@@ -266,6 +266,50 @@ server.registerTool(
   })
 );
 
+server.registerTool(
+  "wp_rest",
+  {
+    title: "WordPress REST call",
+    description:
+      "Call any WordPress REST API endpoint — the general-purpose tool for " +
+      "anything the dedicated tools don't cover: media, settings, menus, " +
+      "categories and tags, users, comments, custom post types, and plugin " +
+      "endpoints. `path` is relative to /wp-json (e.g. /wp/v2/media, " +
+      "/wp/v2/settings, /wp/v2/categories). Any method other than GET modifies " +
+      "the site, so confirm with the user first.",
+    inputSchema: {
+      method: z
+        .enum(["GET", "POST", "PUT", "PATCH", "DELETE"])
+        .optional()
+        .describe("HTTP method (default GET)"),
+      path: z
+        .string()
+        .describe(
+          "REST path under /wp-json, e.g. /wp/v2/categories or /wp/v2/posts/5"
+        ),
+      query: z
+        .record(z.any())
+        .optional()
+        .describe("Query parameters as a flat object"),
+      body: z
+        .record(z.any())
+        .optional()
+        .describe("JSON body for write methods (POST/PUT/PATCH)"),
+    },
+  },
+  tool(async ({ method, path, query, body }) => {
+    let p = path.trim().replace(/^\/?wp-json/, "");
+    if (!p.startsWith("/")) p = "/" + p;
+    const q = query
+      ? Object.fromEntries(
+          Object.entries(query).map(([k, v]) => [k, String(v)])
+        )
+      : undefined;
+    const data = await wp(p, { method: method || "GET", query: q, body });
+    return JSON.stringify(data, null, 2);
+  })
+);
+
 export { server };
 
 async function main() {

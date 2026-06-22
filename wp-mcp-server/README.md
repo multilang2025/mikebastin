@@ -18,9 +18,27 @@ and authenticates with a WordPress **Application Password**.
 | `update_post` | Update a post/page |
 | `publish_post` | Set a post/page status to published |
 | `site_info` | Site name, URL, and public post types (read-only) |
+| `wp_rest` | Call **any** WordPress/plugin REST endpoint (the general-purpose tool) |
 
-Writes (`create_post`, `update_post`, `publish_post`) are confirmed by the Claude
-client's own tool-approval prompt before they run.
+Writes (`create_post`, `update_post`, `publish_post`, and non-GET `wp_rest`
+calls) are confirmed by the Claude client's own tool-approval prompt before they
+run.
+
+### The `wp_rest` tool
+
+`wp_rest` is the WPVibe-style power tool: it reaches anything in the WordPress
+REST API, not just posts. `path` is relative to `/wp-json`. Examples to ask for
+in natural language (Claude fills in the calls):
+
+- Media: `GET /wp/v2/media`, or create with `POST /wp/v2/media`.
+- Categories/tags: `GET /wp/v2/categories`, `POST /wp/v2/tags`.
+- Menus: `GET /wp/v2/menus`, `GET /wp/v2/menu-items`.
+- Settings: `GET /wp/v2/settings`, `POST /wp/v2/settings`.
+- Users: `GET /wp/v2/users`.
+- Custom post types / plugin routes: `GET /wp/v2/<rest_base>`, `GET /<plugin>/v1/...`.
+
+Anything the authenticated user can do through the REST API, the assistant can
+do through `wp_rest`.
 
 ## Prerequisites
 
