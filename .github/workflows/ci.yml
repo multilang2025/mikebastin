@@ -58,4 +58,6 @@ jobs:
 
       - name: Annotate PR with PHPCS findings
         if: always()
-        run: cs2pr ./phpcs-report.xml
+        # --graceful-warnings: annotate warnings but don't fail the job on them,
+        # matching ignore_warnings_on_exit in phpcs.xml.dist.
+        run: cs2pr --graceful-warnings ./phpcs-report.xml
