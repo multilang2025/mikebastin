@@ -107,6 +107,10 @@ class AISA_Agent {
 	 * or a `pending` action the moment a destructive tool is hit while writes
 	 * are not yet approved.
 	 *
+	 * The approval model is one destructive tool per turn: AISA_Claude_Client
+	 * requests serial tool use (disable_parallel_tool_use), so a gated turn
+	 * carries a single tool_use block and the resume executes only that one.
+	 *
 	 * @param array $content      Assistant content blocks.
 	 * @param bool  $allow_writes Whether destructive tools may run.
 	 * @return array { results: array } or { pending: array }.

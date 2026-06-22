@@ -3,7 +3,7 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
-Stable tag: 0.1.0
+Stable tag: 0.4.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -112,6 +112,11 @@ Tips:
   it touches the database.
 
 == Changelog ==
+
+= 0.4.1 =
+* Force serial tool use so the write-approval gate executes only the action the
+  user approved (a turn with multiple write tool calls could previously run all
+  of them off a single approval).
 
 = 0.4.0 =
 * Add a /aisa/v1/postmeta REST endpoint that reads and writes SEO/schema post

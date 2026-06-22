@@ -55,6 +55,15 @@ class AISA_Claude_Client {
 
 		if ( ! empty( $tools ) ) {
 			$body['tools'] = $tools;
+			// One tool call per turn. The write-approval gate (AISA_Agent) returns a
+			// single pending action and resumes with a blanket allow_writes flag, so a
+			// turn with several destructive tool_use blocks would execute every one of
+			// them off a single approval. Forcing serial tool use keeps each write its
+			// own approval round-trip.
+			$body['tool_choice'] = array(
+				'type'                      => 'auto',
+				'disable_parallel_tool_use' => true,
+			);
 		}
 
 		// Adaptive thinking is the recommended mode on Opus 4.8; it has no
