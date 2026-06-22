@@ -139,6 +139,121 @@ class AISA_Tools {
 					'additionalProperties' => false,
 				),
 			),
+			array(
+				'name'         => 'replace_in_post',
+				'description'  => 'Make a TARGETED edit: replace an exact text snippet with new text '
+					. 'in a post/page. Prefer this over update_post for small changes (links, a '
+					. 'sentence) — far faster and avoids timeouts. Read with get_post first and pass '
+					. 'back expected_modified.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'id'                => array( 'type' => 'integer' ),
+						'find'              => array(
+							'type'        => 'string',
+							'description' => 'Exact text to find in the content.',
+						),
+						'replace'           => array(
+							'type'        => 'string',
+							'description' => 'Replacement text.',
+						),
+						'expected_modified' => array(
+							'type'        => 'string',
+							'description' => 'The post_modified value from get_post.',
+						),
+					),
+					'required'             => array( 'id', 'find', 'replace', 'expected_modified' ),
+					'additionalProperties' => false,
+				),
+			),
+			array(
+				'name'         => 'append_to_post',
+				'description'  => 'Append a block of HTML to the end of a post/page (e.g. an author/'
+					. 'EEAT box, a sources list, an FAQ). Faster than rewriting the whole post. Read '
+					. 'with get_post first and pass back expected_modified.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'id'                => array( 'type' => 'integer' ),
+						'html'              => array(
+							'type'        => 'string',
+							'description' => 'HTML to append.',
+						),
+						'expected_modified' => array(
+							'type'        => 'string',
+							'description' => 'The post_modified value from get_post.',
+						),
+					),
+					'required'             => array( 'id', 'html', 'expected_modified' ),
+					'additionalProperties' => false,
+				),
+			),
+			array(
+				'name'         => 'get_seo',
+				'description'  => 'Read a post\'s SEO meta tags (title, description, focus keyword, '
+					. 'canonical, Open Graph, Twitter) and excerpt. Read-only.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array( 'id' => array( 'type' => 'integer' ) ),
+					'required'             => array( 'id' ),
+					'additionalProperties' => false,
+				),
+			),
+			array(
+				'name'         => 'set_seo',
+				'description'  => 'Update a post\'s SEO meta tags (Rank Math or Yoast). Pass any of '
+					. 'meta_title, meta_description, focus_keyword, canonical, og_title, '
+					. 'og_description, twitter_title, twitter_description. Fast — no content rewrite.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'id'                  => array( 'type' => 'integer' ),
+						'meta_title'          => array( 'type' => 'string' ),
+						'meta_description'    => array( 'type' => 'string' ),
+						'focus_keyword'       => array( 'type' => 'string' ),
+						'canonical'           => array( 'type' => 'string' ),
+						'og_title'            => array( 'type' => 'string' ),
+						'og_description'      => array( 'type' => 'string' ),
+						'twitter_title'       => array( 'type' => 'string' ),
+						'twitter_description' => array( 'type' => 'string' ),
+					),
+					'required'             => array( 'id' ),
+					'additionalProperties' => false,
+				),
+			),
+			array(
+				'name'         => 'get_schema',
+				'description'  => 'Read a post\'s Rank Math structured-data (schema) entries, decoded. '
+					. 'Inspect schema before changing it. Read-only.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array( 'id' => array( 'type' => 'integer' ) ),
+					'required'             => array( 'id' ),
+					'additionalProperties' => false,
+				),
+			),
+			array(
+				'name'         => 'set_meta',
+				'description'  => 'Write one SEO/schema meta key (Rank Math / Yoast / AIO SEO keys '
+					. 'only), e.g. rank_math_robots. For structured values pass JSON as the value '
+					. 'string. Fast — no content rewrite.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'id'    => array( 'type' => 'integer' ),
+						'key'   => array(
+							'type'        => 'string',
+							'description' => 'Meta key, e.g. rank_math_robots.',
+						),
+						'value' => array(
+							'type'        => 'string',
+							'description' => 'Value (JSON string for structured data).',
+						),
+					),
+					'required'             => array( 'id', 'key', 'value' ),
+					'additionalProperties' => false,
+				),
+			),
 		);
 	}
 
@@ -149,7 +264,15 @@ class AISA_Tools {
 	 * @return string[]
 	 */
 	public static function destructive_tools() {
-		return array( 'create_post', 'update_post', 'publish_post' );
+		return array(
+			'create_post',
+			'update_post',
+			'publish_post',
+			'replace_in_post',
+			'append_to_post',
+			'set_seo',
+			'set_meta',
+		);
 	}
 
 	/**
@@ -173,6 +296,18 @@ class AISA_Tools {
 				return self::publish_post( $input );
 			case 'get_site_context':
 				return self::get_site_context();
+			case 'replace_in_post':
+				return self::replace_in_post( $input );
+			case 'append_to_post':
+				return self::append_to_post( $input );
+			case 'get_seo':
+				return self::get_seo( $input );
+			case 'set_seo':
+				return self::set_seo( $input );
+			case 'get_schema':
+				return self::get_schema( $input );
+			case 'set_meta':
+				return self::set_meta( $input );
 			default:
 				return self::error( "Unknown tool: {$name}" );
 		}
@@ -369,5 +504,168 @@ class AISA_Tools {
 				)
 			),
 		);
+	}
+
+	/**
+	 * Replace an exact text snippet inside a post's content (targeted edit).
+	 *
+	 * Much cheaper than rewriting the whole post, which keeps long edits under
+	 * gateway timeouts. Guards on permission and staleness like update_post.
+	 *
+	 * @param array $in Tool input.
+	 * @return array Tool result confirming the replacement, or an error.
+	 */
+	private static function replace_in_post( array $in ) {
+		$id = (int) ( $in['id'] ?? 0 );
+		if ( ! current_user_can( 'edit_post', $id ) ) {
+			return self::error( 'Permission denied for this post.' );
+		}
+		$p = get_post( $id );
+		if ( ! $p ) {
+			return self::error( 'Post not found.' );
+		}
+		if ( ( $in['expected_modified'] ?? '' ) !== $p->post_modified ) {
+			return self::error( 'Post changed since you read it. Call get_post again, then retry.' );
+		}
+
+		$find = (string) ( $in['find'] ?? '' );
+		if ( '' === $find ) {
+			return self::error( 'The "find" text is empty.' );
+		}
+		$count = substr_count( $p->post_content, $find );
+		if ( 0 === $count ) {
+			return self::error( 'The "find" text was not found in the content. Read the post again and copy an exact snippet.' );
+		}
+		if ( $count > 1 ) {
+			return self::error( "The \"find\" text appears {$count} times; make it longer/unique so exactly one match is replaced." );
+		}
+
+		$new_content = str_replace( $find, wp_kses_post( $in['replace'] ?? '' ), $p->post_content );
+		$result      = wp_update_post(
+			array(
+				'ID'           => $id,
+				'post_content' => $new_content,
+			),
+			true
+		);
+		if ( is_wp_error( $result ) ) {
+			return self::error( $result->get_error_message() );
+		}
+		AISA_Audit_Log::record( 'replace_in_post', $id, array( 'find' => $find ) );
+		return array( 'content' => "Replaced one snippet in #{$id}." );
+	}
+
+	/**
+	 * Append a block of HTML to the end of a post's content (targeted edit).
+	 *
+	 * @param array $in Tool input.
+	 * @return array Tool result confirming the append, or an error.
+	 */
+	private static function append_to_post( array $in ) {
+		$id = (int) ( $in['id'] ?? 0 );
+		if ( ! current_user_can( 'edit_post', $id ) ) {
+			return self::error( 'Permission denied for this post.' );
+		}
+		$p = get_post( $id );
+		if ( ! $p ) {
+			return self::error( 'Post not found.' );
+		}
+		if ( ( $in['expected_modified'] ?? '' ) !== $p->post_modified ) {
+			return self::error( 'Post changed since you read it. Call get_post again, then retry.' );
+		}
+
+		$html = wp_kses_post( $in['html'] ?? '' );
+		if ( '' === trim( $html ) ) {
+			return self::error( 'The "html" to append is empty.' );
+		}
+		$result = wp_update_post(
+			array(
+				'ID'           => $id,
+				'post_content' => $p->post_content . "\n\n" . $html,
+			),
+			true
+		);
+		if ( is_wp_error( $result ) ) {
+			return self::error( $result->get_error_message() );
+		}
+		AISA_Audit_Log::record( 'append_to_post', $id, array( 'bytes' => strlen( $html ) ) );
+		return array( 'content' => "Appended HTML to #{$id}." );
+	}
+
+	/**
+	 * Read a post's SEO meta tags and excerpt.
+	 *
+	 * @param array $in Tool input.
+	 * @return array Tool result with SEO fields as JSON, or an error.
+	 */
+	private static function get_seo( array $in ) {
+		$id = (int) ( $in['id'] ?? 0 );
+		if ( ! current_user_can( 'edit_post', $id ) ) {
+			return self::error( 'Permission denied for this post.' );
+		}
+		return array( 'content' => wp_json_encode( AISA_SEO::read_fields( $id ) ) );
+	}
+
+	/**
+	 * Update a post's SEO meta tags (Rank Math or Yoast).
+	 *
+	 * @param array $in Tool input.
+	 * @return array Tool result describing applied/rejected fields, or an error.
+	 */
+	private static function set_seo( array $in ) {
+		$id = (int) ( $in['id'] ?? 0 );
+		if ( ! current_user_can( 'edit_post', $id ) ) {
+			return self::error( 'Permission denied for this post.' );
+		}
+		$fields = array();
+		foreach ( array( 'meta_title', 'meta_description', 'focus_keyword', 'canonical', 'og_title', 'og_description', 'twitter_title', 'twitter_description' ) as $field ) {
+			if ( isset( $in[ $field ] ) ) {
+				$fields[ $field ] = (string) $in[ $field ];
+			}
+		}
+		if ( empty( $fields ) ) {
+			return self::error( 'No SEO fields provided. Pass at least one of meta_title, meta_description, etc.' );
+		}
+		return array( 'content' => wp_json_encode( AISA_SEO::write_fields( $id, $fields ) ) );
+	}
+
+	/**
+	 * Read a post's Rank Math structured-data (schema) entries, decoded.
+	 *
+	 * @param array $in Tool input.
+	 * @return array Tool result with schema meta as JSON, or an error.
+	 */
+	private static function get_schema( array $in ) {
+		$id = (int) ( $in['id'] ?? 0 );
+		if ( ! current_user_can( 'edit_post', $id ) ) {
+			return self::error( 'Permission denied for this post.' );
+		}
+		return array( 'content' => wp_json_encode( AISA_Meta::read_meta( $id, 'rank_math_schema' ) ) );
+	}
+
+	/**
+	 * Write one allowlisted SEO/schema meta key. A JSON-string value is decoded
+	 * to a structure first (so schema objects round-trip correctly).
+	 *
+	 * @param array $in Tool input.
+	 * @return array Tool result confirming the write, or an error.
+	 */
+	private static function set_meta( array $in ) {
+		$id = (int) ( $in['id'] ?? 0 );
+		if ( ! current_user_can( 'edit_post', $id ) ) {
+			return self::error( 'Permission denied for this post.' );
+		}
+		$value = $in['value'] ?? '';
+		if ( is_string( $value ) && '' !== $value && ( '{' === $value[0] || '[' === $value[0] ) ) {
+			$decoded = json_decode( $value, true );
+			if ( null !== $decoded ) {
+				$value = $decoded;
+			}
+		}
+		$result = AISA_Meta::write_meta( $id, (string) ( $in['key'] ?? '' ), $value );
+		if ( is_wp_error( $result ) ) {
+			return self::error( $result->get_error_message() );
+		}
+		return array( 'content' => wp_json_encode( $result ) );
 	}
 }
