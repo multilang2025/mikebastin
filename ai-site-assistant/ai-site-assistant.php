@@ -20,12 +20,12 @@ define( 'AISA_VERSION', '0.1.0' );
 define( 'AISA_PATH', plugin_dir_path( __FILE__ ) );
 define( 'AISA_URL', plugin_dir_url( __FILE__ ) );
 
-require_once AISA_PATH . 'includes/class-audit-log.php';
-require_once AISA_PATH . 'includes/class-claude-client.php';
-require_once AISA_PATH . 'includes/class-tools.php';
-require_once AISA_PATH . 'includes/class-agent.php';
-require_once AISA_PATH . 'includes/class-settings.php';
-require_once AISA_PATH . 'includes/class-rest.php';
+require_once AISA_PATH . 'includes/class-aisa-audit-log.php';
+require_once AISA_PATH . 'includes/class-aisa-claude-client.php';
+require_once AISA_PATH . 'includes/class-aisa-tools.php';
+require_once AISA_PATH . 'includes/class-aisa-agent.php';
+require_once AISA_PATH . 'includes/class-aisa-settings.php';
+require_once AISA_PATH . 'includes/class-aisa-rest.php';
 
 /**
  * Boot the plugin once all plugins are loaded.

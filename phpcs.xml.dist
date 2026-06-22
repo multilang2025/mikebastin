@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<ruleset name="AI Site Assistant">
+	<description>Coding standards for the AI Site Assistant plugin.</description>
+
+	<file>ai-site-assistant</file>
+
+	<arg name="extensions" value="php"/>
+	<arg name="colors"/>
+	<arg value="ps"/><!-- show progress and sniff codes -->
+
+	<!--
+	Warnings are shown in the report but do not fail the build. The only current
+	warning is the intentional direct $wpdb write to our own audit table, where
+	caching does not apply.
+	-->
+	<config name="ignore_warnings_on_exit" value="1"/>
+
+	<config name="minimum_supported_wp_version" value="6.3"/>
+
+	<rule ref="WordPress"/>
+
+	<!-- Enforce this plugin's text domain. -->
+	<rule ref="WordPress.WP.I18n">
+		<properties>
+			<property name="text_domain" type="array">
+				<element value="ai-site-assistant"/>
+			</property>
+		</properties>
+	</rule>
+
+	<!-- Enforce this plugin's global prefixes. -->
+	<rule ref="WordPress.NamingConventions.PrefixAllGlobals">
+		<properties>
+			<property name="prefixes" type="array">
+				<element value="AISA"/>
+				<element value="aisa"/>
+			</property>
+		</properties>
+	</rule>
+</ruleset>

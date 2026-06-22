@@ -10,6 +10,9 @@
 
 defined( 'ABSPATH' ) || exit;
 
+/**
+ * Runs the tool-use loop between Claude and the WordPress tool executor.
+ */
 class AISA_Agent {
 
 	const MAX_ITERATIONS = 8;
@@ -75,7 +78,7 @@ class AISA_Agent {
 					);
 				}
 
-				$result = AISA_Tools::dispatch( $block['name'], (array) $block['input'] );
+				$result    = AISA_Tools::dispatch( $block['name'], (array) $block['input'] );
 				$results[] = array(
 					'type'        => 'tool_result',
 					'tool_use_id' => $block['id'],
@@ -96,7 +99,12 @@ class AISA_Agent {
 		);
 	}
 
-	/** Pull the concatenated text blocks out of a response content array. */
+	/**
+	 * Pull the concatenated text blocks out of a response content array.
+	 *
+	 * @param array $content Response content blocks.
+	 * @return string Concatenated text.
+	 */
 	private static function extract_text( array $content ) {
 		$text = '';
 		foreach ( $content as $block ) {

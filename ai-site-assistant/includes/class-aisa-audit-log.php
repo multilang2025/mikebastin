@@ -7,9 +7,16 @@
 
 defined( 'ABSPATH' ) || exit;
 
+/**
+ * Records every write action the assistant performs to a custom table.
+ */
 class AISA_Audit_Log {
 
-	/** @return string Fully-qualified table name. */
+	/**
+	 * The audit table name.
+	 *
+	 * @return string Fully-qualified table name.
+	 */
 	public static function table() {
 		global $wpdb;
 		return $wpdb->prefix . 'aisa_audit';

@@ -11,6 +11,9 @@
 
 defined( 'ABSPATH' ) || exit;
 
+/**
+ * Sends requests to the Claude Messages API.
+ */
 class AISA_Claude_Client {
 
 	const API_URL     = 'https://api.anthropic.com/v1/messages';
