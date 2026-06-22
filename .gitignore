@@ -1,0 +1,18 @@
+# Dependencies
+/vendor/
+node_modules/
+
+# Build output
+/ai-site-assistant/build/
+/ai-site-assistant/admin/js/*.min.js
+
+# Local / editor
+.DS_Store
+*.log
+.idea/
+.vscode/
+
+# WordPress local env
+wp-cli.local.yml
+.env
+phpcs-report.xml

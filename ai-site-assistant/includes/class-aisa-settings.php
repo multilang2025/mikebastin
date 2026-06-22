@@ -7,20 +7,29 @@
 
 defined( 'ABSPATH' ) || exit;
 
+/**
+ * Admin menu, the settings (API key) page, and the chat page.
+ */
 class AISA_Settings {
 
 	const OPTION_KEY = 'aisa_settings';
 
+	/**
+	 * Register admin hooks.
+	 */
 	public static function init() {
 		add_action( 'admin_menu', array( __CLASS__, 'menu' ) );
 		add_action( 'admin_init', array( __CLASS__, 'register' ) );
 		add_action( 'admin_enqueue_scripts', array( __CLASS__, 'assets' ) );
 	}
 
+	/**
+	 * Register the admin menu and submenu pages.
+	 */
 	public static function menu() {
 		add_menu_page(
-			__( 'AI Site Assistant', 'ai-site-assistant' ),
-			__( 'AI Assistant', 'ai-site-assistant' ),
+			__( 'AISA Connector', 'ai-site-assistant' ),
+			__( 'AISA Connector', 'ai-site-assistant' ),
 			'edit_posts',
 			'aisa-chat',
 			array( __CLASS__, 'render_chat' ),
@@ -37,6 +46,9 @@ class AISA_Settings {
 		);
 	}
 
+	/**
+	 * Register the settings option and its sanitizer.
+	 */
 	public static function register() {
 		register_setting(
 			'aisa_settings_group',
@@ -48,6 +60,9 @@ class AISA_Settings {
 	/**
 	 * Sanitize settings. The API key is stored as-is in options; for production,
 	 * encrypt it at rest or read it from wp-config / an env var instead.
+	 *
+	 * @param array $input Raw submitted settings.
+	 * @return array Sanitized settings.
 	 */
 	public static function sanitize( $input ) {
 		return array(
@@ -55,7 +70,11 @@ class AISA_Settings {
 		);
 	}
 
-	/** @return string The configured API key (or empty string). */
+	/**
+	 * Resolve the configured API key.
+	 *
+	 * @return string The configured API key (or empty string).
+	 */
 	public static function get_api_key() {
 		// Prefer a constant in wp-config.php so the key never lives in the DB.
 		if ( defined( 'AISA_API_KEY' ) && AISA_API_KEY ) {
@@ -65,6 +84,11 @@ class AISA_Settings {
 		return $opts['api_key'] ?? '';
 	}
 
+	/**
+	 * Enqueue the chat UI assets on the assistant page only.
+	 *
+	 * @param string $hook Current admin page hook suffix.
+	 */
 	public static function assets( $hook ) {
 		if ( 'toplevel_page_aisa-chat' !== $hook ) {
 			return;
@@ -81,10 +105,13 @@ class AISA_Settings {
 		);
 	}
 
+	/**
+	 * Render the settings (API key) page.
+	 */
 	public static function render_settings() {
 		?>
 		<div class="wrap">
-			<h1><?php esc_html_e( 'AI Site Assistant — Settings', 'ai-site-assistant' ); ?></h1>
+			<h1><?php esc_html_e( 'AISA Connector — Settings', 'ai-site-assistant' ); ?></h1>
 			<?php if ( defined( 'AISA_API_KEY' ) && AISA_API_KEY ) : ?>
 				<p><strong><?php esc_html_e( 'API key is set via the AISA_API_KEY constant in wp-config.php.', 'ai-site-assistant' ); ?></strong></p>
 			<?php endif; ?>
@@ -111,10 +138,13 @@ class AISA_Settings {
 		<?php
 	}
 
+	/**
+	 * Render the chat page.
+	 */
 	public static function render_chat() {
 		?>
 		<div class="wrap">
-			<h1><?php esc_html_e( 'AI Site Assistant', 'ai-site-assistant' ); ?></h1>
+			<h1><?php esc_html_e( 'AISA Connector', 'ai-site-assistant' ); ?></h1>
 			<div id="aisa-app">
 				<div id="aisa-log" class="aisa-log" aria-live="polite"></div>
 				<form id="aisa-form" class="aisa-form">
