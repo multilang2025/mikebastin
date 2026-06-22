@@ -3,7 +3,7 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
-Stable tag: 0.4.1
+Stable tag: 0.4.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -112,6 +112,20 @@ Tips:
   it touches the database.
 
 == Changelog ==
+
+= 0.4.3 =
+* Add targeted, fast edit tools so common SEO work no longer times out with
+  "The response is not a valid JSON response": replace_in_post (swap one exact
+  snippet), append_to_post (add a block at the end), get_seo/set_seo (meta
+  tags), get_schema/set_meta (structured data). The assistant now prefers small
+  edits over rewriting whole posts.
+* Teach the assistant task "skills" via its system prompt: EEAT, NLP/
+  readability, internal links, meta tags, and schema each get a concrete
+  playbook, plus page-builder awareness (Classic/Gutenberg/Divi edit in
+  post_content; Elementor body edits are flagged as unsupported while its SEO
+  meta and schema still work).
+* The four new write tools (replace_in_post, append_to_post, set_seo, set_meta)
+  are gated behind the same Approve / Cancel confirmation as other writes.
 
 = 0.4.2 =
 * Fix "tool_use.input: Input should be an object" — a tool called with no

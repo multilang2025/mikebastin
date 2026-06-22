@@ -101,32 +101,29 @@ class AISA_SEO {
 	}
 
 	/**
-	 * Read SEO fields and the excerpt for a post.
+	 * Read SEO fields and the excerpt for a post (reusable by REST and tools).
 	 *
-	 * @param WP_REST_Request $request Incoming request.
-	 * @return WP_REST_Response
+	 * @param int $id Post ID.
+	 * @return array engine + friendly field values + excerpt.
 	 */
-	public static function get_meta( WP_REST_Request $request ) {
-		$id  = (int) $request->get_param( 'id' );
+	public static function read_fields( $id ) {
 		$out = array( 'engine' => self::engine() );
 		foreach ( self::field_map() as $friendly => $key ) {
-			$out[ $friendly ] = (string) get_post_meta( $id, $key, true );
+			$out[ $friendly ] = (string) get_post_meta( (int) $id, $key, true );
 		}
-		$out['excerpt'] = get_post_field( 'post_excerpt', $id );
-		return rest_ensure_response( $out );
+		$out['excerpt'] = get_post_field( 'post_excerpt', (int) $id );
+		return $out;
 	}
 
 	/**
-	 * Update SEO fields for a post. Unknown fields are rejected, not written.
+	 * Write SEO fields for a post. Unknown fields are rejected, not written.
 	 *
-	 * @param WP_REST_Request $request Incoming request.
-	 * @return WP_REST_Response
+	 * @param int   $id   Post ID.
+	 * @param array $meta Friendly field => value.
+	 * @return array engine + applied + rejected field lists.
 	 */
-	public static function set_meta( WP_REST_Request $request ) {
-		$id   = (int) $request->get_param( 'id' );
-		$meta = (array) $request->get_param( 'meta' );
-		$map  = self::field_map();
-
+	public static function write_fields( $id, array $meta ) {
+		$map      = self::field_map();
 		$applied  = array();
 		$rejected = array();
 		foreach ( $meta as $friendly => $value ) {
@@ -137,20 +134,42 @@ class AISA_SEO {
 			$clean = ( 'canonical' === $friendly )
 				? esc_url_raw( (string) $value )
 				: sanitize_text_field( (string) $value );
-			update_post_meta( $id, $map[ $friendly ], $clean );
+			update_post_meta( (int) $id, $map[ $friendly ], $clean );
 			$applied[] = $friendly;
 		}
 
 		if ( ! empty( $applied ) ) {
-			AISA_Audit_Log::record( 'set_seo', $id, array( 'fields' => $applied ) );
+			AISA_Audit_Log::record( 'set_seo', (int) $id, array( 'fields' => $applied ) );
 		}
 
-		return rest_ensure_response(
-			array(
-				'engine'   => self::engine(),
-				'applied'  => $applied,
-				'rejected' => $rejected,
-			)
+		return array(
+			'engine'   => self::engine(),
+			'applied'  => $applied,
+			'rejected' => $rejected,
 		);
+	}
+
+	/**
+	 * REST: read SEO fields and excerpt for a post.
+	 *
+	 * @param WP_REST_Request $request Incoming request.
+	 * @return WP_REST_Response
+	 */
+	public static function get_meta( WP_REST_Request $request ) {
+		return rest_ensure_response( self::read_fields( (int) $request->get_param( 'id' ) ) );
+	}
+
+	/**
+	 * REST: update SEO fields for a post.
+	 *
+	 * @param WP_REST_Request $request Incoming request.
+	 * @return WP_REST_Response
+	 */
+	public static function set_meta( WP_REST_Request $request ) {
+		$result = self::write_fields(
+			(int) $request->get_param( 'id' ),
+			(array) $request->get_param( 'meta' )
+		);
+		return rest_ensure_response( $result );
 	}
 }

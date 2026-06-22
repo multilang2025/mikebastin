@@ -81,23 +81,22 @@ class AISA_Meta {
 	}
 
 	/**
-	 * Read allowlisted meta for a post, optionally filtered by prefix or keys.
+	 * Read allowlisted meta for a post (reusable by REST and tools).
 	 *
-	 * @param WP_REST_Request $request Incoming request.
-	 * @return WP_REST_Response
+	 * @param int          $id     Post ID.
+	 * @param string       $prefix Optional key prefix filter.
+	 * @param array|string $keys   Optional explicit keys (array or CSV string).
+	 * @return array key => (unserialized) value.
 	 */
-	public static function get_meta( WP_REST_Request $request ) {
-		$id     = (int) $request->get_param( 'id' );
-		$prefix = (string) $request->get_param( 'prefix' );
-		$keys   = $request->get_param( 'keys' );
+	public static function read_meta( $id, $prefix = '', $keys = array() ) {
 		if ( is_string( $keys ) ) {
 			$keys = '' === $keys ? array() : array_map( 'trim', explode( ',', $keys ) );
 		}
 		$keys = (array) $keys;
 
-		$all = get_post_meta( $id );
+		$all = get_post_meta( (int) $id );
 		$out = array();
-		foreach ( $all as $key => $values ) {
+		foreach ( (array) $all as $key => $values ) {
 			if ( ! self::is_allowed( $key ) ) {
 				continue;
 			}
@@ -109,20 +108,20 @@ class AISA_Meta {
 			}
 			$out[ $key ] = maybe_unserialize( $values[0] );
 		}
-
-		return rest_ensure_response( $out );
+		return $out;
 	}
 
 	/**
-	 * Write one allowlisted meta key. The value may be a scalar or a nested
-	 * structure (e.g. a schema object); string leaves are sanitized.
+	 * Write one allowlisted meta key (reusable by REST and tools). The value may
+	 * be a scalar or a nested structure (e.g. a schema object); string leaves
+	 * are sanitized.
 	 *
-	 * @param WP_REST_Request $request Incoming request.
-	 * @return WP_REST_Response|WP_Error
+	 * @param int    $id    Post ID.
+	 * @param string $key   Meta key (must be within an allowed prefix).
+	 * @param mixed  $value Value to write.
+	 * @return array|WP_Error Result, or WP_Error when the key is not allowed.
 	 */
-	public static function set_meta( WP_REST_Request $request ) {
-		$id  = (int) $request->get_param( 'id' );
-		$key = (string) $request->get_param( 'key' );
+	public static function write_meta( $id, $key, $value ) {
 		if ( ! self::is_allowed( $key ) ) {
 			return new WP_Error(
 				'aisa_meta_forbidden',
@@ -130,18 +129,47 @@ class AISA_Meta {
 				array( 'status' => 400 )
 			);
 		}
+		update_post_meta( (int) $id, $key, self::sanitize_value( $value ) );
+		AISA_Audit_Log::record( 'set_meta', (int) $id, array( 'key' => $key ) );
+		return array(
+			'id'    => (int) $id,
+			'key'   => $key,
+			'saved' => true,
+		);
+	}
 
-		$value = self::sanitize_value( $request->get_param( 'value' ) );
-		update_post_meta( $id, $key, $value );
-		AISA_Audit_Log::record( 'set_meta', $id, array( 'key' => $key ) );
-
+	/**
+	 * REST: read allowlisted meta for a post.
+	 *
+	 * @param WP_REST_Request $request Incoming request.
+	 * @return WP_REST_Response
+	 */
+	public static function get_meta( WP_REST_Request $request ) {
 		return rest_ensure_response(
-			array(
-				'id'    => $id,
-				'key'   => $key,
-				'saved' => true,
+			self::read_meta(
+				(int) $request->get_param( 'id' ),
+				(string) $request->get_param( 'prefix' ),
+				$request->get_param( 'keys' )
 			)
 		);
+	}
+
+	/**
+	 * REST: write one allowlisted meta key.
+	 *
+	 * @param WP_REST_Request $request Incoming request.
+	 * @return WP_REST_Response|WP_Error
+	 */
+	public static function set_meta( WP_REST_Request $request ) {
+		$result = self::write_meta(
+			(int) $request->get_param( 'id' ),
+			(string) $request->get_param( 'key' ),
+			$request->get_param( 'value' )
+		);
+		if ( is_wp_error( $result ) ) {
+			return $result;
+		}
+		return rest_ensure_response( $result );
 	}
 
 	/**
