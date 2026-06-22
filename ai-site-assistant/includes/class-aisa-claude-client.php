@@ -39,7 +39,7 @@ class AISA_Claude_Client {
 		$body = array(
 			'model'      => $args['model'] ?? self::DEFAULT_MODEL,
 			'max_tokens' => $args['max_tokens'] ?? 8192,
-			'messages'   => $messages,
+			'messages'   => self::normalize_messages( $messages ),
 		);
 
 		if ( ! empty( $args['system'] ) ) {
@@ -96,5 +96,79 @@ class AISA_Claude_Client {
 		}
 
 		return $decoded;
+	}
+
+	/**
+	 * Make a conversation safe to send to the Messages API:
+	 *
+	 *  - Force every tool_use `input` to encode as a JSON object. PHP decodes an
+	 *    empty `{}` to an empty array, which would re-encode as `[]` and be
+	 *    rejected with "tool_use.input: Input should be an object".
+	 *  - Guarantee every tool_use block is answered by a tool_result in the next
+	 *    message. If the approval flow was interrupted (the user typed a new
+	 *    message instead of approving), inject a synthetic tool_result so the API
+	 *    does not reject the unanswered tool_use.
+	 *
+	 * @param array $messages Conversation messages.
+	 * @return array Sanitized messages.
+	 */
+	private static function normalize_messages( array $messages ) {
+		$out   = array();
+		$count = count( $messages );
+
+		for ( $i = 0; $i < $count; $i++ ) {
+			$message      = $messages[ $i ];
+			$tool_use_ids = array();
+
+			if ( isset( $message['content'] ) && is_array( $message['content'] ) ) {
+				foreach ( $message['content'] as &$block ) {
+					if ( is_array( $block ) && isset( $block['type'] ) && 'tool_use' === $block['type'] ) {
+						$block['input'] = isset( $block['input'] ) ? (object) $block['input'] : (object) array();
+						if ( isset( $block['id'] ) ) {
+							$tool_use_ids[] = $block['id'];
+						}
+					}
+				}
+				unset( $block );
+			}
+
+			$out[] = $message;
+
+			if ( empty( $tool_use_ids ) ) {
+				continue;
+			}
+
+			// Collect the tool_result IDs already present in the next message.
+			$answered = array();
+			$next     = $messages[ $i + 1 ] ?? null;
+			if ( is_array( $next ) && isset( $next['content'] ) && is_array( $next['content'] ) ) {
+				foreach ( $next['content'] as $block ) {
+					if ( is_array( $block ) && isset( $block['type'], $block['tool_use_id'] ) && 'tool_result' === $block['type'] ) {
+						$answered[] = $block['tool_use_id'];
+					}
+				}
+			}
+
+			$missing = array_diff( $tool_use_ids, $answered );
+			if ( empty( $missing ) ) {
+				continue;
+			}
+
+			$results = array();
+			foreach ( $missing as $id ) {
+				$results[] = array(
+					'type'        => 'tool_result',
+					'tool_use_id' => $id,
+					'content'     => 'This action was not run.',
+					'is_error'    => true,
+				);
+			}
+			$out[] = array(
+				'role'    => 'user',
+				'content' => $results,
+			);
+		}
+
+		return $out;
 	}
 }

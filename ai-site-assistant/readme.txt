@@ -113,6 +113,15 @@ Tips:
 
 == Changelog ==
 
+= 0.4.2 =
+* Fix "tool_use.input: Input should be an object" — a tool called with no
+  arguments (empty input) round-tripped through PHP as an array and was rejected
+  by the API. tool_use inputs are now always sent as objects.
+* Fix "tool_use ids were found without tool_result blocks" — when the user typed
+  a new message instead of clicking Approve, the pending tool call was left
+  unanswered. The outgoing conversation is now repaired so every tool_use has a
+  tool_result.
+
 = 0.4.1 =
 * Rename the plugin's display name to "AISA Connector" (folder slug, AISA_
   prefixes, and aisa/v1 REST namespace unchanged) to avoid confusion when
