@@ -30,7 +30,9 @@ run.
 REST API, not just posts. `path` is relative to `/wp-json`. Examples to ask for
 in natural language (Claude fills in the calls):
 
-- Media: `GET /wp/v2/media`, or create with `POST /wp/v2/media`.
+- Media: `GET /wp/v2/media` (list), `POST /wp/v2/media/<id>` (edit metadata).
+  Uploading a new image *file* needs binary/multipart, which `wp_rest` (JSON
+  only) does not do — that's the separate media feature.
 - Categories/tags: `GET /wp/v2/categories`, `POST /wp/v2/tags`.
 - Menus: `GET /wp/v2/menus`, `GET /wp/v2/menu-items`.
 - Settings: `GET /wp/v2/settings`, `POST /wp/v2/settings`.
