@@ -148,6 +148,7 @@ server.registerTool(
         id: p.id,
         title: p.title?.raw ?? p.title?.rendered ?? "",
         content: p.content?.raw ?? "",
+        excerpt: p.excerpt?.raw ?? "",
         status: p.status,
         type: p.type,
         link: p.link,
@@ -169,6 +170,7 @@ server.registerTool(
     inputSchema: {
       title: z.string().describe("Post title"),
       content: z.string().describe("HTML or block markup"),
+      excerpt: z.string().optional().describe("Optional excerpt"),
       post_type: z.string().optional().describe("post or page (default post)"),
       status: z
         .string()
@@ -176,10 +178,12 @@ server.registerTool(
         .describe("draft or publish (default draft)"),
     },
   },
-  tool(async ({ title, content, post_type, status }) => {
+  tool(async ({ title, content, excerpt, post_type, status }) => {
+    const body = { title, content, status: status || "draft" };
+    if (excerpt !== undefined) body.excerpt = excerpt;
     const p = await wp(`/wp/v2/${restBase(post_type)}`, {
       method: "POST",
-      body: { title, content, status: status || "draft" },
+      body,
     });
     return JSON.stringify(
       { id: p.id, status: p.status, link: p.link },
@@ -200,13 +204,15 @@ server.registerTool(
       id: z.number().int().describe("Post ID"),
       title: z.string().optional(),
       content: z.string().optional(),
+      excerpt: z.string().optional(),
       post_type: z.string().optional().describe("post or page (default post)"),
     },
   },
-  tool(async ({ id, title, content, post_type }) => {
+  tool(async ({ id, title, content, excerpt, post_type }) => {
     const body = {};
     if (title !== undefined) body.title = title;
     if (content !== undefined) body.content = content;
+    if (excerpt !== undefined) body.excerpt = excerpt;
     const p = await wp(`/wp/v2/${restBase(post_type)}/${id}`, {
       method: "POST",
       body,
@@ -306,6 +312,197 @@ server.registerTool(
         )
       : undefined;
     const data = await wp(p, { method: method || "GET", query: q, body });
+    return JSON.stringify(data, null, 2);
+  })
+);
+
+server.registerTool(
+  "upload_media",
+  {
+    title: "Upload media from URL",
+    description:
+      "Download an image from a public URL and add it to the Media Library. " +
+      "Optionally set title/alt text and make it a post's featured image. " +
+      "WRITE ACTION — confirm with the user first.",
+    inputSchema: {
+      url: z.string().describe("Public URL of the image to upload"),
+      filename: z
+        .string()
+        .optional()
+        .describe("Filename to store as (default derived from the URL)"),
+      title: z.string().optional(),
+      alt_text: z.string().optional(),
+      featured_for_post: z
+        .number()
+        .int()
+        .optional()
+        .describe("If set, use the uploaded image as this post's featured image"),
+    },
+  },
+  tool(async ({ url, filename, title, alt_text, featured_for_post }) => {
+    const dl = await fetch(url);
+    if (!dl.ok) throw new Error(`fetch image: HTTP ${dl.status}`);
+    const contentType =
+      dl.headers.get("content-type") || "application/octet-stream";
+    const buf = Buffer.from(await dl.arrayBuffer());
+    const name =
+      filename || new URL(url).pathname.split("/").pop() || "upload";
+
+    const res = await fetch(`${WP_URL}/wp-json/wp/v2/media`, {
+      method: "POST",
+      headers: {
+        Authorization: AUTH,
+        "Content-Type": contentType,
+        "Content-Disposition": `attachment; filename="${name}"`,
+        Accept: "application/json",
+      },
+      body: buf,
+    });
+    const text = await res.text();
+    let media;
+    try {
+      media = JSON.parse(text);
+    } catch {
+      media = null;
+    }
+    if (!res.ok) {
+      throw new Error((media && media.message) || `HTTP ${res.status}`);
+    }
+
+    if (title || alt_text) {
+      await wp(`/wp/v2/media/${media.id}`, {
+        method: "POST",
+        body: {
+          ...(title ? { title } : {}),
+          ...(alt_text ? { alt_text } : {}),
+        },
+      });
+    }
+    if (featured_for_post) {
+      await wp(`/wp/v2/posts/${featured_for_post}`, {
+        method: "POST",
+        body: { featured_media: media.id },
+      });
+    }
+    return JSON.stringify(
+      { id: media.id, source_url: media.source_url, link: media.link },
+      null,
+      2
+    );
+  })
+);
+
+server.registerTool(
+  "search_replace",
+  {
+    title: "Search and replace text",
+    description:
+      "Find an exact text string across posts/pages and replace it. Scans " +
+      "matching content and updates each affected post's content (and title " +
+      "when include_title is set). Set dry_run true to preview the matches " +
+      "without writing. WRITE ACTION when dry_run is false. Note: matches " +
+      "content stored in post_content; content managed by a page builder may " +
+      "live elsewhere.",
+    inputSchema: {
+      search: z.string().describe("Exact substring to find"),
+      replace: z.string().describe("Replacement text"),
+      post_type: z.string().optional().describe("post or page (default post)"),
+      include_title: z
+        .boolean()
+        .optional()
+        .describe("Also replace in titles (default false)"),
+      dry_run: z
+        .boolean()
+        .optional()
+        .describe("Preview matches without writing (default false)"),
+      limit: z
+        .number()
+        .int()
+        .optional()
+        .describe("Max posts to scan (default 50)"),
+    },
+  },
+  tool(async ({ search, replace, post_type, include_title, dry_run, limit }) => {
+    const base = restBase(post_type);
+    const rows = await wp(`/wp/v2/${base}`, {
+      query: {
+        search,
+        per_page: Math.min(limit || 50, 100),
+        status: "any",
+        context: "edit",
+        _fields: "id,title,content",
+      },
+    });
+    const changed = [];
+    for (const p of rows || []) {
+      const content = p.content?.raw ?? "";
+      const titleRaw = p.title?.raw ?? "";
+      const hitContent = content.includes(search);
+      const hitTitle = include_title && titleRaw.includes(search);
+      if (!hitContent && !hitTitle) continue;
+      const body = {};
+      if (hitContent) body.content = content.split(search).join(replace);
+      if (hitTitle) body.title = titleRaw.split(search).join(replace);
+      changed.push({ id: p.id, title: titleRaw, fields: Object.keys(body) });
+      if (!dry_run) {
+        await wp(`/wp/v2/${base}/${p.id}`, { method: "POST", body });
+      }
+    }
+    return JSON.stringify(
+      { dry_run: Boolean(dry_run), matched: changed.length, posts: changed },
+      null,
+      2
+    );
+  })
+);
+
+server.registerTool(
+  "get_seo",
+  {
+    title: "Get SEO fields",
+    description:
+      "Read a post's SEO meta tags (title, meta description, focus keyword, " +
+      "canonical, Open Graph / Twitter) and excerpt. Requires the AI Site " +
+      "Assistant plugin (v0.3.0+) installed on the site to expose these meta " +
+      "keys. Read-only.",
+    inputSchema: { id: z.number().int().describe("Post ID") },
+  },
+  tool(async ({ id }) => {
+    const data = await wp("/aisa/v1/meta", { query: { id } });
+    return JSON.stringify(data, null, 2);
+  })
+);
+
+server.registerTool(
+  "set_seo",
+  {
+    title: "Set SEO fields",
+    description:
+      "Update a post's SEO meta tags. Pass any of: meta_title, " +
+      "meta_description, focus_keyword, canonical, og_title, og_description, " +
+      "twitter_title, twitter_description. Requires the AI Site Assistant " +
+      "plugin (v0.3.0+). WRITE ACTION — confirm with the user first.",
+    inputSchema: {
+      id: z.number().int().describe("Post ID"),
+      meta_title: z.string().optional(),
+      meta_description: z.string().optional(),
+      focus_keyword: z.string().optional(),
+      canonical: z.string().optional(),
+      og_title: z.string().optional(),
+      og_description: z.string().optional(),
+      twitter_title: z.string().optional(),
+      twitter_description: z.string().optional(),
+    },
+  },
+  tool(async ({ id, ...fields }) => {
+    const meta = {};
+    for (const [k, v] of Object.entries(fields)) {
+      if (v !== undefined) meta[k] = v;
+    }
+    const data = await wp("/aisa/v1/meta", {
+      method: "POST",
+      body: { id, meta },
+    });
     return JSON.stringify(data, null, 2);
   })
 );

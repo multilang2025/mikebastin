@@ -113,6 +113,12 @@ Tips:
 
 == Changelog ==
 
+= 0.3.0 =
+* Add a /aisa/v1/meta REST endpoint that exposes a post's SEO meta tags
+  (Rank Math or Yoast — title, description, focus keyword, canonical, Open
+  Graph, Twitter) and excerpt under stable field names, so the companion MCP
+  server's get_seo/set_seo tools can read and write them.
+
 = 0.2.0 =
 * Extend the PHP time limit on assistant requests so long edits no longer fail
   with "The response is not a valid JSON response" on hosts with a short
