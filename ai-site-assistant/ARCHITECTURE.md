@@ -1,6 +1,6 @@
 # Architecture
 
-AI Site Assistant is a standalone WordPress plugin that calls the Claude
+AISA Connector is a standalone WordPress plugin that calls the Claude
 Messages API with the site owner's own API key. Because each site pays its own
 provider per use, there are no daily usage caps.
 

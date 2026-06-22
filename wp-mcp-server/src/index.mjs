@@ -400,9 +400,10 @@ server.registerTool(
       "Find an exact text string across posts/pages and replace it. Scans " +
       "matching content and updates each affected post's content (and title " +
       "when include_title is set). Set dry_run true to preview the matches " +
-      "without writing. WRITE ACTION when dry_run is false. Note: matches " +
-      "content stored in post_content; content managed by a page builder may " +
-      "live elsewhere.",
+      "without writing. WRITE ACTION when dry_run is false. Scans posts " +
+      "directly and matches the exact substring locally (so HTML, URLs, and " +
+      "partial words are found). Note: matches content stored in post_content; " +
+      "content managed by a page builder may live elsewhere.",
     inputSchema: {
       search: z.string().describe("Exact substring to find"),
       replace: z.string().describe("Replacement text"),
@@ -424,32 +425,57 @@ server.registerTool(
   },
   tool(async ({ search, replace, post_type, include_title, dry_run, limit }) => {
     const base = restBase(post_type);
-    const rows = await wp(`/wp/v2/${base}`, {
-      query: {
-        search,
-        per_page: Math.min(limit || 50, 100),
-        status: "any",
-        context: "edit",
-        _fields: "id,title,content",
-      },
-    });
+    // Scan posts directly and page through them. The WP `search` param only
+    // matches whole words, so it can't reliably find arbitrary substrings
+    // (HTML, URLs, partial words); filtering locally avoids missing real hits.
+    const max = limit || 50;
+    const perPage = Math.min(max, 100);
     const changed = [];
-    for (const p of rows || []) {
-      const content = p.content?.raw ?? "";
-      const titleRaw = p.title?.raw ?? "";
-      const hitContent = content.includes(search);
-      const hitTitle = include_title && titleRaw.includes(search);
-      if (!hitContent && !hitTitle) continue;
-      const body = {};
-      if (hitContent) body.content = content.split(search).join(replace);
-      if (hitTitle) body.title = titleRaw.split(search).join(replace);
-      changed.push({ id: p.id, title: titleRaw, fields: Object.keys(body) });
-      if (!dry_run) {
-        await wp(`/wp/v2/${base}/${p.id}`, { method: "POST", body });
+    let scanned = 0;
+    for (let page = 1; scanned < max; page++) {
+      let rows;
+      try {
+        rows = await wp(`/wp/v2/${base}`, {
+          query: {
+            per_page: perPage,
+            page,
+            status: "any",
+            context: "edit",
+            orderby: "id",
+            order: "asc",
+            _fields: "id,title,content",
+          },
+        });
+      } catch {
+        // Paging past the last page returns an error — treat as end of list.
+        break;
       }
+      if (!Array.isArray(rows) || rows.length === 0) break;
+      for (const p of rows) {
+        if (scanned >= max) break;
+        scanned++;
+        const content = p.content?.raw ?? "";
+        const titleRaw = p.title?.raw ?? "";
+        const hitContent = content.includes(search);
+        const hitTitle = include_title && titleRaw.includes(search);
+        if (!hitContent && !hitTitle) continue;
+        const body = {};
+        if (hitContent) body.content = content.split(search).join(replace);
+        if (hitTitle) body.title = titleRaw.split(search).join(replace);
+        changed.push({ id: p.id, title: titleRaw, fields: Object.keys(body) });
+        if (!dry_run) {
+          await wp(`/wp/v2/${base}/${p.id}`, { method: "POST", body });
+        }
+      }
+      if (rows.length < perPage) break;
     }
     return JSON.stringify(
-      { dry_run: Boolean(dry_run), matched: changed.length, posts: changed },
+      {
+        dry_run: Boolean(dry_run),
+        scanned,
+        matched: changed.length,
+        posts: changed,
+      },
       null,
       2
     );
@@ -480,7 +506,7 @@ server.registerTool(
     description:
       "Update a post's SEO meta tags. Pass any of: meta_title, " +
       "meta_description, focus_keyword, canonical, og_title, og_description, " +
-      "twitter_title, twitter_description. Requires the AI Site Assistant " +
+      "twitter_title, twitter_description. Requires the AISA Connector " +
       "plugin (v0.3.0+). WRITE ACTION — confirm with the user first.",
     inputSchema: {
       id: z.number().int().describe("Post ID"),
@@ -514,7 +540,7 @@ server.registerTool(
     description:
       "Read a post's raw SEO/schema meta (Rank Math, Yoast, AIO SEO keys), " +
       "including structured-data entries. Optionally filter by a key prefix or " +
-      "an explicit list of keys. Requires the AI Site Assistant plugin " +
+      "an explicit list of keys. Requires the AISA Connector plugin " +
       "(v0.4.0+). Read-only.",
     inputSchema: {
       id: z.number().int().describe("Post ID"),
@@ -544,7 +570,7 @@ server.registerTool(
     description:
       "Read a post's Rank Math structured-data (schema) entries, decoded. " +
       "Use this to inspect existing schema before editing it with set_meta. " +
-      "Requires the AI Site Assistant plugin (v0.4.0+). Read-only.",
+      "Requires the AISA Connector plugin (v0.4.0+). Read-only.",
     inputSchema: { id: z.number().int().describe("Post ID") },
   },
   tool(async ({ id }) => {
@@ -563,7 +589,7 @@ server.registerTool(
       "Write one SEO/schema meta key on a post. `value` may be a string or a " +
       "nested object/array (e.g. a schema entry — read an existing one with " +
       "get_schema first to match the format). Only Rank Math / Yoast / AIO SEO " +
-      "keys are allowed. Requires the AI Site Assistant plugin (v0.4.0+). " +
+      "keys are allowed. Requires the AISA Connector plugin (v0.4.0+). " +
       "WRITE ACTION — confirm with the user first.",
     inputSchema: {
       id: z.number().int().describe("Post ID"),
