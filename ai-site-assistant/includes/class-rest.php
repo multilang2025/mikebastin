@@ -1,0 +1,60 @@
+<?php
+/**
+ * REST endpoint that the admin chat UI calls. Keeps the API key server-side —
+ * the browser never sees it.
+ *
+ * @package AI_Site_Assistant
+ */
+
+defined( 'ABSPATH' ) || exit;
+
+class AISA_REST {
+
+	public static function init() {
+		add_action( 'rest_api_init', array( __CLASS__, 'routes' ) );
+	}
+
+	public static function routes() {
+		register_rest_route(
+			'aisa/v1',
+			'/chat',
+			array(
+				'methods'             => 'POST',
+				'callback'            => array( __CLASS__, 'chat' ),
+				'permission_callback' => array( __CLASS__, 'can_use' ),
+				'args'                => array(
+					'messages'     => array( 'required' => true ),
+					'allow_writes' => array( 'required' => false, 'default' => false ),
+				),
+			)
+		);
+	}
+
+	/** Only logged-in users who can edit content may use the assistant. */
+	public static function can_use() {
+		return current_user_can( 'edit_posts' );
+	}
+
+	/**
+	 * Handle one turn. `messages` is the running conversation from the client;
+	 * the API is stateless so the full history is sent each time.
+	 */
+	public static function chat( WP_REST_Request $request ) {
+		$messages     = (array) $request->get_param( 'messages' );
+		$allow_writes = (bool) $request->get_param( 'allow_writes' );
+
+		if ( empty( $messages ) ) {
+			return new WP_Error( 'aisa_empty', __( 'No messages provided.', 'ai-site-assistant' ), array( 'status' => 400 ) );
+		}
+
+		$result = AISA_Agent::run( $messages, $allow_writes );
+
+		return rest_ensure_response(
+			array(
+				'reply'    => $result['reply'],
+				'messages' => $result['messages'],
+				'pending'  => $result['pending'] ?? null,
+			)
+		);
+	}
+}
