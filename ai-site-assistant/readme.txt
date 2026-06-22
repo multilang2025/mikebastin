@@ -59,9 +59,12 @@ To publish a new version:
 
 Notes:
 
-* This works out of the box when the repo is **public**. For a **private** repo,
-  define `AISA_GITHUB_TOKEN` in `wp-config.php` to enable update detection; a
-  fully private one-click install needs an extra download-auth step.
+* Public repo: works with no configuration.
+* Private repo: define `AISA_GITHUB_TOKEN` in `wp-config.php` with a token that
+  has read access to the repo (fine-grained "Contents: Read", or a classic token
+  with the `repo` scope). Detection and one-click install both work — the zip is
+  downloaded through GitHub's authenticated asset API. The token is only ever
+  sent to `api.github.com` for this repo's release assets.
 * The repo is set in `class-aisa-updater.php` (`AISA_Updater::REPO`).
 
 == Usage ==

@@ -29,7 +29,17 @@ class AISA_Updater {
 	public static function init() {
 		add_filter( 'pre_set_site_transient_update_plugins', array( __CLASS__, 'check' ) );
 		add_filter( 'plugins_api', array( __CLASS__, 'info' ), 20, 3 );
+		add_filter( 'http_request_args', array( __CLASS__, 'authorize_download' ), 10, 2 );
 		add_action( 'upgrader_process_complete', array( __CLASS__, 'flush_cache' ), 10, 2 );
+	}
+
+	/**
+	 * The configured GitHub token, if any.
+	 *
+	 * @return string Token, or empty string.
+	 */
+	private static function token() {
+		return ( defined( 'AISA_GITHUB_TOKEN' ) && AISA_GITHUB_TOKEN ) ? AISA_GITHUB_TOKEN : '';
 	}
 
 	/**
@@ -60,9 +70,10 @@ class AISA_Updater {
 				'User-Agent' => 'AI-Site-Assistant',
 			),
 		);
-		// Optional token lets update *detection* work on a private repo.
-		if ( defined( 'AISA_GITHUB_TOKEN' ) && AISA_GITHUB_TOKEN ) {
-			$args['headers']['Authorization'] = 'Bearer ' . AISA_GITHUB_TOKEN;
+		// Optional token lets updates work on a private repo.
+		$token = self::token();
+		if ( $token ) {
+			$args['headers']['Authorization'] = 'Bearer ' . $token;
 		}
 
 		$response = wp_remote_get(
@@ -96,16 +107,45 @@ class AISA_Updater {
 	/**
 	 * Find the download URL for the packaged plugin zip on the release.
 	 *
+	 * With a token (private repo) we use the authenticated asset API URL, which
+	 * authorize_download() signs; without one (public repo) the plain browser
+	 * download URL needs no auth and is simpler.
+	 *
 	 * @param array $release Release payload.
 	 * @return string Asset download URL, or empty.
 	 */
 	private static function package_url( array $release ) {
+		$token = self::token();
 		foreach ( (array) ( $release['assets'] ?? array() ) as $asset ) {
 			if ( self::ASSET_NAME === ( $asset['name'] ?? '' ) ) {
-				return $asset['browser_download_url'] ?? '';
+				return $token ? ( $asset['url'] ?? '' ) : ( $asset['browser_download_url'] ?? '' );
 			}
 		}
 		return '';
+	}
+
+	/**
+	 * Attach the GitHub token to the release-asset download so private-repo
+	 * updates can install. Only the api.github.com asset URL for this repo is
+	 * authorized; the signed redirect it returns is fetched without the header
+	 * (adding it there would break the download).
+	 *
+	 * @param array  $args HTTP request args.
+	 * @param string $url  Request URL.
+	 * @return array
+	 */
+	public static function authorize_download( $args, $url ) {
+		$token  = self::token();
+		$prefix = 'https://api.github.com/repos/' . self::REPO . '/releases/assets/';
+		if ( ! $token || 0 !== strpos( $url, $prefix ) ) {
+			return $args;
+		}
+		if ( empty( $args['headers'] ) || ! is_array( $args['headers'] ) ) {
+			$args['headers'] = array();
+		}
+		$args['headers']['Authorization'] = 'Bearer ' . $token;
+		$args['headers']['Accept']        = 'application/octet-stream';
+		return $args;
 	}
 
 	/**
