@@ -26,6 +26,7 @@ require_once AISA_PATH . 'includes/class-aisa-tools.php';
 require_once AISA_PATH . 'includes/class-aisa-agent.php';
 require_once AISA_PATH . 'includes/class-aisa-settings.php';
 require_once AISA_PATH . 'includes/class-aisa-rest.php';
+require_once AISA_PATH . 'includes/class-aisa-updater.php';
 
 /**
  * Boot the plugin once all plugins are loaded.
@@ -33,6 +34,7 @@ require_once AISA_PATH . 'includes/class-aisa-rest.php';
 function aisa_bootstrap() {
 	AISA_Settings::init();
 	AISA_REST::init();
+	AISA_Updater::init();
 }
 add_action( 'plugins_loaded', 'aisa_bootstrap' );
 

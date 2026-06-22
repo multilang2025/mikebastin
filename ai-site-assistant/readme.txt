@@ -28,12 +28,41 @@ Architecture (see the source for detail):
 
 == Installation ==
 
-1. Copy the `ai-site-assistant` folder into `wp-content/plugins/`.
-2. Activate the plugin (this creates the audit-log table).
-3. Either set your key in **AI Assistant → Settings**, or — recommended —
+Use the packaged `ai-site-assistant.zip` from a GitHub Release (or build one with
+`zip -r ai-site-assistant.zip ai-site-assistant`). Do NOT upload GitHub's
+"Download ZIP" of the whole repo — that nests the plugin two folders deep and
+WordPress reports "No valid plugins were found." The zip's root must be the
+`ai-site-assistant/` folder, i.e. `ai-site-assistant/ai-site-assistant.php` at
+the top.
+
+1. **Plugins → Add New → Upload Plugin**, choose `ai-site-assistant.zip`, install,
+   and activate (activation creates the audit-log table). Or copy the
+   `ai-site-assistant` folder into `wp-content/plugins/`.
+2. Either set your key in **AI Assistant → Settings**, or — recommended —
    add `define( 'AISA_API_KEY', 'sk-ant-...' );` to `wp-config.php` so the key
    never lives in the database.
-4. Open **AI Assistant** and start chatting.
+3. Open **AI Assistant** and start chatting.
+
+== Updates ==
+
+The plugin checks this repo's GitHub Releases and shows updates on the
+**Plugins** screen like any other plugin — click update to install.
+
+To publish a new version:
+
+1. Bump the version in `ai-site-assistant.php` (both the `Version:` header and
+   the `AISA_VERSION` constant) and commit.
+2. Tag and push: `git tag v0.2.0 && git push origin v0.2.0`.
+3. The Release workflow verifies the tag matches the version, builds
+   `ai-site-assistant.zip` (correctly structured), and publishes the GitHub
+   Release. Sites pick up the update within a day (or via "Check for updates").
+
+Notes:
+
+* This works out of the box when the repo is **public**. For a **private** repo,
+  define `AISA_GITHUB_TOKEN` in `wp-config.php` to enable update detection; a
+  fully private one-click install needs an extra download-auth step.
+* The repo is set in `class-aisa-updater.php` (`AISA_Updater::REPO`).
 
 == Usage ==
 
