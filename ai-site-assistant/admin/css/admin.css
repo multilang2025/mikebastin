@@ -32,6 +32,13 @@
 	margin-right: 3rem;
 }
 
+.aisa-msg--status {
+	background: #f6f7f7;
+	margin-right: 3rem;
+	color: #646970;
+	font-style: italic;
+}
+
 .aisa-confirm {
 	background: #fcf9e8;
 	border: 1px solid #dba617;
