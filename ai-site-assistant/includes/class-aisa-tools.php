@@ -113,6 +113,23 @@ class AISA_Tools {
 				),
 			),
 			array(
+				'name'         => 'publish_post',
+				'description'  => 'Publish a draft or pending post or page (sets its status to '
+					. 'published). Call get_post first and pass back expected_modified.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'id'                => array( 'type' => 'integer' ),
+						'expected_modified' => array(
+							'type'        => 'string',
+							'description' => 'The post_modified value returned by get_post.',
+						),
+					),
+					'required'             => array( 'id', 'expected_modified' ),
+					'additionalProperties' => false,
+				),
+			),
+			array(
 				'name'         => 'get_site_context',
 				'description'  => 'Get the active theme, registered post types, and active plugins. '
 					. 'Call this when you need to understand how the site is built.',
@@ -132,7 +149,7 @@ class AISA_Tools {
 	 * @return string[]
 	 */
 	public static function destructive_tools() {
-		return array( 'create_post', 'update_post' );
+		return array( 'create_post', 'update_post', 'publish_post' );
 	}
 
 	/**
@@ -152,6 +169,8 @@ class AISA_Tools {
 				return self::create_post( $input );
 			case 'update_post':
 				return self::update_post( $input );
+			case 'publish_post':
+				return self::publish_post( $input );
 			case 'get_site_context':
 				return self::get_site_context();
 			default:
@@ -291,6 +310,47 @@ class AISA_Tools {
 		}
 		AISA_Audit_Log::record( 'update_post', $id, $in );
 		return array( 'content' => "Updated #{$id}." );
+	}
+
+	/**
+	 * Publish a draft or pending post or page, with a staleness guard.
+	 *
+	 * @param array $in Tool input.
+	 * @return array Tool result confirming publication, or an error.
+	 */
+	private static function publish_post( array $in ) {
+		$id = (int) ( $in['id'] ?? 0 );
+		if ( ! current_user_can( 'edit_post', $id ) ) {
+			return self::error( 'Permission denied for this post.' );
+		}
+		$p = get_post( $id );
+		if ( ! $p ) {
+			return self::error( 'Post not found.' );
+		}
+		$type_object = get_post_type_object( $p->post_type );
+		if ( ! $type_object || ! current_user_can( $type_object->cap->publish_posts ) ) {
+			return self::error( 'You do not have permission to publish this post type.' );
+		}
+		if ( 'publish' === $p->post_status ) {
+			return self::error( 'Post is already published.' );
+		}
+		// Staleness guard: reject if the post changed since the model read it.
+		if ( ( $in['expected_modified'] ?? '' ) !== $p->post_modified ) {
+			return self::error( 'Post changed since you read it. Call get_post again, then retry.' );
+		}
+
+		$result = wp_update_post(
+			array(
+				'ID'          => $id,
+				'post_status' => 'publish',
+			),
+			true
+		);
+		if ( is_wp_error( $result ) ) {
+			return self::error( $result->get_error_message() );
+		}
+		AISA_Audit_Log::record( 'publish_post', $id, $in );
+		return array( 'content' => "Published #{$id}: " . get_permalink( $id ) );
 	}
 
 	/**
