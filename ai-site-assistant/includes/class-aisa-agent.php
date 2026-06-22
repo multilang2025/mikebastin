@@ -32,6 +32,26 @@ class AISA_Agent {
 	public static function run( array $messages, $allow_writes = false ) {
 		$tools = AISA_Tools::definitions();
 
+		// Resume case: the conversation ends with an assistant turn whose tool
+		// calls were gated and never answered (the approval round-trip). Execute
+		// them now and append the tool results before asking Claude to continue,
+		// otherwise the API rejects the dangling tool_use.
+		if ( self::ends_with_unanswered_tool_use( $messages ) ) {
+			$last = end( $messages );
+			$gate = self::handle_tool_calls( $last['content'], $allow_writes );
+			if ( isset( $gate['pending'] ) ) {
+				return array(
+					'messages' => $messages,
+					'reply'    => '',
+					'pending'  => $gate['pending'],
+				);
+			}
+			$messages[] = array(
+				'role'    => 'user',
+				'content' => $gate['results'],
+			);
+		}
+
 		for ( $i = 0; $i < self::MAX_ITERATIONS; $i++ ) {
 			$response = AISA_Claude_Client::create(
 				$messages,
@@ -58,38 +78,19 @@ class AISA_Agent {
 				);
 			}
 
-			$results = array();
-			foreach ( $response['content'] as $block ) {
-				if ( 'tool_use' !== ( $block['type'] ?? '' ) ) {
-					continue;
-				}
-
-				$is_destructive = in_array( $block['name'], AISA_Tools::destructive_tools(), true );
-				if ( $is_destructive && ! $allow_writes ) {
-					// Gate: stop and hand the pending action back to the UI.
-					return array(
-						'messages' => $messages,
-						'reply'    => self::extract_text( $response['content'] ),
-						'pending'  => array(
-							'tool'  => $block['name'],
-							'input' => $block['input'],
-							'id'    => $block['id'],
-						),
-					);
-				}
-
-				$result    = AISA_Tools::dispatch( $block['name'], (array) $block['input'] );
-				$results[] = array(
-					'type'        => 'tool_result',
-					'tool_use_id' => $block['id'],
-					'content'     => is_array( $result['content'] ) ? wp_json_encode( $result['content'] ) : $result['content'],
-					'is_error'    => ! empty( $result['is_error'] ),
+			$gate = self::handle_tool_calls( $response['content'], $allow_writes );
+			if ( isset( $gate['pending'] ) ) {
+				// Stop and hand the pending action back to the UI for approval.
+				return array(
+					'messages' => $messages,
+					'reply'    => self::extract_text( $response['content'] ),
+					'pending'  => $gate['pending'],
 				);
 			}
 
 			$messages[] = array(
 				'role'    => 'user',
-				'content' => $results,
+				'content' => $gate['results'],
 			);
 		}
 
@@ -97,6 +98,67 @@ class AISA_Agent {
 			'messages' => $messages,
 			'reply'    => __( 'Stopped after the maximum number of steps.', 'ai-site-assistant' ),
 		);
+	}
+
+	/**
+	 * Execute the tool_use blocks in an assistant content array.
+	 *
+	 * Returns a `results` array of tool_result blocks once every call has run,
+	 * or a `pending` action the moment a destructive tool is hit while writes
+	 * are not yet approved.
+	 *
+	 * @param array $content      Assistant content blocks.
+	 * @param bool  $allow_writes Whether destructive tools may run.
+	 * @return array { results: array } or { pending: array }.
+	 */
+	private static function handle_tool_calls( array $content, $allow_writes ) {
+		$results = array();
+		foreach ( $content as $block ) {
+			if ( 'tool_use' !== ( $block['type'] ?? '' ) ) {
+				continue;
+			}
+
+			$is_destructive = in_array( $block['name'], AISA_Tools::destructive_tools(), true );
+			if ( $is_destructive && ! $allow_writes ) {
+				return array(
+					'pending' => array(
+						'tool'  => $block['name'],
+						'input' => $block['input'],
+						'id'    => $block['id'],
+					),
+				);
+			}
+
+			$result    = AISA_Tools::dispatch( $block['name'], (array) $block['input'] );
+			$results[] = array(
+				'type'        => 'tool_result',
+				'tool_use_id' => $block['id'],
+				'content'     => is_array( $result['content'] ) ? wp_json_encode( $result['content'] ) : $result['content'],
+				'is_error'    => ! empty( $result['is_error'] ),
+			);
+		}
+
+		return array( 'results' => $results );
+	}
+
+	/**
+	 * Whether the conversation ends with an assistant turn whose tool calls
+	 * have not yet been answered with tool results.
+	 *
+	 * @param array $messages Conversation messages.
+	 * @return bool True when the last message is an unanswered assistant tool_use.
+	 */
+	private static function ends_with_unanswered_tool_use( array $messages ) {
+		$last = end( $messages );
+		if ( ! is_array( $last ) || 'assistant' !== ( $last['role'] ?? '' ) || ! is_array( $last['content'] ?? null ) ) {
+			return false;
+		}
+		foreach ( $last['content'] as $block ) {
+			if ( 'tool_use' === ( $block['type'] ?? '' ) ) {
+				return true;
+			}
+		}
+		return false;
 	}
 
 	/**
