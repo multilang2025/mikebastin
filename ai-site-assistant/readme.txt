@@ -113,6 +113,13 @@ Tips:
 
 == Changelog ==
 
+= 0.4.0 =
+* Add a /aisa/v1/postmeta REST endpoint that reads and writes SEO/schema post
+  meta (Rank Math, Yoast, AIO SEO), including Rank Math structured-data
+  (schema) entries, so the companion MCP server's get_meta/get_schema/set_meta
+  tools can manage structured data. Access is restricted to those SEO prefixes
+  and writes are audit-logged.
+
 = 0.3.0 =
 * Add a /aisa/v1/meta REST endpoint that exposes a post's SEO meta tags
   (Rank Math or Yoast — title, description, focus keyword, canonical, Open

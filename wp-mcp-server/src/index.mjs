@@ -507,6 +507,83 @@ server.registerTool(
   })
 );
 
+server.registerTool(
+  "get_meta",
+  {
+    title: "Get SEO/schema post meta",
+    description:
+      "Read a post's raw SEO/schema meta (Rank Math, Yoast, AIO SEO keys), " +
+      "including structured-data entries. Optionally filter by a key prefix or " +
+      "an explicit list of keys. Requires the AI Site Assistant plugin " +
+      "(v0.4.0+). Read-only.",
+    inputSchema: {
+      id: z.number().int().describe("Post ID"),
+      prefix: z
+        .string()
+        .optional()
+        .describe("Only return keys starting with this prefix"),
+      keys: z
+        .string()
+        .optional()
+        .describe("Comma-separated list of exact meta keys to return"),
+    },
+  },
+  tool(async ({ id, prefix, keys }) => {
+    const query = { id };
+    if (prefix) query.prefix = prefix;
+    if (keys) query.keys = keys;
+    const data = await wp("/aisa/v1/postmeta", { query });
+    return JSON.stringify(data, null, 2);
+  })
+);
+
+server.registerTool(
+  "get_schema",
+  {
+    title: "Get structured data (schema)",
+    description:
+      "Read a post's Rank Math structured-data (schema) entries, decoded. " +
+      "Use this to inspect existing schema before editing it with set_meta. " +
+      "Requires the AI Site Assistant plugin (v0.4.0+). Read-only.",
+    inputSchema: { id: z.number().int().describe("Post ID") },
+  },
+  tool(async ({ id }) => {
+    const data = await wp("/aisa/v1/postmeta", {
+      query: { id, prefix: "rank_math_schema" },
+    });
+    return JSON.stringify(data, null, 2);
+  })
+);
+
+server.registerTool(
+  "set_meta",
+  {
+    title: "Set SEO/schema post meta",
+    description:
+      "Write one SEO/schema meta key on a post. `value` may be a string or a " +
+      "nested object/array (e.g. a schema entry — read an existing one with " +
+      "get_schema first to match the format). Only Rank Math / Yoast / AIO SEO " +
+      "keys are allowed. Requires the AI Site Assistant plugin (v0.4.0+). " +
+      "WRITE ACTION — confirm with the user first.",
+    inputSchema: {
+      id: z.number().int().describe("Post ID"),
+      key: z
+        .string()
+        .describe("Meta key, e.g. rank_math_schema_Article or rank_math_robots"),
+      value: z
+        .any()
+        .describe("String, or a nested object/array for structured values"),
+    },
+  },
+  tool(async ({ id, key, value }) => {
+    const data = await wp("/aisa/v1/postmeta", {
+      method: "POST",
+      body: { id, key, value },
+    });
+    return JSON.stringify(data, null, 2);
+  })
+);
+
 export { server };
 
 async function main() {

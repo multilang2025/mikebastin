@@ -3,7 +3,7 @@
  * Plugin Name:       AI Site Assistant
  * Plugin URI:        https://example.com/ai-site-assistant
  * Description:        An AI assistant for WordPress that can read and edit your content using your own Claude API key. No daily limits — you pay your provider per use.
- * Version:           0.3.0
+ * Version:           0.4.0
  * Requires at least: 6.3
  * Requires PHP:      8.1
  * Author:            betranslated
@@ -16,7 +16,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'AISA_VERSION', '0.3.0' );
+define( 'AISA_VERSION', '0.4.0' );
 define( 'AISA_PATH', plugin_dir_path( __FILE__ ) );
 define( 'AISA_URL', plugin_dir_url( __FILE__ ) );
 
@@ -27,6 +27,7 @@ require_once AISA_PATH . 'includes/class-aisa-agent.php';
 require_once AISA_PATH . 'includes/class-aisa-settings.php';
 require_once AISA_PATH . 'includes/class-aisa-rest.php';
 require_once AISA_PATH . 'includes/class-aisa-seo.php';
+require_once AISA_PATH . 'includes/class-aisa-meta.php';
 require_once AISA_PATH . 'includes/class-aisa-updater.php';
 
 /**
@@ -36,6 +37,7 @@ function aisa_bootstrap() {
 	AISA_Settings::init();
 	AISA_REST::init();
 	AISA_SEO::init();
+	AISA_Meta::init();
 	AISA_Updater::init();
 }
 add_action( 'plugins_loaded', 'aisa_bootstrap' );

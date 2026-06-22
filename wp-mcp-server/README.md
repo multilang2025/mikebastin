@@ -21,6 +21,8 @@ and authenticates with a WordPress **Application Password**.
 | `upload_media` | Download an image from a URL into the Media Library; optionally set it as a post's featured image |
 | `search_replace` | Find/replace an exact string across posts/pages (`dry_run` to preview) |
 | `get_seo` / `set_seo` | Read/write SEO meta tags (Rank Math or Yoast) — **needs the AI Site Assistant plugin v0.3.0+ on the site** |
+| `get_schema` | Read a post's Rank Math structured-data (schema) entries — **plugin v0.4.0+** |
+| `get_meta` / `set_meta` | Read/write raw SEO/schema post meta (Rank Math / Yoast / AIO SEO keys) — **plugin v0.4.0+** |
 | `wp_rest` | Call **any** WordPress/plugin REST endpoint (the general-purpose tool) |
 
 `get_post`/`create_post`/`update_post` also handle the **excerpt** field.
