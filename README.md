@@ -17,8 +17,8 @@ wp-admin** (`Tools → AI Site Assistant`). You log into the dashboard and type;
 it reads and edits the site through Claude, with every write gated behind an
 Approve/Cancel confirmation.
 
-- **Use it when:** you're already working in the WordPress dashboard, or you want
-  a non-technical person to drive Claude from inside WP.
+- **Built for:** non-technical people making the occasional edit from inside
+  WordPress — no terminal, no Claude setup, nothing to learn beyond a chat box.
 - **Your Anthropic key lives:** on the WordPress site (`AISA_API_KEY` in
   `wp-config.php`, or the Settings page).
 - **Setup:** [`ai-site-assistant/readme.txt`](ai-site-assistant/readme.txt).
@@ -36,8 +36,8 @@ WordPress REST API and authenticating with a WordPress **Application Password**.
 14 tools: posts (search/get/create/update/publish), excerpt, media upload,
 search/replace, SEO meta tags, schema/post-meta, and `wp_rest` (any endpoint).
 
-- **Use it when:** you'd rather drive WordPress from a Claude conversation than
-  from the WP dashboard. This is the WPVibe replacement.
+- **Built for:** working in Claude Code / Claude Desktop with full back-and-forth
+  — the power-user path, and the WPVibe replacement (your key, no cap).
 - **Your Anthropic key lives:** only where Claude runs — **never on the site.**
 - **Runs in:** Claude **Desktop** or **Claude Code** (local stdio). Not the
   claude.ai website (that needs a hosted connector).

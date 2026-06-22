@@ -5,6 +5,12 @@ WordPress site to MCP clients (Claude Code, Claude Desktop, …) by wrapping the
 standard WordPress REST API. You drive your site from Claude with **your own**
 access — usage is metered by the Claude client you use, with no per-day caps.
 
+This is **Prong 2** of the project (see [`../README.md`](../README.md)): the
+back-and-forth, power-user path — you work entirely in a Claude conversation and
+the server relays each step to WordPress. Prong 1, the in-dashboard chat plugin
+for non-technical occasional edits, lives in
+[`../ai-site-assistant/`](../ai-site-assistant/).
+
 No plugin is required on the WordPress side — this talks to the core REST API
 and authenticates with a WordPress **Application Password**.
 

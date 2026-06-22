@@ -1,5 +1,12 @@
 # Architecture
 
+This is **Prong 1** of the project (see [`../../README.md`](../../README.md)):
+the in-wp-admin AI chat panel, for non-technical people making the occasional
+edit from inside WordPress. (Prong 2, the MCP server that drives the site from a
+Claude Code / Claude Desktop conversation, lives in `../../wp-mcp-server/`.) The
+plugin also publishes the keyless `/aisa/v1` SEO/schema REST endpoints that
+Prong 2's SEO tools call.
+
 AISA Connector is a standalone WordPress plugin that calls the Claude
 Messages API with the site owner's own API key. Because each site pays its own
 provider per use, there are no daily usage caps.
