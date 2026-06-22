@@ -113,6 +113,15 @@ Tips:
 
 == Changelog ==
 
+= 0.2.0 =
+* Extend the PHP time limit on assistant requests so long edits no longer fail
+  with "The response is not a valid JSON response" on hosts with a short
+  max_execution_time.
+* Fix the write-approval resume so an approved create/update/publish actually
+  executes.
+* GitHub-release auto-updates (works on public repos; private repos via
+  AISA_GITHUB_TOKEN).
+
 = 0.1.0 =
 * Initial scaffold: chat UI, settings, tool-use loop, audit log.
 * Tools: search_posts, get_post, create_post, update_post, publish_post,

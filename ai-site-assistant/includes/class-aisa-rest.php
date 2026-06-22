@@ -55,6 +55,14 @@ class AISA_REST {
 	 * @return WP_REST_Response|WP_Error Response payload or error.
 	 */
 	public static function chat( WP_REST_Request $request ) {
+		// A long edit can run past the default PHP time limit; a killed request
+		// returns non-JSON and the UI shows "not a valid JSON response". Extend
+		// it best-effort (skipped silently when the host disables the function).
+		$disabled = (string) ini_get( 'disable_functions' );
+		if ( function_exists( 'set_time_limit' ) && false === strpos( $disabled, 'set_time_limit' ) ) {
+			set_time_limit( 300 );
+		}
+
 		$messages     = (array) $request->get_param( 'messages' );
 		$allow_writes = (bool) $request->get_param( 'allow_writes' );
 
