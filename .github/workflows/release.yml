@@ -3,6 +3,11 @@ name: Release
 on:
   push:
     tags: [ 'v*' ]
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: 'Release tag, e.g. v0.4.2 (must match the plugin version)'
+        required: true
 
 permissions:
   contents: write
@@ -14,9 +19,19 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Resolve the release tag
+        id: tag
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "tag=${{ github.event.inputs.tag }}" >> "$GITHUB_OUTPUT"
+          else
+            echo "tag=${GITHUB_REF_NAME}" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Verify plugin version matches the tag
         run: |
-          TAG="${GITHUB_REF_NAME#v}"
+          TAG="${{ steps.tag.outputs.tag }}"
+          TAG="${TAG#v}"
           HEADER=$(grep -oP 'Version:\s*\K[0-9][0-9.]*' ai-site-assistant/ai-site-assistant.php)
           CONST=$(grep -oP "AISA_VERSION',\s*'\K[0-9][0-9.]*" ai-site-assistant/ai-site-assistant.php)
           echo "tag=$TAG  header=$HEADER  const=$CONST"
@@ -31,5 +46,6 @@ jobs:
       - name: Create GitHub Release with the zip asset
         uses: softprops/action-gh-release@v2
         with:
+          tag_name: ${{ steps.tag.outputs.tag }}
           files: ai-site-assistant.zip
           generate_release_notes: true
