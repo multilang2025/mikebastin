@@ -20,7 +20,7 @@ and authenticates with a WordPress **Application Password**.
 | `site_info` | Site name, URL, and public post types (read-only) |
 | `upload_media` | Download an image from a URL into the Media Library; optionally set it as a post's featured image |
 | `search_replace` | Find/replace an exact string across posts/pages (`dry_run` to preview) |
-| `get_seo` / `set_seo` | Read/write SEO meta tags (Rank Math or Yoast) — **needs the AI Site Assistant plugin v0.3.0+ on the site** |
+| `get_seo` / `set_seo` | Read/write SEO meta tags (Rank Math or Yoast) — **needs the AISA Connector plugin v0.3.0+ on the site** |
 | `get_schema` | Read a post's Rank Math structured-data (schema) entries — **plugin v0.4.0+** |
 | `get_meta` / `set_meta` | Read/write raw SEO/schema post meta (Rank Math / Yoast / AIO SEO keys) — **plugin v0.4.0+** |
 | `wp_rest` | Call **any** WordPress/plugin REST endpoint (the general-purpose tool) |
@@ -100,7 +100,7 @@ It speaks MCP over stdio and logs `connected to <url>` to stderr.
 
 ## Notes
 
-- This is separate from the **AI Site Assistant** plugin in this repo. The plugin
+- This is separate from the **AISA Connector** plugin in this repo. The plugin
   puts an assistant *inside* wp-admin (it calls the Claude API with your key);
   this MCP server lets an external Claude client drive the site. Use either or
   both.

@@ -28,8 +28,8 @@ class AISA_Settings {
 	 */
 	public static function menu() {
 		add_menu_page(
-			__( 'AI Site Assistant', 'ai-site-assistant' ),
-			__( 'AI Assistant', 'ai-site-assistant' ),
+			__( 'AISA Connector', 'ai-site-assistant' ),
+			__( 'AISA Connector', 'ai-site-assistant' ),
 			'edit_posts',
 			'aisa-chat',
 			array( __CLASS__, 'render_chat' ),
@@ -111,7 +111,7 @@ class AISA_Settings {
 	public static function render_settings() {
 		?>
 		<div class="wrap">
-			<h1><?php esc_html_e( 'AI Site Assistant — Settings', 'ai-site-assistant' ); ?></h1>
+			<h1><?php esc_html_e( 'AISA Connector — Settings', 'ai-site-assistant' ); ?></h1>
 			<?php if ( defined( 'AISA_API_KEY' ) && AISA_API_KEY ) : ?>
 				<p><strong><?php esc_html_e( 'API key is set via the AISA_API_KEY constant in wp-config.php.', 'ai-site-assistant' ); ?></strong></p>
 			<?php endif; ?>
@@ -144,7 +144,7 @@ class AISA_Settings {
 	public static function render_chat() {
 		?>
 		<div class="wrap">
-			<h1><?php esc_html_e( 'AI Site Assistant', 'ai-site-assistant' ); ?></h1>
+			<h1><?php esc_html_e( 'AISA Connector', 'ai-site-assistant' ); ?></h1>
 			<div id="aisa-app">
 				<div id="aisa-log" class="aisa-log" aria-live="polite"></div>
 				<form id="aisa-form" class="aisa-form">

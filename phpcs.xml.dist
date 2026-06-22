@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<ruleset name="AI Site Assistant">
-	<description>Coding standards for the AI Site Assistant plugin.</description>
+<ruleset name="AISA Connector">
+	<description>Coding standards for the AISA Connector plugin.</description>
 
 	<file>ai-site-assistant</file>
 

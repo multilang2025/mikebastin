@@ -1,4 +1,4 @@
-=== AI Site Assistant ===
+=== AISA Connector ===
 Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
@@ -12,7 +12,7 @@ Claude API key. You pay your provider per use — there are no daily limits.
 
 == Description ==
 
-AI Site Assistant adds a chat panel to wp-admin. Ask it to find content, draft
+AISA Connector adds a chat panel to wp-admin. Ask it to find content, draft
 posts, or edit pages; it uses the Claude Messages API with tools to act on your
 site. Because it calls Claude with *your* API key, usage is metered by your
 provider rather than capped by a SaaS free tier.
@@ -38,10 +38,10 @@ the top.
 1. **Plugins → Add New → Upload Plugin**, choose `ai-site-assistant.zip`, install,
    and activate (activation creates the audit-log table). Or copy the
    `ai-site-assistant` folder into `wp-content/plugins/`.
-2. Either set your key in **AI Assistant → Settings**, or — recommended —
+2. Either set your key in **AISA Connector → Settings**, or — recommended —
    add `define( 'AISA_API_KEY', 'sk-ant-...' );` to `wp-config.php` so the key
    never lives in the database.
-3. Open **AI Assistant** and start chatting.
+3. Open **AISA Connector** and start chatting.
 
 == Updates ==
 
@@ -69,7 +69,7 @@ Notes:
 
 == Usage ==
 
-You drive the assistant from the **AI Assistant** chat page. Your message is the
+You drive the assistant from the **AISA Connector** chat page. Your message is the
 prompt; Claude reads it and acts through the plugin's tools (search, read,
 create, update, publish). Any change to your site pauses for an Approve / Cancel
 confirmation before it runs.
@@ -114,6 +114,9 @@ Tips:
 == Changelog ==
 
 = 0.4.1 =
+* Rename the plugin's display name to "AISA Connector" (folder slug, AISA_
+  prefixes, and aisa/v1 REST namespace unchanged) to avoid confusion when
+  connecting.
 * Force serial tool use so the write-approval gate executes only the action the
   user approved (a turn with multiple write tool calls could previously run all
   of them off a single approval).

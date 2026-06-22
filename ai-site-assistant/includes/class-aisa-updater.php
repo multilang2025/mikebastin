@@ -201,7 +201,7 @@ class AISA_Updater {
 		}
 
 		return (object) array(
-			'name'          => 'AI Site Assistant',
+			'name'          => 'AISA Connector',
 			'slug'          => self::SLUG,
 			'version'       => self::version( $release ),
 			'download_link' => self::package_url( $release ),

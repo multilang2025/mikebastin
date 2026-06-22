@@ -506,7 +506,7 @@ server.registerTool(
     description:
       "Update a post's SEO meta tags. Pass any of: meta_title, " +
       "meta_description, focus_keyword, canonical, og_title, og_description, " +
-      "twitter_title, twitter_description. Requires the AI Site Assistant " +
+      "twitter_title, twitter_description. Requires the AISA Connector " +
       "plugin (v0.3.0+). WRITE ACTION — confirm with the user first.",
     inputSchema: {
       id: z.number().int().describe("Post ID"),
@@ -540,7 +540,7 @@ server.registerTool(
     description:
       "Read a post's raw SEO/schema meta (Rank Math, Yoast, AIO SEO keys), " +
       "including structured-data entries. Optionally filter by a key prefix or " +
-      "an explicit list of keys. Requires the AI Site Assistant plugin " +
+      "an explicit list of keys. Requires the AISA Connector plugin " +
       "(v0.4.0+). Read-only.",
     inputSchema: {
       id: z.number().int().describe("Post ID"),
@@ -570,7 +570,7 @@ server.registerTool(
     description:
       "Read a post's Rank Math structured-data (schema) entries, decoded. " +
       "Use this to inspect existing schema before editing it with set_meta. " +
-      "Requires the AI Site Assistant plugin (v0.4.0+). Read-only.",
+      "Requires the AISA Connector plugin (v0.4.0+). Read-only.",
     inputSchema: { id: z.number().int().describe("Post ID") },
   },
   tool(async ({ id }) => {
@@ -589,7 +589,7 @@ server.registerTool(
       "Write one SEO/schema meta key on a post. `value` may be a string or a " +
       "nested object/array (e.g. a schema entry — read an existing one with " +
       "get_schema first to match the format). Only Rank Math / Yoast / AIO SEO " +
-      "keys are allowed. Requires the AI Site Assistant plugin (v0.4.0+). " +
+      "keys are allowed. Requires the AISA Connector plugin (v0.4.0+). " +
       "WRITE ACTION — confirm with the user first.",
     inputSchema: {
       id: z.number().int().describe("Post ID"),
