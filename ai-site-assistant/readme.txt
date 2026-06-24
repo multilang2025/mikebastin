@@ -3,7 +3,7 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
-Stable tag: 0.4.4
+Stable tag: 0.4.5
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -67,6 +67,31 @@ Notes:
   sent to `api.github.com` for this repo's release assets.
 * The repo is set in `class-aisa-updater.php` (`AISA_Updater::REPO`).
 
+== Fleet check-in (optional) ==
+
+See which of your sites run the plugin from one dashboard. It is opt-in and uses
+no third-party service — one of your own sites acts as the hub.
+
+1. Pick one site as the hub. In its `wp-config.php` add:
+
+       define( 'AISA_CHECKIN_HUB', true );
+       define( 'AISA_CHECKIN_TOKEN', 'a-long-random-shared-secret' );
+
+   The hub gets an **AISA Connector → Sites** page listing every check-in.
+
+2. On every site that should report (the hub can report to itself too), add:
+
+       define( 'AISA_CHECKIN_URL', 'https://YOUR-HUB-SITE/wp-json/aisa/v1/checkin' );
+       define( 'AISA_CHECKIN_TOKEN', 'a-long-random-shared-secret' );
+
+   Use the SAME token everywhere — it is the shared secret that stops anyone
+   else posting to your hub.
+
+Each reporting site checks in once a day (and shortly after you visit wp-admin).
+The payload is small: site URL, site name, plugin/WordPress/PHP versions, and
+the active SEO engine — no content and no secrets. With none of these constants
+defined, the feature is completely inert.
+
 == Usage ==
 
 You drive the assistant from the **AISA Connector** chat page. Your message is the
@@ -112,6 +137,15 @@ Tips:
   it touches the database.
 
 == Changelog ==
+
+= 0.4.5 =
+* Add an optional, self-hosted "fleet check-in" so you can see which sites run
+  the plugin from one dashboard. Each site can report its URL, plugin/WordPress/
+  PHP versions, and SEO engine once a day to a hub you control — and the hub is
+  just another copy of this plugin (no separate service to host). A new
+  "AISA Connector -> Sites" page on the hub lists every site and when it last
+  checked in. Entirely opt-in via wp-config.php constants; with none set, nothing
+  is sent or collected. See "Fleet check-in" below.
 
 = 0.4.4 =
 * Fix the recurring "The response is not a valid JSON response" on multi-step
