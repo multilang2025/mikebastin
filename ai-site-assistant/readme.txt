@@ -3,7 +3,7 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
-Stable tag: 0.4.3
+Stable tag: 0.4.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -112,6 +112,16 @@ Tips:
   it touches the database.
 
 == Changelog ==
+
+= 0.4.4 =
+* Fix the recurring "The response is not a valid JSON response" on multi-step
+  tasks (e.g. "improve EEAT"). The agent loop now performs ONE Claude call per
+  HTTP request and the browser drives the steps, so a task that searches, reads,
+  and edits no longer stacks several blocking API calls into a single request
+  that the host/gateway timeout (nginx, php-fpm, Cloudflare) would kill. PHP's
+  set_time_limit alone could not raise that gateway limit.
+* The chat panel shows a "Working…" indicator while a multi-step task runs and
+  caps the number of automatic steps so a tool loop cannot spin without end.
 
 = 0.4.3 =
 * Add targeted, fast edit tools so common SEO work no longer times out with
