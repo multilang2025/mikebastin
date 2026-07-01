@@ -35,6 +35,7 @@ require_once AISA_PATH . 'includes/class-aisa-rest.php';
 require_once AISA_PATH . 'includes/class-aisa-seo.php';
 require_once AISA_PATH . 'includes/class-aisa-meta.php';
 require_once AISA_PATH . 'includes/class-aisa-checkin.php';
+require_once AISA_PATH . 'includes/class-aisa-approval-log.php';
 require_once AISA_PATH . 'includes/class-aisa-updater.php';
 
 /**
@@ -46,6 +47,7 @@ function aisa_bootstrap() {
 	AISA_SEO::init();
 	AISA_Meta::init();
 	AISA_Checkin::init();
+	AISA_Approval_Log::init();
 	AISA_Updater::init();
 }
 add_action( 'plugins_loaded', 'aisa_bootstrap' );
