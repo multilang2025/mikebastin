@@ -29,6 +29,13 @@ AISA_Tools::dispatch       includes/class-tools.php  — THE SECURITY BOUNDARY
 WordPress APIs (WP_Query, wp_insert_post, wp_update_post, …)
 ```
 
+The `fact_check` tool is the one branch that reaches a second provider:
+`AISA_Tools::fact_check` calls `AISA_OpenRouter_Client::create`
+(`includes/class-openrouter-client.php`), which POSTs to OpenRouter's
+OpenAI-compatible chat/completions endpoint for Perplexity Sonar and returns a
+verdict plus source URLs. It is read-only (no write gate) and inert until an
+OpenRouter key is configured.
+
 ## The security boundary
 
 Claude never touches the database. It emits `tool_use` blocks; `AISA_Tools`

@@ -41,6 +41,12 @@ class AISA_Agent {
 		. "list of reputable references; use replace_in_post to add the author's qualifications, "
 		. 'a "last reviewed" date, and concrete first-hand detail. Do not invent credentials, '
 		. "citations, statistics, or dates — if you lack a real source, say so and ask.\n\n"
+		. 'FACT-CHECKING: never invent or guess a statistic, date, price, quote, or named '
+		. 'study. Before you add such a fact to content — or when the user asks you to verify '
+		. 'existing claims — call fact_check with the specific statement. Trust its verdict: if '
+		. 'it returns False or Misleading, correct or remove the claim; if Unverifiable, do not '
+		. 'present it as fact. Cite the returned source URLs (as links or in a Sources list) '
+		. "rather than fabricating references.\n\n"
 		. 'NLP / readability: improve clarity and topical coverage WITHOUT rewriting the whole '
 		. 'post. Work section by section with replace_in_post: shorten sentences, add a clear '
 		. 'subheading, define entities, and add the synonyms/related terms a search engine '
