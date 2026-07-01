@@ -25,6 +25,7 @@ require_once AISA_PATH . 'includes/class-aisa-claude-client.php';
 require_once AISA_PATH . 'includes/class-aisa-openrouter-client.php';
 require_once AISA_PATH . 'includes/class-aisa-skills.php';
 require_once AISA_PATH . 'includes/class-aisa-wpcli.php';
+require_once AISA_PATH . 'includes/class-aisa-abilities.php';
 require_once AISA_PATH . 'includes/class-aisa-tools.php';
 require_once AISA_PATH . 'includes/class-aisa-agent.php';
 require_once AISA_PATH . 'includes/class-aisa-settings.php';

@@ -353,6 +353,44 @@ class AISA_Tools {
 					'additionalProperties' => false,
 				),
 			),
+			array(
+				'name'         => 'discover_abilities',
+				'description'  => 'List capabilities other plugins have registered via the WordPress '
+					. 'Abilities API (WP 6.9+) -- e.g. SEO or forms plugins. Pass "name" to get one '
+					. 'ability\'s full input/output schema before calling run_ability. Read-only. Returns '
+					. 'an error if the site does not have the Abilities API.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'name' => array(
+							'type'        => 'string',
+							'description' => 'Optional. A specific ability name to get full schema detail for.',
+						),
+					),
+					'additionalProperties' => false,
+				),
+			),
+			array(
+				'name'         => 'run_ability',
+				'description'  => 'Execute one ability discovered via discover_abilities. Always treated as '
+					. 'a write and requires approval, since abilities are registered by arbitrary plugins '
+					. 'and the API does not expose a reliable read/write flag.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'name'  => array(
+							'type'        => 'string',
+							'description' => 'Ability name, from discover_abilities.',
+						),
+						'input' => array(
+							'type'        => 'object',
+							'description' => 'Input matching the ability\'s input_schema.',
+						),
+					),
+					'required'             => array( 'name' ),
+					'additionalProperties' => false,
+				),
+			),
 		);
 	}
 
@@ -372,6 +410,7 @@ class AISA_Tools {
 			'set_seo',
 			'set_meta',
 			'wp_cli_set',
+			'run_ability',
 		);
 	}
 
@@ -416,6 +455,10 @@ class AISA_Tools {
 				return AISA_WPCLI::get( $input );
 			case 'wp_cli_set':
 				return AISA_WPCLI::set( $input );
+			case 'discover_abilities':
+				return AISA_Abilities::discover( $input );
+			case 'run_ability':
+				return AISA_Abilities::run( $input );
 			default:
 				return self::error( "Unknown tool: {$name}" );
 		}
