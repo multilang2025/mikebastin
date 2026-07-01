@@ -189,6 +189,31 @@ class AISA_Tools {
 				),
 			),
 			array(
+				'name'         => 'fact_check',
+				'description'  => 'Verify a factual claim against the live web using Perplexity Sonar '
+					. '(search-grounded). Call this BEFORE adding or keeping any statistic, date, '
+					. 'quote, price, named study, or other checkable fact in content — never invent '
+					. 'or guess these. Returns a verdict (True / False / Misleading / Unverifiable), '
+					. 'a short explanation, and source URLs to cite. Read-only.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'claim'   => array(
+							'type'        => 'string',
+							'description' => 'The single, specific statement to verify, e.g. '
+								. '"The Eiffel Tower is 330 metres tall.".',
+						),
+						'context' => array(
+							'type'        => 'string',
+							'description' => 'Optional context to disambiguate the claim (topic, '
+								. 'time period, location).',
+						),
+					),
+					'required'             => array( 'claim' ),
+					'additionalProperties' => false,
+				),
+			),
+			array(
 				'name'         => 'get_seo',
 				'description'  => 'Read a post\'s SEO meta tags (title, description, focus keyword, '
 					. 'canonical, Open Graph, Twitter) and excerpt. Read-only.',
@@ -296,6 +321,8 @@ class AISA_Tools {
 				return self::publish_post( $input );
 			case 'get_site_context':
 				return self::get_site_context();
+			case 'fact_check':
+				return self::fact_check( $input );
 			case 'replace_in_post':
 				return self::replace_in_post( $input );
 			case 'append_to_post':
@@ -501,6 +528,83 @@ class AISA_Tools {
 					'theme'          => $theme->get( 'Name' ) . ' ' . $theme->get( 'Version' ),
 					'post_types'     => array_values( get_post_types( array( 'public' => true ) ) ),
 					'active_plugins' => array_values( (array) get_option( 'active_plugins', array() ) ),
+				)
+			),
+		);
+	}
+
+	/**
+	 * Fact-check a claim against the live web via Perplexity Sonar (OpenRouter).
+	 *
+	 * Read-only: it queries an external model and returns the verdict, so no
+	 * approval gate is needed. The claim text is bounded to keep the request
+	 * small and predictable.
+	 *
+	 * @param array $in Tool input.
+	 * @return array Tool result with the verdict, explanation, and sources, or an error.
+	 */
+	private static function fact_check( array $in ) {
+		$claim = trim( (string) ( $in['claim'] ?? '' ) );
+		if ( '' === $claim ) {
+			return self::error( 'Provide a specific "claim" to fact-check.' );
+		}
+		// Bound the input so a runaway prompt can't be smuggled through as a "claim".
+		$claim   = mb_substr( $claim, 0, 1000 );
+		$context = mb_substr( trim( (string) ( $in['context'] ?? '' ) ), 0, 1000 );
+
+		$user = 'Claim to verify: ' . $claim;
+		if ( '' !== $context ) {
+			$user .= "\nContext: " . $context;
+		}
+
+		$response = AISA_OpenRouter_Client::create(
+			array(
+				array(
+					'role'    => 'system',
+					'content' => "You are a rigorous fact-checker. Verify the user's claim using "
+						. "current web sources. Respond in this exact format:\n"
+						. "Verdict: <True | False | Misleading | Unverifiable>\n"
+						. "Explanation: <2-3 sentences, citing what the sources say>\n"
+						. 'Be precise about numbers and dates. If the sources disagree or are '
+						. 'insufficient, say Unverifiable rather than guessing.',
+				),
+				array(
+					'role'    => 'user',
+					'content' => $user,
+				),
+			)
+		);
+
+		if ( is_wp_error( $response ) ) {
+			return self::error( $response->get_error_message() );
+		}
+
+		$verdict = $response['choices'][0]['message']['content'] ?? '';
+		if ( '' === trim( (string) $verdict ) ) {
+			return self::error( 'Fact-check returned no verdict. Try rephrasing the claim.' );
+		}
+
+		// Perplexity models return the sources they used as a top-level `citations`
+		// array (URLs); newer responses may instead attach them as message
+		// annotations. Surface whatever is present so the model can cite them.
+		$sources = array();
+		if ( ! empty( $response['citations'] ) && is_array( $response['citations'] ) ) {
+			$sources = array_values( $response['citations'] );
+		} elseif ( ! empty( $response['choices'][0]['message']['annotations'] ) && is_array( $response['choices'][0]['message']['annotations'] ) ) {
+			foreach ( $response['choices'][0]['message']['annotations'] as $annotation ) {
+				if ( isset( $annotation['url_citation']['url'] ) ) {
+					$sources[] = $annotation['url_citation']['url'];
+				}
+			}
+		}
+
+		return array(
+			'content' => wp_json_encode(
+				array(
+					'claim'   => $claim,
+					'model'   => AISA_OpenRouter_Client::get_model(),
+					'verdict' => trim( (string) $verdict ),
+					'sources' => $sources,
 				)
 			),
 		);

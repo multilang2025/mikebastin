@@ -3,7 +3,7 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
-Stable tag: 0.4.5
+Stable tag: 0.4.6
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -137,6 +137,16 @@ Tips:
   it touches the database.
 
 == Changelog ==
+
+= 0.4.6 =
+* Add a "Fact Check" tool powered by Perplexity Sonar via OpenRouter. The
+  assistant can now verify a statistic, date, price, quote, or named study
+  against the live web before it writes it into your content, and cite the
+  sources Sonar returns. Fully opt-in: add an OpenRouter API key on the settings
+  page (or the AISA_OPENROUTER_API_KEY constant in wp-config.php) to enable it;
+  leave it blank and fact-checking stays off.
+* Surface the plugin's main features next to the "AISA Connector" heading on the
+  chat page so new users see at a glance what it does.
 
 = 0.4.5 =
 * Add an optional, self-hosted "fleet check-in" so you can see which sites run
