@@ -66,8 +66,9 @@ class AISA_Settings {
 	 */
 	public static function sanitize( $input ) {
 		return array(
-			'api_key'            => isset( $input['api_key'] ) ? trim( sanitize_text_field( $input['api_key'] ) ) : '',
-			'openrouter_api_key' => isset( $input['openrouter_api_key'] ) ? trim( sanitize_text_field( $input['openrouter_api_key'] ) ) : '',
+			'api_key'             => isset( $input['api_key'] ) ? trim( sanitize_text_field( $input['api_key'] ) ) : '',
+			'openrouter_api_key'  => isset( $input['openrouter_api_key'] ) ? trim( sanitize_text_field( $input['openrouter_api_key'] ) ) : '',
+			'unsplash_access_key' => isset( $input['unsplash_access_key'] ) ? trim( sanitize_text_field( $input['unsplash_access_key'] ) ) : '',
 		);
 	}
 
@@ -148,6 +149,22 @@ class AISA_Settings {
 							</p>
 						</td>
 					</tr>
+					<tr>
+						<th scope="row"><label for="aisa_unsplash_access_key"><?php esc_html_e( 'Unsplash access key', 'ai-site-assistant' ); ?></label></th>
+						<td>
+							<?php if ( defined( 'AISA_UNSPLASH_ACCESS_KEY' ) && AISA_UNSPLASH_ACCESS_KEY ) : ?>
+								<p><strong><?php esc_html_e( 'Set via the AISA_UNSPLASH_ACCESS_KEY constant in wp-config.php.', 'ai-site-assistant' ); ?></strong></p>
+							<?php else : ?>
+								<input name="<?php echo esc_attr( self::OPTION_KEY ); ?>[unsplash_access_key]"
+									id="aisa_unsplash_access_key" type="password" class="regular-text"
+									value="<?php echo esc_attr( $opts['unsplash_access_key'] ?? '' ); ?>"
+									autocomplete="off" />
+							<?php endif; ?>
+							<p class="description">
+								<?php esc_html_e( 'Optional. From unsplash.com/developers — powers the stock-photo search tool. Leave blank to disable it.', 'ai-site-assistant' ); ?>
+							</p>
+						</td>
+					</tr>
 				</table>
 				<?php submit_button(); ?>
 			</form>
@@ -171,6 +188,8 @@ class AISA_Settings {
 				<li><?php esc_html_e( 'SEO meta &amp; schema for Rank Math and Yoast', 'ai-site-assistant' ); ?></li>
 				<li><?php esc_html_e( 'EEAT &amp; readability playbooks', 'ai-site-assistant' ); ?></li>
 				<li><?php esc_html_e( 'Fact-checking with Perplexity Sonar (web-grounded, cited)', 'ai-site-assistant' ); ?></li>
+				<li><?php esc_html_e( 'Stock-photo search &amp; upload straight into your media library', 'ai-site-assistant' ); ?></li>
+				<li><?php esc_html_e( 'Theme file edits in a safe draft-first sandbox', 'ai-site-assistant' ); ?></li>
 				<li><?php esc_html_e( 'Write-approval gate &amp; full audit log', 'ai-site-assistant' ); ?></li>
 			</ul>
 			<div id="aisa-app">

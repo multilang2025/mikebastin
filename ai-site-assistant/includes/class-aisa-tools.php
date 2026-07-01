@@ -530,6 +530,58 @@ class AISA_Tools {
 					'additionalProperties' => false,
 				),
 			),
+			array(
+				'name'         => 'search_images',
+				'description'  => 'Search Unsplash for stock photos. Returns each photo\'s id, description, '
+					. 'a regular/small preview URL, photographer credit, and a download_location -- pass '
+					. 'the chosen photo\'s url and download_location straight into upload_media. Read-only.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'query'    => array(
+							'type'        => 'string',
+							'description' => 'Search term, e.g. "coffee shop interior".',
+						),
+						'per_page' => array(
+							'type'        => 'integer',
+							'description' => 'Max results (default 10, max 30).',
+						),
+					),
+					'required'             => array( 'query' ),
+					'additionalProperties' => false,
+				),
+			),
+			array(
+				'name'         => 'upload_media',
+				'description'  => 'Download an image URL into the media library, optionally attaching it to '
+					. 'a post and/or setting it as the post\'s featured image. Use with search_images '
+					. '(pass its url and download_location) or any other direct image URL.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'url'               => array(
+							'type'        => 'string',
+							'description' => 'Direct image URL to download.',
+						),
+						'download_location' => array(
+							'type'        => 'string',
+							'description' => 'Optional. The Unsplash download_location from search_images -- required by Unsplash\'s terms when a searched photo is actually used.',
+						),
+						'post_id'           => array(
+							'type'        => 'integer',
+							'description' => 'Optional. Attach the media to this post.',
+						),
+						'set_featured'      => array(
+							'type'        => 'boolean',
+							'description' => 'Optional. Set as post_id\'s featured image (requires post_id).',
+						),
+						'alt_text'          => array( 'type' => 'string' ),
+						'caption'           => array( 'type' => 'string' ),
+					),
+					'required'             => array( 'url' ),
+					'additionalProperties' => false,
+				),
+			),
 		);
 	}
 
@@ -554,6 +606,7 @@ class AISA_Tools {
 			'write_theme_file',
 			'publish_draft_theme',
 			'delete_draft_theme',
+			'upload_media',
 		);
 	}
 
@@ -618,6 +671,10 @@ class AISA_Tools {
 				return AISA_Theme_Files::publish_draft( $input );
 			case 'delete_draft_theme':
 				return AISA_Theme_Files::delete_draft( $input );
+			case 'search_images':
+				return self::search_images( $input );
+			case 'upload_media':
+				return self::upload_media( $input );
 			default:
 				return self::error( "Unknown tool: {$name}" );
 		}
@@ -1072,5 +1129,92 @@ class AISA_Tools {
 			return self::error( $result->get_error_message() );
 		}
 		return array( 'content' => wp_json_encode( $result ) );
+	}
+
+	/**
+	 * Search Unsplash for stock photos.
+	 *
+	 * @param array $in Tool input.
+	 * @return array Tool result with a JSON list of photos, or an error.
+	 */
+	private static function search_images( array $in ) {
+		if ( ! current_user_can( 'upload_files' ) ) {
+			return self::error( 'Permission denied.' );
+		}
+		$query = trim( (string) ( $in['query'] ?? '' ) );
+		if ( '' === $query ) {
+			return self::error( 'Provide a "query" to search for.' );
+		}
+
+		$response = AISA_Unsplash_Client::search( $query, (int) ( $in['per_page'] ?? 10 ) );
+		if ( is_wp_error( $response ) ) {
+			return self::error( $response->get_error_message() );
+		}
+
+		$rows = array();
+		foreach ( (array) ( $response['results'] ?? array() ) as $photo ) {
+			$rows[] = array(
+				'id'                => $photo['id'] ?? '',
+				'description'       => $photo['alt_description'] ?? ( $photo['description'] ?? '' ),
+				'url'               => $photo['urls']['regular'] ?? '',
+				'thumb_url'         => $photo['urls']['thumb'] ?? '',
+				'photographer'      => $photo['user']['name'] ?? '',
+				'photographer_url'  => $photo['user']['links']['html'] ?? '',
+				'download_location' => $photo['links']['download_location'] ?? '',
+			);
+		}
+		return array( 'content' => wp_json_encode( $rows ) );
+	}
+
+	/**
+	 * Download an image URL into the media library, optionally attaching it
+	 * to a post and/or setting it as the post's featured image.
+	 *
+	 * @param array $in Tool input.
+	 * @return array Tool result describing the uploaded attachment, or an error.
+	 */
+	private static function upload_media( array $in ) {
+		if ( ! current_user_can( 'upload_files' ) ) {
+			return self::error( 'Permission denied.' );
+		}
+		$url = (string) ( $in['url'] ?? '' );
+		if ( '' === $url ) {
+			return self::error( 'Provide an image "url" to download.' );
+		}
+		$post_id = (int) ( $in['post_id'] ?? 0 );
+		if ( $post_id && ! current_user_can( 'edit_post', $post_id ) ) {
+			return self::error( 'Permission denied for that post.' );
+		}
+
+		require_once ABSPATH . 'wp-admin/includes/media.php';
+		require_once ABSPATH . 'wp-admin/includes/file.php';
+		require_once ABSPATH . 'wp-admin/includes/image.php';
+
+		$caption      = isset( $in['caption'] ) ? sanitize_text_field( $in['caption'] ) : null;
+		$attachment_id = media_sideload_image( $url, $post_id, $caption, 'id' );
+		if ( is_wp_error( $attachment_id ) ) {
+			return self::error( $attachment_id->get_error_message() );
+		}
+
+		if ( isset( $in['alt_text'] ) ) {
+			update_post_meta( $attachment_id, '_wp_attachment_image_alt', sanitize_text_field( $in['alt_text'] ) );
+		}
+		if ( ! empty( $in['set_featured'] ) && $post_id ) {
+			set_post_thumbnail( $post_id, $attachment_id );
+		}
+		if ( ! empty( $in['download_location'] ) ) {
+			AISA_Unsplash_Client::ping_download( (string) $in['download_location'] );
+		}
+
+		AISA_Audit_Log::record( 'upload_media', $post_id ?: null, array( 'attachment_id' => $attachment_id ) );
+		return array(
+			'content' => wp_json_encode(
+				array(
+					'attachment_id' => $attachment_id,
+					'url'           => wp_get_attachment_url( $attachment_id ),
+					'featured_on'   => ! empty( $in['set_featured'] ) && $post_id ? $post_id : null,
+				)
+			),
+		);
 	}
 }

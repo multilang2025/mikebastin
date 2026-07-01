@@ -30,6 +30,7 @@ class AISA_Skills {
 		'schema'          => 'Inspect or write Rank Math structured-data (schema.org) entries.',
 		'page_builders'   => 'How post_content maps to Classic, Gutenberg, Divi, and Elementor, and what is/isn\'t editable.',
 		'theme_editing'   => 'Edit theme files safely using the draft-first sandbox workflow.',
+		'images'          => 'Find and insert a stock photo into a post from a natural-language description.',
 	);
 
 	/**
@@ -94,6 +95,12 @@ class AISA_Skills {
 				. 'Customizer live-preview link before anything goes live. Only call publish_draft_theme '
 				. '(which activates the draft as the live theme) after the user has seen the preview and '
 				. 'approved it. If you abandon a draft, clean it up with delete_draft_theme.',
+			'images'          => 'IMAGES: call search_images with a short descriptive query, show the user '
+				. 'a few candidates (description + photographer credit), then call upload_media with the '
+				. 'chosen result\'s url and download_location (pass both through unchanged -- '
+				. 'download_location fulfils Unsplash\'s attribution-tracking requirement). Credit the '
+				. 'photographer in the caption or alt text when the user wants attribution shown on the '
+				. 'page. Only set_featured when the user asked for a featured image specifically.',
 		);
 		return $bodies[ $name ] ?? null;
 	}
