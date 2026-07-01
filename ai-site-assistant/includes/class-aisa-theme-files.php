@@ -83,11 +83,15 @@ class AISA_Theme_Files {
 		if ( ! file_exists( $path ) ) {
 			return self::error( 'File not found.' );
 		}
+		$fs = self::filesystem();
+		if ( is_wp_error( $fs ) ) {
+			return self::error( $fs->get_error_message() );
+		}
 		return array(
 			'content' => wp_json_encode(
 				array(
 					'path'    => $in['path'],
-					'content' => (string) file_get_contents( $path ),
+					'content' => (string) $fs->get_contents( $path ),
 				)
 			),
 		);
@@ -175,7 +179,14 @@ class AISA_Theme_Files {
 			return self::error( 'Could not write the file.' );
 		}
 
-		AISA_Audit_Log::record( 'write_theme_file', null, array( 'stylesheet' => $stylesheet, 'path' => $in['path'] ?? '' ) );
+		AISA_Audit_Log::record(
+			'write_theme_file',
+			null,
+			array(
+				'stylesheet' => $stylesheet,
+				'path'       => $in['path'] ?? '',
+			)
+		);
 		return array( 'content' => 'Wrote ' . $in['path'] . " in draft theme \"{$stylesheet}\"." );
 	}
 

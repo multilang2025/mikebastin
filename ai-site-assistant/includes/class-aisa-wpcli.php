@@ -77,10 +77,10 @@ class AISA_WPCLI {
 				$rows   = array();
 				foreach ( get_plugins() as $file => $data ) {
 					$rows[] = array(
-						'file'   => $file,
-						'name'   => $data['Name'],
+						'file'    => $file,
+						'name'    => $data['Name'],
 						'version' => $data['Version'],
-						'active' => in_array( $file, $active, true ),
+						'active'  => in_array( $file, $active, true ),
 					);
 				}
 				return self::ok( $rows );
@@ -109,7 +109,12 @@ class AISA_WPCLI {
 				if ( ! in_array( $name, self::OPTION_ALLOWLIST, true ) ) {
 					return self::error( 'Option "' . $name . '" is not on the allowlist. Available: ' . implode( ', ', self::OPTION_ALLOWLIST ) . '.' );
 				}
-				return self::ok( array( 'name' => $name, 'value' => get_option( $name ) ) );
+				return self::ok(
+					array(
+						'name'  => $name,
+						'value' => get_option( $name ),
+					)
+				);
 
 			case 'user list':
 				if ( ! current_user_can( 'list_users' ) ) {
@@ -161,7 +166,12 @@ class AISA_WPCLI {
 					return self::error( $result->get_error_message() );
 				}
 				AISA_Audit_Log::record( 'wp_cli_plugin_activate', null, array( 'plugin' => $target ) );
-				return self::ok( array( 'plugin' => $target, 'active' => true ) );
+				return self::ok(
+					array(
+						'plugin' => $target,
+						'active' => true,
+					)
+				);
 
 			case 'plugin deactivate':
 				if ( ! current_user_can( 'activate_plugins' ) ) {
@@ -169,7 +179,12 @@ class AISA_WPCLI {
 				}
 				deactivate_plugins( $target );
 				AISA_Audit_Log::record( 'wp_cli_plugin_deactivate', null, array( 'plugin' => $target ) );
-				return self::ok( array( 'plugin' => $target, 'active' => false ) );
+				return self::ok(
+					array(
+						'plugin' => $target,
+						'active' => false,
+					)
+				);
 
 			case 'theme activate':
 				if ( ! current_user_can( 'switch_themes' ) ) {
@@ -181,7 +196,12 @@ class AISA_WPCLI {
 				}
 				switch_theme( $target );
 				AISA_Audit_Log::record( 'wp_cli_theme_activate', null, array( 'theme' => $target ) );
-				return self::ok( array( 'theme' => $target, 'active' => true ) );
+				return self::ok(
+					array(
+						'theme'  => $target,
+						'active' => true,
+					)
+				);
 
 			case 'option update':
 				if ( ! current_user_can( 'manage_options' ) ) {
@@ -194,7 +214,12 @@ class AISA_WPCLI {
 				$value = sanitize_text_field( (string) ( $in['value'] ?? '' ) );
 				update_option( $name, $value );
 				AISA_Audit_Log::record( 'wp_cli_option_update', null, array( 'name' => $name ) );
-				return self::ok( array( 'name' => $name, 'value' => $value ) );
+				return self::ok(
+					array(
+						'name'  => $name,
+						'value' => $value,
+					)
+				);
 
 			default:
 				return self::error( 'Unknown or unsupported "' . $command . ' ' . $action . '". ' . self::usage() );

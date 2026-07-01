@@ -46,13 +46,16 @@ class AISA_Approval_Log {
 		global $wpdb;
 		$table = AISA_Audit_Log::table();
 
-		$page   = max( 1, (int) ( $_GET['paged'] ?? 1 ) ); // phpcs:ignore WordPress.Security.NonceVerification.Recommended -- read-only list view, no state change.
+		$page   = isset( $_GET['paged'] ) ? max( 1, absint( wp_unslash( $_GET['paged'] ) ) ) : 1; // phpcs:ignore WordPress.Security.NonceVerification.Recommended -- read-only list view, no state change.
 		$offset = ( $page - 1 ) * self::PER_PAGE;
 
-		$total = (int) $wpdb->get_var( "SELECT COUNT(*) FROM {$table}" ); // phpcs:ignore WordPress.DB.PreparedSQL.NotPrepared -- $table is our own fixed table name, no user input.
-		$rows  = $wpdb->get_results(
+		// phpcs:ignore WordPress.DB.DirectDatabaseQuery.DirectQuery, WordPress.DB.DirectDatabaseQuery.NoCaching -- our own append-only audit table; caching a live count/page would show stale data.
+		$total = (int) $wpdb->get_var( $wpdb->prepare( 'SELECT COUNT(*) FROM %i', $table ) );
+		// phpcs:ignore WordPress.DB.DirectDatabaseQuery.DirectQuery, WordPress.DB.DirectDatabaseQuery.NoCaching -- our own append-only audit table; caching a live, paginated log would show stale data.
+		$rows = $wpdb->get_results(
 			$wpdb->prepare(
-				"SELECT * FROM {$table} ORDER BY id DESC LIMIT %d OFFSET %d", // phpcs:ignore WordPress.DB.PreparedSQL.NotPrepared -- $table is our own fixed table name, no user input.
+				'SELECT * FROM %i ORDER BY id DESC LIMIT %d OFFSET %d',
+				$table,
 				self::PER_PAGE,
 				$offset
 			)

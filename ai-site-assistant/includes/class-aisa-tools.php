@@ -1210,7 +1210,7 @@ class AISA_Tools {
 		require_once ABSPATH . 'wp-admin/includes/file.php';
 		require_once ABSPATH . 'wp-admin/includes/image.php';
 
-		$caption      = isset( $in['caption'] ) ? sanitize_text_field( $in['caption'] ) : null;
+		$caption       = isset( $in['caption'] ) ? sanitize_text_field( $in['caption'] ) : null;
 		$attachment_id = media_sideload_image( $url, $post_id, $caption, 'id' );
 		if ( is_wp_error( $attachment_id ) ) {
 			return self::error( $attachment_id->get_error_message() );
@@ -1226,7 +1226,7 @@ class AISA_Tools {
 			AISA_Unsplash_Client::ping_download( (string) $in['download_location'] );
 		}
 
-		AISA_Audit_Log::record( 'upload_media', $post_id ?: null, array( 'attachment_id' => $attachment_id ) );
+		AISA_Audit_Log::record( 'upload_media', $post_id ? $post_id : null, array( 'attachment_id' => $attachment_id ) );
 		return array(
 			'content' => wp_json_encode(
 				array(
