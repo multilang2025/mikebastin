@@ -23,6 +23,7 @@ define( 'AISA_URL', plugin_dir_url( __FILE__ ) );
 require_once AISA_PATH . 'includes/class-aisa-audit-log.php';
 require_once AISA_PATH . 'includes/class-aisa-claude-client.php';
 require_once AISA_PATH . 'includes/class-aisa-openrouter-client.php';
+require_once AISA_PATH . 'includes/class-aisa-skills.php';
 require_once AISA_PATH . 'includes/class-aisa-tools.php';
 require_once AISA_PATH . 'includes/class-aisa-agent.php';
 require_once AISA_PATH . 'includes/class-aisa-settings.php';

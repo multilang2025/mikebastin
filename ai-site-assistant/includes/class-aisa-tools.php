@@ -214,6 +214,24 @@ class AISA_Tools {
 				),
 			),
 			array(
+				'name'         => 'load_skill',
+				'description'  => 'Load the on-demand playbook for a specific task. Call this once, right '
+					. 'before you act, when a task matches one of the catalog entries in the system '
+					. 'prompt (eeat, fact_checking, nlp_readability, internal_links, meta_tags, schema, '
+					. 'page_builders). Read-only.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'skill' => array(
+							'type'        => 'string',
+							'description' => 'One of: ' . implode( ', ', array_keys( AISA_Skills::CATALOG ) ) . '.',
+						),
+					),
+					'required'             => array( 'skill' ),
+					'additionalProperties' => false,
+				),
+			),
+			array(
 				'name'         => 'get_seo',
 				'description'  => 'Read a post\'s SEO meta tags (title, description, focus keyword, '
 					. 'canonical, Open Graph, Twitter) and excerpt. Read-only.',
@@ -323,6 +341,8 @@ class AISA_Tools {
 				return self::get_site_context();
 			case 'fact_check':
 				return self::fact_check( $input );
+			case 'load_skill':
+				return self::load_skill( $input );
 			case 'replace_in_post':
 				return self::replace_in_post( $input );
 			case 'append_to_post':
@@ -608,6 +628,24 @@ class AISA_Tools {
 				)
 			),
 		);
+	}
+
+	/**
+	 * Return the full playbook body for one on-demand skill.
+	 *
+	 * @param array $in Tool input.
+	 * @return array Tool result with the playbook text, or an error listing valid names.
+	 */
+	private static function load_skill( array $in ) {
+		$name = sanitize_key( (string) ( $in['skill'] ?? '' ) );
+		$body = AISA_Skills::body( $name );
+		if ( null === $body ) {
+			return self::error(
+				'Unknown skill "' . $name . '". Available: '
+				. implode( ', ', array_keys( AISA_Skills::CATALOG ) ) . '.'
+			);
+		}
+		return array( 'content' => $body );
 	}
 
 	/**
