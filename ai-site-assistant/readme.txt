@@ -3,7 +3,7 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
-Stable tag: 0.5.0
+Stable tag: 0.5.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -152,6 +152,16 @@ Tips:
   gate on more precisely.
 
 == Changelog ==
+
+= 0.5.1 =
+* Fix the update checker's "Check Again" not showing a newly published
+  release for up to 6 hours. AISA_Updater cached the GitHub release lookup
+  separately from WordPress's own update-check throttle, and nothing
+  cleared that cache when a user asked for a fresh check. It now honors the
+  same `?force-check=1` signal WordPress's own "Check Again" button uses,
+  and the default cache is shortened from 6 hours to 1 (still comfortably
+  under GitHub's unauthenticated rate limit for a single site) so updates
+  surface faster even without a manual force-check.
 
 = 0.5.0 =
 * Add an on-demand "skills" system: the EEAT/fact-checking/NLP/internal-links/

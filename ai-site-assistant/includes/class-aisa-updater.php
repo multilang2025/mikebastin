@@ -55,9 +55,20 @@ class AISA_Updater {
 	 * Fetch the latest GitHub release, cached in a transient to avoid hitting
 	 * the API on every admin page load.
 	 *
+	 * WordPress's own "Check Again" button (Dashboard -> Updates) loads the
+	 * page with ?force-check=1 and, via its own much shorter internal
+	 * throttle, re-runs the plugin-update check within the same request. This
+	 * class hooks that exact same signal so a manual force-check also busts
+	 * *our* cache -- otherwise a user could click Check Again indefinitely
+	 * within the cache window and keep seeing a stale answer.
+	 *
 	 * @return array Decoded release payload, or an empty array on failure.
 	 */
 	private static function fetch_release() {
+		if ( ! empty( $_GET['force-check'] ) ) { // phpcs:ignore WordPress.Security.NonceVerification.Recommended -- read-only cache-bust signal, matches WP core's own use of this same query var.
+			delete_transient( self::CACHE_KEY );
+		}
+
 		$cached = get_transient( self::CACHE_KEY );
 		if ( false !== $cached ) {
 			return $cached;
@@ -89,7 +100,10 @@ class AISA_Updater {
 
 		$release = json_decode( wp_remote_retrieve_body( $response ), true );
 		$release = is_array( $release ) ? $release : array();
-		set_transient( self::CACHE_KEY, $release, 6 * HOUR_IN_SECONDS );
+		// Well under GitHub's 60/hour unauthenticated rate limit for a single
+		// site, and short enough that a fresh release shows up on its own
+		// without needing the force-check bust above.
+		set_transient( self::CACHE_KEY, $release, HOUR_IN_SECONDS );
 
 		return $release;
 	}
