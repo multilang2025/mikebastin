@@ -219,6 +219,13 @@ class AISA_Theme_Files {
 			return self::error( 'Could not copy the theme into a draft directory: ' . $copied->get_error_message() );
 		}
 
+		// copy_dir() is a raw filesystem operation with no theme-registration
+		// hooks. Without this, wp_get_theme( $draft ) can report the draft
+		// doesn't exist if anything already cached the theme directory list
+		// earlier in the request (e.g. a prior wp_get_themes() call).
+		// wp_clean_themes_cache() lives in wp-includes/theme.php, always loaded.
+		wp_clean_themes_cache();
+
 		AISA_Audit_Log::record( 'create_draft_theme', null, array( 'draft' => $draft ) );
 		return array( 'content' => "Created draft theme \"{$draft}\" from \"{$source}\". Edit it with read_theme_file/write_theme_file, preview with get_theme_preview_url, then publish_draft_theme when ready." );
 	}

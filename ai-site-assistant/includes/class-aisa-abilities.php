@@ -49,11 +49,12 @@ class AISA_Abilities {
 		$name = sanitize_text_field( (string) ( $in['name'] ?? '' ) );
 
 		if ( '' !== $name ) {
-			$ability = wp_get_ability( $name );
-			if ( ! $ability ) {
+			// Check existence before wp_get_ability() -- calling it with an
+			// unknown name triggers a core _doing_it_wrong() notice.
+			if ( ! wp_has_ability( $name ) ) {
 				return self::error( 'No ability registered as "' . $name . '".' );
 			}
-			return array( 'content' => wp_json_encode( self::describe( $ability, true ) ) );
+			return array( 'content' => wp_json_encode( self::describe( wp_get_ability( $name ), true ) ) );
 		}
 
 		$rows = array();
@@ -81,10 +82,10 @@ class AISA_Abilities {
 			return self::error( 'Provide the ability "name" (from discover_abilities).' );
 		}
 
-		$ability = wp_get_ability( $name );
-		if ( ! $ability ) {
+		if ( ! wp_has_ability( $name ) ) {
 			return self::error( 'No ability registered as "' . $name . '".' );
 		}
+		$ability = wp_get_ability( $name );
 
 		$input      = is_array( $in['input'] ?? null ) ? $in['input'] : array();
 		$permission = $ability->check_permissions( $input );
