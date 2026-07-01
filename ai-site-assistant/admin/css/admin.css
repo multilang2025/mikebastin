@@ -60,3 +60,36 @@
 .aisa-form textarea {
 	flex: 1;
 }
+
+.aisa-title .aisa-tagline {
+	font-size: 13px;
+	font-weight: 400;
+	color: #646970;
+	margin-left: 0.5rem;
+}
+
+.aisa-features {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.4rem 1.2rem;
+	margin: 0 0 1rem;
+	padding: 0;
+	list-style: none;
+	max-width: 900px;
+}
+
+.aisa-features li {
+	position: relative;
+	margin: 0;
+	padding-left: 1.4rem;
+	color: #3c434a;
+	font-size: 13px;
+}
+
+.aisa-features li::before {
+	content: "\2713";
+	position: absolute;
+	left: 0;
+	color: #2271b1;
+	font-weight: 700;
+}

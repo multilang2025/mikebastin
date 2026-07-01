@@ -66,7 +66,9 @@ class AISA_Settings {
 	 */
 	public static function sanitize( $input ) {
 		return array(
-			'api_key' => isset( $input['api_key'] ) ? trim( sanitize_text_field( $input['api_key'] ) ) : '',
+			'api_key'             => isset( $input['api_key'] ) ? trim( sanitize_text_field( $input['api_key'] ) ) : '',
+			'openrouter_api_key'  => isset( $input['openrouter_api_key'] ) ? trim( sanitize_text_field( $input['openrouter_api_key'] ) ) : '',
+			'unsplash_access_key' => isset( $input['unsplash_access_key'] ) ? trim( sanitize_text_field( $input['unsplash_access_key'] ) ) : '',
 		);
 	}
 
@@ -131,6 +133,38 @@ class AISA_Settings {
 							</p>
 						</td>
 					</tr>
+					<tr>
+						<th scope="row"><label for="aisa_openrouter_api_key"><?php esc_html_e( 'OpenRouter API key', 'ai-site-assistant' ); ?></label></th>
+						<td>
+							<?php if ( defined( 'AISA_OPENROUTER_API_KEY' ) && AISA_OPENROUTER_API_KEY ) : ?>
+								<p><strong><?php esc_html_e( 'Set via the AISA_OPENROUTER_API_KEY constant in wp-config.php.', 'ai-site-assistant' ); ?></strong></p>
+							<?php else : ?>
+								<input name="<?php echo esc_attr( self::OPTION_KEY ); ?>[openrouter_api_key]"
+									id="aisa_openrouter_api_key" type="password" class="regular-text"
+									value="<?php echo esc_attr( $opts['openrouter_api_key'] ?? '' ); ?>"
+									autocomplete="off" />
+							<?php endif; ?>
+							<p class="description">
+								<?php esc_html_e( 'Optional. From openrouter.ai/keys — powers the Fact Check tool via Perplexity Sonar. Leave blank to disable fact-checking.', 'ai-site-assistant' ); ?>
+							</p>
+						</td>
+					</tr>
+					<tr>
+						<th scope="row"><label for="aisa_unsplash_access_key"><?php esc_html_e( 'Unsplash access key', 'ai-site-assistant' ); ?></label></th>
+						<td>
+							<?php if ( defined( 'AISA_UNSPLASH_ACCESS_KEY' ) && AISA_UNSPLASH_ACCESS_KEY ) : ?>
+								<p><strong><?php esc_html_e( 'Set via the AISA_UNSPLASH_ACCESS_KEY constant in wp-config.php.', 'ai-site-assistant' ); ?></strong></p>
+							<?php else : ?>
+								<input name="<?php echo esc_attr( self::OPTION_KEY ); ?>[unsplash_access_key]"
+									id="aisa_unsplash_access_key" type="password" class="regular-text"
+									value="<?php echo esc_attr( $opts['unsplash_access_key'] ?? '' ); ?>"
+									autocomplete="off" />
+							<?php endif; ?>
+							<p class="description">
+								<?php esc_html_e( 'Optional. From unsplash.com/developers — powers the stock-photo search tool. Leave blank to disable it.', 'ai-site-assistant' ); ?>
+							</p>
+						</td>
+					</tr>
 				</table>
 				<?php submit_button(); ?>
 			</form>
@@ -144,7 +178,20 @@ class AISA_Settings {
 	public static function render_chat() {
 		?>
 		<div class="wrap">
-			<h1><?php esc_html_e( 'AISA Connector', 'ai-site-assistant' ); ?></h1>
+			<h1 class="aisa-title">
+				<?php esc_html_e( 'AISA Connector', 'ai-site-assistant' ); ?>
+				<span class="aisa-tagline"><?php esc_html_e( 'Your AI content &amp; SEO assistant', 'ai-site-assistant' ); ?></span>
+			</h1>
+			<ul class="aisa-features">
+				<li><?php esc_html_e( 'Draft, edit &amp; publish posts and pages by chat', 'ai-site-assistant' ); ?></li>
+				<li><?php esc_html_e( 'Fast targeted edits (replace / append) that avoid timeouts', 'ai-site-assistant' ); ?></li>
+				<li><?php esc_html_e( 'SEO meta &amp; schema for Rank Math and Yoast', 'ai-site-assistant' ); ?></li>
+				<li><?php esc_html_e( 'EEAT &amp; readability playbooks', 'ai-site-assistant' ); ?></li>
+				<li><?php esc_html_e( 'Fact-checking with Perplexity Sonar (web-grounded, cited)', 'ai-site-assistant' ); ?></li>
+				<li><?php esc_html_e( 'Stock-photo search &amp; upload straight into your media library', 'ai-site-assistant' ); ?></li>
+				<li><?php esc_html_e( 'Theme file edits in a safe draft-first sandbox', 'ai-site-assistant' ); ?></li>
+				<li><?php esc_html_e( 'Write-approval gate &amp; full audit log', 'ai-site-assistant' ); ?></li>
+			</ul>
 			<div id="aisa-app">
 				<div id="aisa-log" class="aisa-log" aria-live="polite"></div>
 				<form id="aisa-form" class="aisa-form">

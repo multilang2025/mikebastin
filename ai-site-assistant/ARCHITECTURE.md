@@ -29,6 +29,30 @@ AISA_Tools::dispatch       includes/class-tools.php  — THE SECURITY BOUNDARY
 WordPress APIs (WP_Query, wp_insert_post, wp_update_post, …)
 ```
 
+The `fact_check` tool is one branch that reaches a second provider:
+`AISA_Tools::fact_check` calls `AISA_OpenRouter_Client::create`
+(`includes/class-openrouter-client.php`), which POSTs to OpenRouter's
+OpenAI-compatible chat/completions endpoint for Perplexity Sonar and returns a
+verdict plus source URLs. It is read-only (no write gate) and inert until an
+OpenRouter key is configured. `search_images` reaches a third provider the
+same way, via `AISA_Unsplash_Client`.
+
+Beyond posts and SEO meta, `AISA_Tools::dispatch` fans out to a few dedicated
+classes rather than growing one giant file:
+
+- `AISA_WPCLI` (`wp_cli_get`/`wp_cli_set`) — WP-CLI-equivalent site admin
+  (plugins, themes, an allowlisted set of options, users) via native PHP
+  calls into WordPress core. No `exec()`/`shell_exec()` anywhere.
+- `AISA_Abilities` (`discover_abilities`/`run_ability`) — a thin bridge to WP
+  core's Abilities API (6.9+), so other plugins' registered capabilities are
+  reachable without a bespoke integration per plugin.
+- `AISA_Theme_Files` (`list_theme_files`/`read_theme_file`/`search_theme_files`/
+  `create_draft_theme`/`write_theme_file`/`get_theme_preview_url`/
+  `publish_draft_theme`/`delete_draft_theme`) — theme file access, with writes
+  confined to a draft-theme sandbox (see below).
+- `AISA_Skills` (`load_skill`) — the on-demand playbook library described
+  under "Model configuration".
+
 ## The security boundary
 
 Claude never touches the database. It emits `tool_use` blocks; `AISA_Tools`
@@ -41,6 +65,18 @@ Each handler enforces:
   since the model read the post via `get_post`.
 - **Meta allowlist** — only keys in `AISA_Tools::META_ALLOWLIST` are writable.
 - **Drafts only** — `create_post` always writes `post_status = draft`.
+- **Option allowlist** — `wp_cli_set` only writes options in
+  `AISA_WPCLI::OPTION_ALLOWLIST`, which deliberately excludes anything that
+  could change who can log in or what code runs (`active_plugins`,
+  `template`/`stylesheet`, `siteurl`/`home`, etc.).
+- **Theme draft sandbox** — `write_theme_file` refuses any stylesheet that
+  doesn't end in `-aisa-draft`; the live theme's files are never touched by
+  this plugin. Paths are resolved with `realpath()` and checked against the
+  theme root to block traversal, and PHP writes are syntax-checked with
+  `token_get_all(..., TOKEN_PARSE)` before saving — no shell involved.
+- **No reliable read/write flag on Abilities** — the Abilities API doesn't
+  expose one, so `run_ability` is unconditionally gated as if every call
+  were a write.
 
 ## The write gate
 

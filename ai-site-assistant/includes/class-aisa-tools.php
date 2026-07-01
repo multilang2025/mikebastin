@@ -189,6 +189,49 @@ class AISA_Tools {
 				),
 			),
 			array(
+				'name'         => 'fact_check',
+				'description'  => 'Verify a factual claim against the live web using Perplexity Sonar '
+					. '(search-grounded). Call this BEFORE adding or keeping any statistic, date, '
+					. 'quote, price, named study, or other checkable fact in content — never invent '
+					. 'or guess these. Returns a verdict (True / False / Misleading / Unverifiable), '
+					. 'a short explanation, and source URLs to cite. Read-only.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'claim'   => array(
+							'type'        => 'string',
+							'description' => 'The single, specific statement to verify, e.g. '
+								. '"The Eiffel Tower is 330 metres tall.".',
+						),
+						'context' => array(
+							'type'        => 'string',
+							'description' => 'Optional context to disambiguate the claim (topic, '
+								. 'time period, location).',
+						),
+					),
+					'required'             => array( 'claim' ),
+					'additionalProperties' => false,
+				),
+			),
+			array(
+				'name'         => 'load_skill',
+				'description'  => 'Load the on-demand playbook for a specific task. Call this once, right '
+					. 'before you act, when a task matches one of the catalog entries in the system '
+					. 'prompt (eeat, fact_checking, nlp_readability, internal_links, meta_tags, schema, '
+					. 'page_builders). Read-only.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'skill' => array(
+							'type'        => 'string',
+							'description' => 'One of: ' . implode( ', ', array_keys( AISA_Skills::CATALOG ) ) . '.',
+						),
+					),
+					'required'             => array( 'skill' ),
+					'additionalProperties' => false,
+				),
+			),
+			array(
 				'name'         => 'get_seo',
 				'description'  => 'Read a post\'s SEO meta tags (title, description, focus keyword, '
 					. 'canonical, Open Graph, Twitter) and excerpt. Read-only.',
@@ -254,6 +297,309 @@ class AISA_Tools {
 					'additionalProperties' => false,
 				),
 			),
+			array(
+				'name'         => 'wp_cli_get',
+				'description'  => 'Read-only site administration lookups (like WP-CLI, but native PHP -- '
+					. 'no shell). command/action pairs: "plugin list", "theme list", "option get" (pass '
+					. 'the option name as args[0]; allowlisted keys only), "user list", "core version".',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'command' => array(
+							'type'        => 'string',
+							'description' => 'plugin, theme, option, user, or core.',
+						),
+						'action'  => array(
+							'type'        => 'string',
+							'description' => 'list, get, or version depending on command.',
+						),
+						'args'    => array(
+							'type'        => 'array',
+							'items'       => array( 'type' => 'string' ),
+							'description' => 'Positional arguments, e.g. the option name for "option get".',
+						),
+					),
+					'required'             => array( 'command', 'action' ),
+					'additionalProperties' => false,
+				),
+			),
+			array(
+				'name'         => 'wp_cli_set',
+				'description'  => 'Site administration writes (like WP-CLI, but native PHP -- no shell). '
+					. 'command/action pairs: "plugin activate"/"plugin deactivate" (target = plugin file, '
+					. 'e.g. akismet/akismet.php), "theme activate" (target = stylesheet slug), "option '
+					. 'update" (target = option name, allowlisted keys only; value = new value).',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'command' => array(
+							'type'        => 'string',
+							'description' => 'plugin, theme, or option.',
+						),
+						'action'  => array(
+							'type'        => 'string',
+							'description' => 'activate, deactivate, or update depending on command.',
+						),
+						'target'  => array(
+							'type'        => 'string',
+							'description' => 'Plugin file, theme stylesheet slug, or option name.',
+						),
+						'value'   => array(
+							'type'        => 'string',
+							'description' => 'New value, only used for "option update".',
+						),
+					),
+					'required'             => array( 'command', 'action', 'target' ),
+					'additionalProperties' => false,
+				),
+			),
+			array(
+				'name'         => 'discover_abilities',
+				'description'  => 'List capabilities other plugins have registered via the WordPress '
+					. 'Abilities API (WP 6.9+) -- e.g. SEO or forms plugins. Pass "name" to get one '
+					. 'ability\'s full input/output schema before calling run_ability. Read-only. Returns '
+					. 'an error if the site does not have the Abilities API.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'name' => array(
+							'type'        => 'string',
+							'description' => 'Optional. A specific ability name to get full schema detail for.',
+						),
+					),
+					'additionalProperties' => false,
+				),
+			),
+			array(
+				'name'         => 'run_ability',
+				'description'  => 'Execute one ability discovered via discover_abilities. Always treated as '
+					. 'a write and requires approval, since abilities are registered by arbitrary plugins '
+					. 'and the API does not expose a reliable read/write flag.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'name'  => array(
+							'type'        => 'string',
+							'description' => 'Ability name, from discover_abilities.',
+						),
+						'input' => array(
+							'type'        => 'object',
+							'description' => 'Input matching the ability\'s input_schema.',
+						),
+					),
+					'required'             => array( 'name' ),
+					'additionalProperties' => false,
+				),
+			),
+			array(
+				'name'         => 'list_theme_files',
+				'description'  => 'List a theme\'s files (php/css/js/json/html/txt only). Defaults to the '
+					. 'active theme. Read-only. Load the theme_editing skill before making any theme change.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'stylesheet' => array(
+							'type'        => 'string',
+							'description' => 'Theme slug. Defaults to the active theme.',
+						),
+						'subdir'     => array(
+							'type'        => 'string',
+							'description' => 'Optional subdirectory to list instead of the theme root.',
+						),
+					),
+					'additionalProperties' => false,
+				),
+			),
+			array(
+				'name'         => 'read_theme_file',
+				'description'  => 'Read one theme file\'s contents. Read-only.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'stylesheet' => array(
+							'type'        => 'string',
+							'description' => 'Theme slug. Defaults to the active theme.',
+						),
+						'path'       => array(
+							'type'        => 'string',
+							'description' => 'File path relative to the theme root, e.g. "style.css".',
+						),
+					),
+					'required'             => array( 'path' ),
+					'additionalProperties' => false,
+				),
+			),
+			array(
+				'name'         => 'search_theme_files',
+				'description'  => 'Search a theme\'s files for an exact string, returning file/line matches. '
+					. 'Read-only.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'stylesheet' => array(
+							'type'        => 'string',
+							'description' => 'Theme slug. Defaults to the active theme.',
+						),
+						'query'      => array(
+							'type'        => 'string',
+							'description' => 'Exact text to search for.',
+						),
+					),
+					'required'             => array( 'query' ),
+					'additionalProperties' => false,
+				),
+			),
+			array(
+				'name'         => 'create_draft_theme',
+				'description'  => 'Copy the active theme into a sandboxed "<slug>-aisa-draft" directory. '
+					. 'ALWAYS call this before editing any theme file -- write_theme_file refuses anything '
+					. 'that is not a draft. Returns the draft\'s stylesheet slug.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => new stdClass(),
+					'additionalProperties' => false,
+				),
+			),
+			array(
+				'name'         => 'write_theme_file',
+				'description'  => 'Write one file\'s contents inside a DRAFT theme (from create_draft_theme) '
+					. 'only -- refused for any non-draft stylesheet. PHP files are syntax-checked before '
+					. 'writing.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'stylesheet' => array(
+							'type'        => 'string',
+							'description' => 'Draft theme stylesheet slug, from create_draft_theme.',
+						),
+						'path'       => array(
+							'type'        => 'string',
+							'description' => 'File path relative to the theme root.',
+						),
+						'content'    => array(
+							'type'        => 'string',
+							'description' => 'Full new file contents.',
+						),
+					),
+					'required'             => array( 'stylesheet', 'path', 'content' ),
+					'additionalProperties' => false,
+				),
+			),
+			array(
+				'name'         => 'get_theme_preview_url',
+				'description'  => 'Get a Customizer live-preview link for a theme (draft or not) without '
+					. 'activating it -- show this to the user before publish_draft_theme. Read-only.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'stylesheet' => array( 'type' => 'string' ),
+					),
+					'required'             => array( 'stylesheet' ),
+					'additionalProperties' => false,
+				),
+			),
+			array(
+				'name'         => 'publish_draft_theme',
+				'description'  => 'Activate a draft theme (from create_draft_theme) as the live theme. Only '
+					. 'call this after the user has seen get_theme_preview_url and approved it.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'stylesheet' => array(
+							'type'        => 'string',
+							'description' => 'Draft theme stylesheet slug.',
+						),
+					),
+					'required'             => array( 'stylesheet' ),
+					'additionalProperties' => false,
+				),
+			),
+			array(
+				'name'         => 'delete_draft_theme',
+				'description'  => 'Delete an abandoned draft theme\'s files. Refuses anything that is not an '
+					. 'AISA draft, and refuses the currently active theme.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'stylesheet' => array(
+							'type'        => 'string',
+							'description' => 'Draft theme stylesheet slug.',
+						),
+					),
+					'required'             => array( 'stylesheet' ),
+					'additionalProperties' => false,
+				),
+			),
+			array(
+				'name'         => 'search_images',
+				'description'  => 'Search Unsplash for stock photos. Returns each photo\'s id, description, '
+					. 'a regular/small preview URL, photographer credit, and a download_location -- pass '
+					. 'the chosen photo\'s url and download_location straight into upload_media. Read-only.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'query'    => array(
+							'type'        => 'string',
+							'description' => 'Search term, e.g. "coffee shop interior".',
+						),
+						'per_page' => array(
+							'type'        => 'integer',
+							'description' => 'Max results (default 10, max 30).',
+						),
+					),
+					'required'             => array( 'query' ),
+					'additionalProperties' => false,
+				),
+			),
+			array(
+				'name'         => 'upload_media',
+				'description'  => 'Download an image URL into the media library, optionally attaching it to '
+					. 'a post and/or setting it as the post\'s featured image. Use with search_images '
+					. '(pass its url and download_location) or any other direct image URL.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'url'               => array(
+							'type'        => 'string',
+							'description' => 'Direct image URL to download.',
+						),
+						'download_location' => array(
+							'type'        => 'string',
+							'description' => 'Optional. The Unsplash download_location from search_images -- required by Unsplash\'s terms when a searched photo is actually used.',
+						),
+						'post_id'           => array(
+							'type'        => 'integer',
+							'description' => 'Optional. Attach the media to this post.',
+						),
+						'set_featured'      => array(
+							'type'        => 'boolean',
+							'description' => 'Optional. Set as post_id\'s featured image (requires post_id).',
+						),
+						'alt_text'          => array( 'type' => 'string' ),
+						'caption'           => array( 'type' => 'string' ),
+					),
+					'required'             => array( 'url' ),
+					'additionalProperties' => false,
+				),
+			),
+			array(
+				'name'         => 'get_page_html',
+				'description'  => 'Fetch a post/page\'s LIVE RENDERED HTML (its actual public output, not '
+					. 'raw post_content) -- use to check how an edit actually looks, or to see content a '
+					. 'page builder generates that isn\'t in post_content. No JavaScript is executed. '
+					. 'Read-only.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'id' => array(
+							'type'        => 'integer',
+							'description' => 'Post/page ID. Its permalink is fetched.',
+						),
+					),
+					'required'             => array( 'id' ),
+					'additionalProperties' => false,
+				),
+			),
 		);
 	}
 
@@ -272,6 +618,13 @@ class AISA_Tools {
 			'append_to_post',
 			'set_seo',
 			'set_meta',
+			'wp_cli_set',
+			'run_ability',
+			'create_draft_theme',
+			'write_theme_file',
+			'publish_draft_theme',
+			'delete_draft_theme',
+			'upload_media',
 		);
 	}
 
@@ -296,6 +649,10 @@ class AISA_Tools {
 				return self::publish_post( $input );
 			case 'get_site_context':
 				return self::get_site_context();
+			case 'fact_check':
+				return self::fact_check( $input );
+			case 'load_skill':
+				return self::load_skill( $input );
 			case 'replace_in_post':
 				return self::replace_in_post( $input );
 			case 'append_to_post':
@@ -308,6 +665,36 @@ class AISA_Tools {
 				return self::get_schema( $input );
 			case 'set_meta':
 				return self::set_meta( $input );
+			case 'wp_cli_get':
+				return AISA_WPCLI::get( $input );
+			case 'wp_cli_set':
+				return AISA_WPCLI::set( $input );
+			case 'discover_abilities':
+				return AISA_Abilities::discover( $input );
+			case 'run_ability':
+				return AISA_Abilities::run( $input );
+			case 'list_theme_files':
+				return AISA_Theme_Files::list_files( $input );
+			case 'read_theme_file':
+				return AISA_Theme_Files::read_file( $input );
+			case 'search_theme_files':
+				return AISA_Theme_Files::search_files( $input );
+			case 'create_draft_theme':
+				return AISA_Theme_Files::create_draft( $input );
+			case 'write_theme_file':
+				return AISA_Theme_Files::write_file( $input );
+			case 'get_theme_preview_url':
+				return AISA_Theme_Files::preview_url( $input );
+			case 'publish_draft_theme':
+				return AISA_Theme_Files::publish_draft( $input );
+			case 'delete_draft_theme':
+				return AISA_Theme_Files::delete_draft( $input );
+			case 'search_images':
+				return self::search_images( $input );
+			case 'upload_media':
+				return self::upload_media( $input );
+			case 'get_page_html':
+				return self::get_page_html( $input );
 			default:
 				return self::error( "Unknown tool: {$name}" );
 		}
@@ -507,6 +894,101 @@ class AISA_Tools {
 	}
 
 	/**
+	 * Fact-check a claim against the live web via Perplexity Sonar (OpenRouter).
+	 *
+	 * Read-only: it queries an external model and returns the verdict, so no
+	 * approval gate is needed. The claim text is bounded to keep the request
+	 * small and predictable.
+	 *
+	 * @param array $in Tool input.
+	 * @return array Tool result with the verdict, explanation, and sources, or an error.
+	 */
+	private static function fact_check( array $in ) {
+		$claim = trim( (string) ( $in['claim'] ?? '' ) );
+		if ( '' === $claim ) {
+			return self::error( 'Provide a specific "claim" to fact-check.' );
+		}
+		// Bound the input so a runaway prompt can't be smuggled through as a "claim".
+		$claim   = mb_substr( $claim, 0, 1000 );
+		$context = mb_substr( trim( (string) ( $in['context'] ?? '' ) ), 0, 1000 );
+
+		$user = 'Claim to verify: ' . $claim;
+		if ( '' !== $context ) {
+			$user .= "\nContext: " . $context;
+		}
+
+		$response = AISA_OpenRouter_Client::create(
+			array(
+				array(
+					'role'    => 'system',
+					'content' => "You are a rigorous fact-checker. Verify the user's claim using "
+						. "current web sources. Respond in this exact format:\n"
+						. "Verdict: <True | False | Misleading | Unverifiable>\n"
+						. "Explanation: <2-3 sentences, citing what the sources say>\n"
+						. 'Be precise about numbers and dates. If the sources disagree or are '
+						. 'insufficient, say Unverifiable rather than guessing.',
+				),
+				array(
+					'role'    => 'user',
+					'content' => $user,
+				),
+			)
+		);
+
+		if ( is_wp_error( $response ) ) {
+			return self::error( $response->get_error_message() );
+		}
+
+		$verdict = $response['choices'][0]['message']['content'] ?? '';
+		if ( '' === trim( (string) $verdict ) ) {
+			return self::error( 'Fact-check returned no verdict. Try rephrasing the claim.' );
+		}
+
+		// Perplexity models return the sources they used as a top-level `citations`
+		// array (URLs); newer responses may instead attach them as message
+		// annotations. Surface whatever is present so the model can cite them.
+		$sources = array();
+		if ( ! empty( $response['citations'] ) && is_array( $response['citations'] ) ) {
+			$sources = array_values( $response['citations'] );
+		} elseif ( ! empty( $response['choices'][0]['message']['annotations'] ) && is_array( $response['choices'][0]['message']['annotations'] ) ) {
+			foreach ( $response['choices'][0]['message']['annotations'] as $annotation ) {
+				if ( isset( $annotation['url_citation']['url'] ) ) {
+					$sources[] = $annotation['url_citation']['url'];
+				}
+			}
+		}
+
+		return array(
+			'content' => wp_json_encode(
+				array(
+					'claim'   => $claim,
+					'model'   => AISA_OpenRouter_Client::get_model(),
+					'verdict' => trim( (string) $verdict ),
+					'sources' => $sources,
+				)
+			),
+		);
+	}
+
+	/**
+	 * Return the full playbook body for one on-demand skill.
+	 *
+	 * @param array $in Tool input.
+	 * @return array Tool result with the playbook text, or an error listing valid names.
+	 */
+	private static function load_skill( array $in ) {
+		$name = sanitize_key( (string) ( $in['skill'] ?? '' ) );
+		$body = AISA_Skills::body( $name );
+		if ( null === $body ) {
+			return self::error(
+				'Unknown skill "' . $name . '". Available: '
+				. implode( ', ', array_keys( AISA_Skills::CATALOG ) ) . '.'
+			);
+		}
+		return array( 'content' => $body );
+	}
+
+	/**
 	 * Replace an exact text snippet inside a post's content (targeted edit).
 	 *
 	 * Much cheaper than rewriting the whole post, which keeps long edits under
@@ -667,5 +1149,133 @@ class AISA_Tools {
 			return self::error( $result->get_error_message() );
 		}
 		return array( 'content' => wp_json_encode( $result ) );
+	}
+
+	/**
+	 * Search Unsplash for stock photos.
+	 *
+	 * @param array $in Tool input.
+	 * @return array Tool result with a JSON list of photos, or an error.
+	 */
+	private static function search_images( array $in ) {
+		if ( ! current_user_can( 'upload_files' ) ) {
+			return self::error( 'Permission denied.' );
+		}
+		$query = trim( (string) ( $in['query'] ?? '' ) );
+		if ( '' === $query ) {
+			return self::error( 'Provide a "query" to search for.' );
+		}
+
+		$response = AISA_Unsplash_Client::search( $query, (int) ( $in['per_page'] ?? 10 ) );
+		if ( is_wp_error( $response ) ) {
+			return self::error( $response->get_error_message() );
+		}
+
+		$rows = array();
+		foreach ( (array) ( $response['results'] ?? array() ) as $photo ) {
+			$rows[] = array(
+				'id'                => $photo['id'] ?? '',
+				'description'       => $photo['alt_description'] ?? ( $photo['description'] ?? '' ),
+				'url'               => $photo['urls']['regular'] ?? '',
+				'thumb_url'         => $photo['urls']['thumb'] ?? '',
+				'photographer'      => $photo['user']['name'] ?? '',
+				'photographer_url'  => $photo['user']['links']['html'] ?? '',
+				'download_location' => $photo['links']['download_location'] ?? '',
+			);
+		}
+		return array( 'content' => wp_json_encode( $rows ) );
+	}
+
+	/**
+	 * Download an image URL into the media library, optionally attaching it
+	 * to a post and/or setting it as the post's featured image.
+	 *
+	 * @param array $in Tool input.
+	 * @return array Tool result describing the uploaded attachment, or an error.
+	 */
+	private static function upload_media( array $in ) {
+		if ( ! current_user_can( 'upload_files' ) ) {
+			return self::error( 'Permission denied.' );
+		}
+		$url = (string) ( $in['url'] ?? '' );
+		if ( '' === $url ) {
+			return self::error( 'Provide an image "url" to download.' );
+		}
+		$post_id = (int) ( $in['post_id'] ?? 0 );
+		if ( $post_id && ! current_user_can( 'edit_post', $post_id ) ) {
+			return self::error( 'Permission denied for that post.' );
+		}
+
+		require_once ABSPATH . 'wp-admin/includes/media.php';
+		require_once ABSPATH . 'wp-admin/includes/file.php';
+		require_once ABSPATH . 'wp-admin/includes/image.php';
+
+		$caption       = isset( $in['caption'] ) ? sanitize_text_field( $in['caption'] ) : null;
+		$attachment_id = media_sideload_image( $url, $post_id, $caption, 'id' );
+		if ( is_wp_error( $attachment_id ) ) {
+			return self::error( $attachment_id->get_error_message() );
+		}
+
+		if ( isset( $in['alt_text'] ) ) {
+			update_post_meta( $attachment_id, '_wp_attachment_image_alt', sanitize_text_field( $in['alt_text'] ) );
+		}
+		if ( ! empty( $in['set_featured'] ) && $post_id ) {
+			set_post_thumbnail( $post_id, $attachment_id );
+		}
+		if ( ! empty( $in['download_location'] ) ) {
+			AISA_Unsplash_Client::ping_download( (string) $in['download_location'] );
+		}
+
+		AISA_Audit_Log::record( 'upload_media', $post_id ? $post_id : null, array( 'attachment_id' => $attachment_id ) );
+		return array(
+			'content' => wp_json_encode(
+				array(
+					'attachment_id' => $attachment_id,
+					'url'           => wp_get_attachment_url( $attachment_id ),
+					'featured_on'   => ! empty( $in['set_featured'] ) && $post_id ? $post_id : null,
+				)
+			),
+		);
+	}
+
+	/**
+	 * Fetch a post's live rendered HTML via its permalink. Bounded in length
+	 * so a huge page can't blow up the conversation's context.
+	 *
+	 * @param array $in Tool input.
+	 * @return array Tool result with the HTML (possibly truncated), or an error.
+	 */
+	private static function get_page_html( array $in ) {
+		$id = (int) ( $in['id'] ?? 0 );
+		if ( ! current_user_can( 'edit_post', $id ) ) {
+			return self::error( 'Permission denied for this post.' );
+		}
+		$permalink = get_permalink( $id );
+		if ( ! $permalink ) {
+			return self::error( 'Post not found, or it has no public permalink.' );
+		}
+
+		$response = wp_remote_get( $permalink, array( 'timeout' => 20 ) );
+		if ( is_wp_error( $response ) ) {
+			return self::error( $response->get_error_message() );
+		}
+
+		$html      = wp_remote_retrieve_body( $response );
+		$max_bytes = 20000;
+		$truncated = strlen( $html ) > $max_bytes;
+		if ( $truncated ) {
+			$html = substr( $html, 0, $max_bytes ) . "\n<!-- AISA: truncated at {$max_bytes} bytes -->";
+		}
+
+		return array(
+			'content' => wp_json_encode(
+				array(
+					'url'       => $permalink,
+					'status'    => wp_remote_retrieve_response_code( $response ),
+					'html'      => $html,
+					'truncated' => $truncated,
+				)
+			),
+		);
 	}
 }

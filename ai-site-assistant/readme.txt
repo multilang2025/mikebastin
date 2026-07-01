@@ -3,7 +3,7 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
-Stable tag: 0.4.4
+Stable tag: 0.5.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -25,6 +25,12 @@ Architecture (see the source for detail):
 * `class-aisa-rest.php`         — the REST endpoint the admin UI calls.
 * `class-aisa-settings.php`     — settings + chat page.
 * `class-aisa-audit-log.php`    — records every write to a custom table.
+* `class-aisa-approval-log.php`— read-only admin page over the audit log.
+* `class-aisa-skills.php`       — on-demand task playbooks, loaded via load_skill.
+* `class-aisa-wpcli.php`        — WP-CLI-equivalent site admin, no shell binary.
+* `class-aisa-abilities.php`    — bridge to WP core's Abilities API (6.9+).
+* `class-aisa-theme-files.php`  — theme file tools + the draft-first sandbox.
+* `class-aisa-unsplash-client.php` — stock-photo search for upload_media.
 
 == Installation ==
 
@@ -66,6 +72,31 @@ Notes:
   downloaded through GitHub's authenticated asset API. The token is only ever
   sent to `api.github.com` for this repo's release assets.
 * The repo is set in `class-aisa-updater.php` (`AISA_Updater::REPO`).
+
+== Fleet check-in (optional) ==
+
+See which of your sites run the plugin from one dashboard. It is opt-in and uses
+no third-party service — one of your own sites acts as the hub.
+
+1. Pick one site as the hub. In its `wp-config.php` add:
+
+       define( 'AISA_CHECKIN_HUB', true );
+       define( 'AISA_CHECKIN_TOKEN', 'a-long-random-shared-secret' );
+
+   The hub gets an **AISA Connector → Sites** page listing every check-in.
+
+2. On every site that should report (the hub can report to itself too), add:
+
+       define( 'AISA_CHECKIN_URL', 'https://YOUR-HUB-SITE/wp-json/aisa/v1/checkin' );
+       define( 'AISA_CHECKIN_TOKEN', 'a-long-random-shared-secret' );
+
+   Use the SAME token everywhere — it is the shared secret that stops anyone
+   else posting to your hub.
+
+Each reporting site checks in once a day (and shortly after you visit wp-admin).
+The payload is small: site URL, site name, plugin/WordPress/PHP versions, and
+the active SEO engine — no content and no secrets. With none of these constants
+defined, the feature is completely inert.
 
 == Usage ==
 
@@ -110,8 +141,65 @@ Tips:
 * Writable meta keys are allowlisted in `class-aisa-tools.php`.
 * All model output is sanitized (`wp_kses_post`, `sanitize_text_field`) before
   it touches the database.
+* Writable options (`wp_cli_set`) are allowlisted in `AISA_WPCLI::OPTION_ALLOWLIST`
+  and deliberately exclude anything that could change who can log in or what
+  code runs.
+* Theme file writes only ever target a "<slug>-aisa-draft" copy, never the
+  live theme; file paths are resolved and checked against the theme root to
+  block path traversal, and PHP writes are syntax-checked before saving.
+* `run_ability` (WordPress Abilities API) is always treated as a write and
+  requires approval, since the API gives no reliable read/write flag to
+  gate on more precisely.
 
 == Changelog ==
+
+= 0.5.0 =
+* Add an on-demand "skills" system: the EEAT/fact-checking/NLP/internal-links/
+  meta/schema/page-builder playbooks moved out of the static system prompt
+  into a load_skill tool the assistant calls only when a task needs one,
+  cutting the baseline token cost of every turn.
+* Add WP-CLI-equivalent site administration (wp_cli_get/wp_cli_set): list and
+  activate/deactivate plugins, list and activate themes, read/write an
+  allowlisted set of options, list users, and read the WordPress/PHP version
+  -- all via native PHP, no exec()/shell_exec(), so it works on locked-down
+  shared hosting.
+* Add a bridge to WordPress core's Abilities API (WP 6.9+): discover_abilities
+  lists capabilities other plugins have registered, run_ability executes one.
+  Returns a clear message if the site doesn't have the Abilities API yet.
+* Add theme file tools (list_theme_files, read_theme_file, search_theme_files)
+  and a draft-first sandbox (create_draft_theme, write_theme_file,
+  get_theme_preview_url, publish_draft_theme, delete_draft_theme). Edits only
+  ever happen in a "<slug>-aisa-draft" copy -- the live theme's files are
+  never touched until you explicitly publish. PHP writes are syntax-checked
+  before saving.
+* Add stock-photo search and upload (search_images, upload_media) via
+  Unsplash, with an optional access key on the settings page. Downloads a
+  chosen photo straight into the media library and can set it as a post's
+  featured image.
+* Add get_page_html: fetch a post's actual rendered HTML (no JS) instead of
+  just its raw post_content, useful for page-builder pages and checking how
+  an edit really looks.
+* Add an "Approval Log" admin page listing every write action AISA_Audit_Log
+  has recorded -- the table existed since 0.1.0 but had no viewer until now.
+
+= 0.4.6 =
+* Add a "Fact Check" tool powered by Perplexity Sonar via OpenRouter. The
+  assistant can now verify a statistic, date, price, quote, or named study
+  against the live web before it writes it into your content, and cite the
+  sources Sonar returns. Fully opt-in: add an OpenRouter API key on the settings
+  page (or the AISA_OPENROUTER_API_KEY constant in wp-config.php) to enable it;
+  leave it blank and fact-checking stays off.
+* Surface the plugin's main features next to the "AISA Connector" heading on the
+  chat page so new users see at a glance what it does.
+
+= 0.4.5 =
+* Add an optional, self-hosted "fleet check-in" so you can see which sites run
+  the plugin from one dashboard. Each site can report its URL, plugin/WordPress/
+  PHP versions, and SEO engine once a day to a hub you control — and the hub is
+  just another copy of this plugin (no separate service to host). A new
+  "AISA Connector -> Sites" page on the hub lists every site and when it last
+  checked in. Entirely opt-in via wp-config.php constants; with none set, nothing
+  is sent or collected. See "Fleet check-in" below.
 
 = 0.4.4 =
 * Fix the recurring "The response is not a valid JSON response" on multi-step
