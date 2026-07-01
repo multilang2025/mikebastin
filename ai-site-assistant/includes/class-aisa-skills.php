@@ -29,6 +29,7 @@ class AISA_Skills {
 		'meta_tags'       => 'Write or improve SEO meta title/description and Open Graph/Twitter tags.',
 		'schema'          => 'Inspect or write Rank Math structured-data (schema.org) entries.',
 		'page_builders'   => 'How post_content maps to Classic, Gutenberg, Divi, and Elementor, and what is/isn\'t editable.',
+		'theme_editing'   => 'Edit theme files safely using the draft-first sandbox workflow.',
 	);
 
 	/**
@@ -84,6 +85,15 @@ class AISA_Skills {
 				. 'post_content — if a page looks empty or like raw shortcodes/JSON, tell the user it is '
 				. 'an Elementor page and that body edits are not supported yet (SEO meta and schema still '
 				. 'work). Always confirm a replace_in_post match exists before relying on it.',
+			'theme_editing'   => 'THEME EDITING: never write directly into the live theme. First call '
+				. 'list_theme_files/read_theme_file/search_theme_files (safe on any theme, read-only) to '
+				. 'find what to change. Before making ANY edit, call create_draft_theme -- it copies the '
+				. 'active theme into its own "<slug>-aisa-draft" directory and returns that draft\'s '
+				. 'stylesheet slug. Make all write_theme_file calls against that draft slug only (it is '
+				. 'rejected otherwise). Use get_theme_preview_url on the draft slug to give the user a '
+				. 'Customizer live-preview link before anything goes live. Only call publish_draft_theme '
+				. '(which activates the draft as the live theme) after the user has seen the preview and '
+				. 'approved it. If you abandon a draft, clean it up with delete_draft_theme.',
 		);
 		return $bodies[ $name ] ?? null;
 	}

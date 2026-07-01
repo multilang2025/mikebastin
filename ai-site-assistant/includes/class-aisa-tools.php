@@ -391,6 +391,145 @@ class AISA_Tools {
 					'additionalProperties' => false,
 				),
 			),
+			array(
+				'name'         => 'list_theme_files',
+				'description'  => 'List a theme\'s files (php/css/js/json/html/txt only). Defaults to the '
+					. 'active theme. Read-only. Load the theme_editing skill before making any theme change.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'stylesheet' => array(
+							'type'        => 'string',
+							'description' => 'Theme slug. Defaults to the active theme.',
+						),
+						'subdir'     => array(
+							'type'        => 'string',
+							'description' => 'Optional subdirectory to list instead of the theme root.',
+						),
+					),
+					'additionalProperties' => false,
+				),
+			),
+			array(
+				'name'         => 'read_theme_file',
+				'description'  => 'Read one theme file\'s contents. Read-only.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'stylesheet' => array(
+							'type'        => 'string',
+							'description' => 'Theme slug. Defaults to the active theme.',
+						),
+						'path'       => array(
+							'type'        => 'string',
+							'description' => 'File path relative to the theme root, e.g. "style.css".',
+						),
+					),
+					'required'             => array( 'path' ),
+					'additionalProperties' => false,
+				),
+			),
+			array(
+				'name'         => 'search_theme_files',
+				'description'  => 'Search a theme\'s files for an exact string, returning file/line matches. '
+					. 'Read-only.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'stylesheet' => array(
+							'type'        => 'string',
+							'description' => 'Theme slug. Defaults to the active theme.',
+						),
+						'query'      => array(
+							'type'        => 'string',
+							'description' => 'Exact text to search for.',
+						),
+					),
+					'required'             => array( 'query' ),
+					'additionalProperties' => false,
+				),
+			),
+			array(
+				'name'         => 'create_draft_theme',
+				'description'  => 'Copy the active theme into a sandboxed "<slug>-aisa-draft" directory. '
+					. 'ALWAYS call this before editing any theme file -- write_theme_file refuses anything '
+					. 'that is not a draft. Returns the draft\'s stylesheet slug.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => new stdClass(),
+					'additionalProperties' => false,
+				),
+			),
+			array(
+				'name'         => 'write_theme_file',
+				'description'  => 'Write one file\'s contents inside a DRAFT theme (from create_draft_theme) '
+					. 'only -- refused for any non-draft stylesheet. PHP files are syntax-checked before '
+					. 'writing.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'stylesheet' => array(
+							'type'        => 'string',
+							'description' => 'Draft theme stylesheet slug, from create_draft_theme.',
+						),
+						'path'       => array(
+							'type'        => 'string',
+							'description' => 'File path relative to the theme root.',
+						),
+						'content'    => array(
+							'type'        => 'string',
+							'description' => 'Full new file contents.',
+						),
+					),
+					'required'             => array( 'stylesheet', 'path', 'content' ),
+					'additionalProperties' => false,
+				),
+			),
+			array(
+				'name'         => 'get_theme_preview_url',
+				'description'  => 'Get a Customizer live-preview link for a theme (draft or not) without '
+					. 'activating it -- show this to the user before publish_draft_theme. Read-only.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'stylesheet' => array( 'type' => 'string' ),
+					),
+					'required'             => array( 'stylesheet' ),
+					'additionalProperties' => false,
+				),
+			),
+			array(
+				'name'         => 'publish_draft_theme',
+				'description'  => 'Activate a draft theme (from create_draft_theme) as the live theme. Only '
+					. 'call this after the user has seen get_theme_preview_url and approved it.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'stylesheet' => array(
+							'type'        => 'string',
+							'description' => 'Draft theme stylesheet slug.',
+						),
+					),
+					'required'             => array( 'stylesheet' ),
+					'additionalProperties' => false,
+				),
+			),
+			array(
+				'name'         => 'delete_draft_theme',
+				'description'  => 'Delete an abandoned draft theme\'s files. Refuses anything that is not an '
+					. 'AISA draft, and refuses the currently active theme.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'stylesheet' => array(
+							'type'        => 'string',
+							'description' => 'Draft theme stylesheet slug.',
+						),
+					),
+					'required'             => array( 'stylesheet' ),
+					'additionalProperties' => false,
+				),
+			),
 		);
 	}
 
@@ -411,6 +550,10 @@ class AISA_Tools {
 			'set_meta',
 			'wp_cli_set',
 			'run_ability',
+			'create_draft_theme',
+			'write_theme_file',
+			'publish_draft_theme',
+			'delete_draft_theme',
 		);
 	}
 
@@ -459,6 +602,22 @@ class AISA_Tools {
 				return AISA_Abilities::discover( $input );
 			case 'run_ability':
 				return AISA_Abilities::run( $input );
+			case 'list_theme_files':
+				return AISA_Theme_Files::list_files( $input );
+			case 'read_theme_file':
+				return AISA_Theme_Files::read_file( $input );
+			case 'search_theme_files':
+				return AISA_Theme_Files::search_files( $input );
+			case 'create_draft_theme':
+				return AISA_Theme_Files::create_draft( $input );
+			case 'write_theme_file':
+				return AISA_Theme_Files::write_file( $input );
+			case 'get_theme_preview_url':
+				return AISA_Theme_Files::preview_url( $input );
+			case 'publish_draft_theme':
+				return AISA_Theme_Files::publish_draft( $input );
+			case 'delete_draft_theme':
+				return AISA_Theme_Files::delete_draft( $input );
 			default:
 				return self::error( "Unknown tool: {$name}" );
 		}
