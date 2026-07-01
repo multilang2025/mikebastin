@@ -297,6 +297,62 @@ class AISA_Tools {
 					'additionalProperties' => false,
 				),
 			),
+			array(
+				'name'         => 'wp_cli_get',
+				'description'  => 'Read-only site administration lookups (like WP-CLI, but native PHP -- '
+					. 'no shell). command/action pairs: "plugin list", "theme list", "option get" (pass '
+					. 'the option name as args[0]; allowlisted keys only), "user list", "core version".',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'command' => array(
+							'type'        => 'string',
+							'description' => 'plugin, theme, option, user, or core.',
+						),
+						'action'  => array(
+							'type'        => 'string',
+							'description' => 'list, get, or version depending on command.',
+						),
+						'args'    => array(
+							'type'        => 'array',
+							'items'       => array( 'type' => 'string' ),
+							'description' => 'Positional arguments, e.g. the option name for "option get".',
+						),
+					),
+					'required'             => array( 'command', 'action' ),
+					'additionalProperties' => false,
+				),
+			),
+			array(
+				'name'         => 'wp_cli_set',
+				'description'  => 'Site administration writes (like WP-CLI, but native PHP -- no shell). '
+					. 'command/action pairs: "plugin activate"/"plugin deactivate" (target = plugin file, '
+					. 'e.g. akismet/akismet.php), "theme activate" (target = stylesheet slug), "option '
+					. 'update" (target = option name, allowlisted keys only; value = new value).',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'command' => array(
+							'type'        => 'string',
+							'description' => 'plugin, theme, or option.',
+						),
+						'action'  => array(
+							'type'        => 'string',
+							'description' => 'activate, deactivate, or update depending on command.',
+						),
+						'target'  => array(
+							'type'        => 'string',
+							'description' => 'Plugin file, theme stylesheet slug, or option name.',
+						),
+						'value'   => array(
+							'type'        => 'string',
+							'description' => 'New value, only used for "option update".',
+						),
+					),
+					'required'             => array( 'command', 'action', 'target' ),
+					'additionalProperties' => false,
+				),
+			),
 		);
 	}
 
@@ -315,6 +371,7 @@ class AISA_Tools {
 			'append_to_post',
 			'set_seo',
 			'set_meta',
+			'wp_cli_set',
 		);
 	}
 
@@ -355,6 +412,10 @@ class AISA_Tools {
 				return self::get_schema( $input );
 			case 'set_meta':
 				return self::set_meta( $input );
+			case 'wp_cli_get':
+				return AISA_WPCLI::get( $input );
+			case 'wp_cli_set':
+				return AISA_WPCLI::set( $input );
 			default:
 				return self::error( "Unknown tool: {$name}" );
 		}
