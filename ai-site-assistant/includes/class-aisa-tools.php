@@ -582,6 +582,24 @@ class AISA_Tools {
 					'additionalProperties' => false,
 				),
 			),
+			array(
+				'name'         => 'get_page_html',
+				'description'  => 'Fetch a post/page\'s LIVE RENDERED HTML (its actual public output, not '
+					. 'raw post_content) -- use to check how an edit actually looks, or to see content a '
+					. 'page builder generates that isn\'t in post_content. No JavaScript is executed. '
+					. 'Read-only.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'id' => array(
+							'type'        => 'integer',
+							'description' => 'Post/page ID. Its permalink is fetched.',
+						),
+					),
+					'required'             => array( 'id' ),
+					'additionalProperties' => false,
+				),
+			),
 		);
 	}
 
@@ -675,6 +693,8 @@ class AISA_Tools {
 				return self::search_images( $input );
 			case 'upload_media':
 				return self::upload_media( $input );
+			case 'get_page_html':
+				return self::get_page_html( $input );
 			default:
 				return self::error( "Unknown tool: {$name}" );
 		}
@@ -1213,6 +1233,47 @@ class AISA_Tools {
 					'attachment_id' => $attachment_id,
 					'url'           => wp_get_attachment_url( $attachment_id ),
 					'featured_on'   => ! empty( $in['set_featured'] ) && $post_id ? $post_id : null,
+				)
+			),
+		);
+	}
+
+	/**
+	 * Fetch a post's live rendered HTML via its permalink. Bounded in length
+	 * so a huge page can't blow up the conversation's context.
+	 *
+	 * @param array $in Tool input.
+	 * @return array Tool result with the HTML (possibly truncated), or an error.
+	 */
+	private static function get_page_html( array $in ) {
+		$id = (int) ( $in['id'] ?? 0 );
+		if ( ! current_user_can( 'edit_post', $id ) ) {
+			return self::error( 'Permission denied for this post.' );
+		}
+		$permalink = get_permalink( $id );
+		if ( ! $permalink ) {
+			return self::error( 'Post not found, or it has no public permalink.' );
+		}
+
+		$response = wp_remote_get( $permalink, array( 'timeout' => 20 ) );
+		if ( is_wp_error( $response ) ) {
+			return self::error( $response->get_error_message() );
+		}
+
+		$html      = wp_remote_retrieve_body( $response );
+		$max_bytes = 20000;
+		$truncated = strlen( $html ) > $max_bytes;
+		if ( $truncated ) {
+			$html = substr( $html, 0, $max_bytes ) . "\n<!-- AISA: truncated at {$max_bytes} bytes -->";
+		}
+
+		return array(
+			'content' => wp_json_encode(
+				array(
+					'url'       => $permalink,
+					'status'    => wp_remote_retrieve_response_code( $response ),
+					'html'      => $html,
+					'truncated' => $truncated,
 				)
 			),
 		);
