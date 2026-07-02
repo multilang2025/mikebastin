@@ -20,7 +20,13 @@
 		const el = document.createElement( 'div' );
 		el.className = 'aisa-msg aisa-msg--' + role;
 		el.textContent = text;
-		log.appendChild( el );
+		// Keep the "Working…" indicator pinned to the bottom: when it is
+		// showing, insert new messages above it rather than after it.
+		if ( busyEl ) {
+			log.insertBefore( el, busyEl );
+		} else {
+			log.appendChild( el );
+		}
 		log.scrollTop = log.scrollHeight;
 	}
 
