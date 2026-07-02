@@ -3,7 +3,7 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
-Stable tag: 0.5.3
+Stable tag: 0.5.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -153,6 +153,11 @@ Tips:
   gate on more precisely.
 
 == Changelog ==
+
+= 0.5.4 =
+* Fix the chat panel's "Working…" indicator appearing above the conversation:
+  it now stays pinned to the bottom (new messages insert above it) so it
+  always reads as the latest, in-progress status.
 
 = 0.5.3 =
 * Fix the browser execution loop: include the continue flag in the chat REST
