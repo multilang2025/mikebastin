@@ -610,16 +610,16 @@ class AISA_Tools {
 				'input_schema' => array(
 					'type'                 => 'object',
 					'properties'           => array(
-						'target' => array(
+						'target'  => array(
 							'type'        => 'string',
 							'description' => 'Domain or URL to analyze. Defaults to this site. Pass a competitor domain to analyze theirs.',
 						),
-						'order'  => array(
+						'order'   => array(
 							'type'        => 'string',
 							'enum'        => array( 'worst', 'best' ),
 							'description' => 'worst = lowest-traffic pages first (default); best = highest first.',
 						),
-						'limit'  => array(
+						'limit'   => array(
 							'type'        => 'integer',
 							'description' => 'Max pages to return (default 20, max 100).',
 						),
