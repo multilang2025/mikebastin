@@ -3,7 +3,7 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
-Stable tag: 0.5.2
+Stable tag: 0.5.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -32,6 +32,7 @@ Architecture (see the source for detail):
 * `class-aisa-theme-files.php`  — theme file tools + the draft-first sandbox.
 * `class-aisa-unsplash-client.php` — stock-photo search for upload_media.
 * `class-aisa-ahrefs-client.php` — Ahrefs API v3 client for the SEO-intelligence tools.
+* `class-aisa-gemini-client.php` — Gemini (Nano Banana Pro) client for generate_image.
 
 == Installation ==
 
@@ -153,6 +154,28 @@ Tips:
   gate on more precisely.
 
 == Changelog ==
+
+= 0.5.3 =
+* Add original AI image generation via Nano Banana Pro (Gemini 3 Pro Image):
+  a new generate_image tool creates artwork from a text description instead
+  of only searching stock photos. Hyper-realism and a strict no-text-in-image
+  constraint are enforced automatically on every generation -- never left to
+  the model to remember. A new image_generation skill teaches the assistant
+  to fully read the target post/page for context before generating, and to
+  deliberately vary composition/palette/mood across multiple images in the
+  same task so a set doesn't look repetitive.
+* The write-approval dialog now shows a visual thumbnail preview before you
+  approve saving a generated image, instead of an unlabeled "Approve?" with
+  no context.
+* Technical note: generated images are cached briefly server-side and never
+  round-tripped through the Claude conversation as raw data -- only a small
+  reference id is exchanged, avoiding a multi-hundred-thousand-token cost per
+  image. upload_media now accepts that reference alongside its existing URL
+  input.
+* Fully opt-in: add a Gemini API key on the settings page (or the
+  AISA_GEMINI_API_KEY constant in wp-config.php) from Google AI Studio.
+  Each generated image is a billed, metered API call. Leave the key blank
+  and image generation stays off.
 
 = 0.5.2 =
 * Add SEO intelligence via Ahrefs, so the assistant can answer questions the

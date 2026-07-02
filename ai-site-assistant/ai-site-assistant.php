@@ -3,7 +3,7 @@
  * Plugin Name:       AISA Connector
  * Plugin URI:        https://example.com/ai-site-assistant
  * Description:        An AI assistant for WordPress that can read and edit your content using your own Claude API key. No daily limits — you pay your provider per use.
- * Version:           0.5.2
+ * Version:           0.5.3
  * Requires at least: 6.3
  * Requires PHP:      8.1
  * Author:            betranslated
@@ -16,7 +16,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'AISA_VERSION', '0.5.2' );
+define( 'AISA_VERSION', '0.5.3' );
 define( 'AISA_PATH', plugin_dir_path( __FILE__ ) );
 define( 'AISA_URL', plugin_dir_url( __FILE__ ) );
 
@@ -25,6 +25,7 @@ require_once AISA_PATH . 'includes/class-aisa-claude-client.php';
 require_once AISA_PATH . 'includes/class-aisa-openrouter-client.php';
 require_once AISA_PATH . 'includes/class-aisa-unsplash-client.php';
 require_once AISA_PATH . 'includes/class-aisa-ahrefs-client.php';
+require_once AISA_PATH . 'includes/class-aisa-gemini-client.php';
 require_once AISA_PATH . 'includes/class-aisa-skills.php';
 require_once AISA_PATH . 'includes/class-aisa-wpcli.php';
 require_once AISA_PATH . 'includes/class-aisa-abilities.php';

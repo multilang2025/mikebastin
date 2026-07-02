@@ -51,6 +51,14 @@
 	margin-right: 0.5rem;
 }
 
+.aisa-confirm-preview {
+	display: block;
+	max-width: 100%;
+	max-height: 320px;
+	border-radius: 6px;
+	margin-bottom: 0.6rem;
+}
+
 .aisa-form {
 	display: flex;
 	gap: 0.5rem;
