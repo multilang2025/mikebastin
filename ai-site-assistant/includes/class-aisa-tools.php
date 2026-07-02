@@ -600,6 +600,84 @@ class AISA_Tools {
 					'additionalProperties' => false,
 				),
 			),
+			array(
+				'name'         => 'ahrefs_top_pages',
+				'description'  => 'Rank a site\'s pages by estimated monthly organic search traffic (via '
+					. 'Ahrefs). Use order="worst" to find the LEAST-performing articles (lowest traffic), '
+					. 'or order="best" for top performers. Point target at a competitor domain to see '
+					. 'their best-performing content for improvement ideas. Read-only. Needs an Ahrefs '
+					. 'API key.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'target'  => array(
+							'type'        => 'string',
+							'description' => 'Domain or URL to analyze. Defaults to this site. Pass a competitor domain to analyze theirs.',
+						),
+						'order'   => array(
+							'type'        => 'string',
+							'enum'        => array( 'worst', 'best' ),
+							'description' => 'worst = lowest-traffic pages first (default); best = highest first.',
+						),
+						'limit'   => array(
+							'type'        => 'integer',
+							'description' => 'Max pages to return (default 20, max 100).',
+						),
+						'country' => array(
+							'type'        => 'string',
+							'description' => 'Optional two-letter country code to scope to one market, e.g. us, gb, es.',
+						),
+					),
+					'additionalProperties' => false,
+				),
+			),
+			array(
+				'name'         => 'ahrefs_organic_competitors',
+				'description'  => 'List the domains competing with a site in organic search (via Ahrefs), '
+					. 'each with its domain rating, shared keywords, and keywords_competitor (keywords '
+					. 'they rank for that your target does not -- your content-gap / improvement '
+					. 'opportunity). Defaults to this site. Read-only. Needs an Ahrefs API key.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'target'  => array(
+							'type'        => 'string',
+							'description' => 'Domain to analyze. Defaults to this site.',
+						),
+						'country' => array(
+							'type'        => 'string',
+							'description' => 'Two-letter country code for the market (default us). Set to your main market.',
+						),
+						'limit'   => array(
+							'type'        => 'integer',
+							'description' => 'Max competitors to return (default 10, max 50).',
+						),
+					),
+					'additionalProperties' => false,
+				),
+			),
+			array(
+				'name'         => 'ahrefs_domain_metrics',
+				'description'  => 'Get a domain\'s headline organic SEO metrics (via Ahrefs): estimated '
+					. 'monthly organic traffic, number of ranking keywords, keywords in the top 3, and '
+					. 'estimated traffic value (USD cents -- divide by 100 for dollars). Call once per '
+					. 'domain to compare your site head-to-head with a competitor. Read-only. Needs an '
+					. 'Ahrefs API key.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'target'  => array(
+							'type'        => 'string',
+							'description' => 'Domain or URL. Defaults to this site.',
+						),
+						'country' => array(
+							'type'        => 'string',
+							'description' => 'Optional two-letter country code to scope to one market.',
+						),
+					),
+					'additionalProperties' => false,
+				),
+			),
 		);
 	}
 
@@ -695,6 +773,12 @@ class AISA_Tools {
 				return self::upload_media( $input );
 			case 'get_page_html':
 				return self::get_page_html( $input );
+			case 'ahrefs_top_pages':
+				return self::ahrefs_top_pages( $input );
+			case 'ahrefs_organic_competitors':
+				return self::ahrefs_organic_competitors( $input );
+			case 'ahrefs_domain_metrics':
+				return self::ahrefs_domain_metrics( $input );
 			default:
 				return self::error( "Unknown tool: {$name}" );
 		}
@@ -1274,6 +1358,131 @@ class AISA_Tools {
 					'status'    => wp_remote_retrieve_response_code( $response ),
 					'html'      => $html,
 					'truncated' => $truncated,
+				)
+			),
+		);
+	}
+
+	/**
+	 * Rank a target's pages by estimated monthly organic traffic (Ahrefs).
+	 * Defaults to this site; order defaults to worst-first (least-performing).
+	 *
+	 * @param array $in Tool input.
+	 * @return array Tool result with a JSON list of pages, or an error.
+	 */
+	private static function ahrefs_top_pages( array $in ) {
+		if ( ! current_user_can( 'edit_posts' ) ) {
+			return self::error( 'Permission denied.' );
+		}
+		$target = trim( (string) ( $in['target'] ?? '' ) );
+		if ( '' === $target ) {
+			$target = AISA_Ahrefs_Client::site_target();
+		}
+		$order = ( 'best' === ( $in['order'] ?? 'worst' ) ) ? 'sum_traffic:desc' : 'sum_traffic:asc';
+		$limit = min( max( 1, (int) ( $in['limit'] ?? 20 ) ), 100 );
+
+		$response = AISA_Ahrefs_Client::get(
+			'site-explorer/top-pages',
+			array(
+				'target'   => $target,
+				'mode'     => 'subdomains',
+				'date'     => AISA_Ahrefs_Client::today(),
+				'select'   => 'url,sum_traffic,top_keyword,keywords,value',
+				'order_by' => $order,
+				'limit'    => $limit,
+				'country'  => sanitize_text_field( (string) ( $in['country'] ?? '' ) ),
+			)
+		);
+		if ( is_wp_error( $response ) ) {
+			return self::error( $response->get_error_message() );
+		}
+		return array(
+			'content' => wp_json_encode(
+				array(
+					'target' => $target,
+					'order'  => 'best' === ( $in['order'] ?? 'worst' ) ? 'best' : 'worst',
+					'pages'  => $response['pages'] ?? array(),
+				)
+			),
+		);
+	}
+
+	/**
+	 * List a target's organic-search competitors and the keyword gap (Ahrefs).
+	 *
+	 * @param array $in Tool input.
+	 * @return array Tool result with a JSON list of competitors, or an error.
+	 */
+	private static function ahrefs_organic_competitors( array $in ) {
+		if ( ! current_user_can( 'edit_posts' ) ) {
+			return self::error( 'Permission denied.' );
+		}
+		$target = trim( (string) ( $in['target'] ?? '' ) );
+		if ( '' === $target ) {
+			$target = AISA_Ahrefs_Client::site_target();
+		}
+		$country = sanitize_text_field( (string) ( $in['country'] ?? 'us' ) );
+		$limit   = min( max( 1, (int) ( $in['limit'] ?? 10 ) ), 50 );
+
+		$response = AISA_Ahrefs_Client::get(
+			'site-explorer/organic-competitors',
+			array(
+				'target'   => $target,
+				'mode'     => 'subdomains',
+				'country'  => '' !== $country ? $country : 'us',
+				'date'     => AISA_Ahrefs_Client::today(),
+				'select'   => 'competitor_domain,domain_rating,keywords_common,keywords_competitor,keywords_target,traffic,share',
+				'order_by' => 'keywords_common:desc',
+				'limit'    => $limit,
+			)
+		);
+		if ( is_wp_error( $response ) ) {
+			return self::error( $response->get_error_message() );
+		}
+		return array(
+			'content' => wp_json_encode(
+				array(
+					'target'      => $target,
+					'country'     => '' !== $country ? $country : 'us',
+					'competitors' => $response['competitors'] ?? array(),
+				)
+			),
+		);
+	}
+
+	/**
+	 * Headline organic SEO metrics for one domain (Ahrefs). Call once per
+	 * domain to compare this site head-to-head with a competitor.
+	 *
+	 * @param array $in Tool input.
+	 * @return array Tool result with the metrics as JSON, or an error.
+	 */
+	private static function ahrefs_domain_metrics( array $in ) {
+		if ( ! current_user_can( 'edit_posts' ) ) {
+			return self::error( 'Permission denied.' );
+		}
+		$target = trim( (string) ( $in['target'] ?? '' ) );
+		if ( '' === $target ) {
+			$target = AISA_Ahrefs_Client::site_target();
+		}
+
+		$response = AISA_Ahrefs_Client::get(
+			'site-explorer/metrics',
+			array(
+				'target'  => $target,
+				'mode'    => 'subdomains',
+				'date'    => AISA_Ahrefs_Client::today(),
+				'country' => sanitize_text_field( (string) ( $in['country'] ?? '' ) ),
+			)
+		);
+		if ( is_wp_error( $response ) ) {
+			return self::error( $response->get_error_message() );
+		}
+		return array(
+			'content' => wp_json_encode(
+				array(
+					'target'  => $target,
+					'metrics' => $response['metrics'] ?? array(),
 				)
 			),
 		);

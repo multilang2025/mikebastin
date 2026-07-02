@@ -3,7 +3,7 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
-Stable tag: 0.5.1
+Stable tag: 0.5.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -31,6 +31,7 @@ Architecture (see the source for detail):
 * `class-aisa-abilities.php`    — bridge to WP core's Abilities API (6.9+).
 * `class-aisa-theme-files.php`  — theme file tools + the draft-first sandbox.
 * `class-aisa-unsplash-client.php` — stock-photo search for upload_media.
+* `class-aisa-ahrefs-client.php` — Ahrefs API v3 client for the SEO-intelligence tools.
 
 == Installation ==
 
@@ -152,6 +153,22 @@ Tips:
   gate on more precisely.
 
 == Changelog ==
+
+= 0.5.2 =
+* Add SEO intelligence via Ahrefs, so the assistant can answer questions the
+  WordPress database can't -- e.g. "what are my least-performing articles?"
+  and "how do I compare to my competitors, and how can I improve?". Three
+  read-only tools: ahrefs_top_pages (rank your pages by estimated organic
+  traffic, worst or best first; point it at a competitor to study their best
+  content), ahrefs_organic_competitors (rival domains plus the keyword gap
+  they rank for that you don't), and ahrefs_domain_metrics (organic traffic,
+  keyword counts, and traffic value for head-to-head comparison). A new
+  "SEO intelligence" skill teaches the assistant how to chain them.
+* Fully opt-in: add an Ahrefs API key on the settings page (or the
+  AISA_AHREFS_API_KEY constant in wp-config.php). Requires an Ahrefs plan
+  with API access; each request consumes Ahrefs API units. Traffic and
+  keyword figures are Ahrefs estimates from its own index, not the site's
+  own analytics. Leave the key blank and the tools stay off.
 
 = 0.5.1 =
 * Fix the update checker's "Check Again" not showing a newly published
