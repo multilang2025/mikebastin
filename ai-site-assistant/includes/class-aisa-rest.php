@@ -77,6 +77,7 @@ class AISA_REST {
 				'reply'    => $result['reply'],
 				'messages' => $result['messages'],
 				'pending'  => $result['pending'] ?? null,
+				'continue' => ! empty( $result['continue'] ),
 			)
 		);
 	}
