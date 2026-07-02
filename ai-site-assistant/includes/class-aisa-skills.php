@@ -31,6 +31,7 @@ class AISA_Skills {
 		'page_builders'   => 'How post_content maps to Classic, Gutenberg, Divi, and Elementor, and what is/isn\'t editable.',
 		'theme_editing'   => 'Edit theme files safely using the draft-first sandbox workflow.',
 		'images'          => 'Find and insert a stock photo into a post from a natural-language description.',
+		'seo_intelligence' => 'Answer traffic/performance and competitor questions using Ahrefs data.',
 	);
 
 	/**
@@ -95,6 +96,26 @@ class AISA_Skills {
 				. 'Customizer live-preview link before anything goes live. Only call publish_draft_theme '
 				. '(which activates the draft as the live theme) after the user has seen the preview and '
 				. 'approved it. If you abandon a draft, clean it up with delete_draft_theme.',
+			'seo_intelligence' => 'SEO INTELLIGENCE (Ahrefs): use these when the user asks about traffic, '
+				. 'performance, or competitors -- the WordPress database has none of that data. All three '
+				. 'tools default their target to this site; pass a competitor domain to analyze theirs. '
+				. "They need an Ahrefs API key (tell the user to add one in Settings if a tool reports it's "
+				. "missing). Traffic and keyword figures are Ahrefs ESTIMATES from its own index, not the "
+				. "site's real analytics -- say so when you present them. Monetary fields (value, org_cost) "
+				. "are in USD cents; divide by 100.\n"
+				. '- "Least/worst-performing articles": ahrefs_top_pages with order="worst" (lowest organic '
+				. 'traffic first). order="best" for top performers. Name the actual URLs and their '
+				. "sum_traffic; offer to open or edit the weak ones.\n"
+				. '- "Who are my competitors / how do I compare": ahrefs_organic_competitors lists rival '
+				. 'domains with keywords_competitor (keywords they rank for that you do NOT -- your gap). '
+				. 'For a head-to-head, call ahrefs_domain_metrics once for this site and once per '
+				. "competitor and compare org_traffic / org_keywords / org_keywords_1_3.\n"
+				. '- "Ideas to improve": combine the above -- pull a top competitor, run ahrefs_top_pages '
+				. 'on THEIR domain (order="best") to see the content driving their traffic, and turn the '
+				. 'keyword gap into concrete topic/section suggestions. Only then offer to draft or edit '
+				. "content (which still goes through the normal approval gate).\n"
+				. 'If the user has not set a market, ask which country to scope competitor data to '
+				. '(the default is us).',
 			'images'          => 'IMAGES: call search_images with a short descriptive query, show the user '
 				. 'a few candidates (description + photographer credit), then call upload_media with the '
 				. 'chosen result\'s url and download_location (pass both through unchanged -- '

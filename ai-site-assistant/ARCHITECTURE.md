@@ -35,7 +35,9 @@ The `fact_check` tool is one branch that reaches a second provider:
 OpenAI-compatible chat/completions endpoint for Perplexity Sonar and returns a
 verdict plus source URLs. It is read-only (no write gate) and inert until an
 OpenRouter key is configured. `search_images` reaches a third provider the
-same way, via `AISA_Unsplash_Client`.
+same way, via `AISA_Unsplash_Client`, and the `ahrefs_*` SEO-intelligence
+tools reach a fourth via `AISA_Ahrefs_Client` (Ahrefs API v3) — also
+read-only and inert until an Ahrefs API key is configured.
 
 Beyond posts and SEO meta, `AISA_Tools::dispatch` fans out to a few dedicated
 classes rather than growing one giant file:
