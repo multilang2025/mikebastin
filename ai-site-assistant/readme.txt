@@ -3,7 +3,7 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
-Stable tag: 0.5.2
+Stable tag: 0.5.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -153,6 +153,11 @@ Tips:
   gate on more precisely.
 
 == Changelog ==
+
+= 0.5.3 =
+* Fix the browser execution loop: include the continue flag in the chat REST
+  API response so the chatbot automatically carries out multi-step tool loops
+  without requiring manual "Go ahead" prompting from the user.
 
 = 0.5.2 =
 * Add SEO intelligence via Ahrefs, so the assistant can answer questions the
