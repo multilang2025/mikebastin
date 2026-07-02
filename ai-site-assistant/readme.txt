@@ -3,7 +3,7 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
-Stable tag: 0.5.5
+Stable tag: 0.6.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -33,6 +33,7 @@ Architecture (see the source for detail):
 * `class-aisa-unsplash-client.php` — stock-photo search for upload_media.
 * `class-aisa-ahrefs-client.php` — Ahrefs API v3 client for the SEO-intelligence tools.
 * `class-aisa-gemini-client.php` — Gemini (Nano Banana Pro) client for generate_image.
+* `class-aisa-file-parser.php` — CSV/XLSX ingestion for the chat's file-attachment feature.
 
 == Installation ==
 
@@ -154,6 +155,25 @@ Tips:
   gate on more precisely.
 
 == Changelog ==
+
+= 0.6.0 =
+* Fix a real regression: the assistant answered once and stopped instead of
+  continuing a multi-step task. AISA_REST::chat() built its JSON response
+  without forwarding the `continue` flag AISA_Agent::run() already computed,
+  so the browser's auto-continue loop never fired -- introduced with the
+  original v0.4.4 fix landing on a branch that never made it into main.
+* Add a "Generate Images" button next to Send: it sends the same message but
+  explicitly invokes the image_generation skill/generate_image tool, and
+  only appears once a Gemini API key is configured. Send keeps working
+  exactly as before for everything else.
+* Center the chat log and input row, and add a paperclip "attach file"
+  button that lets you attach a .csv or .xlsx file (e.g. keyword/competitor
+  exports) to a message. The file is parsed server-side (no Composer
+  dependency -- native fgetcsv() for CSV, ZipArchive+DOMDocument for .xlsx)
+  and its data is framed as the SOURCE OF TRUTH for any figures the
+  assistant uses in its answer. Legacy .xls is not supported; re-save as
+  .xlsx or .csv. Malformed, empty, oversized, or wrong-encoding files fail
+  with a clear message instead of a wasted API call or a fatal error.
 
 = 0.5.5 =
 * Add original AI image generation via Nano Banana Pro (Gemini 3 Pro Image):

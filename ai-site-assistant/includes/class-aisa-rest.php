@@ -37,6 +37,10 @@ class AISA_REST {
 						'required' => false,
 						'default'  => false,
 					),
+					'attachment'   => array(
+						'required' => false,
+						'default'  => null,
+					),
 				),
 			)
 		);
@@ -65,9 +69,31 @@ class AISA_REST {
 
 		$messages     = (array) $request->get_param( 'messages' );
 		$allow_writes = (bool) $request->get_param( 'allow_writes' );
+		$attachment   = $request->get_param( 'attachment' );
 
 		if ( empty( $messages ) ) {
 			return new WP_Error( 'aisa_empty', __( 'No messages provided.', 'ai-site-assistant' ), array( 'status' => 400 ) );
+		}
+
+		// A CSV/Excel attachment is parsed here, once, and folded into the
+		// fresh user turn's own text -- AISA_Agent and the tool-use loop are
+		// completely unaware of it; this doesn't touch that pipeline at all.
+		if ( ! empty( $attachment ) && is_array( $attachment ) ) {
+			$context = AISA_File_Parser::parse( $attachment );
+			if ( is_wp_error( $context ) ) {
+				return rest_ensure_response(
+					array(
+						'reply'    => '⚠️ ' . $context->get_error_message(),
+						'messages' => $messages,
+						'pending'  => null,
+						'continue' => false,
+					)
+				);
+			}
+			$last = count( $messages ) - 1;
+			if ( $last >= 0 && 'user' === ( $messages[ $last ]['role'] ?? '' ) && is_string( $messages[ $last ]['content'] ?? null ) ) {
+				$messages[ $last ]['content'] .= "\n\n" . $context;
+			}
 		}
 
 		$result = AISA_Agent::run( $messages, $allow_writes );
@@ -77,6 +103,7 @@ class AISA_REST {
 				'reply'    => $result['reply'],
 				'messages' => $result['messages'],
 				'pending'  => $result['pending'] ?? null,
+				'continue' => ! empty( $result['continue'] ),
 			)
 		);
 	}

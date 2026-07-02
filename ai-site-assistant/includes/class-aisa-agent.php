@@ -42,6 +42,12 @@ class AISA_Agent {
 			. '- Use set_seo / set_meta for meta tags and schema — they never touch the body, so they '
 			. "are always fast.\n"
 			. "- Only fall back to update_post when you are genuinely rewriting most of the post.\n\n"
+			. 'ATTACHED DATA. A user message may end with an "Attached file" block containing JSON '
+			. 'rows parsed from a CSV/Excel upload (e.g. keyword volumes, rankings, competitor '
+			. 'exports). That data is the SOURCE OF TRUTH for this task -- base any figures, '
+			. 'comparisons, or SEO conclusions strictly on it, and say so explicitly. Never invent '
+			. "a number that isn't in the attached data; if the data doesn't cover what's asked, say "
+			. "so rather than guessing.\n\n"
 			. "SKILLS. Detailed playbooks for common tasks are NOT included here to keep this prompt \n"
 			. "short — load one on demand with the load_skill tool right before you act on a matching \n"
 			. "task. Available skills:\n"

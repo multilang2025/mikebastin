@@ -1,6 +1,6 @@
 #aisa-app {
 	max-width: 760px;
-	margin-top: 1rem;
+	margin: 1rem auto 0;
 }
 
 .aisa-log {
@@ -63,10 +63,23 @@
 	display: flex;
 	gap: 0.5rem;
 	align-items: flex-end;
+	justify-content: center;
 }
 
 .aisa-form textarea {
 	flex: 1;
+}
+
+#aisa-attach-btn {
+	font-size: 16px;
+	line-height: 1;
+}
+
+.aisa-attachment-badge {
+	display: block;
+	margin-bottom: 0.5rem;
+	color: #3c434a;
+	font-size: 13px;
 }
 
 .aisa-title .aisa-tagline {
