@@ -105,6 +105,27 @@ so the browser can render a visual thumbnail in the Approve/Cancel dialog —
 this happens entirely on the PHP-to-browser channel and never costs a token,
 since the image bytes never enter the Claude API request.
 
+## File attachments (CSV/XLSX)
+
+A file the user attaches in the chat UI is parsed entirely outside the
+tool-use loop: `AISA_REST::chat()` reads the `attachment` request param,
+calls `AISA_File_Parser::parse()`, and appends the resulting bounded JSON
+text block directly onto the *last* (fresh) user message's content, before
+`AISA_Agent::run()` ever sees it. Neither `AISA_Agent` nor `AISA_Tools` are
+aware attachments exist — a model turn with attached data looks identical to
+one where the user just typed a very long message. A malformed/oversized/
+empty file short-circuits with a clear reply and never reaches Claude at all.
+
+`AISA_File_Parser` has no Composer dependency: CSV uses core PHP's
+`fgetcsv()` against a `php://temp` stream (correct handling of quoted
+multi-line fields, unlike naive line-splitting), and `.xlsx` — a zip of XML
+parts — is read with the bundled `ZipArchive` + `DOMDocument` extensions
+directly rather than pulling in PhpSpreadsheet, keeping the plugin a
+self-contained zip like every other client in this codebase. Legacy binary
+`.xls` has no built-in PHP reader and is explicitly rejected with a message
+to re-save as `.xlsx`/`.csv`, rather than shipping a fragile from-scratch
+binary parser.
+
 ## Why no Composer SDK
 
 The Claude client uses `wp_remote_post` rather than `anthropic-ai/sdk` so the

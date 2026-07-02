@@ -103,8 +103,9 @@ class AISA_Settings {
 			'aisa-admin',
 			'AISA',
 			array(
-				'restUrl' => esc_url_raw( rest_url( 'aisa/v1/chat' ) ),
-				'nonce'   => wp_create_nonce( 'wp_rest' ),
+				'restUrl'      => esc_url_raw( rest_url( 'aisa/v1/chat' ) ),
+				'nonce'        => wp_create_nonce( 'wp_rest' ),
+				'hasGeminiKey' => AISA_Gemini_Client::is_configured(),
 			)
 		);
 	}
@@ -226,14 +227,19 @@ class AISA_Settings {
 				<li><?php esc_html_e( 'Original AI image generation (Nano Banana Pro), hyper-realistic &amp; text-free', 'ai-site-assistant' ); ?></li>
 				<li><?php esc_html_e( 'SEO intelligence via Ahrefs: worst/best pages, competitors, comparison', 'ai-site-assistant' ); ?></li>
 				<li><?php esc_html_e( 'Theme file edits in a safe draft-first sandbox', 'ai-site-assistant' ); ?></li>
+				<li><?php esc_html_e( 'Attach a CSV/Excel file of keyword or competitor data for grounded SEO advice', 'ai-site-assistant' ); ?></li>
 				<li><?php esc_html_e( 'Write-approval gate &amp; full audit log', 'ai-site-assistant' ); ?></li>
 			</ul>
 			<div id="aisa-app">
 				<div id="aisa-log" class="aisa-log" aria-live="polite"></div>
+				<span id="aisa-attachment-badge" class="aisa-attachment-badge" hidden></span>
 				<form id="aisa-form" class="aisa-form">
+					<button type="button" id="aisa-attach-btn" class="button" title="<?php esc_attr_e( 'Attach a CSV or Excel file', 'ai-site-assistant' ); ?>">📎</button>
+					<input type="file" id="aisa-file-input" accept=".csv,.xls,.xlsx" hidden />
 					<textarea id="aisa-input" rows="3"
 						placeholder="<?php esc_attr_e( 'e.g. Draft a blog post about our new opening hours', 'ai-site-assistant' ); ?>"></textarea>
-					<button type="submit" class="button button-primary"><?php esc_html_e( 'Send', 'ai-site-assistant' ); ?></button>
+					<button type="submit" id="aisa-send-btn" class="button button-primary"><?php esc_html_e( 'Send', 'ai-site-assistant' ); ?></button>
+					<button type="button" id="aisa-generate-btn" class="button"><?php esc_html_e( 'Generate Images', 'ai-site-assistant' ); ?></button>
 				</form>
 			</div>
 		</div>
