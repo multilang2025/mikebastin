@@ -3,7 +3,7 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
-Stable tag: 0.6.0
+Stable tag: 0.5.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -154,7 +154,7 @@ Tips:
 
 == Changelog ==
 
-= 0.6.0 =
+= 0.5.2 =
 * Add SEO intelligence via Ahrefs, so the assistant can answer questions the
   WordPress database can't -- e.g. "what are my least-performing articles?"
   and "how do I compare to my competitors, and how can I improve?". Three
