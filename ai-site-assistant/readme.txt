@@ -3,7 +3,7 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
-Stable tag: 0.5.3
+Stable tag: 0.5.5
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -155,7 +155,7 @@ Tips:
 
 == Changelog ==
 
-= 0.5.3 =
+= 0.5.5 =
 * Add original AI image generation via Nano Banana Pro (Gemini 3 Pro Image):
   a new generate_image tool creates artwork from a text description instead
   of only searching stock photos. Hyper-realism and a strict no-text-in-image
