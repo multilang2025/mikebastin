@@ -88,6 +88,18 @@
 		const box = document.createElement( 'div' );
 		box.className = 'aisa-confirm';
 
+		// Only ever a data: URI generated server-side (see
+		// AISA_Agent::preview_for_pending) -- assigning it to an <img> src is
+		// safe: a data: URI on an <img> renders as an image resource, it is
+		// never interpreted as HTML/script the way innerHTML would be.
+		if ( pending.preview ) {
+			const img = document.createElement( 'img' );
+			img.className = 'aisa-confirm-preview';
+			img.src = pending.preview;
+			img.alt = 'Preview of the generated image';
+			box.appendChild( img );
+		}
+
 		const desc = document.createElement( 'p' );
 		desc.textContent =
 			'The assistant wants to run "' + pending.tool + '". Approve?';

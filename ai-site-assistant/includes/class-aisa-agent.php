@@ -174,13 +174,16 @@ class AISA_Agent {
 
 			$is_destructive = in_array( $block['name'], AISA_Tools::destructive_tools(), true );
 			if ( $is_destructive && ! $allow_writes ) {
-				return array(
-					'pending' => array(
-						'tool'  => $block['name'],
-						'input' => $block['input'],
-						'id'    => $block['id'],
-					),
+				$pending = array(
+					'tool'  => $block['name'],
+					'input' => $block['input'],
+					'id'    => $block['id'],
 				);
+				$preview = self::preview_for_pending( $block['name'], (array) $block['input'] );
+				if ( null !== $preview ) {
+					$pending['preview'] = $preview;
+				}
+				return array( 'pending' => $pending );
 			}
 
 			$result    = AISA_Tools::dispatch( $block['name'], (array) $block['input'] );
@@ -193,6 +196,33 @@ class AISA_Agent {
 		}
 
 		return array( 'results' => $results );
+	}
+
+	/**
+	 * Build a visual preview (a data: URI) for a gated call the UI can show
+	 * in the Approve/Cancel dialog, when one is available.
+	 *
+	 * Currently only upload_media committing a generate_image result has a
+	 * preview: the transient is read directly here, on the PHP-to-browser
+	 * REST response, which never touches the Claude conversation -- this is
+	 * why generate_image returns a small image_id instead of the raw image in
+	 * the first place, and it is the only place the actual bytes are read
+	 * back out before the user approves the write.
+	 *
+	 * @param string $tool_name Tool being gated.
+	 * @param array  $input     Its input.
+	 * @return string|null Data URI, or null if there is nothing to preview.
+	 */
+	private static function preview_for_pending( $tool_name, array $input ) {
+		if ( 'upload_media' !== $tool_name || empty( $input['image_id'] ) ) {
+			return null;
+		}
+		$image_id = sanitize_key( (string) $input['image_id'] );
+		$cached   = get_transient( AISA_Tools::GENERATED_IMAGE_TRANSIENT_PREFIX . $image_id );
+		if ( ! is_array( $cached ) || empty( $cached['data'] ) || empty( $cached['mime_type'] ) ) {
+			return null;
+		}
+		return 'data:' . $cached['mime_type'] . ';base64,' . $cached['data'];
 	}
 
 	/**

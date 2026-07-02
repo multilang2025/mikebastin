@@ -35,9 +35,11 @@ The `fact_check` tool is one branch that reaches a second provider:
 OpenAI-compatible chat/completions endpoint for Perplexity Sonar and returns a
 verdict plus source URLs. It is read-only (no write gate) and inert until an
 OpenRouter key is configured. `search_images` reaches a third provider the
-same way, via `AISA_Unsplash_Client`, and the `ahrefs_*` SEO-intelligence
-tools reach a fourth via `AISA_Ahrefs_Client` (Ahrefs API v3) — also
-read-only and inert until an Ahrefs API key is configured.
+same way, via `AISA_Unsplash_Client`, the `ahrefs_*` SEO-intelligence
+tools reach a fourth via `AISA_Ahrefs_Client` (Ahrefs API v3), and
+`generate_image` reaches a fifth via `AISA_Gemini_Client` (Nano Banana Pro /
+Gemini 3 Pro Image) — all read-only from WordPress's perspective and inert
+until their respective key is configured.
 
 Beyond posts and SEO meta, `AISA_Tools::dispatch` fans out to a few dedicated
 classes rather than growing one giant file:
@@ -89,6 +91,19 @@ the turn with `allow_writes = true`, and the agent resumes the pending call.
 
 This keeps reversibility-sensitive actions (publish, bulk edits, deletes) behind
 an explicit human confirmation, while read-only tools run freely.
+
+**Generated images never touch the LLM as raw bytes.** `generate_image` calls
+`AISA_Gemini_Client`, caches the resulting base64 in a short-lived transient
+(`AISA_Tools::GENERATED_IMAGE_TRANSIENT_PREFIX`, 15 minutes), and returns only
+a small `image_id` reference to the conversation — a 1-2MB base64 image would
+be hundreds of thousands of tokens if it round-tripped through Claude as text.
+`upload_media` accepts that `image_id`, looks the bytes up server-side, and
+commits them via `wp_upload_bits()`/`wp_insert_attachment()`. Because
+`upload_media` is gated, `AISA_Agent::preview_for_pending()` reads the same
+transient directly and attaches a `data:` URI to the `pending` REST response
+so the browser can render a visual thumbnail in the Approve/Cancel dialog —
+this happens entirely on the PHP-to-browser channel and never costs a token,
+since the image bytes never enter the Claude API request.
 
 ## Why no Composer SDK
 
