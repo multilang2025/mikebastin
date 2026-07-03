@@ -3,7 +3,7 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
-Stable tag: 0.6.0
+Stable tag: 0.6.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -155,6 +155,11 @@ Tips:
   gate on more precisely.
 
 == Changelog ==
+
+= 0.6.1 =
+* UI polish: Send and Generate Images are now stacked vertically at the same
+  size instead of side by side, and the "AISA Connector" heading with its
+  feature checklist is centered to match the chat box below it.
 
 = 0.6.0 =
 * Fix a real regression: the assistant answered once and stopped instead of
