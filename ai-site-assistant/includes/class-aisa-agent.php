@@ -15,7 +15,10 @@ defined( 'ABSPATH' ) || exit;
  */
 class AISA_Agent {
 
-	const MAX_ITERATIONS = 16;
+	// Each logical "Claude decides, then a tool runs" step now costs two
+	// requests instead of one (see run()), so this is doubled from its
+	// original 16 to preserve roughly the same task-complexity ceiling.
+	const MAX_ITERATIONS = 32;
 
 	/**
 	 * Build the system prompt. A method rather than a const because it splices
@@ -59,13 +62,15 @@ class AISA_Agent {
 	/**
 	 * Run ONE step of the conversation and hand control back to the client.
 	 *
-	 * Each call performs at most a single Claude API request. When the model
-	 * wants to keep going (it called a read tool, or the user just approved a
-	 * write), the result carries `continue => true` and the browser immediately
-	 * re-POSTs to run the next step. This keeps every HTTP request short — one
-	 * Claude call — so a multi-step task never stacks several blocking calls into
-	 * one request and trips the host/gateway timeout, which surfaces in the UI as
-	 * "The response is not a valid JSON response".
+	 * Each call does AT MOST ONE network-bound operation: either a single
+	 * Claude API request, OR the dispatch of a single tool call -- never
+	 * both in the same request. When there's more to do, the result carries
+	 * `continue => true` and the browser immediately re-POSTs to run the
+	 * next step. This keeps every HTTP request short so a multi-step task
+	 * (or a single tool that itself calls a slow third-party API -- Ahrefs,
+	 * Gemini image generation, fact_check) never stacks blocking calls
+	 * together and trips the host/gateway timeout, which surfaces in the UI
+	 * as "The response is not a valid JSON response".
 	 *
 	 * @param array $messages     Conversation so far (role/content blocks).
 	 * @param bool  $allow_writes Whether the user pre-approved the pending write.
@@ -134,21 +139,17 @@ class AISA_Agent {
 			);
 		}
 
-		$gate = self::handle_tool_calls( $response['content'], $allow_writes );
-		if ( isset( $gate['pending'] ) ) {
-			// Stop and hand the pending write back to the UI for approval.
-			return array(
-				'messages' => $messages,
-				'reply'    => self::extract_text( $response['content'] ),
-				'pending'  => $gate['pending'],
-			);
-		}
-
-		// A read (or otherwise allowed) tool ran; let the client drive the next step.
-		$messages[] = array(
-			'role'    => 'user',
-			'content' => $gate['results'],
-		);
+		// Defer actually RUNNING the tool to the next request -- the "resume"
+		// branch above handles it -- rather than dispatching it inline here.
+		// This guarantees every single HTTP request does at most one
+		// network-bound operation: either the Claude call, or one tool
+		// dispatch, never both stacked together. Several tools now call a
+		// third-party API themselves (Ahrefs, Gemini image generation,
+		// fact_check) -- without this, that tool's own latency would add
+		// directly on top of Claude's latency inside one request and could
+		// exceed a host/gateway timeout even though PHP's own execution
+		// limit was never reached, surfacing as "The response is not a
+		// valid JSON response".
 		return array(
 			'messages' => $messages,
 			'reply'    => self::extract_text( $response['content'] ),

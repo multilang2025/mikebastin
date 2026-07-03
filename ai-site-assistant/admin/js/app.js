@@ -18,11 +18,15 @@
 	// message: { name, type, data } (data is a base64 data: URL).
 	let pendingAttachment = null;
 
-	// The server runs one Claude call per request and returns `continue: true`
-	// when the task has more steps. The browser drives the loop so each HTTP
-	// request stays short (one model call) and never trips the host gateway
-	// timeout. Cap the auto-continues so a tool loop can't spin forever.
-	const MAX_STEPS = 16;
+	// The server does at most one network-bound operation per request --
+	// either a Claude call, or a single tool dispatch -- and returns
+	// `continue: true` when there's more to do. The browser drives the loop
+	// so each HTTP request stays short and never trips the host gateway
+	// timeout. Since a "Claude decides, then a tool runs" step is now two
+	// requests instead of one, this is doubled from its original 16 to keep
+	// the same effective task-complexity ceiling. Cap the auto-continues so
+	// a tool loop can't spin forever.
+	const MAX_STEPS = 32;
 	let busyEl = null;
 
 	function append( role, text ) {

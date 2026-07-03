@@ -92,6 +92,23 @@ the turn with `allow_writes = true`, and the agent resumes the pending call.
 This keeps reversibility-sensitive actions (publish, bulk edits, deletes) behind
 an explicit human confirmation, while read-only tools run freely.
 
+**Every tool call is dispatched in its own dedicated request, not the one that
+requested it.** When Claude's response includes a `tool_use` block, `run()`
+appends it to `$messages` and returns `continue => true` immediately, without
+calling `handle_tool_calls()`. The *next* request sees an unanswered
+assistant `tool_use` (`ends_with_unanswered_tool_use()`) and dispatches it
+there instead — the same "resume" path already used for approved writes,
+just generalized to every tool, not only destructive ones. This matters
+because several tools call a third-party API themselves (Ahrefs, Gemini
+image generation, `fact_check`); without this separation, that tool's own
+latency would stack directly on top of Claude's inside one request and could
+exceed a host/gateway timeout even though PHP's own execution limit was
+never reached — the exact "response is not a valid JSON response" failure
+this plugin has repeatedly had to guard against. `AISA_Agent::MAX_ITERATIONS`
+(and the client's `MAX_STEPS`) are set to 32, not 16, specifically because a
+single logical "Claude decides, then a tool runs" step now costs two
+requests instead of one.
+
 **Generated images never touch the LLM as raw bytes.** `generate_image` calls
 `AISA_Gemini_Client`, caches the resulting base64 in a short-lived transient
 (`AISA_Tools::GENERATED_IMAGE_TRANSIENT_PREFIX`, 15 minutes), and returns only

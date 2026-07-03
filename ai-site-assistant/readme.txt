@@ -3,7 +3,7 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
-Stable tag: 0.6.2
+Stable tag: 0.6.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -155,6 +155,20 @@ Tips:
   gate on more precisely.
 
 == Changelog ==
+
+= 0.6.3 =
+* Fix "The response is not a valid JSON response" reappearing on tasks that
+  use a tool which itself calls a slow third-party API -- most visibly
+  competitor comparisons (Ahrefs) and image generation (Gemini). A tool call
+  was still being dispatched inline, in the same request as the Claude call
+  that requested it, so that tool's own latency stacked directly on top of
+  Claude's and could exceed a host/gateway timeout even though PHP's own
+  execution limit was never reached. Every request now does at most one
+  network-bound operation -- either the Claude call, or a single tool
+  dispatch -- generalizing the same one-step-at-a-time approach already used
+  for write-approval. The per-task step cap is doubled (16 -> 32) to
+  preserve the same effective task-complexity ceiling now that a tool call
+  costs two requests instead of one.
 
 = 0.6.2 =
 * Fix the "Working…" indicator drifting to the top of the chat log during a
