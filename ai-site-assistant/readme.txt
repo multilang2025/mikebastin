@@ -3,7 +3,7 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
-Stable tag: 0.6.1
+Stable tag: 0.6.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -155,6 +155,13 @@ Tips:
   gate on more precisely.
 
 == Changelog ==
+
+= 0.6.2 =
+* Fix the "Working…" indicator drifting to the top of the chat log during a
+  multi-step task (visible on longer chains, e.g. comparing to competitors)
+  instead of staying pinned as the last, in-progress line. append() now
+  inserts new messages above the indicator while it's showing, rather than
+  after it.
 
 = 0.6.1 =
 * UI polish: Send and Generate Images are now stacked vertically at the same
