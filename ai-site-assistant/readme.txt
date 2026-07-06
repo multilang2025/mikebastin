@@ -3,7 +3,7 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
-Stable tag: 0.6.3
+Stable tag: 0.6.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -155,6 +155,17 @@ Tips:
   gate on more precisely.
 
 == Changelog ==
+
+= 0.6.4 =
+* Fix "The response is not a valid JSON response" still surfacing on long
+  multi-step tasks even after the 0.6.3 fix. That fix stopped a tool's own
+  latency from stacking on top of a Claude call, but on a long task the
+  Claude call itself -- the full conversation is resent every turn -- can
+  outlast the site's own front-end gateway/CDN timeout on the inbound
+  browser-to-WordPress connection, independent of any tool. The chat UI now
+  retries that specific transient failure automatically (briefly, a bounded
+  number of times) before giving up, since a failed step never changes the
+  conversation state.
 
 = 0.6.3 =
 * Fix "The response is not a valid JSON response" reappearing on tasks that

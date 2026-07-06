@@ -108,6 +108,38 @@
 		} );
 	}
 
+	// A step's own request can still get killed by the site's front-end
+	// gateway/CDN on a long chat: each step is a single isolated network op
+	// (see AISA_Agent::run), but the plugin's own timeouts (120s to Claude,
+	// 300s PHP execution) only bound WordPress's patience, not the inbound
+	// browser-to-WordPress connection's. As a conversation grows (the full
+	// history is resent every turn) a single Claude call can outlast that
+	// limit with zero tool-call latency involved. apiFetch surfaces the
+	// killed connection as `invalid_json` (a non-JSON body, e.g. a gateway's
+	// HTML error page) rather than a structured API error. A failed attempt
+	// never mutated `messages` -- the step that failed never got far enough
+	// to return one -- so resending it is safe.
+	const RETRYABLE_CODES = [ 'invalid_json', 'fetch_error' ];
+	const RETRY_DELAY_MS = 1500;
+
+	function wait( ms ) {
+		return new Promise( function ( resolve ) {
+			setTimeout( resolve, ms );
+		} );
+	}
+
+	function sendWithRetry( allowWrites, attachment, attempt ) {
+		attempt = attempt || 0;
+		return send( allowWrites, attachment ).catch( function ( err ) {
+			if ( attempt >= 2 || RETRYABLE_CODES.indexOf( err.code ) === -1 ) {
+				throw err;
+			}
+			return wait( RETRY_DELAY_MS ).then( function () {
+				return sendWithRetry( allowWrites, attachment, attempt + 1 );
+			} );
+		} );
+	}
+
 	// Run one step, then keep stepping while the server asks to continue.
 	// `allowWrites` only applies to the first call of a chain (an approved
 	// write); subsequent steps re-gate any further write for its own approval.
@@ -116,7 +148,7 @@
 	// on every auto-continue step would be pointless.
 	function runChain( allowWrites, steps, attachment ) {
 		setBusy( true );
-		return send( allowWrites, attachment )
+		return sendWithRetry( allowWrites, attachment )
 			.then( function ( res ) {
 				messages = res.messages;
 				if ( res.reply ) {
