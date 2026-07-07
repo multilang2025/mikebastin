@@ -3,7 +3,7 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
-Stable tag: 0.8.4
+Stable tag: 0.8.5
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -155,6 +155,19 @@ Tips:
   gate on more precisely.
 
 == Changelog ==
+= 0.8.5 =
+* Fix a silent JSON-encoding failure on reads: PHP's json_encode() returns
+  false on invalid UTF-8, and every read tool (get_post, search_posts,
+  get_page_html, etc.) passed that false straight through as tool_result
+  content instead of the real data, which the Claude API then rejected.
+  Every wp_json_encode() call site in class-aisa-tools.php now retries once
+  through a UTF-8 cleanup pass before giving up.
+* Fix get_page_html truncating long pages with a raw byte-offset substr(),
+  which can slice a multi-byte UTF-8 character in half (emoji, smart
+  quotes, non-Latin text) and produce exactly the invalid-UTF-8 string the
+  fix above has to recover from. Switched to mb_strcut(), which truncates
+  at the nearest whole character instead.
+
 = 0.8.4 =
 * Add fallback GitHub token logic to the native updater, enabling seamless auto-updates for distributed ZIP files.
 
