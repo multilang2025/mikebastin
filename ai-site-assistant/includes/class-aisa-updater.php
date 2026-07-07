@@ -39,7 +39,16 @@ class AISA_Updater {
 	 * @return string Token, or empty string.
 	 */
 	private static function token() {
-		return ( defined( 'AISA_GITHUB_TOKEN' ) && AISA_GITHUB_TOKEN ) ? AISA_GITHUB_TOKEN : '';
+		// First check if the token is defined via the wp-config constant
+		if ( defined( 'AISA_GITHUB_TOKEN' ) && AISA_GITHUB_TOKEN ) {
+			return AISA_GITHUB_TOKEN;
+		}
+		
+		// Fallback token for distribution to clients. 
+		// REPLACE 'YOUR_READ_ONLY_GITHUB_TOKEN' WITH YOUR ACTUAL TOKEN before zipping!
+		$fallback_token = 'YOUR_READ_ONLY_GITHUB_TOKEN';
+		
+		return ( 'YOUR_READ_ONLY_GITHUB_TOKEN' !== $fallback_token ) ? $fallback_token : '';
 	}
 
 	/**
