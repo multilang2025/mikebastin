@@ -45,7 +45,9 @@
 
 	function clearAttachment() {
 		pendingAttachment = null;
-		fileInput.value = '';
+		if ( fileInput ) {
+			fileInput.value = '';
+		}
 		if ( attachmentBadge ) {
 			attachmentBadge.hidden = true;
 			attachmentBadge.textContent = '';
