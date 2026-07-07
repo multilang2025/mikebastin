@@ -35,9 +35,11 @@ The `fact_check` tool is one branch that reaches a second provider:
 OpenAI-compatible chat/completions endpoint for Perplexity Sonar and returns a
 verdict plus source URLs. It is read-only (no write gate) and inert until an
 OpenRouter key is configured. `search_images` reaches a third provider the
-same way, via `AISA_Unsplash_Client`, and the `ahrefs_*` SEO-intelligence
-tools reach a fourth via `AISA_Ahrefs_Client` (Ahrefs API v3) — also
-read-only and inert until an Ahrefs API key is configured.
+same way, via `AISA_Unsplash_Client`, the `ahrefs_*` SEO-intelligence
+tools reach a fourth via `AISA_Ahrefs_Client` (Ahrefs API v3), and
+`generate_image` reaches a fifth via `AISA_Gemini_Client` (Nano Banana Pro /
+Gemini 3 Pro Image) — all read-only from WordPress's perspective and inert
+until their respective key is configured.
 
 Beyond posts and SEO meta, `AISA_Tools::dispatch` fans out to a few dedicated
 classes rather than growing one giant file:
@@ -89,6 +91,57 @@ the turn with `allow_writes = true`, and the agent resumes the pending call.
 
 This keeps reversibility-sensitive actions (publish, bulk edits, deletes) behind
 an explicit human confirmation, while read-only tools run freely.
+
+**Every tool call is dispatched in its own dedicated request, not the one that
+requested it.** When Claude's response includes a `tool_use` block, `run()`
+appends it to `$messages` and returns `continue => true` immediately, without
+calling `handle_tool_calls()`. The *next* request sees an unanswered
+assistant `tool_use` (`ends_with_unanswered_tool_use()`) and dispatches it
+there instead — the same "resume" path already used for approved writes,
+just generalized to every tool, not only destructive ones. This matters
+because several tools call a third-party API themselves (Ahrefs, Gemini
+image generation, `fact_check`); without this separation, that tool's own
+latency would stack directly on top of Claude's inside one request and could
+exceed a host/gateway timeout even though PHP's own execution limit was
+never reached — the exact "response is not a valid JSON response" failure
+this plugin has repeatedly had to guard against. `AISA_Agent::MAX_ITERATIONS`
+(and the client's `MAX_STEPS`) are set to 32, not 16, specifically because a
+single logical "Claude decides, then a tool runs" step now costs two
+requests instead of one.
+
+**Generated images never touch the LLM as raw bytes.** `generate_image` calls
+`AISA_Gemini_Client`, caches the resulting base64 in a short-lived transient
+(`AISA_Tools::GENERATED_IMAGE_TRANSIENT_PREFIX`, 15 minutes), and returns only
+a small `image_id` reference to the conversation — a 1-2MB base64 image would
+be hundreds of thousands of tokens if it round-tripped through Claude as text.
+`upload_media` accepts that `image_id`, looks the bytes up server-side, and
+commits them via `wp_upload_bits()`/`wp_insert_attachment()`. Because
+`upload_media` is gated, `AISA_Agent::preview_for_pending()` reads the same
+transient directly and attaches a `data:` URI to the `pending` REST response
+so the browser can render a visual thumbnail in the Approve/Cancel dialog —
+this happens entirely on the PHP-to-browser channel and never costs a token,
+since the image bytes never enter the Claude API request.
+
+## File attachments (CSV/XLSX)
+
+A file the user attaches in the chat UI is parsed entirely outside the
+tool-use loop: `AISA_REST::chat()` reads the `attachment` request param,
+calls `AISA_File_Parser::parse()`, and appends the resulting bounded JSON
+text block directly onto the *last* (fresh) user message's content, before
+`AISA_Agent::run()` ever sees it. Neither `AISA_Agent` nor `AISA_Tools` are
+aware attachments exist — a model turn with attached data looks identical to
+one where the user just typed a very long message. A malformed/oversized/
+empty file short-circuits with a clear reply and never reaches Claude at all.
+
+`AISA_File_Parser` has no Composer dependency: CSV uses core PHP's
+`fgetcsv()` against a `php://temp` stream (correct handling of quoted
+multi-line fields, unlike naive line-splitting), and `.xlsx` — a zip of XML
+parts — is read with the bundled `ZipArchive` + `DOMDocument` extensions
+directly rather than pulling in PhpSpreadsheet, keeping the plugin a
+self-contained zip like every other client in this codebase. Legacy binary
+`.xls` has no built-in PHP reader and is explicitly rejected with a message
+to re-save as `.xlsx`/`.csv`, rather than shipping a fragile from-scratch
+binary parser.
 
 ## Why no Composer SDK
 

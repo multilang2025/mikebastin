@@ -3,7 +3,11 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
+<<<<<<< HEAD
 Stable tag: 0.5.4
+=======
+Stable tag: 0.7.0
+>>>>>>> main
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -32,6 +36,8 @@ Architecture (see the source for detail):
 * `class-aisa-theme-files.php`  — theme file tools + the draft-first sandbox.
 * `class-aisa-unsplash-client.php` — stock-photo search for upload_media.
 * `class-aisa-ahrefs-client.php` — Ahrefs API v3 client for the SEO-intelligence tools.
+* `class-aisa-gemini-client.php` — Gemini (Nano Banana Pro) client for generate_image.
+* `class-aisa-file-parser.php` — CSV/XLSX ingestion for the chat's file-attachment feature.
 
 == Installation ==
 
@@ -154,15 +160,109 @@ Tips:
 
 == Changelog ==
 
-= 0.5.4 =
-* Fix the chat panel's "Working…" indicator appearing above the conversation:
-  it now stays pinned to the bottom (new messages insert above it) so it
-  always reads as the latest, in-progress status.
+= 0.7.0 =
+* MCP Bridge v2: the wp-mcp-server (Prong 2) now has full feature parity with
+  the in-dashboard chat (Prong 1). Eight new tools are exposed to external AI
+  clients (Claude Code, Claude Desktop, Cursor, Windsurf) through a new plugin
+  REST endpoint (POST /aisa/v1/tool) that proxies to the existing tool executor
+  -- one codebase, one security boundary. API keys for Gemini, Ahrefs, and
+  Perplexity stay in WordPress; the MCP server never needs them.
+* New MCP tools: generate_seo_image (Nano Banana Pro / Gemini AI image
+  generation), commit_image (save a generated image into the Media Library),
+  replace_in_post (targeted find/replace without full-content rewrites),
+  append_to_post (add FAQ/author/CTA blocks), search_images (Unsplash stock
+  photos), fact_check (Perplexity Sonar verification), get_page_html (live
+  rendered HTML), and load_skill (skill playbooks).
+* Content-intercept: create_post and update_post now scan submitted HTML for
+  <h2> sections without images and flag them in the tool response, so the
+  agent can suggest using generate_seo_image -- advisory only, the user
+  decides.
+* Credential infrastructure: the MCP server now loads environment variables
+  from a .env file (via dotenv), with a committed .env.example template and
+  a .gitignore that excludes the real .env.
+* The plugin REST endpoint uses an explicit allowlist so only the 8 bridged
+  tools are reachable from MCP; internal-only tools (get_site_context, etc.)
+  stay private.
+* No changes to the in-dashboard chat (Prong 1) -- it works identically to
+  v0.6.4.
 
-= 0.5.3 =
-* Fix the browser execution loop: include the continue flag in the chat REST
-  API response so the chatbot automatically carries out multi-step tool loops
-  without requiring manual "Go ahead" prompting from the user.
+= 0.6.4 =
+* Fix "The response is not a valid JSON response" still surfacing on long
+  multi-step tasks even after the 0.6.3 fix. That fix stopped a tool's own
+  latency from stacking on top of a Claude call, but on a long task the
+  Claude call itself -- the full conversation is resent every turn -- can
+  outlast the site's own front-end gateway/CDN timeout on the inbound
+  browser-to-WordPress connection, independent of any tool. The chat UI now
+  retries that specific transient failure automatically (briefly, a bounded
+  number of times) before giving up, since a failed step never changes the
+  conversation state.
+
+= 0.6.3 =
+* Fix "The response is not a valid JSON response" reappearing on tasks that
+  use a tool which itself calls a slow third-party API -- most visibly
+  competitor comparisons (Ahrefs) and image generation (Gemini). A tool call
+  was still being dispatched inline, in the same request as the Claude call
+  that requested it, so that tool's own latency stacked directly on top of
+  Claude's and could exceed a host/gateway timeout even though PHP's own
+  execution limit was never reached. Every request now does at most one
+  network-bound operation -- either the Claude call, or a single tool
+  dispatch -- generalizing the same one-step-at-a-time approach already used
+  for write-approval. The per-task step cap is doubled (16 -> 32) to
+  preserve the same effective task-complexity ceiling now that a tool call
+  costs two requests instead of one.
+
+= 0.6.2 =
+* Fix the "Working…" indicator drifting to the top of the chat log during a
+  multi-step task (visible on longer chains, e.g. comparing to competitors)
+  instead of staying pinned as the last, in-progress line. append() now
+  inserts new messages above the indicator while it's showing, rather than
+  after it.
+
+= 0.6.1 =
+* UI polish: Send and Generate Images are now stacked vertically at the same
+  size instead of side by side, and the "AISA Connector" heading with its
+  feature checklist is centered to match the chat box below it.
+
+= 0.6.0 =
+* Fix a real regression: the assistant answered once and stopped instead of
+  continuing a multi-step task. AISA_REST::chat() built its JSON response
+  without forwarding the `continue` flag AISA_Agent::run() already computed,
+  so the browser's auto-continue loop never fired -- introduced with the
+  original v0.4.4 fix landing on a branch that never made it into main.
+* Add a "Generate Images" button next to Send: it sends the same message but
+  explicitly invokes the image_generation skill/generate_image tool, and
+  only appears once a Gemini API key is configured. Send keeps working
+  exactly as before for everything else.
+* Center the chat log and input row, and add a paperclip "attach file"
+  button that lets you attach a .csv or .xlsx file (e.g. keyword/competitor
+  exports) to a message. The file is parsed server-side (no Composer
+  dependency -- native fgetcsv() for CSV, ZipArchive+DOMDocument for .xlsx)
+  and its data is framed as the SOURCE OF TRUTH for any figures the
+  assistant uses in its answer. Legacy .xls is not supported; re-save as
+  .xlsx or .csv. Malformed, empty, oversized, or wrong-encoding files fail
+  with a clear message instead of a wasted API call or a fatal error.
+
+= 0.5.5 =
+* Add original AI image generation via Nano Banana Pro (Gemini 3 Pro Image):
+  a new generate_image tool creates artwork from a text description instead
+  of only searching stock photos. Hyper-realism and a strict no-text-in-image
+  constraint are enforced automatically on every generation -- never left to
+  the model to remember. A new image_generation skill teaches the assistant
+  to fully read the target post/page for context before generating, and to
+  deliberately vary composition/palette/mood across multiple images in the
+  same task so a set doesn't look repetitive.
+* The write-approval dialog now shows a visual thumbnail preview before you
+  approve saving a generated image, instead of an unlabeled "Approve?" with
+  no context.
+* Technical note: generated images are cached briefly server-side and never
+  round-tripped through the Claude conversation as raw data -- only a small
+  reference id is exchanged, avoiding a multi-hundred-thousand-token cost per
+  image. upload_media now accepts that reference alongside its existing URL
+  input.
+* Fully opt-in: add a Gemini API key on the settings page (or the
+  AISA_GEMINI_API_KEY constant in wp-config.php) from Google AI Studio.
+  Each generated image is a billed, metered API call. Leave the key blank
+  and image generation stays off.
 
 = 0.5.2 =
 * Add SEO intelligence via Ahrefs, so the assistant can answer questions the

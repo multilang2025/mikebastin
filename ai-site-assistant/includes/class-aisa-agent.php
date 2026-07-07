@@ -15,7 +15,10 @@ defined( 'ABSPATH' ) || exit;
  */
 class AISA_Agent {
 
-	const MAX_ITERATIONS = 16;
+	// Each logical "Claude decides, then a tool runs" step now costs two
+	// requests instead of one (see run()), so this is doubled from its
+	// original 16 to preserve roughly the same task-complexity ceiling.
+	const MAX_ITERATIONS = 32;
 
 	/**
 	 * Build the system prompt. A method rather than a const because it splices
@@ -42,6 +45,12 @@ class AISA_Agent {
 			. '- Use set_seo / set_meta for meta tags and schema — they never touch the body, so they '
 			. "are always fast.\n"
 			. "- Only fall back to update_post when you are genuinely rewriting most of the post.\n\n"
+			. 'ATTACHED DATA. A user message may end with an "Attached file" block containing JSON '
+			. 'rows parsed from a CSV/Excel upload (e.g. keyword volumes, rankings, competitor '
+			. 'exports). That data is the SOURCE OF TRUTH for this task -- base any figures, '
+			. 'comparisons, or SEO conclusions strictly on it, and say so explicitly. Never invent '
+			. "a number that isn't in the attached data; if the data doesn't cover what's asked, say "
+			. "so rather than guessing.\n\n"
 			. "SKILLS. Detailed playbooks for common tasks are NOT included here to keep this prompt \n"
 			. "short — load one on demand with the load_skill tool right before you act on a matching \n"
 			. "task. Available skills:\n"
@@ -53,13 +62,15 @@ class AISA_Agent {
 	/**
 	 * Run ONE step of the conversation and hand control back to the client.
 	 *
-	 * Each call performs at most a single Claude API request. When the model
-	 * wants to keep going (it called a read tool, or the user just approved a
-	 * write), the result carries `continue => true` and the browser immediately
-	 * re-POSTs to run the next step. This keeps every HTTP request short — one
-	 * Claude call — so a multi-step task never stacks several blocking calls into
-	 * one request and trips the host/gateway timeout, which surfaces in the UI as
-	 * "The response is not a valid JSON response".
+	 * Each call does AT MOST ONE network-bound operation: either a single
+	 * Claude API request, OR the dispatch of a single tool call -- never
+	 * both in the same request. When there's more to do, the result carries
+	 * `continue => true` and the browser immediately re-POSTs to run the
+	 * next step. This keeps every HTTP request short so a multi-step task
+	 * (or a single tool that itself calls a slow third-party API -- Ahrefs,
+	 * Gemini image generation, fact_check) never stacks blocking calls
+	 * together and trips the host/gateway timeout, which surfaces in the UI
+	 * as "The response is not a valid JSON response".
 	 *
 	 * @param array $messages     Conversation so far (role/content blocks).
 	 * @param bool  $allow_writes Whether the user pre-approved the pending write.
@@ -128,21 +139,17 @@ class AISA_Agent {
 			);
 		}
 
-		$gate = self::handle_tool_calls( $response['content'], $allow_writes );
-		if ( isset( $gate['pending'] ) ) {
-			// Stop and hand the pending write back to the UI for approval.
-			return array(
-				'messages' => $messages,
-				'reply'    => self::extract_text( $response['content'] ),
-				'pending'  => $gate['pending'],
-			);
-		}
-
-		// A read (or otherwise allowed) tool ran; let the client drive the next step.
-		$messages[] = array(
-			'role'    => 'user',
-			'content' => $gate['results'],
-		);
+		// Defer actually RUNNING the tool to the next request -- the "resume"
+		// branch above handles it -- rather than dispatching it inline here.
+		// This guarantees every single HTTP request does at most one
+		// network-bound operation: either the Claude call, or one tool
+		// dispatch, never both stacked together. Several tools now call a
+		// third-party API themselves (Ahrefs, Gemini image generation,
+		// fact_check) -- without this, that tool's own latency would add
+		// directly on top of Claude's latency inside one request and could
+		// exceed a host/gateway timeout even though PHP's own execution
+		// limit was never reached, surfacing as "The response is not a
+		// valid JSON response".
 		return array(
 			'messages' => $messages,
 			'reply'    => self::extract_text( $response['content'] ),
@@ -174,13 +181,16 @@ class AISA_Agent {
 
 			$is_destructive = in_array( $block['name'], AISA_Tools::destructive_tools(), true );
 			if ( $is_destructive && ! $allow_writes ) {
-				return array(
-					'pending' => array(
-						'tool'  => $block['name'],
-						'input' => $block['input'],
-						'id'    => $block['id'],
-					),
+				$pending = array(
+					'tool'  => $block['name'],
+					'input' => $block['input'],
+					'id'    => $block['id'],
 				);
+				$preview = self::preview_for_pending( $block['name'], (array) $block['input'] );
+				if ( null !== $preview ) {
+					$pending['preview'] = $preview;
+				}
+				return array( 'pending' => $pending );
 			}
 
 			$result    = AISA_Tools::dispatch( $block['name'], (array) $block['input'] );
@@ -193,6 +203,33 @@ class AISA_Agent {
 		}
 
 		return array( 'results' => $results );
+	}
+
+	/**
+	 * Build a visual preview (a data: URI) for a gated call the UI can show
+	 * in the Approve/Cancel dialog, when one is available.
+	 *
+	 * Currently only upload_media committing a generate_image result has a
+	 * preview: the transient is read directly here, on the PHP-to-browser
+	 * REST response, which never touches the Claude conversation -- this is
+	 * why generate_image returns a small image_id instead of the raw image in
+	 * the first place, and it is the only place the actual bytes are read
+	 * back out before the user approves the write.
+	 *
+	 * @param string $tool_name Tool being gated.
+	 * @param array  $input     Its input.
+	 * @return string|null Data URI, or null if there is nothing to preview.
+	 */
+	private static function preview_for_pending( $tool_name, array $input ) {
+		if ( 'upload_media' !== $tool_name || empty( $input['image_id'] ) ) {
+			return null;
+		}
+		$image_id = sanitize_key( (string) $input['image_id'] );
+		$cached   = get_transient( AISA_Tools::GENERATED_IMAGE_TRANSIENT_PREFIX . $image_id );
+		if ( ! is_array( $cached ) || empty( $cached['data'] ) || empty( $cached['mime_type'] ) ) {
+			return null;
+		}
+		return 'data:' . $cached['mime_type'] . ';base64,' . $cached['data'];
 	}
 
 	/**

@@ -70,6 +70,7 @@ class AISA_Settings {
 			'openrouter_api_key'  => isset( $input['openrouter_api_key'] ) ? trim( sanitize_text_field( $input['openrouter_api_key'] ) ) : '',
 			'unsplash_access_key' => isset( $input['unsplash_access_key'] ) ? trim( sanitize_text_field( $input['unsplash_access_key'] ) ) : '',
 			'ahrefs_api_key'      => isset( $input['ahrefs_api_key'] ) ? trim( sanitize_text_field( $input['ahrefs_api_key'] ) ) : '',
+			'gemini_api_key'      => isset( $input['gemini_api_key'] ) ? trim( sanitize_text_field( $input['gemini_api_key'] ) ) : '',
 		);
 	}
 
@@ -102,8 +103,9 @@ class AISA_Settings {
 			'aisa-admin',
 			'AISA',
 			array(
-				'restUrl' => esc_url_raw( rest_url( 'aisa/v1/chat' ) ),
-				'nonce'   => wp_create_nonce( 'wp_rest' ),
+				'restUrl'      => esc_url_raw( rest_url( 'aisa/v1/chat' ) ),
+				'nonce'        => wp_create_nonce( 'wp_rest' ),
+				'hasGeminiKey' => AISA_Gemini_Client::is_configured(),
 			)
 		);
 	}
@@ -182,6 +184,22 @@ class AISA_Settings {
 							</p>
 						</td>
 					</tr>
+					<tr>
+						<th scope="row"><label for="aisa_gemini_api_key"><?php esc_html_e( 'Gemini API key (Nano Banana Pro)', 'ai-site-assistant' ); ?></label></th>
+						<td>
+							<?php if ( defined( 'AISA_GEMINI_API_KEY' ) && AISA_GEMINI_API_KEY ) : ?>
+								<p><strong><?php esc_html_e( 'Set via the AISA_GEMINI_API_KEY constant in wp-config.php.', 'ai-site-assistant' ); ?></strong></p>
+							<?php else : ?>
+								<input name="<?php echo esc_attr( self::OPTION_KEY ); ?>[gemini_api_key]"
+									id="aisa_gemini_api_key" type="password" class="regular-text"
+									value="<?php echo esc_attr( $opts['gemini_api_key'] ?? '' ); ?>"
+									autocomplete="off" />
+							<?php endif; ?>
+							<p class="description">
+								<?php esc_html_e( 'Optional. From Google AI Studio / aistudio.google.com (Nano Banana Pro / Gemini 3 Pro Image). Powers original image generation from a text description. Each generated image is a billed, metered API call. Leave blank to disable.', 'ai-site-assistant' ); ?>
+							</p>
+						</td>
+					</tr>
 				</table>
 				<?php submit_button(); ?>
 			</form>
@@ -195,27 +213,37 @@ class AISA_Settings {
 	public static function render_chat() {
 		?>
 		<div class="wrap">
-			<h1 class="aisa-title">
-				<?php esc_html_e( 'AISA Connector', 'ai-site-assistant' ); ?>
-				<span class="aisa-tagline"><?php esc_html_e( 'Your AI content &amp; SEO assistant', 'ai-site-assistant' ); ?></span>
-			</h1>
-			<ul class="aisa-features">
-				<li><?php esc_html_e( 'Draft, edit &amp; publish posts and pages by chat', 'ai-site-assistant' ); ?></li>
-				<li><?php esc_html_e( 'Fast targeted edits (replace / append) that avoid timeouts', 'ai-site-assistant' ); ?></li>
-				<li><?php esc_html_e( 'SEO meta &amp; schema for Rank Math and Yoast', 'ai-site-assistant' ); ?></li>
-				<li><?php esc_html_e( 'EEAT &amp; readability playbooks', 'ai-site-assistant' ); ?></li>
-				<li><?php esc_html_e( 'Fact-checking with Perplexity Sonar (web-grounded, cited)', 'ai-site-assistant' ); ?></li>
-				<li><?php esc_html_e( 'Stock-photo search &amp; upload straight into your media library', 'ai-site-assistant' ); ?></li>
-				<li><?php esc_html_e( 'SEO intelligence via Ahrefs: worst/best pages, competitors, comparison', 'ai-site-assistant' ); ?></li>
-				<li><?php esc_html_e( 'Theme file edits in a safe draft-first sandbox', 'ai-site-assistant' ); ?></li>
-				<li><?php esc_html_e( 'Write-approval gate &amp; full audit log', 'ai-site-assistant' ); ?></li>
-			</ul>
+			<div id="aisa-header">
+				<h1 class="aisa-title">
+					<?php esc_html_e( 'AISA Connector', 'ai-site-assistant' ); ?>
+					<span class="aisa-tagline"><?php esc_html_e( 'Your AI content &amp; SEO assistant', 'ai-site-assistant' ); ?></span>
+				</h1>
+				<ul class="aisa-features">
+					<li><?php esc_html_e( 'Draft, edit &amp; publish posts and pages by chat', 'ai-site-assistant' ); ?></li>
+					<li><?php esc_html_e( 'Fast targeted edits (replace / append) that avoid timeouts', 'ai-site-assistant' ); ?></li>
+					<li><?php esc_html_e( 'SEO meta &amp; schema for Rank Math and Yoast', 'ai-site-assistant' ); ?></li>
+					<li><?php esc_html_e( 'EEAT &amp; readability playbooks', 'ai-site-assistant' ); ?></li>
+					<li><?php esc_html_e( 'Fact-checking with Perplexity Sonar (web-grounded, cited)', 'ai-site-assistant' ); ?></li>
+					<li><?php esc_html_e( 'Stock-photo search &amp; upload straight into your media library', 'ai-site-assistant' ); ?></li>
+					<li><?php esc_html_e( 'Original AI image generation (Nano Banana Pro), hyper-realistic &amp; text-free', 'ai-site-assistant' ); ?></li>
+					<li><?php esc_html_e( 'SEO intelligence via Ahrefs: worst/best pages, competitors, comparison', 'ai-site-assistant' ); ?></li>
+					<li><?php esc_html_e( 'Theme file edits in a safe draft-first sandbox', 'ai-site-assistant' ); ?></li>
+					<li><?php esc_html_e( 'Attach a CSV/Excel file of keyword or competitor data for grounded SEO advice', 'ai-site-assistant' ); ?></li>
+					<li><?php esc_html_e( 'Write-approval gate &amp; full audit log', 'ai-site-assistant' ); ?></li>
+				</ul>
+			</div>
 			<div id="aisa-app">
 				<div id="aisa-log" class="aisa-log" aria-live="polite"></div>
+				<span id="aisa-attachment-badge" class="aisa-attachment-badge" hidden></span>
 				<form id="aisa-form" class="aisa-form">
+					<button type="button" id="aisa-attach-btn" class="button" title="<?php esc_attr_e( 'Attach a CSV or Excel file', 'ai-site-assistant' ); ?>">📎</button>
+					<input type="file" id="aisa-file-input" accept=".csv,.xls,.xlsx" hidden />
 					<textarea id="aisa-input" rows="3"
 						placeholder="<?php esc_attr_e( 'e.g. Draft a blog post about our new opening hours', 'ai-site-assistant' ); ?>"></textarea>
-					<button type="submit" class="button button-primary"><?php esc_html_e( 'Send', 'ai-site-assistant' ); ?></button>
+					<div class="aisa-form-actions">
+						<button type="submit" id="aisa-send-btn" class="button button-primary"><?php esc_html_e( 'Send', 'ai-site-assistant' ); ?></button>
+						<button type="button" id="aisa-generate-btn" class="button"><?php esc_html_e( 'Generate Images', 'ai-site-assistant' ); ?></button>
+					</div>
 				</form>
 			</div>
 		</div>

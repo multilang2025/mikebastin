@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+import "dotenv/config";
 /**
  * WordPress MCP server.
  *
@@ -84,7 +85,49 @@ function tool(fn) {
   };
 }
 
-const server = new McpServer({ name: "wp-mcp-server", version: "0.1.0" });
+/**
+ * Call a tool on the AISA plugin side via its REST bridge endpoint.
+ * The plugin handles Gemini/Ahrefs/Perplexity API calls, capability checks,
+ * audit logging, and transient caching — the MCP server never needs those keys.
+ */
+async function aisaTool(toolName, input) {
+  const data = await wp("/aisa/v1/tool", {
+    method: "POST",
+    body: { tool: toolName, input },
+  });
+  if (data && data.is_error) {
+    throw new Error(
+      typeof data.content === "string"
+        ? data.content
+        : JSON.stringify(data.content)
+    );
+  }
+  const content = data && data.content !== undefined ? data.content : data;
+  return typeof content === "string" ? content : JSON.stringify(content, null, 2);
+}
+
+/**
+ * Scan HTML content for <h2> sections and flag any that lack an <img> tag.
+ * Returns an array of { heading, has_image } objects — advisory only,
+ * the agent decides whether to act on missing images.
+ */
+function scanForMissingImages(html) {
+  if (!html) return [];
+  const suggestions = [];
+  const sections = html.split(/<h2[\s>]/i);
+  for (let i = 1; i < sections.length; i++) {
+    const section = sections[i];
+    const headingMatch = section.match(/^[^>]*>(.*?)<\/h2>/i);
+    const heading = headingMatch
+      ? headingMatch[1].replace(/<[^>]+>/g, "").trim()
+      : `Section ${i}`;
+    const hasImage = /<img[\s>]/i.test(section);
+    suggestions.push({ heading, has_image: hasImage });
+  }
+  return suggestions;
+}
+
+const server = new McpServer({ name: "wp-mcp-server", version: "0.2.0" });
 
 server.registerTool(
   "search_posts",
@@ -185,11 +228,16 @@ server.registerTool(
       method: "POST",
       body,
     });
-    return JSON.stringify(
-      { id: p.id, status: p.status, link: p.link },
-      null,
-      2
-    );
+    const result = { id: p.id, status: p.status, link: p.link };
+    if (content) {
+      const suggestions = scanForMissingImages(content);
+      const missing = suggestions.filter((s) => !s.has_image);
+      if (missing.length > 0) {
+        result.image_suggestions = suggestions;
+        result.note = `${missing.length} section(s) without images. Consider using generate_seo_image to create images for them.`;
+      }
+    }
+    return JSON.stringify(result, null, 2);
   })
 );
 
@@ -217,7 +265,16 @@ server.registerTool(
       method: "POST",
       body,
     });
-    return JSON.stringify({ id: p.id, status: p.status, link: p.link }, null, 2);
+    const result = { id: p.id, status: p.status, link: p.link };
+    if (content) {
+      const suggestions = scanForMissingImages(content);
+      const missing = suggestions.filter((s) => !s.has_image);
+      if (missing.length > 0) {
+        result.image_suggestions = suggestions;
+        result.note = `${missing.length} section(s) without images. Consider using generate_seo_image to create images for them.`;
+      }
+    }
+    return JSON.stringify(result, null, 2);
   })
 );
 
@@ -607,6 +664,206 @@ server.registerTool(
       body: { id, key, value },
     });
     return JSON.stringify(data, null, 2);
+  })
+);
+
+// ── AISA Plugin bridge tools ──────────────────────────────────────────────
+// These proxy through POST /aisa/v1/tool so the plugin handles API keys,
+// capability checks, audit logging, and caching. The MCP server never
+// needs Gemini/Ahrefs/Perplexity keys.
+
+server.registerTool(
+  "generate_seo_image",
+  {
+    title: "Generate an AI image",
+    description:
+      "Generate an ORIGINAL image from a text description using Nano Banana Pro " +
+      "(Gemini). Hyper-realism and a strict no-text-in-image constraint are " +
+      "enforced automatically — focus the prompt on the scene only (subject, " +
+      "composition, lighting, mood). Returns an image_id — pass it to " +
+      "commit_image to save it to the Media Library. Requires the AISA " +
+      "Connector plugin with a Gemini API key configured on the WordPress site.",
+    inputSchema: {
+      prompt: z
+        .string()
+        .describe(
+          "Describe ONLY the scene (subject, setting, composition, lighting, mood). " +
+            "Do not mention text/words or photorealism — those are added automatically."
+        ),
+      aspect_ratio: z
+        .string()
+        .optional()
+        .describe(
+          'Free-form hint, e.g. "16:9 widescreen" or "square". Omit to let the model choose.'
+        ),
+      contrast_note: z
+        .string()
+        .optional()
+        .describe(
+          "If generating multiple images for the same task, briefly state how this one " +
+            "differs from others (angle, subject, palette, mood)."
+        ),
+    },
+  },
+  tool(async ({ prompt, aspect_ratio, contrast_note }) => {
+    const input = { prompt };
+    if (aspect_ratio) input.aspect_ratio = aspect_ratio;
+    if (contrast_note) input.contrast_note = contrast_note;
+    return await aisaTool("generate_image", input);
+  })
+);
+
+server.registerTool(
+  "commit_image",
+  {
+    title: "Save a generated image",
+    description:
+      "Commit a previously generated image (by image_id from generate_seo_image) " +
+      "into the WordPress Media Library. Optionally attach it to a post and/or " +
+      "set it as the featured image. WRITE ACTION — confirm with the user first. " +
+      "Requires the AISA Connector plugin.",
+    inputSchema: {
+      image_id: z
+        .string()
+        .describe("The image_id returned by generate_seo_image."),
+      post_id: z
+        .number()
+        .int()
+        .optional()
+        .describe("Attach the image to this post."),
+      set_featured: z
+        .boolean()
+        .optional()
+        .describe("Set as the post's featured image (requires post_id)."),
+      alt_text: z.string().optional().describe("Alt text for the image."),
+      caption: z.string().optional().describe("Caption / title."),
+    },
+  },
+  tool(async ({ image_id, post_id, set_featured, alt_text, caption }) => {
+    const input = { image_id };
+    if (post_id) input.post_id = post_id;
+    if (set_featured) input.set_featured = set_featured;
+    if (alt_text) input.alt_text = alt_text;
+    if (caption) input.caption = caption;
+    return await aisaTool("upload_media", input);
+  })
+);
+
+server.registerTool(
+  "replace_in_post",
+  {
+    title: "Find and replace in a post",
+    description:
+      "Replace an exact text snippet inside a single post's content with new " +
+      "text. Use this for targeted edits (fix a sentence, insert a link) " +
+      "instead of rewriting the whole post with update_post. Read the post " +
+      "with get_post first and copy the EXACT snippet into `find`. WRITE " +
+      "ACTION — confirm with the user first. Requires the AISA Connector plugin.",
+    inputSchema: {
+      id: z.number().int().describe("Post ID"),
+      find: z.string().describe("Exact substring to find in the post content."),
+      replace: z.string().describe("Replacement text."),
+    },
+  },
+  tool(async ({ id, find, replace }) => {
+    return await aisaTool("replace_in_post", { id, find, replace });
+  })
+);
+
+server.registerTool(
+  "append_to_post",
+  {
+    title: "Append content to a post",
+    description:
+      "Append HTML/block markup to the END of a post's content — use for " +
+      "adding a FAQ, author box, CTA, sources section, or any trailing block " +
+      "without rewriting the whole post. WRITE ACTION — confirm with the " +
+      "user first. Requires the AISA Connector plugin.",
+    inputSchema: {
+      id: z.number().int().describe("Post ID"),
+      content: z.string().describe("HTML or block markup to append."),
+    },
+  },
+  tool(async ({ id, content }) => {
+    return await aisaTool("append_to_post", { id, content });
+  })
+);
+
+server.registerTool(
+  "search_images",
+  {
+    title: "Search stock photos",
+    description:
+      "Search Unsplash for stock photos matching a query. Returns URLs, " +
+      "photographer credit, and a download_location (pass it to upload_media " +
+      "or commit_image when actually using a photo — required by Unsplash ToS). " +
+      "Read-only. Requires the AISA Connector plugin with an Unsplash key.",
+    inputSchema: {
+      query: z.string().describe("Search keywords for the image."),
+      per_page: z
+        .number()
+        .int()
+        .optional()
+        .describe("Max results (default 10, max 30)."),
+    },
+  },
+  tool(async ({ query, per_page }) => {
+    const input = { query };
+    if (per_page) input.per_page = per_page;
+    return await aisaTool("search_images", input);
+  })
+);
+
+server.registerTool(
+  "fact_check",
+  {
+    title: "Fact-check a claim",
+    description:
+      "Fact-check a claim or statement using an external verification model " +
+      "(Perplexity Sonar via OpenRouter). Returns a sourced assessment. " +
+      "Read-only. Requires the AISA Connector plugin with an OpenRouter key.",
+    inputSchema: {
+      claim: z.string().describe("The claim or statement to verify."),
+    },
+  },
+  tool(async ({ claim }) => {
+    return await aisaTool("fact_check", { claim });
+  })
+);
+
+server.registerTool(
+  "get_page_html",
+  {
+    title: "Get live rendered HTML",
+    description:
+      "Fetch a post or page's LIVE RENDERED HTML (its actual public output, " +
+      "not raw post_content) — use to check how an edit actually looks, or to " +
+      "see content a page builder generates. No JavaScript is executed. " +
+      "Read-only. Requires the AISA Connector plugin.",
+    inputSchema: {
+      id: z.number().int().describe("Post/page ID."),
+    },
+  },
+  tool(async ({ id }) => {
+    return await aisaTool("get_page_html", { id });
+  })
+);
+
+server.registerTool(
+  "load_skill",
+  {
+    title: "Load a skill playbook",
+    description:
+      "Load a detailed skill playbook for a specific task type (e.g. " +
+      "'seo_audit', 'image_generation', 'content_writing'). The playbook " +
+      "contains step-by-step instructions for the task. Read-only. Requires " +
+      "the AISA Connector plugin.",
+    inputSchema: {
+      skill: z.string().describe("Skill name to load."),
+    },
+  },
+  tool(async ({ skill }) => {
+    return await aisaTool("load_skill", { skill });
   })
 );
 

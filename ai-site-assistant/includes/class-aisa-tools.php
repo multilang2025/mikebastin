@@ -25,6 +25,37 @@ class AISA_Tools {
 	const META_ALLOWLIST = array( 'aisa_note', '_yoast_wpseo_metadesc', '_yoast_wpseo_title' );
 
 	/**
+	 * Appended to every generate_image prompt server-side, unconditionally --
+	 * never left to the model to remember to ask for. Placed last in the
+	 * prompt (a trailing hard-constraint reminder tends to be respected more
+	 * reliably than a leading one for this class of image model).
+	 *
+	 * @var string
+	 */
+	const IMAGE_STYLE_SUFFIX = 'Style: photorealistic, hyper-realistic professional photography, '
+		. 'natural lighting, ultra-detailed, sharp focus. Hard constraint -- absolutely exclude all '
+		. 'text: no words, no letters, no numbers, no captions, no signage, no logos, no watermarks, '
+		. 'no writing of any kind anywhere in the image.';
+
+	/**
+	 * How long a generated image stays cached server-side, waiting for
+	 * upload_media to commit it. Long enough to review and approve; short
+	 * enough not to leave large blobs sitting in the options table.
+	 *
+	 * @var int
+	 */
+	const GENERATED_IMAGE_TTL = 15 * MINUTE_IN_SECONDS;
+
+	/**
+	 * Transient key prefix for a generate_image result, keyed by image_id.
+	 * Also read directly by AISA_Agent to build a visual preview for the
+	 * write-approval dialog without needing a full dispatch() round trip.
+	 *
+	 * @var string
+	 */
+	const GENERATED_IMAGE_TRANSIENT_PREFIX = 'aisa_gen_img_';
+
+	/**
 	 * Tool definitions sent to the model. Descriptions are prescriptive about
 	 * *when* to call each tool — recent Opus models under-reach otherwise.
 	 *
@@ -552,16 +583,50 @@ class AISA_Tools {
 				),
 			),
 			array(
+				'name'         => 'generate_image',
+				'description'  => 'Generate an ORIGINAL image from a text description (Nano Banana Pro / '
+					. 'Gemini 3 Pro Image) -- use this instead of search_images when no suitable stock '
+					. 'photo exists, or the user wants custom artwork. Hyper-realism and a strict '
+					. 'no-text-in-image constraint are enforced automatically on every generation; do not '
+					. 'add those to your prompt yourself -- focus the prompt entirely on the scene: '
+					. 'subject, composition, lighting, mood. Load the image_generation skill before using '
+					. 'this. Returns an image_id (NOT the raw image) -- pass that id into upload_media to '
+					. 'commit it. Read-only (the image is only cached server-side until you upload it).',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'prompt'        => array(
+							'type'        => 'string',
+							'description' => 'Describe ONLY the scene (subject, setting, composition, lighting, mood). Do not mention text/words or photorealism -- those are added automatically.',
+						),
+						'aspect_ratio'  => array(
+							'type'        => 'string',
+							'description' => 'Optional free-form hint folded into the prompt, e.g. "16:9 widescreen" or "square". Omit to let the model choose.',
+						),
+						'contrast_note' => array(
+							'type'        => 'string',
+							'description' => 'If generating more than one image for the same task, briefly state how this one differs from the others you already generated (angle, subject, palette, mood) so the set doesn\'t look repetitive.',
+						),
+					),
+					'required'             => array( 'prompt' ),
+					'additionalProperties' => false,
+				),
+			),
+			array(
 				'name'         => 'upload_media',
-				'description'  => 'Download an image URL into the media library, optionally attaching it to '
-					. 'a post and/or setting it as the post\'s featured image. Use with search_images '
-					. '(pass its url and download_location) or any other direct image URL.',
+				'description'  => 'Commit an image into the media library, optionally attaching it to a post '
+					. 'and/or setting it as the post\'s featured image. Pass EITHER url (from search_images, '
+					. 'or any direct image URL) OR image_id (from generate_image) -- not both.',
 				'input_schema' => array(
 					'type'                 => 'object',
 					'properties'           => array(
 						'url'               => array(
 							'type'        => 'string',
-							'description' => 'Direct image URL to download.',
+							'description' => 'Direct image URL to download (from search_images or elsewhere).',
+						),
+						'image_id'          => array(
+							'type'        => 'string',
+							'description' => 'The image_id returned by generate_image.',
 						),
 						'download_location' => array(
 							'type'        => 'string',
@@ -578,7 +643,6 @@ class AISA_Tools {
 						'alt_text'          => array( 'type' => 'string' ),
 						'caption'           => array( 'type' => 'string' ),
 					),
-					'required'             => array( 'url' ),
 					'additionalProperties' => false,
 				),
 			),
@@ -769,6 +833,8 @@ class AISA_Tools {
 				return AISA_Theme_Files::delete_draft( $input );
 			case 'search_images':
 				return self::search_images( $input );
+			case 'generate_image':
+				return self::generate_image( $input );
 			case 'upload_media':
 				return self::upload_media( $input );
 			case 'get_page_html':
@@ -1271,8 +1337,67 @@ class AISA_Tools {
 	}
 
 	/**
-	 * Download an image URL into the media library, optionally attaching it
-	 * to a post and/or setting it as the post's featured image.
+	 * Generate an original image via Gemini (Nano Banana Pro). The style
+	 * suffix (hyper-realism + a strict no-text constraint) is appended here,
+	 * server-side, unconditionally -- never left to the model to remember.
+	 *
+	 * The raw image is cached in a short-lived transient and only a small
+	 * reference (image_id) is returned to the conversation. Sending the full
+	 * base64 payload back through the LLM would be hundreds of thousands of
+	 * tokens for a single image -- upload_media looks the bytes up
+	 * server-side by this id instead.
+	 *
+	 * @param array $in Tool input.
+	 * @return array Tool result with an image_id to pass into upload_media, or an error.
+	 */
+	private static function generate_image( array $in ) {
+		if ( ! current_user_can( 'upload_files' ) ) {
+			return self::error( 'Permission denied.' );
+		}
+		$prompt = trim( (string) ( $in['prompt'] ?? '' ) );
+		if ( '' === $prompt ) {
+			return self::error( 'Provide a "prompt" describing the scene.' );
+		}
+
+		$aspect = trim( (string) ( $in['aspect_ratio'] ?? '' ) );
+		if ( '' !== $aspect ) {
+			$prompt .= " Composition/aspect ratio: {$aspect}.";
+		}
+		$prompt .= ' ' . self::IMAGE_STYLE_SUFFIX;
+
+		$result = AISA_Gemini_Client::generate_image( $prompt );
+		if ( is_wp_error( $result ) ) {
+			return self::error( $result->get_error_message() );
+		}
+
+		$image_id = bin2hex( random_bytes( 10 ) );
+		set_transient(
+			self::GENERATED_IMAGE_TRANSIENT_PREFIX . $image_id,
+			array(
+				'data'      => $result['data'],
+				'mime_type' => $result['mime_type'],
+			),
+			self::GENERATED_IMAGE_TTL
+		);
+
+		AISA_Audit_Log::record( 'generate_image', null, array( 'contrast_note' => (string) ( $in['contrast_note'] ?? '' ) ) );
+
+		return array(
+			'content' => wp_json_encode(
+				array(
+					'image_id'   => $image_id,
+					'mime_type'  => $result['mime_type'],
+					'expires_in' => '15 minutes',
+					'next_step'  => 'Call upload_media with this image_id to save it into the media library.',
+				)
+			),
+		);
+	}
+
+	/**
+	 * Commit an image into the media library from EITHER a URL (search_images
+	 * or any direct image URL) OR an image_id (from generate_image) --
+	 * optionally attaching it to a post and/or setting it as the featured image.
 	 *
 	 * @param array $in Tool input.
 	 * @return array Tool result describing the uploaded attachment, or an error.
@@ -1281,9 +1406,13 @@ class AISA_Tools {
 		if ( ! current_user_can( 'upload_files' ) ) {
 			return self::error( 'Permission denied.' );
 		}
-		$url = (string) ( $in['url'] ?? '' );
-		if ( '' === $url ) {
-			return self::error( 'Provide an image "url" to download.' );
+		$url      = trim( (string) ( $in['url'] ?? '' ) );
+		$image_id = trim( (string) ( $in['image_id'] ?? '' ) );
+		if ( '' === $url && '' === $image_id ) {
+			return self::error( 'Provide either "url" or "image_id".' );
+		}
+		if ( '' !== $url && '' !== $image_id ) {
+			return self::error( 'Provide only one of "url" or "image_id", not both.' );
 		}
 		$post_id = (int) ( $in['post_id'] ?? 0 );
 		if ( $post_id && ! current_user_can( 'edit_post', $post_id ) ) {
@@ -1294,8 +1423,12 @@ class AISA_Tools {
 		require_once ABSPATH . 'wp-admin/includes/file.php';
 		require_once ABSPATH . 'wp-admin/includes/image.php';
 
-		$caption       = isset( $in['caption'] ) ? sanitize_text_field( $in['caption'] ) : null;
-		$attachment_id = media_sideload_image( $url, $post_id, $caption, 'id' );
+		$caption = isset( $in['caption'] ) ? sanitize_text_field( $in['caption'] ) : null;
+		if ( '' !== $image_id ) {
+			$attachment_id = self::sideload_generated_image( $image_id, $post_id, $caption );
+		} else {
+			$attachment_id = media_sideload_image( $url, $post_id, $caption, 'id' );
+		}
 		if ( is_wp_error( $attachment_id ) ) {
 			return self::error( $attachment_id->get_error_message() );
 		}
@@ -1320,6 +1453,69 @@ class AISA_Tools {
 				)
 			),
 		);
+	}
+
+	/**
+	 * Turn a generate_image transient into a real media library attachment.
+	 * Deletes the transient once successfully committed.
+	 *
+	 * @param string      $image_id The image_id from generate_image.
+	 * @param int         $post_id  Post to attach the media to (0 for none).
+	 * @param string|null $caption  Optional caption/title.
+	 * @return int|WP_Error Attachment ID, or an error.
+	 */
+	private static function sideload_generated_image( $image_id, $post_id, $caption ) {
+		$image_id = sanitize_key( $image_id );
+		$cached   = get_transient( self::GENERATED_IMAGE_TRANSIENT_PREFIX . $image_id );
+		if ( ! is_array( $cached ) || empty( $cached['data'] ) ) {
+			return new WP_Error( 'aisa_image_expired', 'That generated image has expired or was already used. Call generate_image again.' );
+		}
+
+		$bytes = base64_decode( $cached['data'], true ); // phpcs:ignore WordPress.PHP.DiscouragedPHPFunctions.obfuscation_base64_decode -- decoding our own cached Gemini image bytes, not obfuscated code.
+		if ( false === $bytes ) {
+			return new WP_Error( 'aisa_image_decode_failed', 'Could not decode the generated image.' );
+		}
+
+		$filename = 'ai-generated-' . $image_id . '.' . self::extension_for_mime( $cached['mime_type'] );
+		$uploaded = wp_upload_bits( $filename, null, $bytes );
+		if ( ! empty( $uploaded['error'] ) ) {
+			return new WP_Error( 'aisa_upload_failed', $uploaded['error'] );
+		}
+
+		$attachment_id = wp_insert_attachment(
+			array(
+				'post_mime_type' => $cached['mime_type'],
+				'post_title'     => $caption ? $caption : __( 'AI-generated image', 'ai-site-assistant' ),
+				'post_content'   => '',
+				'post_status'    => 'inherit',
+				'post_excerpt'   => $caption ? $caption : '',
+			),
+			$uploaded['file'],
+			$post_id
+		);
+		if ( is_wp_error( $attachment_id ) ) {
+			return $attachment_id;
+		}
+
+		wp_update_attachment_metadata( $attachment_id, wp_generate_attachment_metadata( $attachment_id, $uploaded['file'] ) );
+		delete_transient( self::GENERATED_IMAGE_TRANSIENT_PREFIX . $image_id );
+
+		return $attachment_id;
+	}
+
+	/**
+	 * Map a mime type to a safe file extension for the generated-image filename.
+	 *
+	 * @param string $mime_type Mime type, e.g. "image/png".
+	 * @return string Extension without a dot.
+	 */
+	private static function extension_for_mime( $mime_type ) {
+		$map = array(
+			'image/png'  => 'png',
+			'image/jpeg' => 'jpg',
+			'image/webp' => 'webp',
+		);
+		return $map[ $mime_type ] ?? 'png';
 	}
 
 	/**

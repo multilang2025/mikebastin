@@ -31,6 +31,7 @@ class AISA_Skills {
 		'page_builders'    => 'How post_content maps to Classic, Gutenberg, Divi, and Elementor, and what is/isn\'t editable.',
 		'theme_editing'    => 'Edit theme files safely using the draft-first sandbox workflow.',
 		'images'           => 'Find and insert a stock photo into a post from a natural-language description.',
+		'image_generation' => 'Generate original, hyper-realistic, text-free artwork tailored to a specific post.',
 		'seo_intelligence' => 'Answer traffic/performance and competitor questions using Ahrefs data.',
 	);
 
@@ -122,6 +123,38 @@ class AISA_Skills {
 				. 'download_location fulfils Unsplash\'s attribution-tracking requirement). Credit the '
 				. 'photographer in the caption or alt text when the user wants attribution shown on the '
 				. 'page. Only set_featured when the user asked for a featured image specifically.',
+			'image_generation' => 'IMAGE GENERATION (Nano Banana Pro / Gemini): use this when no stock photo '
+				. 'fits, or the user wants custom/original artwork.'
+				. "\n\n"
+				. 'ANALYZE FIRST. Before writing a single generate_image prompt, read the actual page you '
+				. 'are illustrating -- call get_post for the target post/page (and get_page_html if you need '
+				. 'to see how it actually renders, e.g. a page-builder layout). Understand the topic, tone, '
+				. 'audience, and any imagery already present before deciding what to generate. Never '
+				. 'generate blind from the user\'s one-line request alone.'
+				. "\n\n"
+				. 'STYLE IS ALREADY HANDLED. Hyper-realism and a strict no-text-in-image rule are appended '
+				. 'automatically to every generate_image call server-side -- do not spend words on '
+				. '"photorealistic" or "no text" yourself. Put ALL of your prompt into the actual scene: '
+				. 'specific subject, setting, composition, camera angle, lighting, mood, color palette. '
+				. 'Vague prompts produce generic images regardless of the style enforcement.'
+				. "\n\n"
+				. 'CONTRAST ACROSS MULTIPLE IMAGES. If a task calls for more than one image (e.g. one per '
+				. 'section of an article), deliberately vary them so the set doesn\'t look repetitive: '
+				. 'change the camera angle, subject framing, color palette, time of day, or mood between '
+				. 'calls. Use the contrast_note field each time to briefly state how this image differs '
+				. 'from the ones you already generated in this task -- this is also your own reminder to '
+				. 'actually vary the prompt, not just the note.'
+				. "\n\n"
+				. 'COMMIT FLOW. generate_image does not touch the site -- it returns an image_id (never the '
+				. 'raw image; do not try to inspect or describe its pixel content, you cannot see it). Pass '
+				. 'that image_id into upload_media to actually save it to the media library; upload_media '
+				. 'is gated, so the user sees and approves the real image before anything is written. Set '
+				. 'post_id and set_featured, or use replace_in_post/append_to_post afterward to embed an '
+				. '<img> tag inline near the relevant section, matching however the user wants it placed.'
+				. "\n\n"
+				. 'Each generation is a metered, paid API call -- write a good prompt the first time rather '
+				. 'than generating repeatedly to fish for a better result; only regenerate if the result was '
+				. 'genuinely off-target or blocked by a safety filter.',
 		);
 		return $bodies[ $name ] ?? null;
 	}

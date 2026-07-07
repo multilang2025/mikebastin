@@ -20,8 +20,8 @@ and authenticates with a WordPress **Application Password**.
 |---|---|
 | `search_posts` | Find posts/pages by keyword, type, status (read-only) |
 | `get_post` | Read one post/page by ID (read-only) |
-| `create_post` | Create a post/page (defaults to **draft**) |
-| `update_post` | Update a post/page |
+| `create_post` | Create a post/page (defaults to **draft**); flags `<h2>` sections without images |
+| `update_post` | Update a post/page; flags `<h2>` sections without images |
 | `publish_post` | Set a post/page status to published |
 | `site_info` | Site name, URL, and public post types (read-only) |
 | `upload_media` | Download an image from a URL into the Media Library; optionally set it as a post's featured image |
@@ -31,11 +31,32 @@ and authenticates with a WordPress **Application Password**.
 | `get_meta` / `set_meta` | Read/write raw SEO/schema post meta (Rank Math / Yoast / AIO SEO keys) — **plugin v0.4.0+** |
 | `wp_rest` | Call **any** WordPress/plugin REST endpoint (the general-purpose tool) |
 
+### AISA Plugin bridge tools (v0.7.0+)
+
+These tools proxy through `POST /aisa/v1/tool` so the plugin handles API keys,
+capability checks, audit logging, and caching. The MCP server never needs
+Gemini/Ahrefs/Perplexity keys — they stay in WordPress.
+
+| Tool | Action |
+|---|---|
+| `generate_seo_image` | Generate an AI image via Nano Banana Pro (Gemini). Returns an `image_id` — **plugin + Gemini key required** |
+| `commit_image` | Save a generated image (`image_id`) into the Media Library; optionally set as featured image |
+| `replace_in_post` | Targeted find-and-replace inside a single post (avoids full-content rewrites) |
+| `append_to_post` | Append HTML/block markup to the end of a post (FAQ, author box, CTA) |
+| `search_images` | Search Unsplash for stock photos — **plugin + Unsplash key required** |
+| `fact_check` | Fact-check a claim via Perplexity Sonar — **plugin + OpenRouter key required** |
+| `get_page_html` | Fetch a post's live rendered HTML (read-only) |
+| `load_skill` | Load a skill playbook for a specific task type |
+
 `get_post`/`create_post`/`update_post` also handle the **excerpt** field.
 
-Writes (`create_post`, `update_post`, `publish_post`, and non-GET `wp_rest`
-calls) are confirmed by the Claude client's own tool-approval prompt before they
-run.
+`create_post` and `update_post` scan submitted content for `<h2>` sections that
+lack images and include advisory `image_suggestions` in the response, so the
+agent can offer to generate images for those sections.
+
+Writes (`create_post`, `update_post`, `publish_post`, `commit_image`,
+`replace_in_post`, `append_to_post`, and non-GET `wp_rest` calls) are confirmed
+by the Claude client's own tool-approval prompt before they run.
 
 ### The `wp_rest` tool
 
