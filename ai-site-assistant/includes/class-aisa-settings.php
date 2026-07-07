@@ -38,6 +38,14 @@ class AISA_Settings {
 		);
 		add_submenu_page(
 			'aisa-chat',
+			__( 'MCP Connector', 'ai-site-assistant' ),
+			__( 'MCP Connector', 'ai-site-assistant' ),
+			'edit_posts',
+			'aisa-mcp-connector',
+			array( __CLASS__, 'render_mcp_connector' )
+		);
+		add_submenu_page(
+			'aisa-chat',
 			__( 'Settings', 'ai-site-assistant' ),
 			__( 'Settings', 'ai-site-assistant' ),
 			'manage_options',
@@ -94,7 +102,8 @@ class AISA_Settings {
 	 * @param string $hook Current admin page hook suffix.
 	 */
 	public static function assets( $hook ) {
-		if ( 'toplevel_page_aisa-chat' !== $hook ) {
+		$chat_pages = array( 'toplevel_page_aisa-chat', 'aisa-chat_page_aisa-mcp-connector' );
+		if ( ! in_array( $hook, $chat_pages, true ) ) {
 			return;
 		}
 		wp_enqueue_style( 'aisa-admin', AISA_URL . 'admin/css/admin.css', array(), AISA_VERSION );
@@ -108,6 +117,20 @@ class AISA_Settings {
 				'hasGeminiKey' => AISA_Gemini_Client::is_configured(),
 			)
 		);
+	}
+
+	/**
+	 * Header action button linking the standalone chat workspace to the
+	 * MCP onboarding/gateway page. Purely navigational — no state, API
+	 * payload, or key handling is touched.
+	 */
+	private static function render_open_connector_button() {
+		?>
+		<a href="<?php echo esc_url( admin_url( 'admin.php?page=aisa-mcp-connector' ) ); ?>"
+			class="button button-secondary aisa-open-connector">
+			<?php esc_html_e( 'Open AISA Connector', 'ai-site-assistant' ); ?>
+		</a>
+		<?php
 	}
 
 	/**
@@ -213,6 +236,9 @@ class AISA_Settings {
 	public static function render_chat() {
 		?>
 		<div class="wrap">
+			<div class="aisa-connector-actions">
+				<?php self::render_open_connector_button(); ?>
+			</div>
 			<div id="aisa-header">
 				<h1 class="aisa-title">
 					<?php esc_html_e( 'AISA Connector', 'ai-site-assistant' ); ?>
@@ -243,6 +269,79 @@ class AISA_Settings {
 					<div class="aisa-form-actions">
 						<button type="submit" id="aisa-send-btn" class="button button-primary"><?php esc_html_e( 'Send', 'ai-site-assistant' ); ?></button>
 						<button type="button" id="aisa-generate-btn" class="button"><?php esc_html_e( 'Generate Images', 'ai-site-assistant' ); ?></button>
+					</div>
+				</form>
+			</div>
+		</div>
+		<?php
+	}
+
+	/**
+	 * Render the MCP Connector onboarding page: setup instructions for the
+	 * local MCP server plus an embedded agent chat gateway. Reuses the same
+	 * #aisa-app markup/ids as the standalone workspace so admin/js/app.js
+	 * runs completely unmodified — its attach/generate-image wiring already
+	 * no-ops when those optional elements aren't present on the page.
+	 */
+	public static function render_mcp_connector() {
+		$rest_base = esc_url( rest_url( 'aisa/v1' ) );
+		?>
+		<div class="wrap">
+			<div class="aisa-connector-actions">
+				<a href="<?php echo esc_url( admin_url( 'admin.php?page=aisa-chat' ) ); ?>" class="button button-secondary">
+					<?php esc_html_e( 'Back to Workspace', 'ai-site-assistant' ); ?>
+				</a>
+			</div>
+			<div id="aisa-header">
+				<h1 class="aisa-title">
+					<?php esc_html_e( 'AISA Connector', 'ai-site-assistant' ); ?>
+					<span class="aisa-tagline"><?php esc_html_e( 'Connect the MCP server &amp; run the agent', 'ai-site-assistant' ); ?></span>
+				</h1>
+			</div>
+
+			<div class="aisa-mcp-setup">
+				<h2><?php esc_html_e( '1. Configure the MCP server', 'ai-site-assistant' ); ?></h2>
+				<p><?php esc_html_e( 'The AISA MCP server runs locally next to Claude Code or Claude Desktop and talks to this site over its REST API. Point it at your site and an application password.', 'ai-site-assistant' ); ?></p>
+				<ol class="aisa-mcp-steps">
+					<li>
+						<?php esc_html_e( 'Install the server:', 'ai-site-assistant' ); ?>
+						<code>cd wp-mcp-server &amp;&amp; npm install</code>
+					</li>
+					<li>
+						<?php esc_html_e( 'Copy .env.example to .env and set:', 'ai-site-assistant' ); ?>
+						<code>WP_SITE_URL=<?php echo esc_html( home_url() ); ?></code>
+						<code>WP_USERNAME=&lt;your admin username&gt;</code>
+						<code>WP_APP_PASSWORD=&lt;an Application Password&gt;</code>
+					</li>
+					<li>
+						<?php
+						printf(
+							/* translators: %s: link to the Application Passwords section of the user's own profile page. */
+							esc_html__( 'Generate an Application Password under %s.', 'ai-site-assistant' ),
+							'<a href="' . esc_url( admin_url( 'profile.php#application-passwords-section' ) ) . '">' . esc_html__( 'Users → Profile → Application Passwords', 'ai-site-assistant' ) . '</a>'
+						);
+						?>
+					</li>
+					<li>
+						<?php esc_html_e( 'Register the server with your MCP client:', 'ai-site-assistant' ); ?>
+						<code>claude mcp add aisa -- node wp-mcp-server/src/index.mjs</code>
+					</li>
+					<li>
+						<?php esc_html_e( "The server bridges to this plugin's tools via its allowlisted endpoint:", 'ai-site-assistant' ); ?>
+						<code><?php echo esc_html( $rest_base ); ?>/tool</code>
+					</li>
+				</ol>
+			</div>
+
+			<h2><?php esc_html_e( '2. Try the agent chat gateway', 'ai-site-assistant' ); ?></h2>
+			<p><?php esc_html_e( 'This runs the same assistant as the standalone workspace — use it to sanity-check your setup before switching to Claude Code.', 'ai-site-assistant' ); ?></p>
+			<div id="aisa-app">
+				<div id="aisa-log" class="aisa-log" aria-live="polite"></div>
+				<form id="aisa-form" class="aisa-form">
+					<textarea id="aisa-input" rows="3"
+						placeholder="<?php esc_attr_e( 'e.g. List the tools available to the MCP agent', 'ai-site-assistant' ); ?>"></textarea>
+					<div class="aisa-form-actions">
+						<button type="submit" id="aisa-send-btn" class="button button-primary"><?php esc_html_e( 'Send', 'ai-site-assistant' ); ?></button>
 					</div>
 				</form>
 			</div>
