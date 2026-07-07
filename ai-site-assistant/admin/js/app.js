@@ -264,4 +264,48 @@
 			);
 		} );
 	}
+
+	// One-click "Copy" for the MCP onboarding wizard's command/config
+	// snippets (see class-aisa-settings.php render_mcp_connector). Only
+	// present on that page; harmless no-op everywhere else.
+	function flashCopyBtn( btn, label ) {
+		const original = btn.textContent;
+		btn.textContent = label;
+		setTimeout( function () {
+			btn.textContent = original;
+		}, 1500 );
+	}
+
+	document.querySelectorAll( '.aisa-copy-btn' ).forEach( function ( btn ) {
+		btn.addEventListener( 'click', function () {
+			const target = document.getElementById( btn.dataset.copyTarget );
+			if ( ! target ) {
+				return;
+			}
+			const text = target.textContent;
+
+			// navigator.clipboard needs a secure context and can still reject
+			// (permissions, non-HTTPS admin, older browsers) -- always fall
+			// back to a manual-select so the button never fails silently for
+			// a non-technical user who won't know to check devtools.
+			const fallbackSelect = function () {
+				const range = document.createRange();
+				range.selectNodeContents( target );
+				const selection = window.getSelection();
+				selection.removeAllRanges();
+				selection.addRange( range );
+				flashCopyBtn( btn, 'Selected — press Ctrl+C' );
+			};
+
+			if ( navigator.clipboard ) {
+				navigator.clipboard.writeText( text )
+					.then( function () {
+						flashCopyBtn( btn, 'Copied!' );
+					} )
+					.catch( fallbackSelect );
+			} else {
+				fallbackSelect();
+			}
+		} );
+	} );
 } )();
