@@ -63,11 +63,33 @@ class AISA_REST {
 				),
 			)
 		);
+
+		register_rest_route(
+			'aisa/v1',
+			'/bridge/connect',
+			array(
+				'methods'             => 'POST',
+				'callback'            => array( __CLASS__, 'bridge_connect' ),
+				'permission_callback' => array( __CLASS__, 'can_manage' ),
+				'args'                => array(
+					'bridge_url' => array(
+						'required' => true,
+						'type'     => 'string',
+						'format'   => 'uri',
+					),
+				),
+			)
+		);
 	}
 
 	/** Only logged-in users who can edit content may use the assistant. */
 	public static function can_use() {
 		return current_user_can( 'edit_posts' );
+	}
+
+	/** Only admins can connect to the bridge. */
+	public static function can_manage() {
+		return current_user_can( 'manage_options' );
 	}
 
 	/**
@@ -171,5 +193,58 @@ class AISA_REST {
 		$result = AISA_Tools::dispatch( $tool, $input );
 
 		return rest_ensure_response( $result );
+	}
+
+	/**
+	 * Generate an Application Password and register the site with the PHP MCP Bridge.
+	 *
+	 * @param WP_REST_Request $request Incoming request.
+	 * @return WP_REST_Response|WP_Error Connection URL or error.
+	 */
+	public static function bridge_connect( WP_REST_Request $request ) {
+		$bridge_url = $request->get_param( 'bridge_url' );
+		$user_id    = get_current_user_id();
+
+		if ( ! class_exists( 'WP_Application_Passwords' ) ) {
+			return new WP_Error( 'aisa_no_app_passwords', __( 'Application Passwords are not available on this site.', 'ai-site-assistant' ), array( 'status' => 500 ) );
+		}
+
+		// Create a new application password for the bridge
+		$app_password_name = 'AISA Bridge ' . time();
+		list( $new_password, $new_item ) = WP_Application_Passwords::create_new_application_password( $user_id, array(
+			'name' => $app_password_name,
+		) );
+
+		if ( is_wp_error( $new_password ) ) {
+			return $new_password;
+		}
+
+		$user = get_userdata( $user_id );
+
+		// Send credentials to the bridge
+		$response = wp_remote_post( rtrim( $bridge_url, '/' ) . '/register.php', array(
+			'headers' => array( 'Content-Type' => 'application/json' ),
+			'body'    => wp_json_encode( array(
+				'wp_url'          => site_url(),
+				'wp_username'     => $user->user_login,
+				'wp_app_password' => $new_password,
+			) ),
+			'timeout' => 15,
+		) );
+
+		if ( is_wp_error( $response ) ) {
+			return new WP_Error( 'aisa_bridge_error', __( 'Failed to connect to the bridge server.', 'ai-site-assistant' ), array( 'status' => 500 ) );
+		}
+
+		$body = wp_remote_retrieve_body( $response );
+		$data = json_decode( $body, true );
+
+		if ( empty( $data['success'] ) || empty( $data['connection_url'] ) ) {
+			return new WP_Error( 'aisa_bridge_invalid', __( 'Invalid response from the bridge server.', 'ai-site-assistant' ), array( 'status' => 500 ) );
+		}
+
+		return rest_ensure_response( array(
+			'connection_url' => $data['connection_url'],
+		) );
 	}
 }
