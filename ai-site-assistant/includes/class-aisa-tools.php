@@ -864,6 +864,50 @@ class AISA_Tools {
 	}
 
 	/**
+	 * Wraps wp_json_encode(), which returns false on invalid UTF-8 instead of
+	 * throwing. Real post content routinely
+	 * contains this -- mixed-charset imports, copy-paste from Word/PDF, or a
+	 * byte-offset substr() elsewhere slicing a multi-byte character in half
+	 * -- and every tool method here used to pass that false straight through
+	 * as tool_result content, which the Claude API then rejects outright.
+	 * Retry once after stripping invalid byte sequences before giving up.
+	 *
+	 * @param mixed $data Data to encode.
+	 * @return string JSON string. Never false.
+	 */
+	private static function safe_json_encode( $data ) {
+		$json = wp_json_encode( $data );
+		if ( false !== $json ) {
+			return $json;
+		}
+		$json = wp_json_encode( self::strip_invalid_utf8( $data ) );
+		if ( false !== $json ) {
+			return $json;
+		}
+		return wp_json_encode( array( 'error' => 'Could not encode this content -- it contains characters that are not valid text.' ) );
+	}
+
+	/**
+	 * Recursively strip invalid UTF-8 byte sequences from strings, arrays,
+	 * and array-castable objects (e.g. a WP_Post-derived array) ahead of a
+	 * retry in safe_json_encode().
+	 *
+	 * @param mixed $data Data to clean.
+	 * @return mixed Cleaned data, same shape as the input.
+	 */
+	private static function strip_invalid_utf8( $data ) {
+		if ( is_string( $data ) ) {
+			return wp_check_invalid_utf8( $data, true );
+		}
+		if ( is_array( $data ) ) {
+			foreach ( $data as $key => $value ) {
+				$data[ $key ] = self::strip_invalid_utf8( $value );
+			}
+		}
+		return $data;
+	}
+
+	/**
 	 * Search posts and pages.
 	 *
 	 * @param array $in Tool input.
@@ -889,7 +933,7 @@ class AISA_Tools {
 				'url'    => get_permalink( $p ),
 			);
 		}
-		return array( 'content' => wp_json_encode( $rows ) );
+		return array( 'content' => self::safe_json_encode( $rows ) );
 	}
 
 	/**
@@ -908,7 +952,7 @@ class AISA_Tools {
 			return self::error( 'Post not found.' );
 		}
 		return array(
-			'content' => wp_json_encode(
+			'content' => self::safe_json_encode(
 				array(
 					'id'                => $p->ID,
 					'title'             => $p->post_title,
@@ -1033,7 +1077,7 @@ class AISA_Tools {
 	private static function get_site_context() {
 		$theme = wp_get_theme();
 		return array(
-			'content' => wp_json_encode(
+			'content' => self::safe_json_encode(
 				array(
 					'theme'          => $theme->get( 'Name' ) . ' ' . $theme->get( 'Version' ),
 					'post_types'     => array_values( get_post_types( array( 'public' => true ) ) ),
@@ -1109,7 +1153,7 @@ class AISA_Tools {
 		}
 
 		return array(
-			'content' => wp_json_encode(
+			'content' => self::safe_json_encode(
 				array(
 					'claim'   => $claim,
 					'model'   => AISA_OpenRouter_Client::get_model(),
@@ -1235,7 +1279,7 @@ class AISA_Tools {
 		if ( ! current_user_can( 'edit_post', $id ) ) {
 			return self::error( 'Permission denied for this post.' );
 		}
-		return array( 'content' => wp_json_encode( AISA_SEO::read_fields( $id ) ) );
+		return array( 'content' => self::safe_json_encode( AISA_SEO::read_fields( $id ) ) );
 	}
 
 	/**
@@ -1258,7 +1302,7 @@ class AISA_Tools {
 		if ( empty( $fields ) ) {
 			return self::error( 'No SEO fields provided. Pass at least one of meta_title, meta_description, etc.' );
 		}
-		return array( 'content' => wp_json_encode( AISA_SEO::write_fields( $id, $fields ) ) );
+		return array( 'content' => self::safe_json_encode( AISA_SEO::write_fields( $id, $fields ) ) );
 	}
 
 	/**
@@ -1272,7 +1316,7 @@ class AISA_Tools {
 		if ( ! current_user_can( 'edit_post', $id ) ) {
 			return self::error( 'Permission denied for this post.' );
 		}
-		return array( 'content' => wp_json_encode( AISA_Meta::read_meta( $id, 'rank_math_schema' ) ) );
+		return array( 'content' => self::safe_json_encode( AISA_Meta::read_meta( $id, 'rank_math_schema' ) ) );
 	}
 
 	/**
@@ -1298,7 +1342,7 @@ class AISA_Tools {
 		if ( is_wp_error( $result ) ) {
 			return self::error( $result->get_error_message() );
 		}
-		return array( 'content' => wp_json_encode( $result ) );
+		return array( 'content' => self::safe_json_encode( $result ) );
 	}
 
 	/**
@@ -1333,7 +1377,7 @@ class AISA_Tools {
 				'download_location' => $photo['links']['download_location'] ?? '',
 			);
 		}
-		return array( 'content' => wp_json_encode( $rows ) );
+		return array( 'content' => self::safe_json_encode( $rows ) );
 	}
 
 	/**
@@ -1383,7 +1427,7 @@ class AISA_Tools {
 		AISA_Audit_Log::record( 'generate_image', null, array( 'contrast_note' => (string) ( $in['contrast_note'] ?? '' ) ) );
 
 		return array(
-			'content' => wp_json_encode(
+			'content' => self::safe_json_encode(
 				array(
 					'image_id'   => $image_id,
 					'mime_type'  => $result['mime_type'],
@@ -1445,7 +1489,7 @@ class AISA_Tools {
 
 		AISA_Audit_Log::record( 'upload_media', $post_id ? $post_id : null, array( 'attachment_id' => $attachment_id ) );
 		return array(
-			'content' => wp_json_encode(
+			'content' => self::safe_json_encode(
 				array(
 					'attachment_id' => $attachment_id,
 					'url'           => wp_get_attachment_url( $attachment_id ),
@@ -1544,11 +1588,17 @@ class AISA_Tools {
 		$max_bytes = 20000;
 		$truncated = strlen( $html ) > $max_bytes;
 		if ( $truncated ) {
-			$html = substr( $html, 0, $max_bytes ) . "\n<!-- AISA: truncated at {$max_bytes} bytes -->";
+			// mb_strcut(), not substr(): a byte offset can land in the middle of
+			// a multi-byte UTF-8 character (emoji, smart quotes, non-Latin
+			// text), which produces invalid UTF-8 and makes safe_json_encode()
+			// fall back to stripping content instead of just truncating it.
+			// mb_strcut() cuts at the nearest character boundary at or before
+			// the byte limit instead.
+			$html = mb_strcut( $html, 0, $max_bytes ) . "\n<!-- AISA: truncated at {$max_bytes} bytes -->";
 		}
 
 		return array(
-			'content' => wp_json_encode(
+			'content' => self::safe_json_encode(
 				array(
 					'url'       => $permalink,
 					'status'    => wp_remote_retrieve_response_code( $response ),
@@ -1593,7 +1643,7 @@ class AISA_Tools {
 			return self::error( $response->get_error_message() );
 		}
 		return array(
-			'content' => wp_json_encode(
+			'content' => self::safe_json_encode(
 				array(
 					'target' => $target,
 					'order'  => 'best' === ( $in['order'] ?? 'worst' ) ? 'best' : 'worst',
@@ -1636,7 +1686,7 @@ class AISA_Tools {
 			return self::error( $response->get_error_message() );
 		}
 		return array(
-			'content' => wp_json_encode(
+			'content' => self::safe_json_encode(
 				array(
 					'target'      => $target,
 					'country'     => '' !== $country ? $country : 'us',
@@ -1675,7 +1725,7 @@ class AISA_Tools {
 			return self::error( $response->get_error_message() );
 		}
 		return array(
-			'content' => wp_json_encode(
+			'content' => self::safe_json_encode(
 				array(
 					'target'  => $target,
 					'metrics' => $response['metrics'] ?? array(),

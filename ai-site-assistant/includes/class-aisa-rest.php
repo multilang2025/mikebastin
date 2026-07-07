@@ -209,28 +209,38 @@ class AISA_REST {
 			return new WP_Error( 'aisa_no_app_passwords', __( 'Application Passwords are not available on this site.', 'ai-site-assistant' ), array( 'status' => 500 ) );
 		}
 
-		// Create a new application password for the bridge
+		// Create a new application password for the bridge.
 		$app_password_name = 'AISA Bridge ' . time();
-		list( $new_password, $new_item ) = WP_Application_Passwords::create_new_application_password( $user_id, array(
-			'name' => $app_password_name,
-		) );
+		$created           = WP_Application_Passwords::create_new_application_password(
+			$user_id,
+			array( 'name' => $app_password_name )
+		);
 
-		if ( is_wp_error( $new_password ) ) {
-			return $new_password;
+		// create_new_application_password() returns either a WP_Error or a
+		// [ $new_password, $new_item ] array -- never destructure before this
+		// check, or a failure here silently becomes a null password sent below.
+		if ( is_wp_error( $created ) ) {
+			return $created;
 		}
+		list( $new_password, $new_item ) = $created;
 
 		$user = get_userdata( $user_id );
 
-		// Send credentials to the bridge
-		$response = wp_remote_post( rtrim( $bridge_url, '/' ) . '/register.php', array(
-			'headers' => array( 'Content-Type' => 'application/json' ),
-			'body'    => wp_json_encode( array(
-				'wp_url'          => site_url(),
-				'wp_username'     => $user->user_login,
-				'wp_app_password' => $new_password,
-			) ),
-			'timeout' => 15,
-		) );
+		// Send credentials to the bridge.
+		$response = wp_remote_post(
+			rtrim( $bridge_url, '/' ) . '/register.php',
+			array(
+				'headers' => array( 'Content-Type' => 'application/json' ),
+				'body'    => wp_json_encode(
+					array(
+						'wp_url'          => site_url(),
+						'wp_username'     => $user->user_login,
+						'wp_app_password' => $new_password,
+					)
+				),
+				'timeout' => 15,
+			)
+		);
 
 		if ( is_wp_error( $response ) ) {
 			return new WP_Error( 'aisa_bridge_error', __( 'Failed to connect to the bridge server.', 'ai-site-assistant' ), array( 'status' => 500 ) );
@@ -243,8 +253,10 @@ class AISA_REST {
 			return new WP_Error( 'aisa_bridge_invalid', __( 'Invalid response from the bridge server.', 'ai-site-assistant' ), array( 'status' => 500 ) );
 		}
 
-		return rest_ensure_response( array(
-			'connection_url' => $data['connection_url'],
-		) );
+		return rest_ensure_response(
+			array(
+				'connection_url' => $data['connection_url'],
+			)
+		);
 	}
 }

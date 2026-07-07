@@ -399,16 +399,16 @@ class AISA_Settings {
 					console.error(err);
 				});
 			});
-            
-            if (copyBtn) {
-                copyBtn.addEventListener('click', function() {
-                    navigator.clipboard.writeText(urlText.textContent).then(function() {
-                        var originalText = copyBtn.textContent;
-                        copyBtn.textContent = 'Copied!';
-                        setTimeout(function() { copyBtn.textContent = originalText; }, 2000);
-                    });
-                });
-            }
+
+			if (copyBtn) {
+				copyBtn.addEventListener('click', function() {
+					navigator.clipboard.writeText(urlText.textContent).then(function() {
+						var originalText = copyBtn.textContent;
+						copyBtn.textContent = 'Copied!';
+						setTimeout(function() { copyBtn.textContent = originalText; }, 2000);
+					});
+				});
+			}
 		});
 		</script>
 		<?php
