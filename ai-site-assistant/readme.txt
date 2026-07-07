@@ -3,7 +3,7 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
-Stable tag: 0.8.1
+Stable tag: 0.8.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -155,6 +155,11 @@ Tips:
   gate on more precisely.
 
 == Changelog ==
+
+= 0.8.2 =
+* Replaced the Node.js MCP server (`wp-mcp-server`) with a lightweight, standalone PHP Hosted Bridge (`php-mcp-bridge`).
+* Added a new WPVibe-style "Connect to Claude Desktop/Web" section in settings to securely generate connection URLs for the bridge.
+* The PHP bridge completely eliminates the need to run Node.js on your hosting provider, allowing native operation on shared hosting environments via SQLite and Server-Sent Events (SSE).
 
 = 0.8.1 =
 * Redesign the MCP Connector page as a plain-language, four-step wizard
