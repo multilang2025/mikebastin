@@ -3,11 +3,7 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
-<<<<<<< HEAD
-Stable tag: 0.5.4
-=======
-Stable tag: 0.7.0
->>>>>>> main
+Stable tag: 0.8.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -159,6 +155,31 @@ Tips:
   gate on more precisely.
 
 == Changelog ==
+
+= 0.8.1 =
+* Redesign the MCP Connector page as a plain-language, four-step wizard
+  (download, connect, register, say hello) with copy-to-clipboard command
+  snippets, instead of a single block of developer-facing setup docs. No
+  jargon like "npm" or ".env" is required reading -- the wizard tells you
+  exactly what to paste and where.
+* Align the "Open AISA Connector" / "Back to Workspace" button on the
+  workspace and wizard headers to the same baseline as the page title,
+  instead of sitting in its own row above it.
+* Compact the workspace's feature checklist from eleven single-line bullets
+  into four grouped ones, cutting the vertical space it takes without
+  dropping any of the underlying capabilities.
+
+= 0.8.0 =
+* Add an "Open AISA Connector" button to the chat workspace header, linking to
+  a new AISA Connector -> MCP Connector page. That page walks through setting
+  up the local MCP server (wp-mcp-server) step by step -- npm install, the
+  .env values it needs, generating a WordPress Application Password, and
+  registering it with an MCP client -- and embeds a second, independent chat
+  gateway so you can sanity-check the connection before switching to Claude
+  Code or Claude Desktop. It reuses the exact same /aisa/v1/chat endpoint and
+  admin/js/app.js as the standalone workspace; no backend or security changes.
+* Fix an unresolved git merge-conflict left committed in this readme's
+  "Stable tag" line.
 
 = 0.7.0 =
 * MCP Bridge v2: the wp-mcp-server (Prong 2) now has full feature parity with

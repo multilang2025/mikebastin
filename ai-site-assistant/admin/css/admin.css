@@ -103,12 +103,30 @@
 	margin-left: 0.5rem;
 }
 
+.aisa-title-row {
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+	gap: 0.6rem;
+	text-align: left;
+}
+
+.aisa-title-row .aisa-title {
+	margin: 0;
+}
+
+.aisa-title-row .aisa-open-connector,
+.aisa-title-row .button-secondary {
+	flex-shrink: 0;
+	align-self: center;
+}
+
 .aisa-features {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	gap: 0.4rem 1.2rem;
-	margin: 0 auto 1rem;
+	gap: 0.3rem 1.2rem;
+	margin: 0.6rem auto 0;
 	padding: 0;
 	list-style: none;
 	max-width: 900px;
@@ -128,4 +146,81 @@
 	left: 0;
 	color: #2271b1;
 	font-weight: 700;
+}
+
+.aisa-wizard-intro {
+	text-align: left;
+	color: #3c434a;
+	font-size: 13px;
+	margin: 0.6rem 0 0;
+}
+
+.aisa-wizard {
+	max-width: 760px;
+	margin: 1.2rem auto 0;
+	padding: 0;
+	list-style: none;
+	text-align: left;
+}
+
+.aisa-wizard-step {
+	display: flex;
+	gap: 0.9rem;
+	margin-bottom: 1rem;
+}
+
+.aisa-wizard-num {
+	flex-shrink: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 28px;
+	height: 28px;
+	border-radius: 50%;
+	background: #2271b1;
+	color: #fff;
+	font-weight: 600;
+	font-size: 13px;
+}
+
+.aisa-wizard-card {
+	flex: 1;
+	background: #fff;
+	border: 1px solid #c3c4c7;
+	border-radius: 4px;
+	padding: 1rem 1.2rem;
+}
+
+.aisa-wizard-card h2 {
+	margin: 0 0 0.4rem;
+	font-size: 15px;
+}
+
+.aisa-wizard-card p {
+	margin: 0 0 0.6rem;
+	color: #3c434a;
+	font-size: 13px;
+	line-height: 1.5;
+}
+
+.aisa-copy-row {
+	display: flex;
+	align-items: flex-start;
+	gap: 0.5rem;
+}
+
+.aisa-copy-field {
+	display: block;
+	flex: 1;
+	white-space: pre-wrap;
+	background: #f6f7f7;
+	border: 1px solid #dcdcde;
+	border-radius: 3px;
+	padding: 0.5rem 0.7rem;
+	font-size: 12px;
+	line-height: 1.6;
+}
+
+.aisa-copy-btn {
+	flex-shrink: 0;
 }

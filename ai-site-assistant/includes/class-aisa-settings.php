@@ -38,6 +38,14 @@ class AISA_Settings {
 		);
 		add_submenu_page(
 			'aisa-chat',
+			__( 'MCP Connector', 'ai-site-assistant' ),
+			__( 'MCP Connector', 'ai-site-assistant' ),
+			'edit_posts',
+			'aisa-mcp-connector',
+			array( __CLASS__, 'render_mcp_connector' )
+		);
+		add_submenu_page(
+			'aisa-chat',
 			__( 'Settings', 'ai-site-assistant' ),
 			__( 'Settings', 'ai-site-assistant' ),
 			'manage_options',
@@ -94,7 +102,8 @@ class AISA_Settings {
 	 * @param string $hook Current admin page hook suffix.
 	 */
 	public static function assets( $hook ) {
-		if ( 'toplevel_page_aisa-chat' !== $hook ) {
+		$chat_pages = array( 'toplevel_page_aisa-chat', 'aisa-chat_page_aisa-mcp-connector' );
+		if ( ! in_array( $hook, $chat_pages, true ) ) {
 			return;
 		}
 		wp_enqueue_style( 'aisa-admin', AISA_URL . 'admin/css/admin.css', array(), AISA_VERSION );
@@ -108,6 +117,20 @@ class AISA_Settings {
 				'hasGeminiKey' => AISA_Gemini_Client::is_configured(),
 			)
 		);
+	}
+
+	/**
+	 * Header action button linking the standalone chat workspace to the
+	 * MCP onboarding/gateway page. Purely navigational — no state, API
+	 * payload, or key handling is touched.
+	 */
+	private static function render_open_connector_button() {
+		?>
+		<a href="<?php echo esc_url( admin_url( 'admin.php?page=aisa-mcp-connector' ) ); ?>"
+			class="button button-secondary aisa-open-connector">
+			<?php esc_html_e( 'Open AISA Connector', 'ai-site-assistant' ); ?>
+		</a>
+		<?php
 	}
 
 	/**
@@ -214,22 +237,18 @@ class AISA_Settings {
 		?>
 		<div class="wrap">
 			<div id="aisa-header">
-				<h1 class="aisa-title">
-					<?php esc_html_e( 'AISA Connector', 'ai-site-assistant' ); ?>
-					<span class="aisa-tagline"><?php esc_html_e( 'Your AI content &amp; SEO assistant', 'ai-site-assistant' ); ?></span>
-				</h1>
+				<div class="aisa-title-row">
+					<h1 class="aisa-title">
+						<?php esc_html_e( 'AISA Connector', 'ai-site-assistant' ); ?>
+						<span class="aisa-tagline"><?php esc_html_e( 'Your AI content &amp; SEO assistant', 'ai-site-assistant' ); ?></span>
+					</h1>
+					<?php self::render_open_connector_button(); ?>
+				</div>
 				<ul class="aisa-features">
-					<li><?php esc_html_e( 'Draft, edit &amp; publish posts and pages by chat', 'ai-site-assistant' ); ?></li>
-					<li><?php esc_html_e( 'Fast targeted edits (replace / append) that avoid timeouts', 'ai-site-assistant' ); ?></li>
-					<li><?php esc_html_e( 'SEO meta &amp; schema for Rank Math and Yoast', 'ai-site-assistant' ); ?></li>
-					<li><?php esc_html_e( 'EEAT &amp; readability playbooks', 'ai-site-assistant' ); ?></li>
-					<li><?php esc_html_e( 'Fact-checking with Perplexity Sonar (web-grounded, cited)', 'ai-site-assistant' ); ?></li>
-					<li><?php esc_html_e( 'Stock-photo search &amp; upload straight into your media library', 'ai-site-assistant' ); ?></li>
-					<li><?php esc_html_e( 'Original AI image generation (Nano Banana Pro), hyper-realistic &amp; text-free', 'ai-site-assistant' ); ?></li>
-					<li><?php esc_html_e( 'SEO intelligence via Ahrefs: worst/best pages, competitors, comparison', 'ai-site-assistant' ); ?></li>
-					<li><?php esc_html_e( 'Theme file edits in a safe draft-first sandbox', 'ai-site-assistant' ); ?></li>
-					<li><?php esc_html_e( 'Attach a CSV/Excel file of keyword or competitor data for grounded SEO advice', 'ai-site-assistant' ); ?></li>
-					<li><?php esc_html_e( 'Write-approval gate &amp; full audit log', 'ai-site-assistant' ); ?></li>
+					<li><?php esc_html_e( 'Draft, edit, publish &amp; fast-edit content by chat', 'ai-site-assistant' ); ?></li>
+					<li><?php esc_html_e( 'SEO: meta &amp; schema, EEAT/readability, Ahrefs intelligence', 'ai-site-assistant' ); ?></li>
+					<li><?php esc_html_e( 'Media: stock photos, AI image generation, CSV/Excel-grounded advice', 'ai-site-assistant' ); ?></li>
+					<li><?php esc_html_e( 'Theme sandbox, write-approval gate &amp; full audit log', 'ai-site-assistant' ); ?></li>
 				</ul>
 			</div>
 			<div id="aisa-app">
@@ -246,6 +265,99 @@ class AISA_Settings {
 					</div>
 				</form>
 			</div>
+		</div>
+		<?php
+	}
+
+	/**
+	 * Render the MCP Connector onboarding page: a plain-language setup
+	 * wizard for the local MCP server plus an embedded agent chat gateway
+	 * as the final "test it" step. Reuses the same #aisa-app markup/ids as
+	 * the standalone workspace so admin/js/app.js runs unmodified — its
+	 * attach/generate-image wiring already no-ops when those optional
+	 * elements aren't present on the page.
+	 */
+	public static function render_mcp_connector() {
+		?>
+		<div class="wrap">
+			<div id="aisa-header">
+				<div class="aisa-title-row">
+					<h1 class="aisa-title">
+						<?php esc_html_e( 'AISA Connector', 'ai-site-assistant' ); ?>
+						<span class="aisa-tagline"><?php esc_html_e( 'Link up your AI assistant app', 'ai-site-assistant' ); ?></span>
+					</h1>
+					<a href="<?php echo esc_url( admin_url( 'admin.php?page=aisa-chat' ) ); ?>" class="button button-secondary">
+						<?php esc_html_e( 'Back to Workspace', 'ai-site-assistant' ); ?>
+					</a>
+				</div>
+				<p class="aisa-wizard-intro">
+					<?php esc_html_e( 'Want to drive this site from Claude Code, Claude Desktop, or another AI app on your computer? Follow the four steps below — no technical background needed.', 'ai-site-assistant' ); ?>
+				</p>
+			</div>
+
+			<ol class="aisa-wizard">
+				<li class="aisa-wizard-step">
+					<span class="aisa-wizard-num">1</span>
+					<div class="aisa-wizard-card">
+						<h2><?php esc_html_e( 'Download the connector', 'ai-site-assistant' ); ?></h2>
+						<p><?php esc_html_e( 'This is a one-time setup. Open a terminal on your computer and paste this in — it fetches and prepares the connector.', 'ai-site-assistant' ); ?></p>
+						<div class="aisa-copy-row">
+							<code class="aisa-copy-field" id="aisa-copy-install">cd wp-mcp-server &amp;&amp; npm install</code>
+							<button type="button" class="button aisa-copy-btn" data-copy-target="aisa-copy-install"><?php esc_html_e( 'Copy', 'ai-site-assistant' ); ?></button>
+						</div>
+					</div>
+				</li>
+				<li class="aisa-wizard-step">
+					<span class="aisa-wizard-num">2</span>
+					<div class="aisa-wizard-card">
+						<h2><?php esc_html_e( 'Give it a key to your site', 'ai-site-assistant' ); ?></h2>
+						<p>
+							<?php
+							printf(
+								/* translators: %s: link to the Application Passwords section of the user's own profile page. */
+								esc_html__( 'First, create a site password just for this connector: go to %s and add a new one.', 'ai-site-assistant' ),
+								'<a href="' . esc_url( admin_url( 'profile.php#application-passwords-section' ) ) . '">' . esc_html__( 'your profile', 'ai-site-assistant' ) . '</a>'
+							);
+							?>
+						</p>
+						<p><?php esc_html_e( 'Then paste these three lines into the .env file the connector created:', 'ai-site-assistant' ); ?></p>
+						<div class="aisa-copy-row">
+							<code class="aisa-copy-field" id="aisa-copy-env">WP_SITE_URL=<?php echo esc_html( home_url() ); ?>
+WP_USERNAME=your admin username
+WP_APP_PASSWORD=the password you just created</code>
+							<button type="button" class="button aisa-copy-btn" data-copy-target="aisa-copy-env"><?php esc_html_e( 'Copy', 'ai-site-assistant' ); ?></button>
+						</div>
+					</div>
+				</li>
+				<li class="aisa-wizard-step">
+					<span class="aisa-wizard-num">3</span>
+					<div class="aisa-wizard-card">
+						<h2><?php esc_html_e( 'Connect it to your AI app', 'ai-site-assistant' ); ?></h2>
+						<p><?php esc_html_e( 'Paste this into the same terminal so your AI app knows the connector is there:', 'ai-site-assistant' ); ?></p>
+						<div class="aisa-copy-row">
+							<code class="aisa-copy-field" id="aisa-copy-register">claude mcp add aisa -- node wp-mcp-server/src/index.mjs</code>
+							<button type="button" class="button aisa-copy-btn" data-copy-target="aisa-copy-register"><?php esc_html_e( 'Copy', 'ai-site-assistant' ); ?></button>
+						</div>
+					</div>
+				</li>
+				<li class="aisa-wizard-step">
+					<span class="aisa-wizard-num">4</span>
+					<div class="aisa-wizard-card">
+						<h2><?php esc_html_e( 'Say hello', 'ai-site-assistant' ); ?></h2>
+						<p><?php esc_html_e( 'Try it right here first — this talks to your site the same way the connector will.', 'ai-site-assistant' ); ?></p>
+						<div id="aisa-app">
+							<div id="aisa-log" class="aisa-log" aria-live="polite"></div>
+							<form id="aisa-form" class="aisa-form">
+								<textarea id="aisa-input" rows="3"
+									placeholder="<?php esc_attr_e( 'e.g. Say hello and list my 5 most recent posts', 'ai-site-assistant' ); ?>"></textarea>
+								<div class="aisa-form-actions">
+									<button type="submit" id="aisa-send-btn" class="button button-primary"><?php esc_html_e( 'Send', 'ai-site-assistant' ); ?></button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</li>
+			</ol>
 		</div>
 		<?php
 	}
