@@ -143,6 +143,92 @@ class AISA_Settings {
 			<?php if ( defined( 'AISA_API_KEY' ) && AISA_API_KEY ) : ?>
 				<p><strong><?php esc_html_e( 'API key is set via the AISA_API_KEY constant in wp-config.php.', 'ai-site-assistant' ); ?></strong></p>
 			<?php endif; ?>
+
+			<div class="card" style="max-width: 800px; margin-top: 20px; padding: 20px;">
+				<h2><?php esc_html_e( 'Connect to Claude Desktop / Web (WPVibe Style)', 'ai-site-assistant' ); ?></h2>
+				<p><?php esc_html_e( 'Generate a secure connection URL to use this site inside the Claude Desktop app or Claude web interface. This uses a hosted PHP bridge to proxy requests safely.', 'ai-site-assistant' ); ?></p>
+				
+				<table class="form-table" role="presentation">
+					<tr>
+						<th scope="row"><label for="aisa_bridge_url"><?php esc_html_e( 'Bridge Server URL', 'ai-site-assistant' ); ?></label></th>
+						<td>
+							<input id="aisa_bridge_url" type="url" class="regular-text" value="https://example-bridge.com/php-mcp-bridge" />
+							<p class="description"><?php esc_html_e( 'The URL of your hosted PHP MCP bridge.', 'ai-site-assistant' ); ?></p>
+						</td>
+					</tr>
+					<tr>
+						<th scope="row"></th>
+						<td>
+							<button type="button" class="button button-secondary" id="aisa_generate_bridge_btn">
+								<?php esc_html_e( 'Generate Connection URL', 'ai-site-assistant' ); ?>
+							</button>
+							<span class="spinner" id="aisa_bridge_spinner" style="float: none;"></span>
+						</td>
+					</tr>
+					<tr id="aisa_connection_url_row" style="display: none;">
+						<th scope="row"><label for="aisa_connection_url"><?php esc_html_e( 'Claude Connection URL', 'ai-site-assistant' ); ?></label></th>
+						<td>
+							<input id="aisa_connection_url" type="text" class="large-text code" readonly="readonly" onclick="this.select();" />
+							<p class="description" style="color: #007017; font-weight: bold;">
+								<?php esc_html_e( 'Success! Paste this URL into Claude Desktop or Claude Web to connect your site.', 'ai-site-assistant' ); ?>
+							</p>
+						</td>
+					</tr>
+				</table>
+			</div>
+
+			<script>
+			document.addEventListener('DOMContentLoaded', function() {
+				var btn = document.getElementById('aisa_generate_bridge_btn');
+				var spinner = document.getElementById('aisa_bridge_spinner');
+				var urlRow = document.getElementById('aisa_connection_url_row');
+				var urlInput = document.getElementById('aisa_connection_url');
+				
+				if (!btn) return;
+				
+				btn.addEventListener('click', function() {
+					var bridgeUrl = document.getElementById('aisa_bridge_url').value;
+					if (!bridgeUrl) {
+						alert('Please enter a Bridge Server URL.');
+						return;
+					}
+					
+					spinner.classList.add('is-active');
+					btn.disabled = true;
+					urlRow.style.display = 'none';
+					
+					fetch( '<?php echo esc_url_raw( rest_url( 'aisa/v1/bridge/connect' ) ); ?>', {
+						method: 'POST',
+						headers: {
+							'Content-Type': 'application/json',
+							'X-WP-Nonce': '<?php echo esc_js( wp_create_nonce( 'wp_rest' ) ); ?>'
+						},
+						body: JSON.stringify({ bridge_url: bridgeUrl })
+					})
+					.then(response => response.json())
+					.then(data => {
+						spinner.classList.remove('is-active');
+						btn.disabled = false;
+						
+						if (data.connection_url) {
+							urlInput.value = data.connection_url;
+							urlRow.style.display = '';
+						} else {
+							alert('Error: ' + (data.message || 'Unknown error occurred.'));
+						}
+					})
+					.catch(err => {
+						spinner.classList.remove('is-active');
+						btn.disabled = false;
+						alert('Network error. See console for details.');
+						console.error(err);
+					});
+				});
+			});
+			</script>
+
+			<hr style="margin: 30px 0;">
+
 			<form method="post" action="options.php">
 				<?php settings_fields( 'aisa_settings_group' ); ?>
 				<?php $opts = get_option( self::OPTION_KEY, array() ); ?>
