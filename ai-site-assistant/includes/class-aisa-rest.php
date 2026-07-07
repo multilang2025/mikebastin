@@ -44,6 +44,25 @@ class AISA_REST {
 				),
 			)
 		);
+
+		register_rest_route(
+			'aisa/v1',
+			'/tool',
+			array(
+				'methods'             => 'POST',
+				'callback'            => array( __CLASS__, 'dispatch_tool' ),
+				'permission_callback' => array( __CLASS__, 'can_use' ),
+				'args'                => array(
+					'tool'  => array(
+						'required' => true,
+						'type'     => 'string',
+					),
+					'input' => array(
+						'required' => true,
+					),
+				),
+			)
+		);
 	}
 
 	/** Only logged-in users who can edit content may use the assistant. */
@@ -106,5 +125,51 @@ class AISA_REST {
 				'continue' => ! empty( $result['continue'] ),
 			)
 		);
+	}
+
+	/**
+	 * Dispatch a single tool call from an external MCP client.
+	 *
+	 * This is the bridge between the MCP server (Prong 2) and the plugin's
+	 * existing tool executor. The MCP server authenticates with a WordPress
+	 * Application Password and calls this endpoint instead of reimplementing
+	 * tool logic — one codebase, one security boundary.
+	 *
+	 * Only an explicit allowlist of tools is reachable; the rest (like
+	 * get_site_context, which embeds the system prompt) stay internal.
+	 *
+	 * @param WP_REST_Request $request Incoming request.
+	 * @return WP_REST_Response|WP_Error Tool result or error.
+	 */
+	public static function dispatch_tool( WP_REST_Request $request ) {
+		$tool  = sanitize_key( $request->get_param( 'tool' ) );
+		$input = (array) $request->get_param( 'input' );
+
+		$allowed = array(
+			'generate_image',
+			'upload_media',
+			'search_images',
+			'replace_in_post',
+			'append_to_post',
+			'fact_check',
+			'get_page_html',
+			'load_skill',
+		);
+
+		if ( ! in_array( $tool, $allowed, true ) ) {
+			return new WP_Error(
+				'aisa_tool_not_allowed',
+				sprintf(
+					/* translators: %s: tool name. */
+					__( 'Tool "%s" is not available through this endpoint.', 'ai-site-assistant' ),
+					$tool
+				),
+				array( 'status' => 403 )
+			);
+		}
+
+		$result = AISA_Tools::dispatch( $tool, $input );
+
+		return rest_ensure_response( $result );
 	}
 }

@@ -3,7 +3,7 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
-Stable tag: 0.6.4
+Stable tag: 0.7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -155,6 +155,32 @@ Tips:
   gate on more precisely.
 
 == Changelog ==
+
+= 0.7.0 =
+* MCP Bridge v2: the wp-mcp-server (Prong 2) now has full feature parity with
+  the in-dashboard chat (Prong 1). Eight new tools are exposed to external AI
+  clients (Claude Code, Claude Desktop, Cursor, Windsurf) through a new plugin
+  REST endpoint (POST /aisa/v1/tool) that proxies to the existing tool executor
+  -- one codebase, one security boundary. API keys for Gemini, Ahrefs, and
+  Perplexity stay in WordPress; the MCP server never needs them.
+* New MCP tools: generate_seo_image (Nano Banana Pro / Gemini AI image
+  generation), commit_image (save a generated image into the Media Library),
+  replace_in_post (targeted find/replace without full-content rewrites),
+  append_to_post (add FAQ/author/CTA blocks), search_images (Unsplash stock
+  photos), fact_check (Perplexity Sonar verification), get_page_html (live
+  rendered HTML), and load_skill (skill playbooks).
+* Content-intercept: create_post and update_post now scan submitted HTML for
+  <h2> sections without images and flag them in the tool response, so the
+  agent can suggest using generate_seo_image -- advisory only, the user
+  decides.
+* Credential infrastructure: the MCP server now loads environment variables
+  from a .env file (via dotenv), with a committed .env.example template and
+  a .gitignore that excludes the real .env.
+* The plugin REST endpoint uses an explicit allowlist so only the 8 bridged
+  tools are reachable from MCP; internal-only tools (get_site_context, etc.)
+  stay private.
+* No changes to the in-dashboard chat (Prong 1) -- it works identically to
+  v0.6.4.
 
 = 0.6.4 =
 * Fix "The response is not a valid JSON response" still surfacing on long
