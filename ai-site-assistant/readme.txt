@@ -3,7 +3,7 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
-Stable tag: 0.8.3
+Stable tag: 0.8.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -155,6 +155,9 @@ Tips:
   gate on more precisely.
 
 == Changelog ==
+= 0.8.4 =
+* Add fallback GitHub token logic to the native updater, enabling seamless auto-updates for distributed ZIP files.
+
 
 = 0.8.3 =
 * Replaced the Node.js MCP server (`wp-mcp-server`) with a lightweight, standalone PHP Hosted Bridge (`php-mcp-bridge`).
