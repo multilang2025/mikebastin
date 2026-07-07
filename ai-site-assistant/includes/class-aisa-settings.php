@@ -300,7 +300,7 @@ class AISA_Settings {
 					<span class="aisa-wizard-num">1</span>
 					<div class="aisa-wizard-card">
 						<h2><?php esc_html_e( 'Download the connector', 'ai-site-assistant' ); ?></h2>
-						<p><?php esc_html_e( "This is a one-time setup. Open a terminal on your computer and paste this in — it fetches and prepares the connector.", 'ai-site-assistant' ); ?></p>
+						<p><?php esc_html_e( 'This is a one-time setup. Open a terminal on your computer and paste this in — it fetches and prepares the connector.', 'ai-site-assistant' ); ?></p>
 						<div class="aisa-copy-row">
 							<code class="aisa-copy-field" id="aisa-copy-install">cd wp-mcp-server &amp;&amp; npm install</code>
 							<button type="button" class="button aisa-copy-btn" data-copy-target="aisa-copy-install"><?php esc_html_e( 'Copy', 'ai-site-assistant' ); ?></button>
@@ -344,7 +344,7 @@ WP_APP_PASSWORD=the password you just created</code>
 					<span class="aisa-wizard-num">4</span>
 					<div class="aisa-wizard-card">
 						<h2><?php esc_html_e( 'Say hello', 'ai-site-assistant' ); ?></h2>
-						<p><?php esc_html_e( "Try it right here first — this talks to your site the same way the connector will.", 'ai-site-assistant' ); ?></p>
+						<p><?php esc_html_e( 'Try it right here first — this talks to your site the same way the connector will.', 'ai-site-assistant' ); ?></p>
 						<div id="aisa-app">
 							<div id="aisa-log" class="aisa-log" aria-live="polite"></div>
 							<form id="aisa-form" class="aisa-form">
