@@ -864,8 +864,8 @@ class AISA_Tools {
 	}
 
 	/**
-	 * wp_json_encode() (a thin wrapper over json_encode()) returns false on
-	 * invalid UTF-8 instead of throwing. Real post content routinely
+	 * Wraps wp_json_encode(), which returns false on invalid UTF-8 instead of
+	 * throwing. Real post content routinely
 	 * contains this -- mixed-charset imports, copy-paste from Word/PDF, or a
 	 * byte-offset substr() elsewhere slicing a multi-byte character in half
 	 * -- and every tool method here used to pass that false straight through
