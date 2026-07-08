@@ -113,7 +113,12 @@ class AISA_Agent {
 			);
 		}
 
-		$response = AISA_Claude_Client::create(
+		// Opt-in per AISA_Settings::use_gemini_chat(): both clients accept the
+		// same (messages, tools, args) and return the same { content,
+		// stop_reason } shape, so nothing below this line needs to know or
+		// care which one actually answered.
+		$client_class = AISA_Settings::use_gemini_chat() ? 'AISA_Gemini_Chat_Client' : 'AISA_Claude_Client';
+		$response     = $client_class::create(
 			$messages,
 			$tools,
 			array( 'system' => self::system_prompt() )

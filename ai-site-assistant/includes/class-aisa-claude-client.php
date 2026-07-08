@@ -109,10 +109,14 @@ class AISA_Claude_Client {
 	 *    message instead of approving), inject a synthetic tool_result so the API
 	 *    does not reject the unanswered tool_use.
 	 *
+	 * Public so AISA_Gemini_Chat_Client can reuse this exact normalization
+	 * before translating into Gemini's own request shape, instead of
+	 * re-implementing the same edge cases a second time.
+	 *
 	 * @param array $messages Conversation messages.
 	 * @return array Sanitized messages.
 	 */
-	private static function normalize_messages( array $messages ) {
+	public static function normalize_messages( array $messages ) {
 		$out   = array();
 		$count = count( $messages );
 

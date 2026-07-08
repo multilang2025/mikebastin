@@ -3,7 +3,7 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
-Stable tag: 0.8.6
+Stable tag: 0.9.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -155,6 +155,25 @@ Tips:
   gate on more precisely.
 
 == Changelog ==
+= 0.9.0 =
+* Add an opt-in "Use Gemini 2.5 Flash for chat instead of Claude" checkbox
+  in Settings, for sites that would rather stay on Gemini's free tier than
+  pay per token. Reuses the existing Gemini API key. A new
+  AISA_Gemini_Chat_Client translates the same conversation/tool format
+  AISA_Agent already builds into Gemini's function-calling format and
+  back, so nothing else in the plugin needs to know or care which model
+  answered. Self-throttled to a few requests per minute and ~200/day --
+  deliberately under Google's published free-tier caps -- so it always
+  fails with a clear message instead of a raw error once used up, rather
+  than risking the underlying Cloud project tipping into metered billing.
+  Off by default; Claude remains the default chat model.
+* Fix a latent gap in the write-approval gate that would only have
+  surfaced with a second LLM provider: Gemini allows several function
+  calls in one response by default, unlike Claude's
+  disable_parallel_tool_use. The new client only ever surfaces the first
+  function call per turn, so the one-write-per-approval guarantee holds
+  regardless of which model is answering.
+
 = 0.8.6 =
 * Fix distributed-client updates never showing up. The plugin's repo was
   private, and the fallback GitHub token added in 0.8.4 for distributed

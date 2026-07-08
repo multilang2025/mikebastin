@@ -79,6 +79,7 @@ class AISA_Settings {
 			'unsplash_access_key' => isset( $input['unsplash_access_key'] ) ? trim( sanitize_text_field( $input['unsplash_access_key'] ) ) : '',
 			'ahrefs_api_key'      => isset( $input['ahrefs_api_key'] ) ? trim( sanitize_text_field( $input['ahrefs_api_key'] ) ) : '',
 			'gemini_api_key'      => isset( $input['gemini_api_key'] ) ? trim( sanitize_text_field( $input['gemini_api_key'] ) ) : '',
+			'use_gemini_chat'     => ! empty( $input['use_gemini_chat'] ),
 		);
 	}
 
@@ -94,6 +95,19 @@ class AISA_Settings {
 		}
 		$opts = get_option( self::OPTION_KEY, array() );
 		return $opts['api_key'] ?? '';
+	}
+
+	/**
+	 * Whether the chat should be driven by Gemini's free tier instead of
+	 * Claude. Opt-in, and only actually engaged if a Gemini key is also
+	 * configured -- otherwise a stray checkbox with no key would silently
+	 * break chat instead of falling back to Claude.
+	 *
+	 * @return bool
+	 */
+	public static function use_gemini_chat() {
+		$opts = get_option( self::OPTION_KEY, array() );
+		return ! empty( $opts['use_gemini_chat'] ) && AISA_Gemini_Client::is_configured();
 	}
 
 	/**
@@ -220,6 +234,19 @@ class AISA_Settings {
 							<?php endif; ?>
 							<p class="description">
 								<?php esc_html_e( 'Optional. From Google AI Studio / aistudio.google.com (Nano Banana Pro / Gemini 3 Pro Image). Powers original image generation from a text description. Each generated image is a billed, metered API call. Leave blank to disable.', 'ai-site-assistant' ); ?>
+							</p>
+						</td>
+					</tr>
+					<tr>
+						<th scope="row"><?php esc_html_e( 'Chat model', 'ai-site-assistant' ); ?></th>
+						<td>
+							<label>
+								<input type="checkbox" name="<?php echo esc_attr( self::OPTION_KEY ); ?>[use_gemini_chat]"
+									value="1" <?php checked( ! empty( $opts['use_gemini_chat'] ) ); ?> />
+								<?php esc_html_e( 'Use Gemini 2.5 Flash for chat instead of Claude', 'ai-site-assistant' ); ?>
+							</label>
+							<p class="description">
+								<?php esc_html_e( 'Uses the Gemini API key above and its free tier instead of billing your Claude key per use. Self-throttled to stay under the free tier’s rate limits (a few requests per minute, ~200/day), so it fails with a clear "try again later" message instead of an error once used up, rather than tipping into paid usage. Requires a Gemini API key above.', 'ai-site-assistant' ); ?>
 							</p>
 						</td>
 					</tr>
