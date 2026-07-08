@@ -3,7 +3,7 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
-Stable tag: 0.9.0
+Stable tag: 0.9.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -155,6 +155,18 @@ Tips:
   gate on more precisely.
 
 == Changelog ==
+= 0.9.1 =
+* Shift the plugin's primary interaction model from an in-admin chat box
+  to the MCP Connector: drive this site from an external AI client
+  (Claude, ChatGPT, Cursor) through your own hosted AISA Bridge instead.
+* Disable the in-admin chat workspace (the page stays in the admin menu,
+  showing a clear notice and a link to the MCP Connector, so it can be
+  re-enabled later without rebuilding it).
+* Redesign the MCP Connector page as a clean three-step connect flow
+  (install, connect the bridge, add the URL to your AI client) with a
+  status pill and per-client setup instructions, instead of the previous
+  chat-testing wizard.
+
 = 0.9.0 =
 * Add an opt-in "Use Gemini 2.5 Flash for chat instead of Claude" checkbox
   in Settings, for sites that would rather stay on Gemini's free tier than
