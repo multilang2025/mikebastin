@@ -3,7 +3,7 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
-Stable tag: 0.8.5
+Stable tag: 0.8.6
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -155,6 +155,18 @@ Tips:
   gate on more precisely.
 
 == Changelog ==
+= 0.8.6 =
+* Fix distributed-client updates never showing up. The plugin's repo was
+  private, and the fallback GitHub token added in 0.8.4 for distributed
+  zips was never actually substituted with a real value at build time --
+  every client site received the literal placeholder, meaning zero token
+  against a private repo's release API, meaning updates silently never
+  surfaced. The repo is now public (audited for anything sensitive in its
+  history first; nothing was found) so update checks and downloads need no
+  token at all, and the fallback-token logic has been removed rather than
+  wired up, since baking a shared credential into every distributed zip
+  was a real exposure the moment more than one client had a copy.
+
 = 0.8.5 =
 * Fix a silent JSON-encoding failure on reads: PHP's json_encode() returns
   false on invalid UTF-8, and every read tool (get_post, search_posts,
