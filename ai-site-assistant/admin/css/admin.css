@@ -148,61 +148,6 @@
 	font-weight: 700;
 }
 
-.aisa-wizard-intro {
-	text-align: left;
-	color: #3c434a;
-	font-size: 13px;
-	margin: 0.6rem 0 0;
-}
-
-.aisa-wizard {
-	max-width: 760px;
-	margin: 1.2rem auto 0;
-	padding: 0;
-	list-style: none;
-	text-align: left;
-}
-
-.aisa-wizard-step {
-	display: flex;
-	gap: 0.9rem;
-	margin-bottom: 1rem;
-}
-
-.aisa-wizard-num {
-	flex-shrink: 0;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	width: 28px;
-	height: 28px;
-	border-radius: 50%;
-	background: #2271b1;
-	color: #fff;
-	font-weight: 600;
-	font-size: 13px;
-}
-
-.aisa-wizard-card {
-	flex: 1;
-	background: #fff;
-	border: 1px solid #c3c4c7;
-	border-radius: 4px;
-	padding: 1rem 1.2rem;
-}
-
-.aisa-wizard-card h2 {
-	margin: 0 0 0.4rem;
-	font-size: 15px;
-}
-
-.aisa-wizard-card p {
-	margin: 0 0 0.6rem;
-	color: #3c434a;
-	font-size: 13px;
-	line-height: 1.5;
-}
-
 .aisa-copy-row {
 	display: flex;
 	align-items: flex-start;
@@ -223,4 +168,162 @@
 
 .aisa-copy-btn {
 	flex-shrink: 0;
+}
+
+.aisa-disabled-notice {
+	max-width: 480px;
+	margin: 1.5rem auto 0;
+	text-align: center;
+	background: #f6f7f7;
+	border: 1px solid #dcdcde;
+	border-radius: 10px;
+	padding: 1.4rem 1.6rem;
+}
+
+.aisa-disabled-notice p {
+	color: #3c434a;
+	font-size: 13px;
+	margin: 0 0 0.8rem;
+}
+
+.aisa-mcp-hero {
+	max-width: 640px;
+	margin: 1.6rem auto 0;
+	text-align: center;
+}
+
+.aisa-status-pill {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.4rem;
+	background: #edfaef;
+	color: #1a7f37;
+	border: 1px solid #b4e6bd;
+	border-radius: 999px;
+	padding: 0.25rem 0.8rem;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.aisa-status-pill::before {
+	content: "";
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	background: #1a7f37;
+}
+
+.aisa-mcp-hero h1 {
+	font-size: 26px;
+	font-weight: 700;
+	margin: 0.8rem 0 0.4rem;
+	color: #1d2327;
+}
+
+.aisa-mcp-hero p {
+	color: #646970;
+	font-size: 14px;
+	max-width: 480px;
+	margin: 0 auto;
+	line-height: 1.5;
+}
+
+.aisa-checklist {
+	max-width: 640px;
+	margin: 1.8rem auto 0;
+	padding: 0;
+	list-style: none;
+	text-align: left;
+	background: #f6f7f7;
+	border: 1px solid #e2e4e7;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.aisa-checklist-step {
+	display: flex;
+	align-items: flex-start;
+	gap: 0.9rem;
+	padding: 1rem 1.2rem;
+	border-bottom: 1px solid #e2e4e7;
+}
+
+.aisa-checklist-step:last-child {
+	border-bottom: none;
+}
+
+.aisa-checklist-step[data-active="0"] {
+	opacity: 0.55;
+	pointer-events: none;
+}
+
+.aisa-step-marker {
+	flex-shrink: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 26px;
+	height: 26px;
+	border-radius: 50%;
+	background: #dcdcde;
+	color: #50575e;
+	font-weight: 600;
+	font-size: 12px;
+	margin-top: 0.1rem;
+}
+
+.aisa-checklist-step[data-done="1"] .aisa-step-marker {
+	background: #1a7f37;
+	color: #fff;
+}
+
+.aisa-checklist-body {
+	flex: 1;
+	min-width: 0;
+}
+
+.aisa-checklist-body h2 {
+	margin: 0 0 0.2rem;
+	font-size: 14px;
+	font-weight: 600;
+	color: #1d2327;
+}
+
+.aisa-checklist-body p {
+	margin: 0 0 0.6rem;
+	color: #646970;
+	font-size: 13px;
+	line-height: 1.5;
+}
+
+.aisa-inline-link {
+	font-size: 12px;
+	margin-top: 0.3rem;
+}
+
+.aisa-inline-link summary {
+	color: #2271b1;
+	cursor: pointer;
+}
+
+.aisa-inline-link ul {
+	margin: 0.5rem 0 0;
+	padding-left: 1.2rem;
+	color: #3c434a;
+}
+
+.aisa-mcp-footer {
+	text-align: center;
+	margin: 2rem auto 0;
+	color: #8c8f94;
+	font-size: 12px;
+}
+
+.aisa-mcp-footer a {
+	color: #8c8f94;
+	text-decoration: none;
+}
+
+.aisa-mcp-footer a:hover {
+	text-decoration: underline;
 }

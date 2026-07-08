@@ -246,7 +246,7 @@ class AISA_Settings {
 								<?php esc_html_e( 'Use Gemini 2.5 Flash for chat instead of Claude', 'ai-site-assistant' ); ?>
 							</label>
 							<p class="description">
-								<?php esc_html_e( 'Uses the Gemini API key above and its free tier instead of billing your Claude key per use. Self-throttled to stay under the free tier’s rate limits (a few requests per minute, ~200/day), so it fails with a clear "try again later" message instead of an error once used up, rather than tipping into paid usage. Requires a Gemini API key above.', 'ai-site-assistant' ); ?>
+								<?php esc_html_e( 'Uses the Gemini API key above and its free tier instead of billing your Claude key per use. Self-throttled to stay under the free tier’s rate limits (a few requests per minute, ~200/day), so it fails with a clear "try again later" message instead of an error once used up, rather than tipping into paid usage. Requires a Gemini API key above. Note: the in-admin chat workspace is currently disabled (see the Workspace page) -- this setting has no visible effect until it’s re-enabled.', 'ai-site-assistant' ); ?>
 							</p>
 						</td>
 					</tr>
@@ -259,6 +259,13 @@ class AISA_Settings {
 
 	/**
 	 * Render the chat page.
+	 *
+	 * The in-admin chat workspace is disabled for now while the plugin's
+	 * focus shifts to the MCP Connector (driving the site from an external
+	 * AI client instead of a chat box embedded in wp-admin) -- deliberately
+	 * left in the admin menu, with the actual #aisa-app chat markup removed
+	 * rather than the page itself, so this can be re-enabled later without
+	 * rebuilding it. See render_mcp_connector() for the active path.
 	 */
 	public static function render_chat() {
 		?>
@@ -271,76 +278,58 @@ class AISA_Settings {
 					</h1>
 					<?php self::render_open_connector_button(); ?>
 				</div>
-				<ul class="aisa-features">
-					<li><?php esc_html_e( 'Draft, edit, publish &amp; fast-edit content by chat', 'ai-site-assistant' ); ?></li>
-					<li><?php esc_html_e( 'SEO: meta &amp; schema, EEAT/readability, Ahrefs intelligence', 'ai-site-assistant' ); ?></li>
-					<li><?php esc_html_e( 'Media: stock photos, AI image generation, CSV/Excel-grounded advice', 'ai-site-assistant' ); ?></li>
-					<li><?php esc_html_e( 'Theme sandbox, write-approval gate &amp; full audit log', 'ai-site-assistant' ); ?></li>
-				</ul>
 			</div>
-			<div id="aisa-app">
-				<div id="aisa-log" class="aisa-log" aria-live="polite"></div>
-				<span id="aisa-attachment-badge" class="aisa-attachment-badge" hidden></span>
-				<form id="aisa-form" class="aisa-form">
-					<button type="button" id="aisa-attach-btn" class="button" title="<?php esc_attr_e( 'Attach a CSV or Excel file', 'ai-site-assistant' ); ?>">📎</button>
-					<input type="file" id="aisa-file-input" accept=".csv,.xls,.xlsx" hidden />
-					<textarea id="aisa-input" rows="3"
-						placeholder="<?php esc_attr_e( 'e.g. Draft a blog post about our new opening hours', 'ai-site-assistant' ); ?>"></textarea>
-					<div class="aisa-form-actions">
-						<button type="submit" id="aisa-send-btn" class="button button-primary"><?php esc_html_e( 'Send', 'ai-site-assistant' ); ?></button>
-						<button type="button" id="aisa-generate-btn" class="button"><?php esc_html_e( 'Generate Images', 'ai-site-assistant' ); ?></button>
-					</div>
-				</form>
+			<div class="aisa-disabled-notice">
+				<p><strong><?php esc_html_e( 'The in-admin chat workspace is temporarily disabled.', 'ai-site-assistant' ); ?></strong></p>
+				<p>
+					<?php esc_html_e( 'This site is now driven from an external AI app (Claude, ChatGPT, Cursor) through the MCP Connector instead of a chat box here.', 'ai-site-assistant' ); ?>
+				</p>
+				<a href="<?php echo esc_url( admin_url( 'admin.php?page=aisa-mcp-connector' ) ); ?>" class="button button-primary">
+					<?php esc_html_e( 'Open MCP Connector', 'ai-site-assistant' ); ?>
+				</a>
 			</div>
 		</div>
 		<?php
 	}
 
 	/**
-	 * Render the MCP Connector onboarding page: a plain-language setup
-	 * wizard for the local MCP server plus an embedded agent chat gateway
-	 * as the final "test it" step. Reuses the same #aisa-app markup/ids as
-	 * the standalone workspace so admin/js/app.js runs unmodified — its
-	 * attach/generate-image wiring already no-ops when those optional
-	 * elements aren't present on the page.
+	 * Render the MCP Connector page: connect this site's AISA Bridge to an
+	 * external AI client (Claude, ChatGPT, Cursor). No chat is embedded
+	 * here -- the AI client itself is where the conversation happens; this
+	 * page only ever creates the WordPress Application Password, registers
+	 * it with the bridge, and hands back the MCP server URL to paste
+	 * elsewhere.
 	 */
 	public static function render_mcp_connector() {
 		?>
 		<div class="wrap">
-			<div id="aisa-header">
-				<div class="aisa-title-row">
-					<h1 class="aisa-title">
-						<?php esc_html_e( 'AISA Connector', 'ai-site-assistant' ); ?>
-						<span class="aisa-tagline"><?php esc_html_e( 'Link up your AI assistant app', 'ai-site-assistant' ); ?></span>
-					</h1>
-					<a href="<?php echo esc_url( admin_url( 'admin.php?page=aisa-chat' ) ); ?>" class="button button-secondary">
-						<?php esc_html_e( 'Back to Workspace', 'ai-site-assistant' ); ?>
-					</a>
-				</div>
-				<p class="aisa-wizard-intro">
-					<?php esc_html_e( 'Want to drive this site from Claude Code, Claude Desktop, or another AI app on your computer? Follow the steps below to securely connect your site via the AISA Bridge.', 'ai-site-assistant' ); ?>
+			<div class="aisa-mcp-hero">
+				<span class="aisa-status-pill"><?php esc_html_e( 'AISA Connector Active', 'ai-site-assistant' ); ?></span>
+				<h1><?php esc_html_e( 'Let your AI run this site.', 'ai-site-assistant' ); ?></h1>
+				<p>
+					<?php esc_html_e( 'Connect this site to Claude, ChatGPT, Cursor, or any MCP-compatible AI client so it can draft, edit, and manage content directly — no chat box needed here.', 'ai-site-assistant' ); ?>
 				</p>
 			</div>
 
-			<ol class="aisa-wizard">
-				<li class="aisa-wizard-step">
-					<span class="aisa-wizard-num">1</span>
-					<div class="aisa-wizard-card">
-						<h2><?php esc_html_e( 'Generate your Secure Connection URL', 'ai-site-assistant' ); ?></h2>
-						<p><?php esc_html_e( 'This will automatically create a secure WordPress Application Password and register it with the PHP MCP Bridge. Your credentials are never exposed in the browser.', 'ai-site-assistant' ); ?></p>
+			<ol class="aisa-checklist">
+				<li class="aisa-checklist-step" data-done="1">
+					<span class="aisa-step-marker">&#10003;</span>
+					<div class="aisa-checklist-body">
+						<h2><?php esc_html_e( 'Install AISA Connector', 'ai-site-assistant' ); ?></h2>
+						<p><?php esc_html_e( "You're here — the plugin is active on this site.", 'ai-site-assistant' ); ?></p>
+					</div>
+				</li>
+				<li class="aisa-checklist-step">
+					<span class="aisa-step-marker">2</span>
+					<div class="aisa-checklist-body">
+						<h2><?php esc_html_e( 'Connect the AISA Bridge', 'ai-site-assistant' ); ?></h2>
+						<p><?php esc_html_e( 'Paste the URL of your hosted AISA Bridge (a small PHP app you upload to your own hosting, e.g. Hostinger). This creates a WordPress Application Password automatically and registers it with the bridge — your credentials never touch the browser.', 'ai-site-assistant' ); ?></p>
 						<table class="form-table" role="presentation">
 							<tr>
-								<th scope="row" style="width:150px;"><label for="aisa_bridge_url"><?php esc_html_e( 'Bridge Server URL', 'ai-site-assistant' ); ?></label></th>
 								<td>
-									<input id="aisa_bridge_url" type="url" class="regular-text" value="https://example-bridge.com/php-mcp-bridge" />
-									<p class="description"><?php esc_html_e( 'The URL of your hosted PHP MCP bridge.', 'ai-site-assistant' ); ?></p>
-								</td>
-							</tr>
-							<tr>
-								<th scope="row"></th>
-								<td>
+									<input id="aisa_bridge_url" type="url" class="regular-text" placeholder="https://your-domain.com/php-mcp-bridge" />
 									<button type="button" class="button button-primary" id="aisa_generate_bridge_btn">
-										<?php esc_html_e( 'Generate Connection URL', 'ai-site-assistant' ); ?>
+										<?php esc_html_e( 'Connect', 'ai-site-assistant' ); ?>
 									</button>
 									<span class="spinner" id="aisa_bridge_spinner" style="float: none;"></span>
 								</td>
@@ -348,56 +337,53 @@ class AISA_Settings {
 						</table>
 					</div>
 				</li>
-				<li class="aisa-wizard-step" id="aisa_step_2" style="opacity: 0.5; pointer-events: none;">
-					<span class="aisa-wizard-num">2</span>
-					<div class="aisa-wizard-card">
-						<h2><?php esc_html_e( 'Connect it to your AI app', 'ai-site-assistant' ); ?></h2>
-						<p><?php esc_html_e( 'Paste this URL into Claude Desktop or Claude Web to connect your site.', 'ai-site-assistant' ); ?></p>
+				<li class="aisa-checklist-step" id="aisa_step_3" data-active="0">
+					<span class="aisa-step-marker">3</span>
+					<div class="aisa-checklist-body">
+						<h2><?php esc_html_e( 'Add it to your AI client', 'ai-site-assistant' ); ?></h2>
+						<p><?php esc_html_e( 'Paste this MCP server URL into Claude Desktop, Claude Code, Cursor, or ChatGPT.', 'ai-site-assistant' ); ?></p>
 						<div class="aisa-copy-row">
-							<code class="aisa-copy-field" id="aisa_connection_url">...</code>
+							<code class="aisa-copy-field" id="aisa_connection_url">&#8212;</code>
 							<button type="button" class="button aisa-copy-btn" id="aisa_copy_url_btn" data-copy-target="aisa_connection_url"><?php esc_html_e( 'Copy', 'ai-site-assistant' ); ?></button>
 						</div>
-					</div>
-				</li>
-				<li class="aisa-wizard-step">
-					<span class="aisa-wizard-num">3</span>
-					<div class="aisa-wizard-card">
-						<h2><?php esc_html_e( 'Say hello', 'ai-site-assistant' ); ?></h2>
-						<p><?php esc_html_e( 'Try it right here first — this talks to your site the same way the connector will.', 'ai-site-assistant' ); ?></p>
-						<div id="aisa-app">
-							<div id="aisa-log" class="aisa-log" aria-live="polite"></div>
-							<form id="aisa-form" class="aisa-form">
-								<textarea id="aisa-input" rows="3"
-									placeholder="<?php esc_attr_e( 'e.g. Say hello and list my 5 most recent posts', 'ai-site-assistant' ); ?>"></textarea>
-								<div class="aisa-form-actions">
-									<button type="submit" id="aisa-send-btn" class="button button-primary"><?php esc_html_e( 'Send', 'ai-site-assistant' ); ?></button>
-								</div>
-							</form>
-						</div>
+						<details class="aisa-inline-link">
+							<summary><?php esc_html_e( 'See per-client setup instructions', 'ai-site-assistant' ); ?></summary>
+							<ul>
+								<li><?php esc_html_e( 'Claude Desktop / Claude Code: Settings → Connectors → Add custom connector, paste the URL.', 'ai-site-assistant' ); ?></li>
+								<li><?php esc_html_e( 'Cursor: Settings → MCP → Add new MCP server, paste the URL as an SSE/HTTP server.', 'ai-site-assistant' ); ?></li>
+								<li><?php esc_html_e( 'ChatGPT: Settings → Connectors → Add connector (custom), paste the URL.', 'ai-site-assistant' ); ?></li>
+							</ul>
+						</details>
 					</div>
 				</li>
 			</ol>
+
+			<p class="aisa-mcp-footer">
+				<?php esc_html_e( 'AISA Connector', 'ai-site-assistant' ); ?> &middot;
+				<a href="https://github.com/multilang2025/mikebastin" target="_blank" rel="noopener noreferrer"><?php esc_html_e( 'Documentation', 'ai-site-assistant' ); ?></a>
+			</p>
 		</div>
 		<script>
 		document.addEventListener('DOMContentLoaded', function() {
 			var btn = document.getElementById('aisa_generate_bridge_btn');
 			var spinner = document.getElementById('aisa_bridge_spinner');
-			var step2 = document.getElementById('aisa_step_2');
+			var step2 = btn ? btn.closest('.aisa-checklist-step') : null;
+			var step3 = document.getElementById('aisa_step_3');
 			var urlText = document.getElementById('aisa_connection_url');
 			var copyBtn = document.getElementById('aisa_copy_url_btn');
-			
+
 			if (!btn) return;
-			
+
 			btn.addEventListener('click', function() {
 				var bridgeUrl = document.getElementById('aisa_bridge_url').value;
 				if (!bridgeUrl) {
 					alert('Please enter a Bridge Server URL.');
 					return;
 				}
-				
+
 				spinner.classList.add('is-active');
 				btn.disabled = true;
-				
+
 				fetch( '<?php echo esc_url_raw( rest_url( 'aisa/v1/bridge/connect' ) ); ?>', {
 					method: 'POST',
 					headers: {
@@ -410,11 +396,11 @@ class AISA_Settings {
 				.then(data => {
 					spinner.classList.remove('is-active');
 					btn.disabled = false;
-					
+
 					if (data.connection_url) {
 						urlText.textContent = data.connection_url;
-						step2.style.opacity = '1';
-						step2.style.pointerEvents = 'auto';
+						if (step2) { step2.dataset.done = '1'; }
+						step3.dataset.active = '1';
 					} else {
 						alert('Error: ' + (data.message || 'Unknown error occurred.'));
 					}

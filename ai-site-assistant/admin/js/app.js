@@ -246,10 +246,17 @@
 		runChain( false, 0, attachment );
 	}
 
-	form.addEventListener( 'submit', function ( e ) {
-		e.preventDefault();
-		submitMessage( input.value.trim() );
-	} );
+	// The chat workspace is currently disabled (see class-aisa-settings.php
+	// render_chat()) and the MCP Connector page no longer embeds a chat --
+	// neither #aisa-form nor #aisa-input exist on any admin page right now.
+	// Guarded rather than removed so re-enabling either page's markup in
+	// the future needs no JS changes.
+	if ( form && input ) {
+		form.addEventListener( 'submit', function ( e ) {
+			e.preventDefault();
+			submitMessage( input.value.trim() );
+		} );
+	}
 
 	if ( generateBtn ) {
 		// Hidden entirely when no Gemini key is configured (see class-aisa-settings.php).
