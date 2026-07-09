@@ -317,11 +317,7 @@ class AISA_Settings {
 		$saved          = self::get_bridge_connection();
 		$is_connected   = ! empty( $saved['connection_url'] );
 		$connection_url = $saved['connection_url'];
-
-		// Pre-fill the bridge URL input: saved value if we have one, otherwise
-		// derive from the site's own domain (the most common deployment layout:
-		// php-mcp-bridge/ uploaded to the same Hostinger account as WordPress).
-		$default_bridge_url = $saved['bridge_url'] ?: untrailingslashit( home_url() ) . '/php-mcp-bridge';
+		$bridge_url     = $saved['bridge_url'];
 		?>
 		<div class="wrap">
 			<div class="aisa-mcp-hero">
@@ -344,21 +340,15 @@ class AISA_Settings {
 					<span class="aisa-step-marker"><?php echo $is_connected ? '&#10003;' : '2'; ?></span>
 					<div class="aisa-checklist-body">
 						<h2><?php esc_html_e( 'Connect the AISA Bridge', 'ai-site-assistant' ); ?></h2>
-						<?php if ( $is_connected ) : ?>
-							<p>
-								<?php esc_html_e( 'Connected. To reconnect with a different URL, enter it below and click Connect again.', 'ai-site-assistant' ); ?>
-							</p>
-						<?php else : ?>
-							<p><?php esc_html_e( 'Your bridge URL is pre-filled from your site domain — just click Connect. This creates a WordPress Application Password automatically and registers it with the bridge.', 'ai-site-assistant' ); ?></p>
-						<?php endif; ?>
+						<p><?php esc_html_e( 'Paste the URL of your hosted AISA Bridge (a small PHP app you upload to your own hosting, e.g. Hostinger). This creates a WordPress Application Password automatically and registers it with the bridge — your credentials never touch the browser.', 'ai-site-assistant' ); ?></p>
 						<table class="form-table" role="presentation">
 							<tr>
 								<td>
 									<input id="aisa_bridge_url" type="url" class="regular-text"
-										value="<?php echo esc_attr( $default_bridge_url ); ?>"
+										value="<?php echo esc_attr( $bridge_url ); ?>"
 										placeholder="https://your-domain.com/php-mcp-bridge" />
 									<button type="button" class="button button-primary" id="aisa_generate_bridge_btn">
-										<?php echo $is_connected ? esc_html__( 'Reconnect', 'ai-site-assistant' ) : esc_html__( 'Connect', 'ai-site-assistant' ); ?>
+										<?php esc_html_e( 'Connect', 'ai-site-assistant' ); ?>
 									</button>
 									<span class="spinner" id="aisa_bridge_spinner" style="float: none;"></span>
 								</td>
@@ -399,12 +389,11 @@ class AISA_Settings {
 			var step2 = btn ? btn.closest('.aisa-checklist-step') : null;
 			var step3 = document.getElementById('aisa_step_3');
 			var urlText = document.getElementById('aisa_connection_url');
-			var copyBtn = document.getElementById('aisa_copy_url_btn');
 
 			if (!btn) return;
 
 			btn.addEventListener('click', function() {
-				var bridgeUrl = document.getElementById('aisa_bridge_url').value.trim();
+				var bridgeUrl = document.getElementById('aisa_bridge_url').value;
 				if (!bridgeUrl) {
 					alert('Please enter a Bridge Server URL.');
 					return;
@@ -421,55 +410,26 @@ class AISA_Settings {
 					},
 					body: JSON.stringify({ bridge_url: bridgeUrl })
 				})
-				.then(function(response) { return response.json(); })
-				.then(function(data) {
+				.then(response => response.json())
+				.then(data => {
 					spinner.classList.remove('is-active');
 					btn.disabled = false;
 
 					if (data.connection_url) {
 						urlText.textContent = data.connection_url;
-						if (step2) {
-							step2.dataset.done = '1';
-							step2.querySelector('.aisa-step-marker').textContent = '✓';
-						}
-						btn.textContent = '<?php echo esc_js( __( 'Reconnect', 'ai-site-assistant' ) ); ?>';
-						step3.removeAttribute('data-active');
+						if (step2) { step2.dataset.done = '1'; }
+						step3.dataset.active = '1';
 					} else {
 						alert('Error: ' + (data.message || 'Unknown error occurred.'));
 					}
 				})
-				.catch(function(err) {
+				.catch(err => {
 					spinner.classList.remove('is-active');
 					btn.disabled = false;
 					alert('Network error. See console for details.');
 					console.error(err);
 				});
 			});
-
-			if (copyBtn) {
-				copyBtn.addEventListener('click', function() {
-					var text = urlText.textContent;
-					if (!navigator.clipboard) {
-						var range = document.createRange();
-						range.selectNodeContents(urlText);
-						window.getSelection().removeAllRanges();
-						window.getSelection().addRange(range);
-						copyBtn.textContent = 'Selected — press Ctrl+C';
-						setTimeout(function() { copyBtn.textContent = '<?php echo esc_js( __( 'Copy', 'ai-site-assistant' ) ); ?>'; }, 2000);
-						return;
-					}
-					navigator.clipboard.writeText(text).then(function() {
-						var originalText = copyBtn.textContent;
-						copyBtn.textContent = 'Copied!';
-						setTimeout(function() { copyBtn.textContent = originalText; }, 2000);
-					}).catch(function() {
-						var range = document.createRange();
-						range.selectNodeContents(urlText);
-						window.getSelection().removeAllRanges();
-						window.getSelection().addRange(range);
-					});
-				});
-			}
 		});
 		</script>
 		<?php

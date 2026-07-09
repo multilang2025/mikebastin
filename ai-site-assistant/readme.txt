@@ -3,7 +3,7 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
-Stable tag: 0.9.3
+Stable tag: 0.9.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -155,6 +155,9 @@ Tips:
   gate on more precisely.
 
 == Changelog ==
+= 0.9.4 =
+* Fix MCP Connector: restore original Connect flow broken in 0.9.3; persist connection URL across page reloads without altering the bridge URL input logic or duplicating copy-button handler.
+
 = 0.9.3 =
 * MCP Connector: bridge URL is now pre-filled from the site domain so users just click Connect with no typing. Connection URL and state persist across page reloads — returning users see step 3 ready immediately without reconnecting.
 
