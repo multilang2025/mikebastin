@@ -3,7 +3,7 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
-Stable tag: 0.9.2
+Stable tag: 0.9.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -155,6 +155,9 @@ Tips:
   gate on more precisely.
 
 == Changelog ==
+= 0.9.3 =
+* MCP Connector: bridge URL is now pre-filled from the site domain so users just click Connect with no typing. Connection URL and state persist across page reloads — returning users see step 3 ready immediately without reconnecting.
+
 = 0.9.2 =
 * Fix the MCP Connector checklist showing doubled step numbers (e.g.
   "2. 2", "3. 3") -- wp-admin's own core CSS applied native list markers
