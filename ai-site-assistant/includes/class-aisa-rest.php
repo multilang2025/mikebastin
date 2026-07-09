@@ -253,6 +253,17 @@ class AISA_REST {
 			return new WP_Error( 'aisa_bridge_invalid', __( 'Invalid response from the bridge server.', 'ai-site-assistant' ), array( 'status' => 500 ) );
 		}
 
+		// Persist the connection so the MCP Connector page can restore state on
+		// page load without re-running the connect flow on every visit.
+		update_option(
+			'aisa_bridge_connection',
+			array(
+				'bridge_url'     => esc_url_raw( $bridge_url ),
+				'connection_url' => esc_url_raw( $data['connection_url'] ),
+			),
+			false
+		);
+
 		return rest_ensure_response(
 			array(
 				'connection_url' => $data['connection_url'],
