@@ -311,7 +311,7 @@ class AISA_Settings {
 				</p>
 			</div>
 
-			<ol class="aisa-checklist">
+			<ul class="aisa-checklist">
 				<li class="aisa-checklist-step" data-done="1">
 					<span class="aisa-step-marker">&#10003;</span>
 					<div class="aisa-checklist-body">
@@ -356,7 +356,7 @@ class AISA_Settings {
 						</details>
 					</div>
 				</li>
-			</ol>
+			</ul>
 
 			<p class="aisa-mcp-footer">
 				<?php esc_html_e( 'AISA Connector', 'ai-site-assistant' ); ?> &middot;
