@@ -228,11 +228,18 @@
 	line-height: 1.5;
 }
 
+/* .wrap-qualified: wp-admin's own core CSS targets ".wrap ol"/".wrap ul"
+   with equal-or-higher specificity than a single class selector, which was
+   silently winning over list-style: none below and showing native 1./2./3.
+   markers stacked next to our own step-number circles. */
+.wrap .aisa-checklist {
+	list-style: none;
+}
+
 .aisa-checklist {
 	max-width: 640px;
 	margin: 1.8rem auto 0;
 	padding: 0;
-	list-style: none;
 	text-align: left;
 	background: #f6f7f7;
 	border: 1px solid #e2e4e7;
