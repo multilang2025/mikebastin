@@ -3,9 +3,13 @@
 // Served at /.well-known/oauth-protected-resource (routed via .htaccess).
 // Points OAuth clients to this bridge's authorization server metadata.
 
+require_once __DIR__ . '/db.php';
+
 header('Content-Type: application/json');
 header('Access-Control-Allow-Origin: *');
 header('Cache-Control: no-store');
+
+blog('resource', 'HIT', ['ip' => $_SERVER['REMOTE_ADDR'] ?? '?', 'ua' => substr($_SERVER['HTTP_USER_AGENT'] ?? '', 0, 40)]);
 
 $proto      = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? 'https' : 'http';
 $host       = $_SERVER['HTTP_HOST'];
