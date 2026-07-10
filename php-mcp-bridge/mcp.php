@@ -21,7 +21,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
 }
 
 $db = get_db();
-blog('mcp', 'REQUEST', [
+blog('mcp', 'REQUEST v3', [
     'method'  => $_SERVER['REQUEST_METHOD'],
     'ip'      => $_SERVER['REMOTE_ADDR'] ?? '?',
     'auth'    => isset($_SERVER['HTTP_AUTHORIZATION']) ? 'bearer' : (isset($_GET['token']) ? 'token' : 'none'),
