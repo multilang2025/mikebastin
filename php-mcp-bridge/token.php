@@ -7,7 +7,8 @@ require_once __DIR__ . '/db.php';
 header('Content-Type: application/json');
 header('Cache-Control: no-store');
 header('Access-Control-Allow-Origin: *');
-header('Access-Control-Allow-Headers: Authorization, Content-Type');
+$req_headers = $_SERVER['HTTP_ACCESS_CONTROL_REQUEST_HEADERS'] ?? '';
+header('Access-Control-Allow-Headers: ' . ($req_headers ?: 'Authorization, Content-Type'));
 header('Access-Control-Allow-Methods: POST, OPTIONS');
 
 if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {

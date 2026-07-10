@@ -6,10 +6,14 @@
 require_once __DIR__ . '/db.php';
 require_once __DIR__ . '/mcp-router.php';
 
-// CORS — Claude.ai web sends cross-origin requests.
+// CORS — Claude.ai web sends cross-origin requests. Reflect any requested headers
+// so that MCP-Protocol-Version and other client headers are never blocked.
 header('Access-Control-Allow-Origin: *');
-header('Access-Control-Allow-Headers: Authorization, Content-Type, Accept');
-header('Access-Control-Allow-Methods: GET, POST, OPTIONS');
+header('Access-Control-Allow-Methods: GET, POST, OPTIONS, DELETE');
+header('Access-Control-Expose-Headers: *');
+$req_headers = $_SERVER['HTTP_ACCESS_CONTROL_REQUEST_HEADERS'] ?? '';
+header('Access-Control-Allow-Headers: ' . ($req_headers
+    ?: 'Authorization, Content-Type, Accept, MCP-Protocol-Version, mcp-protocol-version, mcp-session-id'));
 
 if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
     http_response_code(204);
