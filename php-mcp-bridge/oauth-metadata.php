@@ -18,6 +18,7 @@ echo json_encode([
     'issuer'                                 => $base,
     'authorization_endpoint'                 => $base . '/authorize.php',
     'token_endpoint'                         => $base . '/token.php',
+    'registration_endpoint'                  => $base . '/oauth-register.php',
     'response_types_supported'               => ['code'],
     'grant_types_supported'                  => ['authorization_code'],
     'code_challenge_methods_supported'       => ['S256'],

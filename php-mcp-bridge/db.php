@@ -45,6 +45,12 @@ function get_db() {
             created_at INTEGER NOT NULL,
             expires_at INTEGER NOT NULL
         );
+
+        CREATE TABLE IF NOT EXISTS oauth_clients (
+            client_id TEXT PRIMARY KEY,
+            redirect_uris TEXT NOT NULL,
+            created_at INTEGER NOT NULL
+        );
     ");
     
     return $db;
