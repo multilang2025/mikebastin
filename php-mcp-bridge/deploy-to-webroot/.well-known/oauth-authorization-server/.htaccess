@@ -1,0 +1,10 @@
+# Serve the extensionless metadata file as JSON, and make sure WordPress
+# (or any front controller) never intercepts it.
+<Files "php-mcp-bridge">
+    ForceType application/json
+    <IfModule mod_headers.c>
+        Header set Access-Control-Allow-Origin "*"
+        Header set Cache-Control "no-store"
+    </IfModule>
+    Require all granted
+</Files>
