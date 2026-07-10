@@ -156,7 +156,7 @@ Tips:
 
 == Changelog ==
 = 0.9.5 =
-* Release prep for the current main branch; bump plugin version to 0.9.5.
+* Add OAuth 2.0 support to php-mcp-bridge so Claude.ai web Connectors work (authorize.php, token.php, .well-known discovery, PKCE). MCP Connector page now shows two URLs: OAuth URL for Claude.ai web and token URL for Claude Desktop/Code.
 
 = 0.9.4 =
 * Fix MCP Connector: restore original Connect flow broken in 0.9.3; persist connection URL across page reloads without altering the bridge URL input logic or duplicating copy-button handler.
