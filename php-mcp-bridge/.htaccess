@@ -1,9 +1,3 @@
-RewriteEngine On
-
-# Route OAuth discovery URLs to their PHP handlers.
-RewriteRule ^\.well-known/oauth-authorization-server$ oauth-metadata.php [L,QSA]
-RewriteRule ^\.well-known/oauth-protected-resource$   oauth-resource.php  [L,QSA]
-
 # Block direct HTTP access to the SQLite database.
 <Files "bridge.sqlite">
     Require all denied
