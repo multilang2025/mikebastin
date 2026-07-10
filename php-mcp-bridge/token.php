@@ -33,6 +33,14 @@ $code          = $input['code'] ?? '';
 $redirect_uri  = $input['redirect_uri'] ?? '';
 $code_verifier = $input['code_verifier'] ?? '';
 
+blog('token', 'REQUEST', [
+    'ip'           => $_SERVER['REMOTE_ADDR'] ?? '?',
+    'grant_type'   => $grant_type,
+    'has_code'     => !empty($code),
+    'has_verifier' => !empty($code_verifier),
+    'has_redir'    => !empty($redirect_uri),
+]);
+
 if ($grant_type !== 'authorization_code') {
     http_response_code(400);
     echo json_encode(['error' => 'unsupported_grant_type']);

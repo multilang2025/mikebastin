@@ -37,6 +37,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET' && ($_GET['debug'] ?? '') === '1') {
     exit;
 }
 
+blog('register', 'REQUEST', ['method' => $_SERVER['REQUEST_METHOD'], 'ip' => $_SERVER['REMOTE_ADDR'] ?? '?']);
+
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     http_response_code(405);
     echo json_encode(['error' => 'method_not_allowed']);
@@ -59,6 +61,7 @@ try {
     $db->prepare('INSERT INTO oauth_clients (client_id, redirect_uris, created_at) VALUES (?, ?, ?)')
        ->execute([$client_id, json_encode($redirect_uris), time()]);
 
+    blog('register', '201 client_id issued', ['client_id' => $client_id, 'redirect_uris' => $redirect_uris]);
     http_response_code(201);
     echo json_encode([
         'client_id'                  => $client_id,

@@ -10,6 +10,15 @@ $state                 = $_GET['state'] ?? '';
 $code_challenge        = $_GET['code_challenge'] ?? '';
 $code_challenge_method = $_GET['code_challenge_method'] ?? 'S256';
 
+blog('authorize', 'REQUEST', [
+    'method'     => $_SERVER['REQUEST_METHOD'],
+    'ip'         => $_SERVER['REMOTE_ADDR'] ?? '?',
+    'client_id'  => $client_id,
+    'has_redir'  => !empty($redirect_uri),
+    'has_cc'     => !empty($code_challenge),
+    'redir'      => substr($redirect_uri, 0, 100),
+]);
+
 if (!$redirect_uri || !$code_challenge) {
     http_response_code(400);
     echo 'Missing required OAuth parameters.';

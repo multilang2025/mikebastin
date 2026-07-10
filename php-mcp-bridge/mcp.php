@@ -20,7 +20,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
     exit;
 }
 
-$db   = get_db();
+$db = get_db();
+blog('mcp', 'REQUEST', [
+    'method'  => $_SERVER['REQUEST_METHOD'],
+    'ip'      => $_SERVER['REMOTE_ADDR'] ?? '?',
+    'auth'    => isset($_SERVER['HTTP_AUTHORIZATION']) ? 'bearer' : (isset($_GET['token']) ? 'token' : 'none'),
+    'ua'      => substr($_SERVER['HTTP_USER_AGENT'] ?? '', 0, 80),
+]);
 $site = null;
 $site_token_for_url = null; // internal site token, used in the SSE message endpoint URL
 
@@ -60,6 +66,7 @@ if (!$site) {
     $rel_path   = rtrim(str_replace($doc_root, '', $script_dir), '/');
     $base       = $proto . '://' . $host . $rel_path;
 
+    blog('mcp', '401 no-auth', ['base' => $base]);
     http_response_code(401);
     header('Content-Type: application/json');
     header('WWW-Authenticate: Bearer realm="AISA Bridge", resource_metadata="' . $base . '/.well-known/oauth-protected-resource"');
@@ -71,6 +78,8 @@ if (!$site) {
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     header('Content-Type: application/json');
     $payload  = file_get_contents('php://input');
+    $req_body = json_decode($payload, true);
+    blog('mcp', 'POST authenticated', ['site' => $site['wp_url'] ?? '?', 'method' => $req_body['method'] ?? '?']);
     $response = handle_mcp_request($site, $payload);
     echo json_encode($response);
     exit;
