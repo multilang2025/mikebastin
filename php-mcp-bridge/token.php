@@ -55,7 +55,8 @@ if (!$row) {
     exit;
 }
 
-if ($row['redirect_uri'] !== $redirect_uri) {
+// Compare after stripping trailing slashes to avoid mismatch on trivial differences.
+if (rtrim($row['redirect_uri'], '/') !== rtrim($redirect_uri, '/')) {
     http_response_code(400);
     echo json_encode(['error' => 'invalid_grant', 'error_description' => 'redirect_uri mismatch']);
     exit;

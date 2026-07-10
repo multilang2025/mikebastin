@@ -21,6 +21,15 @@ $site = $db->query('SELECT wp_url FROM sites LIMIT 1')->fetch();
 $site_domain = $site ? (parse_url($site['wp_url'], PHP_URL_HOST) ?: $site['wp_url']) : 'your WordPress site';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    // Read params from POST (hidden fields) so they survive the form submit.
+    $redirect_uri          = $_POST['redirect_uri']          ?? $redirect_uri;
+    $state                 = $_POST['state']                 ?? $state;
+    $code_challenge        = $_POST['code_challenge']        ?? $code_challenge;
+    $code_challenge_method = $_POST['code_challenge_method'] ?? $code_challenge_method;
+
+    // Append query params safely whether redirect_uri already has a '?' or not.
+    $sep = strpos($redirect_uri, '?') !== false ? '&' : '?';
+
     if (isset($_POST['allow'])) {
         $code    = bin2hex(random_bytes(16));
         $expires = time() + 300; // 5 min
@@ -28,9 +37,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $stmt = $db->prepare('INSERT INTO oauth_codes (code, redirect_uri, code_challenge, code_challenge_method, state, expires_at) VALUES (?, ?, ?, ?, ?, ?)');
         $stmt->execute([$code, $redirect_uri, $code_challenge, $code_challenge_method, $state, $expires]);
 
-        header('Location: ' . $redirect_uri . '?' . http_build_query(['code' => $code, 'state' => $state]));
+        header('Location: ' . $redirect_uri . $sep . http_build_query(['code' => $code, 'state' => $state]));
     } else {
-        header('Location: ' . $redirect_uri . '?' . http_build_query(['error' => 'access_denied', 'state' => $state]));
+        header('Location: ' . $redirect_uri . $sep . http_build_query(['error' => 'access_denied', 'state' => $state]));
     }
     exit;
 }
