@@ -31,17 +31,22 @@ if (empty($redirect_uris)) {
     exit;
 }
 
-$db        = get_db();
-$client_id = bin2hex(random_bytes(16));
+try {
+    $db        = get_db();
+    $client_id = bin2hex(random_bytes(16));
 
-$db->prepare('INSERT INTO oauth_clients (client_id, redirect_uris, created_at) VALUES (?, ?, ?)')
-   ->execute([$client_id, json_encode($redirect_uris), time()]);
+    $db->prepare('INSERT INTO oauth_clients (client_id, redirect_uris, created_at) VALUES (?, ?, ?)')
+       ->execute([$client_id, json_encode($redirect_uris), time()]);
 
-http_response_code(201);
-echo json_encode([
-    'client_id'                  => $client_id,
-    'redirect_uris'              => $redirect_uris,
-    'token_endpoint_auth_method' => 'none',
-    'grant_types'                => ['authorization_code'],
-    'response_types'             => ['code'],
-], JSON_UNESCAPED_SLASHES);
+    http_response_code(201);
+    echo json_encode([
+        'client_id'                  => $client_id,
+        'redirect_uris'              => $redirect_uris,
+        'token_endpoint_auth_method' => 'none',
+        'grant_types'                => ['authorization_code'],
+        'response_types'             => ['code'],
+    ], JSON_UNESCAPED_SLASHES);
+} catch (Throwable $e) {
+    http_response_code(500);
+    echo json_encode(['error' => 'server_error', 'error_description' => $e->getMessage()]);
+}
