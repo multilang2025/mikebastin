@@ -3,7 +3,7 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
-Stable tag: 0.9.5
+Stable tag: 0.9.6
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -155,6 +155,9 @@ Tips:
   gate on more precisely.
 
 == Changelog ==
+= 0.9.6 =
+* Add OAuth dynamic client registration (RFC 7591) so Claude.ai web can register itself and complete the connector sign-in flow.
+
 = 0.9.5 =
 * Add OAuth 2.0 support to php-mcp-bridge so Claude.ai web Connectors work (authorize.php, token.php, .well-known discovery, PKCE). MCP Connector page now shows two URLs: OAuth URL for Claude.ai web and token URL for Claude Desktop/Code.
 
