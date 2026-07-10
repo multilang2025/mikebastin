@@ -9,7 +9,7 @@ header('Cache-Control: no-store');
 
 $proto      = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? 'https' : 'http';
 $host       = $_SERVER['HTTP_HOST'];
-$script_dir = dirname($_SERVER['SCRIPT_FILENAME']);
+$script_dir = dirname(__FILE__);
 $doc_root   = rtrim($_SERVER['DOCUMENT_ROOT'], '/\\');
 $rel_path   = rtrim(str_replace($doc_root, '', $script_dir), '/\\');
 $base       = $proto . '://' . $host . str_replace('\\', '/', $rel_path);
