@@ -318,6 +318,9 @@ class AISA_Settings {
 		$is_connected   = ! empty( $saved['connection_url'] );
 		$connection_url = $saved['connection_url'];
 		$bridge_url     = $saved['bridge_url'];
+		// OAuth URL: base mcp.php with no token — Claude.ai web uses this and
+		// handles auth via the OAuth flow triggered by the 401 response.
+		$oauth_url = $bridge_url ? untrailingslashit( $bridge_url ) . '/mcp.php' : '';
 		?>
 		<div class="wrap">
 			<div class="aisa-mcp-hero">
@@ -346,7 +349,7 @@ class AISA_Settings {
 								<td>
 									<input id="aisa_bridge_url" type="url" class="regular-text"
 										value="<?php echo esc_attr( $bridge_url ); ?>"
-										placeholder="https://your-domain.com/php-mcp-bridge" />
+										placeholder="https://www.betranslated.us/php-mcp-bridge" />
 									<button type="button" class="button button-primary" id="aisa_generate_bridge_btn">
 										<?php esc_html_e( 'Connect', 'ai-site-assistant' ); ?>
 									</button>
@@ -360,17 +363,22 @@ class AISA_Settings {
 					<span class="aisa-step-marker">3</span>
 					<div class="aisa-checklist-body">
 						<h2><?php esc_html_e( 'Add it to your AI client', 'ai-site-assistant' ); ?></h2>
-						<p><?php esc_html_e( 'Paste this MCP server URL into Claude Desktop, Claude Code, Cursor, or ChatGPT.', 'ai-site-assistant' ); ?></p>
+						<p><strong><?php esc_html_e( 'Claude.ai (browser) — paste this, then approve when redirected:', 'ai-site-assistant' ); ?></strong></p>
+						<div class="aisa-copy-row" style="margin-bottom:.8rem">
+							<code class="aisa-copy-field" id="aisa_oauth_url"><?php echo $is_connected ? esc_html( $oauth_url ) : '&#8212;'; ?></code>
+							<button type="button" class="button aisa-copy-btn" data-copy-target="aisa_oauth_url"><?php esc_html_e( 'Copy', 'ai-site-assistant' ); ?></button>
+						</div>
+						<p><strong><?php esc_html_e( 'Claude Desktop / Code / Cursor — token URL:', 'ai-site-assistant' ); ?></strong></p>
 						<div class="aisa-copy-row">
 							<code class="aisa-copy-field" id="aisa_connection_url"><?php echo $is_connected ? esc_html( $connection_url ) : '&#8212;'; ?></code>
 							<button type="button" class="button aisa-copy-btn" id="aisa_copy_url_btn" data-copy-target="aisa_connection_url"><?php esc_html_e( 'Copy', 'ai-site-assistant' ); ?></button>
 						</div>
 						<details class="aisa-inline-link">
-							<summary><?php esc_html_e( 'See per-client setup instructions', 'ai-site-assistant' ); ?></summary>
+							<summary><?php esc_html_e( 'Per-client setup instructions', 'ai-site-assistant' ); ?></summary>
 							<ul>
-								<li><?php esc_html_e( 'Claude Desktop / Claude Code: Settings → Connectors → Add custom connector, paste the URL.', 'ai-site-assistant' ); ?></li>
-								<li><?php esc_html_e( 'Cursor: Settings → MCP → Add new MCP server, paste the URL as an SSE/HTTP server.', 'ai-site-assistant' ); ?></li>
-								<li><?php esc_html_e( 'ChatGPT: Settings → Connectors → Add connector (custom), paste the URL.', 'ai-site-assistant' ); ?></li>
+								<li><?php esc_html_e( 'Claude.ai web: Settings → Connectors → Add connector, paste the OAuth URL, click Connect — you\'ll be redirected to approve access.', 'ai-site-assistant' ); ?></li>
+								<li><?php esc_html_e( 'Claude Desktop / Claude Code: Settings → Connectors → Add custom connector, paste the token URL.', 'ai-site-assistant' ); ?></li>
+								<li><?php esc_html_e( 'Cursor: Settings → MCP → Add new MCP server, paste the token URL as an SSE/HTTP server.', 'ai-site-assistant' ); ?></li>
 							</ul>
 						</details>
 					</div>
@@ -387,8 +395,9 @@ class AISA_Settings {
 			var btn = document.getElementById('aisa_generate_bridge_btn');
 			var spinner = document.getElementById('aisa_bridge_spinner');
 			var step2 = btn ? btn.closest('.aisa-checklist-step') : null;
-			var step3 = document.getElementById('aisa_step_3');
-			var urlText = document.getElementById('aisa_connection_url');
+			var step3     = document.getElementById('aisa_step_3');
+			var urlText   = document.getElementById('aisa_connection_url');
+			var oauthText = document.getElementById('aisa_oauth_url');
 
 			if (!btn) return;
 
@@ -417,6 +426,9 @@ class AISA_Settings {
 
 					if (data.connection_url) {
 						urlText.textContent = data.connection_url;
+						if (oauthText) {
+							oauthText.textContent = bridgeUrl.replace(/\/$/, '') + '/mcp.php';
+						}
 						if (step2) { step2.dataset.done = '1'; }
 						step3.dataset.active = '1';
 					} else {

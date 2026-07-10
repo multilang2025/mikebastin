@@ -18,7 +18,7 @@ function get_db() {
             wp_app_password TEXT NOT NULL,
             created_at DATETIME DEFAULT CURRENT_TIMESTAMP
         );
-        
+
         CREATE TABLE IF NOT EXISTS requests (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             token TEXT NOT NULL,
@@ -27,6 +27,23 @@ function get_db() {
             status TEXT DEFAULT 'pending',
             response TEXT,
             created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+        );
+
+        CREATE TABLE IF NOT EXISTS oauth_codes (
+            code TEXT PRIMARY KEY,
+            redirect_uri TEXT NOT NULL,
+            code_challenge TEXT NOT NULL,
+            code_challenge_method TEXT NOT NULL DEFAULT 'S256',
+            state TEXT,
+            expires_at INTEGER NOT NULL,
+            used INTEGER NOT NULL DEFAULT 0
+        );
+
+        CREATE TABLE IF NOT EXISTS oauth_tokens (
+            access_token TEXT PRIMARY KEY,
+            site_token TEXT NOT NULL,
+            created_at INTEGER NOT NULL,
+            expires_at INTEGER NOT NULL
         );
     ");
     
