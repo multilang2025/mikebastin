@@ -49,12 +49,27 @@ if ($url_token) {
         $stmt   = $db->prepare('SELECT site_token FROM oauth_tokens WHERE access_token = ? AND expires_at > ?');
         $stmt->execute([$bearer, time()]);
         $row = $stmt->fetch();
+
+        // Diagnostic: what token came in vs. what's stored.
+        $all      = $db->query('SELECT access_token, expires_at FROM oauth_tokens')->fetchAll();
+        $stored   = array_map(function ($t) {
+            return substr($t['access_token'], 0, 12) . '… exp+' . ($t['expires_at'] - time()) . 's';
+        }, $all);
+        blog('mcp', 'bearer lookup', [
+            'recv'    => substr($bearer, 0, 12) . '…(' . strlen($bearer) . ')',
+            'matched' => $row ? 'YES' : 'NO',
+            'in_db'   => $stored,
+            'sites'   => (int) $db->query('SELECT COUNT(*) c FROM sites')->fetch()['c'],
+        ]);
+
         if ($row) {
             $stmt2 = $db->prepare('SELECT * FROM sites WHERE token = ?');
             $stmt2->execute([$row['site_token']]);
             $site               = $stmt2->fetch();
             $site_token_for_url = $row['site_token'];
         }
+    } else {
+        blog('mcp', 'no bearer match', ['auth_len' => strlen($auth_header), 'auth_head' => substr($auth_header, 0, 20)]);
     }
 }
 
