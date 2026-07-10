@@ -38,11 +38,25 @@ if ($url_token) {
     $site = $stmt->fetch();
     $site_token_for_url = $url_token;
 } else {
-    $auth_header = $_SERVER['HTTP_AUTHORIZATION'] ?? '';
-    // Apache sometimes hides Authorization; fall back to getallheaders().
+    // Recover the Authorization header from every place shared hosts stash it.
+    $auth_header = $_SERVER['HTTP_AUTHORIZATION']
+        ?? $_SERVER['REDIRECT_HTTP_AUTHORIZATION']
+        ?? '';
     if (!$auth_header && function_exists('getallheaders')) {
-        $hdrs        = getallheaders();
-        $auth_header = $hdrs['Authorization'] ?? $hdrs['authorization'] ?? '';
+        foreach (getallheaders() as $k => $v) {
+            if (strcasecmp($k, 'Authorization') === 0) {
+                $auth_header = $v;
+                break;
+            }
+        }
+    }
+    if (!$auth_header && function_exists('apache_request_headers')) {
+        foreach (apache_request_headers() as $k => $v) {
+            if (strcasecmp($k, 'Authorization') === 0) {
+                $auth_header = $v;
+                break;
+            }
+        }
     }
     if (preg_match('/^Bearer\s+(.+)$/i', $auth_header, $m)) {
         $bearer = trim($m[1]);
@@ -69,7 +83,18 @@ if ($url_token) {
             $site_token_for_url = $row['site_token'];
         }
     } else {
-        blog('mcp', 'no bearer match', ['auth_len' => strlen($auth_header), 'auth_head' => substr($auth_header, 0, 20)]);
+        $server_auth = [];
+        foreach ($_SERVER as $k => $v) {
+            if (stripos($k, 'auth') !== false) {
+                $server_auth[$k] = substr((string) $v, 0, 20);
+            }
+        }
+        $hdr_keys = function_exists('getallheaders') ? array_keys(getallheaders()) : [];
+        blog('mcp', 'no bearer match', [
+            'auth_len'    => strlen($auth_header),
+            'server_auth' => $server_auth,
+            'hdr_keys'    => $hdr_keys,
+        ]);
     }
 }
 
