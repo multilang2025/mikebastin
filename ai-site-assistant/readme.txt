@@ -3,7 +3,7 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
-Stable tag: 0.9.6
+Stable tag: 0.9.7
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -155,6 +155,10 @@ Tips:
   gate on more precisely.
 
 == Changelog ==
+= 0.9.7 =
+* Fix OAuth redirect separator bug in authorize.php so Claude.ai web callback works correctly.
+* Fix redirect_uri comparison in token.php (trim trailing slashes) to prevent false mismatch.
+
 = 0.9.6 =
 * Add OAuth dynamic client registration (RFC 7591) so Claude.ai web can register itself and complete the connector sign-in flow.
 
