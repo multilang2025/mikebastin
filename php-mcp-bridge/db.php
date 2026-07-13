@@ -42,6 +42,7 @@ function get_db() {
 
         CREATE TABLE IF NOT EXISTS oauth_tokens (
             access_token TEXT PRIMARY KEY,
+            refresh_token TEXT,
             site_token TEXT NOT NULL,
             created_at INTEGER NOT NULL,
             expires_at INTEGER NOT NULL
@@ -54,12 +55,19 @@ function get_db() {
         );
     ");
 
-    // Migration: add site_token to oauth_codes on databases created before
-    // multi-tenant support. Harmless no-op once the column exists.
-    try {
-        $db->exec('ALTER TABLE oauth_codes ADD COLUMN site_token TEXT');
-    } catch (Throwable $e) {
-        // Column already exists — ignore.
+    // Migrations for databases created before newer features. Each ALTER is a
+    // harmless no-op once its column exists.
+    foreach (
+        [
+            'ALTER TABLE oauth_codes ADD COLUMN site_token TEXT',
+            'ALTER TABLE oauth_tokens ADD COLUMN refresh_token TEXT',
+        ] as $migration
+    ) {
+        try {
+            $db->exec($migration);
+        } catch (Throwable $e) {
+            // Column already exists — ignore.
+        }
     }
 
     return $db;

@@ -33,6 +33,46 @@ $code          = $input['code'] ?? '';
 $redirect_uri  = $input['redirect_uri'] ?? '';
 $code_verifier = $input['code_verifier'] ?? '';
 
+$db = get_db();
+
+// Mint an access+refresh pair bound to a site and emit the token response.
+function aisa_issue_tokens($db, $site_token) {
+    $access_token  = bin2hex(random_bytes(32));
+    $refresh_token = bin2hex(random_bytes(32));
+    $expires_in    = 86400 * 30;
+    $db->prepare('INSERT INTO oauth_tokens (access_token, refresh_token, site_token, created_at, expires_at) VALUES (?, ?, ?, ?, ?)')
+       ->execute([$access_token, $refresh_token, $site_token, time(), time() + $expires_in]);
+
+    echo json_encode([
+        'access_token'  => $access_token,
+        'token_type'    => 'bearer',
+        'expires_in'    => $expires_in,
+        'refresh_token' => $refresh_token,
+    ]);
+}
+
+// --- Refresh grant: swap a refresh token for a fresh access+refresh pair. ---
+if ($grant_type === 'refresh_token') {
+    $refresh = $input['refresh_token'] ?? '';
+    if (!$refresh) {
+        http_response_code(400);
+        echo json_encode(['error' => 'invalid_request', 'error_description' => 'Missing refresh_token']);
+        exit;
+    }
+    $stmt = $db->prepare('SELECT site_token FROM oauth_tokens WHERE refresh_token = ?');
+    $stmt->execute([$refresh]);
+    $trow = $stmt->fetch();
+    if (!$trow) {
+        http_response_code(400);
+        echo json_encode(['error' => 'invalid_grant', 'error_description' => 'Invalid refresh token']);
+        exit;
+    }
+    // Rotate: retire the old pair, issue a new one for the same site.
+    $db->prepare('DELETE FROM oauth_tokens WHERE refresh_token = ?')->execute([$refresh]);
+    aisa_issue_tokens($db, $trow['site_token']);
+    exit;
+}
+
 if ($grant_type !== 'authorization_code') {
     http_response_code(400);
     echo json_encode(['error' => 'unsupported_grant_type']);
@@ -45,7 +85,6 @@ if (!$code || !$redirect_uri || !$code_verifier) {
     exit;
 }
 
-$db   = get_db();
 $stmt = $db->prepare('SELECT * FROM oauth_codes WHERE code = ? AND used = 0 AND expires_at > ?');
 $stmt->execute([$code, time()]);
 $row = $stmt->fetch();
@@ -98,14 +137,5 @@ if (!$site) {
     exit;
 }
 
-// Issue access token valid for 30 days, bound to the chosen site.
-$access_token = bin2hex(random_bytes(32));
-$expires_at   = time() + 86400 * 30;
-$db->prepare('INSERT INTO oauth_tokens (access_token, site_token, created_at, expires_at) VALUES (?, ?, ?, ?)')
-   ->execute([$access_token, $site['token'], time(), $expires_at]);
-
-echo json_encode([
-    'access_token' => $access_token,
-    'token_type'   => 'bearer',
-    'expires_in'   => 86400 * 30,
-]);
+// Issue an access+refresh pair valid for 30 days, bound to the chosen site.
+aisa_issue_tokens($db, $site['token']);
