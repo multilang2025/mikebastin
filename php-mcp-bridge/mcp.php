@@ -116,11 +116,18 @@ if (!$site) {
 
 // --- Streamable HTTP (Claude.ai web): POST with JSON-RPC body ---
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    header('Content-Type: application/json');
     $payload  = file_get_contents('php://input');
     $req_body = json_decode($payload, true);
     blog('mcp', 'POST authenticated', ['site' => $site['wp_url'] ?? '?', 'method' => $req_body['method'] ?? '?']);
     $response = handle_mcp_request($site, $payload);
+
+    // Notifications (and any no-id request) get no body — acknowledge with 202.
+    if ($response === null) {
+        http_response_code(202);
+        exit;
+    }
+
+    header('Content-Type: application/json');
     echo json_encode($response);
     exit;
 }
