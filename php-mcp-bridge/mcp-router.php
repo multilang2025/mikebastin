@@ -31,7 +31,7 @@ function handle_mcp_request($site, $payload) {
 
     if ($method === 'tools/list') {
         $response['result'] = [
-            'tools' => get_remote_tools($site)
+            'tools' => normalize_tools_for_mcp(get_remote_tools($site))
         ];
         return $response;
     }
@@ -71,6 +71,68 @@ function get_remote_tools($site) {
         // Older plugin (404) or transient error — use the static fallback.
     }
     return get_tools_schema();
+}
+
+// Claude.ai's remote MCP validator requires JSON Schema objects such as
+// inputSchema.properties to be encoded as {} rather than []. WordPress returns
+// the catalogue as JSON, then this bridge decodes it with associative arrays,
+// so empty objects become empty arrays unless we restore them before output.
+function normalize_tools_for_mcp($tools) {
+    if (!is_array($tools)) {
+        return [];
+    }
+
+    foreach ($tools as &$tool) {
+        $schema = $tool['inputSchema'] ?? $tool['input_schema'] ?? ['type' => 'object'];
+        $tool['inputSchema'] = normalize_json_schema_for_mcp($schema);
+        unset($tool['input_schema']);
+    }
+    unset($tool);
+
+    return $tools;
+}
+
+function normalize_json_schema_for_mcp($schema) {
+    if ($schema instanceof stdClass) {
+        $schema = (array) $schema;
+    }
+
+    if (!is_array($schema)) {
+        return $schema;
+    }
+
+    foreach ($schema as $key => $value) {
+        if ('properties' === $key) {
+            if (empty($value)) {
+                $schema[$key] = (object) [];
+                continue;
+            }
+
+            $props = [];
+            foreach ((array) $value as $prop_name => $prop_schema) {
+                $props[$prop_name] = normalize_json_schema_for_mcp($prop_schema);
+            }
+            $schema[$key] = (object) $props;
+            continue;
+        }
+
+        if (in_array($key, ['items', 'additionalProperties', 'oneOf', 'anyOf', 'allOf'], true)) {
+            if (is_array($value)) {
+                $schema[$key] = normalize_json_schema_for_mcp($value);
+            }
+            continue;
+        }
+
+        if (is_array($value) || $value instanceof stdClass) {
+            $schema[$key] = normalize_json_schema_for_mcp($value);
+        }
+    }
+
+    if (($schema['type'] ?? null) === 'object' && !isset($schema['properties'])) {
+        $schema['properties'] = (object) [];
+    }
+
+    return $schema;
 }
 
 function execute_tool($site, $name, $args) {
