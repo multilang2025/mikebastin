@@ -35,6 +35,7 @@ function get_db() {
             code_challenge TEXT NOT NULL,
             code_challenge_method TEXT NOT NULL DEFAULT 'S256',
             state TEXT,
+            site_token TEXT,
             expires_at INTEGER NOT NULL,
             used INTEGER NOT NULL DEFAULT 0
         );
@@ -52,7 +53,15 @@ function get_db() {
             created_at INTEGER NOT NULL
         );
     ");
-    
+
+    // Migration: add site_token to oauth_codes on databases created before
+    // multi-tenant support. Harmless no-op once the column exists.
+    try {
+        $db->exec('ALTER TABLE oauth_codes ADD COLUMN site_token TEXT');
+    } catch (Throwable $e) {
+        // Column already exists — ignore.
+    }
+
     return $db;
 }
 

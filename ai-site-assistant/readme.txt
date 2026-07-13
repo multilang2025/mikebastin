@@ -3,7 +3,7 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
-Stable tag: 0.9.8
+Stable tag: 0.9.9
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -155,6 +155,10 @@ Tips:
   gate on more precisely.
 
 == Changelog ==
+= 0.9.9 =
+* Multi-tenant MCP bridge: the OAuth "Allow" screen now lets you pick which registered WordPress site to connect, so one bridge can serve many sites over Claude.ai web.
+* Expose the full tool set through the connector: add a /aisa/v1/tools catalogue endpoint and widen the remote allowlist so Claude.ai can use every tool the plugin offers (Ahrefs, SEO, WP-CLI, theme, abilities) except the internal get_site_context.
+
 = 0.9.8 =
 * Fix OAuth discovery on shared hosting: create physical .well-known/ directory files instead of relying on .htaccess rewrites, which fail on LiteSpeed/Nginx stacks.
 

@@ -64,6 +64,18 @@ class AISA_REST {
 			)
 		);
 
+		// Tool catalogue for the MCP bridge — lets the connector advertise every
+		// remotely-reachable tool (and its schema) without hardcoding the list.
+		register_rest_route(
+			'aisa/v1',
+			'/tools',
+			array(
+				'methods'             => 'GET',
+				'callback'            => array( __CLASS__, 'list_tools' ),
+				'permission_callback' => array( __CLASS__, 'can_use' ),
+			)
+		);
+
 		register_rest_route(
 			'aisa/v1',
 			'/bridge/connect',
@@ -167,16 +179,7 @@ class AISA_REST {
 		$tool  = sanitize_key( $request->get_param( 'tool' ) );
 		$input = (array) $request->get_param( 'input' );
 
-		$allowed = array(
-			'generate_image',
-			'upload_media',
-			'search_images',
-			'replace_in_post',
-			'append_to_post',
-			'fact_check',
-			'get_page_html',
-			'load_skill',
-		);
+		$allowed = self::remote_tool_names();
 
 		if ( ! in_array( $tool, $allowed, true ) ) {
 			return new WP_Error(
@@ -193,6 +196,52 @@ class AISA_REST {
 		$result = AISA_Tools::dispatch( $tool, $input );
 
 		return rest_ensure_response( $result );
+	}
+
+	/**
+	 * Tools that must never be reachable remotely (via the MCP bridge), even
+	 * though the in-admin chat may use them. get_site_context embeds the system
+	 * prompt, so it stays internal.
+	 *
+	 * @var string[]
+	 */
+	const INTERNAL_ONLY_TOOLS = array( 'get_site_context' );
+
+	/**
+	 * Names of every tool reachable through the remote endpoints, derived from
+	 * the single source of truth (AISA_Tools::definitions) minus internal-only.
+	 *
+	 * @return string[]
+	 */
+	private static function remote_tool_names() {
+		$names = array();
+		foreach ( AISA_Tools::definitions() as $tool ) {
+			if ( ! in_array( $tool['name'], self::INTERNAL_ONLY_TOOLS, true ) ) {
+				$names[] = $tool['name'];
+			}
+		}
+		return $names;
+	}
+
+	/**
+	 * Return the remotely-reachable tool catalogue in MCP format
+	 * (name, description, inputSchema) for the bridge's tools/list.
+	 *
+	 * @return WP_REST_Response
+	 */
+	public static function list_tools() {
+		$tools = array();
+		foreach ( AISA_Tools::definitions() as $tool ) {
+			if ( in_array( $tool['name'], self::INTERNAL_ONLY_TOOLS, true ) ) {
+				continue;
+			}
+			$tools[] = array(
+				'name'        => $tool['name'],
+				'description' => $tool['description'],
+				'inputSchema' => isset( $tool['input_schema'] ) ? $tool['input_schema'] : array( 'type' => 'object' ),
+			);
+		}
+		return rest_ensure_response( $tools );
 	}
 
 	/**

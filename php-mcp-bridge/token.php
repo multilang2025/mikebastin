@@ -78,15 +78,27 @@ if (!hash_equals($expected, $row['code_challenge'])) {
 // Mark code used.
 $db->prepare('UPDATE oauth_codes SET used = 1 WHERE code = ?')->execute([$code]);
 
-// Get the registered site (single-tenant: first entry).
-$site = $db->query('SELECT token FROM sites LIMIT 1')->fetch();
+// Resolve the site chosen during authorization. Fall back to the only site
+// if the code predates multi-tenant support (no site_token stored).
+$site_token = $row['site_token'] ?? '';
+if (!$site_token) {
+    $only = $db->query('SELECT token FROM sites LIMIT 1')->fetch();
+    $site_token = $only['token'] ?? '';
+}
+
+$site = null;
+if ($site_token) {
+    $stmt = $db->prepare('SELECT token FROM sites WHERE token = ?');
+    $stmt->execute([$site_token]);
+    $site = $stmt->fetch();
+}
 if (!$site) {
     http_response_code(500);
     echo json_encode(['error' => 'server_error', 'error_description' => 'No site registered with this bridge']);
     exit;
 }
 
-// Issue access token valid for 30 days.
+// Issue access token valid for 30 days, bound to the chosen site.
 $access_token = bin2hex(random_bytes(32));
 $expires_at   = time() + 86400 * 30;
 $db->prepare('INSERT INTO oauth_tokens (access_token, site_token, created_at, expires_at) VALUES (?, ?, ?, ?)')
