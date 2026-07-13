@@ -115,10 +115,25 @@
 	margin: 0;
 }
 
-.aisa-title-row .aisa-open-connector,
 .aisa-title-row .button-secondary {
 	flex-shrink: 0;
 	align-self: center;
+}
+
+/* Third-party admin notices (other plugins' update nags, mail-delivery
+   warnings, etc.) clutter the onboarding screen and aren't something this
+   plugin can fix from its own code -- hide them only on AISA's own admin
+   pages. This plugin itself never uses admin_notices, so nothing of ours
+   is hidden by this rule. */
+body.toplevel_page_aisa-chat .notice,
+body.toplevel_page_aisa-chat .updated,
+body.toplevel_page_aisa-chat .error,
+body.toplevel_page_aisa-chat .update-nag,
+body.aisa-chat_page_aisa-mcp-connector .notice,
+body.aisa-chat_page_aisa-mcp-connector .updated,
+body.aisa-chat_page_aisa-mcp-connector .error,
+body.aisa-chat_page_aisa-mcp-connector .update-nag {
+	display: none !important;
 }
 
 .aisa-features {
@@ -157,13 +172,25 @@
 .aisa-copy-field {
 	display: block;
 	flex: 1;
-	white-space: pre-wrap;
-	background: #f6f7f7;
+	min-width: 0;
+	background: #fff;
 	border: 1px solid #dcdcde;
-	border-radius: 3px;
+	border-radius: 6px;
 	padding: 0.5rem 0.7rem;
 	font-size: 12px;
 	line-height: 1.6;
+	font-family: Consolas, Monaco, monospace;
+	color: #1d2327;
+}
+
+.aisa-copy-field:read-only {
+	background: #fff;
+	cursor: text;
+}
+
+.aisa-copy-field::placeholder {
+	color: #a7aaad;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
 .aisa-copy-btn {
@@ -186,10 +213,60 @@
 	margin: 0 0 0.8rem;
 }
 
-.aisa-mcp-hero {
+.aisa-onboarding {
+	max-width: 640px;
+	margin: 0 auto;
+}
+
+/* Header: logo + plugin meta on the left, connection-state pill on the
+   right. A flex row achieves the "pill anchored top-right of the brand
+   row" layout semantically, without resorting to position: absolute. */
+.aisa-onboard-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 1rem;
 	max-width: 640px;
 	margin: 1.6rem auto 0;
-	text-align: center;
+}
+
+.aisa-brand {
+	display: flex;
+	align-items: center;
+	gap: 0.6rem;
+}
+
+.aisa-brand-logo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 34px;
+	height: 34px;
+	border-radius: 9px;
+	background: #1d2327;
+	color: #fff;
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: 0.02em;
+	flex-shrink: 0;
+}
+
+.aisa-brand-meta {
+	display: flex;
+	flex-direction: column;
+	line-height: 1.3;
+	text-align: left;
+}
+
+.aisa-brand-name {
+	font-size: 14px;
+	font-weight: 600;
+	color: #1d2327;
+}
+
+.aisa-brand-by {
+	font-size: 12px;
+	color: #8c8f94;
 }
 
 .aisa-status-pill {
@@ -203,6 +280,7 @@
 	padding: 0.25rem 0.8rem;
 	font-size: 12px;
 	font-weight: 600;
+	flex-shrink: 0;
 }
 
 .aisa-status-pill::before {
@@ -213,11 +291,28 @@
 	background: #1a7f37;
 }
 
+.aisa-status-pill[data-connected="0"] {
+	background: #f6f7f7;
+	color: #646970;
+	border-color: #dcdcde;
+}
+
+.aisa-status-pill[data-connected="0"]::before {
+	background: #a7aaad;
+}
+
+.aisa-mcp-hero {
+	max-width: 640px;
+	margin: 1.6rem auto 0;
+	text-align: center;
+}
+
 .aisa-mcp-hero h1 {
-	font-size: 26px;
+	font-size: 28px;
 	font-weight: 700;
-	margin: 0.8rem 0 0.4rem;
+	margin: 0 0 0.4rem;
 	color: #1d2327;
+	letter-spacing: -0.01em;
 }
 
 .aisa-mcp-hero p {
@@ -226,6 +321,26 @@
 	max-width: 480px;
 	margin: 0 auto;
 	line-height: 1.5;
+}
+
+.aisa-cta-pill {
+	display: inline-block;
+	margin-top: 1.2rem;
+	padding: 0.7rem 1.8rem;
+	background: #1d2327;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 600;
+	text-decoration: none;
+	border-radius: 999px;
+	transition: opacity 0.15s;
+}
+
+.aisa-cta-pill:hover,
+.aisa-cta-pill:focus {
+	background: #1d2327;
+	color: #fff;
+	opacity: 0.85;
 }
 
 /* .wrap-qualified: wp-admin's own core CSS targets ".wrap ol"/".wrap ul"
@@ -241,9 +356,9 @@
 	margin: 1.8rem auto 0;
 	padding: 0;
 	text-align: left;
-	background: #f6f7f7;
+	background: #efefef;
 	border: 1px solid #e2e4e7;
-	border-radius: 10px;
+	border-radius: 14px;
 	overflow: hidden;
 }
 
@@ -317,6 +432,29 @@
 	margin: 0.5rem 0 0;
 	padding-left: 1.2rem;
 	color: #3c434a;
+}
+
+.aisa-pair-confirm {
+	display: flex;
+	align-items: center;
+	gap: 0.4rem;
+	margin: 0.9rem 0 0;
+	color: #1a7f37;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.aisa-pair-check {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	background: #1a7f37;
+	color: #fff;
+	font-size: 10px;
+	flex-shrink: 0;
 }
 
 .aisa-mcp-footer {
