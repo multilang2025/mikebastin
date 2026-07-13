@@ -210,7 +210,10 @@ function wp_fetch($site, $path, $method = 'GET', $data = []) {
     // tools/call try/catch in handle_mcp_request() turn it into a clean
     // tool error the model can react to instead.
     curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 10);
-    curl_setopt($ch, CURLOPT_TIMEOUT, 45);
+    // 90s, not 45s: seo_competitor_report makes up to ~4 sequential Ahrefs
+    // API calls inside a single WP request before responding, so the
+    // combined tool needs more headroom than a single-lookup tool would.
+    curl_setopt($ch, CURLOPT_TIMEOUT, 90);
 
     $headers = [
         'Authorization: Basic ' . $auth,
