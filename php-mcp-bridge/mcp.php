@@ -21,12 +21,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
 }
 
 $db = get_db();
-blog('mcp', 'REQUEST v3', [
-    'method'  => $_SERVER['REQUEST_METHOD'],
-    'ip'      => $_SERVER['REMOTE_ADDR'] ?? '?',
-    'auth'    => isset($_SERVER['HTTP_AUTHORIZATION']) ? 'bearer' : (isset($_GET['token']) ? 'token' : 'none'),
-    'ua'      => substr($_SERVER['HTTP_USER_AGENT'] ?? '', 0, 80),
-]);
 $site = null;
 $site_token_for_url = null; // internal site token, used in the SSE message endpoint URL
 
@@ -64,37 +58,12 @@ if ($url_token) {
         $stmt->execute([$bearer, time()]);
         $row = $stmt->fetch();
 
-        // Diagnostic: what token came in vs. what's stored.
-        $all      = $db->query('SELECT access_token, expires_at FROM oauth_tokens')->fetchAll();
-        $stored   = array_map(function ($t) {
-            return substr($t['access_token'], 0, 12) . '… exp+' . ($t['expires_at'] - time()) . 's';
-        }, $all);
-        blog('mcp', 'bearer lookup', [
-            'recv'    => substr($bearer, 0, 12) . '…(' . strlen($bearer) . ')',
-            'matched' => $row ? 'YES' : 'NO',
-            'in_db'   => $stored,
-            'sites'   => (int) $db->query('SELECT COUNT(*) c FROM sites')->fetch()['c'],
-        ]);
-
         if ($row) {
             $stmt2 = $db->prepare('SELECT * FROM sites WHERE token = ?');
             $stmt2->execute([$row['site_token']]);
             $site               = $stmt2->fetch();
             $site_token_for_url = $row['site_token'];
         }
-    } else {
-        $server_auth = [];
-        foreach ($_SERVER as $k => $v) {
-            if (stripos($k, 'auth') !== false) {
-                $server_auth[$k] = substr((string) $v, 0, 20);
-            }
-        }
-        $hdr_keys = function_exists('getallheaders') ? array_keys(getallheaders()) : [];
-        blog('mcp', 'no bearer match', [
-            'auth_len'    => strlen($auth_header),
-            'server_auth' => $server_auth,
-            'hdr_keys'    => $hdr_keys,
-        ]);
     }
 }
 
@@ -106,7 +75,6 @@ if (!$site) {
     $rel_path   = rtrim(str_replace($doc_root, '', $script_dir), '/');
     $base       = $proto . '://' . $host . $rel_path;
 
-    blog('mcp', '401 no-auth', ['base' => $base]);
     http_response_code(401);
     header('Content-Type: application/json');
     header('WWW-Authenticate: Bearer realm="AISA Bridge", resource_metadata="' . $base . '/.well-known/oauth-protected-resource"');
@@ -117,8 +85,6 @@ if (!$site) {
 // --- Streamable HTTP (Claude.ai web): POST with JSON-RPC body ---
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $payload  = file_get_contents('php://input');
-    $req_body = json_decode($payload, true);
-    blog('mcp', 'POST authenticated', ['site' => $site['wp_url'] ?? '?', 'method' => $req_body['method'] ?? '?']);
     $response = handle_mcp_request($site, $payload);
 
     // Notifications (and any no-id request) get no body — acknowledge with 202.

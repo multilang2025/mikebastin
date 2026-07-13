@@ -60,10 +60,3 @@ function get_db() {
 function generate_token() {
     return bin2hex(random_bytes(16));
 }
-
-function blog($file, $msg, $extra = []) {
-    $line = date('H:i:s') . ' [' . $file . '] ' . $msg;
-    if ($extra) $line .= ' ' . json_encode($extra, JSON_UNESCAPED_SLASHES);
-    $line .= "\n";
-    file_put_contents(__DIR__ . '/bridge-debug.log', $line, FILE_APPEND | LOCK_EX);
-}
