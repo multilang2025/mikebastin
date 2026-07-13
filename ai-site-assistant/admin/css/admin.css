@@ -124,15 +124,14 @@
    warnings, etc.) clutter the onboarding screen and aren't something this
    plugin can fix from its own code -- hide them only on AISA's own admin
    pages. This plugin itself never uses admin_notices, so nothing of ours
-   is hidden by this rule. */
-body.toplevel_page_aisa-chat .notice,
-body.toplevel_page_aisa-chat .updated,
-body.toplevel_page_aisa-chat .error,
-body.toplevel_page_aisa-chat .update-nag,
-body.aisa-chat_page_aisa-mcp-connector .notice,
-body.aisa-chat_page_aisa-mcp-connector .updated,
-body.aisa-chat_page_aisa-mcp-connector .error,
-body.aisa-chat_page_aisa-mcp-connector .update-nag {
+   is hidden by this rule. .aisa-plugin-page is added via the admin_body_class
+   filter in class-aisa-settings.php -- not WordPress's own screen-id class,
+   which is derived from sanitize_title() of the menu title and can be
+   changed by a translation plugin or anything else filtering menu titles. */
+body.aisa-plugin-page .notice,
+body.aisa-plugin-page .updated,
+body.aisa-plugin-page .error,
+body.aisa-plugin-page .update-nag {
 	display: none !important;
 }
 
