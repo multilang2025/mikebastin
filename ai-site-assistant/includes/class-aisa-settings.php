@@ -21,6 +21,25 @@ class AISA_Settings {
 		add_action( 'admin_menu', array( __CLASS__, 'menu' ) );
 		add_action( 'admin_init', array( __CLASS__, 'register' ) );
 		add_action( 'admin_enqueue_scripts', array( __CLASS__, 'assets' ) );
+		add_filter( 'admin_body_class', array( __CLASS__, 'body_class' ) );
+	}
+
+	/**
+	 * Add a fixed, non-translatable body class on AISA's own admin pages so
+	 * CSS can target them reliably. WordPress's own screen-id body class is
+	 * derived from sanitize_title() of the menu TITLE text, which a
+	 * translation plugin (or anything filtering admin menu titles) can
+	 * change -- see the note on assets() for the same underlying issue.
+	 *
+	 * @param string $classes Space-separated body classes.
+	 * @return string
+	 */
+	public static function body_class( $classes ) {
+		$page = isset( $_GET['page'] ) ? sanitize_key( wp_unslash( $_GET['page'] ) ) : ''; // phpcs:ignore WordPress.Security.NonceVerification.Recommended -- read-only page-identity check, no state change.
+		if ( in_array( $page, array( 'aisa-chat', 'aisa-mcp-connector' ), true ) ) {
+			$classes .= ' aisa-plugin-page';
+		}
+		return $classes;
 	}
 
 	/**
@@ -113,11 +132,21 @@ class AISA_Settings {
 	/**
 	 * Enqueue the chat UI assets on the assistant page only.
 	 *
-	 * @param string $hook Current admin page hook suffix.
+	 * Matches on $_GET['page'] rather than the $hook suffix WordPress passes
+	 * in. That suffix is derived from sanitize_title() of the menu TITLE
+	 * text, not the slug we register -- so on sites with a translation
+	 * plugin (or any theme/plugin that filters admin menu titles) it never
+	 * equals the hardcoded string we'd otherwise have to guess, and the
+	 * assets silently never enqueue. The page slug is ours and never
+	 * changes, so matching on it is exact regardless of what WordPress
+	 * computes the hook suffix to.
+	 *
+	 * @param string $hook Current admin page hook suffix (unused; kept for the action signature).
 	 */
 	public static function assets( $hook ) {
-		$chat_pages = array( 'toplevel_page_aisa-chat', 'aisa-chat_page_aisa-mcp-connector' );
-		if ( ! in_array( $hook, $chat_pages, true ) ) {
+		unset( $hook );
+		$page = isset( $_GET['page'] ) ? sanitize_key( wp_unslash( $_GET['page'] ) ) : ''; // phpcs:ignore WordPress.Security.NonceVerification.Recommended -- read-only page-identity check, no state change.
+		if ( ! in_array( $page, array( 'aisa-chat', 'aisa-mcp-connector' ), true ) ) {
 			return;
 		}
 		wp_enqueue_style( 'aisa-admin', AISA_URL . 'admin/css/admin.css', array(), AISA_VERSION );
