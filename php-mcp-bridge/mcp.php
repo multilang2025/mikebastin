@@ -6,17 +6,21 @@
 require_once __DIR__ . '/db.php';
 require_once __DIR__ . '/mcp-router.php';
 
-// CORS — Claude.ai web sends cross-origin requests.
+// CORS — Claude.ai web sends cross-origin requests. Reflect any requested headers
+// so that MCP-Protocol-Version and other client headers are never blocked.
 header('Access-Control-Allow-Origin: *');
-header('Access-Control-Allow-Headers: Authorization, Content-Type, Accept');
-header('Access-Control-Allow-Methods: GET, POST, OPTIONS');
+header('Access-Control-Allow-Methods: GET, POST, OPTIONS, DELETE');
+header('Access-Control-Expose-Headers: *');
+$req_headers = $_SERVER['HTTP_ACCESS_CONTROL_REQUEST_HEADERS'] ?? '';
+header('Access-Control-Allow-Headers: ' . ($req_headers
+    ?: 'Authorization, Content-Type, Accept, MCP-Protocol-Version, mcp-protocol-version, mcp-session-id'));
 
 if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
     http_response_code(204);
     exit;
 }
 
-$db   = get_db();
+$db = get_db();
 $site = null;
 $site_token_for_url = null; // internal site token, used in the SSE message endpoint URL
 
@@ -28,17 +32,32 @@ if ($url_token) {
     $site = $stmt->fetch();
     $site_token_for_url = $url_token;
 } else {
-    $auth_header = $_SERVER['HTTP_AUTHORIZATION'] ?? '';
-    // Apache sometimes hides Authorization; fall back to getallheaders().
+    // Recover the Authorization header from every place shared hosts stash it.
+    $auth_header = $_SERVER['HTTP_AUTHORIZATION']
+        ?? $_SERVER['REDIRECT_HTTP_AUTHORIZATION']
+        ?? '';
     if (!$auth_header && function_exists('getallheaders')) {
-        $hdrs        = getallheaders();
-        $auth_header = $hdrs['Authorization'] ?? $hdrs['authorization'] ?? '';
+        foreach (getallheaders() as $k => $v) {
+            if (strcasecmp($k, 'Authorization') === 0) {
+                $auth_header = $v;
+                break;
+            }
+        }
+    }
+    if (!$auth_header && function_exists('apache_request_headers')) {
+        foreach (apache_request_headers() as $k => $v) {
+            if (strcasecmp($k, 'Authorization') === 0) {
+                $auth_header = $v;
+                break;
+            }
+        }
     }
     if (preg_match('/^Bearer\s+(.+)$/i', $auth_header, $m)) {
         $bearer = trim($m[1]);
         $stmt   = $db->prepare('SELECT site_token FROM oauth_tokens WHERE access_token = ? AND expires_at > ?');
         $stmt->execute([$bearer, time()]);
         $row = $stmt->fetch();
+
         if ($row) {
             $stmt2 = $db->prepare('SELECT * FROM sites WHERE token = ?');
             $stmt2->execute([$row['site_token']]);
@@ -65,9 +84,16 @@ if (!$site) {
 
 // --- Streamable HTTP (Claude.ai web): POST with JSON-RPC body ---
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    header('Content-Type: application/json');
     $payload  = file_get_contents('php://input');
     $response = handle_mcp_request($site, $payload);
+
+    // Notifications (and any no-id request) get no body — acknowledge with 202.
+    if ($response === null) {
+        http_response_code(202);
+        exit;
+    }
+
+    header('Content-Type: application/json');
     echo json_encode($response);
     exit;
 }

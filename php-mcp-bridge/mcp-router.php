@@ -13,9 +13,12 @@ function handle_mcp_request($site, $payload) {
     $response = ['jsonrpc' => '2.0', 'id' => $id];
 
     if ($method === 'initialize') {
+        // Echo the client's protocol version so newer Claude.ai clients accept us.
+        $client_proto = $params['protocolVersion'] ?? '2025-03-26';
         $response['result'] = [
-            'protocolVersion' => '2024-11-05',
-            'capabilities' => ['tools' => []],
+            'protocolVersion' => $client_proto,
+            // tools MUST be a JSON object ({}), not an array ([]).
+            'capabilities' => ['tools' => (object) []],
             'serverInfo' => ['name' => 'aisa-php-bridge', 'version' => '0.7.0']
         ];
         return $response;

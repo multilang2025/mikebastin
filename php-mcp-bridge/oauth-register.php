@@ -8,11 +8,32 @@ require_once __DIR__ . '/db.php';
 header('Content-Type: application/json');
 header('Cache-Control: no-store');
 header('Access-Control-Allow-Origin: *');
-header('Access-Control-Allow-Headers: Authorization, Content-Type');
+$req_headers = $_SERVER['HTTP_ACCESS_CONTROL_REQUEST_HEADERS'] ?? '';
+header('Access-Control-Allow-Headers: ' . ($req_headers ?: 'Authorization, Content-Type'));
 header('Access-Control-Allow-Methods: POST, OPTIONS');
 
 if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
     http_response_code(204);
+    exit;
+}
+
+if ($_SERVER['REQUEST_METHOD'] === 'GET' && ($_GET['debug'] ?? '') === '1') {
+    header('Content-Type: text/plain');
+    $drivers = PDO::getAvailableDrivers();
+    echo "PDO drivers: " . implode(', ', $drivers) . "\n";
+    echo "SQLite: " . (in_array('sqlite', $drivers) ? "OK" : "MISSING") . "\n";
+    try {
+        $db = get_db();
+        $tables = $db->query("SELECT name FROM sqlite_master WHERE type='table' ORDER BY name")->fetchAll(PDO::FETCH_COLUMN);
+        echo "Tables: " . implode(', ', $tables) . "\n";
+        echo "oauth_clients: " . (in_array('oauth_clients', $tables) ? "OK" : "MISSING") . "\n";
+        $client_id = 'debug-test';
+        $db->prepare('INSERT INTO oauth_clients (client_id, redirect_uris, created_at) VALUES (?, ?, ?)')->execute([$client_id, '[]', time()]);
+        $db->prepare('DELETE FROM oauth_clients WHERE client_id = ?')->execute([$client_id]);
+        echo "Insert/delete: OK\n";
+    } catch (Throwable $e) {
+        echo "DB error: " . $e->getMessage() . "\n";
+    }
     exit;
 }
 
@@ -31,17 +52,22 @@ if (empty($redirect_uris)) {
     exit;
 }
 
-$db        = get_db();
-$client_id = bin2hex(random_bytes(16));
+try {
+    $db        = get_db();
+    $client_id = bin2hex(random_bytes(16));
 
-$db->prepare('INSERT INTO oauth_clients (client_id, redirect_uris, created_at) VALUES (?, ?, ?)')
-   ->execute([$client_id, json_encode($redirect_uris), time()]);
+    $db->prepare('INSERT INTO oauth_clients (client_id, redirect_uris, created_at) VALUES (?, ?, ?)')
+       ->execute([$client_id, json_encode($redirect_uris), time()]);
 
-http_response_code(201);
-echo json_encode([
-    'client_id'                  => $client_id,
-    'redirect_uris'              => $redirect_uris,
-    'token_endpoint_auth_method' => 'none',
-    'grant_types'                => ['authorization_code'],
-    'response_types'             => ['code'],
-], JSON_UNESCAPED_SLASHES);
+    http_response_code(201);
+    echo json_encode([
+        'client_id'                  => $client_id,
+        'redirect_uris'              => $redirect_uris,
+        'token_endpoint_auth_method' => 'none',
+        'grant_types'                => ['authorization_code'],
+        'response_types'             => ['code'],
+    ], JSON_UNESCAPED_SLASHES);
+} catch (Throwable $e) {
+    http_response_code(500);
+    echo json_encode(['error' => 'server_error', 'error_description' => $e->getMessage()]);
+}
