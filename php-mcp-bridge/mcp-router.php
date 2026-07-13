@@ -31,7 +31,7 @@ function handle_mcp_request($site, $payload) {
 
     if ($method === 'tools/list') {
         $response['result'] = [
-            'tools' => get_tools_schema()
+            'tools' => get_remote_tools($site)
         ];
         return $response;
     }
@@ -56,6 +56,21 @@ function handle_mcp_request($site, $payload) {
 
     $response['error'] = ['code' => -32601, 'message' => 'Method not found'];
     return $response;
+}
+
+// Fetch the full tool catalogue from the site's plugin (single source of
+// truth). Falls back to the built-in static list if the site runs an older
+// plugin without the /aisa/v1/tools endpoint.
+function get_remote_tools($site) {
+    try {
+        $res = wp_fetch($site, '/aisa/v1/tools', 'GET');
+        if (is_array($res) && !empty($res) && isset($res[0]['name'])) {
+            return $res;
+        }
+    } catch (Exception $e) {
+        // Older plugin (404) or transient error — use the static fallback.
+    }
+    return get_tools_schema();
 }
 
 function execute_tool($site, $name, $args) {
