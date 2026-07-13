@@ -70,6 +70,19 @@ function get_db() {
         }
     }
 
+    // Structural guard against the duplicate-registration bug register.php
+    // used to have (always INSERT, never upsert by wp_url): once any
+    // pre-existing duplicates are cleaned up (see dedupe-sites.php), this
+    // makes it impossible for the same wp_url to be inserted twice again.
+    // Silently fails (and keeps retrying on every request) for as long as
+    // duplicates still exist -- that's expected, not an error to act on.
+    try {
+        $db->exec('CREATE UNIQUE INDEX IF NOT EXISTS idx_sites_wp_url ON sites(wp_url)');
+    } catch (Throwable $e) {
+        // Duplicates still present -- index creation is retried on every
+        // request until dedupe-sites.php clears them.
+    }
+
     return $db;
 }
 
