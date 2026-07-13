@@ -3,7 +3,7 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -155,6 +155,11 @@ Tips:
   gate on more precisely.
 
 == Changelog ==
+= 1.0.1 =
+* MCP Connector step 3 is now a per-client walkthrough (Claude.ai web / Claude Desktop+Code / Cursor tabs) with explicit numbered clicks and a ready-to-paste Cursor mcp.json snippet, instead of a one-line summary.
+* New tool: seo_competitor_report — one Ahrefs competitor comparison for a specific page (metrics, top competitor, their best pages, and the page's own content) in a single call instead of chaining four or five separate tool calls.
+* Fixed the MCP bridge hanging indefinitely on a slow upstream call (e.g. a chain of Ahrefs lookups): added connect/total timeouts to the bridge's WordPress call and raised its own script time limit so a stall now fails with a clear error instead of leaving the chat stuck "generating."
+
 = 1.0.0 =
 * Redesigned the MCP Connector onboarding screen: brand header with a live connection-status pill, a centered "Your AI just learned WordPress." hero with a workspace CTA, and a light-gray multi-step card.
 * Copy fields are now real `<input readonly>` elements (was `<code>`) with a more reliable copy handler (clipboard API + execCommand fallback) — fixes copy buttons not working in some browsers.
