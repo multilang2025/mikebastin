@@ -204,7 +204,14 @@ function wp_fetch($site, $path, $method = 'GET', $data = []) {
     $ch = curl_init($url);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($ch, CURLOPT_CUSTOMREQUEST, $method);
-    
+    // Without a ceiling, a slow/stalled WP call (e.g. Ahrefs API latency)
+    // hangs this cURL call indefinitely, which hangs the whole Claude chat
+    // waiting on a tool response that never arrives. Fail fast and let the
+    // tools/call try/catch in handle_mcp_request() turn it into a clean
+    // tool error the model can react to instead.
+    curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 10);
+    curl_setopt($ch, CURLOPT_TIMEOUT, 45);
+
     $headers = [
         'Authorization: Basic ' . $auth,
         'Accept: application/json'
@@ -218,14 +225,21 @@ function wp_fetch($site, $path, $method = 'GET', $data = []) {
     curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
     
     $result = curl_exec($ch);
+    $curl_error = curl_error($ch);
     $http_status = curl_getinfo($ch, CURLINFO_HTTP_CODE);
     curl_close($ch);
-    
+
+    if ($result === false) {
+        // Connection-level failure (timeout, DNS, refused, etc.) -- no HTTP
+        // status to report, so surface curl's own error string instead.
+        throw new Exception('Could not reach WordPress: ' . ($curl_error ?: 'connection failed or timed out'));
+    }
+
     $decoded = json_decode($result, true);
     if ($http_status >= 200 && $http_status < 300) {
         return $decoded !== null ? $decoded : $result;
     }
-    
+
     $msg = ($decoded && isset($decoded['message'])) ? $decoded['message'] : "HTTP $http_status";
     throw new Exception($msg);
 }
