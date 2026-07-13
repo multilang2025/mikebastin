@@ -361,28 +361,80 @@ class AISA_Settings {
 					<span class="aisa-step-marker">3</span>
 					<div class="aisa-checklist-body">
 						<h2><?php esc_html_e( 'Add it to your AI client', 'ai-site-assistant' ); ?></h2>
-						<p><strong><?php esc_html_e( 'Claude.ai (browser) — paste this, then approve when redirected:', 'ai-site-assistant' ); ?></strong></p>
-						<div class="aisa-copy-row" style="margin-bottom:.8rem">
-							<input type="text" readonly class="aisa-copy-field" id="aisa_oauth_url"
-								value="<?php echo $is_connected ? esc_attr( $oauth_url ) : ''; ?>"
-								placeholder="&#8212;" onclick="this.select()">
-							<button type="button" class="button aisa-copy-btn" data-copy-target="aisa_oauth_url"><?php esc_html_e( 'Copy', 'ai-site-assistant' ); ?></button>
+						<p><?php esc_html_e( 'Pick your app below for the exact clicks — menu names may shift slightly as these apps update.', 'ai-site-assistant' ); ?></p>
+
+						<div class="aisa-tabs">
+							<input type="radio" name="aisa_client_tab" id="aisa_tab_web" class="aisa-tab-radio" checked>
+							<input type="radio" name="aisa_client_tab" id="aisa_tab_desktop" class="aisa-tab-radio">
+							<input type="radio" name="aisa_client_tab" id="aisa_tab_cursor" class="aisa-tab-radio">
+
+							<div class="aisa-tab-nav">
+								<label for="aisa_tab_web" class="aisa-tab-label"><?php esc_html_e( 'Claude.ai (web)', 'ai-site-assistant' ); ?></label>
+								<label for="aisa_tab_desktop" class="aisa-tab-label"><?php esc_html_e( 'Claude Desktop / Code', 'ai-site-assistant' ); ?></label>
+								<label for="aisa_tab_cursor" class="aisa-tab-label"><?php esc_html_e( 'Cursor', 'ai-site-assistant' ); ?></label>
+							</div>
+
+							<div class="aisa-tab-panels">
+								<div class="aisa-tab-panel" data-panel="web">
+									<ol class="aisa-steps">
+										<li><?php esc_html_e( 'In Claude.ai, open Settings → Connectors.', 'ai-site-assistant' ); ?></li>
+										<li><?php esc_html_e( 'Click "Add custom connector".', 'ai-site-assistant' ); ?></li>
+										<li>
+											<?php esc_html_e( 'Give it a name (e.g. "AISA"), then paste this into the server URL field:', 'ai-site-assistant' ); ?>
+											<div class="aisa-copy-row">
+												<input type="text" readonly class="aisa-copy-field" id="aisa_oauth_url"
+													value="<?php echo $is_connected ? esc_attr( $oauth_url ) : ''; ?>"
+													placeholder="&#8212;" onclick="this.select()">
+												<button type="button" class="button aisa-copy-btn" data-copy-target="aisa_oauth_url"><?php esc_html_e( 'Copy', 'ai-site-assistant' ); ?></button>
+											</div>
+										</li>
+										<li><?php esc_html_e( 'Click "Add", then click "Connect" next to the new connector.', 'ai-site-assistant' ); ?></li>
+										<li><?php esc_html_e( 'You\'ll be redirected here — if you manage more than one site, pick this one, then click "Allow".', 'ai-site-assistant' ); ?></li>
+										<li><?php esc_html_e( 'Done. The tools will show up the next time you start a chat.', 'ai-site-assistant' ); ?></li>
+									</ol>
+								</div>
+
+								<div class="aisa-tab-panel" data-panel="desktop">
+									<ol class="aisa-steps">
+										<li><?php esc_html_e( 'In Claude Desktop or Claude Code, open Settings → Connectors.', 'ai-site-assistant' ); ?></li>
+										<li><?php esc_html_e( 'Click "Add custom connector", give it a name, then paste this into the server URL field:', 'ai-site-assistant' ); ?>
+											<div class="aisa-copy-row">
+												<input type="text" readonly class="aisa-copy-field" id="aisa_connection_url"
+													value="<?php echo $is_connected ? esc_attr( $connection_url ) : ''; ?>"
+													placeholder="&#8212;" onclick="this.select()">
+												<button type="button" class="button aisa-copy-btn" id="aisa_copy_url_btn" data-copy-target="aisa_connection_url"><?php esc_html_e( 'Copy', 'ai-site-assistant' ); ?></button>
+											</div>
+										</li>
+										<li><?php esc_html_e( 'Click "Add" to finish — this URL already includes your access token, so there\'s no separate approval step.', 'ai-site-assistant' ); ?></li>
+										<li>
+											<?php
+											printf(
+												/* translators: %s: claude mcp add CLI command, kept untranslated. */
+												esc_html__( 'Claude Code alternative: run %s in your terminal instead of using the Settings UI.', 'ai-site-assistant' ),
+												'<code>claude mcp add --transport http aisa &lt;url&gt;</code>' // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- static markup, no user input.
+											);
+											?>
+										</li>
+									</ol>
+								</div>
+
+								<div class="aisa-tab-panel" data-panel="cursor">
+									<ol class="aisa-steps">
+										<li><?php esc_html_e( 'In Cursor, open Settings → MCP.', 'ai-site-assistant' ); ?></li>
+										<li><?php esc_html_e( 'Click "Add new global MCP server" — this opens your mcp.json file.', 'ai-site-assistant' ); ?></li>
+										<li>
+											<?php esc_html_e( 'Paste this block inside the "mcpServers" object, then save the file:', 'ai-site-assistant' ); ?>
+											<div class="aisa-copy-row">
+												<textarea readonly class="aisa-copy-field aisa-copy-field--code" id="aisa_cursor_config" rows="4" onclick="this.select()"><?php echo $is_connected ? esc_textarea( "\"aisa\": {\n  \"url\": \"{$connection_url}\"\n}" ) : ''; ?></textarea>
+												<button type="button" class="button aisa-copy-btn" data-copy-target="aisa_cursor_config"><?php esc_html_e( 'Copy', 'ai-site-assistant' ); ?></button>
+											</div>
+										</li>
+										<li><?php esc_html_e( 'Cursor detects the change automatically — no restart needed.', 'ai-site-assistant' ); ?></li>
+									</ol>
+								</div>
+							</div>
 						</div>
-						<p><strong><?php esc_html_e( 'Claude Desktop / Code / Cursor — token URL:', 'ai-site-assistant' ); ?></strong></p>
-						<div class="aisa-copy-row">
-							<input type="text" readonly class="aisa-copy-field" id="aisa_connection_url"
-								value="<?php echo $is_connected ? esc_attr( $connection_url ) : ''; ?>"
-								placeholder="&#8212;" onclick="this.select()">
-							<button type="button" class="button aisa-copy-btn" id="aisa_copy_url_btn" data-copy-target="aisa_connection_url"><?php esc_html_e( 'Copy', 'ai-site-assistant' ); ?></button>
-						</div>
-						<details class="aisa-inline-link">
-							<summary><?php esc_html_e( 'Per-client setup instructions', 'ai-site-assistant' ); ?></summary>
-							<ul>
-								<li><?php esc_html_e( 'Claude.ai web: Settings → Connectors → Add connector, paste the OAuth URL, click Connect — you\'ll be redirected to approve access.', 'ai-site-assistant' ); ?></li>
-								<li><?php esc_html_e( 'Claude Desktop / Claude Code: Settings → Connectors → Add custom connector, paste the token URL.', 'ai-site-assistant' ); ?></li>
-								<li><?php esc_html_e( 'Cursor: Settings → MCP → Add new MCP server, paste the token URL as an SSE/HTTP server.', 'ai-site-assistant' ); ?></li>
-							</ul>
-						</details>
+
 						<?php if ( $is_connected ) : ?>
 							<p class="aisa-pair-confirm">
 								<span class="aisa-pair-check">&#10003;</span>
@@ -407,6 +459,7 @@ class AISA_Settings {
 			var step3     = document.getElementById('aisa_step_3');
 			var urlText   = document.getElementById('aisa_connection_url');
 			var oauthText = document.getElementById('aisa_oauth_url');
+			var cursorText = document.getElementById('aisa_cursor_config');
 			var statusPill = document.querySelector('.aisa-status-pill');
 
 			if (!btn) return;
@@ -438,6 +491,9 @@ class AISA_Settings {
 						urlText.value = data.connection_url;
 						if (oauthText) {
 							oauthText.value = bridgeUrl.replace(/\/$/, '') + '/mcp.php';
+						}
+						if (cursorText) {
+							cursorText.value = '"aisa": {\n  "url": "' + data.connection_url + '"\n}';
 						}
 						if (step2) { step2.dataset.done = '1'; }
 						step3.dataset.active = '1';

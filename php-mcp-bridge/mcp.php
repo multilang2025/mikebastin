@@ -6,6 +6,15 @@
 require_once __DIR__ . '/db.php';
 require_once __DIR__ . '/mcp-router.php';
 
+// A single tools/call can involve a slow upstream (e.g. seo_competitor_report
+// chaining several Ahrefs API calls via WordPress) close to wp_fetch()'s own
+// 90s cURL timeout. Many shared hosts default max_execution_time to 30s,
+// which would silently kill this script (blank/500 response, no clean
+// JSON-RPC error) before that timeout ever gets a chance to fire on its own.
+// Give the script enough headroom that wp_fetch()'s timeout is what actually
+// governs the ceiling.
+@set_time_limit(110);
+
 // CORS — Claude.ai web sends cross-origin requests. Reflect any requested headers
 // so that MCP-Protocol-Version and other client headers are never blocked.
 header('Access-Control-Allow-Origin: *');

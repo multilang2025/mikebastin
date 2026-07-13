@@ -742,6 +742,36 @@ class AISA_Tools {
 					'additionalProperties' => false,
 				),
 			),
+			array(
+				'name'         => 'seo_competitor_report',
+				'description'  => 'One-shot competitor comparison for a specific page on this site: this '
+					. 'domain\'s Ahrefs metrics, its top organic competitor (or one you specify), that '
+					. 'competitor\'s metrics and best-performing pages, and the full content of the page '
+					. 'you\'re improving -- all in a single call. Use this INSTEAD of calling '
+					. 'ahrefs_domain_metrics, ahrefs_organic_competitors, ahrefs_top_pages, and get_post '
+					. 'separately to compare one page against competitors; each of those is a full round '
+					. 'trip and chaining them one-by-one is much slower for no benefit. Read-only. Needs an '
+					. 'Ahrefs API key.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'page'       => array(
+							'type'        => 'string',
+							'description' => 'The page to improve: a post/page ID, full URL, or path (e.g. "/my-page/").',
+						),
+						'competitor' => array(
+							'type'        => 'string',
+							'description' => 'Optional competitor domain to compare against. Omit to auto-pick the top organic competitor by shared keywords.',
+						),
+						'country'    => array(
+							'type'        => 'string',
+							'description' => 'Optional two-letter country code for the market (default us).',
+						),
+					),
+					'required'             => array( 'page' ),
+					'additionalProperties' => false,
+				),
+			),
 		);
 	}
 
@@ -845,6 +875,8 @@ class AISA_Tools {
 				return self::ahrefs_organic_competitors( $input );
 			case 'ahrefs_domain_metrics':
 				return self::ahrefs_domain_metrics( $input );
+			case 'seo_competitor_report':
+				return self::seo_competitor_report( $input );
 			default:
 				return self::error( "Unknown tool: {$name}" );
 		}
@@ -1729,6 +1761,129 @@ class AISA_Tools {
 				array(
 					'target'  => $target,
 					'metrics' => $response['metrics'] ?? array(),
+				)
+			),
+		);
+	}
+
+	/**
+	 * One-shot competitor comparison for a single page: bundles the page's
+	 * own content, this domain's Ahrefs metrics, the top (or a specified)
+	 * organic competitor's metrics and best-performing pages, into a single
+	 * dispatch instead of four+ separate round trips. Internally reuses
+	 * get_post() / ahrefs_domain_metrics() / ahrefs_organic_competitors() /
+	 * ahrefs_top_pages() so permission checks and Ahrefs call shape stay in
+	 * one place.
+	 *
+	 * @param array $in Tool input.
+	 * @return array Tool result with the combined report as JSON, or an error.
+	 */
+	private static function seo_competitor_report( array $in ) {
+		if ( ! current_user_can( 'edit_posts' ) ) {
+			return self::error( 'Permission denied.' );
+		}
+		if ( ! AISA_Ahrefs_Client::is_configured() ) {
+			return self::error( 'Ahrefs API key is not configured. Add one in AISA Connector → Settings.' );
+		}
+
+		$raw = trim( (string) ( $in['page'] ?? '' ) );
+		if ( '' === $raw ) {
+			return self::error( 'Provide a page: a post/page ID, full URL, or path like "/my-page/".' );
+		}
+
+		if ( ctype_digit( $raw ) ) {
+			$post_id = (int) $raw;
+		} else {
+			$url     = ( 0 === strpos( $raw, 'http' ) ) ? $raw : home_url( '/' . ltrim( $raw, '/' ) );
+			$post_id = url_to_postid( $url );
+		}
+		if ( ! $post_id ) {
+			return self::error( sprintf( 'Could not find a page matching "%s".', $raw ) );
+		}
+
+		$post_result = self::get_post( array( 'id' => $post_id ) );
+		if ( ! empty( $post_result['is_error'] ) ) {
+			return $post_result;
+		}
+		$page = json_decode( $post_result['content'], true );
+
+		$country     = sanitize_text_field( (string) ( $in['country'] ?? 'us' ) );
+		$site_target = AISA_Ahrefs_Client::site_target();
+
+		$site_metrics_result = self::ahrefs_domain_metrics(
+			array(
+				'target'  => $site_target,
+				'country' => $country,
+			)
+		);
+		$site_metrics = empty( $site_metrics_result['is_error'] )
+			? json_decode( $site_metrics_result['content'], true )
+			: null;
+
+		$competitor_target = trim( (string) ( $in['competitor'] ?? '' ) );
+		$competitor_source = 'specified';
+		$other_competitors  = null;
+
+		if ( '' === $competitor_target ) {
+			$competitors_result = self::ahrefs_organic_competitors(
+				array(
+					'target'  => $site_target,
+					'country' => $country,
+					'limit'   => 5,
+				)
+			);
+			if ( ! empty( $competitors_result['is_error'] ) ) {
+				return $competitors_result;
+			}
+			$competitors_decoded = json_decode( $competitors_result['content'], true );
+			$other_competitors   = $competitors_decoded['competitors'] ?? array();
+			$top                 = $other_competitors[0] ?? null;
+			if ( empty( $top['competitor_domain'] ) ) {
+				return self::error( 'Ahrefs returned no organic competitors for this site.' );
+			}
+			$competitor_target = $top['competitor_domain'];
+			$competitor_source = 'auto (top organic competitor by shared keywords)';
+		}
+
+		$competitor_metrics_result = self::ahrefs_domain_metrics(
+			array(
+				'target'  => $competitor_target,
+				'country' => $country,
+			)
+		);
+		$competitor_metrics = empty( $competitor_metrics_result['is_error'] )
+			? json_decode( $competitor_metrics_result['content'], true )
+			: array( 'error' => $competitor_metrics_result['content'] ?? 'unavailable' );
+
+		$competitor_top_pages_result = self::ahrefs_top_pages(
+			array(
+				'target'  => $competitor_target,
+				'order'   => 'best',
+				'limit'   => 5,
+				'country' => $country,
+			)
+		);
+		$competitor_top_pages = array();
+		if ( empty( $competitor_top_pages_result['is_error'] ) ) {
+			$decoded              = json_decode( $competitor_top_pages_result['content'], true );
+			$competitor_top_pages = $decoded['pages'] ?? array();
+		}
+
+		return array(
+			'content' => self::safe_json_encode(
+				array(
+					'page'              => $page,
+					'site'              => array(
+						'target'  => $site_target,
+						'metrics' => $site_metrics,
+					),
+					'competitor'        => array(
+						'target'    => $competitor_target,
+						'source'    => $competitor_source,
+						'metrics'   => $competitor_metrics,
+						'top_pages' => $competitor_top_pages,
+					),
+					'other_competitors' => $other_competitors,
 				)
 			),
 		);

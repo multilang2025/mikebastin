@@ -472,3 +472,95 @@ body.aisa-chat_page_aisa-mcp-connector .update-nag {
 .aisa-mcp-footer a:hover {
 	text-decoration: underline;
 }
+
+/* Per-client setup tabs (step 3). Pure CSS, radio-driven -- no JS needed
+   to switch panels, so the walkthrough still works if scripts fail to
+   load. Radios are visually hidden but stay keyboard/AT accessible. */
+.aisa-tab-radio {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap;
+	border: 0;
+}
+
+.aisa-tab-nav {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.4rem;
+	margin: 0.8rem 0 1rem;
+}
+
+.aisa-tab-label {
+	display: inline-block;
+	padding: 0.4rem 0.9rem;
+	border-radius: 999px;
+	background: #fff;
+	border: 1px solid #dcdcde;
+	color: #3c434a;
+	font-size: 12px;
+	font-weight: 600;
+	cursor: pointer;
+	transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+
+.aisa-tab-radio:focus-visible ~ .aisa-tab-nav label {
+	outline: 2px solid #2271b1;
+	outline-offset: 1px;
+}
+
+#aisa_tab_web:checked ~ .aisa-tab-nav label[for="aisa_tab_web"],
+#aisa_tab_desktop:checked ~ .aisa-tab-nav label[for="aisa_tab_desktop"],
+#aisa_tab_cursor:checked ~ .aisa-tab-nav label[for="aisa_tab_cursor"] {
+	background: #1d2327;
+	color: #fff;
+	border-color: #1d2327;
+}
+
+.aisa-tab-panel {
+	display: none;
+}
+
+#aisa_tab_web:checked ~ .aisa-tab-panels [data-panel="web"],
+#aisa_tab_desktop:checked ~ .aisa-tab-panels [data-panel="desktop"],
+#aisa_tab_cursor:checked ~ .aisa-tab-panels [data-panel="cursor"] {
+	display: block;
+}
+
+.aisa-steps {
+	margin: 0;
+	padding-left: 1.3rem;
+	color: #3c434a;
+	font-size: 13px;
+	line-height: 1.6;
+}
+
+.aisa-steps li {
+	margin-bottom: 0.7rem;
+}
+
+.aisa-steps li:last-child {
+	margin-bottom: 0;
+}
+
+.aisa-steps code {
+	background: #fff;
+	border: 1px solid #dcdcde;
+	border-radius: 3px;
+	padding: 0.1rem 0.35rem;
+	font-size: 12px;
+}
+
+.aisa-steps .aisa-copy-row {
+	margin-top: 0.4rem;
+}
+
+.aisa-copy-field--code {
+	font-family: Consolas, Monaco, monospace;
+	resize: vertical;
+	white-space: pre;
+}
