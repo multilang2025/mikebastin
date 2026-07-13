@@ -134,20 +134,6 @@ class AISA_Settings {
 	}
 
 	/**
-	 * Header action button linking the standalone chat workspace to the
-	 * MCP onboarding/gateway page. Purely navigational — no state, API
-	 * payload, or key handling is touched.
-	 */
-	private static function render_open_connector_button() {
-		?>
-		<a href="<?php echo esc_url( admin_url( 'admin.php?page=aisa-mcp-connector' ) ); ?>"
-			class="button button-secondary aisa-open-connector">
-			<?php esc_html_e( 'Open AISA Connector', 'ai-site-assistant' ); ?>
-		</a>
-		<?php
-	}
-
-	/**
 	 * Render the settings (API key) page.
 	 */
 	public static function render_settings() {
@@ -271,13 +257,10 @@ class AISA_Settings {
 		?>
 		<div class="wrap">
 			<div id="aisa-header">
-				<div class="aisa-title-row">
-					<h1 class="aisa-title">
-						<?php esc_html_e( 'AISA Connector', 'ai-site-assistant' ); ?>
-						<span class="aisa-tagline"><?php esc_html_e( 'Your AI content &amp; SEO assistant', 'ai-site-assistant' ); ?></span>
-					</h1>
-					<?php self::render_open_connector_button(); ?>
-				</div>
+				<h1 class="aisa-title">
+					<?php esc_html_e( 'AISA Connector', 'ai-site-assistant' ); ?>
+					<span class="aisa-tagline"><?php esc_html_e( 'Your AI content &amp; SEO assistant', 'ai-site-assistant' ); ?></span>
+				</h1>
 			</div>
 			<div class="aisa-disabled-notice">
 				<p><strong><?php esc_html_e( 'The in-admin chat workspace is temporarily disabled.', 'ai-site-assistant' ); ?></strong></p>
@@ -322,13 +305,28 @@ class AISA_Settings {
 		// handles auth via the OAuth flow triggered by the 401 response.
 		$oauth_url = $bridge_url ? untrailingslashit( $bridge_url ) . '/mcp.php' : '';
 		?>
-		<div class="wrap">
+		<div class="wrap aisa-onboarding">
+			<header class="aisa-onboard-header">
+				<div class="aisa-brand">
+					<span class="aisa-brand-logo" aria-hidden="true">AI</span>
+					<span class="aisa-brand-meta">
+						<span class="aisa-brand-name"><?php esc_html_e( 'AISA Connector', 'ai-site-assistant' ); ?></span>
+						<span class="aisa-brand-by"><?php esc_html_e( 'by betranslated', 'ai-site-assistant' ); ?></span>
+					</span>
+				</div>
+				<span class="aisa-status-pill" data-connected="<?php echo $is_connected ? '1' : '0'; ?>">
+					<?php echo $is_connected ? esc_html__( 'Connected', 'ai-site-assistant' ) : esc_html__( 'Not connected', 'ai-site-assistant' ); ?>
+				</span>
+			</header>
+
 			<div class="aisa-mcp-hero">
-				<span class="aisa-status-pill"><?php esc_html_e( 'AISA Connector Active', 'ai-site-assistant' ); ?></span>
-				<h1><?php esc_html_e( 'Let your AI run this site.', 'ai-site-assistant' ); ?></h1>
+				<h1><?php esc_html_e( 'Your AI just learned WordPress.', 'ai-site-assistant' ); ?></h1>
 				<p>
 					<?php esc_html_e( 'Connect this site to Claude, ChatGPT, Cursor, or any MCP-compatible AI client so it can draft, edit, and manage content directly — no chat box needed here.', 'ai-site-assistant' ); ?>
 				</p>
+				<a href="<?php echo esc_url( admin_url( 'admin.php?page=aisa-settings' ) ); ?>" class="aisa-cta-pill">
+					<?php esc_html_e( 'Open AISA Workspace', 'ai-site-assistant' ); ?>
+				</a>
 			</div>
 
 			<ul class="aisa-checklist">
@@ -365,12 +363,16 @@ class AISA_Settings {
 						<h2><?php esc_html_e( 'Add it to your AI client', 'ai-site-assistant' ); ?></h2>
 						<p><strong><?php esc_html_e( 'Claude.ai (browser) — paste this, then approve when redirected:', 'ai-site-assistant' ); ?></strong></p>
 						<div class="aisa-copy-row" style="margin-bottom:.8rem">
-							<code class="aisa-copy-field" id="aisa_oauth_url"><?php echo $is_connected ? esc_html( $oauth_url ) : '&#8212;'; ?></code>
+							<input type="text" readonly class="aisa-copy-field" id="aisa_oauth_url"
+								value="<?php echo $is_connected ? esc_attr( $oauth_url ) : ''; ?>"
+								placeholder="&#8212;" onclick="this.select()">
 							<button type="button" class="button aisa-copy-btn" data-copy-target="aisa_oauth_url"><?php esc_html_e( 'Copy', 'ai-site-assistant' ); ?></button>
 						</div>
 						<p><strong><?php esc_html_e( 'Claude Desktop / Code / Cursor — token URL:', 'ai-site-assistant' ); ?></strong></p>
 						<div class="aisa-copy-row">
-							<code class="aisa-copy-field" id="aisa_connection_url"><?php echo $is_connected ? esc_html( $connection_url ) : '&#8212;'; ?></code>
+							<input type="text" readonly class="aisa-copy-field" id="aisa_connection_url"
+								value="<?php echo $is_connected ? esc_attr( $connection_url ) : ''; ?>"
+								placeholder="&#8212;" onclick="this.select()">
 							<button type="button" class="button aisa-copy-btn" id="aisa_copy_url_btn" data-copy-target="aisa_connection_url"><?php esc_html_e( 'Copy', 'ai-site-assistant' ); ?></button>
 						</div>
 						<details class="aisa-inline-link">
@@ -381,13 +383,20 @@ class AISA_Settings {
 								<li><?php esc_html_e( 'Cursor: Settings → MCP → Add new MCP server, paste the token URL as an SSE/HTTP server.', 'ai-site-assistant' ); ?></li>
 							</ul>
 						</details>
+						<?php if ( $is_connected ) : ?>
+							<p class="aisa-pair-confirm">
+								<span class="aisa-pair-check">&#10003;</span>
+								<?php esc_html_e( 'This site is paired and ready for your AI client.', 'ai-site-assistant' ); ?>
+							</p>
+						<?php endif; ?>
 					</div>
 				</li>
 			</ul>
 
 			<p class="aisa-mcp-footer">
 				<?php esc_html_e( 'AISA Connector', 'ai-site-assistant' ); ?> &middot;
-				<a href="https://github.com/multilang2025/mikebastin" target="_blank" rel="noopener noreferrer"><?php esc_html_e( 'Documentation', 'ai-site-assistant' ); ?></a>
+				<a href="https://github.com/multilang2025/mikebastin" target="_blank" rel="noopener noreferrer"><?php esc_html_e( 'Documentation', 'ai-site-assistant' ); ?></a> &middot;
+				<a href="https://github.com/multilang2025/mikebastin/issues" target="_blank" rel="noopener noreferrer"><?php esc_html_e( 'Support', 'ai-site-assistant' ); ?></a>
 			</p>
 		</div>
 		<script>
@@ -398,6 +407,7 @@ class AISA_Settings {
 			var step3     = document.getElementById('aisa_step_3');
 			var urlText   = document.getElementById('aisa_connection_url');
 			var oauthText = document.getElementById('aisa_oauth_url');
+			var statusPill = document.querySelector('.aisa-status-pill');
 
 			if (!btn) return;
 
@@ -425,12 +435,16 @@ class AISA_Settings {
 					btn.disabled = false;
 
 					if (data.connection_url) {
-						urlText.textContent = data.connection_url;
+						urlText.value = data.connection_url;
 						if (oauthText) {
-							oauthText.textContent = bridgeUrl.replace(/\/$/, '') + '/mcp.php';
+							oauthText.value = bridgeUrl.replace(/\/$/, '') + '/mcp.php';
 						}
 						if (step2) { step2.dataset.done = '1'; }
 						step3.dataset.active = '1';
+						if (statusPill) {
+							statusPill.dataset.connected = '1';
+							statusPill.textContent = '<?php echo esc_js( __( 'Connected', 'ai-site-assistant' ) ); ?>';
+						}
 					} else {
 						alert('Error: ' + (data.message || 'Unknown error occurred.'));
 					}

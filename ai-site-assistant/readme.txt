@@ -3,7 +3,7 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
-Stable tag: 0.9.9
+Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -155,6 +155,12 @@ Tips:
   gate on more precisely.
 
 == Changelog ==
+= 1.0.0 =
+* Redesigned the MCP Connector onboarding screen: brand header with a live connection-status pill, a centered "Your AI just learned WordPress." hero with a workspace CTA, and a light-gray multi-step card.
+* Copy fields are now real `<input readonly>` elements (was `<code>`) with a more reliable copy handler (clipboard API + execCommand fallback) — fixes copy buttons not working in some browsers.
+* Removed the duplicate "Open AISA Connector" button from the Workspace page header (the disabled-chat notice already links to the same MCP Connector page).
+* Hide third-party admin notices (other plugins' nags, e.g. mail-delivery warnings) on AISA's own admin pages for a cleaner onboarding screen. This plugin does not use admin_notices itself, so nothing of its own is affected.
+
 = 0.9.9 =
 * Multi-tenant MCP bridge: the OAuth "Allow" screen now lets you pick which registered WordPress site to connect, so one bridge can serve many sites over Claude.ai web.
 * Expose the full tool set through the connector: add a /aisa/v1/tools catalogue endpoint and widen the remote allowlist so Claude.ai can use every tool the plugin offers (Ahrefs, SEO, WP-CLI, theme, abilities) except the internal get_site_context.
