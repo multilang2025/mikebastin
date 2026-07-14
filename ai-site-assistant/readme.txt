@@ -3,7 +3,7 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
-Stable tag: 1.0.6
+Stable tag: 1.0.7
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -155,6 +155,9 @@ Tips:
   gate on more precisely.
 
 == Changelog ==
+= 1.0.7 =
+* Fixed load_skill's tool description: it hardcoded a stale, partial skill list (missing theme_editing, images, image_generation, seo_intelligence, gsc_intelligence) and referenced "the system prompt" for the full catalog -- but that catalog is only ever injected into the disabled in-admin chat's system prompt, never seen by Claude.ai/Desktop/Cursor through the connector. The description now embeds the full, live catalog (name + summary) directly, generated from AISA_Skills::CATALOG, so it can never drift out of sync again and is actually visible wherever the tool is used.
+
 = 1.0.6 =
 * Fixed the Google Search Console property picker (and Disconnect button) never actually saving. Its small admin-post form was nested inside the page's main options.php settings form, which is invalid HTML -- browsers handle it unpredictably, and the submit was being swallowed by the outer form instead of reaching our handler, so picking a property silently reverted to whatever was selected before. Moved the whole GSC connection section outside the main form.
 

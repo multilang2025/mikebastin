@@ -246,10 +246,9 @@ class AISA_Tools {
 			),
 			array(
 				'name'         => 'load_skill',
-				'description'  => 'Load the on-demand playbook for a specific task. Call this once, right '
-					. 'before you act, when a task matches one of the catalog entries in the system '
-					. 'prompt (eeat, fact_checking, nlp_readability, internal_links, meta_tags, schema, '
-					. 'page_builders). Read-only.',
+				'description'  => 'Load the on-demand playbook for a specific task, right before you act on a '
+					. "matching one -- do not guess an approach from a skill's one-line summary alone. "
+					. "Available skills:\n" . AISA_Skills::catalog_text() . "\nRead-only.",
 				'input_schema' => array(
 					'type'                 => 'object',
 					'properties'           => array(
