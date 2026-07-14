@@ -3,7 +3,7 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
-Stable tag: 1.0.3
+Stable tag: 1.0.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -155,6 +155,9 @@ Tips:
   gate on more precisely.
 
 == Changelog ==
+= 1.0.4 =
+* Removed include_granted_scopes from the Google Search Console connect URL. It caused Google to bundle in any scopes previously granted to the same OAuth Client ID (e.g. Drive/Gmail from an earlier, unrelated use of that client), showing up as unexpected extra permission requests on the consent screen even though this integration only ever requests one read-only Search Console scope.
+
 = 1.0.3 =
 * Added Google Search Console integration: connect via OAuth (Settings → Google OAuth Client ID/Secret → Connect), then use gsc_top_pages, gsc_page_queries, and gsc_page_report to diagnose real Google-reported ranking performance for any page, alongside the existing Ahrefs tools.
 * Added the new gsc_intelligence skill: a playbook for interpreting GSC metrics (CTR issues vs. thin-content near-misses vs. discovery problems vs. cannibalization) and proposing grounded, numbers-backed edits.

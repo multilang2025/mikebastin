@@ -118,14 +118,13 @@ class AISA_Gsc_Client {
 	 */
 	public static function get_auth_url() {
 		$params = array(
-			'client_id'              => self::get_client_id(),
-			'redirect_uri'           => self::get_redirect_uri(),
-			'response_type'          => 'code',
-			'scope'                  => self::SCOPE,
-			'access_type'            => 'offline',
-			'prompt'                 => 'consent',
-			'include_granted_scopes' => 'true',
-			'state'                  => wp_create_nonce( 'aisa_gsc_connect' ),
+			'client_id'     => self::get_client_id(),
+			'redirect_uri'  => self::get_redirect_uri(),
+			'response_type' => 'code',
+			'scope'         => self::SCOPE,
+			'access_type'   => 'offline',
+			'prompt'        => 'consent',
+			'state'         => wp_create_nonce( 'aisa_gsc_connect' ),
 		);
 		return self::AUTH_URL . '?' . http_build_query( $params );
 	}
