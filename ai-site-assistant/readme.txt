@@ -3,7 +3,7 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -155,6 +155,11 @@ Tips:
   gate on more precisely.
 
 == Changelog ==
+= 1.0.3 =
+* Added Google Search Console integration: connect via OAuth (Settings → Google OAuth Client ID/Secret → Connect), then use gsc_top_pages, gsc_page_queries, and gsc_page_report to diagnose real Google-reported ranking performance for any page, alongside the existing Ahrefs tools.
+* Added the new gsc_intelligence skill: a playbook for interpreting GSC metrics (CTR issues vs. thin-content near-misses vs. discovery problems vs. cannibalization) and proposing grounded, numbers-backed edits.
+* Added an "Available Skills" panel to the MCP Connector page listing every skill the assistant can load on demand.
+
 = 1.0.2 =
 * Fixed AISA's own admin CSS/JS never loading on the Workspace and MCP Connector pages. The page-detection matched a guessed hook-suffix string that WordPress actually derives from sanitize_title() of the menu title text, not the slug -- so on any site with a translation plugin (or anything else filtering admin menu titles), it never matched and no styling was ever applied. Now matches on the page's own query-string slug instead, which never changes.
 * Same underlying issue affected the third-party-notice-hiding CSS (it targeted WordPress's computed body class); switched to a fixed class added via admin_body_class instead.
