@@ -379,10 +379,6 @@ class AISA_Settings {
 						</td>
 					</tr>
 					<tr>
-						<th scope="row"><?php esc_html_e( 'Google Search Console', 'ai-site-assistant' ); ?></th>
-						<td><?php self::render_gsc_connection_status(); ?></td>
-					</tr>
-					<tr>
 						<th scope="row"><?php esc_html_e( 'Chat model', 'ai-site-assistant' ); ?></th>
 						<td>
 							<label>
@@ -398,6 +394,18 @@ class AISA_Settings {
 				</table>
 				<?php submit_button(); ?>
 			</form>
+
+			<h2><?php esc_html_e( 'Google Search Console', 'ai-site-assistant' ); ?></h2>
+			<?php
+			// Deliberately outside the form above: this section has its own
+			// small forms (Connect / Disconnect / property picker) posting to
+			// admin-post.php, and a <form> nested inside the options.php form
+			// is invalid HTML -- browsers handle it unpredictably, and in
+			// practice the inner submit was being swallowed by the outer form
+			// and hitting options.php instead of our own handler, so the
+			// property picker never actually saved anything.
+			self::render_gsc_connection_status();
+			?>
 		</div>
 		<?php
 	}

@@ -3,7 +3,7 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
-Stable tag: 1.0.5
+Stable tag: 1.0.6
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -155,6 +155,9 @@ Tips:
   gate on more precisely.
 
 == Changelog ==
+= 1.0.6 =
+* Fixed the Google Search Console property picker (and Disconnect button) never actually saving. Its small admin-post form was nested inside the page's main options.php settings form, which is invalid HTML -- browsers handle it unpredictably, and the submit was being swallowed by the outer form instead of reaching our handler, so picking a property silently reverted to whatever was selected before. Moved the whole GSC connection section outside the main form.
+
 = 1.0.5 =
 * Fixed the Google Search Console connect flow always failing with "invalid_state". The OAuth state was verified with wp_verify_nonce(), which is tied to the logged-in user/session -- but Google's redirect back to our callback is a cross-site top-level navigation, and whether the browser resends the WP auth cookie on it depends on cookie policy that varies by host/security plugin. When it didn't, the callback saw no logged-in user and failed verification even though the admin had done everything right. Replaced with a random, single-use state token stored server-side in a transient, which doesn't depend on any session/cookie context.
 
