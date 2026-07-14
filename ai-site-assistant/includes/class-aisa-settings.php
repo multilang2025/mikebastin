@@ -22,6 +22,95 @@ class AISA_Settings {
 		add_action( 'admin_init', array( __CLASS__, 'register' ) );
 		add_action( 'admin_enqueue_scripts', array( __CLASS__, 'assets' ) );
 		add_filter( 'admin_body_class', array( __CLASS__, 'body_class' ) );
+		add_action( 'admin_post_aisa_gsc_disconnect', array( __CLASS__, 'handle_gsc_disconnect' ) );
+		add_action( 'admin_post_aisa_gsc_select_property', array( __CLASS__, 'handle_gsc_select_property' ) );
+	}
+
+	/**
+	 * Render the Google Search Console connection status/action on the
+	 * Settings page: a "Connect" link, a candidate-property picker if OAuth
+	 * succeeded but the property is still ambiguous, or the connected
+	 * property + a Disconnect button.
+	 */
+	private static function render_gsc_connection_status() {
+		if ( ! AISA_Gsc_Client::has_client_credentials() ) {
+			echo '<p class="description">' . esc_html__( 'Save a Client ID and Secret above first, then this page will show a Connect button.', 'ai-site-assistant' ) . '</p>';
+			return;
+		}
+
+		$conn = AISA_Gsc_Client::get_connection();
+
+		if ( '' !== $conn['property'] ) {
+			printf(
+				'<p><strong>%s</strong> <code>%s</code></p>',
+				esc_html__( 'Connected:', 'ai-site-assistant' ),
+				esc_html( $conn['property'] )
+			);
+			?>
+			<form method="post" action="<?php echo esc_url( admin_url( 'admin-post.php' ) ); ?>">
+				<input type="hidden" name="action" value="aisa_gsc_disconnect" />
+				<?php wp_nonce_field( 'aisa_gsc_disconnect' ); ?>
+				<button type="submit" class="button"><?php esc_html_e( 'Disconnect', 'ai-site-assistant' ); ?></button>
+			</form>
+			<?php
+			return;
+		}
+
+		if ( ! empty( $conn['candidates'] ) ) {
+			?>
+			<p class="description"><?php esc_html_e( 'Multiple Search Console properties are available to this Google account. Choose which one this site should use:', 'ai-site-assistant' ); ?></p>
+			<form method="post" action="<?php echo esc_url( admin_url( 'admin-post.php' ) ); ?>">
+				<input type="hidden" name="action" value="aisa_gsc_select_property" />
+				<?php wp_nonce_field( 'aisa_gsc_select_property' ); ?>
+				<select name="property">
+					<?php foreach ( $conn['candidates'] as $site_url ) : ?>
+						<option value="<?php echo esc_attr( $site_url ); ?>"><?php echo esc_html( $site_url ); ?></option>
+					<?php endforeach; ?>
+				</select>
+				<button type="submit" class="button button-primary"><?php esc_html_e( 'Use this property', 'ai-site-assistant' ); ?></button>
+			</form>
+			<?php
+			return;
+		}
+
+		printf(
+			'<a class="button button-primary" href="%s">%s</a>',
+			esc_url( AISA_Gsc_Client::get_auth_url() ),
+			esc_html__( 'Connect Google Search Console', 'ai-site-assistant' )
+		);
+	}
+
+	/**
+	 * admin-post handler: clear the stored GSC connection entirely.
+	 */
+	public static function handle_gsc_disconnect() {
+		check_admin_referer( 'aisa_gsc_disconnect' );
+		if ( ! current_user_can( 'manage_options' ) ) {
+			wp_die( esc_html__( 'Permission denied.', 'ai-site-assistant' ) );
+		}
+		delete_option( AISA_Gsc_Client::CONNECTION_OPTION );
+		wp_safe_redirect( admin_url( 'admin.php?page=aisa-settings&gsc=disconnected' ) );
+		exit;
+	}
+
+	/**
+	 * admin-post handler: save the admin's pick from the candidate-property
+	 * list shown when OAuth succeeded but auto-detection was ambiguous.
+	 */
+	public static function handle_gsc_select_property() {
+		check_admin_referer( 'aisa_gsc_select_property' );
+		if ( ! current_user_can( 'manage_options' ) ) {
+			wp_die( esc_html__( 'Permission denied.', 'ai-site-assistant' ) );
+		}
+		$chosen = isset( $_POST['property'] ) ? sanitize_text_field( wp_unslash( $_POST['property'] ) ) : '';
+		$conn   = AISA_Gsc_Client::get_connection();
+		if ( '' !== $chosen && in_array( $chosen, $conn['candidates'], true ) ) {
+			$conn['property']   = $chosen;
+			$conn['candidates'] = array();
+			update_option( AISA_Gsc_Client::CONNECTION_OPTION, $conn, false );
+		}
+		wp_safe_redirect( admin_url( 'admin.php?page=aisa-settings&gsc=connected' ) );
+		exit;
 	}
 
 	/**
@@ -98,6 +187,8 @@ class AISA_Settings {
 			'unsplash_access_key' => isset( $input['unsplash_access_key'] ) ? trim( sanitize_text_field( $input['unsplash_access_key'] ) ) : '',
 			'ahrefs_api_key'      => isset( $input['ahrefs_api_key'] ) ? trim( sanitize_text_field( $input['ahrefs_api_key'] ) ) : '',
 			'gemini_api_key'      => isset( $input['gemini_api_key'] ) ? trim( sanitize_text_field( $input['gemini_api_key'] ) ) : '',
+			'gsc_client_id'       => isset( $input['gsc_client_id'] ) ? trim( sanitize_text_field( $input['gsc_client_id'] ) ) : '',
+			'gsc_client_secret'   => isset( $input['gsc_client_secret'] ) ? trim( sanitize_text_field( $input['gsc_client_secret'] ) ) : '',
 			'use_gemini_chat'     => ! empty( $input['use_gemini_chat'] ),
 		);
 	}
@@ -251,6 +342,45 @@ class AISA_Settings {
 								<?php esc_html_e( 'Optional. From Google AI Studio / aistudio.google.com (Nano Banana Pro / Gemini 3 Pro Image). Powers original image generation from a text description. Each generated image is a billed, metered API call. Leave blank to disable.', 'ai-site-assistant' ); ?>
 							</p>
 						</td>
+					</tr>
+					<tr>
+						<th scope="row"><label for="aisa_gsc_client_id"><?php esc_html_e( 'Google OAuth Client ID', 'ai-site-assistant' ); ?></label></th>
+						<td>
+							<?php if ( defined( 'AISA_GSC_CLIENT_ID' ) && AISA_GSC_CLIENT_ID ) : ?>
+								<p><strong><?php esc_html_e( 'Set via the AISA_GSC_CLIENT_ID constant in wp-config.php.', 'ai-site-assistant' ); ?></strong></p>
+							<?php else : ?>
+								<input name="<?php echo esc_attr( self::OPTION_KEY ); ?>[gsc_client_id]"
+									id="aisa_gsc_client_id" type="text" class="regular-text"
+									value="<?php echo esc_attr( $opts['gsc_client_id'] ?? '' ); ?>"
+									autocomplete="off" />
+							<?php endif; ?>
+						</td>
+					</tr>
+					<tr>
+						<th scope="row"><label for="aisa_gsc_client_secret"><?php esc_html_e( 'Google OAuth Client Secret', 'ai-site-assistant' ); ?></label></th>
+						<td>
+							<?php if ( defined( 'AISA_GSC_CLIENT_SECRET' ) && AISA_GSC_CLIENT_SECRET ) : ?>
+								<p><strong><?php esc_html_e( 'Set via the AISA_GSC_CLIENT_SECRET constant in wp-config.php.', 'ai-site-assistant' ); ?></strong></p>
+							<?php else : ?>
+								<input name="<?php echo esc_attr( self::OPTION_KEY ); ?>[gsc_client_secret]"
+									id="aisa_gsc_client_secret" type="password" class="regular-text"
+									value="<?php echo esc_attr( $opts['gsc_client_secret'] ?? '' ); ?>"
+									autocomplete="off" />
+							<?php endif; ?>
+							<p class="description">
+								<?php
+								printf(
+									/* translators: %s: the redirect URI to register in Google Cloud Console, shown as a copyable <code> tag. */
+									esc_html__( 'Optional, powers Google Search Console diagnostics (ranking pages/queries). Create an OAuth Client ID (type: Web application) in a Google Cloud project with the Search Console API enabled, and add this exact redirect URI to its "Authorized redirect URIs": %s. Save this page, then use the Connect button below.', 'ai-site-assistant' ),
+									'<code>' . esc_html( AISA_Gsc_Client::get_redirect_uri() ) . '</code>'
+								);
+								?>
+							</p>
+						</td>
+					</tr>
+					<tr>
+						<th scope="row"><?php esc_html_e( 'Google Search Console', 'ai-site-assistant' ); ?></th>
+						<td><?php self::render_gsc_connection_status(); ?></td>
 					</tr>
 					<tr>
 						<th scope="row"><?php esc_html_e( 'Chat model', 'ai-site-assistant' ); ?></th>

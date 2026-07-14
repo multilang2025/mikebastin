@@ -25,6 +25,7 @@ require_once AISA_PATH . 'includes/class-aisa-claude-client.php';
 require_once AISA_PATH . 'includes/class-aisa-openrouter-client.php';
 require_once AISA_PATH . 'includes/class-aisa-unsplash-client.php';
 require_once AISA_PATH . 'includes/class-aisa-ahrefs-client.php';
+require_once AISA_PATH . 'includes/class-aisa-gsc-client.php';
 require_once AISA_PATH . 'includes/class-aisa-gemini-client.php';
 require_once AISA_PATH . 'includes/class-aisa-gemini-chat-client.php';
 require_once AISA_PATH . 'includes/class-aisa-file-parser.php';
