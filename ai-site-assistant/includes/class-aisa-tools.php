@@ -772,6 +772,81 @@ class AISA_Tools {
 					'additionalProperties' => false,
 				),
 			),
+			array(
+				'name'         => 'gsc_top_pages',
+				'description'  => 'Rank this site\'s pages by REAL Google Search Console performance '
+					. '(actual clicks/impressions/CTR/position Google reports, not an estimate). Use '
+					. 'order="worst" to find underperforming pages, or order="best" for top performers. '
+					. 'Read-only. Needs Google Search Console connected.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'order'  => array(
+							'type'        => 'string',
+							'enum'        => array( 'worst', 'best' ),
+							'description' => 'worst = lowest metric value first (default); best = highest first.',
+						),
+						'metric' => array(
+							'type'        => 'string',
+							'enum'        => array( 'clicks', 'impressions', 'ctr', 'position' ),
+							'description' => 'Which metric to sort by (default clicks). position: lower is better.',
+						),
+						'limit'  => array(
+							'type'        => 'integer',
+							'description' => 'Max pages to return (default 10, max 100).',
+						),
+						'days'   => array(
+							'type'        => 'integer',
+							'description' => 'How many days back to look, ending 3 days ago (GSC\'s reporting lag). Default 90, max 450.',
+						),
+					),
+					'additionalProperties' => false,
+				),
+			),
+			array(
+				'name'         => 'gsc_page_queries',
+				'description'  => 'List every search query a specific page ranks for in Google Search '
+					. 'Console, with real clicks/impressions/CTR/position per query. Read-only. Needs '
+					. 'Google Search Console connected.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'page' => array(
+							'type'        => 'string',
+							'description' => 'The page to inspect: a post/page ID, full URL, or path (e.g. "/my-page/").',
+						),
+						'days' => array(
+							'type'        => 'integer',
+							'description' => 'How many days back to look, ending 3 days ago. Default 90, max 450.',
+						),
+					),
+					'required'             => array( 'page' ),
+					'additionalProperties' => false,
+				),
+			),
+			array(
+				'name'         => 'gsc_page_report',
+				'description'  => 'One-shot Google Search Console diagnostic for a specific page: its '
+					. 'content, its overall aggregate performance (clicks/impressions/CTR/position), and '
+					. 'every query it ranks for -- all in a single call. Use this INSTEAD of calling '
+					. 'get_post and gsc_page_queries separately. Read-only. Needs Google Search Console '
+					. 'connected.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'page' => array(
+							'type'        => 'string',
+							'description' => 'The page to diagnose: a post/page ID, full URL, or path (e.g. "/my-page/").',
+						),
+						'days' => array(
+							'type'        => 'integer',
+							'description' => 'How many days back to look, ending 3 days ago. Default 90, max 450.',
+						),
+					),
+					'required'             => array( 'page' ),
+					'additionalProperties' => false,
+				),
+			),
 		);
 	}
 
@@ -877,6 +952,12 @@ class AISA_Tools {
 				return self::ahrefs_domain_metrics( $input );
 			case 'seo_competitor_report':
 				return self::seo_competitor_report( $input );
+			case 'gsc_top_pages':
+				return self::gsc_top_pages( $input );
+			case 'gsc_page_queries':
+				return self::gsc_page_queries( $input );
+			case 'gsc_page_report':
+				return self::gsc_page_report( $input );
 			default:
 				return self::error( "Unknown tool: {$name}" );
 		}
@@ -893,6 +974,27 @@ class AISA_Tools {
 			'content'  => $message,
 			'is_error' => true,
 		);
+	}
+
+	/**
+	 * Resolve a "page" tool argument -- a post/page ID, a full URL, or a
+	 * root-relative path -- to a post ID. Shared by every tool that lets the
+	 * model reference a page loosely instead of requiring an exact ID
+	 * (seo_competitor_report, gsc_page_queries, gsc_page_report).
+	 *
+	 * @param string $raw Raw "page" input.
+	 * @return int Post ID, or 0 if not found/empty.
+	 */
+	private static function resolve_page_post_id( $raw ) {
+		$raw = trim( (string) $raw );
+		if ( '' === $raw ) {
+			return 0;
+		}
+		if ( ctype_digit( $raw ) ) {
+			return (int) $raw;
+		}
+		$url = ( 0 === strpos( $raw, 'http' ) ) ? $raw : home_url( '/' . ltrim( $raw, '/' ) );
+		return (int) url_to_postid( $url );
 	}
 
 	/**
@@ -1786,19 +1888,12 @@ class AISA_Tools {
 			return self::error( 'Ahrefs API key is not configured. Add one in AISA Connector → Settings.' );
 		}
 
-		$raw = trim( (string) ( $in['page'] ?? '' ) );
-		if ( '' === $raw ) {
-			return self::error( 'Provide a page: a post/page ID, full URL, or path like "/my-page/".' );
-		}
-
-		if ( ctype_digit( $raw ) ) {
-			$post_id = (int) $raw;
-		} else {
-			$url     = ( 0 === strpos( $raw, 'http' ) ) ? $raw : home_url( '/' . ltrim( $raw, '/' ) );
-			$post_id = url_to_postid( $url );
-		}
+		$raw     = trim( (string) ( $in['page'] ?? '' ) );
+		$post_id = self::resolve_page_post_id( $raw );
 		if ( ! $post_id ) {
-			return self::error( sprintf( 'Could not find a page matching "%s".', $raw ) );
+			return self::error( '' === $raw
+				? 'Provide a page: a post/page ID, full URL, or path like "/my-page/".'
+				: sprintf( 'Could not find a page matching "%s".', $raw ) );
 		}
 
 		$post_result = self::get_post( array( 'id' => $post_id ) );
@@ -1884,6 +1979,246 @@ class AISA_Tools {
 						'top_pages' => $competitor_top_pages,
 					),
 					'other_competitors' => $other_competitors,
+				)
+			),
+		);
+	}
+
+	/**
+	 * Rank this site's pages by real Google Search Console performance.
+	 * Fetches with dimensions=['page'] and a generous row limit, then sorts
+	 * client-side -- the Search Analytics API has no orderBy parameter, so
+	 * the only reliable way to get worst/best-first is to sort ourselves.
+	 *
+	 * @param array $in Tool input.
+	 * @return array Tool result with a JSON list of pages, or an error.
+	 */
+	private static function gsc_top_pages( array $in ) {
+		if ( ! current_user_can( 'edit_posts' ) ) {
+			return self::error( 'Permission denied.' );
+		}
+		if ( ! AISA_Gsc_Client::is_configured() ) {
+			return self::error( 'Google Search Console is not connected. Connect it in AISA Connector → Settings.' );
+		}
+
+		$order  = ( 'best' === ( $in['order'] ?? 'worst' ) ) ? 'best' : 'worst';
+		$metric = in_array( $in['metric'] ?? '', array( 'clicks', 'impressions', 'ctr', 'position' ), true )
+			? $in['metric']
+			: 'clicks';
+		$limit  = min( max( 1, (int) ( $in['limit'] ?? 10 ) ), 100 );
+		$days   = min( max( 7, (int) ( $in['days'] ?? 90 ) ), 450 );
+
+		$end   = gmdate( 'Y-m-d', strtotime( '-3 days' ) );
+		$start = gmdate( 'Y-m-d', strtotime( "-{$days} days", strtotime( $end ) ) );
+
+		$rows = AISA_Gsc_Client::query(
+			array(
+				'dimensions' => array( 'page' ),
+				'startDate'  => $start,
+				'endDate'    => $end,
+				'rowLimit'   => 1000,
+			)
+		);
+		if ( is_wp_error( $rows ) ) {
+			return self::error( $rows->get_error_message() );
+		}
+
+		$pages = array_map(
+			static function ( $row ) {
+				return array(
+					'page'        => $row['keys'][0] ?? '',
+					'clicks'      => $row['clicks'] ?? 0,
+					'impressions' => $row['impressions'] ?? 0,
+					'ctr'         => $row['ctr'] ?? 0,
+					'position'    => $row['position'] ?? 0,
+				);
+			},
+			$rows
+		);
+
+		// position is "lower is better", the inverse of the other three metrics.
+		usort(
+			$pages,
+			static function ( $a, $b ) use ( $metric, $order ) {
+				$dir = ( 'position' === $metric )
+					? ( 'best' === $order ? 1 : -1 )
+					: ( 'best' === $order ? -1 : 1 );
+				return $dir * ( $a[ $metric ] <=> $b[ $metric ] );
+			}
+		);
+
+		return array(
+			'content' => self::safe_json_encode(
+				array(
+					'order'       => $order,
+					'metric'      => $metric,
+					'date_range'  => array( $start, $end ),
+					'pages'       => array_slice( $pages, 0, $limit ),
+				)
+			),
+		);
+	}
+
+	/**
+	 * List every query a specific page ranks for in Google Search Console.
+	 *
+	 * @param array $in Tool input.
+	 * @return array Tool result with a JSON list of queries, or an error.
+	 */
+	private static function gsc_page_queries( array $in ) {
+		if ( ! current_user_can( 'edit_posts' ) ) {
+			return self::error( 'Permission denied.' );
+		}
+		if ( ! AISA_Gsc_Client::is_configured() ) {
+			return self::error( 'Google Search Console is not connected. Connect it in AISA Connector → Settings.' );
+		}
+
+		$raw     = trim( (string) ( $in['page'] ?? '' ) );
+		$post_id = self::resolve_page_post_id( $raw );
+		if ( ! $post_id ) {
+			return self::error( '' === $raw
+				? 'Provide a page: a post/page ID, full URL, or path like "/my-page/".'
+				: sprintf( 'Could not find a page matching "%s".', $raw ) );
+		}
+		$permalink = get_permalink( $post_id );
+
+		$days  = min( max( 7, (int) ( $in['days'] ?? 90 ) ), 450 );
+		$end   = gmdate( 'Y-m-d', strtotime( '-3 days' ) );
+		$start = gmdate( 'Y-m-d', strtotime( "-{$days} days", strtotime( $end ) ) );
+
+		$rows = AISA_Gsc_Client::query(
+			array(
+				'dimensions'           => array( 'query' ),
+				'dimensionFilterGroups' => array(
+					array(
+						'filters' => array(
+							array(
+								'dimension'  => 'page',
+								'operator'   => 'equals',
+								'expression' => $permalink,
+							),
+						),
+					),
+				),
+				'startDate'            => $start,
+				'endDate'              => $end,
+				'rowLimit'             => 1000,
+			)
+		);
+		if ( is_wp_error( $rows ) ) {
+			return self::error( $rows->get_error_message() );
+		}
+
+		$queries = array_map(
+			static function ( $row ) {
+				return array(
+					'query'       => $row['keys'][0] ?? '',
+					'clicks'      => $row['clicks'] ?? 0,
+					'impressions' => $row['impressions'] ?? 0,
+					'ctr'         => $row['ctr'] ?? 0,
+					'position'    => $row['position'] ?? 0,
+				);
+			},
+			$rows
+		);
+		usort( $queries, static fn( $a, $b ) => $b['clicks'] <=> $a['clicks'] );
+
+		return array(
+			'content' => self::safe_json_encode(
+				array(
+					'page'       => $permalink,
+					'date_range' => array( $start, $end ),
+					'queries'    => $queries,
+				)
+			),
+		);
+	}
+
+	/**
+	 * One-shot GSC diagnostic for a single page: bundles the page's own
+	 * content, its aggregate performance, and every query it ranks for --
+	 * instead of chaining get_post + gsc_page_queries + a page-level metrics
+	 * lookup as three separate round trips.
+	 *
+	 * @param array $in Tool input.
+	 * @return array Tool result with the combined report as JSON, or an error.
+	 */
+	private static function gsc_page_report( array $in ) {
+		if ( ! current_user_can( 'edit_posts' ) ) {
+			return self::error( 'Permission denied.' );
+		}
+		if ( ! AISA_Gsc_Client::is_configured() ) {
+			return self::error( 'Google Search Console is not connected. Connect it in AISA Connector → Settings.' );
+		}
+
+		$raw     = trim( (string) ( $in['page'] ?? '' ) );
+		$post_id = self::resolve_page_post_id( $raw );
+		if ( ! $post_id ) {
+			return self::error( '' === $raw
+				? 'Provide a page: a post/page ID, full URL, or path like "/my-page/".'
+				: sprintf( 'Could not find a page matching "%s".', $raw ) );
+		}
+
+		$post_result = self::get_post( array( 'id' => $post_id ) );
+		if ( ! empty( $post_result['is_error'] ) ) {
+			return $post_result;
+		}
+		$page_meta = json_decode( $post_result['content'], true );
+		$permalink = get_permalink( $post_id );
+
+		$queries_result = self::gsc_page_queries( $in );
+		if ( ! empty( $queries_result['is_error'] ) ) {
+			return $queries_result;
+		}
+		$queries_decoded = json_decode( $queries_result['content'], true );
+
+		$days  = min( max( 7, (int) ( $in['days'] ?? 90 ) ), 450 );
+		$end   = gmdate( 'Y-m-d', strtotime( '-3 days' ) );
+		$start = gmdate( 'Y-m-d', strtotime( "-{$days} days", strtotime( $end ) ) );
+
+		// Aggregate: same page filter, but with NO dimensions -- GSC then
+		// rolls every matching row up into a single totals row instead of
+		// splitting by query.
+		$agg_rows = AISA_Gsc_Client::query(
+			array(
+				'dimensionFilterGroups' => array(
+					array(
+						'filters' => array(
+							array(
+								'dimension'  => 'page',
+								'operator'   => 'equals',
+								'expression' => $permalink,
+							),
+						),
+					),
+				),
+				'startDate'            => $start,
+				'endDate'              => $end,
+				'rowLimit'             => 1,
+			)
+		);
+		$aggregate = array(
+			'clicks'      => 0,
+			'impressions' => 0,
+			'ctr'         => 0,
+			'position'    => 0,
+		);
+		if ( ! is_wp_error( $agg_rows ) && ! empty( $agg_rows[0] ) ) {
+			$aggregate = array(
+				'clicks'      => $agg_rows[0]['clicks'] ?? 0,
+				'impressions' => $agg_rows[0]['impressions'] ?? 0,
+				'ctr'         => $agg_rows[0]['ctr'] ?? 0,
+				'position'    => $agg_rows[0]['position'] ?? 0,
+			);
+		}
+
+		return array(
+			'content' => self::safe_json_encode(
+				array(
+					'page_meta'            => $page_meta,
+					'date_range'           => array( $start, $end ),
+					'aggregate_performance' => $aggregate,
+					'queries'              => $queries_decoded['queries'] ?? array(),
 				)
 			),
 		);
