@@ -357,7 +357,7 @@ class AISA_REST {
 		}
 
 		$state = (string) $request->get_param( 'state' );
-		if ( ! wp_verify_nonce( $state, 'aisa_gsc_connect' ) ) {
+		if ( ! AISA_Gsc_Client::verify_and_consume_state( $state ) ) {
 			wp_safe_redirect( add_query_arg( 'gsc', 'invalid_state', $settings_url ) );
 			exit;
 		}

@@ -114,9 +114,22 @@ class AISA_Gsc_Client {
 	 * admin previously granted this app access (Google otherwise omits it
 	 * on repeat consent, since it assumes the app already has one).
 	 *
+	 * The `state` value is a random, single-use token stored server-side in
+	 * a transient -- NOT a wp_create_nonce(), which is tied to the current
+	 * logged-in user/session. Google's redirect back to our callback is a
+	 * cross-site top-level navigation, and whether the browser resends the
+	 * WP auth cookie on it depends on cookie policy that varies by host/
+	 * security plugin -- when it doesn't, wp_verify_nonce() sees no logged-in
+	 * user and fails verification even though nothing actually went wrong.
+	 * A transient sidesteps that: it doesn't care who (if anyone) is
+	 * considered "logged in" on the callback request.
+	 *
 	 * @return string
 	 */
 	public static function get_auth_url() {
+		$state = wp_generate_password( 32, false );
+		set_transient( 'aisa_gsc_state_' . $state, 1, 10 * MINUTE_IN_SECONDS );
+
 		$params = array(
 			'client_id'     => self::get_client_id(),
 			'redirect_uri'  => self::get_redirect_uri(),
@@ -124,9 +137,28 @@ class AISA_Gsc_Client {
 			'scope'         => self::SCOPE,
 			'access_type'   => 'offline',
 			'prompt'        => 'consent',
-			'state'         => wp_create_nonce( 'aisa_gsc_connect' ),
+			'state'         => $state,
 		);
 		return self::AUTH_URL . '?' . http_build_query( $params );
+	}
+
+	/**
+	 * Verify and consume a `state` value from get_auth_url(). Single-use:
+	 * the transient is deleted on first check, valid or not, so a replayed
+	 * callback URL can't be used twice.
+	 *
+	 * @param string $state The `state` param Google echoed back.
+	 * @return bool
+	 */
+	public static function verify_and_consume_state( $state ) {
+		$state = (string) $state;
+		if ( '' === $state ) {
+			return false;
+		}
+		$key   = 'aisa_gsc_state_' . $state;
+		$valid = (bool) get_transient( $key );
+		delete_transient( $key );
+		return $valid;
 	}
 
 	/**
