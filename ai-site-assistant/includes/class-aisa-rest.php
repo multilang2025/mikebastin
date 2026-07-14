@@ -63,11 +63,45 @@ class AISA_REST {
 				),
 			)
 		);
+
+		// Tool catalogue for the MCP bridge — lets the connector advertise every
+		// remotely-reachable tool (and its schema) without hardcoding the list.
+		register_rest_route(
+			'aisa/v1',
+			'/tools',
+			array(
+				'methods'             => 'GET',
+				'callback'            => array( __CLASS__, 'list_tools' ),
+				'permission_callback' => array( __CLASS__, 'can_use' ),
+			)
+		);
+
+		register_rest_route(
+			'aisa/v1',
+			'/bridge/connect',
+			array(
+				'methods'             => 'POST',
+				'callback'            => array( __CLASS__, 'bridge_connect' ),
+				'permission_callback' => array( __CLASS__, 'can_manage' ),
+				'args'                => array(
+					'bridge_url' => array(
+						'required' => true,
+						'type'     => 'string',
+						'format'   => 'uri',
+					),
+				),
+			)
+		);
 	}
 
 	/** Only logged-in users who can edit content may use the assistant. */
 	public static function can_use() {
 		return current_user_can( 'edit_posts' );
+	}
+
+	/** Only admins can connect to the bridge. */
+	public static function can_manage() {
+		return current_user_can( 'manage_options' );
 	}
 
 	/**
@@ -145,16 +179,7 @@ class AISA_REST {
 		$tool  = sanitize_key( $request->get_param( 'tool' ) );
 		$input = (array) $request->get_param( 'input' );
 
-		$allowed = array(
-			'generate_image',
-			'upload_media',
-			'search_images',
-			'replace_in_post',
-			'append_to_post',
-			'fact_check',
-			'get_page_html',
-			'load_skill',
-		);
+		$allowed = self::remote_tool_names();
 
 		if ( ! in_array( $tool, $allowed, true ) ) {
 			return new WP_Error(
@@ -171,5 +196,127 @@ class AISA_REST {
 		$result = AISA_Tools::dispatch( $tool, $input );
 
 		return rest_ensure_response( $result );
+	}
+
+	/**
+	 * Tools that must never be reachable remotely (via the MCP bridge), even
+	 * though the in-admin chat may use them. get_site_context embeds the system
+	 * prompt, so it stays internal.
+	 *
+	 * @var string[]
+	 */
+	const INTERNAL_ONLY_TOOLS = array( 'get_site_context' );
+
+	/**
+	 * Names of every tool reachable through the remote endpoints, derived from
+	 * the single source of truth (AISA_Tools::definitions) minus internal-only.
+	 *
+	 * @return string[]
+	 */
+	private static function remote_tool_names() {
+		$names = array();
+		foreach ( AISA_Tools::definitions() as $tool ) {
+			if ( ! in_array( $tool['name'], self::INTERNAL_ONLY_TOOLS, true ) ) {
+				$names[] = $tool['name'];
+			}
+		}
+		return $names;
+	}
+
+	/**
+	 * Return the remotely-reachable tool catalogue in MCP format
+	 * (name, description, inputSchema) for the bridge's tools/list.
+	 *
+	 * @return WP_REST_Response
+	 */
+	public static function list_tools() {
+		$tools = array();
+		foreach ( AISA_Tools::definitions() as $tool ) {
+			if ( in_array( $tool['name'], self::INTERNAL_ONLY_TOOLS, true ) ) {
+				continue;
+			}
+			$tools[] = array(
+				'name'        => $tool['name'],
+				'description' => $tool['description'],
+				'inputSchema' => isset( $tool['input_schema'] ) ? $tool['input_schema'] : array( 'type' => 'object' ),
+			);
+		}
+		return rest_ensure_response( $tools );
+	}
+
+	/**
+	 * Generate an Application Password and register the site with the PHP MCP Bridge.
+	 *
+	 * @param WP_REST_Request $request Incoming request.
+	 * @return WP_REST_Response|WP_Error Connection URL or error.
+	 */
+	public static function bridge_connect( WP_REST_Request $request ) {
+		$bridge_url = $request->get_param( 'bridge_url' );
+		$user_id    = get_current_user_id();
+
+		if ( ! class_exists( 'WP_Application_Passwords' ) ) {
+			return new WP_Error( 'aisa_no_app_passwords', __( 'Application Passwords are not available on this site.', 'ai-site-assistant' ), array( 'status' => 500 ) );
+		}
+
+		// Create a new application password for the bridge.
+		$app_password_name = 'AISA Bridge ' . time();
+		$created           = WP_Application_Passwords::create_new_application_password(
+			$user_id,
+			array( 'name' => $app_password_name )
+		);
+
+		// create_new_application_password() returns either a WP_Error or a
+		// [ $new_password, $new_item ] array -- never destructure before this
+		// check, or a failure here silently becomes a null password sent below.
+		if ( is_wp_error( $created ) ) {
+			return $created;
+		}
+		list( $new_password, $new_item ) = $created;
+
+		$user = get_userdata( $user_id );
+
+		// Send credentials to the bridge.
+		$response = wp_remote_post(
+			rtrim( $bridge_url, '/' ) . '/register.php',
+			array(
+				'headers' => array( 'Content-Type' => 'application/json' ),
+				'body'    => wp_json_encode(
+					array(
+						'wp_url'          => site_url(),
+						'wp_username'     => $user->user_login,
+						'wp_app_password' => $new_password,
+					)
+				),
+				'timeout' => 15,
+			)
+		);
+
+		if ( is_wp_error( $response ) ) {
+			return new WP_Error( 'aisa_bridge_error', __( 'Failed to connect to the bridge server.', 'ai-site-assistant' ), array( 'status' => 500 ) );
+		}
+
+		$body = wp_remote_retrieve_body( $response );
+		$data = json_decode( $body, true );
+
+		if ( empty( $data['success'] ) || empty( $data['connection_url'] ) ) {
+			return new WP_Error( 'aisa_bridge_invalid', __( 'Invalid response from the bridge server.', 'ai-site-assistant' ), array( 'status' => 500 ) );
+		}
+
+		// Persist the connection so the MCP Connector page can restore state on
+		// page load without re-running the connect flow on every visit.
+		update_option(
+			'aisa_bridge_connection',
+			array(
+				'bridge_url'     => esc_url_raw( $bridge_url ),
+				'connection_url' => esc_url_raw( $data['connection_url'] ),
+			),
+			false
+		);
+
+		return rest_ensure_response(
+			array(
+				'connection_url' => $data['connection_url'],
+			)
+		);
 	}
 }

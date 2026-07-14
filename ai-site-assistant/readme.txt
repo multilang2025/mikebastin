@@ -3,7 +3,7 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
-Stable tag: 0.8.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -155,6 +155,116 @@ Tips:
   gate on more precisely.
 
 == Changelog ==
+= 1.0.2 =
+* Fixed AISA's own admin CSS/JS never loading on the Workspace and MCP Connector pages. The page-detection matched a guessed hook-suffix string that WordPress actually derives from sanitize_title() of the menu title text, not the slug -- so on any site with a translation plugin (or anything else filtering admin menu titles), it never matched and no styling was ever applied. Now matches on the page's own query-string slug instead, which never changes.
+* Same underlying issue affected the third-party-notice-hiding CSS (it targeted WordPress's computed body class); switched to a fixed class added via admin_body_class instead.
+
+= 1.0.1 =
+* MCP Connector step 3 is now a per-client walkthrough (Claude.ai web / Claude Desktop+Code / Cursor tabs) with explicit numbered clicks and a ready-to-paste Cursor mcp.json snippet, instead of a one-line summary.
+* New tool: seo_competitor_report — one Ahrefs competitor comparison for a specific page (metrics, top competitor, their best pages, and the page's own content) in a single call instead of chaining four or five separate tool calls.
+* Fixed the MCP bridge hanging indefinitely on a slow upstream call (e.g. a chain of Ahrefs lookups): added connect/total timeouts to the bridge's WordPress call and raised its own script time limit so a stall now fails with a clear error instead of leaving the chat stuck "generating."
+
+= 1.0.0 =
+* Redesigned the MCP Connector onboarding screen: brand header with a live connection-status pill, a centered "Your AI just learned WordPress." hero with a workspace CTA, and a light-gray multi-step card.
+* Copy fields are now real `<input readonly>` elements (was `<code>`) with a more reliable copy handler (clipboard API + execCommand fallback) — fixes copy buttons not working in some browsers.
+* Removed the duplicate "Open AISA Connector" button from the Workspace page header (the disabled-chat notice already links to the same MCP Connector page).
+* Hide third-party admin notices (other plugins' nags, e.g. mail-delivery warnings) on AISA's own admin pages for a cleaner onboarding screen. This plugin does not use admin_notices itself, so nothing of its own is affected.
+
+= 0.9.9 =
+* Multi-tenant MCP bridge: the OAuth "Allow" screen now lets you pick which registered WordPress site to connect, so one bridge can serve many sites over Claude.ai web.
+* Expose the full tool set through the connector: add a /aisa/v1/tools catalogue endpoint and widen the remote allowlist so Claude.ai can use every tool the plugin offers (Ahrefs, SEO, WP-CLI, theme, abilities) except the internal get_site_context.
+
+= 0.9.8 =
+* Fix OAuth discovery on shared hosting: create physical .well-known/ directory files instead of relying on .htaccess rewrites, which fail on LiteSpeed/Nginx stacks.
+
+= 0.9.7 =
+* Fix OAuth redirect separator bug in authorize.php so Claude.ai web callback works correctly.
+* Fix redirect_uri comparison in token.php (trim trailing slashes) to prevent false mismatch.
+
+= 0.9.6 =
+* Add OAuth dynamic client registration (RFC 7591) so Claude.ai web can register itself and complete the connector sign-in flow.
+
+= 0.9.5 =
+* Add OAuth 2.0 support to php-mcp-bridge so Claude.ai web Connectors work (authorize.php, token.php, .well-known discovery, PKCE). MCP Connector page now shows two URLs: OAuth URL for Claude.ai web and token URL for Claude Desktop/Code.
+
+= 0.9.4 =
+* Fix MCP Connector: restore original Connect flow broken in 0.9.3; persist connection URL across page reloads without altering the bridge URL input logic or duplicating copy-button handler.
+
+= 0.9.3 =
+* MCP Connector: bridge URL is now pre-filled from the site domain so users just click Connect with no typing. Connection URL and state persist across page reloads — returning users see step 3 ready immediately without reconnecting.
+
+= 0.9.2 =
+* Fix the MCP Connector checklist showing doubled step numbers (e.g.
+  "2. 2", "3. 3") -- wp-admin's own core CSS applied native list markers
+  with higher specificity than the plugin's list-style: none, right next
+  to the plugin's own numbered/checkmark circles. Switched the checklist
+  from an ordered to an unordered list and qualified the reset with .wrap
+  so it can't lose that specificity fight again.
+
+= 0.9.1 =
+* Shift the plugin's primary interaction model from an in-admin chat box
+  to the MCP Connector: drive this site from an external AI client
+  (Claude, ChatGPT, Cursor) through your own hosted AISA Bridge instead.
+* Disable the in-admin chat workspace (the page stays in the admin menu,
+  showing a clear notice and a link to the MCP Connector, so it can be
+  re-enabled later without rebuilding it).
+* Redesign the MCP Connector page as a clean three-step connect flow
+  (install, connect the bridge, add the URL to your AI client) with a
+  status pill and per-client setup instructions, instead of the previous
+  chat-testing wizard.
+
+= 0.9.0 =
+* Add an opt-in "Use Gemini 2.5 Flash for chat instead of Claude" checkbox
+  in Settings, for sites that would rather stay on Gemini's free tier than
+  pay per token. Reuses the existing Gemini API key. A new
+  AISA_Gemini_Chat_Client translates the same conversation/tool format
+  AISA_Agent already builds into Gemini's function-calling format and
+  back, so nothing else in the plugin needs to know or care which model
+  answered. Self-throttled to a few requests per minute and ~200/day --
+  deliberately under Google's published free-tier caps -- so it always
+  fails with a clear message instead of a raw error once used up, rather
+  than risking the underlying Cloud project tipping into metered billing.
+  Off by default; Claude remains the default chat model.
+* Fix a latent gap in the write-approval gate that would only have
+  surfaced with a second LLM provider: Gemini allows several function
+  calls in one response by default, unlike Claude's
+  disable_parallel_tool_use. The new client only ever surfaces the first
+  function call per turn, so the one-write-per-approval guarantee holds
+  regardless of which model is answering.
+
+= 0.8.6 =
+* Fix distributed-client updates never showing up. The plugin's repo was
+  private, and the fallback GitHub token added in 0.8.4 for distributed
+  zips was never actually substituted with a real value at build time --
+  every client site received the literal placeholder, meaning zero token
+  against a private repo's release API, meaning updates silently never
+  surfaced. The repo is now public (audited for anything sensitive in its
+  history first; nothing was found) so update checks and downloads need no
+  token at all, and the fallback-token logic has been removed rather than
+  wired up, since baking a shared credential into every distributed zip
+  was a real exposure the moment more than one client had a copy.
+
+= 0.8.5 =
+* Fix a silent JSON-encoding failure on reads: PHP's json_encode() returns
+  false on invalid UTF-8, and every read tool (get_post, search_posts,
+  get_page_html, etc.) passed that false straight through as tool_result
+  content instead of the real data, which the Claude API then rejected.
+  Every wp_json_encode() call site in class-aisa-tools.php now retries once
+  through a UTF-8 cleanup pass before giving up.
+* Fix get_page_html truncating long pages with a raw byte-offset substr(),
+  which can slice a multi-byte UTF-8 character in half (emoji, smart
+  quotes, non-Latin text) and produce exactly the invalid-UTF-8 string the
+  fix above has to recover from. Switched to mb_strcut(), which truncates
+  at the nearest whole character instead.
+
+= 0.8.4 =
+* Add fallback GitHub token logic to the native updater, enabling seamless auto-updates for distributed ZIP files.
+
+
+= 0.8.3 =
+* Replaced the Node.js MCP server (`wp-mcp-server`) with a lightweight, standalone PHP Hosted Bridge (`php-mcp-bridge`).
+* Added a new WPVibe-style "Connect to Claude Desktop/Web" section in settings to securely generate connection URLs for the bridge.
+* The PHP bridge completely eliminates the need to run Node.js on your hosting provider, allowing native operation on shared hosting environments via SQLite and Server-Sent Events (SSE).
 
 = 0.8.1 =
 * Redesign the MCP Connector page as a plain-language, four-step wizard

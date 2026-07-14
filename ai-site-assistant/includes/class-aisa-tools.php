@@ -742,6 +742,36 @@ class AISA_Tools {
 					'additionalProperties' => false,
 				),
 			),
+			array(
+				'name'         => 'seo_competitor_report',
+				'description'  => 'One-shot competitor comparison for a specific page on this site: this '
+					. 'domain\'s Ahrefs metrics, its top organic competitor (or one you specify), that '
+					. 'competitor\'s metrics and best-performing pages, and the full content of the page '
+					. 'you\'re improving -- all in a single call. Use this INSTEAD of calling '
+					. 'ahrefs_domain_metrics, ahrefs_organic_competitors, ahrefs_top_pages, and get_post '
+					. 'separately to compare one page against competitors; each of those is a full round '
+					. 'trip and chaining them one-by-one is much slower for no benefit. Read-only. Needs an '
+					. 'Ahrefs API key.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'page'       => array(
+							'type'        => 'string',
+							'description' => 'The page to improve: a post/page ID, full URL, or path (e.g. "/my-page/").',
+						),
+						'competitor' => array(
+							'type'        => 'string',
+							'description' => 'Optional competitor domain to compare against. Omit to auto-pick the top organic competitor by shared keywords.',
+						),
+						'country'    => array(
+							'type'        => 'string',
+							'description' => 'Optional two-letter country code for the market (default us).',
+						),
+					),
+					'required'             => array( 'page' ),
+					'additionalProperties' => false,
+				),
+			),
 		);
 	}
 
@@ -845,6 +875,8 @@ class AISA_Tools {
 				return self::ahrefs_organic_competitors( $input );
 			case 'ahrefs_domain_metrics':
 				return self::ahrefs_domain_metrics( $input );
+			case 'seo_competitor_report':
+				return self::seo_competitor_report( $input );
 			default:
 				return self::error( "Unknown tool: {$name}" );
 		}
@@ -861,6 +893,50 @@ class AISA_Tools {
 			'content'  => $message,
 			'is_error' => true,
 		);
+	}
+
+	/**
+	 * Wraps wp_json_encode(), which returns false on invalid UTF-8 instead of
+	 * throwing. Real post content routinely
+	 * contains this -- mixed-charset imports, copy-paste from Word/PDF, or a
+	 * byte-offset substr() elsewhere slicing a multi-byte character in half
+	 * -- and every tool method here used to pass that false straight through
+	 * as tool_result content, which the Claude API then rejects outright.
+	 * Retry once after stripping invalid byte sequences before giving up.
+	 *
+	 * @param mixed $data Data to encode.
+	 * @return string JSON string. Never false.
+	 */
+	private static function safe_json_encode( $data ) {
+		$json = wp_json_encode( $data );
+		if ( false !== $json ) {
+			return $json;
+		}
+		$json = wp_json_encode( self::strip_invalid_utf8( $data ) );
+		if ( false !== $json ) {
+			return $json;
+		}
+		return wp_json_encode( array( 'error' => 'Could not encode this content -- it contains characters that are not valid text.' ) );
+	}
+
+	/**
+	 * Recursively strip invalid UTF-8 byte sequences from strings, arrays,
+	 * and array-castable objects (e.g. a WP_Post-derived array) ahead of a
+	 * retry in safe_json_encode().
+	 *
+	 * @param mixed $data Data to clean.
+	 * @return mixed Cleaned data, same shape as the input.
+	 */
+	private static function strip_invalid_utf8( $data ) {
+		if ( is_string( $data ) ) {
+			return wp_check_invalid_utf8( $data, true );
+		}
+		if ( is_array( $data ) ) {
+			foreach ( $data as $key => $value ) {
+				$data[ $key ] = self::strip_invalid_utf8( $value );
+			}
+		}
+		return $data;
 	}
 
 	/**
@@ -889,7 +965,7 @@ class AISA_Tools {
 				'url'    => get_permalink( $p ),
 			);
 		}
-		return array( 'content' => wp_json_encode( $rows ) );
+		return array( 'content' => self::safe_json_encode( $rows ) );
 	}
 
 	/**
@@ -908,7 +984,7 @@ class AISA_Tools {
 			return self::error( 'Post not found.' );
 		}
 		return array(
-			'content' => wp_json_encode(
+			'content' => self::safe_json_encode(
 				array(
 					'id'                => $p->ID,
 					'title'             => $p->post_title,
@@ -1033,7 +1109,7 @@ class AISA_Tools {
 	private static function get_site_context() {
 		$theme = wp_get_theme();
 		return array(
-			'content' => wp_json_encode(
+			'content' => self::safe_json_encode(
 				array(
 					'theme'          => $theme->get( 'Name' ) . ' ' . $theme->get( 'Version' ),
 					'post_types'     => array_values( get_post_types( array( 'public' => true ) ) ),
@@ -1109,7 +1185,7 @@ class AISA_Tools {
 		}
 
 		return array(
-			'content' => wp_json_encode(
+			'content' => self::safe_json_encode(
 				array(
 					'claim'   => $claim,
 					'model'   => AISA_OpenRouter_Client::get_model(),
@@ -1235,7 +1311,7 @@ class AISA_Tools {
 		if ( ! current_user_can( 'edit_post', $id ) ) {
 			return self::error( 'Permission denied for this post.' );
 		}
-		return array( 'content' => wp_json_encode( AISA_SEO::read_fields( $id ) ) );
+		return array( 'content' => self::safe_json_encode( AISA_SEO::read_fields( $id ) ) );
 	}
 
 	/**
@@ -1258,7 +1334,7 @@ class AISA_Tools {
 		if ( empty( $fields ) ) {
 			return self::error( 'No SEO fields provided. Pass at least one of meta_title, meta_description, etc.' );
 		}
-		return array( 'content' => wp_json_encode( AISA_SEO::write_fields( $id, $fields ) ) );
+		return array( 'content' => self::safe_json_encode( AISA_SEO::write_fields( $id, $fields ) ) );
 	}
 
 	/**
@@ -1272,7 +1348,7 @@ class AISA_Tools {
 		if ( ! current_user_can( 'edit_post', $id ) ) {
 			return self::error( 'Permission denied for this post.' );
 		}
-		return array( 'content' => wp_json_encode( AISA_Meta::read_meta( $id, 'rank_math_schema' ) ) );
+		return array( 'content' => self::safe_json_encode( AISA_Meta::read_meta( $id, 'rank_math_schema' ) ) );
 	}
 
 	/**
@@ -1298,7 +1374,7 @@ class AISA_Tools {
 		if ( is_wp_error( $result ) ) {
 			return self::error( $result->get_error_message() );
 		}
-		return array( 'content' => wp_json_encode( $result ) );
+		return array( 'content' => self::safe_json_encode( $result ) );
 	}
 
 	/**
@@ -1333,7 +1409,7 @@ class AISA_Tools {
 				'download_location' => $photo['links']['download_location'] ?? '',
 			);
 		}
-		return array( 'content' => wp_json_encode( $rows ) );
+		return array( 'content' => self::safe_json_encode( $rows ) );
 	}
 
 	/**
@@ -1383,7 +1459,7 @@ class AISA_Tools {
 		AISA_Audit_Log::record( 'generate_image', null, array( 'contrast_note' => (string) ( $in['contrast_note'] ?? '' ) ) );
 
 		return array(
-			'content' => wp_json_encode(
+			'content' => self::safe_json_encode(
 				array(
 					'image_id'   => $image_id,
 					'mime_type'  => $result['mime_type'],
@@ -1445,7 +1521,7 @@ class AISA_Tools {
 
 		AISA_Audit_Log::record( 'upload_media', $post_id ? $post_id : null, array( 'attachment_id' => $attachment_id ) );
 		return array(
-			'content' => wp_json_encode(
+			'content' => self::safe_json_encode(
 				array(
 					'attachment_id' => $attachment_id,
 					'url'           => wp_get_attachment_url( $attachment_id ),
@@ -1544,11 +1620,17 @@ class AISA_Tools {
 		$max_bytes = 20000;
 		$truncated = strlen( $html ) > $max_bytes;
 		if ( $truncated ) {
-			$html = substr( $html, 0, $max_bytes ) . "\n<!-- AISA: truncated at {$max_bytes} bytes -->";
+			// mb_strcut(), not substr(): a byte offset can land in the middle of
+			// a multi-byte UTF-8 character (emoji, smart quotes, non-Latin
+			// text), which produces invalid UTF-8 and makes safe_json_encode()
+			// fall back to stripping content instead of just truncating it.
+			// mb_strcut() cuts at the nearest character boundary at or before
+			// the byte limit instead.
+			$html = mb_strcut( $html, 0, $max_bytes ) . "\n<!-- AISA: truncated at {$max_bytes} bytes -->";
 		}
 
 		return array(
-			'content' => wp_json_encode(
+			'content' => self::safe_json_encode(
 				array(
 					'url'       => $permalink,
 					'status'    => wp_remote_retrieve_response_code( $response ),
@@ -1593,7 +1675,7 @@ class AISA_Tools {
 			return self::error( $response->get_error_message() );
 		}
 		return array(
-			'content' => wp_json_encode(
+			'content' => self::safe_json_encode(
 				array(
 					'target' => $target,
 					'order'  => 'best' === ( $in['order'] ?? 'worst' ) ? 'best' : 'worst',
@@ -1636,7 +1718,7 @@ class AISA_Tools {
 			return self::error( $response->get_error_message() );
 		}
 		return array(
-			'content' => wp_json_encode(
+			'content' => self::safe_json_encode(
 				array(
 					'target'      => $target,
 					'country'     => '' !== $country ? $country : 'us',
@@ -1675,10 +1757,133 @@ class AISA_Tools {
 			return self::error( $response->get_error_message() );
 		}
 		return array(
-			'content' => wp_json_encode(
+			'content' => self::safe_json_encode(
 				array(
 					'target'  => $target,
 					'metrics' => $response['metrics'] ?? array(),
+				)
+			),
+		);
+	}
+
+	/**
+	 * One-shot competitor comparison for a single page: bundles the page's
+	 * own content, this domain's Ahrefs metrics, the top (or a specified)
+	 * organic competitor's metrics and best-performing pages, into a single
+	 * dispatch instead of four+ separate round trips. Internally reuses
+	 * get_post() / ahrefs_domain_metrics() / ahrefs_organic_competitors() /
+	 * ahrefs_top_pages() so permission checks and Ahrefs call shape stay in
+	 * one place.
+	 *
+	 * @param array $in Tool input.
+	 * @return array Tool result with the combined report as JSON, or an error.
+	 */
+	private static function seo_competitor_report( array $in ) {
+		if ( ! current_user_can( 'edit_posts' ) ) {
+			return self::error( 'Permission denied.' );
+		}
+		if ( ! AISA_Ahrefs_Client::is_configured() ) {
+			return self::error( 'Ahrefs API key is not configured. Add one in AISA Connector → Settings.' );
+		}
+
+		$raw = trim( (string) ( $in['page'] ?? '' ) );
+		if ( '' === $raw ) {
+			return self::error( 'Provide a page: a post/page ID, full URL, or path like "/my-page/".' );
+		}
+
+		if ( ctype_digit( $raw ) ) {
+			$post_id = (int) $raw;
+		} else {
+			$url     = ( 0 === strpos( $raw, 'http' ) ) ? $raw : home_url( '/' . ltrim( $raw, '/' ) );
+			$post_id = url_to_postid( $url );
+		}
+		if ( ! $post_id ) {
+			return self::error( sprintf( 'Could not find a page matching "%s".', $raw ) );
+		}
+
+		$post_result = self::get_post( array( 'id' => $post_id ) );
+		if ( ! empty( $post_result['is_error'] ) ) {
+			return $post_result;
+		}
+		$page = json_decode( $post_result['content'], true );
+
+		$country     = sanitize_text_field( (string) ( $in['country'] ?? 'us' ) );
+		$site_target = AISA_Ahrefs_Client::site_target();
+
+		$site_metrics_result = self::ahrefs_domain_metrics(
+			array(
+				'target'  => $site_target,
+				'country' => $country,
+			)
+		);
+		$site_metrics = empty( $site_metrics_result['is_error'] )
+			? json_decode( $site_metrics_result['content'], true )
+			: null;
+
+		$competitor_target = trim( (string) ( $in['competitor'] ?? '' ) );
+		$competitor_source = 'specified';
+		$other_competitors  = null;
+
+		if ( '' === $competitor_target ) {
+			$competitors_result = self::ahrefs_organic_competitors(
+				array(
+					'target'  => $site_target,
+					'country' => $country,
+					'limit'   => 5,
+				)
+			);
+			if ( ! empty( $competitors_result['is_error'] ) ) {
+				return $competitors_result;
+			}
+			$competitors_decoded = json_decode( $competitors_result['content'], true );
+			$other_competitors   = $competitors_decoded['competitors'] ?? array();
+			$top                 = $other_competitors[0] ?? null;
+			if ( empty( $top['competitor_domain'] ) ) {
+				return self::error( 'Ahrefs returned no organic competitors for this site.' );
+			}
+			$competitor_target = $top['competitor_domain'];
+			$competitor_source = 'auto (top organic competitor by shared keywords)';
+		}
+
+		$competitor_metrics_result = self::ahrefs_domain_metrics(
+			array(
+				'target'  => $competitor_target,
+				'country' => $country,
+			)
+		);
+		$competitor_metrics = empty( $competitor_metrics_result['is_error'] )
+			? json_decode( $competitor_metrics_result['content'], true )
+			: array( 'error' => $competitor_metrics_result['content'] ?? 'unavailable' );
+
+		$competitor_top_pages_result = self::ahrefs_top_pages(
+			array(
+				'target'  => $competitor_target,
+				'order'   => 'best',
+				'limit'   => 5,
+				'country' => $country,
+			)
+		);
+		$competitor_top_pages = array();
+		if ( empty( $competitor_top_pages_result['is_error'] ) ) {
+			$decoded              = json_decode( $competitor_top_pages_result['content'], true );
+			$competitor_top_pages = $decoded['pages'] ?? array();
+		}
+
+		return array(
+			'content' => self::safe_json_encode(
+				array(
+					'page'              => $page,
+					'site'              => array(
+						'target'  => $site_target,
+						'metrics' => $site_metrics,
+					),
+					'competitor'        => array(
+						'target'    => $competitor_target,
+						'source'    => $competitor_source,
+						'metrics'   => $competitor_metrics,
+						'top_pages' => $competitor_top_pages,
+					),
+					'other_competitors' => $other_competitors,
 				)
 			),
 		);

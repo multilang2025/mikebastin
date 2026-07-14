@@ -246,10 +246,17 @@
 		runChain( false, 0, attachment );
 	}
 
-	form.addEventListener( 'submit', function ( e ) {
-		e.preventDefault();
-		submitMessage( input.value.trim() );
-	} );
+	// The chat workspace is currently disabled (see class-aisa-settings.php
+	// render_chat()) and the MCP Connector page no longer embeds a chat --
+	// neither #aisa-form nor #aisa-input exist on any admin page right now.
+	// Guarded rather than removed so re-enabling either page's markup in
+	// the future needs no JS changes.
+	if ( form && input ) {
+		form.addEventListener( 'submit', function ( e ) {
+			e.preventDefault();
+			submitMessage( input.value.trim() );
+		} );
+	}
 
 	if ( generateBtn ) {
 		// Hidden entirely when no Gemini key is configured (see class-aisa-settings.php).
@@ -282,29 +289,49 @@
 			if ( ! target ) {
 				return;
 			}
-			const text = target.textContent;
+			// Copy fields are <input readonly>; .value is the source of
+			// truth (falls back to textContent for any legacy non-input use).
+			const isField = 'value' in target;
+			const text = isField ? target.value : target.textContent;
+			if ( ! text ) {
+				return;
+			}
 
-			// navigator.clipboard needs a secure context and can still reject
-			// (permissions, non-HTTPS admin, older browsers) -- always fall
-			// back to a manual-select so the button never fails silently for
-			// a non-technical user who won't know to check devtools.
-			const fallbackSelect = function () {
-				const range = document.createRange();
-				range.selectNodeContents( target );
-				const selection = window.getSelection();
-				selection.removeAllRanges();
-				selection.addRange( range );
+			// execCommand('copy') needs a text selection to act on, and is
+			// also the fallback when navigator.clipboard is unavailable or
+			// rejects (permissions, non-HTTPS admin, older browsers) -- so
+			// the button never fails silently for a non-technical user who
+			// won't know to check devtools.
+			const selectFallback = function () {
+				if ( isField ) {
+					target.select();
+					target.setSelectionRange( 0, text.length );
+				} else {
+					const range = document.createRange();
+					range.selectNodeContents( target );
+					const selection = window.getSelection();
+					selection.removeAllRanges();
+					selection.addRange( range );
+				}
+				try {
+					if ( document.execCommand( 'copy' ) ) {
+						flashCopyBtn( btn, 'Copied!' );
+						return;
+					}
+				} catch ( e ) {
+					// Fall through to the "select it yourself" message below.
+				}
 				flashCopyBtn( btn, 'Selected — press Ctrl+C' );
 			};
 
-			if ( navigator.clipboard ) {
+			if ( navigator.clipboard && window.isSecureContext ) {
 				navigator.clipboard.writeText( text )
 					.then( function () {
 						flashCopyBtn( btn, 'Copied!' );
 					} )
-					.catch( fallbackSelect );
+					.catch( selectFallback );
 			} else {
-				fallbackSelect();
+				selectFallback();
 			}
 		} );
 	} );

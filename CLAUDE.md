@@ -2,10 +2,10 @@
 
 ## Project Summary
 
-Two independent ways to drive a self-hosted WordPress site with Codex, on your own Anthropic key (no daily cap) — alternative to WPVibe.
+Two independent ways to drive a self-hosted WordPress site with Claude, on your own Anthropic key (no daily cap) — alternative to WPVibe.
 
-- **Prong 1** (`ai-site-assistant/`): WordPress plugin with in-wp-admin chat panel. Call Codex server-side with your API key.
-- **Prong 2** (`wp-mcp-server/`): Local MCP server for Codex/Desktop, wrapping WordPress REST API + plugin's tool bridge.
+- **Prong 1** (`ai-site-assistant/`): WordPress plugin with in-wp-admin chat panel. Call Claude server-side with your API key.
+- **Prong 2** (`wp-mcp-server/`): Local MCP server for Claude Code/Desktop, wrapping WordPress REST API + plugin's tool bridge.
 
 **Latest version: v0.7.0** (July 7, 2026). Just shipped the MCP bridge (`POST /aisa/v1/tool`) so the MCP server can reuse the plugin's 15+ tools.
 
@@ -15,7 +15,7 @@ Two independent ways to drive a self-hosted WordPress site with Codex, on your o
 |---------|------|--------------|
 | 0.7.0 | 2026-07-07 | MCP bridge: 8 plugin-side tools callable from MCP server. 8 new bridge tools in MCP (generate_seo_image, commit_image, replace_in_post, append_to_post, search_images, fact_check, get_page_html, load_skill). No changes to in-admin chat. |
 | 0.6.4 | 2026-07-06 | Client-side retry for transient `invalid_json` on long multi-step chats. |
-| 0.6.3 | 2026-07-03 | Every request does at most one network-bound op (Codex call OR tool dispatch, never stacked). |
+| 0.6.3 | 2026-07-03 | Every request does at most one network-bound op (Claude call OR tool dispatch, never stacked). |
 | 0.6.2 | 2026-07-03 | Working indicator pinned to bottom of chat. |
 | 0.6.1 | 2026-07-03 | UI polish: Send/Generate Images stacked, header centered. |
 | 0.6.0 | 2026-07-02 | Multi-step fix, Generate Images button, CSV/XLSX file attachment. |
@@ -32,20 +32,20 @@ AISA_REST::chat (includes/class-aisa-rest.php)
   ↓
 AISA_Agent::run (includes/class-aisa-agent.php) — tool-use loop + write gate
   ↓
-AISA_Claude_Client::create (includes/class-aisa-Codex-client.php)
-  ↓ (Codex tool_use blocks)
+AISA_Claude_Client::create (includes/class-aisa-claude-client.php)
+  ↓ (Claude tool_use blocks)
 AISA_Tools::dispatch (includes/class-aisa-tools.php) — THE SECURITY BOUNDARY
   ↓
 WordPress APIs + external clients (Gemini, Ahrefs, Perplexity, Unsplash)
 ```
 
 **Key design decisions:**
-- **One network-op per HTTP request**: each request does either one Codex call OR one tool dispatch, never both stacked. Avoids gateway timeout on long chats.
+- **One network-op per HTTP request**: each request does either one Claude call OR one tool dispatch, never both stacked. Avoids gateway timeout on long chats.
 - **Write gate**: `AISA_Agent` checks if a tool is destructive (in `AISA_Tools::destructive_tools()`); if yes and not yet approved, returns `pending`. UI shows Approve/Cancel.
-- **Image handling**: `generate_image` returns only a tiny `image_id` reference to Codex, not raw bytes. Base64 cached 15min in transient. Browser reads transient directly for preview.
+- **Image handling**: `generate_image` returns only a tiny `image_id` reference to Claude, not raw bytes. Base64 cached 15min in transient. Browser reads transient directly for preview.
 - **File attachments**: parsed in `AISA_REST::chat` before agent runs, folded into user message. Neither agent nor tools aware attachments exist.
 - **Skills system**: on-demand playbooks (`load_skill`) instead of monolithic system prompt.
-- **External API clients**: one per provider (Codex, OpenRouter/Sonar, Unsplash, Ahrefs, Gemini), same shape each time.
+- **External API clients**: one per provider (Claude, OpenRouter/Sonar, Unsplash, Ahrefs, Gemini), same shape each time.
 
 ## Tech stack
 
@@ -64,7 +64,7 @@ WordPress APIs + external clients (Gemini, Ahrefs, Perplexity, Unsplash)
 - Minimal CSS, centered layout
 
 **External APIs:**
-- Codex Opus 4.8 (default, adaptive thinking)
+- Claude Opus 4.8 (default, adaptive thinking)
 - Gemini 3 Pro Image (Nano Banana Pro)
 - Ahrefs API v3
 - Perplexity Sonar (via OpenRouter)
@@ -105,7 +105,7 @@ WordPress APIs + external clients (Gemini, Ahrefs, Perplexity, Unsplash)
 - `admin/css/admin.css` — minimal styling
 
 **External API clients:**
-- `includes/class-aisa-Codex-client.php` — Messages API
+- `includes/class-aisa-claude-client.php` — Messages API
 - `includes/class-aisa-gemini-client.php` — Gemini image gen
 - `includes/class-aisa-ahrefs-client.php` — Ahrefs API v3
 - `includes/class-aisa-openrouter-client.php` — Perplexity Sonar
@@ -170,7 +170,7 @@ WordPress APIs + external clients (Gemini, Ahrefs, Perplexity, Unsplash)
 
 ## Repo settings worth noting
 
-- **Default branch on GitHub**: currently set to `Codex/sharp-mendel-e2p23s` (confusing; should be `main`)
+- **Default branch on GitHub**: currently set to `claude/sharp-mendel-e2p23s` (confusing; should be `main`)
 - **GitHub Actions**: CI triggers on push to `main` + pull_request events. Release triggers on `v*` tags.
 - **CI status checks**: must pass before allowing merge (set in branch protection rules, if any)
 
