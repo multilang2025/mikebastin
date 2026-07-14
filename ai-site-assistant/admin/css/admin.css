@@ -224,3 +224,36 @@
 .aisa-copy-btn {
 	flex-shrink: 0;
 }
+
+.aisa-skills-panel {
+    margin: 24px 0 32px;
+    padding: 20px;
+    border: 1px solid #d9d9d9;
+    border-radius: 14px;
+    background: #fff;
+}
+
+.aisa-skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 12px;
+    margin-top: 16px;
+}
+
+.aisa-skill-card {
+    padding: 14px 16px;
+    border: 1px solid #e3e3e3;
+    border-radius: 12px;
+    background: #fafafa;
+}
+
+.aisa-skill-card h3 {
+    margin: 0 0 8px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+.aisa-skill-card p {
+    margin: 0;
+}

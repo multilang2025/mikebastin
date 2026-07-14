@@ -294,6 +294,35 @@ class AISA_Settings {
 					<?php esc_html_e( 'Want to drive this site from Claude Code, Claude Desktop, or another AI app on your computer? Follow the four steps below — no technical background needed.', 'ai-site-assistant' ); ?>
 				</p>
 			</div>
+			
+			<?php
+			$available_skills = array(
+				'eeat' => 'Strengthen Experience, Expertise, Authoritativeness, and Trust signals in a post.',
+				'fact_checking' => 'Verify a claim, statistic, date, price, quote, or study before writing it, or check an existing one.',
+				'nlp_readability' => 'Improve clarity, topical coverage, and readability without rewriting the whole post.',
+				'internal_links' => 'Find and add relevant internal links between existing posts and pages.',
+				'meta_tags' => 'Write or improve SEO meta title/description and Open Graph/Twitter tags.',
+				'schema' => 'Inspect or write Rank Math structured-data entries.',
+				'page_builders' => 'How post_content maps to Classic, Gutenberg, Divi, and Elementor.',
+				'theme_editing' => 'Edit theme files safely using the draft-first sandbox workflow.',
+				'images' => 'Find and insert a stock photo into a post from a natural-language description.',
+				'image_generation' => 'Generate original artwork tailored to a specific post.',
+				'seo_intelligence' => 'Answer traffic/performance and competitor questions using Ahrefs data.',
+				'gsc_intelligence' => 'Google Search Console performance diagnostics and content optimization.',
+			);
+			?>
+			<section class="aisa-skills-panel">
+				<h2><?php esc_html_e( 'Available Skills', 'ai-site-assistant' ); ?></h2>
+				<p><?php esc_html_e( 'These are the skills the assistant can load on demand.', 'ai-site-assistant' ); ?></p>
+				<div class="aisa-skills-grid">
+					<?php foreach ( $available_skills as $skill_name => $skill_summary ) : ?>
+						<article class="aisa-skill-card">
+							<h3><?php echo esc_html( $skill_name ); ?></h3>
+							<p><?php echo esc_html( $skill_summary ); ?></p>
+						</article>
+					<?php endforeach; ?>
+				</div>
+			</section>
 
 			<ol class="aisa-wizard">
 				<li class="aisa-wizard-step">
@@ -320,6 +349,9 @@ class AISA_Settings {
 							);
 							?>
 						</p>
+
+
+
 						<p><?php esc_html_e( 'Then paste these three lines into the .env file the connector created:', 'ai-site-assistant' ); ?></p>
 						<div class="aisa-copy-row">
 							<code class="aisa-copy-field" id="aisa-copy-env">WP_SITE_URL=<?php echo esc_html( home_url() ); ?>

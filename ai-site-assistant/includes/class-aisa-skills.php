@@ -33,6 +33,7 @@ class AISA_Skills {
 		'images'           => 'Find and insert a stock photo into a post from a natural-language description.',
 		'image_generation' => 'Generate original, hyper-realistic, text-free artwork tailored to a specific post.',
 		'seo_intelligence' => 'Answer traffic/performance and competitor questions using Ahrefs data.',
+		'gsc_intelligence' => 'Google Search Console performance diagnostics and content optimization.',
 	);
 
 	/**
@@ -156,6 +157,16 @@ class AISA_Skills {
 				. 'than generating repeatedly to fish for a better result; only regenerate if the result was '
 				. 'genuinely off-target or blocked by a safety filter.',
 		);
-		return $bodies[ $name ] ?? null;
+		if ( isset( $bodies[ $name ] ) ) {
+			return $bodies[ $name ];
+		}
+
+		$skill_file = plugin_dir_path( __FILE__ ) . '../skills/' . $name . '.md';
+		if ( file_exists( $skill_file ) ) {
+			return file_get_contents( $skill_file );
+		}
+
+		return null;
 	}
+	
 }

@@ -17,3 +17,6 @@ node_modules/
 wp-cli.local.yml
 .env
 phpcs-report.xml
+
+HANDOFF-CHAT-AND-IMAGE-GEN-LOGIC.md
+HANDOFF-SESSION.md
