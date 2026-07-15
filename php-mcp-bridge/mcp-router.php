@@ -15,11 +15,21 @@ function handle_mcp_request($site, $payload) {
     if ($method === 'initialize') {
         // Echo the client's protocol version so newer Claude.ai clients accept us.
         $client_proto = $params['protocolVersion'] ?? '2025-03-26';
+        // Name this session's server after the actual WordPress site the
+        // authenticated token is bound to (not this bridge's own domain) --
+        // otherwise the model has no reliable way to know which site it's
+        // actually connected to and tends to guess from the connector's own
+        // displayed URL (the bridge host), which is the wrong site entirely.
+        $site_label = !empty($site['wp_url']) ? $site['wp_url'] : 'aisa-php-bridge';
         $response['result'] = [
             'protocolVersion' => $client_proto,
             // tools MUST be a JSON object ({}), not an array ([]).
             'capabilities' => ['tools' => (object) []],
-            'serverInfo' => ['name' => 'aisa-php-bridge', 'version' => '0.7.0']
+            'serverInfo' => [
+                'name'    => 'AISA — ' . $site_label,
+                'title'   => 'AISA — ' . $site_label,
+                'version' => '0.7.0',
+            ],
         ];
         return $response;
     }

@@ -297,21 +297,30 @@ class AISA_Gsc_Client {
 	}
 
 	/**
-	 * Run a Search Analytics query against the resolved property.
+	 * Run a Search Analytics query against a property. Any property the
+	 * connected Google account can access works here, not just this site's
+	 * own -- one GSC OAuth connection covers every domain verified under
+	 * that account (see resolve_property()).
 	 *
-	 * @param array $body Request body: dimensions, dimensionFilterGroups,
-	 *                    startDate, endDate, rowLimit (startDate/endDate are
-	 *                    filled in from default_date_range() if omitted).
+	 * @param array  $body     Request body: dimensions, dimensionFilterGroups,
+	 *                         startDate, endDate, rowLimit (startDate/endDate
+	 *                         are filled in from default_date_range() if
+	 *                         omitted).
+	 * @param string $property Optional siteUrl to query instead of the
+	 *                         connected site's own resolved property.
 	 * @return array|WP_Error List of row objects, or WP_Error.
 	 */
-	public static function query( array $body ) {
+	public static function query( array $body, $property = '' ) {
 		$token = self::get_access_token();
 		if ( is_wp_error( $token ) ) {
 			return $token;
 		}
 
-		$conn = self::get_connection();
-		if ( '' === $conn['property'] ) {
+		if ( '' === $property ) {
+			$conn     = self::get_connection();
+			$property = $conn['property'];
+		}
+		if ( '' === $property ) {
 			return new WP_Error( 'aisa_gsc_no_property', __( 'No Search Console property selected yet.', 'ai-site-assistant' ) );
 		}
 
@@ -322,7 +331,7 @@ class AISA_Gsc_Client {
 		}
 
 		$response = wp_remote_post(
-			self::API_BASE . 'sites/' . rawurlencode( $conn['property'] ) . '/searchAnalytics/query',
+			self::API_BASE . 'sites/' . rawurlencode( $property ) . '/searchAnalytics/query',
 			array(
 				'timeout' => 30,
 				'headers' => array(
@@ -355,5 +364,65 @@ class AISA_Gsc_Client {
 		$end   = gmdate( 'Y-m-d', strtotime( '-3 days' ) );
 		$start = gmdate( 'Y-m-d', strtotime( '-93 days' ) );
 		return array( $start, $end );
+	}
+
+	/**
+	 * Match a loosely-specified domain/URL/siteUrl against the properties
+	 * this Google account can actually access, so tools can query any site
+	 * the admin owns in Search Console -- not just the one this WordPress
+	 * install is running on -- without needing a separate OAuth connection
+	 * per domain.
+	 *
+	 * @param string $raw Domain, full URL, or exact siteUrl (e.g. "sc-domain:example.com").
+	 * @return string|WP_Error Matching siteUrl, this site's own connected
+	 *                         property if $raw is empty, or WP_Error if no
+	 *                         property matches.
+	 */
+	public static function resolve_property( $raw ) {
+		$raw = trim( (string) $raw );
+		if ( '' === $raw ) {
+			$conn = self::get_connection();
+			if ( '' === $conn['property'] ) {
+				return new WP_Error( 'aisa_gsc_no_property', __( 'No Search Console property selected yet.', 'ai-site-assistant' ) );
+			}
+			return $conn['property'];
+		}
+
+		$properties = self::list_properties();
+		if ( is_wp_error( $properties ) ) {
+			return $properties;
+		}
+
+		$target_host = self::normalize_host( $raw );
+		foreach ( $properties as $property ) {
+			$site_url = $property['siteUrl'] ?? '';
+			if ( $site_url === $raw || self::normalize_host( $site_url ) === $target_host ) {
+				return $site_url;
+			}
+		}
+
+		return new WP_Error(
+			'aisa_gsc_unknown_property',
+			sprintf(
+				/* translators: %s: the site/domain that was requested. */
+				__( '"%s" isn\'t a Search Console property this Google account can access. Call gsc_list_properties to see what\'s available.', 'ai-site-assistant' ),
+				$raw
+			)
+		);
+	}
+
+	/**
+	 * Normalize a siteUrl, full URL, or plain hostname down to a bare,
+	 * lowercase, www-stripped host for comparison.
+	 *
+	 * @param string $value siteUrl or hostname.
+	 * @return string
+	 */
+	public static function normalize_host( $value ) {
+		$value = preg_replace( '#^sc-domain:#', '', (string) $value );
+		$host  = wp_parse_url( $value, PHP_URL_HOST );
+		$host  = is_string( $host ) && '' !== $host ? $host : $value;
+		$host  = preg_replace( '/^www\./i', '', $host );
+		return strtolower( rtrim( $host, '/' ) );
 	}
 }

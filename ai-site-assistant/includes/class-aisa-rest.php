@@ -432,10 +432,6 @@ class AISA_REST {
 	 * @return string
 	 */
 	private static function normalize_gsc_host( $value ) {
-		$value = preg_replace( '#^sc-domain:#', '', (string) $value );
-		$host  = wp_parse_url( $value, PHP_URL_HOST );
-		$host  = is_string( $host ) && '' !== $host ? $host : $value;
-		$host  = preg_replace( '/^www\./i', '', $host );
-		return strtolower( rtrim( $host, '/' ) );
+		return AISA_Gsc_Client::normalize_host( $value );
 	}
 }

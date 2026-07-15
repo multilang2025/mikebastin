@@ -772,14 +772,34 @@ class AISA_Tools {
 				),
 			),
 			array(
+				'name'         => 'gsc_list_properties',
+				'description'  => 'List every Google Search Console property (site) the connected Google '
+					. 'account can access -- not just this WordPress site, but every domain the admin has '
+					. 'verified in Search Console under that account. Pass the returned value as the '
+					. '"site" argument to gsc_top_pages/gsc_page_queries/gsc_page_report to get data for '
+					. 'a different domain. Read-only. Needs Google Search Console connected.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(),
+					'additionalProperties' => false,
+				),
+			),
+			array(
 				'name'         => 'gsc_top_pages',
-				'description'  => 'Rank this site\'s pages by REAL Google Search Console performance '
+				'description'  => 'Rank a site\'s pages by REAL Google Search Console performance '
 					. '(actual clicks/impressions/CTR/position Google reports, not an estimate). Use '
 					. 'order="worst" to find underperforming pages, or order="best" for top performers. '
-					. 'Read-only. Needs Google Search Console connected.',
+					. 'Defaults to this WordPress site; pass "site" to query any other domain verified '
+					. 'under the same connected Google account (see gsc_list_properties). Read-only. '
+					. 'Needs Google Search Console connected.',
 				'input_schema' => array(
 					'type'                 => 'object',
 					'properties'           => array(
+						'site'   => array(
+							'type'        => 'string',
+							'description' => 'Domain or exact GSC siteUrl to query (default: this site). '
+								. 'See gsc_list_properties for valid values.',
+						),
 						'order'  => array(
 							'type'        => 'string',
 							'enum'        => array( 'worst', 'best' ),
@@ -805,14 +825,23 @@ class AISA_Tools {
 			array(
 				'name'         => 'gsc_page_queries',
 				'description'  => 'List every search query a specific page ranks for in Google Search '
-					. 'Console, with real clicks/impressions/CTR/position per query. Read-only. Needs '
-					. 'Google Search Console connected.',
+					. 'Console, with real clicks/impressions/CTR/position per query. Defaults to a page '
+					. 'on this WordPress site (accepts an ID, URL, or path); pass "site" plus a full URL '
+					. 'in "page" to inspect a page on any other domain verified under the same connected '
+					. 'Google account (see gsc_list_properties). Read-only. Needs Google Search Console '
+					. 'connected.',
 				'input_schema' => array(
 					'type'                 => 'object',
 					'properties'           => array(
 						'page' => array(
 							'type'        => 'string',
-							'description' => 'The page to inspect: a post/page ID, full URL, or path (e.g. "/my-page/").',
+							'description' => 'The page to inspect: a post/page ID, full URL, or path (e.g. '
+								. '"/my-page/") for this site -- or a full URL when "site" is set.',
+						),
+						'site' => array(
+							'type'        => 'string',
+							'description' => 'Domain or exact GSC siteUrl the page belongs to, if not this '
+								. 'site. Requires "page" to be a full URL. See gsc_list_properties.',
 						),
 						'days' => array(
 							'type'        => 'integer',
@@ -826,16 +855,25 @@ class AISA_Tools {
 			array(
 				'name'         => 'gsc_page_report',
 				'description'  => 'One-shot Google Search Console diagnostic for a specific page: its '
-					. 'content, its overall aggregate performance (clicks/impressions/CTR/position), and '
-					. 'every query it ranks for -- all in a single call. Use this INSTEAD of calling '
-					. 'get_post and gsc_page_queries separately. Read-only. Needs Google Search Console '
-					. 'connected.',
+					. 'overall aggregate performance (clicks/impressions/CTR/position) and every query '
+					. 'it ranks for -- all in a single call. For a page on this WordPress site, also '
+					. 'includes the page\'s own content (use this INSTEAD of calling get_post and '
+					. 'gsc_page_queries separately). Pass "site" plus a full URL in "page" to diagnose a '
+					. 'page on any other domain verified under the same connected Google account (see '
+					. 'gsc_list_properties) -- content isn\'t available for those. Read-only. Needs '
+					. 'Google Search Console connected.',
 				'input_schema' => array(
 					'type'                 => 'object',
 					'properties'           => array(
 						'page' => array(
 							'type'        => 'string',
-							'description' => 'The page to diagnose: a post/page ID, full URL, or path (e.g. "/my-page/").',
+							'description' => 'The page to diagnose: a post/page ID, full URL, or path (e.g. '
+								. '"/my-page/") for this site -- or a full URL when "site" is set.',
+						),
+						'site' => array(
+							'type'        => 'string',
+							'description' => 'Domain or exact GSC siteUrl the page belongs to, if not this '
+								. 'site. Requires "page" to be a full URL. See gsc_list_properties.',
 						),
 						'days' => array(
 							'type'        => 'integer',
@@ -951,6 +989,8 @@ class AISA_Tools {
 				return self::ahrefs_domain_metrics( $input );
 			case 'seo_competitor_report':
 				return self::seo_competitor_report( $input );
+			case 'gsc_list_properties':
+				return self::gsc_list_properties( $input );
 			case 'gsc_top_pages':
 				return self::gsc_top_pages( $input );
 			case 'gsc_page_queries':
@@ -1984,7 +2024,46 @@ class AISA_Tools {
 	}
 
 	/**
-	 * Rank this site's pages by real Google Search Console performance.
+	 * List every Search Console property (site) the connected Google
+	 * account can access, so tools can be pointed at any domain the admin
+	 * owns -- not just this WordPress site.
+	 *
+	 * @param array $in Tool input (unused).
+	 * @return array Tool result with a JSON list of properties, or an error.
+	 */
+	private static function gsc_list_properties( array $in ) {
+		if ( ! current_user_can( 'edit_posts' ) ) {
+			return self::error( 'Permission denied.' );
+		}
+		if ( ! AISA_Gsc_Client::is_configured() ) {
+			return self::error( 'Google Search Console is not connected. Connect it in AISA Connector → Settings.' );
+		}
+
+		$properties = AISA_Gsc_Client::list_properties();
+		if ( is_wp_error( $properties ) ) {
+			return self::error( $properties->get_error_message() );
+		}
+
+		return array(
+			'content' => self::safe_json_encode(
+				array(
+					'this_site'  => AISA_Gsc_Client::get_connection()['property'],
+					'properties' => array_map(
+						static function ( $property ) {
+							return array(
+								'site'             => $property['siteUrl'] ?? '',
+								'permission_level' => $property['permissionLevel'] ?? '',
+							);
+						},
+						$properties
+					),
+				)
+			),
+		);
+	}
+
+	/**
+	 * Rank a site's pages by real Google Search Console performance.
 	 * Fetches with dimensions=['page'] and a generous row limit, then sorts
 	 * client-side -- the Search Analytics API has no orderBy parameter, so
 	 * the only reliable way to get worst/best-first is to sort ourselves.
@@ -1998,6 +2077,11 @@ class AISA_Tools {
 		}
 		if ( ! AISA_Gsc_Client::is_configured() ) {
 			return self::error( 'Google Search Console is not connected. Connect it in AISA Connector → Settings.' );
+		}
+
+		$property = AISA_Gsc_Client::resolve_property( (string) ( $in['site'] ?? '' ) );
+		if ( is_wp_error( $property ) ) {
+			return self::error( $property->get_error_message() );
 		}
 
 		$order  = ( 'best' === ( $in['order'] ?? 'worst' ) ) ? 'best' : 'worst';
@@ -2016,7 +2100,8 @@ class AISA_Tools {
 				'startDate'  => $start,
 				'endDate'    => $end,
 				'rowLimit'   => 1000,
-			)
+			),
+			$property
 		);
 		if ( is_wp_error( $rows ) ) {
 			return self::error( $rows->get_error_message() );
@@ -2059,6 +2144,49 @@ class AISA_Tools {
 	}
 
 	/**
+	 * Resolve the "page" argument for the GSC page-level tools to a full
+	 * permalink, and the property to query it against. When "site" is set
+	 * (a domain other than this WordPress install), "page" must already be
+	 * a full URL -- there's no local post to resolve it against.
+	 *
+	 * @param array $in Tool input.
+	 * @return array|WP_Error { permalink, property }, or WP_Error.
+	 */
+	private static function resolve_gsc_page_target( array $in ) {
+		$raw  = trim( (string) ( $in['page'] ?? '' ) );
+		$site = trim( (string) ( $in['site'] ?? '' ) );
+
+		$property = AISA_Gsc_Client::resolve_property( $site );
+		if ( is_wp_error( $property ) ) {
+			return $property;
+		}
+
+		if ( '' !== $site ) {
+			if ( 0 !== strpos( $raw, 'http' ) ) {
+				return new WP_Error( 'aisa_gsc_page_needs_url', 'When "site" is set, "page" must be a full URL for that site.' );
+			}
+			return array(
+				'permalink' => $raw,
+				'property'  => $property,
+			);
+		}
+
+		$post_id = self::resolve_page_post_id( $raw );
+		if ( ! $post_id ) {
+			return new WP_Error(
+				'aisa_gsc_page_not_found',
+				'' === $raw
+					? 'Provide a page: a post/page ID, full URL, or path like "/my-page/".'
+					: sprintf( 'Could not find a page matching "%s".', $raw )
+			);
+		}
+		return array(
+			'permalink' => get_permalink( $post_id ),
+			'property'  => $property,
+		);
+	}
+
+	/**
 	 * List every query a specific page ranks for in Google Search Console.
 	 *
 	 * @param array $in Tool input.
@@ -2072,14 +2200,12 @@ class AISA_Tools {
 			return self::error( 'Google Search Console is not connected. Connect it in AISA Connector → Settings.' );
 		}
 
-		$raw     = trim( (string) ( $in['page'] ?? '' ) );
-		$post_id = self::resolve_page_post_id( $raw );
-		if ( ! $post_id ) {
-			return self::error( '' === $raw
-				? 'Provide a page: a post/page ID, full URL, or path like "/my-page/".'
-				: sprintf( 'Could not find a page matching "%s".', $raw ) );
+		$target = self::resolve_gsc_page_target( $in );
+		if ( is_wp_error( $target ) ) {
+			return self::error( $target->get_error_message() );
 		}
-		$permalink = get_permalink( $post_id );
+		$permalink = $target['permalink'];
+		$property  = $target['property'];
 
 		$days  = min( max( 7, (int) ( $in['days'] ?? 90 ) ), 450 );
 		$end   = gmdate( 'Y-m-d', strtotime( '-3 days' ) );
@@ -2102,7 +2228,8 @@ class AISA_Tools {
 				'startDate'            => $start,
 				'endDate'              => $end,
 				'rowLimit'             => 1000,
-			)
+			),
+			$property
 		);
 		if ( is_wp_error( $rows ) ) {
 			return self::error( $rows->get_error_message() );
@@ -2150,20 +2277,24 @@ class AISA_Tools {
 			return self::error( 'Google Search Console is not connected. Connect it in AISA Connector → Settings.' );
 		}
 
-		$raw     = trim( (string) ( $in['page'] ?? '' ) );
-		$post_id = self::resolve_page_post_id( $raw );
-		if ( ! $post_id ) {
-			return self::error( '' === $raw
-				? 'Provide a page: a post/page ID, full URL, or path like "/my-page/".'
-				: sprintf( 'Could not find a page matching "%s".', $raw ) );
+		$target = self::resolve_gsc_page_target( $in );
+		if ( is_wp_error( $target ) ) {
+			return self::error( $target->get_error_message() );
 		}
+		$permalink = $target['permalink'];
+		$property  = $target['property'];
 
-		$post_result = self::get_post( array( 'id' => $post_id ) );
-		if ( ! empty( $post_result['is_error'] ) ) {
-			return $post_result;
+		$page_meta = null;
+		if ( '' === trim( (string) ( $in['site'] ?? '' ) ) ) {
+			$post_id = url_to_postid( $permalink );
+			if ( $post_id ) {
+				$post_result = self::get_post( array( 'id' => $post_id ) );
+				if ( ! empty( $post_result['is_error'] ) ) {
+					return $post_result;
+				}
+				$page_meta = json_decode( $post_result['content'], true );
+			}
 		}
-		$page_meta = json_decode( $post_result['content'], true );
-		$permalink = get_permalink( $post_id );
 
 		$queries_result = self::gsc_page_queries( $in );
 		if ( ! empty( $queries_result['is_error'] ) ) {
@@ -2194,7 +2325,8 @@ class AISA_Tools {
 				'startDate'            => $start,
 				'endDate'              => $end,
 				'rowLimit'             => 1,
-			)
+			),
+			$property
 		);
 		$aggregate = array(
 			'clicks'      => 0,

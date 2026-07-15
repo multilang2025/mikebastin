@@ -3,7 +3,7 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
-Stable tag: 1.0.7
+Stable tag: 1.1.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -155,6 +155,10 @@ Tips:
   gate on more precisely.
 
 == Changelog ==
+= 1.1.0 =
+* Google Search Console tools now work across every domain verified in Search Console under the same connected Google account, not just this WordPress site -- one GSC OAuth connection covers all of them, no per-domain redirect URI needed in Google Cloud. Added a new gsc_list_properties tool, and an optional "site" argument on gsc_top_pages/gsc_page_queries/gsc_page_report to target a different domain (page content enrichment is skipped for domains that aren't this WP install, since there's no local post to read).
+* The MCP connector now names itself after the actual WordPress site a token is bound to (e.g. "AISA — mikebastin.com") instead of the bridge's own generic hostname, so Claude can no longer mistake the bridge's technical URL for the site it's managing.
+
 = 1.0.7 =
 * Fixed load_skill's tool description: it hardcoded a stale, partial skill list (missing theme_editing, images, image_generation, seo_intelligence, gsc_intelligence) and referenced "the system prompt" for the full catalog -- but that catalog is only ever injected into the disabled in-admin chat's system prompt, never seen by Claude.ai/Desktop/Cursor through the connector. The description now embeds the full, live catalog (name + summary) directly, generated from AISA_Skills::CATALOG, so it can never drift out of sync again and is actually visible wherever the tool is used.
 
