@@ -3,7 +3,7 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
-Stable tag: 1.1.0
+Stable tag: 1.1.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -155,6 +155,9 @@ Tips:
   gate on more precisely.
 
 == Changelog ==
+= 1.1.1 =
+* Fixed root pages sometimes producing hallucinated GSC numbers: GSC's "equals" page filter is an exact string match, and root URLs are the ones most likely to be typed without the trailing slash Google actually stores them with -- a mismatch silently returns an empty (not erroring) result, which invited the model to paper over it with a plausible-sounding guess. gsc_page_queries/gsc_page_report now retry the with/without-trailing-slash variant automatically, and explicitly flag "no_matching_rows": true when GSC genuinely has no data for the URL, with tool descriptions telling the model to report that plainly instead of inventing numbers.
+
 = 1.1.0 =
 * Google Search Console tools now work across every domain verified in Search Console under the same connected Google account, not just this WordPress site -- one GSC OAuth connection covers all of them, no per-domain redirect URI needed in Google Cloud. Added a new gsc_list_properties tool, and an optional "site" argument on gsc_top_pages/gsc_page_queries/gsc_page_report to target a different domain (page content enrichment is skipped for domains that aren't this WP install, since there's no local post to read).
 * The MCP connector now names itself after the actual WordPress site a token is bound to (e.g. "AISA — mikebastin.com") instead of the bridge's own generic hostname, so Claude can no longer mistake the bridge's technical URL for the site it's managing.

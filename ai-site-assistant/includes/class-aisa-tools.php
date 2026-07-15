@@ -828,7 +828,9 @@ class AISA_Tools {
 					. 'Console, with real clicks/impressions/CTR/position per query. Defaults to a page '
 					. 'on this WordPress site (accepts an ID, URL, or path); pass "site" plus a full URL '
 					. 'in "page" to inspect a page on any other domain verified under the same connected '
-					. 'Google account (see gsc_list_properties). Read-only. Needs Google Search Console '
+					. 'Google account (see gsc_list_properties). If the response has '
+					. '"no_matching_rows": true, GSC genuinely has no data for that URL -- say so plainly, '
+					. 'do NOT invent plausible-looking numbers. Read-only. Needs Google Search Console '
 					. 'connected.',
 				'input_schema' => array(
 					'type'                 => 'object',
@@ -860,8 +862,10 @@ class AISA_Tools {
 					. 'includes the page\'s own content (use this INSTEAD of calling get_post and '
 					. 'gsc_page_queries separately). Pass "site" plus a full URL in "page" to diagnose a '
 					. 'page on any other domain verified under the same connected Google account (see '
-					. 'gsc_list_properties) -- content isn\'t available for those. Read-only. Needs '
-					. 'Google Search Console connected.',
+					. 'gsc_list_properties) -- content isn\'t available for those. If the response has '
+					. '"no_matching_rows": true, GSC genuinely has no data for that URL -- say so plainly, '
+					. 'do NOT invent plausible-looking numbers. Read-only. Needs Google Search Console '
+					. 'connected.',
 				'input_schema' => array(
 					'type'                 => 'object',
 					'properties'           => array(
@@ -2187,6 +2191,27 @@ class AISA_Tools {
 	}
 
 	/**
+	 * GSC's "equals" page filter is a byte-for-byte string match, and root
+	 * pages are the ones most likely to be typed/guessed in a form GSC
+	 * doesn't actually store (missing trailing slash, wrong scheme). A
+	 * plain no-match returns an empty (not erroring) result, which invites
+	 * the model to paper over it with a plausible-sounding guess instead of
+	 * reporting "no data." Try the most likely variants before giving up.
+	 *
+	 * @param string $permalink As resolved by resolve_gsc_page_target().
+	 * @return string[] Candidate exact-match strings, most likely first.
+	 */
+	private static function gsc_page_url_variants( $permalink ) {
+		$variants = array( $permalink );
+		if ( '/' === substr( $permalink, -1 ) ) {
+			$variants[] = rtrim( $permalink, '/' );
+		} else {
+			$variants[] = $permalink . '/';
+		}
+		return $variants;
+	}
+
+	/**
 	 * List every query a specific page ranks for in Google Search Console.
 	 *
 	 * @param array $in Tool input.
@@ -2211,28 +2236,36 @@ class AISA_Tools {
 		$end   = gmdate( 'Y-m-d', strtotime( '-3 days' ) );
 		$start = gmdate( 'Y-m-d', strtotime( "-{$days} days", strtotime( $end ) ) );
 
-		$rows = AISA_Gsc_Client::query(
-			array(
-				'dimensions'           => array( 'query' ),
-				'dimensionFilterGroups' => array(
-					array(
-						'filters' => array(
-							array(
-								'dimension'  => 'page',
-								'operator'   => 'equals',
-								'expression' => $permalink,
+		$rows    = array();
+		$matched = $permalink;
+		foreach ( self::gsc_page_url_variants( $permalink ) as $variant ) {
+			$rows = AISA_Gsc_Client::query(
+				array(
+					'dimensions'           => array( 'query' ),
+					'dimensionFilterGroups' => array(
+						array(
+							'filters' => array(
+								array(
+									'dimension'  => 'page',
+									'operator'   => 'equals',
+									'expression' => $variant,
+								),
 							),
 						),
 					),
+					'startDate'            => $start,
+					'endDate'              => $end,
+					'rowLimit'             => 1000,
 				),
-				'startDate'            => $start,
-				'endDate'              => $end,
-				'rowLimit'             => 1000,
-			),
-			$property
-		);
-		if ( is_wp_error( $rows ) ) {
-			return self::error( $rows->get_error_message() );
+				$property
+			);
+			if ( is_wp_error( $rows ) ) {
+				return self::error( $rows->get_error_message() );
+			}
+			if ( ! empty( $rows ) ) {
+				$matched = $variant;
+				break;
+			}
 		}
 
 		$queries = array_map(
@@ -2252,9 +2285,10 @@ class AISA_Tools {
 		return array(
 			'content' => self::safe_json_encode(
 				array(
-					'page'       => $permalink,
-					'date_range' => array( $start, $end ),
-					'queries'    => $queries,
+					'page'              => $matched,
+					'no_matching_rows'  => empty( $queries ),
+					'date_range'        => array( $start, $end ),
+					'queries'           => $queries,
 				)
 			),
 		);
@@ -2301,6 +2335,11 @@ class AISA_Tools {
 			return $queries_result;
 		}
 		$queries_decoded = json_decode( $queries_result['content'], true );
+		// gsc_page_queries() may have matched a trailing-slash variant of
+		// $permalink instead of the exact string passed in -- reuse that
+		// resolved value so the aggregate query below looks for the same
+		// page GSC actually has data under, not the one we merely guessed.
+		$matched_permalink = $queries_decoded['page'] ?? $permalink;
 
 		$days  = min( max( 7, (int) ( $in['days'] ?? 90 ) ), 450 );
 		$end   = gmdate( 'Y-m-d', strtotime( '-3 days' ) );
@@ -2317,7 +2356,7 @@ class AISA_Tools {
 							array(
 								'dimension'  => 'page',
 								'operator'   => 'equals',
-								'expression' => $permalink,
+								'expression' => $matched_permalink,
 							),
 						),
 					),
@@ -2346,7 +2385,9 @@ class AISA_Tools {
 		return array(
 			'content' => self::safe_json_encode(
 				array(
+					'page'                 => $matched_permalink,
 					'page_meta'            => $page_meta,
+					'no_matching_rows'     => $queries_decoded['no_matching_rows'] ?? false,
 					'date_range'           => array( $start, $end ),
 					'aggregate_performance' => $aggregate,
 					'queries'              => $queries_decoded['queries'] ?? array(),
