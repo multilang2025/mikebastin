@@ -171,6 +171,35 @@ class AISA_Tools {
 				),
 			),
 			array(
+				'name'         => 'db_query',
+				'description'  => 'Run a read-only SELECT against this site\'s database -- the escape '
+					. 'hatch for data no other tool covers: a form plugin\'s entries (Formidable, '
+					. 'Gravity Forms, WPForms...), WooCommerce order meta, or any other plugin\'s custom '
+					. 'table. Use "{prefix}" instead of guessing the table prefix, e.g. '
+					. '"SELECT * FROM {prefix}frm_items WHERE created_at >= \'2026-07-01\' LIMIT 200". '
+					. 'SELECT (and DESCRIBE/SHOW/EXPLAIN SELECT) only -- mutating statements are rejected '
+					. 'outright, there is no write path here. A LIMIT is enforced automatically (default '
+					. '100, max 1000) if the query doesn\'t already have one. Avoid selecting from '
+					. 'wp_options/wp_usermeta/wp_users unless the user explicitly asked about site '
+					. 'config, users, or secrets -- those tables can contain API keys and credentials. '
+					. 'Needs an administrator account.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'sql'   => array(
+							'type'        => 'string',
+							'description' => 'A single SELECT (or DESCRIBE/SHOW/EXPLAIN SELECT) statement. Use "{prefix}" for the table prefix.',
+						),
+						'limit' => array(
+							'type'        => 'integer',
+							'description' => 'Row cap for SELECT results if the query has no LIMIT of its own (default 100, max 1000).',
+						),
+					),
+					'required'             => array( 'sql' ),
+					'additionalProperties' => false,
+				),
+			),
+			array(
 				'name'         => 'replace_in_post',
 				'description'  => 'Make a TARGETED edit: replace an exact text snippet with new text '
 					. 'in a post/page. Prefer this over update_post for small changes (links, a '
@@ -940,6 +969,8 @@ class AISA_Tools {
 				return self::publish_post( $input );
 			case 'get_site_context':
 				return self::get_site_context();
+			case 'db_query':
+				return self::db_query( $input );
 			case 'fact_check':
 				return self::fact_check( $input );
 			case 'load_skill':
@@ -1262,6 +1293,121 @@ class AISA_Tools {
 					'theme'          => $theme->get( 'Name' ) . ' ' . $theme->get( 'Version' ),
 					'post_types'     => array_values( get_post_types( array( 'public' => true ) ) ),
 					'active_plugins' => array_values( (array) get_option( 'active_plugins', array() ) ),
+				)
+			),
+		);
+	}
+
+	/**
+	 * Run a read-only SELECT (or schema-read: DESCRIBE/SHOW/EXPLAIN SELECT)
+	 * against the site's database. The escape hatch for data no purpose-built
+	 * tool covers -- a form plugin's entries table, another plugin's custom
+	 * table, etc. -- without needing bespoke per-plugin integrations.
+	 *
+	 * Security model (ported from WPVibe's db-query tool):
+	 * - manage_options only (admin-equivalent), since this can read any table.
+	 * - SELECT/DESCRIBE/SHOW/EXPLAIN SELECT only; every mutating keyword is
+	 *   blocklisted even inside a nominal SELECT (comments stripped first so
+	 *   a keyword can't be smuggled past the check inside /* ... *\/ or --).
+	 * - Executable MySQL comments (/*! ... *\/) are rejected outright -- they
+	 *   run at the server despite being stripped by the validator above.
+	 * - Multi-statement injection (`; DROP TABLE ...`) is rejected.
+	 * - `SELECT ... INTO OUTFILE/DUMPFILE` and `FOR UPDATE/SHARE` are rejected.
+	 * - LIMIT is force-enforced (default 100, capped at 1000) so a query with
+	 *   no LIMIT of its own can't dump an entire table.
+	 * - "{prefix}" is substituted for $wpdb->prefix so the model doesn't have
+	 *   to guess this site's actual table prefix.
+	 *
+	 * @param array $in Tool input.
+	 * @return array Tool result with the query's rows as JSON, or an error.
+	 */
+	private static function db_query( array $in ) {
+		if ( ! current_user_can( 'manage_options' ) ) {
+			return self::error( 'Permission denied. This tool requires an administrator account.' );
+		}
+
+		global $wpdb;
+
+		$sql = trim( (string) ( $in['sql'] ?? '' ) );
+		if ( '' === $sql ) {
+			return self::error( 'A SQL query is required. Example: SELECT * FROM {prefix}posts LIMIT 10' );
+		}
+
+		$sql = str_replace( '{prefix}', $wpdb->prefix, $sql );
+
+		// Executable MySQL comments run at the server despite being stripped
+		// by the validator below, so they could smuggle a blocked keyword
+		// past it. No legitimate query here needs them.
+		if ( false !== strpos( $sql, '/*!' ) ) {
+			return self::error( 'Executable MySQL comments (/*! ... */) are not allowed.' );
+		}
+
+		// Strip comments before validating so a blocked keyword can't hide
+		// inside one, then normalize whitespace/case for keyword matching.
+		$stripped   = preg_replace( '/--.*$/m', '', $sql );
+		$stripped   = preg_replace( '/\/\*.*?\*\//s', '', $stripped );
+		$normalized = preg_replace( '/\s+/', ' ', strtoupper( trim( $stripped ) ) );
+
+		$is_select      = ( 0 === strpos( $normalized, 'SELECT' ) );
+		$is_schema_read = (bool) preg_match( '/^(DESCRIBE|DESC|SHOW|EXPLAIN SELECT)\b/', $normalized );
+
+		if ( ! $is_select && ! $is_schema_read ) {
+			return self::error( 'Only SELECT and schema reads (DESCRIBE, SHOW, EXPLAIN SELECT) are allowed. This tool has no write path.' );
+		}
+
+		if ( $is_select ) {
+			$blocked = array(
+				'INSERT', 'UPDATE', 'DELETE', 'DROP', 'ALTER', 'TRUNCATE',
+				'CREATE', 'GRANT', 'REVOKE', 'EXEC', 'EXECUTE',
+				'RENAME', 'REPLACE', 'LOAD', 'OUTFILE', 'DUMPFILE',
+			);
+			foreach ( $blocked as $keyword ) {
+				if ( preg_match( '/\b' . $keyword . '\b/', $normalized ) ) {
+					return self::error( "Blocked SQL keyword in SELECT: {$keyword}." );
+				}
+			}
+		}
+
+		if ( preg_match( '/;\s*\S/', $sql ) ) {
+			return self::error( 'Multiple SQL statements are not allowed.' );
+		}
+
+		if ( preg_match( '/\bINTO\s+(OUTFILE|DUMPFILE|@)/i', $normalized ) ) {
+			return self::error( 'SELECT INTO is not allowed.' );
+		}
+		if ( preg_match( '/\bFOR\s+(UPDATE|SHARE)\b/', $normalized ) ) {
+			return self::error( 'FOR UPDATE/SHARE is not allowed.' );
+		}
+
+		$sql = rtrim( $sql, '; ' );
+
+		if ( $is_select ) {
+			$limit = min( max( 1, (int) ( $in['limit'] ?? 100 ) ), 1000 );
+			if ( preg_match( '/\bLIMIT\s+(\d+)/i', $sql ) ) {
+				$sql = preg_replace_callback(
+					'/\bLIMIT\s+(\d+)/i',
+					static function ( $m ) {
+						return 'LIMIT ' . min( (int) $m[1], 1000 );
+					},
+					$sql
+				);
+			} else {
+				$sql .= ' LIMIT ' . $limit;
+			}
+		}
+
+		// phpcs:ignore WordPress.DB.PreparedSQL.NotPrepared, WordPress.DB.DirectDatabaseQuery.DirectQuery, WordPress.DB.DirectDatabaseQuery.NoCaching
+		$results = $wpdb->get_results( $sql, ARRAY_A );
+		if ( $wpdb->last_error ) {
+			return self::error( "SQL error: {$wpdb->last_error}" );
+		}
+
+		return array(
+			'content' => self::safe_json_encode(
+				array(
+					'table_prefix'  => $wpdb->prefix,
+					'rows_returned' => count( (array) $results ),
+					'results'       => $results,
 				)
 			),
 		);

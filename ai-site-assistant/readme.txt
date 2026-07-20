@@ -3,7 +3,7 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
-Stable tag: 1.1.2
+Stable tag: 1.1.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -155,6 +155,9 @@ Tips:
   gate on more precisely.
 
 == Changelog ==
+= 1.1.3 =
+* Added db_query: a read-only SELECT tool against the site's database, gated to administrators. This is the escape hatch for data no purpose-built tool covers -- a form plugin's entries table (Formidable, Gravity Forms, WPForms...), WooCommerce order meta, or any other plugin's custom table -- without needing a bespoke integration per plugin. Ported the safety model from WPVibe's open-source db-query tool: SELECT/DESCRIBE/SHOW/EXPLAIN SELECT only, every mutating keyword blocklisted (with comment-stripping so a keyword can't hide inside one), executable MySQL comments and multi-statement injection rejected, SELECT INTO/FOR UPDATE blocked, and LIMIT force-enforced (default 100, max 1000) so a query with no LIMIT of its own can't dump an entire table. "{prefix}" is substituted for the real table prefix so the model doesn't have to guess it.
+
 = 1.1.2 =
 * Fixed replace_in_post rejecting valid, non-conflicting edits with "Post changed since you read it." The expected_modified timestamp guard could false-positive because WordPress legitimately bumps post_modified without a real content edit (e.g. Heartbeat autosave from an open editor tab, or a persistent object cache serving a slightly different get_post() read across two requests) -- and a full round-trip through update_post carries real risk (a full-content overwrite, no dry-run) that this false-positive was pushing users toward for edits that should've used the safer targeted tool. replace_in_post no longer gates on the timestamp: its own find-must-match-exactly-once check is a strictly stronger safety guarantee for a targeted replace, since the edit only proceeds if the snippet is still present verbatim and unique in the current content. expected_modified is still accepted (unused) for backward compatibility. update_post, publish_post, and append_to_post are unchanged -- they have no equivalent content-based safety net, so they still require the timestamp match.
 
