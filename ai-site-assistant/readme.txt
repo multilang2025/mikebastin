@@ -3,7 +3,7 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
-Stable tag: 1.1.1
+Stable tag: 1.1.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -155,6 +155,9 @@ Tips:
   gate on more precisely.
 
 == Changelog ==
+= 1.1.2 =
+* Fixed replace_in_post rejecting valid, non-conflicting edits with "Post changed since you read it." The expected_modified timestamp guard could false-positive because WordPress legitimately bumps post_modified without a real content edit (e.g. Heartbeat autosave from an open editor tab, or a persistent object cache serving a slightly different get_post() read across two requests) -- and a full round-trip through update_post carries real risk (a full-content overwrite, no dry-run) that this false-positive was pushing users toward for edits that should've used the safer targeted tool. replace_in_post no longer gates on the timestamp: its own find-must-match-exactly-once check is a strictly stronger safety guarantee for a targeted replace, since the edit only proceeds if the snippet is still present verbatim and unique in the current content. expected_modified is still accepted (unused) for backward compatibility. update_post, publish_post, and append_to_post are unchanged -- they have no equivalent content-based safety net, so they still require the timestamp match.
+
 = 1.1.1 =
 * Fixed root pages sometimes producing hallucinated GSC numbers: GSC's "equals" page filter is an exact string match, and root URLs are the ones most likely to be typed without the trailing slash Google actually stores them with -- a mismatch silently returns an empty (not erroring) result, which invited the model to paper over it with a plausible-sounding guess. gsc_page_queries/gsc_page_report now retry the with/without-trailing-slash variant automatically, and explicitly flag "no_matching_rows": true when GSC genuinely has no data for the URL, with tool descriptions telling the model to report that plainly instead of inventing numbers.
 

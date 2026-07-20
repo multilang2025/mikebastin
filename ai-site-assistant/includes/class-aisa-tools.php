@@ -174,8 +174,10 @@ class AISA_Tools {
 				'name'         => 'replace_in_post',
 				'description'  => 'Make a TARGETED edit: replace an exact text snippet with new text '
 					. 'in a post/page. Prefer this over update_post for small changes (links, a '
-					. 'sentence) — far faster and avoids timeouts. Read with get_post first and pass '
-					. 'back expected_modified.',
+					. 'sentence) — far faster and avoids timeouts, and safer: the edit only applies if '
+					. '"find" still matches the current content exactly once, so there\'s no separate '
+					. 'staleness timestamp to keep in sync. Read with get_post first to get the text to '
+					. 'match against.',
 				'input_schema' => array(
 					'type'                 => 'object',
 					'properties'           => array(
@@ -190,10 +192,11 @@ class AISA_Tools {
 						),
 						'expected_modified' => array(
 							'type'        => 'string',
-							'description' => 'The post_modified value from get_post.',
+							'description' => 'Unused, accepted for backward compatibility only. The '
+								. '"find" match itself is the safety check.',
 						),
 					),
-					'required'             => array( 'id', 'find', 'replace', 'expected_modified' ),
+					'required'             => array( 'id', 'find', 'replace' ),
 					'additionalProperties' => false,
 				),
 			),
@@ -1363,7 +1366,16 @@ class AISA_Tools {
 	 * Replace an exact text snippet inside a post's content (targeted edit).
 	 *
 	 * Much cheaper than rewriting the whole post, which keeps long edits under
-	 * gateway timeouts. Guards on permission and staleness like update_post.
+	 * gateway timeouts. Unlike update_post/publish_post/append_to_post, this
+	 * does NOT gate on an expected_modified timestamp match: WordPress can
+	 * legitimately bump post_modified with no real content edit (Heartbeat
+	 * autosave from an open editor tab, a persistent object cache serving a
+	 * slightly different get_post() read across two requests), which made
+	 * this tool reject valid, non-conflicting edits. The find-must-match-
+	 * exactly-once check below is a strictly stronger safety guarantee for
+	 * this specific operation: if the snippet is still present verbatim and
+	 * unique, the edit is provably safe regardless of what the timestamp
+	 * says.
 	 *
 	 * @param array $in Tool input.
 	 * @return array Tool result confirming the replacement, or an error.
@@ -1376,9 +1388,6 @@ class AISA_Tools {
 		$p = get_post( $id );
 		if ( ! $p ) {
 			return self::error( 'Post not found.' );
-		}
-		if ( ( $in['expected_modified'] ?? '' ) !== $p->post_modified ) {
-			return self::error( 'Post changed since you read it. Call get_post again, then retry.' );
 		}
 
 		$find = (string) ( $in['find'] ?? '' );
