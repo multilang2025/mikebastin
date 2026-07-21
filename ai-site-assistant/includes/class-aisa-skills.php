@@ -34,6 +34,8 @@ class AISA_Skills {
 		'image_generation' => 'Generate original, hyper-realistic, text-free artwork tailored to a specific post.',
 		'seo_intelligence' => 'Answer traffic/performance and competitor questions using Ahrefs data.',
 		'gsc_intelligence' => 'Google Search Console performance diagnostics and content optimization.',
+		'db_admin'         => 'Query data no other tool covers (form entries, custom plugin tables) safely with db_query.',
+		'bulk_site_changes' => 'Fix the same text/link across many posts at once, then make the change visible immediately.',
 	);
 
 	/**
@@ -83,12 +85,35 @@ class AISA_Skills {
 			'schema'           => 'Schema / structured data: get_schema to inspect current Rank Math schema, then set_meta '
 				. 'with the appropriate rank_math_schema_* key, passing the schema object as a JSON '
 				. 'string. Match the content type (Article, FAQPage, HowTo, Product, etc.).',
-			'page_builders'    => 'PAGE BUILDERS: get_post returns post_content, which holds the content for Classic, '
-				. 'Gutenberg, and Divi. For Gutenberg keep block comment markers (<!-- wp:... -->) intact '
-				. 'when you edit. Elementor stores its content in the _elementor_data meta field, not in '
-				. 'post_content — if a page looks empty or like raw shortcodes/JSON, tell the user it is '
-				. 'an Elementor page and that body edits are not supported yet (SEO meta and schema still '
-				. 'work). Always confirm a replace_in_post match exists before relying on it.',
+			'page_builders'    => 'PAGE BUILDERS: get_post returns post_content, which holds the real content for '
+				. 'Classic, Gutenberg, and Divi. For Gutenberg keep block comment markers (<!-- wp:... -->) '
+				. 'intact when you edit.'
+				. "\n\n"
+				. 'ELEMENTOR: stores its content as JSON in the _elementor_data postmeta field, not in '
+				. 'post_content -- if a page looks empty or like raw shortcodes/JSON in get_post, that is '
+				. 'why. replace_in_post/append_to_post/bulk_replace_in_posts will return a WARNING when '
+				. 'they detect this (edits to post_content on such a page usually will not appear on the '
+				. 'live site). To actually read what is on an Elementor page, use get_page_html (the '
+				. 'rendered output) or db_query to inspect _elementor_data directly '
+				. '(SELECT meta_value FROM {prefix}postmeta WHERE post_id = X AND meta_key = '
+				. "'_elementor_data'). There is no supported write path into _elementor_data -- SEO meta "
+				. '(get_seo/set_seo) and schema (get_schema/set_meta) still work normally regardless of '
+				. 'builder, since those are separate postmeta fields Elementor does not touch.'
+				. "\n\n"
+				. 'DIVI: content is genuine shortcode markup in post_content (e.g. [et_pb_section]'
+				. '[et_pb_row][et_pb_column][et_pb_text]...[/et_pb_text][/et_pb_column][/et_pb_row]'
+				. '[/et_pb_section]). Only edit text strictly INSIDE an [et_pb_text]...[/et_pb_text] (or '
+				. 'similar content-bearing module) pair -- never touch a shortcode tag itself or its '
+				. 'attributes (_builder_version, global_colors_info, background_layout, module IDs, etc.), '
+				. 'and never delete/add a section/row/column tag unless the user explicitly asked to '
+				. "remove that whole block. replace_in_post/append_to_post/bulk_replace_in_posts warn when "
+				. 'the touched text looks like it crosses one of these boundaries -- treat that warning as '
+				. 'a reason to re-check your find/replace strings before trusting the result, not something '
+				. 'to ignore. After a Divi edit, call get_page_html on the same post to verify the page '
+				. 'still renders correctly (a broken attribute can blank out a whole module silently).'
+				. "\n\n"
+				. 'Always confirm a replace_in_post/bulk_replace_in_posts match exists (or was reported as '
+				. 'skipped) before assuming an edit landed.',
 			'theme_editing'    => 'THEME EDITING: never write directly into the live theme. First call '
 				. 'list_theme_files/read_theme_file/search_theme_files (safe on any theme, read-only) to '
 				. 'find what to change. Before making ANY edit, call create_draft_theme -- it copies the '
@@ -156,6 +181,71 @@ class AISA_Skills {
 				. 'Each generation is a metered, paid API call -- write a good prompt the first time rather '
 				. 'than generating repeatedly to fish for a better result; only regenerate if the result was '
 				. 'genuinely off-target or blocked by a safety filter.',
+			'db_admin'         => 'DATABASE QUERIES (db_query): the escape hatch for data no purpose-built tool '
+				. 'covers -- a form plugin\'s entries, WooCommerce order meta, or any other plugin\'s custom '
+				. "table. SELECT/DESCRIBE/SHOW/EXPLAIN SELECT only; there is no write path. Use \"{prefix}\" "
+				. "instead of guessing the table prefix. If you don't already know a table's columns, run "
+				. 'DESCRIBE {prefix}tablename first rather than guessing column names -- schema-read '
+				. 'commands are free and always allowed.'
+				. "\n\n"
+				. 'FORMIDABLE FORMS entries are NOT a single flat table -- this is the most common mistake. '
+				. 'The schema is three tables:'
+				. "\n"
+				. '- {prefix}frm_items: one row per submitted entry (id, form_id, created_at, ip, post_id).'
+				. "\n"
+				. '- {prefix}frm_item_metas: one row per ANSWERED FIELD per entry (item_id, field_id, '
+				. 'meta_value) -- this is where the actual answers live, not on frm_items.'
+				. "\n"
+				. '- {prefix}frm_fields: one row per form FIELD DEFINITION (id, form_id, name, type) -- this '
+				. 'is how you map a human field label like "Country" or "Lead Type" to the field_id used in '
+				. 'frm_item_metas.'
+				. "\n\n"
+				. 'Worked example -- "how many forms since July 1st, and the type of leads and country of '
+				. 'origin": first find the relevant field IDs (name matching may need a couple of guesses -- '
+				. 'try %lead%, %type%, %country%, %origin%):'
+				. "\n"
+				. "  SELECT id, name, form_id FROM {prefix}frm_fields WHERE name LIKE '%lead%' OR name LIKE "
+				. "'%type%' OR name LIKE '%country%' OR name LIKE '%origin%'"
+				. "\n"
+				. 'Then get the raw count:'
+				. "\n"
+				. "  SELECT COUNT(*) FROM {prefix}frm_items WHERE created_at >= '2026-07-01'"
+				. "\n"
+				. 'Then pull the actual answers for the fields you identified, joined back to the entry rows:'
+				. "\n"
+				. '  SELECT i.id, i.created_at, m.field_id, m.meta_value FROM {prefix}frm_items i JOIN '
+				. '{prefix}frm_item_metas m ON m.item_id = i.id WHERE i.created_at >= \'2026-07-01\' AND '
+				. 'm.field_id IN (<the ids you found>)'
+				. "\n"
+				. 'Group/count the meta_value results yourself to answer "type of leads" / "country of '
+				. 'origin" breakdowns -- db_query returns raw rows, not aggregates, so do the tallying in '
+				. 'your own response rather than expecting SQL GROUP BY to hand you a finished summary '
+				. '(a GROUP BY query works fine too if you prefer to write one).'
+				. "\n\n"
+				. 'If a site has multiple forms, filter frm_items/frm_fields by form_id too (look it up via '
+				. '{prefix}frm_forms if the user does not name the form). Every query is capped at a LIMIT '
+				. '(default 100, max 1000) automatically -- raise it with the "limit" argument if you '
+				. 'expect more matching rows than that.',
+			'bulk_site_changes' => 'BULK SITE CHANGES: when the same fix needs to land on many posts at once '
+				. '(a broken URL, a changed phone number, a shortcode swap across the whole site), use '
+				. 'bulk_replace_in_posts instead of calling replace_in_post once per post -- it takes up to '
+				. '50 post IDs at a time and applies the same exact find/replace to each, reporting per-post '
+				. 'success/skip/failure so one miss never blocks the rest of the batch.'
+				. "\n\n"
+				. 'Gather the target post IDs first -- search_posts for a simple keyword match, or db_query '
+				. 'if you need something more specific (e.g. posts whose content contains a particular old '
+				. 'domain or path). For a large list (Screaming Frog-style redirect/404 audits routinely '
+				. 'surface dozens to hundreds of URLs), work in tiers of ~50 rather than one giant batch -- '
+				. 'easier to spot-check and to isolate if something in one tier needs a different find/'
+				. 'replace than another.'
+				. "\n\n"
+				. 'After each batch (or the whole change if it is small), call flush_caches -- a content '
+				. 'edit that looks correct in bulk_replace_in_posts\' response can still appear stale on '
+				. 'the live site until the caching layer (object cache, Elementor, WP Rocket, W3 Total '
+				. 'Cache, LiteSpeed Cache, WP Super Cache, WP Fastest Cache, or SiteGround Optimizer -- '
+				. 'flush_caches detects and flushes whichever is actually active) catches up. Spot-check a '
+				. 'couple of the changed pages with get_page_html afterward to confirm the fix is actually '
+				. "visible, especially on a Divi or Elementor page (see the page_builders skill).",
 		);
 		if ( isset( $bodies[ $name ] ) ) {
 			return $bodies[ $name ];

@@ -3,7 +3,7 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
-Stable tag: 1.2.2
+Stable tag: 1.2.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -155,6 +155,10 @@ Tips:
   gate on more precisely.
 
 == Changelog ==
+= 1.2.3 =
+* Added two skills: db_admin (how to use db_query safely for data no purpose-built tool covers, with a worked Formidable Forms example -- entries live across frm_items/frm_item_metas/frm_fields, not one flat table, which is the most common mistake) and bulk_site_changes (batching bulk_replace_in_posts in tiers for large link/text fixes, then flush_caches, then spot-check with get_page_html).
+* Refreshed the page_builders skill: it previously said Elementor "body edits are not supported yet" -- now explains the real mechanism (content lives in _elementor_data postmeta, not post_content, and the write tools now warn about this automatically), documents the Divi shortcode-boundary discipline (only edit inside [et_pb_text]-style tags, never touch shortcode attributes, verify with get_page_html after), and references the new bulk_replace_in_posts/flush_caches tools.
+
 = 1.2.2 =
 * Added WP Fastest Cache to flush_caches' detected caching layers. Found this checking mikebastin.com directly: it's the only cache plugin actually active there, and it wasn't on the original list (WP Rocket, W3 Total Cache, LiteSpeed Cache, WP Super Cache, SiteGround Optimizer, Elementor) -- flush_caches would have silently done nothing useful on this exact site.
 
