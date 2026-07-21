@@ -3,7 +3,7 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
-Stable tag: 1.2.0
+Stable tag: 1.2.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -155,6 +155,9 @@ Tips:
   gate on more precisely.
 
 == Changelog ==
+= 1.2.1 =
+* Added page-builder-aware warnings to replace_in_post, append_to_post, and bulk_replace_in_posts: advisory only, never blocks the edit. On an Elementor page (detected via _elementor_data postmeta), warns that the edit may not appear on the live page since Elementor renders from that JSON structure, not post_content. On a Divi page (detected via [et_pb_ shortcodes in post_content), warns when the touched find/replace/html text looks like it crosses a shortcode-attribute boundary (_builder_version, global_colors_info, or a shortcode tag), so a boundary mistake gets flagged instead of silently corrupting a module.
+
 = 1.2.0 =
 * Added bulk_replace_in_posts: apply the same exact text replacement across up to 50 posts/pages in one call, instead of one replace_in_post call per post. Each post is judged independently by the same find-must-match-exactly-once rule as replace_in_post -- a post with no match or an ambiguous multi-match is skipped and reported, not a hard failure for the whole batch.
 * Added flush_caches: flush WordPress's object cache plus whichever of Elementor, WP Rocket, W3 Total Cache, LiteSpeed Cache, WP Super Cache, or SiteGround Optimizer are actually active, so a content edit becomes visible immediately instead of waiting for cache expiry. Detects what's present rather than assuming any one is active; never touches content, admin-only.

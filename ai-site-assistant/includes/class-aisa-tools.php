@@ -206,7 +206,10 @@ class AISA_Tools {
 					. 'sentence) — far faster and avoids timeouts, and safer: the edit only applies if '
 					. '"find" still matches the current content exactly once, so there\'s no separate '
 					. 'staleness timestamp to keep in sync. Read with get_post first to get the text to '
-					. 'match against.',
+					. 'match against. On an Elementor or Divi page, the result may include a WARNING -- '
+					. 'read it; on Elementor it means this edit likely won\'t appear on the live page '
+					. '(content lives in _elementor_data, not post_content), on Divi it means the touched '
+					. 'text looks like it crosses a shortcode-attribute boundary.',
 				'input_schema' => array(
 					'type'                 => 'object',
 					'properties'           => array(
@@ -233,7 +236,9 @@ class AISA_Tools {
 				'name'         => 'append_to_post',
 				'description'  => 'Append a block of HTML to the end of a post/page (e.g. an author/'
 					. 'EEAT box, a sources list, an FAQ). Faster than rewriting the whole post. Read '
-					. 'with get_post first and pass back expected_modified.',
+					. 'with get_post first and pass back expected_modified. On an Elementor or Divi page, '
+					. 'the result may include a WARNING -- read it; on Elementor it means this likely '
+					. 'won\'t appear on the live page (content lives in _elementor_data, not post_content).',
 				'input_schema' => array(
 					'type'                 => 'object',
 					'properties'           => array(
@@ -258,7 +263,9 @@ class AISA_Tools {
 					. 'site). Prefer this over calling replace_in_post one post at a time. Each post is '
 					. 'independently safe: a post is only touched if "find" matches its current content '
 					. 'exactly once, otherwise it\'s skipped (not found, or ambiguous) and reported as '
-					. 'such -- one bad match never blocks the rest of the batch. Max 50 posts per call.',
+					. 'such -- one bad match never blocks the rest of the batch. Max 50 posts per call. '
+					. 'Any succeeded post on Elementor or Divi may carry a per-post "warning" field in the '
+					. 'results -- read those before assuming the whole batch is safe to move on from.',
 				'input_schema' => array(
 					'type'                 => 'object',
 					'properties'           => array(
@@ -1599,7 +1606,8 @@ class AISA_Tools {
 			return self::error( "The \"find\" text appears {$count} times; make it longer/unique so exactly one match is replaced." );
 		}
 
-		$new_content = str_replace( $find, wp_kses_post( $in['replace'] ?? '' ), $p->post_content );
+		$replace     = wp_kses_post( $in['replace'] ?? '' );
+		$new_content = str_replace( $find, $replace, $p->post_content );
 		$result      = wp_update_post(
 			array(
 				'ID'           => $id,
@@ -1611,7 +1619,12 @@ class AISA_Tools {
 			return self::error( $result->get_error_message() );
 		}
 		AISA_Audit_Log::record( 'replace_in_post', $id, array( 'find' => $find ) );
-		return array( 'content' => "Replaced one snippet in #{$id}." );
+		$message = "Replaced one snippet in #{$id}.";
+		$warning = self::page_builder_warning( $id, $p->post_content, $find . ' ' . $replace );
+		if ( $warning ) {
+			$message .= ' WARNING: ' . $warning;
+		}
+		return array( 'content' => $message );
 	}
 
 	/**
@@ -1648,7 +1661,40 @@ class AISA_Tools {
 			return self::error( $result->get_error_message() );
 		}
 		AISA_Audit_Log::record( 'append_to_post', $id, array( 'bytes' => strlen( $html ) ) );
-		return array( 'content' => "Appended HTML to #{$id}." );
+		$message = "Appended HTML to #{$id}.";
+		$warning = self::page_builder_warning( $id, $p->post_content, $html );
+		if ( $warning ) {
+			$message .= ' WARNING: ' . $warning;
+		}
+		return array( 'content' => $message );
+	}
+
+	/**
+	 * Detect page-builder risk for a targeted content edit, so the model gets
+	 * a heads-up instead of silently corrupting Divi shortcode attributes or
+	 * editing post_content on an Elementor page where it has no visible
+	 * effect. Advisory only -- never blocks the edit, since both false
+	 * positives (Divi markers in ordinary prose) and false negatives are
+	 * possible without a full parser.
+	 *
+	 * @param int    $post_id      Post ID being edited.
+	 * @param string $post_content post_content BEFORE this edit.
+	 * @param string $touched_text The find/replace/html text involved in this edit.
+	 * @return string|null Warning message, or null if nothing to flag.
+	 */
+	private static function page_builder_warning( $post_id, $post_content, $touched_text ) {
+		if ( '' !== (string) get_post_meta( $post_id, '_elementor_data', true ) ) {
+			return 'This page has Elementor data (_elementor_data postmeta). Elementor typically renders '
+				. 'from that JSON structure, not post_content, so this edit may not appear on the live '
+				. 'page -- use db_query to inspect _elementor_data if the change needs to be visible there.';
+		}
+		if ( false !== strpos( $post_content, '[et_pb_' )
+			&& preg_match( '/_builder_version\s*=|global_colors_info\s*=|\[et_pb_[a-z_]+\s/i', $touched_text ) ) {
+			return 'This page uses Divi shortcodes and the edited text touches shortcode-attribute-like '
+				. 'syntax (_builder_version, global_colors_info, or a shortcode tag). Verify the page '
+				. 'still renders correctly -- a boundary mistake here can corrupt a Divi module.';
+		}
+		return null;
 	}
 
 	/**
@@ -1755,11 +1801,16 @@ class AISA_Tools {
 			);
 		}
 		AISA_Audit_Log::record( 'bulk_replace_in_posts', $id, array( 'find' => $find ) );
-		return array(
+		$row = array(
 			'id'      => $id,
 			'status'  => 'succeeded',
 			'message' => 'Replaced.',
 		);
+		$warning = self::page_builder_warning( $id, $p->post_content, $find . ' ' . $replace );
+		if ( $warning ) {
+			$row['warning'] = $warning;
+		}
+		return $row;
 	}
 
 	/**
