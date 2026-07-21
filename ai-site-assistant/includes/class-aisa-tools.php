@@ -290,11 +290,11 @@ class AISA_Tools {
 			array(
 				'name'         => 'flush_caches',
 				'description'  => 'Flush known caching layers (WordPress object cache, and whichever of '
-					. 'Elementor, WP Rocket, W3 Total Cache, LiteSpeed Cache, WP Super Cache, or SiteGround '
-					. 'Optimizer are actually active) so a content change becomes visible immediately '
-					. 'instead of waiting for cache expiry. Call this after a content edit if the user '
-					. 'reports not seeing the change on the live site. Only touches caches; never touches '
-					. 'content. Needs an administrator account.',
+					. 'Elementor, WP Rocket, W3 Total Cache, LiteSpeed Cache, WP Super Cache, WP Fastest '
+					. 'Cache, or SiteGround Optimizer are actually active) so a content change becomes '
+					. 'visible immediately instead of waiting for cache expiry. Call this after a content '
+					. 'edit if the user reports not seeing the change on the live site. Only touches '
+					. 'caches; never touches content. Needs an administrator account.',
 				'input_schema' => array(
 					'type'                 => 'object',
 					'properties'           => new stdClass(),
@@ -1816,8 +1816,9 @@ class AISA_Tools {
 	/**
 	 * Flush known caching layers (WordPress's own object cache, and whichever
 	 * of Elementor / WP Rocket / W3 Total Cache / LiteSpeed Cache / WP Super
-	 * Cache / SiteGround Optimizer are actually active) so a content edit
-	 * becomes visible immediately instead of waiting for cache expiry.
+	 * Cache / WP Fastest Cache / SiteGround Optimizer are actually active) so
+	 * a content edit becomes visible immediately instead of waiting for
+	 * cache expiry.
 	 * Detects what's present rather than assuming any one of them is active;
 	 * never touches content, only caches.
 	 *
@@ -1870,6 +1871,11 @@ class AISA_Tools {
 		if ( class_exists( '\SiteGround_Optimizer\Supercacher\Supercacher' ) ) {
 			\SiteGround_Optimizer\Supercacher\Supercacher::purge_cache();
 			$flushed[] = 'siteground_optimizer';
+		}
+
+		if ( function_exists( 'wpfc_clear_all_cache' ) ) {
+			wpfc_clear_all_cache();
+			$flushed[] = 'wp_fastest_cache';
 		}
 
 		AISA_Audit_Log::record( 'flush_caches', null, array( 'flushed' => $flushed ) );

@@ -3,7 +3,7 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
-Stable tag: 1.2.1
+Stable tag: 1.2.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -155,6 +155,9 @@ Tips:
   gate on more precisely.
 
 == Changelog ==
+= 1.2.2 =
+* Added WP Fastest Cache to flush_caches' detected caching layers. Found this checking mikebastin.com directly: it's the only cache plugin actually active there, and it wasn't on the original list (WP Rocket, W3 Total Cache, LiteSpeed Cache, WP Super Cache, SiteGround Optimizer, Elementor) -- flush_caches would have silently done nothing useful on this exact site.
+
 = 1.2.1 =
 * Added page-builder-aware warnings to replace_in_post, append_to_post, and bulk_replace_in_posts: advisory only, never blocks the edit. On an Elementor page (detected via _elementor_data postmeta), warns that the edit may not appear on the live page since Elementor renders from that JSON structure, not post_content. On a Divi page (detected via [et_pb_ shortcodes in post_content), warns when the touched find/replace/html text looks like it crosses a shortcode-attribute boundary (_builder_version, global_colors_info, or a shortcode tag), so a boundary mistake gets flagged instead of silently corrupting a module.
 
