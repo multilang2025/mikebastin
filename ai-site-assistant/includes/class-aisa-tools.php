@@ -252,6 +252,49 @@ class AISA_Tools {
 				),
 			),
 			array(
+				'name'         => 'bulk_replace_in_posts',
+				'description'  => 'Apply the SAME exact text replacement across MULTIPLE posts/pages in '
+					. 'one call (e.g. fixing a broken URL, phone number, or shortcode across a whole '
+					. 'site). Prefer this over calling replace_in_post one post at a time. Each post is '
+					. 'independently safe: a post is only touched if "find" matches its current content '
+					. 'exactly once, otherwise it\'s skipped (not found, or ambiguous) and reported as '
+					. 'such -- one bad match never blocks the rest of the batch. Max 50 posts per call.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'ids'     => array(
+							'type'        => 'array',
+							'items'       => array( 'type' => 'integer' ),
+							'description' => 'Post/page IDs to update (max 50 per call).',
+						),
+						'find'    => array(
+							'type'        => 'string',
+							'description' => 'Exact text to find in each post\'s content.',
+						),
+						'replace' => array(
+							'type'        => 'string',
+							'description' => 'Replacement text, applied identically to every matching post.',
+						),
+					),
+					'required'             => array( 'ids', 'find', 'replace' ),
+					'additionalProperties' => false,
+				),
+			),
+			array(
+				'name'         => 'flush_caches',
+				'description'  => 'Flush known caching layers (WordPress object cache, and whichever of '
+					. 'Elementor, WP Rocket, W3 Total Cache, LiteSpeed Cache, WP Super Cache, or SiteGround '
+					. 'Optimizer are actually active) so a content change becomes visible immediately '
+					. 'instead of waiting for cache expiry. Call this after a content edit if the user '
+					. 'reports not seeing the change on the live site. Only touches caches; never touches '
+					. 'content. Needs an administrator account.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => new stdClass(),
+					'additionalProperties' => false,
+				),
+			),
+			array(
 				'name'         => 'fact_check',
 				'description'  => 'Verify a factual claim against the live web using Perplexity Sonar '
 					. '(search-grounded). Call this BEFORE adding or keeping any statistic, date, '
@@ -340,8 +383,10 @@ class AISA_Tools {
 			array(
 				'name'         => 'set_meta',
 				'description'  => 'Write one SEO/schema meta key (Rank Math / Yoast / AIO SEO keys '
-					. 'only), e.g. rank_math_robots. For structured values pass JSON as the value '
-					. 'string. Fast — no content rewrite.',
+					. 'only), e.g. rank_math_robots -- including full JSON-LD schema objects via keys '
+					. 'like rank_math_schema_Article (get_schema shows which keys exist). For '
+					. 'structured values pass JSON as the value string; it round-trips as a real '
+					. 'structure, not a JSON-string blob. Fast — no content rewrite.',
 				'input_schema' => array(
 					'type'                 => 'object',
 					'properties'           => array(
@@ -936,6 +981,8 @@ class AISA_Tools {
 			'publish_post',
 			'replace_in_post',
 			'append_to_post',
+			'bulk_replace_in_posts',
+			'flush_caches',
 			'set_seo',
 			'set_meta',
 			'wp_cli_set',
@@ -979,6 +1026,10 @@ class AISA_Tools {
 				return self::replace_in_post( $input );
 			case 'append_to_post':
 				return self::append_to_post( $input );
+			case 'bulk_replace_in_posts':
+				return self::bulk_replace_in_posts( $input );
+			case 'flush_caches':
+				return self::flush_caches( $input );
 			case 'get_seo':
 				return self::get_seo( $input );
 			case 'set_seo':
@@ -1598,6 +1649,190 @@ class AISA_Tools {
 		}
 		AISA_Audit_Log::record( 'append_to_post', $id, array( 'bytes' => strlen( $html ) ) );
 		return array( 'content' => "Appended HTML to #{$id}." );
+	}
+
+	/**
+	 * Apply the same exact text replacement across multiple posts in one
+	 * call. Each post is judged independently by the same find-must-match-
+	 * exactly-once rule as replace_in_post, so one post with no match (or an
+	 * ambiguous multi-match) is skipped and reported, not a hard failure for
+	 * the whole batch.
+	 *
+	 * @param array $in Tool input.
+	 * @return array Tool result with a per-post summary as JSON, or an error.
+	 */
+	private static function bulk_replace_in_posts( array $in ) {
+		$ids = array_values( array_unique( array_filter( array_map( 'intval', (array) ( $in['ids'] ?? array() ) ) ) ) );
+		if ( empty( $ids ) ) {
+			return self::error( 'Provide at least one post ID in "ids".' );
+		}
+		if ( count( $ids ) > 50 ) {
+			return self::error( 'Too many ids (' . count( $ids ) . '); max 50 per call. Split into smaller batches.' );
+		}
+
+		$find = (string) ( $in['find'] ?? '' );
+		if ( '' === $find ) {
+			return self::error( 'The "find" text is empty.' );
+		}
+		$replace = wp_kses_post( $in['replace'] ?? '' );
+
+		$results = array();
+		$summary = array(
+			'succeeded' => 0,
+			'skipped'   => 0,
+			'failed'    => 0,
+		);
+		foreach ( $ids as $id ) {
+			$row               = self::bulk_replace_one_post( $id, $find, $replace );
+			$results[]         = $row;
+			$summary[ $row['status'] ] = ( $summary[ $row['status'] ] ?? 0 ) + 1;
+		}
+
+		return array(
+			'content' => self::safe_json_encode(
+				array(
+					'summary' => $summary,
+					'results' => $results,
+				)
+			),
+		);
+	}
+
+	/**
+	 * Apply one exact-match replacement to one post, for bulk_replace_in_posts.
+	 *
+	 * @param int    $id      Post ID.
+	 * @param string $find    Exact text to find.
+	 * @param string $replace Sanitized replacement HTML.
+	 * @return array { id, status: succeeded|skipped|failed, message }.
+	 */
+	private static function bulk_replace_one_post( $id, $find, $replace ) {
+		if ( ! current_user_can( 'edit_post', $id ) ) {
+			return array(
+				'id'      => $id,
+				'status'  => 'failed',
+				'message' => 'Permission denied for this post.',
+			);
+		}
+		$p = get_post( $id );
+		if ( ! $p ) {
+			return array(
+				'id'      => $id,
+				'status'  => 'failed',
+				'message' => 'Post not found.',
+			);
+		}
+
+		$count = substr_count( $p->post_content, $find );
+		if ( 0 === $count ) {
+			return array(
+				'id'      => $id,
+				'status'  => 'skipped',
+				'message' => 'The "find" text was not found in this post.',
+			);
+		}
+		if ( $count > 1 ) {
+			return array(
+				'id'      => $id,
+				'status'  => 'skipped',
+				'message' => "The \"find\" text appears {$count} times in this post; skipped to avoid an ambiguous replace.",
+			);
+		}
+
+		$new_content = str_replace( $find, $replace, $p->post_content );
+		$result      = wp_update_post(
+			array(
+				'ID'           => $id,
+				'post_content' => $new_content,
+			),
+			true
+		);
+		if ( is_wp_error( $result ) ) {
+			return array(
+				'id'      => $id,
+				'status'  => 'failed',
+				'message' => $result->get_error_message(),
+			);
+		}
+		AISA_Audit_Log::record( 'bulk_replace_in_posts', $id, array( 'find' => $find ) );
+		return array(
+			'id'      => $id,
+			'status'  => 'succeeded',
+			'message' => 'Replaced.',
+		);
+	}
+
+	/**
+	 * Flush known caching layers (WordPress's own object cache, and whichever
+	 * of Elementor / WP Rocket / W3 Total Cache / LiteSpeed Cache / WP Super
+	 * Cache / SiteGround Optimizer are actually active) so a content edit
+	 * becomes visible immediately instead of waiting for cache expiry.
+	 * Detects what's present rather than assuming any one of them is active;
+	 * never touches content, only caches.
+	 *
+	 * @param array $in Tool input (unused).
+	 * @return array Tool result listing what was flushed, or an error.
+	 */
+	private static function flush_caches( array $in ) {
+		if ( ! current_user_can( 'manage_options' ) ) {
+			return self::error( 'Permission denied. This tool requires an administrator account.' );
+		}
+
+		$flushed = array();
+
+		if ( wp_using_ext_object_cache() ) {
+			wp_cache_flush();
+			$flushed[] = 'object_cache';
+		}
+
+		if ( class_exists( '\Elementor\Plugin' ) ) {
+			try {
+				\Elementor\Plugin::instance()->files_manager->clear_cache();
+				$flushed[] = 'elementor';
+			} catch ( \Throwable $e ) {
+				// Best-effort: Elementor's internal file-manager API can change
+				// between versions; a failure here shouldn't block the other
+				// cache layers from being flushed.
+			}
+		}
+
+		if ( function_exists( 'rocket_clean_domain' ) ) {
+			rocket_clean_domain();
+			$flushed[] = 'wp_rocket';
+		}
+
+		if ( function_exists( 'w3tc_flush_all' ) ) {
+			w3tc_flush_all();
+			$flushed[] = 'w3_total_cache';
+		}
+
+		if ( defined( 'LSCWP_V4' ) ) {
+			do_action( 'litespeed_purge_all' );
+			$flushed[] = 'litespeed_cache';
+		}
+
+		if ( function_exists( 'wp_cache_clear_cache' ) ) {
+			wp_cache_clear_cache();
+			$flushed[] = 'wp_super_cache';
+		}
+
+		if ( class_exists( '\SiteGround_Optimizer\Supercacher\Supercacher' ) ) {
+			\SiteGround_Optimizer\Supercacher\Supercacher::purge_cache();
+			$flushed[] = 'siteground_optimizer';
+		}
+
+		AISA_Audit_Log::record( 'flush_caches', null, array( 'flushed' => $flushed ) );
+
+		return array(
+			'content' => self::safe_json_encode(
+				array(
+					'flushed' => $flushed,
+					'note'    => empty( $flushed )
+						? 'No known caching plugin was detected active; nothing to flush beyond the object cache check above.'
+						: 'Flushed the caching layers listed above.',
+				)
+			),
+		);
 	}
 
 	/**

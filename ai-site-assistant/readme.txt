@@ -3,7 +3,7 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
-Stable tag: 1.1.3
+Stable tag: 1.2.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -155,7 +155,10 @@ Tips:
   gate on more precisely.
 
 == Changelog ==
-= 1.1.3 =
+= 1.2.0 =
+* Added bulk_replace_in_posts: apply the same exact text replacement across up to 50 posts/pages in one call, instead of one replace_in_post call per post. Each post is judged independently by the same find-must-match-exactly-once rule as replace_in_post -- a post with no match or an ambiguous multi-match is skipped and reported, not a hard failure for the whole batch.
+* Added flush_caches: flush WordPress's object cache plus whichever of Elementor, WP Rocket, W3 Total Cache, LiteSpeed Cache, WP Super Cache, or SiteGround Optimizer are actually active, so a content edit becomes visible immediately instead of waiting for cache expiry. Detects what's present rather than assuming any one is active; never touches content, admin-only.
+* Clarified set_meta's description to spell out that it already covers full Rank Math JSON-LD schema writes (e.g. rank_math_schema_Article) -- this worked before but wasn't documented in the tool description, so it was easy to miss.
 * Added db_query: a read-only SELECT tool against the site's database, gated to administrators. This is the escape hatch for data no purpose-built tool covers -- a form plugin's entries table (Formidable, Gravity Forms, WPForms...), WooCommerce order meta, or any other plugin's custom table -- without needing a bespoke integration per plugin. Ported the safety model from WPVibe's open-source db-query tool: SELECT/DESCRIBE/SHOW/EXPLAIN SELECT only, every mutating keyword blocklisted (with comment-stripping so a keyword can't hide inside one), executable MySQL comments and multi-statement injection rejected, SELECT INTO/FOR UPDATE blocked, and LIMIT force-enforced (default 100, max 1000) so a query with no LIMIT of its own can't dump an entire table. "{prefix}" is substituted for the real table prefix so the model doesn't have to guess it.
 
 = 1.1.2 =
