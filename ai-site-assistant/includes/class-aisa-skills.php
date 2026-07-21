@@ -36,6 +36,7 @@ class AISA_Skills {
 		'gsc_intelligence' => 'Google Search Console performance diagnostics and content optimization.',
 		'db_admin'         => 'Query data no other tool covers (form entries, custom plugin tables) safely with db_query.',
 		'bulk_site_changes' => 'Fix the same text/link across many posts at once, then make the change visible immediately.',
+		'ga_intelligence'  => 'Real visitor traffic, engagement, and traffic-source questions using Google Analytics (GA4) data.',
 	);
 
 	/**
@@ -246,6 +247,28 @@ class AISA_Skills {
 				. 'flush_caches detects and flushes whichever is actually active) catches up. Spot-check a '
 				. 'couple of the changed pages with get_page_html afterward to confirm the fix is actually '
 				. "visible, especially on a Divi or Elementor page (see the page_builders skill).",
+			'ga_intelligence'  => 'GOOGLE ANALYTICS (GA4): use these when the user asks about actual VISITOR '
+				. 'behavior -- traffic volume, where visitors came from, engagement, conversions -- as '
+				. 'opposed to search-ranking questions (gsc_intelligence) or Ahrefs\' traffic ESTIMATES '
+				. '(seo_intelligence). GA4 is Google\'s own recorded data from this site\'s actual visitors, '
+				. 'not an estimate from an external index. All tools default their target to this site; '
+				. 'pass "site" (a property ID, display name, or domain -- see ga_list_properties) to query '
+				. 'a different property verified under the same connected Google account. GA4 data is '
+				. 'near-real-time -- unlike Search Console\'s 2-3 day lag, "yesterday" is a safe end date.'
+				. "\n"
+				. '- "How much traffic / where from": ga_traffic_overview gives sessions, active users, '
+				. 'engagement rate, and conversions, broken down by channel (Organic Search, Direct, '
+				. 'Referral, Social, Paid Search). Use this to answer "is our traffic actually working" '
+				. 'questions GSC can\'t, since GSC only sees search-originated visits.'
+				. "\n"
+				. '- "Least/worst-performing pages by real traffic": ga_top_pages with order="worst" (fewest '
+				. 'sessions first) -- this is REAL recorded traffic, so a page showing 0 here and 0 in '
+				. 'gsc_top_pages/ahrefs_top_pages is a much stronger "genuinely no visitors" signal than any '
+				. 'one of those three alone. order="best" for top performers.'
+				. "\n"
+				. 'Needs Google Analytics connected (a separate OAuth grant from Google Search Console, even '
+				. 'though they share the same Google Cloud OAuth Client -- tell the user to connect it '
+				. 'separately in Settings if a tool reports it\'s not connected).',
 		);
 		if ( isset( $bodies[ $name ] ) ) {
 			return $bodies[ $name ];
