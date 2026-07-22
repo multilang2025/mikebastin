@@ -109,6 +109,20 @@ class AISA_REST {
 				'permission_callback' => '__return_true',
 			)
 		);
+
+		// Independent from /gsc/callback above -- a separate OAuth grant
+		// (different scope) needs its own redirect URI, even though it
+		// shares the same Google Cloud OAuth Client. Same public/state-nonce
+		// reasoning applies.
+		register_rest_route(
+			'aisa/v1',
+			'/ga/callback',
+			array(
+				'methods'             => 'GET',
+				'callback'            => array( __CLASS__, 'ga_callback' ),
+				'permission_callback' => '__return_true',
+			)
+		);
 	}
 
 	/** Only logged-in users who can edit content may use the assistant. */
@@ -420,6 +434,98 @@ class AISA_REST {
 		update_option( AISA_Gsc_Client::CONNECTION_OPTION, $conn, false );
 
 		wp_safe_redirect( add_query_arg( 'gsc', 'connected', $settings_url ) );
+		exit;
+	}
+
+	/**
+	 * Google's OAuth redirect lands here after the admin approves (or denies)
+	 * Analytics access. Same shape as gsc_callback() above, but GA4
+	 * properties have no domain-shaped ID to match on directly -- each
+	 * property's WEB DATA STREAM has a defaultUri, which is what's actually
+	 * compared against this site's hostname. Capped to the first 50
+	 * properties for auto-match (one extra API call per property); beyond
+	 * that, or on zero/multiple matches, the admin picks explicitly on the
+	 * Settings page instead of this silently guessing wrong.
+	 *
+	 * @param WP_REST_Request $request Incoming request.
+	 * @return void Always redirects; never returns a REST response body.
+	 */
+	public static function ga_callback( WP_REST_Request $request ) {
+		$settings_url = admin_url( 'admin.php?page=aisa-settings' );
+
+		if ( $request->get_param( 'error' ) ) {
+			wp_safe_redirect( add_query_arg( 'ga', 'denied', $settings_url ) );
+			exit;
+		}
+
+		$state = (string) $request->get_param( 'state' );
+		if ( ! AISA_Ga_Client::verify_and_consume_state( $state ) ) {
+			wp_safe_redirect( add_query_arg( 'ga', 'invalid_state', $settings_url ) );
+			exit;
+		}
+
+		$code = (string) $request->get_param( 'code' );
+		if ( '' === $code ) {
+			wp_safe_redirect( add_query_arg( 'ga', 'no_code', $settings_url ) );
+			exit;
+		}
+
+		$tokens = AISA_Ga_Client::exchange_code( $code );
+		if ( is_wp_error( $tokens ) ) {
+			wp_safe_redirect( add_query_arg( 'ga', 'token_error', $settings_url ) );
+			exit;
+		}
+
+		update_option(
+			AISA_Ga_Client::CONNECTION_OPTION,
+			array(
+				'refresh_token'        => $tokens['refresh_token'] ?? '',
+				'access_token'         => $tokens['access_token'],
+				'access_token_expires' => time() + (int) ( $tokens['expires_in'] ?? 3600 ),
+				'property'             => '',
+				'property_name'        => '',
+				'candidates'           => array(),
+			),
+			false
+		);
+
+		$properties = AISA_Ga_Client::list_properties();
+		if ( is_wp_error( $properties ) || empty( $properties ) ) {
+			wp_safe_redirect( add_query_arg( 'ga', 'connected', $settings_url ) );
+			exit;
+		}
+
+		$our_host = self::normalize_gsc_host( wp_parse_url( home_url(), PHP_URL_HOST ) );
+		$matches  = array();
+		foreach ( array_slice( $properties, 0, 50 ) as $property ) {
+			$streams = AISA_Ga_Client::list_data_streams( $property['property'] );
+			if ( is_wp_error( $streams ) ) {
+				continue;
+			}
+			foreach ( $streams as $stream ) {
+				$uri = $stream['webStreamData']['defaultUri'] ?? '';
+				if ( '' !== $uri && self::normalize_gsc_host( $uri ) === $our_host ) {
+					$matches[] = $property;
+					break;
+				}
+			}
+		}
+
+		$conn = AISA_Ga_Client::get_connection();
+		if ( 1 === count( $matches ) ) {
+			$conn['property']   = $matches[0]['property'];
+			$conn['property_name'] = $matches[0]['displayName'];
+			$conn['candidates'] = array();
+		} else {
+			// Zero or multiple matches -- let the admin pick explicitly
+			// rather than silently guessing wrong. Store the full property
+			// list (property + displayName) so the picker shows readable
+			// names, not just opaque IDs.
+			$conn['candidates'] = ! empty( $matches ) ? $matches : $properties;
+		}
+		update_option( AISA_Ga_Client::CONNECTION_OPTION, $conn, false );
+
+		wp_safe_redirect( add_query_arg( 'ga', 'connected', $settings_url ) );
 		exit;
 	}
 

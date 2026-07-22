@@ -36,6 +36,8 @@ class AISA_Skills {
 		'gsc_intelligence' => 'Google Search Console performance diagnostics and content optimization.',
 		'db_admin'         => 'Query data no other tool covers (form entries, custom plugin tables) safely with db_query.',
 		'bulk_site_changes' => 'Fix the same text/link across many posts at once, then make the change visible immediately.',
+		'ga_intelligence'  => 'Real visitor traffic, engagement, and traffic-source questions using Google Analytics (GA4) data.',
+		'site_reports'     => 'Build a periodic performance report for a specific site, combining GA4 + Search Console + Ahrefs data.',
 	);
 
 	/**
@@ -246,6 +248,82 @@ class AISA_Skills {
 				. 'flush_caches detects and flushes whichever is actually active) catches up. Spot-check a '
 				. 'couple of the changed pages with get_page_html afterward to confirm the fix is actually '
 				. "visible, especially on a Divi or Elementor page (see the page_builders skill).",
+			'ga_intelligence'  => 'GOOGLE ANALYTICS (GA4): use these when the user asks about actual VISITOR '
+				. 'behavior -- traffic volume, where visitors came from, engagement, conversions -- as '
+				. 'opposed to search-ranking questions (gsc_intelligence) or Ahrefs\' traffic ESTIMATES '
+				. '(seo_intelligence). GA4 is Google\'s own recorded data from this site\'s actual visitors, '
+				. 'not an estimate from an external index. All tools default their target to this site; '
+				. 'pass "site" (a property ID, display name, or domain -- see ga_list_properties) to query '
+				. 'a different property verified under the same connected Google account. GA4 data is '
+				. 'near-real-time -- unlike Search Console\'s 2-3 day lag, "yesterday" is a safe end date.'
+				. "\n"
+				. '- "How much traffic / where from": ga_traffic_overview gives sessions, active users, '
+				. 'engagement rate, and conversions, broken down by channel (Organic Search, Direct, '
+				. 'Referral, Social, Paid Search). Use this to answer "is our traffic actually working" '
+				. 'questions GSC can\'t, since GSC only sees search-originated visits.'
+				. "\n"
+				. '- "Least/worst-performing pages by real traffic": ga_top_pages with order="worst" (fewest '
+				. 'sessions first) -- this is REAL recorded traffic, so a page showing 0 here and 0 in '
+				. 'gsc_top_pages/ahrefs_top_pages is a much stronger "genuinely no visitors" signal than any '
+				. 'one of those three alone. order="best" for top performers.'
+				. "\n"
+				. 'Needs Google Analytics connected (a separate OAuth grant from Google Search Console, even '
+				. 'though they share the same Google Cloud OAuth Client -- tell the user to connect it '
+				. 'separately in Settings if a tool reports it\'s not connected).',
+			'site_reports'     => 'SITE PERFORMANCE REPORTS: use this when the user asks for a periodic report, '
+				. 'audit, or summary of how a site is doing -- "how did [site] do this month," "put together '
+				. 'a report for [domain]," "send me the numbers for [site]." The connected Google account '
+				. '(and Ahrefs, if configured) can see MANY different websites, not just this WordPress '
+				. 'install -- the single biggest mistake is silently reporting on the wrong site. Confirm '
+				. 'which site FIRST.'
+				. "\n\n"
+				. 'STEP 1 -- IDENTIFY THE SITE. If the user names a domain that is not obviously this '
+				. 'WordPress site, call gsc_list_properties AND ga_list_properties before pulling any data, '
+				. 'and match the user\'s wording against what comes back (domain, siteUrl, or GA4 '
+				. 'displayName). If nothing matches cleanly, ask which one they mean rather than guessing -- '
+				. 'reporting the wrong site\'s numbers as if they were the requested one is worse than '
+				. 'asking. Once identified, pass that exact "site" value to every tool below so all of them '
+				. 'query the SAME property, not each defaulting to a different guess.'
+				. "\n\n"
+				. 'STEP 2 -- PICK THE PERIOD. Default to the last full calendar month unless the user '
+				. 'specifies a range (e.g. "this month," "last quarter," "since July 1st"). Convert that '
+				. 'into explicit start/end dates once and reuse them across every tool call (the "days" '
+				. 'argument on ga_traffic_overview/ga_top_pages/gsc_top_pages) so every section of the '
+				. 'report covers the identical window -- mismatched date ranges between sections is a '
+				. 'common, confusing mistake.'
+				. "\n\n"
+				. 'STEP 3 -- PULL THE DATA, ONE SIGNAL AT A TIME:'
+				. "\n"
+				. '- Visitor traffic and engagement (ga_traffic_overview): sessions, active users, '
+				. 'engagement rate, conversions, and the channel breakdown (Organic Search vs Direct vs '
+				. 'Referral vs Social vs Paid). This is the "how much real traffic, and where from" section.'
+				. "\n"
+				. '- Best/worst content by real traffic (ga_top_pages, order="best" and order="worst"): '
+				. 'what to highlight as working, and what needs attention.'
+				. "\n"
+				. '- Search visibility (gsc_top_pages order="worst"/"best", plus gsc_page_queries on a '
+				. 'specific page if the user wants query-level detail): how the site is doing IN SEARCH '
+				. 'specifically, separate from overall traffic -- a page can have strong GA4 sessions from '
+				. 'social/referral while ranking poorly, or vice versa, and that contrast is worth calling '
+				. 'out explicitly rather than blending the two signals into one number.'
+				. "\n"
+				. '- Competitive context, if relevant (ahrefs_domain_metrics, ahrefs_organic_competitors): '
+				. 'only pull this when the user asked about competitors or market position -- it is Ahrefs\' '
+				. 'own estimate, not the site\'s real numbers, and should be labeled as such if included.'
+				. "\n\n"
+				. 'STEP 4 -- SYNTHESIZE, DO NOT JUST DUMP NUMBERS. A report is not four tool outputs pasted '
+				. 'in sequence. Structure it as: (1) a short overview -- total sessions/users and the '
+				. 'headline trend; (2) where traffic came from and whether that shifted; (3) what content '
+				. 'is working and what is not, framed as call-outs ("X gets real traffic but doesn\'t rank," '
+				. '"Y ranks well but converts nobody"); (4) a short list of concrete next actions, each '
+				. 'grounded in a specific number just shown, not a generic suggestion. Never fabricate a '
+				. 'trend, percentage change, or comparison to a prior period you did not actually query -- '
+				. 'if the user wants a period-over-period comparison, run the same tools again for the '
+				. 'prior period and compare the real numbers, rather than estimating the delta.'
+				. "\n\n"
+				. 'If GA4 is not connected yet for the requested site, say so plainly and build the report '
+				. 'from whatever of GSC/Ahrefs IS available rather than refusing outright -- note explicitly '
+				. 'which section is missing and why.',
 		);
 		if ( isset( $bodies[ $name ] ) ) {
 			return $bodies[ $name ];

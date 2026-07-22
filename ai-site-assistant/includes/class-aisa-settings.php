@@ -24,6 +24,8 @@ class AISA_Settings {
 		add_filter( 'admin_body_class', array( __CLASS__, 'body_class' ) );
 		add_action( 'admin_post_aisa_gsc_disconnect', array( __CLASS__, 'handle_gsc_disconnect' ) );
 		add_action( 'admin_post_aisa_gsc_select_property', array( __CLASS__, 'handle_gsc_select_property' ) );
+		add_action( 'admin_post_aisa_ga_disconnect', array( __CLASS__, 'handle_ga_disconnect' ) );
+		add_action( 'admin_post_aisa_ga_select_property', array( __CLASS__, 'handle_ga_select_property' ) );
 	}
 
 	/**
@@ -110,6 +112,105 @@ class AISA_Settings {
 			update_option( AISA_Gsc_Client::CONNECTION_OPTION, $conn, false );
 		}
 		wp_safe_redirect( admin_url( 'admin.php?page=aisa-settings&gsc=connected' ) );
+		exit;
+	}
+
+	/**
+	 * Render the Google Analytics connection status/action on the Settings
+	 * page. Same shape as render_gsc_connection_status(), but GA4
+	 * candidates are stored as { property, displayName, account } objects
+	 * (opaque property IDs have no readable form on their own), so the
+	 * picker shows displayName/account instead of the raw value directly.
+	 */
+	private static function render_ga_connection_status() {
+		if ( ! AISA_Ga_Client::has_client_credentials() ) {
+			echo '<p class="description">' . esc_html__( 'Save a Client ID and Secret above first (shared with Google Search Console), then this page will show a Connect button.', 'ai-site-assistant' ) . '</p>';
+			return;
+		}
+
+		$conn = AISA_Ga_Client::get_connection();
+
+		if ( '' !== $conn['property'] ) {
+			printf(
+				'<p><strong>%s</strong> %s <code>%s</code></p>',
+				esc_html__( 'Connected:', 'ai-site-assistant' ),
+				esc_html( $conn['property_name'] ),
+				esc_html( $conn['property'] )
+			);
+			?>
+			<form method="post" action="<?php echo esc_url( admin_url( 'admin-post.php' ) ); ?>">
+				<input type="hidden" name="action" value="aisa_ga_disconnect" />
+				<?php wp_nonce_field( 'aisa_ga_disconnect' ); ?>
+				<button type="submit" class="button"><?php esc_html_e( 'Disconnect', 'ai-site-assistant' ); ?></button>
+			</form>
+			<?php
+			return;
+		}
+
+		if ( ! empty( $conn['candidates'] ) ) {
+			?>
+			<p class="description"><?php esc_html_e( 'Multiple Google Analytics properties are available to this Google account. Choose which one this site should use:', 'ai-site-assistant' ); ?></p>
+			<form method="post" action="<?php echo esc_url( admin_url( 'admin-post.php' ) ); ?>">
+				<input type="hidden" name="action" value="aisa_ga_select_property" />
+				<?php wp_nonce_field( 'aisa_ga_select_property' ); ?>
+				<select name="property">
+					<?php foreach ( $conn['candidates'] as $property ) : ?>
+						<option value="<?php echo esc_attr( $property['property'] ); ?>">
+							<?php echo esc_html( $property['displayName'] . ' (' . $property['account'] . ') -- ' . $property['property'] ); ?>
+						</option>
+					<?php endforeach; ?>
+				</select>
+				<button type="submit" class="button button-primary"><?php esc_html_e( 'Use this property', 'ai-site-assistant' ); ?></button>
+			</form>
+			<?php
+			return;
+		}
+
+		printf(
+			'<a class="button button-primary" href="%s">%s</a>',
+			esc_url( AISA_Ga_Client::get_auth_url() ),
+			esc_html__( 'Connect Google Analytics', 'ai-site-assistant' )
+		);
+	}
+
+	/**
+	 * admin-post handler: clear the stored GA connection entirely.
+	 */
+	public static function handle_ga_disconnect() {
+		check_admin_referer( 'aisa_ga_disconnect' );
+		if ( ! current_user_can( 'manage_options' ) ) {
+			wp_die( esc_html__( 'Permission denied.', 'ai-site-assistant' ) );
+		}
+		delete_option( AISA_Ga_Client::CONNECTION_OPTION );
+		wp_safe_redirect( admin_url( 'admin.php?page=aisa-settings&ga=disconnected' ) );
+		exit;
+	}
+
+	/**
+	 * admin-post handler: save the admin's pick from the candidate-property
+	 * list shown when OAuth succeeded but auto-detection was ambiguous.
+	 */
+	public static function handle_ga_select_property() {
+		check_admin_referer( 'aisa_ga_select_property' );
+		if ( ! current_user_can( 'manage_options' ) ) {
+			wp_die( esc_html__( 'Permission denied.', 'ai-site-assistant' ) );
+		}
+		$chosen = isset( $_POST['property'] ) ? sanitize_text_field( wp_unslash( $_POST['property'] ) ) : '';
+		$conn   = AISA_Ga_Client::get_connection();
+		$match  = null;
+		foreach ( (array) $conn['candidates'] as $candidate ) {
+			if ( $candidate['property'] === $chosen ) {
+				$match = $candidate;
+				break;
+			}
+		}
+		if ( null !== $match ) {
+			$conn['property']      = $match['property'];
+			$conn['property_name'] = $match['displayName'];
+			$conn['candidates']    = array();
+			update_option( AISA_Ga_Client::CONNECTION_OPTION, $conn, false );
+		}
+		wp_safe_redirect( admin_url( 'admin.php?page=aisa-settings&ga=connected' ) );
 		exit;
 	}
 
@@ -370,9 +471,10 @@ class AISA_Settings {
 							<p class="description">
 								<?php
 								printf(
-									/* translators: %s: the redirect URI to register in Google Cloud Console, shown as a copyable <code> tag. */
-									esc_html__( 'Optional, powers Google Search Console diagnostics (ranking pages/queries). Create an OAuth Client ID (type: Web application) in a Google Cloud project with the Search Console API enabled, and add this exact redirect URI to its "Authorized redirect URIs": %s. Save this page, then use the Connect button below.', 'ai-site-assistant' ),
-									'<code>' . esc_html( AISA_Gsc_Client::get_redirect_uri() ) . '</code>'
+									/* translators: %1$s, %2$s: the two redirect URIs to register in Google Cloud Console, each shown as a copyable <code> tag. */
+									esc_html__( 'Optional, powers Google Search Console AND Google Analytics diagnostics -- one OAuth Client covers both. Create an OAuth Client ID (type: Web application) in a Google Cloud project with the Search Console API, Google Analytics Admin API, and Google Analytics Data API all enabled, and add BOTH of these exact redirect URIs to its "Authorized redirect URIs": %1$s and %2$s. Save this page, then use the Connect buttons below (each is its own OAuth grant since they request different scopes).', 'ai-site-assistant' ),
+									'<code>' . esc_html( AISA_Gsc_Client::get_redirect_uri() ) . '</code>',
+									'<code>' . esc_html( AISA_Ga_Client::get_redirect_uri() ) . '</code>'
 								);
 								?>
 							</p>
@@ -405,6 +507,12 @@ class AISA_Settings {
 			// and hitting options.php instead of our own handler, so the
 			// property picker never actually saved anything.
 			self::render_gsc_connection_status();
+			?>
+
+			<h2><?php esc_html_e( 'Google Analytics', 'ai-site-assistant' ); ?></h2>
+			<?php
+			// Same "outside the main form" reasoning as the GSC section above.
+			self::render_ga_connection_status();
 			?>
 		</div>
 		<?php

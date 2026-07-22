@@ -972,6 +972,76 @@ class AISA_Tools {
 					'additionalProperties' => false,
 				),
 			),
+			array(
+				'name'         => 'ga_list_properties',
+				'description'  => 'List every Google Analytics (GA4) property the connected Google account '
+					. 'can access. Pass a property\'s ID, display name, or a domain as the "site" argument '
+					. 'to ga_traffic_overview/ga_top_pages to get data for it. Read-only. Needs Google '
+					. 'Analytics connected.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(),
+					'additionalProperties' => false,
+				),
+			),
+			array(
+				'name'         => 'ga_traffic_overview',
+				'description'  => 'Real Google Analytics (GA4) traffic summary: sessions, active users, '
+					. 'engagement rate, and conversions for the period, broken down by traffic-source '
+					. 'channel (Organic Search, Direct, Referral, Social, Paid Search, etc.). This is '
+					. 'ACTUAL visitor behavior, not search-ranking data -- use gsc_top_pages/Ahrefs tools '
+					. 'for search-specific questions, and this for "how much traffic / where from / do '
+					. 'visitors engage." Defaults to this WordPress site; pass "site" to query any other '
+					. 'property verified under the same connected Google account (see ga_list_properties). '
+					. 'GA4 data is near-real-time (no multi-day lag like Search Console). Read-only. Needs '
+					. 'Google Analytics connected.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'site' => array(
+							'type'        => 'string',
+							'description' => 'Property ID, display name, or domain to query (default: this site). See ga_list_properties.',
+						),
+						'days' => array(
+							'type'        => 'integer',
+							'description' => 'How many days back to look, ending yesterday. Default 28, max 365.',
+						),
+					),
+					'additionalProperties' => false,
+				),
+			),
+			array(
+				'name'         => 'ga_top_pages',
+				'description'  => 'Rank a site\'s pages by REAL Google Analytics (GA4) traffic (sessions or '
+					. 'views Google Analytics actually recorded, not a search-ranking estimate). Use '
+					. 'order="worst" to find pages that get little to no real traffic, or order="best" for '
+					. 'top performers. Defaults to this WordPress site; pass "site" to query any other '
+					. 'property verified under the same connected Google account (see ga_list_properties). '
+					. 'Read-only. Needs Google Analytics connected.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'site'   => array(
+							'type'        => 'string',
+							'description' => 'Property ID, display name, or domain to query (default: this site). See ga_list_properties.',
+						),
+						'order'  => array(
+							'type'        => 'string',
+							'enum'        => array( 'worst', 'best' ),
+							'description' => 'worst = lowest traffic first (default); best = highest first.',
+						),
+						'limit'  => array(
+							'type'        => 'integer',
+							'description' => 'Max pages to return (default 10, max 100).',
+						),
+						'days'   => array(
+							'type'        => 'integer',
+							'description' => 'How many days back to look, ending yesterday. Default 28, max 365.',
+						),
+					),
+					'additionalProperties' => false,
+				),
+			),
 		);
 	}
 
@@ -1093,6 +1163,12 @@ class AISA_Tools {
 				return self::gsc_page_queries( $input );
 			case 'gsc_page_report':
 				return self::gsc_page_report( $input );
+			case 'ga_list_properties':
+				return self::ga_list_properties( $input );
+			case 'ga_traffic_overview':
+				return self::ga_traffic_overview( $input );
+			case 'ga_top_pages':
+				return self::ga_top_pages( $input );
 			default:
 				return self::error( "Unknown tool: {$name}" );
 		}
@@ -2838,6 +2914,216 @@ class AISA_Tools {
 					'date_range'           => array( $start, $end ),
 					'aggregate_performance' => $aggregate,
 					'queries'              => $queries_decoded['queries'] ?? array(),
+				)
+			),
+		);
+	}
+
+	/**
+	 * List every Google Analytics (GA4) property the connected Google account
+	 * can access, so tools can be pointed at any property the admin owns --
+	 * not just this WordPress site's own.
+	 *
+	 * @param array $in Tool input (unused).
+	 * @return array Tool result with a JSON list of properties, or an error.
+	 */
+	private static function ga_list_properties( array $in ) {
+		if ( ! current_user_can( 'edit_posts' ) ) {
+			return self::error( 'Permission denied.' );
+		}
+		if ( ! AISA_Ga_Client::is_configured() ) {
+			return self::error( 'Google Analytics is not connected. Connect it in AISA Connector → Settings.' );
+		}
+
+		$properties = AISA_Ga_Client::list_properties();
+		if ( is_wp_error( $properties ) ) {
+			return self::error( $properties->get_error_message() );
+		}
+
+		$conn = AISA_Ga_Client::get_connection();
+		return array(
+			'content' => self::safe_json_encode(
+				array(
+					'this_site'  => array(
+						'property' => $conn['property'],
+						'name'     => $conn['property_name'],
+					),
+					'properties' => $properties,
+				)
+			),
+		);
+	}
+
+	/**
+	 * Extract a GA4 runReport response into a flat array of associative rows,
+	 * keyed by dimension/metric name instead of positional dimensionValues/
+	 * metricValues arrays.
+	 *
+	 * @param array $report Decoded runReport response.
+	 * @return array List of associative rows.
+	 */
+	private static function flatten_ga_report( array $report ) {
+		$dim_names = array_map(
+			static function ( $h ) {
+				return $h['name'] ?? '';
+			},
+			$report['dimensionHeaders'] ?? array()
+		);
+		$metric_names = array_map(
+			static function ( $h ) {
+				return $h['name'] ?? '';
+			},
+			$report['metricHeaders'] ?? array()
+		);
+
+		$rows = array();
+		foreach ( (array) ( $report['rows'] ?? array() ) as $row ) {
+			$flat = array();
+			foreach ( (array) ( $row['dimensionValues'] ?? array() ) as $i => $value ) {
+				$flat[ $dim_names[ $i ] ?? "dimension_{$i}" ] = $value['value'] ?? '';
+			}
+			foreach ( (array) ( $row['metricValues'] ?? array() ) as $i => $value ) {
+				$raw = $value['value'] ?? '0';
+				$flat[ $metric_names[ $i ] ?? "metric_{$i}" ] = is_numeric( $raw ) ? $raw + 0 : $raw;
+			}
+			$rows[] = $flat;
+		}
+		return $rows;
+	}
+
+	/**
+	 * Real GA4 traffic summary: totals plus a channel-group breakdown.
+	 *
+	 * @param array $in Tool input.
+	 * @return array Tool result with the summary as JSON, or an error.
+	 */
+	private static function ga_traffic_overview( array $in ) {
+		if ( ! current_user_can( 'edit_posts' ) ) {
+			return self::error( 'Permission denied.' );
+		}
+		if ( ! AISA_Ga_Client::is_configured() ) {
+			return self::error( 'Google Analytics is not connected. Connect it in AISA Connector → Settings.' );
+		}
+
+		$property = AISA_Ga_Client::resolve_property( (string) ( $in['site'] ?? '' ) );
+		if ( is_wp_error( $property ) ) {
+			return self::error( $property->get_error_message() );
+		}
+
+		$days  = min( max( 1, (int) ( $in['days'] ?? 28 ) ), 365 );
+		$end   = gmdate( 'Y-m-d', strtotime( '-1 day' ) );
+		$start = gmdate( 'Y-m-d', strtotime( "-{$days} days", strtotime( $end ) ) );
+
+		$report = AISA_Ga_Client::query(
+			array(
+				'dateRanges'         => array(
+					array(
+						'startDate' => $start,
+						'endDate'   => $end,
+					),
+				),
+				'dimensions'         => array( array( 'name' => 'sessionDefaultChannelGroup' ) ),
+				'metrics'            => array(
+					array( 'name' => 'sessions' ),
+					array( 'name' => 'activeUsers' ),
+					array( 'name' => 'engagementRate' ),
+					array( 'name' => 'conversions' ),
+				),
+				'metricAggregations' => array( 'TOTAL' ),
+				'limit'              => 50,
+			),
+			$property
+		);
+		if ( is_wp_error( $report ) ) {
+			return self::error( $report->get_error_message() );
+		}
+
+		$by_channel = self::flatten_ga_report( $report );
+		usort( $by_channel, static fn( $a, $b ) => ( $b['sessions'] ?? 0 ) <=> ( $a['sessions'] ?? 0 ) );
+
+		$totals = array();
+		if ( ! empty( $report['totals'][0] ) ) {
+			$totals = self::flatten_ga_report(
+				array(
+					'metricHeaders' => $report['metricHeaders'] ?? array(),
+					'rows'          => array( $report['totals'][0] ),
+				)
+			)[0] ?? array();
+		}
+
+		return array(
+			'content' => self::safe_json_encode(
+				array(
+					'date_range'      => array( $start, $end ),
+					'totals'          => $totals,
+					'by_channel'      => $by_channel,
+				)
+			),
+		);
+	}
+
+	/**
+	 * Rank a site's pages by real GA4 traffic. Unlike gsc_top_pages, GA4's
+	 * Data API supports server-side ordering and limiting directly, so no
+	 * client-side sort is needed here.
+	 *
+	 * @param array $in Tool input.
+	 * @return array Tool result with a JSON list of pages, or an error.
+	 */
+	private static function ga_top_pages( array $in ) {
+		if ( ! current_user_can( 'edit_posts' ) ) {
+			return self::error( 'Permission denied.' );
+		}
+		if ( ! AISA_Ga_Client::is_configured() ) {
+			return self::error( 'Google Analytics is not connected. Connect it in AISA Connector → Settings.' );
+		}
+
+		$property = AISA_Ga_Client::resolve_property( (string) ( $in['site'] ?? '' ) );
+		if ( is_wp_error( $property ) ) {
+			return self::error( $property->get_error_message() );
+		}
+
+		$order = ( 'best' === ( $in['order'] ?? 'worst' ) ) ? 'best' : 'worst';
+		$limit = min( max( 1, (int) ( $in['limit'] ?? 10 ) ), 100 );
+		$days  = min( max( 1, (int) ( $in['days'] ?? 28 ) ), 365 );
+		$end   = gmdate( 'Y-m-d', strtotime( '-1 day' ) );
+		$start = gmdate( 'Y-m-d', strtotime( "-{$days} days", strtotime( $end ) ) );
+
+		$report = AISA_Ga_Client::query(
+			array(
+				'dateRanges' => array(
+					array(
+						'startDate' => $start,
+						'endDate'   => $end,
+					),
+				),
+				'dimensions' => array( array( 'name' => 'pagePath' ) ),
+				'metrics'    => array(
+					array( 'name' => 'screenPageViews' ),
+					array( 'name' => 'sessions' ),
+					array( 'name' => 'activeUsers' ),
+					array( 'name' => 'engagementRate' ),
+				),
+				'orderBys'   => array(
+					array(
+						'metric'    => array( 'metricName' => 'sessions' ),
+						'desc'      => ( 'best' === $order ),
+					),
+				),
+				'limit'      => $limit,
+			),
+			$property
+		);
+		if ( is_wp_error( $report ) ) {
+			return self::error( $report->get_error_message() );
+		}
+
+		return array(
+			'content' => self::safe_json_encode(
+				array(
+					'order'      => $order,
+					'date_range' => array( $start, $end ),
+					'pages'      => self::flatten_ga_report( $report ),
 				)
 			),
 		);
