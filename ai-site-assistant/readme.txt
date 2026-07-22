@@ -3,7 +3,7 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
-Stable tag: 1.3.0
+Stable tag: 1.3.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -155,6 +155,9 @@ Tips:
   gate on more precisely.
 
 == Changelog ==
+= 1.3.1 =
+* Fixed every Google Analytics API call 404ing: both the Data API (ga_traffic_overview/ga_top_pages) and the Admin API (data-stream lookups used for property auto-matching) built their request URL with rawurlencode() applied to the WHOLE "properties/123456" string, which encodes its internal "/" into "%2F" -- Google's REST routing does not treat that as equivalent to a literal "/", so every request 404'd regardless of which property was queried, and property auto-matching silently fell back to showing the full candidate list since none of the per-property data-stream checks could actually succeed. Found by testing live against a real, confirmed-active GA4 property that still 404'd. Only the numeric property ID needs encoding now; "properties/" is a literal path segment, not data.
+
 = 1.3.0 =
 * Added Google Analytics (GA4) integration: new AISA_Ga_Client reuses the same Google Cloud OAuth Client as Search Console (one more API enabled, one more scope, one more redirect URI on the existing client -- no second app needed). Three new tools: ga_list_properties, ga_traffic_overview (sessions/users/engagement/conversions by traffic-source channel), and ga_top_pages (real-traffic page ranking, server-side ordered). New "Connect Google Analytics" section on the Settings page, independent from the Search Console connection since it's a separate OAuth grant.
 * Added the ga_intelligence skill (when to use real GA4 visitor data vs. Search Console's search-only lens vs. Ahrefs' external estimates) and the site_reports skill (building a combined GA4 + Search Console + Ahrefs performance report for one specific site, when the connected Google account spans many different websites -- front-loads confirming which site before pulling any data, keeps one shared date range across every tool call, and synthesizes rather than dumping raw numbers).

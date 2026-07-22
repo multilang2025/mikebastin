@@ -310,7 +310,7 @@ class AISA_Ga_Client {
 		}
 
 		$response = wp_remote_get(
-			self::ADMIN_API_BASE . rawurlencode( $property ) . '/dataStreams?pageSize=200',
+			self::ADMIN_API_BASE . self::property_path( $property ) . '/dataStreams?pageSize=200',
 			array(
 				'timeout' => 20,
 				'headers' => array(
@@ -430,7 +430,7 @@ class AISA_Ga_Client {
 		}
 
 		$response = wp_remote_post(
-			self::DATA_API_BASE . rawurlencode( $property ) . ':runReport',
+			self::DATA_API_BASE . self::property_path( $property ) . ':runReport',
 			array(
 				'timeout' => 30,
 				'headers' => array(
@@ -450,6 +450,23 @@ class AISA_Ga_Client {
 			return new WP_Error( 'aisa_ga_api_error', $decoded['error']['message'] ?? "HTTP {$code}", array( 'status' => $code ) );
 		}
 		return $decoded;
+	}
+
+	/**
+	 * Build the "properties/<id>" path segment for a Data/Admin API URL.
+	 * rawurlencode()-ing the property string AS A WHOLE (as every call site
+	 * here originally did) encodes its internal "/" into "%2F", which
+	 * Google's REST routing does not accept as equivalent to "/" -- every
+	 * request 404s, not just one, because the path literally doesn't match
+	 * any route. Only the numeric ID needs encoding; the "properties/"
+	 * segment itself is a literal path separator, not data.
+	 *
+	 * @param string $property "properties/123456789" (or just "123456789").
+	 * @return string "properties/123456789", safe to concatenate into a URL path.
+	 */
+	private static function property_path( $property ) {
+		$id = preg_replace( '#^properties/#', '', (string) $property );
+		return 'properties/' . rawurlencode( $id );
 	}
 
 	/**
