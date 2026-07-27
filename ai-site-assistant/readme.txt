@@ -3,7 +3,7 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
-Stable tag: 1.3.1
+Stable tag: 1.3.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -155,6 +155,9 @@ Tips:
   gate on more precisely.
 
 == Changelog ==
+= 1.3.2 =
+* Added the delaguialuzon_monthly_report skill: a cross-source monthly report for Delaguía y Luzón Abogados (Formidable leads via db_query + native gsc_* tools + native ga_traffic_overview/ga_top_pages), deliberately built without Ahrefs. Documents the exact SQL for lead totals/monthly trend/enquiry-type breakdown (field IDs looked up fresh each time, never hardcoded, since they can change), the language-grouping table for cross-source comparison, and the honest cross-check discipline (GA4 event counts vs real Formidable leads to catch tracking breaks, not real drops; traffic/spend growth vs flat real leads as the headline finding to look for). Google Ads and two specific GA4 event-level cuts (new users by channel, individual event volumes) still need a Chrome handoff, since no native tool exposes them yet -- documented explicitly rather than glossed over.
+
 = 1.3.1 =
 * Fixed every Google Analytics API call 404ing: both the Data API (ga_traffic_overview/ga_top_pages) and the Admin API (data-stream lookups used for property auto-matching) built their request URL with rawurlencode() applied to the WHOLE "properties/123456" string, which encodes its internal "/" into "%2F" -- Google's REST routing does not treat that as equivalent to a literal "/", so every request 404'd regardless of which property was queried, and property auto-matching silently fell back to showing the full candidate list since none of the per-property data-stream checks could actually succeed. Found by testing live against a real, confirmed-active GA4 property that still 404'd. Only the numeric property ID needs encoding now; "properties/" is a literal path segment, not data.
 

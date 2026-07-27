@@ -38,6 +38,7 @@ class AISA_Skills {
 		'bulk_site_changes' => 'Fix the same text/link across many posts at once, then make the change visible immediately.',
 		'ga_intelligence'  => 'Real visitor traffic, engagement, and traffic-source questions using Google Analytics (GA4) data.',
 		'site_reports'     => 'Build a periodic performance report for a specific site, combining GA4 + Search Console + Ahrefs data.',
+		'delaguialuzon_monthly_report' => 'Cross-source monthly report for Delaguía y Luzón Abogados: Formidable leads + GSC + GA4, with honest cross-checks. No Ahrefs.',
 	);
 
 	/**
@@ -324,6 +325,108 @@ class AISA_Skills {
 				. 'If GA4 is not connected yet for the requested site, say so plainly and build the report '
 				. 'from whatever of GSC/Ahrefs IS available rather than refusing outright -- note explicitly '
 				. 'which section is missing and why.',
+			'delaguialuzon_monthly_report' => 'DELAGUÍA Y LUZÓN ABOGADOS MONTHLY REPORT (delaguialuzon.com): '
+				. 'trigger on "informe delaguialuzon," "delaguialuzon report," or a periodic performance/SEO/'
+				. 'leads report for this client. Default report window: since the end of the last report '
+				. 'through today, unless another window is given. Deliberately built WITHOUT Ahrefs -- every '
+				. 'signal here comes from native AISA tools (db_query, gsc_*, ga_*) or an explicit Chrome '
+				. 'handoff for the two sources AISA has no connector for (Google Ads entirely; a couple of '
+				. 'specific GA4 event-level cuts, noted below).'
+				. "\n\n"
+				. 'WRITE THE FINAL REPORT IN FORMAL SPANISH (castellano formal), FIRST PERSON, as if Michael '
+				. 'Bastin (BeTranslated) is addressing the client directly -- close but honest, never '
+				. 'softening a negative finding. This instruction stays in Spanish deliberately, since it is '
+				. 'about the deliverable itself: "Nombrar siempre al menos una preocupación genuina junto a '
+				. 'los aspectos positivos -- el cliente valora explícitamente la honestidad sin adornos por '
+				. 'encima de un informe que suene pulido." Never invent or eyeball a GSC/Ads/GA4 figure -- if '
+				. 'a data source is unavailable, say so and ask for it rather than guessing.'
+				. "\n\n"
+				. '1. LEADS -- Formidable Forms, via db_query (see db_admin skill for the general pattern). '
+				. 'Use "{prefix}" -- do not hardcode a table prefix, it can differ per install/environment.'
+				. "\n"
+				. '   Totals per form: SELECT f.name AS form_name, COUNT(i.id) AS entry_count FROM '
+				. '{prefix}frm_items i JOIN {prefix}frm_forms f ON i.form_id = f.id GROUP BY f.id ORDER BY '
+				. 'entry_count DESC'
+				. "\n"
+				. '   Monthly trend: SELECT DATE_FORMAT(i.created_at, \'%Y-%m\') AS ym, f.name AS form_name, '
+				. 'COUNT(*) AS cnt FROM {prefix}frm_items i JOIN {prefix}frm_forms f ON i.form_id = f.id '
+				. 'WHERE i.created_at >= \'YYYY-MM-DD\' GROUP BY ym, f.id ORDER BY ym ASC'
+				. "\n"
+				. '   Enquiry-type breakdown: each form has an "Type of enquiry" dropdown field, but its '
+				. 'field_id CAN CHANGE if the form is edited -- never trust a previously-noted ID blindly. '
+				. 'Look it up fresh each time: SELECT id, name, form_id FROM {prefix}frm_fields WHERE name '
+				. 'LIKE \'%enquiry%\' OR name LIKE \'%type%\', then: SELECT m.meta_value AS enquiry_type, '
+				. 'COUNT(*) AS cnt FROM {prefix}frm_item_metas m WHERE m.field_id = <found id> GROUP BY '
+				. 'm.meta_value ORDER BY cnt DESC'
+				. "\n"
+				. '   Group forms by language for cross-source comparison: EN = General Enquiries + '
+				. 'Immigration Form; FR = Form general FR + Formulaire d\'immigration; ES = Form general ES '
+				. '+ Form Extranjeria; RU = Form general RU + Форма по вопросам иммиграции + Form pop up RU.'
+				. "\n\n"
+				. '2. SEO -- native gsc_* tools, NOT Ahrefs. First call gsc_list_properties and match the '
+				. 'exact property for delaguialuzon.com (this account has several similarly-named '
+				. 'properties/domains -- confirm before pulling data, same discipline as the site_reports '
+				. 'skill). Then gsc_top_pages (order="worst" and "best") for the report window, and '
+				. 'gsc_page_queries/gsc_page_report on specific pages if query-level detail is wanted. '
+				. 'KNOWN LIMITATION: gsc_top_pages/gsc_page_report take a rolling "days" window ending 3 '
+				. 'days ago, not an arbitrary explicit month -- there is no native way yet to pull a clean '
+				. 'month-by-month clicks/impressions/position TABLE the way Ahrefs\' gsc-performance-history '
+				. 'report could. State the aggregate for the whole report window plainly; if the user '
+				. 'specifically wants a month-by-month breakdown, say this requires either several '
+				. 'carefully-dated calls (imprecise for anything beyond the most recent months) or a future '
+				. 'tool enhancement, rather than fabricating a clean table.'
+				. "\n\n"
+				. '3. GOOGLE ADS -- no native AISA connector. Ask the user to run Claude in Chrome to: '
+				. 'navigate to the Ads campaigns report, segment by month across the report window, filter '
+				. 'status to "All" (include paused/ended campaigns), and extract Cost, Clicks, Impressions, '
+				. 'CTR, Avg. CPC, Conversions, Cost/conversion -- both account totals and per-campaign, plus '
+				. 'which campaigns are active/paused/ended. RECONCILIATION NOTE: Google Ads clicks '
+				. '(especially Performance Max) do NOT map 1:1 to GA4\'s "Paid Search" channel -- PMax shows '
+				. 'up in GA4 as Cross-network/Unassigned/Paid Shopping. Never compare Ads clicks directly to '
+				. 'GA4 Paid Search sessions without flagging this.'
+				. "\n\n"
+				. '4. GA4 (property 424430838, or whatever gsc_list_properties/ga_list_properties currently '
+				. 'resolves for delaguialuzon.com -- confirm, property IDs can be reassigned) -- MOSTLY '
+				. 'native now via ga_traffic_overview (channel breakdown: sessions, engagement rate, '
+				. 'conversions) and ga_top_pages, scoped with "site" to this property and "days" to the '
+				. 'report window. TWO THINGS STILL NEED A CHROME HANDOFF because current AISA GA4 tools '
+				. 'don\'t expose these specific cuts: (a) new users broken out by channel specifically '
+				. '(ga_traffic_overview reports activeUsers, not newUsers, per channel); (b) monthly volume '
+				. 'of individual events -- form_start, form_submit, generate_lead, any ads_conversion_* -- '
+				. 'since neither ga_traffic_overview nor ga_top_pages request eventName/eventCount '
+				. 'dimensions. For those two, ask the user to pull them from the GA4 UI directly (Adquisición '
+				. 'de usuarios report for new-users-by-channel; Events report or Explore for the event '
+				. 'volumes) rather than guessing.'
+				. "\n"
+				. '   CRITICAL CROSS-CHECK once you have both: compare GA4\'s monthly form_submit/'
+				. 'generate_lead counts against the REAL Formidable lead counts (step 1) for the same '
+				. 'months. If GA4\'s events crash toward zero while Formidable stays stable, that is a GTM/'
+				. 'GA4 TAGGING BREAK, not a real lead drop -- say so explicitly, never let it read as a '
+				. 'performance problem. This has happened before: generate_lead stopped firing entirely '
+				. 'from March 2026 onward; form_submit dropped intermittently in March, April, and July '
+				. '2026. Treat those as known incidents to check against, not as fresh findings to '
+				. 'rediscover from scratch each time.'
+				. "\n"
+				. '   Flag if conversion/event value is €0 across the board -- it means Ads/GA4 cost-per-'
+				. 'conversion figures measure cost-per-form-submission, not real ROI, since no monetary '
+				. 'value is attached to a lead.'
+				. "\n\n"
+				. '5. CROSS-SOURCE SYNTHESIS -- the single most valuable part of the report, always do this. '
+				. 'Build one consolidated month-by-month table: average GSC position, GA4 total sessions, '
+				. '% organic sessions, monthly Ads spend, and REAL Formidable leads. The critical honest '
+				. 'check: did traffic/spend growth actually translate into proportional REAL lead growth? '
+				. '(Known historical baseline, for context only -- always recompute for the actual current '
+				. 'window, never just restate this as if it were this report\'s finding: from Jul-2025 to '
+				. 'Jul-2026, traffic and spend grew roughly 6-7x while real leads stayed essentially flat at '
+				. '~48-49/month. That divergence pattern -- headline traffic growth vs. flat real leads -- is '
+				. 'exactly the kind of honest finding to look for and lead with, not bury under a traffic '
+				. 'chart.)'
+				. "\n\n"
+				. '6. REPORT STRUCTURE: introducción; evolución desde el principio (SEO, leads, Ads, GA4, en '
+				. 'ese orden); sección honesta "¿lo estamos haciendo bien?"; lista numerada concreta de "en '
+				. 'qué debemos mejorar"; cierre. Default export: Gamma (document, text mode "preserve" since '
+				. 'the full text is pre-written, Spanish language) unless the user asks for something else '
+				. '(chat, Word doc, etc.).',
 		);
 		if ( isset( $bodies[ $name ] ) ) {
 			return $bodies[ $name ];
