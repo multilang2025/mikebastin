@@ -287,6 +287,7 @@ class AISA_Settings {
 			'openrouter_api_key'  => isset( $input['openrouter_api_key'] ) ? trim( sanitize_text_field( $input['openrouter_api_key'] ) ) : '',
 			'unsplash_access_key' => isset( $input['unsplash_access_key'] ) ? trim( sanitize_text_field( $input['unsplash_access_key'] ) ) : '',
 			'ahrefs_api_key'      => isset( $input['ahrefs_api_key'] ) ? trim( sanitize_text_field( $input['ahrefs_api_key'] ) ) : '',
+			'pagespeed_api_key'   => isset( $input['pagespeed_api_key'] ) ? trim( sanitize_text_field( $input['pagespeed_api_key'] ) ) : '',
 			'gemini_api_key'      => isset( $input['gemini_api_key'] ) ? trim( sanitize_text_field( $input['gemini_api_key'] ) ) : '',
 			'gsc_client_id'       => isset( $input['gsc_client_id'] ) ? trim( sanitize_text_field( $input['gsc_client_id'] ) ) : '',
 			'gsc_client_secret'   => isset( $input['gsc_client_secret'] ) ? trim( sanitize_text_field( $input['gsc_client_secret'] ) ) : '',
@@ -425,6 +426,22 @@ class AISA_Settings {
 							<?php endif; ?>
 							<p class="description">
 								<?php esc_html_e( 'Optional. From Ahrefs → Account settings → API keys (needs a plan with API access). Powers SEO intelligence: least/best-performing pages, organic competitors, and domain comparison. Each request consumes Ahrefs API units. Leave blank to disable.', 'ai-site-assistant' ); ?>
+							</p>
+						</td>
+					</tr>
+					<tr>
+						<th scope="row"><label for="aisa_pagespeed_api_key"><?php esc_html_e( 'PageSpeed Insights API key', 'ai-site-assistant' ); ?></label></th>
+						<td>
+							<?php if ( defined( 'AISA_PAGESPEED_API_KEY' ) && AISA_PAGESPEED_API_KEY ) : ?>
+								<p><strong><?php esc_html_e( 'Set via the AISA_PAGESPEED_API_KEY constant in wp-config.php.', 'ai-site-assistant' ); ?></strong></p>
+							<?php else : ?>
+								<input name="<?php echo esc_attr( self::OPTION_KEY ); ?>[pagespeed_api_key]"
+									id="aisa_pagespeed_api_key" type="password" class="regular-text"
+									value="<?php echo esc_attr( $opts['pagespeed_api_key'] ?? '' ); ?>"
+									autocomplete="off" />
+							<?php endif; ?>
+							<p class="description">
+								<?php esc_html_e( 'Optional -- PageSpeed Insights works without a key at a lower rate limit. From Google Cloud Console, enable the "PageSpeed Insights API" and create a plain API key (no OAuth needed, unlike Search Console/Analytics above). Powers run_site_checkup: full Lighthouse audits (performance, accessibility, best practices, SEO) for any URL.', 'ai-site-assistant' ); ?>
 							</p>
 						</td>
 					</tr>

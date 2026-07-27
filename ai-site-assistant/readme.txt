@@ -3,7 +3,7 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
-Stable tag: 1.3.2
+Stable tag: 1.4.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -155,6 +155,11 @@ Tips:
   gate on more precisely.
 
 == Changelog ==
+= 1.4.0 =
+* Added run_site_checkup: a full Google Lighthouse audit (performance, accessibility, best practices, SEO -- the same engine behind PageSpeed Insights) against any live URL, via a new AISA_Pagespeed_Client. No OAuth needed -- an optional API key (Settings) raises the rate limit, but it works keyless. Read-only by itself; paired with the new site_checkup skill, which routes each finding to the existing tool that actually fixes it (replace_in_post for alt text, set_seo/set_meta for meta/schema, the theme_editing draft-first workflow for template-level issues) -- every one of those already requires the user's approval before touching the live site, so nothing new needed there.
+* Added a type-safety guard to set_meta: refuses a write that would silently replace a structured value (e.g. an existing rank_math_schema_* object) with a plain string, which was most likely caused by the caller's JSON failing to decode rather than an intentional overwrite. Added the same defensive check to wp_cli_set's option update for parity, even though every currently-allowlisted option is already a plain scalar.
+* Researched and evaluated further WPVibe-inspired features (native Divi 5/Beaver Builder structured editing, white-label mode, WAF-safe encoded resends for strict hosts) and deliberately deferred them -- documented reasoning in the project history rather than shipping a shallow version of each.
+
 = 1.3.2 =
 * Added the delaguialuzon_monthly_report skill: a cross-source monthly report for Delaguía y Luzón Abogados (Formidable leads via db_query + native gsc_* tools + native ga_traffic_overview/ga_top_pages), deliberately built without Ahrefs. Documents the exact SQL for lead totals/monthly trend/enquiry-type breakdown (field IDs looked up fresh each time, never hardcoded, since they can change), the language-grouping table for cross-source comparison, and the honest cross-check discipline (GA4 event counts vs real Formidable leads to catch tracking breaks, not real drops; traffic/spend growth vs flat real leads as the headline finding to look for). Google Ads and two specific GA4 event-level cuts (new users by channel, individual event volumes) still need a Chrome handoff, since no native tool exposes them yet -- documented explicitly rather than glossed over.
 

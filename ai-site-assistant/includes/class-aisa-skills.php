@@ -39,6 +39,7 @@ class AISA_Skills {
 		'ga_intelligence'  => 'Real visitor traffic, engagement, and traffic-source questions using Google Analytics (GA4) data.',
 		'site_reports'     => 'Build a periodic performance report for a specific site, combining GA4 + Search Console + Ahrefs data.',
 		'delaguialuzon_monthly_report' => 'Cross-source monthly report for Delaguía y Luzón Abogados: Formidable leads + GSC + GA4, with honest cross-checks. No Ahrefs.',
+		'site_checkup'     => 'Run a full Lighthouse checkup (performance/accessibility/best practices/SEO) and fix what it finds.',
 	);
 
 	/**
@@ -427,6 +428,45 @@ class AISA_Skills {
 				. 'qué debemos mejorar"; cierre. Default export: Gamma (document, text mode "preserve" since '
 				. 'the full text is pre-written, Spanish language) unless the user asks for something else '
 				. '(chat, Word doc, etc.).',
+			'site_checkup'     => 'SITE CHECKUP: use this when the user asks to "check my site," "run a '
+				. 'checkup," or audit a page/site for performance, accessibility, best practices, or SEO. '
+				. 'Call run_site_checkup on the relevant page(s) -- it returns a 0-100 score per category '
+				. 'plus the specific failing checks under each, straight from Google\'s own Lighthouse/'
+				. 'PageSpeed Insights engine (the same tool behind PageSpeed.web.dev). It is READ-ONLY and '
+				. 'changes nothing by itself. A good score on one category does not mean the page is fine '
+				. 'overall -- performance and accessibility in particular are unrelated, so always run all '
+				. 'four categories (the default) rather than assuming one clean score covers the rest.'
+				. "\n\n"
+				. 'ACTING ON WHAT IT FINDS -- route each failing check to the existing tool that actually '
+				. 'fixes it, rather than treating the checkup as read-only busywork:'
+				. "\n"
+				. '- Missing/generic alt text, image-related accessibility issues: read the page with '
+				. 'get_post/get_page_html to find the actual <img> tag, then replace_in_post to add a real, '
+				. 'descriptive alt attribute (never a keyword-stuffed or generic one).'
+				. "\n"
+				. '- Weak/missing meta description or title, SEO-category findings: get_seo then set_seo.'
+				. "\n"
+				. '- Missing structured data (schema-related best-practices/SEO findings): get_schema then '
+				. 'set_meta with the appropriate rank_math_schema_* key (see the schema skill).'
+				. "\n"
+				. '- Template-level issues (a missing lang attribute, a color-contrast problem baked into '
+				. 'the theme itself, a missing viewport meta tag) that live in theme files, not one post\'s '
+				. 'content: this is NOT a replace_in_post job -- follow the theme_editing skill\'s draft-'
+				. 'first workflow (create_draft_theme, edit there, get_theme_preview_url, only '
+				. 'publish_draft_theme after the user has seen the preview and approved it). Never patch a '
+				. 'template file live.'
+				. "\n\n"
+				. 'Every one of those write tools already requires the user\'s explicit approval before '
+				. 'anything touches the live site (they are all in destructive_tools) -- do not build a '
+				. 'separate confirmation step on top, and do not claim a fix is "done" until the approval '
+				. 'has actually gone through. After fixes are applied, it is reasonable to re-run '
+				. 'run_site_checkup on the same URL to confirm the score actually improved, but say plainly '
+				. 'if it did not (a real re-check, not an assumed one).'
+				. "\n\n"
+				. 'Google\'s servers fetch the URL live, so it must be publicly reachable -- this will not '
+				. 'work against a page still behind a maintenance-mode gate, HTTP auth, or IP allowlist. '
+				. 'Works without a PageSpeed API key at a lower rate limit; if checkups are being run '
+				. 'often, tell the user they can add one in Settings to raise the limit.',
 		);
 		if ( isset( $bodies[ $name ] ) ) {
 			return $bodies[ $name ];

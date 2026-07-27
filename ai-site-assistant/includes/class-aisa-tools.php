@@ -1042,6 +1042,45 @@ class AISA_Tools {
 					'additionalProperties' => false,
 				),
 			),
+			array(
+				'name'         => 'run_site_checkup',
+				'description'  => 'Run a full Google Lighthouse audit (the same checks behind Google\'s own '
+					. 'PageSpeed Insights/PageSpeed tools) against a live URL: performance, accessibility, '
+					. 'best practices, and SEO -- a score 0-100 for each, plus the specific failing checks '
+					. 'under every score. Use this for "check my site/page" or "run a checkup" requests. '
+					. 'This only READS the live page; it never changes anything by itself -- pair it with '
+					. 'the site_checkup skill to actually act on what it finds (missing alt text, weak meta '
+					. 'descriptions, template-level issues), which goes through the normal write-approval '
+					. 'flow like any other edit. Read-only, no API key required (works at a lower rate limit '
+					. 'without one).',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'id'         => array(
+							'type'        => 'integer',
+							'description' => 'A post/page ID on this site to audit (resolved to its live permalink).',
+						),
+						'url'        => array(
+							'type'        => 'string',
+							'description' => 'A full URL to audit instead of "id" -- any publicly reachable page, on this site or elsewhere.',
+						),
+						'strategy'   => array(
+							'type'        => 'string',
+							'enum'        => array( 'mobile', 'desktop' ),
+							'description' => 'Which device profile to simulate (default mobile -- Google\'s own default, and usually the stricter score).',
+						),
+						'categories' => array(
+							'type'        => 'array',
+							'items'       => array(
+								'type' => 'string',
+								'enum' => array( 'performance', 'accessibility', 'best-practices', 'seo' ),
+							),
+							'description' => 'Which categories to run (default: all four).',
+						),
+					),
+					'additionalProperties' => false,
+				),
+			),
 		);
 	}
 
@@ -1169,6 +1208,8 @@ class AISA_Tools {
 				return self::ga_traffic_overview( $input );
 			case 'ga_top_pages':
 				return self::ga_top_pages( $input );
+			case 'run_site_checkup':
+				return self::run_site_checkup( $input );
 			default:
 				return self::error( "Unknown tool: {$name}" );
 		}
@@ -3124,6 +3165,57 @@ class AISA_Tools {
 					'order'      => $order,
 					'date_range' => array( $start, $end ),
 					'pages'      => self::flatten_ga_report( $report ),
+				)
+			),
+		);
+	}
+
+	/**
+	 * Run a full Lighthouse audit (performance/accessibility/best-practices/
+	 * SEO) against a live URL via Google's PageSpeed Insights API.
+	 *
+	 * @param array $in Tool input.
+	 * @return array Tool result with scores + top failing checks as JSON, or an error.
+	 */
+	private static function run_site_checkup( array $in ) {
+		if ( ! current_user_can( 'edit_posts' ) ) {
+			return self::error( 'Permission denied.' );
+		}
+
+		$url = trim( (string) ( $in['url'] ?? '' ) );
+		if ( '' === $url && ! empty( $in['id'] ) ) {
+			$post_id = (int) $in['id'];
+			if ( ! current_user_can( 'edit_post', $post_id ) ) {
+				return self::error( 'Permission denied for this post.' );
+			}
+			$permalink = get_permalink( $post_id );
+			if ( ! $permalink ) {
+				return self::error( 'Post not found.' );
+			}
+			$url = $permalink;
+		}
+		if ( '' === $url ) {
+			return self::error( 'Provide either "id" (a post/page on this site) or a full "url" to audit.' );
+		}
+
+		$strategy   = ( 'desktop' === ( $in['strategy'] ?? 'mobile' ) ) ? 'desktop' : 'mobile';
+		$categories = array_values( array_intersect( (array) ( $in['categories'] ?? array() ), AISA_Pagespeed_Client::CATEGORIES ) );
+		if ( empty( $categories ) ) {
+			$categories = AISA_Pagespeed_Client::CATEGORIES;
+		}
+
+		$result = AISA_Pagespeed_Client::run( $url, $strategy, $categories );
+		if ( is_wp_error( $result ) ) {
+			return self::error( $result->get_error_message() );
+		}
+
+		return array(
+			'content' => self::safe_json_encode(
+				array(
+					'url'      => $url,
+					'strategy' => $strategy,
+					'scores'   => $result['scores'],
+					'issues'   => $result['issues'],
 				)
 			),
 		);
