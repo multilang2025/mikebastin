@@ -1,0 +1,27 @@
+# Pass the Authorization header through to PHP. Many shared hosts (LiteSpeed,
+# Apache CGI/FastCGI) strip it, which breaks OAuth Bearer auth. Belt and braces:
+# CGIPassAuth for Apache 2.4.13+, and a rewrite that mirrors it into an env var.
+<IfModule mod_setenvif.c>
+    SetEnvIf Authorization "(.*)" HTTP_AUTHORIZATION=$1
+</IfModule>
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{HTTP:Authorization} .
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+</IfModule>
+
+<IfModule mod_cgi.c>
+    CGIPassAuth On
+</IfModule>
+<IfModule mod_fcgid.c>
+    CGIPassAuth On
+</IfModule>
+<IfModule lsapi_module>
+    CGIPassAuth On
+</IfModule>
+
+# Block direct HTTP access to the SQLite database.
+<Files "bridge.sqlite">
+    Require all denied
+</Files>

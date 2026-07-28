@@ -3,7 +3,7 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
-Stable tag: 0.8.1
+Stable tag: 1.4.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -155,6 +155,174 @@ Tips:
   gate on more precisely.
 
 == Changelog ==
+= 1.4.0 =
+* Added run_site_checkup: a full Google Lighthouse audit (performance, accessibility, best practices, SEO -- the same engine behind PageSpeed Insights) against any live URL, via a new AISA_Pagespeed_Client. No OAuth needed -- an optional API key (Settings) raises the rate limit, but it works keyless. Read-only by itself; paired with the new site_checkup skill, which routes each finding to the existing tool that actually fixes it (replace_in_post for alt text, set_seo/set_meta for meta/schema, the theme_editing draft-first workflow for template-level issues) -- every one of those already requires the user's approval before touching the live site, so nothing new needed there.
+* Added a type-safety guard to set_meta: refuses a write that would silently replace a structured value (e.g. an existing rank_math_schema_* object) with a plain string, which was most likely caused by the caller's JSON failing to decode rather than an intentional overwrite. Added the same defensive check to wp_cli_set's option update for parity, even though every currently-allowlisted option is already a plain scalar.
+* Researched and evaluated further WPVibe-inspired features (native Divi 5/Beaver Builder structured editing, white-label mode, WAF-safe encoded resends for strict hosts) and deliberately deferred them -- documented reasoning in the project history rather than shipping a shallow version of each.
+
+= 1.3.2 =
+* Added the delaguialuzon_monthly_report skill: a cross-source monthly report for Delaguía y Luzón Abogados (Formidable leads via db_query + native gsc_* tools + native ga_traffic_overview/ga_top_pages), deliberately built without Ahrefs. Documents the exact SQL for lead totals/monthly trend/enquiry-type breakdown (field IDs looked up fresh each time, never hardcoded, since they can change), the language-grouping table for cross-source comparison, and the honest cross-check discipline (GA4 event counts vs real Formidable leads to catch tracking breaks, not real drops; traffic/spend growth vs flat real leads as the headline finding to look for). Google Ads and two specific GA4 event-level cuts (new users by channel, individual event volumes) still need a Chrome handoff, since no native tool exposes them yet -- documented explicitly rather than glossed over.
+
+= 1.3.1 =
+* Fixed every Google Analytics API call 404ing: both the Data API (ga_traffic_overview/ga_top_pages) and the Admin API (data-stream lookups used for property auto-matching) built their request URL with rawurlencode() applied to the WHOLE "properties/123456" string, which encodes its internal "/" into "%2F" -- Google's REST routing does not treat that as equivalent to a literal "/", so every request 404'd regardless of which property was queried, and property auto-matching silently fell back to showing the full candidate list since none of the per-property data-stream checks could actually succeed. Found by testing live against a real, confirmed-active GA4 property that still 404'd. Only the numeric property ID needs encoding now; "properties/" is a literal path segment, not data.
+
+= 1.3.0 =
+* Added Google Analytics (GA4) integration: new AISA_Ga_Client reuses the same Google Cloud OAuth Client as Search Console (one more API enabled, one more scope, one more redirect URI on the existing client -- no second app needed). Three new tools: ga_list_properties, ga_traffic_overview (sessions/users/engagement/conversions by traffic-source channel), and ga_top_pages (real-traffic page ranking, server-side ordered). New "Connect Google Analytics" section on the Settings page, independent from the Search Console connection since it's a separate OAuth grant.
+* Added the ga_intelligence skill (when to use real GA4 visitor data vs. Search Console's search-only lens vs. Ahrefs' external estimates) and the site_reports skill (building a combined GA4 + Search Console + Ahrefs performance report for one specific site, when the connected Google account spans many different websites -- front-loads confirming which site before pulling any data, keeps one shared date range across every tool call, and synthesizes rather than dumping raw numbers).
+
+= 1.2.3 =
+* Added two skills: db_admin (how to use db_query safely for data no purpose-built tool covers, with a worked Formidable Forms example -- entries live across frm_items/frm_item_metas/frm_fields, not one flat table, which is the most common mistake) and bulk_site_changes (batching bulk_replace_in_posts in tiers for large link/text fixes, then flush_caches, then spot-check with get_page_html).
+* Refreshed the page_builders skill: it previously said Elementor "body edits are not supported yet" -- now explains the real mechanism (content lives in _elementor_data postmeta, not post_content, and the write tools now warn about this automatically), documents the Divi shortcode-boundary discipline (only edit inside [et_pb_text]-style tags, never touch shortcode attributes, verify with get_page_html after), and references the new bulk_replace_in_posts/flush_caches tools.
+
+= 1.2.2 =
+* Added WP Fastest Cache to flush_caches' detected caching layers. Found this checking mikebastin.com directly: it's the only cache plugin actually active there, and it wasn't on the original list (WP Rocket, W3 Total Cache, LiteSpeed Cache, WP Super Cache, SiteGround Optimizer, Elementor) -- flush_caches would have silently done nothing useful on this exact site.
+
+= 1.2.1 =
+* Added page-builder-aware warnings to replace_in_post, append_to_post, and bulk_replace_in_posts: advisory only, never blocks the edit. On an Elementor page (detected via _elementor_data postmeta), warns that the edit may not appear on the live page since Elementor renders from that JSON structure, not post_content. On a Divi page (detected via [et_pb_ shortcodes in post_content), warns when the touched find/replace/html text looks like it crosses a shortcode-attribute boundary (_builder_version, global_colors_info, or a shortcode tag), so a boundary mistake gets flagged instead of silently corrupting a module.
+
+= 1.2.0 =
+* Added bulk_replace_in_posts: apply the same exact text replacement across up to 50 posts/pages in one call, instead of one replace_in_post call per post. Each post is judged independently by the same find-must-match-exactly-once rule as replace_in_post -- a post with no match or an ambiguous multi-match is skipped and reported, not a hard failure for the whole batch.
+* Added flush_caches: flush WordPress's object cache plus whichever of Elementor, WP Rocket, W3 Total Cache, LiteSpeed Cache, WP Super Cache, or SiteGround Optimizer are actually active, so a content edit becomes visible immediately instead of waiting for cache expiry. Detects what's present rather than assuming any one is active; never touches content, admin-only.
+* Clarified set_meta's description to spell out that it already covers full Rank Math JSON-LD schema writes (e.g. rank_math_schema_Article) -- this worked before but wasn't documented in the tool description, so it was easy to miss.
+* Added db_query: a read-only SELECT tool against the site's database, gated to administrators. This is the escape hatch for data no purpose-built tool covers -- a form plugin's entries table (Formidable, Gravity Forms, WPForms...), WooCommerce order meta, or any other plugin's custom table -- without needing a bespoke integration per plugin. Ported the safety model from WPVibe's open-source db-query tool: SELECT/DESCRIBE/SHOW/EXPLAIN SELECT only, every mutating keyword blocklisted (with comment-stripping so a keyword can't hide inside one), executable MySQL comments and multi-statement injection rejected, SELECT INTO/FOR UPDATE blocked, and LIMIT force-enforced (default 100, max 1000) so a query with no LIMIT of its own can't dump an entire table. "{prefix}" is substituted for the real table prefix so the model doesn't have to guess it.
+
+= 1.1.2 =
+* Fixed replace_in_post rejecting valid, non-conflicting edits with "Post changed since you read it." The expected_modified timestamp guard could false-positive because WordPress legitimately bumps post_modified without a real content edit (e.g. Heartbeat autosave from an open editor tab, or a persistent object cache serving a slightly different get_post() read across two requests) -- and a full round-trip through update_post carries real risk (a full-content overwrite, no dry-run) that this false-positive was pushing users toward for edits that should've used the safer targeted tool. replace_in_post no longer gates on the timestamp: its own find-must-match-exactly-once check is a strictly stronger safety guarantee for a targeted replace, since the edit only proceeds if the snippet is still present verbatim and unique in the current content. expected_modified is still accepted (unused) for backward compatibility. update_post, publish_post, and append_to_post are unchanged -- they have no equivalent content-based safety net, so they still require the timestamp match.
+
+= 1.1.1 =
+* Fixed root pages sometimes producing hallucinated GSC numbers: GSC's "equals" page filter is an exact string match, and root URLs are the ones most likely to be typed without the trailing slash Google actually stores them with -- a mismatch silently returns an empty (not erroring) result, which invited the model to paper over it with a plausible-sounding guess. gsc_page_queries/gsc_page_report now retry the with/without-trailing-slash variant automatically, and explicitly flag "no_matching_rows": true when GSC genuinely has no data for the URL, with tool descriptions telling the model to report that plainly instead of inventing numbers.
+
+= 1.1.0 =
+* Google Search Console tools now work across every domain verified in Search Console under the same connected Google account, not just this WordPress site -- one GSC OAuth connection covers all of them, no per-domain redirect URI needed in Google Cloud. Added a new gsc_list_properties tool, and an optional "site" argument on gsc_top_pages/gsc_page_queries/gsc_page_report to target a different domain (page content enrichment is skipped for domains that aren't this WP install, since there's no local post to read).
+* The MCP connector now names itself after the actual WordPress site a token is bound to (e.g. "AISA — mikebastin.com") instead of the bridge's own generic hostname, so Claude can no longer mistake the bridge's technical URL for the site it's managing.
+
+= 1.0.7 =
+* Fixed load_skill's tool description: it hardcoded a stale, partial skill list (missing theme_editing, images, image_generation, seo_intelligence, gsc_intelligence) and referenced "the system prompt" for the full catalog -- but that catalog is only ever injected into the disabled in-admin chat's system prompt, never seen by Claude.ai/Desktop/Cursor through the connector. The description now embeds the full, live catalog (name + summary) directly, generated from AISA_Skills::CATALOG, so it can never drift out of sync again and is actually visible wherever the tool is used.
+
+= 1.0.6 =
+* Fixed the Google Search Console property picker (and Disconnect button) never actually saving. Its small admin-post form was nested inside the page's main options.php settings form, which is invalid HTML -- browsers handle it unpredictably, and the submit was being swallowed by the outer form instead of reaching our handler, so picking a property silently reverted to whatever was selected before. Moved the whole GSC connection section outside the main form.
+
+= 1.0.5 =
+* Fixed the Google Search Console connect flow always failing with "invalid_state". The OAuth state was verified with wp_verify_nonce(), which is tied to the logged-in user/session -- but Google's redirect back to our callback is a cross-site top-level navigation, and whether the browser resends the WP auth cookie on it depends on cookie policy that varies by host/security plugin. When it didn't, the callback saw no logged-in user and failed verification even though the admin had done everything right. Replaced with a random, single-use state token stored server-side in a transient, which doesn't depend on any session/cookie context.
+
+= 1.0.4 =
+* Removed include_granted_scopes from the Google Search Console connect URL. It caused Google to bundle in any scopes previously granted to the same OAuth Client ID (e.g. Drive/Gmail from an earlier, unrelated use of that client), showing up as unexpected extra permission requests on the consent screen even though this integration only ever requests one read-only Search Console scope.
+
+= 1.0.3 =
+* Added Google Search Console integration: connect via OAuth (Settings → Google OAuth Client ID/Secret → Connect), then use gsc_top_pages, gsc_page_queries, and gsc_page_report to diagnose real Google-reported ranking performance for any page, alongside the existing Ahrefs tools.
+* Added the new gsc_intelligence skill: a playbook for interpreting GSC metrics (CTR issues vs. thin-content near-misses vs. discovery problems vs. cannibalization) and proposing grounded, numbers-backed edits.
+* Added an "Available Skills" panel to the MCP Connector page listing every skill the assistant can load on demand.
+
+= 1.0.2 =
+* Fixed AISA's own admin CSS/JS never loading on the Workspace and MCP Connector pages. The page-detection matched a guessed hook-suffix string that WordPress actually derives from sanitize_title() of the menu title text, not the slug -- so on any site with a translation plugin (or anything else filtering admin menu titles), it never matched and no styling was ever applied. Now matches on the page's own query-string slug instead, which never changes.
+* Same underlying issue affected the third-party-notice-hiding CSS (it targeted WordPress's computed body class); switched to a fixed class added via admin_body_class instead.
+
+= 1.0.1 =
+* MCP Connector step 3 is now a per-client walkthrough (Claude.ai web / Claude Desktop+Code / Cursor tabs) with explicit numbered clicks and a ready-to-paste Cursor mcp.json snippet, instead of a one-line summary.
+* New tool: seo_competitor_report — one Ahrefs competitor comparison for a specific page (metrics, top competitor, their best pages, and the page's own content) in a single call instead of chaining four or five separate tool calls.
+* Fixed the MCP bridge hanging indefinitely on a slow upstream call (e.g. a chain of Ahrefs lookups): added connect/total timeouts to the bridge's WordPress call and raised its own script time limit so a stall now fails with a clear error instead of leaving the chat stuck "generating."
+
+= 1.0.0 =
+* Redesigned the MCP Connector onboarding screen: brand header with a live connection-status pill, a centered "Your AI just learned WordPress." hero with a workspace CTA, and a light-gray multi-step card.
+* Copy fields are now real `<input readonly>` elements (was `<code>`) with a more reliable copy handler (clipboard API + execCommand fallback) — fixes copy buttons not working in some browsers.
+* Removed the duplicate "Open AISA Connector" button from the Workspace page header (the disabled-chat notice already links to the same MCP Connector page).
+* Hide third-party admin notices (other plugins' nags, e.g. mail-delivery warnings) on AISA's own admin pages for a cleaner onboarding screen. This plugin does not use admin_notices itself, so nothing of its own is affected.
+
+= 0.9.9 =
+* Multi-tenant MCP bridge: the OAuth "Allow" screen now lets you pick which registered WordPress site to connect, so one bridge can serve many sites over Claude.ai web.
+* Expose the full tool set through the connector: add a /aisa/v1/tools catalogue endpoint and widen the remote allowlist so Claude.ai can use every tool the plugin offers (Ahrefs, SEO, WP-CLI, theme, abilities) except the internal get_site_context.
+
+= 0.9.8 =
+* Fix OAuth discovery on shared hosting: create physical .well-known/ directory files instead of relying on .htaccess rewrites, which fail on LiteSpeed/Nginx stacks.
+
+= 0.9.7 =
+* Fix OAuth redirect separator bug in authorize.php so Claude.ai web callback works correctly.
+* Fix redirect_uri comparison in token.php (trim trailing slashes) to prevent false mismatch.
+
+= 0.9.6 =
+* Add OAuth dynamic client registration (RFC 7591) so Claude.ai web can register itself and complete the connector sign-in flow.
+
+= 0.9.5 =
+* Add OAuth 2.0 support to php-mcp-bridge so Claude.ai web Connectors work (authorize.php, token.php, .well-known discovery, PKCE). MCP Connector page now shows two URLs: OAuth URL for Claude.ai web and token URL for Claude Desktop/Code.
+
+= 0.9.4 =
+* Fix MCP Connector: restore original Connect flow broken in 0.9.3; persist connection URL across page reloads without altering the bridge URL input logic or duplicating copy-button handler.
+
+= 0.9.3 =
+* MCP Connector: bridge URL is now pre-filled from the site domain so users just click Connect with no typing. Connection URL and state persist across page reloads — returning users see step 3 ready immediately without reconnecting.
+
+= 0.9.2 =
+* Fix the MCP Connector checklist showing doubled step numbers (e.g.
+  "2. 2", "3. 3") -- wp-admin's own core CSS applied native list markers
+  with higher specificity than the plugin's list-style: none, right next
+  to the plugin's own numbered/checkmark circles. Switched the checklist
+  from an ordered to an unordered list and qualified the reset with .wrap
+  so it can't lose that specificity fight again.
+
+= 0.9.1 =
+* Shift the plugin's primary interaction model from an in-admin chat box
+  to the MCP Connector: drive this site from an external AI client
+  (Claude, ChatGPT, Cursor) through your own hosted AISA Bridge instead.
+* Disable the in-admin chat workspace (the page stays in the admin menu,
+  showing a clear notice and a link to the MCP Connector, so it can be
+  re-enabled later without rebuilding it).
+* Redesign the MCP Connector page as a clean three-step connect flow
+  (install, connect the bridge, add the URL to your AI client) with a
+  status pill and per-client setup instructions, instead of the previous
+  chat-testing wizard.
+
+= 0.9.0 =
+* Add an opt-in "Use Gemini 2.5 Flash for chat instead of Claude" checkbox
+  in Settings, for sites that would rather stay on Gemini's free tier than
+  pay per token. Reuses the existing Gemini API key. A new
+  AISA_Gemini_Chat_Client translates the same conversation/tool format
+  AISA_Agent already builds into Gemini's function-calling format and
+  back, so nothing else in the plugin needs to know or care which model
+  answered. Self-throttled to a few requests per minute and ~200/day --
+  deliberately under Google's published free-tier caps -- so it always
+  fails with a clear message instead of a raw error once used up, rather
+  than risking the underlying Cloud project tipping into metered billing.
+  Off by default; Claude remains the default chat model.
+* Fix a latent gap in the write-approval gate that would only have
+  surfaced with a second LLM provider: Gemini allows several function
+  calls in one response by default, unlike Claude's
+  disable_parallel_tool_use. The new client only ever surfaces the first
+  function call per turn, so the one-write-per-approval guarantee holds
+  regardless of which model is answering.
+
+= 0.8.6 =
+* Fix distributed-client updates never showing up. The plugin's repo was
+  private, and the fallback GitHub token added in 0.8.4 for distributed
+  zips was never actually substituted with a real value at build time --
+  every client site received the literal placeholder, meaning zero token
+  against a private repo's release API, meaning updates silently never
+  surfaced. The repo is now public (audited for anything sensitive in its
+  history first; nothing was found) so update checks and downloads need no
+  token at all, and the fallback-token logic has been removed rather than
+  wired up, since baking a shared credential into every distributed zip
+  was a real exposure the moment more than one client had a copy.
+
+= 0.8.5 =
+* Fix a silent JSON-encoding failure on reads: PHP's json_encode() returns
+  false on invalid UTF-8, and every read tool (get_post, search_posts,
+  get_page_html, etc.) passed that false straight through as tool_result
+  content instead of the real data, which the Claude API then rejected.
+  Every wp_json_encode() call site in class-aisa-tools.php now retries once
+  through a UTF-8 cleanup pass before giving up.
+* Fix get_page_html truncating long pages with a raw byte-offset substr(),
+  which can slice a multi-byte UTF-8 character in half (emoji, smart
+  quotes, non-Latin text) and produce exactly the invalid-UTF-8 string the
+  fix above has to recover from. Switched to mb_strcut(), which truncates
+  at the nearest whole character instead.
+
+= 0.8.4 =
+* Add fallback GitHub token logic to the native updater, enabling seamless auto-updates for distributed ZIP files.
+
+
+= 0.8.3 =
+* Replaced the Node.js MCP server (`wp-mcp-server`) with a lightweight, standalone PHP Hosted Bridge (`php-mcp-bridge`).
+* Added a new WPVibe-style "Connect to Claude Desktop/Web" section in settings to securely generate connection URLs for the bridge.
+* The PHP bridge completely eliminates the need to run Node.js on your hosting provider, allowing native operation on shared hosting environments via SQLite and Server-Sent Events (SSE).
 
 = 0.8.1 =
 * Redesign the MCP Connector page as a plain-language, four-step wizard

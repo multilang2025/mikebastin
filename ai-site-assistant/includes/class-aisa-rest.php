@@ -63,11 +63,76 @@ class AISA_REST {
 				),
 			)
 		);
+
+		// Tool catalogue for the MCP bridge — lets the connector advertise every
+		// remotely-reachable tool (and its schema) without hardcoding the list.
+		register_rest_route(
+			'aisa/v1',
+			'/tools',
+			array(
+				'methods'             => 'GET',
+				'callback'            => array( __CLASS__, 'list_tools' ),
+				'permission_callback' => array( __CLASS__, 'can_use' ),
+			)
+		);
+
+		register_rest_route(
+			'aisa/v1',
+			'/bridge/connect',
+			array(
+				'methods'             => 'POST',
+				'callback'            => array( __CLASS__, 'bridge_connect' ),
+				'permission_callback' => array( __CLASS__, 'can_manage' ),
+				'args'                => array(
+					'bridge_url' => array(
+						'required' => true,
+						'type'     => 'string',
+						'format'   => 'uri',
+					),
+				),
+			)
+		);
+
+		register_rest_route(
+			'aisa/v1',
+			'/gsc/callback',
+			array(
+				'methods'             => 'GET',
+				'callback'            => array( __CLASS__, 'gsc_callback' ),
+				// Public: Google redirects the browser here via a top-level
+				// navigation, which never carries the X-WP-Nonce header WP's
+				// cookie-auth REST layer requires -- so cookie auth would 401
+				// on every real callback. The OAuth `state` param (a WP nonce
+				// generated in AISA_Gsc_Client::get_auth_url(), verified below)
+				// is what actually protects this endpoint, the same way the
+				// standalone OAuth bridge's own callback is protected.
+				'permission_callback' => '__return_true',
+			)
+		);
+
+		// Independent from /gsc/callback above -- a separate OAuth grant
+		// (different scope) needs its own redirect URI, even though it
+		// shares the same Google Cloud OAuth Client. Same public/state-nonce
+		// reasoning applies.
+		register_rest_route(
+			'aisa/v1',
+			'/ga/callback',
+			array(
+				'methods'             => 'GET',
+				'callback'            => array( __CLASS__, 'ga_callback' ),
+				'permission_callback' => '__return_true',
+			)
+		);
 	}
 
 	/** Only logged-in users who can edit content may use the assistant. */
 	public static function can_use() {
 		return current_user_can( 'edit_posts' );
+	}
+
+	/** Only admins can connect to the bridge. */
+	public static function can_manage() {
+		return current_user_can( 'manage_options' );
 	}
 
 	/**
@@ -145,16 +210,7 @@ class AISA_REST {
 		$tool  = sanitize_key( $request->get_param( 'tool' ) );
 		$input = (array) $request->get_param( 'input' );
 
-		$allowed = array(
-			'generate_image',
-			'upload_media',
-			'search_images',
-			'replace_in_post',
-			'append_to_post',
-			'fact_check',
-			'get_page_html',
-			'load_skill',
-		);
+		$allowed = self::remote_tool_names();
 
 		if ( ! in_array( $tool, $allowed, true ) ) {
 			return new WP_Error(
@@ -171,5 +227,317 @@ class AISA_REST {
 		$result = AISA_Tools::dispatch( $tool, $input );
 
 		return rest_ensure_response( $result );
+	}
+
+	/**
+	 * Tools that must never be reachable remotely (via the MCP bridge), even
+	 * though the in-admin chat may use them. get_site_context embeds the system
+	 * prompt, so it stays internal.
+	 *
+	 * @var string[]
+	 */
+	const INTERNAL_ONLY_TOOLS = array( 'get_site_context' );
+
+	/**
+	 * Names of every tool reachable through the remote endpoints, derived from
+	 * the single source of truth (AISA_Tools::definitions) minus internal-only.
+	 *
+	 * @return string[]
+	 */
+	private static function remote_tool_names() {
+		$names = array();
+		foreach ( AISA_Tools::definitions() as $tool ) {
+			if ( ! in_array( $tool['name'], self::INTERNAL_ONLY_TOOLS, true ) ) {
+				$names[] = $tool['name'];
+			}
+		}
+		return $names;
+	}
+
+	/**
+	 * Return the remotely-reachable tool catalogue in MCP format
+	 * (name, description, inputSchema) for the bridge's tools/list.
+	 *
+	 * @return WP_REST_Response
+	 */
+	public static function list_tools() {
+		$tools = array();
+		foreach ( AISA_Tools::definitions() as $tool ) {
+			if ( in_array( $tool['name'], self::INTERNAL_ONLY_TOOLS, true ) ) {
+				continue;
+			}
+			$tools[] = array(
+				'name'        => $tool['name'],
+				'description' => $tool['description'],
+				'inputSchema' => isset( $tool['input_schema'] ) ? $tool['input_schema'] : array( 'type' => 'object' ),
+			);
+		}
+		return rest_ensure_response( $tools );
+	}
+
+	/**
+	 * Generate an Application Password and register the site with the PHP MCP Bridge.
+	 *
+	 * @param WP_REST_Request $request Incoming request.
+	 * @return WP_REST_Response|WP_Error Connection URL or error.
+	 */
+	public static function bridge_connect( WP_REST_Request $request ) {
+		$bridge_url = $request->get_param( 'bridge_url' );
+		$user_id    = get_current_user_id();
+
+		if ( ! class_exists( 'WP_Application_Passwords' ) ) {
+			return new WP_Error( 'aisa_no_app_passwords', __( 'Application Passwords are not available on this site.', 'ai-site-assistant' ), array( 'status' => 500 ) );
+		}
+
+		// Create a new application password for the bridge.
+		$app_password_name = 'AISA Bridge ' . time();
+		$created           = WP_Application_Passwords::create_new_application_password(
+			$user_id,
+			array( 'name' => $app_password_name )
+		);
+
+		// create_new_application_password() returns either a WP_Error or a
+		// [ $new_password, $new_item ] array -- never destructure before this
+		// check, or a failure here silently becomes a null password sent below.
+		if ( is_wp_error( $created ) ) {
+			return $created;
+		}
+		list( $new_password, $new_item ) = $created;
+
+		$user = get_userdata( $user_id );
+
+		// Send credentials to the bridge.
+		$response = wp_remote_post(
+			rtrim( $bridge_url, '/' ) . '/register.php',
+			array(
+				'headers' => array( 'Content-Type' => 'application/json' ),
+				'body'    => wp_json_encode(
+					array(
+						'wp_url'          => site_url(),
+						'wp_username'     => $user->user_login,
+						'wp_app_password' => $new_password,
+					)
+				),
+				'timeout' => 15,
+			)
+		);
+
+		if ( is_wp_error( $response ) ) {
+			return new WP_Error( 'aisa_bridge_error', __( 'Failed to connect to the bridge server.', 'ai-site-assistant' ), array( 'status' => 500 ) );
+		}
+
+		$body = wp_remote_retrieve_body( $response );
+		$data = json_decode( $body, true );
+
+		if ( empty( $data['success'] ) || empty( $data['connection_url'] ) ) {
+			return new WP_Error( 'aisa_bridge_invalid', __( 'Invalid response from the bridge server.', 'ai-site-assistant' ), array( 'status' => 500 ) );
+		}
+
+		// Persist the connection so the MCP Connector page can restore state on
+		// page load without re-running the connect flow on every visit.
+		update_option(
+			'aisa_bridge_connection',
+			array(
+				'bridge_url'     => esc_url_raw( $bridge_url ),
+				'connection_url' => esc_url_raw( $data['connection_url'] ),
+			),
+			false
+		);
+
+		return rest_ensure_response(
+			array(
+				'connection_url' => $data['connection_url'],
+			)
+		);
+	}
+
+	/**
+	 * Google's OAuth redirect lands here after the admin approves (or denies)
+	 * Search Console access. Exchanges the code for tokens, auto-detects
+	 * which verified property matches this site, and redirects back to the
+	 * Settings page. See the /gsc/callback route registration above for why
+	 * this endpoint is public and relies on the `state` nonce instead of
+	 * cookie auth.
+	 *
+	 * @param WP_REST_Request $request Incoming request.
+	 * @return void Always redirects; never returns a REST response body.
+	 */
+	public static function gsc_callback( WP_REST_Request $request ) {
+		$settings_url = admin_url( 'admin.php?page=aisa-settings' );
+
+		if ( $request->get_param( 'error' ) ) {
+			wp_safe_redirect( add_query_arg( 'gsc', 'denied', $settings_url ) );
+			exit;
+		}
+
+		$state = (string) $request->get_param( 'state' );
+		if ( ! AISA_Gsc_Client::verify_and_consume_state( $state ) ) {
+			wp_safe_redirect( add_query_arg( 'gsc', 'invalid_state', $settings_url ) );
+			exit;
+		}
+
+		$code = (string) $request->get_param( 'code' );
+		if ( '' === $code ) {
+			wp_safe_redirect( add_query_arg( 'gsc', 'no_code', $settings_url ) );
+			exit;
+		}
+
+		$tokens = AISA_Gsc_Client::exchange_code( $code );
+		if ( is_wp_error( $tokens ) ) {
+			wp_safe_redirect( add_query_arg( 'gsc', 'token_error', $settings_url ) );
+			exit;
+		}
+
+		// Save immediately -- list_properties() below needs a usable access
+		// token, and reads it back from this same option.
+		update_option(
+			AISA_Gsc_Client::CONNECTION_OPTION,
+			array(
+				'refresh_token'        => $tokens['refresh_token'] ?? '',
+				'access_token'         => $tokens['access_token'],
+				'access_token_expires' => time() + (int) ( $tokens['expires_in'] ?? 3600 ),
+				'property'             => '',
+				'candidates'           => array(),
+			),
+			false
+		);
+
+		$properties = AISA_Gsc_Client::list_properties();
+		if ( is_wp_error( $properties ) || empty( $properties ) ) {
+			// Still connected (refresh token saved) -- just couldn't list
+			// properties yet. Leave property/candidates empty; the admin can
+			// retry from the Settings page.
+			wp_safe_redirect( add_query_arg( 'gsc', 'connected', $settings_url ) );
+			exit;
+		}
+
+		$site_urls = array_column( $properties, 'siteUrl' );
+		$our_host  = self::normalize_gsc_host( wp_parse_url( home_url(), PHP_URL_HOST ) );
+		$matches   = array_values(
+			array_filter(
+				$site_urls,
+				static function ( $site_url ) use ( $our_host ) {
+					return self::normalize_gsc_host( $site_url ) === $our_host;
+				}
+			)
+		);
+
+		$conn = AISA_Gsc_Client::get_connection();
+		if ( 1 === count( $matches ) ) {
+			$conn['property']   = $matches[0];
+			$conn['candidates'] = array();
+		} else {
+			// Zero or multiple matches -- let the admin pick explicitly
+			// rather than silently guessing wrong.
+			$conn['candidates'] = ! empty( $matches ) ? $matches : $site_urls;
+		}
+		update_option( AISA_Gsc_Client::CONNECTION_OPTION, $conn, false );
+
+		wp_safe_redirect( add_query_arg( 'gsc', 'connected', $settings_url ) );
+		exit;
+	}
+
+	/**
+	 * Google's OAuth redirect lands here after the admin approves (or denies)
+	 * Analytics access. Same shape as gsc_callback() above, but GA4
+	 * properties have no domain-shaped ID to match on directly -- each
+	 * property's WEB DATA STREAM has a defaultUri, which is what's actually
+	 * compared against this site's hostname. Capped to the first 50
+	 * properties for auto-match (one extra API call per property); beyond
+	 * that, or on zero/multiple matches, the admin picks explicitly on the
+	 * Settings page instead of this silently guessing wrong.
+	 *
+	 * @param WP_REST_Request $request Incoming request.
+	 * @return void Always redirects; never returns a REST response body.
+	 */
+	public static function ga_callback( WP_REST_Request $request ) {
+		$settings_url = admin_url( 'admin.php?page=aisa-settings' );
+
+		if ( $request->get_param( 'error' ) ) {
+			wp_safe_redirect( add_query_arg( 'ga', 'denied', $settings_url ) );
+			exit;
+		}
+
+		$state = (string) $request->get_param( 'state' );
+		if ( ! AISA_Ga_Client::verify_and_consume_state( $state ) ) {
+			wp_safe_redirect( add_query_arg( 'ga', 'invalid_state', $settings_url ) );
+			exit;
+		}
+
+		$code = (string) $request->get_param( 'code' );
+		if ( '' === $code ) {
+			wp_safe_redirect( add_query_arg( 'ga', 'no_code', $settings_url ) );
+			exit;
+		}
+
+		$tokens = AISA_Ga_Client::exchange_code( $code );
+		if ( is_wp_error( $tokens ) ) {
+			wp_safe_redirect( add_query_arg( 'ga', 'token_error', $settings_url ) );
+			exit;
+		}
+
+		update_option(
+			AISA_Ga_Client::CONNECTION_OPTION,
+			array(
+				'refresh_token'        => $tokens['refresh_token'] ?? '',
+				'access_token'         => $tokens['access_token'],
+				'access_token_expires' => time() + (int) ( $tokens['expires_in'] ?? 3600 ),
+				'property'             => '',
+				'property_name'        => '',
+				'candidates'           => array(),
+			),
+			false
+		);
+
+		$properties = AISA_Ga_Client::list_properties();
+		if ( is_wp_error( $properties ) || empty( $properties ) ) {
+			wp_safe_redirect( add_query_arg( 'ga', 'connected', $settings_url ) );
+			exit;
+		}
+
+		$our_host = self::normalize_gsc_host( wp_parse_url( home_url(), PHP_URL_HOST ) );
+		$matches  = array();
+		foreach ( array_slice( $properties, 0, 50 ) as $property ) {
+			$streams = AISA_Ga_Client::list_data_streams( $property['property'] );
+			if ( is_wp_error( $streams ) ) {
+				continue;
+			}
+			foreach ( $streams as $stream ) {
+				$uri = $stream['webStreamData']['defaultUri'] ?? '';
+				if ( '' !== $uri && self::normalize_gsc_host( $uri ) === $our_host ) {
+					$matches[] = $property;
+					break;
+				}
+			}
+		}
+
+		$conn = AISA_Ga_Client::get_connection();
+		if ( 1 === count( $matches ) ) {
+			$conn['property']   = $matches[0]['property'];
+			$conn['property_name'] = $matches[0]['displayName'];
+			$conn['candidates'] = array();
+		} else {
+			// Zero or multiple matches -- let the admin pick explicitly
+			// rather than silently guessing wrong. Store the full property
+			// list (property + displayName) so the picker shows readable
+			// names, not just opaque IDs.
+			$conn['candidates'] = ! empty( $matches ) ? $matches : $properties;
+		}
+		update_option( AISA_Ga_Client::CONNECTION_OPTION, $conn, false );
+
+		wp_safe_redirect( add_query_arg( 'ga', 'connected', $settings_url ) );
+		exit;
+	}
+
+	/**
+	 * Reduce a GSC siteUrl ("sc-domain:example.com" or "https://example.com/")
+	 * or a plain hostname down to a bare, lowercase, www-stripped host for
+	 * comparison against this site's own hostname.
+	 *
+	 * @param string $value siteUrl or hostname.
+	 * @return string
+	 */
+	private static function normalize_gsc_host( $value ) {
+		return AISA_Gsc_Client::normalize_host( $value );
 	}
 }

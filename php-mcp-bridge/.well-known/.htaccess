@@ -1,0 +1,7 @@
+Options -Indexes
+<Files "oauth-authorization-server">
+    SetHandler application/x-httpd-php
+</Files>
+<Files "oauth-protected-resource">
+    SetHandler application/x-httpd-php
+</Files>

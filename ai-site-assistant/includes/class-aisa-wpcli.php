@@ -211,6 +211,15 @@ class AISA_WPCLI {
 				if ( ! in_array( $name, self::OPTION_ALLOWLIST, true ) ) {
 					return self::error( 'Option "' . $name . '" is not on the allowlist. Available: ' . implode( ', ', self::OPTION_ALLOWLIST ) . '.' );
 				}
+				// Refuse a write that would silently flip the option's stored
+				// type (e.g. an array/serialized value overwritten with a
+				// plain string) -- every currently-allowlisted option is a
+				// plain scalar, so this should never actually trigger today,
+				// but it's cheap defensive parity for if the allowlist grows.
+				$existing = get_option( $name );
+				if ( is_array( $existing ) && ! empty( $existing ) ) {
+					return self::error( 'Option "' . $name . '" currently holds a structured (array) value; wp_cli_set only writes plain text and would silently flip its type. Refusing the write.' );
+				}
 				$value = sanitize_text_field( (string) ( $in['value'] ?? '' ) );
 				update_option( $name, $value );
 				AISA_Audit_Log::record( 'wp_cli_option_update', null, array( 'name' => $name ) );

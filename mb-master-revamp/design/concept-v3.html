@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<title>Mike Bastin — Fluent</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500;1,9..144,600&family=Cormorant+Garamond:ital@0;1&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --disp:'Fraunces', serif;
+    --script:'Cormorant Garamond', serif;
+    --body:'Inter', sans-serif;
+  }
+
+  /* ---- SURFACE SETS ----
+     Two surfaces, band-scoped. Theme flips which band gets which.
+     Palette: NIGHT SWELL (dark, deep sea) / MORNING GLASS (light, sand + sea ink). Aubergine retired 2026-07-28. */
+
+  /* dark surface set */
+  html[data-theme="dark"] .band-a, html[data-theme="light"] .band-b{
+    --bg:#0A1B28;
+    --glow-1: rgba(212,175,55,0.09);
+    --glow-2: rgba(122,31,61,0.20);
+    --ink:#F5EFE2;
+    --ink-dim:#AFC0CC;
+    --gold:#D4AF37;
+    --gold-soft:#E8CD7A;
+    --deep:#155268;
+    --silver:#BCC9D3;
+    --rule: rgba(245,239,226,0.14);
+    --visual-grad: linear-gradient(135deg, rgba(212,175,55,0.18), rgba(122,31,61,0.35));
+    --btn-text:#0A1B28;
+  }
+  /* light surface set */
+  html[data-theme="dark"] .band-b, html[data-theme="light"] .band-a{
+    --bg:#F5F0E4;
+    --glow-1: rgba(122,31,61,0.05);
+    --glow-2: rgba(212,175,55,0.13);
+    --ink:#0F2837;
+    --ink-dim:#58707F;
+    --gold:#A9791E;
+    --gold-soft:#8A5A16;
+    --deep:#1C6580;
+    --silver:#6E8291;
+    --rule: rgba(15,40,55,0.14);
+    --visual-grad: linear-gradient(135deg, rgba(169,121,30,0.16), rgba(122,31,61,0.12));
+    --btn-text:#F7F1E6;
+  }
+  .band-a,.band-b{
+    background:var(--bg);
+    color:var(--ink);
+    transition:background-color 0.3s ease, color 0.3s ease;
+  }
+  /* glow only on the hero band */
+  .band-hero{
+    background-image:
+      radial-gradient(ellipse at 15% 0%, var(--glow-1), transparent 55%),
+      radial-gradient(ellipse at 85% 100%, var(--glow-2), transparent 55%);
+  }
+  /* body matches the first band so overscroll doesn't flash */
+  html[data-theme="dark"] body{background:#0A1B28;}
+  html[data-theme="light"] body{background:#F5F0E4;}
+
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html{transition:background 0.3s ease;}
+  body{
+    font-family:var(--body);
+    font-weight:300;
+  }
+  a{color:inherit;text-decoration:none;}
+
+  /* ---- nav ---- */
+  nav{
+    display:flex;justify-content:space-between;align-items:center;
+    padding:38px 7vw;
+  }
+  .logo{font-family:var(--disp);font-size:19px;letter-spacing:0.04em;font-weight:500;}
+  .logo em{font-style:italic;color:var(--gold);}
+  .nav-right{display:flex;align-items:center;gap:40px;}
+  .navlinks{display:flex;gap:40px;font-size:12px;letter-spacing:0.12em;text-transform:uppercase;color:var(--ink-dim);}
+  .navlinks a:hover{color:var(--gold);}
+
+  .theme-toggle{
+    display:flex;align-items:center;gap:8px;
+    background:none;border:1px solid var(--rule);border-radius:20px;
+    padding:6px 14px;cursor:pointer;font-family:var(--body);
+    font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:var(--ink-dim);
+    transition:border-color 0.2s ease, color 0.2s ease;
+  }
+  .theme-toggle:hover{border-color:var(--gold);color:var(--gold);}
+  .theme-toggle .icon{font-size:13px;}
+
+  /* ---- hero ---- */
+  .hero{padding:6vh 7vw 12vh;position:relative;}
+  .eyebrow{font-family:var(--script);font-style:italic;font-size:19px;color:var(--gold-soft);margin-bottom:18px;}
+  h1{
+    font-family:var(--disp);font-weight:600;
+    font-size:clamp(42px,7vw,96px);line-height:1.02;max-width:14ch;letter-spacing:-0.01em;
+  }
+  h1 em{font-style:italic;font-weight:500;color:var(--gold);}
+  .hero-sub{font-size:17px;line-height:1.75;color:var(--ink-dim);max-width:48ch;margin-top:32px;font-weight:300;}
+  .hero-cta{margin-top:40px;display:flex;gap:28px;align-items:center;}
+  .btn-gold{
+    font-size:12px;letter-spacing:0.14em;text-transform:uppercase;
+    padding:16px 34px;background:var(--gold);color:var(--btn-text);font-weight:500;border-radius:1px;
+    transition:background 0.2s ease;
+  }
+  .btn-gold:hover{background:var(--gold-soft);}
+  .link-ghost{font-size:12px;letter-spacing:0.14em;text-transform:uppercase;color:var(--ink-dim);border-bottom:1px solid var(--rule);padding-bottom:4px;}
+  .link-ghost:hover{color:var(--gold-soft);border-color:var(--gold-soft);}
+
+  /* ---- signature: gold line ---- */
+  .signature{width:100%;height:140px;margin-top:60px;}
+  .signature path{
+    fill:none;stroke:var(--gold);stroke-width:1.4;
+    stroke-dasharray:1400;stroke-dashoffset:1400;
+    animation:draw 3.2s ease forwards 0.4s;
+  }
+  .signature path.silver{
+    stroke:var(--silver);stroke-width:1;opacity:0.75;
+    animation:draw 3.6s ease forwards 1.1s;
+  }
+  @keyframes draw{to{stroke-dashoffset:0;}}
+  .signature-caption{display:flex;justify-content:space-between;font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:var(--ink-dim);margin-top:8px;}
+  .signature-caption span.gold{color:var(--gold-soft);}
+
+  /* ---- pull quote ---- */
+  .quote{padding:12vh 7vw;text-align:center;}
+  .quote p{font-family:var(--script);font-style:italic;font-size:clamp(24px,3.4vw,40px);max-width:24ch;margin:0 auto;line-height:1.35;color:var(--ink);}
+  .quote .attr{margin-top:24px;font-size:12px;letter-spacing:0.14em;text-transform:uppercase;color:var(--gold-soft);}
+
+  /* ---- work: editorial spreads ---- */
+  section{padding:11vh 7vw;}
+  .section-head{margin-bottom:70px;}
+  .section-eyebrow{font-family:var(--script);font-style:italic;font-size:19px;color:var(--gold-soft);margin-bottom:10px;}
+  .section-title{font-family:var(--disp);font-weight:600;font-size:clamp(30px,4vw,50px);}
+
+  .spread{
+    display:grid;grid-template-columns:0.7fr 1.3fr;gap:60px;
+    padding:60px 0;border-top:1px solid var(--rule);align-items:center;
+  }
+  .spread:last-child{border-bottom:1px solid var(--rule);}
+  .spread .roman{font-family:var(--disp);font-style:italic;font-size:15px;color:var(--gold);letter-spacing:0.06em;margin-bottom:14px;}
+  .spread h3{font-family:var(--disp);font-weight:600;font-size:clamp(26px,3vw,38px);margin-bottom:16px;}
+  .spread p{color:var(--ink-dim);line-height:1.7;font-size:15px;max-width:52ch;}
+  .spread .tag{margin-top:20px;font-size:11px;letter-spacing:0.12em;text-transform:uppercase;color:var(--gold-soft);}
+  .spread-visual{
+    height:220px;border-radius:2px;background:var(--visual-grad);
+    position:relative;overflow:hidden;display:flex;align-items:flex-end;padding:20px;
+  }
+  .spread-visual .mark{font-family:var(--disp);font-style:italic;font-size:15px;color:var(--gold-soft);}
+
+  @media(max-width:820px){.spread{grid-template-columns:1fr;}}
+
+  /* ---- credibility ---- */
+  .strip{display:grid;grid-template-columns:repeat(4,1fr);padding:0 7vw;}
+  .stat{padding:64px 30px;border-right:1px solid var(--rule);}
+  .stat:last-child{border-right:none;}
+  .stat .big{font-family:var(--disp);font-style:italic;font-weight:600;font-size:44px;color:var(--gold);}
+  .stat .lbl{margin-top:10px;font-size:11px;letter-spacing:0.1em;text-transform:uppercase;color:var(--ink-dim);}
+
+  /* ---- X dispatches ---- */
+  .x-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;align-items:start;}
+  .x-grid .twitter-tweet{margin:0 !important;}
+  .x-follow{margin-top:44px;text-align:center;}
+  @media(max-width:820px){.x-grid{grid-template-columns:1fr;}}
+
+  /* ---- footer ---- */
+  footer{padding:12vh 7vw 8vh;text-align:center;}
+  footer h2{font-family:var(--disp);font-weight:600;font-style:italic;font-size:clamp(34px,6vw,72px);max-width:16ch;margin:0 auto;line-height:1.05;color:var(--gold-soft);}
+  .footer-meta{margin-top:40px;font-size:12px;letter-spacing:0.08em;color:var(--ink-dim);line-height:2.2;}
+  .footer-meta a{border-bottom:1px solid var(--gold);color:var(--gold-soft);}
+
+  @media(max-width:820px){
+    .strip{grid-template-columns:repeat(2,1fr);}
+    .stat:nth-child(2){border-right:none;}
+    .navlinks{display:none;}
+  }
+</style>
+</head>
+<body>
+
+<div class="band-a band-hero">
+<nav>
+  <div class="logo">MIKE <em>BASTIN</em></div>
+  <div class="nav-right">
+    <div class="navlinks">
+      <a href="#work">Work</a>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle light and dark theme">
+      <span class="icon" id="themeIcon">☾</span>
+      <span id="themeLabel">Dark</span>
+    </button>
+  </div>
+</nav>
+
+<div class="hero">
+  <div class="eyebrow">Reading the swell for twenty-five years, in four languages</div>
+  <h1>I make businesses<br>speak <em>fluent</em> search.</h1>
+  <p class="hero-sub">Multilingual SEO, translation and AI-driven content, built for companies who sell across borders and want to sound like they belong there.</p>
+  <div class="hero-cta">
+    <a class="btn-gold" href="#work">View the work</a>
+    <a class="link-ghost" href="#contact">Start a project</a>
+  </div>
+
+  <svg class="signature" viewBox="0 0 1000 140" preserveAspectRatio="none">
+    <path d="M0,90 C120,20 180,140 280,70 C360,15 420,120 520,60 C600,15 660,110 760,55 C840,15 900,90 1000,40" />
+    <path class="silver" d="M0,110 C140,60 200,130 300,95 C390,60 450,125 550,90 C640,58 700,118 800,85 C870,62 930,105 1000,72" />
+  </svg>
+  <div class="signature-caption">
+    <span>Ranking in <span class="gold">EN</span></span>
+    <span>Converting in <span class="gold">FR</span></span>
+    <span>Localised in <span class="gold">ES</span></span>
+    <span>Indexed in <span class="gold">NL</span></span>
+  </div>
+</div>
+</div>
+
+<div class="quote band-b">
+  <p>&ldquo;The businesses that win abroad are never the loudest. They're the ones that sound like they already belong there.&rdquo;</p>
+  <div class="attr">Mike Bastin, Valencia</div>
+</div>
+
+<section id="work" class="band-a">
+  <div class="section-head">
+    <div class="section-eyebrow">Picked from the line-up</div>
+    <div class="section-title">Selected work</div>
+  </div>
+
+  <div class="spread">
+    <div>
+      <div class="roman">I.</div>
+      <h3>BeTranslated</h3>
+      <p>A multilingual translation and interpretation house spanning Belgium, France, Spain, the UK, the Netherlands and the US. Built from one domain into six regional identities, each fluent in its own market.</p>
+      <div class="tag">Translation, Multi-TLD SEO</div>
+    </div>
+    <div class="spread-visual"><span class="mark">betranslated.com</span></div>
+  </div>
+
+  <div class="spread">
+    <div>
+      <div class="roman">II.</div>
+      <h3>Globaprom</h3>
+      <p>Custom software built with AI-assisted development and shipped in weeks, not quarters. One build gave Texas International Freight a live shipment-tracking portal that cut three hours of status-chasing a day. Grown out of BeTranslated, so every tool speaks several languages from the first commit.</p>
+      <div class="tag">AI Software, Vibecoding, Fixed Scope</div>
+    </div>
+    <div class="spread-visual"><span class="mark">globaprom.com</span></div>
+  </div>
+
+  <div class="spread">
+    <div>
+      <div class="roman">III.</div>
+      <h3>TX International Freight</h3>
+      <p>SEO and content strategy for a Houston-based industrial freight forwarder, in a category most agencies never bother learning properly.</p>
+      <div class="tag">Logistics, Technical SEO</div>
+    </div>
+    <div class="spread-visual"><span class="mark">txintlfreight.com</span></div>
+  </div>
+
+  <div class="spread">
+    <div>
+      <div class="roman">IV.</div>
+      <h3>Century 21 Perdomo</h3>
+      <p>Multilingual real estate SEO across four languages for a Dominican Republic property market built on international buyers.</p>
+      <div class="tag">Real Estate, WPML</div>
+    </div>
+    <div class="spread-visual"><span class="mark">c21perdomo.com</span></div>
+  </div>
+
+  <div class="spread">
+    <div>
+      <div class="roman">V.</div>
+      <h3>ValenciaMove</h3>
+      <p>Relocation content written from the ground in Valencia, not assembled from a guidebook. Proof that first-hand knowledge still outranks recycled content.</p>
+      <div class="tag">Content, Local SEO</div>
+    </div>
+    <div class="spread-visual"><span class="mark">valenciamove.com</span></div>
+  </div>
+
+  <div class="spread">
+    <div>
+      <div class="roman">VI.</div>
+      <h3>Bemelman Spuiterij</h3>
+      <p>A Dutch industrial spraying and powder-coating specialist near Noordwijkerhout, forty-five years in the trade. Site and local SEO built to speak the language its own customers use, not agency Dutch.</p>
+      <div class="tag">Divi Build, Dutch Local SEO</div>
+    </div>
+    <div class="spread-visual"><span class="mark">bemelmanspuiterij.nl</span></div>
+  </div>
+
+  <div class="spread">
+    <div>
+      <div class="roman">VII.</div>
+      <h3>Delaguía y Luzón</h3>
+      <p>A multidisciplinary Valencia law firm covering legal, labour, immigration and tax law, serving clients across Spain and France in Spanish, French, English and Russian. Multilingual SEO built for a practice that already thinks internationally.</p>
+      <div class="tag">Legal SEO, Multilingual Content</div>
+    </div>
+    <div class="spread-visual"><span class="mark">delaguialuzon.com</span></div>
+  </div>
+
+  <div class="spread">
+    <div>
+      <div class="roman">VIII.</div>
+      <h3>Matosurf</h3>
+      <p>A French-language guide covering seven board sports, forty-eight French spots and more than a hundred and twenty guides. Written by someone who chased wind long before chasing rankings. Friends in the line-up still call me the Silver Surfer, and the site proves what I keep telling clients: niche authority, written from the water, beats generic volume.</p>
+      <div class="tag">French Content, Niche SEO, EEAT</div>
+    </div>
+    <div class="spread-visual"><span class="mark">matosurf.com</span></div>
+  </div>
+</section>
+
+<div class="strip band-b">
+  <div class="stat"><div class="big">25</div><div class="lbl">Years in SEO and localisation</div></div>
+  <div class="stat"><div class="big">4+1</div><div class="lbl">Languages fluent, B1 German</div></div>
+  <div class="stat"><div class="big">6</div><div class="lbl">Countries lived in, long-term</div></div>
+  <div class="stat"><div class="big">12</div><div class="lbl">Domains managed across clients</div></div>
+</div>
+
+<section id="dispatches" class="band-a">
+  <div class="section-head">
+    <div class="section-eyebrow">Thinking out loud, in public</div>
+    <div class="section-title">Dispatches from X</div>
+  </div>
+  <div class="x-grid">
+    <!-- Replace HANDLE_TBD and status URLs with real posts. widgets.js renders these. -->
+    <blockquote class="twitter-tweet" data-theme="dark" data-dnt="true">
+      <a href="https://twitter.com/HANDLE_TBD/status/PLACEHOLDER_1"></a>
+    </blockquote>
+    <blockquote class="twitter-tweet" data-theme="dark" data-dnt="true">
+      <a href="https://twitter.com/HANDLE_TBD/status/PLACEHOLDER_2"></a>
+    </blockquote>
+    <blockquote class="twitter-tweet" data-theme="dark" data-dnt="true">
+      <a href="https://twitter.com/HANDLE_TBD/status/PLACEHOLDER_3"></a>
+    </blockquote>
+  </div>
+  <div class="x-follow">
+    <a class="link-ghost" href="https://x.com/HANDLE_TBD">Follow on X →</a>
+  </div>
+</section>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<footer id="contact" class="band-b">
+  <h2>Let's get your site speaking.</h2>
+  <div class="footer-meta">
+    Mike Bastin · Calle Rugat 12&#8211;2, 46021 Valencia, Spain<br>
+    +34 671 17 57 74<br>
+    <a href="https://mikebastin.com/contact-us/">Get in touch →</a>
+  </div>
+</footer>
+
+<script>
+  const root = document.documentElement;
+  const toggle = document.getElementById('themeToggle');
+  const icon = document.getElementById('themeIcon');
+  const label = document.getElementById('themeLabel');
+
+  function applyTheme(theme){
+    root.setAttribute('data-theme', theme);
+    if(theme === 'light'){
+      icon.textContent = '☀';
+      label.textContent = 'Light';
+    } else {
+      icon.textContent = '☾';
+      label.textContent = 'Dark';
+    }
+  }
+
+  toggle.addEventListener('click', () => {
+    const current = root.getAttribute('data-theme');
+    applyTheme(current === 'dark' ? 'light' : 'dark');
+  });
+</script>
+
+</body>
+</html>

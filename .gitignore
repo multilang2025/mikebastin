@@ -17,3 +17,17 @@ node_modules/
 wp-cli.local.yml
 .env
 phpcs-report.xml
+
+HANDOFF-CHAT-AND-IMAGE-GEN-LOGIC.md
+HANDOFF-SESSION.md
+
+# MB Master Revamp (Next.js + Payload, once scaffolded)
+mb-master-revamp/.env*
+mb-master-revamp/**/.env*
+mb-master-revamp/.next/
+mb-master-revamp/out/
+mb-master-revamp/dist/
+mb-master-revamp/node_modules/
+mb-master-revamp/**/node_modules/
+mb-master-revamp/.vercel/
+mb-master-revamp/*.tsbuildinfo

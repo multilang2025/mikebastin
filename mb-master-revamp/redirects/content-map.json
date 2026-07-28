@@ -1,0 +1,17 @@
+{
+  "_comment": "Migration contract skeleton per docs/HANDOFF.md §16. One record per WPML translation group. Populate during content-migrator's extraction pass (P3). Every ~285 legacy content IDs must appear exactly once; missing locale siblings are explicit null, never omitted.",
+  "_schema_example": {
+    "group": "ai-consulting",
+    "type": "project",
+    "en": { "id": 24847584, "slug": "ai-consulting-services", "url": "/services/ai-consulting-services/" },
+    "fr": { "id": 24848390, "slug": "conseil-ia", "url": "/fr/services/conseil-ia/" },
+    "es": { "id": 24848569, "slug": "consultoria-de-inteligencia-artificial", "url": "/es/services/consultoria-de-inteligencia-artificial/" },
+    "tier": "A",
+    "action": "migrate",
+    "payload_collection": "services",
+    "destination": "payload",
+    "vm_action": null,
+    "vm_target_url": null
+  },
+  "groups": []
+}

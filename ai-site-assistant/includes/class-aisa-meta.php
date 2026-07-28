@@ -116,10 +116,19 @@ class AISA_Meta {
 	 * be a scalar or a nested structure (e.g. a schema object); string leaves
 	 * are sanitized.
 	 *
+	 * Refuses a write that would silently flip the key's stored type from a
+	 * structure (e.g. an existing rank_math_schema_* array) to a plain
+	 * string -- the most likely cause is the caller's JSON failing to decode
+	 * upstream (in AISA_Tools::set_meta()) rather than an intentional
+	 * "replace the schema with a string" request, and a silent flip here
+	 * would corrupt structured data no differently than WPVibe's own
+	 * settings-type-safety fix was written to prevent for wp-options.
+	 *
 	 * @param int    $id    Post ID.
 	 * @param string $key   Meta key (must be within an allowed prefix).
 	 * @param mixed  $value Value to write.
-	 * @return array|WP_Error Result, or WP_Error when the key is not allowed.
+	 * @return array|WP_Error Result, or WP_Error when the key is not allowed
+	 *                        or the write would silently change its stored type.
 	 */
 	public static function write_meta( $id, $key, $value ) {
 		if ( ! self::is_allowed( $key ) ) {
@@ -129,6 +138,20 @@ class AISA_Meta {
 				array( 'status' => 400 )
 			);
 		}
+
+		$existing = get_post_meta( (int) $id, $key, true );
+		if ( is_array( $existing ) && ! empty( $existing ) && ! is_array( $value ) ) {
+			return new WP_Error(
+				'aisa_meta_type_mismatch',
+				sprintf(
+					/* translators: %s: the meta key being written. */
+					__( '"%s" currently holds a structured value (e.g. a schema object). The new value is a plain string, not valid JSON -- this would silently replace the whole structure. Pass a proper JSON object/array as the value, or confirm you really mean to overwrite it with plain text.', 'ai-site-assistant' ),
+					$key
+				),
+				array( 'status' => 400 )
+			);
+		}
+
 		update_post_meta( (int) $id, $key, self::sanitize_value( $value ) );
 		AISA_Audit_Log::record( 'set_meta', (int) $id, array( 'key' => $key ) );
 		return array(

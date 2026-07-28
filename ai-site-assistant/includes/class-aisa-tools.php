@@ -171,11 +171,45 @@ class AISA_Tools {
 				),
 			),
 			array(
+				'name'         => 'db_query',
+				'description'  => 'Run a read-only SELECT against this site\'s database -- the escape '
+					. 'hatch for data no other tool covers: a form plugin\'s entries (Formidable, '
+					. 'Gravity Forms, WPForms...), WooCommerce order meta, or any other plugin\'s custom '
+					. 'table. Use "{prefix}" instead of guessing the table prefix, e.g. '
+					. '"SELECT * FROM {prefix}frm_items WHERE created_at >= \'2026-07-01\' LIMIT 200". '
+					. 'SELECT (and DESCRIBE/SHOW/EXPLAIN SELECT) only -- mutating statements are rejected '
+					. 'outright, there is no write path here. A LIMIT is enforced automatically (default '
+					. '100, max 1000) if the query doesn\'t already have one. Avoid selecting from '
+					. 'wp_options/wp_usermeta/wp_users unless the user explicitly asked about site '
+					. 'config, users, or secrets -- those tables can contain API keys and credentials. '
+					. 'Needs an administrator account.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'sql'   => array(
+							'type'        => 'string',
+							'description' => 'A single SELECT (or DESCRIBE/SHOW/EXPLAIN SELECT) statement. Use "{prefix}" for the table prefix.',
+						),
+						'limit' => array(
+							'type'        => 'integer',
+							'description' => 'Row cap for SELECT results if the query has no LIMIT of its own (default 100, max 1000).',
+						),
+					),
+					'required'             => array( 'sql' ),
+					'additionalProperties' => false,
+				),
+			),
+			array(
 				'name'         => 'replace_in_post',
 				'description'  => 'Make a TARGETED edit: replace an exact text snippet with new text '
 					. 'in a post/page. Prefer this over update_post for small changes (links, a '
-					. 'sentence) — far faster and avoids timeouts. Read with get_post first and pass '
-					. 'back expected_modified.',
+					. 'sentence) — far faster and avoids timeouts, and safer: the edit only applies if '
+					. '"find" still matches the current content exactly once, so there\'s no separate '
+					. 'staleness timestamp to keep in sync. Read with get_post first to get the text to '
+					. 'match against. On an Elementor or Divi page, the result may include a WARNING -- '
+					. 'read it; on Elementor it means this edit likely won\'t appear on the live page '
+					. '(content lives in _elementor_data, not post_content), on Divi it means the touched '
+					. 'text looks like it crosses a shortcode-attribute boundary.',
 				'input_schema' => array(
 					'type'                 => 'object',
 					'properties'           => array(
@@ -190,10 +224,11 @@ class AISA_Tools {
 						),
 						'expected_modified' => array(
 							'type'        => 'string',
-							'description' => 'The post_modified value from get_post.',
+							'description' => 'Unused, accepted for backward compatibility only. The '
+								. '"find" match itself is the safety check.',
 						),
 					),
-					'required'             => array( 'id', 'find', 'replace', 'expected_modified' ),
+					'required'             => array( 'id', 'find', 'replace' ),
 					'additionalProperties' => false,
 				),
 			),
@@ -201,7 +236,9 @@ class AISA_Tools {
 				'name'         => 'append_to_post',
 				'description'  => 'Append a block of HTML to the end of a post/page (e.g. an author/'
 					. 'EEAT box, a sources list, an FAQ). Faster than rewriting the whole post. Read '
-					. 'with get_post first and pass back expected_modified.',
+					. 'with get_post first and pass back expected_modified. On an Elementor or Divi page, '
+					. 'the result may include a WARNING -- read it; on Elementor it means this likely '
+					. 'won\'t appear on the live page (content lives in _elementor_data, not post_content).',
 				'input_schema' => array(
 					'type'                 => 'object',
 					'properties'           => array(
@@ -216,6 +253,51 @@ class AISA_Tools {
 						),
 					),
 					'required'             => array( 'id', 'html', 'expected_modified' ),
+					'additionalProperties' => false,
+				),
+			),
+			array(
+				'name'         => 'bulk_replace_in_posts',
+				'description'  => 'Apply the SAME exact text replacement across MULTIPLE posts/pages in '
+					. 'one call (e.g. fixing a broken URL, phone number, or shortcode across a whole '
+					. 'site). Prefer this over calling replace_in_post one post at a time. Each post is '
+					. 'independently safe: a post is only touched if "find" matches its current content '
+					. 'exactly once, otherwise it\'s skipped (not found, or ambiguous) and reported as '
+					. 'such -- one bad match never blocks the rest of the batch. Max 50 posts per call. '
+					. 'Any succeeded post on Elementor or Divi may carry a per-post "warning" field in the '
+					. 'results -- read those before assuming the whole batch is safe to move on from.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'ids'     => array(
+							'type'        => 'array',
+							'items'       => array( 'type' => 'integer' ),
+							'description' => 'Post/page IDs to update (max 50 per call).',
+						),
+						'find'    => array(
+							'type'        => 'string',
+							'description' => 'Exact text to find in each post\'s content.',
+						),
+						'replace' => array(
+							'type'        => 'string',
+							'description' => 'Replacement text, applied identically to every matching post.',
+						),
+					),
+					'required'             => array( 'ids', 'find', 'replace' ),
+					'additionalProperties' => false,
+				),
+			),
+			array(
+				'name'         => 'flush_caches',
+				'description'  => 'Flush known caching layers (WordPress object cache, and whichever of '
+					. 'Elementor, WP Rocket, W3 Total Cache, LiteSpeed Cache, WP Super Cache, WP Fastest '
+					. 'Cache, or SiteGround Optimizer are actually active) so a content change becomes '
+					. 'visible immediately instead of waiting for cache expiry. Call this after a content '
+					. 'edit if the user reports not seeing the change on the live site. Only touches '
+					. 'caches; never touches content. Needs an administrator account.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => new stdClass(),
 					'additionalProperties' => false,
 				),
 			),
@@ -246,10 +328,9 @@ class AISA_Tools {
 			),
 			array(
 				'name'         => 'load_skill',
-				'description'  => 'Load the on-demand playbook for a specific task. Call this once, right '
-					. 'before you act, when a task matches one of the catalog entries in the system '
-					. 'prompt (eeat, fact_checking, nlp_readability, internal_links, meta_tags, schema, '
-					. 'page_builders). Read-only.',
+				'description'  => 'Load the on-demand playbook for a specific task, right before you act on a '
+					. "matching one -- do not guess an approach from a skill's one-line summary alone. "
+					. "Available skills:\n" . AISA_Skills::catalog_text() . "\nRead-only.",
 				'input_schema' => array(
 					'type'                 => 'object',
 					'properties'           => array(
@@ -309,8 +390,10 @@ class AISA_Tools {
 			array(
 				'name'         => 'set_meta',
 				'description'  => 'Write one SEO/schema meta key (Rank Math / Yoast / AIO SEO keys '
-					. 'only), e.g. rank_math_robots. For structured values pass JSON as the value '
-					. 'string. Fast — no content rewrite.',
+					. 'only), e.g. rank_math_robots -- including full JSON-LD schema objects via keys '
+					. 'like rank_math_schema_Article (get_schema shows which keys exist). For '
+					. 'structured values pass JSON as the value string; it round-trips as a real '
+					. 'structure, not a JSON-string blob. Fast — no content rewrite.',
 				'input_schema' => array(
 					'type'                 => 'object',
 					'properties'           => array(
@@ -742,6 +825,262 @@ class AISA_Tools {
 					'additionalProperties' => false,
 				),
 			),
+			array(
+				'name'         => 'seo_competitor_report',
+				'description'  => 'One-shot competitor comparison for a specific page on this site: this '
+					. 'domain\'s Ahrefs metrics, its top organic competitor (or one you specify), that '
+					. 'competitor\'s metrics and best-performing pages, and the full content of the page '
+					. 'you\'re improving -- all in a single call. Use this INSTEAD of calling '
+					. 'ahrefs_domain_metrics, ahrefs_organic_competitors, ahrefs_top_pages, and get_post '
+					. 'separately to compare one page against competitors; each of those is a full round '
+					. 'trip and chaining them one-by-one is much slower for no benefit. Read-only. Needs an '
+					. 'Ahrefs API key.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'page'       => array(
+							'type'        => 'string',
+							'description' => 'The page to improve: a post/page ID, full URL, or path (e.g. "/my-page/").',
+						),
+						'competitor' => array(
+							'type'        => 'string',
+							'description' => 'Optional competitor domain to compare against. Omit to auto-pick the top organic competitor by shared keywords.',
+						),
+						'country'    => array(
+							'type'        => 'string',
+							'description' => 'Optional two-letter country code for the market (default us).',
+						),
+					),
+					'required'             => array( 'page' ),
+					'additionalProperties' => false,
+				),
+			),
+			array(
+				'name'         => 'gsc_list_properties',
+				'description'  => 'List every Google Search Console property (site) the connected Google '
+					. 'account can access -- not just this WordPress site, but every domain the admin has '
+					. 'verified in Search Console under that account. Pass the returned value as the '
+					. '"site" argument to gsc_top_pages/gsc_page_queries/gsc_page_report to get data for '
+					. 'a different domain. Read-only. Needs Google Search Console connected.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(),
+					'additionalProperties' => false,
+				),
+			),
+			array(
+				'name'         => 'gsc_top_pages',
+				'description'  => 'Rank a site\'s pages by REAL Google Search Console performance '
+					. '(actual clicks/impressions/CTR/position Google reports, not an estimate). Use '
+					. 'order="worst" to find underperforming pages, or order="best" for top performers. '
+					. 'Defaults to this WordPress site; pass "site" to query any other domain verified '
+					. 'under the same connected Google account (see gsc_list_properties). Read-only. '
+					. 'Needs Google Search Console connected.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'site'   => array(
+							'type'        => 'string',
+							'description' => 'Domain or exact GSC siteUrl to query (default: this site). '
+								. 'See gsc_list_properties for valid values.',
+						),
+						'order'  => array(
+							'type'        => 'string',
+							'enum'        => array( 'worst', 'best' ),
+							'description' => 'worst = lowest metric value first (default); best = highest first.',
+						),
+						'metric' => array(
+							'type'        => 'string',
+							'enum'        => array( 'clicks', 'impressions', 'ctr', 'position' ),
+							'description' => 'Which metric to sort by (default clicks). position: lower is better.',
+						),
+						'limit'  => array(
+							'type'        => 'integer',
+							'description' => 'Max pages to return (default 10, max 100).',
+						),
+						'days'   => array(
+							'type'        => 'integer',
+							'description' => 'How many days back to look, ending 3 days ago (GSC\'s reporting lag). Default 90, max 450.',
+						),
+					),
+					'additionalProperties' => false,
+				),
+			),
+			array(
+				'name'         => 'gsc_page_queries',
+				'description'  => 'List every search query a specific page ranks for in Google Search '
+					. 'Console, with real clicks/impressions/CTR/position per query. Defaults to a page '
+					. 'on this WordPress site (accepts an ID, URL, or path); pass "site" plus a full URL '
+					. 'in "page" to inspect a page on any other domain verified under the same connected '
+					. 'Google account (see gsc_list_properties). If the response has '
+					. '"no_matching_rows": true, GSC genuinely has no data for that URL -- say so plainly, '
+					. 'do NOT invent plausible-looking numbers. Read-only. Needs Google Search Console '
+					. 'connected.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'page' => array(
+							'type'        => 'string',
+							'description' => 'The page to inspect: a post/page ID, full URL, or path (e.g. '
+								. '"/my-page/") for this site -- or a full URL when "site" is set.',
+						),
+						'site' => array(
+							'type'        => 'string',
+							'description' => 'Domain or exact GSC siteUrl the page belongs to, if not this '
+								. 'site. Requires "page" to be a full URL. See gsc_list_properties.',
+						),
+						'days' => array(
+							'type'        => 'integer',
+							'description' => 'How many days back to look, ending 3 days ago. Default 90, max 450.',
+						),
+					),
+					'required'             => array( 'page' ),
+					'additionalProperties' => false,
+				),
+			),
+			array(
+				'name'         => 'gsc_page_report',
+				'description'  => 'One-shot Google Search Console diagnostic for a specific page: its '
+					. 'overall aggregate performance (clicks/impressions/CTR/position) and every query '
+					. 'it ranks for -- all in a single call. For a page on this WordPress site, also '
+					. 'includes the page\'s own content (use this INSTEAD of calling get_post and '
+					. 'gsc_page_queries separately). Pass "site" plus a full URL in "page" to diagnose a '
+					. 'page on any other domain verified under the same connected Google account (see '
+					. 'gsc_list_properties) -- content isn\'t available for those. If the response has '
+					. '"no_matching_rows": true, GSC genuinely has no data for that URL -- say so plainly, '
+					. 'do NOT invent plausible-looking numbers. Read-only. Needs Google Search Console '
+					. 'connected.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'page' => array(
+							'type'        => 'string',
+							'description' => 'The page to diagnose: a post/page ID, full URL, or path (e.g. '
+								. '"/my-page/") for this site -- or a full URL when "site" is set.',
+						),
+						'site' => array(
+							'type'        => 'string',
+							'description' => 'Domain or exact GSC siteUrl the page belongs to, if not this '
+								. 'site. Requires "page" to be a full URL. See gsc_list_properties.',
+						),
+						'days' => array(
+							'type'        => 'integer',
+							'description' => 'How many days back to look, ending 3 days ago. Default 90, max 450.',
+						),
+					),
+					'required'             => array( 'page' ),
+					'additionalProperties' => false,
+				),
+			),
+			array(
+				'name'         => 'ga_list_properties',
+				'description'  => 'List every Google Analytics (GA4) property the connected Google account '
+					. 'can access. Pass a property\'s ID, display name, or a domain as the "site" argument '
+					. 'to ga_traffic_overview/ga_top_pages to get data for it. Read-only. Needs Google '
+					. 'Analytics connected.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(),
+					'additionalProperties' => false,
+				),
+			),
+			array(
+				'name'         => 'ga_traffic_overview',
+				'description'  => 'Real Google Analytics (GA4) traffic summary: sessions, active users, '
+					. 'engagement rate, and conversions for the period, broken down by traffic-source '
+					. 'channel (Organic Search, Direct, Referral, Social, Paid Search, etc.). This is '
+					. 'ACTUAL visitor behavior, not search-ranking data -- use gsc_top_pages/Ahrefs tools '
+					. 'for search-specific questions, and this for "how much traffic / where from / do '
+					. 'visitors engage." Defaults to this WordPress site; pass "site" to query any other '
+					. 'property verified under the same connected Google account (see ga_list_properties). '
+					. 'GA4 data is near-real-time (no multi-day lag like Search Console). Read-only. Needs '
+					. 'Google Analytics connected.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'site' => array(
+							'type'        => 'string',
+							'description' => 'Property ID, display name, or domain to query (default: this site). See ga_list_properties.',
+						),
+						'days' => array(
+							'type'        => 'integer',
+							'description' => 'How many days back to look, ending yesterday. Default 28, max 365.',
+						),
+					),
+					'additionalProperties' => false,
+				),
+			),
+			array(
+				'name'         => 'ga_top_pages',
+				'description'  => 'Rank a site\'s pages by REAL Google Analytics (GA4) traffic (sessions or '
+					. 'views Google Analytics actually recorded, not a search-ranking estimate). Use '
+					. 'order="worst" to find pages that get little to no real traffic, or order="best" for '
+					. 'top performers. Defaults to this WordPress site; pass "site" to query any other '
+					. 'property verified under the same connected Google account (see ga_list_properties). '
+					. 'Read-only. Needs Google Analytics connected.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'site'   => array(
+							'type'        => 'string',
+							'description' => 'Property ID, display name, or domain to query (default: this site). See ga_list_properties.',
+						),
+						'order'  => array(
+							'type'        => 'string',
+							'enum'        => array( 'worst', 'best' ),
+							'description' => 'worst = lowest traffic first (default); best = highest first.',
+						),
+						'limit'  => array(
+							'type'        => 'integer',
+							'description' => 'Max pages to return (default 10, max 100).',
+						),
+						'days'   => array(
+							'type'        => 'integer',
+							'description' => 'How many days back to look, ending yesterday. Default 28, max 365.',
+						),
+					),
+					'additionalProperties' => false,
+				),
+			),
+			array(
+				'name'         => 'run_site_checkup',
+				'description'  => 'Run a full Google Lighthouse audit (the same checks behind Google\'s own '
+					. 'PageSpeed Insights/PageSpeed tools) against a live URL: performance, accessibility, '
+					. 'best practices, and SEO -- a score 0-100 for each, plus the specific failing checks '
+					. 'under every score. Use this for "check my site/page" or "run a checkup" requests. '
+					. 'This only READS the live page; it never changes anything by itself -- pair it with '
+					. 'the site_checkup skill to actually act on what it finds (missing alt text, weak meta '
+					. 'descriptions, template-level issues), which goes through the normal write-approval '
+					. 'flow like any other edit. Read-only, no API key required (works at a lower rate limit '
+					. 'without one).',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'id'         => array(
+							'type'        => 'integer',
+							'description' => 'A post/page ID on this site to audit (resolved to its live permalink).',
+						),
+						'url'        => array(
+							'type'        => 'string',
+							'description' => 'A full URL to audit instead of "id" -- any publicly reachable page, on this site or elsewhere.',
+						),
+						'strategy'   => array(
+							'type'        => 'string',
+							'enum'        => array( 'mobile', 'desktop' ),
+							'description' => 'Which device profile to simulate (default mobile -- Google\'s own default, and usually the stricter score).',
+						),
+						'categories' => array(
+							'type'        => 'array',
+							'items'       => array(
+								'type' => 'string',
+								'enum' => array( 'performance', 'accessibility', 'best-practices', 'seo' ),
+							),
+							'description' => 'Which categories to run (default: all four).',
+						),
+					),
+					'additionalProperties' => false,
+				),
+			),
 		);
 	}
 
@@ -758,6 +1097,8 @@ class AISA_Tools {
 			'publish_post',
 			'replace_in_post',
 			'append_to_post',
+			'bulk_replace_in_posts',
+			'flush_caches',
 			'set_seo',
 			'set_meta',
 			'wp_cli_set',
@@ -791,6 +1132,8 @@ class AISA_Tools {
 				return self::publish_post( $input );
 			case 'get_site_context':
 				return self::get_site_context();
+			case 'db_query':
+				return self::db_query( $input );
 			case 'fact_check':
 				return self::fact_check( $input );
 			case 'load_skill':
@@ -799,6 +1142,10 @@ class AISA_Tools {
 				return self::replace_in_post( $input );
 			case 'append_to_post':
 				return self::append_to_post( $input );
+			case 'bulk_replace_in_posts':
+				return self::bulk_replace_in_posts( $input );
+			case 'flush_caches':
+				return self::flush_caches( $input );
 			case 'get_seo':
 				return self::get_seo( $input );
 			case 'set_seo':
@@ -845,6 +1192,24 @@ class AISA_Tools {
 				return self::ahrefs_organic_competitors( $input );
 			case 'ahrefs_domain_metrics':
 				return self::ahrefs_domain_metrics( $input );
+			case 'seo_competitor_report':
+				return self::seo_competitor_report( $input );
+			case 'gsc_list_properties':
+				return self::gsc_list_properties( $input );
+			case 'gsc_top_pages':
+				return self::gsc_top_pages( $input );
+			case 'gsc_page_queries':
+				return self::gsc_page_queries( $input );
+			case 'gsc_page_report':
+				return self::gsc_page_report( $input );
+			case 'ga_list_properties':
+				return self::ga_list_properties( $input );
+			case 'ga_traffic_overview':
+				return self::ga_traffic_overview( $input );
+			case 'ga_top_pages':
+				return self::ga_top_pages( $input );
+			case 'run_site_checkup':
+				return self::run_site_checkup( $input );
 			default:
 				return self::error( "Unknown tool: {$name}" );
 		}
@@ -861,6 +1226,71 @@ class AISA_Tools {
 			'content'  => $message,
 			'is_error' => true,
 		);
+	}
+
+	/**
+	 * Resolve a "page" tool argument -- a post/page ID, a full URL, or a
+	 * root-relative path -- to a post ID. Shared by every tool that lets the
+	 * model reference a page loosely instead of requiring an exact ID
+	 * (seo_competitor_report, gsc_page_queries, gsc_page_report).
+	 *
+	 * @param string $raw Raw "page" input.
+	 * @return int Post ID, or 0 if not found/empty.
+	 */
+	private static function resolve_page_post_id( $raw ) {
+		$raw = trim( (string) $raw );
+		if ( '' === $raw ) {
+			return 0;
+		}
+		if ( ctype_digit( $raw ) ) {
+			return (int) $raw;
+		}
+		$url = ( 0 === strpos( $raw, 'http' ) ) ? $raw : home_url( '/' . ltrim( $raw, '/' ) );
+		return (int) url_to_postid( $url );
+	}
+
+	/**
+	 * Wraps wp_json_encode(), which returns false on invalid UTF-8 instead of
+	 * throwing. Real post content routinely
+	 * contains this -- mixed-charset imports, copy-paste from Word/PDF, or a
+	 * byte-offset substr() elsewhere slicing a multi-byte character in half
+	 * -- and every tool method here used to pass that false straight through
+	 * as tool_result content, which the Claude API then rejects outright.
+	 * Retry once after stripping invalid byte sequences before giving up.
+	 *
+	 * @param mixed $data Data to encode.
+	 * @return string JSON string. Never false.
+	 */
+	private static function safe_json_encode( $data ) {
+		$json = wp_json_encode( $data );
+		if ( false !== $json ) {
+			return $json;
+		}
+		$json = wp_json_encode( self::strip_invalid_utf8( $data ) );
+		if ( false !== $json ) {
+			return $json;
+		}
+		return wp_json_encode( array( 'error' => 'Could not encode this content -- it contains characters that are not valid text.' ) );
+	}
+
+	/**
+	 * Recursively strip invalid UTF-8 byte sequences from strings, arrays,
+	 * and array-castable objects (e.g. a WP_Post-derived array) ahead of a
+	 * retry in safe_json_encode().
+	 *
+	 * @param mixed $data Data to clean.
+	 * @return mixed Cleaned data, same shape as the input.
+	 */
+	private static function strip_invalid_utf8( $data ) {
+		if ( is_string( $data ) ) {
+			return wp_check_invalid_utf8( $data, true );
+		}
+		if ( is_array( $data ) ) {
+			foreach ( $data as $key => $value ) {
+				$data[ $key ] = self::strip_invalid_utf8( $value );
+			}
+		}
+		return $data;
 	}
 
 	/**
@@ -889,7 +1319,7 @@ class AISA_Tools {
 				'url'    => get_permalink( $p ),
 			);
 		}
-		return array( 'content' => wp_json_encode( $rows ) );
+		return array( 'content' => self::safe_json_encode( $rows ) );
 	}
 
 	/**
@@ -908,7 +1338,7 @@ class AISA_Tools {
 			return self::error( 'Post not found.' );
 		}
 		return array(
-			'content' => wp_json_encode(
+			'content' => self::safe_json_encode(
 				array(
 					'id'                => $p->ID,
 					'title'             => $p->post_title,
@@ -1033,11 +1463,126 @@ class AISA_Tools {
 	private static function get_site_context() {
 		$theme = wp_get_theme();
 		return array(
-			'content' => wp_json_encode(
+			'content' => self::safe_json_encode(
 				array(
 					'theme'          => $theme->get( 'Name' ) . ' ' . $theme->get( 'Version' ),
 					'post_types'     => array_values( get_post_types( array( 'public' => true ) ) ),
 					'active_plugins' => array_values( (array) get_option( 'active_plugins', array() ) ),
+				)
+			),
+		);
+	}
+
+	/**
+	 * Run a read-only SELECT (or schema-read: DESCRIBE/SHOW/EXPLAIN SELECT)
+	 * against the site's database. The escape hatch for data no purpose-built
+	 * tool covers -- a form plugin's entries table, another plugin's custom
+	 * table, etc. -- without needing bespoke per-plugin integrations.
+	 *
+	 * Security model (ported from WPVibe's db-query tool):
+	 * - manage_options only (admin-equivalent), since this can read any table.
+	 * - SELECT/DESCRIBE/SHOW/EXPLAIN SELECT only; every mutating keyword is
+	 *   blocklisted even inside a nominal SELECT (comments stripped first so
+	 *   a keyword can't be smuggled past the check inside /* ... *\/ or --).
+	 * - Executable MySQL comments (/*! ... *\/) are rejected outright -- they
+	 *   run at the server despite being stripped by the validator above.
+	 * - Multi-statement injection (`; DROP TABLE ...`) is rejected.
+	 * - `SELECT ... INTO OUTFILE/DUMPFILE` and `FOR UPDATE/SHARE` are rejected.
+	 * - LIMIT is force-enforced (default 100, capped at 1000) so a query with
+	 *   no LIMIT of its own can't dump an entire table.
+	 * - "{prefix}" is substituted for $wpdb->prefix so the model doesn't have
+	 *   to guess this site's actual table prefix.
+	 *
+	 * @param array $in Tool input.
+	 * @return array Tool result with the query's rows as JSON, or an error.
+	 */
+	private static function db_query( array $in ) {
+		if ( ! current_user_can( 'manage_options' ) ) {
+			return self::error( 'Permission denied. This tool requires an administrator account.' );
+		}
+
+		global $wpdb;
+
+		$sql = trim( (string) ( $in['sql'] ?? '' ) );
+		if ( '' === $sql ) {
+			return self::error( 'A SQL query is required. Example: SELECT * FROM {prefix}posts LIMIT 10' );
+		}
+
+		$sql = str_replace( '{prefix}', $wpdb->prefix, $sql );
+
+		// Executable MySQL comments run at the server despite being stripped
+		// by the validator below, so they could smuggle a blocked keyword
+		// past it. No legitimate query here needs them.
+		if ( false !== strpos( $sql, '/*!' ) ) {
+			return self::error( 'Executable MySQL comments (/*! ... */) are not allowed.' );
+		}
+
+		// Strip comments before validating so a blocked keyword can't hide
+		// inside one, then normalize whitespace/case for keyword matching.
+		$stripped   = preg_replace( '/--.*$/m', '', $sql );
+		$stripped   = preg_replace( '/\/\*.*?\*\//s', '', $stripped );
+		$normalized = preg_replace( '/\s+/', ' ', strtoupper( trim( $stripped ) ) );
+
+		$is_select      = ( 0 === strpos( $normalized, 'SELECT' ) );
+		$is_schema_read = (bool) preg_match( '/^(DESCRIBE|DESC|SHOW|EXPLAIN SELECT)\b/', $normalized );
+
+		if ( ! $is_select && ! $is_schema_read ) {
+			return self::error( 'Only SELECT and schema reads (DESCRIBE, SHOW, EXPLAIN SELECT) are allowed. This tool has no write path.' );
+		}
+
+		if ( $is_select ) {
+			$blocked = array(
+				'INSERT', 'UPDATE', 'DELETE', 'DROP', 'ALTER', 'TRUNCATE',
+				'CREATE', 'GRANT', 'REVOKE', 'EXEC', 'EXECUTE',
+				'RENAME', 'REPLACE', 'LOAD', 'OUTFILE', 'DUMPFILE',
+			);
+			foreach ( $blocked as $keyword ) {
+				if ( preg_match( '/\b' . $keyword . '\b/', $normalized ) ) {
+					return self::error( "Blocked SQL keyword in SELECT: {$keyword}." );
+				}
+			}
+		}
+
+		if ( preg_match( '/;\s*\S/', $sql ) ) {
+			return self::error( 'Multiple SQL statements are not allowed.' );
+		}
+
+		if ( preg_match( '/\bINTO\s+(OUTFILE|DUMPFILE|@)/i', $normalized ) ) {
+			return self::error( 'SELECT INTO is not allowed.' );
+		}
+		if ( preg_match( '/\bFOR\s+(UPDATE|SHARE)\b/', $normalized ) ) {
+			return self::error( 'FOR UPDATE/SHARE is not allowed.' );
+		}
+
+		$sql = rtrim( $sql, '; ' );
+
+		if ( $is_select ) {
+			$limit = min( max( 1, (int) ( $in['limit'] ?? 100 ) ), 1000 );
+			if ( preg_match( '/\bLIMIT\s+(\d+)/i', $sql ) ) {
+				$sql = preg_replace_callback(
+					'/\bLIMIT\s+(\d+)/i',
+					static function ( $m ) {
+						return 'LIMIT ' . min( (int) $m[1], 1000 );
+					},
+					$sql
+				);
+			} else {
+				$sql .= ' LIMIT ' . $limit;
+			}
+		}
+
+		// phpcs:ignore WordPress.DB.PreparedSQL.NotPrepared, WordPress.DB.DirectDatabaseQuery.DirectQuery, WordPress.DB.DirectDatabaseQuery.NoCaching
+		$results = $wpdb->get_results( $sql, ARRAY_A );
+		if ( $wpdb->last_error ) {
+			return self::error( "SQL error: {$wpdb->last_error}" );
+		}
+
+		return array(
+			'content' => self::safe_json_encode(
+				array(
+					'table_prefix'  => $wpdb->prefix,
+					'rows_returned' => count( (array) $results ),
+					'results'       => $results,
 				)
 			),
 		);
@@ -1109,7 +1654,7 @@ class AISA_Tools {
 		}
 
 		return array(
-			'content' => wp_json_encode(
+			'content' => self::safe_json_encode(
 				array(
 					'claim'   => $claim,
 					'model'   => AISA_OpenRouter_Client::get_model(),
@@ -1142,7 +1687,16 @@ class AISA_Tools {
 	 * Replace an exact text snippet inside a post's content (targeted edit).
 	 *
 	 * Much cheaper than rewriting the whole post, which keeps long edits under
-	 * gateway timeouts. Guards on permission and staleness like update_post.
+	 * gateway timeouts. Unlike update_post/publish_post/append_to_post, this
+	 * does NOT gate on an expected_modified timestamp match: WordPress can
+	 * legitimately bump post_modified with no real content edit (Heartbeat
+	 * autosave from an open editor tab, a persistent object cache serving a
+	 * slightly different get_post() read across two requests), which made
+	 * this tool reject valid, non-conflicting edits. The find-must-match-
+	 * exactly-once check below is a strictly stronger safety guarantee for
+	 * this specific operation: if the snippet is still present verbatim and
+	 * unique, the edit is provably safe regardless of what the timestamp
+	 * says.
 	 *
 	 * @param array $in Tool input.
 	 * @return array Tool result confirming the replacement, or an error.
@@ -1155,9 +1709,6 @@ class AISA_Tools {
 		$p = get_post( $id );
 		if ( ! $p ) {
 			return self::error( 'Post not found.' );
-		}
-		if ( ( $in['expected_modified'] ?? '' ) !== $p->post_modified ) {
-			return self::error( 'Post changed since you read it. Call get_post again, then retry.' );
 		}
 
 		$find = (string) ( $in['find'] ?? '' );
@@ -1172,7 +1723,8 @@ class AISA_Tools {
 			return self::error( "The \"find\" text appears {$count} times; make it longer/unique so exactly one match is replaced." );
 		}
 
-		$new_content = str_replace( $find, wp_kses_post( $in['replace'] ?? '' ), $p->post_content );
+		$replace     = wp_kses_post( $in['replace'] ?? '' );
+		$new_content = str_replace( $find, $replace, $p->post_content );
 		$result      = wp_update_post(
 			array(
 				'ID'           => $id,
@@ -1184,7 +1736,12 @@ class AISA_Tools {
 			return self::error( $result->get_error_message() );
 		}
 		AISA_Audit_Log::record( 'replace_in_post', $id, array( 'find' => $find ) );
-		return array( 'content' => "Replaced one snippet in #{$id}." );
+		$message = "Replaced one snippet in #{$id}.";
+		$warning = self::page_builder_warning( $id, $p->post_content, $find . ' ' . $replace );
+		if ( $warning ) {
+			$message .= ' WARNING: ' . $warning;
+		}
+		return array( 'content' => $message );
 	}
 
 	/**
@@ -1221,7 +1778,235 @@ class AISA_Tools {
 			return self::error( $result->get_error_message() );
 		}
 		AISA_Audit_Log::record( 'append_to_post', $id, array( 'bytes' => strlen( $html ) ) );
-		return array( 'content' => "Appended HTML to #{$id}." );
+		$message = "Appended HTML to #{$id}.";
+		$warning = self::page_builder_warning( $id, $p->post_content, $html );
+		if ( $warning ) {
+			$message .= ' WARNING: ' . $warning;
+		}
+		return array( 'content' => $message );
+	}
+
+	/**
+	 * Detect page-builder risk for a targeted content edit, so the model gets
+	 * a heads-up instead of silently corrupting Divi shortcode attributes or
+	 * editing post_content on an Elementor page where it has no visible
+	 * effect. Advisory only -- never blocks the edit, since both false
+	 * positives (Divi markers in ordinary prose) and false negatives are
+	 * possible without a full parser.
+	 *
+	 * @param int    $post_id      Post ID being edited.
+	 * @param string $post_content post_content BEFORE this edit.
+	 * @param string $touched_text The find/replace/html text involved in this edit.
+	 * @return string|null Warning message, or null if nothing to flag.
+	 */
+	private static function page_builder_warning( $post_id, $post_content, $touched_text ) {
+		if ( '' !== (string) get_post_meta( $post_id, '_elementor_data', true ) ) {
+			return 'This page has Elementor data (_elementor_data postmeta). Elementor typically renders '
+				. 'from that JSON structure, not post_content, so this edit may not appear on the live '
+				. 'page -- use db_query to inspect _elementor_data if the change needs to be visible there.';
+		}
+		if ( false !== strpos( $post_content, '[et_pb_' )
+			&& preg_match( '/_builder_version\s*=|global_colors_info\s*=|\[et_pb_[a-z_]+\s/i', $touched_text ) ) {
+			return 'This page uses Divi shortcodes and the edited text touches shortcode-attribute-like '
+				. 'syntax (_builder_version, global_colors_info, or a shortcode tag). Verify the page '
+				. 'still renders correctly -- a boundary mistake here can corrupt a Divi module.';
+		}
+		return null;
+	}
+
+	/**
+	 * Apply the same exact text replacement across multiple posts in one
+	 * call. Each post is judged independently by the same find-must-match-
+	 * exactly-once rule as replace_in_post, so one post with no match (or an
+	 * ambiguous multi-match) is skipped and reported, not a hard failure for
+	 * the whole batch.
+	 *
+	 * @param array $in Tool input.
+	 * @return array Tool result with a per-post summary as JSON, or an error.
+	 */
+	private static function bulk_replace_in_posts( array $in ) {
+		$ids = array_values( array_unique( array_filter( array_map( 'intval', (array) ( $in['ids'] ?? array() ) ) ) ) );
+		if ( empty( $ids ) ) {
+			return self::error( 'Provide at least one post ID in "ids".' );
+		}
+		if ( count( $ids ) > 50 ) {
+			return self::error( 'Too many ids (' . count( $ids ) . '); max 50 per call. Split into smaller batches.' );
+		}
+
+		$find = (string) ( $in['find'] ?? '' );
+		if ( '' === $find ) {
+			return self::error( 'The "find" text is empty.' );
+		}
+		$replace = wp_kses_post( $in['replace'] ?? '' );
+
+		$results = array();
+		$summary = array(
+			'succeeded' => 0,
+			'skipped'   => 0,
+			'failed'    => 0,
+		);
+		foreach ( $ids as $id ) {
+			$row               = self::bulk_replace_one_post( $id, $find, $replace );
+			$results[]         = $row;
+			$summary[ $row['status'] ] = ( $summary[ $row['status'] ] ?? 0 ) + 1;
+		}
+
+		return array(
+			'content' => self::safe_json_encode(
+				array(
+					'summary' => $summary,
+					'results' => $results,
+				)
+			),
+		);
+	}
+
+	/**
+	 * Apply one exact-match replacement to one post, for bulk_replace_in_posts.
+	 *
+	 * @param int    $id      Post ID.
+	 * @param string $find    Exact text to find.
+	 * @param string $replace Sanitized replacement HTML.
+	 * @return array { id, status: succeeded|skipped|failed, message }.
+	 */
+	private static function bulk_replace_one_post( $id, $find, $replace ) {
+		if ( ! current_user_can( 'edit_post', $id ) ) {
+			return array(
+				'id'      => $id,
+				'status'  => 'failed',
+				'message' => 'Permission denied for this post.',
+			);
+		}
+		$p = get_post( $id );
+		if ( ! $p ) {
+			return array(
+				'id'      => $id,
+				'status'  => 'failed',
+				'message' => 'Post not found.',
+			);
+		}
+
+		$count = substr_count( $p->post_content, $find );
+		if ( 0 === $count ) {
+			return array(
+				'id'      => $id,
+				'status'  => 'skipped',
+				'message' => 'The "find" text was not found in this post.',
+			);
+		}
+		if ( $count > 1 ) {
+			return array(
+				'id'      => $id,
+				'status'  => 'skipped',
+				'message' => "The \"find\" text appears {$count} times in this post; skipped to avoid an ambiguous replace.",
+			);
+		}
+
+		$new_content = str_replace( $find, $replace, $p->post_content );
+		$result      = wp_update_post(
+			array(
+				'ID'           => $id,
+				'post_content' => $new_content,
+			),
+			true
+		);
+		if ( is_wp_error( $result ) ) {
+			return array(
+				'id'      => $id,
+				'status'  => 'failed',
+				'message' => $result->get_error_message(),
+			);
+		}
+		AISA_Audit_Log::record( 'bulk_replace_in_posts', $id, array( 'find' => $find ) );
+		$row = array(
+			'id'      => $id,
+			'status'  => 'succeeded',
+			'message' => 'Replaced.',
+		);
+		$warning = self::page_builder_warning( $id, $p->post_content, $find . ' ' . $replace );
+		if ( $warning ) {
+			$row['warning'] = $warning;
+		}
+		return $row;
+	}
+
+	/**
+	 * Flush known caching layers (WordPress's own object cache, and whichever
+	 * of Elementor / WP Rocket / W3 Total Cache / LiteSpeed Cache / WP Super
+	 * Cache / WP Fastest Cache / SiteGround Optimizer are actually active) so
+	 * a content edit becomes visible immediately instead of waiting for
+	 * cache expiry.
+	 * Detects what's present rather than assuming any one of them is active;
+	 * never touches content, only caches.
+	 *
+	 * @param array $in Tool input (unused).
+	 * @return array Tool result listing what was flushed, or an error.
+	 */
+	private static function flush_caches( array $in ) {
+		if ( ! current_user_can( 'manage_options' ) ) {
+			return self::error( 'Permission denied. This tool requires an administrator account.' );
+		}
+
+		$flushed = array();
+
+		if ( wp_using_ext_object_cache() ) {
+			wp_cache_flush();
+			$flushed[] = 'object_cache';
+		}
+
+		if ( class_exists( '\Elementor\Plugin' ) ) {
+			try {
+				\Elementor\Plugin::instance()->files_manager->clear_cache();
+				$flushed[] = 'elementor';
+			} catch ( \Throwable $e ) {
+				// Best-effort: Elementor's internal file-manager API can change
+				// between versions; a failure here shouldn't block the other
+				// cache layers from being flushed.
+			}
+		}
+
+		if ( function_exists( 'rocket_clean_domain' ) ) {
+			rocket_clean_domain();
+			$flushed[] = 'wp_rocket';
+		}
+
+		if ( function_exists( 'w3tc_flush_all' ) ) {
+			w3tc_flush_all();
+			$flushed[] = 'w3_total_cache';
+		}
+
+		if ( defined( 'LSCWP_V4' ) ) {
+			do_action( 'litespeed_purge_all' );
+			$flushed[] = 'litespeed_cache';
+		}
+
+		if ( function_exists( 'wp_cache_clear_cache' ) ) {
+			wp_cache_clear_cache();
+			$flushed[] = 'wp_super_cache';
+		}
+
+		if ( class_exists( '\SiteGround_Optimizer\Supercacher\Supercacher' ) ) {
+			\SiteGround_Optimizer\Supercacher\Supercacher::purge_cache();
+			$flushed[] = 'siteground_optimizer';
+		}
+
+		if ( function_exists( 'wpfc_clear_all_cache' ) ) {
+			wpfc_clear_all_cache();
+			$flushed[] = 'wp_fastest_cache';
+		}
+
+		AISA_Audit_Log::record( 'flush_caches', null, array( 'flushed' => $flushed ) );
+
+		return array(
+			'content' => self::safe_json_encode(
+				array(
+					'flushed' => $flushed,
+					'note'    => empty( $flushed )
+						? 'No known caching plugin was detected active; nothing to flush beyond the object cache check above.'
+						: 'Flushed the caching layers listed above.',
+				)
+			),
+		);
 	}
 
 	/**
@@ -1235,7 +2020,7 @@ class AISA_Tools {
 		if ( ! current_user_can( 'edit_post', $id ) ) {
 			return self::error( 'Permission denied for this post.' );
 		}
-		return array( 'content' => wp_json_encode( AISA_SEO::read_fields( $id ) ) );
+		return array( 'content' => self::safe_json_encode( AISA_SEO::read_fields( $id ) ) );
 	}
 
 	/**
@@ -1258,7 +2043,7 @@ class AISA_Tools {
 		if ( empty( $fields ) ) {
 			return self::error( 'No SEO fields provided. Pass at least one of meta_title, meta_description, etc.' );
 		}
-		return array( 'content' => wp_json_encode( AISA_SEO::write_fields( $id, $fields ) ) );
+		return array( 'content' => self::safe_json_encode( AISA_SEO::write_fields( $id, $fields ) ) );
 	}
 
 	/**
@@ -1272,7 +2057,7 @@ class AISA_Tools {
 		if ( ! current_user_can( 'edit_post', $id ) ) {
 			return self::error( 'Permission denied for this post.' );
 		}
-		return array( 'content' => wp_json_encode( AISA_Meta::read_meta( $id, 'rank_math_schema' ) ) );
+		return array( 'content' => self::safe_json_encode( AISA_Meta::read_meta( $id, 'rank_math_schema' ) ) );
 	}
 
 	/**
@@ -1298,7 +2083,7 @@ class AISA_Tools {
 		if ( is_wp_error( $result ) ) {
 			return self::error( $result->get_error_message() );
 		}
-		return array( 'content' => wp_json_encode( $result ) );
+		return array( 'content' => self::safe_json_encode( $result ) );
 	}
 
 	/**
@@ -1333,7 +2118,7 @@ class AISA_Tools {
 				'download_location' => $photo['links']['download_location'] ?? '',
 			);
 		}
-		return array( 'content' => wp_json_encode( $rows ) );
+		return array( 'content' => self::safe_json_encode( $rows ) );
 	}
 
 	/**
@@ -1383,7 +2168,7 @@ class AISA_Tools {
 		AISA_Audit_Log::record( 'generate_image', null, array( 'contrast_note' => (string) ( $in['contrast_note'] ?? '' ) ) );
 
 		return array(
-			'content' => wp_json_encode(
+			'content' => self::safe_json_encode(
 				array(
 					'image_id'   => $image_id,
 					'mime_type'  => $result['mime_type'],
@@ -1445,7 +2230,7 @@ class AISA_Tools {
 
 		AISA_Audit_Log::record( 'upload_media', $post_id ? $post_id : null, array( 'attachment_id' => $attachment_id ) );
 		return array(
-			'content' => wp_json_encode(
+			'content' => self::safe_json_encode(
 				array(
 					'attachment_id' => $attachment_id,
 					'url'           => wp_get_attachment_url( $attachment_id ),
@@ -1544,11 +2329,17 @@ class AISA_Tools {
 		$max_bytes = 20000;
 		$truncated = strlen( $html ) > $max_bytes;
 		if ( $truncated ) {
-			$html = substr( $html, 0, $max_bytes ) . "\n<!-- AISA: truncated at {$max_bytes} bytes -->";
+			// mb_strcut(), not substr(): a byte offset can land in the middle of
+			// a multi-byte UTF-8 character (emoji, smart quotes, non-Latin
+			// text), which produces invalid UTF-8 and makes safe_json_encode()
+			// fall back to stripping content instead of just truncating it.
+			// mb_strcut() cuts at the nearest character boundary at or before
+			// the byte limit instead.
+			$html = mb_strcut( $html, 0, $max_bytes ) . "\n<!-- AISA: truncated at {$max_bytes} bytes -->";
 		}
 
 		return array(
-			'content' => wp_json_encode(
+			'content' => self::safe_json_encode(
 				array(
 					'url'       => $permalink,
 					'status'    => wp_remote_retrieve_response_code( $response ),
@@ -1593,7 +2384,7 @@ class AISA_Tools {
 			return self::error( $response->get_error_message() );
 		}
 		return array(
-			'content' => wp_json_encode(
+			'content' => self::safe_json_encode(
 				array(
 					'target' => $target,
 					'order'  => 'best' === ( $in['order'] ?? 'worst' ) ? 'best' : 'worst',
@@ -1636,7 +2427,7 @@ class AISA_Tools {
 			return self::error( $response->get_error_message() );
 		}
 		return array(
-			'content' => wp_json_encode(
+			'content' => self::safe_json_encode(
 				array(
 					'target'      => $target,
 					'country'     => '' !== $country ? $country : 'us',
@@ -1675,10 +2466,756 @@ class AISA_Tools {
 			return self::error( $response->get_error_message() );
 		}
 		return array(
-			'content' => wp_json_encode(
+			'content' => self::safe_json_encode(
 				array(
 					'target'  => $target,
 					'metrics' => $response['metrics'] ?? array(),
+				)
+			),
+		);
+	}
+
+	/**
+	 * One-shot competitor comparison for a single page: bundles the page's
+	 * own content, this domain's Ahrefs metrics, the top (or a specified)
+	 * organic competitor's metrics and best-performing pages, into a single
+	 * dispatch instead of four+ separate round trips. Internally reuses
+	 * get_post() / ahrefs_domain_metrics() / ahrefs_organic_competitors() /
+	 * ahrefs_top_pages() so permission checks and Ahrefs call shape stay in
+	 * one place.
+	 *
+	 * @param array $in Tool input.
+	 * @return array Tool result with the combined report as JSON, or an error.
+	 */
+	private static function seo_competitor_report( array $in ) {
+		if ( ! current_user_can( 'edit_posts' ) ) {
+			return self::error( 'Permission denied.' );
+		}
+		if ( ! AISA_Ahrefs_Client::is_configured() ) {
+			return self::error( 'Ahrefs API key is not configured. Add one in AISA Connector → Settings.' );
+		}
+
+		$raw     = trim( (string) ( $in['page'] ?? '' ) );
+		$post_id = self::resolve_page_post_id( $raw );
+		if ( ! $post_id ) {
+			return self::error( '' === $raw
+				? 'Provide a page: a post/page ID, full URL, or path like "/my-page/".'
+				: sprintf( 'Could not find a page matching "%s".', $raw ) );
+		}
+
+		$post_result = self::get_post( array( 'id' => $post_id ) );
+		if ( ! empty( $post_result['is_error'] ) ) {
+			return $post_result;
+		}
+		$page = json_decode( $post_result['content'], true );
+
+		$country     = sanitize_text_field( (string) ( $in['country'] ?? 'us' ) );
+		$site_target = AISA_Ahrefs_Client::site_target();
+
+		$site_metrics_result = self::ahrefs_domain_metrics(
+			array(
+				'target'  => $site_target,
+				'country' => $country,
+			)
+		);
+		$site_metrics = empty( $site_metrics_result['is_error'] )
+			? json_decode( $site_metrics_result['content'], true )
+			: null;
+
+		$competitor_target = trim( (string) ( $in['competitor'] ?? '' ) );
+		$competitor_source = 'specified';
+		$other_competitors  = null;
+
+		if ( '' === $competitor_target ) {
+			$competitors_result = self::ahrefs_organic_competitors(
+				array(
+					'target'  => $site_target,
+					'country' => $country,
+					'limit'   => 5,
+				)
+			);
+			if ( ! empty( $competitors_result['is_error'] ) ) {
+				return $competitors_result;
+			}
+			$competitors_decoded = json_decode( $competitors_result['content'], true );
+			$other_competitors   = $competitors_decoded['competitors'] ?? array();
+			$top                 = $other_competitors[0] ?? null;
+			if ( empty( $top['competitor_domain'] ) ) {
+				return self::error( 'Ahrefs returned no organic competitors for this site.' );
+			}
+			$competitor_target = $top['competitor_domain'];
+			$competitor_source = 'auto (top organic competitor by shared keywords)';
+		}
+
+		$competitor_metrics_result = self::ahrefs_domain_metrics(
+			array(
+				'target'  => $competitor_target,
+				'country' => $country,
+			)
+		);
+		$competitor_metrics = empty( $competitor_metrics_result['is_error'] )
+			? json_decode( $competitor_metrics_result['content'], true )
+			: array( 'error' => $competitor_metrics_result['content'] ?? 'unavailable' );
+
+		$competitor_top_pages_result = self::ahrefs_top_pages(
+			array(
+				'target'  => $competitor_target,
+				'order'   => 'best',
+				'limit'   => 5,
+				'country' => $country,
+			)
+		);
+		$competitor_top_pages = array();
+		if ( empty( $competitor_top_pages_result['is_error'] ) ) {
+			$decoded              = json_decode( $competitor_top_pages_result['content'], true );
+			$competitor_top_pages = $decoded['pages'] ?? array();
+		}
+
+		return array(
+			'content' => self::safe_json_encode(
+				array(
+					'page'              => $page,
+					'site'              => array(
+						'target'  => $site_target,
+						'metrics' => $site_metrics,
+					),
+					'competitor'        => array(
+						'target'    => $competitor_target,
+						'source'    => $competitor_source,
+						'metrics'   => $competitor_metrics,
+						'top_pages' => $competitor_top_pages,
+					),
+					'other_competitors' => $other_competitors,
+				)
+			),
+		);
+	}
+
+	/**
+	 * List every Search Console property (site) the connected Google
+	 * account can access, so tools can be pointed at any domain the admin
+	 * owns -- not just this WordPress site.
+	 *
+	 * @param array $in Tool input (unused).
+	 * @return array Tool result with a JSON list of properties, or an error.
+	 */
+	private static function gsc_list_properties( array $in ) {
+		if ( ! current_user_can( 'edit_posts' ) ) {
+			return self::error( 'Permission denied.' );
+		}
+		if ( ! AISA_Gsc_Client::is_configured() ) {
+			return self::error( 'Google Search Console is not connected. Connect it in AISA Connector → Settings.' );
+		}
+
+		$properties = AISA_Gsc_Client::list_properties();
+		if ( is_wp_error( $properties ) ) {
+			return self::error( $properties->get_error_message() );
+		}
+
+		return array(
+			'content' => self::safe_json_encode(
+				array(
+					'this_site'  => AISA_Gsc_Client::get_connection()['property'],
+					'properties' => array_map(
+						static function ( $property ) {
+							return array(
+								'site'             => $property['siteUrl'] ?? '',
+								'permission_level' => $property['permissionLevel'] ?? '',
+							);
+						},
+						$properties
+					),
+				)
+			),
+		);
+	}
+
+	/**
+	 * Rank a site's pages by real Google Search Console performance.
+	 * Fetches with dimensions=['page'] and a generous row limit, then sorts
+	 * client-side -- the Search Analytics API has no orderBy parameter, so
+	 * the only reliable way to get worst/best-first is to sort ourselves.
+	 *
+	 * @param array $in Tool input.
+	 * @return array Tool result with a JSON list of pages, or an error.
+	 */
+	private static function gsc_top_pages( array $in ) {
+		if ( ! current_user_can( 'edit_posts' ) ) {
+			return self::error( 'Permission denied.' );
+		}
+		if ( ! AISA_Gsc_Client::is_configured() ) {
+			return self::error( 'Google Search Console is not connected. Connect it in AISA Connector → Settings.' );
+		}
+
+		$property = AISA_Gsc_Client::resolve_property( (string) ( $in['site'] ?? '' ) );
+		if ( is_wp_error( $property ) ) {
+			return self::error( $property->get_error_message() );
+		}
+
+		$order  = ( 'best' === ( $in['order'] ?? 'worst' ) ) ? 'best' : 'worst';
+		$metric = in_array( $in['metric'] ?? '', array( 'clicks', 'impressions', 'ctr', 'position' ), true )
+			? $in['metric']
+			: 'clicks';
+		$limit  = min( max( 1, (int) ( $in['limit'] ?? 10 ) ), 100 );
+		$days   = min( max( 7, (int) ( $in['days'] ?? 90 ) ), 450 );
+
+		$end   = gmdate( 'Y-m-d', strtotime( '-3 days' ) );
+		$start = gmdate( 'Y-m-d', strtotime( "-{$days} days", strtotime( $end ) ) );
+
+		$rows = AISA_Gsc_Client::query(
+			array(
+				'dimensions' => array( 'page' ),
+				'startDate'  => $start,
+				'endDate'    => $end,
+				'rowLimit'   => 1000,
+			),
+			$property
+		);
+		if ( is_wp_error( $rows ) ) {
+			return self::error( $rows->get_error_message() );
+		}
+
+		$pages = array_map(
+			static function ( $row ) {
+				return array(
+					'page'        => $row['keys'][0] ?? '',
+					'clicks'      => $row['clicks'] ?? 0,
+					'impressions' => $row['impressions'] ?? 0,
+					'ctr'         => $row['ctr'] ?? 0,
+					'position'    => $row['position'] ?? 0,
+				);
+			},
+			$rows
+		);
+
+		// position is "lower is better", the inverse of the other three metrics.
+		usort(
+			$pages,
+			static function ( $a, $b ) use ( $metric, $order ) {
+				$dir = ( 'position' === $metric )
+					? ( 'best' === $order ? 1 : -1 )
+					: ( 'best' === $order ? -1 : 1 );
+				return $dir * ( $a[ $metric ] <=> $b[ $metric ] );
+			}
+		);
+
+		return array(
+			'content' => self::safe_json_encode(
+				array(
+					'order'       => $order,
+					'metric'      => $metric,
+					'date_range'  => array( $start, $end ),
+					'pages'       => array_slice( $pages, 0, $limit ),
+				)
+			),
+		);
+	}
+
+	/**
+	 * Resolve the "page" argument for the GSC page-level tools to a full
+	 * permalink, and the property to query it against. When "site" is set
+	 * (a domain other than this WordPress install), "page" must already be
+	 * a full URL -- there's no local post to resolve it against.
+	 *
+	 * @param array $in Tool input.
+	 * @return array|WP_Error { permalink, property }, or WP_Error.
+	 */
+	private static function resolve_gsc_page_target( array $in ) {
+		$raw  = trim( (string) ( $in['page'] ?? '' ) );
+		$site = trim( (string) ( $in['site'] ?? '' ) );
+
+		$property = AISA_Gsc_Client::resolve_property( $site );
+		if ( is_wp_error( $property ) ) {
+			return $property;
+		}
+
+		if ( '' !== $site ) {
+			if ( 0 !== strpos( $raw, 'http' ) ) {
+				return new WP_Error( 'aisa_gsc_page_needs_url', 'When "site" is set, "page" must be a full URL for that site.' );
+			}
+			return array(
+				'permalink' => $raw,
+				'property'  => $property,
+			);
+		}
+
+		$post_id = self::resolve_page_post_id( $raw );
+		if ( ! $post_id ) {
+			return new WP_Error(
+				'aisa_gsc_page_not_found',
+				'' === $raw
+					? 'Provide a page: a post/page ID, full URL, or path like "/my-page/".'
+					: sprintf( 'Could not find a page matching "%s".', $raw )
+			);
+		}
+		return array(
+			'permalink' => get_permalink( $post_id ),
+			'property'  => $property,
+		);
+	}
+
+	/**
+	 * GSC's "equals" page filter is a byte-for-byte string match, and root
+	 * pages are the ones most likely to be typed/guessed in a form GSC
+	 * doesn't actually store (missing trailing slash, wrong scheme). A
+	 * plain no-match returns an empty (not erroring) result, which invites
+	 * the model to paper over it with a plausible-sounding guess instead of
+	 * reporting "no data." Try the most likely variants before giving up.
+	 *
+	 * @param string $permalink As resolved by resolve_gsc_page_target().
+	 * @return string[] Candidate exact-match strings, most likely first.
+	 */
+	private static function gsc_page_url_variants( $permalink ) {
+		$variants = array( $permalink );
+		if ( '/' === substr( $permalink, -1 ) ) {
+			$variants[] = rtrim( $permalink, '/' );
+		} else {
+			$variants[] = $permalink . '/';
+		}
+		return $variants;
+	}
+
+	/**
+	 * List every query a specific page ranks for in Google Search Console.
+	 *
+	 * @param array $in Tool input.
+	 * @return array Tool result with a JSON list of queries, or an error.
+	 */
+	private static function gsc_page_queries( array $in ) {
+		if ( ! current_user_can( 'edit_posts' ) ) {
+			return self::error( 'Permission denied.' );
+		}
+		if ( ! AISA_Gsc_Client::is_configured() ) {
+			return self::error( 'Google Search Console is not connected. Connect it in AISA Connector → Settings.' );
+		}
+
+		$target = self::resolve_gsc_page_target( $in );
+		if ( is_wp_error( $target ) ) {
+			return self::error( $target->get_error_message() );
+		}
+		$permalink = $target['permalink'];
+		$property  = $target['property'];
+
+		$days  = min( max( 7, (int) ( $in['days'] ?? 90 ) ), 450 );
+		$end   = gmdate( 'Y-m-d', strtotime( '-3 days' ) );
+		$start = gmdate( 'Y-m-d', strtotime( "-{$days} days", strtotime( $end ) ) );
+
+		$rows    = array();
+		$matched = $permalink;
+		foreach ( self::gsc_page_url_variants( $permalink ) as $variant ) {
+			$rows = AISA_Gsc_Client::query(
+				array(
+					'dimensions'           => array( 'query' ),
+					'dimensionFilterGroups' => array(
+						array(
+							'filters' => array(
+								array(
+									'dimension'  => 'page',
+									'operator'   => 'equals',
+									'expression' => $variant,
+								),
+							),
+						),
+					),
+					'startDate'            => $start,
+					'endDate'              => $end,
+					'rowLimit'             => 1000,
+				),
+				$property
+			);
+			if ( is_wp_error( $rows ) ) {
+				return self::error( $rows->get_error_message() );
+			}
+			if ( ! empty( $rows ) ) {
+				$matched = $variant;
+				break;
+			}
+		}
+
+		$queries = array_map(
+			static function ( $row ) {
+				return array(
+					'query'       => $row['keys'][0] ?? '',
+					'clicks'      => $row['clicks'] ?? 0,
+					'impressions' => $row['impressions'] ?? 0,
+					'ctr'         => $row['ctr'] ?? 0,
+					'position'    => $row['position'] ?? 0,
+				);
+			},
+			$rows
+		);
+		usort( $queries, static fn( $a, $b ) => $b['clicks'] <=> $a['clicks'] );
+
+		return array(
+			'content' => self::safe_json_encode(
+				array(
+					'page'              => $matched,
+					'no_matching_rows'  => empty( $queries ),
+					'date_range'        => array( $start, $end ),
+					'queries'           => $queries,
+				)
+			),
+		);
+	}
+
+	/**
+	 * One-shot GSC diagnostic for a single page: bundles the page's own
+	 * content, its aggregate performance, and every query it ranks for --
+	 * instead of chaining get_post + gsc_page_queries + a page-level metrics
+	 * lookup as three separate round trips.
+	 *
+	 * @param array $in Tool input.
+	 * @return array Tool result with the combined report as JSON, or an error.
+	 */
+	private static function gsc_page_report( array $in ) {
+		if ( ! current_user_can( 'edit_posts' ) ) {
+			return self::error( 'Permission denied.' );
+		}
+		if ( ! AISA_Gsc_Client::is_configured() ) {
+			return self::error( 'Google Search Console is not connected. Connect it in AISA Connector → Settings.' );
+		}
+
+		$target = self::resolve_gsc_page_target( $in );
+		if ( is_wp_error( $target ) ) {
+			return self::error( $target->get_error_message() );
+		}
+		$permalink = $target['permalink'];
+		$property  = $target['property'];
+
+		$page_meta = null;
+		if ( '' === trim( (string) ( $in['site'] ?? '' ) ) ) {
+			$post_id = url_to_postid( $permalink );
+			if ( $post_id ) {
+				$post_result = self::get_post( array( 'id' => $post_id ) );
+				if ( ! empty( $post_result['is_error'] ) ) {
+					return $post_result;
+				}
+				$page_meta = json_decode( $post_result['content'], true );
+			}
+		}
+
+		$queries_result = self::gsc_page_queries( $in );
+		if ( ! empty( $queries_result['is_error'] ) ) {
+			return $queries_result;
+		}
+		$queries_decoded = json_decode( $queries_result['content'], true );
+		// gsc_page_queries() may have matched a trailing-slash variant of
+		// $permalink instead of the exact string passed in -- reuse that
+		// resolved value so the aggregate query below looks for the same
+		// page GSC actually has data under, not the one we merely guessed.
+		$matched_permalink = $queries_decoded['page'] ?? $permalink;
+
+		$days  = min( max( 7, (int) ( $in['days'] ?? 90 ) ), 450 );
+		$end   = gmdate( 'Y-m-d', strtotime( '-3 days' ) );
+		$start = gmdate( 'Y-m-d', strtotime( "-{$days} days", strtotime( $end ) ) );
+
+		// Aggregate: same page filter, but with NO dimensions -- GSC then
+		// rolls every matching row up into a single totals row instead of
+		// splitting by query.
+		$agg_rows = AISA_Gsc_Client::query(
+			array(
+				'dimensionFilterGroups' => array(
+					array(
+						'filters' => array(
+							array(
+								'dimension'  => 'page',
+								'operator'   => 'equals',
+								'expression' => $matched_permalink,
+							),
+						),
+					),
+				),
+				'startDate'            => $start,
+				'endDate'              => $end,
+				'rowLimit'             => 1,
+			),
+			$property
+		);
+		$aggregate = array(
+			'clicks'      => 0,
+			'impressions' => 0,
+			'ctr'         => 0,
+			'position'    => 0,
+		);
+		if ( ! is_wp_error( $agg_rows ) && ! empty( $agg_rows[0] ) ) {
+			$aggregate = array(
+				'clicks'      => $agg_rows[0]['clicks'] ?? 0,
+				'impressions' => $agg_rows[0]['impressions'] ?? 0,
+				'ctr'         => $agg_rows[0]['ctr'] ?? 0,
+				'position'    => $agg_rows[0]['position'] ?? 0,
+			);
+		}
+
+		return array(
+			'content' => self::safe_json_encode(
+				array(
+					'page'                 => $matched_permalink,
+					'page_meta'            => $page_meta,
+					'no_matching_rows'     => $queries_decoded['no_matching_rows'] ?? false,
+					'date_range'           => array( $start, $end ),
+					'aggregate_performance' => $aggregate,
+					'queries'              => $queries_decoded['queries'] ?? array(),
+				)
+			),
+		);
+	}
+
+	/**
+	 * List every Google Analytics (GA4) property the connected Google account
+	 * can access, so tools can be pointed at any property the admin owns --
+	 * not just this WordPress site's own.
+	 *
+	 * @param array $in Tool input (unused).
+	 * @return array Tool result with a JSON list of properties, or an error.
+	 */
+	private static function ga_list_properties( array $in ) {
+		if ( ! current_user_can( 'edit_posts' ) ) {
+			return self::error( 'Permission denied.' );
+		}
+		if ( ! AISA_Ga_Client::is_configured() ) {
+			return self::error( 'Google Analytics is not connected. Connect it in AISA Connector → Settings.' );
+		}
+
+		$properties = AISA_Ga_Client::list_properties();
+		if ( is_wp_error( $properties ) ) {
+			return self::error( $properties->get_error_message() );
+		}
+
+		$conn = AISA_Ga_Client::get_connection();
+		return array(
+			'content' => self::safe_json_encode(
+				array(
+					'this_site'  => array(
+						'property' => $conn['property'],
+						'name'     => $conn['property_name'],
+					),
+					'properties' => $properties,
+				)
+			),
+		);
+	}
+
+	/**
+	 * Extract a GA4 runReport response into a flat array of associative rows,
+	 * keyed by dimension/metric name instead of positional dimensionValues/
+	 * metricValues arrays.
+	 *
+	 * @param array $report Decoded runReport response.
+	 * @return array List of associative rows.
+	 */
+	private static function flatten_ga_report( array $report ) {
+		$dim_names = array_map(
+			static function ( $h ) {
+				return $h['name'] ?? '';
+			},
+			$report['dimensionHeaders'] ?? array()
+		);
+		$metric_names = array_map(
+			static function ( $h ) {
+				return $h['name'] ?? '';
+			},
+			$report['metricHeaders'] ?? array()
+		);
+
+		$rows = array();
+		foreach ( (array) ( $report['rows'] ?? array() ) as $row ) {
+			$flat = array();
+			foreach ( (array) ( $row['dimensionValues'] ?? array() ) as $i => $value ) {
+				$flat[ $dim_names[ $i ] ?? "dimension_{$i}" ] = $value['value'] ?? '';
+			}
+			foreach ( (array) ( $row['metricValues'] ?? array() ) as $i => $value ) {
+				$raw = $value['value'] ?? '0';
+				$flat[ $metric_names[ $i ] ?? "metric_{$i}" ] = is_numeric( $raw ) ? $raw + 0 : $raw;
+			}
+			$rows[] = $flat;
+		}
+		return $rows;
+	}
+
+	/**
+	 * Real GA4 traffic summary: totals plus a channel-group breakdown.
+	 *
+	 * @param array $in Tool input.
+	 * @return array Tool result with the summary as JSON, or an error.
+	 */
+	private static function ga_traffic_overview( array $in ) {
+		if ( ! current_user_can( 'edit_posts' ) ) {
+			return self::error( 'Permission denied.' );
+		}
+		if ( ! AISA_Ga_Client::is_configured() ) {
+			return self::error( 'Google Analytics is not connected. Connect it in AISA Connector → Settings.' );
+		}
+
+		$property = AISA_Ga_Client::resolve_property( (string) ( $in['site'] ?? '' ) );
+		if ( is_wp_error( $property ) ) {
+			return self::error( $property->get_error_message() );
+		}
+
+		$days  = min( max( 1, (int) ( $in['days'] ?? 28 ) ), 365 );
+		$end   = gmdate( 'Y-m-d', strtotime( '-1 day' ) );
+		$start = gmdate( 'Y-m-d', strtotime( "-{$days} days", strtotime( $end ) ) );
+
+		$report = AISA_Ga_Client::query(
+			array(
+				'dateRanges'         => array(
+					array(
+						'startDate' => $start,
+						'endDate'   => $end,
+					),
+				),
+				'dimensions'         => array( array( 'name' => 'sessionDefaultChannelGroup' ) ),
+				'metrics'            => array(
+					array( 'name' => 'sessions' ),
+					array( 'name' => 'activeUsers' ),
+					array( 'name' => 'engagementRate' ),
+					array( 'name' => 'conversions' ),
+				),
+				'metricAggregations' => array( 'TOTAL' ),
+				'limit'              => 50,
+			),
+			$property
+		);
+		if ( is_wp_error( $report ) ) {
+			return self::error( $report->get_error_message() );
+		}
+
+		$by_channel = self::flatten_ga_report( $report );
+		usort( $by_channel, static fn( $a, $b ) => ( $b['sessions'] ?? 0 ) <=> ( $a['sessions'] ?? 0 ) );
+
+		$totals = array();
+		if ( ! empty( $report['totals'][0] ) ) {
+			$totals = self::flatten_ga_report(
+				array(
+					'metricHeaders' => $report['metricHeaders'] ?? array(),
+					'rows'          => array( $report['totals'][0] ),
+				)
+			)[0] ?? array();
+		}
+
+		return array(
+			'content' => self::safe_json_encode(
+				array(
+					'date_range'      => array( $start, $end ),
+					'totals'          => $totals,
+					'by_channel'      => $by_channel,
+				)
+			),
+		);
+	}
+
+	/**
+	 * Rank a site's pages by real GA4 traffic. Unlike gsc_top_pages, GA4's
+	 * Data API supports server-side ordering and limiting directly, so no
+	 * client-side sort is needed here.
+	 *
+	 * @param array $in Tool input.
+	 * @return array Tool result with a JSON list of pages, or an error.
+	 */
+	private static function ga_top_pages( array $in ) {
+		if ( ! current_user_can( 'edit_posts' ) ) {
+			return self::error( 'Permission denied.' );
+		}
+		if ( ! AISA_Ga_Client::is_configured() ) {
+			return self::error( 'Google Analytics is not connected. Connect it in AISA Connector → Settings.' );
+		}
+
+		$property = AISA_Ga_Client::resolve_property( (string) ( $in['site'] ?? '' ) );
+		if ( is_wp_error( $property ) ) {
+			return self::error( $property->get_error_message() );
+		}
+
+		$order = ( 'best' === ( $in['order'] ?? 'worst' ) ) ? 'best' : 'worst';
+		$limit = min( max( 1, (int) ( $in['limit'] ?? 10 ) ), 100 );
+		$days  = min( max( 1, (int) ( $in['days'] ?? 28 ) ), 365 );
+		$end   = gmdate( 'Y-m-d', strtotime( '-1 day' ) );
+		$start = gmdate( 'Y-m-d', strtotime( "-{$days} days", strtotime( $end ) ) );
+
+		$report = AISA_Ga_Client::query(
+			array(
+				'dateRanges' => array(
+					array(
+						'startDate' => $start,
+						'endDate'   => $end,
+					),
+				),
+				'dimensions' => array( array( 'name' => 'pagePath' ) ),
+				'metrics'    => array(
+					array( 'name' => 'screenPageViews' ),
+					array( 'name' => 'sessions' ),
+					array( 'name' => 'activeUsers' ),
+					array( 'name' => 'engagementRate' ),
+				),
+				'orderBys'   => array(
+					array(
+						'metric'    => array( 'metricName' => 'sessions' ),
+						'desc'      => ( 'best' === $order ),
+					),
+				),
+				'limit'      => $limit,
+			),
+			$property
+		);
+		if ( is_wp_error( $report ) ) {
+			return self::error( $report->get_error_message() );
+		}
+
+		return array(
+			'content' => self::safe_json_encode(
+				array(
+					'order'      => $order,
+					'date_range' => array( $start, $end ),
+					'pages'      => self::flatten_ga_report( $report ),
+				)
+			),
+		);
+	}
+
+	/**
+	 * Run a full Lighthouse audit (performance/accessibility/best-practices/
+	 * SEO) against a live URL via Google's PageSpeed Insights API.
+	 *
+	 * @param array $in Tool input.
+	 * @return array Tool result with scores + top failing checks as JSON, or an error.
+	 */
+	private static function run_site_checkup( array $in ) {
+		if ( ! current_user_can( 'edit_posts' ) ) {
+			return self::error( 'Permission denied.' );
+		}
+
+		$url = trim( (string) ( $in['url'] ?? '' ) );
+		if ( '' === $url && ! empty( $in['id'] ) ) {
+			$post_id = (int) $in['id'];
+			if ( ! current_user_can( 'edit_post', $post_id ) ) {
+				return self::error( 'Permission denied for this post.' );
+			}
+			$permalink = get_permalink( $post_id );
+			if ( ! $permalink ) {
+				return self::error( 'Post not found.' );
+			}
+			$url = $permalink;
+		}
+		if ( '' === $url ) {
+			return self::error( 'Provide either "id" (a post/page on this site) or a full "url" to audit.' );
+		}
+
+		$strategy   = ( 'desktop' === ( $in['strategy'] ?? 'mobile' ) ) ? 'desktop' : 'mobile';
+		$categories = array_values( array_intersect( (array) ( $in['categories'] ?? array() ), AISA_Pagespeed_Client::CATEGORIES ) );
+		if ( empty( $categories ) ) {
+			$categories = AISA_Pagespeed_Client::CATEGORIES;
+		}
+
+		$result = AISA_Pagespeed_Client::run( $url, $strategy, $categories );
+		if ( is_wp_error( $result ) ) {
+			return self::error( $result->get_error_message() );
+		}
+
+		return array(
+			'content' => self::safe_json_encode(
+				array(
+					'url'      => $url,
+					'strategy' => $strategy,
+					'scores'   => $result['scores'],
+					'issues'   => $result['issues'],
 				)
 			),
 		);

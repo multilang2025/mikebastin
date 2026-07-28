@@ -115,10 +115,24 @@
 	margin: 0;
 }
 
-.aisa-title-row .aisa-open-connector,
 .aisa-title-row .button-secondary {
 	flex-shrink: 0;
 	align-self: center;
+}
+
+/* Third-party admin notices (other plugins' update nags, mail-delivery
+   warnings, etc.) clutter the onboarding screen and aren't something this
+   plugin can fix from its own code -- hide them only on AISA's own admin
+   pages. This plugin itself never uses admin_notices, so nothing of ours
+   is hidden by this rule. .aisa-plugin-page is added via the admin_body_class
+   filter in class-aisa-settings.php -- not WordPress's own screen-id class,
+   which is derived from sanitize_title() of the menu title and can be
+   changed by a translation plugin or anything else filtering menu titles. */
+body.aisa-plugin-page .notice,
+body.aisa-plugin-page .updated,
+body.aisa-plugin-page .error,
+body.aisa-plugin-page .update-nag {
+	display: none !important;
 }
 
 .aisa-features {
@@ -148,61 +162,6 @@
 	font-weight: 700;
 }
 
-.aisa-wizard-intro {
-	text-align: left;
-	color: #3c434a;
-	font-size: 13px;
-	margin: 0.6rem 0 0;
-}
-
-.aisa-wizard {
-	max-width: 760px;
-	margin: 1.2rem auto 0;
-	padding: 0;
-	list-style: none;
-	text-align: left;
-}
-
-.aisa-wizard-step {
-	display: flex;
-	gap: 0.9rem;
-	margin-bottom: 1rem;
-}
-
-.aisa-wizard-num {
-	flex-shrink: 0;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	width: 28px;
-	height: 28px;
-	border-radius: 50%;
-	background: #2271b1;
-	color: #fff;
-	font-weight: 600;
-	font-size: 13px;
-}
-
-.aisa-wizard-card {
-	flex: 1;
-	background: #fff;
-	border: 1px solid #c3c4c7;
-	border-radius: 4px;
-	padding: 1rem 1.2rem;
-}
-
-.aisa-wizard-card h2 {
-	margin: 0 0 0.4rem;
-	font-size: 15px;
-}
-
-.aisa-wizard-card p {
-	margin: 0 0 0.6rem;
-	color: #3c434a;
-	font-size: 13px;
-	line-height: 1.5;
-}
-
 .aisa-copy-row {
 	display: flex;
 	align-items: flex-start;
@@ -212,15 +171,428 @@
 .aisa-copy-field {
 	display: block;
 	flex: 1;
-	white-space: pre-wrap;
-	background: #f6f7f7;
+	min-width: 0;
+	background: #fff;
 	border: 1px solid #dcdcde;
-	border-radius: 3px;
+	border-radius: 6px;
 	padding: 0.5rem 0.7rem;
 	font-size: 12px;
 	line-height: 1.6;
+	font-family: Consolas, Monaco, monospace;
+	color: #1d2327;
+}
+
+.aisa-copy-field:read-only {
+	background: #fff;
+	cursor: text;
+}
+
+.aisa-copy-field::placeholder {
+	color: #a7aaad;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
 .aisa-copy-btn {
 	flex-shrink: 0;
+}
+
+.aisa-skills-panel {
+    margin: 24px 0 32px;
+    padding: 20px;
+    border: 1px solid #d9d9d9;
+    border-radius: 14px;
+    background: #fff;
+}
+
+.aisa-skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 12px;
+    margin-top: 16px;
+}
+
+.aisa-skill-card {
+    padding: 14px 16px;
+    border: 1px solid #e3e3e3;
+    border-radius: 12px;
+    background: #fafafa;
+}
+
+.aisa-skill-card h3 {
+    margin: 0 0 8px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+.aisa-skill-card p {
+    margin: 0;
+}
+
+.aisa-disabled-notice {
+	max-width: 480px;
+	margin: 1.5rem auto 0;
+	text-align: center;
+	background: #f6f7f7;
+	border: 1px solid #dcdcde;
+	border-radius: 10px;
+	padding: 1.4rem 1.6rem;
+}
+
+.aisa-disabled-notice p {
+	color: #3c434a;
+	font-size: 13px;
+	margin: 0 0 0.8rem;
+}
+
+.aisa-onboarding {
+	max-width: 640px;
+	margin: 0 auto;
+}
+
+/* Header: logo + plugin meta on the left, connection-state pill on the
+   right. A flex row achieves the "pill anchored top-right of the brand
+   row" layout semantically, without resorting to position: absolute. */
+.aisa-onboard-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 1rem;
+	max-width: 640px;
+	margin: 1.6rem auto 0;
+}
+
+.aisa-brand {
+	display: flex;
+	align-items: center;
+	gap: 0.6rem;
+}
+
+.aisa-brand-logo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 34px;
+	height: 34px;
+	border-radius: 9px;
+	background: #1d2327;
+	color: #fff;
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: 0.02em;
+	flex-shrink: 0;
+}
+
+.aisa-brand-meta {
+	display: flex;
+	flex-direction: column;
+	line-height: 1.3;
+	text-align: left;
+}
+
+.aisa-brand-name {
+	font-size: 14px;
+	font-weight: 600;
+	color: #1d2327;
+}
+
+.aisa-brand-by {
+	font-size: 12px;
+	color: #8c8f94;
+}
+
+.aisa-status-pill {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.4rem;
+	background: #edfaef;
+	color: #1a7f37;
+	border: 1px solid #b4e6bd;
+	border-radius: 999px;
+	padding: 0.25rem 0.8rem;
+	font-size: 12px;
+	font-weight: 600;
+	flex-shrink: 0;
+}
+
+.aisa-status-pill::before {
+	content: "";
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	background: #1a7f37;
+}
+
+.aisa-status-pill[data-connected="0"] {
+	background: #f6f7f7;
+	color: #646970;
+	border-color: #dcdcde;
+}
+
+.aisa-status-pill[data-connected="0"]::before {
+	background: #a7aaad;
+}
+
+.aisa-mcp-hero {
+	max-width: 640px;
+	margin: 1.6rem auto 0;
+	text-align: center;
+}
+
+.aisa-mcp-hero h1 {
+	font-size: 28px;
+	font-weight: 700;
+	margin: 0 0 0.4rem;
+	color: #1d2327;
+	letter-spacing: -0.01em;
+}
+
+.aisa-mcp-hero p {
+	color: #646970;
+	font-size: 14px;
+	max-width: 480px;
+	margin: 0 auto;
+	line-height: 1.5;
+}
+
+.aisa-cta-pill {
+	display: inline-block;
+	margin-top: 1.2rem;
+	padding: 0.7rem 1.8rem;
+	background: #1d2327;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 600;
+	text-decoration: none;
+	border-radius: 999px;
+	transition: opacity 0.15s;
+}
+
+.aisa-cta-pill:hover,
+.aisa-cta-pill:focus {
+	background: #1d2327;
+	color: #fff;
+	opacity: 0.85;
+}
+
+/* .wrap-qualified: wp-admin's own core CSS targets ".wrap ol"/".wrap ul"
+   with equal-or-higher specificity than a single class selector, which was
+   silently winning over list-style: none below and showing native 1./2./3.
+   markers stacked next to our own step-number circles. */
+.wrap .aisa-checklist {
+	list-style: none;
+}
+
+.aisa-checklist {
+	max-width: 640px;
+	margin: 1.8rem auto 0;
+	padding: 0;
+	text-align: left;
+	background: #efefef;
+	border: 1px solid #e2e4e7;
+	border-radius: 14px;
+	overflow: hidden;
+}
+
+.aisa-checklist-step {
+	display: flex;
+	align-items: flex-start;
+	gap: 0.9rem;
+	padding: 1rem 1.2rem;
+	border-bottom: 1px solid #e2e4e7;
+}
+
+.aisa-checklist-step:last-child {
+	border-bottom: none;
+}
+
+.aisa-checklist-step[data-active="0"] {
+	opacity: 0.55;
+	pointer-events: none;
+}
+
+.aisa-step-marker {
+	flex-shrink: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 26px;
+	height: 26px;
+	border-radius: 50%;
+	background: #dcdcde;
+	color: #50575e;
+	font-weight: 600;
+	font-size: 12px;
+	margin-top: 0.1rem;
+}
+
+.aisa-checklist-step[data-done="1"] .aisa-step-marker {
+	background: #1a7f37;
+	color: #fff;
+}
+
+.aisa-checklist-body {
+	flex: 1;
+	min-width: 0;
+}
+
+.aisa-checklist-body h2 {
+	margin: 0 0 0.2rem;
+	font-size: 14px;
+	font-weight: 600;
+	color: #1d2327;
+}
+
+.aisa-checklist-body p {
+	margin: 0 0 0.6rem;
+	color: #646970;
+	font-size: 13px;
+	line-height: 1.5;
+}
+
+.aisa-inline-link {
+	font-size: 12px;
+	margin-top: 0.3rem;
+}
+
+.aisa-inline-link summary {
+	color: #2271b1;
+	cursor: pointer;
+}
+
+.aisa-inline-link ul {
+	margin: 0.5rem 0 0;
+	padding-left: 1.2rem;
+	color: #3c434a;
+}
+
+.aisa-pair-confirm {
+	display: flex;
+	align-items: center;
+	gap: 0.4rem;
+	margin: 0.9rem 0 0;
+	color: #1a7f37;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.aisa-pair-check {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	background: #1a7f37;
+	color: #fff;
+	font-size: 10px;
+	flex-shrink: 0;
+}
+
+.aisa-mcp-footer {
+	text-align: center;
+	margin: 2rem auto 0;
+	color: #8c8f94;
+	font-size: 12px;
+}
+
+.aisa-mcp-footer a {
+	color: #8c8f94;
+	text-decoration: none;
+}
+
+.aisa-mcp-footer a:hover {
+	text-decoration: underline;
+}
+
+/* Per-client setup tabs (step 3). Pure CSS, radio-driven -- no JS needed
+   to switch panels, so the walkthrough still works if scripts fail to
+   load. Radios are visually hidden but stay keyboard/AT accessible. */
+.aisa-tab-radio {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap;
+	border: 0;
+}
+
+.aisa-tab-nav {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.4rem;
+	margin: 0.8rem 0 1rem;
+}
+
+.aisa-tab-label {
+	display: inline-block;
+	padding: 0.4rem 0.9rem;
+	border-radius: 999px;
+	background: #fff;
+	border: 1px solid #dcdcde;
+	color: #3c434a;
+	font-size: 12px;
+	font-weight: 600;
+	cursor: pointer;
+	transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+
+.aisa-tab-radio:focus-visible ~ .aisa-tab-nav label {
+	outline: 2px solid #2271b1;
+	outline-offset: 1px;
+}
+
+#aisa_tab_web:checked ~ .aisa-tab-nav label[for="aisa_tab_web"],
+#aisa_tab_desktop:checked ~ .aisa-tab-nav label[for="aisa_tab_desktop"],
+#aisa_tab_cursor:checked ~ .aisa-tab-nav label[for="aisa_tab_cursor"] {
+	background: #1d2327;
+	color: #fff;
+	border-color: #1d2327;
+}
+
+.aisa-tab-panel {
+	display: none;
+}
+
+#aisa_tab_web:checked ~ .aisa-tab-panels [data-panel="web"],
+#aisa_tab_desktop:checked ~ .aisa-tab-panels [data-panel="desktop"],
+#aisa_tab_cursor:checked ~ .aisa-tab-panels [data-panel="cursor"] {
+	display: block;
+}
+
+.aisa-steps {
+	margin: 0;
+	padding-left: 1.3rem;
+	color: #3c434a;
+	font-size: 13px;
+	line-height: 1.6;
+}
+
+.aisa-steps li {
+	margin-bottom: 0.7rem;
+}
+
+.aisa-steps li:last-child {
+	margin-bottom: 0;
+}
+
+.aisa-steps code {
+	background: #fff;
+	border: 1px solid #dcdcde;
+	border-radius: 3px;
+	padding: 0.1rem 0.35rem;
+	font-size: 12px;
+}
+
+.aisa-steps .aisa-copy-row {
+	margin-top: 0.4rem;
+}
+
+.aisa-copy-field--code {
+	font-family: Consolas, Monaco, monospace;
+	resize: vertical;
+	white-space: pre;
 }
