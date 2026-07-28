@@ -4,16 +4,21 @@ Rebuild of mikebastin.com: Divi consultancy site to a Next.js + Payload CMS
 portfolio. This directory is the handoff bundle from the planning
 conversation, plus the agent roster that governs the build.
 
-Start here: [`docs/HANDOFF.md`](docs/HANDOFF.md) — the single source of
-truth for scope, design tokens, copy rules, SEO invariants, and the phase
-plan. [`CLAUDE.md`](CLAUDE.md) is the condensed project memory an agent
-should hold in every turn.
+**If you're the developer picking this up (Andre), start with
+[`DEVELOPER-HANDOFF.md`](DEVELOPER-HANDOFF.md)**, not this file — it names
+what to clean up in the planning doc and what's still open.
+
+Otherwise, start here: [`docs/HANDOFF.md`](docs/HANDOFF.md) — the single
+source of truth for scope, design tokens, copy rules, SEO invariants, and
+the phase plan. [`CLAUDE.md`](CLAUDE.md) is the condensed project memory an
+agent should hold in every turn.
 
 ## Layout
 
 ```
 mb-master-revamp/
 ├── CLAUDE.md              project memory: tokens, voice rules, SEO invariants, agent roster
+├── DEVELOPER-HANDOFF.md   start here if you're implementing this (Andre)
 ├── README.md              this file
 ├── docs/
 │   ├── HANDOFF.md          full planning handoff, v3.0 FINAL — source of truth
