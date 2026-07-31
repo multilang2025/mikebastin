@@ -8,6 +8,9 @@ conversation, plus the agent roster that governs the build.
 [`DEVELOPER-HANDOFF.md`](DEVELOPER-HANDOFF.md)**, not this file — it names
 what to clean up in the planning doc and what's still open.
 
+For the sequencing of what's done and what's next, see
+[`ROADMAP.md`](ROADMAP.md).
+
 Otherwise, start here: [`docs/HANDOFF.md`](docs/HANDOFF.md) — the single
 source of truth for scope, design tokens, copy rules, SEO invariants, and
 the phase plan. [`CLAUDE.md`](CLAUDE.md) is the condensed project memory an
