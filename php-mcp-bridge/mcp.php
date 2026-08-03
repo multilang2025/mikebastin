@@ -32,6 +32,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
 $db = get_db();
 $site = null;
 $site_token_for_url = null; // internal site token, used in the SSE message endpoint URL
+// Raw bearer string, only ever set on an OAuth (Authorization: Bearer)
+// connection — switch_site needs it to know which oauth_tokens row to
+// UPDATE. Stays null on a ?token= direct connection, where there is no
+// oauth_tokens row to mutate and switching isn't meaningful.
+$bearer = null;
 
 // Accept ?token= (direct) OR Authorization: Bearer (OAuth).
 $url_token = $_GET['token'] ?? '';
@@ -94,7 +99,7 @@ if (!$site) {
 // --- Streamable HTTP (Claude.ai web): POST with JSON-RPC body ---
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $payload  = file_get_contents('php://input');
-    $response = handle_mcp_request($site, $payload);
+    $response = handle_mcp_request($site, $payload, $bearer);
 
     // Notifications (and any no-id request) get no body — acknowledge with 202.
     if ($response === null) {
@@ -149,7 +154,7 @@ while (true) {
     if ($request) {
         $db->prepare("UPDATE requests SET status = 'processing' WHERE id = ?")->execute([$request['id']]);
 
-        $response = handle_mcp_request($site, $request['payload']);
+        $response = handle_mcp_request($site, $request['payload'], $bearer);
         if ($response !== null) {
             send_message($response);
         }

@@ -61,6 +61,7 @@ function get_db() {
         [
             'ALTER TABLE oauth_codes ADD COLUMN site_token TEXT',
             'ALTER TABLE oauth_tokens ADD COLUMN refresh_token TEXT',
+            'ALTER TABLE oauth_tokens ADD COLUMN home_site_token TEXT',
         ] as $migration
     ) {
         try {
@@ -69,6 +70,20 @@ function get_db() {
             // Column already exists — ignore.
         }
     }
+
+    // Backfill home_site_token for tokens issued before multi-site switching
+    // existed — their "home" is whatever site they were originally bound to.
+    $db->exec('UPDATE oauth_tokens SET home_site_token = site_token WHERE home_site_token IS NULL');
+
+    $db->exec("
+        CREATE TABLE IF NOT EXISTS site_switch_log (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            access_token_suffix TEXT NOT NULL,
+            from_site_token TEXT,
+            to_site_token TEXT NOT NULL,
+            created_at INTEGER NOT NULL
+        );
+    ");
 
     // Structural guard against the duplicate-registration bug register.php
     // used to have (always INSERT, never upsert by wp_url): once any
