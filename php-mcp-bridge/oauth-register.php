@@ -56,7 +56,13 @@ try {
     $db        = get_db();
     $client_id = bin2hex(random_bytes(16));
 
-    $db->prepare('INSERT INTO oauth_clients (client_id, redirect_uris, created_at) VALUES (?, ?, ?)')
+    // full_access = 0: every newly-registered client starts with zero site
+    // access until an admin explicitly grants it via grant-access.php. This
+    // column defaults to 1 at the schema level (see db.php) so that every
+    // client_id already registered before this restriction existed keeps
+    // its current unrestricted access -- only new registrations from here
+    // on are scoped.
+    $db->prepare('INSERT INTO oauth_clients (client_id, redirect_uris, created_at, full_access) VALUES (?, ?, ?, 0)')
        ->execute([$client_id, json_encode($redirect_uris), time()]);
 
     http_response_code(201);

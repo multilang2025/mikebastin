@@ -2,7 +2,7 @@
 // mcp-router.php
 // Handles the MCP JSON-RPC protocol logic.
 
-function handle_mcp_request($site, $payload, $bearer = null) {
+function handle_mcp_request($site, $payload, $bearer = null, $client_id = null) {
     $req = json_decode($payload, true);
     if (!$req) return null; // Or error
 
@@ -51,8 +51,9 @@ function handle_mcp_request($site, $payload, $bearer = null) {
         $args = $params['arguments'] ?? [];
 
         // Loaded once per call so resolve_site()/list_sites/switch_site all
-        // see the same snapshot of the registered-sites list.
-        $sites = get_all_sites();
+        // see the same snapshot of this connection's allowed sites -- scoped
+        // per OAuth client (see get_allowed_sites()), not the raw global list.
+        $sites = get_allowed_sites($client_id);
         // What this specific call actually targets — starts as the
         // persistently-bound site, then execute_tool() may overwrite it by
         // reference (switch_site, a per-call `site` arg override). Stamped
@@ -61,6 +62,12 @@ function handle_mcp_request($site, $payload, $bearer = null) {
         $target_site = $site;
 
         try {
+            // Catches a grant revoked after this token was issued -- without
+            // this, a scoped client whose access was pulled would keep
+            // operating on whatever site it was bound to at issuance time.
+            if (!site_is_allowed($site, $sites)) {
+                throw new Exception('Access to the current site has been revoked. Call list_sites to see what this connection can still reach.');
+            }
             $tool_result = execute_tool($site, $name, $args, $sites, $bearer, $target_site);
             $response['result'] = [
                 'content' => [['type' => 'text', 'text' => is_string($tool_result) ? $tool_result : json_encode($tool_result, JSON_PRETTY_PRINT)]]
@@ -164,6 +171,54 @@ function normalize_json_schema_for_mcp($schema) {
 function get_all_sites() {
     $db = get_db();
     return $db->query('SELECT token, wp_url FROM sites ORDER BY wp_url')->fetchAll();
+}
+
+// The sites this specific OAuth client is allowed to see -- the actual
+// access-control boundary between connections. list_sites/switch_site/
+// resolve_site/per-call `site` overrides all work against whatever this
+// returns, never against get_all_sites() directly, once a client_id is
+// involved.
+function get_allowed_sites($client_id) {
+    if (empty($client_id)) {
+        // No client_id on this token at all: either it predates client
+        // scoping (issued before this feature existed) or it's a ?token=
+        // direct connection, which never carries a client_id. Both are
+        // already-trusted paths -- treat as full access.
+        return get_all_sites();
+    }
+
+    $db   = get_db();
+    $stmt = $db->prepare('SELECT full_access FROM oauth_clients WHERE client_id = ?');
+    $stmt->execute([$client_id]);
+    $row  = $stmt->fetch();
+
+    if ($row && (int) $row['full_access'] === 1) {
+        return get_all_sites();
+    }
+
+    // Missing client row or full_access = 0: fail closed to exactly what's
+    // been explicitly granted via grant-access.php -- possibly nothing --
+    // never fall back to "everything" just because a lookup came up empty.
+    $stmt = $db->prepare('
+        SELECT s.token, s.wp_url FROM sites s
+        INNER JOIN client_sites cs ON cs.site_token = s.token
+        WHERE cs.client_id = ?
+        ORDER BY s.wp_url
+    ');
+    $stmt->execute([$client_id]);
+    return $stmt->fetchAll();
+}
+
+function site_is_allowed($site, $sites) {
+    if (empty($site['token'])) {
+        return false;
+    }
+    foreach ($sites as $s) {
+        if ($s['token'] === $site['token']) {
+            return true;
+        }
+    }
+    return false;
 }
 
 // Strip scheme/www, lowercase — plain-PHP port of the WP-side

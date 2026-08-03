@@ -37,6 +37,12 @@ $site_token_for_url = null; // internal site token, used in the SSE message endp
 // UPDATE. Stays null on a ?token= direct connection, where there is no
 // oauth_tokens row to mutate and switching isn't meaningful.
 $bearer = null;
+// The OAuth client this bearer belongs to, if any — used to scope which
+// sites list_sites/switch_site can see (see get_allowed_sites() in
+// mcp-router.php). Null on a ?token= direct connection, and null client_id
+// is treated as full access (every connection that predates this scoping
+// feature has no client_id recorded at all).
+$client_id = null;
 
 // Accept ?token= (direct) OR Authorization: Bearer (OAuth).
 $url_token = $_GET['token'] ?? '';
@@ -68,7 +74,7 @@ if ($url_token) {
     }
     if (preg_match('/^Bearer\s+(.+)$/i', $auth_header, $m)) {
         $bearer = trim($m[1]);
-        $stmt   = $db->prepare('SELECT site_token FROM oauth_tokens WHERE access_token = ? AND expires_at > ?');
+        $stmt   = $db->prepare('SELECT site_token, client_id FROM oauth_tokens WHERE access_token = ? AND expires_at > ?');
         $stmt->execute([$bearer, time()]);
         $row = $stmt->fetch();
 
@@ -77,6 +83,7 @@ if ($url_token) {
             $stmt2->execute([$row['site_token']]);
             $site               = $stmt2->fetch();
             $site_token_for_url = $row['site_token'];
+            $client_id          = $row['client_id'] ?: null;
         }
     }
 }
@@ -99,7 +106,7 @@ if (!$site) {
 // --- Streamable HTTP (Claude.ai web): POST with JSON-RPC body ---
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $payload  = file_get_contents('php://input');
-    $response = handle_mcp_request($site, $payload, $bearer);
+    $response = handle_mcp_request($site, $payload, $bearer, $client_id);
 
     // Notifications (and any no-id request) get no body — acknowledge with 202.
     if ($response === null) {
@@ -154,7 +161,7 @@ while (true) {
     if ($request) {
         $db->prepare("UPDATE requests SET status = 'processing' WHERE id = ?")->execute([$request['id']]);
 
-        $response = handle_mcp_request($site, $request['payload'], $bearer);
+        $response = handle_mcp_request($site, $request['payload'], $bearer, $client_id);
         if ($response !== null) {
             send_message($response);
         }

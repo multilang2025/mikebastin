@@ -1,16 +1,19 @@
 <?php
 // authorize.php
 // OAuth 2.0 authorization endpoint — shows a one-click "Allow Claude?" UI,
-// issues auth codes. No longer a site picker: every new connection binds to
-// a default site (the earliest-registered one) behind the single Allow
-// click. Multi-site switching (switch_site/list_sites, see mcp-router.php)
-// is what actually gives a connection reach to every registered site
-// afterward, so choosing a starting site up front no longer serves a
-// purpose — but an explicit human Allow/Deny click is kept as the one
-// consent checkpoint in this flow.
+// issues auth codes.
+//
+// Access model: every OAuth client_id (see oauth-register.php) is either
+// full_access (sees/switches to every registered site -- the grandfathered
+// default for every client that already existed before this restriction)
+// or scoped to whatever an admin has explicitly granted it via
+// grant-access.php. A brand-new client with zero grants gets a plain
+// "pending approval" page here and no auth code at all -- there is no
+// default site to fall back to for a client that hasn't been granted one.
 
 require_once __DIR__ . '/db.php';
 
+$client_id             = $_GET['client_id'] ?? $_POST['client_id'] ?? '';
 $redirect_uri          = $_GET['redirect_uri'] ?? '';
 $state                 = $_GET['state'] ?? '';
 $code_challenge        = $_GET['code_challenge'] ?? '';
@@ -22,12 +25,35 @@ if (!$redirect_uri || !$code_challenge) {
     exit;
 }
 
-$db    = get_db();
-$sites = $db->query('SELECT token, wp_url FROM sites ORDER BY created_at ASC')->fetchAll();
+$db = get_db();
+
+// Resolve which sites this client is allowed to see. Unknown/unregistered
+// client_ids are treated as restricted with zero grants -- never fall back
+// to "show everything" just because the client_id didn't match anything.
+$full_access = false;
+if ($client_id) {
+    $stmt = $db->prepare('SELECT full_access FROM oauth_clients WHERE client_id = ?');
+    $stmt->execute([$client_id]);
+    $client_row  = $stmt->fetch();
+    $full_access = $client_row && (int) $client_row['full_access'] === 1;
+}
+
+if ($full_access) {
+    $sites = $db->query('SELECT token, wp_url FROM sites ORDER BY created_at ASC')->fetchAll();
+} else {
+    $stmt = $db->prepare('
+        SELECT s.token, s.wp_url FROM sites s
+        INNER JOIN client_sites cs ON cs.site_token = s.token
+        WHERE cs.client_id = ?
+        ORDER BY cs.granted_at ASC
+    ');
+    $stmt->execute([$client_id]);
+    $sites = $stmt->fetchAll();
+}
 
 if (!$sites) {
-    http_response_code(500);
-    echo 'No WordPress site is registered with this bridge yet.';
+    http_response_code(403);
+    echo 'This connection is awaiting approval. Ask the site admin to grant it access before continuing.';
     exit;
 }
 
@@ -47,8 +73,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $code    = bin2hex(random_bytes(16));
         $expires = time() + 300; // 5 min
 
-        $stmt = $db->prepare('INSERT INTO oauth_codes (code, redirect_uri, code_challenge, code_challenge_method, state, site_token, expires_at) VALUES (?, ?, ?, ?, ?, ?, ?)');
-        $stmt->execute([$code, $redirect_uri, $code_challenge, $code_challenge_method, $state, $default_site['token'], $expires]);
+        $stmt = $db->prepare('INSERT INTO oauth_codes (code, redirect_uri, code_challenge, code_challenge_method, state, site_token, client_id, expires_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?)');
+        $stmt->execute([$code, $redirect_uri, $code_challenge, $code_challenge_method, $state, $default_site['token'], $client_id, $expires]);
 
         header('Location: ' . $redirect_uri . $sep . http_build_query(['code' => $code, 'state' => $state]));
     } else {
@@ -95,6 +121,7 @@ button:hover{opacity:.85}
         <input type="hidden" name="state"                 value="<?php echo htmlspecialchars($state); ?>">
         <input type="hidden" name="code_challenge"        value="<?php echo htmlspecialchars($code_challenge); ?>">
         <input type="hidden" name="code_challenge_method" value="<?php echo htmlspecialchars($code_challenge_method); ?>">
+        <input type="hidden" name="client_id"             value="<?php echo htmlspecialchars($client_id); ?>">
 
         <div class="actions">
             <button type="submit" name="allow" value="1" class="allow">Allow</button>

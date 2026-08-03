@@ -40,12 +40,15 @@ $db = get_db();
 // it defaults to $site_token on first issuance, and must be passed through
 // unchanged on every later refresh so a switch_site choice survives rotation
 // while the original site stays recoverable for support/debugging.
-function aisa_issue_tokens($db, $site_token, $home_site_token = null) {
+// $client_id must also be carried through refreshes unchanged -- it's what
+// resolve_site()/list_sites/switch_site use to look up this connection's
+// site allow-list (see mcp-router.php's get_allowed_sites()).
+function aisa_issue_tokens($db, $site_token, $home_site_token = null, $client_id = null) {
     $access_token  = bin2hex(random_bytes(32));
     $refresh_token = bin2hex(random_bytes(32));
     $expires_in    = 86400 * 30;
-    $db->prepare('INSERT INTO oauth_tokens (access_token, refresh_token, site_token, home_site_token, created_at, expires_at) VALUES (?, ?, ?, ?, ?, ?)')
-       ->execute([$access_token, $refresh_token, $site_token, $home_site_token ?? $site_token, time(), time() + $expires_in]);
+    $db->prepare('INSERT INTO oauth_tokens (access_token, refresh_token, site_token, home_site_token, client_id, created_at, expires_at) VALUES (?, ?, ?, ?, ?, ?, ?)')
+       ->execute([$access_token, $refresh_token, $site_token, $home_site_token ?? $site_token, $client_id, time(), time() + $expires_in]);
 
     echo json_encode([
         'access_token'  => $access_token,
@@ -63,7 +66,7 @@ if ($grant_type === 'refresh_token') {
         echo json_encode(['error' => 'invalid_request', 'error_description' => 'Missing refresh_token']);
         exit;
     }
-    $stmt = $db->prepare('SELECT site_token, home_site_token FROM oauth_tokens WHERE refresh_token = ?');
+    $stmt = $db->prepare('SELECT site_token, home_site_token, client_id FROM oauth_tokens WHERE refresh_token = ?');
     $stmt->execute([$refresh]);
     $trow = $stmt->fetch();
     if (!$trow) {
@@ -71,12 +74,14 @@ if ($grant_type === 'refresh_token') {
         echo json_encode(['error' => 'invalid_grant', 'error_description' => 'Invalid refresh token']);
         exit;
     }
-    // Rotate: retire the old pair, issue a new one preserving both the
-    // currently-switched-to site and the original home site — a bare
-    // site_token carry-over would silently undo any switch_site call made
-    // since the last refresh.
+    // Rotate: retire the old pair, issue a new one preserving the
+    // currently-switched-to site, the original home site, and the owning
+    // client_id — dropping any of these on rotation would either undo a
+    // switch_site call or silently widen a scoped client back to
+    // unrestricted access (client_id null == full access, see
+    // mcp-router.php's get_allowed_sites()).
     $db->prepare('DELETE FROM oauth_tokens WHERE refresh_token = ?')->execute([$refresh]);
-    aisa_issue_tokens($db, $trow['site_token'], $trow['home_site_token']);
+    aisa_issue_tokens($db, $trow['site_token'], $trow['home_site_token'], $trow['client_id']);
     exit;
 }
 
@@ -144,5 +149,26 @@ if (!$site) {
     exit;
 }
 
+$client_id = $row['client_id'] ?? '';
+
+// Re-check the grant right before minting the token: authorize.php already
+// verified this at Allow-click time, but a revocation between that click
+// and this exchange (a few seconds to a few minutes later, per the code's
+// own expiry) should still block the token from ever being issued.
+if ($client_id) {
+    $stmt = $db->prepare('SELECT full_access FROM oauth_clients WHERE client_id = ?');
+    $stmt->execute([$client_id]);
+    $client_row = $stmt->fetch();
+    if (!$client_row || (int) $client_row['full_access'] !== 1) {
+        $stmt = $db->prepare('SELECT 1 FROM client_sites WHERE client_id = ? AND site_token = ?');
+        $stmt->execute([$client_id, $site['token']]);
+        if (!$stmt->fetch()) {
+            http_response_code(403);
+            echo json_encode(['error' => 'access_denied', 'error_description' => 'Access to this site was revoked before the connection completed.']);
+            exit;
+        }
+    }
+}
+
 // Issue an access+refresh pair valid for 30 days, bound to the chosen site.
-aisa_issue_tokens($db, $site['token']);
+aisa_issue_tokens($db, $site['token'], null, $client_id ?: null);

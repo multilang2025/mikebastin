@@ -62,6 +62,15 @@ function get_db() {
             'ALTER TABLE oauth_codes ADD COLUMN site_token TEXT',
             'ALTER TABLE oauth_tokens ADD COLUMN refresh_token TEXT',
             'ALTER TABLE oauth_tokens ADD COLUMN home_site_token TEXT',
+            'ALTER TABLE oauth_codes ADD COLUMN client_id TEXT',
+            'ALTER TABLE oauth_tokens ADD COLUMN client_id TEXT',
+            // DEFAULT 1 backfills every client_id that already existed before
+            // this column was added -- i.e. every connection already trusted
+            // today -- to unrestricted access. New rows must explicitly pass
+            // full_access = 0 (see oauth-register.php) to opt into scoping;
+            // relying on this column's own default would grandfather every
+            // future client in too.
+            'ALTER TABLE oauth_clients ADD COLUMN full_access INTEGER NOT NULL DEFAULT 1',
         ] as $migration
     ) {
         try {
@@ -82,6 +91,13 @@ function get_db() {
             from_site_token TEXT,
             to_site_token TEXT NOT NULL,
             created_at INTEGER NOT NULL
+        );
+
+        CREATE TABLE IF NOT EXISTS client_sites (
+            client_id TEXT NOT NULL,
+            site_token TEXT NOT NULL,
+            granted_at INTEGER NOT NULL,
+            PRIMARY KEY (client_id, site_token)
         );
     ");
 
