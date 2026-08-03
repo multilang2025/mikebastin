@@ -3,7 +3,7 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
-Stable tag: 1.4.0
+Stable tag: 2.0.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -155,6 +155,10 @@ Tips:
   gate on more precisely.
 
 == Changelog ==
+= 2.0.0 =
+* Updated the MCP Connector setup steps (Claude.ai web tab) to match the AISA Bridge's new connection model: the one-time site picker is gone (a single "Allow" click now goes straight to a default site), and a new connection can start restricted until the bridge admin approves it -- added a step explaining the "This connection is awaiting approval" screen so it doesn't read as broken.
+* No functional changes to this plugin itself -- the underlying multi-site switching, OAuth client scoping, and admin-approval workflow all live in the separately-versioned AISA Bridge (php-mcp-bridge/, tracked as bridge-v2.0.x). This release just keeps the in-plugin instructions accurate.
+
 = 1.4.0 =
 * Added run_site_checkup: a full Google Lighthouse audit (performance, accessibility, best practices, SEO -- the same engine behind PageSpeed Insights) against any live URL, via a new AISA_Pagespeed_Client. No OAuth needed -- an optional API key (Settings) raises the rate limit, but it works keyless. Read-only by itself; paired with the new site_checkup skill, which routes each finding to the existing tool that actually fixes it (replace_in_post for alt text, set_seo/set_meta for meta/schema, the theme_editing draft-first workflow for template-level issues) -- every one of those already requires the user's approval before touching the live site, so nothing new needed there.
 * Added a type-safety guard to set_meta: refuses a write that would silently replace a structured value (e.g. an existing rank_math_schema_* object) with a plain string, which was most likely caused by the caller's JSON failing to decode rather than an intentional overwrite. Added the same defensive check to wp_cli_set's option update for parity, even though every currently-allowlisted option is already a plain scalar.

@@ -699,7 +699,8 @@ class AISA_Settings {
 											</div>
 										</li>
 										<li><?php esc_html_e( 'Click "Add", then click "Connect" next to the new connector.', 'ai-site-assistant' ); ?></li>
-										<li><?php esc_html_e( 'You\'ll be redirected here — if you manage more than one site, pick this one, then click "Allow".', 'ai-site-assistant' ); ?></li>
+										<li><?php esc_html_e( 'You\'ll be redirected to a one-click "Allow" screen on the bridge — click Allow.', 'ai-site-assistant' ); ?></li>
+										<li><?php esc_html_e( 'First time this Claude account connects to this bridge? New connections start restricted, with no site access, until the bridge admin approves them. If you see "This connection is awaiting approval" instead of the Allow screen, ask the admin to approve it -- nothing else to do on your end until they have.', 'ai-site-assistant' ); ?></li>
 										<li><?php esc_html_e( 'Done. The tools will show up the next time you start a chat.', 'ai-site-assistant' ); ?></li>
 									</ol>
 								</div>
