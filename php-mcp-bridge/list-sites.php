@@ -1,10 +1,25 @@
 <?php
-// list-sites.php — read-only diagnostic. Shows every registered site and
-// whether it currently has a live OAuth access token. DELETE after use.
+// list-sites.php — admin-only diagnostic. Shows every registered site and
+// whether it currently has a live OAuth access token.
+//
+// Usage: list-sites.php?secret=...
+//
+// IMPORTANT: change ADMIN_SECRET below to a private value before deploying
+// this file (same value as pending-clients.php/grant-access.php/
+// grant-full-access.php), and do not commit the real value back into git.
+
+define('ADMIN_SECRET', 'CHANGE-ME-BEFORE-DEPLOYING');
 
 require_once __DIR__ . '/db.php';
 
 header('Content-Type: text/plain; charset=utf-8');
+
+$secret = $_GET['secret'] ?? '';
+if (!hash_equals(ADMIN_SECRET, $secret)) {
+    http_response_code(403);
+    echo "Forbidden.\n";
+    exit;
+}
 
 $db = get_db();
 $sites = $db->query('SELECT * FROM sites ORDER BY wp_url')->fetchAll();
