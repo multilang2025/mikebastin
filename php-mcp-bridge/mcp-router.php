@@ -2,7 +2,7 @@
 // mcp-router.php
 // Handles the MCP JSON-RPC protocol logic.
 
-function handle_mcp_request($site, $payload) {
+function handle_mcp_request($site, $payload, $bearer = null) {
     $req = json_decode($payload, true);
     if (!$req) return null; // Or error
 
@@ -50,8 +50,18 @@ function handle_mcp_request($site, $payload) {
         $name = $params['name'] ?? '';
         $args = $params['arguments'] ?? [];
 
+        // Loaded once per call so resolve_site()/list_sites/switch_site all
+        // see the same snapshot of the registered-sites list.
+        $sites = get_all_sites();
+        // What this specific call actually targets — starts as the
+        // persistently-bound site, then execute_tool() may overwrite it by
+        // reference (switch_site, a per-call `site` arg override). Stamped
+        // onto every response as `_site` below since the MCP protocol offers
+        // no way to re-announce serverInfo mid-session.
+        $target_site = $site;
+
         try {
-            $tool_result = execute_tool($site, $name, $args);
+            $tool_result = execute_tool($site, $name, $args, $sites, $bearer, $target_site);
             $response['result'] = [
                 'content' => [['type' => 'text', 'text' => is_string($tool_result) ? $tool_result : json_encode($tool_result, JSON_PRETTY_PRINT)]]
             ];
@@ -61,6 +71,7 @@ function handle_mcp_request($site, $payload) {
                 'isError' => true
             ];
         }
+        $response['result']['_site'] = !empty($target_site['wp_url']) ? $target_site['wp_url'] : null;
         return $response;
     }
 
@@ -75,7 +86,10 @@ function get_remote_tools($site) {
     try {
         $res = wp_fetch($site, '/aisa/v1/tools', 'GET');
         if (is_array($res) && !empty($res) && isset($res[0]['name'])) {
-            return $res;
+            // WP-plugin-sourced tools never know about the bridge's
+            // multi-site override — inject the same `site` argument here so
+            // the plugin itself needs zero changes to gain it.
+            return inject_site_arg($res);
         }
     } catch (Exception $e) {
         // Older plugin (404) or transient error — use the static fallback.
@@ -145,14 +159,124 @@ function normalize_json_schema_for_mcp($schema) {
     return $schema;
 }
 
-function execute_tool($site, $name, $args) {
+// Fetch every registered site, keyed by nothing in particular — just the
+// flat list resolve_site()/list_sites/switch_site all work against.
+function get_all_sites() {
+    $db = get_db();
+    return $db->query('SELECT token, wp_url FROM sites ORDER BY wp_url')->fetchAll();
+}
+
+// Strip scheme/www, lowercase — plain-PHP port of the WP-side
+// AISA_Gsc_Client::normalize_host(), with no WordPress dependency.
+function normalize_host($value) {
+    $value = trim((string) $value);
+    $value = preg_replace('#^https?://#i', '', $value);
+    $value = preg_replace('#^www\.#i', '', $value);
+    $value = rtrim($value, '/');
+    return strtolower($value);
+}
+
+// Resolve a loosely-specified site name/token/URL against the registered
+// sites list. Mirrors AISA_Gsc_Client::resolve_property()'s "exact match,
+// then substring" pattern, but deliberately stricter: an ambiguous
+// substring match throws instead of silently taking the first hit, since
+// this switches an entire WordPress site rather than a reporting property.
+function resolve_site($needle, $sites) {
+    $needle = trim((string) $needle);
+    if ($needle === '') {
+        throw new Exception('No site specified.');
+    }
+
+    foreach ($sites as $s) {
+        if ($s['token'] === $needle || normalize_host($s['wp_url']) === normalize_host($needle)) {
+            return $s;
+        }
+    }
+
+    $matches = array_values(array_filter($sites, function ($s) use ($needle) {
+        return stripos($s['wp_url'], $needle) !== false;
+    }));
+
+    if (count($matches) === 1) {
+        return $matches[0];
+    }
+    if (count($matches) > 1) {
+        throw new Exception('"' . $needle . '" matches multiple sites: ' . implode(', ', array_column($matches, 'wp_url')) . '. Be more specific, or call list_sites.');
+    }
+    throw new Exception('"' . $needle . '" isn\'t a registered site on this bridge. Call list_sites to see what\'s available.');
+}
+
+function execute_tool($site, $name, $args, $sites = null, $bearer = null, &$target_site = null) {
+    if ($sites === null) {
+        $sites = get_all_sites();
+    }
+
+    if ($name === 'list_sites') {
+        return array_map(function ($s) use ($site) {
+            return [
+                'wp_url'  => $s['wp_url'],
+                'current' => $s['token'] === $site['token'],
+            ];
+        }, $sites);
+    }
+
+    if ($name === 'get_current_site') {
+        $db = get_db();
+        $home_url = null;
+        if (!empty($bearer)) {
+            $stmt = $db->prepare('SELECT home_site_token FROM oauth_tokens WHERE access_token = ?');
+            $stmt->execute([$bearer]);
+            $row = $stmt->fetch();
+            if ($row && $row['home_site_token'] && $row['home_site_token'] !== $site['token']) {
+                foreach ($sites as $s) {
+                    if ($s['token'] === $row['home_site_token']) {
+                        $home_url = $s['wp_url'];
+                        break;
+                    }
+                }
+            }
+        }
+        $result = ['current_site' => $site['wp_url']];
+        if ($home_url) {
+            $result['originally_connected_to'] = $home_url;
+        }
+        return $result;
+    }
+
+    if ($name === 'switch_site') {
+        if (empty($bearer)) {
+            throw new Exception('Switching isn\'t available on a direct token connection — only on an OAuth-connected (Claude.ai) session.');
+        }
+        $new_site = resolve_site($args['site'] ?? '', $sites);
+
+        $db = get_db();
+        $db->prepare('UPDATE oauth_tokens SET site_token = ? WHERE access_token = ?')
+           ->execute([$new_site['token'], $bearer]);
+        $db->prepare('INSERT INTO site_switch_log (access_token_suffix, from_site_token, to_site_token, created_at) VALUES (?, ?, ?, ?)')
+           ->execute([substr($bearer, -8), $site['token'], $new_site['token'], time()]);
+
+        $target_site = $new_site;
+        return "Switched. Every following call now targets: " . $new_site['wp_url'];
+    }
+
+    // Per-call override: `{site: "..."}` targets this one call only and is
+    // never persisted to oauth_tokens — mirrors the GSC/GA4 `site` argument
+    // pattern. Stripped before forwarding so the bridge-only key never leaks
+    // into the WordPress REST payload.
+    $call_site = $site;
+    if (!empty($args['site'])) {
+        $call_site = resolve_site($args['site'], $sites);
+        $target_site = $call_site;
+        unset($args['site']);
+    }
+
     $core_tools = ['search_posts', 'get_post', 'create_post', 'update_post'];
     if (in_array($name, $core_tools)) {
-        return execute_core_tool($site, $name, $args);
+        return execute_core_tool($call_site, $name, $args);
     }
 
     // AISA specific tools go to /aisa/v1/tool
-    $res = wp_fetch($site, '/aisa/v1/tool', 'POST', ['tool' => $name, 'input' => $args]);
+    $res = wp_fetch($call_site, '/aisa/v1/tool', 'POST', ['tool' => $name, 'input' => $args]);
     if (!empty($res['is_error'])) {
         throw new Exception(is_string($res['content'] ?? '') ? $res['content'] : json_encode($res['content']));
     }
@@ -319,8 +443,43 @@ function wp_fetch($site, $path, $method = 'GET', $data = []) {
     throw new Exception($msg);
 }
 
+// Site-switch/site-selection property shared by every tool — the SAME
+// argument shape as the existing `site` parameter on gsc_top_pages /
+// ga_traffic_overview, just resolved against the bridge's own registered
+// sites list instead of Google properties.
+function site_arg_schema() {
+    return ['type' => 'string', 'description' => 'Optional. Target a specific registered site for this call only (name, URL, or token), without changing the persistent default. Loosely matched — a domain substring is enough.'];
+}
+
 function get_tools_schema() {
-    return [
+    $tools = [
+        [
+            'name' => 'list_sites',
+            'description' => 'List every WordPress site registered on this bridge, and which one is currently active.',
+            'inputSchema' => [
+                'type' => 'object',
+                'properties' => (object) []
+            ]
+        ],
+        [
+            'name' => 'switch_site',
+            'description' => 'Switch the persistent default site for every following call in this conversation, without disconnecting. Use when the user says things like "switch to example.com".',
+            'inputSchema' => [
+                'type' => 'object',
+                'properties' => [
+                    'site' => ['type' => 'string', 'description' => 'Name, URL, or token of a registered site (loosely matched).']
+                ],
+                'required' => ['site']
+            ]
+        ],
+        [
+            'name' => 'get_current_site',
+            'description' => 'Report which site is currently targeted by default, and which site this connection was originally authorized for (if different).',
+            'inputSchema' => [
+                'type' => 'object',
+                'properties' => (object) []
+            ]
+        ],
         [
             'name' => 'search_posts',
             'description' => 'Search posts or pages by keyword, type, and status. Read-only.',
@@ -474,4 +633,34 @@ function get_tools_schema() {
             ]
         ]
     ];
+
+    return inject_site_arg($tools, ['list_sites', 'switch_site', 'get_current_site']);
+}
+
+// Adds the shared `site` property to inputSchema.properties on every tool
+// except the ones in $skip (the site-management tools themselves, where a
+// bare `site` string argument already means something else or nothing).
+function inject_site_arg($tools, $skip = []) {
+    foreach ($tools as &$tool) {
+        if (in_array($tool['name'] ?? '', $skip, true)) {
+            continue;
+        }
+        $schema = $tool['inputSchema'] ?? $tool['input_schema'] ?? ['type' => 'object'];
+        if ($schema instanceof stdClass) {
+            $schema = (array) $schema;
+        }
+        if (!is_array($schema)) {
+            continue;
+        }
+        $props = $schema['properties'] ?? [];
+        if ($props instanceof stdClass) {
+            $props = (array) $props;
+        }
+        $props['site'] = site_arg_schema();
+        $schema['properties'] = $props;
+        $tool['inputSchema'] = $schema;
+        unset($tool['input_schema']);
+    }
+    unset($tool);
+    return $tools;
 }

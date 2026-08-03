@@ -36,12 +36,16 @@ $code_verifier = $input['code_verifier'] ?? '';
 $db = get_db();
 
 // Mint an access+refresh pair bound to a site and emit the token response.
-function aisa_issue_tokens($db, $site_token) {
+// $home_site_token records where this connection was originally authorized;
+// it defaults to $site_token on first issuance, and must be passed through
+// unchanged on every later refresh so a switch_site choice survives rotation
+// while the original site stays recoverable for support/debugging.
+function aisa_issue_tokens($db, $site_token, $home_site_token = null) {
     $access_token  = bin2hex(random_bytes(32));
     $refresh_token = bin2hex(random_bytes(32));
     $expires_in    = 86400 * 30;
-    $db->prepare('INSERT INTO oauth_tokens (access_token, refresh_token, site_token, created_at, expires_at) VALUES (?, ?, ?, ?, ?)')
-       ->execute([$access_token, $refresh_token, $site_token, time(), time() + $expires_in]);
+    $db->prepare('INSERT INTO oauth_tokens (access_token, refresh_token, site_token, home_site_token, created_at, expires_at) VALUES (?, ?, ?, ?, ?, ?)')
+       ->execute([$access_token, $refresh_token, $site_token, $home_site_token ?? $site_token, time(), time() + $expires_in]);
 
     echo json_encode([
         'access_token'  => $access_token,
@@ -59,7 +63,7 @@ if ($grant_type === 'refresh_token') {
         echo json_encode(['error' => 'invalid_request', 'error_description' => 'Missing refresh_token']);
         exit;
     }
-    $stmt = $db->prepare('SELECT site_token FROM oauth_tokens WHERE refresh_token = ?');
+    $stmt = $db->prepare('SELECT site_token, home_site_token FROM oauth_tokens WHERE refresh_token = ?');
     $stmt->execute([$refresh]);
     $trow = $stmt->fetch();
     if (!$trow) {
@@ -67,9 +71,12 @@ if ($grant_type === 'refresh_token') {
         echo json_encode(['error' => 'invalid_grant', 'error_description' => 'Invalid refresh token']);
         exit;
     }
-    // Rotate: retire the old pair, issue a new one for the same site.
+    // Rotate: retire the old pair, issue a new one preserving both the
+    // currently-switched-to site and the original home site — a bare
+    // site_token carry-over would silently undo any switch_site call made
+    // since the last refresh.
     $db->prepare('DELETE FROM oauth_tokens WHERE refresh_token = ?')->execute([$refresh]);
-    aisa_issue_tokens($db, $trow['site_token']);
+    aisa_issue_tokens($db, $trow['site_token'], $trow['home_site_token']);
     exit;
 }
 
