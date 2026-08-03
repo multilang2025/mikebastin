@@ -86,9 +86,49 @@ function handle_mcp_request($site, $payload, $bearer = null, $client_id = null) 
     return $response;
 }
 
+// list_sites/switch_site/get_current_site exist only on the bridge, not in
+// any WordPress plugin's own tool list -- get_remote_tools() must always
+// prepend these, whether it ends up returning the live plugin's tools or
+// the static fallback below. Forgetting this merge previously meant a site
+// whose plugin's /aisa/v1/tools endpoint was reachable never exposed these
+// three at all, silently making switch_site unreachable on exactly the
+// sites where the bridge is otherwise working fine.
+function bridge_management_tools() {
+    return [
+        [
+            'name' => 'list_sites',
+            'description' => 'List every WordPress site registered on this bridge, and which one is currently active.',
+            'inputSchema' => [
+                'type' => 'object',
+                'properties' => (object) []
+            ]
+        ],
+        [
+            'name' => 'switch_site',
+            'description' => 'Switch the persistent default site for every following call in this conversation, without disconnecting. Use when the user says things like "switch to example.com".',
+            'inputSchema' => [
+                'type' => 'object',
+                'properties' => [
+                    'site' => ['type' => 'string', 'description' => 'Name, URL, or token of a registered site (loosely matched).']
+                ],
+                'required' => ['site']
+            ]
+        ],
+        [
+            'name' => 'get_current_site',
+            'description' => 'Report which site is currently targeted by default, and which site this connection was originally authorized for (if different).',
+            'inputSchema' => [
+                'type' => 'object',
+                'properties' => (object) []
+            ]
+        ],
+    ];
+}
+
 // Fetch the full tool catalogue from the site's plugin (single source of
 // truth). Falls back to the built-in static list if the site runs an older
-// plugin without the /aisa/v1/tools endpoint.
+// plugin without the /aisa/v1/tools endpoint. Always prepends the bridge's
+// own site-management tools (see bridge_management_tools() above) either way.
 function get_remote_tools($site) {
     try {
         $res = wp_fetch($site, '/aisa/v1/tools', 'GET');
@@ -96,7 +136,7 @@ function get_remote_tools($site) {
             // WP-plugin-sourced tools never know about the bridge's
             // multi-site override — inject the same `site` argument here so
             // the plugin itself needs zero changes to gain it.
-            return inject_site_arg($res);
+            return array_merge(bridge_management_tools(), inject_site_arg($res));
         }
     } catch (Exception $e) {
         // Older plugin (404) or transient error — use the static fallback.
@@ -509,33 +549,6 @@ function site_arg_schema() {
 function get_tools_schema() {
     $tools = [
         [
-            'name' => 'list_sites',
-            'description' => 'List every WordPress site registered on this bridge, and which one is currently active.',
-            'inputSchema' => [
-                'type' => 'object',
-                'properties' => (object) []
-            ]
-        ],
-        [
-            'name' => 'switch_site',
-            'description' => 'Switch the persistent default site for every following call in this conversation, without disconnecting. Use when the user says things like "switch to example.com".',
-            'inputSchema' => [
-                'type' => 'object',
-                'properties' => [
-                    'site' => ['type' => 'string', 'description' => 'Name, URL, or token of a registered site (loosely matched).']
-                ],
-                'required' => ['site']
-            ]
-        ],
-        [
-            'name' => 'get_current_site',
-            'description' => 'Report which site is currently targeted by default, and which site this connection was originally authorized for (if different).',
-            'inputSchema' => [
-                'type' => 'object',
-                'properties' => (object) []
-            ]
-        ],
-        [
             'name' => 'search_posts',
             'description' => 'Search posts or pages by keyword, type, and status. Read-only.',
             'inputSchema' => [
@@ -689,7 +702,7 @@ function get_tools_schema() {
         ]
     ];
 
-    return inject_site_arg($tools, ['list_sites', 'switch_site', 'get_current_site']);
+    return array_merge(bridge_management_tools(), inject_site_arg($tools));
 }
 
 // Adds the shared `site` property to inputSchema.properties on every tool
