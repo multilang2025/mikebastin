@@ -2,7 +2,7 @@ name: Release
 
 on:
   push:
-    tags: [ 'v*' ]
+    tags: [ 'v*', 'bridge-v*' ]
   workflow_dispatch:
     inputs:
       tag:
@@ -16,6 +16,7 @@ jobs:
   release:
     name: Build and publish plugin zip
     runs-on: ubuntu-latest
+    if: ${{ !startsWith(github.ref_name, 'bridge-v') && !startsWith(github.event.inputs.tag, 'bridge-v') }}
     steps:
       - uses: actions/checkout@v4
 
@@ -49,3 +50,33 @@ jobs:
           tag_name: ${{ steps.tag.outputs.tag }}
           files: ai-site-assistant.zip
           generate_release_notes: true
+
+  bridge-release:
+    name: Publish bridge changelog entry
+    runs-on: ubuntu-latest
+    if: ${{ startsWith(github.ref_name, 'bridge-v') || startsWith(github.event.inputs.tag, 'bridge-v') }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Resolve the release tag
+        id: tag
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "tag=${{ github.event.inputs.tag }}" >> "$GITHUB_OUTPUT"
+          else
+            echo "tag=${GITHUB_REF_NAME}" >> "$GITHUB_OUTPUT"
+          fi
+
+      # php-mcp-bridge/ runs server-side on betranslated.us — there is no
+      # plugin zip to build or version header to check here. This release
+      # is a changelog marker only; it does NOT deploy anything.
+      - name: Create GitHub Release (changelog only, no artifact)
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.tag.outputs.tag }}
+          generate_release_notes: true
+          body: |
+            Changes to `php-mcp-bridge/` (the MCP bridge hosted on betranslated.us).
+
+            This tag is a changelog marker only — it does not deploy anything.
+            The bridge must be updated on the server separately.
