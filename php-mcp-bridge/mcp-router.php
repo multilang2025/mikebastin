@@ -122,6 +122,17 @@ function bridge_management_tools() {
                 'properties' => (object) []
             ]
         ],
+        [
+            'name' => 'connect_site',
+            'description' => 'Generate a one-click link to register a new WordPress site with this bridge. The user opens it while logged into that site\'s wp-admin, approves on WordPress\'s own native screen, and the site becomes available immediately -- no need to install anything or visit a settings page first. Use when the user says things like "connect example.com" for a site that isn\'t registered yet.',
+            'inputSchema' => [
+                'type' => 'object',
+                'properties' => [
+                    'site_url' => ['type' => 'string', 'description' => 'The WordPress site\'s URL, e.g. https://example.com.']
+                ],
+                'required' => ['site_url']
+            ]
+        ],
     ];
 }
 
@@ -360,6 +371,31 @@ function execute_tool($site, $name, $args, $sites = null, $bearer = null, &$targ
 
         $target_site = $new_site;
         return "Switched. Every following call now targets: " . $new_site['wp_url'];
+    }
+
+    if ($name === 'connect_site') {
+        $site_url = trim($args['site_url'] ?? '');
+        if (!$site_url) {
+            throw new Exception('No site_url specified.');
+        }
+        if (!preg_match('#^https?://#i', $site_url)) {
+            $site_url = 'https://' . $site_url;
+        }
+        $site_url = rtrim($site_url, '/');
+        if (!filter_var($site_url, FILTER_VALIDATE_URL)) {
+            throw new Exception('"' . $args['site_url'] . '" isn\'t a valid URL.');
+        }
+
+        $db      = get_db();
+        $token   = bin2hex(random_bytes(16));
+        $wp_app_id = bin2hex(random_bytes(16));
+        $expires = time() + 3600; // 1 hour, matches the message below
+
+        $db->prepare('INSERT INTO pending_connections (token, site_url, wp_app_id, created_at, expires_at) VALUES (?, ?, ?, ?, ?)')
+           ->execute([$token, $site_url, $wp_app_id, time(), $expires]);
+
+        $link = bridge_base_url() . '/connect.php?token=' . $token;
+        return "Open this link while logged into $site_url's WP admin to approve (expires in 1 hour):\n$link";
     }
 
     // Per-call override: `{site: "..."}` targets this one call only and is
