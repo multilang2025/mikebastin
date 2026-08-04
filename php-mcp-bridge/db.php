@@ -106,6 +106,15 @@ function get_db() {
             granted_at INTEGER NOT NULL,
             PRIMARY KEY (client_id, site_token)
         );
+
+        CREATE TABLE IF NOT EXISTS pending_connections (
+            token TEXT PRIMARY KEY,
+            site_url TEXT NOT NULL,
+            wp_app_id TEXT NOT NULL,
+            created_at INTEGER NOT NULL,
+            expires_at INTEGER NOT NULL,
+            fulfilled INTEGER NOT NULL DEFAULT 0
+        );
     ");
 
     // Structural guard against the duplicate-registration bug register.php
@@ -127,4 +136,36 @@ function get_db() {
 // Generate a secure random token
 function generate_token() {
     return bin2hex(random_bytes(16));
+}
+
+// This bridge's own base URL, e.g. https://betranslated.us/php-mcp-bridge --
+// derived from the current request rather than hardcoded, so it works
+// whichever script (mcp.php, register.php, connect.php, ...) calls it.
+function bridge_base_url() {
+    $proto = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? 'https' : 'http';
+    return $proto . '://' . $_SERVER['HTTP_HOST'] . rtrim(dirname($_SERVER['SCRIPT_NAME']), '/');
+}
+
+// Upsert a WordPress site's credentials by wp_url -- shared by register.php
+// (the plugin's own "Connect" button) and connect-callback.php (the
+// WPVibe-style link flow), so a site re-registered through either path
+// keeps its original token rather than piling up duplicate rows.
+function upsert_site($db, $wp_url, $wp_username, $wp_app_password) {
+    $wp_url = rtrim($wp_url, '/');
+
+    $existing = $db->prepare('SELECT token FROM sites WHERE wp_url = ?');
+    $existing->execute([$wp_url]);
+    $row = $existing->fetch();
+
+    if ($row) {
+        $token = $row['token'];
+        $db->prepare('UPDATE sites SET wp_username = ?, wp_app_password = ? WHERE token = ?')
+           ->execute([$wp_username, $wp_app_password, $token]);
+    } else {
+        $token = generate_token();
+        $db->prepare('INSERT INTO sites (token, wp_url, wp_username, wp_app_password) VALUES (?, ?, ?, ?)')
+           ->execute([$token, $wp_url, $wp_username, $wp_app_password]);
+    }
+
+    return $token;
 }
