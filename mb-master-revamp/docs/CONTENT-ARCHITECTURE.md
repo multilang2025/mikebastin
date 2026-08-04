@@ -31,7 +31,116 @@ cannot answer it either move to a network property or get retired.
 
 ---
 
-## 2. Service consolidation: 43 to 13
+## 2. Locale architecture (EN, FR, ES)
+
+Everything downstream is expressed in EN slugs for readability. The site is
+trilingual, and the locale rules below override any reading of sections 3 to
+6 as an EN-only exercise.
+
+### Inventory (verified 2026-07-28, `HANDOFF.md` §16)
+
+| Type | EN | FR | ES |
+|---|---|---|---|
+| posts | 91 | 23 | 20 |
+| pages | 7 | 7 | 7 |
+| services | 43 | **44** | 43 |
+
+About 285 content objects. FR carries one more service than EN and ES.
+
+### Consolidation happens at the translation group, never per locale
+
+The single most important rule in this document. Slugs are fully localised
+with no mirroring, confirmed in `HANDOFF.md` §16:
+
+| EN | FR | ES |
+|---|---|---|
+| `ai-consulting-services` | `conseil-ia` | `consultoria-de-inteligencia-artificial` |
+
+An FR redirect target can never be derived from the EN slug. Relations
+resolve through WPML `trid` groups in `icl_translations`, never by slug
+similarity.
+
+The consequence for section 3: the "43 to 13" table describes **13
+translation groups**, not 13 EN pages. Merging EN page B into EN page A
+obliges the FR and ES siblings of B to merge into the FR and ES siblings of
+A. Consolidating each locale independently would orphan locales and break
+hreflang structurally, because in Payload one document is one hreflang
+cluster (`HANDOFF.md` §14). Groups merge as groups.
+
+Same rule for the retire list in section 5. Those 14 slugs are EN labels for
+group records. A group retires in every locale it exists in, or not at all.
+
+**Redirects stay inside their locale.** An absorbed FR service 301s to the
+FR pillar, never to the EN one. Already in the `seo-preservation` spec, and
+worth restating because it is the easiest thing to get wrong at scale.
+
+### The FR-only 44th service blocks the merge count
+
+One FR service has no EN or ES sibling: a group record with `"en": null`
+and `"es": null`. Until it is identified, the consolidation arithmetic does
+not close, because 44 to 13 and 43 to 13 are different merges. Three ways
+out, owner's call once it is named: write EN and ES siblings, keep it
+FR-only as a legitimate single-locale cluster with x-default EN, or fold it
+into an FR pillar.
+
+### FR outperforms EN per page, and that is the lesson
+
+| FR page | 90d impressions |
+|---|---|
+| `/fr/agence-seo-internationale/` | 1,969 |
+| `/fr/consultant-referencement-international/` | 1,316 |
+| `/fr/expert-en-seo-international/` | 980 |
+
+Roughly 4,265 impressions from three pages, against 702 for the entire EN
+homepage. `/fr/` ranks at position 7.7 on "bastin". FR holds a quarter of
+EN's blog volume and beats it per page.
+
+The reason is topical, not linguistic. Those three FR pages cluster tightly
+on international-SEO-consultant queries, which is exactly the source context
+in section 1. FR is already the focused site that EN is trying to become.
+Use the FR query set as a model when rebuilding EN, rather than translating
+EN's sprawl into French.
+
+Two FR quick wins sit on page one with no clicks:
+`/fr/services/localisation-ecommerce/` at position 9.5, and `/fr/` at 7.7.
+Title and meta surgery, same as `french-ppc-campaign` in EN.
+
+### Cluster coverage differs by locale, deliberately
+
+Koray's completeness rule applies per locale. Five clusters spread across 23
+FR posts gives five half-covered clusters, which ranks worse than two
+complete ones.
+
+- **Services: complete in all three locales.** All 13 groups, every locale.
+  Service pages are the money and are template-driven, so depth is
+  affordable.
+- **Blog: FR and ES ship fewer clusters, fully covered.** For FR the choice
+  is already made by the data: the international SEO consulting cluster
+  (proven above) plus the language-market cluster. Two clusters, complete,
+  beats five thin ones.
+- **ES cannot be planned yet.** See below.
+
+### The ES layer has never been measured
+
+`HANDOFF.md` §11 gives a Tier A list for EN and an explicit Tier A-FR list.
+There is no ES equivalent anywhere in the record. ES appears only as
+"siblings resolved via content-map". So 43 ES services and 20 ES posts exist
+and nobody has looked at what they do.
+
+Two things make that worth resolving before P3 rather than after. The owner
+is based in Valencia, so an unmeasured Spanish layer is a strange blind
+spot. And the strongest Spanish-market content on the domain is Valencia
+lifestyle, all of which leaves for valenciamove.com/es/ under section 6,
+which could leave the ES layer thin once the exodus completes.
+
+Action: pull GSC for the `/es/` path before choosing the ES cluster set.
+`HANDOFF.md` §17 closed "all three locales ship at launch", so if the data
+says the ES layer is hollow, that is a decision to reopen consciously rather
+than discover at launch. Flagged in section 10, not decided here.
+
+---
+
+## 3. Service consolidation: 43 to 13
 
 Koray's rule is one page, one query network, covered completely. One
 consultant cannot cover 43 query networks properly, which is why all 43 are
@@ -91,7 +200,7 @@ same locale, per the sales-page rule in `HANDOFF.md` §16.
 
 ---
 
-## 3. Blog topical map
+## 4. Blog topical map
 
 Five clusters, each with a pillar and supporting nodes, each linking up to
 its matching service page. Nothing sits orphaned.
@@ -158,7 +267,7 @@ language-data-analysis
 
 ---
 
-## 4. Retire (outside the topical border)
+## 5. Retire (outside the topical border)
 
 301 each to the nearest cluster pillar, never 404. Owner sign-off needed
 before anything goes.
@@ -181,7 +290,7 @@ Owner decides.
 
 ---
 
-## 5. Valencia exodus → valenciamove.com
+## 6. Valencia exodus → valenciamove.com
 
 Per `HANDOFF.md` §18, confirmed by this analysis. Valencia lifestyle content
 is the strongest cluster on the domain (valencia-cost-of-living alone holds
@@ -194,29 +303,74 @@ covers the topic, then 301 cross-domain at the edge, same locale, permanent.
 FR and ES siblings resolve through `content-map.json`, never handled
 EN-only.
 
+### Per locale
+
+valenciamove.com is quadrilingual (EN, FR, ES, NL) with 517 localised URLs
+out of 1,013, so same-locale targets exist for the FR and ES sets rather
+than having to be created.
+
+**FR set** (from `HANDOFF.md` §18): `transport-a-valencia` (555 imp),
+`cout-de-la-vie-valencia`, `expatrie-valencia`, `plages-de-valencia`,
+`vivre-en-appartement-a-valencia`,
+`travailler-a-valencia-en-tant-quexpatrie`, `visa-nomade-numerique-espagne`,
+`avocats-a-valencia` (727 imp).
+
+Two FR cases need handling by name:
+
+- `visa-nomade-numerique-espagne` already exists at the **identical slug**
+  on both domains. Cleanest possible redirect, and the clearest single proof
+  of the cannibalisation the exodus exists to end.
+- `avocats-a-valencia` (727 imp) links Delaguía y Luzón, and
+  valenciamove.com already runs immigration-lawyer pages per locale. Treat
+  as redirect-to-existing with a merge pass, and keep the Delaguía link
+  alive on the receiving page so the network policy in `HANDOFF.md` §19 is
+  not quietly dropped in the move.
+
+**ES set:** resolves through `content-map.json` group records. Not
+enumerated in the source material, which is the same ES blind spot as
+section 2.
+
+**Bonus:** valenciamove.com supports NL. Migrated pieces can gain a Dutch
+version they never had on mikebastin.com.
+
 **Stays on mikebastin.com** (B2B funnel, inside the border):
 optimising-your-website-for-valencia-based-searches,
 b2b-trade-shows-in-valencia, business-registration-in-valencia.
 
 ---
 
-## 6. Page architecture
+## 7. Page architecture
 
 ```
 /                          portfolio homepage (the 8 spreads)
 /work/                     case study index
 /work/<client>/            8 case studies, one per portfolio spread
 /services/                 services root
-/services/<13 pages>/      per section 2
+/services/<13 pages>/      per section 4
 /about/                    was /about-us/
 /how-i-work/               was /pricing/, reframed as process
 /contact/                  was /contact-us/
 /blog/                     blog index
-/blog/<slug>/              surviving posts, per section 3
+/blog/<slug>/              surviving posts, per section 4
 ```
 
-All mirrored under `/fr/` and `/es/` with localised slugs, since there is no
-slug mirroring in the current WPML setup and none should be invented.
+Mirrored under `/fr/` and `/es/`, with every segment localised. Route
+segments localise too, not just the leaf slug:
+
+```
+EN   /services/ai-consulting/
+FR   /fr/services/conseil-ia/
+ES   /es/servicios/consultoria-de-inteligencia-artificial/
+```
+
+Whether the `/services/` segment itself localises to `/servicios/` is a
+decision to make once rather than per page, since it changes every service
+URL in the locale. Payload supports localised slug fields, so either answer
+is implementable; picking one late is what hurts.
+
+Leaf slugs come from `content-map.json`, never invented and never derived
+from EN. Locales that legitimately lack a sibling emit no hreflang alternate
+for that locale rather than a guessed URL.
 
 The case studies are the missing EEAT layer. Every one links out to the
 client site and inward to its matching service page, which is what turns a
@@ -224,7 +378,7 @@ portfolio into a ranking asset rather than a brochure.
 
 ---
 
-## 7. Design notes from bynoju.com
+## 8. Design notes from bynoju.com
 
 Scraped 2026-07-29. What is worth taking is the structure, not the skin.
 
@@ -239,7 +393,7 @@ the spreads.
 **Four blocks, one system.** NOJU's services section is literally titled
 "Vier blokken, één samenhangend systeem" (four blocks, one coherent system),
 with six to eight capability bullets under each block. Four surfaces, not
-forty-three. Direct precedent for the consolidation in section 2, and a
+forty-three. Direct precedent for the consolidation in section 3, and a
 better way to present 13 services than a 13-item menu: group them as four
 outcomes with the detail underneath.
 
@@ -265,20 +419,27 @@ recently in favour of the sea palette.
 Recommendation: take NOJU's structure and rhythm, keep the locked Night
 Swell and Morning Glass palette with Fraunces. Reopening the palette is the
 owner's call, and worth making deliberately rather than by drift. Flagged as
-an open question in section 9.
+an open question in section 10.
 
 ---
 
-## 8. Sequencing
+## 9. Sequencing
 
-1. **Sign-offs first.** The retire list, the 43-to-13 consolidation, and the
-   Valencia stay-list all need owner approval before anything is built.
-2. **Redirect map second.** Every decision above becomes a line in
-   `redirects.json` and a record in `content-map.json`. No page moves before
-   its redirect exists.
-3. **Quick wins third.** french-ppc-campaign, /fr/services/localisation-ecommerce/,
-   and /fr/ are all on page one with no clicks. Title and meta surgery costs
-   hours and pays before the rebuild ships.
+0. **Resolve translation groups before anything else.** Build
+   `content-map.json` from `icl_translations` trid groups, so every decision
+   below is made on groups rather than on EN pages. Identify the FR-only
+   44th service in the same pass, and pull GSC for `/es/`. Nothing here is
+   expensive, and every later step depends on it.
+1. **Sign-offs.** The retire list, the 43-to-13 consolidation, and the
+   Valencia stay-list all need owner approval before anything is built. Each
+   sign-off covers a group, in all locales that group exists in.
+2. **Redirect map.** Every decision above becomes a line in
+   `redirects.json` and a record in `content-map.json`, per locale. No page
+   moves before its same-locale redirect exists.
+3. **Quick wins.** french-ppc-campaign (EN, position 6.9),
+   /fr/services/localisation-ecommerce/ (9.5), and /fr/ (7.7) are all on
+   page one with no clicks. Title and meta surgery costs hours and pays
+   before the rebuild ships.
 4. **Core section before outer.** Koray's momentum rule. Build all 13
    service pages and the language grid completely before touching outer blog
    content.
@@ -288,7 +449,7 @@ an open question in section 9.
 
 ---
 
-## 9. Open questions for the owner
+## 10. Open questions for the owner
 
 1. **Palette.** bynoju.com is dark violet with monospace, which is close to
    the rejected v1 direction. Keep Night Swell and Morning Glass with
@@ -300,10 +461,19 @@ an open question in section 9.
 4. **/pricing/.** Reframe as /how-i-work/, or keep public pricing?
 5. **Legal and sworn translation.** Fold into the translation pillar now and
    split back out later, or keep separate from the start?
+6. **The FR-only 44th service.** Needs identifying first, then a call:
+   promote to EN and ES, keep FR-only, or fold into an FR pillar. Blocks the
+   consolidation arithmetic either way.
+7. **The ES layer.** Pull GSC for `/es/` before P3. If the layer is hollow
+   once Valencia content leaves, does ES still ship at launch as
+   `HANDOFF.md` §17 closed, or become a fast-follow?
+8. **Localised route segments.** Does `/services/` become `/servicios/` and
+   `/fr/services/`, or do route segments stay English with only leaf slugs
+   localised? One decision, every service URL in two locales.
 
 ---
 
-## 10. Inventory gap found while building this map
+## 11. Inventory gap found while building this map
 
 `sitemap-MB-EN.txt` is named as "the URL inventory of record" for redirect
 coverage in `HANDOFF.md` §6, and the `seo-preservation` agent is told to
@@ -339,7 +509,7 @@ incomplete regardless of what it reports.
 
 ---
 
-## 11. Content scraping
+## 12. Content scraping
 
 Extraction runs through the `content-migrator` agent against the documented
 WordPress REST path, not by ad hoc scraping. The quirks in `HANDOFF.md` §8
