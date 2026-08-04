@@ -227,10 +227,18 @@ function get_allowed_sites($client_id) {
         return get_all_sites();
     }
 
-    $db   = get_db();
-    $stmt = $db->prepare('SELECT full_access FROM oauth_clients WHERE client_id = ?');
-    $stmt->execute([$client_id]);
-    $row  = $stmt->fetch();
+    $db = get_db();
+    // Tolerate a not-yet-migrated full_access column the same way mcp.php
+    // tolerates a missing client_id -- fail open to full access rather than
+    // crashing the entire authenticated bridge if a migration lost a lock
+    // race and hasn't applied on this particular request yet.
+    try {
+        $stmt = $db->prepare('SELECT full_access FROM oauth_clients WHERE client_id = ?');
+        $stmt->execute([$client_id]);
+        $row = $stmt->fetch();
+    } catch (Throwable $e) {
+        return get_all_sites();
+    }
 
     if ($row && (int) $row['full_access'] === 1) {
         return get_all_sites();

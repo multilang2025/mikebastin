@@ -74,8 +74,18 @@ if ($url_token) {
     }
     if (preg_match('/^Bearer\s+(.+)$/i', $auth_header, $m)) {
         $bearer = trim($m[1]);
-        $stmt   = $db->prepare('SELECT site_token, client_id FROM oauth_tokens WHERE access_token = ? AND expires_at > ?');
-        $stmt->execute([$bearer, time()]);
+        // Tolerate a not-yet-migrated client_id column (e.g. the ALTER TABLE
+        // in db.php lost a lock-contention race against a long-lived SSE
+        // connection and hasn't applied yet on this request) -- fall back to
+        // the pre-scoping query rather than letting every authenticated
+        // request on the whole bridge fail on a missing column.
+        try {
+            $stmt = $db->prepare('SELECT site_token, client_id FROM oauth_tokens WHERE access_token = ? AND expires_at > ?');
+            $stmt->execute([$bearer, time()]);
+        } catch (Throwable $e) {
+            $stmt = $db->prepare('SELECT site_token FROM oauth_tokens WHERE access_token = ? AND expires_at > ?');
+            $stmt->execute([$bearer, time()]);
+        }
         $row = $stmt->fetch();
 
         if ($row) {
@@ -83,7 +93,7 @@ if ($url_token) {
             $stmt2->execute([$row['site_token']]);
             $site               = $stmt2->fetch();
             $site_token_for_url = $row['site_token'];
-            $client_id          = $row['client_id'] ?: null;
+            $client_id          = $row['client_id'] ?? null;
         }
     }
 }

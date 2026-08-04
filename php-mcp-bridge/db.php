@@ -8,7 +8,14 @@ function get_db() {
     $db = new PDO('sqlite:' . DB_FILE);
     $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     $db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
-    
+    // Busy timeout (seconds) -- without this, SQLite fails a write/schema
+    // change immediately if another connection has the file locked, instead
+    // of waiting. This bridge has long-lived SSE connections (mcp.php's
+    // polling loop for Claude Desktop/Code) that can hold the file busy for
+    // a while, so a migration's ALTER TABLE can otherwise keep losing that
+    // race indefinitely and never actually apply.
+    $db->setAttribute(PDO::ATTR_TIMEOUT, 10);
+
     // Create tables if they don't exist
     $db->exec("
         CREATE TABLE IF NOT EXISTS sites (
