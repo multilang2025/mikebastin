@@ -303,7 +303,43 @@ an open question in section 9.
 
 ---
 
-## 10. Content scraping
+## 10. Inventory gap found while building this map
+
+`sitemap-MB-EN.txt` is named as "the URL inventory of record" for redirect
+coverage in `HANDOFF.md` §6, and the `seo-preservation` agent is told to
+validate against it. Checking this map's slugs against that file turned up
+two problems, both blocking.
+
+**It is missing URLs that carry real traffic.** The file holds 138 URLs
+(43 services, 95 everything else). Two pages named in the §11 migration
+matrix do not appear in it at all:
+
+| Missing URL | 90d impressions |
+|---|---|
+| `/competitor-analysis-traffic-checklist/` | 18,522 |
+| `/conversational-ai-chatbots-business/` | 2,336 |
+
+The first is the single biggest asset on the domain. Validating redirect
+coverage against this file as it stands would pass a launch that 404s it.
+Note that `/competitor-analysis/` is present and is a different page, so a
+loose slug match hides the gap rather than catching it.
+
+**It covers EN only.** Zero `/fr/` or `/es/` URLs, against an inventory of
+23 FR posts, 20 ES posts, 44 FR services, and 43 ES services in §16. Roughly
+130 live URLs have no redirect baseline whatsoever, including
+`/fr/agence-seo-internationale/` at 1,969 impressions.
+
+**Fix before P3.** Rebuild the inventory from the live WordPress database
+per locale rather than from the exported sitemap, commit it as
+`sitemap-MB-EN.txt` plus FR and ES equivalents, and point
+`seo-preservation` at all three. Cross-check the rebuilt inventory against
+GSC's page list so anything with impressions but no sitemap entry surfaces
+instead of hiding. Until that lands, treat any redirect-coverage pass as
+incomplete regardless of what it reports.
+
+---
+
+## 11. Content scraping
 
 Extraction runs through the `content-migrator` agent against the documented
 WordPress REST path, not by ad hoc scraping. The quirks in `HANDOFF.md` §8
