@@ -98,6 +98,9 @@ Full table with responsibilities is in `CLAUDE.md`; one-line pointer here:
 
 - [`docs/HANDOFF.md`](docs/HANDOFF.md) — raw planning history, source of
   truth for anything not summarised above
+- [`docs/CONTENT-ARCHITECTURE.md`](docs/CONTENT-ARCHITECTURE.md) — the site
+  structure: 43 services consolidated to 13, blog topical map, retire list,
+  page architecture, bynoju.com design notes
 - [`CLAUDE.md`](CLAUDE.md) — day-to-day rules (tokens, voice, SEO
   invariants)
 - [`DEVELOPER-HANDOFF.md`](DEVELOPER-HANDOFF.md) — Andre's brief

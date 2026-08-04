@@ -1,0 +1,317 @@
+# Content Architecture: mikebastin.com
+
+Site structure for the rebuild, built with Koray Tuğberk Gübür's semantic
+SEO method (source context, central entity, topical border, core vs outer
+section, contextual hierarchy). Companion to `HANDOFF.md` (scope and design)
+and `ROADMAP.md` (sequencing).
+
+Baseline: 43 service pages, 91 EN posts, 7 core pages, plus FR and ES
+layers. About 6 clicks across the whole domain in 90 days. Impressions exist
+(18,522 on one page alone) but nothing converts. The diagnosis is topical
+dilution: the domain talks about Valencia flats, YouTube money, Instagram
+tools, and multilingual SEO with equal weight, so it is an authority on
+none of them.
+
+---
+
+## 1. Semantic foundation
+
+| Layer | Value |
+|---|---|
+| **Central entity** | Mike Bastin, multilingual search consultant |
+| **Source context** | Selling multilingual SEO, localisation, and AI consulting to businesses entering non-native language markets |
+| **Central search intent** | "Make my business findable and convertible in a language that is not my first" |
+| **Core section** | Multilingual and language-market SEO, localisation, translation, AI for search and language |
+| **Outer section** | General SEO craft and tooling, kept only where it bridges back to the core |
+| **Topical border** | Anything with no path back to multilingual search or AI for language. Valencia lifestyle sits outside it. So does generic social media advice |
+
+The border is the whole point. Every page that survives has to answer "how
+does a reader of this page become a multilingual SEO client." Pages that
+cannot answer it either move to a network property or get retired.
+
+---
+
+## 2. Service consolidation: 43 to 13
+
+Koray's rule is one page, one query network, covered completely. One
+consultant cannot cover 43 query networks properly, which is why all 43 are
+thin. Consolidate to what can genuinely be covered, keeping every page that
+already carries proven demand.
+
+### Core cluster 1: Multilingual search (the money)
+
+| New page | Absorbs (301, same locale) | Note |
+|---|---|---|
+| `/services/multilingual-seo/` **PILLAR** | global-seo-solutions, internationalisation, language-solutions, multilingual-branding | global-seo-solutions carries 2,825 impressions. Carry its content across, do not discard it |
+| `/services/french-seo/` | keep | Working cluster, has data |
+| `/services/german-seo/` | keep | Working cluster, has data |
+| `/services/spanish-seo/` | keep | |
+| `/services/dutch-seo/` | keep | Feeds the Bemelman case study |
+| `/services/italian-seo/` | keep | Completes the grid |
+| `/services/portuguese-seo/` | keep | Completes the grid |
+
+Six language pages on one template is a scalable set and each owns a clean,
+distinct query network. Keep the grid complete rather than trimming it.
+
+### Core cluster 2: Localisation and translation
+
+| New page | Absorbs |
+|---|---|
+| `/services/website-localisation/` **PILLAR** | content-localisation, localisation-testing, multilingual-cms-integration, wordpress-translation-plugin, localised-e-commerce-integration, multilingual-ux-ui-design |
+| `/services/translation-services/` **PILLAR** | business, medical, academic, financial, legal, certified-and-sworn, expert-translation, transcreation |
+| `/services/app-and-software-localisation/` | app-localisation, software-internationalisation, multimedia-localisation |
+
+Legal and certified/sworn translation have the strongest independent query
+networks of the eight absorbed. Split them back out later if data supports
+it, once the pillar ranks.
+
+### Core cluster 3: AI (the differentiator)
+
+| New page | Absorbs |
+|---|---|
+| `/services/ai-consulting/` **PILLAR** | ai-consulting-services |
+| `/services/ai-translation-and-post-editing/` | post-ai-editing |
+
+### Core cluster 4: Supporting capability
+
+| New page | Absorbs |
+|---|---|
+| `/services/technical-seo/` | on-page-seo, keyword-research, analytics-and-tracking, english-seo, link-building, local-seo |
+| `/services/multilingual-content/` | multilingual-seo-copywriting, cultural-consulting, multilingual-sem, multilingual-social-media-management |
+
+### Retired from services
+
+`web-design` and `digital-marketing` belong to Globaprom, not to a search
+consultancy. 301 both to `/services/multilingual-seo/` and carry a
+contextual network link to globaprom.com per the linking policy in
+`HANDOFF.md` §19.
+
+**Result: 43 to 13.** Every absorbed slug 301s to its absorbing page in the
+same locale, per the sales-page rule in `HANDOFF.md` §16.
+
+---
+
+## 3. Blog topical map
+
+Five clusters, each with a pillar and supporting nodes, each linking up to
+its matching service page. Nothing sits orphaned.
+
+### Cluster A: Multilingual SEO → `/services/multilingual-seo/`
+**Pillar:** best-practices-for-multilingual-seo (1,398 imp)
+
+technical-seo-for-multilingual-websites, multilingual-keyword-research,
+optimising-multilingual-website-content,
+cultural-differences-in-multilingual-websites,
+common-mistakes-to-avoid-when-localising-your-website,
+building-a-global-brand, roi-of-website-localisation,
+user-interface-localisation-can-transform-your-global-reach,
+localisation-testing-tools,
+google-analytics-international-marketing-limits,
+alternatives-to-google-analytics
+
+### Cluster B: Language markets → the six language service pages
+**Quick win:** french-ppc-campaign sits at position 6.9 with no clicks.
+Title and meta surgery here pays before any new content does.
+
+english-to-french-translation-services, german-seo-best-practices,
+german-seo-content-localisation,
+technical-seo-considerations-for-german-websites, spanish-on-page-seo,
+spanish-keyword-localisation, technical-seo-for-spanish-search-engines,
+content-optimisation-for-spanish-users, spanish-seo-markets,
+link-building-in-spain, seo-in-belgium
+
+### Cluster C: AI and the future of search → `/services/ai-consulting/`
+**Pillar:** generative-engine-optimization
+
+search-everywhere-strategy, future-of-seo,
+how-ai-is-revolutionising-seo-strategies,
+how-ai-is-transforming-translation-and-localisation,
+how-to-use-ai-and-machine-translation-tools, ai-powered-marketing,
+conversational-ai-chatbots-business (2,336 imp),
+llms-beyond-giants-hidden-ai-models, prompt-engineers,
+optimising-your-website-for-voice-search
+
+The site already picks up AI-query-style impressions. Leaning into GEO here
+is the cheapest available advantage.
+
+### Cluster D: SEO craft (outer section) → `/services/technical-seo/`
+**Pillar:** competitor-analysis-traffic-checklist (18,522 imp, position 56)
+
+Biggest asset on the domain by a wide margin, and it currently ranks
+nowhere useful. Rebuilding it as a genuine flagship guide is the single
+highest-value content job in the project.
+
+competitor-analysis, technical-seo-audit-checklist, internal-linking-tools
+(1,372), long-tail-keywords, what-is-search-intent-mapping,
+seo-mistakes-to-avoid, chrome-extensions-for-seo,
+link-selling-and-link-buying-platforms,
+how-to-create-a-targeted-content-strategy, affordable-seo-services,
+boosting-local-seo, optimise-a-google-business-profile,
+how-to-promote-your-local-business-on-google-maps, law-firm-seo-services
+
+law-firm-seo-services is the contextual bridge into the Delaguía y Luzón
+case study. Wire it deliberately.
+
+### Cluster E: Language industry → `/services/translation-services/`
+language-service-providers, chrome-extensions-for-translators,
+language-data-analysis
+
+---
+
+## 4. Retire (outside the topical border)
+
+301 each to the nearest cluster pillar, never 404. Owner sign-off needed
+before anything goes.
+
+how-to-use-twitter-for-beginners, how-to-make-money-on-youtube,
+top-instagram-tools, mastering-the-art-of-networking,
+email-marketing-hacks-boosting-open-rates-and-conversions,
+15-simple-blog-post-ideas-to-help-attract-more-customers-to-your-business,
+how-to-write-about-your-professional-background,
+most-popular-marketing-strategies, 360-marketing-agency (438 imp, wrong
+intent), best-vietnam-sourcing-agencies-for-eudr-supplier-scouting-and-audits,
+human-creator-economy, global-business-trends, digital-marketing-advisor,
+eeat-vs-aeat-typo
+
+**One judgement call to make explicitly:** affiliate-marketing-programs
+carries 2,278 impressions and zero commercial fit. Koray's border logic says
+retire it, because impressions that never convert still cost topical focus.
+Retiring it is the recommendation, and losing 2,278 impressions is the price.
+Owner decides.
+
+---
+
+## 5. Valencia exodus → valenciamove.com
+
+Per `HANDOFF.md` §18, confirmed by this analysis. Valencia lifestyle content
+is the strongest cluster on the domain (valencia-cost-of-living alone holds
+10,601 impressions at position 12.9) and also the furthest outside the
+topical border. Moving it does two jobs at once: valenciamove.com absorbs
+real equity, and mikebastin.com finally reads as a single-subject site.
+
+Mechanics stay as specified: merge first where valenciamove.com already
+covers the topic, then 301 cross-domain at the edge, same locale, permanent.
+FR and ES siblings resolve through `content-map.json`, never handled
+EN-only.
+
+**Stays on mikebastin.com** (B2B funnel, inside the border):
+optimising-your-website-for-valencia-based-searches,
+b2b-trade-shows-in-valencia, business-registration-in-valencia.
+
+---
+
+## 6. Page architecture
+
+```
+/                          portfolio homepage (the 8 spreads)
+/work/                     case study index
+/work/<client>/            8 case studies, one per portfolio spread
+/services/                 services root
+/services/<13 pages>/      per section 2
+/about/                    was /about-us/
+/how-i-work/               was /pricing/, reframed as process
+/contact/                  was /contact-us/
+/blog/                     blog index
+/blog/<slug>/              surviving posts, per section 3
+```
+
+All mirrored under `/fr/` and `/es/` with localised slugs, since there is no
+slug mirroring in the current WPML setup and none should be invented.
+
+The case studies are the missing EEAT layer. Every one links out to the
+client site and inward to its matching service page, which is what turns a
+portfolio into a ranking asset rather than a brochure.
+
+---
+
+## 7. Design notes from bynoju.com
+
+Scraped 2026-07-29. What is worth taking is the structure, not the skin.
+
+### Worth adopting
+
+**The narrative spine.** NOJU runs Start, Problem, Solution, Services, Agent
+team, Process, Work, Why, Contact. A problem-to-solution argument, not a
+grid of cards. The current concept jumps from hero to work with only a
+pull-quote between, so there is room for a problem and solution beat before
+the spreads.
+
+**Four blocks, one system.** NOJU's services section is literally titled
+"Vier blokken, één samenhangend systeem" (four blocks, one coherent system),
+with six to eight capability bullets under each block. Four surfaces, not
+forty-three. Direct precedent for the consolidation in section 2, and a
+better way to present 13 services than a 13-item menu: group them as four
+outcomes with the detail underneath.
+
+**Two-part headlines.** Every section splits its headline in two, with the
+second half carrying the turn and the emphasis. Maps cleanly onto the
+italic-gold emphasis treatment already locked in the design.
+
+**Eyebrow labels** on every section, and a **generous section rhythm**
+(`clamp(72px, 10vw, 140px)`).
+
+**A search plus GEO callout** presented as a sub-block inside services
+rather than its own page.
+
+### Not worth adopting
+
+NOJU is near-black (`#06060a`) with a violet accent, Geist and Geist Mono,
+an animated network canvas, and a custom cursor. Three of those were already
+rejected for this project: monospace was dropped in v1 and marked never to
+return, the animated canvas plus dark techy direction was rejected as "too
+austere, too techy, not glamorous enough", and purple was retired only
+recently in favour of the sea palette.
+
+Recommendation: take NOJU's structure and rhythm, keep the locked Night
+Swell and Morning Glass palette with Fraunces. Reopening the palette is the
+owner's call, and worth making deliberately rather than by drift. Flagged as
+an open question in section 9.
+
+---
+
+## 8. Sequencing
+
+1. **Sign-offs first.** The retire list, the 43-to-13 consolidation, and the
+   Valencia stay-list all need owner approval before anything is built.
+2. **Redirect map second.** Every decision above becomes a line in
+   `redirects.json` and a record in `content-map.json`. No page moves before
+   its redirect exists.
+3. **Quick wins third.** french-ppc-campaign, /fr/services/localisation-ecommerce/,
+   and /fr/ are all on page one with no clicks. Title and meta surgery costs
+   hours and pays before the rebuild ships.
+4. **Core section before outer.** Koray's momentum rule. Build all 13
+   service pages and the language grid completely before touching outer blog
+   content.
+5. **Flagship rebuild.** competitor-analysis-traffic-checklist, then the
+   Cluster A and C pillars.
+6. **Valencia exodus** with the blog migration, before WordPress retires.
+
+---
+
+## 9. Open questions for the owner
+
+1. **Palette.** bynoju.com is dark violet with monospace, which is close to
+   the rejected v1 direction. Keep Night Swell and Morning Glass with
+   Fraunces, or reopen?
+2. **affiliate-marketing-programs.** Retire it and lose 2,278 impressions,
+   or keep it outside the border?
+3. **Four-outcome grouping.** Present the 13 services as four outcome blocks
+   in NOJU's style, or as a flat list of 13?
+4. **/pricing/.** Reframe as /how-i-work/, or keep public pricing?
+5. **Legal and sworn translation.** Fold into the translation pillar now and
+   split back out later, or keep separate from the start?
+
+---
+
+## 10. Content scraping
+
+Extraction runs through the `content-migrator` agent against the documented
+WordPress REST path, not by ad hoc scraping. The quirks in `HANDOFF.md` §8
+(explicit site_url, `&lang=` per locale, `?context=edit` for raw content,
+six to seven items per batch, control-character stripping) are hard-won and
+still apply.
+
+Order of work: build `content-map.json` from the decisions above so every
+record carries its tier, action, destination, and per-locale slugs. Extract
+only what survives. Nothing gets scraped twice, and nothing gets scraped
+before its fate is decided.

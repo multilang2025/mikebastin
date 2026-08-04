@@ -25,6 +25,7 @@ mb-master-revamp/
 ├── README.md              this file
 ├── docs/
 │   ├── HANDOFF.md          full planning handoff, v3.0 FINAL — source of truth
+│   ├── CONTENT-ARCHITECTURE.md  site structure, topical map, retire list
 │   └── sitemap-MB-EN.txt   URL inventory of record (redirect coverage baseline)
 ├── design/
 │   └── concept-v3.html     locked design reference (not production code)
