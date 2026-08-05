@@ -652,6 +652,7 @@ class AISA_Settings {
 					<div class="aisa-checklist-body">
 						<h2><?php esc_html_e( 'Connect the AISA Bridge', 'ai-site-assistant' ); ?></h2>
 						<p><?php esc_html_e( 'Paste the URL of your hosted AISA Bridge (a small PHP app you upload to your own hosting, e.g. Hostinger). This creates a WordPress Application Password automatically and registers it with the bridge — your credentials never touch the browser.', 'ai-site-assistant' ); ?></p>
+						<p class="description"><?php esc_html_e( 'Optional for this exact site: once any Claude connection to this bridge exists, you can skip this step entirely and just tell Claude "connect this site" instead -- it\'ll give you a one-click link to approve here in wp-admin, no copy-pasting required. Use this manual step for the first site you ever connect, or whenever you\'d rather not switch to a chat.', 'ai-site-assistant' ); ?></p>
 						<table class="form-table" role="presentation">
 							<tr>
 								<td>
@@ -699,9 +700,9 @@ class AISA_Settings {
 											</div>
 										</li>
 										<li><?php esc_html_e( 'Click "Add", then click "Connect" next to the new connector.', 'ai-site-assistant' ); ?></li>
-										<li><?php esc_html_e( 'You\'ll be redirected to a one-click "Allow" screen on the bridge — click Allow.', 'ai-site-assistant' ); ?></li>
-										<li><?php esc_html_e( 'First time this Claude account connects to this bridge? New connections start restricted, with no site access, until the bridge admin approves them. If you see "This connection is awaiting approval" instead of the Allow screen, ask the admin to approve it -- nothing else to do on your end until they have.', 'ai-site-assistant' ); ?></li>
-										<li><?php esc_html_e( 'Done. The tools will show up the next time you start a chat.', 'ai-site-assistant' ); ?></li>
+										<li><?php esc_html_e( 'You\'ll be redirected to a one-click "Allow" screen on the bridge — click Allow. This connects Claude to the bridge generally; it doesn\'t give access to any specific WordPress site yet.', 'ai-site-assistant' ); ?></li>
+										<li><?php esc_html_e( 'In the chat, ask Claude to "connect [your site]". It replies with a link -- open it while logged into that site\'s wp-admin, then click Allow on WordPress\'s own native screen. That\'s the whole registration step; nothing to copy-paste back into Claude.', 'ai-site-assistant' ); ?></li>
+										<li><?php esc_html_e( 'Done. The tools will show up the next time you start a chat, scoped to whichever site(s) you\'ve connected this way.', 'ai-site-assistant' ); ?></li>
 									</ol>
 								</div>
 
