@@ -53,8 +53,42 @@ if (($_GET['success'] ?? '') === 'false' || !isset($_GET['user_login']) || !isse
 $wp_username     = $_GET['user_login'];
 $wp_app_password = $_GET['password'];
 
-upsert_site($db, $row['site_url'], $wp_username, $wp_app_password);
+$site_token = upsert_site($db, $row['site_url'], $wp_username, $wp_app_password);
 $db->prepare('UPDATE pending_connections SET fulfilled = 1 WHERE token = ?')->execute([$token]);
+
+// Auto-bind + auto-grant the exact connection that generated this link --
+// this is what makes skipping admin approval for connect_site safe: a
+// self-service client only ever ends up scoped to the one site it
+// personally connected, never to any other site already on this bridge.
+if (!empty($row['access_token'])) {
+    $stmt = $db->prepare('SELECT client_id, site_token AS previous_site_token FROM oauth_tokens WHERE access_token = ?');
+    $stmt->execute([$row['access_token']]);
+    $token_row = $stmt->fetch();
+
+    if ($token_row) {
+        $db->prepare('UPDATE oauth_tokens SET site_token = ? WHERE access_token = ?')
+           ->execute([$site_token, $row['access_token']]);
+        $db->prepare('INSERT INTO site_switch_log (access_token_suffix, from_site_token, to_site_token, created_at) VALUES (?, ?, ?, ?)')
+           ->execute([substr($row['access_token'], -8), $token_row['previous_site_token'] ?: null, $site_token, time()]);
+
+        $client_id = $token_row['client_id'] ?? '';
+        if ($client_id) {
+            $stmt = $db->prepare('SELECT full_access FROM oauth_clients WHERE client_id = ?');
+            $stmt->execute([$client_id]);
+            $client_row = $stmt->fetch();
+            $is_full_access = $client_row && (int) $client_row['full_access'] === 1;
+
+            if (!$is_full_access) {
+                $stmt = $db->prepare('SELECT 1 FROM client_sites WHERE client_id = ? AND site_token = ?');
+                $stmt->execute([$client_id, $site_token]);
+                if (!$stmt->fetch()) {
+                    $db->prepare('INSERT INTO client_sites (client_id, site_token, granted_at) VALUES (?, ?, ?)')
+                       ->execute([$client_id, $site_token, time()]);
+                }
+            }
+        }
+    }
+}
 
 header('Content-Type: text/plain; charset=utf-8');
 echo "Connected! {$row['site_url']} is now registered with this bridge.\n";

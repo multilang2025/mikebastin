@@ -61,11 +61,19 @@ function handle_mcp_request($site, $payload, $bearer = null, $client_id = null) 
         // no way to re-announce serverInfo mid-session.
         $target_site = $site;
 
+        // These three (plus connect_site) work with no site bound at all --
+        // a self-service client before its first connect_site has nothing
+        // to check yet, and connect_site is precisely how it gets a site.
+        $needs_no_site = in_array($name, ['list_sites', 'get_current_site', 'connect_site'], true);
+
         try {
+            if (!$needs_no_site && empty($site['token'])) {
+                throw new Exception("No WordPress site is connected yet. Call connect_site to get a one-click link to connect one.");
+            }
             // Catches a grant revoked after this token was issued -- without
             // this, a scoped client whose access was pulled would keep
             // operating on whatever site it was bound to at issuance time.
-            if (!site_is_allowed($site, $sites)) {
+            if (!$needs_no_site && !site_is_allowed($site, $sites)) {
                 throw new Exception('Access to the current site has been revoked. Call list_sites to see what this connection can still reach.');
             }
             $tool_result = execute_tool($site, $name, $args, $sites, $bearer, $target_site);
@@ -326,15 +334,19 @@ function execute_tool($site, $name, $args, $sites = null, $bearer = null, &$targ
     }
 
     if ($name === 'list_sites') {
-        return array_map(function ($s) use ($site) {
+        $current_token = $site['token'] ?? null;
+        return array_map(function ($s) use ($current_token) {
             return [
                 'wp_url'  => $s['wp_url'],
-                'current' => $s['token'] === $site['token'],
+                'current' => $current_token !== null && $s['token'] === $current_token,
             ];
         }, $sites);
     }
 
     if ($name === 'get_current_site') {
+        if (empty($site['token'])) {
+            return 'No WordPress site is connected on this connection yet. Call connect_site to get a one-click link to connect one.';
+        }
         $db = get_db();
         $home_url = null;
         if (!empty($bearer)) {
@@ -367,7 +379,7 @@ function execute_tool($site, $name, $args, $sites = null, $bearer = null, &$targ
         $db->prepare('UPDATE oauth_tokens SET site_token = ? WHERE access_token = ?')
            ->execute([$new_site['token'], $bearer]);
         $db->prepare('INSERT INTO site_switch_log (access_token_suffix, from_site_token, to_site_token, created_at) VALUES (?, ?, ?, ?)')
-           ->execute([substr($bearer, -8), $site['token'], $new_site['token'], time()]);
+           ->execute([substr($bearer, -8), $site['token'] ?? null, $new_site['token'], time()]);
 
         $target_site = $new_site;
         return "Switched. Every following call now targets: " . $new_site['wp_url'];
@@ -386,13 +398,16 @@ function execute_tool($site, $name, $args, $sites = null, $bearer = null, &$targ
             throw new Exception('"' . $args['site_url'] . '" isn\'t a valid URL.');
         }
 
-        $db      = get_db();
-        $token   = bin2hex(random_bytes(16));
+        $db        = get_db();
+        $token     = bin2hex(random_bytes(16));
         $wp_app_id = bin2hex(random_bytes(16));
-        $expires = time() + 3600; // 1 hour, matches the message below
+        $expires   = time() + 3600; // 1 hour, matches the message below
 
-        $db->prepare('INSERT INTO pending_connections (token, site_url, wp_app_id, created_at, expires_at) VALUES (?, ?, ?, ?, ?)')
-           ->execute([$token, $site_url, $wp_app_id, time(), $expires]);
+        // $bearer (may be null on a direct ?token= connection) is what lets
+        // connect-callback.php auto-bind this exact connection to the new
+        // site once WordPress approves it -- see connect-callback.php.
+        $db->prepare('INSERT INTO pending_connections (token, site_url, wp_app_id, access_token, created_at, expires_at) VALUES (?, ?, ?, ?, ?, ?)')
+           ->execute([$token, $site_url, $wp_app_id, $bearer, time(), $expires]);
 
         $link = bridge_base_url() . '/connect.php?token=' . $token;
         return "Open this link while logged into $site_url's WP admin to approve (expires in 1 hour):\n$link";

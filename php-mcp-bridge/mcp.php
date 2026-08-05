@@ -32,6 +32,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
 $db = get_db();
 $site = null;
 $site_token_for_url = null; // internal site token, used in the SSE message endpoint URL
+// True once a real, unexpired token/site row was found -- distinct from
+// $site being non-null, since a token can be genuinely valid but not yet
+// bound to any site (self-service clients before their first connect_site).
+// Gates the 401 below: an unbound-but-valid token must NOT be treated as
+// unauthenticated just because $site itself came up empty.
+$token_valid = false;
 // Raw bearer string, only ever set on an OAuth (Authorization: Bearer)
 // connection — switch_site needs it to know which oauth_tokens row to
 // UPDATE. Stays null on a ?token= direct connection, where there is no
@@ -51,6 +57,10 @@ if ($url_token) {
     $stmt->execute([$url_token]);
     $site = $stmt->fetch();
     $site_token_for_url = $url_token;
+    // A direct ?token= connection's token IS a site token -- if it doesn't
+    // resolve to a real site, the token itself is invalid, unlike the
+    // OAuth path below where a valid bearer can legitimately have no site.
+    $token_valid = (bool) $site;
 } else {
     // Recover the Authorization header from every place shared hosts stash it.
     $auth_header = $_SERVER['HTTP_AUTHORIZATION']
@@ -89,16 +99,22 @@ if ($url_token) {
         $row = $stmt->fetch();
 
         if ($row) {
-            $stmt2 = $db->prepare('SELECT * FROM sites WHERE token = ?');
-            $stmt2->execute([$row['site_token']]);
-            $site               = $stmt2->fetch();
+            $token_valid        = true;
             $site_token_for_url = $row['site_token'];
             $client_id          = $row['client_id'] ?? null;
+            // An unbound token (self-service client before its first
+            // connect_site) has site_token = '' -- there is no site row to
+            // look up, and that's expected, not an error.
+            if ($row['site_token'] !== '') {
+                $stmt2 = $db->prepare('SELECT * FROM sites WHERE token = ?');
+                $stmt2->execute([$row['site_token']]);
+                $site = $stmt2->fetch();
+            }
         }
     }
 }
 
-if (!$site) {
+if (!$token_valid) {
     $proto      = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? 'https' : 'http';
     $host       = $_SERVER['HTTP_HOST'];
     $script_dir = dirname($_SERVER['SCRIPT_FILENAME']);
@@ -112,6 +128,11 @@ if (!$site) {
     echo json_encode(['error' => 'unauthorized', 'error_description' => 'Bearer token required']);
     exit;
 }
+
+// Normalize "no site bound yet" to a plain empty array rather than false/
+// null, so every downstream $site['...'] access behaves the same way
+// regardless of which branch above produced it.
+$site = $site ?: [];
 
 // --- Streamable HTTP (Claude.ai web): POST with JSON-RPC body ---
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {

@@ -129,24 +129,30 @@ if (!hash_equals($expected, $row['code_challenge'])) {
 // Mark code used.
 $db->prepare('UPDATE oauth_codes SET used = 1 WHERE code = ?')->execute([$code]);
 
-// Resolve the site chosen during authorization. Fall back to the only site
-// if the code predates multi-tenant support (no site_token stored).
-$site_token = $row['site_token'] ?? '';
-if (!$site_token) {
+// Resolve the site chosen during authorization. NULL (never set at all)
+// means this code predates multi-tenant support -- fall back to the only
+// site, same as always. '' (explicitly set by authorize.php) means
+// deliberately unbound -- proceed with no site; the connection will call
+// connect_site next. These two must stay distinct: falling back to "the
+// only site" for an intentionally-unbound code would silently hand a
+// brand-new, not-yet-approved client access to whatever happens to be
+// registered, defeating the whole point of issuing it unbound.
+$site_token = $row['site_token'];
+if ($site_token === null) {
     $only = $db->query('SELECT token FROM sites LIMIT 1')->fetch();
     $site_token = $only['token'] ?? '';
 }
 
 $site = null;
-if ($site_token) {
+if ($site_token !== '') {
     $stmt = $db->prepare('SELECT token FROM sites WHERE token = ?');
     $stmt->execute([$site_token]);
     $site = $stmt->fetch();
-}
-if (!$site) {
-    http_response_code(500);
-    echo json_encode(['error' => 'server_error', 'error_description' => 'No site registered with this bridge']);
-    exit;
+    if (!$site) {
+        http_response_code(500);
+        echo json_encode(['error' => 'server_error', 'error_description' => 'The site this code was bound to no longer exists.']);
+        exit;
+    }
 }
 
 $client_id = $row['client_id'] ?? '';
@@ -154,8 +160,9 @@ $client_id = $row['client_id'] ?? '';
 // Re-check the grant right before minting the token: authorize.php already
 // verified this at Allow-click time, but a revocation between that click
 // and this exchange (a few seconds to a few minutes later, per the code's
-// own expiry) should still block the token from ever being issued.
-if ($client_id) {
+// own expiry) should still block the token from ever being issued. Only
+// applies when a site is actually bound -- nothing to re-check otherwise.
+if ($client_id && $site) {
     $stmt = $db->prepare('SELECT full_access FROM oauth_clients WHERE client_id = ?');
     $stmt->execute([$client_id]);
     $client_row = $stmt->fetch();
@@ -170,5 +177,6 @@ if ($client_id) {
     }
 }
 
-// Issue an access+refresh pair valid for 30 days, bound to the chosen site.
-aisa_issue_tokens($db, $site['token'], null, $client_id ?: null);
+// Issue an access+refresh pair valid for 30 days, bound to the chosen site
+// (or unbound -- '' -- if none was resolved above).
+aisa_issue_tokens($db, $site ? $site['token'] : '', null, $client_id ?: null);

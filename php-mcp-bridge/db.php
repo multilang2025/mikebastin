@@ -111,11 +111,18 @@ function get_db() {
             token TEXT PRIMARY KEY,
             site_url TEXT NOT NULL,
             wp_app_id TEXT NOT NULL,
+            access_token TEXT,
             created_at INTEGER NOT NULL,
             expires_at INTEGER NOT NULL,
             fulfilled INTEGER NOT NULL DEFAULT 0
         );
     ");
+
+    try {
+        $db->exec('ALTER TABLE pending_connections ADD COLUMN access_token TEXT');
+    } catch (Throwable $e) {
+        // Column already exists — ignore.
+    }
 
     // Structural guard against the duplicate-registration bug register.php
     // used to have (always INSERT, never upsert by wp_url): once any
