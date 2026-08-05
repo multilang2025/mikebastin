@@ -18,5 +18,9 @@ wp-cli.local.yml
 .env
 phpcs-report.xml
 
+# PHP MCP Bridge -- real DB credentials live only on the server, never in git
+/php-mcp-bridge/config.php
+/php-mcp-bridge/bridge.sqlite
+
 HANDOFF-CHAT-AND-IMAGE-GEN-LOGIC.md
 HANDOFF-SESSION.md
