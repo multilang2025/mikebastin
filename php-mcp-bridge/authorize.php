@@ -7,9 +7,14 @@
 // full_access (sees/switches to every registered site -- the grandfathered
 // default for every client that already existed before this restriction)
 // or scoped to whatever an admin has explicitly granted it via
-// grant-access.php. A brand-new client with zero grants gets a plain
-// "pending approval" page here and no auth code at all -- there is no
-// default site to fall back to for a client that hasn't been granted one.
+// grant-access.php. A brand-new client with zero grants no longer gets
+// blocked here at all: it gets the same one-click Allow, just with no site
+// name shown and no site bound to the resulting token (site_token = '').
+// The very next thing it does is call connect_site, which -- once approved
+// on that site's own native WordPress screen -- both registers the site
+// AND auto-grants this exact client access to it (see connect-callback.php).
+// A self-connecting client only ever ends up scoped to the one site it
+// personally connected; it never gets to see anyone else's.
 
 require_once __DIR__ . '/db.php';
 
@@ -51,13 +56,11 @@ if ($full_access) {
     $sites = $stmt->fetchAll();
 }
 
-if (!$sites) {
-    http_response_code(403);
-    echo 'This connection is awaiting approval. Ask the site admin to grant it access before continuing.';
-    exit;
-}
-
-$default_site = $sites[0];
+// A restricted client with at least one grant already still gets its usual
+// default site. A client with none (brand-new, or full_access with zero
+// sites registered anywhere yet) proceeds with no default at all --
+// $default_site stays null, and the resulting token is issued unbound.
+$default_site = $sites[0] ?? null;
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Read params from POST (hidden fields) so they survive the form submit.
@@ -72,9 +75,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (isset($_POST['allow'])) {
         $code    = bin2hex(random_bytes(16));
         $expires = time() + 300; // 5 min
+        // Empty string, not null: null means "this code predates multi-site
+        // support" to token.php's legacy fallback, which would wrongly grab
+        // whatever single site happens to exist. '' means "deliberately
+        // unbound," and token.php must treat the two differently.
+        $site_token = $default_site['token'] ?? '';
 
         $stmt = $db->prepare('INSERT INTO oauth_codes (code, redirect_uri, code_challenge, code_challenge_method, state, site_token, client_id, expires_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?)');
-        $stmt->execute([$code, $redirect_uri, $code_challenge, $code_challenge_method, $state, $default_site['token'], $client_id, $expires]);
+        $stmt->execute([$code, $redirect_uri, $code_challenge, $code_challenge_method, $state, $site_token, $client_id, $expires]);
 
         header('Location: ' . $redirect_uri . $sep . http_build_query(['code' => $code, 'state' => $state]));
     } else {
@@ -83,7 +91,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     exit;
 }
 
-$heading_domain = parse_url($default_site['wp_url'], PHP_URL_HOST) ?: $default_site['wp_url'];
+$heading_domain = $default_site
+    ? (parse_url($default_site['wp_url'], PHP_URL_HOST) ?: $default_site['wp_url'])
+    : null;
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -110,12 +120,20 @@ button:hover{opacity:.85}
 <body>
 <div class="card">
     <div class="icon">🔗</div>
-    <h1>Allow Claude to access your site?</h1>
-    <div class="domain"><?php echo htmlspecialchars($heading_domain); ?></div>
-    <p>
-        Claude will be able to read and manage content on your WordPress site.
-        You can disconnect at any time from the AISA Connector page in wp-admin.
-    </p>
+    <h1>Allow Claude to connect?</h1>
+    <?php if ($heading_domain): ?>
+        <div class="domain"><?php echo htmlspecialchars($heading_domain); ?></div>
+        <p>
+            Claude will be able to read and manage content on your WordPress site.
+            You can disconnect at any time from the AISA Connector page in wp-admin.
+        </p>
+    <?php else: ?>
+        <p>
+            This starts the connection, but doesn't give Claude access to any WordPress
+            site yet. Right after this, ask Claude to connect a specific site — it'll
+            give you a link to approve on that site's own WordPress admin screen.
+        </p>
+    <?php endif; ?>
     <form method="POST">
         <input type="hidden" name="redirect_uri"          value="<?php echo htmlspecialchars($redirect_uri); ?>">
         <input type="hidden" name="state"                 value="<?php echo htmlspecialchars($state); ?>">
