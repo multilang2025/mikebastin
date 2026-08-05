@@ -1,39 +1,59 @@
 <?php
 // db.php
-// Initializes and provides access to the SQLite database for the PHP MCP Bridge.
+// Initializes and provides access to the Postgres (Supabase) database for
+// the PHP MCP Bridge. Everything lives in its own schema (DB_SCHEMA, see
+// config.php) instead of "public" -- so it can share a Supabase project
+// with unrelated data, and so the exact same schema can be pointed at from
+// a future VPS-hosted Postgres without changing anything else here.
+//
+// Replaces the previous SQLite-backed version: SQLite locks the whole file
+// for any writer, which became a real bottleneck once this bridge grew
+// long-lived SSE connections (Claude Desktop/Code) plus more concurrent
+// writes per request (client scoping, pending connections, etc.) than the
+// original single-site design ever had. Postgres's row-level locking
+// removes that specific failure mode.
 
-define('DB_FILE', __DIR__ . '/bridge.sqlite');
+require_once __DIR__ . '/config.php';
 
 function get_db() {
-    $db = new PDO('sqlite:' . DB_FILE);
+    $dsn = sprintf('pgsql:host=%s;port=%s;dbname=%s;sslmode=require', DB_HOST, DB_PORT, DB_NAME);
+    // EMULATE_PREPARES: if DB_HOST is Supabase's connection pooler (PgBouncer
+    // in transaction mode -- the recommended host for a per-request PHP app
+    // like this one, since it opens a fresh connection every request),
+    // native server-side prepared statements break: a PREPARE and its
+    // matching EXECUTE can land on different pooled backend connections.
+    // Emulating prepares client-side avoids that entirely. Harmless no-op
+    // against a direct (non-pooled) connection.
+    $db = new PDO($dsn, DB_USER, DB_PASSWORD, [PDO::ATTR_EMULATE_PREPARES => true]);
     $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     $db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
-    // Busy timeout (seconds) -- without this, SQLite fails a write/schema
-    // change immediately if another connection has the file locked, instead
-    // of waiting. This bridge has long-lived SSE connections (mcp.php's
-    // polling loop for Claude Desktop/Code) that can hold the file busy for
-    // a while, so a migration's ALTER TABLE can otherwise keep losing that
-    // race indefinitely and never actually apply.
-    $db->setAttribute(PDO::ATTR_TIMEOUT, 10);
 
-    // Create tables if they don't exist
+    $db->exec('CREATE SCHEMA IF NOT EXISTS ' . DB_SCHEMA);
+    // Every unqualified table name in every other file in this bridge
+    // resolves against this schema for the rest of the connection --
+    // nothing outside this function needs to know the schema exists.
+    $db->exec('SET search_path TO ' . DB_SCHEMA);
+
+    // Fresh database, so every column this bridge has ever needed goes
+    // straight into the initial schema -- no incremental ALTER TABLE
+    // history to replay like the old SQLite version had to carry forward.
     $db->exec("
         CREATE TABLE IF NOT EXISTS sites (
             token TEXT PRIMARY KEY,
             wp_url TEXT NOT NULL,
             wp_username TEXT NOT NULL,
             wp_app_password TEXT NOT NULL,
-            created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+            created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
         );
 
         CREATE TABLE IF NOT EXISTS requests (
-            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            id SERIAL PRIMARY KEY,
             token TEXT NOT NULL,
             session_id TEXT NOT NULL,
             payload TEXT NOT NULL,
             status TEXT DEFAULT 'pending',
             response TEXT,
-            created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+            created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
         );
 
         CREATE TABLE IF NOT EXISTS oauth_codes (
@@ -43,7 +63,8 @@ function get_db() {
             code_challenge_method TEXT NOT NULL DEFAULT 'S256',
             state TEXT,
             site_token TEXT,
-            expires_at INTEGER NOT NULL,
+            client_id TEXT,
+            expires_at BIGINT NOT NULL,
             used INTEGER NOT NULL DEFAULT 0
         );
 
@@ -51,59 +72,34 @@ function get_db() {
             access_token TEXT PRIMARY KEY,
             refresh_token TEXT,
             site_token TEXT NOT NULL,
-            created_at INTEGER NOT NULL,
-            expires_at INTEGER NOT NULL
+            home_site_token TEXT,
+            client_id TEXT,
+            created_at BIGINT NOT NULL,
+            expires_at BIGINT NOT NULL
         );
 
         CREATE TABLE IF NOT EXISTS oauth_clients (
             client_id TEXT PRIMARY KEY,
             redirect_uris TEXT NOT NULL,
-            created_at INTEGER NOT NULL
+            -- New registrations always pass full_access explicitly (see
+            -- oauth-register.php, which sets 0) -- this default only
+            -- matters as a safety net, never as the actual access decision.
+            full_access INTEGER NOT NULL DEFAULT 1,
+            created_at BIGINT NOT NULL
         );
-    ");
 
-    // Migrations for databases created before newer features. Each ALTER is a
-    // harmless no-op once its column exists.
-    foreach (
-        [
-            'ALTER TABLE oauth_codes ADD COLUMN site_token TEXT',
-            'ALTER TABLE oauth_tokens ADD COLUMN refresh_token TEXT',
-            'ALTER TABLE oauth_tokens ADD COLUMN home_site_token TEXT',
-            'ALTER TABLE oauth_codes ADD COLUMN client_id TEXT',
-            'ALTER TABLE oauth_tokens ADD COLUMN client_id TEXT',
-            // DEFAULT 1 backfills every client_id that already existed before
-            // this column was added -- i.e. every connection already trusted
-            // today -- to unrestricted access. New rows must explicitly pass
-            // full_access = 0 (see oauth-register.php) to opt into scoping;
-            // relying on this column's own default would grandfather every
-            // future client in too.
-            'ALTER TABLE oauth_clients ADD COLUMN full_access INTEGER NOT NULL DEFAULT 1',
-        ] as $migration
-    ) {
-        try {
-            $db->exec($migration);
-        } catch (Throwable $e) {
-            // Column already exists — ignore.
-        }
-    }
-
-    // Backfill home_site_token for tokens issued before multi-site switching
-    // existed — their "home" is whatever site they were originally bound to.
-    $db->exec('UPDATE oauth_tokens SET home_site_token = site_token WHERE home_site_token IS NULL');
-
-    $db->exec("
         CREATE TABLE IF NOT EXISTS site_switch_log (
-            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            id SERIAL PRIMARY KEY,
             access_token_suffix TEXT NOT NULL,
             from_site_token TEXT,
             to_site_token TEXT NOT NULL,
-            created_at INTEGER NOT NULL
+            created_at BIGINT NOT NULL
         );
 
         CREATE TABLE IF NOT EXISTS client_sites (
             client_id TEXT NOT NULL,
             site_token TEXT NOT NULL,
-            granted_at INTEGER NOT NULL,
+            granted_at BIGINT NOT NULL,
             PRIMARY KEY (client_id, site_token)
         );
 
@@ -112,29 +108,23 @@ function get_db() {
             site_url TEXT NOT NULL,
             wp_app_id TEXT NOT NULL,
             access_token TEXT,
-            created_at INTEGER NOT NULL,
-            expires_at INTEGER NOT NULL,
+            created_at BIGINT NOT NULL,
+            expires_at BIGINT NOT NULL,
             fulfilled INTEGER NOT NULL DEFAULT 0
         );
     ");
 
-    try {
-        $db->exec('ALTER TABLE pending_connections ADD COLUMN access_token TEXT');
-    } catch (Throwable $e) {
-        // Column already exists — ignore.
-    }
-
     // Structural guard against the duplicate-registration bug register.php
-    // used to have (always INSERT, never upsert by wp_url): once any
-    // pre-existing duplicates are cleaned up (see dedupe-sites.php), this
-    // makes it impossible for the same wp_url to be inserted twice again.
-    // Silently fails (and keeps retrying on every request) for as long as
-    // duplicates still exist -- that's expected, not an error to act on.
+    // used to have (always INSERT, never upsert by wp_url): makes it
+    // impossible for the same wp_url to be inserted twice. Postgres
+    // supports IF NOT EXISTS on indexes directly, unlike some other
+    // engines, but this stays wrapped in try/catch in case any duplicate
+    // rows ever exist when this runs -- same defensive intent as before.
     try {
         $db->exec('CREATE UNIQUE INDEX IF NOT EXISTS idx_sites_wp_url ON sites(wp_url)');
     } catch (Throwable $e) {
-        // Duplicates still present -- index creation is retried on every
-        // request until dedupe-sites.php clears them.
+        // Duplicates present -- index creation retried on every request
+        // until they're cleaned up (see dedupe-sites.php).
     }
 
     return $db;

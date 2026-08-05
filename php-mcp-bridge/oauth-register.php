@@ -21,10 +21,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET' && ($_GET['debug'] ?? '') === '1') {
     header('Content-Type: text/plain');
     $drivers = PDO::getAvailableDrivers();
     echo "PDO drivers: " . implode(', ', $drivers) . "\n";
-    echo "SQLite: " . (in_array('sqlite', $drivers) ? "OK" : "MISSING") . "\n";
+    echo "pgsql: " . (in_array('pgsql', $drivers) ? "OK" : "MISSING -- ask your host to enable the pdo_pgsql PHP extension") . "\n";
     try {
         $db = get_db();
-        $tables = $db->query("SELECT name FROM sqlite_master WHERE type='table' ORDER BY name")->fetchAll(PDO::FETCH_COLUMN);
+        $stmt = $db->prepare("SELECT table_name FROM information_schema.tables WHERE table_schema = ? ORDER BY table_name");
+        $stmt->execute([DB_SCHEMA]);
+        $tables = $stmt->fetchAll(PDO::FETCH_COLUMN);
+        echo "Schema: " . DB_SCHEMA . "\n";
         echo "Tables: " . implode(', ', $tables) . "\n";
         echo "oauth_clients: " . (in_array('oauth_clients', $tables) ? "OK" : "MISSING") . "\n";
         $client_id = 'debug-test';
