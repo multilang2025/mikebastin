@@ -138,6 +138,17 @@ function generate_token() {
     return bin2hex(random_bytes(16));
 }
 
+// A proper RFC 4122 v4 UUID -- WordPress core's authorize-application.php
+// (see connect_site in mcp-router.php) rejects app_id unless it's
+// hyphenated in this exact 8-4-4-4-12 shape with the version/variant bits
+// set, not just any random hex string.
+function generate_uuid_v4() {
+    $data = random_bytes(16);
+    $data[6] = chr((ord($data[6]) & 0x0f) | 0x40); // version 4
+    $data[8] = chr((ord($data[8]) & 0x3f) | 0x80); // variant 10xx
+    return vsprintf('%s%s-%s-%s-%s-%s%s%s', str_split(bin2hex($data), 4));
+}
+
 // This bridge's own base URL, e.g. https://betranslated.us/php-mcp-bridge --
 // derived from the current request rather than hardcoded, so it works
 // whichever script (mcp.php, register.php, connect.php, ...) calls it.

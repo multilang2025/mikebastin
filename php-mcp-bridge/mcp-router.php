@@ -400,7 +400,10 @@ function execute_tool($site, $name, $args, $sites = null, $bearer = null, &$targ
 
         $db        = get_db();
         $token     = bin2hex(random_bytes(16));
-        $wp_app_id = bin2hex(random_bytes(16));
+        // WordPress core's authorize-application.php rejects app_id unless
+        // it's a properly hyphenated UUID -- a plain 32-char hex string
+        // fails that check ("The application ID must be a UUID").
+        $wp_app_id = generate_uuid_v4();
         $expires   = time() + 3600; // 1 hour, matches the message below
 
         // $bearer (may be null on a direct ?token= connection) is what lets
