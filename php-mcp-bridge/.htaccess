@@ -21,7 +21,13 @@
     CGIPassAuth On
 </IfModule>
 
-# Block direct HTTP access to the SQLite database.
-<Files "bridge.sqlite">
+# Block direct HTTP access to files that are only ever require()'d by other
+# scripts, never requested directly. None of these currently echo anything
+# sensitive if hit directly, but there's no reason to leave that door open
+# for a future change to accidentally walk through.
+<FilesMatch "^(db|mcp-router|config|config\.example)\.php$">
     Require all denied
-</Files>
+</FilesMatch>
+<FilesMatch "\.(sql|md)$">
+    Require all denied
+</FilesMatch>

@@ -8,11 +8,11 @@
 // site redirects back to connect-callback.php with one.
 
 require_once __DIR__ . '/db.php';
+require_once __DIR__ . '/page.php';
 
 $token = $_GET['token'] ?? '';
 if (!$token) {
-    http_response_code(400);
-    echo 'Missing token.';
+    render_page('Missing link', '⚠️', 'Missing link', '<p>This link is missing its token. Ask Claude to generate a new one.</p>', 'error');
     exit;
 }
 
@@ -23,17 +23,17 @@ $row = $stmt->fetch();
 
 if (!$row) {
     http_response_code(404);
-    echo 'This connection link is invalid. Ask Claude to generate a new one.';
+    render_page('Invalid link', '⚠️', 'This link isn\'t valid', '<p>Ask Claude to generate a new connection link.</p>', 'error');
     exit;
 }
 if ($row['fulfilled']) {
     http_response_code(410);
-    echo 'This connection link has already been used. Ask Claude to generate a new one if you need to reconnect.';
+    render_page('Already used', '✅', 'This link has already been used', '<p>If you need to reconnect, ask Claude to generate a new one.</p>', 'error');
     exit;
 }
 if ($row['expires_at'] < time()) {
     http_response_code(410);
-    echo 'This connection link has expired (links last 1 hour). Ask Claude to generate a new one.';
+    render_page('Link expired', '⏱️', 'This link has expired', '<p>Connection links last 1 hour. Ask Claude to generate a new one.</p>', 'error');
     exit;
 }
 

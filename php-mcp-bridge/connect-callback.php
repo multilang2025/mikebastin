@@ -11,11 +11,11 @@
 // generated the link for.
 
 require_once __DIR__ . '/db.php';
+require_once __DIR__ . '/page.php';
 
 $token = $_GET['token'] ?? '';
 if (!$token) {
-    http_response_code(400);
-    echo 'Missing token.';
+    render_page('Missing link', '⚠️', 'Missing link', '<p>This link is missing its token.</p>', 'error');
     exit;
 }
 
@@ -26,17 +26,17 @@ $row = $stmt->fetch();
 
 if (!$row) {
     http_response_code(404);
-    echo 'This connection link is invalid.';
+    render_page('Invalid link', '⚠️', 'This link isn\'t valid', '<p>Ask Claude to generate a new connection link.</p>', 'error');
     exit;
 }
 if ($row['fulfilled']) {
     http_response_code(410);
-    echo 'This connection link has already been used.';
+    render_page('Already used', '✅', 'This link has already been used', '<p>If you need to reconnect, ask Claude to generate a new one.</p>', 'error');
     exit;
 }
 if ($row['expires_at'] < time()) {
     http_response_code(410);
-    echo 'This connection link has expired.';
+    render_page('Link expired', '⏱️', 'This link has expired', '<p>Connection links last 1 hour. Ask Claude to generate a new one.</p>', 'error');
     exit;
 }
 
@@ -45,8 +45,13 @@ if ($row['expires_at'] < time()) {
 // Falling back to "no user_login/password present" covers it either way,
 // in case that param's exact name/value ever changes on WordPress's side.
 if (($_GET['success'] ?? '') === 'false' || !isset($_GET['user_login']) || !isset($_GET['password'])) {
-    header('Content-Type: text/plain; charset=utf-8');
-    echo "Connection declined. Nothing was registered -- ask Claude to generate a new link if you change your mind.\n";
+    render_page(
+        'Connection declined',
+        '🚫',
+        'Connection declined',
+        '<p>Nothing was registered. Ask Claude to generate a new link if you change your mind.</p>',
+        'error'
+    );
     exit;
 }
 
@@ -90,6 +95,12 @@ if (!empty($row['access_token'])) {
     }
 }
 
-header('Content-Type: text/plain; charset=utf-8');
-echo "Connected! {$row['site_url']} is now registered with this bridge.\n";
-echo "Go back to your Claude chat -- it's ready to use.\n";
+render_page(
+    'Connected',
+    '✅',
+    'Connected!',
+    '<p class="pill">' . htmlspecialchars($row['site_url']) . '</p>'
+        . '<p>This site is now registered with the bridge.</p>'
+        . '<p>Go back to your Claude chat — it\'s ready to use.</p>',
+    'success'
+);
