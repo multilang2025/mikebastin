@@ -87,6 +87,21 @@ CREATE TABLE IF NOT EXISTS aisa_bridge.pending_connections (
 -- impossible to register twice.
 CREATE UNIQUE INDEX IF NOT EXISTS idx_sites_wp_url ON aisa_bridge.sites(wp_url);
 
+-- Supabase enables Row-Level Security automatically on new tables, even
+-- outside "public". With zero policies defined, RLS blocks everything --
+-- including the table's own owner, in practice. This bridge already does
+-- all its own access control at the application layer (OAuth scoping,
+-- client approval, etc.), so Postgres RLS on top of that would only add
+-- friction, not real protection, for a schema no other app ever touches.
+ALTER TABLE aisa_bridge.sites DISABLE ROW LEVEL SECURITY;
+ALTER TABLE aisa_bridge.requests DISABLE ROW LEVEL SECURITY;
+ALTER TABLE aisa_bridge.oauth_codes DISABLE ROW LEVEL SECURITY;
+ALTER TABLE aisa_bridge.oauth_tokens DISABLE ROW LEVEL SECURITY;
+ALTER TABLE aisa_bridge.oauth_clients DISABLE ROW LEVEL SECURITY;
+ALTER TABLE aisa_bridge.site_switch_log DISABLE ROW LEVEL SECURITY;
+ALTER TABLE aisa_bridge.client_sites DISABLE ROW LEVEL SECURITY;
+ALTER TABLE aisa_bridge.pending_connections DISABLE ROW LEVEL SECURITY;
+
 -- Dedicated role for the app itself, scoped to only this schema -- so this
 -- bridge can share a Supabase project with unrelated apps/data without any
 -- risk of touching their tables, and without needing the project's main
