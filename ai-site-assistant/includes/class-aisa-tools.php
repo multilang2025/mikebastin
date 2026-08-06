@@ -734,7 +734,8 @@ class AISA_Tools {
 				'description'  => 'Fetch a post/page\'s LIVE RENDERED HTML (its actual public output, not '
 					. 'raw post_content) -- use to check how an edit actually looks, or to see content a '
 					. 'page builder generates that isn\'t in post_content. No JavaScript is executed. '
-					. 'Read-only.',
+					. 'Takes a post/page ID, not a URL -- call search_posts first if you only know the URL '
+					. 'or title. Read-only.',
 				'input_schema' => array(
 					'type'                 => 'object',
 					'properties'           => array(
@@ -1300,14 +1301,22 @@ class AISA_Tools {
 	 * @return array Tool result with a JSON list of matches.
 	 */
 	private static function search_posts( array $in ) {
-		$q = new WP_Query(
-			array(
-				's'              => $in['query'] ?? '',
-				'post_type'      => $in['post_type'] ?? 'any',
-				'post_status'    => $in['status'] ?? 'any',
-				'posts_per_page' => min( (int) ( $in['limit'] ?? 10 ), 50 ),
-			)
+		$query_args = array(
+			's'              => $in['query'] ?? '',
+			'post_type'      => $in['post_type'] ?? 'any',
+			'post_status'    => $in['status'] ?? 'any',
+			'posts_per_page' => min( (int) ( $in['limit'] ?? 10 ), 50 ),
 		);
+		// Multilingual plugins (WPML, Polylang) filter WP_Query to whichever
+		// language happens to be active at request time by default -- which
+		// can make a search silently miss content in other languages, or
+		// return an unrelated same-language list instead of an empty result.
+		// An assistant managing the whole site shouldn't be scoped to one
+		// language just because of which context this request ran in.
+		if ( defined( 'ICL_SITEPRESS_VERSION' ) || function_exists( 'pll_languages_list' ) ) {
+			$query_args['lang'] = 'all';
+		}
+		$q = new WP_Query( $query_args );
 
 		$rows = array();
 		foreach ( $q->posts as $p ) {

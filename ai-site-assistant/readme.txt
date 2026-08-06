@@ -3,7 +3,7 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
-Stable tag: 2.1.0
+Stable tag: 2.1.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -155,6 +155,10 @@ Tips:
   gate on more precisely.
 
 == Changelog ==
+= 2.1.1 =
+* Fixed search_posts silently ignoring the search keyword on sites running WPML or Polylang -- multilingual plugins filter WP_Query to whichever language is active by default, which could make a search return an unrelated same-language list instead of the actual match. search_posts now explicitly searches every language when one of these plugins is detected.
+* Clarified get_page_html's description to state it takes a post/page ID, not a URL, and to call search_posts first if only the URL/title is known -- real confusion observed in testing where a URL was passed and silently resolved to ID 0.
+
 = 2.1.0 =
 * The "Available Skills" panel on the MCP Connector page is now collapsed by default (click to expand) instead of always showing the full grid.
 * Added a new "Multi-site bridge tools" panel, same collapsed treatment, listing list_sites/switch_site/connect_site/get_current_site -- these are bridge-level tools, not load_skill playbooks, so they're kept as a separate, clearly-labeled section rather than mixed into the skills catalog.
