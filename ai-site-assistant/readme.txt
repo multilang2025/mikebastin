@@ -3,7 +3,7 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
-Stable tag: 2.0.1
+Stable tag: 2.1.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -155,6 +155,10 @@ Tips:
   gate on more precisely.
 
 == Changelog ==
+= 2.1.0 =
+* The "Available Skills" panel on the MCP Connector page is now collapsed by default (click to expand) instead of always showing the full grid.
+* Added a new "Multi-site bridge tools" panel, same collapsed treatment, listing list_sites/switch_site/connect_site/get_current_site -- these are bridge-level tools, not load_skill playbooks, so they're kept as a separate, clearly-labeled section rather than mixed into the skills catalog.
+
 = 2.0.1 =
 * Updated the MCP Connector setup steps again (Claude.ai web tab) to match the AISA Bridge's self-service connect flow: a new connection no longer needs admin approval before it can do anything -- it connects generally first, then the user asks Claude to "connect [site]" and approves a one-click link on that site's own wp-admin screen. Replaced the now-inaccurate "ask the admin to approve it" step with this. Also noted on the manual "Connect the AISA Bridge" step that it's now optional once any Claude connection to the bridge already exists.
 * No functional changes to this plugin itself -- same as 2.0.0, the underlying behavior lives in the separately-versioned AISA Bridge (tracked as bridge-v2.2.0 as of this release).

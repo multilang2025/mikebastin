@@ -625,9 +625,26 @@ class AISA_Settings {
 			// Single source of truth: AISA_Skills::CATALOG, so this panel never
 			// drifts out of sync with what load_skill actually recognizes.
 			$available_skills = AISA_Skills::CATALOG;
+			// Bridge-level tools -- distinct from the skills above. Skills are
+			// task playbooks the assistant loads on demand via load_skill;
+			// these are core MCP tools the bridge itself always exposes, for
+			// working across every registered site rather than just this one.
+			// Kept as a plain array here (not a class constant) since it
+			// mirrors bridge_management_tools() in php-mcp-bridge/mcp-router.php
+			// on the bridge, a separate codebase this plugin doesn't share PHP
+			// with -- if that list changes, update both by hand.
+			$bridge_tools = array(
+				'list_sites'       => __( 'List every WordPress site registered on the bridge, and which one is currently active.', 'ai-site-assistant' ),
+				'switch_site'      => __( 'Switch the active site for every following request in the conversation, without disconnecting.', 'ai-site-assistant' ),
+				'connect_site'     => __( 'Get a one-click link to register a new site — approve it on that site\'s own wp-admin screen, no settings page needed.', 'ai-site-assistant' ),
+				'get_current_site' => __( 'Report which site is currently active, and which site this connection first connected to.', 'ai-site-assistant' ),
+			);
 			?>
-			<section class="aisa-skills-panel">
-				<h2><?php esc_html_e( 'Available Skills', 'ai-site-assistant' ); ?></h2>
+			<details class="aisa-skills-panel">
+				<summary>
+					<h2><?php esc_html_e( 'Available Skills', 'ai-site-assistant' ); ?></h2>
+					<p><?php esc_html_e( '(click to expand)', 'ai-site-assistant' ); ?></p>
+				</summary>
 				<p><?php esc_html_e( 'These are the skills the assistant can load on demand.', 'ai-site-assistant' ); ?></p>
 				<div class="aisa-skills-grid">
 					<?php foreach ( $available_skills as $skill_name => $skill_summary ) : ?>
@@ -637,7 +654,23 @@ class AISA_Settings {
 						</article>
 					<?php endforeach; ?>
 				</div>
-			</section>
+			</details>
+
+			<details class="aisa-skills-panel">
+				<summary>
+					<h2><?php esc_html_e( 'Multi-site bridge tools', 'ai-site-assistant' ); ?></h2>
+					<p><?php esc_html_e( '(click to expand)', 'ai-site-assistant' ); ?></p>
+				</summary>
+				<p><?php esc_html_e( 'Always available once connected — for working across every site registered on the bridge, not just this one.', 'ai-site-assistant' ); ?></p>
+				<div class="aisa-skills-grid">
+					<?php foreach ( $bridge_tools as $tool_name => $tool_summary ) : ?>
+						<article class="aisa-skill-card">
+							<h3><?php echo esc_html( $tool_name ); ?></h3>
+							<p><?php echo esc_html( $tool_summary ); ?></p>
+						</article>
+					<?php endforeach; ?>
+				</div>
+			</details>
 
 			<ul class="aisa-checklist">
 				<li class="aisa-checklist-step" data-done="1">
