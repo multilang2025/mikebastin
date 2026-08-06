@@ -567,6 +567,17 @@ function wp_fetch($site, $path, $method = 'GET', $data = []) {
     // API calls inside a single WP request before responding, so the
     // combined tool needs more headroom than a single-lookup tool would.
     curl_setopt($ch, CURLOPT_TIMEOUT, 90);
+    // Without this, cURL sends its own bare default (often blank, or a
+    // plain PHP/x.x.x string). Some security plugins/WAFs specifically
+    // allowlist known browser signatures and block/challenge everything
+    // else as basic bot defense -- which silently swaps a real JSON
+    // response for an HTML block/challenge page, while a normal browser
+    // request to the exact same URL, with the exact same credentials,
+    // sails through untouched. A custom identifying string (e.g.
+    // "AISA-Connector/1.0") wouldn't help against that class of rule --
+    // it still isn't a recognized browser -- so this deliberately mimics
+    // one instead.
+    curl_setopt($ch, CURLOPT_USERAGENT, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36');
 
     $headers = [
         'Authorization: Basic ' . $auth,
