@@ -705,28 +705,38 @@ function get_tools_schema() {
             ]
         ],
         [
+            // These parameter names MUST match ai-site-assistant's real
+            // replace_in_post exactly (id/find/replace, not post_id/search/
+            // replace) -- this fallback only fires when a site's own
+            // /aisa/v1/tools fetch fails, but whatever args get collected
+            // here still get forwarded verbatim to that same site's real
+            // /aisa/v1/tool endpoint. A mismatch here doesn't error cleanly;
+            // it silently sends id=0 (int cast of a missing/wrong key),
+            // which reads as a confusing "Permission denied" from the real
+            // handler's own permission check, not as a schema error.
             'name' => 'replace_in_post',
             'description' => 'Replace a specific snippet of HTML in a post with new content.',
             'inputSchema' => [
                 'type' => 'object',
                 'properties' => [
-                    'post_id' => ['type' => 'integer'],
-                    'search' => ['type' => 'string'],
+                    'id' => ['type' => 'integer'],
+                    'find' => ['type' => 'string'],
                     'replace' => ['type' => 'string']
                 ],
-                'required' => ['post_id', 'search', 'replace']
+                'required' => ['id', 'find', 'replace']
             ]
         ],
         [
             'name' => 'append_to_post',
-            'description' => 'Append content to the end of an existing post.',
+            'description' => 'Append a block of HTML to the end of a post/page.',
             'inputSchema' => [
                 'type' => 'object',
                 'properties' => [
-                    'post_id' => ['type' => 'integer'],
-                    'content' => ['type' => 'string']
+                    'id' => ['type' => 'integer'],
+                    'html' => ['type' => 'string'],
+                    'expected_modified' => ['type' => 'string', 'description' => 'The post_modified value from get_post.']
                 ],
-                'required' => ['post_id', 'content']
+                'required' => ['id', 'html', 'expected_modified']
             ]
         ],
         [
@@ -742,13 +752,13 @@ function get_tools_schema() {
         ],
         [
             'name' => 'get_page_html',
-            'description' => 'Fetch the rendered HTML of a given public URL.',
+            'description' => 'Fetch a post/page\'s live rendered HTML by its ID (not a URL).',
             'inputSchema' => [
                 'type' => 'object',
                 'properties' => [
-                    'url' => ['type' => 'string']
+                    'id' => ['type' => 'integer']
                 ],
-                'required' => ['url']
+                'required' => ['id']
             ]
         ],
         [
