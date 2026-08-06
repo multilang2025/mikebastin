@@ -28,10 +28,13 @@ function get_db() {
     $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     $db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
 
-    $db->exec('CREATE SCHEMA IF NOT EXISTS ' . DB_SCHEMA);
-    // Every unqualified table name in every other file in this bridge
-    // resolves against this schema for the rest of the connection --
-    // nothing outside this function needs to know the schema exists.
+    // The schema itself is created once via schema.sql / the Supabase SQL
+    // editor, not here -- CREATE SCHEMA is a database-level privilege, and
+    // the app's own role is deliberately scoped to just this one schema
+    // (see the GRANT statements in schema.sql), so it can't run that even
+    // as a harmless no-op against an already-existing schema. Every
+    // unqualified table name in every other file in this bridge resolves
+    // against this schema for the rest of the connection.
     $db->exec('SET search_path TO ' . DB_SCHEMA);
 
     // Fresh database, so every column this bridge has ever needed goes
