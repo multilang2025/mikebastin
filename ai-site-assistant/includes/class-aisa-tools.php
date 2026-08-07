@@ -1532,12 +1532,20 @@ class AISA_Tools {
 		$stripped   = preg_replace( '/\/\*.*?\*\//s', '', $stripped );
 		$normalized = preg_replace( '/\s+/', ' ', strtoupper( trim( $stripped ) ) );
 
+		// Blank out string-literal contents (quoted text can legitimately
+		// contain a semicolon or a blocked keyword as plain data, e.g. a URL
+		// with "?a=1;b=2" or a phrase containing the word "update") so the
+		// checks below only see actual SQL syntax, not literal payloads.
+		$literal_free = preg_replace( "/'(?:[^'\\\\]|\\\\.|'')*'/s", "''", $stripped );
+
 		$is_select      = ( 0 === strpos( $normalized, 'SELECT' ) );
 		$is_schema_read = (bool) preg_match( '/^(DESCRIBE|DESC|SHOW|EXPLAIN SELECT)\b/', $normalized );
 
 		if ( ! $is_select && ! $is_schema_read ) {
 			return self::error( 'Only SELECT and schema reads (DESCRIBE, SHOW, EXPLAIN SELECT) are allowed. This tool has no write path.' );
 		}
+
+		$normalized_literal_free = preg_replace( '/\s+/', ' ', strtoupper( trim( $literal_free ) ) );
 
 		if ( $is_select ) {
 			$blocked = array(
@@ -1546,13 +1554,13 @@ class AISA_Tools {
 				'RENAME', 'REPLACE', 'LOAD', 'OUTFILE', 'DUMPFILE',
 			);
 			foreach ( $blocked as $keyword ) {
-				if ( preg_match( '/\b' . $keyword . '\b/', $normalized ) ) {
+				if ( preg_match( '/\b' . $keyword . '\b/', $normalized_literal_free ) ) {
 					return self::error( "Blocked SQL keyword in SELECT: {$keyword}." );
 				}
 			}
 		}
 
-		if ( preg_match( '/;\s*\S/', $sql ) ) {
+		if ( preg_match( '/;\s*\S/', $literal_free ) ) {
 			return self::error( 'Multiple SQL statements are not allowed.' );
 		}
 

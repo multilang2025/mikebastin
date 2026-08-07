@@ -149,12 +149,16 @@ function generate_uuid_v4() {
     return vsprintf('%s%s-%s-%s-%s-%s%s%s', str_split(bin2hex($data), 4));
 }
 
-// This bridge's own base URL, e.g. https://betranslated.us/php-mcp-bridge --
-// derived from the current request rather than hardcoded, so it works
-// whichever script (mcp.php, register.php, connect.php, ...) calls it.
+// This bridge's own base URL, e.g. https://www.betranslated.us/php-mcp-bridge.
+// Host is pinned to the canonical www domain rather than read from
+// $_SERVER['HTTP_HOST']: the apex domain (no www) 301-redirects to www at
+// the hosting-panel level, and that redirect alone costs ~2.5s per request.
+// A connection registered while hitting the apex host used to bake that
+// slow non-www URL into connection_url permanently, taxing every future
+// tool call. The path still comes from the request, since script location
+// legitimately varies (mcp.php, register.php, connect.php, ...).
 function bridge_base_url() {
-    $proto = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? 'https' : 'http';
-    return $proto . '://' . $_SERVER['HTTP_HOST'] . rtrim(dirname($_SERVER['SCRIPT_NAME']), '/');
+    return 'https://www.betranslated.us' . rtrim(dirname($_SERVER['SCRIPT_NAME']), '/');
 }
 
 // Upsert a WordPress site's credentials by wp_url -- shared by register.php
