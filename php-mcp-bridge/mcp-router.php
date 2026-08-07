@@ -427,13 +427,34 @@ function execute_tool($site, $name, $args, $sites = null, $bearer = null, &$targ
         unset($args['site']);
     }
 
+    // search_posts/get_post/create_post/update_post have a real, richer
+    // implementation in the WP plugin itself (staleness checks on updates,
+    // image-suggestion notes, etc.) reachable via /aisa/v1/tool, same as
+    // every other tool -- try that first. execute_core_tool() (a generic
+    // WP core REST equivalent, /wp/v2/{type}/{id}) is kept only as a
+    // fallback for a site running an older plugin without /aisa/v1/tool at
+    // all. Calling execute_core_tool() unconditionally, as this used to,
+    // silently bypassed the plugin's real implementation even when it was
+    // perfectly reachable -- among other effects, that meant these 4 tools
+    // could never reach a post type without a registered REST route (e.g.
+    // Divi's et_pb_layout), even though replace_in_post/db_query (native,
+    // not REST-route-dependent) could reach it fine the whole time.
     $core_tools = ['search_posts', 'get_post', 'create_post', 'update_post'];
-    if (in_array($name, $core_tools)) {
-        return execute_core_tool($call_site, $name, $args);
+
+    try {
+        $res = wp_fetch($call_site, '/aisa/v1/tool', 'POST', ['tool' => $name, 'input' => $args]);
+    } catch (Exception $e) {
+        // A connection-level failure here (not a plugin-returned error --
+        // see below) means this site can't reach /aisa/v1/tool at all.
+        // Only the 4 basic CRUD tools have a generic fallback; every other
+        // tool has none, so its real connection error should surface
+        // instead of being silently swallowed.
+        if (in_array($name, $core_tools)) {
+            return execute_core_tool($call_site, $name, $args);
+        }
+        throw $e;
     }
 
-    // AISA specific tools go to /aisa/v1/tool
-    $res = wp_fetch($call_site, '/aisa/v1/tool', 'POST', ['tool' => $name, 'input' => $args]);
     if (!empty($res['is_error'])) {
         throw new Exception(is_string($res['content'] ?? '') ? $res['content'] : json_encode($res['content']));
     }
