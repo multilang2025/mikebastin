@@ -3,7 +3,7 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
-Stable tag: 2.1.2
+Stable tag: 2.1.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -155,6 +155,9 @@ Tips:
   gate on more precisely.
 
 == Changelog ==
+= 2.1.3 =
+* replace_in_post now falls back to a quote/entity-lenient match (straight vs curly quotes, & vs &amp;) when the byte-exact match fails, instead of erroring out immediately -- fixes false "text not found" results when a snippet copied from rendered HTML has plain characters where the stored content has texturized/entity-encoded ones.
+
 = 2.1.2 =
 * Fixed db_query's SQL guard false-positiving on literal semicolons or blocked keywords inside quoted string values (e.g. a URL query string, or text containing the word "update") -- the multiple-statements and blocked-keyword checks now ignore string-literal contents instead of scanning the raw query text.
 

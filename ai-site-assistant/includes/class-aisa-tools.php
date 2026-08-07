@@ -1701,6 +1701,36 @@ class AISA_Tools {
 	}
 
 	/**
+	 * preg_quote()d literal where straight and curly quotes match each other,
+	 * and & matches &amp; -- so a snippet copied from rendered HTML (where
+	 * WordPress has texturized quotes and entity-encoded &) still matches
+	 * against stored post_content typed with plain characters, and vice
+	 * versa. Ported from WPVibe's content-ops matcher (same real-world
+	 * failure mode we hit live: invisible curly-quote/entity mismatches
+	 * reading as false "not found" errors). Used only as a fallback after an
+	 * exact match fails -- see replace_in_post.
+	 *
+	 * @param string $str Literal text to build a lenient pattern for.
+	 * @return string Regex fragment (no delimiters).
+	 */
+	private static function lenient_match_pattern( $str ) {
+		$single = "(?:'|\xE2\x80\x98|\xE2\x80\x99)";
+		$double = '(?:"|\xE2\x80\x9C|\xE2\x80\x9D)';
+		$pattern = strtr(
+			preg_quote( $str, '/' ),
+			array(
+				"'"            => $single,
+				'"'            => $double,
+				"\xE2\x80\x98" => $single,
+				"\xE2\x80\x99" => $single,
+				"\xE2\x80\x9C" => $double,
+				"\xE2\x80\x9D" => $double,
+			)
+		);
+		return preg_replace( '/&amp;|&/', '(?:&amp;|&)', $pattern );
+	}
+
+	/**
 	 * Replace an exact text snippet inside a post's content (targeted edit).
 	 *
 	 * Much cheaper than rewriting the whole post, which keeps long edits under
@@ -1732,16 +1762,35 @@ class AISA_Tools {
 		if ( '' === $find ) {
 			return self::error( 'The "find" text is empty.' );
 		}
-		$count = substr_count( $p->post_content, $find );
-		if ( 0 === $count ) {
-			return self::error( 'The "find" text was not found in the content. Read the post again and copy an exact snippet.' );
-		}
-		if ( $count > 1 ) {
-			return self::error( "The \"find\" text appears {$count} times; make it longer/unique so exactly one match is replaced." );
-		}
+		$replace = wp_kses_post( $in['replace'] ?? '' );
+		$count   = substr_count( $p->post_content, $find );
 
-		$replace     = wp_kses_post( $in['replace'] ?? '' );
-		$new_content = str_replace( $find, $replace, $p->post_content );
+		if ( 1 === $count ) {
+			$new_content = str_replace( $find, $replace, $p->post_content );
+		} elseif ( $count > 1 ) {
+			return self::error( "The \"find\" text appears {$count} times; make it longer/unique so exactly one match is replaced." );
+		} else {
+			// No byte-exact match -- fall back to a quote/entity-lenient
+			// match before giving up, since a snippet copied from rendered
+			// HTML often has plain quotes/& where the stored content has
+			// texturized/entity-encoded ones.
+			$pattern      = '/' . self::lenient_match_pattern( $find ) . '/u';
+			$lenient_count = preg_match_all( $pattern, $p->post_content );
+			if ( ! $lenient_count ) {
+				return self::error( 'The "find" text was not found in the content. Read the post again and copy an exact snippet.' );
+			}
+			if ( $lenient_count > 1 ) {
+				return self::error( "The \"find\" text appears {$lenient_count} times (accounting for quote/entity variants); make it longer/unique so exactly one match is replaced." );
+			}
+			$new_content = preg_replace_callback(
+				$pattern,
+				static function () use ( $replace ) {
+					return $replace;
+				},
+				$p->post_content,
+				1
+			);
+		}
 		$result      = wp_update_post(
 			array(
 				'ID'           => $id,
