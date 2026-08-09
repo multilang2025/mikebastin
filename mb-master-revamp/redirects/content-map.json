@@ -1,17 +1,44 @@
 {
-  "_comment": "Migration contract skeleton per docs/HANDOFF.md §16. One record per WPML translation group. Populate during content-migrator's extraction pass (P3). Every ~285 legacy content IDs must appear exactly once; missing locale siblings are explicit null, never omitted.",
+  "_comment": "Migration contract per docs/HANDOFF.md §16 as amended by §25 (Payload removed; content lives in the repo as MDX). One record per WPML translation group, resolved from icl_translations trid groups, never from slug similarity. Populate during content-migrator's extraction pass (P3). Every one of the ~285 legacy content IDs appears exactly once; missing locale siblings are explicit null, never omitted. The 'group' value is written into each MDX file's frontmatter and is what binds translation siblings and emits hreflang.",
   "_schema_example": {
     "group": "ai-consulting",
-    "type": "project",
-    "en": { "id": 24847584, "slug": "ai-consulting-services", "url": "/services/ai-consulting-services/" },
-    "fr": { "id": 24848390, "slug": "conseil-ia", "url": "/fr/services/conseil-ia/" },
-    "es": { "id": 24848569, "slug": "consultoria-de-inteligencia-artificial", "url": "/es/services/consultoria-de-inteligencia-artificial/" },
+    "type": "service",
+    "en": {
+      "id": 24847584,
+      "slug": "ai-consulting-services",
+      "url": "/services/ai-consulting-services/",
+      "content_path": "content/en/services/ai-consulting-services.mdx"
+    },
+    "fr": {
+      "id": 24848390,
+      "slug": "conseil-ia",
+      "url": "/fr/services/conseil-ia/",
+      "content_path": "content/fr/services/conseil-ia.mdx"
+    },
+    "es": {
+      "id": 24848569,
+      "slug": "consultoria-de-inteligencia-artificial",
+      "url": "/es/services/consultoria-de-inteligencia-artificial/",
+      "content_path": "content/es/services/consultoria-de-inteligencia-artificial.mdx"
+    },
     "tier": "A",
     "action": "migrate",
-    "payload_collection": "services",
-    "destination": "payload",
+    "destination": "mdx",
+    "absorbed_into": null,
     "vm_action": null,
     "vm_target_url": null
   },
+  "_enums": {
+    "type": ["service", "post", "page"],
+    "action": ["migrate", "absorb", "retire", "move"],
+    "destination": ["mdx", "valenciamove", "stay", "prune"],
+    "vm_action": ["redirect-to-existing", "import-as-new", null]
+  },
+  "_rules": [
+    "Groups merge as groups. Absorbing an EN page obliges its FR and ES siblings to merge into the FR and ES siblings of the absorbing group.",
+    "Redirects stay inside their locale. An absorbed FR page 301s to the FR target, never the EN one.",
+    "absorbed_into carries the target group id when action is 'absorb'; redirects are generated from it per locale.",
+    "A group with only some locales populated emits hreflang only for the locales it has. Never guess a URL for a missing sibling."
+  ],
   "groups": []
 }

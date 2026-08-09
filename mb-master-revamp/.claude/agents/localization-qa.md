@@ -18,7 +18,8 @@ Checks:
   locale's slug independently against the source (e.g.
   `ai-consulting-services` / `conseil-ia` / `consultoria-de-inteligencia-
   artificial` really do belong to the same group, not slug-guessed).
-- Payload locale-relation documents produce a complete hreflang triplet for
+- Per-locale content directories, joined on the frontmatter `group` field,
+  produce a complete hreflang triplet for
   every group with 2+ locales populated, x-default = EN. A group correctly
   missing a locale (owner hasn't translated it) is fine; a group that should
   have all three but is emitting an incomplete triplet is a bug.

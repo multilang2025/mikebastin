@@ -64,8 +64,8 @@ The consequence for section 3: the "43 to 13" table describes **13
 translation groups**, not 13 EN pages. Merging EN page B into EN page A
 obliges the FR and ES siblings of B to merge into the FR and ES siblings of
 A. Consolidating each locale independently would orphan locales and break
-hreflang structurally, because in Payload one document is one hreflang
-cluster (`HANDOFF.md` §14). Groups merge as groups.
+hreflang structurally, because one translation group is one hreflang
+cluster. Groups merge as groups.
 
 Same rule for the retire list in section 5. Those 14 slugs are EN labels for
 group records. A group retires in every locale it exists in, or not at all.
@@ -365,8 +365,8 @@ ES   /es/servicios/consultoria-de-inteligencia-artificial/
 
 Whether the `/services/` segment itself localises to `/servicios/` is a
 decision to make once rather than per page, since it changes every service
-URL in the locale. Payload supports localised slug fields, so either answer
-is implementable; picking one late is what hurts.
+URL in the locale. Either answer is implementable with per-locale content
+directories; picking one late is what hurts.
 
 Leaf slugs come from `content-map.json`, never invented and never derived
 from EN. Locales that legitimately lack a sibling emit no hreflang alternate

@@ -1,7 +1,7 @@
 # MB Master Revamp
 
-Rebuild of mikebastin.com: Divi consultancy site to a Next.js + Payload CMS
-portfolio. This directory is the handoff bundle from the planning
+Rebuild of mikebastin.com: Divi consultancy site to a Next.js portfolio with
+content in the repo, no database and no CMS. This directory is the handoff bundle from the planning
 conversation, plus the agent roster that governs the build.
 
 **If you're the developer picking this up (Andre), start with
@@ -39,12 +39,11 @@ mb-master-revamp/
 ## Status
 
 Planning is closed (HANDOFF.md §21). Next step is P0: resolve the open
-decisions in `docs/HANDOFF.md` §15/§17/§21 (repo org, Postgres provider,
-media storage, X handle, Tier C prune sign-off, service consolidation
-sign-off, Valencia STAY-list sign-off, credibility strip numbers), then
-scaffold the actual Next.js + Payload app under this directory (or a
-dedicated app subdirectory — `cto` agent to confirm layout once scaffolding
-starts).
+decisions in `docs/HANDOFF.md` §21 (repo org, X handle, Tier C prune
+sign-off, service consolidation sign-off, Valencia STAY-list sign-off,
+credibility strip numbers), then scaffold the Next.js app under this
+directory (or a dedicated app subdirectory — `cto` agent to confirm layout
+once scaffolding starts).
 
 No application code, dependencies, or credentials exist here yet — this
 commit is the planning bundle and agent roster only.

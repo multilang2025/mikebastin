@@ -29,17 +29,18 @@ file is the sequencing on top of all three.
 Pulled from `docs/HANDOFF.md` §21 "Decisions OPEN," de-duplicated against
 the overlapping §5/§15/§17 lists:
 
-1. Repo org/location for the actual Next.js + Payload app (this monorepo
-   directory vs. a dedicated repo)
-2. Postgres provider (Supabase recommended, connector already live) + media
-   storage (Supabase Storage vs. Vercel Blob)
-3. X handle + 3 featured post URLs (`HANDLE_TBD` placeholders still in
+1. Repo org/location for the actual Next.js app (this monorepo directory
+   vs. a dedicated repo)
+2. X handle + 3 featured post URLs (`HANDLE_TBD` placeholders still in
    `concept-v3.html`)
-4. Tier C prune list sign-off (9 low-value posts, §11)
-5. Service consolidation sign-off (43 services → ~12)
-6. Valencia STAY-list sign-off (3 pages staying on mikebastin.com, §18)
-7. Credibility strip numbers (25 years / languages / countries / domains)
-8. FR-only 44th service: promote to EN/ES or keep FR-only
+3. Tier C prune list sign-off (§11)
+4. Service consolidation sign-off (43 services → 13)
+5. Valencia STAY-list sign-off (3 pages staying on mikebastin.com, §18)
+6. Credibility strip numbers (25 years / languages / countries / domains)
+7. FR-only 44th service: promote to EN/ES or keep FR-only
+
+The fuller list, including the ES-layer measurement and localised route
+segments, is in `docs/CONTENT-ARCHITECTURE.md` section 10.
 
 (matosurf.com as an 8th portfolio spread is already closed — yes — and isn't
 re-listed here.)
@@ -54,11 +55,11 @@ resolve while doing that pass.
 ## 4. Phase plan (P0-P5)
 
 Condensed from `docs/HANDOFF.md` §9, re-sequenced to reflect the full final
-scope (CMS migration + Valencia exodus + social pipeline + 12-agent
+scope (content migration + Valencia exodus + social pipeline + 12-agent
 roster), not the original pre-§11-24 draft:
 
 - **P0** — Resolve the owner decisions in §2 above. Andre delivers the clean
-  spec. Scaffold Next.js 15 + Payload 3 + Postgres on Vercel.
+  spec. Scaffold Next.js 15 with MDX content and Keystatic.
 - **P1** — Static build to `concept-v3.html` parity: theme persistence, real
   project visuals, accessibility pass (`accessibility-auditor`), reduced
   motion, contrast in light-mode gold.
