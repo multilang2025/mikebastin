@@ -35,7 +35,7 @@ export default function ThemeToggle() {
       style={{
         borderColor: "var(--rule)",
         background: "var(--chip)",
-        color: "var(--gold)",
+        color: "var(--berry)",
       }}
     >
       <svg width="17" height="17" viewBox="0 0 24 24" fill="none" aria-hidden>

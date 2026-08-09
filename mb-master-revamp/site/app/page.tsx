@@ -110,7 +110,7 @@ export default function Home() {
             <div className="flex flex-wrap items-center gap-x-3 gap-y-2 text-[.94rem]" style={{ color: "var(--dim)" }}>
               {["Ranking in EN", "Converting in FR", "Localised in ES", "Indexed in NL"].map((t, i) => (
                 <span key={t} className="flex items-center gap-3">
-                  {i > 0 && <i className="block h-[3px] w-[3px] rounded-full" style={{ background: "var(--gold)" }} />}
+                  {i > 0 && <i className="block h-[3px] w-[3px] rounded-full" style={{ background: "var(--berry)" }} />}
                   {t}
                 </span>
               ))}
@@ -127,7 +127,7 @@ export default function Home() {
               className="display max-w-[22ch] text-[clamp(1.9rem,4.6vw,3.4rem)] font-medium leading-[1.14]"
             >
               A site that ranks everywhere and{" "}
-              <em style={{ color: "var(--gold)" }}>converts nowhere</em> has a
+              <em style={{ color: "var(--berry)" }}>converts nowhere</em> has a
               language problem, not a traffic problem.
             </blockquote>
           </Reveal>
@@ -226,7 +226,7 @@ export default function Home() {
                 <Reveal i={i}>
                   <div
                     className="display text-[clamp(2.1rem,4.4vw,3.1rem)] font-semibold leading-none"
-                    style={{ color: "var(--gold)" }}
+                    style={{ color: "var(--berry)" }}
                   >
                     <Counter to={s.n} suffix={s.s} />
                   </div>

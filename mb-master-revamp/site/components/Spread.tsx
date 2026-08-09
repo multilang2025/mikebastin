@@ -42,7 +42,7 @@ export default function Spread({ d, flip }: { d: SpreadData; flip: boolean }) {
             background: `linear-gradient(135deg,
               color-mix(in oklab, var(--deep) 88%, black) 0%,
               var(--deep) 42%,
-              color-mix(in oklab, var(--gold) 34%, var(--deep)) 100%)`,
+              color-mix(in oklab, var(--berry) 40%, var(--deep)) 100%)`,
           }}
           className="absolute inset-0"
         />
@@ -70,7 +70,7 @@ export default function Spread({ d, flip }: { d: SpreadData; flip: boolean }) {
       {/* text */}
       <motion.div style={{ y: yText, order: flip ? 1 : 2 }}>
         <div className="mb-3 flex items-baseline gap-4">
-          <span className="display text-[1.3rem] font-medium tabular-nums" style={{ color: "var(--gold)" }}>
+          <span className="display text-[1.3rem] font-medium tabular-nums" style={{ color: "var(--berry)" }}>
             {d.numeral}.
           </span>
           <span className="eyebrow">{d.angle}</span>
@@ -89,7 +89,7 @@ export default function Spread({ d, flip }: { d: SpreadData; flip: boolean }) {
             <div key={m.k}>
               <dt
                 className="display text-[1.5rem] font-semibold leading-none tabular-nums"
-                style={{ color: "var(--gold)" }}
+                style={{ color: "var(--berry)" }}
               >
                 {m.v}
               </dt>

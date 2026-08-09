@@ -32,7 +32,7 @@ export default function ImpressionsChart() {
     <div>
       <div className="mb-7 flex flex-wrap items-center gap-x-6 gap-y-2 text-[.78rem]">
         <span className="flex items-center gap-2" style={{ color: "var(--dim)" }}>
-          <i className="block h-2.5 w-2.5 rounded-[2px]" style={{ background: "var(--gold)" }} />
+          <i className="block h-2.5 w-2.5 rounded-[2px]" style={{ background: "var(--berry)" }} />
           Stays on mikebastin.com
         </span>
         <span className="flex items-center gap-2" style={{ color: "var(--dim)" }}>
@@ -57,14 +57,14 @@ export default function ImpressionsChart() {
               <div className="mb-2 flex items-baseline justify-between gap-4">
                 <span
                   className="min-w-0 truncate text-[.88rem] transition-colors duration-300"
-                  style={{ color: live ? "var(--gold)" : "var(--ink)" }}
+                  style={{ color: live ? "var(--berry)" : "var(--ink)" }}
                   title={`/${d.label}/`}
                 >
                   /{d.label}/
                 </span>
                 <span
                   className="shrink-0 text-[.95rem] font-medium tabular-nums transition-colors duration-300"
-                  style={{ color: live ? "var(--gold)" : "var(--ink)" }}
+                  style={{ color: live ? "var(--berry)" : "var(--ink)" }}
                 >
                   {d.imp.toLocaleString("en-GB")}
                 </span>
@@ -77,7 +77,7 @@ export default function ImpressionsChart() {
                 >
                   <motion.div
                     className="absolute inset-y-0 left-0 rounded-full"
-                    style={{ background: d.moves ? "var(--silver)" : "var(--gold)" }}
+                    style={{ background: d.moves ? "var(--silver)" : "var(--berry)" }}
                     initial={{ width: 0 }}
                     animate={inView ? { width: `${pct}%` } : { width: 0 }}
                     transition={{

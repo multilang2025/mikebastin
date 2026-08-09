@@ -40,7 +40,7 @@ export default function LocaleTable() {
               className="group"
             >
               <td
-                className="border-b py-3.5 pr-4 font-medium transition-colors duration-300 group-hover:text-[var(--gold)]"
+                className="border-b py-3.5 pr-4 font-medium transition-colors duration-300 group-hover:text-[var(--berry)]"
                 style={{ borderColor: "var(--rule)" }}
               >
                 {r.type}
@@ -53,7 +53,7 @@ export default function LocaleTable() {
                     className="border-b py-3.5 pr-4 text-right"
                     style={{
                       borderColor: "var(--rule)",
-                      color: odd ? "var(--gold)" : "var(--ink)",
+                      color: odd ? "var(--berry)" : "var(--ink)",
                       fontWeight: odd ? 600 : 350,
                     }}
                   >

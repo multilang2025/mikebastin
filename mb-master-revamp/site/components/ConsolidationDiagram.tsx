@@ -63,14 +63,14 @@ export default function ConsolidationDiagram() {
               aria-expanded={isOpen}
               className="group w-full border-l-2 py-4 pl-5 pr-3 text-left transition-all duration-500"
               style={{
-                borderColor: isOpen ? "var(--gold)" : "var(--rule)",
+                borderColor: isOpen ? "var(--berry)" : "var(--rule)",
                 background: isOpen ? "var(--shade)" : "transparent",
               }}
             >
               <div className="flex flex-wrap items-baseline gap-x-4 gap-y-1">
                 <span
                   className="display text-[1.15rem] font-semibold tabular-nums"
-                  style={{ color: "var(--gold)" }}
+                  style={{ color: "var(--berry)" }}
                 >
                   {c.numeral}.
                 </span>
@@ -110,7 +110,7 @@ export default function ConsolidationDiagram() {
                     <motion.path
                       d="M 14 0 C 14 12, 30 6, 44 17"
                       fill="none"
-                      stroke="var(--gold)"
+                      stroke="var(--berry)"
                       strokeWidth="1.2"
                       strokeLinecap="round"
                       initial={{ pathLength: 0, opacity: 0 }}
@@ -127,7 +127,7 @@ export default function ConsolidationDiagram() {
                         animate={isOpen ? { opacity: 1, y: 0 } : { opacity: 0 }}
                         transition={{ duration: 0.4, delay: isOpen ? 0.35 + i * 0.05 : 0 }}
                         className="rounded-[3px] border px-2.5 py-[4px] text-[.78rem] font-medium"
-                        style={{ borderColor: "var(--gold)", color: "var(--gold)" }}
+                        style={{ borderColor: "var(--berry)", color: "var(--berry)" }}
                       >
                         /services/{p}/
                       </motion.span>
