@@ -33,112 +33,147 @@ cannot answer it either move to a network property or get retired.
 
 ## 2. Locale architecture (EN, FR, ES)
 
-Everything downstream is expressed in EN slugs for readability. The site is
-trilingual, and the locale rules below override any reading of sections 3 to
-6 as an EN-only exercise.
+Verified against the live `icl_translations` table on 2026-08-09, not
+inferred. Everything downstream is expressed in EN slugs for readability,
+and the rules here override any reading of sections 3 to 6 as an EN-only
+exercise.
 
-### Inventory (verified 2026-07-28, `HANDOFF.md` §16)
+### The blog is not trilingual. It is three monolingual blogs.
 
-| Type | EN | FR | ES |
-|---|---|---|---|
-| posts | 91 | 23 | 20 |
-| pages | 7 | 7 | 7 |
-| services | 43 | **44** | 43 |
-
-About 285 content objects. FR carries one more service than EN and ES.
-
-### Consolidation happens at the translation group, never per locale
-
-The single most important rule in this document. Slugs are fully localised
-with no mirroring, confirmed in `HANDOFF.md` §16:
-
-| EN | FR | ES |
+| Type | Groups | Locale coverage |
 |---|---|---|
-| `ai-consulting-services` | `conseil-ia` | `consultoria-de-inteligencia-artificial` |
+| Pages | 7 | all 7 are `en+es+fr` |
+| Services | 44 | 43 are `en+es+fr`, 1 is FR-only |
+| Posts | **125** | 84 EN-only, 18 ES-only, 15 FR-only, 6 `en+fr`, 1 `en+es+fr`, 1 `es+fr` |
 
-An FR redirect target can never be derived from the EN slug. Relations
-resolve through WPML `trid` groups in `icl_translations`, never by slug
-similarity.
+**Only 8 of 125 post groups exist in more than one language.** Ninety-four
+per cent of the blog is single-locale. The counts in `HANDOFF.md` §16
+(91/23/20) are correct but read as though FR and ES are partial translations
+of EN, and they are not: they are largely independent corpora that happen to
+share a domain.
 
-The consequence for section 3: the "43 to 13" table describes **13
-translation groups**, not 13 EN pages. Merging EN page B into EN page A
-obliges the FR and ES siblings of B to merge into the FR and ES siblings of
-A. Consolidating each locale independently would orphan locales and break
-hreflang structurally, because one translation group is one hreflang
-cluster. Groups merge as groups.
+Pages and services are genuinely trilingual. The blog is not. Plan them
+differently.
 
-Same rule for every disposition in section 5. Those slugs are EN labels for
-group records. A group relocates, repositions or retires in every locale it
-exists in, or not at all. Relocating an EN post to globaprom.com without
-resolving its FR and ES siblings orphans them.
+### Every post group that is actually translated
+
+| Group | Status |
+|---|---|
+| `generative-engine-optimization` / `optimizar-para-seo-y-geo` / `seo-au-geo` | The only fully trilingual post on the domain, and it is the GEO pillar from cluster C |
+| `optimising-your-website-for-voice-search` / `recherche-vocale` | Core, stays |
+| `optimizacion-para-sistemas-de-ia` / `optimisation-pour-les-systemes-ia` | ES and FR, no EN. Core, stays |
+| `valencia-cost-of-living` / `cout-de-la-vie-valencia` | Leaves for valenciamove.com |
+| `valencia-expat` / `expatrie-valencia` | Leaves |
+| `valencia-public-transportation` / `transport-a-valencia` | Leaves |
+| `valencia-50-shades-of-noise` / `valencia-50-nuances-de-bruits` | Leaves |
+| `work-life-balance-in-valencia` / `travailler-a-valencia-en-tant-quexpatrie` | Leaves |
+
+Five of the eight are Valencia. **After the exodus in section 6, exactly
+three post groups on the entire domain will carry any translation
+relationship.** Hreflang for the blog is therefore a very small problem, and
+the effort belongs on services and pages instead.
+
+### The FR-only 44th service, identified
+
+`localisation-juridique-reglementaire`, id 24848915, "Localisation juridique
+et réglementaire". Legal and regulatory localisation.
+
+Recommendation: **promote it to EN and ES.** It sits squarely inside the
+border, it is high-value commercial work, and it is the natural service page
+for the Delaguía y Luzón case study to link into. Leaving it FR-only wastes
+a service the other two locales have no equivalent for. Closes the open item
+that previously blocked the merge arithmetic: services are 44 groups, 43
+trilingual plus this one.
+
+### The two best FR pages are FR-only originals
+
+| FR page | 90d impressions | Has EN sibling |
+|---|---|---|
+| `/fr/agence-seo-internationale/` | 1,969 | **No** |
+| `/fr/consultant-referencement-international/` | 1,316 | **No** |
+| `/fr/expert-en-seo-international/` | 980 | Yes |
+
+Roughly 3,285 impressions of the best-performing core content on the domain
+exist only in French, against 702 for the entire EN homepage. FR is not a
+translation layer that happens to do well. It is original work that
+outperforms the English site on the exact topic the English site is
+supposed to own.
+
+Both should be promoted to EN and ES. Doing so is cheaper than writing new
+English pillar content and starts from proven demand.
+
+### Correction: the ES layer is not hollow
+
+An earlier draft of this document said the strongest Spanish-market content
+was Valencia lifestyle and that the ES layer might be thin once the exodus
+completed. Both claims were wrong, and the live data contradicts them.
+
+Nineteen of twenty ES posts are ES-only originals, and they are not
+scattered. They form coherent clusters:
+
+| ES-only cluster | Count | Note |
+|---|---|---|
+| Competitor analysis | 7 | `analisis-competitivo-seo`, `competidores-seo`, `analizar-backlinks-competidores`, `analizar-trafico-web-competencia`, `rastrear-posiciones-de-keywords-de-competidores`, `herramientas-gratuitas-analisis-competitivo`, `analisis-de-la-competencia-seo` |
+| Multilingual SEO | 5 | including `seo-multilingue-2026-presencia-total`, `seo-tecnico-para-sitios-multilingues` |
+| GEO and AI | 4 | including `datos-estructurados-schema-optimizacion-geo`, `medir-rendimiento-geo` |
+| Spain local SEO | 2 | `link-building-local-en-espana`, `optimizar-perfil-de-empresa-de-google` |
+| Valencia | **1** | `trabajar-en-remoto-desde-valencia`, the only one that leaves |
+
+The Spanish competitor-analysis cluster covers the same topic as
+`competitor-analysis-traffic-checklist`, the 18,522-impression English page
+identified in section 4 as the highest-value content job on the domain. A
+complete cluster on that topic already exists in Spanish. The ES layer is
+doing what section 4 recommends the English site should do.
+
+ES ships at launch. The question in `HANDOFF.md` §17 does not need reopening.
+What ES still lacks is measurement: no GSC pull for the `/es/` path exists
+in the record, so the cluster is unquantified even though it is clearly
+real.
+
+### Consequences for the migration
+
+**An EN-driven extraction silently loses 34 published objects**: 15 FR-only
+posts, 18 ES-only posts, and the FR-only service. Walking EN content and
+resolving siblings is the obvious way to build `content-map.json` and it is
+wrong here. Extraction must iterate every locale independently and reconcile
+on `trid`.
+
+This compounds the inventory gap in section 11. `sitemap-MB-EN.txt` is
+EN-only, so FR-only and ES-only content is invisible to both the redirect
+baseline and an EN-first content map. Two independent mechanisms would each
+drop the same 33 posts.
 
 **Redirects stay inside their locale.** An absorbed FR service 301s to the
-FR pillar, never to the EN one. Already in the `seo-preservation` spec, and
-worth restating because it is the easiest thing to get wrong at scale.
+FR pillar, never the EN one.
 
-### The FR-only 44th service blocks the merge count
+**Groups move as groups.** Section 5's dispositions are group-level: a group
+relocates, repositions or retires in every locale it exists in, or not at
+all. For single-locale groups that is trivially one page, which describes
+most of the blog.
 
-One FR service has no EN or ES sibling: a group record with `"en": null`
-and `"es": null`. Until it is identified, the consolidation arithmetic does
-not close, because 44 to 13 and 43 to 13 are different merges. Three ways
-out, owner's call once it is named: write EN and ES siblings, keep it
-FR-only as a legitimate single-locale cluster with x-default EN, or fold it
-into an FR pillar.
+### Recycling in the other direction
 
-### FR outperforms EN per page, and that is the lesson
+Section 5 recycles EN content outward. The locale data opens the reverse:
+33 single-locale posts plus one service are translation candidates, which is
+recycling work already paid for into markets that currently cannot see it.
 
-| FR page | 90d impressions |
-|---|---|
-| `/fr/agence-seo-internationale/` | 1,969 |
-| `/fr/consultant-referencement-international/` | 1,316 |
-| `/fr/expert-en-seo-international/` | 980 |
+Priority order, by proven demand rather than volume:
 
-Roughly 4,265 impressions from three pages, against 702 for the entire EN
-homepage. `/fr/` ranks at position 7.7 on "bastin". FR holds a quarter of
-EN's blog volume and beats it per page.
+1. `agence-seo-internationale` and `consultant-referencement-international`
+   FR to EN and ES. 3,285 impressions of proven core content.
+2. `localisation-juridique-reglementaire` FR to EN and ES. The missing
+   service.
+3. The Spanish competitor-analysis cluster to EN, feeding the flagship
+   rebuild in section 4 rather than starting it from nothing.
+4. `optimizacion-para-sistemas-de-ia` ES and FR to EN. Completes a group
+   that is already two thirds done and sits in the GEO cluster.
 
-The reason is topical, not linguistic. Those three FR pages cluster tightly
-on international-SEO-consultant queries, which is exactly the source context
-in section 1. FR is already the focused site that EN is trying to become.
-Use the FR query set as a model when rebuilding EN, rather than translating
-EN's sprawl into French.
+### Localised slugs are never derived
 
-Two FR quick wins sit on page one with no clicks:
-`/fr/services/localisation-ecommerce/` at position 9.5, and `/fr/` at 7.7.
-Title and meta surgery, same as `french-ppc-campaign` in EN.
-
-### Cluster coverage differs by locale, deliberately
-
-Koray's completeness rule applies per locale. Five clusters spread across 23
-FR posts gives five half-covered clusters, which ranks worse than two
-complete ones.
-
-- **Services: complete in all three locales.** All 13 groups, every locale.
-  Service pages are the money and are template-driven, so depth is
-  affordable.
-- **Blog: FR and ES ship fewer clusters, fully covered.** For FR the choice
-  is already made by the data: the international SEO consulting cluster
-  (proven above) plus the language-market cluster. Two clusters, complete,
-  beats five thin ones.
-- **ES cannot be planned yet.** See below.
-
-### The ES layer has never been measured
-
-`HANDOFF.md` §11 gives a Tier A list for EN and an explicit Tier A-FR list.
-There is no ES equivalent anywhere in the record. ES appears only as
-"siblings resolved via content-map". So 43 ES services and 20 ES posts exist
-and nobody has looked at what they do.
-
-Two things make that worth resolving before P3 rather than after. The owner
-is based in Valencia, so an unmeasured Spanish layer is a strange blind
-spot. And the strongest Spanish-market content on the domain is Valencia
-lifestyle, all of which leaves for valenciamove.com/es/ under section 6,
-which could leave the ES layer thin once the exodus completes.
-
-Action: pull GSC for the `/es/` path before choosing the ES cluster set.
-`HANDOFF.md` §17 closed "all three locales ship at launch", so if the data
-says the ES layer is hollow, that is a decision to reopen consciously rather
-than discover at launch. Flagged in section 10, not decided here.
+Confirmed live: `ai-consulting-services` / `conseil-ia` /
+`consultoria-de-inteligencia-artificial`. An FR or ES URL can never be
+computed from its EN counterpart. Relations resolve through `trid`, never
+through slug similarity.
 
 ---
 
@@ -543,13 +578,17 @@ an open question in section 10.
 4. **/pricing/.** Reframe as /how-i-work/, or keep public pricing?
 5. **Legal and sworn translation.** Fold into the translation pillar now and
    split back out later, or keep separate from the start?
-6. **The FR-only 44th service.** Needs identifying first, then a call:
-   promote to EN and ES, keep FR-only, or fold into an FR pillar. Blocks the
-   consolidation arithmetic either way.
-7. **The ES layer.** Pull GSC for `/es/` before P3. If the layer is hollow
-   once Valencia content leaves, does ES still ship at launch as
-   `HANDOFF.md` §17 closed, or become a fast-follow?
-8. **Localised route segments.** Does `/services/` become `/servicios/` and
+6. **The FR-only 44th service.** Identified as
+   `localisation-juridique-reglementaire`, legal and regulatory
+   localisation. Recommendation is to promote it to EN and ES. Yes or no?
+7. **The single-locale backlog.** 33 posts and one service exist in one
+   language only. Section 2 sets a priority order, starting with the two FR
+   pages carrying 3,285 impressions between them. How much of that backlog
+   do you want translated, and in which direction first?
+8. **ES measurement.** The Spanish layer is real and clustered rather than
+   hollow, so it ships at launch and §17 needs no reopening. Pull GSC for
+   `/es/` before P3 anyway, so the competitor-analysis cluster can be sized.
+9. **Localised route segments.** Does `/services/` become `/servicios/` and
    `/fr/services/`, or do route segments stay English with only leaf slugs
    localised? One decision, every service URL in two locales.
 
