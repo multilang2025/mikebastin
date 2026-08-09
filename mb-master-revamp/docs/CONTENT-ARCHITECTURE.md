@@ -67,8 +67,10 @@ A. Consolidating each locale independently would orphan locales and break
 hreflang structurally, because one translation group is one hreflang
 cluster. Groups merge as groups.
 
-Same rule for the retire list in section 5. Those 14 slugs are EN labels for
-group records. A group retires in every locale it exists in, or not at all.
+Same rule for every disposition in section 5. Those slugs are EN labels for
+group records. A group relocates, repositions or retires in every locale it
+exists in, or not at all. Relocating an EN post to globaprom.com without
+resolving its FR and ES siblings orphans them.
 
 **Redirects stay inside their locale.** An absorbed FR service 301s to the
 FR pillar, never to the EN one. Already in the `seo-preservation` spec, and
@@ -267,26 +269,106 @@ language-data-analysis
 
 ---
 
-## 5. Retire (outside the topical border)
+## 5. Recycling: five dispositions, not two
 
-301 each to the nearest cluster pillar, never 404. Owner sign-off needed
-before anything goes.
+Owner directive: recycle as much as possible, in updated form. Retirement is
+the last resort, not the default. Every piece gets one of five dispositions,
+and only the fifth destroys work.
 
-how-to-use-twitter-for-beginners, how-to-make-money-on-youtube,
-top-instagram-tools, mastering-the-art-of-networking,
-email-marketing-hacks-boosting-open-rates-and-conversions,
-15-simple-blog-post-ideas-to-help-attract-more-customers-to-your-business,
-how-to-write-about-your-professional-background,
-most-popular-marketing-strategies, 360-marketing-agency (438 imp, wrong
-intent), best-vietnam-sourcing-agencies-for-eudr-supplier-scouting-and-audits,
-human-creator-economy, global-business-trends, digital-marketing-advisor,
-eeat-vs-aeat-typo
+| Disposition | What happens | Rough count (EN) |
+|---|---|---|
+| **Refresh** | Stays in its cluster. Facts, stats and examples updated, meta rewritten | ~50 |
+| **Merge** | Folds into a pillar. The content is absorbed, never binned, and the slug 301s | ~14 |
+| **Reposition** | Real substance, wrong angle. Rewritten to sit inside the border | ~6 |
+| **Relocate** | Belongs to another property in the network. Moves there, 301s across | ~30 |
+| **Retire** | Genuinely nothing worth saving | ~6 |
 
-**One judgement call to make explicitly:** affiliate-marketing-programs
-carries 2,278 impressions and zero commercial fit. Koray's border logic says
-retire it, because impressions that never convert still cost topical focus.
-Retiring it is the recommendation, and losing 2,278 impressions is the price.
-Owner decides.
+That recycles roughly 93% of the English corpus. The retire list drops from
+14 pieces to about 6.
+
+**Important caveat on everything below.** These routings are inferred from
+slugs, impression data and cluster fit, not from reading the articles. A
+slug can misdescribe its own content, so each candidate needs a read before
+it moves. Treat the table as a shortlist to check, not a decision already
+made.
+
+### Relocate: which posts feed which property
+
+The network-linking policy in `HANDOFF.md` §19 already says these topics
+belong to these domains. Recycling applies the same logic to whole articles
+rather than just links.
+
+**→ globaprom.com** (custom AI software, automation, "vibecoding" builds)
+
+| Post | 90d imp | Why it fits Globaprom better |
+|---|---|---|
+| `conversational-ai-chatbots-business` | 2,336 | Buying intent here is "build me a chatbot", which is Globaprom's product and not a search consultant's. The single most valuable relocation on the list |
+| `llms-beyond-giants-hidden-ai-models` | no data | Model selection is a build-time engineering decision, not an SEO one |
+| `prompt-engineers` | no data | Hiring and working with prompt engineers describes Globaprom's own practice |
+| `services/web-design` | no data | Globaprom builds sites. Supersedes the earlier note in section 3 that sent this page to a mikebastin pillar; relocating the content and 301ing the URL is strictly better than discarding it |
+| `email-marketing-hacks...` | no data | Reposition as email and follow-up automation, which is a Globaprom capability. Currently on the retire list, and worth more as a rewrite |
+| `ai-powered-marketing` | no data | Split candidate: the automation half feeds Globaprom, the campaign half stays in cluster C |
+| `language-data-analysis` | no data | Weakest of the set. Data pipelines lean Globaprom, linguistics leans BeTranslated. Read before routing |
+
+Relocating the chatbots piece hands Globaprom a page already earning 2,336
+impressions, and removes the strongest off-border commercial signal from
+mikebastin.com. Both sides gain.
+
+Note the asymmetry worth exploiting: Globaprom already runs Next.js, so a
+relocation is a content move between two similar stacks rather than a port.
+
+**→ txintlfreight.com**
+
+`best-vietnam-sourcing-agencies-for-eudr-supplier-scouting-and-audits`.
+Supplier scouting and EU Deforestation Regulation audits are supply-chain
+compliance, which is exactly what a freight forwarder's clients wrestle
+with. Currently marked retire, and completely wasted there.
+
+**→ betranslated.com**
+
+`chrome-extensions-for-translators` and `language-service-providers`. Both
+speak to translators and to buyers comparing agencies, which is
+BeTranslated's audience rather than a consultant's. Keep
+`language-service-providers` on mikebastin instead if the intent turns out
+to be buyer-side comparison; read it first.
+
+**→ valenciamove.com**
+
+The Valencia set, per section 6. Around 22 EN pieces plus FR and ES
+siblings, the largest single relocation.
+
+**→ matosurf.com (speculative, needs a look)**
+
+`affiliate-marketing-programs` carries 2,278 impressions and no commercial
+fit here, and was the judgement call flagged in the earlier draft. Matosurf
+is an affiliate-driven gear guide, so the topic is genuinely native there.
+Two problems: Matosurf is French and the piece is English, and a generic
+affiliate article may not suit a gear site's editorial line. Worth reading
+before deciding between relocate, reposition or retire.
+
+### Reposition: keep the substance, change the angle
+
+Currently on the retire list, but the underlying work is reusable if the
+frame changes.
+
+| Post | Rewritten as |
+|---|---|
+| `most-popular-marketing-strategies` | Market-entry strategy for businesses selling in a second language |
+| `15-simple-blog-post-ideas...` | Building a multilingual content calendar that does not just translate the English one |
+| `how-to-write-about-your-professional-background` | About pages that carry credibility across languages, feeding the copywriting service |
+| `global-business-trends` | Which markets are worth localising into next |
+| `digital-marketing-advisor` | Folds into the About or How I Work page rather than surviving as a post |
+| `eeat-vs-aeat-typo` | Read this one first. AEAT is the Spanish tax agency, so the piece may be a deliberate disambiguation play with real Spanish-market value, or it may be a stray typo page |
+
+### Retire: what is genuinely left
+
+`how-to-use-twitter-for-beginners`, `how-to-make-money-on-youtube`,
+`top-instagram-tools`, `mastering-the-art-of-networking`,
+`human-creator-economy`, `360-marketing-agency`.
+
+Six pieces, all consumer-social or generic-agency content with no route back
+to the core and no network property that wants them. Each 301s to the
+nearest cluster pillar. No 404s.
 
 ---
 

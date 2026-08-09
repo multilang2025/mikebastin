@@ -29,16 +29,42 @@
     "vm_target_url": null
   },
   "_enums": {
-    "type": ["service", "post", "page"],
-    "action": ["migrate", "absorb", "retire", "move"],
-    "destination": ["mdx", "valenciamove", "stay", "prune"],
-    "vm_action": ["redirect-to-existing", "import-as-new", null]
+    "type": [
+      "service",
+      "post",
+      "page"
+    ],
+    "action": [
+      "migrate",
+      "absorb",
+      "refresh",
+      "reposition",
+      "relocate",
+      "retire"
+    ],
+    "destination": [
+      "mdx",
+      "globaprom",
+      "txintlfreight",
+      "betranslated",
+      "valenciamove",
+      "matosurf",
+      "stay",
+      "prune"
+    ],
+    "vm_action": [
+      "redirect-to-existing",
+      "import-as-new",
+      null
+    ]
   },
   "_rules": [
     "Groups merge as groups. Absorbing an EN page obliges its FR and ES siblings to merge into the FR and ES siblings of the absorbing group.",
     "Redirects stay inside their locale. An absorbed FR page 301s to the FR target, never the EN one.",
     "absorbed_into carries the target group id when action is 'absorb'; redirects are generated from it per locale.",
-    "A group with only some locales populated emits hreflang only for the locales it has. Never guess a URL for a missing sibling."
+    "A group with only some locales populated emits hreflang only for the locales it has. Never guess a URL for a missing sibling.",
+    "Dispositions per section 5 of CONTENT-ARCHITECTURE.md: refresh, merge, reposition, relocate, retire. A group takes one disposition across every locale it exists in; relocating EN without its FR and ES siblings orphans them.",
+    "Relocations to a network property need a cross-domain 301 per locale and a read of the article first, since these routings were inferred from slugs rather than content."
   ],
   "groups": []
 }
