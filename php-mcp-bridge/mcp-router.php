@@ -842,6 +842,22 @@ function get_tools_schema() {
             ]
         ],
         [
+            // Param names MUST match ai-site-assistant's real
+            // bulk_replace_in_posts exactly (ids/find/replace) -- same
+            // fallback-schema-drift trap as replace_in_post above.
+            'name' => 'bulk_replace_in_posts',
+            'description' => 'Apply the SAME exact text replacement across MULTIPLE posts/pages in one call. Max 50 posts per call.',
+            'inputSchema' => [
+                'type' => 'object',
+                'properties' => [
+                    'ids' => ['type' => 'array', 'items' => ['type' => 'integer']],
+                    'find' => ['type' => 'string'],
+                    'replace' => ['type' => 'string']
+                ],
+                'required' => ['ids', 'find', 'replace']
+            ]
+        ],
+        [
             'name' => 'fact_check',
             'description' => 'Perform a web search via Perplexity/Gemini to fact-check a claim.',
             'inputSchema' => [
