@@ -76,6 +76,25 @@ if (!empty($row['access_token'])) {
         $db->prepare('INSERT INTO site_switch_log (access_token_suffix, from_site_token, to_site_token, created_at) VALUES (?, ?, ?, ?)')
            ->execute([substr($row['access_token'], -8), $token_row['previous_site_token'] ?: null, $site_token, time()]);
 
+        // This request is a plain browser redirect, not an open MCP
+        // connection -- it can't call send_message() itself. Queue the
+        // notification under mcp.php's SSE polling loop instead (see the
+        // '__broadcast__' handling there) so a live Claude Desktop/Code
+        // session for this site picks it up and re-fetches tools/list
+        // without needing a full disconnect/reconnect. The Streamable-HTTP
+        // (Claude.ai web) transport has no open channel to deliver this on
+        // and won't see it -- that transport still needs the tools/list
+        // race avoided up front, e.g. via the direct ?token= connect flow.
+        //
+        // Queued under the PREVIOUS site_token, not the new one: an SSE
+        // loop already running captured its polling token once, at
+        // connection-open time, before this rebind ever happened, and never
+        // re-reads it for the life of that request -- it's still polling
+        // under whatever site_token (usually '' for an unbound self-service
+        // client) was true back then.
+        $db->prepare("INSERT INTO requests (token, session_id, payload, status, created_at) VALUES (?, '__broadcast__', ?, 'pending', NOW())")
+           ->execute([(string) $token_row['previous_site_token'], json_encode(['jsonrpc' => '2.0', 'method' => 'notifications/tools/list_changed'])]);
+
         $client_id = $token_row['client_id'] ?? '';
         if ($client_id) {
             $stmt = $db->prepare('SELECT full_access FROM oauth_clients WHERE client_id = ?');

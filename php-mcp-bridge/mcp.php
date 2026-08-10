@@ -185,16 +185,31 @@ while (true) {
         break;
     }
 
-    $stmt = $db->prepare("SELECT id, payload FROM requests WHERE token = ? AND session_id = ? AND status = 'pending' ORDER BY id ASC LIMIT 1");
+    // '__broadcast__' alongside the real session_id: connect-callback.php
+    // (a plain browser redirect, not an active MCP request) can't know this
+    // specific session_id ahead of time, so it queues under the sentinel
+    // instead -- whichever SSE session for this site's token polls it first
+    // gets it (the row is deleted after, like any other request). Fine for
+    // the common case of one live session per token; a second concurrent
+    // session simply won't see this particular notification.
+    $stmt = $db->prepare("SELECT id, payload FROM requests WHERE token = ? AND (session_id = ? OR session_id = '__broadcast__') AND status = 'pending' ORDER BY id ASC LIMIT 1");
     $stmt->execute([$site_token_for_url, $session_id]);
     $request = $stmt->fetch();
 
     if ($request) {
         $db->prepare("UPDATE requests SET status = 'processing' WHERE id = ?")->execute([$request['id']]);
 
-        $response = handle_mcp_request($site, $request['payload'], $bearer, $client_id);
-        if ($response !== null) {
-            send_message($response);
+        $decoded = json_decode($request['payload'], true);
+        if (is_array($decoded) && ($decoded['method'] ?? '') === 'notifications/tools/list_changed') {
+            // A pre-built notification to relay verbatim, not a JSON-RPC
+            // request to dispatch -- handle_mcp_request() expects the
+            // latter and would reject this as an unknown method.
+            send_message($decoded);
+        } else {
+            $response = handle_mcp_request($site, $request['payload'], $bearer, $client_id);
+            if ($response !== null) {
+                send_message($response);
+            }
         }
 
         $db->prepare('DELETE FROM requests WHERE id = ?')->execute([$request['id']]);

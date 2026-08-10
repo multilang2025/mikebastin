@@ -23,8 +23,16 @@ function handle_mcp_request($site, $payload, $bearer = null, $client_id = null) 
         $site_label = !empty($site['wp_url']) ? $site['wp_url'] : 'aisa-php-bridge';
         $response['result'] = [
             'protocolVersion' => $client_proto,
-            // tools MUST be a JSON object ({}), not an array ([]).
-            'capabilities' => ['tools' => (object) []],
+            // listChanged: true -- a connect_site/switch_site call mid-session
+            // rebinds this connection to a different (or newly-registered)
+            // site, which can genuinely change the real tool list (a site's
+            // /aisa/v1/tools response differs from another's, or from the
+            // static fallback used before any site was bound). Actually
+            // honoring this over the SSE transport is in mcp.php/
+            // connect-callback.php; the Streamable-HTTP POST transport has no
+            // channel to deliver it on and depends on the client re-fetching
+            // tools/list on its own.
+            'capabilities' => ['tools' => (object) ['listChanged' => true]],
             'serverInfo' => [
                 'name'    => 'AISA — ' . $site_label,
                 'title'   => 'AISA — ' . $site_label,
