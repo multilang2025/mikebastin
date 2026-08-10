@@ -403,6 +403,19 @@ function execute_tool($site, $name, $args, $sites = null, $bearer = null, &$targ
         if (!filter_var($site_url, FILTER_VALIDATE_URL)) {
             throw new Exception('"' . $args['site_url'] . '" isn\'t a valid URL.');
         }
+        // Resolve any redirect (most commonly apex -> www) here, server-side,
+        // rather than building the authorize-application.php link off the
+        // pre-redirect host and making the user's browser follow it. Some
+        // hosts (seen on Hostinger's edge CDN) throw ERR_HTTP2_PROTOCOL_ERROR
+        // on that exact redirect when the URL carries a long query string --
+        // this sidesteps it entirely by never sending the browser through a
+        // redirect for this URL in the first place. Best-effort: if the
+        // resolve request itself fails (network hiccup, site down), fall
+        // back to the URL as given rather than blocking the connect flow.
+        $resolved = @resolve_redirect($site_url);
+        if ($resolved) {
+            $site_url = rtrim($resolved, '/');
+        }
 
         $db        = get_db();
         $token     = bin2hex(random_bytes(16));
@@ -571,6 +584,32 @@ function scan_for_missing_images($html) {
         $suggestions[] = ['heading' => $heading, 'has_image' => (bool)$hasImage];
     }
     return $suggestions;
+}
+
+// Follow redirects on a plain HEAD request and return the final URL's origin
+// (scheme + host, no path), or null if the request fails outright. Used by
+// connect_site so a browser is sent straight to the real host instead of
+// being routed through a redirect this bridge could resolve up front.
+function resolve_redirect($url) {
+    $ch = curl_init($url);
+    curl_setopt($ch, CURLOPT_NOBODY, true);
+    curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+    curl_setopt($ch, CURLOPT_MAXREDIRS, 5);
+    curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 5);
+    curl_setopt($ch, CURLOPT_TIMEOUT, 8);
+    curl_setopt($ch, CURLOPT_USERAGENT, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36');
+    curl_exec($ch);
+    $final_url = curl_getinfo($ch, CURLINFO_EFFECTIVE_URL);
+    $errored   = curl_errno($ch) !== 0;
+    curl_close($ch);
+    if ($errored || !$final_url) {
+        return null;
+    }
+    $parts = parse_url($final_url);
+    if (empty($parts['scheme']) || empty($parts['host'])) {
+        return null;
+    }
+    return $parts['scheme'] . '://' . $parts['host'];
 }
 
 function wp_fetch($site, $path, $method = 'GET', $data = []) {
