@@ -470,31 +470,62 @@ class AISA_Tools {
 			),
 			array(
 				'name'         => 'wp_cli_set',
-				'description'  => 'Site administration writes (like WP-CLI, but native PHP -- no shell). '
+				'description'  => 'Site administration writes (like WP-CLI, but native PHP -- no shell, '
+					. 'so unlike a real WP-CLI search-replace this can never be tripped up by a backtick '
+					. 'or other shell-special character showing up inside page-builder content). '
 					. 'command/action pairs: "plugin activate"/"plugin deactivate" (target = plugin file, '
 					. 'e.g. akismet/akismet.php), "theme activate" (target = stylesheet slug), "option '
-					. 'update" (target = option name, allowlisted keys only; value = new value).',
+					. 'update" (target = option name, allowlisted keys only; value = new value), "search '
+					. 'replace" (old/new -- a WP-CLI-style bulk find/replace across wp_posts, wp_postmeta, '
+					. 'and/or wp_options, serialization-safe like WP-CLI\'s own search-replace, e.g. '
+					. 'migrating a domain or fixing a broken URL sitewide in one call instead of one '
+					. 'bulk_replace_in_posts call per post). ALWAYS run "search replace" with dry_run=true '
+					. 'first and read the row counts before setting dry_run=false.',
 				'input_schema' => array(
 					'type'                 => 'object',
 					'properties'           => array(
 						'command' => array(
 							'type'        => 'string',
-							'description' => 'plugin, theme, or option.',
+							'description' => 'plugin, theme, option, or search.',
 						),
 						'action'  => array(
 							'type'        => 'string',
-							'description' => 'activate, deactivate, or update depending on command.',
+							'description' => 'activate, deactivate, update, or replace depending on command.',
 						),
 						'target'  => array(
 							'type'        => 'string',
-							'description' => 'Plugin file, theme stylesheet slug, or option name.',
+							'description' => 'Plugin file, theme stylesheet slug, or option name. Unused for "search replace".',
 						),
 						'value'   => array(
 							'type'        => 'string',
-							'description' => 'New value, only used for "option update".',
+							'description' => 'New value, only used for "option update". Unused for "search replace".',
+						),
+						'old'     => array(
+							'type'        => 'string',
+							'description' => '"search replace" only: exact text to find.',
+						),
+						'new'     => array(
+							'type'        => 'string',
+							'description' => '"search replace" only: replacement text.',
+						),
+						'tables'  => array(
+							'type'        => 'array',
+							'items'       => array(
+								'type' => 'string',
+								'enum' => array( 'posts', 'postmeta', 'options' ),
+							),
+							'description' => '"search replace" only: which tables to scan (default ["posts"]).',
+						),
+						'dry_run' => array(
+							'type'        => 'boolean',
+							'description' => '"search replace" only: report matching row counts without writing (default true). Always check this before setting it to false.',
+						),
+						'limit'   => array(
+							'type'        => 'integer',
+							'description' => '"search replace" only: max rows scanned per column (default 500, max 2000).',
 						),
 					),
-					'required'             => array( 'command', 'action', 'target' ),
+					'required'             => array( 'command', 'action' ),
 					'additionalProperties' => false,
 				),
 			),

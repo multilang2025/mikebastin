@@ -3,7 +3,7 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
-Stable tag: 2.1.4
+Stable tag: 2.1.5
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -155,6 +155,9 @@ Tips:
   gate on more precisely.
 
 == Changelog ==
+= 2.1.5 =
+* Added wp_cli_set "search replace": a WP-CLI-style bulk find/replace across wp_posts, wp_postmeta, and/or wp_options in one call, serialization-safe (unserializes, replaces, re-serializes with correct lengths, instead of corrupting serialized blobs with a raw string swap). Native PHP, no shell -- unlike a real `wp search-replace`, it can't be tripped up by a backtick or other shell-special character inside page-builder content. Defaults to dry_run=true.
+
 = 2.1.4 =
 * Added find_in_post: search one post's content for a snippet and get back short windowed matches (line + up to 400 chars of context) instead of the whole post -- cheaper way to locate a replace_in_post anchor on a large post.
 * db_query's description now calls out that it's the cheap way to list posts/pages site-wide (SELECT ID, post_title ... LIMIT N), instead of paging through search_posts.

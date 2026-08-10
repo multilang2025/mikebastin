@@ -52,7 +52,38 @@ class AISA_WPCLI {
 		'plugin deactivate',
 		'theme activate',
 		'option update',
+		'search replace',
 	);
+
+	/**
+	 * Tables "search replace" is allowed to touch, and which columns on each.
+	 * Deliberately excludes wp_users/wp_usermeta (could rewrite passwords/
+	 * capabilities) and any custom plugin table (unbounded blast radius) --
+	 * this covers the actual "fix a URL/domain everywhere" use case without
+	 * WP-CLI's full --all-tables reach.
+	 *
+	 * @var array<string, array{table: string, pk: string, columns: string[]}>
+	 */
+	private static function table_map() {
+		global $wpdb;
+		return array(
+			'posts'    => array(
+				'table'   => $wpdb->posts,
+				'pk'      => 'ID',
+				'columns' => array( 'post_content', 'post_title', 'post_excerpt' ),
+			),
+			'postmeta' => array(
+				'table'   => $wpdb->postmeta,
+				'pk'      => 'meta_id',
+				'columns' => array( 'meta_value' ),
+			),
+			'options'  => array(
+				'table'   => $wpdb->options,
+				'pk'      => 'option_id',
+				'columns' => array( 'option_value' ),
+			),
+		);
+	}
 
 	/**
 	 * Read-only site administration lookups.
@@ -230,9 +261,154 @@ class AISA_WPCLI {
 					)
 				);
 
+			case 'search replace':
+				if ( ! current_user_can( 'manage_options' ) ) {
+					return self::error( 'Permission denied. Needs an administrator account.' );
+				}
+				return self::search_replace( $in );
+
 			default:
 				return self::error( 'Unknown or unsupported "' . $command . ' ' . $action . '". ' . self::usage() );
 		}
+	}
+
+	/**
+	 * WP-CLI-style bulk find/replace across wp_posts, wp_postmeta, and/or
+	 * wp_options, without a shell binary -- so it can never be tripped up by
+	 * a backtick or other shell-special character inside page-builder
+	 * content the way a real `wp search-replace` invocation can be.
+	 *
+	 * Serialization-safe like WP-CLI's own implementation: a serialized PHP
+	 * value is unserialized, replaced recursively, then re-serialized,
+	 * rather than string-replacing the raw serialized blob (which would
+	 * corrupt it by leaving stale length prefixes behind).
+	 *
+	 * @param array $in Tool input: { old, new, tables?, dry_run?, limit? }.
+	 * @return array Tool result with a per-column row-change report.
+	 */
+	private static function search_replace( array $in ) {
+		global $wpdb;
+
+		$old = (string) ( $in['old'] ?? '' );
+		$new = (string) ( $in['new'] ?? '' );
+		if ( '' === $old ) {
+			return self::error( 'An "old" string to search for is required.' );
+		}
+		if ( $old === $new ) {
+			return self::error( '"old" and "new" are identical -- nothing to do.' );
+		}
+
+		$dry_run = ! array_key_exists( 'dry_run', $in ) || (bool) $in['dry_run'];
+
+		$tables = array_values( array_intersect( (array) ( $in['tables'] ?? array( 'posts' ) ), array( 'posts', 'postmeta', 'options' ) ) );
+		if ( empty( $tables ) ) {
+			$tables = array( 'posts' );
+		}
+		$limit = min( max( 1, (int) ( $in['limit'] ?? 500 ) ), 2000 );
+
+		$table_map     = self::table_map();
+		$report        = array();
+		$total_changed = 0;
+
+		foreach ( $tables as $table_key ) {
+			$spec = $table_map[ $table_key ];
+			foreach ( $spec['columns'] as $column ) {
+				// phpcs:ignore WordPress.DB.PreparedSQL.NotPrepared, WordPress.DB.DirectDatabaseQuery.DirectQuery, WordPress.DB.DirectDatabaseQuery.NoCaching
+				$rows = $wpdb->get_results(
+					$wpdb->prepare(
+						"SELECT {$spec['pk']} AS pk, {$column} AS val FROM {$spec['table']} WHERE {$column} LIKE %s LIMIT %d", // phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared
+						'%' . $wpdb->esc_like( $old ) . '%',
+						$limit
+					),
+					ARRAY_A
+				);
+
+				$rows_changed = 0;
+				foreach ( (array) $rows as $row ) {
+					$updated = self::recursive_replace( $row['val'], $old, $new );
+					if ( $updated === $row['val'] ) {
+						continue; // A LIKE hit inside a serialized structure doesn't guarantee an actual string-leaf match.
+					}
+					++$rows_changed;
+					if ( ! $dry_run ) {
+						// phpcs:ignore WordPress.DB.DirectDatabaseQuery.DirectQuery, WordPress.DB.DirectDatabaseQuery.NoCaching
+						$wpdb->update( $spec['table'], array( $column => $updated ), array( $spec['pk'] => $row['pk'] ) );
+					}
+				}
+
+				if ( $rows_changed > 0 ) {
+					$report[]       = array(
+						'table'  => $table_key,
+						'column' => $column,
+						'rows'   => $rows_changed,
+						'capped' => count( (array) $rows ) >= $limit,
+					);
+					$total_changed += $rows_changed;
+				}
+			}
+		}
+
+		if ( ! $dry_run && $total_changed > 0 ) {
+			AISA_Audit_Log::record( 'wp_cli_search_replace', null, array( 'old' => $old, 'rows_changed' => $total_changed ) );
+			wp_cache_flush();
+		}
+
+		return self::ok(
+			array(
+				'dry_run'      => $dry_run,
+				'rows_changed' => $total_changed,
+				'by_column'    => $report,
+				'note'         => $dry_run
+					? 'Dry run -- no rows were written. Review the counts above, then re-run with dry_run=false to apply.'
+					: 'Applied. If the site uses a page cache (WP Rocket, LiteSpeed, ...), call flush_caches next.',
+			)
+		);
+	}
+
+	/**
+	 * Replace $old with $new inside $value, recursing into serialized PHP
+	 * values, arrays, and object properties so a serialized widget/options
+	 * blob comes back correctly re-serialized rather than corrupted.
+	 *
+	 * @param mixed  $value Raw column value, or a value already unserialized one level in.
+	 * @param string $old   Text to find.
+	 * @param string $new   Replacement text.
+	 * @return mixed Same shape as $value, with $old replaced by $new throughout.
+	 */
+	private static function recursive_replace( $value, $old, $new ) {
+		if ( is_string( $value ) && is_serialized( $value ) ) {
+			$unserialized = @unserialize( trim( $value ) ); // phpcs:ignore WordPress.PHP.NoSilencedErrors.Discouraged
+			// false is ambiguous with a genuinely-serialized `b:0;`; only
+			// treat it as a real failure (leave the blob untouched rather
+			// than risk corrupting it) when it isn't that specific case.
+			if ( false === $unserialized && 'b:0;' !== trim( $value ) ) {
+				return $value;
+			}
+			return serialize( self::recursive_replace( $unserialized, $old, $new ) ); // phpcs:ignore WordPress.PHP.DiscouragedPHPFunctions.serialize_serialize
+		}
+		if ( is_array( $value ) ) {
+			$out = array();
+			foreach ( $value as $k => $v ) {
+				$out[ self::recursive_replace( $k, $old, $new ) ] = self::recursive_replace( $v, $old, $new );
+			}
+			return $out;
+		}
+		if ( is_object( $value ) ) {
+			// An object whose class isn't loaded unserializes as a stub
+			// (__PHP_Incomplete_Class) -- walking or re-serializing it would
+			// silently drop data, so leave it exactly as found.
+			if ( 'incomplete_class' === strtolower( get_class( $value ) ) || $value instanceof __PHP_Incomplete_Class ) {
+				return $value;
+			}
+			foreach ( get_object_vars( $value ) as $k => $v ) {
+				$value->$k = self::recursive_replace( $v, $old, $new );
+			}
+			return $value;
+		}
+		if ( is_string( $value ) ) {
+			return str_replace( $old, $new, $value );
+		}
+		return $value;
 	}
 
 	/**
@@ -242,7 +418,8 @@ class AISA_WPCLI {
 	 */
 	private static function usage() {
 		return 'Supported: plugin list/activate/deactivate, theme list/activate, '
-			. 'option get/update (allowlisted keys only), user list, core version.';
+			. 'option get/update (allowlisted keys only), search replace (old/new, tables/dry_run/limit), '
+			. 'user list, core version.';
 	}
 
 	/**
