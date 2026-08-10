@@ -3,7 +3,7 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
-Stable tag: 2.1.3
+Stable tag: 2.1.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -155,6 +155,11 @@ Tips:
   gate on more precisely.
 
 == Changelog ==
+= 2.1.4 =
+* Added find_in_post: search one post's content for a snippet and get back short windowed matches (line + up to 400 chars of context) instead of the whole post -- cheaper way to locate a replace_in_post anchor on a large post.
+* db_query's description now calls out that it's the cheap way to list posts/pages site-wide (SELECT ID, post_title ... LIMIT N), instead of paging through search_posts.
+* replace_in_post, append_to_post, bulk_replace_in_posts, and update_post now re-read the post after saving and warn if the exact text that was written isn't present verbatim -- surfaces silent write-time corruption (a security plugin, WPML, or WordPress's own sanitizer altering saved HTML) instead of it going unnoticed.
+
 = 2.1.3 =
 * replace_in_post now falls back to a quote/entity-lenient match (straight vs curly quotes, & vs &amp;) when the byte-exact match fails, instead of erroring out immediately -- fixes false "text not found" results when a snippet copied from rendered HTML has plain characters where the stored content has texturized/entity-encoded ones.
 

@@ -175,7 +175,10 @@ class AISA_Tools {
 				'description'  => 'Run a read-only SELECT against this site\'s database -- the escape '
 					. 'hatch for data no other tool covers: a form plugin\'s entries (Formidable, '
 					. 'Gravity Forms, WPForms...), WooCommerce order meta, or any other plugin\'s custom '
-					. 'table. Use "{prefix}" instead of guessing the table prefix, e.g. '
+					. 'table. Also the cheap way to discover posts/pages site-wide: '
+					. '"SELECT ID, post_title FROM {prefix}posts WHERE post_status=\'publish\' LIMIT 500" '
+					. 'costs a few KB, versus paging through search_posts or calling get_post per '
+					. 'candidate. Use "{prefix}" instead of guessing the table prefix, e.g. '
 					. '"SELECT * FROM {prefix}frm_items WHERE created_at >= \'2026-07-01\' LIMIT 200". '
 					. 'SELECT (and DESCRIBE/SHOW/EXPLAIN SELECT) only -- mutating statements are rejected '
 					. 'outright, there is no write path here. A LIMIT is enforced automatically (default '
@@ -196,6 +199,34 @@ class AISA_Tools {
 						),
 					),
 					'required'             => array( 'sql' ),
+					'additionalProperties' => false,
+				),
+			),
+			array(
+				'name'         => 'find_in_post',
+				'description'  => 'Search one post/page\'s content for a snippet and return short windowed '
+					. 'matches (line number + up to 400 chars of context), instead of pulling the whole '
+					. 'post. Use this to locate the exact text to pass as "find" to replace_in_post on a '
+					. 'large post, without paying get_post\'s full-content token cost just to find an '
+					. 'anchor. Read-only.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'id'             => array( 'type' => 'integer' ),
+						'pattern'        => array(
+							'type'        => 'string',
+							'description' => 'Text to search for (plain substring, not a regex).',
+						),
+						'case_sensitive' => array(
+							'type'        => 'boolean',
+							'description' => 'Default false.',
+						),
+						'max_results'    => array(
+							'type'        => 'integer',
+							'description' => 'Cap on returned matches (default 20, max 50).',
+						),
+					),
+					'required'             => array( 'id', 'pattern' ),
 					'additionalProperties' => false,
 				),
 			),
@@ -1135,6 +1166,8 @@ class AISA_Tools {
 				return self::get_site_context();
 			case 'db_query':
 				return self::db_query( $input );
+			case 'find_in_post':
+				return self::find_in_post( $input );
 			case 'fact_check':
 				return self::fact_check( $input );
 			case 'load_skill':
@@ -1420,7 +1453,40 @@ class AISA_Tools {
 			return self::error( $result->get_error_message() );
 		}
 		AISA_Audit_Log::record( 'update_post', $id, $in );
-		return array( 'content' => "Updated #{$id}." );
+		$message = "Updated #{$id}.";
+		if ( isset( $update['post_content'] ) ) {
+			$warning = self::verify_stored_verbatim( $id, $update['post_content'] );
+			if ( $warning ) {
+				$message .= ' WARNING: ' . $warning;
+			}
+		}
+		return array( 'content' => $message );
+	}
+
+	/**
+	 * Re-read a post straight from the database (bypassing the object cache,
+	 * in case a save-time filter mutated content) and confirm $needle is
+	 * present verbatim. Surfaces silent write-time corruption -- a security
+	 * plugin, WPML, or WordPress's own sanitizer altering saved HTML -- that
+	 * would otherwise go unnoticed until a human spots a broken link. Ported
+	 * from the same idea as WPVibe's stored_verbatim write signal.
+	 *
+	 * @param int    $id     Post ID.
+	 * @param string $needle Text that should be present verbatim after save.
+	 * @return string Warning text, or '' if verified clean.
+	 */
+	private static function verify_stored_verbatim( $id, $needle ) {
+		if ( '' === trim( (string) $needle ) ) {
+			return '';
+		}
+		clean_post_cache( $id );
+		$fresh = get_post( $id );
+		if ( $fresh && false === strpos( (string) $fresh->post_content, $needle ) ) {
+			return 'the saved content does not contain the exact text that was written -- a security '
+				. 'plugin, WPML, or WordPress\'s own sanitizer likely altered it on save. Re-read the '
+				. 'post (get_post or find_in_post) to see what actually landed.';
+		}
+		return '';
 	}
 
 	/**
@@ -1600,6 +1666,80 @@ class AISA_Tools {
 					'table_prefix'  => $wpdb->prefix,
 					'rows_returned' => count( (array) $results ),
 					'results'       => $results,
+				)
+			),
+		);
+	}
+
+	/**
+	 * Search one post's content for a plain-text pattern and return short
+	 * windowed matches instead of the whole field -- so locating a
+	 * replace_in_post anchor on a large post doesn't cost a full get_post.
+	 * Read-only.
+	 *
+	 * @param array $in Tool input.
+	 * @return array Tool result with matches, or an error.
+	 */
+	private static function find_in_post( array $in ) {
+		$id = (int) ( $in['id'] ?? 0 );
+		if ( ! current_user_can( 'edit_post', $id ) ) {
+			return self::error( 'Permission denied for this post.' );
+		}
+		$p = get_post( $id );
+		if ( ! $p ) {
+			return self::error( 'Post not found.' );
+		}
+
+		$pattern = (string) ( $in['pattern'] ?? '' );
+		if ( '' === $pattern ) {
+			return self::error( 'A "pattern" to search for is required.' );
+		}
+		$case_sensitive = (bool) ( $in['case_sensitive'] ?? false );
+		$max_results     = min( max( 1, (int) ( $in['max_results'] ?? 20 ) ), 50 );
+
+		$needle = preg_quote( $pattern, '/' );
+		$regex  = '/' . $needle . '/u' . ( $case_sensitive ? '' : 'i' );
+
+		$lines     = explode( "\n", (string) $p->post_content );
+		$matches   = array();
+		$truncated = false;
+
+		foreach ( $lines as $i => $line ) {
+			if ( count( $matches ) >= $max_results ) {
+				$truncated = true;
+				break;
+			}
+			$hit = preg_match( $regex, $line, $m, PREG_OFFSET_CAPTURE );
+			if ( 1 !== $hit ) {
+				continue;
+			}
+			$byte_pos  = $m[0][1];
+			$line_len  = mb_strlen( $line );
+			$char_pos  = mb_strlen( substr( $line, 0, $byte_pos ) );
+			$window_start = 0;
+			if ( $line_len > 400 && $char_pos > 300 ) {
+				$window_start = min( max( 0, $char_pos - 100 ), $line_len - 400 );
+			}
+			$match = array(
+				'line'    => $i + 1,
+				'content' => mb_substr( $line, $window_start, 400 ),
+			);
+			if ( $window_start > 0 ) {
+				$match['snippet_starts_at_char'] = $window_start;
+			}
+			$matches[] = $match;
+		}
+
+		if ( ! $matches ) {
+			return self::error( 'No match for "pattern" in this post\'s content.' );
+		}
+
+		return array(
+			'content' => self::safe_json_encode(
+				array(
+					'matches'      => $matches,
+					'total_lines'  => count( $lines ),
+					'truncated'    => $truncated,
 				)
 			),
 		);
@@ -1807,6 +1947,10 @@ class AISA_Tools {
 		if ( $warning ) {
 			$message .= ' WARNING: ' . $warning;
 		}
+		$verbatim_warning = self::verify_stored_verbatim( $id, $replace );
+		if ( $verbatim_warning ) {
+			$message .= ' WARNING: ' . $verbatim_warning;
+		}
 		return array( 'content' => $message );
 	}
 
@@ -1848,6 +1992,10 @@ class AISA_Tools {
 		$warning = self::page_builder_warning( $id, $p->post_content, $html );
 		if ( $warning ) {
 			$message .= ' WARNING: ' . $warning;
+		}
+		$verbatim_warning = self::verify_stored_verbatim( $id, $html );
+		if ( $verbatim_warning ) {
+			$message .= ' WARNING: ' . $verbatim_warning;
 		}
 		return array( 'content' => $message );
 	}
@@ -1992,6 +2140,10 @@ class AISA_Tools {
 		$warning = self::page_builder_warning( $id, $p->post_content, $find . ' ' . $replace );
 		if ( $warning ) {
 			$row['warning'] = $warning;
+		}
+		$verbatim_warning = self::verify_stored_verbatim( $id, $replace );
+		if ( $verbatim_warning ) {
+			$row['warning'] = isset( $row['warning'] ) ? $row['warning'] . ' | ' . $verbatim_warning : $verbatim_warning;
 		}
 		return $row;
 	}

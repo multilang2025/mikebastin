@@ -668,6 +668,23 @@ function get_tools_schema() {
             ]
         ],
         [
+            // Param names MUST match ai-site-assistant's real find_in_post
+            // exactly (id/pattern/case_sensitive/max_results) -- same
+            // fallback-schema-drift trap as the other tools here.
+            'name' => 'find_in_post',
+            'description' => 'Search one post/page\'s content for a snippet and return short windowed matches instead of the whole post. Read-only.',
+            'inputSchema' => [
+                'type' => 'object',
+                'properties' => [
+                    'id' => ['type' => 'integer'],
+                    'pattern' => ['type' => 'string'],
+                    'case_sensitive' => ['type' => 'boolean'],
+                    'max_results' => ['type' => 'integer']
+                ],
+                'required' => ['id', 'pattern']
+            ]
+        ],
+        [
             'name' => 'create_post',
             'description' => 'Create a new post or page. Defaults to a draft.',
             'inputSchema' => [
