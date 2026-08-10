@@ -157,8 +157,14 @@ function get_remote_tools($site) {
             // the plugin itself needs zero changes to gain it.
             return array_merge(bridge_management_tools(), inject_site_arg($res));
         }
+        // Reached WordPress, got 2xx JSON, but not the shape expected --
+        // log what actually came back instead of silently guessing why.
+        error_log('AISA bridge: /aisa/v1/tools for ' . ($site['wp_url'] ?? '?') . ' returned unexpected shape: ' . substr(json_encode($res), 0, 500));
     } catch (Exception $e) {
-        // Older plugin (404) or transient error — use the static fallback.
+        // Logged rather than swallowed -- this used to be a silent fallback
+        // with no way to tell "older plugin (404)" apart from "WAF block",
+        // "auth failure", or "timeout" without a live repro session.
+        error_log('AISA bridge: /aisa/v1/tools fetch failed for ' . ($site['wp_url'] ?? '?') . ': ' . $e->getMessage());
     }
     return get_tools_schema();
 }
