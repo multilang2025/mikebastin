@@ -894,6 +894,33 @@ function get_tools_schema() {
             ]
         ],
         [
+            // Same fallback-schema-drift trap as get_seo/set_seo above --
+            // param names must match ai-site-assistant's real get_schema/
+            // set_meta exactly.
+            'name' => 'get_schema',
+            'description' => 'Read a post\'s Rank Math structured-data (schema) entries, decoded. Inspect schema before changing it. Read-only.',
+            'inputSchema' => [
+                'type' => 'object',
+                'properties' => [
+                    'id' => ['type' => 'integer']
+                ],
+                'required' => ['id']
+            ]
+        ],
+        [
+            'name' => 'set_meta',
+            'description' => 'Write one SEO/schema meta key (Rank Math / Yoast / AIO SEO keys only), e.g. rank_math_robots -- including full JSON-LD schema objects via keys like rank_math_schema_Article.',
+            'inputSchema' => [
+                'type' => 'object',
+                'properties' => [
+                    'id' => ['type' => 'integer'],
+                    'key' => ['type' => 'string'],
+                    'value' => ['type' => 'string']
+                ],
+                'required' => ['id', 'key', 'value']
+            ]
+        ],
+        [
             'name' => 'fact_check',
             'description' => 'Perform a web search via Perplexity/Gemini to fact-check a claim.',
             'inputSchema' => [
