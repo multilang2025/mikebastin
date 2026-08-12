@@ -858,6 +858,42 @@ function get_tools_schema() {
             ]
         ],
         [
+            // Param names MUST match ai-site-assistant's real get_seo/set_seo
+            // exactly -- same fallback-schema-drift trap as the other tools
+            // here. Missing these two entirely (not just misnamed) was the
+            // v3.3.1-era bug: users asking for a meta title/description via
+            // a site using this fallback got told AISA "doesn't have access
+            // to RankMath fields", when the real plugin supports it fine.
+            'name' => 'get_seo',
+            'description' => 'Read a post\'s SEO meta tags (title, description, focus keyword, canonical, Open Graph, Twitter) and excerpt. Read-only.',
+            'inputSchema' => [
+                'type' => 'object',
+                'properties' => [
+                    'id' => ['type' => 'integer']
+                ],
+                'required' => ['id']
+            ]
+        ],
+        [
+            'name' => 'set_seo',
+            'description' => 'Update a post\'s SEO meta tags (Rank Math or Yoast). Pass any of meta_title, meta_description, focus_keyword, canonical, og_title, og_description, twitter_title, twitter_description.',
+            'inputSchema' => [
+                'type' => 'object',
+                'properties' => [
+                    'id' => ['type' => 'integer'],
+                    'meta_title' => ['type' => 'string'],
+                    'meta_description' => ['type' => 'string'],
+                    'focus_keyword' => ['type' => 'string'],
+                    'canonical' => ['type' => 'string'],
+                    'og_title' => ['type' => 'string'],
+                    'og_description' => ['type' => 'string'],
+                    'twitter_title' => ['type' => 'string'],
+                    'twitter_description' => ['type' => 'string']
+                ],
+                'required' => ['id']
+            ]
+        ],
+        [
             'name' => 'fact_check',
             'description' => 'Perform a web search via Perplexity/Gemini to fact-check a claim.',
             'inputSchema' => [
