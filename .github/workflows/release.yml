@@ -70,11 +70,19 @@ jobs:
       # php-mcp-bridge/ runs server-side on betranslated.us — there is no
       # plugin zip to build or version header to check here. This release
       # is a changelog marker only; it does NOT deploy anything.
+      # make_latest: false is load-bearing -- AISA_Updater polls GitHub's
+      # /releases/latest endpoint, which returns whichever release is most
+      # recently flagged "latest", not the newest by semver. Without this,
+      # a bridge tag (shipped far more often than plugin versions) becomes
+      # "latest" with no ai-site-assistant.zip asset, so package_url()
+      # comes back empty and check() silently skips the update -- the
+      # Plugins screen shows nothing even when a real newer version exists.
       - name: Create GitHub Release (changelog only, no artifact)
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ steps.tag.outputs.tag }}
           generate_release_notes: true
+          make_latest: false
           body: |
             Changes to `php-mcp-bridge/` (the MCP bridge hosted on betranslated.us).
 
