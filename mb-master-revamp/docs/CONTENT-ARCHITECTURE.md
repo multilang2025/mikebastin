@@ -71,15 +71,41 @@ naming. The profiles are now known.
 |---|---|
 | X | `@mikebastin` → `https://x.com/mikebastin` |
 | LinkedIn | `https://www.linkedin.com/in/michaelbastin/` |
-| Google Business Profile | `https://www.google.com/maps?cid=2010943646948022945` |
+| Google Business Profile | `https://www.google.com/maps?cid=5084624758674071823` |
 
-**On the GBP link.** The URL supplied by the owner was a Google search
-results URL carrying session parameters (`sca_esv`, `sxsrf`, `ved`, `biw`,
-`dpr` and a `si` token). Those are per-session and per-device, so the link
-rots and must never go into schema. The canonical form above is derived from
-the CID already recorded in `HANDOFF.md` §4 as
-`0x1be84e97abaa5aa1`, which is 2010943646948022945 in decimal. Use the
-`?cid=` form for `sameAs`, for review requests and for citation building.
+**On the GBP link.** The URL first supplied was a Google search results URL
+carrying session parameters (`sca_esv`, `sxsrf`, `ved`, `biw`, `dpr` and a
+`si` token). Those are per-session and per-device, so the link rots and must
+never go into schema. Use the `?cid=` form above for `sameAs`, for review
+requests and for citation building.
+
+**Two different listing IDs exist, and this needs resolving.** The ID above
+comes from the owner's own Business Profile dashboard, so it is
+authoritative. It does not match the one recorded in `HANDOFF.md` §4.
+
+| Source | Hex | Decimal |
+|---|---|---|
+| GBP dashboard (authoritative) | `0x469037474ceca10f` | 5084624758674071823 |
+| `HANDOFF.md` §4 `data=` param | `0x1be84e97abaa5aa1` | 2010943646948022945 |
+
+Three explanations, and they have very different consequences:
+
+1. **A duplicate listing exists.** The most damaging option. Duplicates
+   split reviews, citations and ranking signals across two entities, and
+   Google may pick the wrong one. Duplicates are merged through Google
+   Business Profile support, not deleted.
+2. **The handoff URL is stale**, pointing at a listing since merged or
+   removed. Harmless once corrected here.
+3. **The handoff URL was simply wrong**, copied from a different place
+   entirely. Also harmless once corrected.
+
+Owner action, about a minute: open both `?cid=` URLs above. If the second
+resolves to a live listing that is also you, it is case 1 and needs a merge
+request. If it resolves to nothing or to an unrelated business, it was case
+2 or 3 and `HANDOFF.md` §4 is simply superseded by this section.
+
+Until that is settled, `seo-offpage` should not begin citation building,
+because citations pointed at the wrong listing entrench the split.
 
 **A naming inconsistency worth fixing before launch.** The search URL
 reveals the GBP is listed as **"Mike Bastin - SEO, Digital Marketing, AI"**.
