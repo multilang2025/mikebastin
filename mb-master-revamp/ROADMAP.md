@@ -31,10 +31,10 @@ the overlapping §5/§15/§17 lists:
 
 1. Repo org/location for the actual Next.js app (this monorepo directory
    vs. a dedicated repo)
-2. X handle + 3 featured post URLs (`HANDLE_TBD` placeholders still in
-   `concept-v3.html`)
+2. Three featured X post URLs for the Dispatches section. The handle is
+   settled: `@mikebastin`
 3. Tier C prune list sign-off (§11)
-4. Service consolidation sign-off (43 services → 13)
+4. Service consolidation sign-off (43 services → 16, including the new lead-generation cluster)
 5. Valencia STAY-list sign-off (3 pages staying on mikebastin.com, §18)
 6. Credibility strip numbers (25 years / languages / countries / domains)
 7. FR-only 44th service: promote to EN/ES or keep FR-only
@@ -100,7 +100,7 @@ Full table with responsibilities is in `CLAUDE.md`; one-line pointer here:
 - [`docs/HANDOFF.md`](docs/HANDOFF.md) — raw planning history, source of
   truth for anything not summarised above
 - [`docs/CONTENT-ARCHITECTURE.md`](docs/CONTENT-ARCHITECTURE.md) — the site
-  structure: 43 services consolidated to 13, blog topical map, retire list,
+  structure: 43 services consolidated to 16, blog topical map, retire list,
   page architecture, bynoju.com design notes
 - [`CLAUDE.md`](CLAUDE.md) — day-to-day rules (tokens, voice, SEO
   invariants)

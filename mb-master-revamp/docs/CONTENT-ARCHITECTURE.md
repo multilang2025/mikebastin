@@ -62,6 +62,48 @@ search, localisation and AI clusters intact, because they are how the
 outcome is produced and they hold the existing demand. What changes is which
 one is the headline.
 
+### Entity identity and sameAs
+
+`HANDOFF.md` §13 requires Person schema sitewide with consistent entity
+naming. The profiles are now known.
+
+| Profile | Value |
+|---|---|
+| X | `@mikebastin` → `https://x.com/mikebastin` |
+| LinkedIn | `https://www.linkedin.com/in/michaelbastin/` |
+| Google Business Profile | `https://www.google.com/maps?cid=2010943646948022945` |
+
+**On the GBP link.** The URL supplied by the owner was a Google search
+results URL carrying session parameters (`sca_esv`, `sxsrf`, `ved`, `biw`,
+`dpr` and a `si` token). Those are per-session and per-device, so the link
+rots and must never go into schema. The canonical form above is derived from
+the CID already recorded in `HANDOFF.md` §4 as
+`0x1be84e97abaa5aa1`, which is 2010943646948022945 in decimal. Use the
+`?cid=` form for `sameAs`, for review requests and for citation building.
+
+**A naming inconsistency worth fixing before launch.** The search URL
+reveals the GBP is listed as **"Mike Bastin - SEO, Digital Marketing, AI"**.
+Three problems against the architecture in this document:
+
+1. It does not contain the word multilingual, which is the entire
+   differentiator and the source context in the table above.
+2. It leads on Digital Marketing, a service section 3 removes from the site
+   entirely and hands to Globaprom.
+3. The site brand is "Mike Bastin" flat, per the brand rule in
+   `HANDOFF.md` §4, so the GBP, the Person schema `name`, the LinkedIn
+   headline and the X bio currently tell four slightly different stories.
+
+Entity resolution rewards one consistent story. The GBP name, the schema
+`name` and `description`, and the two social bios should be aligned on
+multilingual demand before launch, and the GBP primary category reviewed at
+the same time. Cheap to change, and it is the kind of signal that a
+twenty-five year old domain should already be sending.
+
+**Still open:** the owner referred to a LinkedIn *Page*. The URL on record
+is a personal *profile* (`/in/`). If a company Page also exists, both belong
+in `sameAs`, and the Page belongs in `Organization` schema rather than
+`Person`.
+
 ### What the domain actually is
 
 Twenty-five years old. It began as a pure translation-services site, widened
