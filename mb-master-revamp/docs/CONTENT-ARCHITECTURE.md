@@ -7,10 +7,11 @@ and `ROADMAP.md` (sequencing).
 
 Baseline: 43 service pages, 91 EN posts, 7 core pages, plus FR and ES
 layers. About 6 clicks across the whole domain in 90 days. Impressions exist
-(18,522 on one page alone) but nothing converts. The diagnosis is topical
-dilution: the domain talks about Valencia flats, YouTube money, Instagram
-tools, and multilingual SEO with equal weight, so it is an authority on
-none of them.
+(18,522 on one page alone) but nothing converts. Two diagnoses, and both
+matter. The domain talks about Valencia flats, YouTube money, Instagram
+tools and multilingual SEO with equal weight, so it is an authority on none
+of them. And it sells inputs, never the outcome the buyer wants, so even the
+visitors it does earn are not asked for anything.
 
 ---
 
@@ -18,16 +19,45 @@ none of them.
 
 | Layer | Value |
 |---|---|
-| **Central entity** | Mike Bastin, multilingual search consultant |
-| **Source context** | Selling multilingual SEO, localisation, and AI consulting to businesses entering non-native language markets |
-| **Central search intent** | "Make my business findable and convertible in a language that is not my first" |
-| **Core section** | Multilingual and language-market SEO, localisation, translation, AI for search and language |
+| **Central entity** | Mike Bastin, multilingual demand consultant |
+| **Source context** | Generating qualified enquiries for businesses selling into languages they do not operate in natively. Multilingual SEO, localisation and AI are the mechanisms. Leads are the product |
+| **Central search intent** | "Why is my French, German or Spanish site not producing enquiries, and who can fix it" |
+| **Core section** | Multilingual lead generation, and the search, localisation and AI work that produces it |
 | **Outer section** | General SEO craft and tooling, kept only where it bridges back to the core |
-| **Topical border** | Anything with no path back to multilingual search or AI for language. Valencia lifestyle sits outside it. So does generic social media advice |
+| **Topical border** | Anything with no path back to multilingual demand. Domestic-only conversion work sits outside it, as does Valencia lifestyle and generic social media advice |
 
 The border is the whole point. Every page that survives has to answer "how
-does a reader of this page become a multilingual SEO client." Pages that
-cannot answer it either move to a network property or get retired.
+does a reader of this page become a client." Pages that cannot answer it
+either move to a network property or get retired.
+
+### Why leads, and not SEO, sit at the centre
+
+An earlier draft of this document set the source context as "selling
+multilingual SEO, localisation and AI consulting". Those are inputs. They
+describe the method rather than the product, and every competitor sells the
+same list.
+
+The handoff already said as much and the architecture ignored it. §1 gives
+the reason for the rebuild as "two years live, old domain, **no lead
+traction**". §13 sets the measure: "**KPI is clicks and leads**, not
+impressions." Leads were named as both the presenting problem and the
+success measure, and then nothing in the structure sold or evidenced them.
+
+Selling the outcome rather than the inputs changes three things:
+
+1. **The buyer query changes.** "Multilingual SEO services" is a
+   practitioner search. "Why is my German site not converting" is a buyer in
+   pain. The second is a smaller query network and a much better one.
+2. **The proof changes.** Rankings screenshots prove an input. Client
+   reports prove the outcome, and reports already exist.
+3. **The competitive set changes.** Ranking against every SEO agency is a
+   fight on their terms. Very few of them can show multilingual lead
+   numbers.
+
+The mechanisms do not lose status. Sections 3 and 4 keep the multilingual
+search, localisation and AI clusters intact, because they are how the
+outcome is produced and they hold the existing demand. What changes is which
+one is the headline.
 
 ---
 
@@ -177,14 +207,25 @@ through slug similarity.
 
 ---
 
-## 3. Service consolidation: 43 to 13
+## 3. Service consolidation: 43 to 16
 
 Koray's rule is one page, one query network, covered completely. One
 consultant cannot cover 43 query networks properly, which is why all 43 are
 thin. Consolidate to what can genuinely be covered, keeping every page that
 already carries proven demand.
 
-### Core cluster 1: Multilingual search (the money)
+### Core cluster 1: Multilingual lead generation (the product)
+
+| New page | Absorbs / reclaims | Note |
+|---|---|---|
+| `/services/lead-generation/` **PILLAR** | new | The page the whole site now points at. Sells the outcome, links down into the mechanisms |
+| `/services/multilingual-sem/` | reclaimed | Paid demand capture across languages. An earlier draft absorbed this into multilingual-content, which was wrong once leads are the product |
+| `/services/conversion-tracking/` | analytics-and-tracking | Reclaimed from technical-seo. Measuring enquiries per locale is the evidence layer, not a technical footnote |
+
+Three of the sixteen, and the first thing a visitor should meet. The
+services below are how this cluster delivers.
+
+### Core cluster 2: Multilingual search (the engine)
 
 | New page | Absorbs (301, same locale) | Note |
 |---|---|---|
@@ -199,7 +240,7 @@ already carries proven demand.
 Six language pages on one template is a scalable set and each owns a clean,
 distinct query network. Keep the grid complete rather than trimming it.
 
-### Core cluster 2: Localisation and translation
+### Core cluster 3: Localisation and translation
 
 | New page | Absorbs |
 |---|---|
@@ -211,14 +252,14 @@ Legal and certified/sworn translation have the strongest independent query
 networks of the eight absorbed. Split them back out later if data supports
 it, once the pillar ranks.
 
-### Core cluster 3: AI (the differentiator)
+### Core cluster 4: AI (the differentiator)
 
 | New page | Absorbs |
 |---|---|
 | `/services/ai-consulting/` **PILLAR** | ai-consulting-services |
 | `/services/ai-translation-and-post-editing/` | post-ai-editing |
 
-### Core cluster 4: Supporting capability
+### Core cluster 5: Supporting capability
 
 | New page | Absorbs |
 |---|---|
@@ -232,7 +273,7 @@ consultancy. 301 both to `/services/multilingual-seo/` and carry a
 contextual network link to globaprom.com per the linking policy in
 `HANDOFF.md` §19.
 
-**Result: 43 to 13.** Every absorbed slug 301s to its absorbing page in the
+**Result: 43 to 16.** Every absorbed slug 301s to its absorbing page in the
 same locale, per the sales-page rule in `HANDOFF.md` §16.
 
 ---
@@ -304,6 +345,56 @@ language-data-analysis
 
 ---
 
+### Cluster F: Multilingual lead generation → `/services/lead-generation/`
+**Quick win, promoted:** `french-ppc-campaign` sits at position 6.9 with no
+clicks. An earlier draft filed it under language markets. It is paid lead
+generation in French, so it belongs here, and it is the cheapest proof the
+new positioning is real.
+
+Reclaimed from the retire and relocate lists in section 5, where the old
+positioning had no home for them: `email-marketing-hacks...` as lead nurture
+rather than Globaprom automation, `most-popular-marketing-strategies`
+repositioned as multilingual demand strategy, `digital-marketing-advisor`
+as an advisory framing rather than a folded page.
+
+This cluster is thin on existing content and that is expected. It is the
+newest part of the argument, and section 4b is where its authority comes
+from instead.
+
+## 4b. Reports as the proof layer
+
+Client reports are the strongest asset in this project and currently appear
+nowhere in the architecture. They matter more than case studies: a case
+study is a narrative written afterwards, a report is primary evidence with
+numbers attached. Very few competing consultants can show multilingual lead
+figures at all.
+
+Three ways they can work, and they compose:
+
+| Use | What it is |
+|---|---|
+| **Case study spine** | Each of the eight portfolio spreads gains real outcome numbers instead of the proxy metrics currently in place |
+| **The lead-generation pillar** | `/services/lead-generation/` carries report extracts as its evidence, which is what makes it credible on day one despite being new |
+| **Gated or ungated assets** | An anonymised report as a downloadable example doubles as a lead magnet, which is the service demonstrating itself |
+
+**Confidentiality is the blocking question.** Client reports normally carry
+domains, revenue, keyword sets and spend. Nothing publishes without either
+client sign-off or proper anonymisation, and anonymisation has to survive
+scrutiny: a redacted domain is still identifiable from a keyword set. Three
+workable levels, decide per client:
+
+1. **Named, with permission.** Strongest proof, needs a signed yes.
+2. **Anonymised by sector.** "A Houston freight forwarder", with figures
+   intact and identifying detail removed.
+3. **Rebuilt charts.** Only the shape of the result, redrawn from the
+   underlying numbers, with no client artefact published at all.
+
+Owner action: send one representative report so its structure can be read
+before any of this is designed. What is in it determines whether these
+become full pages, embedded charts, or downloads.
+
+---
+
 ## 5. Recycling: five dispositions, not two
 
 Owner directive: recycle as much as possible, in updated form. Retirement is
@@ -320,6 +411,18 @@ and only the fifth destroys work.
 
 That recycles roughly 93% of the English corpus. The retire list drops from
 14 pieces to about 6.
+
+**Section 1 changed after this table was written.** Making lead generation
+the outcome frame reclaims several pieces that had nowhere to sit under the
+old positioning, and reopens one relocation:
+
+| Piece | Was | Now |
+|---|---|---|
+| `french-ppc-campaign` | Cluster B quick win | Cluster F. Paid lead generation in French, at position 6.9 |
+| `email-marketing-hacks...` | Relocate to globaprom | Cluster F as lead nurture. Reclaimed |
+| `most-popular-marketing-strategies` | Reposition as market entry | Cluster F as multilingual demand strategy |
+| `digital-marketing-advisor` | Fold into an About page | Cluster F as advisory framing. Reclaimed from retirement |
+| `conversational-ai-chatbots-business` | Relocate to globaprom | **Contested.** Globaprom builds chatbots, but a chatbot is also lead capture. 2,336 impressions ride on the answer, so read it before routing |
 
 **Important caveat on everything below.** These routings are inferred from
 slugs, impression data and cluster fit, not from reading the articles. A
@@ -588,7 +691,14 @@ an open question in section 10.
 8. **ES measurement.** The Spanish layer is real and clustered rather than
    hollow, so it ships at launch and §17 needs no reopening. Pull GSC for
    `/es/` before P3 anyway, so the competitor-analysis cluster can be sized.
-9. **Localised route segments.** Does `/services/` become `/servicios/` and
+9. **Report confidentiality.** Named with client permission, anonymised by
+   sector, or charts rebuilt from the numbers with no client artefact
+   published? Decide per client, and send one representative report so
+   section 4b can be designed against something real.
+10. **conversational-ai-chatbots-business.** 2,336 impressions. Lead capture
+   for you, or a product page for Globaprom? The outcome frame makes this a
+   genuine toss-up where it previously was not.
+11. **Localised route segments.** Does `/services/` become `/servicios/` and
    `/fr/services/`, or do route segments stay English with only leaf slugs
    localised? One decision, every service URL in two locales.
 
