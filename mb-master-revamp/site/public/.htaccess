@@ -1,0 +1,18 @@
+# Static preview build. Apache / LiteSpeed.
+
+# Next exports its own 404 page.
+ErrorDocument 404 /404.html
+
+# Hashed build assets never change: cache them hard.
+<IfModule mod_expires.c>
+  ExpiresActive On
+  <FilesMatch "\.(woff2|js|css)$">
+    ExpiresDefault "access plus 1 year"
+    Header set Cache-Control "public, immutable"
+  </FilesMatch>
+</IfModule>
+
+# Belt and braces on top of robots.txt and the noindex meta tag.
+<IfModule mod_headers.c>
+  Header set X-Robots-Tag "noindex, nofollow"
+</IfModule>

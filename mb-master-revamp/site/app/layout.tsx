@@ -33,6 +33,9 @@ export const metadata: Metadata = {
   title: "Mike Bastin, multilingual search consultant",
   description:
     "Twenty-five years reading the swell of search, in four languages. Multilingual SEO, localisation and AI consulting from Valencia.",
+  // PREVIEW BUILD ONLY. Remove this block before the real launch, or the
+  // live site ships noindex and disappears from search.
+  robots: { index: false, follow: false, nocache: true },
   openGraph: {
     title: "Mike Bastin, multilingual search consultant",
     description:

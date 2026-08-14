@@ -4,6 +4,7 @@ import ImpressionsChart from "@/components/ImpressionsChart";
 import ConsolidationDiagram from "@/components/ConsolidationDiagram";
 import LocaleTable from "@/components/LocaleTable";
 import Spread, { type SpreadData } from "@/components/Spread";
+import Testimonials from "@/components/Testimonials";
 
 const SPREADS: SpreadData[] = [
   {
@@ -211,8 +212,28 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ============ TESTIMONIALS ============ */}
+      <section className="band band-a py-[clamp(64px,9vw,128px)]">
+        <div className="shell">
+          <Reveal>
+            <p className="eyebrow mb-3">In their words, in their languages</p>
+            <h2 className="mb-5 max-w-[20ch] text-[clamp(1.8rem,3.6vw,2.9rem)] font-semibold leading-[1.1]">
+              Ten reviews. Four languages. Nobody asked them to write in mine.
+            </h2>
+            <p className="mb-10 max-w-[56ch] text-[1.05rem]" style={{ color: "var(--dim)" }}>
+              Clients reviewed the work in Dutch, Spanish, French and English,
+              which is the multilingual claim proving itself better than any
+              copy on this page could.
+            </p>
+          </Reveal>
+          <Reveal i={1}>
+            <Testimonials />
+          </Reveal>
+        </div>
+      </section>
+
       {/* ============ CREDIBILITY ============ */}
-      <section className="band band-a py-[clamp(56px,8vw,110px)]">
+      <section className="band band-b py-[clamp(56px,8vw,110px)]">
         <div className="shell">
           <div
             className="grid gap-px"
@@ -244,7 +265,7 @@ export default function Home() {
       </section>
 
       {/* ============ CONTACT ============ */}
-      <footer className="band band-b py-[clamp(72px,10vw,140px)]">
+      <footer className="band band-a py-[clamp(72px,10vw,140px)]">
         <div className="shell">
           <Reveal>
             <p className="eyebrow mb-4">Clean face, no crowd</p>

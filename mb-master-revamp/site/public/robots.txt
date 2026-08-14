@@ -1,0 +1,3 @@
+# Preview build. Nothing here should ever be indexed.
+User-agent: *
+Disallow: /
