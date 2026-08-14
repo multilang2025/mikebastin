@@ -99,10 +99,9 @@ multilingual demand before launch, and the GBP primary category reviewed at
 the same time. Cheap to change, and it is the kind of signal that a
 twenty-five year old domain should already be sending.
 
-**Still open:** the owner referred to a LinkedIn *Page*. The URL on record
-is a personal *profile* (`/in/`). If a company Page also exists, both belong
-in `sameAs`, and the Page belongs in `Organization` schema rather than
-`Person`.
+Confirmed by the owner: the LinkedIn entry is a personal **profile**, not a
+company Page. It belongs in `Person.sameAs` alongside X and the GBP, and no
+`Organization` schema is needed for it.
 
 ### What the domain actually is
 
@@ -465,7 +464,7 @@ This cluster is thin on existing content and that is expected. It is the
 newest part of the argument, and section 4b is where its authority comes
 from instead.
 
-## 4b. Reports as the proof layer
+## 4b. Reports and reviews as the proof layer
 
 Client reports are the strongest asset in this project and currently appear
 nowhere in the architecture. They matter more than case studies: a case
@@ -496,6 +495,45 @@ workable levels, decide per client:
 Owner action: send one representative report so its structure can be read
 before any of this is designed. What is in it determines whether these
 become full pages, embedded charts, or downloads.
+
+### Google reviews: display them, do not mark them up
+
+Reviews are the other half of the proof layer, and the instinct to add
+`Review` and `AggregateRating` schema is the wrong one here. Two separate
+Google guidelines both bite:
+
+1. **Reviews collected from another site are not eligible.** Taking review
+   text from the GBP and marking it up on mikebastin.com is exactly the case
+   the review-snippet guidance excludes.
+2. **Self-serving reviews are not eligible.** Ratings about the entity that
+   hosts them, meaning your own business on your own site, do not qualify
+   for review rich results regardless of where the text came from.
+
+Marking them up anyway risks a structured-data manual action, which is a bad
+look on a search consultant's own domain.
+
+What actually works:
+
+- **Display them as plain testimonials.** Real HTML, attributed to the
+  named reviewer, no `Review` schema on the block.
+- **Link to the GBP profile** so a reader can verify them at source, using
+  the `?cid=` form recorded in section 1.
+- **Keep the GBP in `Person.sameAs`.** Google already holds the reviews and
+  already associates them with the entity. Copying them onto the site adds
+  no ranking signal through schema, which is the point people miss.
+
+So the value of putting reviews on the site is **conversion and human
+trust**, not structured data. That still matters, and paired with the report
+extracts above it gives the lead-generation pillar in section 3 two
+independent forms of evidence: numbers from the work, and words from the
+clients.
+
+**Getting the text out.** Google serves Maps as a JavaScript shell, so the
+reviews cannot be scraped from the `?cid=` URL. Three routes: copy them from
+the GBP dashboard by hand, export via Google Business Profile, or pull them
+programmatically through the Places API `Place Details` endpoint, which
+returns up to five reviews per call and is the sanctioned path. Anything
+that scrapes Maps directly is against its terms.
 
 ---
 
