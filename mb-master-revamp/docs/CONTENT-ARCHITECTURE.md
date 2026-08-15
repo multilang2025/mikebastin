@@ -563,6 +563,69 @@ that scrapes Maps directly is against its terms.
 
 ---
 
+## 4c. Query network, measured
+
+First real demand data in this project. Extracted 2026-08-14 via Keywords
+Everywhere, seeded from the central entity and expanded through related and
+People-Also-Search-For, then filtered to the topical border. 614 raw
+keywords, 457 after filtering.
+
+**Coverage limit, and it is a serious one.** The API key supports the United
+States only. France, Spain, the UK, Belgium and the Netherlands are absent
+from its supported-country list, confirmed against controls: "seo" and
+"traduction" both return zero volume for France on both data sources, which
+cannot be true. So everything below is **US English only**. FR and ES remain
+unmeasured, and section 2 established that those are independent corpora,
+not translations, so this is a real hole rather than a rounding error.
+
+### What the market actually looks like
+
+| Cluster | Keywords | US volume/mo | Note |
+|---|---|---|---|
+| Commercial SEO, generic | 52 | 230,520 | "seo services" 74,000, "seo agency" 27,100. Not winnable and not the border |
+| Translation, B2B | 91 | 32,970 | "certified translation services" 4,400, CPC $4 to $6 |
+| Website localisation | 50 | 14,230 | |
+| **International and global SEO** | 40 | **4,450** | "international seo agency" 720, CPC to $9.61 |
+| Technical multilingual | 76 | 3,950 | hreflang 1,000 |
+| **Multilingual SEO** | 15 | **580** | "multilingual seo" 170, CPC $8.29 |
+
+### Three findings that matter
+
+**1. The core niche is very small.** Multilingual and international SEO
+combined is roughly **5,030 searches a month in the entire US market**. That
+is the whole query network the positioning in section 1 targets. Traffic
+expectations have to be set against that number and not against the 230,520
+sitting in generic SEO terms.
+
+Small is not automatically bad, and in Koray's terms it is close to ideal: a
+network that size is genuinely ownable, especially from a twenty-five year
+old domain. It does mean the KPI stays enquiries rather than sessions,
+which section 1 already argues.
+
+**2. The intent is expensive, which is the compensation.** CPCs on the core
+terms run $6 to $10, and "international seo consultant" is $9.61. Low
+volume, high commercial value, few competitors able to serve it in four
+languages. That is a good niche to own, and a bad one to measure by traffic.
+
+**3. Translation is six times larger than multilingual SEO, and the
+heritage is already there.** 32,970 a month against 580, with solid CPCs,
+on a domain that spent two decades as a translation site. Section 3 keeps
+translation as cluster 3 and the lead-generation reframing pushed it further
+down. The data argues that was too quick: measured demand and topical
+history both point the other way. Worth reopening rather than assuming.
+
+### What is still missing
+
+FR and ES have no measured demand. Given that the two best-performing pages
+on the whole domain are FR-only originals, and that the ES layer is 19
+original posts in tight clusters, the unmeasured half is quite possibly the
+more valuable half. Two routes: the Ahrefs workspace quota resets on
+18 August, or a Keywords Everywhere plan covering more countries.
+
+Until then the map is one third built.
+
+---
+
 ## 5. Recycling: five dispositions, not two
 
 Owner directive: recycle as much as possible, in updated form. Retirement is
