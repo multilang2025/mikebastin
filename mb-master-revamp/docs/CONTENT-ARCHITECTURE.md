@@ -675,6 +675,115 @@ Until then the map is one third built.
 
 ---
 
+## 4d. Topical map adapted to the real markets
+
+Section 4c measured the United States, which is not a market this business
+serves. Owner correction: the target set is **Belux, France and Switzerland,
+Spain, and the UK**, with Valencia as the proximity market, anglophone
+clients throughout, and a native francophone operator.
+
+That reframes everything below, including which locale leads.
+
+### Correction to 4c, and what is measurable
+
+The Keywords Everywhere key supports eight markets only: Global, Australia,
+Canada, India, New Zealand, South Africa, **United Kingdom** and United
+States. An earlier note here said the UK was absent; that was wrong, because
+the country code is `uk` and the check used `gb`.
+
+Belgium, Luxembourg, France, Switzerland, Spain and the Netherlands are all
+genuinely unavailable. **Four of the five target markets cannot be measured
+with this key**, and they are precisely the markets where the proposition is
+strongest, since Belgium and Switzerland are natively multilingual countries
+where the problem being sold is a daily reality rather than an abstraction.
+The US and UK figures therefore understate the real opportunity rather than
+describing it.
+
+### Measured: UK and Global
+
+| | UK | Global |
+|---|---|---|
+| Core, international and multilingual | 1,700/mo | 15,900/mo |
+| Generic SEO, the saturated space | 16,200/mo | 238,000/mo |
+| Core as share of generic | 10.5% | 6.7% |
+
+**The owner's read on the UK is confirmed, with one refinement.** UK core
+demand really is small at 1,700 a month. But the CPCs are the highest of any
+market measured: `international seo consultant` at £7.92 and
+`international seo agency` at £6.90, against £7.41 for plain `seo agency`.
+So the UK is not insensitive, it is **small and expensive**. Few buyers,
+each worth as much as a generic SEO buyer. That argues for treating the UK
+as a conversion market rather than a volume market.
+
+### The single most actionable finding: the wrong word is in the positioning
+
+| Term | UK | Global |
+|---|---|---|
+| `international seo` | 170 | 1,600 |
+| `international seo agency` | 320 | 1,900 |
+| `international seo consultant` | 260 | 1,300 |
+| **`multilingual seo`** | **70** | **480** |
+
+**"International" outsells "multilingual" by roughly four to one in every
+market measured.** The architecture in sections 1 and 3 is built on the word
+multilingual, which is the term with the least demand attached to it.
+
+The French corpus already knew this. The two best-performing pages on the
+whole domain, identified in section 2, are `agence-seo-internationale` at
+1,969 impressions and `consultant-referencement-international` at 1,316.
+Both say **international**. Neither says multilingual. Independent
+convergence between the demand data and the site's own history.
+
+Recommendation: **lead with international, keep multilingual as the
+mechanism.** International names the buyer's situation, "I sell abroad".
+Multilingual names the technique. Sell the situation.
+
+One term to handle differently: `hreflang` is the largest single keyword
+measured, 480 UK and 8,100 Global, at a CPC of essentially zero. That is
+pure practitioner traffic with no buying intent. Excellent for authority and
+links, worthless for enquiries. Outer section, never a service page.
+
+### The three locales are three markets, not three translations
+
+Section 2 established that the blog is three largely independent corpora.
+The market geography explains why that is correct rather than accidental,
+and sets each locale a different job.
+
+| Locale | Markets | Role | Lead term |
+|---|---|---|---|
+| **FR** | Belgium, Luxembourg, France, Suisse romande | **Primary.** Native language, proven demand, natively multilingual markets where the problem is lived daily | `référencement international`, `SEO international` |
+| **ES** | Spain, Valencia proximity | Local and regional. Proximity market, GBP-anchored, existing 19-post original corpus | `SEO internacional`, `agencia SEO Valencia` |
+| **EN** | UK, plus anglophone clients anywhere | Conversion market. Small volume, highest CPCs, saturated on generic terms | `international SEO` |
+
+**FR should be the primary locale, not English.** That inverts the usual
+assumption and the current architecture. The evidence: the strongest pages
+on the domain are FR originals, the operator is a native francophone, and
+Belgium and Switzerland are structurally multilingual in a way the UK and US
+are not. English is where the clients happen to speak, not where the demand
+concentrates.
+
+**The Valencia proximity angle is currently unused.** A GBP exists, a
+physical presence exists, and Spain is a target market, yet section 3 has no
+local service page and section 4 no local cluster. `agencia SEO Valencia`
+cannot be measured with this key, but a local cluster tied to the GBP is
+structurally sound regardless of what the volume turns out to be, and local
+intent converts far above informational.
+
+### What this changes in sections 3 and 4
+
+1. Rename the cluster-2 pillar from multilingual SEO to **international SEO**,
+   keeping multilingual in the body copy as the method.
+2. Add a **local cluster** for the Valencia and Spain proximity market,
+   anchored to the GBP, in ES first.
+3. Treat `hreflang` and the technical multilingual cluster as outer section,
+   feeding authority rather than enquiries.
+4. Rebuild the FR map from FR demand once measurable, rather than
+   translating the EN map into French. Same for ES.
+5. Re-measure BE, FR, CH and ES after the Ahrefs quota resets on 18 August,
+   because those four decide the strategy and none of them is measured yet.
+
+---
+
 ## 5. Recycling: five dispositions, not two
 
 Owner directive: recycle as much as possible, in updated form. Retirement is
