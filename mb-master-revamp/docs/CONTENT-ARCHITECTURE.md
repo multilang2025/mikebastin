@@ -607,12 +607,61 @@ terms run $6 to $10, and "international seo consultant" is $9.61. Low
 volume, high commercial value, few competitors able to serve it in four
 languages. That is a good niche to own, and a bad one to measure by traffic.
 
-**3. Translation is six times larger than multilingual SEO, and the
-heritage is already there.** 32,970 a month against 580, with solid CPCs,
-on a domain that spent two decades as a translation site. Section 3 keeps
-translation as cluster 3 and the lead-generation reframing pushed it further
-down. The data argues that was too quick: measured demand and topical
-history both point the other way. Worth reopening rather than assuming.
+**3. Translation looks larger than multilingual SEO, and the appearance is
+false.** Corrected after an owner challenge, and the data backs the owner
+rather than the earlier reading.
+
+The first version of this section reported translation at 32,970 a month
+against 580 for multilingual SEO, and argued the demotion of translation had
+been too quick. Two checks against the same dataset overturn that.
+
+**Almost all translation demand is free-intent.** Splitting the translation
+keywords on free-solution signals (free, Google Translate, DeepL, online
+translator, translate to, ChatGPT translate):
+
+| Segment | Keywords | Volume/mo | Median CPC |
+|---|---|---|---|
+| Free-intent | 8 | 47,465,350 | $1.63 |
+| Everything else | 90 | 32,710 | $3.50 |
+
+**99.9% of all translation search volume is people looking for a free
+tool.** The 32,970 figure quoted earlier was the residual 0.1% that survived
+filtering, presented as though it were the market. The topic is enormous and
+almost entirely worthless commercially.
+
+**The commercial remainder is falling fast.** Median twelve-month trend
+across non-free translation keywords with meaningful volume: **-42.5%**
+(n=42).
+
+| Keyword | Vol | 12-mo trend |
+|---|---|---|
+| `translation agency prices` | 2,400 | **-94%** |
+| `document translation service` | 3,600 | -59% |
+| `professional translation` | 1,900 | -54% |
+| `translation agencies` | 1,900 | -32% |
+| `certified translation services` | 4,400 | -12% |
+
+Only certified and sworn translation holds up, which makes sense: a court or
+immigration authority will not accept machine output. Everything else is
+being eaten.
+
+**A caveat that cuts the other way, and it is uncomfortable.** The same
+measurement puts international and multilingual SEO at **-29.4%** (n=55).
+The core niche is shrinking too, not just translation. Treat that number
+with more caution than the translation one, because most of those keywords
+sit under 500 a month where Google Keyword Planner rounds into buckets and
+monthly series get noisy. The translation figures rest on keywords of 1,600
+to 4,400 a month and are far more reliable. Still, it should be checked
+against Ahrefs after the 18 August reset rather than dismissed.
+
+**What this means for the strategy.** It strengthens the lead-generation
+reframing in section 1 rather than undermining it. If translation as a
+searched service is collapsing and what remains is dominated by people who
+want it free, then selling translation through search is a dead end, and
+selling the outcome is the escape from commoditisation. Section 3 keeps
+translation as a capability because clients still buy it, notably the
+certified and sworn work that machines cannot serve, but it should not
+become the headline the site is built around.
 
 ### What is still missing
 
