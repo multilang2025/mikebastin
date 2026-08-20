@@ -21,7 +21,7 @@ function displayName(full: string): string {
 }
 
 const FILTERS = [
-  { id: "all", label: "All ten" },
+  { id: "all", label: "All" },
   { id: "delivery", label: "Client work" },
   { id: "training", label: "Training" },
 ] as const;
@@ -111,40 +111,57 @@ function Card({ t, i }: { t: Testimonial; i: number }) {
   );
 }
 
-export default function Testimonials() {
+/**
+ * Reviews are shown in the language of the page they sit on. A Dutch review
+ * on the English site is unreadable to the visitor it is meant to convince,
+ * so each locale carries its own. The full set stays in lib/testimonials.ts
+ * and every locale draws from it.
+ */
+export default function Testimonials({
+  locale = "en",
+}: {
+  locale?: Testimonial["lang"];
+}) {
   const [filter, setFilter] = useState<(typeof FILTERS)[number]["id"]>("all");
-  const shown =
-    filter === "all" ? TESTIMONIALS : TESTIMONIALS.filter((t) => t.theme === filter);
 
-  const langs = [...new Set(TESTIMONIALS.map((t) => t.langLabel))];
+  const inLocale = TESTIMONIALS.filter((t) => t.lang === locale);
+  const shown =
+    filter === "all" ? inLocale : inLocale.filter((t) => t.theme === filter);
+
+  // Only offer a theme filter that would actually return something.
+  const available = FILTERS.filter(
+    (f) => f.id === "all" || inLocale.some((t) => t.theme === f.id)
+  );
 
   return (
     <div>
       <div className="mb-8 flex flex-wrap items-center gap-x-3 gap-y-3">
-        {FILTERS.map((f) => {
-          const on = filter === f.id;
-          return (
-            <button
-              key={f.id}
-              onClick={() => setFilter(f.id)}
-              aria-pressed={on}
-              className="rounded-full border px-4 py-[6px] text-[.82rem] transition-all duration-300"
-              style={{
-                borderColor: on ? "var(--berry)" : "var(--rule)",
-                color: on ? "var(--berry)" : "var(--dim)",
-                background: on ? "var(--berry-soft)" : "transparent",
-              }}
-            >
-              {f.label}
-            </button>
-          );
-        })}
+        {available.length > 1 &&
+          available.map((f) => {
+            const on = filter === f.id;
+            return (
+              <button
+                key={f.id}
+                onClick={() => setFilter(f.id)}
+                aria-pressed={on}
+                className="rounded-full border px-4 py-[6px] text-[.82rem] transition-all duration-300"
+                style={{
+                  borderColor: on ? "var(--berry)" : "var(--rule)",
+                  color: on ? "var(--berry)" : "var(--dim)",
+                  background: on ? "var(--berry-soft)" : "transparent",
+                }}
+              >
+                {f.label}
+              </button>
+            );
+          })}
         <span className="ml-auto text-[.8rem]" style={{ color: "var(--dim)" }}>
-          Written in {langs.length} languages, unprompted
+          {inLocale.length} of {TESTIMONIALS.length} reviews, the ones written
+          in this language
         </span>
       </div>
 
-      <div className="columns-1 gap-5 md:columns-2 lg:columns-3">
+      <div className="columns-1 gap-5 md:columns-2">
         {shown.map((t, i) => (
           <Card key={t.name} t={t} i={i} />
         ))}

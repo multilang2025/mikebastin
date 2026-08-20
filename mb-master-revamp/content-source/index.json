@@ -1,0 +1,48 @@
+{
+  "scrapedAt": "2026-08-20T15:09:50.740Z",
+  "source": "https://mikebastin.com",
+  "locales": {
+    "en": {
+      "posts": {
+        "count": 91,
+        "file": "posts.en.json"
+      },
+      "pages": {
+        "count": 7,
+        "file": "pages.en.json"
+      },
+      "services": {
+        "count": 43,
+        "file": "services.en.json"
+      }
+    },
+    "fr": {
+      "posts": {
+        "count": 23,
+        "file": "posts.fr.json"
+      },
+      "pages": {
+        "count": 7,
+        "file": "pages.fr.json"
+      },
+      "services": {
+        "count": 44,
+        "file": "services.fr.json"
+      }
+    },
+    "es": {
+      "posts": {
+        "count": 20,
+        "file": "posts.es.json"
+      },
+      "pages": {
+        "count": 7,
+        "file": "pages.es.json"
+      },
+      "services": {
+        "count": 43,
+        "file": "services.es.json"
+      }
+    }
+  }
+}

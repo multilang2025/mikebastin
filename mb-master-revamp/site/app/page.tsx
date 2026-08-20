@@ -168,14 +168,15 @@ export default function Home() {
       <section className="band band-a py-[clamp(64px,9vw,128px)]">
         <div className="shell">
           <Reveal>
-            <p className="eyebrow mb-3">In their words, in their languages</p>
+            <p className="eyebrow mb-3">In their own words</p>
             <h2 className="mb-5 max-w-[20ch] text-[clamp(1.8rem,3.6vw,2.9rem)] font-semibold leading-[1.1]">
-              Ten reviews. Four languages. Nobody asked them to write in mine.
+              Nobody asked them which language to write in.
             </h2>
             <p className="mb-10 max-w-[56ch] text-[1.05rem]" style={{ color: "var(--dim)" }}>
               Clients reviewed the work in Dutch, Spanish, French and English,
-              which is the multilingual claim proving itself better than any
-              copy on this page could.
+              unprompted, which is the multilingual claim proving itself better
+              than any copy on this page could. Shown here are the ones written
+              in English; each language version of the site carries its own.
             </p>
           </Reveal>
           <Reveal i={1}>
@@ -217,7 +218,7 @@ export default function Home() {
       </section>
 
       {/* ============ CONTACT ============ */}
-      <SiteFooter credits address />
+      <SiteFooter address />
 
     </main>
   );
