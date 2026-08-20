@@ -28,6 +28,11 @@ like "dominio" tripping on a substring):
 - Surf vocabulary (HANDOFF.md §22): seasoning, not theme, max one term per
   section, only where the metaphor carries real meaning.
 - UK English spelling throughout (localise, optimise, colour, etc.).
+- Reviewer names on testimonials display as full first name plus a last-name
+  initial (e.g. "Alicia B."), never the full surname. This is a display
+  rule only: `lib/testimonials.ts` keeps the full real name as the record,
+  formatted down by `displayName()` in `components/Testimonials.tsx`. Flag
+  any spot that renders `t.name` directly instead of through that helper.
 
 Report every violation with the exact string and location. This agent
 blocks merge on any hit — there is no "close enough" on the forbidden list,

@@ -197,6 +197,14 @@ inferred. Everything downstream is expressed in EN slugs for readability,
 and the rules here override any reading of sections 3 to 6 as an EN-only
 exercise.
 
+**Owner note: a fourth locale, Dutch, is planned once these three ship.**
+It targets Belgium and the Netherlands, sits behind FR/ES/EN in sequence
+rather than alongside them, and nothing in section 4d's market analysis
+covers it yet. Precedent exists in the owner's own network: ValenciaMove
+already runs NL as one of five live locales, and four of the ten
+testimonials in section 4b are written in Dutch. Treat this as a P5 item,
+not a scope change to the three-locale work already under way.
+
 ### The blog is not trilingual. It is three monolingual blogs.
 
 | Type | Groups | Locale coverage |

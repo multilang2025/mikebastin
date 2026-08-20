@@ -9,6 +9,17 @@ import { TESTIMONIALS, GBP_URL, type Testimonial } from "@/lib/testimonials";
  * comment in lib/testimonials.ts for why. Quotes render verbatim.
  */
 
+// Privacy convention for a reviewer's real name on a third-party page:
+// full first name, surname reduced to an initial. lib/testimonials.ts
+// keeps the full name as the record; only the display is truncated here.
+function displayName(full: string): string {
+  const parts = full.trim().split(/\s+/);
+  if (parts.length < 2) return full;
+  const first = parts[0];
+  const lastInitial = parts[parts.length - 1][0];
+  return `${first} ${lastInitial}.`;
+}
+
 const FILTERS = [
   { id: "all", label: "All ten" },
   { id: "delivery", label: "Client work" },
@@ -87,7 +98,7 @@ function Card({ t, i }: { t: Testimonial; i: number }) {
         style={{ borderColor: "var(--rule)" }}
       >
         <cite className="not-italic font-medium" style={{ color: "var(--ink)" }}>
-          {t.name}
+          {displayName(t.name)}
         </cite>
         {t.localGuide && (
           <span style={{ color: "var(--berry)" }} className="text-[.7rem] uppercase tracking-[.09em]">

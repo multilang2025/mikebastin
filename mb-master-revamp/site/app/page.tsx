@@ -3,59 +3,10 @@ import Counter from "@/components/Counter";
 import ImpressionsChart from "@/components/ImpressionsChart";
 import ConsolidationDiagram from "@/components/ConsolidationDiagram";
 import LocaleTable from "@/components/LocaleTable";
-import Spread, { type SpreadData } from "@/components/Spread";
+import Spread from "@/components/Spread";
+import { PROJECTS } from "@/lib/projects";
 import Testimonials from "@/components/Testimonials";
 
-const SPREADS: SpreadData[] = [
-  {
-    numeral: "I", name: "BeTranslated", domain: "betranslated.com",
-    angle: "Founded it, still run it",
-    body: "A translation agency with six regional identities and a multi-TLD setup that has to rank separately in every one of them. Twenty years of learning what breaks when a brand tries to speak six languages at once.",
-    metrics: [{ v: "6", k: "Regional TLDs" }, { v: "20 yr", k: "Running it" }],
-  },
-  {
-    numeral: "II", name: "Globaprom", domain: "globaprom.com",
-    angle: "Custom AI software",
-    body: "Fixed scope, fixed price, delivered in weeks, multilingual from the first commit. Built the shipment tracking portal that took roughly three hours a day of status chasing out of a freight forwarder's week.",
-    metrics: [{ v: "3 h/day", k: "Saved on tracking" }, { v: "10 h/wk", k: "On reconciliation" }],
-  },
-  {
-    numeral: "III", name: "TX International Freight", domain: "txintlfreight.com",
-    angle: "Houston industrial freight",
-    body: "Technical SEO and content for a freight forwarder whose customers search in terms no marketer would guess. Learning the vocabulary was most of the work.",
-    metrics: [{ v: "Houston", k: "Local pack" }, { v: "EN", k: "Single market" }],
-  },
-  {
-    numeral: "IV", name: "Century 21 Perdomo", domain: "c21perdomo.com",
-    angle: "Dominican real estate",
-    body: "Four languages over a headless WordPress build with WPML and WooCommerce. Property listings that have to stay correct in every locale while stock turns over weekly.",
-    metrics: [{ v: "4", k: "Languages" }, { v: "Headless", k: "Architecture" }],
-  },
-  {
-    numeral: "V", name: "ValenciaMove", domain: "valenciamove.com",
-    angle: "Expat relocation, first hand",
-    body: "Over a thousand pages across five languages, written from actually having done the move rather than from a keyword tool. The Valencia content leaving mikebastin.com is heading here.",
-    metrics: [{ v: "1,132", k: "URLs" }, { v: "5", k: "Locales" }],
-  },
-  {
-    numeral: "VI", name: "Bemelman Spuiterij", domain: "bemelmanspuiterij.nl",
-    angle: "Dutch powder coating, 45 years",
-    body: "A specialist in Noordwijkerhout who had no web presence worth the name. Dutch local SEO for a trade where the buyers are other businesses and the search volume is small but decisive.",
-    metrics: [{ v: "45 yr", k: "Trading" }, { v: "NL", k: "Local search" }],
-  },
-  {
-    numeral: "VII", name: "Delaguía y Luzón", domain: "delaguialuzon.com",
-    angle: "Valencia law firm",
-    body: "Legal, labour, immigration and tax across Spain and France, in four languages including Russian. Legal SEO where a mistranslated term is a liability, not a ranking problem.",
-    metrics: [{ v: "4", k: "Languages" }, { v: "2", k: "Jurisdictions" }],
-  },
-  {
-    numeral: "VIII", name: "Matosurf", domain: "matosurf.com",
-    angle: "French board sports",
-    body: "Seven board sports, forty-eight French spots, a hundred and twenty guides. Friends in the line-up still call me the Silver Surfer, and the editorial method page there is the pattern this site borrows for its own credibility layer.",
-    metrics: [{ v: "120+", k: "Guides" }, { v: "48", k: "Spots" }],
-  },
-];
 
 const STATS = [
   { n: 25, s: "", k: "Years in search" },
@@ -205,7 +156,7 @@ export default function Home() {
           </Reveal>
 
           <div className="mt-10">
-            {SPREADS.map((s, i) => (
+            {PROJECTS.map((s, i) => (
               <Spread key={s.domain} d={s} flip={i % 2 === 1} />
             ))}
           </div>
