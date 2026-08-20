@@ -513,9 +513,9 @@ class AISA_REST {
 
 		$conn = AISA_Ga_Client::get_connection();
 		if ( 1 === count( $matches ) ) {
-			$conn['property']   = $matches[0]['property'];
+			$conn['property']      = $matches[0]['property'];
 			$conn['property_name'] = $matches[0]['displayName'];
-			$conn['candidates'] = array();
+			$conn['candidates']    = array();
 		} else {
 			// Zero or multiple matches -- let the admin pick explicitly
 			// rather than silently guessing wrong. Store the full property

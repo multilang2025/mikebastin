@@ -24,10 +24,10 @@ defined( 'ABSPATH' ) || exit;
  */
 class AISA_Gsc_Client {
 
-	const AUTH_URL     = 'https://accounts.google.com/o/oauth2/v2/auth';
-	const TOKEN_URL     = 'https://oauth2.googleapis.com/token';
-	const API_BASE      = 'https://www.googleapis.com/webmasters/v3/';
-	const SCOPE         = 'https://www.googleapis.com/auth/webmasters.readonly';
+	const AUTH_URL          = 'https://accounts.google.com/o/oauth2/v2/auth';
+	const TOKEN_URL         = 'https://oauth2.googleapis.com/token';
+	const API_BASE          = 'https://www.googleapis.com/webmasters/v3/';
+	const SCOPE             = 'https://www.googleapis.com/auth/webmasters.readonly';
 	const CONNECTION_OPTION = 'aisa_gsc_connection';
 
 	/**
@@ -77,11 +77,11 @@ class AISA_Gsc_Client {
 		return get_option(
 			self::CONNECTION_OPTION,
 			array(
-				'refresh_token'       => '',
-				'access_token'        => '',
+				'refresh_token'        => '',
+				'access_token'         => '',
 				'access_token_expires' => 0,
-				'property'            => '',
-				'candidates'          => array(),
+				'property'             => '',
+				'candidates'           => array(),
 			)
 		);
 	}
