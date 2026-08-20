@@ -8,6 +8,18 @@
  * and the Matosurf/Globaprom scrape findings in §24). Nothing here is
  * invented: where a hard number is not on record, the prose stays
  * qualitative rather than guessing at one.
+ *
+ * `search` figures come from live Google Search Console via the Ahrefs API,
+ * pulled 2026-08-20 for the last three complete months (May to July 2026).
+ * August is deliberately excluded: it was a partial month at pull time and
+ * would read as a collapse rather than an incomplete count. Owner confirmed
+ * these may be published named.
+ *
+ * `shot` is a screenshot of the client's live homepage, captured the same
+ * day. ValenciaMove is the exception and uses its own hero image from
+ * assets/ASSETS-MANIFEST.md, because the live site sits behind a browser
+ * check this environment cannot pass; TX International Freight has the same
+ * protection and carries no image for now rather than a wrong one.
  */
 
 export type Project = {
@@ -22,6 +34,12 @@ export type Project = {
   problem: string;
   work: string;
   outcome: string;
+  /** What was actually delivered for this client. */
+  services: string[];
+  /** Live GSC, May to July 2026. Absent where the property has no meaningful history yet. */
+  search?: { clicks: string; impressions: string; position: string; note?: string };
+  /** Path under /work/, omitted where no usable capture exists. */
+  shot?: string;
 };
 
 export const PROJECTS: Project[] = [
@@ -42,6 +60,8 @@ export const PROJECTS: Project[] = [
       "Founded the agency and has run it for twenty years, which means every lesson here came from the business itself rather than from a client engagement. Each regional TLD gets its own technical SEO treatment: separate sitemaps, separate hreflang groups, separate keyword research per market rather than a translated version of the English keyword list.",
     outcome:
       "Six regional identities still trading after two decades, each ranking on its own market's terms. The multi-TLD discipline learned here is the same discipline applied to every multilingual client since, including the other seven projects on this page.",
+    services: ["Multi-TLD SEO", "Multilingual content", "Six regional markets", "Founder"],
+    shot: "/work/betranslated.webp",
   },
   {
     slug: "globaprom",
@@ -60,6 +80,8 @@ export const PROJECTS: Project[] = [
       "AI-assisted development with a fixed scope and a fixed price, delivered in weeks rather than quarters, multilingual from the first commit rather than bolted on later. Built on Next.js with Payload CMS, the same stack this very site started from before the owner decided a self-edited portfolio did not need a database.",
     outcome:
       "A shipment tracking portal for TX International Freight that cut roughly three hours a day of manual status chasing, an internal reconciliation platform that saved about ten hours a week, and the multilingual site and tracking system running Century 21 Perdomo's real estate listings.",
+    services: ["Custom AI software", "Multilingual from build", "Fixed scope, fixed price"],
+    shot: "/work/globaprom.webp",
   },
   {
     slug: "tx-international-freight",
@@ -78,6 +100,8 @@ export const PROJECTS: Project[] = [
       "Technical SEO and content built around the vocabulary Houston's industrial freight buyers actually use, learned from the industry rather than assumed from a keyword tool. A single market covered properly rather than several covered thinly.",
     outcome:
       "Local pack presence in Houston's industrial freight search, and the shipment tracking portal Globaprom built for this account is itself one of the proof points on the Globaprom case study above.",
+    services: ["Technical SEO", "Industry content", "Houston local search", "Tracking portal"],
+    search: { clicks: "2,616", impressions: "764,222", position: "21.7", note: "May to July 2026" },
   },
   {
     slug: "c21perdomo",
@@ -96,6 +120,9 @@ export const PROJECTS: Project[] = [
       "EN/FR/ES/DE coverage across a headless WordPress, WPML and WooCommerce stack, with the multilingual site and tracking system itself built by Globaprom. SEO discipline applied per locale rather than translated from an English baseline.",
     outcome:
       "Four languages held correct against weekly-turnover inventory on a live real estate site, the kind of ongoing operational SEO that does not show up as a single launch metric but has to keep working every week.",
+    services: ["Multilingual SEO", "Headless WordPress", "WPML and WooCommerce", "Four languages"],
+    search: { clicks: "9,944", impressions: "461,231", position: "10.1", note: "May to July 2026" },
+    shot: "/work/c21perdomo.webp",
   },
   {
     slug: "valenciamove",
@@ -114,6 +141,9 @@ export const PROJECTS: Project[] = [
       "Over a thousand pages across five locales (EN, FR, ES, NL, IT), built from having made the move personally rather than from generic destination-guide research. The Valencia content leaving mikebastin.com as part of this rebuild is migrating here rather than being deleted, with 301s carrying the existing search equity across.",
     outcome:
       "1,132 URLs live across five languages, and the exodus this case study describes is the same one this rebuild is executing: the reader is looking at the fix while it happens.",
+    services: ["Content strategy", "Five locales", "Technical SEO", "Owned property"],
+    search: { clicks: "5,685", impressions: "496,316", position: "10.7", note: "May to July 2026" },
+    shot: "/work/valenciamove.webp",
   },
   {
     slug: "bemelman-spuiterij",
@@ -132,6 +162,9 @@ export const PROJECTS: Project[] = [
       "A Divi build paired with Dutch local SEO aimed at the small, decisive search volume a specialist trade actually gets, rather than chasing the larger but irrelevant traffic of adjacent consumer terms.",
     outcome:
       "A genuine web presence for a business that had been trading on reputation alone for forty-five years, positioned for the low-volume, high-intent local searches that actually convert in this trade.",
+    services: ["Dutch local SEO", "Divi build", "B2B trade search"],
+    search: { clicks: "1,436", impressions: "108,568", position: "28.1", note: "May to July 2026" },
+    shot: "/work/bemelman-spuiterij.webp",
   },
   {
     slug: "delaguia-y-luzon",
@@ -150,6 +183,9 @@ export const PROJECTS: Project[] = [
       "Legal SEO and multilingual content across ES/FR/EN/RU, covering legal, labour, immigration and tax practice areas across Spain and France, built with the accuracy standard a law firm's content actually requires rather than the standard general SEO content gets away with.",
     outcome:
       "Four languages, two jurisdictions, multiple practice areas held to a legal accuracy bar, proof that multilingual SEO and professional liability can be handled by the same process rather than needing separate ones.",
+    services: ["Legal SEO", "Multilingual content", "Four languages", "Two jurisdictions"],
+    search: { clicks: "38,476", impressions: "2,399,567", position: "9.4", note: "May to July 2026" },
+    shot: "/work/delaguia-y-luzon.webp",
   },
   {
     slug: "matosurf",
@@ -168,6 +204,8 @@ export const PROJECTS: Project[] = [
       "Seven board sports covered across four geographic zones, forty-eight French spots, a hundred and twenty guides, built on a visible editorial method page that states plainly how the content is researched rather than asserting authority without showing the work.",
     outcome:
       "A real, checkable scale of coverage across the French board sports market, and an editorial-method pattern proven here first and then reused for this very site's own credibility layer.",
+    services: ["Editorial strategy", "Content architecture", "EEAT method page", "Owned property"],
+    shot: "/work/matosurf.webp",
   },
 ];
 

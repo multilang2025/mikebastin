@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import Reveal from "@/components/Reveal";
 import { PROJECTS, getProject } from "@/lib/projects";
+import SiteFooter from "@/components/SiteFooter";
 
 export function generateStaticParams() {
   return PROJECTS.map((p) => ({ slug: p.slug }));
@@ -68,6 +69,20 @@ export default async function ProjectPage({
           </Reveal>
 
           <Reveal i={4}>
+            <ul className="mb-8 flex flex-wrap gap-2">
+              {project.services.map((sv) => (
+                <li
+                  key={sv}
+                  className="rounded-full px-3 py-[6px] text-[.78rem]"
+                  style={{ background: "var(--chip)", color: "var(--dim)" }}
+                >
+                  {sv}
+                </li>
+              ))}
+            </ul>
+          </Reveal>
+
+          <Reveal i={5}>
             <a
               href={`https://${project.domain}`}
               target="_blank"
@@ -106,6 +121,63 @@ export default async function ProjectPage({
           </div>
         </div>
       </section>
+
+      {project.shot && (
+        <section className="band band-a pb-[clamp(8px,2vw,20px)] pt-[clamp(48px,7vw,90px)]">
+          <div className="shell">
+            <Reveal>
+              <img
+                src={project.shot}
+                alt={`The ${project.name} homepage`}
+                loading="lazy"
+                decoding="async"
+                className="w-full rounded-[4px] border"
+                style={{ borderColor: "var(--rule)" }}
+              />
+            </Reveal>
+          </div>
+        </section>
+      )}
+
+      {project.search && (
+        <section className={`band ${project.shot ? "band-a" : "band-a"} py-[clamp(56px,8vw,110px)]`}>
+          <div className="shell">
+            <Reveal>
+              <p className="eyebrow mb-3">Live Search Console, {project.search.note}</p>
+              <h2 className="mb-8 max-w-[20ch] text-[clamp(1.7rem,3.2vw,2.5rem)] font-semibold leading-[1.12]">
+                What the search data says
+              </h2>
+            </Reveal>
+            <div
+              className="grid gap-px"
+              style={{
+                background: "var(--rule)",
+                gridTemplateColumns: "repeat(auto-fit, minmax(150px, 1fr))",
+              }}
+            >
+              {[
+                { v: project.search.clicks, k: "Clicks" },
+                { v: project.search.impressions, k: "Impressions" },
+                { v: project.search.position, k: "Average position" },
+              ].map((m, i) => (
+                <div key={m.k} className="band px-6 py-9" style={{ background: "var(--bg)" }}>
+                  <Reveal i={i}>
+                    <div
+                      className="display text-[clamp(1.8rem,3.8vw,2.7rem)] font-semibold leading-none tabular-nums"
+                      style={{ color: "var(--berry)" }}
+                    >
+                      {m.v}
+                    </div>
+                    <div className="mt-3 text-[.72rem] uppercase tracking-[.12em]" style={{ color: "var(--dim)" }}>
+                      {m.k}
+                    </div>
+                  </Reveal>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* ============ PROBLEM / WORK / OUTCOME ============ */}
       {[
@@ -153,24 +225,7 @@ export default async function ProjectPage({
       </section>
 
       {/* ============ CONTACT ============ */}
-      <footer className="band band-b py-[clamp(64px,9vw,120px)]">
-        <div className="shell">
-          <Reveal>
-            <p className="eyebrow mb-4">Clean face, no crowd</p>
-            <h2 className="mb-8 max-w-[15ch] text-[clamp(1.8rem,4.4vw,3rem)] font-semibold leading-[1.08]">
-              Tell me which language is losing you money.
-            </h2>
-            <div className="flex flex-col gap-2 text-[1.05rem]">
-              <a href="mailto:hello@mikebastin.com" className="ulink w-fit">
-                hello@mikebastin.com
-              </a>
-              <a href="tel:+34671175774" className="ulink w-fit">
-                +34 671 17 57 74
-              </a>
-            </div>
-          </Reveal>
-        </div>
-      </footer>
+      <SiteFooter />
     </main>
   );
 }

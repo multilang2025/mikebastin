@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Mike Bastin">
+  <rect width="64" height="64" rx="13" fill="#0A1B28"/>
+  <!-- Two swell lines, the same motif the site's hero draws. Gold over silver. -->
+  <path d="M8 30 C 17 20, 25 20, 33 27 S 49 40, 56 25"
+        fill="none" stroke="#D9A94A" stroke-width="4.4" stroke-linecap="round"/>
+  <path d="M8 44 C 18 35, 26 35, 34 41 S 49 51, 56 40"
+        fill="none" stroke="#BCC9D3" stroke-width="3.4" stroke-linecap="round" opacity=".85"/>
+</svg>

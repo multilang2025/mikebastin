@@ -29,31 +29,44 @@ export default function Spread({ d, flip }: { d: Project; flip: boolean }) {
         style={{ y: yVisual, order: flip ? 2 : 1 }}
         className="relative aspect-[4/3] overflow-hidden rounded-[3px] lg:aspect-[5/4]"
       >
-        <motion.div
-          style={{
-            scale,
-            background: `linear-gradient(135deg,
-              color-mix(in oklab, var(--deep) 88%, black) 0%,
-              var(--deep) 42%,
-              color-mix(in oklab, var(--berry) 40%, var(--deep)) 100%)`,
-          }}
-          className="absolute inset-0"
-        />
-        <div
-          className="absolute inset-0 opacity-[.18]"
-          style={{
-            backgroundImage:
-              "repeating-linear-gradient(115deg, transparent 0 26px, rgb(255 255 255 / .55) 26px 27px)",
-          }}
-        />
-        <div className="absolute inset-0 grid place-items-center px-6">
-          <span
-            className="display text-center text-[clamp(1.15rem,2.2vw,1.75rem)] font-semibold tracking-tight"
-            style={{ color: "#F5EFE2", textShadow: "0 2px 24px rgb(0 0 0 / .4)" }}
-          >
-            {d.domain}
-          </span>
-        </div>
+        {d.shot ? (
+          <motion.img
+            src={d.shot}
+            alt={`The ${d.name} homepage`}
+            loading="lazy"
+            decoding="async"
+            style={{ scale }}
+            className="absolute inset-0 h-full w-full object-cover object-top"
+          />
+        ) : (
+          <>
+            <motion.div
+              style={{
+                scale,
+                background: `linear-gradient(135deg,
+                  color-mix(in oklab, var(--deep) 88%, black) 0%,
+                  var(--deep) 42%,
+                  color-mix(in oklab, var(--berry) 40%, var(--deep)) 100%)`,
+              }}
+              className="absolute inset-0"
+            />
+            <div
+              className="absolute inset-0 opacity-[.18]"
+              style={{
+                backgroundImage:
+                  "repeating-linear-gradient(115deg, transparent 0 26px, rgb(255 255 255 / .55) 26px 27px)",
+              }}
+            />
+            <div className="absolute inset-0 grid place-items-center px-6">
+              <span
+                className="display text-center text-[clamp(1.15rem,2.2vw,1.75rem)] font-semibold tracking-tight"
+                style={{ color: "#F5EFE2", textShadow: "0 2px 24px rgb(0 0 0 / .4)" }}
+              >
+                {d.domain}
+              </span>
+            </div>
+          </>
+        )}
         <div
           className="absolute inset-0"
           style={{ boxShadow: "inset 0 0 90px rgb(0 0 0 / .35)" }}
@@ -78,6 +91,18 @@ export default function Spread({ d, flip }: { d: Project; flip: boolean }) {
         <p className="mb-6 max-w-[46ch] text-[1.02rem]" style={{ color: "var(--dim)" }}>
           {d.body}
         </p>
+
+        <ul className="mb-7 flex flex-wrap gap-2">
+          {d.services.map((sv) => (
+            <li
+              key={sv}
+              className="rounded-full px-3 py-[5px] text-[.74rem]"
+              style={{ background: "var(--chip)", color: "var(--dim)" }}
+            >
+              {sv}
+            </li>
+          ))}
+        </ul>
 
         <dl className="flex flex-wrap gap-x-10 gap-y-4">
           {d.metrics.map((m) => (
