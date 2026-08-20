@@ -663,15 +663,17 @@ translation as a capability because clients still buy it, notably the
 certified and sworn work that machines cannot serve, but it should not
 become the headline the site is built around.
 
-### What is still missing
+### What was missing, and now is not
 
-FR and ES have no measured demand. Given that the two best-performing pages
-on the whole domain are FR-only originals, and that the ES layer is 19
-original posts in tight clusters, the unmeasured half is quite possibly the
-more valuable half. Two routes: the Ahrefs workspace quota resets on
-18 August, or a Keywords Everywhere plan covering more countries.
+At the time of writing, FR and ES had no measured demand, and the guess
+recorded here was that the unmeasured half was quite possibly the more
+valuable half, given that the two best-performing pages on the domain are
+FR-only originals and the ES layer is 19 original posts in tight clusters.
 
-Until then the map is one third built.
+The guess was right. Belgium, France, Switzerland and Spain were measured on
+18 August once the Ahrefs quota reset. **Section 4e carries those figures**,
+and they move Spain to the front of the plan. Read 4e before acting on
+anything in 4c or 4d.
 
 ---
 
@@ -781,6 +783,159 @@ intent converts far above informational.
    translating the EN map into French. Same for ES.
 5. Re-measure BE, FR, CH and ES after the Ahrefs quota resets on 18 August,
    because those four decide the strategy and none of them is measured yet.
+   **Done, see section 4e.** Point 1 is confirmed in every market. Point 2
+   turns out to be the largest low-difficulty opportunity in the project.
+   Point 3 holds. The reasoning about Belgium and Switzerland above did not
+   survive contact with the data, and 4e corrects it.
+
+---
+
+## 4e. The four missing markets, measured
+
+The Ahrefs quota reset on 18 August, and Belgium, France, Switzerland and
+Spain are now measured rather than assumed. Source: Ahrefs Keywords
+Explorer, country-level volume, CPC in USD, KD on the 100-point scale.
+
+Three of the four results change the strategy. One of them contradicts a
+claim made in 4d on reasoning rather than evidence, and the correction is
+recorded below rather than quietly folded in.
+
+### The francophone core, side by side
+
+| Term | BE | FR | CH |
+|---|---|---|---|
+| `seo international` | 100 | **1,000** | 100 |
+| `consultant seo international` | 50 | 250 | 30 |
+| `agence seo internationale` | 30 | 100 | 0 |
+| `référencement international` | 50 | 50 | 10 |
+| `seo multilingue` | 50 | 200 | 60 |
+| `référencement multilingue` | 10 | 150 | 0 |
+| `site multilingue` | 10 | 100 | 40 |
+| **Core total** | **300** | **1,850** | **240** |
+| `agence seo`, the generic | 800 | 16,000 | 450 |
+| `génération de leads` | 20 | 800 | 200 |
+
+### Correction: Belgium does not search for what Belgium lives
+
+Section 4d argued that Belgium and Switzerland should be strong because they
+are natively multilingual countries "where the problem being sold is a daily
+reality rather than an abstraction". Reasonable, and wrong.
+
+Belgian demand for the whole international and multilingual core is
+**300 searches a month**, against 800 for plain `agence seo` and 450 for
+`agence seo bruxelles`. Belgians running multilingual businesses do not go
+looking for multilingual SEO. They look for an SEO agency, locally, in the
+ordinary way. Living the problem daily appears to make it invisible rather
+than salient.
+
+Switzerland behaves the same at a smaller scale, 240 core, and `seo suisse`
+carries a KD of 59, the hardest number in this whole dataset.
+
+Belgium and Switzerland stay in the target set, because they are where the
+network, the language and the referrals are, and 4b's proof layer is what
+converts there. Neither is a search acquisition market. Distinguishing the
+two matters: a market you win through relationships needs case studies and
+reports, not a keyword cluster.
+
+### France carries the francophone opportunity almost alone
+
+France holds **1,850 of the 2,390** francophone core searches measured, or
+77%. More useful still is the difficulty column:
+
+| FR term | Volume | CPC | KD |
+|---|---|---|---|
+| `seo international` | 1,000 | $4.00 | **0** |
+| `consultant seo international` | 250 | $1.20 | n/a |
+| `seo multilingue` | 200 | $0.80 | 2 |
+| `référencement multilingue` | 150 | n/a | 1 |
+| `agence seo internationale` | 100 | **$6.00** | 1 |
+| `site multilingue` | 100 | $1.20 | 0 |
+| `agence seo`, for contrast | 16,000 | $3.00 | 24 |
+
+A thousand monthly searches at KD 0 and a $4 CPC is an unguarded position.
+`agence seo internationale` pays $6.00 a click at KD 1, higher than the
+generic `agence seo` at $3.00, which is the same shape found in the UK in
+4d: the international buyer is worth more than the generic one.
+
+The two best-performing pages on the domain, `agence-seo-internationale` and
+`consultant-referencement-international` from section 2, are aimed at
+exactly these terms. They already rank on nothing much. The gap between what
+they target and what they earn is an execution gap, not a demand gap.
+
+### The finding that reorders the project: Valencia
+
+| ES term | Volume | CPC | KD |
+|---|---|---|---|
+| `agencia seo valencia` | 1,100 | $2.50 | 31 |
+| `seo valencia` | 500 | $2.50 | 31 |
+| `consultor seo valencia` | 300 | $2.50 | **2** |
+| `posicionamiento web valencia` | 250 | $2.00 | **4** |
+| **Valencia local total** | **2,150** | | |
+| `consultor seo internacional` | 350 | $1.40 | **0** |
+| `seo internacional` | 250 | $1.60 | 0 |
+| `posicionamiento internacional` | 150 | n/a | 0 |
+| `agencia seo internacional` | 70 | **$4.00** | 0 |
+
+**Valencia alone, 2,150 searches a month, is larger than the entire
+francophone international core across three countries.** Two of the four
+Valencia terms sit at KD 2 and KD 4, which for a consultant with a real
+Google Business Profile and a real address in the city is close to free.
+
+Section 4d proposed a local cluster on structural grounds, noting the volume
+could not be measured and would be worth building regardless. Measured, it
+is the largest low-difficulty opportunity anywhere in this project.
+
+Worth being precise about what it is, though. `consultor seo valencia` is a
+Valencia business wanting a local SEO consultant, not a multilingual one.
+Serving it means selling ordinary SEO to local clients, which sits at the
+topical border defined in section 1 and arguably outside it. Two honest
+options:
+
+1. **Take it as a second business.** Local Valencia SEO, ES-first,
+   GBP-anchored, sold on proximity. Nearest-term revenue in the whole plan,
+   and it dilutes the multilingual positioning.
+2. **Take the international slice only.** `consultor seo internacional` at
+   350 and KD 0, plus a single Valencia page that says international
+   consultant based in Valencia. Keeps the border intact, captures maybe a
+   fifth of the volume.
+
+Owner decision, and it belongs in section 10. The recommendation is 2 with
+one page built for 1, so the local demand is tested before the positioning
+is bent around it.
+
+### Two things now confirmed across every market
+
+**International beats multilingual everywhere it is measured.** FR 1,000
+against 200, five to one. ES 250 against 90, just under three to one. UK and
+Global were four to one in 4d. Six markets, same direction, no exception.
+The rename in 4d point 1 is no longer a judgement call.
+
+**hreflang is worthless commercially and confirmed as outer section.** FR
+350 at $0.35, ES 350 at $0.07, CH 80 at $0.15, BE 50 at $0.80, Global 12,000.
+Real volume, near-zero CPC, and KD 25 to 28 in the small markets. Authority
+and links, never a service page. 4d point 3 stands.
+
+### Revised locale jobs
+
+| Locale | Job | Built for | Evidence |
+|---|---|---|---|
+| **FR** | Primary acquisition | France above all, Belgium and Suisse romande as relationship markets | 1,850 core searches, KD 0 to 2, CPC up to $6.00 |
+| **ES** | Local acquisition, and the fastest revenue in the plan | Valencia proximity, GBP-anchored | 2,150 local at KD 2 to 31, plus 350 international at KD 0 |
+| **EN** | Conversion, not acquisition | UK and anglophone clients anywhere | 1,700 core, highest CPCs, saturated generics |
+
+The change against 4d: **Belgium moves out of the acquisition column and
+into the relationship column**, and ES moves up rather than sitting as a
+secondary proximity play.
+
+### What is now closed, and what is still open
+
+Closed: every market in the target set is measured. Sections 4c and 4d no
+longer describe a map that is one third built.
+
+Still open, and smaller: Luxembourg is not separately measurable and is
+being treated as Belgian demand, which is defensible given the size of both.
+The Netherlands was never in the target set, so the NL locale question
+raised in section 2 stays a content decision rather than a market one.
 
 ---
 
@@ -1090,6 +1245,15 @@ an open question in section 10.
 11. **Localised route segments.** Does `/services/` become `/servicios/` and
    `/fr/services/`, or do route segments stay English with only leaf slugs
    localised? One decision, every service URL in two locales.
+12. **Valencia local SEO, the biggest new question.** Section 4e measures
+   2,150 monthly searches for local Valencia SEO, two of the four terms at
+   KD 2 and KD 4, which is larger and easier than the entire francophone
+   international core. Serving it means selling ordinary local SEO, which
+   sits at or outside the topical border set in section 1. Take it as a
+   second line of business, or take only the international slice and build
+   one Valencia page to test the local demand without bending the
+   positioning around it? Recommendation is the second, and it is the
+   nearest-term revenue in the plan either way.
 
 ---
 
