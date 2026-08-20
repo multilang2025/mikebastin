@@ -20,10 +20,8 @@ const LINKS = [
  * navigation and the same way to get in touch, in one place.
  */
 export default function SiteFooter({
-  credits = false,
   address = false,
 }: {
-  credits?: boolean;
   address?: boolean;
 }) {
   return (
@@ -74,18 +72,6 @@ export default function SiteFooter({
             </span>
           </nav>
         </Reveal>
-
-        {credits && (
-          <Reveal i={2}>
-            <p
-              className="mt-8 border-t pt-6 text-[.82rem]"
-              style={{ borderColor: "var(--rule)", color: "var(--dim)" }}
-            >
-              Mike Bastin. Built with Next.js, Motion and Lenis. Night Swell and
-              Morning Glass, set in Fraunces, Cormorant Garamond and Inter.
-            </p>
-          </Reveal>
-        )}
       </div>
     </footer>
   );

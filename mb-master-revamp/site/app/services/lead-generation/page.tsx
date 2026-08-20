@@ -104,7 +104,7 @@ export default function LeadGenerationPage() {
           <Reveal>
             <p className="eyebrow mb-3">The evidence</p>
             <h2 className="mb-5 max-w-[20ch] text-[clamp(1.7rem,3.2vw,2.5rem)] font-semibold leading-[1.12]">
-              Ten reviews. Four languages. Nobody asked them to write in mine.
+              Nobody asked them which language to write in.
             </h2>
             <p className="mb-10 max-w-[56ch] text-[1.05rem]" style={{ color: "var(--dim)" }}>
               Report extracts join this section once a representative
