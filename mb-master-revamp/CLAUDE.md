@@ -16,17 +16,35 @@ Design reference (do not treat as production code): [`design/concept-v3.html`](d
 
 URL inventory of record (redirect coverage baseline): [`docs/sitemap-MB-EN.txt`](docs/sitemap-MB-EN.txt).
 
-## Stack (CLOSED, per HANDOFF.md §14/§17)
+## Stack (CLOSED, per HANDOFF.md §25 — supersedes §14/§17)
 
-Next.js 15 (App Router) + Payload CMS 3.x + Postgres, on Vercel. WordPress
-retires post-migration; Divi and Imagify go with it. Localisation: Payload
-native, locales `en` (default) / `fr` / `es`, one document per content item.
+Next.js 15 (App Router), content as MDX files in the repo. **No database and
+no CMS.** Payload was removed: it proved too complicated for an owner who
+edits the site himself, and it brought a database, an admin UI, a schema to
+maintain, and a migration into it. Removing it removes all four.
 
-Nothing in this directory contains real credentials. When P0 stands up the
-Payload/Postgres instance, secrets go in `.env` (gitignored, see below) —
-never in a committed file, never in an agent's output, never in chat/email in
-plaintext. Share credentials only via a password manager or a secrets vault
-link, and only with people who need them to do the work.
+Same model as valenciamove.com, which the owner already runs at larger scale
+(1,132 URLs across five locales, no CMS, content in-repo).
+
+- **Editing:** primarily through Claude committing to the repo. Keystatic
+  mounts at `/keystatic` as a git-backed browser editor for quick text
+  fixes. Keystatic commits files like any other change; it adds no database.
+- **Localisation:** one content directory per locale (`content/en`,
+  `content/fr`, `content/es`). Localised slugs preserved exactly. Translation
+  siblings bound by a `group` field in frontmatter matching
+  `redirects/content-map.json`.
+- **Media:** `/public/images/`, optimised by Next/Image at build. No media
+  library, no object storage.
+- **Redirects:** `next.config.js` `redirects()`, generated from
+  `content-map.json`. Never hand-maintained.
+- **Hosting:** Vercel. Hostinger is viable too, since valenciamove.com runs
+  there, so this is reversible rather than load-bearing.
+
+Nothing in this directory contains real credentials. Secrets go in `.env`
+(gitignored, see below), never in a committed file, never in an agent's
+output, never in chat or email in plaintext. With no database the secret
+surface is small: a Keystatic GitHub App credential and whatever the host
+needs.
 
 ## Non-negotiable rules (apply to every piece of copy and every diff)
 
@@ -63,13 +81,13 @@ and locale integrity.
 |---|---|
 | `design-guardian` | Enforces design tokens + IP boundary + band-alternation system |
 | `seo-preservation` | Redirect coverage, meta parity, hreflang — blocks deploys that regress SEO |
-| `content-migrator` | WP → Payload migration per the content-map.json contract (§16) |
+| `content-migrator` | WP → MDX migration per the content-map.json contract (§16) |
 | `copy-editor` | Master Content Protocol linting (forbidden words, dashes, "Michael", ampersands) |
 | `perf-auditor` | Core Web Vitals budgets, Lighthouse CI, X-embed facade pattern |
 | `social-repurposer` | Turns a published URL into X thread/posts + LinkedIn post |
 | `social-media-manager` | Owns cadence/scheduling across X and LinkedIn, Dispatches curation |
 | `seo-offpage` | Digital PR, backlink reclamation, network-linking policy (§19) |
-| `localization-qa` | Locale slug integrity, translation-group completeness, WPML→Payload parity |
+| `localization-qa` | Locale slug integrity, translation-group completeness, WPML→MDX parity |
 | `accessibility-auditor` | WCAG contrast (both themes), focus states, reduced-motion, semantic HTML |
 | `cto` | Architecture/stack steward; reviews agent orchestration itself for redundant work and token waste |
 | `cfo` | Tracks hosting/API/token spend against the migration, flags scope creep against budget |
@@ -82,6 +100,5 @@ scope, or spend decision, not on every diff.
 ## Open decisions
 
 Tracked in `docs/HANDOFF.md` §21 "Decisions OPEN" and §17 addendum. Resolve
-with the owner before P1 work depends on them (repo org, Postgres provider,
-media storage, X handle/posts, Tier C prune sign-off, service consolidation,
+with the owner before P1 work depends on them (repo org, X handle/posts, Tier C prune sign-off, service consolidation,
 Valencia STAY-list sign-off, credibility strip numbers).

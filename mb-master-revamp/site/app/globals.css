@@ -1,0 +1,274 @@
+@import "tailwindcss";
+
+/* ===========================================================
+   Surfaces — Night Swell / Morning Glass (HANDOFF §23)
+   Band system (§23 amendment 2): .band-a and .band-b carry the
+   token sets. Components consume var names only; the band decides
+   values. Theme toggle flips the mapping, not the markup.
+   =========================================================== */
+
+:root,
+.band-a {
+  --bg:        #F5F0E4;
+  --ink:       #0F2837;
+  --dim:       #58707F;
+  --gold:      #9A6E1C;
+  --gold-soft: #8A5A16;
+  --berry:      #C42640;
+  --berry-deep: #9E1B31;
+  --berry-soft: rgb(196 38 64 / 0.10);
+  --deep:      #1C6580;
+  --silver:    #6E8291;
+  --rule:      rgb(15 40 55 / 0.16);
+  --chip:      rgb(15 40 55 / 0.055);
+  --glow:      rgb(196 38 64 / 0.09);
+  --shade:     rgb(15 40 55 / 0.04);
+}
+
+.band-b {
+  --bg:        #0A1B28;
+  --ink:       #F5EFE2;
+  --dim:       #AFC0CC;
+  --gold:      #D9A94A;
+  --gold-soft: #E8CD7A;
+  --berry:      #F2556A;
+  --berry-deep: #C9304A;
+  --berry-soft: rgb(242 85 106 / 0.13);
+  --deep:      #155268;
+  --silver:    #BCC9D3;
+  --rule:      rgb(245 239 226 / 0.15);
+  --chip:      rgb(245 239 226 / 0.07);
+  --glow:      rgb(242 85 106 / 0.14);
+  --shade:     rgb(245 239 226 / 0.04);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root,
+  .band-a {
+    --bg:        #0A1B28;
+    --ink:       #F5EFE2;
+    --dim:       #AFC0CC;
+    --gold:      #D9A94A;
+    --gold-soft: #E8CD7A;
+    --berry:      #F2556A;
+    --berry-deep: #C9304A;
+    --berry-soft: rgb(242 85 106 / 0.13);
+    --deep:      #155268;
+    --silver:    #BCC9D3;
+    --rule:      rgb(245 239 226 / 0.15);
+    --chip:      rgb(245 239 226 / 0.07);
+    --glow:      rgb(242 85 106 / 0.14);
+    --shade:     rgb(245 239 226 / 0.04);
+  }
+  .band-b {
+    --bg:        #F5F0E4;
+    --ink:       #0F2837;
+    --dim:       #58707F;
+    --gold:      #9A6E1C;
+    --gold-soft: #8A5A16;
+    --berry:      #C42640;
+    --berry-deep: #9E1B31;
+    --berry-soft: rgb(196 38 64 / 0.10);
+    --deep:      #1C6580;
+    --silver:    #6E8291;
+    --rule:      rgb(15 40 55 / 0.16);
+    --chip:      rgb(15 40 55 / 0.055);
+    --glow:      rgb(196 38 64 / 0.09);
+    --shade:     rgb(15 40 55 / 0.04);
+  }
+}
+
+:root[data-theme="dark"],
+:root[data-theme="dark"] .band-a {
+  --bg:#0A1B28; --ink:#F5EFE2; --dim:#AFC0CC; --gold:#D9A94A; --gold-soft:#E8CD7A; --berry:#F2556A; --berry-deep:#C9304A; --berry-soft:rgb(242 85 106 / .13);
+  --deep:#155268; --silver:#BCC9D3; --rule:rgb(245 239 226 / .15); --chip:rgb(245 239 226 / .07);
+  --glow:rgb(242 85 106 / .14); --shade:rgb(245 239 226 / .04);
+}
+:root[data-theme="dark"] .band-b {
+  --bg:#F5F0E4; --ink:#0F2837; --dim:#58707F; --gold:#9A6E1C; --gold-soft:#8A5A16; --berry:#C42640; --berry-deep:#9E1B31; --berry-soft:rgb(196 38 64 / .10);
+  --deep:#1C6580; --silver:#6E8291; --rule:rgb(15 40 55 / .16); --chip:rgb(15 40 55 / .055);
+  --glow:rgb(196 38 64 / .09); --shade:rgb(15 40 55 / .04);
+}
+:root[data-theme="light"],
+:root[data-theme="light"] .band-a {
+  --bg:#F5F0E4; --ink:#0F2837; --dim:#58707F; --gold:#9A6E1C; --gold-soft:#8A5A16; --berry:#C42640; --berry-deep:#9E1B31; --berry-soft:rgb(196 38 64 / .10);
+  --deep:#1C6580; --silver:#6E8291; --rule:rgb(15 40 55 / .16); --chip:rgb(15 40 55 / .055);
+  --glow:rgb(196 38 64 / .09); --shade:rgb(15 40 55 / .04);
+}
+:root[data-theme="light"] .band-b {
+  --bg:#0A1B28; --ink:#F5EFE2; --dim:#AFC0CC; --gold:#D9A94A; --gold-soft:#E8CD7A; --berry:#F2556A; --berry-deep:#C9304A; --berry-soft:rgb(242 85 106 / .13);
+  --deep:#155268; --silver:#BCC9D3; --rule:rgb(245 239 226 / .15); --chip:rgb(245 239 226 / .07);
+  --glow:rgb(242 85 106 / .14); --shade:rgb(245 239 226 / .04);
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-ink: var(--ink);
+  --color-dim: var(--dim);
+  --color-gold: var(--gold);
+  --color-gold-soft: var(--gold-soft);
+  --color-berry: var(--berry);
+  --color-berry-deep: var(--berry-deep);
+  --color-deep: var(--deep);
+  --color-silver: var(--silver);
+  --color-rule: var(--rule);
+
+  --font-display: var(--font-fraunces), "Iowan Old Style", Georgia, serif;
+  --font-script: var(--font-cormorant), Georgia, serif;
+  --font-sans: var(--font-inter), system-ui, sans-serif;
+}
+
+/* ===========================================================
+   Base
+   =========================================================== */
+
+* { box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth;
+  /* stops overscroll flash: body ground matches the first band */
+  background: var(--bg);
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-inter), system-ui, sans-serif;
+  font-weight: 350;
+  line-height: 1.62;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+::selection { background: var(--berry); color: #FFF; }
+
+:focus-visible {
+  outline: 2px solid var(--berry);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+.band {
+  position: relative;
+  background: var(--bg);
+  color: var(--ink);
+  transition: background-color .5s ease, color .5s ease;
+}
+
+.shell { width: min(1180px, 86vw); margin-inline: auto; }
+
+/* Grain — adds depth without a raster asset */
+.grain::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: .035;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* ===========================================================
+   Type
+   =========================================================== */
+
+h1, h2, h3, .display {
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-optical-sizing: auto;
+  text-wrap: balance;
+  letter-spacing: -.016em;
+  margin: 0;
+}
+
+.eyebrow {
+  font-family: var(--font-cormorant), Georgia, serif;
+  font-style: italic;
+  font-size: clamp(1.05rem, 1.4vw, 1.22rem);
+  color: var(--berry);
+  letter-spacing: .01em;
+}
+
+/* Gold shimmer, used once, on the hero turn */
+.shimmer {
+  font-style: italic;
+  background: linear-gradient(100deg,
+    var(--berry) 0%, var(--berry-deep) 26%, var(--berry) 48%,
+    var(--berry-deep) 68%, var(--berry) 100%);
+  background-size: 260% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: shimmer 9s ease-in-out infinite;
+}
+@keyframes shimmer {
+  0%, 100% { background-position: 0% 50%; }
+  50%      { background-position: 100% 50%; }
+}
+
+/* Link underline that draws in */
+.ulink {
+  position: relative;
+  color: var(--berry);
+  text-decoration: none;
+}
+.ulink::after {
+  content: "";
+  position: absolute;
+  left: 0; bottom: -2px;
+  width: 100%; height: 1px;
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform .45s cubic-bezier(.22,.7,.28,1);
+}
+.ulink:hover::after,
+.ulink:focus-visible::after { transform: scaleX(1); transform-origin: left; }
+
+/* ===========================================================
+   Signature swell (HANDOFF §22: two lines, gold over silver)
+   Pure CSS, no JS, runs on first paint
+   =========================================================== */
+
+.swell path {
+  fill: none;
+  stroke-linecap: round;
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: draw 2.9s cubic-bezier(.33,.72,.26,1) forwards;
+}
+.swell .s1 { stroke: var(--gold);   stroke-width: 2.6; animation-delay: .4s; }
+.swell .s2 { stroke: var(--silver); stroke-width: 1.8; animation-delay: 1.1s; opacity: .85; }
+@keyframes draw { to { stroke-dashoffset: 0; } }
+
+/* Ambient light on the hero band only */
+.hero-glow::before {
+  content: "";
+  position: absolute;
+  inset: -20% -10% auto -10%;
+  height: 70%;
+  background: radial-gradient(60% 60% at 30% 30%, var(--glow), transparent 70%);
+  pointer-events: none;
+  animation: breathe 14s ease-in-out infinite;
+}
+@keyframes breathe {
+  0%, 100% { opacity: .75; transform: translate3d(0,0,0) scale(1); }
+  50%      { opacity: 1;   transform: translate3d(2%, 1%, 0) scale(1.06); }
+}
+
+/* ===========================================================
+   Reduced motion — hard stop on everything decorative
+   =========================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .swell path { animation: none; stroke-dashoffset: 0; }
+  .shimmer { animation: none; }
+  .hero-glow::before { animation: none; }
+  .band { transition: none; }
+  *, *::before, *::after {
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important;
+  }
+}

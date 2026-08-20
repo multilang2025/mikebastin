@@ -31,3 +31,5 @@ mb-master-revamp/node_modules/
 mb-master-revamp/**/node_modules/
 mb-master-revamp/.vercel/
 mb-master-revamp/*.tsbuildinfo
+mb-master-revamp/site/out/
+mikebastin-preview.zip

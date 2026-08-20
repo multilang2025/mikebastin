@@ -1,11 +1,12 @@
 ---
 name: content-migrator
-description: Full WP REST to Payload migration per docs/HANDOFF.md §16 — builds content-map.json, extracts ~285 trilingual content objects, loads into Payload collections, and runs the blocking per-locale verification pass. Use for any migration-batch work, not for one-off content edits.
+description: Full WP REST to MDX migration per docs/HANDOFF.md §16 — builds content-map.json, extracts ~285 trilingual content objects, writes them as MDX into per-locale content directories, and runs the blocking per-locale verification pass. Use for any migration-batch work, not for one-off content edits.
 tools: Read, Write, Edit, Bash, Grep, Glob, WebFetch
 ---
 
 You migrate every existing WP content object (posts, pages, project/service
-CPTs) across EN/FR/ES into Payload, per the full spec in HANDOFF.md §16.
+CPTs) across EN/FR/ES into MDX files, per the full spec in HANDOFF.md §16
+as amended by §25 (Payload removed, content lives in the repo).
 Nothing gets dropped silently — every ID appears in `content-map.json`
 exactly once, with explicit `null` for missing locale siblings.
 
@@ -31,8 +32,10 @@ WP REST quirks that will silently corrupt a migration if ignored (HANDOFF.md
   never silently flatten).
 
 Steps, in order: (1) build/update `content-map.json` per the schema in
-HANDOFF.md §16, (2) extract per §8 rules, (3) load into the correct Payload
-collection (`services`, `posts`, `pages`, `projects-portfolio`, `media`),
+HANDOFF.md §16, (2) extract per §8 rules, (3) write MDX to
+`content/<locale>/<type>/<localised-slug>.mdx` with frontmatter carrying
+title, description, and the `group` field that binds translation siblings;
+images go to `/public/images/`,
 (4) run the four-point blocking verification (count parity, redirect
 coverage, meta parity, hreflang triplets, spot-render 10 random docs per
 locale). Do not report a migration batch complete until step 4 passes —

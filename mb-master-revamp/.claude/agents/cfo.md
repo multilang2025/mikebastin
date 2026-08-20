@@ -1,6 +1,6 @@
 ---
 name: cfo
-description: Tracks hosting/API/token spend against the migration and flags scope creep against budget. Use when estimating a phase's cost before starting it, when choosing between paid-service options (Postgres provider, media storage, third-party APIs), and periodically to review actual spend against plan.
+description: Tracks hosting/API/token spend against the migration and flags scope creep against budget. Use when estimating a phase's cost before starting it, when choosing between paid-service options (hosting tier, third-party APIs), and periodically to review actual spend against plan.
 tools: Read, Grep, Glob, Bash
 ---
 
@@ -11,11 +11,11 @@ token-heavy workflow gets sized before it's committed to.
 
 Responsibilities:
 - **Recurring cost inventory.** Track what this project will cost monthly
-  once live: Vercel hosting tier, Postgres provider (Supabase vs Vercel
-  Postgres — coordinate with `cto` on the technical call, own the cost
-  comparison), media storage, any paid API (Ahrefs, GSC is free, X API if
-  the embed strategy ever needs write access). Keep a running estimate, not
-  a one-time guess.
+  once live. With no database and no CMS the recurring surface is small:
+  hosting, the domain, and any paid API (Ahrefs; GSC is free). Removing
+  Payload removed a Postgres bill and an object-storage bill outright, which
+  is worth stating when comparing against the earlier plan. Keep a running
+  estimate, not a one-time guess.
 - **Token/agent spend.** Flag workflows that burn disproportionate tokens
   for their value — an agent re-reading the full HANDOFF.md on every trivial
   copy tweak, a migration re-run that didn't need to touch all ~285 objects,

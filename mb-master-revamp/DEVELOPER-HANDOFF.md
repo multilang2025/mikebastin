@@ -33,8 +33,8 @@ no email thread to chase.
   replacement for you deciding architecture.
 
 No `.env`, credentials, or secrets exist anywhere in this bundle yet — it's
-planning artifacts only. When Postgres/Vercel/Payload get provisioned in P0,
-put secrets in `.env` (already gitignored at the repo root for this
+planning artifacts only. When hosting and the Keystatic GitHub App get set
+up in P0, put secrets in `.env` (already gitignored at the repo root for this
 directory) and share them through a password manager or secrets vault, never
 through this repo, chat, or email.
 
@@ -95,15 +95,17 @@ concrete deliverable for "clean the mess."
 
 ## Stack (already decided, don't relitigate without a real reason)
 
-Next.js 15 (App Router) + Payload CMS 3.x + Postgres, on Vercel. WordPress
-retires post-migration. See `CLAUDE.md` for the short version, HANDOFF.md
-§14/§17 for the full reasoning if you need it.
+Next.js 15 (App Router), MDX content in the repo, no database and no CMS,
+Keystatic at /keystatic for quick text edits. WordPress retires
+post-migration. See `CLAUDE.md` for the short version and HANDOFF.md §25
+for why Payload was removed. Note §14 and §17 still describe the old
+Payload stack; §25 supersedes them.
 
 ## Open decisions that need Michael, not Andre
 
 Listed in full in `docs/HANDOFF.md` §21 "Decisions OPEN" (repo org under
 which the actual app lives if different from this monorepo directory,
-Postgres provider, media storage, X handle + 3 post URLs, Tier C prune
+X handle + 3 post URLs, Tier C prune
 sign-off, service consolidation sign-off, Valencia STAY-list sign-off,
 credibility strip numbers, FR-only 44th service). Don't guess these —
 surface them to Michael in one batch rather than blocking on each

@@ -602,3 +602,78 @@ Both sites were reached through the fetch tool after the sandbox blocked them. F
 - OG image (surfer in a Hossegor barrel, 1200x630) + hero webp pinned in ASSETS-MANIFEST — strong spread visuals, on-theme with the surf layer (§22).
 
 Network-linking policy (§19) unchanged; both sites confirmed live and linkable.
+
+---
+
+## 25. POST-FINAL AMENDMENT 4 — PAYLOAD REMOVED, NO CMS (owner directive)
+
+Supersedes the stack decision in §14 and §17. Those sections stay for the
+record; where they conflict with this one, this one wins.
+
+### The directive
+
+Payload proved too complicated for an owner who edits the site himself. It
+brought four things at once: a database, an admin UI, a schema maintained in
+code, and a migration into it. Removing Payload removes all four.
+
+### New stack
+
+Next.js 15 (App Router), content as MDX files in the repo. No database, no
+CMS. Keystatic mounts at `/keystatic` as a git-backed browser editor for
+quick text fixes; it commits files like any other change and adds no
+database. Primary editing route is Claude committing to the repo.
+
+- Localisation: one content directory per locale (`content/en`,
+  `content/fr`, `content/es`), localised slugs preserved exactly,
+  translation siblings bound by a `group` field in frontmatter that matches
+  `content-map.json`.
+- Media: `/public/images/`, optimised by Next/Image at build.
+- Redirects: `next.config.js` `redirects()`, generated from
+  `content-map.json`, never hand-maintained.
+- Hosting: Vercel, with Hostinger viable as valenciamove.com proves.
+
+### Evidence: how valenciamove.com is actually built (scraped 2026-08-04)
+
+Closes the open question in §18 about VM's content storage model.
+
+- Next.js App Router. No CMS of any kind: `/admin`, `/studio`,
+  `/keystatic`, `/cms`, `/wp-json` and `/wp-admin` all return 404.
+- Content lives in the repo. Images served from `/images/` in `/public`,
+  not from a media library.
+- Hosted on Hostinger (`server: hcdn`), not Vercel.
+- 1,132 URLs, and five locales rather than the four recorded in §18: EN, FR,
+  ES, NL, and Italian (45 pages).
+- Shape: 78 neighbourhood pages, 61 blog posts, 18 directory entries, so
+  largely templated.
+
+The owner already operates this exact model at larger scale than
+mikebastin.com will be. Matching it gives one mental model across both
+properties, and turns the Valencia exodus in §18 into a repo-to-repo move
+between identical content models rather than a cross-system import.
+
+### Decisions this closes
+
+- Postgres provider (Supabase vs Vercel Postgres): moot, there is no
+  database.
+- Media storage (Supabase Storage vs Vercel Blob): moot, images live in
+  `/public`.
+- VM content storage model (§18): answered above, in-repo, no CMS.
+- Portfolio editability: locked templates, text-only edits. Layout, bands
+  and palette are not owner-editable, which is what `design-guardian`
+  exists to protect.
+
+### Decisions this opens
+
+- Host: Vercel or Hostinger.
+- Whether route segments localise (`/services/` vs `/servicios/`). One
+  decision, every service URL in two locales.
+
+### What does NOT change
+
+The content architecture in `CONTENT-ARCHITECTURE.md` is stack-independent
+and stands as written: 43 services to 13, the five blog clusters, the retire
+list, the Valencia exodus, and the group-level consolidation rule. The
+trilingual requirement stands. The design system in §2, §22 and §23 stands.
+Every SEO invariant in §7 stands, and the migration of roughly 285 objects
+out of WordPress still happens, with its destination changed from Payload
+collections to MDX files. WordPress still retires afterwards.
