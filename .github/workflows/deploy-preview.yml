@@ -1,6 +1,9 @@
 # FTP_USERNAME must match hPanel's "Active hostname" table for the
 # preview account exactly (e.g. u586375813.preview), not the string
 # shown on the one-time account creation screen, which can differ.
+# Run 6's length check caught the secret still holding the 25-char old
+# value (u586375813.mikebastin.com) instead of the 18-char correct one
+# (u586375813.preview) — retesting after the secret was corrected.
 name: Deploy preview
 
 on:
