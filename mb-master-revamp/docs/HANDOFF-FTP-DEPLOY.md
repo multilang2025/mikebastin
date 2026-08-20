@@ -1,7 +1,22 @@
-# Handoff to Andre: preview deploy is blocked on FTP auth
+# FTP deploy auth failure: resolved, no action needed from Andre
 
-Michael cannot see straight on this one and is handing it to you. Everything
-below is what has actually been tried, in order, so you do not repeat it.
+**Resolved.** `Deploy preview` run #8 succeeded after the root cause was
+found: the `FTP_USERNAME` secret in GitHub held a stale 25-character value
+(`u586375813.mikebastin.com`, from a one-time hPanel screen read early on)
+instead of the correct 18-character one (`u586375813.preview`, from
+hPanel's active-accounts table). A length check on the secret, added as a
+temporary diagnostic step, caught the mismatch directly, without ever
+exposing the secret's actual content. The diagnostic step has since been
+removed from `.github/workflows/deploy-preview.yml`.
+
+`preview.mikebastin.com` now redeploys automatically on every push to
+`main` that touches `mb-master-revamp/site/`. Nothing here needs picking up.
+The rest of this document is kept as a record of what was tried, in case a
+similar `530` shows up again on a different credential.
+
+---
+
+Everything below predates the fix and is left as-is for reference.
 
 ## The goal
 

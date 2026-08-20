@@ -1,10 +1,3 @@
-# FTP_USERNAME must match hPanel's "Active hostname" table for the
-# preview account exactly (e.g. u586375813.preview), not the string
-# shown on the one-time account creation screen, which can differ.
-# Run 6's length check caught the secret still holding the 25-char old
-# value (u586375813.mikebastin.com) instead of the 18-char correct one
-# (u586375813.preview). Run 7 retested before the correction had actually
-# landed; this retests again now that it has.
 name: Deploy preview
 
 on:
@@ -42,31 +35,6 @@ jobs:
 
       - name: Build static export
         run: npm run build
-
-      - name: Diagnose FTP login (temporary, remove once root-caused)
-        continue-on-error: true
-        env:
-          FTP_HOST: ${{ secrets.FTP_HOST }}
-          FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
-          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
-        run: |
-          echo "--- secret shape check, no content printed ---"
-          echo "FTP_HOST length: ${#FTP_HOST}"
-          echo "FTP_USERNAME length: ${#FTP_USERNAME}"
-          echo "FTP_PASSWORD length: ${#FTP_PASSWORD}"
-          [[ "$FTP_USERNAME" =~ ^[[:space:]]|[[:space:]]$ ]] && echo "FTP_USERNAME has leading/trailing whitespace" || echo "FTP_USERNAME: no leading/trailing whitespace"
-          [[ "$FTP_PASSWORD" =~ ^[[:space:]]|[[:space:]]$ ]] && echo "FTP_PASSWORD has leading/trailing whitespace" || echo "FTP_PASSWORD: no leading/trailing whitespace"
-          [[ "$FTP_HOST" =~ ^[[:space:]]|[[:space:]]$ ]] && echo "FTP_HOST has leading/trailing whitespace" || echo "FTP_HOST: no leading/trailing whitespace"
-          echo
-          echo "--- plain FTP, verbose, list root ---"
-          curl -v --connect-timeout 15 \
-            -u "$FTP_USERNAME:$FTP_PASSWORD" \
-            "ftp://$FTP_HOST/" || true
-          echo
-          echo "--- explicit FTPS, verbose, list root ---"
-          curl -v --connect-timeout 15 --ftp-ssl --insecure \
-            -u "$FTP_USERNAME:$FTP_PASSWORD" \
-            "ftp://$FTP_HOST/" || true
 
       - name: Deploy to preview.mikebastin.com over FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
