@@ -3,7 +3,8 @@
 # shown on the one-time account creation screen, which can differ.
 # Run 6's length check caught the secret still holding the 25-char old
 # value (u586375813.mikebastin.com) instead of the 18-char correct one
-# (u586375813.preview) — retesting after the secret was corrected.
+# (u586375813.preview). Run 7 retested before the correction had actually
+# landed; this retests again now that it has.
 name: Deploy preview
 
 on:
