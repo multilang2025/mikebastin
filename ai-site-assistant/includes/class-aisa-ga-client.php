@@ -22,11 +22,11 @@ defined( 'ABSPATH' ) || exit;
  */
 class AISA_Ga_Client {
 
-	const AUTH_URL         = 'https://accounts.google.com/o/oauth2/v2/auth';
-	const TOKEN_URL        = 'https://oauth2.googleapis.com/token';
-	const ADMIN_API_BASE   = 'https://analyticsadmin.googleapis.com/v1beta/';
-	const DATA_API_BASE    = 'https://analyticsdata.googleapis.com/v1beta/';
-	const SCOPE            = 'https://www.googleapis.com/auth/analytics.readonly';
+	const AUTH_URL          = 'https://accounts.google.com/o/oauth2/v2/auth';
+	const TOKEN_URL         = 'https://oauth2.googleapis.com/token';
+	const ADMIN_API_BASE    = 'https://analyticsadmin.googleapis.com/v1beta/';
+	const DATA_API_BASE     = 'https://analyticsdata.googleapis.com/v1beta/';
+	const SCOPE             = 'https://www.googleapis.com/auth/analytics.readonly';
 	const CONNECTION_OPTION = 'aisa_ga_connection';
 
 	/**
@@ -255,8 +255,8 @@ class AISA_Ga_Client {
 			return $token;
 		}
 
-		$properties     = array();
-		$page_token     = '';
+		$properties = array();
+		$page_token = '';
 		do {
 			$url = self::ADMIN_API_BASE . 'accountSummaries?pageSize=200';
 			if ( '' !== $page_token ) {

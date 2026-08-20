@@ -1021,20 +1021,20 @@ class AISA_Tools {
 				'input_schema' => array(
 					'type'                 => 'object',
 					'properties'           => array(
-						'site'   => array(
+						'site'  => array(
 							'type'        => 'string',
 							'description' => 'Property ID, display name, or domain to query (default: this site). See ga_list_properties.',
 						),
-						'order'  => array(
+						'order' => array(
 							'type'        => 'string',
 							'enum'        => array( 'worst', 'best' ),
 							'description' => 'worst = lowest traffic first (default); best = highest first.',
 						),
-						'limit'  => array(
+						'limit' => array(
 							'type'        => 'integer',
 							'description' => 'Max pages to return (default 10, max 100).',
 						),
-						'days'   => array(
+						'days'  => array(
 							'type'        => 'integer',
 							'description' => 'How many days back to look, ending yesterday. Default 28, max 365.',
 						),
@@ -1532,9 +1532,22 @@ class AISA_Tools {
 
 		if ( $is_select ) {
 			$blocked = array(
-				'INSERT', 'UPDATE', 'DELETE', 'DROP', 'ALTER', 'TRUNCATE',
-				'CREATE', 'GRANT', 'REVOKE', 'EXEC', 'EXECUTE',
-				'RENAME', 'REPLACE', 'LOAD', 'OUTFILE', 'DUMPFILE',
+				'INSERT',
+				'UPDATE',
+				'DELETE',
+				'DROP',
+				'ALTER',
+				'TRUNCATE',
+				'CREATE',
+				'GRANT',
+				'REVOKE',
+				'EXEC',
+				'EXECUTE',
+				'RENAME',
+				'REPLACE',
+				'LOAD',
+				'OUTFILE',
+				'DUMPFILE',
 			);
 			foreach ( $blocked as $keyword ) {
 				if ( preg_match( '/\b' . $keyword . '\b/', $normalized ) ) {
@@ -1846,8 +1859,8 @@ class AISA_Tools {
 			'failed'    => 0,
 		);
 		foreach ( $ids as $id ) {
-			$row               = self::bulk_replace_one_post( $id, $find, $replace );
-			$results[]         = $row;
+			$row                       = self::bulk_replace_one_post( $id, $find, $replace );
+			$results[]                 = $row;
 			$summary[ $row['status'] ] = ( $summary[ $row['status'] ] ?? 0 ) + 1;
 		}
 
@@ -1918,7 +1931,7 @@ class AISA_Tools {
 			);
 		}
 		AISA_Audit_Log::record( 'bulk_replace_in_posts', $id, array( 'find' => $find ) );
-		$row = array(
+		$row     = array(
 			'id'      => $id,
 			'status'  => 'succeeded',
 			'message' => 'Replaced.',
@@ -1962,6 +1975,7 @@ class AISA_Tools {
 				// Best-effort: Elementor's internal file-manager API can change
 				// between versions; a failure here shouldn't block the other
 				// cache layers from being flushed.
+				unset( $e );
 			}
 		}
 
@@ -1976,6 +1990,7 @@ class AISA_Tools {
 		}
 
 		if ( defined( 'LSCWP_V4' ) ) {
+			// phpcs:ignore WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedHooknameFound -- LiteSpeed Cache's own documented purge-all hook; we invoke it, we don't define it.
 			do_action( 'litespeed_purge_all' );
 			$flushed[] = 'litespeed_cache';
 		}
@@ -2498,9 +2513,11 @@ class AISA_Tools {
 		$raw     = trim( (string) ( $in['page'] ?? '' ) );
 		$post_id = self::resolve_page_post_id( $raw );
 		if ( ! $post_id ) {
-			return self::error( '' === $raw
+			return self::error(
+				'' === $raw
 				? 'Provide a page: a post/page ID, full URL, or path like "/my-page/".'
-				: sprintf( 'Could not find a page matching "%s".', $raw ) );
+				: sprintf( 'Could not find a page matching "%s".', $raw )
+			);
 		}
 
 		$post_result = self::get_post( array( 'id' => $post_id ) );
@@ -2518,13 +2535,13 @@ class AISA_Tools {
 				'country' => $country,
 			)
 		);
-		$site_metrics = empty( $site_metrics_result['is_error'] )
+		$site_metrics        = empty( $site_metrics_result['is_error'] )
 			? json_decode( $site_metrics_result['content'], true )
 			: null;
 
 		$competitor_target = trim( (string) ( $in['competitor'] ?? '' ) );
 		$competitor_source = 'specified';
-		$other_competitors  = null;
+		$other_competitors = null;
 
 		if ( '' === $competitor_target ) {
 			$competitors_result = self::ahrefs_organic_competitors(
@@ -2553,7 +2570,7 @@ class AISA_Tools {
 				'country' => $country,
 			)
 		);
-		$competitor_metrics = empty( $competitor_metrics_result['is_error'] )
+		$competitor_metrics        = empty( $competitor_metrics_result['is_error'] )
 			? json_decode( $competitor_metrics_result['content'], true )
 			: array( 'error' => $competitor_metrics_result['content'] ?? 'unavailable' );
 
@@ -2565,7 +2582,7 @@ class AISA_Tools {
 				'country' => $country,
 			)
 		);
-		$competitor_top_pages = array();
+		$competitor_top_pages        = array();
 		if ( empty( $competitor_top_pages_result['is_error'] ) ) {
 			$decoded              = json_decode( $competitor_top_pages_result['content'], true );
 			$competitor_top_pages = $decoded['pages'] ?? array();
@@ -2702,10 +2719,10 @@ class AISA_Tools {
 		return array(
 			'content' => self::safe_json_encode(
 				array(
-					'order'       => $order,
-					'metric'      => $metric,
-					'date_range'  => array( $start, $end ),
-					'pages'       => array_slice( $pages, 0, $limit ),
+					'order'      => $order,
+					'metric'     => $metric,
+					'date_range' => array( $start, $end ),
+					'pages'      => array_slice( $pages, 0, $limit ),
 				)
 			),
 		);
@@ -2805,7 +2822,7 @@ class AISA_Tools {
 		foreach ( self::gsc_page_url_variants( $permalink ) as $variant ) {
 			$rows = AISA_Gsc_Client::query(
 				array(
-					'dimensions'           => array( 'query' ),
+					'dimensions'            => array( 'query' ),
 					'dimensionFilterGroups' => array(
 						array(
 							'filters' => array(
@@ -2817,9 +2834,9 @@ class AISA_Tools {
 							),
 						),
 					),
-					'startDate'            => $start,
-					'endDate'              => $end,
-					'rowLimit'             => 1000,
+					'startDate'             => $start,
+					'endDate'               => $end,
+					'rowLimit'              => 1000,
 				),
 				$property
 			);
@@ -2849,10 +2866,10 @@ class AISA_Tools {
 		return array(
 			'content' => self::safe_json_encode(
 				array(
-					'page'              => $matched,
-					'no_matching_rows'  => empty( $queries ),
-					'date_range'        => array( $start, $end ),
-					'queries'           => $queries,
+					'page'             => $matched,
+					'no_matching_rows' => empty( $queries ),
+					'date_range'       => array( $start, $end ),
+					'queries'          => $queries,
 				)
 			),
 		);
@@ -2912,7 +2929,7 @@ class AISA_Tools {
 		// Aggregate: same page filter, but with NO dimensions -- GSC then
 		// rolls every matching row up into a single totals row instead of
 		// splitting by query.
-		$agg_rows = AISA_Gsc_Client::query(
+		$agg_rows  = AISA_Gsc_Client::query(
 			array(
 				'dimensionFilterGroups' => array(
 					array(
@@ -2925,9 +2942,9 @@ class AISA_Tools {
 						),
 					),
 				),
-				'startDate'            => $start,
-				'endDate'              => $end,
-				'rowLimit'             => 1,
+				'startDate'             => $start,
+				'endDate'               => $end,
+				'rowLimit'              => 1,
 			),
 			$property
 		);
@@ -2949,12 +2966,12 @@ class AISA_Tools {
 		return array(
 			'content' => self::safe_json_encode(
 				array(
-					'page'                 => $matched_permalink,
-					'page_meta'            => $page_meta,
-					'no_matching_rows'     => $queries_decoded['no_matching_rows'] ?? false,
-					'date_range'           => array( $start, $end ),
+					'page'                  => $matched_permalink,
+					'page_meta'             => $page_meta,
+					'no_matching_rows'      => $queries_decoded['no_matching_rows'] ?? false,
+					'date_range'            => array( $start, $end ),
 					'aggregate_performance' => $aggregate,
-					'queries'              => $queries_decoded['queries'] ?? array(),
+					'queries'               => $queries_decoded['queries'] ?? array(),
 				)
 			),
 		);
@@ -3004,7 +3021,7 @@ class AISA_Tools {
 	 * @return array List of associative rows.
 	 */
 	private static function flatten_ga_report( array $report ) {
-		$dim_names = array_map(
+		$dim_names    = array_map(
 			static function ( $h ) {
 				return $h['name'] ?? '';
 			},
@@ -3095,9 +3112,9 @@ class AISA_Tools {
 		return array(
 			'content' => self::safe_json_encode(
 				array(
-					'date_range'      => array( $start, $end ),
-					'totals'          => $totals,
-					'by_channel'      => $by_channel,
+					'date_range' => array( $start, $end ),
+					'totals'     => $totals,
+					'by_channel' => $by_channel,
 				)
 			),
 		);
@@ -3147,8 +3164,8 @@ class AISA_Tools {
 				),
 				'orderBys'   => array(
 					array(
-						'metric'    => array( 'metricName' => 'sessions' ),
-						'desc'      => ( 'best' === $order ),
+						'metric' => array( 'metricName' => 'sessions' ),
+						'desc'   => ( 'best' === $order ),
 					),
 				),
 				'limit'      => $limit,

@@ -59,7 +59,7 @@ class AISA_Pagespeed_Client {
 			'url'      => $url,
 			'strategy' => $strategy,
 		);
-		$key = self::get_api_key();
+		$key    = self::get_api_key();
 		if ( '' !== $key ) {
 			$params['key'] = $key;
 		}
