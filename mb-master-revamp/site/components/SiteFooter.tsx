@@ -1,5 +1,12 @@
 import Reveal from "@/components/Reveal";
 
+/** Real profiles, recorded in docs/CONTENT-ARCHITECTURE.md section 1. */
+export const SOCIALS = [
+  { href: "https://x.com/mikebastin", label: "X" },
+  { href: "https://www.linkedin.com/in/michaelbastin/", label: "LinkedIn" },
+  { href: "https://www.google.com/maps?cid=5084624758674071823", label: "Google Business Profile" },
+];
+
 const LINKS = [
   { href: "/", label: "Home" },
   { href: "/#work", label: "Work" },
@@ -52,6 +59,19 @@ export default function SiteFooter({
                 {l.label}
               </a>
             ))}
+            <span className="ml-auto flex flex-wrap gap-x-6 gap-y-2">
+              {SOCIALS.map((sc) => (
+                <a
+                  key={sc.href}
+                  href={sc.href}
+                  className="ulink"
+                  target="_blank"
+                  rel="me noopener noreferrer"
+                >
+                  {sc.label}
+                </a>
+              ))}
+            </span>
           </nav>
         </Reveal>
 
