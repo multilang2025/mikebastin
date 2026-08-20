@@ -224,8 +224,8 @@ export default function Home() {
               Tell me which language is losing you money.
             </h2>
             <div className="flex flex-col gap-2 text-[1.05rem]">
-              <a href="mailto:mike@betranslated.com" className="ulink w-fit">
-                mike@betranslated.com
+              <a href="mailto:hello@mikebastin.com" className="ulink w-fit">
+                hello@mikebastin.com
               </a>
               <a href="tel:+34671175774" className="ulink w-fit">
                 +34 671 17 57 74
