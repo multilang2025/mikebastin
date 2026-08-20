@@ -83,7 +83,7 @@ class AISA_Settings {
 	}
 
 	/**
-	 * admin-post handler: clear the stored GSC connection entirely.
+	 * Admin-post handler: clear the stored GSC connection entirely.
 	 */
 	public static function handle_gsc_disconnect() {
 		check_admin_referer( 'aisa_gsc_disconnect' );
@@ -96,7 +96,7 @@ class AISA_Settings {
 	}
 
 	/**
-	 * admin-post handler: save the admin's pick from the candidate-property
+	 * Admin-post handler: save the admin's pick from the candidate-property
 	 * list shown when OAuth succeeded but auto-detection was ambiguous.
 	 */
 	public static function handle_gsc_select_property() {
@@ -174,7 +174,7 @@ class AISA_Settings {
 	}
 
 	/**
-	 * admin-post handler: clear the stored GA connection entirely.
+	 * Admin-post handler: clear the stored GA connection entirely.
 	 */
 	public static function handle_ga_disconnect() {
 		check_admin_referer( 'aisa_ga_disconnect' );
@@ -187,7 +187,7 @@ class AISA_Settings {
 	}
 
 	/**
-	 * admin-post handler: save the admin's pick from the candidate-property
+	 * Admin-post handler: save the admin's pick from the candidate-property
 	 * list shown when OAuth succeeded but auto-detection was ambiguous.
 	 */
 	public static function handle_ga_select_property() {

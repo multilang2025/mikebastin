@@ -22,24 +22,24 @@ class AISA_Skills {
 	 * @var array<string, string>
 	 */
 	const CATALOG = array(
-		'eeat'             => 'Strengthen Experience, Expertise, Authoritativeness, and Trust signals in a post.',
-		'fact_checking'    => 'Verify a claim, statistic, date, price, quote, or study before writing it, or check an existing one.',
-		'nlp_readability'  => 'Improve clarity, topical coverage, and readability without rewriting the whole post.',
-		'internal_links'   => 'Find and add relevant internal links between existing posts and pages.',
-		'meta_tags'        => 'Write or improve SEO meta title/description and Open Graph/Twitter tags.',
-		'schema'           => 'Inspect or write Rank Math structured-data (schema.org) entries.',
-		'page_builders'    => 'How post_content maps to Classic, Gutenberg, Divi, and Elementor, and what is/isn\'t editable.',
-		'theme_editing'    => 'Edit theme files safely using the draft-first sandbox workflow.',
-		'images'           => 'Find and insert a stock photo into a post from a natural-language description.',
-		'image_generation' => 'Generate original, hyper-realistic, text-free artwork tailored to a specific post.',
-		'seo_intelligence' => 'Answer traffic/performance and competitor questions using Ahrefs data.',
-		'gsc_intelligence' => 'Google Search Console performance diagnostics and content optimization.',
-		'db_admin'         => 'Query data no other tool covers (form entries, custom plugin tables) safely with db_query.',
-		'bulk_site_changes' => 'Fix the same text/link across many posts at once, then make the change visible immediately.',
-		'ga_intelligence'  => 'Real visitor traffic, engagement, and traffic-source questions using Google Analytics (GA4) data.',
-		'site_reports'     => 'Build a periodic performance report for a specific site, combining GA4 + Search Console + Ahrefs data.',
+		'eeat'                         => 'Strengthen Experience, Expertise, Authoritativeness, and Trust signals in a post.',
+		'fact_checking'                => 'Verify a claim, statistic, date, price, quote, or study before writing it, or check an existing one.',
+		'nlp_readability'              => 'Improve clarity, topical coverage, and readability without rewriting the whole post.',
+		'internal_links'               => 'Find and add relevant internal links between existing posts and pages.',
+		'meta_tags'                    => 'Write or improve SEO meta title/description and Open Graph/Twitter tags.',
+		'schema'                       => 'Inspect or write Rank Math structured-data (schema.org) entries.',
+		'page_builders'                => 'How post_content maps to Classic, Gutenberg, Divi, and Elementor, and what is/isn\'t editable.',
+		'theme_editing'                => 'Edit theme files safely using the draft-first sandbox workflow.',
+		'images'                       => 'Find and insert a stock photo into a post from a natural-language description.',
+		'image_generation'             => 'Generate original, hyper-realistic, text-free artwork tailored to a specific post.',
+		'seo_intelligence'             => 'Answer traffic/performance and competitor questions using Ahrefs data.',
+		'gsc_intelligence'             => 'Google Search Console performance diagnostics and content optimization.',
+		'db_admin'                     => 'Query data no other tool covers (form entries, custom plugin tables) safely with db_query.',
+		'bulk_site_changes'            => 'Fix the same text/link across many posts at once, then make the change visible immediately.',
+		'ga_intelligence'              => 'Real visitor traffic, engagement, and traffic-source questions using Google Analytics (GA4) data.',
+		'site_reports'                 => 'Build a periodic performance report for a specific site, combining GA4 + Search Console + Ahrefs data.',
 		'delaguialuzon_monthly_report' => 'Cross-source monthly report for Delaguía y Luzón Abogados: Formidable leads + GSC + GA4, with honest cross-checks. No Ahrefs.',
-		'site_checkup'     => 'Run a full Lighthouse checkup (performance/accessibility/best practices/SEO) and fix what it finds.',
+		'site_checkup'                 => 'Run a full Lighthouse checkup (performance/accessibility/best practices/SEO) and fix what it finds.',
 	);
 
 	/**
@@ -63,33 +63,33 @@ class AISA_Skills {
 	 */
 	public static function body( $name ) {
 		$bodies = array(
-			'eeat'             => 'EEAT (Experience, Expertise, Authoritativeness, Trust): strengthen first-hand '
+			'eeat'                         => 'EEAT (Experience, Expertise, Authoritativeness, Trust): strengthen first-hand '
 				. 'experience and credibility. append_to_post an author/credentials box and a "Sources" '
 				. "list of reputable references; use replace_in_post to add the author's qualifications, "
 				. 'a "last reviewed" date, and concrete first-hand detail. Do not invent credentials, '
 				. 'citations, statistics, or dates — if you lack a real source, say so and ask. If you '
 				. 'add a factual claim you are not certain of, load the fact_checking skill first.',
-			'fact_checking'    => 'FACT-CHECKING: never invent or guess a statistic, date, price, quote, or named '
+			'fact_checking'                => 'FACT-CHECKING: never invent or guess a statistic, date, price, quote, or named '
 				. 'study. Before you add such a fact to content — or when the user asks you to verify '
 				. 'existing claims — call fact_check with the specific statement. Trust its verdict: if '
 				. 'it returns False or Misleading, correct or remove the claim; if Unverifiable, do not '
 				. 'present it as fact. Cite the returned source URLs (as links or in a Sources list) '
 				. 'rather than fabricating references.',
-			'nlp_readability'  => 'NLP / readability: improve clarity and topical coverage WITHOUT rewriting the whole '
+			'nlp_readability'              => 'NLP / readability: improve clarity and topical coverage WITHOUT rewriting the whole '
 				. 'post. Work section by section with replace_in_post: shorten sentences, add a clear '
 				. 'subheading, define entities, and add the synonyms/related terms a search engine '
 				. "expects. Keep the author's meaning and voice.",
-			'internal_links'   => 'Internal links: use search_posts to find relevant existing posts/pages on the site, '
+			'internal_links'               => 'Internal links: use search_posts to find relevant existing posts/pages on the site, '
 				. 'then replace_in_post to wrap an exact phrase in an <a href> to that URL. Use '
 				. 'descriptive anchor text (not "click here"); add only a few genuinely relevant links.',
-			'meta_tags'        => 'Meta tags: use get_seo then set_seo. A good meta_title is about 50-60 characters and '
+			'meta_tags'                    => 'Meta tags: use get_seo then set_seo. A good meta_title is about 50-60 characters and '
 				. 'includes the focus keyword near the front; a good meta_description is about 150-160 '
 				. 'characters, compelling, and includes the keyword. Set og_/twitter_ fields when asked '
 				. 'to optimise social sharing.',
-			'schema'           => 'Schema / structured data: get_schema to inspect current Rank Math schema, then set_meta '
+			'schema'                       => 'Schema / structured data: get_schema to inspect current Rank Math schema, then set_meta '
 				. 'with the appropriate rank_math_schema_* key, passing the schema object as a JSON '
 				. 'string. Match the content type (Article, FAQPage, HowTo, Product, etc.).',
-			'page_builders'    => 'PAGE BUILDERS: get_post returns post_content, which holds the real content for '
+			'page_builders'                => 'PAGE BUILDERS: get_post returns post_content, which holds the real content for '
 				. 'Classic, Gutenberg, and Divi. For Gutenberg keep block comment markers (<!-- wp:... -->) '
 				. 'intact when you edit.'
 				. "\n\n"
@@ -110,7 +110,7 @@ class AISA_Skills {
 				. 'similar content-bearing module) pair -- never touch a shortcode tag itself or its '
 				. 'attributes (_builder_version, global_colors_info, background_layout, module IDs, etc.), '
 				. 'and never delete/add a section/row/column tag unless the user explicitly asked to '
-				. "remove that whole block. replace_in_post/append_to_post/bulk_replace_in_posts warn when "
+				. 'remove that whole block. replace_in_post/append_to_post/bulk_replace_in_posts warn when '
 				. 'the touched text looks like it crosses one of these boundaries -- treat that warning as '
 				. 'a reason to re-check your find/replace strings before trusting the result, not something '
 				. 'to ignore. After a Divi edit, call get_page_html on the same post to verify the page '
@@ -118,7 +118,7 @@ class AISA_Skills {
 				. "\n\n"
 				. 'Always confirm a replace_in_post/bulk_replace_in_posts match exists (or was reported as '
 				. 'skipped) before assuming an edit landed.',
-			'theme_editing'    => 'THEME EDITING: never write directly into the live theme. First call '
+			'theme_editing'                => 'THEME EDITING: never write directly into the live theme. First call '
 				. 'list_theme_files/read_theme_file/search_theme_files (safe on any theme, read-only) to '
 				. 'find what to change. Before making ANY edit, call create_draft_theme -- it copies the '
 				. 'active theme into its own "<slug>-aisa-draft" directory and returns that draft\'s '
@@ -127,7 +127,7 @@ class AISA_Skills {
 				. 'Customizer live-preview link before anything goes live. Only call publish_draft_theme '
 				. '(which activates the draft as the live theme) after the user has seen the preview and '
 				. 'approved it. If you abandon a draft, clean it up with delete_draft_theme.',
-			'seo_intelligence' => 'SEO INTELLIGENCE (Ahrefs): use these when the user asks about traffic, '
+			'seo_intelligence'             => 'SEO INTELLIGENCE (Ahrefs): use these when the user asks about traffic, '
 				. 'performance, or competitors -- the WordPress database has none of that data. All three '
 				. 'tools default their target to this site; pass a competitor domain to analyze theirs. '
 				. "They need an Ahrefs API key (tell the user to add one in Settings if a tool reports it's "
@@ -147,13 +147,13 @@ class AISA_Skills {
 				. "content (which still goes through the normal approval gate).\n"
 				. 'If the user has not set a market, ask which country to scope competitor data to '
 				. '(the default is us).',
-			'images'           => 'IMAGES: call search_images with a short descriptive query, show the user '
+			'images'                       => 'IMAGES: call search_images with a short descriptive query, show the user '
 				. 'a few candidates (description + photographer credit), then call upload_media with the '
 				. 'chosen result\'s url and download_location (pass both through unchanged -- '
 				. 'download_location fulfils Unsplash\'s attribution-tracking requirement). Credit the '
 				. 'photographer in the caption or alt text when the user wants attribution shown on the '
 				. 'page. Only set_featured when the user asked for a featured image specifically.',
-			'image_generation' => 'IMAGE GENERATION (Nano Banana Pro / Gemini): use this when no stock photo '
+			'image_generation'             => 'IMAGE GENERATION (Nano Banana Pro / Gemini): use this when no stock photo '
 				. 'fits, or the user wants custom/original artwork.'
 				. "\n\n"
 				. 'ANALYZE FIRST. Before writing a single generate_image prompt, read the actual page you '
@@ -185,9 +185,9 @@ class AISA_Skills {
 				. 'Each generation is a metered, paid API call -- write a good prompt the first time rather '
 				. 'than generating repeatedly to fish for a better result; only regenerate if the result was '
 				. 'genuinely off-target or blocked by a safety filter.',
-			'db_admin'         => 'DATABASE QUERIES (db_query): the escape hatch for data no purpose-built tool '
+			'db_admin'                     => 'DATABASE QUERIES (db_query): the escape hatch for data no purpose-built tool '
 				. 'covers -- a form plugin\'s entries, WooCommerce order meta, or any other plugin\'s custom '
-				. "table. SELECT/DESCRIBE/SHOW/EXPLAIN SELECT only; there is no write path. Use \"{prefix}\" "
+				. 'table. SELECT/DESCRIBE/SHOW/EXPLAIN SELECT only; there is no write path. Use "{prefix}" '
 				. "instead of guessing the table prefix. If you don't already know a table's columns, run "
 				. 'DESCRIBE {prefix}tablename first rather than guessing column names -- schema-read '
 				. 'commands are free and always allowed.'
@@ -230,7 +230,7 @@ class AISA_Skills {
 				. '{prefix}frm_forms if the user does not name the form). Every query is capped at a LIMIT '
 				. '(default 100, max 1000) automatically -- raise it with the "limit" argument if you '
 				. 'expect more matching rows than that.',
-			'bulk_site_changes' => 'BULK SITE CHANGES: when the same fix needs to land on many posts at once '
+			'bulk_site_changes'            => 'BULK SITE CHANGES: when the same fix needs to land on many posts at once '
 				. '(a broken URL, a changed phone number, a shortcode swap across the whole site), use '
 				. 'bulk_replace_in_posts instead of calling replace_in_post once per post -- it takes up to '
 				. '50 post IDs at a time and applies the same exact find/replace to each, reporting per-post '
@@ -249,8 +249,8 @@ class AISA_Skills {
 				. 'Cache, LiteSpeed Cache, WP Super Cache, WP Fastest Cache, or SiteGround Optimizer -- '
 				. 'flush_caches detects and flushes whichever is actually active) catches up. Spot-check a '
 				. 'couple of the changed pages with get_page_html afterward to confirm the fix is actually '
-				. "visible, especially on a Divi or Elementor page (see the page_builders skill).",
-			'ga_intelligence'  => 'GOOGLE ANALYTICS (GA4): use these when the user asks about actual VISITOR '
+				. 'visible, especially on a Divi or Elementor page (see the page_builders skill).',
+			'ga_intelligence'              => 'GOOGLE ANALYTICS (GA4): use these when the user asks about actual VISITOR '
 				. 'behavior -- traffic volume, where visitors came from, engagement, conversions -- as '
 				. 'opposed to search-ranking questions (gsc_intelligence) or Ahrefs\' traffic ESTIMATES '
 				. '(seo_intelligence). GA4 is Google\'s own recorded data from this site\'s actual visitors, '
@@ -272,7 +272,7 @@ class AISA_Skills {
 				. 'Needs Google Analytics connected (a separate OAuth grant from Google Search Console, even '
 				. 'though they share the same Google Cloud OAuth Client -- tell the user to connect it '
 				. 'separately in Settings if a tool reports it\'s not connected).',
-			'site_reports'     => 'SITE PERFORMANCE REPORTS: use this when the user asks for a periodic report, '
+			'site_reports'                 => 'SITE PERFORMANCE REPORTS: use this when the user asks for a periodic report, '
 				. 'audit, or summary of how a site is doing -- "how did [site] do this month," "put together '
 				. 'a report for [domain]," "send me the numbers for [site]." The connected Google account '
 				. '(and Ahrefs, if configured) can see MANY different websites, not just this WordPress '
@@ -428,7 +428,7 @@ class AISA_Skills {
 				. 'qué debemos mejorar"; cierre. Default export: Gamma (document, text mode "preserve" since '
 				. 'the full text is pre-written, Spanish language) unless the user asks for something else '
 				. '(chat, Word doc, etc.).',
-			'site_checkup'     => 'SITE CHECKUP: use this when the user asks to "check my site," "run a '
+			'site_checkup'                 => 'SITE CHECKUP: use this when the user asks to "check my site," "run a '
 				. 'checkup," or audit a page/site for performance, accessibility, best practices, or SEO. '
 				. 'Call run_site_checkup on the relevant page(s) -- it returns a 0-100 score per category '
 				. 'plus the specific failing checks under each, straight from Google\'s own Lighthouse/'
@@ -479,5 +479,4 @@ class AISA_Skills {
 
 		return null;
 	}
-	
 }
