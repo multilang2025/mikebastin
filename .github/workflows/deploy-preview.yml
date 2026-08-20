@@ -42,7 +42,7 @@ jobs:
           server: ${{ secrets.FTP_HOST }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./out/
+          local-dir: ./mb-master-revamp/site/out/
           server-dir: ./
           exclude: |
             **/.git*
