@@ -1,4 +1,6 @@
 ---
+words: 678
+editorial: "superseded"
 title: "Localisation d'applications"
 slug: "localisation-applications"
 locale: "fr"

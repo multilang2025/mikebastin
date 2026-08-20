@@ -1,4 +1,6 @@
 ---
+words: 1761
+editorial: "superseded"
 title: "Soluciones globales de SEO"
 slug: "agencia-de-seo-global"
 locale: "es"

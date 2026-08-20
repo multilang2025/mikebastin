@@ -1,4 +1,6 @@
 ---
+words: 682
+editorial: "superseded"
 title: "Localised E-commerce Integration"
 slug: "localised-e-commerce-integration"
 locale: "en"

@@ -1,4 +1,6 @@
 ---
+words: 557
+editorial: "superseded"
 title: "Cultural Consulting"
 slug: "cultural-consulting"
 locale: "en"

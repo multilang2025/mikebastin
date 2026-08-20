@@ -1,4 +1,6 @@
 ---
+words: 558
+editorial: "superseded"
 title: "On-Page SEO Services"
 slug: "on-page-seo"
 locale: "en"

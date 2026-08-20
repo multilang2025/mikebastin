@@ -1,4 +1,5 @@
 ---
+words: 1124
 title: "El papel de la localización en el contenido web multilingüe"
 slug: "localizacion-de-contenido-web-multilingue"
 locale: "es"

@@ -1,4 +1,5 @@
 ---
+words: 693
 title: "Website Localisation"
 slug: "website-localisation"
 locale: "en"

@@ -1,4 +1,6 @@
 ---
+words: 710
+editorial: "superseded"
 title: "Intégration d'un CMS multilingue"
 slug: "cms-multilingue"
 locale: "fr"

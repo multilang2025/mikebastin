@@ -1,4 +1,5 @@
 ---
+words: 1267
 title: "B2B Trade Shows in Valencia 2026: Export Fairs & International Buyers"
 slug: "b2b-trade-shows-in-valencia"
 locale: "en"

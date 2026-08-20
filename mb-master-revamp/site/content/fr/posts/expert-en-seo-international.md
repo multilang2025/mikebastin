@@ -1,4 +1,5 @@
 ---
+words: 1329
 title: "Expert SEO international : pourquoi votre entreprise a besoin d'un spécialiste du référencement multilingue"
 slug: "expert-en-seo-international"
 locale: "fr"

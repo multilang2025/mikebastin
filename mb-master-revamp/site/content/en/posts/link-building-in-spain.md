@@ -1,4 +1,5 @@
 ---
+words: 904
 title: "Local Link Building in Spain"
 slug: "link-building-in-spain"
 locale: "en"

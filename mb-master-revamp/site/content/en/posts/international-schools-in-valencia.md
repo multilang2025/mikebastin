@@ -1,4 +1,5 @@
 ---
+words: 2738
 title: "Global Minds: Exploring Top International Schools in Valencia"
 slug: "international-schools-in-valencia"
 locale: "en"

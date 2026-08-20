@@ -1,4 +1,5 @@
 ---
+words: 780
 title: "Optimising Your Content for Voice Search and Conversational Queries"
 slug: "optimising-your-website-for-voice-search"
 locale: "en"

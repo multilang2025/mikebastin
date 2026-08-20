@@ -1,4 +1,6 @@
 ---
+words: 819
+editorial: "superseded"
 title: "Localisation e-commerce"
 slug: "localisation-ecommerce"
 locale: "fr"

@@ -1,4 +1,5 @@
 ---
+words: 1520
 title: "How to Optimise a Google Business Profile"
 slug: "optimise-a-google-business-profile"
 locale: "en"

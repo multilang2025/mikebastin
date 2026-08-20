@@ -1,4 +1,6 @@
 ---
+words: 963
+editorial: "superseded"
 title: "Servicios de link building"
 slug: "link-building"
 locale: "es"

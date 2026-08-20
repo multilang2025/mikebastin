@@ -1,4 +1,5 @@
 ---
+words: 1565
 title: "Rastrear posiciones de keywords de competidores: la base del análisis competitivo SEO"
 slug: "rastrear-posiciones-de-keywords-de-competidores"
 locale: "es"

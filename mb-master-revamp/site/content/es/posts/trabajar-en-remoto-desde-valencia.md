@@ -1,4 +1,5 @@
 ---
+words: 1613
 title: "Trabajar en remoto desde Valencia: mi experiencia real después de una década aquí"
 slug: "trabajar-en-remoto-desde-valencia"
 locale: "es"

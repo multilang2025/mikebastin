@@ -1,4 +1,5 @@
 ---
+words: 782
 title: "Optimización para sistemas de IA: por qué el seguimiento de prompts ya no es suficiente"
 slug: "optimizacion-para-sistemas-de-ia"
 locale: "es"

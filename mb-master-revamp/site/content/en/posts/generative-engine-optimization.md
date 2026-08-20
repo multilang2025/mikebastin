@@ -1,4 +1,5 @@
 ---
+words: 850
 title: "Search Engine Optimization is Dead? Long Live Generative Engine Optimization (GEO)"
 slug: "generative-engine-optimization"
 locale: "en"

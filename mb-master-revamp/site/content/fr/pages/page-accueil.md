@@ -1,4 +1,6 @@
 ---
+words: 318
+editorial: "structural"
 title: "Accueil"
 slug: "page-accueil"
 locale: "fr"

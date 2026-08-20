@@ -1,4 +1,5 @@
 ---
+words: 1941
 title: "La transformación de las ventas mediante sistemas de cualificación de leads con IA"
 slug: "sistemas-cualificacion-leads-ia"
 locale: "es"

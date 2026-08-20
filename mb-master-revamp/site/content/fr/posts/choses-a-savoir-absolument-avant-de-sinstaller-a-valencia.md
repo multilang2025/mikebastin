@@ -1,4 +1,5 @@
 ---
+words: 2194
 title: "8 choses à savoir absolument avant de s'installer à Valencia, en Espagne"
 slug: "choses-a-savoir-absolument-avant-de-sinstaller-a-valencia"
 locale: "fr"

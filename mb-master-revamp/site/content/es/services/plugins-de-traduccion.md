@@ -1,4 +1,6 @@
 ---
+words: 748
+editorial: "superseded"
 title: "Configuración de plugins de traducción de WordPress"
 slug: "plugins-de-traduccion"
 locale: "es"

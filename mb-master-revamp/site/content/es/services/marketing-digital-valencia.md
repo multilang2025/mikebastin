@@ -1,4 +1,6 @@
 ---
+words: 285
+editorial: "superseded"
 title: "Marketing digital"
 slug: "marketing-digital-valencia"
 locale: "es"

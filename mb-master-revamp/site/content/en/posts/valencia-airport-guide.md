@@ -1,4 +1,5 @@
 ---
+words: 2108
 title: "Valencia Airport Guide: Your Arrival & First Week in the City"
 slug: "valencia-airport-guide"
 locale: "en"

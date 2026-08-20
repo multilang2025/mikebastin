@@ -1,4 +1,6 @@
 ---
+words: 614
+editorial: "superseded"
 title: "Servicios de traducción financiera"
 slug: "traduccion-financiera"
 locale: "es"

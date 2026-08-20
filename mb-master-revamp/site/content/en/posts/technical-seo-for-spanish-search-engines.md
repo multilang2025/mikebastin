@@ -1,4 +1,5 @@
 ---
+words: 1670
 title: "Technical SEO for Spanish Search Engines"
 slug: "technical-seo-for-spanish-search-engines"
 locale: "en"

@@ -1,4 +1,5 @@
 ---
+words: 1645
 title: "Multilingual SEO"
 slug: "multilingual-seo"
 locale: "en"

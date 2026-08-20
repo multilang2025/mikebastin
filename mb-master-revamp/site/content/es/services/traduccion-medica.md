@@ -1,4 +1,6 @@
 ---
+words: 597
+editorial: "superseded"
 title: "Servicios de traducción médica"
 slug: "traduccion-medica"
 locale: "es"

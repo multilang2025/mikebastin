@@ -1,4 +1,5 @@
 ---
+words: 815
 title: "Unleash the Fun: Essential Things to Do in Cultural Valencia"
 slug: "essential-things-to-do-in-cultural-valencia"
 locale: "en"

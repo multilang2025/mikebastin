@@ -1,4 +1,6 @@
 ---
+words: 723
+editorial: "superseded"
 title: "Internacionalización de software"
 slug: "internacionalizacion-de-software"
 locale: "es"

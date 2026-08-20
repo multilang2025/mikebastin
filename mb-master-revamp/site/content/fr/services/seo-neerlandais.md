@@ -1,4 +1,5 @@
 ---
+words: 1765
 title: "SEO néerlandais"
 slug: "seo-neerlandais"
 locale: "fr"

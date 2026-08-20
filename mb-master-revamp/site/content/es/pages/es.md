@@ -1,4 +1,6 @@
 ---
+words: 363
+editorial: "structural"
 title: "Inicio"
 slug: "es"
 locale: "es"

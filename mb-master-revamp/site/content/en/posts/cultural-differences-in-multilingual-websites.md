@@ -1,4 +1,5 @@
 ---
+words: 690
 title: "Cultural Differences in Multilingual Websites Explained"
 slug: "cultural-differences-in-multilingual-websites"
 locale: "en"

@@ -1,4 +1,6 @@
 ---
+words: 529
+editorial: "superseded"
 title: "Financial Translations"
 slug: "financial-translation"
 locale: "en"

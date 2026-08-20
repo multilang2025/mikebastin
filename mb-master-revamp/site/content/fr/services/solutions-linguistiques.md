@@ -1,4 +1,6 @@
 ---
+words: 385
+editorial: "superseded"
 title: "Solutions linguistiques"
 slug: "solutions-linguistiques"
 locale: "fr"

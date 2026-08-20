@@ -1,4 +1,5 @@
 ---
+words: 1149
 title: "Mastering the Art of Spanish Keyword Localisation"
 slug: "spanish-keyword-localisation"
 locale: "en"

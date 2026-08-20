@@ -1,4 +1,6 @@
 ---
+words: 876
+editorial: "superseded"
 title: "Servicios de localización de e-commerce"
 slug: "localizacion-de-e-commerce"
 locale: "es"

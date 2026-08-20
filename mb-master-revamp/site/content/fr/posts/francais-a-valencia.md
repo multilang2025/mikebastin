@@ -1,4 +1,5 @@
 ---
+words: 2543
 title: "Les Français à Valencia : Un impact économique et culturel en pleine expansion"
 slug: "francais-a-valencia"
 locale: "fr"

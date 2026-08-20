@@ -1,4 +1,6 @@
 ---
+words: 541
+editorial: "superseded"
 title: "Servicios de traducción certificada y jurada"
 slug: "traduccion-certificada-y-jurada"
 locale: "es"

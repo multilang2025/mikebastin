@@ -1,4 +1,5 @@
 ---
+words: 803
 title: "Herramientas de pruebas de localización"
 slug: "herramientas-pruebas-de-localizacion"
 locale: "es"

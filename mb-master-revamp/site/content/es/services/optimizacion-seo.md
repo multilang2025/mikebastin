@@ -1,4 +1,5 @@
 ---
+words: 1699
 title: "SEO optimización"
 slug: "optimizacion-seo"
 locale: "es"

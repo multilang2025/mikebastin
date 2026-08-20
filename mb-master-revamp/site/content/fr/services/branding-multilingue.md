@@ -1,4 +1,6 @@
 ---
+words: 256
+editorial: "superseded"
 title: "Branding multilingue"
 slug: "branding-multilingue"
 locale: "fr"

@@ -1,4 +1,6 @@
 ---
+words: 253
+editorial: "structural"
 title: "Homepage"
 slug: "homepage"
 locale: "en"

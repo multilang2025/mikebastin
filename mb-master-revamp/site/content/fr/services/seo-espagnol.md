@@ -1,4 +1,5 @@
 ---
+words: 1861
 title: "SEO espagnol"
 slug: "seo-espagnol"
 locale: "fr"

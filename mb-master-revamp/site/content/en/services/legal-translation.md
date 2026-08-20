@@ -1,4 +1,6 @@
 ---
+words: 561
+editorial: "superseded"
 title: "Legal Translations"
 slug: "legal-translation"
 locale: "en"

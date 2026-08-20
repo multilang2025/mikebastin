@@ -1,4 +1,5 @@
 ---
+words: 1701
 title: "Análisis competitivo para el crecimiento del SEO y marketing digital"
 slug: "analisis-competitivo-seo"
 locale: "es"

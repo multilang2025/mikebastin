@@ -1,4 +1,6 @@
 ---
+words: 230
+editorial: "structural"
 title: "Contactez-nous"
 slug: "nous-contacter"
 locale: "fr"

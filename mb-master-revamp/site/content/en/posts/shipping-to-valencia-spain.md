@@ -1,4 +1,5 @@
 ---
+words: 1905
 title: "Shipping to Valencia Spain: How to Move Cars & Furniture Without the Headache"
 slug: "shipping-to-valencia-spain"
 locale: "en"

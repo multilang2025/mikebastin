@@ -1,4 +1,5 @@
 ---
+words: 1944
 title: "Combining Professional Growth with Valencia’s Laid-Back Vibe"
 slug: "work-life-balance-in-valencia"
 locale: "en"

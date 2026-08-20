@@ -1,4 +1,6 @@
 ---
+words: 545
+editorial: "superseded"
 title: "Redacción SEO multilingüe"
 slug: "redaccion-seo-multilingue"
 locale: "es"

@@ -1,4 +1,6 @@
 ---
+words: 1891
+editorial: "superseded"
 title: "Diseño de sitios web"
 slug: "diseno-web"
 locale: "es"

@@ -1,4 +1,6 @@
 ---
+words: 585
+editorial: "light"
 title: "Top Alternatives to Google Analytics"
 slug: "alternatives-to-google-analytics"
 locale: "en"

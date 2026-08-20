@@ -1,4 +1,5 @@
 ---
+words: 1367
 title: "Análisis de la competencia para SEO"
 slug: "analisis-de-la-competencia-seo"
 locale: "es"

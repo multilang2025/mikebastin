@@ -1,4 +1,5 @@
 ---
+words: 720
 title: "The Evolution of Language Service Providers: A 2026 Industry Outlook"
 slug: "language-service-providers"
 locale: "en"

@@ -1,4 +1,5 @@
 ---
+words: 704
 title: "Localización de páginas web"
 slug: "traduccion-de-paginas-web"
 locale: "es"

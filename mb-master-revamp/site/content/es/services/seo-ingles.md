@@ -1,4 +1,6 @@
 ---
+words: 670
+editorial: "superseded"
 title: "SEO en inglés"
 slug: "seo-ingles"
 locale: "es"

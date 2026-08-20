@@ -1,4 +1,6 @@
 ---
+words: 326
+editorial: "superseded"
 title: "Services d'internationalisation"
 slug: "internationalisation"
 locale: "fr"

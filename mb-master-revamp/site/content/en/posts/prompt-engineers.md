@@ -1,4 +1,5 @@
 ---
+words: 943
 title: "Translators Already are Prompt Engineers, They Just Don’t Know it"
 slug: "prompt-engineers"
 locale: "en"

@@ -1,4 +1,6 @@
 ---
+words: 699
+editorial: "superseded"
 title: "Monitorización y analítica"
 slug: "monitorizacion-y-analitica"
 locale: "es"

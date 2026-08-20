@@ -1,4 +1,5 @@
 ---
+words: 1237
 title: "SEO técnico para sitios web multilingües"
 slug: "seo-tecnico-para-sitios-multilingues"
 locale: "es"

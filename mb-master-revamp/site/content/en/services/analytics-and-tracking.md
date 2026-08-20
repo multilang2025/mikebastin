@@ -1,4 +1,6 @@
 ---
+words: 550
+editorial: "superseded"
 title: "Analytics and Tracking"
 slug: "analytics-and-tracking"
 locale: "en"

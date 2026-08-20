@@ -1,4 +1,5 @@
 ---
+words: 2108
 title: "Top 10 des cabinets d'avocats à Valencia"
 slug: "avocats-a-valencia"
 locale: "fr"

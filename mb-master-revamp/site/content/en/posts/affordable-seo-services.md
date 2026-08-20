@@ -1,4 +1,5 @@
 ---
+words: 1055
 title: "Boost Your Small Business with Affordable SEO Services"
 slug: "affordable-seo-services"
 locale: "en"

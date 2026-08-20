@@ -1,4 +1,6 @@
 ---
+words: 768
+editorial: "superseded"
 title: "Posedición de IA y TA"
 slug: "posedicion-de-ia"
 locale: "es"

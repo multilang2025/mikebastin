@@ -1,4 +1,5 @@
 ---
+words: 2274
 title: "Living the Valencia Expat Dream"
 slug: "valencia-expat"
 locale: "en"

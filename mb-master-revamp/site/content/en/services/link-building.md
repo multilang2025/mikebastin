@@ -1,4 +1,6 @@
 ---
+words: 873
+editorial: "superseded"
 title: "Linkbuilding Services"
 slug: "link-building"
 locale: "en"

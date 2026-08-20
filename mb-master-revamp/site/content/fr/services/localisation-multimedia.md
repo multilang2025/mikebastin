@@ -1,4 +1,6 @@
 ---
+words: 888
+editorial: "superseded"
 title: "Localisation multimédia"
 slug: "localisation-multimedia"
 locale: "fr"

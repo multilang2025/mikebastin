@@ -1,4 +1,5 @@
 ---
+words: 1170
 title: "Find Long-Tail Keywords With AI Tools: Rank Faster in 2026"
 slug: "long-tail-keywords"
 locale: "en"

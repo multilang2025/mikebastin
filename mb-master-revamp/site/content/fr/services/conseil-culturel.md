@@ -1,4 +1,6 @@
 ---
+words: 727
+editorial: "superseded"
 title: "Conseils culturels"
 slug: "conseil-culturel"
 locale: "fr"

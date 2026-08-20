@@ -1,4 +1,5 @@
 ---
+words: 1693
 title: "SEO en portugués"
 slug: "seo-portugues"
 locale: "es"

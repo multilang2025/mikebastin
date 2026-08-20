@@ -1,4 +1,6 @@
 ---
+words: 681
+editorial: "superseded"
 title: "App Localisation"
 slug: "app-localisation"
 locale: "en"

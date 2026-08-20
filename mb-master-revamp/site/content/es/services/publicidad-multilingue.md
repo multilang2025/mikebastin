@@ -1,4 +1,5 @@
 ---
+words: 1662
 title: "SEM multilingüe"
 slug: "publicidad-multilingue"
 locale: "es"

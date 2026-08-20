@@ -1,4 +1,6 @@
 ---
+words: 850
+editorial: "superseded"
 title: "Traducción audiovisual"
 slug: "traduccion-audiovisual"
 locale: "es"

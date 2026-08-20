@@ -1,4 +1,5 @@
 ---
+words: 821
 title: "Why Your Business Can’t Ignore Spanish SEO Markets in 2026"
 slug: "spanish-seo-markets"
 locale: "en"

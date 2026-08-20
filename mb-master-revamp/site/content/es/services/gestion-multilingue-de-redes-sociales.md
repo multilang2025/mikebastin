@@ -1,4 +1,6 @@
 ---
+words: 966
+editorial: "superseded"
 title: "Gestión multilingüe de redes sociales"
 slug: "gestion-multilingue-de-redes-sociales"
 locale: "es"

@@ -1,4 +1,5 @@
 ---
+words: 1112
 title: "Boosting Local SEO with a Stronger Google My Business Profile"
 slug: "boosting-local-seo"
 locale: "en"

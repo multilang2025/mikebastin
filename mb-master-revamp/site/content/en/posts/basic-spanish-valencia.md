@@ -1,4 +1,5 @@
 ---
+words: 2388
 title: "Basic Spanish for Valencia: Essential Phrases & Why Locals Love It When You Try"
 slug: "basic-spanish-valencia"
 locale: "en"

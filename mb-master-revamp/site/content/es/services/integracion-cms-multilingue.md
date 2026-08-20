@@ -1,4 +1,6 @@
 ---
+words: 905
+editorial: "superseded"
 title: "Servicios de integración en CMS multilingüe"
 slug: "integracion-cms-multilingue"
 locale: "es"

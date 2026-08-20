@@ -1,4 +1,6 @@
 ---
+words: 957
+editorial: "superseded"
 title: "Services de traduction certifiée et assermentée"
 slug: "traduction-certifiee-et-assermentee"
 locale: "fr"

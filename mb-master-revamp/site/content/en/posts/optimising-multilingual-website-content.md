@@ -1,4 +1,5 @@
 ---
+words: 1046
 title: "The Role of Localisation in Optimising Multilingual Website Content"
 slug: "optimising-multilingual-website-content"
 locale: "en"

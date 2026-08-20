@@ -1,4 +1,5 @@
 ---
+words: 2045
 title: "Living in a Flat in Valencia: A Pragmatic Overview"
 slug: "living-in-a-flat-in-valencia-a-pragmatic-overview"
 locale: "en"

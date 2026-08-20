@@ -1,4 +1,5 @@
 ---
+words: 1401
 title: "German SEO Best Practices and Trends"
 slug: "german-seo-best-practices"
 locale: "en"

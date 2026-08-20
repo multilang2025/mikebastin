@@ -1,4 +1,6 @@
 ---
+words: 214
+editorial: "structural"
 title: "Servicios"
 slug: "servicios-consultoria-web"
 locale: "es"

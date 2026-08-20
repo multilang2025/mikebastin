@@ -1,4 +1,6 @@
 ---
+words: 765
+editorial: "superseded"
 title: "Multilingual AI Consulting Services"
 slug: "ai-consulting-services"
 locale: "en"

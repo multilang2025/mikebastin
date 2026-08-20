@@ -1,4 +1,5 @@
 ---
+words: 1096
 title: "Competitor Analysis for SEO and Digital Growth"
 slug: "competitor-analysis"
 locale: "en"

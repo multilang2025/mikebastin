@@ -1,4 +1,5 @@
 ---
+words: 1505
 title: "How to Make Money on YouTube"
 slug: "how-to-make-money-on-youtube"
 locale: "en"

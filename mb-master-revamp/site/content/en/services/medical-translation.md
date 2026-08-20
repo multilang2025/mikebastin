@@ -1,4 +1,6 @@
 ---
+words: 523
+editorial: "superseded"
 title: "Medical Translation Services"
 slug: "medical-translation"
 locale: "en"

@@ -1,4 +1,6 @@
 ---
+words: 1644
+editorial: "superseded"
 title: "Référencement local"
 slug: "referencement-local"
 locale: "fr"

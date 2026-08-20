@@ -1,4 +1,6 @@
 ---
+words: 1073
+editorial: "structural"
 title: "Blog"
 slug: "blog"
 locale: "en"

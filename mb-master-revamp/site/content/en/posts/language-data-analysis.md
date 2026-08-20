@@ -1,4 +1,5 @@
 ---
+words: 2739
 title: "Inside the Linguistic Maze: Language Data Analysis Fundamentals"
 slug: "language-data-analysis"
 locale: "en"

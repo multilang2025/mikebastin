@@ -1,4 +1,6 @@
 ---
+words: 775
+editorial: "superseded"
 title: "Diseño de UI y UX multilingüe"
 slug: "diseno-ux-ui-multilingue"
 locale: "es"

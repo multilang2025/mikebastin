@@ -1,4 +1,5 @@
 ---
+words: 3900
 title: "Technical SEO Audit Checklist for Websites"
 slug: "technical-seo-audit-checklist"
 locale: "en"

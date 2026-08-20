@@ -1,4 +1,6 @@
 ---
+words: 647
+editorial: "superseded"
 title: "Multilingual CMS Integration"
 slug: "multilingual-cms-integration"
 locale: "en"

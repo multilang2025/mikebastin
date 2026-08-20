@@ -1,4 +1,5 @@
 ---
+words: 1810
 title: "SEO multilingüe"
 slug: "posicionamiento-multilingue"
 locale: "es"

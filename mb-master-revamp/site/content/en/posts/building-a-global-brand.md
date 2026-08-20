@@ -1,4 +1,5 @@
 ---
+words: 695
 title: "Building a Global Brand"
 slug: "building-a-global-brand"
 locale: "en"

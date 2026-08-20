@@ -1,4 +1,5 @@
 ---
+words: 2021
 title: "The Unique Challenges of SEO in Belgium"
 slug: "seo-in-belgium"
 locale: "en"

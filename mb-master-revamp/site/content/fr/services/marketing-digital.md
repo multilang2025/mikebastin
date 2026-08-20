@@ -1,4 +1,6 @@
 ---
+words: 288
+editorial: "superseded"
 title: "Marketing digital"
 slug: "marketing-digital"
 locale: "fr"

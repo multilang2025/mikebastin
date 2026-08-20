@@ -1,4 +1,6 @@
 ---
+words: 574
+editorial: "light"
 title: "À propos de nous"
 slug: "notre-equipe"
 locale: "fr"

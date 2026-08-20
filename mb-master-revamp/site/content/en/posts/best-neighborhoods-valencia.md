@@ -1,4 +1,5 @@
 ---
+words: 2416
 title: "Best Neighborhoods in Valencia: Find Your Perfect Place to Live"
 slug: "best-neighborhoods-valencia"
 locale: "en"

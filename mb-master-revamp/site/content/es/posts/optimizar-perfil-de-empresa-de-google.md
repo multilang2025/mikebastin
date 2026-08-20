@@ -1,4 +1,5 @@
 ---
+words: 1919
 title: "Cómo optimizar tu Perfil de Empresa de Google"
 slug: "optimizar-perfil-de-empresa-de-google"
 locale: "es"

@@ -1,4 +1,5 @@
 ---
+words: 1129
 title: "Analizar el tráfico web de la competencia para ventaja estratégica"
 slug: "analizar-trafico-web-competencia"
 locale: "es"

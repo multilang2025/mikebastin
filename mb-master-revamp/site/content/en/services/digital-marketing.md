@@ -1,4 +1,6 @@
 ---
+words: 280
+editorial: "superseded"
 title: "Digital Marketing"
 slug: "digital-marketing"
 locale: "en"

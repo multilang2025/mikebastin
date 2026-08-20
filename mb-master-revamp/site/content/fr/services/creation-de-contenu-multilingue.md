@@ -1,4 +1,6 @@
 ---
+words: 598
+editorial: "superseded"
 title: "Rédaction de contenu SEO multilingue"
 slug: "creation-de-contenu-multilingue"
 locale: "fr"

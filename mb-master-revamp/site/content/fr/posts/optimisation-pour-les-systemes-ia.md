@@ -1,4 +1,5 @@
 ---
+words: 825
 title: "Optimisation pour les systèmes d'IA : au-delà du suivi des prompts"
 slug: "optimisation-pour-les-systemes-ia"
 locale: "fr"

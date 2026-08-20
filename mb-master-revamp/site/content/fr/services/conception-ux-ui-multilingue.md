@@ -1,4 +1,6 @@
 ---
+words: 905
+editorial: "superseded"
 title: "Conception UX/UI multilingue"
 slug: "conception-ux-ui-multilingue"
 locale: "fr"

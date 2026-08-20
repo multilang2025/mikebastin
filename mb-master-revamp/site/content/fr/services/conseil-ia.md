@@ -1,4 +1,6 @@
 ---
+words: 953
+editorial: "superseded"
 title: "Services de conseils en IA"
 slug: "conseil-ia"
 locale: "fr"

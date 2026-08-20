@@ -1,4 +1,6 @@
 ---
+words: 1693
+editorial: "superseded"
 title: "Global SEO Solutions"
 slug: "global-seo-solutions"
 locale: "en"

@@ -1,4 +1,5 @@
 ---
+words: 1338
 title: "Cómo encontrar tus verdaderos competidores de SEO"
 slug: "competidores-seo"
 locale: "es"

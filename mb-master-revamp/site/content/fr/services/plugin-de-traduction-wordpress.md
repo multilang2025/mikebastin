@@ -1,4 +1,6 @@
 ---
+words: 1004
+editorial: "superseded"
 title: "Plugins de traduction WordPress"
 slug: "plugin-de-traduction-wordpress"
 locale: "fr"

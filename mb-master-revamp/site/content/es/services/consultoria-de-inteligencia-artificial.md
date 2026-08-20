@@ -1,4 +1,6 @@
 ---
+words: 753
+editorial: "superseded"
 title: "Servicios de consultoría de inteligencia artificial"
 slug: "consultoria-de-inteligencia-artificial"
 locale: "es"

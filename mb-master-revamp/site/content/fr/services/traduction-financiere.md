@@ -1,4 +1,6 @@
 ---
+words: 681
+editorial: "superseded"
 title: "Traduction financière"
 slug: "traduction-financiere"
 locale: "fr"

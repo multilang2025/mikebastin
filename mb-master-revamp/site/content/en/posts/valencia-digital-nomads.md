@@ -1,4 +1,5 @@
 ---
+words: 2237
 title: "Why Valencia is the #1 Destination for Digital Nomads in 2026"
 slug: "valencia-digital-nomads"
 locale: "en"

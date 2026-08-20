@@ -1,4 +1,6 @@
 ---
+words: 576
+editorial: "light"
 title: "About Us"
 slug: "about-us"
 locale: "en"

@@ -1,4 +1,6 @@
 ---
+words: 800
+editorial: "superseded"
 title: "Localisation de contenu"
 slug: "localisation-contenu"
 locale: "fr"

@@ -1,4 +1,6 @@
 ---
+words: 759
+editorial: "superseded"
 title: "Servicios de investigación de palabras clave"
 slug: "busqueda-palabras-clave"
 locale: "es"

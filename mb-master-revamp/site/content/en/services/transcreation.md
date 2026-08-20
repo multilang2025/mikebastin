@@ -1,4 +1,6 @@
 ---
+words: 575
+editorial: "superseded"
 title: "Transcreation"
 slug: "transcreation"
 locale: "en"

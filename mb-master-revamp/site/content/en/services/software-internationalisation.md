@@ -1,4 +1,6 @@
 ---
+words: 567
+editorial: "superseded"
 title: "Software Internationalisation"
 slug: "software-internationalisation"
 locale: "en"

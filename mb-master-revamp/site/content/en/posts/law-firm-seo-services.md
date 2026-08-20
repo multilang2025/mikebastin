@@ -1,4 +1,5 @@
 ---
+words: 2766
 title: "Law Firm SEO Services"
 slug: "law-firm-seo-services"
 locale: "en"

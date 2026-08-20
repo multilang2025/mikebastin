@@ -1,4 +1,5 @@
 ---
+words: 854
 title: "Top Instagram Tools"
 slug: "top-instagram-tools"
 locale: "en"

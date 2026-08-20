@@ -1,4 +1,5 @@
 ---
+words: 1525
 title: "German SEO Content Localisation: Beyond Translation for German SEO"
 slug: "german-seo-content-localisation"
 locale: "en"

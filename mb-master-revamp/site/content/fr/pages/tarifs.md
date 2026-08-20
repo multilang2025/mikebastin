@@ -1,4 +1,6 @@
 ---
+words: 545
+editorial: "light"
 title: "Tarifs"
 slug: "tarifs"
 locale: "fr"

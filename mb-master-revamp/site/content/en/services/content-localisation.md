@@ -1,4 +1,6 @@
 ---
+words: 351
+editorial: "superseded"
 title: "Content Localisation"
 slug: "content-localisation"
 locale: "en"

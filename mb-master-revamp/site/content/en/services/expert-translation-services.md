@@ -1,4 +1,6 @@
 ---
+words: 240
+editorial: "superseded"
 title: "Expert Translation Services"
 slug: "expert-translation-services"
 locale: "en"

@@ -1,4 +1,6 @@
 ---
+words: 568
+editorial: "light"
 title: "Conócenos"
 slug: "conocenos-agencia-experta-en-seo"
 locale: "es"

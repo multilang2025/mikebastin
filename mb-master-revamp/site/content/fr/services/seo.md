@@ -1,4 +1,5 @@
 ---
+words: 1745
 title: "Services de référencement"
 slug: "seo"
 locale: "fr"

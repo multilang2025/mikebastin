@@ -1,4 +1,5 @@
 ---
+words: 694
 title: "Precios"
 slug: "precios"
 locale: "es"

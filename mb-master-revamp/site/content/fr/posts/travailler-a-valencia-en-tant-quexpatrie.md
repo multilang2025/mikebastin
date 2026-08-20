@@ -1,4 +1,5 @@
 ---
+words: 2424
 title: "Combiner la croissance professionnelle et l'ambiance décontractée de Valencia"
 slug: "travailler-a-valencia-en-tant-quexpatrie"
 locale: "fr"

@@ -1,4 +1,5 @@
 ---
+words: 1919
 title: "Adopter le mode de vie de Valencia: un périple d'expat'"
 slug: "mode-de-vie-de-valencia"
 locale: "fr"

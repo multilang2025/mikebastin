@@ -1,4 +1,6 @@
 ---
+words: 403
+editorial: "structural"
 title: "Contact Us"
 slug: "contact-us"
 locale: "en"

@@ -1,4 +1,6 @@
 ---
+words: 588
+editorial: "superseded"
 title: "Servicios de traducción académica"
 slug: "traduccion-academica"
 locale: "es"

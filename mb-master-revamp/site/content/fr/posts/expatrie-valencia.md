@@ -1,4 +1,5 @@
 ---
+words: 1948
 title: "Profiter du soleil et vivre le rêve d'expatrié à Valencia"
 slug: "expatrie-valencia"
 locale: "fr"

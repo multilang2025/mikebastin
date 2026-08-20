@@ -1,4 +1,6 @@
 ---
+words: 253
+editorial: "superseded"
 title: "Multilingual Branding"
 slug: "multilingual-branding"
 locale: "en"

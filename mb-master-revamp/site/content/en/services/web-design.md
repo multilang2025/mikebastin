@@ -1,4 +1,6 @@
 ---
+words: 1891
+editorial: "superseded"
 title: "Web Design"
 slug: "web-design"
 locale: "en"

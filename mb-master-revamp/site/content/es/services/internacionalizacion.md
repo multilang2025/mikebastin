@@ -1,4 +1,6 @@
 ---
+words: 376
+editorial: "superseded"
 title: "Servicio de internacionalización de empresas"
 slug: "internacionalizacion"
 locale: "es"

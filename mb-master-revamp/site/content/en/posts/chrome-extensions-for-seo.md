@@ -1,4 +1,5 @@
 ---
+words: 709
 title: "10 Useful Chrome Extensions for SEO"
 slug: "chrome-extensions-for-seo"
 locale: "en"

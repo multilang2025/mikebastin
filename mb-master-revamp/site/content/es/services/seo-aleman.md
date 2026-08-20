@@ -1,4 +1,5 @@
 ---
+words: 1571
 title: "SEO en alemán"
 slug: "seo-aleman"
 locale: "es"

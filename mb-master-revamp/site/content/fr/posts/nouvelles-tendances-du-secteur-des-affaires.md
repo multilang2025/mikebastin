@@ -1,4 +1,5 @@
 ---
+words: 1757
 title: "Tendances 2026 du secteur des affaires : ce qui change vraiment"
 slug: "nouvelles-tendances-du-secteur-des-affaires"
 locale: "fr"

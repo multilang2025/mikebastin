@@ -1,4 +1,5 @@
 ---
+words: 1571
 title: "German SEO"
 slug: "german-seo"
 locale: "en"

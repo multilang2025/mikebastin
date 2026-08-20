@@ -1,4 +1,6 @@
 ---
+words: 572
+editorial: "superseded"
 title: "Traducción jurídica"
 slug: "traduccion-juridica"
 locale: "es"

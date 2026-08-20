@@ -1,4 +1,6 @@
 ---
+words: 274
+editorial: "superseded"
 title: "Services de traduction professionnelle"
 slug: "traduction-professionnelle"
 locale: "fr"

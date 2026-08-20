@@ -1,4 +1,5 @@
 ---
+words: 1071
 title: "Analizar perfiles de backlinks de competidores para ventaja de autoridad"
 slug: "analizar-backlinks-competidores"
 locale: "es"

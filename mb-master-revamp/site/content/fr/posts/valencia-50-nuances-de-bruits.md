@@ -1,4 +1,5 @@
 ---
+words: 4176
 title: "50 nuances de bruits à Valencia"
 slug: "valencia-50-nuances-de-bruits"
 locale: "fr"

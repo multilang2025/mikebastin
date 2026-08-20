@@ -1,4 +1,6 @@
 ---
+words: 167
+editorial: "structural"
 title: "Services"
 slug: "nos-services"
 locale: "fr"

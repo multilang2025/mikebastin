@@ -1,4 +1,5 @@
 ---
+words: 1562
 title: "Dutch SEO"
 slug: "dutch-seo"
 locale: "en"

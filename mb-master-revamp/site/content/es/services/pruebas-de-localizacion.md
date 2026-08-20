@@ -1,4 +1,6 @@
 ---
+words: 778
+editorial: "superseded"
 title: "Servicios de pruebas de localización de software o de páginas web"
 slug: "pruebas-de-localizacion"
 locale: "es"

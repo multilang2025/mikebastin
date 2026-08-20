@@ -1,4 +1,5 @@
 ---
+words: 1689
 title: "Global Business Trends in 2026: AI, Trade Policy, and What Drives Growth Now"
 slug: "global-business-trends"
 locale: "en"

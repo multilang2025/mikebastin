@@ -1,4 +1,6 @@
 ---
+words: 783
+editorial: "superseded"
 title: "Analyse et Suivi"
 slug: "analyse-et-suivi"
 locale: "fr"

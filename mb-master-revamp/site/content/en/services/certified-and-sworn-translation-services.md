@@ -1,4 +1,6 @@
 ---
+words: 653
+editorial: "superseded"
 title: "Certified and Sworn Translation Services"
 slug: "certified-and-sworn-translation-services"
 locale: "en"

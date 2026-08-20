@@ -1,4 +1,6 @@
 ---
+words: 1622
+editorial: "superseded"
 title: "Local SEO"
 slug: "local-seo"
 locale: "en"

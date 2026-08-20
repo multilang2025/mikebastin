@@ -1,4 +1,6 @@
 ---
+words: 629
+editorial: "superseded"
 title: "Services de traduction commerciale"
 slug: "traduction-commerciale"
 locale: "fr"

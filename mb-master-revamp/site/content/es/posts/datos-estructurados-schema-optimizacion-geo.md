@@ -1,4 +1,5 @@
 ---
+words: 1178
 title: "Datos estructurados y schema para optimización de motores generativos"
 slug: "datos-estructurados-schema-optimizacion-geo"
 locale: "es"

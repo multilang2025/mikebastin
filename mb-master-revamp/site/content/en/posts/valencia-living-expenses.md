@@ -1,4 +1,5 @@
 ---
+words: 2151
 title: "Valencia Living Expenses 2026: The Real Budget for Expats"
 slug: "valencia-living-expenses"
 locale: "en"

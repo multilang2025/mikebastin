@@ -1,4 +1,5 @@
 ---
+words: 2705
 title: "Valencia: The Not-So-Perfect Mediterranean Paradise (But We Love It Anyway)"
 slug: "valencia-the-not-so-perfect-mediterranean-paradise"
 locale: "en"

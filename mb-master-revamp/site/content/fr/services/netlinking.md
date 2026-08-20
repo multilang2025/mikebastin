@@ -1,4 +1,6 @@
 ---
+words: 996
+editorial: "superseded"
 title: "Services de netlinking"
 slug: "netlinking"
 locale: "fr"

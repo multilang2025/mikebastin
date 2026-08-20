@@ -1,4 +1,6 @@
 ---
+words: 129
+editorial: "structural"
 title: "Services"
 slug: "our-services"
 locale: "en"

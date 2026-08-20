@@ -1,4 +1,5 @@
 ---
+words: 1076
 title: "Top 10 Affiliate Marketing Programs"
 slug: "affiliate-marketing-programs"
 locale: "en"

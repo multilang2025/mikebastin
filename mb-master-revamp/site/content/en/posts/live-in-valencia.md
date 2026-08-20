@@ -1,4 +1,5 @@
 ---
+words: 807
 title: "So You Want to Live in Valencia?"
 slug: "live-in-valencia"
 locale: "en"

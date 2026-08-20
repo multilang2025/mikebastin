@@ -1,4 +1,6 @@
 ---
+words: 1897
+editorial: "superseded"
 title: "Conception de sites web"
 slug: "conception-de-site-web"
 locale: "fr"

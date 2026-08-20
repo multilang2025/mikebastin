@@ -1,4 +1,5 @@
 ---
+words: 1346
 title: "SEO multilingüe en 2026: de las posiciones a la presencia total"
 slug: "seo-multilingue-2026-presencia-total"
 locale: "es"

@@ -1,4 +1,5 @@
 ---
+words: 2005
 title: "When Businesses Need a Digital Marketing Advisor Instead of an Agency"
 slug: "digital-marketing-advisor"
 locale: "en"

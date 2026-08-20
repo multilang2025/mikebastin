@@ -1,4 +1,5 @@
 ---
+words: 1163
 title: "Localisation juridique et réglementaire"
 slug: "localisation-juridique-reglementaire"
 locale: "fr"

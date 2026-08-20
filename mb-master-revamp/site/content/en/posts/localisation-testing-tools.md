@@ -1,4 +1,5 @@
 ---
+words: 711
 title: "The Ultimate Guide to Localisation Testing Tools"
 slug: "localisation-testing-tools"
 locale: "en"

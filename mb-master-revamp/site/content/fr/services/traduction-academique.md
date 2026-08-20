@@ -1,4 +1,6 @@
 ---
+words: 622
+editorial: "superseded"
 title: "Services de traduction académique"
 slug: "traduction-academique"
 locale: "fr"

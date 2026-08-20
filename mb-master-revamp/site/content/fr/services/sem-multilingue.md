@@ -1,4 +1,5 @@
 ---
+words: 1726
 title: "SEM multilingue"
 slug: "sem-multilingue"
 locale: "fr"

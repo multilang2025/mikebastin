@@ -1,4 +1,6 @@
 ---
+words: 667
+editorial: "superseded"
 title: "Localisation Testing"
 slug: "localisation-testing"
 locale: "en"

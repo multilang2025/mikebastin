@@ -1,4 +1,6 @@
 ---
+words: 746
+editorial: "superseded"
 title: "Internationalisation de logiciels"
 slug: "internationalisation-de-logiciels"
 locale: "fr"

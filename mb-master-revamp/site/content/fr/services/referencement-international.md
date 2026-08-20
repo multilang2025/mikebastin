@@ -1,4 +1,6 @@
 ---
+words: 1625
+editorial: "superseded"
 title: "Stratégies de référencement international"
 slug: "referencement-international"
 locale: "fr"

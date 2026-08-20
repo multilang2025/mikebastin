@@ -1,4 +1,5 @@
 ---
+words: 780
 title: "The ROI of Website Localisation"
 slug: "roi-of-website-localisation"
 locale: "en"

@@ -1,4 +1,6 @@
 ---
+words: 809
+editorial: "superseded"
 title: "Tests de localisation"
 slug: "test-localisation"
 locale: "fr"

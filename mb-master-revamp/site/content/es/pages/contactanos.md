@@ -1,4 +1,6 @@
 ---
+words: 403
+editorial: "structural"
 title: "Contáctanos"
 slug: "contactanos"
 locale: "es"

@@ -1,4 +1,6 @@
 ---
+words: 761
+editorial: "superseded"
 title: "Services de recherche de mots-clés"
 slug: "recherche-mots-cles"
 locale: "fr"

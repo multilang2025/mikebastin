@@ -1,4 +1,5 @@
 ---
+words: 1387
 title: "Technical SEO Considerations for German Websites"
 slug: "technical-seo-considerations-for-german-websites"
 locale: "en"

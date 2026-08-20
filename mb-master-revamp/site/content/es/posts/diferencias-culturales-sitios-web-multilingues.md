@@ -1,4 +1,5 @@
 ---
+words: 694
 title: "Diferencias culturales en sitios web multilingües"
 slug: "diferencias-culturales-sitios-web-multilingues"
 locale: "es"

@@ -1,4 +1,6 @@
 ---
+words: 704
+editorial: "superseded"
 title: "Keyword Research Services"
 slug: "keyword-research"
 locale: "en"

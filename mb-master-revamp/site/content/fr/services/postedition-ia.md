@@ -1,4 +1,6 @@
 ---
+words: 960
+editorial: "superseded"
 title: "Post-édition de contenus générés par l'intelligence artificielle (IA) et par la traduction automatique (TA)"
 slug: "postedition-ia"
 locale: "fr"

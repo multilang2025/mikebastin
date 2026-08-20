@@ -1,4 +1,5 @@
 ---
+words: 3609
 title: "Valencia: 50 shades of noise"
 slug: "valencia-50-shades-of-noise"
 locale: "en"

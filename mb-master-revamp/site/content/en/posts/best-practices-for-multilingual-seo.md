@@ -1,4 +1,5 @@
 ---
+words: 1051
 title: "Best Multilingual SEO in 2026: from rankings to everywhere presence"
 slug: "best-practices-for-multilingual-seo"
 locale: "en"

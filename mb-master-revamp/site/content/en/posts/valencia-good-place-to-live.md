@@ -1,4 +1,5 @@
 ---
+words: 2321
 title: "Is Valencia a Good Place to Live? 10 Things Expats Wish They Knew"
 slug: "valencia-good-place-to-live"
 locale: "en"

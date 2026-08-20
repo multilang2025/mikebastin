@@ -1,4 +1,5 @@
 ---
+words: 2291
 title: "Entrepreneuriat international à Valencia"
 slug: "entrepreneuriat-international-a-valencia"
 locale: "fr"

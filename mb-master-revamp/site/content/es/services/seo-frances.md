@@ -1,4 +1,5 @@
 ---
+words: 1647
 title: "SEO en francés"
 slug: "seo-frances"
 locale: "es"

@@ -1,4 +1,5 @@
 ---
+words: 783
 title: "SEO en italiano"
 slug: "seo-italiano"
 locale: "es"

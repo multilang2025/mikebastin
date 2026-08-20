@@ -1,4 +1,5 @@
 ---
+words: 950
 title: "Activités à Valencia : explorez la ville comme un pro"
 slug: "activites-a-valencia"
 locale: "fr"

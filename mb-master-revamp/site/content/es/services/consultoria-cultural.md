@@ -1,4 +1,6 @@
 ---
+words: 659
+editorial: "superseded"
 title: "Consultoría cultural"
 slug: "consultoria-cultural"
 locale: "es"

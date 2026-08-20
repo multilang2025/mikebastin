@@ -1,4 +1,5 @@
 ---
+words: 637
 title: "Pricing"
 slug: "pricing"
 locale: "en"

@@ -1,4 +1,6 @@
 ---
+words: 257
+editorial: "superseded"
 title: "Language Solutions"
 slug: "language-solutions"
 locale: "en"
