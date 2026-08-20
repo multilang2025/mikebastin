@@ -1,0 +1,3133 @@
+{
+ "resolvedAt": "2026-08-20T15:19:09.312Z",
+ "total": 176,
+ "failed": 0,
+ "byCoverage": {
+  "en+es+fr": 51,
+  "en": 84,
+  "es": 18,
+  "es+fr": 1,
+  "fr": 16,
+  "en+fr": 6
+ },
+ "groups": [
+  {
+   "key": "https://mikebastin.com/",
+   "type": "pages",
+   "locales": {
+    "en": "https://mikebastin.com/",
+    "fr": "https://mikebastin.com/fr/",
+    "es": "https://mikebastin.com/es/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 2,
+     "slug": "homepage"
+    },
+    {
+     "locale": "fr",
+     "id": 24847021,
+     "slug": "page-accueil"
+    },
+    {
+     "locale": "es",
+     "id": 24847635,
+     "slug": "es"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/15-simple-blog-post-ideas-to-help-attract-more-customers-to-your-business/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/15-simple-blog-post-ideas-to-help-attract-more-customers-to-your-business/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24845565,
+     "slug": "15-simple-blog-post-ideas-to-help-attract-more-customers-to-your-business"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/360-marketing-agency/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/360-marketing-agency/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24847220,
+     "slug": "360-marketing-agency"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/404-2/",
+   "type": "pages",
+   "locales": {
+    "en": "https://mikebastin.com/404-2/",
+    "fr": "https://mikebastin.com/fr/404-2/",
+    "es": "https://mikebastin.com/es/404-2/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 36605,
+     "slug": "404-2"
+    },
+    {
+     "locale": "fr",
+     "id": 24847014,
+     "slug": "404-2"
+    },
+    {
+     "locale": "es",
+     "id": 24847011,
+     "slug": "404-2"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/about-us/",
+   "type": "pages",
+   "locales": {
+    "en": "https://mikebastin.com/about-us/",
+    "fr": "https://mikebastin.com/fr/notre-equipe/",
+    "es": "https://mikebastin.com/es/conocenos-agencia-experta-en-seo/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 36460,
+     "slug": "about-us"
+    },
+    {
+     "locale": "fr",
+     "id": 24847028,
+     "slug": "notre-equipe"
+    },
+    {
+     "locale": "es",
+     "id": 24848036,
+     "slug": "conocenos-agencia-experta-en-seo"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/affiliate-marketing-programs/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/affiliate-marketing-programs/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24845190,
+     "slug": "affiliate-marketing-programs"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/affordable-seo-services/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/affordable-seo-services/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24845715,
+     "slug": "affordable-seo-services"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/ai-powered-marketing/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/ai-powered-marketing/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24845563,
+     "slug": "ai-powered-marketing"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/alternatives-to-google-analytics/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/alternatives-to-google-analytics/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24844917,
+     "slug": "alternatives-to-google-analytics"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/american-move-to-valencia-spain/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/american-move-to-valencia-spain/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24856238,
+     "slug": "american-move-to-valencia-spain"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/b2b-trade-shows-in-valencia/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/b2b-trade-shows-in-valencia/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24847196,
+     "slug": "b2b-trade-shows-in-valencia"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/basic-spanish-valencia/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/basic-spanish-valencia/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24856246,
+     "slug": "basic-spanish-valencia"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/best-neighborhoods-valencia/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/best-neighborhoods-valencia/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24856244,
+     "slug": "best-neighborhoods-valencia"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/best-practices-for-multilingual-seo/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/best-practices-for-multilingual-seo/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24845454,
+     "slug": "best-practices-for-multilingual-seo"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/best-vietnam-sourcing-agencies-for-eudr-supplier-scouting-and-audits/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/best-vietnam-sourcing-agencies-for-eudr-supplier-scouting-and-audits/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24855620,
+     "slug": "best-vietnam-sourcing-agencies-for-eudr-supplier-scouting-and-audits"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/blog/",
+   "type": "pages",
+   "locales": {
+    "en": "https://mikebastin.com/blog/",
+    "fr": "https://mikebastin.com/fr/blog/",
+    "es": "https://mikebastin.com/es/blog/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 36650,
+     "slug": "blog"
+    },
+    {
+     "locale": "fr",
+     "id": 24848143,
+     "slug": "blog"
+    },
+    {
+     "locale": "es",
+     "id": 24847664,
+     "slug": "blog"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/boosting-local-seo/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/boosting-local-seo/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 37263,
+     "slug": "boosting-local-seo"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/building-a-global-brand/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/building-a-global-brand/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 37220,
+     "slug": "building-a-global-brand"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/business-registration-in-valencia/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/business-registration-in-valencia/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24847152,
+     "slug": "business-registration-in-valencia"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/chrome-extensions-for-seo/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/chrome-extensions-for-seo/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 37189,
+     "slug": "chrome-extensions-for-seo"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/chrome-extensions-for-translators/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/chrome-extensions-for-translators/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 37229,
+     "slug": "chrome-extensions-for-translators"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/common-mistakes-to-avoid-when-localising-your-website/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/common-mistakes-to-avoid-when-localising-your-website/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 37200,
+     "slug": "common-mistakes-to-avoid-when-localising-your-website"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/competitor-analysis-traffic-checklist/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/competitor-analysis-traffic-checklist/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24855680,
+     "slug": "competitor-analysis-traffic-checklist"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/competitor-analysis/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/competitor-analysis/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24855661,
+     "slug": "competitor-analysis"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/contact-us/",
+   "type": "pages",
+   "locales": {
+    "en": "https://mikebastin.com/contact-us/",
+    "fr": "https://mikebastin.com/fr/nous-contacter/",
+    "es": "https://mikebastin.com/es/contactanos/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 36524,
+     "slug": "contact-us"
+    },
+    {
+     "locale": "fr",
+     "id": 24848146,
+     "slug": "nous-contacter"
+    },
+    {
+     "locale": "es",
+     "id": 24847661,
+     "slug": "contactanos"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/content-optimisation-for-spanish-users/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/content-optimisation-for-spanish-users/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24845624,
+     "slug": "content-optimisation-for-spanish-users"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/conversational-ai-chatbots-business/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/conversational-ai-chatbots-business/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24847226,
+     "slug": "conversational-ai-chatbots-business"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/cultural-differences-in-multilingual-websites/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/cultural-differences-in-multilingual-websites/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24845455,
+     "slug": "cultural-differences-in-multilingual-websites"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/digital-marketing-advisor/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/digital-marketing-advisor/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24855777,
+     "slug": "digital-marketing-advisor"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/eeat-vs-aeat-typo/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/eeat-vs-aeat-typo/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24856171,
+     "slug": "eeat-vs-aeat-typo"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/email-marketing-hacks-boosting-open-rates-and-conversions/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/email-marketing-hacks-boosting-open-rates-and-conversions/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24845561,
+     "slug": "email-marketing-hacks-boosting-open-rates-and-conversions"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/english-to-french-translation-services/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/english-to-french-translation-services/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 37205,
+     "slug": "english-to-french-translation-services"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/es/analisis-competitivo-seo/",
+   "type": "posts",
+   "locales": {
+    "es": "https://mikebastin.com/es/analisis-competitivo-seo/"
+   },
+   "members": [
+    {
+     "locale": "es",
+     "id": 24855788,
+     "slug": "analisis-competitivo-seo"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/es/analisis-de-la-competencia-seo/",
+   "type": "posts",
+   "locales": {
+    "es": "https://mikebastin.com/es/analisis-de-la-competencia-seo/"
+   },
+   "members": [
+    {
+     "locale": "es",
+     "id": 24857772,
+     "slug": "analisis-de-la-competencia-seo"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/es/analizar-backlinks-competidores/",
+   "type": "posts",
+   "locales": {
+    "es": "https://mikebastin.com/es/analizar-backlinks-competidores/"
+   },
+   "members": [
+    {
+     "locale": "es",
+     "id": 24855797,
+     "slug": "analizar-backlinks-competidores"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/es/analizar-trafico-web-competencia/",
+   "type": "posts",
+   "locales": {
+    "es": "https://mikebastin.com/es/analizar-trafico-web-competencia/"
+   },
+   "members": [
+    {
+     "locale": "es",
+     "id": 24855790,
+     "slug": "analizar-trafico-web-competencia"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/es/competidores-seo/",
+   "type": "posts",
+   "locales": {
+    "es": "https://mikebastin.com/es/competidores-seo/"
+   },
+   "members": [
+    {
+     "locale": "es",
+     "id": 24855789,
+     "slug": "competidores-seo"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/es/datos-estructurados-schema-optimizacion-geo/",
+   "type": "posts",
+   "locales": {
+    "es": "https://mikebastin.com/es/datos-estructurados-schema-optimizacion-geo/"
+   },
+   "members": [
+    {
+     "locale": "es",
+     "id": 24855842,
+     "slug": "datos-estructurados-schema-optimizacion-geo"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/es/diferencias-culturales-sitios-web-multilingues/",
+   "type": "posts",
+   "locales": {
+    "es": "https://mikebastin.com/es/diferencias-culturales-sitios-web-multilingues/"
+   },
+   "members": [
+    {
+     "locale": "es",
+     "id": 24857759,
+     "slug": "diferencias-culturales-sitios-web-multilingues"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/es/herramientas-gratuitas-analisis-competitivo/",
+   "type": "posts",
+   "locales": {
+    "es": "https://mikebastin.com/es/herramientas-gratuitas-analisis-competitivo/"
+   },
+   "members": [
+    {
+     "locale": "es",
+     "id": 24855792,
+     "slug": "herramientas-gratuitas-analisis-competitivo"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/es/herramientas-pruebas-de-localizacion/",
+   "type": "posts",
+   "locales": {
+    "es": "https://mikebastin.com/es/herramientas-pruebas-de-localizacion/"
+   },
+   "members": [
+    {
+     "locale": "es",
+     "id": 24857767,
+     "slug": "herramientas-pruebas-de-localizacion"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/es/link-building-local-en-espana/",
+   "type": "posts",
+   "locales": {
+    "es": "https://mikebastin.com/es/link-building-local-en-espana/"
+   },
+   "members": [
+    {
+     "locale": "es",
+     "id": 24857768,
+     "slug": "link-building-local-en-espana"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/es/localizacion-de-contenido-web-multilingue/",
+   "type": "posts",
+   "locales": {
+    "es": "https://mikebastin.com/es/localizacion-de-contenido-web-multilingue/"
+   },
+   "members": [
+    {
+     "locale": "es",
+     "id": 24857760,
+     "slug": "localizacion-de-contenido-web-multilingue"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/es/medir-rendimiento-geo/",
+   "type": "posts",
+   "locales": {
+    "es": "https://mikebastin.com/es/medir-rendimiento-geo/"
+   },
+   "members": [
+    {
+     "locale": "es",
+     "id": 24855845,
+     "slug": "medir-rendimiento-geo"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/es/optimizacion-para-sistemas-de-ia/",
+   "type": "posts",
+   "locales": {
+    "fr": "https://mikebastin.com/fr/optimisation-pour-les-systemes-ia/",
+    "es": "https://mikebastin.com/es/optimizacion-para-sistemas-de-ia/"
+   },
+   "members": [
+    {
+     "locale": "fr",
+     "id": 24856088,
+     "slug": "optimisation-pour-les-systemes-ia"
+    },
+    {
+     "locale": "es",
+     "id": 24856071,
+     "slug": "optimizacion-para-sistemas-de-ia"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/es/optimizar-para-seo-y-geo/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/generative-engine-optimization/",
+    "fr": "https://mikebastin.com/fr/seo-au-geo/",
+    "es": "https://mikebastin.com/es/optimizar-para-seo-y-geo/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24847407,
+     "slug": "generative-engine-optimization"
+    },
+    {
+     "locale": "fr",
+     "id": 24853049,
+     "slug": "seo-au-geo"
+    },
+    {
+     "locale": "es",
+     "id": 24855846,
+     "slug": "optimizar-para-seo-y-geo"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/es/optimizar-perfil-de-empresa-de-google/",
+   "type": "posts",
+   "locales": {
+    "es": "https://mikebastin.com/es/optimizar-perfil-de-empresa-de-google/"
+   },
+   "members": [
+    {
+     "locale": "es",
+     "id": 24857773,
+     "slug": "optimizar-perfil-de-empresa-de-google"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/es/precios/",
+   "type": "pages",
+   "locales": {
+    "en": "https://mikebastin.com/pricing/",
+    "fr": "https://mikebastin.com/fr/tarifs/",
+    "es": "https://mikebastin.com/es/precios/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 36564,
+     "slug": "pricing"
+    },
+    {
+     "locale": "fr",
+     "id": 24848149,
+     "slug": "tarifs"
+    },
+    {
+     "locale": "es",
+     "id": 24847658,
+     "slug": "precios"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/es/rastrear-posiciones-de-keywords-de-competidores/",
+   "type": "posts",
+   "locales": {
+    "es": "https://mikebastin.com/es/rastrear-posiciones-de-keywords-de-competidores/"
+   },
+   "members": [
+    {
+     "locale": "es",
+     "id": 24855796,
+     "slug": "rastrear-posiciones-de-keywords-de-competidores"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/es/seo-multilingue-2026-presencia-total/",
+   "type": "posts",
+   "locales": {
+    "es": "https://mikebastin.com/es/seo-multilingue-2026-presencia-total/"
+   },
+   "members": [
+    {
+     "locale": "es",
+     "id": 24857765,
+     "slug": "seo-multilingue-2026-presencia-total"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/es/seo-tecnico-para-sitios-multilingues/",
+   "type": "posts",
+   "locales": {
+    "es": "https://mikebastin.com/es/seo-tecnico-para-sitios-multilingues/"
+   },
+   "members": [
+    {
+     "locale": "es",
+     "id": 24857721,
+     "slug": "seo-tecnico-para-sitios-multilingues"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/es/services/agencia-de-seo-global/",
+   "type": "services",
+   "locales": {
+    "en": "https://mikebastin.com/services/global-seo-solutions/",
+    "fr": "https://mikebastin.com/fr/services/referencement-international/",
+    "es": "https://mikebastin.com/es/services/agencia-de-seo-global/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 37237,
+     "slug": "global-seo-solutions"
+    },
+    {
+     "locale": "fr",
+     "id": 24848285,
+     "slug": "referencement-international"
+    },
+    {
+     "locale": "es",
+     "id": 24848940,
+     "slug": "agencia-de-seo-global"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/es/services/branding-multilingue/",
+   "type": "services",
+   "locales": {
+    "en": "https://mikebastin.com/services/multilingual-branding/",
+    "fr": "https://mikebastin.com/fr/services/branding-multilingue/",
+    "es": "https://mikebastin.com/es/services/branding-multilingue/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 37245,
+     "slug": "multilingual-branding"
+    },
+    {
+     "locale": "fr",
+     "id": 24848137,
+     "slug": "branding-multilingue"
+    },
+    {
+     "locale": "es",
+     "id": 24849013,
+     "slug": "branding-multilingue"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/es/services/busqueda-palabras-clave/",
+   "type": "services",
+   "locales": {
+    "en": "https://mikebastin.com/services/keyword-research/",
+    "fr": "https://mikebastin.com/fr/services/recherche-mots-cles/",
+    "es": "https://mikebastin.com/es/services/busqueda-palabras-clave/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24844924,
+     "slug": "keyword-research"
+    },
+    {
+     "locale": "fr",
+     "id": 24848025,
+     "slug": "recherche-mots-cles"
+    },
+    {
+     "locale": "es",
+     "id": 24848858,
+     "slug": "busqueda-palabras-clave"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/es/services/consultoria-cultural/",
+   "type": "services",
+   "locales": {
+    "en": "https://mikebastin.com/services/cultural-consulting/",
+    "fr": "https://mikebastin.com/fr/services/conseil-culturel/",
+    "es": "https://mikebastin.com/es/services/consultoria-cultural/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24844895,
+     "slug": "cultural-consulting"
+    },
+    {
+     "locale": "fr",
+     "id": 24848949,
+     "slug": "conseil-culturel"
+    },
+    {
+     "locale": "es",
+     "id": 24849155,
+     "slug": "consultoria-cultural"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/es/services/consultoria-de-inteligencia-artificial/",
+   "type": "services",
+   "locales": {
+    "en": "https://mikebastin.com/services/ai-consulting-services/",
+    "fr": "https://mikebastin.com/fr/services/conseil-ia/",
+    "es": "https://mikebastin.com/es/services/consultoria-de-inteligencia-artificial/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24847584,
+     "slug": "ai-consulting-services"
+    },
+    {
+     "locale": "fr",
+     "id": 24848390,
+     "slug": "conseil-ia"
+    },
+    {
+     "locale": "es",
+     "id": 24848569,
+     "slug": "consultoria-de-inteligencia-artificial"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/es/services/diseno-ux-ui-multilingue/",
+   "type": "services",
+   "locales": {
+    "en": "https://mikebastin.com/services/multilingual-ux-ui-design/",
+    "fr": "https://mikebastin.com/fr/services/conception-ux-ui-multilingue/",
+    "es": "https://mikebastin.com/es/services/diseno-ux-ui-multilingue/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 17228966,
+     "slug": "multilingual-ux-ui-design"
+    },
+    {
+     "locale": "fr",
+     "id": 24848912,
+     "slug": "conception-ux-ui-multilingue"
+    },
+    {
+     "locale": "es",
+     "id": 24849112,
+     "slug": "diseno-ux-ui-multilingue"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/es/services/diseno-web/",
+   "type": "services",
+   "locales": {
+    "en": "https://mikebastin.com/services/web-design/",
+    "fr": "https://mikebastin.com/fr/services/conception-de-site-web/",
+    "es": "https://mikebastin.com/es/services/diseno-web/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 36803,
+     "slug": "web-design"
+    },
+    {
+     "locale": "fr",
+     "id": 24848685,
+     "slug": "conception-de-site-web"
+    },
+    {
+     "locale": "es",
+     "id": 24849152,
+     "slug": "diseno-web"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/es/services/gestion-multilingue-de-redes-sociales/",
+   "type": "services",
+   "locales": {
+    "en": "https://mikebastin.com/services/multilingual-social-media-management/",
+    "fr": "https://mikebastin.com/fr/services/gestion-multilingue-reseaux-sociaux/",
+    "es": "https://mikebastin.com/es/services/gestion-multilingue-de-redes-sociales/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 17228936,
+     "slug": "multilingual-social-media-management"
+    },
+    {
+     "locale": "fr",
+     "id": 24848651,
+     "slug": "gestion-multilingue-reseaux-sociaux"
+    },
+    {
+     "locale": "es",
+     "id": 24849115,
+     "slug": "gestion-multilingue-de-redes-sociales"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/es/services/integracion-cms-multilingue/",
+   "type": "services",
+   "locales": {
+    "en": "https://mikebastin.com/services/multilingual-cms-integration/",
+    "fr": "https://mikebastin.com/fr/services/cms-multilingue/",
+    "es": "https://mikebastin.com/es/services/integracion-cms-multilingue/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 17228926,
+     "slug": "multilingual-cms-integration"
+    },
+    {
+     "locale": "fr",
+     "id": 24848906,
+     "slug": "cms-multilingue"
+    },
+    {
+     "locale": "es",
+     "id": 24849220,
+     "slug": "integracion-cms-multilingue"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/es/services/internacionalizacion-de-software/",
+   "type": "services",
+   "locales": {
+    "en": "https://mikebastin.com/services/software-internationalisation/",
+    "fr": "https://mikebastin.com/fr/services/internationalisation-de-logiciels/",
+    "es": "https://mikebastin.com/es/services/internacionalizacion-de-software/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 17229178,
+     "slug": "software-internationalisation"
+    },
+    {
+     "locale": "fr",
+     "id": 24848894,
+     "slug": "internationalisation-de-logiciels"
+    },
+    {
+     "locale": "es",
+     "id": 24849103,
+     "slug": "internacionalizacion-de-software"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/es/services/internacionalizacion/",
+   "type": "services",
+   "locales": {
+    "en": "https://mikebastin.com/services/internationalisation/",
+    "fr": "https://mikebastin.com/fr/services/internationalisation/",
+    "es": "https://mikebastin.com/es/services/internacionalizacion/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 37160,
+     "slug": "internationalisation"
+    },
+    {
+     "locale": "fr",
+     "id": 24848128,
+     "slug": "internationalisation"
+    },
+    {
+     "locale": "es",
+     "id": 24848393,
+     "slug": "internacionalizacion"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/es/services/link-building/",
+   "type": "services",
+   "locales": {
+    "en": "https://mikebastin.com/services/link-building/",
+    "fr": "https://mikebastin.com/fr/services/netlinking/",
+    "es": "https://mikebastin.com/es/services/link-building/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24845444,
+     "slug": "link-building"
+    },
+    {
+     "locale": "fr",
+     "id": 24848454,
+     "slug": "netlinking"
+    },
+    {
+     "locale": "es",
+     "id": 24849109,
+     "slug": "link-building"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/es/services/localizacion-de-aplicaciones/",
+   "type": "services",
+   "locales": {
+    "en": "https://mikebastin.com/services/app-localisation/",
+    "fr": "https://mikebastin.com/fr/services/localisation-applications/",
+    "es": "https://mikebastin.com/es/services/localizacion-de-aplicaciones/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24845176,
+     "slug": "app-localisation"
+    },
+    {
+     "locale": "fr",
+     "id": 24848039,
+     "slug": "localisation-applications"
+    },
+    {
+     "locale": "es",
+     "id": 24849088,
+     "slug": "localizacion-de-aplicaciones"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/es/services/localizacion-de-contenido/",
+   "type": "services",
+   "locales": {
+    "en": "https://mikebastin.com/services/content-localisation/",
+    "fr": "https://mikebastin.com/fr/services/localisation-contenu/",
+    "es": "https://mikebastin.com/es/services/localizacion-de-contenido/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 37173,
+     "slug": "content-localisation"
+    },
+    {
+     "locale": "fr",
+     "id": 24848134,
+     "slug": "localisation-contenu"
+    },
+    {
+     "locale": "es",
+     "id": 24848379,
+     "slug": "localizacion-de-contenido"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/es/services/localizacion-de-e-commerce/",
+   "type": "services",
+   "locales": {
+    "en": "https://mikebastin.com/services/localised-e-commerce-integration/",
+    "fr": "https://mikebastin.com/fr/services/localisation-ecommerce/",
+    "es": "https://mikebastin.com/es/services/localizacion-de-e-commerce/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 17228889,
+     "slug": "localised-e-commerce-integration"
+    },
+    {
+     "locale": "fr",
+     "id": 24848268,
+     "slug": "localisation-ecommerce"
+    },
+    {
+     "locale": "es",
+     "id": 24849275,
+     "slug": "localizacion-de-e-commerce"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/es/services/marketing-digital-valencia/",
+   "type": "services",
+   "locales": {
+    "en": "https://mikebastin.com/services/digital-marketing/",
+    "fr": "https://mikebastin.com/fr/services/marketing-digital/",
+    "es": "https://mikebastin.com/es/services/marketing-digital-valencia/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 37069,
+     "slug": "digital-marketing"
+    },
+    {
+     "locale": "fr",
+     "id": 24848046,
+     "slug": "marketing-digital"
+    },
+    {
+     "locale": "es",
+     "id": 24848554,
+     "slug": "marketing-digital-valencia"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/es/services/monitorizacion-y-analitica/",
+   "type": "services",
+   "locales": {
+    "en": "https://mikebastin.com/services/analytics-and-tracking/",
+    "fr": "https://mikebastin.com/fr/services/analyse-et-suivi/",
+    "es": "https://mikebastin.com/es/services/monitorizacion-y-analitica/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24844964,
+     "slug": "analytics-and-tracking"
+    },
+    {
+     "locale": "fr",
+     "id": 24848847,
+     "slug": "analyse-et-suivi"
+    },
+    {
+     "locale": "es",
+     "id": 24849161,
+     "slug": "monitorizacion-y-analitica"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/es/services/optimizacion-seo/",
+   "type": "services",
+   "locales": {
+    "en": "https://mikebastin.com/services/spanish-seo/",
+    "fr": "https://mikebastin.com/fr/services/seo-espagnol/",
+    "es": "https://mikebastin.com/es/services/optimizacion-seo/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 17228784,
+     "slug": "spanish-seo"
+    },
+    {
+     "locale": "fr",
+     "id": 24848801,
+     "slug": "seo-espagnol"
+    },
+    {
+     "locale": "es",
+     "id": 24849164,
+     "slug": "optimizacion-seo"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/es/services/plugins-de-traduccion/",
+   "type": "services",
+   "locales": {
+    "en": "https://mikebastin.com/services/wordpress-translation-plugin/",
+    "fr": "https://mikebastin.com/fr/services/plugin-de-traduction-wordpress/",
+    "es": "https://mikebastin.com/es/services/plugins-de-traduccion/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24845195,
+     "slug": "wordpress-translation-plugin"
+    },
+    {
+     "locale": "fr",
+     "id": 24848749,
+     "slug": "plugin-de-traduction-wordpress"
+    },
+    {
+     "locale": "es",
+     "id": 24849119,
+     "slug": "plugins-de-traduccion"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/es/services/posedicion-de-ia/",
+   "type": "services",
+   "locales": {
+    "en": "https://mikebastin.com/services/post-ai-editing/",
+    "fr": "https://mikebastin.com/fr/services/postedition-ia/",
+    "es": "https://mikebastin.com/es/services/posedicion-de-ia/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24845474,
+     "slug": "post-ai-editing"
+    },
+    {
+     "locale": "fr",
+     "id": 24848700,
+     "slug": "postedition-ia"
+    },
+    {
+     "locale": "es",
+     "id": 24847693,
+     "slug": "posedicion-de-ia"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/es/services/posicionamiento-multilingue/",
+   "type": "services",
+   "locales": {
+    "en": "https://mikebastin.com/services/multilingual-seo/",
+    "fr": "https://mikebastin.com/fr/services/referencement-multilingue/",
+    "es": "https://mikebastin.com/es/services/posicionamiento-multilingue/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 17228874,
+     "slug": "multilingual-seo"
+    },
+    {
+     "locale": "fr",
+     "id": 24848110,
+     "slug": "referencement-multilingue"
+    },
+    {
+     "locale": "es",
+     "id": 24848105,
+     "slug": "posicionamiento-multilingue"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/es/services/pruebas-de-localizacion/",
+   "type": "services",
+   "locales": {
+    "en": "https://mikebastin.com/services/localisation-testing/",
+    "fr": "https://mikebastin.com/fr/services/test-localisation/",
+    "es": "https://mikebastin.com/es/services/pruebas-de-localizacion/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 17228906,
+     "slug": "localisation-testing"
+    },
+    {
+     "locale": "fr",
+     "id": 24848835,
+     "slug": "test-localisation"
+    },
+    {
+     "locale": "es",
+     "id": 24849213,
+     "slug": "pruebas-de-localizacion"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/es/services/publicidad-multilingue/",
+   "type": "services",
+   "locales": {
+    "en": "https://mikebastin.com/services/multilingual-sem/",
+    "fr": "https://mikebastin.com/fr/services/sem-multilingue/",
+    "es": "https://mikebastin.com/es/services/publicidad-multilingue/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24845180,
+     "slug": "multilingual-sem"
+    },
+    {
+     "locale": "fr",
+     "id": 24848816,
+     "slug": "sem-multilingue"
+    },
+    {
+     "locale": "es",
+     "id": 24848943,
+     "slug": "publicidad-multilingue"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/es/services/redaccion-seo-multilingue/",
+   "type": "services",
+   "locales": {
+    "en": "https://mikebastin.com/services/multilingual-seo-copywriting/",
+    "fr": "https://mikebastin.com/fr/services/creation-de-contenu-multilingue/",
+    "es": "https://mikebastin.com/es/services/redaccion-seo-multilingue/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 17229193,
+     "slug": "multilingual-seo-copywriting"
+    },
+    {
+     "locale": "fr",
+     "id": 24848853,
+     "slug": "creation-de-contenu-multilingue"
+    },
+    {
+     "locale": "es",
+     "id": 24848754,
+     "slug": "redaccion-seo-multilingue"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/es/services/seo-aleman/",
+   "type": "services",
+   "locales": {
+    "en": "https://mikebastin.com/services/german-seo/",
+    "fr": "https://mikebastin.com/fr/services/seo-allemand/",
+    "es": "https://mikebastin.com/es/services/seo-aleman/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 17228768,
+     "slug": "german-seo"
+    },
+    {
+     "locale": "fr",
+     "id": 24848688,
+     "slug": "seo-allemand"
+    },
+    {
+     "locale": "es",
+     "id": 24849079,
+     "slug": "seo-aleman"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/es/services/seo-frances/",
+   "type": "services",
+   "locales": {
+    "en": "https://mikebastin.com/services/french-seo/",
+    "fr": "https://mikebastin.com/fr/services/seo/",
+    "es": "https://mikebastin.com/es/services/seo-frances/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 37282,
+     "slug": "french-seo"
+    },
+    {
+     "locale": "fr",
+     "id": 24848789,
+     "slug": "seo"
+    },
+    {
+     "locale": "es",
+     "id": 24848927,
+     "slug": "seo-frances"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/es/services/seo-ingles/",
+   "type": "services",
+   "locales": {
+    "en": "https://mikebastin.com/services/english-seo/",
+    "fr": "https://mikebastin.com/fr/services/seo-anglais/",
+    "es": "https://mikebastin.com/es/services/seo-ingles/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24845422,
+     "slug": "english-seo"
+    },
+    {
+     "locale": "fr",
+     "id": 24848451,
+     "slug": "seo-anglais"
+    },
+    {
+     "locale": "es",
+     "id": 24848077,
+     "slug": "seo-ingles"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/es/services/seo-italiano/",
+   "type": "services",
+   "locales": {
+    "en": "https://mikebastin.com/services/italian-seo/",
+    "fr": "https://mikebastin.com/fr/services/seo-italien/",
+    "es": "https://mikebastin.com/es/services/seo-italiano/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 17228897,
+     "slug": "italian-seo"
+    },
+    {
+     "locale": "fr",
+     "id": 24848273,
+     "slug": "seo-italien"
+    },
+    {
+     "locale": "es",
+     "id": 24849229,
+     "slug": "seo-italiano"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/es/services/seo-local/",
+   "type": "services",
+   "locales": {
+    "en": "https://mikebastin.com/services/local-seo/",
+    "fr": "https://mikebastin.com/fr/services/referencement-local/",
+    "es": "https://mikebastin.com/es/services/seo-local/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24845425,
+     "slug": "local-seo"
+    },
+    {
+     "locale": "fr",
+     "id": 24848439,
+     "slug": "referencement-local"
+    },
+    {
+     "locale": "es",
+     "id": 24848921,
+     "slug": "seo-local"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/es/services/seo-neerlandes/",
+   "type": "services",
+   "locales": {
+    "en": "https://mikebastin.com/services/dutch-seo/",
+    "fr": "https://mikebastin.com/fr/services/seo-neerlandais/",
+    "es": "https://mikebastin.com/es/services/seo-neerlandes/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 17228778,
+     "slug": "dutch-seo"
+    },
+    {
+     "locale": "fr",
+     "id": 24848796,
+     "slug": "seo-neerlandais"
+    },
+    {
+     "locale": "es",
+     "id": 24849207,
+     "slug": "seo-neerlandes"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/es/services/seo-onpage/",
+   "type": "services",
+   "locales": {
+    "en": "https://mikebastin.com/services/on-page-seo/",
+    "fr": "https://mikebastin.com/fr/services/seo-on-page/",
+    "es": "https://mikebastin.com/es/services/seo-onpage/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24844998,
+     "slug": "on-page-seo"
+    },
+    {
+     "locale": "fr",
+     "id": 24848850,
+     "slug": "seo-on-page"
+    },
+    {
+     "locale": "es",
+     "id": 24849106,
+     "slug": "seo-onpage"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/es/services/seo-portugues/",
+   "type": "services",
+   "locales": {
+    "en": "https://mikebastin.com/services/portuguese-seo/",
+    "fr": "https://mikebastin.com/fr/services/seo-portugais/",
+    "es": "https://mikebastin.com/es/services/seo-portugues/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 17228910,
+     "slug": "portuguese-seo"
+    },
+    {
+     "locale": "fr",
+     "id": 24848863,
+     "slug": "seo-portugais"
+    },
+    {
+     "locale": "es",
+     "id": 24849233,
+     "slug": "seo-portugues"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/es/services/soluciones-linguisticas/",
+   "type": "services",
+   "locales": {
+    "en": "https://mikebastin.com/services/language-solutions/",
+    "fr": "https://mikebastin.com/fr/services/solutions-linguistiques/",
+    "es": "https://mikebastin.com/es/services/soluciones-linguisticas/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 37078,
+     "slug": "language-solutions"
+    },
+    {
+     "locale": "fr",
+     "id": 24848131,
+     "slug": "solutions-linguistiques"
+    },
+    {
+     "locale": "es",
+     "id": 24848234,
+     "slug": "soluciones-linguisticas"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/es/services/traduccion-academica/",
+   "type": "services",
+   "locales": {
+    "en": "https://mikebastin.com/services/academic-translation/",
+    "fr": "https://mikebastin.com/fr/services/traduction-academique/",
+    "es": "https://mikebastin.com/es/services/traduccion-academica/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24846012,
+     "slug": "academic-translation"
+    },
+    {
+     "locale": "fr",
+     "id": 24848589,
+     "slug": "traduction-academique"
+    },
+    {
+     "locale": "es",
+     "id": 24848998,
+     "slug": "traduccion-academica"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/es/services/traduccion-audiovisual/",
+   "type": "services",
+   "locales": {
+    "en": "https://mikebastin.com/services/multimedia-localisation/",
+    "fr": "https://mikebastin.com/fr/services/localisation-multimedia/",
+    "es": "https://mikebastin.com/es/services/traduccion-audiovisual/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 17228948,
+     "slug": "multimedia-localisation"
+    },
+    {
+     "locale": "fr",
+     "id": 24848276,
+     "slug": "localisation-multimedia"
+    },
+    {
+     "locale": "es",
+     "id": 24848065,
+     "slug": "traduccion-audiovisual"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/es/services/traduccion-certificada-y-jurada/",
+   "type": "services",
+   "locales": {
+    "en": "https://mikebastin.com/services/certified-and-sworn-translation-services/",
+    "fr": "https://mikebastin.com/fr/services/traduction-certifiee-et-assermentee/",
+    "es": "https://mikebastin.com/es/services/traduccion-certificada-y-jurada/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24845017,
+     "slug": "certified-and-sworn-translation-services"
+    },
+    {
+     "locale": "fr",
+     "id": 24848844,
+     "slug": "traduction-certifiee-et-assermentee"
+    },
+    {
+     "locale": "es",
+     "id": 24847929,
+     "slug": "traduccion-certificada-y-jurada"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/es/services/traduccion-comercial/",
+   "type": "services",
+   "locales": {
+    "en": "https://mikebastin.com/services/business-translation/",
+    "fr": "https://mikebastin.com/fr/services/traduction-commerciale/",
+    "es": "https://mikebastin.com/es/services/traduccion-comercial/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24846085,
+     "slug": "business-translation"
+    },
+    {
+     "locale": "fr",
+     "id": 24848819,
+     "slug": "traduction-commerciale"
+    },
+    {
+     "locale": "es",
+     "id": 24847932,
+     "slug": "traduccion-comercial"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/es/services/traduccion-de-paginas-web/",
+   "type": "services",
+   "locales": {
+    "en": "https://mikebastin.com/services/website-localisation/",
+    "fr": "https://mikebastin.com/fr/services/localisation-de-site-web/",
+    "es": "https://mikebastin.com/es/services/traduccion-de-paginas-web/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 37096,
+     "slug": "website-localisation"
+    },
+    {
+     "locale": "fr",
+     "id": 24848221,
+     "slug": "localisation-de-site-web"
+    },
+    {
+     "locale": "es",
+     "id": 24848376,
+     "slug": "traduccion-de-paginas-web"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/es/services/traduccion-financiera/",
+   "type": "services",
+   "locales": {
+    "en": "https://mikebastin.com/services/financial-translation/",
+    "fr": "https://mikebastin.com/fr/services/traduction-financiere/",
+    "es": "https://mikebastin.com/es/services/traduccion-financiera/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24845984,
+     "slug": "financial-translation"
+    },
+    {
+     "locale": "fr",
+     "id": 24848710,
+     "slug": "traduction-financiere"
+    },
+    {
+     "locale": "es",
+     "id": 24849016,
+     "slug": "traduccion-financiera"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/es/services/traduccion-juridica/",
+   "type": "services",
+   "locales": {
+    "en": "https://mikebastin.com/services/legal-translation/",
+    "fr": "https://mikebastin.com/fr/services/traduction-juridique/",
+    "es": "https://mikebastin.com/es/services/traduccion-juridica/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24845915,
+     "slug": "legal-translation"
+    },
+    {
+     "locale": "fr",
+     "id": 24848697,
+     "slug": "traduction-juridique"
+    },
+    {
+     "locale": "es",
+     "id": 24848765,
+     "slug": "traduccion-juridica"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/es/services/traduccion-medica/",
+   "type": "services",
+   "locales": {
+    "en": "https://mikebastin.com/services/medical-translation/",
+    "fr": "https://mikebastin.com/fr/services/traduction-medicale/",
+    "es": "https://mikebastin.com/es/services/traduccion-medica/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24846072,
+     "slug": "medical-translation"
+    },
+    {
+     "locale": "fr",
+     "id": 24848707,
+     "slug": "traduction-medicale"
+    },
+    {
+     "locale": "es",
+     "id": 24847950,
+     "slug": "traduccion-medica"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/es/services/traduccion-profesional/",
+   "type": "services",
+   "locales": {
+    "en": "https://mikebastin.com/services/expert-translation-services/",
+    "fr": "https://mikebastin.com/fr/services/traduction-professionnelle/",
+    "es": "https://mikebastin.com/es/services/traduccion-profesional/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 17228989,
+     "slug": "expert-translation-services"
+    },
+    {
+     "locale": "fr",
+     "id": 24848900,
+     "slug": "traduction-professionnelle"
+    },
+    {
+     "locale": "es",
+     "id": 24849034,
+     "slug": "traduccion-profesional"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/es/services/transcreacion/",
+   "type": "services",
+   "locales": {
+    "en": "https://mikebastin.com/services/transcreation/",
+    "fr": "https://mikebastin.com/fr/services/transcreation/",
+    "es": "https://mikebastin.com/es/services/transcreacion/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24845381,
+     "slug": "transcreation"
+    },
+    {
+     "locale": "fr",
+     "id": 24848715,
+     "slug": "transcreation"
+    },
+    {
+     "locale": "es",
+     "id": 24848966,
+     "slug": "transcreacion"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/es/servicios-consultoria-web/",
+   "type": "pages",
+   "locales": {
+    "en": "https://mikebastin.com/our-services/",
+    "fr": "https://mikebastin.com/fr/nos-services/",
+    "es": "https://mikebastin.com/es/servicios-consultoria-web/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 36380,
+     "slug": "our-services"
+    },
+    {
+     "locale": "fr",
+     "id": 24847025,
+     "slug": "nos-services"
+    },
+    {
+     "locale": "es",
+     "id": 24847639,
+     "slug": "servicios-consultoria-web"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/es/sistemas-cualificacion-leads-ia/",
+   "type": "posts",
+   "locales": {
+    "es": "https://mikebastin.com/es/sistemas-cualificacion-leads-ia/"
+   },
+   "members": [
+    {
+     "locale": "es",
+     "id": 24855812,
+     "slug": "sistemas-cualificacion-leads-ia"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/es/trabajar-en-remoto-desde-valencia/",
+   "type": "posts",
+   "locales": {
+    "es": "https://mikebastin.com/es/trabajar-en-remoto-desde-valencia/"
+   },
+   "members": [
+    {
+     "locale": "es",
+     "id": 24856459,
+     "slug": "trabajar-en-remoto-desde-valencia"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/essential-things-to-do-in-cultural-valencia/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/essential-things-to-do-in-cultural-valencia/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24847776,
+     "slug": "essential-things-to-do-in-cultural-valencia"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/fr/activites-a-valencia/",
+   "type": "posts",
+   "locales": {
+    "fr": "https://mikebastin.com/fr/activites-a-valencia/"
+   },
+   "members": [
+    {
+     "locale": "fr",
+     "id": 24852014,
+     "slug": "activites-a-valencia"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/fr/agence-seo-internationale/",
+   "type": "posts",
+   "locales": {
+    "fr": "https://mikebastin.com/fr/agence-seo-internationale/"
+   },
+   "members": [
+    {
+     "locale": "fr",
+     "id": 24852001,
+     "slug": "agence-seo-internationale"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/fr/avocats-a-valencia/",
+   "type": "posts",
+   "locales": {
+    "fr": "https://mikebastin.com/fr/avocats-a-valencia/"
+   },
+   "members": [
+    {
+     "locale": "fr",
+     "id": 24853729,
+     "slug": "avocats-a-valencia"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/fr/choses-a-savoir-absolument-avant-de-sinstaller-a-valencia/",
+   "type": "posts",
+   "locales": {
+    "fr": "https://mikebastin.com/fr/choses-a-savoir-absolument-avant-de-sinstaller-a-valencia/"
+   },
+   "members": [
+    {
+     "locale": "fr",
+     "id": 24856092,
+     "slug": "choses-a-savoir-absolument-avant-de-sinstaller-a-valencia"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/fr/climat-a-valencia/",
+   "type": "posts",
+   "locales": {
+    "fr": "https://mikebastin.com/fr/climat-a-valencia/"
+   },
+   "members": [
+    {
+     "locale": "fr",
+     "id": 24852017,
+     "slug": "climat-a-valencia"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/fr/consultant-referencement-international/",
+   "type": "posts",
+   "locales": {
+    "fr": "https://mikebastin.com/fr/consultant-referencement-international/"
+   },
+   "members": [
+    {
+     "locale": "fr",
+     "id": 24851998,
+     "slug": "consultant-referencement-international"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/fr/cout-de-la-vie-valencia/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/valencia-cost-of-living/",
+    "fr": "https://mikebastin.com/fr/cout-de-la-vie-valencia/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24856236,
+     "slug": "valencia-cost-of-living"
+    },
+    {
+     "locale": "fr",
+     "id": 24856418,
+     "slug": "cout-de-la-vie-valencia"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/fr/entrepreneuriat-international-a-valencia/",
+   "type": "posts",
+   "locales": {
+    "fr": "https://mikebastin.com/fr/entrepreneuriat-international-a-valencia/"
+   },
+   "members": [
+    {
+     "locale": "fr",
+     "id": 24853177,
+     "slug": "entrepreneuriat-international-a-valencia"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/fr/expatrie-valencia/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/valencia-expat/",
+    "fr": "https://mikebastin.com/fr/expatrie-valencia/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24847787,
+     "slug": "valencia-expat"
+    },
+    {
+     "locale": "fr",
+     "id": 24851494,
+     "slug": "expatrie-valencia"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/fr/expert-en-seo-international/",
+   "type": "posts",
+   "locales": {
+    "fr": "https://mikebastin.com/fr/expert-en-seo-international/"
+   },
+   "members": [
+    {
+     "locale": "fr",
+     "id": 24851999,
+     "slug": "expert-en-seo-international"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/fr/francais-a-valencia/",
+   "type": "posts",
+   "locales": {
+    "fr": "https://mikebastin.com/fr/francais-a-valencia/"
+   },
+   "members": [
+    {
+     "locale": "fr",
+     "id": 24854295,
+     "slug": "francais-a-valencia"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/fr/immobilier-a-valencia/",
+   "type": "posts",
+   "locales": {
+    "fr": "https://mikebastin.com/fr/immobilier-a-valencia/"
+   },
+   "members": [
+    {
+     "locale": "fr",
+     "id": 24852022,
+     "slug": "immobilier-a-valencia"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/fr/mode-de-vie-de-valencia/",
+   "type": "posts",
+   "locales": {
+    "fr": "https://mikebastin.com/fr/mode-de-vie-de-valencia/"
+   },
+   "members": [
+    {
+     "locale": "fr",
+     "id": 24853169,
+     "slug": "mode-de-vie-de-valencia"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/fr/nouvelles-tendances-du-secteur-des-affaires/",
+   "type": "posts",
+   "locales": {
+    "fr": "https://mikebastin.com/fr/nouvelles-tendances-du-secteur-des-affaires/"
+   },
+   "members": [
+    {
+     "locale": "fr",
+     "id": 24853188,
+     "slug": "nouvelles-tendances-du-secteur-des-affaires"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/fr/plages-de-valencia/",
+   "type": "posts",
+   "locales": {
+    "fr": "https://mikebastin.com/fr/plages-de-valencia/"
+   },
+   "members": [
+    {
+     "locale": "fr",
+     "id": 24852012,
+     "slug": "plages-de-valencia"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/fr/recherche-vocale/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/optimising-your-website-for-voice-search/",
+    "fr": "https://mikebastin.com/fr/recherche-vocale/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24847415,
+     "slug": "optimising-your-website-for-voice-search"
+    },
+    {
+     "locale": "fr",
+     "id": 24853044,
+     "slug": "recherche-vocale"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/fr/services/localisation-juridique-reglementaire/",
+   "type": "services",
+   "locales": {
+    "fr": "https://mikebastin.com/fr/services/localisation-juridique-reglementaire/"
+   },
+   "members": [
+    {
+     "locale": "fr",
+     "id": 24848915,
+     "slug": "localisation-juridique-reglementaire"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/fr/transport-a-valencia/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/valencia-public-transportation/",
+    "fr": "https://mikebastin.com/fr/transport-a-valencia/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24847786,
+     "slug": "valencia-public-transportation"
+    },
+    {
+     "locale": "fr",
+     "id": 24851386,
+     "slug": "transport-a-valencia"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/fr/travailler-a-valencia-en-tant-quexpatrie/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/work-life-balance-in-valencia/",
+    "fr": "https://mikebastin.com/fr/travailler-a-valencia-en-tant-quexpatrie/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24847200,
+     "slug": "work-life-balance-in-valencia"
+    },
+    {
+     "locale": "fr",
+     "id": 24852158,
+     "slug": "travailler-a-valencia-en-tant-quexpatrie"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/fr/valencia-50-nuances-de-bruits/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/valencia-50-shades-of-noise/",
+    "fr": "https://mikebastin.com/fr/valencia-50-nuances-de-bruits/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24854578,
+     "slug": "valencia-50-shades-of-noise"
+    },
+    {
+     "locale": "fr",
+     "id": 24851890,
+     "slug": "valencia-50-nuances-de-bruits"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/fr/visa-nomade-numerique-espagne/",
+   "type": "posts",
+   "locales": {
+    "fr": "https://mikebastin.com/fr/visa-nomade-numerique-espagne/"
+   },
+   "members": [
+    {
+     "locale": "fr",
+     "id": 24856398,
+     "slug": "visa-nomade-numerique-espagne"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/fr/vivre-en-appartement-a-valencia/",
+   "type": "posts",
+   "locales": {
+    "fr": "https://mikebastin.com/fr/vivre-en-appartement-a-valencia/"
+   },
+   "members": [
+    {
+     "locale": "fr",
+     "id": 24853158,
+     "slug": "vivre-en-appartement-a-valencia"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/french-ppc-campaign/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/french-ppc-campaign/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 17229036,
+     "slug": "french-ppc-campaign"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/future-of-seo/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/future-of-seo/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24847479,
+     "slug": "future-of-seo"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/german-seo-best-practices/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/german-seo-best-practices/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 17228975,
+     "slug": "german-seo-best-practices"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/german-seo-content-localisation/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/german-seo-content-localisation/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 17228922,
+     "slug": "german-seo-content-localisation"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/global-business-trends/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/global-business-trends/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 36912,
+     "slug": "global-business-trends"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/google-analytics-international-marketing-limits/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/google-analytics-international-marketing-limits/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24855766,
+     "slug": "google-analytics-international-marketing-limits"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/how-ai-is-revolutionising-seo-strategies/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/how-ai-is-revolutionising-seo-strategies/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24845407,
+     "slug": "how-ai-is-revolutionising-seo-strategies"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/how-ai-is-transforming-translation-and-localisation/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/how-ai-is-transforming-translation-and-localisation/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 37218,
+     "slug": "how-ai-is-transforming-translation-and-localisation"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/how-to-create-a-targeted-content-strategy/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/how-to-create-a-targeted-content-strategy/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24845163,
+     "slug": "how-to-create-a-targeted-content-strategy"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/how-to-make-money-on-youtube/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/how-to-make-money-on-youtube/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 36914,
+     "slug": "how-to-make-money-on-youtube"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/how-to-promote-your-local-business-on-google-maps/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/how-to-promote-your-local-business-on-google-maps/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 37037,
+     "slug": "how-to-promote-your-local-business-on-google-maps"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/how-to-use-ai-and-machine-translation-tools/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/how-to-use-ai-and-machine-translation-tools/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24845458,
+     "slug": "how-to-use-ai-and-machine-translation-tools"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/how-to-write-about-your-professional-background/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/how-to-write-about-your-professional-background/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 36913,
+     "slug": "how-to-write-about-your-professional-background"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/human-creator-economy/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/human-creator-economy/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24855433,
+     "slug": "human-creator-economy"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/internal-linking-tools/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/internal-linking-tools/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24846129,
+     "slug": "internal-linking-tools"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/international-schools-in-valencia/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/international-schools-in-valencia/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24847781,
+     "slug": "international-schools-in-valencia"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/language-data-analysis/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/language-data-analysis/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24847882,
+     "slug": "language-data-analysis"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/language-service-providers/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/language-service-providers/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24847105,
+     "slug": "language-service-providers"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/law-firm-seo-services/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/law-firm-seo-services/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24847256,
+     "slug": "law-firm-seo-services"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/link-building-in-spain/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/link-building-in-spain/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24845622,
+     "slug": "link-building-in-spain"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/link-selling-and-link-buying-platforms/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/link-selling-and-link-buying-platforms/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24847099,
+     "slug": "link-selling-and-link-buying-platforms"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/live-in-valencia/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/live-in-valencia/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24854222,
+     "slug": "live-in-valencia"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/living-in-a-flat-in-valencia-a-pragmatic-overview/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/living-in-a-flat-in-valencia-a-pragmatic-overview/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24847564,
+     "slug": "living-in-a-flat-in-valencia-a-pragmatic-overview"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/llms-beyond-giants-hidden-ai-models/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/llms-beyond-giants-hidden-ai-models/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24855595,
+     "slug": "llms-beyond-giants-hidden-ai-models"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/localisation-testing-tools/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/localisation-testing-tools/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 17228970,
+     "slug": "localisation-testing-tools"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/long-tail-keywords/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/long-tail-keywords/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24844952,
+     "slug": "long-tail-keywords"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/mastering-the-art-of-networking/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/mastering-the-art-of-networking/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 17228794,
+     "slug": "mastering-the-art-of-networking"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/most-popular-marketing-strategies/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/most-popular-marketing-strategies/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 29530,
+     "slug": "most-popular-marketing-strategies"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/move-to-valencia-spain-from-usa/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/move-to-valencia-spain-from-usa/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24856232,
+     "slug": "move-to-valencia-spain-from-usa"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/multilingual-keyword-research/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/multilingual-keyword-research/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 37216,
+     "slug": "multilingual-keyword-research"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/neighbourhoods-for-professionals-in-valencia/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/neighbourhoods-for-professionals-in-valencia/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24847202,
+     "slug": "neighbourhoods-for-professionals-in-valencia"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/optimise-a-google-business-profile/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/optimise-a-google-business-profile/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24845534,
+     "slug": "optimise-a-google-business-profile"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/optimising-multilingual-website-content/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/optimising-multilingual-website-content/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24845456,
+     "slug": "optimising-multilingual-website-content"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/optimising-your-website-for-valencia-based-searches/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/optimising-your-website-for-valencia-based-searches/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24847185,
+     "slug": "optimising-your-website-for-valencia-based-searches"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/prompt-engineers/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/prompt-engineers/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24847926,
+     "slug": "prompt-engineers"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/roi-of-website-localisation/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/roi-of-website-localisation/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 37222,
+     "slug": "roi-of-website-localisation"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/search-everywhere-strategy/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/search-everywhere-strategy/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24855728,
+     "slug": "search-everywhere-strategy"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/seo-in-belgium/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/seo-in-belgium/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24845994,
+     "slug": "seo-in-belgium"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/seo-mistakes-to-avoid/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/seo-mistakes-to-avoid/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 17228798,
+     "slug": "seo-mistakes-to-avoid"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/shipping-to-valencia-spain/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/shipping-to-valencia-spain/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24856240,
+     "slug": "shipping-to-valencia-spain"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/spanish-keyword-localisation/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/spanish-keyword-localisation/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24845629,
+     "slug": "spanish-keyword-localisation"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/spanish-on-page-seo/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/spanish-on-page-seo/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24845619,
+     "slug": "spanish-on-page-seo"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/spanish-seo-markets/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/spanish-seo-markets/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24845011,
+     "slug": "spanish-seo-markets"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/technical-seo-audit-checklist/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/technical-seo-audit-checklist/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24845784,
+     "slug": "technical-seo-audit-checklist"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/technical-seo-considerations-for-german-websites/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/technical-seo-considerations-for-german-websites/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 17228920,
+     "slug": "technical-seo-considerations-for-german-websites"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/technical-seo-for-multilingual-websites/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/technical-seo-for-multilingual-websites/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24845457,
+     "slug": "technical-seo-for-multilingual-websites"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/technical-seo-for-spanish-search-engines/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/technical-seo-for-spanish-search-engines/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24845623,
+     "slug": "technical-seo-for-spanish-search-engines"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/top-instagram-tools/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/top-instagram-tools/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24844876,
+     "slug": "top-instagram-tools"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/user-interface-localisation-can-transform-your-global-reach/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/user-interface-localisation-can-transform-your-global-reach/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24844976,
+     "slug": "user-interface-localisation-can-transform-your-global-reach"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/valencia-airport-guide/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/valencia-airport-guide/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24856243,
+     "slug": "valencia-airport-guide"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/valencia-digital-nomads/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/valencia-digital-nomads/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24856245,
+     "slug": "valencia-digital-nomads"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/valencia-good-place-to-live/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/valencia-good-place-to-live/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24856234,
+     "slug": "valencia-good-place-to-live"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/valencia-living-expenses/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/valencia-living-expenses/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24847775,
+     "slug": "valencia-living-expenses"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/valencia-remote-working/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/valencia-remote-working/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24847177,
+     "slug": "valencia-remote-working"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/valencia-the-not-so-perfect-mediterranean-paradise/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/valencia-the-not-so-perfect-mediterranean-paradise/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24847565,
+     "slug": "valencia-the-not-so-perfect-mediterranean-paradise"
+    }
+   ]
+  },
+  {
+   "key": "https://mikebastin.com/what-is-search-intent-mapping/",
+   "type": "posts",
+   "locales": {
+    "en": "https://mikebastin.com/what-is-search-intent-mapping/"
+   },
+   "members": [
+    {
+     "locale": "en",
+     "id": 24844948,
+     "slug": "what-is-search-intent-mapping"
+    }
+   ]
+  }
+ ]
+}
