@@ -104,6 +104,39 @@ export default async function ServicePage({
         </section>
       )}
 
+      {/* ============ MEASURED DEMAND ============ */}
+      {service.demand && (
+        <section className="band band-a py-[clamp(48px,7vw,90px)]">
+          <div className="shell">
+            <Reveal>
+              <p className="eyebrow mb-6">Measured demand, Ahrefs, 20 August 2026</p>
+            </Reveal>
+            <div className="grid gap-px sm:grid-cols-2" style={{ background: "var(--rule)" }}>
+              {[
+                { v: service.demand.volume.toLocaleString("en-GB"), k: "Worldwide monthly searches" },
+                { v: service.demand.kd, k: "Keyword difficulty" },
+              ].map((m, i) => (
+                <div key={m.k} className="band px-6 py-9" style={{ background: "var(--bg)" }}>
+                  <Reveal i={i}>
+                    <div className="display text-[clamp(2rem,4.2vw,2.9rem)] font-semibold leading-none tabular-nums" style={{ color: "var(--berry)" }}>
+                      {m.v}
+                    </div>
+                    <div className="mt-3 text-[.72rem] uppercase tracking-[.12em]" style={{ color: "var(--dim)" }}>
+                      {m.k}
+                    </div>
+                  </Reveal>
+                </div>
+              ))}
+            </div>
+            <Reveal i={2}>
+              <p className="mt-6 max-w-[62ch] text-[.95rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
+                {service.demand.note}
+              </p>
+            </Reveal>
+          </div>
+        </section>
+      )}
+
       {/* ============ WHAT THE PAGE COVERS ============ */}
       <section className="band band-a py-[clamp(56px,8vw,110px)]">
         <div className="shell">

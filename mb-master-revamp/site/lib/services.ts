@@ -26,6 +26,13 @@ export type Service = {
   /** Legacy slugs this page absorbs, each 301ing in the same locale. */
   absorbs?: string[];
   gsc?: { impressions: number; position: number; keywords: number };
+  /**
+   * Worldwide demand for the market's core terms, measured in Ahrefs on
+   * 20 August 2026. Sums the "<language> seo", "seo <country>" and
+   * "<language> seo agency" variants, which is how the demand actually
+   * splits: no single head term carries the market.
+   */
+  demand?: { volume: number; kd: string; note: string };
   /** Flags a page whose source copy has not had the refresh its siblings got. */
   needsRefresh?: string;
 };
@@ -95,6 +102,11 @@ export const SERVICES: Service[] = [
     gsc: { impressions: 3093, position: 43.7, keywords: 40 },
     needsRefresh:
       "Source copy still runs the 2024 structure while all five sibling language pages were refreshed. The highest-impression service page on the domain is the one running the oldest copy.",
+    demand: {
+      volume: 2700,
+      kd: "3 to 6",
+      note: "Largest of the six. `seo france` alone pays $40.00 a click, the highest CPC of any language-market term measured.",
+    },
   },
   {
     slug: "german-seo",
@@ -104,6 +116,11 @@ export const SERVICES: Service[] = [
     lede: "German buyers research further before enquiring than most markets, so the page that wins is the one that answers the question rather than the one that ranks loudest.",
     sections: ["Three ways to fail at German SEO", ...ENGAGEMENT],
     gsc: { impressions: 1938, position: 57.3, keywords: 38 },
+    demand: {
+      volume: 2350,
+      kd: "0 to 1",
+      note: "Second-largest and the easiest of the six. Nearly the size of French at a fraction of the difficulty, which makes it the next page to build.",
+    },
   },
   {
     slug: "spanish-seo",
@@ -112,6 +129,11 @@ export const SERVICES: Service[] = [
     angle: "Proximity market",
     lede: "Spain from Spain. The Valencia base is not a line in a bio, it is why the local search behaviour is familiar rather than researched.",
     sections: ["Three ways to fail at Spanish SEO", ...ENGAGEMENT],
+    demand: {
+      volume: 2100,
+      kd: "0 to 7",
+      note: "Third-largest, and the two biggest terms both sit at difficulty 0.",
+    },
   },
   {
     slug: "dutch-seo",
@@ -120,6 +142,11 @@ export const SERVICES: Service[] = [
     angle: "Small volume, decisive buyers",
     lede: "Dutch trade search is low in volume and high in intent, which rewards covering a narrow thing properly over covering a broad thing thinly. Bemelman Spuiterij is the worked example.",
     sections: ["Three ways to fail at Dutch SEO", ...ENGAGEMENT],
+    demand: {
+      volume: 800,
+      kd: "3",
+      note: "Smallest of the six by volume, which matches the low-volume high-intent pattern the Bemelman work already showed.",
+    },
   },
   {
     slug: "italian-seo",
@@ -129,6 +156,11 @@ export const SERVICES: Service[] = [
     lede: "Italian search rewards editorial quality more than most markets, and punishes translated-from-English copy faster.",
     sections: ["Three ways to fail at Italian SEO", ...ENGAGEMENT],
     gsc: { impressions: 1304, position: 45.3, keywords: 33 },
+    demand: {
+      volume: 900,
+      kd: "0 to 1",
+      note: "Small but almost unguarded, with `italian seo agency` at difficulty 0.",
+    },
   },
   {
     slug: "portuguese-seo",
@@ -137,6 +169,11 @@ export const SERVICES: Service[] = [
     angle: "Two markets, one language",
     lede: "Portugal and Brazil are not one market with one keyword set, and treating them as one is the mistake that makes Portuguese look harder than it is.",
     sections: ["Three ways to fail at Portuguese SEO", ...ENGAGEMENT],
+    demand: {
+      volume: 1150,
+      kd: "33",
+      note: "Mid-sized but by far the hardest of the six. `seo portugal` at difficulty 33 is ten times the difficulty of the German or Spanish equivalents, so it should be built last.",
+    },
   },
 
   // ---- Cluster 3: localisation and translation ----
