@@ -573,6 +573,11 @@ that scrapes Maps directly is against its terms.
 
 ## 4c. Query network, measured
 
+> **Superseded numbers.** Measured with Keywords Everywhere. Ahrefs
+> re-measured the same terms on 20 August 2026 and disagrees by four to
+> ten times. See section 4f. The conclusions here largely hold; the
+> figures should not be quoted.
+
 First real demand data in this project. Extracted 2026-08-14 via Keywords
 Everywhere, seeded from the central entity and expanded through related and
 People-Also-Search-For, then filtered to the topical border. 614 raw
@@ -686,6 +691,10 @@ anything in 4c or 4d.
 ---
 
 ## 4d. Topical map adapted to the real markets
+
+> **Superseded numbers.** See section 4f. The lead-with-international call
+> stands, but the "four to one" ratio is nearer three to one, and the
+> characterisation of the market as small does not survive re-measurement.
 
 Section 4c measured the United States, which is not a market this business
 serves. Owner correction: the target set is **Belux, France and Switzerland,
@@ -944,6 +953,96 @@ Still open, and smaller: Luxembourg is not separately measurable and is
 being treated as Belgian demand, which is defensible given the size of both.
 The Netherlands was never in the target set, so the NL locale question
 raised in section 2 stays a content decision rather than a market one.
+
+---
+
+## 4f. Ahrefs re-measurement, and a correction to 4c, 4d and 4e
+
+Sections 4c and 4d were measured with Keywords Everywhere, which was the
+only source available at the time. With the Ahrefs connector restored, the
+same terms were re-measured on 20 August 2026. The two sources disagree
+enough that the earlier numbers should not be quoted again.
+
+### The disagreement, on the terms the strategy turns on
+
+| Term | Keywords Everywhere (4d) | Ahrefs worldwide | Ahrefs KD |
+|---|---|---|---|
+| `international seo` | 1,600 | **10,000** | 42 |
+| `international seo agency` | 1,900 | **7,400** | 5 |
+| `international seo services` | not measured | 7,300 | 3 |
+| `international seo consultant` | 1,300 | **4,800** | 6 |
+| `multilingual seo` | 480 | **4,600** | 25 |
+| `multilingual seo services` | not measured | 2,700 | 3 |
+| `multilingual seo agency` | not measured | 2,500 | 3 |
+
+Both are estimates and neither is ground truth, but the gap is not a
+rounding difference. Ahrefs reads `multilingual seo` at nearly ten times
+the Keywords Everywhere figure, and the whole international group four to
+six times higher.
+
+### What survives, and what does not
+
+**The direction survives.** International still outsells multilingual:
+29,500 against 10,300 across the four comparable terms. So the
+recommendation in 4d to lead with international stands.
+
+**The magnitude does not.** The claim in 4d was "roughly four to one". On
+Ahrefs it is closer to **three to one**. The gap is real but narrower than
+recorded, and multilingual is not the marginal term 4d made it sound.
+
+**The characterisation of the market as small does not survive at all.**
+Section 4d described a market where the core drew 1,700 UK and 15,900
+worldwide searches. Ahrefs puts `international seo` alone at 10,000
+worldwide. Sections 4c and 4d repeatedly reasoned from scarcity, and that
+reasoning rested on numbers that now look low.
+
+### Two findings the earlier passes missed entirely
+
+**Difficulty is where the real story is, not volume.** No 4c or 4d figure
+carried a difficulty score, so every conclusion there was drawn from volume
+alone. With difficulty attached the picture inverts: `international seo` is
+the biggest term at 10,000 and also the hardest at **KD 42**, while
+`international seo services` draws 7,300 at **KD 3**. The head term is the
+one worth avoiding. The long tail carries almost the same volume at a
+tenth of the difficulty.
+
+**One term pays far above the rest.** `multilingual seo agency` carries a
+**$45.00 CPC** at KD 3, against $6.00 for `international seo` and $4.00 for
+`international seo agency`. Worth reading carefully rather than acting on
+immediately: it is a single term, its sibling `multilingual seo services`
+pays only $10.00, and one outlying CPC is thin evidence. What it suggests
+is that advertisers value the multilingual buyer more per click even though
+fewer of them search, which is the opposite of what a volume-only reading
+concludes.
+
+### The six language markets, measured for the first time
+
+The Market template shipped with French populated and the other five held
+back precisely because they had never been measured. They now are, summing
+the `<language> seo`, `seo <country>` and `<language> seo agency` variants,
+since no single head term carries any of these markets.
+
+| Market | Worldwide | Difficulty | Note |
+|---|---|---|---|
+| **French** | 2,700 | 3 to 6 | Largest. `seo france` pays $40.00 a click |
+| **German** | 2,350 | **0 to 1** | Nearly French-sized at a fraction of the difficulty |
+| **Spanish** | 2,100 | 0 to 7 | Two biggest terms both at difficulty 0 |
+| **Portuguese** | 1,150 | **33** | Mid-sized, and ten times harder than German |
+| **Italian** | 900 | 0 to 1 | Small but almost unguarded |
+| **Dutch** | 800 | 3 | Smallest, matching the low-volume high-intent pattern |
+
+**Build German next.** It is the second-largest of the six and the easiest,
+which is the combination none of the others offer. Portuguese should be
+last: mid-sized volume behind by far the hardest difficulty of the set.
+
+### What this changes for the reader of this document
+
+Sections 4c and 4d stay in place as the record of what was known when the
+decisions were taken, and their central call was right. But quote 4f for
+any number, not 4c or 4d. And treat any conclusion in those sections that
+rests on the market being small as unsupported until re-checked, because
+the scarcity they describe is an artefact of the measurement rather than
+the market.
 
 ---
 
