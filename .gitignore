@@ -33,3 +33,7 @@ mb-master-revamp/.vercel/
 mb-master-revamp/*.tsbuildinfo
 mb-master-revamp/site/out/
 mikebastin-preview.zip
+
+# Converter output is regenerated from content-source/ by
+# site/scripts/to-markdown.mjs; the snapshot is the source, not this.
+mb-master-revamp/site/content/manifest.json
