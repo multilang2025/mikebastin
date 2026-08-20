@@ -32,7 +32,10 @@ Same model as valenciamove.com, which the owner already runs at larger scale
 - **Localisation:** one content directory per locale (`content/en`,
   `content/fr`, `content/es`). Localised slugs preserved exactly. Translation
   siblings bound by a `group` field in frontmatter matching
-  `redirects/content-map.json`.
+  `redirects/content-map.json`. A fourth locale, `content/nl` (Belgium and
+  the Netherlands), is planned once these three ship — see
+  CONTENT-ARCHITECTURE.md §2. Don't build for it early; the directory
+  structure already scales to it without rework.
 - **Media:** `/public/images/`, optimised by Next/Image at build. No media
   library, no object storage.
 - **Redirects:** `next.config.js` `redirects()`, generated from

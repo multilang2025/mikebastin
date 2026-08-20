@@ -1,18 +1,11 @@
 "use client";
 
 import { useRef } from "react";
+import Link from "next/link";
 import { motion, useScroll, useTransform, useReducedMotion } from "motion/react";
+import type { Project } from "@/lib/projects";
 
-export type SpreadData = {
-  numeral: string;
-  name: string;
-  domain: string;
-  angle: string;
-  body: string;
-  metrics: { v: string; k: string }[];
-};
-
-export default function Spread({ d, flip }: { d: SpreadData; flip: boolean }) {
+export default function Spread({ d, flip }: { d: Project; flip: boolean }) {
   const ref = useRef<HTMLElement>(null);
   const still = useReducedMotion();
   const { scrollYProgress } = useScroll({
@@ -77,7 +70,9 @@ export default function Spread({ d, flip }: { d: SpreadData; flip: boolean }) {
         </div>
 
         <h3 className="mb-4 text-[clamp(1.6rem,3.1vw,2.35rem)] font-semibold leading-[1.1]">
-          {d.name}
+          <Link href={`/projects/${d.slug}/`} className="ulink">
+            {d.name}
+          </Link>
         </h3>
 
         <p className="mb-6 max-w-[46ch] text-[1.02rem]" style={{ color: "var(--dim)" }}>
@@ -102,6 +97,14 @@ export default function Spread({ d, flip }: { d: SpreadData; flip: boolean }) {
             </div>
           ))}
         </dl>
+
+        <Link
+          href={`/projects/${d.slug}/`}
+          className="ulink mt-7 inline-block text-[.9rem] font-medium"
+          style={{ color: "var(--berry)" }}
+        >
+          Read the case study
+        </Link>
       </motion.div>
     </article>
   );
