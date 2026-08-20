@@ -1,3 +1,6 @@
+# FTP_USERNAME must match hPanel's "Active hostname" table for the
+# preview account exactly (e.g. u586375813.preview), not the string
+# shown on the one-time account creation screen, which can differ.
 name: Deploy preview
 
 on:
