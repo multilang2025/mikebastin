@@ -10,7 +10,7 @@ export const SOCIALS = [
 const LINKS = [
   { href: "/", label: "Home" },
   { href: "/#work", label: "Work" },
-  { href: "/services/lead-generation/", label: "Services" },
+  { href: "/services/", label: "Services" },
   { href: "/results/", label: "Results" },
 ];
 
