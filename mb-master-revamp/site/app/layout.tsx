@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import SmoothScroll from "@/components/SmoothScroll";
 import ThemeToggle from "@/components/ThemeToggle";
+import SiteNav from "@/components/SiteNav";
 
 const fraunces = localFont({
   src: "./fonts/fraunces.woff2",
@@ -63,6 +64,7 @@ export default function RootLayout({
       >
         <SmoothScroll />
         <ThemeToggle />
+        <SiteNav />
         {children}
       </body>
     </html>

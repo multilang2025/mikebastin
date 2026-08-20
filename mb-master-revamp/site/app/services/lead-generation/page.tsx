@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Reveal from "@/components/Reveal";
 import Testimonials from "@/components/Testimonials";
+import SiteFooter from "@/components/SiteFooter";
 
 export const metadata: Metadata = {
   title: "Multilingual lead generation, Mike Bastin",
@@ -118,24 +119,7 @@ export default function LeadGenerationPage() {
       </section>
 
       {/* ============ CONTACT ============ */}
-      <footer className="band band-a py-[clamp(64px,9vw,120px)]">
-        <div className="shell">
-          <Reveal>
-            <p className="eyebrow mb-4">Clean face, no crowd</p>
-            <h2 className="mb-8 max-w-[15ch] text-[clamp(1.8rem,4.4vw,3rem)] font-semibold leading-[1.08]">
-              Tell me which language is losing you money.
-            </h2>
-            <div className="flex flex-col gap-2 text-[1.05rem]">
-              <a href="mailto:hello@mikebastin.com" className="ulink w-fit">
-                hello@mikebastin.com
-              </a>
-              <a href="tel:+34671175774" className="ulink w-fit">
-                +34 671 17 57 74
-              </a>
-            </div>
-          </Reveal>
-        </div>
-      </footer>
+      <SiteFooter />
     </main>
   );
 }

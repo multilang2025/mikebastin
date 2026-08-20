@@ -6,6 +6,7 @@ import LocaleTable from "@/components/LocaleTable";
 import Spread from "@/components/Spread";
 import { PROJECTS } from "@/lib/projects";
 import Testimonials from "@/components/Testimonials";
+import SiteFooter from "@/components/SiteFooter";
 
 
 const STATS = [
@@ -146,7 +147,7 @@ export default function Home() {
       </section>
 
       {/* ============ WORK ============ */}
-      <section className="band band-b py-[clamp(64px,9vw,128px)]">
+      <section id="work" className="band band-b py-[clamp(64px,9vw,128px)]">
         <div className="shell">
           <Reveal>
             <p className="eyebrow mb-3">Picked from the line-up</p>
@@ -216,37 +217,8 @@ export default function Home() {
       </section>
 
       {/* ============ CONTACT ============ */}
-      <footer className="band band-a py-[clamp(72px,10vw,140px)]">
-        <div className="shell">
-          <Reveal>
-            <p className="eyebrow mb-4">Clean face, no crowd</p>
-            <h2 className="mb-8 max-w-[15ch] text-[clamp(2rem,5vw,3.6rem)] font-semibold leading-[1.06]">
-              Tell me which language is losing you money.
-            </h2>
-            <div className="flex flex-col gap-2 text-[1.05rem]">
-              <a href="mailto:hello@mikebastin.com" className="ulink w-fit">
-                hello@mikebastin.com
-              </a>
-              <a href="tel:+34671175774" className="ulink w-fit">
-                +34 671 17 57 74
-              </a>
-              <span style={{ color: "var(--dim)" }}>
-                Calle Rugat 12 to 2, 46021 Valencia, Spain
-              </span>
-            </div>
-          </Reveal>
+      <SiteFooter credits address />
 
-          <Reveal i={2}>
-            <p
-              className="mt-14 border-t pt-6 text-[.82rem]"
-              style={{ borderColor: "var(--rule)", color: "var(--dim)" }}
-            >
-              Mike Bastin. Built with Next.js, Motion and Lenis. Night Swell and
-              Morning Glass, set in Fraunces, Cormorant Garamond and Inter.
-            </p>
-          </Reveal>
-        </div>
-      </footer>
     </main>
   );
 }
