@@ -39,6 +39,23 @@ jobs:
       - name: Build static export
         run: npm run build
 
+      - name: Diagnose FTP login (temporary, remove once root-caused)
+        continue-on-error: true
+        env:
+          FTP_HOST: ${{ secrets.FTP_HOST }}
+          FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+        run: |
+          echo "--- plain FTP, verbose, list root ---"
+          curl -v --connect-timeout 15 \
+            -u "$FTP_USERNAME:$FTP_PASSWORD" \
+            "ftp://$FTP_HOST/" || true
+          echo
+          echo "--- explicit FTPS, verbose, list root ---"
+          curl -v --connect-timeout 15 --ftp-ssl --insecure \
+            -u "$FTP_USERNAME:$FTP_PASSWORD" \
+            "ftp://$FTP_HOST/" || true
+
       - name: Deploy to preview.mikebastin.com over FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
