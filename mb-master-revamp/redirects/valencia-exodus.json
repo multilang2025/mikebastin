@@ -1,0 +1,161 @@
+{
+  "_comment": "Cross-domain 301 map for the Valencia exodus (HANDOFF.md §18). One record per relocating mikebastin.com URL. Separate from content-map.json, which binds WPML translation groups inside mikebastin.com; these URLs leave the domain entirely and have no sibling to bind. Targets on valenciamove.com use its live shape: top-level pages are /slug/, articles are /blog/slug/.",
+  "_confidence": {
+    "exact": "valenciamove.com already covers the same topic. Redirect, do not republish. The mikebastin version is the one that goes away.",
+    "merge": "valenciamove.com has an adjacent page. Anything the mikebastin version says that the VM page does not should be folded in before the redirect goes live, otherwise the redirect loses the content.",
+    "new": "valenciamove.com has nothing on this. Needs a page built there before a redirect has anywhere to point."
+  },
+  "target_host": "https://valenciamove.com",
+  "records": [
+    {
+      "from": "/international-schools-in-valencia/",
+      "to": "/international-schools-valencia/",
+      "confidence": "exact"
+    },
+    {
+      "from": "/valencia-cost-of-living/",
+      "to": "/cost-of-living-valencia/",
+      "confidence": "exact",
+      "note": "10,601 impressions, the highest-value URL in the exodus. VM already ranks its own page for this. Republishing would put the two in direct competition."
+    },
+    {
+      "from": "/valencia-living-expenses/",
+      "to": "/cost-of-living-valencia/",
+      "confidence": "merge",
+      "note": "HANDOFF.md §18 says merge INTO cost-of-living during the move: one fact-check, one VM page."
+    },
+    {
+      "from": "/move-to-valencia-spain-from-usa/",
+      "to": "/moving-to-valencia-from-usa/",
+      "confidence": "exact"
+    },
+    {
+      "from": "/american-move-to-valencia-spain/",
+      "to": "/moving-to-valencia-from-usa/",
+      "confidence": "merge",
+      "note": "Second US-origin post. Same destination page as the one above; check the two do not each carry unique material before collapsing them."
+    },
+    {
+      "from": "/shipping-to-valencia-spain/",
+      "to": "/shipping-belongings-spain/",
+      "confidence": "merge"
+    },
+    {
+      "from": "/basic-spanish-valencia/",
+      "to": "/blog/learning-spanish-valencia/",
+      "confidence": "merge"
+    },
+    {
+      "from": "/best-neighborhoods-valencia/",
+      "to": "/neighborhoods-valencia/",
+      "confidence": "exact"
+    },
+    {
+      "from": "/neighbourhoods-for-professionals-in-valencia/",
+      "to": "/blog/best-neighborhoods-families-professionals/",
+      "confidence": "merge",
+      "note": "VM's page covers families and professionals together; the mikebastin one is professionals only."
+    },
+    {
+      "from": "/essential-things-to-do-in-cultural-valencia/",
+      "to": "/things-to-do-valencia/",
+      "confidence": "merge"
+    },
+    {
+      "from": "/valencia-public-transportation/",
+      "to": "/valencia-transportation-guide/",
+      "confidence": "exact"
+    },
+    {
+      "from": "/valencia-airport-guide/",
+      "to": "/valencia-transportation-guide/",
+      "confidence": "merge",
+      "note": "No airport page on VM. The transport guide is the nearest home, but an airport guide may deserve its own URL there."
+    },
+    {
+      "from": "/valencia-expat/",
+      "to": "/expat-community-valencia/",
+      "confidence": "merge"
+    },
+    {
+      "from": "/valencia-digital-nomads/",
+      "to": "/blog/best-areas-valencia-digital-nomads/",
+      "confidence": "merge"
+    },
+    {
+      "from": "/valencia-remote-working/",
+      "to": null,
+      "confidence": "new"
+    },
+    {
+      "from": "/live-in-valencia/",
+      "to": null,
+      "confidence": "new",
+      "note": "Broad 'living in Valencia' framing. May be better collapsed into an existing VM hub than given its own URL."
+    },
+    {
+      "from": "/valencia-good-place-to-live/",
+      "to": null,
+      "confidence": "new",
+      "note": "Same framing question as live-in-valencia. Decide the two together."
+    },
+    {
+      "from": "/living-in-a-flat-in-valencia-a-pragmatic-overview/",
+      "to": null,
+      "confidence": "new"
+    },
+    {
+      "from": "/valencia-50-shades-of-noise/",
+      "to": null,
+      "confidence": "new",
+      "note": "Personal, opinionated register. Nothing like it on VM; check it fits that site's voice before porting."
+    },
+    {
+      "from": "/valencia-the-not-so-perfect-mediterranean-paradise/",
+      "to": null,
+      "confidence": "new",
+      "note": "Same register question as 50-shades-of-noise."
+    },
+    {
+      "from": "/work-life-balance-in-valencia/",
+      "to": null,
+      "confidence": "new"
+    },
+    {
+      "from": "/b2b-trade-shows-in-valencia/",
+      "to": null,
+      "confidence": "new",
+      "note": "Owner decision 21 Aug. Carries known fact-check flags: resolve them before it is published on VM, which runs a truth contract."
+    },
+    {
+      "from": "/fr/cout-de-la-vie-valencia/",
+      "to": "/fr/cout-de-la-vie-valencia/",
+      "confidence": "exact",
+      "note": "555 impressions on the FR transport sibling aside, this is the FR half of the crown jewel. Same slug either side."
+    },
+    {
+      "from": "/fr/expatrie-valencia/",
+      "to": "/fr/communaute-expatries-valencia/",
+      "confidence": "merge"
+    },
+    {
+      "from": "/fr/transport-a-valencia/",
+      "to": "/fr/guide-transports-valencia/",
+      "confidence": "exact",
+      "note": "555 impressions."
+    },
+    {
+      "from": "/fr/travailler-a-valencia-en-tant-quexpatrie/",
+      "to": null,
+      "confidence": "new",
+      "note": "FR sibling of valencia-remote-working, which is also 'new'. Decide the pair together."
+    },
+    {
+      "from": "/fr/valencia-50-nuances-de-bruits/",
+      "to": null,
+      "confidence": "new",
+      "note": "FR sibling of valencia-50-shades-of-noise."
+    }
+  ],
+  "_locales": "FR siblings redirect to valenciamove.com's own FR slug, which it already maintains in src/lib/slug-translations.ts. VM serves en, fr, es, nl and it, so every one of these has somewhere to land. ES siblings are unresolved: content-map.json's groups array is empty, so nothing binds a mikebastin ES post to its EN original and the ES set cannot be enumerated yet."
+}
