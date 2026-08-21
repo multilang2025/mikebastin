@@ -1,0 +1,44 @@
+/* Three families, each with one job. Body weight is 350, not 400: it is
+   deliberate and easy to lose in a redesign. */
+
+:root {
+  --font-display: "Fraunces", "Iowan Old Style", Georgia, serif;
+  --font-script:  "Cormorant Garamond", Georgia, serif;
+  --font-sans:    "Inter", system-ui, sans-serif;
+
+  /* weights */
+  --fw-body:      350;
+  --fw-medium:    500;
+  --fw-semibold:  600;
+
+  /* leading */
+  --lh-body:      1.62;
+  --lh-display:   1.08;
+  --lh-heading:   1.12;
+  --lh-quote:     1.14;
+
+  /* tracking */
+  --track-display: -0.016em;
+  --track-caps:    0.11em;
+  --track-eyebrow: 0.015em;
+
+  /* scale, as shipped: fluid clamps, no breakpoints */
+  --fs-hero:     clamp(2.7rem, 7.4vw, 5.6rem);
+  --fs-h1:       clamp(2.3rem, 5.6vw, 4rem);
+  --fs-quote:    clamp(1.9rem, 4.6vw, 3.4rem);
+  --fs-h2:       clamp(1.8rem, 3.6vw, 2.9rem);
+  --fs-h3:       clamp(1.6rem, 3.1vw, 2.35rem);
+  --fs-h4:       1.08rem;
+  --fs-lede:     clamp(1.05rem, 1.65vw, 1.24rem);
+  --fs-body:     1.05rem;
+  --fs-body-sm:  0.95rem;
+  --fs-meta:     0.88rem;
+  --fs-small:    0.82rem;
+  --fs-caps:     0.72rem;
+  --fs-eyebrow:  clamp(1.2rem, 1.8vw, 1.55rem);
+
+  /* measure */
+  --measure-lede:    58ch;
+  --measure-body:    62ch;
+  --measure-heading: 20ch;
+}

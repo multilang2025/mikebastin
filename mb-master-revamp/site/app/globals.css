@@ -119,6 +119,89 @@
 }
 
 /* ===========================================================
+   Scale tokens — from the Claude Design system export
+   (../design-system/tokens/). Purely additive: the 52 names below
+   were absent here, and the colour tokens above already matched
+   the export exactly, so nothing is overridden.
+
+   These exist because the exported components reference them. A
+   component that says `border-radius: var(--r-card)` against a
+   stylesheet that has never heard of --r-card renders with no
+   radius and no error, which looks almost right and is the hard
+   kind of wrong to spot.
+   =========================================================== */
+
+:root {
+  /* weights, leading, tracking. Body weight is 350, not 400. */
+  --fw-body:      350;
+  --fw-medium:    500;
+  --fw-semibold:  600;
+
+  --lh-body:      1.62;
+  --lh-display:   1.08;
+  --lh-heading:   1.12;
+  --lh-quote:     1.14;
+
+  --track-display: -0.016em;
+  --track-caps:    0.11em;
+  --track-eyebrow: 0.015em;
+
+  /* type scale: fluid clamps, no breakpoints */
+  --fs-hero:     clamp(2.7rem, 7.4vw, 5.6rem);
+  --fs-h1:       clamp(2.3rem, 5.6vw, 4rem);
+  --fs-quote:    clamp(1.9rem, 4.6vw, 3.4rem);
+  --fs-h2:       clamp(1.8rem, 3.6vw, 2.9rem);
+  --fs-h3:       clamp(1.6rem, 3.1vw, 2.35rem);
+  --fs-h4:       1.08rem;
+  --fs-lede:     clamp(1.05rem, 1.65vw, 1.24rem);
+  --fs-body:     1.05rem;
+  --fs-body-sm:  0.95rem;
+  --fs-meta:     0.88rem;
+  --fs-small:    0.82rem;
+  --fs-caps:     0.72rem;
+  --fs-eyebrow:  clamp(1.2rem, 1.8vw, 1.55rem);
+
+  --measure-lede:    58ch;
+  --measure-body:    62ch;
+  --measure-heading: 20ch;
+
+  /* layout and rhythm */
+  --shell:        min(1180px, 86vw);
+  --nav-h:        62px;
+  --band-py:      clamp(64px, 9vw, 128px);
+  --band-py-sm:   clamp(48px, 7vw, 96px);
+  --hero-pt:      clamp(96px, 14vw, 190px);
+  --hero-pb:      clamp(60px, 9vw, 120px);
+
+  --sp-1:  4px;
+  --sp-2:  8px;
+  --sp-3:  12px;
+  --sp-4:  16px;
+  --sp-5:  20px;
+  --sp-6:  24px;
+  --sp-8:  32px;
+  --sp-10: 40px;
+  --sp-12: 48px;
+  --sp-16: 64px;
+
+  --pad-card: 28px 28px;
+  --pad-cell: 32px 28px;
+
+  /* radii: near-square, plus the pill for filter buttons */
+  --r-chip: 3px;
+  --r-card: 4px;
+  --r-pill: 999px;
+  --rule-w: 1px;
+
+  /* motion */
+  --ease:       cubic-bezier(0.22, 0.7, 0.28, 1);
+  --dur-micro:  200ms;
+  --dur-state:  300ms;
+  --dur-reveal: 850ms;
+  --dur-band:   500ms;
+}
+
+/* ===========================================================
    Base
    =========================================================== */
 

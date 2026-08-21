@@ -1,0 +1,60 @@
+<!-- @dsCard group="Components" viewport="700x330" name="Layout" subtitle="Sticky nav, alternating bands, the shared footer" -->
+<!doctype html>
+<html lang="en-GB" data-theme="light">
+<head>
+<meta charset="utf-8">
+<title>Layout</title>
+<link rel="stylesheet" href="../../styles.css">
+<style>
+  body { margin: 0; }
+  .card { padding: 22px 26px; }
+  .stack { display: flex; flex-direction: column; gap: 16px; }
+  .rowg { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+  .btn { font-family: var(--font-sans); font-size: .9rem; font-weight: 500; line-height: 1.2; padding: 11px 22px; border-radius: var(--r-card); border: 1px solid transparent; cursor: pointer; }
+  .btn-primary { background: var(--berry); border-color: var(--berry); color: #fff; }
+  .btn-primary-hover { background: var(--berry-deep); border-color: var(--berry-deep); color: #fff; }
+  .btn-secondary { background: transparent; border-color: var(--rule); color: var(--ink); }
+  .btn-ghost { background: transparent; color: var(--dim); }
+  .btn-disabled { background: var(--berry); border-color: var(--berry); color: #fff; opacity: .42; }
+  .field { width: 100%; font-family: var(--font-sans); font-size: .95rem; font-weight: 350; color: var(--ink); background: var(--shade); border: 1px solid var(--rule); border-radius: var(--r-card); padding: 11px 14px; }
+  .field-focus { border-color: var(--berry); }
+  .lbl { font-size: .72rem; text-transform: uppercase; letter-spacing: var(--track-caps); color: var(--dim); display: block; margin-bottom: 7px; }
+  .hint { font-size: .82rem; color: var(--dim); margin: 7px 0 0; }
+  .err { font-size: .85rem; color: var(--berry); margin: 7px 0 0; }
+  .chip { display: inline-block; border-radius: var(--r-chip); padding: 3px 9px; font-size: .74rem; background: var(--chip); color: var(--dim); }
+  .chip-accent { background: var(--berry-soft); color: var(--berry); text-transform: uppercase; letter-spacing: var(--track-caps); font-size: .66rem; padding: 2px 8px; }
+  .chip-outline { background: transparent; border: 1px solid var(--berry); color: var(--berry); }
+  .chip-struck { text-decoration: line-through; }
+  .pill { border-radius: var(--r-pill); border: 1px solid var(--rule); background: transparent; color: var(--dim); font-family: var(--font-sans); font-size: .82rem; padding: 6px 16px; cursor: pointer; }
+  .pill-on { border-color: var(--berry); background: var(--berry-soft); color: var(--berry); }
+  .box { width: 18px; height: 18px; border-radius: var(--r-chip); border: 1px solid var(--rule); background: var(--shade); position: relative; flex: 0 0 auto; }
+  .box-on { border-color: var(--berry); background: var(--berry); }
+  .box-on::after { content: ""; position: absolute; left: 5px; top: 5px; width: 7px; height: 4px; border-left: 1.6px solid #fff; border-bottom: 1.6px solid #fff; transform: rotate(-45deg); }
+  .cbrow { display: flex; gap: 11px; align-items: flex-start; font-size: .95rem; }
+  .ul { color: var(--berry); text-decoration: none; position: relative; }
+  .ul-hover { border-bottom: 1px solid currentColor; }
+</style>
+</head>
+<body>
+  <header class="band band-b" style="border-bottom:1px solid var(--rule);padding:0 26px">
+    <nav style="display:flex;height:62px;align-items:center;justify-content:space-between;gap:24px">
+      <span style="display:flex;align-items:center;gap:10px">
+        <span aria-hidden style="display:inline-flex;flex-direction:column;gap:3px;width:20px;flex:0 0 auto"><i style="display:block;width:100%;height:2px;border-radius:1px;background:var(--berry)"></i><i style="display:block;width:72%;height:2px;border-radius:1px;background:var(--dim)"></i><i style="display:block;width:86%;height:2px;border-radius:1px;background:var(--dim)"></i><i style="display:block;width:54%;height:2px;border-radius:1px;background:var(--dim)"></i></span>
+        <span class="display" style="font-size:1.05rem;font-weight:600">Mike Bastin</span>
+      </span>
+      <span style="display:flex;gap:24px;font-size:.86rem">
+        <a class="ul" href="#">Home</a><a class="ul" href="#">Work</a><a class="ul" href="#">Services</a><a class="ul ul-hover" href="#">Results</a><a class="ul" href="#">Contact</a>
+      </span>
+    </nav>
+  </header>
+  <section class="band band-b grain" style="position:relative;padding:26px">
+    <p class="eyebrow" style="margin:0 0 6px">Reading the swell for twenty-five years, in four languages</p>
+    <h2 style="margin:0;font-size:1.6rem;font-weight:600">A band carries the tokens. Components read names.</h2>
+  </section>
+  <footer class="band band-a" style="padding:26px">
+    <p class="eyebrow" style="margin:0 0 8px">Clean face, no crowd</p>
+    <h3 style="margin:0 0 12px;font-size:1.35rem;font-weight:600;max-width:15ch">Tell me which language is losing you money.</h3>
+    <div style="display:flex;flex-direction:column;gap:4px;font-size:.95rem"><a class="ul" href="#">hello@mikebastin.com</a><a class="ul" href="#">+34 671 17 57 74</a></div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,790 @@
+<!doctype html>
+<html lang="en-GB" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>mikebastin.com UI kit, print</title>
+<meta name="omelette-print-source" content="v1787330991480370 ui_kits/web/index.html">
+<link rel="stylesheet" href="../../styles.css">
+<style>doc-page:not(:defined) { visibility: hidden; }</style>
+<style>
+  @font-face { font-family: "Fraunces"; src: url("../../assets/fonts/fraunces.woff2") format("woff2"); font-weight: 400 700; font-style: normal; font-display: swap; }
+  @font-face { font-family: "Cormorant Garamond"; src: url("../../assets/fonts/cormorant.woff2") format("woff2"); font-weight: 300 400; font-style: italic; font-display: swap; }
+  @font-face { font-family: "Inter"; src: url("../../assets/fonts/inter.woff2") format("woff2"); font-weight: 300 600; font-style: normal; font-display: swap; }
+  .screen { display: none; }
+  .screen.on { display: block; }
+  .btn { font-family: var(--font-sans); font-size: .9rem; font-weight: 500; padding: 11px 22px; border-radius: var(--r-card); border: 1px solid var(--berry); background: var(--berry); color: #fff; cursor: pointer; transition: background-color var(--dur-state) var(--ease), border-color var(--dur-state) var(--ease); }
+  .btn:hover { background: var(--berry-deep); border-color: var(--berry-deep); }
+  .btn-secondary { background: transparent; border-color: var(--rule); color: var(--ink); }
+  .btn-secondary:hover { background: var(--berry-soft); border-color: var(--berry); color: var(--berry); }
+  .field { width: 100%; font-family: var(--font-sans); font-size: .95rem; font-weight: 350; color: var(--ink); background: var(--shade); border: 1px solid var(--rule); border-radius: var(--r-card); padding: 11px 14px; }
+  .field:focus { border-color: var(--berry); outline: none; }
+  .lbl { display: block; margin-bottom: 7px; font-size: .72rem; text-transform: uppercase; letter-spacing: var(--track-caps); color: var(--dim); }
+  .hint { margin: 7px 0 0; font-size: .82rem; color: var(--dim); }
+  .chip { display: inline-block; border-radius: var(--r-chip); padding: 3px 9px; font-size: .74rem; background: var(--chip); color: var(--dim); }
+  .chip-outline { background: transparent; border: 1px solid var(--berry); color: var(--berry); }
+  .chip-struck { text-decoration: line-through; }
+  .pill { border-radius: var(--r-pill); border: 1px solid var(--rule); background: transparent; color: var(--dim); font-family: var(--font-sans); font-size: .82rem; padding: 6px 16px; cursor: pointer; transition: all var(--dur-state) var(--ease); }
+  .pill[aria-pressed="true"] { border-color: var(--berry); background: var(--berry-soft); color: var(--berry); }
+  .cb { display: flex; gap: 11px; align-items: flex-start; font-size: .95rem; cursor: pointer; }
+  .cb input { position: absolute; opacity: 0; }
+  .cb i { flex: 0 0 auto; position: relative; width: 18px; height: 18px; margin-top: 3px; border-radius: var(--r-chip); border: 1px solid var(--rule); background: var(--shade); transition: all var(--dur-state) var(--ease); }
+  .cb input:checked + i { border-color: var(--berry); background: var(--berry); }
+  .cb input:checked + i::after { content: ""; position: absolute; left: 5px; top: 5px; width: 7px; height: 4px; border-left: 1.6px solid #fff; border-bottom: 1.6px solid #fff; transform: rotate(-45deg); }
+  .bar { height: 8px; flex: 1; border-radius: var(--r-pill); background: var(--shade); overflow: hidden; }
+  .bar > i { display: block; height: 100%; border-radius: var(--r-pill); background: var(--berry); transition: width 1.2s var(--ease); }
+  .cluster { width: 100%; text-align: left; font: inherit; color: var(--ink); cursor: pointer; border: 0; border-left: 2px solid var(--rule); background: transparent; padding: 16px 12px 16px 20px; transition: all var(--dur-band) var(--ease); }
+  .cluster[aria-expanded="true"] { border-left-color: var(--berry); background: var(--shade); }
+  .cluster .body { display: none; padding-top: 16px; }
+  .cluster[aria-expanded="true"] .body { display: block; }
+  .grid-hair { display: grid; gap: 1px; background: var(--rule); grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); }
+  table.ledger { width: 100%; border-collapse: collapse; text-align: left; font-variant-numeric: tabular-nums; }
+  table.ledger th, table.ledger td { border-bottom: 1px solid var(--rule); padding: 14px 16px 14px 0; }
+  .cardsurface { border: 1px solid var(--rule); border-radius: var(--r-card); background: var(--shade); padding: 24px; }
+  /* The swell, in constant motion. Three lines at different speeds read as
+     parallax rather than a marquee. Berry leads, dim trails, berry echoes faint. */
+  .swellrun { animation: swellrun linear infinite; }
+  .swellrun.r1 { animation-duration: 15s; }
+  .swellrun.r2 { animation-duration: 21s; }
+  .swellrun.r3 { animation-duration: 27s; }
+  @keyframes swellrun { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+  @media (prefers-reduced-motion: reduce) { .swellrun { animation: none; } }
+  /* Second band: the supplied globe footage. The clip carries its own dark
+     background, which showed as a box on Morning Glass, so it is cropped to a
+     circle: the remaining disc reads as a deliberate plate on both grounds, the
+     same way the --deep plate stands in for a missing screenshot. Loops silently,
+     pauses flat under reduced motion.
+
+     Run large: the clip is photoreal with its own black space background, so rather
+     than crop it to a hard disc the edge is feathered with a radial mask. The black
+     dissolves into the band on either ground and the atmospheric rim survives. A
+     --deep halo behind it picks up the blue the footage already has. The plate is
+     sized off the band's height, not its width, so the feathered circle always
+     completes inside the band: sizing it by width let the band's edge slice the
+     globe flat. It bleeds off the right only, where the cut is vertical and reads
+     as the globe continuing past the page.
+
+     Both radial gradients say `closest-side`. Left at the default farthest-corner,
+     100% sits out at the box's corner, so the mask is still around 45% opaque where
+     the box ends at the edge midpoints: a straight cut on all four sides. */
+  .spacequote { position: relative; overflow: hidden; min-height: clamp(460px, 54vw, 740px); display: flex; align-items: center; }
+  .globeplate { position: absolute; right: -8%; top: 50%; transform: translateY(-50%); height: 96%; width: auto; aspect-ratio: 1; pointer-events: none; }
+  .globeglow { position: absolute; inset: 0; border-radius: 50%; background: radial-gradient(circle closest-side at 50% 50%, color-mix(in oklab, var(--deep) 55%, transparent) 0%, color-mix(in oklab, var(--deep) 16%, transparent) 58%, transparent 100%); }
+  .globevid { display: block; width: 100%; height: 100%; object-fit: cover;
+    -webkit-mask-image: radial-gradient(circle closest-side at 50% 50%, #000 52%, rgba(0,0,0,.55) 76%, transparent 100%);
+    mask-image: radial-gradient(circle closest-side at 50% 50%, #000 52%, rgba(0,0,0,.55) 76%, transparent 100%); }
+  /* Frames: each project opens as the site itself, in a chrome-barred plate.
+     The captures are single viewports, not full pages, so there is nothing to
+     scroll to: hover pans instead of faking a scroll it cannot do. The image is
+     held at 112% of the frame so every aspect ratio has room to travel, rather
+     than trusting each capture to be taller than 16:10. Info is hidden
+     until the frame is clicked, one open at a time. */
+  .fgrid { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 40px; }
+  .frame { border: 1px solid var(--rule); border-radius: var(--r-card); background: var(--shade); overflow: hidden; transition: border-color var(--dur-state) var(--ease), transform var(--dur-state) var(--ease); }
+  .frame:hover { border-color: color-mix(in oklab, var(--berry) 40%, transparent); transform: translateY(-3px); }
+  .frame[data-open="true"] { border-color: var(--berry); transform: none; }
+  .fbtn { display: block; width: 100%; padding: 0; border: 0; background: none; font: inherit; color: inherit; text-align: left; cursor: pointer; }
+  .fchrome { display: flex; align-items: center; gap: 12px; padding: 10px 14px; border-bottom: 1px solid var(--rule); background: color-mix(in oklab, var(--ink) 3%, transparent); }
+  .fdots { display: flex; gap: 5px; }
+  .fdots i { display: block; width: 7px; height: 7px; border-radius: 50%; background: var(--rule); }
+  .faddr { flex: 1 1 auto; display: flex; align-items: center; gap: 7px; min-width: 0; max-width: 62%; padding: 4px 11px; border: 1px solid var(--rule); border-radius: var(--r-pill); background: var(--chip); color: var(--dim); }
+  .furl { font-size: .72rem; color: var(--dim); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .fnum { margin-left: auto; font-family: var(--font-display); font-size: .82rem; font-weight: 600; color: var(--berry); }
+  .fshot { position: relative; display: block; aspect-ratio: 16 / 10; overflow: hidden; background: var(--chip); }
+  .fpan { position: absolute; left: 0; top: 0; width: 100%; height: 112%; object-fit: cover; object-position: top; transition: transform 2.4s var(--ease); }
+  .frame:hover .fpan { transform: translateY(-9%); }
+  .fplate { position: absolute; inset: 0; display: grid; place-items: center; background: linear-gradient(135deg, color-mix(in oklab, var(--deep) 88%, black) 0%, var(--deep) 42%, color-mix(in oklab, var(--berry) 40%, var(--deep)) 100%); }
+  .fbar { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 16px; padding: 18px 20px; }
+  .fbar .fangle { flex: 1 1 auto; }
+  .fmore { flex: 0 0 auto; margin-left: auto; font-size: .78rem; text-transform: uppercase; letter-spacing: var(--track-caps); color: var(--berry); }
+  .fdet { display: grid; grid-template-rows: 0fr; transition: grid-template-rows var(--dur-band) var(--ease); }
+  .frame[data-open="true"] .fdet { grid-template-rows: 1fr; }
+  .fdetin { overflow: hidden; padding: 0 20px; }
+  .frame[data-open="true"] .fdetin { padding: 4px 20px 24px; }
+</style>
+<template id="__bundler_thumbnail" data-bg-color="#0A1B28">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img" aria-label="Mike Bastin">
+    <rect width="120" height="120" fill="#0A1B28"/>
+    <rect x="36" y="44" width="48" height="5" rx="1.5" fill="#F2556A"/>
+    <rect x="36" y="56" width="35" height="5" rx="1.5" fill="#AFC0CC"/>
+    <rect x="36" y="68" width="41" height="5" rx="1.5" fill="#AFC0CC"/>
+    <rect x="36" y="80" width="26" height="5" rx="1.5" fill="#AFC0CC"/>
+  </svg>
+</template>
+
+<style>
+  /* Print copy. Colours are the design's own, so keep them. */
+  * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
+  /* Jump animations to their end state rather than removing them, which would
+     leave the reveal-based elements at their hidden base. */
+  * { animation-delay: -99s !important; animation-duration: .001s !important;
+      animation-iteration-count: 1 !important; animation-fill-mode: both !important;
+      animation-play-state: running !important; transition-duration: 0s !important; }
+
+  /* All five screens print, each starting its own page. */
+  .screen { display: block !important; }
+  .screen + .screen { break-before: page; }
+
+  /* The interactive states are shown open on paper. */
+  .frame[data-open="true"] .fdet { grid-template-rows: 1fr; }
+  .frame { break-inside: avoid; }
+  .cluster { break-inside: avoid; }
+  .cardsurface, .grid-hair > div, figure { break-inside: avoid; }
+
+  /* The quote band was a viewport-sized stage with an absolutely placed globe.
+     On paper it is a two-column row at a fixed size: no vw units, nothing
+     absolute, nothing clipped. */
+  .spacequote { display: flex; flex-wrap: wrap; align-items: center; gap: 40px; min-height: 0; overflow: visible; }
+  .spacequote .shell { order: 1; flex: 1 1 320px; width: auto; }
+  .spacequote blockquote { text-shadow: none; }
+  .globeplate { order: 2; position: static; transform: none; width: 280px; height: 280px; margin-left: auto; }
+  .globevid { border-radius: 50%; }
+
+  /* No hover state exists on paper, so the frames show their captures square on. */
+  .fpan { transform: none !important; }
+
+  /* Bands carry their own padding; trim it so pages are not mostly air. */
+  .band { padding-top: 40px !important; padding-bottom: 40px !important; }
+  .spacequote { padding: 30px 0 !important; }
+</style>
+</head>
+<body>
+<doc-page margin="0.5in">
+
+
+
+
+
+<!-- ============ SPREAD ============ -->
+<main class="screen" id="spread">
+  <section class="band band-a grain hero-glow" style="position:relative;overflow:hidden;padding-top:var(--hero-pt);padding-bottom:var(--hero-pb)">
+    <div class="shell" style="position:relative">
+      <p class="eyebrow" style="margin:0 0 32px">Reading the swell for twenty-five years, in four languages</p>
+      <div class="swellstage" style="position:relative;width:min(560px,82%);height:96px;margin-bottom:40px;overflow:hidden" role="img" aria-label="A swell in constant motion, in the site's own colours">
+      <svg class="swellrun r1" viewBox="0 0 840 96" preserveAspectRatio="none" aria-hidden style="position:absolute;left:0;top:0;width:200%;height:100%">
+        <path d="M0 40 Q 52.5 21 105 40 Q 157.5 59 210 40 Q 262.5 21 315 40 Q 367.5 59 420 40 Q 472.5 21 525 40 Q 577.5 59 630 40 Q 682.5 21 735 40 Q 787.5 59 840 40" fill="none" stroke="var(--berry)" stroke-width="2.6" stroke-linecap="round" opacity="1"></path>
+      </svg>
+      <svg class="swellrun r2" viewBox="0 0 840 96" preserveAspectRatio="none" aria-hidden style="position:absolute;left:0;top:0;width:200%;height:100%">
+        <path d="M0 56 Q 52.5 42 105 56 Q 157.5 70 210 56 Q 262.5 42 315 56 Q 367.5 70 420 56 Q 472.5 42 525 56 Q 577.5 70 630 56 Q 682.5 42 735 56 Q 787.5 70 840 56" fill="none" stroke="var(--dim)" stroke-width="1.8" stroke-linecap="round" opacity="0.75"></path>
+      </svg>
+      <svg class="swellrun r3" viewBox="0 0 840 96" preserveAspectRatio="none" aria-hidden style="position:absolute;left:0;top:0;width:200%;height:100%">
+        <path d="M0 70 Q 52.5 60 105 70 Q 157.5 80 210 70 Q 262.5 60 315 70 Q 367.5 80 420 70 Q 472.5 60 525 70 Q 577.5 80 630 70 Q 682.5 60 735 70 Q 787.5 80 840 70" fill="none" stroke="var(--berry)" stroke-width="1.2" stroke-linecap="round" opacity="0.35"></path>
+      </svg>
+      </div>      <h1 style="max-width:16ch;margin-bottom:36px;padding-bottom:.06em;font-size:var(--fs-hero);font-weight:600;line-height:1.08">Ranking is one language.<br><span class="shimmer">Converting is another.</span></h1>
+      <p style="max-width:54ch;margin:0 0 40px;font-size:var(--fs-lede);line-height:1.58;color:var(--dim)">Multilingual SEO, localisation and AI consulting from Valencia. Twenty-five years of watching what actually works when a business tries to sell in a language it does not think in.</p>
+      <div style="display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;font-size:.94rem;color:var(--dim)">
+        <span>Ranking in EN</span><i style="display:block;width:3px;height:3px;border-radius:50%;background:var(--berry)"></i>
+        <span>Converting in FR</span><i style="display:block;width:3px;height:3px;border-radius:50%;background:var(--berry)"></i>
+        <span>Localised in ES</span><i style="display:block;width:3px;height:3px;border-radius:50%;background:var(--berry)"></i>
+        <span>Indexed in NL</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="band band-b spacequote" style="padding:var(--band-py) 0">
+    <div class="globeplate">
+      <span class="globeglow"></span>
+      <img class="globevid" src="../../assets/globe-poster.jpg" alt="The earth turning, seen from space">
+    </div>
+    <div class="shell" style="position:relative;z-index:1">
+      <blockquote class="display" style="max-width:20ch;margin:0;font-size:var(--fs-quote);font-weight:500;line-height:1.14;text-shadow:0 2px 40px var(--bg),0 0 14px var(--bg)">A site that ranks everywhere and <em style="color:var(--berry)">converts nowhere</em> has a language problem, not a traffic problem.</blockquote>
+    </div>
+  </section>
+
+  <section class="band band-a" style="padding:var(--band-py) 0">
+    <div class="shell">
+      <p class="eyebrow" style="margin:0 0 12px">Picked from the line-up</p>
+      <h2 style="max-width:16ch;margin-bottom:16px;font-size:var(--fs-h2);font-weight:600;line-height:1.1">Eight projects, all of them still live.</h2>
+      <div style="margin-top:40px">
+        <article style="display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));align-items:center;column-gap:56px;row-gap:32px;border-top:1px solid var(--rule);padding:clamp(48px,7vw,96px) 0">
+          <div style="position:relative;order:1;aspect-ratio:5/4;overflow:hidden;border-radius:3px"><img src="../../assets/work/betranslated.webp" alt="The BeTranslated homepage" loading="lazy" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:top"><div style="position:absolute;inset:0;box-shadow:inset 0 0 90px rgb(0 0 0 / .35)"></div></div>
+          <div style="order:2">
+            <div style="display:flex;align-items:baseline;gap:16px;margin-bottom:12px"><span class="display" style="color:var(--berry);font-size:1.3rem;font-weight:500">I.</span><span class="eyebrow">Founded it, still run it</span></div>
+            <h3 style="margin-bottom:16px;font-size:var(--fs-h3);font-weight:600;line-height:1.1"><a class="ulink" href="#">BeTranslated</a></h3>
+            <p style="max-width:46ch;margin:0 0 24px;font-size:1.02rem;color:var(--dim)">A translation agency with six regional identities and a multi-TLD setup that has to rank separately in every one of them.</p>
+            <ul style="display:flex;flex-wrap:wrap;gap:8px;margin:0 0 28px;padding:0;list-style:none"><li><span class="chip">Multi-TLD SEO</span></li><li><span class="chip">Multilingual content</span></li><li><span class="chip">Founder</span></li></ul>
+            <dl style="display:flex;flex-wrap:wrap;gap:16px 40px;margin:0"><div><dt class="display" style="color:var(--berry);font-size:1.5rem;font-weight:600;line-height:1;font-variant-numeric:tabular-nums">6</dt><dd class="caps" style="margin:6px 0 0">Regional TLDs</dd></div><div><dt class="display" style="color:var(--berry);font-size:1.5rem;font-weight:600;line-height:1;font-variant-numeric:tabular-nums">20 yr</dt><dd class="caps" style="margin:6px 0 0">Running it</dd></div></dl>
+            <div style="margin-top:28px"><a class="ulink" href="#" style="font-size:.9rem;font-weight:500">Read the case study</a></div>
+          </div>
+        </article><article style="display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));align-items:center;column-gap:56px;row-gap:32px;border-top:1px solid var(--rule);padding:clamp(48px,7vw,96px) 0">
+          <div style="position:relative;order:2;aspect-ratio:5/4;overflow:hidden;border-radius:3px"><img src="../../assets/work/globaprom.webp" alt="The Globaprom homepage" loading="lazy" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:top"><div style="position:absolute;inset:0;box-shadow:inset 0 0 90px rgb(0 0 0 / .35)"></div></div>
+          <div style="order:1">
+            <div style="display:flex;align-items:baseline;gap:16px;margin-bottom:12px"><span class="display" style="color:var(--berry);font-size:1.3rem;font-weight:500">II.</span><span class="eyebrow">Custom AI software</span></div>
+            <h3 style="margin-bottom:16px;font-size:var(--fs-h3);font-weight:600;line-height:1.1"><a class="ulink" href="#">Globaprom</a></h3>
+            <p style="max-width:46ch;margin:0 0 24px;font-size:1.02rem;color:var(--dim)">Fixed scope, fixed price, delivered in weeks, multilingual from the first commit. Built the shipment tracking portal that took roughly three hours a day of status chasing out of a freight forwarder's week.</p>
+            <ul style="display:flex;flex-wrap:wrap;gap:8px;margin:0 0 28px;padding:0;list-style:none"><li><span class="chip">Custom AI software</span></li><li><span class="chip">Multilingual from build</span></li><li><span class="chip">Fixed scope, fixed price</span></li></ul>
+            <dl style="display:flex;flex-wrap:wrap;gap:16px 40px;margin:0"><div><dt class="display" style="color:var(--berry);font-size:1.5rem;font-weight:600;line-height:1;font-variant-numeric:tabular-nums">3 h/day</dt><dd class="caps" style="margin:6px 0 0">Saved on tracking</dd></div><div><dt class="display" style="color:var(--berry);font-size:1.5rem;font-weight:600;line-height:1;font-variant-numeric:tabular-nums">10 h/wk</dt><dd class="caps" style="margin:6px 0 0">On reconciliation</dd></div></dl>
+            <div style="margin-top:28px"><a class="ulink" href="#" style="font-size:.9rem;font-weight:500">Read the case study</a></div>
+          </div>
+        </article><article style="display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));align-items:center;column-gap:56px;row-gap:32px;border-top:1px solid var(--rule);padding:clamp(48px,7vw,96px) 0">
+          <div style="position:relative;order:1;aspect-ratio:5/4;overflow:hidden;border-radius:3px"><div style="position:absolute;inset:0;display:grid;place-items:center;background:linear-gradient(135deg,color-mix(in oklab,var(--deep) 88%,black) 0%,var(--deep) 42%,color-mix(in oklab,var(--berry) 40%,var(--deep)) 100%)"><span class="display" style="color:#F5EFE2;font-size:clamp(1.15rem,2.2vw,1.75rem);font-weight:600;text-shadow:0 2px 24px rgb(0 0 0 / .4)">txintlfreight.com</span></div><div style="position:absolute;inset:0;box-shadow:inset 0 0 90px rgb(0 0 0 / .35)"></div></div>
+          <div style="order:2">
+            <div style="display:flex;align-items:baseline;gap:16px;margin-bottom:12px"><span class="display" style="color:var(--berry);font-size:1.3rem;font-weight:500">III.</span><span class="eyebrow">Houston industrial freight</span></div>
+            <h3 style="margin-bottom:16px;font-size:var(--fs-h3);font-weight:600;line-height:1.1"><a class="ulink" href="#">TX International Freight</a></h3>
+            <p style="max-width:46ch;margin:0 0 24px;font-size:1.02rem;color:var(--dim)">Technical SEO and content for a freight forwarder whose customers search in terms no marketer would guess. Learning the vocabulary was most of the work.</p>
+            <ul style="display:flex;flex-wrap:wrap;gap:8px;margin:0 0 28px;padding:0;list-style:none"><li><span class="chip">Technical SEO</span></li><li><span class="chip">Industry content</span></li><li><span class="chip">Houston local search</span></li></ul>
+            <dl style="display:flex;flex-wrap:wrap;gap:16px 40px;margin:0"><div><dt class="display" style="color:var(--berry);font-size:1.5rem;font-weight:600;line-height:1;font-variant-numeric:tabular-nums">2,616</dt><dd class="caps" style="margin:6px 0 0">Clicks, May to July</dd></div><div><dt class="display" style="color:var(--berry);font-size:1.5rem;font-weight:600;line-height:1;font-variant-numeric:tabular-nums">764,222</dt><dd class="caps" style="margin:6px 0 0">Impressions</dd></div></dl>
+            <div style="margin-top:28px"><a class="ulink" href="#" style="font-size:.9rem;font-weight:500">Read the case study</a></div>
+          </div>
+        </article><article style="display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));align-items:center;column-gap:56px;row-gap:32px;border-top:1px solid var(--rule);padding:clamp(48px,7vw,96px) 0">
+          <div style="position:relative;order:2;aspect-ratio:5/4;overflow:hidden;border-radius:3px"><img src="../../assets/work/c21perdomo.webp" alt="The Century 21 Perdomo homepage" loading="lazy" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:top"><div style="position:absolute;inset:0;box-shadow:inset 0 0 90px rgb(0 0 0 / .35)"></div></div>
+          <div style="order:1">
+            <div style="display:flex;align-items:baseline;gap:16px;margin-bottom:12px"><span class="display" style="color:var(--berry);font-size:1.3rem;font-weight:500">IV.</span><span class="eyebrow">Dominican real estate</span></div>
+            <h3 style="margin-bottom:16px;font-size:var(--fs-h3);font-weight:600;line-height:1.1"><a class="ulink" href="#">Century 21 Perdomo</a></h3>
+            <p style="max-width:46ch;margin:0 0 24px;font-size:1.02rem;color:var(--dim)">Four languages over a headless WordPress build with WPML and WooCommerce. Property listings that have to stay correct in every locale while stock turns over weekly.</p>
+            <ul style="display:flex;flex-wrap:wrap;gap:8px;margin:0 0 28px;padding:0;list-style:none"><li><span class="chip">Multilingual SEO</span></li><li><span class="chip">Headless WordPress</span></li><li><span class="chip">Four languages</span></li></ul>
+            <dl style="display:flex;flex-wrap:wrap;gap:16px 40px;margin:0"><div><dt class="display" style="color:var(--berry);font-size:1.5rem;font-weight:600;line-height:1;font-variant-numeric:tabular-nums">9,944</dt><dd class="caps" style="margin:6px 0 0">Clicks, May to July</dd></div><div><dt class="display" style="color:var(--berry);font-size:1.5rem;font-weight:600;line-height:1;font-variant-numeric:tabular-nums">10.1</dt><dd class="caps" style="margin:6px 0 0">Average position</dd></div></dl>
+            <div style="margin-top:28px"><a class="ulink" href="#" style="font-size:.9rem;font-weight:500">Read the case study</a></div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="band band-b" style="padding:clamp(56px,8vw,110px) 0">
+    <div class="shell">
+      <div class="grid-hair">
+        <div class="band band-b" style="padding:36px 24px"><div class="display" style="color:var(--berry);font-size:clamp(2.1rem,4.4vw,3.1rem);font-weight:600;line-height:1">25</div><div class="caps" style="margin-top:12px">Years in search</div></div>
+        <div class="band band-b" style="padding:36px 24px"><div class="display" style="color:var(--berry);font-size:clamp(2.1rem,4.4vw,3.1rem);font-weight:600;line-height:1">4+1</div><div class="caps" style="margin-top:12px">Languages spoken</div></div>
+        <div class="band band-b" style="padding:36px 24px"><div class="display" style="color:var(--berry);font-size:clamp(2.1rem,4.4vw,3.1rem);font-weight:600;line-height:1">8</div><div class="caps" style="margin-top:12px">Projects in the line-up</div></div>
+        <div class="band band-b" style="padding:36px 24px"><div class="display" style="color:var(--berry);font-size:clamp(2.1rem,4.4vw,3.1rem);font-weight:600;line-height:1">12</div><div class="caps" style="margin-top:12px">Domains run</div></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ============ LEDGER ============ -->
+<main class="screen" id="ledger">
+  <section class="band band-a grain" style="position:relative;overflow:hidden;padding-top:var(--hero-pt);padding-bottom:var(--band-py-sm)">
+    <div class="shell" style="position:relative">
+      <p class="eyebrow" style="margin:0 0 32px">Results, not impressions</p>
+      <h1 style="max-width:18ch;margin-bottom:24px;font-size:var(--fs-h1);font-weight:600;line-height:1.08">What actually happened, with the numbers attached</h1>
+      <p style="max-width:58ch;margin:0;font-size:var(--fs-lede);line-height:1.58;color:var(--dim)">A case study is a narrative written afterwards. A report is primary evidence. Very few competing consultants can show multilingual lead figures at all, and this page is where that advantage becomes visible rather than implied.</p>
+    </div>
+  </section>
+
+  <section class="band band-b" style="padding:var(--band-py-sm) 0">
+    <div class="shell">
+      <div style="border:1px dashed color-mix(in oklab, var(--gold) 55%, transparent);background:color-mix(in oklab, var(--gold) 8%, transparent);border-radius:var(--r-card);padding:24px 28px">
+        <p class="caps" style="margin:0 0 4px;color:var(--gold);font-weight:600">Blocked</p>
+        <p style="max-width:62ch;margin:0;font-size:.95rem;line-height:1.55">No client report has been supplied yet, so every number on this page is currently undecided rather than approximate. Send one representative report so its actual shape, not a guess at it, is what gets designed against.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="band band-a" style="padding:var(--band-py) 0">
+    <div class="shell">
+      <p class="eyebrow" style="margin:0 0 12px">What the data actually said</p>
+      <h2 style="max-width:18ch;margin-bottom:20px;font-size:var(--fs-h2);font-weight:600;line-height:1.1">Forty thousand impressions. Six clicks.</h2>
+      <p style="max-width:56ch;margin:0 0 48px;font-size:1.05rem;color:var(--dim)">Before rebuilding anything, we pulled ninety days of Search Console for the whole domain. The problem was never visibility.</p>
+
+      <div style="display:flex;flex-wrap:wrap;gap:8px 24px;margin-bottom:28px;font-size:.78rem;color:var(--dim)">
+        <span style="display:flex;align-items:center;gap:8px"><i style="display:block;width:10px;height:10px;border-radius:2px;background:var(--berry)"></i>Stays on mikebastin.com</span>
+        <span style="display:flex;align-items:center;gap:8px"><i style="display:block;width:10px;height:10px;border-radius:2px;background:var(--silver)"></i>Moves to valenciamove.com</span>
+      </div>
+      <ul id="bars" style="display:flex;flex-direction:column;gap:20px;margin:0;padding:0;list-style:none">
+        
+        <li>
+          <div style="display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin-bottom:8px">
+            <span style="min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:.88rem">/competitor-analysis-traffic-checklist/</span>
+            <span style="flex:0 0 auto;font-size:.95rem;font-weight:500;font-variant-numeric:tabular-nums">18,522</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:16px">
+            <div class="bar"><i style="width:100.0%"></i></div>
+            <span style="width:4.2rem;flex:0 0 auto;text-align:right;font-size:.8rem;font-variant-numeric:tabular-nums;color:var(--dim)">pos 56.0</span>
+          </div>
+        </li>
+        <li>
+          <div style="display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin-bottom:8px">
+            <span style="min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:.88rem">/valencia-cost-of-living/</span>
+            <span style="flex:0 0 auto;font-size:.95rem;font-weight:500;font-variant-numeric:tabular-nums">10,601</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:16px">
+            <div class="bar"><i style="width:57.2%;background:var(--silver)"></i></div>
+            <span style="width:4.2rem;flex:0 0 auto;text-align:right;font-size:.8rem;font-variant-numeric:tabular-nums;color:var(--dim)">pos 12.9</span>
+          </div>
+        </li>
+        <li>
+          <div style="display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin-bottom:8px">
+            <span style="min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:.88rem">/services/global-seo-solutions/</span>
+            <span style="flex:0 0 auto;font-size:.95rem;font-weight:500;font-variant-numeric:tabular-nums">2,825</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:16px">
+            <div class="bar"><i style="width:15.3%"></i></div>
+            <span style="width:4.2rem;flex:0 0 auto;text-align:right;font-size:.8rem;font-variant-numeric:tabular-nums;color:var(--dim)">pos 31.4</span>
+          </div>
+        </li>
+        <li>
+          <div style="display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin-bottom:8px">
+            <span style="min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:.88rem">/conversational-ai-chatbots-business/</span>
+            <span style="flex:0 0 auto;font-size:.95rem;font-weight:500;font-variant-numeric:tabular-nums">2,336</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:16px">
+            <div class="bar"><i style="width:12.6%"></i></div>
+            <span style="width:4.2rem;flex:0 0 auto;text-align:right;font-size:.8rem;font-variant-numeric:tabular-nums;color:var(--dim)">pos 27.8</span>
+          </div>
+        </li>
+        <li>
+          <div style="display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin-bottom:8px">
+            <span style="min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:.88rem">/affiliate-marketing-programs/</span>
+            <span style="flex:0 0 auto;font-size:.95rem;font-weight:500;font-variant-numeric:tabular-nums">2,278</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:16px">
+            <div class="bar"><i style="width:12.3%"></i></div>
+            <span style="width:4.2rem;flex:0 0 auto;text-align:right;font-size:.8rem;font-variant-numeric:tabular-nums;color:var(--dim)">pos 24.1</span>
+          </div>
+        </li>
+        <li>
+          <div style="display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin-bottom:8px">
+            <span style="min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:.88rem">/fr/agence-seo-internationale/</span>
+            <span style="flex:0 0 auto;font-size:.95rem;font-weight:500;font-variant-numeric:tabular-nums">1,969</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:16px">
+            <div class="bar"><i style="width:10.6%"></i></div>
+            <span style="width:4.2rem;flex:0 0 auto;text-align:right;font-size:.8rem;font-variant-numeric:tabular-nums;color:var(--dim)">pos 19.3</span>
+          </div>
+        </li>
+        <li>
+          <div style="display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin-bottom:8px">
+            <span style="min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:.88rem">/best-practices-for-multilingual-seo/</span>
+            <span style="flex:0 0 auto;font-size:.95rem;font-weight:500;font-variant-numeric:tabular-nums">1,398</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:16px">
+            <div class="bar"><i style="width:7.5%"></i></div>
+            <span style="width:4.2rem;flex:0 0 auto;text-align:right;font-size:.8rem;font-variant-numeric:tabular-nums;color:var(--dim)">pos 22.7</span>
+          </div>
+        </li>
+        <li>
+          <div style="display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin-bottom:8px">
+            <span style="min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:.88rem">/internal-linking-tools/</span>
+            <span style="flex:0 0 auto;font-size:.95rem;font-weight:500;font-variant-numeric:tabular-nums">1,372</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:16px">
+            <div class="bar"><i style="width:7.4%"></i></div>
+            <span style="width:4.2rem;flex:0 0 auto;text-align:right;font-size:.8rem;font-variant-numeric:tabular-nums;color:var(--dim)">pos 33.5</span>
+          </div>
+        </li>
+        <li>
+          <div style="display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin-bottom:8px">
+            <span style="min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:.88rem">/fr/consultant-referencement-international/</span>
+            <span style="flex:0 0 auto;font-size:.95rem;font-weight:500;font-variant-numeric:tabular-nums">1,316</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:16px">
+            <div class="bar"><i style="width:7.1%"></i></div>
+            <span style="width:4.2rem;flex:0 0 auto;text-align:right;font-size:.8rem;font-variant-numeric:tabular-nums;color:var(--dim)">pos 18.2</span>
+          </div>
+        </li>
+        <li>
+          <div style="display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin-bottom:8px">
+            <span style="min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:.88rem">/valencia-living-expenses/</span>
+            <span style="flex:0 0 auto;font-size:.95rem;font-weight:500;font-variant-numeric:tabular-nums">1,340</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:16px">
+            <div class="bar"><i style="width:7.2%;background:var(--silver)"></i></div>
+            <span style="width:4.2rem;flex:0 0 auto;text-align:right;font-size:.8rem;font-variant-numeric:tabular-nums;color:var(--dim)">pos 29.6</span>
+          </div>
+        </li>
+      </ul>
+      <p style="max-width:58ch;margin-top:36px;font-size:.92rem;color:var(--dim)">Ninety days of impressions against roughly six clicks. Visibility was never the problem, and the two silver bars are leaving for valenciamove.com, which is the point.</p>
+    </div>
+  </section>
+
+  <section class="band band-b" style="padding:var(--band-py) 0">
+    <div class="shell">
+      <p class="eyebrow" style="margin:0 0 12px">Three locales, one set of groups</p>
+      <h2 style="max-width:20ch;margin-bottom:40px;font-size:var(--fs-h2);font-weight:600;line-height:1.1">Every merge happens in all three languages, or not at all.</h2>
+      <table class="ledger">
+        <thead><tr><th class="caps" style="font-weight:500">Type</th><th class="caps" style="font-weight:500;text-align:right">EN</th><th class="caps" style="font-weight:500;text-align:right">FR</th><th class="caps" style="font-weight:500;text-align:right">ES</th><th class="caps" style="font-weight:500">Cluster depth</th></tr></thead>
+        <tbody>
+          <tr><td style="font-weight:500">Services</td><td style="text-align:right">43</td><td style="text-align:right;color:var(--berry);font-weight:600">44</td><td style="text-align:right">43</td><td style="font-size:.88rem;color:var(--dim)">Complete in all three</td></tr>
+          <tr><td style="font-weight:500">Posts</td><td style="text-align:right">91</td><td style="text-align:right">23</td><td style="text-align:right">20</td><td style="font-size:.88rem;color:var(--dim)">Fewer clusters, fully covered</td></tr>
+          <tr><td style="font-weight:500">Pages</td><td style="text-align:right">7</td><td style="text-align:right">7</td><td style="text-align:right">7</td><td style="font-size:.88rem;color:var(--dim)">Complete in all three</td></tr>
+        </tbody>
+      </table>
+      <p style="max-width:60ch;margin-top:32px;font-size:.95rem;color:var(--dim)">French carries one service more than English and Spanish, which is the kind of detail that quietly breaks hreflang if nobody counts.</p>
+    </div>
+  </section>
+</main>
+
+<!-- ============ SERVICE ============ -->
+<main class="screen" id="service">
+  <section class="band band-a grain" style="position:relative;overflow:hidden;padding-top:var(--hero-pt);padding-bottom:var(--band-py-sm)">
+    <div class="shell" style="position:relative">
+      <p class="eyebrow" style="margin:0 0 32px">Forty-three pages became sixteen</p>
+      <h1 style="max-width:19ch;margin-bottom:24px;font-size:var(--fs-h1);font-weight:600;line-height:1.08">One page, one query network, covered properly</h1>
+      <p style="max-width:58ch;margin:0;font-size:var(--fs-lede);line-height:1.58;color:var(--dim)">One consultant cannot cover forty-three query networks properly, which is why all forty-three were thin. Sixteen pages, five clusters, and 32 earlier pages folded in behind them rather than deleted.</p>
+    </div>
+  </section>
+
+  <section class="band band-b" style="padding:var(--band-py) 0">
+    <div class="shell">
+      <p class="eyebrow" style="margin:0 0 12px">The fix, in structure</p>
+      <h2 style="max-width:20ch;margin-bottom:40px;font-size:var(--fs-h2);font-weight:600;line-height:1.1">Open a cluster to see what folded into what.</h2>
+      <div style="display:flex;flex-direction:column;gap:12px">
+        
+        <button class="cluster" type="button" aria-expanded="true">
+          <div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 16px">
+            <span class="display" style="color:var(--berry);font-size:1.15rem;font-weight:600">I.</span>
+            <span class="display" style="font-size:1.06rem;font-weight:600">Multilingual search</span>
+            <span style="margin-left:auto;font-size:.8rem;color:var(--dim);font-variant-numeric:tabular-nums">11 to 7</span>
+          </div>
+          <div class="body">
+            <div style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px"><span class="chip chip-struck">global-seo-solutions</span><span class="chip chip-struck">internationalisation</span><span class="chip chip-struck">language-solutions</span><span class="chip chip-struck">multilingual-branding</span></div>
+            <svg height="18" width="100%" aria-hidden style="display:block;margin-bottom:8px"><path d="M 14 0 C 14 12, 30 6, 44 17" fill="none" stroke="var(--berry)" stroke-width="1.2" stroke-linecap="round" opacity=".7"></path></svg>
+            <div style="display:flex;flex-wrap:wrap;gap:6px"><span class="chip chip-outline">/services/multilingual-seo/</span><span class="chip chip-outline">/services/french-seo/</span><span class="chip chip-outline">/services/german-seo/</span><span class="chip chip-outline">/services/spanish-seo/</span></div>
+          </div>
+        </button>
+        <button class="cluster" type="button" aria-expanded="true">
+          <div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 16px">
+            <span class="display" style="color:var(--berry);font-size:1.15rem;font-weight:600">II.</span>
+            <span class="display" style="font-size:1.06rem;font-weight:600">Localisation and translation</span>
+            <span style="margin-left:auto;font-size:.8rem;color:var(--dim);font-variant-numeric:tabular-nums">20 to 3</span>
+          </div>
+          <div class="body">
+            <div style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px"><span class="chip chip-struck">content-localisation</span><span class="chip chip-struck">localisation-testing</span><span class="chip chip-struck">transcreation</span><span class="chip chip-struck">legal-translation</span><span class="chip chip-struck">medical-translation</span></div>
+            <svg height="18" width="100%" aria-hidden style="display:block;margin-bottom:8px"><path d="M 14 0 C 14 12, 30 6, 44 17" fill="none" stroke="var(--berry)" stroke-width="1.2" stroke-linecap="round" opacity=".7"></path></svg>
+            <div style="display:flex;flex-wrap:wrap;gap:6px"><span class="chip chip-outline">/services/website-localisation/</span><span class="chip chip-outline">/services/translation-services/</span><span class="chip chip-outline">/services/app-and-software-localisation/</span></div>
+          </div>
+        </button>
+        <button class="cluster" type="button" aria-expanded="true">
+          <div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 16px">
+            <span class="display" style="color:var(--berry);font-size:1.15rem;font-weight:600">III.</span>
+            <span class="display" style="font-size:1.06rem;font-weight:600">Artificial intelligence</span>
+            <span style="margin-left:auto;font-size:.8rem;color:var(--dim);font-variant-numeric:tabular-nums">3 to 2</span>
+          </div>
+          <div class="body">
+            <div style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px"><span class="chip chip-struck">post-ai-editing</span></div>
+            <svg height="18" width="100%" aria-hidden style="display:block;margin-bottom:8px"><path d="M 14 0 C 14 12, 30 6, 44 17" fill="none" stroke="var(--berry)" stroke-width="1.2" stroke-linecap="round" opacity=".7"></path></svg>
+            <div style="display:flex;flex-wrap:wrap;gap:6px"><span class="chip chip-outline">/services/ai-consulting/</span><span class="chip chip-outline">/services/ai-translation-and-post-editing/</span></div>
+          </div>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section class="band band-a" style="padding:var(--band-py) 0">
+    <div class="shell">
+      <p class="eyebrow" style="margin:0 0 12px">In their own words</p>
+      <h2 style="max-width:20ch;margin-bottom:20px;font-size:var(--fs-h2);font-weight:600;line-height:1.1">Nobody asked them which language to write in.</h2>
+      <p style="max-width:56ch;margin:0 0 40px;font-size:1.05rem;color:var(--dim)">Shown here are the reviews written in English; each language version of the site carries its own.</p>
+      <div style="display:flex;gap:12px;margin-bottom:32px">
+        <button class="pill" aria-pressed="true">All</button>
+        <button class="pill" aria-pressed="false">Client work</button>
+        <button class="pill" aria-pressed="false">Training</button>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px">
+        
+        <figure class="cardsurface" style="margin:0;display:flex;flex-direction:column;gap:16px">
+          <div style="display:flex;justify-content:space-between;align-items:center;gap:12px">
+            <span style="display:flex;gap:2px"><svg width="12" height="12" viewBox="0 0 24 24" style="fill:var(--berry)"><path d="M12 2.5l2.9 6.06 6.6.86-4.83 4.6 1.22 6.55L12 17.5l-5.89 3.07 1.22-6.55L2.5 9.42l6.6-.86z"/></svg><svg width="12" height="12" viewBox="0 0 24 24" style="fill:var(--berry)"><path d="M12 2.5l2.9 6.06 6.6.86-4.83 4.6 1.22 6.55L12 17.5l-5.89 3.07 1.22-6.55L2.5 9.42l6.6-.86z"/></svg><svg width="12" height="12" viewBox="0 0 24 24" style="fill:var(--berry)"><path d="M12 2.5l2.9 6.06 6.6.86-4.83 4.6 1.22 6.55L12 17.5l-5.89 3.07 1.22-6.55L2.5 9.42l6.6-.86z"/></svg><svg width="12" height="12" viewBox="0 0 24 24" style="fill:var(--berry)"><path d="M12 2.5l2.9 6.06 6.6.86-4.83 4.6 1.22 6.55L12 17.5l-5.89 3.07 1.22-6.55L2.5 9.42l6.6-.86z"/></svg><svg width="12" height="12" viewBox="0 0 24 24" style="fill:var(--berry)"><path d="M12 2.5l2.9 6.06 6.6.86-4.83 4.6 1.22 6.55L12 17.5l-5.89 3.07 1.22-6.55L2.5 9.42l6.6-.86z"/></svg></span>
+            <span class="chip" style="text-transform:uppercase;letter-spacing:var(--track-caps);font-size:.66rem">English</span>
+          </div>
+          <blockquote style="margin:0;font-size:.95rem;line-height:1.6">&ldquo;Mike rebuilt our four-language site and the enquiries started arriving from markets we had written off.&rdquo;</blockquote>
+          <figcaption style="display:flex;gap:12px;margin-top:auto;padding-top:16px;border-top:1px solid var(--rule);font-size:.82rem">
+            <cite style="font-style:normal;font-weight:500">Marta R.</cite><span style="margin-left:auto;color:var(--dim)">2 months ago</span>
+          </figcaption>
+        </figure>
+        <figure class="cardsurface" style="margin:0;display:flex;flex-direction:column;gap:16px">
+          <div style="display:flex;justify-content:space-between;align-items:center;gap:12px">
+            <span style="display:flex;gap:2px"><svg width="12" height="12" viewBox="0 0 24 24" style="fill:var(--berry)"><path d="M12 2.5l2.9 6.06 6.6.86-4.83 4.6 1.22 6.55L12 17.5l-5.89 3.07 1.22-6.55L2.5 9.42l6.6-.86z"/></svg><svg width="12" height="12" viewBox="0 0 24 24" style="fill:var(--berry)"><path d="M12 2.5l2.9 6.06 6.6.86-4.83 4.6 1.22 6.55L12 17.5l-5.89 3.07 1.22-6.55L2.5 9.42l6.6-.86z"/></svg><svg width="12" height="12" viewBox="0 0 24 24" style="fill:var(--berry)"><path d="M12 2.5l2.9 6.06 6.6.86-4.83 4.6 1.22 6.55L12 17.5l-5.89 3.07 1.22-6.55L2.5 9.42l6.6-.86z"/></svg><svg width="12" height="12" viewBox="0 0 24 24" style="fill:var(--berry)"><path d="M12 2.5l2.9 6.06 6.6.86-4.83 4.6 1.22 6.55L12 17.5l-5.89 3.07 1.22-6.55L2.5 9.42l6.6-.86z"/></svg><svg width="12" height="12" viewBox="0 0 24 24" style="fill:var(--berry)"><path d="M12 2.5l2.9 6.06 6.6.86-4.83 4.6 1.22 6.55L12 17.5l-5.89 3.07 1.22-6.55L2.5 9.42l6.6-.86z"/></svg></span>
+            <span class="chip" style="text-transform:uppercase;letter-spacing:var(--track-caps);font-size:.66rem">English</span>
+          </div>
+          <blockquote style="margin:0;font-size:.95rem;line-height:1.6">&ldquo;The reporting is the part I did not expect: we can see which language earns what.&rdquo;</blockquote>
+          <figcaption style="display:flex;gap:12px;margin-top:auto;padding-top:16px;border-top:1px solid var(--rule);font-size:.82rem">
+            <cite style="font-style:normal;font-weight:500">Peter J.</cite><span style="margin-left:auto;color:var(--dim)">5 months ago</span>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+</main>
+
+
+<main class="screen" id="frames">
+  <section class="band band-a grain" style="position:relative;overflow:hidden;padding-top:var(--hero-pt);padding-bottom:var(--band-py-sm)">
+    <div class="shell" style="position:relative">
+      <p class="eyebrow" style="margin:0 0 32px">Eight sites, all of them live</p>
+      <h1 style="max-width:17ch;margin-bottom:24px;font-size:var(--fs-h1);font-weight:600;line-height:1.08">Look at the work before you read about it</h1>
+      <p style="max-width:56ch;margin:0;font-size:var(--fs-lede);line-height:1.58;color:var(--dim)">Each project opens as the site itself. Click one and the account of it, with whatever figures are on record, appears underneath.</p>
+    </div>
+  </section>
+
+  <section class="band band-b" style="padding:var(--band-py) 0">
+    <div class="shell">
+      <div class="fgrid">
+        <article class="frame" data-open="true" data-i="0">
+          <button class="fbtn" type="button" aria-expanded="true" aria-controls="fd0">
+            <span class="fchrome">
+              <span class="fdots"><i></i><i></i><i></i></span>
+              <span class="faddr"><svg width="9" height="10" viewBox="0 0 9 10" aria-hidden><path d="M2 4V2.6a2.5 2.5 0 0 1 5 0V4" fill="none" stroke="currentColor" stroke-width="1"></path><rect x="1" y="4" width="7" height="5" rx="1" fill="currentColor"></rect></svg><span class="furl">betranslated.com</span></span>
+              <span class="fnum">I</span>
+            </span>
+            <span class="fshot"><img src="../../assets/work/betranslated.webp" alt="The BeTranslated homepage" loading="lazy" class="fpan"></span>
+            <span class="fbar">
+              <span class="display" style="font-size:1.06rem;font-weight:600">BeTranslated</span>
+              <span class="eyebrow fangle">Founded it, still run it</span>
+              <span class="fmore"></span>
+            </span>
+          </button>
+          <div class="fdet" id="fd0">
+            <div class="fdetin">
+              <p style="max-width:52ch;margin:0 0 20px;font-size:1rem;color:var(--dim)">A translation agency with six regional identities and a multi-TLD setup that has to rank separately in every one of them.</p>
+              <ul style="display:flex;flex-wrap:wrap;gap:8px;margin:0 0 24px;padding:0;list-style:none"><li><span class="chip">Multi-TLD SEO</span></li><li><span class="chip">Multilingual content</span></li><li><span class="chip">Founder</span></li></ul>
+              <dl style="display:flex;flex-wrap:wrap;gap:16px 40px;margin:0 0 24px"><div><dt class="display" style="color:var(--berry);font-size:1.4rem;font-weight:600;line-height:1;font-variant-numeric:tabular-nums">6</dt><dd class="caps" style="margin:6px 0 0">Regional TLDs</dd></div><div><dt class="display" style="color:var(--berry);font-size:1.4rem;font-weight:600;line-height:1;font-variant-numeric:tabular-nums">20 yr</dt><dd class="caps" style="margin:6px 0 0">Running it</dd></div></dl>
+              <a class="ulink" href="#" style="font-size:.9rem;font-weight:500">Read the case study</a>
+            </div>
+          </div>
+        </article>
+        <article class="frame" data-open="true" data-i="1">
+          <button class="fbtn" type="button" aria-expanded="true" aria-controls="fd1">
+            <span class="fchrome">
+              <span class="fdots"><i></i><i></i><i></i></span>
+              <span class="faddr"><svg width="9" height="10" viewBox="0 0 9 10" aria-hidden><path d="M2 4V2.6a2.5 2.5 0 0 1 5 0V4" fill="none" stroke="currentColor" stroke-width="1"></path><rect x="1" y="4" width="7" height="5" rx="1" fill="currentColor"></rect></svg><span class="furl">globaprom.com</span></span>
+              <span class="fnum">II</span>
+            </span>
+            <span class="fshot"><img src="../../assets/work/globaprom.webp" alt="The Globaprom homepage" loading="lazy" class="fpan"></span>
+            <span class="fbar">
+              <span class="display" style="font-size:1.06rem;font-weight:600">Globaprom</span>
+              <span class="eyebrow fangle">Custom AI software</span>
+              <span class="fmore"></span>
+            </span>
+          </button>
+          <div class="fdet" id="fd1">
+            <div class="fdetin">
+              <p style="max-width:52ch;margin:0 0 20px;font-size:1rem;color:var(--dim)">Fixed scope, fixed price, delivered in weeks, multilingual from the first commit. Built the shipment tracking portal that took roughly three hours a day of status chasing out of a freight forwarder’s week.</p>
+              <ul style="display:flex;flex-wrap:wrap;gap:8px;margin:0 0 24px;padding:0;list-style:none"><li><span class="chip">Custom AI software</span></li><li><span class="chip">Multilingual from build</span></li><li><span class="chip">Fixed scope, fixed price</span></li></ul>
+              <dl style="display:flex;flex-wrap:wrap;gap:16px 40px;margin:0 0 24px"><div><dt class="display" style="color:var(--berry);font-size:1.4rem;font-weight:600;line-height:1;font-variant-numeric:tabular-nums">3 h/day</dt><dd class="caps" style="margin:6px 0 0">Saved on tracking</dd></div><div><dt class="display" style="color:var(--berry);font-size:1.4rem;font-weight:600;line-height:1;font-variant-numeric:tabular-nums">10 h/wk</dt><dd class="caps" style="margin:6px 0 0">On reconciliation</dd></div></dl>
+              <a class="ulink" href="#" style="font-size:.9rem;font-weight:500">Read the case study</a>
+            </div>
+          </div>
+        </article>
+        <article class="frame" data-open="true" data-i="2">
+          <button class="fbtn" type="button" aria-expanded="true" aria-controls="fd2">
+            <span class="fchrome">
+              <span class="fdots"><i></i><i></i><i></i></span>
+              <span class="faddr"><svg width="9" height="10" viewBox="0 0 9 10" aria-hidden><path d="M2 4V2.6a2.5 2.5 0 0 1 5 0V4" fill="none" stroke="currentColor" stroke-width="1"></path><rect x="1" y="4" width="7" height="5" rx="1" fill="currentColor"></rect></svg><span class="furl">txintlfreight.com</span></span>
+              <span class="fnum">III</span>
+            </span>
+            <span class="fshot"><span class="fplate"><span class="display" style="font-size:clamp(1rem,1.8vw,1.5rem);font-weight:600;color:#F5EFE2;text-shadow:0 2px 24px rgb(0 0 0 / .4)">txintlfreight.com</span></span></span>
+            <span class="fbar">
+              <span class="display" style="font-size:1.06rem;font-weight:600">TX International Freight</span>
+              <span class="eyebrow fangle">Houston industrial freight</span>
+              <span class="fmore"></span>
+            </span>
+          </button>
+          <div class="fdet" id="fd2">
+            <div class="fdetin">
+              <p style="max-width:52ch;margin:0 0 20px;font-size:1rem;color:var(--dim)">Technical SEO and content for a freight forwarder whose customers search in terms no marketer would guess. Learning the vocabulary was most of the work.</p>
+              <ul style="display:flex;flex-wrap:wrap;gap:8px;margin:0 0 24px;padding:0;list-style:none"><li><span class="chip">Technical SEO</span></li><li><span class="chip">Industry content</span></li><li><span class="chip">Houston local search</span></li></ul>
+              <dl style="display:flex;flex-wrap:wrap;gap:16px 40px;margin:0 0 24px"><div><dt class="display" style="color:var(--berry);font-size:1.4rem;font-weight:600;line-height:1;font-variant-numeric:tabular-nums">2,616</dt><dd class="caps" style="margin:6px 0 0">Clicks, May to July</dd></div><div><dt class="display" style="color:var(--berry);font-size:1.4rem;font-weight:600;line-height:1;font-variant-numeric:tabular-nums">764,222</dt><dd class="caps" style="margin:6px 0 0">Impressions</dd></div></dl>
+              <a class="ulink" href="#" style="font-size:.9rem;font-weight:500">Read the case study</a>
+            </div>
+          </div>
+        </article>
+        <article class="frame" data-open="true" data-i="3">
+          <button class="fbtn" type="button" aria-expanded="true" aria-controls="fd3">
+            <span class="fchrome">
+              <span class="fdots"><i></i><i></i><i></i></span>
+              <span class="faddr"><svg width="9" height="10" viewBox="0 0 9 10" aria-hidden><path d="M2 4V2.6a2.5 2.5 0 0 1 5 0V4" fill="none" stroke="currentColor" stroke-width="1"></path><rect x="1" y="4" width="7" height="5" rx="1" fill="currentColor"></rect></svg><span class="furl">c21perdomo.com</span></span>
+              <span class="fnum">IV</span>
+            </span>
+            <span class="fshot"><img src="../../assets/work/c21perdomo.webp" alt="The Century 21 Perdomo homepage" loading="lazy" class="fpan"></span>
+            <span class="fbar">
+              <span class="display" style="font-size:1.06rem;font-weight:600">Century 21 Perdomo</span>
+              <span class="eyebrow fangle">Dominican real estate</span>
+              <span class="fmore"></span>
+            </span>
+          </button>
+          <div class="fdet" id="fd3">
+            <div class="fdetin">
+              <p style="max-width:52ch;margin:0 0 20px;font-size:1rem;color:var(--dim)">Four languages over a headless WordPress build with WPML and WooCommerce. Property listings that have to stay correct in every locale while stock turns over weekly.</p>
+              <ul style="display:flex;flex-wrap:wrap;gap:8px;margin:0 0 24px;padding:0;list-style:none"><li><span class="chip">Multilingual SEO</span></li><li><span class="chip">Headless WordPress</span></li><li><span class="chip">Four languages</span></li></ul>
+              <dl style="display:flex;flex-wrap:wrap;gap:16px 40px;margin:0 0 24px"><div><dt class="display" style="color:var(--berry);font-size:1.4rem;font-weight:600;line-height:1;font-variant-numeric:tabular-nums">9,944</dt><dd class="caps" style="margin:6px 0 0">Clicks, May to July</dd></div><div><dt class="display" style="color:var(--berry);font-size:1.4rem;font-weight:600;line-height:1;font-variant-numeric:tabular-nums">10.1</dt><dd class="caps" style="margin:6px 0 0">Average position</dd></div></dl>
+              <a class="ulink" href="#" style="font-size:.9rem;font-weight:500">Read the case study</a>
+            </div>
+          </div>
+        </article>
+        <article class="frame" data-open="true" data-i="4">
+          <button class="fbtn" type="button" aria-expanded="true" aria-controls="fd4">
+            <span class="fchrome">
+              <span class="fdots"><i></i><i></i><i></i></span>
+              <span class="faddr"><svg width="9" height="10" viewBox="0 0 9 10" aria-hidden><path d="M2 4V2.6a2.5 2.5 0 0 1 5 0V4" fill="none" stroke="currentColor" stroke-width="1"></path><rect x="1" y="4" width="7" height="5" rx="1" fill="currentColor"></rect></svg><span class="furl">valenciamove.com</span></span>
+              <span class="fnum">V</span>
+            </span>
+            <span class="fshot"><img src="../../assets/work/valenciamove.webp" alt="The Valencia Move homepage" loading="lazy" class="fpan"></span>
+            <span class="fbar">
+              <span class="display" style="font-size:1.06rem;font-weight:600">Valencia Move</span>
+              <span class="eyebrow fangle">Relocation to Valencia</span>
+              <span class="fmore"></span>
+            </span>
+          </button>
+          <div class="fdet" id="fd4">
+            <div class="fdetin">
+              <p style="max-width:52ch;margin:0 0 20px;font-size:1rem;color:var(--dim)">The relocation content that used to sit on mikebastin.com and never belonged there. Moving it gave both sites a single subject.</p>
+              <ul style="display:flex;flex-wrap:wrap;gap:8px;margin:0 0 24px;padding:0;list-style:none"><li><span class="chip">Content migration</span></li><li><span class="chip">Local search</span></li><li><span class="chip">Own domain</span></li></ul>
+              <p class="caps" style="margin:0 0 24px">No figures on record for this one yet</p>
+              <a class="ulink" href="#" style="font-size:.9rem;font-weight:500">Read the case study</a>
+            </div>
+          </div>
+        </article>
+        <article class="frame" data-open="true" data-i="5">
+          <button class="fbtn" type="button" aria-expanded="true" aria-controls="fd5">
+            <span class="fchrome">
+              <span class="fdots"><i></i><i></i><i></i></span>
+              <span class="faddr"><svg width="9" height="10" viewBox="0 0 9 10" aria-hidden><path d="M2 4V2.6a2.5 2.5 0 0 1 5 0V4" fill="none" stroke="currentColor" stroke-width="1"></path><rect x="1" y="4" width="7" height="5" rx="1" fill="currentColor"></rect></svg><span class="furl">delaguiayluzon.com</span></span>
+              <span class="fnum">VI</span>
+            </span>
+            <span class="fshot"><img src="../../assets/work/delaguia-y-luzon.webp" alt="The Delaguía y Luzón homepage" loading="lazy" class="fpan"></span>
+            <span class="fbar">
+              <span class="display" style="font-size:1.06rem;font-weight:600">Delaguía y Luzón</span>
+              <span class="eyebrow fangle">Valencia law firm</span>
+              <span class="fmore"></span>
+            </span>
+          </button>
+          <div class="fdet" id="fd5">
+            <div class="fdetin">
+              <p style="max-width:52ch;margin:0 0 20px;font-size:1rem;color:var(--dim)">Legal, labour, immigration and tax across Spain and France, in four languages including Russian.</p>
+              <ul style="display:flex;flex-wrap:wrap;gap:8px;margin:0 0 24px;padding:0;list-style:none"><li><span class="chip">Legal SEO</span></li><li><span class="chip">Four languages</span></li><li><span class="chip">Two jurisdictions</span></li></ul>
+              <dl style="display:flex;flex-wrap:wrap;gap:16px 40px;margin:0 0 24px"><div><dt class="display" style="color:var(--berry);font-size:1.4rem;font-weight:600;line-height:1;font-variant-numeric:tabular-nums">4</dt><dd class="caps" style="margin:6px 0 0">Languages</dd></div><div><dt class="display" style="color:var(--berry);font-size:1.4rem;font-weight:600;line-height:1;font-variant-numeric:tabular-nums">2</dt><dd class="caps" style="margin:6px 0 0">Jurisdictions</dd></div></dl>
+              <a class="ulink" href="#" style="font-size:.9rem;font-weight:500">Read the case study</a>
+            </div>
+          </div>
+        </article>
+        <article class="frame" data-open="true" data-i="6">
+          <button class="fbtn" type="button" aria-expanded="true" aria-controls="fd6">
+            <span class="fchrome">
+              <span class="fdots"><i></i><i></i><i></i></span>
+              <span class="faddr"><svg width="9" height="10" viewBox="0 0 9 10" aria-hidden><path d="M2 4V2.6a2.5 2.5 0 0 1 5 0V4" fill="none" stroke="currentColor" stroke-width="1"></path><rect x="1" y="4" width="7" height="5" rx="1" fill="currentColor"></rect></svg><span class="furl">matosurf.com</span></span>
+              <span class="fnum">VII</span>
+            </span>
+            <span class="fshot"><img src="../../assets/work/matosurf.webp" alt="The Matosurf homepage" loading="lazy" class="fpan"></span>
+            <span class="fbar">
+              <span class="display" style="font-size:1.06rem;font-weight:600">Matosurf</span>
+              <span class="eyebrow fangle">Surf school and shop</span>
+              <span class="fmore"></span>
+            </span>
+          </button>
+          <div class="fdet" id="fd6">
+            <div class="fdetin">
+              <p style="max-width:52ch;margin:0 0 20px;font-size:1rem;color:var(--dim)">A seasonal business whose search demand arrives in a few weeks of the year and has to be caught in more than one language.</p>
+              <ul style="display:flex;flex-wrap:wrap;gap:8px;margin:0 0 24px;padding:0;list-style:none"><li><span class="chip">Seasonal search</span></li><li><span class="chip">Multilingual</span></li><li><span class="chip">Small site</span></li></ul>
+              <p class="caps" style="margin:0 0 24px">No figures on record for this one yet</p>
+              <a class="ulink" href="#" style="font-size:.9rem;font-weight:500">Read the case study</a>
+            </div>
+          </div>
+        </article>
+        <article class="frame" data-open="true" data-i="7">
+          <button class="fbtn" type="button" aria-expanded="true" aria-controls="fd7">
+            <span class="fchrome">
+              <span class="fdots"><i></i><i></i><i></i></span>
+              <span class="faddr"><svg width="9" height="10" viewBox="0 0 9 10" aria-hidden><path d="M2 4V2.6a2.5 2.5 0 0 1 5 0V4" fill="none" stroke="currentColor" stroke-width="1"></path><rect x="1" y="4" width="7" height="5" rx="1" fill="currentColor"></rect></svg><span class="furl">bemelmanspuiterij.nl</span></span>
+              <span class="fnum">VIII</span>
+            </span>
+            <span class="fshot"><img src="../../assets/work/bemelman-spuiterij.webp" alt="The Bemelman Spuiterij homepage" loading="lazy" class="fpan"></span>
+            <span class="fbar">
+              <span class="display" style="font-size:1.06rem;font-weight:600">Bemelman Spuiterij</span>
+              <span class="eyebrow fangle">Dutch spray finishing</span>
+              <span class="fmore"></span>
+            </span>
+          </button>
+          <div class="fdet" id="fd7">
+            <div class="fdetin">
+              <p style="max-width:52ch;margin:0 0 20px;font-size:1rem;color:var(--dim)">An industrial finisher whose customers are other businesses, searching in Dutch, for work they cannot describe in marketing language.</p>
+              <ul style="display:flex;flex-wrap:wrap;gap:8px;margin:0 0 24px;padding:0;list-style:none"><li><span class="chip">Dutch search</span></li><li><span class="chip">Divi build</span></li><li><span class="chip">B2B</span></li></ul>
+              <p class="caps" style="margin:0 0 24px">No figures on record for this one yet</p>
+              <a class="ulink" href="#" style="font-size:.9rem;font-weight:500">Read the case study</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ============ PLAIN, with the form set ============ -->
+<main class="screen" id="plain">
+  <section class="band band-a grain" style="position:relative;overflow:hidden;padding-top:var(--hero-pt);padding-bottom:var(--band-py-sm)">
+    <div class="shell" style="position:relative">
+      <p class="eyebrow" style="margin:0 0 32px">One job each</p>
+      <h1 style="max-width:18ch;margin-bottom:24px;font-size:var(--fs-h1);font-weight:600;line-height:1.08">Tell me which language is losing you money</h1>
+      <p style="max-width:58ch;margin:0;font-size:var(--fs-lede);line-height:1.58;color:var(--dim)">Pick the symptoms below rather than writing a brief from scratch. A reply comes back within two working days, in the language you write in.</p>
+    </div>
+  </section>
+
+  <section class="band band-b" style="padding:var(--band-py) 0">
+    <div class="shell" style="max-width:760px">
+      <form id="brief" style="display:flex;flex-direction:column;gap:26px" novalidate>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px">
+          <div><label class="lbl" for="n">Your name <span style="color:var(--berry)">*</span></label><input class="field" id="n" name="n" placeholder="Marta Ruiz"></div>
+          <div><label class="lbl" for="e">Email <span style="color:var(--berry)">*</span></label><input class="field" id="e" name="e" type="email" placeholder="you@company.com"><p class="hint" id="ehint">A reply comes back to this address.</p></div>
+        </div>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px">
+          <div>
+            <label class="lbl" for="mk">Market</label>
+            <span style="position:relative;display:block">
+              <select class="field" id="mk" style="appearance:none;padding-right:38px">
+                <option value="">Pick a market</option><option>France</option><option>Germany</option><option>Spain</option><option>Italy</option><option>Netherlands</option><option>Portugal</option>
+              </select>
+              <span aria-hidden style="position:absolute;right:15px;top:50%;margin-top:-2px;width:7px;height:7px;border-right:1.5px solid var(--dim);border-bottom:1.5px solid var(--dim);transform:rotate(45deg);pointer-events:none"></span>
+            </span>
+            <p class="hint">One market is enough to start.</p>
+          </div>
+          <div>
+            <label class="lbl" for="sz">Pages in the site</label>
+            <span style="position:relative;display:block">
+              <select class="field" id="sz" style="appearance:none;padding-right:38px"><option>Under 50</option><option>50 to 500</option><option>500 to 2,000</option><option>More than 2,000</option></select>
+              <span aria-hidden style="position:absolute;right:15px;top:50%;margin-top:-2px;width:7px;height:7px;border-right:1.5px solid var(--dim);border-bottom:1.5px solid var(--dim);transform:rotate(45deg);pointer-events:none"></span>
+            </span>
+          </div>
+        </div>
+
+        <fieldset style="border:0;padding:0;margin:0;display:flex;flex-direction:column;gap:12px">
+          <legend class="lbl" style="padding:0">What is going wrong</legend>
+          <p class="hint" style="margin:0">Pick as many as apply.</p>
+          <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px 28px">
+            
+            <label class="cb"><input type="checkbox" name="pain" value="0"><i></i><span>Impressions without clicks<span style="display:block;font-size:.82rem;color:var(--dim)">Visibility is fine, nobody arrives</span></span></label>
+            <label class="cb"><input type="checkbox" name="pain" value="1"><i></i><span>One market ranks, the others do not</span></label>
+            <label class="cb"><input type="checkbox" name="pain" value="2"><i></i><span>Translated pages that do not convert</span></label>
+            <label class="cb"><input type="checkbox" name="pain" value="3"><i></i><span>Hreflang or duplicate-locale trouble</span></label>
+            <label class="cb"><input type="checkbox" name="pain" value="4"><i></i><span>Too many thin service pages</span></label>
+            <label class="cb"><input type="checkbox" name="pain" value="5"><i></i><span>Not sure yet<span style="display:block;font-size:.82rem;color:var(--dim)">Send the URL and we will look</span></span></label>
+          </div>
+        </fieldset>
+
+        <div><label class="lbl" for="b">What is happening</label><textarea class="field" id="b" rows="5" style="resize:vertical;line-height:var(--lh-body)" placeholder="Two or three sentences is plenty."></textarea></div>
+
+        <label class="cb"><input type="checkbox" checked><i></i><span>Send the reply by email<span style="display:block;font-size:.82rem;color:var(--dim)">Nothing else, and no list.</span></span></label>
+
+        <div style="display:flex;flex-wrap:wrap;align-items:center;gap:16px">
+          <button class="btn" type="submit">Send the brief</button>
+          <button class="btn btn-secondary" type="reset">Clear</button>
+          <span class="chip" id="state">Reply within two working days</span>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <footer class="band band-b" style="padding:var(--band-py-sm) 0;border-top:1px solid var(--rule)">
+    <div class="shell">
+      <p class="eyebrow" style="margin:0 0 16px">Clean face, no crowd</p>
+      <h2 style="max-width:15ch;margin-bottom:32px;font-size:clamp(1.8rem,4.4vw,3rem);font-weight:600;line-height:1.08">Tell me which language is losing you money.</h2>
+      <div style="display:flex;flex-direction:column;gap:8px;align-items:flex-start;font-size:1.05rem">
+        <a class="ulink" href="mailto:hello@mikebastin.com">hello@mikebastin.com</a>
+        <a class="ulink" href="tel:+34671175774">+34 671 17 57 74</a>
+        <span style="color:var(--dim)">Calle Rugat 12 to 2, 46021 Valencia, Spain</span>
+      </div>
+      <nav style="display:flex;flex-wrap:wrap;gap:8px 32px;margin-top:48px;padding-top:24px;border-top:1px solid var(--rule);font-size:.88rem">
+        <a class="ulink" href="#">Home</a><a class="ulink" href="#">Work</a><a class="ulink" href="#">Services</a><a class="ulink" href="#">Results</a>
+        <span style="display:flex;gap:24px;margin-left:auto"><a class="ulink" href="#">X</a><a class="ulink" href="#">LinkedIn</a><a class="ulink" href="#">Google Business Profile</a></span>
+      </nav>
+    </div>
+  </footer>
+</main>
+
+
+</doc-page>
+<script src="./doc-page.js"></script>
+</body>
+</html>
