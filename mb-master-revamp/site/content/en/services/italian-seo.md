@@ -146,7 +146,7 @@ Local presence per Italian city (GBP, citations)
 
 What I do not do: write or speak the language commercially. That work is done by native Italian copywriters from the BeTranslated network.
 
-This nuance matters: I am not on the “B1 German” model where I outsource everything including SERP reading. On Italian I read directly and pilot the strategy. I just do not put my name on commercial copy that should be written by native Italians.
+The nuance matters, because I am not on the “B1 German” model where I outsource everything including SERP reading. On Italian I read directly and pilot the strategy. I just do not put my name on commercial copy that should be written by native Italians.
 
 [More about the team →](https://mikebastin.com/about-us/)
 

@@ -144,7 +144,7 @@ Local presence per German city (GBP, citations)
 
 **Mike Bastin:** 25 years in SEO. German: B1 level (functional reading, basic conversation). I read German SERPs, I understand briefs, I can follow a meeting in German with effort. I do not write your German commercial content.
 
-This boundary is explicit, not hidden. Most European SEO agencies “cover” German by subcontracting to native copywriters. The difference with me: it is stated clearly on this page, not discovered in the invoice.
+The boundary is explicit, not hidden. Most European SEO agencies “cover” German by subcontracting to native copywriters. The difference with me: it is stated clearly on this page, not discovered in the invoice.
 
 The benefit: you pay for strategy where strategy is delivered, and writing where writing is done well, without an intermediary taking a margin to hide the reality.
 
