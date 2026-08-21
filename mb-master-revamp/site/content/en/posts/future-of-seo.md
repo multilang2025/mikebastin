@@ -48,7 +48,7 @@ Winning [AI-driven SEO strategies](https://mikebastin.com/how-ai-is-revolutionis
 
 > AI referrals to top websites surged 357% year-over-year between June 2024 and June 2025, according to Ahrefs data. AI-referred sessions jumped 527% YoY in the first five months of 2025 (Previsible AI Traffic Report). Semrush predicts LLM traffic will overtake traditional Google search by the end of 2027. Source: [Superlines AI Search Statistics](https://www.superlines.io/articles/ai-search-statistics/)
 
-GEO does not replace traditional SEO. It runs alongside it. Content structured for citation, with clear factual claims, named sources, and Schema.org structured data in JSON-LD format, performs in both channels. This means optimising not just for Google’s algorithm, but for the large language models that power Perplexity AI, ChatGPT Search, and Gemini.
+GEO does not replace traditional SEO. It runs alongside it. Content structured for citation, with clear factual claims, named sources, and Schema.org structured data in JSON-LD format, performs in both channels. The job is optimising not just for Google’s algorithm, but for the large language models that power Perplexity AI, ChatGPT Search, and Gemini.
 
 ### What to do now
 

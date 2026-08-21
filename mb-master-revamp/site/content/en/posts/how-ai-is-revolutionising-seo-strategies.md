@@ -9,7 +9,7 @@ wpId: 24845407
 date: "2024-11-27T18:13:00"
 modified: "2026-07-19T11:28:39"
 sourceUrl: "https://mikebastin.com/how-ai-is-revolutionising-seo-strategies/"
-excerpt: "AI is reshaping how SEO works, from keyword research to content visibility. This article explains what has changed, what still matters, and how to adapt your SEO strategy. Read on and stay ahead instead of reacting too late."
+excerpt: "AI is reshaping how SEO works, from keyword research to content visibility. Below we explain what has changed, what still matters, and how to adapt your SEO strategy. Read on and stay ahead instead of reacting too late."
 ---
 
 ## How AI is reshaping SEO strategy in 2026

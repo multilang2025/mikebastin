@@ -18,7 +18,7 @@ In the fast-changing digital marketing space, email remains a powerful tool for 
 
 With inboxes becoming increasingly crowded, it’s crucial to employ advanced techniques to stand out and increase your email marketing performance.
 
-This post will explore cutting-edge strategies for writing compelling subject lines, optimising email content for mobile devices, and using personalisation and segmentation to boost open rates and conversions.
+Below we cover strategies for writing compelling subject lines, optimising email content for mobile devices, and using personalisation and segmentation to boost open rates and conversions.
 
 ### Writing Compelling Subject Lines
 

@@ -10,7 +10,7 @@ wpId: 24845176
 date: "2024-10-08T10:01:51"
 modified: "2026-07-19T10:37:33"
 sourceUrl: "https://mikebastin.com/services/app-localisation/"
-excerpt: "App localisation involves adapting an app to suit the language, culture, and preferences of a specific region. It includes translating text, adjusting formats (like dates and currencies), and adapting the overall experience to make it feel native to users. This process helps improve user engagement and broadens the app’s global appeal."
+excerpt: "App localisation involves adapting an app to suit the language, culture, and preferences of a specific region. It includes translating text, adjusting formats (like dates and currencies), and adapting the overall experience to make it feel native to users. The process helps improve user engagement and broadens the app’s global appeal."
 ---
 
 # App Localisation Services

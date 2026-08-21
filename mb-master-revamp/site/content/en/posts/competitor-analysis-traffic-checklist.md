@@ -160,7 +160,7 @@ A failed attempt we see constantly is the “every topic” hub.
 
 A competitor publishes 400 articles, half of them five hundred word AI generated pages, and traffic plateaus around 8,000 visits per month.
 
-That looks like a content engine.
+The output looks like a content engine.
 
 It is not.
 

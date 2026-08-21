@@ -9,7 +9,7 @@ wpId: 24845784
 date: "2024-10-22T13:13:00"
 modified: "2026-07-02T15:11:16"
 sourceUrl: "https://mikebastin.com/technical-seo-audit-checklist/"
-excerpt: "Dive into the world of Technical SEO and supercharge your website’s performance. This guide offers an essential audit checklist for web agencies."
+excerpt: "Dive into the world of Technical SEO and supercharge your website’s performance. An essential audit checklist for web agencies."
 ---
 
 ## Website Technical SEO Assessment Checklist

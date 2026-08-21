@@ -43,7 +43,7 @@ After you’ve added your business, optimising your listing is essential to ensu
 Here’s how to make the most out of your **Google Maps local business** listing:
 
 -   **Accurate and Complete Information**: Ensure all your business details, such as name, address, phone number, and hours of operation, are correct and up to date.
--   **Business Description**: Write a compelling description using keywords relevant to your business. This will help with **Google Maps citations for local business SEO**.
+-   **Business Description**: Write a compelling description using keywords relevant to your business. A keyword-relevant description helps with **Google Maps citations for local business SEO**.
 -   **Photos and Videos**: Upload high-quality images of your premises, products, or services. Businesses with images get more clicks and customer engagement.
 -   **Categories**: Choose the most appropriate category for your business. Google allows you to select multiple categories, so make sure all relevant options are selected.
 
@@ -70,13 +70,13 @@ Customer reviews play a essential role in your business’s reputation on Google
 Here’s how to manage reviews effectively:
 
 -   **Ask for Reviews**: Encourage satisfied customers to leave reviews on your Google Maps listing. You can do this through follow-up emails or [social media](https://mikebastin.com/services/multilingual-social-media-management/) campaigns.
--   **Respond to Reviews**: Whether positive or negative, respond to reviews to show that you value customer feedback. This can enhance your business’s reputation and help you build trust with potential customers.
+-   **Respond to Reviews**: Whether positive or negative, respond to reviews to show that you value customer feedback. Replying enhances your business’s reputation and help you build trust with potential customers.
 
 Reviews also contribute to Google’s ranking algorithm, so more (and better) reviews can lead to higher visibility for your business on **Google local business maps**.
 
 ### Use Google Posts and Promotions
 
-A [Google Business Profile](https://mikebastin.com/optimise-a-google-business-profile/ "Google Business Profile") allows you to post updates, special offers, and events directly on your listing. This is a great way to keep your audience engaged and informed. You can post about:
+A [Google Business Profile](https://mikebastin.com/optimise-a-google-business-profile/ "Google Business Profile") allows you to post updates, special offers, and events directly on your listing. Posting regularly keeps your audience engaged and informed. You can post about:
 
 -   Sales or discounts
 -   New product launches

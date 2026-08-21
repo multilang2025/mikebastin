@@ -22,7 +22,7 @@ With the European Union’s Deforestation Regulation (EUDR) coming into effect, 
 
 Vietnam’s supply chains are often complex, involving smallholder farmers and multiple layers of processing, which can make data collection and verification challenging.
 
-This is why partnering with reliable local sourcing agencies or consultants becomes essential, not only to identify compliant suppliers but also to ensure audits, geolocation tracking, and documentation align with EU standards.
+Complexity of that kind is why partnering with reliable local sourcing agencies or consultants becomes essential, not only to identify compliant suppliers but also to ensure audits, geolocation tracking, and documentation align with EU standards.
 
 For European companies, understanding Vietnam’s regulatory environment, logistical space, and sourcing ecosystem is critical to mitigate risks, maintain market access, and capitalize on the cost, quality, and sustainability benefits the country offers.
 
@@ -118,13 +118,13 @@ Its local proximity allows Sourcing Agent Vietnam to check that what is declared
 
 MoveToAsia combines sourcing execution with structured project management, making it a frequent choice for European companies that need both operational support and regulatory reassurance.
 
-In EUDR-sensitive supply chains, MoveToAsia integrates compliance criteria during supplier selection and factory audits. This includes reviewing material traceability, existing certifications, supplier awareness of EUDR obligations, and the ability to provide supporting evidence such as legal harvesting documents or chain-of-custody records. MoveToAsia’s reporting structure helps buyers consolidate EUDR-related data throughout the sourcing lifecycle.
+In EUDR-sensitive supply chains, MoveToAsia integrates compliance criteria during supplier selection and factory audits. Their checks include reviewing material traceability, existing certifications, supplier awareness of EUDR obligations, and the ability to provide supporting evidence such as legal harvesting documents or chain-of-custody records. MoveToAsia’s reporting structure helps buyers consolidate EUDR-related data throughout the sourcing lifecycle.
 
 ### 3\. Vietnam Sourcing Team
 
 Vietnam Sourcing Team is known for long-term supplier follow-up and ongoing production support rather than one-off sourcing projects.
 
-This continuity is particularly relevant for EUDR compliance, which requires consistent documentation over time, not just initial approval.
+The continuity is particularly relevant for EUDR compliance, which requires consistent documentation over time, not just initial approval.
 
 The team supports EUDR alignment by embedding traceability and compliance checks into routine inspections, supplier reviews, and production monitoring. The approach reduces the risk of compliance gaps when volumes scale up, materials change, or new sub-suppliers are introduced.
 
@@ -134,7 +134,7 @@ The team supports EUDR alignment by embedding traceability and compliance checks
 
 From an EUDR standpoint, Sourcing Notes assists companies in identifying which products, materials, and sourcing routes carry higher deforestation-related risk, and then adapts supplier selection and audit criteria accordingly.
 
-This makes the agency particularly relevant for companies redesigning supply chains to meet EU regulatory expectations rather than retrofitting compliance afterward.
+The approach makes the agency particularly relevant for companies redesigning supply chains to meet EU regulatory expectations rather than retrofitting compliance afterward.
 
 ### 5\. FVSource
 
@@ -142,12 +142,12 @@ FVSource positions itself at the intersection of sourcing consultancy and operat
 
 EUDR considerations are typically addressed at an early, strategic level. FVSource integrates traceability and regulatory criteria into supplier mapping, factory audits, and sourcing strategies across Vietnam and wider Asia.
 
-This includes assessing supplier readiness to provide geolocation data, proof of legal origin, and auditable documentation required under EUDR. The agency’s structured methodologies make it suitable for companies with complex, multi-country supply chains.
+Their work includes assessing supplier readiness to provide geolocation data, proof of legal origin, and auditable documentation required under EUDR. The agency’s structured methodologies make it suitable for companies with complex, multi-country supply chains.
 
 ### 6\. Deloitte
 
 [Deloitte](https://www.deloitte.com/nl/en/issues/climate/eudr-eu-deforestation-free-regulation.html) is generally engaged by multinational companies that require formal governance, compliance frameworks, and audit-ready processes.  
-In the context of EUDR, Deloitte supports companies by designing and implementing end-to-end due-diligence systems. This includes supplier risk classification, documentation standards, internal controls, audit trails, and alignment between procurement, sustainability, and legal teams. Deloitte is often combined with local sourcing operators to ensure that EUDR compliance is both operationally verified and defensible at regulatory level.
+In the context of EUDR, Deloitte supports companies by designing and implementing end-to-end due-diligence systems. Those systems cover supplier risk classification, documentation standards, internal controls, audit trails, and alignment between procurement, sustainability, and legal teams. Deloitte is often combined with local sourcing operators to ensure that EUDR compliance is both operationally verified and defensible at regulatory level.
 
 ### 7\. KPMG
 
@@ -181,11 +181,11 @@ Unlike industrialized supply chains, where tracking and reporting are more stand
 
 A major challenge is the lack of digital tools among small producers. Many farmers and small-scale processors do not use digital record-keeping systems, relying instead on paper-based logs or informal tracking.
 
-This makes it difficult to collect, verify, and store geolocation data, harvest dates, and land-use documentation, all of which are required under the EUDR. Companies must consider investing in digital solutions, such as mobile apps or cloud-based platforms, and provide training to producers to bridge this technological gap.
+Paper records make it difficult to collect, verify, and store geolocation data, harvest dates, and land-use documentation, all of which are required under the EUDR. Companies must consider investing in digital solutions, such as mobile apps or cloud-based platforms, and provide training to producers to bridge this technological gap.
 
 ### Reliance on Paper-Based Documentation
 
-Even larger exporters in Vietnam often maintain paper-based documentation systems, which can be inconsistent or incomplete. This complicates compliance with the EUDR, which emphasizes digital traceability, auditable records, and verifiable data. Converting these processes to digital formats requires additional time, investment, and careful auditing.
+Even larger exporters in Vietnam often maintain paper-based documentation systems, which can be inconsistent or incomplete. Paper systems complicate compliance with the EUDR, which emphasises digital traceability, auditable records, and verifiable data. Converting these processes to digital formats requires additional time, investment, and careful auditing.
 
 ### Complexity of Verifying Legal Compliance
 
@@ -199,7 +199,7 @@ Many international buyers rely on local sourcing agencies or intermediaries to n
 
 ### A Positive Perspective: Vietnam’s Forest Context
 
-It is important to nuance these challenges: unlike some major commodity-producing countries, Vietnam’s forests are not a primary source of deforestation for the commodities covered by the EUDR. This means that, in practice, the risk of sourcing products directly linked to deforestation is lower than in regions like Brazil or Indonesia. While compliance still requires traceability and audits, the environmental risk associated with Vietnamese supply chains is relatively moderate, which can be considered a positive factor for European companies.
+It is important to nuance these challenges: unlike some major commodity-producing countries, Vietnam’s forests are not a primary source of deforestation for the commodities covered by the EUDR. In practice, the risk of sourcing products directly linked to deforestation is lower than in regions like Brazil or Indonesia. While compliance still requires traceability and audits, the environmental risk associated with Vietnamese supply chains is relatively moderate, which can be considered a positive factor for European companies.
 
 Companies can turn these challenges into an opportunity to implement solid traceability systems and build strong relationships with local producers. The lower deforestation risk in Vietnam provides a reassuring context for European buyers, making the country a viable and increasingly attractive sourcing destination. Partnering with reliable local sourcing agencies remains key to navigating these challenges efficiently and ensuring full EUDR compliance.
 
@@ -241,7 +241,7 @@ EUDR compliance is presented as a sourcing problem and an audit problem. Both ar
 
 The audit conversations that determine whether your Vietnamese supplier passes due diligence happen between EU compliance officers and Vietnamese plantation managers, smallholders, processors, and government officials. Many of those people speak no English. Many speak limited Mandarin. They speak Vietnamese, regional dialects, and sometimes ethnic minority languages from the Central Highlands or Mekong Delta.
 
-Without a qualified Vietnamese interpreter, your auditor is talking to whoever in the supply chain happens to speak the most fluent English. That is rarely the same person who actually knows where the rubber, coffee beans, or cocoa came from.
+Without a qualified Vietnamese interpreter, your auditor is talking to whoever in the supply chain happens to speak the most fluent English. The most fluent English speaker is rarely the person who knows where the rubber, coffee beans, or cocoa came from.
 
 **Practical reality:** The strongest EUDR audits in Vietnam pair a sourcing consultant with a qualified Vietnamese-English interpreter who has experience in supply chain and agricultural terminology. The cost is small. The compliance value is enormous. A misunderstood term about land tenure or harvest dates can void an entire batch of due diligence.
 

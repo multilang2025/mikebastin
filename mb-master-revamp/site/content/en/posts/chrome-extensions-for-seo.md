@@ -91,7 +91,7 @@ The [Detailed SEO Extension](https://chromewebstore.google.com/detail/detailed-s
 -   Schema markup detection
 -   robots.txt and sitemap.xml shortcuts
 
-This all-in-one extension is a great time-saver for quick SEO audits.
+The all-in-one extension is a real time-saver for quick SEO audits.
 
 ## 7\. SimilarWeb
 

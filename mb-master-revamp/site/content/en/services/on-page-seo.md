@@ -31,7 +31,7 @@ We fine-tune your content, structure, and user experience to improve relevance a
 
 We apply proven techniques to help search engines better understand your pages.
 
-That means more visibility, more traffic, and more leads.
+The result is more visibility, more traffic, and more leads.
 
 Want to go deeper? Learn how we [optimise multilingual website content](https://mikebastin.com/services/global-seo-solutions/) to reach international audiences.
 

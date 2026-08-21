@@ -10,7 +10,7 @@ wpId: 37173
 date: "2024-09-17T16:05:07"
 modified: "2026-07-19T10:45:59"
 sourceUrl: "https://mikebastin.com/services/content-localisation/"
-excerpt: "Website localisation is the process of adapting a website’s content, design, and functionality to suit the linguistic and cultural preferences of different regions. This includes translating text, adjusting visuals, and modifying user interface elements to ensure the site resonates with local audiences while maintaining a consistent brand experience. By localising a website, businesses can improve user engagement, enhance credibility in international markets, and drive more targeted traffic."
+excerpt: "Website localisation is the process of adapting a website’s content, design, and functionality to suit the linguistic and cultural preferences of different regions. The work includes translating text, adjusting visuals, and modifying user interface elements to ensure the site resonates with local audiences while maintaining a consistent brand experience. By localising a website, businesses can improve user engagement, enhance credibility in international markets, and drive more targeted traffic."
 ---
 
 # Content Localisation Services

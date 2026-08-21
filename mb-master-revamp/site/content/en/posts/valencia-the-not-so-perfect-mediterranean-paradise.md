@@ -59,7 +59,7 @@ Some tags are actually quite artistic, while others look like someone sneezed wh
 
 And let’s not forget the creative litterers who justify their actions with the philosophical argument that they’re “providing job security” for street cleaners.
 
-This has led to Valencia having one of the most impressive street cleaning operations in Spain.
+Valencia has ended up with one of the most impressive street cleaning operations in Spain.
 
 The street cleaners are basically local celebrities, known by name in their neighborhoods.
 

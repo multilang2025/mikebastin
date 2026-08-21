@@ -18,7 +18,7 @@ Just as a choreographer carefully builds each movement in a classical ballet, cr
 
 Much like how different dance styles resonate with various audiences across the globe, content optimisation for Spanish-speaking markets demands a nuanced approach that acknowledges diverse cultural contexts.
 
-This guide will walk you through the essential elements of [content optimisation for Spanish-language markets](https://mikebastin.com/content-optimisation-for-spanish-users/), drawing inspiration from the disciplined yet creative world of professional dance.
+Below, we cover the essential elements of [content optimisation for Spanish-language markets](https://mikebastin.com/content-optimisation-for-spanish-users/), drawing inspiration from the disciplined yet creative world of professional dance.
 
 Like a well-rehearsed performance that captivates audiences from Madrid to Mexico City, your content strategy must balance technical excellence with authentic cultural connection.
 

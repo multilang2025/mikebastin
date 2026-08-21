@@ -50,7 +50,7 @@ So you optimise author bios. You refine content tone. You add references. You bu
 
 You whisper gentle prayers to the Google quality raters.
 
-This is the daily ritual of a serious SEO.
+Such is the daily ritual of a serious SEO.
 
 Quiet. Focused. Slightly paranoid.
 
@@ -130,7 +130,7 @@ Coffee lowers the resistance.
 
 And suddenly your SEO document reads like a fiscal compliance report.
 
-This is where our meme gallery begins.
+Which is where our meme gallery begins.
 
 * * *
 
@@ -178,7 +178,7 @@ This is where our meme gallery begins.
 
 ## The professional moral
 
-This is satire.
+The above is satire.
 
 But also reality.
 

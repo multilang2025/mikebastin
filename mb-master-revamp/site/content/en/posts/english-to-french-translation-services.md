@@ -294,7 +294,7 @@ MTPE is the middle ground: machine output edited by a native linguist, billed lo
 
 A typical 10,000-word business website with SEO integration runs 4 to 6 weeks end to end.
 
-That includes keyword research, translation, review, CMS push, hreflang setup, and a single round of revisions.
+The estimate covers keyword research, translation, review, CMS push, hreflang setup, and a single round of revisions.
 
 Larger e-commerce projects with full catalogue translation typically run 8 to 14 weeks.
 

@@ -29,7 +29,7 @@ If you want to know more about how we approach off-page SEO, [read more about us
 
 Google still uses backlinks as one of its primary ranking signals. A high Domain Rating and a diverse pool of referring domains will outperform a technically perfect site with no external authority behind it. Anchor text distribution matters. Link velocity matters. The topical relevance of the linking domain matters.
 
-White hat link building builds these signals in a way that holds up through algorithm updates. The sites we target have real traffic, real audiences, and real editorial standards. That is what makes a link worth earning.
+White hat link building builds these signals in a way that holds up through algorithm updates. The sites we target have real traffic, real audiences, and real editorial standards. Real standards are what make a link worth earning.
 
 Read more on our [link building in Spain](https://mikebastin.com/link-building-in-spain/) approach or our broader [competitor analysis](https://mikebastin.com/competitor-analysis/) methodology.
 

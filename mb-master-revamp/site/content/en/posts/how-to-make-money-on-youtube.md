@@ -70,7 +70,7 @@ To start with affiliate marketing on YouTube:
 
 ## Offer Channel Memberships
 
-YouTube’s Channel Memberships feature allows your subscribers to pay a monthly fee in exchange for perks like exclusive content, badges, or live chat privileges. This is a great way to create a stable revenue stream from your most dedicated fans. For more monetisation ideas, read our article on [how to make money on YouTube](https://mikebastin.com/how-to-make-money-on-youtube/).
+YouTube’s Channel Memberships feature allows your subscribers to pay a monthly fee in exchange for perks like exclusive content, badges, or live chat privileges. Memberships are a good way to create a stable revenue stream from your most dedicated fans. For more monetisation ideas, read our article on [how to make money on YouTube](https://mikebastin.com/how-to-make-money-on-youtube/).
 
 ### How to Enable Channel Memberships
 
@@ -100,7 +100,7 @@ The feature can turn live streams into a fun and interactive experience while ge
 
 ### Best Practices for Earning with Super Chats
 
--   **Engage with your audience**: Acknowledge and interact with viewers who send Super Chats. This can encourage others to participate and increase your earnings.
+-   **Engage with your audience**: Acknowledge and interact with viewers who send Super Chats. Acknowledgement encourages others to participate and increase your earnings.
 -   **Host regular live streams**: The more often you stream, the more opportunities you have to generate income through Super Chats.
 
 ## Sell Merchandise

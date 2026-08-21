@@ -10,7 +10,7 @@ wpId: 17228948
 date: "2024-09-29T15:40:57"
 modified: "2026-07-19T10:44:19"
 sourceUrl: "https://mikebastin.com/services/multimedia-localisation/"
-excerpt: "Multimedia localisation is essential for businesses aiming to reach a global audience. It involves adapting video, audio, text, and interactive content to suit various cultural and linguistic contexts. This process ensures that the message resonates with diverse audiences, boosting engagement and communication across borders. Whether through translation, cultural adaptation, or multimedia editing, localisation enables brands to connect with people in meaningful and relevant ways, regardless of location."
+excerpt: "Multimedia localisation is essential for businesses aiming to reach a global audience. It involves adapting video, audio, text, and interactive content to suit various cultural and linguistic contexts. The process ensures that the message resonates with diverse audiences, boosting engagement and communication across borders. Whether through translation, cultural adaptation, or multimedia editing, localisation enables brands to connect with people in meaningful and relevant ways, regardless of location."
 ---
 
 # Multimedia Localisation Services

@@ -86,7 +86,7 @@ Absolutely. We provide detailed monthly reports that track your progress, includ
 
 ##### 6\. What is your approach to SEO?
 
-We use a holistic, data-driven approach to SEO, focusing on both on-page and off-page strategies. This includes [keyword research](https://mikebastin.com/services/keyword-research/ "keyword research"), content optimisation, technical SEO improvements, link building, and continuous performance tracking to ensure your site ranks higher on search engines.
+We use a holistic, data-driven approach to SEO, focusing on both on-page and off-page strategies. Our work includes [keyword research](https://mikebastin.com/services/keyword-research/ "keyword research"), content optimisation, technical SEO improvements, link building, and continuous performance tracking to ensure your site ranks higher on search engines.
 
 ##### 7\. Are there any long-term contracts?
 

@@ -78,7 +78,7 @@ Jean Marie Cordaro proposes something different: an economy rooted in meaning, t
 In his model, creators don’t just produce; they transmit.  
 Their value isn’t defined by how much they earn, but by how deeply they connect.
 
-That means rethinking success itself:
+Success itself has to be rethought:
 
 -   fewer vanity metrics,
 -   more loyalty,
@@ -141,7 +141,7 @@ They’ll be an independent media, an educator, a connector, and a business owne
 
 To fulfill that role, they need tools that are ethical, transparent, and empowering, not exploitative.
 
-This is exactly what Bonzai and similar next-generation tools aim to offer:  
+Bonzai and similar next-generation tools aim to offer exactly that:  
 an environment where creators can grow at their own pace, build lasting relationships, and turn creativity into sustainable independence.
 
 The shift is not only technical; it’s cultural.  
@@ -160,7 +160,7 @@ He envisions a creator economy where:
 -   transparency is a standard, not a marketing claim,
 -   and technology supports creativity without dictating it.
 
-This is the foundation of the creator economy he advocates for, one that is global, fair, and profoundly human.
+Those three principles are the foundation of the creator economy he advocates for, one that is global, fair, and profoundly human.
 
 ## Reconciling Humanity and Innovation
 

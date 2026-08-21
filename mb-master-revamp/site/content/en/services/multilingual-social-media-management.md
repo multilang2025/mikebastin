@@ -10,7 +10,7 @@ wpId: 17228936
 date: "2024-09-29T14:11:35"
 modified: "2026-07-19T13:16:32"
 sourceUrl: "https://mikebastin.com/services/multilingual-social-media-management/"
-excerpt: "Multilingual social media management is crucial for businesses aiming to connect with audiences across the globe. It involves creating, localising, and managing content in various languages, ensuring that it resonates with different cultural contexts. By adapting posts, responses, and campaigns to local audiences, brands can significantly improve engagement and reach. This approach ensures that your social media presence is not only consistent but also relevant and impactful across diverse regions."
+excerpt: "Multilingual social media management is crucial for businesses aiming to connect with audiences across the globe. It involves creating, localising, and managing content in various languages, ensuring that it resonates with different cultural contexts. By adapting posts, responses, and campaigns to local audiences, brands can significantly improve engagement and reach. The approach keeps your social media presence is not only consistent but also relevant and impactful across diverse regions."
 ---
 
 # Multilingual Social Media Management

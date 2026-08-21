@@ -660,7 +660,7 @@ Moving to a new country is unsettling for children.
 
 Valencia’s international schools generally offer solid transition support to ease that process.
 
-This typically includes language support sessions, counselling, and activities that introduce local culture.
+Support typically includes language sessions, counselling, and activities that introduce local culture.
 
 Support Type
 

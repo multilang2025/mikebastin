@@ -79,7 +79,7 @@ Spain consistently ranks among the top countries globally for healthcare, and Va
 
 ### 5\. A City Where You Actually Feel Safe
 
-This one catches a lot of newcomers off guard. Valencia is _incredibly_ safe. You’ll see children playing in plazas at 10 PM while their parents enjoy a glass of wine nearby. Walking home alone at night? Not the anxiety-inducing experience it can be in many other European cities. The sense of community and security is one of the biggest reasons families fall in love with the place.
+Safety catches a lot of newcomers off guard. Valencia is _incredibly_ safe. You’ll see children playing in plazas at 10 PM while their parents enjoy a glass of wine nearby. Walking home alone at night? Not the anxiety-inducing experience it can be in many other European cities. The sense of community and security is one of the biggest reasons families fall in love with the place.
 
 ## The 5 Biggest Cons: What Nobody Warns You About
 
@@ -178,7 +178,7 @@ If you’re ready for that shift, then yes, Valencia is an incredible place to l
 
 ### Is it expensive to live in Valencia?
 
-Compared to most Western European and North American cities, no. Rent is your biggest expense, but food, transport, and leisure are significantly cheaper than the UK or US. That said, prices have been creeping up in popular expat areas like Ruzafa and the city centre. For the full breakdown, check our [Valencia cost of living guide](https://mikebastin.com/valencia-cost-of-living/).
+Compared to most Western European and North American cities, no. Rent is your biggest expense, but food, transport, and leisure are significantly cheaper than the UK or US. Prices have been creeping up, though, in popular expat areas like Ruzafa and the city centre. For the full breakdown, check our [Valencia cost of living guide](https://mikebastin.com/valencia-cost-of-living/).
 
 ### Do we need to speak Spanish to live in Valencia?
 

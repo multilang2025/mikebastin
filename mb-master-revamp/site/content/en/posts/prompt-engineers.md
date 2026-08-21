@@ -9,7 +9,7 @@ wpId: 24847926
 date: "2025-08-31T10:35:15"
 modified: "2026-07-02T17:23:46"
 sourceUrl: "https://mikebastin.com/prompt-engineers/"
-excerpt: "Translators are natural prompt engineers. They know how to adapt meaning across languages, cultures, and contexts. This same skill set applies to writing AI prompts that deliver accurate and creative results. By combining linguistic expertise with problem-solving, translators can unlock AI’s full potential."
+excerpt: "Translators are natural prompt engineers. They know how to adapt meaning across languages, cultures, and contexts. The same skill set applies to writing AI prompts that deliver accurate and creative results. By combining linguistic expertise with problem-solving, translators can unlock AI’s full potential."
 ---
 
 ## What Makes Translators Effective Prompt Engineers

@@ -96,7 +96,7 @@ One thing that catches people off guard: electricity in Spain isn’t cheap. Spa
 
 ## Food and Groceries: Where Valencia Really Shines
 
-This is where the **cost of living in Valencia, Spain** gets genuinely exciting. The quality of fresh produce here, with oranges, tomatoes, fish straight from the Mediterranean, is outstanding, and it costs a fraction of what you’d pay in Northern Europe or the US.
+Food is where the **cost of living in Valencia, Spain** gets genuinely exciting. The quality of fresh produce here, with oranges, tomatoes, fish straight from the Mediterranean, is outstanding, and it costs a fraction of what you’d pay in Northern Europe or the US.
 
 > **Stat check:** According to the [OCU’s July 2025 supermarket study](https://www.ocu.org/organizacion/prensa/notas-de-prensa/2025/supermercados240925), a standard grocery basket for a 2.5-person household costs approximately **€313 per month** in Spain. The annual cost of the full OCU basket (241 products) reached €6,259, a 2.5% increase, the smallest rise in four years.
 
@@ -180,7 +180,7 @@ For that price, you get near-instant access to specialists, English-speaking doc
 
 ## The Hidden Costs: What Nobody Tells You About Year One
 
-This is where a lot of first-year budgets go sideways. The **Valencia cost of living** isn’t just rent and groceries. There are significant one-time costs that can catch you off guard.
+Year one is where a lot of budgets go sideways. The **Valencia cost of living** isn’t just rent and groceries. There are significant one-time costs that can catch you off guard.
 
 ### 1\. Gestoría and Legal Fees
 

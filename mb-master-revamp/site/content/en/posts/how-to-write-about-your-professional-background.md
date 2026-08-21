@@ -24,7 +24,7 @@ The article provides a step-by-step guide on building a persuasive and pertinent
 
 Before you start writing about your professional background, it’s essential to understand who will be reading it.
 
-This might seem obvious, but adapting your content to different contexts can significantly enhance its impact.
+The point might seem obvious, but adapting your content to different contexts can significantly enhance its impact.
 
 ### Adapting Your Content for Different Contexts
 
@@ -32,7 +32,7 @@ Your audience could vary depending on where you’re presenting your background.
 
 -   **Resume**: This should be concise and highly focused on the most relevant achievements and skills for the role you’re applying for. The language should be direct and action-oriented, as hiring managers typically skim resumes.
 -   **LinkedIn**: Here, you have more room to blend your professional accomplishments with your personal brand. It’s also a place to highlight ongoing learning, certifications, and thought leadership.
--   **Company Website**: When writing your professional background for a company website, the tone can be more promotional. This is your opportunity to position yourself as an expert who can help clients solve specific problems.
+-   **Company Website**: When writing your professional background for a company website, the tone can be more promotional. A company page is your opportunity to position yourself as an expert who can help clients solve specific problems.
 
 ### Identifying Key Information Your Audience Is Looking For
 
@@ -58,7 +58,7 @@ Avoid jargon and generic phrases like “hardworking” or “detail-oriented,�
 Example:  
 “we’m a digital marketing strategist with over 10 years of experience helping businesses boost their online visibility through data-driven SEO and [content](https://mikebastin.com/building-a-global-brand/) marketing strategies.”
 
-This immediately communicates your specialisation, experience level, and the value you bring.
+One sentence like that communicates your specialisation, experience level, and the value you bring.
 
 ### Highlighting Key Achievements and Skills
 
@@ -69,13 +69,13 @@ If you’ve managed successful marketing campaigns, increased website traffic, o
 Example:  
 “Our campaigns have consistently driven a 20% increase in organic traffic within six months, and we specialise in using SEO to turn search engines into conversion machines for clients.”
 
-This adds credibility and piques the interest of anyone reading your profile.
+Numbers add credibility and pique the interest of anyone reading your profile.
 
 ## Detailing Your Work Experience
 
 After your professional summary, dive into your work experience.
 
-This section gives potential employers or clients a clear picture of your career trajectory and accomplishments.
+The section gives potential employers or clients a clear picture of your career trajectory and accomplishments.
 
 ### Structuring Your Work History
 

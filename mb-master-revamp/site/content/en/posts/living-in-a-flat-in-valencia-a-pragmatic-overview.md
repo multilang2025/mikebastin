@@ -17,7 +17,7 @@ excerpt: "Valencia’s thriving expat scene and Mediterranean allure make it the
 
 We have lived in flats across Valencia for over a decade. From a 50-year-old building in El Carmen with thin walls and erratic water pressure, to a renovated apartment in Ruzafa with proper insulation and a working lift, the difference between flats here is enormous.
 
-This guide covers what you really need to think about before signing a lease in Valencia, the neighbourhoods worth considering, and the quirks of Spanish flat life that catch every newcomer off guard. For the mechanics of finding a place and signing a contract, the [renting in Valencia guide](https://valenciamove.com/renting-in-valencia/) on Valencia Move is a useful companion.
+Below we cover what you really need to think about before signing a lease in Valencia, the neighbourhoods worth considering, and the quirks of Spanish flat life that catch every newcomer off guard. For the mechanics of finding a place and signing a contract, the [renting in Valencia guide](https://valenciamove.com/renting-in-valencia/) on Valencia Move is a useful companion.
 
 **The reality in 2026:** Rental prices have risen 77 percent since 2019. Most landlords now ask for 2 to 3 months of deposit (only 1 month is legal as _fianza_, but the market lets them get away with it). Plan for €1,100 to €2,000 monthly for a decent 2-bedroom in central neighbourhoods.
 

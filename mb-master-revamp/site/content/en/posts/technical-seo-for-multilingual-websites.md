@@ -21,7 +21,7 @@ Managing [multilingual websites](https://mikebastin.com/optimising-multilingual-
 
 To ensure optimal performance and avoid common pitfalls, it’s important to address technical aspects like [hreflang tags](https://mikebastin.com/best-practices-for-multilingual-seo/), server location, and duplicate content management.
 
-This guide provides a detailed look at how to avoid mistakes that could hinder your [multilingual SEO](https://mikebastin.com/services/multilingual-seo/) efforts and harm your search engine rankings.
+Below we look in detail at how to avoid mistakes that could hinder your [multilingual SEO](https://mikebastin.com/services/multilingual-seo/) efforts and harm your search engine rankings.
 
 ### Why Hreflang Tags Matter in Multilingual SEO
 
