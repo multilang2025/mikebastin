@@ -142,7 +142,7 @@ Local presence per Dutch city (GBP, citations)
 
 ## Why this team for Dutch SEO
 
-**Michael Bastin:** 25 years in SEO and translation. Dutch fluent: Erasmus exchange in Utrecht, then 16 years in the Dominican Republic with active Dutch-Caribbean clientele, plus daily Dutch communication through the BeTranslated network.
+**Mike Bastin:** 25 years in SEO and translation. Dutch fluent: Erasmus exchange in Utrecht, then 16 years in the Dominican Republic with active Dutch-Caribbean clientele, plus daily Dutch communication through the BeTranslated network.
 
 Direct piloting of Dutch SEO engagements without intermediaries: I read SERPs, I write briefs, I take meetings in Dutch. Native review by Dutch copywriters on every commercial deliverable for final polish.
 

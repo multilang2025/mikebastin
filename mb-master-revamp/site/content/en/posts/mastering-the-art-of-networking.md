@@ -60,7 +60,7 @@ A personal website serves as your professional command center, a space where you
 
 Beyond listing achievements, use it to demonstrate your thought process through case studies, share your perspective through a blog, and create an engaging portfolio that brings your work to life.
 
-Check out how Michael and his team at **MikeBastin.com** craft bespoke personal branding strategies that highlight your unique strengths.
+Check out how Mike Bastin and his team at **MikeBastin.com** craft bespoke personal branding strategies that highlight your unique strengths.
 
 #### Become a Valuable Voice
 
@@ -199,6 +199,6 @@ Showcase how effective networking has opened doors and created opportunities tha
 
 Networking is an ongoing journey that requires patience, strategy, and genuine effort.
 
-Michael and his team at **MikeBastin.com** are dedicated to helping young professionals enhance their networking skills, build powerful personal brands, and connect with the right opportunities in digital marketing.
+Mike Bastin and his team at **MikeBastin.com** are dedicated to helping young professionals enhance their networking skills, build powerful personal brands, and connect with the right opportunities in digital marketing.
 
 Embrace networking as a key component of your career growth, and watch your professional world expand.

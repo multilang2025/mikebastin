@@ -151,7 +151,7 @@ Ensure that your images, colours, and symbols align with the cultural norms of t
 
 UI localisation is essential for businesses looking to thrive in [global markets](https://mikebastin.com/building-a-global-brand/).
 
-By ensuring that your software speaks the language—both literally and culturally—of your target audience, you improve usability, increase engagement, and build trust with international users.
+By ensuring that your software speaks the language, both literally and culturally, of your target audience, you improve usability, increase engagement, and build trust with international users.
 
 Investing in professional UI localisation services is a smart move that helps your business expand and succeed in new regions.
 

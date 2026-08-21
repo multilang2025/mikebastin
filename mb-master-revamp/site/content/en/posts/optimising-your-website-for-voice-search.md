@@ -21,7 +21,7 @@ Voice search is revolutionising how people find answers, products, and services 
 -   **Over 85% of consumers** in the UK now shop or search online, with mobile voice search usage rising each year.
 -   People expect immediate, conversational answers from their devices. If your website isn’t voice-ready, you’re likely missing lucrative local and commercial traffic.
 
-### Voice Search Trends & Key Statistics
+### Voice Search Trends and Key Statistics
 
 Statistic
 
@@ -47,7 +47,7 @@ Voice responses from featured snippets
 
 40%
 
-**Did you know?** Conversational search queries are typically longer (6–10 words) than typed ones, and 52% of households have a smart speaker in the living room.
+**Did you know?** Conversational search queries are typically longer (6 to 10 words) than typed ones, and 52% of households have a smart speaker in the living room.
 
 ### Conversational Keywords: Real-World Examples
 
@@ -79,11 +79,11 @@ Voice Search Equivalent
 -   62% are likely to purchase via voice within a month.
 -   44% order groceries and household items by voice at least weekly.
 
-### Spotlight on Featured Snippets & Direct Answers
+### Spotlight on Featured Snippets and Direct Answers
 
--   Aim for concise (40–60 word) answers using conversational tone.
+-   Aim for concise (40 to 60 word) answers using conversational tone.
 -   Use `<h2>` or `<h3>` headings, bullet lists, and tables for structure.
--   Use clear step-by-step formatting—ideal for featured snippets.
+-   Use clear step-by-step formatting, ideal for featured snippets.
 
 #### Step-by-Step: Claiming Your Google Business Profile
 
@@ -187,6 +187,6 @@ Captures “near me” localisation
 
 ### Final Thoughts
 
-Optimising for voice search is more than a technical update—it reflects a broader change in how people engage with content. Understand your audience, adapt your structure, and provide helpful, voice-friendly information.
+Optimising for voice search is more than a technical update, it reflects a broader change in how people engage with content. Understand your audience, adapt your structure, and provide helpful, voice-friendly information.
 
 Ready to reach more users with conversational search? [Contact us for a free consultation](https://mikebastin.com/contact-us/) and discover how modern SEO can boost your visibility.

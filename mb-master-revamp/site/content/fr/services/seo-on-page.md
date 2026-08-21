@@ -73,7 +73,7 @@ We carry out the [SEO strategies](https://mikebastin.com/how-ai-is-revolutionisi
 
 Nous effectuons des mises à jour régulières sur les performances de votre site en ajustant les stratégies si nécessaire.
 
-FAQ – Questions fréquentes
+FAQ, Questions fréquentes
 
 Le SEO On-Page implique d’optimiser les pages web pour se classer plus haut et gagner un trafic plus pertinent.
 

@@ -67,7 +67,7 @@ Nous installons et configurons le plugin, en veillant à ce que toutes les langu
 
 Après la configuration, nous surveillons les performances de votre site et fournissons des rapports détaillés, en apportant les modifications nécessaires pour des résultats optimaux.
 
-FAQ – Questions fréquentes
+FAQ, Questions fréquentes
 
 Le choix dépend de vos besoins. WPML est idéal pour les sites complexes, tandis que GTranslate propose des solutions rapides et automatiques.
 

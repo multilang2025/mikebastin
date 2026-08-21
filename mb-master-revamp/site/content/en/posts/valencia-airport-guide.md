@@ -36,7 +36,7 @@ Valencia Airport is relatively compact compared to Madrid or Barcelona, which is
 
 ### The Arrival Process
 
-Once you clear passport control (which can take 20–40 minutes during peak summer hours for non-EU passengers) and collect your luggage, you will emerge into the arrivals hall. Here is what you need to do immediately:
+Once you clear passport control (which can take 20 to 40 minutes during peak summer hours for non-EU passengers) and collect your luggage, you will emerge into the arrivals hall. Here is what you need to do immediately:
 
 ### 1\. Getting a Local SIM Card
 
@@ -99,7 +99,7 @@ The honeymoon phase of the first few days will soon transition into the “getti
 
 ### 1\. Finalising Your SIM and Connectivity
 
-If you didn’t get a SIM at the airport, head to a shop like **Digi**, **Yoigo**, or **Lowi**. They often offer much better monthly rates (around €10–€15 for massive data packages) than the big-name providers. You will need your passport to register any SIM card in Spain.
+If you didn’t get a SIM at the airport, head to a shop like **Digi**, **Yoigo**, or **Lowi**. They often offer much better monthly rates (around €10, €15 for massive data packages) than the big-name providers. You will need your passport to register any SIM card in Spain.
 
 ### 2\. The Paperwork: NIE and Empadronamiento
 
@@ -170,7 +170,7 @@ The tap water in Valencia is perfectly safe to drink and meets all EU standards.
 
 ### How much should I tip in Valencia?
 
-Tipping is not mandatory in Spain. In casual bars or for small meals, leaving the small change (a few cents) is common. In nicer restaurants, a tip of 5–10% is appreciated if the service was excellent, but it is never expected or added to the bill automatically.
+Tipping is not mandatory in Spain. In casual bars or for small meals, leaving the small change (a few cents) is common. In nicer restaurants, a tip of 5 to 10% is appreciated if the service was excellent, but it is never expected or added to the bill automatically.
 
 ### What is the best way to find a long-term rental after my first week?
 

@@ -153,7 +153,7 @@ Asesoría jurídica avanzada por país
 
 ## Por qué este equipo para SEO internacional
 
-**Michael Bastin:** 25 años en SEO y traducción. Co-fundador de BeTranslated, agencia que opera con 12 ccTLDs país: experiencia práctica directa con arquitectura multidominio internacional, no teoría de blog.
+**Mike Bastin:** 25 años en SEO y traducción. Co-fundador de BeTranslated, agencia que opera con 12 ccTLDs país: experiencia práctica directa con arquitectura multidominio internacional, no teoría de blog.
 
 He desplegado expansiones internacionales para una agencia inmobiliaria caribeña dirigida a compradores dominicanos e internacionales, un transitario de Houston operando entre EE. UU. y LatAm, un despacho jurídico de Valencia con tres mercados, y mi propia red de traducción con 12 dominios país.
 

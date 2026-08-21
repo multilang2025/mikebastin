@@ -82,7 +82,7 @@ It guarantees your website functions smoothly in each target market, meets local
 
 We specialise in platforms like WordPress, Joomla, and Drupal, but we can also test custom-built websites.
 
-The duration depends on the complexity of your website and the number of localised versions. Most projects take between 1–2 weeks.
+The duration depends on the complexity of your website and the number of localised versions. Most projects take between 1 to 2 weeks.
 
 Yes, we provide continuous monitoring and reporting to ensure your localised website remains compliant and performs optimally over time.
 

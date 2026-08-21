@@ -27,13 +27,13 @@ Our transcreation experts adapt your content, so your message inspires trust and
 • Native linguists ensure your tone, intent, and impact never get lost  
 • Every project balances creative freedom and brand consistency
 
-Stand out with copy that feels natural—everywhere.  
+Stand out with copy that feels natural, everywhere.  
 Ready to connect with your global audience?  
 [Contact us](https://mikebastin.com/contact-us/) or see our [content localisation](https://mikebastin.com/services/content-localisation/) and [business translation](https://mikebastin.com/services/business-translation/) services.
 
 ## Why Choose Our Transcreation Services ?
 
-A global user base demands more than just translation—it requires UX/UI design that is adaptable and responsive across various languages and cultures.
+A global user base demands more than just translation, it requires UX/UI design that is adaptable and responsive across various languages and cultures.
 
 Adapt content to reflect local culture.
 
@@ -77,7 +77,7 @@ While translation focuses on linguistic accuracy, transcreation emphasizes the c
 
 Transcreation is ideal for marketing, advertising, branding, and any industry that requires impactful communication across markets.
 
-Timelines vary based on project scope, but most transcreation projects are completed within 1–2 weeks.
+Timelines vary based on project scope, but most transcreation projects are completed within 1 to 2 weeks.
 
 Yes, we provide transcreation services in multiple languages, ensuring your brand’s message is effective worldwide.
 

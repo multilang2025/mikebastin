@@ -70,7 +70,7 @@ We check for consistency, correct terminology, and alignment with your objective
 
 We deliver documents you can trust for any official or commercial purpose.
 
-FAQ – Questions fréquentes
+FAQ, Questions fréquentes
 
 Nous adhérons à des protocoles de confidentialité stricts et pouvons signer des accords de confidentialité. Nos systèmes sécurisés protègent vos informations sensibles tout au long du processus de traduction.
 

@@ -306,7 +306,7 @@ Rendez-vous a prendre plusieurs semaines à l’avance. Passage par une gestoria
 
 La présence française à Valencia n’est pas un phenomene passager. C’est l’expression d’un choix de vie reflechi, porte par des milliers de personnes qui ont decide que la qualité de vie, le dynamisme économique et la douceur méditerranéenne valaient bien quelques ajustements administratifs.
 
-La ville attire, retient et intégré avec une energie qui ne ressemble a aucune autre métropole européenne de cette taille. Les Gay Games 2026 (27 juin – 4 juillet), le nouveau **Musee Sorolla** au Palais des Communications et la restauration de l’eglise des Santos Juanes en style baroque en sont les derniers signaux.
+La ville attire, retient et intégré avec une energie qui ne ressemble a aucune autre métropole européenne de cette taille. Les Gay Games 2026 (27 juin, 4 juillet), le nouveau **Musee Sorolla** au Palais des Communications et la restauration de l’eglise des Santos Juanes en style baroque en sont les derniers signaux.
 
 Pour tout savoir sur la vie pratique avant de franchir le pas, consultez nos guides complets : [8 choses a savoir avant de s’installer à Valencia](https://mikebastin.com/fr/choses-a-savoir-absolument-avant-de-sinstaller-a-valencia/), [le marche locatif et les quartiers](https://mikebastin.com/fr/vivre-en-appartement-a-valencia/) et [le budget réel d’un expatrié à Valencia en 2026](https://mikebastin.com/fr/cout-de-la-vie-valencia/).
 

@@ -109,7 +109,7 @@ If you want to live where the locals live, Patraix is the place. It is a solid, 
 -   **Cons:** Not many “tourist” attractions; requires more Spanish language skills to navigate daily life.
 -   **Suits:** Families on a budget and those seeking true Spanish immersion.
 
-### 9\. Alboraya & Godella (The Surrounding Towns)
+### 9\. Alboraya and Godella (The Surrounding Towns)
 
 Sometimes the best places to live are actually just outside the city limits. Alboraya is the home of Horchata and sits right on the edge of the northern city boundary, while Godella offers a more elevated, leafy suburban feel.
 

@@ -15,15 +15,15 @@ excerpt: "Certified and sworn translation services provide legally recognised tr
 
 # Certified and Sworn Translations
 
-Official & Certified Translation Services
+Official and Certified Translation Services
 
-## Official & Certified Translation Services: Sworn, Notarized, and Legally Recognized
+## Official and Certified Translation Services: Sworn, Notarized, and Legally Recognized
 
 Need your critical legal, business, or personal papers officially translated? We’ve got you covered. Our team consists of expert translators who are officially certified, sworn, or registered to provide **legally recognized translations**.
 
 Whether you need an **Official Translation** for your **Birth Certificate**, require a document **Notarized** for a corporate filing, or are submitting papers for immigration (**USCIS Translation**), we ensure every word is accurate, compliant, and legally legit. We handle everything from complex legal contracts and **Articles of Association** to vital personal documents.
 
-No worries, no fuss—just clear, secure, and **official document translation** you can count on.
+No worries, no fuss, just clear, secure, and **official document translation** you can count on.
 
 ## Why Choose Our Certified Translation Services?
 
@@ -61,7 +61,7 @@ Legal, financial, academic, and personal documents often require certified trans
 
 Yes, our certified and sworn translations are accepted by legal authorities and government institutions.
 
-The timeframe depends on the document’s length and complexity. While our standard delivery is 2–5 business days, we offer **Rush Certified Translation** and **Same-Day Certified Translation** services for urgent needs, often delivering critical personal documents like a **Birth Certificate Translation** or **Visa Translation** documents immediately.
+The timeframe depends on the document’s length and complexity. While our standard delivery is 2 to 5 business days, we offer **Rush Certified Translation** and **Same-Day Certified Translation** services for urgent needs, often delivering critical personal documents like a **Birth Certificate Translation** or **Visa Translation** documents immediately.
 
 We follow strict data protection protocols to safeguard your documents, ensuring complete confidentiality.
 
@@ -70,8 +70,8 @@ Our Customers
 ## The Benefits of Certified Translation Services
 
 -   **Legally Recognised**: Accepted by courts and government bodies.
--   **Accurate & Reliable**: Ensures exact translations, every time.
--   **Confidential & Secure**: Full protection of your sensitive information.
+-   **Accurate and Reliable**: Ensures exact translations, every time.
+-   **Confidential and Secure**: Full protection of your sensitive information.
 
 Why Trust Our Certified Translation Expertise?
 

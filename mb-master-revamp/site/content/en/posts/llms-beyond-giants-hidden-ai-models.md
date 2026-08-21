@@ -28,7 +28,7 @@ Here are ten LLMs worth knowing in 2026, with links to their official sources so
 
 ### 1BLOOM
 
-BigScience research workshop — 1,000+ researchers, 70+ countries
+BigScience research workshop, 1,000+ researchers, 70+ countries
 
 **What it is:** A 176-billion-parameter open-access multilingual LLM trained on 46 natural languages and 13 programming languages. One of the most ambitious open-science AI projects ever attempted.
 

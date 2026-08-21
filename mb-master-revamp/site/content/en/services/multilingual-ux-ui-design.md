@@ -27,7 +27,7 @@ From Left-to-Right languages to encoding challenges, we localise your site to de
 
 ## Why Multilingual UX/UI Design Matters
 
-A global user base demands more than just translation—it requires UX/UI design that is adaptable and responsive across various languages and cultures.
+A global user base demands more than just translation, it requires UX/UI design that is adaptable and responsive across various languages and cultures.
 
 Ensure your design resonates with users in different markets.
 

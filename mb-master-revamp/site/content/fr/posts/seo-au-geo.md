@@ -64,7 +64,7 @@ L’**Expérience, l’Expertise, l’Autorité et la Fiabilité (E-E-A-T)** res
 
 L’étude fondatrice de Princeton University et IIT Delhi (2024) a démontré que l’ajout de statistiques spécifiques au contenu augmente la probabilité d’être cité par les IA de 37 %. L’intégration combinée de sources, de données chiffrées et de citations améliore la visibilité dans les moteurs génératifs de 30 à 40 %.
 
-Source : [Princeton University & IIT Delhi (2024)](https://arxiv.org/abs/2311.09735)
+Source : [Princeton University and IIT Delhi (2024)](https://arxiv.org/abs/2311.09735)
 
 -   Illustrez votre contenu par des exemples concrets tirés de votre expérience professionnelle
 -   Actualisez vos articles avec des données récentes (les pages mises à jour dans les 90 derniers jours sont favorisées par les moteurs IA)

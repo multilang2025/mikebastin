@@ -96,7 +96,7 @@ Use GBP insights to track the performance of your posts. Identify which types of
 
 ![Post Creation](https://mikebastin.com/wp-content/uploads/2024/09/image-5.png)
 
-### Questions & Answers (Q&A)
+### Questions and Answers (Q&A)
 
 #### Monitor and Manage the Q&A Section
 
@@ -114,7 +114,7 @@ Take the initiative by seeding common questions that highlight unique aspects of
 
 Answer these questions with detailed, keyword-optimized responses to [boost your local SEO performance](https://mikebastin.com/services/local-seo/).
 
-![Questions & Answers (Q&A)](https://mikebastin.com/wp-content/uploads/2024/09/image-6.png)
+![Questions and Answers (Q&A)](https://mikebastin.com/wp-content/uploads/2024/09/image-6.png)
 
 ### Business Attributes and Services
 

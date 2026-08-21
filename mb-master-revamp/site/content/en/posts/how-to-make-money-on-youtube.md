@@ -173,7 +173,7 @@ The more popular your videos are among Premium subscribers, the more you can ear
 
 ## Conclusion
 
-Making money on YouTube is not just about creating engaging videos – it’s about leveraging multiple revenue streams to increase your earnings. To stay ahead, explore more tips in our [digital marketing blog](https://mikebastin.com/blog/).
+Making money on YouTube is not just about creating engaging videos, it’s about leveraging multiple revenue streams to increase your earnings. To stay ahead, explore more tips in our [digital marketing blog](https://mikebastin.com/blog/).
 
 Whether you’re monetising through ads, affiliate marketing, or offering memberships, the key is consistency and delivering value to your audience.
 

@@ -261,7 +261,7 @@ Large language models are trained on internet text. The internet is overwhelming
 
 Vietnamese sits in a strange middle zone. Plenty of speakers, plenty of online content, but limited high-quality bilingual technical corpora. AI handles tourist Vietnamese well. It struggles with regulatory Vietnamese, agricultural Vietnamese, and the regional dialects spoken in the Central Highlands where much of Vietnam’s coffee and rubber actually comes from.
 
-In specialised B2B contexts — legal compliance, supply-chain auditing, technical specifications, regulated industries — AI translation accuracy drops sharply for any language outside the top five. Human expertise becomes more valuable as the legal stakes rise, not less.[From my analysis of AI translation across 25 years of practice](https://mikebastin.com/how-ai-is-transforming-translation-and-localisation/)
+In specialised B2B contexts, legal compliance, supply-chain auditing, technical specifications, regulated industries, AI translation accuracy drops sharply for any language outside the top five. Human expertise becomes more valuable as the legal stakes rise, not less.[From my analysis of AI translation across 25 years of practice](https://mikebastin.com/how-ai-is-transforming-translation-and-localisation/)
 
 The same dynamic applies to Khmer, Lao, Malay, Tagalog, Burmese, Bahasa Indonesia, and the dozens of indigenous languages that matter for sustainable sourcing across South-East Asia. The bigger AI gets, the more obvious the gap becomes between dominant languages and the rest. The compliance value of a human Vietnamese interpreter increases as AI takes over routine translation, because the routine work disappears and only the high-stakes specialised work remains.
 

@@ -29,7 +29,7 @@ Nous contrôlons le respect du code, l’affichage sur tous les écrans (mobile,
 Nous sommes à la fois vos [conseillers culturels](https://mikebastin.com/fr/services/conseil-culturel/) et vos détectives techniques.  
 Notre mission : que votre site donne l’impression d’avoir été conçu dans la langue locale dès le départ.
 
-Zéro erreur, zéro approximation – uniquement des utilisateurs conquis et une interface fluide, prête à faire sensation.
+Zéro erreur, zéro approximation, uniquement des utilisateurs conquis et une interface fluide, prête à faire sensation.
 
 ## En quoi les tests de localisation sont-ils essentiels ?
 

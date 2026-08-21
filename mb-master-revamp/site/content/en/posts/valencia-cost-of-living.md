@@ -74,7 +74,7 @@ Even so, the market has started to stabilise in 2026. But there’s still an “
 
 ### Neighbourhood Breakdown: Estimated 2026 Rents (2-Bedroom Apartment)
 
--   **Eixample (Ruzafa & Gran Vía):** The expat heartbeat. **€1,400 to €1,800**. Listings disappear within 24 hours, not an exaggeration.
+-   **Eixample (Ruzafa and Gran Vía):** The expat heartbeat. **€1,400 to €1,800**. Listings disappear within 24 hours, not an exaggeration.
 -   **El Carmen / Ciutat Vella:** Historic charm, but many buildings lack lifts and the noise is real. Modernised flat: **€1,300 to €1,700**.
 -   **El Cabanyal / Malvarrosa:** The beach area. Fully gentrified now. A 2-bed with a terrace: **€1,200 to €1,600**.
 -   **Extramurs / Arrancapins:** Great value, very central, more “real Spanish.” **€1,100 to €1,400**.

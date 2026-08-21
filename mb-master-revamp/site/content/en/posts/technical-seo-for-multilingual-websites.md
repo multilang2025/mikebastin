@@ -140,7 +140,7 @@ Neglecting metadata in multilingual SEO efforts can limit the effectiveness of y
 
 Ensure that all metadata, including meta titles and descriptions, are translated accurately and include relevant keywords for each target language. Explore our [multilingual SEO copywriting services](https://mikebastin.com/services/multilingual-seo-copywriting/).
 
-Don’t simply copy and paste English metadata into other language versions—optimise it specifically for the local audience and search behaviour.
+Don’t simply copy and paste English metadata into other language versions, optimise it specifically for the local audience and search behaviour.
 
 Using translated alt tags for images is also important for improving accessibility and ranking in image search results.
 
@@ -158,7 +158,7 @@ Schedule routine [technical audits](https://mikebastin.com/services/analytics-an
 
 When search engines update their algorithms or introduce new requirements for international SEO, you must adjust your technical setup quickly to maintain visibility.
 
-This proactive strategy, combined with thorough documentation of your international architecture, will help you prevent common pitfalls such as incorrect language targeting, mixed content issues, and poor URL structure – problems that often affect multilingual websites but can be avoided through consistent monitoring and swift resolution.
+This proactive strategy, combined with thorough documentation of your international architecture, will help you prevent common pitfalls such as incorrect language targeting, mixed content issues, and poor URL structure, problems that often affect multilingual websites but can be avoided through consistent monitoring and swift resolution.
 
 ### Final Thoughts: Mastering Technical SEO for Multilingual Sites
 

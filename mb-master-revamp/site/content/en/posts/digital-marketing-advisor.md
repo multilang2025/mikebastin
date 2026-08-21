@@ -102,7 +102,7 @@ You can see how I shape a [targeted content strategy](https://mikebastin.com/how
 
 > In my engagements with law firms, freight forwarders, and translation companies, the same pattern keeps showing up. The companies that grow are the ones that keep strategy and execution in separate hands, with a clear feedback loop between them.
 > 
-> — [Michael Bastin](https://mikebastin.com/about-us/), multilingual SEO and marketing consultant
+>, [Mike Bastin](https://mikebastin.com/about-us/), multilingual SEO and marketing consultant
 
 ## What a digital marketing agency does
 
@@ -298,7 +298,7 @@ The core distinction still holds: advisors partner on thinking, agencies partner
 
 > Nearly 24% of brands cut a senior marketing leader role in 2025 without replacing it, turning instead to fractional and advisory arrangements to cover the gap.
 > 
-> Source: [Marketing Week, 2025 Career & Salary Survey](https://www.marketingweek.com/cmo-leaders-spencer-stuart/)
+> Source: [Marketing Week, 2025 Career and Salary Survey](https://www.marketingweek.com/cmo-leaders-spencer-stuart/)
 
 As generative AI tools like ChatGPT, Jasper, and Claude make content production faster and cheaper, the value of execution drifts down while the value of strategic thinking rises.
 

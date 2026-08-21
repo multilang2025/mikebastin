@@ -56,7 +56,7 @@ Les températures oscillent entre 6 et 16 °C, ce qui rend la doudoune bien moin
 
 Attention toutefois, janvier est souvent le mois le plus venteux, avec une vitesse moyenne approchant les 15 km/h.
 
--   Hiver doux (décembre à février) autour de 10–15 °C en journée.
+-   Hiver doux (décembre à février) autour de 10 to 15 °C en journée.
 -   Vent plus marqué en janvier, à prévoir si vous vous déplacez en deux-roues.
 -   Jours plus courts, mais encore assez ensoleillés pour des balades l’après-midi.
 

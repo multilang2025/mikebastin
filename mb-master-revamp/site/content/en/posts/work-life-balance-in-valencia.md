@@ -90,7 +90,7 @@ For instance, Tuesdays and Thursdays are my ‘European days’ with calls sched
 
 I’ve found that being transparent about my location and working hours has actually strengthened client relationships. Many appreciate the cultural diversity I bring to our interactions and respect the boundaries I’ve set. For more on building relationships, see [networking strategies](https://mikebastin.com/mastering-the-art-of-networking/) for global entrepreneurs.
 
-The siesta hours (2 pm – 5 pm local time) often become my ‘power hours’ for focused work with minimal interruptions, as most European clients are winding down their day.
+The siesta hours (2 pm, 5 pm local time) often become my ‘power hours’ for focused work with minimal interruptions, as most European clients are winding down their day.
 
 The real challenge lies in adapting these strategies to your specific situation, as every expat entrepreneur faces unique circumstances based on their primary market.
 

@@ -25,7 +25,7 @@ Our team ensures smooth setup and optimisation, giving you clear, actionable dat
 
 ## Why Invest in Analytics and Tracking?
 
-Analytics and tracking tools are not just about collecting data – they’re essential for understanding your audience and optimising your website for better performance. Here’s why they matter: 
+Analytics and tracking tools are not just about collecting data, they’re essential for understanding your audience and optimising your website for better performance. Here’s why they matter: 
 
 Make informed choices based on real-time data and performance metrics. 
 
@@ -47,7 +47,7 @@ Create bespoke reports that focus on the metrics most important to your business
 
 Visualise user behaviour to optimise page layouts and content placement. 
 
-## Our Analytics & Tracking Process
+## Our Analytics and Tracking Process
 
 Transparency and results-driven strategies are at the heart of our approach.  
 Here’s how we work:
@@ -84,4 +84,4 @@ Our Customers
 
 Our Expertise in Analytics and Tracking
 
-With over 25 years of experience in digital marketing and data analysis, our team excels in analytics and tracking integration. We don’t just set up tools – we provide insights that drive growth and improve performance. Our expertise ensures your business makes informed, data-driven decisions that lead to measurable success.
+With over 25 years of experience in digital marketing and data analysis, our team excels in analytics and tracking integration. We don’t just set up tools, we provide insights that drive growth and improve performance. Our expertise ensures your business makes informed, data-driven decisions that lead to measurable success.

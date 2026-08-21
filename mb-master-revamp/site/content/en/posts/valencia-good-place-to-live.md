@@ -42,7 +42,7 @@ Valencia (Spain)
 
 £2,100+
 
-€900 – €1,200
+€900, €1,200
 
 Three-course Meal (Mid-range)
 

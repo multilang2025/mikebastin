@@ -63,7 +63,7 @@ Nous élaborons un plan de contenu sur mesure pour chaque marché, combinant per
 
 Votre ton reste uniforme sur tous les marchés, tout en respectant les nuances culturelles de chaque langue cible.
 
-FAQ – Questions fréquentes
+FAQ, Questions fréquentes
 
 Il s’agit du processus de création de contenu optimisé pour le référencement dans plusieurs langues, adapté à la fois pour les audiences locales et les moteurs de recherche.
 

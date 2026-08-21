@@ -68,7 +68,7 @@ Outside centre (€)
 
 #### Average rent per m² across Spanish cities in 2026
 
-Source: Idealista & Fotocasa national reports, March 2026
+Source: Idealista and Fotocasa national reports, March 2026
 
 Barcelona
 

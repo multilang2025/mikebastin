@@ -12,7 +12,7 @@ sourceUrl: "https://mikebastin.com/services/french-seo/"
 excerpt: "Boost your online presence in French-speaking markets with MikeBastin’s expert SEO services. Benefit from our 25+ years of experience and achieve top rankings in France, Belgium, Switzerland, and Québec."
 ---
 
-# French SEO Services & Solutions
+# French SEO Services and Solutions
 
 Boost Your Online Visibility in France, Belgium and Switzerland
 
@@ -123,7 +123,7 @@ With over 25 years of experience in multilingual SEO, our team delivers exceptio
 [France](https://mikebastin.com/services/french-seo/), [Belgium](https://mikebastin.com/seo-in-belgium/), [Switzerland](https://mikebastin.com/services/internationalisation/), and [Québec](https://mikebastin.com/services/french-seo/).  
 We specialise in bespoke SEO strategies that boost your online presence and connect you with local audiences.
 
-Led by [Michael Bastin](https://mikebastin.com/about-us/), our dedicated team has consistently achieved top rankings for clients across diverse industries.  
+Led by [Mike Bastin](https://mikebastin.com/about-us/), our dedicated team has consistently achieved top rankings for clients across diverse industries.  
 Our commitment to excellence sets us apart as a trusted partner in your digital journey.
 
 Our expertise spans all aspects of French SEO, from detailed  

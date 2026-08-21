@@ -266,9 +266,9 @@ From $77/year
 
 [LinkBoss](https://linkboss.io/)
 
-Semantic analysis & SILO structure
+Semantic analysis and SILO structure
 
-SEO experts & agencies
+SEO experts and agencies
 
 From $11/month
 
@@ -286,31 +286,31 @@ Keyword-based auto-linking
 
 Small to medium sites
 
-Free – €69.99/year
+Free, €69.99/year
 
 [Autolinks Manager](https://daext.com/autolinks-manager/) / Interlinks Manager
 
 Customizable auto-linking
 
-Affiliate & e-commerce
+Affiliate and e-commerce
 
 Personal  
 1 Website  
-12 months of support & updates  
+12 months of support and updates  
 All Pro Features  
 $39  
 /year  
 [Buy Personal](https://daext.com/?daextcomm-action=create-checkout-session&product_id=1)  
 Freelance  
 5 Websites  
-12 months of support & updates  
+12 months of support and updates  
 All Pro Features  
 $79  
 /year  
 [Buy Freelance](https://daext.com/?daextcomm-action=create-checkout-session&product_id=2)  
 Agency  
 25 Websites  
-12 months of support & updates  
+12 months of support and updates  
 All Pro Features  
 $149  
 /year  

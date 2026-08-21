@@ -131,7 +131,7 @@ The social aspect of Valencia’s coworking scene deserves particular attention.
 
 Most spaces organize regular networking events, professional workshops, and social activities that help remote workers build both professional and personal connections.
 
-The [Valencia Coworking & Coffee](https://www.meetup.com/valencia-coworking-coffee/) group, which meets weekly, exemplifies how the city’s remote work community actively supports newcomers and fosters ongoing professional relationships.
+The [Valencia Coworking and Coffee](https://www.meetup.com/valencia-coworking-coffee/) group, which meets weekly, exemplifies how the city’s remote work community actively supports newcomers and fosters ongoing professional relationships.
 
 For remote workers considering Valencia, it’s worth noting that the city’s coworking culture emphasizes community building over pure productivity.
 
@@ -227,4 +227,4 @@ The community’s collaborative spirit and welcoming nature make [Valencia parti
 
 The [Valencia Digital Nomads](https://www.facebook.com/groups/822085512017504/) Facebook group serves as the primary online hub for the community, connecting over 3,000 members.
 
-Regular meetups and networking events form the backbone of the community, with groups like the [Valencia Coworking & Coffee](https://www.meetup.com/valencia-coworking-coffee/) group organizing weekly gatherings.
+Regular meetups and networking events form the backbone of the community, with groups like the [Valencia Coworking and Coffee](https://www.meetup.com/valencia-coworking-coffee/) group organizing weekly gatherings.

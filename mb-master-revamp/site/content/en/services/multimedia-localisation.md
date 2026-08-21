@@ -21,9 +21,9 @@ Adapt your video, audio, and visual content for audiences that expect it in thei
 
 Want your videos and podcasts to reach people around the world? We’ve got you covered. We’ll help make your content speak to different cultures while keeping all the good stuff that makes it unique.
 
-We can add subtitles in different languages, record voice-overs that sound natural, and type up what’s being said so everyone can follow along. Don’t worry about the technical bits – we’ll make sure everything works smoothly.
+We can add subtitles in different languages, record voice-overs that sound natural, and type up what’s being said so everyone can follow along. Don’t worry about the technical bits, we’ll make sure everything works smoothly.
 
-The best part? Your content won’t just be translated – it’ll feel like it was made for each audience. So whether you’re sharing a company video or a cool podcast, we’ll help you connect with people from all corners of the globe.
+The best part? Your content won’t just be translated, it’ll feel like it was made for each audience. So whether you’re sharing a company video or a cool podcast, we’ll help you connect with people from all corners of the globe.
 
 Why Multimedia Localisation Matters
 
@@ -69,9 +69,9 @@ Multimedia localisation involves adapting video, audio, and transcription conten
 
 Subtitling involves translating the dialogue into text on the screen, while dubbing replaces the original audio with voice-overs in the target language.
 
-We support a wide range of multimedia file formats to ensure we can handle virtually any project you bring to us. For video, we work with common formats like MP4, AVI, MOV, and WMV. Our audio capabilities include WAV, MP3, AAC, and FLAC files. For subtitling and transcription, we can work with SRT, VTT, and many other text-based formats. If you have a specific file type not mentioned here, don’t hesitate to ask – chances are we can accommodate it. Our goal is to make the localisation process as smooth as possible, regardless of your source material’s format.
+We support a wide range of multimedia file formats to ensure we can handle virtually any project you bring to us. For video, we work with common formats like MP4, AVI, MOV, and WMV. Our audio capabilities include WAV, MP3, AAC, and FLAC files. For subtitling and transcription, we can work with SRT, VTT, and many other text-based formats. If you have a specific file type not mentioned here, don’t hesitate to ask, chances are we can accommodate it. Our goal is to make the localisation process as smooth as possible, regardless of your source material’s format.
 
-The duration depends on the complexity of your website and the number of localised versions. Most projects take between 1–2 weeks.
+The duration depends on the complexity of your website and the number of localised versions. Most projects take between 1 to 2 weeks.
 
 Our team of localisation experts ensures that all multimedia content is culturally adapted to meet local preferences and sensibilities, without losing the original message’s intent.
 

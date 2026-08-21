@@ -151,6 +151,6 @@ Monitoring key metrics allows you to make data-driven decisions and refine your 
 
 Regular audits, continuous learning, and staying updated with best practices are essential for maintaining a healthy SEO strategy.
 
-Michael and his team at MikeBastin.com are dedicated to helping businesses and professionals navigate the complex world of SEO, ensuring that every effort is optimised for success.
+Mike Bastin and his team at MikeBastin.com are dedicated to helping businesses and professionals navigate the complex world of SEO, ensuring that every effort is optimised for success.
 
 Avoid these pitfalls, implement the right fixes, and watch your SEO performance improve.

@@ -76,10 +76,10 @@ No existen aún dashboards oficiales de «GEO analytics», pero puedes usar esta
 -   **Google AI Overviews**: busca en modo incógnito y revisa si tu contenido está en el resumen.
 -   [**Herramientas gratuitas de análisis competitivo**](https://mikebastin.com/es/herramientas-gratuitas-analisis-competitivo/): adapta Ubersuggest o SimilarWeb para identificar quién domina en búsquedas conversacionales.
 
-> **Consejo práctico**: haz un seguimiento mensual de 10–15 consultas clave de tu buyer persona. Documenta:  
-> – ¿apareces?  
-> – ¿cómo te describen?  
-> – ¿te enlazan?
+> **Consejo práctico**: haz un seguimiento mensual de 10 to 15 consultas clave de tu buyer persona. Documenta:  
+>, ¿apareces?  
+>, ¿cómo te describen?  
+>, ¿te enlazan?
 
 ## El rol del marcado de datos estructurados en GEO
 
@@ -165,7 +165,7 @@ No. El SEO sigue siendo crucial para el tráfico directo. Pero el GEO asegura **
 
 ### ¿Cómo empiezo a rastrear mis citas?
 
-1.  Define 10–15 consultas clave de tu buyer persona.
+1.  Define 10 to 15 consultas clave de tu buyer persona.
 2.  Pregúntale a Perplexity, ChatGPT y Google (modo incógnito).
 3.  Registra si apareces, cómo te describen y si te enlazan.
 

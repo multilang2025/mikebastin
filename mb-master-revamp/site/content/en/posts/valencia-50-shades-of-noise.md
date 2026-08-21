@@ -378,7 +378,7 @@ And he loves sharing his passions with you.
 
 At 3 o’clock, at 10 o’clock, or at 3:12 in the morning.
 
-You don’t have Netflix but you understand _Fast & Furious 8_ with surprising clarity.
+You don’t have Netflix but you understand _Fast and Furious 8_ with surprising clarity.
 
 The wall shakes, the bass vibrates and the dialogues echo.
 

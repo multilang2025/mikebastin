@@ -12,7 +12,7 @@ sourceUrl: "https://mikebastin.com/pricing/"
 excerpt: "Discover simple, transparent pricing with tailored digital marketing plans starting at €300/month. Choose from Basic, Professional, or Full for your business needs."
 ---
 
-# SEO & Translation Pricing
+# SEO and Translation Pricing
 
 Select Your Plan
 
@@ -62,7 +62,7 @@ Choose the plan that suits your business goals: Our **Full Plan** (€1200/month
 
 Frequently asked questions
 
-At Mikebastin.com, we prioritise transparency and provide all the information you need to make informed decisions about your digital marketing strategy. Below are answers to common questions about our services, pricing, and approach. Whether you’re considering a bespoke plan or specific solutions, these FAQs will guide you. For any further questions, feel free to reach out—we’re here to help!
+At Mikebastin.com, we prioritise transparency and provide all the information you need to make informed decisions about your digital marketing strategy. Below are answers to common questions about our services, pricing, and approach. Whether you’re considering a bespoke plan or specific solutions, these FAQs will guide you. For any further questions, feel free to reach out, we’re here to help!
 
 ##### 1\. What digital marketing services do you offer?
 

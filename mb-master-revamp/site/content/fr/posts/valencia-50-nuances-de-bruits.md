@@ -46,7 +46,7 @@ _« Si tu ne l’as pas ressentie dans ta cage thoracique, ce n’était pas une
 >   
 > Chaque mascletà organisée sur la Plaza del Ayuntamiento peut utiliser jusqu’à **275 kg de matériel pyrotechnique**, dont environ **120 kg de poudre explosive**. Les détonations atteignent régulièrement **120 à 130 décibels**, soit l’équivalent sonore d’un avion au décollage.  
 >   
-> **Source :** [Le Petit Journal – Immersion au cœur des mascletàs](https://lepetitjournal.com/valence/a-voir-a-faire/immersion-au-coeur-des-mascletas-224978)
+> **Source :** [Le Petit Journal, Immersion au cœur des mascletàs](https://lepetitjournal.com/valence/a-voir-a-faire/immersion-au-coeur-des-mascletas-224978)
 
 ## 2\. Le scooter et la moto, des espèces locales bruyantes et invasives
 
@@ -68,7 +68,7 @@ _Mais on n’est pas à Zurich ici._
 >   
 > Dans l’aire urbaine de Valencia, plus de **10 % des déplacements quotidiens** se font en moto ou scooter. La ville compte plusieurs dizaines de milliers de deux-roues motorisés, particulièrement présents dans les quartiers centraux comme Extramurs, Ruzafa ou El Cabanyal.  
 >   
-> **Source :** [Ajuntament de Valencia – données de mobilité urbaine](https://www.valencia.es)
+> **Source :** [Ajuntament de Valencia, données de mobilité urbaine](https://www.valencia.es)
 
 ## 3\. Terrasses et karaokés spontanés : le concert permanent
 
@@ -92,7 +92,7 @@ Tu appelles ça de l’invasion de vie privée, ici, c’est ce qu’on appelle 
 >   
 > En Espagne, l’heure moyenne du dîner se situe entre **21h et 22h30**. Les terrasses restent donc animées tard dans la nuit, particulièrement dans les villes méditerranéennes comme Valencia où la vie nocturne est un élément central de la culture locale.  
 >   
-> **Source :** [Spain.info – Horaires de vie en Espagne](https://www.spain.info/fr/decouvrir-espagne/gastronomie-horaires-espagnols/)
+> **Source :** [Spain.info, Horaires de vie en Espagne](https://www.spain.info/fr/decouvrir-espagne/gastronomie-horaires-espagnols/)
 
 ## 4\. Percussion urbaine : le marteau-piqueur, instrument officiel de Valencia
 
@@ -161,7 +161,7 @@ Côté ambiance sonore, préparez vos oreilles à :
 >   
 > Chaque année, la ville accueille des centaines d’événements publics, dont la **Feria de Julio**, les fêtes de **San Vicente Mártir**, la **Noche de San Juan** et bien sûr les **Fallas**. Ces célébrations attirent plusieurs millions de visiteurs et génèrent une activité festive intense dans toute la ville.  
 >   
-> **Source :** [Visit Valencia – Agenda des événements](https://www.visitvalencia.com/fr)
+> **Source :** [Visit Valencia, Agenda des événements](https://www.visitvalencia.com/fr)
 
 ## 8\. Les vendeurs ambulants de « Agua, cerveza, Coca-Cola »
 
@@ -183,7 +183,7 @@ Et si tu crois l’éviter en allant aux Jardins de Viveros, sache qu’ils y op
 >   
 > Les plages urbaines de Valencia, notamment **Malvarrosa** et **Las Arenas**, accueillent plusieurs millions de visiteurs chaque année. En haute saison, les vendeurs ambulants parcourent continuellement le littoral pour proposer boissons fraîches et snacks aux touristes.  
 >   
-> **Source :** [Visit Valencia – Les plages de Valencia](https://www.visitvalencia.com/fr/que-faire-valencia/plages-valencia)
+> **Source :** [Visit Valencia, Les plages de Valencia](https://www.visitvalencia.com/fr/que-faire-valencia/plages-valencia)
 
 ## 9\. Les enfants en mode turbo sur les plazas
 
@@ -353,7 +353,7 @@ Bonus : entre 8h et 9h, tu peux entendre au moins 27 injures créatives criées 
 >   
 > L’aire métropolitaine de Valencia compte environ **1,6 million d’habitants**. Les grands axes urbains comme l’Avenida del Cid ou l’Avenida Blasco Ibáñez absorbent chaque jour des dizaines de milliers de véhicules, générant un bruit constant de circulation.  
 >   
-> **Source :** [Instituto Nacional de Estadística – données démographiques](https://www.ine.es)
+> **Source :** [Instituto Nacional de Estadística, données démographiques](https://www.ine.es)
 
 ## 19\. Les bus, toujours pressés de faire leur entrée
 
@@ -407,7 +407,7 @@ Et il aime le partager.
 
 À 15h. À 22h. À 3h12 du matin.
 
-Tu n’as pas Netflix, mais tu entends _Fast & Furious 8_ avec une clarté étonnante.
+Tu n’as pas Netflix, mais tu entends _Fast and Furious 8_ avec une clarté étonnante.
 
 Le mur tremble, les basses vibrent, les dialogues résonnent.
 
@@ -491,13 +491,13 @@ Du lundi au samedi, tu es légalement autorisé à orchestrer ta propre symphoni
 
 Les dimanches et jours fériés sont légèrement plus civilisés. Le bruit n’est autorisé qu’entre 09h30 et 22h00. Avant 09h30 ? C’est un territoire de silence sacré.
 
-Si tu aimes te lire des histoires juridiques avant de dormir, voici la politique complète sur le bruit : mediambient.gva.es – Contaminación Acústica.
+Si tu aimes te lire des histoires juridiques avant de dormir, voici la politique complète sur le bruit : mediambient.gva.es, Contaminación Acústica.
 
 > **Statistique : les horaires de bruit sont réglementés.**  
 >   
 > À Valencia, les travaux bruyants sont autorisés entre **08h00 et 22h00 du lundi au samedi**. Les dimanches et jours fériés, les activités bruyantes sont limitées à partir de **09h30**. Ces règles font partie de la réglementation régionale sur la **contamination acoustique**.  
 >   
-> **Source :** [Generalitat Valenciana – Contaminación acústica](https://mediambient.gva.es/es/web/calidad-ambiental/contaminacion-acustica)
+> **Source :** [Generalitat Valenciana, Contaminación acústica](https://mediambient.gva.es/es/web/calidad-ambiental/contaminacion-acustica)
 
 ## 29\. Les igloos verts, catapultes à verre sans la catapulte
 

@@ -12,7 +12,7 @@ sourceUrl: "https://mikebastin.com/fr/services/seo/"
 excerpt: "Stimulez votre présence en ligne sur les différents marchés possibles grâce à nos services de référencement professionnels. Profitez de nos 25 années d'expérience dans le domaine et positionnez-vous en haut du classement dans le ou les pays que vous souhaitez."
 ---
 
-# French SEO Services & Solutions
+# French SEO Services and Solutions
 
 Boost Your Online Visibility in France, Belgium and Switzerland
 
@@ -123,7 +123,7 @@ With over 25 years of experience in multilingual SEO, our team delivers exceptio
 [France](https://mikebastin.com/services/french-seo/), [Belgium](https://mikebastin.com/seo-in-belgium/), [Switzerland](https://mikebastin.com/services/internationalisation/), and [Québec](https://mikebastin.com/services/french-seo/).  
 We specialise in tailored SEO strategies that boost your online presence and connect you with local audiences.
 
-Led by [Michael Bastin](https://mikebastin.com/about-us/), our dedicated team has consistently achieved top rankings for clients across diverse industries.  
+Led by [Mike Bastin](https://mikebastin.com/about-us/), our dedicated team has consistently achieved top rankings for clients across diverse industries.  
 Our commitment to excellence sets us apart as a trusted partner in your digital journey.
 
 Our expertise spans all aspects of French SEO, from detailed  

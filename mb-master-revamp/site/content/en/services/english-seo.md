@@ -29,7 +29,7 @@ Whether you want to rank higher in the **UK**, **United States**, **Canada**, **
 -   [Global SEO strategy](https://mikebastin.com/services/global-seo-solutions/) integrating NLP, LSI keywords, and semantic search best practices.
 -   [Content localisation](https://mikebastin.com/services/content-localisation/) to match the cultural and linguistic nuances of every English-speaking audience.
 
-We use the latest in semantic SEO, NLP, and local ranking factors to ensure your brand gets discovered by the right customers—whether they search in London, New York, Toronto, or Sydney.
+We use the latest in semantic SEO, NLP, and local ranking factors to ensure your brand gets discovered by the right customers, whether they search in London, New York, Toronto, or Sydney.
 
 Ready to grow your business in English-speaking markets? [Contact us](https://mikebastin.com/contact-us/) today to get started.
 

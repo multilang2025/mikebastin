@@ -310,7 +310,7 @@ Daily
 
 > The biggest change in twenty-five years of multilingual work is not the quality of MT or even the rise of LLMs. It is that the browser became the workbench. Everything I used to do across Trados, a paper dictionary, and three monitors now happens inside one Chrome window with seven extensions. The job is the same. The tools are unrecognisable.
 > 
-> — [Michael Bastin](https://mikebastin.com/about-us/), multilingual SEO and translation consultant
+>, [Mike Bastin](https://mikebastin.com/about-us/), multilingual SEO and translation consultant
 
 ## How I sequence these in a working translation day
 

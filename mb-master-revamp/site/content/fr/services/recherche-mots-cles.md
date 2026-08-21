@@ -71,7 +71,7 @@ We apply the research to content structure, page focus, and messaging to improve
 
 We monitor performance signals, intent alignment, and content effectiveness to refine priorities and adapt as search behaviour evolves.
 
-FAQ – Questions fréquentes
+FAQ, Questions fréquentes
 
 Keyword research is the analysis of how people express needs, problems, and decisions through search.  
 It goes beyond listing terms and focuses on understanding intent, context, and the language your audience uses across search engines and AI-driven platforms.

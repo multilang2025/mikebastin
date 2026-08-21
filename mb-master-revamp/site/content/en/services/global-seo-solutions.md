@@ -149,7 +149,7 @@ Local presence per city in target markets
 
 ## Why this team for international SEO
 
-**Michael Bastin:** 25 years scoping multi-country SEO across Europe and the Americas. Co-founder of BeTranslated, which operates on 12 country-specific TLDs (live experience of running cross-domain SEO architecture, not theoretical).
+**Mike Bastin:** 25 years scoping multi-country SEO across Europe and the Americas. Co-founder of BeTranslated, which operates on 12 country-specific TLDs (live experience of running cross-domain SEO architecture, not theoretical).
 
 Languages: French and English fluent, Spanish (Valencia resident since 2016, 16 years in the Dominican Republic), Dutch (Erasmus Utrecht + Caribbean clientele), B1 German. Plus a native copywriter and translator network for any language not directly spoken.
 

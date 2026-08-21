@@ -287,7 +287,7 @@ Consider regional variations in user behaviour. Engagement patterns in tech-savv
 
 Track comment sentiment in Spanish contexts, noting that Spanish users typically demonstrate higher engagement rates with discussion features than Northern European audiences.
 
-Monitor peak engagement times aligned with Spanish business hours, including the extended lunch period from 14:00–16:00.
+Monitor peak engagement times aligned with Spanish business hours, including the extended lunch period from 14:00 to 16:00.
 
 #### User Feedback and Adaptation
 

@@ -142,7 +142,7 @@ Local presence per city in PT or BR (GBP, citations)
 
 ## Why this model is more honest (and more effective)
 
-**Michael Bastin:** 25 years in SEO. Portuguese: working reading level via French (native) and Spanish (Valencia resident since 2016, 16 years in the Dominican Republic). I read PT-PT and PT-BR SERPs, understand competitor pages, can follow notes in Portuguese with some effort. I do not write or speak the language commercially.
+**Mike Bastin:** 25 years in SEO. Portuguese: working reading level via French (native) and Spanish (Valencia resident since 2016, 16 years in the Dominican Republic). I read PT-PT and PT-BR SERPs, understand competitor pages, can follow notes in Portuguese with some effort. I do not write or speak the language commercially.
 
 This boundary is explicit. Many European SEO agencies “cover” Portuguese without separating PT-PT and PT-BR, and without natives writing the commercial copy. My model is honest about both: PT-PT and PT-BR are distinct markets, and writing for each is done by natives from that market.
 

@@ -13,9 +13,9 @@ sourceUrl: "https://mikebastin.com/"
 excerpt: "Maximise your global reach with our expert web consulting services, offering SEO optimisation, digital marketing, branding, and multilingual solutions."
 ---
 
-# Multilingual SEO & Marketing Consulting
+# Multilingual SEO and Marketing Consulting
 
-Expert SEO, Content & Translation Strategies for Global Expansion
+Expert SEO, Content and Translation Strategies for Global Expansion
 
 ## Strategic Web Consulting for  
 International Growth

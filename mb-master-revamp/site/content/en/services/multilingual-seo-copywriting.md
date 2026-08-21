@@ -36,7 +36,7 @@ The result is authentic, **multilingual content** that strengthens brand trust a
 
 Connect with international audiences through [localised messaging shaped by cultural insights, regulatory](https://mikebastin.com/cultural-differences-in-multilingual-websites/) localisation, and **linguistic nuance**.
 
-Every page includes **on-page SEO elements** – from **meta tags**, **internal linking**, and **schema markup** to optimised **hreflang attributes** – supporting your website’s **international SEO architecture**.
+Every page includes **on-page SEO elements**, from **meta tags**, **internal linking**, and **schema markup** to optimised **hreflang attributes**, supporting your website’s **international SEO architecture**.
 
 **Keyword integration** is guided by **search intent mapping** and **NLP-based keyword clustering**, ensuring your copy fits how users actually search in each language.
 
@@ -54,7 +54,7 @@ Connect with audiences across **en-GB**, **fr-FR**, **es-ES**, **de-DE**, and **
 
 We align [keyword localisation and search intent mapping](https://mikebastin.com/what-is-search-intent-mapping/) to ensure every message fits how users actually search in their language and culture.
 
-Each piece of copy is transcreated for relevance, tone, and conversion—optimised for **Google**, **Bing**, and regional search engines.
+Each piece of copy is transcreated for relevance, tone, and conversion, optimised for **Google**, **Bing**, and regional search engines.
 
 Build credibility with **E-E-A-T** signals: expert authorship, verified sources, and testimonials.
 
@@ -74,7 +74,7 @@ Increase your [online presence](https://mikebastin.com/services/english-seo/) wi
 
 We discover [top-performing keywords across multiple languages](https://mikebastin.com/how-ai-is-revolutionising-seo-strategies/) using **GEO techniques** and **People Also Ask (PAA)** data to drive targeted traffic and enhance **AI-powered search visibility**.
 
-You’ll get pages with complete **on-page SEO elements** – from **metatags** and **schema markup** to optimised **hreflang attributes** – strengthening your **international SEO architecture**.
+You’ll get pages with complete **on-page SEO elements**, from **metatags** and **schema markup** to optimised **hreflang attributes**, strengthening your **international SEO architecture**.
 
 Connect with international audiences through **[localised messaging](https://mikebastin.com/cultural-differences-in-multilingual-websites/)** [shaped by **cultural insights**, **regulatory**](https://mikebastin.com/cultural-differences-in-multilingual-websites/) **localisation**, and **linguistic nuance**.
 

@@ -301,19 +301,19 @@ Température moyenne (°C)
 
 Hiver
 
-8 – 17
+8 to 17
 
 Printemps
 
-12 – 22
+12 to 22
 
 Été
 
-20 – 30
+20 to 30
 
 Automne
 
-15 – 25
+15 to 25
 
 Les soins de santé sont accessibles et les établissements publics pratiquent des tarifs généralement abordables. Ne vous attendez toutefois pas à obtenir rapidement un rendez-vous chez le dermatologue : si vous êtes pressé et que la situation n’est pas urgente, il faudra vous tourner vers le privé.
 

@@ -226,7 +226,7 @@ _Traducteur assermenté_, stamped output
 
 > The most expensive translation mistake I see is companies treating French as one language. Shipping Parisian copy into Québec, or Belgian register into a Geneva audience, costs more in lost conversion than the price difference between proper localisation and a generic one-variant job.
 > 
-> — [Michael Bastin](https://mikebastin.com/about-us/), multilingual SEO and translation consultant
+>, [Mike Bastin](https://mikebastin.com/about-us/), multilingual SEO and translation consultant
 
 ## A real example from a recent project
 

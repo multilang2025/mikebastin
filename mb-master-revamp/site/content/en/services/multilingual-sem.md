@@ -148,7 +148,7 @@ SEO content production
 
 ## Why this team for multilingual SEM
 
-**Michael Bastin:** 25 years in SEO and SEM. Direct fluent execution on Google Ads in French, English, Spanish and Dutch. Native team coverage for German, Italian, Portuguese and other languages.
+**Mike Bastin:** 25 years in SEO and SEM. Direct fluent execution on Google Ads in French, English, Spanish and Dutch. Native team coverage for German, Italian, Portuguese and other languages.
 
 SEM aligned with SEO from day one: same keyword research universe, same landing pages where possible, same multilingual architecture. The paid and organic strategies inform each other instead of competing for budget.
 
@@ -184,7 +184,7 @@ For US B2B yes. Microsoft’s Bing/Edge ecosystem has a high penetration in US c
 
 Do you charge a percentage of ad spend?
 
-No. Management fee is a fixed monthly amount based on scope (number of markets, platforms, campaigns, complexity). Media budget is paid directly to Google, Microsoft, Meta — no markup, no margin on spend. Incentive aligned with your performance, not with how much you spend on ads.
+No. Management fee is a fixed monthly amount based on scope (number of markets, platforms, campaigns, complexity). Media budget is paid directly to Google, Microsoft, Meta, no markup, no margin on spend. Incentive aligned with your performance, not with how much you spend on ads.
 
 How fast do you scale ad spend?
 

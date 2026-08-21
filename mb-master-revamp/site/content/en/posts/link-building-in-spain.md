@@ -70,7 +70,7 @@ Spanish digital PR
 
 High
 
-70–90
+70 to 90
 
 Editorial mentions, brand authority
 
@@ -78,7 +78,7 @@ Niche edits in sectoral blogs
 
 Medium
 
-40–65
+40 to 65
 
 Topical relevance, anchor control
 
@@ -86,7 +86,7 @@ Cámara + association listings
 
 Low to medium
 
-50–70
+50 to 70
 
 Local trust signals, evergreen
 
@@ -94,7 +94,7 @@ Sponsorships and events
 
 Medium
 
-50–80
+50 to 80
 
 Mixed press plus brand exposure
 

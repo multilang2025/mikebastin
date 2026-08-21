@@ -144,7 +144,7 @@ SEO organique (mots-clés, contenu, hreflang, backlinks)
 
 ## Pourquoi un consultant SEO pour gérer du SEM multilingue
 
-**Michael Bastin** : 25 ans à piloter en parallèle SEO et SEM sur des marchés européens et latino-américains. La plupart des agences SEM travaillent en silo sans la couche linguistique. La plupart des agences de traduction n’ont jamais touché à un compte Google Ads. Mon avantage : les deux disciplines en interne, pas en sous-traitance.
+**Mike Bastin** : 25 ans à piloter en parallèle SEO et SEM sur des marchés européens et latino-américains. La plupart des agences SEM travaillent en silo sans la couche linguistique. La plupart des agences de traduction n’ont jamais touché à un compte Google Ads. Mon avantage : les deux disciplines en interne, pas en sous-traitance.
 
 Quadrilingue (FR, EN, ES, NL), expérience freight, juridique, traduction, expat content. Cari (basée en RD) gère la production hispanophone, je supervise les comptes EN et FR, le réseau BeTranslated couvre les autres langues.
 

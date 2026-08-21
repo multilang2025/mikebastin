@@ -78,7 +78,7 @@ Sites without identifiable authors, verifiable credentials, or editorial transpa
 
 More than 60% of Google searches now end without a click to an external site. And that figure is climbing.
 
-> According to SparkToro and Datos Group, approximately 60–65% of all Google queries in the US result in zero clicks. A July 2025 Similarweb report found zero-click searches surged from 56% to 69%. Searches triggering AI Overviews show an average zero-click rate of 83%. Source: [SparkToro](https://sparktoro.com/blog/2024-zero-click-search-study-for-every-1000-us-google-searches-only-374-clicks-go-to-the-open-web-in-the-eu-its-360/)
+> According to SparkToro and Datos Group, approximately 60 to 65% of all Google queries in the US result in zero clicks. A July 2025 Similarweb report found zero-click searches surged from 56% to 69%. Searches triggering AI Overviews show an average zero-click rate of 83%. Source: [SparkToro](https://sparktoro.com/blog/2024-zero-click-search-study-for-every-1000-us-google-searches-only-374-clicks-go-to-the-open-web-in-the-eu-its-360/)
 
 Treating zero-click as a threat misses the point. Appearing in AI Overviews, Featured Snippets, Knowledge Panels, and People Also Ask boxes builds brand recall even when users never visit your site. Branded search volume, when users search specifically for your brand, becomes a critical metric in this environment.
 
@@ -112,7 +112,7 @@ Smart speakers, in-car assistants, and mobile voice input now account for a mean
 
 Technical performance is no longer a competitive advantage. It is a baseline expectation.
 
-Google’s Interaction to Next Paint (INP) metric replaced First Input Delay (FID) as a Core Web Vital in March 2024, raising the bar for interactivity. Unlike FID, which only measured the first interaction, INP measures responsiveness across the entire user visit, scoring pages based on their worst 2–5% of interactions.
+Google’s Interaction to Next Paint (INP) metric replaced First Input Delay (FID) as a Core Web Vital in March 2024, raising the bar for interactivity. Unlike FID, which only measured the first interaction, INP measures responsiveness across the entire user visit, scoring pages based on their worst 2 to 5% of interactions.
 
 > According to the 2025 Web Almanac, 77% of mobile pages achieve a good INP score (under 200ms), but only 62% pass LCP, making Largest Contentful Paint (LCP) the hardest Core Web Vital to meet. The three metrics to pass: LCP under 2.5 seconds, INP under 200 milliseconds, and Cumulative Layout Shift (CLS) under 0.1. Source: [Google Search Central](https://developers.google.com/search/docs/appearance/core-web-vitals)
 
@@ -182,7 +182,7 @@ Topic clusters, a pillar page supported by related cluster content with strong i
 
 Google’s Spam Policy Updates throughout 2024 and 2025 have expanded enforcement significantly. The link spam update, crackdowns on parasite SEO (third-party content hosted on high-authority domains to manipulate rankings), and penalties for scaled AI content abuse now trigger manual actions faster than ever.
 
-> Google’s 2024–2025 spam policy expansions specifically targeted parasite SEO, link schemes, and AI content abuse. Sites engaged in these practices face manual actions and algorithmic devaluations with increasing speed and severity. Source: [Google Search Central](https://developers.google.com/search/docs/fundamentals/creating-helpful-content)
+> Google’s 2024 to 2025 spam policy expansions specifically targeted parasite SEO, link schemes, and AI content abuse. Sites engaged in these practices face manual actions and algorithmic devaluations with increasing speed and severity. Source: [Google Search Central](https://developers.google.com/search/docs/fundamentals/creating-helpful-content)
 
 Sustainable SEO means building authority through genuine expertise, earned backlinks, and transparent practices. Shortcuts carry more risk in 2026 than at any point in SEO’s history.
 
@@ -222,7 +222,7 @@ Generative Engine Optimisation (GEO) is the practice of optimising content to ap
 
 ### Do zero-click searches kill SEO?
 
-Zero-click searches do not kill SEO. They change how it delivers value. With 60–65% of Google searches ending without a click (SparkToro / Datos), visibility in the SERP itself becomes valuable. Appearing in Featured Snippets, People Also Ask, and AI Overviews builds brand awareness and trust, even without a direct click. Smart SEO strategies now account for both click-based and impression-based value.
+Zero-click searches do not kill SEO. They change how it delivers value. With 60 to 65% of Google searches ending without a click (SparkToro / Datos), visibility in the SERP itself becomes valuable. Appearing in Featured Snippets, People Also Ask, and AI Overviews builds brand awareness and trust, even without a direct click. Smart SEO strategies now account for both click-based and impression-based value.
 
 ### What are the most important ranking factors in 2026?
 

@@ -78,7 +78,7 @@ Pour être éligible, vous devez remplir **trois conditions clés** :
 -   **Relation préalable** : Vous devez justifier d’une relation salariale ou commerciale d’**au moins 3 mois** avant la demande.
 
 > **Source** :  
-> [UGE – Télétravailleurs internationaux (conditions détaillées)](https://www.inclusion.gob.es/web/unidadgrandesempresas/teletrabajadores)
+> [UGE, Télétravailleurs internationaux (conditions détaillées)](https://www.inclusion.gob.es/web/unidadgrandesempresas/teletrabajadores)
 
 * * *
 
@@ -119,7 +119,7 @@ Le **régime fiscal impatrié** (ou _Beckham law_) permet de bénéficier d’un
 
 > **Sources officielles** :
 > 
-> -   [Agencia Tributaria – Régime spécial impatriés](https://sede.agenciatributaria.gob.es/Sede/irpf/tengo-que-presentar-declaracion/regimen-fiscal-aplicable-trabajadores-desplazados/regimen-especial.html)
+> -   [Agencia Tributaria, Régime spécial impatriés](https://sede.agenciatributaria.gob.es/Sede/irpf/tengo-que-presentar-declaracion/regimen-fiscal-aplicable-trabajadores-desplazados/regimen-especial.html)
 > -   [Modelo 149 (option Beckham law)](https://sede.agenciatributaria.gob.es/Sede/procedimientoini/G606.shtml)
 
 * * *

@@ -76,13 +76,13 @@ Successful **business registration in Valencia** hinges on meticulous documentat
 -   **Public deed of incorporation** signed before a Spanish notary
 -   **Bank certificate** confirming your share capital deposit (€1 minimum by law, though €3,000 is the practical benchmark most gestores recommend)
 
-### Tax & Compliance Essentials
+### Tax and Compliance Essentials
 
 -   **Model 036 or 037** for census registration
 -   **CNAE code(s)** defining your economic activity (e.g., 6201 for IT services)
 -   **VAT (IVA) registration**, required for B2B EU trade
 
-### Social Security & Municipal Requirements
+### Social Security and Municipal Requirements
 
 -   **Autónomo registration** (via TA.052 form)
 -   **Workplace risk assessment** (for physical premises)

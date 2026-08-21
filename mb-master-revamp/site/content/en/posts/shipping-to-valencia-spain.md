@@ -86,7 +86,7 @@ This is the question that plagues every expat. My short answer? **Usually, no.**
 ### The Costs of Car Importation
 
 1.  **Shipping:** €1,500 to €3,000.
-2.  **Import Duty & VAT:** If you are moving your primary residence, you may be exempt (Duty-Free), but only if you meet strict timelines and have owned the car for over six months.
+2.  **Import Duty and VAT:** If you are moving your primary residence, you may be exempt (Duty-Free), but only if you meet strict timelines and have owned the car for over six months.
 3.  **Matriculación (Registration Tax):** Based on CO2 emissions. For a gas-guzzler, this can be 14.75% of the car’s current value.
 4.  **The ITV (Technical Inspection):** A rigorous test to ensure the car is roadworthy by Spanish standards.
 
@@ -145,11 +145,11 @@ Do not assume a 40-foot articulated lorry can drive up to your front door in the
 To give you an idea of the financial commitment, here is a breakdown for a typical 3-bedroom house move from the US East Coast to a flat in Valencia.
 
 -   **Ocean Freight (20ft Container):** €4,500
--   **Packing Services & Materials:** €1,200
+-   **Packing Services and Materials:** €1,200
 -   **Marine Insurance (Value €50k):** €750
 -   **Customs Clearance Fees:** €400
--   **Port Charges & Handling:** €600
--   **Delivery & Unpacking in Valencia:** €1,500
+-   **Port Charges and Handling:** €600
+-   **Delivery and Unpacking in Valencia:** €1,500
 -   **Total Estimated Cost: €8,950**
 
 If you are moving for work or starting a business, you might be able to offset some of these costs. For more on the logistics of setting up shop, see my guide on [streamlining the business registration process in Valencia](https://mikebastin.com/business-registration-in-valencia/).

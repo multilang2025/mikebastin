@@ -144,7 +144,7 @@ Traduction certifiée ou assermentée
 
 ## Qui est derrière la mission
 
-**Michael Bastin** — consultant SEO international, fondateur de BeTranslated. 25 ans à travailler le SEO et la traduction sur des marchés européens, latino-américains et nord-américains. Quadrilingue (FR, EN, ES, NL) plus une compréhension de travail en italien, allemand et catalan.
+**Mike Bastin**, consultant SEO international, fondateur de BeTranslated. 25 ans à travailler le SEO et la traduction sur des marchés européens, latino-américains et nord-américains. Quadrilingue (FR, EN, ES, NL) plus une compréhension de travail en italien, allemand et catalan.
 
 Basé à Valencia depuis 2016. J’ai vécu en République dominicaine, au Costa Rica, au Mexique et aux États-Unis. Cette expérience terrain influence directement mes choix SEO sur les marchés hispanophones et anglophones.
 

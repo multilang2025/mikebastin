@@ -38,9 +38,9 @@ Marketplaces compress the discovery, negotiation, and placement steps into a few
 
 Until 2022, Google’s link spam detection was patchy. PBNs worked. Cheap directory links worked. Mass guest post networks worked. [Google’s December 2022 link spam update](https://developers.google.com/search/blog/2022/12/december-2022-link-spam-update) changed all of that.
 
-The new **SpamBrain** system uses machine learning to identify unnatural link patterns at scale. Cheap links no longer get penalties — they get nullified. The algorithm simply ignores them. From a buyer’s perspective, this is worse than a penalty. You pay for placements that have zero ranking impact.
+The new **SpamBrain** system uses machine learning to identify unnatural link patterns at scale. Cheap links no longer get penalties, they get nullified. The algorithm simply ignores them. From a buyer’s perspective, this is worse than a penalty. You pay for placements that have zero ranking impact.
 
-Google’s link spam updates rolled out across 2022, 2023, and 2024 increasingly nullify low-quality links rather than penalise the buyer. Sites continue to rank, but the budget spent on link building gets quietly discounted to zero by the algorithm.[Google Search Essentials — Spam Policies](https://developers.google.com/search/docs/essentials/spam-policies)
+Google’s link spam updates rolled out across 2022, 2023, and 2024 increasingly nullify low-quality links rather than penalise the buyer. Sites continue to rank, but the budget spent on link building gets quietly discounted to zero by the algorithm.[Google Search Essentials, Spam Policies](https://developers.google.com/search/docs/essentials/spam-policies)
 
 ## How to evaluate a platform before you pay
 

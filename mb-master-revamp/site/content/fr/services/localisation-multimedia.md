@@ -23,7 +23,7 @@ Vous voulez que vos vidéos et podcasts aient une portée mondiale ? Nous avons 
 
 Nous pouvons ajouter des sous-titres en différentes langues, enregistrer des voix off qui semble naturelles, et écrire tout ce qui est dit pour que tout le monde puisse suivre. Ne vous souciez pas des aspects techniques, nous ferons en sorte que tout fonctionne parfaitement.
 
-La meilleure chose ? Votre contenu ne va pas être juste traduit – il donnera l’impression d’avoir été conçu pour chaque public. Que vous partagiez une vidéo sur votre entreprise ou un podcast intéressant, nous vous aiderons à communiquer avec des personnes du monde entier.
+La meilleure chose ? Votre contenu ne va pas être juste traduit, il donnera l’impression d’avoir été conçu pour chaque public. Que vous partagiez une vidéo sur votre entreprise ou un podcast intéressant, nous vous aiderons à communiquer avec des personnes du monde entier.
 
 Pourquoi la localisation multimédia est-elle essentielle ?
 
@@ -63,13 +63,13 @@ Nous exécutons le plan par la localisation et l’intégration de votre contenu
 
 Un contrôle continu et des rapports détaillés garantissent le succès et la performance à long terme de votre contenu multimédia.
 
-FAQ – Questions fréquentes
+FAQ, Questions fréquentes
 
 La localisation multimédia consiste en l’adaptation de vidéo, audio et la transcription du contenu en différentes langues et cultures tout en conservant l’intention et la qualité du message original.
 
 Le sous-titrage est la traduction d’un dialogue sous forme de texte à l’écran, tandis que le doublage remplace l’audio original par des voix off dans la langue cible.
 
-Nous prenons en charge un large éventail de formats de fichiers multimédias, ce qui nous permet de traiter pratiquement tous les projets que vous nous soumettez. Pour la vidéo, nous travaillons avec des formats courants tels que MP4, AVI, MOV et WMV. Nos capacités audio comprennent les fichiers WAV, MP3, AAC et FLAC. Pour le sous-titrage et la transcription, nous pouvons travailler avec SRT, VTT et de nombreux autres formats textuels. Si vous avez un type de fichier spécifique qui n’est pas mentionné ici, n’hésitez pas à nous le demander – il y a de fortes chances que nous puissions l’adapter. Notre objectif est de rendre le processus de localisation aussi fluide que possible, quel que soit le format de votre matériel source.
+Nous prenons en charge un large éventail de formats de fichiers multimédias, ce qui nous permet de traiter pratiquement tous les projets que vous nous soumettez. Pour la vidéo, nous travaillons avec des formats courants tels que MP4, AVI, MOV et WMV. Nos capacités audio comprennent les fichiers WAV, MP3, AAC et FLAC. Pour le sous-titrage et la transcription, nous pouvons travailler avec SRT, VTT et de nombreux autres formats textuels. Si vous avez un type de fichier spécifique qui n’est pas mentionné ici, n’hésitez pas à nous le demander, il y a de fortes chances que nous puissions l’adapter. Notre objectif est de rendre le processus de localisation aussi fluide que possible, quel que soit le format de votre matériel source.
 
 Le délai de livraison dépend de la complexité de votre site internet et du nombre de versions à fournir. La plupart des projets prennent entre 1 à 2 semaines.
 

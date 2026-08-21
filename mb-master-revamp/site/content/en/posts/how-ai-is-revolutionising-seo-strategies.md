@@ -66,7 +66,7 @@ Sites publishing AI-generated content without expert review saw traffic drops of
 
 ### AI-enhanced competitor analysis
 
-Competitor intelligence moved from monthly reports to real-time monitoring, though the fundamentals still matter — my [competitor analysis checklist](https://mikebastin.com/competitor-analysis-traffic-checklist/) walks through the manual audit that AI now accelerates.
+Competitor intelligence moved from monthly reports to real-time monitoring, though the fundamentals still matter, my [competitor analysis checklist](https://mikebastin.com/competitor-analysis-traffic-checklist/) walks through the manual audit that AI now accelerates.
 
 AI tools track ranking changes, new content publication, backlink acquisition, and technical updates across entire competitor sets simultaneously.
 

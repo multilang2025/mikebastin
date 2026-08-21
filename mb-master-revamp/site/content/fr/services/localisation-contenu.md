@@ -21,7 +21,7 @@ Optimisez vos contenus pour chaque marché cible
 
 Étendez votre empreinte digitale en tirant parti de notre localisation de contenu qui combine [transcréation](https://mikebastin.com/fr/services/transcreation/), adaptation culturelle et balises `hreflang` ; vos articles, fiches produit et vidéos gagnent ainsi en pertinence sur Google, Bing et Yandex tout en respectant les attentes linguistiques et sociales de chaque audience.
 
-En synchronisant ces actions avec une [stratégie de référencement multilingue](https://mikebastin.com/fr/services/referencement-multilingue/), votre marque bénéficie d’un maillage interne optimisé, d’un schéma JSON-LD enrichi et d’un meilleur positionnement dans les SERP locaux — de Paris à São Paulo.
+En synchronisant ces actions avec une [stratégie de référencement multilingue](https://mikebastin.com/fr/services/referencement-multilingue/), votre marque bénéficie d’un maillage interne optimisé, d’un schéma JSON-LD enrichi et d’un meilleur positionnement dans les SERP locaux, de Paris à São Paulo.
 
 Notre équipe orchestre la [création de contenu multilingue](https://mikebastin.com/fr/services/creation-de-contenu-multilingue/) autour d’entités sémantiques clés issues d’une [recherche de mots-clés](https://mikebastin.com/fr/services/recherche-mots-cles/) granularisée par intention, puis renforce votre autorité grâce à du [netlinking multilingue](https://mikebastin.com/fr/services/netlinking/) et à des données analytiques en temps réel.
 

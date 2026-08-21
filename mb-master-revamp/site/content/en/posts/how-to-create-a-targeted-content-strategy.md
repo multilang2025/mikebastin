@@ -219,7 +219,7 @@ Create once, promote perpetually. Increase the reach of your valuable content.
 
 ### Use Paid Promotion
 
--   Meta (Facebook & Instagram) ads
+-   Meta (Facebook and Instagram) ads
 -   Google Display Network ads
 -   LinkedIn Sponsored Content
 
@@ -243,7 +243,7 @@ LinkedIn PDF + press release + infographic
 
 Consider how a multilingual branding approach impacts your distribution channels in different markets.
 
-## Step 7: Measure & Iterate
+## Step 7: Measure and Iterate
 
 Continuous improvement is key to long-term success.
 
@@ -255,7 +255,7 @@ Employ tools such as:
 -   Hotjar or Microsoft Clarity for heatmaps and session recordings.
 -   Ahrefs or SEMrush for keyword tracking, backlink analysis, and competitive research.
 
-### Test & Optimise Relentlessly
+### Test and Optimise Relentlessly
 
 -   A/B test headlines, calls-to-action (CTAs), and page layouts.
 -   Experiment with different content formats (e.g., text versus video, long-form versus short-form).

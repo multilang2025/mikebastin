@@ -106,7 +106,7 @@ Term-time crowds, parking issues
 
 **Quatre Carreres**
 
-Near City of Arts & Sciences
+Near City of Arts and Sciences
 
 Newer construction, wide roads
 
@@ -122,7 +122,7 @@ The Valencia rental market in 2026 is tighter and more expensive than at any poi
 
 **Rental price increase since 2019.** A 2-bedroom flat that cost €850/month in 2019 now goes for around €1,500. Most of that jump landed between 2022 and 2025.
 
-In March 2026 the average asking price for residential rentals in Valencia reached €17.65 per square metre per month, up 1.44 percent on March 2025. Ciutat Vella tops the city at €20.29/m², while the southern districts sit around €13.47/m².[Indomio Real Estate Market Report — Valencia, March 2026](https://www.indomio.es/en/mercado-inmobiliario/comunitat-valenciana/valencia-capital/)
+In March 2026 the average asking price for residential rentals in Valencia reached €17.65 per square metre per month, up 1.44 percent on March 2025. Ciutat Vella tops the city at €20.29/m², while the southern districts sit around €13.47/m².[Indomio Real Estate Market Report, Valencia, March 2026](https://www.indomio.es/en/mercado-inmobiliario/comunitat-valenciana/valencia-capital/)
 
 What landlords typically ask for
 
@@ -148,7 +148,7 @@ Common offer in 2026 to compete in tight markets. Risky for the tenant.
 
 The **Ley de Arrendamientos Urbanos (LAU)** grants tenants automatic 5-year extensions on standard contracts.
 
-According to Idealista, the average rental price in Valencia capital reached €14.9 per square metre in 2025, a year-on-year increase of 12.2 percent. Rents in the wider province rose 15.1 percent to €12.7/m².[Idealista — Rental Price Report Valencia 2025/2026](https://www.idealista.com/sala-de-prensa/informes-precio-vivienda/alquiler/comunitat-valenciana/valencia-valencia/)
+According to Idealista, the average rental price in Valencia capital reached €14.9 per square metre in 2025, a year-on-year increase of 12.2 percent. Rents in the wider province rose 15.1 percent to €12.7/m².[Idealista, Rental Price Report Valencia 2025/2026](https://www.idealista.com/sala-de-prensa/informes-precio-vivienda/alquiler/comunitat-valenciana/valencia-valencia/)
 
 ## Building quirks that nobody warns you about
 
@@ -367,7 +367,7 @@ You need your NIE, your signed rental contract, and a Spanish bank account for d
 
 What is the deposit (fianza) and how much should I pay?
 
-The legal fianza is exactly one month’s rent. Landlords commonly ask for an additional 1 to 2 months as _garantía adicional_. Pay the legal one month into the official deposit account managed by the regional Generalitat — that is your protection against unfair retention. Anything beyond should ideally be returned at lease end.
+The legal fianza is exactly one month’s rent. Landlords commonly ask for an additional 1 to 2 months as _garantía adicional_. Pay the legal one month into the official deposit account managed by the regional Generalitat, that is your protection against unfair retention. Anything beyond should ideally be returned at lease end.
 
 What should I budget per month including all costs?
 
@@ -375,6 +375,6 @@ For a 2-bedroom flat in 2026: €1,200 to €2,000 rent depending on neighbourho
 
 ## Bottom line on Valencia flat life
 
-Valencia rewards those who do their homework. The neighbourhood you pick drives 60 percent of your daily quality of life. The building you pick drives the other 40 percent. The flat itself matters less than people assume — what matters is whether the walls are thick, the windows seal, and the comunidad is well managed.
+Valencia rewards those who do their homework. The neighbourhood you pick drives 60 percent of your daily quality of life. The building you pick drives the other 40 percent. The flat itself matters less than people assume, what matters is whether the walls are thick, the windows seal, and the comunidad is well managed.
 
 For more on the financial side, see my full breakdown of [Valencia living expenses in 2026](https://mikebastin.com/valencia-living-expenses/). For the bigger picture on the city itself, read [whether Valencia is actually a good place to live](https://mikebastin.com/valencia-good-place-to-live/).

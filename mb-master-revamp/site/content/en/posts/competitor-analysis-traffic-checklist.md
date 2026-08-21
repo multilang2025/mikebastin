@@ -32,10 +32,10 @@ It rarely ends well.
 
 Key Takeaways
 
--   Build the **real** rival list first — direct, indirect, content and AI-citation competitors, not just the names on the sales whiteboard.
--   Treat third-party traffic numbers as a **directional signal**, never as ground truth — margins of error run 15–50%+ on smaller sites.
+-   Build the **real** rival list first, direct, indirect, content and AI-citation competitors, not just the names on the sales whiteboard.
+-   Treat third-party traffic numbers as a **directional signal**, never as ground truth, margins of error run 15 to 50%+ on smaller sites.
 -   Map the **channel mix** (organic, paid, direct, referral, geographic), not the vanity total visit count.
--   Audit **AI citations**, not just SERP position — clean tables, FAQ schema and visible author expertise are what LLMs lift.
+-   Audit **AI citations**, not just SERP position, clean tables, FAQ schema and visible author expertise are what LLMs lift.
 -   Cut every audit down to a **six-line roadmap**: three quick fixes, two content gaps, one structural play.
 
 ## The Realistic Limits of Third Party Traffic Tools
@@ -70,15 +70,15 @@ Work through the competitor analysis checklist top to bottom before diving into 
 
 Here is the full competitive analysis checklist in one place. Work through it top to bottom, then read the detailed phases below for the how and the why behind each step.
 
--   ☐ **Build the real rival list** — direct, indirect, content and AI-citation competitors, not just the names on your sales team’s whiteboard.
--   ☐ **Check tool accuracy first** — know the margin of error before you quote a single traffic number to anyone.
--   ☐ **Map traffic sources, not totals** — organic, paid, direct, referral and geographic mix.
--   ☐ **Learn how to analyse competitor website traffic by channel** — and what each channel says about their marketing model.
--   ☐ **Read their top pages like an editor** — audience, intent and next action on every money page.
--   ☐ **Steal competitor keywords worth having** — find the terms they rank for that you do not, and the gaps they have left wide open.
--   ☐ **Audit AI citations** — track who ChatGPT, Claude, Perplexity and Google AI Overviews actually quote.
--   ☐ **Check their multilingual setup** — hreflang, localised schema and language-specific content.
--   ☐ **Cut the findings to a six-line roadmap** — three quick fixes, two content gaps, one structural play.
+-   ☐ **Build the real rival list**, direct, indirect, content and AI-citation competitors, not just the names on your sales team’s whiteboard.
+-   ☐ **Check tool accuracy first**, know the margin of error before you quote a single traffic number to anyone.
+-   ☐ **Map traffic sources, not totals**, organic, paid, direct, referral and geographic mix.
+-   ☐ **Learn how to analyse competitor website traffic by channel**, and what each channel says about their marketing model.
+-   ☐ **Read their top pages like an editor**, audience, intent and next action on every money page.
+-   ☐ **Steal competitor keywords worth having**, find the terms they rank for that you do not, and the gaps they have left wide open.
+-   ☐ **Audit AI citations**, track who ChatGPT, Claude, Perplexity and Google AI Overviews actually quote.
+-   ☐ **Check their multilingual setup**, hreflang, localised schema and language-specific content.
+-   ☐ **Cut the findings to a six-line roadmap**, three quick fixes, two content gaps, one structural play.
 
 ## Phase 1: Identify the Right Competitors, Not the Obvious Ones
 
@@ -256,7 +256,7 @@ You do not need a full paid stack to run a first competitor analysis. Most of th
 -   **Traffic estimates:** the Similarweb browser extension gives a quick, directional read on any domain’s channel mix.
 -   **Keyword gaps:** Google Keyword Planner and Google Search Console show the queries you already touch, so you can spot what rivals own and you do not.
 -   **Backlinks:** Ahrefs offers a free backlink checker that is enough for a first pass on a competitor’s link profile.
--   **AI citations:** the cheapest tool here is you — run the same prompts inside ChatGPT, Claude, Perplexity and Gemini once a month and note who gets cited.
+-   **AI citations:** the cheapest tool here is you, run the same prompts inside ChatGPT, Claude, Perplexity and Gemini once a month and note who gets cited.
 
 ## Frequently Asked Questions
 

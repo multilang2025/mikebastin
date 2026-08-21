@@ -56,7 +56,7 @@ GEO + structured data
 
 Social Search (LinkedIn, TikTok)
 
-Social proof & trends
+Social proof and trends
 
 Native video + thought leadership
 

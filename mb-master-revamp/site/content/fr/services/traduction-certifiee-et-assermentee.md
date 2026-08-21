@@ -90,8 +90,8 @@ Nos clients
 ## Les avantages des services de traduction certifiée
 
 -   **Reconnaissance légale** : acceptés par les tribunaux et les organismes gouvernementaux.
--   **Précision & Fiabilité** : garantissent des traductions exactes, tout le temps.
--   **Confidentialité & Sécurité** : une protection totale de vos données sensibles.
+-   **Précision and Fiabilité** : garantissent des traductions exactes, tout le temps.
+-   **Confidentialité and Sécurité** : une protection totale de vos données sensibles.
 
 Pourquoi faire confiance à notre expertise en traduction certifiée ?
 

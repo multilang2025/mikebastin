@@ -149,7 +149,7 @@ Cross-country expansion strategy
 
 ## Why this team for local SEO
 
-**Michael Bastin:** 25 years in SEO. Live experience of local visibility across multilingual cities: Valencia (Spanish-French-English expat market), the Bollenstreek (Dutch-only paint shop), Houston (English-Spanish freight forwarder), Santo Domingo (Spanish-English real estate).
+**Mike Bastin:** 25 years in SEO. Live experience of local visibility across multilingual cities: Valencia (Spanish-French-English expat market), the Bollenstreek (Dutch-only paint shop), Houston (English-Spanish freight forwarder), Santo Domingo (Spanish-English real estate).
 
 Multilingual local SEO is a distinct discipline: a city like Valencia or Brussels needs the GBP to surface in the right language depending on the searcher, the schema to declare multiple languages served, and the citations to span both Spanish and international directories.
 
@@ -185,7 +185,7 @@ No. One GBP profile per physical location. The GBP can list multiple languages s
 
 What is NAP and why does consistency matter?
 
-NAP stands for Name, Address, Phone — the three core data points Google cross-references across the web to validate a business is real and located where it claims. Inconsistencies (one citation says « Avenida del Puerto 14 », another says « Av Puerto 14 ») erode Google’s confidence and depress local ranking. Consolidating NAP is unglamorous work but it directly affects map pack position.
+NAP stands for Name, Address, Phone, the three core data points Google cross-references across the web to validate a business is real and located where it claims. Inconsistencies (one citation says « Avenida del Puerto 14 », another says « Av Puerto 14 ») erode Google’s confidence and depress local ranking. Consolidating NAP is unglamorous work but it directly affects map pack position.
 
 Do paid Local Service Ads matter for local SEO?
 
@@ -193,7 +193,7 @@ LSAs (Local Service Ads) are a paid product, not organic SEO, but they appear ab
 
 How do you handle negative reviews?
 
-Three-step playbook: (1) respond promptly and professionally — never argue, never reveal client information; (2) try to take the conversation offline with a phone number or email; (3) once resolved, ask the reviewer if they would update the review. Never request review removal through Google unless it violates policy (fake reviewer, profanity, off-topic). Public response shows future customers how the business handles complaints.
+Three-step playbook: (1) respond promptly and professionally, never argue, never reveal client information; (2) try to take the conversation offline with a phone number or email; (3) once resolved, ask the reviewer if they would update the review. Never request review removal through Google unless it violates policy (fake reviewer, profanity, off-topic). Public response shows future customers how the business handles complaints.
 
 How much does a local SEO engagement cost?
 

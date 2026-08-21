@@ -148,7 +148,7 @@ Présence locale par ville hispanophone
 
 ## Pourquoi cette équipe sur le SEO en espagnol
 
-**Michael Bastin** : basé à Valencia depuis 2016, terrain SEO Espagne au quotidien. 16 ans en République dominicaine avant ça, plus du temps au Costa Rica et au Mexique. Espagnol couramment parlé et écrit, lecteur natif des SERP par variante. Pas une couverture ES sous-traitée à un freelance distant.
+**Mike Bastin** : basé à Valencia depuis 2016, terrain SEO Espagne au quotidien. 16 ans en République dominicaine avant ça, plus du temps au Costa Rica et au Mexique. Espagnol couramment parlé et écrit, lecteur natif des SERP par variante. Pas une couverture ES sous-traitée à un freelance distant.
 
 **Cari à Saint-Domingue** : dirige la production hispanophone du réseau depuis plusieurs années. Native LatAm, rédige et révise les contenus ES Mexique, ES Caraïbes, ES Colombie, ES Argentine. Connaît les codes culturels et les références locales qui font qu’un texte sonne juste ou pas.
 

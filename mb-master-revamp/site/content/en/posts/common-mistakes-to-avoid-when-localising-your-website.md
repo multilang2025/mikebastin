@@ -31,7 +31,7 @@ Assuming content that works in one country will resonate everywhere is a costly 
 
 **Cultural differences** shape tone, colours, imagery, humour, and even buying behaviours.
 
-Overlooking these can result in messaging that feels off—or worse, offensive.
+Overlooking these can result in messaging that feels off, or worse, offensive.
 
 Use [cultural adaptation services](https://mikebastin.com/services/cultural-consulting/) to localise content to each audience’s expectations.
 
@@ -61,7 +61,7 @@ Ensure your **privacy policy**, **terms and conditions**, and **payment processe
 
 ### Not Adapting Payment Methods
 
-**Payment preferences** vary by country—credit cards in the UK, iDEAL in the Netherlands, PayPal in Germany.
+**Payment preferences** vary by country, credit cards in the UK, iDEAL in the Netherlands, PayPal in Germany.
 
 If users can’t pay how they want, they won’t complete their purchase.
 
@@ -85,7 +85,7 @@ Use culturally sensitive **visual content** to support your message and avoid co
 
 ### Neglecting Mobile Localisation
 
-Mobile usage trends differ globally—some markets are mobile-first, others desktop-heavy.
+Mobile usage trends differ globally, some markets are mobile-first, others desktop-heavy.
 
 Ensure **responsive design** and **mobile optimisation** for every region.
 
@@ -109,7 +109,7 @@ Hire brand localisation experts to maintain consistency and impact in every lang
 
 ### Conclusion: Avoid Mistakes with Professional Website Localisation
 
-Website localisation isn’t just a technical task—it’s a strategic investment in your global presence.
+Website localisation isn’t just a technical task, it’s a strategic investment in your global presence.
 
 By avoiding these mistakes, you’ll improve international visibility, strengthen customer trust, and drive better results across borders.
 

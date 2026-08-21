@@ -142,7 +142,7 @@ Pages locales et fiches GBP par ville
 
 ## Pourquoi un consultant NL natif fait la différence
 
-**Michael Bastin** : néerlandais courant après une année Erasmus à Utrecht et 16 ans aux Caraïbes à travailler avec une clientèle néerlandophone (République dominicaine, Curaçao, Aruba). Plus 25 ans à piloter du SEO en quatre langues, dont le néerlandais.
+**Mike Bastin** : néerlandais courant après une année Erasmus à Utrecht et 16 ans aux Caraïbes à travailler avec une clientèle néerlandophone (République dominicaine, Curaçao, Aruba). Plus 25 ans à piloter du SEO en quatre langues, dont le néerlandais.
 
 La plupart des consultants SEO européens « couvrent » le néerlandais sans le parler. Ils sous-traitent la recherche de mots-clés, ne lisent pas les SERP eux-mêmes, et ne savent pas distinguer une formulation hollandaise naturelle d’une formulation flamande dans un brief. Mon avantage : je lis les SERP en NL, j’écris les briefs en NL, et je relis le copy avant publication.
 

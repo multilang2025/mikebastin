@@ -17,7 +17,7 @@ excerpt: "Contact UsWe are here to help 5 5 You are contacting Michael Bastin, S
 
 We are here to help
 
-## You are contacting **Michael Bastin**, SEO consultant and founder of **MikeBastin.com**.
+## You are contacting **Mike Bastin**, SEO consultant and founder of **MikeBastin.com**.
 
 I work with businesses that need clear, measurable SEO results.  
 Most requests relate to SEO strategy, competitor analysis, multilingual SEO, and content performance.

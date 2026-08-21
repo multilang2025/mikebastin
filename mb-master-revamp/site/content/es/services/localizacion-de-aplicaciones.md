@@ -35,7 +35,7 @@ Ready to scale globally? Explore our [app localisation services](https://mikebas
 
 ¿Por qué es importante la localización de aplicaciones?
 
-App Localisation goes beyond simple translation – it’s about tailoring your app for specific regions, languages, and [cultures](https://mikebastin.com/user-interface-localisation-can-transform-your-global-reach/) to increase user engagement, satisfaction, and ultimately, conversions.
+App Localisation goes beyond simple translation, it’s about tailoring your app for specific regions, languages, and [cultures](https://mikebastin.com/user-interface-localisation-can-transform-your-global-reach/) to increase user engagement, satisfaction, and ultimately, conversions.
 
 Here’s why localisation is essential: 
 

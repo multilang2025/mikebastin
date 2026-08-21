@@ -48,7 +48,7 @@ La journée de travail locale commence souvent tôt, à 8 heures, lorsque le sol
 
 Vient ensuite une tradition qui m’a pris par surprise : « l’heure de l’almuerzo » (vers 10h30-11h30), qui marque une pause dans la journée de travail pour engloutir le fameux bocadillo valencien, un copieux sandwich qui est presque une institution dans la ville.
 
-Ce festin de milieu de matinée, souvent dégusté dans des bars locaux avec des collègues au cours de conversations animées, n’est pas seulement une question de nourriture – c’est ce qui permet aux Valenciens de tenir le coup pendant leurs longues matinées qui s’étendent jusqu’à 14h.
+Ce festin de milieu de matinée, souvent dégusté dans des bars locaux avec des collègues au cours de conversations animées, n’est pas seulement une question de nourriture, c’est ce qui permet aux Valenciens de tenir le coup pendant leurs longues matinées qui s’étendent jusqu’à 14h.
 
 J’ai appris à apprécier la façon dont cette gargantuesque collation matinale comble le fossé entre le petit-déjeuner et le déjeuner (ou le diner comme on dit en Belgique), d’autant plus que les locaux ne dînent (ou ne soupent) généralement qu’à 21h ou 22h.
 
@@ -140,7 +140,7 @@ Proposez des rencontres lors du petit-déjeuner à 9h ou lors des goûters vers 
 
 ### Comment expliquer mon emploi du temps peu conventionnel aux potentiels clients ou partenaires espagnols sans paraître manquer de professionnalisme ?
 
-Présentez votre programme international comme un atout – expliquez comment vos connexions internationales peuvent profiter à vos partenaires locaux grâce à des heures d’ouverture élargies et à des informations sur les marchés internationaux. Soyez transparent sur votre disponibilité et mettez l’accent sur votre flexibilité pour les rendez-vous importants. Beaucoup d’entreprises espagnoles s’intéressent de plus en plus aux marchés internationaux et apprécient les partenaires ayant une expérience mondiale.
+Présentez votre programme international comme un atout, expliquez comment vos connexions internationales peuvent profiter à vos partenaires locaux grâce à des heures d’ouverture élargies et à des informations sur les marchés internationaux. Soyez transparent sur votre disponibilité et mettez l’accent sur votre flexibilité pour les rendez-vous importants. Beaucoup d’entreprises espagnoles s’intéressent de plus en plus aux marchés internationaux et apprécient les partenaires ayant une expérience mondiale.
 
 ### J’ai entendu dire que les relations sont essentielles dans la culture d’entreprise espagnole. Comment puis-je les tisser si je ne suis pas les horaires espagnols habituels ?
 

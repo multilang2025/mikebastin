@@ -138,7 +138,7 @@ Content Delivery
 -   Enable lazy loading
 -   Use CDN like Cloudflare, lazy load off-screen elements
 
-JavaScript & CSS
+JavaScript and CSS
 
 -   Minify files
 -   Defer non-critical JavaScript
