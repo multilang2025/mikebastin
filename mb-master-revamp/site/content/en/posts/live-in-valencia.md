@@ -20,13 +20,13 @@ Valencia keeps winning expat surveys. The 2024 InterNations Expat City Ranking p
 > 
 > Source: [InterNations Expat City Ranking 2024](https://www.internations.org/expat-insider/)
 
-I have lived here for over a decade. The number-one ranking is not wrong, but it does not tell you the whole story.
+We have lived here for over a decade. The number-one ranking is not wrong, but it does not tell you the whole story.
 
 What follows is the honest version: what the surveys get right, what they miss, and what you should know before you actually **live in Valencia**.
 
 ### What the rankings get right
 
-Cost of living is genuinely lower than Madrid or Barcelona. Rent in a decent neighbourhood ran me roughly half what an equivalent flat would cost in Lisbon last year.
+Cost of living is genuinely lower than Madrid or Barcelona. Rent in a decent neighbourhood ran us roughly half what an equivalent flat would cost in Lisbon last year.
 
 The climate delivers what the brochure promises. Around 300 days of sunshine, mild winters, hot but not unbearable summers if you know how to ventilate a flat properly.
 
@@ -36,7 +36,7 @@ Healthcare is good and accessible. Once you have your SIP card, GP appointments 
 
 ### What the rankings do not capture
 
-Valencia is loud. Genuinely, structurally loud. Scooters at 3am, neighbours at 1am, mascletà gunpowder concerts every spring afternoon. I have written a longer post specifically on [the city’s relationship with noise](https://mikebastin.com/valencia-50-shades-of-noise/) because it deserves more than a one-line warning.
+Valencia is loud. Genuinely, structurally loud. Scooters at 3am, neighbours at 1am, mascletà gunpowder concerts every spring afternoon. We have written a longer post specifically on [the city’s relationship with noise](https://mikebastin.com/valencia-50-shades-of-noise/) because it deserves more than a one-line warning.
 
 Bureaucracy is slow. Getting an NIE, registering for healthcare, opening a bank account, dealing with the Hacienda. Each step is straightforward in isolation. Sequenced together, the process eats months. [Setting up a business locally](https://mikebastin.com/business-registration-in-valencia/) compounds the friction.
 
@@ -48,9 +48,9 @@ Summer in July and August is hot enough that the city empties. Many small busine
 
 Three early decisions shape your experience here more than people expect.
 
-**Neighbourhood.** Ruzafa is hip but loud. El Carmen is beautiful but tourist-heavy. Cabanyal has the beach feel and a slower rhythm. Patraix or Benimaclet give you proper local life with good metro access. I cover the trade-offs in [the neighbourhood guide](https://mikebastin.com/best-neighborhoods-valencia/).
+**Neighbourhood.** Ruzafa is hip but loud. El Carmen is beautiful but tourist-heavy. Cabanyal has the beach feel and a slower rhythm. Patraix or Benimaclet give you proper local life with good metro access. We cover the trade-offs in [the neighbourhood guide](https://mikebastin.com/best-neighborhoods-valencia/).
 
-**Visa pathway.** Americans, Brits, and other non-EU citizens have three viable routes: the Digital Nomad Visa, the Non-Lucrative Visa, and (until it closes) the Golden Visa. The choice has real tax implications. [My breakdown of the residency options](https://mikebastin.com/american-move-to-valencia-spain/) goes deeper.
+**Visa pathway.** Americans, Brits, and other non-EU citizens have three viable routes: the Digital Nomad Visa, the Non-Lucrative Visa, and (until it closes) the Golden Visa. The choice has real tax implications. [Our breakdown of the residency options](https://mikebastin.com/american-move-to-valencia-spain/) goes deeper.
 
 **Language commitment.** You can survive in English in central Valencia. You cannot integrate. The version of life you get without Spanish is roughly half the experience, and almost none of the deeper community.
 
@@ -64,7 +64,7 @@ If the cons sound like dealbreakers, Valencia is not your city. If they sound li
 
 ### Where to look next
 
-If you are weighing the move, the practical pieces I keep getting asked about most:
+If you are weighing the move, the practical pieces we keep getting asked about most:
 
 -   [Real cost of living for North American and UK expats](https://mikebastin.com/valencia-cost-of-living/)
 -   [Airport guide and first-week settling-in tasks](https://mikebastin.com/valencia-airport-guide/)
@@ -75,4 +75,4 @@ If you are weighing the move, the practical pieces I keep getting asked about mo
 
 The InterNations data is a useful starting point. The lived experience after ten years here is more nuanced than any survey can capture.
 
-If you are weighing whether to make the move, want a second opinion on a neighbourhood, or have visa questions a real estate agent will not give you straight answers on, [get in touch](https://mikebastin.com/contact-us/). I have walked the same path and I am happy to share what I learned the slow way.
+If you are weighing whether to make the move, want a second opinion on a neighbourhood, or have visa questions a real estate agent will not give you straight answers on, [get in touch](https://mikebastin.com/contact-us/). We have walked the same path and we are happy to share what we learned the slow way.

@@ -134,12 +134,12 @@ Doing multilingual SEO and translation? Look at Qwen for Chinese, Mistral for Eu
 
 The strategic point is that the LLM space is not winner-take-all. The household names dominate consumer mindshare. But the underlying infrastructure of AI is being shaped, in real time, by the lesser-known models on this list. Knowing them gives you optionality the headlines cannot offer.
 
-If you are picking an LLM in 2026, ask yourself three questions: Does the licence allow what I actually want to do? Does the model handle my target language well? Can I run it where I need it to run, including on-device? The answers eliminate 90 percent of the field very quickly.From my work helping clients pick AI stacks, 2026
+If you are picking an LLM in 2026, ask yourself three questions: Does the licence allow what we actually want to do? Does the model handle our target language well? Can we run it where we need it to run, including on-device? The answers eliminate 90 percent of the field very quickly.From our work helping clients pick AI stacks, 2026
 
-For more on how AI is reshaping search and content work, see my pieces on [how AI is revolutionising SEO](https://mikebastin.com/how-ai-is-revolutionising-seo-strategies/) and [how AI is transforming translation and localisation](https://mikebastin.com/how-ai-is-transforming-translation-and-localisation/).
+For more on how AI is reshaping search and content work, see our pieces on [how AI is revolutionising SEO](https://mikebastin.com/how-ai-is-revolutionising-seo-strategies/) and [how AI is transforming translation and localisation](https://mikebastin.com/how-ai-is-transforming-translation-and-localisation/).
 
 ### Need help picking the right AI stack for your business?
 
-I help businesses navigate the AI space, from picking the right LLM for multilingual content to integrating AI into existing SEO and translation workflows. Get advice that is grounded in production reality, not vendor marketing.
+We help businesses navigate the AI space, from picking the right LLM for multilingual content to integrating AI into existing SEO and translation workflows. Get advice that is grounded in production reality, not vendor marketing.
 
 [Get in touch](https://mikebastin.com/contact-us/)

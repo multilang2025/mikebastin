@@ -14,11 +14,11 @@ excerpt: "Master competitor analysis to strengthen SEO strategy, uncover content
 
 ## Most competitor analysis is theatre, not strategy
 
-Twenty-five years in, I have read more “competitor analysis” reports than I want to admit.
+Twenty-five years in, we have read more “competitor analysis” reports than we want to admit.
 
 Most look impressive in an exec deck. Most do nothing for SEO performance.
 
-One [law firm I have worked with](https://mikebastin.com/services/law-firm-seo-services/) for three years was convinced its main rival was a well-known boutique two streets away. After one afternoon of proper SERP-level checking, the actual organic rivals turned out to be three solo practitioners with twelve-page websites and very tight local on-page work.
+One [law firm we have worked with](https://mikebastin.com/services/law-firm-seo-services/) for three years was convinced its main rival was a well-known boutique two streets away. After one afternoon of proper SERP-level checking, the actual organic rivals turned out to be three solo practitioners with twelve-page websites and very tight local on-page work.
 
 The boutique they obsessed over barely ranked.
 
@@ -28,13 +28,13 @@ Good **competitor analysis** in 2026 starts with one shift: stop listing the com
 
 Business competitors and SEO competitors are different categories. The biggest firm in the city is rarely the one ranking for the high-intent queries small and mid-size firms convert on.
 
-I run a quick SERP scrape on the 30-50 queries that genuinely matter to a client. The pages that show up repeatedly are the real list. Sometimes a forum thread or a Reddit post outranks every “official” competitor for the buyer’s actual question.
+We run a quick SERP scrape on the 30-50 queries that genuinely matter to a client. The pages that show up repeatedly are the real list. Sometimes a forum thread or a Reddit post outranks every “official” competitor for the buyer’s actual question.
 
 Knowing that changes the brief. You stop trying to outrank Forbes for a generic term and start outranking the three blogs that actually capture buying intent.
 
 ### The four things worth extracting
 
-When a client asks me to analyse five rivals, this is what I actually pull.
+When a client asks us to analyse five rivals, this is what we actually pull.
 
 **Top pages by traffic share.** Not the whole site. Just the 10 to 20 URLs Ahrefs or Semrush flag as the real organic earners. The model lives in those pages, not in the homepage.
 
@@ -44,7 +44,7 @@ When a client asks me to analyse five rivals, this is what I actually pull.
 
 **Real keyword overlap.** Strip brand terms from both sides. Filter “common keywords” reports to queries with buying intent. The clean list is usually one tenth of the raw export.
 
-For the methodical version of this on traffic specifically, see my [competitor traffic analysis checklist](https://mikebastin.com/competitor-analysis-traffic-checklist/).
+For the methodical version of this on traffic specifically, see our [competitor traffic analysis checklist](https://mikebastin.com/competitor-analysis-traffic-checklist/).
 
 ### Why most of your rivals’ pages are decorative
 
@@ -56,11 +56,11 @@ One number worth keeping in mind before you spend a week mapping every page on a
 
 The implication is uncomfortable: most pages your rivals publish do nothing. Find their five to ten traffic-driving URLs and study those properly. Skip the rest.
 
-### The toolkit I use, with honest caveats
+### The toolkit we use, with honest caveats
 
 Tool
 
-What I use it for
+What we use it for
 
 Reality check
 
@@ -98,7 +98,7 @@ Ahrefs themselves [document the gap](https://help.ahrefs.com/en/articles/431381-
 
 ### Multilingual competitor analysis is plural by default
 
-The Valencia law firm I mentioned earlier has three different competitor sets.
+The Valencia law firm we mentioned earlier has three different competitor sets.
 
 A Spanish set for domestic family law and inheritance queries. A French set for matrimonial cases involving French expats living on the Costa Blanca. An English set for the Anglo expat community handling probate, NIE issues, and property disputes.
 
@@ -112,19 +112,19 @@ For the deeper view, see [best practices for multilingual SEO](https://mikebasti
 
 Yes, [GEO](https://mikebastin.com/generative-engine-optimization/) matters. Yes, ChatGPT and Perplexity citations now factor into B2B buyer journeys. The underlying competitor logic does not change much.
 
-What I add for clients now: a small layer of “who gets cited in AI answers for our buyer prompts”. I run five to ten prompts a real prospect might genuinely use, log the cited domains, and check overlap with the traditional SERP rivals.
+What we add for clients now: a small layer of “who gets cited in AI answers for our buyer prompts”. We run five to ten prompts a real prospect might genuinely use, log the cited domains, and check overlap with the traditional SERP rivals.
 
-Often the overlap is high. Sometimes a niche site I had not flagged shows up. Either signal is useful, but neither replaces the SERP-level work.
+Often the overlap is high. Sometimes a niche site we had not flagged shows up. Either signal is useful, but neither replaces the SERP-level work.
 
 The mistake is treating GEO as a separate exercise. It is the same SERP behind a chat layer.
 
-### Three failure patterns I keep seeing
+### Three failure patterns we keep seeing
 
 **Reading tool numbers as truth.** Estimates are not measurements. The further down the long tail you go, the wider the gap between Ahrefs’ estimate and Google Analytics reality.
 
 **Treating keyword gap exports as content briefs.** A 1,200-row export is a list. A brief is what survives an editor and a subject-matter expert reviewing it. The two are not the same document.
 
-**Running the analysis once a year.** Markets shift. Algorithms update. New entrants arrive. For active clients I refresh the picture quarterly. For fast-moving niches like AI tooling or fintech, monthly.
+**Running the analysis once a year.** Markets shift. Algorithms update. New entrants arrive. For active clients we refresh the picture quarterly. For fast-moving niches like AI tooling or fintech, monthly.
 
 ### When competitor analysis earns its budget
 
@@ -140,10 +140,10 @@ Outside those moments, weekly competitor reports are mostly busy work.
 
 ### A second pair of eyes on your real rivals
 
-If you suspect your team is benchmarking against the wrong list, I can pull a focused SERP-level **competitor analysis** for one of your priority queries inside an hour.
+If you suspect your team is benchmarking against the wrong list, we can pull a focused SERP-level **competitor analysis** for one of your priority queries inside an hour.
 
-I do this for clients in legal, freight, real estate, and translation across six languages, working from [Valencia](https://mikebastin.com/about-us/).
+We do this for clients in legal, freight, real estate, and translation across six languages, working from [Valencia](https://mikebastin.com/about-us/).
 
 The SERP does not care about org charts. Neither should your analysis.
 
-[Get in touch](https://mikebastin.com/contact-us/) or look at [how I run multilingual SEO programmes](https://mikebastin.com/services/multilingual-seo/).
+[Get in touch](https://mikebastin.com/contact-us/) or look at [how we run multilingual SEO programmes](https://mikebastin.com/services/multilingual-seo/).

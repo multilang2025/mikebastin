@@ -238,10 +238,10 @@ Valencia is generally a very safe city. Areas like **Eixample (Gran Vía), Campa
 
 It depends on your lifestyle. The city centre offers better public transport, more shopping, and energy all year round. The beach (El Cabanyal/Malvarrosa) offers a more relaxed pace and better air quality but can feel a bit isolated from the “main” city action and can be quieter in the winter months.
 
-### How much should I budget for rent in Valencia?
+### How much should we budget for rent in Valencia?
 
 As of 2024/2025, a decent 2-bedroom apartment in a popular area like Ruzafa or the Centre will cost between €1,100 and €1,500. More local areas like Patraix or parts of Algirós can still be found for €850-€1,000, though prices are rising across the board.
 
-### Can I find a flat in Valencia without speaking Spanish?
+### Can we find a flat in Valencia without speaking Spanish?
 
 While possible, it is difficult. Most traditional landlords and many local agencies speak limited English. Having a local relocation expert or a fluent friend is highly recommended to ensure you understand the lease terms and aren’t overcharged.

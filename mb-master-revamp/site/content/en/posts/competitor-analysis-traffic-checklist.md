@@ -14,7 +14,7 @@ excerpt: "Use this step-by-step checklist to analyze competitor traffic systemat
 
 ## What a Competitor Traffic Audit Really Tells You in 2026
 
-After 25 years of running SEO and translation projects across Belgian, Spanish, French and US markets, I can tell you the single biggest mistake clients make.
+After 25 years of running SEO and translation projects across Belgian, Spanish, French and US markets, we can tell you the single biggest mistake clients make.
 
 They obsess over their own dashboards and ignore where their rivals quietly steal pipeline every quarter.
 
@@ -22,7 +22,7 @@ A serious competitor analysis checklist is not a Semrush export, and proper SEO 
 
 It is a structured way to read another company’s marketing playbook and decide what is worth copying, what is worth ignoring, and what they have not figured out yet.
 
-When I audit a competitor for a Valencia law firm, a Houston freight forwarder or a Dominican real estate agency, I am looking for the same thing every time.
+When we audit a competitor for a Valencia law firm, a Houston freight forwarder or a Dominican real estate agency, we are looking for the same thing every time.
 
 Where is their traffic actually coming from, and is that source repeatable in their language, market and budget?
 
@@ -42,7 +42,7 @@ Key Takeaways
 
 Before you start any audit, you need to know what the tools are actually telling you.
 
-I have seen consultants quote Semrush traffic numbers to clients as if they were Google Analytics data.
+We have seen consultants quote Semrush traffic numbers to clients as if they were Google Analytics data.
 
 They are not.
 
@@ -82,7 +82,7 @@ Here is the full competitive analysis checklist in one place. Work through it to
 
 ## Phase 1: Identify the Right Competitors, Not the Obvious Ones
 
-Every client I have ever worked with has handed me a list of three or four “main competitors” at the start of a project.
+Every client we have ever worked with has handed us a list of three or four “main competitors” at the start of a project.
 
 In every case at least one of those competitors does not really compete with them online.
 
@@ -99,7 +99,7 @@ You can no longer ignore which sites get cited inside AI responses, because a gr
 
 To build the real list, open Ahrefs or Semrush, run the Organic Competitors report, then cross check against G2, Capterra and LinkedIn.
 
-I usually finish with a quick browser scan using a handful of [SEO Chrome extensions](https://mikebastin.com/chrome-extensions-for-seo/) to see who is doing what at a technical level.
+We usually finish with a quick browser scan using a handful of [SEO Chrome extensions](https://mikebastin.com/chrome-extensions-for-seo/) to see who is doing what at a technical level.
 
 ## Phase 2: Map Traffic Sources, Not Just Totals
 
@@ -156,7 +156,7 @@ What does it ask the reader to do next?
 
 Does it actually answer the query, or is it filler around a few keywords?
 
-A failed attempt I see constantly is the “every topic” hub.
+A failed attempt we see constantly is the “every topic” hub.
 
 A competitor publishes 400 articles, half of them five hundred word AI generated pages, and traffic plateaus around 8,000 visits per month.
 
@@ -240,7 +240,7 @@ Tidy up social referral and improve internal linking from blog to service pages.
 
 Broader brand signals and stronger topical authority.
 
-If you want a deeper view of where SEO is heading and how to plan around it, my piece on the [future of SEO](https://mikebastin.com/future-of-seo/) goes into more detail.
+If you want a deeper view of where SEO is heading and how to plan around it, our piece on the [future of SEO](https://mikebastin.com/future-of-seo/) goes into more detail.
 
 For day to day execution, a small list of [long tail keyword](https://mikebastin.com/long-tail-keywords/) wins beats a vague “let’s improve content” line on a slide.
 
@@ -260,7 +260,7 @@ You do not need a full paid stack to run a first competitor analysis. Most of th
 
 ## Frequently Asked Questions
 
-### How often should I run a full competitor traffic analysis?
+### How often should we run a full competitor traffic analysis?
 
 For a serious B2B site, run a complete audit once a quarter and a light monthly review in between.
 
@@ -278,9 +278,9 @@ Similarweb is stronger on international and large-site totals.
 
 Ahrefs is strongest on backlinks and now on AI citation tracking via Brand Radar.
 
-I usually run two of them in parallel and treat any number where they disagree by more than 40 percent as unreliable.
+We usually run two of them in parallel and treat any number where they disagree by more than 40 percent as unreliable.
 
-### Can I analyse competitors in markets where I do not speak the language?
+### Can we analyse competitors in markets where we do not speak the language?
 
 You can, but only if you respect the local context.
 
@@ -290,9 +290,9 @@ The way Spanish, German, French or Dutch users phrase queries is rarely a litera
 
 If you need to audit competitors in those markets, either work with a bilingual SEO or use proper [keyword research](https://mikebastin.com/services/keyword-research/) built around local intent rather than English seed lists.
 
-For German specifically, my notes on [German SEO best practices](https://mikebastin.com/german-seo-best-practices/) cover the differences that matter.
+For German specifically, our notes on [German SEO best practices](https://mikebastin.com/german-seo-best-practices/) cover the differences that matter.
 
-### How do I find competitors I did not know about?
+### How do we find competitors we did not know about?
 
 Run the Organic Competitors report in Ahrefs or Semrush for your top three money pages.
 
@@ -316,17 +316,17 @@ If you have read this far, you already know the audit itself is not the prize.
 
 The prize is the small set of decisions that come after the audit.
 
-I run competitor traffic audits across multilingual markets, mostly for B2B services, real estate and logistics clients in Europe, the US and Latin America.
+We run competitor traffic audits across multilingual markets, mostly for B2B services, real estate and logistics clients in Europe, the US and Latin America.
 
 Every audit ends with a six-line plan, not an 80-page deck.
 
 **[Get in touch to discuss your competitive strategy](https://mikebastin.com/contact-us/)**
 
-If you want more context before talking, my breakdown of [how AI is changing SEO](https://mikebastin.com/how-ai-is-revolutionising-seo-strategies/) and my [analytics and tracking services](https://mikebastin.com/services/analytics-and-tracking/) page give you a clearer picture of how I work and where I add value.
+If you want more context before talking, our breakdown of [how AI is changing SEO](https://mikebastin.com/how-ai-is-revolutionising-seo-strategies/) and our [analytics and tracking services](https://mikebastin.com/services/analytics-and-tracking/) page give you a clearer picture of how we work and where we add value.
 
-My own work does not stop at SEO and translation. I also run [Globaprom](https://globaprom.com), where we build custom AI-assisted software and automation tools for logistics, e-commerce and multilingual businesses.
+Our own work does not stop at SEO and translation. We also run [Globaprom](https://globaprom.com), where we build custom AI-assisted software and automation tools for logistics, e-commerce and multilingual businesses.
 
-### What tools do I need to start a competitor analysis checklist for free?
+### What tools do we need to start a competitor analysis checklist for free?
 
 Start with Ahrefs Free Webmaster Tools or Ubersuggest for rival discovery.
 
@@ -334,7 +334,7 @@ Add the Similarweb browser extension for a quick read on traffic mix, and Google
 
 Upgrade to paid tools only once the exercise proves worth paying for.
 
-### How do I check if a competitor is winning AI citations?
+### How do we check if a competitor is winning AI citations?
 
 Run the same prompts once a month inside ChatGPT, Claude, Perplexity and Gemini, and note who gets cited.
 

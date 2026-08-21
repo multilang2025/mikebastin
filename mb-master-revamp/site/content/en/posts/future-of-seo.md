@@ -132,7 +132,7 @@ Google continues to refine hyper-local results, especially on mobile.
 
 > 84% of local searches are conducted on mobile, with local mobile searches growing 50% faster than overall searches. 80% of US consumers search for local businesses weekly, and 88% who perform a local search on a smartphone visit a related store within a week. Nearly 46% of all Google search queries have local intent. Source: [BrightLocal](https://www.brightlocal.com/resources/local-seo-statistics/)
 
-Generic “near me” content performs worse than pages built around specific neighbourhoods, districts, or service areas. [Local SEO](https://mikebastin.com/services/local-seo/) in 2026 favours businesses that demonstrate genuine community presence through reviews, local backlinks, and area-specific content.
+Generic “near us” content performs worse than pages built around specific neighbourhoods, districts, or service areas. [Local SEO](https://mikebastin.com/services/local-seo/) in 2026 favours businesses that demonstrate genuine community presence through reviews, local backlinks, and area-specific content.
 
 Google Business Profile remains the centrepiece of local visibility. Combined with LocalBusiness schema markup and consistent NAP (Name, Address, Phone) data across citations, it forms the foundation of any local search strategy.
 
@@ -228,7 +228,7 @@ Zero-click searches do not kill SEO. They change how it delivers value. With 60 
 
 The most important ranking factors in 2026 include content quality aligned with E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness), Core Web Vitals performance (LCP, INP, CLS), topical authority built through topic clusters, strong backlink profiles from authoritative domains, and proper technical SEO including Schema.org structured data, hreflang for multilingual sites, and mobile-first design.
 
-### How do I optimise for AI Overviews?
+### How do we optimise for AI Overviews?
 
 To optimise for Google AI Overviews, structure content with clear, factual statements that AI can easily extract. Use Schema.org markup in JSON-LD format. Include specific data points and cite authoritative sources. Build topical authority through detailed topic cluster content. Ensure your Google Business Profile and author credentials reinforce E-E-A-T signals.
 

@@ -97,7 +97,7 @@ Results can vary, but clients often see improvements within the first three to s
 1.  **Language and localisation:** Content must be properly translated and localized for French audiences, considering cultural nuances and preferences. Adaptation covers not just the main content, but also meta tags, URLs, and other on-page elements.
 2.  **Keyword research:** Conduct thorough keyword research specific to the French market. Direct translations of English keywords may not always be the most effective or commonly used terms in French.
 3.  **Accented characters:** While French uses many accented characters, users often search without them. It’s important to optimise for both accented and non-accented versions of keywords.
-4.  **Local search optimisation:** If targeting specific regions in France, optimise for local search by including location-specific keywords and creating [Google My Business](https://mikebastin.com/optimise-a-google-business-profile/ "Google My Business") listings.
+4.  **Local search optimisation:** If targeting specific regions in France, optimise for local search by including location-specific keywords and creating [Google Our Business](https://mikebastin.com/optimise-a-google-business-profile/ "Google My Business") listings.
 5.  **Technical SEO:** Ensure your website’s technical aspects are optimised, including site speed, mobile responsiveness, and proper use of hreflang tags for language targeting.
 6.  **Link building:** Focus on acquiring backlinks from reputable French websites to boost your site’s authority in the French market.
 

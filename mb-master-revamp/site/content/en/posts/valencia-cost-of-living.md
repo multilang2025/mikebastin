@@ -20,7 +20,7 @@ Let’s get something out of the way: Valencia is no longer Europe’s best-kept
 
 For expats moving from the UK or North America, Valencia still offers one of the best quality-of-life-to-cost ratios on the continent. For a regularly updated breakdown with live figures, see the [Valencia cost of living guide](https://valenciamove.com/cost-of-living-valencia/) on Valencia Move. You just need realistic numbers, not the outdated “you can live on €800 a month” fantasies that still float around expat Facebook groups.
 
-Below, I break down every major expense, housing, food, healthcare, transport, and the hidden costs nobody warns you about, so you can plan your move with confidence.
+Below, we break down every major expense, housing, food, healthcare, transport, and the hidden costs nobody warns you about, so you can plan your move with confidence.
 
 > **Stat check:** According to [Numbeo (mid-2026)](https://www.numbeo.com/cost-of-living/in/Valencia), the average cost of living in Valencia (excluding rent) is approximately €690 per month for a single person, roughly 35% lower than London and 50% lower than New York City.
 
@@ -242,6 +242,6 @@ The average net salary in Valencia hovers around €1,300 to €1,500/month. It�
 
 Housing, without question, both the monthly rent and the upfront costs of securing an apartment. High demand in desirable neighbourhoods like Ruzafa means competition is fierce and prices keep climbing.
 
-### Do I need to pay tax in Spain if I live in Valencia?
+### Do we need to pay tax in Spain if we live in Valencia?
 
 If you spend more than 183 days a year in Spain, you’re generally considered a tax resident. But there are important tax benefits to explore: the **Beckham Law** and the **Digital Nomad Visa tax regime** can significantly reduce your burden. It is absolutely worth discussing with a professional. For the visa side of things, see our guide on [paths to residency in Spain](https://mikebastin.com/american-move-to-valencia-spain/).

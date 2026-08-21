@@ -70,10 +70,10 @@ We offer a range of **affordable SEO services** to help small businesses thrive 
 **“Working with this team has been a game-changer for us. Our website traffic has doubled, and we’re ranking on the first page for important keywords. Plus, their pricing is unbeatable!”**  
 **Maria L., Café Owner**
 
-**“I was worried that I couldn’t afford professional SEO services, but these guys made it possible. I’m now seeing real results without spending a fortune.”**  
+**“we were worried that we couldn’t afford professional SEO services, but these guys made it possible. We’m now seeing real results without spending a fortune.”**  
 **John D., E-commerce Store Owner**
 
-**“They took the time to understand my business and created a plan that actually works. I highly recommend their SEO services for small businesses!”**  
+**“They took the time to understand our business and created a plan that actually works. We highly recommend their SEO services for small businesses!”**  
 **Sarah P., Freelance Photographer**
 
 ### **Why Choose Us for Your Small Business SEO?**
@@ -122,11 +122,11 @@ We offer packages that begin at a mere €300 per month.
 
 Feel free to [get in touch with us to receive a personalised quotation](https://mikebastin.com/contact-us/) that aligns with your unique requirements.
 
-#### Can I choose individual services instead of a package?
+#### Can we choose individual services instead of a package?
 
 Yes! We offer flexible options where you can choose individual services like keyword research or local SEO. We’ll work with you to create a plan that fits your budget and goals.
 
-#### Do I need to sign a long-term contract?
+#### Do we need to sign a long-term contract?
 
 No. We offer both contract and month-to-month SEO services. We believe in proving our value through results, not locking you into long-term agreements.
 

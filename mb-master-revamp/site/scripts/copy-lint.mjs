@@ -22,10 +22,20 @@ const CONTENT = new URL("../content/", import.meta.url).pathname;
 const FORBIDDEN = [
   "comprehensive", "tailored", "seamless", "leverage", "elevate", "crafted",
   "maximise", "facilitate", "landscape", "utilise", "innovative", "robust",
-  "delve", "transformative", "implementation", "integration", "vital",
+  "delve", "transformative", "vital",
   "dynamic", "ever-evolving", "moreover", "however", "thus", "hence",
   "additionally",
 ];
+
+/**
+ * Allowed, but not to be overused (owner decision, 21 Aug). Both are real
+ * technical terms in this domain ("Trusted Shops integration") and one sits
+ * inside a service name, so a hard fail was wrong: it was inflating the
+ * work list by 113 hits that mostly read fine. Flagged only above a
+ * per-page density, which is what "do not overuse" actually means.
+ */
+const SPARING = ["implementation", "integration"];
+const SPARING_MAX = 4;
 
 /** Rules apply to English prose. FR and ES have their own vocabulary. */
 const LINTED_LOCALES = new Set(["en"]);
@@ -59,9 +69,21 @@ function lint(raw) {
   const michael = body.match(/\bMichael\b/g);
   if (michael) issues.push({ rule: "brand", detail: "Michael, brand is Mike Bastin", count: michael.length });
 
-  // Sentence openers, checked at a full stop or start of a line.
-  const openers = body.match(/(?:^|\.\s+)(This|That|I)\s/gm);
-  if (openers) issues.push({ rule: "sentence-opener", detail: "This, That or I", count: openers.length });
+  for (const w of SPARING) {
+    const m = body.match(new RegExp(`\\b${w}\\b`, "gi"));
+    if (m && m.length > SPARING_MAX) {
+      issues.push({ rule: "overused", detail: `${w}, ${m.length} times`, count: m.length - SPARING_MAX });
+    }
+  }
+
+  // Sentence openers. "I" is no longer listed: the voice is "we" now, and
+  // a first-person-singular pronoun anywhere is caught by the rule below.
+  const openers = body.match(/(?:^|\.\s+)(This|That)\s/gm);
+  if (openers) issues.push({ rule: "sentence-opener", detail: "This or That", count: openers.length });
+
+  // Voice. The site speaks as "we", so any singular first person is a miss.
+  const singular = body.match(/\b(I|my|me|mine|myself)\b/g);
+  if (singular) issues.push({ rule: "voice", detail: "first-person singular", count: singular.length });
 
   return issues;
 }

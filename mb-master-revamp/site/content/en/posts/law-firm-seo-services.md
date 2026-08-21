@@ -68,7 +68,7 @@ Think of legal SEO as your digital handshake. It’s how potential clients find 
 
 Your online presence needs the same careful consideration you give each client matter.
 
-When someone types “divorce solicitor near me” or “commercial litigation specialist London”, they want the right firm, not just any firm.
+When someone types “divorce solicitor near us” or “commercial litigation specialist London”, they want the right firm, not just any firm.
 
 Strategic SEO identifies the exact phrases your potential clients use across practice areas like personal injury, family law, or commercial disputes.
 

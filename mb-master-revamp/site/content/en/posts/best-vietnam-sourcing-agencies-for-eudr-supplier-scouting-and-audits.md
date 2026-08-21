@@ -237,7 +237,7 @@ Ultimately, EUDR is more than a legal requirement, it represents a shift toward 
 
 ## The hidden compliance bottleneck: Vietnamese interpretation and translation
 
-EUDR compliance is presented as a sourcing problem and an audit problem. Both are real. But after twenty-five years of working in translation and language services, I can tell you what most compliance consultants miss: it is also a language problem.
+EUDR compliance is presented as a sourcing problem and an audit problem. Both are real. But after twenty-five years of working in translation and language services, we can tell you what most compliance consultants miss: it is also a language problem.
 
 The audit conversations that determine whether your Vietnamese supplier passes due diligence happen between EU compliance officers and Vietnamese plantation managers, smallholders, processors, and government officials. Many of those people speak no English. Many speak limited Mandarin. They speak Vietnamese, regional dialects, and sometimes ethnic minority languages from the Central Highlands or Mekong Delta.
 
@@ -249,9 +249,9 @@ Without a qualified Vietnamese interpreter, your auditor is talking to whoever i
 
 You will be tempted to use Google Translate or DeepL on a phone. Do not. Vietnamese is a tonal language with six tones, and tone errors completely change meaning. Worse, agricultural and land-use terminology has region-specific variations that no general-purpose translation engine handles correctly.
 
-I have seen audits compromised by translations that confused _rừng tự nhiên_ (natural forest) with _rừng trồng_ (plantation forest), a distinction that determines whether a parcel is EUDR-compliant at all. A trained human interpreter catches that. A free machine translation does not.
+We have seen audits compromised by translations that confused _rừng tự nhiên_ (natural forest) with _rừng trồng_ (plantation forest), a distinction that determines whether a parcel is EUDR-compliant at all. A trained human interpreter catches that. A free machine translation does not.
 
-Vietnamese is one of the world’s most-spoken languages, with over 85 million native speakers, yet it remains poorly served by mainstream AI translation. The data scarcity for technical and regulatory Vietnamese means human interpreters retain a real edge in compliance settings.From my experience as a translation consultant working with EU-Asia trade flows since 2000
+Vietnamese is one of the world’s most-spoken languages, with over 85 million native speakers, yet it remains poorly served by mainstream AI translation. The data scarcity for technical and regulatory Vietnamese means human interpreters retain a real edge in compliance settings.From our experience as a translation consultant working with EU-Asia trade flows since 2000
 
 ## Why “rare” languages have more of a future under AI, not less
 
@@ -261,7 +261,7 @@ Large language models are trained on internet text. The internet is overwhelming
 
 Vietnamese sits in a strange middle zone. Plenty of speakers, plenty of online content, but limited high-quality bilingual technical corpora. AI handles tourist Vietnamese well. It struggles with regulatory Vietnamese, agricultural Vietnamese, and the regional dialects spoken in the Central Highlands where much of Vietnam’s coffee and rubber actually comes from.
 
-In specialised B2B contexts, legal compliance, supply-chain auditing, technical specifications, regulated industries, AI translation accuracy drops sharply for any language outside the top five. Human expertise becomes more valuable as the legal stakes rise, not less.[From my analysis of AI translation across 25 years of practice](https://mikebastin.com/how-ai-is-transforming-translation-and-localisation/)
+In specialised B2B contexts, legal compliance, supply-chain auditing, technical specifications, regulated industries, AI translation accuracy drops sharply for any language outside the top five. Human expertise becomes more valuable as the legal stakes rise, not less.[From our analysis of AI translation across 25 years of practice](https://mikebastin.com/how-ai-is-transforming-translation-and-localisation/)
 
 The same dynamic applies to Khmer, Lao, Malay, Tagalog, Burmese, Bahasa Indonesia, and the dozens of indigenous languages that matter for sustainable sourcing across South-East Asia. The bigger AI gets, the more obvious the gap becomes between dominant languages and the rest. The compliance value of a human Vietnamese interpreter increases as AI takes over routine translation, because the routine work disappears and only the high-stakes specialised work remains.
 
@@ -274,4 +274,4 @@ Practical recommendations:
 -   **Use AI translation for first drafts and triage**, not for final compliance documentation. AI is excellent for sorting which incoming Vietnamese supplier emails matter. It is terrible for binding contractual language.
 -   **Consider hiring a bilingual sourcing consultant** rather than separate consultant + interpreter. A single bilingual professional who understands both EUDR and Vietnamese supply chain practice is rare but worth the premium.
 
-For more on how AI is shifting the translation industry, see my piece on [how AI is transforming translation and localisation](https://mikebastin.com/how-ai-is-transforming-translation-and-localisation/) and my work on [specialised translation services](https://mikebastin.com/services/expert-translation-services/).
+For more on how AI is shifting the translation industry, see our piece on [how AI is transforming translation and localisation](https://mikebastin.com/how-ai-is-transforming-translation-and-localisation/) and our work on [specialised translation services](https://mikebastin.com/services/expert-translation-services/).

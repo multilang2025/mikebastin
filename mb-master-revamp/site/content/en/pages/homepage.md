@@ -22,7 +22,7 @@ International Growth
 
 ### Because One Language Will Only Get You So Far
 
-As a specialist in international digital marketing with over 15 years of experience, I help businesses in the law, logistics and real estate sectors expand their reach into European and global markets. My approach integrates data-driven SEO, culturally-adapted content marketing, and precise website localization to build a strong and authentic online presence that resonates with diverse audiences.
+As a specialist in international digital marketing with over 15 years of experience, we help businesses in the law, logistics and real estate sectors expand their reach into European and global markets. Our approach integrates data-driven SEO, culturally-adapted content marketing, and precise website localization to build a strong and authentic online presence that resonates with diverse audiences.
 
 Our Customers
 

@@ -57,20 +57,20 @@ Voice Search Equivalent
 
 “Valencia web designer”
 
-“Who is the best web designer near me in Valencia?”
+“Who is the best web designer near us in Valencia?”
 
 “SEO tips”
 
-“How can I improve my website’s SEO for Google?”
+“How can we improve our website’s SEO for Google?”
 
 “Restaurant opening times”
 
 “What time does the Italian restaurant on Queen Street open?”
 
--   “How do I get a refund from my online order?”
+-   “How do we get a refund from our online order?”
 -   “What’s the fastest train to Manchester from London?”
--   “Where can I find gluten-free pizza in Brighton?”
--   “Can you recommend a plumber near me?”
+-   “Where can we find gluten-free pizza in Brighton?”
+-   “Can you recommend a plumber near us?”
 -   “What are the rules for recycling in Birmingham?”
 
 ### Voice Search Optimisation at a Glance
@@ -102,19 +102,19 @@ Optimisation Strategy
 
 Informational
 
-“How do I change a tyre?”
+“How do we change a tyre?”
 
 Clear guides or short direct answers
 
 Navigational
 
-“Take me to the BBC homepage”
+“Take us to the BBC homepage”
 
 Branded FAQ content
 
 Transactional
 
-“Order me a pepperoni pizza”
+“Order us a pepperoni pizza”
 
 Voice CTA and streamlined process
 
@@ -126,7 +126,7 @@ NAP consistency and geo-targeting
 
 ### Voice Search Success: Case Study
 
-A small bakery in Kettering added a FAQ like “Where can I get fresh sourdough in Kettering?”, improved their site speed and structured data. As a result:
+A small bakery in Kettering added a FAQ like “Where can we get fresh sourdough in Kettering?”, improved their site speed and structured data. As a result:
 
 -   **+137%** voice search visibility
 -   **+42%** increase in foot traffic in 3 months
@@ -143,7 +143,7 @@ Answer common spoken questions
 
 Step-by-Step Guides
 
-Perfect for “How do I” results
+Perfect for “How do we” results
 
 Product Schema
 
@@ -151,7 +151,7 @@ Improves voice visibility of products
 
 Local Landing Pages
 
-Captures “near me” localisation
+Captures “near us” localisation
 
 ### High-Impact Best Practices
 

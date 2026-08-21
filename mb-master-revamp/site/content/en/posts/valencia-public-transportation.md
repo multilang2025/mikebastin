@@ -12,23 +12,23 @@ sourceUrl: "https://mikebastin.com/valencia-public-transportation/"
 excerpt: "Explore Valencia’s seamless public transportation with efficient buses, metro, and trams, connecting you effortlessly across the city."
 ---
 
-## Valencia public transportation, the way I actually use it
+## Valencia public transportation, the way we actually use it
 
-I have lived in Valencia for over a decade and barely drive inside the city. I have never once regretted that.
+We have lived in Valencia for over a decade and barely drive inside the city. We have never once regretted that.
 
-Most of the tourist guides describe **Valencia public transportation** as if it were a museum exhibit. Useful information, no flavour. What follows is the honest, lived-in version: what works, what to skip, and how I actually move around as a resident.
+Most of the tourist guides describe **Valencia public transportation** as if it were a museum exhibit. Useful information, no flavour. What follows is the honest, lived-in version: what works, what to skip, and how we actually move around as a resident.
 
 ### Metrovalencia: the workhorse
 
 Six metro lines plus three tram lines run by Metrovalencia. The network covers the city centre, the beaches at Cabanyal and Malvarrosa, the airport, and most of the residential neighbourhoods worth living in.
 
-What I use almost daily:
+What we use almost daily:
 
 -   **Lines 3 and 5** connect the city centre to the airport directly. About 25 minutes from Xàtiva to Aeroport. No need to think about taxis for flights.
 -   **Line 5** runs east to Marítim and the beach. Tram from there onwards.
 -   **Tram line 4** from the centre out to Cabanyal beach in summer. Slower than the metro, more pleasant.
 
-Frequencies are decent, ten to fifteen minutes off-peak, six to eight at rush hour. Trains are clean and air-conditioned. Current fares and zones are on the [Metrovalencia official site](https://www.metrovalencia.es/en/). For a detailed ticket-by-ticket breakdown in French, see the [Valencia Metro tickets guide 2026](https://valenciamove.com/fr/blog/guide-tickets-metro-valencia-2026/) on my sister site Valenciamove.
+Frequencies are decent, ten to fifteen minutes off-peak, six to eight at rush hour. Trains are clean and air-conditioned. Current fares and zones are on the [Metrovalencia official site](https://www.metrovalencia.es/en/). For a detailed ticket-by-ticket breakdown in French, see the [Valencia Metro tickets guide 2026](https://valenciamove.com/fr/blog/guide-tickets-metro-valencia-2026/) on our sister site Valenciamove.
 
 ### EMT buses: the dense urban grid
 
@@ -54,22 +54,22 @@ The regional rail network is the part most expats discover late.
 -   **Line C-5** north to Sagunto. Roman amphitheatre, good seafood, half the tourists of the centre.
 -   **Line C-3** west to Buñol if you need a tomato fight every August.
 
-From there, AVE high-speed rail puts Madrid at 1h45, Barcelona at around 3h. I have not driven those routes in years.
+From there, AVE high-speed rail puts Madrid at 1h45, Barcelona at around 3h. We have not driven those routes in years.
 
 ### Where having a car still earns its keep
 
-I do drive. Almost never inside the city, but the car earns its keep on weekends, for the surroundings.
+We do drive. Almost never inside the city, but the car earns its keep on weekends, for the surroundings.
 
 -   The interior villages like Bocairent, Montanejos, or Requena for day trips.
 -   The Albufera Natural Park at sunset, where Bus 25 timing is awkward.
 -   The Costa Blanca beaches south of Cullera, and the Sierra Calderona north of the city, for weekend escapes.
 -   Bulky shopping runs that do not fit a Valenbisi front basket.
 
-Inside the centre I have not parked in months. Cabify covers the late-night returns and is roughly 30% cheaper than central European equivalents. Standard taxis work fine and accept card without the arguments of a few years back.
+Inside the centre we have not parked in months. Cabify covers the late-night returns and is roughly 30% cheaper than central European equivalents. Standard taxis work fine and accept card without the arguments of a few years back.
 
 ### A practical week-one checklist
 
-If you are [moving to Valencia](https://mikebastin.com/move-to-valencia-spain-from-usa/), the order I would recommend:
+If you are [moving to Valencia](https://mikebastin.com/move-to-valencia-spain-from-usa/), the order we would recommend:
 
 -   Day one: buy a TuiN card at any metro station. Refillable, works on metro, tram, and bus.
 -   Week one: download the EMT and Metrovalencia apps. The English versions work properly.

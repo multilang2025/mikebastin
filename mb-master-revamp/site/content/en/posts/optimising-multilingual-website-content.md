@@ -108,7 +108,7 @@ u003cbru003eYour u003ca href=u0022https://mikebastin.com/services/multilingual-s
 
 u003cbru003eTo optimise a u003ca href=u0022https://mikebastin.com/services/multilingual-cms-integration/u0022u003emulti-language siteu003c/au003e, use proper u003cstrongu003ehreflang tagsu003c/strongu003e, consistent URL structures, and translated meta titles and descriptions.u003cbru003eYou should also adapt imagery, calls-to-action, and content to each local market.u003cbru003eThese steps help search engines correctly index and display your website across languages.u003cbru003e
 
-### How do I optimise SEO for a multilingual website?
+### How do we optimise SEO for a multilingual website?
 
 u003cbru003eOptimising u003ca href=u0022https://mikebastin.com/services/website-localisation/u0022u003eSEO for a multilingual websiteu003c/au003e involves a combination of localisation, keyword research, and technical SEO.u003cbru003eYou need to ensure each language version has unique, high-quality content matched to its market.u003cbru003eWorking with a u003ca href=u0022https://mikebastin.com/services/on-page-seo/u0022u003etechnical SEO expertu003c/au003e ensures your structure supports multi-regional targeting.u003cbru003e
 

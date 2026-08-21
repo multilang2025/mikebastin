@@ -9,24 +9,24 @@ wpId: 37205
 date: "2024-09-17T17:33:07"
 modified: "2026-07-02T14:46:14"
 sourceUrl: "https://mikebastin.com/english-to-french-translation-services/"
-excerpt: "After 25 years working in French, here is how I run English-to-French translation projects across France, Belgium, Switzerland, and Québec, and where translation alone is not enough."
+excerpt: "After 25 years working in French, here is how we run English-to-French translation projects across France, Belgium, Switzerland, and Québec, and where translation alone is not enough."
 ---
 
-French is the language I work in most.
+French is the language we work in most.
 
-I grew up in Belgium speaking it, studied marketing in French at university, lived three years in Paris in my twenties, and spent ten years sharing a Caribbean office with Québécois colleagues.
+We grew up in Belgium speaking it, studied marketing in French at university, lived three years in Paris in our twenties, and spent ten years sharing a Caribbean office with Québécois colleagues.
 
-When clients ask me about English to French translation, the first thing I tell them is that there is no such single language.
+When clients ask us about English to French translation, the first thing we tell them is that there is no such single language.
 
 Hexagonal French, Belgian French, Swiss French, and Québécois French each have different vocabulary, different register conventions, and different commercial expectations.
 
 Pick the wrong variant and your French copy lands somewhere between odd and offensive.
 
-The page below covers how I actually run English to French translation work in 2026, what the five French markets demand, and where translation alone falls short of getting you visible.
+The page below covers how we actually run English to French translation work in 2026, what the five French markets demand, and where translation alone falls short of getting you visible.
 
 ## Why generic English to French translation keeps failing
 
-Most of the bad French copy I get asked to fix shares the same three faults.
+Most of the bad French copy we get asked to fix shares the same three faults.
 
 The first is wrong-variant choice.
 
@@ -48,7 +48,7 @@ The French page ranks for nothing because the source-language keyword research w
 
 ## The five French markets and what each one wants
 
-Before I quote a project, I want to know which French audience you are writing for.
+Before we quote a project, we want to know which French audience you are writing for.
 
 ### France (Hexagonal French)
 
@@ -102,17 +102,17 @@ Worth getting right because mobile-first French-speaking consumers in West Afric
 > 
 > Source: [CSA Research, 2024 Market Sizing Update](https://csa-research.com/Blogs-Events/CSA-in-the-Media/Press-Releases/Language-Services-and-Technology-Industry-Faces-Revenue-Decline-but-Remains-Poised-for-Transformation)
 
-## How I run an English to French translation project
+## How we run an English to French translation project
 
 The same five-step process applies whether the source is a 500-word landing page or a 60,000-word website.
 
 ### Step 1: Source audit
 
-Before any translation, I read the English source critically.
+Before any translation, we read the English source critically.
 
 Weak English produces weak French, no matter how good the translator is.
 
-If the source needs tightening, I flag it before the meter starts.
+If the source needs tightening, we flag it before the meter starts.
 
 ### Step 2: Variant selection and brief
 
@@ -120,15 +120,15 @@ We confirm target market, register, and any non-negotiable terminology.
 
 If you have a glossary or competitor copy you admire in French, send it.
 
-If you do not, I build a 30 to 60 term glossary from your English content and confirm it with you before drafting.
+If you do not, we build a 30 to 60 term glossary from your English content and confirm it with you before drafting.
 
 ### Step 3: Translation by native French linguists
 
-I work with a small team of native French translators based in France, Belgium, and Québec.
+We work with a small team of native French translators based in France, Belgium, and Québec.
 
 Variant assignment is based on target market, not whoever is free that week.
 
-For legal and certified work, I bring in _traducteurs assermentés_ registered with French courts.
+For legal and certified work, we bring in _traducteurs assermentés_ registered with French courts.
 
 ### Step 4: Post-editing and quality control
 
@@ -136,13 +136,13 @@ Every translation gets reviewed by a second native linguist.
 
 For AI-assisted projects, the workflow becomes machine translation followed by full post-editing, which the industry calls MTPE or post-AI editing.
 
-You can read more about that pipeline on my [post-AI editing](https://mikebastin.com/services/post-ai-editing/) page.
+You can read more about that pipeline on our [post-AI editing](https://mikebastin.com/services/post-ai-editing/) page.
 
 ### Step 5: SEO and CMS delivery
 
-For website translation, I do not stop at delivering a Word document.
+For website translation, we do not stop at delivering a Word document.
 
-I push the French content directly into WPML, Polylang, or TranslatePress with proper hreflang tags, French metas, and a French URL structure.
+We push the French content directly into WPML, Polylang, or TranslatePress with proper hreflang tags, French metas, and a French URL structure.
 
 The keyword research is done in French before drafting, not bolted on after.
 
@@ -154,9 +154,9 @@ Three adjacent services often need to ship alongside the translation itself.
 
 ### Multilingual SEO copywriting
 
-For marketing pages, I do not translate sentence by sentence.
+For marketing pages, we do not translate sentence by sentence.
 
-I rewrite around the French keyword cluster while preserving your tone and offer.
+We rewrite around the French keyword cluster while preserving your tone and offer.
 
 See [multilingual SEO copywriting](https://mikebastin.com/services/multilingual-seo-copywriting/) for how that differs from straight translation.
 
@@ -172,7 +172,7 @@ If you are running Google Ads or Meta campaigns in French markets, the ad copy h
 
 Headline length, CTA conventions, and bid strategy all change between Hexagonal and Québec markets.
 
-See my piece on [running a French PPC campaign](https://mikebastin.com/french-ppc-campaign/) for the practical detail.
+See our piece on [running a French PPC campaign](https://mikebastin.com/french-ppc-campaign/) for the practical detail.
 
 ## Service tiers and what each one covers
 
@@ -224,7 +224,7 @@ _Traducteur assermenté_, stamped output
 
 3 to 7 days
 
-> The most expensive translation mistake I see is companies treating French as one language. Shipping Parisian copy into Québec, or Belgian register into a Geneva audience, costs more in lost conversion than the price difference between proper localisation and a generic one-variant job.
+> The most expensive translation mistake we see is companies treating French as one language. Shipping Parisian copy into Québec, or Belgian register into a Geneva audience, costs more in lost conversion than the price difference between proper localisation and a generic one-variant job.
 > 
 >, [Mike Bastin](https://mikebastin.com/about-us/), multilingual SEO and translation consultant
 
@@ -248,9 +248,9 @@ Total turnaround: 11 weeks.
 
 French organic traffic moved from negligible to a meaningful share of the brand’s overall sessions within the first two quarters after launch.
 
-## How to brief me for an English to French project
+## How to brief us for an English to French project
 
-The fastest path to a useful quote is sending me four things.
+The fastest path to a useful quote is sending us four things.
 
 The source content, even in rough form.
 
@@ -258,31 +258,31 @@ The target market: France, Belgium, Switzerland, Québec, OIF Africa, or a combi
 
 The intended use: website pages, ads, legal documents, marketing collateral, or technical manuals.
 
-Your existing French presence, if any, so I can audit what currently ranks and where the gaps sit.
+Your existing French presence, if any, so we can audit what currently ranks and where the gaps sit.
 
-From there I quote a fixed price for the project, not a per-word rate, so you know the cost up front.
+From there we quote a fixed price for the project, not a per-word rate, so you know the cost up front.
 
 ## Where to start
 
 French is a high-value translation pair when the work is done properly.
 
-It is also the language where I see the most damage caused by cheap or rushed translation: lost rankings, regulatory flags in Québec, and brand copy that quietly turns French readers away.
+It is also the language where we see the most damage caused by cheap or rushed translation: lost rankings, regulatory flags in Québec, and brand copy that quietly turns French readers away.
 
-For a free 20-minute audit of your current French-language content, [get in touch](https://mikebastin.com/contact-us/) and I will walk through what I see.
+For a free 20-minute audit of your current French-language content, [get in touch](https://mikebastin.com/contact-us/) and we will walk through what we see.
 
-For the wider translation offer across other language pairs, see my [expert translation services](https://mikebastin.com/services/expert-translation-services/) page.
+For the wider translation offer across other language pairs, see our [expert translation services](https://mikebastin.com/services/expert-translation-services/) page.
 
-For background on how I work and why translation and SEO need to be planned together, the [about page](https://mikebastin.com/about-us/) covers the rest.
+For background on how we work and why translation and SEO need to be planned together, the [about page](https://mikebastin.com/about-us/) covers the rest.
 
 ## Frequently asked questions
 
-### Do I need separate French translations for France and Québec?
+### Do we need separate French translations for France and Québec?
 
 For website content, ads, and marketing materials: yes, almost always.
 
 For internal documents, manuals, and technical reference material with low cultural exposure, one well-written Hexagonal French version can cover both markets if your audience tolerates it.
 
-### Can I just use DeepL or ChatGPT for French translation?
+### Can we just use DeepL or ChatGPT for French translation?
 
 For personal use, internal drafts, and low-stakes communication, yes.
 

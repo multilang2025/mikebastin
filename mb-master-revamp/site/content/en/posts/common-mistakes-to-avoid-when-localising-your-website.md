@@ -115,6 +115,6 @@ By avoiding these mistakes, you’ll improve international visibility, strengthe
 
 If you’re ready to connect with international audiences through smart **website localisation**, let’s talk.
 
-With 25+ years in **SEO**, **translation**, and [digital marketing](https://mikebastin.com/services/digital-marketing/), I help businesses grow with culturally relevant, search-friendly websites that deliver real results.
+With 25+ years in **SEO**, **translation**, and [digital marketing](https://mikebastin.com/services/digital-marketing/), we help businesses grow with culturally relevant, search-friendly websites that deliver real results.
 
-**Contact me today** and make your website truly global.
+**Contact us today** and make your website truly global.

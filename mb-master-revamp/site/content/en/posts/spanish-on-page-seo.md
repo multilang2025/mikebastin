@@ -152,7 +152,7 @@ Keywords that resonate culturally can improve local search rankings and user eng
 
 Using popular slang can enhance relatability but should be balanced with a professional tone depending on the audience.
 
-### 3\. Should I use ‘tú’ or ‘usted’ for meta descriptions?
+### 3\. Should we use ‘tú’ or ‘usted’ for meta descriptions?
 
 ‘Tú’ is preferred for informal audiences, while ‘usted’ is used for more formal content or older demographics.
 

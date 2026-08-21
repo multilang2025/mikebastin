@@ -19,10 +19,10 @@ We are here to help
 
 ## You are contacting **Mike Bastin**, SEO consultant and founder of **MikeBastin.com**.
 
-I work with businesses that need clear, measurable SEO results.  
+We work with businesses that need clear, measurable SEO results.  
 Most requests relate to SEO strategy, competitor analysis, multilingual SEO, and content performance.
 
-If you contact me, your message is read and answered personally.
+If you contact us, your message is read and answered personally.
 
 ### You can use this form if you are looking for help with:
 
@@ -32,7 +32,7 @@ If you contact me, your message is read and answered personally.
 -   Multilingual SEO and international growth
 -   Website performance, analytics, and tracking
 
-If your request is not related to SEO or digital strategy, I may not be the right person to help.
+If your request is not related to SEO or digital strategy, we may not be the right person to help.
 
 facebookyoutubetwitterpinterest
 
@@ -62,10 +62,10 @@ If you are human, leave this field blank.
 
 ### What Happens After You Send a Message
 
-Your message goes directly to me.  
-I typically reply within one business day.
+Your message goes directly to us.  
+We typically reply within one business day.
 
-If your enquiry requires more context, I will ask follow-up questions before proposing next steps.  
+If your enquiry requires more context, we will ask follow-up questions before proposing next steps.  
 There is no automated sales process and no outsourced handling.
 
 ### About the Business
@@ -93,7 +93,7 @@ Email
 Via the contact form on this page
 
 LinkedIn  
-You can also reach me via my [professional LinkedIn profile](https://www.linkedin.com/in/michaelbastin/)
+You can also reach us via our [professional LinkedIn profile](https://www.linkedin.com/in/michaelbastin/)
 
 Calle Rugat 12 -2   
 46021 Valencia, Spain

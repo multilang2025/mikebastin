@@ -183,7 +183,7 @@ Words for common items can vary, impacting e-commerce and product descriptions.
 -   **Example**: “Essuie de bain” (Belgium) vs. “Serviette de bain” (France) for “bath towel.”
 -   **Content Optimisation**: Using region-specific terms improves search rankings and user connection.
 
-### Local Search and Google My Business
+### Local Search and Google Our Business
 
 Managing multilingual [business listings adds complexity to local SEO](https://mikebastin.com/how-to-promote-your-local-business-on-google-maps/) efforts.
 

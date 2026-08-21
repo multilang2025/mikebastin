@@ -114,4 +114,4 @@ Work with a **Spanish SEO company** to secure a competitive edge locally and ext
 
 Like a bridge that connects distant shores, Spanish SEO links you to fresh opportunities.
 
-[Enquire now about my Spanish SEO services](https://mikebastin.com/contact-us/) and move forward with confidence in these flourishing markets.
+[Enquire now about our Spanish SEO services](https://mikebastin.com/contact-us/) and move forward with confidence in these flourishing markets.

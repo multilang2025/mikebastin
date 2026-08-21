@@ -34,9 +34,9 @@ paid and organic strategies aligned, sharing keyword research and landing pages
 
 ## Three patterns that drain ad budgets
 
-Recurring issues I see on multi-market paid campaigns:
+Recurring issues we see on multi-market paid campaigns:
 
-A US Google Ads campaign translated to French, Spanish and German keeps the original keyword set, ad copy structure and bidding strategy. Result: low Quality Score per market because the keywords are not how locals search, ad copy reads stilted, landing pages feel imported. CPC climbs, conversion drops. Native ad campaigns per market beat translated campaigns in every meaningful test I have run.
+A US Google Ads campaign translated to French, Spanish and German keeps the original keyword set, ad copy structure and bidding strategy. Result: low Quality Score per market because the keywords are not how locals search, ad copy reads stilted, landing pages feel imported. CPC climbs, conversion drops. Native ad campaigns per market beat translated campaigns in every meaningful test we have run.
 
 Keywords picked from Google Keyword Planner without verifying real intent or local search behaviour. The result: high impressions, low CTR, irrelevant clicks, wasted spend. Real keyword research means checking actual SERPs in the target market, validating with native speakers, and starting with tighter intent buckets rather than broad match.
 
@@ -44,7 +44,7 @@ Generic conversion tracking that mixes all markets together. You cannot tell whi
 
 Multilingual SEM is sequencing and discipline, not just translating ad copy. Campaigns built per market with native research, distinct ad accounts where it makes sense, dedicated tracking. Aligned with the [multilingual SEO](https://mikebastin.com/services/multilingual-seo/) structure to share keyword research and landing pages.
 
-## What I include in a multilingual SEM engagement
+## What we include in a multilingual SEM engagement
 
 Real research in each target language. Intent classification, exclusion of low-quality terms, validation by native speakers before bidding.
 
@@ -58,7 +58,7 @@ GA4, GTM, server-side tracking where needed. Conversion KPI per market: CPL, ROA
 
 Google Ads as default. Bing Ads where US B2B audience justifies (Microsoft ecosystem). Meta Ads for B2C reach. LinkedIn for B2B targeting in specific verticals.
 
-## My process in 5 steps, named deliverables
+## Our process in 5 steps, named deliverables
 
 Audit, native research, build, launch, optimise. No spending before scoping is validated.
 
@@ -170,7 +170,7 @@ Reasoned recommendation given at scoping based on your situation.
 
 ## Frequently asked questions on multilingual SEM
 
-Should I run separate Google Ads accounts per market?
+Should we run separate Google Ads accounts per market?
 
 Often yes for markets with significant budget or strict Quality Score sensitivity. Separate accounts keep performance data clean per country and let you set distinct payment, billing and conversion currency. For markets with low budget or test-only scope, ad groups within one account work fine. The decision is part of the scoping.
 
@@ -190,9 +190,9 @@ How fast do you scale ad spend?
 
 Conservative initial period: 2-4 weeks at controlled budget while tracking validates and Quality Score builds. Then scale aggressively on what works, kill what does not. Most multi-market campaigns reach steady-state monthly spend by month 3.
 
-Can you work with my existing Google Ads or Meta account?
+Can you work with our existing Google Ads or Meta account?
 
-Yes. I prefer working in your existing accounts when they have history (Quality Score, audience signals, conversion data). Audit first, restructure if needed, then optimise. Starting fresh is recommended only when the existing account has accumulated bad signals (low Quality Score across the board, conversion tracking broken for months).
+Yes. We prefer working in your existing accounts when they have history (Quality Score, audience signals, conversion data). Audit first, restructure if needed, then optimise. Starting fresh is recommended only when the existing account has accumulated bad signals (low Quality Score across the board, conversion tracking broken for months).
 
 How much does a multilingual SEM engagement cost?
 
@@ -200,6 +200,6 @@ Quoted. Management fee depends on number of markets, platforms, complexity. Ad s
 
 ## Ready to scale paid acquisition across markets?
 
-I start by auditing your current paid accounts and identifying wasted spend per market. Quantified diagnosis, actionable recommendations. Free first call, no commitment.
+We start by auditing your current paid accounts and identifying wasted spend per market. Quantified diagnosis, actionable recommendations. Free first call, no commitment.
 
 Related services: [multilingual SEO](https://mikebastin.com/services/multilingual-seo/) · [international SEO](https://mikebastin.com/services/global-seo-solutions/) · [local SEO](https://mikebastin.com/services/local-seo/)

@@ -19,7 +19,7 @@ Multilingual SEO, translation, and digital strategy. Twenty-five years of doing 
 
 ## The Experience
 
-I have been doing SEO and translation work for 25 years. Long enough to remember when AltaVista was a serious competitor, when Google did not have a Spanish version, and when “multilingual SEO” meant translating your meta keywords. The work has changed. The principles have not. Today I help international businesses rank, communicate, and convert across markets they cannot fully see from the inside. Outside of SEO, I still spend time on the water. I run [Matosurf](https://matosurf.com), a French-language guide to surf, kitesurf and paddle spots, since windsurfing and kitesurfing shaped a good chunk of my life before Valencia did.
+We have been doing SEO and translation work for 25 years. Long enough to remember when AltaVista was a serious competitor, when Google did not have a Spanish version, and when “multilingual SEO” meant translating your meta keywords. The work has changed. The principles have not. Today we help international businesses rank, communicate, and convert across markets they cannot fully see from the inside. Outside of SEO, we still spend time on the water. We run [Matosurf](https://matosurf.com), a French-language guide to surf, kitesurf and paddle spots, since windsurfing and kitesurfing shaped a good chunk of our life before Valencia did.
 
 ## Meet Our Team
 
@@ -27,9 +27,9 @@ A small team of native-speaker translators, SEO specialists, and project manager
 
 We work directly with clients, no middle layer. Every project goes through someone who actually understands the language, the market, and the technical SEO side.
 
-## Who I Work With
+## Who we Work With
 
-I run multilingual SEO and digital strategy for a small portfolio of clients in regulated, multilingual, or geographically tricky markets. The names stay private. The sectors and the work do not.
+We run multilingual SEO and digital strategy for a small portfolio of clients in regulated, multilingual, or geographically tricky markets. The names stay private. The sectors and the work do not.
 
 A boutique Valencia-based law firm specialising in immigration and inheritance work for international clients. Multilingual SEO across Spanish, French, English. Local pack visibility and content authority on regulated topics.
 
@@ -45,7 +45,7 @@ A handful of wellness studios and language-services brands across Spain and Belg
 
 ## Read More From the Blog
 
-Articles that show how the work plays out in practice. Multilingual SEO, Valencia life, AI in search, and the tools I actually use.
+Articles that show how the work plays out in practice. Multilingual SEO, Valencia life, AI in search, and the tools we actually use.
 
 How multilingual SEO is shifting from blue links to AI overviews, voice search, and brand citations across markets.
 

@@ -200,7 +200,7 @@ No chatbot handles every query perfectly.
 
 Design clear escalation paths to human agents.
 
-Avoid responses like “I don’t understand” without offering alternatives.
+Avoid responses like “we don’t understand” without offering alternatives.
 
 A frustrated user who cannot reach a human becomes a former customer.
 

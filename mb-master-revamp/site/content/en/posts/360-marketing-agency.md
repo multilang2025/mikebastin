@@ -16,7 +16,7 @@ excerpt: "🚀 Transform your brand’s digital presence with 360 Marketing Agen
 
 The phrase sells a clean idea: one partner, every channel, perfectly synced.
 
-After 25 years in this industry I have watched larger agencies sell that pitch hundreds of times.
+After 25 years in this industry we have watched larger agencies sell that pitch hundreds of times.
 
 Most of the time the result is four siloed deliverables stapled together inside one retainer. Same client, four invoices, four KPIs, four audience definitions, nothing genuinely connected.
 
@@ -34,7 +34,7 @@ Five things genuinely integrated, not seven things billed in parallel.
 
 ### What “360” usually is, and why it disappoints
 
-Three failure patterns I see month after month.
+Three failure patterns we see month after month.
 
 **Channel teams that meet once a month and call it joined-up work.** Each team copies its KPIs into the same deck. Lots of motion, no overlap, no shared decisions.
 
@@ -50,13 +50,13 @@ A real 360 partner can answer three questions in ten minutes for any active camp
 -   Which Spanish blog post would benefit most from a remarketing pixel?
 -   What did the Belgian (.be) version of the campaign learn that the French (.fr) version has not yet adopted?
 
-If the answer to any of these is “let me sync with another team”, you are paying for branding, not joined-up work.
+If the answer to any of these is “let us sync with another team”, you are paying for branding, not joined-up work.
 
 ### A real example: a Texas freight client
 
-The freight forwarding client I work with in Houston runs in two languages, three buyer types (importers, exporters, freight forwarders), and across LinkedIn, organic search, Google Ads, and trade events.
+The freight forwarding client we work with in Houston runs in two languages, three buyer types (importers, exporters, freight forwarders), and across LinkedIn, organic search, Google Ads, and trade events.
 
-For six months before I came in the agency on the account had treated those as four separate engagements. Four invoices, four sets of KPIs, four audience definitions, no shared dashboard.
+For six months before we came in the agency on the account had treated those as four separate engagements. Four invoices, four sets of KPIs, four audience definitions, no shared dashboard.
 
 After we consolidated into one strategy document and one measurement plan, three findings surfaced inside the first month.
 
@@ -74,7 +74,7 @@ The IPA’s analysis of more than 250 campaign case studies found a measurable g
 > 
 > Source: [Smart Insights, summarising the IPA Effectiveness Databank](https://www.smartinsights.com/traffic-building-strategy/integrated-marketing-communications/4-options-for-integrating-marketing-campaigns/)
 
-The headline I take from that research: connecting channels matters, but adding more does not. Three connected channels beat seven disconnected ones.
+The headline we take from that research: connecting channels matters, but adding more does not. Three connected channels beat seven disconnected ones.
 
 ### Promise vs reality
 
@@ -104,7 +104,7 @@ Social tied to the same conversion goals as paid and SEO
 
 ### When to hire a 360 partner, and when not to
 
-I usually tell clients to hire a 360 partner only when at least two of the following are true.
+We usually tell clients to hire a 360 partner only when at least two of the following are true.
 
 -   You operate across more than two languages or markets, and brand consistency is visibly breaking down.
 -   You have lost track of where the next quarter’s revenue is meant to come from inside your existing reporting.
@@ -114,10 +114,10 @@ Outside those scenarios, a senior fractional lead plus two specialist contractor
 
 ### A second pair of eyes on your marketing engine
 
-If you are weighing a **360 marketing agency** retainer against keeping things in-house, I am happy to walk through the trade-offs with you.
+If you are weighing a **360 marketing agency** retainer against keeping things in-house, we are happy to walk through the trade-offs with you.
 
-I work with B2B clients in legal, freight, real estate, and translation across six languages, from [Valencia](https://mikebastin.com/about-us/).
+We work with B2B clients in legal, freight, real estate, and translation across six languages, from [Valencia](https://mikebastin.com/about-us/).
 
 The honest answer for many companies is to keep the in-house team and bring in narrow expertise where the constraint actually lives. Sometimes the answer is a full 360 partner. Either way you should know which it is before signing.
 
-[Get in touch](https://mikebastin.com/contact-us/) or look at [how I run digital marketing programmes](https://mikebastin.com/services/digital-marketing/).
+[Get in touch](https://mikebastin.com/contact-us/) or look at [how we run digital marketing programmes](https://mikebastin.com/services/digital-marketing/).

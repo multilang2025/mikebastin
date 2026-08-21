@@ -16,7 +16,7 @@ excerpt: "Shipping to Valencia Spain doesn’t have to be stressful. Learn what 
 
 ## The Reality of Shipping to Valencia Spain: What to Bring and What to Leave Behind
 
-Relocating to the Mediterranean coast is a dream for many, but the logistics of **shipping to Valencia Spain** can quickly transform that dream into a bureaucratic headache. Having navigated this process twice, once from the UK and once helping a colleague move from the States, I can tell you that the “pack everything” mentality is often a costly mistake. Before you book a container, you must perform a ruthless audit of your belongings. Spain is not a barren wasteland; it is a modern European hub with IKEA, high-end boutiques, and incredible local furniture makers. Generally, if your furniture is “flat-pack” quality, sell it. The cost of shipping will exceed its replacement value. However, if you possess antique heirlooms, high-quality solid wood pieces, or specialized professional equipment, shipping is often the only way to maintain your standard of living without a massive reinvestment. When considering [Valencia living expenses](https://mikebastin.com/valencia-living-expenses/), remember that while daily costs are lower than in London or New York, replacing an entire household of premium goods is an upfront capital hit you might want to avoid. The rule of thumb: if it’s sentimental or high-value, ship it. If it’s replaceable and bulky, buy it here.
+Relocating to the Mediterranean coast is a dream for many, but the logistics of **shipping to Valencia Spain** can quickly transform that dream into a bureaucratic headache. Having navigated this process twice, once from the UK and once helping a colleague move from the States, we can tell you that the “pack everything” mentality is often a costly mistake. Before you book a container, you must perform a ruthless audit of your belongings. Spain is not a barren wasteland; it is a modern European hub with IKEA, high-end boutiques, and incredible local furniture makers. Generally, if your furniture is “flat-pack” quality, sell it. The cost of shipping will exceed its replacement value. However, if you possess antique heirlooms, high-quality solid wood pieces, or specialized professional equipment, shipping is often the only way to maintain your standard of living without a massive reinvestment. When considering [Valencia living expenses](https://mikebastin.com/valencia-living-expenses/), remember that while daily costs are lower than in London or New York, replacing an entire household of premium goods is an upfront capital hit you might want to avoid. The rule of thumb: if it’s sentimental or high-value, ship it. If it’s replaceable and bulky, buy it here.
 
 ## Comparing Your Shipping Options: FCL, LCL, and Air Freight
 
@@ -81,7 +81,7 @@ Very High
 
 ## Shipping a Car to Valencia: Is It Worth the Trouble?
 
-This is the question that plagues every expat. My short answer? **Usually, no.** Unless you own a rare classic or a high-end vehicle that is fully paid off, the process of importing a car to Spain is a bureaucratic minefield. When **shipping to Valencia Spain**, a car isn’t just a piece of cargo; it’s a regulated machine that must meet EU standards. It involves a process called _homologación_. If your car was manufactured for the US or UK market, you may need to change the headlights, indicators, and even the glass to meet Spanish specifications.
+This is the question that plagues every expat. Our short answer? **Usually, no.** Unless you own a rare classic or a high-end vehicle that is fully paid off, the process of importing a car to Spain is a bureaucratic minefield. When **shipping to Valencia Spain**, a car isn’t just a piece of cargo; it’s a regulated machine that must meet EU standards. It involves a process called _homologación_. If your car was manufactured for the US or UK market, you may need to change the headlights, indicators, and even the glass to meet Spanish specifications.
 
 ### The Costs of Car Importation
 
@@ -152,11 +152,11 @@ To give you an idea of the financial commitment, here is a breakdown for a typic
 -   **Delivery and Unpacking in Valencia:** €1,500
 -   **Total Estimated Cost: €8,950**
 
-If you are moving for work or starting a business, you might be able to offset some of these costs. For more on the logistics of setting up shop, see my guide on [streamlining the business registration process in Valencia](https://mikebastin.com/business-registration-in-valencia/).
+If you are moving for work or starting a business, you might be able to offset some of these costs. For more on the logistics of setting up shop, see our guide on [streamlining the business registration process in Valencia](https://mikebastin.com/business-registration-in-valencia/).
 
 ## Horror Stories and How to Avoid Them
 
-I have heard it all. Containers that “disappeared” in Algeciras, furniture covered in green mould because it wasn’t export-wrapped, and one poor soul who had to pay €5,000 in unexpected taxes because they bought a new Tesla a month before moving. **The Common Thread in Every Disaster:** The owner tried to manage the shipping themselves to save a few hundred Euros. International shipping is a game of “who you know.” A professional relocation service has established relationships with customs brokers in Valencia. They know which inspectors are strict and which documents are currently being scrutinized. They handle the parking permits, the shuttle vans, and the insurance claims.
+We have heard it all. Containers that “disappeared” in Algeciras, furniture covered in green mould because it wasn’t export-wrapped, and one poor soul who had to pay €5,000 in unexpected taxes because they bought a new Tesla a month before moving. **The Common Thread in Every Disaster:** The owner tried to manage the shipping themselves to save a few hundred Euros. International shipping is a game of “who you know.” A professional relocation service has established relationships with customs brokers in Valencia. They know which inspectors are strict and which documents are currently being scrutinized. They handle the parking permits, the shuttle vans, and the insurance claims.
 
 ### Why You Need a Relocation Coordinator
 
@@ -168,15 +168,15 @@ Managing **shipping to Valencia Spain** alone is a full-time job. You are dealin
 
 From the UK, expect 1-3 weeks. From the USA or Canada, it typically takes 6-10 weeks depending on whether you choose a full container (faster) or a shared container (slower). Always factor in an extra 7-10 days for customs clearance at the Port of Valencia.
 
-### Can I ship my pet in the same container as my furniture?
+### Can we ship our pet in the same container as our furniture?
 
 Absolutely not. Pets must travel via air as “manifest cargo” or in the cabin/hold of a passenger plane. They require their own specific health certifications and microchipping that must be completed weeks before departure.
 
-### Do I have to pay taxes on my used furniture?
+### Do we have to pay taxes on our used furniture?
 
 If you have owned the items for more than six months and are moving your primary residence to Valencia, you can apply for a tax exemption. However, you must provide proof of your previous residence and your new Spanish residency (or intent to reside).
 
-### What happens if my goods are damaged during the voyage?
+### What happens if our goods are damaged during the voyage?
 
 This is why marine insurance is non-negotiable. If you have “All Risk” insurance, you must document the damage immediately upon delivery (take photos before the movers leave) and file a claim within the specified window, usually 7-14 days.
 

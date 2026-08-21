@@ -343,7 +343,7 @@ Schedule a consultation to discuss how we can help you achieve measurable result
 
 Localisation goes beyond translation to ensure content is culturally relevant and resonates emotionally with different regions of Spain.
 
-### **How can I effectively use ‘tú’ and ‘usted’ in my content?**
+### **How can we effectively use ‘tú’ and ‘usted’ in our content?**
 
 Use **‘tú’** for informal content and younger audiences, while **‘usted’** is better suited for formal contexts or professional communication.
 
@@ -351,10 +351,10 @@ Use **‘tú’** for informal content and younger audiences, while **‘usted�
 
 **SEMrush**, **Ahrefs**, and **Google Trends** are effective tools for identifying the most relevant keywords for Spanish-speaking audiences.
 
-### **How can I incorporate cultural nuances in my content?**
+### **How can we incorporate cultural nuances in our content?**
 
 Use references, imagery, and examples that are specific to **Spanish culture**, such as local festivals, popular figures, and regional traditions.
 
-### **What metrics should I monitor for content performance in Spain?**
+### **What metrics should we monitor for content performance in Spain?**
 
 Focus on **time on page**, **bounce rate**, and **social shares** to determine if the content is effectively engaging Spanish-speaking users.

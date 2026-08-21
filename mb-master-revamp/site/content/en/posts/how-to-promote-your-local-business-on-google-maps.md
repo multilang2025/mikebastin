@@ -108,7 +108,7 @@ Paid ads can be an effective way to promote your business on **Google Maps local
 
 ### Monitor Google Maps Insights
 
-[Google My Business provides insights](https://mikebastin.com/alternatives-to-google-analytics/) that can help you track how customers are interacting with your business listing. You can see:
+[Google Our Business provides insights](https://mikebastin.com/alternatives-to-google-analytics/) that can help you track how customers are interacting with your business listing. You can see:
 
 -   How many customers found you on Google Maps.
 -   What search terms were used to find your business.

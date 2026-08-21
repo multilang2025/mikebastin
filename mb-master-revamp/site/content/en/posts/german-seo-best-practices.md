@@ -62,7 +62,7 @@ Optimizing for natural, **conversational keywords** will help your site rank for
 
 **Local SEO** is crucial in the **German market**, especially for businesses with physical locations.
 
-**Germans** often search for businesses “near me” or in specific cities.
+**Germans** often search for businesses “near us” or in specific cities.
 
 Make sure your [Google Business Profile](https://mikebastin.com/optimise-a-google-business-profile/) listing is complete, accurate, and optimised with **local keywords**.
 
@@ -166,7 +166,7 @@ Outreach to local **influencers** and **media** is another effective way to buil
 
 Collaborating with **German influencers**, bloggers, and media outlets can help you reach a broader audience and increase brand visibility.
 
-Additionally, encouraging reviews on [local platforms such as **Google My Business**](https://mikebastin.com/how-to-promote-your-local-business-on-google-maps/) and other local directories will improve your **local SEO performance**.
+Additionally, encouraging reviews on [local platforms such as **Google Our Business**](https://mikebastin.com/how-to-promote-your-local-business-on-google-maps/) and other local directories will improve your **local SEO performance**.
 
 ### Monitoring and Adapting Your SEO Strategy
 

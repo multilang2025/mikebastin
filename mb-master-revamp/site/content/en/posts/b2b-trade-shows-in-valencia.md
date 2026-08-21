@@ -202,7 +202,7 @@ A quarterly cadence with a planned topic works better than sporadic “checking 
 
 ### Need help preparing for Valencia trade fairs?
 
-From multilingual catalogue translation to international SEO that brings buyers to your booth before they arrive, I help Valencia exporters reach the global buyers who matter most. Twenty-five years of translation and SEO experience put to work on your trade fair strategy.
+From multilingual catalogue translation to international SEO that brings buyers to your booth before they arrive, we help Valencia exporters reach the global buyers who matter most. Twenty-five years of translation and SEO experience put to work on your trade fair strategy.
 
 [Get in touch](https://mikebastin.com/contact-us/)
 
@@ -212,4 +212,4 @@ Valencia trade fairs work because they aggregate qualified buyers from regions S
 
 What makes a Valencia trade fair work is preparation: translated materials, a pitch adapted by buyer origin, a follow-up cadence that respects how international buyers actually decide, and a digital presence that supports the in-person conversation.
 
-For more on the export side, see my work on [multilingual SEO](https://mikebastin.com/services/multilingual-seo/) and [website localisation](https://mikebastin.com/services/website-localisation/). For the local Valencia business context, read about [business registration in Valencia](https://mikebastin.com/business-registration-in-valencia/).
+For more on the export side, see our work on [multilingual SEO](https://mikebastin.com/services/multilingual-seo/) and [website localisation](https://mikebastin.com/services/website-localisation/). For the local Valencia business context, read about [business registration in Valencia](https://mikebastin.com/business-registration-in-valencia/).

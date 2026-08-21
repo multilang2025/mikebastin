@@ -22,7 +22,7 @@ One could believe that noise was invented here, patented, celebrated and exporte
 
 Fun fact: the most famous Valencian painting bears the graceful name of Sorolla and the city’s main station shares the same name.
 
-Coincidence? I don’t think so…. Valencia, capital of the eponymous autonomous community, shines thanks to its sun, its cuisine and explosive celebrations but above all for its remarkable talent of transforming everyday life into an urban symphony.
+Coincidence? We don’t think so…. Valencia, capital of the eponymous autonomous community, shines thanks to its sun, its cuisine and explosive celebrations but above all for its remarkable talent of transforming everyday life into an urban symphony.
 
 Mechanical shutters, wild percussions, crying children, jarring scooters: everything adds to this cheerful Mediterranean racket.
 
@@ -286,7 +286,7 @@ They are also a mobile teleconference room.
 
 Engine running, windows down, speaker on… and there you are listening to a conversation with the uncle from Zaragoza and the cousin from Denia talking about some sofa sales.
 
-“I’M TELLING YOU TO TAKE IT TO MY HOUSE, DAMN IT!”
+“we’M TELLING YOU TO TAKE IT TO MY HOUSE, DAMN IT!”
 
 You learn about everything without ever asking about it.
 
@@ -501,9 +501,9 @@ Lines for the theatre? More like open-air group therapy.
 People talk. Loudly. About _everything_.  
 Politics. Paella. Paco’s new girlfriend.  
 The line stretches around the block and so does the conversation.  
-By the time you reach your seat, you’ve already had Act I, Scene II, and a character arc.
+By the time you reach your seat, you’ve already had Act we, Scene II, and a character arc.
 
-Well, this city’s constant racket has made me lose sleep and now my ideas have all dried up. Not to worry, I will soon be back for some more since Valencia’s noise supply is endless.
+Well, this city’s constant racket has made us lose sleep and now our ideas have all dried up. Not to worry, we will soon be back for some more since Valencia’s noise supply is endless.
 
 ## Then, why stay in Valencia?
 

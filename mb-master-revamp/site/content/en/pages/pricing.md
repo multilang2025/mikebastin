@@ -68,11 +68,11 @@ At Mikebastin.com, we prioritise transparency and provide all the information yo
 
 We provide a full range of digital marketing services, including SEO, content marketing, social media management, paid advertising (PPC), web design, and digital strategy consulting. Our services are designed to boost your online visibility and drive measurable results.
 
-##### 2\. How do I know which plan is right for my business?
+##### 2\. How do we know which plan is right for our business?
 
 We offer three main pricing plans: Basic, Professional, and Full, bespoke to different business needs. The Basic Plan is ideal for small businesses just starting with digital marketing, while the Professional and Full Plans offer more thorough [services for businesses](https://mikebastin.com/services/business-translation/) looking to scale. We also offer personalised consultations to help you choose the right plan.
 
-##### 3\. Can I customise my digital marketing plan?
+##### 3\. Can we customise our digital marketing plan?
 
 Yes! We understand that each business has unique needs, so we offer flexible, on-demand services in addition to our set pricing plans. You can combine services or opt for one-time projects like SEO audits or social media campaigns based on your specific goals.
 
@@ -92,7 +92,7 @@ We use a holistic, data-driven approach to SEO, focusing on both on-page and off
 
 We’re flexible. Whether you need a one-off project or a mid to long-term contract, we tailor our services to suit your needs.
 
-##### 8\. How do I get started?
+##### 8\. How do we get started?
 
 Getting started is easy! Contact us for a [free consultation](https://mikebastin.com/contact-us/ "free consultation"), and we’ll discuss your business goals and recommend a customised digital marketing strategy. From there, we’ll set up your plan and get to work on driving growth for your business.
 

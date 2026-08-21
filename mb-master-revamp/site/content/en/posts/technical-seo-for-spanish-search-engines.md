@@ -289,7 +289,7 @@ The biggest challenge is **linguistic adaptation** between Castilian Spanish and
 
 Yes, using a **.es domain** helps [build local credibility and relevance](https://mikebastin.com/building-a-global-brand/) for Spanish users, which can enhance search engine rankings.
 
-##### **How do I optimise my site for regional search engines in Spain?**
+##### **How do we optimise our site for regional search engines in Spain?**
 
 Use **hreflang tags** and create **content matched** to each specific region to ensure your site is targeted effectively for local users.
 
@@ -297,6 +297,6 @@ Use **hreflang tags** and create **content matched** to each specific region to 
 
 Absolutely, **Core Web Vitals** are crucial, regardless of the market. They significantly impact the **user experience** and influence ranking on search engines.
 
-##### **Which tools should I use to monitor technical SEO in Spain?**
+##### **Which tools should we use to monitor technical SEO in Spain?**
 
 Tools like **Google Search Console**, **SISTRIX**, and **Screaming Frog** are essential for conducting audits and monitoring your website’s performance in the Spanish market.

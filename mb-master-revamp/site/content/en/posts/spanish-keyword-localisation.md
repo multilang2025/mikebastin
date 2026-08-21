@@ -131,18 +131,18 @@ Use tools that provide specific **local data** to ensure your approach is both p
 No, cultural, linguistic, and dialect differences make localisation unique for each region.  
 Spain differs significantly from Latin American countries.
 
-**How can I [ensure my keywords resonate with Spanish audiences?](https://mikebastin.com/content-optimisation-for-spanish-users/)**  
+**How can we [ensure our keywords resonate with Spanish audiences?](https://mikebastin.com/content-optimisation-for-spanish-users/)**  
 Research cultural context and user intent, use A/B testing, and seek local expertise for cultural nuances.
 
-**What tools can I use for [keyword research](https://mikebastin.com/services/keyword-research/) in Spanish?**  
+**What tools can we use for [keyword research](https://mikebastin.com/services/keyword-research/) in Spanish?**  
 Google Keyword Planner, Ahrefs, and SEMrush are highly effective for Spanish [keyword research](https://mikebastin.com/multilingual-keyword-research/).
 
-**Can I use machine translation for keyword localisation?**  
+**Can we use machine translation for keyword localisation?**  
 It’s not recommended.  
 Machine translation lacks the cultural nuance needed for effective localisation.  
 Professional translators with SEO expertise are better suited.
 
-**How do I adapt my content for Spain vs. Latin America?**  
+**How do we adapt our content for Spain vs. Latin America?**  
 Focus on the specific regional terms and cultural context.  
 Avoid generalisations and consult local experts to tailor content accordingly.
 

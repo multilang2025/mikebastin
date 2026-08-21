@@ -55,7 +55,7 @@ Build a prioritised roadmap that connects search demand to content, conversion, 
 
 ## Our Keyword Research Process
 
-My team and I combine professional tools with intent analysis, SERP behaviour review, and semantic clustering to understand how demand is structured.
+Our team and we combine professional tools with intent analysis, SERP behaviour review, and semantic clustering to understand how demand is structured.
 
 We focus on identifying content opportunities that align with user intent, commercial value, and long-term visibility.
 

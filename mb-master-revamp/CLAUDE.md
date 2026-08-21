@@ -56,14 +56,22 @@ needs.
 - No ampersands (`&` or `&amp;`) in site copy — write "and"/"et"/"y". HTML
   attribute/query-string ampersands are exempt.
 - No em dashes or en dashes anywhere. Commas/full stops; ranges use "to".
-- UK English. No sentences starting with "This", "That", or "I". No emojis in
+- **Voice is "we", not "I"** (owner decision, 21 Aug). Matches the four
+  Google reviews that say "Mike and his team". Use our/us/ours, never
+  my/me/mine. Exception: a reviewer's own quote is verbatim and never
+  converted, and Roman numeral "I" in the portfolio numbering is not a
+  pronoun.
+- UK English. No sentences starting with "This" or "That". No emojis in
   body content (emojis allowed on social posts only, max 1 per post).
 - Forbidden vocabulary (non-exhaustive, whole-word match): comprehensive,
   tailored, seamless, leverage, elevate, crafted, maximise, facilitate,
   landscape, utilise, innovative, robust, delve, transformative,
-  implementation, integration, vital, dynamic, ever-evolving, "In
-  conclusion", "It's important to note", moreover, however, thus, hence,
-  additionally.
+  vital, dynamic, ever-evolving, "In conclusion", "It's important to
+  note", moreover, however, thus, hence, additionally.
+- "implementation" and "integration" are **allowed but not to be overused**
+  (owner decision, 21 Aug). They are real technical terms here ("Trusted
+  Shops integration") and one is inside a service name, so they are not a
+  hard fail. The lint warns above a density threshold instead.
 - No bolded links.
 - Design tokens (colour, type) come only from HANDOFF.md §2/§22/§23 (Night
   Swell / Morning Glass palette — aubergine is retired, do not reintroduce

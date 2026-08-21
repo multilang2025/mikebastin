@@ -89,7 +89,7 @@ Our Customers
 
 25 Years of SEO and Link Building Experience
 
-I have been building links professionally since before Domain Authority was a metric people tracked. Over 25 years, I have seen every tactic come and go: directories, article spinning, PBNs, reciprocal exchanges. Most of them stopped working or created penalties.
+We have been building links professionally since before Domain Authority was a metric people tracked. Over 25 years, we have seen every tactic come and go: directories, article spinning, PBNs, reciprocal exchanges. Most of them stopped working or created penalties.
 
 What holds up is simple: earn links from real sites that have real audiences and real editorial standards. We use broken link building, resource page outreach, digital PR, and strategic guest posts on sites with genuine Trust Flow and organic traffic.
 

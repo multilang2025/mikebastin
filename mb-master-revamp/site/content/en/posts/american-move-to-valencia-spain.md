@@ -22,7 +22,7 @@ But the process is not as simple as buying a plane ticket and figuring it out on
 
 In 2026, there are two main residency paths for US citizens: the **Non-Lucrative Visa (NLV)** for retirees and passive income earners, and the **Digital Nomad Visa (DNV)** for remote workers. A third option, the Golden Visa, was abolished in April 2025 and is no longer available for new applicants.
 
-My guide walks you through each option with real 2026 requirements, actual costs, and the bureaucratic traps that catch people out. After ten years of helping Americans land in Valencia, I have seen every mistake there is to make.
+Our guide walks you through each option with real 2026 requirements, actual costs, and the bureaucratic traps that catch people out. After ten years of helping Americans land in Valencia, we have seen every mistake there is to make.
 
 **2026 reality check:** Spain granted 15,638 first-time residency permits to Americans in 2024, the highest number ever recorded. The total number of US nationals living in Spain has grown nearly 25 percent in just two years, reaching over 50,000 residents. Property purchases by Americans were up 57 percent year-on-year in Q1 2025. You are joining a movement, not starting one.
 
@@ -322,7 +322,7 @@ A US notary stamp is not an Apostille of the Hague. A translation by a bilingual
 
 ## Where to live: Valencia vs other Spanish cities
 
-Most Americans arriving in Spain still default to Madrid or Barcelona. After ten years of watching expats land, my honest take is that Valencia gets you a better quality of life at a lower price point, with fewer of the tourist-driven downsides.
+Most Americans arriving in Spain still default to Madrid or Barcelona. After ten years of watching expats land, our honest take is that Valencia gets you a better quality of life at a lower price point, with fewer of the tourist-driven downsides.
 
 #### Monthly cost for a US expat couple, including rent (€)
 
@@ -356,7 +356,7 @@ Granada
 
 €2,300
 
-Your neighbourhood inside Valencia matters as much as the city choice. Ruzafa is trendy but noisy and expensive. Benimaclet is more affordable and local. El Cabanyal puts you near the beach but further from the centre. The full breakdown is in my [guide to the best neighbourhoods in Valencia](https://mikebastin.com/best-neighborhoods-valencia/).
+Your neighbourhood inside Valencia matters as much as the city choice. Ruzafa is trendy but noisy and expensive. Benimaclet is more affordable and local. El Cabanyal puts you near the beach but further from the centre. The full breakdown is in our [guide to the best neighbourhoods in Valencia](https://mikebastin.com/best-neighborhoods-valencia/).
 
 ## The 5-year path to permanent residency and beyond
 
@@ -390,7 +390,7 @@ According to a CNBC survey of over 100,000 people, Spain is the #1 country Ameri
 
 ### Planning your move from the US to Valencia?
 
-I help American expats navigate the visa process, find the right neighbourhood, and avoid the bureaucratic traps that derail so many applications. After ten years on the ground, I know which gestores actually deliver and which paths fit your situation.
+We help American expats navigate the visa process, find the right neighbourhood, and avoid the bureaucratic traps that derail so many applications. After ten years on the ground, we know which gestores actually deliver and which paths fit your situation.
 
 [Get in touch](https://mikebastin.com/contact-us/)
 
@@ -404,11 +404,11 @@ What is the minimum income to qualify for the Digital Nomad Visa in 2026?
 
 €2,849 per month or €34,188 per year for a single applicant. It represents 200 percent of Spain’s 2026 SMI (€1,424.50/month, 12 payments). Add €1,069/month for a spouse and €357/month for each child. Most lawyers recommend showing 5 to 10 percent above the threshold to buffer against currency fluctuations.
 
-What income do I need for the Non-Lucrative Visa in 2026?
+What income do we need for the Non-Lucrative Visa in 2026?
 
 €2,400 per month or €28,800 per year for the main applicant, which is 400 percent of the 2026 IPREM (€600/month). Add €600/month or €7,200/year per dependent. Income can come from pensions, dividends, rental income, or savings, but must be stable and clearly documented.
 
-Can I work on a Digital Nomad Visa for a Spanish company?
+Can we work on a Digital Nomad Visa for a Spanish company?
 
 Up to 20 percent of your income can come from Spanish clients while on the DNV. Beyond that threshold, you would need a standard _Cuenta Ajena_ work visa, which has a much higher bar to clear. Most DNV holders work for foreign employers or freelance for international clients.
 
@@ -424,11 +424,11 @@ How long does it take to get permanent residency in Spain?
 
 Five years of legal, continuous residence in Spain. During that time, you should not be absent for more than 10 months total. Both the NLV and DNV lead to the same permanent residency status after the 5-year mark.
 
-Do I need to speak Spanish to get a visa?
+Do we need to speak Spanish to get a visa?
 
 Not for the initial visa application. But you will need to pass the DELE A2 language test and the CCSE culture test if you eventually apply for citizenship after 10 years. More practically, basic Spanish is essential for daily life: handling admin, healthcare, even getting your internet fixed.
 
-Can my family come with me on the visa?
+Can our family come with us on the visa?
 
 Yes. Both the NLV and the DNV allow family reunification from day one. Your spouse, legal partner, and dependent children can be included on the application. You will need to prove additional financial means for each dependent and provide apostilled marriage and birth certificates.
 
@@ -442,4 +442,4 @@ The path is clearer than it has ever been. The DNV with the Beckham Law tax regi
 
 What catches Americans out is not the law itself. It is the precision Spanish bureaucracy demands and the assumption that what worked in five US states will work for one Spanish consulate. It will not. Plan your documents three months ahead, get your sworn translations from a real Traductor Jurado, and choose a Spanish-registered insurer.
 
-For the practical next steps, see my guides on [how to move to Valencia from the US](https://mikebastin.com/move-to-valencia-spain-from-usa/), [picking the best neighbourhood](https://mikebastin.com/best-neighborhoods-valencia/), [budgeting your Valencia living expenses](https://mikebastin.com/valencia-living-expenses/), and [whether Valencia is the right city for you](https://mikebastin.com/valencia-good-place-to-live/).
+For the practical next steps, see our guides on [how to move to Valencia from the US](https://mikebastin.com/move-to-valencia-spain-from-usa/), [picking the best neighbourhood](https://mikebastin.com/best-neighborhoods-valencia/), [budgeting your Valencia living expenses](https://mikebastin.com/valencia-living-expenses/), and [whether Valencia is the right city for you](https://mikebastin.com/valencia-good-place-to-live/).

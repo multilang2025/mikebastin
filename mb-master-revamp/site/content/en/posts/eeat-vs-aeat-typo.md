@@ -16,9 +16,9 @@ excerpt: "A single typo can turn an SEO audit into a tax audit when you work as 
 
 ## How a Single Letter Almost Cost a Spanish Law Firm Its SEO Strategy
 
-I optimise EEAT for a Spanish law firm.
+We optimise EEAT for a Spanish law firm.
 
-Half my screen shows Google quality guidelines.
+Half our screen shows Google quality guidelines.
 
 The other half shows Spanish legal content filled with fiscal terminology.
 
@@ -230,4 +230,4 @@ And never send an email promising AEAT optimization to a client.
 
 Unless you really mean it.
 
-## If you enjoyed this painfully familiar story, follow my work on [international SEO strategy](https://mikebastin.com/best-practices-for-multilingual-seo/) and multilingual content optimization. More real life SEO survival stories coming soon. You are not alone in the acronym battlefield.
+## If you enjoyed this painfully familiar story, follow our work on [international SEO strategy](https://mikebastin.com/best-practices-for-multilingual-seo/) and multilingual content optimization. More real life SEO survival stories coming soon. You are not alone in the acronym battlefield.

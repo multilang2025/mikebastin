@@ -56,7 +56,7 @@ Start with a strong and engaging statement that quickly conveys your role and ex
 Avoid jargon and generic phrases like “hardworking” or “detail-oriented,” and instead focus on your unique selling points.
 
 Example:  
-“I’m a digital marketing strategist with over 10 years of experience helping businesses boost their online visibility through data-driven SEO and [content](https://mikebastin.com/building-a-global-brand/) marketing strategies.”
+“we’m a digital marketing strategist with over 10 years of experience helping businesses boost their online visibility through data-driven SEO and [content](https://mikebastin.com/building-a-global-brand/) marketing strategies.”
 
 This immediately communicates your specialisation, experience level, and the value you bring.
 
@@ -67,7 +67,7 @@ In your professional summary, it’s important to provide a snapshot of your cor
 If you’ve managed successful marketing campaigns, increased website traffic, or boosted search rankings, mention these results upfront.
 
 Example:  
-“My campaigns have consistently driven a 20% increase in organic traffic within six months, and I specialise in leveraging SEO to turn search engines into conversion machines for clients.”
+“Our campaigns have consistently driven a 20% increase in organic traffic within six months, and we specialise in leveraging SEO to turn search engines into conversion machines for clients.”
 
 This adds credibility and piques the interest of anyone reading your profile.
 
@@ -99,7 +99,7 @@ If you have any gaps in your employment history, address them briefly but positi
 
 Highlight any skill-building activities during that time, such as freelancing, personal projects, or further education.
 
-For example: “During a career break in 2021, I completed certifications in Google Analytics and HubSpot, further enhancing my technical marketing skills.”
+For example: “During a career break in 2021, we completed certifications in Google Analytics and HubSpot, further enhancing our technical marketing skills.”
 
 ## Showcasing Your Education and Certifications
 

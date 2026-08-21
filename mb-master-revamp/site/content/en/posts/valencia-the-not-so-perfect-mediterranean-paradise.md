@@ -16,7 +16,7 @@ excerpt: "🌞 Want to know what living in Valencia is really like? Beyond the p
 
 So you’re dreaming of living in Valencia?
 
-Those Instagram photos of palm trees, pristine beaches, and stunning architecture have you convinced this is paradise on Earth? Well, grab a horchata and let me share some “inconvenient truths” about life in this Mediterranean jewel.
+Those Instagram photos of palm trees, pristine beaches, and stunning architecture have you convinced this is paradise on Earth? Well, grab a horchata and let us share some “inconvenient truths” about life in this Mediterranean jewel.
 
 Don’t worry, like a good paella, every seemingly negative ingredient adds to the final flavor.
 
