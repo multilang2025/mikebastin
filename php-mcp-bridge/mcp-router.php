@@ -802,6 +802,18 @@ function get_tools_schema() {
                 'required' => ['id', 'expected_modified']
             ]
         ],
+        [
+            'name' => 'publish_post',
+            'description' => 'Publish a draft or pending post or page (sets its status to published). Call get_post first and pass back expected_modified.',
+            'inputSchema' => [
+                'type' => 'object',
+                'properties' => [
+                    'id' => ['type' => 'integer'],
+                    'expected_modified' => ['type' => 'string', 'description' => 'The post_modified value returned by get_post.']
+                ],
+                'required' => ['id', 'expected_modified']
+            ]
+        ],
         // AISA bridge tools
         [
             'name' => 'generate_image',
