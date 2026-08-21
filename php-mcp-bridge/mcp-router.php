@@ -2,6 +2,15 @@
 // mcp-router.php
 // Handles the MCP JSON-RPC protocol logic.
 
+// Thrown by wp_fetch() specifically when the site couldn't be reached at
+// all (DNS, timeout, connection refused -- no HTTP response came back).
+// Distinct from the plain Exception wp_fetch() throws for a real HTTP
+// response with a bad status, so callers (see execute_tool()'s core_tools
+// fallback) can fall back to a weaker implementation only when there was
+// truly nothing to talk to, instead of also catching -- and silently
+// masking -- a genuine error from the site's own real implementation.
+class WpConnectionException extends Exception {}
+
 function handle_mcp_request($site, $payload, $bearer = null, $client_id = null) {
     $req = json_decode($payload, true);
     if (!$req) return null; // Or error
@@ -470,12 +479,17 @@ function execute_tool($site, $name, $args, $sites = null, $bearer = null, &$targ
 
     try {
         $res = wp_fetch($call_site, '/aisa/v1/tool', 'POST', ['tool' => $name, 'input' => $args]);
-    } catch (Exception $e) {
-        // A connection-level failure here (not a plugin-returned error --
-        // see below) means this site can't reach /aisa/v1/tool at all.
-        // Only the 4 basic CRUD tools have a generic fallback; every other
-        // tool has none, so its real connection error should surface
-        // instead of being silently swallowed.
+    } catch (WpConnectionException $e) {
+        // Genuinely couldn't reach /aisa/v1/tool at all (DNS, timeout,
+        // refused -- see wp_fetch()). Only the 4 basic CRUD tools have a
+        // generic fallback; every other tool has none, so its real
+        // connection error should surface instead of being silently
+        // swallowed. Deliberately NOT catching the plain Exception wp_fetch()
+        // throws for a real HTTP error response -- that means the site WAS
+        // reached and its own /aisa/v1/tool returned a genuine error (a
+        // plugin bug, an expired app password, a WAF block, ...), which
+        // should surface as-is rather than getting masked by a fallback
+        // attempt through the weaker generic REST path.
         if (in_array($name, $core_tools)) {
             return execute_core_tool($call_site, $name, $args);
         }
@@ -673,7 +687,14 @@ function wp_fetch($site, $path, $method = 'GET', $data = []) {
     if ($result === false) {
         // Connection-level failure (timeout, DNS, refused, etc.) -- no HTTP
         // status to report, so surface curl's own error string instead.
-        throw new Exception('Could not reach WordPress: ' . ($curl_error ?: 'connection failed or timed out'));
+        // WpConnectionException specifically, not a plain Exception: this is
+        // the only case execute_tool()'s core_tools fallback should treat as
+        // "couldn't reach the site at all, try the generic REST path
+        // instead" -- a real HTTP response with a bad status (below) means
+        // the site's own /aisa/v1/tool was reached and returned a genuine
+        // error, which should surface as-is, not get silently masked by a
+        // fallback attempt.
+        throw new WpConnectionException('Could not reach WordPress: ' . ($curl_error ?: 'connection failed or timed out'));
     }
 
     $decoded = json_decode($result, true);
