@@ -759,34 +759,47 @@ function get_tools_schema() {
             ]
         ],
         [
+            // Same drift as update_post above: the real handler always
+            // hardcodes post_status to 'draft' and never reads excerpt or
+            // status at all -- listing them here as if they did something
+            // silently misleads a caller who sets status: 'publish'
+            // expecting it to actually publish.
             'name' => 'create_post',
-            'description' => 'Create a new post or page. Defaults to a draft.',
+            'description' => 'Create a new post or page. Always created as a draft -- publishing is a separate, user-confirmed step.',
             'inputSchema' => [
                 'type' => 'object',
                 'properties' => [
                     'title' => ['type' => 'string'],
-                    'content' => ['type' => 'string'],
-                    'excerpt' => ['type' => 'string'],
-                    'post_type' => ['type' => 'string'],
-                    'status' => ['type' => 'string']
+                    'content' => ['type' => 'string', 'description' => 'HTML or block markup.'],
+                    'post_type' => ['type' => 'string', 'description' => 'post or page (default post).']
                 ],
                 'required' => ['title', 'content']
             ]
         ],
         [
+            // Param names/shape MUST match ai-site-assistant's real
+            // update_post exactly -- same fallback-schema-drift trap as the
+            // other tools here. The real handler only ever reads id/title/
+            // content/expected_modified (never excerpt/post_type/status --
+            // those three used to be listed here but are silently ignored
+            // by the real handler, misleading callers into thinking they
+            // work). Missing expected_modified entirely, and not listing it
+            // as required, meant every call hit the real handler's
+            // staleness guard with an empty expected_modified that can
+            // never match a real post_modified -- "Post changed since you
+            // read it" on every single call, which is exactly what read as
+            // "update_post is broken" to a user with no visibility into why.
             'name' => 'update_post',
-            'description' => 'Update an existing post or page.',
+            'description' => 'Update an existing post or page. Call get_post first and pass back the expected_modified timestamp so stale edits are rejected.',
             'inputSchema' => [
                 'type' => 'object',
                 'properties' => [
                     'id' => ['type' => 'integer'],
                     'title' => ['type' => 'string'],
                     'content' => ['type' => 'string'],
-                    'excerpt' => ['type' => 'string'],
-                    'post_type' => ['type' => 'string'],
-                    'status' => ['type' => 'string']
+                    'expected_modified' => ['type' => 'string', 'description' => 'The post_modified value returned by get_post.']
                 ],
-                'required' => ['id']
+                'required' => ['id', 'expected_modified']
             ]
         ],
         // AISA bridge tools
