@@ -32,7 +32,13 @@ Same model as valenciamove.com, which the owner already runs at larger scale
 - **Localisation:** one content directory per locale (`content/en`,
   `content/fr`, `content/es`). Localised slugs preserved exactly. Translation
   siblings bound by a `group` field in frontmatter matching
-  `redirects/content-map.json`. A fourth locale, `content/nl` (Belgium and
+  `redirects/content-map.json`. **A locale version is an adaptation, not a
+  rendering** (owner decision, 21 Aug): localise the examples, anecdotes and
+  comparisons to the audience reading them, and replace an anecdote that only
+  lands for the source audience rather than translating it. **Full parity is
+  not the target** - ship a locale version when it has something to say to
+  that audience. A missing sibling is not automatically a gap, so `group`
+  records a real absence with an explicit null rather than a to-do. A fourth locale, `content/nl` (Belgium and
   the Netherlands), is planned once these three ship — see
   CONTENT-ARCHITECTURE.md §2. Don't build for it early; the directory
   structure already scales to it without rework.
