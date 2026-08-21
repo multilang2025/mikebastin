@@ -1,5 +1,5 @@
 ---
-words: 568
+words: 572
 editorial: "light"
 title: "10 Common Mistakes to Avoid When Localising Your Website for International Markets"
 slug: "common-mistakes-to-avoid-when-localising-your-website"
@@ -10,7 +10,7 @@ wpId: 37200
 date: "2024-09-17T17:18:52"
 modified: "2026-07-02T14:46:10"
 sourceUrl: "https://mikebastin.com/common-mistakes-to-avoid-when-localising-your-website/"
-excerpt: "Localising your website effectively is essential for global reach. Avoid common pitfalls with tailored content, local SEO, and cultural considerations. Discover 10 mistakes to avoid."
+excerpt: "Localising your website effectively is essential for global reach. Avoid common pitfalls with adapted content, local SEO, and cultural considerations. Discover 10 mistakes to avoid."
 ---
 
 ## Website Localisation Errors That Could Cost You Global Customers
@@ -31,7 +31,7 @@ Assuming content that works in one country will resonate everywhere is a costly 
 
 **Cultural differences** shape tone, colours, imagery, humour, and even buying behaviours.
 
-Overlooking these can result in messaging that feels off—or worse, offensive.
+Overlooking these can result in messaging that feels off, or worse, offensive.
 
 Use [cultural adaptation services](https://mikebastin.com/services/cultural-consulting/) to localise content to each audience’s expectations.
 
@@ -61,7 +61,7 @@ Ensure your **privacy policy**, **terms and conditions**, and **payment processe
 
 ### Not Adapting Payment Methods
 
-**Payment preferences** vary by country—credit cards in the UK, iDEAL in the Netherlands, PayPal in Germany.
+**Payment preferences** vary by country, credit cards in the UK, iDEAL in the Netherlands, PayPal in Germany.
 
 If users can’t pay how they want, they won’t complete their purchase.
 
@@ -85,7 +85,7 @@ Use culturally sensitive **visual content** to support your message and avoid co
 
 ### Neglecting Mobile Localisation
 
-Mobile usage trends differ globally—some markets are mobile-first, others desktop-heavy.
+Mobile usage trends differ globally, some markets are mobile-first, others desktop-heavy.
 
 Ensure **responsive design** and **mobile optimisation** for every region.
 
@@ -109,12 +109,12 @@ Hire brand localisation experts to maintain consistency and impact in every lang
 
 ### Conclusion: Avoid Mistakes with Professional Website Localisation
 
-Website localisation isn’t just a technical task—it’s a strategic investment in your global presence.
+Website localisation isn’t just a technical task, it’s a strategic investment in your global presence.
 
 By avoiding these mistakes, you’ll improve international visibility, strengthen customer trust, and drive better results across borders.
 
 If you’re ready to connect with international audiences through smart **website localisation**, let’s talk.
 
-With 25+ years in **SEO**, **translation**, and [digital marketing](https://mikebastin.com/services/digital-marketing/), I help businesses grow with culturally relevant, search-friendly websites that deliver real results.
+With 25+ years in **SEO**, **translation**, and [digital marketing](https://mikebastin.com/services/digital-marketing/), we help businesses grow with culturally relevant, search-friendly websites that deliver real results.
 
-**Contact me today** and make your website truly global.
+**Contact us today** and make your website truly global.

@@ -40,9 +40,9 @@ Profils recherchés
 
 Niveau de tension
 
-Tech & développement
+Tech and développement
 
-Devs back-end, DevOps, data engineers, product managers (espagnol & anglais)
+Devs back-end, DevOps, data engineers, product managers (espagnol and anglais)
 
 Forte
 
@@ -52,7 +52,7 @@ Transitaires, agents douane, opérateurs maritimes, supply chain
 
 Forte
 
-Tourisme & hôtellerie
+Tourisme and hôtellerie
 
 Saisonniers, gestion hôtelière, tour operators (langues étrangères)
 

@@ -1,5 +1,6 @@
 ---
-words: 2738
+words: 2737
+editorial: "relocating"
 title: "Global Minds: Exploring Top International Schools in Valencia"
 slug: "international-schools-in-valencia"
 locale: "en"
@@ -371,7 +372,7 @@ Between these options, Valencia offers families a genuine range of schooling pat
 
 ## International Education Scene in Spain
 
-Anyone considering a move to Spain, particularly to Valencia, will benefit from understanding the schooling landscape in advance.
+Anyone considering a move to Spain, particularly to Valencia, will benefit from understanding how schooling works in advance.
 
 Here’s an overview of the international schools available and the curricula they offer.
 
@@ -659,7 +660,7 @@ Moving to a new country is unsettling for children.
 
 Valencia’s international schools generally offer solid transition support to ease that process.
 
-This typically includes language support sessions, counselling, and activities that introduce local culture.
+Support typically includes language sessions, counselling, and activities that introduce local culture.
 
 Support Type
 

@@ -68,7 +68,7 @@ Here are some top-notch strategies to get you started:
 
 #### Do Your Cultural Homework
 
-Before you even think about [crafting content](https://mikebastin.com/content-optimisation-for-spanish-users/), dive deep into your target culture.
+Before you even think about [writing content](https://mikebastin.com/content-optimisation-for-spanish-users/), dive deep into your target culture.
 
 What are the local customs, taboos, and values?
 
@@ -128,7 +128,7 @@ Remember, it’s not about playing it safe. It’s about playing it smart.
 
 Embrace the challenge of cultural diversity, and you’ll find it’s not just a responsibility, but an incredible opportunity for creativity and connection.
 
-So, the next time you’re crafting content for a global audience, pause and ask yourself: “Will this resonate in Rio as well as it does in Rome?”
+So, the next time you’re writing content for a global audience, pause and ask yourself: “Will this resonate in Rio as well as it does in Rome?”
 
 Your international audience, and your brand’s global success, will thank you for it.
 

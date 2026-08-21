@@ -10,14 +10,14 @@ wpId: 24847661
 date: "2020-04-20T19:02:34"
 modified: "2026-05-29T07:42:14"
 sourceUrl: "https://mikebastin.com/es/contactanos/"
-excerpt: "Contact UsWe are here to help 5 5 You are contacting Michael Bastin, SEO [&hellip;]"
+excerpt: "Contact UsWe are here to help 5 5 You are contacting Mike Bastin, SEO [&hellip;]"
 ---
 
 # Contact Us
 
 We are here to help
 
-## You are contacting **Michael Bastin**, SEO consultant and founder of **MikeBastin.com**.
+## You are contacting **Mike Bastin**, SEO consultant and founder of **MikeBastin.com**.
 
 I work with businesses that need clear, measurable SEO results.  
 Most requests relate to SEO strategy, competitor analysis, multilingual SEO, and content performance.
@@ -95,7 +95,7 @@ Via the contact form on this page
 LinkedIn  
 You can also reach me via my [professional LinkedIn profile](https://www.linkedin.com/in/michaelbastin/)
 
-Calle Rugat 12 -2   
+Calle Rugat 12 -2   
 46021 Valencia, Spain
 
 hello@mikebastin.com

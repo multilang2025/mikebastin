@@ -1,5 +1,5 @@
 ---
-words: 558
+words: 559
 editorial: "superseded"
 title: "On-Page SEO Services"
 slug: "on-page-seo"
@@ -31,7 +31,7 @@ We fine-tune your content, structure, and user experience to improve relevance a
 
 We apply proven techniques to help search engines better understand your pages.
 
-That means more visibility, more traffic, and more leads.
+The result is more visibility, more traffic, and more leads.
 
 Want to go deeper? Learn how we [optimise multilingual website content](https://mikebastin.com/services/global-seo-solutions/) to reach international audiences.
 
@@ -41,11 +41,11 @@ Harness your website’s capabilities to captivate ideal customers. Here’s wha
 
 Watch your website climb the search results. We focus on consistent improvements that drive quality traffic and boost conversions.
 
-We craft SEO strategies that align with your unique business needs, driving meaningful results and growth.
+We build SEO strategies that align with your unique business needs, driving meaningful results and growth.
 
 Receive ongoing SEO support and timely updates. Our expert guidance ensures your website evolves with changing algorithms and user expectations.
 
-**On-Page SEO Services Tailored to Your Needs**
+**On-Page SEO Services Adapted to Your Needs**
 
 We provide a thorough set of services that focus on improving your website’s search visibility, ensuring it meets the latest SEO standards.
 
@@ -64,7 +64,7 @@ Optimise your website for mobile users to enhance experience and ranking.
 Transparency and results-driven strategies are at the heart of our approach.  
 Here’s how we work:
 
-We discuss your website’s needs and goals to understand how best to tailor our services.
+We discuss your website’s needs and goals to understand how best to adapt our services.
 
 We study your competition and market space to identify opportunities for growth.
 
@@ -96,7 +96,7 @@ Our Customers
 
 **Why Trust Our On-Page SEO Expertise?**
 
-With 25 years of experience in digital marketing and SEO, we understand how to craft winning strategies that work.
+With 25 years of experience in digital marketing and SEO, we understand how to build winning strategies that work.
 
 Our in-depth market knowledge, coupled with an extensive track record of improving clients’ website rankings, ensures that your site is always ahead of the competition.
 

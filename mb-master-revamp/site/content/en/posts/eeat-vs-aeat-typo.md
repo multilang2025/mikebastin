@@ -1,5 +1,5 @@
 ---
-words: 674
+words: 675
 title: "EEAT vs AEAT. The Typo That Turns an SEO Audit Into a Tax Audit"
 slug: "eeat-vs-aeat-typo"
 locale: "en"
@@ -16,9 +16,9 @@ excerpt: "A single typo can turn an SEO audit into a tax audit when you work as 
 
 ## How a Single Letter Almost Cost a Spanish Law Firm Its SEO Strategy
 
-I optimise EEAT for a Spanish law firm.
+We optimise EEAT for a Spanish law firm.
 
-Half my screen shows Google quality guidelines.
+Half our screen shows Google quality guidelines.
 
 The other half shows Spanish legal content filled with fiscal terminology.
 
@@ -50,7 +50,7 @@ So you optimise author bios. You refine content tone. You add references. You bu
 
 You whisper gentle prayers to the Google quality raters.
 
-This is the daily ritual of a serious SEO.
+Such is the daily ritual of a serious SEO.
 
 Quiet. Focused. Slightly paranoid.
 
@@ -130,7 +130,7 @@ Coffee lowers the resistance.
 
 And suddenly your SEO document reads like a fiscal compliance report.
 
-This is where our meme gallery begins.
+Which is where our meme gallery begins.
 
 * * *
 
@@ -178,7 +178,7 @@ This is where our meme gallery begins.
 
 ## The professional moral
 
-This is satire.
+The above is satire.
 
 But also reality.
 
@@ -230,4 +230,4 @@ And never send an email promising AEAT optimization to a client.
 
 Unless you really mean it.
 
-## If you enjoyed this painfully familiar story, follow my work on [international SEO strategy](https://mikebastin.com/best-practices-for-multilingual-seo/) and multilingual content optimization. More real life SEO survival stories coming soon. You are not alone in the acronym battlefield.
+## If you enjoyed this painfully familiar story, follow our work on [international SEO strategy](https://mikebastin.com/best-practices-for-multilingual-seo/) and multilingual content optimization. More real life SEO survival stories coming soon. You are not alone in the acronym battlefield.

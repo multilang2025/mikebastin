@@ -1,5 +1,5 @@
 ---
-words: 1759
+words: 1758
 title: "What is Search Intent Mapping?"
 slug: "what-is-search-intent-mapping"
 locale: "en"
@@ -9,7 +9,7 @@ wpId: 24844948
 date: "2024-10-03T14:44:25"
 modified: "2026-07-02T15:22:33"
 sourceUrl: "https://mikebastin.com/what-is-search-intent-mapping/"
-excerpt: "Master search intent mapping in SEO to align content with user goals. Enhance user experience, boost rankings, and drive conversions seamlessly."
+excerpt: "Master search intent mapping in SEO to align content with user goals. Enhance user experience, boost rankings, and drive conversions."
 ---
 
 ## Search intent mapping: aligning content with what users actually want
@@ -214,7 +214,7 @@ According to Similarweb’s July 2025 report, zero-click searches on Google grew
 
 When AI Overviews appear, organic click-through rates drop by approximately 40% compared to traditional results.
 
-Brands cited within AI Overviews, however, see a 35% increase in organic CTR and a 91% increase in paid CTR.
+Brands cited within AI Overviews, see a 35% increase in organic CTR and a 91% increase in paid CTR.
 
 Content structured around clear intent, supported by authoritative data and formatted for extraction, is what earns those citations.
 

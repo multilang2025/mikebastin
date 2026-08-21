@@ -286,7 +286,7 @@ It’s all about making customers feel understood and valued, which, surprise su
 
 Picture this: with the power of language data, businesses can tweak their messaging to speak to each customer group in their own special way.
 
-It’s like crafting a love letter that hits straight to the heart. Such custom experiences lead to higher customer engagement levels, all about keeping the conversation alive.
+It’s like building a love letter that hits straight to the heart. Such custom experiences lead to higher customer engagement levels, all about keeping the conversation alive.
 
 Stories from well-regarded places like [Penn LPS Online](https://lpsonline.sas.upenn.edu/features/5-key-reasons-why-data-analytics-important-business) show that businesses really stepping up their analytics game can grab that competitive edge, finding new markets and fine-tuning what they offer.
 

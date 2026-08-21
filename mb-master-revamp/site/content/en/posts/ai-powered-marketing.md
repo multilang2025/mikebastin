@@ -1,5 +1,5 @@
 ---
-words: 895
+words: 894
 title: "AI-Powered Marketing"
 slug: "ai-powered-marketing"
 locale: "en"
@@ -18,7 +18,7 @@ Artificial intelligence (AI) is reshaping the digital marketing scene, offering 
 
 AI revolutionises marketing by streamlining operations, extracting insights from data, and delivering custom-built customer interactions.
 
-My piece examines the real impact of artificial intelligence on marketing, focusing on AI-generated content, data-driven forecasting, and intelligent conversational agents as key drivers of strategic innovation and business achievements.
+Our piece examines the real impact of artificial intelligence on marketing, focusing on AI-generated content, data-driven forecasting, and intelligent conversational agents as key drivers of strategic innovation and business achievements.
 
 ### AI-Driven Content Creation
 
@@ -66,7 +66,7 @@ In today’s fast-paced digital world, customer service is a critical component 
 
 AI-powered chatbots are transforming the way businesses interact with customers by providing instant, personalised support around the clock.
 
-Chatbots can handle multiple inquiries simultaneously, offering quick responses to common questions and seamlessly guiding customers through their buying journey.
+Chatbots can handle multiple inquiries simultaneously, offering quick responses to common questions and guiding customers through their buying journey.
 
 AI transforms marketing through automated workflows, data-driven insights, and personalised customer experiences.
 

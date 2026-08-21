@@ -148,7 +148,7 @@ Local presence per Spanish or LatAm city (GBP, citations)
 
 ## Why this team for Spanish SEO
 
-**Michael Bastin:** 25 years in SEO and translation. Spanish: Valencia resident since 2016, prior 16 years across the Dominican Republic (Sosúa, Cabarete, Santiago), 6 months in San José (Costa Rica), several months in Zamora (Michoacán, Mexico). Daily Spanish writing, reading, business meetings.
+**Mike Bastin:** 25 years in SEO and translation. Spanish: Valencia resident since 2016, prior 16 years across the Dominican Republic (Sosúa, Cabarete, Santiago), 6 months in San José (Costa Rica), several months in Zamora (Michoacán, Mexico). Daily Spanish writing, reading, business meetings.
 
 Direct fluent execution on ES-ES (Castilian context, Valencia base). For LatAm variants, native copywriters in Santo Domingo handle the regional production with full understanding of vocabulary differences across Mexico, Colombia, Argentina, the Caribbean.
 

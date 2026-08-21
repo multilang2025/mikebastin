@@ -184,7 +184,7 @@ Si vous envisagez de **créer une société commerciale en Espagne** ou de trans
 
 [Notre guide sur l’entrepreneuriat international à Valencia](https://mikebastin.com/fr/entrepreneuriat-international-a-valencia/) détaille les étapes clés pour lancer votre activité dans la région valencienne.
 
-Pour un accompagnement personnalisé dans vos démarches d’installation, le cabinet **Delaguía & Luzón**, partenaire des Chambres de commerce française et belge, est l’un des cabinets juridiques franco-espagnols de référence à Valencia.
+Pour un accompagnement personnalisé dans vos démarches d’installation, le cabinet **Delaguía and Luzón**, partenaire des Chambres de commerce française et belge, est l’un des cabinets juridiques franco-espagnols de référence à Valencia.
 
 [Consultez notre sélection des meilleurs avocats à Valencia pour expatriés](https://mikebastin.com/fr/avocats-a-valencia/) pour choisir l’interlocuteur adapté à votre situation.
 

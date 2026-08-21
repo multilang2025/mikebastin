@@ -1,5 +1,5 @@
 ---
-words: 3520
+words: 3514
 title: "Vivre en appartement à Valencia : vue d'ensemble pragmatique"
 slug: "vivre-en-appartement-a-valencia"
 locale: "fr"
@@ -355,27 +355,27 @@ Au-delà du loyer, plusieurs postes de dépenses viennent s’ajouter à votre b
 
 Charges de copropriété (_comunidad_)
 
-30 € – 100 €
+30 €, 100 €
 
 Électricité (Iberdrola, Endesa ou autres fournisseurs)
 
-50 € – 90 €
+50 €, 90 €
 
 Eau
 
-20 € – 35 €
+20 €, 35 €
 
 Gaz (si applicable)
 
-15 € – 40 €
+15 €, 40 €
 
 Internet fibre + téléphonie mobile
 
-30 € – 50 €
+30 €, 50 €
 
 Assurance habitation (_seguro del hogar_)
 
-15 € – 30 €
+15 €, 30 €
 
 En additionnant le tout, comptez entre **160 et 345 €** de charges mensuelles en sus du loyer. Le coût de la vie à Valencia reste globalement inférieur à celui de Madrid, Barcelone ou de la plupart des grandes villes francophones, ce qui constitue l’un des principaux attraits de la ville pour les expatriés.
 
@@ -484,7 +484,7 @@ La fianza obligatoire en Espagne est d’un mois de loyer pour le logement princ
 
 Y a-t-il un encadrement des loyers à Valencia ?
 
-La loi logement de 2023 (Ley 12/2023) permet aux communes de déclarer des « zones tendues » avec encadrement des loyers. Valencia ville a été déclarée zone tendue, ce qui plafonne les hausses entre deux baux dans certains immeubles selon des critères précis. Le dispositif évolue. Vérifiez la situation actuelle auprès de la Generalitat Valenciana avant de signer.
+La loi logement de 2023 (Ley 12/2023) permet aux communes de déclarer des « zones tendues » avec encadrement des loyers. Valencia ville a été déclarée zone tendue, ce qui plafonne les hausses entre deux baux dans certains immeubles selon des critères précis. Le dispositif évolue. Vérifiez la situation actuelle auprès de la Generalitat Valenciana avant de signer.
 
 Faut-il un avocat pour signer un bail ?
 

@@ -1,5 +1,6 @@
 ---
 words: 2432
+editorial: "relocating"
 title: "Coût de la vie à Valencia en 2026 : le budget réel d'un francophone installé sur place"
 slug: "cout-de-la-vie-valencia"
 locale: "fr"
@@ -44,27 +45,27 @@ Hors centre (€)
 
 **Studio**
 
-900 – 1 100
+900 to 1 100
 
-650 – 850
+650 to 850
 
 **T2 (1 chambre)**
 
-1 100 – 1 600
+1 100 to 1 600
 
-850 – 1 100
+850 to 1 100
 
 **T3 (2 chambres)**
 
-1 500 – 2 100
+1 500 to 2 100
 
-1 200 – 1 500
+1 200 to 1 500
 
 **T4 (3 chambres)**
 
-1 900 – 2 800
+1 900 to 2 800
 
-1 400 – 1 900
+1 400 to 1 900
 
 #### Loyer moyen au m² dans les grandes villes européennes en 2026
 
@@ -242,13 +243,13 @@ Trajets de 30 min illimités
 
 **Course taxi en centre-ville**
 
-8 – 12 par trajet
+8 to 12 par trajet
 
 Cabify et Bolt souvent moins chers
 
 **Voiture (essence, petit modèle)**
 
-250 – 400
+250 to 400
 
 Assurance, essence, parking, ITV, dépréciation
 
@@ -264,27 +265,27 @@ Coût mensuel (€)
 
 **Électricité (T2 sans pompe à chaleur)**
 
-50 – 80
+50 to 80
 
 **Eau**
 
-15 – 30
+15 to 30
 
 **Gaz (si applicable)**
 
-15 – 35
+15 to 35
 
 **Internet (fibre 300 Mbps)**
 
-25 – 35
+25 to 35
 
 **Mobile (data illimitée + appels)**
 
-10 – 18
+10 to 18
 
 **Mutuelle santé privée**
 
-50 – 90
+50 to 90
 
 L’assurance santé privée en Espagne tournait autour de 58 euros par mois et par personne en 2025, avec des plans compatibles visa (sans franchise) à 50-80 euros par mois pour les moins de 40 ans, et 150-350 euros pour les plus de 60 ans.[Mike Bastin : Coût de la vie à Valencia 2026](https://mikebastin.com/valencia-cost-of-living/)
 

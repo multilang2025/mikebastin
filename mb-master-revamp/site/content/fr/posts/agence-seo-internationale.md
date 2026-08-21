@@ -34,7 +34,7 @@ Cela inclut des décisions techniques (architecture de site, hreflang, structure
 
 Concrètement, un **consultant SEO international freelance** gère des dimensions que les agences généralistes ignorent souvent :
 
--   La différence entre « traduction » et « localisation » : un contenu traduit mot à mot peut se positionner zéro en Belgique si le vocabulaire de recherche y est différent.
+-   La différence entre « traduction » et « localisation » : un contenu traduit mot à mot peut se positionner zéro en Belgique si le vocabulaire de recherche y est différent.
 -   La gestion des balises hreflang sur des sites multi-domaines ou multilingues : une erreur ici et Google indexe la mauvaise version.
 -   Les signaux de confiance locaux (backlinks, citations, profil Google Business) qui diffèrent radicalement selon le pays ciblé.
 -   Les comportements d’achat et d’intention de recherche : ce qui convertit en France ne convertit pas forcément aux Pays-Bas ni en Espagne.
@@ -47,7 +47,7 @@ J’ai repris plusieurs projets après des agences de référencement internatio
 
 L’erreur récurrente : produire du contenu en masse dans plusieurs langues, sans adapter ni la structure sémantique, ni les intentions de recherche, ni l’architecture du site.
 
-> Selon [les statistiques SEO 2026 compilées par Emmanuelle Wiesemes](https://emmanuelle-wiesemes.com/statistiques-seo/), environ 70 % des recherches sont constituées de mots-clés longue traîne. Une requête comme « chaussures » reste vague, alors qu’une formulation du type « chaussures de randonnée imperméables femme » traduit un besoin précis. Ce même principe s’applique de manière amplifiée en SEO international, où les intentions varient d’une langue à l’autre.
+> Selon [les statistiques SEO 2026 compilées par Emmanuelle Wiesemes](https://emmanuelle-wiesemes.com/statistiques-seo/), environ 70 % des recherches sont constituées de mots-clés longue traîne. Une requête comme « chaussures » reste vague, alors qu’une formulation du type « chaussures de randonnée imperméables femme » traduit un besoin précis. Ce même principe s’applique de manière amplifiée en SEO international, où les intentions varient d’une langue à l’autre.
 
 Un exemple concret : un client dans l’immobilier caribéen avait un site en quatre langues (anglais, français, espagnol, allemand) qui avait perdu toutes ses positions après une refonte mal gérée.
 
@@ -63,7 +63,7 @@ Je travaille en **français, anglais, espagnol et néerlandais**, quatre langues
 
 Ce n’est pas un détail : je lis les SERPs dans la langue cible, je comprends les nuances éditoriales locales, et je travaille directement avec des équipes ou des traducteurs sans passer par un intermédiaire.
 
-> Selon [CD Services (octobre 2025)](https://www.cdservices-digital.com/post/seo-multilingue-les-bonnes-pratiques-pour-un-site-international), copier-coller une stratégie de mots-clés d’une langue à l’autre est le meilleur moyen d’être invisible. Un Romand cherche un « Natel », un Français un « portable », un Belge un « GSM ». Sans recherche de mots-clés refaite de zéro pour chaque marché, votre stratégie repose sur du vide.
+> Selon [CD Services (octobre 2025)](https://www.cdservices-digital.com/post/seo-multilingue-les-bonnes-pratiques-pour-un-site-international), copier-coller une stratégie de mots-clés d’une langue à l’autre est le meilleur moyen d’être invisible. Un Romand cherche un « Natel », un Français un « portable », un Belge un « GSM ». Sans recherche de mots-clés refaite de zéro pour chaque marché, votre stratégie repose sur du vide.
 
 Les marchés que j’adresse régulièrement :
 
@@ -81,7 +81,7 @@ Quelques exemples représentatifs de mon travail actuel :
 
 -   **Agence de traduction** (BeTranslated, 6 domaines européens) : stratégie SEO multilingue coordonnée sur les marchés belge, français, espagnol, britannique, néerlandais et américain.
 -   **Fret international** (TX International Freight, Houston) : positionnement sur des requêtes B2B industrielles en anglais américain avec ciblage local Texas.
--   **Cabinet d’avocats** (Valence, Espagne) : SEO local et juridique en espagnol, avec ciblage sur des requêtes à fort CPC comme « abogado laboralista Valencia ».
+-   **Cabinet d’avocats** (Valence, Espagne) : SEO local et juridique en espagnol, avec ciblage sur des requêtes à fort CPC comme « abogado laboralista Valencia ».
 -   **Immobilier caribéen** (République dominicaine) : stratégie multilingue EN/FR/ES pour des acheteurs internationaux de propriétés.
 
 > Selon [SEMrush, cité par Referencement-seo.com](https://www.referencement-seo.com/seo-international-google-version/), les entreprises qui consolident l’autorité sur un domaine principal voient une montée plus rapide des positions locales. Le taux de conversion moyen du SEO est d’environ 14,6 % supérieur à celui de la prospection directe, selon [Siècle Digital, cité par E. Wiesemes](https://emmanuelle-wiesemes.com/statistiques-seo/).
@@ -98,7 +98,7 @@ J’identifie ensuite les opportunités par ordre de priorité : les pages proch
 
 > Google traite 8,5 milliards de recherches par jour dans le monde, soit environ 98 000 par seconde. Avec entre 500 et 600 mises à jour d’algorithme par an et 15 % de requêtes inédites chaque jour, la veille continue et l’adaptation sont devenues indispensables pour maintenir ses positions ([Incremys, statistiques SEO 2026](https://www.incremys.com/en/resources/blog/seo-statistics)).
 
-La production de contenu, la mise en place technique et le suivi des performances sont intégrés dans la même prestation : pas de découpage artificiel entre « audit », « rédaction » et « technique ».
+La production de contenu, la mise en place technique et le suivi des performances sont intégrés dans la même prestation : pas de découpage artificiel entre « audit », « rédaction » et « technique ».
 
 Les outils que j’utilise au quotidien (Ahrefs, Google Search Console, Screaming Frog, RankMath) me permettent de prendre des décisions basées sur les données, pas sur des intuitions.
 

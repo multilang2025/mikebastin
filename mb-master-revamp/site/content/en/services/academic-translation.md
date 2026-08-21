@@ -1,5 +1,5 @@
 ---
-words: 489
+words: 488
 editorial: "superseded"
 title: "Academic Translations Services"
 slug: "academic-translation"
@@ -33,9 +33,9 @@ Our translators possess advanced degrees in various fields, ensuring accurate tr
 
 We maintain the rigour of your research, preserving methodological nuances and theoretical frameworks in translation.
 
-Our translations adhere to international academic conventions, facilitating smooth integration into global scholarly discourse.
+Our translations adhere to international academic conventions, enabling smooth integration into global scholarly discourse.
 
-**Comprehensive Academic Translation Services**
+**Academic Translation Services**
 
 From diplomas to research papers, we offer a wide range of academic translation services bespoke to meet the specific needs of students, researchers, and educational institutions.
 

@@ -1,5 +1,5 @@
 ---
-words: 904
+words: 912
 title: "Local Link Building in Spain"
 slug: "link-building-in-spain"
 locale: "en"
@@ -18,9 +18,9 @@ Most agencies treat Spain like any other Western European market.
 
 It rarely is.
 
-I have run SEO from Valencia for over a decade, including campaigns for a Madrid law firm, a Dominican real estate group selling holiday homes to Spanish retirees, and [my own translation agency](https://mikebastin.com/about-us/) across .es, .fr, .be, .nl and .com properties.
+We have run SEO from Valencia for over a decade, including campaigns for a Madrid law firm, a Dominican real estate group selling holiday homes to Spanish retirees, and [our own translation agency](https://mikebastin.com/about-us/) across .es, .fr, .be, .nl and .com properties.
 
-What I see month after month: cold pitches in English to Spanish editors get zero traction.
+What we see month after month: cold pitches in English to Spanish editors get zero traction.
 
 Generic guest post templates land in spam folders.
 
@@ -46,13 +46,13 @@ A backlink from a regional publisher in Valencia or Bilbao is not the same asset
 
 Local relevance still beats raw DR for queries like _abogado herencia Valencia_ or _agencia inmobiliaria Costa Blanca_.
 
-### The four tactics I keep going back to
+### The four tactics we keep going back to
 
-Most of what works for me on Spanish properties falls into four buckets.
+Most of what works for us on Spanish properties falls into four buckets.
 
 **Spanish digital PR.** Pitch in Spanish, in the journalist’s tone, with a story that fits their beat. Marketing4eCommerce, El Referente, Vozpópuli, El Español, Cinco Días for fintech, regional press for hyperlocal angles. Lead time is long. Reply rates above 5% are rare. The placements you do earn are excellent.
 
-**Niche edits in sectoral publishers.** Spanish industry blogs covering legal, real estate, logistics, translation and e-commerce will accept contextual link insertions when the proposal genuinely helps their readers. I work mostly with editors I have known for years. New relationships start with a useful comment on existing content, not a pitch.
+**Niche edits in sectoral publishers.** Spanish industry blogs covering legal, real estate, logistics, translation and e-commerce will accept contextual link insertions when the proposal genuinely helps their readers. We work mostly with editors we have known for years. New relationships start with a useful comment on existing content, not a pitch.
 
 **Cámara de Comercio and association listings.** Slow, evergreen, unglamorous. Each provincial Cámara runs its own member directory. Sectoral associations (AECOC for retail, AERR for real estate, ANETI for the language industry) still pass equity. Most agencies skip these because they take admin work, not outreach skill.
 
@@ -70,7 +70,7 @@ Spanish digital PR
 
 High
 
-70–90
+70 to 90
 
 Editorial mentions, brand authority
 
@@ -78,7 +78,7 @@ Niche edits in sectoral blogs
 
 Medium
 
-40–65
+40 to 65
 
 Topical relevance, anchor control
 
@@ -86,7 +86,7 @@ Cámara + association listings
 
 Low to medium
 
-50–70
+50 to 70
 
 Local trust signals, evergreen
 
@@ -94,17 +94,17 @@ Sponsorships and events
 
 Medium
 
-50–80
+50 to 80
 
 Mixed press plus brand exposure
 
-### A pattern I keep watching agencies repeat
+### A pattern we keep watching agencies repeat
 
-Three mistakes show up almost every time I audit a Spanish off-page programme.
+Three mistakes show up almost every time we audit a Spanish off-page programme.
 
 **Buying generic .es links from low-tier marketplace inventory.** Publisuites and Prensalink have legitimate publishers in their catalogues, but the cheap end (under €40) is mostly low-traffic blogs with thin editorial control. Google has had years to learn the footprint.
 
-**Pitching in English to Spanish editors.** I ran the test once with a US client who insisted. We sent 80 personalised English pitches across two months. Reply rate: 1.25%. We re-ran the same list in Spanish through a junior linguist on my team. Reply rate: 11%. Same publishers, same angle, same week of the year.
+**Pitching in English to Spanish editors.** we ran the test once with a US client who insisted. We sent 80 personalised English pitches across two months. Reply rate: 1.25%. We re-ran the same list in Spanish through a junior linguist on our team. Reply rate: 11%. Same publishers, same angle, same week of the year.
 
 **Over-optimised exact-match anchors.** Spanish editors strip them. An anchor like _abogado matrimonialista Madrid_ tends to be rewritten as _este despacho_ or the brand name. Plan for that, not against it.
 
@@ -130,8 +130,8 @@ The two halves only work together.
 
 ### If you want a second opinion on your Spanish link plan
 
-If you are weighing a Spanish link building plan against generic outreach packages, I am happy to look at the gap with you.
+If you are weighing a Spanish link building plan against generic outreach packages, we are happy to look at the gap with you.
 
-I work from Valencia, in Spanish, French and English, and I do not sell volume packages.
+We work from Valencia, in Spanish, French and English, and we do not sell volume packages.
 
-[Get in touch here](https://mikebastin.com/contact-us/) or read more about [how I run link building campaigns](https://mikebastin.com/services/link-building/).
+[Get in touch here](https://mikebastin.com/contact-us/) or read more about [how we run link building campaigns](https://mikebastin.com/services/link-building/).

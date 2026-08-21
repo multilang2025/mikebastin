@@ -1,6 +1,7 @@
 ---
 words: 2388
-title: "Basic Spanish for Valencia: Essential Phrases & Why Locals Love It When You Try"
+editorial: "relocating"
+title: "Basic Spanish for Valencia: Essential Phrases and Why Locals Love It When You Try"
 slug: "basic-spanish-valencia"
 locale: "en"
 type: "posts"
@@ -53,11 +54,11 @@ In Valencia, it is customary to greet everyone when entering a small shop or a l
 Valencia is famous for its markets, particularly the _Mercado Central_. Shopping here is an interactive experience where you need to ask for what you want.
 
 -   **¿Cuánto cuesta?** (KWAN-to KWES-ta): How much does it cost?
--   **Quería…** (ke-REE-a): I would like… (Polite way to order)
+-   **Quería…** (ke-REE-a): we would like… (Polite way to order)
 -   **¿Tiene…?** (TYEH-ne): Do you have…?
 -   **Es muy caro** (es mwee KA-ro): It’s very expensive
--   **¿Puedo pagar con tarjeta?** (PWE-do pa-GAR kon tar-KHE-ta): Can I pay by card?
--   **Solo estoy mirando** (SO-lo es-TOY mi-RAN-do): I’m just looking
+-   **¿Puedo pagar con tarjeta?** (PWE-do pa-GAR kon tar-KHE-ta): Can we pay by card?
+-   **Solo estoy mirando** (SO-lo es-TOY mi-RAN-do): we’m just looking
 
 ### 3\. Dining Out: Restaurants and Cafés
 
@@ -66,7 +67,7 @@ Eating is a social ritual in Valencia. Knowing how to handle a menu and the bill
 -   **Una mesa para dos, por favor** (OO-na ME-sa PA-ra dos): A table for two, please
 -   **La cuenta, por favor** (la KWEN-ta por fa-VOR): The bill, please
 -   **¿Qué recomienda?** (ke re-ko-MYEN-da): What do you recommend?
--   **Soy alérgico/a a…** (soy a-LER-khi-ko/ka a): I am allergic to…
+-   **Soy alérgico/a a…** (soy a-LER-khi-ko/ka a): we are allergic to…
 -   **Sin carne/pescado** (sin KAR-ne / pes-KA-do): Without meat/fish
 -   **¡Buen provecho!** (bwen pro-VE-cho): Enjoy your meal!
 
@@ -74,18 +75,18 @@ Eating is a social ritual in Valencia. Knowing how to handle a menu and the bill
 
 Whether you are visiting the doctor or the town hall, these phrases will help you manage your schedule.
 
--   **Tengo una cita** (TEN-go OO-na THEE-ta): I have an appointment
--   **Quisiera pedir una cita** (ki-SYE-ra pe-DEER OO-na THEE-ta): I would like to make an appointment
+-   **Tengo una cita** (TEN-go OO-na THEE-ta): we have an appointment
+-   **Quisiera pedir una cita** (ki-SYE-ra pe-DEER OO-na THEE-ta): we would like to make an appointment
 -   **¿A qué hora?** (a ke O-ra): At what time?
--   **No entiendo** (no en-TYEN-do): I don’t understand
+-   **No entiendo** (no en-TYEN-do): we don’t understand
 -   **¿Puede repetir, por favor?** (PWE-de re-pe-TEER): Can you repeat, please?
 
 ### 5\. Banking and Housing
 
 When you are [choosing the best neighbourhoods for professionals in Valencia](https://mikebastin.com/neighbourhoods-for-professionals-in-valencia/), you will need to talk about flats and finances.
 
--   **Quiero abrir una cuenta** (KYE-ro ab-REER OO-na KWEN-ta): I want to open an account
--   **Busco un piso para alquilar** (BOOS-ko oon PEE-so PA-ra al-ki-LAR): I’m looking for a flat to rent
+-   **Quiero abrir una cuenta** (KYE-ro ab-REER OO-na KWEN-ta): we want to open an account
+-   **Busco un piso para alquilar** (BOOS-ko oon PEE-so PA-ra al-ki-LAR): we’m looking for a flat to rent
 -   **¿Cuánto es el alquiler?** (KWAN-to es el al-ki-LER): How much is the rent?
 -   **¿Están incluidos los gastos?** (es-TAN in-klwee-dos los GAS-tos): Are bills included?
 
@@ -143,7 +144,7 @@ Speaking Spanish in Valencia involves more than vocabulary. It means picking up 
 
 ### 1\. Spanish Directness
 
-English speakers often find Spanish very direct. In the UK, we use layers of politeness: “I was wondering if I could possibly have a coffee, please?” In Valencia, this sounds overly complicated and confusing. A simple “Un café, por favor” is perfectly polite. Don’t mistake brevity for rudeness; it’s simply efficiency.
+English speakers often find Spanish very direct. In the UK, we use layers of politeness: “we were wondering if we could possibly have a coffee, please?” In Valencia, this sounds overly complicated and confusing. A simple “Un café, por favor” is perfectly polite. Don’t mistake brevity for rudeness; it’s simply efficiency.
 
 ### 2\. Personal Space and Gestures
 
@@ -170,7 +171,7 @@ _Pro Tip: Many relocation services now offer “Settling-in Packages” that inc
 
 ## How Long to Basic Fluency? Realistic Timelines
 
-One of the most common questions is: “How long until I can speak Spanish that locals actually understand?” Everyone learns at a different pace, but here is a rough guide for English speakers:
+One of the most common questions is: “How long until we can speak Spanish that locals actually understand?” Everyone learns at a different pace, but here is a rough guide for English speakers:
 
 -   **1 to 4 Weeks (The Survival Stage):** You can order food, greet people, and handle very basic transactions. You will still rely heavily on gestures and Google Translate.
 -   **3 Months (The Functional Stage):** With consistent study (3-5 hours a week), you can have simple conversations about your life, work, and hobbies. You can handle most administrative tasks with a bit of patience.
@@ -192,7 +193,7 @@ Some words look like English words but mean something entirely different.
 
 ### 2\. Overusing “Yo”
 
-In English, we always use the pronoun (I am, you are). In Spanish, the verb ending tells you who is doing the action. Saying “Yo quiero” instead of just “Quiero” makes you sound a bit like a robot. Drop the “Yo” once you feel comfortable!
+In English, we always use the pronoun (we are, you are). In Spanish, the verb ending tells you who is doing the action. Saying “Yo quiero” instead of just “Quiero” makes you sound a bit like a robot. Drop the “Yo” once you feel comfortable!
 
 ### 3\. Mixing up Ser and Estar
 
@@ -214,7 +215,7 @@ Remember, the goal isn’t to speak like a native overnight. The goal is to conn
 
 Technically yes, especially in the city centre or expat enclaves, but your life will be much harder. Admin, healthcare, and building real friendships with locals all get tougher. Learning even a little Spanish will make a real difference to your quality of life.
 
-### Do I need to learn Valenciano to live there?
+### Do we need to learn Valenciano to live there?
 
 No, you do not need to be fluent in Valenciano. Everyone speaks Castellano (Spanish), and learning a few greetings and reading signs in Valenciano is appreciated by locals and helps you find your way around.
 
@@ -226,6 +227,6 @@ The best way is to use apps like Meetup.com or search for “Intercambio de idio
 
 Generally, yes! Valencians are very proud of their city and usually delighted when foreigners try to speak their language. They are much more likely to help you find the right word than to be annoyed by your mistakes.
 
-### Should I take classes before I move or wait until I arrive?
+### Should we take classes before we move or wait until we arrive?
 
 Doing some basic preparation (like using an app or taking online lessons) before you arrive is highly recommended. It reduces the initial stress of arrival. Once you are on the ground, joining a local school or hiring a tutor will help you apply what you’ve learned in real-world contexts.

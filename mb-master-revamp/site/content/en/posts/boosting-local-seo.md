@@ -1,6 +1,6 @@
 ---
 words: 1112
-title: "Boosting Local SEO with a Stronger Google My Business Profile"
+title: "Boosting Local SEO with a Stronger Google Our Business Profile"
 slug: "boosting-local-seo"
 locale: "en"
 type: "posts"
@@ -9,16 +9,16 @@ wpId: 37263
 date: "2024-09-24T15:47:58"
 modified: "2026-07-19T15:02:56"
 sourceUrl: "https://mikebastin.com/boosting-local-seo/"
-excerpt: "Boost your local business visibility by optimising your Google My Business profile. Follow this comprehensive strategy to rank higher in local searches, engage customers, and drive traffic."
+excerpt: "Boost your local business visibility by optimising your Google Our Business profile. Follow this strategy to rank higher in local searches, engage customers, and drive traffic."
 ---
 
 ## Boost Your Local SEO with Expert Google Business Profile Tactics: A Step-by-Step Guide to Boosting Local SEO
 
 In today’s digital world, having a strong local presence is crucial for businesses looking to attract more customers in their area.
 
-One of the most effective ways to enhance your local visibility is by optimising your Google Business profile, GBP (formerly known as Google My Business (GMB).
+One of the most effective ways to enhance your local visibility is by optimising your Google Business profile, GBP (formerly known as Google Our Business (GMB).
 
-My guide provides a complete strategy to help you rank higher in local search results, engage with your audience, and drive more traffic to your business.
+Our guide provides a complete strategy to help you rank higher in local search results, engage with your audience, and drive more traffic to your business.
 
 ### Profile Optimisation
 
@@ -30,7 +30,7 @@ Consistency helps build trust with search engines and customers alike, enhancing
 
 #### Optimise Your Business Description
 
-Craft a compelling business description that highlights your unique offerings.
+Build a compelling business description that highlights your unique offerings.
 
 Integrate relevant keywords naturally, focusing on what makes your business stand out.
 
@@ -88,7 +88,7 @@ Google Posts are an excellent way to keep your audience informed about your late
 
 Optimise each post with engaging headlines, clear calls to action, and relevant keywords. Incorporate images or videos to increase engagement; posts with images get 2.3x more engagement.
 
-#### Monitor Performance with Google My Business Insights
+#### Monitor Performance with Google Our Business Insights
 
 Businesses that post weekly see a 5-10% increase in profile views.
 
@@ -96,7 +96,7 @@ Use GBP insights to track the performance of your posts. Identify which types of
 
 ![Post Creation](https://mikebastin.com/wp-content/uploads/2024/09/image-5.png)
 
-### Questions & Answers (Q&A)
+### Questions and Answers (Q&A)
 
 #### Monitor and Manage the Q&A Section
 
@@ -114,7 +114,7 @@ Take the initiative by seeding common questions that highlight unique aspects of
 
 Answer these questions with detailed, keyword-optimized responses to [boost your local SEO performance](https://mikebastin.com/services/local-seo/).
 
-![Questions & Answers (Q&A)](https://mikebastin.com/wp-content/uploads/2024/09/image-6.png)
+![Questions and Answers (Q&A)](https://mikebastin.com/wp-content/uploads/2024/09/image-6.png)
 
 ### Business Attributes and Services
 
@@ -154,7 +154,7 @@ Local backlinks can [improve search visibility by 15-30%](https://www.onthemap.c
 
 ### Performance Tracking
 
-#### Use Google My Business Insights
+#### Use Google Our Business Insights
 
 Regularly review your GBP insights to monitor profile performance, including views, clicks, and engagement rates.
 

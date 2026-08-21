@@ -1,5 +1,5 @@
 ---
-words: 669
+words: 668
 title: "The Ultimate Guide to Multilingual Keyword Research"
 slug: "multilingual-keyword-research"
 locale: "en"
@@ -64,7 +64,7 @@ These tools can provide valuable insights into search volume, competition, and r
 
 #### Translate and Localise Your Seed Keywords
 
-Start with your primary keywords in your native language and translate them into your target languages. However, remember that direct translations may not always capture local search intent.
+Start with your primary keywords in your native language and translate them into your target languages. Remember that direct translations may not always capture local search intent.
 
 Consider:
 
@@ -96,7 +96,7 @@ User behaviour and preferences can vary significantly across cultures.
 
 Implement hreflang tags to help search engines understand the language and regional targeting of your pages.
 
-This can prevent duplicate content issues and ensure the right content is shown to the right audience.
+Hreflang prevents duplicate content issues and ensures the right content is shown to the right audience.
 
 #### Create a Thorough Keyword Map
 
@@ -106,7 +106,7 @@ Develop a keyword map that outlines:
 -   Search volume and competition metrics
 -   Content topics and themes
 
-This will help you organise your [multilingual SEO strategy](https://mikebastin.com/what-is-search-intent-mapping/) and ensure consistent optimisation across all languages.
+A keyword map helps you organise your [multilingual SEO strategy](https://mikebastin.com/what-is-search-intent-mapping/) and ensure consistent optimisation across all languages.
 
 ### Best Practices for Multilingual Keyword Research
 

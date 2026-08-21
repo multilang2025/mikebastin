@@ -98,7 +98,7 @@ Europe (UE-27)
 
 Stable, légère hausse
 
-France & Belgique
+France and Belgique
 
 2 jours
 

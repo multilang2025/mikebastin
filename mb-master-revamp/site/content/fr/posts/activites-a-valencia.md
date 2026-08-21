@@ -69,7 +69,7 @@ Si vous préférez une atmosphère plus adulte et élégante, le quartier de Cá
 
 Enfin, autour de la Plaza del Cedre, l’ambiance est résolument jeune et étudiante, parfaite pour faire la fête sans se ruiner.
 
-Pensez à prévoir un petit budget supplémentaire, car les boissons peuvent vite faire grimper la note, surtout dans les lieux les plus prisés ! 
+Pensez à prévoir un petit budget supplémentaire, car les boissons peuvent vite faire grimper la note, surtout dans les lieux les plus prisés ! 
 
 ## Savourer la gastronomie locale
 

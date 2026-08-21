@@ -1,5 +1,5 @@
 ---
-words: 780
+words: 786
 title: "Optimising Your Content for Voice Search and Conversational Queries"
 slug: "optimising-your-website-for-voice-search"
 locale: "en"
@@ -9,7 +9,7 @@ wpId: 24847415
 date: "2024-12-24T12:43:34"
 modified: "2026-07-02T17:28:16"
 sourceUrl: "https://mikebastin.com/optimising-your-website-for-voice-search/"
-excerpt: "Maximise the potential of your website with our comprehensive guide to voice search optimisation! 🎤🔍 Learn essential strategies like using conversational keywords, enhancing local SEO, and implementing structured data to boost your online visibility. Ready to stay ahead in the digital landscape? 🚀 Click below to get started! 👉 Read the Full Guide"
+excerpt: "Get more out of your website with our guide to voice search optimisation! Learn essential strategies like using conversational keywords, enhancing local SEO, and implementing structured data to boost your online visibility. Ready to stay ahead? Read the full guide."
 ---
 
 ## Why Voice Search Is Reshaping Search Strategy in 2026
@@ -21,7 +21,7 @@ Voice search is revolutionising how people find answers, products, and services 
 -   **Over 85% of consumers** in the UK now shop or search online, with mobile voice search usage rising each year.
 -   People expect immediate, conversational answers from their devices. If your website isn’t voice-ready, you’re likely missing lucrative local and commercial traffic.
 
-### Voice Search Trends & Key Statistics
+### Voice Search Trends and Key Statistics
 
 Statistic
 
@@ -47,7 +47,7 @@ Voice responses from featured snippets
 
 40%
 
-**Did you know?** Conversational search queries are typically longer (6–10 words) than typed ones, and 52% of households have a smart speaker in the living room.
+**Did you know?** Conversational search queries are typically longer (6 to 10 words) than typed ones, and 52% of households have a smart speaker in the living room.
 
 ### Conversational Keywords: Real-World Examples
 
@@ -57,20 +57,20 @@ Voice Search Equivalent
 
 “Valencia web designer”
 
-“Who is the best web designer near me in Valencia?”
+“Who is the best web designer near us in Valencia?”
 
 “SEO tips”
 
-“How can I improve my website’s SEO for Google?”
+“How can we improve our website’s SEO for Google?”
 
 “Restaurant opening times”
 
 “What time does the Italian restaurant on Queen Street open?”
 
--   “How do I get a refund from my online order?”
+-   “How do we get a refund from our online order?”
 -   “What’s the fastest train to Manchester from London?”
--   “Where can I find gluten-free pizza in Brighton?”
--   “Can you recommend a plumber near me?”
+-   “Where can we find gluten-free pizza in Brighton?”
+-   “Can you recommend a plumber near us?”
 -   “What are the rules for recycling in Birmingham?”
 
 ### Voice Search Optimisation at a Glance
@@ -79,11 +79,11 @@ Voice Search Equivalent
 -   62% are likely to purchase via voice within a month.
 -   44% order groceries and household items by voice at least weekly.
 
-### Spotlight on Featured Snippets & Direct Answers
+### Spotlight on Featured Snippets and Direct Answers
 
--   Aim for concise (40–60 word) answers using conversational tone.
+-   Aim for concise (40 to 60 word) answers using conversational tone.
 -   Use `<h2>` or `<h3>` headings, bullet lists, and tables for structure.
--   Use clear step-by-step formatting—ideal for featured snippets.
+-   Use clear step-by-step formatting, ideal for featured snippets.
 
 #### Step-by-Step: Claiming Your Google Business Profile
 
@@ -102,19 +102,19 @@ Optimisation Strategy
 
 Informational
 
-“How do I change a tyre?”
+“How do we change a tyre?”
 
 Clear guides or short direct answers
 
 Navigational
 
-“Take me to the BBC homepage”
+“Take us to the BBC homepage”
 
 Branded FAQ content
 
 Transactional
 
-“Order me a pepperoni pizza”
+“Order us a pepperoni pizza”
 
 Voice CTA and streamlined process
 
@@ -126,7 +126,7 @@ NAP consistency and geo-targeting
 
 ### Voice Search Success: Case Study
 
-A small bakery in Kettering added a FAQ like “Where can I get fresh sourdough in Kettering?”, improved their site speed and structured data. As a result:
+A small bakery in Kettering added a FAQ like “Where can we get fresh sourdough in Kettering?”, improved their site speed and structured data. As a result:
 
 -   **+137%** voice search visibility
 -   **+42%** increase in foot traffic in 3 months
@@ -143,7 +143,7 @@ Answer common spoken questions
 
 Step-by-Step Guides
 
-Perfect for “How do I” results
+Perfect for “How do we” results
 
 Product Schema
 
@@ -151,7 +151,7 @@ Improves voice visibility of products
 
 Local Landing Pages
 
-Captures “near me” localisation
+Captures “near us” localisation
 
 ### High-Impact Best Practices
 
@@ -187,6 +187,6 @@ Captures “near me” localisation
 
 ### Final Thoughts
 
-Optimising for voice search is more than a technical update—it reflects a broader change in how people engage with content. Understand your audience, adapt your structure, and provide helpful, voice-friendly information.
+Optimising for voice search is more than a technical update, it reflects a broader change in how people engage with content. Understand your audience, adapt your structure, and provide helpful, voice-friendly information.
 
 Ready to reach more users with conversational search? [Contact us for a free consultation](https://mikebastin.com/contact-us/) and discover how modern SEO can boost your visibility.

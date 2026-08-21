@@ -1,5 +1,5 @@
 ---
-words: 1622
+words: 1620
 editorial: "superseded"
 title: "Local SEO"
 slug: "local-seo"
@@ -35,7 +35,7 @@ AI engines now answer “best X in ” queries with citations to local results
 
 ## Three ways to lose local visibility
 
-Recurring patterns on local businesses I audit:
+Recurring patterns on local businesses we audit:
 
 Profile exists but categories are wrong, services list incomplete, hours not updated, photos sparse, no posts in months, Q&A unanswered. Google’s algorithm rewards complete and active profiles. A half-finished profile gets buried below competitors with no better product, just better profile hygiene.
 
@@ -45,7 +45,7 @@ A homepage saying “serving Valencia” is fine. A dedicated page for each neig
 
 Local SEO is mostly about discipline and consistency rather than tricks. Google Business Profile maintained, NAP consistent everywhere, schema in place, neighbourhood-level pages, reviews managed actively, citations cleaned up. Done properly, it compounds over months and quietly pushes you up the map pack.
 
-## What I include in a local SEO engagement
+## What we include in a local SEO engagement
 
 Categories, services, attributes, hours, photos, posts, Q&A. Multi-language profile where the city is multilingual. Monthly updates and posts to keep the profile active.
 
@@ -59,7 +59,7 @@ Process for requesting reviews from satisfied customers (post-service email, QR 
 
 “Best X in ” queries on ChatGPT, Claude and Perplexity now drive a meaningful share of local discovery. Structured data, citations and reputation feed AI knowledge graphs.
 
-## My process in 5 steps, named deliverables
+## Our process in 5 steps, named deliverables
 
 Audit, profile work, citations, content, ongoing maintenance.
 
@@ -149,7 +149,7 @@ Cross-country expansion strategy
 
 ## Why this team for local SEO
 
-**Michael Bastin:** 25 years in SEO. Live experience of local visibility across multilingual cities: Valencia (Spanish-French-English expat market), the Bollenstreek (Dutch-only paint shop), Houston (English-Spanish freight forwarder), Santo Domingo (Spanish-English real estate).
+**Mike Bastin:** 25 years in SEO. Live experience of local visibility across multilingual cities: Valencia (Spanish-French-English expat market), the Bollenstreek (Dutch-only paint shop), Houston (English-Spanish freight forwarder), Santo Domingo (Spanish-English real estate).
 
 Multilingual local SEO is a distinct discipline: a city like Valencia or Brussels needs the GBP to surface in the right language depending on the searcher, the schema to declare multiple languages served, and the citations to span both Spanish and international directories.
 
@@ -171,7 +171,7 @@ Reasoned recommendation given at scoping.
 
 ## Frequently asked questions on local SEO
 
-How long before I see map pack improvement?
+How long before we see map pack improvement?
 
 First movement: 4 to 8 weeks once GBP is fully optimised and NAP is consistent. Significant ranking improvement: 3 to 6 months as citations propagate and reviews accumulate. Highly competitive markets (restaurants in major cities, lawyers in capitals) can take 9-12 months to reach top 3.
 
@@ -179,13 +179,13 @@ How important are Google reviews vs other review sites?
 
 Google reviews matter most for map pack ranking. Yelp matters more in the US than in Europe. Trustpilot is strong for ecommerce. Sector-specific sites (TripAdvisor for hospitality, Avvo for legal, Healthgrades for medical) carry weight in their vertical. Strategy is to prioritise Google then add the relevant sector sites.
 
-Should I have a separate GBP per language for a multilingual market?
+Should we have a separate GBP per language for a multilingual market?
 
 No. One GBP profile per physical location. The GBP can list multiple languages served and the descriptions can be translated through the GBP interface where supported. Multiple GBP profiles for the same location create duplicate listing issues that hurt ranking. The multilingual aspect is handled on the website side, not by duplicating GBPs.
 
 What is NAP and why does consistency matter?
 
-NAP stands for Name, Address, Phone — the three core data points Google cross-references across the web to validate a business is real and located where it claims. Inconsistencies (one citation says “Avenida del Puerto 14”, another says “Av Puerto 14”) erode Google’s confidence and depress local ranking. Consolidating NAP is unglamorous work but it directly affects map pack position.
+NAP stands for Name, Address, Phone, the three core data points Google cross-references across the web to validate a business is real and located where it claims. Inconsistencies (one citation says “Avenida del Puerto 14”, another says “Av Puerto 14”) erode Google’s confidence and depress local ranking. Consolidating NAP is unglamorous work but it directly affects map pack position.
 
 Do paid Local Service Ads matter for local SEO?
 
@@ -193,7 +193,7 @@ LSAs (Local Service Ads) are a paid product, not organic SEO, but they appear ab
 
 How do you handle negative reviews?
 
-Three-step playbook: (1) respond promptly and professionally — never argue, never reveal client information; (2) try to take the conversation offline with a phone number or email; (3) once resolved, ask the reviewer if they would update the review. Never request review removal through Google unless it violates policy (fake reviewer, profanity, off-topic). Public response shows future customers how the business handles complaints.
+Three-step playbook: (1) respond promptly and professionally, never argue, never reveal client information; (2) try to take the conversation offline with a phone number or email; (3) once resolved, ask the reviewer if they would update the review. Never request review removal through Google unless it violates policy (fake reviewer, profanity, off-topic). Public response shows future customers how the business handles complaints.
 
 How much does a local SEO engagement cost?
 
@@ -201,6 +201,6 @@ Quoted. Depends on scope (single location vs multi-location), number of language
 
 ## Ready to own your local map pack?
 
-I start by auditing your current local presence, ranking, NAP and GBP. Quantified diagnosis, actionable recommendations. Free first call, no commitment.
+We start by auditing your current local presence, ranking, NAP and GBP. Quantified diagnosis, actionable recommendations. Free first call, no commitment.
 
 Related services: [multilingual SEO](https://mikebastin.com/services/multilingual-seo/) · [international SEO](https://mikebastin.com/services/global-seo-solutions/) · [multilingual SEM](https://mikebastin.com/services/multilingual-sem/) · [web design](https://mikebastin.com/services/web-design/)

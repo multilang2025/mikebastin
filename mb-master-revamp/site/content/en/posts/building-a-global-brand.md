@@ -14,7 +14,7 @@ excerpt: "Master the art of building a global brand by balancing consistency and
 
 ## Building a global brand is not the same as translating one
 
-Most “global brand” projects I see are translation projects in disguise.
+Most “global brand” projects we see are translation projects in disguise.
 
 The English brand voice gets converted into Spanish, French, Dutch, German. The visual identity stays. The launch deck travels well. Six months later the in-market teams quietly start rewriting copy because the translated version sounds wrong to local buyers.
 
@@ -22,7 +22,7 @@ The gap between “translated” and “genuinely global” is where **building 
 
 ### What changes between markets, even when the brand stays the same
 
-I run BeTranslated across .be, .fr, .es, .co.uk, .nl, and .com properties. Same agency, same service, same positioning at the strategic level.
+We run BeTranslated across .be, .fr, .es, .co.uk, .nl, and .com properties. Same agency, same service, same positioning at the strategic level.
 
 The execution differs in ways that matter to conversion.
 
@@ -36,7 +36,7 @@ Same brand, five different on-page emphases. None of these adjustments break the
 
 ### Three things that travel without adjustment
 
-The brand assets that survive cross-market deployment without rework, in my experience.
+The brand assets that survive cross-market deployment without rework, in our experience.
 
 **Visual identity.** Logo, palette, typography, photographic style. These move clean across borders if the original system was disciplined.
 
@@ -52,11 +52,11 @@ The brand assets that survive cross-market deployment without rework, in my expe
 
 **Trust signals.** Reviews from local clients, local phone numbers, local addresses, payment methods buyers recognise. [Cultural differences in multilingual websites](https://mikebastin.com/cultural-differences-in-multilingual-websites/) show up most sharply in this layer.
 
-### A real failure mode I keep seeing
+### A real failure mode we keep seeing
 
 The pattern goes like this. A brand decides to “go global”. Marketing commissions a translation agency. Six locales launch simultaneously. The English version converts at 3.2%. The localised versions average 0.9%.
 
-Three weeks later someone calls me and asks why “the SEO is not working”.
+Three weeks later someone calls us and asks why “the SEO is not working”.
 
 The SEO is fine. The brand never landed. Translation moved the words; nobody moved the brand.
 
@@ -77,8 +77,8 @@ If you cannot tick all six, the brand has crossed the border but not arrived.
 
 ### A second pair of eyes on your global brand work
 
-If you are launching across two or more markets, I am happy to look at the gap between your strategic brand and what each market actually sees.
+If you are launching across two or more markets, we are happy to look at the gap between your strategic brand and what each market actually sees.
 
-I work in French, English, Spanish, and Dutch fluently, with B1 German and working Italian. Most of what I do for clients sits on the seam between brand voice and SEO performance, where the slip-ups cost real revenue.
+We work in French, English, Spanish, and Dutch fluently, with B1 German and working Italian. Most of what we do for clients sits on the seam between brand voice and SEO performance, where the slip-ups cost real revenue.
 
-[Get in touch](https://mikebastin.com/contact-us/) or read more about [how I run multilingual branding work](https://mikebastin.com/services/multilingual-branding/).
+[Get in touch](https://mikebastin.com/contact-us/) or read more about [how we run multilingual branding work](https://mikebastin.com/services/multilingual-branding/).

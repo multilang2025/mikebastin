@@ -148,7 +148,7 @@ SEO content production
 
 ## Why this team for multilingual SEM
 
-**Michael Bastin:** 25 years in SEO and SEM. Direct fluent execution on Google Ads in French, English, Spanish and Dutch. Native team coverage for German, Italian, Portuguese and other languages.
+**Mike Bastin:** 25 years in SEO and SEM. Direct fluent execution on Google Ads in French, English, Spanish and Dutch. Native team coverage for German, Italian, Portuguese and other languages.
 
 SEM aligned with SEO from day one: same keyword research universe, same landing pages where possible, same multilingual architecture. The paid and organic strategies inform each other instead of competing for budget.
 

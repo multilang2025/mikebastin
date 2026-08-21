@@ -9,7 +9,7 @@ wpId: 24855728
 date: "2026-01-24T18:15:27"
 modified: "2026-07-02T17:30:33"
 sourceUrl: "https://mikebastin.com/search-everywhere-strategy/"
-excerpt: "Expand beyond Google to dominate search visibility across AI assistants, social platforms, and vertical search engines. 🔍"
+excerpt: "Expand beyond Google to dominate search visibility across AI assistants, social platforms, and vertical search engines."
 ---
 
 ## Transitioning to a search everywhere strategy in 2026
@@ -56,7 +56,7 @@ GEO + structured data
 
 Social Search (LinkedIn, TikTok)
 
-Social proof & trends
+Social proof and trends
 
 Native video + thought leadership
 
@@ -120,7 +120,7 @@ Format impacts extraction: tables and bullet points outperform dense paragraphs.
 
 ## A unified search strategy
 
-Integrate SEO, GEO, social, and localisation into one framework. Repurpose a single research piece into a LinkedIn carousel, YouTube short, and FAQ schema, maximising ROI across channels.
+Integrate SEO, GEO, social, and localisation into one framework. Repurpose a single research piece into a LinkedIn carousel, YouTube short, and FAQ schema, increasing ROI across channels.
 
 Track new KPIs: AI citation share, social mentions, and vertical directory referrals. Tools like Semrush now support these metrics, but manual audits remain critical to assess how AI perceives your brand.
 
@@ -144,11 +144,11 @@ No. They coexist. Use SEO for navigational queries, GEO for research-heavy AI in
 
 Real-time AI (Perplexity, Google AI Overviews) can index new content immediately if it’s authoritative and well-structured. Static models depend on training cutoffs, but consistent publishing improves inclusion odds.
 
-### Can I measure GEO performance?
+### Can we measure GEO performance?
 
 Yes, via AI citation tracking, hallucination checks, and referral traffic from AI platforms in analytics tools. It’s qualitative but actionable.
 
-### Do I need separate GEO and SEO content?
+### Do we need separate GEO and SEO content?
 
 No. Create hybrid content: engaging for humans, structured for machines. Use H2/H3 hierarchies, FAQ schema, and data tables to serve both audiences.
 

@@ -1,5 +1,6 @@
 ---
 words: 815
+editorial: "relocating"
 title: "Unleash the Fun: Essential Things to Do in Cultural Valencia"
 slug: "essential-things-to-do-in-cultural-valencia"
 locale: "en"
@@ -18,7 +19,7 @@ The standard “things to do in Valencia” article gives you the same eight bul
 
 The list is not wrong. It is just thin.
 
-After ten years here, what follows is the cultural Valencia I actually take visiting friends to. Some of it is famous. Some of it tourists never find. For a broader run-down across the year, the [things to do in Valencia guide](https://valenciamove.com/things-to-do-valencia/) on Valencia Move is a good companion.
+After ten years here, what follows is the cultural Valencia we actually take visiting friends to. Some of it is famous. Some of it tourists never find. For a broader run-down across the year, the [things to do in Valencia guide](https://valenciamove.com/things-to-do-valencia/) on Valencia Move is a good companion.
 
 ### The classics that genuinely deserve the visit
 
@@ -48,7 +49,7 @@ Most tourists never hear about it. Stand at the front of the square at 11:55 and
 
 Real Valencian paella has a strict ingredient list (rabbit, chicken, ferraura beans, garrofó, paprika, saffron, rice) and is eaten at lunchtime, never dinner. Tourist paellas in the centre with chorizo and prawns are an insult to the dish.
 
-Two places I send visiting friends:
+Two places we send visiting friends:
 
 -   **Casa Carmela** in Cabanyal, paella over orange-wood embers since 1922. Book three days ahead.
 -   **Any of the family restaurants on the Pinedo waterfront** south of the city. Indistinguishable quality, half the price, no English menu, locals at every table.
@@ -63,7 +64,7 @@ For horchata, Daniel in Mercado Colón or Santa Catalina near the cathedral. Ask
 
 **Nit del Foc (around 24 June).** The Sant Joan beach bonfire night. Less famous than Fallas, more local, equally wild.
 
-### A two-day cultural itinerary I would actually recommend
+### A two-day cultural itinerary we would actually recommend
 
 **Day one (Thursday is ideal).** Mercado Central before 10. Coffee at the bar inside. Lonja afterwards. Tribunal de las Aguas at noon. Lunch at Casa Carmela. IVAM in the afternoon. Sunset on the Albufera.
 

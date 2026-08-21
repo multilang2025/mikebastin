@@ -1,5 +1,5 @@
 ---
-words: 1902
+words: 1901
 title: "Chrome Extensions for Translators: The 2026 Toolkit"
 slug: "chrome-extensions-for-translators"
 locale: "en"
@@ -9,10 +9,10 @@ wpId: 37229
 date: "2024-09-25T14:57:40"
 modified: "2026-07-02T15:24:09"
 sourceUrl: "https://mikebastin.com/chrome-extensions-for-translators/"
-excerpt: "Boost your translation productivity with these top 10 essential Chrome extensions for translators, enhancing efficiency, accuracy, and workflow seamlessly."
+excerpt: "Boost your translation productivity with these top 10 essential Chrome extensions for translators, enhancing efficiency, accuracy, and workflow."
 ---
 
-I have been working between English, French, Spanish, and Dutch since the mid-2000s.
+We have been working between English, French, Spanish, and Dutch since the mid-2000s.
 
 The browser is where most of that work happens.
 
@@ -20,9 +20,9 @@ Not the CAT tool, not the desktop dictionary, not the Trados memory.
 
 The browser, with a translation job open in one tab and reference material in five more.
 
-Over twenty years I have installed and uninstalled dozens of Chrome extensions to speed up that workflow.
+Over twenty years we have installed and uninstalled dozens of Chrome extensions to speed up that workflow.
 
-The list below is the toolkit I actually keep installed in 2026, after Manifest V3 broke or replaced several old favourites and after generative AI rewrote half of what a translation extension is supposed to do.
+The list below is the toolkit we actually keep installed in 2026, after Manifest V3 broke or replaced several old favourites and after generative AI rewrote half of what a translation extension is supposed to do.
 
 If you are still using the same list you bookmarked in 2022, parts of it are now broken.
 
@@ -50,17 +50,17 @@ If the per-word price keeps falling while volume holds steady, the only way a tr
 
 The browser stack is where that speed comes from.
 
-## Translation engines I still keep on the toolbar
+## Translation engines we still keep on the toolbar
 
 Three engines, each with a different strength.
 
 ### DeepL for Chrome
 
-Best raw quality for European languages, in my daily experience.
+Best raw quality for European languages, in our daily experience.
 
-I reach for [DeepL](https://www.deepl.com/en/chrome-extension) first when I need a French or German draft that should sound natural rather than literal.
+We reach for [DeepL](https://www.deepl.com/en/chrome-extension) first when we need a French or German draft that should sound natural rather than literal.
 
-The Chrome extension lets me select text on any page, press a shortcut, and read the translation in a popover without bouncing to deepl.com.
+The Chrome extension lets us select text on any page, press a shortcut, and read the translation in a popover without bouncing to deepl.com.
 
 The free tier covers most quick-lookup needs.
 
@@ -70,7 +70,7 @@ DeepL also owns Linguee, so a paid plan ties context examples and engine output 
 
 ### ImTranslator
 
-I keep [ImTranslator](https://chromewebstore.google.com/detail/imtranslator-translator-d/noaijdpnepcgjemiklgfkcfbkokogabh) installed for one specific job: comparing translations from Google, Microsoft Bing, and other engines side by side in the same popup.
+We keep [ImTranslator](https://chromewebstore.google.com/detail/imtranslator-translator-d/noaijdpnepcgjemiklgfkcfbkokogabh) installed for one specific job: comparing translations from Google, Microsoft Bing, and other engines side by side in the same popup.
 
 If a client questions a wording choice, a three-way comparison is the fastest evidence to put on the table.
 
@@ -78,7 +78,7 @@ The extension is on Manifest V3, sits at around 900,000 users, and was updated a
 
 ### Mate Translate
 
-The on-page bubble translator I default to for casual reading.
+The on-page bubble translator we default to for casual reading.
 
 Select a word, get the definition and translation, save it to a phrasebook synced across devices.
 
@@ -86,19 +86,19 @@ The free version covers everyday browsing.
 
 Pro adds Netflix subtitle translation, which is useful when verifying how a colloquial phrase was rendered by the streaming service.
 
-Worth knowing that full-page translation quality has slipped since early 2025 based on user reviews, so I treat [Mate](https://chromewebstore.google.com/detail/mate-translate-%E2%80%93-translat/ihmgiclibbndffejedjimfjmfoabpcke) as a word-and-phrase helper rather than a document translator.
+Worth knowing that full-page translation quality has slipped since early 2025 based on user reviews, so we treat [Mate](https://chromewebstore.google.com/detail/mate-translate-%E2%80%93-translat/ihmgiclibbndffejedjimfjmfoabpcke) as a word-and-phrase helper rather than a document translator.
 
 ### Google Translate
 
 Not the strongest engine, but the one every client recognises.
 
-Clients send me websites and expect me to read them quickly.
+Clients send us websites and expect us to read them quickly.
 
 The official Google Translate extension is the cleanest way to get a fast gist of any page in seconds.
 
 ## AI assistants that quietly replaced half the old toolkit
 
-The section that did not exist when I last updated this article in 2024.
+The section that did not exist when we last updated this article in 2024.
 
 ### Claude for Chrome and ChatGPT browser extensions
 
@@ -106,17 +106,17 @@ For complex sentences, idiomatic content, or anything legal or technical, a gene
 
 The reason is context.
 
-I can paste a paragraph plus three lines of surrounding context, plus a one-line instruction such as “translate to formal French for a Belgian law firm audience, keep the second-person plural form”.
+We can paste a paragraph plus three lines of surrounding context, plus a one-line instruction such as “translate to formal French for a Belgian law firm audience, keep the second-person plural form”.
 
 A standalone translation engine cannot take that instruction.
 
 An LLM extension can.
 
-I use Claude for Chrome for client work where tone and register matter.
+We use Claude for Chrome for client work where tone and register matter.
 
-I use ChatGPT for quick generative rewrites and brainstorming.
+We use ChatGPT for quick generative rewrites and brainstorming.
 
-Neither is free of mistakes, so I still proof every output by hand. See my deeper view on [how to use AI and machine translation tools](https://mikebastin.com/how-to-use-ai-and-machine-translation-tools/) for the workflow I run them through.
+Neither is free of mistakes, so we still proof every output by hand. See our deeper view on [how to use AI and machine translation tools](https://mikebastin.com/how-to-use-ai-and-machine-translation-tools/) for the workflow we run them through.
 
 ### DeepL Write
 
@@ -124,11 +124,11 @@ Sits halfway between a translator and a grammar tool.
 
 It rephrases your target-language draft for tone, register, and natural flow.
 
-I run my own French and Spanish drafts through it after typing, then accept or reject each suggestion sentence by sentence.
+We run our own French and Spanish drafts through it after typing, then accept or reject each suggestion sentence by sentence.
 
 It catches the stiffness that comes from translating word-for-word in your head.
 
-## Reference helpers I cannot work without
+## Reference helpers we cannot work without
 
 Translation is mostly disambiguation.
 
@@ -138,7 +138,7 @@ The lookup tools below earn their place by closing that gap quickly.
 
 Bilingual concordancer with real example sentences mined from EU documents, patents, and parallel corpora.
 
-When DeepL gives me a translation I do not fully trust, Linguee shows me how the term was used in twenty real documents.
+When DeepL gives us a translation we do not fully trust, Linguee shows us how the term was used in twenty real documents.
 
 Now part of DeepL but still works as a standalone reference in the browser.
 
@@ -154,7 +154,7 @@ Between Linguee and Reverso Context, you have working examples for almost any ph
 
 Multilingual grammar and style checker for French, Spanish, German, Dutch, and more.
 
-Grammarly is English-only at the depth I need, so for any non-English work, [LanguageTool](https://languagetool.org/chrome) is the better pick.
+Grammarly is English-only at the depth we need, so for any non-English work, [LanguageTool](https://languagetool.org/chrome) is the better pick.
 
 ## Two extras for translators who also handle web content
 
@@ -164,21 +164,21 @@ If your translation work touches WordPress sites or website localisation project
 
 Tells you what CMS, plugins, and translation setup a site is running before you open the source code.
 
-When a prospect asks about translating their WordPress site, I want to know in two seconds whether it runs WPML, Polylang, TranslatePress, or a custom system. See my [WordPress translation plugin](https://mikebastin.com/services/wordpress-translation-plugin/) service page for what each one means in practice.
+When a prospect asks about translating their WordPress site, we want to know in two seconds whether it runs WPML, Polylang, TranslatePress, or a custom system. See our [WordPress translation plugin](https://mikebastin.com/services/wordpress-translation-plugin/) service page for what each one means in practice.
 
 ### Detailed SEO Extension
 
 Fast on-page audit for headings, metas, hreflang, canonical tags, and Schema markup.
 
-Before I localise a site into three more languages, I want to see whether the source-language SEO is even competent. My full [Chrome extensions for SEO](https://mikebastin.com/chrome-extensions-for-seo/) piece covers the wider audit toolkit.
+Before we localise a site into three more languages, we want to see whether the source-language SEO is even competent. Our full [Chrome extensions for SEO](https://mikebastin.com/chrome-extensions-for-seo/) piece covers the wider audit toolkit.
 
-## What I removed from the previous version of this list
+## What we removed from the previous version of this list
 
 A short audit on the article you might have read in 2024.
 
 **Readlang Web Reader.** Genuinely useful for language learners, but rarely fits a working translator’s day. Off the new list.
 
-**TransOver.** Translation engine quality has degraded, and the pop-up trigger conflicts with several modern sites. I uninstalled it.
+**TransOver.** Translation engine quality has degraded, and the pop-up trigger conflicts with several modern sites. We uninstalled it.
 
 **Rememberry.** Flashcard tools belong in Anki, not the browser. Off the list.
 
@@ -198,7 +198,7 @@ Languages
 
 MV3 in 2026
 
-My usage
+Our usage
 
 **DeepL for Chrome**
 
@@ -308,15 +308,15 @@ Yes
 
 Daily
 
-> The biggest change in twenty-five years of multilingual work is not the quality of MT or even the rise of LLMs. It is that the browser became the workbench. Everything I used to do across Trados, a paper dictionary, and three monitors now happens inside one Chrome window with seven extensions. The job is the same. The tools are unrecognisable.
+> The biggest change in twenty-five years of multilingual work is not the quality of MT or even the rise of LLMs. It is that the browser became the workbench. Everything we used to do across Trados, a paper dictionary, and three monitors now happens inside one Chrome window with seven extensions. The job is the same. The tools are unrecognisable.
 > 
-> — [Michael Bastin](https://mikebastin.com/about-us/), multilingual SEO and translation consultant
+>, [Mike Bastin](https://mikebastin.com/about-us/), multilingual SEO and translation consultant
 
-## How I sequence these in a working translation day
+## How we sequence these in a working translation day
 
 A real example from last week.
 
-A Belgian law firm sent me a 1,200-word French contract excerpt to translate into English for an international client meeting.
+A Belgian law firm sent us a 1,200-word French contract excerpt to translate into English for an international client meeting.
 
 First pass: paste the French into DeepL via the extension to get a clean draft.
 
@@ -346,7 +346,7 @@ Smartcat, Lokalise, and Phrase are all racing to embed translator workflow direc
 
 If you live inside a CAT environment, expect to add at least one of those to your stack soon.
 
-For a wider view of where the industry is moving, see my piece on [how AI is transforming translation and localisation](https://mikebastin.com/how-ai-is-transforming-translation-and-localisation/).
+For a wider view of where the industry is moving, see our piece on [how AI is transforming translation and localisation](https://mikebastin.com/how-ai-is-transforming-translation-and-localisation/).
 
 ## Where this leaves a working translator
 
@@ -354,7 +354,7 @@ The browser stack is just the surface.
 
 What sits underneath is a workflow built around catching MT and LLM mistakes faster than the per-word price drops.
 
-If you handle multilingual content across markets and want a second opinion on the production setup behind it, see how my agency approaches [expert translation services](https://mikebastin.com/services/expert-translation-services/) and [post-AI editing](https://mikebastin.com/services/post-ai-editing/).
+If you handle multilingual content across markets and want a second opinion on the production setup behind it, see how our agency approaches [expert translation services](https://mikebastin.com/services/expert-translation-services/) and [post-AI editing](https://mikebastin.com/services/post-ai-editing/).
 
 For project enquiries, [get in touch](https://mikebastin.com/contact-us/) and we can walk through your current stack in 20 minutes.
 
@@ -372,7 +372,7 @@ All of them have a free tier that covers casual use.
 
 For professional volume, DeepL Pro, Mate Pro, and a Claude or ChatGPT subscription unlock the features most working translators end up needing.
 
-### Do I still need a CAT tool if my browser stack is this strong?
+### Do we still need a CAT tool if our browser stack is this strong?
 
 Yes, for any project with translation memory, repetition discounts, or client-supplied glossaries.
 

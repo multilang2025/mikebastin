@@ -38,7 +38,7 @@ export type Service = {
 };
 
 const ENGAGEMENT = [
-  "What I include in the engagement",
+  "What we include in the engagement",
   "My process in five steps, named deliverables",
   "What is included, what is not",
   "Frequently asked questions",
@@ -80,10 +80,10 @@ export const SERVICES: Service[] = [
     cluster: "Search",
     pillar: true,
     angle: "The engine underneath the outcome",
-    lede: "Strategic piloting on my side, native writing per language, with hreflang and schema configured from the brief rather than patched in later.",
+    lede: "Strategic piloting on our side, native writing per language, with hreflang and schema configured from the brief rather than patched in later.",
     sections: [
       "Where most international SEO projects fail",
-      "What I include in an international SEO engagement",
+      "What we include in an international SEO engagement",
       "My process in five steps, named deliverables",
       "Case studies",
       "What is included, what is not",

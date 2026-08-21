@@ -1,0 +1,25 @@
+<!-- @dsCard group="Brand" viewport="700x170" name="Focus and selection" subtitle="2px berry ring, 3px offset. Berry selection, white text" -->
+<!doctype html>
+<html lang="en-GB" data-theme="light">
+<head>
+<meta charset="utf-8">
+<title>States</title>
+<link rel="stylesheet" href="../styles.css">
+<style>
+  body { margin: 0; }
+  .card { padding: 22px 26px; }
+  .row { display: flex; gap: 10px; flex-wrap: wrap; }
+  .sw { flex: 1 1 0; min-width: 84px; }
+  .sw i { display: block; height: 46px; border-radius: 4px; border: 1px solid var(--rule); }
+  .sw b { display: block; margin-top: 7px; font-size: .68rem; font-weight: 500; letter-spacing: .06em; text-transform: uppercase; color: var(--dim); }
+  .sw span { display: block; font-size: .7rem; color: var(--dim); font-variant-numeric: tabular-nums; }
+</style>
+</head>
+<body class="band band-b">
+  <div class="card" style="display:flex;flex-direction:column;gap:14px">
+    <span style="align-self:flex-start;padding:10px 20px;border:1px solid var(--berry);border-radius:4px;background:var(--berry);color:#fff;font-size:.9rem;outline:2px solid var(--berry);outline-offset:3px">Focused control</span>
+    <p style="margin:0;font-size:.95rem">Selected text looks like <span style="background:var(--berry);color:#fff">this berry fill with white ink</span> on either ground.</p>
+    <p class="caps" style="margin:0">focus-visible: 2px solid var(--berry), offset 3px</p>
+  </div>
+</body>
+</html>

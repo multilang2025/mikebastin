@@ -1,5 +1,6 @@
 ---
-words: 2424
+words: 2422
+editorial: "relocating"
 title: "Combiner la croissance professionnelle et l'ambiance décontractée de Valencia"
 slug: "travailler-a-valencia-en-tant-quexpatrie"
 locale: "fr"
@@ -46,9 +47,9 @@ Imaginez : alors que beaucoup d’entreprises internationales gardent le rythme 
 
 La journée de travail locale commence souvent tôt, à 8 heures, lorsque le soleil matinal est doux et que l’air est frais et plein de possibilités.
 
-Vient ensuite une tradition qui m’a pris par surprise : « l’heure de l’almuerzo » (vers 10h30-11h30), qui marque une pause dans la journée de travail pour engloutir le fameux bocadillo valencien, un copieux sandwich qui est presque une institution dans la ville.
+Vient ensuite une tradition qui m’a pris par surprise : « l’heure de l’almuerzo » (vers 10h30-11h30), qui marque une pause dans la journée de travail pour engloutir le fameux bocadillo valencien, un copieux sandwich qui est presque une institution dans la ville.
 
-Ce festin de milieu de matinée, souvent dégusté dans des bars locaux avec des collègues au cours de conversations animées, n’est pas seulement une question de nourriture – c’est ce qui permet aux Valenciens de tenir le coup pendant leurs longues matinées qui s’étendent jusqu’à 14h.
+Ce festin de milieu de matinée, souvent dégusté dans des bars locaux avec des collègues au cours de conversations animées, n’est pas seulement une question de nourriture, c’est ce qui permet aux Valenciens de tenir le coup pendant leurs longues matinées qui s’étendent jusqu’à 14h.
 
 J’ai appris à apprécier la façon dont cette gargantuesque collation matinale comble le fossé entre le petit-déjeuner et le déjeuner (ou le diner comme on dit en Belgique), d’autant plus que les locaux ne dînent (ou ne soupent) généralement qu’à 21h ou 22h.
 
@@ -102,11 +103,11 @@ Les outils sont devenus mes meilleurs alliés : j’utilise [World Time Buddy](h
 
 L’une de mes stratégies les plus efficaces a été le « tampon de fuseau horaire », je bloque des jours spécifiques pour différentes régions, plutôt que d’essayer de jongler avec plusieurs fuseaux horaires au cours d’une même journée.
 
-Par exemple, les mardis et jeudis sont mes « jours européens » avec des horaires d’appels entre 9h et 17h CET, alors que les mercredis, je peux commencer plus tôt pour les clients asiatiques et finir plus tard pour ceux qui viennent d’Amérique.
+Par exemple, les mardis et jeudis sont mes « jours européens » avec des horaires d’appels entre 9h et 17h CET, alors que les mercredis, je peux commencer plus tôt pour les clients asiatiques et finir plus tard pour ceux qui viennent d’Amérique.
 
 J’ai découvert qu’être transparent sur ma localisation et mes horaires de travail a renforcé mes relations avec les clients. Beaucoup apprécient la diversité culturelle que j’apporte à nos interactions et respectent les limites que j’ai fixées.
 
-Les heures de sieste (14h-17h heure locale) deviennent souvent mes « heures de force » pour me concentrer sur mon travail sans interruption, car la plupart des clients européens sont en train de terminer leur journée.
+Les heures de sieste (14h-17h heure locale) deviennent souvent mes « heures de force » pour me concentrer sur mon travail sans interruption, car la plupart des clients européens sont en train de terminer leur journée.
 
 Néanmoins, le véritable défi consiste à adapter ces stratégies à votre situation en particulier, car chaque entrepreneur expatrié est confronté à des circonstances uniques en fonction de son marché principal.
 
@@ -132,7 +133,7 @@ Après tout, n’est-ce pas la raison pour laquelle beaucoup d’entre nous choi
 
 ### Comment puis-je réseauter avec les entreprises locales alors que je suis très occupé avec les appels internationaux pendant les heures de réseautage espagnoles ?
 
-Envisagez de participer aux événements de réseautage matinaux, tels que les rendez-vous « Business Breakfast » qui ont lieu avant le début des journées de travail (8h-9h30). Beaucoup de groupes d’entreprises [internationales à Valencia organisent ces derniers spécialement pour les entrepreneurs](https://mikebastin.com/fr/entrepreneuriat-international-a-valencia/) jonglant entre différents fuseaux horaires. Par ailleurs, prévoyez une soirée par semaine pour le réseautage local, en choisissant éventuellement un jour où vous avez moins d’engagements internationaux.
+Envisagez de participer aux événements de réseautage matinaux, tels que les rendez-vous « Business Breakfast » qui ont lieu avant le début des journées de travail (8h-9h30). Beaucoup de groupes d’entreprises [internationales à Valencia organisent ces derniers spécialement pour les entrepreneurs](https://mikebastin.com/fr/entrepreneuriat-international-a-valencia/) jonglant entre différents fuseaux horaires. Par ailleurs, prévoyez une soirée par semaine pour le réseautage local, en choisissant éventuellement un jour où vous avez moins d’engagements internationaux.
 
 ### Je ne peux pas me rendre aux rendez-vous du traditionnel déjeuner espagnol qui semble essentiel pour les relations d’entreprise. Quelles possibilités s’offrent à vous ?
 
@@ -140,7 +141,7 @@ Proposez des rencontres lors du petit-déjeuner à 9h ou lors des goûters vers 
 
 ### Comment expliquer mon emploi du temps peu conventionnel aux potentiels clients ou partenaires espagnols sans paraître manquer de professionnalisme ?
 
-Présentez votre programme international comme un atout – expliquez comment vos connexions internationales peuvent profiter à vos partenaires locaux grâce à des heures d’ouverture élargies et à des informations sur les marchés internationaux. Soyez transparent sur votre disponibilité et mettez l’accent sur votre flexibilité pour les rendez-vous importants. Beaucoup d’entreprises espagnoles s’intéressent de plus en plus aux marchés internationaux et apprécient les partenaires ayant une expérience mondiale.
+Présentez votre programme international comme un atout, expliquez comment vos connexions internationales peuvent profiter à vos partenaires locaux grâce à des heures d’ouverture élargies et à des informations sur les marchés internationaux. Soyez transparent sur votre disponibilité et mettez l’accent sur votre flexibilité pour les rendez-vous importants. Beaucoup d’entreprises espagnoles s’intéressent de plus en plus aux marchés internationaux et apprécient les partenaires ayant une expérience mondiale.
 
 ### J’ai entendu dire que les relations sont essentielles dans la culture d’entreprise espagnole. Comment puis-je les tisser si je ne suis pas les horaires espagnols habituels ?
 

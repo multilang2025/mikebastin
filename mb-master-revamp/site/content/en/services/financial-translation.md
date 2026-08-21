@@ -1,5 +1,5 @@
 ---
-words: 529
+words: 528
 editorial: "superseded"
 title: "Financial Translations"
 slug: "financial-translation"
@@ -35,7 +35,7 @@ Our team includes translators with specialised knowledge in various financial fi
 
 We ensure all translations comply with international financial regulations and standards across different markets.
 
-Comprehensive Financial Translation Services
+Financial Translation Services
 
 From annual reports to investment prospectuses, we offer a wide range of financial translation services bespoke to meet the specific needs of financial institutions, corporations, and investors.
 

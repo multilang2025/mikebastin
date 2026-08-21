@@ -10,19 +10,19 @@ wpId: 2
 date: "2020-03-27T15:58:17"
 modified: "2026-07-19T12:10:05"
 sourceUrl: "https://mikebastin.com/"
-excerpt: "Maximise your global reach with our expert web consulting services, offering SEO optimisation, digital marketing, branding, and multilingual solutions."
+excerpt: "Increase your global reach with our expert web consulting services, offering SEO optimisation, digital marketing, branding, and multilingual solutions."
 ---
 
-# Multilingual SEO & Marketing Consulting
+# Multilingual SEO and Marketing Consulting
 
-Expert SEO, Content & Translation Strategies for Global Expansion
+Expert SEO, Content and Translation Strategies for Global Expansion
 
 ## Strategic Web Consulting for  
 International Growth
 
 ### Because One Language Will Only Get You So Far
 
-As a specialist in international digital marketing with over 15 years of experience, I help businesses in the law, logistics and real estate sectors expand their reach into European and global markets. My approach integrates data-driven SEO, culturally-adapted content marketing, and precise website localization to build a strong and authentic online presence that resonates with diverse audiences.
+As a specialist in international digital marketing with over 15 years of experience, we help businesses in the law, logistics and real estate sectors expand their reach into European and global markets. Our approach integrates data-driven SEO, culturally-adapted content marketing, and precise website localization to build a strong and authentic online presence that resonates with diverse audiences.
 
 Our Customers
 

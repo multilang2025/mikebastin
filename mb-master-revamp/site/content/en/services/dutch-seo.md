@@ -9,12 +9,12 @@ wpId: 17228778
 date: "2024-09-24T16:32:04"
 modified: "2026-07-19T10:47:24"
 sourceUrl: "https://mikebastin.com/services/dutch-seo/"
-excerpt: "Speak the language of your customers in Belgium and the Netherlands 🇳🇱 Drive more local traffic with powerful Dutch SEO — let’s talk!"
+excerpt: "Speak the language of your customers in Belgium and the Netherlands Drive more local traffic with powerful Dutch SEO, let’s talk!"
 ---
 
 # Dutch SEO: ranking in the Netherlands and Flanders, executed natively
 
-Fluent Dutch on my side from Erasmus Utrecht and years of Belgian / Dutch clientele. Native review on every commercial deliverable. NL-NL and NL-BE treated as distinct markets.
+Fluent Dutch on our side from Erasmus Utrecht and years of Belgian / Dutch clientele. Native review on every commercial deliverable. NL-NL and NL-BE treated as distinct markets.
 
 ~24M
 
@@ -34,7 +34,7 @@ visibility in Google.nl, Google.be and LLMs answering in Dutch
 
 ## Three ways to fail at Dutch SEO
 
-Recurring errors on Dutch sites I audit:
+Recurring errors on Dutch sites we audit:
 
 The Netherlands and Flanders share Dutch as a language but the markets differ. Vocabulary: “verzekering” (NL) vs “assurantie/verzekering” (BE), “huurwoning” (NL) vs “huurappartement” (BE common). Tax regimes, regulations, currency expectations differ. A unified site targeting both ends up half-relevant for each. Hreflang nl-NL and nl-BE distinguish the two when both are in scope.
 
@@ -42,9 +42,9 @@ Dutch users read fast and decide fast. Sites translated from English keep the ve
 
 KvK number (Chamber of Commerce) on the footer, BTW number visible, Thuiswinkel Waarborg badge for ecommerce, AVG-compliant cookie consent (Dutch GDPR), iDEAL payment for B2C. The absence of any of these immediately signals “foreign site” to a Dutch buyer and erodes conversion. Belgian sites have parallel signals (KBO/BCE number, BTW/TVA).
 
-Dutch SEO requires native execution and local trust signals. Fluent Dutch on my side plus systematic native review by Dutch copywriters from the [BeTranslated network](https://mikebastin.com/services/multilingual-seo/) on every commercial deliverable.
+Dutch SEO requires native execution and local trust signals. Fluent Dutch on our side plus systematic native review by Dutch copywriters from the [BeTranslated network](https://mikebastin.com/services/multilingual-seo/) on every commercial deliverable.
 
-## What I include in a Dutch SEO engagement
+## What we include in a Dutch SEO engagement
 
 Real Dutch keyword research with commercial intent classification. Long-tail variants. Distinct sets for NL-NL and NL-BE where targeting both markets.
 
@@ -58,7 +58,7 @@ NL regional press (NRC, AD, regionale dagbladen), sector directories (Gouden Gid
 
 Optimisation for ChatGPT, Claude, Perplexity and Google AI Overviews in Dutch. Distinct knowledge graph per language. NL-NL responses differ from EN equivalents.
 
-## My process in 5 steps, named deliverables
+## Our process in 5 steps, named deliverables
 
 Fluent Dutch piloting plus native review on every commercial output.
 
@@ -68,7 +68,7 @@ Fluent Dutch piloting plus native review on every commercial output.
 
 **Deliverable:** 6-12 month strategy with editorial calendar, architecture choice, NL / BE prioritisation, technical plan, legal compliance roadmap.
 
-**Deliverable:** content production piloted directly by me in Dutch, native review on every commercial deliverable, technical optimisation, Dutch backlinks, Search Console and Bing Webmaster submission per market.
+**Deliverable:** content production piloted directly by us in Dutch, native review on every commercial deliverable, technical optimisation, Dutch backlinks, Search Console and Bing Webmaster submission per market.
 
 **Deliverable:** monthly report with Google.nl and Google.be positions, AI citations in Dutch, performance by NL / BE market if relevant, actionable recommendations. Report in English, French or Dutch.
 
@@ -142,9 +142,9 @@ Local presence per Dutch city (GBP, citations)
 
 ## Why this team for Dutch SEO
 
-**Michael Bastin:** 25 years in SEO and translation. Dutch fluent: Erasmus exchange in Utrecht, then 16 years in the Dominican Republic with active Dutch-Caribbean clientele, plus daily Dutch communication through the BeTranslated network.
+**Mike Bastin:** 25 years in SEO and translation. Dutch fluent: Erasmus exchange in Utrecht, then 16 years in the Dominican Republic with active Dutch-Caribbean clientele, plus daily Dutch communication through the BeTranslated network.
 
-Direct piloting of Dutch SEO engagements without intermediaries: I read SERPs, I write briefs, I take meetings in Dutch. Native review by Dutch copywriters on every commercial deliverable for final polish.
+Direct piloting of Dutch SEO engagements without intermediaries: we read SERPs, we write briefs, we take meetings in Dutch. Native review by Dutch copywriters on every commercial deliverable for final polish.
 
 Practical experience with the NL / BE split, with KvK and KBO compliance, with the Dutch user expectation of directness on commercial sites.
 
@@ -166,9 +166,9 @@ Reasoned recommendation given at scoping, not a default opinion.
 
 Do you write Dutch content directly, or via a translator?
 
-Direct piloting in Dutch on my side: I write SEO briefs in Dutch, I read SERPs, I review competitor content. For final commercial copy that will be published, native Dutch copywriters from the BeTranslated network do the polishing pass to guarantee tone and idioms are spot on. Hybrid in practice: direct fluent piloting + native polish.
+Direct piloting in Dutch on our side: we write SEO briefs in Dutch, we read SERPs, we review competitor content. For final commercial copy that will be published, native Dutch copywriters from the BeTranslated network do the polishing pass to guarantee tone and idioms are spot on. Hybrid in practice: direct fluent piloting + native polish.
 
-Should I target Netherlands, Flanders, or both?
+Should we target Netherlands, Flanders, or both?
 
 Depends on where your customers are. If your sales pipeline is purely NL, skip Flanders, different regulations, different vocabulary, different competition. If you have Belgian customers asking in Dutch, justified to add nl-BE hreflang with adapted content. Reasoned recommendation in scoping based on your sales data.
 
@@ -182,7 +182,7 @@ Same language, different vocabulary in commercial settings. NL uses “huurwonin
 
 How do you handle KvK and BTW / KBO compliance?
 
-Standard part of the Dutch or Belgian build. KvK number + BTW (NL) or KBO/BCE number + BTW/TVA (BE) visible in footer and contact pages. AVG-compliant cookie consent (Dutch GDPR), Algemene Voorwaarden / Algemene Gebruiksvoorwaarden depending on activity type. For complex regulated sectors (financial, healthcare) I recommend a specialised Dutch or Belgian lawyer on top of my technical implementation.
+Standard part of the Dutch or Belgian build. KvK number + BTW (NL) or KBO/BCE number + BTW/TVA (BE) visible in footer and contact pages. AVG-compliant cookie consent (Dutch GDPR), Algemene Voorwaarden / Algemene Gebruiksvoorwaarden depending on activity type. For complex regulated sectors (financial, healthcare) we recommend a specialised Dutch or Belgian lawyer on top of our technical implementation.
 
 Is iDEAL or Bancontact integration relevant for SEO?
 
@@ -194,6 +194,6 @@ Quoted. The price depends on scope (NL only, BE only, or both), editorial volume
 
 ## Ready to rank in Dutch?
 
-I start by auditing your Dutch presence with native review of Google.nl or Google.be SERPs. Quantified diagnosis, actionable recommendations. Free first call, no commitment.
+We start by auditing your Dutch presence with native review of Google.nl or Google.be SERPs. Quantified diagnosis, actionable recommendations. Free first call, no commitment.
 
 Related services: [multilingual SEO](https://mikebastin.com/services/multilingual-seo/) · [international SEO](https://mikebastin.com/services/global-seo-solutions/) · [multilingual SEM](https://mikebastin.com/services/multilingual-sem/)

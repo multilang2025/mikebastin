@@ -27,7 +27,7 @@ Our transcreation experts adapt your content, so your message inspires trust and
 • Native linguists ensure your tone, intent, and impact never get lost  
 • Every project balances creative freedom and brand consistency
 
-Stand out with copy that feels natural—everywhere.  
+Stand out with copy that feels natural, everywhere.  
 Ready to connect with your global audience?  
 [Contact us](https://mikebastin.com/contact-us/) or see our [content localisation](https://mikebastin.com/services/content-localisation/) and [business translation](https://mikebastin.com/services/business-translation/) services.
 
@@ -69,7 +69,7 @@ Nous adaptons et affinons votre contenu, en le transformant en messages pertinen
 
 Nous suivons vos performances et votre contenu transcréé et nous fournissons des rapports personnalisés, en faisant les ajustements nécessaires pour obtenir des résultats optimaux.
 
-FAQ – Questions fréquentes
+FAQ, Questions fréquentes
 
 La transcréation va au-delà de la traduction en adaptant le contenu pour qu’il parle culturellement et émotionnellement aux publics locaux.
 

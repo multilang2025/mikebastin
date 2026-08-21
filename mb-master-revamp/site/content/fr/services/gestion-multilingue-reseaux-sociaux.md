@@ -1,5 +1,5 @@
 ---
-words: 1249
+words: 1248
 editorial: "superseded"
 title: "Gestion multilingue des réseaux sociaux"
 slug: "gestion-multilingue-reseaux-sociaux"
@@ -68,7 +68,7 @@ Adaptez votre stratégie digitale en fonction des spécificités de chaque march
 
 Analysez les données démographiques de votre audience et ses habitudes sur les réseaux sociaux afin de déterminer quelles plateformes offriront le meilleur engagement et le meilleur retour sur investissement pour chaque langue et région.
 
-L’architecture de votre présence sociale internationale – comptes régionaux distincts ou compte global multilingue – doit refléter vos capacités opérationnelles et ambitions stratégiques. Les comptes localisés offrent l’avantage d’un contenu hautement personnalisé, d’une communauté dédiée, d’horaires de publication adaptés aux fuseaux horaires et d’une résonance culturelle optimale avec chaque audience.
+L’architecture de votre présence sociale internationale, comptes régionaux distincts ou compte global multilingue, doit refléter vos capacités opérationnelles et ambitions stratégiques. Les comptes localisés offrent l’avantage d’un contenu hautement personnalisé, d’une communauté dédiée, d’horaires de publication adaptés aux fuseaux horaires et d’une résonance culturelle optimale avec chaque audience.
 
 Cette stratégie de segmentation exige toutefois un investissement supérieur en ressources humaines et financières. À l’inverse, la centralisation via un compte unique proposant du contenu multilingue simplifie la gestion, mais expose vos abonnés à des publications potentiellement non pertinentes pour leur contexte. Votre arbitrage doit s’appuyer sur une évaluation rigoureuse de vos objectifs commerciaux, de vos contraintes opérationnelles et des attentes spécifiques de vos différentes audiences.
 
@@ -102,4 +102,4 @@ Nos clients
 
 Notre expertise en gestion multilingue des médias sociaux
 
-Boostez votre marque dans le monde entier avec les médias sociaux qui parlent toutes les langues. Nous créons du contenu natif, suscitant un véritable engagement, et transformons les followers en fans fidèles—où qu’ils soient.
+Boostez votre marque dans le monde entier avec les médias sociaux qui parlent toutes les langues. Nous créons du contenu natif, suscitant un véritable engagement, et transformons les followers en fans fidèles, où qu’ils soient.

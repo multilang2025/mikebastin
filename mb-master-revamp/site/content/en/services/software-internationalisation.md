@@ -1,5 +1,5 @@
 ---
-words: 567
+words: 566
 editorial: "superseded"
 title: "Software Internationalisation"
 slug: "software-internationalisation"
@@ -36,7 +36,7 @@ Enable faster, easier localisation for new regions.
 
 Ensure compatibility with diverse languages and cultures.
 
-## Comprehensive Software Internationalisation Services
+## Software Internationalisation Services
 
 Our software internationalisation services are designed to ensure your software’s architecture is flexible, adaptable, and ready to support multiple languages and regional settings without requiring code changes. Our services include:
 

@@ -1,5 +1,5 @@
 ---
-words: 872
+words: 871
 title: "How AI is Revolutionising SEO Strategies"
 slug: "how-ai-is-revolutionising-seo-strategies"
 locale: "en"
@@ -9,7 +9,7 @@ wpId: 24845407
 date: "2024-11-27T18:13:00"
 modified: "2026-07-19T11:28:39"
 sourceUrl: "https://mikebastin.com/how-ai-is-revolutionising-seo-strategies/"
-excerpt: "AI is reshaping how SEO works, from keyword research to content visibility. This article explains what has changed, what still matters, and how to adapt your SEO strategy. Read on and stay ahead instead of reacting too late."
+excerpt: "AI is reshaping how SEO works, from keyword research to content visibility. Below we explain what has changed, what still matters, and how to adapt your SEO strategy. Read on and stay ahead instead of reacting too late."
 ---
 
 ## How AI is reshaping SEO strategy in 2026
@@ -66,7 +66,7 @@ Sites publishing AI-generated content without expert review saw traffic drops of
 
 ### AI-enhanced competitor analysis
 
-Competitor intelligence moved from monthly reports to real-time monitoring, though the fundamentals still matter — my [competitor analysis checklist](https://mikebastin.com/competitor-analysis-traffic-checklist/) walks through the manual audit that AI now accelerates.
+Competitor intelligence moved from monthly reports to real-time monitoring, though the fundamentals still matter, our [competitor analysis checklist](https://mikebastin.com/competitor-analysis-traffic-checklist/) walks through the manual audit that AI now accelerates.
 
 AI tools track ranking changes, new content publication, backlink acquisition, and technical updates across entire competitor sets simultaneously.
 

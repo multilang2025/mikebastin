@@ -10,7 +10,7 @@ wpId: 36803
 date: "2020-12-01T16:36:47"
 modified: "2026-05-29T07:41:27"
 sourceUrl: "https://mikebastin.com/services/web-design/"
-excerpt: "Elevate your brand with our multilingual web design and SEO expertise, enhancing global reach with responsive, user-centric, and fast-loading websites."
+excerpt: "Improve your brand with our multilingual web design and SEO expertise, enhancing global reach with responsive, user-centric, and fast-loading websites."
 ---
 
 # Multilingual web design built for SEO and conversion
@@ -35,7 +35,7 @@ technical foundation set so AI search engines also pick up the site, not just Go
 
 ## Where most multilingual websites fail before launch
 
-Three recurring problems on the sites I audit:
+Three recurring problems on the sites we audit:
 
 The site was designed for a single language, then a translation plugin was bolted on six months later. URLs are inconsistent, hreflang is missing or wrong, sitemaps are not split by language, and Search Console reports a mess. Every fix afterwards costs three times more than designing it right from day one.
 
@@ -43,9 +43,9 @@ The design is beautiful in Figma, then live the H1 is hidden in an image, the sc
 
 “Name, email, message” with no qualifying questions. You spend hours each week filtering students looking for internships, students hoping to learn, and tyre-kickers from countries you do not serve. A lead form is a qualification tool, not a contact widget. It either filters at the door or wastes your time downstream.
 
-My approach: SEO, multilingual structure, and design planned together before the first wireframe. The site you launch is the site you can grow with, in the languages you actually need. Read more on the [multilingual SEO](https://mikebastin.com/services/multilingual-seo/) approach that informs every design I deliver.
+Our approach: SEO, multilingual structure, and design planned together before the first wireframe. The site you launch is the site you can grow with, in the languages you actually need. Read more on the [multilingual SEO](https://mikebastin.com/services/multilingual-seo/) approach that informs every design we deliver.
 
-## What I include in a web design engagement
+## What we include in a web design engagement
 
 Keyword research and intent mapping before mocking up a single page. The structure follows the search demand, not the other way around. URL hierarchy and internal linking planned from the start.
 
@@ -59,7 +59,7 @@ Organization, LocalBusiness, Service, Product, Article, FAQ, BreadcrumbList. Cus
 
 Three to five qualifying questions (sector, budget range, timeline, languages, country), conditional logic, immediate confirmation email, CRM or spreadsheet sync. Filtered leads, not noise in your inbox.
 
-## My process in 5 steps, named deliverables
+## Our process in 5 steps, named deliverables
 
 No design before SEO scope and multilingual architecture are validated together with you.
 
@@ -149,7 +149,7 @@ Hosting, domain registration, ongoing maintenance
 
 ## Why this team for multilingual web design
 
-**Michael Bastin:** 25 years in SEO and translation, based in Valencia (Spain) since 2016. Multilingual builds across Europe (BE, FR, ES, NL, UK, DE, IT, PT) and the Americas (US, Dominican Republic, Costa Rica, Mexico). Fluent in French, English, Spanish and Dutch, B1 in German.
+**Mike Bastin:** 25 years in SEO and translation, based in Valencia (Spain) since 2016. Multilingual builds across Europe (BE, FR, ES, NL, UK, DE, IT, PT) and the Americas (US, Dominican Republic, Costa Rica, Mexico). Fluent in French, English, Spanish and Dutch, B1 in German.
 
 Full stack mastery end to end: WordPress (Divi, Gutenberg, Elementor, Bricks depending on the case), WPML / Polylang, Rank Math / Yoast, GA4, GTM, Cloudflare, LiteSpeed, managed hosting. Webflow and Shopify for specific contexts. Plus a native copywriter and translator network for any other language via BeTranslated.
 
@@ -159,7 +159,7 @@ One interlocutor, one invoice, one accountable consultant rather than an agency 
 
 ### Which CMS, which builder, which stack?
 
-**WordPress by default.** 80% of the multilingual builds I deliver run on WordPress because the ecosystem (WPML, Rank Math, Yoast, Polylang, schema plugins, managed hosting) has no real rival for ranking a site in multiple languages. Within WordPress the builder is chosen for your context: Gutenberg / FSE for editorial sites, Divi for business flexibility, Elementor for teams already trained on it, Bricks for performance.
+**WordPress by default.** 80% of the multilingual builds we deliver run on WordPress because the ecosystem (WPML, Rank Math, Yoast, Polylang, schema plugins, managed hosting) has no real rival for ranking a site in multiple languages. Within WordPress the builder is chosen for your context: Gutenberg / FSE for editorial sites, Divi for business flexibility, Elementor for teams already trained on it, Bricks for performance.
 
 **Other CMSes when justified.** Shopify for heavy ecommerce. Webflow for marketing-first sites with strong visual demand and no heavy multilingual constraints. Astro or Next.js headless when raw performance and developer experience are critical. Not WordPress by dogma.
 
@@ -171,25 +171,25 @@ How long does a multilingual web design project take?
 
 Typical timeline: 10 to 14 weeks from kick-off to launch for a 15-30 page site in 2-3 languages. Discovery and SEO scope take 3 weeks. Design and prototyping take 4 weeks. CMS integration and multilingual configuration take 3 to 4 weeks. Launch, redirects and Search Console submission take the final week. Faster is possible if scope is tight. Slower if content has to be produced in three languages from scratch.
 
-Do you work with my existing hosting provider, or do you impose one?
+Do you work with our existing hosting provider, or do you impose one?
 
-Both work. Recommended hosts for multilingual WordPress: WP Engine, Cloudways, Kinsta, or a managed VPS at Hetzner or OVH with LiteSpeed stack. For a Webflow or Shopify build, hosting is part of the platform. Cheap shared hosting often causes problems on WordPress: slow PHP, badly configured caching, no staging environment. If your current host works well, we keep it. If not, I recommend a justified migration.
+Both work. Recommended hosts for multilingual WordPress: WP Engine, Cloudways, Kinsta, or a managed VPS at Hetzner or OVH with LiteSpeed stack. For a Webflow or Shopify build, hosting is part of the platform. Cheap shared hosting often causes problems on WordPress: slow PHP, badly configured caching, no staging environment. If your current host works well, we keep it. If not, we recommend a justified migration.
 
 Can we keep our existing brand identity, or do you redesign it?
 
-Both options. If you have an existing brand identity (logo, colours, typography, voice), I work within it and bring SEO and multilingual structure to the build. If your brand is unclear or feels generic, a brand refresh can be part of the discovery phase. The site has to look like your business, not like a generic Divi template.
+Both options. If you have an existing brand identity (logo, colours, typography, voice), we work within it and bring SEO and multilingual structure to the build. If your brand is unclear or feels generic, a brand refresh can be part of the discovery phase. The site has to look like your business, not like a generic Divi template.
 
 How do you handle content translation during the build?
 
-Three options depending on your situation: (1) you provide content in all required languages, I handle integration; (2) you provide content in one language, I coordinate translation through the BeTranslated network of native copywriters; (3) full multilingual content production from scratch, briefed in your strategic language (FR or EN typically), translated and adapted by natives for each market. The lift differs in budget but the outcome is always native-quality copy, not machine translation.
+Three options depending on your situation: (1) you provide content in all required languages, we handle integration; (2) you provide content in one language, we coordinate translation through the BeTranslated network of native copywriters; (3) full multilingual content production from scratch, briefed in your strategic language (FR or EN typically), translated and adapted by natives for each market. The lift differs in budget but the outcome is always native-quality copy, not machine translation.
 
-What happens to my existing SEO during a redesign?
+What happens to our existing SEO during a redesign?
 
-The biggest risk in a redesign is killing organic traffic for 6-12 months because old URLs were not redirected and the new site architecture confused Google. My process includes: full inventory of current URLs by traffic before launch, redirect map (301) for every URL that moves, monitoring of Search Console for 90 days post-launch, immediate response if any high-traffic page loses ranking. The redesign protects existing traffic and adds new opportunities, it does not reset everything.
+The biggest risk in a redesign is killing organic traffic for 6-12 months because old URLs were not redirected and the new site architecture confused Google. Our process includes: full inventory of current URLs by traffic before launch, redirect map (301) for every URL that moves, monitoring of Search Console for 90 days post-launch, immediate response if any high-traffic page loses ranking. The redesign protects existing traffic and adds new opportunities, it does not reset everything.
 
 Do you offer ongoing maintenance after launch?
 
-Maintenance contracts on request for the sites I build. Includes WordPress core, theme and plugin updates, security monitoring, daily backups, uptime monitoring, performance audits quarterly. Separate from SEO retainers (which are covered under multilingual SEO). Pricing on quote, based on site complexity and update frequency.
+Maintenance contracts on request for the sites we build. Includes WordPress core, theme and plugin updates, security monitoring, daily backups, uptime monitoring, performance audits quarterly. Separate from SEO retainers (which are covered under multilingual SEO). Pricing on quote, based on site complexity and update frequency.
 
 How much does a multilingual web design project cost?
 
@@ -197,6 +197,6 @@ Quoted. The price depends on number of pages, number of languages, complexity of
 
 ## Ready to scope your multilingual build?
 
-I start by understanding your audience, your commercial priorities and your technical context. Free first call, no commitment.
+We start by understanding your audience, your commercial priorities and your technical context. Free first call, no commitment.
 
 Related services: [multilingual SEO](https://mikebastin.com/services/multilingual-seo/) · [global SEO](https://mikebastin.com/services/global-seo-solutions/) · [multilingual copywriting](https://mikebastin.com/services/multilingual-seo-copywriting/) · [local SEO](https://mikebastin.com/services/local-seo/)

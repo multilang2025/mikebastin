@@ -47,7 +47,7 @@ We maintain the right tone and terminology across your [SEO-optimised content](h
 
 **Servicios de posedición de IA y TA**
 
-[Optimise your AI or machine-translated content](https://mikebastin.com/how-to-use-ai-and-machine-translation-tools/) with our tailored editing solutions, ensuring every piece is flawless, accurate, and market-ready. 
+[Optimise your AI or machine-translated content](https://mikebastin.com/how-to-use-ai-and-machine-translation-tools/) with our tailored editing solutions, ensuring every piece is flawless, accurate, and market-ready. 
 
 Corregimos los errores gramaticales que pueda cometer la IA y nos cercioramos de que tu contenido pulido y profesional.
 
@@ -65,7 +65,7 @@ We follow a thorough, structured process to ensure your [multilingual website](h
 
 Consideramos las necesidades de tu proyecto, el público y los objetivos para ajustar nuestros servicios a tus requisitos específicos.
 
-We analyse market trends and competitors to ensure your [content stands out and meets](https://mikebastin.com/how-to-create-a-targeted-content-strategy/) industry benchmarks. 
+We analyse market trends and competitors to ensure your [content stands out and meets](https://mikebastin.com/how-to-create-a-targeted-content-strategy/) industry benchmarks. 
 
 Nuestro equipo desarrolla un plan de edición a medida basado en las necesidades de tu contenido y los resultados deseados.
 

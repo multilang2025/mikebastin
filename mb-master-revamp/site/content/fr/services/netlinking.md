@@ -1,5 +1,5 @@
 ---
-words: 996
+words: 995
 editorial: "superseded"
 title: "Services de netlinking"
 slug: "netlinking"
@@ -67,7 +67,7 @@ We reach out to reputable websites and [build quality links](https://mikebastin.
 
 Notre équipe analyse en permanence l’efficacité de vos liens entrants et vous communique des bilans précis illustrant l’évolution de votre campagne, tout en affinant notre approche pour maximiser vos résultats.
 
-FAQ – Questions fréquentes
+FAQ, Questions fréquentes
 
 Le netlinking est le processus d’acquisition de backlinks de haute qualité provenant d’autres sites web pour améliorer votre positionnement dans les moteurs de recherche et votre autorité en ligne.
 

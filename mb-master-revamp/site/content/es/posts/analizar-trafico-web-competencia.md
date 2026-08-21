@@ -44,9 +44,9 @@ Empresas como **Delaguía Luzón** o **Texas Freight** no solo miden visitas: an
 ## Métricas que sí importan
 
 Olvídate de métricas de vanidad. Lo que cuenta es la calidad del tráfico. Mira:  
-– Tasa de rebote estimada  
-– Tiempo medio en la web  
-– Páginas que retienen más usuarios
+,  Tasa de rebote estimada  
+,  Tiempo medio en la web  
+,  Páginas que retienen más usuarios
 
 Esto te dice qué contenidos funcionan de verdad.
 
@@ -121,9 +121,9 @@ Este enfoque holístico es el corazón de nuestro [análisis competitivo SEO par
 ### Herramientas que sí valen la pena
 
 Combina:  
-– **SimilarWeb:** para volumen general de tráfico  
-– **Ahrefs/Semrush:** para keywords y backlinks  
-– **Análisis manual:** sus newsletters, redes sociales, tono de voz
+,  **SimilarWeb:** para volumen general de tráfico  
+,  **Ahrefs/Semrush:** para keywords y backlinks  
+,  **Análisis manual:** sus newsletters, redes sociales, tono de voz
 
 Y si empiezas con poco presupuesto, usa [herramientas gratuitas de análisis competitivo](https://mikebastin.com/es/herramientas-gratuitas-analisis-competitivo/) como Google Trends, Keyword Planner o extensiones como Wappalyzer. Lo clave es hacerlo con regularidad: una vez al año no sirve.
 

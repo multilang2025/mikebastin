@@ -9,12 +9,12 @@ wpId: 24845534
 date: "2024-10-29T12:34:00"
 modified: "2026-07-02T15:30:51"
 sourceUrl: "https://mikebastin.com/optimise-a-google-business-profile/"
-excerpt: "Is your Google Business Profile as spotty as a teenager’s selfie? While you’d never dream of letting your shop window gather dust, your digital storefront might be doing just that. Fancy learning how to transform your profile from proper pants to absolutely brilliant? We’ll show you the tricks of the trade—no technical wizardry required. Pop in to discover how to make your business shine online. →"
+excerpt: "Is your Google Business Profile as spotty as a teenager’s selfie? While you’d never dream of letting your shop window gather dust, your digital storefront might be doing just that. Fancy learning how to transform your profile from proper pants to absolutely brilliant? We’ll show you the tricks of the trade, no technical wizardry required. Pop in to discover how to make your business shine online. →"
 ---
 
 ## Google Business Profile in 2026: what actually works for local visibility
 
-A client rang me in February.
+A client rang us in February.
 
 Her yoga studio in Valencia had slipped out of the local three-pack after two years of steady visibility.
 
@@ -96,7 +96,7 @@ Record a single continuous take showing signage, the reception area, and one liv
 
 After verification, treat the profile like the studio floor: it needs daily care to stay welcoming.
 
-I watched a Valencia wellness studio lose a third of their class bookings after three quiet weeks.
+We watched a Valencia wellness studio lose a third of their class bookings after three quiet weeks.
 
 The profile recovered once we posted two photos and one update per week for 30 days.
 
@@ -202,7 +202,7 @@ For class-driven businesses, connect your booking system (MindBody, Momoyoga, Ar
 
 Fewer steps from search to reserved mat means fewer lost students.
 
-I set this up for a wellness studio last year and class bookings rose 40% inside two months, with no ad spend.
+We set this up for a wellness studio last year and class bookings rose 40% inside two months, with no ad spend.
 
 ### Insights worth tracking
 
@@ -218,7 +218,7 @@ High impressions with low actions means the profile does not convert, so rework 
 
 ### FAQ: Google Business Profile in 2026
 
-#### Is Google My Business still called that?
+#### Is Google Our Business still called that?
 
 No. The product has been called Google Business Profile since late 2021, although many practitioners still say GMB out of habit.
 
@@ -230,11 +230,11 @@ At least twice a week: one fresh photo and one update such as a new class, works
 
 The user-facing Q&A has been phased out across most regions. Gemini now answers questions through Ask Maps using your profile, reviews, and website content. Add an FAQ section to your site with LocalBusiness and FAQPage schema to feed it clean data.
 
-#### Can I use AI to write my studio description?
+#### Can we use AI to write our studio description?
 
 Yes for drafting, no for fully automated publishing. Google allows AI-assisted text but prohibits AI-generated reviews and misleading content. Edit every draft before publishing.
 
-#### Do I need a 5-star rating to rank?
+#### Do we need a 5-star rating to rank?
 
 No. A 4.5 average with 20 or more recent reviews and active engagement ranks better than a suspicious 5.0 with no critical feedback. Google’s AI filter flags perfect ratings as potentially manipulated.
 
@@ -254,10 +254,10 @@ Five checks, in order:
 
 Fix those five and you will see movement inside a month.
 
-I have been doing SEO and translation work for 25 years, including multilingual local SEO across Belgium, France, Spain, the Netherlands, the UK, and the US.
+We have been doing SEO and translation work for 25 years, including multilingual local SEO across Belgium, France, Spain, the Netherlands, the UK, and the US.
 
-Right now I run the same playbook for a Spanish law firm, a US freight company, a Dominican real estate agency, and a handful of wellness and language-services brands.
+Right now we run the same playbook for a Spanish law firm, a US freight company, a Dominican real estate agency, and a handful of wellness and language-services brands.
 
-If you want a direct review of your studio’s Google Business Profile, your local pack position, or the broader SEO services setup around it, [get in touch here](https://mikebastin.com/contact-us/) or read more about how I work on the [about page](https://mikebastin.com/about-us/).
+If you want a direct review of your studio’s Google Business Profile, your local pack position, or the broader SEO services setup around it, [get in touch here](https://mikebastin.com/contact-us/) or read more about how we work on the [about page](https://mikebastin.com/about-us/).
 
-You can also see the full scope of what I cover on the [local SEO services](https://mikebastin.com/services/local-seo/) page.
+You can also see the full scope of what we cover on the [local SEO services](https://mikebastin.com/services/local-seo/) page.

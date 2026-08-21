@@ -1,5 +1,5 @@
 ---
-words: 704
+words: 703
 editorial: "superseded"
 title: "Keyword Research Services"
 slug: "keyword-research"
@@ -10,7 +10,7 @@ wpId: 24844924
 date: "2024-10-03T14:19:43"
 modified: "2026-07-19T11:09:18"
 sourceUrl: "https://mikebastin.com/services/keyword-research/"
-excerpt: "Go global with expert brand localisation. We tailor your message, visuals, and cultural elements to connect authentically with diverse markets worldwide."
+excerpt: "Go global with expert brand localisation. We adapt your message, visuals, and cultural elements to connect authentically with diverse markets worldwide."
 ---
 
 # Keyword Research Services
@@ -39,7 +39,7 @@ Improve your SEO with competitive, well-researched keywords.
 
 Optimise content for terms that drive action.
 
-## Comprehensive Keyword Research Services for SEO
+## Keyword Research Services for SEO
 
 Without proper keyword research, content often fails because it does not match user intent or the formats search engines and AI platforms prioritise.
 
@@ -55,7 +55,7 @@ Build a prioritised roadmap that connects search demand to content, conversion, 
 
 ## Our Keyword Research Process
 
-My team and I combine professional tools with intent analysis, SERP behaviour review, and semantic clustering to understand how demand is structured.
+Our team and we combine professional tools with intent analysis, SERP behaviour review, and semantic clustering to understand how demand is structured.
 
 We focus on identifying content opportunities that align with user intent, commercial value, and long-term visibility.
 
@@ -85,7 +85,7 @@ Search behaviour, competition, and AI-driven results evolve, so research must ad
 Yes. Keyword research must account for cultural context, search behaviour, and intent differences across languages and regions.  
 Direct translation is not enough. Each market requires its own analysis.
 
-Success is measured by relevance and outcomes, not keyword rankings alone. This includes improved content performance, stronger intent alignment, higher-quality leads, and clearer decision paths for users.
+Success is measured by relevance and outcomes, not keyword rankings alone. Outcomes include improved content performance, stronger intent alignment, higher-quality leads, and clearer decision paths for users.
 
 Our Customers
 
