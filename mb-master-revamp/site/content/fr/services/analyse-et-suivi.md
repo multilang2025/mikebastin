@@ -1,5 +1,5 @@
 ---
-words: 783
+words: 780
 editorial: "superseded"
 title: "Analyse et Suivi"
 slug: "analyse-et-suivi"

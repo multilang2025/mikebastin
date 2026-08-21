@@ -1,5 +1,5 @@
 ---
-words: 761
+words: 760
 editorial: "superseded"
 title: "Services de recherche de mots-clés"
 slug: "recherche-mots-cles"

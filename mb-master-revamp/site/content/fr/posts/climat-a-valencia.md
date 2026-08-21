@@ -1,5 +1,5 @@
 ---
-words: 822
+words: 824
 title: "Climat à Valencia : pourquoi vous allez l’adorer"
 slug: "climat-a-valencia"
 locale: "fr"

@@ -1,5 +1,5 @@
 ---
-words: 888
+words: 885
 editorial: "superseded"
 title: "Localisation multimédia"
 slug: "localisation-multimedia"

@@ -1,5 +1,5 @@
 ---
-words: 1073
+words: 1074
 editorial: "structural"
 title: "Blog"
 slug: "blog"

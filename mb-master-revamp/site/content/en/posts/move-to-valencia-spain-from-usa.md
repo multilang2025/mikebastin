@@ -1,5 +1,6 @@
 ---
 words: 2237
+editorial: "relocating"
 title: "How to Move to Valencia, Spain from the USA: Your Complete 2026 Checklist"
 slug: "move-to-valencia-spain-from-usa"
 locale: "en"

@@ -1,5 +1,5 @@
 ---
-words: 597
+words: 598
 editorial: "superseded"
 title: "Multilingual UX/UI Design"
 slug: "multilingual-ux-ui-design"

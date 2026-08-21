@@ -1,5 +1,5 @@
 ---
-words: 809
+words: 808
 editorial: "superseded"
 title: "Tests de localisation"
 slug: "test-localisation"

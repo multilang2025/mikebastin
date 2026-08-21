@@ -1,5 +1,6 @@
 ---
 words: 2432
+editorial: "relocating"
 title: "Coût de la vie à Valencia en 2026 : le budget réel d'un francophone installé sur place"
 slug: "cout-de-la-vie-valencia"
 locale: "fr"

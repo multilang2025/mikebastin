@@ -1,5 +1,5 @@
 ---
-words: 850
+words: 849
 editorial: "superseded"
 title: "Traducción audiovisual"
 slug: "traduccion-audiovisual"

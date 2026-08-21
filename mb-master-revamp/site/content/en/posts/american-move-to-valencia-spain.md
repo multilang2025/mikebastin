@@ -1,5 +1,6 @@
 ---
 words: 3108
+editorial: "relocating"
 title: "Americans Moving to Valencia 2026: Visa Options, Costs, Timeline"
 slug: "american-move-to-valencia-spain"
 locale: "en"

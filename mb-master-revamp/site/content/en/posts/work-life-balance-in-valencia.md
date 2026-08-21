@@ -1,5 +1,6 @@
 ---
-words: 1944
+words: 1943
+editorial: "relocating"
 title: "Combining Professional Growth with Valencia’s Laid-Back Vibe"
 slug: "work-life-balance-in-valencia"
 locale: "en"

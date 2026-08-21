@@ -1,5 +1,6 @@
 ---
-words: 2045
+words: 2041
+editorial: "relocating"
 title: "Living in a Flat in Valencia: A Pragmatic Overview"
 slug: "living-in-a-flat-in-valencia-a-pragmatic-overview"
 locale: "en"

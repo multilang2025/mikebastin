@@ -1,5 +1,5 @@
 ---
-words: 1795
+words: 1794
 title: "Référencement multilingue"
 slug: "referencement-multilingue"
 locale: "fr"

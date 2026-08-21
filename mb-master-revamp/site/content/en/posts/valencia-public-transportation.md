@@ -1,5 +1,6 @@
 ---
 words: 764
+editorial: "relocating"
 title: "Best Ways to Experience Valencia Public Transportation"
 slug: "valencia-public-transportation"
 locale: "en"

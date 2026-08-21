@@ -1,5 +1,5 @@
 ---
-words: 1181
+words: 1183
 title: "L'immobilier à Valencia : un marché en pleine ébullition"
 slug: "immobilier-a-valencia"
 locale: "fr"

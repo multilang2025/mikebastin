@@ -1,5 +1,5 @@
 ---
-words: 1004
+words: 1003
 editorial: "superseded"
 title: "Plugins de traduction WordPress"
 slug: "plugin-de-traduction-wordpress"

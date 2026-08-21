@@ -1,5 +1,5 @@
 ---
-words: 931
+words: 930
 title: "Les plages de Valencia : profitez du sable et du soleil"
 slug: "plages-de-valencia"
 locale: "fr"

@@ -1,5 +1,5 @@
 ---
-words: 1249
+words: 1248
 editorial: "superseded"
 title: "Gestion multilingue des réseaux sociaux"
 slug: "gestion-multilingue-reseaux-sociaux"

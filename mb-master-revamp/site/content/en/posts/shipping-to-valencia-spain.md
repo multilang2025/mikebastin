@@ -1,5 +1,6 @@
 ---
 words: 1905
+editorial: "relocating"
 title: "Shipping to Valencia Spain: How to Move Cars & Furniture Without the Headache"
 slug: "shipping-to-valencia-spain"
 locale: "en"

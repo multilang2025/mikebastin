@@ -1,5 +1,5 @@
 ---
-words: 969
+words: 970
 title: "SEO Mistakes to Avoid"
 slug: "seo-mistakes-to-avoid"
 locale: "en"

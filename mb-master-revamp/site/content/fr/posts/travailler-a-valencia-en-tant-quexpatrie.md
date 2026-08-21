@@ -1,5 +1,6 @@
 ---
-words: 2424
+words: 2422
+editorial: "relocating"
 title: "Combiner la croissance professionnelle et l'ambiance décontractée de Valencia"
 slug: "travailler-a-valencia-en-tant-quexpatrie"
 locale: "fr"

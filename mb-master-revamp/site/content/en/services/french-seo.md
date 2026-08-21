@@ -1,5 +1,5 @@
 ---
-words: 1584
+words: 1582
 title: "French SEO"
 slug: "french-seo"
 locale: "en"

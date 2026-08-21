@@ -1,5 +1,5 @@
 ---
-words: 629
+words: 628
 editorial: "superseded"
 title: "Services de traduction commerciale"
 slug: "traduction-commerciale"

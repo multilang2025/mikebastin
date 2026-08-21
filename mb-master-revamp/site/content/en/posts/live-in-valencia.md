@@ -1,5 +1,6 @@
 ---
 words: 807
+editorial: "relocating"
 title: "So You Want to Live in Valencia?"
 slug: "live-in-valencia"
 locale: "en"

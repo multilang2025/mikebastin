@@ -1,5 +1,5 @@
 ---
-words: 710
+words: 709
 editorial: "superseded"
 title: "Intégration d'un CMS multilingue"
 slug: "cms-multilingue"

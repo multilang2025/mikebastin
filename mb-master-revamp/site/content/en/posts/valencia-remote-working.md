@@ -1,5 +1,6 @@
 ---
 words: 2119
+editorial: "relocating"
 title: "Valencia for Remote Workers and Digital Nomads"
 slug: "valencia-remote-working"
 locale: "en"

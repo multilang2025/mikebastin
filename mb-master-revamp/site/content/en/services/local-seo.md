@@ -1,5 +1,5 @@
 ---
-words: 1622
+words: 1620
 editorial: "superseded"
 title: "Local SEO"
 slug: "local-seo"

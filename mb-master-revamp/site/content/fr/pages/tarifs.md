@@ -1,5 +1,5 @@
 ---
-words: 545
+words: 546
 editorial: "light"
 title: "Tarifs"
 slug: "tarifs"

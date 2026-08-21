@@ -1,5 +1,6 @@
 ---
 words: 2738
+editorial: "relocating"
 title: "Global Minds: Exploring Top International Schools in Valencia"
 slug: "international-schools-in-valencia"
 locale: "en"

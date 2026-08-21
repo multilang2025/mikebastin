@@ -1,5 +1,5 @@
 ---
-words: 665
+words: 664
 editorial: "superseded"
 title: "Services SEO On-Page"
 slug: "seo-on-page"

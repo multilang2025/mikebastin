@@ -1,5 +1,5 @@
 ---
-words: 800
+words: 799
 editorial: "superseded"
 title: "Localisation de contenu"
 slug: "localisation-contenu"

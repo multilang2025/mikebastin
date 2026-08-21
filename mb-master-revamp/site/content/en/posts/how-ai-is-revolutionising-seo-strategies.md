@@ -1,5 +1,5 @@
 ---
-words: 872
+words: 871
 title: "How AI is Revolutionising SEO Strategies"
 slug: "how-ai-is-revolutionising-seo-strategies"
 locale: "en"

@@ -1,5 +1,5 @@
 ---
-words: 1644
+words: 1642
 editorial: "superseded"
 title: "Référencement local"
 slug: "referencement-local"

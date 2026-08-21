@@ -1,5 +1,5 @@
 ---
-words: 1828
+words: 1827
 title: "English to French Translation Services: The 2026 Guide"
 slug: "english-to-french-translation-services"
 locale: "en"

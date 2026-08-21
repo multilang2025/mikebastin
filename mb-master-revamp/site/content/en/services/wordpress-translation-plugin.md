@@ -1,5 +1,5 @@
 ---
-words: 704
+words: 705
 editorial: "superseded"
 title: "WordPress Translation Plugin Setup"
 slug: "wordpress-translation-plugin"

@@ -1,5 +1,5 @@
 ---
-words: 3520
+words: 3514
 title: "Vivre en appartement à Valencia : vue d'ensemble pragmatique"
 slug: "vivre-en-appartement-a-valencia"
 locale: "fr"

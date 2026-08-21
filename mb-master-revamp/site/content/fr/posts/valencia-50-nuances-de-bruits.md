@@ -1,5 +1,6 @@
 ---
-words: 4176
+words: 4168
+editorial: "relocating"
 title: "50 nuances de bruits à Valencia"
 slug: "valencia-50-nuances-de-bruits"
 locale: "fr"

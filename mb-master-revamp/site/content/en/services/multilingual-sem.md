@@ -1,5 +1,5 @@
 ---
-words: 1663
+words: 1662
 title: "Multilingual SEM"
 slug: "multilingual-sem"
 locale: "en"

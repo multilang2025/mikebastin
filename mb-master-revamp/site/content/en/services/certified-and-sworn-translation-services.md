@@ -1,5 +1,5 @@
 ---
-words: 653
+words: 656
 editorial: "superseded"
 title: "Certified and Sworn Translation Services"
 slug: "certified-and-sworn-translation-services"

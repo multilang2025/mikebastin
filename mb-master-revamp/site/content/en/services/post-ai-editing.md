@@ -1,5 +1,5 @@
 ---
-words: 702
+words: 705
 editorial: "superseded"
 title: "Post AI/MT Editing"
 slug: "post-ai-editing"

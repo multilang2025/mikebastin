@@ -1,5 +1,5 @@
 ---
-words: 575
+words: 579
 editorial: "superseded"
 title: "Transcreation"
 slug: "transcreation"

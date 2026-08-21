@@ -1,5 +1,6 @@
 ---
 words: 2704
+editorial: "relocating"
 title: "Choosing the Best Neighbourhoods for Professionals in Valencia"
 slug: "neighbourhoods-for-professionals-in-valencia"
 locale: "en"

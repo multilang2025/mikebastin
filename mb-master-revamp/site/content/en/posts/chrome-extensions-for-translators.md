@@ -1,5 +1,5 @@
 ---
-words: 1902
+words: 1901
 title: "Chrome Extensions for Translators: The 2026 Toolkit"
 slug: "chrome-extensions-for-translators"
 locale: "en"

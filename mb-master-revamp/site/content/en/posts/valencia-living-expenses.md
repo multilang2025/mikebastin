@@ -1,5 +1,6 @@
 ---
 words: 2151
+editorial: "relocating"
 title: "Valencia Living Expenses 2026: The Real Budget for Expats"
 slug: "valencia-living-expenses"
 locale: "en"

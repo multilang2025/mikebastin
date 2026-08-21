@@ -1,5 +1,5 @@
 ---
-words: 996
+words: 995
 editorial: "superseded"
 title: "Services de netlinking"
 slug: "netlinking"

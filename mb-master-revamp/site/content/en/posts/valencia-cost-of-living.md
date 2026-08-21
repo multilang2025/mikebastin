@@ -1,5 +1,6 @@
 ---
 words: 2434
+editorial: "relocating"
 title: "Valencia Cost of Living 2026: What North Americans & UK Expats Really Pay"
 slug: "valencia-cost-of-living"
 locale: "en"

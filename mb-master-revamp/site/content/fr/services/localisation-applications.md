@@ -1,5 +1,5 @@
 ---
-words: 678
+words: 677
 editorial: "superseded"
 title: "Localisation d'applications"
 slug: "localisation-applications"
