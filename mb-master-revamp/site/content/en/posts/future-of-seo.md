@@ -168,7 +168,7 @@ Treating content marketing and SEO as separate functions no longer makes sense. 
 
 Publishing for the sake of publishing burns budget and dilutes authority. A focused [content strategy](https://mikebastin.com/how-to-create-a-targeted-content-strategy/) built around topic clusters and commercial intent delivers compounding returns.
 
-Topic clusters, a pillar page supported by related cluster content with strong internal linking, signal topical authority to search engines. This architecture outperforms scattered, disconnected publishing every time.
+Topic clusters, a pillar page supported by related cluster content with strong internal linking, signal topical authority to search engines. The architecture outperforms scattered, disconnected publishing every time.
 
 ### What to do now
 

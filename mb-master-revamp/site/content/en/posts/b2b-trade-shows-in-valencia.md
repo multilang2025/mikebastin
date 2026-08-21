@@ -84,7 +84,7 @@ LATAM, Russia, Middle East
 
 ### Feria Hábitat Valencia
 
-📅 **Late September 2026**🏛 **Feria Valencia**🌍 **70+ countries**
+**Late September 2026****Feria Valencia****70+ countries**
 
 Spain’s leading international event for furniture, lighting, interior design, and contract solutions. The fair consistently attracts more than 600 exhibitors and over 45,000 professional visitors, with strong buyer presence from Europe, North America, and the Middle East.
 
@@ -94,7 +94,7 @@ Spain’s leading international event for furniture, lighting, interior design, 
 
 ### CEVISAMA
 
-📅 **February 2026**🏛 **Feria Valencia**🌍 **LATAM, MENA, EU**
+**February 2026****Feria Valencia****LATAM, MENA, EU**
 
 One of Europe’s most important B2B trade fairs for ceramics, bathroom equipment, surface materials, and construction technology. Attracts architects, developers, wholesalers, and specifiers, with strong flows from Latin America, North Africa, the Middle East, and Southern Europe.
 
@@ -104,7 +104,7 @@ One of Europe’s most important B2B trade fairs for ceramics, bathroom equipmen
 
 ### Iberflora
 
-📅 **October 2026**🏛 **Feria Valencia**🌍 **EU + Mediterranean**
+**October 2026****Feria Valencia****EU + Mediterranean**
 
 Europe’s reference B2B exhibition for ornamental horticulture, landscaping, and green technology. Connects nurseries, space architects, municipalities, and international buyers with a focus on sustainability and innovation.
 
@@ -114,7 +114,7 @@ Europe’s reference B2B exhibition for ornamental horticulture, landscaping, an
 
 ### FIMMA + MADERALIA
 
-📅 **2026 (biennial)**🏛 **Feria Valencia**🌍 **EU + North Africa**
+**2026 (biennial)****Feria Valencia****EU + North Africa**
 
 Biennial event combining wood, furniture manufacturing, interior fit-out, and industrial machinery. Strong attendance by contract specifiers, architects, and international buyers from the EU and North Africa.
 
@@ -122,7 +122,7 @@ Biennial event combining wood, furniture manufacturing, interior fit-out, and in
 
 ### Eurobrico
 
-📅 **October 2026**🏛 **Feria Valencia**🌍 **European DIY chains**
+**October 2026****Feria Valencia****European DIY chains**
 
 Southern Europe’s leading B2B trade fair for the DIY, hardware, and garden retail sector. Buyers come from large European DIY chains looking for new private-label suppliers and category innovations.
 

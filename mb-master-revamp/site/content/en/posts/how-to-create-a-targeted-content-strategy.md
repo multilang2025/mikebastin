@@ -281,7 +281,7 @@ Your audience is searching for solutions you provide. A strong content strategy,
 
 Book a free consultation with our global team of SEO and content specialists to discuss how we can strengthen your brand:
 
-[👉 Contact us here](https://mikebastin.com/contact-us/)
+[Contact us here](https://mikebastin.com/contact-us/)
 
 Or, download your free content strategy template and begin building your path to digital success today.
 

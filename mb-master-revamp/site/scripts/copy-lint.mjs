@@ -19,12 +19,35 @@ import { join } from "path";
 
 const CONTENT = new URL("../content/", import.meta.url).pathname;
 
+/**
+ * Matched on the stem, not the exact word.
+ *
+ * The first version of this list matched whole words only, which meant
+ * "leverage" was caught and "leveraging" was not. Eight of the nine
+ * rejected verbs appear here mostly in an inflected form, so the strict
+ * match was hiding roughly a hundred violations and reporting the files
+ * that contained them as clean. The owner rejected the word, not one
+ * conjugation of it.
+ */
 const FORBIDDEN = [
-  "comprehensive", "tailored", "seamless", "leverage", "elevate", "crafted",
-  "maximise", "facilitate", "landscape", "utilise", "innovative", "robust",
-  "delve", "transformative", "vital",
+  "comprehensive", "tailor(?:ed|ing|s)?", "seamless(?:ly)?",
+  "leverag(?:e|es|ed|ing)", "elevat(?:e|es|ed|ing)",
+  "craft(?:s|ed|ing)?", "maximis(?:e|es|ed|ing)",
+  "facilitat(?:e|es|ed|ing)", "landscape", "utilis(?:e|es|ed|ing)",
+  "innovative", "robust", "delv(?:e|es|ed|ing)", "transformative", "vital",
   "dynamic", "ever-evolving", "moreover", "however", "thus", "hence",
   "additionally",
+];
+
+/**
+ * Words the stems above would otherwise swallow. "Craftsmanship" is not
+ * the rejected verb "craft", "elevator" is a lift, and "Core Web Vital"
+ * is Google's own metric name, which the site has to be able to say.
+ */
+const EXEMPT = [
+  /\bcraftsm(?:an|en|anship)\b/gi,
+  /\belevators?\b/gi,
+  /Core Web Vitals?/gi,
 ];
 
 /**
@@ -47,8 +70,11 @@ const LINTED_LOCALES = new Set(["en"]);
  * prose. Ten of the 97 "integration" hits were URLs before this stripped
  * them.
  */
-const prose = (body) =>
-  body.replace(/\]\((?:[^)]+)\)/g, "]()").replace(/https?:\/\/\S+/g, "");
+const prose = (body) => {
+  let s = body.replace(/\]\((?:[^)]+)\)/g, "]()").replace(/https?:\/\/\S+/g, "");
+  for (const re of EXEMPT) s = s.replace(re, "");
+  return s;
+};
 
 function lint(raw) {
   const body = prose(raw);
@@ -56,8 +82,17 @@ function lint(raw) {
 
   for (const w of FORBIDDEN) {
     const m = body.match(new RegExp(`\\b${w}\\b`, "gi"));
-    if (m) issues.push({ rule: "forbidden-word", detail: w, count: m.length });
+    if (m) issues.push({ rule: "forbidden-word", detail: m[0].toLowerCase(), count: m.length });
   }
+
+  // Emojis are allowed on social posts, never in site copy. The harvested
+  // excerpts are full of them because they were written as social teasers.
+  // Same range as copy-fix: U+2600 to U+27BF holds the check mark and
+  // the arrow, which the comparison tables use as content.
+  const emoji = body.match(
+    /[\u{1F000}-\u{1FAFF}]|[\u2705\u2642\u2696\u26A0\u2728\uFE0F]/gu,
+  );
+  if (emoji) issues.push({ rule: "emoji", detail: "emoji in site copy", count: emoji.length });
 
   const dashes = body.match(/[—–]/g);
   if (dashes) issues.push({ rule: "dash", detail: "em or en dash", count: dashes.length });
@@ -98,8 +133,17 @@ for (const locale of readdirSync(CONTENT)) {
     for (const f of readdirSync(tp)) {
       if (!f.endsWith(".md")) continue;
       const src = readFileSync(join(tp, f), "utf8");
-      const body = src.split(/^---$/m).slice(2).join("---").trim();
-      const issues = lint(body);
+      const parts = src.split(/^---$/m);
+      const body = parts.slice(2).join("---").trim();
+      // excerpt and title ship as the meta description and <title>, so
+      // they are site copy and the same rules apply. An earlier version
+      // linted the body only, which let a run of rejected words sit in
+      // the one string Google actually renders under the result.
+      const meta = (parts[1] || "")
+        .split("\n")
+        .filter((l) => /^(excerpt|title):/.test(l))
+        .join("\n");
+      const issues = lint(body + "\n\n" + meta);
       rows.push({
         locale, type, slug: f.slice(0, -3),
         clean: issues.length === 0,

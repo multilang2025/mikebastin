@@ -9,7 +9,7 @@ wpId: 24855796
 date: "2026-01-27T17:11:45"
 modified: "2026-05-29T07:04:50"
 sourceUrl: "https://mikebastin.com/es/rastrear-posiciones-de-keywords-de-competidores/"
-excerpt: "Análisis competitivo SEO para identificar brechas, anticipar movimientos de la competencia y escalar la visibilidad orgánica con datos accionables. 📈"
+excerpt: "Análisis competitivo SEO para identificar brechas, anticipar movimientos de la competencia y escalar la visibilidad orgánica con datos accionables."
 ---
 
 ![análisis competitivo SEO](https://mikebastin.com/wp-content/uploads/2026/01/analisis-competitivo-SEO.jpg)

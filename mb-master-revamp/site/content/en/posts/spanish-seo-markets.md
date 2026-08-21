@@ -9,7 +9,7 @@ wpId: 24845011
 date: "2024-10-04T13:42:38"
 modified: "2026-07-19T11:28:09"
 sourceUrl: "https://mikebastin.com/spanish-seo-markets/"
-excerpt: "Explore the unique complexities of optimising SEO in Spanish-speaking markets and learn how to overcome them for lasting business success 🌍💼."
+excerpt: "Explore the unique complexities of optimising SEO in Spanish-speaking markets and learn how to overcome them for lasting business success."
 ---
 
 ## Why Spanish SEO Is So Important

@@ -532,11 +532,11 @@ In Valencia, noise is part of the scenery. But online, to make yourself heard, i
 
 Carefully written multilingual content, smart link building, localised branding… that’s how to make noise in the SERPs without bursting any eardrums.
 
-👉 A digital mascletà? Start with a [local SEO audit](https://mikebastin.com/services/local-seo/).
+A digital mascletà? Start with a [local SEO audit](https://mikebastin.com/services/local-seo/).
 
-👉 Want to dominate your niche? Fine-tune your [link building](https://mikebastin.com/services/link-building/).
+Want to dominate your niche? Fine-tune your [link building](https://mikebastin.com/services/link-building/).
 
-👉 Want a site that draws people in naturally, without shouting? [Contact our team](https://mikebastin.com/contact-us/). We speak SEO the way others shout on terraces.
+Want a site that draws people in naturally, without shouting? [Contact our team](https://mikebastin.com/contact-us/). We speak SEO the way others shout on terraces.
 
 With us, your site attracts, stands out, and makes noise where it really matters.
 

@@ -79,7 +79,7 @@ For European companies, EUDR compliance presents several challenges:
 
 For European companies, complying with the EU Deforestation Regulation (EUDR) is essential but challenging. Developing a traceable and legally compliant supply chain requires both preparation and proactive management.
 
-EUDR compliance is achievable with the right strategy, investing in traceability systems, working with reliable sourcing partners, and engaging closely with producers. This approach not only ensures market access but also promotes sustainable and responsible sourcing practices.
+EUDR compliance is achievable with the right strategy, investing in traceability systems, working with reliable sourcing partners, and engaging closely with producers. The approach not only ensures market access but also promotes sustainable and responsible sourcing practices.
 
 ## The Role of Reliable Sourcing Partners
 
@@ -100,7 +100,7 @@ EUDR compliance is now essential for accessing the European market. For European
 
 The agencies listed below are frequently cited when companies look for sourcing and contract manufacturing partners in Vietnam and Southeast Asia with a strong ability to address EUDR (EU Deforestation Regulation) requirements.
 
-This selection is based on cross-checking public case studies, client feedback, industry references, and the agencies’ demonstrated ability to integrate regulatory compliance, traceability, and supplier audits into real sourcing operations.
+The selection is based on cross-checking public case studies, client feedback, industry references, and the agencies’ demonstrated ability to integrate regulatory compliance, traceability, and supplier audits into real sourcing operations.
 
 What differentiates these actors is not only their sourcing reach, but their capacity to embed EUDR checks directly into supplier scouting, factory audits, and ongoing production monitoring, rather than treating compliance as a purely administrative task.
 
@@ -126,7 +126,7 @@ Vietnam Sourcing Team is known for long-term supplier follow-up and ongoing prod
 
 This continuity is particularly relevant for EUDR compliance, which requires consistent documentation over time, not just initial approval.
 
-The team supports EUDR alignment by embedding traceability and compliance checks into routine inspections, supplier reviews, and production monitoring. This approach reduces the risk of compliance gaps when volumes scale up, materials change, or new sub-suppliers are introduced.
+The team supports EUDR alignment by embedding traceability and compliance checks into routine inspections, supplier reviews, and production monitoring. The approach reduces the risk of compliance gaps when volumes scale up, materials change, or new sub-suppliers are introduced.
 
 ### 4\. Sourcing Notes
 

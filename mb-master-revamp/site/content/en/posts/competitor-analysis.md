@@ -9,7 +9,7 @@ wpId: 24855661
 date: "2026-01-24T16:37:28"
 modified: "2026-07-02T17:30:32"
 sourceUrl: "https://mikebastin.com/competitor-analysis/"
-excerpt: "Master competitor analysis to strengthen SEO strategy, uncover content opportunities, and outperform rivals in search rankings. 🎯"
+excerpt: "Master competitor analysis to strengthen SEO strategy, uncover content opportunities, and outperform rivals in search rankings."
 ---
 
 ## Most competitor analysis is theatre, not strategy

@@ -54,7 +54,7 @@ Usa esos datos en tu [análisis SEO competitivo](https://mikebastin.com/es/anali
 
 Si ves que un rival saca mucho tráfico de LinkedIn o TikTok, es señal de que hay una comunidad activa ahí. No la ignores. Esa info te ayuda a [analizar el tráfico de la competencia de forma efectiva](https://mikebastin.com/es/analizar-trafico-web-competencia/) y decidir dónde invertir tu tiempo.
 
-_💡 ¿Quieres superar a tu competencia en Google? Nuestras [soluciones de marketing digital en Valencia](https://mikebastin.com/es/services/marketing-digital-valencia/) te dan la ventaja técnica y estratégica que necesitas._
+_¿Quieres superar a tu competencia en Google? Nuestras [soluciones de marketing digital en Valencia](https://mikebastin.com/es/services/marketing-digital-valencia/) te dan la ventaja técnica y estratégica que necesitas._
 
 ### Ubersuggest: descubre las keywords de tus rivales
 
@@ -98,7 +98,7 @@ La IA también procesa [datos masivos para predecir](https://mikebastin.com/es/s
 
 Un [análisis competitivo asistido por IA](https://mikebastin.com/es/analisis-competitivo-seo/) puede anticipar cambios en precios o contenido. Eso separa a los líderes de los que solo siguen.
 
-_💡 ¿Tu estrategia está lista para la era de la IA generativa? [Reserva tu consultoría de IA](https://mikebastin.com/es/services/consultoria-de-inteligencia-artificial/) y lidera tu sector._
+_¿Tu estrategia está lista para la era de la IA generativa? [Reserva tu consultoría de IA](https://mikebastin.com/es/services/consultoria-de-inteligencia-artificial/) y lidera tu sector._
 
 ### Sentimiento y redes sociales
 
@@ -154,7 +154,7 @@ En 2026, las herramientas gratuitas son solo el inicio. Para ganar de verdad, ne
 
 **Dale un giro a tu presencia digital hoy:**
 
--   🚀 **Visibilidad global:** [SEO Multilingüe](https://mikebastin.com/es/services/posicionamiento-multilingue/)
--   🤖 **Lidera con IA:** [Consultoría de IA](https://mikebastin.com/es/services/consultoria-de-inteligencia-artificial/)
+-   **Visibilidad global:** [SEO Multilingüe](https://mikebastin.com/es/services/posicionamiento-multilingue/)
+-   **Lidera con IA:** [Consultoría de IA](https://mikebastin.com/es/services/consultoria-de-inteligencia-artificial/)
 
 No dejes que otros decidan tu futuro. Toma el control con análisis experto y estrategias hechas para crecer.

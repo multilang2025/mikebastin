@@ -158,7 +158,7 @@ Schedule routine [technical audits](https://mikebastin.com/services/analytics-an
 
 When search engines update their algorithms or introduce new requirements for international SEO, you must adjust your technical setup quickly to maintain visibility.
 
-This proactive strategy, combined with thorough documentation of your international architecture, will help you prevent common pitfalls such as incorrect language targeting, mixed content issues, and poor URL structure, problems that often affect multilingual websites but can be avoided through consistent monitoring and swift resolution.
+The proactive strategy, combined with thorough documentation of your international architecture, will help you prevent common pitfalls such as incorrect language targeting, mixed content issues, and poor URL structure, problems that often affect multilingual websites but can be avoided through consistent monitoring and swift resolution.
 
 ### Final Thoughts: Mastering Technical SEO for Multilingual Sites
 

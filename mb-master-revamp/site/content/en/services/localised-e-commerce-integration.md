@@ -10,7 +10,7 @@ wpId: 17228889
 date: "2024-09-29T11:54:00"
 modified: "2026-07-19T10:40:43"
 sourceUrl: "https://mikebastin.com/services/localised-e-commerce-integration/"
-excerpt: "Boost your online sales with localised e-commerce Integration 🌍💳. Tailor your store for different regions with local currencies, languages, and payment methods!"
+excerpt: "Boost your online sales with localised e-commerce Integration. Tailor your store for different regions with local currencies, languages, and payment methods!"
 ---
 
 # Localised E-commerce Integration

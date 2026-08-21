@@ -22,7 +22,7 @@ French digital consumers demonstrate distinct patterns in search engine usage an
 
 With Google commanding 92% of the French search market, mastering Google Ads becomes paramount, whilst maintaining awareness of growing alternatives like Qwant and Ecosia.
 
-This thorough guide examines proven methodologies for developing high-performance PPC campaigns that resonate with French audiences and comply with local advertising standards.
+The thorough guide examines proven methodologies for developing high-performance PPC campaigns that resonate with French audiences and comply with local advertising standards.
 
 From keyword selection to landing page optimisation, we’ll explore how to navigate France’s distinct digital marketing ecosystem whilst maximising your return on ad spend.
 

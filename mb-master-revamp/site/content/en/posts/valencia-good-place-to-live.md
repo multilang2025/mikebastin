@@ -79,7 +79,7 @@ Spain consistently ranks among the top countries globally for healthcare, and Va
 
 ### 5\. A City Where You Actually Feel Safe
 
-This one catches a lot of newcomers off guard. Valencia is _incredibly_ safe. You’ll see children playing in plazas at 10 PM while their parents enjoy a glass of wine nearby. Walking home alone at night? Not the anxiety-inducing experience it can be in many other European cities. That sense of community and security is one of the biggest reasons families fall in love with the place.
+This one catches a lot of newcomers off guard. Valencia is _incredibly_ safe. You’ll see children playing in plazas at 10 PM while their parents enjoy a glass of wine nearby. Walking home alone at night? Not the anxiety-inducing experience it can be in many other European cities. The sense of community and security is one of the biggest reasons families fall in love with the place.
 
 ## The 5 Biggest Cons: What Nobody Warns You About
 

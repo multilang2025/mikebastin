@@ -9,7 +9,7 @@ wpId: 24855812
 date: "2026-01-28T15:06:49"
 modified: "2026-06-26T16:16:31"
 sourceUrl: "https://mikebastin.com/es/sistemas-cualificacion-leads-ia/"
-excerpt: "La cualificación con IA filtra leads automáticamente, sistemas que identifican oportunidades de alto valor sin intervención manual. 🎯"
+excerpt: "La cualificación con IA filtra leads automáticamente, sistemas que identifican oportunidades de alto valor sin intervención manual."
 ---
 
 ![Article header image](https://mikebastin.com/wp-content/uploads/2026/01/sistemascualificacionleadsia-1024x585.jpg)

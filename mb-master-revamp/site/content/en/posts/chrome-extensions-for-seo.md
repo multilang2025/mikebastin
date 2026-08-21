@@ -79,7 +79,7 @@ It can detect:
 -   JavaScript frameworks
 -   Server technologies
 
-This information is invaluable for competitor analysis and understanding the technical stack of successful websites in your niche.
+The information is invaluable for competitor analysis and understanding the technical stack of successful websites in your niche.
 
 ## 6\. Detailed SEO Extension
 
@@ -112,7 +112,7 @@ These insights can inform your SEO strategy and help you identify opportunities 
 -   Detect redirect loops
 -   View HTTP status codes for each step in a redirect
 
-This extension is particularly useful for technical SEO audits and identifying potential issues with site structure.
+The extension is particularly useful for technical SEO audits and identifying potential issues with site structure.
 
 ## 9\. Web Developer
 

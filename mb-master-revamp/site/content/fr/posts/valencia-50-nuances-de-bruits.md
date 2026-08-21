@@ -564,11 +564,11 @@ Un peu comme on aime un vieil oncle bourru qui parle trop fort au repas de famil
 
 Contenu multilingue soigné, netlinking intelligent, branding localisé… voilà de quoi faire du bruit dans les SERP, sans casser les oreilles.
 
-👉 Une mascletà digitale ? Commence par un [audit de référencement local](https://mikebastin.com/fr/services/referencement-local/).
+Une mascletà digitale ? Commence par un [audit de référencement local](https://mikebastin.com/fr/services/referencement-local/).
 
-👉 Envie de dominer ta niche ? Travaille ton [netlinking](https://mikebastin.com/fr/services/netlinking/) avec précision.
+Envie de dominer ta niche ? Travaille ton [netlinking](https://mikebastin.com/fr/services/netlinking/) avec précision.
 
-👉 Tu veux un site qui attire naturellement, sans hurler ? [Contacte notre équipe](https://mikebastin.com/fr/nous-contacter/), on parle SEO comme d’autres parlent fort sur les terrasses.
+Tu veux un site qui attire naturellement, sans hurler ? [Contacte notre équipe](https://mikebastin.com/fr/nous-contacter/), on parle SEO comme d’autres parlent fort sur les terrasses.
 
 Avec nous, ton site attire, se démarque, et surtout, il fait du bruit là où ça compte.
 

@@ -41,7 +41,7 @@ Discover how conversational AI chatbots can improve customer experience, automat
 
 by [Mike Bastin](# "Posts by Michael Bastin") | Apr 22, 2026 |
 
-Use this step-by-step checklist to analyze competitor traffic systematically and extract actionable SEO insights. ✅
+Use this step-by-step checklist to analyze competitor traffic systematically and extract actionable SEO insights.
 
 [read more](https://mikebastin.com/competitor-analysis-traffic-checklist/)
 

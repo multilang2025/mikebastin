@@ -65,6 +65,28 @@ const FIXES = [
     apply: (s) => s.replace(/\u00a0/g, " "),
   },
   {
+    /**
+     * Emojis are allowed on social posts, never in site copy. Every hit
+     * here is in a harvested excerpt, because those excerpts were written
+     * as social teasers and then reused as meta descriptions. Removing
+     * the emoji leaves the sentence intact, so this needs no judgement,
+     * only care with the whitespace and punctuation left behind.
+     *
+     * The range matters more than it looks. A first version swept
+     * U+2600 to U+27BF as well, which is where the check mark lives, and
+     * it silently emptied 224 cells out of the service comparison tables
+     * before the diff caught it. Symbols that carry meaning in the copy
+     * are listed as keepers rather than assumed: check mark, cross,
+     * arrow, ballot box, and the maths signs.
+     */
+    name: "emoji",
+    apply: (s) =>
+      s.replace(
+        / ?(?:[\u{1F000}-\u{1FAFF}]|[\u2705\u2642\u2696\u26A0\u2728\uFE0F\u200D])+ ?/gu,
+        (m) => (m.startsWith(" ") && m.endsWith(" ") ? " " : ""),
+      ),
+  },
+  {
     name: "brand",
     apply: (s) =>
       s

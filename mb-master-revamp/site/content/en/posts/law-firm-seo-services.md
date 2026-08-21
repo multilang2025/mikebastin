@@ -9,7 +9,7 @@ wpId: 24847256
 date: "2024-12-22T14:50:51"
 modified: "2026-07-19T12:08:54"
 sourceUrl: "https://mikebastin.com/law-firm-seo-services/"
-excerpt: "🔍 Transform your law firm’s digital presence with expert SEO strategies that capture high-intent clients. From multilingual content to technical excellence, we’ll help your practice climb the rankings and outperform larger competitors. Ready to dominate your legal niche? ⚖️ Let’s discuss your firm’s growth potential today."
+excerpt: "Transform your law firm’s digital presence with expert SEO strategies that capture high-intent clients. From multilingual content to technical excellence, we’ll help your practice climb the rankings and outperform larger competitors. Ready to dominate your legal niche? Let’s discuss your firm’s growth potential today."
 ---
 
 ## Enhance Your Online Reach and Credibility

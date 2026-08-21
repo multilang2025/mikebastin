@@ -18,7 +18,7 @@ In today’s global marketplace, website localisation and multilingual SEO are e
 
 But how do you measure the return on investment (ROI) of these efforts?
 
-This data-driven post explores the metrics and methods for quantifying the impact of website localisation and multilingual SEO on your business.
+The data-driven post explores the metrics and methods for quantifying the impact of website localisation and multilingual SEO on your business.
 
 ## Understanding Website Localisation and Multilingual SEO
 

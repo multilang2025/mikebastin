@@ -35,7 +35,7 @@ Trabajamos con empresas de logística, tecnología y servicios B2B que necesitan
 
 ¿Colaboramos?
 
-👉 ¿Tu web está preparada para captar clientes en toda Europa?
+¿Tu web está preparada para captar clientes en toda Europa?
 
 Habla con un consultor web en Valencia que trabaja con SEO e IA orientados a resultados.
 

@@ -119,11 +119,11 @@ Hoy, el cliente B2B **ya ha interactuado con la IA antes de visitar tu web**. Si
 
 ## Checklist: optimización de contenido para citas de IA
 
--   ✅ **Claridad**: frases cortas, respuestas directas a preguntas del sector.
--   ✅ **Datos verificables**: incluye fechas, cifras, nombres y estudios.
--   ✅ **Estructura P+R**: usa H3 como “¿qué es el GEO?” o “¿cómo medir el citation share?”.
--   ✅ **E-E-A-T visible**: autores con biografías, credenciales y enlaces a [LinkedIn](https://www.linkedin.com/in/michaelbastin/) o publicaciones.
--   ✅ **Schema integrado**: todo el contenido debe tener JSON-LD válido.
+-   **Claridad**: frases cortas, respuestas directas a preguntas del sector.
+-   **Datos verificables**: incluye fechas, cifras, nombres y estudios.
+-   **Estructura P+R**: usa H3 como “¿qué es el GEO?” o “¿cómo medir el citation share?”.
+-   **E-E-A-T visible**: autores con biografías, credenciales y enlaces a [LinkedIn](https://www.linkedin.com/in/michaelbastin/) o publicaciones.
+-   **Schema integrado**: todo el contenido debe tener JSON-LD válido.
 
 > Según _Search Engine Journal_, páginas que responden directamente a la intención del usuario tienen **40 % más probabilidades** de ser citadas en Google AI Overviews.
 

@@ -18,7 +18,7 @@ In the modern globalised world, successful business relies heavily on effective 
 
 Artificial Intelligence (AI) and machine learning are revolutionising the translation and localisation industry, offering unprecedented opportunities for businesses to expand their global reach.
 
-This technological advancement also brings its own set of challenges.
+The technological advancement also brings its own set of challenges.
 
 Let’s explore how AI is reshaping the field of translation and localisation, and how businesses can adapt to these changes effectively.
 

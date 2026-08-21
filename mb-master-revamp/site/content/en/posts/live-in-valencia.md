@@ -10,7 +10,7 @@ wpId: 24854222
 date: "2025-08-31T12:20:17"
 modified: "2026-07-02T17:23:42"
 sourceUrl: "https://mikebastin.com/live-in-valencia/"
-excerpt: "Valencia is a Mediterranean paradise (mostly) 🌴. From the “Paperwork Pyramid of Doom” to the “Language Labyrinth” and that “Climate Rollercoaster,” this cheeky survival guide spills the tea on the real expat life in Valencia. Paradise, with plot twists!"
+excerpt: "Valencia is a Mediterranean paradise (mostly). From the “Paperwork Pyramid of Doom” to the “Language Labyrinth” and that “Climate Rollercoaster,” this cheeky survival guide spills the tea on the real expat life in Valencia. Paradise, with plot twists!"
 ---
 
 ## Live in Valencia: an honest take after ten years

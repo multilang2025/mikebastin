@@ -10,7 +10,7 @@ wpId: 24845474
 date: "2024-10-10T14:15:34"
 modified: "2026-07-19T10:40:21"
 sourceUrl: "https://mikebastin.com/services/post-ai-editing/"
-excerpt: "🔄 Transform your AI translations into polished, professional content! Our expert post-editors refine machine-translated text with precision, correcting nuances and ensuring cultural authenticity. From fixing subtle errors to enhancing natural flow, we bridge the gap between AI efficiency and human excellence. 🎯 Ready to elevate your content? Contact us today for a free sample edit and experience the difference expert post-editing makes!"
+excerpt: "Transform your AI translations into polished, professional content! Our expert post-editors refine machine-translated text with precision, correcting nuances and ensuring cultural authenticity. From fixing subtle errors to enhancing natural flow, we bridge the gap between AI efficiency and human excellence. Ready to elevate your content? Contact us today for a free sample edit and experience the difference expert post-editing makes!"
 ---
 
 # Post AI Editing Services
@@ -29,7 +29,7 @@ Our team revises and adapts this content with precision:
 -   Standardising formatting, grammar, and tone
 -   Ensuring consistency across languages, brand voice, and [SEO](https://mikebastin.com/services/multilingual-seo-copywriting/) targets
 
-This editing process supports your multilingual SEO efforts and improves [social media optimisation (SMO)](https://mikebastin.com/services/multilingual-social-media-management/) by producing shareable content that sounds natural in each target language.
+The editing process supports your multilingual SEO efforts and improves [social media optimisation (SMO)](https://mikebastin.com/services/multilingual-social-media-management/) by producing shareable content that sounds natural in each target language.
 
 We work with businesses across sectors, especially SaaS, tech, travel, and digital marketing, who rely on [AI tools to scale quickly](https://mikebastin.com/how-ai-is-revolutionising-seo-strategies/) but understand the value of human quality control.
 

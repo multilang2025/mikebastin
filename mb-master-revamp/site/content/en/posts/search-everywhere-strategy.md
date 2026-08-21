@@ -9,7 +9,7 @@ wpId: 24855728
 date: "2026-01-24T18:15:27"
 modified: "2026-07-02T17:30:33"
 sourceUrl: "https://mikebastin.com/search-everywhere-strategy/"
-excerpt: "Expand beyond Google to dominate search visibility across AI assistants, social platforms, and vertical search engines. 🔍"
+excerpt: "Expand beyond Google to dominate search visibility across AI assistants, social platforms, and vertical search engines."
 ---
 
 ## Transitioning to a search everywhere strategy in 2026

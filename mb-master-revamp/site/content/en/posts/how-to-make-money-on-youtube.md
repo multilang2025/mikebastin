@@ -96,7 +96,7 @@ If you regularly host live streams, Super Chats and Super Stickers are another w
 
 During live streams, viewers can pay to have their comments or stickers highlighted, making them more visible in the chat.
 
-This feature can turn live streams into a fun and interactive experience while generating income.
+The feature can turn live streams into a fun and interactive experience while generating income.
 
 ### Best Practices for Earning with Super Chats
 
@@ -146,7 +146,7 @@ You don’t have to wait for brands to contact you. Instead, take a proactive ap
 
 If you have expertise in a specific area, you can create and sell digital products such as eBooks, guides, or online courses directly through your YouTube channel. Explore our tips on [content strategy](https://mikebastin.com/how-to-create-a-targeted-content-strategy/) to help you structure and promote your products.
 
-This approach works well for educational or tutorial-based content creators who can package their knowledge into a product.
+The approach works well for educational or tutorial-based content creators who can package their knowledge into a product.
 
 ### How to Create and Sell Digital Products
 

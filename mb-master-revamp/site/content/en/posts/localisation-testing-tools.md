@@ -26,7 +26,7 @@ Modern localisation tools often integrate with continuous integration pipelines,
 
 They can simulate different locale environments, verify internationalisation API implementations, and ensure consistent behaviour across multiple language versions.
 
-This systematic approach helps [reduce the risk of cultural faux pas](https://mikebastin.com/cultural-differences-in-multilingual-websites/) and technical issues that could damage a product’s reception in international markets.
+The systematic approach helps [reduce the risk of cultural faux pas](https://mikebastin.com/cultural-differences-in-multilingual-websites/) and technical issues that could damage a product’s reception in international markets.
 
 ### Types of Localisation Testing Tools
 

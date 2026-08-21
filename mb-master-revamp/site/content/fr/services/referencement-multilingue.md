@@ -9,7 +9,7 @@ wpId: 24848110
 date: "2024-09-29T11:09:22"
 modified: "2026-05-29T07:40:40"
 sourceUrl: "https://mikebastin.com/fr/services/referencement-multilingue/"
-excerpt: "Boostez vos ventes en ligne avec l’intégration e-commerce localisée 🌍💳. Adaptez votre boutique aux marchés locaux avec devises, langues et paiements adaptés !"
+excerpt: "Boostez vos ventes en ligne avec l’intégration e-commerce localisée. Adaptez votre boutique aux marchés locaux avec devises, langues et paiements adaptés !"
 ---
 
 # Agence de référencement multilingue : SEO international par un consultant à Valencia

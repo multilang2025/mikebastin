@@ -18,7 +18,7 @@ Effectively communicating your professional background is crucial in today’s c
 
 Whether you’re aiming to attract new clients, impress potential employers, or strengthen your personal brand, how you present your skills and experience can make all the difference.
 
-This article provides a step-by-step guide on crafting a persuasive and pertinent professional history that is customised for the digital marketing sector.
+The article provides a step-by-step guide on crafting a persuasive and pertinent professional history that is customised for the digital marketing sector.
 
 ## Understanding Your Audience
 

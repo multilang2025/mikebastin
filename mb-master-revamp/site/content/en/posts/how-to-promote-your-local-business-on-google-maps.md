@@ -91,7 +91,7 @@ Recently, **Google Maps launched AI-powered local business search** features tha
 
 With AI, Google can now provide relevant and personalised results based on user behaviour, preferences, and location.
 
-This new feature can work in your favour if your business listing is well-optimised and engaging.
+The new feature can work in your favour if your business listing is well-optimised and engaging.
 
 To fully benefit from this, ensure that your business information is accurate, regularly updated, and aligns with user intent. For example, use the right [keywords to target local customers searching for your services](https://mikebastin.com/services/keyword-research/).
 

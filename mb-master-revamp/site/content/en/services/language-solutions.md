@@ -10,7 +10,7 @@ wpId: 37078
 date: "2024-09-14T18:23:29"
 modified: "2026-07-19T10:44:58"
 sourceUrl: "https://mikebastin.com/services/language-solutions/"
-excerpt: "Enhance your international reach with expert language solutions. Boost your brand’s global presence, contact us for translation and localisation services! 🌎"
+excerpt: "Enhance your international reach with expert language solutions. Boost your brand’s global presence, contact us for translation and localisation services!"
 ---
 
 # Multilingual Language Solutions

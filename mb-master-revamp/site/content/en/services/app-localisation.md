@@ -29,7 +29,7 @@ We also integrate [localisation testing](https://mikebastin.com/services/localis
 
 Industry research confirms that localisation directly drives downloads and user retention. According to [digital commerce statistics for 2025](https://www.cimulate.ai/blog/digital-commerce-statistics), cross-border mobile app usage is expanding faster than ever, making localisation a growth driver for global brands.
 
-From [software internationalisation](https://mikebastin.com/services/software-internationalisation/) foundations to [multimedia localisation](https://mikebastin.com/services/multimedia-localisation/) of video, audio, and graphics, we cover every layer of adaptation. This holistic approach ensures your app not only functions but thrives in competitive markets.
+From [software internationalisation](https://mikebastin.com/services/software-internationalisation/) foundations to [multimedia localisation](https://mikebastin.com/services/multimedia-localisation/) of video, audio, and graphics, we cover every layer of adaptation. The holistic approach ensures your app not only functions but thrives in competitive markets.
 
 Ready to scale globally? Explore our [app localisation services](https://mikebastin.com/services/app-localisation/) today or [contact us](https://mikebastin.com/contact-us/) to discuss your project.
 
