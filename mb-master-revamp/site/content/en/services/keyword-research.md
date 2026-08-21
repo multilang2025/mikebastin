@@ -1,5 +1,5 @@
 ---
-words: 704
+words: 703
 editorial: "superseded"
 title: "Keyword Research Services"
 slug: "keyword-research"

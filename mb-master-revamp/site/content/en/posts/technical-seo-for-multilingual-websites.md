@@ -1,5 +1,5 @@
 ---
-words: 1361
+words: 1359
 title: "Technical SEO for Multilingual Websites"
 slug: "technical-seo-for-multilingual-websites"
 locale: "en"

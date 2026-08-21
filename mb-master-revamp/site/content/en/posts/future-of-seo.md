@@ -1,5 +1,5 @@
 ---
-words: 2752
+words: 2753
 title: "The Future of SEO in 2026: AI, GEO and What Actually Works"
 slug: "future-of-seo"
 locale: "en"

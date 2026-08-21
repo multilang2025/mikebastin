@@ -1,5 +1,5 @@
 ---
-words: 1255
+words: 1251
 title: "Herramientas gratuitas para análisis competitivo efectivo de SEO"
 slug: "herramientas-gratuitas-analisis-competitivo"
 locale: "es"

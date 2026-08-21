@@ -1,5 +1,5 @@
 ---
-words: 1397
+words: 1396
 title: "How to Create the Perfect French PPC Campaign"
 slug: "french-ppc-campaign"
 locale: "en"

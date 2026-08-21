@@ -1,5 +1,5 @@
 ---
-words: 489
+words: 488
 editorial: "superseded"
 title: "Academic Translations Services"
 slug: "academic-translation"

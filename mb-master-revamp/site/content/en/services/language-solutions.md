@@ -1,5 +1,5 @@
 ---
-words: 257
+words: 256
 editorial: "superseded"
 title: "Language Solutions"
 slug: "language-solutions"

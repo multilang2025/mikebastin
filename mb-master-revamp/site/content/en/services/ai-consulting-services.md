@@ -1,5 +1,5 @@
 ---
-words: 765
+words: 763
 editorial: "superseded"
 title: "Multilingual AI Consulting Services"
 slug: "ai-consulting-services"

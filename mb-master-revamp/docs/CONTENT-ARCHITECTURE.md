@@ -1206,7 +1206,17 @@ version they never had on mikebastin.com.
 
 **Stays on mikebastin.com** (B2B funnel, inside the border):
 optimising-your-website-for-valencia-based-searches,
-b2b-trade-shows-in-valencia, business-registration-in-valencia.
+business-registration-in-valencia.
+
+b2b-trade-shows-in-valencia was proposed for this list and the owner
+decided against it on 21 Aug: it relocates with the rest. The B2B framing
+was not enough to hold it, because the search behind it is still a
+Valencia search.
+
+business-registration-in-valencia is the last unresolved one. The
+handoff proposes it stays; `scripts/flag-thin.mjs` had it relocating,
+which was an error on our side rather than a decision. It is aligned to
+the handoff for now and needs the same explicit call.
 
 ---
 

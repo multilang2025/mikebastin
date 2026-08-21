@@ -1,5 +1,5 @@
 ---
-words: 2958
+words: 2954
 title: "Content Optimisation for Spanish Users"
 slug: "content-optimisation-for-spanish-users"
 locale: "en"

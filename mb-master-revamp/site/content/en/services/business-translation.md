@@ -1,5 +1,5 @@
 ---
-words: 559
+words: 558
 editorial: "superseded"
 title: "Business Translation Services"
 slug: "business-translation"

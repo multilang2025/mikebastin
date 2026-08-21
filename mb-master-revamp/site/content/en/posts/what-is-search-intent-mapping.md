@@ -1,5 +1,5 @@
 ---
-words: 1759
+words: 1758
 title: "What is Search Intent Mapping?"
 slug: "what-is-search-intent-mapping"
 locale: "en"

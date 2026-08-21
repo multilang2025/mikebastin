@@ -1,5 +1,5 @@
 ---
-words: 2113
+words: 2110
 editorial: "relocating"
 title: "Valencia Airport Guide: Your Arrival and First Week in the City"
 slug: "valencia-airport-guide"

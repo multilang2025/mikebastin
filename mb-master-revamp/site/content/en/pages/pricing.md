@@ -1,5 +1,5 @@
 ---
-words: 638
+words: 639
 title: "Pricing"
 slug: "pricing"
 locale: "en"

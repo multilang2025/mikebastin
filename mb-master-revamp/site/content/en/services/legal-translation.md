@@ -1,5 +1,5 @@
 ---
-words: 561
+words: 560
 editorial: "superseded"
 title: "Legal Translations"
 slug: "legal-translation"

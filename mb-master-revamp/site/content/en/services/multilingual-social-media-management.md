@@ -1,5 +1,5 @@
 ---
-words: 827
+words: 826
 editorial: "superseded"
 title: "Multilingual Social Media Management"
 slug: "multilingual-social-media-management"

@@ -1,5 +1,5 @@
 ---
-words: 1454
+words: 1455
 title: "Why Jean Marie Cordaro Advocates for a More Human Creator Economy"
 slug: "human-creator-economy"
 locale: "en"

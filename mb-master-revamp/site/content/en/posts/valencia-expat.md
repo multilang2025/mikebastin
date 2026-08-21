@@ -1,5 +1,5 @@
 ---
-words: 2274
+words: 2273
 editorial: "relocating"
 title: "Living the Valencia Expat Dream"
 slug: "valencia-expat"

@@ -1,5 +1,6 @@
 ---
-words: 1267
+words: 1252
+editorial: "relocating"
 title: "B2B Trade Shows in Valencia 2026: Export Fairs and International Buyers"
 slug: "b2b-trade-shows-in-valencia"
 locale: "en"

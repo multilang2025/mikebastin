@@ -1,5 +1,5 @@
 ---
-words: 323
+words: 321
 editorial: "superseded"
 title: "I18n Services"
 slug: "internationalisation"

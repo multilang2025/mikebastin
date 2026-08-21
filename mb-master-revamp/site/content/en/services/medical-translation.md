@@ -1,5 +1,5 @@
 ---
-words: 523
+words: 522
 editorial: "superseded"
 title: "Medical Translation Services"
 slug: "medical-translation"

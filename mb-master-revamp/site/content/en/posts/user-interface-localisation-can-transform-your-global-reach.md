@@ -1,5 +1,5 @@
 ---
-words: 1111
+words: 1112
 title: "How User Interface Localisation Can Transform Your Global Reach"
 slug: "user-interface-localisation-can-transform-your-global-reach"
 locale: "en"

@@ -1,5 +1,5 @@
 ---
-words: 895
+words: 894
 title: "AI-Powered Marketing"
 slug: "ai-powered-marketing"
 locale: "en"

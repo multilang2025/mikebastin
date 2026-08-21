@@ -78,9 +78,12 @@ const SUPERSEDED_EN = new Set([
  *   cluster in CONTENT-ARCHITECTURE.md open question 12 would build on.
  *   Exporting it would send away the evidence for the opportunity.
  *
- *   b2b-trade-shows-in-valencia is aimed at a business audience rather
- *   than a relocating one. Kept, but flagged for the owner as the one
- *   genuine judgement call in this list.
+ * b2b-trade-shows-in-valencia was the one genuine judgement call here.
+ * It is aimed at a business audience rather than a relocating one, so it
+ * had an argument for staying, but the owner decided on 21 Aug that it
+ * goes to valenciamove.com with the rest. Someone researching a trade
+ * show in Valencia is researching Valencia, whichever reason brought
+ * them, and that is the audience the other domain now owns.
  */
 const RELOCATING = new Set([
   "international-schools-in-valencia", "valencia-expat", "valencia-remote-working",
@@ -89,11 +92,21 @@ const RELOCATING = new Set([
   "neighbourhoods-for-professionals-in-valencia", "move-to-valencia-spain-from-usa",
   "valencia-the-not-so-perfect-mediterranean-paradise", "valencia-airport-guide",
   "best-neighborhoods-valencia", "work-life-balance-in-valencia",
-  "business-registration-in-valencia", "shipping-to-valencia-spain",
+  "shipping-to-valencia-spain",
   "american-move-to-valencia-spain", "living-in-a-flat-in-valencia-a-pragmatic-overview",
   "live-in-valencia", "valencia-public-transportation",
   "essential-things-to-do-in-cultural-valencia",
+  // Owner decision, 21 Aug.
+  "b2b-trade-shows-in-valencia",
 ]);
+
+/**
+ * business-registration-in-valencia is deliberately not in that set,
+ * though it was until now. HANDOFF.md section 18 proposes it stays on
+ * mikebastin.com for the business-services angle, and the list here
+ * contradicted that without a decision behind it. Aligned to the handoff
+ * until the owner rules on it either way.
+ */
 
 const THRESHOLDS = { critical: 150, thin: 300, light: 600 };
 

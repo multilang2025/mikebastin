@@ -1,5 +1,5 @@
 ---
-words: 529
+words: 528
 editorial: "superseded"
 title: "Financial Translations"
 slug: "financial-translation"

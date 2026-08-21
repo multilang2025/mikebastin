@@ -1,5 +1,5 @@
 ---
-words: 2705
+words: 2698
 editorial: "relocating"
 title: "Valencia: The Not-So-Perfect Mediterranean Paradise (But We Love It Anyway)"
 slug: "valencia-the-not-so-perfect-mediterranean-paradise"

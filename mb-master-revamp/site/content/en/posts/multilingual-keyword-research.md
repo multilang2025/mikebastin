@@ -1,5 +1,5 @@
 ---
-words: 669
+words: 668
 title: "The Ultimate Guide to Multilingual Keyword Research"
 slug: "multilingual-keyword-research"
 locale: "en"

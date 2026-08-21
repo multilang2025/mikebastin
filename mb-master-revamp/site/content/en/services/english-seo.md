@@ -1,5 +1,5 @@
 ---
-words: 611
+words: 609
 editorial: "superseded"
 title: "English SEO"
 slug: "english-seo"

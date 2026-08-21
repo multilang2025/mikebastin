@@ -1,5 +1,5 @@
 ---
-words: 1581
+words: 1585
 title: "How to Write About Your Professional Background in Ditigal Marketing"
 slug: "how-to-write-about-your-professional-background"
 locale: "en"

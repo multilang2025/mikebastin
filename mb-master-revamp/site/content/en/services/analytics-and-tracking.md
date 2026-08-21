@@ -1,5 +1,5 @@
 ---
-words: 548
+words: 547
 editorial: "superseded"
 title: "Analytics and Tracking"
 slug: "analytics-and-tracking"

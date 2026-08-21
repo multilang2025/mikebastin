@@ -1,5 +1,5 @@
 ---
-words: 567
+words: 566
 editorial: "superseded"
 title: "Software Internationalisation"
 slug: "software-internationalisation"

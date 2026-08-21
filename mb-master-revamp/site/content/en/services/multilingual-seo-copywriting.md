@@ -1,5 +1,5 @@
 ---
-words: 1295
+words: 1297
 editorial: "superseded"
 title: "Multilingual SEO Copywriting"
 slug: "multilingual-seo-copywriting"

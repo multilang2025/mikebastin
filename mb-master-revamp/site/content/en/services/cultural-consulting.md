@@ -1,5 +1,5 @@
 ---
-words: 557
+words: 556
 editorial: "superseded"
 title: "Cultural Consulting"
 slug: "cultural-consulting"

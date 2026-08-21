@@ -1,6 +1,5 @@
 ---
 words: 1421
-editorial: "relocating"
 title: "Streamlining the Business Registration Process in Valencia"
 slug: "business-registration-in-valencia"
 locale: "en"
