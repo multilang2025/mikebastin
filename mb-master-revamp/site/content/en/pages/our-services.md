@@ -31,4 +31,4 @@ Together, we can bring your vision to life, improve your brand, and drive meanin
 ## What people say  
 about us
 
-**See what clients and colleagues are saying about our  work.** From SEO strategies to [translation services](https://mikebastin.com/services/business-translation/), our reputation for expertise, results-driven performance, and client-focused dedication shines through in their feedback.
+**See what clients and colleagues are saying about our  work.** From SEO strategies to [translation services](https://mikebastin.com/services/business-translation/), our reputation for expertise, results-driven performance, and client-focused dedication shines through in their feedback.

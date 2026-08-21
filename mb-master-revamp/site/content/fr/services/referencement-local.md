@@ -31,7 +31,7 @@ cities like Valencia, Brussels, Geneva, Houston are local SEO contexts where mul
 
 GEO + Local
 
-AI engines now answer « best X in  » queries with citations to local results
+AI engines now answer « best X in  » queries with citations to local results
 
 ## Three ways to lose local visibility
 
@@ -39,9 +39,9 @@ Recurring patterns on local businesses I audit:
 
 Profile exists but categories are wrong, services list incomplete, hours not updated, photos sparse, no posts in months, Q&A unanswered. Google’s algorithm rewards complete and active profiles. A half-finished profile gets buried below competitors with no better product, just better profile hygiene.
 
-The business name is slightly different on Yelp vs Yellow Pages vs the local Chamber of Commerce listing. Address has « Street » on one and « St » on another. Phone has different country codes across sources. Google sees these inconsistencies as confidence signals being eroded. Consolidating NAP everywhere is unglamorous but it directly affects ranking.
+The business name is slightly different on Yelp vs Yellow Pages vs the local Chamber of Commerce listing. Address has « Street » on one and « St » on another. Phone has different country codes across sources. Google sees these inconsistencies as confidence signals being eroded. Consolidating NAP everywhere is unglamorous but it directly affects ranking.
 
-A homepage saying « serving Valencia » is fine. A dedicated page for each neighbourhood you actually serve (Ruzafa, El Carmen, Benimaclet, Cabanyal) is much better. People search « service + neighbourhood », not just « service + city ». Without neighbourhood-level content, you miss the long tail entirely.
+A homepage saying « serving Valencia » is fine. A dedicated page for each neighbourhood you actually serve (Ruzafa, El Carmen, Benimaclet, Cabanyal) is much better. People search « service + neighbourhood », not just « service + city ». Without neighbourhood-level content, you miss the long tail entirely.
 
 Local SEO is mostly about discipline and consistency rather than tricks. Google Business Profile maintained, NAP consistent everywhere, schema in place, neighbourhood-level pages, reviews managed actively, citations cleaned up. Done properly, it compounds over months and quietly pushes you up the map pack.
 
@@ -57,7 +57,7 @@ Dedicated pages per neighbourhood or district served. Real content per area (not
 
 Process for requesting reviews from satisfied customers (post-service email, QR code at checkout). Active response strategy to all reviews. Negative review handling protocol.
 
-« Best X in  » queries on ChatGPT, Claude and Perplexity now drive a meaningful share of local discovery. Structured data, citations and reputation feed AI knowledge graphs.
+« Best X in  » queries on ChatGPT, Claude and Perplexity now drive a meaningful share of local discovery. Structured data, citations and reputation feed AI knowledge graphs.
 
 ## My process in 5 steps, named deliverables
 
@@ -81,19 +81,19 @@ Three engagements where local visibility was the central revenue driver.
 
 **Build:** GBP fully optimised with all services and attributes, NAP consistent across Dutch directories (Gouden Gids, Detailhandel.nl, Branchevereniging Carrosseriebedrijven), LocalBusiness schema on every page, dedicated landing pages per surrounding city (Hillegom, Lisse, Sassenheim, Noordwijkerhout), proactive review request process.
 
-**Outcome:** map pack presence on « autospuiterij + city » queries across the Bollenstreek, qualified inquiries arriving daily through GBP messaging and the website form, organic ranking on long-tail neighbourhood queries.
+**Outcome:** map pack presence on « autospuiterij + city » queries across the Bollenstreek, qualified inquiries arriving daily through GBP messaging and the website form, organic ranking on long-tail neighbourhood queries.
 
 **Context:** expatriate content site covering Valencia. Local SEO matters for ranking on neighbourhood-specific queries about Valencia districts and surrounding municipalities.
 
 **Build:** dedicated guide pages per Valencia neighbourhood (Ruzafa, El Carmen, Benimaclet, Cabanyal, Patacona) and surrounding cities (Paterna, Mislata, Burjassot), neighbourhood-level cost-of-living analysis, geo schema markup, GBP for the content brand.
 
-**Outcome:** rankings on neighbourhood-specific queries about Valencia districts in both Spanish and English, AI citations for « best neighbourhoods in Valencia » type queries, recurring inbound from prospective movers exploring specific areas.
+**Outcome:** rankings on neighbourhood-specific queries about Valencia districts in both Spanish and English, AI citations for « best neighbourhoods in Valencia » type queries, recurring inbound from prospective movers exploring specific areas.
 
 **Context:** Valencia-based law firm specialised in business law and franchising. Local trust signals critical for legal sector. Multilingual local presence (Spanish, French, English).
 
 **Build:** LegalService schema with ICAV (Valencia bar association) membership, GBP optimised in Spanish as primary plus translated profile descriptions for French and English versions, NAP consistency across legal directories, structured attorney bios with credentials.
 
-**Outcome:** visibility on « abogado mercantil Valencia » and equivalent queries in French and English, recurring local leads requesting consultation for business law matters.
+**Outcome:** visibility on « abogado mercantil Valencia » and equivalent queries in French and English, recurring local leads requesting consultation for business law matters.
 
 ## What is included, what is not
 
@@ -185,7 +185,7 @@ No. One GBP profile per physical location. The GBP can list multiple languages s
 
 What is NAP and why does consistency matter?
 
-NAP stands for Name, Address, Phone, the three core data points Google cross-references across the web to validate a business is real and located where it claims. Inconsistencies (one citation says « Avenida del Puerto 14 », another says « Av Puerto 14 ») erode Google’s confidence and depress local ranking. Consolidating NAP is unglamorous work but it directly affects map pack position.
+NAP stands for Name, Address, Phone, the three core data points Google cross-references across the web to validate a business is real and located where it claims. Inconsistencies (one citation says « Avenida del Puerto 14 », another says « Av Puerto 14 ») erode Google’s confidence and depress local ranking. Consolidating NAP is unglamorous work but it directly affects map pack position.
 
 Do paid Local Service Ads matter for local SEO?
 

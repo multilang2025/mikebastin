@@ -9,7 +9,7 @@ wpId: 24855766
 date: "2026-01-27T08:16:13"
 modified: "2026-07-02T17:30:44"
 sourceUrl: "https://mikebastin.com/google-analytics-international-marketing-limits/"
-excerpt: "Google Analytics has significant limits internationally—understand what you can trust and where it fails. ⚠️"
+excerpt: "Google Analytics has significant limits internationally, understand what you can trust and where it fails. ⚠️"
 ---
 
 ## The Role of Google Analytics in Modern International Marketing

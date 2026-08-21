@@ -130,7 +130,7 @@ Bing Ads typically offer lower CPCs compared to Google, so it can be a more cost
 
 Adjust your bidding according to device type and location, as French consumers’ preferences may differ depending on whether they’re using mobile or desktop.
 
-Additionally, don’t forget to make use of ad extensions.
+Don’t forget to make use of ad extensions.
 
 Ad extensions such as sitelinks, callouts, and location extensions can significantly increase your ad’s visibility and click-through rate.
 

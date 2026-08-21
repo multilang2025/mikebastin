@@ -145,7 +145,7 @@ Dès qu’un document étranger doit être présenté aux autorités espagnoles,
 Entre casier judiciaire, assurances et traductions, un dossier de visa peut vite devenir complexe. Pour un accompagnement sur mesure :
 
 -   [Demander un devis pour une traduction assermentée](https://chat.mistral.ai/chat/49a22356-5496-4e6c-a9bd-ccbb0085158c#)
--   [Nous contacter pour un dossier « prêt à déposer »](https://chat.mistral.ai/chat/49a22356-5496-4e6c-a9bd-ccbb0085158c#)
+-   [Nous contacter pour un dossier « prêt à déposer »](https://chat.mistral.ai/chat/49a22356-5496-4e6c-a9bd-ccbb0085158c#)
 
 * * *
 

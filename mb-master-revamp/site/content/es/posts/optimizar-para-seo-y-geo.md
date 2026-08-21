@@ -9,7 +9,7 @@ wpId: 24855846
 date: "2026-01-28T15:30:50"
 modified: "2026-05-29T07:04:45"
 sourceUrl: "https://mikebastin.com/es/optimizar-para-seo-y-geo/"
-excerpt: "El contenido puede optimizarse para búsqueda tradicional y citas de IA simultáneamente—estrategia dual para máxima visibilidad. 🎯"
+excerpt: "El contenido puede optimizarse para búsqueda tradicional y citas de IA simultáneamente, estrategia dual para máxima visibilidad. 🎯"
 ---
 
 ![Article header image](https://mikebastin.com/wp-content/uploads/2026/01/estrategiacontenidodualseogeos-1024x585.jpg)

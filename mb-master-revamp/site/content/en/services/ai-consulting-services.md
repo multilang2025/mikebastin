@@ -10,7 +10,7 @@ wpId: 24847584
 date: "2025-01-06T12:39:08"
 modified: "2026-07-19T13:17:25"
 sourceUrl: "https://mikebastin.com/services/ai-consulting-services/"
-excerpt: "Expand your global reach with AI-powered language solutions. Expert AI consulting for multilingual operations, cultural adaptation & business growth."
+excerpt: "Expand your global reach with AI-powered language solutions. Expert AI consulting for multilingual operations, cultural adaptation and business growth."
 ---
 
 # Multilingual AI Consulting Services

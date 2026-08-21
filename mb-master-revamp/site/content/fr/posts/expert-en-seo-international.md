@@ -114,7 +114,7 @@ Reprenons l’exemple de mon client dans l’immobilier caribéen.
 
 Sa version française mélangeait des tournures du Canada, de Suisse, de France et de Belgique dans un même texte, sans cohérence.
 
-Les titres affichaient des majuscules à chaque mot, calquées sur l’anglais. Les appels à l’action traduisaient littéralement « Book now » par « Réservé maintenant », avec une faute d’accord en prime.
+Les titres affichaient des majuscules à chaque mot, calquées sur l’anglais. Les appels à l’action traduisaient littéralement « Book now » par « Réservé maintenant », avec une faute d’accord en prime.
 
 Pour un francophone, ce type d’incohérence détruit la confiance en quelques secondes.
 

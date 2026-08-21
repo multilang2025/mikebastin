@@ -18,7 +18,7 @@ In the fast-changing world of digital marketing, [Search Engine Optimization (SE
 
 SEO involves optimising your website to rank higher on search engines like Google, driving organic traffic through strategic use of keywords, quality content, and [technical enhancements](https://mikebastin.com/services/on-page-seo/).
 
-However, with the rise of artificial intelligence (AI) and advanced search technologies, a new paradigm is emerging: [Generative Engine Optimization (GEO)](https://mikebastin.com/generative-engine-optimization/).
+With the rise of artificial intelligence (AI) and advanced search technologies, a new paradigm is emerging: [Generative Engine Optimization (GEO)](https://mikebastin.com/generative-engine-optimization/).
 
 GEO focuses on optimising content for AI-powered search engines such as [SearchGPT](https://openai.com/index/searchgpt-prototype/), which use large language models (LLMs) to deliver more personalised and context-aware search results.
 

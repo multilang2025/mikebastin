@@ -44,7 +44,7 @@ Should you use “tú” or “usted”?
 
 The choice depends on the target audience: a younger, informal audience may prefer “tú,” while a more professional or older audience would expect “usted.”
 
-Additionally, focusing on [long-tail keywords](https://mikebastin.com/long-tail-keywords/) in Spanish, which reflect common expressions, can help better match the user’s search intent and make the content feel natural.
+Focusing on [long-tail keywords](https://mikebastin.com/long-tail-keywords/) in Spanish, which reflect common expressions, can help better match the user’s search intent and make the content feel natural.
 
 ## Content Optimisation: Writing the Melody
 
@@ -68,7 +68,7 @@ URLs must be clear, concise, and **Spanish-friendly**.
 
 Including relevant keywords in Spanish can enhance readability for both users and search engines.
 
-Moreover, localised URLs that reflect the specific region or city in Spain can improve local SEO significantly, making your content more accessible to your intended audience.
+Localised URLs that reflect the specific region or city in Spain can improve local SEO significantly, making your content more accessible to your intended audience.
 
 ## Multimedia Optimisation: Adding Harmonies
 

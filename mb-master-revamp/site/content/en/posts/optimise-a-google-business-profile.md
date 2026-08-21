@@ -9,7 +9,7 @@ wpId: 24845534
 date: "2024-10-29T12:34:00"
 modified: "2026-07-02T15:30:51"
 sourceUrl: "https://mikebastin.com/optimise-a-google-business-profile/"
-excerpt: "Is your Google Business Profile as spotty as a teenager’s selfie? While you’d never dream of letting your shop window gather dust, your digital storefront might be doing just that. Fancy learning how to transform your profile from proper pants to absolutely brilliant? We’ll show you the tricks of the trade—no technical wizardry required. Pop in to discover how to make your business shine online. →"
+excerpt: "Is your Google Business Profile as spotty as a teenager’s selfie? While you’d never dream of letting your shop window gather dust, your digital storefront might be doing just that. Fancy learning how to transform your profile from proper pants to absolutely brilliant? We’ll show you the tricks of the trade, no technical wizardry required. Pop in to discover how to make your business shine online. →"
 ---
 
 ## Google Business Profile in 2026: what actually works for local visibility

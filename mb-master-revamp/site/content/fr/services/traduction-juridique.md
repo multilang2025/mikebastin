@@ -21,7 +21,7 @@ Traduisez vos documents juridiques avec rigueur et conformité
 
 Maîtrisez les subtilités légales de chaque marché grâce à nos **traductions juridiques spécialisées**, couvrant contrats internationaux, brevets, accords de confidentialité et conditions générales de vente.
 
-Chaque document est localisé avec précision : terminologie de droit des sociétés, clauses de conformité RGPD / GDPR et exigences de la localisation multilingue sont harmonisés afin de préserver l’intégrité juridique et la pertinence culturelle dans chaque juridiction, qu’il s’agisse de l’Union européenne, de la Suisse ou des États-Unis.
+Chaque document est localisé avec précision : terminologie de droit des sociétés, clauses de conformité RGPD / GDPR et exigences de la localisation multilingue sont harmonisés afin de préserver l’intégrité juridique et la pertinence culturelle dans chaque juridiction, qu’il s’agisse de l’Union européenne, de la Suisse ou des États-Unis.
 
 Notre équipe, composée de **linguistes assermentés et de juristes chevronnés**, collabore avec nos [experts en solutions linguistiques](https://mikebastin.com/fr/services/solutions-linguistiques/) pour livrer des traductions certifiées conformes aux standards des tribunaux et organismes de propriété intellectuelle (WIPO, USPTO), facilitant la conformité réglementaire et les transactions transfrontalières.
 

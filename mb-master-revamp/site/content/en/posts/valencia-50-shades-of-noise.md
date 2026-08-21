@@ -10,7 +10,7 @@ wpId: 24854578
 date: "2025-06-03T14:55:26"
 modified: "2026-07-02T17:23:46"
 sourceUrl: "https://mikebastin.com/valencia-50-shades-of-noise/"
-excerpt: "Firecrackers, horns and belting songs in the streets. Valencia shouts out her personality. Discover 50 shades of noise, balancing between a love–hate sonic tension and inevitable laughter."
+excerpt: "Firecrackers, horns and belting songs in the streets. Valencia shouts out her personality. Discover 50 shades of noise, balancing between a love, hate sonic tension and inevitable laughter."
 ---
 
 ## How Loud Valencia Really Gets and How Locals Cope

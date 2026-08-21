@@ -19,7 +19,7 @@ In recent years, the trend of Americans swapping the high-pressure lifestyle of 
 
 Valencia offers a unique proposition: the amenities of a major European city combined with the soul of a coastal town. For many Americans, the appeal lies in the “California of Europe” vibe, 300 days of sunshine, a world-class park (the Turia) running through the city centre, and a cost of living that makes a high quality of life accessible. Whether you are a remote worker, a retiree, or an entrepreneur, the transition requires meticulous planning. As one expat, Sarah from Seattle, puts it: _“In the US, we lived to work. In Valencia, we work to live. Our Tuesday evenings are now spent drinking vermouth in a plaza rather than sitting in gridlock traffic.”_
 
-However, the logistics of an intercontinental move can be daunting. From handling the intricacies of Spanish bureaucracy to finding a flat in a competitive market, the “dream” can quickly feel like a full-time job. Professional relocation services become essential here, acting as your boots on the ground to ensure your arrival is a celebration, not a crisis.
+The logistics of an intercontinental move can be daunting. From handling the intricacies of Spanish bureaucracy to finding a flat in a competitive market, the “dream” can quickly feel like a full-time job. Professional relocation services become essential here, acting as your boots on the ground to ensure your arrival is a celebration, not a crisis.
 
 ### The Valencia Appeal: What to Expect in 2026
 
@@ -150,4 +150,4 @@ In the city centre, a car is often more of a burden than a benefit due to limite
 
 ### Can we buy property in Valencia as an American?
 
-Yes, Americans can buy property in Spain. There are no restrictions on foreign ownership. However, the process is different than in the US, involving a _notario_ and specific taxes, typically around 9 to 11% above the purchase price for a resale property in the Comunitat Valenciana (the region’s transfer tax dropped from 10% to 9% in June 2026, plus notary and registry fees). Buying property no longer grants residency in its own right, since the Golden Visa programme closed in April 2025.
+Yes, Americans can buy property in Spain. There are no restrictions on foreign ownership. The process is different than in the US, involving a _notario_ and specific taxes, typically around 9 to 11% above the purchase price for a resale property in the Comunitat Valenciana (the region’s transfer tax dropped from 10% to 9% in June 2026, plus notary and registry fees). Buying property no longer grants residency in its own right, since the Golden Visa programme closed in April 2025.

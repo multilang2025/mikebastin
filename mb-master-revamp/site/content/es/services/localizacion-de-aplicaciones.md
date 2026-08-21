@@ -37,17 +37,17 @@ Ready to scale globally? Explore our [app localisation services](https://mikebas
 
 App Localisation goes beyond simple translation, it’s about tailoring your app for specific regions, languages, and [cultures](https://mikebastin.com/user-interface-localisation-can-transform-your-global-reach/) to increase user engagement, satisfaction, and ultimately, conversions.
 
-Here’s why localisation is essential: 
+Here’s why localisation is essential: 
 
 Consigue más descargas de la aplicación y la retención de usuarios.
 
-Maintain [brand voice across multiple languages](https://mikebastin.com/es/services/branding-multilingue/). 
+Maintain [brand voice across multiple languages](https://mikebastin.com/es/services/branding-multilingue/). 
 
 Mayor interacción y conversiones gracias a una localización alineada con el idioma nativo y las normas culturales de cada mercado.
 
 Localización profesional para un éxito internacional
 
-Our [app localisation service](https://mikebastin.com/es/services/localizacion-de-e-commerce/) ensures your app’s language, design, and functionality are optimised for each market. We consider [cultural sensitivities, legal requirements, and user preferences](https://mikebastin.com/es/diferencias-culturales-sitios-web-multilingues/) to deliver a truly localised experience. 
+Our [app localisation service](https://mikebastin.com/es/services/localizacion-de-e-commerce/) ensures your app’s language, design, and functionality are optimised for each market. We consider [cultural sensitivities, legal requirements, and user preferences](https://mikebastin.com/es/diferencias-culturales-sitios-web-multilingues/) to deliver a truly localised experience. 
 
 Traducimos y localizamos con precisión el contenido de tu aplicación, como: textos de la interfaz, descripciones y notificaciones. Así garantizamos claridad y relevancia cultural.
 
@@ -92,7 +92,7 @@ Beneficios clave de nuestra localización de aplicaciones
 
 -   **Increased Downloads:** Attract users from diverse regions.
 -   **Enhanced UX:** Make your app feel local to every user.
--   **Higher Engagement:** Retain users with culturally relevant content.
+-   **Higher Engagement:** Retain users with culturally relevant content.
 
 Confía en nuestra experiencia en localización de aplicaciones
 

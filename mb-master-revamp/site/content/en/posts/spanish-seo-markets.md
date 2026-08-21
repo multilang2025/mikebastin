@@ -20,7 +20,7 @@ From a business perspective, it would be foolish to ignore the potential of the 
 
 Taking advantage of the growing number of Spanish internet users is crucial for any business looking to establish a strong and broad international presence.
 
-However, implementing an [effective SEO strategy](https://mikebastin.com/category/international-seo-strategies/) for these diverse audiences comes with its own set of unique challenges. Let’s explore the key hurdles that marketers face when **optimising** for Spanish-speaking audiences.
+Implementing an [effective SEO strategy](https://mikebastin.com/category/international-seo-strategies/) for these diverse audiences comes with its own set of unique challenges. Let’s explore the key hurdles that marketers face when **optimising** for Spanish-speaking audiences.
 
 ## Linguistic Diversity: Beyond Simple Translation
 

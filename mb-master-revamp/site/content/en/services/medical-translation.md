@@ -29,7 +29,7 @@ Our team of specialised linguists and healthcare professionals work together to 
 
 Our medical translation services combine linguistic expertise with in-depth healthcare knowledge to ensure accuracy, confidentiality, and timely delivery of your critical medical documents.
 
- Our [translations are certified, ensuring they meet the highest standards](https://mikebastin.com/services/legal-translation/) of precision required in medical contexts.
+ Our [translations are certified, ensuring they meet the highest standards](https://mikebastin.com/services/legal-translation/) of precision required in medical contexts.
 
 Our team includes translators with specialized knowledge in various medical fields, guaranteeing accurate terminology.
 
@@ -58,11 +58,11 @@ Understand your specific medical translation needs and requirements.
 
 Assess the complexity and scope of the medical documents to be translated.
 
- Match your project with medical translators specialised in the relevant healthcare field.
+ Match your project with medical translators specialised in the relevant healthcare field.
 
- Conduct thorough translation followed by a rigorous review process.
+ Conduct thorough translation followed by a rigorous review process.
 
- Perform final checks to ensure accuracy, consistency, and compliance with medical standards.
+ Perform final checks to ensure accuracy, consistency, and compliance with medical standards.
 
 FAQ
 

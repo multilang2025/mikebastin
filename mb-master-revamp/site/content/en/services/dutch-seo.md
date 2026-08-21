@@ -9,7 +9,7 @@ wpId: 17228778
 date: "2024-09-24T16:32:04"
 modified: "2026-07-19T10:47:24"
 sourceUrl: "https://mikebastin.com/services/dutch-seo/"
-excerpt: "Speak the language of your customers in Belgium and the Netherlands 🇳🇱 Drive more local traffic with powerful Dutch SEO — let’s talk!"
+excerpt: "Speak the language of your customers in Belgium and the Netherlands 🇳🇱 Drive more local traffic with powerful Dutch SEO, let’s talk!"
 ---
 
 # Dutch SEO: ranking in the Netherlands and Flanders, executed natively

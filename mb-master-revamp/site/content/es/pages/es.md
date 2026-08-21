@@ -23,7 +23,7 @@ Soluciones multilingües para tu crecimiento internacional
 
 Somos una agencia de marketing digital multilingüe 360 para empresas en Valencia con visión internacional, que ofrece servicios multilingües de [consultoría SEO,](https://mikebastin.com/es/services/agencia-de-seo-global/) branding, localización de páginas web, estrategias de negocio con herramientas IA, etc., en cualquier idioma.
 
-Si todavía no te has planteado invertir en **marketing digital**, deberías saber que se trata del **principal motor del sector publicitario español,** según el Observatorio de la Publicidad Digital de IAB Spain, algo que ya saben la mayoría de tus competidores…
+Si todavía no te has planteado invertir en **marketing digital**, deberías saber que se trata del **principal motor del sector publicitario español,** según el Observatorio de la Publicidad Digital de IAB Spain, algo que ya saben la mayoría de tus competidores…
 
 En MikeBastin, con nuestros 20 años de experiencia y nuestros conocimientos lingüísticos y culturales, agilizamos el proceso de expansión nacional o internacional de cualquier empresa y garantizamos una adaptación respetuosa y precisa de la marca al mercado objetivo.
 

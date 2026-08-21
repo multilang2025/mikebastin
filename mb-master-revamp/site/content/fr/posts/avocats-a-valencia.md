@@ -60,7 +60,7 @@ Sans inscription active, l’avocat n’a pas le droit d’exercer en Espagne. C
 
 Tarification
 
-Forfait, tarif horaire (généralement 120 à 350 €/h à Valencia), success fee. Devis écrit avant signature
+Forfait, tarif horaire (généralement 120 à 350 €/h à Valencia), success fee. Devis écrit avant signature
 
 Les écarts vont de 1 à 5 entre boutique et grande structure. Le devis écrit protège des suppléments surprises
 

@@ -104,9 +104,9 @@ High: effective in Spanish markets, requires user-generated keyword input
 
 ### **Mobile vs Desktop Usage Patterns**
 
--   [According to StatCounter](https://gs.statcounter.com/platform-market-share/desktop-mobile-tablet/spain), as of January 2025, mobile devices account for **58.95%** of internet usage in Spain, desktops for **39.14%**, and tablets for **1.91%**. Additionally, Spain’s high smartphone penetration rate (nearly [**90%** of the population actively using smartphones](https://www.businessofapps.com/data/spain-app-market/)) highlights the importance of optimising digital strategies for mobile users[5](https://www.businessofapps.com/data/spain-app-market/). 
+-   [According to StatCounter](https://gs.statcounter.com/platform-market-share/desktop-mobile-tablet/spain), as of January 2025, mobile devices account for **58.95%** of internet usage in Spain, desktops for **39.14%**, and tablets for **1.91%**. Spain’s high smartphone penetration rate (nearly [**90%** of the population actively using smartphones](https://www.businessofapps.com/data/spain-app-market/)) highlights the importance of optimising digital strategies for mobile users[5](https://www.businessofapps.com/data/spain-app-market/). 
 -   For certain content categories like portals (69%), business/finance (58%), and entertainment/news (51%), mobile usage exceeds desktop.
--   However, desktop still dominates for categories like online gaming (88%), photos (92%), and maps (94%)
+-   Desktop still dominates for categories like online gaming (88%), photos (92%), and maps (94%)
 
 ![](https://mikebastin.com/wp-content/uploads/2024/10/image-8.png)
 

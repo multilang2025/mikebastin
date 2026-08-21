@@ -53,7 +53,7 @@ Where your website is hosted can affect your site’s performance, particularly 
 
 Having servers located closer to your target audience can reduce latency and improve load times.
 
-However, server location should be part of a broader strategy that includes other geotargeting factors.
+Server location should be part of a broader strategy that includes other geotargeting factors.
 
 #### Choosing the Right Server Location
 

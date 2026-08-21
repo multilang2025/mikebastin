@@ -1,7 +1,7 @@
 ---
 words: 2113
 editorial: "relocating"
-title: "Valencia Airport Guide: Your Arrival & First Week in the City"
+title: "Valencia Airport Guide: Your Arrival and First Week in the City"
 slug: "valencia-airport-guide"
 locale: "en"
 type: "posts"
@@ -41,7 +41,7 @@ Once you clear passport control (which can take 20 to 40 minutes during peak sum
 
 ### 1\. Getting a Local SIM Card
 
-While the airport has Wi-Fi, having local data is crucial for using Google Maps or calling your host. There is a small shop in the arrivals area that sells SIM cards (usually Orange or Vodafone). However, be aware that airport prices can be slightly higher. If you can wait until you reach the city, you’ll find better deals, but for immediate peace of mind, a 20GB “pre-pago” card is a solid investment.
+While the airport has Wi-Fi, having local data is crucial for using Google Maps or calling your host. There is a small shop in the arrivals area that sells SIM cards (usually Orange or Vodafone). Be aware that airport prices can be slightly higher. If you can wait until you reach the city, you’ll find better deals, but for immediate peace of mind, a 20GB “pre-pago” card is a solid investment.
 
 ### 2\. Currency Exchange: The Golden Rule
 
@@ -163,11 +163,11 @@ The metro generally runs from around 5:30 AM to 11:30 PM on weekdays, with exten
 
 ### Can we pay for a taxi with a credit card at Valencia airport?
 
-Yes, almost all taxis in Valencia are required to accept credit and debit cards. However, it is always polite to ask “Tarjeta?” (Card?) before you start your journey just to be 100% sure the machine is working.
+Yes, almost all taxis in Valencia are required to accept credit and debit cards. It is always polite to ask “Tarjeta?” (Card?) before you start your journey just to be 100% sure the machine is working.
 
 ### Is the tap water in Valencia safe to drink?
 
-The tap water in Valencia is perfectly safe to drink and meets all EU standards. However, it has a very high mineral content (hard water) and a taste that many find unpleasant. Most residents use a Brita filter jug or buy bottled water for drinking, while using tap water for cooking and brushing teeth.
+The tap water in Valencia is perfectly safe to drink and meets all EU standards. It has a very high mineral content (hard water) and a taste that many find unpleasant. Most residents use a Brita filter jug or buy bottled water for drinking, while using tap water for cooking and brushing teeth.
 
 ### How much should we tip in Valencia?
 

@@ -484,7 +484,7 @@ La fianza obligatoire en Espagne est d’un mois de loyer pour le logement princ
 
 Y a-t-il un encadrement des loyers à Valencia ?
 
-La loi logement de 2023 (Ley 12/2023) permet aux communes de déclarer des « zones tendues » avec encadrement des loyers. Valencia ville a été déclarée zone tendue, ce qui plafonne les hausses entre deux baux dans certains immeubles selon des critères précis. Le dispositif évolue. Vérifiez la situation actuelle auprès de la Generalitat Valenciana avant de signer.
+La loi logement de 2023 (Ley 12/2023) permet aux communes de déclarer des « zones tendues » avec encadrement des loyers. Valencia ville a été déclarée zone tendue, ce qui plafonne les hausses entre deux baux dans certains immeubles selon des critères précis. Le dispositif évolue. Vérifiez la situation actuelle auprès de la Generalitat Valenciana avant de signer.
 
 Faut-il un avocat pour signer un bail ?
 

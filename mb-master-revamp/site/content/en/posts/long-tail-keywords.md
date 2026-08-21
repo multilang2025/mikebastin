@@ -16,7 +16,7 @@ excerpt: "Boost your SEO by leveraging long-tail keywords, which target niche ma
 
 In today’s competitive digital market, ranking high on search engines is crucial for success.
 
-However, with the immense competition for popular keywords, businesses need to get more specific with their SEO strategies.
+With the immense competition for popular keywords, businesses need to get more specific with their SEO strategies.
 
 Here is where **long-tail keywords** come in.
 

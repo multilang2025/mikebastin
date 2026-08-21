@@ -95,7 +95,7 @@ Our Customers
 -   **Improved UX**: Provide users with a localized, culturally relevant experience.
 -   **Higher Rankings**: [Optimise for search engines in different languages](https://mikebastin.com/best-practices-for-multilingual-seo/) to improve visibility in global markets.
 
-###  Our Expertise in Multilingual CMS Integration
+###  Our Expertise in Multilingual CMS Integration
 
 With years of experience in website localisation and CMS integration, our team specialises in providing multilingual solutions for WordPress, Joomla, Drupal, and other platforms.
 

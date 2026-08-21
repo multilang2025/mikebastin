@@ -1,7 +1,7 @@
 ---
 words: 2388
 editorial: "relocating"
-title: "Basic Spanish for Valencia: Essential Phrases & Why Locals Love It When You Try"
+title: "Basic Spanish for Valencia: Essential Phrases and Why Locals Love It When You Try"
 slug: "basic-spanish-valencia"
 locale: "en"
 type: "posts"

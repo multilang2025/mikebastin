@@ -129,7 +129,7 @@ A well-rounded skill set is critical in digital marketing, but it’s essential 
 
 In digital marketing, [technical skills like SEO](https://mikebastin.com/technical-seo-audit-checklist/), paid advertising (PPC), and analytics tools are highly sought after.
 
-However, soft skills like creativity, communication, and project management are equally important, as digital marketing often involves working with cross-functional teams.
+Soft skills like creativity, communication, and project management are equally important, as digital marketing often involves working with cross-functional teams.
 
 Make sure to include a mix of:
 

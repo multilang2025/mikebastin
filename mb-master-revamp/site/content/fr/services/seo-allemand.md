@@ -36,11 +36,11 @@ visibility in LLMs in German, not just in Google.de SERPs
 
 Recurring errors on the German sites I audit:
 
-Germany, Austria and Switzerland share a language with significant variations (vocabulary, pricing expectations, regulatory frameworks). « Steuerberater » works across all three but tax law differs. « Kassa » in Austria vs « Kasse » in Germany. Prices in CHF for Switzerland, EUR for the other two. Hreflang de-DE, de-AT and de-CH should be distinct for serious DACH targeting.
+Germany, Austria and Switzerland share a language with significant variations (vocabulary, pricing expectations, regulatory frameworks). « Steuerberater » works across all three but tax law differs. « Kassa » in Austria vs « Kasse » in Germany. Prices in CHF for Switzerland, EUR for the other two. Hreflang de-DE, de-AT and de-CH should be distinct for serious DACH targeting.
 
-German has compound words (« Maschinenbauingenieur »), formal register expectations (Sie vs du) and very specific industry jargon. A site translated from English by an external service that does not master the sector ends up with copy that natives find awkward. The trust erodes immediately. Search keywords are also fundamentally different: Germans search in compound nouns Google now decomposes contextually but where exact match still helps.
+German has compound words (« Maschinenbauingenieur »), formal register expectations (Sie vs du) and very specific industry jargon. A site translated from English by an external service that does not master the sector ends up with copy that natives find awkward. The trust erodes immediately. Search keywords are also fundamentally different: Germans search in compound nouns Google now decomposes contextually but where exact match still helps.
 
-Full Impressum required by law in Germany (with USt-IdNr, register entry, managing director). GDPR-strict cookie consent (no soft opt-in like in some EU countries). Trusted Shops badge for ecommerce. Telephone with German country code prominently displayed. Absence of any of these immediately signals « foreign site » and erodes the trust that drives conversion.
+Full Impressum required by law in Germany (with USt-IdNr, register entry, managing director). GDPR-strict cookie consent (no soft opt-in like in some EU countries). Trusted Shops badge for ecommerce. Telephone with German country code prominently displayed. Absence of any of these immediately signals « foreign site » and erodes the trust that drives conversion.
 
 German SEO requires two distinct skills: strategic piloting (architecture, keywords, technical, calendar) and native execution (writing, tone, regulatory). My model: I pilot the first, native German copywriters from the [BeTranslated network](https://mikebastin.com/services/multilingual-seo/) handle the second. No pretence.
 
@@ -86,7 +86,7 @@ Transparency on the German topic: editorial production by natives, strategic pil
 
 **How I work:** monthly strategic touchpoints in English or French. I present the trade-offs, you validate. German content production and quality review handled by natives. You have one interlocutor (me), one invoice, and deliverables written by Germans.
 
-**Why it works:** many European SEO agencies « cover » German without speaking it. My model is honest about the separation of roles, without padding the invoice with an intermediary who only exists to mask that reality.
+**Why it works:** many European SEO agencies « cover » German without speaking it. My model is honest about the separation of roles, without padding the invoice with an intermediary who only exists to mask that reality.
 
 ## What is included, what is not
 
@@ -144,7 +144,7 @@ Local presence per German city (GBP, citations)
 
 **Mike Bastin:** 25 years in SEO. German: B1 level (functional reading, basic conversation). I read German SERPs, I understand briefs, I can follow a meeting in German with effort. I do not write your German commercial content.
 
-This boundary is explicit, not hidden. Most European SEO agencies « cover » German by subcontracting to native copywriters. The difference with me: it is stated clearly on this page, not discovered in the invoice.
+This boundary is explicit, not hidden. Most European SEO agencies « cover » German by subcontracting to native copywriters. The difference with me: it is stated clearly on this page, not discovered in the invoice.
 
 The benefit: you pay for strategy where strategy is delivered, and writing where writing is done well, without an intermediary taking a margin to hide the reality.
 

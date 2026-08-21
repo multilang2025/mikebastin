@@ -64,7 +64,7 @@ These tools can provide valuable insights into search volume, competition, and r
 
 #### Translate and Localise Your Seed Keywords
 
-Start with your primary keywords in your native language and translate them into your target languages. However, remember that direct translations may not always capture local search intent.
+Start with your primary keywords in your native language and translate them into your target languages. Remember that direct translations may not always capture local search intent.
 
 Consider:
 

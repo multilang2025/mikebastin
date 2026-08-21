@@ -38,7 +38,7 @@ A well-localised interface resonates with users by reflecting their language, cu
 
 Without proper localisation, users might face confusion or frustration, which can lead to a negative brand image.
 
-Moreover, localised user interfaces improve usability, making it easier for users to navigate, understand, and engage with the software.
+Localised user interfaces improve usability, making it easier for users to navigate, understand, and engage with the software.
 
 UI localisation also ensures that your software complies with regional legal and functional requirements, such as date formats, currency fields, and regulatory symbols.
 
@@ -61,7 +61,7 @@ For example, certain colours may have different meanings in different cultures, 
 **Layouts and Formatting**:  
 UI design needs to account for text expansion or contraction, particularly when translating into languages like German or Chinese.
 
-Additionally, support for right-to-left (RTL) languages such as Arabic or Hebrew may require changes to layouts and alignment.
+Support for right-to-left (RTL) languages such as Arabic or Hebrew may require changes to layouts and alignment.
 
 **Functional Localisation**:  
 This involves modifying elements such as address fields, phone number formats, and currency inputs to match the conventions of the target region.

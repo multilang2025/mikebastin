@@ -9,7 +9,7 @@ wpId: 24845715
 date: "2024-10-26T16:31:00"
 modified: "2026-07-02T15:31:01"
 sourceUrl: "https://mikebastin.com/affordable-seo-services/"
-excerpt: "Level the Playing Field: Discover how our budget-friendly SEO services help small businesses compete and thrive online. Get expert strategies that boost visibility and drive results—without the enterprise price tag →"
+excerpt: "Level the Playing Field: Discover how our budget-friendly SEO services help small businesses compete and thrive online. Get expert strategies that boost visibility and drive results, without the enterprise price tag →"
 ---
 
 ## Are you struggling to compete with bigger businesses online?

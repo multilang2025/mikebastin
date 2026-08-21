@@ -18,7 +18,7 @@ Expanding your sourcing operations to Vietnam offers numerous advantages, from c
 
 Vietnam’s position as a rapidly growing manufacturing hub in Southeast Asia also provides strategic proximity to other regional suppliers, offering flexibility for companies pursuing a China +1 strategy to diversify their supply chains.
 
-However, with the European Union’s Deforestation Regulation (EUDR) coming into effect, it is imperative for businesses to understand compliance requirements, risk management, and traceability obligations before engaging suppliers.
+With the European Union’s Deforestation Regulation (EUDR) coming into effect, it is imperative for businesses to understand compliance requirements, risk management, and traceability obligations before engaging suppliers.
 
 Vietnam’s supply chains are often complex, involving smallholder farmers and multiple layers of processing, which can make data collection and verification challenging.
 
@@ -163,7 +163,7 @@ These agencies were selected because they go beyond basic supplier matching. Eac
 
 EUDR compliance requires supplier education, traceability verification, disciplined audits, and continuous monitoring.
 
-Whether through local inspections (Sourcing Agent Vietnam, MoveToAsia, Vietnam Sourcing Team), structured regional due diligence (Sourcing Notes, FVSource), or formal compliance frameworks (Deloitte, KPMG), these actors are capable of ensuring that EUDR obligations are addressed **during scouting, audits, and production**, not after problems arise.
+Whether through local inspections (Sourcing Agent Vietnam, MoveToAsia, Vietnam Sourcing Team), structured regional due diligence (Sourcing Notes, FVSource), or formal compliance frameworks (Deloitte, KPMG), these actors are capable of ensuring that EUDR obligations are addressed **during scouting, audits, and production**, not after problems arise.
 
 ## New challenges brought by the EUDR in Vietnam
 
@@ -201,7 +201,7 @@ Many international buyers rely on local sourcing agencies or intermediaries to n
 
 It is important to nuance these challenges: unlike some major commodity-producing countries, Vietnam’s forests are not a primary source of deforestation for the commodities covered by the EUDR. This means that, in practice, the risk of sourcing products directly linked to deforestation is lower than in regions like Brazil or Indonesia. While compliance still requires traceability and audits, the environmental risk associated with Vietnamese supply chains is relatively moderate, which can be considered a positive factor for European companies.
 
-Companies can turn these challenges into an opportunity to implement solid traceability systems and build strong relationships with local producers. Moreover, the lower deforestation risk in Vietnam provides a reassuring context for European buyers, making the country a viable and increasingly attractive sourcing destination. Partnering with reliable local sourcing agencies remains key to navigating these challenges efficiently and ensuring full EUDR compliance.
+Companies can turn these challenges into an opportunity to implement solid traceability systems and build strong relationships with local producers. The lower deforestation risk in Vietnam provides a reassuring context for European buyers, making the country a viable and increasingly attractive sourcing destination. Partnering with reliable local sourcing agencies remains key to navigating these challenges efficiently and ensuring full EUDR compliance.
 
 ## How to Prepare for EUDR Compliance
 
@@ -231,7 +231,7 @@ As EUDR enforcement approaches, European companies face both challenges and oppo
 
 In this new regulatory context, Vietnam stands out as a particularly strategic sourcing destination. Unlike other regions affected by large-scale deforestation, Vietnam’s forestry management practices and growing focus on sustainability align well with EUDR expectations. The country’s manufacturers are increasingly adopting certified sourcing (such as FSC timber and sustainable rubber), making it a lower-risk partner for European importers seeking both quality and compliance.
 
-Moreover, Vietnam’s expanding network of export-ready factories and experienced sourcing agencies provides a solid bridge between European standards and local production realities. By working with trusted partners capable of auditing suppliers and verifying traceability, companies can turn compliance into a competitive advantage.
+Vietnam’s expanding network of export-ready factories and experienced sourcing agencies provides a solid bridge between European standards and local production realities. By working with trusted partners capable of auditing suppliers and verifying traceability, companies can turn compliance into a competitive advantage.
 
 Ultimately, EUDR is more than a legal requirement, it represents a shift toward a more responsible and data-driven approach to international trade. Businesses that embrace this change, especially through partnerships in forward-looking markets like Vietnam, will be best positioned to build resilient, transparent, and sustainable global supply chains.
 

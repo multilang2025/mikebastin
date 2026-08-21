@@ -40,7 +40,7 @@ Voici une méthodologie à suivre en quatre étapes :
 
 ### 1\. Extrayer les faits
 
-Utilisez des outils spécialisés comme **Waikay.io** pour extraire ce que le modèle pense de vos services à partir de son graphe de connaissances (**Knowledge Graph**).
+Utilisez des outils spécialisés comme **Waikay.io** pour extraire ce que le modèle pense de vos services à partir de son graphe de connaissances (**Knowledge Graph**).
 
 Ces plateformes révèlent les entités, attributs et relations que le modèle associe à votre marque (secteur d’activité, taille, positionnement concurrentiel).
 
@@ -74,7 +74,7 @@ Stratégie opérationnelle :
 
 Mark, de AlsoAsked, a partagé un exemple frappant tiré de ses propres tests.
 
-Il a repris le contenu d’un site supprimé par la mise à jour « Helpful Content » de Google et l’a publié sous forme d’articles sur LinkedIn Pulse.
+Il a repris le contenu d’un site supprimé par la mise à jour « Helpful Content » de Google et l’a publié sous forme d’articles sur LinkedIn Pulse.
 
 En 48 heures, ce même contenu a généré :
 
@@ -84,7 +84,7 @@ En 48 heures, ce même contenu a généré :
 
 _Même contenu. Domaine différent. Résultat radicalement opposé._
 
-La leçon à en tirer ? La source prime sur le message pour les LLM.
+La leçon à en tirer ? La source prime sur le message pour les LLM.
 
 ![Exemple d'optimisation pour IA](https://mikebastin.com/wp-content/uploads/2026/01/exemple-optimisation-ia-1024x565.jpg)
 

@@ -17,7 +17,7 @@ excerpt: "Expand your global reach with expert cultural consulting to align your
 
 Communicate across cultures without losing credibility, nuance, or commercial impact.
 
-## Navigate Global Markets with Expert Cultural Consulting
+## Navigate Global Markets with Expert Cultural Consulting
 
 Our cultural consulting services empower your business to succeed in diverse global markets.
 
@@ -54,7 +54,7 @@ Our Cultural Consulting Process
 Transparency and results-driven strategies are at the heart of our approach.  
 Here’s how we work:
 
- We begin by understanding your business, target markets, and cultural challenges you may face.
+ We begin by understanding your business, target markets, and cultural challenges you may face.
 
 Analyse the cultural space of your target market and assess competitor approaches.
 

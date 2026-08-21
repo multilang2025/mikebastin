@@ -53,7 +53,7 @@ Expert translation of brochures, websites, and advertising content, preserving b
 
 Skilled translation of employee handbooks, codes of conduct, and corporate governance documents for multinational organisations.
 
- Accurate translation of product manuals, specifications, and technical documentation for global product launches and support.
+ Accurate translation of product manuals, specifications, and technical documentation for global product launches and support.
 
 ## Our Business Translations Process
 

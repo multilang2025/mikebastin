@@ -14,7 +14,7 @@ excerpt: "The Human Creator Economy is changing how we create, share, and earn o
 
 ## Inside the Push for a More Human Creator Economy
 
-The creator economy is booming. 
+The creator economy is booming. 
 
 Millions of creators, educators, coaches, and independent entrepreneurs now earn a living from their audiences.  
 But behind this apparent freedom lies a growing concern, an increasing dependence on opaque platforms, unpredictable algorithms, and tools that automate so much that they risk erasing the human element of creativity itself.

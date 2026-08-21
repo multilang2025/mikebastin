@@ -66,7 +66,7 @@ Nuestro proceso de consultoría de IA se basa en análisis técnico y semántico
 
 Evaluamos contenido, estructura, datos estructurados y señales EEAT existentes.
 
-Simulamos cómo los modelos interpretan su información.   
+Simulamos cómo los modelos interpretan su información.   
 Detectamos pérdidas de contexto, ambigüedades y ausencia de entidades clave.
 
 Definimos acciones concretas para mejorar comprensión, citabilidad y autoridad.

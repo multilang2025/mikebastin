@@ -1,7 +1,7 @@
 ---
 words: 885
 editorial: "structural"
-title: "Blog SEO International & Marketing Digital Multilingue"
+title: "Blog SEO International and Marketing Digital Multilingue"
 slug: "blog"
 locale: "fr"
 type: "pages"

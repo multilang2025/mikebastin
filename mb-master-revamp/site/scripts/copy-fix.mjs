@@ -50,6 +50,21 @@ function onProse(text, fn) {
 
 const FIXES = [
   {
+    /**
+     * Runs first, because everything after it matches on whitespace.
+     *
+     * WordPress litters imported copy with non-breaking spaces: 733 of
+     * them across 58 files here. They are invisible in an editor and
+     * carry no meaning in body prose, but they silently defeat any rule
+     * written against a normal space. One connector survived three
+     * passes of the fixer purely because it sat behind ".\u00a0" rather
+     * than ". ", which is the kind of failure that looks like a clean
+     * result rather than a miss.
+     */
+    name: "nbsp",
+    apply: (s) => s.replace(/\u00a0/g, " "),
+  },
+  {
     name: "brand",
     apply: (s) =>
       s
@@ -59,6 +74,27 @@ const FIXES = [
   {
     name: "ampersand",
     apply: (s) => s.replace(/ +&(?:amp;)? +/g, " and "),
+  },
+  {
+    /**
+     * "However", "Moreover" and "Additionally" are on the rejected list and
+     * appear in exactly two shapes here, checked before writing this: 52
+     * sentence-initial and 3 parenthetical, none anywhere else. Both shapes
+     * delete cleanly, because the contrast or addition is already carried
+     * by the content; the connector was only signposting it. The following
+     * word is recapitalised when the connector opened the sentence.
+     */
+    name: "connector",
+    apply: (s) =>
+      s
+        // The following word may be a proper noun already capitalised
+        // ("Additionally, Spain's ..."), so match either case and only
+        // force the capital when it was lowercase.
+        // A list marker starts a sentence too: "-   However, desktop ...".
+        .replace(
+          /(^|\n|(?:[.!?] )|(?:^|\n)[-*]\s+|(?:^|\n)\d+\.\s+)(?:However|Moreover|Additionally), ([A-Za-z])/g,
+          (m, pre, ch) => pre + ch.toUpperCase())
+        .replace(/, (?:however|moreover|additionally), /g, ", "),
   },
   {
     name: "dash",
@@ -95,7 +131,14 @@ for (const f of files) {
   const src = readFileSync(f.path, "utf8");
   const parts = src.split(/^---$/m);
   if (parts.length < 3) continue;
-  const fm = parts.slice(0, 2).join("---") + "---";
+  // excerpt and title become the meta description and <title>, so the
+  // same rules apply to them. Other keys are identifiers, left alone.
+  const fmBefore = parts.slice(0, 2).join("---") + "---";
+  let fm = fmBefore.replace(/^(excerpt|title): "(.*)"$/gm, (m, key, val) => {
+    let v = val;
+    for (const fix of FIXES) v = onProse(v, fix.apply);
+    return `${key}: "${v}"`;
+  });
   let body = parts.slice(2).join("---");
   const before = body;
 
@@ -105,7 +148,7 @@ for (const f of files) {
     if (body !== prev) tally[fix.name] = (tally[fix.name] || 0) + 1;
   }
 
-  if (body !== before) {
+  if (body !== before || fm !== fmBefore) {
     touched++;
     if (!DRY) writeFileSync(f.path, fm + body);
   }

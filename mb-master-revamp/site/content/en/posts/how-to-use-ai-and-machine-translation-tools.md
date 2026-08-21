@@ -114,7 +114,7 @@ As businesses rely more on AI for multilingual content optimisation, ethical con
 
 It is important to ensure that the use of AI tools complies with data protection regulations, especially when handling sensitive information.
 
-Additionally, businesses should be transparent with users about when content has been translated using AI tools.
+Businesses should be transparent with users about when content has been translated using AI tools.
 
 #### Data Privacy Concerns
 
@@ -136,6 +136,6 @@ By staying ahead of these advancements, businesses can continue to improve their
 
 AI-powered translation tools are a valuable asset for multilingual content optimisation, offering speed and scalability.
 
-However, the limitations of AI highlight the ongoing need for human expertise to ensure cultural relevance and quality.
+The limitations of AI highlight the ongoing need for human expertise to ensure cultural relevance and quality.
 
 By integrating AI with human input, businesses can achieve the perfect [balance of efficiency and precision in their multilingual content strategies](https://mikebastin.com/building-a-global-brand/).

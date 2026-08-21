@@ -26,7 +26,7 @@ From proper URL structures to hreflang tags, site speed, and mobile optimisation
 
 One of the foundational aspects of [technical SEO](https://mikebastin.com/services/on-page-seo/) is URL structure. URLs should be clear, user-friendly, and reflect the page’s content accurately.
 
-For German websites, however, there are unique language-specific considerations.
+For German websites, there are unique language-specific considerations.
 
 ![](https://mikebastin.com/wp-content/uploads/2024/10/image-1-2.jpg)
 
@@ -54,7 +54,7 @@ Including **German keywords** in your URL structure is an important SEO tactic.
 
 Google and other search engines use URLs as a ranking factor, so having relevant German keywords increases your chances of appearing in searches.
 
-However, it’s important to avoid keyword stuffing, which can result in clunky and ineffective URLs.
+It’s important to avoid keyword stuffing, which can result in clunky and ineffective URLs.
 
 A clean URL, such as `/deutschland-reiseangebote`, is much more impactful than a URL overloaded with unnecessary or repetitive terms.
 

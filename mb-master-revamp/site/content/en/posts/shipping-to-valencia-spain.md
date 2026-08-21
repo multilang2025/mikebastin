@@ -1,7 +1,7 @@
 ---
 words: 1905
 editorial: "relocating"
-title: "Shipping to Valencia Spain: How to Move Cars & Furniture Without the Headache"
+title: "Shipping to Valencia Spain: How to Move Cars and Furniture Without the Headache"
 slug: "shipping-to-valencia-spain"
 locale: "en"
 type: "posts"
@@ -17,7 +17,7 @@ excerpt: "Shipping to Valencia Spain doesn’t have to be stressful. Learn what 
 
 ## The Reality of Shipping to Valencia Spain: What to Bring and What to Leave Behind
 
-Relocating to the Mediterranean coast is a dream for many, but the logistics of **shipping to Valencia Spain** can quickly transform that dream into a bureaucratic headache. Having navigated this process twice, once from the UK and once helping a colleague move from the States, we can tell you that the “pack everything” mentality is often a costly mistake. Before you book a container, you must perform a ruthless audit of your belongings. Spain is not a barren wasteland; it is a modern European hub with IKEA, high-end boutiques, and incredible local furniture makers. Generally, if your furniture is “flat-pack” quality, sell it. The cost of shipping will exceed its replacement value. However, if you possess antique heirlooms, high-quality solid wood pieces, or specialized professional equipment, shipping is often the only way to maintain your standard of living without a massive reinvestment. When considering [Valencia living expenses](https://mikebastin.com/valencia-living-expenses/), remember that while daily costs are lower than in London or New York, replacing an entire household of premium goods is an upfront capital hit you might want to avoid. The rule of thumb: if it’s sentimental or high-value, ship it. If it’s replaceable and bulky, buy it here.
+Relocating to the Mediterranean coast is a dream for many, but the logistics of **shipping to Valencia Spain** can quickly transform that dream into a bureaucratic headache. Having navigated this process twice, once from the UK and once helping a colleague move from the States, we can tell you that the “pack everything” mentality is often a costly mistake. Before you book a container, you must perform a ruthless audit of your belongings. Spain is not a barren wasteland; it is a modern European hub with IKEA, high-end boutiques, and incredible local furniture makers. Generally, if your furniture is “flat-pack” quality, sell it. The cost of shipping will exceed its replacement value. If you possess antique heirlooms, high-quality solid wood pieces, or specialized professional equipment, shipping is often the only way to maintain your standard of living without a massive reinvestment. When considering [Valencia living expenses](https://mikebastin.com/valencia-living-expenses/), remember that while daily costs are lower than in London or New York, replacing an entire household of premium goods is an upfront capital hit you might want to avoid. The rule of thumb: if it’s sentimental or high-value, ship it. If it’s replaceable and bulky, buy it here.
 
 ## Comparing Your Shipping Options: FCL, LCL, and Air Freight
 
@@ -100,7 +100,7 @@ This is the question that plagues every expat. Our short answer? **Usually, no.*
 
 ## Furniture and Household Goods: Customs and Regulations
 
-When **shipping to Valencia Spain**, your household goods are generally exempt from import duties under the “Transfer of Residence” (_Traslado de Residencia_) rule. However, this is not automatic. You must prove you have lived outside of Spain for at least 12 months and that you intend to reside in Valencia permanently.
+When **shipping to Valencia Spain**, your household goods are generally exempt from import duties under the “Transfer of Residence” (_Traslado de Residencia_) rule. This is not automatic. You must prove you have lived outside of Spain for at least 12 months and that you intend to reside in Valencia permanently.
 
 ### Prohibited and Restricted Items
 
@@ -175,7 +175,7 @@ Absolutely not. Pets must travel via air as “manifest cargo” or in the cabin
 
 ### Do we have to pay taxes on our used furniture?
 
-If you have owned the items for more than six months and are moving your primary residence to Valencia, you can apply for a tax exemption. However, you must provide proof of your previous residence and your new Spanish residency (or intent to reside).
+If you have owned the items for more than six months and are moving your primary residence to Valencia, you can apply for a tax exemption. You must provide proof of your previous residence and your new Spanish residency (or intent to reside).
 
 ### What happens if our goods are damaged during the voyage?
 

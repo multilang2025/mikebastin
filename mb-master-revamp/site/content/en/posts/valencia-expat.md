@@ -454,7 +454,7 @@ Expat communities provide a landing pad for newcomers.
 
 Groups like the Valencia Information Exchange and [Expats Living and Working in Valencia](https://valenciamove.com) organise regular social meetups, language exchanges, and cultural events.
 
-However, long-term integration depends on stepping beyond expat circles.
+Long-term integration depends on stepping beyond expat circles.
 
 Joining local sports clubs, attending neighbourhood festivals like Las Fallas, or simply becoming a regular at a local café accelerates cultural immersion far more effectively than sticking to English-speaking networks.
 

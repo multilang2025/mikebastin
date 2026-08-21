@@ -28,7 +28,7 @@ Website localisation involves adapting your [website content](https://mikebastin
 
 Together, these strategies can significantly boost your online presence and revenue in international markets.
 
-However, to justify the investment, it’s crucial to measure their impact accurately.
+To justify the investment, it’s crucial to measure their impact accurately.
 
 ## Key Metrics for Measuring ROI
 

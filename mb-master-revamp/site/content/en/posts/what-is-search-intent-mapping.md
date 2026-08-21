@@ -214,7 +214,7 @@ According to Similarweb’s July 2025 report, zero-click searches on Google grew
 
 When AI Overviews appear, organic click-through rates drop by approximately 40% compared to traditional results.
 
-Brands cited within AI Overviews, however, see a 35% increase in organic CTR and a 91% increase in paid CTR.
+Brands cited within AI Overviews, see a 35% increase in organic CTR and a 91% increase in paid CTR.
 
 Content structured around clear intent, supported by authoritative data and formatted for extraction, is what earns those citations.
 

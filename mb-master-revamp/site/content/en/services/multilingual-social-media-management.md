@@ -75,7 +75,7 @@ Analyse your audience demographics and social media habits to determine which pl
 
 The decision between separate accounts or a single multilingual account depends on your resources and strategy. Separate accounts allow for more targeted content and community building, making it easier to post in specific time zones and share culturally relevant information.
 
-However, this approach requires more management and resources. A single account with multilingual content can be more manageable, but may result in followers seeing irrelevant posts. Consider your goals, resources, and audience preferences when making this decision.
+This approach requires more management and resources. A single account with multilingual content can be more manageable, but may result in followers seeing irrelevant posts. Consider your goals, resources, and audience preferences when making this decision.
 
 To ensure cultural appropriateness:
 

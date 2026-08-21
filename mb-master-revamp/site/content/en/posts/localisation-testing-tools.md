@@ -39,7 +39,7 @@ Translation Management Systems are essential for managing the localisation proce
 -   [memoQ](https://www.memoq.com/): Includes tools for checking localized content.
 -   [SDL Trados Studio](https://www.trados.com/product/studio/): Helps test translations as part of the workflow.
 -   [Transifex](https://www.transifex.com/): Offers ways to test localised versions.
--   [Crowdin](https://crowdin.com/):  Translate content collaboratively and go global using our software.
+-   [Crowdin](https://crowdin.com/):  Translate content collaboratively and go global using our software.
 
 #### Test Case Management Tools
 

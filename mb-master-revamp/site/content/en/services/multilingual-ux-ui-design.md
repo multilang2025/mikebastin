@@ -37,7 +37,7 @@ Maintain design harmony across multiple languages and platforms.
 
 **Multilingual UX/UI Design Services**
 
-Our multilingual UX/UI design services guarantee that your interface adapts seamlessly across different languages and regions, ensuring cultural relevance, responsiveness, and compliance in each market. 
+Our multilingual UX/UI design services guarantee that your interface adapts seamlessly across different languages and regions, ensuring cultural relevance, responsiveness, and compliance in each market. 
 
 We account for text length variations between languages like German to prevent layout disruptions and maintain a consistent user experience.
 
@@ -55,7 +55,7 @@ We follow a thorough, structured process to ensure your multilingual website is 
 
 We understand your design needs, target markets, and platform specifics, ensuring a customised solution.
 
- Research regional trends, competitors, and cultural preferences to inform our UX/UI design strategies.
+ Research regional trends, competitors, and cultural preferences to inform our UX/UI design strategies.
 
 We create a localisation plan addressing language variations, text expansion, encoding, and Left-to-Right language requirements.
 

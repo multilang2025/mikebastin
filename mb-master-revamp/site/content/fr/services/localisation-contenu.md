@@ -48,10 +48,10 @@ La [localisation de contenu web](https://mikebastin.com/fr/services/localisation
 La localisation de contenu est un levier essentiel pour le [référencement naturel (SEO) international](https://mikebastin.com/fr/agence-seo-internationale/). Adapter sa [stratégie de mots-clés](https://mikebastin.com/fr/services/recherche-mots-cles/) à chaque marché cible permet d’améliorer la visibilité sur les moteurs de recherche locaux, d’attirer un trafic qualifié et d’augmenter les conversions. Un [contenu localisé, optimisé pour les recherches](https://mikebastin.com/fr/services/referencement-local/) spécifiques de chaque région, a beaucoup plus de chances d’apparaître en bonne position dans les résultats de recherche et de générer des leads.
 
 -   Le contenu ciblé localement suscite six fois plus d’engagement que les messages conçus pour le marché mondial.
--   49 % des spécialistes du marketing interrogés estiment que le ciblage géographique offre le meilleur retour sur investissement publicitaire.
--   L’absence de localisation peut coûter des clients : une application qui ne localise pas son contenu peut perdre jusqu’à 8 à 13 % de sa clientèle.
--   En Chine, 92 % des applications iPhone les plus populaires sont écrites en chinois et portent des noms chinois, soulignant l’importance de la localisation pour réussir sur ce marché.
--   86 % des campagnes publicitaires localisées surpassent les campagnes en anglais en termes de clics et de conversions.
+-   49 % des spécialistes du marketing interrogés estiment que le ciblage géographique offre le meilleur retour sur investissement publicitaire.
+-   L’absence de localisation peut coûter des clients : une application qui ne localise pas son contenu peut perdre jusqu’à 8 à 13 % de sa clientèle.
+-   En Chine, 92 % des applications iPhone les plus populaires sont écrites en chinois et portent des noms chinois, soulignant l’importance de la localisation pour réussir sur ce marché.
+-   86 % des campagnes publicitaires localisées surpassent les campagnes en anglais en termes de clics et de conversions.
 
 Prêt à ouvrir de nouveaux horizons pour votre entreprise ?
 

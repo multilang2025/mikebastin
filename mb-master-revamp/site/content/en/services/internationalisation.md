@@ -41,7 +41,7 @@ Transcreation [turns your brand messages into campaigns](https://mikebastin.com/
 
 International e-commerce sales are set to reach $7.5 trillion in 2025.
 
-Is your website ready to compete? Start today and connect with new customers in every market.
+Is your website ready to compete? Start today and connect with new customers in every market.
 
 [Contact us](https://mikebastin.com/contact-us/) to expand your reach.
 

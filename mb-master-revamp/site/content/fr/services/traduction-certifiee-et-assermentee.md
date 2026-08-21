@@ -17,7 +17,7 @@ excerpt: "Nos services de traduction certifiée et assermentée fournissent des 
 
 Faites reconnaître vos documents officiels partout dans le monde
 
-## Services de traduction certifiée et assermentée dignes de confiance
+## Services de traduction certifiée et assermentée dignes de confiance
 
 Vous devez faire traduire des documents officiels ou sensibles ?
 
@@ -51,7 +51,7 @@ Traductions expertes pour les rapports financiers, les audits et les documents f
 
 Traductions assermentées pour diplômes, relevés de notes et certificats reconnues par l’Etat.
 
- Traductions certifiées de documents d’affaires, dont les actes de constitution et les accords d’actionnaires.
+ Traductions certifiées de documents d’affaires, dont les actes de constitution et les accords d’actionnaires.
 
 Traduisions assermentées de rapports médicaux et de documents de santé à des fins légales ou officielles.
 
