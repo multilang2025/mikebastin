@@ -112,9 +112,9 @@ Smart speakers, in-car assistants, and mobile voice input now account for a mean
 
 Technical performance is no longer a competitive advantage. It is a baseline expectation.
 
-Google’s Interaction to Next Paint (INP) metric replaced First Input Delay (FID) as a Core Web Vital in March 2024, raising the bar for interactivity. Unlike FID, which only measured the first interaction, INP measures responsiveness across the entire user visit, scoring pages based on their worst 2 to 5% of interactions.
+Google’s Interaction to Next Paint (INP) metric replaced First Input Delay (FID) as a Core Web Essential in March 2024, raising the bar for interactivity. Unlike FID, which only measured the first interaction, INP measures responsiveness across the entire user visit, scoring pages based on their worst 2 to 5% of interactions.
 
-> According to the 2025 Web Almanac, 77% of mobile pages achieve a good INP score (under 200ms), but only 62% pass LCP, making Largest Contentful Paint (LCP) the hardest Core Web Vital to meet. The three metrics to pass: LCP under 2.5 seconds, INP under 200 milliseconds, and Cumulative Layout Shift (CLS) under 0.1. Source: [Google Search Central](https://developers.google.com/search/docs/appearance/core-web-vitals)
+> According to the 2025 Web Almanac, 77% of mobile pages achieve a good INP score (under 200ms), but only 62% pass LCP, making Largest Contentful Paint (LCP) the hardest Core Web Essential to meet. The three metrics to pass: LCP under 2.5 seconds, INP under 200 milliseconds, and Cumulative Layout Shift (CLS) under 0.1. Source: [Google Search Central](https://developers.google.com/search/docs/appearance/core-web-vitals)
 
 Sites failing Core Web Vitals thresholds lose rankings to competitors who pass them, even with weaker content. A solid [technical SEO audit](https://mikebastin.com/technical-seo-audit-checklist/) catches these issues before they cost visibility.
 

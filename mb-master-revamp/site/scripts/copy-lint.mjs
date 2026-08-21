@@ -46,8 +46,15 @@ const FORBIDDEN = [
  */
 const EXEMPT = [
   /\bcraftsm(?:an|en|anship)\b/gi,
+  /\barts and craft\b/gi,
   /\belevators?\b/gi,
   /Core Web Vitals?/gi,
+  // "dynamic" is rejected as a marketing adjective ("our dynamic team"),
+  // not as the technical term. Dynamic content and dynamic URLs are what
+  // the industry calls those things, and the noun sense ("the same
+  // dynamic applies") is a different word again.
+  /\bdynamic (?:content|URLs?)\b/gi,
+  /\b(?:same|reverse|opposite) dynamic\b/gi,
 ];
 
 /**

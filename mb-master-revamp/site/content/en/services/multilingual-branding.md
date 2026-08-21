@@ -10,7 +10,7 @@ wpId: 37245
 date: "2024-09-18T17:24:35"
 modified: "2026-07-19T10:46:23"
 sourceUrl: "https://mikebastin.com/services/multilingual-branding/"
-excerpt: "Expand your digital presence globally with our expert internationalisation services. Tailored to adapt your brand for international markets seamlessly, we ensure optimal engagement and growth."
+excerpt: "Expand your digital presence globally with our expert internationalisation services. Built to adapt your brand for international markets, we ensure optimal engagement and growth."
 ---
 
 # Multilingual Branding

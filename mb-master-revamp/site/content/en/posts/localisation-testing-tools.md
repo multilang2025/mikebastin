@@ -9,7 +9,7 @@ wpId: 17228970
 date: "2024-11-20T14:01:00"
 modified: "2026-07-19T13:17:35"
 sourceUrl: "https://mikebastin.com/localisation-testing-tools/"
-excerpt: "Discover how to leverage cutting-edge localization testing tools to streamline your workflow, catch cultural faux pas before they happen, and deliver a truly world-class user experience. Whether you’re a seasoned localization professional or just starting your journey into global markets, this guide is your roadmap to mastering the art and science of software localization."
+excerpt: "Discover how to use cutting-edge localization testing tools to streamline your workflow, catch cultural faux pas before they happen, and deliver a truly world-class user experience. Whether you’re a seasoned localization professional or just starting your journey into global markets, this guide is your roadmap to mastering the art and science of software localization."
 ---
 
 ## Localisation testing tools play a crucial role in ensuring software applications and websites function correctly for different languages, cultures, and regions.

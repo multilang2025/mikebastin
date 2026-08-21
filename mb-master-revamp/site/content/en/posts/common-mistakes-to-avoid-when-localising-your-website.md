@@ -10,7 +10,7 @@ wpId: 37200
 date: "2024-09-17T17:18:52"
 modified: "2026-07-02T14:46:10"
 sourceUrl: "https://mikebastin.com/common-mistakes-to-avoid-when-localising-your-website/"
-excerpt: "Localising your website effectively is essential for global reach. Avoid common pitfalls with tailored content, local SEO, and cultural considerations. Discover 10 mistakes to avoid."
+excerpt: "Localising your website effectively is essential for global reach. Avoid common pitfalls with adapted content, local SEO, and cultural considerations. Discover 10 mistakes to avoid."
 ---
 
 ## Website Localisation Errors That Could Cost You Global Customers

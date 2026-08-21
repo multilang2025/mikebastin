@@ -10,7 +10,7 @@ wpId: 24845381
 date: "2024-10-10T09:10:45"
 modified: "2026-07-19T10:38:45"
 sourceUrl: "https://mikebastin.com/services/transcreation/"
-excerpt: "Elevate your brand globally with our transcreation services, ensuring emotionally and culturally resonant messages for diverse audiences across markets."
+excerpt: "Improve your brand globally with our transcreation services, ensuring emotionally and culturally resonant messages for diverse audiences across markets."
 ---
 
 # Transcreation Services for Global Impact

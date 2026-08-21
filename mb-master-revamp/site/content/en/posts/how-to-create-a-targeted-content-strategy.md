@@ -9,7 +9,7 @@ wpId: 24845163
 date: "2024-10-09T21:43:36"
 modified: "2026-07-19T13:18:50"
 sourceUrl: "https://mikebastin.com/how-to-create-a-targeted-content-strategy/"
-excerpt: "Drive conversions with a strategic content plan tailored to your audience’s needs, leveraging SEO and targeted messaging."
+excerpt: "Drive conversions with a strategic content plan adapted to your audience’s needs, using SEO and targeted messaging."
 ---
 
 ## Build a Strategy That Aligns with Your Audience and Goals
@@ -48,7 +48,7 @@ Here’s why strategy matters:
 
 Before you write a single word, you must thoroughly understand who you’re addressing. Such groundwork is crucial for any [Global SEO Solutions](https://mikebastin.com/services/global-seo-solutions/).
 
-### Craft Buyer Personas
+### Build Buyer Personas
 
 -   Build fictional but realistic customer profiles.
 -   Include their goals, challenges (pain points), online habits, and what motivates them.
@@ -64,7 +64,7 @@ Before you write a single word, you must thoroughly understand who you’re addr
 
 -   What problems keep them awake at night?
 -   What specific outcome do they desire?
--   How does your content clearly guide them towards achieving that result? Here is where effective [content Localisation](https://mikebastin.com/services/content-localisation/) can make a significant difference by tailoring your message.
+-   How does your content clearly guide them towards achieving that result? Here is where effective [content Localisation](https://mikebastin.com/services/content-localisation/) can make a significant difference by adapting your message.
 
 ## Step 2: Audit What You Have
 
@@ -132,7 +132,7 @@ Search engines like Google primarily understand content through keywords, entiti
 
 ### On-Page SEO Essentials
 
--   Craft compelling title tags and meta descriptions that include primary keywords and accurately reflect page content.
+-   Write compelling title tags and meta descriptions that include primary keywords and accurately reflect page content.
 -   Use a logical header structure (H1, H2, H3) to organise content and highlight subtopics.
 -   Implement a strong internal linking strategy to distribute authority and guide users. For example, link to your main service pages like ‘[Global SEO Solutions](https://mikebastin.com/services/global-seo-solutions/)‘ from relevant blog posts.
 

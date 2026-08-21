@@ -9,7 +9,7 @@ wpId: 24844948
 date: "2024-10-03T14:44:25"
 modified: "2026-07-02T15:22:33"
 sourceUrl: "https://mikebastin.com/what-is-search-intent-mapping/"
-excerpt: "Master search intent mapping in SEO to align content with user goals. Enhance user experience, boost rankings, and drive conversions seamlessly."
+excerpt: "Master search intent mapping in SEO to align content with user goals. Enhance user experience, boost rankings, and drive conversions."
 ---
 
 ## Search intent mapping: aligning content with what users actually want

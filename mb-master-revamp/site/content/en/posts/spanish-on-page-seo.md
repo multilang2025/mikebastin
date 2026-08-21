@@ -18,7 +18,7 @@ Imagine on-page SEO as the composition of a symphony, where every element works 
 
 In this case, our audience is Spanish speakers, and our symphony is a website perfectly optimised for Spanish search engines like Google.es or Bing Spain.
 
-Just like a skilled composer knows their audience and crafts music accordingly, understanding the unique linguistic and cultural nuances of the Spanish audience is crucial in creating a digital experience that truly connects.
+Just like a skilled composer knows their audience and builds music accordingly, understanding the unique linguistic and cultural nuances of the Spanish audience is crucial in creating a digital experience that truly connects.
 
 ## Understanding the Spanish Market: The Sheet Music
 
@@ -52,7 +52,7 @@ Once you have the right notes, it’s time to write the melody: your content.
 
 Content optimisation is about structuring the text in a way that guides both search engines and users smoothly.
 
-Crafting **H1s and H2s** in Spanish using culturally relevant phrasing will enhance readability and engagement.
+Building **H1s and H2s** in Spanish using culturally relevant phrasing will enhance readability and engagement.
 
 An optimised **meta description** is like the overture to your symphony. It invites users to click by offering a preview that speaks directly to them.
 

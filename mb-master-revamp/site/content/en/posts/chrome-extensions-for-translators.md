@@ -9,7 +9,7 @@ wpId: 37229
 date: "2024-09-25T14:57:40"
 modified: "2026-07-02T15:24:09"
 sourceUrl: "https://mikebastin.com/chrome-extensions-for-translators/"
-excerpt: "Boost your translation productivity with these top 10 essential Chrome extensions for translators, enhancing efficiency, accuracy, and workflow seamlessly."
+excerpt: "Boost your translation productivity with these top 10 essential Chrome extensions for translators, enhancing efficiency, accuracy, and workflow."
 ---
 
 We have been working between English, French, Spanish, and Dutch since the mid-2000s.

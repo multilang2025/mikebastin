@@ -9,7 +9,7 @@ wpId: 37263
 date: "2024-09-24T15:47:58"
 modified: "2026-07-19T15:02:56"
 sourceUrl: "https://mikebastin.com/boosting-local-seo/"
-excerpt: "Boost your local business visibility by optimising your Google Our Business profile. Follow this comprehensive strategy to rank higher in local searches, engage customers, and drive traffic."
+excerpt: "Boost your local business visibility by optimising your Google Our Business profile. Follow this strategy to rank higher in local searches, engage customers, and drive traffic."
 ---
 
 ## Boost Your Local SEO with Expert Google Business Profile Tactics: A Step-by-Step Guide to Boosting Local SEO
@@ -30,7 +30,7 @@ Consistency helps build trust with search engines and customers alike, enhancing
 
 #### Optimise Your Business Description
 
-Craft a compelling business description that highlights your unique offerings.
+Build a compelling business description that highlights your unique offerings.
 
 Integrate relevant keywords naturally, focusing on what makes your business stand out.
 

@@ -32,7 +32,7 @@ We will walk you through the process of adapting your keywords and how to select
 
 Localising keywords for Spain goes beyond simple **translation**.
 
-It’s about crafting your message in a way that speaks authentically to a specific audience.
+It’s about writing your message in a way that speaks authentically to a specific audience.
 
 Just as an artist selects shades that complement each other, you must ensure your keywords align with the needs and behaviours of Spanish-speaking users.
 
@@ -56,7 +56,7 @@ In the world of SEO, these tools are the **right keywords**.
 
 Begin by identifying primary keywords in your original language, then use tools like **Google Keyword Planner**, **Ahrefs**, or **SEMrush** to uncover equivalent terms in Spanish.
 
-Over 82% of the population in Spain speak Spanish as their primary language, so tailoring your content to this audience is essential for building trust and credibility.
+Over 82% of the population in Spain speak Spanish as their primary language, so adapting your content to this audience is essential for building trust and credibility.
 
 Look not only for [direct translations](https://mikebastin.com/services/expert-translation-services/), but also for **variations that better reflect local preferences**.
 
@@ -144,12 +144,12 @@ Professional translators with SEO expertise are better suited.
 
 **How do we adapt our content for Spain vs. Latin America?**  
 Focus on the specific regional terms and cultural context.  
-Avoid generalisations and consult local experts to tailor content accordingly.
+Avoid generalisations and consult local experts to adapt content accordingly.
 
 ### Bringing It All Together: Your Masterpiece in the Spanish Market
 
 Mastering the art of Spanish keyword localisation is about more than just translating words.  
-It’s about crafting a culturally relevant message that truly connects with your audience.
+It’s about building a culturally relevant message that truly connects with your audience.
 
 Like an artist meticulously choosing the right shades and tones, your keywords must be carefully selected, applied, and refined to create a piece that speaks to the heart of your market.
 

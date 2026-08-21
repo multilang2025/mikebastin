@@ -84,7 +84,7 @@ While Facebook, Instagram, and LinkedIn may dominate in Western markets, other r
 
 For instance, WeChat is essential for marketing in China, while WhatsApp is widely used for business in Latin America.
 
-Researching which platforms are popular in your target market is the first step in crafting a social media strategy.
+Researching which platforms are popular in your target market is the first step in building a social media strategy.
 
 #### **Localised Engagement**
 
@@ -110,7 +110,7 @@ It’s important to partner with influencers whose audience aligns with your tar
 Tools like Upfluence or AspireIQ can help businesses find the right influencers for their brand, based on factors like location, audience engagement, and content relevance.
 
 **Allowing Creative Freedom**  
-Allowing influencers to tailor the campaign to their own voice and style ensures that your message resonates with their followers.
+Allowing influencers to adapt the campaign to their own voice and style ensures that your message resonates with their followers.
 
 It helps build a sense of authenticity and credibility, which is essential when entering new markets.
 
@@ -130,7 +130,7 @@ Each market responds to different messaging and content styles.
 
 A successful email marketing campaign for international audiences needs to consider local holidays, cultural events, and purchasing behaviour.
 
-Crafting personalised, [locally relevant content](https://mikebastin.com/building-a-global-brand/) will increase open and click-through rates.
+Building personalised, [locally relevant content](https://mikebastin.com/building-a-global-brand/) will increase open and click-through rates.
 
 **Compliance with Local Regulations**  
 Different countries have different regulations regarding email marketing.
@@ -171,8 +171,8 @@ These partnerships provide instant access to established customer bases and incr
 
 Co-hosting webinars, events, or cross-promotions can be mutually beneficial.
 
-**Leveraging Local Expertise**  
-Local partners often have deep insights into customer behaviour, regional regulations, and cultural nuances. Leveraging their expertise can save time and resources, allowing for a smoother market entry.
+**Using Local Expertise**  
+Local partners often have deep insights into customer behaviour, regional regulations, and cultural nuances. Using their expertise can save time and resources, allowing for a smoother market entry.
 
 ## International Trade Shows and Events
 

@@ -9,7 +9,7 @@ wpId: 24855595
 date: "2025-12-16T13:46:54"
 modified: "2026-07-19T12:09:16"
 sourceUrl: "https://mikebastin.com/llms-beyond-giants-hidden-ai-models/"
-excerpt: "While ChatGPT and Gemini dominate headlines, the LLM landscape is rich with innovative, lesser-known models. This article reveals 10 impactful LLMs redefining AI beyond the giants."
+excerpt: "While ChatGPT and Gemini dominate headlines, the LLM field is rich with lesser-known models worth knowing about. We cover 10 impactful LLMs redefining AI beyond the giants."
 ---
 
 ## Beyond ChatGPT: 10 LLMs That Deserve More Attention in 2026

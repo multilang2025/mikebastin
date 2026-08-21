@@ -142,7 +142,7 @@ Many of your conversations will happen in shared second languages where neither 
 
 #### Adapt to cultural decision-making styles
 
-German and Dutch buyers want technical detail upfront. Latin American buyers prioritise relationship-building. Middle Eastern buyers respond to formal hierarchy and patience. The same pitch deck rarely works for all three. Tailor your approach by buyer origin.
+German and Dutch buyers want technical detail upfront. Latin American buyers prioritise relationship-building. Middle Eastern buyers respond to formal hierarchy and patience. The same pitch deck rarely works for all three. Adapt your approach by buyer origin.
 
 #### Stay human and conversational
 

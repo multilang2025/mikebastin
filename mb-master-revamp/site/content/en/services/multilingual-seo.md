@@ -9,7 +9,7 @@ wpId: 17228874
 date: "2024-09-29T11:09:22"
 modified: "2026-05-29T07:41:20"
 sourceUrl: "https://mikebastin.com/services/multilingual-seo/"
-excerpt: "Maximise your business potential in the multilingual market with tailored SEO strategies designed to enhance your online visibility and drive sustainable growth."
+excerpt: "Increase your business potential in the multilingual market with adapted SEO strategies designed to enhance your online visibility and drive sustainable growth."
 ---
 
 # Multilingual SEO: one consultant, multiple markets, native execution

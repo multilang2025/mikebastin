@@ -9,7 +9,7 @@ wpId: 37218
 date: "2024-09-25T14:34:03"
 modified: "2026-07-19T11:12:32"
 sourceUrl: "https://mikebastin.com/how-ai-is-transforming-translation-and-localisation/"
-excerpt: "AI and machine learning are transforming translation and localization, offering businesses unprecedented opportunities to expand globally while bringing unique challenges. Discover the impact of AI tools and learn how to navigate this evolving landscape."
+excerpt: "AI and machine learning are transforming translation and localisation, offering businesses unprecedented opportunities to expand globally while bringing unique challenges. Discover the impact of AI tools and learn how to work with them as they change."
 ---
 
 ## Opportunities and Challenges for Businesses
@@ -42,7 +42,7 @@ One of the most significant advantages of AI in translation is the speed at whic
 
 AI-powered tools can translate thousands of words in minutes, enabling businesses to respond quickly to market demands and accelerate their global expansion efforts.
 
-For example, Coursera uses AI-driven subtitle translation to offer courses in over 40 languages, facilitating rapid entry into new markets.
+For example, Coursera uses AI-driven subtitle translation to offer courses in over 40 languages, enabling rapid entry into new markets.
 
 Businesses seeking faster localisation solutions can explore [Mike Bastin’s website localisation services](https://mikebastin.com), designed for efficient global audience engagement.
 
@@ -104,7 +104,7 @@ Balancing AI automation with human oversight ensures content remains engaging an
 
 * * *
 
-## Leveraging AI Effectively in Localisation Efforts
+## Using AI Effectively in Localisation Efforts
 
 To increase the benefits of AI while mitigating its limitations, businesses should consider these strategies:
 

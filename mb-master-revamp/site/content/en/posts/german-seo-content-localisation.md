@@ -160,7 +160,7 @@ Instead, use [keyword research](https://mikebastin.com/multilingual-keyword-rese
 
 Germany, Austria, and Switzerland may share the same language, but there are regional differences in dialects, preferences, and even search behaviour.
 
-Tailor your content to reflect local culture, using region-specific references when possible.
+Adapt your content to reflect local culture, using region-specific references when possible.
 
 For example, an article aimed at Swiss users might include references to local laws or customs.
 

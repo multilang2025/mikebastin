@@ -82,7 +82,7 @@ While **Google** dominates in many Spanish-speaking countries, it’s crucial to
 
 In certain **Latin American countries**, local search engines may hold a significant market share.
 
-Understanding these nuances is key to **maximising** visibility for your Spanish-focused website across all relevant platforms.
+Understanding these nuances is key to **increasing** visibility for your Spanish-focused website across all relevant platforms.
 
 ## Competitive Picture
 

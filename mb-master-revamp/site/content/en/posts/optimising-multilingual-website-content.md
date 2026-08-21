@@ -9,7 +9,7 @@ wpId: 24845456
 date: "2024-10-11T15:35:39"
 modified: "2026-07-02T15:11:52"
 sourceUrl: "https://mikebastin.com/optimising-multilingual-website-content/"
-excerpt: "Localisation ensures success for multilingual websites by tailoring content to cultural and regional specifics, enhancing user engagement and market relevance."
+excerpt: "Localisation ensures success for multilingual websites by adapting content to cultural and regional specifics, enhancing user engagement and market relevance."
 ---
 
 ## Why Website Localisation Matters: Optimising Content Across Languages and Cultures
@@ -24,7 +24,7 @@ As European businesses and global brands expand across borders, localisation bec
 
 ### Understanding Localisation vs. Translation
 
-Translation converts words. Localisation reshapes meaning. It tailors language, tone, imagery, and UX design to align with the habits and emotions of local audiences.
+Translation converts words. Localisation reshapes meaning. It adapts language, tone, imagery, and UX design to align with the habits and emotions of local audiences.
 
 For example, a [localized UX design](https://mikebastin.com/services/multilingual-ux-ui-design/) ensures French users in Europe experience familiar colour symbolism and form layouts, while Spanish users in Valencia engage with culturally relevant idioms and calls-to-action.
 

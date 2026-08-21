@@ -10,7 +10,7 @@ wpId: 36380
 date: "2020-04-09T19:23:53"
 modified: "2026-07-19T12:10:57"
 sourceUrl: "https://mikebastin.com/our-services/"
-excerpt: "Transform your ideas into impactful solutions with our comprehensive services, including web design, digital marketing, WordPress support, and expert consulting."
+excerpt: "Transform your ideas into impactful solutions with our services, including web design, digital marketing, WordPress support, and expert consulting."
 ---
 
 # Multilingual Web Consulting Services

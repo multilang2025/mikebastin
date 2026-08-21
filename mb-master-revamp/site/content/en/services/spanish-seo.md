@@ -9,7 +9,7 @@ wpId: 17228784
 date: "2024-09-29T11:07:11"
 modified: "2026-05-29T07:41:21"
 sourceUrl: "https://mikebastin.com/services/spanish-seo/"
-excerpt: "Maximise your online impact in the Spanish market with specialised SEO strategies! Our expert services localise keywords, optimise content, and enhance technical elements for higher visibility and conversions."
+excerpt: "Increase your online impact in the Spanish market with specialised SEO strategies! Our expert services localise keywords, optimise content, and enhance technical elements for higher visibility and conversions."
 ---
 
 # Spanish SEO: directly executed in ES-ES and LatAm variants

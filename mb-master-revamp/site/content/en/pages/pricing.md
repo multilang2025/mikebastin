@@ -9,7 +9,7 @@ wpId: 36564
 date: "2020-04-21T13:04:15"
 modified: "2026-07-19T13:13:03"
 sourceUrl: "https://mikebastin.com/pricing/"
-excerpt: "Discover simple, transparent pricing with tailored digital marketing plans starting at €300/month. Choose from Basic, Professional, or Full for your business needs."
+excerpt: "Discover simple, transparent pricing with adapted digital marketing plans starting at €300/month. Choose from Basic, Professional, or Full for your business needs."
 ---
 
 # SEO and Translation Pricing
@@ -90,7 +90,7 @@ We use a holistic, data-driven approach to SEO, focusing on both on-page and off
 
 ##### 7\. Are there any long-term contracts?
 
-We’re flexible. Whether you need a one-off project or a mid to long-term contract, we tailor our services to suit your needs.
+We’re flexible. Whether you need a one-off project or a mid to long-term contract, we adapt our services to suit your needs.
 
 ##### 8\. How do we get started?
 

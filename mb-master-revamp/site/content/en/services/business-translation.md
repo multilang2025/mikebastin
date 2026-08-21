@@ -35,13 +35,13 @@ Ready to grow? [Contact us today](https://mikebastin.com/contact-us/) and start 
 
 Our business [translation services](https://mikebastin.com/services/certified-and-sworn-translation-services/) combine linguistic expertise with commercial acumen, ensuring your corporate communications resonate effectively in global markets.
 
-We [tailor translations to local business](https://mikebastin.com/services/language-solutions/) cultures, ensuring your message maintains its impact across different markets.
+We [adapt translations to local business](https://mikebastin.com/services/language-solutions/) cultures, ensuring your message maintains its impact across different markets.
 
 Our translators specialise in various business sectors, guaranteeing accurate use of industry-specific terminology and concepts.
 
 We [preserve your brand voice and corporate identity](https://mikebastin.com/services/multilingual-branding/) across all translated materials, maintaining a cohesive global presence.
 
-Comprehensive Business Translation Services
+Business Translation Services
 
 From incorporation papers to shareholder agreements, we offer a wide range of business translation services bespoke to meet the specific needs of companies operating in the [global marketplace](https://mikebastin.com/).
 

@@ -120,7 +120,7 @@ Format impacts extraction: tables and bullet points outperform dense paragraphs.
 
 ## A unified search strategy
 
-Integrate SEO, GEO, social, and localisation into one framework. Repurpose a single research piece into a LinkedIn carousel, YouTube short, and FAQ schema, maximising ROI across channels.
+Integrate SEO, GEO, social, and localisation into one framework. Repurpose a single research piece into a LinkedIn carousel, YouTube short, and FAQ schema, increasing ROI across channels.
 
 Track new KPIs: AI citation share, social mentions, and vertical directory referrals. Tools like Semrush now support these metrics, but manual audits remain critical to assess how AI perceives your brand.
 

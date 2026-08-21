@@ -35,7 +35,7 @@ Our team includes translators with specialized knowledge in various medical fiel
 
 We ensure all translations comply with international medical regulations and standards across different healthcare systems.
 
-**Comprehensive Medical Translation Services**
+**Medical Translation Services**
 
 From patient records to clinical trial documents, we offer a wide range of medical translation services bespoke to meet the specific needs of healthcare providers, pharmaceutical companies, and medical device manufacturers.
 

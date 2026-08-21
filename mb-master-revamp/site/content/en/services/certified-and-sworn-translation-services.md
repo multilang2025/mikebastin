@@ -21,7 +21,7 @@ Official and Certified Translation Services
 
 Need your critical legal, business, or personal papers officially translated? We’ve got you covered. Our team consists of expert translators who are officially certified, sworn, or registered to provide **legally recognized translations**.
 
-Whether you need an **Official Translation** for your **Birth Certificate**, require a document **Notarized** for a corporate filing, or are submitting papers for immigration (**USCIS Translation**), we ensure every word is accurate, compliant, and legally legit. We handle everything from complex legal contracts and **Articles of Association** to vital personal documents.
+Whether you need an **Official Translation** for your **Birth Certificate**, require a document **Notarized** for a corporate filing, or are submitting papers for immigration (**USCIS Translation**), we ensure every word is accurate, compliant, and legally legit. We handle everything from complex legal contracts and **Articles of Association** to essential personal documents.
 
 No worries, no fuss, just clear, secure, and **official document translation** you can count on.
 
@@ -39,7 +39,7 @@ Certified professionals in every language. Need it fast? Ask about our **Rush Ce
 
 We specialise in delivering **legally recognised official translations** for both individuals and companies, ensuring full compliance and accuracy for local and international use.
 
-Sworn or certified translations for vital documents such as birth certificate translation, marriage certificate translation, diplomas, driving licence translation, and documents required for visa translation or immigration (e.g., USCIS). We also certify translations for adoption papers and police clearance certificates.
+Sworn or certified translations for essential documents such as birth certificate translation, marriage certificate translation, diplomas, driving licence translation, and documents required for visa translation or immigration (e.g., USCIS). We also certify translations for adoption papers and police clearance certificates.
 
 Certified and notarized translations of commercial contracts, tender documents, and crucial corporate papers like articles of association and shareholder agreement translations. We provide certified translation for foreign court judgments and intellectual property documents.
 

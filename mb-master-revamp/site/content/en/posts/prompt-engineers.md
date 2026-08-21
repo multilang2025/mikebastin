@@ -20,7 +20,7 @@ At its core, it serves as the backbone for organisations, researchers, and devel
 
 What’s especially compelling is how naturally this field aligns with the expertise of translators. [Language professionals](https://mikebastin.com/services/expert-translation-services/) bring deep linguistic knowledge, cultural sophistication, and sharp analytical skills, making them ideally suited for prompt engineering’s nuanced demands.
 
-In the digital age, [translators act as key](https://mikebastin.com/language-service-providers/) intermediaries, moving between languages while preserving the essence and nuance of ideas. Their ability to convey complex concepts across linguistic boundaries equips them perfectly for crafting the targeted prompts modern AI systems require.
+In the digital age, [translators act as key](https://mikebastin.com/language-service-providers/) intermediaries, moving between languages while preserving the essence and nuance of ideas. Their ability to convey complex concepts across linguistic boundaries equips them perfectly for building the targeted prompts modern AI systems require.
 
 The synergy represents a natural evolution in AI, where precision, cultural awareness, and clarity are paramount.
 
@@ -59,7 +59,7 @@ The result? AI interactions that feel relevant, respectful, and inclusive, build
 
 Translators routinely switch between domains, legal one week, healthcare the next, quickly mastering new terminologies and contexts. Such agility translates directly to prompt engineering.
 
-They can confidently craft prompts for emerging fields like AI ethics or quantum computing, adapting to technical standards with ease.
+They can confidently build prompts for emerging fields like AI ethics or quantum computing, adapting to technical standards with ease.
 
 ### Precision and Clarity
 

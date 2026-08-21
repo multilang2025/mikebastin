@@ -104,7 +104,7 @@ Answer specific questions with authority to build trust and encourage contact.
 
 Treat your website as a trusted advisor that delivers insight and invites meaningful conversations.
 
-![How to tailor SEO strategy for law firm website?](https://mikebastin.com/wp-content/uploads/2024/12/image-13.png)
+![How to adapt SEO strategy for law firm website?](https://mikebastin.com/wp-content/uploads/2024/12/image-13.png)
 
 * * *
 
@@ -232,7 +232,7 @@ The balance is simple. Professional enough to inspire confidence. Accessible eno
 
 First impressions start in the SERP.
 
-We prioritise power keywords early, tailoring for mobile and desktop display limits.
+We prioritise power keywords early, adapting for mobile and desktop display limits.
 
 For Valencia, we led with “Valencia Business Lawyer | International Legal Services” and added specialities within the visible range.
 

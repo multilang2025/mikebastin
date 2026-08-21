@@ -103,7 +103,7 @@ French business owners face a particular challenge during the sacred Spanish lun
 
 ## Finding Your Own Rhythm: A Personal Journey
 
-The beauty of being an entrepreneur in Valencia lies in the freedom to craft your own schedule, one that honours both your business needs and your desired lifestyle.
+The beauty of being an entrepreneur in Valencia lies in the freedom to build your own schedule, one that honours both your business needs and your desired lifestyle.
 
 Some expats choose to embrace the Spanish timetable fully, whilst others maintain their home country’s working hours. For practical tips, read [Living in a Flat in Valencia: A Pragmatic Overview](https://mikebastin.com/living-in-a-flat-in-valencia-a-pragmatic-overview/).
 

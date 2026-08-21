@@ -15,9 +15,9 @@ excerpt: "Website localisation is the process of adapting a website’s content,
 
 # Content Localisation Services
 
-Tailored Content That Speaks Your Customer’s Language
+Adapted Content That Speaks Your Customer’s Language
 
-## Reach Global Audiences with Tailored Content Localisation Services
+## Reach Global Audiences with Adapted Content Localisation Services
 
 To connect with international audiences, translation isn’t enough. Your content needs to feel natural, relevant, and familiar-just as if it were originally created for each market.
 

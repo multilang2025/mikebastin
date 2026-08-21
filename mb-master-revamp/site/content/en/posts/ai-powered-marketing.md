@@ -66,7 +66,7 @@ In today’s fast-paced digital world, customer service is a critical component 
 
 AI-powered chatbots are transforming the way businesses interact with customers by providing instant, personalised support around the clock.
 
-Chatbots can handle multiple inquiries simultaneously, offering quick responses to common questions and seamlessly guiding customers through their buying journey.
+Chatbots can handle multiple inquiries simultaneously, offering quick responses to common questions and guiding customers through their buying journey.
 
 AI transforms marketing through automated workflows, data-driven insights, and personalised customer experiences.
 

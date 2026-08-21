@@ -10,7 +10,7 @@ wpId: 24847786
 date: "2025-01-19T16:05:57"
 modified: "2026-07-02T17:23:49"
 sourceUrl: "https://mikebastin.com/valencia-public-transportation/"
-excerpt: "Explore Valencia’s seamless public transportation with efficient buses, metro, and trams, connecting you effortlessly across the city."
+excerpt: "Explore Valencia’s public transportation with efficient buses, metro, and trams, connecting you effortlessly across the city."
 ---
 
 ## Valencia public transportation, the way we actually use it

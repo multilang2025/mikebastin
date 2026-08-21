@@ -22,7 +22,7 @@ Enhancing your online visibility for French-speaking markets is key to driving b
 
 At [MikeBastin](https://mikebastin.com/services/global-seo-solutions/), we provide expert French SEO services designed for companies aiming to increase their presence in France, Belgium, Switzerland, and Québec.
 
-With more than 300 million French speakers globally and Google accounting for nearly 90% of all searches in French-speaking countries, a strategic approach to SEO is crucial for maximising reach and generating targeted traffic.
+With more than 300 million French speakers globally and Google accounting for nearly 90% of all searches in French-speaking countries, a strategic approach to SEO is crucial for increasing reach and generating targeted traffic.
 
 Benefit from over 25 years of proven experience in [search engine optimisation](https://mikebastin.com/services/), delivering consistent Top 10 rankings and boosting conversions for clients in competitive sectors.
 
@@ -49,7 +49,7 @@ With more than 25 years in multilingual SEO, particularly in French, we have hel
 
 Our French SEO strategies have consistently delivered Top 10 positions for BeTranslated and our clients across France, Belgium, Switzerland, and Québec.
 
-We understand the linguistic and cultural nuances of each market, enabling us to craft SEO strategies that resonate with your French-speaking target audience.
+We understand the linguistic and cultural nuances of each market, enabling us to build SEO strategies that resonate with your French-speaking target audience.
 
 ## Our French SEO Services
 
@@ -59,7 +59,7 @@ Our SEO experts conduct thorough [keyword research](https://mikebastin.com/servi
 
 We optimise every element of your website, from meta tags and content to technical SEO aspects, ensuring your site is fully optimised for French-speaking users. Our approach enhances user experience and improves search engine rankings.
 
-Effective content is key to engaging your audience. Our team crafts compelling, [locally adapted](https://mikebastin.com/services/content-localisation/) French content that aligns with your brand’s voice while addressing the unique preferences of each market.
+Effective content is key to engaging your audience. Our team builds compelling, [locally adapted](https://mikebastin.com/services/content-localisation/) French content that aligns with your brand’s voice while addressing the unique preferences of each market.
 
 We build high-quality, relevant backlinks from reputable French websites and directories, boosting your site’s authority and helping you outrank competitors.
 

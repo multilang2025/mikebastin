@@ -15,7 +15,7 @@ excerpt: "Enhance your international reach with expert language solutions. Boost
 
 # Multilingual Language Solutions
 
-Comprehensive Language Solutions for Global Communication
+Language Solutions for Global Communication
 
 ## Transform Your Business with Expert Multilingual Language Solutions
 

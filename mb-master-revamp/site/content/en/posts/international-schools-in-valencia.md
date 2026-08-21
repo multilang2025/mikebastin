@@ -372,7 +372,7 @@ Between these options, Valencia offers families a genuine range of schooling pat
 
 ## International Education Scene in Spain
 
-Anyone considering a move to Spain, particularly to Valencia, will benefit from understanding the schooling landscape in advance.
+Anyone considering a move to Spain, particularly to Valencia, will benefit from understanding how schooling works in advance.
 
 Here’s an overview of the international schools available and the curricula they offer.
 

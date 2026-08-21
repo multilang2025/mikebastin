@@ -9,7 +9,7 @@ wpId: 24847407
 date: "2024-12-24T11:18:56"
 modified: "2026-07-02T17:28:13"
 sourceUrl: "https://mikebastin.com/generative-engine-optimization/"
-excerpt: "SEO is Dead? Long Live GEO! As artificial intelligence transforms the digital landscape, traditional SEO is evolving into Generative Engine Optimisation (GEO). Discover how to adapt your strategies to stay ahead in the AI era. From embracing multi-platform optimisation to enhancing content quality with E-A-T, this guide covers everything you need to thrive online. Ready to elevate your digital presence? Dive into our full blog post and start optimizing for the future today! Read More"
+excerpt: "SEO is Dead? Long Live GEO! As artificial intelligence reshapes how people search, traditional SEO is evolving into Generative Engine Optimisation (GEO). Discover how to adapt your strategies to stay ahead in the AI era. From embracing multi-platform optimisation to enhancing content quality with E-A-T, the guide below covers what you need to compete online. Read the full post."
 ---
 
 ## Why Generative Engine Optimisation (GEO) gives you an edge in AI-driven search

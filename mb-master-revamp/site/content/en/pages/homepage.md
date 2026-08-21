@@ -10,7 +10,7 @@ wpId: 2
 date: "2020-03-27T15:58:17"
 modified: "2026-07-19T12:10:05"
 sourceUrl: "https://mikebastin.com/"
-excerpt: "Maximise your global reach with our expert web consulting services, offering SEO optimisation, digital marketing, branding, and multilingual solutions."
+excerpt: "Increase your global reach with our expert web consulting services, offering SEO optimisation, digital marketing, branding, and multilingual solutions."
 ---
 
 # Multilingual SEO and Marketing Consulting

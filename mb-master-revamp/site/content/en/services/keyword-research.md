@@ -10,7 +10,7 @@ wpId: 24844924
 date: "2024-10-03T14:19:43"
 modified: "2026-07-19T11:09:18"
 sourceUrl: "https://mikebastin.com/services/keyword-research/"
-excerpt: "Go global with expert brand localisation. We tailor your message, visuals, and cultural elements to connect authentically with diverse markets worldwide."
+excerpt: "Go global with expert brand localisation. We adapt your message, visuals, and cultural elements to connect authentically with diverse markets worldwide."
 ---
 
 # Keyword Research Services
@@ -39,7 +39,7 @@ Improve your SEO with competitive, well-researched keywords.
 
 Optimise content for terms that drive action.
 
-## Comprehensive Keyword Research Services for SEO
+## Keyword Research Services for SEO
 
 Without proper keyword research, content often fails because it does not match user intent or the formats search engines and AI platforms prioritise.
 

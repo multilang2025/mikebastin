@@ -10,7 +10,7 @@ wpId: 36803
 date: "2020-12-01T16:36:47"
 modified: "2026-05-29T07:41:27"
 sourceUrl: "https://mikebastin.com/services/web-design/"
-excerpt: "Elevate your brand with our multilingual web design and SEO expertise, enhancing global reach with responsive, user-centric, and fast-loading websites."
+excerpt: "Improve your brand with our multilingual web design and SEO expertise, enhancing global reach with responsive, user-centric, and fast-loading websites."
 ---
 
 # Multilingual web design built for SEO and conversion

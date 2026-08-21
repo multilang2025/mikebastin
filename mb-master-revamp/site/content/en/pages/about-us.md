@@ -10,7 +10,7 @@ wpId: 36460
 date: "2020-04-11T12:14:50"
 modified: "2026-07-19T12:11:35"
 sourceUrl: "https://mikebastin.com/about-us/"
-excerpt: "Discover our team of multilingual SEO experts and digital marketing pros. We help businesses grow globally with tailored solutions and a passion for success."
+excerpt: "Discover our team of multilingual SEO experts and digital marketing pros. We help businesses grow globally with adapted solutions and a passion for success."
 ---
 
 # About MikeBastin.com

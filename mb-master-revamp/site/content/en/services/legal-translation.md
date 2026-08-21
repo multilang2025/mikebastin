@@ -37,7 +37,7 @@ Our team includes translators with specialised knowledge in various legal fields
 
 We ensure all translations comply with international legal regulations and standards across different jurisdictions.
 
-Comprehensive Legal Translation Services
+Legal Translation Services
 
 From contracts to court documents, we offer a wide range of legal translation services bespoke to meet the specific needs of law firms, corporations, and government agencies.
 

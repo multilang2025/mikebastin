@@ -12,7 +12,7 @@ sourceUrl: "https://mikebastin.com/how-to-use-ai-and-machine-translation-tools/"
 excerpt: "Harness AI translation tools to optimise multilingual content efficiently and cost-effectively, while integrating human expertise for quality assurance."
 ---
 
-## Leveraging Advanced Technology to Create Engaging Content Across Languages
+## Using Advanced Technology to Create Engaging Content Across Languages
 
 AI and machine translation tools are transforming the way multilingual content is created and optimised.
 

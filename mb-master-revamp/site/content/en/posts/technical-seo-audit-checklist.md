@@ -377,7 +377,7 @@ Convert PNG images to compressed JPEGs when transparency is not required.
 
 #### 3.5 Browser Caching
 
-Leveraging **browser caching** can reduce load times for returning visitors.
+Using **browser caching** can reduce load times for returning visitors.
 
 **Check**: Verify that caching headers are set correctly.
 
@@ -704,7 +704,7 @@ If experiencing **503 Service Unavailable** errors, consider upgrading your host
 
 **Address**:
 
--   Craft unique titles that include target keywords.
+-   Build unique titles that include target keywords.
 -   Keep titles under 60 characters to prevent truncation in search results.
 
 **Example**:

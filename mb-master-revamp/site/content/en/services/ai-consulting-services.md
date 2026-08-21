@@ -33,13 +33,13 @@ We help businesses apply AI in ways that support human connection, optimise oper
 
 Get the full potential of AI-driven language solutions to [transform your global business operations](https://mikebastin.com/user-interface-localisation-can-transform-your-global-reach/). Our services empower you to communicate effectively across cultures, optimise processes, and secure your competitive edge in the international marketplace.
 
-Seamlessly enter new [markets with AI-powered language and digital marketing solutions](https://mikebastin.com/services/digital-marketing/).
+ enter new [markets with AI-powered language and digital marketing solutions](https://mikebastin.com/services/digital-marketing/).
 
 Streamline multilingual processes and reduce costs with intelligent automation.
 
 [Use AI to outpace competitors](https://mikebastin.com/how-ai-is-revolutionising-seo-strategies/) in global communication and customer engagement.
 
-## Comprehensive Multilingual AI Consulting Services
+## Multilingual AI Consulting Services
 
 [AI-driven language solutions](https://mikebastin.com/how-to-use-ai-and-machine-translation-tools/) combine neural machine translation, NLP entity recognition and semantic search, acting like a tireless interpreter that adapts your brand voice to every locale.  
 Expert linguists polish every output, delivering culturally accurate [website localisation](https://mikebastin.com/services/website-localisation/) that fits regional expectations.

@@ -106,7 +106,7 @@ It’s a core part of scaling your brand internationally and building trust with
 
 ### Domain Structure for Multilingual Websites
 
-Choosing the right [domain structure](https://mikebastin.com/technical-seo-for-multilingual-websites/) is vital for multilingual SEO success.
+Choosing the right [domain structure](https://mikebastin.com/technical-seo-for-multilingual-websites/) is essential for multilingual SEO success.
 
 There are several options for setting up multilingual websites, including country-code top-level domains (ccTLDs), subdirectories, and subdomains.
 

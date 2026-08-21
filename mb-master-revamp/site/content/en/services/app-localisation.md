@@ -10,7 +10,7 @@ wpId: 24845176
 date: "2024-10-08T10:01:51"
 modified: "2026-07-19T10:37:33"
 sourceUrl: "https://mikebastin.com/services/app-localisation/"
-excerpt: "App localisation involves adapting an app to suit the language, culture, and preferences of a specific region. It includes translating text, adjusting formats (like dates and currencies), and tailoring the overall experience to make it feel native to users. This process helps improve user engagement and broadens the app’s global appeal."
+excerpt: "App localisation involves adapting an app to suit the language, culture, and preferences of a specific region. It includes translating text, adjusting formats (like dates and currencies), and adapting the overall experience to make it feel native to users. This process helps improve user engagement and broadens the app’s global appeal."
 ---
 
 # App Localisation Services
@@ -35,7 +35,7 @@ Ready to scale globally? Explore our [app localisation services](https://mikebas
 
 Why App Localisation matters?
 
-App Localisation goes beyond simple translation, it’s about tailoring your app for specific regions, languages, and [cultures](https://mikebastin.com/user-interface-localisation-can-transform-your-global-reach/) to increase user engagement, satisfaction, and ultimately, conversions.
+App Localisation goes beyond simple translation, it’s about adapting your app for specific regions, languages, and [cultures](https://mikebastin.com/user-interface-localisation-can-transform-your-global-reach/) to increase user engagement, satisfaction, and ultimately, conversions.
 
 Here’s why localisation is essential: 
 
@@ -55,7 +55,7 @@ Define and track key performance indicators (KPIs) such as conversions, download
 
 We make sure your app adheres to the legal requirements of different regions and countries.
 
-We optimise your App Store descriptions, and tailor keywords for each target market to boost visibility. 
+We optimise your App Store descriptions, and adapt keywords for each target market to boost visibility. 
 
 Ensure accurate adaptation of dates, currency, units of measurement, and other locale-specific elements to provide a native experience.
 
@@ -84,7 +84,7 @@ We offer localisation services for all major languages and can accommodate any s
 
 The timeframe depends on the app’s complexity and the number of target languages. We typically complete localisation within 2-4 weeks. 
 
-No. Our process ensures that the localisation fits seamlessly within your app without affecting its core functionality. 
+No. Our process ensures that the localisation fits within your app without affecting its core functionality. 
 
 Our Customers
 

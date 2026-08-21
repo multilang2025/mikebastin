@@ -9,7 +9,7 @@ wpId: 24845180
 date: "2024-10-08T11:01:23"
 modified: "2026-07-19T10:37:41"
 sourceUrl: "https://mikebastin.com/services/multilingual-sem/"
-excerpt: "Boost global sales by integrating localised e-commerce solutions. Tailor WooCommerce, Shopify, and other major platforms for diverse markets to enhance trust, conversion rates, and customer experience."
+excerpt: "Boost global sales by integrating localised e-commerce solutions. Adapt WooCommerce, Shopify, and other major platforms for diverse markets to enhance trust, conversion rates, and customer experience."
 ---
 
 # Multilingual SEM: Google Ads, Bing Ads and Meta Ads piloted per market
