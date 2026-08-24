@@ -237,10 +237,12 @@ class AISA_Tools {
 					. 'sentence) — far faster and avoids timeouts, and safer: the edit only applies if '
 					. '"find" still matches the current content exactly once, so there\'s no separate '
 					. 'staleness timestamp to keep in sync. Read with get_post first to get the text to '
-					. 'match against. On an Elementor or Divi page, the result may include a WARNING -- '
-					. 'read it; on Elementor it means this edit likely won\'t appear on the live page '
-					. '(content lives in _elementor_data, not post_content), on Divi it means the touched '
-					. 'text looks like it crosses a shortcode-attribute boundary.',
+					. 'match against. If "find" appears more than once, the call fails and tells you the '
+					. 'count -- either pass replace_all:true to replace every occurrence, or make "find" '
+					. 'longer/more specific so it matches exactly one spot. On an Elementor or Divi page, '
+					. 'the result may include a WARNING -- read it; on Elementor it means this edit likely '
+					. 'won\'t appear on the live page (content lives in _elementor_data, not post_content), '
+					. 'on Divi it means the touched text looks like it crosses a shortcode-attribute boundary.',
 				'input_schema' => array(
 					'type'                 => 'object',
 					'properties'           => array(
@@ -252,6 +254,11 @@ class AISA_Tools {
 						'replace'           => array(
 							'type'        => 'string',
 							'description' => 'Replacement text.',
+						),
+						'replace_all'       => array(
+							'type'        => 'boolean',
+							'description' => 'When "find" matches more than once, replace every '
+								. 'occurrence instead of failing. Default false.',
 						),
 						'expected_modified' => array(
 							'type'        => 'string',
@@ -294,24 +301,31 @@ class AISA_Tools {
 					. 'site). Prefer this over calling replace_in_post one post at a time. Each post is '
 					. 'independently safe: a post is only touched if "find" matches its current content '
 					. 'exactly once, otherwise it\'s skipped (not found, or ambiguous) and reported as '
-					. 'such -- one bad match never blocks the rest of the batch. Max 50 posts per call. '
-					. 'Any succeeded post on Elementor or Divi may carry a per-post "warning" field in the '
-					. 'results -- read those before assuming the whole batch is safe to move on from.',
+					. 'such -- one bad match never blocks the rest of the batch. Pass replace_all:true to '
+					. 'replace every occurrence within a post instead of skipping posts with more than one '
+					. 'match. Max 50 posts per call. Any succeeded post on Elementor or Divi may carry a '
+					. 'per-post "warning" field in the results -- read those before assuming the whole '
+					. 'batch is safe to move on from.',
 				'input_schema' => array(
 					'type'                 => 'object',
 					'properties'           => array(
-						'ids'     => array(
+						'ids'         => array(
 							'type'        => 'array',
 							'items'       => array( 'type' => 'integer' ),
 							'description' => 'Post/page IDs to update (max 50 per call).',
 						),
-						'find'    => array(
+						'find'        => array(
 							'type'        => 'string',
 							'description' => 'Exact text to find in each post\'s content.',
 						),
-						'replace' => array(
+						'replace'     => array(
 							'type'        => 'string',
 							'description' => 'Replacement text, applied identically to every matching post.',
+						),
+						'replace_all' => array(
+							'type'        => 'boolean',
+							'description' => 'When "find" matches more than once within a post, replace '
+								. 'every occurrence in that post instead of skipping it. Default false.',
 						),
 					),
 					'required'             => array( 'ids', 'find', 'replace' ),
@@ -1941,25 +1955,29 @@ class AISA_Tools {
 		if ( '' === $find ) {
 			return self::error( 'The "find" text is empty.' );
 		}
-		$replace = wp_kses_post( $in['replace'] ?? '' );
-		$count   = substr_count( $p->post_content, $find );
+		$replace     = wp_kses_post( $in['replace'] ?? '' );
+		$replace_all = ! empty( $in['replace_all'] );
+		$count       = substr_count( $p->post_content, $find );
 
 		if ( 1 === $count ) {
 			$new_content = str_replace( $find, $replace, $p->post_content );
 		} elseif ( $count > 1 ) {
-			return self::error( "The \"find\" text appears {$count} times; make it longer/unique so exactly one match is replaced." );
+			if ( ! $replace_all ) {
+				return self::error( "The \"find\" text appears {$count} times; pass replace_all:true to replace every occurrence, or make \"find\" longer/unique so exactly one match is replaced." );
+			}
+			$new_content = str_replace( $find, $replace, $p->post_content );
 		} else {
-			// No byte-exact match -- fall back to a quote/entity-lenient
-			// match before giving up, since a snippet copied from rendered
-			// HTML often has plain quotes/& where the stored content has
-			// texturized/entity-encoded ones.
-			$pattern      = '/' . self::lenient_match_pattern( $find ) . '/u';
+			// No byte-exact match -- fall back to a quote/entity/newline-lenient
+			// match before giving up, since a snippet copied from rendered HTML
+			// or CRLF content often has plain quotes/&/\n where the stored
+			// content has texturized/entity-encoded/\r\n variants.
+			$pattern       = '/' . self::lenient_match_pattern( $find ) . '/u';
 			$lenient_count = preg_match_all( $pattern, $p->post_content );
 			if ( ! $lenient_count ) {
 				return self::error( 'The "find" text was not found in the content. Read the post again and copy an exact snippet.' );
 			}
-			if ( $lenient_count > 1 ) {
-				return self::error( "The \"find\" text appears {$lenient_count} times (accounting for quote/entity variants); make it longer/unique so exactly one match is replaced." );
+			if ( $lenient_count > 1 && ! $replace_all ) {
+				return self::error( "The \"find\" text appears {$lenient_count} times (accounting for quote/entity variants); pass replace_all:true to replace every occurrence, or make \"find\" longer/unique so exactly one match is replaced." );
 			}
 			$new_content = preg_replace_callback(
 				$pattern,
@@ -1967,8 +1985,9 @@ class AISA_Tools {
 					return $replace;
 				},
 				$p->post_content,
-				1
+				$replace_all ? -1 : 1
 			);
+			$count       = $lenient_count;
 		}
 		$result      = wp_update_post(
 			wp_slash(
@@ -1983,7 +2002,7 @@ class AISA_Tools {
 			return self::error( $result->get_error_message() );
 		}
 		AISA_Audit_Log::record( 'replace_in_post', $id, array( 'find' => $find ) );
-		$message = "Replaced one snippet in #{$id}.";
+		$message = $count > 1 ? "Replaced {$count} occurrences in #{$id}." : "Replaced one snippet in #{$id}.";
 		$warning = self::page_builder_warning( $id, $p->post_content, $find . ' ' . $replace );
 		if ( $warning ) {
 			$message .= ' WARNING: ' . $warning;
@@ -2094,7 +2113,8 @@ class AISA_Tools {
 		if ( '' === $find ) {
 			return self::error( 'The "find" text is empty.' );
 		}
-		$replace = wp_kses_post( $in['replace'] ?? '' );
+		$replace     = wp_kses_post( $in['replace'] ?? '' );
+		$replace_all = ! empty( $in['replace_all'] );
 
 		$results = array();
 		$summary = array(
@@ -2103,7 +2123,7 @@ class AISA_Tools {
 			'failed'    => 0,
 		);
 		foreach ( $ids as $id ) {
-			$row               = self::bulk_replace_one_post( $id, $find, $replace );
+			$row               = self::bulk_replace_one_post( $id, $find, $replace, $replace_all );
 			$results[]         = $row;
 			$summary[ $row['status'] ] = ( $summary[ $row['status'] ] ?? 0 ) + 1;
 		}
@@ -2121,12 +2141,13 @@ class AISA_Tools {
 	/**
 	 * Apply one exact-match replacement to one post, for bulk_replace_in_posts.
 	 *
-	 * @param int    $id      Post ID.
-	 * @param string $find    Exact text to find.
-	 * @param string $replace Sanitized replacement HTML.
+	 * @param int    $id          Post ID.
+	 * @param string $find        Exact text to find.
+	 * @param string $replace     Sanitized replacement HTML.
+	 * @param bool   $replace_all Replace every occurrence instead of skipping multi-match posts.
 	 * @return array { id, status: succeeded|skipped|failed, message }.
 	 */
-	private static function bulk_replace_one_post( $id, $find, $replace ) {
+	private static function bulk_replace_one_post( $id, $find, $replace, $replace_all = false ) {
 		if ( ! current_user_can( 'edit_post', $id ) ) {
 			return array(
 				'id'      => $id,
@@ -2151,11 +2172,11 @@ class AISA_Tools {
 				'message' => 'The "find" text was not found in this post.',
 			);
 		}
-		if ( $count > 1 ) {
+		if ( $count > 1 && ! $replace_all ) {
 			return array(
 				'id'      => $id,
 				'status'  => 'skipped',
-				'message' => "The \"find\" text appears {$count} times in this post; skipped to avoid an ambiguous replace.",
+				'message' => "The \"find\" text appears {$count} times in this post; skipped to avoid an ambiguous replace. Pass replace_all:true to replace every occurrence.",
 			);
 		}
 
@@ -2180,7 +2201,7 @@ class AISA_Tools {
 		$row = array(
 			'id'      => $id,
 			'status'  => 'succeeded',
-			'message' => 'Replaced.',
+			'message' => $count > 1 ? "Replaced {$count} occurrences." : 'Replaced.',
 		);
 		$warning = self::page_builder_warning( $id, $p->post_content, $find . ' ' . $replace );
 		if ( $warning ) {
