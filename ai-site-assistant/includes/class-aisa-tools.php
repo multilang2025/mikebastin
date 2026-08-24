@@ -1436,11 +1436,13 @@ class AISA_Tools {
 			return self::error( 'Permission denied.' );
 		}
 		$id = wp_insert_post(
-			array(
-				'post_title'   => sanitize_text_field( $in['title'] ?? '' ),
-				'post_content' => wp_kses_post( $in['content'] ?? '' ),
-				'post_type'    => $type,
-				'post_status'  => 'draft', // Never auto-publish.
+			wp_slash(
+				array(
+					'post_title'   => sanitize_text_field( $in['title'] ?? '' ),
+					'post_content' => wp_kses_post( $in['content'] ?? '' ),
+					'post_type'    => $type,
+					'post_status'  => 'draft', // Never auto-publish.
+				)
 			),
 			true
 		);
@@ -1479,7 +1481,7 @@ class AISA_Tools {
 			$update['post_content'] = wp_kses_post( $in['content'] );
 		}
 
-		$result = wp_update_post( $update, true );
+		$result = wp_update_post( wp_slash( $update ), true );
 		if ( is_wp_error( $result ) ) {
 			return self::error( $result->get_error_message() );
 		}
@@ -1898,7 +1900,13 @@ class AISA_Tools {
 				"\xE2\x80\x9D" => $double,
 			)
 		);
-		return preg_replace( '/&amp;|&/', '(?:&amp;|&)', $pattern );
+		$pattern = preg_replace( '/&amp;|&/', '(?:&amp;|&)', $pattern );
+		// A "find" string can only ever carry a bare \n (tool calls have no way
+		// to transmit a literal \r), so on content whose line endings are CRLF
+		// -- common on older/imported posts -- a byte-exact multi-line match is
+		// impossible even when the snippet is copied verbatim from get_post.
+		// Let a bare newline in the pattern match either line-ending style.
+		return str_replace( "\n", '\r?\n', $pattern );
 	}
 
 	/**
@@ -1963,9 +1971,11 @@ class AISA_Tools {
 			);
 		}
 		$result      = wp_update_post(
-			array(
-				'ID'           => $id,
-				'post_content' => $new_content,
+			wp_slash(
+				array(
+					'ID'           => $id,
+					'post_content' => $new_content,
+				)
 			),
 			true
 		);
@@ -2009,9 +2019,11 @@ class AISA_Tools {
 			return self::error( 'The "html" to append is empty.' );
 		}
 		$result = wp_update_post(
-			array(
-				'ID'           => $id,
-				'post_content' => $p->post_content . "\n\n" . $html,
+			wp_slash(
+				array(
+					'ID'           => $id,
+					'post_content' => $p->post_content . "\n\n" . $html,
+				)
 			),
 			true
 		);
@@ -2149,9 +2161,11 @@ class AISA_Tools {
 
 		$new_content = str_replace( $find, $replace, $p->post_content );
 		$result      = wp_update_post(
-			array(
-				'ID'           => $id,
-				'post_content' => $new_content,
+			wp_slash(
+				array(
+					'ID'           => $id,
+					'post_content' => $new_content,
+				)
 			),
 			true
 		);

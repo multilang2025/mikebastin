@@ -3,7 +3,7 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
-Stable tag: 2.1.6
+Stable tag: 2.1.7
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -155,6 +155,10 @@ Tips:
   gate on more precisely.
 
 == Changelog ==
+= 2.1.7 =
+* Fixed silent post_content corruption: update_post, replace_in_post, append_to_post, bulk_replace_in_posts, and create_post never called wp_slash() before handing data to wp_insert_post()/wp_update_post(), so WordPress core's internal wp_unslash() stripped any literal backslash already present in the post -- e.g. a Gutenberg block's JSON-escaped `&` in a URL attribute silently became `u0026` -- even on edits that touched a completely unrelated part of the content. This could also present as a generic "critical error" from an unrelated PHP notice thrown by a downstream filter reacting to the mangled content, misleadingly making a call look like a clean no-op failure when it had actually corrupted the post.
+* Fixed replace_in_post/bulk_replace_in_posts failing with "text not found" on any multi-line find that crosses a CRLF (\r\n) line break in post_content: a tool call can only transmit a bare \n, never a real \r, so a snippet copied byte-for-byte from get_post silently never matched on CRLF content (common on older/imported posts). The lenient quote/entity fallback now also treats a bare \n in "find" as matching either \n or \r\n in the stored content.
+
 = 2.1.6 =
 * Fixed upload_media rejecting valid image URLs with "Invalid image URL" when the URL has no file extension in its path (e.g. Unsplash CDN URLs like images.unsplash.com/photo-xxxx?...). It no longer relies on WordPress core's media_sideload_image(), which guesses file type from a regex match on the URL string; it now downloads the bytes itself and determines the mime type from the response's Content-Type header (falling back to sniffing the bytes with getimagesize()).
 
