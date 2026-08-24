@@ -863,13 +863,14 @@ function get_tools_schema() {
             // which reads as a confusing "Permission denied" from the real
             // handler's own permission check, not as a schema error.
             'name' => 'replace_in_post',
-            'description' => 'Replace a specific snippet of HTML in a post with new content.',
+            'description' => 'Replace a specific snippet of HTML in a post with new content. If "find" matches more than once, pass replace_all:true to replace every occurrence.',
             'inputSchema' => [
                 'type' => 'object',
                 'properties' => [
                     'id' => ['type' => 'integer'],
                     'find' => ['type' => 'string'],
-                    'replace' => ['type' => 'string']
+                    'replace' => ['type' => 'string'],
+                    'replace_all' => ['type' => 'boolean', 'description' => 'Replace every occurrence of "find" instead of failing when it matches more than once. Default false.']
                 ],
                 'required' => ['id', 'find', 'replace']
             ]
@@ -892,13 +893,14 @@ function get_tools_schema() {
             // bulk_replace_in_posts exactly (ids/find/replace) -- same
             // fallback-schema-drift trap as replace_in_post above.
             'name' => 'bulk_replace_in_posts',
-            'description' => 'Apply the SAME exact text replacement across MULTIPLE posts/pages in one call. Max 50 posts per call.',
+            'description' => 'Apply the SAME exact text replacement across MULTIPLE posts/pages in one call. Max 50 posts per call. Pass replace_all:true to replace every occurrence within a post instead of skipping posts with more than one match.',
             'inputSchema' => [
                 'type' => 'object',
                 'properties' => [
                     'ids' => ['type' => 'array', 'items' => ['type' => 'integer']],
                     'find' => ['type' => 'string'],
-                    'replace' => ['type' => 'string']
+                    'replace' => ['type' => 'string'],
+                    'replace_all' => ['type' => 'boolean', 'description' => 'Replace every occurrence within a post instead of skipping posts where "find" matches more than once. Default false.']
                 ],
                 'required' => ['ids', 'find', 'replace']
             ]
