@@ -2461,7 +2461,7 @@ class AISA_Tools {
 		if ( '' !== $image_id ) {
 			$attachment_id = self::sideload_generated_image( $image_id, $post_id, $caption );
 		} else {
-			$attachment_id = media_sideload_image( $url, $post_id, $caption, 'id' );
+			$attachment_id = self::sideload_url_image( $url, $post_id, $caption );
 		}
 		if ( is_wp_error( $attachment_id ) ) {
 			return self::error( $attachment_id->get_error_message() );
@@ -2548,8 +2548,86 @@ class AISA_Tools {
 			'image/png'  => 'png',
 			'image/jpeg' => 'jpg',
 			'image/webp' => 'webp',
+			'image/gif'  => 'gif',
 		);
-		return $map[ $mime_type ] ?? 'png';
+		return $map[ $mime_type ] ?? 'jpg';
+	}
+
+	/**
+	 * Download an image URL and commit it as a media library attachment,
+	 * without relying on WordPress core's media_sideload_image(), which
+	 * determines file type by regex-matching an extension in the URL path.
+	 * That breaks on extension-less CDN URLs (e.g. Unsplash's
+	 * images.unsplash.com/photo-xxxx?...) even though they're valid images,
+	 * failing with "Invalid image URL". Here the mime type is read from the
+	 * response's Content-Type header (falling back to sniffing the actual
+	 * bytes via getimagesize()) instead of guessed from the URL string.
+	 *
+	 * @param string      $url     Image URL.
+	 * @param int         $post_id Post to attach the media to (0 for none).
+	 * @param string|null $caption Optional caption/title.
+	 * @return int|WP_Error Attachment ID, or an error.
+	 */
+	private static function sideload_url_image( $url, $post_id, $caption ) {
+		$response = wp_remote_get(
+			$url,
+			array(
+				'timeout'     => 20,
+				'redirection' => 5,
+			)
+		);
+		if ( is_wp_error( $response ) ) {
+			return $response;
+		}
+
+		$code = wp_remote_retrieve_response_code( $response );
+		if ( $code < 200 || $code >= 300 ) {
+			return new WP_Error( 'aisa_fetch_failed', sprintf( 'Could not fetch that URL (HTTP %d).', $code ) );
+		}
+
+		$bytes = wp_remote_retrieve_body( $response );
+		if ( '' === $bytes ) {
+			return new WP_Error( 'aisa_empty_image', 'That URL returned no image data.' );
+		}
+
+		$mime_type = wp_remote_retrieve_header( $response, 'content-type' );
+		$mime_type = is_array( $mime_type ) ? reset( $mime_type ) : $mime_type;
+		$mime_type = trim( strtok( (string) $mime_type, ';' ) );
+		if ( ! $mime_type || 0 !== strpos( $mime_type, 'image/' ) ) {
+			$tmp = wp_tempnam( $url );
+			file_put_contents( $tmp, $bytes ); // phpcs:ignore WordPress.WP.AlternativeFunctions.file_system_operations_file_put_contents -- writing our own just-downloaded bytes so getimagesize() can sniff them.
+			$info = @getimagesize( $tmp ); // phpcs:ignore WordPress.PHP.NoSilencedErrors.Discouraged -- getimagesize() warns on non-images; failure is handled explicitly below.
+			wp_delete_file( $tmp );
+			$mime_type = $info['mime'] ?? '';
+		}
+		if ( ! $mime_type || 0 !== strpos( $mime_type, 'image/' ) ) {
+			return new WP_Error( 'aisa_invalid_image', 'That URL did not return a recognizable image.' );
+		}
+
+		$filename = 'sideload-' . substr( md5( $url . wp_rand() ), 0, 12 ) . '.' . self::extension_for_mime( $mime_type );
+		$uploaded = wp_upload_bits( $filename, null, $bytes );
+		if ( ! empty( $uploaded['error'] ) ) {
+			return new WP_Error( 'aisa_upload_failed', $uploaded['error'] );
+		}
+
+		$attachment_id = wp_insert_attachment(
+			array(
+				'post_mime_type' => $mime_type,
+				'post_title'     => $caption ? $caption : __( 'Sideloaded image', 'ai-site-assistant' ),
+				'post_content'   => '',
+				'post_status'    => 'inherit',
+				'post_excerpt'   => $caption ? $caption : '',
+			),
+			$uploaded['file'],
+			$post_id
+		);
+		if ( is_wp_error( $attachment_id ) ) {
+			return $attachment_id;
+		}
+
+		wp_update_attachment_metadata( $attachment_id, wp_generate_attachment_metadata( $attachment_id, $uploaded['file'] ) );
+
+		return $attachment_id;
 	}
 
 	/**

@@ -3,7 +3,7 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
-Stable tag: 2.1.5
+Stable tag: 2.1.6
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -155,6 +155,9 @@ Tips:
   gate on more precisely.
 
 == Changelog ==
+= 2.1.6 =
+* Fixed upload_media rejecting valid image URLs with "Invalid image URL" when the URL has no file extension in its path (e.g. Unsplash CDN URLs like images.unsplash.com/photo-xxxx?...). It no longer relies on WordPress core's media_sideload_image(), which guesses file type from a regex match on the URL string; it now downloads the bytes itself and determines the mime type from the response's Content-Type header (falling back to sniffing the bytes with getimagesize()).
+
 = 2.1.5 =
 * Added wp_cli_set "search replace": a WP-CLI-style bulk find/replace across wp_posts, wp_postmeta, and/or wp_options in one call, serialization-safe (unserializes, replaces, re-serializes with correct lengths, instead of corrupting serialized blobs with a raw string swap). Native PHP, no shell -- unlike a real `wp search-replace`, it can't be tripped up by a backtick or other shell-special character inside page-builder content. Defaults to dry_run=true.
 
