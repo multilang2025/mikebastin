@@ -238,11 +238,13 @@ class AISA_Tools {
 					. '"find" still matches the current content exactly once, so there\'s no separate '
 					. 'staleness timestamp to keep in sync. Read with get_post first to get the text to '
 					. 'match against. If "find" appears more than once, the call fails and tells you the '
-					. 'count -- either pass replace_all:true to replace every occurrence, or make "find" '
-					. 'longer/more specific so it matches exactly one spot. On an Elementor or Divi page, '
-					. 'the result may include a WARNING -- read it; on Elementor it means this edit likely '
-					. 'won\'t appear on the live page (content lives in _elementor_data, not post_content), '
-					. 'on Divi it means the touched text looks like it crosses a shortcode-attribute boundary.',
+					. 'count -- pass replace_all:true to replace every occurrence identically, occurrence:N '
+					. '(1-based) to fix just the Nth match on its own (e.g. one at a time, with a different '
+					. 'replacement per call), or make "find" longer/more specific so it matches exactly one '
+					. 'spot. On an Elementor or Divi page, the result may include a WARNING -- read it; on '
+					. 'Elementor it means this edit likely won\'t appear on the live page (content lives in '
+					. '_elementor_data, not post_content), on Divi it means the touched text looks like it '
+					. 'crosses a shortcode-attribute boundary.',
 				'input_schema' => array(
 					'type'                 => 'object',
 					'properties'           => array(
@@ -258,7 +260,15 @@ class AISA_Tools {
 						'replace_all'       => array(
 							'type'        => 'boolean',
 							'description' => 'When "find" matches more than once, replace every '
-								. 'occurrence instead of failing. Default false.',
+								. 'occurrence instead of failing. Default false. Ignored if "occurrence" '
+								. 'is also set.',
+						),
+						'occurrence'        => array(
+							'type'        => 'integer',
+							'description' => 'When "find" matches more than once, replace only the Nth '
+								. '(1-based) occurrence instead of failing or replacing all of them -- '
+								. 'use this to fix multiple matches one at a time, each with its own '
+								. 'replacement. Takes priority over replace_all.',
 						),
 						'expected_modified' => array(
 							'type'        => 'string',
@@ -1924,6 +1934,52 @@ class AISA_Tools {
 	}
 
 	/**
+	 * Replace only the Nth (1-based) byte-exact occurrence of $find in
+	 * $haystack, leaving every other occurrence untouched. The manual,
+	 * one-at-a-time alternative to replace_all:true when a caller wants to
+	 * fix matches individually instead of identically.
+	 *
+	 * @param string $haystack   Content to search.
+	 * @param string $find       Exact text to find.
+	 * @param string $replace    Replacement text.
+	 * @param int    $occurrence 1-based occurrence index to replace.
+	 * @return string Content with only that occurrence replaced.
+	 */
+	private static function replace_nth( $haystack, $find, $replace, $occurrence ) {
+		$offset = 0;
+		for ( $i = 1; $i <= $occurrence; $i++ ) {
+			$pos = strpos( $haystack, $find, $offset );
+			if ( false === $pos ) {
+				return $haystack;
+			}
+			if ( $i === $occurrence ) {
+				return substr_replace( $haystack, $replace, $pos, strlen( $find ) );
+			}
+			$offset = $pos + strlen( $find );
+		}
+		return $haystack;
+	}
+
+	/**
+	 * Regex counterpart of replace_nth for the lenient quote/entity/newline
+	 * fallback match -- replaces only the Nth (1-based) regex match.
+	 *
+	 * @param string $haystack   Content to search.
+	 * @param string $pattern    Delimited regex pattern (from lenient_match_pattern).
+	 * @param string $replace    Replacement text.
+	 * @param int    $occurrence 1-based occurrence index to replace.
+	 * @return string Content with only that occurrence replaced.
+	 */
+	private static function replace_nth_pattern( $haystack, $pattern, $replace, $occurrence ) {
+		preg_match_all( $pattern, $haystack, $matches, PREG_OFFSET_CAPTURE );
+		if ( ! isset( $matches[0][ $occurrence - 1 ] ) ) {
+			return $haystack;
+		}
+		list( $matched_text, $pos ) = $matches[0][ $occurrence - 1 ];
+		return substr_replace( $haystack, $replace, $pos, strlen( $matched_text ) );
+	}
+
+	/**
 	 * Replace an exact text snippet inside a post's content (targeted edit).
 	 *
 	 * Much cheaper than rewriting the whole post, which keeps long edits under
@@ -1957,15 +2013,22 @@ class AISA_Tools {
 		}
 		$replace     = wp_kses_post( $in['replace'] ?? '' );
 		$replace_all = ! empty( $in['replace_all'] );
+		$occurrence  = isset( $in['occurrence'] ) ? (int) $in['occurrence'] : 0;
 		$count       = substr_count( $p->post_content, $find );
 
 		if ( 1 === $count ) {
 			$new_content = str_replace( $find, $replace, $p->post_content );
 		} elseif ( $count > 1 ) {
-			if ( ! $replace_all ) {
-				return self::error( "The \"find\" text appears {$count} times; pass replace_all:true to replace every occurrence, or make \"find\" longer/unique so exactly one match is replaced." );
+			if ( $occurrence > 0 ) {
+				if ( $occurrence > $count ) {
+					return self::error( "The \"find\" text only appears {$count} times; occurrence {$occurrence} doesn't exist." );
+				}
+				$new_content = self::replace_nth( $p->post_content, $find, $replace, $occurrence );
+			} elseif ( $replace_all ) {
+				$new_content = str_replace( $find, $replace, $p->post_content );
+			} else {
+				return self::error( "The \"find\" text appears {$count} times; pass replace_all:true to replace every occurrence, occurrence:N (1-based) to fix one match at a time, or make \"find\" longer/unique so exactly one match is replaced." );
 			}
-			$new_content = str_replace( $find, $replace, $p->post_content );
 		} else {
 			// No byte-exact match -- fall back to a quote/entity/newline-lenient
 			// match before giving up, since a snippet copied from rendered HTML
@@ -1976,18 +2039,24 @@ class AISA_Tools {
 			if ( ! $lenient_count ) {
 				return self::error( 'The "find" text was not found in the content. Read the post again and copy an exact snippet.' );
 			}
-			if ( $lenient_count > 1 && ! $replace_all ) {
-				return self::error( "The \"find\" text appears {$lenient_count} times (accounting for quote/entity variants); pass replace_all:true to replace every occurrence, or make \"find\" longer/unique so exactly one match is replaced." );
+			if ( $lenient_count > 1 && $occurrence > 0 ) {
+				if ( $occurrence > $lenient_count ) {
+					return self::error( "The \"find\" text only appears {$lenient_count} times (accounting for quote/entity variants); occurrence {$occurrence} doesn't exist." );
+				}
+				$new_content = self::replace_nth_pattern( $p->post_content, $pattern, $replace, $occurrence );
+			} elseif ( $lenient_count > 1 && ! $replace_all ) {
+				return self::error( "The \"find\" text appears {$lenient_count} times (accounting for quote/entity variants); pass replace_all:true to replace every occurrence, occurrence:N (1-based) to fix one match at a time, or make \"find\" longer/unique so exactly one match is replaced." );
+			} else {
+				$new_content = preg_replace_callback(
+					$pattern,
+					static function () use ( $replace ) {
+						return $replace;
+					},
+					$p->post_content,
+					$replace_all ? -1 : 1
+				);
 			}
-			$new_content = preg_replace_callback(
-				$pattern,
-				static function () use ( $replace ) {
-					return $replace;
-				},
-				$p->post_content,
-				$replace_all ? -1 : 1
-			);
-			$count       = $lenient_count;
+			$count = $lenient_count;
 		}
 		$result      = wp_update_post(
 			wp_slash(
@@ -2002,7 +2071,13 @@ class AISA_Tools {
 			return self::error( $result->get_error_message() );
 		}
 		AISA_Audit_Log::record( 'replace_in_post', $id, array( 'find' => $find ) );
-		$message = $count > 1 ? "Replaced {$count} occurrences in #{$id}." : "Replaced one snippet in #{$id}.";
+		if ( $occurrence > 0 && $count > 1 ) {
+			$message = "Replaced occurrence {$occurrence} of {$count} in #{$id}.";
+		} elseif ( $count > 1 ) {
+			$message = "Replaced {$count} occurrences in #{$id}.";
+		} else {
+			$message = "Replaced one snippet in #{$id}.";
+		}
 		$warning = self::page_builder_warning( $id, $p->post_content, $find . ' ' . $replace );
 		if ( $warning ) {
 			$message .= ' WARNING: ' . $warning;

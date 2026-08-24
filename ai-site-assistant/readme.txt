@@ -3,7 +3,7 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
-Stable tag: 2.1.8
+Stable tag: 2.1.9
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -155,6 +155,9 @@ Tips:
   gate on more precisely.
 
 == Changelog ==
+= 2.1.9 =
+* Added an occurrence:N parameter to replace_in_post, as a manual one-at-a-time alternative when replace_all:true isn't the right tool -- e.g. multiple matches need different replacements, or you want to fix them individually to check each one. Takes priority over replace_all when both are passed.
+
 = 2.1.8 =
 * Added replace_all support to replace_in_post and bulk_replace_in_posts, matching WPVibe's content/edit behavior: when "find" matches more than once, pass replace_all:true to replace every occurrence instead of the call failing outright. Without it, both tools still refuse a multi-match "find" as before, but now the error explicitly tells you replace_all is available.
 
