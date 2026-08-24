@@ -863,14 +863,15 @@ function get_tools_schema() {
             // which reads as a confusing "Permission denied" from the real
             // handler's own permission check, not as a schema error.
             'name' => 'replace_in_post',
-            'description' => 'Replace a specific snippet of HTML in a post with new content. If "find" matches more than once, pass replace_all:true to replace every occurrence.',
+            'description' => 'Replace a specific snippet of HTML in a post with new content. If "find" matches more than once, pass replace_all:true to replace every occurrence, or occurrence:N to fix just the Nth match one at a time.',
             'inputSchema' => [
                 'type' => 'object',
                 'properties' => [
                     'id' => ['type' => 'integer'],
                     'find' => ['type' => 'string'],
                     'replace' => ['type' => 'string'],
-                    'replace_all' => ['type' => 'boolean', 'description' => 'Replace every occurrence of "find" instead of failing when it matches more than once. Default false.']
+                    'replace_all' => ['type' => 'boolean', 'description' => 'Replace every occurrence of "find" instead of failing when it matches more than once. Default false. Ignored if "occurrence" is also set.'],
+                    'occurrence' => ['type' => 'integer', 'description' => 'Replace only the Nth (1-based) occurrence of "find" instead of failing or replacing all of them. Takes priority over replace_all.']
                 ],
                 'required' => ['id', 'find', 'replace']
             ]
