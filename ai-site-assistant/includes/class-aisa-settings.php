@@ -606,9 +606,12 @@ class AISA_Settings {
 						<span class="aisa-brand-by"><?php esc_html_e( 'by betranslated', 'ai-site-assistant' ); ?></span>
 					</span>
 				</div>
-				<span class="aisa-status-pill" data-connected="<?php echo $is_connected ? '1' : '0'; ?>">
-					<?php echo $is_connected ? esc_html__( 'Connected', 'ai-site-assistant' ) : esc_html__( 'Not connected', 'ai-site-assistant' ); ?>
-				</span>
+				<div class="aisa-header-right">
+					<span class="aisa-version-pill"><?php echo esc_html( 'v' . AISA_VERSION ); ?></span>
+					<span class="aisa-status-pill" data-connected="<?php echo $is_connected ? '1' : '0'; ?>">
+						<?php echo $is_connected ? esc_html__( 'Connected', 'ai-site-assistant' ) : esc_html__( 'Not connected', 'ai-site-assistant' ); ?>
+					</span>
+				</div>
 			</header>
 
 			<div class="aisa-mcp-hero">

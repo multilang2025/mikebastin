@@ -3,7 +3,7 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
-Stable tag: 2.1.9
+Stable tag: 2.2.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -155,6 +155,9 @@ Tips:
   gate on more precisely.
 
 == Changelog ==
+= 2.2.0 =
+* Added a version tag to the MCP Connector page header in wp-admin, next to the Connected/Not connected status pill, so you can see which plugin version is running without checking the Plugins screen.
+
 = 2.1.9 =
 * Added an occurrence:N parameter to replace_in_post, as a manual one-at-a-time alternative when replace_all:true isn't the right tool -- e.g. multiple matches need different replacements, or you want to fix them individually to check each one. Takes priority over replace_all when both are passed.
 
