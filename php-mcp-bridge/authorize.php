@@ -17,6 +17,7 @@
 // personally connected; it never gets to see anyone else's.
 
 require_once __DIR__ . '/db.php';
+require_once __DIR__ . '/page.php'; // for BRIDGE_VERSION, shown in the footer below
 
 $client_id             = $_GET['client_id'] ?? $_POST['client_id'] ?? '';
 $redirect_uri          = $_GET['redirect_uri'] ?? '';
@@ -146,7 +147,7 @@ button:hover{opacity:.85}
             <button type="submit" name="deny"  value="1" class="deny">Deny</button>
         </div>
     </form>
-    <div class="footer">AISA Connector &mdash; powered by your own WordPress site</div>
+    <div class="footer">AISA Connector &mdash; powered by your own WordPress site &middot; bridge v<?php echo htmlspecialchars(BRIDGE_VERSION); ?></div>
 </div>
 </body>
 </html>

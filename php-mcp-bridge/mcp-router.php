@@ -252,7 +252,15 @@ function normalize_json_schema_for_mcp($schema) {
 // flat list resolve_site()/list_sites/switch_site all work against.
 function get_all_sites() {
     $db = get_db();
-    return $db->query('SELECT token, wp_url FROM sites ORDER BY wp_url')->fetchAll();
+    // Must select every column, not just token/wp_url: resolve_site() (the
+    // per-call `site` override and switch_site's own resolution) hands its
+    // result straight to wp_fetch(), which reads wp_username/wp_app_password
+    // off it to build Basic Auth. Selecting fewer columns silently sends
+    // empty credentials on that path -- WordPress reports that back as
+    // "unknown username", even though the row's real credentials are fine
+    // and the persistently-bound $site (loaded via `SELECT * FROM sites`
+    // in mcp.php) works. Bug found and fixed 2026-08-25.
+    return $db->query('SELECT * FROM sites ORDER BY wp_url')->fetchAll();
 }
 
 // The sites this specific OAuth client is allowed to see -- the actual
@@ -289,8 +297,10 @@ function get_allowed_sites($client_id) {
     // Missing client row or full_access = 0: fail closed to exactly what's
     // been explicitly granted via grant-access.php -- possibly nothing --
     // never fall back to "everything" just because a lookup came up empty.
+    // Same reasoning as get_all_sites(): must return every column so
+    // resolve_site() results carry usable credentials for wp_fetch().
     $stmt = $db->prepare('
-        SELECT s.token, s.wp_url FROM sites s
+        SELECT s.* FROM sites s
         INNER JOIN client_sites cs ON cs.site_token = s.token
         WHERE cs.client_id = ?
         ORDER BY s.wp_url

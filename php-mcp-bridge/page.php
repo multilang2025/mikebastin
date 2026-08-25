@@ -6,6 +6,13 @@
 // consistent product instead of a PHP script's raw text output partway
 // through the flow.
 
+// Bumped alongside the bridge-vX.Y.Z tags already used in commit messages
+// (see git log) -- this is the first place that version actually gets
+// surfaced anywhere instead of living only in commit text, so a client
+// looking at the approval page can confirm which fix they're on without
+// asking whoever's driving the session.
+const BRIDGE_VERSION = '3.3.9';
+
 function render_page($title, $icon, $heading, $body_html, $variant = 'info') {
     $accent = [
         'info'    => '#2271b1',
@@ -36,7 +43,7 @@ p:last-of-type{margin-bottom:0}
     <div class="icon"><?php echo $icon; ?></div>
     <h1><?php echo htmlspecialchars($heading); ?></h1>
     <?php echo $body_html; // phpcs:ignore -- caller-controlled, static markup, no user input passed through unescaped. ?>
-    <div class="footer">AISA Connector &mdash; powered by your own WordPress site</div>
+    <div class="footer">AISA Connector &mdash; powered by your own WordPress site &middot; bridge v<?php echo htmlspecialchars(BRIDGE_VERSION); ?></div>
 </div>
 </body>
 </html>
