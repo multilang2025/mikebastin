@@ -11,7 +11,7 @@
 // surfaced anywhere instead of living only in commit text, so a client
 // looking at the approval page can confirm which fix they're on without
 // asking whoever's driving the session.
-const BRIDGE_VERSION = '3.3.9';
+const BRIDGE_VERSION = '3.4.1';
 
 function render_page($title, $icon, $heading, $body_html, $variant = 'info') {
     $accent = [

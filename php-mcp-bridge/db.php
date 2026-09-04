@@ -115,7 +115,34 @@ function get_db() {
             expires_at BIGINT NOT NULL,
             fulfilled INTEGER NOT NULL DEFAULT 0
         );
+
+        -- One row per MCP session (an SSE connection's own session_id for
+        -- Claude Desktop/Code, or a Streamable-HTTP Mcp-Session-Id for
+        -- Claude.ai web) that has called switch_site. Lets concurrent chats
+        -- sharing the same OAuth access_token each keep their own \"current
+        -- site\" instead of all reading/writing the single site_token column
+        -- on oauth_tokens -- see mcp.php/mcp-router.php for how this is
+        -- resolved and takes priority over that account-wide default.
+        CREATE TABLE IF NOT EXISTS session_sites (
+            session_key TEXT PRIMARY KEY,
+            access_token TEXT NOT NULL,
+            site_token TEXT NOT NULL,
+            updated_at BIGINT NOT NULL
+        );
     ");
+
+    // Opportunistic cleanup, no cron needed: a session_sites row from a chat
+    // that's long since ended just sits there harmlessly (it's only ever
+    // read by that exact session_key again), but nothing ever deletes them
+    // on its own. Trim anything untouched for 30+ days on a small random
+    // fraction of requests so this stays cheap.
+    if (random_int(1, 200) === 1) {
+        try {
+            $db->exec('DELETE FROM session_sites WHERE updated_at < ' . (time() - 30 * 86400));
+        } catch (Throwable $e) {
+            // Non-critical housekeeping -- never let this fail the request.
+        }
+    }
 
     // Structural guard against the duplicate-registration bug register.php
     // used to have (always INSERT, never upsert by wp_url): makes it

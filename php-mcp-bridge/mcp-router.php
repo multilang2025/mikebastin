@@ -11,7 +11,7 @@
 // masking -- a genuine error from the site's own real implementation.
 class WpConnectionException extends Exception {}
 
-function handle_mcp_request($site, $payload, $bearer = null, $client_id = null) {
+function handle_mcp_request($site, $payload, $bearer = null, $client_id = null, $session_key = null) {
     $req = json_decode($payload, true);
     if (!$req) return null; // Or error
 
@@ -67,6 +67,24 @@ function handle_mcp_request($site, $payload, $bearer = null, $client_id = null) 
         $name = $params['name'] ?? '';
         $args = $params['arguments'] ?? [];
 
+        // Fallback session identity: mcp.php's $session_key comes from
+        // transport metadata (an SSE connection's own id, or an echoed
+        // Mcp-Session-Id header) — but at least one real MCP client
+        // (Claude.ai's hosted connector integration, confirmed live
+        // 2026-08-31) never round-trips that header back, so $session_key
+        // arrives null on every call through it and every chat sharing that
+        // connection falls back to the old shared default. A model-supplied
+        // chat_id argument sidesteps the transport entirely: it's an
+        // ordinary tool argument, so it reaches us unmodified regardless of
+        // what the client does with headers. Prefixed to keep it in its own
+        // namespace from transport-derived keys (belt-and-braces against a
+        // collision, not that one's plausible). Stripped before $args ever
+        // reaches execute_tool()/the WP plugin — this is bridge-only, like
+        // the `site` override below.
+        $chat_id = isset($args['chat_id']) ? trim((string) $args['chat_id']) : '';
+        unset($args['chat_id']);
+        $session_key = $session_key ?: ($chat_id !== '' ? ('chat:' . $chat_id) : null);
+
         // Loaded once per call so resolve_site()/list_sites/switch_site all
         // see the same snapshot of this connection's allowed sites -- scoped
         // per OAuth client (see get_allowed_sites()), not the raw global list.
@@ -77,6 +95,16 @@ function handle_mcp_request($site, $payload, $bearer = null, $client_id = null) 
         // onto every response as `_site` below since the MCP protocol offers
         // no way to re-announce serverInfo mid-session.
         $target_site = $site;
+        // This chat's own switch_site override, if it has one — takes
+        // priority over the account-wide oauth_tokens default so concurrent
+        // chats sharing one access_token never cross-talk. No-op (returns
+        // null) for direct ?token= connections and sessions that never
+        // called switch_site.
+        $session_override = resolve_session_site($session_key, $sites);
+        if ($session_override !== null) {
+            $site = $session_override;
+            $target_site = $session_override;
+        }
 
         // These three (plus connect_site) work with no site bound at all --
         // a self-service client before its first connect_site has nothing
@@ -93,7 +121,7 @@ function handle_mcp_request($site, $payload, $bearer = null, $client_id = null) 
             if (!$needs_no_site && !site_is_allowed($site, $sites)) {
                 throw new Exception('Access to the current site has been revoked. Call list_sites to see what this connection can still reach.');
             }
-            $tool_result = execute_tool($site, $name, $args, $sites, $bearer, $target_site);
+            $tool_result = execute_tool($site, $name, $args, $sites, $bearer, $target_site, $session_key);
             $response['result'] = [
                 'content' => [['type' => 'text', 'text' => is_string($tool_result) ? $tool_result : json_encode($tool_result, JSON_PRETTY_PRINT)]]
             ];
@@ -125,16 +153,19 @@ function bridge_management_tools() {
             'description' => 'List every WordPress site registered on this bridge, and which one is currently active.',
             'inputSchema' => [
                 'type' => 'object',
-                'properties' => (object) []
+                'properties' => [
+                    'chat_id' => chat_id_arg_schema(),
+                ],
             ]
         ],
         [
             'name' => 'switch_site',
-            'description' => 'Switch the persistent default site for every following call in this conversation, without disconnecting. Use when the user says things like "switch to example.com".',
+            'description' => 'Switch the default site for every following call in THIS chat, without disconnecting. Use when the user says things like "switch to example.com". If multiple chats may be using this connector at once, always pass chat_id (same value every call in this chat) so this switch doesn\'t affect any other open chat.',
             'inputSchema' => [
                 'type' => 'object',
                 'properties' => [
-                    'site' => ['type' => 'string', 'description' => 'Name, URL, or token of a registered site (loosely matched).']
+                    'site' => ['type' => 'string', 'description' => 'Name, URL, or token of a registered site (loosely matched).'],
+                    'chat_id' => chat_id_arg_schema(),
                 ],
                 'required' => ['site']
             ]
@@ -144,7 +175,9 @@ function bridge_management_tools() {
             'description' => 'Report which site is currently targeted by default, and which site this connection was originally authorized for (if different).',
             'inputSchema' => [
                 'type' => 'object',
-                'properties' => (object) []
+                'properties' => [
+                    'chat_id' => chat_id_arg_schema(),
+                ],
             ]
         ],
         [
@@ -361,7 +394,35 @@ function resolve_site($needle, $sites) {
     throw new Exception('"' . $needle . '" isn\'t a registered site on this bridge. Call list_sites to see what\'s available.');
 }
 
-function execute_tool($site, $name, $args, $sites = null, $bearer = null, &$target_site = null) {
+// Load the effective default site for one MCP session (an SSE connection's
+// own session_id, or a Streamable-HTTP Mcp-Session-Id), if that session has
+// ever called switch_site. Returns null when there's no override yet, or
+// when this connection has no session key at all (a direct ?token=
+// connection, or a Streamable-HTTP client that never echoes the session
+// header back) -- callers should fall back to the account-wide
+// oauth_tokens.site_token default in that case, exactly as before.
+function resolve_session_site($session_key, $sites) {
+    if (empty($session_key)) {
+        return null;
+    }
+    $db = get_db();
+    $stmt = $db->prepare('SELECT site_token FROM session_sites WHERE session_key = ?');
+    $stmt->execute([$session_key]);
+    $row = $stmt->fetch();
+    if (!$row) {
+        return null;
+    }
+    foreach ($sites as $s) {
+        if ($s['token'] === $row['site_token']) {
+            return $s;
+        }
+    }
+    // The session's chosen site was since deleted/unregistered -- fall back
+    // rather than resolving to nothing.
+    return null;
+}
+
+function execute_tool($site, $name, $args, $sites = null, $bearer = null, &$target_site = null, $session_key = null) {
     if ($sites === null) {
         $sites = get_all_sites();
     }
@@ -409,13 +470,32 @@ function execute_tool($site, $name, $args, $sites = null, $bearer = null, &$targ
         $new_site = resolve_site($args['site'] ?? '', $sites);
 
         $db = get_db();
-        $db->prepare('UPDATE oauth_tokens SET site_token = ? WHERE access_token = ?')
-           ->execute([$new_site['token'], $bearer]);
+        if (!empty($session_key)) {
+            // Session-scoped: only THIS chat's calls (this exact SSE
+            // connection, or this exact Streamable-HTTP Mcp-Session-Id) move
+            // to the new site. Deliberately does not touch oauth_tokens --
+            // any other chat sharing the same access_token keeps whatever
+            // site it was already on, instead of getting silently rebound
+            // out from under it. See resolve_session_site().
+            $db->prepare('
+                INSERT INTO session_sites (session_key, access_token, site_token, updated_at)
+                VALUES (?, ?, ?, ?)
+                ON CONFLICT (session_key) DO UPDATE SET site_token = EXCLUDED.site_token, updated_at = EXCLUDED.updated_at
+            ')->execute([$session_key, $bearer, $new_site['token'], time()]);
+        } else {
+            // No session key available for this connection (a Streamable-HTTP
+            // client that doesn't echo Mcp-Session-Id back, or some future
+            // transport we haven't wired up yet) -- fall back to the old
+            // account-wide default. Still functional, just shared across
+            // every chat on this access_token as before.
+            $db->prepare('UPDATE oauth_tokens SET site_token = ? WHERE access_token = ?')
+               ->execute([$new_site['token'], $bearer]);
+        }
         $db->prepare('INSERT INTO site_switch_log (access_token_suffix, from_site_token, to_site_token, created_at) VALUES (?, ?, ?, ?)')
            ->execute([substr($bearer, -8), $site['token'] ?? null, $new_site['token'], time()]);
 
         $target_site = $new_site;
-        return "Switched. Every following call now targets: " . $new_site['wp_url'];
+        return "Switched. Every following call in this chat now targets: " . $new_site['wp_url'];
     }
 
     if ($name === 'connect_site') {
@@ -724,6 +804,16 @@ function site_arg_schema() {
     return ['type' => 'string', 'description' => 'Optional. Target a specific registered site for this call only (name, URL, or token), without changing the persistent default. Loosely matched — a domain substring is enough.'];
 }
 
+// See the chat_id handling in handle_mcp_request()'s tools/call branch for
+// why this exists: it lets a switch_site call scope itself to just this one
+// chat even when the underlying transport gives us no way to tell chats
+// apart. Only actually useful when passed CONSISTENTLY on every call in a
+// chat (including switch_site itself) -- one missed call falls back to
+// whatever the account-wide/transport-derived default is for that one call.
+function chat_id_arg_schema() {
+    return ['type' => 'string', 'description' => 'Optional but recommended when multiple chats may be using this connector at once. A stable identifier for THIS conversation (make one up once, e.g. a random word, and reuse it on every AISA tool call for the rest of this chat). Without it, switch_site in one chat can change the default site every other open chat resolves to.'];
+}
+
 function get_tools_schema() {
     $tools = [
         [
@@ -1011,6 +1101,54 @@ function get_tools_schema() {
                 ],
                 'required' => ['skill_name']
             ]
+        ],
+        [
+            'name' => 'gsc_list_properties',
+            'description' => 'List every Google Search Console property (site) the connected Google account can access. Read-only. Needs Google Search Console connected.',
+            'inputSchema' => [
+                'type' => 'object',
+                'properties' => []
+            ]
+        ],
+        [
+            'name' => 'gsc_top_pages',
+            'description' => 'Rank a site\'s pages by real Google Search Console performance (clicks/impressions/CTR/position). Read-only. Needs Google Search Console connected.',
+            'inputSchema' => [
+                'type' => 'object',
+                'properties' => [
+                    'site' => ['type' => 'string'],
+                    'order' => ['type' => 'string', 'enum' => ['worst', 'best']],
+                    'metric' => ['type' => 'string', 'enum' => ['clicks', 'impressions', 'ctr', 'position']],
+                    'limit' => ['type' => 'integer'],
+                    'days' => ['type' => 'integer']
+                ]
+            ]
+        ],
+        [
+            'name' => 'gsc_page_queries',
+            'description' => 'List every search query a specific page ranks for in Google Search Console. Read-only. Needs Google Search Console connected.',
+            'inputSchema' => [
+                'type' => 'object',
+                'properties' => [
+                    'page' => ['type' => 'string'],
+                    'site' => ['type' => 'string'],
+                    'days' => ['type' => 'integer']
+                ],
+                'required' => ['page']
+            ]
+        ],
+        [
+            'name' => 'gsc_page_report',
+            'description' => 'One-shot Google Search Console diagnostic for a specific page: aggregate performance plus every query it ranks for. Read-only. Needs Google Search Console connected.',
+            'inputSchema' => [
+                'type' => 'object',
+                'properties' => [
+                    'page' => ['type' => 'string'],
+                    'site' => ['type' => 'string'],
+                    'days' => ['type' => 'integer']
+                ],
+                'required' => ['page']
+            ]
         ]
     ];
 
@@ -1037,6 +1175,7 @@ function inject_site_arg($tools, $skip = []) {
             $props = (array) $props;
         }
         $props['site'] = site_arg_schema();
+        $props['chat_id'] = chat_id_arg_schema();
         $schema['properties'] = $props;
         $tool['inputSchema'] = $schema;
         unset($tool['input_schema']);

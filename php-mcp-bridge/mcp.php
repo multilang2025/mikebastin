@@ -23,6 +23,11 @@ header('Access-Control-Expose-Headers: *');
 $req_headers = $_SERVER['HTTP_ACCESS_CONTROL_REQUEST_HEADERS'] ?? '';
 header('Access-Control-Allow-Headers: ' . ($req_headers
     ?: 'Authorization, Content-Type, Accept, MCP-Protocol-Version, mcp-protocol-version, mcp-session-id'));
+// Streamable-HTTP clients (Claude.ai web) read the session id back off this
+// header on the initialize response, so it must be explicitly exposed —
+// Access-Control-Expose-Headers: * above covers most browsers, but Safari
+// historically ignores the wildcard for this purpose.
+header('Access-Control-Expose-Headers: Mcp-Session-Id');
 
 if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
     http_response_code(204);
@@ -49,6 +54,18 @@ $bearer = null;
 // is treated as full access (every connection that predates this scoping
 // feature has no client_id recorded at all).
 $client_id = null;
+
+// Which chat this request belongs to, distinct from $bearer (which chat's
+// ACCOUNT this is). Multiple chats can share one $bearer (the OAuth
+// access_token is issued once per connector connection, not per chat) —
+// this is what lets switch_site scope itself to just this one chat instead
+// of silently rebinding every other open chat's default site too. Recovered
+// from the client-echoed Mcp-Session-Id header on the Streamable-HTTP POST
+// transport (see the initialize handling below, which assigns one on first
+// contact); set directly from the SSE connection's own generated
+// $session_id further down for the SSE/GET transport, where per-connection
+// isolation already exists for free.
+$mcp_session_id = null;
 
 // Accept ?token= (direct) OR Authorization: Bearer (OAuth).
 $url_token = $_GET['token'] ?? '';
@@ -136,8 +153,44 @@ $site = $site ?: [];
 
 // --- Streamable HTTP (Claude.ai web): POST with JSON-RPC body ---
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $payload  = file_get_contents('php://input');
-    $response = handle_mcp_request($site, $payload, $bearer, $client_id);
+    // Only meaningful on an OAuth (bearer) connection — a direct ?token=
+    // connection has no shared-account cross-talk problem to solve (its
+    // token already is a single site), and no oauth_tokens row to key off.
+    if ($bearer) {
+        $mcp_session_id = $_SERVER['HTTP_MCP_SESSION_ID'] ?? null;
+        if (!$mcp_session_id && function_exists('getallheaders')) {
+            foreach (getallheaders() as $k => $v) {
+                if (strcasecmp($k, 'Mcp-Session-Id') === 0) {
+                    $mcp_session_id = $v;
+                    break;
+                }
+            }
+        }
+    }
+
+    $payload = file_get_contents('php://input');
+    $decoded_method = null;
+    $peek = json_decode($payload, true);
+    if (is_array($peek)) {
+        $decoded_method = $peek['method'] ?? null;
+    }
+
+    // Assign this chat its own session id on first contact so every later
+    // request in the same chat can be told apart from any other chat
+    // sharing this same access_token — a spec-compliant client echoes this
+    // header back on every subsequent request. A client that never sends it
+    // back (or doesn't support Streamable-HTTP sessions at all) simply keeps
+    // $mcp_session_id null on later calls, which falls back to the old
+    // shared-account behavior rather than breaking anything.
+    if ($bearer && !$mcp_session_id && $decoded_method === 'initialize') {
+        $mcp_session_id = bin2hex(random_bytes(16));
+    }
+
+    $response = handle_mcp_request($site, $payload, $bearer, $client_id, $mcp_session_id);
+
+    if ($bearer && $mcp_session_id && $decoded_method === 'initialize') {
+        header('Mcp-Session-Id: ' . $mcp_session_id);
+    }
 
     // Notifications (and any no-id request) get no body — acknowledge with 202.
     if ($response === null) {
@@ -162,6 +215,13 @@ while (ob_get_level()) {
 flush();
 
 $session_id = uniqid('sess_', true);
+// One SSE connection = one chat (Claude Desktop/Code opens a fresh one per
+// chat), so this already-unique id is exactly the right session key for
+// per-chat site isolation — no client-side header support needed for this
+// transport, unlike Streamable-HTTP above.
+if ($bearer) {
+    $mcp_session_id = $session_id;
+}
 
 $protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') || $_SERVER['SERVER_PORT'] == 443 ? 'https://' : 'http://';
 $domainName = $_SERVER['HTTP_HOST'];
@@ -206,7 +266,7 @@ while (true) {
             // latter and would reject this as an unknown method.
             send_message($decoded);
         } else {
-            $response = handle_mcp_request($site, $request['payload'], $bearer, $client_id);
+            $response = handle_mcp_request($site, $request['payload'], $bearer, $client_id, $mcp_session_id);
             if ($response !== null) {
                 send_message($response);
             }

@@ -82,6 +82,16 @@ CREATE TABLE IF NOT EXISTS aisa_bridge.pending_connections (
     fulfilled INTEGER NOT NULL DEFAULT 0
 );
 
+-- One row per MCP session that has called switch_site -- see db.php for why
+-- this exists (per-chat site isolation instead of one shared default per
+-- OAuth access_token).
+CREATE TABLE IF NOT EXISTS aisa_bridge.session_sites (
+    session_key TEXT PRIMARY KEY,
+    access_token TEXT NOT NULL,
+    site_token TEXT NOT NULL,
+    updated_at BIGINT NOT NULL
+);
+
 -- Guards against the duplicate-registration bug register.php used to have
 -- (always INSERT, never upsert by wp_url) -- makes the same wp_url
 -- impossible to register twice.
@@ -101,6 +111,7 @@ ALTER TABLE aisa_bridge.oauth_clients DISABLE ROW LEVEL SECURITY;
 ALTER TABLE aisa_bridge.site_switch_log DISABLE ROW LEVEL SECURITY;
 ALTER TABLE aisa_bridge.client_sites DISABLE ROW LEVEL SECURITY;
 ALTER TABLE aisa_bridge.pending_connections DISABLE ROW LEVEL SECURITY;
+ALTER TABLE aisa_bridge.session_sites DISABLE ROW LEVEL SECURITY;
 
 -- Dedicated role for the app itself, scoped to only this schema -- so this
 -- bridge can share a Supabase project with unrelated apps/data without any
