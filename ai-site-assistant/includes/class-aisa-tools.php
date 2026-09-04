@@ -1517,7 +1517,73 @@ class AISA_Tools {
 				$message .= ' WARNING: ' . $warning;
 			}
 		}
+		if ( isset( $update['post_content'] ) || isset( $update['post_title'] ) ) {
+			$wpml_warning = self::wpml_translation_warning( $id );
+			if ( $wpml_warning ) {
+				$message .= ' WARNING: ' . $wpml_warning;
+			}
+		}
 		return array( 'content' => $message );
+	}
+
+	/**
+	 * Flag a content-write tool call that landed on a WPML-linked post with
+	 * sibling translations, so the model (and whoever reads the audit log)
+	 * sees a heads-up instead of silently overwriting one language while
+	 * believing it just "translated" the post. Clients reported AISA
+	 * overwriting a post's original-language content when asked to
+	 * translate it -- root cause was writing directly to the post ID the
+	 * user gave (the source-language post) instead of the separate,
+	 * WPML-linked post for the target language. Advisory only, same as
+	 * page_builder_warning() -- a legitimate same-language edit of a post
+	 * that happens to have translations is completely normal and should
+	 * not be blocked, just flagged so a translation task double-checks it
+	 * is writing to the right post ID.
+	 *
+	 * @param int $post_id Post ID that was just written to.
+	 * @return string|null Warning message, or null if nothing to flag.
+	 */
+	private static function wpml_translation_warning( $post_id ) {
+		if ( ! defined( 'ICL_SITEPRESS_VERSION' ) ) {
+			return null;
+		}
+		global $wpdb;
+		$table = $wpdb->prefix . 'icl_translations';
+		// phpcs:ignore WordPress.DB.DirectDatabaseQuery.DirectQuery, WordPress.DB.DirectDatabaseQuery.NoCaching
+		$trid = $wpdb->get_var(
+			$wpdb->prepare(
+				"SELECT trid FROM {$table} WHERE element_id = %d AND element_type LIKE %s LIMIT 1", // phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared
+				$post_id,
+				'post_%'
+			)
+		);
+		if ( ! $trid ) {
+			return null; // Not a WPML-managed post type, or WPML not actually configured for it.
+		}
+		// phpcs:ignore WordPress.DB.DirectDatabaseQuery.DirectQuery, WordPress.DB.DirectDatabaseQuery.NoCaching
+		$rows = $wpdb->get_results(
+			$wpdb->prepare(
+				"SELECT language_code, element_id FROM {$table} WHERE trid = %d", // phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared
+				$trid
+			)
+		);
+		if ( count( $rows ) < 2 ) {
+			return null; // No sibling translations exist -- nothing to overwrite by mistake.
+		}
+		$others = array();
+		foreach ( $rows as $row ) {
+			if ( (int) $row->element_id !== (int) $post_id ) {
+				$others[] = $row->language_code . ' (#' . (int) $row->element_id . ')';
+			}
+		}
+		if ( ! $others ) {
+			return null;
+		}
+		return 'This post is WPML-linked to ' . count( $others ) . ' translation(s) in other languages: '
+			. implode( ', ', $others ) . '. This write only changed THIS post\'s own language-version -- '
+			. 'it did not translate anything into another language. If the task was to translate content, '
+			. 'the target language already has its OWN separate post ID (listed above) -- write the '
+			. 'translation there, and never paste translated text over this post\'s original content.';
 	}
 
 	/**
@@ -2086,6 +2152,10 @@ class AISA_Tools {
 		if ( $verbatim_warning ) {
 			$message .= ' WARNING: ' . $verbatim_warning;
 		}
+		$wpml_warning = self::wpml_translation_warning( $id );
+		if ( $wpml_warning ) {
+			$message .= ' WARNING: ' . $wpml_warning;
+		}
 		return array( 'content' => $message );
 	}
 
@@ -2133,6 +2203,10 @@ class AISA_Tools {
 		$verbatim_warning = self::verify_stored_verbatim( $id, $html );
 		if ( $verbatim_warning ) {
 			$message .= ' WARNING: ' . $verbatim_warning;
+		}
+		$wpml_warning = self::wpml_translation_warning( $id );
+		if ( $wpml_warning ) {
+			$message .= ' WARNING: ' . $wpml_warning;
 		}
 		return array( 'content' => $message );
 	}

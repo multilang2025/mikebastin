@@ -40,6 +40,8 @@ class AISA_Skills {
 		'site_reports'     => 'Build a periodic performance report for a specific site, combining GA4 + Search Console + Ahrefs data.',
 		'delaguialuzon_monthly_report' => 'Cross-source monthly report for Delaguía y Luzón Abogados: Formidable leads + GSC + GA4, with honest cross-checks. No Ahrefs.',
 		'site_checkup'     => 'Run a full Lighthouse checkup (performance/accessibility/best practices/SEO) and fix what it finds.',
+		'multi_site_workflow' => 'How to switch_site safely, and what to do when multiple chats are running against different sites at once.',
+		'wpml_translations' => 'NO-GO: never overwrite original/existing content during a translation task unless explicitly told to -- find or create the correct WPML-linked post first.',
 	);
 
 	/**
@@ -467,6 +469,63 @@ class AISA_Skills {
 				. 'work against a page still behind a maintenance-mode gate, HTTP auth, or IP allowlist. '
 				. 'Works without a PageSpeed API key at a lower rate limit; if checkups are being run '
 				. 'often, tell the user they can add one in Settings to raise the limit.',
+			'wpml_translations' => 'WPML TRANSLATIONS: load this before writing ANY content for a "translate '
+				. 'this to French/Spanish/etc" (or similar multilingual) task on a WPML site. Clients have '
+				. 'been burned by AISA overwriting a post\'s ORIGINAL-language content with the translation '
+				. 'instead of actually creating/updating the separate translated post -- because update_post/'
+				. 'replace_in_post/append_to_post write to whatever post ID you give them, and the post ID '
+				. 'the user hands you (or that search_posts returns first) is very often the SOURCE-language '
+				. 'post, not the target-language one.'
+				. "\n\n"
+				. 'NO-GO, NO EXCEPTIONS: never overwrite, replace, or rewrite a post\'s EXISTING content -- in '
+				. 'any language, original or already-translated -- as a byproduct of a translation task, '
+				. 'unless the user EXPLICITLY told you to overwrite that specific post. "Translate the '
+				. 'Cabarete listing to Spanish" is a request to produce Spanish content; it is NOT permission '
+				. 'to overwrite whatever post you land on, and it is NOT permission to overwrite the French '
+				. 'original either, even "to keep things in sync." If you are not certain a write target is '
+				. 'the correct one and the user has not explicitly named that exact post ID as the one to '
+				. 'overwrite, STOP and ask, or create a new post instead (see below) -- never guess your way '
+				. 'into a write. This applies even when a post looks "wrong" or "outdated" mid-task (mixed '
+				. 'languages, stale content) -- flag it and ask, per the language-mismatch handling already '
+				. 'established this project, rather than silently "fixing" it by overwriting.'
+				. "\n\n"
+				. 'BEFORE WRITING, ALWAYS FIND THE RIGHT POST ID FIRST. WPML links every language version of '
+				. 'the same content together via a shared "trid" in {prefix}icl_translations. Use db_query '
+				. '(see the db_admin skill) to look it up:'
+				. "\n"
+				. '  SELECT language_code, element_id FROM {prefix}icl_translations WHERE trid = ('
+				. "\n"
+				. '    SELECT trid FROM {prefix}icl_translations WHERE element_id = <post_id_you_were_given> '
+				. "AND element_type LIKE 'post_%' LIMIT 1"
+				. "\n"
+				. '  )'
+				. "\n"
+				. 'This returns every language\'s own separate post ID for the same piece of content. Find '
+				. 'the row whose language_code matches the TARGET language you were asked to translate INTO.'
+				. "\n\n"
+				. 'IF THE TARGET LANGUAGE ALREADY HAS ITS OWN POST: write the translation there (get_post on '
+				. 'that ID, then update_post/replace_in_post as normal). Never write translated text into '
+				. 'the source post\'s ID -- that overwrites the original language for every visitor viewing '
+				. 'that language, not a translation.'
+				. "\n\n"
+				. 'IF THE TARGET LANGUAGE HAS NO POST YET: this needs a NEW post, not an edit of the '
+				. 'existing one. create_post a fresh draft with the translated content, then tell the user '
+				. 'it still needs to be linked as a WPML translation of the original (WPML\'s own linking UI '
+				. 'in wp-admin, or an icl_translations INSERT if the user explicitly asks for that -- db_query '
+				. 'is read-only, so this bridge cannot perform that INSERT itself). Do not silently assume '
+				. 'linking happened.'
+				. "\n\n"
+				. 'A safety net exists in the tools themselves: update_post/replace_in_post/append_to_post '
+				. 'now return a WARNING whenever the post you just wrote to has sibling WPML translations in '
+				. 'other languages, naming their post IDs. If that warning appears after a translation task, '
+				. 'STOP -- it almost certainly means the write landed on the wrong language\'s post. Re-check '
+				. 'which ID you meant to target using the query above, and undo/fix the mistaken write if the '
+				. 'wrong post was just changed.'
+				. "\n\n"
+				. 'This applies to Polylang-managed sites the same way in spirit, but Polylang stores '
+				. 'translation links differently ({prefix}term_relationships against a language taxonomy, '
+				. 'not icl_translations) -- if a site turns out to be Polylang rather than WPML, use db_query '
+				. 'to inspect that schema instead before assuming the icl_translations query above applies.',
 		);
 		if ( isset( $bodies[ $name ] ) ) {
 			return $bodies[ $name ];

@@ -3,7 +3,7 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
-Stable tag: 2.2.0
+Stable tag: 2.3.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -155,6 +155,10 @@ Tips:
   gate on more precisely.
 
 == Changelog ==
+= 2.3.0 =
+* Added a WPML safety net: update_post/replace_in_post/append_to_post now warn when the post just written to has sibling translations in other languages, so a translation task that accidentally lands on the wrong language's post ID gets caught instead of silently overwriting the original content. New wpml_translations skill documents how to find the correct target post ID via icl_translations before writing.
+* Added a multi_site_workflow skill covering the new per-chat switch_site isolation (bridge v3.4+): pass chat_id on every AISA tool call when multiple chats may be using the same connection, so switching sites in one chat can't silently redirect another chat's calls.
+
 = 2.2.0 =
 * Added a version tag to the MCP Connector page header in wp-admin, next to the Connected/Not connected status pill, so you can see which plugin version is running without checking the Plugins screen.
 
