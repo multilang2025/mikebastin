@@ -543,11 +543,17 @@ function execute_tool($site, $name, $args, $sites = null, $bearer = null, &$targ
     }
 
     // Per-call override: `{site: "..."}` targets this one call only and is
-    // never persisted to oauth_tokens — mirrors the GSC/GA4 `site` argument
-    // pattern. Stripped before forwarding so the bridge-only key never leaks
-    // into the WordPress REST payload.
+    // never persisted to oauth_tokens. NOT applied to tools that already
+    // define their own `site` argument with a different meaning (a GSC/GA4
+    // *property* to query, not a different registered WordPress site) --
+    // those values would otherwise get swallowed here and run through
+    // resolve_site() against the WP site registry, which almost never
+    // matches a GSC/GA4 property string, silently breaking the cross-domain
+    // query the plugin actually supports. See gsc_top_pages/gsc_page_queries/
+    // gsc_page_report/ga_traffic_overview/ga_top_pages in class-aisa-tools.php.
+    $site_owning_tools = ['gsc_top_pages', 'gsc_page_queries', 'gsc_page_report', 'ga_traffic_overview', 'ga_top_pages'];
     $call_site = $site;
-    if (!empty($args['site'])) {
+    if (!empty($args['site']) && !in_array($name, $site_owning_tools, true)) {
         $call_site = resolve_site($args['site'], $sites);
         $target_site = $call_site;
         unset($args['site']);
@@ -1174,7 +1180,16 @@ function inject_site_arg($tools, $skip = []) {
         if ($props instanceof stdClass) {
             $props = (array) $props;
         }
-        $props['site'] = site_arg_schema();
+        // Don't clobber a tool's own `site` property (gsc_top_pages,
+        // ga_top_pages, etc. already define one with a different meaning --
+        // a GSC/GA4 property to query, not a different registered WP site).
+        // execute_tool() already knows to skip its per-call override for
+        // those same tools; this keeps the *schema* description consistent
+        // with that so the model isn't told the wrong thing about what the
+        // argument does.
+        if (!isset($props['site'])) {
+            $props['site'] = site_arg_schema();
+        }
         $props['chat_id'] = chat_id_arg_schema();
         $schema['properties'] = $props;
         $tool['inputSchema'] = $schema;
