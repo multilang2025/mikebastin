@@ -29,7 +29,7 @@ Every one of these was checked individually against live GSC data before being l
 | `roi-of-website-localisation` | 2 | 2 impressions in 450 days. The website-localisation service page already makes this case, with an offer behind it. |
 | `cultural-differences-in-multilingual-websites` | 26 | 26 impressions in 450 days. Topic is already the multilingual-content service's job. |
 | `language-data-analysis` | 27 | 27 impressions in 450 days. Vague premise ("what language data even is"), not tied to AI or marketing despite the slug -- no page it naturally belongs under. |
-| `optimise-a-google-business-profile` | 33 | 33 impressions in 450 days, 0 clicks. The local-seo service (already consolidated into technical-seo) covers this. |
+| `optimise-a-google-business-profile` | 33 | 33 impressions in 450 days, 0 clicks. Covers ground the local-seo service now owns (see correction below). |
 | `how-to-make-money-on-youtube` | 18 | 18 impressions in 450 days, 0 clicks, position 56-99. Owner confirmed (6 Sep): no experience in that space, "something I have to work on" -- a decision about the business, not just the traffic. |
 
 **301 target for the confirmed REMOVE list: `/blog/` or `/services/`, whichever the redirect implementation lands on** -- these have no natural single successor, so a hub is the honest destination rather than inventing a false match. Not yet wired into an .htaccess rule; that's a follow-up once you confirm the list.
@@ -38,8 +38,27 @@ Every one of these was checked individually against live GSC data before being l
 
 | Post | Impressions/450d | Merges into | Reason |
 |---|---:|---|---|
-| `boosting-local-seo` | 4 | `/optimise-a-google-business-profile/` | 4 impressions in 450 days. Same cluster as optimise-a-google-business-profile -- one post, not two. |
+| `boosting-local-seo` | 4 | `/services/local-seo/` | 4 impressions in 450 days. Same cluster as optimise-a-google-business-profile, which is retiring to the same page in this batch -- pointed directly at local-seo rather than chaining through a post about to disappear. |
 | `long-tail-keywords` | 0 | `/multilingual-keyword-research/` | 0 impressions in 450 days (GSC: no_matching_rows). multilingual-keyword-research already owns this topic, with 2,852 impressions. |
+
+## Second correction (owner, 6 Sep): local-seo gets its own service page
+
+`optimise-a-google-business-profile` and `boosting-local-seo` were both
+pointed at `/services/technical-seo/`, because the original service
+consolidation (`CONTENT-ARCHITECTURE.md` section 3) folded `local-seo`
+into `technical-seo`'s "Supporting" catch-all. The owner corrected this:
+local and off-site visibility work (Google Business Profile, citations,
+the map pack) is a different subject from `technical-seo`'s actual remit
+(crawlability, indexation, hreflang), and the two should never have shared
+a page. `local-seo` now has its own live service page (`lib/services.ts`,
+Search cluster), restored from the harvested `content/en/services/local-seo.md`
+(and its FR/ES siblings) rather than superseded, and both posts above now
+301 there instead. `docs/CONTENT-ARCHITECTURE.md` section 3 updated to
+match. The same correction added GEO/AEO as a new AI-cluster pillar
+(`generative-engine-optimization`), at the owner's explicit request for a
+core service rather than a blog topic with no page of its own -- unrelated
+to this audit's REMOVE/MERGE list, noted here only because it landed in
+the same pass.
 
 ## RELOCATE -- Valencia exodus (already decided, tracked separately)
 

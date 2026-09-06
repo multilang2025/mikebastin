@@ -55,7 +55,14 @@ const SUPERSEDED_EN = new Set([
   "ai-consulting-services", "post-ai-editing",
   // absorbed into /services/technical-seo/
   "on-page-seo", "keyword-research", "analytics-and-tracking", "english-seo",
-  "link-building", "local-seo",
+  "link-building",
+  // local-seo is deliberately absent. It was in this set until 6 Sep, when
+  // the owner corrected it: local/off-site visibility (Google Business
+  // Profile, citations, the map pack) is a different subject from
+  // technical-seo's crawlability/indexation/hreflang remit, and dumping it
+  // into technical-seo's "Supporting" catch-all was a category error, not
+  // a consolidation. local-seo now has its own page (lib/services.ts,
+  // Search cluster), so it is kept, not superseded.
   // absorbed into /services/multilingual-content/
   "multilingual-seo-copywriting", "cultural-consulting", "multilingual-social-media-management",
   // retired to Globaprom

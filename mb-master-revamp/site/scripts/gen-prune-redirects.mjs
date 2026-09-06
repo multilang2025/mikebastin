@@ -18,8 +18,12 @@
  * One rule worth keeping visible: no redirect chains. boosting-local-seo's
  * natural merge target is optimise-a-google-business-profile, but that
  * post is itself retiring in the same batch, so it points straight at
- * that post's own final destination (/services/technical-seo/) rather
- * than a 301 to a page that is about to stop existing.
+ * that post's own final destination rather than a 301 to a page that is
+ * about to stop existing. That destination changed once already: both
+ * posts first pointed at /services/technical-seo/, because that is where
+ * local-seo lived before the owner corrected it on 6 Sep (off-site/local
+ * visibility work is not technical-seo's subject). Both now point at
+ * /services/local-seo/, the page that correction created.
  */
 import { readFileSync, writeFileSync } from "fs";
 
@@ -36,9 +40,9 @@ const TARGETS = {
   "roi-of-website-localisation": ["/services/website-localisation/", "The website-localisation service page already makes this case, with an offer behind it."],
   "cultural-differences-in-multilingual-websites": ["/services/multilingual-content/", "Topic is already the multilingual-content service's job."],
   "language-data-analysis": ["/blog/", "Vague premise, not tied to AI or marketing despite the slug; no page it naturally belongs under."],
-  "optimise-a-google-business-profile": ["/services/technical-seo/", "local-seo was consolidated into technical-seo; that page covers this ground now."],
+  "optimise-a-google-business-profile": ["/services/local-seo/", "Owner correction 6 Sep: this is off-site/local visibility work, not technical-seo. local-seo has its own page now."],
   "how-to-make-money-on-youtube": ["/blog/", "Owner confirmed 6 Sep: no experience in that space, nothing on the site to point it at."],
-  "boosting-local-seo": ["/services/technical-seo/", "Same cluster as optimise-a-google-business-profile, which is retiring to this same page in this batch -- pointed directly here rather than chaining through a post that is about to disappear."],
+  "boosting-local-seo": ["/services/local-seo/", "Owner correction 6 Sep: this is off-site SEO, not technical-seo. Same cluster as optimise-a-google-business-profile, which is retiring to the same page in this batch -- pointed directly here rather than chaining through a post that is about to disappear."],
   "long-tail-keywords": ["/multilingual-keyword-research/", "multilingual-keyword-research already owns this topic, with 2,852 impressions, and stays live."],
 };
 

@@ -344,12 +344,24 @@ through slug similarity.
 
 ---
 
-## 3. Service consolidation: 43 to 16
+## 3. Service consolidation: 43 to 19
 
 Koray's rule is one page, one query network, covered completely. One
 consultant cannot cover 43 query networks properly, which is why all 43 are
 thin. Consolidate to what can genuinely be covered, keeping every page that
 already carries proven demand.
+
+**Two corrections since the count below was first written (owner, 6 Sep),
+recorded here rather than silently changing the number.** First,
+`local-seo` was pulled back out of `technical-seo`'s absorb list into its
+own page: local/off-site visibility (Google Business Profile, citations,
+the map pack) is a different subject from `technical-seo`'s crawlability
+and hreflang remit, and folding it in there was a category error, not a
+consolidation. Second, GEO/AEO was added as a new AI-cluster pillar at the
+owner's explicit request for a core service, not a blog topic with no page
+of its own. Net effect: 16 becomes 18 (plus 1 already-open item below,
+`multilingual-sem`'s cluster reassignment, unaffected by this), so the
+count in this heading is 19, not the 16 the original plan called for.
 
 ### Core cluster 1: Multilingual lead generation (the product)
 
@@ -373,8 +385,9 @@ services below are how this cluster delivers.
 | `/services/dutch-seo/` | keep | Feeds the Bemelman case study |
 | `/services/italian-seo/` | keep | Completes the grid |
 | `/services/portuguese-seo/` | keep | Completes the grid |
+| `/services/local-seo/` | local-seo | Added back 6 Sep, corrected out of technical-seo. Off-site/local visibility (GBP, citations, map pack) for multilingual cities, not a language variant but the same shape of page: one distinct, ownable query network |
 
-Six language pages on one template is a scalable set and each owns a clean,
+Six language pages plus local-seo is a scalable set and each owns a clean,
 distinct query network. Keep the grid complete rather than trimming it.
 
 ### Core cluster 3: Localisation and translation
@@ -395,12 +408,13 @@ it, once the pillar ranks.
 |---|---|
 | `/services/ai-consulting/` **PILLAR** | ai-consulting-services |
 | `/services/ai-translation-and-post-editing/` | post-ai-editing |
+| `/services/generative-engine-optimization/` **PILLAR** | new -- added 6 Sep, owner's explicit request: GEO/AEO as a core service, not a blog topic (generative-engine-optimization.md) with no page of its own. Visibility inside AI answers, not classic ranking |
 
 ### Core cluster 5: Supporting capability
 
 | New page | Absorbs |
 |---|---|
-| `/services/technical-seo/` | on-page-seo, keyword-research, analytics-and-tracking, english-seo, link-building, local-seo |
+| `/services/technical-seo/` | on-page-seo, keyword-research, analytics-and-tracking, english-seo, link-building |
 | `/services/multilingual-content/` | multilingual-seo-copywriting, cultural-consulting, multilingual-sem, multilingual-social-media-management |
 
 ### Retired from services
@@ -410,8 +424,9 @@ consultancy. 301 both to `/services/multilingual-seo/` and carry a
 contextual network link to globaprom.com per the linking policy in
 `HANDOFF.md` §19.
 
-**Result: 43 to 16.** Every absorbed slug 301s to its absorbing page in the
-same locale, per the sales-page rule in `HANDOFF.md` §16.
+**Result: 43 to 19** (16 as originally planned, plus local-seo restored
+and GEO/AEO added, both 6 Sep). Every absorbed slug 301s to its absorbing
+page in the same locale, per the sales-page rule in `HANDOFF.md` §16.
 
 ---
 
@@ -444,8 +459,14 @@ spanish-keyword-localisation, technical-seo-for-spanish-search-engines,
 content-optimisation-for-spanish-users, spanish-seo-markets,
 link-building-in-spain, seo-in-belgium
 
-### Cluster C: AI and the future of search → `/services/ai-consulting/`
+### Cluster C: AI and the future of search → `/services/generative-engine-optimization/`
 **Pillar:** generative-engine-optimization
+
+Retargeted 6 Sep: this cluster's pillar post always was
+generative-engine-optimization, but the service it fed was ai-consulting,
+because no GEO/AEO service page existed yet. It does now (cluster 4
+above), so the cluster points at its own subject instead of borrowing a
+neighbour's page.
 
 search-everywhere-strategy, future-of-seo,
 how-ai-is-revolutionising-seo-strategies,
@@ -466,12 +487,18 @@ nowhere useful. Rebuilding it as a genuine flagship guide is the single
 highest-value content job in the project.
 
 competitor-analysis, technical-seo-audit-checklist, internal-linking-tools
-(1,372), long-tail-keywords, what-is-search-intent-mapping,
-seo-mistakes-to-avoid, chrome-extensions-for-seo,
+(1,372), what-is-search-intent-mapping,
+chrome-extensions-for-seo,
 link-selling-and-link-buying-platforms,
-how-to-create-a-targeted-content-strategy, affordable-seo-services,
-boosting-local-seo, optimise-a-google-business-profile,
+how-to-create-a-targeted-content-strategy,
 how-to-promote-your-local-business-on-google-maps, law-firm-seo-services
+
+Five of this cluster's original nodes are gone as of the 6 Sep blog prune
+audit (docs/BLOG-PRUNE-AUDIT.md): long-tail-keywords and seo-mistakes-to-avoid
+(no longer live), affordable-seo-services (retiring), and
+boosting-local-seo / optimise-a-google-business-profile (retiring, and
+wrongly placed here regardless -- local/off-site SEO was never this
+cluster's subject, see the local-seo correction above).
 
 law-firm-seo-services is the contextual bridge into the Delaguía y Luzón
 case study. Wire it deliberately.

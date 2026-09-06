@@ -1848,9 +1848,9 @@
    "group": "g080",
    "type": "service",
    "tier": null,
-   "action": "absorb",
+   "action": "migrate",
    "destination": "mdx",
-   "absorbed_into": "technical-seo",
+   "absorbed_into": null,
    "vm_action": null,
    "vm_target_url": null,
    "en": {

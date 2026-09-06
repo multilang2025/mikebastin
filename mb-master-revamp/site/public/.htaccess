@@ -66,8 +66,8 @@ RewriteRule ^fr/valencia-50-nuances-de-bruits/?$ https://valenciamove.com/fr/bru
 RewriteEngine On
 # Pricing overlap spans several consolidated services, not one; the services index is the honest hub.
 RewriteRule ^affordable-seo-services/?$ services/ [R=301,L]
-# Same cluster as optimise-a-google-business-profile, which is retiring to this same page in this batch -- pointed directly here rather than chaining through a post that is about to disappear.
-RewriteRule ^boosting-local-seo/?$ services/technical-seo/ [R=301,L]
+# Owner correction 6 Sep: this is off-site SEO, not technical-seo. Same cluster as optimise-a-google-business-profile, which is retiring to the same page in this batch -- pointed directly here rather than chaining through a post that is about to disappear.
+RewriteRule ^boosting-local-seo/?$ services/local-seo/ [R=301,L]
 # Topic is already the multilingual-content service's job.
 RewriteRule ^cultural-differences-in-multilingual-websites/?$ services/multilingual-content/ [R=301,L]
 # Owner confirmed 6 Sep: no experience in that space, nothing on the site to point it at.
@@ -78,8 +78,8 @@ RewriteRule ^language-data-analysis/?$ blog/ [R=301,L]
 RewriteRule ^language-service-providers/?$ services/ [R=301,L]
 # multilingual-keyword-research already owns this topic, with 2,852 impressions, and stays live.
 RewriteRule ^long-tail-keywords/?$ multilingual-keyword-research/ [R=301,L]
-# local-seo was consolidated into technical-seo; that page covers this ground now.
-RewriteRule ^optimise-a-google-business-profile/?$ services/technical-seo/ [R=301,L]
+# Owner correction 6 Sep: this is off-site/local visibility work, not technical-seo. local-seo has its own page now.
+RewriteRule ^optimise-a-google-business-profile/?$ services/local-seo/ [R=301,L]
 # The website-localisation service page already makes this case, with an offer behind it.
 RewriteRule ^roi-of-website-localisation/?$ services/website-localisation/ [R=301,L]
 # Generic listicle, no unique angle, no page it naturally belongs under.
