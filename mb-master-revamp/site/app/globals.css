@@ -355,3 +355,173 @@ h1, h2, h3, .display {
     transition-duration: .01ms !important;
   }
 }
+
+/* ===========================================================
+   Controls — buttons and form fields
+   ===========================================================
+
+   Ported from the Claude Design system export
+   (../design-system/components/{actions,forms}). Those ship as .jsx
+   with the styles inline and hover driven by React.useState, which is
+   the right shape for a prototype and the wrong one here: this site is
+   a static export with a Core Web Vitals budget, and shipping a client
+   component per button to do what :hover does natively would cost JS on
+   every page for no behaviour. The visual result is identical; the
+   states live in CSS and the components stay server components.
+
+   Everything reads tokens, so both bands are covered without a variant.
+   =========================================================== */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--sp-2);
+  font-family: var(--font-sans);
+  font-size: var(--fs-small);
+  font-weight: var(--fw-medium);
+  line-height: 1.2;
+  padding: 11px 22px;
+  border: var(--rule-w) solid transparent;
+  border-radius: var(--r-card);
+  cursor: pointer;
+  text-decoration: none;
+  transition:
+    background-color var(--dur-state) var(--ease),
+    border-color var(--dur-state) var(--ease),
+    color var(--dur-state) var(--ease),
+    transform 120ms var(--ease);
+}
+
+.btn-sm { padding: 8px 16px; font-size: var(--fs-caps); }
+.btn-lg { padding: 14px 28px; font-size: var(--fs-body); }
+.btn-full { width: 100%; }
+
+.btn:active:not(:disabled) { transform: translateY(1px); }
+
+.btn:disabled,
+.btn[aria-disabled="true"] {
+  opacity: .42;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.btn-primary {
+  background: var(--berry);
+  border-color: var(--berry);
+  color: #FFF;
+}
+.btn-primary:hover:not(:disabled) {
+  background: var(--berry-deep);
+  border-color: var(--berry-deep);
+}
+
+.btn-secondary {
+  background: transparent;
+  border-color: var(--rule);
+  color: var(--ink);
+}
+.btn-secondary:hover:not(:disabled) {
+  background: var(--berry-soft);
+  border-color: var(--berry);
+  color: var(--berry);
+}
+
+.btn-ghost {
+  background: transparent;
+  border-color: transparent;
+  color: var(--dim);
+}
+.btn-ghost:hover:not(:disabled) {
+  background: var(--shade);
+  color: var(--berry);
+}
+
+/* Fields ---------------------------------------------------- */
+
+.field { display: block; margin-bottom: var(--sp-5); }
+
+.field-label {
+  display: block;
+  margin-bottom: var(--sp-2);
+  font-size: var(--fs-meta);
+  font-weight: var(--fw-medium);
+  color: var(--ink);
+}
+
+.field-hint {
+  display: block;
+  margin-top: var(--sp-2);
+  font-size: var(--fs-small);
+  color: var(--dim);
+}
+
+/* The asterisk is decorative; the real signal is the required
+   attribute, which assistive tech already announces. */
+.field-required { color: var(--berry); margin-inline-start: 2px; }
+
+.control {
+  width: 100%;
+  font-family: var(--font-sans);
+  font-size: var(--fs-body);
+  font-weight: var(--fw-body);
+  line-height: 1.5;
+  color: var(--ink);
+  background: var(--shade);
+  border: var(--rule-w) solid var(--rule);
+  border-radius: var(--r-card);
+  padding: 11px 14px;
+  transition:
+    border-color var(--dur-state) var(--ease),
+    background-color var(--dur-state) var(--ease);
+}
+
+.control::placeholder { color: var(--dim); opacity: .75; }
+.control:hover:not(:disabled) { border-color: var(--silver); }
+
+.control:focus-visible {
+  border-color: var(--berry);
+  background: transparent;
+}
+
+.control:disabled { opacity: .5; cursor: not-allowed; }
+
+.control[aria-invalid="true"] { border-color: var(--berry); }
+
+textarea.control { min-height: 8.5rem; resize: vertical; }
+
+/* The native select arrow is inconsistent across platforms and cannot
+   be recoloured, so it is replaced with an inline SVG that uses the ink
+   token and therefore follows the band. */
+select.control {
+  appearance: none;
+  padding-right: 40px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1.5 6 6.5 11 1.5' fill='none' stroke='%2358707F' stroke-width='1.6' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 14px center;
+}
+
+.check {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--sp-3);
+  font-size: var(--fs-body-sm);
+  line-height: 1.5;
+  cursor: pointer;
+}
+
+.check input {
+  flex: none;
+  width: 18px;
+  height: 18px;
+  margin-top: 2px;
+  accent-color: var(--berry);
+  cursor: pointer;
+}
+
+.field-error {
+  display: block;
+  margin-top: var(--sp-2);
+  font-size: var(--fs-small);
+  color: var(--berry);
+}

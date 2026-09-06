@@ -39,7 +39,7 @@ export type Service = {
 
 const ENGAGEMENT = [
   "What we include in the engagement",
-  "My process in five steps, named deliverables",
+  "Our process in five steps, named deliverables",
   "What is included, what is not",
   "Frequently asked questions",
 ];
@@ -84,7 +84,7 @@ export const SERVICES: Service[] = [
     sections: [
       "Where most international SEO projects fail",
       "What we include in an international SEO engagement",
-      "My process in five steps, named deliverables",
+      "Our process in five steps, named deliverables",
       "Case studies",
       "What is included, what is not",
       "Frequently asked questions",
