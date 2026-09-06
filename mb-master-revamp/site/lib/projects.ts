@@ -30,6 +30,14 @@ export type Project = {
   angle: string;
   /** One or two sentences, used in the homepage spread and as the case study lede. */
   body: string;
+  /**
+   * SERP title and description for the case study page. `body` above runs
+   * long on several projects (built for the on-page spread, not a 140-160
+   * character snippet), so these are trimmed and written for the search
+   * result rather than reused verbatim.
+   */
+  metaTitle?: string;
+  metaDescription?: string;
   metrics: { v: string; k: string }[];
   problem: string;
   work: string;
@@ -50,6 +58,8 @@ export const PROJECTS: Project[] = [
     domain: "betranslated.com",
     angle: "Founded it, still run it",
     body: "A translation agency with six regional identities and a multi-TLD setup that has to rank separately in every one of them. Twenty years of learning what breaks when a brand tries to speak six languages at once.",
+    metaTitle: "BeTranslated, a multi-TLD case study",
+    metaDescription: "Twenty years running a translation agency across six regional TLDs, each ranking separately in its own market. See what that discipline required.",
     metrics: [
       { v: "6", k: "Regional TLDs" },
       { v: "20 yr", k: "Running it" },
@@ -70,6 +80,8 @@ export const PROJECTS: Project[] = [
     domain: "globaprom.com",
     angle: "Custom AI software",
     body: "Fixed scope, fixed price, delivered in weeks, multilingual from the first commit. Built the shipment tracking portal that took roughly three hours a day of status chasing out of a freight forwarder's week.",
+    metaTitle: "Globaprom, a custom AI software case study",
+    metaDescription: "Fixed scope, fixed price, delivered in weeks. See the shipment tracking portal that cut three hours a day of status chasing for a freight forwarder.",
     metrics: [
       { v: "3 h/day", k: "Saved on tracking" },
       { v: "10 h/wk", k: "On reconciliation" },
@@ -90,6 +102,8 @@ export const PROJECTS: Project[] = [
     domain: "txintlfreight.com",
     angle: "Houston industrial freight",
     body: "Technical SEO and content for a freight forwarder whose customers search in terms no marketer would guess. Learning the vocabulary was most of the work.",
+    metaTitle: "TX International Freight, a case study",
+    metaDescription: "Technical SEO and content for a Houston freight forwarder, built around the industry vocabulary its buyers actually search in, not textbook keywords.",
     metrics: [
       { v: "Houston", k: "Local pack" },
       { v: "EN", k: "Single market" },
@@ -110,6 +124,8 @@ export const PROJECTS: Project[] = [
     domain: "c21perdomo.com",
     angle: "Dominican real estate",
     body: "Four languages over a headless WordPress build with WPML and WooCommerce. Property listings that have to stay correct in every locale while stock turns over weekly.",
+    metaTitle: "Century 21 Perdomo, a case study",
+    metaDescription: "Four languages held correct across a headless WordPress, WPML and WooCommerce build, with property listings that turn over weekly. See how.",
     metrics: [
       { v: "4", k: "Languages" },
       { v: "Headless", k: "Architecture" },
@@ -131,6 +147,8 @@ export const PROJECTS: Project[] = [
     domain: "valenciamove.com",
     angle: "Expat relocation, first hand",
     body: "Over a thousand pages across five languages, written from actually having done the move rather than from a keyword tool. The Valencia content leaving mikebastin.com is heading here.",
+    metaTitle: "ValenciaMove, a case study",
+    metaDescription: "Over a thousand pages across five languages, written from having made the move to Valencia personally rather than from a keyword tool.",
     metrics: [
       { v: "1,132", k: "URLs" },
       { v: "5", k: "Locales" },
@@ -152,6 +170,8 @@ export const PROJECTS: Project[] = [
     domain: "bemelmanspuiterij.nl",
     angle: "Dutch powder coating, 45 years",
     body: "A specialist in Noordwijkerhout who had no web presence worth the name. Dutch local SEO for a trade where the buyers are other businesses and the search volume is small but decisive.",
+    metaTitle: "Bemelman Spuiterij, a case study",
+    metaDescription: "A Dutch powder coating specialist with forty five years of reputation and no web presence. See the local SEO built for its small, decisive market.",
     metrics: [
       { v: "45 yr", k: "Trading" },
       { v: "NL", k: "Local search" },
@@ -173,6 +193,8 @@ export const PROJECTS: Project[] = [
     domain: "delaguialuzon.com",
     angle: "Valencia law firm",
     body: "Legal, labour, immigration and tax across Spain and France, in four languages including Russian. Legal SEO where a mistranslated term is a liability, not a ranking problem.",
+    metaTitle: "Delaguía y Luzón, a case study",
+    metaDescription: "Legal SEO across four languages and two jurisdictions, where a mistranslated term is a liability, not a ranking problem. See how that gets handled.",
     metrics: [
       { v: "4", k: "Languages" },
       { v: "2", k: "Jurisdictions" },
@@ -194,6 +216,8 @@ export const PROJECTS: Project[] = [
     domain: "matosurf.com",
     angle: "French board sports",
     body: "Seven board sports, forty-eight French spots, a hundred and twenty guides. Friends in the line-up still call him the Silver Surfer, and the editorial method page there is the pattern this site borrows for its own credibility layer.",
+    metaTitle: "Matosurf, a case study",
+    metaDescription: "Seven board sports, forty eight French spots, over a hundred guides. See the editorial method page this site's own credibility layer borrows from.",
     metrics: [
       { v: "120+", k: "Guides" },
       { v: "48", k: "Spots" },

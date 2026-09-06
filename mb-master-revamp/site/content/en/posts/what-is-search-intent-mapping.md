@@ -88,20 +88,15 @@ Intent signals shift over time, particularly as AI Overviews reshape what appear
 
 Google’s ranking systems now prioritise intent satisfaction above almost every other signal.
 
-According to BrightEdge data, content that satisfies search intent accounts for approximately 23% of Google’s ranking weight.
-
-Pages ranking in the top 10 have 50% lower keyword density than those ranking two years ago.
-
-Keyword stuffing is dead.
+Keyword density as a ranking lever is dead.
 
 Intent alignment is what replaced it.
 
 Content matched to intent produces measurable results:
 
--   SEO converts 84.62% more users than PPC, according to FirstPageSage
--   SEO returns $22 for every $1 spent, per SmartInsights data
--   B2B SaaS companies report an average SEO ROI of 702%
--   Featured snippets, which depend entirely on intent alignment, achieve a 42.9% click-through rate
+-   SEO converts 84.62% more users than PPC, according to [First Page Sage's conversion rate research](https://firstpagesage.com/reports/seo-vs-ppc-statistics-conversion-rates-compared-fc/)
+-   SEO returns $22 for every $1 spent, per Smart Insights data
+-   Featured snippets, which depend entirely on intent alignment, earn a disproportionate share of clicks even at lower average positions
 
 Ignoring intent produces the opposite.
 
@@ -111,11 +106,11 @@ High bounce rates, weak dwell time, and declining positions follow content that 
 
 AI has moved from theoretical to operational in content strategy.
 
-In 2025, 85% of marketers report using AI tools for content creation, and 64% believe AI-generated content performs as well or better than manually written material.
+Most marketers now use AI tools somewhere in content creation, and a good number believe AI-generated content performs as well as manually written material when it is well briefed.
 
 Over one-third of companies now use AI specifically for content planning and on-page SEO strategy.
 
-AI-generated content accounts for 17.3% of content in Google’s top 20 search results, up from 2.3% in 2020, according to Originality.ai.
+AI-generated content accounts for around 17% of content in Google’s top 20 search results, up from around 2% in 2019, according to [Originality.ai’s ongoing tracking study](https://originality.ai/ai-content-in-google-search-results).
 
 Where AI adds genuine value in intent mapping:
 

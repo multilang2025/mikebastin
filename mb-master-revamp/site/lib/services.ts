@@ -33,6 +33,15 @@ export type Service = {
   pillar?: boolean;
   angle: string;
   lede: string;
+  /**
+   * SERP-facing title and description, written for the search snippet
+   * rather than reused from `lede` (which is on-page display copy, sized
+   * and worded for the hero, not a 140-160 character SERP hook). Optional
+   * fallbacks (name + generic phrasing) exist in generateMetadata for any
+   * service without one, but every service below carries its own.
+   */
+  metaTitle?: string;
+  metaDescription?: string;
   /** Section headings, from the refreshed source pages where they exist. */
   sections: string[];
   /** Legacy slugs this page absorbs, each 301ing in the same locale. */
@@ -65,6 +74,8 @@ export const SERVICES: Service[] = [
     pillar: true,
     angle: "The outcome, not the mechanism",
     lede: "Multilingual SEO, localisation and AI consulting are the mechanisms. Enquiries are the product, and enquiries are what gets counted.",
+    metaTitle: "Multilingual lead generation, Mike Bastin",
+    metaDescription: "Multilingual SEO, localisation and AI consulting are the mechanisms behind one outcome, enquiries. See how the engagement measures and delivers them.",
     sections: ["What gets measured", "How it is delivered", "The evidence", ...ENGAGEMENT.slice(2)],
   },
   {
@@ -73,6 +84,8 @@ export const SERVICES: Service[] = [
     cluster: "Lead generation",
     angle: "Paid demand capture across languages",
     lede: "Reaching the buyer who has not found you organically yet, in the language they searched in, without letting a single blended campaign quietly subsidise one market from another.",
+    metaTitle: "Multilingual SEM services, Mike Bastin",
+    metaDescription: "Paid search that reaches buyers in the language they searched in, market by market, so one blended campaign never quietly subsidises another.",
     sections: ["Three patterns that drain ad budgets", ...ENGAGEMENT],
   },
   {
@@ -81,6 +94,8 @@ export const SERVICES: Service[] = [
     cluster: "Lead generation",
     angle: "The evidence layer, per locale",
     lede: "Measuring enquiries per locale rather than per domain. Without it, a market that converts and a market that only gets traffic look identical in the reporting.",
+    metaTitle: "Conversion tracking per locale, Mike Bastin",
+    metaDescription: "Enquiries measured per locale, not per domain, so a market that converts and one that only gets traffic finally look different in the reporting.",
     sections: ["Why a single blended number hides the problem", ...ENGAGEMENT],
     absorbs: ["analytics-and-tracking"],
   },
@@ -93,6 +108,8 @@ export const SERVICES: Service[] = [
     pillar: true,
     angle: "The engine underneath the outcome",
     lede: "Strategic piloting on our side, native writing per language, with hreflang and schema configured from the brief rather than patched in later.",
+    metaTitle: "International SEO consulting, Mike Bastin",
+    metaDescription: "International SEO with hreflang and schema built into the brief, native writing per language, and strategic piloting that catches mistakes early.",
     sections: [
       "Where most international SEO projects fail",
       "What we include in an international SEO engagement",
@@ -110,6 +127,8 @@ export const SERVICES: Service[] = [
     cluster: "Search",
     angle: "The primary market",
     lede: "France carries 1,850 of the 2,390 monthly searches measured across the whole francophone core, at a difficulty score of 0 to 2. Belgium and Switzerland are where the network is, not where the search volume is.",
+    metaTitle: "French SEO services, Mike Bastin",
+    metaDescription: "France carries most of the francophone search volume in this market, at low difficulty. See what a proper French SEO engagement covers.",
     sections: ["Three ways to fail at French SEO", ...ENGAGEMENT],
     gsc: { impressions: 3093, position: 43.7, keywords: 40 },
     needsRefresh:
@@ -126,6 +145,8 @@ export const SERVICES: Service[] = [
     cluster: "Search",
     angle: "Precision market",
     lede: "German buyers research further before enquiring than most markets, so the page that wins is the one that answers the question rather than the one that ranks loudest.",
+    metaTitle: "German SEO services, Mike Bastin",
+    metaDescription: "German buyers research longer before enquiring than most markets. See the SEO approach built to answer the question, not just rank for it.",
     sections: ["Three ways to fail at German SEO", ...ENGAGEMENT],
     gsc: { impressions: 1938, position: 57.3, keywords: 38 },
     demand: {
@@ -140,6 +161,8 @@ export const SERVICES: Service[] = [
     cluster: "Search",
     angle: "Proximity market",
     lede: "Spain from Spain. The Valencia base is not a line in a bio, it is why the local search behaviour is familiar rather than researched.",
+    metaTitle: "Spanish SEO from Valencia, Mike Bastin",
+    metaDescription: "Spanish SEO run from Valencia, Spain, not researched from abroad. See why the local search behaviour here is familiar rather than guessed at.",
     sections: ["Three ways to fail at Spanish SEO", ...ENGAGEMENT],
     demand: {
       volume: 2100,
@@ -153,6 +176,8 @@ export const SERVICES: Service[] = [
     cluster: "Search",
     angle: "Small volume, decisive buyers",
     lede: "Dutch trade search is low in volume and high in intent, which rewards covering a narrow thing properly over covering a broad thing thinly. Bemelman Spuiterij is the worked example.",
+    metaTitle: "Dutch SEO for trade buyers, Mike Bastin",
+    metaDescription: "Dutch trade search is low volume and high intent. See how covering one narrow query network properly beats a broad one covered thinly.",
     sections: ["Three ways to fail at Dutch SEO", ...ENGAGEMENT],
     demand: {
       volume: 800,
@@ -166,6 +191,8 @@ export const SERVICES: Service[] = [
     cluster: "Search",
     angle: "Completing the grid",
     lede: "Italian search rewards editorial quality more than most markets, and punishes translated-from-English copy faster.",
+    metaTitle: "Italian SEO services, Mike Bastin",
+    metaDescription: "Italian search rewards editorial quality and punishes translated-from-English copy fast. See the SEO approach built for that market.",
     sections: ["Three ways to fail at Italian SEO", ...ENGAGEMENT],
     gsc: { impressions: 1304, position: 45.3, keywords: 33 },
     demand: {
@@ -180,6 +207,8 @@ export const SERVICES: Service[] = [
     cluster: "Search",
     angle: "Two markets, one language",
     lede: "Portugal and Brazil are not one market with one keyword set, and treating them as one is the mistake that makes Portuguese look harder than it is.",
+    metaTitle: "Portuguese SEO, Portugal and Brazil",
+    metaDescription: "Portugal and Brazil are two markets, not one keyword set. See why treating them separately is what makes Portuguese SEO actually work.",
     sections: ["Three ways to fail at Portuguese SEO", ...ENGAGEMENT],
     demand: {
       volume: 1150,
@@ -195,6 +224,8 @@ export const SERVICES: Service[] = [
     cluster: "Search",
     angle: "Off-site, one location at a time",
     lede: "Google Business Profile, citations, NAP consistency and the map pack, for multilingual cities where the same street gets searched in more than one language. Discipline and consistency, not tricks.",
+    metaTitle: "Local SEO and Google Business Profile",
+    metaDescription: "Google Business Profile, citations and NAP consistency, built for multilingual cities where one street gets searched in more than one language.",
     sections: [
       "Google Business Profile audit and full optimisation",
       "Citation cleanup and NAP consistency across directories",
@@ -211,6 +242,8 @@ export const SERVICES: Service[] = [
     pillar: true,
     angle: "Beyond translated strings",
     lede: "Making a site work in a market rather than merely readable in a language, which is a question of currency, form fields, trust signals and search behaviour as much as words.",
+    metaTitle: "Website localisation, Mike Bastin",
+    metaDescription: "Making a site work in a market, not just readable in a language, covering currency, form fields, trust signals and local search behaviour.",
     sections: ["Why localisation is not translation", ...ENGAGEMENT],
     absorbs: [
       "content-localisation", "localisation-testing", "multilingual-cms-integration",
@@ -224,6 +257,8 @@ export const SERVICES: Service[] = [
     pillar: true,
     angle: "Where accuracy is a liability question",
     lede: "Legal, medical, financial, academic and certified work, where a mistranslated term is not a ranking problem but an exposure. Delivered through the BeTranslated network, run for twenty years.",
+    metaTitle: "Translation services, Mike Bastin",
+    metaDescription: "Legal, medical, financial and certified translation, delivered through the BeTranslated network run for twenty years. Accuracy as a liability question.",
     sections: ["Where a translation error actually costs", ...ENGAGEMENT],
     absorbs: [
       "business-translation", "medical-translation", "academic-translation", "financial-translation",
@@ -237,6 +272,8 @@ export const SERVICES: Service[] = [
     cluster: "Localisation",
     angle: "Strings, and everything around them",
     lede: "Interface text that has to survive being twice as long in German, right to left in Arabic, and reviewed by an app store in a language nobody on the team reads.",
+    metaTitle: "App and software localisation",
+    metaDescription: "Software and app localisation for interface text that survives being longer in German, right to left in Arabic, and reviewed by an app store.",
     sections: ["What breaks when software crosses a language", ...ENGAGEMENT],
     absorbs: ["app-localisation", "software-internationalisation", "multimedia-localisation"],
   },
@@ -249,6 +286,8 @@ export const SERVICES: Service[] = [
     pillar: true,
     angle: "The differentiator",
     lede: "Where AI genuinely shortens multilingual work, and where it quietly produces text that reads fine and ranks for nothing. Knowing the difference is the service.",
+    metaTitle: "AI consulting for multilingual SEO",
+    metaDescription: "Where AI genuinely shortens multilingual work, and where it quietly produces text that reads fine and ranks for nothing. Knowing the difference.",
     sections: ["Where AI helps, and where it does not", ...ENGAGEMENT],
     absorbs: ["ai-consulting-services"],
   },
@@ -258,6 +297,8 @@ export const SERVICES: Service[] = [
     cluster: "AI",
     angle: "Machine first, human decisive",
     lede: "Machine translation has become good enough to be dangerous: fluent output that is confidently wrong is harder to catch than obviously broken output.",
+    metaTitle: "AI translation and post-editing",
+    metaDescription: "Machine translation is now good enough to be dangerous, fluent and confidently wrong. See the post-editing process built to catch it.",
     sections: ["Why fluent output is the harder problem", ...ENGAGEMENT],
     absorbs: ["post-ai-editing"],
   },
@@ -269,6 +310,8 @@ export const SERVICES: Service[] = [
     pillar: true,
     angle: "Cited inside the answer, not just ranked below it",
     lede: "ChatGPT, Perplexity and Google's AI Overviews answer a question directly and name a small number of sources while doing it. Structured data, citation-worthy claims and a presence across the platforms people actually ask, so the answer names you.",
+    metaTitle: "GEO and AEO: cited by AI answers",
+    metaDescription: "ChatGPT, Perplexity and Google AI Overviews name a small number of sources when they answer. See what it takes to be named as one of them.",
     sections: [
       "Answer-shaped content: claims a model can quote and cite",
       "Schema and structured data built for AI retrieval, not just crawlers",
@@ -284,6 +327,8 @@ export const SERVICES: Service[] = [
     cluster: "Supporting",
     angle: "Outer section, bridges back",
     lede: "Crawlability, indexation and the hreflang plumbing that decides whether a multilingual site is read as one entity in several languages or several sites competing with each other.",
+    metaTitle: "Technical SEO, Mike Bastin",
+    metaDescription: "The crawlability, indexation and hreflang plumbing that decides whether a multilingual site reads as one entity or several competing ones.",
     sections: ["What actually blocks a multilingual site", ...ENGAGEMENT],
     absorbs: ["on-page-seo", "keyword-research", "analytics-and-tracking", "english-seo", "link-building"],
   },
@@ -293,6 +338,8 @@ export const SERVICES: Service[] = [
     cluster: "Supporting",
     angle: "Written per market, not translated",
     lede: "Copy researched against the market it is for, because the keyword set that works in English rarely survives translation into the one that works in Spanish.",
+    metaTitle: "Multilingual content, written per market",
+    metaDescription: "Copy researched for the market it is written for, because the keyword set that works in English rarely survives translation into Spanish.",
     sections: ["Why translated copy underperforms written copy", ...ENGAGEMENT],
     absorbs: ["multilingual-seo-copywriting", "cultural-consulting", "multilingual-social-media-management"],
   },

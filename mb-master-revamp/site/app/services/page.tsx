@@ -7,7 +7,7 @@ import { SERVICES, CLUSTERS } from "@/lib/services";
 export const metadata: Metadata = {
   title: "Services, Mike Bastin",
   description:
-    "Sixteen services in five clusters. Forty-three pages became sixteen, because one consultant cannot cover forty-three query networks properly.",
+    "Multilingual SEO, localisation and AI consulting in nineteen services across five clusters, each one covering a single query network properly.",
 };
 
 export default function ServicesIndex() {

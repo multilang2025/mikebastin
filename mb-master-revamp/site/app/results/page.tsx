@@ -6,7 +6,7 @@ import SiteFooter from "@/components/SiteFooter";
 export const metadata: Metadata = {
   title: "Results, not impressions, Mike Bastin",
   description:
-    "A case study is a narrative written afterwards. A report is primary evidence.",
+    "A case study is a narrative written afterwards. A report is primary evidence, so see the numbers from real multilingual SEO and localisation work first.",
 };
 
 const ROUTES = [

@@ -92,11 +92,9 @@ Businesses must conduct thorough competitor analysis with a **Spanish SEO compan
 
 ## Spanish Online Users Are Growing
 
-As of 2025, there are around 363,684,593 Spanish-speaking internet users, representing 7.9% of the world’s total.
+As of 2025, there are around 363,684,593 Spanish-speaking internet users, representing 7.9% of the world's total, according to [Internet World Stats](https://www.internetworldstats.com/stats7.htm).
 
-Spanish ranks as the third-most popular language used on the internet, following English and Chinese.
-
-The figure keeps rising, making **Spanish speakers** the **fourth-largest language group** online after **English**, **Japanese**, and **Chinese**.
+Spanish ranks among the top languages used on the internet, alongside English and Chinese, and the figure keeps rising.
 
 Ignoring this fast-growing demographic would be a missed opportunity for businesses.
 

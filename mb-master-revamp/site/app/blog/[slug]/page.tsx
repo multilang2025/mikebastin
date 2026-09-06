@@ -3,8 +3,11 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import Reveal from "@/components/Reveal";
 import SiteFooter from "@/components/SiteFooter";
+import JsonLd from "@/components/JsonLd";
 import { getPosts, getPost, HAND_BUILT_SLUGS } from "@/lib/posts";
 import { getService } from "@/lib/services";
+import { getPostMetaDescription, postMetaTitle } from "@/lib/seo";
+import { SITE_URL, blogPostingSchema, breadcrumbSchema } from "@/lib/schema";
 
 // competitor-analysis-traffic-checklist has its own hand-built route at
 // app/competitor-analysis-traffic-checklist/ (see lib/posts.ts). Excluded
@@ -23,7 +26,10 @@ export async function generateMetadata({
   const { slug } = await params;
   const post = getPost(slug);
   if (!post) return {};
-  return { title: `${post.title}, Mike Bastin`, description: post.excerpt };
+  return {
+    title: postMetaTitle(post.title),
+    description: getPostMetaDescription(post),
+  };
 }
 
 function formatDate(iso: string) {
@@ -44,9 +50,26 @@ export default async function BlogPostPage({
   if (!post) notFound();
 
   const service = post.relatedService ? getService(post.relatedService) : undefined;
+  const url = `${SITE_URL}/blog/${post.slug}/`;
 
   return (
     <main>
+      <JsonLd
+        data={[
+          blogPostingSchema({
+            headline: post.title,
+            description: getPostMetaDescription(post),
+            datePublished: post.date,
+            dateModified: post.modified,
+            url,
+          }),
+          breadcrumbSchema([
+            { name: "Home", url: `${SITE_URL}/` },
+            { name: "Journal", url: `${SITE_URL}/blog/` },
+            { name: post.title, url },
+          ]),
+        ]}
+      />
       {/* ============ HERO ============ */}
       <section className="band band-a grain relative overflow-hidden pb-[clamp(48px,7vw,84px)] pt-[clamp(96px,14vw,160px)]">
         <div className="shell relative">
@@ -69,8 +92,15 @@ export default async function BlogPostPage({
             </p>
           </Reveal>
           <Reveal i={4}>
-            <p className="mt-6 text-[.78rem] uppercase tracking-[.11em]" style={{ color: "var(--dim)" }}>
-              {formatDate(post.date)}
+            <p className="mt-6 flex flex-wrap items-center gap-x-3 gap-y-1 text-[.78rem] uppercase tracking-[.11em]" style={{ color: "var(--dim)" }}>
+              <span>
+                Written by{" "}
+                <Link href="/" className="ulink" style={{ color: "var(--dim)" }}>
+                  Mike Bastin
+                </Link>
+              </span>
+              <i className="block h-[3px] w-[3px] rounded-full" style={{ background: "var(--berry)" }} />
+              <span>{formatDate(post.date)}</span>
             </p>
           </Reveal>
         </div>

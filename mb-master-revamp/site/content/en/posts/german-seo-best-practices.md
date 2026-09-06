@@ -28,11 +28,11 @@ As you develop an [SEO strategy for Germany](https://mikebastin.com/german-seo-c
 
 #### Search Engine Usage in Germany
 
-**Google** dominates the **search engine market** in Germany, holding over 90% of the market share.
+**Google** dominates the **search engine market** in Germany, holding around 80% of the market share according to [Statcounter](https://gs.statcounter.com/search-engine-market-share/all/germany).
 
-While platforms like **Bing** and **Yahoo** exist, they account for a minimal portion of search traffic.
+**Bing** takes most of the rest, with **Yahoo**, **Yandex** and **DuckDuckGo** each holding single-digit shares.
 
-One unique aspect of the German market is the use of **Ecosia**, an **eco-friendly search engine** that plants trees for searches made on its platform, holding a modest share.
+One unique aspect of the German market is the use of **Ecosia**, an **eco-friendly search engine** that plants trees for searches made on its platform. Germany has the most diversified search market of any major Western European country, so a strategy built on Google alone leaves real, if smaller, audiences uncovered.
 
 If your brand focuses on **sustainability**, optimising for **Ecosia** can give you an edge with **eco-conscious German consumers**.
 
