@@ -13,6 +13,9 @@ node_modules/
 .idea/
 .vscode/
 
+# Claude Code agent worktrees (local scratch, not project content)
+.claude/worktrees/
+
 # WordPress local env
 wp-cli.local.yml
 .env
