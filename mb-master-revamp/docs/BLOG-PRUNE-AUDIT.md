@@ -11,7 +11,7 @@ Grounded in real Google Search Console data pulled this pass (450-day window, `m
 | **KEEP** | 59 | Stays as a standalone post on mikebastin.com |
 | **RELOCATE** | 22 | Leaves for valenciamove.com (Valencia exodus, `redirects/valencia-exodus.json`) |
 | **MERGE** | 2 | Retires, 301s into a stronger post that already owns the topic |
-| **REMOVE** | 8 | Retires, 301s to the nearest relevant hub -- no single post owns the topic |
+| **REMOVE** | 9 | Retires, 301s to the nearest relevant hub -- no single post owns the topic |
 
 REMOVE and MERGE are both written into `redirects/content-map.json` now (`action: "retire"` / `"absorb"`), so they will not be silently re-migrated by a future pass.
 
@@ -30,8 +30,7 @@ Every one of these was checked individually against live GSC data before being l
 | `cultural-differences-in-multilingual-websites` | 26 | 26 impressions in 450 days. Topic is already the multilingual-content service's job. |
 | `language-data-analysis` | 27 | 27 impressions in 450 days. Vague premise ("what language data even is"), not tied to AI or marketing despite the slug -- no page it naturally belongs under. |
 | `optimise-a-google-business-profile` | 33 | 33 impressions in 450 days, 0 clicks. The local-seo service (already consolidated into technical-seo) covers this. |
-
-**Needs your call, not decided here:** `how-to-make-money-on-youtube` (18 impressions/450d, 0 clicks, position 56-99). Its excerpt is about a creator monetising their own channel (Partner Program, channel memberships), which is a different audience from "digital marketing for businesses" even under the corrected scope -- but it's adjacent enough to the digital-marketing/AI remit that I didn't want to reverse it unilaterally the way I did the other four. Still marked REMOVE in `content-map.json` pending your answer.
+| `how-to-make-money-on-youtube` | 18 | 18 impressions in 450 days, 0 clicks, position 56-99. Owner confirmed (6 Sep): no experience in that space, "something I have to work on" -- a decision about the business, not just the traffic. |
 
 **301 target for the confirmed REMOVE list: `/blog/` or `/services/`, whichever the redirect implementation lands on** -- these have no natural single successor, so a hub is the honest destination rather than inventing a false match. Not yet wired into an .htaccess rule; that's a follow-up once you confirm the list.
 
