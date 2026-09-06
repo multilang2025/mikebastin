@@ -119,3 +119,20 @@ scope, or spend decision, not on every diff.
 Tracked in `docs/HANDOFF.md` §21 "Decisions OPEN" and §17 addendum. Resolve
 with the owner before P1 work depends on them (repo org, X handle/posts, Tier C prune sign-off, service consolidation,
 Valencia STAY-list sign-off, credibility strip numbers).
+
+**Tier C prune now has a real artifact to sign off on**, not just an open
+line item: `docs/BLOG-PRUNE-AUDIT.md`, built from actual Google Search
+Console data (450-day window) rather than word count. 12 posts recommended
+REMOVE, 2 MERGE, both already written into `redirects/content-map.json`
+(`action: "retire"` / `"absorb"`) so a future pass won't silently re-migrate
+them. 21 posts still need a real GSC check before their KEEP status is
+anything more than provisional (list in the audit doc).
+
+**Backlog, not yet started** (add here rather than losing track of them):
+- Globaprom data-privacy/MT-compliance article (owner decision 6 Sep: add to
+  list rather than draft now or skip). Real gap identified: none of
+  Globaprom's translation/i18n content covers GDPR or data-retention
+  questions for third-party MT APIs, and mikebastin's own treatment of the
+  topic is unsourced boilerplate not worth porting as-is. Needs real
+  citations if written: DeepL/Google Translate API retention terms, GDPR
+  Article 28 processor obligations, ISO 27001 vendor questions.

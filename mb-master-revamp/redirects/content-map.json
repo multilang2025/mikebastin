@@ -1,70 +1,3784 @@
 {
-  "_comment": "Migration contract per docs/HANDOFF.md §16 as amended by §25 (Payload removed; content lives in the repo as MDX). One record per WPML translation group, resolved from icl_translations trid groups, never from slug similarity. Populate during content-migrator's extraction pass (P3). Every one of the ~285 legacy content IDs appears exactly once; missing locale siblings are explicit null, never omitted. The 'group' value is written into each MDX file's frontmatter and is what binds translation siblings and emits hreflang.",
-  "_schema_example": {
-    "group": "ai-consulting",
-    "type": "service",
-    "en": {
-      "id": 24847584,
-      "slug": "ai-consulting-services",
-      "url": "/services/ai-consulting-services/",
-      "content_path": "content/en/services/ai-consulting-services.mdx"
-    },
-    "fr": {
-      "id": 24848390,
-      "slug": "conseil-ia",
-      "url": "/fr/services/conseil-ia/",
-      "content_path": "content/fr/services/conseil-ia.mdx"
-    },
-    "es": {
-      "id": 24848569,
-      "slug": "consultoria-de-inteligencia-artificial",
-      "url": "/es/services/consultoria-de-inteligencia-artificial/",
-      "content_path": "content/es/services/consultoria-de-inteligencia-artificial.mdx"
-    },
-    "tier": "A",
-    "action": "migrate",
-    "destination": "mdx",
-    "absorbed_into": null,
-    "vm_action": null,
-    "vm_target_url": null
+ "_comment": "Migration contract per docs/HANDOFF.md §16 as amended by §25 (Payload removed; content lives in the repo as MDX). One record per WPML translation group, resolved from icl_translations trid groups, never from slug similarity. Populate during content-migrator's extraction pass (P3). Every one of the ~285 legacy content IDs appears exactly once; missing locale siblings are explicit null, never omitted. The 'group' value is written into each MDX file's frontmatter and is what binds translation siblings and emits hreflang.",
+ "_schema_example": {
+  "group": "ai-consulting",
+  "type": "service",
+  "en": {
+   "id": 24847584,
+   "slug": "ai-consulting-services",
+   "url": "/services/ai-consulting-services/",
+   "content_path": "content/en/services/ai-consulting-services.mdx"
   },
-  "_enums": {
-    "type": [
-      "service",
-      "post",
-      "page"
-    ],
-    "action": [
-      "migrate",
-      "absorb",
-      "refresh",
-      "reposition",
-      "relocate",
-      "retire"
-    ],
-    "destination": [
-      "mdx",
-      "globaprom",
-      "txintlfreight",
-      "betranslated",
-      "valenciamove",
-      "matosurf",
-      "stay",
-      "prune"
-    ],
-    "vm_action": [
-      "redirect-to-existing",
-      "import-as-new",
-      null
-    ]
+  "fr": {
+   "id": 24848390,
+   "slug": "conseil-ia",
+   "url": "/fr/services/conseil-ia/",
+   "content_path": "content/fr/services/conseil-ia.mdx"
   },
-  "_rules": [
-    "Groups merge as groups. Absorbing an EN page obliges its FR and ES siblings to merge into the FR and ES siblings of the absorbing group.",
-    "Redirects stay inside their locale. An absorbed FR page 301s to the FR target, never the EN one.",
-    "absorbed_into carries the target group id when action is 'absorb'; redirects are generated from it per locale.",
-    "A group with only some locales populated emits hreflang only for the locales it has. Never guess a URL for a missing sibling.",
-    "Dispositions per section 5 of CONTENT-ARCHITECTURE.md: refresh, merge, reposition, relocate, retire. A group takes one disposition across every locale it exists in; relocating EN without its FR and ES siblings orphans them.",
-    "Relocations to a network property need a cross-domain 301 per locale and a read of the article first, since these routings were inferred from slugs rather than content."
+  "es": {
+   "id": 24848569,
+   "slug": "consultoria-de-inteligencia-artificial",
+   "url": "/es/services/consultoria-de-inteligencia-artificial/",
+   "content_path": "content/es/services/consultoria-de-inteligencia-artificial.mdx"
+  },
+  "tier": "A",
+  "action": "migrate",
+  "destination": "mdx",
+  "absorbed_into": null,
+  "vm_action": null,
+  "vm_target_url": null
+ },
+ "_enums": {
+  "type": [
+   "service",
+   "post",
+   "page"
   ],
-  "groups": []
+  "action": [
+   "migrate",
+   "absorb",
+   "refresh",
+   "reposition",
+   "relocate",
+   "retire"
+  ],
+  "destination": [
+   "mdx",
+   "globaprom",
+   "txintlfreight",
+   "betranslated",
+   "valenciamove",
+   "matosurf",
+   "stay",
+   "prune"
+  ],
+  "vm_action": [
+   "redirect-to-existing",
+   "import-as-new",
+   null
+  ]
+ },
+ "_rules": [
+  "Groups merge as groups. Absorbing an EN page obliges its FR and ES siblings to merge into the FR and ES siblings of the absorbing group.",
+  "Redirects stay inside their locale. An absorbed FR page 301s to the FR target, never the EN one.",
+  "absorbed_into carries the target group id when action is 'absorb'; redirects are generated from it per locale.",
+  "A group with only some locales populated emits hreflang only for the locales it has. Never guess a URL for a missing sibling.",
+  "Dispositions per section 5 of CONTENT-ARCHITECTURE.md: refresh, merge, reposition, relocate, retire. A group takes one disposition across every locale it exists in; relocating EN without its FR and ES siblings orphans them.",
+  "Relocations to a network property need a cross-domain 301 per locale and a read of the article first, since these routings were inferred from slugs rather than content."
+ ],
+ "groups": [
+  {
+   "group": "g001",
+   "type": "page",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 2,
+    "slug": "homepage",
+    "url": "https://mikebastin.com/",
+    "content_path": "site/content/en/pages/homepage.md"
+   },
+   "fr": {
+    "id": 24847021,
+    "slug": "page-accueil",
+    "url": "https://mikebastin.com/fr/",
+    "content_path": "site/content/fr/pages/page-accueil.md"
+   },
+   "es": {
+    "id": 24847635,
+    "slug": "es",
+    "url": "https://mikebastin.com/es/",
+    "content_path": "site/content/es/pages/es.md"
+   }
+  },
+  {
+   "group": "g002",
+   "type": "post",
+   "tier": null,
+   "action": "retire",
+   "destination": "prune",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24845565,
+    "slug": "15-simple-blog-post-ideas-to-help-attract-more-customers-to-your-business",
+    "url": "https://mikebastin.com/15-simple-blog-post-ideas-to-help-attract-more-customers-to-your-business/",
+    "content_path": "site/content/en/posts/15-simple-blog-post-ideas-to-help-attract-more-customers-to-your-business.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g003",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24847220,
+    "slug": "360-marketing-agency",
+    "url": "https://mikebastin.com/360-marketing-agency/",
+    "content_path": "site/content/en/posts/360-marketing-agency.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g004",
+   "type": "page",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 36605,
+    "slug": "404-2",
+    "url": "https://mikebastin.com/404-2/",
+    "content_path": "site/content/en/pages/404-2.md"
+   },
+   "fr": {
+    "id": 24847014,
+    "slug": "404-2",
+    "url": "https://mikebastin.com/fr/404-2/",
+    "content_path": "site/content/fr/pages/404-2.md"
+   },
+   "es": {
+    "id": 24847011,
+    "slug": "404-2",
+    "url": "https://mikebastin.com/es/404-2/",
+    "content_path": "site/content/es/pages/404-2.md"
+   }
+  },
+  {
+   "group": "g005",
+   "type": "page",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 36460,
+    "slug": "about-us",
+    "url": "https://mikebastin.com/about-us/",
+    "content_path": "site/content/en/pages/about-us.md"
+   },
+   "fr": {
+    "id": 24847028,
+    "slug": "notre-equipe",
+    "url": "https://mikebastin.com/fr/notre-equipe/",
+    "content_path": "site/content/fr/pages/notre-equipe.md"
+   },
+   "es": {
+    "id": 24848036,
+    "slug": "conocenos-agencia-experta-en-seo",
+    "url": "https://mikebastin.com/es/conocenos-agencia-experta-en-seo/",
+    "content_path": "site/content/es/pages/conocenos-agencia-experta-en-seo.md"
+   }
+  },
+  {
+   "group": "g006",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24845190,
+    "slug": "affiliate-marketing-programs",
+    "url": "https://mikebastin.com/affiliate-marketing-programs/",
+    "content_path": "site/content/en/posts/affiliate-marketing-programs.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g007",
+   "type": "post",
+   "tier": null,
+   "action": "retire",
+   "destination": "prune",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24845715,
+    "slug": "affordable-seo-services",
+    "url": "https://mikebastin.com/affordable-seo-services/",
+    "content_path": "site/content/en/posts/affordable-seo-services.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g008",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24845563,
+    "slug": "ai-powered-marketing",
+    "url": "https://mikebastin.com/ai-powered-marketing/",
+    "content_path": "site/content/en/posts/ai-powered-marketing.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g009",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24844917,
+    "slug": "alternatives-to-google-analytics",
+    "url": "https://mikebastin.com/alternatives-to-google-analytics/",
+    "content_path": "site/content/en/posts/alternatives-to-google-analytics.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g010",
+   "type": "post",
+   "tier": null,
+   "action": "relocate",
+   "destination": "valenciamove",
+   "absorbed_into": null,
+   "vm_action": "redirect-to-existing",
+   "vm_target_url": "https://valenciamove.com/moving-to-valencia-from-usa/",
+   "en": {
+    "id": 24856238,
+    "slug": "american-move-to-valencia-spain",
+    "url": "https://mikebastin.com/american-move-to-valencia-spain/",
+    "content_path": "site/content/en/posts/american-move-to-valencia-spain.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g011",
+   "type": "post",
+   "tier": null,
+   "action": "relocate",
+   "destination": "valenciamove",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24847196,
+    "slug": "b2b-trade-shows-in-valencia",
+    "url": "https://mikebastin.com/b2b-trade-shows-in-valencia/",
+    "content_path": "site/content/en/posts/b2b-trade-shows-in-valencia.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g012",
+   "type": "post",
+   "tier": null,
+   "action": "relocate",
+   "destination": "valenciamove",
+   "absorbed_into": null,
+   "vm_action": "redirect-to-existing",
+   "vm_target_url": "https://valenciamove.com/blog/learning-spanish-valencia/",
+   "en": {
+    "id": 24856246,
+    "slug": "basic-spanish-valencia",
+    "url": "https://mikebastin.com/basic-spanish-valencia/",
+    "content_path": "site/content/en/posts/basic-spanish-valencia.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g013",
+   "type": "post",
+   "tier": null,
+   "action": "relocate",
+   "destination": "valenciamove",
+   "absorbed_into": null,
+   "vm_action": "redirect-to-existing",
+   "vm_target_url": "https://valenciamove.com/neighborhoods-valencia/",
+   "en": {
+    "id": 24856244,
+    "slug": "best-neighborhoods-valencia",
+    "url": "https://mikebastin.com/best-neighborhoods-valencia/",
+    "content_path": "site/content/en/posts/best-neighborhoods-valencia.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g014",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24845454,
+    "slug": "best-practices-for-multilingual-seo",
+    "url": "https://mikebastin.com/best-practices-for-multilingual-seo/",
+    "content_path": "site/content/en/posts/best-practices-for-multilingual-seo.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g015",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24855620,
+    "slug": "best-vietnam-sourcing-agencies-for-eudr-supplier-scouting-and-audits",
+    "url": "https://mikebastin.com/best-vietnam-sourcing-agencies-for-eudr-supplier-scouting-and-audits/",
+    "content_path": "site/content/en/posts/best-vietnam-sourcing-agencies-for-eudr-supplier-scouting-and-audits.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g016",
+   "type": "page",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 36650,
+    "slug": "blog",
+    "url": "https://mikebastin.com/blog/",
+    "content_path": "site/content/en/pages/blog.md"
+   },
+   "fr": {
+    "id": 24848143,
+    "slug": "blog",
+    "url": "https://mikebastin.com/fr/blog/",
+    "content_path": "site/content/fr/pages/blog.md"
+   },
+   "es": {
+    "id": 24847664,
+    "slug": "blog",
+    "url": "https://mikebastin.com/es/blog/",
+    "content_path": "site/content/es/pages/blog.md"
+   }
+  },
+  {
+   "group": "g017",
+   "type": "post",
+   "tier": null,
+   "action": "absorb",
+   "destination": "prune",
+   "absorbed_into": "optimise-a-google-business-profile",
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 37263,
+    "slug": "boosting-local-seo",
+    "url": "https://mikebastin.com/boosting-local-seo/",
+    "content_path": "site/content/en/posts/boosting-local-seo.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g018",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 37220,
+    "slug": "building-a-global-brand",
+    "url": "https://mikebastin.com/building-a-global-brand/",
+    "content_path": "site/content/en/posts/building-a-global-brand.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g019",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24847152,
+    "slug": "business-registration-in-valencia",
+    "url": "https://mikebastin.com/business-registration-in-valencia/",
+    "content_path": "site/content/en/posts/business-registration-in-valencia.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g020",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 37189,
+    "slug": "chrome-extensions-for-seo",
+    "url": "https://mikebastin.com/chrome-extensions-for-seo/",
+    "content_path": "site/content/en/posts/chrome-extensions-for-seo.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g021",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 37229,
+    "slug": "chrome-extensions-for-translators",
+    "url": "https://mikebastin.com/chrome-extensions-for-translators/",
+    "content_path": "site/content/en/posts/chrome-extensions-for-translators.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g022",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 37200,
+    "slug": "common-mistakes-to-avoid-when-localising-your-website",
+    "url": "https://mikebastin.com/common-mistakes-to-avoid-when-localising-your-website/",
+    "content_path": "site/content/en/posts/common-mistakes-to-avoid-when-localising-your-website.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g023",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24855680,
+    "slug": "competitor-analysis-traffic-checklist",
+    "url": "https://mikebastin.com/competitor-analysis-traffic-checklist/",
+    "content_path": "site/content/en/posts/competitor-analysis-traffic-checklist.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g024",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24855661,
+    "slug": "competitor-analysis",
+    "url": "https://mikebastin.com/competitor-analysis/",
+    "content_path": "site/content/en/posts/competitor-analysis.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g025",
+   "type": "page",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 36524,
+    "slug": "contact-us",
+    "url": "https://mikebastin.com/contact-us/",
+    "content_path": "site/content/en/pages/contact-us.md"
+   },
+   "fr": {
+    "id": 24848146,
+    "slug": "nous-contacter",
+    "url": "https://mikebastin.com/fr/nous-contacter/",
+    "content_path": "site/content/fr/pages/nous-contacter.md"
+   },
+   "es": {
+    "id": 24847661,
+    "slug": "contactanos",
+    "url": "https://mikebastin.com/es/contactanos/",
+    "content_path": "site/content/es/pages/contactanos.md"
+   }
+  },
+  {
+   "group": "g026",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24845624,
+    "slug": "content-optimisation-for-spanish-users",
+    "url": "https://mikebastin.com/content-optimisation-for-spanish-users/",
+    "content_path": "site/content/en/posts/content-optimisation-for-spanish-users.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g027",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24847226,
+    "slug": "conversational-ai-chatbots-business",
+    "url": "https://mikebastin.com/conversational-ai-chatbots-business/",
+    "content_path": "site/content/en/posts/conversational-ai-chatbots-business.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g028",
+   "type": "post",
+   "tier": null,
+   "action": "retire",
+   "destination": "prune",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24845455,
+    "slug": "cultural-differences-in-multilingual-websites",
+    "url": "https://mikebastin.com/cultural-differences-in-multilingual-websites/",
+    "content_path": "site/content/en/posts/cultural-differences-in-multilingual-websites.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g029",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24855777,
+    "slug": "digital-marketing-advisor",
+    "url": "https://mikebastin.com/digital-marketing-advisor/",
+    "content_path": "site/content/en/posts/digital-marketing-advisor.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g030",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24856171,
+    "slug": "eeat-vs-aeat-typo",
+    "url": "https://mikebastin.com/eeat-vs-aeat-typo/",
+    "content_path": "site/content/en/posts/eeat-vs-aeat-typo.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g031",
+   "type": "post",
+   "tier": null,
+   "action": "retire",
+   "destination": "prune",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24845561,
+    "slug": "email-marketing-hacks-boosting-open-rates-and-conversions",
+    "url": "https://mikebastin.com/email-marketing-hacks-boosting-open-rates-and-conversions/",
+    "content_path": "site/content/en/posts/email-marketing-hacks-boosting-open-rates-and-conversions.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g032",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 37205,
+    "slug": "english-to-french-translation-services",
+    "url": "https://mikebastin.com/english-to-french-translation-services/",
+    "content_path": "site/content/en/posts/english-to-french-translation-services.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g033",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": null,
+   "fr": null,
+   "es": {
+    "id": 24855788,
+    "slug": "analisis-competitivo-seo",
+    "url": "https://mikebastin.com/es/analisis-competitivo-seo/",
+    "content_path": "site/content/es/posts/analisis-competitivo-seo.md"
+   }
+  },
+  {
+   "group": "g034",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": null,
+   "fr": null,
+   "es": {
+    "id": 24857772,
+    "slug": "analisis-de-la-competencia-seo",
+    "url": "https://mikebastin.com/es/analisis-de-la-competencia-seo/",
+    "content_path": "site/content/es/posts/analisis-de-la-competencia-seo.md"
+   }
+  },
+  {
+   "group": "g035",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": null,
+   "fr": null,
+   "es": {
+    "id": 24855797,
+    "slug": "analizar-backlinks-competidores",
+    "url": "https://mikebastin.com/es/analizar-backlinks-competidores/",
+    "content_path": "site/content/es/posts/analizar-backlinks-competidores.md"
+   }
+  },
+  {
+   "group": "g036",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": null,
+   "fr": null,
+   "es": {
+    "id": 24855790,
+    "slug": "analizar-trafico-web-competencia",
+    "url": "https://mikebastin.com/es/analizar-trafico-web-competencia/",
+    "content_path": "site/content/es/posts/analizar-trafico-web-competencia.md"
+   }
+  },
+  {
+   "group": "g037",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": null,
+   "fr": null,
+   "es": {
+    "id": 24855789,
+    "slug": "competidores-seo",
+    "url": "https://mikebastin.com/es/competidores-seo/",
+    "content_path": "site/content/es/posts/competidores-seo.md"
+   }
+  },
+  {
+   "group": "g038",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": null,
+   "fr": null,
+   "es": {
+    "id": 24855842,
+    "slug": "datos-estructurados-schema-optimizacion-geo",
+    "url": "https://mikebastin.com/es/datos-estructurados-schema-optimizacion-geo/",
+    "content_path": "site/content/es/posts/datos-estructurados-schema-optimizacion-geo.md"
+   }
+  },
+  {
+   "group": "g039",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": null,
+   "fr": null,
+   "es": {
+    "id": 24857759,
+    "slug": "diferencias-culturales-sitios-web-multilingues",
+    "url": "https://mikebastin.com/es/diferencias-culturales-sitios-web-multilingues/",
+    "content_path": "site/content/es/posts/diferencias-culturales-sitios-web-multilingues.md"
+   }
+  },
+  {
+   "group": "g040",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": null,
+   "fr": null,
+   "es": {
+    "id": 24855792,
+    "slug": "herramientas-gratuitas-analisis-competitivo",
+    "url": "https://mikebastin.com/es/herramientas-gratuitas-analisis-competitivo/",
+    "content_path": "site/content/es/posts/herramientas-gratuitas-analisis-competitivo.md"
+   }
+  },
+  {
+   "group": "g041",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": null,
+   "fr": null,
+   "es": {
+    "id": 24857767,
+    "slug": "herramientas-pruebas-de-localizacion",
+    "url": "https://mikebastin.com/es/herramientas-pruebas-de-localizacion/",
+    "content_path": "site/content/es/posts/herramientas-pruebas-de-localizacion.md"
+   }
+  },
+  {
+   "group": "g042",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": null,
+   "fr": null,
+   "es": {
+    "id": 24857768,
+    "slug": "link-building-local-en-espana",
+    "url": "https://mikebastin.com/es/link-building-local-en-espana/",
+    "content_path": "site/content/es/posts/link-building-local-en-espana.md"
+   }
+  },
+  {
+   "group": "g043",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": null,
+   "fr": null,
+   "es": {
+    "id": 24857760,
+    "slug": "localizacion-de-contenido-web-multilingue",
+    "url": "https://mikebastin.com/es/localizacion-de-contenido-web-multilingue/",
+    "content_path": "site/content/es/posts/localizacion-de-contenido-web-multilingue.md"
+   }
+  },
+  {
+   "group": "g044",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": null,
+   "fr": null,
+   "es": {
+    "id": 24855845,
+    "slug": "medir-rendimiento-geo",
+    "url": "https://mikebastin.com/es/medir-rendimiento-geo/",
+    "content_path": "site/content/es/posts/medir-rendimiento-geo.md"
+   }
+  },
+  {
+   "group": "g045",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": null,
+   "fr": {
+    "id": 24856088,
+    "slug": "optimisation-pour-les-systemes-ia",
+    "url": "https://mikebastin.com/fr/optimisation-pour-les-systemes-ia/",
+    "content_path": "site/content/fr/posts/optimisation-pour-les-systemes-ia.md"
+   },
+   "es": {
+    "id": 24856071,
+    "slug": "optimizacion-para-sistemas-de-ia",
+    "url": "https://mikebastin.com/es/optimizacion-para-sistemas-de-ia/",
+    "content_path": "site/content/es/posts/optimizacion-para-sistemas-de-ia.md"
+   }
+  },
+  {
+   "group": "g046",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24847407,
+    "slug": "generative-engine-optimization",
+    "url": "https://mikebastin.com/generative-engine-optimization/",
+    "content_path": "site/content/en/posts/generative-engine-optimization.md"
+   },
+   "fr": {
+    "id": 24853049,
+    "slug": "seo-au-geo",
+    "url": "https://mikebastin.com/fr/seo-au-geo/",
+    "content_path": "site/content/fr/posts/seo-au-geo.md"
+   },
+   "es": {
+    "id": 24855846,
+    "slug": "optimizar-para-seo-y-geo",
+    "url": "https://mikebastin.com/es/optimizar-para-seo-y-geo/",
+    "content_path": "site/content/es/posts/optimizar-para-seo-y-geo.md"
+   }
+  },
+  {
+   "group": "g047",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": null,
+   "fr": null,
+   "es": {
+    "id": 24857773,
+    "slug": "optimizar-perfil-de-empresa-de-google",
+    "url": "https://mikebastin.com/es/optimizar-perfil-de-empresa-de-google/",
+    "content_path": "site/content/es/posts/optimizar-perfil-de-empresa-de-google.md"
+   }
+  },
+  {
+   "group": "g048",
+   "type": "page",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 36564,
+    "slug": "pricing",
+    "url": "https://mikebastin.com/pricing/",
+    "content_path": "site/content/en/pages/pricing.md"
+   },
+   "fr": {
+    "id": 24848149,
+    "slug": "tarifs",
+    "url": "https://mikebastin.com/fr/tarifs/",
+    "content_path": "site/content/fr/pages/tarifs.md"
+   },
+   "es": {
+    "id": 24847658,
+    "slug": "precios",
+    "url": "https://mikebastin.com/es/precios/",
+    "content_path": "site/content/es/pages/precios.md"
+   }
+  },
+  {
+   "group": "g049",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": null,
+   "fr": null,
+   "es": {
+    "id": 24855796,
+    "slug": "rastrear-posiciones-de-keywords-de-competidores",
+    "url": "https://mikebastin.com/es/rastrear-posiciones-de-keywords-de-competidores/",
+    "content_path": "site/content/es/posts/rastrear-posiciones-de-keywords-de-competidores.md"
+   }
+  },
+  {
+   "group": "g050",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": null,
+   "fr": null,
+   "es": {
+    "id": 24857765,
+    "slug": "seo-multilingue-2026-presencia-total",
+    "url": "https://mikebastin.com/es/seo-multilingue-2026-presencia-total/",
+    "content_path": "site/content/es/posts/seo-multilingue-2026-presencia-total.md"
+   }
+  },
+  {
+   "group": "g051",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": null,
+   "fr": null,
+   "es": {
+    "id": 24857721,
+    "slug": "seo-tecnico-para-sitios-multilingues",
+    "url": "https://mikebastin.com/es/seo-tecnico-para-sitios-multilingues/",
+    "content_path": "site/content/es/posts/seo-tecnico-para-sitios-multilingues.md"
+   }
+  },
+  {
+   "group": "g052",
+   "type": "service",
+   "tier": null,
+   "action": "absorb",
+   "destination": "mdx",
+   "absorbed_into": "multilingual-seo",
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 37237,
+    "slug": "global-seo-solutions",
+    "url": "https://mikebastin.com/services/global-seo-solutions/",
+    "content_path": "site/content/en/services/global-seo-solutions.md"
+   },
+   "fr": {
+    "id": 24848285,
+    "slug": "referencement-international",
+    "url": "https://mikebastin.com/fr/services/referencement-international/",
+    "content_path": "site/content/fr/services/referencement-international.md"
+   },
+   "es": {
+    "id": 24848940,
+    "slug": "agencia-de-seo-global",
+    "url": "https://mikebastin.com/es/services/agencia-de-seo-global/",
+    "content_path": "site/content/es/services/agencia-de-seo-global.md"
+   }
+  },
+  {
+   "group": "g053",
+   "type": "service",
+   "tier": null,
+   "action": "absorb",
+   "destination": "mdx",
+   "absorbed_into": "multilingual-seo",
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 37245,
+    "slug": "multilingual-branding",
+    "url": "https://mikebastin.com/services/multilingual-branding/",
+    "content_path": "site/content/en/services/multilingual-branding.md"
+   },
+   "fr": {
+    "id": 24848137,
+    "slug": "branding-multilingue",
+    "url": "https://mikebastin.com/fr/services/branding-multilingue/",
+    "content_path": "site/content/fr/services/branding-multilingue.md"
+   },
+   "es": {
+    "id": 24849013,
+    "slug": "branding-multilingue",
+    "url": "https://mikebastin.com/es/services/branding-multilingue/",
+    "content_path": "site/content/es/services/branding-multilingue.md"
+   }
+  },
+  {
+   "group": "g054",
+   "type": "service",
+   "tier": null,
+   "action": "absorb",
+   "destination": "mdx",
+   "absorbed_into": "technical-seo",
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24844924,
+    "slug": "keyword-research",
+    "url": "https://mikebastin.com/services/keyword-research/",
+    "content_path": "site/content/en/services/keyword-research.md"
+   },
+   "fr": {
+    "id": 24848025,
+    "slug": "recherche-mots-cles",
+    "url": "https://mikebastin.com/fr/services/recherche-mots-cles/",
+    "content_path": "site/content/fr/services/recherche-mots-cles.md"
+   },
+   "es": {
+    "id": 24848858,
+    "slug": "busqueda-palabras-clave",
+    "url": "https://mikebastin.com/es/services/busqueda-palabras-clave/",
+    "content_path": "site/content/es/services/busqueda-palabras-clave.md"
+   }
+  },
+  {
+   "group": "g055",
+   "type": "service",
+   "tier": null,
+   "action": "absorb",
+   "destination": "mdx",
+   "absorbed_into": "multilingual-content",
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24844895,
+    "slug": "cultural-consulting",
+    "url": "https://mikebastin.com/services/cultural-consulting/",
+    "content_path": "site/content/en/services/cultural-consulting.md"
+   },
+   "fr": {
+    "id": 24848949,
+    "slug": "conseil-culturel",
+    "url": "https://mikebastin.com/fr/services/conseil-culturel/",
+    "content_path": "site/content/fr/services/conseil-culturel.md"
+   },
+   "es": {
+    "id": 24849155,
+    "slug": "consultoria-cultural",
+    "url": "https://mikebastin.com/es/services/consultoria-cultural/",
+    "content_path": "site/content/es/services/consultoria-cultural.md"
+   }
+  },
+  {
+   "group": "g056",
+   "type": "service",
+   "tier": null,
+   "action": "absorb",
+   "destination": "mdx",
+   "absorbed_into": "ai-consulting",
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24847584,
+    "slug": "ai-consulting-services",
+    "url": "https://mikebastin.com/services/ai-consulting-services/",
+    "content_path": "site/content/en/services/ai-consulting-services.md"
+   },
+   "fr": {
+    "id": 24848390,
+    "slug": "conseil-ia",
+    "url": "https://mikebastin.com/fr/services/conseil-ia/",
+    "content_path": "site/content/fr/services/conseil-ia.md"
+   },
+   "es": {
+    "id": 24848569,
+    "slug": "consultoria-de-inteligencia-artificial",
+    "url": "https://mikebastin.com/es/services/consultoria-de-inteligencia-artificial/",
+    "content_path": "site/content/es/services/consultoria-de-inteligencia-artificial.md"
+   }
+  },
+  {
+   "group": "g057",
+   "type": "service",
+   "tier": null,
+   "action": "absorb",
+   "destination": "mdx",
+   "absorbed_into": "website-localisation",
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 17228966,
+    "slug": "multilingual-ux-ui-design",
+    "url": "https://mikebastin.com/services/multilingual-ux-ui-design/",
+    "content_path": "site/content/en/services/multilingual-ux-ui-design.md"
+   },
+   "fr": {
+    "id": 24848912,
+    "slug": "conception-ux-ui-multilingue",
+    "url": "https://mikebastin.com/fr/services/conception-ux-ui-multilingue/",
+    "content_path": "site/content/fr/services/conception-ux-ui-multilingue.md"
+   },
+   "es": {
+    "id": 24849112,
+    "slug": "diseno-ux-ui-multilingue",
+    "url": "https://mikebastin.com/es/services/diseno-ux-ui-multilingue/",
+    "content_path": "site/content/es/services/diseno-ux-ui-multilingue.md"
+   }
+  },
+  {
+   "group": "g058",
+   "type": "service",
+   "tier": null,
+   "action": "relocate",
+   "destination": "globaprom",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 36803,
+    "slug": "web-design",
+    "url": "https://mikebastin.com/services/web-design/",
+    "content_path": "site/content/en/services/web-design.md"
+   },
+   "fr": {
+    "id": 24848685,
+    "slug": "conception-de-site-web",
+    "url": "https://mikebastin.com/fr/services/conception-de-site-web/",
+    "content_path": "site/content/fr/services/conception-de-site-web.md"
+   },
+   "es": {
+    "id": 24849152,
+    "slug": "diseno-web",
+    "url": "https://mikebastin.com/es/services/diseno-web/",
+    "content_path": "site/content/es/services/diseno-web.md"
+   }
+  },
+  {
+   "group": "g059",
+   "type": "service",
+   "tier": null,
+   "action": "absorb",
+   "destination": "mdx",
+   "absorbed_into": "multilingual-content",
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 17228936,
+    "slug": "multilingual-social-media-management",
+    "url": "https://mikebastin.com/services/multilingual-social-media-management/",
+    "content_path": "site/content/en/services/multilingual-social-media-management.md"
+   },
+   "fr": {
+    "id": 24848651,
+    "slug": "gestion-multilingue-reseaux-sociaux",
+    "url": "https://mikebastin.com/fr/services/gestion-multilingue-reseaux-sociaux/",
+    "content_path": "site/content/fr/services/gestion-multilingue-reseaux-sociaux.md"
+   },
+   "es": {
+    "id": 24849115,
+    "slug": "gestion-multilingue-de-redes-sociales",
+    "url": "https://mikebastin.com/es/services/gestion-multilingue-de-redes-sociales/",
+    "content_path": "site/content/es/services/gestion-multilingue-de-redes-sociales.md"
+   }
+  },
+  {
+   "group": "g060",
+   "type": "service",
+   "tier": null,
+   "action": "absorb",
+   "destination": "mdx",
+   "absorbed_into": "website-localisation",
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 17228926,
+    "slug": "multilingual-cms-integration",
+    "url": "https://mikebastin.com/services/multilingual-cms-integration/",
+    "content_path": "site/content/en/services/multilingual-cms-integration.md"
+   },
+   "fr": {
+    "id": 24848906,
+    "slug": "cms-multilingue",
+    "url": "https://mikebastin.com/fr/services/cms-multilingue/",
+    "content_path": "site/content/fr/services/cms-multilingue.md"
+   },
+   "es": {
+    "id": 24849220,
+    "slug": "integracion-cms-multilingue",
+    "url": "https://mikebastin.com/es/services/integracion-cms-multilingue/",
+    "content_path": "site/content/es/services/integracion-cms-multilingue.md"
+   }
+  },
+  {
+   "group": "g061",
+   "type": "service",
+   "tier": null,
+   "action": "absorb",
+   "destination": "mdx",
+   "absorbed_into": "app-and-software-localisation",
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 17229178,
+    "slug": "software-internationalisation",
+    "url": "https://mikebastin.com/services/software-internationalisation/",
+    "content_path": "site/content/en/services/software-internationalisation.md"
+   },
+   "fr": {
+    "id": 24848894,
+    "slug": "internationalisation-de-logiciels",
+    "url": "https://mikebastin.com/fr/services/internationalisation-de-logiciels/",
+    "content_path": "site/content/fr/services/internationalisation-de-logiciels.md"
+   },
+   "es": {
+    "id": 24849103,
+    "slug": "internacionalizacion-de-software",
+    "url": "https://mikebastin.com/es/services/internacionalizacion-de-software/",
+    "content_path": "site/content/es/services/internacionalizacion-de-software.md"
+   }
+  },
+  {
+   "group": "g062",
+   "type": "service",
+   "tier": null,
+   "action": "absorb",
+   "destination": "mdx",
+   "absorbed_into": "multilingual-seo",
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 37160,
+    "slug": "internationalisation",
+    "url": "https://mikebastin.com/services/internationalisation/",
+    "content_path": "site/content/en/services/internationalisation.md"
+   },
+   "fr": {
+    "id": 24848128,
+    "slug": "internationalisation",
+    "url": "https://mikebastin.com/fr/services/internationalisation/",
+    "content_path": "site/content/fr/services/internationalisation.md"
+   },
+   "es": {
+    "id": 24848393,
+    "slug": "internacionalizacion",
+    "url": "https://mikebastin.com/es/services/internacionalizacion/",
+    "content_path": "site/content/es/services/internacionalizacion.md"
+   }
+  },
+  {
+   "group": "g063",
+   "type": "service",
+   "tier": null,
+   "action": "absorb",
+   "destination": "mdx",
+   "absorbed_into": "technical-seo",
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24845444,
+    "slug": "link-building",
+    "url": "https://mikebastin.com/services/link-building/",
+    "content_path": "site/content/en/services/link-building.md"
+   },
+   "fr": {
+    "id": 24848454,
+    "slug": "netlinking",
+    "url": "https://mikebastin.com/fr/services/netlinking/",
+    "content_path": "site/content/fr/services/netlinking.md"
+   },
+   "es": {
+    "id": 24849109,
+    "slug": "link-building",
+    "url": "https://mikebastin.com/es/services/link-building/",
+    "content_path": "site/content/es/services/link-building.md"
+   }
+  },
+  {
+   "group": "g064",
+   "type": "service",
+   "tier": null,
+   "action": "absorb",
+   "destination": "mdx",
+   "absorbed_into": "app-and-software-localisation",
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24845176,
+    "slug": "app-localisation",
+    "url": "https://mikebastin.com/services/app-localisation/",
+    "content_path": "site/content/en/services/app-localisation.md"
+   },
+   "fr": {
+    "id": 24848039,
+    "slug": "localisation-applications",
+    "url": "https://mikebastin.com/fr/services/localisation-applications/",
+    "content_path": "site/content/fr/services/localisation-applications.md"
+   },
+   "es": {
+    "id": 24849088,
+    "slug": "localizacion-de-aplicaciones",
+    "url": "https://mikebastin.com/es/services/localizacion-de-aplicaciones/",
+    "content_path": "site/content/es/services/localizacion-de-aplicaciones.md"
+   }
+  },
+  {
+   "group": "g065",
+   "type": "service",
+   "tier": null,
+   "action": "absorb",
+   "destination": "mdx",
+   "absorbed_into": "website-localisation",
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 37173,
+    "slug": "content-localisation",
+    "url": "https://mikebastin.com/services/content-localisation/",
+    "content_path": "site/content/en/services/content-localisation.md"
+   },
+   "fr": {
+    "id": 24848134,
+    "slug": "localisation-contenu",
+    "url": "https://mikebastin.com/fr/services/localisation-contenu/",
+    "content_path": "site/content/fr/services/localisation-contenu.md"
+   },
+   "es": {
+    "id": 24848379,
+    "slug": "localizacion-de-contenido",
+    "url": "https://mikebastin.com/es/services/localizacion-de-contenido/",
+    "content_path": "site/content/es/services/localizacion-de-contenido.md"
+   }
+  },
+  {
+   "group": "g066",
+   "type": "service",
+   "tier": null,
+   "action": "absorb",
+   "destination": "mdx",
+   "absorbed_into": "website-localisation",
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 17228889,
+    "slug": "localised-e-commerce-integration",
+    "url": "https://mikebastin.com/services/localised-e-commerce-integration/",
+    "content_path": "site/content/en/services/localised-e-commerce-integration.md"
+   },
+   "fr": {
+    "id": 24848268,
+    "slug": "localisation-ecommerce",
+    "url": "https://mikebastin.com/fr/services/localisation-ecommerce/",
+    "content_path": "site/content/fr/services/localisation-ecommerce.md"
+   },
+   "es": {
+    "id": 24849275,
+    "slug": "localizacion-de-e-commerce",
+    "url": "https://mikebastin.com/es/services/localizacion-de-e-commerce/",
+    "content_path": "site/content/es/services/localizacion-de-e-commerce.md"
+   }
+  },
+  {
+   "group": "g067",
+   "type": "service",
+   "tier": null,
+   "action": "relocate",
+   "destination": "globaprom",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 37069,
+    "slug": "digital-marketing",
+    "url": "https://mikebastin.com/services/digital-marketing/",
+    "content_path": "site/content/en/services/digital-marketing.md"
+   },
+   "fr": {
+    "id": 24848046,
+    "slug": "marketing-digital",
+    "url": "https://mikebastin.com/fr/services/marketing-digital/",
+    "content_path": "site/content/fr/services/marketing-digital.md"
+   },
+   "es": {
+    "id": 24848554,
+    "slug": "marketing-digital-valencia",
+    "url": "https://mikebastin.com/es/services/marketing-digital-valencia/",
+    "content_path": "site/content/es/services/marketing-digital-valencia.md"
+   }
+  },
+  {
+   "group": "g068",
+   "type": "service",
+   "tier": null,
+   "action": "absorb",
+   "destination": "mdx",
+   "absorbed_into": "technical-seo",
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24844964,
+    "slug": "analytics-and-tracking",
+    "url": "https://mikebastin.com/services/analytics-and-tracking/",
+    "content_path": "site/content/en/services/analytics-and-tracking.md"
+   },
+   "fr": {
+    "id": 24848847,
+    "slug": "analyse-et-suivi",
+    "url": "https://mikebastin.com/fr/services/analyse-et-suivi/",
+    "content_path": "site/content/fr/services/analyse-et-suivi.md"
+   },
+   "es": {
+    "id": 24849161,
+    "slug": "monitorizacion-y-analitica",
+    "url": "https://mikebastin.com/es/services/monitorizacion-y-analitica/",
+    "content_path": "site/content/es/services/monitorizacion-y-analitica.md"
+   }
+  },
+  {
+   "group": "g069",
+   "type": "service",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 17228784,
+    "slug": "spanish-seo",
+    "url": "https://mikebastin.com/services/spanish-seo/",
+    "content_path": "site/content/en/services/spanish-seo.md"
+   },
+   "fr": {
+    "id": 24848801,
+    "slug": "seo-espagnol",
+    "url": "https://mikebastin.com/fr/services/seo-espagnol/",
+    "content_path": "site/content/fr/services/seo-espagnol.md"
+   },
+   "es": {
+    "id": 24849164,
+    "slug": "optimizacion-seo",
+    "url": "https://mikebastin.com/es/services/optimizacion-seo/",
+    "content_path": "site/content/es/services/optimizacion-seo.md"
+   }
+  },
+  {
+   "group": "g070",
+   "type": "service",
+   "tier": null,
+   "action": "absorb",
+   "destination": "mdx",
+   "absorbed_into": "website-localisation",
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24845195,
+    "slug": "wordpress-translation-plugin",
+    "url": "https://mikebastin.com/services/wordpress-translation-plugin/",
+    "content_path": "site/content/en/services/wordpress-translation-plugin.md"
+   },
+   "fr": {
+    "id": 24848749,
+    "slug": "plugin-de-traduction-wordpress",
+    "url": "https://mikebastin.com/fr/services/plugin-de-traduction-wordpress/",
+    "content_path": "site/content/fr/services/plugin-de-traduction-wordpress.md"
+   },
+   "es": {
+    "id": 24849119,
+    "slug": "plugins-de-traduccion",
+    "url": "https://mikebastin.com/es/services/plugins-de-traduccion/",
+    "content_path": "site/content/es/services/plugins-de-traduccion.md"
+   }
+  },
+  {
+   "group": "g071",
+   "type": "service",
+   "tier": null,
+   "action": "absorb",
+   "destination": "mdx",
+   "absorbed_into": "ai-consulting",
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24845474,
+    "slug": "post-ai-editing",
+    "url": "https://mikebastin.com/services/post-ai-editing/",
+    "content_path": "site/content/en/services/post-ai-editing.md"
+   },
+   "fr": {
+    "id": 24848700,
+    "slug": "postedition-ia",
+    "url": "https://mikebastin.com/fr/services/postedition-ia/",
+    "content_path": "site/content/fr/services/postedition-ia.md"
+   },
+   "es": {
+    "id": 24847693,
+    "slug": "posedicion-de-ia",
+    "url": "https://mikebastin.com/es/services/posedicion-de-ia/",
+    "content_path": "site/content/es/services/posedicion-de-ia.md"
+   }
+  },
+  {
+   "group": "g072",
+   "type": "service",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 17228874,
+    "slug": "multilingual-seo",
+    "url": "https://mikebastin.com/services/multilingual-seo/",
+    "content_path": "site/content/en/services/multilingual-seo.md"
+   },
+   "fr": {
+    "id": 24848110,
+    "slug": "referencement-multilingue",
+    "url": "https://mikebastin.com/fr/services/referencement-multilingue/",
+    "content_path": "site/content/fr/services/referencement-multilingue.md"
+   },
+   "es": {
+    "id": 24848105,
+    "slug": "posicionamiento-multilingue",
+    "url": "https://mikebastin.com/es/services/posicionamiento-multilingue/",
+    "content_path": "site/content/es/services/posicionamiento-multilingue.md"
+   }
+  },
+  {
+   "group": "g073",
+   "type": "service",
+   "tier": null,
+   "action": "absorb",
+   "destination": "mdx",
+   "absorbed_into": "website-localisation",
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 17228906,
+    "slug": "localisation-testing",
+    "url": "https://mikebastin.com/services/localisation-testing/",
+    "content_path": "site/content/en/services/localisation-testing.md"
+   },
+   "fr": {
+    "id": 24848835,
+    "slug": "test-localisation",
+    "url": "https://mikebastin.com/fr/services/test-localisation/",
+    "content_path": "site/content/fr/services/test-localisation.md"
+   },
+   "es": {
+    "id": 24849213,
+    "slug": "pruebas-de-localizacion",
+    "url": "https://mikebastin.com/es/services/pruebas-de-localizacion/",
+    "content_path": "site/content/es/services/pruebas-de-localizacion.md"
+   }
+  },
+  {
+   "group": "g074",
+   "type": "service",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24845180,
+    "slug": "multilingual-sem",
+    "url": "https://mikebastin.com/services/multilingual-sem/",
+    "content_path": "site/content/en/services/multilingual-sem.md"
+   },
+   "fr": {
+    "id": 24848816,
+    "slug": "sem-multilingue",
+    "url": "https://mikebastin.com/fr/services/sem-multilingue/",
+    "content_path": "site/content/fr/services/sem-multilingue.md"
+   },
+   "es": {
+    "id": 24848943,
+    "slug": "publicidad-multilingue",
+    "url": "https://mikebastin.com/es/services/publicidad-multilingue/",
+    "content_path": "site/content/es/services/publicidad-multilingue.md"
+   }
+  },
+  {
+   "group": "g075",
+   "type": "service",
+   "tier": null,
+   "action": "absorb",
+   "destination": "mdx",
+   "absorbed_into": "multilingual-content",
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 17229193,
+    "slug": "multilingual-seo-copywriting",
+    "url": "https://mikebastin.com/services/multilingual-seo-copywriting/",
+    "content_path": "site/content/en/services/multilingual-seo-copywriting.md"
+   },
+   "fr": {
+    "id": 24848853,
+    "slug": "creation-de-contenu-multilingue",
+    "url": "https://mikebastin.com/fr/services/creation-de-contenu-multilingue/",
+    "content_path": "site/content/fr/services/creation-de-contenu-multilingue.md"
+   },
+   "es": {
+    "id": 24848754,
+    "slug": "redaccion-seo-multilingue",
+    "url": "https://mikebastin.com/es/services/redaccion-seo-multilingue/",
+    "content_path": "site/content/es/services/redaccion-seo-multilingue.md"
+   }
+  },
+  {
+   "group": "g076",
+   "type": "service",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 17228768,
+    "slug": "german-seo",
+    "url": "https://mikebastin.com/services/german-seo/",
+    "content_path": "site/content/en/services/german-seo.md"
+   },
+   "fr": {
+    "id": 24848688,
+    "slug": "seo-allemand",
+    "url": "https://mikebastin.com/fr/services/seo-allemand/",
+    "content_path": "site/content/fr/services/seo-allemand.md"
+   },
+   "es": {
+    "id": 24849079,
+    "slug": "seo-aleman",
+    "url": "https://mikebastin.com/es/services/seo-aleman/",
+    "content_path": "site/content/es/services/seo-aleman.md"
+   }
+  },
+  {
+   "group": "g077",
+   "type": "service",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 37282,
+    "slug": "french-seo",
+    "url": "https://mikebastin.com/services/french-seo/",
+    "content_path": "site/content/en/services/french-seo.md"
+   },
+   "fr": {
+    "id": 24848789,
+    "slug": "seo",
+    "url": "https://mikebastin.com/fr/services/seo/",
+    "content_path": "site/content/fr/services/seo.md"
+   },
+   "es": {
+    "id": 24848927,
+    "slug": "seo-frances",
+    "url": "https://mikebastin.com/es/services/seo-frances/",
+    "content_path": "site/content/es/services/seo-frances.md"
+   }
+  },
+  {
+   "group": "g078",
+   "type": "service",
+   "tier": null,
+   "action": "absorb",
+   "destination": "mdx",
+   "absorbed_into": "technical-seo",
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24845422,
+    "slug": "english-seo",
+    "url": "https://mikebastin.com/services/english-seo/",
+    "content_path": "site/content/en/services/english-seo.md"
+   },
+   "fr": {
+    "id": 24848451,
+    "slug": "seo-anglais",
+    "url": "https://mikebastin.com/fr/services/seo-anglais/",
+    "content_path": "site/content/fr/services/seo-anglais.md"
+   },
+   "es": {
+    "id": 24848077,
+    "slug": "seo-ingles",
+    "url": "https://mikebastin.com/es/services/seo-ingles/",
+    "content_path": "site/content/es/services/seo-ingles.md"
+   }
+  },
+  {
+   "group": "g079",
+   "type": "service",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 17228897,
+    "slug": "italian-seo",
+    "url": "https://mikebastin.com/services/italian-seo/",
+    "content_path": "site/content/en/services/italian-seo.md"
+   },
+   "fr": {
+    "id": 24848273,
+    "slug": "seo-italien",
+    "url": "https://mikebastin.com/fr/services/seo-italien/",
+    "content_path": "site/content/fr/services/seo-italien.md"
+   },
+   "es": {
+    "id": 24849229,
+    "slug": "seo-italiano",
+    "url": "https://mikebastin.com/es/services/seo-italiano/",
+    "content_path": "site/content/es/services/seo-italiano.md"
+   }
+  },
+  {
+   "group": "g080",
+   "type": "service",
+   "tier": null,
+   "action": "absorb",
+   "destination": "mdx",
+   "absorbed_into": "technical-seo",
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24845425,
+    "slug": "local-seo",
+    "url": "https://mikebastin.com/services/local-seo/",
+    "content_path": "site/content/en/services/local-seo.md"
+   },
+   "fr": {
+    "id": 24848439,
+    "slug": "referencement-local",
+    "url": "https://mikebastin.com/fr/services/referencement-local/",
+    "content_path": "site/content/fr/services/referencement-local.md"
+   },
+   "es": {
+    "id": 24848921,
+    "slug": "seo-local",
+    "url": "https://mikebastin.com/es/services/seo-local/",
+    "content_path": "site/content/es/services/seo-local.md"
+   }
+  },
+  {
+   "group": "g081",
+   "type": "service",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 17228778,
+    "slug": "dutch-seo",
+    "url": "https://mikebastin.com/services/dutch-seo/",
+    "content_path": "site/content/en/services/dutch-seo.md"
+   },
+   "fr": {
+    "id": 24848796,
+    "slug": "seo-neerlandais",
+    "url": "https://mikebastin.com/fr/services/seo-neerlandais/",
+    "content_path": "site/content/fr/services/seo-neerlandais.md"
+   },
+   "es": {
+    "id": 24849207,
+    "slug": "seo-neerlandes",
+    "url": "https://mikebastin.com/es/services/seo-neerlandes/",
+    "content_path": "site/content/es/services/seo-neerlandes.md"
+   }
+  },
+  {
+   "group": "g082",
+   "type": "service",
+   "tier": null,
+   "action": "absorb",
+   "destination": "mdx",
+   "absorbed_into": "technical-seo",
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24844998,
+    "slug": "on-page-seo",
+    "url": "https://mikebastin.com/services/on-page-seo/",
+    "content_path": "site/content/en/services/on-page-seo.md"
+   },
+   "fr": {
+    "id": 24848850,
+    "slug": "seo-on-page",
+    "url": "https://mikebastin.com/fr/services/seo-on-page/",
+    "content_path": "site/content/fr/services/seo-on-page.md"
+   },
+   "es": {
+    "id": 24849106,
+    "slug": "seo-onpage",
+    "url": "https://mikebastin.com/es/services/seo-onpage/",
+    "content_path": "site/content/es/services/seo-onpage.md"
+   }
+  },
+  {
+   "group": "g083",
+   "type": "service",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 17228910,
+    "slug": "portuguese-seo",
+    "url": "https://mikebastin.com/services/portuguese-seo/",
+    "content_path": "site/content/en/services/portuguese-seo.md"
+   },
+   "fr": {
+    "id": 24848863,
+    "slug": "seo-portugais",
+    "url": "https://mikebastin.com/fr/services/seo-portugais/",
+    "content_path": "site/content/fr/services/seo-portugais.md"
+   },
+   "es": {
+    "id": 24849233,
+    "slug": "seo-portugues",
+    "url": "https://mikebastin.com/es/services/seo-portugues/",
+    "content_path": "site/content/es/services/seo-portugues.md"
+   }
+  },
+  {
+   "group": "g084",
+   "type": "service",
+   "tier": null,
+   "action": "absorb",
+   "destination": "mdx",
+   "absorbed_into": "multilingual-seo",
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 37078,
+    "slug": "language-solutions",
+    "url": "https://mikebastin.com/services/language-solutions/",
+    "content_path": "site/content/en/services/language-solutions.md"
+   },
+   "fr": {
+    "id": 24848131,
+    "slug": "solutions-linguistiques",
+    "url": "https://mikebastin.com/fr/services/solutions-linguistiques/",
+    "content_path": "site/content/fr/services/solutions-linguistiques.md"
+   },
+   "es": {
+    "id": 24848234,
+    "slug": "soluciones-linguisticas",
+    "url": "https://mikebastin.com/es/services/soluciones-linguisticas/",
+    "content_path": "site/content/es/services/soluciones-linguisticas.md"
+   }
+  },
+  {
+   "group": "g085",
+   "type": "service",
+   "tier": null,
+   "action": "absorb",
+   "destination": "mdx",
+   "absorbed_into": "translation-services",
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24846012,
+    "slug": "academic-translation",
+    "url": "https://mikebastin.com/services/academic-translation/",
+    "content_path": "site/content/en/services/academic-translation.md"
+   },
+   "fr": {
+    "id": 24848589,
+    "slug": "traduction-academique",
+    "url": "https://mikebastin.com/fr/services/traduction-academique/",
+    "content_path": "site/content/fr/services/traduction-academique.md"
+   },
+   "es": {
+    "id": 24848998,
+    "slug": "traduccion-academica",
+    "url": "https://mikebastin.com/es/services/traduccion-academica/",
+    "content_path": "site/content/es/services/traduccion-academica.md"
+   }
+  },
+  {
+   "group": "g086",
+   "type": "service",
+   "tier": null,
+   "action": "absorb",
+   "destination": "mdx",
+   "absorbed_into": "app-and-software-localisation",
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 17228948,
+    "slug": "multimedia-localisation",
+    "url": "https://mikebastin.com/services/multimedia-localisation/",
+    "content_path": "site/content/en/services/multimedia-localisation.md"
+   },
+   "fr": {
+    "id": 24848276,
+    "slug": "localisation-multimedia",
+    "url": "https://mikebastin.com/fr/services/localisation-multimedia/",
+    "content_path": "site/content/fr/services/localisation-multimedia.md"
+   },
+   "es": {
+    "id": 24848065,
+    "slug": "traduccion-audiovisual",
+    "url": "https://mikebastin.com/es/services/traduccion-audiovisual/",
+    "content_path": "site/content/es/services/traduccion-audiovisual.md"
+   }
+  },
+  {
+   "group": "g087",
+   "type": "service",
+   "tier": null,
+   "action": "absorb",
+   "destination": "mdx",
+   "absorbed_into": "translation-services",
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24845017,
+    "slug": "certified-and-sworn-translation-services",
+    "url": "https://mikebastin.com/services/certified-and-sworn-translation-services/",
+    "content_path": "site/content/en/services/certified-and-sworn-translation-services.md"
+   },
+   "fr": {
+    "id": 24848844,
+    "slug": "traduction-certifiee-et-assermentee",
+    "url": "https://mikebastin.com/fr/services/traduction-certifiee-et-assermentee/",
+    "content_path": "site/content/fr/services/traduction-certifiee-et-assermentee.md"
+   },
+   "es": {
+    "id": 24847929,
+    "slug": "traduccion-certificada-y-jurada",
+    "url": "https://mikebastin.com/es/services/traduccion-certificada-y-jurada/",
+    "content_path": "site/content/es/services/traduccion-certificada-y-jurada.md"
+   }
+  },
+  {
+   "group": "g088",
+   "type": "service",
+   "tier": null,
+   "action": "absorb",
+   "destination": "mdx",
+   "absorbed_into": "translation-services",
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24846085,
+    "slug": "business-translation",
+    "url": "https://mikebastin.com/services/business-translation/",
+    "content_path": "site/content/en/services/business-translation.md"
+   },
+   "fr": {
+    "id": 24848819,
+    "slug": "traduction-commerciale",
+    "url": "https://mikebastin.com/fr/services/traduction-commerciale/",
+    "content_path": "site/content/fr/services/traduction-commerciale.md"
+   },
+   "es": {
+    "id": 24847932,
+    "slug": "traduccion-comercial",
+    "url": "https://mikebastin.com/es/services/traduccion-comercial/",
+    "content_path": "site/content/es/services/traduccion-comercial.md"
+   }
+  },
+  {
+   "group": "g089",
+   "type": "service",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 37096,
+    "slug": "website-localisation",
+    "url": "https://mikebastin.com/services/website-localisation/",
+    "content_path": "site/content/en/services/website-localisation.md"
+   },
+   "fr": {
+    "id": 24848221,
+    "slug": "localisation-de-site-web",
+    "url": "https://mikebastin.com/fr/services/localisation-de-site-web/",
+    "content_path": "site/content/fr/services/localisation-de-site-web.md"
+   },
+   "es": {
+    "id": 24848376,
+    "slug": "traduccion-de-paginas-web",
+    "url": "https://mikebastin.com/es/services/traduccion-de-paginas-web/",
+    "content_path": "site/content/es/services/traduccion-de-paginas-web.md"
+   }
+  },
+  {
+   "group": "g090",
+   "type": "service",
+   "tier": null,
+   "action": "absorb",
+   "destination": "mdx",
+   "absorbed_into": "translation-services",
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24845984,
+    "slug": "financial-translation",
+    "url": "https://mikebastin.com/services/financial-translation/",
+    "content_path": "site/content/en/services/financial-translation.md"
+   },
+   "fr": {
+    "id": 24848710,
+    "slug": "traduction-financiere",
+    "url": "https://mikebastin.com/fr/services/traduction-financiere/",
+    "content_path": "site/content/fr/services/traduction-financiere.md"
+   },
+   "es": {
+    "id": 24849016,
+    "slug": "traduccion-financiera",
+    "url": "https://mikebastin.com/es/services/traduccion-financiera/",
+    "content_path": "site/content/es/services/traduccion-financiera.md"
+   }
+  },
+  {
+   "group": "g091",
+   "type": "service",
+   "tier": null,
+   "action": "absorb",
+   "destination": "mdx",
+   "absorbed_into": "translation-services",
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24845915,
+    "slug": "legal-translation",
+    "url": "https://mikebastin.com/services/legal-translation/",
+    "content_path": "site/content/en/services/legal-translation.md"
+   },
+   "fr": {
+    "id": 24848697,
+    "slug": "traduction-juridique",
+    "url": "https://mikebastin.com/fr/services/traduction-juridique/",
+    "content_path": "site/content/fr/services/traduction-juridique.md"
+   },
+   "es": {
+    "id": 24848765,
+    "slug": "traduccion-juridica",
+    "url": "https://mikebastin.com/es/services/traduccion-juridica/",
+    "content_path": "site/content/es/services/traduccion-juridica.md"
+   }
+  },
+  {
+   "group": "g092",
+   "type": "service",
+   "tier": null,
+   "action": "absorb",
+   "destination": "mdx",
+   "absorbed_into": "translation-services",
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24846072,
+    "slug": "medical-translation",
+    "url": "https://mikebastin.com/services/medical-translation/",
+    "content_path": "site/content/en/services/medical-translation.md"
+   },
+   "fr": {
+    "id": 24848707,
+    "slug": "traduction-medicale",
+    "url": "https://mikebastin.com/fr/services/traduction-medicale/",
+    "content_path": "site/content/fr/services/traduction-medicale.md"
+   },
+   "es": {
+    "id": 24847950,
+    "slug": "traduccion-medica",
+    "url": "https://mikebastin.com/es/services/traduccion-medica/",
+    "content_path": "site/content/es/services/traduccion-medica.md"
+   }
+  },
+  {
+   "group": "g093",
+   "type": "service",
+   "tier": null,
+   "action": "absorb",
+   "destination": "mdx",
+   "absorbed_into": "translation-services",
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 17228989,
+    "slug": "expert-translation-services",
+    "url": "https://mikebastin.com/services/expert-translation-services/",
+    "content_path": "site/content/en/services/expert-translation-services.md"
+   },
+   "fr": {
+    "id": 24848900,
+    "slug": "traduction-professionnelle",
+    "url": "https://mikebastin.com/fr/services/traduction-professionnelle/",
+    "content_path": "site/content/fr/services/traduction-professionnelle.md"
+   },
+   "es": {
+    "id": 24849034,
+    "slug": "traduccion-profesional",
+    "url": "https://mikebastin.com/es/services/traduccion-profesional/",
+    "content_path": "site/content/es/services/traduccion-profesional.md"
+   }
+  },
+  {
+   "group": "g094",
+   "type": "service",
+   "tier": null,
+   "action": "absorb",
+   "destination": "mdx",
+   "absorbed_into": "translation-services",
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24845381,
+    "slug": "transcreation",
+    "url": "https://mikebastin.com/services/transcreation/",
+    "content_path": "site/content/en/services/transcreation.md"
+   },
+   "fr": {
+    "id": 24848715,
+    "slug": "transcreation",
+    "url": "https://mikebastin.com/fr/services/transcreation/",
+    "content_path": "site/content/fr/services/transcreation.md"
+   },
+   "es": {
+    "id": 24848966,
+    "slug": "transcreacion",
+    "url": "https://mikebastin.com/es/services/transcreacion/",
+    "content_path": "site/content/es/services/transcreacion.md"
+   }
+  },
+  {
+   "group": "g095",
+   "type": "page",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 36380,
+    "slug": "our-services",
+    "url": "https://mikebastin.com/our-services/",
+    "content_path": "site/content/en/pages/our-services.md"
+   },
+   "fr": {
+    "id": 24847025,
+    "slug": "nos-services",
+    "url": "https://mikebastin.com/fr/nos-services/",
+    "content_path": "site/content/fr/pages/nos-services.md"
+   },
+   "es": {
+    "id": 24847639,
+    "slug": "servicios-consultoria-web",
+    "url": "https://mikebastin.com/es/servicios-consultoria-web/",
+    "content_path": "site/content/es/pages/servicios-consultoria-web.md"
+   }
+  },
+  {
+   "group": "g096",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": null,
+   "fr": null,
+   "es": {
+    "id": 24855812,
+    "slug": "sistemas-cualificacion-leads-ia",
+    "url": "https://mikebastin.com/es/sistemas-cualificacion-leads-ia/",
+    "content_path": "site/content/es/posts/sistemas-cualificacion-leads-ia.md"
+   }
+  },
+  {
+   "group": "g097",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": null,
+   "fr": null,
+   "es": {
+    "id": 24856459,
+    "slug": "trabajar-en-remoto-desde-valencia",
+    "url": "https://mikebastin.com/es/trabajar-en-remoto-desde-valencia/",
+    "content_path": "site/content/es/posts/trabajar-en-remoto-desde-valencia.md"
+   }
+  },
+  {
+   "group": "g098",
+   "type": "post",
+   "tier": null,
+   "action": "relocate",
+   "destination": "valenciamove",
+   "absorbed_into": null,
+   "vm_action": "redirect-to-existing",
+   "vm_target_url": "https://valenciamove.com/things-to-do-valencia/",
+   "en": {
+    "id": 24847776,
+    "slug": "essential-things-to-do-in-cultural-valencia",
+    "url": "https://mikebastin.com/essential-things-to-do-in-cultural-valencia/",
+    "content_path": "site/content/en/posts/essential-things-to-do-in-cultural-valencia.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g099",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": null,
+   "fr": {
+    "id": 24852014,
+    "slug": "activites-a-valencia",
+    "url": "https://mikebastin.com/fr/activites-a-valencia/",
+    "content_path": "site/content/fr/posts/activites-a-valencia.md"
+   },
+   "es": null
+  },
+  {
+   "group": "g100",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": null,
+   "fr": {
+    "id": 24852001,
+    "slug": "agence-seo-internationale",
+    "url": "https://mikebastin.com/fr/agence-seo-internationale/",
+    "content_path": "site/content/fr/posts/agence-seo-internationale.md"
+   },
+   "es": null
+  },
+  {
+   "group": "g101",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": null,
+   "fr": {
+    "id": 24853729,
+    "slug": "avocats-a-valencia",
+    "url": "https://mikebastin.com/fr/avocats-a-valencia/",
+    "content_path": "site/content/fr/posts/avocats-a-valencia.md"
+   },
+   "es": null
+  },
+  {
+   "group": "g102",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": null,
+   "fr": {
+    "id": 24856092,
+    "slug": "choses-a-savoir-absolument-avant-de-sinstaller-a-valencia",
+    "url": "https://mikebastin.com/fr/choses-a-savoir-absolument-avant-de-sinstaller-a-valencia/",
+    "content_path": "site/content/fr/posts/choses-a-savoir-absolument-avant-de-sinstaller-a-valencia.md"
+   },
+   "es": null
+  },
+  {
+   "group": "g103",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": null,
+   "fr": {
+    "id": 24852017,
+    "slug": "climat-a-valencia",
+    "url": "https://mikebastin.com/fr/climat-a-valencia/",
+    "content_path": "site/content/fr/posts/climat-a-valencia.md"
+   },
+   "es": null
+  },
+  {
+   "group": "g104",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": null,
+   "fr": {
+    "id": 24851998,
+    "slug": "consultant-referencement-international",
+    "url": "https://mikebastin.com/fr/consultant-referencement-international/",
+    "content_path": "site/content/fr/posts/consultant-referencement-international.md"
+   },
+   "es": null
+  },
+  {
+   "group": "g105",
+   "type": "post",
+   "tier": null,
+   "action": "relocate",
+   "destination": "valenciamove",
+   "absorbed_into": null,
+   "vm_action": "redirect-to-existing",
+   "vm_target_url": "https://valenciamove.com/cost-of-living-valencia/",
+   "en": {
+    "id": 24856236,
+    "slug": "valencia-cost-of-living",
+    "url": "https://mikebastin.com/valencia-cost-of-living/",
+    "content_path": "site/content/en/posts/valencia-cost-of-living.md"
+   },
+   "fr": {
+    "id": 24856418,
+    "slug": "cout-de-la-vie-valencia",
+    "url": "https://mikebastin.com/fr/cout-de-la-vie-valencia/",
+    "content_path": "site/content/fr/posts/cout-de-la-vie-valencia.md"
+   },
+   "es": null
+  },
+  {
+   "group": "g106",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": null,
+   "fr": {
+    "id": 24853177,
+    "slug": "entrepreneuriat-international-a-valencia",
+    "url": "https://mikebastin.com/fr/entrepreneuriat-international-a-valencia/",
+    "content_path": "site/content/fr/posts/entrepreneuriat-international-a-valencia.md"
+   },
+   "es": null
+  },
+  {
+   "group": "g107",
+   "type": "post",
+   "tier": null,
+   "action": "relocate",
+   "destination": "valenciamove",
+   "absorbed_into": null,
+   "vm_action": "redirect-to-existing",
+   "vm_target_url": "https://valenciamove.com/expat-community-valencia/",
+   "en": {
+    "id": 24847787,
+    "slug": "valencia-expat",
+    "url": "https://mikebastin.com/valencia-expat/",
+    "content_path": "site/content/en/posts/valencia-expat.md"
+   },
+   "fr": {
+    "id": 24851494,
+    "slug": "expatrie-valencia",
+    "url": "https://mikebastin.com/fr/expatrie-valencia/",
+    "content_path": "site/content/fr/posts/expatrie-valencia.md"
+   },
+   "es": null
+  },
+  {
+   "group": "g108",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": null,
+   "fr": {
+    "id": 24851999,
+    "slug": "expert-en-seo-international",
+    "url": "https://mikebastin.com/fr/expert-en-seo-international/",
+    "content_path": "site/content/fr/posts/expert-en-seo-international.md"
+   },
+   "es": null
+  },
+  {
+   "group": "g109",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": null,
+   "fr": {
+    "id": 24854295,
+    "slug": "francais-a-valencia",
+    "url": "https://mikebastin.com/fr/francais-a-valencia/",
+    "content_path": "site/content/fr/posts/francais-a-valencia.md"
+   },
+   "es": null
+  },
+  {
+   "group": "g110",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": null,
+   "fr": {
+    "id": 24852022,
+    "slug": "immobilier-a-valencia",
+    "url": "https://mikebastin.com/fr/immobilier-a-valencia/",
+    "content_path": "site/content/fr/posts/immobilier-a-valencia.md"
+   },
+   "es": null
+  },
+  {
+   "group": "g111",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": null,
+   "fr": {
+    "id": 24853169,
+    "slug": "mode-de-vie-de-valencia",
+    "url": "https://mikebastin.com/fr/mode-de-vie-de-valencia/",
+    "content_path": "site/content/fr/posts/mode-de-vie-de-valencia.md"
+   },
+   "es": null
+  },
+  {
+   "group": "g112",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": null,
+   "fr": {
+    "id": 24853188,
+    "slug": "nouvelles-tendances-du-secteur-des-affaires",
+    "url": "https://mikebastin.com/fr/nouvelles-tendances-du-secteur-des-affaires/",
+    "content_path": "site/content/fr/posts/nouvelles-tendances-du-secteur-des-affaires.md"
+   },
+   "es": null
+  },
+  {
+   "group": "g113",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": null,
+   "fr": {
+    "id": 24852012,
+    "slug": "plages-de-valencia",
+    "url": "https://mikebastin.com/fr/plages-de-valencia/",
+    "content_path": "site/content/fr/posts/plages-de-valencia.md"
+   },
+   "es": null
+  },
+  {
+   "group": "g114",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24847415,
+    "slug": "optimising-your-website-for-voice-search",
+    "url": "https://mikebastin.com/optimising-your-website-for-voice-search/",
+    "content_path": "site/content/en/posts/optimising-your-website-for-voice-search.md"
+   },
+   "fr": {
+    "id": 24853044,
+    "slug": "recherche-vocale",
+    "url": "https://mikebastin.com/fr/recherche-vocale/",
+    "content_path": "site/content/fr/posts/recherche-vocale.md"
+   },
+   "es": null
+  },
+  {
+   "group": "g115",
+   "type": "service",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": null,
+   "fr": {
+    "id": 24848915,
+    "slug": "localisation-juridique-reglementaire",
+    "url": "https://mikebastin.com/fr/services/localisation-juridique-reglementaire/",
+    "content_path": "site/content/fr/services/localisation-juridique-reglementaire.md"
+   },
+   "es": null
+  },
+  {
+   "group": "g116",
+   "type": "post",
+   "tier": null,
+   "action": "relocate",
+   "destination": "valenciamove",
+   "absorbed_into": null,
+   "vm_action": "redirect-to-existing",
+   "vm_target_url": "https://valenciamove.com/valencia-transportation-guide/",
+   "en": {
+    "id": 24847786,
+    "slug": "valencia-public-transportation",
+    "url": "https://mikebastin.com/valencia-public-transportation/",
+    "content_path": "site/content/en/posts/valencia-public-transportation.md"
+   },
+   "fr": {
+    "id": 24851386,
+    "slug": "transport-a-valencia",
+    "url": "https://mikebastin.com/fr/transport-a-valencia/",
+    "content_path": "site/content/fr/posts/transport-a-valencia.md"
+   },
+   "es": null
+  },
+  {
+   "group": "g117",
+   "type": "post",
+   "tier": null,
+   "action": "relocate",
+   "destination": "valenciamove",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24847200,
+    "slug": "work-life-balance-in-valencia",
+    "url": "https://mikebastin.com/work-life-balance-in-valencia/",
+    "content_path": "site/content/en/posts/work-life-balance-in-valencia.md"
+   },
+   "fr": {
+    "id": 24852158,
+    "slug": "travailler-a-valencia-en-tant-quexpatrie",
+    "url": "https://mikebastin.com/fr/travailler-a-valencia-en-tant-quexpatrie/",
+    "content_path": "site/content/fr/posts/travailler-a-valencia-en-tant-quexpatrie.md"
+   },
+   "es": null
+  },
+  {
+   "group": "g118",
+   "type": "post",
+   "tier": null,
+   "action": "relocate",
+   "destination": "valenciamove",
+   "absorbed_into": null,
+   "vm_action": "redirect-to-existing",
+   "vm_target_url": "https://valenciamove.com/blog/sounds-of-valencia/",
+   "en": {
+    "id": 24854578,
+    "slug": "valencia-50-shades-of-noise",
+    "url": "https://mikebastin.com/valencia-50-shades-of-noise/",
+    "content_path": "site/content/en/posts/valencia-50-shades-of-noise.md"
+   },
+   "fr": {
+    "id": 24851890,
+    "slug": "valencia-50-nuances-de-bruits",
+    "url": "https://mikebastin.com/fr/valencia-50-nuances-de-bruits/",
+    "content_path": "site/content/fr/posts/valencia-50-nuances-de-bruits.md"
+   },
+   "es": null
+  },
+  {
+   "group": "g119",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": null,
+   "fr": {
+    "id": 24856398,
+    "slug": "visa-nomade-numerique-espagne",
+    "url": "https://mikebastin.com/fr/visa-nomade-numerique-espagne/",
+    "content_path": "site/content/fr/posts/visa-nomade-numerique-espagne.md"
+   },
+   "es": null
+  },
+  {
+   "group": "g120",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": null,
+   "fr": {
+    "id": 24853158,
+    "slug": "vivre-en-appartement-a-valencia",
+    "url": "https://mikebastin.com/fr/vivre-en-appartement-a-valencia/",
+    "content_path": "site/content/fr/posts/vivre-en-appartement-a-valencia.md"
+   },
+   "es": null
+  },
+  {
+   "group": "g121",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 17229036,
+    "slug": "french-ppc-campaign",
+    "url": "https://mikebastin.com/french-ppc-campaign/",
+    "content_path": "site/content/en/posts/french-ppc-campaign.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g122",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24847479,
+    "slug": "future-of-seo",
+    "url": "https://mikebastin.com/future-of-seo/",
+    "content_path": "site/content/en/posts/future-of-seo.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g123",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 17228975,
+    "slug": "german-seo-best-practices",
+    "url": "https://mikebastin.com/german-seo-best-practices/",
+    "content_path": "site/content/en/posts/german-seo-best-practices.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g124",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 17228922,
+    "slug": "german-seo-content-localisation",
+    "url": "https://mikebastin.com/german-seo-content-localisation/",
+    "content_path": "site/content/en/posts/german-seo-content-localisation.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g125",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 36912,
+    "slug": "global-business-trends",
+    "url": "https://mikebastin.com/global-business-trends/",
+    "content_path": "site/content/en/posts/global-business-trends.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g126",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24855766,
+    "slug": "google-analytics-international-marketing-limits",
+    "url": "https://mikebastin.com/google-analytics-international-marketing-limits/",
+    "content_path": "site/content/en/posts/google-analytics-international-marketing-limits.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g127",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24845407,
+    "slug": "how-ai-is-revolutionising-seo-strategies",
+    "url": "https://mikebastin.com/how-ai-is-revolutionising-seo-strategies/",
+    "content_path": "site/content/en/posts/how-ai-is-revolutionising-seo-strategies.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g128",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 37218,
+    "slug": "how-ai-is-transforming-translation-and-localisation",
+    "url": "https://mikebastin.com/how-ai-is-transforming-translation-and-localisation/",
+    "content_path": "site/content/en/posts/how-ai-is-transforming-translation-and-localisation.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g129",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24845163,
+    "slug": "how-to-create-a-targeted-content-strategy",
+    "url": "https://mikebastin.com/how-to-create-a-targeted-content-strategy/",
+    "content_path": "site/content/en/posts/how-to-create-a-targeted-content-strategy.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g130",
+   "type": "post",
+   "tier": null,
+   "action": "retire",
+   "destination": "prune",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 36914,
+    "slug": "how-to-make-money-on-youtube",
+    "url": "https://mikebastin.com/how-to-make-money-on-youtube/",
+    "content_path": "site/content/en/posts/how-to-make-money-on-youtube.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g131",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 37037,
+    "slug": "how-to-promote-your-local-business-on-google-maps",
+    "url": "https://mikebastin.com/how-to-promote-your-local-business-on-google-maps/",
+    "content_path": "site/content/en/posts/how-to-promote-your-local-business-on-google-maps.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g132",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24845458,
+    "slug": "how-to-use-ai-and-machine-translation-tools",
+    "url": "https://mikebastin.com/how-to-use-ai-and-machine-translation-tools/",
+    "content_path": "site/content/en/posts/how-to-use-ai-and-machine-translation-tools.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g133",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 36913,
+    "slug": "how-to-write-about-your-professional-background",
+    "url": "https://mikebastin.com/how-to-write-about-your-professional-background/",
+    "content_path": "site/content/en/posts/how-to-write-about-your-professional-background.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g134",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24855433,
+    "slug": "human-creator-economy",
+    "url": "https://mikebastin.com/human-creator-economy/",
+    "content_path": "site/content/en/posts/human-creator-economy.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g135",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24846129,
+    "slug": "internal-linking-tools",
+    "url": "https://mikebastin.com/internal-linking-tools/",
+    "content_path": "site/content/en/posts/internal-linking-tools.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g136",
+   "type": "post",
+   "tier": null,
+   "action": "relocate",
+   "destination": "valenciamove",
+   "absorbed_into": null,
+   "vm_action": "redirect-to-existing",
+   "vm_target_url": "https://valenciamove.com/international-schools-valencia/",
+   "en": {
+    "id": 24847781,
+    "slug": "international-schools-in-valencia",
+    "url": "https://mikebastin.com/international-schools-in-valencia/",
+    "content_path": "site/content/en/posts/international-schools-in-valencia.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g137",
+   "type": "post",
+   "tier": null,
+   "action": "retire",
+   "destination": "prune",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24847882,
+    "slug": "language-data-analysis",
+    "url": "https://mikebastin.com/language-data-analysis/",
+    "content_path": "site/content/en/posts/language-data-analysis.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g138",
+   "type": "post",
+   "tier": null,
+   "action": "retire",
+   "destination": "prune",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24847105,
+    "slug": "language-service-providers",
+    "url": "https://mikebastin.com/language-service-providers/",
+    "content_path": "site/content/en/posts/language-service-providers.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g139",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24847256,
+    "slug": "law-firm-seo-services",
+    "url": "https://mikebastin.com/law-firm-seo-services/",
+    "content_path": "site/content/en/posts/law-firm-seo-services.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g140",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24845622,
+    "slug": "link-building-in-spain",
+    "url": "https://mikebastin.com/link-building-in-spain/",
+    "content_path": "site/content/en/posts/link-building-in-spain.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g141",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24847099,
+    "slug": "link-selling-and-link-buying-platforms",
+    "url": "https://mikebastin.com/link-selling-and-link-buying-platforms/",
+    "content_path": "site/content/en/posts/link-selling-and-link-buying-platforms.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g142",
+   "type": "post",
+   "tier": null,
+   "action": "relocate",
+   "destination": "valenciamove",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24854222,
+    "slug": "live-in-valencia",
+    "url": "https://mikebastin.com/live-in-valencia/",
+    "content_path": "site/content/en/posts/live-in-valencia.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g143",
+   "type": "post",
+   "tier": null,
+   "action": "relocate",
+   "destination": "valenciamove",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24847564,
+    "slug": "living-in-a-flat-in-valencia-a-pragmatic-overview",
+    "url": "https://mikebastin.com/living-in-a-flat-in-valencia-a-pragmatic-overview/",
+    "content_path": "site/content/en/posts/living-in-a-flat-in-valencia-a-pragmatic-overview.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g144",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24855595,
+    "slug": "llms-beyond-giants-hidden-ai-models",
+    "url": "https://mikebastin.com/llms-beyond-giants-hidden-ai-models/",
+    "content_path": "site/content/en/posts/llms-beyond-giants-hidden-ai-models.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g145",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 17228970,
+    "slug": "localisation-testing-tools",
+    "url": "https://mikebastin.com/localisation-testing-tools/",
+    "content_path": "site/content/en/posts/localisation-testing-tools.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g146",
+   "type": "post",
+   "tier": null,
+   "action": "absorb",
+   "destination": "prune",
+   "absorbed_into": "multilingual-keyword-research",
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24844952,
+    "slug": "long-tail-keywords",
+    "url": "https://mikebastin.com/long-tail-keywords/",
+    "content_path": "site/content/en/posts/long-tail-keywords.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g147",
+   "type": "post",
+   "tier": null,
+   "action": "retire",
+   "destination": "prune",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 17228794,
+    "slug": "mastering-the-art-of-networking",
+    "url": "https://mikebastin.com/mastering-the-art-of-networking/",
+    "content_path": "site/content/en/posts/mastering-the-art-of-networking.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g148",
+   "type": "post",
+   "tier": null,
+   "action": "retire",
+   "destination": "prune",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 29530,
+    "slug": "most-popular-marketing-strategies",
+    "url": "https://mikebastin.com/most-popular-marketing-strategies/",
+    "content_path": "site/content/en/posts/most-popular-marketing-strategies.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g149",
+   "type": "post",
+   "tier": null,
+   "action": "relocate",
+   "destination": "valenciamove",
+   "absorbed_into": null,
+   "vm_action": "redirect-to-existing",
+   "vm_target_url": "https://valenciamove.com/moving-to-valencia-from-usa/",
+   "en": {
+    "id": 24856232,
+    "slug": "move-to-valencia-spain-from-usa",
+    "url": "https://mikebastin.com/move-to-valencia-spain-from-usa/",
+    "content_path": "site/content/en/posts/move-to-valencia-spain-from-usa.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g150",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 37216,
+    "slug": "multilingual-keyword-research",
+    "url": "https://mikebastin.com/multilingual-keyword-research/",
+    "content_path": "site/content/en/posts/multilingual-keyword-research.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g151",
+   "type": "post",
+   "tier": null,
+   "action": "relocate",
+   "destination": "valenciamove",
+   "absorbed_into": null,
+   "vm_action": "redirect-to-existing",
+   "vm_target_url": "https://valenciamove.com/blog/best-neighborhoods-families-professionals/",
+   "en": {
+    "id": 24847202,
+    "slug": "neighbourhoods-for-professionals-in-valencia",
+    "url": "https://mikebastin.com/neighbourhoods-for-professionals-in-valencia/",
+    "content_path": "site/content/en/posts/neighbourhoods-for-professionals-in-valencia.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g152",
+   "type": "post",
+   "tier": null,
+   "action": "retire",
+   "destination": "prune",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24845534,
+    "slug": "optimise-a-google-business-profile",
+    "url": "https://mikebastin.com/optimise-a-google-business-profile/",
+    "content_path": "site/content/en/posts/optimise-a-google-business-profile.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g153",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24845456,
+    "slug": "optimising-multilingual-website-content",
+    "url": "https://mikebastin.com/optimising-multilingual-website-content/",
+    "content_path": "site/content/en/posts/optimising-multilingual-website-content.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g154",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24847185,
+    "slug": "optimising-your-website-for-valencia-based-searches",
+    "url": "https://mikebastin.com/optimising-your-website-for-valencia-based-searches/",
+    "content_path": "site/content/en/posts/optimising-your-website-for-valencia-based-searches.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g155",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24847926,
+    "slug": "prompt-engineers",
+    "url": "https://mikebastin.com/prompt-engineers/",
+    "content_path": "site/content/en/posts/prompt-engineers.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g156",
+   "type": "post",
+   "tier": null,
+   "action": "retire",
+   "destination": "prune",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 37222,
+    "slug": "roi-of-website-localisation",
+    "url": "https://mikebastin.com/roi-of-website-localisation/",
+    "content_path": "site/content/en/posts/roi-of-website-localisation.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g157",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24855728,
+    "slug": "search-everywhere-strategy",
+    "url": "https://mikebastin.com/search-everywhere-strategy/",
+    "content_path": "site/content/en/posts/search-everywhere-strategy.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g158",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24845994,
+    "slug": "seo-in-belgium",
+    "url": "https://mikebastin.com/seo-in-belgium/",
+    "content_path": "site/content/en/posts/seo-in-belgium.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g159",
+   "type": "post",
+   "tier": null,
+   "action": "retire",
+   "destination": "prune",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 17228798,
+    "slug": "seo-mistakes-to-avoid",
+    "url": "https://mikebastin.com/seo-mistakes-to-avoid/",
+    "content_path": "site/content/en/posts/seo-mistakes-to-avoid.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g160",
+   "type": "post",
+   "tier": null,
+   "action": "relocate",
+   "destination": "valenciamove",
+   "absorbed_into": null,
+   "vm_action": "redirect-to-existing",
+   "vm_target_url": "https://valenciamove.com/shipping-belongings-spain/",
+   "en": {
+    "id": 24856240,
+    "slug": "shipping-to-valencia-spain",
+    "url": "https://mikebastin.com/shipping-to-valencia-spain/",
+    "content_path": "site/content/en/posts/shipping-to-valencia-spain.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g161",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24845629,
+    "slug": "spanish-keyword-localisation",
+    "url": "https://mikebastin.com/spanish-keyword-localisation/",
+    "content_path": "site/content/en/posts/spanish-keyword-localisation.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g162",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24845619,
+    "slug": "spanish-on-page-seo",
+    "url": "https://mikebastin.com/spanish-on-page-seo/",
+    "content_path": "site/content/en/posts/spanish-on-page-seo.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g163",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24845011,
+    "slug": "spanish-seo-markets",
+    "url": "https://mikebastin.com/spanish-seo-markets/",
+    "content_path": "site/content/en/posts/spanish-seo-markets.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g164",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24845784,
+    "slug": "technical-seo-audit-checklist",
+    "url": "https://mikebastin.com/technical-seo-audit-checklist/",
+    "content_path": "site/content/en/posts/technical-seo-audit-checklist.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g165",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 17228920,
+    "slug": "technical-seo-considerations-for-german-websites",
+    "url": "https://mikebastin.com/technical-seo-considerations-for-german-websites/",
+    "content_path": "site/content/en/posts/technical-seo-considerations-for-german-websites.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g166",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24845457,
+    "slug": "technical-seo-for-multilingual-websites",
+    "url": "https://mikebastin.com/technical-seo-for-multilingual-websites/",
+    "content_path": "site/content/en/posts/technical-seo-for-multilingual-websites.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g167",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24845623,
+    "slug": "technical-seo-for-spanish-search-engines",
+    "url": "https://mikebastin.com/technical-seo-for-spanish-search-engines/",
+    "content_path": "site/content/en/posts/technical-seo-for-spanish-search-engines.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g168",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24844876,
+    "slug": "top-instagram-tools",
+    "url": "https://mikebastin.com/top-instagram-tools/",
+    "content_path": "site/content/en/posts/top-instagram-tools.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g169",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24844976,
+    "slug": "user-interface-localisation-can-transform-your-global-reach",
+    "url": "https://mikebastin.com/user-interface-localisation-can-transform-your-global-reach/",
+    "content_path": "site/content/en/posts/user-interface-localisation-can-transform-your-global-reach.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g170",
+   "type": "post",
+   "tier": null,
+   "action": "relocate",
+   "destination": "valenciamove",
+   "absorbed_into": null,
+   "vm_action": "redirect-to-existing",
+   "vm_target_url": "https://valenciamove.com/valencia-transportation-guide/",
+   "en": {
+    "id": 24856243,
+    "slug": "valencia-airport-guide",
+    "url": "https://mikebastin.com/valencia-airport-guide/",
+    "content_path": "site/content/en/posts/valencia-airport-guide.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g171",
+   "type": "post",
+   "tier": null,
+   "action": "relocate",
+   "destination": "valenciamove",
+   "absorbed_into": null,
+   "vm_action": "redirect-to-existing",
+   "vm_target_url": "https://valenciamove.com/blog/best-areas-valencia-digital-nomads/",
+   "en": {
+    "id": 24856245,
+    "slug": "valencia-digital-nomads",
+    "url": "https://mikebastin.com/valencia-digital-nomads/",
+    "content_path": "site/content/en/posts/valencia-digital-nomads.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g172",
+   "type": "post",
+   "tier": null,
+   "action": "relocate",
+   "destination": "valenciamove",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24856234,
+    "slug": "valencia-good-place-to-live",
+    "url": "https://mikebastin.com/valencia-good-place-to-live/",
+    "content_path": "site/content/en/posts/valencia-good-place-to-live.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g173",
+   "type": "post",
+   "tier": null,
+   "action": "relocate",
+   "destination": "valenciamove",
+   "absorbed_into": null,
+   "vm_action": "redirect-to-existing",
+   "vm_target_url": "https://valenciamove.com/cost-of-living-valencia/",
+   "en": {
+    "id": 24847775,
+    "slug": "valencia-living-expenses",
+    "url": "https://mikebastin.com/valencia-living-expenses/",
+    "content_path": "site/content/en/posts/valencia-living-expenses.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g174",
+   "type": "post",
+   "tier": null,
+   "action": "relocate",
+   "destination": "valenciamove",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24847177,
+    "slug": "valencia-remote-working",
+    "url": "https://mikebastin.com/valencia-remote-working/",
+    "content_path": "site/content/en/posts/valencia-remote-working.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g175",
+   "type": "post",
+   "tier": null,
+   "action": "relocate",
+   "destination": "valenciamove",
+   "absorbed_into": null,
+   "vm_action": "redirect-to-existing",
+   "vm_target_url": "https://valenciamove.com/valencia-culture-shocks/",
+   "en": {
+    "id": 24847565,
+    "slug": "valencia-the-not-so-perfect-mediterranean-paradise",
+    "url": "https://mikebastin.com/valencia-the-not-so-perfect-mediterranean-paradise/",
+    "content_path": "site/content/en/posts/valencia-the-not-so-perfect-mediterranean-paradise.md"
+   },
+   "fr": null,
+   "es": null
+  },
+  {
+   "group": "g176",
+   "type": "post",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "en": {
+    "id": 24844948,
+    "slug": "what-is-search-intent-mapping",
+    "url": "https://mikebastin.com/what-is-search-intent-mapping/",
+    "content_path": "site/content/en/posts/what-is-search-intent-mapping.md"
+   },
+   "fr": null,
+   "es": null
+  }
+ ]
 }
