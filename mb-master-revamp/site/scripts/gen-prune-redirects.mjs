@@ -43,7 +43,7 @@ const TARGETS = {
   "optimise-a-google-business-profile": ["/services/local-seo/", "Owner correction 6 Sep: this is off-site/local visibility work, not technical-seo. local-seo has its own page now."],
   "how-to-make-money-on-youtube": ["/blog/", "Owner confirmed 6 Sep: no experience in that space, nothing on the site to point it at."],
   "boosting-local-seo": ["/services/local-seo/", "Owner correction 6 Sep: this is off-site SEO, not technical-seo. Same cluster as optimise-a-google-business-profile, which is retiring to the same page in this batch -- pointed directly here rather than chaining through a post that is about to disappear."],
-  "long-tail-keywords": ["/multilingual-keyword-research/", "multilingual-keyword-research already owns this topic, with 2,852 impressions, and stays live."],
+  "long-tail-keywords": ["/blog/multilingual-keyword-research/", "multilingual-keyword-research already owns this topic, with 2,852 impressions, and stays live at its Journal URL now that /blog/ is wired up."],
 };
 
 const cm = JSON.parse(readFileSync(MAP, "utf8"));
