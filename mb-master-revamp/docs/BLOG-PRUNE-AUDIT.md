@@ -11,7 +11,7 @@ Grounded in real Google Search Console data pulled this pass (450-day window, `m
 | **KEEP** | 59 | Stays as a standalone post on mikebastin.com |
 | **RELOCATE** | 22 | Leaves for valenciamove.com (Valencia exodus, `redirects/valencia-exodus.json`) |
 | **MERGE** | 2 | Retires, 301s into a stronger post that already owns the topic |
-| **REMOVE** | 9 | Retires, 301s to the nearest relevant hub -- no single post owns the topic |
+| **REMOVE** | 8 | Retires, 301s to the nearest relevant hub -- no single post owns the topic |
 
 REMOVE and MERGE are both written into `redirects/content-map.json` now (`action: "retire"` / `"absorb"`), so they will not be silently re-migrated by a future pass.
 
