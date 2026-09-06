@@ -8,33 +8,32 @@ Grounded in real Google Search Console data pulled this pass (450-day window, `m
 
 | Disposition | Count | Meaning |
 |---|---:|---|
-| **KEEP** | 55 | Stays as a standalone post on mikebastin.com |
+| **KEEP** | 59 | Stays as a standalone post on mikebastin.com |
 | **RELOCATE** | 22 | Leaves for valenciamove.com (Valencia exodus, `redirects/valencia-exodus.json`) |
 | **MERGE** | 2 | Retires, 301s into a stronger post that already owns the topic |
-| **REMOVE** | 12 | Retires, 301s to the nearest relevant hub -- no single post owns the topic |
+| **REMOVE** | 8 | Retires, 301s to the nearest relevant hub -- no single post owns the topic |
 
 REMOVE and MERGE are both written into `redirects/content-map.json` now (`action: "retire"` / `"absorb"`), so they will not be silently re-migrated by a future pass.
 
+**Correction (owner, 6 Sep):** the first pass judged four of these against SEO alone. mikebastin.com's actual scope is SEO, digital marketing and AI, not SEO on its own, and four REMOVE calls were wrong under the real scope: `mastering-the-art-of-networking` (its own excerpt says "networking powerhouse in digital marketing"), `most-popular-marketing-strategies`, `15-simple-blog-post-ideas-to-help-attract-more-customers-to-your-business`, and `email-marketing-hacks-boosting-open-rates-and-conversions`. All four are genuine digital-marketing content, not off-topic filler, and are back to KEEP below. `content-map.json` updated to match (`action: "migrate"`, `destination: "mdx"`).
+
 ## REMOVE -- retire, no single post owns the topic
 
-Every one of these was checked individually against live GSC data before being listed here.
+Every one of these was checked individually against live GSC data before being listed here. None were removed for being off-topic for a broader SEO/digital-marketing/AI site -- see the correction above for the four that were and got reversed.
 
 | Post | Impressions/450d | Reason |
 |---|---:|---|
 | `language-service-providers` | 0 | 0 impressions in 450 days (GSC: no_matching_rows). Reads as a vendor-comparison/competitor-promotion piece, not something this site should host. |
-| `mastering-the-art-of-networking` | 0 | 0 impressions in 450 days (GSC: no_matching_rows). Career-networking content, unrelated to SEO or translation. |
-| `15-simple-blog-post-ideas-to-help-attract-more-customers-to-your-business` | 1 | 1 impression in 450 days. Generic listicle with no topical home on the rebuilt site. |
 | `affordable-seo-services` | 1 | 1 impression in 450 days. Duplicates ground the consolidated service pages already cover. |
 | `seo-mistakes-to-avoid` | 1 | 1 impression in 450 days. Generic listicle, no unique angle. |
-| `most-popular-marketing-strategies` | 2 | 2 impressions in 450 days. Generic filler with no angle the site owns. |
 | `roi-of-website-localisation` | 2 | 2 impressions in 450 days. The website-localisation service page already makes this case, with an offer behind it. |
-| `email-marketing-hacks-boosting-open-rates-and-conversions` | 12 | 12 impressions in 450 days. Off-strategy: email marketing isn't a service this site sells. |
-| `how-to-make-money-on-youtube` | 18 | 18 impressions in 450 days, 0 clicks, ranking position 56-99. Off-topic for an SEO/multilingual consultancy. |
 | `cultural-differences-in-multilingual-websites` | 26 | 26 impressions in 450 days. Topic is already the multilingual-content service's job. |
-| `language-data-analysis` | 27 | 27 impressions in 450 days. Vague premise, no page it naturally belongs under. |
+| `language-data-analysis` | 27 | 27 impressions in 450 days. Vague premise ("what language data even is"), not tied to AI or marketing despite the slug -- no page it naturally belongs under. |
 | `optimise-a-google-business-profile` | 33 | 33 impressions in 450 days, 0 clicks. The local-seo service (already consolidated into technical-seo) covers this. |
 
-**301 target for all of the above: `/blog/` or `/services/`, whichever the redirect implementation lands on** -- these have no natural single successor, so a hub is the honest destination rather than inventing a false match. Not yet wired into an .htaccess rule; that's a follow-up once you confirm the list.
+**Needs your call, not decided here:** `how-to-make-money-on-youtube` (18 impressions/450d, 0 clicks, position 56-99). Its excerpt is about a creator monetising their own channel (Partner Program, channel memberships), which is a different audience from "digital marketing for businesses" even under the corrected scope -- but it's adjacent enough to the digital-marketing/AI remit that I didn't want to reverse it unilaterally the way I did the other four. Still marked REMOVE in `content-map.json` pending your answer.
+
+**301 target for the confirmed REMOVE list: `/blog/` or `/services/`, whichever the redirect implementation lands on** -- these have no natural single successor, so a hub is the honest destination rather than inventing a false match. Not yet wired into an .htaccess rule; that's a follow-up once you confirm the list.
 
 ## MERGE -- retires into a stronger post that already owns the topic
 
@@ -49,8 +48,8 @@ Every one of these was checked individually against live GSC data before being l
 
 ## KEEP -- no action
 
-55 posts stay as-is. 
-34 have a confirmed real impressions figure; the strongest are the ones already carrying the site's actual traffic and should not be touched:
+59 posts stay as-is (55 originally, plus the 4 reinstated in the correction above). 
+38 have a confirmed real impressions figure; the strongest are the ones already carrying the site's actual traffic and should not be touched:
 
 | Post | Impressions/450d |
 |---|---:|
