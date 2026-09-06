@@ -2,11 +2,21 @@ import type { Metadata } from "next";
 import Reveal from "@/components/Reveal";
 import Testimonials from "@/components/Testimonials";
 import SiteFooter from "@/components/SiteFooter";
+import JsonLd from "@/components/JsonLd";
+import { getService } from "@/lib/services";
+import { SITE_URL, breadcrumbSchema, serviceSchema } from "@/lib/schema";
+
+// The Service entry for this slug still lives in lib/services.ts (the
+// services index card reads it from there), even though this page itself
+// is hand-built rather than rendered through app/services/[slug]/. Reusing
+// its metaDescription here keeps one page from carrying two different
+// descriptions of the same service.
+const service = getService("lead-generation")!;
+const url = `${SITE_URL}/services/lead-generation/`;
 
 export const metadata: Metadata = {
-  title: "Multilingual lead generation, Mike Bastin",
-  description:
-    "Multilingual SEO, localisation and AI consulting are the mechanisms. Enquiries are the product.",
+  title: service.metaTitle,
+  description: service.metaDescription,
 };
 
 const ABSORBS = [
@@ -23,6 +33,20 @@ const ABSORBS = [
 export default function LeadGenerationPage() {
   return (
     <main>
+      <JsonLd
+        data={[
+          serviceSchema({
+            name: service.name,
+            description: service.metaDescription ?? service.lede,
+            url,
+          }),
+          breadcrumbSchema([
+            { name: "Home", url: `${SITE_URL}/` },
+            { name: "Services", url: `${SITE_URL}/services/` },
+            { name: service.name, url },
+          ]),
+        ]}
+      />
       {/* ============ HERO ============ */}
       <section className="band band-a grain relative overflow-hidden pb-[clamp(56px,8vw,100px)] pt-[clamp(96px,14vw,160px)]">
         <div className="shell relative">

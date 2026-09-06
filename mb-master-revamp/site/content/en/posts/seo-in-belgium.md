@@ -28,7 +28,7 @@ Belgium’s linguistic diversity isn’t just a cultural hallmark; it’s a defi
 
 For SEO professionals, this means adapting strategies to resonate with distinct language groups, each with its own preferences and nuances.
 
-The linguistic make-up of Belgium is complex and diverse. Dutch, often referred to as Flemish in Belgium, is the most widely spoken language, with around 60% of the population being native Dutch speakers.
+The linguistic make-up of Belgium is complex and diverse. Dutch, often referred to as Flemish in Belgium, is the most widely spoken language, with around 60% of the population being native Dutch speakers, according to [Belgium's official language statistics](https://en.wikipedia.org/wiki/Languages_of_Belgium).
 
 French follows closely, spoken by approximately 40% of Belgians, primarily in the Wallonia region and Brussels.
 
@@ -52,7 +52,7 @@ Incorporating local SEO elements, such as region-specific keywords and locally r
 
 ![](https://mikebastin.com/wp-content/uploads/2024/10/image-14.png)
 
-Belgium is a linguistically diverse country where French and Dutch dominate, but English proficiency is also remarkably high, around 55% of the population understands it.
+Belgium is a linguistically diverse country where French and Dutch dominate, but English proficiency is also remarkably high compared with most of Belgium's neighbours.
 
 Despite this, relying solely on English isn’t the best approach. Belgians value businesses that speak their language, whether it’s Dutch in Flanders, French in Wallonia, or German in the east. Connecting with your audience in their native tongue builds trust and boosts engagement.
 

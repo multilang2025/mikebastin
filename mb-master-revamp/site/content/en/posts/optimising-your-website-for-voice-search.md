@@ -18,36 +18,12 @@ Voice search is revolutionising how people find answers, products, and services 
 
 ### Why Focus on Voice Search in 2025?
 
--   **Over 85% of consumers** in the UK now shop or search online, with mobile voice search usage rising each year.
+-   UK home-speaker reach hit 45% of the 16+ population in April 2025, and 54% of UK adults told [Ofcom](https://www.ofcom.org.uk/) they had used a voice AI assistant in the past three months.
 -   People expect immediate, conversational answers from their devices. If your website isn’t voice-ready, you’re likely missing lucrative local and commercial traffic.
 
 ### Voice Search Trends and Key Statistics
 
-Statistic
-
-Value / Impact
-
-UK adults using voice assistants
-
-40%
-
-Voice searches focused on local intent
-
-58%
-
-Global mobile voice search share
-
-27%
-
-Average voice search result length
-
-29 words
-
-Voice responses from featured snippets
-
-40%
-
-**Did you know?** Conversational search queries are typically longer (6 to 10 words) than typed ones, and 52% of households have a smart speaker in the living room.
+**Did you know?** Conversational search queries are typically longer than typed ones, closer to a spoken sentence than a keyword string, which is why the content built to answer them needs to read as an answer, not a list of terms.
 
 ### Conversational Keywords: Real-World Examples
 
@@ -75,9 +51,8 @@ Voice Search Equivalent
 
 ### Voice Search Optimisation at a Glance
 
--   72% of regular users treat their devices as part of daily life.
--   62% are likely to purchase via voice within a month.
--   44% order groceries and household items by voice at least weekly.
+-   Most regular users treat their voice devices as part of daily life, not a novelty they try once.
+-   Purchase and reordering use cases (groceries, household basics) are the fastest-growing voice behaviour, ahead of one-off searches.
 
 ### Spotlight on Featured Snippets and Direct Answers
 
@@ -124,12 +99,9 @@ Local
 
 NAP consistency and geo-targeting
 
-### Voice Search Success: Case Study
+### Voice Search Optimisation: A Worked Example
 
-A small bakery in Kettering added a FAQ like “Where can we get fresh sourdough in Kettering?”, improved their site speed and structured data. As a result:
-
--   **+137%** voice search visibility
--   **+42%** increase in foot traffic in 3 months
+A local bakery adding a FAQ answer like “Where can we get fresh sourdough near us?”, alongside faster page speed and local business schema, is the kind of change that shows up first in voice results: the query is conversational, local and answerable in one sentence, which is exactly the shape voice search rewards.
 
 ### Voice Search Content Types
 

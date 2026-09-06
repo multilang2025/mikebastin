@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
 import Reveal from "@/components/Reveal";
 import SiteFooter from "@/components/SiteFooter";
+import JsonLd from "@/components/JsonLd";
+import { SITE_URL, breadcrumbSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "The competitor analysis and traffic checklist, Mike Bastin",
   description:
-    "18,522 impressions in ninety days, ranking at position 56. The single highest-value content job on the domain.",
+    "18,522 impressions in ninety days, ranking at position 56. Use the traffic and competitor analysis checklist to see what a rival site is actually doing.",
 };
 
 const SECTIONS = [
@@ -34,6 +36,13 @@ const SECTIONS = [
 export default function CompetitorChecklistPage() {
   return (
     <main>
+      <JsonLd
+        data={breadcrumbSchema([
+          { name: "Home", url: `${SITE_URL}/` },
+          { name: "Journal", url: `${SITE_URL}/blog/` },
+          { name: "The competitor analysis and traffic checklist", url: `${SITE_URL}/competitor-analysis-traffic-checklist/` },
+        ])}
+      />
       {/* ============ HERO ============ */}
       <section className="band band-a grain relative overflow-hidden pb-[clamp(56px,8vw,100px)] pt-[clamp(96px,14vw,160px)]">
         <div className="shell relative">

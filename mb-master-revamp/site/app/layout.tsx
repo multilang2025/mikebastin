@@ -4,6 +4,8 @@ import "./globals.css";
 import SmoothScroll from "@/components/SmoothScroll";
 import ThemeToggle from "@/components/ThemeToggle";
 import SiteNav from "@/components/SiteNav";
+import JsonLd from "@/components/JsonLd";
+import { personSchema, professionalServiceSchema } from "@/lib/schema";
 
 const fraunces = localFont({
   src: "./fonts/fraunces.woff2",
@@ -33,7 +35,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://mikebastin.com"),
   title: "Mike Bastin, multilingual search consultant",
   description:
-    "Twenty-five years reading the swell of search, in four languages. Multilingual SEO, localisation and AI consulting from Valencia.",
+    "Twenty-five years reading the swell of search, in four languages. Multilingual SEO, localisation and AI consulting from Valencia, for businesses selling abroad.",
   // PREVIEW BUILD ONLY. Remove this block before the real launch, or the
   // live site ships noindex and disappears from search.
   robots: { index: false, follow: false, nocache: true },
@@ -58,34 +60,6 @@ const noFlash = `(function(){try{var s=localStorage.getItem("mb-theme");
 var d=window.matchMedia("(prefers-color-scheme: dark)").matches;
 document.documentElement.setAttribute("data-theme",s||(d?"dark":"light"));}catch(e){}})();`;
 
-/**
- * Person schema per HANDOFF.md §13. sameAs carries the real profiles
- * recorded in docs/CONTENT-ARCHITECTURE.md §1; the Google Business Profile
- * uses the stable ?cid= form, never a session-bearing search URL.
- */
-const personSchema = {
-  "@context": "https://schema.org",
-  "@type": "Person",
-  name: "Mike Bastin",
-  jobTitle: "International search consultant",
-  email: "hello@mikebastin.com",
-  telephone: "+34671175774",
-  url: "https://mikebastin.com",
-  address: {
-    "@type": "PostalAddress",
-    streetAddress: "Calle Rugat 12",
-    postalCode: "46021",
-    addressLocality: "Valencia",
-    addressCountry: "ES",
-  },
-  knowsLanguage: ["en", "fr", "es", "nl"],
-  sameAs: [
-    "https://x.com/mikebastin",
-    "https://www.linkedin.com/in/michaelbastin/",
-    "https://www.google.com/maps?cid=5084624758674071823",
-  ],
-};
-
 export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
@@ -93,10 +67,12 @@ export default function RootLayout({
     <html lang="en-GB" suppressHydrationWarning>
       <head>
         <script dangerouslySetInnerHTML={{ __html: noFlash }} />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }}
-        />
+        {/* Person + ProfessionalService per HANDOFF.md §13. sameAs carries the
+            real profiles recorded in docs/CONTENT-ARCHITECTURE.md §1; the
+            Google Business Profile uses the stable ?cid= form, never a
+            session-bearing search URL. See lib/schema.ts for the shared
+            entities every other page's JSON-LD references by @id. */}
+        <JsonLd data={[personSchema, professionalServiceSchema]} />
       </head>
       <body
         className={`${fraunces.variable} ${cormorant.variable} ${inter.variable}`}

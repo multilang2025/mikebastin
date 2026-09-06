@@ -3,7 +3,9 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import Reveal from "@/components/Reveal";
 import SiteFooter from "@/components/SiteFooter";
+import JsonLd from "@/components/JsonLd";
 import { SERVICES, getService } from "@/lib/services";
+import { SITE_URL, breadcrumbSchema, serviceSchema } from "@/lib/schema";
 
 // lead-generation has its own hand-built route at app/services/lead-generation/,
 // with the testimonial wall this template does not carry. Excluded here so the
@@ -20,7 +22,10 @@ export async function generateMetadata({
   const { slug } = await params;
   const service = getService(slug);
   if (!service) return {};
-  return { title: `${service.name}, Mike Bastin`, description: service.lede };
+  return {
+    title: service.metaTitle ?? `${service.name}, Mike Bastin`,
+    description: service.metaDescription ?? service.lede,
+  };
 }
 
 export default async function ServicePage({
@@ -35,9 +40,24 @@ export default async function ServicePage({
   const siblings = SERVICES.filter(
     (s) => s.cluster === service.cluster && s.slug !== service.slug
   );
+  const url = `${SITE_URL}/services/${service.slug}/`;
 
   return (
     <main>
+      <JsonLd
+        data={[
+          serviceSchema({
+            name: service.name,
+            description: service.metaDescription ?? service.lede,
+            url,
+          }),
+          breadcrumbSchema([
+            { name: "Home", url: `${SITE_URL}/` },
+            { name: "Services", url: `${SITE_URL}/services/` },
+            { name: service.name, url },
+          ]),
+        ]}
+      />
       {/* ============ HERO ============ */}
       <section className="band band-a grain relative overflow-hidden pb-[clamp(56px,8vw,100px)] pt-[clamp(96px,14vw,160px)]">
         <div className="shell relative">
