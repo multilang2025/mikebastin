@@ -1,0 +1,149 @@
+/* Night Swell / Morning Glass. The palette is closed: no hex outside this
+   file, and aubergine is retired.
+
+   Colour is not applied per component. Every section is a band, the band
+   carries the token values, and components only ever read variable names.
+   The theme toggle flips which set .band-a resolves to, so anything built
+   here has to work on both grounds without knowing which one it is on. */
+
+/* Morning Glass, the light ground */
+:root,
+.band-a {
+  --bg:         #F5F0E4;
+  --ink:        #0F2837;
+  --dim:        #58707F;
+  --gold:       #9A6E1C;
+  --gold-soft:  #8A5A16;
+  --berry:      #C42640;
+  --berry-deep: #9E1B31;
+  --berry-soft: rgb(196 38 64 / 0.10);
+  --deep:       #1C6580;
+  --silver:     #6E8291;
+  --rule:       rgb(15 40 55 / 0.16);
+  --chip:       rgb(15 40 55 / 0.055);
+  --glow:       rgb(196 38 64 / 0.09);
+  --shade:      rgb(15 40 55 / 0.04);
+}
+
+/* Night Swell, the dark ground */
+.band-b {
+  --bg:         #0A1B28;
+  --ink:        #F5EFE2;
+  --dim:        #AFC0CC;
+  --gold:       #D9A94A;
+  --gold-soft:  #E8CD7A;
+  --berry:      #F2556A;
+  --berry-deep: #C9304A;
+  --berry-soft: rgb(242 85 106 / 0.13);
+  --deep:       #155268;
+  --silver:     #BCC9D3;
+  --rule:       rgb(245 239 226 / 0.15);
+  --chip:       rgb(245 239 226 / 0.07);
+  --glow:       rgb(242 85 106 / 0.14);
+  --shade:      rgb(245 239 226 / 0.04);
+}
+
+/* System preference inverts the mapping by default */
+@media (prefers-color-scheme: dark) {
+  :root,
+  .band-a {
+  --bg:         #0A1B28;
+  --ink:        #F5EFE2;
+  --dim:        #AFC0CC;
+  --gold:       #D9A94A;
+  --gold-soft:  #E8CD7A;
+  --berry:      #F2556A;
+  --berry-deep: #C9304A;
+  --berry-soft: rgb(242 85 106 / 0.13);
+  --deep:       #155268;
+  --silver:     #BCC9D3;
+  --rule:       rgb(245 239 226 / 0.15);
+  --chip:       rgb(245 239 226 / 0.07);
+  --glow:       rgb(242 85 106 / 0.14);
+  --shade:      rgb(245 239 226 / 0.04);
+  }
+  .band-b {
+  --bg:         #F5F0E4;
+  --ink:        #0F2837;
+  --dim:        #58707F;
+  --gold:       #9A6E1C;
+  --gold-soft:  #8A5A16;
+  --berry:      #C42640;
+  --berry-deep: #9E1B31;
+  --berry-soft: rgb(196 38 64 / 0.10);
+  --deep:       #1C6580;
+  --silver:     #6E8291;
+  --rule:       rgb(15 40 55 / 0.16);
+  --chip:       rgb(15 40 55 / 0.055);
+  --glow:       rgb(196 38 64 / 0.09);
+  --shade:      rgb(15 40 55 / 0.04);
+  }
+}
+
+/* An explicit user choice overrides the system preference */
+:root[data-theme="dark"],
+:root[data-theme="dark"] .band-a {
+  --bg:         #0A1B28;
+  --ink:        #F5EFE2;
+  --dim:        #AFC0CC;
+  --gold:       #D9A94A;
+  --gold-soft:  #E8CD7A;
+  --berry:      #F2556A;
+  --berry-deep: #C9304A;
+  --berry-soft: rgb(242 85 106 / 0.13);
+  --deep:       #155268;
+  --silver:     #BCC9D3;
+  --rule:       rgb(245 239 226 / 0.15);
+  --chip:       rgb(245 239 226 / 0.07);
+  --glow:       rgb(242 85 106 / 0.14);
+  --shade:      rgb(245 239 226 / 0.04);
+}
+:root[data-theme="dark"] .band-b {
+  --bg:         #F5F0E4;
+  --ink:        #0F2837;
+  --dim:        #58707F;
+  --gold:       #9A6E1C;
+  --gold-soft:  #8A5A16;
+  --berry:      #C42640;
+  --berry-deep: #9E1B31;
+  --berry-soft: rgb(196 38 64 / 0.10);
+  --deep:       #1C6580;
+  --silver:     #6E8291;
+  --rule:       rgb(15 40 55 / 0.16);
+  --chip:       rgb(15 40 55 / 0.055);
+  --glow:       rgb(196 38 64 / 0.09);
+  --shade:      rgb(15 40 55 / 0.04);
+}
+:root[data-theme="light"],
+:root[data-theme="light"] .band-a {
+  --bg:         #F5F0E4;
+  --ink:        #0F2837;
+  --dim:        #58707F;
+  --gold:       #9A6E1C;
+  --gold-soft:  #8A5A16;
+  --berry:      #C42640;
+  --berry-deep: #9E1B31;
+  --berry-soft: rgb(196 38 64 / 0.10);
+  --deep:       #1C6580;
+  --silver:     #6E8291;
+  --rule:       rgb(15 40 55 / 0.16);
+  --chip:       rgb(15 40 55 / 0.055);
+  --glow:       rgb(196 38 64 / 0.09);
+  --shade:      rgb(15 40 55 / 0.04);
+}
+:root[data-theme="light"] .band-b {
+  --bg:         #0A1B28;
+  --ink:        #F5EFE2;
+  --dim:        #AFC0CC;
+  --gold:       #D9A94A;
+  --gold-soft:  #E8CD7A;
+  --berry:      #F2556A;
+  --berry-deep: #C9304A;
+  --berry-soft: rgb(242 85 106 / 0.13);
+  --deep:       #155268;
+  --silver:     #BCC9D3;
+  --rule:       rgb(245 239 226 / 0.15);
+  --chip:       rgb(245 239 226 / 0.07);
+  --glow:       rgb(242 85 106 / 0.14);
+  --shade:      rgb(245 239 226 / 0.04);
+}

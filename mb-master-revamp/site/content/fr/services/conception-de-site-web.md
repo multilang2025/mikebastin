@@ -41,7 +41,7 @@ The site was designed for a single language, then a translation plugin was bolte
 
 The design is beautiful in Figma, then live the H1 is hidden in an image, the schema is missing, Core Web Vitals are red, and important pages have no internal links pointing to them. SEO and design have to be planned together, not in sequence. Otherwise the redesign that was supposed to drive growth ends up tanking organic traffic for nine months.
 
-« Name, email, message » with no qualifying questions. You spend hours each week filtering students looking for internships, students hoping to learn, and tyre-kickers from countries you do not serve. A lead form is a qualification tool, not a contact widget. It either filters at the door or wastes your time downstream.
+« Name, email, message » with no qualifying questions. You spend hours each week filtering students looking for internships, students hoping to learn, and tyre-kickers from countries you do not serve. A lead form is a qualification tool, not a contact widget. It either filters at the door or wastes your time downstream.
 
 My approach: SEO, multilingual structure, and design planned together before the first wireframe. The site you launch is the site you can grow with, in the languages you actually need. Read more on the [multilingual SEO](https://mikebastin.com/services/multilingual-seo/) approach that informs every design I deliver.
 
@@ -53,7 +53,7 @@ WPML by default on WordPress, Polylang or TranslatePress depending on your case.
 
 Reusable components (cards, hero, CTA, FAQ, tables) regardless of the builder. You can add a page without breaking visual consistency. The site stays maintainable by your team.
 
-LiteSpeed or equivalent caching, self-hosted Google Fonts, WebP images with srcset, lazy loading on non-critical modules. Green CWV at delivery, not « we will see later ».
+LiteSpeed or equivalent caching, self-hosted Google Fonts, WebP images with srcset, lazy loading on non-critical modules. Green CWV at delivery, not « we will see later ».
 
 Organization, LocalBusiness, Service, Product, Article, FAQ, BreadcrumbList. Custom JSON-LD where the plugin defaults are not enough. Validated on Google Rich Results and Schema.org before going live.
 
@@ -87,7 +87,7 @@ Three projects where multilingual + SEO + design were planned together from the 
 
 **Build:** WordPress + Divi with proper EN / ES hreflang setup, FreightForwarder schema, sector pages by mode of transport (ocean, air, road, customs), case studies, lead form with cargo type, origin and destination preselected.
 
-**Outcome:** daily quote requests doubled over 18 months, recurring citations in ChatGPT and Claude responses for « international freight forwarder Houston » queries, organic traffic compounding monthly.
+**Outcome:** daily quote requests doubled over 18 months, recurring citations in ChatGPT and Claude responses for « international freight forwarder Houston » queries, organic traffic compounding monthly.
 
 **Context:** Valencia-based law firm specialised in business law and franchising, targeting Spanish, French and English-speaking clients. Trust signals and clear practice area pages are critical for legal SEO.
 
@@ -149,7 +149,7 @@ Hosting, domain registration, ongoing maintenance
 
 ## Why this team for multilingual web design
 
-**Michael Bastin:** 25 years in SEO and translation, based in Valencia (Spain) since 2016. Multilingual builds across Europe (BE, FR, ES, NL, UK, DE, IT, PT) and the Americas (US, Dominican Republic, Costa Rica, Mexico). Fluent in French, English, Spanish and Dutch, B1 in German.
+**Mike Bastin:** 25 years in SEO and translation, based in Valencia (Spain) since 2016. Multilingual builds across Europe (BE, FR, ES, NL, UK, DE, IT, PT) and the Americas (US, Dominican Republic, Costa Rica, Mexico). Fluent in French, English, Spanish and Dutch, B1 in German.
 
 Full stack mastery end to end: WordPress (Divi, Gutenberg, Elementor, Bricks depending on the case), WPML / Polylang, Rank Math / Yoast, GA4, GTM, Cloudflare, LiteSpeed, managed hosting. Webflow and Shopify for specific contexts. Plus a native copywriter and translator network for any other language via BeTranslated.
 

@@ -43,7 +43,7 @@ Issues like slow page speed, poor mobile optimization, and broken links can seve
 
 Using irrelevant or overly competitive keywords can waste your SEO efforts and prevent your content from reaching the right audience.
 
-Understanding and targeting the correct keywords are vital for matching [search intent](https://mikebastin.com/what-is-search-intent-mapping/) and driving relevant traffic.
+Understanding and targeting the correct keywords are essential for matching [search intent](https://mikebastin.com/what-is-search-intent-mapping/) and driving relevant traffic.
 
 **Common Errors:**
 
@@ -96,7 +96,7 @@ Readers expect valuable, engaging content that addresses their needs.
 
 Backlinks remain one of the most important ranking factors in SEO.
 
-However, not all links are created equal.
+Not all links are created equal.
 
 Poor-quality backlinks or a lack of link-building efforts can hinder your site’s SEO performance.
 
@@ -151,6 +151,6 @@ Monitoring key metrics allows you to make data-driven decisions and refine your 
 
 Regular audits, continuous learning, and staying updated with best practices are essential for maintaining a healthy SEO strategy.
 
-Michael and his team at MikeBastin.com are dedicated to helping businesses and professionals navigate the complex world of SEO, ensuring that every effort is optimised for success.
+Mike Bastin and his team at MikeBastin.com are dedicated to helping businesses and professionals navigate the complex world of SEO, ensuring that every effort is optimised for success.
 
 Avoid these pitfalls, implement the right fixes, and watch your SEO performance improve.

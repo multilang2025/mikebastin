@@ -1,0 +1,82 @@
+<!-- @dsCard group="Components" viewport="700x520" name="Forms" subtitle="Input, textarea, select, checkbox group, error state, on both grounds" -->
+<!doctype html>
+<html lang="en-GB" data-theme="light">
+<head>
+<meta charset="utf-8">
+<title>Forms</title>
+<link rel="stylesheet" href="../../styles.css">
+<style>
+  body { margin: 0; }
+  .card { padding: 22px 26px; }
+  .stack { display: flex; flex-direction: column; gap: 16px; }
+  .rowg { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+  .btn { font-family: var(--font-sans); font-size: .9rem; font-weight: 500; line-height: 1.2; padding: 11px 22px; border-radius: var(--r-card); border: 1px solid transparent; cursor: pointer; }
+  .btn-primary { background: var(--berry); border-color: var(--berry); color: #fff; }
+  .btn-primary-hover { background: var(--berry-deep); border-color: var(--berry-deep); color: #fff; }
+  .btn-secondary { background: transparent; border-color: var(--rule); color: var(--ink); }
+  .btn-ghost { background: transparent; color: var(--dim); }
+  .btn-disabled { background: var(--berry); border-color: var(--berry); color: #fff; opacity: .42; }
+  .field { width: 100%; font-family: var(--font-sans); font-size: .95rem; font-weight: 350; color: var(--ink); background: var(--shade); border: 1px solid var(--rule); border-radius: var(--r-card); padding: 11px 14px; }
+  .field-focus { border-color: var(--berry); }
+  .lbl { font-size: .72rem; text-transform: uppercase; letter-spacing: var(--track-caps); color: var(--dim); display: block; margin-bottom: 7px; }
+  .hint { font-size: .82rem; color: var(--dim); margin: 7px 0 0; }
+  .err { font-size: .85rem; color: var(--berry); margin: 7px 0 0; }
+  .chip { display: inline-block; border-radius: var(--r-chip); padding: 3px 9px; font-size: .74rem; background: var(--chip); color: var(--dim); }
+  .chip-accent { background: var(--berry-soft); color: var(--berry); text-transform: uppercase; letter-spacing: var(--track-caps); font-size: .66rem; padding: 2px 8px; }
+  .chip-outline { background: transparent; border: 1px solid var(--berry); color: var(--berry); }
+  .chip-struck { text-decoration: line-through; }
+  .pill { border-radius: var(--r-pill); border: 1px solid var(--rule); background: transparent; color: var(--dim); font-family: var(--font-sans); font-size: .82rem; padding: 6px 16px; cursor: pointer; }
+  .pill-on { border-color: var(--berry); background: var(--berry-soft); color: var(--berry); }
+  .box { width: 18px; height: 18px; border-radius: var(--r-chip); border: 1px solid var(--rule); background: var(--shade); position: relative; flex: 0 0 auto; }
+  .box-on { border-color: var(--berry); background: var(--berry); }
+  .box-on::after { content: ""; position: absolute; left: 5px; top: 5px; width: 7px; height: 4px; border-left: 1.6px solid #fff; border-bottom: 1.6px solid #fff; transform: rotate(-45deg); }
+  .cbrow { display: flex; gap: 11px; align-items: flex-start; font-size: .95rem; }
+  .ul { color: var(--berry); text-decoration: none; position: relative; }
+  .ul-hover { border-bottom: 1px solid currentColor; }
+</style>
+</head>
+<body>
+  <div class="band band-b card stack">
+    <div>
+      <span class="lbl">Your name <span style="color:var(--berry)">*</span></span>
+      <input class="field" value="Marta Ruiz">
+    </div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
+      <div>
+        <span class="lbl">Email</span>
+        <input class="field field-focus" value="marta@" >
+        <p class="err">Add a full email address so a reply can reach you.</p>
+      </div>
+      <div>
+        <span class="lbl">Market</span>
+        <span style="position:relative;display:block">
+          <select class="field" style="appearance:none;padding-right:38px"><option>France</option></select>
+          <span style="position:absolute;right:15px;top:50%;margin-top:-2px;width:7px;height:7px;border-right:1.5px solid var(--dim);border-bottom:1.5px solid var(--dim);transform:rotate(45deg)"></span>
+        </span>
+        <p class="hint">One market is enough to start.</p>
+      </div>
+    </div>
+    <div>
+      <span class="lbl">What is going wrong</span>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px 28px">
+        <span class="cbrow"><span class="box box-on"></span>Impressions without clicks</span>
+        <span class="cbrow"><span class="box"></span>Translated pages that do not convert</span>
+        <span class="cbrow"><span class="box box-on"></span>One market ranks, the others do not</span>
+        <span class="cbrow"><span class="box"></span>Not sure yet</span>
+      </div>
+    </div>
+    <div>
+      <span class="lbl">What is happening</span>
+      <textarea class="field" rows="3">Forty thousand impressions a month, six clicks.</textarea>
+    </div>
+    <div class="rowg"><button class="btn btn-primary">Send the brief</button><span class="chip">Reply within two working days</span></div>
+  </div>
+  <div class="band band-a card stack">
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
+      <div><span class="lbl">Your name</span><input class="field" value="Marta Ruiz"></div>
+      <div><span class="lbl">Email</span><input class="field" value="marta@"><p class="err">Add a full email address so a reply can reach you.</p></div>
+    </div>
+    <div class="rowg"><span class="cbrow"><span class="box box-on"></span>Impressions without clicks</span><button class="btn btn-primary">Send the brief</button></div>
+  </div>
+</body>
+</html>

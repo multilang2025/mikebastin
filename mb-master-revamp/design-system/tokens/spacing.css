@@ -1,0 +1,41 @@
+/* Layout, rhythm and the two radii the site actually uses. */
+
+:root {
+  --shell:        min(1180px, 86vw);
+  --nav-h:        62px;
+
+  /* section rhythm, as shipped */
+  --band-py:      clamp(64px, 9vw, 128px);
+  --band-py-sm:   clamp(48px, 7vw, 96px);
+  --hero-pt:      clamp(96px, 14vw, 190px);
+  --hero-pb:      clamp(60px, 9vw, 120px);
+
+  --sp-1:  4px;
+  --sp-2:  8px;
+  --sp-3:  12px;
+  --sp-4:  16px;
+  --sp-5:  20px;
+  --sp-6:  24px;
+  --sp-8:  32px;
+  --sp-10: 40px;
+  --sp-12: 48px;
+  --sp-16: 64px;
+
+  /* card and chip padding, from the shipped surfaces */
+  --pad-card:     28px 28px;
+  --pad-cell:     32px 28px;
+
+  /* radii: near-square, plus the pill for filter buttons */
+  --r-chip:  3px;
+  --r-card:  4px;
+  --r-pill:  999px;
+
+  --rule-w:  1px;
+
+  /* motion */
+  --ease:        cubic-bezier(0.22, 0.7, 0.28, 1);
+  --dur-micro:   200ms;
+  --dur-state:   300ms;
+  --dur-reveal:  850ms;
+  --dur-band:    500ms;
+}

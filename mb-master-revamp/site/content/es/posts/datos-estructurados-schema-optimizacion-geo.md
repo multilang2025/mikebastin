@@ -33,9 +33,9 @@ Si vendes en varios países, esto se multiplica. Necesitas [SEO multilingüe ava
 ### De buscar palabras a entender entidades
 
 Antes, Google buscaba “palabras clave”. Hoy, los motores generativos buscan “entidades” y “hechos”. Si tu web no dice claramente:  
-– Quién eres (`Organization`)  
-– Qué ofreces (`Service`)  
-– Quién escribe (`Person`)
+,  Quién eres (`Organization`)  
+,  Qué ofreces (`Service`)  
+,  Quién escribe (`Person`)
 
 …la IA no sabrá si puede confiar en ti. Y no te citará.
 
@@ -84,9 +84,9 @@ Ejemplo: tu [perfil de LinkedIn](https://www.linkedin.com/in/michaelbastin/) y t
 ## Cómo asegurar que la IA te cite
 
 No basta con añadir un bloque de JSON-LD. Debes crear un \*\*grafo interno\*\*. Por ejemplo, si publicas un caso de éxito, vincula:  
-– El servicio prestado  
-– La empresa cliente  
-– El autor del artículo
+,  El servicio prestado  
+,  La empresa cliente  
+,  El autor del artículo
 
 Todo con entidades conectadas. Así, la IA ve tu web como una base de conocimiento coherente, no como páginas sueltas.
 
@@ -109,8 +109,8 @@ Tus verdaderos rivales en GEO pueden no ser quienes crees. A veces, un blog o un
 ### Herramientas útiles
 
 Empieza con:  
-– [Prueba de resultados enriquecidos de Google](https://search.google.com/test/rich-results)  
-– Validador de Schema.org
+,  [Prueba de resultados enriquecidos de Google](https://search.google.com/test/rich-results)  
+,  Validador de Schema.org
 
 Y complementa con [herramientas gratuitas de análisis competitivo](https://mikebastin.com/es/herramientas-gratuitas-analisis-competitivo/) para ver cómo están estructurados tus rivales.
 
@@ -129,9 +129,9 @@ La web se está convirtiendo en una base de datos legible por máquinas. Si no d
 Necesitas una estrategia dual: SEO para humanos + GEO para máquinas. El SEO te da tráfico directo. El GEO te da autoridad, citas y presencia en coches, altavoces y gafas de realidad aumentada.
 
 Documentación útil:  
-– [Schema.org](https://schema.org/)  
-– [Guía de Google sobre datos estructurados](https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data?hl=es)  
-– [Perplexity AI Hub](https://www.perplexity.ai/hub) (para ver cómo citan fuentes)
+,  [Schema.org](https://schema.org/)  
+,  [Guía de Google sobre datos estructurados](https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data?hl=es)  
+,  [Perplexity AI Hub](https://www.perplexity.ai/hub) (para ver cómo citan fuentes)
 
 ## Preguntas frecuentes
 

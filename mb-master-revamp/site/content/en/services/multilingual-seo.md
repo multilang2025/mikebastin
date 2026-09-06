@@ -9,12 +9,12 @@ wpId: 17228874
 date: "2024-09-29T11:09:22"
 modified: "2026-05-29T07:41:20"
 sourceUrl: "https://mikebastin.com/services/multilingual-seo/"
-excerpt: "Maximise your business potential in the multilingual market with tailored SEO strategies designed to enhance your online visibility and drive sustainable growth."
+excerpt: "Increase your business potential in the multilingual market with adapted SEO strategies designed to enhance your online visibility and drive sustainable growth."
 ---
 
 # Multilingual SEO: one consultant, multiple markets, native execution
 
-Strategic piloting on my side. Native writing per language from the BeTranslated network. WPML, hreflang and schema configured from the brief, not patched in later.
+Strategic piloting on our side. Native writing per language from the BeTranslated network. WPML, hreflang and schema configured from the brief, not patched in later.
 
 4+ languages
 
@@ -34,7 +34,7 @@ visibility per language across Google SERPs and AI engines responding in that la
 
 ## Where most multilingual SEO projects fail
 
-Three patterns I see on every multilingual site audit:
+Three patterns we see on every multilingual site audit:
 
 DeepL pass + 10% human review is not localisation, it is patched-up MT. Google detects it, AI engines avoid citing it, and native readers leave within seconds. The economic temptation is real, the SEO outcome is consistently flat. Real native writing per language is the only viable foundation.
 
@@ -42,9 +42,9 @@ Hreflang tags missing, pointing in circles, mixed with the wrong language code, 
 
 One copywriter publishes in French, another adds Spanish six months later without coordinating slugs, internal links, schema or keyword targets. The site grows inconsistently. By month 12 the multilingual architecture is a tangle nobody can audit. SEO governance per language must be defined from day one.
 
-My multilingual SEO method addresses all three patterns from scoping: native writing per language, technical configuration validated at launch, and governance documented before the first page is published. The site grows clean, not patched.
+Our multilingual SEO method addresses all three patterns from scoping: native writing per language, technical configuration validated at launch, and governance documented before the first page is published. The site grows clean, not patched.
 
-## What I include in a multilingual SEO engagement
+## What we include in a multilingual SEO engagement
 
 Native research in each target language: real commercial intent, long tail per market, sectoral vocabulary. Not a translated set from English.
 
@@ -58,7 +58,7 @@ LocalBusiness, Service, Product, Article, FAQ, BreadcrumbList per language. Cust
 
 LLMs respond per language with distinct knowledge graphs. Optimisation for ChatGPT, Claude, Perplexity, Google AI Overviews per target language.
 
-## My process in 5 steps, named deliverables
+## Our process in 5 steps, named deliverables
 
 Strategy and architecture before production. Native writing per language coordinated through one consultant.
 
@@ -76,7 +76,7 @@ Strategy and architecture before production. Native writing per language coordin
 
 Three engagements where multilingual scope was the central challenge.
 
-**Context:** the multilingual translation agency I co-founded operates 12 country-specific TLDs targeting different European and North American markets in their primary languages.
+**Context:** the multilingual translation agency we co-founded operates 12 country-specific TLDs targeting different European and North American markets in their primary languages.
 
 **Build:** WPML across the network, cross-domain hreflang, native content per market by the in-house translator team, schema markup localised per country, distinct keyword strategy per market.
 
@@ -152,13 +152,13 @@ Initial multilingual site build from scratch
 
 ## Why this team for multilingual SEO
 
-**Michael Bastin:** 25 years in SEO and translation. Co-founder of BeTranslated, a multilingual translation agency operating across 12 country domains.
+**Mike Bastin:** 25 years in SEO and translation. Co-founder of BeTranslated, a multilingual translation agency operating across 12 country domains.
 
 Direct fluent execution: French, English, Spanish (Valencia resident since 2016, 16 years in the Dominican Republic), Dutch (Erasmus Utrecht + Caribbean Dutch clientele). B1 German. Some Italian and Catalan reading.
 
-For languages I do not write natively (DE, IT, PT and others), native copywriters from the BeTranslated network handle production while I coordinate strategy and SEO governance. One interlocutor, one accountable consultant, no diluted briefs across project managers.
+For languages we do not write natively (DE, IT, PT and others), native copywriters from the BeTranslated network handle production while we coordinate strategy and SEO governance. One interlocutor, one accountable consultant, no diluted briefs across project managers.
 
-The differentiator: I do not pretend to write languages I do not write. The model is transparent and the production chain is one I have personally built and run for years.
+The differentiator: we do not pretend to write languages we do not write. The model is transparent and the production chain is one we have personally built and run for years.
 
 [More about the team →](https://mikebastin.com/about-us/)
 
@@ -176,23 +176,23 @@ The split is stated explicitly on each dedicated language pillar (see [German SE
 
 What is the difference between multilingual SEO and international SEO?
 
-Multilingual SEO focuses on language: serving Spanish-speakers regardless of whether they are in Spain, Mexico or Argentina, French-speakers regardless of country, etc. International SEO focuses on country targeting: a US site vs a UK site vs an AU site (often same English language, different markets). The two intersect heavily (e.g. a French site targeting France vs Belgium vs Quebec is both multilingual variant and international targeting). I cover both, mapped to your sales reality.
+Multilingual SEO focuses on language: serving Spanish-speakers regardless of whether they are in Spain, Mexico or Argentina, French-speakers regardless of country, etc. International SEO focuses on country targeting: a US site vs a UK site vs an AU site (often same English language, different markets). The two intersect heavily (e.g. a French site targeting France vs Belgium vs Quebec is both multilingual variant and international targeting). We cover both, mapped to your sales reality.
 
 WPML or Polylang or TranslatePress for WordPress?
 
-WPML is the default on serious multilingual builds (most powerful translation management, best support, most plugins compatible). Polylang for tighter budgets or simpler structures. TranslatePress for sites that need live in-context translation (e.g. for non-technical content teams). My recommendation comes after seeing your specific stack and team in scoping.
+WPML is the default on serious multilingual builds (most powerful translation management, best support, most plugins compatible). Polylang for tighter budgets or simpler structures. TranslatePress for sites that need live in-context translation (e.g. for non-technical content teams). Our recommendation comes after seeing your specific stack and team in scoping.
 
-Should I use subdirectories, subdomains, or ccTLDs?
+Should we use subdirectories, subdomains, or ccTLDs?
 
 Subdirectory by default (consolidates authority, easiest to manage). ccTLD if you need maximum local trust signals across major markets and have the budget for separate domains. Subdomain rarely the best choice in 2026 unless dictated by technical constraints. Reasoned recommendation in scoping based on your case.
 
 How many languages can you support at once?
 
-Fluent direct: 4 (FR, EN, ES, NL). With native network: any major European language and most major world languages. Practical limit per engagement: 4-6 active languages simultaneously gives best quality. Above that, sequencing or extra coordination overhead matters. I generally recommend wave 1 of 3-4 languages then wave 2 once first wave shows traction.
+Fluent direct: 4 (FR, EN, ES, NL). With native network: any major European language and most major world languages. Practical limit per engagement: 4-6 active languages simultaneously gives best quality. Above that, sequencing or extra coordination overhead matters. We generally recommend wave 1 of 3-4 languages then wave 2 once first wave shows traction.
 
-Will my existing translations be reused or do you redo them?
+Will our existing translations be reused or do you redo them?
 
-Existing translations are audited first. If quality is acceptable and native readers say so, we keep and optimise on top. If quality is questionable or pure machine translation, I recommend rewriting strategic pages and accepting lower-priority pages as-is for now. No dogmatic rewrite, but no covering up bad translation either.
+Existing translations are audited first. If quality is acceptable and native readers say so, we keep and optimise on top. If quality is questionable or pure machine translation, we recommend rewriting strategic pages and accepting lower-priority pages as-is for now. No dogmatic rewrite, but no covering up bad translation either.
 
 How is multilingual SEO governance maintained over time?
 
@@ -204,6 +204,6 @@ Quoted. The price depends on number of languages in scope, depth per language, i
 
 ## Ready to scope your multilingual SEO?
 
-I start with an honest audit of your current state per language. Free first call, no commitment.
+We start with an honest audit of your current state per language. Free first call, no commitment.
 
 Related services: [international SEO](https://mikebastin.com/services/global-seo-solutions/) · [multilingual SEM](https://mikebastin.com/services/multilingual-sem/) · [web design](https://mikebastin.com/services/web-design/) · [local SEO](https://mikebastin.com/services/local-seo/)

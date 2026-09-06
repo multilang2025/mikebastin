@@ -152,7 +152,7 @@ Construcción inicial del sitio multilingüe desde cero
 
 ## Por qué este equipo para SEO multilingüe
 
-**Michael Bastin:** 25 años en SEO y traducción. Co-fundador de BeTranslated, una agencia de traducción multilingüe que opera en 12 dominios por país.
+**Mike Bastin:** 25 años en SEO y traducción. Co-fundador de BeTranslated, una agencia de traducción multilingüe que opera en 12 dominios por país.
 
 Ejecución directa con fluidez: francés, inglés, español (residente en Valencia desde 2016, 16 años previos en República Dominicana), neerlandés (Erasmus en Utrecht + clientela neerlandófona caribeña). B1 en alemán. Lectura de italiano y catalán.
 

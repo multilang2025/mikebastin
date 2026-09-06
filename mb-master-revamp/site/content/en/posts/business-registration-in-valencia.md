@@ -18,7 +18,7 @@ excerpt: "Business Registration in Valencia made practical and clear. Follow the
 
 Yet beneath its sun-soaked exterior lies a bureaucratic maze that can overwhelm even seasoned entrepreneurs, especially those unfamiliar with Spanish administrative systems.
 
-My practical guide cuts through the complexity to deliver a clear, step-by-step pathway for **business registration in Valencia**. We also connect you to essential support resources, including [optimising your website for Valencia-based searches](https://mikebastin.com/optimising-your-website-for-valencia-based-searches/) and our full [services overview](https://mikebastin.com/our-services/) for post-registration growth.
+Our practical guide cuts through the complexity to deliver a clear, step-by-step pathway for **business registration in Valencia**. We also connect you to essential support resources, including [optimising your website for Valencia-based searches](https://mikebastin.com/optimising-your-website-for-valencia-based-searches/) and our full [services overview](https://mikebastin.com/our-services/) for post-registration growth.
 
 ## Why Registering a Business in Valencia Can Feel Like a Marathon in Flip-Flops
 
@@ -76,13 +76,13 @@ Successful **business registration in Valencia** hinges on meticulous documentat
 -   **Public deed of incorporation** signed before a Spanish notary
 -   **Bank certificate** confirming your share capital deposit (€1 minimum by law, though €3,000 is the practical benchmark most gestores recommend)
 
-### Tax & Compliance Essentials
+### Tax and Compliance Essentials
 
 -   **Model 036 or 037** for census registration
 -   **CNAE code(s)** defining your economic activity (e.g., 6201 for IT services)
 -   **VAT (IVA) registration**, required for B2B EU trade
 
-### Social Security & Municipal Requirements
+### Social Security and Municipal Requirements
 
 -   **Autónomo registration** (via TA.052 form)
 -   **Workplace risk assessment** (for physical premises)
@@ -170,14 +170,14 @@ Once your legal foundation is set, focus on growth. Start by [contacting us](htt
 
 ## Frequently Asked Questions (FAQ)
 
-**Q: Do I need to live in Valencia to register a business there?**  
+**Q: Do we need to live in Valencia to register a business there?**  
 A: No. You can register a business in Valencia without residency, but you’ll need a Spanish address (e.g., virtual office or lawyer’s address) for official correspondence and a valid NIE.
 
 **Q: How long does it take to register a Sociedad Limitada (S.L.) in Valencia?**  
 A: Typically 3 to 6 weeks from name reservation to full operational status, assuming clean documentation and no delays in notary or municipal licensing.
 
-**Q: Can I register as an autónomo with a tourist visa?**  
+**Q: Can we register as an autónomo with a tourist visa?**  
 A: No. You must have legal residency or a work permit to register as an autónomo. Non-EU citizens usually apply for a self-employed visa (_visado de emprendedor_) before registration.
 
-**Q: What is a “licencia de apertura,” and do I need one?**  
+**Q: What is a “licencia de apertura,” and do we need one?**  
 A: Yes, if you operate from a physical location (shop, office, restaurant). The Ayuntamiento de València issues this municipal licence. Simple activities (e.g., consulting) may qualify for a “declaración responsable” (faster, cheaper); others require technical inspections.

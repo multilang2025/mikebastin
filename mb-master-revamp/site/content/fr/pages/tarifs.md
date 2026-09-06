@@ -1,5 +1,5 @@
 ---
-words: 545
+words: 546
 editorial: "light"
 title: "Tarifs"
 slug: "tarifs"
@@ -13,7 +13,7 @@ sourceUrl: "https://mikebastin.com/fr/tarifs/"
 excerpt: "Découvrez une tarification simple et transparente avec des plans de marketing digital sur mesure à partir de 300 €/mois. Choisissez entre « Basic », « Professionnal » ou « Full » pour répondre aux besoins de votre entreprise."
 ---
 
-# SEO & Translation Pricing
+# SEO and Translation Pricing
 
 Select Your Plan
 
@@ -25,11 +25,11 @@ Choose the plan that suits your business goals: Our **Full Plan** (€1200/month
 
 \+ Social Media Management
 
-– SEO
+,  SEO
 
-– Strategy Planning
+,  Strategy Planning
 
-– Hosting
+,  Hosting
 
 \+ Web Design Updates
 
@@ -37,9 +37,9 @@ Choose the plan that suits your business goals: Our **Full Plan** (€1200/month
 
 \+ SEO
 
-– Strategy Planning
+,  Strategy Planning
 
-– Hosting
+,  Hosting
 
 \+ Web Design Updates  
 \+ Social Media Management  
@@ -49,7 +49,7 @@ Choose the plan that suits your business goals: Our **Full Plan** (€1200/month
 
 Frequently asked questions
 
-At Mikebastin.com, we prioritise transparency and provide all the information you need to make informed decisions about your digital marketing strategy. Below are answers to common questions about our services, pricing, and approach. Whether you’re considering a tailored plan or specific solutions, these FAQs will guide you. For any further questions, feel free to reach out—we’re here to help!
+At Mikebastin.com, we prioritise transparency and provide all the information you need to make informed decisions about your digital marketing strategy. Below are answers to common questions about our services, pricing, and approach. Whether you’re considering a tailored plan or specific solutions, these FAQs will guide you. For any further questions, feel free to reach out, we’re here to help!
 
 We provide a full range of digital marketing services, including SEO, content marketing, social media management, paid advertising (PPC), web design, and digital strategy consulting. Our services are designed to boost your online visibility and drive measurable results.
 

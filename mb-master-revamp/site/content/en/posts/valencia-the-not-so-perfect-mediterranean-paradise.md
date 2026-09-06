@@ -1,5 +1,6 @@
 ---
-words: 2705
+words: 2698
+editorial: "relocating"
 title: "Valencia: The Not-So-Perfect Mediterranean Paradise (But We Love It Anyway)"
 slug: "valencia-the-not-so-perfect-mediterranean-paradise"
 locale: "en"
@@ -9,14 +10,14 @@ wpId: 24847565
 date: "2025-01-13T12:24:50"
 modified: "2026-07-02T17:26:19"
 sourceUrl: "https://mikebastin.com/valencia-the-not-so-perfect-mediterranean-paradise/"
-excerpt: "🌞 Want to know what living in Valencia is really like? Beyond the perfect beaches and paella, there’s a chaotic charm to Spain’s third-largest city that most tourist guides won’t tell you about. From bureaucratic puzzles that would make Kafka proud to traffic lights with a sense of humour, discover the real Valencia – warts and all. Because sometimes the most loveable places aren’t the most perfect ones. 🏃‍♂️"
+excerpt: "Want to know what living in Valencia is really like? Beyond the perfect beaches and paella, there’s a chaotic charm to Spain’s third-largest city that most tourist guides won’t tell you about. From bureaucratic puzzles that would make Kafka proud to traffic lights with a sense of humour, discover the real Valencia, warts and all. Because sometimes the most loveable places aren’t the most perfect ones."
 ---
 
 ## A Charming City of Contrasts Where Sun-Soaked Beauty Meets Urban Reality
 
 So you’re dreaming of living in Valencia?
 
-Those Instagram photos of palm trees, pristine beaches, and stunning architecture have you convinced this is paradise on Earth? Well, grab a horchata and let me share some “inconvenient truths” about life in this Mediterranean jewel.
+Those Instagram photos of palm trees, pristine beaches, and stunning architecture have you convinced this is paradise on Earth? Well, grab a horchata and let us share some “inconvenient truths” about life in this Mediterranean jewel.
 
 Don’t worry, like a good paella, every seemingly negative ingredient adds to the final flavor.
 
@@ -58,7 +59,7 @@ Some tags are actually quite artistic, while others look like someone sneezed wh
 
 And let’s not forget the creative litterers who justify their actions with the philosophical argument that they’re “providing job security” for street cleaners.
 
-However, this has led to Valencia having one of the most impressive street cleaning operations in Spain.
+Valencia has ended up with one of the most impressive street cleaning operations in Spain.
 
 The street cleaners are basically local celebrities, known by name in their neighborhoods.
 
@@ -108,7 +109,7 @@ There’s often a perception that newcomers are responsible for rising housing p
 
 Getting invited into local social circles can feel harder than finding a parking spot in El Carmen.
 
-However, once you’re “in,” you’re family. Like, actual family.
+Once you’re “in,” you’re family. Like, actual family.
 
 They’ll invite you to their grandmother’s birthday, their cousin’s wedding, and their nephew’s first communion.
 
@@ -138,7 +139,7 @@ Once an extremely [car-centric city, Valencia has made admirable strides](https:
 
 The new bike paths, while welcome, tend to be rather narrow affairs, creating interesting encounters between cyclists, lightning-fast e-scooters, and pedestrians who sometimes treat bike lanes as optional pavement extensions. It’s rather like a continuous improvised dance where not everyone knows the choreography.
 
-However, there are silver linings.
+There are silver linings.
 
 The chaotic traffic has made the city’s growing network of bike lanes feel like sanctuaries of tranquility, when they’re not being inadvertently invaded by wandering pedestrians, that is.
 
@@ -160,7 +161,7 @@ The situation improves daily as more locals and visitors embrace cycling, and ev
 
 Valencia boasts roughly 1,100 sets of traffic lights, apparently the second-highest density in the world after New York City, working out to one traffic light per 705 residents.
 
-The timing of these lights, however, seems to have been programmed by someone with a rather wicked sense of humour.
+The timing of these lights, seems to have been programmed by someone with a rather wicked sense of humour.
 
 The pedestrian green light’s warning blink is particularly memorable, giving you approximately two seconds to sprint like Usain Bolt if you’re caught mid-crossing.
 
@@ -214,7 +215,7 @@ The social aspect is brilliant.
 
 While dogs engage in their customary greetings, you’ll find yourself drawn into delightful conversations with fellow owners, often blossoming into friendships sealed with a warm “¡Hasta luego!”, connections that might never have formed without your canine social secretary.
 
-However, not everything in this doggy paradise is rosy.
+Not everything in this doggy paradise is rosy.
 
 The issue of dog mess has been a persistent challenge.
 
@@ -272,7 +273,7 @@ Everything moves at the speed of a siesta-taking snail, and each official seems 
 
 Though, interestingly, our Latin American friends have a smoother sailing. Former colonial ties mean their documents are already in Spanish, and various agreements fast-track their paperwork. (Yes, we’re a tad envious.)
 
-However, this bureaucratic maze has created some unexpected benefits.
+The bureaucratic maze has created some unexpected benefits.
 
 You’ll develop zen-like patience and master the art of creative problem-solving.
 

@@ -12,13 +12,19 @@ Checks, applied with whole-word `\b` regex matching (avoids false positives
 like "dominio" tripping on a substring):
 - Forbidden vocabulary: comprehensive, tailored, seamless, leverage, elevate,
   crafted, maximise, facilitate, landscape, utilise, innovative, robust,
-  delve, transformative, implementation, integration, vital, dynamic,
-  ever-evolving, "In conclusion", "It's important to note", moreover,
+  delve, transformative, vital, dynamic, ever-evolving, "In conclusion", "It's important to note", moreover,
   however, thus, hence, additionally.
-- No em dash (—) or en dash (–) anywhere. Ranges use "to", not a dash.
+- "implementation" and "integration" are allowed but must not be overused.
+  They are genuine technical terms here ("Trusted Shops integration") and
+  one sits inside a service name, so treat repeated use on one page as a
+  warning, not a hard fail.
+- No em dash or en dash anywhere. Ranges use "to", not a dash.
 - No literal `&` or `&amp;` in content strings. HTML attribute/query-string
   ampersands are exempt (e.g. `?foo=1&bar=2` in a URL is fine).
-- No sentence starts with "This", "That", or "I".
+- No sentence starts with "This" or "That".
+- Voice is first-person plural. Flag any "I", "my", "me", "mine" or
+  "myself" in site-facing copy; the site speaks as "we". A reviewer's own
+  quote in lib/testimonials.ts is exempt and stays verbatim.
 - No emojis in body content. On social posts only: emojis allowed, max 1
   per post.
 - No bolded links.

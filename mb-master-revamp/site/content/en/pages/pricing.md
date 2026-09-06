@@ -1,5 +1,5 @@
 ---
-words: 637
+words: 639
 title: "Pricing"
 slug: "pricing"
 locale: "en"
@@ -9,10 +9,10 @@ wpId: 36564
 date: "2020-04-21T13:04:15"
 modified: "2026-07-19T13:13:03"
 sourceUrl: "https://mikebastin.com/pricing/"
-excerpt: "Discover simple, transparent pricing with tailored digital marketing plans starting at €300/month. Choose from Basic, Professional, or Full for your business needs."
+excerpt: "Discover simple, transparent pricing with adapted digital marketing plans starting at €300/month. Choose from Basic, Professional, or Full for your business needs."
 ---
 
-# SEO & Translation Pricing
+# SEO and Translation Pricing
 
 Select Your Plan
 
@@ -62,17 +62,17 @@ Choose the plan that suits your business goals: Our **Full Plan** (€1200/month
 
 Frequently asked questions
 
-At Mikebastin.com, we prioritise transparency and provide all the information you need to make informed decisions about your digital marketing strategy. Below are answers to common questions about our services, pricing, and approach. Whether you’re considering a bespoke plan or specific solutions, these FAQs will guide you. For any further questions, feel free to reach out—we’re here to help!
+At Mikebastin.com, we prioritise transparency and provide all the information you need to make informed decisions about your digital marketing strategy. Below are answers to common questions about our services, pricing, and approach. Whether you’re considering a bespoke plan or specific solutions, these FAQs will guide you. For any further questions, feel free to reach out, we’re here to help!
 
 ##### 1\. What digital marketing services do you offer?
 
 We provide a full range of digital marketing services, including SEO, content marketing, social media management, paid advertising (PPC), web design, and digital strategy consulting. Our services are designed to boost your online visibility and drive measurable results.
 
-##### 2\. How do I know which plan is right for my business?
+##### 2\. How do we know which plan is right for our business?
 
 We offer three main pricing plans: Basic, Professional, and Full, bespoke to different business needs. The Basic Plan is ideal for small businesses just starting with digital marketing, while the Professional and Full Plans offer more thorough [services for businesses](https://mikebastin.com/services/business-translation/) looking to scale. We also offer personalised consultations to help you choose the right plan.
 
-##### 3\. Can I customise my digital marketing plan?
+##### 3\. Can we customise our digital marketing plan?
 
 Yes! We understand that each business has unique needs, so we offer flexible, on-demand services in addition to our set pricing plans. You can combine services or opt for one-time projects like SEO audits or social media campaigns based on your specific goals.
 
@@ -86,13 +86,13 @@ Absolutely. We provide detailed monthly reports that track your progress, includ
 
 ##### 6\. What is your approach to SEO?
 
-We use a holistic, data-driven approach to SEO, focusing on both on-page and off-page strategies. This includes [keyword research](https://mikebastin.com/services/keyword-research/ "keyword research"), content optimisation, technical SEO improvements, link building, and continuous performance tracking to ensure your site ranks higher on search engines.
+We use a holistic, data-driven approach to SEO, focusing on both on-page and off-page strategies. Our work includes [keyword research](https://mikebastin.com/services/keyword-research/ "keyword research"), content optimisation, technical SEO improvements, link building, and continuous performance tracking to ensure your site ranks higher on search engines.
 
 ##### 7\. Are there any long-term contracts?
 
-We’re flexible. Whether you need a one-off project or a mid to long-term contract, we tailor our services to suit your needs.
+We’re flexible. Whether you need a one-off project or a mid to long-term contract, we adapt our services to suit your needs.
 
-##### 8\. How do I get started?
+##### 8\. How do we get started?
 
 Getting started is easy! Contact us for a [free consultation](https://mikebastin.com/contact-us/ "free consultation"), and we’ll discuss your business goals and recommend a customised digital marketing strategy. From there, we’ll set up your plan and get to work on driving growth for your business.
 

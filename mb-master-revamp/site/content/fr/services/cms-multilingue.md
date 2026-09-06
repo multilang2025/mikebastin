@@ -1,5 +1,5 @@
 ---
-words: 710
+words: 709
 editorial: "superseded"
 title: "Intégration d'un CMS multilingue"
 slug: "cms-multilingue"
@@ -61,7 +61,7 @@ Exécution de l’intégration CMS avec tests de réactivité, précision du con
 
 Suivi continu des performances et rapports détaillés pour garantir le succès durable.
 
-FAQ – Questions fréquentes
+FAQ, Questions fréquentes
 
 L’intégration d’un CMS multilingue garantit que votre site puisse supporter et gérer du contenu en plusieurs langues, fournir du contenu localisé à des utilisateurs du monde entier grâce à des plateformes telles que WordPress, Joomla, et Drupal.
 

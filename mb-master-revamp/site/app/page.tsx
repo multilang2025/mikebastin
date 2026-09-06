@@ -96,7 +96,7 @@ export default function Home() {
               Forty thousand impressions. Six clicks.
             </h2>
             <p className="mb-12 max-w-[56ch] text-[1.05rem]" style={{ color: "var(--dim)" }}>
-              Before rebuilding anything, I pulled ninety days of Search Console
+              Before rebuilding anything, we pulled ninety days of Search Console
               for the whole domain. The problem was never visibility.
             </p>
           </Reveal>

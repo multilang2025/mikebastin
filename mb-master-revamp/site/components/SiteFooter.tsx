@@ -30,7 +30,7 @@ export default function SiteFooter({
         <Reveal>
           <p className="eyebrow mb-4">Clean face, no crowd</p>
           <h2 className="mb-8 max-w-[15ch] text-[clamp(1.8rem,4.4vw,3rem)] font-semibold leading-[1.08]">
-            Tell me which language is losing you money.
+            Tell us which language is losing you money.
           </h2>
           <div className="flex flex-col gap-2 text-[1.05rem]">
             <a href="mailto:hello@mikebastin.com" className="ulink w-fit">

@@ -1,5 +1,5 @@
 ---
-words: 678
+words: 677
 editorial: "superseded"
 title: "Localisation d'applications"
 slug: "localisation-applications"
@@ -63,7 +63,7 @@ Le processus de localisation consiste à traduire et adapter le contenu, l’int
 
 Après le lancement, nous surveillons et mettons continuellement à jour votre application localisée pour répondre aux préférences des utilisateurs, aux tendances linguistiques et aux exigences du marché.
 
-FAQ – Questions fréquentes
+FAQ, Questions fréquentes
 
 La localisation d’applications implique l’adaptation de la langue, du contenu et des fonctionnalités de votre application pour les différents marchés régionaux.
 
@@ -73,7 +73,7 @@ Nous proposons des services de localisation pour les principales langues interna
 
 Le délai de livraison dépend de la complexité de l’application et du nombre de langues visées. Habituellement, nous finalisons la localisation en 2 à 4 semaines.
 
-Non. Notre processus de localisation préserve le look & feel de votre application.
+Non. Notre processus de localisation préserve le look and feel de votre application.
 
 Nos clients
 

@@ -1,5 +1,5 @@
 ---
-words: 746
+words: 745
 editorial: "superseded"
 title: "Internationalisation de logiciels"
 slug: "internationalisation-de-logiciels"
@@ -64,7 +64,7 @@ Modifier la structure de votre logiciel, [l’interface utilisateur](https://mik
 
 Surveiller le logiciel après son lancement, en fournissant des mises à jour et des rapports permanents afin d’affiner le processus d’internationalisation.
 
-FAQ – Questions fréquentes
+FAQ, Questions fréquentes
 
 L’internationalisation de logiciels est le processus de préparation d’un logiciel pour sa localisation en veillant à ce qu’il puisse être facilement adapté à différentes langues, régions et préférences culturelles sans changer le code.
 

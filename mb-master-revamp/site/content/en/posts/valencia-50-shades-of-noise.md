@@ -1,5 +1,6 @@
 ---
-words: 3609
+words: 3606
+editorial: "relocating"
 title: "Valencia: 50 shades of noise"
 slug: "valencia-50-shades-of-noise"
 locale: "en"
@@ -9,7 +10,7 @@ wpId: 24854578
 date: "2025-06-03T14:55:26"
 modified: "2026-07-02T17:23:46"
 sourceUrl: "https://mikebastin.com/valencia-50-shades-of-noise/"
-excerpt: "Firecrackers, horns and belting songs in the streets. Valencia shouts out her personality. Discover 50 shades of noise, balancing between a love–hate sonic tension and inevitable laughter."
+excerpt: "Firecrackers, horns and belting songs in the streets. Valencia shouts out her personality. Discover 50 shades of noise, balancing between a love, hate sonic tension and inevitable laughter."
 ---
 
 ## How Loud Valencia Really Gets and How Locals Cope
@@ -22,7 +23,7 @@ One could believe that noise was invented here, patented, celebrated and exporte
 
 Fun fact: the most famous Valencian painting bears the graceful name of Sorolla and the city’s main station shares the same name.
 
-Coincidence? I don’t think so…. Valencia, capital of the eponymous autonomous community, shines thanks to its sun, its cuisine and explosive celebrations but above all for its remarkable talent of transforming everyday life into an urban symphony.
+Coincidence? We don’t think so…. Valencia, capital of the eponymous autonomous community, shines thanks to its sun, its cuisine and explosive celebrations but above all for its remarkable talent of transforming everyday life into an urban symphony.
 
 Mechanical shutters, wild percussions, crying children, jarring scooters: everything adds to this cheerful Mediterranean racket.
 
@@ -286,7 +287,7 @@ They are also a mobile teleconference room.
 
 Engine running, windows down, speaker on… and there you are listening to a conversation with the uncle from Zaragoza and the cousin from Denia talking about some sofa sales.
 
-“I’M TELLING YOU TO TAKE IT TO MY HOUSE, DAMN IT!”
+“we’M TELLING YOU TO TAKE IT TO MY HOUSE, DAMN IT!”
 
 You learn about everything without ever asking about it.
 
@@ -378,7 +379,7 @@ And he loves sharing his passions with you.
 
 At 3 o’clock, at 10 o’clock, or at 3:12 in the morning.
 
-You don’t have Netflix but you understand _Fast & Furious 8_ with surprising clarity.
+You don’t have Netflix but you understand _Fast and Furious 8_ with surprising clarity.
 
 The wall shakes, the bass vibrates and the dialogues echo.
 
@@ -501,9 +502,9 @@ Lines for the theatre? More like open-air group therapy.
 People talk. Loudly. About _everything_.  
 Politics. Paella. Paco’s new girlfriend.  
 The line stretches around the block and so does the conversation.  
-By the time you reach your seat, you’ve already had Act I, Scene II, and a character arc.
+By the time you reach your seat, you’ve already had Act we, Scene II, and a character arc.
 
-Well, this city’s constant racket has made me lose sleep and now my ideas have all dried up. Not to worry, I will soon be back for some more since Valencia’s noise supply is endless.
+Well, this city’s constant racket has made us lose sleep and now our ideas have all dried up. Not to worry, we will soon be back for some more since Valencia’s noise supply is endless.
 
 ## Then, why stay in Valencia?
 
@@ -531,11 +532,11 @@ In Valencia, noise is part of the scenery. But online, to make yourself heard, i
 
 Carefully written multilingual content, smart link building, localised branding… that’s how to make noise in the SERPs without bursting any eardrums.
 
-👉 A digital mascletà? Start with a [local SEO audit](https://mikebastin.com/services/local-seo/).
+A digital mascletà? Start with a [local SEO audit](https://mikebastin.com/services/local-seo/).
 
-👉 Want to dominate your niche? Fine-tune your [link building](https://mikebastin.com/services/link-building/).
+Want to dominate your niche? Fine-tune your [link building](https://mikebastin.com/services/link-building/).
 
-👉 Want a site that draws people in naturally, without shouting? [Contact our team](https://mikebastin.com/contact-us/). We speak SEO the way others shout on terraces.
+Want a site that draws people in naturally, without shouting? [Contact our team](https://mikebastin.com/contact-us/). We speak SEO the way others shout on terraces.
 
 With us, your site attracts, stands out, and makes noise where it really matters.
 

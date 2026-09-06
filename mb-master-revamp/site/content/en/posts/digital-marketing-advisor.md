@@ -1,5 +1,5 @@
 ---
-words: 2005
+words: 2004
 title: "When Businesses Need a Digital Marketing Advisor Instead of an Agency"
 slug: "digital-marketing-advisor"
 locale: "en"
@@ -9,10 +9,10 @@ wpId: 24855777
 date: "2026-01-26T18:00:33"
 modified: "2026-07-02T17:30:45"
 sourceUrl: "https://mikebastin.com/digital-marketing-advisor/"
-excerpt: "You need a digital marketing advisor who focuses on results, not vanity metrics. Get clear direction, practical actions, and a strategy built to generate real growth. Contact me and move faster with fewer mistakes."
+excerpt: "You need a digital marketing advisor who focuses on results, not vanity metrics. Get clear direction, practical actions, and a strategy built to generate real growth. Contact us and move faster with fewer mistakes."
 ---
 
-Most business owners come to me with the same question.
+Most business owners come to us with the same question.
 
 Do we need a marketing agency, or do we need an advisor?
 
@@ -26,7 +26,7 @@ Pick the wrong one for your stage, and you waste a year of budget chasing the wr
 
 ## Digital marketing advisor vs agency at a glance
 
-After 25 years running both sides of this fence, I can usually tell within a 20 minute call which one a business actually needs.
+After 25 years running both sides of this fence, we can usually tell within a 20 minute call which one a business actually needs.
 
 The signal is rarely about budget.
 
@@ -82,7 +82,7 @@ Think architect, not construction crew.
 
 They draft the blueprint, audit the foundation, and check that every marketing decision still serves the business model underneath.
 
-In my own work across legal, logistics, real estate, and translation, the advisor role usually starts the same way.
+In our own work across legal, logistics, real estate, and translation, the advisor role usually starts the same way.
 
 A diagnostic.
 
@@ -98,11 +98,11 @@ The output is direction, supported by a martech stack recommendation, a KPI fram
 
 When campaigns produce traffic but no booked calls, an advisor digs into the data to find the leak, often starting with a clean [competitor analysis](https://mikebastin.com/competitor-analysis/) and a [technical SEO audit](https://mikebastin.com/technical-seo-audit-checklist/).
 
-You can see how I shape a [targeted content strategy](https://mikebastin.com/how-to-create-a-targeted-content-strategy/) once that diagnostic is complete.
+You can see how we shape a [targeted content strategy](https://mikebastin.com/how-to-create-a-targeted-content-strategy/) once that diagnostic is complete.
 
-> In my engagements with law firms, freight forwarders, and translation companies, the same pattern keeps showing up. The companies that grow are the ones that keep strategy and execution in separate hands, with a clear feedback loop between them.
+> In our engagements with law firms, freight forwarders, and translation companies, the same pattern keeps showing up. The companies that grow are the ones that keep strategy and execution in separate hands, with a clear feedback loop between them.
 > 
-> — [Michael Bastin](https://mikebastin.com/about-us/), multilingual SEO and marketing consultant
+>, [Mike Bastin](https://mikebastin.com/about-us/), multilingual SEO and marketing consultant
 
 ## What a digital marketing agency does
 
@@ -298,7 +298,7 @@ The core distinction still holds: advisors partner on thinking, agencies partner
 
 > Nearly 24% of brands cut a senior marketing leader role in 2025 without replacing it, turning instead to fractional and advisory arrangements to cover the gap.
 > 
-> Source: [Marketing Week, 2025 Career & Salary Survey](https://www.marketingweek.com/cmo-leaders-spencer-stuart/)
+> Source: [Marketing Week, 2025 Career and Salary Survey](https://www.marketingweek.com/cmo-leaders-spencer-stuart/)
 
 As generative AI tools like ChatGPT, Jasper, and Claude make content production faster and cheaper, the value of execution drifts down while the value of strategic thinking rises.
 
@@ -320,11 +320,11 @@ After 25 years across Belgium, France, Spain, the Netherlands, the UK, and the U
 
 The businesses that grow keep the strategy and execution roles cleanly separate, then make sure the same person never wears both hats.
 
-For sector-specific examples, see how I approach [SEO for law firms](https://mikebastin.com/law-firm-seo-services/) or build a campaign around [multilingual SEO best practices](https://mikebastin.com/best-practices-for-multilingual-seo/).
+For sector-specific examples, see how we approach [SEO for law firms](https://mikebastin.com/law-firm-seo-services/) or build a campaign around [multilingual SEO best practices](https://mikebastin.com/best-practices-for-multilingual-seo/).
 
 For a second opinion on your current setup, [get in touch](https://mikebastin.com/contact-us/) and we can run through it in 20 minutes.
 
-You can also read more [about how I work](https://mikebastin.com/about-us/) before that call.
+You can also read more [about how we work](https://mikebastin.com/about-us/) before that call.
 
 ## Frequently asked questions
 
@@ -338,7 +338,7 @@ Agencies charge for a team plus the delivery work.
 
 Hiring an advisor still requires budget for whoever executes the strategy, whether internal staff or freelancers.
 
-### Can an advisor help me evaluate or replace an underperforming agency?
+### Can an advisor help us evaluate or replace an underperforming agency?
 
 Yes, and the audit is one of the most valuable engagements in the advisory toolkit.
 
@@ -350,7 +350,7 @@ Engagements can be project-based, usually three to six months, to solve a specif
 
 Many businesses retain advisors on a fractional basis for years, with the advisor spending a few days per month making sure strategy evolves alongside the business.
 
-### What are the signs my agency is underperforming?
+### What are the signs our agency is underperforming?
 
 Common indicators include lack of proactive ideas, reports focused on vanity metrics such as likes and impressions rather than booked revenue, and high account manager turnover.
 

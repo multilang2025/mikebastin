@@ -1,0 +1,94 @@
+<!-- @dsCard group="Components" viewport="700x420" name="Ledger set" subtitle="Impression bars, locale table, stat cells, consolidation accordion" -->
+<!doctype html>
+<html lang="en-GB" data-theme="light">
+<head>
+<meta charset="utf-8">
+<title>Ledger</title>
+<link rel="stylesheet" href="../../styles.css">
+<style>
+  body { margin: 0; }
+  .card { padding: 22px 26px; }
+  .stack { display: flex; flex-direction: column; gap: 16px; }
+  .rowg { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+  .btn { font-family: var(--font-sans); font-size: .9rem; font-weight: 500; line-height: 1.2; padding: 11px 22px; border-radius: var(--r-card); border: 1px solid transparent; cursor: pointer; }
+  .btn-primary { background: var(--berry); border-color: var(--berry); color: #fff; }
+  .btn-primary-hover { background: var(--berry-deep); border-color: var(--berry-deep); color: #fff; }
+  .btn-secondary { background: transparent; border-color: var(--rule); color: var(--ink); }
+  .btn-ghost { background: transparent; color: var(--dim); }
+  .btn-disabled { background: var(--berry); border-color: var(--berry); color: #fff; opacity: .42; }
+  .field { width: 100%; font-family: var(--font-sans); font-size: .95rem; font-weight: 350; color: var(--ink); background: var(--shade); border: 1px solid var(--rule); border-radius: var(--r-card); padding: 11px 14px; }
+  .field-focus { border-color: var(--berry); }
+  .lbl { font-size: .72rem; text-transform: uppercase; letter-spacing: var(--track-caps); color: var(--dim); display: block; margin-bottom: 7px; }
+  .hint { font-size: .82rem; color: var(--dim); margin: 7px 0 0; }
+  .err { font-size: .85rem; color: var(--berry); margin: 7px 0 0; }
+  .chip { display: inline-block; border-radius: var(--r-chip); padding: 3px 9px; font-size: .74rem; background: var(--chip); color: var(--dim); }
+  .chip-accent { background: var(--berry-soft); color: var(--berry); text-transform: uppercase; letter-spacing: var(--track-caps); font-size: .66rem; padding: 2px 8px; }
+  .chip-outline { background: transparent; border: 1px solid var(--berry); color: var(--berry); }
+  .chip-struck { text-decoration: line-through; }
+  .pill { border-radius: var(--r-pill); border: 1px solid var(--rule); background: transparent; color: var(--dim); font-family: var(--font-sans); font-size: .82rem; padding: 6px 16px; cursor: pointer; }
+  .pill-on { border-color: var(--berry); background: var(--berry-soft); color: var(--berry); }
+  .box { width: 18px; height: 18px; border-radius: var(--r-chip); border: 1px solid var(--rule); background: var(--shade); position: relative; flex: 0 0 auto; }
+  .box-on { border-color: var(--berry); background: var(--berry); }
+  .box-on::after { content: ""; position: absolute; left: 5px; top: 5px; width: 7px; height: 4px; border-left: 1.6px solid #fff; border-bottom: 1.6px solid #fff; transform: rotate(-45deg); }
+  .cbrow { display: flex; gap: 11px; align-items: flex-start; font-size: .95rem; }
+  .ul { color: var(--berry); text-decoration: none; position: relative; }
+  .ul-hover { border-bottom: 1px solid currentColor; }
+</style>
+</head>
+<body class="band band-b">
+  <div class="card stack">
+    <div>
+      <div class="rowg" style="gap:24px;margin-bottom:14px;font-size:.78rem;color:var(--dim)">
+        <span class="rowg" style="gap:8px"><i style="display:block;width:10px;height:10px;border-radius:2px;background:var(--berry)"></i>Stays on mikebastin.com</span>
+        <span class="rowg" style="gap:8px"><i style="display:block;width:10px;height:10px;border-radius:2px;background:var(--silver)"></i>Moves to valenciamove.com</span>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:14px">
+        <div>
+          <div style="display:flex;justify-content:space-between;font-size:.88rem;margin-bottom:6px"><span>/competitor-analysis-traffic-checklist/</span><span style="font-weight:500">18,522</span></div>
+          <div style="display:flex;align-items:center;gap:16px"><div style="height:8px;flex:1;border-radius:999px;background:var(--shade)"><div style="height:8px;width:100%;border-radius:999px;background:var(--berry)"></div></div><span style="width:4.2rem;text-align:right;font-size:.8rem;color:var(--dim)">pos 56.0</span></div>
+        </div>
+        <div>
+          <div style="display:flex;justify-content:space-between;font-size:.88rem;margin-bottom:6px"><span>/valencia-cost-of-living/</span><span style="font-weight:500">10,601</span></div>
+          <div style="display:flex;align-items:center;gap:16px"><div style="height:8px;flex:1;border-radius:999px;background:var(--shade)"><div style="height:8px;width:57%;border-radius:999px;background:var(--silver)"></div></div><span style="width:4.2rem;text-align:right;font-size:.8rem;color:var(--dim)">pos 12.9</span></div>
+        </div>
+      </div>
+    </div>
+    <table style="width:100%;border-collapse:collapse;text-align:left;font-variant-numeric:tabular-nums">
+      <thead><tr>
+        <th class="caps" style="border-bottom:1px solid var(--rule);padding:10px 16px 10px 0;font-weight:500">Type</th>
+        <th class="caps" style="border-bottom:1px solid var(--rule);padding:10px 16px 10px 0;font-weight:500;text-align:right">EN</th>
+        <th class="caps" style="border-bottom:1px solid var(--rule);padding:10px 16px 10px 0;font-weight:500;text-align:right">FR</th>
+        <th class="caps" style="border-bottom:1px solid var(--rule);padding:10px 16px 10px 0;font-weight:500;text-align:right">ES</th>
+        <th class="caps" style="border-bottom:1px solid var(--rule);padding:10px 0;font-weight:500">Cluster depth</th>
+      </tr></thead>
+      <tbody>
+        <tr>
+          <td style="border-bottom:1px solid var(--rule);padding:12px 16px 12px 0;font-weight:500">Services</td>
+          <td style="border-bottom:1px solid var(--rule);padding:12px 16px 12px 0;text-align:right">43</td>
+          <td style="border-bottom:1px solid var(--rule);padding:12px 16px 12px 0;text-align:right;color:var(--berry);font-weight:600">44</td>
+          <td style="border-bottom:1px solid var(--rule);padding:12px 16px 12px 0;text-align:right">43</td>
+          <td style="border-bottom:1px solid var(--rule);padding:12px 0;font-size:.88rem;color:var(--dim)">Complete in all three</td>
+        </tr>
+      </tbody>
+    </table>
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--rule)">
+      <div class="band band-b" style="padding:18px 14px"><div class="display" style="color:var(--berry);font-size:1.6rem;font-weight:600;line-height:1">25</div><div class="caps" style="margin-top:8px">Years in search</div></div>
+      <div class="band band-b" style="padding:18px 14px"><div class="display" style="color:var(--berry);font-size:1.6rem;font-weight:600;line-height:1">4+1</div><div class="caps" style="margin-top:8px">Languages</div></div>
+      <div class="band band-b" style="padding:18px 14px"><div class="display" style="color:var(--berry);font-size:1.6rem;font-weight:600;line-height:1">8</div><div class="caps" style="margin-top:8px">Projects</div></div>
+      <div class="band band-b" style="padding:18px 14px"><div class="display" style="color:var(--berry);font-size:1.6rem;font-weight:600;line-height:1">12</div><div class="caps" style="margin-top:8px">Domains</div></div>
+    </div>
+    <div style="border-left:2px solid var(--berry);background:var(--shade);padding:14px 12px 14px 18px">
+      <div style="display:flex;align-items:baseline;gap:16px">
+        <span class="display" style="color:var(--berry);font-size:1.1rem;font-weight:600">III.</span>
+        <span class="display" style="font-size:1rem;font-weight:600">Artificial intelligence</span>
+        <span style="margin-left:auto;font-size:.8rem;color:var(--dim)">3 to 2</span>
+      </div>
+      <div class="rowg" style="gap:6px;margin-top:12px">
+        <span class="chip chip-struck">post-ai-editing</span>
+        <span class="chip chip-outline">/services/ai-consulting/</span>
+        <span class="chip chip-outline">/services/ai-translation-and-post-editing/</span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

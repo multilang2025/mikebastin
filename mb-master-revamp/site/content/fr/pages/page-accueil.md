@@ -10,7 +10,7 @@ wpId: 24847021
 date: "2020-03-27T15:58:17"
 modified: "2026-05-29T07:42:01"
 sourceUrl: "https://mikebastin.com/fr/"
-excerpt: "Boostez votre visibilité en ligne et attirez plus de clients grâce à nos services de conseil web, stratégie digitale et SEO. 📈 Faites passer votre site au niveau supérieur dès aujourd'hui !"
+excerpt: "Boostez votre visibilité en ligne et attirez plus de clients grâce à nos services de conseil web, stratégie digitale et SEO. Faites passer votre site au niveau supérieur dès aujourd'hui !"
 ---
 
 # Services de marketing digital multilingues

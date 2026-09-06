@@ -62,6 +62,52 @@ const SUPERSEDED_EN = new Set([
   "web-design", "digital-marketing",
 ]);
 
+/**
+ * Valencia lifestyle and relocation content leaves for valenciamove.com,
+ * per HANDOFF.md section 18: "All Valencia lifestyle/expat content leaves
+ * mikebastin.com". Marked `relocating` so it drops out of the editing
+ * queue, on the same logic as `superseded`: polishing copy that is about
+ * to 301 to another domain is wasted work.
+ *
+ * Listed explicitly rather than matched on the word "Valencia", because a
+ * keyword match gets it wrong. Two posts mention Valencia heavily and
+ * still belong here:
+ *
+ *   optimising-your-website-for-valencia-based-searches is local SEO, not
+ *   lifestyle, and it is the existing material the Valencia proximity
+ *   cluster in CONTENT-ARCHITECTURE.md open question 12 would build on.
+ *   Exporting it would send away the evidence for the opportunity.
+ *
+ * b2b-trade-shows-in-valencia was the one genuine judgement call here.
+ * It is aimed at a business audience rather than a relocating one, so it
+ * had an argument for staying, but the owner decided on 21 Aug that it
+ * goes to valenciamove.com with the rest. Someone researching a trade
+ * show in Valencia is researching Valencia, whichever reason brought
+ * them, and that is the audience the other domain now owns.
+ */
+const RELOCATING = new Set([
+  "international-schools-in-valencia", "valencia-expat", "valencia-remote-working",
+  "valencia-digital-nomads", "valencia-living-expenses", "valencia-50-shades-of-noise",
+  "valencia-good-place-to-live", "valencia-cost-of-living", "basic-spanish-valencia",
+  "neighbourhoods-for-professionals-in-valencia", "move-to-valencia-spain-from-usa",
+  "valencia-the-not-so-perfect-mediterranean-paradise", "valencia-airport-guide",
+  "best-neighborhoods-valencia", "work-life-balance-in-valencia",
+  "shipping-to-valencia-spain",
+  "american-move-to-valencia-spain", "living-in-a-flat-in-valencia-a-pragmatic-overview",
+  "live-in-valencia", "valencia-public-transportation",
+  "essential-things-to-do-in-cultural-valencia",
+  // Owner decision, 21 Aug.
+  "b2b-trade-shows-in-valencia",
+]);
+
+/**
+ * business-registration-in-valencia is deliberately not in that set,
+ * though it was until now. HANDOFF.md section 18 proposes it stays on
+ * mikebastin.com for the business-services angle, and the list here
+ * contradicted that without a decision behind it. Aligned to the handoff
+ * until the owner rules on it either way.
+ */
+
 const THRESHOLDS = { critical: 150, thin: 300, light: 600 };
 
 const files = [];
@@ -90,7 +136,7 @@ for (const f of files) {
   if (f.locale === "en" && f.group) groupEnSlug.set(f.group, f.slug);
 }
 
-const report = { critical: [], thin: [], light: [], superseded: [], structural: [] };
+const report = { critical: [], thin: [], light: [], superseded: [], structural: [], relocating: [] };
 
 for (const f of files) {
   const enSlug = f.group ? groupEnSlug.get(f.group) : null;
@@ -100,6 +146,8 @@ for (const f of files) {
     status = "structural";
   } else if (enSlug && SUPERSEDED_EN.has(enSlug)) {
     status = "superseded";
+  } else if (RELOCATING.has(f.slug) || (enSlug && RELOCATING.has(enSlug))) {
+    status = "relocating";
   } else if (f.words < THRESHOLDS.critical) {
     status = "critical";
   } else if (f.words < THRESHOLDS.thin) {
@@ -124,6 +172,7 @@ console.log(`  thin       ${report.thin.length}`);
 console.log(`  light      ${report.light.length}`);
 console.log(`  superseded ${report.superseded.length}  (absorbed or retired, no edit needed)`);
 console.log(`  structural ${report.structural.length}  (short by design, exempt)`);
+console.log(`  relocating ${report.relocating.length}  (leaving for valenciamove.com)`);
 console.log(`\nreal editing queue: ${needsWork.length}`);
 for (const f of needsWork.sort((a, b) => a.words - b.words)) {
   console.log(`  ${String(f.words).padStart(4)}  ${f.locale}/${f.type}/${f.slug}`);

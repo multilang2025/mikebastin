@@ -1,5 +1,5 @@
 ---
-words: 1159
+words: 1157
 title: "Spanish On-Page SEO"
 slug: "spanish-on-page-seo"
 locale: "en"
@@ -18,7 +18,7 @@ Imagine on-page SEO as the composition of a symphony, where every element works 
 
 In this case, our audience is Spanish speakers, and our symphony is a website perfectly optimised for Spanish search engines like Google.es or Bing Spain.
 
-Just like a skilled composer knows their audience and crafts music accordingly, understanding the unique linguistic and cultural nuances of the Spanish audience is crucial in creating a digital experience that truly connects.
+Just like a skilled composer knows their audience and builds music accordingly, understanding the unique linguistic and cultural nuances of the Spanish audience is crucial in creating a digital experience that truly connects.
 
 ## Understanding the Spanish Market: The Sheet Music
 
@@ -44,7 +44,7 @@ Should you use “tú” or “usted”?
 
 The choice depends on the target audience: a younger, informal audience may prefer “tú,” while a more professional or older audience would expect “usted.”
 
-Additionally, focusing on [long-tail keywords](https://mikebastin.com/long-tail-keywords/) in Spanish, which reflect common expressions, can help better match the user’s search intent and make the content feel natural.
+Focusing on [long-tail keywords](https://mikebastin.com/long-tail-keywords/) in Spanish, which reflect common expressions, can help better match the user’s search intent and make the content feel natural.
 
 ## Content Optimisation: Writing the Melody
 
@@ -52,7 +52,7 @@ Once you have the right notes, it’s time to write the melody: your content.
 
 Content optimisation is about structuring the text in a way that guides both search engines and users smoothly.
 
-Crafting **H1s and H2s** in Spanish using culturally relevant phrasing will enhance readability and engagement.
+Building **H1s and H2s** in Spanish using culturally relevant phrasing will enhance readability and engagement.
 
 An optimised **meta description** is like the overture to your symphony. It invites users to click by offering a preview that speaks directly to them.
 
@@ -68,7 +68,7 @@ URLs must be clear, concise, and **Spanish-friendly**.
 
 Including relevant keywords in Spanish can enhance readability for both users and search engines.
 
-Moreover, localised URLs that reflect the specific region or city in Spain can improve local SEO significantly, making your content more accessible to your intended audience.
+Localised URLs that reflect the specific region or city in Spain can improve local SEO significantly, making your content more accessible to your intended audience.
 
 ## Multimedia Optimisation: Adding Harmonies
 
@@ -152,7 +152,7 @@ Keywords that resonate culturally can improve local search rankings and user eng
 
 Using popular slang can enhance relatability but should be balanced with a professional tone depending on the audience.
 
-### 3\. Should I use ‘tú’ or ‘usted’ for meta descriptions?
+### 3\. Should we use ‘tú’ or ‘usted’ for meta descriptions?
 
 ‘Tú’ is preferred for informal audiences, while ‘usted’ is used for more formal content or older demographics.
 

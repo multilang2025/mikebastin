@@ -1,5 +1,5 @@
 ---
-words: 1119
+words: 1115
 title: "Rastrear y medir rendimiento de GEO y citas de IA"
 slug: "medir-rendimiento-geo"
 locale: "es"
@@ -76,10 +76,10 @@ No existen aún dashboards oficiales de «GEO analytics», pero puedes usar esta
 -   **Google AI Overviews**: busca en modo incógnito y revisa si tu contenido está en el resumen.
 -   [**Herramientas gratuitas de análisis competitivo**](https://mikebastin.com/es/herramientas-gratuitas-analisis-competitivo/): adapta Ubersuggest o SimilarWeb para identificar quién domina en búsquedas conversacionales.
 
-> **Consejo práctico**: haz un seguimiento mensual de 10–15 consultas clave de tu buyer persona. Documenta:  
-> – ¿apareces?  
-> – ¿cómo te describen?  
-> – ¿te enlazan?
+> **Consejo práctico**: haz un seguimiento mensual de 10 to 15 consultas clave de tu buyer persona. Documenta:  
+>, ¿apareces?  
+>, ¿cómo te describen?  
+>, ¿te enlazan?
 
 ## El rol del marcado de datos estructurados en GEO
 
@@ -119,11 +119,11 @@ Hoy, el cliente B2B **ya ha interactuado con la IA antes de visitar tu web**. Si
 
 ## Checklist: optimización de contenido para citas de IA
 
--   ✅ **Claridad**: frases cortas, respuestas directas a preguntas del sector.
--   ✅ **Datos verificables**: incluye fechas, cifras, nombres y estudios.
--   ✅ **Estructura P+R**: usa H3 como “¿qué es el GEO?” o “¿cómo medir el citation share?”.
--   ✅ **E-E-A-T visible**: autores con biografías, credenciales y enlaces a [LinkedIn](https://www.linkedin.com/in/michaelbastin/) o publicaciones.
--   ✅ **Schema integrado**: todo el contenido debe tener JSON-LD válido.
+-   **Claridad**: frases cortas, respuestas directas a preguntas del sector.
+-   **Datos verificables**: incluye fechas, cifras, nombres y estudios.
+-   **Estructura P+R**: usa H3 como “¿qué es el GEO?” o “¿cómo medir el citation share?”.
+-   **E-E-A-T visible**: autores con biografías, credenciales y enlaces a [LinkedIn](https://www.linkedin.com/in/michaelbastin/) o publicaciones.
+-   **Schema integrado**: todo el contenido debe tener JSON-LD válido.
 
 > Según _Search Engine Journal_, páginas que responden directamente a la intención del usuario tienen **40 % más probabilidades** de ser citadas en Google AI Overviews.
 
@@ -165,7 +165,7 @@ No. El SEO sigue siendo crucial para el tráfico directo. Pero el GEO asegura **
 
 ### ¿Cómo empiezo a rastrear mis citas?
 
-1.  Define 10–15 consultas clave de tu buyer persona.
+1.  Define 10 to 15 consultas clave de tu buyer persona.
 2.  Pregúntale a Perplexity, ChatGPT y Google (modo incógnito).
 3.  Registra si apareces, cómo te describen y si te enlazan.
 

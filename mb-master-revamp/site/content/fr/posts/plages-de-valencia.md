@@ -1,5 +1,5 @@
 ---
-words: 931
+words: 930
 title: "Les plages de Valencia : profitez du sable et du soleil"
 slug: "plages-de-valencia"
 locale: "fr"
@@ -28,7 +28,7 @@ C’est un vrai petit coin de paradis si vous voulez combiner farniente et vie u
 
 Longue, large et dotée de sable fin, elle offre un accès facile **aux transports publics** (le tramway (ligne 6 ou 8) ou le bus EMT (ligne 32)) et aux **commerces environnants**.
 
--   Bordée par la promenade de _Neptuno_, où vous pouvez déguster une _paella valenciana_ dans des établissements réputés comme _La Pepica_ – un restaurant qui a accueilli _Ernest Hemingway_ dans les années 50.
+-   Bordée par la promenade de _Neptuno_, où vous pouvez déguster une _paella valenciana_ dans des établissements réputés comme _La Pepica_, un restaurant qui a accueilli _Ernest Hemingway_ dans les années 50.
 -   Si vous prévoyez de vivre définitivement dans le coin, pensez à jeter un œil à [immobilier à Valencia](https://mikebastin.com/fr/immobilier-a-valencia/) pour vous rapprocher de cette ambiance balnéaire.
 
 ## Détendez-vous à la Malvarrosa

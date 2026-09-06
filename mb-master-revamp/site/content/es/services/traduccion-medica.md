@@ -29,7 +29,7 @@ Our team of specialised linguists and healthcare professionals work together to 
 
 Nuestros servicios de traducción médica combinan la experiencia lingüística con el amplio conocimiento de campo de la salud para garantizar la precisión, la confidencialidad y los plazos que requieren tus documentos sanitarios.
 
- Our [translations are certified, ensuring they meet the highest standards](https://mikebastin.com/es/services/traduccion-juridica/) of precision required in medical contexts.
+ Our [translations are certified, ensuring they meet the highest standards](https://mikebastin.com/es/services/traduccion-juridica/) of precision required in medical contexts.
 
 Nuestro equipo cuenta con traductores especializados en varios campos de la medicina que garantizan un uso cuidadoso de la terminología.
 

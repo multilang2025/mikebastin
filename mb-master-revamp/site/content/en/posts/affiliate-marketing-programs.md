@@ -18,7 +18,7 @@ Affiliate marketing is no longer a side-hustle niche.
 
 It is a 20-billion-dollar industry going through its biggest professional shift since the early 2010s.
 
-If you are a content creator, publisher, or agency building recurring revenue, the programmes below are the ones I have seen actually pay out for clients and for my own sites.
+If you are a content creator, publisher, or agency building recurring revenue, the programmes below are the ones we have seen actually pay out for clients and for our own sites.
 
 > Per Post Affiliate Pro, the global affiliate market sits at 17 to 18.5 billion dollars in 2025, is projected above 20 billion in 2026, and is expected to reach 71.74 billion by 2034. Over 90 percent of ecommerce businesses are expected to run affiliate programmes by 2026.
 > 
@@ -26,7 +26,7 @@ If you are a content creator, publisher, or agency building recurring revenue, t
 
 ## How to pick an affiliate programme without wasting six months
 
-The most expensive mistake I see new affiliates make is chasing the highest commission rate they can find.
+The most expensive mistake we see new affiliates make is chasing the highest commission rate they can find.
 
 A 50 percent commission on a product nobody wants pays zero.
 
@@ -36,7 +36,7 @@ Three filters matter more than commission rate alone:
 -   **Cookie window**: anything under 30 days is fighting attribution. Recurring commissions matter more than one-time payouts for anything subscription-based.
 -   **Brand trust**: ranking a review article against Amazon or HubSpot takes far less convincing than promoting a brand your reader has never heard of.
 
-The programmes below balance those three factors. Rates and terms are current as of April 2026 but always check the official programme page before you rely on a number in any article, mine included.
+The programmes below balance those three factors. Rates and terms are current as of April 2026 but always check the official programme page before you rely on a number in any article, ours included.
 
 ## Amazon Associates
 
@@ -210,7 +210,7 @@ Beginner bloggers
 
 ## Where new affiliates lose money in 2026
 
-Three patterns come up in almost every campaign I audit.
+Three patterns come up in almost every campaign we audit.
 
 The first is writing review content without direct experience. Google’s helpful content system and the E-E-A-T framework reward first-hand use. If you have not actually used the tool, the article rarely ranks long term.
 
@@ -226,4 +226,4 @@ Build five pieces of useful content around it. Track clicks, commission and chur
 
 If you want help building an [affiliate content strategy](https://mikebastin.com/how-to-create-a-targeted-content-strategy/) or designing a [360 marketing plan](https://mikebastin.com/360-marketing-agency/) around it, [get in touch](https://mikebastin.com/contact-us/).
 
-More about how I work: [my background and client base](https://mikebastin.com/about-us/).
+More about how we work: [our background and client base](https://mikebastin.com/about-us/).

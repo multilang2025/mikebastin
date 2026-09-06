@@ -1,6 +1,6 @@
 ---
-words: 2744
-title: "The Future of SEO in 2026: AI, GEO & What Actually Works"
+words: 2753
+title: "The Future of SEO in 2026: AI, GEO and What Actually Works"
 slug: "future-of-seo"
 locale: "en"
 type: "posts"
@@ -48,7 +48,7 @@ Winning [AI-driven SEO strategies](https://mikebastin.com/how-ai-is-revolutionis
 
 > AI referrals to top websites surged 357% year-over-year between June 2024 and June 2025, according to Ahrefs data. AI-referred sessions jumped 527% YoY in the first five months of 2025 (Previsible AI Traffic Report). Semrush predicts LLM traffic will overtake traditional Google search by the end of 2027. Source: [Superlines AI Search Statistics](https://www.superlines.io/articles/ai-search-statistics/)
 
-GEO does not replace traditional SEO. It runs alongside it. Content structured for citation, with clear factual claims, named sources, and Schema.org structured data in JSON-LD format, performs in both channels. This means optimising not just for Google’s algorithm, but for the large language models that power Perplexity AI, ChatGPT Search, and Gemini.
+GEO does not replace traditional SEO. It runs alongside it. Content structured for citation, with clear factual claims, named sources, and Schema.org structured data in JSON-LD format, performs in both channels. The job is optimising not just for Google’s algorithm, but for the large language models that power Perplexity AI, ChatGPT Search, and Gemini.
 
 ### What to do now
 
@@ -78,7 +78,7 @@ Sites without identifiable authors, verifiable credentials, or editorial transpa
 
 More than 60% of Google searches now end without a click to an external site. And that figure is climbing.
 
-> According to SparkToro and Datos Group, approximately 60–65% of all Google queries in the US result in zero clicks. A July 2025 Similarweb report found zero-click searches surged from 56% to 69%. Searches triggering AI Overviews show an average zero-click rate of 83%. Source: [SparkToro](https://sparktoro.com/blog/2024-zero-click-search-study-for-every-1000-us-google-searches-only-374-clicks-go-to-the-open-web-in-the-eu-its-360/)
+> According to SparkToro and Datos Group, approximately 60 to 65% of all Google queries in the US result in zero clicks. A July 2025 Similarweb report found zero-click searches surged from 56% to 69%. Searches triggering AI Overviews show an average zero-click rate of 83%. Source: [SparkToro](https://sparktoro.com/blog/2024-zero-click-search-study-for-every-1000-us-google-searches-only-374-clicks-go-to-the-open-web-in-the-eu-its-360/)
 
 Treating zero-click as a threat misses the point. Appearing in AI Overviews, Featured Snippets, Knowledge Panels, and People Also Ask boxes builds brand recall even when users never visit your site. Branded search volume, when users search specifically for your brand, becomes a critical metric in this environment.
 
@@ -112,9 +112,9 @@ Smart speakers, in-car assistants, and mobile voice input now account for a mean
 
 Technical performance is no longer a competitive advantage. It is a baseline expectation.
 
-Google’s Interaction to Next Paint (INP) metric replaced First Input Delay (FID) as a Core Web Vital in March 2024, raising the bar for interactivity. Unlike FID, which only measured the first interaction, INP measures responsiveness across the entire user visit, scoring pages based on their worst 2–5% of interactions.
+Google’s Interaction to Next Paint (INP) metric replaced First Input Delay (FID) as a Core Web Essential in March 2024, raising the bar for interactivity. Unlike FID, which only measured the first interaction, INP measures responsiveness across the entire user visit, scoring pages based on their worst 2 to 5% of interactions.
 
-> According to the 2025 Web Almanac, 77% of mobile pages achieve a good INP score (under 200ms), but only 62% pass LCP, making Largest Contentful Paint (LCP) the hardest Core Web Vital to meet. The three metrics to pass: LCP under 2.5 seconds, INP under 200 milliseconds, and Cumulative Layout Shift (CLS) under 0.1. Source: [Google Search Central](https://developers.google.com/search/docs/appearance/core-web-vitals)
+> According to the 2025 Web Almanac, 77% of mobile pages achieve a good INP score (under 200ms), but only 62% pass LCP, making Largest Contentful Paint (LCP) the hardest Core Web Essential to meet. The three metrics to pass: LCP under 2.5 seconds, INP under 200 milliseconds, and Cumulative Layout Shift (CLS) under 0.1. Source: [Google Search Central](https://developers.google.com/search/docs/appearance/core-web-vitals)
 
 Sites failing Core Web Vitals thresholds lose rankings to competitors who pass them, even with weaker content. A solid [technical SEO audit](https://mikebastin.com/technical-seo-audit-checklist/) catches these issues before they cost visibility.
 
@@ -132,7 +132,7 @@ Google continues to refine hyper-local results, especially on mobile.
 
 > 84% of local searches are conducted on mobile, with local mobile searches growing 50% faster than overall searches. 80% of US consumers search for local businesses weekly, and 88% who perform a local search on a smartphone visit a related store within a week. Nearly 46% of all Google search queries have local intent. Source: [BrightLocal](https://www.brightlocal.com/resources/local-seo-statistics/)
 
-Generic “near me” content performs worse than pages built around specific neighbourhoods, districts, or service areas. [Local SEO](https://mikebastin.com/services/local-seo/) in 2026 favours businesses that demonstrate genuine community presence through reviews, local backlinks, and area-specific content.
+Generic “near us” content performs worse than pages built around specific neighbourhoods, districts, or service areas. [Local SEO](https://mikebastin.com/services/local-seo/) in 2026 favours businesses that demonstrate genuine community presence through reviews, local backlinks, and area-specific content.
 
 Google Business Profile remains the centrepiece of local visibility. Combined with LocalBusiness schema markup and consistent NAP (Name, Address, Phone) data across citations, it forms the foundation of any local search strategy.
 
@@ -168,7 +168,7 @@ Treating content marketing and SEO as separate functions no longer makes sense. 
 
 Publishing for the sake of publishing burns budget and dilutes authority. A focused [content strategy](https://mikebastin.com/how-to-create-a-targeted-content-strategy/) built around topic clusters and commercial intent delivers compounding returns.
 
-Topic clusters, a pillar page supported by related cluster content with strong internal linking, signal topical authority to search engines. This architecture outperforms scattered, disconnected publishing every time.
+Topic clusters, a pillar page supported by related cluster content with strong internal linking, signal topical authority to search engines. The architecture outperforms scattered, disconnected publishing every time.
 
 ### What to do now
 
@@ -182,7 +182,7 @@ Topic clusters, a pillar page supported by related cluster content with strong i
 
 Google’s Spam Policy Updates throughout 2024 and 2025 have expanded enforcement significantly. The link spam update, crackdowns on parasite SEO (third-party content hosted on high-authority domains to manipulate rankings), and penalties for scaled AI content abuse now trigger manual actions faster than ever.
 
-> Google’s 2024–2025 spam policy expansions specifically targeted parasite SEO, link schemes, and AI content abuse. Sites engaged in these practices face manual actions and algorithmic devaluations with increasing speed and severity. Source: [Google Search Central](https://developers.google.com/search/docs/fundamentals/creating-helpful-content)
+> Google’s 2024 to 2025 spam policy expansions specifically targeted parasite SEO, link schemes, and AI content abuse. Sites engaged in these practices face manual actions and algorithmic devaluations with increasing speed and severity. Source: [Google Search Central](https://developers.google.com/search/docs/fundamentals/creating-helpful-content)
 
 Sustainable SEO means building authority through genuine expertise, earned backlinks, and transparent practices. Shortcuts carry more risk in 2026 than at any point in SEO’s history.
 
@@ -222,13 +222,13 @@ Generative Engine Optimisation (GEO) is the practice of optimising content to ap
 
 ### Do zero-click searches kill SEO?
 
-Zero-click searches do not kill SEO. They change how it delivers value. With 60–65% of Google searches ending without a click (SparkToro / Datos), visibility in the SERP itself becomes valuable. Appearing in Featured Snippets, People Also Ask, and AI Overviews builds brand awareness and trust, even without a direct click. Smart SEO strategies now account for both click-based and impression-based value.
+Zero-click searches do not kill SEO. They change how it delivers value. With 60 to 65% of Google searches ending without a click (SparkToro / Datos), visibility in the SERP itself becomes valuable. Appearing in Featured Snippets, People Also Ask, and AI Overviews builds brand awareness and trust, even without a direct click. Smart SEO strategies now account for both click-based and impression-based value.
 
 ### What are the most important ranking factors in 2026?
 
 The most important ranking factors in 2026 include content quality aligned with E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness), Core Web Vitals performance (LCP, INP, CLS), topical authority built through topic clusters, strong backlink profiles from authoritative domains, and proper technical SEO including Schema.org structured data, hreflang for multilingual sites, and mobile-first design.
 
-### How do I optimise for AI Overviews?
+### How do we optimise for AI Overviews?
 
 To optimise for Google AI Overviews, structure content with clear, factual statements that AI can easily extract. Use Schema.org markup in JSON-LD format. Include specific data points and cite authoritative sources. Build topical authority through detailed topic cluster content. Ensure your Google Business Profile and author credentials reinforce E-E-A-T signals.
 

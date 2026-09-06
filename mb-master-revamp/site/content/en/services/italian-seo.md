@@ -1,5 +1,5 @@
 ---
-words: 1696
+words: 1694
 title: "Italian SEO"
 slug: "italian-seo"
 locale: "en"
@@ -14,7 +14,7 @@ excerpt: "Italian SEO services focus on optimising websites for the Italian mark
 
 # Italian SEO: ranking on Google.it with native editorial execution
 
-I read Italian fluently (built on French, Spanish and a Latin background) but do not write it. Native Italian copywriters from the BeTranslated network handle production. Transparent model.
+We read Italian fluently (built on French, Spanish and a Latin background) but do not write it. Native Italian copywriters from the BeTranslated network handle production. Transparent model.
 
 ~65M
 
@@ -26,7 +26,7 @@ Italian read fluently via French, Spanish and Latin background. Write and speak:
 
 Model
 
-strategy + SERP / competitor reading on my side, writing by native Italians. Transparent.
+strategy + SERP / competitor reading on our side, writing by native Italians. Transparent.
 
 SEO + GEO
 
@@ -34,7 +34,7 @@ visibility on Google.it and LLMs responding in Italian
 
 ## Three ways to fail at Italian SEO
 
-Recurring patterns on the Italian sites I audit:
+Recurring patterns on the Italian sites we audit:
 
 Italian source pages translated from English by a non-Italian agency produce copy that reads adequately but lacks the natural register Italian users expect. The register matters more than in English: “voi” vs “tu” decisions, the courtesy level on commercial pages, the placement of polite forms. Italians notice immediately when copy was not written by someone who lives in the language. Conversion suffers even when traffic looks fine.
 
@@ -42,11 +42,11 @@ Italy is the most regionally fragmented major European market. Milan, Rome, Napl
 
 Partita IVA visible, codice fiscale where relevant, REA / Camera di Commercio registration, GDPR consent compliant with Garante della Privacy (stricter than the EU baseline on certain points). For ecommerce, Trusted Shops Italy or equivalent badges, plus visible reso (return) policy. Absence of these signals translates to fewer conversions even when traffic is good.
 
-Italian SEO needs two distinct competences: strategy and SERP / competitor analysis (which I do directly, reading Italian fluently), plus native writing and tone (which I outsource transparently to native Italian copywriters from the [BeTranslated network](https://mikebastin.com/services/multilingual-seo/)). No pretence about who writes the commercial copy.
+Italian SEO needs two distinct competences: strategy and SERP / competitor analysis (which we do directly, reading Italian fluently), plus native writing and tone (which we outsource transparently to native Italian copywriters from the [BeTranslated network](https://mikebastin.com/services/multilingual-seo/)). No pretence about who writes the commercial copy.
 
-## What I include in an Italian SEO engagement
+## What we include in an Italian SEO engagement
 
-Real research in Italian by the native team. Commercial intent, long tail, sectoral terminology. Reviewed by me on the strategy side, validated by natives on the wording.
+Real research in Italian by the native team. Commercial intent, long tail, sectoral terminology. Reviewed by us on the strategy side, validated by natives on the wording.
 
 Targeting per macro-region (Nord, Centro, Sud) when justified by the offer. Local landing pages for the main metropolitan areas (Milano, Roma, Torino, Bologna, Firenze, Napoli) when relevant.
 
@@ -58,35 +58,35 @@ Italian press (Corriere della Sera, La Repubblica, Sole 24 Ore for B2B), sector 
 
 Optimisation for ChatGPT, Claude, Perplexity and Google AI Overviews in Italian. LLMs respond in Italian with a distinct knowledge graph from English.
 
-## My process in 5 steps, named deliverables
+## Our process in 5 steps, named deliverables
 
 Strategic piloting in English or French. Editorial execution by native Italian copywriters.
 
-**Deliverable:** audit with native review of Italian SERPs, identification of competitors, technical state, GDPR / Garante compliance check, benchmark against 3 direct Italian competitors. I read Italian SERPs and competitor pages directly during this phase.
+**Deliverable:** audit with native review of Italian SERPs, identification of competitors, technical state, GDPR / Garante compliance check, benchmark against 3 direct Italian competitors. We read Italian SERPs and competitor pages directly during this phase.
 
-**Deliverable:** spreadsheet of Italian keywords with volumes from Ahrefs and SEMrush, intent classification, long tail, mapping to existing or to-be-created pages. Research lead by the native team, reviewed by me on strategy fit.
+**Deliverable:** spreadsheet of Italian keywords with volumes from Ahrefs and SEMrush, intent classification, long tail, mapping to existing or to-be-created pages. Research lead by the native team, reviewed by us on strategy fit.
 
 **Deliverable:** 6-12 month strategy with editorial calendar, architecture choice, regional prioritisation where relevant, technical plan, Italian legal compliance roadmap.
 
-**Deliverable:** native writing by Italian copywriters from the BeTranslated network, briefs in English or French from me, content QA by a second native Italian reader. Technical optimisation, Italian backlinks, Search Console submission.
+**Deliverable:** native writing by Italian copywriters from the BeTranslated network, briefs in English or French from us, content QA by a second native Italian reader. Technical optimisation, Italian backlinks, Search Console submission.
 
 **Deliverable:** monthly report with Google.it positions, AI citations in Italian, performance by region if relevant, actionable recommendations. Report in English or French.
 
 ## Engagement model and case
 
-Transparency on the Italian topic: editorial production by natives, strategic piloting and SERP reading on my side.
+Transparency on the Italian topic: editorial production by natives, strategic piloting and SERP reading on our side.
 
 **Context:** the multilingual translation agency network includes native Italian translators and copywriters who have been producing editorial content in Italian for years across client sectors (legal, industrial, services).
 
-**My role:** I read Italian competitor pages and SERPs directly thanks to a strong French, Spanish and Latin background. I write SEO briefs in English or French, validate editorial angles, supervise the technical layer (hreflang, schema, architecture). Italian copywriters write the commercial copy. I do not pretend to.
+**Our role:** we read Italian competitor pages and SERPs directly thanks to a strong French, Spanish and Latin background. We write SEO briefs in English or French, validate editorial angles, supervise the technical layer (hreflang, schema, architecture). Italian copywriters write the commercial copy. We do not pretend to.
 
 **Outcome:** Italian content that reads native because it is, aligned on solid SEO strategy because it is piloted by a consultant who understands what the SERPs say, with a reproducible production chain for new Italian clients.
 
 **Target profile:** French, Belgian, Spanish, Swiss or UK SMB or mid-market company entering the Italian market. Monthly budget 1500-5000 € depending on scope.
 
-**How I work:** monthly strategic touchpoints in English or French. I present the trade-offs, you validate. Italian content production and quality review handled by natives. You have one interlocutor (me), one invoice, and deliverables written by Italians.
+**How we work:** monthly strategic touchpoints in English or French. We present the trade-offs, you validate. Italian content production and quality review handled by natives. You have one interlocutor (us), one invoice, and deliverables written by Italians.
 
-**Why it works:** many European SEO agencies “cover” Italian without speaking it. My model is honest about who reads SERPs (me) and who writes commercial copy (natives), without invoicing intermediaries who exist only to mask that separation.
+**Why it works:** many European SEO agencies “cover” Italian without speaking it. Our model is honest about who reads SERPs (us) and who writes commercial copy (natives), without invoicing intermediaries who exist only to mask that separation.
 
 ## What is included, what is not
 
@@ -142,11 +142,11 @@ Local presence per Italian city (GBP, citations)
 
 ## Why this model is more honest (and more effective)
 
-**Michael Bastin:** 25 years in SEO. Italian: I do not speak it, but I read it fluently. The reading proficiency comes from native French, fluent Spanish (Valencia resident since 2016), Castilian context and a Latin background from school years. The result is that I can audit Italian SERPs and competitor pages competently, understand briefs, take notes during native team meetings.
+**Mike Bastin:** 25 years in SEO. Italian: we do not speak it, but we read it fluently. The reading proficiency comes from native French, fluent Spanish (Valencia resident since 2016), Castilian context and a Latin background from school years. The result is that we can audit Italian SERPs and competitor pages competently, understand briefs, take notes during native team meetings.
 
-What I do not do: write or speak the language commercially. That work is done by native Italian copywriters from the BeTranslated network.
+What we do not do: write or speak the language commercially. Native Italian copywriters from the BeTranslated network do that.
 
-This nuance matters: I am not on the “B1 German” model where I outsource everything including SERP reading. On Italian I read directly and pilot the strategy. I just do not put my name on commercial copy that should be written by native Italians.
+The nuance matters, because we are not on the “B1 German” model where we outsource everything including SERP reading. On Italian we read directly and pilot the strategy. We just do not put our name on commercial copy that should be written by native Italians.
 
 [More about the team →](https://mikebastin.com/about-us/)
 
@@ -166,23 +166,23 @@ Regional segmentation is justified when local presence is the core sale. For pur
 
 You don’t speak Italian. How is this Italian SEO?
 
-Italian SEO is not just about writing the language, it is also about reading SERPs, analysing competitor positions, understanding intent in Italian queries, validating technical configuration for it-IT. I read Italian fluently thanks to French native, Spanish daily and Latin background, enough to read competitor pages, audit Italian content, take notes in native team meetings. Writing the commercial copy is done by native Italian copywriters. The split is honest and the result is content that reads native because it is.
+Italian SEO is not just about writing the language, it is also about reading SERPs, analysing competitor positions, understanding intent in Italian queries, validating technical configuration for it-IT. We read Italian fluently thanks to French native, Spanish daily and Latin background, enough to read competitor pages, audit Italian content, take notes in native team meetings. Writing the commercial copy is done by native Italian copywriters. The split is honest and the result is content that reads native because it is.
 
 Why not hire an Italian SEO agency directly?
 
-You can. Italian agency rates are typically 1.3 to 1.7x my hybrid model. For SMBs and mid-market with tighter budgets, my model (piloted strategy + outsourced native writing) covers most of the value at a meaningful discount. For engagements above 10,000 € per month an Italian agency is often justified.
+You can. Italian agency rates are typically 1.3 to 1.7x our hybrid model. For SMBs and mid-market with tighter budgets, our model (piloted strategy + outsourced native writing) covers most of the value at a meaningful discount. For engagements above 10,000 € per month an Italian agency is often justified.
 
 How do you guarantee Italian content quality?
 
-Three filters: (1) SEO and strategic brief from me in English or French to the native Italian copywriter; (2) writing by the briefed Italian copywriter; (3) second-reader pass by another native Italian before publication. Your client-side feedback is a fourth filter. Strategic QA goes through me systematically, I can read the result and challenge if a section drifts from the brief, even without writing the language myself.
+Three filters: (1) SEO and strategic brief from us in English or French to the native Italian copywriter; (2) writing by the briefed Italian copywriter; (3) second-reader pass by another native Italian before publication. Your client-side feedback is a fourth filter. Strategic QA goes through us systematically, we can read the result and challenge if a section drifts from the brief, even without writing the language ourselves.
 
-Should I segment by Italian region?
+Should we segment by Italian region?
 
-Depends on the offer. For services with strong local proximity needs (legal, healthcare, real estate, local trades) yes, regional pages per macro-region or per main city. For online B2B with national reach, a unified Italian site works fine. I give the reasoned recommendation in scoping based on your case.
+Depends on the offer. For services with strong local proximity needs (legal, healthcare, real estate, local trades) yes, regional pages per macro-region or per main city. For online B2B with national reach, a unified Italian site works fine. We give the reasoned recommendation in scoping based on your case.
 
 How do you handle Garante della Privacy compliance?
 
-I include the technical setup for GDPR compliance aligned with Garante della Privacy interpretation (stricter than the EU baseline on certain points: cookie consent storage, marketing consent granularity). For complex cases (sensitive data, AI-driven decisions, employee monitoring) I recommend a specialised Italian privacy lawyer on top of my technical implementation.
+We include the technical setup for GDPR compliance aligned with Garante della Privacy interpretation (stricter than the EU baseline on certain points: cookie consent storage, marketing consent granularity). For complex cases (sensitive data, AI-driven decisions, employee monitoring) we recommend a specialised Italian privacy lawyer on top of our technical implementation.
 
 How long before results in Italian SEO?
 
@@ -194,6 +194,6 @@ Quoted. The price depends on scope, editorial volume, initial site state, sector
 
 ## Ready to rank on Google.it?
 
-I start by auditing your Italian presence with direct reading of Google.it SERPs. Quantified diagnosis, actionable recommendations. Free first call, no commitment.
+We start by auditing your Italian presence with direct reading of Google.it SERPs. Quantified diagnosis, actionable recommendations. Free first call, no commitment.
 
 Related services: [multilingual SEO](https://mikebastin.com/services/multilingual-seo/) · [international SEO](https://mikebastin.com/services/global-seo-solutions/) · [multilingual SEM](https://mikebastin.com/services/multilingual-sem/)

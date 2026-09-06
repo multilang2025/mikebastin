@@ -60,7 +60,7 @@ Sans inscription active, l’avocat n’a pas le droit d’exercer en Espagne. C
 
 Tarification
 
-Forfait, tarif horaire (généralement 120 à 350 €/h à Valencia), success fee. Devis écrit avant signature
+Forfait, tarif horaire (généralement 120 à 350 €/h à Valencia), success fee. Devis écrit avant signature
 
 Les écarts vont de 1 à 5 entre boutique et grande structure. Le devis écrit protège des suppléments surprises
 
@@ -82,7 +82,7 @@ Un cabinet habitué aux multinationales facturera et opérera différemment d’
 
 1
 
-### Delaguía & Luzón
+### Delaguía and Luzón
 
 Affaires Franchise Immobilier Multilingue
 
@@ -118,7 +118,7 @@ Le plus grand cabinet ibérique, particulièrement reconnu en fiscal, droit soci
 
 4
 
-### Chapaprría-Navarro & Asociados
+### Chapaprría-Navarro and Asociados
 
 Local Valencia Civil Famille Affaires
 
@@ -218,7 +218,7 @@ TLA Lawyers, Chapaprría-Navarro, Calixto Escariz
 
 Création de filiale espagnole (SL ou SA)
 
-Delaguía & Luzón, Garrigues
+Delaguía and Luzón, Garrigues
 
 2 500 à 8 000 €
 

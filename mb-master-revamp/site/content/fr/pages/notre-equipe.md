@@ -19,7 +19,7 @@ SEO multilingue, traduction et stratégie digitale. Vingt-cinq ans à faire le t
 
 ## L’expérience
 
-Je fais du SEO et de la traduction depuis 25 ans. Assez longtemps pour me souvenir de l’époque où AltaVista était un concurrent sérieux, où Google n’existait pas encore en français, et où le « SEO multilingue » consistait à traduire ses balises meta keywords. Le métier a changé. Les principes de fond, beaucoup moins. Aujourd’hui, j’aide des entreprises internationales à se positionner, à communiquer et à convertir sur des marchés qu’elles ne voient pas toujours bien depuis l’intérieur.
+Je fais du SEO et de la traduction depuis 25 ans. Assez longtemps pour me souvenir de l’époque où AltaVista était un concurrent sérieux, où Google n’existait pas encore en français, et où le « SEO multilingue » consistait à traduire ses balises meta keywords. Le métier a changé. Les principes de fond, beaucoup moins. Aujourd’hui, j’aide des entreprises internationales à se positionner, à communiquer et à convertir sur des marchés qu’elles ne voient pas toujours bien depuis l’intérieur.
 
 ## Rencontrez notre équipe
 
@@ -47,7 +47,7 @@ Quelques studios de bien-être et marques de services linguistiques en Espagne e
 
 Des articles qui montrent comment le travail se déroule en pratique : SEO multilingue, vie à Valencia, IA dans la recherche, et les outils que j’utilise vraiment.
 
-Le visa nomade numérique espagnol pour les francophones : conditions, démarches, avantages fiscaux.
+Le visa nomade numérique espagnol pour les francophones : conditions, démarches, avantages fiscaux.
 
 Le vrai budget d’un francophone qui s’installe à Valencia, basé sur dix ans d’expérience sur place.
 
@@ -61,8 +61,8 @@ Le paysage juridique valencien pour les expatriés francophones, immigration et 
 
 Let’s work together
 
-On serait ravi d’avoir de vos nouvelles. Une question, une idée, un projet ? Écrivez-nous, on revient vite vers vous.
+On serait ravi d’avoir de vos nouvelles. Une question, une idée, un projet ? Écrivez-nous, on revient vite vers vous.
 
 Are you ready to transform your business?
 
-Prêt à faire passer votre projet à la vitesse supérieure ? Travaillons ensemble pour bâtir quelque chose de marquant. Que vous soyez un dirigeant de PME avec de grandes ambitions ou une entreprise en croissance qui cherche à s’étendre, nous vous aidons à laisser votre empreinte sur la scène internationale.
+Prêt à faire passer votre projet à la vitesse supérieure ? Travaillons ensemble pour bâtir quelque chose de marquant. Que vous soyez un dirigeant de PME avec de grandes ambitions ou une entreprise en croissance qui cherche à s’étendre, nous vous aidons à laisser votre empreinte sur la scène internationale.

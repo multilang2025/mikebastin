@@ -1,5 +1,5 @@
 ---
-words: 1181
+words: 1183
 title: "L'immobilier à Valencia : un marché en pleine ébullition"
 slug: "immobilier-a-valencia"
 locale: "fr"
@@ -23,7 +23,7 @@ Valencia connaît depuis quelques années une hausse constante de la demande imm
 Résultat, les biens se vendent rapidement, et il est parfois difficile de trouver la perle rare si vous attendez trop longtemps.
 
 -   Prix moyen au mètre carré : autour de 2 500 € dans l’ensemble de la ville, avec des pics entre 3 200 € et 3 800 € dans les quartiers premium (El Pla del Remei, Ciutat Vella, Russafa).
--   Quartiers (relativement abordables): Benicalap, Patraix ou Amistad, où le prix tourne plutôt autour de 1 800–2 200 € le mètre carré.
+-   Quartiers (relativement abordables): Benicalap, Patraix ou Amistad, où le prix tourne plutôt autour de 1 800 to 2 200 € le mètre carré.
 
 La demande est dopée par la baisse des taux d’intérêt de la Banque Centrale Européenne, ce qui rend les crédits immobiliers plus accessibles.
 

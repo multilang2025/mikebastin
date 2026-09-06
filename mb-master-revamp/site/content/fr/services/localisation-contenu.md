@@ -1,5 +1,5 @@
 ---
-words: 800
+words: 799
 editorial: "superseded"
 title: "Localisation de contenu"
 slug: "localisation-contenu"
@@ -21,7 +21,7 @@ Optimisez vos contenus pour chaque marché cible
 
 Étendez votre empreinte digitale en tirant parti de notre localisation de contenu qui combine [transcréation](https://mikebastin.com/fr/services/transcreation/), adaptation culturelle et balises `hreflang` ; vos articles, fiches produit et vidéos gagnent ainsi en pertinence sur Google, Bing et Yandex tout en respectant les attentes linguistiques et sociales de chaque audience.
 
-En synchronisant ces actions avec une [stratégie de référencement multilingue](https://mikebastin.com/fr/services/referencement-multilingue/), votre marque bénéficie d’un maillage interne optimisé, d’un schéma JSON-LD enrichi et d’un meilleur positionnement dans les SERP locaux — de Paris à São Paulo.
+En synchronisant ces actions avec une [stratégie de référencement multilingue](https://mikebastin.com/fr/services/referencement-multilingue/), votre marque bénéficie d’un maillage interne optimisé, d’un schéma JSON-LD enrichi et d’un meilleur positionnement dans les SERP locaux, de Paris à São Paulo.
 
 Notre équipe orchestre la [création de contenu multilingue](https://mikebastin.com/fr/services/creation-de-contenu-multilingue/) autour d’entités sémantiques clés issues d’une [recherche de mots-clés](https://mikebastin.com/fr/services/recherche-mots-cles/) granularisée par intention, puis renforce votre autorité grâce à du [netlinking multilingue](https://mikebastin.com/fr/services/netlinking/) et à des données analytiques en temps réel.
 
@@ -48,10 +48,10 @@ La [localisation de contenu web](https://mikebastin.com/fr/services/localisation
 La localisation de contenu est un levier essentiel pour le [référencement naturel (SEO) international](https://mikebastin.com/fr/agence-seo-internationale/). Adapter sa [stratégie de mots-clés](https://mikebastin.com/fr/services/recherche-mots-cles/) à chaque marché cible permet d’améliorer la visibilité sur les moteurs de recherche locaux, d’attirer un trafic qualifié et d’augmenter les conversions. Un [contenu localisé, optimisé pour les recherches](https://mikebastin.com/fr/services/referencement-local/) spécifiques de chaque région, a beaucoup plus de chances d’apparaître en bonne position dans les résultats de recherche et de générer des leads.
 
 -   Le contenu ciblé localement suscite six fois plus d’engagement que les messages conçus pour le marché mondial.
--   49 % des spécialistes du marketing interrogés estiment que le ciblage géographique offre le meilleur retour sur investissement publicitaire.
--   L’absence de localisation peut coûter des clients : une application qui ne localise pas son contenu peut perdre jusqu’à 8 à 13 % de sa clientèle.
--   En Chine, 92 % des applications iPhone les plus populaires sont écrites en chinois et portent des noms chinois, soulignant l’importance de la localisation pour réussir sur ce marché.
--   86 % des campagnes publicitaires localisées surpassent les campagnes en anglais en termes de clics et de conversions.
+-   49 % des spécialistes du marketing interrogés estiment que le ciblage géographique offre le meilleur retour sur investissement publicitaire.
+-   L’absence de localisation peut coûter des clients : une application qui ne localise pas son contenu peut perdre jusqu’à 8 à 13 % de sa clientèle.
+-   En Chine, 92 % des applications iPhone les plus populaires sont écrites en chinois et portent des noms chinois, soulignant l’importance de la localisation pour réussir sur ce marché.
+-   86 % des campagnes publicitaires localisées surpassent les campagnes en anglais en termes de clics et de conversions.
 
 Prêt à ouvrir de nouveaux horizons pour votre entreprise ?
 

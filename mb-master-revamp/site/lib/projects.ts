@@ -193,7 +193,7 @@ export const PROJECTS: Project[] = [
     name: "Matosurf",
     domain: "matosurf.com",
     angle: "French board sports",
-    body: "Seven board sports, forty-eight French spots, a hundred and twenty guides. Friends in the line-up still call me the Silver Surfer, and the editorial method page there is the pattern this site borrows for its own credibility layer.",
+    body: "Seven board sports, forty-eight French spots, a hundred and twenty guides. Friends in the line-up still call him the Silver Surfer, and the editorial method page there is the pattern this site borrows for its own credibility layer.",
     metrics: [
       { v: "120+", k: "Guides" },
       { v: "48", k: "Spots" },

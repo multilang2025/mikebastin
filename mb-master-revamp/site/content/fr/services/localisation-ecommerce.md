@@ -10,7 +10,7 @@ wpId: 24848268
 date: "2024-09-29T11:54:00"
 modified: "2026-05-29T07:41:22"
 sourceUrl: "https://mikebastin.com/fr/services/localisation-ecommerce/"
-excerpt: "Booster vos ventes en ligne avec l’intégration e-commerce localisée 🌍💳. Adaptez votre boutique aux marchés locaux avec la devises, langues et paiements adaptés."
+excerpt: "Booster vos ventes en ligne avec l’intégration e-commerce localisée. Adaptez votre boutique aux marchés locaux avec la devises, langues et paiements adaptés."
 ---
 
 # Localisation e-commerce

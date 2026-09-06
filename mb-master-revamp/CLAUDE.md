@@ -32,7 +32,13 @@ Same model as valenciamove.com, which the owner already runs at larger scale
 - **Localisation:** one content directory per locale (`content/en`,
   `content/fr`, `content/es`). Localised slugs preserved exactly. Translation
   siblings bound by a `group` field in frontmatter matching
-  `redirects/content-map.json`. A fourth locale, `content/nl` (Belgium and
+  `redirects/content-map.json`. **A locale version is an adaptation, not a
+  rendering** (owner decision, 21 Aug): localise the examples, anecdotes and
+  comparisons to the audience reading them, and replace an anecdote that only
+  lands for the source audience rather than translating it. **Full parity is
+  not the target** - ship a locale version when it has something to say to
+  that audience. A missing sibling is not automatically a gap, so `group`
+  records a real absence with an explicit null rather than a to-do. A fourth locale, `content/nl` (Belgium and
   the Netherlands), is planned once these three ship — see
   CONTENT-ARCHITECTURE.md §2. Don't build for it early; the directory
   structure already scales to it without rework.
@@ -56,14 +62,22 @@ needs.
 - No ampersands (`&` or `&amp;`) in site copy — write "and"/"et"/"y". HTML
   attribute/query-string ampersands are exempt.
 - No em dashes or en dashes anywhere. Commas/full stops; ranges use "to".
-- UK English. No sentences starting with "This", "That", or "I". No emojis in
+- **Voice is "we", not "I"** (owner decision, 21 Aug). Matches the four
+  Google reviews that say "Mike and his team". Use our/us/ours, never
+  my/me/mine. Exception: a reviewer's own quote is verbatim and never
+  converted, and Roman numeral "I" in the portfolio numbering is not a
+  pronoun.
+- UK English. No sentences starting with "This" or "That". No emojis in
   body content (emojis allowed on social posts only, max 1 per post).
 - Forbidden vocabulary (non-exhaustive, whole-word match): comprehensive,
   tailored, seamless, leverage, elevate, crafted, maximise, facilitate,
   landscape, utilise, innovative, robust, delve, transformative,
-  implementation, integration, vital, dynamic, ever-evolving, "In
-  conclusion", "It's important to note", moreover, however, thus, hence,
-  additionally.
+  vital, dynamic, ever-evolving, "In conclusion", "It's important to
+  note", moreover, however, thus, hence, additionally.
+- "implementation" and "integration" are **allowed but not to be overused**
+  (owner decision, 21 Aug). They are real technical terms here ("Trusted
+  Shops integration") and one is inside a service name, so they are not a
+  hard fail. The lint warns above a density threshold instead.
 - No bolded links.
 - Design tokens (colour, type) come only from HANDOFF.md §2/§22/§23 (Night
   Swell / Morning Glass palette — aubergine is retired, do not reintroduce

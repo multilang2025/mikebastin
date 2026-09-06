@@ -1,5 +1,5 @@
 ---
-words: 1361
+words: 1359
 title: "Technical SEO for Multilingual Websites"
 slug: "technical-seo-for-multilingual-websites"
 locale: "en"
@@ -21,7 +21,7 @@ Managing [multilingual websites](https://mikebastin.com/optimising-multilingual-
 
 To ensure optimal performance and avoid common pitfalls, it’s important to address technical aspects like [hreflang tags](https://mikebastin.com/best-practices-for-multilingual-seo/), server location, and duplicate content management.
 
-This guide provides a detailed look at how to avoid mistakes that could hinder your [multilingual SEO](https://mikebastin.com/services/multilingual-seo/) efforts and harm your search engine rankings.
+Below we look in detail at how to avoid mistakes that could hinder your [multilingual SEO](https://mikebastin.com/services/multilingual-seo/) efforts and harm your search engine rankings.
 
 ### Why Hreflang Tags Matter in Multilingual SEO
 
@@ -53,7 +53,7 @@ Where your website is hosted can affect your site’s performance, particularly 
 
 Having servers located closer to your target audience can reduce latency and improve load times.
 
-However, server location should be part of a broader strategy that includes other geotargeting factors.
+Server location should be part of a broader strategy that includes other geotargeting factors.
 
 #### Choosing the Right Server Location
 
@@ -106,7 +106,7 @@ It’s a core part of scaling your brand internationally and building trust with
 
 ### Domain Structure for Multilingual Websites
 
-Choosing the right [domain structure](https://mikebastin.com/technical-seo-for-multilingual-websites/) is vital for multilingual SEO success.
+Choosing the right [domain structure](https://mikebastin.com/technical-seo-for-multilingual-websites/) is essential for multilingual SEO success.
 
 There are several options for setting up multilingual websites, including country-code top-level domains (ccTLDs), subdirectories, and subdomains.
 
@@ -140,7 +140,7 @@ Neglecting metadata in multilingual SEO efforts can limit the effectiveness of y
 
 Ensure that all metadata, including meta titles and descriptions, are translated accurately and include relevant keywords for each target language. Explore our [multilingual SEO copywriting services](https://mikebastin.com/services/multilingual-seo-copywriting/).
 
-Don’t simply copy and paste English metadata into other language versions—optimise it specifically for the local audience and search behaviour.
+Don’t simply copy and paste English metadata into other language versions, optimise it specifically for the local audience and search behaviour.
 
 Using translated alt tags for images is also important for improving accessibility and ranking in image search results.
 
@@ -158,7 +158,7 @@ Schedule routine [technical audits](https://mikebastin.com/services/analytics-an
 
 When search engines update their algorithms or introduce new requirements for international SEO, you must adjust your technical setup quickly to maintain visibility.
 
-This proactive strategy, combined with thorough documentation of your international architecture, will help you prevent common pitfalls such as incorrect language targeting, mixed content issues, and poor URL structure – problems that often affect multilingual websites but can be avoided through consistent monitoring and swift resolution.
+The proactive strategy, combined with thorough documentation of your international architecture, will help you prevent common pitfalls such as incorrect language targeting, mixed content issues, and poor URL structure, problems that often affect multilingual websites but can be avoided through consistent monitoring and swift resolution.
 
 ### Final Thoughts: Mastering Technical SEO for Multilingual Sites
 

@@ -1,5 +1,6 @@
 ---
-words: 2321
+words: 2318
+editorial: "relocating"
 title: "Is Valencia a Good Place to Live? 10 Things Expats Wish They Knew"
 slug: "valencia-good-place-to-live"
 locale: "en"
@@ -42,7 +43,7 @@ Valencia (Spain)
 
 £2,100+
 
-€900 – €1,200
+€900, €1,200
 
 Three-course Meal (Mid-range)
 
@@ -78,7 +79,7 @@ Spain consistently ranks among the top countries globally for healthcare, and Va
 
 ### 5\. A City Where You Actually Feel Safe
 
-This one catches a lot of newcomers off guard. Valencia is _incredibly_ safe. You’ll see children playing in plazas at 10 PM while their parents enjoy a glass of wine nearby. Walking home alone at night? Not the anxiety-inducing experience it can be in many other European cities. That sense of community and security is one of the biggest reasons families fall in love with the place.
+Safety catches a lot of newcomers off guard. Valencia is _incredibly_ safe. You’ll see children playing in plazas at 10 PM while their parents enjoy a glass of wine nearby. Walking home alone at night? Not the anxiety-inducing experience it can be in many other European cities. The sense of community and security is one of the biggest reasons families fall in love with the place.
 
 ## The 5 Biggest Cons: What Nobody Warns You About
 
@@ -116,15 +117,15 @@ Numbers and lists are useful, but nothing beats hearing from people who’ve act
 
 ### Sarah, 34, Graphic Designer (UK)
 
-_“I moved from Manchester three years ago. The biggest shock wasn’t the language. It was the pace. Back home, everything is ‘now, now, now.’ Here, if you try to rush a waiter or a landlord, they actually slow down just to spite you! But once I learned to breathe and accept it, my stress levels plummeted. I earn less than I did in the UK, but my quality of life is ten times higher. Tuesday nights at the beach instead of stuck in traffic on the M60, that says it all.”_
+_“we moved from Manchester three years ago. The biggest shock wasn’t the language. It was the pace. Back home, everything is ‘now, now, now.’ Here, if you try to rush a waiter or a landlord, they actually slow down just to spite you! But once we learned to breathe and accept it, our stress levels plummeted. We earn less than we did in the UK, but our quality of life is ten times higher. Tuesday nights at the beach instead of stuck in traffic on the M60, that says it all.”_
 
 ### Mark, 45, Software Engineer (USA)
 
-_“Valencia works brilliantly if you have a US salary. I work remotely for a firm in Chicago. The safety is what gets me. I can walk through the park at 2 AM without looking over my shoulder. The downside? The bureaucracy. Four months and three different lawyers just to sort my [digital nomad visa](https://mikebastin.com/american-move-to-valencia-spain/). Don’t try to do it yourself.”_
+_“Valencia works brilliantly if you have a US salary. We work remotely for a firm in Chicago. The safety is what gets us. We can walk through the park at 2 AM without looking over our shoulder. The downside? The bureaucracy. Four months and three different lawyers just to sort our [digital nomad visa](https://mikebastin.com/american-move-to-valencia-spain/). Don’t try to do it yourself.”_
 
 ### Elena, 29, ESL Teacher (Ireland)
 
-_“I love the social life here. In Dublin, socialising revolves around the pub. In Valencia, it’s the plaza. You see three generations of a family at the same café table. It’s beautiful. But the August humidity is no joke. I changed flats twice just to find decent cross-ventilation and AC. And seriously: learn Spanish. You’ll be a permanent outsider if you don’t.”_
+_“we love the social life here. In Dublin, socialising revolves around the pub. In Valencia, it’s the plaza. You see three generations of a family at the same café table. It’s beautiful. But the August humidity is no joke. We changed flats twice just to find decent cross-ventilation and AC. And seriously: learn Spanish. You’ll be a permanent outsider if you don’t.”_
 
 ## Who’s Valencia Perfect For? (And Who Should Think Twice?)
 
@@ -177,9 +178,9 @@ If you’re ready for that shift, then yes, Valencia is an incredible place to l
 
 ### Is it expensive to live in Valencia?
 
-Compared to most Western European and North American cities, no. Rent is your biggest expense, but food, transport, and leisure are significantly cheaper than the UK or US. That said, prices have been creeping up in popular expat areas like Ruzafa and the city centre. For the full breakdown, check our [Valencia cost of living guide](https://mikebastin.com/valencia-cost-of-living/).
+Compared to most Western European and North American cities, no. Rent is your biggest expense, but food, transport, and leisure are significantly cheaper than the UK or US. Prices have been creeping up, though, in popular expat areas like Ruzafa and the city centre. For the full breakdown, check our [Valencia cost of living guide](https://mikebastin.com/valencia-cost-of-living/).
 
-### Do I need to speak Spanish to live in Valencia?
+### Do we need to speak Spanish to live in Valencia?
 
 To survive? Not really. To actually thrive and build a life? Yes. You’ll need Spanish for admin tasks, medical appointments, and building real relationships with your neighbours. Even [learning the basics](https://mikebastin.com/basic-spanish-valencia/) will drastically improve your experience.
 

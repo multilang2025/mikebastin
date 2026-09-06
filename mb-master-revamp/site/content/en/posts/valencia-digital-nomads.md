@@ -1,5 +1,6 @@
 ---
 words: 2237
+editorial: "relocating"
 title: "Why Valencia is the #1 Destination for Digital Nomads in 2026"
 slug: "valencia-digital-nomads"
 locale: "en"
@@ -194,11 +195,11 @@ It is also worth noting that EEAT, Google’s quality framework of Experience, E
 
 Marco relocated from San Francisco to Valencia while continuing to work for a US-based technology firm.
 
-“I still work the same job, but my quality of life has changed completely. I live in Gran Via, cycle the Turia every morning, and I sleep properly. Valencia doesn’t reward burnout. It rewards balance.”
+“we still work the same job, but our quality of life has changed completely. We live in Gran Via, cycle the Turia every morning, and we sleep properly. Valencia doesn’t reward burnout. It rewards balance.”
 
 ### Sarah, 28, freelance content strategist, UK
 
-“The Digital Nomad Visa process was more complex than I anticipated. I used a relocation service for the paperwork and it was one of the best decisions I made. I now split my week between a café in El Carmen and client calls. The community here is real. I’ve met people who have become close friends.”
+“The Digital Nomad Visa process was more complex than we anticipated. We used a relocation service for the paperwork and it was one of the best decisions we made. We now split our week between a café in El Carmen and client calls. The community here is real. We’ve met people who have become close friends.”
 
 ### Elena, 41, startup founder, Germany
 
@@ -262,7 +263,7 @@ Most residential and coworking locations in Valencia offer symmetrical speeds of
 
 5G coverage is extensive across the city centre and beachfront areas.
 
-### Do I need Spanish to live in Valencia?
+### Do we need Spanish to live in Valencia?
 
 English is sufficient within nomad and expat networks, and is increasingly used in coworking and hospitality contexts.
 

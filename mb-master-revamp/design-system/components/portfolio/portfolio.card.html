@@ -1,0 +1,77 @@
+<!-- @dsCard group="Components" viewport="700x400" name="Portfolio" subtitle="A numbered spread and a review card" -->
+<!doctype html>
+<html lang="en-GB" data-theme="light">
+<head>
+<meta charset="utf-8">
+<title>Portfolio</title>
+<link rel="stylesheet" href="../../styles.css">
+<style>
+  body { margin: 0; }
+  .card { padding: 22px 26px; }
+  .stack { display: flex; flex-direction: column; gap: 16px; }
+  .rowg { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+  .btn { font-family: var(--font-sans); font-size: .9rem; font-weight: 500; line-height: 1.2; padding: 11px 22px; border-radius: var(--r-card); border: 1px solid transparent; cursor: pointer; }
+  .btn-primary { background: var(--berry); border-color: var(--berry); color: #fff; }
+  .btn-primary-hover { background: var(--berry-deep); border-color: var(--berry-deep); color: #fff; }
+  .btn-secondary { background: transparent; border-color: var(--rule); color: var(--ink); }
+  .btn-ghost { background: transparent; color: var(--dim); }
+  .btn-disabled { background: var(--berry); border-color: var(--berry); color: #fff; opacity: .42; }
+  .field { width: 100%; font-family: var(--font-sans); font-size: .95rem; font-weight: 350; color: var(--ink); background: var(--shade); border: 1px solid var(--rule); border-radius: var(--r-card); padding: 11px 14px; }
+  .field-focus { border-color: var(--berry); }
+  .lbl { font-size: .72rem; text-transform: uppercase; letter-spacing: var(--track-caps); color: var(--dim); display: block; margin-bottom: 7px; }
+  .hint { font-size: .82rem; color: var(--dim); margin: 7px 0 0; }
+  .err { font-size: .85rem; color: var(--berry); margin: 7px 0 0; }
+  .chip { display: inline-block; border-radius: var(--r-chip); padding: 3px 9px; font-size: .74rem; background: var(--chip); color: var(--dim); }
+  .chip-accent { background: var(--berry-soft); color: var(--berry); text-transform: uppercase; letter-spacing: var(--track-caps); font-size: .66rem; padding: 2px 8px; }
+  .chip-outline { background: transparent; border: 1px solid var(--berry); color: var(--berry); }
+  .chip-struck { text-decoration: line-through; }
+  .pill { border-radius: var(--r-pill); border: 1px solid var(--rule); background: transparent; color: var(--dim); font-family: var(--font-sans); font-size: .82rem; padding: 6px 16px; cursor: pointer; }
+  .pill-on { border-color: var(--berry); background: var(--berry-soft); color: var(--berry); }
+  .box { width: 18px; height: 18px; border-radius: var(--r-chip); border: 1px solid var(--rule); background: var(--shade); position: relative; flex: 0 0 auto; }
+  .box-on { border-color: var(--berry); background: var(--berry); }
+  .box-on::after { content: ""; position: absolute; left: 5px; top: 5px; width: 7px; height: 4px; border-left: 1.6px solid #fff; border-bottom: 1.6px solid #fff; transform: rotate(-45deg); }
+  .cbrow { display: flex; gap: 11px; align-items: flex-start; font-size: .95rem; }
+  .ul { color: var(--berry); text-decoration: none; position: relative; }
+  .ul-hover { border-bottom: 1px solid currentColor; }
+</style>
+</head>
+<body class="band band-b">
+  <div class="card">
+    <article style="display:grid;grid-template-columns:1fr 1fr;gap:26px;align-items:center;border-top:1px solid var(--rule);padding-top:22px">
+      <div style="position:relative;aspect-ratio:5/4;overflow:hidden;border-radius:3px">
+        <img src="../../assets/work/delaguia-y-luzon.webp" alt="The Delaguia y Luzon homepage" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:top">
+        <div style="position:absolute;inset:0;box-shadow:inset 0 0 90px rgb(0 0 0 / .35)"></div>
+      </div>
+      <div>
+        <div style="display:flex;align-items:baseline;gap:16px;margin-bottom:10px">
+          <span class="display" style="color:var(--berry);font-size:1.3rem;font-weight:500">VII.</span>
+          <span class="eyebrow">Valencia law firm</span>
+        </div>
+        <h3 style="margin:0 0 12px;font-size:1.5rem;font-weight:600"><a class="ul" href="#">Delagu&iacute;a y Luz&oacute;n</a></h3>
+        <p style="margin:0 0 16px;font-size:.95rem;color:var(--dim);max-width:40ch">Legal, labour, immigration and tax across Spain and France, in four languages including Russian.</p>
+        <div class="rowg" style="gap:8px;margin-bottom:18px"><span class="chip">Legal SEO</span><span class="chip">Four languages</span><span class="chip">Two jurisdictions</span></div>
+        <div style="display:flex;gap:36px">
+          <div><div class="display" style="color:var(--berry);font-size:1.5rem;font-weight:600;line-height:1">4</div><div class="caps" style="margin-top:6px">Languages</div></div>
+          <div><div class="display" style="color:var(--berry);font-size:1.5rem;font-weight:600;line-height:1">2</div><div class="caps" style="margin-top:6px">Jurisdictions</div></div>
+        </div>
+      </div>
+    </article>
+    <figure style="margin:22px 0 0;padding:22px;border:1px solid var(--rule);border-radius:var(--r-card);background:var(--shade);max-width:46ch">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px">
+        <span style="display:flex;gap:2px">
+          <svg width="12" height="12" viewBox="0 0 24 24" style="fill:var(--berry)"><path d="M12 2.5l2.9 6.06 6.6.86-4.83 4.6 1.22 6.55L12 17.5l-5.89 3.07 1.22-6.55L2.5 9.42l6.6-.86z"/></svg>
+          <svg width="12" height="12" viewBox="0 0 24 24" style="fill:var(--berry)"><path d="M12 2.5l2.9 6.06 6.6.86-4.83 4.6 1.22 6.55L12 17.5l-5.89 3.07 1.22-6.55L2.5 9.42l6.6-.86z"/></svg>
+          <svg width="12" height="12" viewBox="0 0 24 24" style="fill:var(--berry)"><path d="M12 2.5l2.9 6.06 6.6.86-4.83 4.6 1.22 6.55L12 17.5l-5.89 3.07 1.22-6.55L2.5 9.42l6.6-.86z"/></svg>
+          <svg width="12" height="12" viewBox="0 0 24 24" style="fill:var(--berry)"><path d="M12 2.5l2.9 6.06 6.6.86-4.83 4.6 1.22 6.55L12 17.5l-5.89 3.07 1.22-6.55L2.5 9.42l6.6-.86z"/></svg>
+          <svg width="12" height="12" viewBox="0 0 24 24" style="fill:var(--berry)"><path d="M12 2.5l2.9 6.06 6.6.86-4.83 4.6 1.22 6.55L12 17.5l-5.89 3.07 1.22-6.55L2.5 9.42l6.6-.86z"/></svg>
+        </span>
+        <span class="chip chip-accent">Nederlands</span>
+      </div>
+      <blockquote style="margin:0;font-size:.95rem;line-height:1.6">&ldquo;Onze site staat nu in vier talen online en de aanvragen komen binnen.&rdquo;</blockquote>
+      <figcaption style="display:flex;gap:12px;margin-top:16px;padding-top:14px;border-top:1px solid var(--rule);font-size:.82rem">
+        <cite style="font-style:normal;font-weight:500">Joost v.</cite><span class="caps" style="color:var(--berry);font-size:.7rem">Local Guide</span><span style="margin-left:auto;color:var(--dim)">3 months ago</span>
+      </figcaption>
+    </figure>
+  </div>
+</body>
+</html>

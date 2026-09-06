@@ -1,5 +1,5 @@
 ---
-words: 1697
+words: 1700
 title: "Conversational AI and Chatbots in Business: 10 Practical Uses"
 slug: "conversational-ai-chatbots-business"
 locale: "en"
@@ -80,7 +80,7 @@ Customers interact through websites, mobile apps, WhatsApp, Facebook Messenger, 
 
 A single conversational AI platform can serve all channels with consistent responses and unified customer profiles.
 
-This reduces the need for channel-specific support teams.
+One platform removes the need for channel-specific support teams.
 
 **24/7 availability**
 
@@ -138,7 +138,7 @@ Airlines manage flight changes and baggage tracking through automated systems.
 
 Chatbots can qualify leads by asking budget, timeline, and need questions before routing to sales.
 
-This filters out tyre-kickers and ensures human salespeople spend time on genuine prospects.
+Qualifying first filters out tyre-kickers and ensures human salespeople spend time on genuine prospects.
 
 Combined with a solid [targeted content strategy](https://mikebastin.com/how-to-create-a-targeted-content-strategy/), conversational AI becomes part of the demand generation funnel.
 
@@ -200,7 +200,7 @@ No chatbot handles every query perfectly.
 
 Design clear escalation paths to human agents.
 
-Avoid responses like “I don’t understand” without offering alternatives.
+Avoid responses like “we don’t understand” without offering alternatives.
 
 A frustrated user who cannot reach a human becomes a former customer.
 
@@ -238,7 +238,7 @@ Generic, corporate-speak responses feel cold.
 
 Consistent tone and personality improve engagement.
 
-This ties into broader [multilingual branding](https://mikebastin.com/services/multilingual-branding/) considerations.
+Tone work ties into broader [multilingual branding](https://mikebastin.com/services/multilingual-branding/) considerations.
 
 **Launching without testing**
 
@@ -280,7 +280,7 @@ Compare chatbot CSAT to human agent CSAT to understand relative performance.
 
 The proportion of conversations the chatbot handles from start to finish.
 
-This differs from resolution rate because it includes abandoned conversations.
+Containment differs from resolution rate because it includes abandoned conversations.
 
 ## AI chatbots and search visibility
 

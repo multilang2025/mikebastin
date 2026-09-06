@@ -35,7 +35,7 @@ visibility across Google SERPs and AI search engines per market
 
 ## Where international SEO usually fails
 
-Three patterns I see in audits before re-scoping a multi-country strategy:
+Three patterns we see in audits before re-scoping a multi-country strategy:
 
 “We need EN, FR, ES, DE, IT, PT, NL, JA, ZH from launch.” Result: 9 thin language versions, half machine-translated, none with enough content depth to rank. A 4-market focus done well always beats a 9-market spread done badly. Sequencing matters.
 
@@ -43,9 +43,9 @@ Translating word for word is not localisation. Currency, units, regulations, exa
 
 Hreflang missing, badly implemented, or pointing in circles. Sitemap not split by language. URLs inconsistent across countries. Search Console reports a mess by market. Without clean technical foundation, even great localised content cannot rank in the right country.
 
-International SEO is sequencing and discipline, not just translation. My approach starts with a market prioritisation matrix (volume × competition × commercial fit × cost of localisation) and treats expansion as waves, not a big bang. [Multilingual SEO](https://mikebastin.com/services/multilingual-seo/) follows once the international strategy is agreed.
+International SEO is sequencing and discipline, not just translation. Our approach starts with a market prioritisation matrix (volume × competition × commercial fit × cost of localisation) and treats expansion as waves, not a big bang. [Multilingual SEO](https://mikebastin.com/services/multilingual-seo/) follows once the international strategy is agreed.
 
-## What I include in an international SEO engagement
+## What we include in an international SEO engagement
 
 Scoring of candidate markets: search volume, competition difficulty, commercial fit, cost of localisation, regulatory load. Output: prioritised list with first wave (high-confidence) and second wave (test) markets.
 
@@ -59,7 +59,7 @@ Local press, sector associations, regional directories per country. Backlinks ea
 
 LLM citations vary by country and language. Optimisation for ChatGPT, Claude, Perplexity, Google AI Overviews per market language. Knowledge graphs are not unified.
 
-## My process in 5 steps, named deliverables
+## Our process in 5 steps, named deliverables
 
 Strategy and prioritisation before production. Production sequenced market by market, never all at once.
 
@@ -77,7 +77,7 @@ Strategy and prioritisation before production. Production sequenced market by ma
 
 Three engagements where multi-market expansion was the central challenge.
 
-**Context:** the multilingual translation agency I co-founded operates on 12 country-specific TLDs (.com, .be, .fr, .es, .co.uk, .nl, .de, .it, .pt, and others). Each domain targets a specific market with its own keyword sets, currency and customer base.
+**Context:** the multilingual translation agency we co-founded operates on 12 country-specific TLDs (.com, .be, .fr, .es, .co.uk, .nl, .de, .it, .pt, and others). Each domain targets a specific market with its own keyword sets, currency and customer base.
 
 **Build:** hreflang architecture across all 12 domains, schema markup per country, market-specific keyword research, native localised content per market, cross-domain backlink strategy aligned per country.
 
@@ -149,7 +149,7 @@ Local presence per city in target markets
 
 ## Why this team for international SEO
 
-**Michael Bastin:** 25 years scoping multi-country SEO across Europe and the Americas. Co-founder of BeTranslated, which operates on 12 country-specific TLDs (live experience of running cross-domain SEO architecture, not theoretical).
+**Mike Bastin:** 25 years scoping multi-country SEO across Europe and the Americas. Co-founder of BeTranslated, which operates on 12 country-specific TLDs (live experience of running cross-domain SEO architecture, not theoretical).
 
 Languages: French and English fluent, Spanish (Valencia resident since 2016, 16 years in the Dominican Republic), Dutch (Erasmus Utrecht + Caribbean clientele), B1 German. Plus a native copywriter and translator network for any language not directly spoken.
 
@@ -183,15 +183,15 @@ What is the typical timeline to see results in a new market?
 
 First signals: 3 to 6 months for keyword movement. Meaningful traffic: 8 to 14 months in a competitive market, 4 to 8 months in a less saturated one. The variance is mostly competition and content production speed, not luck.
 
-Can I just translate my existing site for new markets?
+Can we just translate our existing site for new markets?
 
 Translation is the starting point, not the finish line. Search keywords differ by market (a US site translated to UK English will still miss searches for “removals” vs “moving”). Customer references and case studies need to feel local. Currency, units, regulations all need adjustment. Translation alone gets you 30% of the value of full localisation.
 
 How do you handle GDPR / CCPA / LGPD across markets?
 
-Each market has its own requirements. EU markets need GDPR-compliant privacy policy and cookie consent. California needs CCPA-compliant data handling. Brazil needs LGPD compliance. UK is post-Brexit with its own UK GDPR. I include the technical setup for each target market in the build. For complex cases (sensitive data, employee tracking, marketing profiling) I recommend a specialised lawyer on top of my technical implementation.
+Each market has its own requirements. EU markets need GDPR-compliant privacy policy and cookie consent. California needs CCPA-compliant data handling. Brazil needs LGPD compliance. UK is post-Brexit with its own UK GDPR. We include the technical setup for each target market in the build. For complex cases (sensitive data, employee tracking, marketing profiling) we recommend a specialised lawyer on top of our technical implementation.
 
-What if my first wave market doesn’t work?
+What if our first wave market doesn’t work?
 
 Reporting at month 6 with hard data. If a wave 1 market is clearly not converting after 6-9 months of execution, we decide together: pivot the market (different segment, different angle), reduce investment and focus on the markets that are working, or kill it. No “let’s give it another year” without diagnostic. Honest accountability built into the engagement.
 
@@ -201,6 +201,6 @@ Quoted. The price depends on number of markets in scope, depth of localisation p
 
 ## Ready to scope your international expansion?
 
-I start with a market prioritisation matrix and an honest read of your current cross-market state. Free first call, no commitment.
+We start with a market prioritisation matrix and an honest read of your current cross-market state. Free first call, no commitment.
 
 Related services: [multilingual SEO](https://mikebastin.com/services/multilingual-seo/) · [multilingual SEM](https://mikebastin.com/services/multilingual-sem/) · [web design](https://mikebastin.com/services/web-design/) · [local SEO](https://mikebastin.com/services/local-seo/)

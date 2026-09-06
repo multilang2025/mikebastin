@@ -1,5 +1,5 @@
 ---
-words: 1055
+words: 1059
 title: "Google Analytics and International Digital Marketing: What You Can and Cannot Trust"
 slug: "google-analytics-international-marketing-limits"
 locale: "en"
@@ -9,7 +9,7 @@ wpId: 24855766
 date: "2026-01-27T08:16:13"
 modified: "2026-07-02T17:30:44"
 sourceUrl: "https://mikebastin.com/google-analytics-international-marketing-limits/"
-excerpt: "Google Analytics has significant limits internationally—understand what you can trust and where it fails. ⚠️"
+excerpt: "Google Analytics has significant limits internationally, understand what you can trust and where it fails."
 ---
 
 ## The Role of Google Analytics in Modern International Marketing
@@ -28,7 +28,7 @@ When configured properly, GA4 provides reliable directional data for internation
 
 GA4 reliably identifies user location at a strategic level. Country, region, and city data is sufficient for prioritisation and market discovery.
 
-This is especially useful for identifying organic demand in markets where no active campaigns exist. If a country consistently generates qualified sessions, it warrants localisation or targeted SEO investment.
+Country data is especially useful for identifying organic demand in markets where no active campaigns exist. If a country consistently generates qualified sessions, it warrants localisation or targeted SEO investment.
 
 ### Language Preferences and Browser Settings
 
@@ -36,7 +36,7 @@ Browser language often provides better intent signals than physical location. Us
 
 If GA4 shows sustained demand from a language your site does not support, this is not a traffic issue. It is a localisation gap.
 
-At this stage, content adaptation matters more than translation. That includes structure, tone, terminology, and search intent. See [optimising multilingual website content](https://mikebastin.com/optimising-multilingual-website-content/) for practical guidance.
+At this stage, content adaptation matters more than translation. Adaptation covers structure, tone, terminology, and search intent. See [optimising multilingual website content](https://mikebastin.com/optimising-multilingual-website-content/) for practical guidance.
 
 ### User Behaviour and Engagement Flow
 
@@ -58,7 +58,7 @@ International analytics always contains blind spots. Ignoring them leads to unde
 
 In the EU and similar jurisdictions, a large share of users opt out of tracking. Those users are invisible in GA4.
 
-This creates systematic under-reporting in markets governed by GDPR and similar frameworks. Consent Mode reduces the gap, but it does not eliminate it.
+The result is systematic under-reporting in markets governed by GDPR and similar frameworks. Consent Mode reduces the gap, but it does not eliminate it.
 
 ### China and Regional Blocking
 
@@ -86,7 +86,7 @@ Whether you use ccTLDs, subdomains, or subdirectories, GA4 must track users acro
 
 If language switches create new users or sessions, attribution and engagement data becomes unreliable.
 
-This depends on proper analytics setup and [technical SEO for multilingual websites](https://mikebastin.com/technical-seo-for-multilingual-websites/).
+Reliable cross-language tracking depends on proper analytics setup and [technical SEO for multilingual websites](https://mikebastin.com/technical-seo-for-multilingual-websites/).
 
 ### Server-Side Tag Management
 
@@ -108,7 +108,7 @@ International performance issues are rarely caused by SEO alone. They are usuall
 
 Low engagement on localised pages indicates intent mismatch or poor adaptation.
 
-This is not a translation issue. It is a localisation failure.
+Neither is a translation issue. It is a localisation failure.
 
 Use [multilingual SEO best practices](https://mikebastin.com/best-practices-for-multilingual-seo/) to align content with market-specific search behaviour.
 
@@ -146,7 +146,7 @@ Serious international expansion requires deeper analysis than standard reports.
 
 GA4’s BigQuery export allows you to combine analytics data with CRM, logistics, and cost data.
 
-This enables market-level profitability analysis rather than surface-level conversion metrics.
+The export enables market-level profitability analysis rather than surface-level conversion metrics.
 
 ### Predictive Audiences
 

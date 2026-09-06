@@ -1,0 +1,159 @@
+/* Base elements and the shared utilities the bands depend on.
+   Ported from site/app/globals.css. */
+
+* { box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth;
+  background: var(--bg);
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-weight: var(--fw-body);
+  line-height: var(--lh-body);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+::selection { background: var(--berry); color: #FFF; }
+
+:focus-visible {
+  outline: 2px solid var(--berry);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+/* --- bands ------------------------------------------------------------- */
+
+.band {
+  position: relative;
+  background: var(--bg);
+  color: var(--ink);
+  transition: background-color var(--dur-band) ease, color var(--dur-band) ease;
+}
+
+.shell { width: var(--shell); margin-inline: auto; }
+
+/* Grain adds depth on the large flat bands without a raster asset */
+.grain::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: .035;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* --- type -------------------------------------------------------------- */
+
+h1, h2, h3, .display {
+  font-family: var(--font-display);
+  font-optical-sizing: auto;
+  text-wrap: balance;
+  letter-spacing: var(--track-display);
+  margin: 0;
+}
+
+/* Cormorant is a light, high-contrast serif: in italic, at berry, on a dark
+   ground, it was the least readable text on the site. The type is now --ink and
+   berry moved to a lead rule, which keeps the accent and takes the contrast from
+   about 5.5:1 to full body contrast. Do not put the colour back on the text, and
+   do not set it smaller than the token. */
+.eyebrow {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  font-family: var(--font-script);
+  font-style: italic;
+  font-weight: 400;
+  font-size: var(--fs-eyebrow);
+  line-height: 1.35;
+  color: var(--ink);
+  letter-spacing: var(--track-eyebrow);
+}
+
+.eyebrow::before {
+  content: "";
+  flex: 0 0 auto;
+  width: 28px;
+  height: 1px;
+  margin-top: 0.62em;
+  background: var(--berry);
+}
+
+.caps {
+  font-size: var(--fs-caps);
+  text-transform: uppercase;
+  letter-spacing: var(--track-caps);
+  color: var(--dim);
+}
+
+/* Gold shimmer, used once per page, on the hero turn */
+.shimmer {
+  font-style: italic;
+  background: linear-gradient(100deg,
+    var(--berry) 0%, var(--berry-deep) 26%, var(--berry) 48%,
+    var(--berry-deep) 68%, var(--berry) 100%);
+  background-size: 260% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: shimmer 9s ease-in-out infinite;
+}
+@keyframes shimmer {
+  0%, 100% { background-position: 0% 50%; }
+  50%      { background-position: 100% 50%; }
+}
+
+/* Link underline that draws in from the right, then out to the left */
+.ulink {
+  position: relative;
+  color: var(--berry);
+  text-decoration: none;
+}
+.ulink::after {
+  content: "";
+  position: absolute;
+  left: 0; bottom: -2px;
+  width: 100%; height: 1px;
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform .45s var(--ease);
+}
+.ulink:hover::after,
+.ulink:focus-visible::after { transform: scaleX(1); transform-origin: left; }
+
+/* Ambient light, hero band only */
+.hero-glow::before {
+  content: "";
+  position: absolute;
+  inset: -20% -10% auto -10%;
+  height: 70%;
+  background: radial-gradient(60% 60% at 30% 30%, var(--glow), transparent 70%);
+  pointer-events: none;
+  animation: breathe 14s ease-in-out infinite;
+}
+@keyframes breathe {
+  0%, 100% { opacity: .75; transform: translate3d(0,0,0) scale(1); }
+  50%      { opacity: 1;   transform: translate3d(2%, 1%, 0) scale(1.06); }
+}
+
+/* --- reduced motion: hard stop on everything decorative ---------------- */
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .shimmer { animation: none; }
+  .hero-glow::before { animation: none; }
+  .band { transition: none; }
+  *, *::before, *::after {
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important;
+  }
+}
