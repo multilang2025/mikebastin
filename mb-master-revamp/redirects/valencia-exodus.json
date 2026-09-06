@@ -106,15 +106,15 @@
     },
     {
       "from": "/valencia-50-shades-of-noise/",
-      "to": null,
-      "confidence": "new",
-      "note": "Personal, opinionated register. Nothing like it on VM; check it fits that site's voice before porting."
+      "to": "/blog/sounds-of-valencia/",
+      "confidence": "exact",
+      "note": "Content merged into valenciamove's rewritten noise article rather than ported verbatim (ValenciaMove PR #614). The mikebastin version's sarcasm was dropped by design; the redirect target is the honest-assessment rewrite, not a clone of the source."
     },
     {
       "from": "/valencia-the-not-so-perfect-mediterranean-paradise/",
-      "to": null,
-      "confidence": "new",
-      "note": "Same register question as 50-shades-of-noise."
+      "to": "/valencia-culture-shocks/",
+      "confidence": "merge",
+      "note": "Residue ported into the existing culture-shocks page rather than as a standalone article (ValenciaMove PR #627): making Valencian friends is slow, winter is cold indoors, balcony dogs, plus a Latin America origin group. /valencia-culture-shocks/ already covered twelve of this post's other subjects, so a second page would have competed with it."
     },
     {
       "from": "/work-life-balance-in-valencia/",
@@ -152,9 +152,9 @@
     },
     {
       "from": "/fr/valencia-50-nuances-de-bruits/",
-      "to": null,
-      "confidence": "new",
-      "note": "FR sibling of valencia-50-shades-of-noise."
+      "to": "/fr/bruits-de-valencia/",
+      "confidence": "exact",
+      "note": "FR sibling of the above. Same VM article, FR slug per slug-translations.ts."
     }
   ],
   "_locales": "FR siblings redirect to valenciamove.com's own FR slug, which it already maintains in src/lib/slug-translations.ts. VM serves en, fr, es, nl and it, so every one of these has somewhere to land. ES siblings are unresolved: content-map.json's groups array is empty, so nothing binds a mikebastin ES post to its EN original and the ES set cannot be enumerated yet."
