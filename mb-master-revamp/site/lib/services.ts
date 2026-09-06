@@ -1,5 +1,5 @@
 /**
- * The sixteen consolidated services, per CONTENT-ARCHITECTURE.md section 3.
+ * The consolidated services, per CONTENT-ARCHITECTURE.md section 3.
  *
  * Structure is taken from the harvested source in content/en/services/, not
  * invented: the five clusters, what each pillar absorbs, and the section
@@ -10,7 +10,19 @@
  * `gsc` figures are real, from the Search Console project 6973217 over the
  * 90 days to 17 August 2026. Only pages that actually earn impressions
  * carry one; the rest are honestly blank rather than padded with a zero
- * that would read as measured.
+ * that would read as measured. Same rule for `demand`: a page with no
+ * verified Ahrefs pull simply has no `demand` field, rather than a
+ * guessed number standing in for one.
+ *
+ * Owner correction, 6 Sep: local-seo was originally folded into
+ * technical-seo's "Supporting" catch-all, which was a category error --
+ * local/off-site visibility (Google Business Profile, citations, the map
+ * pack) has nothing to do with technical-seo's actual subject (crawlability,
+ * indexation, hreflang plumbing). Pulled back out into its own page, in the
+ * Search cluster alongside the language pages, since it is the same kind of
+ * page: one distinct, ownable query network. GEO/AEO added the same day as
+ * a new AI-cluster pillar, at the owner's explicit request for it as a core
+ * service rather than a blog topic with no page of its own.
  */
 
 export type Service = {
@@ -178,6 +190,21 @@ export const SERVICES: Service[] = [
 
   // ---- Cluster 3: localisation and translation ----
   {
+    slug: "local-seo",
+    name: "Local SEO",
+    cluster: "Search",
+    angle: "Off-site, one location at a time",
+    lede: "Google Business Profile, citations, NAP consistency and the map pack, for multilingual cities where the same street gets searched in more than one language. Discipline and consistency, not tricks.",
+    sections: [
+      "Google Business Profile audit and full optimisation",
+      "Citation cleanup and NAP consistency across directories",
+      "LocalBusiness schema and neighbourhood-level landing pages",
+      "Review generation and response strategy",
+      "Frequently asked questions",
+    ],
+    absorbs: ["local-seo"],
+  },
+  {
     slug: "website-localisation",
     name: "Website localisation",
     cluster: "Localisation",
@@ -235,6 +262,21 @@ export const SERVICES: Service[] = [
     absorbs: ["post-ai-editing"],
   },
 
+  {
+    slug: "generative-engine-optimization",
+    name: "GEO and AEO",
+    cluster: "AI",
+    pillar: true,
+    angle: "Cited inside the answer, not just ranked below it",
+    lede: "ChatGPT, Perplexity and Google's AI Overviews answer a question directly and name a small number of sources while doing it. Structured data, citation-worthy claims and a presence across the platforms people actually ask, so the answer names you.",
+    sections: [
+      "Answer-shaped content: claims a model can quote and cite",
+      "Schema and structured data built for AI retrieval, not just crawlers",
+      "Presence across ChatGPT, Perplexity, Claude and Google AI Overviews",
+      "Citation tracking: which platforms name you, for which queries",
+      "Frequently asked questions",
+    ],
+  },
   // ---- Cluster 5: supporting capability ----
   {
     slug: "technical-seo",
@@ -243,7 +285,7 @@ export const SERVICES: Service[] = [
     angle: "Outer section, bridges back",
     lede: "Crawlability, indexation and the hreflang plumbing that decides whether a multilingual site is read as one entity in several languages or several sites competing with each other.",
     sections: ["What actually blocks a multilingual site", ...ENGAGEMENT],
-    absorbs: ["on-page-seo", "keyword-research", "analytics-and-tracking", "english-seo", "link-building", "local-seo"],
+    absorbs: ["on-page-seo", "keyword-research", "analytics-and-tracking", "english-seo", "link-building"],
   },
   {
     slug: "multilingual-content",
