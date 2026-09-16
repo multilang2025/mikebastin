@@ -212,7 +212,7 @@ export default function Home() {
           <Reveal>
             <p className="eyebrow mb-3">The fix, in structure</p>
             <h2 className="mb-5 max-w-[20ch] text-[clamp(1.8rem,3.6vw,2.9rem)] font-semibold leading-[1.1]">
-              Forty-three service pages became thirteen.
+              Forty-three service pages became nineteen.
             </h2>
             <p className="mb-12 max-w-[56ch] text-[1.05rem]" style={{ color: "var(--dim)" }}>
               One page, one query network, covered properly. Open a cluster to
