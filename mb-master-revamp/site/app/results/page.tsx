@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import Reveal from "@/components/Reveal";
 import Testimonials from "@/components/Testimonials";
+import ImpressionsChart from "@/components/ImpressionsChart";
+import ConsolidationDiagram from "@/components/ConsolidationDiagram";
+import LocaleTable from "@/components/LocaleTable";
 import SiteFooter from "@/components/SiteFooter";
 
 export const metadata: Metadata = {
@@ -44,6 +47,60 @@ export default function ResultsPage() {
               primary evidence. Very few competing consultants can show
               multilingual lead figures at all, and this page is where
               that advantage becomes visible rather than implied.
+            </p>
+          </Reveal>
+        </div>
+      </section>
+
+      {/* ============ THE DIAGNOSIS: charts ============ */}
+      <section className="band band-b py-[clamp(64px,9vw,128px)]">
+        <div className="shell">
+          <Reveal>
+            <p className="eyebrow mb-3">What the data actually said</p>
+            <h2 className="mb-5 max-w-[18ch] text-[clamp(1.8rem,3.6vw,2.9rem)] font-semibold leading-[1.1]">
+              Forty thousand impressions. Six clicks.
+            </h2>
+            <p className="mb-12 max-w-[56ch] text-[1.05rem]" style={{ color: "var(--dim)" }}>
+              Before rebuilding anything, we pulled ninety days of Search Console
+              for the whole domain. The problem was never visibility.
+            </p>
+          </Reveal>
+
+          <Reveal i={1}>
+            <ImpressionsChart />
+          </Reveal>
+        </div>
+      </section>
+
+      {/* ============ THE FIX: schema diagram + locales ============ */}
+      <section className="band band-a py-[clamp(64px,9vw,128px)]">
+        <div className="shell">
+          <Reveal>
+            <p className="eyebrow mb-3">The fix, in structure</p>
+            <h2 className="mb-5 max-w-[20ch] text-[clamp(1.8rem,3.6vw,2.9rem)] font-semibold leading-[1.1]">
+              Forty-three service pages became nineteen.
+            </h2>
+            <p className="mb-12 max-w-[56ch] text-[1.05rem]" style={{ color: "var(--dim)" }}>
+              One page, one query network, covered properly. Open a cluster to
+              see what folded into what.
+            </p>
+          </Reveal>
+
+          <ConsolidationDiagram />
+
+          <Reveal>
+            <p className="mb-3 mt-16 eyebrow">Three locales, one set of groups</p>
+            <h3 className="mb-8 max-w-[24ch] display text-[1.4rem] font-semibold leading-[1.2]">
+              Every merge happens in all three languages, or not at all.
+            </h3>
+          </Reveal>
+          <Reveal i={1}>
+            <LocaleTable />
+          </Reveal>
+          <Reveal i={2}>
+            <p className="mt-8 max-w-[60ch] text-[.95rem]" style={{ color: "var(--dim)" }}>
+              French carries one service more than English and Spanish, which is
+              the kind of detail that quietly breaks hreflang if nobody counts.
             </p>
           </Reveal>
         </div>

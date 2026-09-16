@@ -2,49 +2,38 @@
 
 import { motion, useReducedMotion } from "motion/react";
 import { useState } from "react";
+import { SERVICES } from "@/lib/services";
 
-type Cluster = {
-  id: string;
-  numeral: string;
-  title: string;
-  pillars: string[];
-  absorbs: string[];
-};
+/**
+ * Clusters are derived from lib/services.ts, the single source of truth for
+ * the live service pages, rather than hand-copied here a second time. The
+ * previous version of this component hard-coded its own cluster list and
+ * quietly went stale twice: once when local-seo got its own page instead of
+ * sitting inside technical-seo's absorbs, and again when the AI cluster
+ * gained generative-engine-optimization. Reading SERVICES directly means
+ * the diagram can only be as stale as the site's own service pages.
+ */
+const NUMERALS = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII"];
 
-const CLUSTERS: Cluster[] = [
-  {
-    id: "search",
-    numeral: "I",
-    title: "Multilingual search",
-    pillars: ["multilingual-seo", "french-seo", "german-seo", "spanish-seo", "dutch-seo", "italian-seo", "portuguese-seo"],
-    absorbs: ["global-seo-solutions", "internationalisation", "language-solutions", "multilingual-branding"],
-  },
-  {
-    id: "local",
-    numeral: "II",
-    title: "Localisation and translation",
-    pillars: ["website-localisation", "translation-services", "app-and-software-localisation"],
-    absorbs: ["content-localisation", "localisation-testing", "multilingual-cms-integration", "wordpress-translation-plugin", "localised-e-commerce-integration", "multilingual-ux-ui-design", "business-translation", "medical-translation", "academic-translation", "financial-translation", "legal-translation", "certified-and-sworn", "expert-translation", "transcreation", "app-localisation", "software-internationalisation", "multimedia-localisation"],
-  },
-  {
-    id: "ai",
-    numeral: "III",
-    title: "Artificial intelligence",
-    pillars: ["ai-consulting", "ai-translation-and-post-editing"],
-    absorbs: ["post-ai-editing"],
-  },
-  {
-    id: "support",
-    numeral: "IV",
-    title: "Supporting capability",
-    pillars: ["technical-seo", "multilingual-content"],
-    absorbs: ["on-page-seo", "keyword-research", "analytics-and-tracking", "english-seo", "link-building", "local-seo", "multilingual-seo-copywriting", "cultural-consulting", "multilingual-sem", "multilingual-social-media-management"],
-  },
-];
+const clusterOrder: string[] = [];
+for (const s of SERVICES) {
+  if (!clusterOrder.includes(s.cluster)) clusterOrder.push(s.cluster);
+}
+
+const CLUSTERS = clusterOrder.map((title, i) => {
+  const members = SERVICES.filter((s) => s.cluster === title);
+  return {
+    id: title.toLowerCase().replace(/[^a-z0-9]+/g, "-"),
+    numeral: NUMERALS[i] ?? String(i + 1),
+    title,
+    pillars: members.map((s) => s.slug),
+    absorbs: members.flatMap((s) => s.absorbs ?? []),
+  };
+});
 
 export default function ConsolidationDiagram() {
   const still = useReducedMotion();
-  const [open, setOpen] = useState<string | null>("local");
+  const [open, setOpen] = useState<string | null>(CLUSTERS[1]?.id ?? null);
 
   return (
     <div className="flex flex-col gap-3">
