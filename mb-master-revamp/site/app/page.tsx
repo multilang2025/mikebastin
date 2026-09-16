@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Reveal from "@/components/Reveal";
 import Counter from "@/components/Counter";
 import ImpressionsChart from "@/components/ImpressionsChart";
@@ -14,6 +15,45 @@ const STATS = [
   { n: 4, s: "+1", k: "Languages spoken" },
   { n: 8, s: "", k: "Projects in the line-up" },
   { n: 12, s: "", k: "Domains run" },
+];
+
+const BASTIN = [
+  {
+    letter: "B",
+    word: "Business",
+    desc: "The case for search sits inside a business case first, or it does not get built at all.",
+    href: "/services/lead-generation/",
+  },
+  {
+    letter: "A",
+    word: "Automation",
+    desc: "AI drafts, tests and reports, so nothing waits on a person asleep in the wrong timezone.",
+    href: "/services/ai-consulting/",
+  },
+  {
+    letter: "S",
+    word: "SEO",
+    desc: "Multilingual search, built to rank in the language a buyer actually searches in.",
+    href: "/services/multilingual-seo/",
+  },
+  {
+    letter: "T",
+    word: "Translation",
+    desc: "Copy adapted for the market reading it, not translated for the market that wrote it.",
+    href: "/services/translation-services/",
+  },
+  {
+    letter: "I",
+    word: "Interpretation",
+    desc: "The discipline behind BeTranslated, the agency this site's own projects keep pointing back to.",
+    href: "/projects/betranslated/",
+  },
+  {
+    letter: "N",
+    word: "Networking",
+    desc: "Twenty-five years of referrals, in four languages, still the channel that works.",
+    href: null,
+  },
 ];
 
 export default function Home() {
@@ -72,8 +112,67 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ============ PULL QUOTE ============ */}
+      {/* ============ BASTIN, THE ACRONYM ============ */}
       <section className="band band-b py-[clamp(64px,9vw,128px)]">
+        <div className="shell">
+          <Reveal>
+            <p className="eyebrow mb-3">Nobody planned this, but it fits</p>
+            <h2 className="mb-4 max-w-[18ch] text-[clamp(1.8rem,3.6vw,2.9rem)] font-semibold leading-[1.1]">
+              BASTIN was there the whole time.
+            </h2>
+            <p className="mb-12 max-w-[56ch] text-[1.05rem]" style={{ color: "var(--dim)" }}>
+              Six letters, six things this practice has actually been doing,
+              long before anyone spelled it out.
+            </p>
+          </Reveal>
+
+          <div className="flex flex-col" style={{ borderTop: "1px solid var(--rule)" }}>
+            {BASTIN.map((row, i) => {
+              const body = (
+                <>
+                  <span
+                    className="display shrink-0 text-[clamp(2.4rem,5vw,3.4rem)] font-semibold leading-none"
+                    style={{ color: "var(--berry)" }}
+                  >
+                    {row.letter}
+                  </span>
+                  <span className="flex flex-col gap-1 pt-1">
+                    <span
+                      className={`display text-[1.3rem] font-semibold leading-none${
+                        row.href ? " transition-colors duration-300 group-hover:text-[var(--berry)]" : ""
+                      }`}
+                    >
+                      {row.word}
+                    </span>
+                    <span className="text-[.92rem] leading-[1.55]" style={{ color: "var(--dim)" }}>
+                      {row.desc}
+                    </span>
+                  </span>
+                </>
+              );
+              const rowClass =
+                "flex items-start gap-5 py-6 sm:gap-7";
+              const rowStyle = { borderBottom: "1px solid var(--rule)" };
+              return (
+                <Reveal key={row.letter} i={i}>
+                  {row.href ? (
+                    <Link href={row.href} className={`${rowClass} group`} style={rowStyle}>
+                      {body}
+                    </Link>
+                  ) : (
+                    <div className={rowClass} style={rowStyle}>
+                      {body}
+                    </div>
+                  )}
+                </Reveal>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* ============ PULL QUOTE ============ */}
+      <section className="band band-a py-[clamp(64px,9vw,128px)]">
         <div className="shell">
           <Reveal>
             <blockquote
@@ -88,7 +187,7 @@ export default function Home() {
       </section>
 
       {/* ============ THE DIAGNOSIS: charts ============ */}
-      <section className="band band-a py-[clamp(64px,9vw,128px)]">
+      <section className="band band-b py-[clamp(64px,9vw,128px)]">
         <div className="shell">
           <Reveal>
             <p className="eyebrow mb-3">What the data actually said</p>
@@ -108,7 +207,7 @@ export default function Home() {
       </section>
 
       {/* ============ THE FIX: schema diagram ============ */}
-      <section className="band band-b py-[clamp(64px,9vw,128px)]">
+      <section className="band band-a py-[clamp(64px,9vw,128px)]">
         <div className="shell">
           <Reveal>
             <p className="eyebrow mb-3">The fix, in structure</p>
@@ -126,7 +225,7 @@ export default function Home() {
       </section>
 
       {/* ============ LOCALES ============ */}
-      <section className="band band-a py-[clamp(64px,9vw,128px)]">
+      <section className="band band-b py-[clamp(64px,9vw,128px)]">
         <div className="shell">
           <Reveal>
             <p className="eyebrow mb-3">Three locales, one set of groups</p>
@@ -147,7 +246,7 @@ export default function Home() {
       </section>
 
       {/* ============ WORK ============ */}
-      <section id="work" className="band band-b py-[clamp(64px,9vw,128px)]">
+      <section id="work" className="band band-a py-[clamp(64px,9vw,128px)]">
         <div className="shell">
           <Reveal>
             <p className="eyebrow mb-3">Picked from the line-up</p>
@@ -165,7 +264,7 @@ export default function Home() {
       </section>
 
       {/* ============ TESTIMONIALS ============ */}
-      <section className="band band-a py-[clamp(64px,9vw,128px)]">
+      <section className="band band-b py-[clamp(64px,9vw,128px)]">
         <div className="shell">
           <Reveal>
             <p className="eyebrow mb-3">In their own words</p>
@@ -186,7 +285,7 @@ export default function Home() {
       </section>
 
       {/* ============ CREDIBILITY ============ */}
-      <section className="band band-b py-[clamp(56px,8vw,110px)]">
+      <section className="band band-a py-[clamp(56px,8vw,110px)]">
         <div className="shell">
           <div
             className="grid gap-px"
