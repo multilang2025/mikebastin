@@ -679,3 +679,70 @@ trilingual requirement stands. The design system in §2, §22 and §23 stands.
 Every SEO invariant in §7 stands, and the migration of roughly 285 objects
 out of WordPress still happens, with its destination changed from Payload
 collections to MDX files. WordPress still retires afterwards.
+
+---
+
+## 26. POST-FINAL AMENDMENT 5 — PALETTE PIVOT 2: STRAWBERRY ACCENT, GOLD DEMOTED (owner directive)
+
+Landed in code (`site/app/globals.css`, commit `0bf5ae6`, 9 Aug) but never
+written back here — this section closes that gap. Where this conflicts with
+§22 or §23's colour tables, this section wins; nothing else in §22/§23
+changes (surf identity, band alternation, IP boundary all stand).
+
+### The change
+
+Two warm saturated accents (brass gold and a new red) were competing for
+the same signature job. Resolution: a new `--berry` token becomes the
+single bold accent across the site, and gold is demoted to one job only.
+
+- **`--berry` is now the signature colour**: eyebrows, the hero turn
+  (`.shimmer`, despite its stale "Gold shimmer" code comment), chart bars,
+  pillar chips, portfolio numerals, links (`.ulink`), `::selection`, and
+  the focus outline. Everywhere §2/§22 said "gold" for an interactive or
+  emphasis role, read "berry" instead.
+- **Gold keeps exactly one job**: the first of the two self-drawing swell
+  lines in the hero (`.swell .s1`). The second line is silver (`.swell
+  .s2`), unchanged from §22. Gold no longer appears in eyebrows, links, or
+  any interactive state.
+- **Gold's own hex also shifted** alongside the demotion (not just its
+  role): dark `#D4AF37` → `#D9A94A`, light `#A9791E` → `#9A6E1C`.
+- Colour theory note from the commit: strawberry sits near 350° on the
+  wheel, its complement is teal near 170°, so the existing deep-sea ground
+  (`--bg`/`--deep`) is already the complementary colour — no ground change
+  needed, only resolving which warm accent does what.
+- Both `--berry` and `--berry-deep` check out around 5.2:1 contrast against
+  their own ground in each theme, holding AA for body text.
+
+### Updated token tables (supersedes §23's palette pivot table)
+
+**Night Swell (dark, default):**
+| Token | Value | Role |
+|---|---|---|
+| --bg | #0A1B28 | deep sea, teal undertone |
+| --ink | #F5EFE2 | ivory text (sand) |
+| --ink-dim (`--dim`) | #AFC0CC | sea-mist secondary |
+| **--berry** | **#F2556A** | **signature accent** — eyebrows, hero shimmer, links, chart bars, pillar chips, numerals, selection, focus |
+| --berry-deep | #C9304A | berry's hover/shadow state |
+| --berry-soft | rgb(242 85 106 / .13) | tint fill (pillar chip background) |
+| --gold | #D9A94A | one job only: first swell line |
+| --gold-soft | #E8CD7A | unchanged |
+| --deep | #155268 | petrol accent, rare |
+| --silver | #BCC9D3 | second swell line, tertiary elsewhere |
+
+**Morning Glass (light):**
+| Token | Value | Role |
+|---|---|---|
+| --bg | #F5F0E4 | sand |
+| --ink | #0F2837 | deep-sea ink |
+| --ink-dim (`--dim`) | #58707F | wet slate |
+| **--berry** | **#C42640** | signature accent, same roles as dark |
+| --berry-deep | #9E1B31 | |
+| --berry-soft | rgb(196 38 64 / .10) | |
+| --gold | #9A6E1C | first swell line only |
+| --gold-soft | #8A5A16 | |
+| --deep | #1C6580 | petrol accent |
+| --silver | #6E8291 | second swell line, tertiary |
+
+Rules: `design-guardian` enforces the exact hex values above, superseding
+the values in §23. Wine (#7A1F3D) stays fully retired per §23. Any future
+description of the site's "signature colour" means berry, not gold.

@@ -79,9 +79,11 @@ needs.
   Shops integration") and one is inside a service name, so they are not a
   hard fail. The lint warns above a density threshold instead.
 - No bolded links.
-- Design tokens (colour, type) come only from HANDOFF.md §2/§22/§23 (Night
-  Swell / Morning Glass palette — aubergine is retired, do not reintroduce
-  it). No hex outside that set. No monospace UI fonts.
+- Design tokens (colour, type) come only from HANDOFF.md §2/§22/§23/§26
+  (Night Swell / Morning Glass palette — aubergine is retired, do not
+  reintroduce it; §26 supersedes §23's colour table — berry/strawberry is
+  the signature accent, gold is demoted to the first swell line only). No
+  hex outside that set. No monospace UI fonts.
 - Every legacy URL in `docs/sitemap-MB-EN.txt` resolves 200-same or 301s.
   Never 404 on launch.
 - IP boundary: no Marvel/superhero imagery tied to "Silver Surfer" — it is a
