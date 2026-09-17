@@ -1,9 +1,6 @@
 import Link from "next/link";
 import Reveal from "@/components/Reveal";
 import Counter from "@/components/Counter";
-import ImpressionsChart from "@/components/ImpressionsChart";
-import ConsolidationDiagram from "@/components/ConsolidationDiagram";
-import LocaleTable from "@/components/LocaleTable";
 import Spread from "@/components/Spread";
 import { PROJECTS } from "@/lib/projects";
 import Testimonials from "@/components/Testimonials";
@@ -53,6 +50,49 @@ const BASTIN = [
     word: "Networking",
     desc: "Twenty-five years of referrals, in four languages, still the channel that works.",
     href: null,
+  },
+];
+
+const WHAT_WE_DO = [
+  {
+    cluster: "Lead generation",
+    desc: "Enquiries are the product. Multilingual SEO, localisation and AI consulting are the mechanisms underneath.",
+    href: "/services/lead-generation/",
+  },
+  {
+    cluster: "Search",
+    desc: "Native writing per language, with hreflang and schema configured from the brief rather than patched in later.",
+    href: "/services/multilingual-seo/",
+  },
+  {
+    cluster: "Localisation",
+    desc: "Making a site work in a market, not merely readable in a language.",
+    href: "/services/website-localisation/",
+  },
+  {
+    cluster: "AI",
+    desc: "Structured for ChatGPT, Perplexity and Google's AI Overviews to cite, not just for Google to rank.",
+    href: "/services/generative-engine-optimization/",
+  },
+  {
+    cluster: "Supporting capability",
+    desc: "Crawlability and hreflang plumbing, so a multilingual site reads as one entity, not several competing ones.",
+    href: "/services/technical-seo/",
+  },
+];
+
+const WHY_IT_WORKS = [
+  {
+    title: "In-market copy, not translated copy",
+    body: "A site that works in a market is a currency, trust signal and search behaviour question, as much as a language one.",
+  },
+  {
+    title: "AI accelerates the work, not the excuses",
+    body: "Machine drafting first, human decision after, so speed does not cost accuracy.",
+  },
+  {
+    title: "Every locale gets the same rigor",
+    body: "French, Spanish and English are built to the same standard, not one full version and two lighter ones.",
   },
 ];
 
@@ -186,67 +226,68 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ============ THE DIAGNOSIS: charts ============ */}
+      {/* ============ WHAT WE DO ============ */}
       <section className="band band-b py-[clamp(64px,9vw,128px)]">
         <div className="shell">
           <Reveal>
-            <p className="eyebrow mb-3">What the data actually said</p>
-            <h2 className="mb-5 max-w-[18ch] text-[clamp(1.8rem,3.6vw,2.9rem)] font-semibold leading-[1.1]">
-              Forty thousand impressions. Six clicks.
+            <p className="eyebrow mb-3">What we do</p>
+            <h2 className="mb-5 max-w-[20ch] text-[clamp(1.8rem,3.6vw,2.9rem)] font-semibold leading-[1.1]">
+              Five clusters, each with its own job.
             </h2>
             <p className="mb-12 max-w-[56ch] text-[1.05rem]" style={{ color: "var(--dim)" }}>
-              Before rebuilding anything, we pulled ninety days of Search Console
-              for the whole domain. The problem was never visibility.
+              Multilingual lead generation is the outcome. Everything below
+              is how we build it, and each one gets its own page.
             </p>
           </Reveal>
 
-          <Reveal i={1}>
-            <ImpressionsChart />
-          </Reveal>
+          <div className="flex flex-col" style={{ borderTop: "1px solid var(--rule)" }}>
+            {WHAT_WE_DO.map((row, i) => (
+              <Reveal key={row.cluster} i={i}>
+                <Link
+                  href={row.href}
+                  className="group flex flex-wrap items-baseline gap-x-4 gap-y-1 py-6"
+                  style={{ borderBottom: "1px solid var(--rule)" }}
+                >
+                  <span className="display text-[1.15rem] font-semibold transition-colors duration-300 group-hover:text-[var(--berry)]">
+                    {row.cluster}
+                  </span>
+                  <span className="max-w-[48ch] text-[.92rem]" style={{ color: "var(--dim)" }}>
+                    {row.desc}
+                  </span>
+                </Link>
+              </Reveal>
+            ))}
+          </div>
         </div>
       </section>
 
-      {/* ============ THE FIX: schema diagram ============ */}
+      {/* ============ WHY IT WORKS ============ */}
       <section className="band band-a py-[clamp(64px,9vw,128px)]">
         <div className="shell">
           <Reveal>
-            <p className="eyebrow mb-3">The fix, in structure</p>
-            <h2 className="mb-5 max-w-[20ch] text-[clamp(1.8rem,3.6vw,2.9rem)] font-semibold leading-[1.1]">
-              Forty-three service pages became thirteen.
-            </h2>
-            <p className="mb-12 max-w-[56ch] text-[1.05rem]" style={{ color: "var(--dim)" }}>
-              One page, one query network, covered properly. Open a cluster to
-              see what folded into what.
-            </p>
-          </Reveal>
-
-          <ConsolidationDiagram />
-        </div>
-      </section>
-
-      {/* ============ LOCALES ============ */}
-      <section className="band band-b py-[clamp(64px,9vw,128px)]">
-        <div className="shell">
-          <Reveal>
-            <p className="eyebrow mb-3">Three locales, one set of groups</p>
-            <h2 className="mb-10 max-w-[20ch] text-[clamp(1.8rem,3.6vw,2.9rem)] font-semibold leading-[1.1]">
-              Every merge happens in all three languages, or not at all.
+            <p className="eyebrow mb-3">Why it works</p>
+            <h2 className="mb-12 max-w-[20ch] text-[clamp(1.8rem,3.6vw,2.9rem)] font-semibold leading-[1.1]">
+              The same person reads every language you sell in.
             </h2>
           </Reveal>
-          <Reveal i={1}>
-            <LocaleTable />
-          </Reveal>
-          <Reveal i={2}>
-            <p className="mt-8 max-w-[60ch] text-[.95rem]" style={{ color: "var(--dim)" }}>
-              French carries one service more than English and Spanish, which is
-              the kind of detail that quietly breaks hreflang if nobody counts.
-            </p>
-          </Reveal>
+
+          <div className="grid gap-8 sm:grid-cols-3">
+            {WHY_IT_WORKS.map((w, i) => (
+              <Reveal key={w.title} i={i}>
+                <p className="display mb-2 text-[1.08rem] font-semibold leading-[1.25]">
+                  {w.title}
+                </p>
+                <p className="text-[.92rem] leading-[1.55]" style={{ color: "var(--dim)" }}>
+                  {w.body}
+                </p>
+              </Reveal>
+            ))}
+          </div>
         </div>
       </section>
 
       {/* ============ WORK ============ */}
-      <section id="work" className="band band-a py-[clamp(64px,9vw,128px)]">
+      <section id="work" className="band band-b py-[clamp(64px,9vw,128px)]">
         <div className="shell">
           <Reveal>
             <p className="eyebrow mb-3">Picked from the line-up</p>
@@ -264,7 +305,7 @@ export default function Home() {
       </section>
 
       {/* ============ TESTIMONIALS ============ */}
-      <section className="band band-b py-[clamp(64px,9vw,128px)]">
+      <section className="band band-a py-[clamp(64px,9vw,128px)]">
         <div className="shell">
           <Reveal>
             <p className="eyebrow mb-3">In their own words</p>
@@ -285,7 +326,7 @@ export default function Home() {
       </section>
 
       {/* ============ CREDIBILITY ============ */}
-      <section className="band band-a py-[clamp(56px,8vw,110px)]">
+      <section className="band band-b py-[clamp(56px,8vw,110px)]">
         <div className="shell">
           <div
             className="grid gap-px"
