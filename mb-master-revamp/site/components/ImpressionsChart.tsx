@@ -36,7 +36,7 @@ export default function ImpressionsChart() {
           Stays on mikebastin.com
         </span>
         <span className="flex items-center gap-2" style={{ color: "var(--dim)" }}>
-          <i className="block h-2.5 w-2.5 rounded-[2px]" style={{ background: "var(--silver)" }} />
+          <i className="block h-2.5 w-2.5 rounded-[2px]" style={{ background: "var(--dim)" }} />
           Moves to valenciamove.com
         </span>
       </div>
@@ -77,7 +77,7 @@ export default function ImpressionsChart() {
                 >
                   <motion.div
                     className="absolute inset-y-0 left-0 rounded-full"
-                    style={{ background: d.moves ? "var(--silver)" : "var(--berry)" }}
+                    style={{ background: d.moves ? "var(--dim)" : "var(--berry)" }}
                     initial={{ width: 0 }}
                     animate={inView ? { width: `${pct}%` } : { width: 0 }}
                     transition={{
@@ -101,7 +101,7 @@ export default function ImpressionsChart() {
 
       <p className="mt-9 max-w-[58ch] text-[.92rem]" style={{ color: "var(--dim)" }}>
         Ninety days of impressions against roughly six clicks. Visibility was
-        never the problem, and the two silver bars are leaving for
+        never the problem, and two of these are leaving for
         valenciamove.com, which is the point.
       </p>
     </div>

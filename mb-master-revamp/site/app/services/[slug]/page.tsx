@@ -22,9 +22,31 @@ export async function generateMetadata({
   const { slug } = await params;
   const service = getService(slug);
   if (!service) return {};
+  const title = service.metaTitle ?? `${service.name}, Mike Bastin`;
+  const description = service.metaDescription ?? service.lede;
+  const canonical = `${SITE_URL}/services/${service.slug}/`;
   return {
-    title: service.metaTitle ?? `${service.name}, Mike Bastin`,
-    description: service.metaDescription ?? service.lede,
+    title,
+    description,
+    alternates: { canonical },
+    // The og:image/twitter:image tags themselves come from the colocated
+    // opengraph-image.tsx (Next.js's file-convention metadata, injected
+    // automatically per docs/opengraph-image.md), not from an `images`
+    // array here, so a per-service card can never drift from the file
+    // that actually renders it.
+    openGraph: {
+      type: "website",
+      siteName: "Mike Bastin",
+      locale: "en_GB",
+      url: canonical,
+      title,
+      description,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+    },
   };
 }
 
@@ -41,6 +63,20 @@ export default async function ServicePage({
     (s) => s.cluster === service.cluster && s.slug !== service.slug
   );
   const url = `${SITE_URL}/services/${service.slug}/`;
+
+  // Bands alternate strictly A/B/A/B (HANDOFF.md §23): the hero is always
+  // band-a, and every section after it flips regardless of which optional
+  // sections (gsc, demand, body, absorbs, siblings) are actually present,
+  // so two same-surface bands never end up touching.
+  let band: "a" | "b" = "a";
+  const nextBand = () => (band = band === "a" ? "b" : "a");
+  const gscBand = service.gsc ? nextBand() : undefined;
+  const demandBand = service.demand ? nextBand() : undefined;
+  const bodyBand = service.body && service.body.length > 0 ? nextBand() : undefined;
+  const engagementBand = nextBand();
+  const absorbsBand = service.absorbs && service.absorbs.length > 0 ? nextBand() : undefined;
+  const siblingsBand = siblings.length > 0 ? nextBand() : undefined;
+  const footerBand = nextBand();
 
   return (
     <main>
@@ -94,7 +130,7 @@ export default async function ServicePage({
 
       {/* ============ LIVE SEARCH CONSOLE ============ */}
       {service.gsc && (
-        <section className="band band-b py-[clamp(48px,7vw,90px)]">
+        <section className={`band band-${gscBand} py-[clamp(48px,7vw,90px)]`}>
           <div className="shell">
             <Reveal>
               <p className="eyebrow mb-6">Live Search Console, 90 days to 17 August 2026</p>
@@ -126,7 +162,7 @@ export default async function ServicePage({
 
       {/* ============ MEASURED DEMAND ============ */}
       {service.demand && (
-        <section className="band band-a py-[clamp(48px,7vw,90px)]">
+        <section className={`band band-${demandBand} py-[clamp(48px,7vw,90px)]`}>
           <div className="shell">
             <Reveal>
               <p className="eyebrow mb-6">Measured demand, Ahrefs, 20 August 2026</p>
@@ -157,13 +193,35 @@ export default async function ServicePage({
         </section>
       )}
 
+      {/* ============ BODY (real prose, migrated + adapted from the legacy pages this service absorbs) ============ */}
+      {service.body && service.body.length > 0 && (
+        <section className={`band band-${bodyBand} py-[clamp(56px,8vw,110px)]`}>
+          <div className="shell space-y-14">
+            {service.body.map((section, i) => (
+              <Reveal key={section.heading} i={i}>
+                <h2 className="mb-5 max-w-[28ch] text-[clamp(1.4rem,2.6vw,2rem)] font-semibold leading-[1.18]">
+                  {section.heading}
+                </h2>
+                <div className="max-w-[68ch] space-y-4">
+                  {section.paragraphs.map((p, j) => (
+                    <p key={j} className="text-[1.02rem] leading-[1.65]" style={{ color: "var(--dim)" }}>
+                      {p}
+                    </p>
+                  ))}
+                </div>
+              </Reveal>
+            ))}
+          </div>
+        </section>
+      )}
+
       {/* ============ WHAT THE PAGE COVERS ============ */}
-      <section className="band band-a py-[clamp(56px,8vw,110px)]">
+      <section className={`band band-${engagementBand} py-[clamp(56px,8vw,110px)]`}>
         <div className="shell">
           <Reveal>
             <p className="eyebrow mb-3">How the engagement runs</p>
-            <h2 className="mb-10 max-w-[20ch] text-[clamp(1.7rem,3.2vw,2.5rem)] font-semibold leading-[1.12]">
-              Named deliverables, not a retainer with a shrug
+            <h2 className="mb-10 max-w-[22ch] text-[clamp(1.7rem,3.2vw,2.5rem)] font-semibold leading-[1.12]">
+              How the {service.name} engagement runs
             </h2>
           </Reveal>
           <ol className="grid gap-px sm:grid-cols-2" style={{ background: "var(--rule)" }}>
@@ -183,7 +241,7 @@ export default async function ServicePage({
 
       {/* ============ ABSORBS ============ */}
       {service.absorbs && service.absorbs.length > 0 && (
-        <section className="band band-b py-[clamp(56px,8vw,110px)]">
+        <section className={`band band-${absorbsBand} py-[clamp(56px,8vw,110px)]`}>
           <div className="shell">
             <Reveal>
               <p className="eyebrow mb-3">Consolidated into this page</p>
@@ -213,7 +271,7 @@ export default async function ServicePage({
 
       {/* ============ SIBLINGS ============ */}
       {siblings.length > 0 && (
-        <section className="band band-a py-[clamp(56px,8vw,110px)]">
+        <section className={`band band-${siblingsBand} py-[clamp(56px,8vw,110px)]`}>
           <div className="shell">
             <Reveal>
               <p className="eyebrow mb-6">Also in {service.cluster.toLowerCase()}</p>
@@ -231,7 +289,7 @@ export default async function ServicePage({
         </section>
       )}
 
-      <SiteFooter />
+      <SiteFooter band={footerBand} />
     </main>
   );
 }

@@ -12,13 +12,10 @@
   --bg:        #F5F0E4;
   --ink:       #0F2837;
   --dim:       #58707F;
-  --gold:      #9A6E1C;
-  --gold-soft: #8A5A16;
   --berry:      #C42640;
   --berry-deep: #9E1B31;
   --berry-soft: rgb(196 38 64 / 0.10);
   --deep:      #1C6580;
-  --silver:    #6E8291;
   --rule:      rgb(15 40 55 / 0.16);
   --chip:      rgb(15 40 55 / 0.055);
   --glow:      rgb(196 38 64 / 0.09);
@@ -29,13 +26,10 @@
   --bg:        #0A1B28;
   --ink:       #F5EFE2;
   --dim:       #AFC0CC;
-  --gold:      #D9A94A;
-  --gold-soft: #E8CD7A;
   --berry:      #F2556A;
   --berry-deep: #C9304A;
   --berry-soft: rgb(242 85 106 / 0.13);
   --deep:      #155268;
-  --silver:    #BCC9D3;
   --rule:      rgb(245 239 226 / 0.15);
   --chip:      rgb(245 239 226 / 0.07);
   --glow:      rgb(242 85 106 / 0.14);
@@ -48,13 +42,10 @@
     --bg:        #0A1B28;
     --ink:       #F5EFE2;
     --dim:       #AFC0CC;
-    --gold:      #D9A94A;
-    --gold-soft: #E8CD7A;
     --berry:      #F2556A;
     --berry-deep: #C9304A;
     --berry-soft: rgb(242 85 106 / 0.13);
     --deep:      #155268;
-    --silver:    #BCC9D3;
     --rule:      rgb(245 239 226 / 0.15);
     --chip:      rgb(245 239 226 / 0.07);
     --glow:      rgb(242 85 106 / 0.14);
@@ -64,13 +55,10 @@
     --bg:        #F5F0E4;
     --ink:       #0F2837;
     --dim:       #58707F;
-    --gold:      #9A6E1C;
-    --gold-soft: #8A5A16;
     --berry:      #C42640;
     --berry-deep: #9E1B31;
     --berry-soft: rgb(196 38 64 / 0.10);
     --deep:      #1C6580;
-    --silver:    #6E8291;
     --rule:      rgb(15 40 55 / 0.16);
     --chip:      rgb(15 40 55 / 0.055);
     --glow:      rgb(196 38 64 / 0.09);
@@ -80,24 +68,24 @@
 
 :root[data-theme="dark"],
 :root[data-theme="dark"] .band-a {
-  --bg:#0A1B28; --ink:#F5EFE2; --dim:#AFC0CC; --gold:#D9A94A; --gold-soft:#E8CD7A; --berry:#F2556A; --berry-deep:#C9304A; --berry-soft:rgb(242 85 106 / .13);
-  --deep:#155268; --silver:#BCC9D3; --rule:rgb(245 239 226 / .15); --chip:rgb(245 239 226 / .07);
+  --bg:#0A1B28; --ink:#F5EFE2; --dim:#AFC0CC; --berry:#F2556A; --berry-deep:#C9304A; --berry-soft:rgb(242 85 106 / .13);
+  --deep:#155268; --rule:rgb(245 239 226 / .15); --chip:rgb(245 239 226 / .07);
   --glow:rgb(242 85 106 / .14); --shade:rgb(245 239 226 / .04);
 }
 :root[data-theme="dark"] .band-b {
-  --bg:#F5F0E4; --ink:#0F2837; --dim:#58707F; --gold:#9A6E1C; --gold-soft:#8A5A16; --berry:#C42640; --berry-deep:#9E1B31; --berry-soft:rgb(196 38 64 / .10);
-  --deep:#1C6580; --silver:#6E8291; --rule:rgb(15 40 55 / .16); --chip:rgb(15 40 55 / .055);
+  --bg:#F5F0E4; --ink:#0F2837; --dim:#58707F; --berry:#C42640; --berry-deep:#9E1B31; --berry-soft:rgb(196 38 64 / .10);
+  --deep:#1C6580; --rule:rgb(15 40 55 / .16); --chip:rgb(15 40 55 / .055);
   --glow:rgb(196 38 64 / .09); --shade:rgb(15 40 55 / .04);
 }
 :root[data-theme="light"],
 :root[data-theme="light"] .band-a {
-  --bg:#F5F0E4; --ink:#0F2837; --dim:#58707F; --gold:#9A6E1C; --gold-soft:#8A5A16; --berry:#C42640; --berry-deep:#9E1B31; --berry-soft:rgb(196 38 64 / .10);
-  --deep:#1C6580; --silver:#6E8291; --rule:rgb(15 40 55 / .16); --chip:rgb(15 40 55 / .055);
+  --bg:#F5F0E4; --ink:#0F2837; --dim:#58707F; --berry:#C42640; --berry-deep:#9E1B31; --berry-soft:rgb(196 38 64 / .10);
+  --deep:#1C6580; --rule:rgb(15 40 55 / .16); --chip:rgb(15 40 55 / .055);
   --glow:rgb(196 38 64 / .09); --shade:rgb(15 40 55 / .04);
 }
 :root[data-theme="light"] .band-b {
-  --bg:#0A1B28; --ink:#F5EFE2; --dim:#AFC0CC; --gold:#D9A94A; --gold-soft:#E8CD7A; --berry:#F2556A; --berry-deep:#C9304A; --berry-soft:rgb(242 85 106 / .13);
-  --deep:#155268; --silver:#BCC9D3; --rule:rgb(245 239 226 / .15); --chip:rgb(245 239 226 / .07);
+  --bg:#0A1B28; --ink:#F5EFE2; --dim:#AFC0CC; --berry:#F2556A; --berry-deep:#C9304A; --berry-soft:rgb(242 85 106 / .13);
+  --deep:#155268; --rule:rgb(245 239 226 / .15); --chip:rgb(245 239 226 / .07);
   --glow:rgb(242 85 106 / .14); --shade:rgb(245 239 226 / .04);
 }
 
@@ -105,12 +93,9 @@
   --color-bg: var(--bg);
   --color-ink: var(--ink);
   --color-dim: var(--dim);
-  --color-gold: var(--gold);
-  --color-gold-soft: var(--gold-soft);
   --color-berry: var(--berry);
   --color-berry-deep: var(--berry-deep);
   --color-deep: var(--deep);
-  --color-silver: var(--silver);
   --color-rule: var(--rule);
 
   --font-display: var(--font-fraunces), "Iowan Old Style", Georgia, serif;
@@ -308,22 +293,6 @@ h1, h2, h3, .display {
 .ulink:hover::after,
 .ulink:focus-visible::after { transform: scaleX(1); transform-origin: left; }
 
-/* ===========================================================
-   Signature swell (HANDOFF §22: two lines, gold over silver)
-   Pure CSS, no JS, runs on first paint
-   =========================================================== */
-
-.swell path {
-  fill: none;
-  stroke-linecap: round;
-  stroke-dasharray: 1000;
-  stroke-dashoffset: 1000;
-  animation: draw 2.9s cubic-bezier(.33,.72,.26,1) forwards;
-}
-.swell .s1 { stroke: var(--gold);   stroke-width: 2.6; animation-delay: .4s; }
-.swell .s2 { stroke: var(--silver); stroke-width: 1.8; animation-delay: 1.1s; opacity: .85; }
-@keyframes draw { to { stroke-dashoffset: 0; } }
-
 /* Ambient light on the hero band only */
 .hero-glow::before {
   content: "";
@@ -345,7 +314,6 @@ h1, h2, h3, .display {
 
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
-  .swell path { animation: none; stroke-dashoffset: 0; }
   .shimmer { animation: none; }
   .hero-glow::before { animation: none; }
   .band { transition: none; }
@@ -477,7 +445,7 @@ h1, h2, h3, .display {
 }
 
 .control::placeholder { color: var(--dim); opacity: .75; }
-.control:hover:not(:disabled) { border-color: var(--silver); }
+.control:hover:not(:disabled) { border-color: var(--dim); }
 
 .control:focus-visible {
   border-color: var(--berry);
