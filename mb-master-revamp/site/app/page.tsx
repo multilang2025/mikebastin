@@ -103,20 +103,10 @@ export default function Home() {
       <section className="band band-a grain hero-glow relative overflow-hidden pb-[clamp(60px,9vw,120px)] pt-[clamp(96px,14vw,190px)]">
         <div className="shell relative">
           <Reveal>
-            <p className="eyebrow mb-8">
+            <p className="eyebrow mb-10">
               Reading the swell for twenty-five years, in four languages
             </p>
           </Reveal>
-
-          <svg
-            className="swell mb-10 block h-auto w-[min(420px,62%)] overflow-visible"
-            viewBox="0 0 420 74"
-            role="img"
-            aria-label="Two drawn swell lines, gold over silver"
-          >
-            <path className="s1" d="M3 40 C 66 8, 122 8, 182 34 S 302 68, 360 30 L 417 22" />
-            <path className="s2" d="M3 58 C 74 32, 130 32, 190 52 S 308 80, 370 50 L 417 44" />
-          </svg>
 
           <Reveal i={1}>
             {/* leading needs headroom: the italic descenders on "Converting"
