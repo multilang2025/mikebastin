@@ -18,8 +18,10 @@
  * `shot` is a screenshot of the client's live homepage, captured the same
  * day. ValenciaMove is the exception and uses its own hero image from
  * assets/ASSETS-MANIFEST.md, because the live site sits behind a browser
- * check this environment cannot pass; TX International Freight has the same
- * protection and carries no image for now rather than a wrong one.
+ * check this environment could not pass at the time. TX International
+ * Freight had the same problem originally (18 Sep 2026 fix: a Code session
+ * routing Playwright through the outbound proxy reaches it fine, so it now
+ * has a real screenshot too).
  */
 
 export type Project = {
@@ -116,6 +118,7 @@ export const PROJECTS: Project[] = [
       "Local pack presence in Houston's industrial freight search, and the shipment tracking portal Globaprom built for this account is itself one of the proof points on the Globaprom case study above.",
     services: ["Technical SEO", "Industry content", "Houston local search", "Tracking portal"],
     search: { clicks: "2,616", impressions: "764,222", position: "21.7", note: "May to July 2026" },
+    shot: "/work/tx-international-freight.webp",
   },
   {
     slug: "c21perdomo",
