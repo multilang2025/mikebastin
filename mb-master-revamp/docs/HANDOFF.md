@@ -679,3 +679,32 @@ trilingual requirement stands. The design system in §2, §22 and §23 stands.
 Every SEO invariant in §7 stands, and the migration of roughly 285 objects
 out of WordPress still happens, with its destination changed from Payload
 collections to MDX files. WordPress still retires afterwards.
+
+---
+
+## 26. POST-FINAL AMENDMENT 5 — GOLD AND SILVER RETIRED (owner directive)
+
+Owner verdict: remove the hero's signature swell graphic (the two-line
+self-drawing SVG documented in §22) and stop using gold and silver as
+accent colours anywhere on the site, not just in that graphic.
+
+- `--gold`, `--gold-soft` and `--silver` are removed from every theme
+  block in `globals.css` (band-a/band-b, both the `prefers-color-scheme`
+  and `data-theme` variants) and from the `@theme inline` mapping. They
+  no longer exist as tokens; do not reintroduce them.
+- The hero SVG and its `.swell`/`.s1`/`.s2` CSS are deleted outright, not
+  hidden or reduced-opacity. The hero has no signature graphic element
+  for now.
+- Wherever gold or silver did real UI work, it moved to an existing
+  token rather than a new one: the nav logo mark is a single berry
+  stroke instead of a two-tone gold/silver wave; a legend/bar pair on the
+  homepage's GSC chart that used silver now uses `--dim`; a "Blocked"
+  notice on `/results/` that used gold now uses `--deep`.
+- Berry remains the sole signature accent. This completes what the 9 Aug
+  pivot (§23's palette-pivot amendment, if merged as §26 there, otherwise
+  the "strawberry accent" section) started: gold was already demoted to
+  one job, and that job is now gone too.
+
+`design-guardian` enforcement updates accordingly: the locked palette is
+now bg/ink/dim/berry/berry-deep/berry-soft/deep/rule only. Flag any
+`--gold`, `--gold-soft` or `--silver` reference in a diff as a violation.
