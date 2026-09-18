@@ -982,14 +982,14 @@
    "group": "g048",
    "type": "page",
    "tier": null,
-   "action": "migrate",
+   "action": "reposition",
    "destination": "mdx",
    "absorbed_into": null,
    "vm_action": null,
    "vm_target_url": null,
    "en": {
     "id": 36564,
-    "slug": "pricing",
+    "slug": "how-i-work",
     "url": "https://mikebastin.com/pricing/",
     "content_path": "site/content/en/pages/pricing.md"
    },
@@ -1598,7 +1598,7 @@
    "tier": null,
    "action": "absorb",
    "destination": "mdx",
-   "absorbed_into": "ai-consulting",
+   "absorbed_into": "ai-translation-and-post-editing",
    "vm_action": null,
    "vm_target_url": null,
    "en": {

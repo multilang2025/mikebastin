@@ -148,7 +148,6 @@ export const SERVICES: Service[] = [
         ],
       },
     ],
-    absorbs: ["analytics-and-tracking"],
   },
 
   // ---- Cluster 2: multilingual search, the engine ----
