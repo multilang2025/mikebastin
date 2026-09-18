@@ -3,11 +3,32 @@ import Link from "next/link";
 import Reveal from "@/components/Reveal";
 import SiteFooter from "@/components/SiteFooter";
 import { SERVICES, CLUSTERS } from "@/lib/services";
+import { SITE_URL } from "@/lib/schema";
+
+const TITLE = "Services, Mike Bastin";
+const DESCRIPTION =
+  "Multilingual SEO, localisation and AI consulting in nineteen services across five clusters, each one covering a single query network properly.";
+const CANONICAL = `${SITE_URL}/services/`;
 
 export const metadata: Metadata = {
-  title: "Services, Mike Bastin",
-  description:
-    "Multilingual SEO, localisation and AI consulting in nineteen services across five clusters, each one covering a single query network properly.",
+  title: TITLE,
+  description: DESCRIPTION,
+  alternates: { canonical: CANONICAL },
+  // og:image/twitter:image come from the colocated opengraph-image.tsx
+  // (Next.js file-convention metadata), not an `images` array here.
+  openGraph: {
+    type: "website",
+    siteName: "Mike Bastin",
+    locale: "en_GB",
+    url: CANONICAL,
+    title: TITLE,
+    description: DESCRIPTION,
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: TITLE,
+    description: DESCRIPTION,
+  },
 };
 
 export default function ServicesIndex() {
