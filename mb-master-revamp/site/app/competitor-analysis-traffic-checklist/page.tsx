@@ -100,8 +100,8 @@ export default function CompetitorChecklistPage() {
         <div className="shell">
           <Reveal>
             <p className="eyebrow mb-3">What the checklist actually has to cover</p>
-            <h2 className="mb-10 max-w-[20ch] text-[clamp(1.7rem,3.2vw,2.5rem)] font-semibold leading-[1.12]">
-              Five sections, one usable artefact
+            <h2 className="mb-10 max-w-[26ch] text-[clamp(1.7rem,3.2vw,2.5rem)] font-semibold leading-[1.12]">
+              What the traffic and competitor analysis checklist covers
             </h2>
           </Reveal>
 

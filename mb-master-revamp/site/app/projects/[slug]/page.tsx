@@ -144,8 +144,8 @@ export default async function ProjectPage({
           <div className="shell">
             <Reveal>
               <p className="eyebrow mb-3">Live Search Console, {project.search.note}</p>
-              <h2 className="mb-8 max-w-[20ch] text-[clamp(1.7rem,3.2vw,2.5rem)] font-semibold leading-[1.12]">
-                What the search data says
+              <h2 className="mb-8 max-w-[22ch] text-[clamp(1.7rem,3.2vw,2.5rem)] font-semibold leading-[1.12]">
+                What {project.name}&apos;s search data says
               </h2>
             </Reveal>
             <div
@@ -181,15 +181,15 @@ export default async function ProjectPage({
 
       {/* ============ PROBLEM / WORK / OUTCOME ============ */}
       {[
-        { label: "The problem", eyebrow: "Where it started", text: project.problem },
-        { label: "The work", eyebrow: "What actually happened", text: project.work },
-        { label: "The outcome", eyebrow: "Where it landed", text: project.outcome },
+        { label: `The ${project.name} problem`, eyebrow: "Where it started", text: project.problem },
+        { label: `The ${project.name} work, ${project.services[0] ?? "the engagement"}`, eyebrow: "What actually happened", text: project.work },
+        { label: `The ${project.name} outcome`, eyebrow: "Where it landed", text: project.outcome },
       ].map((section, i) => (
         <section key={section.label} className={`band ${i % 2 === 0 ? "band-a" : "band-b"} py-[clamp(56px,8vw,110px)]`}>
           <div className="shell">
             <Reveal>
               <p className="eyebrow mb-3">{section.eyebrow}</p>
-              <h2 className="mb-6 max-w-[20ch] text-[clamp(1.7rem,3.2vw,2.5rem)] font-semibold leading-[1.12]">
+              <h2 className="mb-6 max-w-[30ch] text-[clamp(1.7rem,3.2vw,2.5rem)] font-semibold leading-[1.12]">
                 {section.label}
               </h2>
               <p className="max-w-[62ch] text-[1.05rem] leading-[1.6]" style={{ color: "var(--dim)" }}>

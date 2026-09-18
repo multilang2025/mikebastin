@@ -124,9 +124,11 @@ export default async function BlogPostPage({
           <div className="shell">
             <Reveal>
               <p className="eyebrow mb-3">The service this feeds</p>
-              <Link href={`/services/${service.slug}/`} className="ulink display block max-w-[30ch] text-[clamp(1.3rem,2.6vw,1.9rem)] font-semibold leading-[1.15]">
-                {service.name}
-              </Link>
+              <h2 className="max-w-[30ch] text-[clamp(1.3rem,2.6vw,1.9rem)] font-semibold leading-[1.15]">
+                <Link href={`/services/${service.slug}/`} className="ulink display">
+                  {service.name}
+                </Link>
+              </h2>
               <p className="mt-3 max-w-[60ch] text-[1rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
                 {service.lede}
               </p>

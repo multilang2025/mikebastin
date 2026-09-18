@@ -6,7 +6,7 @@ import { getClusterGroups, UNCATEGORISED } from "@/lib/posts";
 import { getService } from "@/lib/services";
 
 export const metadata: Metadata = {
-  title: "Journal, Mike Bastin",
+  title: "Journal: multilingual SEO and AI consulting articles, Mike Bastin",
   description:
     "Fifty nine posts in six clusters, each one feeding the service page its query network actually belongs to, rather than a river of dated posts nobody browses.",
 };
@@ -36,7 +36,7 @@ export default function BlogIndex() {
           </Reveal>
           <Reveal i={1}>
             <h1 className="mb-6 max-w-[20ch] text-[clamp(2.3rem,5.6vw,4rem)] font-semibold leading-[1.08]">
-              Journal
+              The Journal: multilingual SEO and AI consulting articles
             </h1>
           </Reveal>
           <Reveal i={2}>
