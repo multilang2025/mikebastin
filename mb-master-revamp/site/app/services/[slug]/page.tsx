@@ -22,9 +22,31 @@ export async function generateMetadata({
   const { slug } = await params;
   const service = getService(slug);
   if (!service) return {};
+  const title = service.metaTitle ?? `${service.name}, Mike Bastin`;
+  const description = service.metaDescription ?? service.lede;
+  const canonical = `${SITE_URL}/services/${service.slug}/`;
   return {
-    title: service.metaTitle ?? `${service.name}, Mike Bastin`,
-    description: service.metaDescription ?? service.lede,
+    title,
+    description,
+    alternates: { canonical },
+    // The og:image/twitter:image tags themselves come from the colocated
+    // opengraph-image.tsx (Next.js's file-convention metadata, injected
+    // automatically per docs/opengraph-image.md), not from an `images`
+    // array here, so a per-service card can never drift from the file
+    // that actually renders it.
+    openGraph: {
+      type: "website",
+      siteName: "Mike Bastin",
+      locale: "en_GB",
+      url: canonical,
+      title,
+      description,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+    },
   };
 }
 
@@ -198,8 +220,8 @@ export default async function ServicePage({
         <div className="shell">
           <Reveal>
             <p className="eyebrow mb-3">How the engagement runs</p>
-            <h2 className="mb-10 max-w-[20ch] text-[clamp(1.7rem,3.2vw,2.5rem)] font-semibold leading-[1.12]">
-              Named deliverables, not a retainer with a shrug
+            <h2 className="mb-10 max-w-[22ch] text-[clamp(1.7rem,3.2vw,2.5rem)] font-semibold leading-[1.12]">
+              How the {service.name} engagement runs
             </h2>
           </Reveal>
           <ol className="grid gap-px sm:grid-cols-2" style={{ background: "var(--rule)" }}>

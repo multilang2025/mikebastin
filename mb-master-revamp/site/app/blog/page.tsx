@@ -6,7 +6,7 @@ import { getClusterGroups, UNCATEGORISED } from "@/lib/posts";
 import { getService } from "@/lib/services";
 
 export const metadata: Metadata = {
-  title: "Journal, Mike Bastin",
+  title: "Journal: multilingual SEO and AI consulting articles, Mike Bastin",
   description:
     "Fifty nine posts in six clusters, each one feeding the service page its query network actually belongs to, rather than a river of dated posts nobody browses.",
 };
@@ -36,7 +36,7 @@ export default function BlogIndex() {
           </Reveal>
           <Reveal i={1}>
             <h1 className="mb-6 max-w-[20ch] text-[clamp(2.3rem,5.6vw,4rem)] font-semibold leading-[1.08]">
-              Journal
+              The Journal: multilingual SEO and AI consulting articles
             </h1>
           </Reveal>
           <Reveal i={2}>
@@ -104,16 +104,27 @@ export default function BlogIndex() {
                   {group.posts.map((post, i) => (
                     <Reveal key={post.slug} i={i}>
                       <li className="band h-full" style={{ background: "var(--bg)" }}>
-                        <Link href={`/blog/${post.slug}/`} className="flex h-full flex-col px-7 py-8">
-                          <span className="ulink mb-2 text-[1.02rem] font-semibold leading-[1.3]">
-                            {post.title}
-                          </span>
-                          <p className="mb-4 line-clamp-3 text-[.88rem] leading-[1.5]" style={{ color: "var(--dim)" }}>
-                            {post.excerpt}
-                          </p>
-                          <span className="mt-auto text-[.72rem] uppercase tracking-[.1em]" style={{ color: "var(--dim)" }}>
-                            {formatDate(post.date)}
-                          </span>
+                        <Link href={`/blog/${post.slug}/`} className="flex h-full flex-col">
+                          <img
+                            src={`/images/blog/${post.slug}.png`}
+                            alt={post.title}
+                            width={1200}
+                            height={630}
+                            loading="lazy"
+                            decoding="async"
+                            className="aspect-[1200/630] w-full object-cover"
+                          />
+                          <div className="flex flex-1 flex-col px-7 py-6">
+                            <span className="ulink mb-2 text-[1.02rem] font-semibold leading-[1.3]">
+                              {post.title}
+                            </span>
+                            <p className="mb-4 line-clamp-3 text-[.88rem] leading-[1.5]" style={{ color: "var(--dim)" }}>
+                              {post.excerpt}
+                            </p>
+                            <span className="mt-auto text-[.72rem] uppercase tracking-[.1em]" style={{ color: "var(--dim)" }}>
+                              {formatDate(post.date)}
+                            </span>
+                          </div>
                         </Link>
                       </li>
                     </Reveal>

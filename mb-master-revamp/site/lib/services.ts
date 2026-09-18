@@ -401,7 +401,7 @@ export const SERVICES: Service[] = [
     angle: "Off-site, one location at a time",
     lede: "Google Business Profile, citations, NAP consistency and the map pack, for multilingual cities where the same street gets searched in more than one language. Discipline and consistency, not tricks.",
     metaTitle: "Local SEO and Google Business Profile",
-    metaDescription: "Google Business Profile, citations and NAP consistency, built for multilingual cities where one street gets searched in more than one language.",
+    metaDescription: "Local SEO measures the highest search volume of any service here, though the head term is the hardest to rank. See the Google Business Profile work behind it.",
     sections: [
       "Google Business Profile audit and full optimisation",
       "Citation cleanup and NAP consistency across directories",
@@ -427,6 +427,11 @@ export const SERVICES: Service[] = [
       },
     ],
     absorbs: ["local-seo"],
+    demand: {
+      volume: 134000,
+      kd: "5 to 87",
+      note: "Sums `local seo`, `local seo services` and `local seo agency` worldwide. The head term alone draws 63,000 at KD 87, easily the hardest term measured for any service page. `local seo services` (47,000, KD 5) and `local seo agency` (24,000, KD 6) carry nearly as much volume between them at a fraction of the difficulty, so those are the terms to build toward first.",
+    },
   },
   {
     slug: "website-localisation",
@@ -591,7 +596,7 @@ export const SERVICES: Service[] = [
     angle: "Cited inside the answer, not just ranked below it",
     lede: "ChatGPT, Perplexity and Google's AI Overviews answer a question directly and name a small number of sources while doing it. Structured data, citation-worthy claims and a presence across the platforms people actually ask, so the answer names you.",
     metaTitle: "GEO and AEO: cited by AI answers",
-    metaDescription: "ChatGPT, Perplexity and Google AI Overviews name a small number of sources when they answer. See what it takes to be named as one of them.",
+    metaDescription: "ChatGPT and Google AI Overviews name a small number of sources, and GEO and AEO terms already draw real search volume of their own. See what it takes to be named.",
     sections: [
       "Answer-shaped content: claims a model can quote and cite",
       "Schema and structured data built for AI retrieval, not just crawlers",
@@ -615,6 +620,11 @@ export const SERVICES: Service[] = [
         ],
       },
     ],
+    demand: {
+      volume: 55000,
+      kd: "39 to 70",
+      note: "Sums `generative engine optimization` (26,000 worldwide, KD 70), `answer engine optimization` (13,000, KD 39) and `geo seo` (16,000, KD 63). Unlike the language markets, all three sit at real difficulty. `generative engine optimization` also carries the highest CPC measured for any service page, at $11.00 a click.",
+    },
   },
   // ---- Cluster 5: supporting capability ----
   {

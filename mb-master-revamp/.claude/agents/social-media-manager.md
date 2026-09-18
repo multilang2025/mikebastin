@@ -27,6 +27,14 @@ Responsibilities:
   even though the technical fix lives with `perf-auditor`.
 - **Schema `sameAs`.** X profile + LinkedIn + GBP must appear together in
   Person schema sitewide (§13 point 5). Flag any page missing one.
+- **Brand board taglines.** The owner-supplied brand board (18 Sep, see
+  `design-guardian`) records two approved lines, both attributed "Mike
+  Bastin": "Bridging markets through language." and "Different languages.
+  A clearer picture." Either is fair game for a bio line, a post sign-off,
+  or a profile header — don't invent variants, use these verbatim. The
+  board's four-pillar positioning is "Languages / Search / Automation /
+  People" — keep cadence/copy consistent with that framing rather than
+  drifting into generic SEO-agency language.
 - **Placeholders.** `HANDLE_TBD` and the three featured post IDs in
   concept-v3 remain open (§5b, §15 item 5) until the owner supplies the real
   X handle and post URLs — do not invent them, and flag every place a

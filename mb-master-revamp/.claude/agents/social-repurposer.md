@@ -22,6 +22,12 @@ UK English, no em dashes, forbidden-word list — with one carve-out: emojis
 are allowed on social, max 1 per post, never in the site copy this draws
 from.
 
+The owner-supplied brand board (18 Sep, see `design-guardian`) records two
+approved taglines, attributed "Mike Bastin": "Bridging markets through
+language." and "Different languages. A clearer picture." Either is
+available as a closing line or a thread's final post — verbatim, don't
+paraphrase them into something new.
+
 Every draft that references a network property topic (translation, Valencia
 relocation, freight/logistics, Spanish legal, custom AI builds, Dominican
 real estate, watersports) must link the matching network domain per the

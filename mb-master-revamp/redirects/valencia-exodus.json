@@ -84,25 +84,27 @@
     },
     {
       "from": "/valencia-remote-working/",
-      "to": null,
-      "confidence": "new"
+      "to": "/blog/valencia-remote-working/",
+      "confidence": "exact",
+      "note": "Shipped on ValenciaMove (PR #1020, merged a78e3157)."
     },
     {
       "from": "/live-in-valencia/",
-      "to": null,
-      "confidence": "new",
-      "note": "Broad 'living in Valencia' framing. May be better collapsed into an existing VM hub than given its own URL."
+      "to": "/blog/live-in-valencia/",
+      "confidence": "exact",
+      "note": "Shipped on ValenciaMove (PR #1020, merged a78e3157)."
     },
     {
       "from": "/valencia-good-place-to-live/",
-      "to": null,
-      "confidence": "new",
-      "note": "Same framing question as live-in-valencia. Decide the two together."
+      "to": "/blog/valencia-good-place-to-live/",
+      "confidence": "exact",
+      "note": "Shipped on ValenciaMove (PR #1020, merged a78e3157)."
     },
     {
       "from": "/living-in-a-flat-in-valencia-a-pragmatic-overview/",
-      "to": null,
-      "confidence": "new"
+      "to": "/blog/living-in-a-flat-valencia/",
+      "confidence": "exact",
+      "note": "Shipped on ValenciaMove (PR #1020, merged a78e3157)."
     },
     {
       "from": "/valencia-50-shades-of-noise/",
@@ -118,14 +120,15 @@
     },
     {
       "from": "/work-life-balance-in-valencia/",
-      "to": null,
-      "confidence": "new"
+      "to": "/blog/work-life-balance-valencia/",
+      "confidence": "exact",
+      "note": "Shipped on ValenciaMove (PR #1020, merged a78e3157)."
     },
     {
       "from": "/b2b-trade-shows-in-valencia/",
-      "to": null,
-      "confidence": "new",
-      "note": "Owner decision 21 Aug. Carries known fact-check flags: resolve them before it is published on VM, which runs a truth contract."
+      "to": "/blog/b2b-trade-shows-valencia/",
+      "confidence": "exact",
+      "note": "Owner decision 21 Aug; fact-check flags resolved. Shipped on ValenciaMove (PR #1020, merged a78e3157)."
     },
     {
       "from": "/fr/cout-de-la-vie-valencia/",
@@ -146,9 +149,9 @@
     },
     {
       "from": "/fr/travailler-a-valencia-en-tant-quexpatrie/",
-      "to": null,
-      "confidence": "new",
-      "note": "FR sibling of valencia-remote-working, which is also 'new'. Decide the pair together."
+      "to": "/fr/blog/equilibre-vie-travail-valencia/",
+      "confidence": "exact",
+      "note": "FR sibling of work-life-balance-in-valencia (its own group, g117), not of valencia-remote-working. Shipped on ValenciaMove (PR #1020, merged a78e3157)."
     },
     {
       "from": "/fr/valencia-50-nuances-de-bruits/",
