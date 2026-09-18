@@ -17,6 +17,22 @@ const url = `${SITE_URL}/services/lead-generation/`;
 export const metadata: Metadata = {
   title: service.metaTitle,
   description: service.metaDescription,
+  alternates: { canonical: url },
+  // og:image/twitter:image come from the colocated opengraph-image.tsx
+  // (Next.js file-convention metadata), not an `images` array here.
+  openGraph: {
+    type: "website",
+    siteName: "Mike Bastin",
+    locale: "en_GB",
+    url,
+    title: service.metaTitle,
+    description: service.metaDescription,
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: service.metaTitle,
+    description: service.metaDescription,
+  },
 };
 
 const ABSORBS = [

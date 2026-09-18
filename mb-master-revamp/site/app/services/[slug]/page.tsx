@@ -22,9 +22,31 @@ export async function generateMetadata({
   const { slug } = await params;
   const service = getService(slug);
   if (!service) return {};
+  const title = service.metaTitle ?? `${service.name}, Mike Bastin`;
+  const description = service.metaDescription ?? service.lede;
+  const canonical = `${SITE_URL}/services/${service.slug}/`;
   return {
-    title: service.metaTitle ?? `${service.name}, Mike Bastin`,
-    description: service.metaDescription ?? service.lede,
+    title,
+    description,
+    alternates: { canonical },
+    // The og:image/twitter:image tags themselves come from the colocated
+    // opengraph-image.tsx (Next.js's file-convention metadata, injected
+    // automatically per docs/opengraph-image.md), not from an `images`
+    // array here, so a per-service card can never drift from the file
+    // that actually renders it.
+    openGraph: {
+      type: "website",
+      siteName: "Mike Bastin",
+      locale: "en_GB",
+      url: canonical,
+      title,
+      description,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+    },
   };
 }
 
