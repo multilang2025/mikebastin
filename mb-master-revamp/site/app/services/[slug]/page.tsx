@@ -42,6 +42,20 @@ export default async function ServicePage({
   );
   const url = `${SITE_URL}/services/${service.slug}/`;
 
+  // Bands alternate strictly A/B/A/B (HANDOFF.md §23): the hero is always
+  // band-a, and every section after it flips regardless of which optional
+  // sections (gsc, demand, body, absorbs, siblings) are actually present,
+  // so two same-surface bands never end up touching.
+  let band: "a" | "b" = "a";
+  const nextBand = () => (band = band === "a" ? "b" : "a");
+  const gscBand = service.gsc ? nextBand() : undefined;
+  const demandBand = service.demand ? nextBand() : undefined;
+  const bodyBand = service.body && service.body.length > 0 ? nextBand() : undefined;
+  const engagementBand = nextBand();
+  const absorbsBand = service.absorbs && service.absorbs.length > 0 ? nextBand() : undefined;
+  const siblingsBand = siblings.length > 0 ? nextBand() : undefined;
+  const footerBand = nextBand();
+
   return (
     <main>
       <JsonLd
@@ -94,7 +108,7 @@ export default async function ServicePage({
 
       {/* ============ LIVE SEARCH CONSOLE ============ */}
       {service.gsc && (
-        <section className="band band-b py-[clamp(48px,7vw,90px)]">
+        <section className={`band band-${gscBand} py-[clamp(48px,7vw,90px)]`}>
           <div className="shell">
             <Reveal>
               <p className="eyebrow mb-6">Live Search Console, 90 days to 17 August 2026</p>
@@ -126,7 +140,7 @@ export default async function ServicePage({
 
       {/* ============ MEASURED DEMAND ============ */}
       {service.demand && (
-        <section className="band band-a py-[clamp(48px,7vw,90px)]">
+        <section className={`band band-${demandBand} py-[clamp(48px,7vw,90px)]`}>
           <div className="shell">
             <Reveal>
               <p className="eyebrow mb-6">Measured demand, Ahrefs, 20 August 2026</p>
@@ -157,8 +171,30 @@ export default async function ServicePage({
         </section>
       )}
 
+      {/* ============ BODY (real prose, migrated + adapted from the legacy pages this service absorbs) ============ */}
+      {service.body && service.body.length > 0 && (
+        <section className={`band band-${bodyBand} py-[clamp(56px,8vw,110px)]`}>
+          <div className="shell space-y-14">
+            {service.body.map((section, i) => (
+              <Reveal key={section.heading} i={i}>
+                <h2 className="mb-5 max-w-[28ch] text-[clamp(1.4rem,2.6vw,2rem)] font-semibold leading-[1.18]">
+                  {section.heading}
+                </h2>
+                <div className="max-w-[68ch] space-y-4">
+                  {section.paragraphs.map((p, j) => (
+                    <p key={j} className="text-[1.02rem] leading-[1.65]" style={{ color: "var(--dim)" }}>
+                      {p}
+                    </p>
+                  ))}
+                </div>
+              </Reveal>
+            ))}
+          </div>
+        </section>
+      )}
+
       {/* ============ WHAT THE PAGE COVERS ============ */}
-      <section className="band band-a py-[clamp(56px,8vw,110px)]">
+      <section className={`band band-${engagementBand} py-[clamp(56px,8vw,110px)]`}>
         <div className="shell">
           <Reveal>
             <p className="eyebrow mb-3">How the engagement runs</p>
@@ -183,7 +219,7 @@ export default async function ServicePage({
 
       {/* ============ ABSORBS ============ */}
       {service.absorbs && service.absorbs.length > 0 && (
-        <section className="band band-b py-[clamp(56px,8vw,110px)]">
+        <section className={`band band-${absorbsBand} py-[clamp(56px,8vw,110px)]`}>
           <div className="shell">
             <Reveal>
               <p className="eyebrow mb-3">Consolidated into this page</p>
@@ -213,7 +249,7 @@ export default async function ServicePage({
 
       {/* ============ SIBLINGS ============ */}
       {siblings.length > 0 && (
-        <section className="band band-a py-[clamp(56px,8vw,110px)]">
+        <section className={`band band-${siblingsBand} py-[clamp(56px,8vw,110px)]`}>
           <div className="shell">
             <Reveal>
               <p className="eyebrow mb-6">Also in {service.cluster.toLowerCase()}</p>
@@ -231,7 +267,7 @@ export default async function ServicePage({
         </section>
       )}
 
-      <SiteFooter />
+      <SiteFooter band={footerBand} />
     </main>
   );
 }

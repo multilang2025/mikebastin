@@ -22,11 +22,16 @@ const LINKS = [
  */
 export default function SiteFooter({
   address = false,
+  band = "a",
 }: {
   address?: boolean;
+  /** Most pages fix the footer to band-a; a page with a variable number of
+   * bands above it (e.g. app/services/[slug]/) computes this instead, so
+   * the footer never ends up on the same surface as the section before it. */
+  band?: "a" | "b";
 }) {
   return (
-    <footer id="contact" className="band band-a py-[clamp(64px,9vw,120px)]">
+    <footer id="contact" className={`band band-${band} py-[clamp(64px,9vw,120px)]`}>
       <div className="shell">
         <Reveal>
           <p className="eyebrow mb-4">Clean face, no crowd</p>
