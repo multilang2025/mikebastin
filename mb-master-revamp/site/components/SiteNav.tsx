@@ -24,12 +24,8 @@ export default function SiteNav() {
         <Link href="/" className="flex shrink-0 items-center gap-2.5">
           <svg width="22" height="22" viewBox="0 0 64 64" aria-hidden className="shrink-0">
             <path
-              d="M8 30 C 17 20, 25 20, 33 27 S 49 40, 56 25"
-              fill="none" stroke="var(--gold)" strokeWidth="4.4" strokeLinecap="round"
-            />
-            <path
-              d="M8 44 C 18 35, 26 35, 34 41 S 49 51, 56 40"
-              fill="none" stroke="var(--silver)" strokeWidth="3.4" strokeLinecap="round" opacity=".85"
+              d="M8 36 C 17 26, 25 26, 33 33 S 49 46, 56 31"
+              fill="none" stroke="var(--berry)" strokeWidth="4.4" strokeLinecap="round"
             />
           </svg>
           <span className="display text-[1.05rem] font-semibold tracking-tight">Mike Bastin</span>

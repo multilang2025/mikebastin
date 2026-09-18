@@ -113,11 +113,11 @@ export default function ResultsPage() {
             <div
               className="rounded-[4px] px-7 py-6"
               style={{
-                border: "1px dashed color-mix(in oklab, var(--gold) 55%, transparent)",
-                background: "color-mix(in oklab, var(--gold) 8%, transparent)",
+                border: "1px dashed color-mix(in oklab, var(--deep) 55%, transparent)",
+                background: "color-mix(in oklab, var(--deep) 8%, transparent)",
               }}
             >
-              <p className="mb-1 text-[.72rem] font-semibold uppercase tracking-[.1em]" style={{ color: "var(--gold)" }}>
+              <p className="mb-1 text-[.72rem] font-semibold uppercase tracking-[.1em]" style={{ color: "var(--deep)" }}>
                 Blocked
               </p>
               <p className="max-w-[62ch] text-[.95rem] leading-[1.55]">
