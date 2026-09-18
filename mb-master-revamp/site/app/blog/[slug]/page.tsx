@@ -106,6 +106,24 @@ export default async function BlogPostPage({
         </div>
       </section>
 
+      {/* ============ COVER ============ */}
+      <section className="band band-a pb-[clamp(48px,7vw,90px)]">
+        <div className="shell">
+          <Reveal>
+            <img
+              src={`/images/blog/${post.slug}.png`}
+              alt={post.title}
+              width={1200}
+              height={630}
+              loading="lazy"
+              decoding="async"
+              className="aspect-[1200/630] w-full rounded-[4px] border object-cover"
+              style={{ borderColor: "var(--rule)" }}
+            />
+          </Reveal>
+        </div>
+      </section>
+
       {/* ============ BODY ============ */}
       <section className="band band-b py-[clamp(48px,7vw,90px)]">
         <div className="shell">

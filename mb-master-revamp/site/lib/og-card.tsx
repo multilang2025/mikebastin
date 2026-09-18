@@ -51,6 +51,84 @@ function loadFonts() {
 }
 
 /**
+ * Renders one blog post's cover card: a small uppercase label (cluster name
+ * or "Journal", berry) above the post title (large, serif), and the same
+ * understated "Mike Bastin" wordmark bottom left as the service cards, for
+ * brand consistency between the two content types. Reuses the exact same
+ * Night Swell palette, font pairing and layout rhythm as
+ * `renderServiceOgImage` below rather than inventing a second visual
+ * language for blog covers (docs/HANDOFF.md section 23).
+ */
+export async function renderBlogOgImage(post: { title: string; label: string }) {
+  const { fraunces, inter } = await loadFonts();
+
+  return new ImageResponse(
+    (
+      <div
+        style={{
+          width: "100%",
+          height: "100%",
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "space-between",
+          background: NIGHT_SWELL.bg,
+          padding: "80px 88px",
+          fontFamily: "Inter",
+        }}
+      >
+        <div style={{ display: "flex", flexDirection: "column" }}>
+          <div
+            style={{
+              display: "flex",
+              fontSize: 28,
+              fontWeight: 600,
+              letterSpacing: 2,
+              textTransform: "uppercase",
+              color: NIGHT_SWELL.berry,
+              marginBottom: 28,
+            }}
+          >
+            {post.label}
+          </div>
+          <div
+            style={{
+              display: "flex",
+              fontFamily: "Fraunces",
+              fontSize: 64,
+              fontWeight: 600,
+              lineHeight: 1.14,
+              color: NIGHT_SWELL.ink,
+              maxWidth: "980px",
+            }}
+          >
+            {post.title}
+          </div>
+        </div>
+        <div
+          style={{
+            display: "flex",
+            fontSize: 24,
+            fontWeight: 600,
+            letterSpacing: 1,
+            color: NIGHT_SWELL.ink,
+            opacity: 0.72,
+          }}
+        >
+          Mike Bastin
+        </div>
+      </div>
+    ),
+    {
+      ...OG_SIZE,
+      fonts: [
+        { name: "Fraunces", data: fraunces, style: "normal", weight: 600 },
+        { name: "Inter", data: inter, style: "normal", weight: 600 },
+      ],
+    }
+  );
+}
+
+/**
  * Renders one service's OG card: angle (berry, small, uppercase) above the
  * service name (large, serif), and an understated "Mike Bastin" wordmark
  * bottom left. Both text fields are reused verbatim from lib/services.ts,

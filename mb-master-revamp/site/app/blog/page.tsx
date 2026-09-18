@@ -104,16 +104,27 @@ export default function BlogIndex() {
                   {group.posts.map((post, i) => (
                     <Reveal key={post.slug} i={i}>
                       <li className="band h-full" style={{ background: "var(--bg)" }}>
-                        <Link href={`/blog/${post.slug}/`} className="flex h-full flex-col px-7 py-8">
-                          <span className="ulink mb-2 text-[1.02rem] font-semibold leading-[1.3]">
-                            {post.title}
-                          </span>
-                          <p className="mb-4 line-clamp-3 text-[.88rem] leading-[1.5]" style={{ color: "var(--dim)" }}>
-                            {post.excerpt}
-                          </p>
-                          <span className="mt-auto text-[.72rem] uppercase tracking-[.1em]" style={{ color: "var(--dim)" }}>
-                            {formatDate(post.date)}
-                          </span>
+                        <Link href={`/blog/${post.slug}/`} className="flex h-full flex-col">
+                          <img
+                            src={`/images/blog/${post.slug}.png`}
+                            alt={post.title}
+                            width={1200}
+                            height={630}
+                            loading="lazy"
+                            decoding="async"
+                            className="aspect-[1200/630] w-full object-cover"
+                          />
+                          <div className="flex flex-1 flex-col px-7 py-6">
+                            <span className="ulink mb-2 text-[1.02rem] font-semibold leading-[1.3]">
+                              {post.title}
+                            </span>
+                            <p className="mb-4 line-clamp-3 text-[.88rem] leading-[1.5]" style={{ color: "var(--dim)" }}>
+                              {post.excerpt}
+                            </p>
+                            <span className="mt-auto text-[.72rem] uppercase tracking-[.1em]" style={{ color: "var(--dim)" }}>
+                              {formatDate(post.date)}
+                            </span>
+                          </div>
                         </Link>
                       </li>
                     </Reveal>
