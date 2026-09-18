@@ -97,7 +97,6 @@ export const SERVICES: Service[] = [
     metaTitle: "Conversion tracking per locale, Mike Bastin",
     metaDescription: "Enquiries measured per locale, not per domain, so a market that converts and one that only gets traffic finally look different in the reporting.",
     sections: ["Why a single blended number hides the problem", ...ENGAGEMENT],
-    absorbs: ["analytics-and-tracking"],
   },
 
   // ---- Cluster 2: multilingual search, the engine ----
