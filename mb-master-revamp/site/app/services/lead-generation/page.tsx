@@ -91,8 +91,8 @@ export default function LeadGenerationPage() {
         <div className="shell">
           <Reveal>
             <p className="eyebrow mb-3">What gets measured</p>
-            <h2 className="mb-6 max-w-[18ch] text-[clamp(1.7rem,3.2vw,2.5rem)] font-semibold leading-[1.12]">
-              Clicks and leads, not impressions
+            <h2 className="mb-6 max-w-[22ch] text-[clamp(1.7rem,3.2vw,2.5rem)] font-semibold leading-[1.12]">
+              Multilingual lead generation that gets measured
             </h2>
             <p className="max-w-[62ch] text-[1.05rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
               A ranking screenshot proves an input worked. A client report
@@ -108,8 +108,8 @@ export default function LeadGenerationPage() {
         <div className="shell">
           <Reveal>
             <p className="eyebrow mb-3">How it is delivered</p>
-            <h2 className="mb-6 max-w-[20ch] text-[clamp(1.7rem,3.2vw,2.5rem)] font-semibold leading-[1.12]">
-              Three mechanisms, one measure
+            <h2 className="mb-6 max-w-[22ch] text-[clamp(1.7rem,3.2vw,2.5rem)] font-semibold leading-[1.12]">
+              Multilingual SEO, localisation and AI consulting, one measure
             </h2>
             <p className="mb-10 max-w-[62ch] text-[1.05rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
               Multilingual search finds the right visitor in their own

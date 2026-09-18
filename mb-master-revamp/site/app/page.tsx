@@ -231,8 +231,8 @@ export default function Home() {
         <div className="shell">
           <Reveal>
             <p className="eyebrow mb-3">What we do</p>
-            <h2 className="mb-5 max-w-[20ch] text-[clamp(1.8rem,3.6vw,2.9rem)] font-semibold leading-[1.1]">
-              Five clusters, each with its own job.
+            <h2 className="mb-5 max-w-[26ch] text-[clamp(1.8rem,3.6vw,2.9rem)] font-semibold leading-[1.1]">
+              Multilingual SEO, localisation and AI consulting, in five clusters.
             </h2>
             <p className="mb-12 max-w-[56ch] text-[1.05rem]" style={{ color: "var(--dim)" }}>
               Multilingual lead generation is the outcome. Everything below

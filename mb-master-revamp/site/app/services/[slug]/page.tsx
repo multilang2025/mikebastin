@@ -184,8 +184,8 @@ export default async function ServicePage({
         <div className="shell">
           <Reveal>
             <p className="eyebrow mb-3">How the engagement runs</p>
-            <h2 className="mb-10 max-w-[20ch] text-[clamp(1.7rem,3.2vw,2.5rem)] font-semibold leading-[1.12]">
-              Named deliverables, not a retainer with a shrug
+            <h2 className="mb-10 max-w-[22ch] text-[clamp(1.7rem,3.2vw,2.5rem)] font-semibold leading-[1.12]">
+              How the {service.name} engagement runs
             </h2>
           </Reveal>
           <ol className="grid gap-px sm:grid-cols-2" style={{ background: "var(--rule)" }}>

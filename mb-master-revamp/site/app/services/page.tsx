@@ -5,13 +5,14 @@ import SiteFooter from "@/components/SiteFooter";
 import { SERVICES, CLUSTERS } from "@/lib/services";
 import { SITE_URL } from "@/lib/schema";
 
-const TITLE = "Services, Mike Bastin";
 const DESCRIPTION =
   "Multilingual SEO, localisation and AI consulting in nineteen services across five clusters, each one covering a single query network properly.";
 const CANONICAL = `${SITE_URL}/services/`;
 
+const HERO_TITLE = "Multilingual SEO, localisation and AI consulting services, Mike Bastin";
+
 export const metadata: Metadata = {
-  title: TITLE,
+  title: HERO_TITLE,
   description: DESCRIPTION,
   alternates: { canonical: CANONICAL },
   // og:image/twitter:image come from the colocated opengraph-image.tsx
@@ -21,38 +22,36 @@ export const metadata: Metadata = {
     siteName: "Mike Bastin",
     locale: "en_GB",
     url: CANONICAL,
-    title: TITLE,
+    title: HERO_TITLE,
     description: DESCRIPTION,
   },
   twitter: {
     card: "summary_large_image",
-    title: TITLE,
+    title: HERO_TITLE,
     description: DESCRIPTION,
   },
 };
 
 export default function ServicesIndex() {
-  const absorbed = SERVICES.reduce((n, s) => n + (s.absorbs?.length ?? 0), 0);
-
   return (
     <main>
       {/* ============ HERO ============ */}
       <section className="band band-a grain relative overflow-hidden pb-[clamp(56px,8vw,100px)] pt-[clamp(96px,14vw,160px)]">
         <div className="shell relative">
           <Reveal>
-            <p className="eyebrow mb-8">Forty-three pages became sixteen</p>
+            <p className="eyebrow mb-8">{SERVICES.length} services, five clusters</p>
           </Reveal>
           <Reveal i={1}>
             <h1 className="mb-6 max-w-[19ch] text-[clamp(2.3rem,5.6vw,4rem)] font-semibold leading-[1.08]">
-              One page, one query network, covered properly
+              Multilingual SEO, localisation and AI consulting services
             </h1>
           </Reveal>
           <Reveal i={2}>
             <p className="max-w-[58ch] text-[clamp(1.05rem,1.5vw,1.2rem)] leading-[1.58]" style={{ color: "var(--dim)" }}>
-              One consultant cannot cover forty-three query networks
-              properly, which is why all forty-three were thin. Sixteen
-              pages, five clusters, and {absorbed} earlier pages folded in
-              behind them rather than deleted.
+              Lead generation, search, localisation, AI and the technical
+              work underneath all of it, each with its own page built to
+              cover one query network properly rather than several
+              thinly.
             </p>
           </Reveal>
         </div>
