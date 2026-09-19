@@ -98,7 +98,7 @@ export default function ServicesIndex() {
                         <div className="mt-auto flex flex-wrap gap-x-5 gap-y-1 text-[.72rem] uppercase tracking-[.1em]" style={{ color: "var(--dim)" }}>
                           {s.gsc && (
                             <span style={{ color: "var(--berry)" }}>
-                              {s.gsc.impressions.toLocaleString("en-GB")} monthly searches already
+                              {s.gsc.impressions.toLocaleString("en-GB")} impressions in 90 days
                             </span>
                           )}
                         </div>
