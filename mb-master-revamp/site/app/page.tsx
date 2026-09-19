@@ -139,7 +139,7 @@ export default function Home() {
         <div className="shell relative">
           <Reveal>
             <p className="eyebrow mb-10">
-              International SEO consultancy, reading the swell in four languages
+              Plenty of sites rank. Far fewer sell.
             </p>
           </Reveal>
 
