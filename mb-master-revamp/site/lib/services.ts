@@ -27,7 +27,18 @@
 
 export type Service = {
   slug: string;
+  /** Heading and label form: "International SEO", "Website localisation". */
   name: string;
+  /**
+   * Mid-sentence form of `name`, for headings that drop it inside a
+   * sentence ("How the international SEO engagement runs"). Written out
+   * per service rather than derived, because `name.toLowerCase()` turns
+   * SEO into seo, AI into ai and French into french, which shipped a
+   * grammatical error into an h2 on all nineteen service pages. Only
+   * headings need to be grammatical; an eyebrow may carry a keyword-shaped
+   * approximation instead.
+   */
+  inline: string;
   cluster: string;
   /** Pillars own a query network; the rest support one. */
   pillar?: boolean;
@@ -81,6 +92,7 @@ export const SERVICES: Service[] = [
   {
     slug: "lead-generation",
     name: "Multilingual lead generation",
+    inline: "multilingual lead generation",
     cluster: "Lead generation",
     pillar: true,
     angle: "The outcome, not the mechanism",
@@ -92,6 +104,7 @@ export const SERVICES: Service[] = [
   {
     slug: "multilingual-sem",
     name: "Multilingual SEM",
+    inline: "multilingual SEM",
     cluster: "Lead generation",
     angle: "International PPC, buying what search has not earned",
     lede: "Reaching the buyer who has not found you organically yet, in the language they searched in, without letting a single blended campaign quietly subsidise one market from another.",
@@ -126,6 +139,7 @@ export const SERVICES: Service[] = [
   {
     slug: "conversion-tracking",
     name: "Conversion tracking",
+    inline: "conversion tracking",
     cluster: "Lead generation",
     angle: "The evidence layer, per locale",
     lede: "Measuring enquiries per locale rather than per domain. Without it, a market that converts and a market that only gets traffic look identical in the reporting.",
@@ -154,6 +168,7 @@ export const SERVICES: Service[] = [
   {
     slug: "multilingual-seo",
     name: "International SEO",
+    inline: "international SEO",
     cluster: "Search",
     pillar: true,
     angle: "The engine underneath the outcome",
@@ -199,8 +214,9 @@ export const SERVICES: Service[] = [
   {
     slug: "french-seo",
     name: "French SEO",
+    inline: "French SEO",
     cluster: "Search",
-    angle: "SEO in France, where the francophone volume sits",
+    angle: "SEO France, where the francophone volume sits",
     lede: "France carries 1,850 of the 2,390 monthly searches measured across the whole francophone core, at a difficulty score of 0 to 2. Belgium and Switzerland are where the network is, not where the search volume is.",
     metaTitle: "French SEO services, Mike Bastin",
     metaDescription: "France carries most of the francophone search volume in this market. See what a proper French SEO engagement covers, market by market.",
@@ -234,8 +250,9 @@ export const SERVICES: Service[] = [
   {
     slug: "german-seo",
     name: "German SEO",
+    inline: "German SEO",
     cluster: "Search",
-    angle: "SEO in Germany, researched longer, decided slower",
+    angle: "SEO Germany, researched longer, decided slower",
     lede: "German buyers research further before enquiring than most markets, so the page that wins is the one that answers the question rather than the one that ranks loudest.",
     metaTitle: "German SEO services, Mike Bastin",
     metaDescription: "German buyers research longer before enquiring than most markets. See the SEO approach built to answer the question, not just rank for it.",
@@ -267,8 +284,9 @@ export const SERVICES: Service[] = [
   {
     slug: "spanish-seo",
     name: "Spanish SEO",
+    inline: "Spanish SEO",
     cluster: "Search",
-    angle: "SEO in Spain, researched here rather than abroad",
+    angle: "SEO Spain, researched here rather than abroad",
     lede: "Spain from Spain. The Valencia base is not a line in a bio, it is why the local search behaviour is familiar rather than researched.",
     metaTitle: "Spanish SEO from Valencia, Mike Bastin",
     metaDescription: "Spanish SEO run from Valencia, Spain, not researched from abroad. See why the local search behaviour here is familiar rather than guessed at.",
@@ -299,6 +317,7 @@ export const SERVICES: Service[] = [
   {
     slug: "dutch-seo",
     name: "Dutch SEO",
+    inline: "Dutch SEO",
     cluster: "Search",
     angle: "Small volume, decisive buyers",
     lede: "Dutch trade search is low in volume and high in intent, which rewards covering a narrow thing properly over covering a broad thing thinly. Bemelman Spuiterij is the worked example.",
@@ -330,8 +349,9 @@ export const SERVICES: Service[] = [
   {
     slug: "italian-seo",
     name: "Italian SEO",
+    inline: "Italian SEO",
     cluster: "Search",
-    angle: "SEO in Italy, where translated copy gets found out",
+    angle: "SEO Italy, where translated copy gets found out",
     lede: "Italian search rewards editorial quality more than most markets, and punishes translated-from-English copy faster.",
     metaTitle: "Italian SEO services, Mike Bastin",
     metaDescription: "Italian search rewards editorial quality and punishes translated-from-English copy fast. See the SEO approach built for that market.",
@@ -363,6 +383,7 @@ export const SERVICES: Service[] = [
   {
     slug: "portuguese-seo",
     name: "Portuguese SEO",
+    inline: "Portuguese SEO",
     cluster: "Search",
     angle: "Two markets, one language",
     lede: "Portugal and Brazil are not one market with one keyword set, and treating them as one is the mistake that makes Portuguese look harder than it is.",
@@ -396,6 +417,7 @@ export const SERVICES: Service[] = [
   {
     slug: "local-seo",
     name: "Local SEO",
+    inline: "local SEO",
     cluster: "Search",
     angle: "Off-site, one location at a time",
     lede: "Google Business Profile, citations, NAP consistency and the map pack, for multilingual cities where the same street gets searched in more than one language. Discipline and consistency, not tricks.",
@@ -435,6 +457,7 @@ export const SERVICES: Service[] = [
   {
     slug: "website-localisation",
     name: "Website localisation",
+    inline: "website localisation",
     cluster: "Localisation",
     pillar: true,
     angle: "Beyond translated strings",
@@ -466,6 +489,7 @@ export const SERVICES: Service[] = [
   {
     slug: "translation-services",
     name: "Translation services",
+    inline: "translation services",
     cluster: "Localisation",
     pillar: true,
     angle: "Where accuracy is a liability question",
@@ -499,6 +523,7 @@ export const SERVICES: Service[] = [
   {
     slug: "app-and-software-localisation",
     name: "App and software localisation",
+    inline: "app and software localisation",
     cluster: "Localisation",
     angle: "Strings, and everything around them",
     lede: "Interface text that has to survive being twice as long in German, right to left in Arabic, and reviewed by an app store in a language nobody on the team reads.",
@@ -528,6 +553,7 @@ export const SERVICES: Service[] = [
   {
     slug: "ai-consulting",
     name: "AI consulting",
+    inline: "AI consulting",
     cluster: "AI",
     pillar: true,
     angle: "AI consultants who say where AI does not help",
@@ -562,6 +588,7 @@ export const SERVICES: Service[] = [
   {
     slug: "ai-translation-and-post-editing",
     name: "AI translation and post-editing",
+    inline: "AI translation and post-editing",
     cluster: "AI",
     angle: "Machine first, human decisive",
     lede: "Machine translation has become good enough to be dangerous: fluent output that is confidently wrong is harder to catch than obviously broken output.",
@@ -590,6 +617,7 @@ export const SERVICES: Service[] = [
   {
     slug: "generative-engine-optimization",
     name: "Generative engine optimisation",
+    inline: "generative engine optimisation",
     cluster: "AI",
     pillar: true,
     angle: "Cited inside the answer, not just ranked below it",
@@ -629,6 +657,7 @@ export const SERVICES: Service[] = [
   {
     slug: "technical-seo",
     name: "Technical SEO",
+    inline: "technical SEO",
     cluster: "Supporting",
     angle: "Crawlability and hreflang, noticed only when broken",
     lede: "Crawlability, indexation and the hreflang plumbing that decides whether a multilingual site is read as one entity in several languages or several sites competing with each other.",
@@ -656,6 +685,7 @@ export const SERVICES: Service[] = [
   {
     slug: "multilingual-content",
     name: "Multilingual content",
+    inline: "multilingual content",
     cluster: "Supporting",
     angle: "Written per market, not translated",
     lede: "Copy researched against the market it is for, because the keyword set that works in English rarely survives translation into the one that works in Spanish.",
@@ -683,6 +713,15 @@ export const SERVICES: Service[] = [
 ];
 
 export const CLUSTERS = ["Lead generation", "Search", "Localisation", "AI", "Supporting"] as const;
+
+/** Mid-sentence form of each cluster, for the same reason as Service.inline. */
+export const CLUSTER_INLINE: Record<string, string> = {
+  "Lead generation": "lead generation",
+  Search: "search",
+  Localisation: "localisation",
+  AI: "AI",
+  Supporting: "supporting",
+};
 
 export function getService(slug: string): Service | undefined {
   return SERVICES.find((s) => s.slug === slug);

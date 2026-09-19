@@ -155,7 +155,7 @@ export default async function BlogPostPage({
             <p className="eyebrow mb-3">Where this leads</p>
             <h2 className="mb-5 max-w-[28ch] text-[clamp(1.5rem,2.8vw,2.1rem)] font-semibold leading-[1.15]">
               {service
-                ? `See what ${service.name} looks like on your site`
+                ? `See what ${service.inline} looks like on your site`
                 : "Talk through what this means for your site"}
             </h2>
           </Reveal>
