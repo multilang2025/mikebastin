@@ -28,6 +28,21 @@ import { join } from "path";
 import matter from "gray-matter";
 import { marked } from "marked";
 import { SITE_URL } from "@/lib/schema";
+import {
+  REPO_ROOT,
+  LOCALES,
+  qualifyingGroupsForLocale,
+  type Locale,
+  type LocaleSlugs,
+} from "@/lib/content-locale";
+import { getServiceLocaleManifest } from "@/lib/services-locale";
+
+// Locale/LOCALES/LocaleSlugs/qualifyingGroupsForLocale now live in
+// lib/content-locale.ts (shared with lib/services-locale.ts) and are
+// re-exported here so every existing `from "@/lib/posts"` import of them
+// keeps working unchanged.
+export type { Locale, LocaleSlugs };
+export { LOCALES };
 
 export type PostFrontmatter = {
   words: number;
@@ -53,53 +68,12 @@ export type Post = PostFrontmatter & {
   relatedService?: string;
 };
 
-type ContentMapLocaleEntry = { id: number; slug: string; url: string; content_path: string } | null;
-
-type ContentMapGroup = {
-  group: string;
-  type: string;
-  action: string;
-  destination: string;
-  en: ContentMapLocaleEntry;
-  fr: ContentMapLocaleEntry;
-  es: ContentMapLocaleEntry;
-};
-
-// process.cwd() is the site/ directory (where `next build` runs), so the
-// repo root is one level up. Not `import.meta.url` -- Turbopack tries to
-// statically resolve a `new URL(..., import.meta.url)` argument as a
-// module import, and a plain relative path is not a module.
-const REPO_ROOT = join(process.cwd(), "..");
-const CONTENT_MAP_PATH = join(REPO_ROOT, "redirects/content-map.json");
-
 /**
  * Slug this file renders through app/competitor-analysis-traffic-checklist/
  * instead of app/blog/[slug]/. Kept out of generateStaticParams so the
  * static export does not try to emit the same path twice.
  */
 export const HAND_BUILT_SLUGS = ["competitor-analysis-traffic-checklist"];
-
-/** The two locales alongside EN that carry real, already-written content. */
-export type Locale = "en" | "fr" | "es";
-export const LOCALES: Locale[] = ["en", "fr", "es"];
-
-/**
- * Groups qualifying for a live page in `locale`, per the same bar
- * qualifyingEnGroups() has always used (`type: "post"`, `action: "migrate"`,
- * `destination: "mdx"`), generalised across locales. A group's action is
- * set once for the whole group, not per locale (see content-map.json), so
- * a group slated to relocate to valenciamove.com or retire is excluded in
- * every locale even though its .md file may still sit in the repo.
- */
-function qualifyingGroupsForLocale(locale: Locale): { group: string; slug: string; contentPath: string }[] {
-  const contentMap = JSON.parse(readFileSync(CONTENT_MAP_PATH, "utf8")) as {
-    groups: ContentMapGroup[];
-  };
-  const groups = contentMap.groups;
-  return groups
-    .filter((g) => g.type === "post" && g.action === "migrate" && g.destination === "mdx" && g[locale])
-    .map((g) => ({ group: g.group, slug: g[locale]!.slug, contentPath: g[locale]!.content_path }));
-}
 
 function qualifyingEnGroups(): { group: string; slug: string; contentPath: string }[] {
   return qualifyingGroupsForLocale("en");
@@ -367,9 +341,6 @@ export function getPostForLocale(locale: Locale, slug: string): LocalePost | und
   return getPostsForLocale(locale).find((p) => p.slug === slug);
 }
 
-/** group id -> the slug each locale actually published it under. */
-export type LocaleSlugs = Partial<Record<Locale, string>>;
-
 let siblingIndex: Map<string, LocaleSlugs> | null = null;
 
 /**
@@ -414,6 +385,11 @@ export function postPath(locale: Locale, slug: string): string {
  * cannot read the filesystem. Groups with only one published locale are
  * left out entirely, so a page with no sibling gets no manifest entry and
  * the switcher degrades to "nothing to offer" rather than a bogus link.
+ *
+ * Merged with the equivalent service-page manifest from
+ * lib/services-locale.ts, so app/layout.tsx -- which this project is not
+ * to touch -- keeps calling this one function unchanged and SiteNav still
+ * gets both posts' and services' siblings from a single prop.
  */
 export function getLocaleManifest(): Record<string, LocaleSlugs> {
   const manifest: Record<string, LocaleSlugs> = {};
@@ -424,7 +400,7 @@ export function getLocaleManifest(): Record<string, LocaleSlugs> {
       manifest[postPath(locale, siblings[locale]!)] = siblings;
     }
   }
-  return manifest;
+  return { ...manifest, ...getServiceLocaleManifest() };
 }
 
 /**
