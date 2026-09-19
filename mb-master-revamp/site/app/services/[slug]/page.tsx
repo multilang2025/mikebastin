@@ -74,6 +74,7 @@ export default async function ServicePage({
   const demandBand = service.demand ? nextBand() : undefined;
   const bodyBand = service.body && service.body.length > 0 ? nextBand() : undefined;
   const engagementBand = nextBand();
+  const ctaBand = nextBand();
   const absorbsBand = service.absorbs && service.absorbs.length > 0 ? nextBand() : undefined;
   const siblingsBand = siblings.length > 0 ? nextBand() : undefined;
   const footerBand = nextBand();
@@ -236,6 +237,37 @@ export default async function ServicePage({
               </Reveal>
             ))}
           </ol>
+        </div>
+      </section>
+
+      {/* ============ CTA ============ */}
+      <section className={`band band-${ctaBand} py-[clamp(64px,9vw,120px)]`}>
+        <div className="shell">
+          <Reveal>
+            <p className="eyebrow mb-3">The next step</p>
+            <h2 className="mb-5 max-w-[24ch] text-[clamp(1.7rem,3.2vw,2.5rem)] font-semibold leading-[1.12]">
+              Find out what {service.name.toLowerCase()} is worth in your markets
+            </h2>
+          </Reveal>
+          <Reveal i={1}>
+            <p className="mb-9 max-w-[58ch] text-[1.05rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
+              Thirty minutes on which markets matter, what already ranks, and
+              what has been tried before. We ask questions before we recommend
+              anything, and what comes back is a written scope naming real
+              pages and deliverables, not a quote with plan tiers on it. No
+              lock-in either way.
+            </p>
+          </Reveal>
+          <Reveal i={2}>
+            <div className="flex flex-wrap items-center gap-x-6 gap-y-4">
+              <Link href="/contact/" className="btn btn-primary btn-lg">
+                Book the discovery call
+              </Link>
+              <Link href="/how-i-work/" className="ulink text-[.98rem]">
+                See how an engagement runs
+              </Link>
+            </div>
+          </Reveal>
         </div>
       </section>
 
