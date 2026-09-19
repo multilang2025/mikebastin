@@ -49,3 +49,7 @@ above. Never build a heading by case-shifting a label.
 Per locale: French and Spanish capitalise headings differently from
 English, so apply each locale's own convention rather than transposing
 the English one.
+
+Sentence case everywhere. Capitalise the first word, proper nouns and
+acronyms only. Title Case is a fail, including on a title carried over
+from WordPress: convert it, protecting the acronyms, never keep it.

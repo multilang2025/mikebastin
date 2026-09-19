@@ -53,3 +53,7 @@ and proper adjectives cased properly (SEO, AI, French, never seo/ai/french)
 and subject and verb agreeing. An eyebrow is exempt and may carry the
 keyword-shaped form ("SEO Italy"), but may not repeat the heading it sits
 above. Never build a heading by case-shifting a label.
+
+Sentence case everywhere. Capitalise the first word, proper nouns and
+acronyms only. Title Case is a fail, including on a title carried over
+from WordPress: convert it, protecting the acronyms, never keep it.

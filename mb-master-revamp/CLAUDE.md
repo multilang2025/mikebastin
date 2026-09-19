@@ -79,6 +79,13 @@ needs.
   Shops integration") and one is inside a service name, so they are not a
   hard fail. The lint warns above a density threshold instead.
 - No bolded links.
+- **Sentence case everywhere**, headings, titles and blog post titles
+  alike (owner decision, 19 Sep). Capitalise the first word, proper nouns
+  and acronyms only: SEO, AI, GEO, AEO, PPC, LLMs, Google Analytics,
+  ChatGPT, WordPress, French, Valencia. Lowercase after a colon;
+  capitalise after a full stop or question mark. Title Case is not used
+  anywhere on the site, so a migration that brings it in from WordPress
+  converts rather than keeps it, protecting acronyms as it goes.
 - **Headings and titles must be grammatical; eyebrows need not be**
   (HANDOFF.md §4, owner decision 19 Sep). Every `h1` to `h6`, `<title>`,
   meta title and link label reads as correct English: subject and verb

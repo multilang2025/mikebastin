@@ -69,3 +69,7 @@ dropped into a sentence unchanged capitalises mid-sentence. Where a label
 serves as both a heading and a mid-sentence phrase, both forms must be
 stored, as `Service.inline` and `CLUSTER_INLINE` do in `lib/services.ts`.
 Flag any new interpolated heading that does not use them.
+
+Sentence case everywhere. Capitalise the first word, proper nouns and
+acronyms only. Title Case is a fail, including on a title carried over
+from WordPress: convert it, protecting the acronyms, never keep it.
