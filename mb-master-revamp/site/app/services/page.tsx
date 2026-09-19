@@ -6,7 +6,7 @@ import { SERVICES, CLUSTERS } from "@/lib/services";
 import { SITE_URL } from "@/lib/schema";
 
 const DESCRIPTION =
-  "Multilingual SEO, localisation and AI consulting in nineteen services across five clusters, each one covering a single query network properly.";
+  "Multilingual SEO, localisation and AI consulting in nineteen services across five groups, each one focused on a single subject rather than spread thin.";
 const CANONICAL = `${SITE_URL}/services/`;
 
 const HERO_TITLE = "Multilingual SEO, localisation and AI consulting services, Mike Bastin";
@@ -39,7 +39,7 @@ export default function ServicesIndex() {
       <section className="band band-a grain relative overflow-hidden pb-[clamp(56px,8vw,100px)] pt-[clamp(96px,14vw,160px)]">
         <div className="shell relative">
           <Reveal>
-            <p className="eyebrow mb-8">{SERVICES.length} services, five clusters</p>
+            <p className="eyebrow mb-8">{SERVICES.length} services, five focus areas</p>
           </Reveal>
           <Reveal i={1}>
             <h1 className="mb-6 max-w-[19ch] text-[clamp(2.3rem,5.6vw,4rem)] font-semibold leading-[1.08]">
@@ -50,8 +50,7 @@ export default function ServicesIndex() {
             <p className="max-w-[58ch] text-[clamp(1.05rem,1.5vw,1.2rem)] leading-[1.58]" style={{ color: "var(--dim)" }}>
               Lead generation, search, localisation, AI and the technical
               work underneath all of it, each with its own page built to
-              cover one query network properly rather than several
-              thinly.
+              cover one subject properly rather than several thinly.
             </p>
           </Reveal>
         </div>
@@ -72,7 +71,7 @@ export default function ServicesIndex() {
                     {cluster}
                   </h2>
                   <span className="shrink-0 text-[.78rem] uppercase tracking-[.11em]" style={{ color: "var(--dim)" }}>
-                    {inCluster.length} {inCluster.length === 1 ? "page" : "pages"}
+                    {inCluster.length} {inCluster.length === 1 ? "service" : "services"}
                   </span>
                 </div>
               </Reveal>
@@ -99,11 +98,8 @@ export default function ServicesIndex() {
                         <div className="mt-auto flex flex-wrap gap-x-5 gap-y-1 text-[.72rem] uppercase tracking-[.1em]" style={{ color: "var(--dim)" }}>
                           {s.gsc && (
                             <span style={{ color: "var(--berry)" }}>
-                              {s.gsc.impressions.toLocaleString("en-GB")} impressions
+                              {s.gsc.impressions.toLocaleString("en-GB")} monthly searches already
                             </span>
-                          )}
-                          {s.absorbs && s.absorbs.length > 0 && (
-                            <span>absorbs {s.absorbs.length}</span>
                           )}
                         </div>
                       </Link>

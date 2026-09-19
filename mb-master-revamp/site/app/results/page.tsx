@@ -58,7 +58,7 @@ export default function ResultsPage() {
           <Reveal>
             <p className="eyebrow mb-3">What the data actually said</p>
             <h2 className="mb-5 max-w-[18ch] text-[clamp(1.8rem,3.6vw,2.9rem)] font-semibold leading-[1.1]">
-              Forty thousand impressions. Six clicks.
+              Forty thousand impressions produced six clicks.
             </h2>
             <p className="mb-12 max-w-[56ch] text-[1.05rem]" style={{ color: "var(--dim)" }}>
               Before rebuilding anything, we pulled ninety days of Search Console
@@ -81,8 +81,8 @@ export default function ResultsPage() {
               Forty-three service pages became nineteen.
             </h2>
             <p className="mb-12 max-w-[56ch] text-[1.05rem]" style={{ color: "var(--dim)" }}>
-              One page, one query network, covered properly. Open a cluster to
-              see what folded into what.
+              One page, one subject, covered properly. Open a cluster to
+              see which pages were combined.
             </p>
           </Reveal>
 
@@ -138,7 +138,7 @@ export default function ResultsPage() {
           <Reveal>
             <p className="eyebrow mb-3">Three ways a report can appear here</p>
             <h2 className="mb-10 max-w-[22ch] text-[clamp(1.7rem,3.2vw,2.5rem)] font-semibold leading-[1.12]">
-              Decided per client, once the report exists
+              We decide how to publish each client with them
             </h2>
           </Reveal>
 
