@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import type { Locale, LocaleSlugs } from "@/lib/posts";
 
 const LINKS = [
   { href: "/", label: "Home" },
@@ -12,7 +13,50 @@ const LINKS = [
   { href: "/contact/", label: "Contact" },
 ];
 
-export default function SiteNav() {
+const LOCALE_LABEL: Record<Locale, string> = { en: "EN", fr: "FR", es: "ES" };
+
+function postPath(locale: Locale, slug: string): string {
+  return locale === "en" ? `/blog/${slug}/` : `/${locale}/${slug}/`;
+}
+
+/**
+ * Language switcher, shown only on a page whose manifest entry names
+ * siblings (built from getLocaleManifest() -- groups with a single
+ * published locale never get an entry). It links straight to each
+ * sibling's real localised URL, never to a 404 or the homepage.
+ */
+function LocaleSwitcher({ manifest, pathname }: { manifest: Record<string, LocaleSlugs>; pathname: string }) {
+  const siblings = manifest[pathname];
+  if (!siblings) return null;
+
+  const locales = (Object.keys(siblings) as Locale[]).sort(
+    (a, b) => ["en", "fr", "es"].indexOf(a) - ["en", "fr", "es"].indexOf(b)
+  );
+
+  return (
+    <ul className="flex shrink-0 items-center gap-x-3 text-[.8rem] uppercase tracking-[.06em]" style={{ color: "var(--dim)" }}>
+      {locales.map((locale) => {
+        const href = postPath(locale, siblings[locale]!);
+        const active = href === pathname;
+        return (
+          <li key={locale}>
+            {active ? (
+              <span aria-current="page" style={{ color: "var(--berry)" }}>
+                {LOCALE_LABEL[locale]}
+              </span>
+            ) : (
+              <Link href={href} className="ulink">
+                {LOCALE_LABEL[locale]}
+              </Link>
+            )}
+          </li>
+        );
+      })}
+    </ul>
+  );
+}
+
+export default function SiteNav({ localeManifest }: { localeManifest: Record<string, LocaleSlugs> }) {
   const pathname = usePathname();
 
   return (
@@ -46,6 +90,7 @@ export default function SiteNav() {
             );
           })}
         </ul>
+        <LocaleSwitcher manifest={localeManifest} pathname={pathname ?? ""} />
       </nav>
     </header>
   );

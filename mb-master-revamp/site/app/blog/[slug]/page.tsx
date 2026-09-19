@@ -4,7 +4,7 @@ import Link from "next/link";
 import Reveal from "@/components/Reveal";
 import SiteFooter from "@/components/SiteFooter";
 import JsonLd from "@/components/JsonLd";
-import { getPosts, getPost, HAND_BUILT_SLUGS } from "@/lib/posts";
+import { getPosts, getPost, postHreflang, HAND_BUILT_SLUGS } from "@/lib/posts";
 import { getService } from "@/lib/services";
 import { getPostMetaDescription, postMetaTitle } from "@/lib/seo";
 import { SITE_URL, blogPostingSchema, breadcrumbSchema } from "@/lib/schema";
@@ -26,9 +26,11 @@ export async function generateMetadata({
   const { slug } = await params;
   const post = getPost(slug);
   if (!post) return {};
+  const languages = postHreflang(post.group);
   return {
     title: postMetaTitle(post.title),
     description: getPostMetaDescription(post),
+    ...(languages ? { alternates: { languages } } : {}),
   };
 }
 

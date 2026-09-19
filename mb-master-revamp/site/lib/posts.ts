@@ -27,6 +27,7 @@ import { readFileSync } from "fs";
 import { join } from "path";
 import matter from "gray-matter";
 import { marked } from "marked";
+import { SITE_URL } from "@/lib/schema";
 
 export type PostFrontmatter = {
   words: number;
@@ -52,14 +53,16 @@ export type Post = PostFrontmatter & {
   relatedService?: string;
 };
 
+type ContentMapLocaleEntry = { id: number; slug: string; url: string; content_path: string } | null;
+
 type ContentMapGroup = {
   group: string;
   type: string;
   action: string;
   destination: string;
-  en: { id: number; slug: string; url: string; content_path: string } | null;
-  fr: unknown;
-  es: unknown;
+  en: ContentMapLocaleEntry;
+  fr: ContentMapLocaleEntry;
+  es: ContentMapLocaleEntry;
 };
 
 // process.cwd() is the site/ directory (where `next build` runs), so the
@@ -76,14 +79,30 @@ const CONTENT_MAP_PATH = join(REPO_ROOT, "redirects/content-map.json");
  */
 export const HAND_BUILT_SLUGS = ["competitor-analysis-traffic-checklist"];
 
-function qualifyingEnGroups(): { group: string; slug: string; contentPath: string }[] {
+/** The two locales alongside EN that carry real, already-written content. */
+export type Locale = "en" | "fr" | "es";
+export const LOCALES: Locale[] = ["en", "fr", "es"];
+
+/**
+ * Groups qualifying for a live page in `locale`, per the same bar
+ * qualifyingEnGroups() has always used (`type: "post"`, `action: "migrate"`,
+ * `destination: "mdx"`), generalised across locales. A group's action is
+ * set once for the whole group, not per locale (see content-map.json), so
+ * a group slated to relocate to valenciamove.com or retire is excluded in
+ * every locale even though its .md file may still sit in the repo.
+ */
+function qualifyingGroupsForLocale(locale: Locale): { group: string; slug: string; contentPath: string }[] {
   const contentMap = JSON.parse(readFileSync(CONTENT_MAP_PATH, "utf8")) as {
     groups: ContentMapGroup[];
   };
   const groups = contentMap.groups;
   return groups
-    .filter((g) => g.type === "post" && g.action === "migrate" && g.destination === "mdx" && g.en)
-    .map((g) => ({ group: g.group, slug: g.en!.slug, contentPath: g.en!.content_path }));
+    .filter((g) => g.type === "post" && g.action === "migrate" && g.destination === "mdx" && g[locale])
+    .map((g) => ({ group: g.group, slug: g[locale]!.slug, contentPath: g[locale]!.content_path }));
+}
+
+function qualifyingEnGroups(): { group: string; slug: string; contentPath: string }[] {
+  return qualifyingGroupsForLocale("en");
 }
 
 /**
@@ -305,4 +324,129 @@ export function getClusterGroups(): ClusterGroup[] {
   }
 
   return groups;
+}
+
+/**
+ * A post read for FR or ES: the frontmatter plus rendered body, same shape
+ * as Post minus the EN-only cluster/relatedService fields (those come from
+ * CLUSTERS, an EN-specific editorial grouping with no FR/ES equivalent
+ * yet). A Post satisfies this shape too, so getPostsForLocale("en") can
+ * return getPosts() unchanged.
+ */
+export type LocalePost = PostFrontmatter & { html: string };
+
+const localePostCache: Partial<Record<Locale, LocalePost[]>> = {};
+
+/**
+ * Every live post for `locale`. EN keeps its existing behaviour exactly
+ * (cluster assignment, HAND_BUILT_SLUGS exclusion, the same module-level
+ * cache) by delegating to getPosts(). FR and ES read their own content
+ * directories, gated by the same content-map.json qualification bar, and
+ * cache separately per locale.
+ */
+export function getPostsForLocale(locale: Locale): LocalePost[] {
+  if (locale === "en") return getPosts();
+
+  const cached = localePostCache[locale];
+  if (cached) return cached;
+
+  const posts: LocalePost[] = [];
+  for (const { contentPath } of qualifyingGroupsForLocale(locale)) {
+    const raw = readFileSync(join(REPO_ROOT, contentPath), "utf8");
+    const { data, content } = matter(raw);
+    const fm = data as PostFrontmatter;
+    posts.push({ ...fm, html: marked.parse(content, { async: false }) as string });
+  }
+
+  posts.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+  localePostCache[locale] = posts;
+  return posts;
+}
+
+export function getPostForLocale(locale: Locale, slug: string): LocalePost | undefined {
+  return getPostsForLocale(locale).find((p) => p.slug === slug);
+}
+
+/** group id -> the slug each locale actually published it under. */
+export type LocaleSlugs = Partial<Record<Locale, string>>;
+
+let siblingIndex: Map<string, LocaleSlugs> | null = null;
+
+/**
+ * Maps a translation group to the slug each locale published it under.
+ * Only locales that cleared qualifyingGroupsForLocale appear here, so a
+ * group that relocates to valenciamove.com or retires in one locale never
+ * produces a sibling link to a page that was never built -- the class of
+ * bug valenciamove.com's getAllTranslatedParams learned to guard against.
+ */
+function buildSiblingIndex(): Map<string, LocaleSlugs> {
+  if (siblingIndex) return siblingIndex;
+  const map = new Map<string, LocaleSlugs>();
+  for (const locale of LOCALES) {
+    for (const post of getPostsForLocale(locale)) {
+      const entry = map.get(post.group) ?? {};
+      entry[locale] = post.slug;
+      map.set(post.group, entry);
+    }
+  }
+  siblingIndex = map;
+  return map;
+}
+
+/** The published slug per locale for a post's translation group. */
+export function getPostSiblings(group: string): LocaleSlugs {
+  return buildSiblingIndex().get(group) ?? {};
+}
+
+/** Site-relative path for a published post in `locale`. EN stays at
+ *  /blog/<slug>/ (unchanged); FR and ES are flat at /fr/<slug>/ and
+ *  /es/<slug>/, matching their localised sourceUrl in the frontmatter. */
+export function postPath(locale: Locale, slug: string): string {
+  return locale === "en" ? `/blog/${slug}/` : `/${locale}/${slug}/`;
+}
+
+/**
+ * path -> the slug each locale published that translation group under,
+ * one entry per published locale variant of every group with 2+ locales.
+ * Built for SiteNav's language switcher: a Server Component (the root
+ * layout) computes this once at build time and passes it down as a plain
+ * serialisable prop, since SiteNav itself is a client component and
+ * cannot read the filesystem. Groups with only one published locale are
+ * left out entirely, so a page with no sibling gets no manifest entry and
+ * the switcher degrades to "nothing to offer" rather than a bogus link.
+ */
+export function getLocaleManifest(): Record<string, LocaleSlugs> {
+  const manifest: Record<string, LocaleSlugs> = {};
+  for (const siblings of buildSiblingIndex().values()) {
+    const published = LOCALES.filter((l) => siblings[l]);
+    if (published.length < 2) continue;
+    for (const locale of published) {
+      manifest[postPath(locale, siblings[locale]!)] = siblings;
+    }
+  }
+  return manifest;
+}
+
+/**
+ * `alternates.languages` for a post's `<head>`, built from the locales its
+ * translation group actually published. Returns undefined when the group
+ * has no sibling at all, so a page with nothing to link to emits no
+ * hreflang block rather than a self-referencing or bogus one. `x-default`
+ * points at the EN URL when EN published this group; groups with no EN
+ * sibling (most of the ES-only set) omit x-default rather than guess
+ * which non-EN locale should stand in for it.
+ */
+export function postHreflang(group: string): Record<string, string> | undefined {
+  const siblings = getPostSiblings(group);
+  const published = LOCALES.filter((l) => siblings[l]);
+  if (published.length < 2) return undefined;
+
+  const languages: Record<string, string> = {};
+  for (const locale of published) {
+    languages[locale] = `${SITE_URL}${postPath(locale, siblings[locale]!)}`;
+  }
+  if (siblings.en) {
+    languages["x-default"] = `${SITE_URL}${postPath("en", siblings.en)}`;
+  }
+  return languages;
 }

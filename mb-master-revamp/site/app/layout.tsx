@@ -6,6 +6,7 @@ import ThemeToggle from "@/components/ThemeToggle";
 import SiteNav from "@/components/SiteNav";
 import JsonLd from "@/components/JsonLd";
 import { personSchema, professionalServiceSchema } from "@/lib/schema";
+import { getLocaleManifest } from "@/lib/posts";
 
 const fraunces = localFont({
   src: "./fonts/fraunces.woff2",
@@ -79,7 +80,7 @@ export default function RootLayout({
       >
         <SmoothScroll />
         <ThemeToggle />
-        <SiteNav />
+        <SiteNav localeManifest={getLocaleManifest()} />
         {children}
       </body>
     </html>
