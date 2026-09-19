@@ -108,6 +108,26 @@ export default function HowIWorkPage() {
               work takes instead, from the first call to the monthly report.
             </p>
           </Reveal>
+
+          <Reveal i={3}>
+            <div className="mt-10 flex items-center gap-4">
+              <img
+                src="/images/mike-bastin.webp"
+                alt="Mike Bastin"
+                width={72}
+                height={72}
+                decoding="async"
+                className="h-[72px] w-[72px] shrink-0 rounded-full object-cover"
+                style={{ border: "1px solid var(--rule)" }}
+              />
+              <span className="flex flex-col gap-[2px]">
+                <span className="display text-[1.02rem] font-semibold">Mike Bastin</span>
+                <span className="text-[.88rem]" style={{ color: "var(--dim)" }}>
+                  Valencia, twenty-five years in multilingual search
+                </span>
+              </span>
+            </div>
+          </Reveal>
         </div>
       </section>
 
