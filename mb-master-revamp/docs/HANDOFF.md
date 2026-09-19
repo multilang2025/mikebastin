@@ -101,6 +101,9 @@ From the MIKEBASTIN MASTER CONTENT PROTOCOL v3.0 (owner's standing spec):
 - Varied sentence length; conversational; light hedging allowed.
 - Forbidden vocabulary (non-exhaustive): comprehensive, tailored, seamless, leverage, elevate, crafted, maximise, facilitate, landscape, utilise, innovative, robust, delve, transformative, implementation, integration, vital, dynamic, ever-evolving, "In conclusion", "It's important to note", moreover, however, thus, hence, additionally.
 - No bolded links.
+- **Headings and titles must be grammatical. Eyebrows need not be.** (Owner decision, 19 Sep 2026.) Every `h1` to `h6`, every `<title>`, every meta title and every link label has to read as correct, logical English: subject and verb agreeing, acronyms cased properly (SEO, AI, GEO, not seo, ai, geo), proper adjectives capitalised (French, Dutch), and nothing capitalised mid-sentence that would not be. An eyebrow is exempt, and may carry the keyword-shaped approximation instead of prose around it, so "SEO Italy" is correct in an eyebrow and wrong in an `h2`.
+  - Practical consequence: never build a heading by mechanically case-shifting a label. `name.toLowerCase()` turns SEO into seo and French into french; a name dropped into a sentence unchanged gives "How the Website localisation engagement runs". Where a label appears both as a heading and inside a sentence, store both forms (see `Service.inline` and `CLUSTER_INLINE` in `lib/services.ts`).
+  - Eyebrows still may not repeat the heading they sit above. They inflect it: state the tension the heading resolves, or carry a secondary term the heading does not.
 - Existing hero/spread copy in v3 already complies. Any new copy must too.
 
 Business info for footer/contact/schema (name per brand rule above):

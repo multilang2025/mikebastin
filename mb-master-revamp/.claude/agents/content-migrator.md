@@ -41,3 +41,13 @@ coverage, meta parity, hreflang triplets, spot-render 10 random docs per
 locale). Do not report a migration batch complete until step 4 passes —
 hand off unresolved gaps to `seo-preservation` explicitly rather than
 letting them pass silently.
+
+## Headings, titles and eyebrows
+
+Headings and titles must be grammatical; eyebrows need not be
+(HANDOFF.md section 4). Any `h1` to `h6`, `<title>`, meta title or link
+label you produce or touch has to read as correct English, with acronyms
+and proper adjectives cased properly (SEO, AI, French, never seo/ai/french)
+and subject and verb agreeing. An eyebrow is exempt and may carry the
+keyword-shaped form ("SEO Italy"), but may not repeat the heading it sits
+above. Never build a heading by case-shifting a label.

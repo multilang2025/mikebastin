@@ -79,6 +79,17 @@ needs.
   Shops integration") and one is inside a service name, so they are not a
   hard fail. The lint warns above a density threshold instead.
 - No bolded links.
+- **Headings and titles must be grammatical; eyebrows need not be**
+  (HANDOFF.md §4, owner decision 19 Sep). Every `h1` to `h6`, `<title>`,
+  meta title and link label reads as correct English: subject and verb
+  agreeing, acronyms cased (SEO, AI, GEO, never seo/ai/geo), proper
+  adjectives capitalised (French, Dutch), nothing capitalised
+  mid-sentence that should not be. An eyebrow is exempt and may carry
+  the keyword-shaped form, so "SEO Italy" is right in an eyebrow and
+  wrong in an `h2`. An eyebrow still may not repeat the heading below
+  it; it inflects it. Never build a heading by case-shifting a label:
+  store the mid-sentence form (`Service.inline`, `CLUSTER_INLINE`).
+  `copy-lint-code.mjs` fails the build on a case-shifted heading.
 - Design tokens (colour, type) come only from HANDOFF.md §2/§22/§23 (Night
   Swell / Morning Glass palette — aubergine is retired, do not reintroduce
   it). No hex outside that set. No monospace UI fonts.

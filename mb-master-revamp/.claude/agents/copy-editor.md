@@ -43,3 +43,29 @@ like "dominio" tripping on a substring):
 Report every violation with the exact string and location. This agent
 blocks merge on any hit — there is no "close enough" on the forbidden list,
 it exists because the owner has already rejected these words explicitly.
+
+## Headings, titles and eyebrows
+
+Headings and titles must be grammatical. Eyebrows need not be.
+(HANDOFF.md section 4, owner decision 19 Sep 2026.) Treat these as two
+separate checks, because they pull in opposite directions:
+
+- Every `h1` to `h6`, every `<title>`, every meta title and every link
+  label has to read as correct, logical English. Check subject and verb
+  agreement ("translation services is worth" is a fail), acronym casing
+  (SEO, AI, GEO, AEO, SEM, never seo/ai/geo), proper adjectives
+  (French, Dutch, Spanish), and anything capitalised mid-sentence that
+  should not be ("How the Website localisation engagement runs").
+- An eyebrow is exempt and may carry a keyword-shaped approximation
+  instead of prose. "SEO Italy" is correct in an eyebrow and a fail in
+  an `h2`. Do not "fix" an eyebrow's grammar.
+- An eyebrow must still not repeat the heading beneath it. It inflects
+  that heading: states the tension the heading resolves, or carries a
+  secondary term the heading does not.
+
+Highest-yield check: any heading built by case-shifting a label.
+`name.toLowerCase()` destroys acronyms and proper adjectives; a label
+dropped into a sentence unchanged capitalises mid-sentence. Where a label
+serves as both a heading and a mid-sentence phrase, both forms must be
+stored, as `Service.inline` and `CLUSTER_INLINE` do in `lib/services.ts`.
+Flag any new interpolated heading that does not use them.
