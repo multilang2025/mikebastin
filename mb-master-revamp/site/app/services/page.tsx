@@ -39,7 +39,7 @@ export default function ServicesIndex() {
       <section className="band band-a grain relative overflow-hidden pb-[clamp(56px,8vw,100px)] pt-[clamp(96px,14vw,160px)]">
         <div className="shell relative">
           <Reveal>
-            <p className="eyebrow mb-8">{SERVICES.length} services, five focus areas</p>
+            <p className="eyebrow mb-8">One page cannot rank for everything, so there are {SERVICES.length}</p>
           </Reveal>
           <Reveal i={1}>
             <h1 className="mb-6 max-w-[19ch] text-[clamp(2.3rem,5.6vw,4rem)] font-semibold leading-[1.08]">
