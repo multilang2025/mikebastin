@@ -1,6 +1,6 @@
 ---
 words: 1689
-title: "Global Business Trends in 2026: AI, Trade Policy, and What Drives Growth Now"
+title: "Global Business Trends: AI, Trade Policy and What Drives Growth Now"
 slug: "global-business-trends"
 locale: "en"
 type: "posts"
@@ -9,7 +9,7 @@ wpId: 36912
 date: "2020-03-27T15:58:17"
 modified: "2026-07-02T15:08:52"
 sourceUrl: "https://mikebastin.com/global-business-trends/"
-excerpt: "AI spending tripled to $37B in 2025. US tariffs hit levels not seen since 1946. Explore the trends, risks, and strategies shaping global business in 2026. Assess your international growth plan."
+excerpt: "AI spending tripled to $37B in 2025. US tariffs hit levels not seen since 1946. The trends, risks and strategies shaping global business now."
 ---
 
 ## Global Business in 2026: Growth, Uncertainty, and the AI Shift

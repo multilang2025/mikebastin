@@ -1,6 +1,6 @@
 ---
 words: 1243
-title: "Best Internal Linking Tools and WordPress Plugins for SEO Optimisation"
+title: "Internal Linking Tools and WordPress Plugins Worth Installing"
 slug: "internal-linking-tools"
 locale: "en"
 type: "posts"

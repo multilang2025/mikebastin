@@ -1,6 +1,6 @@
 ---
 words: 1309
-title: "10 LLMs Beyond ChatGPT Worth Knowing in 2026"
+title: "LLMs Beyond ChatGPT Worth Knowing"
 slug: "llms-beyond-giants-hidden-ai-models"
 locale: "en"
 type: "posts"

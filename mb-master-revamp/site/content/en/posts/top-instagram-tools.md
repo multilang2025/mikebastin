@@ -1,6 +1,6 @@
 ---
 words: 854
-title: "Top Instagram Tools"
+title: "Instagram Tools Worth the Subscription"
 slug: "top-instagram-tools"
 locale: "en"
 type: "posts"

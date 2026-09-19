@@ -1,6 +1,6 @@
 ---
 words: 1828
-title: "English to French Translation Services: The 2026 Guide"
+title: "What to Look For in English to French Translation Services"
 slug: "english-to-french-translation-services"
 locale: "en"
 type: "posts"

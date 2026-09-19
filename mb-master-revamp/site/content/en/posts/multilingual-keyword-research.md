@@ -1,6 +1,6 @@
 ---
 words: 668
-title: "The Ultimate Guide to Multilingual Keyword Research"
+title: "Keyword Research, Market by Market"
 slug: "multilingual-keyword-research"
 locale: "en"
 type: "posts"
