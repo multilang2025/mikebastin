@@ -130,6 +130,17 @@ export default function Home() {
           </Reveal>
 
           <Reveal i={3}>
+            <div className="mb-10 flex flex-wrap items-center gap-x-6 gap-y-4">
+              <Link href="/contact/" className="btn btn-primary btn-lg">
+                Book a discovery call
+              </Link>
+              <Link href="/results/" className="ulink text-[.98rem]">
+                See what the numbers did
+              </Link>
+            </div>
+          </Reveal>
+
+          <Reveal i={4}>
             <div className="flex flex-wrap items-center gap-x-3 gap-y-2 text-[.94rem]" style={{ color: "var(--dim)" }}>
               {["Ranking in EN", "Converting in FR", "Localised in ES", "Indexed in NL"].map((t, i) => (
                 <span key={t} className="flex items-center gap-3">
@@ -222,11 +233,12 @@ export default function Home() {
           <Reveal>
             <p className="eyebrow mb-3">What we do</p>
             <h2 className="mb-5 max-w-[26ch] text-[clamp(1.8rem,3.6vw,2.9rem)] font-semibold leading-[1.1]">
-              Multilingual SEO, localisation and AI consulting, in five clusters.
+              Multilingual SEO, localisation and AI consulting, measured in enquiries.
             </h2>
             <p className="mb-12 max-w-[56ch] text-[1.05rem]" style={{ color: "var(--dim)" }}>
-              Multilingual lead generation is the outcome. Everything below
-              is how we build it, and each one gets its own page.
+              Enquiries are the product. Everything below is a mechanism for
+              producing them, counted market by market rather than blended
+              into one number that hides which language is actually selling.
             </p>
           </Reveal>
 
