@@ -203,7 +203,7 @@ export const SERVICES: Service[] = [
     angle: "The primary market",
     lede: "France carries 1,850 of the 2,390 monthly searches measured across the whole francophone core, at a difficulty score of 0 to 2. Belgium and Switzerland are where the network is, not where the search volume is.",
     metaTitle: "French SEO services, Mike Bastin",
-    metaDescription: "France carries most of the francophone search volume in this market, at low difficulty. See what a proper French SEO engagement covers.",
+    metaDescription: "France carries most of the francophone search volume in this market. See what a proper French SEO engagement covers, market by market.",
     sections: ["Three ways to fail at French SEO", ...ENGAGEMENT],
     body: [
       {
@@ -399,8 +399,8 @@ export const SERVICES: Service[] = [
     cluster: "Search",
     angle: "Off-site, one location at a time",
     lede: "Google Business Profile, citations, NAP consistency and the map pack, for multilingual cities where the same street gets searched in more than one language. Discipline and consistency, not tricks.",
-    metaTitle: "Local SEO and Google Business Profile",
-    metaDescription: "Local SEO measures the highest search volume of any service here, though the head term is the hardest to rank. See the Google Business Profile work behind it.",
+    metaTitle: "Local SEO services and Google Business Profile",
+    metaDescription: "Google Business Profile, citations and NAP consistency for multilingual cities, where the same street gets searched in more than one language.",
     sections: [
       "Google Business Profile audit and full optimisation",
       "Citation cleanup and NAP consistency across directories",
@@ -589,13 +589,13 @@ export const SERVICES: Service[] = [
 
   {
     slug: "generative-engine-optimization",
-    name: "GEO and AEO",
+    name: "Generative engine optimisation",
     cluster: "AI",
     pillar: true,
     angle: "Cited inside the answer, not just ranked below it",
     lede: "ChatGPT, Perplexity and Google's AI Overviews answer a question directly and name a small number of sources while doing it. Structured data, citation-worthy claims and a presence across the platforms people actually ask, so the answer names you.",
-    metaTitle: "GEO and AEO: cited by AI answers",
-    metaDescription: "ChatGPT and Google AI Overviews name a small number of sources, and GEO and AEO terms already draw real search volume of their own. See what it takes to be named.",
+    metaTitle: "Generative engine optimisation and AEO, Mike Bastin",
+    metaDescription: "ChatGPT, Perplexity and Google AI Overviews name a small number of sources when they answer a question. See what it takes for the answer to name you.",
     sections: [
       "Answer-shaped content: claims a model can quote and cite",
       "Schema and structured data built for AI retrieval, not just crawlers",
