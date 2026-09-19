@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import Reveal from "@/components/Reveal";
 import Counter from "@/components/Counter";
@@ -5,6 +6,40 @@ import Spread from "@/components/Spread";
 import { PROJECTS } from "@/lib/projects";
 import Testimonials from "@/components/Testimonials";
 import SiteFooter from "@/components/SiteFooter";
+import { SITE_URL } from "@/lib/schema";
+
+// The homepage previously inherited the root layout's metadata, which is the
+// whole-site fallback rather than anything aimed at a query. It now carries
+// its own. Targets are the entity-level terms, since the head term
+// "international SEO" (2,100 UK, 10,000 global, KD 34 per Ahrefs, 19 Aug 2026)
+// already belongs to /services/multilingual-seo/ and duplicating it here would
+// put two of our own pages in the same result.
+const TITLE = "Multilingual SEO and localisation consultancy, Mike Bastin";
+const DESCRIPTION =
+  "International SEO consultancy from Valencia. Multilingual SEO, website localisation and AI consulting for businesses selling in languages they do not think in.";
+
+export const metadata: Metadata = {
+  title: TITLE,
+  description: DESCRIPTION,
+  alternates: { canonical: `${SITE_URL}/` },
+  // og:image comes from the colocated app/opengraph-image.tsx, not an
+  // `images` array here, so the card can never drift from the file that
+  // renders it. `robots` is deliberately absent: the preview-only noindex
+  // in app/layout.tsx is inherited and must stay inherited.
+  openGraph: {
+    type: "website",
+    siteName: "Mike Bastin",
+    locale: "en_GB",
+    url: `${SITE_URL}/`,
+    title: TITLE,
+    description: DESCRIPTION,
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: TITLE,
+    description: DESCRIPTION,
+  },
+};
 
 
 const STATS = [
@@ -104,17 +139,17 @@ export default function Home() {
         <div className="shell relative">
           <Reveal>
             <p className="eyebrow mb-10">
-              Reading the swell for twenty-five years, in four languages
+              International SEO consultancy, reading the swell in four languages
             </p>
           </Reveal>
 
           <Reveal i={1}>
             {/* leading needs headroom: the italic descenders on "Converting"
                 collide with the lede at anything tighter than ~1.08 */}
-            <h1 className="mb-9 max-w-[16ch] pb-[.06em] text-[clamp(2.7rem,7.4vw,5.6rem)] font-semibold leading-[1.08]">
-              Ranking is one language.
+            <h1 className="mb-9 max-w-[19ch] pb-[.06em] text-[clamp(2.7rem,7.4vw,5.6rem)] font-semibold leading-[1.08]">
+              Multilingual SEO that ranks.
               <br />
-              <span className="shimmer">Converting is another.</span>
+              <span className="shimmer">Localisation that converts.</span>
             </h1>
           </Reveal>
 
@@ -123,9 +158,9 @@ export default function Home() {
               className="mb-10 max-w-[54ch] text-[clamp(1.05rem,1.65vw,1.24rem)] leading-[1.58]"
               style={{ color: "var(--dim)" }}
             >
-              Multilingual SEO, localisation and AI consulting from Valencia.
-              Twenty-five years of watching what actually works when a business
-              tries to sell in a language it does not think in.
+              Twenty-five years of multilingual SEO, website localisation and
+              AI consulting from Valencia, watching what actually works when a
+              business tries to sell in a language it does not think in.
             </p>
           </Reveal>
 
