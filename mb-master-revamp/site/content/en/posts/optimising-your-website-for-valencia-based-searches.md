@@ -1,6 +1,6 @@
 ---
 words: 2322
-title: "Optimising Your Website for Valencia-Based Searches"
+title: "Optimising your website for Valencia-based searches"
 slug: "optimising-your-website-for-valencia-based-searches"
 locale: "en"
 type: "posts"

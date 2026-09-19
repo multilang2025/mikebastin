@@ -1,6 +1,6 @@
 ---
 words: 1309
-title: "LLMs Beyond ChatGPT Worth Knowing"
+title: "LLMs beyond ChatGPT worth knowing"
 slug: "llms-beyond-giants-hidden-ai-models"
 locale: "en"
 type: "posts"

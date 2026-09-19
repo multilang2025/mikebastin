@@ -1,6 +1,6 @@
 ---
 words: 1901
-title: "Chrome Extensions for Translators, and What Each One Saves"
+title: "Chrome extensions for translators, and what each one saves"
 slug: "chrome-extensions-for-translators"
 locale: "en"
 type: "posts"

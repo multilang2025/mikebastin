@@ -1,6 +1,6 @@
 ---
 words: 1828
-title: "What to Look For in English to French Translation Services"
+title: "What to look for in English to French translation services"
 slug: "english-to-french-translation-services"
 locale: "en"
 type: "posts"

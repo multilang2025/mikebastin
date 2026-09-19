@@ -1,6 +1,6 @@
 ---
 words: 831
-title: "How AI is Transforming Translation and Localisation"
+title: "How AI is transforming translation and localisation"
 slug: "how-ai-is-transforming-translation-and-localisation"
 locale: "en"
 type: "posts"

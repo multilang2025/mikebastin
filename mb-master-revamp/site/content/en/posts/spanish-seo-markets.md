@@ -1,6 +1,6 @@
 ---
 words: 820
-title: "Why Spanish SEO Is Not Optional"
+title: "Why Spanish SEO is not optional"
 slug: "spanish-seo-markets"
 locale: "en"
 type: "posts"

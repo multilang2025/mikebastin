@@ -1,6 +1,6 @@
 ---
 words: 1076
-title: "Affiliate Marketing Programs Worth the Setup Time"
+title: "Affiliate marketing programs worth the setup time"
 slug: "affiliate-marketing-programs"
 locale: "en"
 type: "posts"

@@ -1,6 +1,6 @@
 ---
 words: 1051
-title: "Ranking Is No Longer Where Multilingual SEO Ends"
+title: "Ranking is no longer where multilingual SEO ends"
 slug: "best-practices-for-multilingual-seo"
 locale: "en"
 type: "posts"

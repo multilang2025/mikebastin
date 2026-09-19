@@ -1,7 +1,7 @@
 ---
 words: 585
 editorial: "light"
-title: "Google Analytics Alternatives, and When Each One Fits"
+title: "Google Analytics alternatives, and when each one fits"
 slug: "alternatives-to-google-analytics"
 locale: "en"
 type: "posts"

@@ -1,6 +1,6 @@
 ---
 words: 2753
-title: "Where SEO Goes Next: AI, GEO and What Actually Works"
+title: "Where SEO goes next: AI, GEO and what actually works"
 slug: "future-of-seo"
 locale: "en"
 type: "posts"

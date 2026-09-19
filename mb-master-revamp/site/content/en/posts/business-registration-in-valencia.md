@@ -1,6 +1,6 @@
 ---
 words: 1421
-title: "Streamlining the Business Registration Process in Valencia"
+title: "Streamlining the business registration process in Valencia"
 slug: "business-registration-in-valencia"
 locale: "en"
 type: "posts"

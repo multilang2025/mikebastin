@@ -1,6 +1,6 @@
 ---
 words: 1668
-title: "Technical SEO for Spanish Search Engines"
+title: "Technical SEO for Spanish search engines"
 slug: "technical-seo-for-spanish-search-engines"
 locale: "en"
 type: "posts"

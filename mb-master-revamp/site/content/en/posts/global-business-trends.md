@@ -1,6 +1,6 @@
 ---
 words: 1689
-title: "Global Business Trends: AI, Trade Policy and What Drives Growth Now"
+title: "Global business trends: AI, trade policy and what drives growth now"
 slug: "global-business-trends"
 locale: "en"
 type: "posts"

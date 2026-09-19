@@ -1,6 +1,6 @@
 ---
 words: 1157
-title: "Spanish On-Page SEO"
+title: "Spanish on-page SEO"
 slug: "spanish-on-page-seo"
 locale: "en"
 type: "posts"

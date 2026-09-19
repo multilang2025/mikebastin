@@ -1,6 +1,6 @@
 ---
 words: 894
-title: "AI-Powered Marketing"
+title: "AI-powered marketing"
 slug: "ai-powered-marketing"
 locale: "en"
 type: "posts"

@@ -1,7 +1,7 @@
 ---
 words: 572
 editorial: "light"
-title: "Website Localisation Mistakes That Cost You the Market"
+title: "Website localisation mistakes that cost you the market"
 slug: "common-mistakes-to-avoid-when-localising-your-website"
 locale: "en"
 type: "posts"

@@ -1,6 +1,6 @@
 ---
 words: 1416
-title: "Link Selling and Link Buying Platforms"
+title: "Link selling and link buying platforms"
 slug: "link-selling-and-link-buying-platforms"
 locale: "en"
 type: "posts"

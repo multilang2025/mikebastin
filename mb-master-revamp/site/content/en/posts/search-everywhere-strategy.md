@@ -1,6 +1,6 @@
 ---
 words: 1133
-title: "Search Everywhere, the Strategy That Replaced Ranking"
+title: "Search everywhere, the strategy that replaced ranking"
 slug: "search-everywhere-strategy"
 locale: "en"
 type: "posts"

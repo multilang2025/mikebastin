@@ -1,6 +1,6 @@
 ---
 words: 709
-title: "Chrome Extensions That Earn Their Place in an SEO Workflow"
+title: "Chrome extensions that earn their place in an SEO workflow"
 slug: "chrome-extensions-for-seo"
 locale: "en"
 type: "posts"

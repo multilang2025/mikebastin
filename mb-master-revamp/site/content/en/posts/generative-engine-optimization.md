@@ -1,6 +1,6 @@
 ---
 words: 849
-title: "Search Engine Optimization is Dead? Long Live Generative Engine Optimization (GEO)"
+title: "Search engine optimisation is dead? Long live generative engine optimisation (GEO)"
 slug: "generative-engine-optimization"
 locale: "en"
 type: "posts"

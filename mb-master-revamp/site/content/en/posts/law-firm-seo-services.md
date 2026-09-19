@@ -1,6 +1,6 @@
 ---
 words: 2766
-title: "Law Firm SEO Services"
+title: "Law firm SEO services"
 slug: "law-firm-seo-services"
 locale: "en"
 type: "posts"
