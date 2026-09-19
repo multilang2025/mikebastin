@@ -52,6 +52,16 @@ export default async function BlogPostPage({
   const service = post.relatedService ? getService(post.relatedService) : undefined;
   const url = `${SITE_URL}/blog/${post.slug}/`;
 
+  // Bands alternate strictly A/B/A/B (HANDOFF.md §23): the hero is always
+  // band-a, and every section after it flips, so no two same-surface bands
+  // ever end up touching.
+  let band: "a" | "b" = "a";
+  const nextBand = () => (band = band === "a" ? "b" : "a");
+  const coverBand = nextBand();
+  const bodyBand = nextBand();
+  const ctaBand = nextBand();
+  const footerBand = nextBand();
+
   return (
     <main>
       <JsonLd
@@ -107,7 +117,7 @@ export default async function BlogPostPage({
       </section>
 
       {/* ============ COVER ============ */}
-      <section className="band band-a pb-[clamp(48px,7vw,90px)]">
+      <section className={`band band-${coverBand} pb-[clamp(48px,7vw,90px)]`}>
         <div className="shell">
           <Reveal>
             <img
@@ -125,7 +135,7 @@ export default async function BlogPostPage({
       </section>
 
       {/* ============ BODY ============ */}
-      <section className="band band-b py-[clamp(48px,7vw,90px)]">
+      <section className={`band band-${bodyBand} py-[clamp(48px,7vw,90px)]`}>
         <div className="shell">
           <Reveal>
             <div
@@ -136,26 +146,46 @@ export default async function BlogPostPage({
         </div>
       </section>
 
-      {/* ============ RELATED SERVICE ============ */}
-      {service && (
-        <section className="band band-a py-[clamp(48px,7vw,90px)]">
-          <div className="shell">
-            <Reveal>
-              <p className="eyebrow mb-3">The service this feeds</p>
-              <h2 className="max-w-[30ch] text-[clamp(1.3rem,2.6vw,1.9rem)] font-semibold leading-[1.15]">
-                <Link href={`/services/${service.slug}/`} className="ulink display">
-                  {service.name}
+      {/* ============ CTA ============ */}
+      <section className={`band band-${ctaBand} py-[clamp(56px,8vw,110px)]`}>
+        <div className="shell">
+          <Reveal>
+            <p className="eyebrow mb-3">Where this leads</p>
+            <h2 className="mb-5 max-w-[28ch] text-[clamp(1.5rem,2.8vw,2.1rem)] font-semibold leading-[1.15]">
+              {service
+                ? `See what ${service.name} looks like on your site`
+                : "Talk through what this means for your site"}
+            </h2>
+          </Reveal>
+          <Reveal i={1}>
+            <p className="mb-8 max-w-[58ch] text-[1.02rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
+              We start with a thirty minute call on your markets, what
+              already ranks and what has already been tried. Questions come
+              before recommendations, and what comes back afterwards is a
+              written scope naming real pages and deliverables, never a
+              quote with plan tiers.
+            </p>
+          </Reveal>
+          <Reveal i={2}>
+            <div className="flex flex-wrap items-center gap-x-6 gap-y-4">
+              <Link href="/contact/" className="btn btn-primary btn-lg">
+                Book the discovery call
+              </Link>
+              {service ? (
+                <Link href={`/services/${service.slug}/`} className="ulink text-[.98rem]">
+                  View {service.name}
                 </Link>
-              </h2>
-              <p className="mt-3 max-w-[60ch] text-[1rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
-                {service.lede}
-              </p>
-            </Reveal>
-          </div>
-        </section>
-      )}
+              ) : (
+                <Link href="/services/" className="ulink text-[.98rem]">
+                  Browse all services
+                </Link>
+              )}
+            </div>
+          </Reveal>
+        </div>
+      </section>
 
-      <SiteFooter />
+      <SiteFooter band={footerBand} />
     </main>
   );
 }
