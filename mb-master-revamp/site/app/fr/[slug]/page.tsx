@@ -4,18 +4,19 @@ import Link from "next/link";
 import Reveal from "@/components/Reveal";
 import SiteFooter from "@/components/SiteFooter";
 import JsonLd from "@/components/JsonLd";
-import { getPosts, getPost, postHreflang, HAND_BUILT_SLUGS } from "@/lib/posts";
-import { getService } from "@/lib/services";
-import { getPostMetaDescription, postMetaTitle } from "@/lib/seo";
+import LocaleHtmlLang from "@/components/LocaleHtmlLang";
+import { getPostsForLocale, getPostForLocale, postHreflang } from "@/lib/posts";
+import { postMetaTitle } from "@/lib/seo";
 import { SITE_URL, blogPostingSchema, breadcrumbSchema } from "@/lib/schema";
 
-// competitor-analysis-traffic-checklist has its own hand-built route at
-// app/competitor-analysis-traffic-checklist/ (see lib/posts.ts). Excluded
-// here so the static export does not try to emit the same path twice.
+const LOCALE = "fr" as const;
+
+// The 18 FR posts qualifying for a live page per redirects/content-map.json
+// (`type: "post"`, `action: "migrate"`, `destination: "mdx"`, an `fr` entry).
+// Flat at /fr/<slug>/, matching each post's own sourceUrl frontmatter and
+// the pre-existing WordPress URL structure -- no /fr/blog/ segment.
 export function generateStaticParams() {
-  return getPosts()
-    .filter((p) => !HAND_BUILT_SLUGS.includes(p.slug))
-    .map((p) => ({ slug: p.slug }));
+  return getPostsForLocale(LOCALE).map((p) => ({ slug: p.slug }));
 }
 
 export async function generateMetadata({
@@ -24,50 +25,49 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
-  const post = getPost(slug);
+  const post = getPostForLocale(LOCALE, slug);
   if (!post) return {};
   const languages = postHreflang(post.group);
   return {
     title: postMetaTitle(post.title),
-    description: getPostMetaDescription(post),
+    description: post.excerpt,
     ...(languages ? { alternates: { languages } } : {}),
   };
 }
 
 function formatDate(iso: string) {
-  return new Date(iso).toLocaleDateString("en-GB", {
+  return new Date(iso).toLocaleDateString("fr-FR", {
     day: "numeric",
     month: "long",
     year: "numeric",
   });
 }
 
-export default async function BlogPostPage({
+export default async function FrenchBlogPostPage({
   params,
 }: {
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const post = getPost(slug);
+  const post = getPostForLocale(LOCALE, slug);
   if (!post) notFound();
 
-  const service = post.relatedService ? getService(post.relatedService) : undefined;
-  const url = `${SITE_URL}/blog/${post.slug}/`;
+  const url = `${SITE_URL}/fr/${post.slug}/`;
 
   return (
     <main>
+      <LocaleHtmlLang lang="fr" />
       <JsonLd
         data={[
           blogPostingSchema({
             headline: post.title,
-            description: getPostMetaDescription(post),
+            description: post.excerpt,
             datePublished: post.date,
             dateModified: post.modified,
             url,
           }),
           breadcrumbSchema([
-            { name: "Home", url: `${SITE_URL}/` },
-            { name: "Journal", url: `${SITE_URL}/blog/` },
+            { name: "Accueil", url: `${SITE_URL}/` },
             { name: post.title, url },
           ]),
         ]}
@@ -76,27 +76,18 @@ export default async function BlogPostPage({
       <section className="band band-a grain relative overflow-hidden pb-[clamp(48px,7vw,84px)] pt-[clamp(96px,14vw,160px)]">
         <div className="shell relative">
           <Reveal>
-            <Link href="/blog/" className="ulink mb-8 inline-block text-[.9rem]" style={{ color: "var(--dim)" }}>
-              Journal
-            </Link>
-          </Reveal>
-          <Reveal i={1}>
-            <p className="eyebrow mb-5">{post.cluster}</p>
-          </Reveal>
-          <Reveal i={2}>
             <h1 className="mb-6 max-w-[26ch] text-[clamp(2rem,4.8vw,3.4rem)] font-semibold leading-[1.1]">
               {post.title}
             </h1>
           </Reveal>
-          <Reveal i={3}>
+          <Reveal i={1}>
             <p className="max-w-[62ch] text-[clamp(1rem,1.4vw,1.15rem)] leading-[1.58]" style={{ color: "var(--dim)" }}>
               {post.excerpt}
             </p>
           </Reveal>
-          <Reveal i={4}>
+          <Reveal i={2}>
             <p className="mt-6 flex flex-wrap items-center gap-x-3 gap-y-1 text-[.78rem] uppercase tracking-[.11em]" style={{ color: "var(--dim)" }}>
               <span>
-                Written by{" "}
                 <Link href="/" className="ulink" style={{ color: "var(--dim)" }}>
                   Mike Bastin
                 </Link>
@@ -104,24 +95,6 @@ export default async function BlogPostPage({
               <i className="block h-[3px] w-[3px] rounded-full" style={{ background: "var(--berry)" }} />
               <span>{formatDate(post.date)}</span>
             </p>
-          </Reveal>
-        </div>
-      </section>
-
-      {/* ============ COVER ============ */}
-      <section className="band band-a pb-[clamp(48px,7vw,90px)]">
-        <div className="shell">
-          <Reveal>
-            <img
-              src={`/images/blog/${post.slug}.png`}
-              alt={post.title}
-              width={1200}
-              height={630}
-              loading="lazy"
-              decoding="async"
-              className="aspect-[1200/630] w-full rounded-[4px] border object-cover"
-              style={{ borderColor: "var(--rule)" }}
-            />
           </Reveal>
         </div>
       </section>
@@ -137,25 +110,6 @@ export default async function BlogPostPage({
           </Reveal>
         </div>
       </section>
-
-      {/* ============ RELATED SERVICE ============ */}
-      {service && (
-        <section className="band band-a py-[clamp(48px,7vw,90px)]">
-          <div className="shell">
-            <Reveal>
-              <p className="eyebrow mb-3">The service this feeds</p>
-              <h2 className="max-w-[30ch] text-[clamp(1.3rem,2.6vw,1.9rem)] font-semibold leading-[1.15]">
-                <Link href={`/services/${service.slug}/`} className="ulink display">
-                  {service.name}
-                </Link>
-              </h2>
-              <p className="mt-3 max-w-[60ch] text-[1rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
-                {service.lede}
-              </p>
-            </Reveal>
-          </div>
-        </section>
-      )}
 
       <SiteFooter />
     </main>
