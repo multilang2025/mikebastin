@@ -1,6 +1,6 @@
 "use client";
 
-import { motion, useReducedMotion } from "motion/react";
+import type { CSSProperties } from "react";
 
 const ROWS = [
   { type: "Services", en: 43, fr: 44, es: 43, note: "Complete in all three" },
@@ -9,7 +9,6 @@ const ROWS = [
 ];
 
 export default function LocaleTable() {
-  const still = useReducedMotion();
 
   return (
     <div className="overflow-x-auto">
@@ -31,13 +30,10 @@ export default function LocaleTable() {
         </thead>
         <tbody>
           {ROWS.map((r, i) => (
-            <motion.tr
+            <tr
               key={r.type}
-              initial={still ? false : { opacity: 0, x: -14 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true, margin: "-10%" }}
-              transition={{ duration: 0.6, delay: i * 0.1 }}
-              className="group"
+              className="reveal group"
+              style={{ "--rd": `${(i * 0.1).toFixed(2)}s`, "--ry": "0px", "--rx": "-14px" } as CSSProperties}
             >
               <td
                 className="border-b py-3.5 pr-4 font-medium transition-colors duration-300 group-hover:text-[var(--berry)]"
@@ -67,7 +63,7 @@ export default function LocaleTable() {
               >
                 {r.note}
               </td>
-            </motion.tr>
+            </tr>
           ))}
         </tbody>
       </table>

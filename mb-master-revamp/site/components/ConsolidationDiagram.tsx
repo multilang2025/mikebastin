@@ -2,6 +2,7 @@
 
 import { motion, useReducedMotion } from "motion/react";
 import { useState } from "react";
+import type { CSSProperties } from "react";
 import { SERVICES } from "@/lib/services";
 
 /**
@@ -40,12 +41,10 @@ export default function ConsolidationDiagram() {
       {CLUSTERS.map((c, ci) => {
         const isOpen = open === c.id;
         return (
-          <motion.div
+          <div
             key={c.id}
-            initial={still ? false : { opacity: 0, y: 18 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: "-10%" }}
-            transition={{ duration: 0.7, delay: ci * 0.09, ease: [0.22, 0.7, 0.28, 1] }}
+            className="reveal"
+            style={{ "--rd": `${(ci * 0.09).toFixed(2)}s`, "--ry": "18px" } as CSSProperties}
           >
             <button
               onClick={() => setOpen(isOpen ? null : c.id)}
@@ -125,7 +124,7 @@ export default function ConsolidationDiagram() {
                 </div>
               </motion.div>
             </button>
-          </motion.div>
+          </div>
         );
       })}
     </div>
