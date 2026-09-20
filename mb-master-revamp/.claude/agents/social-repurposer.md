@@ -49,3 +49,9 @@ above. Never build a heading by case-shifting a label.
 Sentence case everywhere. Capitalise the first word, proper nouns and
 acronyms only. Title Case is a fail, including on a title carried over
 from WordPress: convert it, protecting the acronyms, never keep it.
+
+## Findings from the H1 audit (19 Sep 2026)
+
+Do not carry an unsupported absolute into a post. "The strategy that
+replaced ranking", "the perfect campaign" and "SEO is dead" read worse
+off-site than on. Lead with the decision or mechanism instead.

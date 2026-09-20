@@ -50,3 +50,11 @@ one is read aloud verbatim. Check headings as announced, not just as seen.
 Sentence case everywhere. Capitalise the first word, proper nouns and
 acronyms only. Title Case is a fail, including on a title carried over
 from WordPress: convert it, protecting the acronyms, never keep it.
+
+## Findings from the H1 audit (19 Sep 2026)
+
+- The blog cover cards carry `alt` text repeating the h1 immediately above
+  them, so a screen reader announces the title twice. A decorative card
+  that duplicates adjacent text takes `alt=""`.
+- "Uncategorised" is announced as a real heading-adjacent label on twelve
+  posts.

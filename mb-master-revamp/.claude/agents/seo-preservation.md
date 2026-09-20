@@ -49,3 +49,25 @@ above. Never build a heading by case-shifting a label.
 Sentence case everywhere. Capitalise the first word, proper nouns and
 acronyms only. Title Case is a fail, including on a title carried over
 from WordPress: convert it, protecting the acronyms, never keep it.
+
+## Findings from the H1 audit (19 Sep 2026)
+
+- **A relocation is not done until every locale in the group is resolved.**
+  Ten French and one Spanish Valencia post remain on mikebastin.com after
+  their English siblings moved to valenciamove.com. Treat a part-resolved
+  group as a redirect gap, not as a content question.
+- **An eyebrow may carry a keyword the H1 does not**, so read the pair when
+  judging what a page targets. On /services/italian-seo/ the eyebrow term
+  "seo italy" draws 150 UK searches a month against 20 for the H1's
+  "italian seo".
+
+## Auditing discipline (added 19 Sep 2026)
+
+- **Verify a mechanical extraction against ground truth before drawing any
+  conclusion from it.** The first run of the H1 audit matched eyebrows only
+  up to `</p>`, and the service template closes on `</span>`, so 18 of 20
+  service eyebrows arrived empty. The analysis that followed was confidently
+  wrong about the site while being accurate about the data it was given.
+- **Filter an external model's output through the house rules.** A French
+  rewrite suggested in that audit reintroduced a year stamp that the same
+  day's decision had removed from every title.

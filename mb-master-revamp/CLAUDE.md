@@ -18,7 +18,7 @@ URL inventory of record (redirect coverage baseline): [`docs/sitemap-MB-EN.txt`]
 
 ## Stack (CLOSED, per HANDOFF.md §25 — supersedes §14/§17)
 
-Next.js 15 (App Router), content as MDX files in the repo. **No database and
+Next.js 16 (App Router; 16.3.0 as installed), content as MDX files in the repo. **No database and
 no CMS.** Payload was removed: it proved too complicated for an owner who
 edits the site himself, and it brought a database, an admin UI, a schema to
 maintain, and a migration into it. Removing it removes all four.
@@ -42,10 +42,15 @@ Same model as valenciamove.com, which the owner already runs at larger scale
   the Netherlands), is planned once these three ship — see
   CONTENT-ARCHITECTURE.md §2. Don't build for it early; the directory
   structure already scales to it without rework.
-- **Media:** `/public/images/`, optimised by Next/Image at build. No media
-  library, no object storage.
-- **Redirects:** `next.config.js` `redirects()`, generated from
-  `content-map.json`. Never hand-maintained.
+- **Media:** `/public/images/`, no media library and no object storage. Most
+  images go through Next/Image, but the generated blog cover cards in
+  `/public/images/blog/` are rendered ahead of time by
+  `scripts/gen-blog-covers.mjs` and served through a plain `<img>`, so they
+  are not optimised at build.
+- **Redirects:** `site/public/.htaccess`, generated from `content-map.json`
+  by the `scripts/gen-*-redirects.mjs` family. Never hand-maintained. Not
+  `next.config` `redirects()`, which never runs under `output: "export"`;
+  the config carries no `redirects()` block at all.
 - **Hosting:** Vercel. Hostinger is viable too, since valenciamove.com runs
   there, so this is reversible rather than load-bearing.
 

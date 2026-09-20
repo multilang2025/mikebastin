@@ -96,3 +96,13 @@ above. Never build a heading by case-shifting a label.
 Sentence case everywhere. Capitalise the first word, proper nouns and
 acronyms only. Title Case is a fail, including on a title carried over
 from WordPress: convert it, protecting the acronyms, never keep it.
+
+## Findings from the H1 audit (19 Sep 2026)
+
+- **Reject a taxonomy label rendered as an eyebrow.** "Uncategorised" was
+  live on twelve posts, the blog index and twelve generated cover cards.
+  Navigation categories ("SEO fundamentals", "Language markets") sit above
+  an H1 without inflecting it and fail the eyebrow rule.
+- **A generated image that repeats its own adjacent heading is duplication.**
+  The blog cover cards render the post title directly below the h1 that
+  already states it, and the alt text repeats it a third time.

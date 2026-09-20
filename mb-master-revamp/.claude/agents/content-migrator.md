@@ -55,3 +55,18 @@ above. Never build a heading by case-shifting a label.
 Sentence case everywhere. Capitalise the first word, proper nouns and
 acronyms only. Title Case is a fail, including on a title carried over
 from WordPress: convert it, protecting the acronyms, never keep it.
+
+## Findings from the H1 audit (19 Sep 2026)
+
+- **A relocation covers every locale, not just English.** Ten French and
+  one Spanish Valencia lifestyle post are still live on mikebastin.com
+  while their English siblings were migrated to valenciamove.com. When a
+  group relocates, retires or is absorbed, resolve every locale in that
+  group or record an explicit decision to keep the sibling.
+- **Never let a CMS taxonomy default reach a rendered page.**
+  "Uncategorised" shipped as the visible eyebrow on twelve posts, the blog
+  index and twelve generated cover cards. A default is a gap in the source
+  data, so fix the data rather than rendering the placeholder.
+- **Convert Title Case rather than keeping it.** WordPress titles arrive in
+  Title Case and the site is sentence case throughout. Convert, protecting
+  acronyms and proper nouns; a blind lowercase turns SEO into seo.
