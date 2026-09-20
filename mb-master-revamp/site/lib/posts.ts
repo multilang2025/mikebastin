@@ -179,7 +179,12 @@ const CLUSTERS: {
       "how-to-create-a-targeted-content-strategy",
       "how-to-promote-your-local-business-on-google-maps",
       "law-firm-seo-services",
+      "eeat-vs-aeat-typo",
+      "optimising-your-website-for-valencia-based-searches",
     ],
+    overrides: {
+      "optimising-your-website-for-valencia-based-searches": "local-seo",
+    },
   },
   {
     name: "Language industry",
@@ -200,6 +205,28 @@ const CLUSTERS: {
       "most-popular-marketing-strategies",
       "digital-marketing-advisor",
       "french-ppc-campaign",
+    ],
+  },
+  {
+    // Twelve posts had no cluster and fell through to UNCATEGORISED, which
+    // then rendered as a visible eyebrow on each post, on the blog index and
+    // on twelve generated cover cards. Ten of them are genuinely general
+    // business and marketing writing rather than multilingual SEO, so they
+    // get an honest cluster of their own rather than a placeholder. The
+    // other two went to SEO fundamentals, where they always belonged.
+    name: "Business and marketing",
+    service: "lead-generation",
+    posts: [
+      "360-marketing-agency",
+      "affiliate-marketing-programs",
+      "best-vietnam-sourcing-agencies-for-eudr-supplier-scouting-and-audits",
+      "business-registration-in-valencia",
+      "global-business-trends",
+      "how-to-write-about-your-professional-background",
+      "human-creator-economy",
+      "mastering-the-art-of-networking",
+      "top-instagram-tools",
+      "15-simple-blog-post-ideas-to-help-attract-more-customers-to-your-business",
     ],
   },
 ];
