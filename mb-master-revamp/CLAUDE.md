@@ -198,10 +198,16 @@ own fee. Carried from the legacy multilingual-sem page, confirmed by the
 owner, and now on three pages: multilingual-sem, lead-generation and
 how-i-work.
 
-Deliberately **not** extended to translation or localisation delivery. The
-claim as written is about media spend, and whether anything similar is
-true of work passing through the BeTranslated network is not something the
-legacy pages say. Ask before widening it.
+**It covers media spend and nothing else** (owner, 20 Sep, asked
+directly). Translation and localisation through the BeTranslated network
+are quoted as a price for the work rather than passed through at cost, so
+the no-markup line must never be written in a way that implies otherwise.
+
+`/how-i-work/` says both halves out loud, because the question there is
+"how is it billed" and answering it only with the media-spend half invited
+exactly the wrong inference. Stating the boundary is also the stronger
+position: an agency vague about which costs are passed through and which
+are priced usually has a reason to be.
 
 **FR and ES are deferred** (owner, 20 Sep). Do not build new French or
 Spanish surfaces for now. Flagged rather than forgotten, so the gaps are

@@ -71,7 +71,7 @@ const QUESTIONS = [
   },
   {
     q: "How is it billed",
-    a: "Management is a fee of its own. Where an engagement includes paid search, the media budget goes straight to Google, Microsoft or Meta rather than through us, so there is no markup on spend and no reason for our recommendation to be a bigger budget. Separating the two means the incentive tracks whether the work pays rather than how much of it there is.",
+    a: "Management is a fee of its own. Where an engagement includes paid search, the media budget goes straight to Google, Microsoft or Meta rather than through us, so there is no markup on spend and no reason for our recommendation to be a bigger budget. That arrangement is specific to media spend: translation and localisation running through the BeTranslated network are quoted as a price for the work itself, not passed through at cost. Worth saying which is which, because an agency that is vague about it usually has a reason.",
   },
   {
     q: "How do we start",
