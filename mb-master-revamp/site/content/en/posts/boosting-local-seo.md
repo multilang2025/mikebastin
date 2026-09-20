@@ -160,7 +160,7 @@ Regularly review your GBP insights to monitor profile performance, including vie
 
 Use this data to refine your strategy, focusing on improving areas with lower engagement or conversion rates.
 
-[Profiles optimized based on insights see 35% more conversions](https://www.saffronedge.com/blog/what-are-the-benefits-of-using-google-my-business-for-your-local-seo/).
+[Profiles optimised based on insights see 35% more conversions](https://www.saffronedge.com/blog/what-are-the-benefits-of-using-google-my-business-for-your-local-seo/).
 
 #### Adjust Your Strategy Based on Data
 

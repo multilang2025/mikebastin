@@ -114,7 +114,7 @@ Silence.
 
 A presentation slide.
 
-“Optimizing AEAT for legal credibility.”
+“Optimising AEAT for legal credibility.”
 
 The client raises an eyebrow.
 
@@ -226,8 +226,8 @@ Save your documents.
 
 Sleep more.
 
-And never send an email promising AEAT optimization to a client.
+And never send an email promising AEAT optimisation to a client.
 
 Unless you really mean it.
 
-## If you enjoyed this painfully familiar story, follow our work on [international SEO strategy](/blog/best-practices-for-multilingual-seo/) and multilingual content optimization. More real life SEO survival stories coming soon. You are not alone in the acronym battlefield.
+## If you enjoyed this painfully familiar story, follow our work on [international SEO strategy](/blog/best-practices-for-multilingual-seo/) and multilingual content optimisation. More real life SEO survival stories coming soon. You are not alone in the acronym battlefield.

@@ -408,7 +408,7 @@ Like Google Translate
 
 Transformer Models
 
-High-tech language modeling
+High-tech language modelling
 
 Think GPT-3, BERT
 

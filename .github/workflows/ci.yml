@@ -61,3 +61,28 @@ jobs:
         # --graceful-warnings: annotate warnings but don't fail the job on them,
         # matching ignore_warnings_on_exit in phpcs.xml.dist.
         run: cs2pr --graceful-warnings ./phpcs-report.xml
+
+  site:
+    name: Site (build, types, copy)
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: mb-master-revamp/site
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: mb-master-revamp/site/package-lock.json
+
+      - name: Install
+        run: npm ci
+
+      # Everything a contributor runs locally, in the same order, so a green
+      # tick here means the same thing as a clean local run. Until now this
+      # workflow only checked the WordPress plugin, so a PR touching only the
+      # Next.js site went green without the site being built at all.
+      - name: Verify
+        run: npm run verify

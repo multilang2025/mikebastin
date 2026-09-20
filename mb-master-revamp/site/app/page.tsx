@@ -274,12 +274,14 @@ export default function Home() {
           <Reveal>
             <p className="eyebrow mb-3">What we do</p>
             <h2 className="mb-5 max-w-[26ch] text-[clamp(1.8rem,3.6vw,2.9rem)] font-semibold leading-[1.1]">
-              Multilingual SEO, localisation and AI consulting, measured in enquiries.
+              For companies already selling abroad, whose other languages underperform.
             </h2>
             <p className="mb-12 max-w-[56ch] text-[1.05rem]" style={{ color: "var(--dim)" }}>
-              Enquiries are the product. Everything below is a mechanism for
-              producing them, counted market by market rather than blended
-              into one number that hides which language is actually selling.
+              Ongoing multilingual SEO is the main engagement, with
+              localisation, paid search and AI consulting around it.
+              Enquiries are the product either way, counted market by market
+              rather than blended into one number that hides which language
+              is actually selling.
             </p>
           </Reveal>
 

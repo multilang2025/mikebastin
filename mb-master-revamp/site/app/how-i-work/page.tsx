@@ -70,6 +70,10 @@ const QUESTIONS = [
     a: "We scope and run the strategy directly. Native-language writing and translation go through named specialists, most through the BeTranslated network run for twenty years, never an anonymous freelancer pool.",
   },
   {
+    q: "How is it billed",
+    a: "Management is a fee of its own. Where an engagement includes paid search, the media budget goes straight to Google, Microsoft or Meta rather than through us, so there is no markup on spend and no reason for our recommendation to be a bigger budget. Separating the two means the incentive tracks whether the work pays rather than how much of it there is.",
+  },
+  {
     q: "How do we start",
     a: "A short brief on the contact page: which markets, which languages, and what has already been tried. We read every one and reply ourselves, usually within a working day.",
   },

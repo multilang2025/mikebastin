@@ -17,9 +17,9 @@ excerpt: "Certified and sworn translation services provide legally recognised tr
 
 Official and Certified Translation Services
 
-## Official and Certified Translation Services: Sworn, Notarized, and Legally Recognized
+## Official and Certified Translation Services: Sworn, Notarized, and Legally Recognised
 
-Need your critical legal, business, or personal papers officially translated? We’ve got you covered. Our team consists of expert translators who are officially certified, sworn, or registered to provide **legally recognized translations**.
+Need your critical legal, business, or personal papers officially translated? We’ve got you covered. Our team consists of expert translators who are officially certified, sworn, or registered to provide **legally recognised translations**.
 
 Whether you need an **Official Translation** for your **Birth Certificate**, require a document **Notarized** for a corporate filing, or are submitting papers for immigration (**USCIS Translation**), we ensure every word is accurate, compliant, and legally legit. We handle everything from complex legal contracts and **Articles of Association** to essential personal documents.
 

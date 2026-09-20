@@ -108,7 +108,7 @@ When selecting a Google Analytics alternative, consider these factors:
 
 ### Conclusion
 
-While Google Analytics remains a powerful tool, the growing array of alternatives offers compelling options for businesses prioritizing privacy, simplicity, or specialized features.
+While Google Analytics remains a powerful tool, the growing array of alternatives offers compelling options for businesses prioritising privacy, simplicity, or specialized features.
 
 By carefully evaluating your needs and the available options, you can find an analytics solution that provides valuable insights while aligning with your privacy standards and technical requirements.
 

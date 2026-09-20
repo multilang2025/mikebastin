@@ -80,11 +80,17 @@ export default function BlogIndex() {
               </Reveal>
 
               {/* Pillar, given its own row.
-                  Image beside the text rather than above it, as the cards
-                  below have it: the pillar is the lead item, so it should
-                  not read as an unusually wide card. It stacks under 640px,
-                  where two columns would leave the picture too narrow to
-                  show anything. */}
+                  Image beside the text on a wide screen, so the pillar does
+                  not read as an unusually wide card, and above it once the
+                  row stacks under 640px.
+
+                  The image comes first in the DOM and is moved right by
+                  `sm:order-last`, rather than the other way round. Text-first
+                  markup put the pillar's picture directly above the first
+                  card's picture on a phone, with nothing between them, so the
+                  two read as one image duplicated. Image-first gives the
+                  pillar the same shape as the cards below it and puts its
+                  excerpt between the two pictures. */}
               {(group.pillar || group.pillarHref) && (
                 <Reveal i={1}>
                   <Link
@@ -92,6 +98,19 @@ export default function BlogIndex() {
                     className="mb-8 grid gap-6 border-l-2 pl-6 sm:grid-cols-[1fr_minmax(0,38%)] sm:items-center"
                     style={{ borderColor: "var(--berry)" }}
                   >
+                    <span
+                      className="block overflow-hidden rounded-[4px] border sm:order-last"
+                      style={{ borderColor: "var(--rule)" }}
+                    >
+                      <PostImage
+                        /* A hand-built pillar has no Post, so its slug comes
+                           back out of the href lib/posts.ts built from it,
+                           rather than being written down a second time. */
+                        slug={group.pillar?.slug ?? (group.pillarHref ?? "").replace(/\//g, "")}
+                        cluster={group.name}
+                        className="aspect-[1200/630] w-full"
+                      />
+                    </span>
                     <div>
                       <span
                         className="mb-2 inline-block rounded-[3px] px-2 py-[3px] text-[.62rem] uppercase tracking-[.1em]"
@@ -108,19 +127,6 @@ export default function BlogIndex() {
                         </p>
                       )}
                     </div>
-                    <span
-                      className="block overflow-hidden rounded-[4px] border sm:order-last"
-                      style={{ borderColor: "var(--rule)" }}
-                    >
-                      <PostImage
-                        /* A hand-built pillar has no Post, so its slug comes
-                           back out of the href lib/posts.ts built from it,
-                           rather than being written down a second time. */
-                        slug={group.pillar?.slug ?? (group.pillarHref ?? "").replace(/\//g, "")}
-                        cluster={group.name}
-                        className="aspect-[1200/630] w-full"
-                      />
-                    </span>
                   </Link>
                 </Reveal>
               )}

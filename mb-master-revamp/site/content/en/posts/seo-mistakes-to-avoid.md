@@ -26,7 +26,7 @@ Here’s a look at the most frequent SEO mistakes and how you can fix them.
 
 Technical SEO is often overlooked, but it plays a crucial role in how search engines crawl and index your site.
 
-Issues like slow page speed, poor mobile optimization, and broken links can severely impact your rankings, making it difficult for your audience to find you.
+Issues like slow page speed, poor mobile optimisation, and broken links can severely impact your rankings, making it difficult for your audience to find you.
 
 **Common Errors:**
 

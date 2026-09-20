@@ -9,7 +9,7 @@ wpId: 17228920
 date: "2024-10-13T14:48:27"
 modified: "2026-07-19T11:25:41"
 sourceUrl: "https://mikebastin.com/technical-seo-considerations-for-german-websites/"
-excerpt: "Discover unique technical SEO strategies for optimizing German websites, from user-friendly URL structures to effective hreflang tag usage, and improve search visibility."
+excerpt: "Discover unique technical SEO strategies for optimising German websites, from user-friendly URL structures to effective hreflang tag usage, and improve search visibility."
 ---
 
 ## In the ever-competitive space of search engine optimisation (SEO), technical SEO plays a pivotal role in ensuring a website’s visibility and performance.

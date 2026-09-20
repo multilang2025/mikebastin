@@ -29,7 +29,7 @@ For him, the future of the creator economy depends on restoring balance, between
 ## Jean Marie Cordaro: A career built on human connection
 
 These experiences gave him a rare understanding of how fragile digital independence can be.  
-He saw creators lose access to their work overnight, caught in systems that prioritized algorithms over people.  
+He saw creators lose access to their work overnight, caught in systems that prioritised algorithms over people.  
 And from that came a deep conviction: a creator’s success is built not on tools, but on the relationships they build with their audience.
 
 The philosophy, that human connection must come before technology, now defines his approach to entrepreneurship and his vision for a more balanced digital economy.
@@ -49,7 +49,7 @@ He doesn’t reject technology, he redefines its purpose.
 
 Tools should amplify relationships, not replace them.
 
-The belief is woven into Bonzai’s design: a platform where technology fades into the background so that human connection can take center stage.
+The belief is woven into Bonzai’s design: a platform where technology fades into the background so that human connection can take centre stage.
 
 ### Bonzai: the expression of a more human vision of technology
 
@@ -108,7 +108,7 @@ Jean Marie Cordaro often repeats a phrase that captures his philosophy:
 
 “Humanity must never become an optional feature in a technological system.”
 
-He firmly rejects the idea that creators could ever be replaced by artificial intelligence or standardized workflows.  
+He firmly rejects the idea that creators could ever be replaced by artificial intelligence or standardised workflows.  
 In his eyes, the future belongs to those who can blend technological power with human depth, those who use innovation to express individuality, not erase it.
 
 The mindset shapes Bonzai’s balance between automation and creativity.  
@@ -139,7 +139,7 @@ Technology should close gaps, not widen them.
 In Jean Marie Cordaro’s view, the creator of tomorrow won’t just be a content producer.  
 They’ll be an independent media, an educator, a connector, and a business owner with purpose.
 
-To fulfill that role, they need tools that are ethical, transparent, and empowering, not exploitative.
+To fulfil that role, they need tools that are ethical, transparent, and empowering, not exploitative.
 
 Bonzai and similar next-generation tools aim to offer exactly that:  
 an environment where creators can grow at their own pace, build lasting relationships, and turn creativity into sustainable independence.
@@ -185,7 +185,7 @@ Because he believes that creativity should remain rooted in trust, freedom, and 
 
 ### 2\. How does Bonzai reflect this philosophy?
 
-By giving creators control over their data, earnings, and relationships, all within a transparent, human-centered environment.
+By giving creators control over their data, earnings, and relationships, all within a transparent, human-centreed environment.
 
 ### 3\. What makes Bonzai different from other creator platforms?
 

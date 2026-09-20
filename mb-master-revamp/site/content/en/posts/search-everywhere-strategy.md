@@ -27,7 +27,7 @@ Combine this with a **complete multilingual SEO strategy** to capture high-inten
 ### What you need to know: executive summary
 
 -   **Search is fragmented:** Users bypass Google for AI tools, social feeds, and niche platforms.
--   **GEO is essential:** Optimise for Generative Engine Optimization (GEO) so AI cites your brand as the definitive source.
+-   **GEO is essential:** Optimise for Generative Engine Optimisation (GEO) so AI cites your brand as the definitive source.
 -   **Vertical search dominates B2B:** G2, Capterra, and industry directories drive procurement decisions.
 -   **Multilingual ≠ translation:** Localised content must align with regional search behaviour and hreflang best practices.
 -   **Facts beat fluff:** Structured data and explicit facts increase AI citation accuracy far more than narrative prose.
@@ -72,7 +72,7 @@ Navigational queries
 
 E-E-A-T + technical SEO
 
-## Mastering generative engine optimization (GEO)
+## Mastering generative engine optimisation (GEO)
 
 GEO optimises content for AI models that synthesise answers, not rank pages.
 

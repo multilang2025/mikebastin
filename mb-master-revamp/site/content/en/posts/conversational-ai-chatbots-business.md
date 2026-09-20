@@ -290,7 +290,7 @@ Google’s Search Generative Experience (SGE) and Bing’s Copilot pull informat
 
 FAQ content structured for chatbots can also feed AI answer engines.
 
-Understanding [Generative Engine Optimization](/services/generative-engine-optimization/) helps position your business in this new space.
+Understanding [Generative Engine Optimisation](/services/generative-engine-optimization/) helps position your business in this new space.
 
 The intersection of conversational AI strategy and [SEO’s evolution](/blog/future-of-seo/) deserves attention from any business investing in both channels.
 

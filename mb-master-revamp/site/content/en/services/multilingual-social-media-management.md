@@ -90,7 +90,7 @@ Regular feedback from local team members or partners can help maintain cultural 
 Several tools can assist with multilingual social media management:
 
 -   Social media management platforms like Hootsuite or Buffer for scheduling posts across multiple accounts and languages.
--   Translation management systems to organize and streamline content translation processes.
+-   Translation management systems to organise and streamline content translation processes.
 -   Analytics tools that provide insights into performance across different languages and regions.
 -   Content calendar tools that incorporate local events and holidays for each target market.
 -   AI-powered tools for initial translations, though human review is crucial for accuracy and cultural nuance

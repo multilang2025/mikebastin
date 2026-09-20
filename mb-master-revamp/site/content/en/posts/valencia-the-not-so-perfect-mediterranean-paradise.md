@@ -91,7 +91,7 @@ And forget about choosing your preferred school. The system has its own mysterio
 
 But here’s the bright side: your children will become trilingual without even trying.
 
-They’ll switch between Valencian, Castellano, and English with the ease of a traffic light changing colors (though with more consistency).
+They’ll switch between Valencian, Castellano, and English with the ease of a traffic light changing colours (though with more consistency).
 
 Such linguistic gymnastics will give them cognitive advantages and make them more adaptable than a Swiss Army knife.
 

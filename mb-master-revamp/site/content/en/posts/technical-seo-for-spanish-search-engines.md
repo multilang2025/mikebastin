@@ -68,7 +68,7 @@ High: strong Spanish market presence
 
 **Oncrawl**
 
-Full SEO auditing, log analysis, crawl behavior tracking, data visualisations
+Full SEO auditing, log analysis, crawl behaviour tracking, data visualisations
 
 Starts at £36/month
 

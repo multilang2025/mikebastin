@@ -215,8 +215,91 @@ const LEARNED_NAMES = (() => {
   return out;
 })();
 
+/**
+ * American spelling, against CLAUDE.md's "UK English" rule.
+ *
+ * Nothing was watching this, so 81 of them shipped across the live posts
+ * while the lint reported every file clean, which is the same hole the
+ * heading-case check was added to close.
+ *
+ * Three things are stripped before the text is judged, because each is
+ * correct with the z and would otherwise be a permanent false positive:
+ * any URL or site path (the GEO service really is at
+ * /services/generative-engine-optimization/), fenced or inline code, and
+ * the schema.org type names, where Organization and LocalBusiness are
+ * literals defined by the vocabulary rather than words we spell.
+ */
+const US_SPELLINGS =
+  /\b(optimiz(?:e|es|ed|ing|ation|ations)|localiz(?:e|es|ed|ing|ation)|organiz(?:e|es|ed|ing|ation)|recogniz(?:e|es|ed|ing)|analyz(?:e|es|ed|ing)|customiz(?:e|es|ed|ing|ation)|personaliz(?:e|es|ed|ing|ation)|prioritiz(?:e|es|ed|ing)|standardiz(?:e|es|ed|ing|ation)|behaviors?|colors?|centers?|catalogs?|licenses(?= to)|fulfill(?:s|ed|ing|ment)?|traveling|canceled|modeling)\b/gi;
+
+const SCHEMA_TYPES =
+  /\b(Organization|LocalBusiness|ProfessionalService|FAQPage|WebPage|BreadcrumbList|Product|Article|BlogPosting|LegalService|FreightForwarder|RealEstateAgent|HowTo|ItemList)\b/g;
+
+function stripNonProse(body) {
+  return body
+    .replace(/```[\s\S]*?```/g, " ")
+    .replace(/`[^`]*`/g, " ")
+    .replace(/https?:\/\/\S+/g, " ")
+    .replace(/\]\([^)]*\)/g, "]( )")
+    .replace(/\/[a-z0-9-]+(?:\/[a-z0-9-]+)+\/?/g, " ")
+    .replace(SCHEMA_TYPES, " ");
+}
+
+/**
+ * The excerpt is the meta description and the card text, so it is the copy
+ * a searcher reads before anything else on the site.
+ *
+ * Two defects shipped on it and neither was checked. Thirteen descriptions
+ * ended mid-clause, because lib/seo.ts cut the excerpt at a word boundary
+ * and called it a sentence: "enhancing efficiency, accuracy, and." was
+ * live. And two posts carried another page's excerpt entirely, so
+ * chrome-extensions-for-seo described Google Maps to 9,726 impressions
+ * and internal-linking-tools sold affordable SEO services.
+ *
+ * The truncator is fixed; these two rules stop either coming back.
+ *
+ * Deliberately not a rule: excerpt length. Forty-nine of them run past
+ * what fits alongside the call to action, and every one of those now cuts
+ * at a sentence boundary and reads as written. Failing them would fire
+ * forty-nine times on something already handled, which is how a lint
+ * teaches people to ignore it.
+ */
+const seenExcerpts = new Map();
+
+function excerptIssues(meta, slug) {
+  const out = [];
+  const m = /^excerpt:\s*"(.*)"\s*$/m.exec(meta);
+  if (!m) return out;
+  const text = m[1].trim();
+
+  const first = seenExcerpts.get(text);
+  if (first) {
+    out.push({ rule: "excerpt", detail: `excerpt duplicates ${first}`, count: 1 });
+  } else {
+    seenExcerpts.set(text, slug);
+  }
+
+  const last = text.replace(/[.!?]+$/, "").split(/\s+/).pop() ?? "";
+  if (DANGLING_WORD.test(last)) {
+    out.push({ rule: "excerpt", detail: `excerpt ends mid-clause on "${last}"`, count: 1 });
+  }
+  return out;
+}
+
+const DANGLING_WORD =
+  /^(?:and|or|but|so|to|for|of|in|on|at|by|with|from|into|onto|as|than|that|which|the|a|an|its|their|your|our|is|are|was|were|be|can|will|would|not|more|such|when|while|where|how|why|if|because|about|across|through|between|per|via|plus|like)$/i;
+
 function contentOnlyIssues(body) {
   const out = [];
+
+  const usHits = [...stripNonProse(body).matchAll(US_SPELLINGS)].map((m) => m[0]);
+  if (usHits.length > 0) {
+    out.push({
+      rule: "UK English",
+      detail: `American spelling: ${[...new Set(usHits.map((w) => w.toLowerCase()))].join(", ")}`,
+      count: usHits.length,
+    });
+  }
 
   // A heading is sentence case (CLAUDE.md, owner decision 19 Sep). Two or
   // more capitalised words after the first, none of them an acronym or a
@@ -303,7 +386,10 @@ for (const locale of readdirSync(CONTENT)) {
         .join("\n");
       const issues = lint(body + "\n\n" + meta);
       const rel = `site/content/${locale}/${type}/${f}`;
-      if (LIVE.has(rel)) issues.push(...contentOnlyIssues(body));
+      if (LIVE.has(rel)) {
+        issues.push(...contentOnlyIssues(body));
+        issues.push(...excerptIssues(meta, f.slice(0, -3)));
+      }
       rows.push({
         locale, type, slug: f.slice(0, -3),
         clean: issues.length === 0,
@@ -335,5 +421,20 @@ if (process.argv.includes("--json")) {
   console.log("\nmost common violations:");
   for (const [k, v] of Object.entries(tally).sort((a, b) => b[1] - a[1]).slice(0, 10)) {
     console.log(`  ${String(v).padStart(4)}  ${k}`);
+  }
+
+  // Exit non-zero so CI can gate on it. This script has always printed its
+  // findings and then exited 0, which made it a report rather than a check:
+  // every violation it ever found still shipped unless somebody happened to
+  // read the output. Everything is clean as of 20 Sep, which is the right
+  // moment to install the gate, since a gate that starts red gets disabled.
+  // `--json` stays a pure reporting mode and never fails.
+  const dirty = rows.filter((r) => !r.clean);
+  if (dirty.length > 0) {
+    console.error(`\n${dirty.length} file(s) need a copy pass:`);
+    for (const r of dirty) {
+      console.error(`  ${r.type}/${r.slug}: ${r.issues.map((i) => i.detail).join("; ")}`);
+    }
+    process.exit(1);
   }
 }

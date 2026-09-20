@@ -202,7 +202,7 @@ Valencia’s beach neighborhoods offer the unique opportunity to live within wal
 
 #### **Ciutat Vella: Central Convenience**
 
-The broader Ciutat Vella (Old City) area provides remote workers with maximum convenience for accessing Valencia’s business, cultural, and social centers. The central location minimises commuting time and increases access to the city’s diverse offerings.
+The broader Ciutat Vella (Old City) area provides remote workers with maximum convenience for accessing Valencia’s business, cultural, and social centres. The central location minimises commuting time and increases access to the city’s diverse offerings.
 
 For detailed insights into apartment hunting and neighborhood selection, our guide to [living in a flat in Valencia](https://mikebastin.com/living-in-a-flat-in-valencia-a-pragmatic-overview/) provides practical advice.
 
@@ -228,4 +228,4 @@ The community’s collaborative spirit and welcoming nature make [Valencia parti
 
 The [Valencia Digital Nomads](https://www.facebook.com/groups/822085512017504/) Facebook group serves as the primary online hub for the community, connecting over 3,000 members.
 
-Regular meetups and networking events form the backbone of the community, with groups like the [Valencia Coworking and Coffee](https://www.meetup.com/valencia-coworking-coffee/) group organizing weekly gatherings.
+Regular meetups and networking events form the backbone of the community, with groups like the [Valencia Coworking and Coffee](https://www.meetup.com/valencia-coworking-coffee/) group organising weekly gatherings.

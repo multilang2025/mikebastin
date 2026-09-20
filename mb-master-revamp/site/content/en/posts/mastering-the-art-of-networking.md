@@ -56,7 +56,7 @@ When potential connections land on your profile, they should find not just your 
 
 #### Build your digital home base
 
-A personal website serves as your professional command center, a space where you control the narrative and showcase your expertise on your own terms.
+A personal website serves as your professional command centre, a space where you control the narrative and showcase your expertise on your own terms.
 
 Beyond listing achievements, use it to demonstrate your thought process through case studies, share your perspective through a blog, and create an engaging portfolio that brings your work to life.
 
@@ -140,7 +140,7 @@ By using these features, you can significantly enhance your prospecting efforts 
 
 Both Meetup and Eventbrite are valuable platforms for discovering and attending networking events:
 
--   Meetup is ideal for finding local groups centred around specific interests or industries. It’s particularly useful for organizing smaller, theme-focused events that appeal to niche audiences.
+-   Meetup is ideal for finding local groups centred around specific interests or industries. It’s particularly useful for organising smaller, theme-focused events that appeal to niche audiences.
 -   Eventbrite offers a more versatile platform for hosting various types of events, including larger conferences and workshops. It provides better attendee management tools and integrations with other apps.
 
 When using these platforms:
@@ -153,13 +153,13 @@ When using these platforms:
 
 Implementing a Customer Relationship Management (CRM) tool can significantly enhance your networking efforts:
 
--   BIGContacts offers strong contact management features and email marketing automation, allowing you to organize your professional network effectively\[4\].
+-   BIGContacts offers strong contact management features and email marketing automation, allowing you to organise your professional network effectively\[4\].
 -   Nimble is a relationship-focused CRM that integrates well with various communication tools, making it ideal for startups relying heavily on referrals and community engagement.
 -   Dex stands out for its LinkedIn synchronization capabilities, automatically updating contact information from LinkedIn profiles\[4\].
 
 When choosing a CRM for networking:
 
--   Look for features like contact organization, interaction tracking, and reminder systems.
+-   Look for features like contact organisation, interaction tracking, and reminder systems.
 -   Consider tools that offer social media integration to streamline your digital networking efforts.
 -   Opt for a CRM that allows for easy categorization and tagging of contacts to manage different segments of your network efficiently.
 

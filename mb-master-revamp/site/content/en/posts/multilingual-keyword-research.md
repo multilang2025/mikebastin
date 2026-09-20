@@ -9,7 +9,7 @@ wpId: 37216
 date: "2024-09-25T15:18:36"
 modified: "2026-07-19T11:12:19"
 sourceUrl: "https://mikebastin.com/multilingual-keyword-research/"
-excerpt: "Expand your global reach with effective multilingual keyword research. Our guide offers tools, techniques, and best practices for optimizing content in multiple languages."
+excerpt: "Expand your global reach with effective multilingual keyword research. Our guide offers tools, techniques, and best practices for optimising content in multiple languages."
 ---
 
 ## Strategies for global SEO success

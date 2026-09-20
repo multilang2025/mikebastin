@@ -6,7 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit",
+    "lint:copy": "node scripts/copy-lint.mjs",
+    "lint:code": "node scripts/copy-lint-code.mjs",
+    "check:launch": "node scripts/launch-check.mjs",
+    "verify": "npm run typecheck && npm run lint:copy && npm run lint:code && npm run build && npm run check:launch"
   },
   "dependencies": {
     "clsx": "^2.1.1",
