@@ -42,11 +42,14 @@ Same model as valenciamove.com, which the owner already runs at larger scale
   the Netherlands), is planned once these three ship — see
   CONTENT-ARCHITECTURE.md §2. Don't build for it early; the directory
   structure already scales to it without rework.
-- **Media:** `/public/images/`, no media library and no object storage. Most
-  images go through Next/Image, but the generated blog cover cards in
-  `/public/images/blog/` are rendered ahead of time by
-  `scripts/gen-blog-covers.mjs` and served through a plain `<img>`, so they
-  are not optimised at build.
+- **Media:** `/public/images/`, no media library and no object storage.
+  Images go through Next/Image. Blog posts carry no image file at all:
+  `components/PostArt.tsx` draws each one as inline SVG, keyed to the post's
+  cluster and seeded from its slug. The 59 pre-rendered cover PNGs and
+  `scripts/gen-blog-covers.mjs` were deleted on 20 Sep, because each was
+  only the post's own title on a rectangle, so the index printed every
+  title twice and a post repeated its `h1`. Social images are separate and
+  unaffected: they come from each route's `opengraph-image.tsx`.
 - **Redirects:** `site/public/.htaccess`, generated from `content-map.json`
   by the `scripts/gen-*-redirects.mjs` family. Never hand-maintained. Not
   `next.config` `redirects()`, which never runs under `output: "export"`;
