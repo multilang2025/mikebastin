@@ -494,13 +494,31 @@ See `assets/ASSETS-MANIFEST.md`. Summary: mikebastin brand logos (4 variants), o
 - Six agents: design-guardian, seo-preservation, content-migrator, copy-editor, perf-auditor, social-repurposer
 
 ### Decisions OPEN — resolve in Code session P0
-1. Repo name/org (owner creates, connects GitHub)
-2. Postgres provider (recommend Supabase — connector live) + media storage (Supabase Storage vs Vercel Blob)
-3. X handle + 3 featured post URLs (HANDLE_TBD placeholders in concept)
-4. Tier C prune sign-off + 43→~12 service consolidation sign-off (§11)
-5. Valencia STAY-list sign-off (3 pages, §18)
-6. FR-only 44th service: promote or keep (§16)
-7. VM content storage model (MDX vs CMS) — determines import tooling (§18)
+1. ~~Repo name/org~~ CLOSED: `multilang2025/mikebastin`.
+2. ~~Postgres provider + media storage~~ MOOT: Payload and the database were
+   removed (§25). No database, media in `/public/images/`.
+3. X handle + 3 featured post URLs (HANDLE_TBD placeholders in concept) — STILL OPEN
+4. Tier C prune sign-off — STILL OPEN (`docs/BLOG-PRUNE-AUDIT.md` is the artifact
+   to sign off; 21 posts still need a real GSC check). The 43→19 service
+   consolidation is built and live in `lib/services.ts`.
+5. Valencia STAY-list sign-off (§18) — STILL OPEN, and now wider than three
+   pages: the exodus moved the English posts only, so ten French and one
+   Spanish Valencia lifestyle post are still live on mikebastin.com with no
+   English sibling here (found 19 Sep, `docs/H1-AUDIT.md`).
+6. ~~FR-only 44th service: promote or keep~~ CLOSED by promoting: it routes at
+   `/fr/services/localisation-juridique-reglementaire/` with no EN or ES
+   sibling.
+7. ~~VM content storage model~~ CLOSED: MDX in-repo, same model as this site.
+
+Opened since, and not in any list above:
+8. The twelve blog posts whose cluster is unset render "Uncategorised" as a
+   visible eyebrow and on their cover cards. Assign clusters or prune.
+9. `/blog/generative-engine-optimization/` and
+   `/services/generative-engine-optimization/` target the same term.
+   Informational against commercial intent, so probably fine, but undecided.
+10. The generated blog cover cards restate the h1 as an image directly below
+    it, and repeat it again in `alt`. The branded-card format was an owner
+    decision; the duplication was not considered at the time.
 8. Credibility strip numbers
 9. matosurf.com as 8th portfolio spread: yes/no
 
