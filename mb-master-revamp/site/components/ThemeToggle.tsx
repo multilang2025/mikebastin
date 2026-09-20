@@ -29,9 +29,15 @@ export default function ThemeToggle() {
         theme === "dark" ? "Switch to Morning Glass" : "Switch to Night Swell"
       }
       title={theme === "dark" ? "Morning Glass" : "Night Swell"}
-      className="fixed top-5 right-5 z-50 grid h-11 w-11 place-items-center
-                 rounded-full border backdrop-blur-md transition-transform
-                 duration-300 hover:scale-110 active:scale-95"
+      /* Sits in the nav row rather than floating.
+         `fixed top-5 right-5` put a 44px circle at 20px from the top of the
+         viewport, against a 62px header: 2px of it hung below the header's
+         bottom rule on every page, and the nav had to reserve a
+         `pr-[64px]` gutter so its own contents did not slide under it.
+         In the row, alignment is the flexbox's problem and cannot drift. */
+      className="grid h-10 w-10 shrink-0 place-items-center rounded-full
+                 border transition-transform duration-300 hover:scale-110
+                 active:scale-95"
       style={{
         borderColor: "var(--rule)",
         background: "var(--chip)",

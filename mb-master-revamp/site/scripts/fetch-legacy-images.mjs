@@ -57,6 +57,16 @@ async function main() {
       continue;
     }
 
+    // An entry sourced outside the legacy library records its origin
+    // rather than an upload path, so there is nothing to fetch from the
+    // WordPress uploads directory. The Commons ones are rebuilt by
+    // scripts/fetch-commons-images.mjs instead; the Unsplash one is a
+    // single downloaded file with no script behind it.
+    if (image.legacy.startsWith("unsplash:") || image.legacy.startsWith("commons:")) {
+      skipped++;
+      continue;
+    }
+
     const url = BASE + image.legacy;
     const res = await fetch(url);
     if (!res.ok) {
@@ -65,6 +75,12 @@ async function main() {
     }
 
     const bytes = Buffer.from(await res.arrayBuffer());
+
+    // cropTop used to sit here, trimming the burned-in prompt off the
+    // January 2026 uploads that were generated with it still in frame.
+    // Every image that needed it has since been replaced by a public
+    // domain photograph, so the field had no users left and went with
+    // them rather than staying as a capability nothing calls.
     await sharp(bytes).resize({ width: 1200, withoutEnlargement: true }).webp({ quality: 74 }).toFile(full);
     await sharp(bytes).resize(160, 84, { fit: "cover", position: "attention" }).webp({ quality: 72 }).toFile(thumb);
     fetched++;

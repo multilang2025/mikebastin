@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import PostImage from "@/components/PostImage";
 import Reveal from "@/components/Reveal";
 import SiteFooter from "@/components/SiteFooter";
 import JsonLd from "@/components/JsonLd";
+import { getRelatedPosts, topicSlug } from "@/lib/posts";
 import { SITE_URL, breadcrumbSchema } from "@/lib/schema";
 
 /**
@@ -94,7 +96,13 @@ const ROADMAP = [
   ["Low", "Tidy referral sources and link properly from the journal to the service pages.", "Stronger topical authority and broader brand signals."],
 ];
 
+/** The cluster this page is the pillar of, per CLUSTERS in lib/posts.ts. */
+const CLUSTER = "SEO fundamentals";
+/** This page's own slug, which is how lib/posts.ts finds its cluster. */
+const SLUG = "competitor-analysis-traffic-checklist";
+
 export default function CompetitorChecklistPage() {
+  const related = getRelatedPosts(SLUG);
   return (
     <main id="main">
       <JsonLd
@@ -442,7 +450,52 @@ export default function CompetitorChecklistPage() {
         </div>
       </section>
 
-      <SiteFooter band="b" />
+      {/* ============ RELATED ============ */}
+      {related.length > 0 && (
+        <section className="band band-b py-[clamp(48px,7vw,90px)]">
+          <div className="shell">
+            <Reveal>
+              <p className="eyebrow mb-3">Keep reading</p>
+              <h2 className="mb-10 max-w-[26ch] text-[clamp(1.5rem,2.8vw,2.1rem)] font-semibold leading-[1.15]">
+                More from the journal
+              </h2>
+            </Reveal>
+            <ul className="grid gap-px sm:grid-cols-2 lg:grid-cols-3" style={{ background: "var(--rule)" }}>
+              {related.map((r, i) => (
+                <Reveal key={r.slug} i={i}>
+                  <li className="band h-full" style={{ background: "var(--bg)" }}>
+                    <Link href={`/blog/${r.slug}/`} className="flex h-full flex-col">
+                      <PostImage
+                        slug={r.slug}
+                        cluster={r.cluster}
+                        className="aspect-[1200/630] w-full"
+                      />
+                      <div className="flex flex-1 flex-col px-7 py-6">
+                        <span className="ulink mb-2 text-[1.02rem] font-semibold leading-[1.3]">
+                          {r.title}
+                        </span>
+                        <p className="mb-4 line-clamp-3 text-[.88rem] leading-[1.5]" style={{ color: "var(--dim)" }}>
+                          {r.excerpt}
+                        </p>
+                      </div>
+                    </Link>
+                  </li>
+                </Reveal>
+              ))}
+            </ul>
+            <Reveal>
+              <Link
+                href={`/blog/topics/${topicSlug(CLUSTER)}/`}
+                className="ulink mt-8 inline-block text-[.98rem]"
+              >
+                See everything in {CLUSTER}
+              </Link>
+            </Reveal>
+          </div>
+        </section>
+      )}
+
+      <SiteFooter band="a" />
     </main>
   );
 }

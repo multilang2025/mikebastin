@@ -5,6 +5,7 @@ import Reveal from "@/components/Reveal";
 import SiteFooter from "@/components/SiteFooter";
 import Expandables from "@/components/Expandables";
 import JsonLd from "@/components/JsonLd";
+import { absorbedProse } from "@/lib/absorbed";
 import { SERVICES, getService, CLUSTER_INLINE } from "@/lib/services";
 import { SITE_URL, breadcrumbSchema, serviceSchema } from "@/lib/schema";
 import { serviceGroupForEnSlug, serviceHreflang } from "@/lib/services-locale";
@@ -202,9 +203,8 @@ export default async function ServicePage({
               </h2>
               <p className="mb-8 max-w-[60ch] text-[1.02rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
                 {service.expandablesLede ??
-                  `${service.expandables.length} answers, folded in from the pages this one absorbed.`}{" "}
-                Collapsed so the page stays short, and in the HTML either way,
-                so a crawler or an answer engine still reads them.
+                  `${service.expandables.length} answers to the questions that come up first.`}{" "}
+                Open the ones that apply to your job and leave the rest closed.
               </p>
             </Reveal>
             <Reveal i={1}>
@@ -274,26 +274,22 @@ export default async function ServicePage({
         <section className={`band band-${absorbsBand} py-[clamp(56px,8vw,110px)]`}>
           <div className="shell">
             <Reveal>
-              <p className="eyebrow mb-3">Consolidated into this page</p>
-              <p className="mb-8 max-w-[60ch] text-[1.02rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
-                {service.absorbs.length} earlier pages fold in here, each
-                redirecting in its own locale rather than disappearing. One
-                page covering one query network properly beats several
-                covering it thinly.
+              <p className="eyebrow mb-3">The whole scope</p>
+              <h2 className="mb-5 max-w-[24ch] text-[clamp(1.5rem,2.8vw,2.1rem)] font-semibold leading-[1.15]">
+                What we take on under {service.inline}
+              </h2>
+              <p className="mb-10 max-w-[60ch] text-[1.02rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
+                Most briefs ask for one part of the work and turn out to
+                need two or three. Here is the full ground it covers, so
+                you can see at a glance whether your job sits inside it.
               </p>
             </Reveal>
             <Reveal i={1}>
-              <ul className="flex flex-wrap gap-2">
-                {service.absorbs.map((a) => (
-                  <li
-                    key={a}
-                    className="rounded-[3px] px-3 py-[6px] text-[.8rem]"
-                    style={{ background: "var(--chip)", color: "var(--dim)" }}
-                  >
-                    {a}
-                  </li>
+              <div className="flex max-w-[64ch] flex-col gap-5 text-[1.02rem] leading-[1.7]">
+                {absorbedProse(service.slug).map((para) => (
+                  <p key={para.slice(0, 40)}>{para}</p>
                 ))}
-              </ul>
+              </div>
             </Reveal>
           </div>
         </section>

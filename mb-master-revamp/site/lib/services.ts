@@ -308,7 +308,7 @@ export const SERVICES: Service[] = [
     ],
     expandablesHeading: "How a multi-market programme gets sequenced",
     expandablesLede:
-      "The method from global-seo-solutions, the legacy page this one replaces and the largest single URL on the domain.",
+      "How a programme across several markets gets ordered, from the first market in to the last.",
     expandables: [
       {
         q: "Nine languages at launch is how you get nine pages that rank nowhere",
@@ -389,7 +389,7 @@ export const SERVICES: Service[] = [
     ],
     expandablesHeading: "What French SEO turns on, market by market",
     expandablesLede:
-      "The parts of the job that are specific to French rather than true of any language, carried over from the page this one absorbed.",
+      "The parts of the job that are specific to French rather than true of any language.",
     expandables: [
       {
         q: "Which domain shape to use for France",
@@ -463,7 +463,7 @@ export const SERVICES: Service[] = [
     ],
     expandablesHeading: "The questions a German buyer asks first",
     expandablesLede:
-      "What the split between piloted strategy and native writing means in practice, carried over from the page this one absorbed.",
+      "What the split between piloted strategy and native writing means in practice.",
     expandables: [
       {
         q: "Who actually writes the German",
@@ -595,7 +595,7 @@ export const SERVICES: Service[] = [
     angle: "Small volume, decisive buyers",
     lede: "Dutch trade search is low in volume and high in intent, which rewards covering a narrow thing properly over covering a broad thing thinly. Bemelman Spuiterij is the worked example.",
     metaTitle: "Dutch SEO for trade buyers, Mike Bastin",
-    metaDescription: "Dutch trade search is low volume and high intent. See how covering one narrow query network properly beats a broad one covered thinly.",
+    metaDescription: "Dutch trade search is low volume and high intent. See how covering one narrow set of searches properly beats a broad one covered thinly.",
     sections: ["Three ways to fail at Dutch SEO", ...ENGAGEMENT],
     body: [
       {
@@ -609,7 +609,7 @@ export const SERVICES: Service[] = [
       {
         heading: "The Bemelman Spuiterij pattern",
         paragraphs: [
-          "Bemelman Spuiterij, a paint and powder-coating specialist based in Hillegom, is the case that shaped this page. Dutch trade search runs low in volume and high in intent, which rewards covering one narrow query network properly rather than a broad one thinly. KvK and BTW compliance, AVG cookie consent and dedicated pages per surrounding town turned into steady map pack visibility across the whole Bollenstreek region.",
+          "Bemelman Spuiterij, a paint and powder-coating specialist based in Hillegom, is the case that shaped this page. Dutch trade search runs low in volume and high in intent, which rewards covering one narrow set of searches properly rather than a broad one thinly. KvK and BTW compliance, AVG cookie consent and dedicated pages per surrounding town turned into steady map pack visibility across the whole Bollenstreek region.",
         ],
       },
     ],
@@ -688,7 +688,7 @@ export const SERVICES: Service[] = [
     ],
     expandablesHeading: "The objection an Italian buyer raises first",
     expandablesLede:
-      "Who reads the language, who writes it, and how far to go on regions, carried over from the page this one absorbed.",
+      "Who reads the language, who writes it, and how far to go on regions.",
     expandables: [
       {
         q: "You do not speak Italian, so how is this Italian SEO",
@@ -909,7 +909,7 @@ export const SERVICES: Service[] = [
     ],
     expandablesHeading: "What localisation touches beyond the copy",
     expandablesLede:
-      "Six pages folded into this one, and the parts of each that a translated site still gets wrong.",
+      "The parts of a translated site that still go wrong once the copy itself is done.",
     expandables: [
       {
         q: "Which WordPress multilingual plugin, and what each one costs you",
@@ -982,7 +982,7 @@ export const SERVICES: Service[] = [
     ],
     expandablesHeading: "Which kind of translation your document needs",
     expandablesLede:
-      "Eight pages folded into this one, each of which was really a different answer to the same question.",
+      "Each kind of document carries its own risk, and its own answer to the same question.",
     expandables: [
       {
         q: "Certified, sworn, notarised and apostilled are four different things",
@@ -1061,7 +1061,7 @@ export const SERVICES: Service[] = [
     ],
     expandablesHeading: "The order the work has to happen in",
     expandablesLede:
-      "Three pages folded into this one, and the sequence that decides how expensive the rest becomes.",
+      "The sequence that decides how expensive the rest of the work becomes.",
     expandables: [
       {
         q: "Internationalisation comes first, or localisation costs several times more",
@@ -1237,7 +1237,8 @@ export const SERVICES: Service[] = [
     metaTitle: "Generative engine optimisation and AEO, Mike Bastin",
     metaDescription: "ChatGPT, Perplexity and Google AI Overviews name a small number of sources when they answer a question. See what it takes for the answer to name you.",
     expandablesHeading: "What changes when the answer is written for you",
-    expandablesLede: "Nine shifts, folded in from the article this page absorbed.",
+    expandablesLede:
+      "Nine shifts in how buyers reach an answer, and what each one asks of your pages.",
     expandables: [
       {
         q: "Optimise for search everywhere, not only for Google",
@@ -1359,9 +1360,9 @@ export const SERVICES: Service[] = [
         ],
       },
     ],
-    expandablesHeading: "The five jobs this page folded together",
+    expandablesHeading: "The five jobs technical SEO holds together",
     expandablesLede:
-      "Keyword research, on-page, analytics, English-language search and link building, each of which had its own page.",
+      "Keyword research, on-page work, analytics, English-language search and link building.",
     expandables: [
       {
         q: "Keyword research measures demand, it does not collect keywords",
@@ -1429,7 +1430,7 @@ export const SERVICES: Service[] = [
     ],
     expandablesHeading: "What travels between languages and what does not",
     expandablesLede:
-      "Three pages folded into this one: the copywriting, the cultural fit and the social side.",
+      "The copywriting, the cultural fit and the social side, and where each one stops travelling.",
     expandables: [
       {
         q: "Topic clusters have to be built per language, not mirrored",

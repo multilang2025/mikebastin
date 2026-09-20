@@ -5,7 +5,15 @@ import PostImage from "@/components/PostImage";
 import Reveal from "@/components/Reveal";
 import SiteFooter from "@/components/SiteFooter";
 import JsonLd from "@/components/JsonLd";
-import { getPosts, getPost, postHreflang, HAND_BUILT_SLUGS, UNCATEGORISED } from "@/lib/posts";
+import {
+  getPosts,
+  getPost,
+  getRelatedPosts,
+  topicSlug,
+  postHreflang,
+  HAND_BUILT_SLUGS,
+  UNCATEGORISED,
+} from "@/lib/posts";
 import { getService } from "@/lib/services";
 import { getPostMetaDescription, postMetaTitle } from "@/lib/seo";
 import { SITE_URL, blogPostingSchema, breadcrumbSchema } from "@/lib/schema";
@@ -53,6 +61,7 @@ export default async function BlogPostPage({
   if (!post) notFound();
 
   const service = post.relatedService ? getService(post.relatedService) : undefined;
+  const related = getRelatedPosts(post.slug);
   const url = `${SITE_URL}/blog/${post.slug}/`;
 
   // Bands alternate strictly A/B/A/B (HANDOFF.md §23): the hero is always
@@ -62,6 +71,9 @@ export default async function BlogPostPage({
   const nextBand = () => (band = band === "a" ? "b" : "a");
   const coverBand = nextBand();
   const bodyBand = nextBand();
+  // Skipped sections still have to leave the A/B run intact, so the band
+  // is only taken when the section is actually rendered.
+  const relatedBand = related.length > 0 ? nextBand() : band;
   const ctaBand = nextBand();
   const footerBand = nextBand();
 
@@ -152,6 +164,56 @@ export default async function BlogPostPage({
           </Reveal>
         </div>
       </section>
+
+      {/* ============ RELATED ============ */}
+      {related.length > 0 && (
+        <section className={`band band-${relatedBand} py-[clamp(48px,7vw,90px)]`}>
+          <div className="shell">
+            <Reveal>
+              <p className="eyebrow mb-3">Keep reading</p>
+              <h2 className="mb-10 max-w-[26ch] text-[clamp(1.5rem,2.8vw,2.1rem)] font-semibold leading-[1.15]">
+                More from the journal
+              </h2>
+            </Reveal>
+            <ul className="grid gap-px sm:grid-cols-2 lg:grid-cols-3" style={{ background: "var(--rule)" }}>
+              {related.map((r, i) => (
+                <Reveal key={r.slug} i={i}>
+                  <li className="band h-full" style={{ background: "var(--bg)" }}>
+                    <Link href={`/blog/${r.slug}/`} className="flex h-full flex-col">
+                      <PostImage
+                        slug={r.slug}
+                        cluster={r.cluster}
+                        className="aspect-[1200/630] w-full"
+                      />
+                      <div className="flex flex-1 flex-col px-7 py-6">
+                        <span className="ulink mb-2 text-[1.02rem] font-semibold leading-[1.3]">
+                          {r.title}
+                        </span>
+                        <p className="mb-4 line-clamp-3 text-[.88rem] leading-[1.5]" style={{ color: "var(--dim)" }}>
+                          {r.excerpt}
+                        </p>
+                        <span className="mt-auto text-[.72rem] uppercase tracking-[.1em]" style={{ color: "var(--dim)" }}>
+                          {formatDate(r.date)}
+                        </span>
+                      </div>
+                    </Link>
+                  </li>
+                </Reveal>
+              ))}
+            </ul>
+            {post.cluster !== UNCATEGORISED && (
+              <Reveal>
+                <Link
+                  href={`/blog/topics/${topicSlug(post.cluster)}/`}
+                  className="ulink mt-8 inline-block text-[.98rem]"
+                >
+                  See everything in {post.cluster}
+                </Link>
+              </Reveal>
+            )}
+          </div>
+        </section>
+      )}
 
       {/* ============ CTA ============ */}
       <section className={`band band-${ctaBand} py-[clamp(56px,8vw,110px)]`}>

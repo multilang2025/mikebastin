@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import SmoothScroll from "@/components/SmoothScroll";
-import ThemeToggle from "@/components/ThemeToggle";
 import SiteNav from "@/components/SiteNav";
 import JsonLd from "@/components/JsonLd";
 import { personSchema, professionalServiceSchema } from "@/lib/schema";
@@ -105,7 +104,6 @@ export default function RootLayout({
         className={`${fraunces.variable} ${cormorant.variable} ${inter.variable}`}
       >
         <SmoothScroll />
-        <ThemeToggle />
         <SiteNav localeManifest={getLocaleManifest()} />
         {children}
       </body>

@@ -284,6 +284,84 @@ export function getPost(slug: string): Post | undefined {
   return getPosts().find((p) => p.slug === slug);
 }
 
+/**
+ * Up to `limit` other posts to put at the foot of a post page.
+ *
+ * A reader who finishes a post is further down the funnel than one who
+ * landed on the journal index, and the old WordPress site sent them to a
+ * footer and nothing else. Three links out is the cheapest fix, so long
+ * as they are the right three.
+ *
+ * Relatedness is taken in three passes, best signal first, each one only
+ * topping up what the one before it left short:
+ *
+ *   1. the same cluster, which is the editorial grouping the whole
+ *      journal is built on and the closest thing this content has to a
+ *      subject tag
+ *   2. the same related service, which catches posts placed in different
+ *      clusters that still feed one service page
+ *   3. the most recent posts otherwise, so a post in a cluster of one is
+ *      never left with an empty row
+ *
+ * Uncategorised is skipped in pass 1 on purpose. It is a bucket rather
+ * than a subject, so two posts sharing it share nothing, and treating it
+ * as a match would put the worst suggestions in the best position.
+ *
+ * Within each pass the candidates are read in getPosts() order, newest
+ * first, but starting from the current post and wrapping, so the whole
+ * cluster gets linked rather than only its three newest members.
+ */
+export function getRelatedPosts(slug: string, limit = 3): Post[] {
+  const posts = getPosts();
+  const post = posts.find((p) => p.slug === slug);
+
+  // A hand-built pillar (HAND_BUILT_SLUGS) has a route but no Post, so it
+  // is not in getPosts() and cannot be found the usual way. It is still a
+  // post page to a reader, and cluster D's pillar is the
+  // highest-impression page on the domain, so it gets the same row: the
+  // cluster naming it as pillar, read from the top since there is no
+  // position in the list to rotate from.
+  if (!post) {
+    const owning = CLUSTERS.find((c) => c.pillar === slug);
+    if (!owning) return [];
+    return posts.filter((p) => p.cluster === owning.name).slice(0, limit);
+  }
+
+  const picked: Post[] = [];
+
+  /**
+   * Each pass reads its candidates starting from the current post and
+   * wrapping, rather than from the top.
+   *
+   * Taking the first three of a cluster every time gave all eight posts
+   * in the German cluster the same three links, and left the cluster's
+   * older half with no inbound links from anywhere. Rotating spreads
+   * both sides of that evenly, and is still deterministic, so a build
+   * twice over produces the same pages.
+   */
+  const take = (candidates: Post[]) => {
+    const at = candidates.findIndex((p) => p.slug === slug);
+    const from = at === -1 ? 0 : at + 1;
+    for (let i = 0; i < candidates.length; i++) {
+      if (picked.length >= limit) return;
+      const c = candidates[(from + i) % candidates.length];
+      if (c.slug === slug) continue;
+      if (picked.some((p) => p.slug === c.slug)) continue;
+      picked.push(c);
+    }
+  };
+
+  if (post.cluster !== UNCATEGORISED) {
+    take(posts.filter((p) => p.cluster === post.cluster));
+  }
+  if (post.relatedService) {
+    take(posts.filter((p) => p.relatedService === post.relatedService));
+  }
+  take(posts);
+
+  return picked;
+}
+
 export type ClusterGroup = {
   name: string;
   service?: string;

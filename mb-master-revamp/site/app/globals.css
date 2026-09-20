@@ -298,6 +298,20 @@ h1, h2, h3, .display {
 .ulink:hover::after,
 .ulink:focus-visible::after { transform: scaleX(1); transform-origin: left; }
 
+/* The mobile menu drops in rather than appearing, so the eye follows it
+   down from the button that opened it. Each row is delayed a little
+   further than the one above, which reads as the panel unfolding. Both
+   are skipped under prefers-reduced-motion. */
+@keyframes mb-menu-drop {
+  from { opacity: 0; transform: translateY(-8px); }
+  to   { opacity: 1; transform: none; }
+}
+.mb-menu { animation: mb-menu-drop .26s cubic-bezier(.22,.7,.28,1) both; }
+.mb-menu-row { animation: mb-menu-drop .32s cubic-bezier(.22,.7,.28,1) both; }
+@media (prefers-reduced-motion: reduce) {
+  .mb-menu, .mb-menu-row { animation: none; }
+}
+
 /* Ambient light on the hero band only */
 .hero-glow::before {
   content: "";

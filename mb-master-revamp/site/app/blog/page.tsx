@@ -9,7 +9,7 @@ import { getService } from "@/lib/services";
 export const metadata: Metadata = {
   title: "Journal: multilingual SEO and AI consulting articles, Mike Bastin",
   description:
-    "Fifty nine posts in six groups, each one pointing to the service page it supports, rather than a river of dated posts nobody browses.",
+    "Fifty nine posts on multilingual SEO, localisation and AI, grouped by subject, with the service behind each group named alongside it.",
 };
 
 function formatDate(iso: string) {
@@ -42,9 +42,9 @@ export default function BlogIndex() {
           </Reveal>
           <Reveal i={2}>
             <p className="max-w-[58ch] text-[clamp(1.05rem,1.5vw,1.2rem)] leading-[1.58]" style={{ color: "var(--dim)" }}>
-              Grouped by topic, with the main guide for that group first
-              and the service page it supports named alongside it, rather
-              than a feed sorted by publish date.
+              Grouped by topic, with the main guide for each group first
+              and the service behind it named alongside, so you can read
+              your way to the answer rather than scroll for it.
             </p>
           </Reveal>
         </div>
@@ -163,8 +163,8 @@ export default function BlogIndex() {
               {isUncategorised && (
                 <Reveal i={2}>
                   <p className="mt-6 max-w-[62ch] text-[.85rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
-                    These posts sit outside the six groups above. Still
-                    worth a read, just not tied to one service page.
+                    A few posts belong to no single topic above, and are
+                    still worth a read.
                   </p>
                 </Reveal>
               )}
