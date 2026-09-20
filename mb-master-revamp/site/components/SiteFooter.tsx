@@ -43,6 +43,7 @@ const T: Record<
     ctaSecondary: string;
     based: string;
     top: string;
+    motto: string;
   }
 > = {
   en: {
@@ -57,6 +58,7 @@ const T: Record<
     ctaSecondary: "See what the numbers did",
     based: "Multilingual search, from Valencia",
     top: "Back to top",
+    motto: "Automating business. Translating ideas. Connecting people.",
   },
   fr: {
     about: "À propos",
@@ -70,6 +72,7 @@ const T: Record<
     ctaSecondary: "Voir ce que les chiffres ont donné",
     based: "Référencement multilingue, depuis Valencia",
     top: "Haut de page",
+    motto: "Automatiser les entreprises. Traduire les idées. Rapprocher les gens.",
   },
   es: {
     about: "Quiénes somos",
@@ -83,6 +86,7 @@ const T: Record<
     ctaSecondary: "Mira lo que hicieron los números",
     based: "Posicionamiento multilingüe, desde Valencia",
     top: "Volver arriba",
+    motto: "Automatizar negocios. Traducir ideas. Conectar personas.",
   },
 };
 
@@ -257,10 +261,17 @@ export default function SiteFooter({
             style={{ borderColor: "var(--rule)" }}
           >
             <div>
-              <div className="mb-4 flex items-center gap-2.5">
+              <div className="mb-3 flex items-center gap-2.5">
                 <WaveMark className="shrink-0" width={20} />
                 <span className="display text-[1.05rem] font-semibold tracking-tight">Mike Bastin</span>
               </div>
+              {/* The owner's motto, 20 Sep. It sits under the wordmark, where
+                  a motto belongs, rather than competing with the sign-off
+                  heading above it. Also emitted as schema.org `slogan` on the
+                  ProfessionalService node in lib/schema.ts. */}
+              <p className="eyebrow mb-4 max-w-[30ch] text-[1rem] leading-[1.45]">
+                {t.motto}
+              </p>
               <p className="max-w-[38ch] leading-[1.6]" style={{ color: "var(--dim)" }}>
                 {ABOUT[locale]}
               </p>

@@ -87,6 +87,11 @@ needs.
   Shops integration") and one is inside a service name, so they are not a
   hard fail. The lint warns above a density threshold instead.
 - No bolded links.
+- **Motto** (owner, 20 Sep): "Automating business. Translating ideas.
+  Connecting people." Use it where a motto belongs, under the wordmark or
+  as `slogan` in schema, not in titles or meta descriptions, which are
+  keyword real estate. FR and ES renderings live in `SiteFooter`'s string
+  table and are a first pass awaiting the owner's eye.
 - **Sentence case everywhere**, headings, titles and blog post titles
   alike (owner decision, 19 Sep). Capitalise the first word, proper nouns
   and acronyms only: SEO, AI, GEO, AEO, PPC, LLMs, Google Analytics,
