@@ -123,9 +123,9 @@ export const SERVICES: Service[] = [
     cluster: "Lead generation",
     pillar: true,
     angle: "The outcome, not the mechanism",
-    lede: "Multilingual SEO, localisation and AI consulting are the mechanisms. Enquiries are the product, and enquiries are what gets counted.",
+    lede: "Traffic in several languages and enquiries in one is the pattern we are called about most. What gets counted here is the enquiry, in the market it came from.",
     metaTitle: "Multilingual lead generation, Mike Bastin",
-    metaDescription: "Multilingual SEO, localisation and AI consulting are the mechanisms behind one outcome, enquiries. See how the engagement measures and delivers them.",
+    metaDescription: "Traffic in several languages and enquiries in one? Multilingual lead generation counts the enquiry, market by market, and is judged on that number.",
     sections: ["What gets measured", "How it is delivered", "The evidence", ...ENGAGEMENT.slice(2)],
     // No `body` or `expandables` here on purpose: lead-generation has its own
     // hand-built route at app/services/lead-generation/page.tsx rather than
@@ -207,9 +207,9 @@ export const SERVICES: Service[] = [
     inline: "conversion tracking",
     cluster: "Lead generation",
     angle: "The evidence layer, per locale",
-    lede: "Measuring enquiries per locale rather than per domain. Without it, a market that converts and a market that only gets traffic look identical in the reporting.",
+    lede: "You can see which markets bring traffic. Whether the French visitors ever turn into customers is a different question, and one merged report will never answer it.",
     metaTitle: "Conversion tracking per locale, Mike Bastin",
-    metaDescription: "Enquiries measured per locale, not per domain, so a market that converts and one that only gets traffic finally look different in the reporting.",
+    metaDescription: "Traffic per market is easy to see. Which language earns the enquiries is not, until conversion tracking is set up per locale rather than per domain.",
     sections: ["Why a single blended number hides the problem", ...ENGAGEMENT],
     body: [
       {
@@ -293,7 +293,7 @@ export const SERVICES: Service[] = [
       {
         heading: "What actually goes into the engagement",
         paragraphs: [
-          "Native research in each target language covers real commercial intent and long-tail phrasing per market, never a set translated from English. Subdirectory, subdomain or ccTLD gets a reasoned recommendation rather than a default, with hreflang, sitemaps and Search Console geo-targeting configured per language from the start.",
+          "A global SEO programme starts with native research in each target language, covering real commercial intent and long-tail phrasing per market, never a set translated from English. Subdirectory, subdomain or ccTLD gets a reasoned recommendation rather than a default, with hreflang, sitemaps and Search Console geo-targeting configured per language from the start.",
           "Writing runs fluent and direct for French, English, Spanish and Dutch, and through native copywriters from the BeTranslated network for German, Italian, Portuguese and other languages. LocalBusiness, Service, Article and FAQ schema is built per language and validated on Google's Rich Results tool, and the same work extends to how ChatGPT, Claude, Perplexity and AI Overviews answer in each language.",
         ],
       },
@@ -514,9 +514,9 @@ export const SERVICES: Service[] = [
     inline: "Spanish SEO",
     cluster: "Search",
     angle: "SEO Spain, researched here rather than abroad",
-    lede: "Spain from Spain. The Valencia base is not a line in a bio, it is why the local search behaviour is familiar rather than researched.",
+    lede: "Your Spanish pages are read in Madrid, Mexico City and Bogotá, and what convinces a buyer in one of them reads as foreign in the next. We work Spain from Valencia, and the Latin American variants through native copywriters based in the region.",
     metaTitle: "Spanish SEO from Valencia, Mike Bastin",
-    metaDescription: "Spanish SEO run from Valencia, Spain, not researched from abroad. See why the local search behaviour here is familiar rather than guessed at.",
+    metaDescription: "Spanish SEO for buyers in Madrid, Mexico City and Bogotá, who do not read the same page the same way. Spain run from Valencia, Latin America by native writers.",
     sections: ["Three ways to fail at Spanish SEO", ...ENGAGEMENT],
     body: [
       {
@@ -806,9 +806,9 @@ export const SERVICES: Service[] = [
     inline: "local SEO",
     cluster: "Search",
     angle: "Off-site, one location at a time",
-    lede: "Google Business Profile, citations, NAP consistency and the map pack, for multilingual cities where the same street gets searched in more than one language. Discipline and consistency, not tricks.",
+    lede: "Somebody a few streets away searches for exactly what you sell and gets a competitor who is no better, only more consistent about where they appear. In a city that searches in two languages, the gap is twice as wide.",
     metaTitle: "Local SEO services and Google Business Profile",
-    metaDescription: "Google Business Profile, citations and NAP consistency for multilingual cities, where the same street gets searched in more than one language.",
+    metaDescription: "Somebody nearby searches for what you sell and finds a competitor who is no better, only easier to find. Local SEO for cities that search in two languages.",
     sections: [
       "Google Business Profile audit and full optimisation",
       "Citation cleanup and NAP consistency across directories",
@@ -887,9 +887,9 @@ export const SERVICES: Service[] = [
     cluster: "Localisation",
     pillar: true,
     angle: "Beyond translated strings",
-    lede: "Making a site work in a market rather than merely readable in a language, which is a question of currency, form fields, trust signals and search behaviour as much as words.",
+    lede: "Your site has been translated and it still reads as foreign. The prices, the form fields, the trust marks and the way people search all still belong to somewhere else, and none of it is fixed by the words.",
     metaTitle: "Website localisation, Mike Bastin",
-    metaDescription: "Making a site work in a market, not just readable in a language, covering currency, form fields, trust signals and local search behaviour.",
+    metaDescription: "Translated and still reading as foreign, from the prices to the form fields to the way people search? Website localisation is the job the words alone do not do.",
     sections: ["Why localisation is not translation", ...ENGAGEMENT],
     body: [
       {
@@ -959,9 +959,9 @@ export const SERVICES: Service[] = [
     cluster: "Localisation",
     pillar: true,
     angle: "Where accuracy is a liability question",
-    lede: "Legal, medical, financial, academic and certified work, where a mistranslated term is not a ranking problem but an exposure. Delivered through the BeTranslated network, run for twenty years.",
+    lede: "You have a contract, a patient record or a birth certificate that a court, a regulator or an embassy has to accept, and a wrong term in it costs you a deadline or worse. Work goes through the BeTranslated network, co-founded and run for twenty years.",
     metaTitle: "Translation services, Mike Bastin",
-    metaDescription: "Legal, medical, financial and certified translation, delivered through the BeTranslated network run for twenty years. Accuracy as a liability question.",
+    metaDescription: "A contract, a patient record or a certificate a court or an embassy has to accept. Certified and sworn translation services through the BeTranslated network.",
     sections: ["Where a translation error actually costs", ...ENGAGEMENT],
     body: [
       {
@@ -1039,9 +1039,9 @@ export const SERVICES: Service[] = [
     inline: "app and software localisation",
     cluster: "Localisation",
     angle: "Strings, and everything around them",
-    lede: "Interface text that has to survive being twice as long in German, right to left in Arabic, and reviewed by an app store in a language nobody on the team reads.",
+    lede: "You are shipping the product into a market that writes longer sentences than English, sometimes reads right to left, and reviews you in a store nobody on the team can read. What breaks first is rarely the translation.",
     metaTitle: "App and software localisation",
-    metaDescription: "Software and app localisation for interface text that survives being longer in German, right to left in Arabic, and reviewed by an app store.",
+    metaDescription: "Shipping into a market that writes longer than English and sometimes reads right to left? App and software localisation covers what breaks before the words do.",
     sections: ["What breaks when software crosses a language", ...ENGAGEMENT],
     body: [
       {
@@ -1103,9 +1103,9 @@ export const SERVICES: Service[] = [
     cluster: "AI",
     pillar: true,
     angle: "AI consultants who say where AI does not help",
-    lede: "Where AI genuinely shortens multilingual work, and where it quietly produces text that reads fine and ranks for nothing. Knowing the difference is the service.",
+    lede: "Somebody has told you AI can handle your German content, and some of it can. The part that decides whether the page earns anything is the part that still needs a person who reads German.",
     metaTitle: "AI consulting for multilingual SEO",
-    metaDescription: "Where AI genuinely shortens multilingual work, and where it quietly produces text that reads fine and ranks for nothing. Knowing the difference.",
+    metaDescription: "Told that AI can handle your German content? Some of it can. AI consulting that says which part still needs a person who reads the language.",
     sections: ["Where AI helps, and where it does not", ...ENGAGEMENT],
     body: [
       {
@@ -1170,9 +1170,9 @@ export const SERVICES: Service[] = [
     inline: "AI translation and post-editing",
     cluster: "AI",
     angle: "Machine first, human decisive",
-    lede: "Machine translation has become good enough to be dangerous: fluent output that is confidently wrong is harder to catch than obviously broken output.",
+    lede: "Your pages came back from the machine reading fluently, which is the problem. A sentence that is confidently wrong is far harder to catch than one that is obviously broken.",
     metaTitle: "AI translation and post-editing",
-    metaDescription: "Machine translation is now good enough to be dangerous, fluent and confidently wrong. See the post-editing process built to catch it.",
+    metaDescription: "Machine-translated pages that read fluently are the hard case, not the broken ones. AI translation and post-editing catches what reads right and is wrong.",
     sections: ["Why fluent output is the harder problem", ...ENGAGEMENT],
     body: [
       {
@@ -1408,9 +1408,9 @@ export const SERVICES: Service[] = [
     inline: "multilingual content",
     cluster: "Supporting",
     angle: "Written per market, not translated",
-    lede: "Copy researched against the market it is for, because the keyword set that works in English rarely survives translation into the one that works in Spanish.",
+    lede: "Your Spanish page is a translation of your English one, so it answers the question an English buyer asks. Spanish buyers phrase the problem differently, and they are out looking for the other version.",
     metaTitle: "Multilingual content, written per market",
-    metaDescription: "Copy researched for the market it is written for, because the keyword set that works in English rarely survives translation into Spanish.",
+    metaDescription: "A Spanish page translated from English answers the question an English buyer asks. Multilingual content is researched and written for the market reading it.",
     sections: ["Why translated copy underperforms written copy", ...ENGAGEMENT],
     body: [
       {
