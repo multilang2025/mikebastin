@@ -214,13 +214,15 @@ const CLUSTERS: {
     // business and marketing writing rather than multilingual SEO, so they
     // get an honest cluster of their own rather than a placeholder. The
     // other two went to SEO fundamentals, where they always belonged.
+    //
+    // Nine now: business-registration-in-valencia left for valenciamove.com,
+    // which already ranks a page on the same S.L. and autonomo ground.
     name: "Business and marketing",
     service: "lead-generation",
     posts: [
       "360-marketing-agency",
       "affiliate-marketing-programs",
       "best-vietnam-sourcing-agencies-for-eudr-supplier-scouting-and-audits",
-      "business-registration-in-valencia",
       "global-business-trends",
       "how-to-write-about-your-professional-background",
       "human-creator-economy",

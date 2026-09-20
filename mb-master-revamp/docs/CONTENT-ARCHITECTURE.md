@@ -1232,18 +1232,19 @@ section 2.
 version they never had on mikebastin.com.
 
 **Stays on mikebastin.com** (B2B funnel, inside the border):
-optimising-your-website-for-valencia-based-searches,
-business-registration-in-valencia.
+optimising-your-website-for-valencia-based-searches.
 
 b2b-trade-shows-in-valencia was proposed for this list and the owner
 decided against it on 21 Aug: it relocates with the rest. The B2B framing
 was not enough to hold it, because the search behind it is still a
 Valencia search.
 
-business-registration-in-valencia is the last unresolved one. The
-handoff proposes it stays; `scripts/flag-thin.mjs` had it relocating,
-which was an error on our side rather than a decision. It is aligned to
-the handoff for now and needs the same explicit call.
+business-registration-in-valencia was the last unresolved one, and the
+owner called it on 20 Sep: it relocates, to
+https://valenciamove.com/company-formation-spain/. That page is already
+titled for starting a business in Valencia and covers the same S.L. and
+autonomo steps, so `scripts/flag-thin.mjs` turned out to have had it
+right. Nothing on the STAY list is unsigned now.
 
 ---
 
