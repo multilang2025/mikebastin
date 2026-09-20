@@ -93,10 +93,15 @@ function LocaleSwitcher({
  * The button and the theme toggle are both items in the nav row now, so
  * neither can overlap the other and the nav needs no reserved gutter.
  *
- * The menu carries the contact details as well as the links. A phone is
- * where someone reads a page and wants to call or mail there and then,
- * and making them open the contact page first to find an address loses
- * exactly the enquiry the site is for.
+ * The menu is a panel rather than a list of rows. On a phone it is the
+ * one moment where someone has stopped reading and is deciding what to
+ * do next, so it is built to answer that: the links in the display face
+ * at a size worth tapping, then the call to action, then the contact
+ * details, then the language switcher.
+ *
+ * Carrying the contact details matters more here than anywhere else.
+ * Someone who wants to ring or mail while the page is still in front of
+ * them should not have to load the contact page to find an address.
  */
 export default function SiteNav({
   localeManifest,
@@ -114,6 +119,25 @@ export default function SiteNav({
     document.addEventListener("keydown", onKey);
     return () => document.removeEventListener("keydown", onKey);
   }, [open]);
+
+  // The page behind an open menu should not scroll under it. Restoring
+  // the previous value rather than clearing the property leaves anything
+  // else that sets overflow alone.
+  useEffect(() => {
+    if (!open) return;
+    const previous = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    return () => {
+      document.body.style.overflow = previous;
+    };
+  }, [open]);
+
+  // Each link closes the menu itself, which covers a tap. Closing on the
+  // path as well covers the back button, where the menu would otherwise
+  // still be sitting open over a page the reader did not ask for.
+  useEffect(() => {
+    setOpen(false);
+  }, [pathname]);
 
   return (
     <header
@@ -218,37 +242,89 @@ export default function SiteNav({
       {open && (
         <div
           id="mb-mobile-menu"
-          className="border-t sm:hidden"
+          className="mb-menu border-t sm:hidden"
           style={{ borderColor: "var(--rule)", background: "var(--bg)" }}
         >
-          <ul className="shell flex flex-col py-2 text-[1rem]">
-            {LINKS.map((l) => {
-              const active =
-                l.href !== "/#work" &&
-                l.href !== "/#contact" &&
-                pathname === l.href;
-              return (
-                <li key={l.href}>
-                  <Link
-                    href={l.href}
-                    onClick={() => setOpen(false)}
-                    className="block border-b py-3.5"
-                    style={{
-                      borderColor: "var(--rule)",
-                      color: active ? "var(--berry)" : "var(--ink)",
-                    }}
+          <nav aria-label="Site" className="shell pt-3">
+            <ul className="flex flex-col">
+              {LINKS.map((l, i) => {
+                const active =
+                  l.href !== "/#work" &&
+                  l.href !== "/#contact" &&
+                  pathname === l.href;
+                return (
+                  <li
+                    key={l.href}
+                    className="mb-menu-row"
+                    style={{ animationDelay: `${20 + i * 22}ms` }}
                   >
-                    {l.label}
-                  </Link>
-                </li>
-              );
-            })}
-          </ul>
-          <div className="shell flex flex-col gap-3 pb-5 pt-4">
+                    <Link
+                      href={l.href}
+                      onClick={() => setOpen(false)}
+                      aria-current={active ? "page" : undefined}
+                      className="display flex items-center justify-between border-b py-4 text-[1.22rem] font-semibold leading-[1.2]"
+                      style={{
+                        borderColor: "var(--rule)",
+                        color: active ? "var(--berry)" : "var(--ink)",
+                      }}
+                    >
+                      {l.label}
+                      {active ? (
+                        <span
+                          aria-hidden="true"
+                          className="h-[6px] w-[6px] shrink-0 rounded-full"
+                          style={{ background: "var(--berry)" }}
+                        />
+                      ) : (
+                        <svg
+                          width="16"
+                          height="16"
+                          viewBox="0 0 24 24"
+                          aria-hidden="true"
+                          className="shrink-0 opacity-30"
+                        >
+                          <path
+                            d="m9 5 7 7-7 7"
+                            fill="none"
+                            stroke="currentColor"
+                            strokeWidth="1.8"
+                            strokeLinecap="round"
+                          />
+                        </svg>
+                      )}
+                    </Link>
+                  </li>
+                );
+              })}
+            </ul>
+          </nav>
+
+          {/* The menu is the one place on a phone where someone has
+              stopped reading and is deciding what to do next, so it ends
+              with the thing the site is for rather than trailing off
+              after the last link. */}
+          <div
+            className="mb-menu-row shell pt-6"
+            style={{ animationDelay: `${20 + LINKS.length * 22}ms` }}
+          >
+            <Link
+              href="/contact/"
+              onClick={() => setOpen(false)}
+              className="btn btn-primary btn-lg btn-full"
+            >
+              Book the discovery call
+            </Link>
+          </div>
+
+          <div
+            className="mb-menu-row shell flex flex-col gap-3 pb-7 pt-7"
+            style={{ animationDelay: `${40 + LINKS.length * 22}ms` }}
+          >
+            <p className="eyebrow">Or reach us directly</p>
             <a
               href="mailto:hello@mikebastin.com"
               onClick={() => setOpen(false)}
-              className="text-[.95rem]"
+              className="text-[1.02rem]"
               style={{ color: "var(--ink)" }}
             >
               hello@mikebastin.com
@@ -256,20 +332,31 @@ export default function SiteNav({
             <a
               href="tel:+34671175774"
               onClick={() => setOpen(false)}
-              className="text-[.95rem]"
+              className="text-[1.02rem]"
               style={{ color: "var(--ink)" }}
             >
               +34 671 17 57 74
             </a>
-            <span className="text-[.86rem]" style={{ color: "var(--dim)" }}>
-              Valencia, Spain
-            </span>
-            <div onClickCapture={() => setOpen(false)}>
-              <LocaleSwitcher
-                manifest={localeManifest}
-                pathname={pathname ?? ""}
-              />
-            </div>
+            <p className="text-[.88rem]" style={{ color: "var(--dim)" }}>
+              Valencia, Spain, since 2016
+            </p>
+
+            {/* LocaleSwitcher renders nothing on a page with no published
+                siblings, which is most of them. Asking the manifest here
+                too keeps the rule and its spacing from being drawn round
+                an empty element. */}
+            {localeManifest[pathname ?? ""] && (
+              <div
+                className="mt-2 border-t pt-4"
+                style={{ borderColor: "var(--rule)" }}
+                onClickCapture={() => setOpen(false)}
+              >
+                <LocaleSwitcher
+                  manifest={localeManifest}
+                  pathname={pathname ?? ""}
+                />
+              </div>
+            )}
           </div>
         </div>
       )}
