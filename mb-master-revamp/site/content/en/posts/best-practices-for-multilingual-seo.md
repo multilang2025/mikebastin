@@ -1,6 +1,6 @@
 ---
 words: 1051
-title: "Best Multilingual SEO in 2026: from rankings to everywhere presence"
+title: "Ranking is no longer where multilingual SEO ends"
 slug: "best-practices-for-multilingual-seo"
 locale: "en"
 type: "posts"
@@ -9,7 +9,7 @@ wpId: 24845454
 date: "2024-10-28T16:24:29"
 modified: "2026-07-19T11:28:46"
 sourceUrl: "https://mikebastin.com/best-practices-for-multilingual-seo/"
-excerpt: "Multilingual SEO in 2026 demands more than rankings. Keyword localisation, hreflang, structured data, and GEO strategies build an everywhere presence across search, AI answers, and every target market. Assess your multilingual strategy."
+excerpt: "Multilingual SEO now takes more than rankings. Keyword localisation, hreflang, structured data and GEO build a presence across search, AI answers and every target market."
 ---
 
 ## Multilingual SEO in 2026: from rankings to everywhere presence

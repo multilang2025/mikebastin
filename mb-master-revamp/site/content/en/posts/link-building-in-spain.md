@@ -1,6 +1,6 @@
 ---
 words: 912
-title: "Local Link Building in Spain"
+title: "Local link building in Spain"
 slug: "link-building-in-spain"
 locale: "en"
 type: "posts"

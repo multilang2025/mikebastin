@@ -1,6 +1,6 @@
 ---
 words: 731
-title: "15 Simple Blog Post Ideas to Help Attract More Customers to Your Business"
+title: "Blog post ideas that attract customers, not just traffic"
 slug: "15-simple-blog-post-ideas-to-help-attract-more-customers-to-your-business"
 locale: "en"
 type: "posts"

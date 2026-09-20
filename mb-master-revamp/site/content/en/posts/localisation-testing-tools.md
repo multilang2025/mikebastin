@@ -1,6 +1,6 @@
 ---
 words: 711
-title: "The Ultimate Guide to Localisation Testing Tools"
+title: "Localisation testing tools, and what each one catches"
 slug: "localisation-testing-tools"
 locale: "en"
 type: "posts"

@@ -1,6 +1,6 @@
 ---
 words: 1758
-title: "What is Search Intent Mapping?"
+title: "What is search intent mapping?"
 slug: "what-is-search-intent-mapping"
 locale: "en"
 type: "posts"

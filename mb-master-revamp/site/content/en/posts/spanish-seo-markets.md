@@ -1,6 +1,6 @@
 ---
 words: 820
-title: "Why Your Business Can’t Ignore Spanish SEO Markets in 2026"
+title: "Why Spanish SEO is not optional"
 slug: "spanish-seo-markets"
 locale: "en"
 type: "posts"

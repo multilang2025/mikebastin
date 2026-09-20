@@ -19,6 +19,15 @@ function postPath(locale: Locale, slug: string): string {
   return locale === "en" ? `/blog/${slug}/` : `/${locale}/${slug}/`;
 }
 
+// Service pages' manifest entries (merged into getLocaleManifest() by
+// lib/services-locale.ts) use a different URL shape than posts'
+// (/services/<slug>/ vs /blog/<slug>/), so the switcher decides which
+// shape to reconstruct from whether the current page is itself a service
+// page, rather than from anything the manifest value carries.
+function servicePath(locale: Locale, slug: string): string {
+  return locale === "en" ? `/services/${slug}/` : `/${locale}/services/${slug}/`;
+}
+
 /**
  * Language switcher, shown only on a page whose manifest entry names
  * siblings (built from getLocaleManifest() -- groups with a single
@@ -29,6 +38,9 @@ function LocaleSwitcher({ manifest, pathname }: { manifest: Record<string, Local
   const siblings = manifest[pathname];
   if (!siblings) return null;
 
+  const isService = pathname.includes("/services/");
+  const buildPath = isService ? servicePath : postPath;
+
   const locales = (Object.keys(siblings) as Locale[]).sort(
     (a, b) => ["en", "fr", "es"].indexOf(a) - ["en", "fr", "es"].indexOf(b)
   );
@@ -36,7 +48,7 @@ function LocaleSwitcher({ manifest, pathname }: { manifest: Record<string, Local
   return (
     <ul className="flex shrink-0 items-center gap-x-3 text-[.8rem] uppercase tracking-[.06em]" style={{ color: "var(--dim)" }}>
       {locales.map((locale) => {
-        const href = postPath(locale, siblings[locale]!);
+        const href = buildPath(locale, siblings[locale]!);
         const active = href === pathname;
         return (
           <li key={locale}>

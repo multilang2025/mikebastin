@@ -1,7 +1,7 @@
 ---
 words: 572
 editorial: "light"
-title: "10 Common Mistakes to Avoid When Localising Your Website for International Markets"
+title: "Website localisation mistakes that cost you the market"
 slug: "common-mistakes-to-avoid-when-localising-your-website"
 locale: "en"
 type: "posts"

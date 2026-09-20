@@ -34,6 +34,23 @@ Checks:
 Report as pass/fail per WCAG success criterion touched, with the specific
 element and both theme values checked.
 
+## Headings, titles and eyebrows
+
+Headings and titles must be grammatical; eyebrows need not be
+(HANDOFF.md section 4). Any `h1` to `h6`, `<title>`, meta title or link
+label you produce or touch has to read as correct English, with acronyms
+and proper adjectives cased properly (SEO, AI, French, never seo/ai/french)
+and subject and verb agreeing. An eyebrow is exempt and may carry the
+keyword-shaped form ("SEO Italy"), but may not repeat the heading it sits
+above. Never build a heading by case-shifting a label.
+
+A heading is also an assistive-technology landmark, so an ungrammatical
+one is read aloud verbatim. Check headings as announced, not just as seen.
+
+Sentence case everywhere. Capitalise the first word, proper nouns and
+acronyms only. Title Case is a fail, including on a title carried over
+from WordPress: convert it, protecting the acronyms, never keep it.
+
 ## Findings from the H1 audit (19 Sep 2026)
 
 - The blog cover cards carry `alt` text repeating the h1 immediately above

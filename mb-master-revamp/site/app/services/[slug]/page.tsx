@@ -4,8 +4,9 @@ import Link from "next/link";
 import Reveal from "@/components/Reveal";
 import SiteFooter from "@/components/SiteFooter";
 import JsonLd from "@/components/JsonLd";
-import { SERVICES, getService } from "@/lib/services";
+import { SERVICES, getService, CLUSTER_INLINE } from "@/lib/services";
 import { SITE_URL, breadcrumbSchema, serviceSchema } from "@/lib/schema";
+import { serviceGroupForEnSlug, serviceHreflang } from "@/lib/services-locale";
 
 // lead-generation has its own hand-built route at app/services/lead-generation/,
 // with the testimonial wall this template does not carry. Excluded here so the
@@ -25,10 +26,16 @@ export async function generateMetadata({
   const title = service.metaTitle ?? `${service.name}, Mike Bastin`;
   const description = service.metaDescription ?? service.lede;
   const canonical = `${SITE_URL}/services/${service.slug}/`;
+  // FR/ES siblings only exist for the 10 of these 21 EN service slugs that
+  // have a qualifying `type: "service"` group in content-map.json (see
+  // lib/services-locale.ts's file header); the rest are consolidated
+  // pages with nothing to link to, so this stays undefined for them.
+  const group = serviceGroupForEnSlug(service.slug);
+  const languages = group ? serviceHreflang(group) : undefined;
   return {
     title,
     description,
-    alternates: { canonical },
+    alternates: { canonical, ...(languages ? { languages } : {}) },
     // The og:image/twitter:image tags themselves come from the colocated
     // opengraph-image.tsx (Next.js's file-convention metadata, injected
     // automatically per docs/opengraph-image.md), not from an `images`
@@ -220,9 +227,9 @@ export default async function ServicePage({
       <section className={`band band-${engagementBand} py-[clamp(56px,8vw,110px)]`}>
         <div className="shell">
           <Reveal>
-            <p className="eyebrow mb-3">How the engagement runs</p>
+            <p className="eyebrow mb-3">From the brief to the reporting</p>
             <h2 className="mb-10 max-w-[22ch] text-[clamp(1.7rem,3.2vw,2.5rem)] font-semibold leading-[1.12]">
-              How the {service.name} engagement runs
+              How the {service.inline} engagement runs
             </h2>
           </Reveal>
           <ol className="grid gap-px sm:grid-cols-2" style={{ background: "var(--rule)" }}>
@@ -246,7 +253,7 @@ export default async function ServicePage({
           <Reveal>
             <p className="eyebrow mb-3">The next step</p>
             <h2 className="mb-5 max-w-[24ch] text-[clamp(1.7rem,3.2vw,2.5rem)] font-semibold leading-[1.12]">
-              Find out what {service.name.toLowerCase()} is worth in your markets
+              Find out what {service.inline} could be worth in your markets
             </h2>
           </Reveal>
           <Reveal i={1}>
@@ -306,7 +313,7 @@ export default async function ServicePage({
         <section className={`band band-${siblingsBand} py-[clamp(56px,8vw,110px)]`}>
           <div className="shell">
             <Reveal>
-              <p className="eyebrow mb-6">Also in {service.cluster.toLowerCase()}</p>
+              <p className="eyebrow mb-6">Also in {CLUSTER_INLINE[service.cluster] ?? service.cluster}</p>
             </Reveal>
             <ul className="flex flex-wrap gap-x-8 gap-y-3">
               {siblings.map((s) => (

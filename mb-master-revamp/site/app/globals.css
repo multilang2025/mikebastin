@@ -534,3 +534,42 @@ select.control {
 }
 .post-body img { border-radius: 4px; margin: 1.6em 0; }
 .post-body > :first-child { margin-top: 0; }
+
+/* ===========================================================
+   Scroll reveal (components/Reveal.tsx)
+
+   Visible at rest. The hidden state only exists once the pre-paint
+   script in app/layout.tsx has added .mb-anim to <html>, so exported
+   HTML never ships content at opacity 0 and a page cannot go blank
+   because a script or a bundle failed to load.
+   =========================================================== */
+
+.reveal { opacity: 1; }
+
+html.mb-anim .reveal {
+  opacity: 0;
+  transform: translate3d(var(--rx, 0), var(--ry, 26px), 0);
+  filter: blur(6px);
+  will-change: opacity, transform, filter;
+}
+
+html.mb-anim .reveal.is-in {
+  opacity: 1;
+  transform: none;
+  filter: blur(0);
+  will-change: auto;
+  transition:
+    opacity .85s cubic-bezier(.22, .7, .28, 1) var(--rd, 0s),
+    transform .85s cubic-bezier(.22, .7, .28, 1) var(--rd, 0s),
+    filter .85s cubic-bezier(.22, .7, .28, 1) var(--rd, 0s);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html.mb-anim .reveal,
+  html.mb-anim .reveal.is-in {
+    opacity: 1;
+    transform: none;
+    filter: none;
+    transition: none;
+  }
+}

@@ -46,7 +46,10 @@ function Card({ t, i }: { t: Testimonial; i: number }) {
   return (
     <motion.figure
       layout
-      initial={still ? false : { opacity: 0, y: 20 }}
+      // initial={false}: an entry fade would serialise opacity:0 into the
+      // exported HTML and the wall would read as empty without JS. The layout
+      // and exit animations below still carry the filter reflow.
+      initial={false}
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 0.55, delay: still ? 0 : (i % 3) * 0.07, ease: [0.22, 0.7, 0.28, 1] }}

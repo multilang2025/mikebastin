@@ -1,6 +1,6 @@
 ---
 words: 1076
-title: "Top 10 Affiliate Marketing Programs"
+title: "Affiliate marketing programs worth the setup time"
 slug: "affiliate-marketing-programs"
 locale: "en"
 type: "posts"
@@ -9,7 +9,7 @@ wpId: 24845190
 date: "2024-10-21T13:03:21"
 modified: "2026-07-02T15:09:48"
 sourceUrl: "https://mikebastin.com/affiliate-marketing-programs/"
-excerpt: "Explore the top 10 high-paying affiliate programs for 2024, ideal for content creators and marketers looking to monetize effectively."
+excerpt: "High-paying affiliate programs worth the setup time, and what each one actually pays content creators and marketers."
 ---
 
 ## Affiliate programmes that still pay well in 2026
