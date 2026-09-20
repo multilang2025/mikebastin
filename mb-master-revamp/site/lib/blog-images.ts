@@ -1,11 +1,16 @@
 /**
  * Featured images for the journal, taken from the legacy WordPress site.
  *
- * Every one of these 56 posts already had a featured image on
- * mikebastin.com, so the rebuild had no reason to draw an abstract
- * substitute for it (owner, 20 Sep). `components/PostArt.tsx` stays as
- * the fallback for a post with no entry here, which is what a newly
- * written post gets until a picture is chosen for it.
+ * Every one of these already had a featured image on mikebastin.com, so
+ * the rebuild had no reason to draw an abstract substitute for it
+ * (owner, 20 Sep). `components/PostArt.tsx` stays as the fallback for a
+ * post with no entry here, which is what a newly written post gets until
+ * a picture is chosen for it.
+ *
+ * 57 entries for 56 posts: competitor-analysis-traffic-checklist is a
+ * hand-built page rather than a post (HAND_BUILT_SLUGS in lib/posts.ts),
+ * but it is a cluster pillar, so the journal index renders it beside the
+ * others and it needs a picture on the same terms.
  *
  * `legacy` records where each file came from, relative to
  * https://mikebastin.com/wp-content/uploads/, so the set can be rebuilt
@@ -42,6 +47,7 @@ export const BLOG_IMAGES: Record<string, BlogImage> = {
   "chrome-extensions-for-translators": { width: 1200, height: 848, alt: "A pile of Google Chrome logos", legacy: "2024/09/browser-web-www-computer-773216.jpg" },
   "common-mistakes-to-avoid-when-localising-your-website": { width: 1200, height: 705, alt: "A hand writing the words common mistakes on a notepad", legacy: "2024/09/common-mistakes-to-avoid-when-cocalizing-your-website.jpg" },
   "competitor-analysis": { width: 1200, height: 686, alt: "A desk with two open laptops, each showing an analytics dashboard", legacy: "2026/01/competitoranalysis.jpg" },
+  "competitor-analysis-traffic-checklist": { width: 1200, height: 686, alt: "A fountain pen resting on a printed checklist, with reading glasses and a monitor showing a traffic dashboard behind", legacy: "2026/01/competitoranalysistrafficcheck.jpg" },
   "content-optimisation-for-spanish-users": { width: 1200, height: 482, alt: "A woman smiling at an outdoor cafe table on a Spanish street", legacy: "2024/10/spanish-users.jpg" },
   "conversational-ai-chatbots-business": { width: 1200, height: 675, alt: "A tablet in an office showing a chatbot conversation with flags for several languages", legacy: "2026/04/conversational-ai-chatbots-business-practical-uses.webp" },
   "digital-marketing-advisor": { width: 1200, height: 686, alt: "A man studying a flip chart that compares an advisor model with an agency model", legacy: "2026/01/digitalmarketingadvisoragencyd.jpg" },

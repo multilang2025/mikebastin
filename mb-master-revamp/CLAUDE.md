@@ -46,7 +46,10 @@ Same model as valenciamove.com, which the owner already runs at larger scale
   The build is `output: "export"` with `images: { unoptimized: true }`, so
   nothing gains from `next/image`; sizes are baked at build time instead.
   Each of the 56 migrated posts shows **the featured image it already had
-  on WordPress** (owner, 20 Sep). `lib/blog-images.ts` maps slug to file,
+  on WordPress** (owner, 20 Sep), as does the hand-built
+  `competitor-analysis-traffic-checklist` page, which is a cluster pillar
+  and so appears on the journal index beside them.
+  `lib/blog-images.ts` maps slug to file,
   alt text and the legacy upload path it came from;
   `scripts/fetch-legacy-images.mjs` rebuilds `public/images/blog/` from
   that map, writing `<slug>.webp` at 1200px and `<slug>-thumb.webp` at
