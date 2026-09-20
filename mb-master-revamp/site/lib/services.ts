@@ -239,7 +239,58 @@ export const SERVICES: Service[] = [
         ],
       },
     ],
+    expandablesHeading: "How a multi-market programme gets sequenced",
+    expandablesLede:
+      "The method from global-seo-solutions, the legacy page this one replaces and the largest single URL on the domain.",
+    expandables: [
+      {
+        q: "Nine languages at launch is how you get nine pages that rank nowhere",
+        a: [
+          "The brief that arrives most often asks for English, French, Spanish, German, Italian, Portuguese, Dutch, Japanese and Chinese from day one. What it produces is nine thin versions, several of them machine-translated, none with the depth to rank anywhere. Four markets done properly beats nine done badly, every time we have compared them.",
+          "Expansion runs in waves instead: a first wave of three or four markets where the evidence is strongest, and a second wave that stays a test until the first shows traction. No second wave before then, which is the part that gets argued about and the part that saves the budget.",
+        ],
+      },
+      {
+        q: "How a market earns its place in the first wave",
+        a: [
+          "Candidate markets, usually eight to twelve at the start, get scored on five things: search volume, competitive difficulty, commercial fit with what you actually sell, the cost of localising for them, and the regulatory load they bring with them.",
+          "The output is a ranked list rather than an opinion, which matters because the market someone in the room feels strongly about is rarely the one the scoring puts first. A decision point around the half-year mark says which test markets get promoted and which get dropped.",
+        ],
+      },
+      {
+        q: "ccTLD, subdomain or subdirectory, at portfolio scale",
+        a: [
+          "The choice turns on budget, how much authority you can afford to split, and how much a local buyer needs to see a local domain before they trust you. A ccTLD per market is the strongest local signal and the most expensive thing to maintain. A subdirectory keeps the authority in one place and is the right default for most companies adding markets rather than founding local businesses.",
+          "It is decided once, early, because moving later costs more than getting it slightly wrong at the start costs you.",
+        ],
+      },
+      {
+        q: "Localisation is not translation, and the keyword proves it",
+        a: [
+          "A removalist in Australia is a removals company in the UK, and nobody in London searches for the first word. Translate the page and the term is correct and unsearched. The same trap runs through currency, units, legal references, payment methods, trust badges and the customer names you cite as proof.",
+          "Regulatory framing changes with it: GDPR in the EU, CCPA in California, LGPD in Brazil. A page that quotes the wrong one is telling a local reader it was written for somebody else.",
+        ],
+      },
+      {
+        q: "The technical floor, below which good content cannot rank",
+        a: [
+          "Hreflang validated per market rather than assumed, a sitemap split by language, slugs translated rather than left in the source language, and schema localised per country. Broken or circular hreflang is the single most common finding in the audits we run, and it caps everything above it.",
+          "Geo-IP belongs to soft suggestions only. Hard-redirecting a visitor by IP on an hreflang site hides the other versions from the crawler and strands anyone travelling, which is a lot of the business audience.",
+        ],
+      },
+      {
+        q: "Links and citations are earned country by country",
+        a: [
+          "A backlink from local press, a sector association or a regional directory in the target country is worth considerably more than a generic international link, because relevance in international search is geographic as well as topical.",
+          "The same now applies to AI answers. Which sources get cited varies by country and by language, and the knowledge graphs behind them are not unified, so being the answer in one market says nothing about being the answer in the next.",
+        ],
+      },
+    ],
     absorbs: ["global-seo-solutions", "internationalisation", "language-solutions", "multilingual-branding"],
+    // 90-day window. Over 450 days to 17 Sep 2026 this page took 4,084, but
+    // the number that matters is the one arriving through it: the legacy
+    // /services/global-seo-solutions/ it replaces took 51,064 on its own,
+    // more than any live page on the domain, and 301s here.
     gsc: { impressions: 1405, position: 55.2, keywords: 34 },
   },
   {
