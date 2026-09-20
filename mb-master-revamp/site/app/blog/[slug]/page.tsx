@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import PostArt from "@/components/PostArt";
+import PostImage from "@/components/PostImage";
 import Reveal from "@/components/Reveal";
 import SiteFooter from "@/components/SiteFooter";
 import JsonLd from "@/components/JsonLd";
@@ -129,10 +129,11 @@ export default async function BlogPostPage({
               className="overflow-hidden rounded-[4px] border"
               style={{ borderColor: "var(--rule)" }}
             >
-              <PostArt
+              <PostImage
                 slug={post.slug}
                 cluster={post.cluster}
                 rounded
+                priority
                 className="aspect-[1200/630] w-full"
               />
             </div>

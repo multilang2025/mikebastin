@@ -50,7 +50,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Mike Bastin, multilingual search consultant",
     description:
-      "Multilingual SEO, localisation and AI consulting. Ranking in EN, converting in FR, localised in ES, indexed in NL.",
+      "Multilingual SEO, localisation and AI consulting from Valencia. Written natively market by market, with enquiries counted per language.",
     locale: "en_GB",
     type: "website",
   },

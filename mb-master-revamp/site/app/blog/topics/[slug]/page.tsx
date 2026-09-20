@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import PostArt from "@/components/PostArt";
+import PostImage from "@/components/PostImage";
 import Reveal from "@/components/Reveal";
 import SiteFooter from "@/components/SiteFooter";
 import { getTopics, type Topic } from "@/lib/posts";
@@ -98,7 +98,7 @@ export default async function TopicPage({
               <Reveal key={post.slug} i={i}>
                 <li className="band h-full" style={{ background: "var(--bg)" }}>
                   <Link href={`/blog/${post.slug}/`} className="flex h-full flex-col">
-                    <PostArt slug={post.slug} cluster={topic.name} className="aspect-[1200/630] w-full" />
+                    <PostImage slug={post.slug} cluster={topic.name} className="aspect-[1200/630] w-full" />
                     <div className="flex flex-1 flex-col px-7 py-6">
                       <span className="ulink mb-2 text-[1.02rem] font-semibold leading-[1.3]">
                         {post.title}

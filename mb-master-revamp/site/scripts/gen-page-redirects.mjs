@@ -38,14 +38,45 @@ const cm = JSON.parse(readFileSync(MAP, "utf8"));
 // longer carries the legacy one this rule needs to redirect from.
 const LEGACY_EN_SLUG = { g048: "pricing" };
 
-const rows = cm.groups
-  .filter((g) => g.type === "page" && g.action === "reposition" && g.en)
-  .map((g) => {
-    const legacy = LEGACY_EN_SLUG[g.group];
-    if (!legacy) throw new Error(`no legacy EN slug recorded for reposition group "${g.group}", add it to LEGACY_EN_SLUG`);
-    return { group: g.group, from: legacy, to: g.en.slug };
-  })
-  .sort((a, b) => a.from.localeCompare(b.from));
+/**
+ * Legacy pages with no page of their own on the new site, pointed at the
+ * page that now does their job.
+ *
+ * Found on 20 Sep by resolving docs/sitemap-MB-EN.txt against the built
+ * output and the generated rules: five URLs of record had neither a page
+ * nor a redirect, so they would have 404ed on launch, against the rule in
+ * CLAUDE.md that says none of them may. Four are marked `migrate` to
+ * `mdx` in content-map.json and have content files, but no route was ever
+ * written to render them, so they fell through the build and through
+ * every generator. The fifth was never in the content map at all.
+ *
+ * They are listed here rather than given routes because none of them
+ * needs to exist as a page: the new site answers all four questions
+ * somewhere else. /contact-us/ and /about-us/ are also the two most
+ * linked-to targets in the whole harvested corpus, 23 and 18 links.
+ */
+const RETIRED_PAGES = [
+  { from: "contact-us", to: "contact", why: "/contact/ is the live contact page" },
+  { from: "about-us", to: "how-i-work", why: "no about page; how-i-work carries the same ground" },
+  { from: "our-services", to: "services", why: "the services index replaced it" },
+  { from: "404-2", to: "", why: "a stray WordPress 404 page, sent to the homepage" },
+  {
+    from: "how-to-use-twitter-for-beginners",
+    to: "blog",
+    why: "never harvested, no content file and no successor. 1,522 impressions at position 70, so the hub is the honest target rather than a page that does not cover it",
+  },
+];
+
+const rows = [
+  ...cm.groups
+    .filter((g) => g.type === "page" && g.action === "reposition" && g.en)
+    .map((g) => {
+      const legacy = LEGACY_EN_SLUG[g.group];
+      if (!legacy) throw new Error(`no legacy EN slug recorded for reposition group "${g.group}", add it to LEGACY_EN_SLUG`);
+      return { group: g.group, from: legacy, to: g.en.slug };
+    }),
+  ...RETIRED_PAGES.map((r) => ({ group: "retired-page", from: r.from, to: r.to, why: r.why })),
+].sort((a, b) => a.from.localeCompare(b.from));
 
 const block = [
   BEGIN,

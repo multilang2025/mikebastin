@@ -18,7 +18,7 @@ Twenty-five years in, we have read more “competitor analysis” reports than w
 
 Most look impressive in an exec deck. Most do nothing for SEO performance.
 
-One [law firm we have worked with](https://mikebastin.com/services/law-firm-seo-services/) for three years was convinced its main rival was a well-known boutique two streets away. After one afternoon of proper SERP-level checking, the actual organic rivals turned out to be three solo practitioners with twelve-page websites and very tight local on-page work.
+One [law firm we have worked with](/blog/law-firm-seo-services/) for three years was convinced its main rival was a well-known boutique two streets away. After one afternoon of proper SERP-level checking, the actual organic rivals turned out to be three solo practitioners with twelve-page websites and very tight local on-page work.
 
 The boutique they obsessed over barely ranked.
 
@@ -44,7 +44,7 @@ When a client asks us to analyse five rivals, this is what we actually pull.
 
 **Real keyword overlap.** Strip brand terms from both sides. Filter “common keywords” reports to queries with buying intent. The clean list is usually one tenth of the raw export.
 
-For the methodical version of this on traffic specifically, see our [competitor traffic analysis checklist](https://mikebastin.com/competitor-analysis-traffic-checklist/).
+For the methodical version of this on traffic specifically, see our [competitor traffic analysis checklist](/competitor-analysis-traffic-checklist/).
 
 ### Why most of your rivals’ pages are decorative
 
@@ -106,11 +106,11 @@ Three competitor lists. Three different content briefs. Three different link str
 
 UK and US agencies regularly copy a single English-market analysis across all language versions. The output is wasted budget and content that ranks nowhere. If you operate across countries, expect to do the analysis once per language, not once per company.
 
-For the deeper view, see [best practices for multilingual SEO](https://mikebastin.com/best-practices-for-multilingual-seo/).
+For the deeper view, see [best practices for multilingual SEO](/blog/best-practices-for-multilingual-seo/).
 
 ### AI search shifts the question, not the method
 
-Yes, [GEO](https://mikebastin.com/generative-engine-optimization/) matters. Yes, ChatGPT and Perplexity citations now factor into B2B buyer journeys. The underlying competitor logic does not change much.
+Yes, [GEO](/services/generative-engine-optimization/) matters. Yes, ChatGPT and Perplexity citations now factor into B2B buyer journeys. The underlying competitor logic does not change much.
 
 What we add for clients now: a small layer of “who gets cited in AI answers for our buyer prompts”. We run five to ten prompts a real prospect might genuinely use, log the cited domains, and check overlap with the traditional SERP rivals.
 
@@ -142,8 +142,8 @@ Outside those moments, weekly competitor reports are mostly busy work.
 
 If you suspect your team is benchmarking against the wrong list, we can pull a focused SERP-level **competitor analysis** for one of your priority queries inside an hour.
 
-We do this for clients in legal, freight, real estate, and translation across six languages, working from [Valencia](https://mikebastin.com/about-us/).
+We do this for clients in legal, freight, real estate, and translation across six languages, working from [Valencia](/how-i-work/).
 
 The SERP does not care about org charts. Neither should your analysis.
 
-[Get in touch](https://mikebastin.com/contact-us/) or look at [how we run multilingual SEO programmes](https://mikebastin.com/services/multilingual-seo/).
+[Get in touch](/contact/) or look at [how we run multilingual SEO programmes](/services/multilingual-seo/).

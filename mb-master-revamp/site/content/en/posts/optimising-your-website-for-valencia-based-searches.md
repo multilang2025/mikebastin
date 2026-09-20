@@ -32,7 +32,7 @@ From essential optimisation techniques to Valencia-specific strategies, you’ll
 
 * * *
 
-## Keyword Research for Valencia
+## Keyword research for Valencia
 
 Think of keyword research as mapping Valencia’s digital streets, it’s your guide to understanding how locals search for businesses like yours.
 
@@ -42,7 +42,7 @@ Just as each barrio has its own character, your local audience has unique ways o
 
 Your digital success depends on identifying and targeting the precise terms your local audience uses, a skill that sets professional local SEO agencies apart in Valencia’s competitive market.
 
-### Using Keyword Research Tools
+### Using keyword research tools
 
 Tools like [Google Keyword Planner](https://ads.google.com/home/tools/keyword-planner/), [Ahrefs](https://ahrefs.com/), and [SEMrush](https://www.semrush.com/) are essential for uncovering high-value local keywords. These platforms allow you to:
 
@@ -50,7 +50,7 @@ Tools like [Google Keyword Planner](https://ads.google.com/home/tools/keyword-pl
 -   **Analyse Competition:** Determine the competitiveness of each keyword to prioritize your efforts.
 -   **Discover Related Keywords:** Find variations and long-tail keywords that can capture more specific search intents.
 
-### Importance of Long-Tail Keywords
+### Importance of long-tail keywords
 
 Long-tail keywords are like detailed directions to your services rather than general signposts. While someone might begin with a broad search for “massage Valencia”, those closer to booking often use more specific phrases like “[traditional Thai massage near Ruzafa Valencia](https://www.ro-ki.net/treatments/thai-yoga-massage/)” or “deep tissue Thai massage Ciutat Vella”.
 
@@ -60,7 +60,7 @@ They might progress from “massage parlours Valencia” to “authentic Thai ma
 
 These detailed searches often indicate a higher intent to book, much like someone asking for specific directions to your establishment rather than just the general neighbourhood.
 
-### Integrating Valencia-Specific Phrases
+### Integrating Valencia-specific phrases
 
 Incorporate Valencia-specific phrases to enhance relevance. Examples include:
 
@@ -69,9 +69,9 @@ Incorporate Valencia-specific phrases to enhance relevance. Examples include:
 -   **Valencia Events:** Engaging users interested in local happenings.
 -   **Legal Services in Valencia:** Reaching out to those seeking professional services.
 
-### Analysing Search Intent
+### Analysing search intent
 
-[Search intent mapping](https://mikebastin.com/what-is-search-intent-mapping/) is like decoding your potential clients’ digital body language. Just as a skilled Thai massage therapist reads physical tension, you need to interpret what Valencian searchers truly want. Are they merely curious about Thai massage techniques, actively comparing prices in El Carmen, or ready to book a session near the Central Market?
+[Search intent mapping](/blog/what-is-search-intent-mapping/) is like decoding your potential clients’ digital body language. Just as a skilled Thai massage therapist reads physical tension, you need to interpret what Valencian searchers truly want. Are they merely curious about Thai massage techniques, actively comparing prices in El Carmen, or ready to book a session near the Central Market?
 
 Someone typing “Thai massage benefits” signals a different stage in their journey compared to “book Thai massage Valencia today” or “Thai massage therapist near us open now”.
 
@@ -103,13 +103,13 @@ Valencia real estate listings
 
 Transactional
 
-## Improving Site Structure and Metadata
+## Improving site structure and metadata
 
 Picture your website as a well-organised Valencia mercado, where each element leads customers directly to what they need. Clear structure and precise metadata serve as your digital signposts, much like the street signs that guide visitors through the city’s historic centre.
 
 For maximum visibility in local searches, these digital markers must include specific Valencia-based terms and location references.
 
-### Optimising Titles, Meta Descriptions, and Headers
+### Optimising titles, meta descriptions, and headers
 
 Ensure that your primary keywords are included in strategic places:
 
@@ -120,7 +120,7 @@ Ensure that your primary keywords are included in strategic places:
 -   **Header Tags (H1, H2, H3):** Use headers to organize content and include local keywords naturally.  
     _Example H2:_ “Top-Rated Valencia Coffee Shops”
 
-### Internal Linking Strategies
+### Internal linking strategies
 
 Internal linking helps search engines understand the structure of your website and improves user navigation. Focus on linking to Valencia-based pages or blog posts to highlight your local relevance.
 
@@ -128,14 +128,14 @@ Internal linking helps search engines understand the structure of your website a
     _Example:_ In a blog post about Valencia restaurants, link to a page listing top dining spots.
 -   **Navigation Menus:** Include a dedicated section for Valencia services or locations in your main navigation.
 
-### Creating a Localised Sitemap
+### Creating a localised sitemap
 
 A sitemap helps search engines crawl and index your website more efficiently. Ensure your sitemap includes all Valencia-specific pages to enhance local SEO.
 
 -   **XML Sitemap:** Submit an updated XML sitemap to Google Search Console to improve indexing.
 -   **HTML Sitemap:** Provide a user-friendly HTML sitemap that lists all Valencia-related pages for easy navigation.
 
-#### Sitemap Generators
+#### Sitemap generators
 
 Based on the search results, here’s a list of notable sitemap generators:
 
@@ -208,7 +208,7 @@ Developed by Tilman Hausherr, this free Windows application is essential for web
 
 These tools offer a range of features to suit different needs, from simple sitemap generation to advanced SEO capabilities and visual site mapping.
 
-### Ensuring Mobile-Friendliness
+### Ensuring mobile-friendliness
 
 With the increasing use of mobile devices, ensuring your website is mobile-friendly is critical. Google prioritizes mobile-friendly sites in its rankings, especially for local searches.
 
@@ -216,7 +216,7 @@ With the increasing use of mobile devices, ensuring your website is mobile-frien
 -   **Fast Loading Speeds:** Optimise images and use browser caching to improve page load times on mobile devices.
 -   **User-Friendly Navigation:** Simplify navigation menus and ensure buttons and links are easily clickable on smaller screens.
 
-#### Top 5 Popular Chrome Extensions for Mobile View Testing
+#### Top 5 popular Chrome extensions for mobile view testing
 
 1.  [Mobile View Switcher](https://chromewebstore.google.com/detail/mobile-view-switcher/bmhfelbhbkeoldaiphchjibggnoodpcj)
     -   Easily switch to mobile view with a toolbar button
@@ -234,7 +234,7 @@ With the increasing use of mobile devices, ensuring your website is mobile-frien
     -   Straightforward device simulation
     -   Easy-to-use dropdown for device selection
 
-## Measuring Localised Search Performance
+## Measuring localised search performance
 
 Tracking and analysing your local SEO efforts is essential to understand what’s working and where improvements are needed.
 
@@ -253,14 +253,14 @@ These tools provide complete insights into your website’s performance:
     -   **Index Coverage:** Ensure all your Valencia pages are indexed correctly without errors.
     -   **Mobile Usability:** Identify and fix any mobile usability issues that could impact local users.
 
-### Key Metrics to Monitor
+### Key metrics to monitor
 
 -   **Bounce Rate:** High bounce rates may indicate that your content isn’t meeting the expectations of local visitors.
 -   **Click-Through Rate (CTR):** A higher CTR suggests that your titles and meta descriptions are compelling to local users.
 -   **Average Session Duration:** Longer sessions indicate that users find your content valuable and engaging.
 -   **Conversion Rate:** Track how effectively your site converts Valencia visitors into customers or leads.
 
-### Using Local SEO Tools
+### Using local SEO tools
 
 Tools like [BrightLocal](https://www.brightlocal.com/) and [Moz Local](https://moz.com/products/local) offer specialized features for tracking and improving local search rankings.
 
@@ -272,11 +272,11 @@ Tools like [BrightLocal](https://www.brightlocal.com/) and [Moz Local](https://m
     -   **Listing Management:** Distribute your business information to numerous local directories.
     -   **Local Insights:** Gain insights into your local search performance and identify opportunities for improvement.
 
-## Practical Tips and FAQs
+## Practical tips and FAQs
 
 Implementing local SEO strategies can be straightforward with the right approach. Here are some practical tips and answers to common questions to help you get started.
 
-### Practical Tips
+### Practical tips
 
 -   **Use Google Our Business:**  
     Create and optimise your [Google Our Business](https://www.google.com/business/) listing to improve your visibility in local searches and Google Maps. Ensure your business information is accurate and regularly updated.
@@ -290,7 +290,7 @@ Implementing local SEO strategies can be straightforward with the right approach
 -   **Use Structured Data Markup:**  
     Implement schema markup to help search engines understand your content better. It can enhance your listings with rich snippets, making them more attractive in search results.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 ### How do we rank for Valencia-specific searches?
 

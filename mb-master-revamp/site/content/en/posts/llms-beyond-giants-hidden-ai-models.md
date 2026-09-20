@@ -12,7 +12,7 @@ sourceUrl: "https://mikebastin.com/llms-beyond-giants-hidden-ai-models/"
 excerpt: "While ChatGPT and Gemini dominate headlines, the LLM field is rich with lesser-known models worth knowing about. We cover 10 impactful LLMs redefining AI beyond the giants."
 ---
 
-## Beyond ChatGPT: 10 LLMs That Deserve More Attention in 2026
+## Beyond ChatGPT: 10 LLMs that deserve more attention in 2026
 
 When we talk about Large Language Models, the conversation defaults to ChatGPT, Claude, Gemini, and Llama.
 
@@ -136,10 +136,10 @@ The strategic point is that the LLM space is not winner-take-all. The household 
 
 If you are picking an LLM in 2026, ask yourself three questions: Does the licence allow what we actually want to do? Does the model handle our target language well? Can we run it where we need it to run, including on-device? The answers eliminate 90 percent of the field very quickly.From our work helping clients pick AI stacks, 2026
 
-For more on how AI is reshaping search and content work, see our pieces on [how AI is revolutionising SEO](https://mikebastin.com/how-ai-is-revolutionising-seo-strategies/) and [how AI is transforming translation and localisation](https://mikebastin.com/how-ai-is-transforming-translation-and-localisation/).
+For more on how AI is reshaping search and content work, see our pieces on [how AI is revolutionising SEO](/blog/how-ai-is-revolutionising-seo-strategies/) and [how AI is transforming translation and localisation](/blog/how-ai-is-transforming-translation-and-localisation/).
 
 ### Need help picking the right AI stack for your business?
 
 We help businesses navigate the AI space, from picking the right LLM for multilingual content to integrating AI into existing SEO and translation workflows. Get advice that is grounded in production reality, not vendor marketing.
 
-[Get in touch](https://mikebastin.com/contact-us/)
+[Get in touch](/contact/)

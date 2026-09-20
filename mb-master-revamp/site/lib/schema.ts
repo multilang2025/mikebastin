@@ -70,6 +70,10 @@ export const professionalServiceSchema = {
   "@type": "ProfessionalService",
   "@id": BUSINESS_ID,
   name: "Mike Bastin",
+  /** Owner's motto, 20 Sep. `slogan` is the property schema.org has for
+   *  exactly this, so it goes here rather than being wedged into
+   *  `description`, which answers a different question. */
+  slogan: "Automating business. Translating ideas. Connecting people.",
   description:
     "Multilingual SEO, localisation and AI consulting from Valencia, Spain.",
   url: SITE_URL,

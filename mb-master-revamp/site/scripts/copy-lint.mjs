@@ -20,6 +20,40 @@ import { join } from "path";
 const CONTENT = new URL("../content/", import.meta.url).pathname;
 
 /**
+ * The content files that actually render.
+ *
+ * The prose rules below apply to everything, because a file can be revived.
+ * The content checks added on 20 Sep (heading case, legacy links,
+ * harvester artifacts) apply only to what builds: a Title Case heading in
+ * a post that was retired this morning is not a defect, and a lint that
+ * fails on dead files is a lint people learn to ignore.
+ *
+ * Same qualification the site itself uses: a post or service group whose
+ * action is "migrate" to "mdx", with the per-locale override applied.
+ */
+const LIVE = (() => {
+  const cm = JSON.parse(
+    readFileSync(new URL("../../redirects/content-map.json", import.meta.url).pathname, "utf8")
+  );
+  const live = new Set();
+  for (const g of cm.groups) {
+    if (g.type !== "post" && g.type !== "service") continue;
+    for (const loc of ["en", "fr", "es"]) {
+      const e = g[loc];
+      if (!e || !e.content_path) continue;
+      const action = g.locale_actions?.[loc] ?? g.action;
+      if (action !== "migrate" || g.destination !== "mdx") continue;
+      // competitor-analysis-traffic-checklist has a hand-built route and
+      // its file-backed body is deliberately never rendered
+      // (lib/posts.ts, HAND_BUILT_SLUGS), so its file is not live copy.
+      if (e.slug === "competitor-analysis-traffic-checklist") continue;
+      live.add(e.content_path);
+    }
+  }
+  return live;
+})();
+
+/**
  * Matched on the stem, not the exact word.
  *
  * The first version of this list matched whole words only, which meant
@@ -140,6 +174,113 @@ function lint(raw) {
   return issues;
 }
 
+/**
+ * Checks that only make sense against a content file's body, added after a
+ * 20 Sep audit found the lint reporting 141 of 141 files clean while the
+ * live English corpus carried 688 Title Case headings, 574 links to the
+ * legacy WordPress URL structure and a block of JSON-escaped HTML. The
+ * prose rules above were real; nothing was watching the rest.
+ */
+/**
+ * Proper nouns, learned from the corpus rather than listed.
+ *
+ * A hand-written list is permanently incomplete: the first version of this
+ * check flagged "Jean Marie Cordaro", "Link Whisper", "LinkBoss" and
+ * "Bonzai" as Title Case, because a person and three products are not
+ * things a list of countries and acronyms knows about. A word that appears
+ * capitalised mid-sentence in body prose, more often than it appears
+ * lowercase, is a name.
+ */
+const LEARNED_NAMES = (() => {
+  const mid = new Map();
+  const low = new Map();
+  const bump = (m, k) => m.set(k, (m.get(k) || 0) + 1);
+  for (const locale of ["en"]) {
+    const lp = join(CONTENT, locale);
+    for (const type of readdirSync(lp)) {
+      const tp = join(lp, type);
+      if (!statSync(tp).isDirectory()) continue;
+      for (const f of readdirSync(tp)) {
+        if (!f.endsWith(".md")) continue;
+        const b = readFileSync(join(tp, f), "utf8").replace(/^#.*$/gm, "");
+        for (const sent of b.split(/(?<=[.!?])\s+/)) {
+          const ws = sent.match(/[^\W\d_][\w'\u2019-]*/gu) || [];
+          for (const w of ws.slice(1)) bump(/^[A-Z]/.test(w) ? mid : low, w.toLowerCase());
+        }
+      }
+    }
+  }
+  const out = new Set();
+  for (const [w, n] of mid) if (n >= 3 && n > (low.get(w) || 0) * 2) out.add(w);
+  return out;
+})();
+
+function contentOnlyIssues(body) {
+  const out = [];
+
+  // A heading is sentence case (CLAUDE.md, owner decision 19 Sep). Two or
+  // more capitalised words after the first, none of them an acronym or a
+  // name, is Title Case. The threshold is deliberately two rather than
+  // one, so "Search Console" or "Core Web Vitals" in an otherwise correct
+  // heading does not trip it.
+  const NAMEY = /^(SEO|AI|GEO|AEO|PPC|LLMs?|UX|UI|CMS|APIs?|ROI|CTAs?|CTR|B2B|B2C|EU|EUDR|GDPR|URLs?|FAQs?|EEAT|AEAT|HTML|CSS|JSON|XML|SERPs?|ISO|VAT|NIE|SL|I|Google|WordPress|ChatGPT|Ahrefs|Moz|Semrush|Analytics|Search|Console|Web|Vitals|Business|Profile|Maps|Ads|Planner|Shopify|WooCommerce|DeepL|Spain|Spanish|France|French|Germany|German|Dutch|Netherlands|Italy|Italian|Portugal|Portuguese|Brazil|Belgium|Switzerland|Europe|European|America|American|China|Chinese|Japan|Japanese|Valencia|Madrid|Barcelona|Michael|Mike|Bastin|Latin|English|Nano|Banana|Pro|Gemini|Claude|Vietnam|Vietnamese|Sagrada|Familia|Gaud\u00ed)$/;
+  // Multi-word product names the learned set cannot reach, because their
+  // parts ("Manager", "Whisper") are ordinary words that appear lowercase
+  // far more often than not. Removed from the heading before it is judged,
+  // rather than whitelisted as words, so "Project Manager" elsewhere is
+  // still caught.
+  const PRODUCTS = /\b(Interlinks Manager|Autolinks Manager|Link Whisper|Internal Link Juicer|Yoast SEO|Rank Math|Screaming Frog|Core Web Vitals|Google Business Profile|Search Console|Google Analytics|Keyword Planner|Nano Banana Pro)\b/g;
+
+  for (const m of body.matchAll(/^#{2,4} (.+)$/gm)) {
+    const h = m[1].trim();
+    if (/^\*\*.*\*\*$/.test(h)) {
+      out.push({ rule: "heading", detail: "bolded heading", count: 1 });
+      continue;
+    }
+    // A heading can contain a full stop ("EEAT. The Google judge"), and the
+    // word after it is correctly capitalised. Judge each sentence in the
+    // heading on its own rather than treating the whole line as one.
+    const words = h
+      .replace(PRODUCTS, "")
+      .split(/(?<=[.!?])\s+/)
+      .flatMap((sent) => (sent.match(/[^\W\d_][\w'\u2019-]*/gu) || []).slice(1));
+    const shouty = words
+      .filter(
+        (w) =>
+          /^[A-Z]/.test(w) &&
+          w !== w.toUpperCase() &&
+          !NAMEY.test(w) &&
+          !LEARNED_NAMES.has(w.toLowerCase()) &&
+          // an accented capitalised word in English prose is a name
+          !(/[^\x00-\x7F]/.test(w) && /^[A-Z]/.test(w))
+      );
+    if (words.length >= 3 && shouty.length >= 2) {
+      out.push({ rule: "heading", detail: "Title Case heading, use sentence case", count: 1 });
+    }
+  }
+
+  // Links to the legacy WordPress URL structure. Every one of these is
+  // either a redirect hop or a 404 on the new site, and they arrived by
+  // the hundred with the harvested content.
+  const legacy = body.match(/\]\(https:\/\/mikebastin\.com/g);
+  if (legacy) {
+    out.push({ rule: "link", detail: "link to the legacy mikebastin.com URL", count: legacy.length });
+  }
+
+  // JSON-escaped HTML that lost its backslashes on the way out of
+  // WordPress, and raw HTML generally: neither belongs in a content file.
+  const escaped = body.match(/u003[cCeE]|u0022|u0026/g);
+  if (escaped) {
+    out.push({ rule: "artifact", detail: "JSON-escaped HTML from the harvester", count: escaped.length });
+  }
+  const wp = body.match(/wp-content\/uploads/g);
+  if (wp) {
+    out.push({ rule: "artifact", detail: "WordPress media path", count: wp.length });
+  }
+
+  return out;
+}
+
 const rows = [];
 for (const locale of readdirSync(CONTENT)) {
   const lp = join(CONTENT, locale);
@@ -161,6 +302,8 @@ for (const locale of readdirSync(CONTENT)) {
         .filter((l) => /^(excerpt|title):/.test(l))
         .join("\n");
       const issues = lint(body + "\n\n" + meta);
+      const rel = `site/content/${locale}/${type}/${f}`;
+      if (LIVE.has(rel)) issues.push(...contentOnlyIssues(body));
       rows.push({
         locale, type, slug: f.slice(0, -3),
         clean: issues.length === 0,

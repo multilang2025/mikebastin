@@ -42,7 +42,7 @@ Keywords picked from Google Keyword Planner without verifying real intent or loc
 
 Generic conversion tracking that mixes all markets together. You cannot tell which language is profitable, which is bleeding budget, which is mid. Decision-making becomes guesswork. Each market needs its own conversion tracking, attribution and KPI report. Without that, optimisation is theatre.
 
-Multilingual SEM is sequencing and discipline, not just translating ad copy. Campaigns built per market with native research, distinct ad accounts where it makes sense, dedicated tracking. Aligned with the [multilingual SEO](https://mikebastin.com/services/multilingual-seo/) structure to share keyword research and landing pages.
+Multilingual SEM is sequencing and discipline, not just translating ad copy. Campaigns built per market with native research, distinct ad accounts where it makes sense, dedicated tracking. Aligned with the [multilingual SEO](/services/multilingual-seo/) structure to share keyword research and landing pages.
 
 ## What we include in a multilingual SEM engagement
 
@@ -144,7 +144,7 @@ Creative video production for ads
 
 SEO content production
 
-⨯ covered by [multilingual SEO](https://mikebastin.com/services/multilingual-seo/)
+⨯ covered by [multilingual SEO](/services/multilingual-seo/)
 
 ## Why this team for multilingual SEM
 
@@ -154,7 +154,7 @@ SEM aligned with SEO from day one: same keyword research universe, same landing 
 
 Transparent media buying: budget paid directly to Google, Microsoft and Meta. No agency markup on spend. Management fee is the only compensation line, which keeps incentives aligned with your results, not with your gross ad spend.
 
-[More about the team →](https://mikebastin.com/about-us/)
+[More about the team →](/how-i-work/)
 
 ### When does SEM make sense vs SEO?
 
@@ -202,4 +202,4 @@ Quoted. Management fee depends on number of markets, platforms, complexity. Ad s
 
 We start by auditing your current paid accounts and identifying wasted spend per market. Quantified diagnosis, actionable recommendations. Free first call, no commitment.
 
-Related services: [multilingual SEO](https://mikebastin.com/services/multilingual-seo/) · [international SEO](https://mikebastin.com/services/global-seo-solutions/) · [local SEO](https://mikebastin.com/services/local-seo/)
+Related services: [multilingual SEO](/services/multilingual-seo/) · [international SEO](/services/multilingual-seo/) · [local SEO](/services/local-seo/)

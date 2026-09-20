@@ -12,7 +12,7 @@ sourceUrl: "https://mikebastin.com/email-marketing-hacks-boosting-open-rates-and
 excerpt: "Uncover advanced email marketing strategies to boost engagement and conversions. Learn how to write compelling subject lines and optimise for mobile."
 ---
 
-## Proven Strategies to Increase Email Performance and Drive Results
+## Proven strategies to increase email performance and drive results
 
 In the fast-changing digital marketing space, email remains a powerful tool for engaging customers and driving conversions.
 
@@ -20,11 +20,11 @@ With inboxes becoming increasingly crowded, it’s crucial to employ advanced te
 
 Below we cover strategies for writing compelling subject lines, optimising email content for mobile devices, and using personalisation and segmentation to boost open rates and conversions.
 
-### Writing Compelling Subject Lines
+### Writing compelling subject lines
 
 Your subject line is the gatekeeper to your email content. Here are some advanced techniques to make them irresistible:
 
-#### a) Use Power Words
+#### A) use power words
 
 Incorporate emotionally charged words that trigger curiosity or urgency. Examples include:
 
@@ -33,53 +33,53 @@ Incorporate emotionally charged words that trigger curiosity or urgency. Example
 -   “Breaking”
 -   “Insider”
 
-#### b) Employ the Curiosity Gap
+#### B) employ the curiosity gap
 
 Create intrigue by hinting at valuable information without giving it all away. For example:
 
 -   “The workout trick that’s changing lives”
 -   “You won’t believe what we’ve discovered about productivity”
 
-#### c) Personalisation Beyond First Names
+#### C) personalisation beyond first names
 
 Use data points beyond just names to create hyper-relevant subject lines:
 
 -   “ residents: Your local guide is here”
 -   “Based on your last purchase, we think you’ll love this”
 
-#### d) A/B Test Continuously
+#### D) A/B test continuously
 
 Regularly test different subject line styles, lengths, and elements to refine your approach.
 
-### Optimising Email Content for Mobile Devices
+### Optimising email content for mobile devices
 
 With over 60% of email opens occurring on mobile devices, mobile optimisation is non-negotiable.
 
-#### a) Embrace Responsive Design
+#### A) embrace responsive design
 
 Ensure your emails adapt to different screen sizes. Use a single-column layout for easy scrolling.
 
-#### b) Optimise for Quick Scanning
+#### B) optimise for quick scanning
 
 -   Use short paragraphs and bullet points
 -   Incorporate plenty of white space
 -   Make CTAs large and easily tappable (minimum 44×44 pixels)
 
-#### c) Optimise Images
+#### C) optimise images
 
 -   Use alt text for images in case they don’t load
 -   Compress images to reduce load times
 -   Consider using scalable vector graphics (SVGs) for logos and icons
 
-#### d) Test Across Multiple Devices and Email Clients
+#### D) test across multiple devices and email clients
 
 Use tools like Litmus or Email on Acid to preview your emails across various platforms.
 
-### 3\. Using Personalisation and Segmentation
+### 3\. Using personalisation and segmentation
 
 Personalisation goes beyond using a subscriber’s name. Here’s how to take it to the next level:
 
-#### a) Behavioural Segmentation
+#### A) behavioural segmentation
 
 Segment your list based on user behaviour:
 
@@ -87,18 +87,18 @@ Segment your list based on user behaviour:
 -   Email engagement levels
 -   Website browsing patterns
 
-#### b) Dynamic Content
+#### B) dynamic content
 
 Use dynamic content blocks that change based on subscriber data:
 
 -   Show different product recommendations based on past purchases
 -   Alter imagery to reflect the subscriber’s location or demographics
 
-#### c) Personalised Send Times
+#### C) personalised send times
 
 Analyse when each subscriber is most likely to open emails and send accordingly.
 
-#### d) Lifecycle-based Emails
+#### D) lifecycle-based emails
 
 Create targeted campaigns based on the customer’s journey:
 
@@ -106,23 +106,23 @@ Create targeted campaigns based on the customer’s journey:
 -   Re-engagement campaigns for inactive users
 -   Loyalty rewards for frequent customers
 
-### Advanced Analytics and Optimisation
+### Advanced analytics and optimisation
 
 To continually improve your email marketing, dive deep into your data:
 
-#### a) Look Beyond Open Rates
+#### A) look beyond open rates
 
 While important, open rates don’t tell the whole story. Focus on:
 
--   [Click-through rates](https://mikebastin.com/services/analytics-and-tracking/)
+-   [Click-through rates](/services/technical-seo/)
 -   Conversion rates
 -   Revenue per email
 
-#### b) Heat Mapping
+#### B) heat mapping
 
 Use heat mapping tools to see where subscribers are clicking within your emails.
 
-#### c) Predictive Analytics
+#### C) predictive analytics
 
 Use AI and machine learning to predict:
 
@@ -130,7 +130,7 @@ Use AI and machine learning to predict:
 -   Which products a customer is most likely to buy next
 -   When a customer is at risk of churning
 
-#### d) Automated Optimisation
+#### D) automated optimisation
 
 Use AI-powered tools that can automatically:
 

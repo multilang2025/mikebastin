@@ -241,12 +241,17 @@ body {
    Type
    =========================================================== */
 
+/* No `margin: 0` here. Tailwind's preflight already zeroes heading margins,
+   so this rule's copy of it was redundant, and because a plain element
+   selector outranks a utility class it silently beat every `mb-*` a heading
+   carried. Forty-nine headings across the site were asking for space under
+   themselves and getting none, which is why so many of them sat flush
+   against the paragraph or button below. */
 h1, h2, h3, .display {
   font-family: var(--font-fraunces), Georgia, serif;
   font-optical-sizing: auto;
   text-wrap: balance;
   letter-spacing: -.016em;
-  margin: 0;
 }
 
 .eyebrow {

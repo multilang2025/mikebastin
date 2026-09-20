@@ -42,15 +42,23 @@ function seedFrom(slug: string): () => number {
 const W = 1200;
 const H = 630;
 
-/** A wave across the full width, at the given vertical centre and shape. */
-function wave(y: number, amp: number, phase: number, periods: number): string {
+/**
+ * A wave across the full width, at the given vertical centre and shape.
+ *
+ * `precision` is 1 at full size and 0 for a thumbnail. At 56px wide a
+ * tenth of a viewBox unit is far below one device pixel, and the footer
+ * renders four of these on every page of the site, so the decimals are
+ * bytes shipped 150 times over for nothing.
+ */
+function wave(y: number, amp: number, phase: number, periods: number, precision = 1): string {
+  const n = (v: number) => v.toFixed(precision);
   const step = W / (periods * 2);
-  let d = `M0 ${(y + Math.sin(phase) * amp).toFixed(1)}`;
+  let d = `M0 ${n(y + Math.sin(phase) * amp)}`;
   for (let i = 0; i < periods * 2; i++) {
     const x1 = step * (i + 0.5);
     const x2 = step * (i + 1);
     const y2 = y + Math.sin(phase + (i + 1) * Math.PI) * amp;
-    d += ` Q${x1.toFixed(1)} ${(y + Math.sin(phase + (i + 0.5) * Math.PI) * amp * 2.1).toFixed(1)} ${x2.toFixed(1)} ${y2.toFixed(1)}`;
+    d += ` Q${n(x1)} ${n(y + Math.sin(phase + (i + 0.5) * Math.PI) * amp * 2.1)} ${n(x2)} ${n(y2)}`;
   }
   return d;
 }
@@ -85,11 +93,17 @@ export default function PostArt({
   cluster,
   className,
   rounded = false,
+  compact = false,
 }: {
   slug: string;
   cluster?: string;
   className?: string;
   rounded?: boolean;
+  /** Fewer strokes, for a thumbnail. The footer draws four of these on
+   *  every page of the site, so the full composition would be paid for
+   *  150 times over to be rendered at 56px wide, where the detail is not
+   *  visible anyway. */
+  compact?: boolean;
 }) {
   const rnd = seedFrom(slug);
   const family: Family = (cluster && FAMILY[cluster]) || "bands";
@@ -98,8 +112,8 @@ export default function PostArt({
   // function of the slug.
   const phase = rnd() * Math.PI * 2;
   const amp = 14 + rnd() * 30;
-  const periods = 1 + Math.floor(rnd() * 3);
-  const lines = 5 + Math.floor(rnd() * 4);
+  const periods = compact ? 1 : 1 + Math.floor(rnd() * 3);
+  const lines = compact ? 3 : 5 + Math.floor(rnd() * 4);
   const drift = rnd();
   const accentX = 0.18 + rnd() * 0.64;
   const tilt = -8 + rnd() * 16;
@@ -108,7 +122,7 @@ export default function PostArt({
 
   const body: React.ReactNode[] = [];
 
-  if (family === "meridians" || family === "bands" || family === "strata") {
+  if (compact || family === "meridians" || family === "bands" || family === "strata") {
     const spread = family === "strata" ? 34 : 58;
     // One line in the stack carries the accent colour. Without it a
     // wave-only composition reads as grey texture rather than artwork,
@@ -120,18 +134,38 @@ export default function PostArt({
       body.push(
         <path
           key={`w${i}`}
-          d={wave(y, family === "strata" ? amp * 0.4 : amp * (1 - i / (lines * 2)), phase + i * (0.5 + drift), periods)}
+          d={wave(
+            y,
+            family === "strata" ? amp * 0.4 : amp * (1 - i / (lines * 2)),
+            phase + i * (0.5 + drift),
+            periods,
+            compact ? 0 : 1
+          )}
           fill="none"
           stroke={isAccent ? "var(--berry)" : "currentColor"}
-          strokeWidth={isAccent ? 3.2 : family === "strata" ? 1.6 : 2.4}
+          // A 1200-unit viewBox drawn 56px wide scales by about 0.047, so a
+          // 2.4 stroke lands at a ninth of a device pixel and disappears.
+          // A thumbnail needs its strokes in viewBox units, not in the units
+          // that look right at full width.
+          strokeWidth={
+            compact
+              ? isAccent
+                ? 34
+                : 24
+              : isAccent
+                ? 3.2
+                : family === "strata"
+                  ? 1.6
+                  : 2.4
+          }
           strokeLinecap="round"
-          opacity={isAccent ? 0.95 : 0.18 + (i / lines) * 0.5}
+          opacity={compact ? (isAccent ? 1 : 0.4 + (i / lines) * 0.25) : isAccent ? 0.95 : 0.18 + (i / lines) * 0.5}
         />
       );
     }
   }
 
-  if (family === "meridians") {
+  if (family === "meridians" && !compact) {
     const cx = W * accentX;
     for (let i = 0; i < 4; i++) {
       body.push(
@@ -150,7 +184,7 @@ export default function PostArt({
     }
   }
 
-  if (family === "constellation") {
+  if (family === "constellation" && !compact) {
     const pts = Array.from({ length: 7 }, (_, i) => ({
       x: W * (0.1 + (i / 6) * 0.8) + (rnd() - 0.5) * 90,
       y: H * (0.25 + rnd() * 0.5),
@@ -195,7 +229,7 @@ export default function PostArt({
     );
   }
 
-  if (family === "rings") {
+  if (family === "rings" && !compact) {
     for (let i = 0; i < 5; i++) {
       body.push(
         <circle
@@ -212,7 +246,7 @@ export default function PostArt({
     }
   }
 
-  if (family === "converge") {
+  if (family === "converge" && !compact) {
     const tx = W * accentX;
     const ty = H * 0.5;
     for (let i = 0; i < 11; i++) {
@@ -238,7 +272,7 @@ export default function PostArt({
     );
   }
 
-  if (family === "ascent") {
+  if (family === "ascent" && !compact) {
     for (let i = 0; i < 7; i++) {
       const h = 60 + i * (34 + drift * 22);
       body.push(
@@ -277,19 +311,21 @@ export default function PostArt({
       focusable="false"
       style={{ color: "var(--dim)" }}
     >
-      <defs>
-        <linearGradient id={id} x1="0" y1="0" x2="1" y2="1">
-          <stop offset="0%" stopColor="var(--chip)" />
-          <stop offset="100%" stopColor="var(--bg)" />
-        </linearGradient>
-        <clipPath id={`${id}-c`}>
-          <rect x="0" y="0" width={W} height={H} rx={rounded ? 10 : 0} />
-        </clipPath>
-      </defs>
-      <g clipPath={`url(#${id}-c)`}>
+      {!compact && (
+        <defs>
+          <linearGradient id={id} x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stopColor="var(--chip)" />
+            <stop offset="100%" stopColor="var(--bg)" />
+          </linearGradient>
+          <clipPath id={`${id}-c`}>
+            <rect x="0" y="0" width={W} height={H} rx={rounded ? 10 : 0} />
+          </clipPath>
+        </defs>
+      )}
+      <g clipPath={compact ? undefined : `url(#${id}-c)`}>
         <rect x="0" y="0" width={W} height={H} fill="var(--bg)" />
-        <rect x="0" y="0" width={W} height={H} fill={`url(#${id})`} />
-        <g transform={`rotate(${tilt.toFixed(2)} ${W / 2} ${H / 2})`}>{body}</g>
+        {!compact && <rect x="0" y="0" width={W} height={H} fill={`url(#${id})`} />}
+        <g transform={`rotate(${tilt.toFixed(compact ? 0 : 2)} ${W / 2} ${H / 2})`}>{body}</g>
       </g>
     </svg>
   );

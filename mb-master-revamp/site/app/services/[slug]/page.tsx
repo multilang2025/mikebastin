@@ -115,14 +115,11 @@ export default async function ServicePage({
           <Reveal i={1}>
             <div className="mb-5 flex flex-wrap items-center gap-3">
               <span className="eyebrow">{service.angle}</span>
-              {service.pillar && (
-                <span
-                  className="rounded-[3px] px-2 py-[3px] text-[.66rem] uppercase tracking-[.1em]"
-                  style={{ background: "var(--berry-soft)", color: "var(--berry)" }}
-                >
-                  Pillar
-                </span>
-              )}
+              {/* The "Pillar" badge that used to sit here was the last one on
+                  the site. It is our word for how lib/services.ts organises
+                  the cluster, not a reason anyone hires us, and the owner
+                  asked for the internal shorthand to come off the sales
+                  pages. The flag still drives the footer's services column. */}
             </div>
           </Reveal>
           <Reveal i={2}>

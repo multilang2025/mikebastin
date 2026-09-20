@@ -42,7 +42,7 @@ Brazil is ~215 million speakers, the world’s 5th largest country by population
 
 Portugal: NIF / NIPC visible, EUR currency, GDPR-EU compliant cookie consent. Brazil: CNPJ visible, BRL currency, LGPD-compliant privacy policy, PIX and boleto payment methods for B2C ecommerce. The same site cannot satisfy both. Absence of expected local signals immediately erodes conversion in either market.
 
-Portuguese SEO starts with the strategic question: PT-PT, PT-BR, or both with distinct hreflang. Native writing per market by the appropriate copywriter from the [BeTranslated network](https://mikebastin.com/services/multilingual-seo/). No “Portuguese” content that satisfies neither side of the Atlantic.
+Portuguese SEO starts with the strategic question: PT-PT, PT-BR, or both with distinct hreflang. Native writing per market by the appropriate copywriter from the [BeTranslated network](/services/multilingual-seo/). No “Portuguese” content that satisfies neither side of the Atlantic.
 
 ## What we include in a Portuguese SEO engagement
 
@@ -134,11 +134,11 @@ Advanced Portuguese or Brazilian legal counsel
 
 Google Ads campaigns in Portuguese
 
-⨯ covered by [multilingual SEM](https://mikebastin.com/services/multilingual-sem/)
+⨯ covered by [multilingual SEM](/services/multilingual-sem/)
 
 Local presence per city in PT or BR (GBP, citations)
 
-⨯ covered by [local SEO](https://mikebastin.com/services/local-seo/)
+⨯ covered by [local SEO](/services/local-seo/)
 
 ## Why this model is more honest (and more effective)
 
@@ -148,7 +148,7 @@ The boundary is explicit. Many European SEO agencies “cover” Portuguese with
 
 The benefit: you pay for strategy where strategy is delivered, and for native writing where native writing is necessary, without an intermediary taking a margin to mask the reality.
 
-[More about the team →](https://mikebastin.com/about-us/)
+[More about the team →](/how-i-work/)
 
 ### Portugal, Brazil, or both?
 
@@ -196,4 +196,4 @@ Quoted. The price depends on scope (PT-PT only, PT-BR only, or both), editorial 
 
 We start with the strategic question: Portugal, Brazil, or both. Then a native-reviewed audit of your current Portuguese presence. Free first call, no commitment.
 
-Related services: [multilingual SEO](https://mikebastin.com/services/multilingual-seo/) · [international SEO](https://mikebastin.com/services/global-seo-solutions/) · [multilingual SEM](https://mikebastin.com/services/multilingual-sem/)
+Related services: [multilingual SEO](/services/multilingual-seo/) · [international SEO](/services/multilingual-seo/) · [multilingual SEM](/services/multilingual-sem/)

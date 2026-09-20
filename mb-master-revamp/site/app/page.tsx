@@ -176,8 +176,14 @@ export default function Home() {
           </Reveal>
 
           <Reveal i={4}>
+            {/* Three things the service pages already commit to, rather than
+                the old "Ranking in EN, converting in FR" strip. That one read
+                as wordplay and did not survive reading: it handed each
+                language a single outcome, as though English only ranked and
+                French only converted, and it named four markets when six
+                language SEO services exist, quietly dropping DE, IT and PT. */}
             <div className="flex flex-wrap items-center gap-x-3 gap-y-2 text-[.94rem]" style={{ color: "var(--dim)" }}>
-              {["Ranking in EN", "Converting in FR", "Localised in ES", "Indexed in NL"].map((t, i) => (
+              {["Written natively, market by market", "Hreflang decided in the brief", "Enquiries counted per language"].map((t, i) => (
                 <span key={t} className="flex items-center gap-3">
                   {i > 0 && <i className="block h-[3px] w-[3px] rounded-full" style={{ background: "var(--berry)" }} />}
                   {t}

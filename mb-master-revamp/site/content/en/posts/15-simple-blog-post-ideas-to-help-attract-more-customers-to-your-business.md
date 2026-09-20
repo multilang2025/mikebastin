@@ -128,7 +128,7 @@ Interviews borrow authority from established names in your field.
 
 Guest content also earns backlinks when interviewees share with their audiences.
 
-**Example:** A [marketing agency](https://mikebastin.com/360-marketing-agency/) interviews a Google Ads product manager on upcoming Performance Max changes.
+**Example:** A [marketing agency](/blog/360-marketing-agency/) interviews a Google Ads product manager on upcoming Performance Max changes.
 
 ### Future predictions
 

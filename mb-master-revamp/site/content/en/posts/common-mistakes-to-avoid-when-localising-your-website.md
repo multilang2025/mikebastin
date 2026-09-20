@@ -13,7 +13,7 @@ sourceUrl: "https://mikebastin.com/common-mistakes-to-avoid-when-localising-your
 excerpt: "Localising your website effectively is essential for global reach. Avoid common pitfalls with adapted content, local SEO, and cultural considerations. Discover 10 mistakes to avoid."
 ---
 
-## Website Localisation Errors That Could Cost You Global Customers
+## Website localisation errors that could cost you global customers
 
 If your website serves multiple countries, **localising your website** is essential to reaching new audiences and building trust in international markets.
 
@@ -25,7 +25,7 @@ Avoiding key mistakes can save you time, reduce costs, and improve your global r
 
 Here are 10 common mistakes to avoid when **localising your website for international markets**:
 
-### Ignoring Cultural Differences
+### Ignoring cultural differences
 
 Assuming content that works in one country will resonate everywhere is a costly mistake.
 
@@ -33,25 +33,25 @@ Assuming content that works in one country will resonate everywhere is a costly 
 
 Overlooking these can result in messaging that feels off, or worse, offensive.
 
-Use [cultural adaptation services](https://mikebastin.com/services/cultural-consulting/) to localise content to each audience’s expectations.
+Use [cultural adaptation services](/services/multilingual-content/) to localise content to each audience’s expectations.
 
-### Overlooking Local SEO
+### Overlooking local SEO
 
 Direct translation won’t improve your **search engine visibility** abroad.
 
 Each region has its own **search behaviour**, language nuances, and preferred search engines.
 
-Optimise with local SEO services and [region-specific keyword research](https://mikebastin.com/es/services/busqueda-palabras-clave/) to increase traffic and discoverability.
+Optimise with local SEO services and [region-specific keyword research](/services/technical-seo/) to increase traffic and discoverability.
 
-### Translating Word-for-Word
+### Translating word-for-word
 
 Literal translations often fail to communicate tone, intent, or local relevance.
 
 They can dilute your **brand identity** and cause confusion or disengagement.
 
-Instead, choose [transcreation](https://mikebastin.com/services/transcreation/) to adapt your voice, style, and message to local cultures.
+Instead, choose [transcreation](/services/translation-services/) to adapt your voice, style, and message to local cultures.
 
-### Ignoring Local Laws and Regulations
+### Ignoring local laws and regulations
 
 Each market has specific **data protection**, **cookie consent**, and **e-commerce laws**.
 
@@ -59,7 +59,7 @@ Non-compliance risks fines and damages your credibility.
 
 Ensure your **privacy policy**, **terms and conditions**, and **payment processes** follow local legal requirements.
 
-### Not Adapting Payment Methods
+### Not adapting payment methods
 
 **Payment preferences** vary by country, credit cards in the UK, iDEAL in the Netherlands, PayPal in Germany.
 
@@ -67,7 +67,7 @@ If users can’t pay how they want, they won’t complete their purchase.
 
 Offer **local payment gateways** to improve **checkout conversion** and build trust.
 
-### Overlooking User Experience (UX)
+### Overlooking user experience (UX)
 
 One design doesn’t suit every region.
 
@@ -75,7 +75,7 @@ Localise **UX and UI** elements like **date formats**, **currency symbols**, nav
 
 Ignoring local behaviour leads to frustration and high **bounce rates**.
 
-### Failing to Adjust Imagery and Visuals
+### Failing to adjust imagery and visuals
 
 Visuals must match local expectations and avoid cultural missteps.
 
@@ -83,7 +83,7 @@ Icons, gestures, dress codes, and family representations vary widely between cul
 
 Use culturally sensitive **visual content** to support your message and avoid confusion.
 
-### Neglecting Mobile Localisation
+### Neglecting mobile localisation
 
 Mobile usage trends differ globally, some markets are mobile-first, others desktop-heavy.
 
@@ -91,15 +91,15 @@ Ensure **responsive design** and **mobile optimisation** for every region.
 
 Don’t lose users due to slow load times or unreadable layouts on mobile devices.
 
-### Forgetting to Test Localised Versions
+### Forgetting to test localised versions
 
-[Test every localised website version](https://mikebastin.com/localisation-testing-tools/) before launch.
+[Test every localised website version](/blog/localisation-testing-tools/) before launch.
 
 Check **translation quality**, **navigation**, **form fields**, **payment gateways**, and **site speed**.
 
 Cross-browser and device compatibility are just as important as content accuracy.
 
-### Inconsistent Brand Voice
+### Inconsistent brand voice
 
 Global success depends on a consistent **brand voice** across all markets.
 
@@ -107,7 +107,7 @@ Localise your message without losing your personality or diluting your positioni
 
 Hire brand localisation experts to maintain consistency and impact in every language.
 
-### Conclusion: Avoid Mistakes with Professional Website Localisation
+### Conclusion: avoid mistakes with professional website localisation
 
 Website localisation isn’t just a technical task, it’s a strategic investment in your global presence.
 
@@ -115,6 +115,6 @@ By avoiding these mistakes, you’ll improve international visibility, strengthe
 
 If you’re ready to connect with international audiences through smart **website localisation**, let’s talk.
 
-With 25+ years in **SEO**, **translation**, and [digital marketing](https://mikebastin.com/services/digital-marketing/), we help businesses grow with culturally relevant, search-friendly websites that deliver real results.
+With 25+ years in **SEO**, **translation**, and [digital marketing](/services/multilingual-seo/), we help businesses grow with culturally relevant, search-friendly websites that deliver real results.
 
 **Contact us today** and make your website truly global.

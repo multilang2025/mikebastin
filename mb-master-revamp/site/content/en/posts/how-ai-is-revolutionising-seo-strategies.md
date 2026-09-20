@@ -26,7 +26,7 @@ SEO in 2026 demands understanding how AI works on both sides: the algorithms ran
 
 ### AI-powered keyword research
 
-[Keyword research](https://mikebastin.com/services/keyword-research/) no longer means finding high-volume terms.
+[Keyword research](/services/technical-seo/) no longer means finding high-volume terms.
 
 AI tools now map entire topic clusters, identify content gaps, and predict emerging search demand before competitors notice.
 
@@ -38,7 +38,7 @@ Google’s systems prioritise topical authority over individual keyword targetin
 
 A site covering a subject comprehensively outranks one optimising isolated pages for specific terms.
 
-AI tools help identify [long-tail keywords](https://mikebastin.com/long-tail-keywords/) that signal high purchase intent.
+AI tools help identify [long-tail keywords](/blog/multilingual-keyword-research/) that signal high purchase intent.
 
 These lower-volume queries often convert at 2-3x the rate of head terms, according to Backlinko research.
 
@@ -46,7 +46,7 @@ Predictive keyword tools now forecast seasonal trends 3-6 months ahead, allowing
 
 ### Content creation and AI assistance
 
-[Content quality](https://mikebastin.com/services/multilingual-seo-copywriting/) determines ranking success more than ever.
+[Content quality](/services/multilingual-content/) determines ranking success more than ever.
 
 Google’s helpful content system, updated throughout 2024 and 2025, specifically targets pages created primarily for search engines rather than users.
 
@@ -60,13 +60,13 @@ Human expertise adds original insights, professional experience, and editorial j
 
 Tools like SurferSEO, MarketMuse, and Frase analyse top-ranking content to identify required topics, optimal word counts, and semantic coverage.
 
-They provide data-driven briefs, but the [content strategy](https://mikebastin.com/how-to-create-a-targeted-content-strategy/) and unique angle remain human decisions.
+They provide data-driven briefs, but the [content strategy](/blog/how-to-create-a-targeted-content-strategy/) and unique angle remain human decisions.
 
 Sites publishing AI-generated content without expert review saw traffic drops of 30-60% following Google’s March 2024 update, according to Search Engine Journal analysis.
 
 ### AI-enhanced competitor analysis
 
-Competitor intelligence moved from monthly reports to real-time monitoring, though the fundamentals still matter, our [competitor analysis checklist](https://mikebastin.com/competitor-analysis-traffic-checklist/) walks through the manual audit that AI now accelerates.
+Competitor intelligence moved from monthly reports to real-time monitoring, though the fundamentals still matter, our [competitor analysis checklist](/competitor-analysis-traffic-checklist/) walks through the manual audit that AI now accelerates.
 
 AI tools track ranking changes, new content publication, backlink acquisition, and technical updates across entire competitor sets simultaneously.
 
@@ -104,7 +104,7 @@ Voice search through Google Assistant, Alexa, and Siri accounts for approximatel
 
 Optimising for conversational, question-based searches matters more as voice adoption grows.
 
-[Multilingual SEO](https://mikebastin.com/best-practices-for-multilingual-seo/) benefits from MUM’s cross-language understanding, but localised content still outperforms translated material.
+[Multilingual SEO](/blog/best-practices-for-multilingual-seo/) benefits from MUM’s cross-language understanding, but localised content still outperforms translated material.
 
 ### Generative engine optimisation
 
@@ -130,7 +130,7 @@ Digital PR, expert commentary, and industry participation build the authority si
 
 ### Practical implications for 2026
 
-[Digital marketing](https://mikebastin.com/services/digital-marketing/) teams must adapt strategy to this environment.
+[Digital marketing](/services/multilingual-seo/) teams must adapt strategy to this environment.
 
 Prioritise commercial and transactional content where clicks remain strong.
 
@@ -142,7 +142,7 @@ Monitor AI answer appearances alongside traditional rankings in Google Search Co
 
 Structured data implementation through schema.org markup helps AI systems understand and cite content correctly.
 
-[SEO strategy](https://mikebastin.com/future-of-seo/) in 2026 balances visibility in traditional search, AI-generated answers, and direct brand discovery.
+[SEO strategy](/blog/future-of-seo/) in 2026 balances visibility in traditional search, AI-generated answers, and direct brand discovery.
 
 Traffic from search is fragmenting.
 

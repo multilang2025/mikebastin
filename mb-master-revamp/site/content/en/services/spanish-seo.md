@@ -140,11 +140,11 @@ Advanced legal counsel per country (abogado / attorney)
 
 Google Ads campaigns in Spanish per market
 
-⨯ covered by [multilingual SEM](https://mikebastin.com/services/multilingual-sem/)
+⨯ covered by [multilingual SEM](/services/multilingual-sem/)
 
 Local presence per Spanish or LatAm city (GBP, citations)
 
-⨯ covered by [local SEO](https://mikebastin.com/services/local-seo/)
+⨯ covered by [local SEO](/services/local-seo/)
 
 ## Why this team for Spanish SEO
 
@@ -154,7 +154,7 @@ Direct fluent execution on ES-ES (Castilian context, Valencia base). For LatAm v
 
 The differentiator: we do not delegate Spanish strategy to a third party while pretending to “cover” Spanish. We run ES-ES directly, coordinate native LatAm production, and report directly in Spanish if needed.
 
-[More about the team →](https://mikebastin.com/about-us/)
+[More about the team →](/how-i-work/)
 
 ### Spain, LatAm, or both?
 
@@ -202,4 +202,4 @@ Quoted. The price depends on scope (ES-ES, specific LatAm variant, or combined),
 
 We start by mapping your Spanish-speaking customer base to the right variants (ES-ES vs specific LatAm targets). Direct fluent audit on our side. Free first call, no commitment.
 
-Related services: [multilingual SEO](https://mikebastin.com/services/multilingual-seo/) · [international SEO](https://mikebastin.com/services/global-seo-solutions/) · [multilingual SEM](https://mikebastin.com/services/multilingual-sem/)
+Related services: [multilingual SEO](/services/multilingual-seo/) · [international SEO](/services/multilingual-seo/) · [multilingual SEM](/services/multilingual-sem/)

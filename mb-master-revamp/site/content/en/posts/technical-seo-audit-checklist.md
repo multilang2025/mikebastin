@@ -12,31 +12,31 @@ sourceUrl: "https://mikebastin.com/technical-seo-audit-checklist/"
 excerpt: "Dive into the world of Technical SEO and supercharge your website’s performance. An essential audit checklist for web agencies."
 ---
 
-## Website Technical SEO Assessment Checklist
+## Website technical SEO assessment checklist
 
 Imagine your website as a sleek, high-performance sports car.
 
 Now, Technical SEO? That’s the finely-tuned engine under the hood, propelling your site to the front of the search engine race.
 
-It’s the secret sauce that makes your website irresistible to [Google’s crawlers](https://mikebastin.com/boosting-local-seo/), turning them from casual visitors into devoted fans who can’t wait to showcase your site to the world.
+It’s the secret sauce that makes your website irresistible to [Google’s crawlers](/services/local-seo/), turning them from casual visitors into devoted fans who can’t wait to showcase your site to the world.
 
 But here’s the million-dollar question: Is your website’s engine purring like a kitten or sputtering like an old jalopy?
 
 Buckle up, digital mechanics! We’re about to pop the hood and dig into the nitty-gritty world of technical SEO.
 
-In this turbo-charged guide, we’ll hand you the ultimate toolbox, a complete [Technical SEO audit checklist](https://mikebastin.com/technical-seo-audit-checklist/).
+In this turbo-charged guide, we’ll hand you the ultimate toolbox, a complete [Technical SEO audit checklist](/blog/technical-seo-audit-checklist/).
 
-It’s specially built for [web agencies](https://mikebastin.com/our-services/) looking to supercharge their clients’ websites and leave the competition in the dust.
+It’s specially built for [web agencies](/services/) looking to supercharge their clients’ websites and leave the competition in the dust.
 
-Get ready to diagnose those pesky technical hiccups, apply some digital elbow grease, and transform your clients’ websites from rusty jalopies into sleek, [search engine-conquering machines](https://mikebastin.com/services/on-page-seo/).
+Get ready to diagnose those pesky technical hiccups, apply some digital elbow grease, and transform your clients’ websites from rusty jalopies into sleek, [search engine-conquering machines](/services/technical-seo/).
 
-We’ll walk you through real-world examples, dish out practical solutions, and have you speaking fluent ‘Tech SEO’ faster than you can say “[robots.txt](https://mikebastin.com/optimising-your-website-for-voice-search/)“!
+We’ll walk you through real-world examples, dish out practical solutions, and have you speaking fluent ‘Tech SEO’ faster than you can say “[robots.txt](/blog/optimising-your-website-for-voice-search/)“!
 
-So, are you ready to become the master mechanic of the digital highway? Let’s rev up those engines and start our [Technical SEO tune-up](https://mikebastin.com/technical-seo-audit-checklist/)!
+So, are you ready to become the master mechanic of the digital highway? Let’s rev up those engines and start our [Technical SEO tune-up](/blog/technical-seo-audit-checklist/)!
 
-### 1\. Crawlability and Indexability
+### 1\. Crawlability and indexability
 
-#### 1.1 Robots.txt File
+#### 1.1 Robots.Txt file
 
 The **robots.txt file** is a simple text file located at the root of your website. It instructs search engine crawlers which pages or sections of your site should not be crawled.
 
@@ -78,7 +78,7 @@ User-agent: *
 Disallow:
 ```
 
-#### 1.2 XML Sitemap
+#### 1.2 XML sitemap
 
 An **XML sitemap** is a file that lists all the important pages of your website, helping search engines find and crawl them.
 
@@ -98,7 +98,7 @@ An **XML sitemap** is a file that lists all the important pages of your website,
 
 After adding new content, update your sitemap to include the new URLs, then resubmit it to search engines.
 
-#### 1.3 URL Structure
+#### 1.3 URL structure
 
 A clean and descriptive **URL structure** improves both user experience and search engine crawling.
 
@@ -127,7 +127,7 @@ RewriteEngine On
 RewriteRule ^product/([0-9]+)$ /product.php?id=$1 
 ```
 
-#### 1.4 Canonical Tags
+#### 1.4 Canonical tags
 
 **Canonical tags** help prevent duplicate content issues by specifying the preferred version of a page.
 
@@ -147,7 +147,7 @@ RewriteRule ^product/([0-9]+)$ /product.php?id=$1
 
 If `yourdomain.com/page` and `yourdomain.com/page?ref=twitter` show the same content, set the canonical tag to `yourdomain.com/page`.
 
-#### 1.5 Noindex and Nofollow Tags
+#### 1.5 Noindex and nofollow tags
 
 **Noindex** and **nofollow** tags control whether a page should be indexed or whether its links should be followed by crawlers.
 
@@ -197,9 +197,9 @@ Redirect 301 /old-page /new-page
 
 * * *
 
-#### 2\. Site Architecture and Navigation
+#### 2\. Site architecture and navigation
 
-### 2.1 Internal Linking
+### 2.1 Internal linking
 
 Effective **internal linking** helps distribute link equity and improves crawlability.
 
@@ -246,7 +246,7 @@ In blog posts, include links to related articles or relevant product pages.
 </nav>
 ```
 
-### 2.3 Site Hierarchy
+### 2.3 Site hierarchy
 
 A clear and logical **site hierarchy** improves user navigation and helps search engines understand your site’s structure.
 
@@ -292,9 +292,9 @@ On page 1 of a paginated series:
 
 * * *
 
-### 3\. Website Performance
+### 3\. Website performance
 
-#### 3.1 Page Speed (Load Time)
+#### 3.1 Page speed (load time)
 
 Website **load time** is a crucial factor affecting user experience and search rankings.
 
@@ -315,7 +315,7 @@ Website **load time** is a crucial factor affecting user experience and search r
 
 Compress images using **TinyPNG** or **ImageOptim** to reduce file sizes.
 
-#### 3.2 Mobile Friendliness
+#### 3.2 Mobile friendliness
 
 With the majority of searches occurring on mobile devices, **mobile friendliness** is essential.
 
@@ -356,7 +356,7 @@ Ensure that navigation menus collapse into a mobile-friendly format on smaller s
 
 Implement lazy loading for images to improve LCP.
 
-#### 3.4 Image Optimisation
+#### 3.4 Image optimisation
 
 Optimising images can significantly improve page load times.
 
@@ -375,7 +375,7 @@ Optimising images can significantly improve page load times.
 
 Convert PNG images to compressed JPEGs when transparency is not required.
 
-#### 3.5 Browser Caching
+#### 3.5 Browser caching
 
 Using **browser caching** can reduce load times for returning visitors.
 
@@ -424,7 +424,7 @@ Configure **Gulp** to automate the minification of CSS and JavaScript files befo
 
 ### 4\. Security
 
-#### 4.1 HTTPS Implementation
+#### 4.1 HTTPS implementation
 
 Using **HTTPS** is essential for website security and is a ranking factor.
 
@@ -451,7 +451,7 @@ RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://yourdomain.com/$1 [R=301,L]
 ```
 
-#### 4.2 SSL Certificate Validity
+#### 4.2 SSL certificate validity
 
 An expired or invalid SSL certificate can cause security warnings.
 
@@ -470,9 +470,9 @@ An expired or invalid SSL certificate can cause security warnings.
 
 Use **Certbot** to automatically renew Let’s Encrypt certificates.
 
-### 5\. Structured Data and Markup
+### 5\. Structured data and markup
 
-#### 5.1 Schema.org Implementation
+#### 5.1 Schema.Org implementation
 
 **Structured data** helps search engines understand your content and can enhance search listings.
 
@@ -508,7 +508,7 @@ Implement FAQ schema:
 }
 ```
 
-#### 5.2 Open Graph Tags
+#### 5.2 Open graph tags
 
 **Open Graph (OG) tags** improve how your content appears when shared on social media platforms.
 
@@ -559,7 +559,7 @@ Mark up a product:
 </div>
 ```
 
-### 6\. Duplicate Content Issues
+### 6\. Duplicate content issues
 
 #### 6.1 Canonical URLs
 
@@ -584,7 +584,7 @@ In the `<head>` section:
 <link rel="canonical" href="https://www.yourdomain.com/page" />
 ```
 
-#### 6.2 Content Duplication within Site
+#### 6.2 Content duplication within site
 
 Duplicate content within your site can confuse search engines and dilute ranking signals.
 
@@ -603,7 +603,7 @@ Duplicate content within your site can confuse search engines and dilute ranking
 
 Combine “Blue Widget Info” and “Blue Widget Details” into a single, detailed page.
 
-#### 6.3 URL Parameters
+#### 6.3 URL parameters
 
 Unmanaged **URL parameters** can create multiple URLs with identical content.
 
@@ -626,7 +626,7 @@ In `robots.txt`, exclude session IDs:
 Disallow: /*?sessionID=
 ```
 
-### 7\. Broken Links and Errors
+### 7\. Broken links and errors
 
 #### 7.1 404 Errors
 
@@ -651,7 +651,7 @@ A custom 404 page might include:
 -   Links to popular pages.
 -   A friendly message like “Sorry, we couldn’t find that page.”
 
-#### 7.2 Broken Internal and External Links
+#### 7.2 Broken internal and external links
 
 Broken links affect user experience and can harm SEO.
 
@@ -670,7 +670,7 @@ Broken links affect user experience and can harm SEO.
 
 Replace a broken link to an old resource with a link to a current, relevant article.
 
-#### 7.3 Server Errors (5xx)
+#### 7.3 Server errors (5xx)
 
 Server errors indicate issues with your website’s server configuration or resources.
 
@@ -692,7 +692,7 @@ If experiencing **503 Service Unavailable** errors, consider upgrading your host
 
 ### 8\. Metadata
 
-#### 8.1 Title Tags
+#### 8.1 Title tags
 
 **Title tags** are crucial for SEO and user click-through rates.
 
@@ -711,7 +711,7 @@ If experiencing **503 Service Unavailable** errors, consider upgrading your host
 
 “Buy Blue Widgets | High-Quality Widgets at Great Prices”
 
-#### 8.2 Meta Descriptions
+#### 8.2 Meta descriptions
 
 **Meta descriptions** summarise the page content in search results.
 
@@ -730,7 +730,7 @@ If experiencing **503 Service Unavailable** errors, consider upgrading your host
 
 “Discover our range of blue widgets. Shop now for quality products and fast delivery!”
 
-#### 8.3 Header Tags (H1, H2, etc.)
+#### 8.3 Header tags (H1, H2, etc.)
 
 Proper use of **header tags** helps structure content and signals importance to search engines.
 
@@ -756,7 +756,7 @@ Proper use of **header tags** helps structure content and signals importance to 
 
 ### 9\. International SEO (if applicable)
 
-#### 9.1 Hreflang Tags
+#### 9.1 hreflang tags
 
 **Hreflang tags** help search engines serve the correct language or regional URL to users.
 
@@ -779,7 +779,7 @@ Proper use of **header tags** helps structure content and signals importance to 
 <link rel="alternate" href="https://yourdomain.com/en-us/" hreflang="en-us" />
 ```
 
-#### 9.2 Regional and Language Settings
+#### 9.2 Regional and language settings
 
 Geotargeting helps focus your site on a specific country or region.
 
@@ -801,7 +801,7 @@ For a UK-focused site, set the target country to the United Kingdom in GSC.
 
 ### 10\. Image SEO
 
-#### 10.1 Alt Text
+#### 10.1 Alt text
 
 **Alt text** provides descriptions of images for search engines and improves accessibility.
 
@@ -822,7 +822,7 @@ For a UK-focused site, set the target country to the United Kingdom in GSC.
 <img src="blue-widget.jpg" alt="Blue Widget available for purchase">
 ```
 
-#### 10.2 Image Sitemaps
+#### 10.2 Image sitemaps
 
 An **image sitemap** helps search engines find and index your images.
 
@@ -849,7 +849,7 @@ An **image sitemap** helps search engines find and index your images.
 </url>
 ```
 
-#### 10.3 Image File Names
+#### 10.3 Image file names
 
 Descriptive **image file names** improve image SEO.
 
@@ -867,13 +867,13 @@ Descriptive **image file names** improve image SEO.
 
 Rename `IMG_1234.jpg` to `blue-widget-high-quality.jpg`.
 
-### 11\. Analytics and Tracking
+### 11\. Analytics and tracking
 
-#### 11.1 Proper Implementation of Analytics Tools
+#### 11.1 Proper implementation of analytics tools
 
 Accurate data is essential for informed decision-making.
 
-**Check**: Ensure [analytics tracking](https://mikebastin.com/services/analytics-and-tracking/) code is present on all pages.
+**Check**: Ensure [analytics tracking](/services/technical-seo/) code is present on all pages.
 
 **Identify Issues**:
 
@@ -888,7 +888,7 @@ Accurate data is essential for informed decision-making.
 
 Insert the Google Analytics code snippet provided in your GA account into your site’s header.
 
-#### 11.2 Event Tracking
+#### 11.2 Event tracking
 
 **Event tracking** allows you to measure specific user interactions.
 
@@ -907,9 +907,9 @@ Insert the Google Analytics code snippet provided in your GA account into your s
 
 Set up an event to track when users click the “Subscribe” button.
 
-### 12\. Hosting and Server Issues
+### 12\. Hosting and server issues
 
-#### 12.1 Uptime and Downtime Monitoring
+#### 12.1 Uptime and downtime monitoring
 
 Website availability is critical for user experience and SEO.
 
@@ -928,7 +928,7 @@ Website availability is critical for user experience and SEO.
 
 If your site experiences downtime during peak hours, consider upgrading to a dedicated server.
 
-#### 12.2 Server Response Times
+#### 12.2 Server response times
 
 Fast server response times improve user experience and SEO.
 
@@ -947,9 +947,9 @@ Fast server response times improve user experience and SEO.
 
 Implement caching mechanisms like **Redis** to reduce database load.
 
-### 13\. Content Issues
+### 13\. Content issues
 
-#### 13.1 Thin Content
+#### 13.1 Thin content
 
 Thin content provides little value to users and can negatively impact SEO.
 
@@ -968,7 +968,7 @@ Thin content provides little value to users and can negatively impact SEO.
 
 Expand a brief product description into a detailed page with specifications, reviews, and FAQs.
 
-#### 13.2 Content Relevance
+#### 13.2 Content relevance
 
 Content should align with user intent and target keywords.
 
@@ -987,7 +987,7 @@ Content should align with user intent and target keywords.
 
 Update an article about “SEO Trends 2021” to “SEO Trends 2024” with the latest insights.
 
-#### 13.3 Keyword Cannibalisation
+#### 13.3 Keyword cannibalisation
 
 Avoid having multiple pages competing for the same keyword.
 
@@ -1008,7 +1008,7 @@ Merge two articles both targeting “Best SEO Practices” into one complete gui
 
 ### 14\. Miscellaneous
 
-#### 14.1 Sitemap Submission to Google Search Console
+#### 14.1 Sitemap submission to Google Search Console
 
 Ensure search engines are aware of your sitemap.
 
@@ -1027,7 +1027,7 @@ Ensure search engines are aware of your sitemap.
 
 After correcting errors, resubmit `sitemap.xml` in GSC under **Sitemaps**.
 
-#### 14.2 Monitoring Crawl Stats in Google Search Console
+#### 14.2 Monitoring crawl stats in Google Search Console
 
 Regularly review crawl statistics for insights.
 
@@ -1046,7 +1046,7 @@ Regularly review crawl statistics for insights.
 
 If crawl rate drops, check for increased server errors or robots.txt blocking.
 
-#### 14.3 Checking for Manual Actions or Penalties
+#### 14.3 Checking for manual actions or penalties
 
 Manual actions can significantly impact your site’s visibility.
 
@@ -1067,7 +1067,7 @@ If penalised for unnatural links, remove or disavow the links, then request reco
 
 ## Conclusion
 
-Conducting regular **[technical SEO audits](https://mikebastin.com/technical-seo-for-multilingual-websites/)** is essential for maintaining and improving a website’s performance in search engines.
+Conducting regular **[technical SEO audits](/blog/technical-seo-for-multilingual-websites/)** is essential for maintaining and improving a website’s performance in search engines.
 
 By systematically addressing each element in this checklist, web agencies can ensure their clients’ websites are optimised for both search engines and users. Implementing these **best practices** leads to better visibility, higher rankings, and an improved user experience.
 

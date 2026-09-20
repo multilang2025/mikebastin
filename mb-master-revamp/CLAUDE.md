@@ -42,11 +42,24 @@ Same model as valenciamove.com, which the owner already runs at larger scale
   the Netherlands), is planned once these three ship — see
   CONTENT-ARCHITECTURE.md §2. Don't build for it early; the directory
   structure already scales to it without rework.
-- **Media:** `/public/images/`, no media library and no object storage. Most
-  images go through Next/Image, but the generated blog cover cards in
-  `/public/images/blog/` are rendered ahead of time by
-  `scripts/gen-blog-covers.mjs` and served through a plain `<img>`, so they
-  are not optimised at build.
+- **Media:** `/public/images/`, no media library and no object storage.
+  The build is `output: "export"` with `images: { unoptimized: true }`, so
+  nothing gains from `next/image`; sizes are baked at build time instead.
+  Each of the 56 migrated posts shows **the featured image it already had
+  on WordPress** (owner, 20 Sep). `lib/blog-images.ts` maps slug to file,
+  alt text and the legacy upload path it came from;
+  `scripts/fetch-legacy-images.mjs` rebuilds `public/images/blog/` from
+  that map, writing `<slug>.webp` at 1200px and `<slug>-thumb.webp` at
+  160x84 for the footer. The derivatives are committed, so a build never
+  depends on the legacy site being up. `components/PostImage.tsx` picks
+  the photograph, and falls back to `components/PostArt.tsx`, which draws
+  a wave composition from a hash of the slug, for a post with no picture
+  of its own, which today is every newly written one. The earlier 59
+  cover PNGs and `scripts/gen-blog-covers.mjs` were deleted on 20 Sep,
+  because each was only the post's own title on a rectangle, so the index
+  printed every title twice and a post repeated its `h1`. Social images
+  are separate and unaffected: they come from each route's
+  `opengraph-image.tsx`.
 - **Redirects:** `site/public/.htaccess`, generated from `content-map.json`
   by the `scripts/gen-*-redirects.mjs` family. Never hand-maintained. Not
   `next.config` `redirects()`, which never runs under `output: "export"`;
@@ -84,6 +97,11 @@ needs.
   Shops integration") and one is inside a service name, so they are not a
   hard fail. The lint warns above a density threshold instead.
 - No bolded links.
+- **Motto** (owner, 20 Sep): "Automating business. Translating ideas.
+  Connecting people." Use it where a motto belongs, under the wordmark or
+  as `slogan` in schema, not in titles or meta descriptions, which are
+  keyword real estate. FR and ES renderings live in `SiteFooter`'s string
+  table and are a first pass awaiting the owner's eye.
 - **Sentence case everywhere**, headings, titles and blog post titles
   alike (owner decision, 19 Sep). Capitalise the first word, proper nouns
   and acronyms only: SEO, AI, GEO, AEO, PPC, LLMs, Google Analytics,
@@ -143,13 +161,35 @@ Tracked in `docs/HANDOFF.md` §21 "Decisions OPEN" and §17 addendum. Resolve
 with the owner before P1 work depends on them (repo org, X handle/posts, Tier C prune sign-off, service consolidation,
 Valencia STAY-list sign-off, credibility strip numbers).
 
-**Tier C prune now has a real artifact to sign off on**, not just an open
-line item: `docs/BLOG-PRUNE-AUDIT.md`, built from actual Google Search
-Console data (450-day window) rather than word count. 12 posts recommended
-REMOVE, 2 MERGE, both already written into `redirects/content-map.json`
-(`action: "retire"` / `"absorb"`) so a future pass won't silently re-migrate
-them. 21 posts still need a real GSC check before their KEEP status is
-anything more than provisional (list in the audit doc).
+**Tier C prune is CLOSED** (owner, 20 Sep). `docs/BLOG-PRUNE-AUDIT.md` holds
+the record. REMOVE and MERGE shipped the same day, with all 42 legacy URLs
+301ing to a live page. The 21 provisional KEEPs were checked against real
+GSC and all 21 stay KEEP; the audit lists six the data argues against and
+the reasoning for keeping them anyway. Nothing here blocks launch.
+
+**GSC gotcha worth keeping:** mikebastin.com's Search Console data is
+reachable, but only once the AISA bridge is pointed at that site
+(`switch_site`). Query it while another site is active and
+`gsc_list_properties` resolves against that site's Google account and
+reports mikebastin.com as inaccessible, which reads like missing access
+rather than a wrong default.
+
+**FR and ES are deferred** (owner, 20 Sep). Do not build new French or
+Spanish surfaces for now. Flagged rather than forgotten, so the gaps are
+known and deliberate:
+
+- **No FR or ES index pages.** `/fr/services/`, `/es/services/`, `/fr/blog/`
+  and `/es/blog/` do not exist, only the individual `[slug]` routes under
+  them. `SiteFooter` handles that by giving those locales no link to an
+  index at all, since sending a French reader to an English one is worse
+  than offering nothing. Both sitemaps list the individual pages, which is
+  correct and not a workaround.
+- **No FR or ES topic pages.** `getTopics()` reads the EN clusters, which
+  have no FR/ES equivalent, so `/blog/topics/` is English only.
+- **The FR and ES motto renderings are unreviewed.** They ship in
+  `SiteFooter`'s string table and are a first pass, not signed off.
+- **valenciamove.com's services page launches EN only.** The plan first
+  recommended EN plus ES; the owner's call on 20 Sep supersedes that.
 
 **Backlog, not yet started** (add here rather than losing track of them):
 - Globaprom data-privacy/MT-compliance article (owner decision 6 Sep: add to

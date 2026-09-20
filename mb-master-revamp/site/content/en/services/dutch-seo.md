@@ -42,7 +42,7 @@ Dutch users read fast and decide fast. Sites translated from English keep the ve
 
 KvK number (Chamber of Commerce) on the footer, BTW number visible, Thuiswinkel Waarborg badge for ecommerce, AVG-compliant cookie consent (Dutch GDPR), iDEAL payment for B2C. The absence of any of these immediately signals “foreign site” to a Dutch buyer and erodes conversion. Belgian sites have parallel signals (KBO/BCE number, BTW/TVA).
 
-Dutch SEO requires native execution and local trust signals. Fluent Dutch on our side plus systematic native review by Dutch copywriters from the [BeTranslated network](https://mikebastin.com/services/multilingual-seo/) on every commercial deliverable.
+Dutch SEO requires native execution and local trust signals. Fluent Dutch on our side plus systematic native review by Dutch copywriters from the [BeTranslated network](/services/multilingual-seo/) on every commercial deliverable.
 
 ## What we include in a Dutch SEO engagement
 
@@ -134,11 +134,11 @@ Advanced Dutch legal counsel (contracts, disputes)
 
 Google Ads campaigns in Dutch
 
-⨯ covered by [multilingual SEM](https://mikebastin.com/services/multilingual-sem/)
+⨯ covered by [multilingual SEM](/services/multilingual-sem/)
 
 Local presence per Dutch city (GBP, citations)
 
-⨯ covered by [local SEO](https://mikebastin.com/services/local-seo/)
+⨯ covered by [local SEO](/services/local-seo/)
 
 ## Why this team for Dutch SEO
 
@@ -148,7 +148,7 @@ Direct piloting of Dutch SEO engagements without intermediaries: we read SERPs, 
 
 Practical experience with the NL / BE split, with KvK and KBO compliance, with the Dutch user expectation of directness on commercial sites.
 
-[More about the team →](https://mikebastin.com/about-us/)
+[More about the team →](/how-i-work/)
 
 ### Netherlands or Flanders, or both?
 
@@ -196,4 +196,4 @@ Quoted. The price depends on scope (NL only, BE only, or both), editorial volume
 
 We start by auditing your Dutch presence with native review of Google.nl or Google.be SERPs. Quantified diagnosis, actionable recommendations. Free first call, no commitment.
 
-Related services: [multilingual SEO](https://mikebastin.com/services/multilingual-seo/) · [international SEO](https://mikebastin.com/services/global-seo-solutions/) · [multilingual SEM](https://mikebastin.com/services/multilingual-sem/)
+Related services: [multilingual SEO](/services/multilingual-seo/) · [international SEO](/services/multilingual-seo/) · [multilingual SEM](/services/multilingual-sem/)

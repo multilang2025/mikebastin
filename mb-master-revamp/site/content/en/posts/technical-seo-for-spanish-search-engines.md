@@ -12,29 +12,29 @@ sourceUrl: "https://mikebastin.com/technical-seo-for-spanish-search-engines/"
 excerpt: "Building a digital presence for the Spanish market mirrors the meticulous craftsmanship of Gaudí’s Sagrada Familia. Like the basilica’s strong foundation, technical SEO requires a solid site structure, localised keywords, and mobile performance. Adapting to cultural nuances and ongoing optimisation ensures your website remains relevant and competitive, much like Gaudí’s evolving masterpiece."
 ---
 
-## Building a Digital Sagrada Familia
+## Building a digital Sagrada Familia
 
 Just like Antoni Gaudí’s _Sagrada Familia_, which has captivated the world with its complexity and precision, building a strong foundation for your digital presence requires meticulous planning and expertise.
 
 In this article, we will explore the **intricacies of technical SEO** for Spanish markets, drawing parallels to Gaudí’s architectural masterpiece to illustrate the importance of structure, detail, and vision in SEO.
 
-### **Understanding the Foundations of Technical SEO: The Base Structure**
+### Understanding the foundations of technical SEO: the base structure
 
 **The Foundation:** Just like the base of _Sagrada Familia_ holds everything together, **site structure and architecture** form the base of technical SEO.
 
 It’s crucial to ensure a **logical site structure** for Spanish users, focusing on ease of navigation.
 
-**Cultural Adaptation**: Designing for Spanish-speaking audiences also requires attention to [cultural nuances in website](https://mikebastin.com/cultural-differences-in-multilingual-websites/) hierarchy and user experience.
+**Cultural Adaptation**: Designing for Spanish-speaking audiences also requires attention to [cultural nuances in website](/services/multilingual-content/) hierarchy and user experience.
 
 Whether your audience is in Madrid or Valencia, local habits can have an impact on how they engage with your site.
 
-![Technical SEO for Spanish search engines](https://mikebastin.com/wp-content/uploads/2024/10/sagrada-familia-technical-spanish-seo.jpg)
+!Technical SEO for Spanish search engines
 
-### **Keyword Research for Spanish Search Engines: Building the Blueprints**
+### Keyword research for Spanish search engines: building the blueprints
 
-**National and Regional Differences**: [Keyword research](https://mikebastin.com/es/services/busqueda-palabras-clave/) needs to accommodate the differences between Spanish spoken in Spain and Latin American variants. Targeting the right **localised keywords** helps attract relevant traffic.
+**National and Regional Differences**: [Keyword research](/services/technical-seo/) needs to accommodate the differences between Spanish spoken in Spain and Latin American variants. Targeting the right **localised keywords** helps attract relevant traffic.
 
-**Tools and Techniques:** Using tools such as **Google Keyword Planner**, **SISTRIX**, or **SEMrush** can reveal **high-impact** [keywords matched to both national and regional Spanish](https://mikebastin.com/spanish-keyword-localisation/) audiences. Understanding user intent and local terminology is critical.
+**Tools and Techniques:** Using tools such as **Google Keyword Planner**, **SISTRIX**, or **SEMrush** can reveal **high-impact** [keywords matched to both national and regional Spanish](/blog/spanish-keyword-localisation/) audiences. Understanding user intent and local terminology is critical.
 
 **Tool**
 
@@ -48,11 +48,11 @@ Whether your audience is in Madrid or Valencia, local habits can have an impact 
 
 **Google Keyword Planner**
 
-[Keyword research](https://mikebastin.com/what-is-search-intent-mapping/), search volume data, trend insights, limited audience targeting
+[Keyword research](/blog/what-is-search-intent-mapping/), search volume data, trend insights, limited audience targeting
 
 Free for Google Ads users
 
-Basic keyword research and planning, ideal for [PPC campaigns](https://mikebastin.com/french-ppc-campaign/)
+Basic keyword research and planning, ideal for [PPC campaigns](/blog/french-ppc-campaign/)
 
 Moderate: limited localisation for Spain-specific keywords
 
@@ -92,25 +92,25 @@ Site crawling, identifying broken links, metadata analysis, custom filters
 
 Free (limited), £160/year Pro
 
-Ideal for [technical SEO and one-time or regular site audits](https://mikebastin.com/technical-seo-audit-checklist/)
+Ideal for [technical SEO and one-time or regular site audits](/blog/technical-seo-audit-checklist/)
 
 High: effective in Spanish markets, requires user-generated keyword input
 
-### **Mobile Optimisation: Reflecting the Organic Design of Gaudí**
+### Mobile optimisation: reflecting the organic design of Gaudí
 
 **The Mobile Experience:** Just like Gaudí’s natural forms, your website must adapt organically for a smooth mobile experience. The increasing use of **mobile devices** in Spain means mobile responsiveness is essential for effective SEO.
 
 **Importance of Mobile SEO in Spain:** Spaniards use mobile devices extensively for browsing, which means ensuring **mobile-friendly pages** and quick load times is crucial to capture this audience.
 
-### **Mobile vs Desktop Usage Patterns**
+### Mobile vs desktop usage patterns
 
 -   [According to StatCounter](https://gs.statcounter.com/platform-market-share/desktop-mobile-tablet/spain), as of January 2025, mobile devices account for **58.95%** of internet usage in Spain, desktops for **39.14%**, and tablets for **1.91%**. Spain’s high smartphone penetration rate (nearly [**90%** of the population actively using smartphones](https://www.businessofapps.com/data/spain-app-market/)) highlights the importance of optimising digital strategies for mobile users[5](https://www.businessofapps.com/data/spain-app-market/). 
 -   For certain content categories like portals (69%), business/finance (58%), and entertainment/news (51%), mobile usage exceeds desktop.
 -   Desktop still dominates for categories like online gaming (88%), photos (92%), and maps (94%)
 
-![](https://mikebastin.com/wp-content/uploads/2024/10/image-8.png)
+!
 
-### **Site Speed and Performance: Building a Strong Infrastructure**
+### Site speed and performance: building a strong infrastructure
 
 **Gaudí’s Endurance:** The longevity of the _Sagrada Familia_ showcases the importance of strong infrastructure. Likewise, **page speed and performance** are essential for sustaining strong SEO rankings.
 
@@ -152,7 +152,7 @@ Reduce HTTP Requests
 
 Mobile Optimisation
 
--   [Responsive design](https://mikebastin.com/services/web-design/)
+-   [Responsive design](/services/multilingual-seo/)
 -   Optimise for touch
 -   Ensure layout adapts well to mobile
 
@@ -167,13 +167,13 @@ Font Optimisation
 -   Preload primary fonts
 -   Use WOFF2 for smaller file size, preload main fonts
 
-### **URL Structure and International SEO: Building a Spanish Identity**
+### URL structure and international SEO: building a Spanish identity
 
 **International Targeting:** Geo-targeted URLs such as **.es** domains are advantageous for SEO in Spain. Proper **hreflang tags** ensure that search engines serve the right language version to the right audience.
 
-**SEO-Friendly URL Structure:** To improve localisation, create **URL structures** that reflect the language and culture of [Spanish users](https://mikebastin.com/spanish-keyword-localisation/), avoiding direct translations that may lose context or relevance.
+**SEO-Friendly URL Structure:** To improve localisation, create **URL structures** that reflect the language and culture of [Spanish users](/blog/spanish-keyword-localisation/), avoiding direct translations that may lose context or relevance.
 
-### **Schema Markup and Rich Snippets: The Finishing Details**
+### Schema markup and rich snippets: the finishing details
 
 **Adding Finesse like Gaudí:** Schema markup adds the kind of detail to your website that can make it stand out, just as the **intricate carvings of the Sagrada Familia** make the basilica unique.
 
@@ -233,27 +233,27 @@ Applicable for food and cooking websites.
 
 Increases chances of appearing in recipe searches, attracting food enthusiasts.
 
-### **Crawlability and Indexing: The Ongoing Construction**
+### Crawlability and indexing: the ongoing construction
 
 **Gaudí’s Unfinished Masterpiece:** Like the fast-changing construction of _Sagrada Familia_, SEO requires **constant adaptation and monitoring**.
 
 **XML Sitemaps and Robots.txt:** Creating and maintaining **XML sitemaps** and configuring **robots.txt** files helps ensure effective crawling and indexing by Spanish search engines like Google.es and Bing.
 
-### **Core Web Vitals: Ensuring Stability in a Complex Structure**
+### Core Web Vitals: ensuring stability in a complex structure
 
 **User Experience in Spanish Markets:** **Core Web Vitals** are key to building a great user experience, similar to how Gaudí’s designs focus on the experience of those visiting the basilica.
 
 **Improvement Tips:** Focus on meeting Google’s thresholds for **LCP (Largest Contentful Paint)**, **FID (First Input Delay)**, and **CLS (Cumulative Layout Shift)**, as these metrics directly influence user satisfaction in Spain.
 
-![](https://mikebastin.com/wp-content/uploads/2024/10/image-9.png)
+!
 
-### **Technical SEO Tools for Spanish Markets: The Architect’s Toolbox**
+### Technical SEO tools for Spanish markets: the architect’s toolbox
 
 **SEO Tools Specific to Spain:** Tools like **Google Search Console**, **SISTRIX**, and **Oncrawl** are essential for **site audits** and **performance monitoring**.
 
 **Local Insight Tools:** To understand the **regional market**, tools that provide local analytics are essential for gaining insights into the competitive environment in Spain.
 
-### **Common Technical SEO Challenges in Spanish Markets: Obstacles in Construction**
+### Common technical SEO challenges in Spanish markets: obstacles in construction
 
 **Challenges with Language and Regional Variants:** Handling the complexity of regional languages like **Catalan** or **Basque** can be challenging for site structure and keyword selection.
 
@@ -261,25 +261,25 @@ Increases chances of appearing in recipe searches, attracting food enthusiasts.
 
 **Keyword Differences Across Spanish Regions:** A **map of Spain** highlighting differences in keyword usage for **Castilian Spanish, Catalan, and Basque** regions, providing insight into the importance of localised keywords.
 
-![technical-seo-spanish-search-engine](https://mikebastin.com/wp-content/uploads/2024/10/technical-seo-spanish-search-engine.png)
+!technical-seo-spanish-search-engine
 
-### **Monitoring, Auditing, and Adaptation: The Ongoing Work of SEO**
+### Monitoring, auditing, and adaptation: the ongoing work of SEO
 
 **Much Like Gaudí’s Vision:** SEO is an ongoing process, just like the construction of _Sagrada Familia_. Regular **audits** and **adaptations** are necessary to keep your site technically sound and aligned with the evolving market.
 
 **Tools for Audits:** Use tools like **Screaming Frog**, **Ahrefs**, and **Google Analytics** for regular checks on the **technical health** of your website and to monitor performance within the Spanish market.
 
-### **Achieving Architectural Mastery in Technical SEO**
+### Achieving architectural mastery in technical SEO
 
 To build a **digital presence** as enduring as Gaudí’s _Sagrada Familia_, you need a solid foundation, careful planning, and ongoing dedication.
 
-From **keyword research** to **Core Web Vitals**, every element of [technical SEO requires meticulous attention to build a website](https://mikebastin.com/technical-seo-for-multilingual-websites/) that stands out in the Spanish market.
+From **keyword research** to **Core Web Vitals**, every element of [technical SEO requires meticulous attention to build a website](/blog/technical-seo-for-multilingual-websites/) that stands out in the Spanish market.
 
 Are you ready to build your digital Sagrada Familia?
 
-**[Contact us](https://mikebastin.com/contact-us/)** today to start optimising your website for Spanish search engines and grow your presence in Spain’s digital market. Reach out via email, phone, or our online form for a custom consultation.
+**[Contact us](/contact/)** today to start optimising your website for Spanish search engines and grow your presence in Spain’s digital market. Reach out via email, phone, or our online form for a custom consultation.
 
-### **FAQ Section:**
+### FAQ section:
 
 ##### **What are the main challenges of technical SEO in Spain?**
 
@@ -287,7 +287,7 @@ The biggest challenge is **linguistic adaptation** between Castilian Spanish and
 
 ##### **Is a local (.es) domain important for ranking well in Spain?**
 
-Yes, using a **.es domain** helps [build local credibility and relevance](https://mikebastin.com/building-a-global-brand/) for Spanish users, which can enhance search engine rankings.
+Yes, using a **.es domain** helps [build local credibility and relevance](/blog/building-a-global-brand/) for Spanish users, which can enhance search engine rankings.
 
 ##### **How do we optimise our site for regional search engines in Spain?**
 

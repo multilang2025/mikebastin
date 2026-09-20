@@ -16,24 +16,24 @@ excerpt: "Boost your online presence in French-speaking markets with MikeBastin�
 
 Boost Your Online Visibility in France, Belgium and Switzerland
 
-## Dominate the French-Speaking Market with Expert SEO Services
+## Dominate the French-speaking market with expert SEO services
 
 Enhancing your online visibility for French-speaking markets is key to driving business growth and attracting qualified leads.
 
-At [MikeBastin](https://mikebastin.com/services/global-seo-solutions/), we provide expert French SEO services designed for companies aiming to increase their presence in France, Belgium, Switzerland, and Québec.
+At [MikeBastin](/services/multilingual-seo/), we provide expert French SEO services designed for companies aiming to increase their presence in France, Belgium, Switzerland, and Québec.
 
 With more than 300 million French speakers globally and Google accounting for nearly 90% of all searches in French-speaking countries, a strategic approach to SEO is crucial for increasing reach and generating targeted traffic.
 
-Benefit from over 25 years of proven experience in [search engine optimisation](https://mikebastin.com/services/), delivering consistent Top 10 rankings and boosting conversions for clients in competitive sectors.
+Benefit from over 25 years of proven experience in [search engine optimisation](/services/), delivering consistent Top 10 rankings and boosting conversions for clients in competitive sectors.
 
--   **Local SEO in France and Francophone Regions:** Target hyperlocal keywords and optimise your [Google Business Profile](https://mikebastin.com/optimise-a-google-business-profile/) to reach clients in specific cities and regions, from Paris and Lyon to Brussels and Geneva. Learn more about our [local SEO services](https://mikebastin.com/services/local-seo/).
--   **French Content Localisation and Keyword Research:** Create culturally relevant, search-intent-driven content that resonates with native French speakers and meets the latest search trends. See our [content localisation](https://mikebastin.com/services/content-localisation/) and [keyword research services](https://mikebastin.com/services/keyword-research/).
--   **Mobile SEO and Technical Optimisation:** Improve mobile usability, increase page speed, and ensure technical SEO best practices for smooth browsing-essential as most French users search via mobile devices. Discover our [on-page SEO](https://mikebastin.com/services/on-page-seo/) and [technical SEO for multilingual websites](https://mikebastin.com/technical-seo-for-multilingual-websites/).
--   **Building Authority with French Backlinks and Reviews:** Strengthen your domain authority with trusted French-language backlinks, high-authority local citations, and authentic customer reviews to improve E-E-A-T signals and rankings. Explore our [link building](https://mikebastin.com/services/link-building/) and [multilingual SEO](https://mikebastin.com/services/multilingual-seo/) expertise.
+-   **Local SEO in France and Francophone Regions:** Target hyperlocal keywords and optimise your [Google Business Profile](/services/local-seo/) to reach clients in specific cities and regions, from Paris and Lyon to Brussels and Geneva. Learn more about our [local SEO services](/services/local-seo/).
+-   **French Content Localisation and Keyword Research:** Create culturally relevant, search-intent-driven content that resonates with native French speakers and meets the latest search trends. See our [content localisation](/services/website-localisation/) and [keyword research services](/services/technical-seo/).
+-   **Mobile SEO and Technical Optimisation:** Improve mobile usability, increase page speed, and ensure technical SEO best practices for smooth browsing-essential as most French users search via mobile devices. Discover our [on-page SEO](/services/technical-seo/) and [technical SEO for multilingual websites](/blog/technical-seo-for-multilingual-websites/).
+-   **Building Authority with French Backlinks and Reviews:** Strengthen your domain authority with trusted French-language backlinks, high-authority local citations, and authentic customer reviews to improve E-E-A-T signals and rankings. Explore our [link building](/services/technical-seo/) and [multilingual SEO](/services/multilingual-seo/) expertise.
 
-Reach out to discuss a bespoke [French SEO strategy](https://mikebastin.com/services/french-seo/) that positions your business at the top of Google for your target audience.
+Reach out to discuss a bespoke [French SEO strategy](/services/french-seo/) that positions your business at the top of Google for your target audience.
 
-## Why Choose Our French SEO Company?
+## Why choose our French SEO company?
 
 In 2025, more than 80% of French internet users make purchases online, and companies with optimised local business listings experience up to 50% higher engagement rates.
 
@@ -51,21 +51,21 @@ Our French SEO strategies have consistently delivered Top 10 positions for BeTra
 
 We understand the linguistic and cultural nuances of each market, enabling us to build SEO strategies that resonate with your French-speaking target audience.
 
-## Our French SEO Services
+## Our French SEO services
 
-We provide a thorough [range of French SEO services](https://mikebastin.com/english-to-french-translation-services/) bespoke to meet the unique needs of businesses targeting French-speaking audiences. Our services include:
+We provide a thorough [range of French SEO services](/blog/english-to-french-translation-services/) bespoke to meet the unique needs of businesses targeting French-speaking audiences. Our services include:
 
-Our SEO experts conduct thorough [keyword research](https://mikebastin.com/services/keyword-research/ "keyword research") bespoke to the French-speaking markets of France, Belgium, Switzerland, and Québec. We identify the most effective keywords to drive traffic and conversions for your business.
+Our SEO experts conduct thorough [keyword research](/services/technical-seo/) bespoke to the French-speaking markets of France, Belgium, Switzerland, and Québec. We identify the most effective keywords to drive traffic and conversions for your business.
 
 We optimise every element of your website, from meta tags and content to technical SEO aspects, ensuring your site is fully optimised for French-speaking users. Our approach enhances user experience and improves search engine rankings.
 
-Effective content is key to engaging your audience. Our team builds compelling, [locally adapted](https://mikebastin.com/services/content-localisation/) French content that aligns with your brand’s voice while addressing the unique preferences of each market.
+Effective content is key to engaging your audience. Our team builds compelling, [locally adapted](/services/website-localisation/) French content that aligns with your brand’s voice while addressing the unique preferences of each market.
 
 We build high-quality, relevant backlinks from reputable French websites and directories, boosting your site’s authority and helping you outrank competitors.
 
 Our local SEO services are designed to improve your visibility in specific cities and regions within France, Belgium, Switzerland, and Québec. We optimise your online presence to attract local customers searching for your products or services.
 
-## Our French SEO Process
+## Our French SEO process
 
 We prioritise transparency and measurable results in every campaign.
 
@@ -97,13 +97,13 @@ Results can vary, but clients often see improvements within the first three to s
 1.  **Language and localisation:** Content must be properly translated and localized for French audiences, considering cultural nuances and preferences. Adaptation covers not just the main content, but also meta tags, URLs, and other on-page elements.
 2.  **Keyword research:** Conduct thorough keyword research specific to the French market. Direct translations of English keywords may not always be the most effective or commonly used terms in French.
 3.  **Accented characters:** While French uses many accented characters, users often search without them. It’s important to optimise for both accented and non-accented versions of keywords.
-4.  **Local search optimisation:** If targeting specific regions in France, optimise for local search by including location-specific keywords and creating [Google Our Business](https://mikebastin.com/optimise-a-google-business-profile/ "Google My Business") listings.
+4.  **Local search optimisation:** If targeting specific regions in France, optimise for local search by including location-specific keywords and creating [Google Our Business](/services/local-seo/) listings.
 5.  **Technical SEO:** Ensure your website’s technical aspects are optimised, including site speed, mobile responsiveness, and proper use of hreflang tags for language targeting.
 6.  **Link building:** Focus on acquiring backlinks from reputable French websites to boost your site’s authority in the French market.
 
 1.  **Language structure:** French sentences are typically 15-20% longer than English ones, which can affect meta descriptions, title tags, and overall content layout.
 2.  **Search engine preferences:** While Google dominates in both markets, there are French-specific search engines like Qwant that may require consideration.
-3.  **Cultural sensitivity:** French audiences often prefer content that respects their language and culture. Directly translated content may not resonate as well as content [created specifically for French](https://mikebastin.com/french-ppc-campaign/) users.
+3.  **Cultural sensitivity:** French audiences often prefer content that respects their language and culture. Directly translated content may not resonate as well as content [created specifically for French](/blog/french-ppc-campaign/) users.
 4.  **Keyword variations:** French has more verb conjugations and gender agreements than English, leading to more potential keyword variations.
 5.  **Local focus:** French SEO often requires a stronger focus on local optimisation, especially when targeting specific regions or cities within France.
 6.  **Content preferences:** French users may have different content format preferences or topics of interest compared to English-speaking audiences.
@@ -111,21 +111,21 @@ Results can vary, but clients often see improvements within the first three to s
 
 Our Customers
 
-## The Benefits of Choosing a French SEO Agency
+## The benefits of choosing a French SEO agency
 
 -   **Expanded Reach:** Increase your brand’s visibility across all major French-speaking regions.
--   **Enhanced Brand Credibility:** Build trust with your audience through regionally adapted and [culturally relevant content](https://mikebastin.com/services/content-localisation/).
--   **Higher Conversion Rates:** Drive more targeted traffic and achieve higher conversion rates through our [bespoke SEO strategies](https://mikebastin.com/services/global-seo-solutions/).
+-   **Enhanced Brand Credibility:** Build trust with your audience through regionally adapted and [culturally relevant content](/services/website-localisation/).
+-   **Higher Conversion Rates:** Drive more targeted traffic and achieve higher conversion rates through our [bespoke SEO strategies](/services/multilingual-seo/).
 
-### Our French SEO Expertise
+### Our French SEO expertise
 
 With over 25 years of experience in multilingual SEO, our team delivers exceptional results for French-speaking markets, including  
-[France](https://mikebastin.com/services/french-seo/), [Belgium](https://mikebastin.com/seo-in-belgium/), [Switzerland](https://mikebastin.com/services/internationalisation/), and [Québec](https://mikebastin.com/services/french-seo/).  
+[France](/services/french-seo/), [Belgium](/blog/seo-in-belgium/), [Switzerland](/services/multilingual-seo/), and [Québec](/services/french-seo/).  
 We specialise in bespoke SEO strategies that boost your online presence and connect you with local audiences.
 
-Led by [Mike Bastin](https://mikebastin.com/about-us/), our dedicated team has consistently achieved top rankings for clients across diverse industries.  
+Led by [Mike Bastin](/how-i-work/), our dedicated team has consistently achieved top rankings for clients across diverse industries.  
 Our commitment to excellence sets us apart as a trusted partner in your digital journey.
 
 Our expertise spans all aspects of French SEO, from detailed  
-[keyword research](https://mikebastin.com/services/keyword-research/) and precise [on-page optimisation](https://mikebastin.com/services/on-page-seo/) to impactful [content creation](https://mikebastin.com/services/multilingual-seo-copywriting/) and strategic [link building](https://mikebastin.com/services/link-building/).  
+[keyword research](/services/technical-seo/) and precise [on-page optimisation](/services/technical-seo/) to impactful [content creation](/services/multilingual-content/) and strategic [link building](/services/technical-seo/).  
 We ensure your business excels in search engine rankings and builds meaningful connections with your audience.

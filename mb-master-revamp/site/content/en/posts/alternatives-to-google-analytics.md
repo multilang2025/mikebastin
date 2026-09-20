@@ -13,7 +13,7 @@ sourceUrl: "https://mikebastin.com/alternatives-to-google-analytics/"
 excerpt: "Google Analytics alternatives that put privacy, simplicity and performance first, and which one fits which kind of site."
 ---
 
-## Balancing Privacy and Insights
+## Balancing privacy and insights
 
 As digital privacy concerns grow and regulations tighten, many website owners are seeking alternatives to Google Analytics.
 
@@ -21,7 +21,7 @@ While Google’s platform has long been the industry standard, newer options off
 
 Let’s explore some of the leading Google Analytics alternatives for 2026.
 
-### Why Consider an Alternative?
+### Why consider an alternative?
 
 Before diving into the options, it’s worth understanding why you might want to switch:
 
@@ -30,9 +30,9 @@ Before diving into the options, it’s worth understanding why you might want to
 -   **Performance impact:** Google’s tracking script can slow down your website.
 -   **Data ownership:** Some businesses prefer full control over their analytics data.
 
-### Top Google Analytics Alternatives
+### Top Google Analytics alternatives
 
-#### 1\. Matomo (formerly Piwik)
+#### 1\. Matomo (formerly piwik)
 
 [Matomo](https://matomo.org) is an open-source analytics platform that offers both self-hosted and cloud options.
 
@@ -45,7 +45,7 @@ Before diving into the options, it’s worth understanding why you might want to
 
 **Pricing:** Free for self-hosted version; cloud version starts at around $23/month for up to 50,000 hits.
 
-#### 2\. Plausible Analytics
+#### 2\. Plausible analytics
 
 [Plausible](https://plausible.io) is a lightweight, open-source alternative focused on simplicity and privacy.
 
@@ -58,7 +58,7 @@ Before diving into the options, it’s worth understanding why you might want to
 
 **Pricing:** Plans start at $9/month for up to 10,000 monthly pageviews.
 
-#### 3\. Fathom Analytics
+#### 3\. Fathom analytics
 
 [Fathom](https://usefathom.com/) is another privacy-focused analytics tool that emphasizes simplicity.
 
@@ -95,7 +95,7 @@ Not to be confused with Matomo (formerly Piwik), [Piwik PRO](https://piwik.pro/)
 
 **Pricing:** Free plan covers up to 1 million monthly events; the Growth plan is usage-based at roughly $0.28 per 1,000 events beyond that (no longer a flat monthly fee), with custom Enterprise pricing for larger volumes.
 
-### Choosing the Right Alternative
+### Choosing the right alternative
 
 When selecting a Google Analytics alternative, consider these factors:
 

@@ -52,7 +52,7 @@ Understanding and targeting the correct keywords are essential for matching [sea
 
 **How to Fix It:**
 
--   Use [keyword research](https://mikebastin.com/es/services/busqueda-palabras-clave/ "keyword research") tools like Google Keyword Planner, Ahrefs, or Moz to identify relevant keywords.
+-   Use [keyword research](/services/technical-seo/) tools like Google Keyword Planner, Ahrefs, or Moz to identify relevant keywords.
 -   Focus on understanding search intent and create content that answers specific user queries.
 -   Integrate long-tail keywords that are less competitive but highly targeted.
 

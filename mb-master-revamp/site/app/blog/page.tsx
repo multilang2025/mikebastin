@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import PostArt from "@/components/PostArt";
+import PostImage from "@/components/PostImage";
 import Reveal from "@/components/Reveal";
 import SiteFooter from "@/components/SiteFooter";
 import { topicSlug, getClusterGroups, UNCATEGORISED } from "@/lib/posts";
@@ -111,7 +111,7 @@ export default function BlogIndex() {
                     <Reveal key={post.slug} i={i}>
                       <li className="band h-full" style={{ background: "var(--bg)" }}>
                         <Link href={`/blog/${post.slug}/`} className="flex h-full flex-col">
-                          <PostArt
+                          <PostImage
                             slug={post.slug}
                             cluster={group.name}
                             className="aspect-[1200/630] w-full"
