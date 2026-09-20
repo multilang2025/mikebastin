@@ -203,9 +203,8 @@ export default async function ServicePage({
               </h2>
               <p className="mb-8 max-w-[60ch] text-[1.02rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
                 {service.expandablesLede ??
-                  `${service.expandables.length} answers, folded in from the pages this one absorbed.`}{" "}
-                Collapsed so the page stays short, and in the HTML either way,
-                so a crawler or an answer engine still reads them.
+                  `${service.expandables.length} answers to the questions that come up first.`}{" "}
+                Open the ones that apply to your job and leave the rest closed.
               </p>
             </Reveal>
             <Reveal i={1}>
@@ -275,15 +274,14 @@ export default async function ServicePage({
         <section className={`band band-${absorbsBand} py-[clamp(56px,8vw,110px)]`}>
           <div className="shell">
             <Reveal>
-              <p className="eyebrow mb-3">Also covered here</p>
+              <p className="eyebrow mb-3">The whole scope</p>
               <h2 className="mb-5 max-w-[24ch] text-[clamp(1.5rem,2.8vw,2.1rem)] font-semibold leading-[1.15]">
-                {service.absorbs.length} earlier pages fold into this one
+                What we take on under {service.inline}
               </h2>
               <p className="mb-10 max-w-[60ch] text-[1.02rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
-                Each still redirects in its own locale rather than
-                disappearing. One page covering one query network properly
-                beats several covering it thinly, and none of the work
-                itself has narrowed.
+                Most briefs ask for one part of the work and turn out to
+                need two or three. Here is the full ground it covers, so
+                you can see at a glance whether your job sits inside it.
               </p>
             </Reveal>
             <Reveal i={1}>
