@@ -6,6 +6,7 @@ import SiteFooter from "@/components/SiteFooter";
 import JsonLd from "@/components/JsonLd";
 import { SERVICES, getService } from "@/lib/services";
 import { SITE_URL, breadcrumbSchema, serviceSchema } from "@/lib/schema";
+import { serviceGroupForEnSlug, serviceHreflang } from "@/lib/services-locale";
 
 // lead-generation has its own hand-built route at app/services/lead-generation/,
 // with the testimonial wall this template does not carry. Excluded here so the
@@ -25,10 +26,16 @@ export async function generateMetadata({
   const title = service.metaTitle ?? `${service.name}, Mike Bastin`;
   const description = service.metaDescription ?? service.lede;
   const canonical = `${SITE_URL}/services/${service.slug}/`;
+  // FR/ES siblings only exist for the 10 of these 21 EN service slugs that
+  // have a qualifying `type: "service"` group in content-map.json (see
+  // lib/services-locale.ts's file header); the rest are consolidated
+  // pages with nothing to link to, so this stays undefined for them.
+  const group = serviceGroupForEnSlug(service.slug);
+  const languages = group ? serviceHreflang(group) : undefined;
   return {
     title,
     description,
-    alternates: { canonical },
+    alternates: { canonical, ...(languages ? { languages } : {}) },
     // The og:image/twitter:image tags themselves come from the colocated
     // opengraph-image.tsx (Next.js's file-convention metadata, injected
     // automatically per docs/opengraph-image.md), not from an `images`
