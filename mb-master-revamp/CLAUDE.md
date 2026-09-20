@@ -43,13 +43,23 @@ Same model as valenciamove.com, which the owner already runs at larger scale
   CONTENT-ARCHITECTURE.md §2. Don't build for it early; the directory
   structure already scales to it without rework.
 - **Media:** `/public/images/`, no media library and no object storage.
-  Images go through Next/Image. Blog posts carry no image file at all:
-  `components/PostArt.tsx` draws each one as inline SVG, keyed to the post's
-  cluster and seeded from its slug. The 59 pre-rendered cover PNGs and
-  `scripts/gen-blog-covers.mjs` were deleted on 20 Sep, because each was
-  only the post's own title on a rectangle, so the index printed every
-  title twice and a post repeated its `h1`. Social images are separate and
-  unaffected: they come from each route's `opengraph-image.tsx`.
+  The build is `output: "export"` with `images: { unoptimized: true }`, so
+  nothing gains from `next/image`; sizes are baked at build time instead.
+  Each of the 56 migrated posts shows **the featured image it already had
+  on WordPress** (owner, 20 Sep). `lib/blog-images.ts` maps slug to file,
+  alt text and the legacy upload path it came from;
+  `scripts/fetch-legacy-images.mjs` rebuilds `public/images/blog/` from
+  that map, writing `<slug>.webp` at 1200px and `<slug>-thumb.webp` at
+  160x84 for the footer. The derivatives are committed, so a build never
+  depends on the legacy site being up. `components/PostImage.tsx` picks
+  the photograph, and falls back to `components/PostArt.tsx`, which draws
+  a wave composition from a hash of the slug, for a post with no picture
+  of its own, which today is every newly written one. The earlier 59
+  cover PNGs and `scripts/gen-blog-covers.mjs` were deleted on 20 Sep,
+  because each was only the post's own title on a rectangle, so the index
+  printed every title twice and a post repeated its `h1`. Social images
+  are separate and unaffected: they come from each route's
+  `opengraph-image.tsx`.
 - **Redirects:** `site/public/.htaccess`, generated from `content-map.json`
   by the `scripts/gen-*-redirects.mjs` family. Never hand-maintained. Not
   `next.config` `redirects()`, which never runs under `output: "export"`;

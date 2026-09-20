@@ -1,5 +1,5 @@
 import Link from "next/link";
-import PostArt from "@/components/PostArt";
+import PostImage from "@/components/PostImage";
 import Reveal from "@/components/Reveal";
 import { SERVICES } from "@/lib/services";
 import { getPostsForLocale, postPath, type Locale } from "@/lib/posts";
@@ -332,7 +332,7 @@ export default function SiteFooter({
                         className="mt-[3px] w-14 shrink-0 overflow-hidden rounded-[3px] border"
                         style={{ borderColor: "var(--rule)" }}
                       >
-                        <PostArt
+                        <PostImage
                           slug={p.slug}
                           cluster={p.cluster}
                           compact
