@@ -14,6 +14,16 @@
  * verified Ahrefs pull simply has no `demand` field, rather than a
  * guessed number standing in for one.
  *
+ * Read the 90-day window as a floor rather than as the size of a page.
+ * Pulled again over 450 days to 17 September 2026, the same pages rank in
+ * a different order and at roughly seven times the volume: spanish-seo
+ * 23,321, french-seo 21,421, german-seo 11,993, italian-seo 5,865,
+ * multilingual-seo 4,084, portuguese-seo 3,083, dutch-seo 2,681. The
+ * legacy /services/global-seo-solutions/ took 51,064 on its own, more
+ * than any page that replaced it, which is the strongest argument in this
+ * file for the redirect being right. Prioritising off the 90-day numbers
+ * put spanish-seo behind three smaller pages.
+ *
  * Owner correction, 6 Sep: local-seo was originally folded into
  * technical-seo's "Supporting" catch-all, which was a category error --
  * local/off-site visibility (Google Business Profile, citations, the map
@@ -407,6 +417,52 @@ export const SERVICES: Service[] = [
         ],
       },
     ],
+    expandablesHeading: "Which Spanish, and for which market",
+    expandablesLede:
+      "The decision every Spanish engagement starts with, and the compliance that follows from it.",
+    expandables: [
+      {
+        q: "Why Castilian and Latin American Spanish stay separate",
+        a: [
+          "Readable across the divide, yes. Convincing across it, no. A reader in Madrid finds unified Latin American copy informal in ways they did not expect, and a reader in Mexico City or Buenos Aires finds unified Castilian distant, formal and occasionally just wrong on a specific word. Currency, legal markers and trust signals differ on top of that.",
+          "Where it pays to split is commercial intent: product pages, service descriptions, pricing, anything with a form at the end. Editorial content usually survives being unified. A mixed setup, unified blog and separated commercial pages, is the common answer and often the right one.",
+        ],
+      },
+      {
+        q: "Which Latin American market to open first",
+        a: [
+          "Mexico on sheer volume, and it is competitive to match on consumer verticals while staying reachable on regional B2B. Colombia, Argentina and Chile are mid-sized, more accessible, and each behave differently enough to need their own research. The Dominican Republic, Costa Rica and Guatemala make sense for niche or local services rather than for scale.",
+          "The question that actually decides it is where your customers already are and whether the offer fits, not which country has the most speakers.",
+        ],
+      },
+      {
+        q: "Who writes which variant",
+        a: [
+          "Castilian runs direct from the Valencia base: research, briefs, competitor reading, writing and meetings in Spanish without an intermediary. The Latin American variants go to native copywriters on the BeTranslated team in Santo Domingo, briefed and supervised here so the set stays coherent rather than drifting into several unrelated sites.",
+          "The distinction is worth stating plainly, because covering Spanish by quietly subcontracting all of it is common and is not the same service.",
+        ],
+      },
+      {
+        q: "What LSSI-CE and the AEPD require on a Spanish site",
+        a: [
+          "Spain's LSSI-CE asks a transactional site to show specific commercial information: the CIF or NIF, a real address, contact details and terms. The AEPD reads cookie consent more granularly than the baseline interpretation some other countries settle for, so a banner that passes elsewhere can still be wrong here.",
+          "The technical setup is included. Regulated sectors, finance, healthcare, anything touching gambling, want a Spanish lawyer on top of it rather than instead of it.",
+        ],
+      },
+      {
+        q: "Each market carries its own identifier",
+        a: [
+          "Spain expects a CIF or NIF, Mexico an RFC, Colombia a NIT, Argentina a CUIT, the Dominican Republic an RNC. Alongside them sit the local data protection regimes: the AEPD in Spain, INAI in Mexico, the SIC in Colombia, the AAIP in Argentina, Indotel in the Dominican Republic.",
+          "Missing them does not read as an oversight to a local buyer, it reads as a foreign site, and no amount of well-written Spanish compensates for that.",
+        ],
+      },
+    ],
+    // No `gsc` field on purpose, per the rule at the top of this file: the
+    // 90-day window every other figure here uses showed nothing for this
+    // page, and a zero would read as measured rather than as absent. Worth
+    // knowing that the 90-day window understates it badly. Over 450 days to
+    // 17 Sep 2026 this page took 23,321 impressions, the most of any service
+    // page on the domain, ahead of french-seo's 21,421.
     demand: {
       volume: 2100,
       kd: "0 to 7",
