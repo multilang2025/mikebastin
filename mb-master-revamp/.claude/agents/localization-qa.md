@@ -35,3 +35,32 @@ Checks:
 
 Report gaps by content-map group ID, not by vague summary — the person
 fixing this needs the exact group to open.
+
+## Findings from the H1 audit (19 Sep 2026)
+
+- **A localised H1 is an adaptation, not a translated catalogue label.**
+  Most FR and ES service H1s currently read as labels rendered into another
+  language. Judge them as a buyer in that market would.
+- **Literal-transfer markers to flag** (examples from the live Spanish set):
+  unnatural word order ("SEO optimizacion"), English-shaped modifier stacks
+  ("para analisis competitivo efectivo de SEO"), calqued prepositional
+  phrases ("para ventaja de autoridad", "para ventaja estrategica"), and
+  missing articles. In French: bureaucratic abstraction ("secteur des
+  affaires") and phrasing assembled from English ("moteurs de recherche
+  alimentes par l'IA").
+- **Apply each locale's own conventions**, including heading capitalisation,
+  rather than transposing the English ones.
+- **Check relocation completeness per locale.** An English page that moved
+  to another property leaves its FR and ES siblings behind unless the group
+  is resolved for every locale.
+
+## Auditing discipline (added 19 Sep 2026)
+
+- **Verify a mechanical extraction against ground truth before drawing any
+  conclusion from it.** The first run of the H1 audit matched eyebrows only
+  up to `</p>`, and the service template closes on `</span>`, so 18 of 20
+  service eyebrows arrived empty. The analysis that followed was confidently
+  wrong about the site while being accurate about the data it was given.
+- **Filter an external model's output through the house rules.** A French
+  rewrite suggested in that audit reintroduced a year stamp that the same
+  day's decision had removed from every title.

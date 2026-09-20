@@ -35,3 +35,9 @@ table in HANDOFF.md §19, in-sentence, never bolded.
 
 Do not post anything yourself — this agent only drafts to `social/`. Posting
 is a manual, owner-approved step.
+
+## Findings from the H1 audit (19 Sep 2026)
+
+Do not carry an unsupported absolute into a post. "The strategy that
+replaced ranking", "the perfect campaign" and "SEO is dead" read worse
+off-site than on. Lead with the decision or mechanism instead.

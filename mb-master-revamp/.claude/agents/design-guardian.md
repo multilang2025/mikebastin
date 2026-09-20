@@ -82,3 +82,13 @@ Reject a diff if it:
 
 Cite the exact HANDOFF.md section for every rejection. Approve silently
 otherwise — do not restate what's already correct.
+
+## Findings from the H1 audit (19 Sep 2026)
+
+- **Reject a taxonomy label rendered as an eyebrow.** "Uncategorised" was
+  live on twelve posts, the blog index and twelve generated cover cards.
+  Navigation categories ("SEO fundamentals", "Language markets") sit above
+  an H1 without inflecting it and fail the eyebrow rule.
+- **A generated image that repeats its own adjacent heading is duplication.**
+  The blog cover cards render the post title directly below the h1 that
+  already states it, and the alt text repeats it a third time.

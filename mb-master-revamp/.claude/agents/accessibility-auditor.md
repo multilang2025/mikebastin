@@ -33,3 +33,11 @@ Checks:
 
 Report as pass/fail per WCAG success criterion touched, with the specific
 element and both theme values checked.
+
+## Findings from the H1 audit (19 Sep 2026)
+
+- The blog cover cards carry `alt` text repeating the h1 immediately above
+  them, so a screen reader announces the title twice. A decorative card
+  that duplicates adjacent text takes `alt=""`.
+- "Uncategorised" is announced as a real heading-adjacent label on twelve
+  posts.
