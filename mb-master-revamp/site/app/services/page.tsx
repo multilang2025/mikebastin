@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Reveal from "@/components/Reveal";
+import ServiceIcon from "@/components/ServiceIcon";
 import SiteFooter from "@/components/SiteFooter";
 import { SERVICES, CLUSTERS } from "@/lib/services";
 import { SITE_URL } from "@/lib/schema";
@@ -79,29 +80,18 @@ export default function ServicesIndex() {
               <ul className="grid gap-px sm:grid-cols-2 lg:grid-cols-3" style={{ background: "var(--rule)" }}>
                 {inCluster.map((s, i) => (
                   <Reveal key={s.slug} i={i}>
-                    <li className="band h-full" style={{ background: "var(--bg)" }}>
+                    <li className="band group h-full" style={{ background: "var(--bg)" }}>
                       <Link href={`/services/${s.slug}/`} className="flex h-full flex-col px-7 py-8">
-                        <div className="mb-2 flex flex-wrap items-center gap-2">
-                          <span className="ulink text-[1.08rem] font-semibold">{s.name}</span>
-                          {s.pillar && (
-                            <span
-                              className="rounded-[3px] px-[7px] py-[2px] text-[.6rem] uppercase tracking-[.1em]"
-                              style={{ background: "var(--berry-soft)", color: "var(--berry)" }}
-                            >
-                              Pillar
-                            </span>
-                          )}
-                        </div>
-                        <p className="mb-4 text-[.9rem] leading-[1.5]" style={{ color: "var(--dim)" }}>
+                        <span
+                          className="mb-5 flex h-11 w-11 items-center justify-center rounded-full transition-colors duration-300"
+                          style={{ background: "var(--berry-soft)", color: "var(--berry)" }}
+                        >
+                          <ServiceIcon slug={s.slug} />
+                        </span>
+                        <span className="ulink mb-2 text-[1.08rem] font-semibold">{s.name}</span>
+                        <p className="text-[.9rem] leading-[1.5]" style={{ color: "var(--dim)" }}>
                           {s.lede}
                         </p>
-                        <div className="mt-auto flex flex-wrap gap-x-5 gap-y-1 text-[.72rem] uppercase tracking-[.1em]" style={{ color: "var(--dim)" }}>
-                          {s.gsc && (
-                            <span style={{ color: "var(--berry)" }}>
-                              {s.gsc.impressions.toLocaleString("en-GB")} impressions in 90 days
-                            </span>
-                          )}
-                        </div>
                       </Link>
                     </li>
                   </Reveal>

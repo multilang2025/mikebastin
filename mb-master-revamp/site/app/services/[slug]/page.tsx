@@ -74,11 +74,10 @@ export default async function ServicePage({
 
   // Bands alternate strictly A/B/A/B (HANDOFF.md §23): the hero is always
   // band-a, and every section after it flips regardless of which optional
-  // sections (gsc, demand, body, absorbs, siblings) are actually present,
-  // so two same-surface bands never end up touching.
+  // sections (demand, body, absorbs, siblings) are actually present, so two
+  // same-surface bands never end up touching.
   let band: "a" | "b" = "a";
   const nextBand = () => (band = band === "a" ? "b" : "a");
-  const gscBand = service.gsc ? nextBand() : undefined;
   const demandBand = service.demand ? nextBand() : undefined;
   const bodyBand = service.body && service.body.length > 0 ? nextBand() : undefined;
   const expandablesBand =
@@ -139,37 +138,6 @@ export default async function ServicePage({
         </div>
       </section>
 
-      {/* ============ LIVE SEARCH CONSOLE ============ */}
-      {service.gsc && (
-        <section className={`band band-${gscBand} py-[clamp(48px,7vw,90px)]`}>
-          <div className="shell">
-            <Reveal>
-              <p className="eyebrow mb-6">Live Search Console, 90 days to 17 August 2026</p>
-            </Reveal>
-            <div
-              className="grid gap-px"
-              style={{ background: "var(--rule)", gridTemplateColumns: "repeat(auto-fit, minmax(160px, 1fr))" }}
-            >
-              {[
-                { v: service.gsc.impressions.toLocaleString("en-GB"), k: "Impressions" },
-                { v: service.gsc.position.toFixed(1), k: "Average position" },
-                { v: String(service.gsc.keywords), k: "Ranking keywords" },
-              ].map((m, i) => (
-                <div key={m.k} className="band px-6 py-9" style={{ background: "var(--bg)" }}>
-                  <Reveal i={i}>
-                    <div className="display text-[clamp(2rem,4.2vw,2.9rem)] font-semibold leading-none tabular-nums" style={{ color: "var(--berry)" }}>
-                      {m.v}
-                    </div>
-                    <div className="mt-3 text-[.72rem] uppercase tracking-[.12em]" style={{ color: "var(--dim)" }}>
-                      {m.k}
-                    </div>
-                  </Reveal>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-      )}
 
       {/* ============ MEASURED DEMAND ============ */}
       {service.demand && (

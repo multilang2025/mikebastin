@@ -111,7 +111,7 @@ export default async function FrenchBlogPostPage({
         </div>
       </section>
 
-      <SiteFooter />
+      <SiteFooter locale="fr" />
     </main>
   );
 }
