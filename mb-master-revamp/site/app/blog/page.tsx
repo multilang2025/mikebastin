@@ -79,28 +79,48 @@ export default function BlogIndex() {
                 </div>
               </Reveal>
 
-              {/* Pillar, given its own row */}
+              {/* Pillar, given its own row.
+                  Image beside the text rather than above it, as the cards
+                  below have it: the pillar is the lead item, so it should
+                  not read as an unusually wide card. It stacks under 640px,
+                  where two columns would leave the picture too narrow to
+                  show anything. */}
               {(group.pillar || group.pillarHref) && (
                 <Reveal i={1}>
                   <Link
                     href={group.pillarHref ?? `/blog/${group.pillar!.slug}/`}
-                    className="mb-8 block border-l-2 pl-6"
+                    className="mb-8 grid gap-6 border-l-2 pl-6 sm:grid-cols-[1fr_minmax(0,38%)] sm:items-center"
                     style={{ borderColor: "var(--berry)" }}
                   >
+                    <div>
+                      <span
+                        className="mb-2 inline-block rounded-[3px] px-2 py-[3px] text-[.62rem] uppercase tracking-[.1em]"
+                        style={{ background: "var(--berry-soft)", color: "var(--berry)" }}
+                      >
+                        Start here
+                      </span>
+                      <h3 className="ulink display mb-2 max-w-[36ch] text-[clamp(1.15rem,2vw,1.5rem)] font-semibold leading-[1.2]">
+                        {group.pillar ? group.pillar.title : "The competitor analysis and traffic checklist"}
+                      </h3>
+                      {group.pillar && (
+                        <p className="max-w-[62ch] text-[.95rem] leading-[1.55]" style={{ color: "var(--dim)" }}>
+                          {group.pillar.excerpt}
+                        </p>
+                      )}
+                    </div>
                     <span
-                      className="mb-2 inline-block rounded-[3px] px-2 py-[3px] text-[.62rem] uppercase tracking-[.1em]"
-                      style={{ background: "var(--berry-soft)", color: "var(--berry)" }}
+                      className="block overflow-hidden rounded-[4px] border sm:order-last"
+                      style={{ borderColor: "var(--rule)" }}
                     >
-                      Start here
+                      <PostImage
+                        /* A hand-built pillar has no Post, so its slug comes
+                           back out of the href lib/posts.ts built from it,
+                           rather than being written down a second time. */
+                        slug={group.pillar?.slug ?? (group.pillarHref ?? "").replace(/\//g, "")}
+                        cluster={group.name}
+                        className="aspect-[1200/630] w-full"
+                      />
                     </span>
-                    <h3 className="ulink display mb-2 max-w-[36ch] text-[clamp(1.15rem,2vw,1.5rem)] font-semibold leading-[1.2]">
-                      {group.pillar ? group.pillar.title : "The competitor analysis and traffic checklist"}
-                    </h3>
-                    {group.pillar && (
-                      <p className="max-w-[62ch] text-[.95rem] leading-[1.55]" style={{ color: "var(--dim)" }}>
-                        {group.pillar.excerpt}
-                      </p>
-                    )}
                   </Link>
                 </Reveal>
               )}
