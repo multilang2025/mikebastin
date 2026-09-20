@@ -1,6 +1,6 @@
 ---
 words: 1383
-title: "Technical SEO Considerations for German Websites"
+title: "Technical SEO considerations for German websites"
 slug: "technical-seo-considerations-for-german-websites"
 locale: "en"
 type: "posts"

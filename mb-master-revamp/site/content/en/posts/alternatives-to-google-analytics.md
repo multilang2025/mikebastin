@@ -1,7 +1,7 @@
 ---
 words: 585
 editorial: "light"
-title: "Top Alternatives to Google Analytics"
+title: "Google Analytics alternatives, and when each one fits"
 slug: "alternatives-to-google-analytics"
 locale: "en"
 type: "posts"
@@ -10,7 +10,7 @@ wpId: 24844917
 date: "2024-10-10T09:19:53"
 modified: "2026-07-21T11:31:36"
 sourceUrl: "https://mikebastin.com/alternatives-to-google-analytics/"
-excerpt: "Discover top Google Analytics alternatives for 2024 that prioritize privacy, simplicity, and performance, offering businesses enhanced data control and compliance."
+excerpt: "Google Analytics alternatives that put privacy, simplicity and performance first, and which one fits which kind of site."
 ---
 
 ## Balancing Privacy and Insights

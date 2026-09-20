@@ -1,6 +1,6 @@
 ---
 words: 1078
-title: "How to Promote Your Local Business on Google Maps"
+title: "How to promote your local business on Google Maps"
 slug: "how-to-promote-your-local-business-on-google-maps"
 locale: "en"
 type: "posts"

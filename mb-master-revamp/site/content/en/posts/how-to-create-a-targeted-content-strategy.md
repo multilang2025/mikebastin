@@ -1,6 +1,6 @@
 ---
 words: 1509
-title: "How to Create a Targeted Content Strategy?"
+title: "How to create a targeted content strategy?"
 slug: "how-to-create-a-targeted-content-strategy"
 locale: "en"
 type: "posts"

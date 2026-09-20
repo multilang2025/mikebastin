@@ -1,6 +1,6 @@
 ---
 words: 2004
-title: "When Businesses Need a Digital Marketing Advisor Instead of an Agency"
+title: "When businesses need a digital marketing advisor instead of an agency"
 slug: "digital-marketing-advisor"
 locale: "en"
 type: "posts"

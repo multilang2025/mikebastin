@@ -1,6 +1,6 @@
 ---
 words: 2019
-title: "The Unique Challenges of SEO in Belgium"
+title: "The unique challenges of SEO in Belgium"
 slug: "seo-in-belgium"
 locale: "en"
 type: "posts"

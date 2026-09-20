@@ -1,6 +1,6 @@
 ---
 words: 871
-title: "How AI is Revolutionising SEO Strategies"
+title: "How AI is revolutionising SEO strategies"
 slug: "how-ai-is-revolutionising-seo-strategies"
 locale: "en"
 type: "posts"

@@ -1,6 +1,6 @@
 ---
 words: 1112
-title: "How User Interface Localisation Can Transform Your Global Reach"
+title: "How user interface localisation can transform your global reach"
 slug: "user-interface-localisation-can-transform-your-global-reach"
 locale: "en"
 type: "posts"

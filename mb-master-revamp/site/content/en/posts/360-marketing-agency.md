@@ -1,6 +1,6 @@
 ---
 words: 891
-title: "Transform Your Marketing Strategy With a 360 Marketing Agency"
+title: "Transform your marketing strategy with a 360 marketing agency"
 slug: "360-marketing-agency"
 locale: "en"
 type: "posts"

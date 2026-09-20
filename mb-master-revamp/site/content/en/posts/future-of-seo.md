@@ -1,6 +1,6 @@
 ---
 words: 2753
-title: "The Future of SEO in 2026: AI, GEO and What Actually Works"
+title: "Where SEO goes next: AI, GEO and what actually works"
 slug: "future-of-seo"
 locale: "en"
 type: "posts"
@@ -9,7 +9,7 @@ wpId: 24847479
 date: "2024-12-31T15:00:55"
 modified: "2026-07-02T17:27:34"
 sourceUrl: "https://mikebastin.com/future-of-seo/"
-excerpt: "How AI Overviews, zero-click search, and GEO are reshaping SEO in 2026. Data-backed strategies for visibility in a post-click world."
+excerpt: "How AI Overviews, zero-click search and GEO are reshaping SEO. Data-backed strategies for visibility in a post-click world."
 ---
 
 ## SEO in 2026 and beyond: trends, challenges, and what actually matters

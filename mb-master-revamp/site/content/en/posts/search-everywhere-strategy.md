@@ -1,6 +1,6 @@
 ---
 words: 1133
-title: "Why ‘Search Everywhere’ Is the New SEO Strategy for 2026"
+title: "Search everywhere, the strategy that replaced ranking"
 slug: "search-everywhere-strategy"
 locale: "en"
 type: "posts"

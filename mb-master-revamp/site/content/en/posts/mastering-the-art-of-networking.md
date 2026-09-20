@@ -1,6 +1,6 @@
 ---
 words: 1592
-title: "Mastering the Art of Networking: Effective Strategies for Young Professionals"
+title: "Mastering the art of networking: effective strategies for young professionals"
 slug: "mastering-the-art-of-networking"
 locale: "en"
 type: "posts"

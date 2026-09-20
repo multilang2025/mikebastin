@@ -1,6 +1,6 @@
 ---
 words: 1485
-title: "Most Popular Marketing Strategies for SMBs Going International"
+title: "Most popular marketing strategies for SMBs going international"
 slug: "most-popular-marketing-strategies"
 locale: "en"
 type: "posts"
