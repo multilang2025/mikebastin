@@ -106,7 +106,7 @@ export default function BlogIndex() {
                         <Link href={`/blog/${post.slug}/`} className="flex h-full flex-col">
                           <img
                             src={`/images/blog/${post.slug}.png`}
-                            alt={post.title}
+                            alt=""
                             width={1200}
                             height={630}
                             loading="lazy"

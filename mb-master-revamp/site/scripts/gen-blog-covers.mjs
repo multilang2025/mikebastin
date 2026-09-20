@@ -118,6 +118,8 @@ const CLUSTERS = [
       "how-to-create-a-targeted-content-strategy",
       "how-to-promote-your-local-business-on-google-maps",
       "law-firm-seo-services",
+      "eeat-vs-aeat-typo",
+      "optimising-your-website-for-valencia-based-searches",
     ],
   },
   {
@@ -131,6 +133,21 @@ const CLUSTERS = [
       "most-popular-marketing-strategies",
       "digital-marketing-advisor",
       "french-ppc-campaign",
+    ],
+  },
+  {
+    name: "Business and marketing",
+    posts: [
+      "360-marketing-agency",
+      "affiliate-marketing-programs",
+      "best-vietnam-sourcing-agencies-for-eudr-supplier-scouting-and-audits",
+      "business-registration-in-valencia",
+      "global-business-trends",
+      "how-to-write-about-your-professional-background",
+      "human-creator-economy",
+      "mastering-the-art-of-networking",
+      "top-instagram-tools",
+      "15-simple-blog-post-ideas-to-help-attract-more-customers-to-your-business",
     ],
   },
 ];

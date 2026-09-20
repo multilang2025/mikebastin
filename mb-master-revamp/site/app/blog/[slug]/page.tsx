@@ -4,7 +4,7 @@ import Link from "next/link";
 import Reveal from "@/components/Reveal";
 import SiteFooter from "@/components/SiteFooter";
 import JsonLd from "@/components/JsonLd";
-import { getPosts, getPost, postHreflang, HAND_BUILT_SLUGS } from "@/lib/posts";
+import { getPosts, getPost, postHreflang, HAND_BUILT_SLUGS, UNCATEGORISED } from "@/lib/posts";
 import { getService } from "@/lib/services";
 import { getPostMetaDescription, postMetaTitle } from "@/lib/seo";
 import { SITE_URL, blogPostingSchema, breadcrumbSchema } from "@/lib/schema";
@@ -91,7 +91,9 @@ export default async function BlogPostPage({
             </Link>
           </Reveal>
           <Reveal i={1}>
-            <p className="eyebrow mb-5">{post.cluster}</p>
+            {post.cluster !== UNCATEGORISED && (
+              <p className="eyebrow mb-5">{post.cluster}</p>
+            )}
           </Reveal>
           <Reveal i={2}>
             <h1 className="mb-6 max-w-[26ch] text-[clamp(2rem,4.8vw,3.4rem)] font-semibold leading-[1.1]">
@@ -124,7 +126,7 @@ export default async function BlogPostPage({
           <Reveal>
             <img
               src={`/images/blog/${post.slug}.png`}
-              alt={post.title}
+              alt=""
               width={1200}
               height={630}
               loading="lazy"
