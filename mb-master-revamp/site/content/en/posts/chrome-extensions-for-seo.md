@@ -9,7 +9,7 @@ wpId: 37189
 date: "2024-09-17T16:49:13"
 modified: "2026-07-19T11:11:35"
 sourceUrl: "https://mikebastin.com/chrome-extensions-for-seo/"
-excerpt: "Boost your small business visibility on Google Maps! Learn how to list your business, optimise your profile, and rank higher in local search results."
+excerpt: "Ten Chrome extensions that earn their place in an SEO workflow, from SEO Minion and the Ahrefs toolbar to Redirect Path."
 ---
 
 ## Why SEO Chrome extensions save hours of daily work

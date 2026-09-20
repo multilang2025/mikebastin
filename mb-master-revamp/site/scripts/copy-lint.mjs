@@ -245,6 +245,50 @@ function stripNonProse(body) {
     .replace(SCHEMA_TYPES, " ");
 }
 
+/**
+ * The excerpt is the meta description and the card text, so it is the copy
+ * a searcher reads before anything else on the site.
+ *
+ * Two defects shipped on it and neither was checked. Thirteen descriptions
+ * ended mid-clause, because lib/seo.ts cut the excerpt at a word boundary
+ * and called it a sentence: "enhancing efficiency, accuracy, and." was
+ * live. And two posts carried another page's excerpt entirely, so
+ * chrome-extensions-for-seo described Google Maps to 9,726 impressions
+ * and internal-linking-tools sold affordable SEO services.
+ *
+ * The truncator is fixed; these two rules stop either coming back.
+ *
+ * Deliberately not a rule: excerpt length. Forty-nine of them run past
+ * what fits alongside the call to action, and every one of those now cuts
+ * at a sentence boundary and reads as written. Failing them would fire
+ * forty-nine times on something already handled, which is how a lint
+ * teaches people to ignore it.
+ */
+const seenExcerpts = new Map();
+
+function excerptIssues(meta, slug) {
+  const out = [];
+  const m = /^excerpt:\s*"(.*)"\s*$/m.exec(meta);
+  if (!m) return out;
+  const text = m[1].trim();
+
+  const first = seenExcerpts.get(text);
+  if (first) {
+    out.push({ rule: "excerpt", detail: `excerpt duplicates ${first}`, count: 1 });
+  } else {
+    seenExcerpts.set(text, slug);
+  }
+
+  const last = text.replace(/[.!?]+$/, "").split(/\s+/).pop() ?? "";
+  if (DANGLING_WORD.test(last)) {
+    out.push({ rule: "excerpt", detail: `excerpt ends mid-clause on "${last}"`, count: 1 });
+  }
+  return out;
+}
+
+const DANGLING_WORD =
+  /^(?:and|or|but|so|to|for|of|in|on|at|by|with|from|into|onto|as|than|that|which|the|a|an|its|their|your|our|is|are|was|were|be|can|will|would|not|more|such|when|while|where|how|why|if|because|about|across|through|between|per|via|plus|like)$/i;
+
 function contentOnlyIssues(body) {
   const out = [];
 
@@ -342,7 +386,10 @@ for (const locale of readdirSync(CONTENT)) {
         .join("\n");
       const issues = lint(body + "\n\n" + meta);
       const rel = `site/content/${locale}/${type}/${f}`;
-      if (LIVE.has(rel)) issues.push(...contentOnlyIssues(body));
+      if (LIVE.has(rel)) {
+        issues.push(...contentOnlyIssues(body));
+        issues.push(...excerptIssues(meta, f.slice(0, -3)));
+      }
       rows.push({
         locale, type, slug: f.slice(0, -3),
         clean: issues.length === 0,

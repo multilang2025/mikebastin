@@ -38,12 +38,49 @@ function cleanSentence(text: string): string {
   return text.trim().replace(/\s+/g, " ").replace(/[.!?]+$/, "");
 }
 
-/** Trims `text` to fit `max` chars at a word boundary, never mid-word. */
+/**
+ * Words a sentence cannot end on. Cutting at a word boundary is not the
+ * same as cutting at a grammatical one, and the difference shipped to the
+ * SERP on thirteen posts: "enhancing efficiency, accuracy, and." and
+ * "From multilingual content to." were both live meta descriptions.
+ */
+const DANGLING =
+  /\s+(?:and|or|but|so|to|for|of|in|on|at|by|with|from|into|onto|over|under|as|than|that|which|who|the|a|an|its|their|your|our|his|her|is|are|was|were|be|been|can|could|will|would|may|might|should|not|more|most|less|very|such|when|while|where|how|why|if|because|about|across|through|between|per|via|plus|like)$/i;
+
+/**
+ * Trims `text` to fit `max` chars, never mid-word and never mid-clause.
+ *
+ * Prefers a real sentence boundary inside the budget, since a snippet that
+ * ends where the author ended reads as written rather than as cut. Failing
+ * that it cuts at a word boundary, then walks back over any trailing
+ * function word or comma until the last word can carry a full stop.
+ */
 function truncateAtWord(text: string, max: number): string {
   if (text.length <= max) return text;
+
+  // A sentence that ends inside the budget beats any cut we could make.
+  const sentenceEnd = [...text.slice(0, max + 1).matchAll(/[.!?](?=\s|$)/g)]
+    .map((m) => m.index ?? -1)
+    .filter((i) => i >= max * 0.55)
+    .pop();
+  if (sentenceEnd !== undefined) return text.slice(0, sentenceEnd);
+
   const slice = text.slice(0, max);
   const lastSpace = slice.lastIndexOf(" ");
-  const cut = lastSpace > max * 0.55 ? slice.slice(0, lastSpace) : slice;
+  let cut = lastSpace > max * 0.55 ? slice.slice(0, lastSpace) : slice;
+
+  // Walk back off anything a full stop cannot follow. Bounded, because a
+  // pathological run of function words should shorten the snippet, not
+  // empty it.
+  for (let i = 0; i < 6; i++) {
+    const trimmed = cut.replace(/[.,;:\s]+$/, "");
+    const next = trimmed.replace(DANGLING, "");
+    if (next === trimmed) {
+      cut = trimmed;
+      break;
+    }
+    cut = next;
+  }
   return cut.replace(/[.,;:\s]+$/, "");
 }
 
