@@ -49,13 +49,15 @@ export type BlogImage = {
    */
   cropTop?: number;
   /**
-   * Attribution, for a photo that is not from the legacy library.
+   * Where a photo came from, when it is not from the legacy library.
    *
-   * Unsplash's terms ask for the photographer and Unsplash to be credited
-   * with links, so a photo sourced there carries this and the post page
-   * renders it under the image. `legacy` still records where the file came
-   * from, which for these is the Unsplash photo id rather than an upload
-   * path.
+   * Recorded, not rendered. The Unsplash License asks no permission and
+   * requires no attribution, so nothing appears under the image, and the
+   * owner's decision is that nothing should. Keeping the source here
+   * anyway means a photo can always be traced back to the person who took
+   * it, which is what a credit line was doing for the reader and what
+   * matters more to whoever inherits this file. `legacy` records the
+   * Unsplash photo id rather than an upload path for these.
    */
   credit?: { name: string; profile: string; source: string; sourceUrl: string };
 };
