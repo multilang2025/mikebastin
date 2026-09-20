@@ -5,6 +5,7 @@ import Reveal from "@/components/Reveal";
 import SiteFooter from "@/components/SiteFooter";
 import Expandables from "@/components/Expandables";
 import JsonLd from "@/components/JsonLd";
+import { absorbedPage } from "@/lib/absorbed";
 import { SERVICES, getService, CLUSTER_INLINE } from "@/lib/services";
 import { SITE_URL, breadcrumbSchema, serviceSchema } from "@/lib/schema";
 import { serviceGroupForEnSlug, serviceHreflang } from "@/lib/services-locale";
@@ -274,25 +275,37 @@ export default async function ServicePage({
         <section className={`band band-${absorbsBand} py-[clamp(56px,8vw,110px)]`}>
           <div className="shell">
             <Reveal>
-              <p className="eyebrow mb-3">Consolidated into this page</p>
-              <p className="mb-8 max-w-[60ch] text-[1.02rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
-                {service.absorbs.length} earlier pages fold in here, each
-                redirecting in its own locale rather than disappearing. One
-                page covering one query network properly beats several
-                covering it thinly.
+              <p className="eyebrow mb-3">Also covered here</p>
+              <h2 className="mb-5 max-w-[24ch] text-[clamp(1.5rem,2.8vw,2.1rem)] font-semibold leading-[1.15]">
+                {service.absorbs.length} earlier pages fold into this one
+              </h2>
+              <p className="mb-10 max-w-[60ch] text-[1.02rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
+                Each still redirects in its own locale rather than
+                disappearing. One page covering one query network properly
+                beats several covering it thinly, and the work itself has
+                not narrowed: below is what those pages dealt with, and
+                what we still do.
               </p>
             </Reveal>
             <Reveal i={1}>
-              <ul className="flex flex-wrap gap-2">
-                {service.absorbs.map((a) => (
-                  <li
-                    key={a}
-                    className="rounded-[3px] px-3 py-[6px] text-[.8rem]"
-                    style={{ background: "var(--chip)", color: "var(--dim)" }}
-                  >
-                    {a}
-                  </li>
-                ))}
+              <ul className="grid gap-px sm:grid-cols-2" style={{ background: "var(--rule)" }}>
+                {service.absorbs.map((a) => {
+                  const page = absorbedPage(a);
+                  return (
+                    <li
+                      key={a}
+                      className="band flex h-full flex-col gap-2 px-7 py-6"
+                      style={{ background: "var(--bg)" }}
+                    >
+                      <h3 className="text-[1.02rem] font-semibold leading-[1.3]">
+                        {page.name}
+                      </h3>
+                      <p className="text-[.93rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
+                        {page.line}
+                      </p>
+                    </li>
+                  );
+                })}
               </ul>
             </Reveal>
           </div>
