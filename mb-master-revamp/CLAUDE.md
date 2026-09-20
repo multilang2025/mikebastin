@@ -177,6 +177,17 @@ reachable, but only once the AISA bridge is pointed at that site
 reports mikebastin.com as inaccessible, which reads like missing access
 rather than a wrong default.
 
+**Launch date: 30 September 2026, English only** (owner, 20 Sep). FR and ES
+ship with it only if they are ready by then, and neither is ready today, so
+plan for EN and treat the other two as upside rather than as scope. Ten
+days from the decision. `docs/LAUNCH-CHECKLIST.md` holds the steps, and
+`npm run check:launch --live` is what says whether the site can actually go.
+
+Still open, and only the owner can answer it: one line on what
+mikebastin.com is commercially for this quarter. It decides what the
+homepage argues and what the remaining thin service pages lead with, so it
+is worth answering before those pages are written to a guess.
+
 **FR and ES are deferred** (owner, 20 Sep). Do not build new French or
 Spanish surfaces for now. Flagged rather than forgotten, so the gaps are
 known and deliberate:

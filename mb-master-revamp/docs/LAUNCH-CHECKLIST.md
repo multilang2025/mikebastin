@@ -1,5 +1,9 @@
 # Launch checklist
 
+**Due 30 September 2026, English only** (owner, 20 Sep). French and Spanish
+ship with it only if they are ready by then; neither is today, so EN is the
+commitment and the other two are upside.
+
 Everything here is reversible except the first item, which is the one that
 decides whether the site exists as far as search is concerned.
 

@@ -546,6 +546,46 @@ export const SERVICES: Service[] = [
         ],
       },
     ],
+    expandablesHeading: "The one language here we run without a translator",
+    expandablesLede:
+      "Dutch works differently from the other language pages, and the Netherlands and Flanders differ again.",
+    expandables: [
+      {
+        q: "Who writes the Dutch",
+        a: [
+          "We do, and that is not true of every language on this site. Dutch is fluent here, from an Erasmus year in Utrecht and years of daily work through the BeTranslated network, so the briefs, the SERP reading, the competitor analysis and the meetings all happen directly in Dutch with nobody in the middle.",
+          "Published commercial copy still gets a native polishing pass, because fluent and native are not the same thing and the last five percent of tone is where a Dutch reader decides whether a site was written for them.",
+        ],
+      },
+      {
+        q: "Netherlands, Flanders, or both",
+        a: [
+          "The Netherlands alone is the usual answer and the simplest architecture. Flanders on its own is rare, because a Belgian business working in Dutch generally wants the Dutch market too. Both, with nl-NL and nl-BE kept apart, earns its place when you already have customers asking in Dutch on either side of the border.",
+          "The recommendation comes from your sales pipeline rather than from the map.",
+        ],
+      },
+      {
+        q: "Same language, different commercial vocabulary",
+        a: [
+          "A rental property is a huurwoning in the Netherlands and often a huurappartement in Belgium. Insurance is verzekering in one and alternates with assurantie in the other. Neither is wrong, and each reads as slightly foreign in the wrong country.",
+          "The regulators differ too, the AFM in the Netherlands against the FSMA in Belgium for financial services, along with the VAT rules. Treating both as one market produces a site that is half relevant in each.",
+        ],
+      },
+      {
+        q: "What the footer has to carry",
+        a: [
+          "A KvK number and a BTW number in the Netherlands, a KBO number and BTW or TVA in Belgium, visible in the footer and on the contact page rather than buried. Cookie consent aligned to the AVG, which is the GDPR as the Dutch read it, and terms appropriate to what you actually sell.",
+          "Regulated sectors want a Dutch or Belgian lawyer on top of the technical setup, not instead of it.",
+        ],
+      },
+      {
+        q: "Why iDEAL and Bancontact belong in an SEO conversation",
+        a: [
+          "Indirectly, and measurably. iDEAL in the Netherlands and Bancontact in Belgium are what people expect to see at a checkout, and a consumer store missing them loses a real share of buyers at the last step.",
+          "Search notices the consequence rather than the cause. A page people complete rather than abandon holds its position better than one they bounce from, so a payment method ends up being a ranking factor by a longer route.",
+        ],
+      },
+    ],
     demand: {
       volume: 800,
       kd: "3",
@@ -642,6 +682,46 @@ export const SERVICES: Service[] = [
         heading: "Native per variant, coordinated from here",
         paragraphs: [
           "Research and writing run through native PT-PT copywriters for Portugal and native PT-BR copywriters for Brazil from the BeTranslated network, briefed in English or French and checked by a second native reader per variant. Outreach targets Público and Expresso in Portugal, Folha and Estadão in Brazil, never a link bought from the wrong side of the Atlantic.",
+        ],
+      },
+    ],
+    expandablesHeading: "Portugal or Brazil, and why not both by default",
+    expandablesLede:
+      "The decision this engagement opens with, and what follows from each answer.",
+    expandables: [
+      {
+        q: "European and Brazilian Portuguese are two markets, not one language setting",
+        a: [
+          "They diverge far enough on vocabulary, grammar, regulation, currency and trust signals that one unified Portuguese site reads wrong to both audiences. A reader in Lisbon finds unified Brazilian copy distractingly Brazilian. A reader in São Paulo finds unified European Portuguese stiff and unnatural. Both lose a little trust, and both convert worse for it.",
+          "Where both are genuinely in scope, pt-PT and pt-BR keep them apart. Where only one is, targeting it properly beats hedging between the two.",
+        ],
+      },
+      {
+        q: "Which one to open first",
+        a: [
+          "Portugal is a mature EU market on the euro, under GDPR, and friendly to a foreign business with any European proximity. Brazil is an order of magnitude larger, with its own payment behaviour, its own data protection law and a currency that brings exchange risk with it.",
+          "The question is offer fit and where your customers already are, not which is nearer or which is bigger. A European SMB selling services often does better in Portugal than in a Brazilian market it cannot serve.",
+        ],
+      },
+      {
+        q: "Who reads the Portuguese and who writes it",
+        a: [
+          "We read both variants at a working level, built on native French and daily Spanish, which is enough to audit a SERP, follow a competitor's pages, check the technical configuration for the variant and take notes in a native team meeting.",
+          "Writing is done by native copywriters from the target market: a Portuguese writer for pt-PT, a Brazilian writer for pt-BR, not one Portuguese speaker covering both. Most agencies that offer Portuguese do neither of those things and do not say so.",
+        ],
+      },
+      {
+        q: "LGPD is not just GDPR with a different name",
+        a: [
+          "Brazil's Lei Geral de Proteção de Dados covers similar ground to the GDPR and is enforced by its own authority, the ANPD, with its own expectations. Consent handling, data subject rights and the privacy policy are set up to that reading rather than to a European one relabelled.",
+          "Sensitive data, cross-border transfers and automated decisions want a Brazilian privacy lawyer on top of the technical work.",
+        ],
+      },
+      {
+        q: "A Brazilian store without PIX leaks buyers",
+        a: [
+          "PIX, the instant payment system the central bank launched in 2020, is how a great many Brazilians now pay: faster than a card, settled immediately, and effectively free for an individual. Boleto bancário still matters for some demographics and for business-to-business.",
+          "It reaches SEO indirectly and reliably. A checkout that offers what a buyer expects converts better, and a page that converts better holds its position more easily than one that ranks and bounces.",
         ],
       },
     ],
