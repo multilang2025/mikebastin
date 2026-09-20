@@ -58,8 +58,11 @@ async function main() {
     }
 
     // An entry sourced outside the legacy library records its origin
-    // rather than an upload path, and cannot be refetched from here.
-    if (image.legacy.startsWith("unsplash:")) {
+    // rather than an upload path, so there is nothing to fetch from the
+    // WordPress uploads directory. The Commons ones are rebuilt by
+    // scripts/fetch-commons-images.mjs instead; the Unsplash one is a
+    // single downloaded file with no script behind it.
+    if (image.legacy.startsWith("unsplash:") || image.legacy.startsWith("commons:")) {
       skipped++;
       continue;
     }
@@ -73,22 +76,13 @@ async function main() {
 
     const bytes = Buffer.from(await res.arrayBuffer());
 
-    // A few of the January 2026 uploads were generated with the prompt
-    // still burned across the top. cropTop removes that band before
-    // anything else, so the derivative is clean and rebuildable.
-    let source = sharp(bytes);
-    if (image.cropTop) {
-      const meta = await sharp(bytes).metadata();
-      source = sharp(
-        await sharp(bytes)
-          .extract({ left: 0, top: image.cropTop, width: meta.width, height: meta.height - image.cropTop })
-          .toBuffer()
-      );
-    }
-    const cropped = await source.toBuffer();
-
-    await sharp(cropped).resize({ width: 1200, withoutEnlargement: true }).webp({ quality: 74 }).toFile(full);
-    await sharp(cropped).resize(160, 84, { fit: "cover", position: "attention" }).webp({ quality: 72 }).toFile(thumb);
+    // cropTop used to sit here, trimming the burned-in prompt off the
+    // January 2026 uploads that were generated with it still in frame.
+    // Every image that needed it has since been replaced by a public
+    // domain photograph, so the field had no users left and went with
+    // them rather than staying as a capability nothing calls.
+    await sharp(bytes).resize({ width: 1200, withoutEnlargement: true }).webp({ quality: 74 }).toFile(full);
+    await sharp(bytes).resize(160, 84, { fit: "cover", position: "attention" }).webp({ quality: 72 }).toFile(thumb);
     fetched++;
   }
 

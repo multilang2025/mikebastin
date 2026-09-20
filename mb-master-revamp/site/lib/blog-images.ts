@@ -33,33 +33,44 @@ export type BlogImage = {
   width: number;
   height: number;
   alt: string;
-  /** Path under the legacy site's wp-content/uploads/. Provenance only. */
+  /**
+   * Where the file came from, and what rebuilds it.
+   *
+   * A path under the legacy site's wp-content/uploads/ for the images
+   * harvested from WordPress, which scripts/fetch-legacy-images.mjs
+   * refetches. A "commons:File:..." title for the public domain
+   * photographs, which scripts/fetch-commons-images.mjs rebuilds. An
+   * "unsplash:<id>" reference for the one photo from there, which has no
+   * script behind it and was downloaded once.
+   */
   legacy: string;
   /**
-   * Pixels to remove from the top of the source before resizing.
+   * Which part of the frame to keep when cropping to 1200x630.
    *
-   * Several of the January 2026 uploads were generated with the prompt
-   * still burned into the image, so searcheverywherestrategy2026.jpg
-   * carries "CREATE: Unified Digital Strategy" across its top corner.
-   * The label sits on a plain wall above the subject, so cropping it off
-   * is a better fix than reaching for a different picture.
-   *
-   * scripts/fetch-legacy-images.mjs applies this, so the derivative can
-   * be rebuilt from the source and still come out clean.
+   * Only the `commons:` photographs are cropped rather than scaled, and
+   * sharp's `attention` strategy, which keeps whatever it scores as most
+   * interesting, decapitated two of them: it preferred a tabulating
+   * machine to the woman operating it, and a desk of paperwork to the two
+   * men standing over it. "top" keeps heads, which is what an archival
+   * photograph of people needs; "attention" is right where the subject is
+   * the object.
    */
-  cropTop?: number;
+  cropFocus?: "top" | "centre" | "attention";
   /**
    * Where a photo came from, when it is not from the legacy library.
    *
-   * Recorded, not rendered. The Unsplash License asks no permission and
-   * requires no attribution, so nothing appears under the image, and the
-   * owner's decision is that nothing should. Keeping the source here
-   * anyway means a photo can always be traced back to the person who took
-   * it, which is what a credit line was doing for the reader and what
-   * matters more to whoever inherits this file. `legacy` records the
-   * Unsplash photo id rather than an upload path for these.
+   * Recorded, not rendered. Nothing on this site carries a credit line,
+   * which is the owner's decision and is why every sourced photo here is
+   * either public domain, CC0, or under the Unsplash License: all three
+   * owe no attribution. A photo that required one would have to be
+   * credited on the page, so it does not get used.
+   *
+   * Recording it anyway means a file can always be traced back to who
+   * made it and on what terms, which is the part that matters to whoever
+   * inherits this. `licence` is what the source itself states, so a
+   * future audit reads this rather than trusting the choice made here.
    */
-  credit?: { name: string; profile: string; source: string; sourceUrl: string };
+  credit?: { author: string; source: string; sourceUrl: string; licence: string };
 };
 
 export const BLOG_IMAGES: Record<string, BlogImage> = {
@@ -67,22 +78,22 @@ export const BLOG_IMAGES: Record<string, BlogImage> = {
   "360-marketing-agency": { width: 1200, height: 529, alt: "A man facing a tunnel of screens showing many different images at once", legacy: "2024/12/360-Marketing-Agency.jpg" },
   "affiliate-marketing-programs": { width: 1200, height: 425, alt: "A laptop screen reading affiliate marketing, surrounded by icons for targets and reports", legacy: "2024/10/Affiliate-Marketing-Programs.jpg" },
   "ai-powered-marketing": { width: 1200, height: 503, alt: "A laptop on a desk showing the letters AI over a network of connected points", legacy: "2024/10/AI-Powered-Marketing.jpg" },
-  "alternatives-to-google-analytics": { width: 1200, height: 425, alt: "Hands at a laptop showing a dashboard of bar charts and pie charts, with printed reports alongside", legacy: "2024/10/Top-Alternatives-to-Google-Analytics.jpg" },
+  "alternatives-to-google-analytics": { cropFocus: "top", width: 1200, height: 630, alt: "A woman working at a punched card tabulating machine during the 1950 United States census", legacy: "commons:File:Keypunch operator 1950 census IBM 016.jpg", credit: { author: "U.S. Census Bureau employees", source: "Wikimedia Commons", sourceUrl: "https://commons.wikimedia.org/wiki/File:Keypunch_operator_1950_census_IBM_016.jpg", licence: "Public domain" } },
   "best-practices-for-multilingual-seo": { width: 1200, height: 428, alt: "Two people seated with phones, with SEO and web icons drawn over the photograph", legacy: "2024/10/best-practices-for-multilingual-seo.jpg" },
   "best-vietnam-sourcing-agencies-for-eudr-supplier-scouting-and-audits": { width: 1200, height: 764, alt: "Weathered timber planks in several colours, laid side by side", legacy: "2025/12/vietnam-sourcing-agencies.jpg" },
   "building-a-global-brand": { width: 1200, height: 800, alt: "A globe resting on a dark surface lit by circuit lines", legacy: "2024/09/Building-a-Global-Brand-1.jpg" },
   "chrome-extensions-for-seo": { width: 1200, height: 726, alt: "Hands typing on a laptop with SEO, mail and shopping icons floating above the screen", legacy: "2024/09/chrome-extensions.jpg" },
   "chrome-extensions-for-translators": { width: 1200, height: 848, alt: "A pile of Google Chrome logos", legacy: "2024/09/browser-web-www-computer-773216.jpg" },
   "common-mistakes-to-avoid-when-localising-your-website": { width: 1200, height: 705, alt: "A hand writing the words common mistakes on a notepad", legacy: "2024/09/common-mistakes-to-avoid-when-cocalizing-your-website.jpg" },
-  "competitor-analysis": { width: 1200, height: 686, alt: "A desk with two open laptops, each showing an analytics dashboard", legacy: "2026/01/competitoranalysis.jpg" },
+  "competitor-analysis": { width: 1200, height: 630, alt: "A man reading at a subway magazine stand, its racks filled with competing titles", legacy: "commons:File:MAGAZINE STAND IS LOCATED ONLY A FEW STEPS AWAY FROM A PLATFORM ON THE LEXINGTON AVENUE LINE OF THE SUBWAY. IN 1970... - NARA - 556675.jpg", credit: { author: "Jim Pickerell", source: "Wikimedia Commons", sourceUrl: "https://commons.wikimedia.org/wiki/File:MAGAZINE_STAND_IS_LOCATED_ONLY_A_FEW_STEPS_AWAY_FROM_A_PLATFORM_ON_THE_LEXINGTON_AVENUE_LINE_OF_THE_SUBWAY._IN_1970..._-_NARA_-_556675.jpg", licence: "Public domain" } },
   "competitor-analysis-traffic-checklist": { width: 1200, height: 686, alt: "A fountain pen resting on a printed checklist, with reading glasses and a monitor showing a traffic dashboard behind", legacy: "2026/01/competitoranalysistrafficcheck.jpg" },
   "content-optimisation-for-spanish-users": { width: 1200, height: 482, alt: "A woman smiling at an outdoor cafe table on a Spanish street", legacy: "2024/10/spanish-users.jpg" },
   // The only entry here not from the legacy library. Its WordPress image
   // was an AI mockup reading "Hello! How can bo help?" beside "Hola!
   // /Como pudo ayodrarte", and every other candidate in that batch was
   // no better, so this is a real photograph from Unsplash instead.
-  "conversational-ai-chatbots-business": { width: 1200, height: 800, alt: "A woman holding a phone in both hands, part-way through typing a message", legacy: "unsplash:HbyYFFokvm0", credit: { name: "Paul Hanaoka", profile: "https://unsplash.com/@plhnk", source: "Unsplash", sourceUrl: "https://unsplash.com/photos/HbyYFFokvm0" } },
-  "digital-marketing-advisor": { width: 1200, height: 686, alt: "A man studying a flip chart that compares an advisor model with an agency model", legacy: "2026/01/digitalmarketingadvisoragencyd.jpg" },
+  "conversational-ai-chatbots-business": { width: 1200, height: 800, alt: "A woman holding a phone in both hands, part-way through typing a message", legacy: "unsplash:HbyYFFokvm0", credit: { author: "Paul Hanaoka", source: "Unsplash", sourceUrl: "https://unsplash.com/photos/HbyYFFokvm0", licence: "Unsplash License" } },
+  "digital-marketing-advisor": { cropFocus: "centre", width: 1200, height: 630, alt: "An art director and a copy writer working together at an advertising agency in Detroit, 1942", legacy: "commons:File:Art director and copy writer at a large advertising agency. Detroit, Michigan. July 1942. (26767552717).jpg", credit: { author: "Britt Fuller from Tallahassee, United States of America", source: "Wikimedia Commons", sourceUrl: "https://commons.wikimedia.org/wiki/File:Art_director_and_copy_writer_at_a_large_advertising_agency._Detroit,_Michigan._July_1942._(26767552717).jpg", licence: "Public domain" } },
   "eeat-vs-aeat-typo": { width: 1200, height: 666, alt: "A cover graphic reading EEAT versus AEAT, the typo that turns an SEO audit into a tax audit", legacy: "2026/01/EEAT-AEAT-1.jpg" },
   "email-marketing-hacks-boosting-open-rates-and-conversions": { width: 1200, height: 489, alt: "A laptop showing one unread email in an inbox, next to a cup of coffee", legacy: "2024/11/Email-Marketing-Hacks.jpg" },
   "english-to-french-translation-services": { width: 1200, height: 672, alt: "A ball painted in the French flag resting on a laptop keyboard", legacy: "2024/09/english-to-french-translation-services.jpg" },
@@ -92,7 +103,7 @@ export const BLOG_IMAGES: Record<string, BlogImage> = {
   "german-seo-content-localisation": { width: 1200, height: 426, alt: "A man at a whiteboard diagram with SEO at the centre, branching to keywords, pages, links, content and media", legacy: "2024/09/german-seo-content-localization.jpg" },
   "global-business-trends": { width: 1200, height: 644, alt: "Five colleagues around a meeting table, each working on a laptop or tablet", legacy: "2020/04/agency-post-02.jpg" },
   "google-analytics-international-marketing-limits": { width: 1200, height: 686, alt: "Two monitors on a desk showing analytics dashboards and a world map", legacy: "2026/01/googleanalyticsinternationalma.jpg" },
-  "how-ai-is-revolutionising-seo-strategies": { width: 1200, height: 450, alt: "A human hand and a robotic hand typing on the same laptop", legacy: "2024/11/Revolutionising-SEO-Strategies.jpg" },
+  "how-ai-is-revolutionising-seo-strategies": { cropFocus: "top", width: 1200, height: 630, alt: "A computer operator at an IBM 4381 work station in a mainframe room", legacy: "commons:File:A computer operator works at an IBM 4381 four-window work station in a computer room at the Arnold Engineering Development Center, where numerous mainframe and super computers are u - DPLA - b8ef28c4e9b101b7ccc7f2e5ee1a68ed.jpeg", credit: { author: "Department of Defense. American Forces Information Service. Defense Visual Information Center. 1994", source: "Wikimedia Commons", sourceUrl: "https://commons.wikimedia.org/wiki/File:A_computer_operator_works_at_an_IBM_4381_four-window_work_station_in_a_computer_room_at_the_Arnold_Engineering_Development_Center,_where_numerous_mainframe_and_super_computers_are_u_-_DPLA_-_b8ef28c4e9b101b7ccc7f2e5ee1a68ed.jpeg", licence: "Public domain" } },
   "how-ai-is-transforming-translation-and-localisation": { width: 1200, height: 799, alt: "Keyboard keys printed with the flags of many countries", legacy: "2024/09/translation-keyboard-computer-7774314.jpg" },
   "how-to-create-a-targeted-content-strategy": { width: 1200, height: 426, alt: "Hands at a keyboard with floating counters for likes, comments and shares", legacy: "2024/10/targeted-content-strategy.jpg" },
   "how-to-promote-your-local-business-on-google-maps": { width: 1200, height: 673, alt: "A hand holding a phone that shows a map with a red location pin", legacy: "2020/11/google-maps-marketing.jpg" },
@@ -103,7 +114,7 @@ export const BLOG_IMAGES: Record<string, BlogImage> = {
   "law-firm-seo-services": { width: 1200, height: 512, alt: "Two people in business suits walking outside a glass office building", legacy: "2024/12/law-firm-SEO.jpg" },
   "link-building-in-spain": { width: 1200, height: 431, alt: "A wooden bobbin resting on a pillow of handmade Spanish lace", legacy: "2024/10/spanish-link-building.jpg" },
   "link-selling-and-link-buying-platforms": { width: 1200, height: 483, alt: "Chain links in several bright colours, joined in a row", legacy: "2024/12/Link-Selling-and-Link-Buying-Platforms.jpg" },
-  "llms-beyond-giants-hidden-ai-models": { width: 1200, height: 686, alt: "Devices and a glowing sphere on a podium, with a robotic hand reaching in", legacy: "2025/12/LLMs.jpg" },
+  "llms-beyond-giants-hidden-ai-models": { width: 1200, height: 630, alt: "Two women setting the switches on the ENIAC computer by hand", legacy: "commons:File:Two women operating ENIAC (full resolution).jpg", credit: { author: "Unidentified U.S. Army photographer", source: "Wikimedia Commons", sourceUrl: "https://commons.wikimedia.org/wiki/File:Two_women_operating_ENIAC_(full_resolution).jpg", licence: "Public domain" } },
   "localisation-testing-tools": { width: 1200, height: 426, alt: "Hands at a laptop with settings, search and file icons floating above the keys", legacy: "2024/10/testing-tools.jpg" },
   "mastering-the-art-of-networking": { width: 1200, height: 900, alt: "A city skyline with portrait photographs joined by a network of lines", legacy: "2024/09/ai-generated-internet-technology-8259052.jpg" },
   "most-popular-marketing-strategies": { width: 1200, height: 644, alt: "Four colleagues at a white table, looking at phones and a tablet", legacy: "2020/04/agency-post-01.jpg" },
@@ -112,7 +123,7 @@ export const BLOG_IMAGES: Record<string, BlogImage> = {
   "optimising-your-website-for-valencia-based-searches": { width: 1200, height: 504, alt: "Two women at a market stall, with a search box drawn across the photograph", legacy: "2025/01/local-seo-valencia.jpg" },
   "optimising-your-website-for-voice-search": { width: 1200, height: 542, alt: "A woman speaking into the microphone of her phone", legacy: "2024/12/voice-search.jpg" },
   "prompt-engineers": { width: 1000, height: 519, alt: "Hands typing on a laptop set on top of printed plans", legacy: "2025/08/prompt-engineers.jpg" },
-  "search-everywhere-strategy": { width: 1200, height: 596, alt: "A phone, a tablet and a laptop on a table, showing one interface across all three", legacy: "2026/01/searcheverywherestrategy2026.jpg", cropTop: 100 },
+  "search-everywhere-strategy": { width: 1200, height: 630, alt: "An open library card catalogue drawer, its cards raised part-way through a search", legacy: "commons:File:Copyright Card Catalog Drawer.jpg", credit: { author: "Michael Holley Swtpc6800", source: "Wikimedia Commons", sourceUrl: "https://commons.wikimedia.org/wiki/File:Copyright_Card_Catalog_Drawer.jpg", licence: "Public domain" } },
   "seo-in-belgium": { width: 600, height: 338, alt: "A computer keyboard with one key carrying the Belgian flag and another a tick", legacy: "2024/10/Belgium-SEO-1.jpg" },
   "spanish-keyword-localisation": { width: 1200, height: 475, alt: "A search box graphic on a yellow background, filled with keyword tags", legacy: "2024/10/spanish-keyword-research.jpg" },
   "spanish-on-page-seo": { width: 1200, height: 509, alt: "A red Spanish hair comb and fan set against roses", legacy: "2024/10/Spanish-On-Page-SEO.jpg" },

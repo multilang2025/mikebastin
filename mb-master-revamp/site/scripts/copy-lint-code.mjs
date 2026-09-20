@@ -50,6 +50,12 @@ const EXEMPT = [
 /** Strings, JSX text, and nothing else. */
 function copyStrings(src) {
   const out = [];
+  // An `author:` value names somebody else: a photographer credited in
+  // lib/blog-images.ts, not anything a visitor reads. Without this, a
+  // public domain photograph by a Michael fails the house rule about the
+  // brand being Mike Bastin, which the rule was never about. The values
+  // go nowhere near a page, so they are not copy.
+  src = src.replace(/\bauthor:\s*(["'`])(?:[^\\]|\\.)*?\1/g, "author: \"\"");
   // Double- and single-quoted string literals, and template literals.
   for (const m of src.matchAll(/"((?:[^"\\\n]|\\.)*)"|'((?:[^'\\\n]|\\.)*)'|`((?:[^`\\]|\\.)*)`/g)) {
     out.push(m[1] ?? m[2] ?? m[3] ?? "");
