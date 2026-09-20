@@ -127,10 +127,11 @@ export const SERVICES: Service[] = [
     metaTitle: "Multilingual lead generation, Mike Bastin",
     metaDescription: "Multilingual SEO, localisation and AI consulting are the mechanisms behind one outcome, enquiries. See how the engagement measures and delivers them.",
     sections: ["What gets measured", "How it is delivered", "The evidence", ...ENGAGEMENT.slice(2)],
-    // No `body` here on purpose: lead-generation has its own hand-built route
-    // at app/services/lead-generation/page.tsx rather than rendering through
-    // services/[slug], and that route does not read `body`. Adding one would
-    // be data nothing renders.
+    // No `body` or `expandables` here on purpose: lead-generation has its own
+    // hand-built route at app/services/lead-generation/page.tsx rather than
+    // rendering through services/[slug], and that route reads neither. It is
+    // the one service of nineteen with no expandables, and that is the reason
+    // rather than an oversight; its prose lives in the route instead.
   },
   {
     slug: "multilingual-sem",
@@ -166,6 +167,39 @@ export const SERVICES: Service[] = [
         ],
       },
     ],
+    expandablesHeading: "How the paid side is structured and paid for",
+    expandablesLede:
+      "Account architecture, sequencing against organic, and who runs which language.",
+    expandables: [
+      {
+        q: "Separate accounts per market, because quality score does not travel",
+        a: [
+          "Google scores relevance per account and per campaign, and a market with a weak history drags on one that would otherwise be fine. Splitting by language, and by country domain where you run several, keeps each market's score earned by its own performance.",
+          "It also makes the reporting honest. One blended account can look profitable while a single language inside it quietly burns the budget the others earned.",
+        ],
+      },
+      {
+        q: "Paid first, organic first, or both",
+        a: [
+          "Paid first when you need pipeline now, when the offer is new enough that you want a demand signal before committing to content, or when organic will take the better part of a year to mature in that market. Organic first when clicks in your sector are expensive enough that paid cannot sustain itself, or when your buyers research for months before they contact anyone.",
+          "Both together is the common answer: paid takes the commercial-intent queries while organic builds, and the paid budget moves to less contested markets or non-brand terms as organic starts carrying them. The two share one keyword universe and, where it makes sense, one set of landing pages, so they inform each other instead of bidding against each other.",
+        ],
+      },
+      {
+        q: "Who runs which language",
+        a: [
+          "French, English, Spanish and Dutch run directly here, which means the keyword research, the ad copy and the search-term reports are read in the language rather than through a translation. German, Italian, Portuguese and the rest go to native speakers on the BeTranslated team, briefed and reviewed the same way the organic content is.",
+          "Search terms are where it matters most. A negative keyword list is built by reading what people actually typed, and that only works if somebody can tell an irrelevant query from a promising one in that language.",
+        ],
+      },
+      {
+        q: "How the billing is structured",
+        a: [
+          "The media budget goes directly to Google, Microsoft or Meta rather than through us, so there is no markup on spend and no reason for the recommendation to be a larger budget.",
+          "Management is charged separately from it. The point of separating them is that the incentive tracks whether the campaigns work rather than how much they cost to run.",
+        ],
+      },
+    ],
   },
   {
     slug: "conversion-tracking",
@@ -190,6 +224,39 @@ export const SERVICES: Service[] = [
         paragraphs: [
           "GA4 and Google Tag Manager configured per locale, with key events (form submissions, downloads, calls, cart actions for stores) defined once and applied consistently across languages. Where sales pass through a CRM, conversion data is synced so a lead is measured through to a qualified outcome, not just counted at the click.",
           "Reporting is reviewed on a fixed cadence, typically monthly, with a clear owner for the numbers rather than a dashboard nobody opens. A market that stops converting shows up in the data before it shows up in the sales pipeline three months later.",
+        ],
+      },
+    ],
+    expandablesHeading: "Why the numbers disagree with the sales team",
+    expandablesLede:
+      "The four reasons a multilingual site reports conversions it did not get, or misses ones it did.",
+    expandables: [
+      {
+        q: "Consent changes what you can measure, and it changes per market",
+        a: [
+          "In the EU a visitor who declines cookies is still a visitor, and what reaches your analytics from them depends on how consent mode is configured rather than on whether they converted. Decline rates differ sharply by country, so two markets with identical real performance can report very differently.",
+          "Which means a comparison between markets is only honest once you know each one's consent rate. Otherwise you are ranking your languages by how willing their visitors are to accept cookies.",
+        ],
+      },
+      {
+        q: "A conversion has to be the thing you actually want",
+        a: [
+          "Counting form submissions counts the spam, the test entries and the person who wanted a job. Counting them all as wins makes a market look healthy while the sales team sees nothing arrive.",
+          "The definition worth using is the one your own people recognise: an enquiry that became a conversation. Everything above it is a step to watch, not a result to report.",
+        ],
+      },
+      {
+        q: "Attribution across languages is where the double counting starts",
+        a: [
+          "A visitor who lands on the English page, switches to French and converts belongs to one market, and which one depends on rules somebody has to choose rather than on a default. Left alone, a switcher is often counted twice or credited to the wrong language entirely.",
+          "Getting it wrong quietly inflates whichever language sits at the top of the funnel and starves the one doing the work.",
+        ],
+      },
+      {
+        q: "The CRM is where a lead stops being a number",
+        a: [
+          "Syncing conversion data through to the CRM is what lets a market be judged on the quality of what it sent rather than the quantity. A language producing fewer and better enquiries is winning, and on a click-level report it looks like it is losing.",
+          "It is also the only way to find the market where everything converts and nothing closes, which is a positioning problem wearing an analytics costume.",
         ],
       },
     ],
@@ -992,6 +1059,39 @@ export const SERVICES: Service[] = [
         ],
       },
     ],
+    expandablesHeading: "The order the work has to happen in",
+    expandablesLede:
+      "Three pages folded into this one, and the sequence that decides how expensive the rest becomes.",
+    expandables: [
+      {
+        q: "Internationalisation comes first, or localisation costs several times more",
+        a: [
+          "Preparing the software is the part nobody demos: strings pulled out of the code, no sentences assembled from fragments, dates and numbers and currency formatted by locale rather than hardcoded, sorting that follows the target language's rules, and layouts that survive text arriving longer than the English.",
+          "Done first, adding a language is a content job. Skipped, every new market reopens the codebase, and the second language costs more than the first did.",
+        ],
+      },
+      {
+        q: "An app store listing is a search surface of its own",
+        a: [
+          "The title, the subtitle, the description and the keyword field are indexed per store and per locale, and translating the English listing wastes most of the room they give you. What people type to find an app in Spanish is not what they type in English, and the character limits differ by store.",
+          "Screenshots count too. A store page showing an English interface to a Spanish browser tells the reader the app is not really for them before they read a word.",
+        ],
+      },
+      {
+        q: "Testing across language, device and operating system",
+        a: [
+          "Most localisation defects are not translation defects. A label that overflows its button in German, a date that reads as the wrong month, a form that rejects a valid local postcode, a right-to-left layout that mirrors everything except one icon.",
+          "None of that appears in a translation review, because none of it is visible in a spreadsheet of strings. It appears on a device, in that language, which is where the pass has to happen.",
+        ],
+      },
+      {
+        q: "Video and audio are the part that gets left in English",
+        a: [
+          "Subtitling, voice-over and transcription per language, and a decision about which of the three each piece needs. Subtitles are cheap and carry most of the value, including for the people who watch with the sound off, which is most of them.",
+          "A transcript does double duty: it makes the content accessible and it puts words on a page that search and an answer engine can actually read, which a video alone never does.",
+        ],
+      },
+    ],
     absorbs: ["app-localisation", "software-internationalisation", "multimedia-localisation"],
   },
 
@@ -1324,6 +1424,46 @@ export const SERVICES: Service[] = [
         paragraphs: [
           "Content researched and written per market with native keyword localisation, hreflang and canonical setup handled at the structural level, and schema (Article, FAQPage, LocalBusiness as relevant) implemented per language to support rich results. Cultural consulting sits underneath the copy itself, checking messaging and tone against local values before publication rather than after a complaint.",
           "Social platform choice follows the audience rather than habit: Facebook and Instagram cover many markets, but WeChat matters more in China and VK more in Russia, and a content plan that assumes one platform set fits every market misses the audience it was meant to reach.",
+        ],
+      },
+    ],
+    expandablesHeading: "What travels between languages and what does not",
+    expandablesLede:
+      "Three pages folded into this one: the copywriting, the cultural fit and the social side.",
+    expandables: [
+      {
+        q: "Topic clusters have to be built per language, not mirrored",
+        a: [
+          "A cluster that works in English is a map of how English speakers break a subject down. Another language often breaks it down differently, splits one of your topics into two, or merges two into one because the distinction does not exist there.",
+          "Mirroring the English structure gives you pages nobody in that market is looking for, linked to each other in a shape that matches no local search behaviour. Building the cluster from that language's own queries takes longer and is the only version that ranks.",
+        ],
+      },
+      {
+        q: "Experience and expertise have to be visible in each language",
+        a: [
+          "Google's quality signals are not translated along with the copy. An author with a real name and real credentials, dates, citations to sources that market recognises, and a business identity a local reader can verify all have to exist in the language being read.",
+          "A page that cites only English-language authorities to a German reader is asking them to take your word for it twice.",
+        ],
+      },
+      {
+        q: "The parts of a page that get forgotten in the second language",
+        a: [
+          "Meta titles and descriptions written natively rather than translated to an English character budget, internal links that point at the same-language version, schema carrying the localised values, and hreflang that actually resolves both ways.",
+          "Each one is invisible to a reader skimming the translated page and obvious to a crawler, which is why a site can read perfectly in four languages and rank in one.",
+        ],
+      },
+      {
+        q: "Cultural fit is a risk register before it is a style choice",
+        a: [
+          "Most of the value is in what gets caught rather than what gets added: a colour, a gesture, a comparison or a claim that reads as ordinary in one market and as careless in another. Checking that before publication is cheap and after publication is not.",
+          "The rest is tone. How direct a market expects a commercial page to be varies more than most companies assume, and a voice that reads as confident in one place reads as pushy in the next.",
+        ],
+      },
+      {
+        q: "Social is a different platform mix in every market",
+        a: [
+          "The network that carries your audience in one country may be a minor one in another, and posting the same calendar everywhere means being early in one market and invisible in the rest. Timing, format and what counts as an acceptable tone all shift with it.",
+          "Platform rules and local advertising law shift too, so a campaign that is fine in one jurisdiction can need changing in another before it runs rather than after somebody complains.",
         ],
       },
     ],
