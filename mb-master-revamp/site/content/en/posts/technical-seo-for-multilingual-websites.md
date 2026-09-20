@@ -9,7 +9,7 @@ wpId: 24845457
 date: "2024-12-16T16:08:46"
 modified: "2026-07-19T11:29:01"
 sourceUrl: "https://mikebastin.com/technical-seo-for-multilingual-websites/"
-excerpt: "Master multilingual SEO with our essential checklist. Learn to optimize hreflang tags, manage server locations, and address duplicate content effectively."
+excerpt: "Master multilingual SEO with our essential checklist. Learn to optimise hreflang tags, manage server locations, and address duplicate content effectively."
 ---
 
 ## How to avoid common mistakes

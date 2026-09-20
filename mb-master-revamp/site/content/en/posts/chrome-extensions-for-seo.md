@@ -9,12 +9,12 @@ wpId: 37189
 date: "2024-09-17T16:49:13"
 modified: "2026-07-19T11:11:35"
 sourceUrl: "https://mikebastin.com/chrome-extensions-for-seo/"
-excerpt: "Boost your small business visibility on Google Maps! Learn how to list your business, optimize your profile, and rank higher in local search results."
+excerpt: "Boost your small business visibility on Google Maps! Learn how to list your business, optimise your profile, and rank higher in local search results."
 ---
 
 ## Why SEO Chrome extensions save hours of daily work
 
-Search engine optimization (SEO) is a complex and fast-changing field.
+Search engine optimisation (SEO) is a complex and fast-changing field.
 
 To stay ahead of the game, SEO professionals need powerful tools that can streamline their workflow and provide valuable insights.
 

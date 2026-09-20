@@ -89,7 +89,7 @@ Best For
 
 Ahrefs, Semrush, Moz Keyword Explorer, KWFinder
 
-In-depth competitive analysis, keyword difficulty, and SERP behavior.
+In-depth competitive analysis, keyword difficulty, and SERP behaviour.
 
 **Free Tools**
 

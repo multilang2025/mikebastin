@@ -9,7 +9,7 @@ wpId: 37222
 date: "2024-09-25T14:54:15"
 modified: "2026-07-19T11:13:18"
 sourceUrl: "https://mikebastin.com/roi-of-website-localisation/"
-excerpt: "Discover how to measure the ROI of website localization and multilingual SEO with data-driven metrics and real-world case studies to boost your business’s global reach."
+excerpt: "Discover how to measure the ROI of website localisation and multilingual SEO with data-driven metrics and real-world case studies to boost your business’s global reach."
 ---
 
 ## Measuring the Impact of Multilingual SEO on Your Bottom Line
@@ -68,7 +68,7 @@ Monitor improvements over time.
 
 Increased engagement suggests that your localised content is meeting the needs of your international audience.
 
-**How to measure:** Analyze metrics such as time on site, pages per session, and bounce rate for visitors from localised markets.
+**How to measure:** Analyse metrics such as time on site, pages per session, and bounce rate for visitors from localised markets.
 
 Compare these to your non-localised site or previous performance.
 

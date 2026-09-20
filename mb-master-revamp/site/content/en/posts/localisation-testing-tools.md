@@ -9,7 +9,7 @@ wpId: 17228970
 date: "2024-11-20T14:01:00"
 modified: "2026-07-19T13:17:35"
 sourceUrl: "https://mikebastin.com/localisation-testing-tools/"
-excerpt: "Discover how to use cutting-edge localization testing tools to streamline your workflow, catch cultural faux pas before they happen, and deliver a truly world-class user experience. Whether you’re a seasoned localization professional or just starting your journey into global markets, this guide is your roadmap to mastering the art and science of software localization."
+excerpt: "Discover how to use cutting-edge localisation testing tools to streamline your workflow, catch cultural faux pas before they happen, and deliver a truly world-class user experience. Whether you’re a seasoned localisation professional or just starting your journey into global markets, this guide is your roadmap to mastering the art and science of software localisation."
 ---
 
 ## Localisation testing tools play a crucial role in ensuring software applications and websites function correctly for different languages, cultures, and regions.
@@ -92,7 +92,7 @@ When choosing localisation testing tools, look for the following features:
 2.  **Automate where possible**: Use automation features for repetitive tasks, but remember that full automation is not possible.
 3.  **Involve native speakers**: Use tools in conjunction with [native speakers for linguistic and cultural accuracy](/services/website-localisation/).
 4.  **Maintain test data**: Keep your test cases and data up-to-date in your test management tools.
-5.  **Use pseudo-localisation**: Use pseudo-localization tools early [in the development process to catch potential issues](https://daily.dev/blog/localization-testing-guide-best-practices-and-checklist).
+5.  **Use pseudo-localisation**: Use pseudo-localisation tools early [in the development process to catch potential issues](https://daily.dev/blog/localization-testing-guide-best-practices-and-checklist).
 6.  **Continuous testing**: Integrate localisation testing tools into your continuous integration/continuous deployment (CI/CD) pipeline.
 
 Through the use of these localisation testing tools and following best practices, development teams can ensure their software is properly adapted for different markets and cultures.

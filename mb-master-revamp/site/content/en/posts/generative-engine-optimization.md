@@ -1,7 +1,7 @@
 ---
 words: 849
 title: "Search engine optimisation is dead? Long live generative engine optimisation (GEO)"
-slug: "generative-engine-optimization"
+slug: "generative-engine-optimisation"
 locale: "en"
 type: "posts"
 group: "g046"
@@ -14,11 +14,11 @@ excerpt: "SEO is Dead? Long Live GEO! As artificial intelligence reshapes how pe
 
 ## Why Generative Engine Optimisation (GEO) gives you an edge in AI-driven search
 
-In the fast-changing world of digital marketing, [Search Engine Optimization (SEO)](https://mikebastin.com/services/digital-marketing/) has long been the cornerstone of online visibility.
+In the fast-changing world of digital marketing, [Search Engine Optimisation (SEO)](https://mikebastin.com/services/digital-marketing/) has long been the cornerstone of online visibility.
 
 SEO involves optimising your website to rank higher on search engines like Google, driving organic traffic through strategic use of keywords, quality content, and [technical enhancements](https://mikebastin.com/services/on-page-seo/).
 
-With the rise of artificial intelligence (AI) and advanced search technologies, a new paradigm is emerging: [Generative Engine Optimization (GEO)](https://mikebastin.com/generative-engine-optimization/).
+With the rise of artificial intelligence (AI) and advanced search technologies, a new paradigm is emerging: [Generative Engine Optimisation (GEO)](https://mikebastin.com/generative-engine-optimization/).
 
 GEO focuses on optimising content for AI-powered search engines such as [SearchGPT](https://openai.com/index/searchgpt-prototype/), which use large language models (LLMs) to deliver more personalised and context-aware search results.
 

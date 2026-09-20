@@ -56,7 +56,7 @@ Therefore, it’s crucial to optimise your website for both **mobile** and **des
 
 **Germans** often use long, specific search phrases when using **voice search**, and this trend is set to continue.
 
-Optimizing for natural, **conversational keywords** will help your site rank for voice queries, especially if you’re targeting **local searches**.
+Optimising for natural, **conversational keywords** will help your site rank for voice queries, especially if you’re targeting **local searches**.
 
 #### Local SEO
 
@@ -72,7 +72,7 @@ Encourage customers to leave reviews, as **Germans** tend to rely heavily on tes
 
 With **Google’s** shift to **mobile-first indexing**, ensuring that your website is **mobile-friendly** is no longer optional.
 
-**[Responsive design](/services/multilingual-seo/)**, fast load times, and **mobile-optimized content** are essential for ranking well in **mobile search results**, particularly in a market like **Germany** where users expect smooth performance across devices.
+**[Responsive design](/services/multilingual-seo/)**, fast load times, and **mobile-optimised content** are essential for ranking well in **mobile search results**, particularly in a market like **Germany** where users expect smooth performance across devices.
 
 #### Core Web Vitals
 
@@ -98,7 +98,7 @@ It’s not enough to translate keywords from **English** to **German**. You must
 
 Keywords that work well in **Germany** may not perform as well in **Austria** or **Switzerland** due to slight dialectal differences.
 
-Performing localized **[keyword research](/blog/what-is-search-intent-mapping/)** for each country ensures that your content is optimised for the specific needs of your target audience.
+Performing localised **[keyword research](/blog/what-is-search-intent-mapping/)** for each country ensures that your content is optimised for the specific needs of your target audience.
 
 #### Formal vs. Informal searches
 

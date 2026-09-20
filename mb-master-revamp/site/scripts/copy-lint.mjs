@@ -215,8 +215,47 @@ const LEARNED_NAMES = (() => {
   return out;
 })();
 
+/**
+ * American spelling, against CLAUDE.md's "UK English" rule.
+ *
+ * Nothing was watching this, so 81 of them shipped across the live posts
+ * while the lint reported every file clean, which is the same hole the
+ * heading-case check was added to close.
+ *
+ * Three things are stripped before the text is judged, because each is
+ * correct with the z and would otherwise be a permanent false positive:
+ * any URL or site path (the GEO service really is at
+ * /services/generative-engine-optimization/), fenced or inline code, and
+ * the schema.org type names, where Organization and LocalBusiness are
+ * literals defined by the vocabulary rather than words we spell.
+ */
+const US_SPELLINGS =
+  /\b(optimiz(?:e|es|ed|ing|ation|ations)|localiz(?:e|es|ed|ing|ation)|organiz(?:e|es|ed|ing|ation)|recogniz(?:e|es|ed|ing)|analyz(?:e|es|ed|ing)|customiz(?:e|es|ed|ing|ation)|personaliz(?:e|es|ed|ing|ation)|prioritiz(?:e|es|ed|ing)|standardiz(?:e|es|ed|ing|ation)|behaviors?|colors?|centers?|catalogs?|licenses(?= to)|fulfill(?:s|ed|ing|ment)?|traveling|canceled|modeling)\b/gi;
+
+const SCHEMA_TYPES =
+  /\b(Organization|LocalBusiness|ProfessionalService|FAQPage|WebPage|BreadcrumbList|Product|Article|BlogPosting|LegalService|FreightForwarder|RealEstateAgent|HowTo|ItemList)\b/g;
+
+function stripNonProse(body) {
+  return body
+    .replace(/```[\s\S]*?```/g, " ")
+    .replace(/`[^`]*`/g, " ")
+    .replace(/https?:\/\/\S+/g, " ")
+    .replace(/\]\([^)]*\)/g, "]( )")
+    .replace(/\/[a-z0-9-]+(?:\/[a-z0-9-]+)+\/?/g, " ")
+    .replace(SCHEMA_TYPES, " ");
+}
+
 function contentOnlyIssues(body) {
   const out = [];
+
+  const usHits = [...stripNonProse(body).matchAll(US_SPELLINGS)].map((m) => m[0]);
+  if (usHits.length > 0) {
+    out.push({
+      rule: "UK English",
+      detail: `American spelling: ${[...new Set(usHits.map((w) => w.toLowerCase()))].join(", ")}`,
+      count: usHits.length,
+    });
+  }
 
   // A heading is sentence case (CLAUDE.md, owner decision 19 Sep). Two or
   // more capitalised words after the first, none of them an acronym or a

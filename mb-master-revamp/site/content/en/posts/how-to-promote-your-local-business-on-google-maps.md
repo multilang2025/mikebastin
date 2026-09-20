@@ -9,7 +9,7 @@ wpId: 37037
 date: "2024-09-14T16:11:34"
 modified: "2026-07-19T11:11:22"
 sourceUrl: "https://mikebastin.com/how-to-promote-your-local-business-on-google-maps/"
-excerpt: "Boost your small business visibility on Google Maps! Learn how to list your business, optimize your profile, and rank higher in local search results."
+excerpt: "Boost your small business visibility on Google Maps! Learn how to list your business, optimise your profile, and rank higher in local search results."
 ---
 
 ## Looking to boost local visibility? Learn how to effectively promote your business on Google Maps!

@@ -10,7 +10,7 @@ wpId: 24845422
 date: "2024-10-10T11:49:05"
 modified: "2026-07-19T10:39:27"
 sourceUrl: "https://mikebastin.com/services/english-seo/"
-excerpt: "English SEO optimizes website content in English to improve visibility on search engines like Google. By using targeted keywords, improving content, and building links, businesses can attract more traffic and reach English-speaking customers more effectively."
+excerpt: "English SEO optimises website content in English to improve visibility on search engines like Google. By using targeted keywords, improving content, and building links, businesses can attract more traffic and reach English-speaking customers more effectively."
 ---
 
 # English SEO Services

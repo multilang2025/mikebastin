@@ -26,7 +26,7 @@ As European businesses and global brands expand across borders, localisation bec
 
 Translation converts words. Localisation reshapes meaning. It adapts language, tone, imagery, and UX design to align with the habits and emotions of local audiences.
 
-For example, a [localized UX design](/services/website-localisation/) ensures French users in Europe experience familiar colour symbolism and form layouts, while Spanish users in Valencia engage with culturally relevant idioms and calls-to-action.
+For example, a [localised UX design](/services/website-localisation/) ensures French users in Europe experience familiar colour symbolism and form layouts, while Spanish users in Valencia engage with culturally relevant idioms and calls-to-action.
 
 The process relies on translation memory, language strategy, and [transcreation](/services/translation-services/), ensuring the message resonates while maintaining brand identity.
 

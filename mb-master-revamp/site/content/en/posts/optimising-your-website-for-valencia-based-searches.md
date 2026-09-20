@@ -117,7 +117,7 @@ Ensure that your primary keywords are included in strategic places:
     _Example:_ “Top Valencia Restaurants | Best Dining in Valencia”
 -   **Meta Descriptions:** Write compelling descriptions that include local keywords and encourage clicks.  
     _Example:_ “Discover the best Valencia restaurants offering authentic Spanish cuisine. Book your table today!”
--   **Header Tags (H1, H2, H3):** Use headers to organize content and include local keywords naturally.  
+-   **Header Tags (H1, H2, H3):** Use headers to organise content and include local keywords naturally.  
     _Example H2:_ “Top-Rated Valencia Coffee Shops”
 
 ### Internal linking strategies
@@ -294,7 +294,7 @@ Implementing local SEO strategies can be straightforward with the right approach
 
 ### How do we rank for Valencia-specific searches?
 
-To rank for Valencia-specific searches, focus on optimizing your website with local keywords, creating high-quality local content, ensuring your business is listed on Google Our Business, and building local citations from reputable directories.
+To rank for Valencia-specific searches, focus on optimising your website with local keywords, creating high-quality local content, ensuring your business is listed on Google Our Business, and building local citations from reputable directories.
 
 ### What’s the best way to optimise for ‘near us’ searches in Valencia?
 
@@ -306,4 +306,4 @@ While some aspects of your SEO strategy can be similar, it’s important to adap
 
 ### How important are local backlinks for Valencia SEO?
 
-Local backlinks are highly valuable as they signal to search engines that your website is relevant within the Valencia community. Focus on obtaining backlinks from local businesses, directories, news sites, and community organizations.
+Local backlinks are highly valuable as they signal to search engines that your website is relevant within the Valencia community. Focus on obtaining backlinks from local businesses, directories, news sites, and community organisations.

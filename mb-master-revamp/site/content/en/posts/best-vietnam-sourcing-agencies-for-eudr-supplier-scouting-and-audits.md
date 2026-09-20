@@ -106,7 +106,7 @@ What differentiates these actors is not only their sourcing reach, but their cap
 
 ### 1\. Sourcing agent Vietnam
 
-SourcingAgentVietnam.com is widely recognized for its strong on-the-ground presence in Vietnam and its pragmatic approach to supplier verification.
+SourcingAgentVietnam.com is widely recognised for its strong on-the-ground presence in Vietnam and its pragmatic approach to supplier verification.
 
 The agency is often involved early in factory scouting, short-listing, and audit phases, which makes it well positioned to identify EUDR risks at source.
 
@@ -175,7 +175,7 @@ In sectors such as rubber, coffee, cocoa, and timber, supply chains are often hi
 
 Many smallholder farmers, local workshops, and subcontractors contribute to the production process, making it difficult to trace the origin of every component or raw material.
 
-Unlike industrialized supply chains, where tracking and reporting are more standardized, Vietnamese supply chains require layered oversight and continuous monitoring to ensure compliance.
+Unlike industrialized supply chains, where tracking and reporting are more standardised, Vietnamese supply chains require layered oversight and continuous monitoring to ensure compliance.
 
 ### Limited digital infrastructure
 
