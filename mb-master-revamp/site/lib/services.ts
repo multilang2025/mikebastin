@@ -613,6 +613,46 @@ export const SERVICES: Service[] = [
         ],
       },
     ],
+    expandablesHeading: "What localisation touches beyond the copy",
+    expandablesLede:
+      "Six pages folded into this one, and the parts of each that a translated site still gets wrong.",
+    expandables: [
+      {
+        q: "Which WordPress multilingual plugin, and what each one costs you",
+        a: [
+          "WPML is the default: the most complete on SEO, the most demanding on hosting and the one with a licence to keep renewing. Polylang fits a tighter budget and a simpler structure, and starts to hurt once translation workflows get complicated. TranslatePress earns its place when a non-technical team needs to translate on the front end, seeing the page as they change it. MultilingualPress suits a genuine multisite. GTranslate is machine translation with a switcher, which is a different product from a localised site and should be chosen knowing that.",
+          "The choice is hard to undo cheaply, because the content ends up stored the plugin's way. Deciding it against the editorial workflow rather than the feature list is most of the work.",
+        ],
+      },
+      {
+        q: "Text expansion breaks layouts that were designed in English",
+        a: [
+          "German compounds and French expansion push buttons, menu items and headings past the space an English design allotted them. A layout that only ever saw English copy tends to break at exactly the places that matter: the navigation, the call to action, the price table.",
+          "Right-to-left languages mirror the layout rather than the text alone, and character encoding still bites on forms, search and anything that touches a database. All of it is cheaper to design for than to retrofit.",
+        ],
+      },
+      {
+        q: "A store is localised at the checkout or not at all",
+        a: [
+          "Product descriptions and SKUs are the visible half. The half that moves the conversion rate is the currency shown, whether the price is formatted the way that market writes prices, the payment methods offered, and how the checkout handles an address that is not shaped like a British one.",
+          "WooCommerce, Shopify and Magento each expose that differently, and each will happily launch a shop that looks translated and feels foreign at the last step.",
+        ],
+      },
+      {
+        q: "What localisation testing actually covers",
+        a: [
+          "Every interface element, form, menu, switcher and piece of multimedia, in each language, for display, function and fit. The language switcher going to the wrong page, a form rejecting a valid local postcode, a date reading as the wrong month: none of it shows up in a translation review, because none of it is a translation problem.",
+          "The pass also covers what the market requires legally, from consent handling to accessibility. Skipping it does not remove the defects, it just moves their discovery into your support inbox.",
+        ],
+      },
+      {
+        q: "WordPress is not the only CMS this applies to",
+        a: [
+          "Joomla and Drupal both do multilingual well and differently, and both reward deciding the content model before translating anything rather than after.",
+          "Whatever the platform, the question underneath is the same: does each language version have its own URL, its own metadata and its own place in the sitemap, or is it a display layer over one canonical page. Only the first is a site a search engine can rank per market.",
+        ],
+      },
+    ],
     absorbs: [
       "content-localisation", "localisation-testing", "multilingual-cms-integration",
       "wordpress-translation-plugin", "localised-e-commerce-integration", "multilingual-ux-ui-design",
@@ -643,6 +683,53 @@ export const SERVICES: Service[] = [
         paragraphs: [
           "Translation runs through the BeTranslated network, co-founded and run for over twenty years, with certified and sworn translators per language and per specialism (legal, medical, financial, academic, technical). Standard delivery runs two to five business days, with rush turnaround available for time-critical personal documents such as a visa or birth certificate translation.",
           "Every document gets matched to a translator with the relevant sector background, then a rigorous review pass before delivery, with notarisation or an apostille handled where the receiving institution requires it. Confidentiality protocols apply throughout, since much of what moves through this service is precisely the kind of document a business cannot afford to have mishandled.",
+        ],
+      },
+    ],
+    expandablesHeading: "Which kind of translation your document needs",
+    expandablesLede:
+      "Eight pages folded into this one, each of which was really a different answer to the same question.",
+    expandables: [
+      {
+        q: "Certified, sworn, notarised and apostilled are four different things",
+        a: [
+          "People ask for the wrong one constantly, and the receiving institution is the only authority on which is right. A certified translation carries a signed statement of accuracy from the translator or agency. A sworn translation is made by a translator formally registered with a court or ministry, which is how Spain, France and much of the EU handle official documents. Notarisation adds a notary attesting to the signature, not to the translation. An apostille authenticates the document itself for use abroad under the Hague Convention, and is a matter for the issuing authority rather than the translator.",
+          "So the first question is never which service you want, it is what the body receiving the document asks for: a court, a registry, a university admissions office and an immigration authority each have their own rule. Establish that first and the rest is straightforward.",
+        ],
+      },
+      {
+        q: "Legal documents, where a wrong term changes an obligation",
+        a: [
+          "Contracts, court filings, witness statements, powers of attorney, articles of association, shareholder agreements, patent and trademark filings. Legal language is jurisdiction-bound rather than merely technical, so a term that translates cleanly can still carry the wrong weight in the receiving legal system.",
+          "Work goes to translators with the legal background for the jurisdiction concerned, not to a generalist with a glossary.",
+        ],
+      },
+      {
+        q: "Medical and regulated, where a reviewer reads it before a patient does",
+        a: [
+          "Patient records, clinical trial documentation, regulatory submissions, informed consent forms, patient information and discharge instructions, device manuals and research papers. Much of it is read first by an ethics committee or a regulator, and the terminology has to match the one that body already uses.",
+          "The same applies to the marketing material around a medical device, which is regulated copy wearing a commercial jacket.",
+        ],
+      },
+      {
+        q: "Financial, where consistency matters more than elegance",
+        a: [
+          "Annual reports, prospectuses, fund fact sheets, balance sheets, income and cash flow statements, audit reports, tax filings. Financial reporting has settled vocabulary tied to the standards in use, and a translator improving on it introduces a discrepancy rather than a style.",
+          "The right target term is the one the accounting standard already uses in that language, whether or not it is the most natural way to say it.",
+        ],
+      },
+      {
+        q: "Academic, where recognition is the whole point",
+        a: [
+          "Degree certificates, transcripts and mark sheets, research papers and journal articles, personal statements and recommendation letters, syllabi and course descriptions. A transcript carries a grading system that does not map cleanly onto another country's, and glossing over that is how an application stalls.",
+          "Research writing has the opposite problem: the argument has to survive intact, including the hedging, because a confident-sounding translation of a carefully qualified claim is a misrepresentation.",
+        ],
+      },
+      {
+        q: "Transcreation, which is not translation at all",
+        a: [
+          "A campaign line, a tagline or a piece of brand copy that works in one language often has no equivalent in another, because what it is doing is cultural rather than semantic. Transcreation rewrites for the same effect instead of the same words, from a brief describing what the original is meant to achieve.",
+          "It is the right choice for marketing and the wrong one for anything where a regulator, a court or an examiner will compare the two versions line by line.",
         ],
       },
     ],
@@ -876,6 +963,46 @@ export const SERVICES: Service[] = [
         paragraphs: [
           "On-page work aligns headers, internal linking and semantic HTML with real search intent rather than with a keyword stuffed into a title tag. Keyword research measures actual demand and decision-stage language across search engines and AI-driven platforms, not just search volume in isolation, since a high-volume term with the wrong intent produces traffic that never converts.",
           "Link building stays white hat throughout: editorial links, resource page placements and guest posts on sites with real traffic and real editorial standards, never a private blog network or a bought link from an unrelated market. Domain rating and the diversity of referring domains matter more over a longer period than any single placement.",
+        ],
+      },
+    ],
+    expandablesHeading: "The five jobs this page folded together",
+    expandablesLede:
+      "Keyword research, on-page, analytics, English-language search and link building, each of which had its own page.",
+    expandables: [
+      {
+        q: "Keyword research measures demand, it does not collect keywords",
+        a: [
+          "A list of terms sorted by volume tells you what is typed, not who is buying. The useful version reads how people phrase the problem, how they compare options and what they type once they have decided, and sorts the work by decision stage rather than by search volume.",
+          "It also has to account for where the answer appears now. A query that resolves in an AI summary or a zero-click result needs content shaped to be quoted, not a page built to win a click that is no longer on offer. A high-volume term with the wrong intent is the most expensive thing on a content calendar.",
+        ],
+      },
+      {
+        q: "On-page work is structure before it is wording",
+        a: [
+          "Keyword mapping tied to real intent, a header hierarchy that reflects the argument rather than decorating it, semantic HTML, internal links that point at the page that should actually rank, and a page fast enough that none of the rest is wasted.",
+          "Most on-page problems on a multilingual site are one page competing with another for the same query in the same language, which no amount of rewriting either page will fix.",
+        ],
+      },
+      {
+        q: "Analytics is the part that makes the rest arguable",
+        a: [
+          "GA4 and Google Tag Manager configured so events mean something, conversions defined as the thing you actually want rather than any form submission, and traffic split by market so one language cannot hide inside another's numbers.",
+          "Set up after the fact, it answers questions about last month. Set up first, it decides what to do next month.",
+        ],
+      },
+      {
+        q: "Link building, and what we will not do",
+        a: [
+          "Editorial links, resource page placements and guest posts on sites with real traffic and real editorial standards. No private blog networks, no link farms, no bought links from an unrelated market: they are cheap because they are a liability with a delay on it.",
+          "What moves the needle is the topical relevance of the linking domain, a spread of referring domains rather than a spike, and anchor text that reads like something a person wrote. One good placement outlasts fifty that were bought together.",
+        ],
+      },
+      {
+        q: "English is a market too, and usually the neglected one",
+        a: [
+          "A company running French, German and Spanish properly will often leave its English pages as the originals nobody revisited, which is odd given English is frequently the highest-volume market of the set.",
+          "It also has to pick a variant. British and American English differ in spelling, vocabulary and the terms people actually search with, and hedging between them produces copy that reads slightly wrong on both sides.",
         ],
       },
     ],
