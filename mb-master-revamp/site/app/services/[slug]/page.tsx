@@ -227,7 +227,7 @@ export default async function ServicePage({
       <section className={`band band-${engagementBand} py-[clamp(56px,8vw,110px)]`}>
         <div className="shell">
           <Reveal>
-            <p className="eyebrow mb-3">How the engagement runs</p>
+            <p className="eyebrow mb-3">From the brief to the reporting</p>
             <h2 className="mb-10 max-w-[22ch] text-[clamp(1.7rem,3.2vw,2.5rem)] font-semibold leading-[1.12]">
               How the {service.inline} engagement runs
             </h2>

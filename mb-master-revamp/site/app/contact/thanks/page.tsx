@@ -15,7 +15,7 @@ export default function ThanksPage() {
       <section className="band band-a grain relative overflow-hidden pb-[clamp(64px,9vw,120px)] pt-[clamp(96px,14vw,180px)]">
         <div className="shell relative">
           <Reveal>
-            <p className="eyebrow mb-8">Sent</p>
+            <p className="eyebrow mb-8">Now it is our turn</p>
           </Reveal>
           <Reveal i={1}>
             <h1 className="mb-6 max-w-[16ch] text-[clamp(2.3rem,5.6vw,4rem)] font-semibold leading-[1.08]">

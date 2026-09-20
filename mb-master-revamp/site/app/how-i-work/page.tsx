@@ -199,7 +199,7 @@ export default function HowIWorkPage() {
       <section className="band band-b py-[clamp(56px,8vw,110px)]">
         <div className="shell">
           <Reveal>
-            <p className="eyebrow mb-3">Frequently asked questions</p>
+            <p className="eyebrow mb-3">Answered before you have to ask</p>
             <h2 className="mb-10 max-w-[22ch] text-[clamp(1.7rem,3.2vw,2.5rem)] font-semibold leading-[1.12]">
               Questions we get before a first call
             </h2>

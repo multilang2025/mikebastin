@@ -32,7 +32,7 @@ export default function BlogIndex() {
       <section className="band band-a grain relative overflow-hidden pb-[clamp(56px,8vw,100px)] pt-[clamp(96px,14vw,160px)]">
         <div className="shell relative">
           <Reveal>
-            <p className="eyebrow mb-8">{total} posts, six clusters, no river of dates</p>
+            <p className="eyebrow mb-8">Sorted by subject, because a date is not a subject</p>
           </Reveal>
           <Reveal i={1}>
             <h1 className="mb-6 max-w-[20ch] text-[clamp(2.3rem,5.6vw,4rem)] font-semibold leading-[1.08]">
