@@ -94,10 +94,28 @@ export default function LeadGenerationPage() {
             <h2 className="mb-6 max-w-[22ch] text-[clamp(1.7rem,3.2vw,2.5rem)] font-semibold leading-[1.12]">
               Multilingual lead generation that gets measured
             </h2>
-            <p className="max-w-[62ch] text-[1.05rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
+            <p className="mb-5 max-w-[62ch] text-[1.05rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
               A ranking screenshot proves an input worked. A client report
               with real enquiry numbers proves the outcome did, and very
               few competing consultants can show that at all.
+            </p>
+            <p className="mb-5 max-w-[62ch] text-[1.05rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
+              One blended enquiry count is the most comfortable report to
+              read and the least useful one to act on. It hides the market
+              carrying the others, and it hides the one spending its budget
+              on traffic that never converts. Inside an average, the two
+              look identical. So each market gets its own tracking, its own
+              attribution and its own line: enquiries, where they came from,
+              and what they were worth once your sales team had seen them.
+            </p>
+            <p className="max-w-[62ch] text-[1.05rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
+              A form submission is not a lead. Tracking runs through GA4 and
+              Google Tag Manager with the CRM in the loop, so a language is
+              judged on the enquiries that became conversations rather than
+              the ones that filled in a field. It is also what makes the
+              comparison between markets honest, because a market with fewer
+              and better enquiries is winning, and a pooled figure would
+              have shown it losing.
             </p>
           </Reveal>
         </div>

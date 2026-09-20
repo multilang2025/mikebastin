@@ -72,6 +72,17 @@ export type Service = {
    * material indexable, since a closed <details> is still in the HTML.
    */
   expandables?: { q: string; a: string[] }[];
+  /**
+   * Heading and opening line above `expandables`. Both were hardcoded for
+   * generative-engine-optimization, the first page to use the block, which
+   * meant any second page inherited "Nine shifts, folded in from the article
+   * this page absorbed" whether or not it had nine of anything. Per service
+   * now, with a count-driven fallback, since what the block holds differs by
+   * page: the GEO one is a set of shifts, the language ones are the
+   * market-specific questions a buyer asks before they enquire.
+   */
+  expandablesHeading?: string;
+  expandablesLede?: string;
   /** Legacy slugs this page absorbs, each 301ing in the same locale. */
   absorbs?: string[];
   gsc?: { impressions: number; position: number; keywords: number };
@@ -106,6 +117,10 @@ export const SERVICES: Service[] = [
     metaTitle: "Multilingual lead generation, Mike Bastin",
     metaDescription: "Multilingual SEO, localisation and AI consulting are the mechanisms behind one outcome, enquiries. See how the engagement measures and delivers them.",
     sections: ["What gets measured", "How it is delivered", "The evidence", ...ENGAGEMENT.slice(2)],
+    // No `body` here on purpose: lead-generation has its own hand-built route
+    // at app/services/lead-generation/page.tsx rather than rendering through
+    // services/[slug], and that route does not read `body`. Adding one would
+    // be data nothing renders.
   },
   {
     slug: "multilingual-sem",
@@ -244,9 +259,47 @@ export const SERVICES: Service[] = [
         ],
       },
     ],
+    expandablesHeading: "What French SEO turns on, market by market",
+    expandablesLede:
+      "The parts of the job that are specific to French rather than true of any language, carried over from the page this one absorbed.",
+    expandables: [
+      {
+        q: "Which domain shape to use for France",
+        a: [
+          "A .fr domain reads as French to a French buyer and to Google, which is worth something on a market where local trust is most of the sale. A subdirectory under an existing domain is easier to run and inherits the authority already built, so it usually wins for a company that is adding French rather than founding a French business.",
+          "On a .com or another generic domain, set the geotargeting in Search Console rather than assuming Google will infer it. And never redirect a visitor to the French version on the strength of their IP address: it strands the French speaker abroad and the English speaker in Paris, and it stops a crawler seeing the other versions at all. Offer the choice instead, and let hreflang carry the relationship.",
+        ],
+      },
+      {
+        q: "Accents, and the queries that drop them",
+        a: [
+          "French is written with accents and searched both ways. Plenty of people type référencement, plenty type referencement, and on a phone keyboard the unaccented form wins more often than a French brand would like to admit.",
+          "Both forms belong in the research, and the page has to be reachable on either. Writing the accented form correctly in the copy and letting the unaccented query find it anyway is the target, not choosing one and losing the other half.",
+        ],
+      },
+      {
+        q: "French runs longer than English",
+        a: [
+          "The same sentence typically runs 15 to 20 percent longer in French. A title tag and meta description written to length in English and then translated overflow the snippet, and get cut mid-phrase in the result that was supposed to win the click.",
+          "Write them natively to the French limit rather than translating to it. The same expansion shows up in navigation labels and buttons, which is a layout problem before it is a search one.",
+        ],
+      },
+      {
+        q: "One language, four markets",
+        a: [
+          "France, Belgium, Switzerland and Quebec share the language and not much else. Prices quoted in EUR do not read to a Swiss buyer, search habits differ, and the register that sounds right in Paris sounds imported in Montreal.",
+          "Where more than one is genuinely in scope, fr-FR, fr-BE, fr-CH and fr-CA keep them apart and stop the wrong version ranking in the wrong country. Where only France is in scope, a single French version targeted at France is the honest setup, and the other markets find it anyway.",
+        ],
+      },
+      {
+        q: "Where the searching actually happens",
+        a: [
+          "Most French search is on a phone, so a site that is fast and comfortable on desktop and merely tolerable on mobile is failing the larger half of its own audience before a word of the copy is read.",
+          "Google carries the market. Qwant exists and is French, and it is worth knowing about rather than optimising separately for.",
+        ],
+      },
+    ],
     gsc: { impressions: 3093, position: 43.7, keywords: 40 },
-    needsRefresh:
-      "Source copy still runs the 2024 structure while all five sibling language pages were refreshed. The highest-impression service page on the domain is the one running the oldest copy.",
     demand: {
       volume: 2700,
       kd: "3 to 6",
@@ -277,6 +330,46 @@ export const SERVICES: Service[] = [
         paragraphs: [
           "German SEO needs two distinct skills at once: strategic piloting (architecture, keyword targets, technical setup, editorial calendar) and native execution (writing, tone, regulatory compliance). We handle the first directly and hand the second to native German copywriters from the BeTranslated network, briefed and reviewed in English or French.",
           "Impressum compliant with the Telemediengesetz, a strict GDPR-aligned privacy policy, an opt-in cookie banner and, for stores, Trusted Shops integration where it fits. Outreach targets German regional press and trade directories such as IHK listings rather than links bought from an unrelated market.",
+        ],
+      },
+    ],
+    expandablesHeading: "The questions a German buyer asks first",
+    expandablesLede:
+      "What the split between piloted strategy and native writing means in practice, carried over from the page this one absorbed.",
+    expandables: [
+      {
+        q: "Who actually writes the German",
+        a: [
+          "Native German copywriters, briefed and reviewed by us. We read German SERPs, competitor pages and briefs, and we follow a meeting in German with effort. We do not write your German commercial copy, because the register is the sale and a near-miss register loses it.",
+          "Most agencies that offer German work the same way and let you discover it later. Saying it here is the difference: you pay for strategy where the strategy is done, and for writing where the writing is done well.",
+        ],
+      },
+      {
+        q: "How the German is checked when we do not write it",
+        a: [
+          "The brief goes out in English or French with the keyword targets, the intent and the structure decided. A native German writer drafts it. A second native German reads it before it publishes, and your own people are the filter after that.",
+          "Strategic review stays with us throughout, so a draft that reads well and answers the wrong query still gets sent back.",
+        ],
+      },
+      {
+        q: "Whether to split Germany, Austria and Switzerland",
+        a: [
+          "Germany carries most of the volume and is the default on its own: de-DE across the content, one architecture, no scattered variants diluting the focus. Adding de-CH on the commercial pages earns its place for premium B2B, where Swiss purchasing power and price expectations differ enough to be worth addressing directly.",
+          "Full DACH is a real editorial commitment and only pays when the offer is genuinely relevant in all three. The recommendation comes at scoping from what you sell, not from a preference for the bigger setup.",
+        ],
+      },
+      {
+        q: "Swiss German is written as standard German with its own spelling",
+        a: [
+          "Swiss readers read standard German, so the copy does not need rewriting. The conventions do differ: Strasse rather than Straße, since Swiss German drops the ß entirely, prices in CHF, and different phone formats.",
+          "Small details, and precisely the ones a Swiss buyer reads as the page having been written for somebody else.",
+        ],
+      },
+      {
+        q: "Where the compliance work stops",
+        a: [
+          "We set up the technical side: an Impressum carrying what the Telemediengesetz requires, a privacy policy aligned to GDPR and the Bundesdatenschutzgesetz, and consent that is an actual opt-in.",
+          "Where the question is legal rather than technical, sensitive data, employee tracking, marketing profiling, that is a German lawyer's work and we say so rather than improvising it.",
         ],
       },
     ],
@@ -376,6 +469,39 @@ export const SERVICES: Service[] = [
         paragraphs: [
           "We read Italian fluently, built on French, Spanish and a Latin background, and use that to handle strategy and competitor reading directly. Native Italian copywriters from the BeTranslated network handle the writing itself, briefed in English or French and checked by a second native reader before anything ships. No pretence about who writes the commercial copy.",
           "Targeting runs per macro-region (Nord, Centro, Sud) when the offer justifies it, with local landing pages for Milan, Rome, Turin and other metropolitan areas where relevant. Outreach targets Corriere della Sera, La Repubblica and Sole 24 Ore for B2B, plus sector associations such as Confindustria and Confartigianato.",
+        ],
+      },
+    ],
+    expandablesHeading: "The objection an Italian buyer raises first",
+    expandablesLede:
+      "Who reads the language, who writes it, and how far to go on regions, carried over from the page this one absorbed.",
+    expandables: [
+      {
+        q: "You do not speak Italian, so how is this Italian SEO",
+        a: [
+          "Fair question, and the honest answer is that most of Italian SEO is reading rather than writing. Reading the SERP, reading what the competitors rank for and why, reading intent in an Italian query, checking that it-IT is configured the way it should be. We read Italian fluently, on French as a first language, Spanish every day in Valencia and Latin from school, which is enough to audit an Italian page and challenge a draft that drifts from its brief.",
+          "What we do not do is write your Italian commercial copy. Native Italian writers do that, so the page reads native because it is, rather than because somebody nearly pulled it off.",
+        ],
+      },
+      {
+        q: "How the Italian is checked when we do not write it",
+        a: [
+          "Brief from us in English or French with the targets and the structure set, drafting by a briefed native Italian writer, then a second native Italian reading it before publication. Your own people are the filter after that.",
+          "Because we read the language, the review is a real one: a draft that reads beautifully and answers a different query still comes back.",
+        ],
+      },
+      {
+        q: "How far to take the regional split",
+        a: [
+          "The north, around Milan, Turin, Bologna and the Veneto, is the industrial B2B core and the most tolerant of English on technical niches. The centre, Rome and Tuscany, runs on services, tourism and a large public-sector tail. The south and the islands hold genuinely different price expectations and trust patterns, where local presence and local references count for more.",
+          "Regional pages earn their place when local presence is the thing being sold. For B2B selling nationally online, one Italian site does the job and the regional split is overhead.",
+        ],
+      },
+      {
+        q: "Where the Garante goes beyond the GDPR baseline",
+        a: [
+          "Italy's data protection authority reads parts of the GDPR more strictly than the baseline, particularly on how cookie consent is stored and how granular marketing consent has to be. The technical setup is built to that reading rather than to the looser one.",
+          "Sensitive data, automated decisions and anything touching employee monitoring are a specialist Italian lawyer's work, on top of the implementation rather than instead of it.",
         ],
       },
     ],
@@ -630,6 +756,8 @@ export const SERVICES: Service[] = [
     lede: "ChatGPT, Perplexity and Google's AI Overviews answer a question directly and name a small number of sources while doing it. Structured data, citation-worthy claims and a presence across the platforms people actually ask, so the answer names you.",
     metaTitle: "Generative engine optimisation and AEO, Mike Bastin",
     metaDescription: "ChatGPT, Perplexity and Google AI Overviews name a small number of sources when they answer a question. See what it takes for the answer to name you.",
+    expandablesHeading: "What changes when the answer is written for you",
+    expandablesLede: "Nine shifts, folded in from the article this page absorbed.",
     expandables: [
       {
         q: "Optimise for search everywhere, not only for Google",

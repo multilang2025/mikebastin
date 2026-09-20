@@ -198,10 +198,11 @@ export default async function ServicePage({
             <Reveal>
               <p className="eyebrow mb-3">Open what you need</p>
               <h2 className="mb-4 max-w-[24ch] text-[clamp(1.7rem,3.2vw,2.5rem)] font-semibold leading-[1.12]">
-                What changes when the answer is written for you
+                {service.expandablesHeading ?? `What ${service.inline} involves in practice`}
               </h2>
               <p className="mb-8 max-w-[60ch] text-[1.02rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
-                Nine shifts, folded in from the article this page absorbed.
+                {service.expandablesLede ??
+                  `${service.expandables.length} answers, folded in from the pages this one absorbed.`}{" "}
                 Collapsed so the page stays short, and in the HTML either way,
                 so a crawler or an answer engine still reads them.
               </p>
