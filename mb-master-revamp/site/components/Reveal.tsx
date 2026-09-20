@@ -1,33 +1,34 @@
-"use client";
-
-import { motion, useReducedMotion } from "motion/react";
-import type { ReactNode } from "react";
+import type { CSSProperties, ReactNode } from "react";
 
 type Props = {
   children: ReactNode;
   /** stagger index, in steps of 70ms */
   i?: number;
   y?: number;
+  x?: number;
   className?: string;
 };
 
-/** Scroll reveal. Fires once, respects reduced motion, never blocks paint. */
-export default function Reveal({ children, i = 0, y = 26, className }: Props) {
-  const still = useReducedMotion();
+/**
+ * Scroll reveal, CSS-driven.
+ *
+ * The hidden state lives behind `html.mb-anim`, a class set by the pre-paint
+ * script in app/layout.tsx. Static HTML therefore ships the content visible:
+ * if the script never runs, if JS is off, or if a bundle fails, every page
+ * still renders its text instead of a blank band. The earlier Framer Motion
+ * version baked `opacity:0` into the exported HTML, so the whole site was one
+ * failed request away from looking empty.
+ */
+export default function Reveal({ children, i = 0, y = 26, x = 0, className }: Props) {
+  const style = {
+    "--rd": `${(i * 0.07).toFixed(2)}s`,
+    "--ry": `${y}px`,
+    "--rx": `${x}px`,
+  } as CSSProperties;
 
   return (
-    <motion.div
-      className={className}
-      initial={still ? false : { opacity: 0, y, filter: "blur(6px)" }}
-      whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
-      viewport={{ once: true, margin: "-12% 0px -8% 0px" }}
-      transition={{
-        duration: 0.85,
-        delay: i * 0.07,
-        ease: [0.22, 0.7, 0.28, 1],
-      }}
-    >
+    <div className={className ? `reveal ${className}` : "reveal"} style={style}>
       {children}
-    </motion.div>
+    </div>
   );
 }
