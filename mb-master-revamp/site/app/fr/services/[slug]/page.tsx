@@ -98,7 +98,7 @@ export default async function FrenchServicePage({
         </div>
       </section>
 
-      <SiteFooter />
+      <SiteFooter locale="fr" />
     </main>
   );
 }

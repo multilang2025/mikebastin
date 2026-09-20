@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import PostArt from "@/components/PostArt";
 import Reveal from "@/components/Reveal";
 import SiteFooter from "@/components/SiteFooter";
-import { getClusterGroups, UNCATEGORISED } from "@/lib/posts";
+import { topicSlug, getClusterGroups, UNCATEGORISED } from "@/lib/posts";
 import { getService } from "@/lib/services";
 
 export const metadata: Metadata = {
@@ -62,7 +63,13 @@ export default function BlogIndex() {
               <Reveal>
                 <div className="mb-8 flex flex-wrap items-baseline justify-between gap-4 border-b pb-4" style={{ borderColor: "var(--rule)" }}>
                   <h2 className="text-[clamp(1.4rem,2.6vw,2rem)] font-semibold leading-[1.15]">
-                    {group.name}
+                    {isUncategorised ? (
+                      group.name
+                    ) : (
+                      <Link href={`/blog/topics/${topicSlug(group.name)}/`} className="ulink">
+                        {group.name}
+                      </Link>
+                    )}
                   </h2>
                   {service && (
                     <Link href={`/services/${service.slug}/`} className="ulink shrink-0 text-[.86rem]">
@@ -84,7 +91,7 @@ export default function BlogIndex() {
                       className="mb-2 inline-block rounded-[3px] px-2 py-[3px] text-[.62rem] uppercase tracking-[.1em]"
                       style={{ background: "var(--berry-soft)", color: "var(--berry)" }}
                     >
-                      Pillar
+                      Start here
                     </span>
                     <h3 className="ulink display mb-2 max-w-[36ch] text-[clamp(1.15rem,2vw,1.5rem)] font-semibold leading-[1.2]">
                       {group.pillar ? group.pillar.title : "The competitor analysis and traffic checklist"}
@@ -104,14 +111,10 @@ export default function BlogIndex() {
                     <Reveal key={post.slug} i={i}>
                       <li className="band h-full" style={{ background: "var(--bg)" }}>
                         <Link href={`/blog/${post.slug}/`} className="flex h-full flex-col">
-                          <img
-                            src={`/images/blog/${post.slug}.png`}
-                            alt=""
-                            width={1200}
-                            height={630}
-                            loading="lazy"
-                            decoding="async"
-                            className="aspect-[1200/630] w-full object-cover"
+                          <PostArt
+                            slug={post.slug}
+                            cluster={group.name}
+                            className="aspect-[1200/630] w-full"
                           />
                           <div className="flex flex-1 flex-col px-7 py-6">
                             <span className="ulink mb-2 text-[1.02rem] font-semibold leading-[1.3]">

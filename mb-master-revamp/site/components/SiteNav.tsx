@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useEffect, useState } from "react";
 import type { Locale, LocaleSlugs } from "@/lib/posts";
 
 const LINKS = [
@@ -68,8 +69,30 @@ function LocaleSwitcher({ manifest, pathname }: { manifest: Record<string, Local
   );
 }
 
+/**
+ * The mobile menu.
+ *
+ * Until now the link list simply ran off the side of a phone behind the
+ * floating theme toggle: `overflow-x-auto` meant it scrolled sideways
+ * rather than wrapped, so the only visible affordance on a 412px screen
+ * was the toggle, and four of the six links were unreachable without
+ * knowing to swipe a strip of text.
+ *
+ * The button sits inside the nav's right padding, to the left of the
+ * toggle's fixed position, so the two never overlap.
+ */
 export default function SiteNav({ localeManifest }: { localeManifest: Record<string, LocaleSlugs> }) {
   const pathname = usePathname();
+  const [open, setOpen] = useState(false);
+
+  useEffect(() => {
+    if (!open) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") setOpen(false);
+    };
+    document.addEventListener("keydown", onKey);
+    return () => document.removeEventListener("keydown", onKey);
+  }, [open]);
 
   return (
     <header
@@ -86,7 +109,7 @@ export default function SiteNav({ localeManifest }: { localeManifest: Record<str
           </svg>
           <span className="display text-[1.05rem] font-semibold tracking-tight">Mike Bastin</span>
         </Link>
-        <ul className="flex items-center gap-x-6 gap-y-1 overflow-x-auto text-[.86rem]" style={{ color: "var(--dim)" }}>
+        <ul className="hidden items-center gap-x-6 text-[.86rem] sm:flex" style={{ color: "var(--dim)" }}>
           {LINKS.map((l) => {
             const active = l.href !== "/#work" && l.href !== "/#contact" && pathname === l.href;
             return (
@@ -102,8 +125,73 @@ export default function SiteNav({ localeManifest }: { localeManifest: Record<str
             );
           })}
         </ul>
-        <LocaleSwitcher manifest={localeManifest} pathname={pathname ?? ""} />
+
+        <div className="hidden sm:block">
+          <LocaleSwitcher manifest={localeManifest} pathname={pathname ?? ""} />
+        </div>
+
+        <button
+          type="button"
+          onClick={() => setOpen((v) => !v)}
+          aria-expanded={open}
+          aria-controls="mb-mobile-menu"
+          aria-label={open ? "Close menu" : "Open menu"}
+          className="-mr-2 grid h-11 w-11 shrink-0 place-items-center rounded-full sm:hidden"
+          style={{ color: "var(--berry)" }}
+        >
+          <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            {open ? (
+              <path
+                d="m5 5 14 14M19 5 5 19"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="1.8"
+                strokeLinecap="round"
+              />
+            ) : (
+              <path
+                d="M3.5 7h17M3.5 12h17M3.5 17h17"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="1.8"
+                strokeLinecap="round"
+              />
+            )}
+          </svg>
+        </button>
       </nav>
+
+      {open && (
+        <div
+          id="mb-mobile-menu"
+          className="border-t sm:hidden"
+          style={{ borderColor: "var(--rule)", background: "var(--bg)" }}
+        >
+          <ul className="shell flex flex-col py-2 text-[1rem]">
+            {LINKS.map((l) => {
+              const active = l.href !== "/#work" && l.href !== "/#contact" && pathname === l.href;
+              return (
+                <li key={l.href}>
+                  <Link
+                    href={l.href}
+                    onClick={() => setOpen(false)}
+                    className="block border-b py-3.5"
+                    style={{
+                      borderColor: "var(--rule)",
+                      color: active ? "var(--berry)" : "var(--ink)",
+                    }}
+                  >
+                    {l.label}
+                  </Link>
+                </li>
+              );
+            })}
+          </ul>
+          <div className="shell pb-4" onClickCapture={() => setOpen(false)}>
+            <LocaleSwitcher manifest={localeManifest} pathname={pathname ?? ""} />
+          </div>
+        </div>
+      )}
     </header>
   );
 }

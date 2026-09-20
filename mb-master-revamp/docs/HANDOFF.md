@@ -430,7 +430,9 @@ All Valencia lifestyle/expat content leaves mikebastin.com for valenciamove.com.
 valencia-cost-of-living (10,601 imp — crown jewel of the exodus), valencia-living-expenses (merge INTO cost-of-living during the move, one fact-check, one VM page), move-to-valencia-spain-from-usa, american-move-to-valencia-spain, international-schools-in-valencia, valencia-expat, best-neighborhoods-valencia, neighbourhoods-for-professionals-in-valencia, valencia-good-place-to-live, live-in-valencia, valencia-digital-nomads, valencia-remote-working, valencia-public-transportation, valencia-airport-guide, essential-things-to-do-in-cultural-valencia, living-in-a-flat-in-valencia-a-pragmatic-overview, valencia-the-not-so-perfect-mediterranean-paradise, valencia-50-shades-of-noise, work-life-balance-in-valencia, basic-spanish-valencia, shipping-to-valencia-spain, b2b-trade-shows-in-valencia (owner decision 21 Aug, moved out of the STAY list below), fr/transport-a-valencia (555 imp), fr/cout-de-la-vie-valencia, fr/expatrie-valencia, fr/plages-de-valencia, fr/vivre-en-appartement-a-valencia, fr/travailler-a-valencia-en-tant-quexpatrie, fr/visa-nomade-numerique-espagne (duplicate slug case above), fr/avocats-a-valencia (727 imp — note: links Delaguía y Luzón; VM already has immigration-lawyer-valencia pages per locale → likely redirect-to-existing + merge), plus ES siblings resolved via content-map.
 
 **STAY (B2B funnel, proposed):**
-optimising-your-website-for-valencia-based-searches (local SEO service support), business-registration-in-valencia (business services angle, still unsigned — see note below).
+optimising-your-website-for-valencia-based-searches (local SEO service support).
+
+business-registration-in-valencia was on this list and is not any more. Owner decision, 20 Sep: it relocates. valenciamove.com already ranks /company-formation-spain/, titled "Starting a Business in Valencia, Spain 2026 - SL and Autonomo", over the same S.L. and autonomo ground our post covered, so the B2B framing was not enough to hold it either.
 
 b2b-trade-shows-in-valencia was on this list and is not any more. Owner decision, 21 Aug: it moves to valenciamove.com. Someone researching a trade show in Valencia is researching Valencia, whichever reason brought them, and that is the audience the other domain now owns.
 
@@ -736,3 +738,50 @@ accent colours anywhere on the site, not just in that graphic.
 `design-guardian` enforcement updates accordingly: the locked palette is
 now bg/ink/dim/berry/berry-deep/berry-soft/deep/rule only. Flag any
 `--gold`, `--gold-soft` or `--silver` reference in a diff as a violation.
+
+---
+
+## 27. LEGACY RETIREMENT — DONE, AND THE RULE IT ESTABLISHED (20 Sep 2026)
+
+42 legacy WordPress posts retired: 31 whose content relocated to
+valenciamove.com, 8 retired outright, 2 absorbed, plus
+business-registration-in-valencia (owner call the same day). All 42 now
+return a single-hop 301 to a live 200, verified end to end.
+
+**Two things had to happen, in order.** A Rank Math row in
+`wp_rank_math_redirections`, then the post unpublished. A redirect is
+inert while WordPress still serves the post, so inserting rows changes
+nothing visible until the unpublish, and the unpublish without the rows
+would 404 every URL.
+
+**The rule, learned the hard way:** the legacy redirect rows must be
+derived from the generated `site/public/.htaccess`, never from
+`redirects/content-map.json` directly.
+
+The first pass built them from content-map's `absorbed_into`, which said
+boosting-local-seo absorbs into optimise-a-google-business-profile. That
+is the correct editorial fact, and the wrong routing fact, because
+optimise-a-google-business-profile was itself on the retire list. Legacy
+ended up with a two-hop chain landing on the generic `/blog/` index.
+
+`scripts/gen-prune-redirects.mjs` already knew better: it carries an
+explicit override sending both to `/services/local-seo/`, with "no
+redirect chains" stated as a rule at the top of the file. The new site
+was right the whole time. Only the hand-derived legacy rows were wrong,
+and they were fixed to match.
+
+**A second trap worth recording:** target verification must run against
+the state *after* the change, not before. All 42 targets were checked
+and returned 200, which is exactly why the chain passed — at that moment
+optimise-a-google-business-profile was still published. Re-check targets
+once the retirement is applied.
+
+Mechanics that cost time and are worth reusing: Rank Math's REST
+endpoint for redirections returns a fake success and writes nothing, so
+direct SQL is the only route; the site registers no Abilities API
+handler for it either. The SQL statement splitter counts literal
+semicolons, and PHP-serialised `sources` is full of them, so build the
+value with `CHAR(59)` for `;` and `CHAR(34)` for `"` and the statement
+needs no escaping at all. Every declared `s:N:` must match the byte
+length of the string that follows, so compute it in code rather than
+counting.

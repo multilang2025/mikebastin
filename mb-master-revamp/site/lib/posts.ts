@@ -214,13 +214,15 @@ const CLUSTERS: {
     // business and marketing writing rather than multilingual SEO, so they
     // get an honest cluster of their own rather than a placeholder. The
     // other two went to SEO fundamentals, where they always belonged.
+    //
+    // Nine now: business-registration-in-valencia left for valenciamove.com,
+    // which already ranks a page on the same S.L. and autonomo ground.
     name: "Business and marketing",
     service: "lead-generation",
     posts: [
       "360-marketing-agency",
       "affiliate-marketing-programs",
       "best-vietnam-sourcing-agencies-for-eudr-supplier-scouting-and-audits",
-      "business-registration-in-valencia",
       "global-business-trends",
       "how-to-write-about-your-professional-background",
       "human-creator-economy",
@@ -290,6 +292,62 @@ export type ClusterGroup = {
   pillarHref?: string;
   posts: Post[];
 };
+
+/**
+ * What each cluster is for, in a sentence a reader can act on. Shown on
+ * its topic page and used as that page's meta description, so it is
+ * written once rather than drifting between the two.
+ */
+const TOPIC_BLURB: Record<string, string> = {
+  "Multilingual SEO":
+    "Running one site across several languages without the versions competing with each other. Hreflang, per-market keyword work, and the decisions that get made before anything is written.",
+  "Language markets":
+    "What search behaves like inside one country rather than across a region. Volume, intent and competition read per market, because France and Belgium are not one audience with one keyword list.",
+  "AI and the future of search":
+    "How answer engines pick sources, and what that changes about writing for search. Practical reading rather than prediction.",
+  "SEO fundamentals":
+    "The parts that hold whatever is built on top of them: crawling, indexation, structure and measurement. Worth getting right before a translation budget goes anywhere near them.",
+  "Language industry":
+    "Translation, localisation and the people who do it. How the work is priced, scoped and quality-checked, from inside it.",
+  "Multilingual lead generation":
+    "Turning international visibility into enquiries, and knowing which language produced them. Tracking, attribution and the reporting that makes a market's spend defensible.",
+  "Business and marketing":
+    "Wider marketing and business writing, for the decisions around a site rather than inside it.",
+};
+
+/** URL segment for a topic page: the cluster name, lowercased and hyphenated. */
+export function topicSlug(name: string): string {
+  return name
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
+}
+
+export type Topic = ClusterGroup & { slug: string; blurb: string };
+
+/**
+ * The clusters that get a topic landing page at /blog/topics/<slug>/.
+ *
+ * Uncategorised is excluded deliberately: it is a fallback bucket, not a
+ * subject, so a landing page for it would be a page about nothing, and
+ * the whole point of the clustering pass was to empty it.
+ *
+ * The route lives under /blog/topics/ rather than /blog/<slug>/ for two
+ * reasons. A topic slug and a post slug would otherwise share one
+ * namespace and a future post could silently take a topic's URL. And
+ * "multilingual-seo" is already a service slug, so /blog/multilingual-seo/
+ * would put a topic page in competition with the service page that is
+ * meant to rank for it.
+ */
+export function getTopics(): Topic[] {
+  return getClusterGroups()
+    .filter((g) => g.name !== UNCATEGORISED)
+    .map((g) => ({
+      ...g,
+      slug: topicSlug(g.name),
+      blurb: TOPIC_BLURB[g.name] ?? "",
+    }));
+}
 
 /**
  * Posts grouped for the Journal index: one entry per cluster in

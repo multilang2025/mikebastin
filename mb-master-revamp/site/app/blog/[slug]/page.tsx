@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import PostArt from "@/components/PostArt";
 import Reveal from "@/components/Reveal";
 import SiteFooter from "@/components/SiteFooter";
 import JsonLd from "@/components/JsonLd";
@@ -124,16 +125,17 @@ export default async function BlogPostPage({
       <section className={`band band-${coverBand} pb-[clamp(48px,7vw,90px)]`}>
         <div className="shell">
           <Reveal>
-            <img
-              src={`/images/blog/${post.slug}.png`}
-              alt=""
-              width={1200}
-              height={630}
-              loading="lazy"
-              decoding="async"
-              className="aspect-[1200/630] w-full rounded-[4px] border object-cover"
+            <div
+              className="overflow-hidden rounded-[4px] border"
               style={{ borderColor: "var(--rule)" }}
-            />
+            >
+              <PostArt
+                slug={post.slug}
+                cluster={post.cluster}
+                rounded
+                className="aspect-[1200/630] w-full"
+              />
+            </div>
           </Reveal>
         </div>
       </section>

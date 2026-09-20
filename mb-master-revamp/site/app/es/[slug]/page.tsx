@@ -111,7 +111,7 @@ export default async function SpanishBlogPostPage({
         </div>
       </section>
 
-      <SiteFooter />
+      <SiteFooter locale="es" />
     </main>
   );
 }

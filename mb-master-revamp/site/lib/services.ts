@@ -223,7 +223,7 @@ export const SERVICES: Service[] = [
     inline: "French SEO",
     cluster: "Search",
     angle: "SEO France, where the francophone volume sits",
-    lede: "France carries 1,850 of the 2,390 monthly searches measured across the whole francophone core, at a difficulty score of 0 to 2. Belgium and Switzerland are where the network is, not where the search volume is.",
+    lede: "France is where the francophone search volume actually sits, while Belgium and Switzerland are where the network is. Winning French means writing for France first and selling through the other two.",
     metaTitle: "French SEO services, Mike Bastin",
     metaDescription: "France carries most of the francophone search volume in this market. See what a proper French SEO engagement covers, market by market.",
     sections: ["Three ways to fail at French SEO", ...ENGAGEMENT],

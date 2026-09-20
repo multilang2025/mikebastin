@@ -185,7 +185,7 @@ It requires [localised websites](https://mikebastin.com/services/website-localis
 -   Conduct market-specific [keyword research](https://mikebastin.com/multilingual-keyword-research/) in each target language
 -   Adapt product positioning and [content strategy for local audiences](https://mikebastin.com/content-optimisation-for-spanish-users/)
 -   Partner with regional logistics and payment providers
--   [Research local registration requirements](https://mikebastin.com/business-registration-in-valencia/) and regulatory environments before entry
+-   [Research local registration requirements](https://valenciamove.com/company-formation-spain/) and regulatory environments before entry
 
 ## Ecommerce and Digital Transformation: Mobile-First Is Non-Negotiable
 

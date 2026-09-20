@@ -98,7 +98,7 @@ export default async function SpanishServicePage({
         </div>
       </section>
 
-      <SiteFooter />
+      <SiteFooter locale="es" />
     </main>
   );
 }
