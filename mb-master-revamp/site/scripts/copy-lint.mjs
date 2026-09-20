@@ -292,6 +292,21 @@ const DANGLING_WORD =
 function contentOnlyIssues(body) {
   const out = [];
 
+  // Residue from an image the harvester stripped. WordPress images came
+  // across as `![alt](url)` and something removed the brackets and the
+  // URL, leaving either a bare `!` or `!` plus the old alt text, both of
+  // which render as a paragraph. Forty-three of them shipped across
+  // twelve posts, including ten standalone exclamation marks down one
+  // page and "!Article header image" at the top of another.
+  const stripped = [...body.matchAll(/^!(?!\[).*$/gm)].map((m) => m[0]);
+  if (stripped.length > 0) {
+    out.push({
+      rule: "artifact",
+      detail: "stripped image residue, a line starting with ! that is not an image",
+      count: stripped.length,
+    });
+  }
+
   const usHits = [...stripNonProse(body).matchAll(US_SPELLINGS)].map((m) => m[0]);
   if (usHits.length > 0) {
     out.push({

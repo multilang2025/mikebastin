@@ -46,8 +46,6 @@ Ignoring these **regional nuances** could lead to miscommunication and even alie
 
 By understanding the local context, businesses can optimise their [SEO strategy](/blog/best-practices-for-multilingual-seo/) to effectively reach their intended audience.
 
-!
-
 ### Researching keywords: your colour palette
 
 Before an artist begins a masterpiece, they need the right tools.  

@@ -20,15 +20,11 @@ In this article, we will explore the unique technical SEO considerations for [Ge
 
 From proper URL structures to hreflang tags, site speed, and mobile optimisation, these strategies will help you enhance your SEO efforts for the German-speaking audience.
 
-!
-
 ## Proper URL structure for German websites
 
 One of the foundational aspects of [technical SEO](/services/technical-seo/) is URL structure. URLs should be clear, user-friendly, and reflect the page’s content accurately.
 
 For German websites, there are unique language-specific considerations.
-
-!
 
 ### Best practices for SEO-friendly URLs
 
@@ -37,16 +33,12 @@ It’s essential to keep your URLs in German when targeting the German market. N
 
 For example, instead of using a generic URL like `/insurance-services`, it’s more beneficial to use `/versicherung-dienstleistungen`, which is aligned with German search terms.
 
-!
-
 **Avoiding Special Characters:**  
 German contains special characters like umlauts (ä, ö, ü), which can complicate URLs.
 
 For SEO-friendly URLs, it’s advisable to avoid these characters. Instead, replace them with their simpler equivalents: ä becomes ae, ö becomes oe, and ü becomes ue.
 
 For example, “Küche” (kitchen) would become “Kueche” in the URL. The substitution prevents encoding issues and improves accessibility.
-
-!
 
 ### Keywords in URLs
 
@@ -58,15 +50,11 @@ It’s important to avoid keyword stuffing, which can result in clunky and ineff
 
 A clean URL, such as `/deutschland-reiseangebote`, is much more impactful than a URL overloaded with unnecessary or repetitive terms.
 
-!
-
 ### URL hierarchy and structure
 
 A logical, hierarchical URL structure is essential for both users and search engines.
 
 German users prefer a clean and predictable structure, especially for e-commerce and large content websites. For example, using a structure like `/produkte/haushaltsgeraete/waschmaschinen` helps users navigate and also signals to search engines the relevance and relationship between different sections of the site.
-
-!
 
 ## hreflang tag implementation for multilingual sites
 
@@ -90,15 +78,11 @@ For German websites, you should be aware of the different language variants with
 
 These hreflang tags allow search engines to direct users to the most appropriate version of your content, reducing bounce rates and improving user experience.
 
-!
-
 ### Avoiding duplicate content
 
 Without hreflang tags, search engines might index multiple versions of the same content (for example, a German version for Germany and an Austrian version for Austria), which can lead to duplicate content issues and affect rankings.
 
 Implementing hreflang properly helps to ensure that the correct version of your site appears in the correct location, preserving your site’s SEO equity.
-
-!
 
 ### Common mistakes to avoid
 
@@ -106,15 +90,11 @@ Some of the common mistakes with hreflang include inconsistent tagging across di
 
 Ensure that every language page correctly references other versions, and always validate your hreflang setup with tools like Google’s Search Console.
 
-!
-
 ## Site speed optimisation for the German market
 
 Site speed has been a critical ranking factor for years, and it’s especially important in Germany, where users expect high performance and fast load times.
 
 Google has continued to prioritise speed through **Core Web Vitals**, which measure load time, interactivity, and visual stability.
-
-!
 
 ### Importance of fast load times in Germany
 

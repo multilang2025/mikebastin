@@ -12,8 +12,6 @@ sourceUrl: "https://mikebastin.com/eeat-vs-aeat-typo/"
 excerpt: "A single typo can turn an SEO audit into a tax audit when you work as an international SEO in Spain. Discover how confusing EEAT with AEAT creates panic, dark humour, and very real professional lessons. Read the story and join the community of SEOs navigating Google guidelines and Spanish bureaucracy at the same time."
 ---
 
-!EEAT-AEAT
-
 ## How a single letter almost cost a Spanish law firm its SEO strategy
 
 We optimise EEAT for a Spanish law firm.
@@ -138,41 +136,27 @@ Which is where our meme gallery begins.
 
 ### Meme 1. The accidental typo
 
-!
-
 * * *
 
 ### Meme 2. Two doors
-
-!
 
 * * *
 
 ### Meme 3. Google meets the tax office
 
-!
-
 * * *
 
 ### Meme 4. The SEO report vs the tax report
-
-!
 
 * * *
 
 ### Meme 5. Autocomplete disaster
 
-!
-
 ### Meme 6. The conference badge
-
-!
 
 * * *
 
 ### Meme 7. Brain short circuit
-
-!
 
 * * *
 
