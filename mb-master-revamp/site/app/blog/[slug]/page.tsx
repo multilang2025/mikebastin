@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import PostImage from "@/components/PostImage";
+import { getBlogImage } from "@/lib/blog-images";
 import Reveal from "@/components/Reveal";
 import SiteFooter from "@/components/SiteFooter";
 import JsonLd from "@/components/JsonLd";
@@ -137,6 +138,30 @@ export default async function BlogPostPage({
                 className="aspect-[1200/630] w-full"
               />
             </div>
+            {/* Attribution, where the photo is not from the legacy library.
+                Unsplash asks for the photographer and Unsplash to be
+                credited with links, so a photo used under those terms has
+                to say so on the page rather than only in the data file. */}
+            {getBlogImage(post.slug)?.credit && (
+              <p className="mt-3 text-[.78rem]" style={{ color: "var(--dim)" }}>
+                Photo by{" "}
+                <a
+                  className="ulink"
+                  href={getBlogImage(post.slug)!.credit!.profile}
+                  rel="nofollow noopener"
+                >
+                  {getBlogImage(post.slug)!.credit!.name}
+                </a>{" "}
+                on{" "}
+                <a
+                  className="ulink"
+                  href={getBlogImage(post.slug)!.credit!.sourceUrl}
+                  rel="nofollow noopener"
+                >
+                  {getBlogImage(post.slug)!.credit!.source}
+                </a>
+              </p>
+            )}
           </Reveal>
         </div>
       </section>

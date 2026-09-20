@@ -7,12 +7,13 @@
  * post with no entry here, which is what a newly written post gets until
  * a picture is chosen for it.
  *
- * 56 entries for 56 posts, which is a coincidence rather than a rule.
- * competitor-analysis-traffic-checklist is a hand-built page rather than
- * a post (HAND_BUILT_SLUGS in lib/posts.ts) and is here because it is a
- * cluster pillar the journal index renders beside the others, while
- * conversational-ai-chatbots-business is a post that is deliberately
- * absent. See its note below.
+ * 57 entries: the 56 posts plus competitor-analysis-traffic-checklist,
+ * which is a hand-built page rather than a post (HAND_BUILT_SLUGS in
+ * lib/posts.ts) and is here because it is a cluster pillar the journal
+ * index renders beside the others.
+ *
+ * All but one came from the legacy library. See the note on
+ * conversational-ai-chatbots-business for the exception and why.
  *
  * `legacy` records where each file came from, relative to
  * https://mikebastin.com/wp-content/uploads/, so the set can be rebuilt
@@ -47,6 +48,16 @@ export type BlogImage = {
    * be rebuilt from the source and still come out clean.
    */
   cropTop?: number;
+  /**
+   * Attribution, for a photo that is not from the legacy library.
+   *
+   * Unsplash's terms ask for the photographer and Unsplash to be credited
+   * with links, so a photo sourced there carries this and the post page
+   * renders it under the image. `legacy` still records where the file came
+   * from, which for these is the Unsplash photo id rather than an upload
+   * path.
+   */
+  credit?: { name: string; profile: string; source: string; sourceUrl: string };
 };
 
 export const BLOG_IMAGES: Record<string, BlogImage> = {
@@ -64,15 +75,11 @@ export const BLOG_IMAGES: Record<string, BlogImage> = {
   "competitor-analysis": { width: 1200, height: 686, alt: "A desk with two open laptops, each showing an analytics dashboard", legacy: "2026/01/competitoranalysis.jpg" },
   "competitor-analysis-traffic-checklist": { width: 1200, height: 686, alt: "A fountain pen resting on a printed checklist, with reading glasses and a monitor showing a traffic dashboard behind", legacy: "2026/01/competitoranalysistrafficcheck.jpg" },
   "content-optimisation-for-spanish-users": { width: 1200, height: 482, alt: "A woman smiling at an outdoor cafe table on a Spanish street", legacy: "2024/10/spanish-users.jpg" },
-  // conversational-ai-chatbots-business has no entry on purpose, so it
-  // falls back to PostArt. Its featured image was an AI-generated tablet
-  // mockup whose visible copy reads "Hello! How can bo help?" and
-  // "Hola! /Como pudo ayodrarte", with garbled Japanese beside it. Every
-  // other candidate in the media library for this post is from the same
-  // batch and no better: one is a wireframe robot, two carry a prompt
-  // label, and one repeats the broken Spanish. Publishing misspelt
-  // Spanish on a multilingual SEO site is worse than publishing no
-  // photograph, so it draws the wave until a real one exists.
+  // The only entry here not from the legacy library. Its WordPress image
+  // was an AI mockup reading "Hello! How can bo help?" beside "Hola!
+  // /Como pudo ayodrarte", and every other candidate in that batch was
+  // no better, so this is a real photograph from Unsplash instead.
+  "conversational-ai-chatbots-business": { width: 1200, height: 800, alt: "A woman holding a phone in both hands, part-way through typing a message", legacy: "unsplash:HbyYFFokvm0", credit: { name: "Paul Hanaoka", profile: "https://unsplash.com/@plhnk", source: "Unsplash", sourceUrl: "https://unsplash.com/photos/HbyYFFokvm0" } },
   "digital-marketing-advisor": { width: 1200, height: 686, alt: "A man studying a flip chart that compares an advisor model with an agency model", legacy: "2026/01/digitalmarketingadvisoragencyd.jpg" },
   "eeat-vs-aeat-typo": { width: 1200, height: 666, alt: "A cover graphic reading EEAT versus AEAT, the typo that turns an SEO audit into a tax audit", legacy: "2026/01/EEAT-AEAT-1.jpg" },
   "email-marketing-hacks-boosting-open-rates-and-conversions": { width: 1200, height: 489, alt: "A laptop showing one unread email in an inbox, next to a cup of coffee", legacy: "2024/11/Email-Marketing-Hacks.jpg" },

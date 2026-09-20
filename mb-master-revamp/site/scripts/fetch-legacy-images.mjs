@@ -57,6 +57,13 @@ async function main() {
       continue;
     }
 
+    // An entry sourced outside the legacy library records its origin
+    // rather than an upload path, and cannot be refetched from here.
+    if (image.legacy.startsWith("unsplash:")) {
+      skipped++;
+      continue;
+    }
+
     const url = BASE + image.legacy;
     const res = await fetch(url);
     if (!res.ok) {
