@@ -422,4 +422,19 @@ if (process.argv.includes("--json")) {
   for (const [k, v] of Object.entries(tally).sort((a, b) => b[1] - a[1]).slice(0, 10)) {
     console.log(`  ${String(v).padStart(4)}  ${k}`);
   }
+
+  // Exit non-zero so CI can gate on it. This script has always printed its
+  // findings and then exited 0, which made it a report rather than a check:
+  // every violation it ever found still shipped unless somebody happened to
+  // read the output. Everything is clean as of 20 Sep, which is the right
+  // moment to install the gate, since a gate that starts red gets disabled.
+  // `--json` stays a pure reporting mode and never fails.
+  const dirty = rows.filter((r) => !r.clean);
+  if (dirty.length > 0) {
+    console.error(`\n${dirty.length} file(s) need a copy pass:`);
+    for (const r of dirty) {
+      console.error(`  ${r.type}/${r.slug}: ${r.issues.map((i) => i.detail).join("; ")}`);
+    }
+    process.exit(1);
+  }
 }
