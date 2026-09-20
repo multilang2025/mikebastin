@@ -164,6 +164,23 @@ reachable, but only once the AISA bridge is pointed at that site
 reports mikebastin.com as inaccessible, which reads like missing access
 rather than a wrong default.
 
+**FR and ES are deferred** (owner, 20 Sep). Do not build new French or
+Spanish surfaces for now. Flagged rather than forgotten, so the gaps are
+known and deliberate:
+
+- **No FR or ES index pages.** `/fr/services/`, `/es/services/`, `/fr/blog/`
+  and `/es/blog/` do not exist, only the individual `[slug]` routes under
+  them. `SiteFooter` handles that by giving those locales no link to an
+  index at all, since sending a French reader to an English one is worse
+  than offering nothing. Both sitemaps list the individual pages, which is
+  correct and not a workaround.
+- **No FR or ES topic pages.** `getTopics()` reads the EN clusters, which
+  have no FR/ES equivalent, so `/blog/topics/` is English only.
+- **The FR and ES motto renderings are unreviewed.** They ship in
+  `SiteFooter`'s string table and are a first pass, not signed off.
+- **valenciamove.com's services page launches EN only.** The plan first
+  recommended EN plus ES; the owner's call on 20 Sep supersedes that.
+
 **Backlog, not yet started** (add here rather than losing track of them):
 - Globaprom data-privacy/MT-compliance article (owner decision 6 Sep: add to
   list rather than draft now or skip). Real gap identified: none of
