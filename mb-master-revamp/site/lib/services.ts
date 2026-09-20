@@ -270,9 +270,9 @@ export const SERVICES: Service[] = [
     cluster: "Search",
     pillar: true,
     angle: "The engine underneath the outcome",
-    lede: "Strategic piloting on our side, native writing per language, with hreflang and schema configured from the brief rather than patched in later.",
+    lede: "You already sell abroad, and the markets outside English are not pulling their weight. We run the strategy and brief native writers per market, so each language earns enquiries rather than only traffic.",
     metaTitle: "International SEO consulting, Mike Bastin",
-    metaDescription: "International SEO with hreflang and schema built into the brief, native writing per language, and strategic piloting that catches mistakes early.",
+    metaDescription: "Already selling abroad while the non-English markets underperform? See how each language gets its own strategy, its own native writing, and a number of its own.",
     sections: [
       "Where most international SEO projects fail",
       "What we include in an international SEO engagement",
@@ -1233,7 +1233,7 @@ export const SERVICES: Service[] = [
     cluster: "AI",
     pillar: true,
     angle: "Cited inside the answer, not just ranked below it",
-    lede: "ChatGPT, Perplexity and Google's AI Overviews answer a question directly and name a small number of sources while doing it. Structured data, citation-worthy claims and a presence across the platforms people actually ask, so the answer names you.",
+    lede: "ChatGPT, Perplexity and Google's AI Overviews answer a buyer's question directly, and name two or three sources while doing it. Being one of them is the difference between being considered and never being seen.",
     metaTitle: "Generative engine optimisation and AEO, Mike Bastin",
     metaDescription: "ChatGPT, Perplexity and Google AI Overviews name a small number of sources when they answer a question. See what it takes for the answer to name you.",
     expandablesHeading: "What changes when the answer is written for you",
@@ -1340,9 +1340,9 @@ export const SERVICES: Service[] = [
     inline: "technical SEO",
     cluster: "Supporting",
     angle: "Crawlability and hreflang, noticed only when broken",
-    lede: "Crawlability, indexation and the hreflang plumbing that decides whether a multilingual site is read as one entity in several languages or several sites competing with each other.",
+    lede: "Your French pages and your German pages can end up competing with each other instead of adding up. We find out whether it is happening on your site, and fix what is causing it.",
     metaTitle: "Technical SEO, Mike Bastin",
-    metaDescription: "The crawlability, indexation and hreflang plumbing that decides whether a multilingual site reads as one entity or several competing ones.",
+    metaDescription: "Your language versions can compete with each other instead of adding up. See how we find out whether it is happening on your site, and what it takes to fix.",
     sections: ["What actually blocks a multilingual site", ...ENGAGEMENT],
     body: [
       {

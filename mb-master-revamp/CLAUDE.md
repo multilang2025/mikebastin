@@ -131,6 +131,29 @@ needs.
 - IP boundary: no Marvel/superhero imagery tied to "Silver Surfer" — it is a
   prose-only nickname, visual language is original surf/wave motifs.
 
+## Copy has to sell, not only pass the protocol
+
+The Master Content Protocol and the `copy-editor` agent are all
+prohibitions. Copy can pass every one of them and still be unsellable,
+and in September 2026 most of it was: 19 service pages measured 12.1
+jargon terms per thousand words against 7.3 benefit terms, four of the
+five biggest pages opened their hero on mechanism ("Crawlability,
+indexation and the hreflang plumbing"), and 18 of 19 carried no proof
+element at all while four Google reviews sat unused.
+
+`.claude/skills/mb-copy-voice/SKILL.md` is the positive half: who the
+buyer is, the order a page makes its case in, where jargon is allowed,
+what counts as proof. Read it before writing any customer-facing string.
+
+`site/scripts/copy-jargon-lint.mjs` enforces the part that can be
+mechanised, and it is zoned rather than absolute. Mechanism vocabulary
+is banned in the hero and the meta description of a **commercial** page
+and welcome below the first section, where a reader who is still going
+wants the precise term and the page needs it to rank. Editorial routes
+are reported and never failed, because a reader who searched for
+hreflang tags arrived wanting that word in the headline. It runs on the
+built output inside `npm run verify`.
+
 ## Agent roster
 
 All agents live in `.claude/agents/`. Six were specified in the original

@@ -183,7 +183,7 @@ export default function Home() {
                 French only converted, and it named four markets when six
                 language SEO services exist, quietly dropping DE, IT and PT. */}
             <div className="flex flex-wrap items-center gap-x-3 gap-y-2 text-[.94rem]" style={{ color: "var(--dim)" }}>
-              {["Written natively, market by market", "Hreflang decided in the brief", "Enquiries counted per language"].map((t, i) => (
+              {["Written natively, market by market", "Languages that add up, not compete", "Enquiries counted per language"].map((t, i) => (
                 <span key={t} className="flex items-center gap-3">
                   {i > 0 && <i className="block h-[3px] w-[3px] rounded-full" style={{ background: "var(--berry)" }} />}
                   {t}
