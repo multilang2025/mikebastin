@@ -89,30 +89,71 @@ the same pass.
 
 The remaining 21 KEEP posts were not queried against GSC this pass (see the note below) -- kept by default because nothing found so far argues for removing them, not because their traffic was confirmed.
 
-## What was not checked this pass, and why that matters
+## The 21 provisional KEEPs, now checked (20 Sep 2026)
 
-26 of 91 posts have no GSC figure in this document. The two bulk pulls used (`gsc_top_pages`, best/worst by impressions, 100 rows each) cover the extremes of the distribution, not the middle, and a per-post lookup (`gsc_page_queries`) was run individually only for the posts whose titles read as clear filler or off-strategy -- seven of them, all confirmed near-zero or literally zero. Running the same check on the other 26 is mechanical (`mcp__AISA__gsc_page_queries` per slug) but was not done here to keep this pass to a reviewable size. Until that happens, treat their KEEP status as provisional, not verified.
+**Owner decision, 20 Sep: all 21 stay KEEP.** The Tier C sign-off is closed.
+No further prune work is pending.
 
-Posts still needing a real GSC check:
+The check that was outstanding has now been run. The earlier pass could not
+complete it because mikebastin.com was not the active site on the AISA
+bridge, so `gsc_list_properties` resolved against a different Google account
+and reported the property as inaccessible. It is there, as `siteOwner`, once
+the bridge is pointed at the right site.
 
-- `competitor-analysis`
-- `eeat-vs-aeat-typo`
-- `future-of-seo`
-- `generative-engine-optimization`
-- `google-analytics-international-marketing-limits`
-- `how-ai-is-revolutionising-seo-strategies`
-- `how-ai-is-transforming-translation-and-localisation`
-- `how-to-create-a-targeted-content-strategy`
-- `how-to-use-ai-and-machine-translation-tools`
-- `how-to-write-about-your-professional-background`
-- `human-creator-economy`
-- `optimising-multilingual-website-content`
-- `optimising-your-website-for-voice-search`
-- `prompt-engineers`
-- `search-everywhere-strategy`
-- `spanish-on-page-seo`
-- `technical-seo-audit-checklist`
-- `technical-seo-considerations-for-german-websites`
-- `technical-seo-for-multilingual-websites`
-- `technical-seo-for-spanish-search-engines`
-- `what-is-search-intent-mapping`
+Figures below are real GSC, 450 days to 17 Sep 2026, one `gsc_page_queries`
+call per post.
+
+| Post | Impressions | Clicks | What it ranks for |
+|---|---:|---:|---|
+| `future-of-seo` | 310 | 0 | "future of seo", on topic, positions 50 to 97 |
+| `competitor-analysis` | 255 | 0 | "seo competitors", on topic, positions 40 to 90 |
+| `technical-seo-considerations-for-german-websites` | 168 | 0 | "german website seo" (138 of them) |
+| `what-is-search-intent-mapping` | 165 | 0 | "keyword intent mapping", on topic |
+| `technical-seo-audit-checklist` | 163 | 0 | "website technical audit checklist" |
+| `technical-seo-for-spanish-search-engines` | 129 | 0 | "spanish search engine optimization" |
+| `search-everywhere-strategy` | 75 | 0 | "search everywhere optimization" |
+| `eeat-vs-aeat-typo` | 61 | 0 | **AEAT, the Spanish tax agency.** Nothing about E-E-A-T |
+| `how-to-write-about-your-professional-background` | 52 | 0 | "what is your professional background" |
+| `how-to-create-a-targeted-content-strategy` | 51 | 0 | "create targeted content" |
+| `human-creator-economy` | 49 | 1 | **"jean marie cordaro", a person's name.** Not the topic |
+| `technical-seo-for-multilingual-websites` | 11 | 0 | two long-tail queries |
+| `google-analytics-international-marketing-limits` | 8 | 0 | five queries, all single-figure |
+| `prompt-engineers` | 5 | 0 | **all five are `site:mikebastin.com`.** No real demand |
+| `spanish-on-page-seo` | 5 | 0 | "seo spanish language" |
+| `optimising-multilingual-website-content` | 4 | 0 | one query |
+| `optimising-your-website-for-voice-search` | 4 | 0 | three queries |
+| `how-ai-is-revolutionising-seo-strategies` | **0** | 0 | GSC: `no_matching_rows` |
+| `how-ai-is-transforming-translation-and-localisation` | **0** | 0 | GSC: `no_matching_rows` |
+| `how-to-use-ai-and-machine-translation-tools` | **0** | 0 | GSC: `no_matching_rows` |
+
+**One click between them in 450 days**, and it was for a person's name.
+
+### Six the data argues against, kept anyway
+
+Recorded so the decision is visible rather than implied. KEEP still stands;
+the owner has the figures.
+
+- **Three at literally zero impressions**: `how-ai-is-revolutionising-seo-strategies`,
+  `how-ai-is-transforming-translation-and-localisation`,
+  `how-to-use-ai-and-machine-translation-tools`. Zero is the same bar that
+  retired `language-service-providers` and `long-tail-keywords` in the
+  REMOVE and MERGE lists above.
+- **Two ranking for the wrong thing**: `eeat-vs-aeat-typo` draws queries for
+  the Spanish tax agency AEAT rather than for E-E-A-T, and
+  `human-creator-economy` draws a person's name. Neither impression count
+  represents interest in the post's subject.
+- **One with no real demand**: `prompt-engineers`, whose five impressions are
+  all `site:` searches, which is someone inspecting the site.
+
+The case for keeping them regardless is reasonable: all six are on-topic for
+an SEO, digital marketing and AI practice, the clusters and topic pages now
+give them somewhere to belong, and these figures describe a Divi site that
+is being replaced. A re-audit once the new site has its own Search Console
+history will be worth more than acting on this one.
+
+### Two corrections to the previous version of this document
+
+- It said 26 posts were unchecked and then listed 21. The list was right.
+- It listed `generative-engine-optimization` among them. That post was
+  absorbed into `/services/generative-engine-optimization/` on 20 Sep, so
+  its KEEP question was already closed. 20 posts were actually outstanding.

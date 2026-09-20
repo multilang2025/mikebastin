@@ -151,13 +151,18 @@ Tracked in `docs/HANDOFF.md` §21 "Decisions OPEN" and §17 addendum. Resolve
 with the owner before P1 work depends on them (repo org, X handle/posts, Tier C prune sign-off, service consolidation,
 Valencia STAY-list sign-off, credibility strip numbers).
 
-**Tier C prune now has a real artifact to sign off on**, not just an open
-line item: `docs/BLOG-PRUNE-AUDIT.md`, built from actual Google Search
-Console data (450-day window) rather than word count. 12 posts recommended
-REMOVE, 2 MERGE, both already written into `redirects/content-map.json`
-(`action: "retire"` / `"absorb"`) so a future pass won't silently re-migrate
-them. 21 posts still need a real GSC check before their KEEP status is
-anything more than provisional (list in the audit doc).
+**Tier C prune is CLOSED** (owner, 20 Sep). `docs/BLOG-PRUNE-AUDIT.md` holds
+the record. REMOVE and MERGE shipped the same day, with all 42 legacy URLs
+301ing to a live page. The 21 provisional KEEPs were checked against real
+GSC and all 21 stay KEEP; the audit lists six the data argues against and
+the reasoning for keeping them anyway. Nothing here blocks launch.
+
+**GSC gotcha worth keeping:** mikebastin.com's Search Console data is
+reachable, but only once the AISA bridge is pointed at that site
+(`switch_site`). Query it while another site is active and
+`gsc_list_properties` resolves against that site's Google account and
+reports mikebastin.com as inaccessible, which reads like missing access
+rather than a wrong default.
 
 **Backlog, not yet started** (add here rather than losing track of them):
 - Globaprom data-privacy/MT-compliance article (owner decision 6 Sep: add to
