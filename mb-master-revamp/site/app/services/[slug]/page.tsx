@@ -5,7 +5,7 @@ import Reveal from "@/components/Reveal";
 import SiteFooter from "@/components/SiteFooter";
 import Expandables from "@/components/Expandables";
 import JsonLd from "@/components/JsonLd";
-import { absorbedPage } from "@/lib/absorbed";
+import { absorbedProse } from "@/lib/absorbed";
 import { SERVICES, getService, CLUSTER_INLINE } from "@/lib/services";
 import { SITE_URL, breadcrumbSchema, serviceSchema } from "@/lib/schema";
 import { serviceGroupForEnSlug, serviceHreflang } from "@/lib/services-locale";
@@ -282,31 +282,16 @@ export default async function ServicePage({
               <p className="mb-10 max-w-[60ch] text-[1.02rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
                 Each still redirects in its own locale rather than
                 disappearing. One page covering one query network properly
-                beats several covering it thinly, and the work itself has
-                not narrowed: below is what those pages dealt with, and
-                what we still do.
+                beats several covering it thinly, and none of the work
+                itself has narrowed.
               </p>
             </Reveal>
             <Reveal i={1}>
-              <ul className="grid gap-px sm:grid-cols-2" style={{ background: "var(--rule)" }}>
-                {service.absorbs.map((a) => {
-                  const page = absorbedPage(a);
-                  return (
-                    <li
-                      key={a}
-                      className="band flex h-full flex-col gap-2 px-7 py-6"
-                      style={{ background: "var(--bg)" }}
-                    >
-                      <h3 className="text-[1.02rem] font-semibold leading-[1.3]">
-                        {page.name}
-                      </h3>
-                      <p className="text-[.93rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
-                        {page.line}
-                      </p>
-                    </li>
-                  );
-                })}
-              </ul>
+              <div className="flex max-w-[64ch] flex-col gap-5 text-[1.02rem] leading-[1.7]">
+                {absorbedProse(service.slug).map((para) => (
+                  <p key={para.slice(0, 40)}>{para}</p>
+                ))}
+              </div>
             </Reveal>
           </div>
         </section>
