@@ -4,7 +4,7 @@ import Link from "next/link";
 import Reveal from "@/components/Reveal";
 import SiteFooter from "@/components/SiteFooter";
 import JsonLd from "@/components/JsonLd";
-import { SERVICES, getService } from "@/lib/services";
+import { SERVICES, getService, CLUSTER_INLINE } from "@/lib/services";
 import { SITE_URL, breadcrumbSchema, serviceSchema } from "@/lib/schema";
 import { serviceGroupForEnSlug, serviceHreflang } from "@/lib/services-locale";
 
@@ -229,7 +229,7 @@ export default async function ServicePage({
           <Reveal>
             <p className="eyebrow mb-3">How the engagement runs</p>
             <h2 className="mb-10 max-w-[22ch] text-[clamp(1.7rem,3.2vw,2.5rem)] font-semibold leading-[1.12]">
-              How the {service.name} engagement runs
+              How the {service.inline} engagement runs
             </h2>
           </Reveal>
           <ol className="grid gap-px sm:grid-cols-2" style={{ background: "var(--rule)" }}>
@@ -253,7 +253,7 @@ export default async function ServicePage({
           <Reveal>
             <p className="eyebrow mb-3">The next step</p>
             <h2 className="mb-5 max-w-[24ch] text-[clamp(1.7rem,3.2vw,2.5rem)] font-semibold leading-[1.12]">
-              Find out what {service.name.toLowerCase()} is worth in your markets
+              Find out what {service.inline} could be worth in your markets
             </h2>
           </Reveal>
           <Reveal i={1}>
@@ -313,7 +313,7 @@ export default async function ServicePage({
         <section className={`band band-${siblingsBand} py-[clamp(56px,8vw,110px)]`}>
           <div className="shell">
             <Reveal>
-              <p className="eyebrow mb-6">Also in {service.cluster.toLowerCase()}</p>
+              <p className="eyebrow mb-6">Also in {CLUSTER_INLINE[service.cluster] ?? service.cluster}</p>
             </Reveal>
             <ul className="flex flex-wrap gap-x-8 gap-y-3">
               {siblings.map((s) => (

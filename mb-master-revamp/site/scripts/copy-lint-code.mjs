@@ -91,6 +91,19 @@ for (const path of files) {
   for (const re of EXEMPT) src = src.replace(re, "");
 
   const issues = [];
+
+  // HANDOFF.md section 4: a heading must be grammatical, so it can never be
+  // built by case-shifting a label. `name.toLowerCase()` turns SEO into seo
+  // and French into french; a label dropped in unchanged capitalises
+  // mid-sentence. Both shipped in an h2 on all nineteen service pages.
+  // Store the mid-sentence form instead (Service.inline, CLUSTER_INLINE).
+  // Eyebrows are exempt: they may carry the keyword-shaped approximation.
+  for (const m of src.matchAll(/<h[1-6][^>]*>([\s\S]*?)<\/h[1-6]>/g)) {
+    if (/\{[^}]*\.to(Lower|Upper)Case\(\)[^}]*\}/.test(m[1])) {
+      issues.push(["case-shifted heading", m[1].replace(/\s+/g, " ").trim()]);
+    }
+  }
+
   for (const line of copyStrings(src)) {
     for (const w of FORBIDDEN) {
       if (new RegExp(`\\b${w}\\b`, "i").test(line)) issues.push([`forbidden: ${w}`, line]);
