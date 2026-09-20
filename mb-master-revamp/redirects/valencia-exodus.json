@@ -155,9 +155,9 @@
   },
   {
    "from": "/fr/valencia-50-nuances-de-bruits/",
-   "to": "/fr/bruits-de-valencia/",
+   "to": "/fr/blog/bruits-de-valencia/",
    "confidence": "exact",
-   "note": "FR sibling of the above. Same VM article, FR slug per slug-translations.ts."
+   "note": "FR sibling of the above. Same VM article, FR slug per slug-translations.ts. Target corrected 20 Sep 2026: it read /fr/bruits-de-valencia/, which 404s. The article sits under /fr/blog/, and the missing segment was caught by fetching every exodus target before retiring the legacy posts."
   },
   {
    "from": "/fr/plages-de-valencia/",
