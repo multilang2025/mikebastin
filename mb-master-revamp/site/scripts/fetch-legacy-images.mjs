@@ -65,8 +65,23 @@ async function main() {
     }
 
     const bytes = Buffer.from(await res.arrayBuffer());
-    await sharp(bytes).resize({ width: 1200, withoutEnlargement: true }).webp({ quality: 74 }).toFile(full);
-    await sharp(bytes).resize(160, 84, { fit: "cover", position: "attention" }).webp({ quality: 72 }).toFile(thumb);
+
+    // A few of the January 2026 uploads were generated with the prompt
+    // still burned across the top. cropTop removes that band before
+    // anything else, so the derivative is clean and rebuildable.
+    let source = sharp(bytes);
+    if (image.cropTop) {
+      const meta = await sharp(bytes).metadata();
+      source = sharp(
+        await sharp(bytes)
+          .extract({ left: 0, top: image.cropTop, width: meta.width, height: meta.height - image.cropTop })
+          .toBuffer()
+      );
+    }
+    const cropped = await source.toBuffer();
+
+    await sharp(cropped).resize({ width: 1200, withoutEnlargement: true }).webp({ quality: 74 }).toFile(full);
+    await sharp(cropped).resize(160, 84, { fit: "cover", position: "attention" }).webp({ quality: 72 }).toFile(thumb);
     fetched++;
   }
 

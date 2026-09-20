@@ -7,10 +7,12 @@
  * post with no entry here, which is what a newly written post gets until
  * a picture is chosen for it.
  *
- * 57 entries for 56 posts: competitor-analysis-traffic-checklist is a
- * hand-built page rather than a post (HAND_BUILT_SLUGS in lib/posts.ts),
- * but it is a cluster pillar, so the journal index renders it beside the
- * others and it needs a picture on the same terms.
+ * 56 entries for 56 posts, which is a coincidence rather than a rule.
+ * competitor-analysis-traffic-checklist is a hand-built page rather than
+ * a post (HAND_BUILT_SLUGS in lib/posts.ts) and is here because it is a
+ * cluster pillar the journal index renders beside the others, while
+ * conversational-ai-chatbots-business is a post that is deliberately
+ * absent. See its note below.
  *
  * `legacy` records where each file came from, relative to
  * https://mikebastin.com/wp-content/uploads/, so the set can be rebuilt
@@ -32,6 +34,19 @@ export type BlogImage = {
   alt: string;
   /** Path under the legacy site's wp-content/uploads/. Provenance only. */
   legacy: string;
+  /**
+   * Pixels to remove from the top of the source before resizing.
+   *
+   * Several of the January 2026 uploads were generated with the prompt
+   * still burned into the image, so searcheverywherestrategy2026.jpg
+   * carries "CREATE: Unified Digital Strategy" across its top corner.
+   * The label sits on a plain wall above the subject, so cropping it off
+   * is a better fix than reaching for a different picture.
+   *
+   * scripts/fetch-legacy-images.mjs applies this, so the derivative can
+   * be rebuilt from the source and still come out clean.
+   */
+  cropTop?: number;
 };
 
 export const BLOG_IMAGES: Record<string, BlogImage> = {
@@ -49,7 +64,15 @@ export const BLOG_IMAGES: Record<string, BlogImage> = {
   "competitor-analysis": { width: 1200, height: 686, alt: "A desk with two open laptops, each showing an analytics dashboard", legacy: "2026/01/competitoranalysis.jpg" },
   "competitor-analysis-traffic-checklist": { width: 1200, height: 686, alt: "A fountain pen resting on a printed checklist, with reading glasses and a monitor showing a traffic dashboard behind", legacy: "2026/01/competitoranalysistrafficcheck.jpg" },
   "content-optimisation-for-spanish-users": { width: 1200, height: 482, alt: "A woman smiling at an outdoor cafe table on a Spanish street", legacy: "2024/10/spanish-users.jpg" },
-  "conversational-ai-chatbots-business": { width: 1200, height: 675, alt: "A tablet in an office showing a chatbot conversation with flags for several languages", legacy: "2026/04/conversational-ai-chatbots-business-practical-uses.webp" },
+  // conversational-ai-chatbots-business has no entry on purpose, so it
+  // falls back to PostArt. Its featured image was an AI-generated tablet
+  // mockup whose visible copy reads "Hello! How can bo help?" and
+  // "Hola! /Como pudo ayodrarte", with garbled Japanese beside it. Every
+  // other candidate in the media library for this post is from the same
+  // batch and no better: one is a wireframe robot, two carry a prompt
+  // label, and one repeats the broken Spanish. Publishing misspelt
+  // Spanish on a multilingual SEO site is worse than publishing no
+  // photograph, so it draws the wave until a real one exists.
   "digital-marketing-advisor": { width: 1200, height: 686, alt: "A man studying a flip chart that compares an advisor model with an agency model", legacy: "2026/01/digitalmarketingadvisoragencyd.jpg" },
   "eeat-vs-aeat-typo": { width: 1200, height: 666, alt: "A cover graphic reading EEAT versus AEAT, the typo that turns an SEO audit into a tax audit", legacy: "2026/01/EEAT-AEAT-1.jpg" },
   "email-marketing-hacks-boosting-open-rates-and-conversions": { width: 1200, height: 489, alt: "A laptop showing one unread email in an inbox, next to a cup of coffee", legacy: "2024/11/Email-Marketing-Hacks.jpg" },
@@ -80,7 +103,7 @@ export const BLOG_IMAGES: Record<string, BlogImage> = {
   "optimising-your-website-for-valencia-based-searches": { width: 1200, height: 504, alt: "Two women at a market stall, with a search box drawn across the photograph", legacy: "2025/01/local-seo-valencia.jpg" },
   "optimising-your-website-for-voice-search": { width: 1200, height: 542, alt: "A woman speaking into the microphone of her phone", legacy: "2024/12/voice-search.jpg" },
   "prompt-engineers": { width: 1000, height: 519, alt: "Hands typing on a laptop set on top of printed plans", legacy: "2025/08/prompt-engineers.jpg" },
-  "search-everywhere-strategy": { width: 1200, height: 686, alt: "A phone, a tablet and a laptop on a table, showing one interface across all three", legacy: "2026/01/searcheverywherestrategy2026.jpg" },
+  "search-everywhere-strategy": { width: 1200, height: 596, alt: "A phone, a tablet and a laptop on a table, showing one interface across all three", legacy: "2026/01/searcheverywherestrategy2026.jpg", cropTop: 100 },
   "seo-in-belgium": { width: 600, height: 338, alt: "A computer keyboard with one key carrying the Belgian flag and another a tick", legacy: "2024/10/Belgium-SEO-1.jpg" },
   "spanish-keyword-localisation": { width: 1200, height: 475, alt: "A search box graphic on a yellow background, filled with keyword tags", legacy: "2024/10/spanish-keyword-research.jpg" },
   "spanish-on-page-seo": { width: 1200, height: 509, alt: "A red Spanish hair comb and fan set against roses", legacy: "2024/10/Spanish-On-Page-SEO.jpg" },
