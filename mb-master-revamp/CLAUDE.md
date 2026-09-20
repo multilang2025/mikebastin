@@ -183,10 +183,25 @@ plan for EN and treat the other two as upside rather than as scope. Ten
 days from the decision. `docs/LAUNCH-CHECKLIST.md` holds the steps, and
 `npm run check:launch --live` is what says whether the site can actually go.
 
-Still open, and only the owner can answer it: one line on what
-mikebastin.com is commercially for this quarter. It decides what the
-homepage argues and what the remaining thin service pages lead with, so it
-is worth answering before those pages are written to a guess.
+**What the site is selling** (owner, 20 Sep): **ongoing multilingual SEO,
+for companies already selling abroad whose non-English markets
+underperform.** Localisation, paid search and AI consulting are the work
+around it rather than four peers competing for the same slot. The
+homepage's "what we do" section names that audience directly now, and it
+is the tie-breaker whenever a page has to decide what to lead with.
+
+**Billing is a positioning point, not a footnote** (owner, 20 Sep). Where
+an engagement includes paid search, the media budget goes straight to
+Google, Microsoft or Meta, so there is no markup on spend and no reason
+for the recommendation to be a bigger budget; management is charged as its
+own fee. Carried from the legacy multilingual-sem page, confirmed by the
+owner, and now on three pages: multilingual-sem, lead-generation and
+how-i-work.
+
+Deliberately **not** extended to translation or localisation delivery. The
+claim as written is about media spend, and whether anything similar is
+true of work passing through the BeTranslated network is not something the
+legacy pages say. Ask before widening it.
 
 **FR and ES are deferred** (owner, 20 Sep). Do not build new French or
 Spanish surfaces for now. Flagged rather than forgotten, so the gaps are

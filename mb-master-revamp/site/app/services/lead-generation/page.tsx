@@ -117,6 +117,15 @@ export default function LeadGenerationPage() {
               and better enquiries is winning, and a pooled figure would
               have shown it losing.
             </p>
+            <p className="max-w-[62ch] text-[1.05rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
+              The billing is arranged the same way round. Where an engagement
+              includes paid search, the media budget goes straight to Google,
+              Microsoft or Meta rather than through us, so there is no markup
+              on spend and no reason for the recommendation to be a bigger
+              budget. Management is charged as its own fee, which keeps the
+              incentive on whether the enquiries arrive rather than on how
+              much it costs to chase them.
+            </p>
           </Reveal>
         </div>
       </section>
