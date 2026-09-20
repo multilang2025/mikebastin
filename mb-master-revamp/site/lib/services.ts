@@ -66,6 +66,12 @@ export type Service = {
    * written fresh rather than adapted.
    */
   body?: { heading: string; paragraphs: string[] }[];
+  /**
+   * Collapsible detail, for an absorbed article's substance. Keeps the depth
+   * a consolidated page needs without the scroll, and keeps the absorbed
+   * material indexable, since a closed <details> is still in the HTML.
+   */
+  expandables?: { q: string; a: string[] }[];
   /** Legacy slugs this page absorbs, each 301ing in the same locale. */
   absorbs?: string[];
   gsc?: { impressions: number; position: number; keywords: number };
@@ -624,6 +630,71 @@ export const SERVICES: Service[] = [
     lede: "ChatGPT, Perplexity and Google's AI Overviews answer a question directly and name a small number of sources while doing it. Structured data, citation-worthy claims and a presence across the platforms people actually ask, so the answer names you.",
     metaTitle: "Generative engine optimisation and AEO, Mike Bastin",
     metaDescription: "ChatGPT, Perplexity and Google AI Overviews name a small number of sources when they answer a question. See what it takes for the answer to name you.",
+    expandables: [
+      {
+        q: "Optimise for search everywhere, not only for Google",
+        a: [
+          "Buyers now ask ChatGPT, Perplexity, Bing and a voice assistant before they ask Google, and each one assembles its answer differently. A page written only to rank on one of them is invisible on the rest.",
+          "Presence across the platforms your market actually uses, with one voice rather than a different claim in each place, because an answer engine that finds you contradicting yourself cites somebody else.",
+        ],
+      },
+      {
+        q: "Write for the question, not for the keyword",
+        a: [
+          "An answer engine reads a conversational question and returns a direct response. Matching a two-word keyword does nothing for it.",
+          "Longer, spoken-shaped phrases, and the related terms around them, so the page answers the whole question rather than repeating its title.",
+        ],
+      },
+      {
+        q: "Make the experience and expertise visible",
+        a: [
+          "Experience, expertise, authoritativeness and trust still decide what gets quoted, and an answer engine has no way to infer any of it from an anonymous page.",
+          "Named authors with a real record, claims a model can check, and dates that show the page is maintained rather than abandoned.",
+        ],
+      },
+      {
+        q: "Structure the data so a machine can read it",
+        a: [
+          "Schema is how a retrieval system works out what a page is about before deciding whether to cite it. Without it, the page is prose to be guessed at.",
+          "Types that match what the page really is, validated rather than assumed, and never marked up with claims the page does not make.",
+        ],
+      },
+      {
+        q: "Earn citations from sources a model already trusts",
+        a: [
+          "Answer engines lean on the same authority signals search does, so a page nobody references is a page nobody quotes.",
+          "Coverage from publications in your market, and material worth referencing on its own, rather than links bought by the thousand.",
+        ],
+      },
+      {
+        q: "Keep the page fast and readable",
+        a: [
+          "A page people leave immediately teaches every ranking and retrieval system the same thing about it.",
+          "Quick loads, a structure someone can scan, and enough reason to stay past the first screen.",
+        ],
+      },
+      {
+        q: "Re-test as the models change",
+        a: [
+          "The answer engines rewrite their retrieval behaviour on no schedule you control, and a tactic that worked last quarter can stop without warning.",
+          "Regular checks on which platforms name you and for which questions, then changing the approach rather than repeating it.",
+        ],
+      },
+      {
+        q: "Watch who is being cited instead of you",
+        a: [
+          "In an AI answer there is no second page, so the only useful question is who is named and why.",
+          "Tracking the sources your market's answers cite, and closing the specific gap that puts them there.",
+        ],
+      },
+      {
+        q: "Measure enquiries, not mentions",
+        a: [
+          "Being cited is not the point. Being cited by the people who then get in touch is.",
+          "Reporting that ties visibility in AI answers back to enquiries per market, so the work is judged on what it brought in.",
+        ],
+      },
+    ],
     sections: [
       "Answer-shaped content: claims a model can quote and cite",
       "Schema and structured data built for AI retrieval, not just crawlers",

@@ -938,7 +938,7 @@
    "tier": null,
    "action": "migrate",
    "destination": "mdx",
-   "absorbed_into": null,
+   "absorbed_into": "services/generative-engine-optimization",
    "vm_action": null,
    "vm_target_url": null,
    "en": {
@@ -958,6 +958,9 @@
     "slug": "optimizar-para-seo-y-geo",
     "url": "https://mikebastin.com/es/optimizar-para-seo-y-geo/",
     "content_path": "site/content/es/posts/optimizar-para-seo-y-geo.md"
+   },
+   "locale_actions": {
+    "en": "absorb"
    }
   },
   {

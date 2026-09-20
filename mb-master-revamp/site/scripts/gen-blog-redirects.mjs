@@ -41,7 +41,12 @@ const slugs = cm.groups
   .filter(
     (g) =>
       g.type === "post" &&
-      g.action === "migrate" &&
+      // Per-locale override wins over the group action (lib/content-locale.ts).
+      // g046 stays "migrate" for its FR and ES siblings while its EN article
+      // is absorbed, and without this the EN legacy URL got two conflicting
+      // rules: one to the service page, one to a blog post that no longer
+      // builds.
+      (g.locale_actions?.en ?? g.action) === "migrate" &&
       g.destination === "mdx" &&
       g.en &&
       !HAND_BUILT_SLUGS.includes(g.en.slug)
