@@ -35,15 +35,29 @@ type ContentMapGroup = {
   en: ContentMapLocaleEntry;
   fr: ContentMapLocaleEntry;
   es: ContentMapLocaleEntry;
+  /**
+   * Overrides `action` for one locale only. Added when the EN article in
+   * g046 was absorbed into /services/generative-engine-optimization/ while
+   * its FR and ES siblings had to stay published, because no FR or ES GEO
+   * service page exists to absorb them into. Without this, absorbing the
+   * group took all three locales down at once.
+   */
+  locale_actions?: Partial<Record<Locale, string>>;
 };
+
+/** The action in force for one locale: its override, else the group's. */
+export function actionForLocale(g: ContentMapGroup, locale: Locale): string {
+  return g.locale_actions?.[locale] ?? g.action;
+}
 
 /**
  * Groups qualifying for a live page in `locale`, for a given content-map
  * `type` ("post" or "service"; defaults to "post" for every existing
- * caller). A group's action/destination is set once for the whole group,
- * not per locale (see content-map.json), so a group slated to relocate to
- * valenciamove.com or retire is excluded in every locale even though its
- * .md file may still sit in the repo.
+ * caller). A group's action/destination is normally set once for the whole
+ * group, so a group slated to relocate to valenciamove.com or retire is
+ * excluded in every locale even though its .md file may still sit in the
+ * repo. `locale_actions` narrows that to a single locale where the
+ * consolidation only applies to one of them.
  */
 export function qualifyingGroupsForLocale(
   locale: Locale,
@@ -54,6 +68,12 @@ export function qualifyingGroupsForLocale(
   };
   const groups = contentMap.groups;
   return groups
-    .filter((g) => g.type === type && g.action === "migrate" && g.destination === "mdx" && g[locale])
+    .filter(
+      (g) =>
+        g.type === type &&
+        actionForLocale(g, locale) === "migrate" &&
+        g.destination === "mdx" &&
+        g[locale]
+    )
     .map((g) => ({ group: g.group, slug: g[locale]!.slug, contentPath: g[locale]!.content_path }));
 }

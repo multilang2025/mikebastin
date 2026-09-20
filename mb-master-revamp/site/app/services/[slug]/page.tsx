@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import Reveal from "@/components/Reveal";
 import SiteFooter from "@/components/SiteFooter";
+import Expandables from "@/components/Expandables";
 import JsonLd from "@/components/JsonLd";
 import { SERVICES, getService, CLUSTER_INLINE } from "@/lib/services";
 import { SITE_URL, breadcrumbSchema, serviceSchema } from "@/lib/schema";
@@ -80,6 +81,8 @@ export default async function ServicePage({
   const gscBand = service.gsc ? nextBand() : undefined;
   const demandBand = service.demand ? nextBand() : undefined;
   const bodyBand = service.body && service.body.length > 0 ? nextBand() : undefined;
+  const expandablesBand =
+    service.expandables && service.expandables.length > 0 ? nextBand() : undefined;
   const engagementBand = nextBand();
   const ctaBand = nextBand();
   const absorbsBand = service.absorbs && service.absorbs.length > 0 ? nextBand() : undefined;
@@ -219,6 +222,28 @@ export default async function ServicePage({
                 </div>
               </Reveal>
             ))}
+          </div>
+        </section>
+      )}
+
+      {/* ============ ABSORBED DETAIL, COLLAPSED ============ */}
+      {service.expandables && service.expandables.length > 0 && (
+        <section className={`band band-${expandablesBand} py-[clamp(56px,8vw,110px)]`}>
+          <div className="shell">
+            <Reveal>
+              <p className="eyebrow mb-3">Open what you need</p>
+              <h2 className="mb-4 max-w-[24ch] text-[clamp(1.7rem,3.2vw,2.5rem)] font-semibold leading-[1.12]">
+                What changes when the answer is written for you
+              </h2>
+              <p className="mb-8 max-w-[60ch] text-[1.02rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
+                Nine shifts, folded in from the article this page absorbed.
+                Collapsed so the page stays short, and in the HTML either way,
+                so a crawler or an answer engine still reads them.
+              </p>
+            </Reveal>
+            <Reveal i={1}>
+              <Expandables items={service.expandables} />
+            </Reveal>
           </div>
         </section>
       )}
