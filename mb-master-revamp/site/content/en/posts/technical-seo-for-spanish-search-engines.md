@@ -28,8 +28,6 @@ It’s crucial to ensure a **logical site structure** for Spanish users, focusin
 
 Whether your audience is in Madrid or Valencia, local habits can have an impact on how they engage with your site.
 
-!Technical SEO for Spanish search engines
-
 ### Keyword research for Spanish search engines: building the blueprints
 
 **National and Regional Differences**: [Keyword research](/services/technical-seo/) needs to accommodate the differences between Spanish spoken in Spain and Latin American variants. Targeting the right **localised keywords** helps attract relevant traffic.
@@ -107,8 +105,6 @@ High: effective in Spanish markets, requires user-generated keyword input
 -   [According to StatCounter](https://gs.statcounter.com/platform-market-share/desktop-mobile-tablet/spain), as of January 2025, mobile devices account for **58.95%** of internet usage in Spain, desktops for **39.14%**, and tablets for **1.91%**. Spain’s high smartphone penetration rate (nearly [**90%** of the population actively using smartphones](https://www.businessofapps.com/data/spain-app-market/)) highlights the importance of optimising digital strategies for mobile users[5](https://www.businessofapps.com/data/spain-app-market/). 
 -   For certain content categories like portals (69%), business/finance (58%), and entertainment/news (51%), mobile usage exceeds desktop.
 -   Desktop still dominates for categories like online gaming (88%), photos (92%), and maps (94%)
-
-!
 
 ### Site speed and performance: building a strong infrastructure
 
@@ -245,8 +241,6 @@ Increases chances of appearing in recipe searches, attracting food enthusiasts.
 
 **Improvement Tips:** Focus on meeting Google’s thresholds for **LCP (Largest Contentful Paint)**, **FID (First Input Delay)**, and **CLS (Cumulative Layout Shift)**, as these metrics directly influence user satisfaction in Spain.
 
-!
-
 ### Technical SEO tools for Spanish markets: the architect’s toolbox
 
 **SEO Tools Specific to Spain:** Tools like **Google Search Console**, **SISTRIX**, and **Oncrawl** are essential for **site audits** and **performance monitoring**.
@@ -260,8 +254,6 @@ Increases chances of appearing in recipe searches, attracting food enthusiasts.
 **Spanish-Specific User Behaviour:** Understanding user behaviour in Spain, including how users engage differently depending on their region, is key to effectively targeting the market.
 
 **Keyword Differences Across Spanish Regions:** A **map of Spain** highlighting differences in keyword usage for **Castilian Spanish, Catalan, and Basque** regions, providing insight into the importance of localised keywords.
-
-!technical-seo-spanish-search-engine
 
 ### Monitoring, auditing, and adaptation: the ongoing work of SEO
 

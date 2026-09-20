@@ -124,4 +124,3 @@ By listing your business, optimising your profile, handling reviews, and utilizi
 
 Whether you’re a service-based business or a physical store, **how to promote your local business on Google Maps** comes down to visibility, engagement, and providing a great customer experience both online and offline.
 
-!Looking to Boost Local Visibility? 

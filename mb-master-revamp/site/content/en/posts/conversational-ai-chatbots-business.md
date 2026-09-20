@@ -12,8 +12,6 @@ sourceUrl: "https://mikebastin.com/conversational-ai-chatbots-business/"
 excerpt: "AI chatbots are changing how businesses communicate with customers, generate leads and handle support. From multilingual customer service to AI-driven sales conversations, conversational AI keeps a company available around the clock while reducing repetitive tasks."
 ---
 
-!Article header image
-
 ## Conversational AI has moved from novelty to necessity
 
 Conversational AI has moved from novelty to necessity.

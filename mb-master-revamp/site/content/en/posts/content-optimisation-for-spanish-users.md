@@ -337,8 +337,6 @@ Schedule a consultation to discuss how we can help you achieve measurable result
 
 ### Content optimisation for Spanish users overview
 
-!content optimisation for spanish users
-
 ### Why is [content localisation](/services/website-localisation/) important for Spanish audiences?
 
 Localisation goes beyond translation to ensure content is culturally relevant and resonates emotionally with different regions of Spain.
