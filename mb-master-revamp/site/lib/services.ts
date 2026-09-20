@@ -766,6 +766,46 @@ export const SERVICES: Service[] = [
         ],
       },
     ],
+    expandablesHeading: "What the map pack actually rewards",
+    expandablesLede:
+      "Local search is mostly discipline rather than tricks, and the discipline is specific.",
+    expandables: [
+      {
+        q: "The profile is a product surface, not a listing",
+        a: [
+          "Categories, services, attributes, opening hours, photos, posts and the questions people ask, all filled in and all kept current. A profile finished once and left alone decays against competitors who update theirs, and in a city with more than one working language the profile needs the second one too.",
+          "It compounds rather than spikes. Done consistently for a few months it moves you up the map pack quietly, which is unsatisfying to watch and the reason most businesses stop.",
+        ],
+      },
+      {
+        q: "Name, address and phone number, identical everywhere",
+        a: [
+          "Google reads your details from dozens of places and a mismatch between them is a reason to trust none of them. The work is an audit of what is already out there, correction of the inconsistencies, removal of duplicate listings, and additions where a high-value local source is missing you entirely: the chamber of commerce, the sector association, the directory your trade actually uses.",
+          "Unglamorous, and the single most common reason a business with good pages does not appear on the map.",
+        ],
+      },
+      {
+        q: "Neighbourhood pages that are not the same page nine times",
+        a: [
+          "A page per district works when each one says something true about that district and fails when it is the same paragraph with the place name swapped. Search has been able to tell the difference for years, and so can a reader.",
+          "Local schema belongs on them, with the right subtype rather than the generic one: a law firm is a LegalService, a freight forwarder is a FreightForwarder. Internal links from the main service pages are what make them findable at all.",
+        ],
+      },
+      {
+        q: "Reviews are a process or they are luck",
+        a: [
+          "A request that goes out after the job is done, by email or from a code on the receipt, collects reviews. Hoping collects nothing. Every review gets a reply, including the bad ones, because the reply is read by everyone who comes after.",
+          "A negative review handled well reads better than a wall of five stars, and there should be a written plan for it before one arrives rather than a scramble afterwards.",
+        ],
+      },
+      {
+        q: "Local discovery has moved into the assistants",
+        a: [
+          "A growing share of best-in-town questions get asked of ChatGPT, Claude or Perplexity before anyone opens a map. What those answers draw on is the same material: structured data, consistent citations, and a reputation visible enough to be summarised.",
+          "Which means the work above pays twice, and a business that skipped it is now missing from two places rather than one.",
+        ],
+      },
+    ],
     absorbs: ["local-seo"],
     demand: {
       volume: 134000,
@@ -989,6 +1029,39 @@ export const SERVICES: Service[] = [
         ],
       },
     ],
+    expandablesHeading: "Where AI earns its place, and where it does not",
+    expandablesLede:
+      "The parts of a multilingual operation worth automating, and the part that still needs a person.",
+    expandables: [
+      {
+        q: "Machine translation with somebody reading the output",
+        a: [
+          "Modern engines are good enough that translating everything by hand is hard to justify, and not good enough that publishing the output unread is safe. The workable setup is an engine chosen and tuned for your subject matter, with a native editor on the material that carries risk and a lighter pass on the material that does not.",
+          "The saving is real and it comes from deciding which content is which, rather than from trusting the engine further than it deserves.",
+        ],
+      },
+      {
+        q: "Support that answers in the language the question arrived in",
+        a: [
+          "A multilingual assistant on the site handles the repetitive questions in each market without a support team per language, and hands over cleanly when it does not know. Built on your own material rather than on a general model's guesswork, so it answers about your products instead of about the category.",
+          "Where it goes wrong is confidence: an assistant that invents an answer in a language nobody on your team reads will do it for months before anyone notices.",
+        ],
+      },
+      {
+        q: "Reading what the market is saying, at a volume a person cannot",
+        a: [
+          "Sentiment and theme analysis across reviews, support tickets and social mentions per language, which is where the gap between what a market says and what you assume it wants tends to show up first.",
+          "A complaint pattern that appears in one language and not the others is usually a localisation defect rather than a product one, and it is invisible in a blended report.",
+        ],
+      },
+      {
+        q: "How to tell whether any of it worked",
+        a: [
+          "Accuracy on a sample somebody checks, turnaround time, cost per published page, and whether the people using the output would go back to working without it. Market-level numbers alongside those, because a saving in one language and a mess in another nets out to nothing on a dashboard.",
+          "An automation that saves time and costs trust has not saved anything, and that shows up in the enquiry count rather than in the tooling report.",
+        ],
+      },
+    ],
     absorbs: ["ai-consulting-services"],
   },
   {
@@ -1014,6 +1087,39 @@ export const SERVICES: Service[] = [
         paragraphs: [
           "Terminology errors and unnatural phrasing corrected against a defined glossary per sector, formatting and tone standardised across languages so the brand voice holds, and consistency checked against the SEO targets the content was meant to hit in the first place, since a post-edit that fixes the grammar but drifts off the target keyword defeats its own purpose.",
           "Work runs across sectors that lean on AI output to scale quickly, particularly SaaS, ecommerce and travel, where the volume of content makes full native writing impractical but the accuracy bar is still commercial, not casual.",
+        ],
+      },
+    ],
+    expandablesHeading: "What a post-editing pass actually changes",
+    expandablesLede:
+      "The defects machine output leaves behind, in the order a reader meets them.",
+    expandables: [
+      {
+        q: "Grammar is the easy half",
+        a: [
+          "Engines rarely produce a sentence that is wrong any more. They produce sentences that are correct and slightly off: a register too formal for the market, an idiom translated rather than replaced, a rhythm that reads as translated even when nobody can point at the word responsible.",
+          "Fixing that is an editorial job, not a proofreading one, and it is the difference between content a reader trusts and content they finish without knowing why they did not.",
+        ],
+      },
+      {
+        q: "Plugin auto-translation and where it stops",
+        a: [
+          "Weglot, WPML and Polylang will fill a site with translated strings quickly, and the result is usable and unfinished. The prose gets attention because it is visible; the parts that are not visible rarely do.",
+          "So the pass covers what the plugin touched and the reader does not see: title tags, meta descriptions, alt text, button labels, form validation messages and confirmation emails. A page can read beautifully in French and still apologise in English when a form fails.",
+        ],
+      },
+      {
+        q: "Terminology has to be decided once",
+        a: [
+          "An engine translates the same term three different ways across a site because it sees each sentence alone. For a product name, a legal term or anything a customer will search for, that is three chances to be wrong and no chance to rank.",
+          "The pass settles the term per language and applies it everywhere, which matters most on the pages where a sale happens and least on the blog.",
+        ],
+      },
+      {
+        q: "Where machine output should not go unread at all",
+        a: [
+          "Anything a regulator, a court or a clinician reads. Medical documentation, legal text, financial reporting and safety instructions all have the property that a plausible-sounding error costs more than a delay does.",
+          "Machine output is a good first draft there and a bad final one, and the honest answer is a specialist reading it rather than a faster engine.",
         ],
       },
     ],
