@@ -738,3 +738,50 @@ accent colours anywhere on the site, not just in that graphic.
 `design-guardian` enforcement updates accordingly: the locked palette is
 now bg/ink/dim/berry/berry-deep/berry-soft/deep/rule only. Flag any
 `--gold`, `--gold-soft` or `--silver` reference in a diff as a violation.
+
+---
+
+## 27. LEGACY RETIREMENT — DONE, AND THE RULE IT ESTABLISHED (20 Sep 2026)
+
+42 legacy WordPress posts retired: 31 whose content relocated to
+valenciamove.com, 8 retired outright, 2 absorbed, plus
+business-registration-in-valencia (owner call the same day). All 42 now
+return a single-hop 301 to a live 200, verified end to end.
+
+**Two things had to happen, in order.** A Rank Math row in
+`wp_rank_math_redirections`, then the post unpublished. A redirect is
+inert while WordPress still serves the post, so inserting rows changes
+nothing visible until the unpublish, and the unpublish without the rows
+would 404 every URL.
+
+**The rule, learned the hard way:** the legacy redirect rows must be
+derived from the generated `site/public/.htaccess`, never from
+`redirects/content-map.json` directly.
+
+The first pass built them from content-map's `absorbed_into`, which said
+boosting-local-seo absorbs into optimise-a-google-business-profile. That
+is the correct editorial fact, and the wrong routing fact, because
+optimise-a-google-business-profile was itself on the retire list. Legacy
+ended up with a two-hop chain landing on the generic `/blog/` index.
+
+`scripts/gen-prune-redirects.mjs` already knew better: it carries an
+explicit override sending both to `/services/local-seo/`, with "no
+redirect chains" stated as a rule at the top of the file. The new site
+was right the whole time. Only the hand-derived legacy rows were wrong,
+and they were fixed to match.
+
+**A second trap worth recording:** target verification must run against
+the state *after* the change, not before. All 42 targets were checked
+and returned 200, which is exactly why the chain passed — at that moment
+optimise-a-google-business-profile was still published. Re-check targets
+once the retirement is applied.
+
+Mechanics that cost time and are worth reusing: Rank Math's REST
+endpoint for redirections returns a fake success and writes nothing, so
+direct SQL is the only route; the site registers no Abilities API
+handler for it either. The SQL statement splitter counts literal
+semicolons, and PHP-serialised `sources` is full of them, so build the
+value with `CHAR(59)` for `;` and `CHAR(34)` for `"` and the statement
+needs no escaping at all. Every declared `s:N:` must match the byte
+length of the string that follows, so compute it in code rather than
+counting.
