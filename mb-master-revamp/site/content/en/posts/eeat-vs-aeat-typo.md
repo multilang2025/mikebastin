@@ -12,9 +12,9 @@ sourceUrl: "https://mikebastin.com/eeat-vs-aeat-typo/"
 excerpt: "A single typo can turn an SEO audit into a tax audit when you work as an international SEO in Spain. Discover how confusing EEAT with AEAT creates panic, dark humour, and very real professional lessons. Read the story and join the community of SEOs navigating Google guidelines and Spanish bureaucracy at the same time."
 ---
 
-![EEAT-AEAT](https://mikebastin.com/wp-content/uploads/2026/01/EEAT-AEAT-1-1024x568.jpg)
+!EEAT-AEAT
 
-## How a Single Letter Almost Cost a Spanish Law Firm Its SEO Strategy
+## How a single letter almost cost a Spanish law firm its SEO strategy
 
 We optimise EEAT for a Spanish law firm.
 
@@ -138,41 +138,41 @@ Which is where our meme gallery begins.
 
 ### Meme 1. The accidental typo
 
-![](https://mikebastin.com/wp-content/uploads/2026/01/meme_1_accidental_typo.png-1024x559.jpeg)
+!
 
 * * *
 
 ### Meme 2. Two doors
 
-![](https://mikebastin.com/wp-content/uploads/2026/01/meme_2_two_doors-1024x559.jpeg)
+!
 
 * * *
 
 ### Meme 3. Google meets the tax office
 
-![](https://mikebastin.com/wp-content/uploads/2026/01/meme_3_google_tax_swap-1024x559.jpeg)
+!
 
 * * *
 
 ### Meme 4. The SEO report vs the tax report
 
-![](https://mikebastin.com/wp-content/uploads/2026/01/meme_4_seo_vs_tax_report-1024x559.jpeg)
+!
 
 * * *
 
 ### Meme 5. Autocomplete disaster
 
-![](https://mikebastin.com/wp-content/uploads/2026/01/meme_5_autocomplete_disaster-1024x559.jpeg)
+!
 
 ### Meme 6. The conference badge
 
-![](https://mikebastin.com/wp-content/uploads/2026/01/meme_6_conference_badge-1024x559.jpeg)
+!
 
 * * *
 
 ### Meme 7. Brain short circuit
 
-![](https://mikebastin.com/wp-content/uploads/2026/01/meme_7_website_footer-1024x559.jpeg)
+!
 
 * * *
 
@@ -230,4 +230,4 @@ And never send an email promising AEAT optimization to a client.
 
 Unless you really mean it.
 
-## If you enjoyed this painfully familiar story, follow our work on [international SEO strategy](https://mikebastin.com/best-practices-for-multilingual-seo/) and multilingual content optimization. More real life SEO survival stories coming soon. You are not alone in the acronym battlefield.
+## If you enjoyed this painfully familiar story, follow our work on [international SEO strategy](/blog/best-practices-for-multilingual-seo/) and multilingual content optimization. More real life SEO survival stories coming soon. You are not alone in the acronym battlefield.

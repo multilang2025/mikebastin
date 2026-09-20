@@ -12,7 +12,7 @@ sourceUrl: "https://mikebastin.com/link-selling-and-link-buying-platforms/"
 excerpt: "Platforms for buying and selling backlinks, and what each one delivers for marketers, agencies and site owners."
 ---
 
-## Link Buying and Selling Platforms in 2026: An Honest Working List
+## Link buying and selling platforms in 2026: an honest working list
 
 We have been buying and selling links for 25 years. We know which platforms produce links that hold and which ones produce links that get penalised in the next core update.
 
@@ -34,7 +34,7 @@ Cold outreach has a 2 to 5 percent response rate on a good campaign. You send 10
 
 Marketplaces compress the discovery, negotiation, and placement steps into a few clicks. Pricing is upfront. The publisher has already agreed to placements in principle. The marketplace handles invoicing, escrow, and dispute resolution. It is not better SEO. It is just faster operations.
 
-## What SpamBrain changed and why cheap links stopped working
+## What spamBrain changed and why cheap links stopped working
 
 Until 2022, Google’s link spam detection was patchy. PBNs worked. Cheap directory links worked. Mass guest post networks worked. [Google’s December 2022 link spam update](https://developers.google.com/search/blog/2022/12/december-2022-link-spam-update) changed all of that.
 
@@ -62,13 +62,13 @@ The same checks apply across every marketplace. The platform name matters less t
 
 Guest posting service and SEO marketplace that connects advertisers with publishers. Offers placements from sites with Domain Authority 40 and above.
 
-### Authority Builders
+### Authority builders
 
 [authoritybuilders.com](https://authoritybuilders.com)
 
 Operating since 2016, Authority Builders has built relationships with webmasters across multiple niches. Placements come from real sites with genuine traffic.
 
-### Backlink Boss
+### Backlink boss
 
 [backlinkboss.com](https://backlinkboss.com)
 
@@ -80,7 +80,7 @@ Specialises in high Domain Authority backlinks with contextual dofollow placemen
 
 Full-feature platform for buying and selling backlinks with a professional interface. Requires an account to explore full inventory.
 
-### Backlinks.com
+### Backlinks.Com
 
 [backlinks.com](https://backlinks.com)
 
@@ -104,7 +104,7 @@ French and Spanish netlinking platform offering sponsored articles at competitiv
 
 PR distribution marketplace with 38,000+ websites and 3,000+ Telegram channels across multiple languages. Advanced filtering with 40+ parameters, real Google Analytics data and a direct Ahrefs connection.
 
-### Dofollow.com
+### Dofollow.Com
 
 [dofollow.com](https://dofollow.com)
 
@@ -140,7 +140,7 @@ Range of digital marketing services including link building, content creation an
 
 Community-based netlinking platform with a mission-based system for acquiring backlinks. Collaborative approach to link building.
 
-### Link Finder
+### Link finder
 
 [link-finder.net](https://link-finder.net)
 
@@ -222,10 +222,10 @@ Spanish platform for appearing in media outlets to improve SEO and brand visibil
 
 We help clients build link portfolios that hold up through algorithm updates. The platforms above are tools. Whether they work for you depends on what you actually need: niche relevance, language coverage, anchor text distribution, or genuine editorial reach. Twenty-five years of SEO experience put to work on your specific situation.
 
-[Get in touch](https://mikebastin.com/contact-us/)
+[Get in touch](/contact/)
 
 ## Bottom line on link platforms in 2026
 
 The link economy continues to operate. Marketplaces are bigger than ever. But the cost-benefit equation has shifted. Cheap links waste your budget. Expensive editorial placements still work. The middle ground is where most agencies waste client money.
 
-For more on building authority that holds up, see our work on [link building services](https://mikebastin.com/services/link-building/), [competitor backlink analysis](https://mikebastin.com/competitor-analysis/), and [local link building in Spain](https://mikebastin.com/link-building-in-spain/).
+For more on building authority that holds up, see our work on [link building services](/services/technical-seo/), [competitor backlink analysis](/blog/competitor-analysis/), and [local link building in Spain](/blog/link-building-in-spain/).

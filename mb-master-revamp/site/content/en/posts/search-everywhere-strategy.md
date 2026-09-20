@@ -32,7 +32,7 @@ Combine this with a **complete multilingual SEO strategy** to capture high-inten
 -   **Multilingual ≠ translation:** Localised content must align with regional search behaviour and hreflang best practices.
 -   **Facts beat fluff:** Structured data and explicit facts increase AI citation accuracy far more than narrative prose.
 
-Need help implementing this? Explore our [multilingual SEO services](https://mikebastin.com/services/multilingual-seo/) to build a unified search everywhere presence.
+Need help implementing this? Explore our [multilingual SEO services](/services/multilingual-seo/) to build a unified search everywhere presence.
 
 ## The end of the Google monopoly
 
@@ -72,15 +72,15 @@ Navigational queries
 
 E-E-A-T + technical SEO
 
-## Mastering Generative Engine Optimization (GEO)
+## Mastering generative engine optimization (GEO)
 
 GEO optimises content for AI models that synthesise answers, not rank pages.
 
-To be cited by ChatGPT or Perplexity, your content must be machine-readable, fact-dense, and structured for easy extraction. See our [GEO framework](https://mikebastin.com/generative-engine-optimization/) for implementation guidance.
+To be cited by ChatGPT or Perplexity, your content must be machine-readable, fact-dense, and structured for easy extraction. See our [GEO framework](/services/generative-engine-optimization/) for implementation guidance.
 
 AI prioritises credibility over marketing. Use tables, lists, and explicit data points. Avoid salesy language. As agencies like [First Page Sage](https://firstpagesage.com/seo-blog/the-top-generative-engine-optimization-geo-agencies-of-2025/) confirm, citation frequency is the new backlink.
 
-Want AI to recommend you? Discover our [GEO services](https://mikebastin.com/generative-engine-optimization/).
+Want AI to recommend you? Discover our [GEO services](/services/generative-engine-optimization/).
 
 ## Social platforms as vertical search engines
 
@@ -98,17 +98,17 @@ Treat each platform as a unique search ecosystem. Hashtags, captions, and on-scr
 
 ## Multilingual SEO in a fragmented world
 
-International expansion demands more than translation. Dutch, Spanish, and German users search differently, even within Europe. Apply [multilingual SEO best practices](https://mikebastin.com/best-practices-for-multilingual-seo/) to align with local intent.
+International expansion demands more than translation. Dutch, Spanish, and German users search differently, even within Europe. Apply [multilingual SEO best practices](/blog/best-practices-for-multilingual-seo/) to align with local intent.
 
 Technical execution matters: use hreflang tags and country-code domains (.de, .es) to signal local authority. The [BeTranslated network](https://www.betranslated.com) dominates European markets through this approach.
 
 For AI, local expertise is non-negotiable. Firms like [Delaguía y Luzón](https://delaguialuzon.com) rank across four languages by offering legally precise, regionally relevant content, securing visibility in Valencia, Brussels, and beyond.
 
-Planning global growth? Discuss your [multilingual SEO strategy](https://mikebastin.com/services/multilingual-seo/) with us.
+Planning global growth? Discuss your [multilingual SEO strategy](/services/multilingual-seo/) with us.
 
 ## Building machine-readable content
 
-In 2026, content must serve machines as well as humans. Use clear headings, schema markup, and explicit data to reduce AI ambiguity. Follow a [technical SEO audit checklist](https://mikebastin.com/technical-seo-audit-checklist/) to ensure infrastructure supports GEO.
+In 2026, content must serve machines as well as humans. Use clear headings, schema markup, and explicit data to reduce AI ambiguity. Follow a [technical SEO audit checklist](/blog/technical-seo-audit-checklist/) to ensure infrastructure supports GEO.
 
 Schema.org is now essential. Implement FAQPage, Organization, and Product schema so AI models like Gemini can map your expertise into knowledge graphs.
 
@@ -128,7 +128,7 @@ The goal: omnipresence. Whether you’re [Bemelman Spuiterij](https://bemelmansp
 
 Ready to dominate AI search?
 
-[Schedule a GEO strategy session](https://mikebastin.com/services/ai-consulting-services/) to future-proof your presence.
+[Schedule a GEO strategy session](/services/ai-consulting/) to future-proof your presence.
 
 ## Frequently asked questions
 
@@ -162,6 +162,6 @@ Traditional SEO won’t get you cited by ChatGPT in 2026. You need visibility ac
 
 Request a GEO audit to see how AI currently views your brand, and how to become its recommended expert. We combine technical precision with multilingual reach to generate high-ticket B2B leads.
 
-**[Start your GEO journey →](https://mikebastin.com/services/ai-consulting-services/)**
+**[Start your GEO journey →](/services/ai-consulting/)**
 
-Not ready? Read our guide on **[the future of SEO in 2025](https://mikebastin.com/future-of-seo/)**.
+Not ready? Read our guide on **[the future of SEO in 2025](/blog/future-of-seo/)**.

@@ -12,7 +12,7 @@ sourceUrl: "https://mikebastin.com/global-business-trends/"
 excerpt: "AI spending tripled to $37B in 2025. US tariffs hit levels not seen since 1946. The trends, risks and strategies shaping global business now."
 ---
 
-## Global Business in 2026: Growth, Uncertainty, and the AI Shift
+## Global business in 2026: growth, uncertainty, and the AI shift
 
 Global commerce is expanding, but the ground underneath it keeps moving.
 
@@ -36,7 +36,7 @@ And the war in Ukraine continues to distort energy markets, supply chains, and i
 
 Here is what matters for businesses planning their next move.
 
-## AI in Business: From Experiment to Operating Cost
+## AI in business: from experiment to operating cost
 
 Enterprise spending on generative AI tripled from $11.5 billion in 2024 to $37 billion in 2025 (Menlo Ventures).
 
@@ -52,16 +52,16 @@ AI is no longer optional.
 
 It is an operating cost.
 
-Businesses that treat it as a side project will fall behind those embedding it into workflows, customer service, and [marketing strategy](https://mikebastin.com/how-ai-is-revolutionising-seo-strategies/).
+Businesses that treat it as a side project will fall behind those embedding it into workflows, customer service, and [marketing strategy](/blog/how-ai-is-revolutionising-seo-strategies/).
 
-### What to Do Now
+### What to do now
 
--   Allocate budget for [AI integration](https://mikebastin.com/services/ai-consulting-services/) across customer service, content production, and data analysis
+-   Allocate budget for [AI integration](/services/ai-consulting/) across customer service, content production, and data analysis
 -   Upskill teams on AI tools rather than replacing roles outright, 46% of tech leaders cite the AI skills gap as the biggest barrier to implementation
 -   Audit AI outputs for quality and compliance, especially in regulated sectors
 -   Prioritise agentic AI use cases for customer support and supply chain management, where Deloitte projects the highest near-term impact
 
-## Agentic AI and Autonomous Systems: What Changes in 2026
+## Agentic AI and autonomous systems: what changes in 2026
 
 AI agents that plan, execute, and iterate without human prompts represent the next shift.
 
@@ -75,13 +75,13 @@ For businesses operating across borders, agentic AI creates opportunities in mul
 
 It also creates new risks around governance, data privacy, and accountability that most regulatory frameworks have not yet addressed.
 
-### What to Do Now
+### What to do now
 
 -   Start with bounded, repeatable tasks: rebooking, refund processing, inventory alerts
 -   Define clear governance frameworks before scaling autonomous workflows
 -   Ensure compliance with GDPR and local data protection laws, especially when agents handle customer data across jurisdictions
 
-## US Tariffs: The Uncertainty Tax on Global Trade
+## US tariffs: the uncertainty tax on global trade
 
 US trade policy under the Trump administration has introduced a level of unpredictability not seen since the 1930s.
 
@@ -103,14 +103,14 @@ For businesses selling into or sourcing from the US market, this is not a policy
 
 It rewards agility, diversified supply chains, and close monitoring of regulatory shifts.
 
-### What to Do Now
+### What to do now
 
 -   Diversify sourcing beyond single-country dependency, especially away from China-only supply chains
 -   Model tariff scenarios into pricing strategy and margin forecasts
 -   Monitor the USMCA joint review scheduled for July 2026, which could trigger renegotiation of North American trade terms
 -   Explore emerging markets in Southeast Asia, India, and Latin America where trade barriers are falling (the EU-India free trade agreement took effect in January 2026)
 
-## Ukraine: Ongoing Disruption With a Reconstruction Horizon
+## Ukraine: ongoing disruption with a reconstruction horizon
 
 Nearly four years into the full-scale conflict, the war in Ukraine continues to distort global energy markets, grain supplies, and European economic confidence.
 
@@ -126,13 +126,13 @@ A ceasefire, if reached, would unlock what RAND describes as the largest reconst
 
 Ukraine’s defence technology sector is already attracting US and European investment, and the country’s EU accession trajectory positions it as a future market worth watching.
 
-### What to Do Now
+### What to do now
 
 -   Factor European energy volatility into operational cost models
 -   Review sanctions compliance across supply chains, especially for dual-use goods and financial transactions
 -   Monitor reconstruction tenders and trade corridor developments for early-mover opportunities
 
-## Sustainability: Regulation Is Replacing Goodwill
+## Sustainability: Regulation is replacing goodwill
 
 Sustainability has shifted from a branding exercise to a compliance requirement in most major markets.
 
@@ -144,13 +144,13 @@ Gartner reported that 74% of ecommerce companies invested in green programmes in
 
 Carbon border adjustment mechanisms are expanding, creating new cost layers for importers who cannot demonstrate low-emission supply chains.
 
-### What to Do Now
+### What to do now
 
--   Audit supply chains for [EUDR compliance and ethical sourcing](https://mikebastin.com/best-vietnam-sourcing-agencies-for-eudr-supplier-scouting-and-audits/)
+-   Audit supply chains for [EUDR compliance and ethical sourcing](/blog/best-vietnam-sourcing-agencies-for-eudr-supplier-scouting-and-audits/)
 -   Prepare CSRD-aligned ESG reporting if selling into EU markets
 -   Position sustainability credentials as a competitive differentiator, not just a compliance checkbox
 
-## Remote and Hybrid Work: Settled, Not Solved
+## Remote and hybrid work: settled, not solved
 
 Remote and hybrid models are now standard operating procedure for knowledge-work industries.
 
@@ -158,13 +158,13 @@ Cloud platforms, secure collaboration tools, and digital project management have
 
 For international businesses, remote work expands access to talent pools in lower-cost markets, but it also introduces complexity around employment law, tax obligations, and data residency.
 
-### What to Do Now
+### What to do now
 
 -   Formalise remote work policies that account for cross-border employment regulations
 -   Invest in cybersecurity infrastructure proportional to the size of your distributed team
--   Use [location-flexible hiring](https://mikebastin.com/valencia-remote-working/) as a competitive advantage for talent acquisition
+-   Use [location-flexible hiring](https://valenciamove.com/blog/valencia-remote-working/) as a competitive advantage for talent acquisition
 
-## Emerging Markets: Where the Growth Is
+## Emerging markets: where the growth is
 
 Southeast Asia, Latin America, and parts of Africa are posting the fastest ecommerce growth rates globally.
 
@@ -178,16 +178,16 @@ Cross-border ecommerce is forecast to grow 107% by 2028 from its 2024 baseline (
 
 Expanding into these markets requires more than a translated checkout page.
 
-It requires [localised websites](https://mikebastin.com/services/website-localisation/), [multilingual SEO](https://mikebastin.com/services/multilingual-seo/), local payment integrations, and culturally adapted marketing.
+It requires [localised websites](/services/website-localisation/), [multilingual SEO](/services/multilingual-seo/), local payment integrations, and culturally adapted marketing.
 
-### What to Do Now
+### What to do now
 
--   Conduct market-specific [keyword research](https://mikebastin.com/multilingual-keyword-research/) in each target language
--   Adapt product positioning and [content strategy for local audiences](https://mikebastin.com/content-optimisation-for-spanish-users/)
+-   Conduct market-specific [keyword research](/blog/multilingual-keyword-research/) in each target language
+-   Adapt product positioning and [content strategy for local audiences](/blog/content-optimisation-for-spanish-users/)
 -   Partner with regional logistics and payment providers
 -   [Research local registration requirements](https://valenciamove.com/company-formation-spain/) and regulatory environments before entry
 
-## Ecommerce and Digital Transformation: Mobile-First Is Non-Negotiable
+## Ecommerce and digital transformation: mobile-first is non-negotiable
 
 Mobile commerce now drives between 60% and 74% of all global ecommerce traffic (multiple sources, 2025-2026).
 
@@ -197,14 +197,14 @@ Omnichannel customers have 30% higher lifetime value than single-channel custome
 
 De minimis exemptions for low-value imports are disappearing across major markets, adding new cost and compliance layers for cross-border sellers.
 
-### What to Do Now
+### What to do now
 
 -   Prioritise mobile UX across all customer-facing pages
 -   Integrate AI-driven personalisation into product recommendations and email marketing
 -   Build omnichannel strategies that connect online and offline touchpoints
 -   Factor customs and de minimis changes into cross-border pricing models
 
-## Data Privacy and Cybersecurity: The Cost of Getting It Wrong Keeps Rising
+## Data privacy and cybersecurity: the cost of getting it wrong keeps rising
 
 GDPR enforcement fines exceeded €4.5 billion cumulatively by end of 2025.
 
@@ -212,14 +212,14 @@ New regulations in Brazil (LGPD), India (DPDP Act 2023), and across Southeast As
 
 AI deployment amplifies privacy risks: automated decision-making, cross-border data transfers, and customer profiling all trigger regulatory scrutiny.
 
-### What to Do Now
+### What to do now
 
 -   Map data flows across every market you operate in
 -   Appoint or consult a Data Protection Officer for GDPR and equivalent frameworks
 -   Encrypt customer data at rest and in transit
 -   Communicate privacy practices clearly on all customer-facing platforms
 
-## What Comes Next
+## What comes next
 
 2026 is not a year for cautious incrementalism.
 
@@ -229,9 +229,9 @@ Trade policy is being rewritten in real time.
 
 Regulatory environments are diverging across regions.
 
-And the markets with the highest growth potential demand genuine [localisation](https://mikebastin.com/services/content-localisation/), not surface-level translation.
+And the markets with the highest growth potential demand genuine [localisation](/services/website-localisation/), not surface-level translation.
 
-Businesses that invest in adaptable infrastructure, diversified supply chains, and market-specific [digital strategies](https://mikebastin.com/services/digital-marketing/) will outperform those waiting for stability that is not coming.
+Businesses that invest in adaptable infrastructure, diversified supply chains, and market-specific [digital strategies](/services/multilingual-seo/) will outperform those waiting for stability that is not coming.
 
 Plan for volatility.
 

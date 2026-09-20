@@ -136,15 +136,15 @@ Monthly reporting on local visibility and conversions
 
 Paid Local Service Ads (LSA) campaigns
 
-⨯ covered by [multilingual SEM](https://mikebastin.com/services/multilingual-sem/)
+⨯ covered by [multilingual SEM](/services/multilingual-sem/)
 
 Complete multilingual site build
 
-⨯ covered by [web design](https://mikebastin.com/services/web-design/)
+⨯ covered by [web design](/services/multilingual-seo/)
 
 Cross-country expansion strategy
 
-⨯ covered by [international SEO](https://mikebastin.com/services/global-seo-solutions/)
+⨯ covered by [international SEO](/services/multilingual-seo/)
 
 ## Why this team for local SEO
 
@@ -154,7 +154,7 @@ Multilingual local SEO is a distinct discipline: a city like Valencia or Brussel
 
 End-to-end execution: GBP, schema, content, citations, review management, ongoing maintenance. One interlocutor, one accountable consultant.
 
-[More about the team →](https://mikebastin.com/about-us/)
+[More about the team →](/how-i-work/)
 
 ### Single location, multi-location, or service area?
 
@@ -202,4 +202,4 @@ Quoted. Depends on scope (single location vs multi-location), number of language
 
 We start by auditing your current local presence, ranking, NAP and GBP. Quantified diagnosis, actionable recommendations. Free first call, no commitment.
 
-Related services: [multilingual SEO](https://mikebastin.com/services/multilingual-seo/) · [international SEO](https://mikebastin.com/services/global-seo-solutions/) · [multilingual SEM](https://mikebastin.com/services/multilingual-sem/) · [web design](https://mikebastin.com/services/web-design/)
+Related services: [multilingual SEO](/services/multilingual-seo/) · [international SEO](/services/multilingual-seo/) · [multilingual SEM](/services/multilingual-sem/) · [web design](/services/multilingual-seo/)

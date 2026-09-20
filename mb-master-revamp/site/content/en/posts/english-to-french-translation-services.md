@@ -68,7 +68,7 @@ Closer to Hexagonal French than Québécois, but with characteristic vocabulary 
 
 Bilingual market with Dutch speakers in Flanders, so multilingual SEO setup matters more here than almost anywhere else in Europe.
 
-### Switzerland (Swiss French / Romandy)
+### Switzerland (Swiss French / romandy)
 
 About 2 million speakers in the Romandy region around Geneva and Lausanne.
 
@@ -106,7 +106,7 @@ Worth getting right because mobile-first French-speaking consumers in West Afric
 
 The same five-step process applies whether the source is a 500-word landing page or a 60,000-word website.
 
-### Step 1: Source audit
+### Step 1: source audit
 
 Before any translation, we read the English source critically.
 
@@ -114,7 +114,7 @@ Weak English produces weak French, no matter how good the translator is.
 
 If the source needs tightening, we flag it before the meter starts.
 
-### Step 2: Variant selection and brief
+### Step 2: variant selection and brief
 
 We confirm target market, register, and any non-negotiable terminology.
 
@@ -122,7 +122,7 @@ If you have a glossary or competitor copy you admire in French, send it.
 
 If you do not, we build a 30 to 60 term glossary from your English content and confirm it with you before drafting.
 
-### Step 3: Translation by native French linguists
+### Step 3: translation by native French linguists
 
 We work with a small team of native French translators based in France, Belgium, and Québec.
 
@@ -130,13 +130,13 @@ Variant assignment is based on target market, not whoever is free that week.
 
 For legal and certified work, we bring in _traducteurs assermentés_ registered with French courts.
 
-### Step 4: Post-editing and quality control
+### Step 4: post-editing and quality control
 
 Every translation gets reviewed by a second native linguist.
 
 For AI-assisted projects, the workflow becomes machine translation followed by full post-editing, which the industry calls MTPE or post-AI editing.
 
-You can read more about that pipeline on our [post-AI editing](https://mikebastin.com/services/post-ai-editing/) page.
+You can read more about that pipeline on our [post-AI editing](/services/ai-translation-and-post-editing/) page.
 
 ### Step 5: SEO and CMS delivery
 
@@ -146,7 +146,7 @@ We push the French content directly into WPML, Polylang, or TranslatePress with 
 
 The keyword research is done in French before drafting, not bolted on after.
 
-See [French SEO](https://mikebastin.com/services/french-seo/) for the full setup.
+See [French SEO](/services/french-seo/) for the full setup.
 
 ## Where translation alone is not enough
 
@@ -158,13 +158,13 @@ For marketing pages, we do not translate sentence by sentence.
 
 We rewrite around the French keyword cluster while preserving your tone and offer.
 
-See [multilingual SEO copywriting](https://mikebastin.com/services/multilingual-seo-copywriting/) for how that differs from straight translation.
+See [multilingual SEO copywriting](/services/multilingual-content/) for how that differs from straight translation.
 
 ### Transcreation
 
 For taglines, ads, hero copy, and creative campaigns, a direct translation almost always loses the punch.
 
-What you want is [transcreation](https://mikebastin.com/services/transcreation/): a fresh French version that achieves the same emotional effect, even if it shares almost no words with the source.
+What you want is [transcreation](/services/translation-services/): a fresh French version that achieves the same emotional effect, even if it shares almost no words with the source.
 
 ### French paid search and PPC
 
@@ -172,7 +172,7 @@ If you are running Google Ads or Meta campaigns in French markets, the ad copy h
 
 Headline length, CTA conventions, and bid strategy all change between Hexagonal and Québec markets.
 
-See our piece on [running a French PPC campaign](https://mikebastin.com/french-ppc-campaign/) for the practical detail.
+See our piece on [running a French PPC campaign](/blog/french-ppc-campaign/) for the practical detail.
 
 ## Service tiers and what each one covers
 
@@ -226,7 +226,7 @@ _Traducteur assermenté_, stamped output
 
 > The most expensive translation mistake we see is companies treating French as one language. Shipping Parisian copy into Québec, or Belgian register into a Geneva audience, costs more in lost conversion than the price difference between proper localisation and a generic one-variant job.
 > 
->, [Mike Bastin](https://mikebastin.com/about-us/), multilingual SEO and translation consultant
+>, [Mike Bastin](/how-i-work/), multilingual SEO and translation consultant
 
 ## A real example from a recent project
 
@@ -268,11 +268,11 @@ French is a high-value translation pair when the work is done properly.
 
 It is also the language where we see the most damage caused by cheap or rushed translation: lost rankings, regulatory flags in Québec, and brand copy that quietly turns French readers away.
 
-For a free 20-minute audit of your current French-language content, [get in touch](https://mikebastin.com/contact-us/) and we will walk through what we see.
+For a free 20-minute audit of your current French-language content, [get in touch](/contact/) and we will walk through what we see.
 
-For the wider translation offer across other language pairs, see our [expert translation services](https://mikebastin.com/services/expert-translation-services/) page.
+For the wider translation offer across other language pairs, see our [expert translation services](/services/translation-services/) page.
 
-For background on how we work and why translation and SEO need to be planned together, the [about page](https://mikebastin.com/about-us/) covers the rest.
+For background on how we work and why translation and SEO need to be planned together, the [about page](/how-i-work/) covers the rest.
 
 ## Frequently asked questions
 

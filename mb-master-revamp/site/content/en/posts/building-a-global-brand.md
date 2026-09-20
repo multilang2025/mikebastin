@@ -46,11 +46,11 @@ The brand assets that survive cross-market deployment without rework, in our exp
 
 ### Three things that need market-by-market work
 
-**Tone of voice.** Direct in Dutch reads as rude in French. Warm in Spanish reads as overfamiliar in German. Voice is the most expensive part of [multilingual brand work](https://mikebastin.com/best-practices-for-multilingual-seo/) precisely because it is the part nobody budgets enough for.
+**Tone of voice.** Direct in Dutch reads as rude in French. Warm in Spanish reads as overfamiliar in German. Voice is the most expensive part of [multilingual brand work](/blog/best-practices-for-multilingual-seo/) precisely because it is the part nobody budgets enough for.
 
 **Cultural references and humour.** A British-flavoured tagline rarely works in Madrid. A French wordplay falls flat in Antwerp. The reflex of “let the translator handle it” produces the dullest possible version of your brand.
 
-**Trust signals.** Reviews from local clients, local phone numbers, local addresses, payment methods buyers recognise. [Cultural differences in multilingual websites](https://mikebastin.com/cultural-differences-in-multilingual-websites/) show up most sharply in this layer.
+**Trust signals.** Reviews from local clients, local phone numbers, local addresses, payment methods buyers recognise. [Cultural differences in multilingual websites](/services/multilingual-content/) show up most sharply in this layer.
 
 ### A real failure mode we keep seeing
 
@@ -81,4 +81,4 @@ If you are launching across two or more markets, we are happy to look at the gap
 
 We work in French, English, Spanish, and Dutch fluently, with B1 German and working Italian. Most of what we do for clients sits on the seam between brand voice and SEO performance, where the slip-ups cost real revenue.
 
-[Get in touch](https://mikebastin.com/contact-us/) or read more about [how we run multilingual branding work](https://mikebastin.com/services/multilingual-branding/).
+[Get in touch](/contact/) or read more about [how we run multilingual branding work](/services/multilingual-seo/).

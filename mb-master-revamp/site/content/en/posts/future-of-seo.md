@@ -24,7 +24,7 @@ Here is what matters now, what is losing relevance, and where smart businesses s
 
 ## AI is not replacing SEO, it is replacing bad SEO
 
-[AI tools](https://mikebastin.com/services/ai-consulting-services/) can generate content at scale. Every competitor knows it. Every competitor is doing it.
+[AI tools](/services/ai-consulting/) can generate content at scale. Every competitor knows it. Every competitor is doing it.
 
 Google’s March 2025 Core Update made one thing painfully clear: volume without substance triggers devaluation. The update specifically targeted scaled AI content abuse, reinforcing that search engines now reward content demonstrating genuine expertise, original research, and first-hand experience.
 
@@ -32,7 +32,7 @@ Google’s March 2025 Core Update made one thing painfully clear: volume without
 
 AI-generated filler gets filtered. Human insight, backed by data, gets promoted. Google AI Overviews (formerly known as Search Generative Experience or SGE) now synthesise answers directly in the SERP, making it harder for thin content to earn visibility.
 
-Winning [AI-driven SEO strategies](https://mikebastin.com/how-ai-is-revolutionising-seo-strategies/) use machine learning for research, pattern recognition, and workflow acceleration, not for publishing autopilot. Tools like ChatGPT Search, Perplexity AI, and Gemini are reshaping how users discover information, but the underlying principle remains: quality content wins.
+Winning [AI-driven SEO strategies](/blog/how-ai-is-revolutionising-seo-strategies/) use machine learning for research, pattern recognition, and workflow acceleration, not for publishing autopilot. Tools like ChatGPT Search, Perplexity AI, and Gemini are reshaping how users discover information, but the underlying principle remains: quality content wins.
 
 ### What to do now
 
@@ -42,9 +42,9 @@ Winning [AI-driven SEO strategies](https://mikebastin.com/how-ai-is-revolutionis
 -   Measure engagement quality (scroll depth, time on page, return visits) rather than raw traffic
 -   Monitor your Brand SERP, how your brand appears when someone searches your name directly
 
-## Generative Engine Optimisation is now a parallel discipline
+## Generative engine optimisation is now a parallel discipline
 
-[Generative Engine Optimisation (GEO)](https://mikebastin.com/generative-engine-optimization/) has moved from theory to practice. ChatGPT Search, Gemini, Perplexity AI, and Microsoft Copilot all pull from web content to generate answers. Brands that appear in AI-generated responses gain visibility without a single click.
+[Generative Engine Optimisation (GEO)](/services/generative-engine-optimization/) has moved from theory to practice. ChatGPT Search, Gemini, Perplexity AI, and Microsoft Copilot all pull from web content to generate answers. Brands that appear in AI-generated responses gain visibility without a single click.
 
 > AI referrals to top websites surged 357% year-over-year between June 2024 and June 2025, according to Ahrefs data. AI-referred sessions jumped 527% YoY in the first five months of 2025 (Previsible AI Traffic Report). Semrush predicts LLM traffic will overtake traditional Google search by the end of 2027. Source: [Superlines AI Search Statistics](https://www.superlines.io/articles/ai-search-statistics/)
 
@@ -82,7 +82,7 @@ More than 60% of Google searches now end without a click to an external site. An
 
 Treating zero-click as a threat misses the point. Appearing in AI Overviews, Featured Snippets, Knowledge Panels, and People Also Ask boxes builds brand recall even when users never visit your site. Branded search volume, when users search specifically for your brand, becomes a critical metric in this environment.
 
-SEO strategy in 2026 must account for visibility that does not convert through traditional click paths. [Search intent mapping](https://mikebastin.com/what-is-search-intent-mapping/) helps identify which queries deserve click-focused content and which serve brand awareness.
+SEO strategy in 2026 must account for visibility that does not convert through traditional click paths. [Search intent mapping](/blog/what-is-search-intent-mapping/) helps identify which queries deserve click-focused content and which serve brand awareness.
 
 ### What to do now
 
@@ -94,7 +94,7 @@ SEO strategy in 2026 must account for visibility that does not convert through t
 
 ## Voice search matured quietly
 
-Voice search never had its predicted “revolution” moment. Instead, it became a steady part of how people interact with search, especially for local and [conversational queries](https://mikebastin.com/optimising-your-website-for-voice-search/).
+Voice search never had its predicted “revolution” moment. Instead, it became a steady part of how people interact with search, especially for local and [conversational queries](/blog/optimising-your-website-for-voice-search/).
 
 > An estimated 157.1 million Americans will use voice search in 2026. 75% of households are expected to own smart speaker devices by 2025. The speech recognition market is projected to reach $47 billion by 2030, growing at a 14.24% CAGR. Source: [DemandSage](https://www.demandsage.com/voice-search-statistics/), [Invoca](https://www.invoca.com/blog/voice-search-stats-marketers)
 
@@ -116,7 +116,7 @@ Google’s Interaction to Next Paint (INP) metric replaced First Input Delay (FI
 
 > According to the 2025 Web Almanac, 77% of mobile pages achieve a good INP score (under 200ms), but only 62% pass LCP, making Largest Contentful Paint (LCP) the hardest Core Web Essential to meet. The three metrics to pass: LCP under 2.5 seconds, INP under 200 milliseconds, and Cumulative Layout Shift (CLS) under 0.1. Source: [Google Search Central](https://developers.google.com/search/docs/appearance/core-web-vitals)
 
-Sites failing Core Web Vitals thresholds lose rankings to competitors who pass them, even with weaker content. A solid [technical SEO audit](https://mikebastin.com/technical-seo-audit-checklist/) catches these issues before they cost visibility.
+Sites failing Core Web Vitals thresholds lose rankings to competitors who pass them, even with weaker content. A solid [technical SEO audit](/blog/technical-seo-audit-checklist/) catches these issues before they cost visibility.
 
 ### What to do now
 
@@ -132,7 +132,7 @@ Google continues to refine hyper-local results, especially on mobile.
 
 > 84% of local searches are conducted on mobile, with local mobile searches growing 50% faster than overall searches. 80% of US consumers search for local businesses weekly, and 88% who perform a local search on a smartphone visit a related store within a week. Nearly 46% of all Google search queries have local intent. Source: [BrightLocal](https://www.brightlocal.com/resources/local-seo-statistics/)
 
-Generic “near us” content performs worse than pages built around specific neighbourhoods, districts, or service areas. [Local SEO](https://mikebastin.com/services/local-seo/) in 2026 favours businesses that demonstrate genuine community presence through reviews, local backlinks, and area-specific content.
+Generic “near us” content performs worse than pages built around specific neighbourhoods, districts, or service areas. [Local SEO](/services/local-seo/) in 2026 favours businesses that demonstrate genuine community presence through reviews, local backlinks, and area-specific content.
 
 Google Business Profile remains the centrepiece of local visibility. Combined with LocalBusiness schema markup and consistent NAP (Name, Address, Phone) data across citations, it forms the foundation of any local search strategy.
 
@@ -150,14 +150,14 @@ International markets remain undertapped by most businesses. Machine translation
 
 > According to CSA Research (formerly Common Sense Advisory), 76% of consumers prefer to buy products with information in their own language, and 40% will never buy from websites in other languages. 70% of global search queries are non-English. A 2025 Weglot study found that translated websites achieved up to 327% more visibility in Google’s AI Overviews. Source: [CSA Research](https://csa-research.com/Blogs-Events/CSA-in-the-Media/Press-Releases/Multilingual-Content-Gives-Global-Brands-Competitive-Edge)
 
-Ranking in Spanish, German, French, or Portuguese markets requires [multilingual SEO](https://mikebastin.com/services/multilingual-seo/) that goes beyond word-for-word conversion. Cultural adaptation, local keyword research, and [region-specific search behaviour](https://mikebastin.com/best-practices-for-multilingual-seo/) determine whether international pages rank or rot.
+Ranking in Spanish, German, French, or Portuguese markets requires [multilingual SEO](/services/multilingual-seo/) that goes beyond word-for-word conversion. Cultural adaptation, local keyword research, and [region-specific search behaviour](/blog/best-practices-for-multilingual-seo/) determine whether international pages rank or rot.
 
 Proper hreflang implementation tells search engines which language version to serve to which audience. Combined with localised Schema.org markup and country-specific backlink profiles, it creates a technical foundation for international growth.
 
 ### What to do now
 
 -   Implement hreflang tags correctly across all language versions
--   Conduct [keyword research](https://mikebastin.com/services/keyword-research/) natively in each target language rather than translating English terms
+-   Conduct [keyword research](/services/technical-seo/) natively in each target language rather than translating English terms
 -   Adapt content for cultural and regulatory differences in each market
 -   Build regional backlink profiles from country-specific domains
 -   Monitor rankings per market using local SERPs, not global averages
@@ -166,7 +166,7 @@ Proper hreflang implementation tells search engines which language version to se
 
 Treating content marketing and SEO as separate functions no longer makes sense. Every piece of content should serve a search intent, reinforce topical authority, or support a conversion path.
 
-Publishing for the sake of publishing burns budget and dilutes authority. A focused [content strategy](https://mikebastin.com/how-to-create-a-targeted-content-strategy/) built around topic clusters and commercial intent delivers compounding returns.
+Publishing for the sake of publishing burns budget and dilutes authority. A focused [content strategy](/blog/how-to-create-a-targeted-content-strategy/) built around topic clusters and commercial intent delivers compounding returns.
 
 Topic clusters, a pillar page supported by related cluster content with strong internal linking, signal topical authority to search engines. The architecture outperforms scattered, disconnected publishing every time.
 
@@ -188,7 +188,7 @@ Sustainable SEO means building authority through genuine expertise, earned backl
 
 ### What to do now
 
--   Audit your [backlink profile](https://mikebastin.com/services/link-building/) for toxic or manipulative links, monitor citation flow and trust flow
+-   Audit your [backlink profile](/services/technical-seo/) for toxic or manipulative links, monitor citation flow and trust flow
 -   Avoid link buying, PBNs, and guest post schemes
 -   Maintain editorial transparency about content creation processes
 -   Focus on long-term authority over short-term ranking gains
@@ -204,7 +204,7 @@ Businesses that still measure success by rankings alone will fall behind those m
 
 Adapt the strategy to match how people actually find and evaluate information today, not how they did it three years ago.
 
-[Track what matters](https://mikebastin.com/services/analytics-and-tracking/). Build content worth citing. And stop chasing metrics that no longer move the business forward.
+[Track what matters](/services/technical-seo/). Build content worth citing. And stop chasing metrics that no longer move the business forward.
 
 ## Frequently asked questions about SEO in 2026
 
@@ -216,7 +216,7 @@ No. SEO is not dead. It has evolved. While zero-click searches and AI Overviews 
 
 AI has reshaped SEO in two fundamental ways. First, Google AI Overviews (formerly SGE) now synthesise answers directly in search results, reducing click-through rates for informational queries. Second, AI tools like ChatGPT and Gemini enable content creation at scale, but Google’s March 2025 Core Update penalises AI-generated content that lacks originality, expertise, and genuine value.
 
-### What is GEO (Generative Engine Optimisation)?
+### What is GEO (generative engine optimisation)?
 
 Generative Engine Optimisation (GEO) is the practice of optimising content to appear in AI-generated responses from platforms like ChatGPT Search, Perplexity AI, Gemini, and Google AI Overviews. Unlike traditional SEO, GEO focuses on making content citable and extractable by large language models through clear factual statements, structured data (Schema.org / JSON-LD), and authoritative sourcing.
 

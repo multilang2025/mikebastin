@@ -12,7 +12,7 @@ sourceUrl: "https://mikebastin.com/ai-powered-marketing/"
 excerpt: "Power Up Your Marketing: See how AI is revolutionising campaigns through smart automation, data-driven insights, and intelligent customer service. Explore the tools reshaping your industry today →"
 ---
 
-## Tools and Techniques for Smarter Campaigns
+## Tools and techniques for smarter campaigns
 
 Artificial intelligence (AI) is reshaping the digital marketing scene, offering businesses new tools and techniques to build smarter, more effective campaigns.
 
@@ -20,7 +20,7 @@ AI revolutionises marketing by streamlining operations, extracting insights from
 
 Our piece examines the real impact of artificial intelligence on marketing, focusing on AI-generated content, data-driven forecasting, and intelligent conversational agents as key drivers of strategic innovation and business achievements.
 
-### AI-Driven Content Creation
+### AI-driven content creation
 
 Content creation has always been a time-consuming process, but AI is changing the game.
 
@@ -38,7 +38,7 @@ Real-world examples include AI-powered content tools like GPT models, which are 
 
 Tools like [Copy.ai](https://www.copy.ai) and [Jasper](https://www.jasper.ai/) are making it easier for businesses to automate their content marketing efforts while maintaining quality.
 
-### Predictive Analytics for Campaign Optimisation
+### Predictive analytics for campaign optimisation
 
 AI’s ability to process and analyse massive amounts of data in real-time has led to the rise of predictive analytics in marketing.
 
@@ -60,9 +60,9 @@ Companies like Netflix and Amazon are well-known for using predictive analytics 
 
 Similarly, AI tools like Google Analytics’ predictive features or IBM Watson’s marketing solutions help marketers stay ahead of trends and make strategic decisions that drive growth.
 
-### AI-Powered Chatbots for Enhanced Customer Service
+### AI-powered chatbots for enhanced customer service
 
-In today’s fast-paced digital world, customer service is a critical component of any successful [marketing strategy](https://mikebastin.com/360-marketing-agency/).
+In today’s fast-paced digital world, customer service is a critical component of any successful [marketing strategy](/blog/360-marketing-agency/).
 
 AI-powered chatbots are transforming the way businesses interact with customers by providing instant, personalised support around the clock.
 
@@ -80,7 +80,7 @@ Popular chatbot platforms like Drift, Zendesk, and HubSpot are helping businesse
 
 For example, e-commerce sites often use AI chatbots to guide customers through product selections, answer questions about orders, and provide follow-up support, all without human intervention.
 
-### Integrating AI into Your Marketing Strategy
+### Integrating AI into your marketing strategy
 
 The true power of AI lies in its ability to integrate across multiple marketing functions.
 
@@ -96,7 +96,7 @@ Here are a few tips for effective AI integration:
 -   **Focus on Personalisation**: AI is incredibly powerful when it comes to personalising marketing efforts. Use it to deliver more relevant content, targeted campaigns, and customised customer experiences.
 -   **Maintain a Human Touch**: While AI can automate many tasks, it’s important to maintain a balance between automation and human interaction. AI should enhance, not replace, genuine customer relationships.
 
-### **Conclusion**
+### Conclusion
 
 AI is transforming digital marketing, offering smarter tools and techniques for businesses looking to improve efficiency, optimise campaigns, and deliver better customer experiences.
 

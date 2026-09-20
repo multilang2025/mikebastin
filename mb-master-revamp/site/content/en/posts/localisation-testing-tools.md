@@ -26,11 +26,11 @@ Modern localisation tools often integrate with continuous integration pipelines,
 
 They can simulate different locale environments, verify internationalisation API implementations, and ensure consistent behaviour across multiple language versions.
 
-The systematic approach helps [reduce the risk of cultural faux pas](https://mikebastin.com/cultural-differences-in-multilingual-websites/) and technical issues that could damage a product’s reception in international markets.
+The systematic approach helps [reduce the risk of cultural faux pas](/services/multilingual-content/) and technical issues that could damage a product’s reception in international markets.
 
-### Types of Localisation Testing Tools
+### Types of localisation testing tools
 
-#### Translation Management Systems (TMS)
+#### Translation management systems (TMS)
 
 Translation Management Systems are essential for managing the localisation process and often include features that support testing:
 
@@ -41,7 +41,7 @@ Translation Management Systems are essential for managing the localisation proce
 -   [Transifex](https://www.transifex.com/): Offers ways to test localised versions.
 -   [Crowdin](https://crowdin.com/):  Translate content collaboratively and go global using our software.
 
-#### Test Case Management Tools
+#### Test case management tools
 
 These tools help organize and manage localisation test cases:
 
@@ -50,14 +50,14 @@ These tools help organize and manage localisation test cases:
 -   [PractiTest](https://www.practitest.com/): Includes specific tools for localisation tests.
 -   [TestLink](https://testlink.org/): A free, open-source option for localisation testing.
 
-#### Screenshot Capturing Tools
+#### Screenshot capturing tools
 
 Screenshot tools are crucial for documenting and reporting localisation issues:
 
 -   [ShareX](https://getsharex.com/): A versatile tool that can capture screenshots and upload them to various services.
 -   [Snagit](https://www.techsmith.com/snagit/): Offers advanced editing features and video capture capabilities.
 
-#### Automated Testing Tools
+#### Automated testing tools
 
 These tools help automate certain aspects of localisation testing:
 
@@ -66,7 +66,7 @@ These tools help automate certain aspects of localisation testing:
 -   [PhantomJS](https://phantomjs.org/): A headless WebKit scriptable with JavaScript.
 -   [Applitools](https://applitools.com/): Checks how localized content looks.
 
-#### Pseudo-localisation Tools
+#### Pseudo-localisation tools
 
 These tools help identify potential localisation issues early in the development process:
 
@@ -74,7 +74,7 @@ These tools help identify potential localisation issues early in the development
 -   [LocPseudo](https://localizejs.com/): Helps spot potential localisation problems.
 -   [Pseudolocalization](https://learn.microsoft.com/en-us/globalization/methodology/pseudolocalization): Generates test versions of localised content.
 
-### Features of Effective Localisation Testing Tools
+### Features of effective localisation testing tools
 
 When choosing localisation testing tools, look for the following features:
 
@@ -86,11 +86,11 @@ When choosing localisation testing tools, look for the following features:
 6.  **Reporting and analytics**: Thorough reporting features to track issues and progress.
 7.  **Multi-platform support**: Ability to test across various devices and operating systems.
 
-### Best Practices for Using Localisation Testing Tools
+### Best practices for using localisation testing tools
 
 1.  **Combine tools**: Use a combination of tools to cover all aspects of localisation testing.
 2.  **Automate where possible**: Use automation features for repetitive tasks, but remember that full automation is not possible.
-3.  **Involve native speakers**: Use tools in conjunction with [native speakers for linguistic and cultural accuracy](https://mikebastin.com/services/localisation-testing/).
+3.  **Involve native speakers**: Use tools in conjunction with [native speakers for linguistic and cultural accuracy](/services/website-localisation/).
 4.  **Maintain test data**: Keep your test cases and data up-to-date in your test management tools.
 5.  **Use pseudo-localisation**: Use pseudo-localization tools early [in the development process to catch potential issues](https://daily.dev/blog/localization-testing-guide-best-practices-and-checklist).
 6.  **Continuous testing**: Integrate localisation testing tools into your continuous integration/continuous deployment (CI/CD) pipeline.

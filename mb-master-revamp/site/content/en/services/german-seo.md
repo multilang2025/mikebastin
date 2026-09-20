@@ -42,7 +42,7 @@ German has compound words (“Maschinenbauingenieur”), formal register expecta
 
 Full Impressum required by law in Germany (with USt-IdNr, register entry, managing director). GDPR-strict cookie consent (no soft opt-in like in some EU countries). Trusted Shops badge for ecommerce. Telephone with German country code prominently displayed. Absence of any of these immediately signals “foreign site” and erodes the trust that drives conversion.
 
-German SEO requires two distinct skills: strategic piloting (architecture, keywords, technical, calendar) and native execution (writing, tone, regulatory). Our model: we pilot the first, native German copywriters from the [BeTranslated network](https://mikebastin.com/services/multilingual-seo/) handle the second. No pretence.
+German SEO requires two distinct skills: strategic piloting (architecture, keywords, technical, calendar) and native execution (writing, tone, regulatory). Our model: we pilot the first, native German copywriters from the [BeTranslated network](/services/multilingual-seo/) handle the second. No pretence.
 
 ## What we include in a German SEO engagement
 
@@ -134,11 +134,11 @@ Advanced German legal counsel (contracts, disputes, BDSG)
 
 Google Ads campaigns in German
 
-⨯ covered by [multilingual SEM](https://mikebastin.com/services/multilingual-sem/)
+⨯ covered by [multilingual SEM](/services/multilingual-sem/)
 
 Local presence per German city (GBP, citations)
 
-⨯ covered by [local SEO](https://mikebastin.com/services/local-seo/)
+⨯ covered by [local SEO](/services/local-seo/)
 
 ## Why this model is more honest (and more effective)
 
@@ -148,7 +148,7 @@ The boundary is explicit, not hidden. Most European SEO agencies “cover” Ger
 
 The benefit: you pay for strategy where strategy is delivered, and writing where writing is done well, without an intermediary taking a margin to hide the reality.
 
-[More about the team →](https://mikebastin.com/about-us/)
+[More about the team →](/how-i-work/)
 
 ### Germany, Austria, Switzerland, which DACH priority?
 
@@ -196,4 +196,4 @@ Quoted. The price depends on scope (Germany only, DACH, or scaled), editorial vo
 
 We start by auditing your DACH presence with native review of German SERPs. Quantified diagnosis, actionable recommendations. Free first call, no commitment.
 
-Related services: [multilingual SEO](https://mikebastin.com/services/multilingual-seo/) · [international SEO](https://mikebastin.com/services/global-seo-solutions/) · [multilingual SEM](https://mikebastin.com/services/multilingual-sem/)
+Related services: [multilingual SEO](/services/multilingual-seo/) · [international SEO](/services/multilingual-seo/) · [multilingual SEM](/services/multilingual-sem/)

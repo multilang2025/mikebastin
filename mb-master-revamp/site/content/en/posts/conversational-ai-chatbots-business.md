@@ -12,9 +12,9 @@ sourceUrl: "https://mikebastin.com/conversational-ai-chatbots-business/"
 excerpt: "AI chatbots are changing how businesses communicate with customers, generate leads and handle support. From multilingual customer service to AI-driven sales conversations, conversational AI keeps a company available around the clock while reducing repetitive tasks."
 ---
 
-![Article header image](https://mikebastin.com/wp-content/uploads/2026/04/conversational-ai-chatbots-business-practical-uses-1024x576.webp)
+!Article header image
 
-## Conversational AI Has Moved From Novelty to Necessity
+## Conversational AI has moved from novelty to necessity
 
 Conversational AI has moved from novelty to necessity.
 
@@ -88,7 +88,7 @@ Chatbots do not sleep, take breaks, or call in sick.
 
 For businesses serving multiple time zones, this eliminates gaps in coverage.
 
-A [multilingual SEO](https://mikebastin.com/services/multilingual-seo/) strategy combined with conversational AI ensures global customers receive support in their language, at their convenience.
+A [multilingual SEO](/services/multilingual-seo/) strategy combined with conversational AI ensures global customers receive support in their language, at their convenience.
 
 **Analytics and insight extraction**
 
@@ -100,7 +100,7 @@ Sentiment analysis flags frustrated customers before they escalate.
 
 Conversion tracking shows which conversation paths lead to sales.
 
-Integrating chatbot data with your [analytics and tracking](https://mikebastin.com/services/analytics-and-tracking/) infrastructure turns conversations into business intelligence.
+Integrating chatbot data with your [analytics and tracking](/services/technical-seo/) infrastructure turns conversations into business intelligence.
 
 ## Industry applications
 
@@ -118,7 +118,7 @@ Product recommendations, order tracking, and return processing are natural chatb
 
 Conversational commerce, where customers complete purchases within chat interfaces, continues to grow.
 
-Integrating chatbots with [localised e-commerce](https://mikebastin.com/services/localised-e-commerce-integration/) platforms creates consistent experiences across markets.
+Integrating chatbots with [localised e-commerce](/services/website-localisation/) platforms creates consistent experiences across markets.
 
 **Healthcare**
 
@@ -140,7 +140,7 @@ Chatbots can qualify leads by asking budget, timeline, and need questions before
 
 Qualifying first filters out tyre-kickers and ensures human salespeople spend time on genuine prospects.
 
-Combined with a solid [targeted content strategy](https://mikebastin.com/how-to-create-a-targeted-content-strategy/), conversational AI becomes part of the demand generation funnel.
+Combined with a solid [targeted content strategy](/blog/how-to-create-a-targeted-content-strategy/), conversational AI becomes part of the demand generation funnel.
 
 ## Multilingual considerations
 
@@ -152,7 +152,7 @@ Each language has different syntax, idioms, and cultural expectations.
 
 A chatbot that sounds natural in British English may feel robotic in Latin American Spanish.
 
-[Transcreation](https://mikebastin.com/services/transcreation/) applies to conversational AI just as it does to marketing copy.
+[Transcreation](/services/translation-services/) applies to conversational AI just as it does to marketing copy.
 
 Greeting patterns, politeness conventions, and humour vary by culture.
 
@@ -162,7 +162,7 @@ A Japanese customer expects formality.
 
 Adapting chatbot personality to local norms improves user acceptance.
 
-Businesses expanding internationally should consider [website localisation](https://mikebastin.com/services/website-localisation/) alongside chatbot deployment.
+Businesses expanding internationally should consider [website localisation](/services/website-localisation/) alongside chatbot deployment.
 
 Consistency between web content and conversational interfaces builds trust.
 
@@ -238,7 +238,7 @@ Generic, corporate-speak responses feel cold.
 
 Consistent tone and personality improve engagement.
 
-Tone work ties into broader [multilingual branding](https://mikebastin.com/services/multilingual-branding/) considerations.
+Tone work ties into broader [multilingual branding](/services/multilingual-seo/) considerations.
 
 **Launching without testing**
 
@@ -246,7 +246,7 @@ Real users find edge cases developers never imagined.
 
 Beta test with actual customers before full deployment.
 
-Use [localisation testing](https://mikebastin.com/services/localisation-testing/) protocols when launching multilingual chatbots.
+Use [localisation testing](/services/website-localisation/) protocols when launching multilingual chatbots.
 
 ## Measurement and KPIs
 
@@ -290,9 +290,9 @@ Google’s Search Generative Experience (SGE) and Bing’s Copilot pull informat
 
 FAQ content structured for chatbots can also feed AI answer engines.
 
-Understanding [Generative Engine Optimization](https://mikebastin.com/generative-engine-optimization/) helps position your business in this new space.
+Understanding [Generative Engine Optimization](/services/generative-engine-optimization/) helps position your business in this new space.
 
-The intersection of conversational AI strategy and [SEO’s evolution](https://mikebastin.com/future-of-seo/) deserves attention from any business investing in both channels.
+The intersection of conversational AI strategy and [SEO’s evolution](/blog/future-of-seo/) deserves attention from any business investing in both channels.
 
 ## Technology stack considerations
 
@@ -306,7 +306,7 @@ SaaS platforms like Intercom, Drift, and Zendesk provide turnkey solutions with 
 
 The right choice depends on budget, technical capability, and integration requirements.
 
-For businesses without deep technical teams, working with an [AI consulting partner](https://mikebastin.com/services/ai-consulting-services/) can accelerate deployment while avoiding common pitfalls.
+For businesses without deep technical teams, working with an [AI consulting partner](/services/ai-consulting/) can accelerate deployment while avoiding common pitfalls.
 
 ## Where chatbots fall short
 
@@ -332,7 +332,7 @@ Voice interfaces continue to improve.
 
 Speech-to-text accuracy has reached near-human levels in major languages.
 
-[Voice search considerations](https://mikebastin.com/optimising-your-website-for-voice-search/) now extend to conversational commerce.
+[Voice search considerations](/blog/optimising-your-website-for-voice-search/) now extend to conversational commerce.
 
 Multimodal AI combines text, voice, and image understanding.
 
@@ -388,7 +388,7 @@ Involve stakeholders from customer service, IT, and marketing.
 
 Chatbot success depends on cross-functional alignment.
 
-For businesses operating across markets, consider how conversational AI fits within your broader [internationalisation](https://mikebastin.com/services/internationalisation/) strategy.
+For businesses operating across markets, consider how conversational AI fits within your broader [internationalisation](/services/multilingual-seo/) strategy.
 
 Chatbots deployed in one market can often expand to others with proper localisation.
 

@@ -76,7 +76,7 @@ If a client questions a wording choice, a three-way comparison is the fastest ev
 
 The extension is on Manifest V3, sits at around 900,000 users, and was updated as recently as March 2026.
 
-### Mate Translate
+### Mate translate
 
 The on-page bubble translator we default to for casual reading.
 
@@ -88,7 +88,7 @@ Pro adds Netflix subtitle translation, which is useful when verifying how a coll
 
 Worth knowing that full-page translation quality has slipped since early 2025 based on user reviews, so we treat [Mate](https://chromewebstore.google.com/detail/mate-translate-%E2%80%93-translat/ihmgiclibbndffejedjimfjmfoabpcke) as a word-and-phrase helper rather than a document translator.
 
-### Google Translate
+### Google translate
 
 Not the strongest engine, but the one every client recognises.
 
@@ -116,9 +116,9 @@ We use Claude for Chrome for client work where tone and register matter.
 
 We use ChatGPT for quick generative rewrites and brainstorming.
 
-Neither is free of mistakes, so we still proof every output by hand. See our deeper view on [how to use AI and machine translation tools](https://mikebastin.com/how-to-use-ai-and-machine-translation-tools/) for the workflow we run them through.
+Neither is free of mistakes, so we still proof every output by hand. See our deeper view on [how to use AI and machine translation tools](/blog/how-to-use-ai-and-machine-translation-tools/) for the workflow we run them through.
 
-### DeepL Write
+### DeepL write
 
 Sits halfway between a translator and a grammar tool.
 
@@ -142,7 +142,7 @@ When DeepL gives us a translation we do not fully trust, Linguee shows us how th
 
 Now part of DeepL but still works as a standalone reference in the browser.
 
-### Reverso Context
+### Reverso context
 
 Same idea as Linguee, with different source material.
 
@@ -164,13 +164,13 @@ If your translation work touches WordPress sites or website localisation project
 
 Tells you what CMS, plugins, and translation setup a site is running before you open the source code.
 
-When a prospect asks about translating their WordPress site, we want to know in two seconds whether it runs WPML, Polylang, TranslatePress, or a custom system. See our [WordPress translation plugin](https://mikebastin.com/services/wordpress-translation-plugin/) service page for what each one means in practice.
+When a prospect asks about translating their WordPress site, we want to know in two seconds whether it runs WPML, Polylang, TranslatePress, or a custom system. See our [WordPress translation plugin](/services/website-localisation/) service page for what each one means in practice.
 
-### Detailed SEO Extension
+### Detailed SEO extension
 
 Fast on-page audit for headings, metas, hreflang, canonical tags, and Schema markup.
 
-Before we localise a site into three more languages, we want to see whether the source-language SEO is even competent. Our full [Chrome extensions for SEO](https://mikebastin.com/chrome-extensions-for-seo/) piece covers the wider audit toolkit.
+Before we localise a site into three more languages, we want to see whether the source-language SEO is even competent. Our full [Chrome extensions for SEO](/blog/chrome-extensions-for-seo/) piece covers the wider audit toolkit.
 
 ## What we removed from the previous version of this list
 
@@ -310,7 +310,7 @@ Daily
 
 > The biggest change in twenty-five years of multilingual work is not the quality of MT or even the rise of LLMs. It is that the browser became the workbench. Everything we used to do across Trados, a paper dictionary, and three monitors now happens inside one Chrome window with seven extensions. The job is the same. The tools are unrecognisable.
 > 
->, [Mike Bastin](https://mikebastin.com/about-us/), multilingual SEO and translation consultant
+>, [Mike Bastin](/how-i-work/), multilingual SEO and translation consultant
 
 ## How we sequence these in a working translation day
 
@@ -346,7 +346,7 @@ Smartcat, Lokalise, and Phrase are all racing to embed translator workflow direc
 
 If you live inside a CAT environment, expect to add at least one of those to your stack soon.
 
-For a wider view of where the industry is moving, see our piece on [how AI is transforming translation and localisation](https://mikebastin.com/how-ai-is-transforming-translation-and-localisation/).
+For a wider view of where the industry is moving, see our piece on [how AI is transforming translation and localisation](/blog/how-ai-is-transforming-translation-and-localisation/).
 
 ## Where this leaves a working translator
 
@@ -354,9 +354,9 @@ The browser stack is just the surface.
 
 What sits underneath is a workflow built around catching MT and LLM mistakes faster than the per-word price drops.
 
-If you handle multilingual content across markets and want a second opinion on the production setup behind it, see how our agency approaches [expert translation services](https://mikebastin.com/services/expert-translation-services/) and [post-AI editing](https://mikebastin.com/services/post-ai-editing/).
+If you handle multilingual content across markets and want a second opinion on the production setup behind it, see how our agency approaches [expert translation services](/services/translation-services/) and [post-AI editing](/services/ai-translation-and-post-editing/).
 
-For project enquiries, [get in touch](https://mikebastin.com/contact-us/) and we can walk through your current stack in 20 minutes.
+For project enquiries, [get in touch](/contact/) and we can walk through your current stack in 20 minutes.
 
 ## Frequently asked questions
 

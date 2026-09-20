@@ -22,7 +22,7 @@ Approximately 60% of those searches now end without a single click to any extern
 
 Content that fails to match intent gets ignored, both by users and by ranking algorithms.
 
-In [multilingual SEO](https://mikebastin.com/best-practices-for-multilingual-seo/), intent mapping becomes harder.
+In [multilingual SEO](/blog/best-practices-for-multilingual-seo/), intent mapping becomes harder.
 
 Direct keyword translations regularly miss regional differences in how people search, what they expect to find, and how they make decisions.
 
@@ -70,7 +70,7 @@ Study the format, depth, and angle of pages already ranking to identify the domi
 **Classify each keyword by intent type.**  
 Group keywords into informational, navigational, commercial, or transactional buckets.
 
-Assign each group to a specific content format: guides for informational queries, comparison pages for commercial queries, [landing pages](https://mikebastin.com/services/keyword-research/) for transactional queries.
+Assign each group to a specific content format: guides for informational queries, comparison pages for commercial queries, [landing pages](/services/technical-seo/) for transactional queries.
 
 **Align or create content.**  
 Audit existing pages against the intent map.
@@ -132,7 +132,7 @@ Use it to surface patterns, generate first drafts, and validate intent classific
 
 Apply human judgement for editorial quality, strategic positioning, and cultural nuance.
 
-For a deeper look at AI’s role in SEO workflows, see the [AI and SEO strategies](https://mikebastin.com/how-ai-is-revolutionising-seo-strategies/) guide.
+For a deeper look at AI’s role in SEO workflows, see the [AI and SEO strategies](/blog/how-ai-is-revolutionising-seo-strategies/) guide.
 
 ## Search intent across languages and cultures
 
@@ -150,7 +150,7 @@ Consider these examples:
 
 Direct translations miss these differences entirely.
 
-Effective [multilingual keyword research](https://mikebastin.com/multilingual-keyword-research/) requires native-speaker input, regional SERP analysis, and an understanding of local buying behaviour.
+Effective [multilingual keyword research](/blog/multilingual-keyword-research/) requires native-speaker input, regional SERP analysis, and an understanding of local buying behaviour.
 
 AI tools can accelerate this process by identifying intent differences across language variants at scale, but human validation remains essential for accuracy.
 
@@ -162,7 +162,7 @@ Practical steps for multilingual intent alignment:
 
 -   **Conduct regional SERP analysis:** review what ranks in each target market, not just what ranks in English, and identify the dominant content format, depth, and angle
 -   **Localise messaging, not just language:** adapt CTAs, value propositions, and content structure to match regional expectations
--   **Analyse competitor positioning per market:** competitors in [Spain](https://mikebastin.com/spanish-seo-markets/), [Germany](https://mikebastin.com/german-seo-best-practices/), or [France](https://mikebastin.com/services/french-seo/) often use different content formats and persuasion patterns for the same topic
+-   **Analyse competitor positioning per market:** competitors in [Spain](/blog/spanish-seo-markets/), [Germany](/blog/german-seo-best-practices/), or [France](/services/french-seo/) often use different content formats and persuasion patterns for the same topic
 -   **Structure content for featured snippets and AI Overviews:** use question-based headings, concise answer paragraphs (40-60 words), and structured data to increase visibility in SERP features that vary by region
 -   **Test variations:** run A/B tests on headlines, CTAs, and page structures per market to validate which format best matches local intent
 
@@ -189,9 +189,9 @@ Informational queries need guides and explainers.
 
 Commercial queries need comparisons and case studies.
 
-Transactional queries need [landing pages](https://mikebastin.com/services/on-page-seo/) with clear calls to action.
+Transactional queries need [landing pages](/services/technical-seo/) with clear calls to action.
 
-**Handle [technical SEO](https://mikebastin.com/technical-seo-for-multilingual-websites/) properly.**  
+**Handle [technical SEO](/blog/technical-seo-for-multilingual-websites/) properly.**  
 Hreflang tags, URL structures, and canonical tags must support multilingual content without creating crawl conflicts or duplicate content issues.
 
 **Track performance per market.**  
@@ -221,11 +221,11 @@ AI Overviews pull from different sources in different languages.
 
 A brand visible in English-language AI results may be entirely absent from Spanish or German AI results unless it has invested in localised, intent-matched content for those markets.
 
-Understanding how [generative engine optimisation](https://mikebastin.com/generative-engine-optimization/) works alongside traditional SEO is now a practical requirement, not a future consideration.
+Understanding how [generative engine optimisation](/services/generative-engine-optimization/) works alongside traditional SEO is now a practical requirement, not a future consideration.
 
 ## Moving forward with intent-driven strategy
 
-Search intent mapping sits at the foundation of every effective SEO and [multilingual SEO](https://mikebastin.com/services/multilingual-seo/) strategy.
+Search intent mapping sits at the foundation of every effective SEO and [multilingual SEO](/services/multilingual-seo/) strategy.
 
 AI tools accelerate the research, classification, and content creation process.
 
@@ -235,4 +235,4 @@ Businesses that combine both, and structure their content for AI extraction as w
 
 Those that rely on keyword volume alone will continue losing ground to competitors who understand what users actually want.
 
-[Discuss your multilingual SEO strategy](https://mikebastin.com/contact-us/) to align content with real search intent across every target market.
+[Discuss your multilingual SEO strategy](/contact/) to align content with real search intent across every target market.

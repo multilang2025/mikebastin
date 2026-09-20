@@ -40,7 +40,7 @@ Three failure patterns we see month after month.
 
 **Strategy that lives in a document nobody re-reads.** 90 pages, beautifully structured, last opened on day one. The plan stops shaping the work after week two.
 
-**Multilingual treated as a translation step at the end.** Spanish and French versions inherit every limitation of the English plan plus a few extra bugs from the handover. Real [multilingual marketing](https://mikebastin.com/best-practices-for-multilingual-seo/) needs to be a planning input, not a finishing layer.
+**Multilingual treated as a translation step at the end.** Spanish and French versions inherit every limitation of the English plan plus a few extra bugs from the handover. Real [multilingual marketing](/blog/best-practices-for-multilingual-seo/) needs to be a planning input, not a finishing layer.
 
 ### The integration test
 
@@ -52,7 +52,7 @@ A real 360 partner can answer three questions in ten minutes for any active camp
 
 If the answer to any of these is “let us sync with another team”, you are paying for branding, not joined-up work.
 
-### A real example: a Texas freight client
+### A real example: a texas freight client
 
 The freight forwarding client we work with in Houston runs in two languages, three buyer types (importers, exporters, freight forwarders), and across LinkedIn, organic search, Google Ads, and trade events.
 
@@ -116,8 +116,8 @@ Outside those scenarios, a senior fractional lead plus two specialist contractor
 
 If you are weighing a **360 marketing agency** retainer against keeping things in-house, we are happy to walk through the trade-offs with you.
 
-We work with B2B clients in legal, freight, real estate, and translation across six languages, from [Valencia](https://mikebastin.com/about-us/).
+We work with B2B clients in legal, freight, real estate, and translation across six languages, from [Valencia](/how-i-work/).
 
 The honest answer for many companies is to keep the in-house team and bring in narrow expertise where the constraint actually lives. Sometimes the answer is a full 360 partner. Either way you should know which it is before signing.
 
-[Get in touch](https://mikebastin.com/contact-us/) or look at [how we run digital marketing programmes](https://mikebastin.com/services/digital-marketing/).
+[Get in touch](/contact/) or look at [how we run digital marketing programmes](/services/multilingual-seo/).

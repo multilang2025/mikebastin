@@ -96,13 +96,13 @@ An advisor goes further than a typical audit because the engagement is hands on 
 
 The output is direction, supported by a martech stack recommendation, a KPI framework, and the right internal hires for the next 12 months.
 
-When campaigns produce traffic but no booked calls, an advisor digs into the data to find the leak, often starting with a clean [competitor analysis](https://mikebastin.com/competitor-analysis/) and a [technical SEO audit](https://mikebastin.com/technical-seo-audit-checklist/).
+When campaigns produce traffic but no booked calls, an advisor digs into the data to find the leak, often starting with a clean [competitor analysis](/blog/competitor-analysis/) and a [technical SEO audit](/blog/technical-seo-audit-checklist/).
 
-You can see how we shape a [targeted content strategy](https://mikebastin.com/how-to-create-a-targeted-content-strategy/) once that diagnostic is complete.
+You can see how we shape a [targeted content strategy](/blog/how-to-create-a-targeted-content-strategy/) once that diagnostic is complete.
 
 > In our engagements with law firms, freight forwarders, and translation companies, the same pattern keeps showing up. The companies that grow are the ones that keep strategy and execution in separate hands, with a clear feedback loop between them.
 > 
->, [Mike Bastin](https://mikebastin.com/about-us/), multilingual SEO and marketing consultant
+>, [Mike Bastin](/how-i-work/), multilingual SEO and marketing consultant
 
 ## What a digital marketing agency does
 
@@ -118,7 +118,7 @@ Agencies scale.
 
 They run substantial ad budgets across Google, Meta, LinkedIn, and TikTok, publish content on a weekly cadence, and handle technical tasks no single in-house hire could cover alone.
 
-When you engage a [full-service marketing agency](https://mikebastin.com/360-marketing-agency/), you are renting an entire marketing department for less than the cost of building one from scratch.
+When you engage a [full-service marketing agency](/blog/360-marketing-agency/), you are renting an entire marketing department for less than the cost of building one from scratch.
 
 > Global digital advertising spend is forecast to reach roughly $836 billion in 2026, making up 68.7% of total advertising spend worldwide.
 > 
@@ -190,9 +190,9 @@ If results have plateaued after two or three years with the same agency, a fresh
 
 Tools like ChatGPT, Claude, and Perplexity are changing search behaviour faster than most agencies are pivoting.
 
-Algorithm updates from Google and the rise of [generative engine optimisation](https://mikebastin.com/generative-engine-optimization/) demand forward-looking thinking.
+Algorithm updates from Google and the rise of [generative engine optimisation](/services/generative-engine-optimization/) demand forward-looking thinking.
 
-An advisor focuses on where the market is going, including how [SEO will evolve](https://mikebastin.com/future-of-seo/) and which bets to make first.
+An advisor focuses on where the market is going, including how [SEO will evolve](/blog/future-of-seo/) and which bets to make first.
 
 ## When your business needs an agency
 
@@ -306,7 +306,7 @@ Knowing which lever to pull matters more than the act of pulling it.
 
 Companies serious about future-proof marketing increasingly favour advisors who think with them about positioning and business model rather than agencies optimising for output volume.
 
-For a deeper view on the shift, see how [AI is rewriting SEO strategy](https://mikebastin.com/how-ai-is-revolutionising-seo-strategies/) and what a [search everywhere strategy](https://mikebastin.com/search-everywhere-strategy/) looks like in practice.
+For a deeper view on the shift, see how [AI is rewriting SEO strategy](/blog/how-ai-is-revolutionising-seo-strategies/) and what a [search everywhere strategy](/blog/search-everywhere-strategy/) looks like in practice.
 
 ## Where to start with the right partner
 
@@ -320,11 +320,11 @@ After 25 years across Belgium, France, Spain, the Netherlands, the UK, and the U
 
 The businesses that grow keep the strategy and execution roles cleanly separate, then make sure the same person never wears both hats.
 
-For sector-specific examples, see how we approach [SEO for law firms](https://mikebastin.com/law-firm-seo-services/) or build a campaign around [multilingual SEO best practices](https://mikebastin.com/best-practices-for-multilingual-seo/).
+For sector-specific examples, see how we approach [SEO for law firms](/blog/law-firm-seo-services/) or build a campaign around [multilingual SEO best practices](/blog/best-practices-for-multilingual-seo/).
 
-For a second opinion on your current setup, [get in touch](https://mikebastin.com/contact-us/) and we can run through it in 20 minutes.
+For a second opinion on your current setup, [get in touch](/contact/) and we can run through it in 20 minutes.
 
-You can also read more [about how we work](https://mikebastin.com/about-us/) before that call.
+You can also read more [about how we work](/how-i-work/) before that call.
 
 ## Frequently asked questions
 

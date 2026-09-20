@@ -18,7 +18,7 @@ Most agencies treat Spain like any other Western European market.
 
 It rarely is.
 
-We have run SEO from Valencia for over a decade, including campaigns for a Madrid law firm, a Dominican real estate group selling holiday homes to Spanish retirees, and [our own translation agency](https://mikebastin.com/about-us/) across .es, .fr, .be, .nl and .com properties.
+We have run SEO from Valencia for over a decade, including campaigns for a Madrid law firm, a Dominican real estate group selling holiday homes to Spanish retirees, and [our own translation agency](/how-i-work/) across .es, .fr, .be, .nl and .com properties.
 
 What we see month after month: cold pitches in English to Spanish editors get zero traction.
 
@@ -26,7 +26,7 @@ Generic guest post templates land in spam folders.
 
 Bulk-bought placements on PBN-flavoured .es domains burn budget for links Google quietly ignores within a few months.
 
-Spanish [link building](https://mikebastin.com/services/link-building/) looks closer to slow-burn PR than to mass outreach.
+Spanish [link building](/services/technical-seo/) looks closer to slow-burn PR than to mass outreach.
 
 ### The Spanish link economy in 2026
 
@@ -120,7 +120,7 @@ If a vendor promises 20 .es links in 30 days, the inventory is already bought, a
 
 ### Where this fits in a wider Spanish SEO programme
 
-Off-page work in Spain pulls hardest when it sits beside proper [Spanish keyword localisation](https://mikebastin.com/spanish-keyword-localisation/), [content tuned for Spanish users](https://mikebastin.com/content-optimisation-for-spanish-users/), and a clear [Spanish SEO market plan](https://mikebastin.com/spanish-seo-markets/) that respects regional differences.
+Off-page work in Spain pulls hardest when it sits beside proper [Spanish keyword localisation](/blog/spanish-keyword-localisation/), [content tuned for Spanish users](/blog/content-optimisation-for-spanish-users/), and a clear [Spanish SEO market plan](/blog/spanish-seo-markets/) that respects regional differences.
 
 A link from El Español is wasted on a thin English landing page that nobody bothered to translate properly.
 
@@ -134,4 +134,4 @@ If you are weighing a Spanish link building plan against generic outreach packag
 
 We work from Valencia, in Spanish, French and English, and we do not sell volume packages.
 
-[Get in touch here](https://mikebastin.com/contact-us/) or read more about [how we run link building campaigns](https://mikebastin.com/services/link-building/).
+[Get in touch here](/contact/) or read more about [how we run link building campaigns](/services/technical-seo/).

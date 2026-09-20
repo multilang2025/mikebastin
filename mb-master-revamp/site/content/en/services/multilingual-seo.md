@@ -140,15 +140,15 @@ Monthly reporting per language
 
 Country-specific local presence (GBP, citations)
 
-⨯ covered by [local SEO](https://mikebastin.com/services/local-seo/)
+⨯ covered by [local SEO](/services/local-seo/)
 
 Multilingual paid campaigns
 
-⨯ covered by [multilingual SEM](https://mikebastin.com/services/multilingual-sem/)
+⨯ covered by [multilingual SEM](/services/multilingual-sem/)
 
 Initial multilingual site build from scratch
 
-⨯ covered by [web design](https://mikebastin.com/services/web-design/)
+⨯ covered by [web design](/services/multilingual-seo/)
 
 ## Why this team for multilingual SEO
 
@@ -160,7 +160,7 @@ For languages we do not write natively (DE, IT, PT and others), native copywrite
 
 The differentiator: we do not pretend to write languages we do not write. The model is transparent and the production chain is one we have personally built and run for years.
 
-[More about the team →](https://mikebastin.com/about-us/)
+[More about the team →](/how-i-work/)
 
 ### Languages directly supported
 
@@ -170,7 +170,7 @@ The differentiator: we do not pretend to write languages we do not write. The mo
 
 **Network only (native writers, Mike coordinates strategy):** Italian, Portuguese, and any other language available through the BeTranslated translator and copywriter roster.
 
-The split is stated explicitly on each dedicated language pillar (see [German SEO](https://mikebastin.com/services/german-seo/), [Italian SEO](https://mikebastin.com/services/italian-seo/), [Portuguese SEO](https://mikebastin.com/services/portuguese-seo/)) so you know exactly who writes what before signing.
+The split is stated explicitly on each dedicated language pillar (see [German SEO](/services/german-seo/), [Italian SEO](/services/italian-seo/), [Portuguese SEO](/services/portuguese-seo/)) so you know exactly who writes what before signing.
 
 ## Frequently asked questions on multilingual SEO
 
@@ -206,4 +206,4 @@ Quoted. The price depends on number of languages in scope, depth per language, i
 
 We start with an honest audit of your current state per language. Free first call, no commitment.
 
-Related services: [international SEO](https://mikebastin.com/services/global-seo-solutions/) · [multilingual SEM](https://mikebastin.com/services/multilingual-sem/) · [web design](https://mikebastin.com/services/web-design/) · [local SEO](https://mikebastin.com/services/local-seo/)
+Related services: [international SEO](/services/multilingual-seo/) · [multilingual SEM](/services/multilingual-sem/) · [web design](/services/multilingual-seo/) · [local SEO](/services/local-seo/)

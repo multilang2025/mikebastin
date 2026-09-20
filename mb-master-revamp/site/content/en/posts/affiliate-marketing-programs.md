@@ -38,7 +38,7 @@ Three filters matter more than commission rate alone:
 
 The programmes below balance those three factors. Rates and terms are current as of April 2026 but always check the official programme page before you rely on a number in any article, ours included.
 
-## Amazon Associates
+## Amazon associates
 
 The [Amazon affiliate programme](https://affiliate-program.amazon.com/) remains the default for product reviewers, with commission rates between 1 and 10 percent depending on category.
 
@@ -94,7 +94,7 @@ The hosting is aimed at serious WordPress sites, which filters the audience towa
 
 Good for: WordPress developers, agency owners, performance bloggers.
 
-## ConvertKit (Kit)
+## ConvertKit (kit)
 
 Email marketing platform [Kit, formerly ConvertKit](https://kit.com/affiliate), pays 30 percent recurring commission for up to 24 months per referral.
 
@@ -224,6 +224,6 @@ Pick one programme that matches your existing audience, not three that sound int
 
 Build five pieces of useful content around it. Track clicks, commission and churn. Then decide whether to scale or switch.
 
-If you want help building an [affiliate content strategy](https://mikebastin.com/how-to-create-a-targeted-content-strategy/) or designing a [360 marketing plan](https://mikebastin.com/360-marketing-agency/) around it, [get in touch](https://mikebastin.com/contact-us/).
+If you want help building an [affiliate content strategy](/blog/how-to-create-a-targeted-content-strategy/) or designing a [360 marketing plan](/blog/360-marketing-agency/) around it, [get in touch](/contact/).
 
-More about how we work: [our background and client base](https://mikebastin.com/about-us/).
+More about how we work: [our background and client base](/how-i-work/).

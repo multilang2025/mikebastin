@@ -42,7 +42,7 @@ Italy is the most regionally fragmented major European market. Milan, Rome, Napl
 
 Partita IVA visible, codice fiscale where relevant, REA / Camera di Commercio registration, GDPR consent compliant with Garante della Privacy (stricter than the EU baseline on certain points). For ecommerce, Trusted Shops Italy or equivalent badges, plus visible reso (return) policy. Absence of these signals translates to fewer conversions even when traffic is good.
 
-Italian SEO needs two distinct competences: strategy and SERP / competitor analysis (which we do directly, reading Italian fluently), plus native writing and tone (which we outsource transparently to native Italian copywriters from the [BeTranslated network](https://mikebastin.com/services/multilingual-seo/)). No pretence about who writes the commercial copy.
+Italian SEO needs two distinct competences: strategy and SERP / competitor analysis (which we do directly, reading Italian fluently), plus native writing and tone (which we outsource transparently to native Italian copywriters from the [BeTranslated network](/services/multilingual-seo/)). No pretence about who writes the commercial copy.
 
 ## What we include in an Italian SEO engagement
 
@@ -134,11 +134,11 @@ Advanced Italian legal counsel (contracts, disputes)
 
 Google Ads campaigns in Italian
 
-⨯ covered by [multilingual SEM](https://mikebastin.com/services/multilingual-sem/)
+⨯ covered by [multilingual SEM](/services/multilingual-sem/)
 
 Local presence per Italian city (GBP, citations)
 
-⨯ covered by [local SEO](https://mikebastin.com/services/local-seo/)
+⨯ covered by [local SEO](/services/local-seo/)
 
 ## Why this model is more honest (and more effective)
 
@@ -148,7 +148,7 @@ What we do not do: write or speak the language commercially. Native Italian copy
 
 The nuance matters, because we are not on the “B1 German” model where we outsource everything including SERP reading. On Italian we read directly and pilot the strategy. We just do not put our name on commercial copy that should be written by native Italians.
 
-[More about the team →](https://mikebastin.com/about-us/)
+[More about the team →](/how-i-work/)
 
 ### Italy is more regionally fragmented than most major markets
 
@@ -192,8 +192,8 @@ How much does an Italian SEO engagement cost?
 
 Quoted. The price depends on scope, editorial volume, initial site state, sectoral competition, regional segmentation needs. Free first call: 30 minutes to understand your context and give an honest range. No generic proposal sent without a conversation.
 
-## Ready to rank on Google.it?
+## Ready to rank on Google.It?
 
 We start by auditing your Italian presence with direct reading of Google.it SERPs. Quantified diagnosis, actionable recommendations. Free first call, no commitment.
 
-Related services: [multilingual SEO](https://mikebastin.com/services/multilingual-seo/) · [international SEO](https://mikebastin.com/services/global-seo-solutions/) · [multilingual SEM](https://mikebastin.com/services/multilingual-sem/)
+Related services: [multilingual SEO](/services/multilingual-seo/) · [international SEO](/services/multilingual-seo/) · [multilingual SEM](/services/multilingual-sem/)
