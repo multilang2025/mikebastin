@@ -123,6 +123,16 @@ needs.
   it; it inflects it. Never build a heading by case-shifting a label:
   store the mid-sentence form (`Service.inline`, `CLUSTER_INLINE`).
   `copy-lint-code.mjs` fails the build on a case-shifted heading.
+- **The focus keyword is always in the h1** (owner, 21 Sep 2026). Every
+  page has one term it is trying to win, and the h1 carries it, whatever
+  else the headline is doing. A hero rewritten for punch that drops the
+  term is a regression, not a trade: the homepage h1 was rewritten to
+  "Your English pages sell. The others only look busy." and had to be
+  corrected the same day. Service h1s already satisfy this by being the
+  term ("Technical SEO", "Website localisation"); the risk is on the
+  hand-written pages. `/results/` and `/contact/` are the two h1s that do
+  not carry their title term, and both target navigational words rather
+  than commercial ones, so they are flagged rather than forced.
 - Design tokens (colour, type) come only from HANDOFF.md §2/§22/§23 (Night
   Swell / Morning Glass palette — aubergine is retired, do not reintroduce
   it). No hex outside that set. No monospace UI fonts.

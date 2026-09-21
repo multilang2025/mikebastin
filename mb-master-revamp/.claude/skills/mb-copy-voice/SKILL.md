@@ -60,6 +60,21 @@ the cleverest thing on the page.
 Service names are never jargon. "Transcreation" on the translation page
 is the product, not plumbing.
 
+## The focus keyword goes in the h1, always
+
+Owner rule, 21 September 2026, stated as an absolute. Whatever else a
+headline is doing, the term the page is trying to win appears in the h1.
+
+Writing for punch is exactly when this gets dropped. The homepage h1 was
+rewritten to "Your English pages sell. The others only look busy.", which
+opens on the reader and carries no keyword at all, and had to be fixed
+the same day it shipped. It now reads "Your English pages sell.
+Multilingual SEO for the ones that do not.": the hook survives and the
+term is back.
+
+A noun phrase is fine here. Every service h1 is one, and "grammatical"
+in HANDOFF.md §4 means correct English rather than a full sentence.
+
 ## What proof looks like
 
 Not adjectives. One of:

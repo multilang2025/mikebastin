@@ -149,7 +149,7 @@ export default function Home() {
             <h1 className="mb-9 max-w-[19ch] pb-[.06em] text-[clamp(2.7rem,7.4vw,5.6rem)] font-semibold leading-[1.08]">
               Your English pages sell.
               <br />
-              <span className="shimmer">The rest only look busy.</span>
+              <span className="shimmer">Multilingual SEO for the ones that do not.</span>
             </h1>
           </Reveal>
 
@@ -201,12 +201,13 @@ export default function Home() {
           <Reveal>
             <p className="eyebrow mb-3">What we do</p>
             <h2 className="mb-5 max-w-[26ch] text-[clamp(1.8rem,3.6vw,2.9rem)] font-semibold leading-[1.1]">
-              For companies already selling abroad, whose other languages underperform.
+              The others should be selling too.
             </h2>
             <p className="mb-12 max-w-[56ch] text-[1.05rem]" style={{ color: "var(--dim)" }}>
+              You already sell abroad, so the gap is rarely the product.
               Ongoing multilingual SEO is the main engagement, with
-              localisation, paid search and AI consulting around it.
-              Enquiries are the product either way, counted market by market
+              localisation, paid search and AI consulting around it, and
+              enquiries are the product either way, counted market by market
               rather than blended into one number that hides which language
               is actually selling.
             </p>
