@@ -158,10 +158,9 @@ export default function Home() {
               className="mb-10 max-w-[54ch] text-[clamp(1.05rem,1.65vw,1.24rem)] leading-[1.58]"
               style={{ color: "var(--dim)" }}
             >
-              Traffic arrives in French and German. The enquiries still come
-              from the English pages. We work out how much of that gap is
-              search and how much is the writing, then close it market by
-              market.
+              Traffic arrives in French and German. The enquiries arrive in
+              English. We work out how much of that gap is search and how much
+              is the writing, then close it market by market.
             </p>
           </Reveal>
 

@@ -285,6 +285,38 @@ export function getPost(slug: string): Post | undefined {
 }
 
 /**
+ * A post record for any qualifying EN slug, including the hand-built ones
+ * getPosts() skips.
+ *
+ * getPosts() excludes HAND_BUILT_SLUGS so the journal index and the
+ * /blog/[slug]/ route do not render a page that has its own hand-built
+ * route at the site root. Correct for listing, wrong for metadata: the
+ * hand-built page still needs the dates, excerpt and cluster sitting in
+ * the very same markdown file, and reaching for them through getPost()
+ * silently returns undefined. The competitor-analysis-traffic-checklist
+ * pillar shipped with no BlogPosting schema at all partly because of that
+ * quiet hole.
+ *
+ * Use getPosts() for anything that lists. Use this when a route needs its
+ * own record.
+ */
+export function getPostRecord(slug: string): Post | undefined {
+  const found = qualifyingEnGroups().find((g) => g.slug === slug);
+  if (!found) return undefined;
+
+  const raw = readFileSync(join(REPO_ROOT, found.contentPath), "utf8");
+  const { data, content } = matter(raw);
+  const assignment = CLUSTER_INDEX.get(slug);
+
+  return {
+    ...(data as PostFrontmatter),
+    html: marked.parse(content, { async: false }) as string,
+    cluster: assignment?.cluster ?? UNCATEGORISED,
+    relatedService: assignment?.service,
+  };
+}
+
+/**
  * Up to `limit` other posts to put at the foot of a post page.
  *
  * A reader who finishes a post is further down the funnel than one who

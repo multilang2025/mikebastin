@@ -17,6 +17,7 @@ import {
 import { getService } from "@/lib/services";
 import { getPostMetaDescription, postMetaTitle } from "@/lib/seo";
 import { SITE_URL, blogPostingSchema, breadcrumbSchema } from "@/lib/schema";
+import { getBlogImage } from "@/lib/blog-images";
 
 // competitor-analysis-traffic-checklist has its own hand-built route at
 // app/competitor-analysis-traffic-checklist/ (see lib/posts.ts). Excluded
@@ -87,6 +88,13 @@ export default async function BlogPostPage({
             datePublished: post.date,
             dateModified: post.modified,
             url,
+            // The same photograph PostImage renders above the article, so
+            // the structured data and the visible page agree. A post with
+            // no entry falls back to PostArt, which is drawn from the slug
+            // and has no file to point at, so nothing is passed.
+            image: getBlogImage(post.slug)
+              ? `${SITE_URL}/images/blog/${post.slug}.webp`
+              : undefined,
           }),
           breadcrumbSchema([
             { name: "Home", url: `${SITE_URL}/` },

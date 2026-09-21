@@ -124,7 +124,7 @@ export const SERVICES: Service[] = [
     pillar: true,
     angle: "The outcome, not the mechanism",
     lede: "Traffic in several languages and enquiries in one is the pattern we are called about most. What gets counted here is the enquiry, in the market it came from.",
-    metaTitle: "Multilingual lead generation, Mike Bastin",
+    metaTitle: "Lead generation services for multilingual sites",
     metaDescription: "Traffic in several languages and enquiries in one? Multilingual lead generation counts the enquiry, market by market, and is judged on that number.",
     sections: ["What gets measured", "How it is delivered", "The evidence", ...ENGAGEMENT.slice(2)],
     // No `body` or `expandables` here on purpose: lead-generation has its own
@@ -208,7 +208,7 @@ export const SERVICES: Service[] = [
     cluster: "Lead generation",
     angle: "The evidence layer, per locale",
     lede: "You can see which markets bring traffic. Whether the French visitors ever turn into customers is a different question, and one merged report will never answer it.",
-    metaTitle: "Conversion tracking per locale, Mike Bastin",
+    metaTitle: "Conversion tracking services per locale",
     metaDescription: "Traffic per market is easy to see. Which language earns the enquiries is not, until conversion tracking is set up per locale rather than per domain.",
     sections: ["Why a single blended number hides the problem", ...ENGAGEMENT],
     body: [
@@ -431,7 +431,7 @@ export const SERVICES: Service[] = [
     demand: {
       volume: 2700,
       kd: "3 to 6",
-      note: "Largest of the six. `seo france` alone pays $40.00 a click, the highest CPC of any language-market term measured.",
+      note: "Largest of the six, and the most expensive to buy: `seo france` carries the highest cost per click of any language-market term we measured.",
     },
   },
   {
@@ -515,7 +515,7 @@ export const SERVICES: Service[] = [
     cluster: "Search",
     angle: "SEO Spain, researched here rather than abroad",
     lede: "Your Spanish pages are read in Madrid, Mexico City and Bogotá, and what convinces a buyer in one of them reads as foreign in the next. We work Spain from Valencia, and the Latin American variants through native copywriters based in the region.",
-    metaTitle: "Spanish SEO from Valencia, Mike Bastin",
+    metaTitle: "Spanish SEO services, from Valencia",
     metaDescription: "Spanish SEO for buyers in Madrid, Mexico City and Bogotá, who do not read the same page the same way. Spain run from Valencia, Latin America by native writers.",
     sections: ["Three ways to fail at Spanish SEO", ...ENGAGEMENT],
     body: [
@@ -733,7 +733,7 @@ export const SERVICES: Service[] = [
     cluster: "Search",
     angle: "Two markets, one language",
     lede: "Portugal and Brazil are not one market with one keyword set, and treating them as one is the mistake that makes Portuguese look harder than it is.",
-    metaTitle: "Portuguese SEO, Portugal and Brazil",
+    metaTitle: "Portuguese SEO services, Portugal and Brazil",
     metaDescription: "Portugal and Brazil are two markets, not one keyword set. See why treating them separately is what makes Portuguese SEO actually work.",
     sections: ["Three ways to fail at Portuguese SEO", ...ENGAGEMENT],
     body: [
@@ -888,7 +888,7 @@ export const SERVICES: Service[] = [
     pillar: true,
     angle: "Beyond translated strings",
     lede: "Your site has been translated and it still reads as foreign. The prices, the form fields, the trust marks and the way people search all still belong to somewhere else, and none of it is fixed by the words.",
-    metaTitle: "Website localisation, Mike Bastin",
+    metaTitle: "Website localisation services, Mike Bastin",
     metaDescription: "Translated and still reading as foreign, from the prices to the form fields to the way people search? Website localisation is the job the words alone do not do.",
     sections: ["Why localisation is not translation", ...ENGAGEMENT],
     body: [
@@ -1040,7 +1040,7 @@ export const SERVICES: Service[] = [
     cluster: "Localisation",
     angle: "Strings, and everything around them",
     lede: "You are shipping the product into a market that writes longer sentences than English, sometimes reads right to left, and reviews you in a store nobody on the team can read. What breaks first is rarely the translation.",
-    metaTitle: "App and software localisation",
+    metaTitle: "App and software localisation services",
     metaDescription: "Shipping into a market that writes longer than English and sometimes reads right to left? App and software localisation covers what breaks before the words do.",
     sections: ["What breaks when software crosses a language", ...ENGAGEMENT],
     body: [
@@ -1171,7 +1171,7 @@ export const SERVICES: Service[] = [
     cluster: "AI",
     angle: "Machine first, human decisive",
     lede: "Your pages came back from the machine reading fluently, which is the problem. A sentence that is confidently wrong is far harder to catch than one that is obviously broken.",
-    metaTitle: "AI translation and post-editing",
+    metaTitle: "AI translation services and post-editing",
     metaDescription: "Machine-translated pages that read fluently are the hard case, not the broken ones. AI translation and post-editing catches what reads right and is wrong.",
     sections: ["Why fluent output is the harder problem", ...ENGAGEMENT],
     body: [
@@ -1330,7 +1330,7 @@ export const SERVICES: Service[] = [
     demand: {
       volume: 55000,
       kd: "39 to 70",
-      note: "Sums `generative engine optimization` (26,000 worldwide, KD 70), `answer engine optimization` (13,000, KD 39) and `geo seo` (16,000, KD 63). Unlike the language markets, all three sit at real difficulty. `generative engine optimization` also carries the highest CPC measured for any service page, at $11.00 a click.",
+      note: "Sums `generative engine optimization` (26,000 worldwide, KD 70), `answer engine optimization` (13,000, KD 39) and `geo seo` (16,000, KD 63). Unlike the language markets, all three sit at real difficulty, and `generative engine optimization` carries the highest cost per click measured for any service page.",
     },
   },
   // ---- Cluster 5: supporting capability ----
@@ -1341,7 +1341,7 @@ export const SERVICES: Service[] = [
     cluster: "Supporting",
     angle: "Crawlability and hreflang, noticed only when broken",
     lede: "Your French pages and your German pages can end up competing with each other instead of adding up. We find out whether it is happening on your site, and fix what is causing it.",
-    metaTitle: "Technical SEO, Mike Bastin",
+    metaTitle: "Technical SEO services for multilingual websites",
     metaDescription: "Your language versions can compete with each other instead of adding up. See how we find out whether it is happening on your site, and what it takes to fix.",
     sections: ["What actually blocks a multilingual site", ...ENGAGEMENT],
     body: [

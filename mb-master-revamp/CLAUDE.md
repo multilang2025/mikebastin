@@ -249,38 +249,63 @@ the stale doc guarantees the next session repeats the mistake. Two
 corrections came out of that rule on the day it was adopted, the hosting
 line above and a stale Next.js version in `cto.md`.
 
-## Surfaced 21 Sep 2026, unresolved
+## Surfaced 21 Sep 2026, and what happened to each
 
 Found while applying the owner's style guide and reviewing the built
-output. None blocks launch; each needs a decision or a small change.
-Recorded here rather than left in chat history.
+output. Most are now fixed; the rest are recorded here rather than left in
+chat history.
 
-- **`lib/schema.ts` emits no `image` on any type**, while every route group
-  has an `opengraph-image.tsx` and 57 posts have a real photograph. The
-  social card carries an image and the structured data claims none.
-- **The static HTML ships `0 Years in search`.** `Counter.tsx` animates up
-  after hydration and handles reduced motion correctly, so a normal
-  visitor is fine, but anything reading the HTML without running JS reads
-  a consultancy advertising zero years.
-- **Five service pages render literal backticks** to the reader (french-,
-  portuguese-, italian-, local-seo and the GEO page), because
-  `demand.note` is plain text in JSX and its markdown never renders.
-- **Two commercial pages quote Ahrefs CPC in dollars** to a European
-  audience. Ahrefs reports USD, so converting silently would misstate the
-  source. The other 16 dollar figures are in blog posts, where quoting a
-  source's own currency is defensible.
-- **49 English posts carry a percentage, 14 carry a `Source:` line.** Not
-  to be bulk-fixed: a figure whose source cannot be found gets cut, never
-  a plausible-looking citation.
-- **The hero lede still opens on the negative** ("The enquiries still come
-  from the English pages"). Kept deliberately, since the voice skill wants
-  a page to open on the reader's situation, but it sits against the
-  owner's 21 Sep instruction to avoid negative wording. Owner's call.
-- **`lib/schema.ts:50` says Mike Bastin "founded" BeTranslated** where four
-  other places say "co-founded". Checked this run: the line is a **code
-  comment**, and the emitted schema only names BeTranslated under
-  `worksFor` with no founding claim, so nothing reaches a reader. Worth
-  correcting for accuracy, not a live factual error.
+**Fixed 21 Sep 2026:**
+
+- `lib/schema.ts` emitted no `image` on any type. Person now carries the
+  portrait, ProfessionalService the wave mark as `logo` and `image`, and
+  56 posts their own photograph. Service takes the parameter and passes
+  nothing, because no service page has a photograph and a logo dressed as
+  one is the substitution the style guide warns against.
+- The static HTML shipped `0 Years in search`. `Counter.tsx` now renders
+  the final value and the client introduces the zero, off screen.
+- Five service pages printed literal backticks. `components/QueryTerms.tsx`
+  renders them as chips, which also keeps the convention `copy-lint-code.mjs`
+  depends on (backticks mark a verbatim search term, exempt from the copy
+  lints).
+- Two commercial pages quoted Ahrefs CPC in dollars. The figure is gone and
+  the superlative kept, so nothing had to be converted or invented.
+- The sourced-claim gap has an advisory queue: `npm run audit:sources`,
+  wired into `verify`, never failing the build. Real figure, measured with
+  bare years excluded: **57 posts carry a figure, 11 carry a source line.**
+- The hero lede opened on the negative. Now "The enquiries arrive in
+  English", which keeps the recognition and drops the negation.
+- The `competitor-analysis-traffic-checklist` pillar emitted breadcrumbs
+  and nothing else. It now emits `BlogPosting` with dates, author and
+  image, via the new `getPostRecord()` in `lib/posts.ts`. `getPost()`
+  could not reach it, because `getPosts()` skips `HAND_BUILT_SLUGS` by
+  design, and that quiet hole is why the gap existed.
+- **Eight meta titles** rewritten against Ahrefs volume, not instinct.
+
+**Two claims in earlier notes were wrong, corrected here:**
+
+- "Eighteen of nineteen meta titles do not use the words buyers search"
+  was false. Eight of nineteen already did; the gap was eleven, and is now
+  three. Sixteen of nineteen carry a buyer word, all under 60 characters.
+- `lib/schema.ts:50` saying "founded" rather than "co-founded" was a **code
+  comment**. The emitted schema only names BeTranslated under `worksFor`
+  with no founding claim, so nothing ever reached a reader. Comment fixed.
+
+**Still open:**
+
+- **Three service titles deliberately unchanged.** `dutch-seo` and
+  `generative-engine-optimization` would need the word *agency* to capture
+  their volume ("dutch seo agency" 150, "generative engine optimisation
+  agency" 1,300 at KD 1, which is genuinely attractive). The site is a
+  consultancy and calls itself a practice, so writing *agency* would
+  misdescribe the business. Owner's call, since only he can say whether
+  the word is fair. `multilingual-content` was left because
+  "multilingual content services" draws 30 searches and the present title
+  says something better.
+- **One positioning claim per service page.** Not ours to invent: a claim a
+  competitor could not also make has to be a real decision about how the
+  business runs, like the media-spend one on `multilingual-sem`. Asking
+  the owner is the only honest route.
 - **The Unsplash key pasted in chat has not been rotated.** Erasing a
   message is not rotation.
 
