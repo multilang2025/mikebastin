@@ -62,7 +62,7 @@ entity picked up from scraping built HTML. Its copy was fine.
 Shipped headings are read from the built output in `out/`, so these are
 what the pages actually serve.
 
-### `/` — rewritten
+### `/` : rewritten
 
 - **Before:** International SEO agency
   - h2: Your English pages sell. Multilingual SEO makes your other languages sell too.
@@ -72,7 +72,7 @@ what the pages actually serve.
 - **Shipped:** International SEO agency for every market you sell in
   - h2: Your English pages sell. Multilingual SEO makes your other languages sell too.
 
-### `/contact` — unchanged
+### `/contact` : unchanged
 
 - **Before:** Contact a multilingual SEO agency
   - h2: Tell us which language you want selling next, and a short brief gets a straight answer within a working day.
@@ -82,7 +82,7 @@ what the pages actually serve.
 - **Shipped:** Contact a multilingual SEO agency in Valencia
   - h2: Tell us which language you want selling next, and a short brief gets a straight answer within a working day.
 
-### `/contact/problem` — adopted
+### `/contact/problem` : adopted
 
 - **Before:** The message did not send
   - h2: Tell us which language you want selling next.
@@ -92,7 +92,7 @@ what the pages actually serve.
 - **Shipped:** The message did not send
   - h2: Tell us which language you want selling next.
 
-### `/contact/thanks` — adopted
+### `/contact/thanks` : adopted
 
 - **Before:** Your message is in
   - h2: Tell us which language you want selling next.
@@ -102,7 +102,7 @@ what the pages actually serve.
 - **Shipped:** Your message is in
   - h2: Tell us which language you want selling next.
 
-### `/how-i-work` — unchanged
+### `/how-i-work` : unchanged
 
 - **Before:** How the engagement runs
   - h2: What a multilingual SEO engagement covers month to month, how it is billed, and which costs are passed through at cost.
@@ -112,7 +112,7 @@ what the pages actually serve.
 - **Shipped:** How a multilingual SEO engagement runs
   - h2: What a multilingual SEO engagement covers month to month, how it is billed, and which costs are passed through at cost.
 
-### `/results` — adopted
+### `/results` : adopted
 
 - **Before:** Client results and numbers
   - h2: What changed on real engagements, with the figures attached and the markets they came from named.
@@ -122,7 +122,7 @@ what the pages actually serve.
 - **Shipped:** Client results and numbers
   - h2: What changed on real engagements, with the figures attached and the markets they came from named.
 
-### `/services` — rewritten
+### `/services` : rewritten
 
 - **Before:** Global SEO services
   - h2: Ongoing search across several markets is the main engagement, with localisation, paid search and AI consulting around it.
@@ -132,7 +132,7 @@ what the pages actually serve.
 - **Shipped:** Global SEO services for companies selling across markets
   - h2: Ongoing search across several markets is the main engagement, with localization, paid search and AI consulting around it.
 
-### `/services/ai-consulting` — adopted
+### `/services/ai-consulting` : adopted
 
 - **Before:** AI consulting services
   - h2: Where machine output helps across languages, and where it quietly costs the trust a page was built to earn.
@@ -142,7 +142,7 @@ what the pages actually serve.
 - **Shipped:** AI consulting services for multilingual search and content
   - h2: Where machine output helps across languages, and where it quietly costs the trust a page was built to earn.
 
-### `/services/ai-translation-and-post-editing` — unchanged
+### `/services/ai-translation-and-post-editing` : unchanged
 
 - **Before:** AI translation and post-editing
   - h2: Machine output worked over by a native speaker, because text that reads fluently and is wrong is worse than text that warns you.
@@ -152,7 +152,7 @@ what the pages actually serve.
 - **Shipped:** AI translation services and post-editing
   - h2: Machine output worked over by a native speaker, because text that reads fluently and is wrong is worse than text that warns you.
 
-### `/services/app-and-software-localisation` — unchanged
+### `/services/app-and-software-localisation` : unchanged
 
 - **Before:** App and software localisation services
   - h2: Internationalised before launch rather than retrofitted after it, which is where the cost of this work is decided.
@@ -162,7 +162,7 @@ what the pages actually serve.
 - **Shipped:** App and software localization services
   - h2: Internationalised before launch rather than retrofitted after it, which is where the cost of this work is decided.
 
-### `/services/conversion-tracking` — rewritten
+### `/services/conversion-tracking` : rewritten
 
 - **Before:** Conversion tracking per market
   - h2: Measurement that shows which language earns the enquiry, rather than one blended figure for the whole site.
@@ -172,7 +172,7 @@ what the pages actually serve.
 - **Shipped:** Conversion tracking measured per market
   - h2: Measurement that shows which language earns the enquiry, rather than one blended figure for the whole site.
 
-### `/services/dutch-seo` — adopted
+### `/services/dutch-seo` : adopted
 
 - **Before:** Dutch SEO agency
   - h2: Search in Dutch for the Netherlands and Flanders, two markets that read the same language differently.
@@ -182,7 +182,7 @@ what the pages actually serve.
 - **Shipped:** Dutch SEO agency for the Netherlands and Flanders
   - h2: Two markets that read the same language differently, and a trade buyer in each who wants specifics early.
 
-### `/services/french-seo` — adopted
+### `/services/french-seo` : adopted
 
 - **Before:** French SEO agency
   - h2: Search in French for France, Belgium and Switzerland, written natively rather than translated from the English.
@@ -192,7 +192,7 @@ what the pages actually serve.
 - **Shipped:** French SEO agency for France, Belgium and Switzerland
   - h2: Written natively per market rather than translated from the English, because a French buyer researches before enquiring.
 
-### `/services/generative-engine-optimization` — rewritten
+### `/services/generative-engine-optimization` : rewritten
 
 - **Before:** Generative engine optimisation services
   - h2: Structured for ChatGPT, Perplexity and Google&#x27;s AI Overviews to cite you, not only for Google to rank you.
@@ -202,7 +202,7 @@ what the pages actually serve.
 - **Shipped:** Generative engine optimization services for AI search
   - h2: Structured for ChatGPT, Perplexity and Google's AI Overviews to cite you, not only for Google to rank you.
 
-### `/services/german-seo` — adopted
+### `/services/german-seo` : adopted
 
 - **Before:** German SEO agency
   - h2: Search in German for Germany, Austria and Switzerland, written natively for buyers who research before they enquire.
@@ -212,7 +212,7 @@ what the pages actually serve.
 - **Shipped:** German SEO agency for Germany, Austria and Switzerland
   - h2: Written natively for a market that reads the detail, compares carefully and enquires once it is satisfied.
 
-### `/services/italian-seo` — rewritten
+### `/services/italian-seo` : rewritten
 
 - **Before:** Italian SEO agency
   - h2: Search in Italian for a market where the commercial terms are far less contested than the English equivalents.
@@ -222,7 +222,7 @@ what the pages actually serve.
 - **Shipped:** Italian SEO agency for an uncontested market
   - h2: Commercial terms in Italian are far less fought over than the English equivalents, which makes entry cheap.
 
-### `/services/lead-generation` — rewritten
+### `/services/lead-generation` : rewritten
 
 - **Before:** Multilingual lead generation services
   - h2: Traffic in several languages and enquiries in one is the pattern we are called about most, and it is rarely a traffic problem.
@@ -232,7 +232,7 @@ what the pages actually serve.
 - **Shipped:** Multilingual lead generation services for B2B sites
   - h2: Traffic in several languages and enquiries in one is the pattern we are called about most, and it is rarely a traffic problem.
 
-### `/services/local-seo` — rewritten
+### `/services/local-seo` : rewritten
 
 - **Before:** Local SEO services
   - h2: Google Business Profile, citations and neighbourhood pages, in cities that search in more than one language.
@@ -242,7 +242,7 @@ what the pages actually serve.
 - **Shipped:** Local SEO services for multilingual cities
   - h2: Google Business Profile, citations and neighbourhood pages, in places where the search happens in more than one language.
 
-### `/services/multilingual-content` — unchanged
+### `/services/multilingual-content` : unchanged
 
 - **Before:** Multilingual content services
   - h2: Written in the target language against that market&#x27;s own research, rather than translated from a page optimised for a different one.
@@ -252,7 +252,7 @@ what the pages actually serve.
 - **Shipped:** Multilingual content services written per market
   - h2: Written in the target language against that market's own research, rather than translated from a page optimized for a different one.
 
-### `/services/multilingual-sem` — unchanged
+### `/services/multilingual-sem` : unchanged
 
 - **Before:** Multilingual SEM services
   - h2: Paid search per market, with media budget going straight to Google, Microsoft or Meta and no markup on spend.
@@ -262,7 +262,7 @@ what the pages actually serve.
 - **Shipped:** Multilingual SEM services per market
   - h2: Media budget goes straight to Google, Microsoft or Meta, so there is no markup on spend and no reason to recommend a bigger one.
 
-### `/services/multilingual-seo` — rewritten
+### `/services/multilingual-seo` : rewritten
 
 - **Before:** Multilingual SEO agency
   - h2: Search across several markets at once, for companies whose English pages already sell and whose other languages do not.
@@ -272,7 +272,7 @@ what the pages actually serve.
 - **Shipped:** Multilingual SEO agency for companies already selling abroad
   - h2: Search run across several markets at once, so the languages you already publish in start producing enquiries too.
 
-### `/services/portuguese-seo` — adopted
+### `/services/portuguese-seo` : adopted
 
 - **Before:** Portuguese SEO agency
   - h2: Search in Portuguese for Portugal and Brazil, which are two markets rather than one language.
@@ -282,7 +282,7 @@ what the pages actually serve.
 - **Shipped:** Portuguese SEO agency for Portugal and Brazil
   - h2: Two markets rather than one language, with different search behaviour and different competition in each.
 
-### `/services/spanish-seo` — adopted
+### `/services/spanish-seo` : adopted
 
 - **Before:** Spanish SEO agency
   - h2: Search in Spanish for Spain and Latin America, written from Valencia and adapted per country rather than once.
@@ -292,7 +292,7 @@ what the pages actually serve.
 - **Shipped:** Spanish SEO agency for Spain and Latin America
   - h2: Run from Valencia and adapted per country, because what convinces a buyer in Madrid reads as foreign in Bogota.
 
-### `/services/technical-seo` — adopted
+### `/services/technical-seo` : adopted
 
 - **Before:** Technical SEO services
   - h2: The work that stops your language versions competing with each other for the same buyers.
@@ -302,7 +302,7 @@ what the pages actually serve.
 - **Shipped:** Technical SEO services for multilingual websites
   - h2: The work that stops your language versions competing with each other for the same buyers.
 
-### `/services/translation-services` — rewritten
+### `/services/translation-services` : rewritten
 
 - **Before:** Multilingual translation services
   - h2: Sorted by document type, because the risk changes completely from a proposal to a court filing, and so does who should do the work.
@@ -312,7 +312,7 @@ what the pages actually serve.
 - **Shipped:** Multilingual translation services sorted by document type
   - h2: The risk changes completely from a proposal to a court filing, and so does who should be doing the work.
 
-### `/services/website-localisation` — rewritten
+### `/services/website-localisation` : rewritten
 
 - **Before:** Website localisation services
   - h2: Making a site work in a market rather than merely readable in a language, from the copy to the checkout.
