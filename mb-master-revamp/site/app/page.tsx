@@ -96,7 +96,7 @@ const WHAT_WE_DO = [
   },
   {
     cluster: "Search",
-    desc: "Native writing per language, with hreflang and schema configured from the brief rather than patched in later.",
+    desc: "Native writing per language, researched against what that market actually searches for.",
     href: "/services/multilingual-seo/",
   },
   {
@@ -110,8 +110,8 @@ const WHAT_WE_DO = [
     href: "/services/generative-engine-optimization/",
   },
   {
-    cluster: "Supporting capability",
-    desc: "Crawlability and hreflang plumbing, so a multilingual site reads as one entity, not several competing ones.",
+    cluster: "Technical",
+    desc: "The work that stops your language versions competing with each other for the same buyers.",
     href: "/services/technical-seo/",
   },
 ];
