@@ -70,3 +70,36 @@ from WordPress: convert it, protecting the acronyms, never keep it.
 - **Convert Title Case rather than keeping it.** WordPress titles arrive in
   Title Case and the site is sentence case throughout. Convert, protecting
   acronyms and proper nouns; a blind lowercase turns SEO into seo.
+
+## Carrying things across a migration (added 21 September 2026)
+
+Source: `docs/STYLE-GUIDE-UK-EU.md` §3, §4 and §6. A migration is the
+single highest-risk moment for all three, because the failure is silent:
+the new page looks finished.
+
+**Carry every external link forward.** A link in the WordPress source
+survives into the MDX unless its target is genuinely dead, spam or a
+competitor. Editorial taste is not grounds for dropping one, since some
+links are paid placements or partner relationships that nothing in the
+markup identifies. Where a paragraph is rewritten rather than transferred,
+the link moves into the new sentence.
+
+**Carry a statistic's source with it.** The house pattern puts the source
+in a blockquote directly beneath the figure, as
+`content/en/posts/competitor-analysis-traffic-checklist.md` does. A
+migration that keeps the number and drops the citation turns a sourced
+claim into an unsourced one. Check the period and the cohort while
+transferring, not only that a link is present: 49 English posts carry a
+percentage and 14 carry a `Source:` line, so most migrated figures arrived
+uncited and must not be given a plausible-looking citation to close the
+gap.
+
+**Convert date formats.** WordPress prose carries US order
+("September 21, 2026") often enough that it should be assumed present.
+Reader-facing prose takes *21 September 2026*. ISO 8601 goes in the
+frontmatter, never in the body.
+
+**Convert number, currency and unit formats** to the target market: metric
+units, £ or € rather than $, and the locale's own thousands and decimal
+separators (`1,000.50` for UK and Ireland, `1.000,50` for France, Germany,
+Spain, Italy and the Netherlands).

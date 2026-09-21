@@ -164,6 +164,37 @@ are reported and never failed, because a reader who searched for
 hreflang tags arrived wanting that word in the headline. It runs on the
 built output inside `npm run verify`.
 
+## The UK and International Europe style guide
+
+`docs/STYLE-GUIDE-UK-EU.md` (owner, 21 Sep 2026). Its language and
+heading sections restate rules this project already enforces. The value
+is in the rest, which the Master Content Protocol never covered:
+
+- A statistic carries its source in a blockquote directly beneath the
+  figure, and the period and the cohort get checked, not only the number.
+  49 English posts carry a percentage and 14 carry a `Source:` line.
+- **An external link is never removed during a rewrite** unless the target
+  is dead, spam or a competitor. There are four external destinations in
+  the whole content set, two of them the sources for statistics on a
+  cluster pillar, so one careless rewrite can strip the evidence and leave
+  the claim.
+- Dates in prose are `21 September 2026`; ISO 8601 stays in frontmatter.
+  Currency leads with GBP or EUR, never USD. Units metric, times 24-hour.
+- Thousands and decimal separators are per market: `1,000.50` for the UK
+  and Ireland, `1.000,50` for France, Germany, Spain, Italy and the
+  Netherlands. Relevant now, and load-bearing when `content/nl` ships.
+- Sworn and certified translation is not one term across Europe. Use the
+  local designation rather than a catch-all English gloss.
+- Never claim a certification, accreditation or track record the business
+  does not hold. Extends the existing ban on inventing a price, a
+  guarantee, a turnaround or a client outcome.
+
+Split across `copy-editor` (language, sourcing, claims),
+`localization-qa` (per-market formats, legal terminology),
+`seo-preservation` (trailing slashes, image parity, link targets),
+`seo-offpage` (anchor text, link preservation) and `content-migrator`
+(carrying links, sources and formats across a migration).
+
 ## Agent roster
 
 All agents live in `.claude/agents/`. Six were specified in the original

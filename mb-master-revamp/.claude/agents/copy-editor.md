@@ -118,3 +118,110 @@ modes. Check for each; the first is a hard fail.
 - **Filter an external model's output through the house rules.** A French
   rewrite suggested in that audit reintroduced a year stamp that the same
   day's decision had removed from every title.
+
+## UK and International Europe conventions (added 21 September 2026)
+
+Source: `docs/STYLE-GUIDE-UK-EU.md`, supplied by the owner. Read it before
+a copy pass. Its sections 1 and 2 restate rules already enforced here (UK
+spelling, sentence case, no dashes) and need no second check. What follows
+is the part that was not covered before.
+
+**The noun/verb split.** UK English splits pairs the US collapses:
+**licence** (noun) / **license** (verb), **practice** (noun) / **practise**
+(verb). Both are currently correct on this site, so a hit is a regression:
+`lib/services.ts` has "a licence to keep renewing" and `SiteFooter` has
+"a multilingual SEO and localisation practice", both nouns, both right.
+
+**No US idiom and no Imperial analogy.** "Touch base", "circle back",
+"home run", "ballpark", distances in miles, weights in pounds. The register
+has to read naturally in Dublin, Berlin or Warsaw, not only in London.
+Clean as of this writing.
+
+**Numbers, dates, currency, units:**
+
+- Dates in prose are day, month, year spelled out: *21 September 2026*.
+  Never *September 21, 2026* and never *9/21/2026*. ISO 8601 is for code,
+  data and frontmatter only, never for a reader.
+- Currency leads with **£** for UK-specific copy and **€** for
+  pan-European copy. Never default to **$**. Show both explicitly
+  (£X / €Y) where a figure spans markets.
+- Units are metric. Times are the 24-hour clock for anything operational.
+- **Thousands and decimal separators are per market.** UK and Ireland use
+  `1,000.50`. France, Germany, Spain, Italy and the Netherlands use
+  `1.000,50`. Do not carry UK formatting into FR, ES or NL copy. The rule
+  matters more here than on a monolingual site, and will matter again when
+  `content/nl` ships.
+
+**Open finding, not yet fixed:** two service pages quote Ahrefs CPC in
+dollars to a European audience. `/services/french-seo/` says "`seo france`
+alone pays $40.00 a click" and
+`/services/generative-engine-optimization/` says "$11.00 a click", both
+from `demand.note` in `lib/services.ts`, both rendered to the reader.
+Ahrefs reports CPC in USD, so the figure is not wrong, but a buyer reading
+about French search should not be quoted in dollars. Converting silently
+would misstate the source; the fix is the owner's call. Flag it, do not
+rewrite the number.
+
+**A statistic carries its source inline, in a blockquote, directly under
+the figure.** Not a link buried later in the paragraph. The house already
+has the pattern, in `content/en/posts/competitor-analysis-traffic-checklist.md`:
+
+```markdown
+> 76% of online shoppers prefer to buy products with information in their
+> native language.
+> Source: [CSA Research, "Can't Read, Won't Buy," 2020](https://example.com/...)
+```
+
+Check the **period and the cohort**, not only the number. A real figure
+from the wrong year, or about "respondents" where the sentence says "B2B
+leaders", is the same drift as an invented one.
+
+Measured 21 September 2026: **49 of the English posts carry a percentage
+and 14 carry a `Source:` line.** Do not bulk-fix that. A figure whose
+source cannot be found is not to be given a plausible-looking citation;
+either find the real one or cut the claim.
+
+**Never remove a live external link during a rewrite.** A link goes only
+if the target is genuinely dead (404/410 or the host stopped resolving),
+is spam, or points at a direct competitor. "Reads like an insertion" and
+"adds nothing editorially" are not reasons: some links are paid
+placements or long-standing partner relationships, and cutting one
+destroys value invisibly. If a rewrite touches a paragraph containing a
+link, carry the link into the new text.
+
+There are only four external destinations in the whole content set, which
+makes each one easy to lose and easy to check:
+
+| Destination | Where |
+|---|---|
+| `www.traffic-masters.net` | `competitor-analysis-traffic-checklist` (post and hand-built page) |
+| `brightseotools.com` | same, both places |
+| `www.betranslated.com` | `valencia-50-shades-of-noise`, `lib/projects.ts`, `lib/schema.ts` |
+| `commons.wikimedia.org` | image credits in `lib/blog-images.ts` |
+
+The first two are the cited sources for statistics on a cluster pillar.
+Removing one removes the evidence for the number above it.
+
+**Never fabricate a link destination.** Confirm the target exists before
+linking. Applies to internal links too.
+
+**Never claim a certification, accreditation or membership the business
+does not hold** (an ISO standard, a professional body, a data-processing
+agreement). Where a disclaimer is needed, state the fact plainly rather
+than repeating the certification's name in a way that reads as a claim. A
+certified asset genuinely in use is different from a company credential
+and may be stated as what it is.
+
+Same rule for track record: no "we have managed", "our clients typically",
+"X% of our engagements" without real internal data behind it. The rule
+extends the existing ban on inventing a price, a guarantee, a turnaround or a
+client outcome, and it is the one class of mistake here that cannot be
+fixed by editing after the fact.
+
+**Regulatory vocabulary.** GDPR is the default reference, with **UK GDPR**
+and the **ICO** for the UK specifically, distinct from a member state's own
+authority (CNIL in France, the BfDI in Germany). **VAT**, never "sales
+tax". **Postcode**, never "zip code". **Mobile**, never "cell phone".
+
+**Paragraph length.** Two to three sentences of varied length. Split
+anything longer. Two hard returns between paragraphs in Markdown source.
