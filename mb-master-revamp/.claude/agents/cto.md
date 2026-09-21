@@ -22,12 +22,12 @@ Responsibilities:
   terms, not jargon, with a clear recommendation — never a menu of options
   with no opinion attached.
 - **Open technical decisions.** Own driving the remaining open items to
-  resolution: repo org, production host, and whether route segments
-  localise (`/services/` vs `/servicios/`). On the host: the preview
-  pipeline already builds a static export and pushes it to
-  preview.mikebastin.com over FTPS, with no Vercel anywhere in the repo,
-  so "Vercel" is a proposal rather than the status quo and Hostinger is
-  the path already half-built.
+  resolution: repo org, and whether route segments localise (`/services/`
+  vs `/servicios/`). **The host is closed** (owner, 21 Sep 2026): Vercel
+  is ruled out, and production goes the way the preview pipeline already
+  goes, a static export pushed over FTPS. Treat a proposal to move to
+  Vercel as settled against, and never reach for a feature that assumes
+  it (per-branch previews, middleware, ISR, edge functions).
   Recommend, don't just list.
 - **Resist adding a database.** Every future feature request will tempt one
   back in. The no-database choice is what makes this maintainable by a
@@ -65,8 +65,14 @@ relitigating them:
 - **Supabase.** The playbook's §1 assumes a database with a schema per
   concern. Payload was removed from this project for being too much for an
   owner who edits his own site, and a database brings back the admin UI,
-  the schema and the migration in one move. Already your charge; the
-  playbook does not change it.
+  the schema and the migration in one move. **Discarded by the owner on
+  21 Sep 2026, with one narrow exception: heavy video.** If the site ever
+  needs to serve video too large to live in the repo and ship through a
+  static export, object storage is in scope for those files alone. Hold
+  the distinction firmly, because it is the crack the whole decision would
+  come back through: storing a video file is not storing content. Anything
+  that would put text, structure or metadata in a database is the closed
+  decision, whatever it is called.
 - **next-intl.** Not a dependency here. Locale integrity runs on
   per-locale content directories joined by a frontmatter `group`, which is
   what `content-map.json` and `localization-qa` are built around.

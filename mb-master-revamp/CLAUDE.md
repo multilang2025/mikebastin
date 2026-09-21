@@ -43,6 +43,11 @@ Same model as valenciamove.com, which the owner already runs at larger scale
   CONTENT-ARCHITECTURE.md §2. Don't build for it early; the directory
   structure already scales to it without rework.
 - **Media:** `/public/images/`, no media library and no object storage.
+  **The one exception the owner has left open is heavy video** (21 Sep
+  2026): if the site ever carries video too large to sit in the repo and
+  ship through a static export, object storage is on the table for that
+  and for nothing else. It would be storage for media files, not a
+  content store, and it does not reopen the database decision.
   The build is `output: "export"` with `images: { unoptimized: true }`, so
   nothing gains from `next/image`; sizes are baked at build time instead.
   Each of the 56 migrated posts shows **the featured image it already had
@@ -73,10 +78,11 @@ Same model as valenciamove.com, which the owner already runs at larger scale
   `vercel.json` and no Vercel reference anywhere in the repo, so none of
   its defaults apply, including per-branch preview URLs, middleware, ISR
   and edge functions. The line here previously read "Hosting: Vercel",
-  corrected 21 Sep 2026 against the workflow. **Production hosting at
-  launch is still an open decision** (`cto` owns it); valenciamove.com
-  runs on Hostinger, which is the path of least resistance given the
-  pipeline already in place.
+  corrected 21 Sep 2026 against the workflow. **Vercel is now ruled out by
+  the owner** (21 Sep 2026), so the question is closed rather than open:
+  production goes the way the pipeline already goes, as valenciamove.com
+  does. Do not propose Vercel again, and do not reach for a feature that
+  assumes it.
 
 Nothing in this directory contains real credentials. Secrets go in `.env`
 (gitignored, see below), never in a committed file, never in an agent's

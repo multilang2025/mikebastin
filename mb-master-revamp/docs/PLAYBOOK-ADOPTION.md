@@ -34,7 +34,7 @@ decision rather than implement one.
 
 | Playbook | Here | Why it stays as it is |
 |---|---|---|
-| Supabase, schema per concern | No database at all | Payload was removed for being too complicated for an owner who edits his own site. A database brings back the admin UI, the schema and the migration. `cto` is charged with resisting exactly this. |
+| Supabase, schema per concern | No database at all | Payload was removed for being too complicated for an owner who edits his own site. A database brings back the admin UI, the schema and the migration. Owner ruling 21 Sep 2026: discarded, with one narrow exception for heavy video, recorded below. |
 | next-intl, path-based | Per-locale content directories joined by a frontmatter `group` | Verified: `next-intl` is not a dependency. The `group` model is what `content-map.json` and `localization-qa` are built around. |
 | shadcn/ui component primitives | Hand-built components on Tailwind 4 | Verified: no `shadcn`, no `@radix-ui`, no `class-variance-authority` in `package.json`. The design contract in HANDOFF.md §2/§22/§23 is the primitive layer. |
 | Per-page message files, zero hard-coded UI strings | UI strings inline, content in MDX | See below. |
@@ -71,6 +71,31 @@ Playbook §6 offers "Title Case for US English, sentence case for most of
 Europe". Sentence case is absolute here, in every locale, by owner
 decision of 19 September 2026, including on titles carried over from
 WordPress. No per-market exception.
+
+## Owner rulings on the two open items (21 September 2026)
+
+Both came back the same day the record was written, so the record is
+updated rather than left to be read alongside a later correction.
+
+**Supabase: discarded, except for heavy video.** The refusal above stands
+as the general rule. The single circumstance for revisiting it is video
+too large to live in the repo and ship through a static export, where the
+need is object storage for media files rather than a place to keep
+content.
+
+Hold that line precisely, because it is the crack the whole decision would
+come back through. Putting an MP4 in a bucket is not putting the site in a
+database. Anything that would move text, page structure or metadata out of
+MDX and into a queryable store is the decision the owner closed, whatever
+product name it arrives under. `/public/images/` and the static export
+remain the media path for everything that is not heavy video.
+
+**Vercel: ruled out.** The correction below found that memory claimed
+Vercel while the repo contained no trace of it. The owner has now closed
+the question rather than leaving it open: production goes the way the
+preview pipeline already goes. So the entry below is a record of a fixed
+error, not a live decision, and `cto` no longer carries the host as an
+open item.
 
 ## Corrected, because the playbook was right and memory was stale
 
