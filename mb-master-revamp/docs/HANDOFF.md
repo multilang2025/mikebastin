@@ -510,9 +510,12 @@ See `assets/ASSETS-MANIFEST.md`. Summary: mikebastin brand logos (4 variants), o
 2. ~~Postgres provider + media storage~~ MOOT: Payload and the database were
    removed (§25). No database, media in `/public/images/`.
 3. X handle + 3 featured post URLs (HANDLE_TBD placeholders in concept) — STILL OPEN
-4. Tier C prune sign-off — STILL OPEN (`docs/BLOG-PRUNE-AUDIT.md` is the artifact
-   to sign off; 21 posts still need a real GSC check). The 43→19 service
-   consolidation is built and live in `lib/services.ts`.
+4. ~~Tier C prune sign-off~~ CLOSED (owner, 20 Sep 2026).
+   `docs/BLOG-PRUNE-AUDIT.md` holds the record: REMOVE and MERGE shipped
+   the same day with all 42 legacy URLs 301ing to a live page, and the 21
+   provisional KEEPs were checked against real GSC and all 21 stay KEEP.
+   The 43 to 19 service consolidation is built and live in
+   `lib/services.ts`.
 5. Valencia STAY-list sign-off (§18) — STILL OPEN, and now wider than three
    pages: the exodus moved the English posts only, so ten French and one
    Spanish Valencia lifestyle post are still live on mikebastin.com with no

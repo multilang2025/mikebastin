@@ -249,6 +249,41 @@ the stale doc guarantees the next session repeats the mistake. Two
 corrections came out of that rule on the day it was adopted, the hosting
 line above and a stale Next.js version in `cto.md`.
 
+## Surfaced 21 Sep 2026, unresolved
+
+Found while applying the owner's style guide and reviewing the built
+output. None blocks launch; each needs a decision or a small change.
+Recorded here rather than left in chat history.
+
+- **`lib/schema.ts` emits no `image` on any type**, while every route group
+  has an `opengraph-image.tsx` and 57 posts have a real photograph. The
+  social card carries an image and the structured data claims none.
+- **The static HTML ships `0 Years in search`.** `Counter.tsx` animates up
+  after hydration and handles reduced motion correctly, so a normal
+  visitor is fine, but anything reading the HTML without running JS reads
+  a consultancy advertising zero years.
+- **Five service pages render literal backticks** to the reader (french-,
+  portuguese-, italian-, local-seo and the GEO page), because
+  `demand.note` is plain text in JSX and its markdown never renders.
+- **Two commercial pages quote Ahrefs CPC in dollars** to a European
+  audience. Ahrefs reports USD, so converting silently would misstate the
+  source. The other 16 dollar figures are in blog posts, where quoting a
+  source's own currency is defensible.
+- **49 English posts carry a percentage, 14 carry a `Source:` line.** Not
+  to be bulk-fixed: a figure whose source cannot be found gets cut, never
+  a plausible-looking citation.
+- **The hero lede still opens on the negative** ("The enquiries still come
+  from the English pages"). Kept deliberately, since the voice skill wants
+  a page to open on the reader's situation, but it sits against the
+  owner's 21 Sep instruction to avoid negative wording. Owner's call.
+- **`lib/schema.ts:50` says Mike Bastin "founded" BeTranslated** where four
+  other places say "co-founded". Checked this run: the line is a **code
+  comment**, and the emitted schema only names BeTranslated under
+  `worksFor` with no founding claim, so nothing reaches a reader. Worth
+  correcting for accuracy, not a live factual error.
+- **The Unsplash key pasted in chat has not been rotated.** Erasing a
+  message is not rotation.
+
 ## Agent roster
 
 All agents live in `.claude/agents/`. Six were specified in the original
@@ -279,8 +314,13 @@ scope, or spend decision, not on every diff.
 ## Open decisions
 
 Tracked in `docs/HANDOFF.md` §21 "Decisions OPEN" and §17 addendum. Resolve
-with the owner before P1 work depends on them (repo org, X handle/posts, Tier C prune sign-off, service consolidation,
-Valencia STAY-list sign-off, credibility strip numbers).
+with the owner before P1 work depends on them. Still open: X handle and the
+three featured post URLs, Valencia STAY-list sign-off, credibility strip
+numbers, the twelve posts rendering "Uncategorised", and the GEO
+blog/service term overlap. Closed since that list was written: repo org
+(`multilang2025/mikebastin`), Tier C prune (below), the 43 to 19 service
+consolidation (built and live in `lib/services.ts`), the host and the
+database (§27).
 
 **Tier C prune is CLOSED** (owner, 20 Sep). `docs/BLOG-PRUNE-AUDIT.md` holds
 the record. REMOVE and MERGE shipped the same day, with all 42 legacy URLs

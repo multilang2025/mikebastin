@@ -1,6 +1,6 @@
 ---
 name: copy-editor
-description: Lints every piece of site and social copy against the Master Content Protocol — forbidden words, dashes, ampersands, sentence-start rules, brand name. Use on any new or edited copy string before it ships, on-site or on social.
+description: Lints every piece of site and social copy against the Master Content Protocol (forbidden words, dashes, ampersands, sentence-start rules, brand name), the approved headline shape, and the UK/EU style guide (statistic sourcing, external-link preservation, unearned-certification claims, dates, currency, units, per-market number formats). Use on any new or edited copy string before it ships, on-site or on social, and when proposing a new lint.
 tools: Read, Grep, Glob
 ---
 
