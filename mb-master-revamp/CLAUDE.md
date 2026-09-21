@@ -137,23 +137,21 @@ needs.
   it; it inflects it. Never build a heading by case-shifting a label:
   store the mid-sentence form (`Service.inline`, `CLUSTER_INLINE`).
   `copy-lint-code.mjs` fails the build on a case-shifted heading.
-- **The heading shape is a hard rule** (owner, 21 Sep 2026): the `h1` is
-  **three to five words** and carries the term the page is trying to win.
-  A **longer `h2` sits directly beneath it, set smaller**, echoing the h1
-  rather than changing the subject. Enforced by
-  `site/scripts/heading-shape-lint.mjs` inside `npm run verify`, English
-  commercial routes only. Before the rule, 5 of 26 commercial pages were in
-  range: six were too long and most service pages sat at two words ("Dutch
-  SEO", "AI consulting"), which leaves buyer vocabulary on the table on a
-  page whose job is to be found. `lib/services.ts` carries `h1` and
-  `subhead` per service, kept separate from `name`, which stays the label
-  the nav, footer and cards use.
-  A three-word h1 has room for the term and nothing else, so the selling
-  sentence moves to the h2: the homepage reads "Multilingual SEO agency"
-  over "Your English pages sell. Multilingual SEO makes your other
-  languages sell too." FR and ES are reported and never failed, because a
-  word count does not survive translation ("SEO multilingue" is two words
-  for the same idea) and because those locales are deferred.
+- **The heading shape is a hard rule** (owner, 21 Sep 2026, revised the
+  same day): the `h1` **contains the page's primary keyword without being
+  it**, runs as **one line with no `<br>` and no `<span>` inside it**, and
+  sits above a **longer `h2`, set smaller**, that echoes it. The first
+  version capped the h1 at five words and that produced bare keywords
+  ("International SEO agency", "Global SEO services"), which is a search
+  term with a font size rather than a heading. The ceiling is now twelve
+  words; the current set runs 4 to 9. Enforced by
+  `site/scripts/heading-shape-lint.mjs` (length, h2 present) and
+  `scripts/keyword-coverage-lint.mjs` (keyword present, and not the whole
+  heading), English commercial routes only.
+  `lib/services.ts` carries `h1` and `subhead` per service, both separate
+  from `name`, which stays the label the nav, footer and cards use. FR and
+  ES are reported and never failed: a word count does not survive
+  translation and those locales are deferred.
 - **The words in the h1 and h2 come from search data, not instinct.** The
   owner is an **agency** as well as a consultancy (owner, 21 Sep 2026,
   correcting an earlier assumption here), so *agency* is accurate and

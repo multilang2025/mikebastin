@@ -65,6 +65,19 @@ for (const [route, kw] of Object.entries(KEYWORDS)) {
   const words = normalise(kw.primary.term).split(" ");
   const inH1 = words.every((w) => h1.includes(w));
 
+  // The h1 carries the term without being it. A heading that is exactly the
+  // keyword is a search term with a font size, and the owner rejected that
+  // shape on 21 Sep 2026 after the first pass produced "International SEO
+  // agency" and "Global SEO services" as complete headings.
+  if (inH1 && h1 === normalise(kw.primary.term)) {
+    fails.push({
+      route,
+      why: `h1 is exactly the primary term "${kw.primary.term}" and nothing else`,
+      h1: strip(h1m[1]).replace(/\s+/g, " ").trim(),
+    });
+    continue;
+  }
+
   if (!inH1) {
     const inTitle = words.every((w) => title.includes(w));
     fails.push({

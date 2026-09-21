@@ -2,8 +2,13 @@
 /**
  * The h1 is three to five words and carries the keyword. An h2 follows it.
  *
- * Owner rule, 21 September 2026, given as a hard rule, so it is a build
- * failure rather than an agent's good intention. Measured before the rule
+ * Owner rule, 21 September 2026, revised the same day: the h1 may run
+ * longer than the first three-to-five-word version, because at five words
+ * it was coming out as the bare keyword ("International SEO agency") and a
+ * heading should read as a proposition rather than a search term. The
+ * floor stays, the ceiling moves to twelve, and lib/keywords.ts's own lint
+ * carries the harder half of the rule: the h1 must contain the primary
+ * keyword without being it. Measured before the rule
  * landed: 5 of 26 commercial pages had an h1 in range. Six were over, and
  * most service pages were under at two words ("Dutch SEO", "AI
  * consulting"), which is its own kind of miss: a two-word h1 leaves the
@@ -30,7 +35,7 @@ import { fileURLToPath } from "node:url";
 
 const OUT = join(fileURLToPath(new URL("../", import.meta.url)), "out");
 const MIN = 3;
-const MAX = 5;
+const MAX = 12;
 
 /**
  * English commercial routes. FR and ES are reported, never failed, for two

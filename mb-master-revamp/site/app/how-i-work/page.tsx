@@ -99,7 +99,7 @@ export default function HowIWorkPage() {
           </Reveal>
           <Reveal i={1}>
             <h1 className="mb-6 max-w-[20ch] text-[clamp(2.3rem,5.6vw,4rem)] font-semibold leading-[1.08]">
-              How the engagement runs
+              How a multilingual SEO engagement runs
             </h1>
           </Reveal>
           <Reveal i={2}>

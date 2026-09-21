@@ -152,7 +152,7 @@ export default function Home() {
                 way forward") is not lost, it moves to the h2 where its
                 length belongs. */}
             <h1 className="mb-5 max-w-[14ch] pb-[.06em] text-[clamp(2.7rem,7.4vw,5.6rem)] font-semibold leading-[1.05]">
-              International SEO agency
+              International SEO agency for every market you sell in
             </h1>
           </Reveal>
 

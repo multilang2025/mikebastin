@@ -44,7 +44,7 @@ export default function ServicesIndex() {
           </Reveal>
           <Reveal i={1}>
             <h1 className="mb-6 max-w-[19ch] text-[clamp(2.3rem,5.6vw,4rem)] font-semibold leading-[1.08]">
-              Global SEO services
+              Global SEO services for companies selling across markets
             </h1>
           </Reveal>
           <Reveal i={2}>
