@@ -137,17 +137,28 @@ needs.
   it; it inflects it. Never build a heading by case-shifting a label:
   store the mid-sentence form (`Service.inline`, `CLUSTER_INLINE`).
   `copy-lint-code.mjs` fails the build on a case-shifted heading.
-- **The approved headline shape** (owner, 21 Sep 2026, "that's the way
-  forward"): state the thing of theirs that already works, then promise
-  the same for the part that does not, with a concrete noun and a
-  positive verb, and the focus keyword inside the promise. The homepage
-  h1 is the worked example: "Your English pages sell. Multilingual SEO
-  makes your other languages sell too." Two named failure modes to keep
-  out: **void** referents ("the ones that", "the others"), meaning a
-  pronoun aimed at something the reader has not been given, and
-  **negative framing** that states the damage rather than the offer
-  ("losing you money", "a language problem, not a traffic problem"). Full
-  reasoning in `.claude/skills/mb-copy-voice/SKILL.md`.
+- **The heading shape is a hard rule** (owner, 21 Sep 2026): the `h1` is
+  **three to five words** and carries the term the page is trying to win.
+  A **longer `h2` sits directly beneath it, set smaller**, echoing the h1
+  rather than changing the subject. Enforced by
+  `site/scripts/heading-shape-lint.mjs` inside `npm run verify`, English
+  commercial routes only. Before the rule, 5 of 26 commercial pages were in
+  range: six were too long and most service pages sat at two words ("Dutch
+  SEO", "AI consulting"), which leaves buyer vocabulary on the table on a
+  page whose job is to be found. `lib/services.ts` carries `h1` and
+  `subhead` per service, kept separate from `name`, which stays the label
+  the nav, footer and cards use.
+  A three-word h1 has room for the term and nothing else, so the selling
+  sentence moves to the h2: the homepage reads "Multilingual SEO agency"
+  over "Your English pages sell. Multilingual SEO makes your other
+  languages sell too." FR and ES are reported and never failed, because a
+  word count does not survive translation ("SEO multilingue" is two words
+  for the same idea) and because those locales are deferred.
+- **The words in the h1 and h2 come from search data, not instinct.** The
+  owner is an **agency** as well as a consultancy (owner, 21 Sep 2026,
+  correcting an earlier assumption here), so *agency* is accurate and
+  available: "generative engine optimisation agency" draws 1,300 globally
+  at difficulty 1, and seven service titles now use the word.
 - **The focus keyword is always in the h1** (owner, 21 Sep 2026). Every
   page has one term it is trying to win, and the h1 carries it, whatever
   else the headline is doing. A hero rewritten for punch that drops the

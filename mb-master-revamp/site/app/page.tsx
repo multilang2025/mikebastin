@@ -146,14 +146,24 @@ export default function Home() {
           <Reveal i={1}>
             {/* leading needs headroom: the italic descenders on "Converting"
                 collide with the lede at anything tighter than ~1.08 */}
-            <h1 className="mb-9 max-w-[19ch] pb-[.06em] text-[clamp(2.7rem,7.4vw,5.6rem)] font-semibold leading-[1.08]">
-              Your English pages sell.
-              <br />
-              <span className="shimmer">Multilingual SEO makes your other languages sell too.</span>
+            {/* Owner rule, 21 Sep 2026: h1 of three to five words carrying
+                the keyword, with a longer h2 under it, set smaller,
+                echoing it. The sentence the owner approved ("that's the
+                way forward") is not lost, it moves to the h2 where its
+                length belongs. */}
+            <h1 className="mb-5 max-w-[14ch] pb-[.06em] text-[clamp(2.7rem,7.4vw,5.6rem)] font-semibold leading-[1.05]">
+              Multilingual SEO agency
             </h1>
           </Reveal>
 
           <Reveal i={2}>
+            <h2 className="mb-8 max-w-[24ch] text-[clamp(1.35rem,3vw,2.3rem)] font-medium leading-[1.2]">
+              Your English pages sell.{" "}
+              <span className="shimmer">Multilingual SEO makes your other languages sell too.</span>
+            </h2>
+          </Reveal>
+
+          <Reveal i={3}>
             <p
               className="mb-10 max-w-[54ch] text-[clamp(1.05rem,1.65vw,1.24rem)] leading-[1.58]"
               style={{ color: "var(--dim)" }}
@@ -164,7 +174,7 @@ export default function Home() {
             </p>
           </Reveal>
 
-          <Reveal i={3}>
+          <Reveal i={4}>
             <div className="mb-10 flex flex-wrap items-center gap-x-6 gap-y-4">
               <Link href="/contact/" className="btn btn-primary btn-lg">
                 Book a discovery call
@@ -175,7 +185,7 @@ export default function Home() {
             </div>
           </Reveal>
 
-          <Reveal i={4}>
+          <Reveal i={5}>
             {/* Three things the service pages already commit to, rather than
                 the old "Ranking in EN, converting in FR" strip. That one read
                 as wordplay and did not survive reading: it handed each

@@ -49,6 +49,22 @@ export type Service = {
    * approximation instead.
    */
   inline: string;
+  /**
+   * The page's `h1`: three to five words, carrying the term the page is
+   * trying to win (owner rule, 21 Sep 2026, stated as a hard rule).
+   * Separate from `name`, which stays the label the nav, footer and cards
+   * use: a label wants to be short and a heading wants the keyword, and
+   * making one serve both is how "AI consulting" ended up as a two-word
+   * h1 on a page targeting "AI consulting services".
+   */
+  h1: string;
+  /**
+   * The `h2` sitting directly under the `h1`, set smaller. Longer, and it
+   * echoes the h1 rather than changing the subject, so the short keyword
+   * heading gets the qualifying detail and the secondary terms a
+   * three-word h1 has no room for. Same owner rule.
+   */
+  subhead: string;
   cluster: string;
   /** Pillars own a query network; the rest support one. */
   pillar?: boolean;
@@ -120,6 +136,8 @@ export const SERVICES: Service[] = [
     slug: "lead-generation",
     name: "Multilingual lead generation",
     inline: "multilingual lead generation",
+    h1: "Multilingual lead generation services",
+    subhead: "Enquiries counted market by market, never blended into one number that hides which language is selling.",
     cluster: "Lead generation",
     pillar: true,
     angle: "The outcome, not the mechanism",
@@ -137,6 +155,8 @@ export const SERVICES: Service[] = [
     slug: "multilingual-sem",
     name: "Multilingual SEM",
     inline: "multilingual SEM",
+    h1: "Multilingual SEM services",
+    subhead: "Paid search per market, with media budget going straight to Google, Microsoft or Meta and no markup on spend.",
     cluster: "Lead generation",
     angle: "International PPC, buying what search has not earned",
     lede: "Reaching the buyer who has not found you organically yet, in the language they searched in, without letting a single blended campaign quietly subsidise one market from another.",
@@ -205,6 +225,8 @@ export const SERVICES: Service[] = [
     slug: "conversion-tracking",
     name: "Conversion tracking",
     inline: "conversion tracking",
+    h1: "Conversion tracking per market",
+    subhead: "Measurement that shows which language earns the enquiry, rather than one blended figure for the whole site.",
     cluster: "Lead generation",
     angle: "The evidence layer, per locale",
     lede: "You can see which markets bring traffic. Whether the French visitors ever turn into customers is a different question, and one merged report will never answer it.",
@@ -267,11 +289,13 @@ export const SERVICES: Service[] = [
     slug: "multilingual-seo",
     name: "International SEO",
     inline: "international SEO",
+    h1: "International SEO agency",
+    subhead: "Search across several markets at once, for companies whose English pages already sell and whose other languages do not.",
     cluster: "Search",
     pillar: true,
     angle: "The engine underneath the outcome",
     lede: "You already sell abroad, and the markets outside English are not pulling their weight. We run the strategy and brief native writers per market, so each language earns enquiries rather than only traffic.",
-    metaTitle: "International SEO consulting, Mike Bastin",
+    metaTitle: "International SEO agency and consulting",
     metaDescription: "Already selling abroad while the non-English markets underperform? See how each language gets its own strategy, its own native writing, and a number of its own.",
     sections: [
       "Where most international SEO projects fail",
@@ -364,10 +388,12 @@ export const SERVICES: Service[] = [
     slug: "french-seo",
     name: "French SEO",
     inline: "French SEO",
+    h1: "French SEO agency",
+    subhead: "Search in French for France, Belgium and Switzerland, written natively rather than translated from the English.",
     cluster: "Search",
     angle: "SEO France, where the francophone volume sits",
     lede: "France is where the francophone search volume actually sits, while Belgium and Switzerland are where the network is. Winning French means writing for France first and selling through the other two.",
-    metaTitle: "French SEO services, Mike Bastin",
+    metaTitle: "French SEO agency, France and Belgium",
     metaDescription: "France carries most of the francophone search volume in this market. See what a proper French SEO engagement covers, market by market.",
     sections: ["Three ways to fail at French SEO", ...ENGAGEMENT],
     body: [
@@ -438,10 +464,12 @@ export const SERVICES: Service[] = [
     slug: "german-seo",
     name: "German SEO",
     inline: "German SEO",
+    h1: "German SEO agency",
+    subhead: "Search in German for Germany, Austria and Switzerland, written natively for buyers who research before they enquire.",
     cluster: "Search",
     angle: "SEO Germany, researched longer, decided slower",
     lede: "German buyers research further before enquiring than most markets, so the page that wins is the one that answers the question rather than the one that ranks loudest.",
-    metaTitle: "German SEO services, Mike Bastin",
+    metaTitle: "German SEO agency, DACH markets",
     metaDescription: "German buyers research longer before enquiring than most markets. See the SEO approach built to answer the question, not just rank for it.",
     sections: ["Three ways to fail at German SEO", ...ENGAGEMENT],
     body: [
@@ -512,10 +540,12 @@ export const SERVICES: Service[] = [
     slug: "spanish-seo",
     name: "Spanish SEO",
     inline: "Spanish SEO",
+    h1: "Spanish SEO agency",
+    subhead: "Search in Spanish for Spain and Latin America, written from Valencia and adapted per country rather than once.",
     cluster: "Search",
     angle: "SEO Spain, researched here rather than abroad",
     lede: "Your Spanish pages are read in Madrid, Mexico City and Bogotá, and what convinces a buyer in one of them reads as foreign in the next. We work Spain from Valencia, and the Latin American variants through native copywriters based in the region.",
-    metaTitle: "Spanish SEO services, from Valencia",
+    metaTitle: "Spanish SEO agency, from Valencia",
     metaDescription: "Spanish SEO for buyers in Madrid, Mexico City and Bogotá, who do not read the same page the same way. Spain run from Valencia, Latin America by native writers.",
     sections: ["Three ways to fail at Spanish SEO", ...ENGAGEMENT],
     body: [
@@ -591,10 +621,12 @@ export const SERVICES: Service[] = [
     slug: "dutch-seo",
     name: "Dutch SEO",
     inline: "Dutch SEO",
+    h1: "Dutch SEO agency",
+    subhead: "Search in Dutch for the Netherlands and Flanders, two markets that read the same language differently.",
     cluster: "Search",
     angle: "Small volume, decisive buyers",
     lede: "Dutch trade search is low in volume and high in intent, which rewards covering a narrow thing properly over covering a broad thing thinly. Bemelman Spuiterij is the worked example.",
-    metaTitle: "Dutch SEO for trade buyers, Mike Bastin",
+    metaTitle: "Dutch SEO agency for trade buyers",
     metaDescription: "Dutch trade search is low volume and high intent. See how covering one narrow set of searches properly beats a broad one covered thinly.",
     sections: ["Three ways to fail at Dutch SEO", ...ENGAGEMENT],
     body: [
@@ -663,10 +695,12 @@ export const SERVICES: Service[] = [
     slug: "italian-seo",
     name: "Italian SEO",
     inline: "Italian SEO",
+    h1: "Italian SEO agency",
+    subhead: "Search in Italian for a market where the commercial terms are far less contested than the English equivalents.",
     cluster: "Search",
     angle: "SEO Italy, where translated copy gets found out",
     lede: "Italian search rewards editorial quality more than most markets, and punishes translated-from-English copy faster.",
-    metaTitle: "Italian SEO services, Mike Bastin",
+    metaTitle: "Italian SEO agency, an uncontested market",
     metaDescription: "Italian search rewards editorial quality and punishes translated-from-English copy fast. See the SEO approach built for that market.",
     sections: ["Three ways to fail at Italian SEO", ...ENGAGEMENT],
     body: [
@@ -730,6 +764,8 @@ export const SERVICES: Service[] = [
     slug: "portuguese-seo",
     name: "Portuguese SEO",
     inline: "Portuguese SEO",
+    h1: "Portuguese SEO agency",
+    subhead: "Search in Portuguese for Portugal and Brazil, which are two markets rather than one language.",
     cluster: "Search",
     angle: "Two markets, one language",
     lede: "Portugal and Brazil are not one market with one keyword set, and treating them as one is the mistake that makes Portuguese look harder than it is.",
@@ -804,6 +840,8 @@ export const SERVICES: Service[] = [
     slug: "local-seo",
     name: "Local SEO",
     inline: "local SEO",
+    h1: "Local SEO services",
+    subhead: "Google Business Profile, citations and neighbourhood pages, in cities that search in more than one language.",
     cluster: "Search",
     angle: "Off-site, one location at a time",
     lede: "Somebody a few streets away searches for exactly what you sell and gets a competitor who is no better, only more consistent about where they appear. In a city that searches in two languages, the gap is twice as wide.",
@@ -884,6 +922,8 @@ export const SERVICES: Service[] = [
     slug: "website-localisation",
     name: "Website localisation",
     inline: "website localisation",
+    h1: "Website localisation services",
+    subhead: "Making a site work in a market rather than merely readable in a language, from the copy to the checkout.",
     cluster: "Localisation",
     pillar: true,
     angle: "Beyond translated strings",
@@ -956,6 +996,8 @@ export const SERVICES: Service[] = [
     slug: "translation-services",
     name: "Translation services",
     inline: "translation services",
+    h1: "Multilingual translation services",
+    subhead: "Sorted by document type, because the risk changes completely from a proposal to a court filing, and so does who should do the work.",
     cluster: "Localisation",
     pillar: true,
     angle: "Where accuracy is a liability question",
@@ -1037,6 +1079,8 @@ export const SERVICES: Service[] = [
     slug: "app-and-software-localisation",
     name: "App and software localisation",
     inline: "app and software localisation",
+    h1: "App and software localisation services",
+    subhead: "Internationalised before launch rather than retrofitted after it, which is where the cost of this work is decided.",
     cluster: "Localisation",
     angle: "Strings, and everything around them",
     lede: "You are shipping the product into a market that writes longer sentences than English, sometimes reads right to left, and reviews you in a store nobody on the team can read. What breaks first is rarely the translation.",
@@ -1100,6 +1144,8 @@ export const SERVICES: Service[] = [
     slug: "ai-consulting",
     name: "AI consulting",
     inline: "AI consulting",
+    h1: "AI consulting services",
+    subhead: "Where machine output helps across languages, and where it quietly costs the trust a page was built to earn.",
     cluster: "AI",
     pillar: true,
     angle: "AI consultants who say where AI does not help",
@@ -1168,6 +1214,8 @@ export const SERVICES: Service[] = [
     slug: "ai-translation-and-post-editing",
     name: "AI translation and post-editing",
     inline: "AI translation and post-editing",
+    h1: "AI translation and post-editing",
+    subhead: "Machine output worked over by a native speaker, because text that reads fluently and is wrong is worse than text that warns you.",
     cluster: "AI",
     angle: "Machine first, human decisive",
     lede: "Your pages came back from the machine reading fluently, which is the problem. A sentence that is confidently wrong is far harder to catch than one that is obviously broken.",
@@ -1230,11 +1278,13 @@ export const SERVICES: Service[] = [
     slug: "generative-engine-optimization",
     name: "Generative engine optimisation",
     inline: "generative engine optimisation",
+    h1: "Generative engine optimisation agency",
+    subhead: "Structured for ChatGPT, Perplexity and Google's AI Overviews to cite you, not only for Google to rank you.",
     cluster: "AI",
     pillar: true,
     angle: "Cited inside the answer, not just ranked below it",
     lede: "ChatGPT, Perplexity and Google's AI Overviews answer a buyer's question directly, and name two or three sources while doing it. Being one of them is the difference between being considered and never being seen.",
-    metaTitle: "Generative engine optimisation and AEO, Mike Bastin",
+    metaTitle: "Generative engine optimisation agency and AEO",
     metaDescription: "ChatGPT, Perplexity and Google AI Overviews name a small number of sources when they answer a question. See what it takes for the answer to name you.",
     expandablesHeading: "What changes when the answer is written for you",
     expandablesLede:
@@ -1338,6 +1388,8 @@ export const SERVICES: Service[] = [
     slug: "technical-seo",
     name: "Technical SEO",
     inline: "technical SEO",
+    h1: "Technical SEO services",
+    subhead: "The work that stops your language versions competing with each other for the same buyers.",
     cluster: "Supporting",
     angle: "Crawlability and hreflang, noticed only when broken",
     lede: "Your French pages and your German pages can end up competing with each other instead of adding up. We find out whether it is happening on your site, and fix what is causing it.",
@@ -1406,6 +1458,8 @@ export const SERVICES: Service[] = [
     slug: "multilingual-content",
     name: "Multilingual content",
     inline: "multilingual content",
+    h1: "Multilingual content services",
+    subhead: "Written in the target language against that market's own research, rather than translated from a page optimised for a different one.",
     cluster: "Supporting",
     angle: "Written per market, not translated",
     lede: "Your Spanish page is a translation of your English one, so it answers the question an English buyer asks. Spanish buyers phrase the problem differently, and they are out looking for the other version.",

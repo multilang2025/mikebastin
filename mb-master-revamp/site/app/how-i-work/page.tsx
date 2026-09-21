@@ -99,10 +99,15 @@ export default function HowIWorkPage() {
           </Reveal>
           <Reveal i={1}>
             <h1 className="mb-6 max-w-[20ch] text-[clamp(2.3rem,5.6vw,4rem)] font-semibold leading-[1.08]">
-              How a multilingual SEO engagement actually runs
+              How the engagement runs
             </h1>
           </Reveal>
           <Reveal i={2}>
+            <h2 className="mb-6 max-w-[46ch] text-[clamp(1.2rem,2.1vw,1.7rem)] font-medium leading-[1.3]" style={{ color: "var(--ink)" }}>
+              What a multilingual SEO engagement covers month to month, how it is billed, and which costs are passed through at cost.
+            </h2>
+          </Reveal>
+          <Reveal i={3}>
             <p
               className="max-w-[60ch] text-[clamp(1.05rem,1.65vw,1.24rem)]"
               style={{ color: "var(--dim)" }}
@@ -113,7 +118,7 @@ export default function HowIWorkPage() {
             </p>
           </Reveal>
 
-          <Reveal i={3}>
+          <Reveal i={4}>
             <div className="mt-10 flex items-center gap-4">
               <img
                 src="/images/mike-bastin.webp"
@@ -181,7 +186,7 @@ export default function HowIWorkPage() {
               not against a fixed menu.
             </p>
           </Reveal>
-          <Reveal i={1}>
+          <Reveal i={2}>
             <ul className="flex flex-col gap-4">
               {[
                 "Which languages the site needs to compete in, and which are optional",

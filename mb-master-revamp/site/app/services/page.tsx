@@ -10,7 +10,7 @@ const DESCRIPTION =
   "Multilingual SEO, localisation and AI consulting in nineteen services across five groups, from market strategy to translation, paid search and the technical work underneath.";
 const CANONICAL = `${SITE_URL}/services/`;
 
-const HERO_TITLE = "Multilingual SEO, localisation and AI consulting services, Mike Bastin";
+const HERO_TITLE = "Multilingual SEO services, Mike Bastin";
 
 export const metadata: Metadata = {
   title: HERO_TITLE,
@@ -44,10 +44,15 @@ export default function ServicesIndex() {
           </Reveal>
           <Reveal i={1}>
             <h1 className="mb-6 max-w-[19ch] text-[clamp(2.3rem,5.6vw,4rem)] font-semibold leading-[1.08]">
-              Multilingual SEO, localisation and AI consulting services
+              Multilingual SEO services
             </h1>
           </Reveal>
           <Reveal i={2}>
+            <h2 className="mb-6 max-w-[46ch] text-[clamp(1.2rem,2.1vw,1.7rem)] font-medium leading-[1.3]" style={{ color: "var(--ink)" }}>
+              Ongoing search across several markets is the main engagement, with localisation, paid search and AI consulting around it.
+            </h2>
+          </Reveal>
+          <Reveal i={3}>
             <p className="max-w-[58ch] text-[clamp(1.05rem,1.5vw,1.2rem)] leading-[1.58]" style={{ color: "var(--dim)" }}>
               Lead generation, search, localisation, AI and the technical
               work underneath all of it. Start with the job in front of

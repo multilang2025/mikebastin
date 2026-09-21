@@ -126,11 +126,21 @@ export default async function ServicePage({
             </div>
           </Reveal>
           <Reveal i={2}>
-            <h1 className="mb-6 max-w-[18ch] text-[clamp(2.3rem,5.6vw,4rem)] font-semibold leading-[1.08]">
-              {service.name}
+            {/* Owner rule, 21 Sep 2026: the h1 is three to five words and
+                carries the term the page is trying to win, with a longer
+                h2 under it, set smaller, echoing rather than changing the
+                subject. `service.name` stays the label the nav, footer and
+                cards use; `service.h1` is the heading. */}
+            <h1 className="mb-4 max-w-[18ch] text-[clamp(2.3rem,5.6vw,4rem)] font-semibold leading-[1.08]">
+              {service.h1}
             </h1>
           </Reveal>
           <Reveal i={3}>
+            <h2 className="mb-6 max-w-[46ch] text-[clamp(1.2rem,2.1vw,1.7rem)] font-medium leading-[1.3]" style={{ color: "var(--ink)" }}>
+              {service.subhead}
+            </h2>
+          </Reveal>
+          <Reveal i={4}>
             <p className="max-w-[60ch] text-[clamp(1.05rem,1.5vw,1.2rem)] leading-[1.58]" style={{ color: "var(--dim)" }}>
               {service.lede}
             </p>
@@ -141,7 +151,7 @@ export default async function ServicePage({
               the work is the cheapest help that decision can get. See
               components/ServiceProof.tsx for why training reviews are
               excluded. */}
-          <Reveal i={4}>
+          <Reveal i={5}>
             <div className="mt-10">
               <ServiceProof slug={service.slug} />
             </div>

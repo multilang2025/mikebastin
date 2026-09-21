@@ -71,10 +71,15 @@ export default function LeadGenerationPage() {
           </Reveal>
           <Reveal i={1}>
             <h1 className="mb-6 max-w-[17ch] text-[clamp(2.4rem,6vw,4.2rem)] font-semibold leading-[1.08]">
-              Why is your French, German or Spanish site not producing enquiries?
+              Multilingual lead generation
             </h1>
           </Reveal>
           <Reveal i={2}>
+            <h2 className="mb-6 max-w-[46ch] text-[clamp(1.2rem,2.1vw,1.7rem)] font-medium leading-[1.3]" style={{ color: "var(--ink)" }}>
+              Traffic in several languages and enquiries in one is the pattern we are called about most, and it is rarely a traffic problem.
+            </h2>
+          </Reveal>
+          <Reveal i={3}>
             <p className="max-w-[58ch] text-[clamp(1.05rem,1.5vw,1.2rem)] leading-[1.58]" style={{ color: "var(--dim)" }}>
               Multilingual SEO, localisation and AI consulting are the
               mechanisms. Enquiries are the product. Ninety days of Search
@@ -147,7 +152,7 @@ export default function LeadGenerationPage() {
             </p>
           </Reveal>
 
-          <Reveal i={1}>
+          <Reveal i={2}>
             <div
               className="grid gap-px sm:grid-cols-2"
               style={{ background: "var(--rule)" }}
@@ -179,7 +184,7 @@ export default function LeadGenerationPage() {
               the meantime.
             </p>
           </Reveal>
-          <Reveal i={1}>
+          <Reveal i={2}>
             <Testimonials />
           </Reveal>
         </div>
