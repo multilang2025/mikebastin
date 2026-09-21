@@ -137,6 +137,17 @@ needs.
   it; it inflects it. Never build a heading by case-shifting a label:
   store the mid-sentence form (`Service.inline`, `CLUSTER_INLINE`).
   `copy-lint-code.mjs` fails the build on a case-shifted heading.
+- **The approved headline shape** (owner, 21 Sep 2026, "that's the way
+  forward"): state the thing of theirs that already works, then promise
+  the same for the part that does not, with a concrete noun and a
+  positive verb, and the focus keyword inside the promise. The homepage
+  h1 is the worked example: "Your English pages sell. Multilingual SEO
+  makes your other languages sell too." Two named failure modes to keep
+  out: **void** referents ("the ones that", "the others"), meaning a
+  pronoun aimed at something the reader has not been given, and
+  **negative framing** that states the damage rather than the offer
+  ("losing you money", "a language problem, not a traffic problem"). Full
+  reasoning in `.claude/skills/mb-copy-voice/SKILL.md`.
 - **The focus keyword is always in the h1** (owner, 21 Sep 2026). Every
   page has one term it is trying to win, and the h1 carries it, whatever
   else the headline is doing. A hero rewritten for punch that drops the

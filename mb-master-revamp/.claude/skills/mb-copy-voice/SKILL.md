@@ -68,12 +68,50 @@ headline is doing, the term the page is trying to win appears in the h1.
 Writing for punch is exactly when this gets dropped. The homepage h1 was
 rewritten to "Your English pages sell. The others only look busy.", which
 opens on the reader and carries no keyword at all, and had to be fixed
-the same day it shipped. It now reads "Your English pages sell.
-Multilingual SEO for the ones that do not.": the hook survives and the
-term is back.
+the same day it shipped.
 
 A noun phrase is fine here. Every service h1 is one, and "grammatical"
 in HANDOFF.md §4 means correct English rather than a full sentence.
+
+## The headline pattern, approved by the owner
+
+The homepage h1 took three rounds and the owner signed off on the third
+with "that's the way forward". Worth naming the moves, because the first
+two rounds each fixed one fault and introduced another, and a pattern is
+harder to regress than a lucky line.
+
+> **Your English pages sell.**
+> **Multilingual SEO makes your other languages sell too.**
+
+Five things are happening, and the order matters:
+
+1. **Open on what already works for them**, not on what is broken. "Your
+   English pages sell" is a compliment the reader agrees with before
+   they have decided anything about us. Agreement first, then the offer.
+2. **Name the second half with a concrete noun.** "Your other languages"
+   is possessive and countable. "The ones that do not" and "the others"
+   both failed here, and the owner's word for them is **void**: a pronoun
+   pointing at something the reader has not been handed yet. Make the
+   reader reach and the sentence stops selling.
+3. **Carry the focus keyword** in the same breath, not bolted on.
+   "Multilingual SEO" is the grammatical subject of the second sentence,
+   so it earns its place instead of sitting there for the crawler.
+4. **Use a positive verb for the promise.** Say what starts happening,
+   never what is being lost. "Makes your other languages sell too" and
+   "is losing you money" describe the same engagement; only one of them
+   is an offer.
+5. **Repeat the verb to bind the halves.** "Sell" lands twice, which
+   turns an observation into a promise without a single adjective.
+
+The general shape, for any page: **state the thing of theirs that
+already works, then promise the same for the part that does not, using a
+concrete noun and a positive verb, with the keyword inside the promise.**
+
+It is not a template to paste. A service h1 is a noun phrase and stays
+one. Use it where a page has a hero with room for two sentences, and use
+the underlying test everywhere: does the first sentence describe them,
+does the second promise something, and can a reader point at every noun
+in both.
 
 ## What proof looks like
 
