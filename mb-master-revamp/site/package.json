@@ -11,7 +11,9 @@
     "lint:copy": "node scripts/copy-lint.mjs",
     "lint:code": "node scripts/copy-lint-code.mjs",
     "check:launch": "node scripts/launch-check.mjs",
-    "verify": "npm run typecheck && npm run lint:copy && npm run lint:code && npm run build && npm run check:launch"
+    "verify": "npm run typecheck && npm run lint:copy && npm run lint:code && npm run build && npm run lint:jargon && npm run check:launch",
+    "lint:jargon": "node scripts/copy-jargon-lint.mjs",
+    "report:jargon": "node scripts/copy-jargon-lint.mjs --report"
   },
   "dependencies": {
     "clsx": "^2.1.1",

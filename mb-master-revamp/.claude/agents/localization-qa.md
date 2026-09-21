@@ -82,3 +82,60 @@ from WordPress: convert it, protecting the acronyms, never keep it.
 - **Filter an external model's output through the house rules.** A French
   rewrite suggested in that audit reintroduced a year stamp that the same
   day's decision had removed from every title.
+
+## Per-market conventions (added 21 September 2026)
+
+Source: `docs/STYLE-GUIDE-UK-EU.md` §4 and §5. These are the parts of that
+guide that are this agent's rather than `copy-editor`'s, because they only
+go wrong once a second locale exists.
+
+**Number formatting is per market, not per site.** UK and Ireland write
+`1,000.50`. France, Germany, Spain, Italy and the Netherlands write
+`1.000,50`. Carrying the UK form into FR, ES or NL copy is the same class
+of error as leaving an untranslated string in a menu: mechanically
+invisible, obvious to a native reader. Check any figure in a localised
+document against that locale's convention, not the English source's.
+
+The same applies to dates. English prose takes *21 September 2026*; each
+locale takes its own form. ISO 8601 stays in frontmatter and data, where
+it belongs, and never reaches a reader in any locale.
+
+`content/nl` is planned (CONTENT-ARCHITECTURE.md §2). Dutch uses the
+Continental form, so this check has to be in place before that locale
+ships rather than retrofitted onto it.
+
+**Sworn and certified translation is not one term across Europe**, and
+using "sworn translation" as a catch-all misstates the legal mechanism in
+most markets. The correct local designations:
+
+| Market | Designation |
+|---|---|
+| France | *Traducteur Assermenté* |
+| Spain | *Traductor/a Jurado/a* |
+| Germany | *beeidigter/ermächtigter Übersetzer* |
+| Netherlands | *beëdigd vertaler* |
+| Italy | *traduzione giurata* / *asseverazione* |
+
+Some countries run a sworn-translator registry and some use notarisation
+or certification instead. The difference decides whether a buyer's
+document will be accepted, so it is a commercial fact, not a
+terminological nicety.
+
+**Where this stands today.** `lib/services.ts` (the
+certified-and-sworn-translation service) already separates certified,
+sworn, notarised and apostilled correctly and says the receiving
+institution is the only authority on which is required. The hard part is
+already right. What is missing is the per-country designation: a
+French or Spanish buyer searching the term they were actually given by
+their court or consulate finds none of those words on the page. Treat it
+as a content gap worth raising with the owner, not as a defect to fix by
+inventing legal detail.
+
+**Locale-aware routing.** No locale may silently fall back to another
+locale's template, proxy or default route. A French URL that renders
+English content is worse than a 404, because it looks like it worked.
+
+**English linking rules do not transfer.** A regex-based or automated
+internal linker written against English copy must not run over FR, ES or
+NL text. Localised anchor text needs its own review pass, in the
+grammatically correct inflected form for that locale.

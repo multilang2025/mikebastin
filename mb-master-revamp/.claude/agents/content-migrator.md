@@ -70,3 +70,70 @@ from WordPress: convert it, protecting the acronyms, never keep it.
 - **Convert Title Case rather than keeping it.** WordPress titles arrive in
   Title Case and the site is sentence case throughout. Convert, protecting
   acronyms and proper nouns; a blind lowercase turns SEO into seo.
+
+## Carrying things across a migration (added 21 September 2026)
+
+Source: `docs/STYLE-GUIDE-UK-EU.md` §3, §4 and §6. A migration is the
+single highest-risk moment for all three, because the failure is silent:
+the new page looks finished.
+
+**Carry every external link forward.** A link in the WordPress source
+survives into the MDX unless its target is genuinely dead, spam or a
+competitor. Editorial taste is not grounds for dropping one, since some
+links are paid placements or partner relationships that nothing in the
+markup identifies. Where a paragraph is rewritten rather than transferred,
+the link moves into the new sentence.
+
+**Carry a statistic's source with it.** The house pattern puts the source
+in a blockquote directly beneath the figure, as
+`content/en/posts/competitor-analysis-traffic-checklist.md` does. A
+migration that keeps the number and drops the citation turns a sourced
+claim into an unsourced one. Check the period and the cohort while
+transferring, not only that a link is present: 49 English posts carry a
+percentage and 14 carry a `Source:` line, so most migrated figures arrived
+uncited and must not be given a plausible-looking citation to close the
+gap.
+
+**Convert date formats.** WordPress prose carries US order
+("September 21, 2026") often enough that it should be assumed present.
+Reader-facing prose takes *21 September 2026*. ISO 8601 goes in the
+frontmatter, never in the body.
+
+**Convert number, currency and unit formats** to the target market: metric
+units, £ or € rather than $, and the locale's own thousands and decimal
+separators (`1,000.50` for UK and Ireland, `1.000,50` for France, Germany,
+Spain, Italy and the Netherlands).
+
+## Preservation gates (added 21 September 2026)
+
+Source: the house playbook, §7 and §9. Adopted because the failure mode
+each one catches is silent: the output looks finished.
+
+**The content-preservation diff gate.** On any migration or rewrite,
+compare the word stream of the source against the word stream of the
+output and fail loudly on anything beyond a rounding difference. An
+automated conversion that eats a paragraph produces a page that renders
+correctly, reads plausibly and is missing an argument. No reviewer catches
+that by reading; a diff catches it every time.
+
+**Diff the external-URL set before and after.** Extract every external
+href from the source and from the output and compare the sets. A link
+dropped in a rewrite is invisible to a reviewer, who sees only what is
+there. The set is small enough here to check by eye (four destinations
+across the whole content set) and small enough that losing one is a
+material loss, since two of the four are the cited sources for statistics
+on a cluster pillar.
+
+**Carry a statistic verbatim.** Never round it, never re-derive it, never
+restate it in different units because the sentence reads better. A figure
+inherited from a legacy page or a scrape is not trustworthy simply because
+it was already published: verify it against the source, and if the source
+cannot be found, the figure goes rather than being carried forward on
+trust.
+
+**Word counting has one implementation.** Migration parity checks and
+frontmatter counts use the same function, never a fresh `split(/\s+/)` in
+a one-off script. A hand-rolled count drifts from the render pipeline and
+reports false parity. Today `scripts/flag-thin.mjs` is the only counter in
+the repo, so the rule costs nothing to keep; the moment a second script
+needs a count, extract the first one rather than writing another.

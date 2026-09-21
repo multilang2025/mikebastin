@@ -43,6 +43,11 @@ Same model as valenciamove.com, which the owner already runs at larger scale
   CONTENT-ARCHITECTURE.md §2. Don't build for it early; the directory
   structure already scales to it without rework.
 - **Media:** `/public/images/`, no media library and no object storage.
+  **The one exception the owner has left open is heavy video** (21 Sep
+  2026): if the site ever carries video too large to sit in the repo and
+  ship through a static export, object storage is on the table for that
+  and for nothing else. It would be storage for media files, not a
+  content store, and it does not reopen the database decision.
   The build is `output: "export"` with `images: { unoptimized: true }`, so
   nothing gains from `next/image`; sizes are baked at build time instead.
   Each of the 56 migrated posts shows **the featured image it already had
@@ -67,8 +72,17 @@ Same model as valenciamove.com, which the owner already runs at larger scale
   by the `scripts/gen-*-redirects.mjs` family. Never hand-maintained. Not
   `next.config` `redirects()`, which never runs under `output: "export"`;
   the config carries no `redirects()` block at all.
-- **Hosting:** Vercel. Hostinger is viable too, since valenciamove.com runs
-  there, so this is reversible rather than load-bearing.
+- **Hosting:** the preview pipeline is GitHub Actions to
+  **preview.mikebastin.com over FTPS**, built as a static export by
+  `.github/workflows/deploy-preview.yml`. No Vercel: there is no
+  `vercel.json` and no Vercel reference anywhere in the repo, so none of
+  its defaults apply, including per-branch preview URLs, middleware, ISR
+  and edge functions. The line here previously read "Hosting: Vercel",
+  corrected 21 Sep 2026 against the workflow. **Vercel is now ruled out by
+  the owner** (21 Sep 2026), so the question is closed rather than open:
+  production goes the way the pipeline already goes, as valenciamove.com
+  does. Do not propose Vercel again, and do not reach for a feature that
+  assumes it.
 
 Nothing in this directory contains real credentials. Secrets go in `.env`
 (gitignored, see below), never in a committed file, never in an agent's
@@ -123,6 +137,27 @@ needs.
   it; it inflects it. Never build a heading by case-shifting a label:
   store the mid-sentence form (`Service.inline`, `CLUSTER_INLINE`).
   `copy-lint-code.mjs` fails the build on a case-shifted heading.
+- **The approved headline shape** (owner, 21 Sep 2026, "that's the way
+  forward"): state the thing of theirs that already works, then promise
+  the same for the part that does not, with a concrete noun and a
+  positive verb, and the focus keyword inside the promise. The homepage
+  h1 is the worked example: "Your English pages sell. Multilingual SEO
+  makes your other languages sell too." Two named failure modes to keep
+  out: **void** referents ("the ones that", "the others"), meaning a
+  pronoun aimed at something the reader has not been given, and
+  **negative framing** that states the damage rather than the offer
+  ("losing you money", "a language problem, not a traffic problem"). Full
+  reasoning in `.claude/skills/mb-copy-voice/SKILL.md`.
+- **The focus keyword is always in the h1** (owner, 21 Sep 2026). Every
+  page has one term it is trying to win, and the h1 carries it, whatever
+  else the headline is doing. A hero rewritten for punch that drops the
+  term is a regression, not a trade: the homepage h1 was rewritten to
+  "Your English pages sell. The others only look busy." and had to be
+  corrected the same day. Service h1s already satisfy this by being the
+  term ("Technical SEO", "Website localisation"); the risk is on the
+  hand-written pages. `/results/` and `/contact/` are the two h1s that do
+  not carry their title term, and both target navigational words rather
+  than commercial ones, so they are flagged rather than forced.
 - Design tokens (colour, type) come only from HANDOFF.md §2/§22/§23 (Night
   Swell / Morning Glass palette — aubergine is retired, do not reintroduce
   it). No hex outside that set. No monospace UI fonts.
@@ -130,6 +165,124 @@ needs.
   Never 404 on launch.
 - IP boundary: no Marvel/superhero imagery tied to "Silver Surfer" — it is a
   prose-only nickname, visual language is original surf/wave motifs.
+
+## Copy has to sell, not only pass the protocol
+
+The Master Content Protocol and the `copy-editor` agent are all
+prohibitions. Copy can pass every one of them and still be unsellable,
+and in September 2026 most of it was: 19 service pages measured 12.1
+jargon terms per thousand words against 7.3 benefit terms, four of the
+five biggest pages opened their hero on mechanism ("Crawlability,
+indexation and the hreflang plumbing"), and 18 of 19 carried no proof
+element at all while four Google reviews sat unused.
+
+`.claude/skills/mb-copy-voice/SKILL.md` is the positive half: who the
+buyer is, the order a page makes its case in, where jargon is allowed,
+what counts as proof. Read it before writing any customer-facing string.
+
+`site/scripts/copy-jargon-lint.mjs` enforces the part that can be
+mechanised, and it is zoned rather than absolute. Mechanism vocabulary
+is banned in the hero and the meta description of a **commercial** page
+and welcome below the first section, where a reader who is still going
+wants the precise term and the page needs it to rank. Editorial routes
+are reported and never failed, because a reader who searched for
+hreflang tags arrived wanting that word in the headline. It runs on the
+built output inside `npm run verify`.
+
+## The UK and International Europe style guide
+
+`docs/STYLE-GUIDE-UK-EU.md` (owner, 21 Sep 2026). Its language and
+heading sections restate rules this project already enforces. The value
+is in the rest, which the Master Content Protocol never covered:
+
+- A statistic carries its source in a blockquote directly beneath the
+  figure, and the period and the cohort get checked, not only the number.
+  49 English posts carry a percentage and 14 carry a `Source:` line.
+- **An external link is never removed during a rewrite** unless the target
+  is dead, spam or a competitor. There are four external destinations in
+  the whole content set, two of them the sources for statistics on a
+  cluster pillar, so one careless rewrite can strip the evidence and leave
+  the claim.
+- Dates in prose are `21 September 2026`; ISO 8601 stays in frontmatter.
+  Currency leads with GBP or EUR, never USD. Units metric, times 24-hour.
+- Thousands and decimal separators are per market: `1,000.50` for the UK
+  and Ireland, `1.000,50` for France, Germany, Spain, Italy and the
+  Netherlands. Relevant now, and load-bearing when `content/nl` ships.
+- Sworn and certified translation is not one term across Europe. Use the
+  local designation rather than a catch-all English gloss.
+- Never claim a certification, accreditation or track record the business
+  does not hold. Extends the existing ban on inventing a price, a
+  guarantee, a turnaround or a client outcome.
+
+Split across `copy-editor` (language, sourcing, claims),
+`localization-qa` (per-market formats, legal terminology),
+`seo-preservation` (trailing slashes, image parity, link targets),
+`seo-offpage` (anchor text, link preservation) and `content-migrator`
+(carrying links, sources and formats across a migration).
+
+## Orchestration and memory (house playbook, 21 Sep 2026)
+
+`docs/PLAYBOOK-ADOPTION.md` records what was taken from the owner's house
+playbook and, more importantly, what was refused: Supabase, next-intl,
+shadcn/ui and per-page message files all reverse closed decisions, and the
+playbook's button decision table would break under band alternation. Read
+it before acting on that playbook.
+
+**Where work runs:**
+
+| Job | Where |
+|---|---|
+| Architecture, stack, final merge gate | Main session, never delegated |
+| Five or more near-identical instances of a template | Parallel sub-agents |
+| Shared config, design tokens, routing, schema | Main session, one hand |
+| Deterministic linting | Cheapest model that runs it |
+| Fact-checking, stats sourcing | Live search, never a model's recall |
+
+Below five instances, agents cost more context than they save.
+
+**Memory is written in the turn the decision is made**, not batched for
+the end of a session, because a session compacts without warning. A new
+convention goes into the style guide or the lint when it is established.
+An agent that finds something contradicting a memory file corrects the
+file in the same pass, not only the code: fixing the symptom and leaving
+the stale doc guarantees the next session repeats the mistake. Two
+corrections came out of that rule on the day it was adopted, the hosting
+line above and a stale Next.js version in `cto.md`.
+
+## Surfaced 21 Sep 2026, unresolved
+
+Found while applying the owner's style guide and reviewing the built
+output. None blocks launch; each needs a decision or a small change.
+Recorded here rather than left in chat history.
+
+- **`lib/schema.ts` emits no `image` on any type**, while every route group
+  has an `opengraph-image.tsx` and 57 posts have a real photograph. The
+  social card carries an image and the structured data claims none.
+- **The static HTML ships `0 Years in search`.** `Counter.tsx` animates up
+  after hydration and handles reduced motion correctly, so a normal
+  visitor is fine, but anything reading the HTML without running JS reads
+  a consultancy advertising zero years.
+- **Five service pages render literal backticks** to the reader (french-,
+  portuguese-, italian-, local-seo and the GEO page), because
+  `demand.note` is plain text in JSX and its markdown never renders.
+- **Two commercial pages quote Ahrefs CPC in dollars** to a European
+  audience. Ahrefs reports USD, so converting silently would misstate the
+  source. The other 16 dollar figures are in blog posts, where quoting a
+  source's own currency is defensible.
+- **49 English posts carry a percentage, 14 carry a `Source:` line.** Not
+  to be bulk-fixed: a figure whose source cannot be found gets cut, never
+  a plausible-looking citation.
+- **The hero lede still opens on the negative** ("The enquiries still come
+  from the English pages"). Kept deliberately, since the voice skill wants
+  a page to open on the reader's situation, but it sits against the
+  owner's 21 Sep instruction to avoid negative wording. Owner's call.
+- **`lib/schema.ts:50` says Mike Bastin "founded" BeTranslated** where four
+  other places say "co-founded". Checked this run: the line is a **code
+  comment**, and the emitted schema only names BeTranslated under
+  `worksFor` with no founding claim, so nothing reaches a reader. Worth
+  correcting for accuracy, not a live factual error.
+- **The Unsplash key pasted in chat has not been rotated.** Erasing a
+  message is not rotation.
 
 ## Agent roster
 
@@ -161,8 +314,13 @@ scope, or spend decision, not on every diff.
 ## Open decisions
 
 Tracked in `docs/HANDOFF.md` §21 "Decisions OPEN" and §17 addendum. Resolve
-with the owner before P1 work depends on them (repo org, X handle/posts, Tier C prune sign-off, service consolidation,
-Valencia STAY-list sign-off, credibility strip numbers).
+with the owner before P1 work depends on them. Still open: X handle and the
+three featured post URLs, Valencia STAY-list sign-off, credibility strip
+numbers, the twelve posts rendering "Uncategorised", and the GEO
+blog/service term overlap. Closed since that list was written: repo org
+(`multilang2025/mikebastin`), Tier C prune (below), the 43 to 19 service
+consolidation (built and live in `lib/services.ts`), the host and the
+database (§27).
 
 **Tier C prune is CLOSED** (owner, 20 Sep). `docs/BLOG-PRUNE-AUDIT.md` holds
 the record. REMOVE and MERGE shipped the same day, with all 42 legacy URLs

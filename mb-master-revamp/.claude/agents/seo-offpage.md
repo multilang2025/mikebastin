@@ -52,3 +52,29 @@ above. Never build a heading by case-shifting a label.
 Sentence case everywhere. Capitalise the first word, proper nouns and
 acronyms only. Title Case is a fail, including on a title carried over
 from WordPress: convert it, protecting the acronyms, never keep it.
+
+## Anchor text and link preservation (added 21 September 2026)
+
+Source: `docs/STYLE-GUIDE-UK-EU.md` §3 and §6.
+
+**Anchor text is a 2 to 4 term expression.** Never a single word, never
+"click here" or a bare "SEO". It carries the grammatically correct
+inflected form for its locale, and it varies across pages: the same anchor
+repeated site-wide to one target reads as a pattern rather than as an
+editorial link, and wastes the chance to cover a second phrasing.
+
+**Never remove a live external link during a rewrite.** A link goes only
+if the target is genuinely dead, is spam, or is a direct competitor.
+"Reads like an insertion" is not a reason. Some links are paid placements
+or partner relationships of long standing, and the person removing one
+usually cannot see which. When a target moves, repoint it and verify the
+new destination is actually relevant, rather than deleting it.
+
+The whole content set has four external destinations
+(`www.traffic-masters.net`, `brightseotools.com`, `www.betranslated.com`,
+`commons.wikimedia.org`). The first two are the cited sources for
+statistics on the `competitor-analysis-traffic-checklist` pillar, which
+exists in two places (the post and the hand-built page), so a rewrite of
+either can drop the evidence for a number while leaving the number.
+
+**Never fabricate a link destination.** Confirm the page exists first.

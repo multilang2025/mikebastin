@@ -159,8 +159,8 @@ export default function Testimonials({
             );
           })}
         <span className="ml-auto text-[.8rem]" style={{ color: "var(--dim)" }}>
-          {inLocale.length} of {TESTIMONIALS.length} reviews, the ones written
-          in this language
+          {inLocale.length} of {TESTIMONIALS.length} reviews, written in this
+          language
         </span>
       </div>
 

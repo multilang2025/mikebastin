@@ -71,3 +71,48 @@ from WordPress: convert it, protecting the acronyms, never keep it.
 - **Filter an external model's output through the house rules.** A French
   rewrite suggested in that audit reintroduced a year stamp that the same
   day's decision had removed from every title.
+
+## Technical consistency checks (added 21 September 2026)
+
+Source: `docs/STYLE-GUIDE-UK-EU.md` §8. Market-agnostic, and this agent's
+because each one is a mechanical check against the built output.
+
+**Trailing slashes.** Every link to the same route uses the same form. An
+inconsistent form costs an avoidable redirect hop on every click. This
+site uses the trailing slash throughout, and a sweep of `app/`,
+`components/` and `lib/` on 21 September 2026 found no internal `href`
+missing one. Clean is the baseline: treat any new bare-path internal link
+as a regression, not a style preference.
+
+**A page's social image and its structured-data image should be the same
+real, on-topic image.** Neither should fall back to a generic brand logo
+where a genuine hero or section image exists.
+
+**Open finding, unresolved.** `lib/schema.ts` emits no `image` property on
+any type: not on `BlogPosting`, not on `Service`, not a `logo` on the
+`Organization`. Meanwhile every route group has an `opengraph-image.tsx`
+(`app/`, `app/blog/`, `app/blog/[slug]/`, `app/services/`,
+`app/services/[slug]/`, `app/services/lead-generation/`), and 57 posts have
+a real photograph mapped in `lib/blog-images.ts`. So the social card
+carries an image and the structured data claims none, on the same page.
+Google treats `image` on `BlogPosting` as recommended, and an article
+without one is less eligible for rich presentation. Raise it as a blocking
+finding on any PR that touches `lib/schema.ts` until it is resolved.
+
+**Never fabricate a link destination**, internal or external. Confirm the
+target resolves before it ships. Distinct from the existing no-404 check,
+which catches a target that broke: this catches one that never existed,
+which is the failure mode when a rewrite invents a plausible-looking URL.
+
+**A CTA has to land where its label promises.** If a page adds a
+preselect, query parameter or deep link (a quote form defaulting to a
+named service, say), wire every entry point that plausibly promises it. A
+button reading "Get a quote for website localisation" must not land on a
+generic contact form. No such mechanism exists on the site today, so this
+is a check for when one is added rather than a current gap.
+
+**Internal-link anchor text is a 2 to 4 term expression**, never a single
+word, grammatically inflected for its locale, and varied across pages
+rather than the same phrase repeated. Shared with `seo-offpage`, which
+owns the policy; check it here on any PR that adds internal links in bulk,
+`lib/posts.ts` related-post rotation included.

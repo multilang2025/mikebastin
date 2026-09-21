@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import Reveal from "@/components/Reveal";
+import ServiceProof from "@/components/ServiceProof";
 import SiteFooter from "@/components/SiteFooter";
 import Expandables from "@/components/Expandables";
 import JsonLd from "@/components/JsonLd";
@@ -132,6 +133,17 @@ export default async function ServicePage({
             <p className="max-w-[60ch] text-[clamp(1.05rem,1.5vw,1.2rem)] leading-[1.58]" style={{ color: "var(--dim)" }}>
               {service.lede}
             </p>
+          </Reveal>
+          {/* Proof in the hero, not at the foot of the page. A visitor who
+              has never heard of us is deciding whether to keep reading on
+              the strength of one paragraph; a named client saying we did
+              the work is the cheapest help that decision can get. See
+              components/ServiceProof.tsx for why training reviews are
+              excluded. */}
+          <Reveal i={4}>
+            <div className="mt-10">
+              <ServiceProof slug={service.slug} />
+            </div>
           </Reveal>
         </div>
       </section>

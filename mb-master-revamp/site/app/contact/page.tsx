@@ -8,7 +8,7 @@ import { SERVICES } from "@/lib/services";
 export const metadata: Metadata = {
   title: "Contact, Mike Bastin",
   description:
-    "Tell us which language is losing you money. A short brief on multilingual SEO, localisation or AI consulting gets a straight answer within a working day.",
+    "Tell us which language you want selling next. A short brief on multilingual SEO, localisation or AI consulting gets a straight answer within a working day.",
 };
 
 /**
@@ -39,7 +39,7 @@ export default function ContactPage() {
           </Reveal>
           <Reveal i={1}>
             <h1 className="mb-6 max-w-[18ch] text-[clamp(2.3rem,5.6vw,4rem)] font-semibold leading-[1.08]">
-              Tell us which language is losing you money
+              Tell us which language you want selling next
             </h1>
           </Reveal>
           <Reveal i={2}>

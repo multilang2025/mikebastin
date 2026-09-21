@@ -195,9 +195,9 @@ export const PROJECTS: Project[] = [
     name: "Delaguía y Luzón",
     domain: "delaguialuzon.com",
     angle: "Valencia law firm",
-    body: "Legal, labour, immigration and tax across Spain and France, in four languages including Russian. Legal SEO where a mistranslated term is a liability, not a ranking problem.",
+    body: "Legal, labour, immigration and tax across Spain and France, in four languages including Russian. Legal SEO where every term has to hold up to a lawyer reading it.",
     metaTitle: "Delaguía y Luzón, a case study",
-    metaDescription: "Legal SEO across four languages and two jurisdictions, where a mistranslated term is a liability, not a ranking problem. See how that gets handled.",
+    metaDescription: "Legal SEO across four languages and two jurisdictions, where every term has to hold up to a lawyer reading it. See how that gets handled.",
     metrics: [
       { v: "4", k: "Languages" },
       { v: "2", k: "Jurisdictions" },

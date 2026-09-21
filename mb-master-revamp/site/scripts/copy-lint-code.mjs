@@ -25,6 +25,28 @@ const DIRS = ["app", "components", "lib"];
  */
 const EXEMPT_FILES = [/lib\/testimonials\.ts$/];
 
+/**
+ * US spellings, in a site written in UK English.
+ *
+ * copy-lint.mjs has checked content/ for these since September; this file
+ * never did, and "Every locale gets the same rigor" sat in the homepage's
+ * "Why it works" cards the whole time. A rule about spelling that runs on
+ * half the copy catches half the mistakes.
+ *
+ * `color` and `center` are deliberately absent. Both are CSS, and Tailwind
+ * class strings reach copyStrings() because they contain spaces, so
+ * including either would fail the build on `items-center`.
+ */
+const US_SPELLINGS = [
+  "rigor", "rigors", "behavior(?:s|al)?", "favor(?:s|ed|ite|ites)?",
+  "honor(?:s|ed)?", "labor(?:s|ed)?", "catalog(?:s|ed)?",
+  "organiz(?:e|es|ed|ing|ation|ations)", "recogniz(?:e|es|ed|ing|able)",
+  "optimiz(?:e|es|ed|ing|ation|ations)", "localiz(?:e|es|ed|ing|ation)",
+  "specializ(?:e|es|ed|ing|ation)", "analyz(?:e|es|ed|ing)",
+  "prioritiz(?:e|es|ed|ing)", "customiz(?:e|es|ed|ing|ation)",
+  "traveled", "traveling", "modeling", "canceled", "defense", "offense",
+];
+
 const FORBIDDEN = [
   "comprehensive", "tailor(?:ed|ing|s)?", "seamless(?:ly)?",
   "leverag(?:e|es|ed|ing)", "elevat(?:e|es|ed|ing)", "craft(?:s|ed|ing)?",
@@ -50,18 +72,35 @@ const EXEMPT = [
 /** Strings, JSX text, and nothing else. */
 function copyStrings(src) {
   const out = [];
+  // Comments are not copy. The JSX-text pass matches anything between a
+  // `>` and a `<`, which happily spans a closing tag, a doc comment and
+  // the next line of code, so a US-spelling rule read the slug key in
+  // components/ServiceIcon.tsx as prose. Stripping comments first fixes
+  // that for every rule, not only the new one. Only whole-line `//` goes,
+  // since a trailing one cannot be told from the `//` in a URL.
+  src = src.replace(/\/\*[\s\S]*?\*\//g, " ").replace(/^\s*\/\/.*$/gm, " ");
+
   // An `author:` value names somebody else: a photographer credited in
   // lib/blog-images.ts, not anything a visitor reads. Without this, a
   // public domain photograph by a Michael fails the house rule about the
-  // brand being Mike Bastin, which the rule was never about. The values
-  // go nowhere near a page, so they are not copy.
-  src = src.replace(/\bauthor:\s*(["'`])(?:[^\\]|\\.)*?\1/g, "author: \"\"");
+  // brand being Mike Bastin, which the rule was never about. A `legacy:`
+  // value is the same kind of thing, a filename on Commons or a
+  // WordPress upload path. Neither goes near a page, so neither is copy.
+  src = src.replace(/\b(?:author|legacy):\s*(["'`])(?:[^\\]|\\.)*?\1/g, "x: \"\"");
   // Double- and single-quoted string literals, and template literals.
   for (const m of src.matchAll(/"((?:[^"\\\n]|\\.)*)"|'((?:[^'\\\n]|\\.)*)'|`((?:[^`\\]|\\.)*)`/g)) {
     out.push(m[1] ?? m[2] ?? m[3] ?? "");
   }
   // JSX text nodes: between > and <, with no braces (those are expressions).
-  for (const m of src.matchAll(/>([^<>{}]+)</g)) out.push(m[1]);
+  //
+  // A `>` and the next `<` can sit on different lines with code between
+  // them, as they do after a `</>` in components/ServiceIcon.tsx, so the
+  // span picked up an object key and read it as prose. Anything carrying
+  // the punctuation of code rather than of a sentence is dropped.
+  const LOOKS_LIKE_CODE = /\)\s*,|["'`]\s*:|=>|;\s*$/m;
+  for (const m of src.matchAll(/>([^<>{}]+)</g)) {
+    if (!LOOKS_LIKE_CODE.test(m[1])) out.push(m[1]);
+  }
   return out
     .map((s) => s.trim())
     .filter((s) => s.length > 3)
@@ -110,13 +149,21 @@ for (const path of files) {
     }
   }
 
-  for (const line of copyStrings(src)) {
+  for (const raw of copyStrings(src)) {
+    // Backticks mark a term quoted verbatim, which in lib/services.ts is
+    // always a real search query: `generative engine optimization` is how
+    // buyers spell it, whatever the service is called. Quoting a keyword
+    // is reporting, so no prose rule applies inside the ticks.
+    const line = raw.replace(/`[^`]*`/g, " ");
     for (const w of FORBIDDEN) {
       if (new RegExp(`\\b${w}\\b`, "i").test(line)) issues.push([`forbidden: ${w}`, line]);
     }
     if (/[—–]/.test(line)) issues.push(["em or en dash", line]);
     if (/\s&\s/.test(line)) issues.push(["bare ampersand", line]);
     if (/\bMichael\b/.test(line)) issues.push(["Michael, brand is Mike Bastin", line]);
+    for (const w of US_SPELLINGS) {
+      if (new RegExp(`\\b${w}\\b`, "i").test(line)) issues.push([`US spelling: ${w.split("(")[0]}`, line]);
+    }
     if (/\b(I|my|me|mine|myself)\b/.test(line)) issues.push(["first-person singular", line]);
     if (/^(This|That)\s/.test(line)) issues.push(["This or That opener", line]);
   }
