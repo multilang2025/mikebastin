@@ -106,3 +106,30 @@ from WordPress: convert it, protecting the acronyms, never keep it.
 - **A generated image that repeats its own adjacent heading is duplication.**
   The blog cover cards render the post title directly below the h1 that
   already states it, and the alt text repeats it a third time.
+
+## The button variants are theme-resolved, not surface-locked (21 Sep 2026)
+
+The owner's house playbook (§2, see `docs/PLAYBOOK-ADOPTION.md`) proposes
+defining button variants by the surface they sit on: `secondary` for dark
+backgrounds only, `ghost` for light backgrounds only, written as a hard
+rule to stop per-page drift.
+
+**Refused, and worth understanding why, because the reasoning generalises
+to any token question here.**
+
+Our three variants resolve against theme tokens. `.btn-secondary` takes
+`--rule` and `--ink`; `.btn-ghost` takes `--dim` and `--shade`; both take
+`--berry-soft` and `--berry` on hover. Those tokens flip between light and
+dark, and `.band-a` / `.band-b` override them locally per section. So every
+variant is already correct on every surface, by construction.
+
+Adopting a surface-locked rule would mean a button that is correct in one
+band and wrong in the next, which is the bug the band system exists to
+make impossible. Reject any diff that hard-codes a variant to a background,
+and reject any that reaches for a literal colour where a token flips
+correctly already.
+
+The same playbook section quotes our own token set and band alternation
+back to us as a device "worth stealing", having observed
+preview.mikebastin.com from the outside. Do not read that as external
+validation of a token decision it learned from HANDOFF.md.

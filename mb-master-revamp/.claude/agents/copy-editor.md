@@ -225,3 +225,34 @@ tax". **Postcode**, never "zip code". **Mobile**, never "cell phone".
 
 **Paragraph length.** Two to three sentences of varied length. Split
 anything longer. Two hard returns between paragraphs in Markdown source.
+
+## Lint design, when proposing a new check (added 21 September 2026)
+
+Source: the house playbook §9. Relevant whenever this agent recommends
+turning a judgement into a rule.
+
+**Narrow, targeted patterns beat blanket keyword bans.** A lint that cries
+wolf gets ignored, and an ignored lint is worse than no lint, because the
+build reports green while nobody reads the output. Prefer a regex that
+catches the actual failure over one that catches the topic.
+
+Confirmed twice on this codebase in one week, so treat it as measured
+rather than received:
+
+- The US-spelling rule threw three false positives on code identifiers,
+  comments and a `legacy:` field. Fixed by narrowing the rule (stripping
+  comments, exempting backticked search terms) rather than by editing
+  correct code, and `color` and `center` were deliberately left off the
+  list because they are CSS.
+- The jargon lint failed 41 times on its first run, mostly on blog posts
+  whose subject *is* the term. Burying "hreflang" on a post about hreflang
+  costs the query the post exists to answer. Fixed by zoning the rule to
+  commercial routes and reporting editorial ones.
+
+**Some debt belongs in an advisory queue, not a gate.** A check that tracks
+a gap without failing the build is the right shape when the fix needs
+judgement per instance. The sourced-claim gap is the live example: 49
+English posts carry a percentage and 14 carry a `Source:` line, and the
+wrong response to a red build would be to attach a plausible-looking
+citation to 35 posts. Report it, keep it visible, close it one real source
+at a time.

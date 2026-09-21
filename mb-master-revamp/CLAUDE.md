@@ -67,8 +67,16 @@ Same model as valenciamove.com, which the owner already runs at larger scale
   by the `scripts/gen-*-redirects.mjs` family. Never hand-maintained. Not
   `next.config` `redirects()`, which never runs under `output: "export"`;
   the config carries no `redirects()` block at all.
-- **Hosting:** Vercel. Hostinger is viable too, since valenciamove.com runs
-  there, so this is reversible rather than load-bearing.
+- **Hosting:** the preview pipeline is GitHub Actions to
+  **preview.mikebastin.com over FTPS**, built as a static export by
+  `.github/workflows/deploy-preview.yml`. No Vercel: there is no
+  `vercel.json` and no Vercel reference anywhere in the repo, so none of
+  its defaults apply, including per-branch preview URLs, middleware, ISR
+  and edge functions. The line here previously read "Hosting: Vercel",
+  corrected 21 Sep 2026 against the workflow. **Production hosting at
+  launch is still an open decision** (`cto` owns it); valenciamove.com
+  runs on Hostinger, which is the path of least resistance given the
+  pipeline already in place.
 
 Nothing in this directory contains real credentials. Secrets go in `.env`
 (gitignored, see below), never in a committed file, never in an agent's
@@ -194,6 +202,35 @@ Split across `copy-editor` (language, sourcing, claims),
 `seo-preservation` (trailing slashes, image parity, link targets),
 `seo-offpage` (anchor text, link preservation) and `content-migrator`
 (carrying links, sources and formats across a migration).
+
+## Orchestration and memory (house playbook, 21 Sep 2026)
+
+`docs/PLAYBOOK-ADOPTION.md` records what was taken from the owner's house
+playbook and, more importantly, what was refused: Supabase, next-intl,
+shadcn/ui and per-page message files all reverse closed decisions, and the
+playbook's button decision table would break under band alternation. Read
+it before acting on that playbook.
+
+**Where work runs:**
+
+| Job | Where |
+|---|---|
+| Architecture, stack, final merge gate | Main session, never delegated |
+| Five or more near-identical instances of a template | Parallel sub-agents |
+| Shared config, design tokens, routing, schema | Main session, one hand |
+| Deterministic linting | Cheapest model that runs it |
+| Fact-checking, stats sourcing | Live search, never a model's recall |
+
+Below five instances, agents cost more context than they save.
+
+**Memory is written in the turn the decision is made**, not batched for
+the end of a session, because a session compacts without warning. A new
+convention goes into the style guide or the lint when it is established.
+An agent that finds something contradicting a memory file corrects the
+file in the same pass, not only the code: fixing the symptom and leaving
+the stale doc guarantees the next session repeats the mistake. Two
+corrections came out of that rule on the day it was adopted, the hosting
+line above and a stale Next.js version in `cto.md`.
 
 ## Agent roster
 
