@@ -16,7 +16,7 @@ import { SITE_URL } from "@/lib/schema";
 // put two of our own pages in the same result.
 const TITLE = "Multilingual SEO and localisation consultancy, Mike Bastin";
 const DESCRIPTION =
-  "International SEO consultancy from Valencia. Multilingual SEO, website localisation and AI consulting for businesses selling in languages they do not think in.";
+  "Your English pages sell while the other languages only look busy. Multilingual SEO and localisation consultancy from Valencia, enquiries counted per market.";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -126,7 +126,7 @@ const WHY_IT_WORKS = [
     body: "Machine drafting first, human decision after, so speed does not cost accuracy.",
   },
   {
-    title: "Every locale gets the same rigor",
+    title: "Every locale gets the same rigour",
     body: "French, Spanish and English are built to the same standard, not one full version and two lighter ones.",
   },
 ];
@@ -147,9 +147,9 @@ export default function Home() {
             {/* leading needs headroom: the italic descenders on "Converting"
                 collide with the lede at anything tighter than ~1.08 */}
             <h1 className="mb-9 max-w-[19ch] pb-[.06em] text-[clamp(2.7rem,7.4vw,5.6rem)] font-semibold leading-[1.08]">
-              Multilingual SEO that ranks.
+              Your English pages sell.
               <br />
-              <span className="shimmer">Localisation that converts.</span>
+              <span className="shimmer">The rest only look busy.</span>
             </h1>
           </Reveal>
 
@@ -158,9 +158,10 @@ export default function Home() {
               className="mb-10 max-w-[54ch] text-[clamp(1.05rem,1.65vw,1.24rem)] leading-[1.58]"
               style={{ color: "var(--dim)" }}
             >
-              Twenty-five years of multilingual SEO, website localisation and
-              AI consulting from Valencia, watching what actually works when a
-              business tries to sell in a language it does not think in.
+              Traffic arrives in French and German. The enquiries still come
+              from the English pages. We work out how much of that gap is
+              search and how much is the writing, then close it market by
+              market.
             </p>
           </Reveal>
 
@@ -190,6 +191,59 @@ export default function Home() {
                 </span>
               ))}
             </div>
+          </Reveal>
+        </div>
+      </section>
+
+      {/* ============ WHAT WE DO ============ */}
+      <section className="band band-b py-[clamp(64px,9vw,128px)]">
+        <div className="shell">
+          <Reveal>
+            <p className="eyebrow mb-3">What we do</p>
+            <h2 className="mb-5 max-w-[26ch] text-[clamp(1.8rem,3.6vw,2.9rem)] font-semibold leading-[1.1]">
+              For companies already selling abroad, whose other languages underperform.
+            </h2>
+            <p className="mb-12 max-w-[56ch] text-[1.05rem]" style={{ color: "var(--dim)" }}>
+              Ongoing multilingual SEO is the main engagement, with
+              localisation, paid search and AI consulting around it.
+              Enquiries are the product either way, counted market by market
+              rather than blended into one number that hides which language
+              is actually selling.
+            </p>
+          </Reveal>
+
+          <div className="flex flex-col" style={{ borderTop: "1px solid var(--rule)" }}>
+            {WHAT_WE_DO.map((row, i) => (
+              <Reveal key={row.cluster} i={i}>
+                <Link
+                  href={row.href}
+                  className="group flex flex-wrap items-baseline gap-x-4 gap-y-1 py-6"
+                  style={{ borderBottom: "1px solid var(--rule)" }}
+                >
+                  <span className="display text-[1.15rem] font-semibold transition-colors duration-300 group-hover:text-[var(--berry)]">
+                    {row.cluster}
+                  </span>
+                  <span className="max-w-[48ch] text-[.92rem]" style={{ color: "var(--dim)" }}>
+                    {row.desc}
+                  </span>
+                </Link>
+              </Reveal>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ============ PULL QUOTE ============ */}
+      <section className="band band-a py-[clamp(64px,9vw,128px)]">
+        <div className="shell">
+          <Reveal>
+            <blockquote
+              className="display max-w-[22ch] text-[clamp(1.9rem,4.6vw,3.4rem)] font-medium leading-[1.14]"
+            >
+              A site that ranks everywhere and{" "}
+              <em style={{ color: "var(--berry)" }}>converts nowhere</em> has a
+              language problem, not a traffic problem.
+            </blockquote>
           </Reveal>
         </div>
       </section>
@@ -249,59 +303,6 @@ export default function Home() {
                 </Reveal>
               );
             })}
-          </div>
-        </div>
-      </section>
-
-      {/* ============ PULL QUOTE ============ */}
-      <section className="band band-a py-[clamp(64px,9vw,128px)]">
-        <div className="shell">
-          <Reveal>
-            <blockquote
-              className="display max-w-[22ch] text-[clamp(1.9rem,4.6vw,3.4rem)] font-medium leading-[1.14]"
-            >
-              A site that ranks everywhere and{" "}
-              <em style={{ color: "var(--berry)" }}>converts nowhere</em> has a
-              language problem, not a traffic problem.
-            </blockquote>
-          </Reveal>
-        </div>
-      </section>
-
-      {/* ============ WHAT WE DO ============ */}
-      <section className="band band-b py-[clamp(64px,9vw,128px)]">
-        <div className="shell">
-          <Reveal>
-            <p className="eyebrow mb-3">What we do</p>
-            <h2 className="mb-5 max-w-[26ch] text-[clamp(1.8rem,3.6vw,2.9rem)] font-semibold leading-[1.1]">
-              For companies already selling abroad, whose other languages underperform.
-            </h2>
-            <p className="mb-12 max-w-[56ch] text-[1.05rem]" style={{ color: "var(--dim)" }}>
-              Ongoing multilingual SEO is the main engagement, with
-              localisation, paid search and AI consulting around it.
-              Enquiries are the product either way, counted market by market
-              rather than blended into one number that hides which language
-              is actually selling.
-            </p>
-          </Reveal>
-
-          <div className="flex flex-col" style={{ borderTop: "1px solid var(--rule)" }}>
-            {WHAT_WE_DO.map((row, i) => (
-              <Reveal key={row.cluster} i={i}>
-                <Link
-                  href={row.href}
-                  className="group flex flex-wrap items-baseline gap-x-4 gap-y-1 py-6"
-                  style={{ borderBottom: "1px solid var(--rule)" }}
-                >
-                  <span className="display text-[1.15rem] font-semibold transition-colors duration-300 group-hover:text-[var(--berry)]">
-                    {row.cluster}
-                  </span>
-                  <span className="max-w-[48ch] text-[.92rem]" style={{ color: "var(--dim)" }}>
-                    {row.desc}
-                  </span>
-                </Link>
-              </Reveal>
-            ))}
           </div>
         </div>
       </section>
