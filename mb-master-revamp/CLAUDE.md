@@ -177,6 +177,48 @@ needs.
 - IP boundary: no Marvel/superhero imagery tied to "Silver Surfer" — it is a
   prose-only nickname, visual language is original surf/wave motifs.
 
+## Keywords are assigned, researched and enforced
+
+`site/lib/keywords.ts` holds one **primary** and several **secondary**
+keywords per commercial page, every figure from Ahrefs Keywords Explorer
+(GB) on 21 Sep 2026. `scripts/keyword-coverage-lint.mjs` fails the build
+when a page's h1 does not carry its primary term, so the map cannot rot
+into decoration. One page owns each primary term; two pages chasing one
+term is the cannibalisation the file exists to prevent.
+
+The starting position, worth remembering when reading any of it: Ahrefs
+Site Explorer showed mikebastin.com ranking for **exactly one keyword
+worldwide**, "michael bastin", position 11, volume 10. There is no
+ranking equity to protect, so the assignment is a first one rather than a
+compromise. Search Console's tens of thousands of impressions are not a
+contradiction: impressions at low positions on long-tail queries are
+largely invisible to Ahrefs.
+
+The three findings that changed what the pages say:
+
+- **`local seo services` is 47,000 a month at difficulty 5**, the largest
+  winnable term on the site by a wide margin.
+- **`international` beats `multilingual` roughly three to one** for the
+  same phrase shape (7,500 against 2,500). "Multilingual" is the brand's
+  own framing; "international" is what buyers type. The homepage took the
+  bigger term and `/services/multilingual-seo/` took the one it vacated.
+- **`multilingual lead generation` returns zero searches**, while
+  `lead generation services` draws 11,000. Putting "multilingual" in front
+  of a service name generally kills its volume, which is also why
+  multilingual-sem and multilingual-content have no researched primary.
+
+**Two spelling conflicts are open for the owner**, recorded in that file's
+`note` fields rather than decided: `website localization` draws 2,800
+against 350 for the UK spelling, and every `generative engine
+optimization` variant is US-spelled while the house rule is UK English.
+Eight times the demand sits on a spelling the rules forbid. The route slug
+is already US-spelled, which makes it a live inconsistency rather than a
+hypothetical one.
+
+A `term:` value in that file is exempt from the US-spelling lint. A
+keyword is research data quoted verbatim, and correcting it would not fix
+a spelling, it would falsify a figure.
+
 ## Copy has to sell, not only pass the protocol
 
 The Master Content Protocol and the `copy-editor` agent are all

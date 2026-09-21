@@ -87,6 +87,17 @@ function copyStrings(src) {
   // value is the same kind of thing, a filename on Commons or a
   // WordPress upload path. Neither goes near a page, so neither is copy.
   src = src.replace(/\b(?:author|legacy):\s*(["'`])(?:[^\\]|\\.)*?\1/g, "x: \"\"");
+
+  // A `term:` value in lib/keywords.ts is a search query quoted verbatim
+  // from Ahrefs, and the whole point of it is to record what people
+  // actually type. Some of that demand sits on US spellings: "website
+  // localization" draws 2,800 a month against 350 for the UK form, and
+  // every "generative engine optimization" variant is US-spelled. British
+  // English is the rule for copy a visitor reads; a keyword is research
+  // data, and correcting it would not fix a spelling, it would falsify a
+  // figure. The conflict itself is recorded in that file's `note` fields
+  // for the owner to decide, which is a decision, not a typo.
+  src = src.replace(/\bterm:\s*(["'`])(?:[^\\]|\\.)*?\1/g, "x: \"\"");
   // Double- and single-quoted string literals, and template literals.
   for (const m of src.matchAll(/"((?:[^"\\\n]|\\.)*)"|'((?:[^'\\\n]|\\.)*)'|`((?:[^`\\]|\\.)*)`/g)) {
     out.push(m[1] ?? m[2] ?? m[3] ?? "");

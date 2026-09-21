@@ -71,7 +71,7 @@ export default function LeadGenerationPage() {
           </Reveal>
           <Reveal i={1}>
             <h1 className="mb-6 max-w-[17ch] text-[clamp(2.4rem,6vw,4.2rem)] font-semibold leading-[1.08]">
-              Multilingual lead generation
+              Multilingual lead generation services
             </h1>
           </Reveal>
           <Reveal i={2}>
