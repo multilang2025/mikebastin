@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import Reveal from "@/components/Reveal";
+import QueryTerms from "@/components/QueryTerms";
 import ServiceProof from "@/components/ServiceProof";
 import SiteFooter from "@/components/SiteFooter";
 import Expandables from "@/components/Expandables";
@@ -175,7 +176,7 @@ export default async function ServicePage({
             </div>
             <Reveal i={2}>
               <p className="mt-6 max-w-[62ch] text-[.95rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
-                {service.demand.note}
+                <QueryTerms text={service.demand.note} />
               </p>
             </Reveal>
           </div>

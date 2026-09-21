@@ -4,8 +4,10 @@ import PostImage from "@/components/PostImage";
 import Reveal from "@/components/Reveal";
 import SiteFooter from "@/components/SiteFooter";
 import JsonLd from "@/components/JsonLd";
-import { getRelatedPosts, topicSlug } from "@/lib/posts";
-import { SITE_URL, breadcrumbSchema } from "@/lib/schema";
+import { getPostRecord, getRelatedPosts, topicSlug } from "@/lib/posts";
+import { SITE_URL, blogPostingSchema, breadcrumbSchema } from "@/lib/schema";
+import { getBlogImage } from "@/lib/blog-images";
+import { getPostMetaDescription } from "@/lib/seo";
 
 /**
  * Cluster D's pillar, and the highest-impression page on the domain:
@@ -103,14 +105,41 @@ const SLUG = "competitor-analysis-traffic-checklist";
 
 export default function CompetitorChecklistPage() {
   const related = getRelatedPosts(SLUG);
+
+  // The page is a cluster pillar and sits on the journal index beside the
+  // posts, but being hand-built it was emitting breadcrumbs and nothing
+  // else: no BlogPosting, no author, no dates, no image, while every
+  // ordinary post carried all five. Its record in lib/posts.ts has the
+  // real dates, so the schema is built from the same source as the posts'.
+  // getPost() cannot reach it: getPosts() skips HAND_BUILT_SLUGS by design,
+  // so this needs getPostRecord(), which reads the file regardless.
+  const post = getPostRecord(SLUG);
+  const url = `${SITE_URL}/${SLUG}/`;
+
   return (
     <main id="main">
       <JsonLd
-        data={breadcrumbSchema([
-          { name: "Home", url: `${SITE_URL}/` },
-          { name: "Journal", url: `${SITE_URL}/blog/` },
-          { name: "The competitor analysis and traffic checklist", url: `${SITE_URL}/competitor-analysis-traffic-checklist/` },
-        ])}
+        data={[
+          ...(post
+            ? [
+                blogPostingSchema({
+                  headline: "The competitor analysis and traffic checklist",
+                  description: getPostMetaDescription(post),
+                  datePublished: post.date,
+                  dateModified: post.modified,
+                  url,
+                  image: getBlogImage(SLUG)
+                    ? `${SITE_URL}/images/blog/${SLUG}.webp`
+                    : undefined,
+                }),
+              ]
+            : []),
+          breadcrumbSchema([
+            { name: "Home", url: `${SITE_URL}/` },
+            { name: "Journal", url: `${SITE_URL}/blog/` },
+            { name: "The competitor analysis and traffic checklist", url },
+          ]),
+        ]}
       />
 
       {/* ============ HERO ============ */}
