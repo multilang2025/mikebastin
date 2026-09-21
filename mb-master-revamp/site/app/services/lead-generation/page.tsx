@@ -81,7 +81,7 @@ export default function LeadGenerationPage() {
           </Reveal>
           <Reveal i={3}>
             <p className="max-w-[58ch] text-[clamp(1.05rem,1.5vw,1.2rem)] leading-[1.58]" style={{ color: "var(--dim)" }}>
-              Multilingual SEO, localisation and AI consulting are the
+              Multilingual SEO, localization and AI consulting are the
               mechanisms. Enquiries are the product. Ninety days of Search
               Console for one client domain read forty thousand impressions
               and six clicks, the exact shape of a visibility problem that
@@ -141,7 +141,7 @@ export default function LeadGenerationPage() {
           <Reveal>
             <p className="eyebrow mb-3">How it is delivered</p>
             <h2 className="mb-6 max-w-[22ch] text-[clamp(1.7rem,3.2vw,2.5rem)] font-semibold leading-[1.12]">
-              Multilingual SEO, localisation and AI consulting, one measure
+              Multilingual SEO, localization and AI consulting, one measure
             </h2>
             <p className="mb-10 max-w-[62ch] text-[1.05rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
               Multilingual search finds the right visitor in their own

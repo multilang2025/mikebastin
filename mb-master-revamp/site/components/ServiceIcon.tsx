@@ -100,7 +100,7 @@ const MARKS: Record<string, React.ReactNode> = {
     </>
   ),
 
-  // ---- Localisation ----
+  // ---- Localization ----
   /** A window carrying the site's own wave. */
   "website-localisation": (
     <>
@@ -116,7 +116,7 @@ const MARKS: Record<string, React.ReactNode> = {
       <path d="M12.5 11.5h9v7h-2V21l-3-2.5h-4z" {...S} />
     </>
   ),
-  /** A handset, because an app is localised at the interface. */
+  /** A handset, because an app is localized at the interface. */
   "app-and-software-localisation": (
     <>
       <rect x="6" y="2.5" width="12" height="19" rx="2.5" {...S} />

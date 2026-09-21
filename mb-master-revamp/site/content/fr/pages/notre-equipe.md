@@ -41,7 +41,7 @@ Réseau d’agences de traduction multilingue présent en Belgique, France, Espa
 
 Marque de services de relocation pour les expatriés internationaux qui s’installent à Valencia. Contenu sur les visas, comparaisons de quartiers, pages d’atterrissage multilingues visant francophones, néerlandophones, anglophones et hispanophones.
 
-Quelques studios de bien-être et marques de services linguistiques en Espagne et en Belgique. Optimisation des fiches Google Business Profile, classements local pack, stratégie d’acquisition d’avis et contenu au niveau du quartier.
+Quelques studios de bien-être et marques de services linguistiques en Espagne et en Belgique. Optimization des fiches Google Business Profile, classements local pack, stratégie d’acquisition d’avis et contenu au niveau du quartier.
 
 ## Lire plus sur le blog
 
@@ -51,7 +51,7 @@ Le visa nomade numérique espagnol pour les francophones : conditions, démarche
 
 Le vrai budget d’un francophone qui s’installe à Valencia, basé sur dix ans d’expérience sur place.
 
-Comment l’optimisation pour les moteurs génératifs change la donne pour la visibilité multilingue.
+Comment l’optimization pour les moteurs génératifs change la donne pour la visibilité multilingue.
 
 Pourquoi le référencement multilingue exige plus que de la traduction de balises.
 

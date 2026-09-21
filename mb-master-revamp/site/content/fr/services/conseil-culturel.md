@@ -71,7 +71,7 @@ Le conseil culturel est crucial pour les entreprises en développement à l’in
 
 Les conseils culturels fournissent les informations nécessaires pour adapter votre message, vos campagnes et vos stratégies au contexte local, ce qui rend votre marketing plus efficace et pertinent.
 
-Oui, nous pouvons revoir l’architecture actuelle de votre logiciel et mettre en place des changements pour la rendre prête à l’internationalisation, en rendant ainsi plus facile sa future localisation.
+Oui, nous pouvons revoir l’architecture actuelle de votre logiciel et mettre en place des changements pour la rendre prête à l’internationalisation, en rendant ainsi plus facile sa future localization.
 
 Bien sûr. En identifiant et en traitant les risques culturels potentiels à un stade précoce, nous contribuons à protéger votre marque contre les malentendus susceptibles d’avoir un impact négatif sur votre réputation ou votre succès sur un marché.
 

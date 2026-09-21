@@ -64,7 +64,7 @@ Before you write a single word, you must thoroughly understand who you’re addr
 
 -   What problems keep them awake at night?
 -   What specific outcome do they desire?
--   How does your content clearly guide them towards achieving that result? Here is where effective [content Localisation](/services/website-localisation/) can make a significant difference by adapting your message.
+-   How does your content clearly guide them towards achieving that result? Here is where effective [content Localization](/services/website-localisation/) can make a significant difference by adapting your message.
 
 ## Step 2: audit what you have
 
@@ -110,7 +110,7 @@ Your objectives should be:
 
 **Example:**
 
-‘Increase organic leads from our [multilingual SEO](/services/multilingual-seo/) efforts by 25% within three months by publishing two in-depth guides per week, each optimised for target entities and user intent.’
+‘Increase organic leads from our [multilingual SEO](/services/multilingual-seo/) efforts by 25% within three months by publishing two in-depth guides per week, each optimized for target entities and user intent.’
 
 ### Define your key performance indicators (KPIs)
 
@@ -121,7 +121,7 @@ Your objectives should be:
 
 ## Step 4: perfect your SEO
 
-Search engines like Google primarily understand content through keywords, entities, and context. It’s time to become fluent in their language, incorporating principles of NLP and LSI for better on-page optimisation.
+Search engines like Google primarily understand content through keywords, entities, and context. It’s time to become fluent in their language, incorporating principles of NLP and LSI for better on-page optimization.
 
 ### Keyword and entity discovery
 
@@ -138,7 +138,7 @@ Search engines like Google primarily understand content through keywords, entiti
 
 ### Topic cluster strategy
 
--   Develop pillar pages for broad topics and create supporting cluster content that looks into specific subtopics. Pillar pages act as authoritative hubs, like a detailed guide on ‘[Website Localisation Services](/services/website-localisation/)‘.
+-   Develop pillar pages for broad topics and create supporting cluster content that looks into specific subtopics. Pillar pages act as authoritative hubs, like a detailed guide on ‘[Website Localization Services](/services/website-localisation/)‘.
 -   Interlink pillar pages and cluster content effectively to improve SEO and user experience (UX).
 -   Ensure complete coverage of all related queries and LSI keywords to signal topical authority to search engines.
 
@@ -255,7 +255,7 @@ Employ tools such as:
 -   Hotjar or Microsoft Clarity for heatmaps and session recordings.
 -   Ahrefs or SEMrush for keyword tracking, backlink analysis, and competitive research.
 
-### Test and optimise relentlessly
+### Test and optimize relentlessly
 
 -   A/B test headlines, calls-to-action (CTAs), and page layouts.
 -   Experiment with different content formats (e.g., text versus video, long-form versus short-form).

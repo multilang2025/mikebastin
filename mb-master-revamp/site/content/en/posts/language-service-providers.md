@@ -24,7 +24,7 @@ Global digital commerce continues to scale aggressively.
 
 Worldwide eCommerce sales are projected to reach $7.5 trillion in 2025.
 
-Growth at that pace fuels sustained demand for [content localisation](https://mikebastin.com/services/content-localisation/), [multilingual SEO](https://mikebastin.com/services/multilingual-seo/), interpreting, and AI-assisted content adaptation.
+Growth at that pace fuels sustained demand for [content localization](https://mikebastin.com/services/content-localisation/), [multilingual SEO](https://mikebastin.com/services/multilingual-seo/), interpreting, and AI-assisted content adaptation.
 
 At the same time, traditional traffic models are shifting.
 
@@ -42,7 +42,7 @@ LanguageLine Solutions maintains strength in on-demand interpretation, healthcar
 
 RWS Holdings combines intellectual property expertise with AI-enabled translation workflows and structured content solutions.
 
-Keywords Studios remains dominant in gaming localisation, player support, and immersive entertainment environments.
+Keywords Studios remains dominant in gaming localization, player support, and immersive entertainment environments.
 
 Lionbridge focuses heavily on AI training data, testing services, and large-scale multilingual content operations.
 
@@ -62,15 +62,15 @@ Generative AI is widely deployed in digital commerce.
 
 Ninety-two percent of businesses report using Generative AI to enhance customer experiences.
 
-Video localisation continues rapid expansion.
+Video localization continues rapid expansion.
 
-Short-form vertical video, multilingual subtitles, and AI voice cloning now dominate marketing strategies across [multimedia localisation](https://mikebastin.com/services/multimedia-localisation/) workflows.
+Short-form vertical video, multilingual subtitles, and AI voice cloning now dominate marketing strategies across [multimedia localization](https://mikebastin.com/services/multimedia-localisation/) workflows.
 
 Mobile commerce drives content strategy decisions.
 
 Mobile accounts for over 70 percent of eCommerce activity.
 
-Localisation teams must now prioritise speed, micro-copy precision, and [UX adaptation](https://mikebastin.com/services/multilingual-ux-ui-design/).
+Localization teams must now prioritise speed, micro-copy precision, and [UX adaptation](https://mikebastin.com/services/multilingual-ux-ui-design/).
 
 Cross-border eCommerce keeps accelerating.
 
@@ -94,19 +94,19 @@ Success in 2026 depends on structured data visibility, brand mentions inside AI-
 
 Raw traffic growth alone no longer defines performance.
 
-Brand recall, trust, and transactional conversion now drive value, a principle that underpins [Generative Engine Optimisation](https://mikebastin.com/generative-engine-optimization/) strategies.
+Brand recall, trust, and transactional conversion now drive value, a principle that underpins [Generative Engine Optimization](https://mikebastin.com/generative-engine-optimization/) strategies.
 
-### Service localisation as a platform strategy
+### Service localization as a platform strategy
 
-Modern localisation extends beyond text.
+Modern localization extends beyond text.
 
 Enterprise platforms now require runtime adaptation of language, currency, units of measurement, regulatory requirements, and taxation logic.
 
-Service-level localisation platforms show how middleware systems can dynamically adapt APIs and services to different locales.
+Service-level localization platforms show how middleware systems can dynamically adapt APIs and services to different locales.
 
 In 2026, SaaS, fintech, logistics, and cloud systems expanding globally make [software internationalisation](https://mikebastin.com/services/software-internationalisation/) increasingly relevant.
 
-Localisation is no longer a post-production activity.
+Localization is no longer a post-production activity.
 
 It is embedded directly into architecture.
 
@@ -114,7 +114,7 @@ It is embedded directly into architecture.
 
 Quality assurance in AI-enhanced environments remains critical.
 
-Human validation layers protect brand credibility and regulatory compliance, which is why [localisation testing](https://mikebastin.com/services/localisation-testing/) has become a non-negotiable step.
+Human validation layers protect brand credibility and regulatory compliance, which is why [localization testing](https://mikebastin.com/services/localisation-testing/) has become a non-negotiable step.
 
 Data privacy regulations continue tightening across Europe, North America, and Asia.
 
@@ -122,7 +122,7 @@ Multilingual compliance expertise is now a competitive differentiator.
 
 Specialised knowledge in [legal documentation](https://mikebastin.com/services/legal-translation/), [life sciences](https://mikebastin.com/services/medical-translation/), [financial reporting](https://mikebastin.com/services/financial-translation/), and technical documentation continues growing in importance.
 
-Enterprise buyers increasingly demand measurable [ROI from localisation investments](https://mikebastin.com/roi-of-website-localisation/).
+Enterprise buyers increasingly demand measurable [ROI from localization investments](https://mikebastin.com/roi-of-website-localisation/).
 
 Providers must demonstrate impact on conversion rates, customer retention, and global revenue expansion.
 
@@ -134,7 +134,7 @@ Market growth remains strong, driven by digital commerce expansion.
 
 Platform ecosystems increasingly control user journeys.
 
-Service-level localisation frameworks illustrate how infrastructure must adapt dynamically to global users.
+Service-level localization frameworks illustrate how infrastructure must adapt dynamically to global users.
 
 Leading providers combine human linguistic expertise, AI-enabled scalability, structured data intelligence, regulatory awareness, and conversion-focused strategy.
 

@@ -71,7 +71,7 @@ La localización de software es un proceso que consiste en preparar el software 
 
 La localización hace que tu software sea adaptable y esté listo para la expansión global, lo que reduce el tiempo y los costes asociados con la localización para cada nuevo mercado.
 
-Internationalisation prepares the software’s architecture for global markets, while localisation involves [adapting the content and design to specific languages and cultural](https://mikebastin.com/es/services/consultoria-cultural/) needs.
+Internationalisation prepares the software’s architecture for global markets, while localization involves [adapting the content and design to specific languages and cultural](https://mikebastin.com/es/services/consultoria-cultural/) needs.
 
 Sí, podemos revisar tu arquitectura de software actual e implementar cambios para que esté lista para la internacionalización, asegurando una localización futura más fácil.
 

@@ -36,7 +36,7 @@ They identify semantic relationships, required subtopics, and content depth expe
 
 Google’s systems prioritise topical authority over individual keyword targeting.
 
-A site covering a subject comprehensively outranks one optimising isolated pages for specific terms.
+A site covering a subject comprehensively outranks one optimizing isolated pages for specific terms.
 
 AI tools help identify [long-tail keywords](/blog/multilingual-keyword-research/) that signal high purchase intent.
 
@@ -102,11 +102,11 @@ Commercial and transactional queries maintained stronger CTRs, making bottom-of-
 
 Voice search through Google Assistant, Alexa, and Siri accounts for approximately 20% of mobile queries.
 
-Optimising for conversational, question-based searches matters more as voice adoption grows.
+Optimizing for conversational, question-based searches matters more as voice adoption grows.
 
-[Multilingual SEO](/blog/best-practices-for-multilingual-seo/) benefits from MUM’s cross-language understanding, but localised content still outperforms translated material.
+[Multilingual SEO](/blog/best-practices-for-multilingual-seo/) benefits from MUM’s cross-language understanding, but localized content still outperforms translated material.
 
-### Generative engine optimisation
+### Generative engine optimization
 
 GEO has emerged as a discipline alongside traditional SEO.
 
@@ -156,6 +156,6 @@ Tools like Semrush, Ahrefs, SurferSEO, and MarketMuse make research and analysis
 
 Google’s RankBrain, BERT, MUM, and SGE reward thorough, expert content over keyword-stuffed pages.
 
-Generative engine optimisation adds a new channel requiring structured data, citations, and demonstrated expertise.
+Generative engine optimization adds a new channel requiring structured data, citations, and demonstrated expertise.
 
-Success in 2026 requires treating AI as both a tool for efficiency and an audience to optimise for.
+Success in 2026 requires treating AI as both a tool for efficiency and an audience to optimize for.

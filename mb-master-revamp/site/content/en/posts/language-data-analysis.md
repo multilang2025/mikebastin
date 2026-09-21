@@ -316,7 +316,7 @@ Informed Strategies
 
 Ground choices in facts, not hunches.
 
-Resource Optimisation
+Resource Optimization
 
 Spread resources wisely using forecasts.
 

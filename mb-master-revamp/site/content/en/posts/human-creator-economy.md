@@ -124,7 +124,7 @@ He envisions a truly global creator economy, where access to reliable tools isnâ
 
 Thatâ€™s why Bonzai was built to be accessible everywhere:
 
--   optimised for slower internet connections,
+-   optimized for slower internet connections,
 -   compatible with multiple currencies,
 -   open to alternative payment systems such as crypto when banking access is limited.
 

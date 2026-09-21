@@ -194,7 +194,7 @@ Le choix du quartier est probablement la décision la plus structurante de votre
 
 Le quartier créatif et branché de Valencia, avec une densité de cafés et de galeries remarquable
 
-Culture du café, communauté internationale, localisation centrale près de l’**Estación del Norte**
+Culture du café, communauté internationale, localization centrale près de l’**Estación del Norte**
 
 Loyers en forte hausse, parking quasi inexistant, bruyant le week-end
 

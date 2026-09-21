@@ -218,6 +218,20 @@ const LEARNED_NAMES = (() => {
 /**
  * American spelling, against CLAUDE.md's "UK English" rule.
  *
+ * optimiz* and localiz* are deliberately absent from the pattern. Owner
+ * decision, 21 Sep 2026: "It's international and volume based SEO. Adjust
+ * spelling." Both families are this practice's own product vocabulary and
+ * the demand sits on the US form, measured rather than assumed:
+ * `seo optimization` 29,000 a month against `optimisation` 5,500,
+ * `generative engine optimization` 26,000 against 3,800, and
+ * `localization services` 2,800 against 600. The rest of the list stays,
+ * because "colour" and "centre" are not products and carry no such
+ * argument.
+ *
+ * Slugs keep their UK spelling regardless. Eighteen legacy URLs in
+ * docs/sitemap-MB-EN.txt contain one, including /services/app-localisation/,
+ * and the never-404 rule outranks a spelling preference.
+ *
  * Nothing was watching this, so 81 of them shipped across the live posts
  * while the lint reported every file clean, which is the same hole the
  * heading-case check was added to close.
@@ -230,7 +244,7 @@ const LEARNED_NAMES = (() => {
  * literals defined by the vocabulary rather than words we spell.
  */
 const US_SPELLINGS =
-  /\b(optimiz(?:e|es|ed|ing|ation|ations)|localiz(?:e|es|ed|ing|ation)|organiz(?:e|es|ed|ing|ation)|recogniz(?:e|es|ed|ing)|analyz(?:e|es|ed|ing)|customiz(?:e|es|ed|ing|ation)|personaliz(?:e|es|ed|ing|ation)|prioritiz(?:e|es|ed|ing)|standardiz(?:e|es|ed|ing|ation)|behaviors?|colors?|centers?|catalogs?|licenses(?= to)|fulfill(?:s|ed|ing|ment)?|traveling|canceled|modeling)\b/gi;
+  /\b(organiz(?:e|es|ed|ing|ation)|recogniz(?:e|es|ed|ing)|analyz(?:e|es|ed|ing)|customiz(?:e|es|ed|ing|ation)|personaliz(?:e|es|ed|ing|ation)|prioritiz(?:e|es|ed|ing)|standardiz(?:e|es|ed|ing|ation)|behaviors?|colors?|centers?|catalogs?|licenses(?= to)|fulfill(?:s|ed|ing|ment)?|traveling|canceled|modeling)\b/gi;
 
 const SCHEMA_TYPES =
   /\b(Organization|LocalBusiness|ProfessionalService|FAQPage|WebPage|BreadcrumbList|Product|Article|BlogPosting|LegalService|FreightForwarder|RealEstateAgent|HowTo|ItemList)\b/g;

@@ -23,7 +23,7 @@ Une interface multilingue bien conçue maximise l’expérience utilisateur et r
 
 Notre équipe adapte l’[UX et l’UI de votre site web](https://mikebastin.com/fr/services/conception-de-site-web/) à toutes les langues, en garantissant la conformité, la réactivité et la performance technique.
 
-Nous maîtrisons la [localisation de site web](https://mikebastin.com/fr/services/localisation-de-site-web/), la gestion des langues à sens de lecture varié et les défis d’encodage, pour proposer des designs à la fois culturels, intuitifs et cohérents.
+Nous maîtrisons la [localization de site web](https://mikebastin.com/fr/services/localisation-de-site-web/), la gestion des langues à sens de lecture varié et les défis d’encodage, pour proposer des designs à la fois culturels, intuitifs et cohérents.
 
 Pour des projets multilingues en [allemand](https://mikebastin.com/fr/services/seo-allemand/), en espagnol ou toute autre langue, bénéficiez d’une adaptation visuelle sur mesure qui engage vos utilisateurs et favorise la conversion.
 
@@ -49,7 +49,7 @@ Relever des défis complexes en matière d’encodage afin de garantir que tous 
 
 Offrir une expérience de conception optimale et réactive aux utilisateurs sur tous les appareils, en veillant à ce que le contenu s’adapte correctement aux différentes tailles d’écran et aux différentes langues.
 
-Localiser les éléments de l’interface utilisateur tels que les icônes, l’imagerie et les symboles pour s’aligner sur les attentes culturelles des différentes régions et créer une interface conviviale.
+Localizer les éléments de l’interface utilisateur tels que les icônes, l’imagerie et les symboles pour s’aligner sur les attentes culturelles des différentes régions et créer une interface conviviale.
 
 ## Notre méthode de conception UX/UI multilingue
 
@@ -59,7 +59,7 @@ Nous comprenons vos besoins en matière de design, vos marchés cibles et les sp
 
 Nous analysons les tendances régionales, les concurrents et les préférences culturelles pour élaborer nos stratégies de conception UX/UI.
 
-Nous créons un plan de localisation en prenant en compte les variations linguistiques, l’expansion du texte, de l’encodage et les exigences linguistiques de gauche à droite.
+Nous créons un plan de localization en prenant en compte les variations linguistiques, l’expansion du texte, de l’encodage et les exigences linguistiques de gauche à droite.
 
 Notre équipe réalise la stratégie de conception, en adaptant votre UX/UI pour les plateformes multilingues, en garantissant la précision technique et la pertinence culturelle.
 

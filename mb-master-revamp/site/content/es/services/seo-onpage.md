@@ -15,11 +15,11 @@ excerpt: "Optimiza el contenido de tu web con nuestro SEO on page y mejora tu po
 
 # Servicios de SEO en la página
 
-What We Optimise On Your Website to Boost Your Rankings
+What We Optimize On Your Website to Boost Your Rankings
 
 ## Gana visibilidad para tu página web con servicios de SEO en la página
 
-Optimise your website to rank higher in Google with our tailored [on-page SEO services](https://mikebastin.com/es/services/seo-onpage/).
+Optimize your website to rank higher in Google with our tailored [on-page SEO services](https://mikebastin.com/es/services/seo-onpage/).
 
 We fine-tune your content, structure, and user experience to improve relevance and authority.
 
@@ -33,7 +33,7 @@ We apply proven techniques to help search engines better understand your pages.
 
 That means more visibility, more traffic, and more leads.
 
-Want to go deeper? Learn how we [optimise multilingual website content](https://mikebastin.com/es/services/agencia-de-seo-global/) to reach international audiences.
+Want to go deeper? Learn how we [optimize multilingual website content](https://mikebastin.com/es/services/agencia-de-seo-global/) to reach international audiences.
 
 ¿Por qué elegir nuestros servicios de SEO en la página?
 
@@ -70,7 +70,7 @@ Investigamos a tu competencia y el panorama del mercado para identificar oportun
 
 A partir del análisis, diseñamos un plan de SEO personalizado enfocado en las áreas clave de mejora.
 
-We carry out the [SEO strategies](https://mikebastin.com/how-ai-is-revolutionising-seo-strategies/), optimising your content, structure, and performance.
+We carry out the [SEO strategies](https://mikebastin.com/how-ai-is-revolutionising-seo-strategies/), optimizing your content, structure, and performance.
 
 Proporcionamos actualizaciones regulares sobre el rendimiento de tu sitio web y ajustamos las estrategias según sea necesario.
 

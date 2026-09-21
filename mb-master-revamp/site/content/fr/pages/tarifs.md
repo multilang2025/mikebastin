@@ -61,7 +61,7 @@ Digital marketing is a long-term strategy, but many of our clients start seeing 
 
 Absolutely. We provide detailed monthly reports that track your progress, including metrics like website traffic, conversion rates, and the performance of specific campaigns. Our team will walk you through the results and suggest actionable insights for continuous improvement.
 
-We use a holistic, data-driven approach to SEO, focusing on both on-page and off-page strategies. This includes [keyword research](https://mikebastin.com/services/keyword-research/ "keyword research"), content optimisation, technical SEO improvements, link building, and continuous performance tracking to ensure your site ranks higher on search engines.
+We use a holistic, data-driven approach to SEO, focusing on both on-page and off-page strategies. This includes [keyword research](https://mikebastin.com/services/keyword-research/ "keyword research"), content optimization, technical SEO improvements, link building, and continuous performance tracking to ensure your site ranks higher on search engines.
 
 We’re flexible. Whether you need a one-off project or a mid to long-term contract, we tailor our services to suit your needs.
 

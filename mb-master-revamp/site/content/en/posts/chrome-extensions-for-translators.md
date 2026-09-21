@@ -158,7 +158,7 @@ Grammarly is English-only at the depth we need, so for any non-English work, [La
 
 ## Two extras for translators who also handle web content
 
-If your translation work touches WordPress sites or website localisation projects, two more belong in the toolbar.
+If your translation work touches WordPress sites or website localization projects, two more belong in the toolbar.
 
 ### Wappalyzer
 
@@ -170,7 +170,7 @@ When a prospect asks about translating their WordPress site, we want to know in 
 
 Fast on-page audit for headings, metas, hreflang, canonical tags, and Schema markup.
 
-Before we localise a site into three more languages, we want to see whether the source-language SEO is even competent. Our full [Chrome extensions for SEO](/blog/chrome-extensions-for-seo/) piece covers the wider audit toolkit.
+Before we localize a site into three more languages, we want to see whether the source-language SEO is even competent. Our full [Chrome extensions for SEO](/blog/chrome-extensions-for-seo/) piece covers the wider audit toolkit.
 
 ## What we removed from the previous version of this list
 
@@ -346,7 +346,7 @@ Smartcat, Lokalise, and Phrase are all racing to embed translator workflow direc
 
 If you live inside a CAT environment, expect to add at least one of those to your stack soon.
 
-For a wider view of where the industry is moving, see our piece on [how AI is transforming translation and localisation](/blog/how-ai-is-transforming-translation-and-localisation/).
+For a wider view of where the industry is moving, see our piece on [how AI is transforming translation and localization](/blog/how-ai-is-transforming-translation-and-localisation/).
 
 ## Where this leaves a working translator
 

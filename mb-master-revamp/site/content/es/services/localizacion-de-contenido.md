@@ -21,20 +21,20 @@ Tailored Content That Speaks Your Customer’s Language
 
 To connect with international audiences, translation isn’t enough. Your content needs to feel natural, relevant, and familiar-just as if it were originally created for each market.
 
-That’s what localisation does. It refines your message to align with cultural expectations, language nuances, tone of voice, and regional habits, all while keeping the essence of your brand intact.
+That’s what localization does. It refines your message to align with cultural expectations, language nuances, tone of voice, and regional habits, all while keeping the essence of your brand intact.
 
 Whether you’re launching in Spain, France or the US, we help your content feel native and relevant.
 
 We go beyond words, adjusting layouts, dates, images, currencies and calls to action.  
 The result? More trust, more clarity, more conversions.
 
-Our localisation [experts combine language skills](https://mikebastin.com/es/localizacion-de-contenido-web-multilingue/) with SEO insight.
+Our localization [experts combine language skills](https://mikebastin.com/es/localizacion-de-contenido-web-multilingue/) with SEO insight.
 
 We integrate local keyword data, adapt for search intent, and ensure content structure meets expectations across markets.
 
 Want to reach a Dutch or German-speaking audience?
 
-You can also combine localisation with [Multilingual SEO](https://mikebastin.com/es/services/posicionamiento-multilingue/) and [UX/UI Design](https://mikebastin.com/es/services/diseno-ux-ui-multilingue/) to deliver a seamless user experience.
+You can also combine localization with [Multilingual SEO](https://mikebastin.com/es/services/posicionamiento-multilingue/) and [UX/UI Design](https://mikebastin.com/es/services/diseno-ux-ui-multilingue/) to deliver a seamless user experience.
 
 -   Websites and landing pages
 -   SaaS platforms and mobile apps
@@ -43,13 +43,13 @@ You can also combine localisation with [Multilingual SEO](https://mikebastin.com
 -   Multimedia and marketing assets
 
 Ready to [scale globally with content](https://mikebastin.com/es/diferencias-culturales-sitios-web-multilingues/) that clicks locally?  
-[Contact us](https://mikebastin.com/es/contactanos/) and let’s build a localisation plan that actually works.
+[Contact us](https://mikebastin.com/es/contactanos/) and let’s build a localization plan that actually works.
 
 Nuestros clientes
 
 ## Comunícate en la lengua de cada mercado
 
-Your brand deserves more than just visibility-it deserves to connect. At [MikeBastin.com](https://mikebastin.com/es/), we localise your content to resonate across languages and cultures.
+Your brand deserves more than just visibility-it deserves to connect. At [MikeBastin.com](https://mikebastin.com/es/), we localize your content to resonate across languages and cultures.
 
 From multilingual SEO and [cultural consulting](https://mikebastin.com/es/services/consultoria-cultural/) to compliance and UX, we fine-tune every element of your message for each market. The result? Stronger engagement, greater trust, and better conversions-wherever you do business.
 

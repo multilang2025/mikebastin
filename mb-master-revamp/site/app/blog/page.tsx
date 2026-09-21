@@ -9,7 +9,7 @@ import { getService } from "@/lib/services";
 export const metadata: Metadata = {
   title: "Journal: multilingual SEO and AI consulting articles, Mike Bastin",
   description:
-    "Fifty nine posts on multilingual SEO, localisation and AI, grouped by subject, with the service behind each group named alongside it.",
+    "Fifty nine posts on multilingual SEO, localization and AI, grouped by subject, with the service behind each group named alongside it.",
 };
 
 function formatDate(iso: string) {

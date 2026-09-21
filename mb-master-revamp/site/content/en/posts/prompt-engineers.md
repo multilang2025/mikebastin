@@ -146,7 +146,7 @@ The [synergy between translators and AI](/blog/how-to-use-ai-and-machine-transla
 
 For multilingual AI prompts, [our AI consulting services](/services/ai-consulting/) help you design, test, and iterate effective prompt templates for LLMs and RAG workflows.
 
-Enhance discoverability with [keyword research](/services/technical-seo/) and [multilingual SEO](/services/multilingual-seo/), then deploy globally via [website localisation](/services/website-localisation/) and [content localisation](/services/website-localisation/).
+Enhance discoverability with [keyword research](/services/technical-seo/) and [multilingual SEO](/services/multilingual-seo/), then deploy globally via [website localization](/services/website-localisation/) and [content localization](/services/website-localisation/).
 
 **Watch a relevant Google video:** [Google Cloud Tech: Prompt design and tuning](https://www.youtube.com/watch?v=ul3u2yLPwU0).
 

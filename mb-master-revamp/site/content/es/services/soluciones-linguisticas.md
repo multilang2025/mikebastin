@@ -21,12 +21,12 @@ Comprehensive Language Solutions for Global Communication
 
 Grow your brand beyond borders with expert language solutions designed for international success.
 
-From [accurate translations](https://mikebastin.com/es/services/traduccion-comercial/) that protect your message to culturally adapted localisation for every market, we help your business communicate naturally, build trust, and inspire action-wherever your customers are.
+From [accurate translations](https://mikebastin.com/es/services/traduccion-comercial/) that protect your message to culturally adapted localization for every market, we help your business communicate naturally, build trust, and inspire action-wherever your customers are.
 
 • Work with native linguists and industry specialists for authentic, high-quality results  
 • Manage websites, documents, and marketing campaigns in multiple languages  
 • Ensure legal, technical, and business content is precise, compliant, and effective  
-• Enhance your international presence with tailored [SEO solutions](https://mikebastin.com/es/services/agencia-de-seo-global/) and content optimisation  
+• Enhance your international presence with tailored [SEO solutions](https://mikebastin.com/es/services/agencia-de-seo-global/) and content optimization  
 • Receive dedicated support and responsive project management at every stage
 
 Every project is tailored to your audience and goals.
@@ -48,4 +48,4 @@ Déjanos ayudarte a comunicarte claramente más allá de las fronteras nacionale
 
 Our Language Services Expertise
 
-With years of experience in multilingual language solutions, we specialise in professional translation, localisation, and [cultural adaptation](https://mikebastin.com/es/services/consultoria-cultural/ "cultural adaptation"). Our team ensures your content is tailored to resonate with global audiences, enhancing communication and engagement across languages. Trust us to help your business thrive in international markets.
+With years of experience in multilingual language solutions, we specialise in professional translation, localization, and [cultural adaptation](https://mikebastin.com/es/services/consultoria-cultural/ "cultural adaptation"). Our team ensures your content is tailored to resonate with global audiences, enhancing communication and engagement across languages. Trust us to help your business thrive in international markets.

@@ -22,21 +22,21 @@ Breaking into new territories requires strategic planning and a solid understand
 
 Below are the most popular and effective [marketing strategies](/blog/360-marketing-agency/) SMBs can use to make a successful international expansion.
 
-### Search engine optimisation (SEO)
+### Search engine optimization (SEO)
 
 SEO is essential for boosting visibility and ranking highly on search engines in international markets.
 
 A well-executed SEO strategy can make the difference between getting noticed by your target audience or being lost in the crowd.
 
-#### Localising keywords
+#### Localizing keywords
 
 Translating [keywords isn’t enough when it comes to international SEO](/blog/what-is-search-intent-mapping/). It’s important to understand how people search in each country, as popular search terms vary between regions.
 
 Conduct [keyword research](/services/technical-seo/) using local tools to identify relevant terms and phrases that resonate with each market.
 
-#### Content localisation
+#### Content localization
 
-Simply translating content may not engage a new market. Localising content ensures that it is relevant to the audience in terms of language, tone, and cultural references.
+Simply translating content may not engage a new market. Localizing content ensures that it is relevant to the audience in terms of language, tone, and cultural references.
 
 Create [blog](/blog/) posts, product descriptions, and landing pages matched specifically to each region.
 
@@ -60,13 +60,13 @@ PPC platforms like Google Ads and Microsoft Ads allow businesses to focus on spe
 
 Geographic targeting ensures that your advertising budget is being spent on people most likely to be interested in your products or [services](/services/).
 
-#### Localised ad copy and visuals
+#### Localized ad copy and visuals
 
 To make PPC ads more effective, the content needs to resonate with local audiences.
 
 It includes translating ad copy and [adapting it to local cultures](/services/multilingual-content/), as well as using visuals that appeal to regional tastes and trends.
 
-#### Testing and optimising campaigns
+#### Testing and optimizing campaigns
 
 Running small, test [PPC campaigns](/blog/french-ppc-campaign/) in new markets helps businesses measure their performance and make adjustments.
 
@@ -86,7 +86,7 @@ For instance, WeChat is essential for marketing in China, while WhatsApp is wide
 
 Researching which platforms are popular in your target market is the first step in building a social media strategy.
 
-#### Localised engagement
+#### Localized engagement
 
 Engaging with local followers in their native language and addressing region-specific concerns can greatly boost your brand’s credibility.
 
@@ -118,14 +118,14 @@ It helps build a sense of authenticity and credibility, which is essential when 
 
 Email marketing remains one of the most effective and cost-efficient ways to communicate with potential customers in international markets.
 
-It must be carefully localised to achieve the desired impact.
+It must be carefully localized to achieve the desired impact.
 
 **Segmenting Campaigns**  
 To increase engagement, businesses should segment their email lists by location and language.
 
 It enables you to send custom messages and promotions that are relevant to each market, improving the overall effectiveness of the campaign.
 
-**Localising Content**  
+**Localizing Content**  
 Each market responds to different messaging and content styles.
 
 A successful email marketing campaign for international audiences needs to consider local holidays, cultural events, and purchasing behaviour.
@@ -143,7 +143,7 @@ Content marketing is one of the best ways for SMBs to build brand awareness, est
 
 A one-size-fits-all approach won’t work. Content must be matched to the specific needs and preferences of each region.
 
-**Localised Blogs and Articles**  
+**Localized Blogs and Articles**  
 To capture the interest of international audiences, businesses need to create content that addresses their specific challenges, needs, and interests.
 
 A blog that performs well in one market may need significant adjustments to resonate with a different culture.
@@ -151,7 +151,7 @@ A blog that performs well in one market may need significant adjustments to reso
 **Video Content**  
 Videos are incredibly versatile and universally popular.
 
-For international markets, consider creating localised video content, whether it’s through subtitles, voiceovers, or entirely new videos produced for each region.
+For international markets, consider creating localized video content, whether it’s through subtitles, voiceovers, or entirely new videos produced for each region.
 
 Platforms like YouTube allow for country-specific content distribution, helping you reach the right audience.
 
@@ -188,7 +188,7 @@ Face-to-face interaction is often more impactful than online marketing efforts, 
 **Showcasing Products and Services**  
 Trade shows give businesses the chance to showcase their products or services in front of a live audience.
 
-It’s important to localise marketing materials and presentations to appeal to the specific market you’re targeting, ensuring that your brand makes a strong impression.
+It’s important to localize marketing materials and presentations to appeal to the specific market you’re targeting, ensuring that your brand makes a strong impression.
 
 ## Affiliate marketing
 
@@ -201,10 +201,10 @@ Local affiliates know their markets well and can promote your products more effe
 
 They understand the preferences, pain points, and shopping habits of their audience, making their promotions more relevant and persuasive.
 
-**Tracking and Optimising Performance**  
+**Tracking and Optimizing Performance**  
 With affiliate marketing, businesses can track sales and leads generated by their partners.
 
-The data allows for easy optimisation of marketing strategies, focusing on what works best for each market.
+The data allows for easy optimization of marketing strategies, focusing on what works best for each market.
 
 ## Multilingual chatbots and customer support
 

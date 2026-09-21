@@ -113,7 +113,7 @@ export const POST_META_OVERRIDES: Record<string, string> = {
   "best-practices-for-multilingual-seo":
     "Multilingual SEO in 2026 needs hreflang, structured data and GEO working together, not translated keywords alone. See the practices that build presence.",
   "generative-engine-optimization":
-    "AI answers now name a handful of sources instead of ranking ten blue links. Here is how Generative Engine Optimisation adapts SEO to be one of them.",
+    "AI answers now name a handful of sources instead of ranking ten blue links. Here is how Generative Engine Optimization adapts SEO to be one of them.",
 };
 
 export function getPostMetaDescription(post: { slug: string; excerpt: string; cluster: string }): string {

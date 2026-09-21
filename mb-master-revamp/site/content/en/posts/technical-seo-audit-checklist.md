@@ -307,7 +307,7 @@ Website **load time** is a crucial factor affecting user experience and search r
 
 **Address**:
 
--   Optimise images by compressing them without significant quality loss.
+-   Optimize images by compressing them without significant quality loss.
 -   Use browser caching and enable compression (e.g., GZIP).
 -   Minimise CSS and JavaScript files by minifying and combining them.
 
@@ -329,7 +329,7 @@ With the majority of searches occurring on mobile devices, **mobile friendliness
 **Address**:
 
 -   Implement a responsive design using CSS media queries or frameworks like **Bootstrap**.
--   Optimise touch elements and ensure adequate spacing.
+-   Optimize touch elements and ensure adequate spacing.
 
 **Example**:
 
@@ -348,7 +348,7 @@ Ensure that navigation menus collapse into a mobile-friendly format on smaller s
 
 **Address**:
 
--   Optimise server response times to improve LCP.
+-   Optimize server response times to improve LCP.
 -   Reduce JavaScript execution time to enhance FID.
 -   Allocate size attributes for images and ads to fix CLS issues.
 
@@ -356,9 +356,9 @@ Ensure that navigation menus collapse into a mobile-friendly format on smaller s
 
 Implement lazy loading for images to improve LCP.
 
-#### 3.4 Image optimisation
+#### 3.4 Image optimization
 
-Optimising images can significantly improve page load times.
+Optimizing images can significantly improve page load times.
 
 **Check**: Ensure images are properly sized and compressed.
 
@@ -501,7 +501,7 @@ Implement FAQ schema:
       "name": "What is Technical SEO?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Technical SEO refers to website and server optimisations that help search engine spiders crawl and index your site more effectively."
+        "text": "Technical SEO refers to website and server optimizations that help search engine spiders crawl and index your site more effectively."
       }
     }
   ]
@@ -684,7 +684,7 @@ Server errors indicate issues with your website’s server configuration or reso
 **Address**:
 
 -   Resolve server configuration issues.
--   Optimise server resources to handle traffic efficiently.
+-   Optimize server resources to handle traffic efficiently.
 
 **Example**:
 
@@ -922,7 +922,7 @@ Website availability is critical for user experience and SEO.
 **Address**:
 
 -   Upgrade hosting plans or switch to a more reliable provider.
--   Optimise server configurations and ensure adequate resources.
+-   Optimize server configurations and ensure adequate resources.
 
 **Example**:
 
@@ -941,7 +941,7 @@ Fast server response times improve user experience and SEO.
 **Address**:
 
 -   Use a **Content Delivery Network (CDN)** like **Cloudflare**.
--   Optimise server-side scripts and database queries.
+-   Optimize server-side scripts and database queries.
 
 **Example**:
 
@@ -1040,7 +1040,7 @@ Regularly review crawl statistics for insights.
 **Address**:
 
 -   Investigate server logs for errors.
--   Optimise the crawl budget by fixing issues like duplicate content.
+-   Optimize the crawl budget by fixing issues like duplicate content.
 
 **Example**:
 
@@ -1069,7 +1069,7 @@ If penalised for unnatural links, remove or disavow the links, then request reco
 
 Conducting regular **[technical SEO audits](/blog/technical-seo-for-multilingual-websites/)** is essential for maintaining and improving a website’s performance in search engines.
 
-By systematically addressing each element in this checklist, web agencies can ensure their clients’ websites are optimised for both search engines and users. Implementing these **best practices** leads to better visibility, higher rankings, and an improved user experience.
+By systematically addressing each element in this checklist, web agencies can ensure their clients’ websites are optimized for both search engines and users. Implementing these **best practices** leads to better visibility, higher rankings, and an improved user experience.
 
 **Next Steps**:
 

@@ -41,7 +41,15 @@ const US_SPELLINGS = [
   "rigor", "rigors", "behavior(?:s|al)?", "favor(?:s|ed|ite|ites)?",
   "honor(?:s|ed)?", "labor(?:s|ed)?", "catalog(?:s|ed)?",
   "organiz(?:e|es|ed|ing|ation|ations)", "recogniz(?:e|es|ed|ing|able)",
-  "optimiz(?:e|es|ed|ing|ation|ations)", "localiz(?:e|es|ed|ing|ation)",
+  // optimiz* and localiz* are deliberately absent. Owner decision,
+  // 21 Sep 2026: "It's international and volume based SEO. Adjust
+  // spelling." The two word families are the site's own product
+  // vocabulary and the demand is on the US form, measured rather than
+  // assumed: seo optimization 29,000 against optimisation 5,500,
+  // generative engine optimization 26,000 against 3,800, localization
+  // services 2,800 against 600. Everything else in this list stays,
+  // because "behavior" and "catalog" are not products this practice
+  // sells and carry no such argument.
   "specializ(?:e|es|ed|ing|ation)", "analyz(?:e|es|ed|ing)",
   "prioritiz(?:e|es|ed|ing)", "customiz(?:e|es|ed|ing|ation)",
   "traveled", "traveling", "modeling", "canceled", "defense", "offense",

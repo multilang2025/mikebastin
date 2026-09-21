@@ -190,7 +190,7 @@ If results have plateaued after two or three years with the same agency, a fresh
 
 Tools like ChatGPT, Claude, and Perplexity are changing search behaviour faster than most agencies are pivoting.
 
-Algorithm updates from Google and the rise of [generative engine optimisation](/services/generative-engine-optimization/) demand forward-looking thinking.
+Algorithm updates from Google and the rise of [generative engine optimization](/services/generative-engine-optimization/) demand forward-looking thinking.
 
 An advisor focuses on where the market is going, including how [SEO will evolve](/blog/future-of-seo/) and which bets to make first.
 
@@ -304,7 +304,7 @@ As generative AI tools like ChatGPT, Jasper, and Claude make content production 
 
 Knowing which lever to pull matters more than the act of pulling it.
 
-Companies serious about future-proof marketing increasingly favour advisors who think with them about positioning and business model rather than agencies optimising for output volume.
+Companies serious about future-proof marketing increasingly favour advisors who think with them about positioning and business model rather than agencies optimizing for output volume.
 
 For a deeper view on the shift, see how [AI is rewriting SEO strategy](/blog/how-ai-is-revolutionising-seo-strategies/) and what a [search everywhere strategy](/blog/search-everywhere-strategy/) looks like in practice.
 

@@ -79,11 +79,11 @@ Nos clients
 
 -   **Portée mondiale** : augmente la portée de votre site web à plusieurs langues et régions.
 -   **Facile d’utilisation** : fournit aux utilisateurs une expérience personnalisée et adaptée à la culture local.
--   **Meilleur classement** : optimise votre site pour les moteurs de recherche dans différentes langues afin d’améliorer votre visibilité sur les marchés mondiaux.
+-   **Meilleur classement** : optimize votre site pour les moteurs de recherche dans différentes langues afin d’améliorer votre visibilité sur les marchés mondiaux.
 
 ### Notre expertise en intégration de CMS multilingues
 
-Grâce à nos années d’expérience dans la localisation de site web et dans l’intégration de CMS, notre équipe se spécialise pour vous fournir des solutions multilingues pour WordPress, Joomla, Drupal, et d’autres plateformes.
+Grâce à nos années d’expérience dans la localization de site web et dans l’intégration de CMS, notre équipe se spécialise pour vous fournir des solutions multilingues pour WordPress, Joomla, Drupal, et d’autres plateformes.
 
 Nous mettons l’accent sur la maîtrise technique, l’adaptation culturelle et la conformité, en veillant à ce que votre site web multilingue soit optimisé pour chaque marché.
 

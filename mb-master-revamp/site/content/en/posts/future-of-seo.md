@@ -16,7 +16,7 @@ excerpt: "How AI Overviews, zero-click search and GEO are reshaping SEO. Data-ba
 
 SEO has changed more in the past 18 months than in the previous five years combined.
 
-Google’s AI Overviews now dominate informational queries. Zero-click behaviour has become the norm, not the exception. Generative Engine Optimisation (GEO) has emerged as a parallel discipline. And brands that built their entire strategy around organic traffic are scrambling to find a new playbook.
+Google’s AI Overviews now dominate informational queries. Zero-click behaviour has become the norm, not the exception. Generative Engine Optimization (GEO) has emerged as a parallel discipline. And brands that built their entire strategy around organic traffic are scrambling to find a new playbook.
 
 From the Google March 2025 Core Update to expanding Spam Policy Updates throughout 2024 and 2025, the search world has fundamentally shifted. Featured Snippets, Knowledge Panels, and People Also Ask boxes now command more SERP real estate than ever before.
 
@@ -42,13 +42,13 @@ Winning [AI-driven SEO strategies](/blog/how-ai-is-revolutionising-seo-strategie
 -   Measure engagement quality (scroll depth, time on page, return visits) rather than raw traffic
 -   Monitor your Brand SERP, how your brand appears when someone searches your name directly
 
-## Generative engine optimisation is now a parallel discipline
+## Generative engine optimization is now a parallel discipline
 
-[Generative Engine Optimisation (GEO)](/services/generative-engine-optimization/) has moved from theory to practice. ChatGPT Search, Gemini, Perplexity AI, and Microsoft Copilot all pull from web content to generate answers. Brands that appear in AI-generated responses gain visibility without a single click.
+[Generative Engine Optimization (GEO)](/services/generative-engine-optimization/) has moved from theory to practice. ChatGPT Search, Gemini, Perplexity AI, and Microsoft Copilot all pull from web content to generate answers. Brands that appear in AI-generated responses gain visibility without a single click.
 
 > AI referrals to top websites surged 357% year-over-year between June 2024 and June 2025, according to Ahrefs data. AI-referred sessions jumped 527% YoY in the first five months of 2025 (Previsible AI Traffic Report). Semrush predicts LLM traffic will overtake traditional Google search by the end of 2027. Source: [Superlines AI Search Statistics](https://www.superlines.io/articles/ai-search-statistics/)
 
-GEO does not replace traditional SEO. It runs alongside it. Content structured for citation, with clear factual claims, named sources, and Schema.org structured data in JSON-LD format, performs in both channels. The job is optimising not just for Google’s algorithm, but for the large language models that power Perplexity AI, ChatGPT Search, and Gemini.
+GEO does not replace traditional SEO. It runs alongside it. Content structured for citation, with clear factual claims, named sources, and Schema.org structured data in JSON-LD format, performs in both channels. The job is optimizing not just for Google’s algorithm, but for the large language models that power Perplexity AI, ChatGPT Search, and Gemini.
 
 ### What to do now
 
@@ -98,7 +98,7 @@ Voice search never had its predicted “revolution” moment. Instead, it became
 
 > An estimated 157.1 million Americans will use voice search in 2026. 75% of households are expected to own smart speaker devices by 2025. The speech recognition market is projected to reach $47 billion by 2030, growing at a 14.24% CAGR. Source: [DemandSage](https://www.demandsage.com/voice-search-statistics/), [Invoca](https://www.invoca.com/blog/voice-search-stats-marketers)
 
-Smart speakers, in-car assistants, and mobile voice input now account for a meaningful share of local search activity. Pages structured around natural language patterns and direct answers consistently capture these queries. Voice assistants pull heavily from Featured Snippets, making position zero a priority for voice optimisation.
+Smart speakers, in-car assistants, and mobile voice input now account for a meaningful share of local search activity. Pages structured around natural language patterns and direct answers consistently capture these queries. Voice assistants pull heavily from Featured Snippets, making position zero a priority for voice optimization.
 
 ### What to do now
 
@@ -152,7 +152,7 @@ International markets remain undertapped by most businesses. Machine translation
 
 Ranking in Spanish, German, French, or Portuguese markets requires [multilingual SEO](/services/multilingual-seo/) that goes beyond word-for-word conversion. Cultural adaptation, local keyword research, and [region-specific search behaviour](/blog/best-practices-for-multilingual-seo/) determine whether international pages rank or rot.
 
-Proper hreflang implementation tells search engines which language version to serve to which audience. Combined with localised Schema.org markup and country-specific backlink profiles, it creates a technical foundation for international growth.
+Proper hreflang implementation tells search engines which language version to serve to which audience. Combined with localized Schema.org markup and country-specific backlink profiles, it creates a technical foundation for international growth.
 
 ### What to do now
 
@@ -198,7 +198,7 @@ Sustainable SEO means building authority through genuine expertise, earned backl
 
 SEO is not dying. It is evolving into something broader and more demanding.
 
-Search visibility in 2026 requires technical precision, genuine authority, and content that performs whether or not someone clicks through to your site. The convergence of traditional SEO and Generative Engine Optimisation means optimising for both Google’s algorithm and the large language models powering ChatGPT Search, Perplexity AI, and Gemini.
+Search visibility in 2026 requires technical precision, genuine authority, and content that performs whether or not someone clicks through to your site. The convergence of traditional SEO and Generative Engine Optimization means optimizing for both Google’s algorithm and the large language models powering ChatGPT Search, Perplexity AI, and Gemini.
 
 Businesses that still measure success by rankings alone will fall behind those measuring brand recall, AI citation frequency, branded search volume, and conversion quality.
 
@@ -216,9 +216,9 @@ No. SEO is not dead. It has evolved. While zero-click searches and AI Overviews 
 
 AI has reshaped SEO in two fundamental ways. First, Google AI Overviews (formerly SGE) now synthesise answers directly in search results, reducing click-through rates for informational queries. Second, AI tools like ChatGPT and Gemini enable content creation at scale, but Google’s March 2025 Core Update penalises AI-generated content that lacks originality, expertise, and genuine value.
 
-### What is GEO (generative engine optimisation)?
+### What is GEO (generative engine optimization)?
 
-Generative Engine Optimisation (GEO) is the practice of optimising content to appear in AI-generated responses from platforms like ChatGPT Search, Perplexity AI, Gemini, and Google AI Overviews. Unlike traditional SEO, GEO focuses on making content citable and extractable by large language models through clear factual statements, structured data (Schema.org / JSON-LD), and authoritative sourcing.
+Generative Engine Optimization (GEO) is the practice of optimizing content to appear in AI-generated responses from platforms like ChatGPT Search, Perplexity AI, Gemini, and Google AI Overviews. Unlike traditional SEO, GEO focuses on making content citable and extractable by large language models through clear factual statements, structured data (Schema.org / JSON-LD), and authoritative sourcing.
 
 ### Do zero-click searches kill SEO?
 
@@ -228,9 +228,9 @@ Zero-click searches do not kill SEO. They change how it delivers value. With 60 
 
 The most important ranking factors in 2026 include content quality aligned with E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness), Core Web Vitals performance (LCP, INP, CLS), topical authority built through topic clusters, strong backlink profiles from authoritative domains, and proper technical SEO including Schema.org structured data, hreflang for multilingual sites, and mobile-first design.
 
-### How do we optimise for AI Overviews?
+### How do we optimize for AI Overviews?
 
-To optimise for Google AI Overviews, structure content with clear, factual statements that AI can easily extract. Use Schema.org markup in JSON-LD format. Include specific data points and cite authoritative sources. Build topical authority through detailed topic cluster content. Ensure your Google Business Profile and author credentials reinforce E-E-A-T signals.
+To optimize for Google AI Overviews, structure content with clear, factual statements that AI can easily extract. Use Schema.org markup in JSON-LD format. Include specific data points and cite authoritative sources. Build topical authority through detailed topic cluster content. Ensure your Google Business Profile and author credentials reinforce E-E-A-T signals.
 
 ### Is link building still important?
 

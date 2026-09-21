@@ -52,11 +52,11 @@ Hreflang es-ES, es-MX, es-CO, es-AR, es-DO as relevant. Separate sitemaps per va
 
 Spain: GDPR-EU + LSSI-CE + AEPD cookie consent. Mexico: INAI. Colombia: SIC. Argentina: AAIP. Dominican Republic: Indotel. Distinct configurations per target market.
 
-Subdirectory, subdomain or ccTLD per market, hreflang validated per variant, translated slugs, localised schema markup per country.
+Subdirectory, subdomain or ccTLD per market, hreflang validated per variant, translated slugs, localized schema markup per country.
 
 Spain: El País, El Mundo, Expansión, sector associations. LatAm: regional press per country (El Universal MX, El Tiempo CO, La Nación AR, Listín Diario DO), sector directories.
 
-Optimisation for ChatGPT, Claude, Perplexity and Google AI Overviews per Spanish variant. LLMs distinguish ES-ES from LatAm responses on most commercial queries.
+Optimization for ChatGPT, Claude, Perplexity and Google AI Overviews per Spanish variant. LLMs distinguish ES-ES from LatAm responses on most commercial queries.
 
 ## My process in 5 steps, named deliverables
 
@@ -68,7 +68,7 @@ Direct execution on ES-ES. Native LatAm execution via Santo Domingo team. Strate
 
 **Deliverable:** 6-12 month strategy with editorial calendar per variant, technical plan, legal compliance roadmap per country, local backlink strategy per market.
 
-**Deliverable:** direct writing in ES-ES from me, native LatAm variant writing from Santo Domingo team. Technical optimisation per variant, local backlinks per market, Search Console submission per language code.
+**Deliverable:** direct writing in ES-ES from me, native LatAm variant writing from Santo Domingo team. Technical optimization per variant, local backlinks per market, Search Console submission per language code.
 
 **Deliverable:** monthly report per variant with Google positions on country-specific domains, AI citations per Spanish variant, performance per market, actionable recommendations.
 
@@ -114,7 +114,7 @@ Content strategy and editorial calendar per variant
 
 ✓
 
-Hreflang per variant, localised schema markup
+Hreflang per variant, localized schema markup
 
 ✓
 
@@ -162,7 +162,7 @@ Strategic question at every Spanish SEO engagement.
 
 **Spain only (ES-ES):** ~47M speakers in a mature EU market with GDPR-EU, EUR, LSSI-CE. Default for European businesses targeting Spanish customers. Direct fluent execution on my side.
 
-**Specific LatAm market (es-MX, es-CO, es-AR, es-DO):** distinct strategy per country. Mexico (~129M) is the largest single LatAm market. Colombia, Argentina, the Caribbean each have specific dynamics. Hreflang per country, localised vocabulary and compliance.
+**Specific LatAm market (es-MX, es-CO, es-AR, es-DO):** distinct strategy per country. Mexico (~129M) is the largest single LatAm market. Colombia, Argentina, the Caribbean each have specific dynamics. Hreflang per country, localized vocabulary and compliance.
 
 **Spain + LatAm combined (broader Hispanic reach):** justified for global brands with active customers in both regions, especially in B2B SaaS, media, education and remote services. Distinct content sets per variant.
 

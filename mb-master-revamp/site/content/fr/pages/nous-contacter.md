@@ -10,7 +10,7 @@ wpId: 24848146
 date: "2020-04-20T19:02:34"
 modified: "2026-05-29T07:42:22"
 sourceUrl: "https://mikebastin.com/fr/nous-contacter/"
-excerpt: "Boostez votre visibilité avec un expert SEO. Contactez Mike Bastin pour des stratégies sur mesure, de la conception UX/UI à l'optimisation SEO."
+excerpt: "Boostez votre visibilité avec un expert SEO. Contactez Mike Bastin pour des stratégies sur mesure, de la conception UX/UI à l'optimization SEO."
 ---
 
 # Contactez-nous

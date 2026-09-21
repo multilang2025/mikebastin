@@ -8,7 +8,7 @@ import { SERVICES } from "@/lib/services";
 export const metadata: Metadata = {
   title: "Contact, Mike Bastin",
   description:
-    "Tell us which language you want selling next. A short brief on multilingual SEO, localisation or AI consulting gets a straight answer within a working day.",
+    "Tell us which language you want selling next. A short brief on multilingual SEO, localization or AI consulting gets a straight answer within a working day.",
 };
 
 /**

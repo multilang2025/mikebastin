@@ -9,7 +9,7 @@ wpId: 24845622
 date: "2024-10-16T14:37:26"
 modified: "2026-07-02T15:11:36"
 sourceUrl: "https://mikebastin.com/link-building-in-spain/"
-excerpt: "Link building in Spain presents unique challenges and opportunities, requiring localised strategies to enhance SEO performance."
+excerpt: "Link building in Spain presents unique challenges and opportunities, requiring localized strategies to enhance SEO performance."
 ---
 
 ## Link building in Spain works on relationships, not templates
@@ -120,7 +120,7 @@ If a vendor promises 20 .es links in 30 days, the inventory is already bought, a
 
 ### Where this fits in a wider Spanish SEO programme
 
-Off-page work in Spain pulls hardest when it sits beside proper [Spanish keyword localisation](/blog/spanish-keyword-localisation/), [content tuned for Spanish users](/blog/content-optimisation-for-spanish-users/), and a clear [Spanish SEO market plan](/blog/spanish-seo-markets/) that respects regional differences.
+Off-page work in Spain pulls hardest when it sits beside proper [Spanish keyword localization](/blog/spanish-keyword-localisation/), [content tuned for Spanish users](/blog/content-optimisation-for-spanish-users/), and a clear [Spanish SEO market plan](/blog/spanish-seo-markets/) that respects regional differences.
 
 A link from El Español is wasted on a thin English landing page that nobody bothered to translate properly.
 

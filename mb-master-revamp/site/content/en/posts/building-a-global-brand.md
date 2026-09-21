@@ -54,7 +54,7 @@ The brand assets that survive cross-market deployment without rework, in our exp
 
 ### A real failure mode we keep seeing
 
-The pattern goes like this. A brand decides to “go global”. Marketing commissions a translation agency. Six locales launch simultaneously. The English version converts at 3.2%. The localised versions average 0.9%.
+The pattern goes like this. A brand decides to “go global”. Marketing commissions a translation agency. Six locales launch simultaneously. The English version converts at 3.2%. The localized versions average 0.9%.
 
 Three weeks later someone calls us and asks why “the SEO is not working”.
 

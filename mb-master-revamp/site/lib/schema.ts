@@ -89,7 +89,7 @@ export const professionalServiceSchema = {
    *  `description`, which answers a different question. */
   slogan: "Automating business. Translating ideas. Connecting people.",
   description:
-    "Multilingual SEO, localisation and AI consulting from Valencia, Spain.",
+    "Multilingual SEO, localization and AI consulting from Valencia, Spain.",
   url: SITE_URL,
   telephone: "+34671175774",
   email: "hello@mikebastin.com",

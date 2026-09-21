@@ -56,7 +56,7 @@ Visual planner with drag-and-drop interface
 
 [Iconosquare](https://www.iconosquare.com/) provides in-depth Instagram analytics, including audience insights, content performance, and competitor analysis.
 
-It serves data-driven marketers looking to optimise their Instagram strategy.
+It serves data-driven marketers looking to optimize their Instagram strategy.
 
 ### Sprout social
 

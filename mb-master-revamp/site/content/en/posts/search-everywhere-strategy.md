@@ -27,9 +27,9 @@ Combine this with a **complete multilingual SEO strategy** to capture high-inten
 ### What you need to know: executive summary
 
 -   **Search is fragmented:** Users bypass Google for AI tools, social feeds, and niche platforms.
--   **GEO is essential:** Optimise for Generative Engine Optimisation (GEO) so AI cites your brand as the definitive source.
+-   **GEO is essential:** Optimize for Generative Engine Optimization (GEO) so AI cites your brand as the definitive source.
 -   **Vertical search dominates B2B:** G2, Capterra, and industry directories drive procurement decisions.
--   **Multilingual ≠ translation:** Localised content must align with regional search behaviour and hreflang best practices.
+-   **Multilingual ≠ translation:** Localized content must align with regional search behaviour and hreflang best practices.
 -   **Facts beat fluff:** Structured data and explicit facts increase AI citation accuracy far more than narrative prose.
 
 Need help implementing this? Explore our [multilingual SEO services](/services/multilingual-seo/) to build a unified search everywhere presence.
@@ -46,7 +46,7 @@ Search Surface
 
 User Intent
 
-Optimisation Focus
+Optimization Focus
 
 AI Assistants (ChatGPT, Gemini)
 
@@ -72,9 +72,9 @@ Navigational queries
 
 E-E-A-T + technical SEO
 
-## Mastering generative engine optimisation (GEO)
+## Mastering generative engine optimization (GEO)
 
-GEO optimises content for AI models that synthesise answers, not rank pages.
+GEO optimizes content for AI models that synthesise answers, not rank pages.
 
 To be cited by ChatGPT or Perplexity, your content must be machine-readable, fact-dense, and structured for easy extraction. See our [GEO framework](/services/generative-engine-optimization/) for implementation guidance.
 
@@ -84,11 +84,11 @@ Want AI to recommend you? Discover our [GEO services](/services/generative-engin
 
 ## Social platforms as vertical search engines
 
-LinkedIn is now a primary B2B search engine. Optimise your profile with industry keywords to appear in internal searches. Similarly, TikTok and YouTube serve “how-to” queries, especially for complex topics like EUDR compliance or SaaS demos.
+LinkedIn is now a primary B2B search engine. Optimize your profile with industry keywords to appear in internal searches. Similarly, TikTok and YouTube serve “how-to” queries, especially for complex topics like EUDR compliance or SaaS demos.
 
 Treat each platform as a unique search ecosystem. Hashtags, captions, and on-screen text act as metadata. Consistent visibility here builds real-world authority, signals AI models use to verify your credibility.
 
-### Optimising for B2B vertical platforms
+### Optimizing for B2B vertical platforms
 
 -   **LinkedIn:** Embed keywords in headline and About section.
 -   **G2/Capterra:** Solicit reviews mentioning specific features or use cases.
@@ -120,7 +120,7 @@ Format impacts extraction: tables and bullet points outperform dense paragraphs.
 
 ## A unified search strategy
 
-Integrate SEO, GEO, social, and localisation into one framework. Repurpose a single research piece into a LinkedIn carousel, YouTube short, and FAQ schema, increasing ROI across channels.
+Integrate SEO, GEO, social, and localization into one framework. Repurpose a single research piece into a LinkedIn carousel, YouTube short, and FAQ schema, increasing ROI across channels.
 
 Track new KPIs: AI citation share, social mentions, and vertical directory referrals. Tools like Semrush now support these metrics, but manual audits remain critical to assess how AI perceives your brand.
 

@@ -14,9 +14,9 @@ import { SITE_URL } from "@/lib/schema";
 // "international SEO" (2,100 UK, 10,000 global, KD 34 per Ahrefs, 19 Aug 2026)
 // already belongs to /services/multilingual-seo/ and duplicating it here would
 // put two of our own pages in the same result.
-const TITLE = "Multilingual SEO and localisation consultancy, Mike Bastin";
+const TITLE = "Multilingual SEO and localization consultancy, Mike Bastin";
 const DESCRIPTION =
-  "Your English pages sell. Multilingual SEO makes your other languages sell too. Localisation consultancy from Valencia, enquiries counted per market.";
+  "Your English pages sell. Multilingual SEO makes your other languages sell too. Localization consultancy from Valencia, enquiries counted per market.";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -91,7 +91,7 @@ const BASTIN = [
 const WHAT_WE_DO = [
   {
     cluster: "Lead generation",
-    desc: "Enquiries are the product. Multilingual SEO, localisation and AI consulting are the mechanisms underneath.",
+    desc: "Enquiries are the product. Multilingual SEO, localization and AI consulting are the mechanisms underneath.",
     href: "/services/lead-generation/",
   },
   {
@@ -100,7 +100,7 @@ const WHAT_WE_DO = [
     href: "/services/multilingual-seo/",
   },
   {
-    cluster: "Localisation",
+    cluster: "Localization",
     desc: "Making a site work in a market, not merely readable in a language.",
     href: "/services/website-localisation/",
   },
@@ -214,7 +214,7 @@ export default function Home() {
             </h2>
             <p className="mb-12 max-w-[56ch] text-[1.05rem]" style={{ color: "var(--dim)" }}>
               You already sell abroad, so the product is proven. Ongoing
-              multilingual SEO is the main engagement, with localisation,
+              multilingual SEO is the main engagement, with localization,
               paid search and AI consulting around it, and enquiries are the
               product either way, counted market by market so you can see
               which language earns them.

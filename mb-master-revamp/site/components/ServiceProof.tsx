@@ -12,8 +12,8 @@ import { TESTIMONIALS, GBP_URL, type Testimonial } from "@/lib/testimonials";
  *
  * Training reviews are excluded on purpose. Four of the ten are about SEO
  * training, which is a real thing we did and not what a service page is
- * selling, so quoting one under "Website localisation" would imply we
- * delivered localisation for that person. Only `delivery` and `expertise`
+ * selling, so quoting one under "Website localization" would imply we
+ * delivered localization for that person. Only `delivery` and `expertise`
  * appear here.
  *
  * The pick is a hash of the slug rather than the first match, so the six

@@ -28,7 +28,7 @@ Direct keyword translations regularly miss regional differences in how people se
 
 A query with commercial intent in one market may carry purely informational intent in another.
 
-Adapting to these variations is what separates localised content from translated content.
+Adapting to these variations is what separates localized content from translated content.
 
 ## Four types of search intent
 
@@ -36,7 +36,7 @@ Every search query carries an underlying purpose.
 
 Google’s ranking systems classify these into four primary categories:
 
--   **Informational:** users seek knowledge or answers, for example “what is hreflang” or “how does website localisation work”
+-   **Informational:** users seek knowledge or answers, for example “what is hreflang” or “how does website localization work”
 -   **Navigational:** users look for a specific brand or website, for example “Google Search Console” or “Semrush login”
 -   **Commercial:** users compare products or services before committing, for example “best multilingual SEO tools” or “Spanish SEO agency reviews”
 -   **Transactional:** users are ready to act, for example “buy keyword research software” or “hire multilingual SEO consultant”
@@ -140,7 +140,7 @@ Search behaviour is not universal.
 
 A keyword that signals buying intent in one country may signal research intent in another.
 
-Localisation teams working across markets encounter these differences constantly.
+Localization teams working across markets encounter these differences constantly.
 
 Consider these examples:
 
@@ -156,12 +156,12 @@ AI tools can accelerate this process by identifying intent differences across la
 
 ## Adapting content for multilingual search intent
 
-Localising for intent goes beyond language.
+Localizing for intent goes beyond language.
 
 Practical steps for multilingual intent alignment:
 
 -   **Conduct regional SERP analysis:** review what ranks in each target market, not just what ranks in English, and identify the dominant content format, depth, and angle
--   **Localise messaging, not just language:** adapt CTAs, value propositions, and content structure to match regional expectations
+-   **Localize messaging, not just language:** adapt CTAs, value propositions, and content structure to match regional expectations
 -   **Analyse competitor positioning per market:** competitors in [Spain](/blog/spanish-seo-markets/), [Germany](/blog/german-seo-best-practices/), or [France](/services/french-seo/) often use different content formats and persuasion patterns for the same topic
 -   **Structure content for featured snippets and AI Overviews:** use question-based headings, concise answer paragraphs (40-60 words), and structured data to increase visibility in SERP features that vary by region
 -   **Test variations:** run A/B tests on headlines, CTAs, and page structures per market to validate which format best matches local intent
@@ -179,7 +179,7 @@ A structured implementation process reduces wasted effort and misaligned content
 **Define target markets.**  
 Identify priority languages and regions based on commercial opportunity, not just traffic potential.
 
-**Perform localised keyword research.**  
+**Perform localized keyword research.**  
 Use native speakers combined with AI-powered tools to analyse search behaviours in each market.
 
 Semrush, Ahrefs, and Sistrix all offer regional keyword databases with intent classification.
@@ -219,9 +219,9 @@ For businesses operating across multiple markets, this shift compounds.
 
 AI Overviews pull from different sources in different languages.
 
-A brand visible in English-language AI results may be entirely absent from Spanish or German AI results unless it has invested in localised, intent-matched content for those markets.
+A brand visible in English-language AI results may be entirely absent from Spanish or German AI results unless it has invested in localized, intent-matched content for those markets.
 
-Understanding how [generative engine optimisation](/services/generative-engine-optimization/) works alongside traditional SEO is now a practical requirement, not a future consideration.
+Understanding how [generative engine optimization](/services/generative-engine-optimization/) works alongside traditional SEO is now a practical requirement, not a future consideration.
 
 ## Moving forward with intent-driven strategy
 

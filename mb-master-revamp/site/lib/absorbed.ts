@@ -33,11 +33,11 @@ export const ABSORBED_PROSE: Record<string, string[]> = {
 
   "local-seo": [
     "Local search is its own discipline, and the map pack is where it is won or lost. Google Business Profile, citations that agree with each other, contact details that match everywhere they appear, and landing pages written for a neighbourhood rather than a country.",
-    "In a multilingual city the work doubles. Valencia, Brussels and Geneva each search in more than one language, and a profile optimised in one of them is close to invisible in the other.",
+    "In a multilingual city the work doubles. Valencia, Brussels and Geneva each search in more than one language, and a profile optimized in one of them is close to invisible in the other.",
   ],
 
   "website-localisation": [
-    "Localisation is one job with six places to get it wrong, and the copy is only the first of them. Content first: pages that read as though written for the market, not translated into it.",
+    "Localization is one job with six places to get it wrong, and the copy is only the first of them. Content first: pages that read as though written for the market, not translated into it.",
     "Then the machinery. A CMS wired so editors can publish in every language without a developer in the loop, WordPress plugins such as WPML, Weglot and Polylang set up properly, since they decide a site's URLs and hreflang whether or not anyone configured them, and a store where currency, payment methods, shipping rules and product data all change per market.",
     "And the interface has to hold. German runs about a third longer than the English a layout was designed around, so we test the built thing before launch: text overflowing its box, dates and currencies in the wrong format, untranslated strings still sitting in the menu.",
   ],
@@ -50,7 +50,7 @@ export const ABSORBED_PROSE: Record<string, string[]> = {
   ],
 
   "app-and-software-localisation": [
-    "Order decides the cost here: internationalisation is what you do before launch, localisation is what you do after.",
+    "Order decides the cost here: internationalisation is what you do before launch, localization is what you do after.",
     "Software built to take another language costs far less than software retrofitted to it, which is the whole argument for doing the dull part early. Apps then go to market with their store listings translated too, since the listing is what gets found before the app does.",
     "Video, audio and podcasts come with the same expectation. An audience that finds you in its own language expects the media in it as well, with subtitling or voice work depending on what the format can carry.",
   ],
@@ -73,7 +73,7 @@ export const ABSORBED_PROSE: Record<string, string[]> = {
   ],
 
   "multilingual-content": [
-    "Writing in the target language against that market's own research is a different job from translating a page optimised for a different one, and it is the difference between ranking in a market and merely existing in it.",
+    "Writing in the target language against that market's own research is a different job from translating a page optimized for a different one, and it is the difference between ranking in a market and merely existing in it.",
     "Culture decides the rest. What reads as confident in one market reads as blunt in the next, and it is cheaper to settle that before a campaign runs than after it lands badly. Social accounts follow the same rule: run per language by native speakers, not one feed pushed through translation.",
   ],
 };

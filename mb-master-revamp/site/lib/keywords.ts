@@ -135,7 +135,7 @@ export const KEYWORDS: Record<string, PageKeywords> = {
     note:
       "SPELLING CONFLICT, owner decision needed. Every one of these terms is " +
       "the US spelling, and the site is UK English by non-negotiable rule, so " +
-      "the page says `optimisation` while the searches say `optimization`. " +
+      "the page says `optimization` while the searches say `optimization`. " +
       "The route slug is already US-spelled. Not resolved here, because the " +
       "spelling rule is the owner's and so is the trade.",
   },
@@ -158,10 +158,10 @@ export const KEYWORDS: Record<string, PageKeywords> = {
 
   "/services/website-localisation": {
     primary: { term: "website localization", volume: 2800, kd: 5 },
-    secondary: [{ term: "website localisation services", volume: 350, kd: null }],
+    secondary: [{ term: "website localization services", volume: 350, kd: null }],
     note:
       "Same spelling conflict as the GEO page, and sharper: the US " +
-      "`localization` draws 2,800 against 350 for the UK `localisation`. " +
+      "`localization` draws 2,800 against 350 for the UK `localization`. " +
       "Eight times the demand sits on a spelling the house rules forbid. " +
       "Owner's call, flagged rather than taken.",
   },

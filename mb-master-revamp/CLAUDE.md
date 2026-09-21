@@ -102,7 +102,21 @@ needs.
   my/me/mine. Exception: a reviewer's own quote is verbatim and never
   converted, and Roman numeral "I" in the portfolio numbering is not a
   pronoun.
-- UK English. No sentences starting with "This" or "That". No emojis in
+- UK English, **with one measured exception**: the `optimiz*` and
+  `localiz*` families take the US spelling (owner, 21 Sep 2026, "it's
+  international and volume based SEO"). Both are this practice's own
+  product vocabulary and the demand sits on the US form: `seo
+  optimization` 29,000 a month against `optimisation` 5,500, `generative
+  engine optimization` 26,000 against 3,800, `localization services` 2,800
+  against 600. Everything else stays British, because "colour" and
+  "centre" are not products and carry no such argument. Both lints
+  (`copy-lint.mjs`, `copy-lint-code.mjs`) encode the exception.
+  **Slugs keep their UK spelling regardless.** Eighteen legacy URLs in
+  `docs/sitemap-MB-EN.txt` contain one, `/services/app-localisation/`
+  among them, and the never-404 rule outranks a spelling preference. So
+  `/services/website-localisation/` serves a page headed "Website
+  localization services", which is deliberate rather than an oversight.
+- No sentences starting with "This" or "That". No emojis in
   body content (emojis allowed on social posts only, max 1 per post).
 - Forbidden vocabulary (non-exhaustive, whole-word match): comprehensive,
   tailored, seamless, leverage, elevate, crafted, maximise, facilitate,

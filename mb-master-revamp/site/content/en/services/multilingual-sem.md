@@ -9,7 +9,7 @@ wpId: 24845180
 date: "2024-10-08T11:01:23"
 modified: "2026-07-19T10:37:41"
 sourceUrl: "https://mikebastin.com/services/multilingual-sem/"
-excerpt: "Boost global sales by integrating localised e-commerce solutions. Adapt WooCommerce, Shopify, and other major platforms for diverse markets to enhance trust, conversion rates, and customer experience."
+excerpt: "Boost global sales by integrating localized e-commerce solutions. Adapt WooCommerce, Shopify, and other major platforms for diverse markets to enhance trust, conversion rates, and customer experience."
 ---
 
 # Multilingual SEM: Google Ads, Bing Ads and Meta Ads piloted per market
@@ -40,7 +40,7 @@ A US Google Ads campaign translated to French, Spanish and German keeps the orig
 
 Keywords picked from Google Keyword Planner without verifying real intent or local search behaviour. The result: high impressions, low CTR, irrelevant clicks, wasted spend. Real keyword research means checking actual SERPs in the target market, validating with native speakers, and starting with tighter intent buckets rather than broad match.
 
-Generic conversion tracking that mixes all markets together. You cannot tell which language is profitable, which is bleeding budget, which is mid. Decision-making becomes guesswork. Each market needs its own conversion tracking, attribution and KPI report. Without that, optimisation is theatre.
+Generic conversion tracking that mixes all markets together. You cannot tell which language is profitable, which is bleeding budget, which is mid. Decision-making becomes guesswork. Each market needs its own conversion tracking, attribution and KPI report. Without that, optimization is theatre.
 
 Multilingual SEM is sequencing and discipline, not just translating ad copy. Campaigns built per market with native research, distinct ad accounts where it makes sense, dedicated tracking. Aligned with the [multilingual SEO](/services/multilingual-seo/) structure to share keyword research and landing pages.
 
@@ -60,7 +60,7 @@ Google Ads as default. Bing Ads where US B2B audience justifies (Microsoft ecosy
 
 ## Our process in 5 steps, named deliverables
 
-Audit, native research, build, launch, optimise. No spending before scoping is validated.
+Audit, native research, build, launch, optimize. No spending before scoping is validated.
 
 **Deliverable:** diagnostic of current accounts (Google Ads, Bing Ads, Meta Ads): structure, spend allocation, performance per market, wasted budget on irrelevant keywords or audiences, conversion tracking gaps.
 
@@ -126,7 +126,7 @@ Landing page alignment with existing site or new dedicated pages
 
 ✓
 
-Ongoing optimisation (bid adjustments, negative keywords, A/B testing)
+Ongoing optimization (bid adjustments, negative keywords, A/B testing)
 
 ✓
 
@@ -192,7 +192,7 @@ Conservative initial period: 2-4 weeks at controlled budget while tracking valid
 
 Can you work with our existing Google Ads or Meta account?
 
-Yes. We prefer working in your existing accounts when they have history (Quality Score, audience signals, conversion data). Audit first, restructure if needed, then optimise. Starting fresh is recommended only when the existing account has accumulated bad signals (low Quality Score across the board, conversion tracking broken for months).
+Yes. We prefer working in your existing accounts when they have history (Quality Score, audience signals, conversion data). Audit first, restructure if needed, then optimize. Starting fresh is recommended only when the existing account has accumulated bad signals (low Quality Score across the board, conversion tracking broken for months).
 
 How much does a multilingual SEM engagement cost?
 

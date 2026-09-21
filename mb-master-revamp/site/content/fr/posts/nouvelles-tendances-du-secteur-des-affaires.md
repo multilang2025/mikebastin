@@ -60,7 +60,7 @@ Source : [Commission européenne, AI Act](https://digital-strategy.ec.europa.eu/
 
 ### 5\. Le SEO devient SEO + GEO
 
-Avec ChatGPT, Perplexity et Google AI Overviews qui captent une part croissante du trafic informationnel, l’optimisation pour les moteurs traditionnels ne suffit plus. La discipline GEO (Generative Engine Optimization) s’installe, avec ses propres métriques (citations, share of voice IA) et ses propres leviers (schéma, données chiffrées, autorité de domaine).
+Avec ChatGPT, Perplexity et Google AI Overviews qui captent une part croissante du trafic informationnel, l’optimization pour les moteurs traditionnels ne suffit plus. La discipline GEO (Generative Engine Optimization) s’installe, avec ses propres métriques (citations, share of voice IA) et ses propres leviers (schéma, données chiffrées, autorité de domaine).
 
 Les entreprises qui n’ont pas encore d’audit GEO en 2026 perdent du terrain sans s’en rendre compte. C’est exactement le type de chantier que je couvre dans mon article sur le [passage du SEO au GEO en 2026](https://mikebastin.com/fr/seo-au-geo/).
 
@@ -164,4 +164,4 @@ J’accompagne des PME et ETI internationales sur le SEO, la traduction et la st
 
 [Discuter de votre stratégie](https://mikebastin.com/fr/nous-contacter/)
 
-Pour aller plus loin : [stratégie SEO/GEO en 2026](https://mikebastin.com/fr/seo-au-geo/), [optimiser pour la recherche vocale et les assistants IA](https://mikebastin.com/fr/recherche-vocale/), [SEO multilingue à l’échelle internationale](https://mikebastin.com/fr/expert-en-seo-international/).
+Pour aller plus loin : [stratégie SEO/GEO en 2026](https://mikebastin.com/fr/seo-au-geo/), [optimizer pour la recherche vocale et les assistants IA](https://mikebastin.com/fr/recherche-vocale/), [SEO multilingue à l’échelle internationale](https://mikebastin.com/fr/expert-en-seo-international/).

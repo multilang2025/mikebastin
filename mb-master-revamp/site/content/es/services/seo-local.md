@@ -64,7 +64,7 @@ Audit, profile work, citations, content, ongoing maintenance.
 
 **Deliverable:** map pack ranking analysis for your top commercial queries, GBP completeness check, NAP audit across the top 20 citation sources, schema verification, review profile assessment, competitor benchmark on the 3 closest competitors.
 
-**Deliverable:** GBP fully optimised (categories, services, attributes, hours, photos), NAP consistency restored across all relevant directories, new citations added on missing high-value sources, duplicate listings removed.
+**Deliverable:** GBP fully optimized (categories, services, attributes, hours, photos), NAP consistency restored across all relevant directories, new citations added on missing high-value sources, duplicate listings removed.
 
 **Deliverable:** LocalBusiness schema deployed with correct subtype, internal linking restructured for local relevance, neighbourhood landing pages produced if scope includes them, Service schema per offering where relevant.
 
@@ -78,7 +78,7 @@ Three engagements where local visibility was the central revenue driver.
 
 **Context:** ISO 9001-certified paint shop in Hillegom serving the Bollenstreek region. Mixed B2C and B2B clientele, in-person service requiring local presence.
 
-**Build:** GBP fully optimised with all services and attributes, NAP consistent across Dutch directories (Gouden Gids, Detailhandel.nl, Branchevereniging Carrosseriebedrijven), LocalBusiness schema on every page, dedicated landing pages per surrounding city (Hillegom, Lisse, Sassenheim, Noordwijkerhout), proactive review request process.
+**Build:** GBP fully optimized with all services and attributes, NAP consistent across Dutch directories (Gouden Gids, Detailhandel.nl, Branchevereniging Carrosseriebedrijven), LocalBusiness schema on every page, dedicated landing pages per surrounding city (Hillegom, Lisse, Sassenheim, Noordwijkerhout), proactive review request process.
 
 **Outcome:** map pack presence on «autospuiterij + city» queries across the Bollenstreek, qualified inquiries arriving daily through GBP messaging and the website form, organic ranking on long-tail neighbourhood queries.
 
@@ -90,7 +90,7 @@ Three engagements where local visibility was the central revenue driver.
 
 **Context:** Valencia-based law firm specialised in business law and franchising. Local trust signals critical for legal sector. Multilingual local presence (Spanish, French, English).
 
-**Build:** LegalService schema with ICAV (Valencia bar association) membership, GBP optimised in Spanish as primary plus translated profile descriptions for French and English versions, NAP consistency across legal directories, structured attorney bios with credentials.
+**Build:** LegalService schema with ICAV (Valencia bar association) membership, GBP optimized in Spanish as primary plus translated profile descriptions for French and English versions, NAP consistency across legal directories, structured attorney bios with credentials.
 
 **Outcome:** visibility on «abogado mercantil Valencia» and equivalent queries in French and English, recurring local leads requesting consultation for business law matters.
 
@@ -106,7 +106,7 @@ Local SEO audit (map pack, GBP, NAP, schema, reviews)
 
 ✓
 
-Google Business Profile full optimisation
+Google Business Profile full optimization
 
 ✓
 
@@ -172,7 +172,7 @@ Reasoned recommendation given at scoping.
 
 How long before I see map pack improvement?
 
-First movement: 4 to 8 weeks once GBP is fully optimised and NAP is consistent. Significant ranking improvement: 3 to 6 months as citations propagate and reviews accumulate. Highly competitive markets (restaurants in major cities, lawyers in capitals) can take 9-12 months to reach top 3.
+First movement: 4 to 8 weeks once GBP is fully optimized and NAP is consistent. Significant ranking improvement: 3 to 6 months as citations propagate and reviews accumulate. Highly competitive markets (restaurants in major cities, lawyers in capitals) can take 9-12 months to reach top 3.
 
 How important are Google reviews vs other review sites?
 

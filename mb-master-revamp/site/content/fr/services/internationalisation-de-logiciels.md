@@ -22,7 +22,7 @@ nos services d’Internationalisation de logiciels
 
 Nos services d’internationalisation de logiciels garantissent que votre logiciel est prêt à réussir sur les marchés internationaux.
 
-En préparant votre logiciel pour la localisation, nous éliminons les barrières et améliorons la compatibilité avec différentes langues, régions et préférences culturelles.
+En préparant votre logiciel pour la localization, nous éliminons les barrières et améliorons la compatibilité avec différentes langues, régions et préférences culturelles.
 
 Que vous lanciez un nouveau produit à l’échelle mondiale ou que vous développiez un produit existant, nous vous aidons à garantir que votre logiciel est adaptable, efficient et prêt pour n’importe quel marché.
 
@@ -32,7 +32,7 @@ Nos [services de conseil culturel](https://mikebastin.com/fr/nos-services/consei
 
 Préparez votre logiciel pour les marchés mondiaux.
 
-Permettre une localisation plus rapide et plus facile pour les nouvelles régions.
+Permettre une localization plus rapide et plus facile pour les nouvelles régions.
 
 Assurer la compatibilité avec les différentes langues et cultures.
 
@@ -58,7 +58,7 @@ Nous commençons par comprendre votre logiciel, les [marchés locaux](https://mi
 
 Analyser les exigences du marché international et les offres des concurrents afin d’identifier les failles et les opportunités.
 
-Développer une stratégie d’internationalisation personnalisée. Cette démarche permet de s’assurer que votre logiciel est prêt pour sa localisation dans toutes les régions cibles.
+Développer une stratégie d’internationalisation personnalisée. Cette démarche permet de s’assurer que votre logiciel est prêt pour sa localization dans toutes les régions cibles.
 
 Modifier la structure de votre logiciel, [l’interface utilisateur](https://mikebastin.com/fr/nos-services/conception-ux-ui-multilingue/) et les fonctionnalités pour s’assurer qu’il est prêt à affronter le monde et à s’adapter.
 
@@ -66,13 +66,13 @@ Surveiller le logiciel après son lancement, en fournissant des mises à jour et
 
 FAQ, Questions fréquentes
 
-L’internationalisation de logiciels est le processus de préparation d’un logiciel pour sa localisation en veillant à ce qu’il puisse être facilement adapté à différentes langues, régions et préférences culturelles sans changer le code.
+L’internationalisation de logiciels est le processus de préparation d’un logiciel pour sa localization en veillant à ce qu’il puisse être facilement adapté à différentes langues, régions et préférences culturelles sans changer le code.
 
-L’internationalisation rend votre logiciel modulable et prêt pour une expansion mondiale, réduisant ainsi le temps et les coûts associés à la localisation pour chaque nouveau marché.
+L’internationalisation rend votre logiciel modulable et prêt pour une expansion mondiale, réduisant ainsi le temps et les coûts associés à la localization pour chaque nouveau marché.
 
-Internationalisation prepares the software’s architecture for global markets, while localisation involves [adapting the content and design to specific languages and cultural](https://mikebastin.com/services/cultural-consulting/) needs.
+Internationalisation prepares the software’s architecture for global markets, while localization involves [adapting the content and design to specific languages and cultural](https://mikebastin.com/services/cultural-consulting/) needs.
 
-Oui, nous pouvons réviser la structure de votre logiciel actuel et mettre en place des changements pour rendre l’internationalisation possible, et faciliter une future localisation.
+Oui, nous pouvons réviser la structure de votre logiciel actuel et mettre en place des changements pour rendre l’internationalisation possible, et faciliter une future localization.
 
 Le délai dépend de la complexité du logiciel et du nombre de marchés que vous ciblez. Nous fournissons des délais détaillés après la première consultation.
 
@@ -80,7 +80,7 @@ Nos clients
 
 ## Les avantages des différents services d‘internationalisation de logiciels
 
--   **Localisation plus rapide** : simplifier le processus d’adaptation des logiciels à de nouvelles langues et régions.
+-   **Localization plus rapide** : simplifier le processus d’adaptation des logiciels à de nouvelles langues et régions.
 -   **Rentabilité** : minimiser les coûts en préparant le logiciel pour une utilisation mondiale dès le départ.
 -   **Flexibilité du marché** : s’adapter facilement à de nouveaux marchés internationaux sans devoir procéder à des changements majeurs.
 

@@ -122,9 +122,9 @@ export const TESTIMONIALS: Testimonial[] = [
     lang: "fr",
     langLabel: "Français",
     quote:
-      "Michael maitrise parfaitement les différentes stratégies SEO. Il a une très longue et riche expérience en la matière. Je n'ai aucun doute sur la qualité de ses conseils. Il peut également mettre en place tout le contenu et plugins qui vous permettront d'optimiser rapidement votre site sur les moteurs de recherche. Comme moi, c'est un \"Boomer\" (presque!), qui a su prendre le tournant de l'IA et qui l'utilise à bon escient. Et pour tout ce qui concerne la mise en place et le suivi des conversions, il pourra sans aucun doute vous aiguiller vers le bon partenaire.",
+      "Michael maitrise parfaitement les différentes stratégies SEO. Il a une très longue et riche expérience en la matière. Je n'ai aucun doute sur la qualité de ses conseils. Il peut également mettre en place tout le contenu et plugins qui vous permettront d'optimizer rapidement votre site sur les moteurs de recherche. Comme moi, c'est un \"Boomer\" (presque!), qui a su prendre le tournant de l'IA et qui l'utilise à bon escient. Et pour tout ce qui concerne la mise en place et le suivi des conversions, il pourra sans aucun doute vous aiguiller vers le bon partenaire.",
     english:
-      "Michael has a complete command of the different SEO strategies. He has very long and rich experience in the field. I have no doubt about the quality of his advice. He can also put in place all the content and plugins that let you optimise your site for search engines quickly. Like me he is almost a Boomer, one who took the AI turn and uses it sensibly. And for anything to do with setting up and tracking conversions, he can point you to the right partner without hesitation.",
+      "Michael has a complete command of the different SEO strategies. He has very long and rich experience in the field. I have no doubt about the quality of his advice. He can also put in place all the content and plugins that let you optimize your site for search engines quickly. Like me he is almost a Boomer, one who took the AI turn and uses it sensibly. And for anything to do with setting up and tracking conversions, he can point you to the right partner without hesitation.",
     when: "One year ago",
     theme: "expertise",
   },

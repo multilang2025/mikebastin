@@ -24,7 +24,7 @@ Whether you’re just starting or have an established channel, this guide will s
 
 One of the most common ways to earn money on YouTube is through the YouTube Partner Program (YPP).
 
-Once you qualify for YPP, YouTube allows you to monetise your videos through ads, which can provide a significant revenue stream as your viewership grows. If you’re interested in optimising your channel for better reach, check out our [voice search optimisation tips](https://mikebastin.com/optimising-your-website-for-voice-search/).
+Once you qualify for YPP, YouTube allows you to monetise your videos through ads, which can provide a significant revenue stream as your viewership grows. If you’re interested in optimizing your channel for better reach, check out our [voice search optimization tips](https://mikebastin.com/optimising-your-website-for-voice-search/).
 
 ### Requirements for YPP
 
@@ -163,7 +163,7 @@ The approach works well for educational or tutorial-based content creators who c
 
 Another way to earn money on YouTube is through YouTube Premium. When a YouTube Premium subscriber watches your content, you receive a share of their subscription fee.
 
-While this may not be as significant as ad revenue or sponsorships, it can still contribute to your overall earnings. Learn how to optimise digital monetisation for extra revenue streams.
+While this may not be as significant as ad revenue or sponsorships, it can still contribute to your overall earnings. Learn how to optimize digital monetisation for extra revenue streams.
 
 ### How YouTube Premium Revenue Works
 

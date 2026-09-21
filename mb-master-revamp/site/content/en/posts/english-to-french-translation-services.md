@@ -38,7 +38,7 @@ The second fault is raw machine translation pushed live without human review.
 
 DeepL is genuinely strong on English-to-French, but French readers spot the giveaways within two sentences.
 
-Overuse of “très”, incorrect gender agreement on rare nouns, anglicised verb-noun combinations, and clunky title case in headings all flag the output as untranslated rather than localised.
+Overuse of “très”, incorrect gender agreement on rare nouns, anglicised verb-noun combinations, and clunky title case in headings all flag the output as untranslated rather than localized.
 
 The third fault is the one nobody talks about.
 
@@ -86,7 +86,7 @@ The most distinct variant in commercial use.
 
 Office québécois de la langue française enforces French-first signage and packaging rules under Bill 96, so copy intended for Québec must meet specific legal thresholds.
 
-Anglicisms are aggressively localised: “courriel” for email, “magasinage” for shopping, “stationnement” for parking.
+Anglicisms are aggressively localized: “courriel” for email, “magasinage” for shopping, “stationnement” for parking.
 
 Run Hexagonal copy in Québec and you will get flagged on regulatory and cultural grounds.
 
@@ -224,7 +224,7 @@ _Traducteur assermenté_, stamped output
 
 3 to 7 days
 
-> The most expensive translation mistake we see is companies treating French as one language. Shipping Parisian copy into Québec, or Belgian register into a Geneva audience, costs more in lost conversion than the price difference between proper localisation and a generic one-variant job.
+> The most expensive translation mistake we see is companies treating French as one language. Shipping Parisian copy into Québec, or Belgian register into a Geneva audience, costs more in lost conversion than the price difference between proper localization and a generic one-variant job.
 > 
 >, [Mike Bastin](/how-i-work/), multilingual SEO and translation consultant
 

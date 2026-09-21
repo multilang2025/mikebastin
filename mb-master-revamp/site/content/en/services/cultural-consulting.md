@@ -72,7 +72,7 @@ Cultural consulting is crucial for businesses expanding internationally, as it e
 
 Cultural consulting provides the insights needed to adapt your messaging, campaigns, and strategies to the local context, making your marketing more effective and relevant.
 
-Yes, we can review your current software architecture and implement changes to make it internationalisation-ready, ensuring easier future localisation.
+Yes, we can review your current software architecture and implement changes to make it internationalisation-ready, ensuring easier future localization.
 
 Absolutely. By identifying and addressing potential cultural risks early, we help protect your brand from misunderstandings that could negatively impact your reputation or success in a market.
 
