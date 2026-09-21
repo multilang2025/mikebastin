@@ -163,7 +163,7 @@ export default function ResultsPage() {
           <Reveal>
             <p className="eyebrow mb-3">In their own words</p>
             <h2 className="mb-5 max-w-[20ch] text-[clamp(1.7rem,3.2vw,2.5rem)] font-semibold leading-[1.12]">
-              Nobody asked them which language to write in.
+              Four languages, each one the client's choice.
             </h2>
             <p className="mb-10 max-w-[56ch] text-[1.05rem]" style={{ color: "var(--dim)" }}>
               No Review or AggregateRating schema on any of this, by

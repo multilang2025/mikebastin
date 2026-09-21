@@ -27,7 +27,7 @@ const ELSEWHERE = [
   { href: "/services/", label: "Services", note: "Multilingual SEO, localisation and AI consulting" },
   { href: "/blog/", label: "Journal", note: "Writing by subject, with a landing page per topic" },
   { href: "/results/", label: "Results", note: "What the numbers did" },
-  { href: "/contact/", label: "Contact", note: "Tell us which language is losing you money" },
+  { href: "/contact/", label: "Contact", note: "Tell us which language you want selling next" },
 ];
 
 export default function NotFound() {

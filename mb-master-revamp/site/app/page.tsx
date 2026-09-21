@@ -16,7 +16,7 @@ import { SITE_URL } from "@/lib/schema";
 // put two of our own pages in the same result.
 const TITLE = "Multilingual SEO and localisation consultancy, Mike Bastin";
 const DESCRIPTION =
-  "Your English pages sell while the other languages only look busy. Multilingual SEO and localisation consultancy from Valencia, enquiries counted per market.";
+  "Your English pages sell. Multilingual SEO makes your other languages sell too. Localisation consultancy from Valencia, enquiries counted per market.";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -149,7 +149,7 @@ export default function Home() {
             <h1 className="mb-9 max-w-[19ch] pb-[.06em] text-[clamp(2.7rem,7.4vw,5.6rem)] font-semibold leading-[1.08]">
               Your English pages sell.
               <br />
-              <span className="shimmer">Multilingual SEO for the ones that do not.</span>
+              <span className="shimmer">Multilingual SEO makes your other languages sell too.</span>
             </h1>
           </Reveal>
 
@@ -201,15 +201,14 @@ export default function Home() {
           <Reveal>
             <p className="eyebrow mb-3">What we do</p>
             <h2 className="mb-5 max-w-[26ch] text-[clamp(1.8rem,3.6vw,2.9rem)] font-semibold leading-[1.1]">
-              The others should be selling too.
+              Enquiries from every market you sell in.
             </h2>
             <p className="mb-12 max-w-[56ch] text-[1.05rem]" style={{ color: "var(--dim)" }}>
-              You already sell abroad, so the gap is rarely the product.
-              Ongoing multilingual SEO is the main engagement, with
-              localisation, paid search and AI consulting around it, and
-              enquiries are the product either way, counted market by market
-              rather than blended into one number that hides which language
-              is actually selling.
+              You already sell abroad, so the product is proven. Ongoing
+              multilingual SEO is the main engagement, with localisation,
+              paid search and AI consulting around it, and enquiries are the
+              product either way, counted market by market so you can see
+              which language earns them.
             </p>
           </Reveal>
 
@@ -241,9 +240,9 @@ export default function Home() {
             <blockquote
               className="display max-w-[22ch] text-[clamp(1.9rem,4.6vw,3.4rem)] font-medium leading-[1.14]"
             >
-              A site that ranks everywhere and{" "}
-              <em style={{ color: "var(--berry)" }}>converts nowhere</em> has a
-              language problem, not a traffic problem.
+              A ranking gets you found.{" "}
+              <em style={{ color: "var(--berry)" }}>The writing in their language</em>{" "}
+              gets you the enquiry.
             </blockquote>
           </Reveal>
         </div>
@@ -357,13 +356,13 @@ export default function Home() {
           <Reveal>
             <p className="eyebrow mb-3">In their own words</p>
             <h2 className="mb-5 max-w-[20ch] text-[clamp(1.8rem,3.6vw,2.9rem)] font-semibold leading-[1.1]">
-              Nobody asked them which language to write in.
+              Four languages, each one the client's choice.
             </h2>
             <p className="mb-10 max-w-[56ch] text-[1.05rem]" style={{ color: "var(--dim)" }}>
               Clients reviewed the work in Dutch, Spanish, French and English,
               unprompted, which is the multilingual claim proving itself better
-              than any copy on this page could. Shown here are the ones written
-              in English; each language version of the site carries its own.
+              than any copy on this page could. Shown here are the English
+              reviews; each language version of the site carries its own.
             </p>
           </Reveal>
           <Reveal i={1}>
