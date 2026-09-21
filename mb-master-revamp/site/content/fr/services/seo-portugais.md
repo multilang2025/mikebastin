@@ -9,7 +9,7 @@ wpId: 24848863
 date: "2024-09-29T12:42:48"
 modified: "2026-05-29T07:41:21"
 sourceUrl: "https://mikebastin.com/fr/services/seo-portugais/"
-excerpt: "Les services de référencement (SEO) portugais se spécialisent dans l'optimisation des sites web pour le marché lusophone, aidant les entreprises à obtenir un meilleur classement dans les moteurs de recherche locaux comme Google. Ces services comprennent la recherche de mots-clés en portugais, la création de contenu culturellement pertinent et l'ajustement des aspects techniques pour s'adapter aux comportements de recherche locaux."
+excerpt: "Les services de référencement (SEO) portugais se spécialisent dans l'optimization des sites web pour le marché lusophone, aidant les entreprises à obtenir un meilleur classement dans les moteurs de recherche locaux comme Google. Ces services comprennent la recherche de mots-clés en portugais, la création de contenu culturellement pertinent et l'ajustement des aspects techniques pour s'adapter aux comportements de recherche locaux."
 ---
 
 # Portuguese SEO: PT-PT and PT-BR as distinct markets, native execution
@@ -52,11 +52,11 @@ Hreflang pt-PT and pt-BR distinct, separate sitemap per variant, dedicated conte
 
 Portugal: NIF/NIPC, GDPR-EU, EUR. Brazil: CNPJ, LGPD, BRL, PIX/boleto integration where relevant. Distinct configurations per target.
 
-Subdirectory, subdomain or ccTLD architecture depending on PT-PT vs PT-BR targeting, hreflang validated, translated slugs, localised schema markup.
+Subdirectory, subdomain or ccTLD architecture depending on PT-PT vs PT-BR targeting, hreflang validated, translated slugs, localized schema markup.
 
 Portugal: Público, Expresso, Jornal de Negócios, sector associations. Brazil: Folha, Estadão, Valor Econômico, regional press, sector associations.
 
-Optimisation for ChatGPT, Claude, Perplexity and Google AI Overviews in Portuguese. LLMs distinguish PT-PT and PT-BR responses to a meaningful extent.
+Optimization for ChatGPT, Claude, Perplexity and Google AI Overviews in Portuguese. LLMs distinguish PT-PT and PT-BR responses to a meaningful extent.
 
 ## My process in 5 steps, named deliverables
 
@@ -68,7 +68,7 @@ Strategic piloting in English or French. Editorial execution by native PT-PT or 
 
 **Deliverable:** 6-12 month strategy with editorial calendar per variant, technical plan, legal compliance roadmap (GDPR-EU for PT, LGPD for BR), payment methods integration plan for ecommerce, local backlink strategy per market.
 
-**Deliverable:** native writing by PT-PT or PT-BR copywriters depending on target, briefs from me in English or French, content QA by a second native reader. Technical optimisation, local backlinks, Search Console submission per variant.
+**Deliverable:** native writing by PT-PT or PT-BR copywriters depending on target, briefs from me in English or French, content QA by a second native reader. Technical optimization, local backlinks, Search Console submission per variant.
 
 **Deliverable:** monthly report with Google.pt and / or Google.com.br positions, AI citations per variant, performance per market, actionable recommendations. Report in English or French.
 
@@ -108,7 +108,7 @@ PT-PT vs PT-BR market prioritisation
 
 ✓
 
-Hreflang pt-PT and / or pt-BR, localised schema
+Hreflang pt-PT and / or pt-BR, localized schema
 
 ✓
 

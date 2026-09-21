@@ -178,7 +178,7 @@ Cross-border ecommerce is forecast to grow 107% by 2028 from its 2024 baseline (
 
 Expanding into these markets requires more than a translated checkout page.
 
-It requires [localised websites](/services/website-localisation/), [multilingual SEO](/services/multilingual-seo/), local payment integrations, and culturally adapted marketing.
+It requires [localized websites](/services/website-localisation/), [multilingual SEO](/services/multilingual-seo/), local payment integrations, and culturally adapted marketing.
 
 ### What to do now
 
@@ -229,7 +229,7 @@ Trade policy is being rewritten in real time.
 
 Regulatory environments are diverging across regions.
 
-And the markets with the highest growth potential demand genuine [localisation](/services/website-localisation/), not surface-level translation.
+And the markets with the highest growth potential demand genuine [localization](/services/website-localisation/), not surface-level translation.
 
 Businesses that invest in adaptable infrastructure, diversified supply chains, and market-specific [digital strategies](/services/multilingual-seo/) will outperform those waiting for stability that is not coming.
 
@@ -237,4 +237,4 @@ Plan for volatility.
 
 Build for multiple markets.
 
-And treat AI, localisation, and compliance as connected investments, not separate budget lines.
+And treat AI, localization, and compliance as connected investments, not separate budget lines.

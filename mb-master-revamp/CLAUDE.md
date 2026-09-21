@@ -102,7 +102,21 @@ needs.
   my/me/mine. Exception: a reviewer's own quote is verbatim and never
   converted, and Roman numeral "I" in the portfolio numbering is not a
   pronoun.
-- UK English. No sentences starting with "This" or "That". No emojis in
+- UK English, **with one measured exception**: the `optimiz*` and
+  `localiz*` families take the US spelling (owner, 21 Sep 2026, "it's
+  international and volume based SEO"). Both are this practice's own
+  product vocabulary and the demand sits on the US form: `seo
+  optimization` 29,000 a month against `optimisation` 5,500, `generative
+  engine optimization` 26,000 against 3,800, `localization services` 2,800
+  against 600. Everything else stays British, because "colour" and
+  "centre" are not products and carry no such argument. Both lints
+  (`copy-lint.mjs`, `copy-lint-code.mjs`) encode the exception.
+  **Slugs keep their UK spelling regardless.** Eighteen legacy URLs in
+  `docs/sitemap-MB-EN.txt` contain one, `/services/app-localisation/`
+  among them, and the never-404 rule outranks a spelling preference. So
+  `/services/website-localisation/` serves a page headed "Website
+  localization services", which is deliberate rather than an oversight.
+- No sentences starting with "This" or "That". No emojis in
   body content (emojis allowed on social posts only, max 1 per post).
 - Forbidden vocabulary (non-exhaustive, whole-word match): comprehensive,
   tailored, seamless, leverage, elevate, crafted, maximise, facilitate,
@@ -137,17 +151,26 @@ needs.
   it; it inflects it. Never build a heading by case-shifting a label:
   store the mid-sentence form (`Service.inline`, `CLUSTER_INLINE`).
   `copy-lint-code.mjs` fails the build on a case-shifted heading.
-- **The approved headline shape** (owner, 21 Sep 2026, "that's the way
-  forward"): state the thing of theirs that already works, then promise
-  the same for the part that does not, with a concrete noun and a
-  positive verb, and the focus keyword inside the promise. The homepage
-  h1 is the worked example: "Your English pages sell. Multilingual SEO
-  makes your other languages sell too." Two named failure modes to keep
-  out: **void** referents ("the ones that", "the others"), meaning a
-  pronoun aimed at something the reader has not been given, and
-  **negative framing** that states the damage rather than the offer
-  ("losing you money", "a language problem, not a traffic problem"). Full
-  reasoning in `.claude/skills/mb-copy-voice/SKILL.md`.
+- **The heading shape is a hard rule** (owner, 21 Sep 2026, revised the
+  same day): the `h1` **contains the page's primary keyword without being
+  it**, runs as **one line with no `<br>` and no `<span>` inside it**, and
+  sits above a **longer `h2`, set smaller**, that echoes it. The first
+  version capped the h1 at five words and that produced bare keywords
+  ("International SEO agency", "Global SEO services"), which is a search
+  term with a font size rather than a heading. The ceiling is now twelve
+  words; the current set runs 4 to 9. Enforced by
+  `site/scripts/heading-shape-lint.mjs` (length, h2 present) and
+  `scripts/keyword-coverage-lint.mjs` (keyword present, and not the whole
+  heading), English commercial routes only.
+  `lib/services.ts` carries `h1` and `subhead` per service, both separate
+  from `name`, which stays the label the nav, footer and cards use. FR and
+  ES are reported and never failed: a word count does not survive
+  translation and those locales are deferred.
+- **The words in the h1 and h2 come from search data, not instinct.** The
+  owner is an **agency** as well as a consultancy (owner, 21 Sep 2026,
+  correcting an earlier assumption here), so *agency* is accurate and
+  available: "generative engine optimisation agency" draws 1,300 globally
+  at difficulty 1, and seven service titles now use the word.
 - **The focus keyword is always in the h1** (owner, 21 Sep 2026). Every
   page has one term it is trying to win, and the h1 carries it, whatever
   else the headline is doing. A hero rewritten for punch that drops the
@@ -165,6 +188,48 @@ needs.
   Never 404 on launch.
 - IP boundary: no Marvel/superhero imagery tied to "Silver Surfer" — it is a
   prose-only nickname, visual language is original surf/wave motifs.
+
+## Keywords are assigned, researched and enforced
+
+`site/lib/keywords.ts` holds one **primary** and several **secondary**
+keywords per commercial page, every figure from Ahrefs Keywords Explorer
+(GB) on 21 Sep 2026. `scripts/keyword-coverage-lint.mjs` fails the build
+when a page's h1 does not carry its primary term, so the map cannot rot
+into decoration. One page owns each primary term; two pages chasing one
+term is the cannibalisation the file exists to prevent.
+
+The starting position, worth remembering when reading any of it: Ahrefs
+Site Explorer showed mikebastin.com ranking for **exactly one keyword
+worldwide**, "michael bastin", position 11, volume 10. There is no
+ranking equity to protect, so the assignment is a first one rather than a
+compromise. Search Console's tens of thousands of impressions are not a
+contradiction: impressions at low positions on long-tail queries are
+largely invisible to Ahrefs.
+
+The three findings that changed what the pages say:
+
+- **`local seo services` is 47,000 a month at difficulty 5**, the largest
+  winnable term on the site by a wide margin.
+- **`international` beats `multilingual` roughly three to one** for the
+  same phrase shape (7,500 against 2,500). "Multilingual" is the brand's
+  own framing; "international" is what buyers type. The homepage took the
+  bigger term and `/services/multilingual-seo/` took the one it vacated.
+- **`multilingual lead generation` returns zero searches**, while
+  `lead generation services` draws 11,000. Putting "multilingual" in front
+  of a service name generally kills its volume, which is also why
+  multilingual-sem and multilingual-content have no researched primary.
+
+**Two spelling conflicts are open for the owner**, recorded in that file's
+`note` fields rather than decided: `website localization` draws 2,800
+against 350 for the UK spelling, and every `generative engine
+optimization` variant is US-spelled while the house rule is UK English.
+Eight times the demand sits on a spelling the rules forbid. The route slug
+is already US-spelled, which makes it a live inconsistency rather than a
+hypothetical one.
+
+A `term:` value in that file is exempt from the US-spelling lint. A
+keyword is research data quoted verbatim, and correcting it would not fix
+a spelling, it would falsify a figure.
 
 ## Copy has to sell, not only pass the protocol
 

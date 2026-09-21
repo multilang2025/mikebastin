@@ -51,9 +51,9 @@ Logement, NIE, banque, sécurité sociale, médecin de famille, écoles : huit c
 
 [lire plus](https://mikebastin.com/fr/choses-a-savoir-absolument-avant-de-sinstaller-a-valencia/)
 
-[![Optimisation pour les systèmes d’IA : au-delà du suivi des prompts](https://mikebastin.com/wp-content/uploads/2026/01/Optimizacion-para-sistemas-de-IA-e1769595525365-400x250.jpg)](https://mikebastin.com/fr/optimisation-pour-les-systemes-ia/)
+[![Optimization pour les systèmes d’IA : au-delà du suivi des prompts](https://mikebastin.com/wp-content/uploads/2026/01/Optimizacion-para-sistemas-de-IA-e1769595525365-400x250.jpg)](https://mikebastin.com/fr/optimisation-pour-les-systemes-ia/)
 
-## [Optimisation pour les systèmes d’IA : au-delà du suivi des prompts](https://mikebastin.com/fr/optimisation-pour-les-systemes-ia/)
+## [Optimization pour les systèmes d’IA : au-delà du suivi des prompts](https://mikebastin.com/fr/optimisation-pour-les-systemes-ia/)
 
 par [Mike Bastin](# "Articles de Michael Bastin") | Jan 28, 2026 | [SEO et IA](https://mikebastin.com/fr/category/seo-et-ia/)
 

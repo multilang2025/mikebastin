@@ -23,15 +23,15 @@ Expand your international reach by integrating [multilingual language solutions]
 
 We combine the precision of artificial intelligence with human-level cultural insight to help you connect with diverse audiences across Europe and beyond.
 
-From [post-AI editing](https://mikebastin.com/services/post-ai-editing/) and [expert translation](https://mikebastin.com/services/expert-translation-services/) to [multilingual SEO](https://mikebastin.com/services/multilingual-seo/) and cultural consulting, our bespoke services enhance global communication and reduce friction in localisation workflows.
+From [post-AI editing](https://mikebastin.com/services/post-ai-editing/) and [expert translation](https://mikebastin.com/services/expert-translation-services/) to [multilingual SEO](https://mikebastin.com/services/multilingual-seo/) and cultural consulting, our bespoke services enhance global communication and reduce friction in localization workflows.
 
 Use our expertise to boost brand consistency, automate repetitive tasks, and stay competitive in markets where local nuance matters.
 
-We help businesses apply AI in ways that support human connection, optimise operations, and unlock growth in new territories.
+We help businesses apply AI in ways that support human connection, optimize operations, and unlock growth in new territories.
 
 ## Why Choose our Multilingual AI Consulting Services?
 
-Get the full potential of AI-driven language solutions to [transform your global business operations](https://mikebastin.com/user-interface-localisation-can-transform-your-global-reach/). Our services empower you to communicate effectively across cultures, optimise processes, and secure your competitive edge in the international marketplace.
+Get the full potential of AI-driven language solutions to [transform your global business operations](https://mikebastin.com/user-interface-localisation-can-transform-your-global-reach/). Our services empower you to communicate effectively across cultures, optimize processes, and secure your competitive edge in the international marketplace.
 
  enter new [markets with AI-powered language and digital marketing solutions](https://mikebastin.com/services/digital-marketing/).
 
@@ -42,11 +42,11 @@ Streamline multilingual processes and reduce costs with intelligent automation.
 ## Multilingual AI Consulting Services
 
 [AI-driven language solutions](https://mikebastin.com/how-to-use-ai-and-machine-translation-tools/) combine neural machine translation, NLP entity recognition and semantic search, acting like a tireless interpreter that adapts your brand voice to every locale.  
-Expert linguists polish every output, delivering culturally accurate [website localisation](https://mikebastin.com/services/website-localisation/) that fits regional expectations.
+Expert linguists polish every output, delivering culturally accurate [website localization](https://mikebastin.com/services/website-localisation/) that fits regional expectations.
 
 Our [multilingual SEO](https://mikebastin.com/services/multilingual-seo/) team threads Spanish, French and German keywords through copy so search engines surface you first.
 
-Insightful [analytics and tracking](https://mikebastin.com/services/analytics-and-tracking/) reveal user intent and guide continual optimisation, while scalable [transcreation](https://mikebastin.com/services/transcreation/) reshapes campaigns to resonate in every culture.  
+Insightful [analytics and tracking](https://mikebastin.com/services/analytics-and-tracking/) reveal user intent and guide continual optimization, while scalable [transcreation](https://mikebastin.com/services/transcreation/) reshapes campaigns to resonate in every culture.  
 Start your global growth journey via our [contact form](https://mikebastin.com/contact-us/).
 
 Use AI to gain deep insights into linguistic patterns and cultural nuances across target markets.
@@ -62,7 +62,7 @@ Employ AI-powered tools to understand customer sentiment across different langua
 ## Our Multilingual AI Consulting Process
 
 Our multilingual AI coaching and consulting process guides you through global expansion. A dedicated AI consultant works from initial discussion and market analysis to strategy design and rollout.  
-We optimise each model with NLP entity recognition, LSI keyword mapping and precise [website localisation](https://mikebastin.com/services/website-localisation/) that fits every culture.
+We optimize each model with NLP entity recognition, LSI keyword mapping and precise [website localization](https://mikebastin.com/services/website-localisation/) that fits every culture.
 
 Continuous monitoring delivers measurable gains and adapts to shifting markets. Our [multilingual SEO](https://mikebastin.com/services/multilingual-seo/) squad fine-tunes copy so search engines surface you first. [Analytics and tracking](https://mikebastin.com/services/analytics-and-tracking/) expose new opportunities and steer improvements. Adaptive [transcreation](https://mikebastin.com/services/transcreation/) keeps messages sharp in every language. Start your journey via the [contact form](https://mikebastin.com/contact-us/).
 
@@ -74,7 +74,7 @@ We create a thorough, bespoke AI language strategy for each market, incorporatin
 
 Our experts deploy your customised AI language solutions, ensuring proper integration and cultural alignment across all platforms.
 
-We continuously track the performance of AI systems, providing regular reports and insights to drive ongoing optimisation and success.FAQ
+We continuously track the performance of AI systems, providing regular reports and insights to drive ongoing optimization and success.FAQ
 
 Our AI systems can support a vast array of languages, covering most global markets. We continuously expand our language capabilities to meet diverse client needs.
 
@@ -84,7 +84,7 @@ Any business with global aspirations or multilingual operations can benefit, inc
 
 We use a combination of metrics, including accuracy rates, processing speed, user satisfaction, cost savings, and market-specific KPIs, all bespoke to your business objectives.
 
-Implementation timelines vary based on project complexity, typically ranging from 2-6 months. We provide regular updates and optimise continuously for best results.
+Implementation timelines vary based on project complexity, typically ranging from 2-6 months. We provide regular updates and optimize continuously for best results.
 
 Our Customers
 

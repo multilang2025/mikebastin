@@ -105,7 +105,7 @@ L’une de mes stratégies les plus efficaces a été le « tampon de fuseau hor
 
 Par exemple, les mardis et jeudis sont mes « jours européens » avec des horaires d’appels entre 9h et 17h CET, alors que les mercredis, je peux commencer plus tôt pour les clients asiatiques et finir plus tard pour ceux qui viennent d’Amérique.
 
-J’ai découvert qu’être transparent sur ma localisation et mes horaires de travail a renforcé mes relations avec les clients. Beaucoup apprécient la diversité culturelle que j’apporte à nos interactions et respectent les limites que j’ai fixées.
+J’ai découvert qu’être transparent sur ma localization et mes horaires de travail a renforcé mes relations avec les clients. Beaucoup apprécient la diversité culturelle que j’apporte à nos interactions et respectent les limites que j’ai fixées.
 
 Les heures de sieste (14h-17h heure locale) deviennent souvent mes « heures de force » pour me concentrer sur mon travail sans interruption, car la plupart des clients européens sont en train de terminer leur journée.
 

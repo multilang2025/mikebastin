@@ -95,7 +95,7 @@ Now, let’s look at some of the best tools available to enhance your internal l
 -   Manual inbound/outbound interlinking
 -   SILO network creation for topic clusters
 -   Bulk interlinking
--   AI-generated paragraphs with optimised anchors
+-   AI-generated paragraphs with optimized anchors
 -   Works with multiple page builders
 
 **Pros:**

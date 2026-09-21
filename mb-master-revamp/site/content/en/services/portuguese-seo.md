@@ -9,7 +9,7 @@ wpId: 17228910
 date: "2024-09-29T12:42:48"
 modified: "2026-05-29T07:41:19"
 sourceUrl: "https://mikebastin.com/services/portuguese-seo/"
-excerpt: "Portuguese SEO services specialise in optimising websites for the Portuguese-speaking market, helping businesses rank higher in local search engines like Google.pt. These services include conducting keyword research in Portuguese, creating culturally relevant content, and fine-tuning technical aspects to suit local search behaviours. Whether you are targeting customers in Portugal or other Portuguese-speaking regions, Portuguese SEO is essential for improving visibility, boosting traffic, and increasing your online presence."
+excerpt: "Portuguese SEO services specialise in optimizing websites for the Portuguese-speaking market, helping businesses rank higher in local search engines like Google.pt. These services include conducting keyword research in Portuguese, creating culturally relevant content, and fine-tuning technical aspects to suit local search behaviours. Whether you are targeting customers in Portugal or other Portuguese-speaking regions, Portuguese SEO is essential for improving visibility, boosting traffic, and increasing your online presence."
 ---
 
 # Portuguese SEO: PT-PT and PT-BR as distinct markets, native execution
@@ -52,11 +52,11 @@ Hreflang pt-PT and pt-BR distinct, separate sitemap per variant, dedicated conte
 
 Portugal: NIF/NIPC, GDPR-EU, EUR. Brazil: CNPJ, LGPD, BRL, PIX/boleto integration where relevant. Distinct configurations per target.
 
-Subdirectory, subdomain or ccTLD architecture depending on PT-PT vs PT-BR targeting, hreflang validated, translated slugs, localised schema markup.
+Subdirectory, subdomain or ccTLD architecture depending on PT-PT vs PT-BR targeting, hreflang validated, translated slugs, localized schema markup.
 
 Portugal: Público, Expresso, Jornal de Negócios, sector associations. Brazil: Folha, Estadão, Valor Econômico, regional press, sector associations.
 
-Optimisation for ChatGPT, Claude, Perplexity and Google AI Overviews in Portuguese. LLMs distinguish PT-PT and PT-BR responses to a meaningful extent.
+Optimization for ChatGPT, Claude, Perplexity and Google AI Overviews in Portuguese. LLMs distinguish PT-PT and PT-BR responses to a meaningful extent.
 
 ## Our process in 5 steps, named deliverables
 
@@ -68,7 +68,7 @@ Strategic piloting in English or French. Editorial execution by native PT-PT or 
 
 **Deliverable:** 6-12 month strategy with editorial calendar per variant, technical plan, legal compliance roadmap (GDPR-EU for PT, LGPD for BR), payment methods integration plan for ecommerce, local backlink strategy per market.
 
-**Deliverable:** native writing by PT-PT or PT-BR copywriters depending on target, briefs from us in English or French, content QA by a second native reader. Technical optimisation, local backlinks, Search Console submission per variant.
+**Deliverable:** native writing by PT-PT or PT-BR copywriters depending on target, briefs from us in English or French, content QA by a second native reader. Technical optimization, local backlinks, Search Console submission per variant.
 
 **Deliverable:** monthly report with Google.pt and / or Google.com.br positions, AI citations per variant, performance per market, actionable recommendations. Report in English or French.
 
@@ -108,7 +108,7 @@ PT-PT vs PT-BR market prioritisation
 
 ✓
 
-Hreflang pt-PT and / or pt-BR, localised schema
+Hreflang pt-PT and / or pt-BR, localized schema
 
 ✓
 

@@ -14,7 +14,7 @@ excerpt: "Ten Chrome extensions that earn their place in an SEO workflow, from S
 
 ## Why SEO Chrome extensions save hours of daily work
 
-Search engine optimisation (SEO) is a complex and fast-changing field.
+Search engine optimization (SEO) is a complex and fast-changing field.
 
 To stay ahead of the game, SEO professionals need powerful tools that can streamline their workflow and provide valuable insights.
 

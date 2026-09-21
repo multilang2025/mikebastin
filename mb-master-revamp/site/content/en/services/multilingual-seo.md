@@ -36,7 +36,7 @@ visibility per language across Google SERPs and AI engines responding in that la
 
 Three patterns we see on every multilingual site audit:
 
-DeepL pass + 10% human review is not localisation, it is patched-up MT. Google detects it, AI engines avoid citing it, and native readers leave within seconds. The economic temptation is real, the SEO outcome is consistently flat. Real native writing per language is the only viable foundation.
+DeepL pass + 10% human review is not localization, it is patched-up MT. Google detects it, AI engines avoid citing it, and native readers leave within seconds. The economic temptation is real, the SEO outcome is consistently flat. Real native writing per language is the only viable foundation.
 
 Hreflang tags missing, pointing in circles, mixed with the wrong language code, or absent on the homepage. Google ends up showing the wrong language version to the wrong country, conversions drop. Search Console reports a maze. The technical fix is well-defined but it has to be done right and verified, not assumed.
 
@@ -56,7 +56,7 @@ WPML core stack: String Translation, Translation Management, language switcher, 
 
 LocalBusiness, Service, Product, Article, FAQ, BreadcrumbList per language. Custom JSON-LD where plugins fall short. Validated on Google Rich Results per language.
 
-LLMs respond per language with distinct knowledge graphs. Optimisation for ChatGPT, Claude, Perplexity, Google AI Overviews per target language.
+LLMs respond per language with distinct knowledge graphs. Optimization for ChatGPT, Claude, Perplexity, Google AI Overviews per target language.
 
 ## Our process in 5 steps, named deliverables
 
@@ -68,7 +68,7 @@ Strategy and architecture before production. Native writing per language coordin
 
 **Deliverable:** 12-month strategy with architecture decision (subdirectory / ccTLD / subdomain), editorial calendar per language, technical plan (WPML config, hreflang, schema), governance rules (who writes what when, who reviews, what slugs).
 
-**Deliverable:** native writing per language, technical optimisation, multilingual backlink strategy, Search Console submission per language variant, monthly checkpoint meetings.
+**Deliverable:** native writing per language, technical optimization, multilingual backlink strategy, Search Console submission per language variant, monthly checkpoint meetings.
 
 **Deliverable:** monthly report with rankings, traffic, conversions and AI citations per language. Decision points on which language gets accelerated investment, which gets reduced, based on hard data.
 
@@ -78,7 +78,7 @@ Three engagements where multilingual scope was the central challenge.
 
 **Context:** the multilingual translation agency we co-founded operates 12 country-specific TLDs targeting different European and North American markets in their primary languages.
 
-**Build:** WPML across the network, cross-domain hreflang, native content per market by the in-house translator team, schema markup localised per country, distinct keyword strategy per market.
+**Build:** WPML across the network, cross-domain hreflang, native content per market by the in-house translator team, schema markup localized per country, distinct keyword strategy per market.
 
 **Outcome:** consistent organic ranking across multiple European markets, AI citations in each target language for translation services queries, multi-market lead pipeline maintained over years.
 
@@ -90,7 +90,7 @@ Three engagements where multilingual scope was the central challenge.
 
 **Context:** Valencia-based law firm specialised in business law and franchising, targeting Spanish, French and English-speaking clients in three distinct markets (Spain, France, UK / US expat clientele).
 
-**Build:** WordPress + WPML across ES / FR / EN with distinct keyword research per language, native writing per market, LegalService schema localised per language, distinct practice page slugs translated per market, attorney bios adapted to each audience.
+**Build:** WordPress + WPML across ES / FR / EN with distinct keyword research per language, native writing per market, LegalService schema localized per language, distinct practice page slugs translated per market, attorney bios adapted to each audience.
 
 **Outcome:** recurring leads from three markets in their respective languages on commercial intent queries (business law, franchise contracts, NIE assistance), AI citations per language for Valencia business law queries.
 
@@ -118,7 +118,7 @@ WPML configuration (or Polylang / TranslatePress)
 
 ✓
 
-Hreflang per language, sitemaps per language, schema localised
+Hreflang per language, sitemaps per language, schema localized
 
 ✓
 
@@ -192,7 +192,7 @@ Fluent direct: 4 (FR, EN, ES, NL). With native network: any major European langu
 
 Will our existing translations be reused or do you redo them?
 
-Existing translations are audited first. If quality is acceptable and native readers say so, we keep and optimise on top. If quality is questionable or pure machine translation, we recommend rewriting strategic pages and accepting lower-priority pages as-is for now. No dogmatic rewrite, but no covering up bad translation either.
+Existing translations are audited first. If quality is acceptable and native readers say so, we keep and optimize on top. If quality is questionable or pure machine translation, we recommend rewriting strategic pages and accepting lower-priority pages as-is for now. No dogmatic rewrite, but no covering up bad translation either.
 
 How is multilingual SEO governance maintained over time?
 

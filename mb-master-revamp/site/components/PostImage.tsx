@@ -12,7 +12,7 @@ import { getBlogImage } from "@/lib/blog-images";
  *
  * Plain `img` rather than `next/image`: the build is `output: "export"`
  * with `images: { unoptimized: true }`, so `next/image` would ship the
- * same bytes through a component that cannot optimise them. The sizes
+ * same bytes through a component that cannot optimize them. The sizes
  * that matter are baked at build time by scripts/fetch-legacy-images.mjs
  * instead, which is also why `compact` has a real 160px file behind it
  * rather than a full-width image scaled down in the browser.

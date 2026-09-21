@@ -158,9 +158,9 @@ Cabinet positionné explicitement sur la clientèle anglo-saxonne et nord-europ�
 
 Fiscal Conseil Patrimoine
 
-Cabinet valencien à dominante fiscale et conseil aux entreprises. Bon choix pour les questions de fiscalité espagnole appliquées à des résidents étrangers (régime Beckham, déclarations patrimoine mondial via Modelo 720, optimisation des structures sociales).
+Cabinet valencien à dominante fiscale et conseil aux entreprises. Bon choix pour les questions de fiscalité espagnole appliquées à des résidents étrangers (régime Beckham, déclarations patrimoine mondial via Modelo 720, optimization des structures sociales).
 
-**Profil idéal :** contribuables à patrimoine international, dirigeants sous régime Beckham, optimisation fiscale des structures sociétaires.
+**Profil idéal :** contribuables à patrimoine international, dirigeants sous régime Beckham, optimization fiscale des structures sociétaires.
 
 [leopoldopons.com →](https://www.leopoldopons.com/)
 
@@ -222,7 +222,7 @@ Delaguía and Luzón, Garrigues
 
 2 500 à 8 000 €
 
-Régime Beckham et optimisation fiscale
+Régime Beckham et optimization fiscale
 
 Leopoldo Pons, Garrigues, Cuatrecasas
 

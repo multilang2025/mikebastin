@@ -27,7 +27,7 @@ We deliver corporate translations for contracts, marketing, and technical docume
 No shortcuts. No awkward machine translation.  
 Our team blends [industry expertise and language skills](https://mikebastin.com/es/services/traduccion-profesional/) to support your business worldwide.
 
-Looking for more? Explore our [legal translation](https://mikebastin.com/es/services/traduccion-juridica/) or [website localisation](https://mikebastin.com/es/services/traduccion-de-paginas-web/) services to expand your reach even further.
+Looking for more? Explore our [legal translation](https://mikebastin.com/es/services/traduccion-juridica/) or [website localization](https://mikebastin.com/es/services/traduccion-de-paginas-web/) services to expand your reach even further.
 
 Ready to grow? [Contact us today](https://mikebastin.com/es/contactanos/) and start your journey to new markets.
 

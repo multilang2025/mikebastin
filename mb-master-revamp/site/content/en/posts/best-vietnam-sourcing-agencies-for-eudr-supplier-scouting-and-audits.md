@@ -274,4 +274,4 @@ Practical recommendations:
 -   **Use AI translation for first drafts and triage**, not for final compliance documentation. AI is excellent for sorting which incoming Vietnamese supplier emails matter. It is terrible for binding contractual language.
 -   **Consider hiring a bilingual sourcing consultant** rather than separate consultant + interpreter. A single bilingual professional who understands both EUDR and Vietnamese supply chain practice is rare but worth the premium.
 
-For more on how AI is shifting the translation industry, see our piece on [how AI is transforming translation and localisation](/blog/how-ai-is-transforming-translation-and-localisation/) and our work on [specialised translation services](/services/translation-services/).
+For more on how AI is shifting the translation industry, see our piece on [how AI is transforming translation and localization](/blog/how-ai-is-transforming-translation-and-localisation/) and our work on [specialised translation services](/services/translation-services/).

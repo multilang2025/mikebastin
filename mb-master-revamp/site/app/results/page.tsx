@@ -9,7 +9,7 @@ import SiteFooter from "@/components/SiteFooter";
 export const metadata: Metadata = {
   title: "Results, not impressions, Mike Bastin",
   description:
-    "A case study is a narrative written afterwards. A report is primary evidence, so see the numbers from real multilingual SEO and localisation work first.",
+    "A case study is a narrative written afterwards. A report is primary evidence, so see the numbers from real multilingual SEO and localization work first.",
 };
 
 const ROUTES = [
@@ -38,10 +38,15 @@ export default function ResultsPage() {
           </Reveal>
           <Reveal i={1}>
             <h1 className="mb-6 max-w-[18ch] text-[clamp(2.3rem,5.6vw,4rem)] font-semibold leading-[1.08]">
-              What actually happened, with the numbers attached
+              Client results and numbers
             </h1>
           </Reveal>
           <Reveal i={2}>
+            <h2 className="mb-6 max-w-[46ch] text-[clamp(1.2rem,2.1vw,1.7rem)] font-medium leading-[1.3]" style={{ color: "var(--ink)" }}>
+              What changed on real engagements, with the figures attached and the markets they came from named.
+            </h2>
+          </Reveal>
+          <Reveal i={3}>
             <p className="max-w-[58ch] text-[clamp(1.05rem,1.5vw,1.2rem)] leading-[1.58]" style={{ color: "var(--dim)" }}>
               A case study is a narrative written afterwards. A report is
               primary evidence. Very few competing consultants can show
@@ -66,7 +71,7 @@ export default function ResultsPage() {
             </p>
           </Reveal>
 
-          <Reveal i={1}>
+          <Reveal i={2}>
             <ImpressionsChart />
           </Reveal>
         </div>
@@ -94,10 +99,10 @@ export default function ResultsPage() {
               Every merge happens in all three languages, or not at all.
             </h3>
           </Reveal>
-          <Reveal i={1}>
+          <Reveal i={2}>
             <LocaleTable />
           </Reveal>
-          <Reveal i={2}>
+          <Reveal i={3}>
             <p className="mt-8 max-w-[60ch] text-[.95rem]" style={{ color: "var(--dim)" }}>
               French carries one service more than English and Spanish, which is
               the kind of detail that quietly breaks hreflang if nobody counts.
@@ -171,7 +176,7 @@ export default function ResultsPage() {
               Profile, where it can be checked against the source.
             </p>
           </Reveal>
-          <Reveal i={1}>
+          <Reveal i={2}>
             <Testimonials />
           </Reveal>
         </div>

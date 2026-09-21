@@ -213,4 +213,4 @@ Valencia trade fairs work because they aggregate qualified buyers from regions S
 
 What makes a Valencia trade fair work is preparation: translated materials, a pitch adapted by buyer origin, a follow-up cadence that respects how international buyers actually decide, and a digital presence that supports the in-person conversation.
 
-For more on the export side, see our work on [multilingual SEO](https://mikebastin.com/services/multilingual-seo/) and [website localisation](https://mikebastin.com/services/website-localisation/). For the local Valencia business context, read about [business registration in Valencia](https://mikebastin.com/business-registration-in-valencia/).
+For more on the export side, see our work on [multilingual SEO](https://mikebastin.com/services/multilingual-seo/) and [website localization](https://mikebastin.com/services/website-localisation/). For the local Valencia business context, read about [business registration in Valencia](https://mikebastin.com/business-registration-in-valencia/).

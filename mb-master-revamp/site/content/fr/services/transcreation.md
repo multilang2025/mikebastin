@@ -29,7 +29,7 @@ Our transcreation experts adapt your content, so your message inspires trust and
 
 Stand out with copy that feels natural, everywhere.  
 Ready to connect with your global audience?  
-[Contact us](https://mikebastin.com/contact-us/) or see our [content localisation](https://mikebastin.com/services/content-localisation/) and [business translation](https://mikebastin.com/services/business-translation/) services.
+[Contact us](https://mikebastin.com/contact-us/) or see our [content localization](https://mikebastin.com/services/content-localisation/) and [business translation](https://mikebastin.com/services/business-translation/) services.
 
 ## Pourquoi choisir nos Services de transcréation ?
 

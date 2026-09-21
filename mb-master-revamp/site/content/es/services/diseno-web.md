@@ -49,7 +49,7 @@ My approach: SEO, multilingual structure, and design planned together before the
 
 Keyword research and intent mapping before mocking up a single page. The structure follows the search demand, not the other way around. URL hierarchy and internal linking planned from the start.
 
-WPML by default on WordPress, Polylang or TranslatePress depending on your case. Clean hreflang, translated slugs, schema localised by language. No English version patched together six months later.
+WPML by default on WordPress, Polylang or TranslatePress depending on your case. Clean hreflang, translated slugs, schema localized by language. No English version patched together six months later.
 
 Reusable components (cards, hero, CTA, FAQ, tables) regardless of the builder. You can add a page without breaking visual consistency. The site stays maintainable by your team.
 
@@ -127,7 +127,7 @@ GA4 + GTM + lead form with conditional logic
 
 ✓
 
-Core Web Vitals optimisation at launch
+Core Web Vitals optimization at launch
 
 ✓
 

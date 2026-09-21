@@ -9,18 +9,18 @@ wpId: 37263
 date: "2024-09-24T15:47:58"
 modified: "2026-07-19T15:02:56"
 sourceUrl: "https://mikebastin.com/boosting-local-seo/"
-excerpt: "Boost your local business visibility by optimising your Google Our Business profile. Follow this strategy to rank higher in local searches, engage customers, and drive traffic."
+excerpt: "Boost your local business visibility by optimizing your Google Our Business profile. Follow this strategy to rank higher in local searches, engage customers, and drive traffic."
 ---
 
 ## Boost Your Local SEO with Expert Google Business Profile Tactics: A Step-by-Step Guide to Boosting Local SEO
 
 In today’s digital world, having a strong local presence is crucial for businesses looking to attract more customers in their area.
 
-One of the most effective ways to enhance your local visibility is by optimising your Google Business profile, GBP (formerly known as Google Our Business (GMB).
+One of the most effective ways to enhance your local visibility is by optimizing your Google Business profile, GBP (formerly known as Google Our Business (GMB).
 
 Our guide provides a complete strategy to help you rank higher in local search results, engage with your audience, and drive more traffic to your business.
 
-### Profile Optimisation
+### Profile Optimization
 
 #### Complete Your Business Information
 
@@ -28,7 +28,7 @@ Ensure your business information (name, address, phone number) is accurate, comp
 
 Consistency helps build trust with search engines and customers alike, enhancing your local SEO performance. Businesses with complete [GBP profiles are 70% more likely to attract location visits](https://seo.ai/blog/local-seo-statistics).
 
-#### Optimise Your Business Description
+#### Optimize Your Business Description
 
 Build a compelling business description that highlights your unique offerings.
 
@@ -86,7 +86,7 @@ Use relevant keywords in your responses to boost your profile’s search relevan
 
 Google Posts are an excellent way to keep your audience informed about your latest offers, events, and news.
 
-Optimise each post with engaging headlines, clear calls to action, and relevant keywords. Incorporate images or videos to increase engagement; posts with images get 2.3x more engagement.
+Optimize each post with engaging headlines, clear calls to action, and relevant keywords. Incorporate images or videos to increase engagement; posts with images get 2.3x more engagement.
 
 #### Monitor Performance with Google Our Business Insights
 
@@ -160,7 +160,7 @@ Regularly review your GBP insights to monitor profile performance, including vie
 
 Use this data to refine your strategy, focusing on improving areas with lower engagement or conversion rates.
 
-[Profiles optimised based on insights see 35% more conversions](https://www.saffronedge.com/blog/what-are-the-benefits-of-using-google-my-business-for-your-local-seo/).
+[Profiles optimized based on insights see 35% more conversions](https://www.saffronedge.com/blog/what-are-the-benefits-of-using-google-my-business-for-your-local-seo/).
 
 #### Adjust Your Strategy Based on Data
 

@@ -8,7 +8,7 @@ import { SERVICES } from "@/lib/services";
 export const metadata: Metadata = {
   title: "Contact, Mike Bastin",
   description:
-    "Tell us which language you want selling next. A short brief on multilingual SEO, localisation or AI consulting gets a straight answer within a working day.",
+    "Tell us which language you want selling next. A short brief on multilingual SEO, localization or AI consulting gets a straight answer within a working day.",
 };
 
 /**
@@ -39,10 +39,15 @@ export default function ContactPage() {
           </Reveal>
           <Reveal i={1}>
             <h1 className="mb-6 max-w-[18ch] text-[clamp(2.3rem,5.6vw,4rem)] font-semibold leading-[1.08]">
-              Tell us which language you want selling next
+              Contact a multilingual SEO agency in Valencia
             </h1>
           </Reveal>
           <Reveal i={2}>
+            <h2 className="mb-6 max-w-[46ch] text-[clamp(1.2rem,2.1vw,1.7rem)] font-medium leading-[1.3]" style={{ color: "var(--ink)" }}>
+              Tell us which language you want selling next, and a short brief gets a straight answer within a working day.
+            </h2>
+          </Reveal>
+          <Reveal i={3}>
             <p
               className="max-w-[58ch] text-[clamp(1.05rem,1.65vw,1.24rem)]"
               style={{ color: "var(--dim)" }}
@@ -156,7 +161,7 @@ export default function ContactPage() {
             </form>
           </Reveal>
 
-          <Reveal i={1}>
+          <Reveal i={2}>
             <aside className="text-[.95rem]" style={{ color: "var(--dim)" }}>
               <h2 className="mb-4 text-[1.08rem] font-semibold" style={{ color: "var(--ink)" }}>
                 Rather just email

@@ -42,7 +42,7 @@ Google envoie un internaute belge sur la page américaine, un Français sur la p
 
 Tous les backlinks pointent vers la version anglaise. Les versions FR/ES/DE n’ont aucun signal d’autorité local. Elles ne ranquent jamais, peu importe la qualité éditoriale.
 
-Le SEO multilingue n’est pas une traduction. C’est une discipline distincte qui combine recherche de mots-clés par marché, architecture technique, localisation éditoriale et signaux d’autorité par pays. Mon travail consiste à orchestrer les quatre.
+Le SEO multilingue n’est pas une traduction. C’est une discipline distincte qui combine recherche de mots-clés par marché, architecture technique, localization éditoriale et signaux d’autorité par pays. Mon travail consiste à orchestrer les quatre.
 
 ## Ce que j’inclus dans une mission de référencement multilingue
 
@@ -68,7 +68,7 @@ Pas de « discovery call » qui dure trois semaines. Chaque étape produit un li
 
 **Livrable :** document de stratégie 6 à 12 mois avec priorisation par marché, calendrier éditorial multilingue, plan technique (corrections hreflang, schema, sitemaps), plan de netlinking par pays. Validation conjointe avant exécution.
 
-**Livrable :** production éditoriale par natifs, optimisation des pages existantes, corrections techniques, acquisition de backlinks locaux. Tableau de bord partagé en temps réel. Point hebdomadaire ou bimensuel selon le rythme convenu.
+**Livrable :** production éditoriale par natifs, optimization des pages existantes, corrections techniques, acquisition de backlinks locaux. Tableau de bord partagé en temps réel. Point hebdomadaire ou bimensuel selon le rythme convenu.
 
 **Livrable :** rapport mensuel par langue : trafic organique, positions, conversions, citations IA (ChatGPT/Perplexity/Google AIO), recommandations pour le mois suivant. Pas de capture d’écran de Google Analytics empilées sans contexte.
 
@@ -78,7 +78,7 @@ Trois missions récentes, trois contextes différents. Tous traités en personne
 
 **Contexte :** agence de traduction multilingue avec 12 domaines TLD (Belgique, France, Espagne, UK, Pays-Bas, US…). Problème historique de duplication de contenu cross-domaine et de balises hreflang incohérentes.
 
-**Mon intervention :** refonte complète de l’architecture hreflang, audit cross-domaine, déduplication de contenu, mise en place d’un système de schema markup centralisé, optimisation GEO multilingue.
+**Mon intervention :** refonte complète de l’architecture hreflang, audit cross-domaine, déduplication de contenu, mise en place d’un système de schema markup centralisé, optimization GEO multilingue.
 
 **Résultat :** indexation propre sur l’ensemble des domaines, hausse régulière du trafic organique sur les marchés cibles, citations dans plusieurs réponses ChatGPT et Perplexity sur la requête « agence de traduction multilingue ».
 
@@ -90,7 +90,7 @@ Trois missions récentes, trois contextes différents. Tous traités en personne
 
 **Contexte :** cabinet juridique valencien spécialisé en droit des affaires et franchise, clientèle internationale (FR, EN, ES). Visibilité organique faible vs cabinets madrilènes Tier 1.
 
-**Mon intervention :** stratégie de contenu pillar + cluster sur trois langues, schema LegalService localisé, netlinking par marché (presse spécialisée FR, anuarios juridiques ES, legal directories EN), optimisation pour les requêtes de longue traîne type « avocat franchise Espagne ».
+**Mon intervention :** stratégie de contenu pillar + cluster sur trois langues, schema LegalService localisé, netlinking par marché (presse spécialisée FR, anuarios juridiques ES, legal directories EN), optimization pour les requêtes de longue traîne type « avocat franchise Espagne ».
 
 **Résultat :** visibilité construite sur les trois langues cibles, flux régulier de leads internationaux entrants (clientèle française et anglophone qui s’installe en Communauté valencienne), et présence dans les classements sectoriels de référence pour les cabinets boutique en Espagne.
 
@@ -118,7 +118,7 @@ Rédaction localisée par traducteurs natifs (FR, EN, ES, NL, DE, IT, PT…)
 
 ✓
 
-Schema markup multilingue et optimisation GEO
+Schema markup multilingue et optimization GEO
 
 ✓
 
@@ -148,7 +148,7 @@ Traduction certifiée ou assermentée
 
 Basé à Valencia depuis 2016. J’ai vécu en République dominicaine, au Costa Rica, au Mexique et aux États-Unis. Cette expérience terrain influence directement mes choix SEO sur les marchés hispanophones et anglophones.
 
-**Cari**, basée en République dominicaine, gère les projets SEO et traduction côté hispanophone. Détail clinique, expertise en optimisation, fiabilité sur les deadlines.
+**Cari**, basée en République dominicaine, gère les projets SEO et traduction côté hispanophone. Détail clinique, expertise en optimization, fiabilité sur les deadlines.
 
 Pour les autres langues, je travaille avec un réseau de traducteurs et SEO natifs sélectionnés via BeTranslated : 30+ paires de langues couvertes, validation systématique par un relecteur natif différent du traducteur.
 
@@ -180,7 +180,7 @@ Travaillez-vous avec WordPress et WPML ?
 
 Oui, c’est même la combinaison que j’utilise sur la plupart des sites clients. Je connais aussi Polylang, TranslatePress, Weglot, et les architectures multisite WordPress. Pour les CMS non-WordPress (Shopify, Webflow, custom), je travaille en collaboration avec votre équipe technique pour appliquer la stratégie SEO multilingue.
 
-Comment optimiser pour les moteurs IA dans plusieurs langues ?
+Comment optimizer pour les moteurs IA dans plusieurs langues ?
 
 Trois leviers : (1) schema markup structuré et complet, (2) contenu chiffré avec sources primaires citées, (3) autorité de marque thématique construite via des PR et des publications par langue. Je couvre ce sujet en profondeur dans mon article [du SEO au GEO en 2026](https://mikebastin.com/fr/seo-au-geo/). La spécificité multilingue : les LLM ne connaissent pas votre marque dans les langues où vous n’avez pas encore d’empreinte, donc il faut pousser des signaux par marché.
 
@@ -190,7 +190,7 @@ Traduction et services linguistiques (BeTranslated et son réseau), logistique i
 
 Combien coûte une mission SEO multilingue ?
 
-Sur devis. Le tarif dépend du nombre de marchés ciblés, du volume éditorial mensuel, du niveau d’optimisation technique requis et de la concurrence sectorielle. Premier échange gratuit : 30 minutes pour comprendre le contexte, identifier les vrais blocages et donner une fourchette honnête. Pas de proposition générique envoyée par mail sans avoir échangé.
+Sur devis. Le tarif dépend du nombre de marchés ciblés, du volume éditorial mensuel, du niveau d’optimization technique requis et de la concurrence sectorielle. Premier échange gratuit : 30 minutes pour comprendre le contexte, identifier les vrais blocages et donner une fourchette honnête. Pas de proposition générique envoyée par mail sans avoir échangé.
 
 ## Vous voulez voir si votre site est prêt pour ses marchés étrangers ?
 

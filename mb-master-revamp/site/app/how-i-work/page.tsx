@@ -16,7 +16,7 @@ import { SITE_URL, breadcrumbSchema } from "@/lib/schema";
 export const metadata: Metadata = {
   title: "How we work, Mike Bastin",
   description:
-    "How a multilingual SEO, localisation or AI consulting engagement actually runs: the discovery call, the written scope, delivery cadence and reporting.",
+    "How a multilingual SEO, localization or AI consulting engagement actually runs: the discovery call, the written scope, delivery cadence and reporting.",
 };
 
 const STAGES = [
@@ -63,7 +63,7 @@ const QUESTIONS = [
   },
   {
     q: "What if we only need one market fixed",
-    a: "A single-language SEO fix, a localisation review, an AI consulting session on where machine translation is quietly costing you quality, all run as a scoped piece of work with a start and an end, not a subscription. Most enquiries are exactly this.",
+    a: "A single-language SEO fix, a localization review, an AI consulting session on where machine translation is quietly costing you quality, all run as a scoped piece of work with a start and an end, not a subscription. Most enquiries are exactly this.",
   },
   {
     q: "Who actually does the work",
@@ -71,7 +71,7 @@ const QUESTIONS = [
   },
   {
     q: "How is it billed",
-    a: "Management is a fee of its own. Where an engagement includes paid search, the media budget goes straight to Google, Microsoft or Meta rather than through us, so there is no markup on spend and no reason for our recommendation to be a bigger budget. That arrangement is specific to media spend: translation and localisation running through the BeTranslated network are quoted as a price for the work itself, not passed through at cost. Worth saying which is which, because an agency that is vague about it usually has a reason.",
+    a: "Management is a fee of its own. Where an engagement includes paid search, the media budget goes straight to Google, Microsoft or Meta rather than through us, so there is no markup on spend and no reason for our recommendation to be a bigger budget. That arrangement is specific to media spend: translation and localization running through the BeTranslated network are quoted as a price for the work itself, not passed through at cost. Worth saying which is which, because an agency that is vague about it usually has a reason.",
   },
   {
     q: "How do we start",
@@ -99,10 +99,15 @@ export default function HowIWorkPage() {
           </Reveal>
           <Reveal i={1}>
             <h1 className="mb-6 max-w-[20ch] text-[clamp(2.3rem,5.6vw,4rem)] font-semibold leading-[1.08]">
-              How a multilingual SEO engagement actually runs
+              How a multilingual SEO engagement runs
             </h1>
           </Reveal>
           <Reveal i={2}>
+            <h2 className="mb-6 max-w-[46ch] text-[clamp(1.2rem,2.1vw,1.7rem)] font-medium leading-[1.3]" style={{ color: "var(--ink)" }}>
+              What a multilingual SEO engagement covers month to month, how it is billed, and which costs are passed through at cost.
+            </h2>
+          </Reveal>
+          <Reveal i={3}>
             <p
               className="max-w-[60ch] text-[clamp(1.05rem,1.65vw,1.24rem)]"
               style={{ color: "var(--dim)" }}
@@ -113,7 +118,7 @@ export default function HowIWorkPage() {
             </p>
           </Reveal>
 
-          <Reveal i={3}>
+          <Reveal i={4}>
             <div className="mt-10 flex items-center gap-4">
               <img
                 src="/images/mike-bastin.webp"
@@ -181,12 +186,12 @@ export default function HowIWorkPage() {
               not against a fixed menu.
             </p>
           </Reveal>
-          <Reveal i={1}>
+          <Reveal i={2}>
             <ul className="flex flex-col gap-4">
               {[
                 "Which languages the site needs to compete in, and which are optional",
                 "How much of the current content is salvageable against how much needs writing from scratch",
-                "Whether the gap is search visibility, on-site localisation, translation accuracy, or AI content quality",
+                "Whether the gap is search visibility, on-site localization, translation accuracy, or AI content quality",
                 "What a realistic monthly cadence looks like given the team on both sides",
               ].map((item) => (
                 <li key={item} className="flex items-start gap-3 text-[.98rem] leading-[1.55]" style={{ color: "var(--dim)" }}>

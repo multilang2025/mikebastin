@@ -530,7 +530,7 @@ A bit like how we love that one old cranky uncle that speaks too loud at family 
 
 In Valencia, noise is part of the scenery. But online, to make yourself heard, it’s better to rely on a well-thought-out SEO strategy than on a mascletà blasting at 120 decibels.
 
-Carefully written multilingual content, smart link building, localised branding… that’s how to make noise in the SERPs without bursting any eardrums.
+Carefully written multilingual content, smart link building, localized branding… that’s how to make noise in the SERPs without bursting any eardrums.
 
 A digital mascletà? Start with a [local SEO audit](https://mikebastin.com/services/local-seo/).
 

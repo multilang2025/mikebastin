@@ -54,7 +54,7 @@ const CHECKLIST = [
   "Read their top pages like an editor: audience, intent and next action on every money page.",
   "Find the terms they rank for that you do not, and the gaps they have left open.",
   "Audit AI citations, not only SERP position.",
-  "Check the multilingual setup: hreflang, localised schema, language-specific content.",
+  "Check the multilingual setup: hreflang, localized schema, language-specific content.",
   "Cut the findings to six lines: three quick fixes, two content gaps, one structural play.",
 ];
 
@@ -82,7 +82,7 @@ const CHANNELS = [
   ["High organic, low paid", "A mature content programme, often with dedicated search people on staff."],
   ["High paid, low organic", "An acquisition shop, and one exposed the moment ad costs move."],
   ["High referral, low search", "Partnerships, affiliates, or a single viral page holding the number up."],
-  ["Concentrated geography", "A local focus, and frequently weak hreflang or no localised content at all."],
+  ["Concentrated geography", "A local focus, and frequently weak hreflang or no localized content at all."],
 ];
 
 const AI_PATTERNS = [

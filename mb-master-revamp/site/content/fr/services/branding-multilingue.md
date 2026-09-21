@@ -15,7 +15,7 @@ excerpt: "Augmentez votre présence en ligne à l'échelle mondiale grâce à no
 
 # Branding multilingue
 
-Localise your message while staying true to your brand values
+Localize your message while staying true to your brand values
 
 ## Stratégie de marque multilingue pour un succès mondial
 
@@ -23,11 +23,11 @@ Your brand should speak the language of every market.
 
 We offer [multilingual branding services](https://mikebastin.com/services/multilingual-branding/) that help you build trust and recognition across cultures.
 
-From localisation to content creation, we adapt your message to match regional expectations and communication styles.
+From localization to content creation, we adapt your message to match regional expectations and communication styles.
 
 Every detail, from tone to visuals, is aligned with local preferences to maximise engagement.
 
-Ready to grow your global presence with a consistent, localised brand? [Contact us](https://mikebastin.com/contact-us/) today.
+Ready to grow your global presence with a consistent, localized brand? [Contact us](https://mikebastin.com/contact-us/) today.
 
 Nos clients
 

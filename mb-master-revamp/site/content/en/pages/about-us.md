@@ -41,7 +41,7 @@ A multilingual translation agency network spanning Belgium, France, Spain, the N
 
 A relocation services brand for international expats moving to Valencia. Visa guidance content, neighbourhood comparisons, multilingual landing pages targeting French, Dutch, English, and Spanish speakers.
 
-A handful of wellness studios and language-services brands across Spain and Belgium. Google Business Profile optimisation, local pack rankings, review-acquisition strategy, neighbourhood-level content.
+A handful of wellness studios and language-services brands across Spain and Belgium. Google Business Profile optimization, local pack rankings, review-acquisition strategy, neighbourhood-level content.
 
 ## Read More From the Blog
 
@@ -51,7 +51,7 @@ How multilingual SEO is shifting from blue links to AI overviews, voice search, 
 
 The visa, the cost of living, and what actually makes Valencia the most consistent expat hub in Europe.
 
-Generative Engine Optimisation has changed the playbook. What still works and what no longer does.
+Generative Engine Optimization has changed the playbook. What still works and what no longer does.
 
 Multilingual sourcing audits, sworn translation, and why rare languages have a future under AI not less.
 

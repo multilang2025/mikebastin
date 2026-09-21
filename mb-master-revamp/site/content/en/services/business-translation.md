@@ -10,7 +10,7 @@ wpId: 24846085
 date: "2024-10-30T17:14:20"
 modified: "2026-07-19T10:37:01"
 sourceUrl: "https://mikebastin.com/services/business-translation/"
-excerpt: "Transform your global business communications with our expert translation services. Our team of certified linguists specialises in industry-specific terminology across finance, legal, technical, and marketing sectors. From crucial contract negotiations to localised marketing campaigns, we ensure your message resonates perfectly with your target audience."
+excerpt: "Transform your global business communications with our expert translation services. Our team of certified linguists specialises in industry-specific terminology across finance, legal, technical, and marketing sectors. From crucial contract negotiations to localized marketing campaigns, we ensure your message resonates perfectly with your target audience."
 ---
 
 # Business Translation Services
@@ -27,7 +27,7 @@ We deliver corporate translations for contracts, marketing, and technical docume
 No shortcuts. No awkward machine translation.  
 Our team blends [industry expertise and language skills](https://mikebastin.com/services/expert-translation-services/) to support your business worldwide.
 
-Looking for more? Explore our [legal translation](https://mikebastin.com/services/legal-translation/) or [website localisation](https://mikebastin.com/services/website-localisation/) services to expand your reach even further.
+Looking for more? Explore our [legal translation](https://mikebastin.com/services/legal-translation/) or [website localization](https://mikebastin.com/services/website-localisation/) services to expand your reach even further.
 
 Ready to grow? [Contact us today](https://mikebastin.com/contact-us/) and start your journey to new markets.
 

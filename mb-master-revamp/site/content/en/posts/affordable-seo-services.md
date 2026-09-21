@@ -54,11 +54,11 @@ Our audit will give you a clear understanding of your SEO opportunities and how 
 
 We offer a range of **affordable SEO services** to help small businesses thrive online:
 
--   **[Keyword Research and Optimisation:](https://mikebastin.com/services/keyword-research/)** We identify the best keywords for your business and optimise your website to rank for them.
--   **[On-Page SEO](https://mikebastin.com/services/on-page-seo/):** Our team ensures your website is fully optimised for search engines, from meta tags to internal linking.
+-   **[Keyword Research and Optimization:](https://mikebastin.com/services/keyword-research/)** We identify the best keywords for your business and optimize your website to rank for them.
+-   **[On-Page SEO](https://mikebastin.com/services/on-page-seo/):** Our team ensures your website is fully optimized for search engines, from meta tags to internal linking.
 -   **[Local SEO](https://mikebastin.com/services/local-seo/):** We focus on getting your business found by local customers through Google Business Profile, local directories, and more.
 -   **[Link Building](https://mikebastin.com/services/link-building/):** Our link-building strategies improve your website’s authority, which boosts your rankings.
--   [**Content Creation and Optimisation**:](https://mikebastin.com/services/content-localisation/) We help you create high-quality content that drives traffic and engages visitors.
+-   [**Content Creation and Optimization**:](https://mikebastin.com/services/content-localisation/) We help you create high-quality content that drives traffic and engages visitors.
 -   **[Analytics and Reporting](https://mikebastin.com/services/analytics-and-tracking/):** You’ll get detailed reports showing the progress of your SEO campaign.
 
 ![](https://mikebastin.com/wp-content/uploads/2024/10/image-7-1024x677.png)
@@ -96,7 +96,7 @@ That’s why we offer several **affordable SEO packages**, each designed to deli
 -   **Standard Package:** Ideal for businesses looking to increase traffic and improve local visibility.
 -   **Advanced Package:** For growing businesses that want a complete SEO strategy, including content creation and link building.
 
-Each package includes keyword research, on-page optimisation, local SEO, and monthly reporting.
+Each package includes keyword research, on-page optimization, local SEO, and monthly reporting.
 
 [Contact us](https://mikebastin.com/contact-us/) to learn more about our pricing options and to find the right package for your business.
 
@@ -106,7 +106,7 @@ Each package includes keyword research, on-page optimisation, local SEO, and mon
 
 Affordable SEO services are cost-effective solutions designed to help small businesses improve their search engine rankings without spending a fortune.
 
-These services typically include [keyword optimisation](https://mikebastin.com/long-tail-keywords/), [on-page SEO](https://mikebastin.com/services/on-page-seo/), local SEO, and [link building](https://mikebastin.com/services/link-building/).
+These services typically include [keyword optimization](https://mikebastin.com/long-tail-keywords/), [on-page SEO](https://mikebastin.com/services/on-page-seo/), local SEO, and [link building](https://mikebastin.com/services/link-building/).
 
 #### How long does it take to see results?
 
@@ -116,7 +116,7 @@ While you may start seeing some improvements within a few weeks, most small busi
 
 #### How much do your SEO services cost?
 
-Our search engine optimisation (SEO) solutions are specifically designed to suit the financial capacities of small businesses.
+Our search engine optimization (SEO) solutions are specifically designed to suit the financial capacities of small businesses.
 
 We offer packages that begin at a mere €300 per month.
 

@@ -52,11 +52,11 @@ Distinct strategy per region when justified: Netherlands, Flanders, or unified D
 
 KvK + BTW (NL) or KBO + BTW/TVA (BE) visible, AVG-compliant cookie consent and privacy policy, Algemene Voorwaarden, iDEAL or Bancontact integration where relevant.
 
-Subdirectory or ccTLD architecture, hreflang nl-NL and nl-BE where relevant, translated slugs, localised schema markup, dedicated sitemap per variant.
+Subdirectory or ccTLD architecture, hreflang nl-NL and nl-BE where relevant, translated slugs, localized schema markup, dedicated sitemap per variant.
 
 NL regional press (NRC, AD, regionale dagbladen), sector directories (Gouden Gids, Detailhandel.nl), professional associations (MKB Nederland, Voka in BE). No PBN, no off-market guest posts.
 
-Optimisation for ChatGPT, Claude, Perplexity and Google AI Overviews in Dutch. Distinct knowledge graph per language. NL-NL responses differ from EN equivalents.
+Optimization for ChatGPT, Claude, Perplexity and Google AI Overviews in Dutch. Distinct knowledge graph per language. NL-NL responses differ from EN equivalents.
 
 ## Our process in 5 steps, named deliverables
 
@@ -68,7 +68,7 @@ Fluent Dutch piloting plus native review on every commercial output.
 
 **Deliverable:** 6-12 month strategy with editorial calendar, architecture choice, NL / BE prioritisation, technical plan, legal compliance roadmap.
 
-**Deliverable:** content production piloted directly by us in Dutch, native review on every commercial deliverable, technical optimisation, Dutch backlinks, Search Console and Bing Webmaster submission per market.
+**Deliverable:** content production piloted directly by us in Dutch, native review on every commercial deliverable, technical optimization, Dutch backlinks, Search Console and Bing Webmaster submission per market.
 
 **Deliverable:** monthly report with Google.nl and Google.be positions, AI citations in Dutch, performance by NL / BE market if relevant, actionable recommendations. Report in English, French or Dutch.
 
@@ -108,7 +108,7 @@ Content strategy and editorial calendar NL
 
 ✓
 
-Hreflang nl-NL (+ nl-BE if relevant), localised schema
+Hreflang nl-NL (+ nl-BE if relevant), localized schema
 
 ✓
 

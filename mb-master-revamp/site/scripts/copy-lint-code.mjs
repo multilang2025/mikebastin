@@ -41,7 +41,15 @@ const US_SPELLINGS = [
   "rigor", "rigors", "behavior(?:s|al)?", "favor(?:s|ed|ite|ites)?",
   "honor(?:s|ed)?", "labor(?:s|ed)?", "catalog(?:s|ed)?",
   "organiz(?:e|es|ed|ing|ation|ations)", "recogniz(?:e|es|ed|ing|able)",
-  "optimiz(?:e|es|ed|ing|ation|ations)", "localiz(?:e|es|ed|ing|ation)",
+  // optimiz* and localiz* are deliberately absent. Owner decision,
+  // 21 Sep 2026: "It's international and volume based SEO. Adjust
+  // spelling." The two word families are the site's own product
+  // vocabulary and the demand is on the US form, measured rather than
+  // assumed: seo optimization 29,000 against optimisation 5,500,
+  // generative engine optimization 26,000 against 3,800, localization
+  // services 2,800 against 600. Everything else in this list stays,
+  // because "behavior" and "catalog" are not products this practice
+  // sells and carry no such argument.
   "specializ(?:e|es|ed|ing|ation)", "analyz(?:e|es|ed|ing)",
   "prioritiz(?:e|es|ed|ing)", "customiz(?:e|es|ed|ing|ation)",
   "traveled", "traveling", "modeling", "canceled", "defense", "offense",
@@ -87,6 +95,17 @@ function copyStrings(src) {
   // value is the same kind of thing, a filename on Commons or a
   // WordPress upload path. Neither goes near a page, so neither is copy.
   src = src.replace(/\b(?:author|legacy):\s*(["'`])(?:[^\\]|\\.)*?\1/g, "x: \"\"");
+
+  // A `term:` value in lib/keywords.ts is a search query quoted verbatim
+  // from Ahrefs, and the whole point of it is to record what people
+  // actually type. Some of that demand sits on US spellings: "website
+  // localization" draws 2,800 a month against 350 for the UK form, and
+  // every "generative engine optimization" variant is US-spelled. British
+  // English is the rule for copy a visitor reads; a keyword is research
+  // data, and correcting it would not fix a spelling, it would falsify a
+  // figure. The conflict itself is recorded in that file's `note` fields
+  // for the owner to decide, which is a decision, not a typo.
+  src = src.replace(/\bterm:\s*(["'`])(?:[^\\]|\\.)*?\1/g, "x: \"\"");
   // Double- and single-quoted string literals, and template literals.
   for (const m of src.matchAll(/"((?:[^"\\\n]|\\.)*)"|'((?:[^'\\\n]|\\.)*)'|`((?:[^`\\]|\\.)*)`/g)) {
     out.push(m[1] ?? m[2] ?? m[3] ?? "");

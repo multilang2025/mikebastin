@@ -126,7 +126,7 @@ export function serviceGroupForEnSlug(slug: string): string | undefined {
 /** Site-relative path for a published service page in `locale`. EN stays at
  *  /services/<slug>/ (lib/services.ts, unchanged); FR and ES are at
  *  /fr/services/<slug>/ and /es/services/<slug>/, matching each file's own
- *  localised sourceUrl frontmatter. */
+ *  localized sourceUrl frontmatter. */
 export function servicePath(locale: Locale, slug: string): string {
   return locale === "en" ? `/services/${slug}/` : `/${locale}/services/${slug}/`;
 }

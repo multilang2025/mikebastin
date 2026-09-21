@@ -262,7 +262,25 @@ h1, h2, h3, .display {
   letter-spacing: .01em;
 }
 
-/* Gold shimmer, used once, on the hero turn */
+/* Shimmer, used once, on the hero turn.
+ *
+ * `background-clip: text` paints the glyphs by clipping the gradient to
+ * their shapes, so a glyph can only be drawn where background exists. The
+ * face is italic, and an italic glyph's ink leans past the advance width
+ * its layout box is measured from. The last letter on a line therefore
+ * loses the sliver that overhangs the box: on a 360px phone the hero read
+ * "Multilingua" and "languages sel".
+ *
+ * Latent since the shimmer was written, and invisible until the h1 grew
+ * long enough to wrap onto five lines, which turned one vulnerable line
+ * ending into five. Confirmed by rendering the same hero with a plain
+ * colour and no gradient, where every line came out whole.
+ *
+ * The fix is to give the background box room for the overhang.
+ * `box-decoration-break: clone` gives every line fragment its own padded
+ * box rather than slicing one box across all five, and the negative
+ * margin cancels the padding's effect on layout so wrapping is unchanged.
+ */
 .shimmer {
   font-style: italic;
   background: linear-gradient(100deg,
@@ -271,6 +289,10 @@ h1, h2, h3, .display {
   background-size: 260% 100%;
   -webkit-background-clip: text;
   background-clip: text;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  padding-right: .14em;
+  margin-right: -.14em;
   color: transparent;
   animation: shimmer 9s ease-in-out infinite;
 }

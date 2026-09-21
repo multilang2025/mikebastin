@@ -24,7 +24,7 @@ Posicionar sigue importando, pero ya no basta.
 
 Una empresa que crece fuera necesita presencia en todas partes: en los resultados de siempre, en los resúmenes de IA, en los asistentes de voz, en las respuestas de los modelos de lenguaje y en el contenido nativo de cada plataforma, en todos sus idiomas.
 
-La [Generative Engine Optimisation](https://mikebastin.com/es/optimizar-para-seo-y-geo/) (GEO) es la evolución natural del SEO. Su objetivo es que la IA cite y muestre tu contenido, no solo que un rastreador lo indexe.
+La [Generative Engine Optimization](https://mikebastin.com/es/optimizar-para-seo-y-geo/) (GEO) es la evolución natural del SEO. Su objetivo es que la IA cite y muestre tu contenido, no solo que un rastreador lo indexe.
 
 En un proyecto multilingüe, la GEO añade una capa más. Cada versión de idioma tiene que estar estructurada, ser factual y tener suficiente densidad de entidades para que un modelo la extraiga con confianza.
 

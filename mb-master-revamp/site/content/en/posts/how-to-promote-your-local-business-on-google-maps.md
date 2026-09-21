@@ -9,7 +9,7 @@ wpId: 37037
 date: "2024-09-14T16:11:34"
 modified: "2026-07-19T11:11:22"
 sourceUrl: "https://mikebastin.com/how-to-promote-your-local-business-on-google-maps/"
-excerpt: "Boost your small business visibility on Google Maps! Learn how to list your business, optimise your profile, and rank higher in local search results."
+excerpt: "Boost your small business visibility on Google Maps! Learn how to list your business, optimize your profile, and rank higher in local search results."
 ---
 
 ## Looking to boost local visibility? Learn how to effectively promote your business on Google Maps!
@@ -18,7 +18,7 @@ As a small business owner, one of the most effective ways to gain visibility and
 
 With millions of people using Google Maps daily to search for nearby services and products, promoting your local business on this platform is crucial for driving foot traffic and growing your customer base.
 
-In this article, we’ll walk you through **how to promote your local business on Google Maps** and share strategies for optimising your profile to rank higher in local search results.
+In this article, we’ll walk you through **how to promote your local business on Google Maps** and share strategies for optimizing your profile to rank higher in local search results.
 
 ### Add your local business to Google Maps
 
@@ -36,9 +36,9 @@ Once verified, your business will appear on Google Maps, making it easier for po
 
 **Adding your local business to Google Maps** is the first and most crucial step in boosting your visibility.
 
-### Optimise your Google Maps listing
+### Optimize your Google Maps listing
 
-After you’ve added your business, optimising your listing is essential to ensure it ranks well in local search results.
+After you’ve added your business, optimizing your listing is essential to ensure it ranks well in local search results.
 
 Here’s how to make the most out of your **Google Maps local business** listing:
 
@@ -120,7 +120,7 @@ Using this data, you can adjust your marketing strategy to better meet your cust
 
 Promoting your business on Google Maps is an essential part of any local marketing strategy.
 
-By listing your business, optimising your profile, handling reviews, and utilizing both SEO and paid advertising tactics, you can successfully enhance your local presence and attract a larger customer base.
+By listing your business, optimizing your profile, handling reviews, and utilizing both SEO and paid advertising tactics, you can successfully enhance your local presence and attract a larger customer base.
 
 Whether you’re a service-based business or a physical store, **how to promote your local business on Google Maps** comes down to visibility, engagement, and providing a great customer experience both online and offline.
 

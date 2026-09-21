@@ -14,9 +14,9 @@ import { SITE_URL } from "@/lib/schema";
 // "international SEO" (2,100 UK, 10,000 global, KD 34 per Ahrefs, 19 Aug 2026)
 // already belongs to /services/multilingual-seo/ and duplicating it here would
 // put two of our own pages in the same result.
-const TITLE = "Multilingual SEO and localisation consultancy, Mike Bastin";
+const TITLE = "Multilingual SEO and localization consultancy, Mike Bastin";
 const DESCRIPTION =
-  "Your English pages sell. Multilingual SEO makes your other languages sell too. Localisation consultancy from Valencia, enquiries counted per market.";
+  "Your English pages sell. Multilingual SEO makes your other languages sell too. Localization consultancy from Valencia, enquiries counted per market.";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -91,7 +91,7 @@ const BASTIN = [
 const WHAT_WE_DO = [
   {
     cluster: "Lead generation",
-    desc: "Enquiries are the product. Multilingual SEO, localisation and AI consulting are the mechanisms underneath.",
+    desc: "Enquiries are the product. Multilingual SEO, localization and AI consulting are the mechanisms underneath.",
     href: "/services/lead-generation/",
   },
   {
@@ -100,7 +100,7 @@ const WHAT_WE_DO = [
     href: "/services/multilingual-seo/",
   },
   {
-    cluster: "Localisation",
+    cluster: "Localization",
     desc: "Making a site work in a market, not merely readable in a language.",
     href: "/services/website-localisation/",
   },
@@ -146,14 +146,24 @@ export default function Home() {
           <Reveal i={1}>
             {/* leading needs headroom: the italic descenders on "Converting"
                 collide with the lede at anything tighter than ~1.08 */}
-            <h1 className="mb-9 max-w-[19ch] pb-[.06em] text-[clamp(2.7rem,7.4vw,5.6rem)] font-semibold leading-[1.08]">
-              Your English pages sell.
-              <br />
-              <span className="shimmer">Multilingual SEO makes your other languages sell too.</span>
+            {/* Owner rule, 21 Sep 2026: h1 of three to five words carrying
+                the keyword, with a longer h2 under it, set smaller,
+                echoing it. The sentence the owner approved ("that's the
+                way forward") is not lost, it moves to the h2 where its
+                length belongs. */}
+            <h1 className="mb-5 max-w-[14ch] pb-[.06em] text-[clamp(2.7rem,7.4vw,5.6rem)] font-semibold leading-[1.05]">
+              International SEO agency for every market you sell in
             </h1>
           </Reveal>
 
           <Reveal i={2}>
+            <h2 className="mb-8 max-w-[24ch] text-[clamp(1.35rem,3vw,2.3rem)] font-medium leading-[1.2]">
+              Your English pages sell.{" "}
+              <span className="shimmer">Multilingual SEO makes your other languages sell too.</span>
+            </h2>
+          </Reveal>
+
+          <Reveal i={3}>
             <p
               className="mb-10 max-w-[54ch] text-[clamp(1.05rem,1.65vw,1.24rem)] leading-[1.58]"
               style={{ color: "var(--dim)" }}
@@ -164,7 +174,7 @@ export default function Home() {
             </p>
           </Reveal>
 
-          <Reveal i={3}>
+          <Reveal i={4}>
             <div className="mb-10 flex flex-wrap items-center gap-x-6 gap-y-4">
               <Link href="/contact/" className="btn btn-primary btn-lg">
                 Book a discovery call
@@ -175,7 +185,7 @@ export default function Home() {
             </div>
           </Reveal>
 
-          <Reveal i={4}>
+          <Reveal i={5}>
             {/* Three things the service pages already commit to, rather than
                 the old "Ranking in EN, converting in FR" strip. That one read
                 as wordplay and did not survive reading: it handed each
@@ -204,7 +214,7 @@ export default function Home() {
             </h2>
             <p className="mb-12 max-w-[56ch] text-[1.05rem]" style={{ color: "var(--dim)" }}>
               You already sell abroad, so the product is proven. Ongoing
-              multilingual SEO is the main engagement, with localisation,
+              multilingual SEO is the main engagement, with localization,
               paid search and AI consulting around it, and enquiries are the
               product either way, counted market by market so you can see
               which language earns them.

@@ -52,11 +52,11 @@ Distinct strategy per country if your offer requires it: Germany, Austria, Switz
 
 Impressum compliant with German Telemediengesetz, Datenschutzerklärung strict GDPR, opt-in cookie banner aligned with Bundesdatenschutzgesetz. Trusted Shops integration available for ecommerce.
 
-Subdirectory or ccTLD architecture depending on your case, hreflang de-DE / de-AT / de-CH, translated slugs, localised schema markup, dedicated sitemap per variant.
+Subdirectory or ccTLD architecture depending on your case, hreflang de-DE / de-AT / de-CH, translated slugs, localized schema markup, dedicated sitemap per variant.
 
 German regional press (FAZ, Handelsblatt, Süddeutsche), sector directories (Branchenbuch, Gelbe Seiten), professional associations (IHK, BVMW). No PBN, no guest post from another market to rank in Germany.
 
-Optimisation for ChatGPT, Claude, Perplexity and Google AI Overviews in German. LLMs respond in German on local commercial queries with a distinct knowledge graph per language.
+Optimization for ChatGPT, Claude, Perplexity and Google AI Overviews in German. LLMs respond in German on local commercial queries with a distinct knowledge graph per language.
 
 ## Our process in 5 steps, named deliverables
 
@@ -68,7 +68,7 @@ Strategic piloting in English or French with you. Editorial execution in German 
 
 **Deliverable:** 6-12 month strategy document with editorial calendar, architecture choice, DACH prioritisation, technical plan, German legal compliance roadmap.
 
-**Deliverable:** native writing by German copywriters from the network, briefs and QA piloted by us in EN/FR. Technical optimisation. German backlinks. Search Console and Bing Webmaster submission.
+**Deliverable:** native writing by German copywriters from the network, briefs and QA piloted by us in EN/FR. Technical optimization. German backlinks. Search Console and Bing Webmaster submission.
 
 **Deliverable:** monthly report with Google.de positions, AI citations in German, performance by DACH market if relevant, actionable recommendations. Report in English or French.
 
@@ -108,7 +108,7 @@ Content strategy and editorial calendar DE
 
 ✓
 
-Hreflang de-DE (+ de-AT, de-CH if relevant), localised schema
+Hreflang de-DE (+ de-AT, de-CH if relevant), localized schema
 
 ✓
 

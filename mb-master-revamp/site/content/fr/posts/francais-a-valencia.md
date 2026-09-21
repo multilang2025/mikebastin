@@ -182,7 +182,7 @@ Sur le plan institutionnel, plusieurs structures accompagnent la communauté fra
 
 **Role**
 
-**Contact / Localisation**
+**Contact / Localization**
 
 **Agence consulaire de France à Valencia**
 

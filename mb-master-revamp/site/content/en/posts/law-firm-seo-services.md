@@ -14,7 +14,7 @@ excerpt: "Transform your law firm’s digital presence with expert SEO strategie
 
 ## Enhance your online reach and credibility
 
-Law Firm SEO is the art and science of optimising a law firm’s website and digital footprint to boost visibility in search results, attract high‑quality clients, and generate valuable leads.
+Law Firm SEO is the art and science of optimizing a law firm’s website and digital footprint to boost visibility in search results, attract high‑quality clients, and generate valuable leads.
 
 Research shows that 96% of people seeking legal advice use a search engine, and 74% of consumers visit a law firm’s website to take action.
 
@@ -42,7 +42,7 @@ The goal is simple. Attract more of the right clients actively searching for you
 
 ### Why consider law firm SEO services?
 
-Optimising a legal website requires far more than superficial keyword insertion.
+Optimizing a legal website requires far more than superficial keyword insertion.
 
 **Law Firm SEO Services** start with practice‑area analysis, target locations, and client preferences.
 
@@ -143,7 +143,7 @@ We combined key workstreams that drive measurable outcomes.
 
 -   Site restructure to support four languages.
 -   Targeted [keyword research](/services/technical-seo/) for high‑intent queries.
--   [Google Business Profile](/services/local-seo/) optimisation for local visibility.
+-   [Google Business Profile](/services/local-seo/) optimization for local visibility.
 -   Native‑language content.  
     No machine translation.
 -   Press release campaigns in Belgium, France, Switzerland, Canada, the USA, and the UK.
@@ -156,7 +156,7 @@ Despite larger rivals, the firm now ranks for key terms across languages.
 
 Effective legal SEO connects international clients with precise services and clear next steps.
 
-Strategic multilingual optimisation transformed a local firm into a recognised international provider.
+Strategic multilingual optimization transformed a local firm into a recognised international provider.
 
 * * *
 
@@ -204,7 +204,7 @@ It helped capture English‑speaking clients from more than 20 countries.
 
 * * *
 
-### On‑page optimisation: core checks
+### On‑page optimization: core checks
 
 Presentation matters online as much as it does in your office.
 

@@ -70,7 +70,7 @@ Il ne s’agit pas de moins travailler, mais de structurer sa journée autour du
 
 ### Vous vous installez à Valencia en tant qu’entrepreneur ou freelance ?
 
-Je vous accompagne pour [créer un site web professionnel](https://mikebastin.com/fr/services/conception-de-site-web/), [optimiser votre référencement](https://mikebastin.com/fr/services/referencement-multilingue/), et [mettre en place une stratégie de contenu assistée par IA](https://mikebastin.com/fr/services/conseil-ia/).
+Je vous accompagne pour [créer un site web professionnel](https://mikebastin.com/fr/services/conception-de-site-web/), [optimizer votre référencement](https://mikebastin.com/fr/services/referencement-multilingue/), et [mettre en place une stratégie de contenu assistée par IA](https://mikebastin.com/fr/services/conseil-ia/).
 
 Voici tous mes [services pour les entrepreneurs multilingues](https://mikebastin.com/fr/services/) ou [contactez-moi](https://mikebastin.com/fr/nous-contacter/) pour en discuter.
 
@@ -109,7 +109,7 @@ C’est le moment idéal pour :
 
 Ce rythme m’offre un double avantage inattendu :
 
--   Optimiser mes interactions avec les [marchés internationaux](https://mikebastin.com/fr/agence-seo-internationale/) en journée
+-   Optimizer mes interactions avec les [marchés internationaux](https://mikebastin.com/fr/agence-seo-internationale/) en journée
 -   Tisser un réseau local le soir, sans surcharge ni conflit d’agenda
 
 Pour m’adapter, j’utilise désormais des outils d’agenda multi-fuseaux, évitant les erreurs de calcul entre Stockholm, Dubaï ou New York.
@@ -126,7 +126,7 @@ Gagnez du temps, structurez vos journées et développez votre présence en lign
 
 -   [SEO international pour entrepreneurs](https://mikebastin.com/fr/services/referencement-international/)
 -   [Création de contenu multilingue](https://mikebastin.com/fr/services/creation-de-contenu-multilingue/) adaptée à vos marchés
--   [Automatisation et conseil IA pour optimiser votre productivité](https://mikebastin.com/fr/services/conseil-ia/)
+-   [Automatisation et conseil IA pour optimizer votre productivité](https://mikebastin.com/fr/services/conseil-ia/)
 
 [Prenons rendez-vous](https://mikebastin.com/fr/nous-contacter/) pour construire ensemble une stratégie qui respecte vos horaires, vos clients et votre style de vie.
 
@@ -168,7 +168,7 @@ Au lieu de courir après tous les créneaux possibles, je bloque certains jours 
 
 Cette régularité allège la charge mentale, tout en apportant de la clarté à mes clients.
 
-J’ai aussi constaté que la transparence sur ma localisation et mes horaires était un vrai plus.
+J’ai aussi constaté que la transparence sur ma localization et mes horaires était un vrai plus.
 
 -   Les clients apprécient la clarté et la structure
 -   Ils comprennent que mon efficacité dépend aussi de cette gestion consciente du temps
@@ -232,7 +232,7 @@ Je vous accompagne dans la mise en place d’une organisation sur-mesure grâce 
 -   [la post-édition IA pour gagner du temps](https://mikebastin.com/fr/services/postedition-ia/)
 -   [des stratégies SEO multilingues pour vos clients étrangers](https://mikebastin.com/fr/services/referencement-multilingue/)
 
-[Parlons de votre emploi du temps idéal](https://mikebastin.com/fr/nous-contacter/) et voyons comment l’optimiser pour durer.
+[Parlons de votre emploi du temps idéal](https://mikebastin.com/fr/nous-contacter/) et voyons comment l’optimizer pour durer.
 
 ### u003cstrongu003eComment puis-je créer un réseau avec les entreprises locales alors que je suis très occupé par des appels internationaux pendant les heures de réseautage espagnoles ?u003c/strongu003e
 

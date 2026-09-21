@@ -36,7 +36,7 @@ function servicePath(locale: Locale, slug: string): string {
  * Language switcher, shown only on a page whose manifest entry names
  * siblings (built from getLocaleManifest() -- groups with a single
  * published locale never get an entry). It links straight to each
- * sibling's real localised URL, never to a 404 or the homepage.
+ * sibling's real localized URL, never to a 404 or the homepage.
  */
 function LocaleSwitcher({
   manifest,

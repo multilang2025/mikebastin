@@ -37,7 +37,7 @@
 
 export type Service = {
   slug: string;
-  /** Heading and label form: "International SEO", "Website localisation". */
+  /** Heading and label form: "International SEO", "Website localization". */
   name: string;
   /**
    * Mid-sentence form of `name`, for headings that drop it inside a
@@ -49,6 +49,22 @@ export type Service = {
    * approximation instead.
    */
   inline: string;
+  /**
+   * The page's `h1`: three to five words, carrying the term the page is
+   * trying to win (owner rule, 21 Sep 2026, stated as a hard rule).
+   * Separate from `name`, which stays the label the nav, footer and cards
+   * use: a label wants to be short and a heading wants the keyword, and
+   * making one serve both is how "AI consulting" ended up as a two-word
+   * h1 on a page targeting "AI consulting services".
+   */
+  h1: string;
+  /**
+   * The `h2` sitting directly under the `h1`, set smaller. Longer, and it
+   * echoes the h1 rather than changing the subject, so the short keyword
+   * heading gets the qualifying detail and the secondary terms a
+   * three-word h1 has no room for. Same owner rule.
+   */
+  subhead: string;
   cluster: string;
   /** Pillars own a query network; the rest support one. */
   pillar?: boolean;
@@ -120,6 +136,8 @@ export const SERVICES: Service[] = [
     slug: "lead-generation",
     name: "Multilingual lead generation",
     inline: "multilingual lead generation",
+    h1: "Multilingual lead generation services",
+    subhead: "Enquiries counted market by market, never blended into one number that hides which language is selling.",
     cluster: "Lead generation",
     pillar: true,
     angle: "The outcome, not the mechanism",
@@ -137,6 +155,8 @@ export const SERVICES: Service[] = [
     slug: "multilingual-sem",
     name: "Multilingual SEM",
     inline: "multilingual SEM",
+    h1: "Multilingual SEM services per market",
+    subhead: "Media budget goes straight to Google, Microsoft or Meta, so there is no markup on spend and no reason to recommend a bigger one.",
     cluster: "Lead generation",
     angle: "International PPC, buying what search has not earned",
     lede: "Reaching the buyer who has not found you organically yet, in the language they searched in, without letting a single blended campaign quietly subsidise one market from another.",
@@ -149,7 +169,7 @@ export const SERVICES: Service[] = [
         paragraphs: [
           "A campaign translated from one master list keeps the original keywords, ad copy structure and bidding approach, and it shows in the results: a lower quality score because the terms are not how people actually search in that language, ad copy that reads stilted, landing pages that feel imported. Native research per market beats a translated campaign in effectively every comparison we have run.",
           "Keywords picked straight from a planning tool without checking real intent produce high impressions, low click-through and clicks that never convert. Real keyword research means checking the actual search results in the target market and validating terms with native speakers before any bid goes live.",
-          "Blended conversion tracking that mixes every market into one number hides which language is profitable and which is bleeding spend. Each market needs its own tracking, attribution and KPI report, or optimisation is guesswork with extra steps.",
+          "Blended conversion tracking that mixes every market into one number hides which language is profitable and which is bleeding spend. Each market needs its own tracking, attribution and KPI report, or optimization is guesswork with extra steps.",
         ],
       },
       {
@@ -205,6 +225,8 @@ export const SERVICES: Service[] = [
     slug: "conversion-tracking",
     name: "Conversion tracking",
     inline: "conversion tracking",
+    h1: "Conversion tracking measured per market",
+    subhead: "Measurement that shows which language earns the enquiry, rather than one blended figure for the whole site.",
     cluster: "Lead generation",
     angle: "The evidence layer, per locale",
     lede: "You can see which markets bring traffic. Whether the French visitors ever turn into customers is a different question, and one merged report will never answer it.",
@@ -267,11 +289,13 @@ export const SERVICES: Service[] = [
     slug: "multilingual-seo",
     name: "International SEO",
     inline: "international SEO",
+    h1: "Multilingual SEO agency for companies already selling abroad",
+    subhead: "Search run across several markets at once, so the languages you already publish in start producing enquiries too.",
     cluster: "Search",
     pillar: true,
     angle: "The engine underneath the outcome",
     lede: "You already sell abroad, and the markets outside English are not pulling their weight. We run the strategy and brief native writers per market, so each language earns enquiries rather than only traffic.",
-    metaTitle: "International SEO consulting, Mike Bastin",
+    metaTitle: "International SEO agency and consulting",
     metaDescription: "Already selling abroad while the non-English markets underperform? See how each language gets its own strategy, its own native writing, and a number of its own.",
     sections: [
       "Where most international SEO projects fail",
@@ -285,7 +309,7 @@ export const SERVICES: Service[] = [
       {
         heading: "Three failure patterns we see in every audit",
         paragraphs: [
-          "A DeepL pass with a light human review is not localisation, it is patched-up machine translation. Search engines detect it, AI engines tend to avoid citing it, and native readers leave within seconds. The economics are tempting, the outcome is consistently flat. Native writing per language is the only foundation that holds.",
+          "A DeepL pass with a light human review is not localization, it is patched-up machine translation. Search engines detect it, AI engines tend to avoid citing it, and native readers leave within seconds. The economics are tempting, the outcome is consistently flat. Native writing per language is the only foundation that holds.",
           "Hreflang tags go missing, point in circles, carry the wrong language code, or are simply absent from the homepage. The visitor in the wrong country sees the wrong language version, conversions drop, and Search Console reports a maze that takes longer to untangle than to have built correctly the first time.",
           "One writer publishes in French, another adds Spanish six months later without agreeing on slugs, internal links, schema or keyword targets. By month twelve the multilingual structure is a tangle nobody can audit properly. Governance per language, decided before the first page goes live, is what keeps the site growing clean instead of patched.",
         ],
@@ -300,9 +324,9 @@ export const SERVICES: Service[] = [
       {
         heading: "Three cases where the multilingual scope was the whole challenge",
         paragraphs: [
-          "BeTranslated, the translation agency we co-founded, runs twelve country-specific domains with WPML across all of them, cross-domain hreflang, native content per market from the in-house translator team and schema localised per country. The result has been consistent organic ranking across several European markets and AI citations in each target language for translation services queries.",
+          "BeTranslated, the translation agency we co-founded, runs twelve country-specific domains with WPML across all of them, cross-domain hreflang, native content per market from the in-house translator team and schema localized per country. The result has been consistent organic ranking across several European markets and AI citations in each target language for translation services queries.",
           "A Houston freight forwarder targeting English-speaking US shippers and Spanish-speaking Latin American clients runs WordPress and WPML on a single domain with a Spanish subdirectory, distinct keyword research per language and FreightForwarder schema in both. Daily quote requests doubled over eighteen months across both languages.",
-          "A Valencia law firm targeting Spanish, French and English-speaking clients runs WPML across all three, with LegalService schema localised per language and attorney bios adapted to each audience. It now gets recurring leads from three markets on commercial-intent queries such as business law and franchise contracts, in their own languages.",
+          "A Valencia law firm targeting Spanish, French and English-speaking clients runs WPML across all three, with LegalService schema localized per language and attorney bios adapted to each audience. It now gets recurring leads from three markets on commercial-intent queries such as business law and franchise contracts, in their own languages.",
         ],
       },
     ],
@@ -320,7 +344,7 @@ export const SERVICES: Service[] = [
       {
         q: "How a market earns its place in the first wave",
         a: [
-          "Candidate markets, usually eight to twelve at the start, get scored on five things: search volume, competitive difficulty, commercial fit with what you actually sell, the cost of localising for them, and the regulatory load they bring with them.",
+          "Candidate markets, usually eight to twelve at the start, get scored on five things: search volume, competitive difficulty, commercial fit with what you actually sell, the cost of localizing for them, and the regulatory load they bring with them.",
           "The output is a ranked list rather than an opinion, which matters because the market someone in the room feels strongly about is rarely the one the scoring puts first. A decision point around the half-year mark says which test markets get promoted and which get dropped.",
         ],
       },
@@ -332,7 +356,7 @@ export const SERVICES: Service[] = [
         ],
       },
       {
-        q: "Localisation is not translation, and the keyword proves it",
+        q: "Localization is not translation, and the keyword proves it",
         a: [
           "A removalist in Australia is a removals company in the UK, and nobody in London searches for the first word. Translate the page and the term is correct and unsearched. The same trap runs through currency, units, legal references, payment methods, trust badges and the customer names you cite as proof.",
           "Regulatory framing changes with it: GDPR in the EU, CCPA in California, LGPD in Brazil. A page that quotes the wrong one is telling a local reader it was written for somebody else.",
@@ -341,7 +365,7 @@ export const SERVICES: Service[] = [
       {
         q: "The technical floor, below which good content cannot rank",
         a: [
-          "Hreflang validated per market rather than assumed, a sitemap split by language, slugs translated rather than left in the source language, and schema localised per country. Broken or circular hreflang is the single most common finding in the audits we run, and it caps everything above it.",
+          "Hreflang validated per market rather than assumed, a sitemap split by language, slugs translated rather than left in the source language, and schema localized per country. Broken or circular hreflang is the single most common finding in the audits we run, and it caps everything above it.",
           "Geo-IP belongs to soft suggestions only. Hard-redirecting a visitor by IP on an hreflang site hides the other versions from the crawler and strands anyone travelling, which is a lot of the business audience.",
         ],
       },
@@ -364,10 +388,12 @@ export const SERVICES: Service[] = [
     slug: "french-seo",
     name: "French SEO",
     inline: "French SEO",
+    h1: "French SEO agency for France, Belgium and Switzerland",
+    subhead: "Written natively per market rather than translated from the English, because a French buyer researches before enquiring.",
     cluster: "Search",
     angle: "SEO France, where the francophone volume sits",
     lede: "France is where the francophone search volume actually sits, while Belgium and Switzerland are where the network is. Winning French means writing for France first and selling through the other two.",
-    metaTitle: "French SEO services, Mike Bastin",
+    metaTitle: "French SEO agency, France and Belgium",
     metaDescription: "France carries most of the francophone search volume in this market. See what a proper French SEO engagement covers, market by market.",
     sections: ["Three ways to fail at French SEO", ...ENGAGEMENT],
     body: [
@@ -382,8 +408,8 @@ export const SERVICES: Service[] = [
       {
         heading: "What a proper French SEO engagement covers",
         paragraphs: [
-          "Native keyword research targeted at France first, since it carries the largest share of francophone search volume, with Belgium and Switzerland picked up through the existing network rather than treated as the primary target. Local citations, French-language backlinks and Google Business Profile optimisation for city-level queries from Paris and Lyon to Brussels and Geneva.",
-          "Content localisation that adapts tone and cultural reference rather than translating word for word, technical optimisation for mobile-first search behaviour, and authority building through French press, sector directories and customer reviews that feed E-E-A-T signals directly.",
+          "Native keyword research targeted at France first, since it carries the largest share of francophone search volume, with Belgium and Switzerland picked up through the existing network rather than treated as the primary target. Local citations, French-language backlinks and Google Business Profile optimization for city-level queries from Paris and Lyon to Brussels and Geneva.",
+          "Content localization that adapts tone and cultural reference rather than translating word for word, technical optimization for mobile-first search behaviour, and authority building through French press, sector directories and customer reviews that feed E-E-A-T signals directly.",
         ],
       },
     ],
@@ -423,7 +449,7 @@ export const SERVICES: Service[] = [
         q: "Where the searching actually happens",
         a: [
           "Most French search is on a phone, so a site that is fast and comfortable on desktop and merely tolerable on mobile is failing the larger half of its own audience before a word of the copy is read.",
-          "Google carries the market. Qwant exists and is French, and it is worth knowing about rather than optimising separately for.",
+          "Google carries the market. Qwant exists and is French, and it is worth knowing about rather than optimizing separately for.",
         ],
       },
     ],
@@ -438,10 +464,12 @@ export const SERVICES: Service[] = [
     slug: "german-seo",
     name: "German SEO",
     inline: "German SEO",
+    h1: "German SEO agency for Germany, Austria and Switzerland",
+    subhead: "Written natively for a market that reads the detail, compares carefully and enquires once it is satisfied.",
     cluster: "Search",
     angle: "SEO Germany, researched longer, decided slower",
     lede: "German buyers research further before enquiring than most markets, so the page that wins is the one that answers the question rather than the one that ranks loudest.",
-    metaTitle: "German SEO services, Mike Bastin",
+    metaTitle: "German SEO agency, DACH markets",
     metaDescription: "German buyers research longer before enquiring than most markets. See the SEO approach built to answer the question, not just rank for it.",
     sections: ["Three ways to fail at German SEO", ...ENGAGEMENT],
     body: [
@@ -512,10 +540,12 @@ export const SERVICES: Service[] = [
     slug: "spanish-seo",
     name: "Spanish SEO",
     inline: "Spanish SEO",
+    h1: "Spanish SEO agency for Spain and Latin America",
+    subhead: "Run from Valencia and adapted per country, because what convinces a buyer in Madrid reads as foreign in Bogota.",
     cluster: "Search",
     angle: "SEO Spain, researched here rather than abroad",
     lede: "Your Spanish pages are read in Madrid, Mexico City and Bogotá, and what convinces a buyer in one of them reads as foreign in the next. We work Spain from Valencia, and the Latin American variants through native copywriters based in the region.",
-    metaTitle: "Spanish SEO services, from Valencia",
+    metaTitle: "Spanish SEO agency, from Valencia",
     metaDescription: "Spanish SEO for buyers in Madrid, Mexico City and Bogotá, who do not read the same page the same way. Spain run from Valencia, Latin America by native writers.",
     sections: ["Three ways to fail at Spanish SEO", ...ENGAGEMENT],
     body: [
@@ -591,10 +621,12 @@ export const SERVICES: Service[] = [
     slug: "dutch-seo",
     name: "Dutch SEO",
     inline: "Dutch SEO",
+    h1: "Dutch SEO agency for the Netherlands and Flanders",
+    subhead: "Two markets that read the same language differently, and a trade buyer in each who wants specifics early.",
     cluster: "Search",
     angle: "Small volume, decisive buyers",
     lede: "Dutch trade search is low in volume and high in intent, which rewards covering a narrow thing properly over covering a broad thing thinly. Bemelman Spuiterij is the worked example.",
-    metaTitle: "Dutch SEO for trade buyers, Mike Bastin",
+    metaTitle: "Dutch SEO agency for trade buyers",
     metaDescription: "Dutch trade search is low volume and high intent. See how covering one narrow set of searches properly beats a broad one covered thinly.",
     sections: ["Three ways to fail at Dutch SEO", ...ENGAGEMENT],
     body: [
@@ -663,10 +695,12 @@ export const SERVICES: Service[] = [
     slug: "italian-seo",
     name: "Italian SEO",
     inline: "Italian SEO",
+    h1: "Italian SEO agency for an uncontested market",
+    subhead: "Commercial terms in Italian are far less fought over than the English equivalents, which makes entry cheap.",
     cluster: "Search",
     angle: "SEO Italy, where translated copy gets found out",
     lede: "Italian search rewards editorial quality more than most markets, and punishes translated-from-English copy faster.",
-    metaTitle: "Italian SEO services, Mike Bastin",
+    metaTitle: "Italian SEO agency, an uncontested market",
     metaDescription: "Italian search rewards editorial quality and punishes translated-from-English copy fast. See the SEO approach built for that market.",
     sections: ["Three ways to fail at Italian SEO", ...ENGAGEMENT],
     body: [
@@ -730,6 +764,8 @@ export const SERVICES: Service[] = [
     slug: "portuguese-seo",
     name: "Portuguese SEO",
     inline: "Portuguese SEO",
+    h1: "Portuguese SEO agency for Portugal and Brazil",
+    subhead: "Two markets rather than one language, with different search behaviour and different competition in each.",
     cluster: "Search",
     angle: "Two markets, one language",
     lede: "Portugal and Brazil are not one market with one keyword set, and treating them as one is the mistake that makes Portuguese look harder than it is.",
@@ -799,18 +835,20 @@ export const SERVICES: Service[] = [
     },
   },
 
-  // ---- Cluster 3: localisation and translation ----
+  // ---- Cluster 3: localization and translation ----
   {
     slug: "local-seo",
     name: "Local SEO",
     inline: "local SEO",
+    h1: "Local SEO services for multilingual cities",
+    subhead: "Google Business Profile, citations and neighbourhood pages, in places where the search happens in more than one language.",
     cluster: "Search",
     angle: "Off-site, one location at a time",
     lede: "Somebody a few streets away searches for exactly what you sell and gets a competitor who is no better, only more consistent about where they appear. In a city that searches in two languages, the gap is twice as wide.",
     metaTitle: "Local SEO services and Google Business Profile",
     metaDescription: "Somebody nearby searches for what you sell and finds a competitor who is no better, only easier to find. Local SEO for cities that search in two languages.",
     sections: [
-      "Google Business Profile audit and full optimisation",
+      "Google Business Profile audit and full optimization",
       "Citation cleanup and NAP consistency across directories",
       "LocalBusiness schema and neighbourhood-level landing pages",
       "Review generation and response strategy",
@@ -828,7 +866,7 @@ export const SERVICES: Service[] = [
       {
         heading: "Two engagements built on profile hygiene and patience",
         paragraphs: [
-          "On a paint and powder-coating specialist in Hillegom, full Google Business Profile optimisation, consistent name, address and phone details across Dutch directories and dedicated landing pages for each surrounding town produced map pack presence across the whole Bollenstreek region, with qualified enquiries arriving daily through the profile and the site.",
+          "On a paint and powder-coating specialist in Hillegom, full Google Business Profile optimization, consistent name, address and phone details across Dutch directories and dedicated landing pages for each surrounding town produced map pack presence across the whole Bollenstreek region, with qualified enquiries arriving daily through the profile and the site.",
           "On a Valencia-focused expat content site, dedicated neighbourhood guides with geo schema produced rankings on district-specific queries in both Spanish and English, and AI citations for questions about the best neighbourhoods in the city.",
         ],
       },
@@ -882,20 +920,22 @@ export const SERVICES: Service[] = [
   },
   {
     slug: "website-localisation",
-    name: "Website localisation",
-    inline: "website localisation",
-    cluster: "Localisation",
+    name: "Website localization",
+    inline: "website localization",
+    h1: "Website localization services that make a site sell in its market",
+    subhead: "From the copy to the checkout: currency, payment methods, shipping rules and a layout that survives a third more text.",
+    cluster: "Localization",
     pillar: true,
     angle: "Beyond translated strings",
     lede: "Your site has been translated and it still reads as foreign. The prices, the form fields, the trust marks and the way people search all still belong to somewhere else, and none of it is fixed by the words.",
-    metaTitle: "Website localisation services, Mike Bastin",
-    metaDescription: "Translated and still reading as foreign, from the prices to the form fields to the way people search? Website localisation is the job the words alone do not do.",
-    sections: ["Why localisation is not translation", ...ENGAGEMENT],
+    metaTitle: "Website localization services, Mike Bastin",
+    metaDescription: "Translated and still reading as foreign, from the prices to the form fields to the way people search? Website localization is the job the words alone do not do.",
+    sections: ["Why localization is not translation", ...ENGAGEMENT],
     body: [
       {
         heading: "Why a translated page still reads as imported",
         paragraphs: [
-          "A page translated word for word keeps the original currency format, date format, trust signals and calls to action, and reads as imported even when every sentence is grammatically correct. Localisation adapts dates, currency, imagery, payment methods and the calls to action themselves to match what a market actually expects, which is a bigger job than swapping the words.",
+          "A page translated word for word keeps the original currency format, date format, trust signals and calls to action, and reads as imported even when every sentence is grammatically correct. Localization adapts dates, currency, imagery, payment methods and the calls to action themselves to match what a market actually expects, which is a bigger job than swapping the words.",
           "Right-to-left support for Arabic, the text expansion German routinely needs against an English source, and correct character encoding across every language in scope are technical problems, not linguistic ones, and they surface first in the interface rather than the copy. Testing across WordPress, Joomla, Drupal or a custom build catches them before launch instead of after a support ticket.",
         ],
       },
@@ -903,18 +943,18 @@ export const SERVICES: Service[] = [
         heading: "What gets configured underneath the words",
         paragraphs: [
           "WPML runs as the default multilingual stack for WordPress, with Polylang for tighter budgets or simpler structures and TranslatePress where a non-technical content team needs in-context, front-end translation. For stores, WooCommerce, Shopify and Magento get local currency, local payment methods and checkout flows adjusted per region, since conversion rates move measurably once a shopper sees a familiar payment option at checkout.",
-          "Full QA runs across languages before launch: every interface element, form, menu and piece of multimedia checked for display, function and cultural fit, not just spot-checked on the homepage. A localisation project that skips this step tends to surface its problems in a support inbox rather than in a test report.",
+          "Full QA runs across languages before launch: every interface element, form, menu and piece of multimedia checked for display, function and cultural fit, not just spot-checked on the homepage. A localization project that skips this step tends to surface its problems in a support inbox rather than in a test report.",
         ],
       },
     ],
-    expandablesHeading: "What localisation touches beyond the copy",
+    expandablesHeading: "What localization touches beyond the copy",
     expandablesLede:
       "The parts of a translated site that still go wrong once the copy itself is done.",
     expandables: [
       {
         q: "Which WordPress multilingual plugin, and what each one costs you",
         a: [
-          "WPML is the default: the most complete on SEO, the most demanding on hosting and the one with a licence to keep renewing. Polylang fits a tighter budget and a simpler structure, and starts to hurt once translation workflows get complicated. TranslatePress earns its place when a non-technical team needs to translate on the front end, seeing the page as they change it. MultilingualPress suits a genuine multisite. GTranslate is machine translation with a switcher, which is a different product from a localised site and should be chosen knowing that.",
+          "WPML is the default: the most complete on SEO, the most demanding on hosting and the one with a licence to keep renewing. Polylang fits a tighter budget and a simpler structure, and starts to hurt once translation workflows get complicated. TranslatePress earns its place when a non-technical team needs to translate on the front end, seeing the page as they change it. MultilingualPress suits a genuine multisite. GTranslate is machine translation with a switcher, which is a different product from a localized site and should be chosen knowing that.",
           "The choice is hard to undo cheaply, because the content ends up stored the plugin's way. Deciding it against the editorial workflow rather than the feature list is most of the work.",
         ],
       },
@@ -926,14 +966,14 @@ export const SERVICES: Service[] = [
         ],
       },
       {
-        q: "A store is localised at the checkout or not at all",
+        q: "A store is localized at the checkout or not at all",
         a: [
           "Product descriptions and SKUs are the visible half. The half that moves the conversion rate is the currency shown, whether the price is formatted the way that market writes prices, the payment methods offered, and how the checkout handles an address that is not shaped like a British one.",
           "WooCommerce, Shopify and Magento each expose that differently, and each will happily launch a shop that looks translated and feels foreign at the last step.",
         ],
       },
       {
-        q: "What localisation testing actually covers",
+        q: "What localization testing actually covers",
         a: [
           "Every interface element, form, menu, switcher and piece of multimedia, in each language, for display, function and fit. The language switcher going to the wrong page, a form rejecting a valid local postcode, a date reading as the wrong month: none of it shows up in a translation review, because none of it is a translation problem.",
           "The pass also covers what the market requires legally, from consent handling to accessibility. Skipping it does not remove the defects, it just moves their discovery into your support inbox.",
@@ -956,7 +996,9 @@ export const SERVICES: Service[] = [
     slug: "translation-services",
     name: "Translation services",
     inline: "translation services",
-    cluster: "Localisation",
+    h1: "Multilingual translation services sorted by document type",
+    subhead: "The risk changes completely from a proposal to a court filing, and so does who should be doing the work.",
+    cluster: "Localization",
     pillar: true,
     angle: "Where accuracy is a liability question",
     lede: "You have a contract, a patient record or a birth certificate that a court, a regulator or an embassy has to accept, and a wrong term in it costs you a deadline or worse. Work goes through the BeTranslated network, co-founded and run for twenty years.",
@@ -1035,27 +1077,29 @@ export const SERVICES: Service[] = [
   },
   {
     slug: "app-and-software-localisation",
-    name: "App and software localisation",
-    inline: "app and software localisation",
-    cluster: "Localisation",
+    name: "App and software localization",
+    inline: "app and software localization",
+    h1: "App and software localization services",
+    subhead: "Internationalised before launch rather than retrofitted after it, which is where the cost of this work is decided.",
+    cluster: "Localization",
     angle: "Strings, and everything around them",
     lede: "You are shipping the product into a market that writes longer sentences than English, sometimes reads right to left, and reviews you in a store nobody on the team can read. What breaks first is rarely the translation.",
-    metaTitle: "App and software localisation services",
-    metaDescription: "Shipping into a market that writes longer than English and sometimes reads right to left? App and software localisation covers what breaks before the words do.",
+    metaTitle: "App and software localization services",
+    metaDescription: "Shipping into a market that writes longer than English and sometimes reads right to left? App and software localization covers what breaks before the words do.",
     sections: ["What breaks when software crosses a language", ...ENGAGEMENT],
     body: [
       {
-        heading: "The technical problems localisation testing catches early",
+        heading: "The technical problems localization testing catches early",
         paragraphs: [
           "Interface text that fits comfortably in English routinely runs longer in German, and a layout that was never tested against that expansion breaks buttons, truncates labels and pushes navigation out of alignment. Right-to-left scripts such as Arabic and Hebrew need the layout itself, not just the text direction, adjusted to stay usable.",
           "Character encoding that is not handled correctly turns accented characters and non-Latin scripts into visible errors on screen, the kind of bug that is invisible in English testing and immediately obvious to every user in the affected language. Preparing the software's architecture for this before adding new languages avoids a rebuild every time a market gets added.",
         ],
       },
       {
-        heading: "What the localisation pass actually covers",
+        heading: "What the localization pass actually covers",
         paragraphs: [
-          "Interface text, notifications and app store descriptions translated and adapted for clarity and cultural relevance, dates, currency and units of measurement adjusted per locale, and app store keywords optimised per target market to support discoverability. Testing runs across the operating systems and devices actually used in each market, not just the primary one.",
-          "For video and audio content, subtitling and voice-over work across standard formats, with accurate transcription supporting both localisation and accessibility compliance. Software internationalisation work prepares the underlying architecture, so adding a new language later is a translation task rather than a rebuild.",
+          "Interface text, notifications and app store descriptions translated and adapted for clarity and cultural relevance, dates, currency and units of measurement adjusted per locale, and app store keywords optimized per target market to support discoverability. Testing runs across the operating systems and devices actually used in each market, not just the primary one.",
+          "For video and audio content, subtitling and voice-over work across standard formats, with accurate transcription supporting both localization and accessibility compliance. Software internationalisation work prepares the underlying architecture, so adding a new language later is a translation task rather than a rebuild.",
         ],
       },
     ],
@@ -1064,7 +1108,7 @@ export const SERVICES: Service[] = [
       "The sequence that decides how expensive the rest of the work becomes.",
     expandables: [
       {
-        q: "Internationalisation comes first, or localisation costs several times more",
+        q: "Internationalisation comes first, or localization costs several times more",
         a: [
           "Preparing the software is the part nobody demos: strings pulled out of the code, no sentences assembled from fragments, dates and numbers and currency formatted by locale rather than hardcoded, sorting that follows the target language's rules, and layouts that survive text arriving longer than the English.",
           "Done first, adding a language is a content job. Skipped, every new market reopens the codebase, and the second language costs more than the first did.",
@@ -1080,7 +1124,7 @@ export const SERVICES: Service[] = [
       {
         q: "Testing across language, device and operating system",
         a: [
-          "Most localisation defects are not translation defects. A label that overflows its button in German, a date that reads as the wrong month, a form that rejects a valid local postcode, a right-to-left layout that mirrors everything except one icon.",
+          "Most localization defects are not translation defects. A label that overflows its button in German, a date that reads as the wrong month, a form that rejects a valid local postcode, a right-to-left layout that mirrors everything except one icon.",
           "None of that appears in a translation review, because none of it is visible in a spreadsheet of strings. It appears on a device, in that language, which is where the pass has to happen.",
         ],
       },
@@ -1100,6 +1144,8 @@ export const SERVICES: Service[] = [
     slug: "ai-consulting",
     name: "AI consulting",
     inline: "AI consulting",
+    h1: "AI consulting services for multilingual search and content",
+    subhead: "Where machine output helps across languages, and where it quietly costs the trust a page was built to earn.",
     cluster: "AI",
     pillar: true,
     angle: "AI consultants who say where AI does not help",
@@ -1151,7 +1197,7 @@ export const SERVICES: Service[] = [
         q: "Reading what the market is saying, at a volume a person cannot",
         a: [
           "Sentiment and theme analysis across reviews, support tickets and social mentions per language, which is where the gap between what a market says and what you assume it wants tends to show up first.",
-          "A complaint pattern that appears in one language and not the others is usually a localisation defect rather than a product one, and it is invisible in a blended report.",
+          "A complaint pattern that appears in one language and not the others is usually a localization defect rather than a product one, and it is invisible in a blended report.",
         ],
       },
       {
@@ -1168,6 +1214,8 @@ export const SERVICES: Service[] = [
     slug: "ai-translation-and-post-editing",
     name: "AI translation and post-editing",
     inline: "AI translation and post-editing",
+    h1: "AI translation services and post-editing",
+    subhead: "Machine output worked over by a native speaker, because text that reads fluently and is wrong is worse than text that warns you.",
     cluster: "AI",
     angle: "Machine first, human decisive",
     lede: "Your pages came back from the machine reading fluently, which is the problem. A sentence that is confidently wrong is far harder to catch than one that is obviously broken.",
@@ -1228,20 +1276,22 @@ export const SERVICES: Service[] = [
 
   {
     slug: "generative-engine-optimization",
-    name: "Generative engine optimisation",
-    inline: "generative engine optimisation",
+    name: "Generative engine optimization",
+    inline: "generative engine optimization",
+    h1: "Generative engine optimization services for AI search",
+    subhead: "Structured for ChatGPT, Perplexity and Google's AI Overviews to cite you, not only for Google to rank you.",
     cluster: "AI",
     pillar: true,
     angle: "Cited inside the answer, not just ranked below it",
     lede: "ChatGPT, Perplexity and Google's AI Overviews answer a buyer's question directly, and name two or three sources while doing it. Being one of them is the difference between being considered and never being seen.",
-    metaTitle: "Generative engine optimisation and AEO, Mike Bastin",
+    metaTitle: "Generative engine optimization agency and AEO",
     metaDescription: "ChatGPT, Perplexity and Google AI Overviews name a small number of sources when they answer a question. See what it takes for the answer to name you.",
     expandablesHeading: "What changes when the answer is written for you",
     expandablesLede:
       "Nine shifts in how buyers reach an answer, and what each one asks of your pages.",
     expandables: [
       {
-        q: "Optimise for search everywhere, not only for Google",
+        q: "Optimize for search everywhere, not only for Google",
         a: [
           "Buyers now ask ChatGPT, Perplexity, Bing and a voice assistant before they ask Google, and each one assembles its answer differently. A page written only to rank on one of them is invisible on the rest.",
           "Presence across the platforms your market actually uses, with one voice rather than a different claim in each place, because an answer engine that finds you contradicting yourself cites somebody else.",
@@ -1338,6 +1388,8 @@ export const SERVICES: Service[] = [
     slug: "technical-seo",
     name: "Technical SEO",
     inline: "technical SEO",
+    h1: "Technical SEO services for multilingual websites",
+    subhead: "The work that stops your language versions competing with each other for the same buyers.",
     cluster: "Supporting",
     angle: "Crawlability and hreflang, noticed only when broken",
     lede: "Your French pages and your German pages can end up competing with each other instead of adding up. We find out whether it is happening on your site, and fix what is causing it.",
@@ -1406,6 +1458,8 @@ export const SERVICES: Service[] = [
     slug: "multilingual-content",
     name: "Multilingual content",
     inline: "multilingual content",
+    h1: "Multilingual content services written per market",
+    subhead: "Written in the target language against that market's own research, rather than translated from a page optimized for a different one.",
     cluster: "Supporting",
     angle: "Written per market, not translated",
     lede: "Your Spanish page is a translation of your English one, so it answers the question an English buyer asks. Spanish buyers phrase the problem differently, and they are out looking for the other version.",
@@ -1416,14 +1470,14 @@ export const SERVICES: Service[] = [
       {
         heading: "Why a translated keyword set misses the market",
         paragraphs: [
-          "The keyword set that works in English rarely survives translation into the one that actually gets searched in Spanish or French, because the way people phrase a problem shifts with the language, not just the words. Copy translated from an English draft ends up optimised for a search pattern nobody in the target market actually uses.",
+          "The keyword set that works in English rarely survives translation into the one that actually gets searched in Spanish or French, because the way people phrase a problem shifts with the language, not just the words. Copy translated from an English draft ends up optimized for a search pattern nobody in the target market actually uses.",
           "E-E-A-T signals, expert authorship, verifiable sources, genuine testimonials, need to exist per language, not just once on the English homepage, because a reader and a search engine both judge trustworthiness locally, from what they can actually verify in front of them.",
         ],
       },
       {
         heading: "What the engagement covers, cluster by cluster",
         paragraphs: [
-          "Content researched and written per market with native keyword localisation, hreflang and canonical setup handled at the structural level, and schema (Article, FAQPage, LocalBusiness as relevant) implemented per language to support rich results. Cultural consulting sits underneath the copy itself, checking messaging and tone against local values before publication rather than after a complaint.",
+          "Content researched and written per market with native keyword localization, hreflang and canonical setup handled at the structural level, and schema (Article, FAQPage, LocalBusiness as relevant) implemented per language to support rich results. Cultural consulting sits underneath the copy itself, checking messaging and tone against local values before publication rather than after a complaint.",
           "Social platform choice follows the audience rather than habit: Facebook and Instagram cover many markets, but WeChat matters more in China and VK more in Russia, and a content plan that assumes one platform set fits every market misses the audience it was meant to reach.",
         ],
       },
@@ -1449,7 +1503,7 @@ export const SERVICES: Service[] = [
       {
         q: "The parts of a page that get forgotten in the second language",
         a: [
-          "Meta titles and descriptions written natively rather than translated to an English character budget, internal links that point at the same-language version, schema carrying the localised values, and hreflang that actually resolves both ways.",
+          "Meta titles and descriptions written natively rather than translated to an English character budget, internal links that point at the same-language version, schema carrying the localized values, and hreflang that actually resolves both ways.",
           "Each one is invisible to a reader skimming the translated page and obvious to a crawler, which is why a site can read perfectly in four languages and rank in one.",
         ],
       },
@@ -1472,13 +1526,13 @@ export const SERVICES: Service[] = [
   },
 ];
 
-export const CLUSTERS = ["Lead generation", "Search", "Localisation", "AI", "Supporting"] as const;
+export const CLUSTERS = ["Lead generation", "Search", "Localization", "AI", "Supporting"] as const;
 
 /** Mid-sentence form of each cluster, for the same reason as Service.inline. */
 export const CLUSTER_INLINE: Record<string, string> = {
   "Lead generation": "lead generation",
   Search: "search",
-  Localisation: "localisation",
+  Localization: "localization",
   AI: "AI",
   Supporting: "supporting",
 };

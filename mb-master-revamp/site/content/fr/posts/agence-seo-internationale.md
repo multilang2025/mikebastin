@@ -28,13 +28,13 @@ Dans cet article, vous allez comprendre ce que recouvre réellement le **référ
 
 Le référencement international, c’est l’ensemble des stratégies qui permettent à un site de se positionner dans les résultats de recherche de plusieurs pays ou plusieurs langues.
 
-Cela inclut des décisions techniques (architecture de site, hreflang, structure des URL) et des décisions éditoriales : ciblage de mots-clés par marché, localisation du contenu, ton et registre adaptés à chaque audience.
+Cela inclut des décisions techniques (architecture de site, hreflang, structure des URL) et des décisions éditoriales : ciblage de mots-clés par marché, localization du contenu, ton et registre adaptés à chaque audience.
 
 > Selon une analyse de [Referencement-seo.com (avril 2026)](https://www.referencement-seo.com/seo-international-google-version/), 75 % des utilisateurs n’achètent jamais dans une langue étrangère. Ce constat souligne l’importance du contenu localisé pour convertir, et non simplement traduit.
 
 Concrètement, un **consultant SEO international freelance** gère des dimensions que les agences généralistes ignorent souvent :
 
--   La différence entre « traduction » et « localisation » : un contenu traduit mot à mot peut se positionner zéro en Belgique si le vocabulaire de recherche y est différent.
+-   La différence entre « traduction » et « localization » : un contenu traduit mot à mot peut se positionner zéro en Belgique si le vocabulaire de recherche y est différent.
 -   La gestion des balises hreflang sur des sites multi-domaines ou multilingues : une erreur ici et Google indexe la mauvaise version.
 -   Les signaux de confiance locaux (backlinks, citations, profil Google Business) qui diffèrent radicalement selon le pays ciblé.
 -   Les comportements d’achat et d’intention de recherche : ce qui convertit en France ne convertit pas forcément aux Pays-Bas ni en Espagne.

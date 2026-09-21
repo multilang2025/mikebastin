@@ -57,7 +57,7 @@ Empezamos conociendo tus necesidades, a qué mercados quieres dirigirte y los re
 
 Investigamos los mercados locales y los competidores para garantizar que tu contenido audiovisual concuerde con los estándares regionales.
 
-A tailored multimedia localisation plan is created to address both [cultural adaptation](https://mikebastin.com/es/services/consultoria-cultural/ "cultural adaptation") and technical needs.
+A tailored multimedia localization plan is created to address both [cultural adaptation](https://mikebastin.com/es/services/consultoria-cultural/ "cultural adaptation") and technical needs.
 
 Llevamos a cabo el plan de localizar e integrar tu contenido audiovisual, incluyendo la subtitulación, el doblaje y la transcripción.
 
@@ -69,7 +69,7 @@ La localización audiovisual consiste en adaptar el contenido de vídeos, audios
 
 Subtitling involves translating the dialogue into text on the screen, while dubbing replaces the original audio with voice-overs in the target language.
 
-We support a wide range of multimedia file formats to ensure we can handle virtually any project you bring to us. For video, we work with common formats like MP4, AVI, MOV, and WMV. Our audio capabilities include WAV, MP3, AAC, and FLAC files. For subtitling and transcription, we can work with SRT, VTT, and many other text-based formats. If you have a specific file type not mentioned here, don’t hesitate to ask, chances are we can accommodate it. Our goal is to make the localisation process as smooth as possible, regardless of your source material’s format.
+We support a wide range of multimedia file formats to ensure we can handle virtually any project you bring to us. For video, we work with common formats like MP4, AVI, MOV, and WMV. Our audio capabilities include WAV, MP3, AAC, and FLAC files. For subtitling and transcription, we can work with SRT, VTT, and many other text-based formats. If you have a specific file type not mentioned here, don’t hesitate to ask, chances are we can accommodate it. Our goal is to make the localization process as smooth as possible, regardless of your source material’s format.
 
 La duración depende de la complejidad de tu página web y del número de las versiones localizadas. En general, los proyectos duran entre 1 y 2 semanas.
 

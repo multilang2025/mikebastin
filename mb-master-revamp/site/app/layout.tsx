@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://mikebastin.com"),
   title: "Mike Bastin, multilingual search consultant",
   description:
-    "Twenty-five years reading the swell of search, in four languages. Multilingual SEO, localisation and AI consulting from Valencia, for businesses selling abroad.",
+    "Twenty-five years reading the swell of search, in four languages. Multilingual SEO, localization and AI consulting from Valencia, for businesses selling abroad.",
   // PREVIEW BUILD ONLY. Remove this block before the real launch, or the
   // live site ships noindex and disappears from search.
   robots: { index: false, follow: false, nocache: true },
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Mike Bastin, multilingual search consultant",
     description:
-      "Multilingual SEO, localisation and AI consulting from Valencia. Written natively market by market, with enquiries counted per language.",
+      "Multilingual SEO, localization and AI consulting from Valencia. Written natively market by market, with enquiries counted per language.",
     locale: "en_GB",
     type: "website",
   },

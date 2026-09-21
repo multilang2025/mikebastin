@@ -25,13 +25,13 @@ Reach new customers worldwide with internationalisation services designed for bu
 
 We adapt your website, marketing, and SEO to match each target country.
 
-[Website localisation goes beyond](https://mikebastin.com/optimising-multilingual-website-content/) simple translation. We [adapt layouts, images, and content](https://mikebastin.com/services/multilingual-ux-ui-design/) for a smooth local experience.
+[Website localization goes beyond](https://mikebastin.com/optimising-multilingual-website-content/) simple translation. We [adapt layouts, images, and content](https://mikebastin.com/services/multilingual-ux-ui-design/) for a smooth local experience.
 
 Our multilingual SEO strategies target Google, Bing and Baidu, using the right keywords and [local search intent](https://mikebastin.com/services/local-seo/) for every region.
 
 More than 70% of users prefer content in their own language.
 
-Optimise for French, Spanish, German, Portuguese, Dutch and Italian- [see our full language solutions](https://mikebastin.com/services/language-solutions/) and [website localisation services](https://mikebastin.com/services/website-localisation/).
+Optimize for French, Spanish, German, Portuguese, Dutch and Italian- [see our full language solutions](https://mikebastin.com/services/language-solutions/) and [website localization services](https://mikebastin.com/services/website-localisation/).
 
 [Analytics and tracking uncover](https://mikebastin.com/services/analytics-and-tracking/) how different audiences behave on your site.
 
@@ -55,4 +55,4 @@ With decades of experience, we combine technical expertise and [cultural insight
 
 At the core of our internationalisation services is a deep understanding of global markets, languages, and digital ecosystems. With over 25 years of experience in SEO, [web design](https://mikebastin.com/services/web-design/), and multilingual content adaptation, we specialise in preparing businesses to thrive internationally.
 
-Our team combines technical precision with cultural sensitivity, ensuring your digital presence is adapted for new regions without losing its unique brand identity. From localised user experiences to [optimised multilingual SEO](https://mikebastin.com/services/multilingual-seo/), we provide thorough solutions that help you break into new markets and connect with global audiences effectively.
+Our team combines technical precision with cultural sensitivity, ensuring your digital presence is adapted for new regions without losing its unique brand identity. From localized user experiences to [optimized multilingual SEO](https://mikebastin.com/services/multilingual-seo/), we provide thorough solutions that help you break into new markets and connect with global audiences effectively.

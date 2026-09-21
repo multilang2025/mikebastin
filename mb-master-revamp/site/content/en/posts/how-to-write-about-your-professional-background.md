@@ -89,7 +89,7 @@ List your positions in reverse chronological order, starting with your current o
 
 ### Using action verbs and quantifiable achievements
 
-When detailing your responsibilities, use action-oriented verbs like “led,” “developed,” “increased,” or “optimised.” Always pair these verbs with quantifiable results to give weight to your accomplishments.
+When detailing your responsibilities, use action-oriented verbs like “led,” “developed,” “increased,” or “optimized.” Always pair these verbs with quantifiable results to give weight to your accomplishments.
 
 For example, instead of saying “Responsible for managing SEO,” say “Led SEO initiatives that resulted in a 35% increase in organic traffic within six months.”
 
@@ -172,7 +172,7 @@ For a more technical position, such as an SEO specialist, you’d want to emphas
 For example:
 
 -   For a content-focused role: “Skilled in developing SEO-driven [content strategies](/blog/how-to-create-a-targeted-content-strategy/) that align with brand messaging and audience needs, leading to a 25% increase in engagement.”
--   For a technical SEO role: “Expert in site audits, keyword research, and on-page optimisation, leading to a 40% increase in search rankings for high-competition keywords.”
+-   For a technical SEO role: “Expert in site audits, keyword research, and on-page optimization, leading to a 40% increase in search rankings for high-competition keywords.”
 
 ### Emphasising transferable skills
 

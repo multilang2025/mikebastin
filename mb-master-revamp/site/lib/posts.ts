@@ -418,7 +418,7 @@ const TOPIC_BLURB: Record<string, string> = {
   "SEO fundamentals":
     "The parts that hold whatever is built on top of them: crawling, indexation, structure and measurement. Worth getting right before a translation budget goes anywhere near them.",
   "Language industry":
-    "Translation, localisation and the people who do it. How the work is priced, scoped and quality-checked, from inside it.",
+    "Translation, localization and the people who do it. How the work is priced, scoped and quality-checked, from inside it.",
   "Multilingual lead generation":
     "Turning international visibility into enquiries, and knowing which language produced them. Tracking, attribution and the reporting that makes a market's spend defensible.",
   "Business and marketing":
@@ -566,7 +566,7 @@ export function getPostSiblings(group: string): LocaleSlugs {
 
 /** Site-relative path for a published post in `locale`. EN stays at
  *  /blog/<slug>/ (unchanged); FR and ES are flat at /fr/<slug>/ and
- *  /es/<slug>/, matching their localised sourceUrl in the frontmatter. */
+ *  /es/<slug>/, matching their localized sourceUrl in the frontmatter. */
 export function postPath(locale: Locale, slug: string): string {
   return locale === "en" ? `/blog/${slug}/` : `/${locale}/${slug}/`;
 }

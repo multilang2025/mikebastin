@@ -15,7 +15,7 @@ excerpt: "Expand your digital presence globally with our expert internationalisa
 
 # Multilingual Branding
 
-Localise your message while staying true to your brand values
+Localize your message while staying true to your brand values
 
 ## Multilingual Branding for Global Success
 
@@ -23,11 +23,11 @@ Your brand should speak the language of every market.
 
 We offer [multilingual branding services](https://mikebastin.com/services/multilingual-branding/) that help you build trust and recognition across cultures.
 
-From localisation to content creation, we adapt your message to match regional expectations and communication styles.
+From localization to content creation, we adapt your message to match regional expectations and communication styles.
 
 Every detail, from tone to visuals, is aligned with local preferences to increase engagement.
 
-Ready to grow your global presence with a consistent, localised brand? [Contact us](https://mikebastin.com/contact-us/) today.
+Ready to grow your global presence with a consistent, localized brand? [Contact us](https://mikebastin.com/contact-us/) today.
 
 Our Customers
 

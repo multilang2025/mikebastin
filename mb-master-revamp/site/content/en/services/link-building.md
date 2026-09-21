@@ -19,7 +19,7 @@ Build authority with backlinks that hold up through algorithm updates.
 
 ## Build Authority. Earn Rankings. Get Quality Backlinks.
 
-A backlink from the right website does more than most on-page optimisations ever will. It signals to Google that another domain vouches for your content. Done well, [link building](https://mikebastin.com/services/link-building/) raises your Domain Rating, grows your pool of referring domains, and puts you in front of search queries you were not ranking for before.
+A backlink from the right website does more than most on-page optimizations ever will. It signals to Google that another domain vouches for your content. Done well, [link building](https://mikebastin.com/services/link-building/) raises your Domain Rating, grows your pool of referring domains, and puts you in front of search queries you were not ranking for before.
 
 We build editorial links, resource page placements, and guest posts on sites that matter in your industry. No private blog networks. No link farms. No shortcuts that create a liability six months down the line.
 
@@ -97,7 +97,7 @@ We have helped clients in Spain, Belgium, the UK, and the US grow their referrin
 
 CMS Integration
 
-Content Localisation
+Content Localization
 
 Multilingual UX/UI Design
 

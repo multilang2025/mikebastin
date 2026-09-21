@@ -38,7 +38,7 @@ Trois schémas reviennent sur la quasi-totalité des comptes que j’audite :
 
 Une accroche qui marche en français devient plate en anglais et carrément maladroite en espagnol mexicain. Le Quality Score s’effondre, le CPC monte, le ROI s’érode silencieusement. Une bonne annonce SEM se rédige par un natif qui comprend l’intent, pas par un traducteur.
 
-Performance Max et Maximize Conversions sur tous les marchés sans surveillance détaillée donnent un faux sentiment d’optimisation. Google sur-investit sur 1-2 marchés rentables et néglige les autres. Les comptes « automatisés » finissent souvent à 80 % de leur potentiel.
+Performance Max et Maximize Conversions sur tous les marchés sans surveillance détaillée donnent un faux sentiment d’optimization. Google sur-investit sur 1-2 marchés rentables et néglige les autres. Les comptes « automatisés » finissent souvent à 80 % de leur potentiel.
 
 La page de conversion en anglais marchande mal pour un public allemand qui veut des certifications, des chiffres précis et des témoignages locaux. Le taux de conversion par langue varie de 1 à 4 entre une landing localisée et une page traduite à la va-vite.
 
@@ -48,7 +48,7 @@ Mon approche : chaque marché traité comme une campagne dédiée. Recherche de 
 
 Volumes, CPC réels, intention commerciale par variante de marché. Différences ES Espagne vs ES Mexique, EN US vs EN UK, FR France vs FR Belgique vs FR Canada.
 
-Rédaction par natifs spécialisés en SEM (FR, EN, ES, NL en interne). Tests A/B sur les variantes, optimisation continue du Quality Score.
+Rédaction par natifs spécialisés en SEM (FR, EN, ES, NL en interne). Tests A/B sur les variantes, optimization continue du Quality Score.
 
 Conception de pages de conversion adaptées à chaque marché : preuves sociales locales, certifications du pays, témoignages dans la langue, structure persuasive culturelle.
 
@@ -60,7 +60,7 @@ Pas de cannibalisation entre organique et payant. Stratégie complémentaire : S
 
 ## Mon process en 5 étapes, livrables nommés
 
-Pas de campagnes lancées avant la phase de cadrage. Pas d’optimisation déléguée à une boîte noire.
+Pas de campagnes lancées avant la phase de cadrage. Pas d’optimization déléguée à une boîte noire.
 
 **Livrable :** rapport d’audit Google Ads + Bing : Quality Score moyen par groupe, CTR, taux de conversion par campagne, gaspillage budgétaire identifié, opportunités non exploitées par marché. Vous repartez avec ce diagnostic même sans engagement de suite.
 
@@ -68,7 +68,7 @@ Pas de campagnes lancées avant la phase de cadrage. Pas d’optimisation délé
 
 **Livrable :** annonces rédigées par natifs (3-5 variantes par groupe), landing pages localisées, configuration GTM et GA4, paramétrage smart bidding, plan de budget mensuel par marché. Lancement après votre validation.
 
-**Livrable :** suivi hebdomadaire des recherches activées, exclusions négatives, A/B testing des annonces, ajustements de bid par segment, optimisation des landing pages selon les données réelles. Point hebdomadaire ou bimensuel.
+**Livrable :** suivi hebdomadaire des recherches activées, exclusions négatives, A/B testing des annonces, ajustements de bid par segment, optimization des landing pages selon les données réelles. Point hebdomadaire ou bimensuel.
 
 **Livrable :** rapport mensuel par marché : dépense, clics, conversions, CPL réel, taux de conversion par landing, comparatif vs mois précédents et vs SEO organique. Recommandations d’allocation pour le mois suivant.
 
@@ -178,7 +178,7 @@ Oui, mais il a besoin d’être supervisé marché par marché. Performance Max 
 
 Quel budget minimum pour du SEM multilingue rentable ?
 
-Honnêtement : en dessous de 1500-2000 €/mois de média par marché, c’est compliqué d’avoir des données statistiquement significatives pour optimiser. Sur des secteurs très chers (juridique, finance), le seuil monte. Je préfère vous dire de commencer par un seul marché bien financé plutôt que de saupoudrer trois marchés sous-investis.
+Honnêtement : en dessous de 1500-2000 €/mois de média par marché, c’est compliqué d’avoir des données statistiquement significatives pour optimizer. Sur des secteurs très chers (juridique, finance), le seuil monte. Je préfère vous dire de commencer par un seul marché bien financé plutôt que de saupoudrer trois marchés sous-investis.
 
 Travaillez-vous avec des comptes existants ou ne créez-vous que du neuf ?
 

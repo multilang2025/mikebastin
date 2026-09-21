@@ -9,7 +9,7 @@ wpId: 24845561
 date: "2024-11-06T13:52:49"
 modified: "2026-07-19T12:05:49"
 sourceUrl: "https://mikebastin.com/email-marketing-hacks-boosting-open-rates-and-conversions/"
-excerpt: "Uncover advanced email marketing strategies to boost engagement and conversions. Learn how to write compelling subject lines and optimise for mobile."
+excerpt: "Uncover advanced email marketing strategies to boost engagement and conversions. Learn how to write compelling subject lines and optimize for mobile."
 ---
 
 ## Proven strategies to increase email performance and drive results
@@ -18,7 +18,7 @@ In the fast-changing digital marketing space, email remains a powerful tool for 
 
 With inboxes becoming increasingly crowded, it’s crucial to employ advanced techniques to stand out and increase your email marketing performance.
 
-Below we cover strategies for writing compelling subject lines, optimising email content for mobile devices, and using personalisation and segmentation to boost open rates and conversions.
+Below we cover strategies for writing compelling subject lines, optimizing email content for mobile devices, and using personalisation and segmentation to boost open rates and conversions.
 
 ### Writing compelling subject lines
 
@@ -51,21 +51,21 @@ Use data points beyond just names to create hyper-relevant subject lines:
 
 Regularly test different subject line styles, lengths, and elements to refine your approach.
 
-### Optimising email content for mobile devices
+### Optimizing email content for mobile devices
 
-With over 60% of email opens occurring on mobile devices, mobile optimisation is non-negotiable.
+With over 60% of email opens occurring on mobile devices, mobile optimization is non-negotiable.
 
 #### A) embrace responsive design
 
 Ensure your emails adapt to different screen sizes. Use a single-column layout for easy scrolling.
 
-#### B) optimise for quick scanning
+#### B) optimize for quick scanning
 
 -   Use short paragraphs and bullet points
 -   Incorporate plenty of white space
 -   Make CTAs large and easily tappable (minimum 44×44 pixels)
 
-#### C) optimise images
+#### C) optimize images
 
 -   Use alt text for images in case they don’t load
 -   Compress images to reduce load times
@@ -106,7 +106,7 @@ Create targeted campaigns based on the customer’s journey:
 -   Re-engagement campaigns for inactive users
 -   Loyalty rewards for frequent customers
 
-### Advanced analytics and optimisation
+### Advanced analytics and optimization
 
 To continually improve your email marketing, dive deep into your data:
 
@@ -130,12 +130,12 @@ Use AI and machine learning to predict:
 -   Which products a customer is most likely to buy next
 -   When a customer is at risk of churning
 
-#### D) automated optimisation
+#### D) automated optimization
 
 Use AI-powered tools that can automatically:
 
 -   Write subject lines
--   Optimise send times
+-   Optimize send times
 -   Personalise content for each recipient
 
 By implementing these advanced email marketing techniques, you can significantly boost your open rates and conversions.

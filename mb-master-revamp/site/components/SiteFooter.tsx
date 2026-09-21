@@ -92,8 +92,8 @@ const T: Record<
 };
 
 const ABOUT: Record<Locale, string> = {
-  en: "We are a multilingual SEO and localisation practice in Valencia, working across European markets. Enquiries are what we count, not rankings.",
-  fr: "Nous sommes un cabinet de référencement multilingue et de localisation basé à Valencia, actif sur les marchés européens. Ce que nous comptons, ce sont les demandes entrantes, pas les positions.",
+  en: "We are a multilingual SEO and localization practice in Valencia, working across European markets. Enquiries are what we count, not rankings.",
+  fr: "Nous sommes un cabinet de référencement multilingue et de localization basé à Valencia, actif sur les marchés européens. Ce que nous comptons, ce sont les demandes entrantes, pas les positions.",
   es: "Somos un equipo de posicionamiento multilingüe y localización con base en Valencia, trabajando en los mercados europeos. Contamos consultas, no posiciones.",
 };
 

@@ -77,7 +77,7 @@ Here is the full competitive analysis checklist in one place. Work through it to
 -   ☐ **Read their top pages like an editor**, audience, intent and next action on every money page.
 -   ☐ **Steal competitor keywords worth having**, find the terms they rank for that you do not, and the gaps they have left wide open.
 -   ☐ **Audit AI citations**, track who ChatGPT, Claude, Perplexity and Google AI Overviews actually quote.
--   ☐ **Check their multilingual setup**, hreflang, localised schema and language-specific content.
+-   ☐ **Check their multilingual setup**, hreflang, localized schema and language-specific content.
 -   ☐ **Cut the findings to a six-line roadmap**, three quick fixes, two content gaps, one structural play.
 
 ## Phase 1: Identify the Right Competitors, Not the Obvious Ones
@@ -129,7 +129,7 @@ Partnerships, affiliates or one viral page propping up the numbers.
 
 Concentrated geographic traffic
 
-Local focus, often weak hreflang or no localised content strategy.
+Local focus, often weak hreflang or no localized content strategy.
 
 A useful sanity check is to look at geographic distribution.
 
@@ -196,7 +196,7 @@ When auditing a competitor’s AI footprint, look for four structural patterns t
 
 If a competitor is doing three of those four, they will keep showing up in AI answers until you build something more useful.
 
-For international queries you also need to check how they handle [technical SEO for multilingual websites](https://mikebastin.com/technical-seo-for-multilingual-websites/), including hreflang, localised schema and language-specific structured data.
+For international queries you also need to check how they handle [technical SEO for multilingual websites](https://mikebastin.com/technical-seo-for-multilingual-websites/), including hreflang, localized schema and language-specific structured data.
 
 A clean multilingual setup is a moat.
 
