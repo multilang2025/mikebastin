@@ -9,6 +9,13 @@
  * entity resolution CONTENT-ARCHITECTURE.md section 1 asks for: one
  * consistent story, not a slightly different Person on every page.
  *
+ * Every type that can carry an `image` carries a real one, per
+ * docs/STYLE-GUIDE-UK-EU.md section 8: the visible image, the social card
+ * and the structured data should point at the same real, on-topic asset,
+ * never a logo standing in for a missing photograph. Until 21 Sep 2026 no
+ * type here emitted `image` at all, so every page shipped a social card
+ * with a picture and structured data claiming none.
+ *
  * Deliberately absent: Review, AggregateRating, LocalBusiness. See
  * docs/CONTENT-ARCHITECTURE.md section 4b -- self-hosted/scraped reviews are
  * ineligible for review rich results under Google's own guidelines, and the
@@ -17,6 +24,9 @@
  */
 
 export const SITE_URL = "https://mikebastin.com";
+
+/** Schema.org wants absolute URLs; every image path on this site is rooted. */
+const abs = (path: string) => `${SITE_URL}${path}`;
 
 export const PERSON_ID = `${SITE_URL}/#person`;
 export const BUSINESS_ID = `${SITE_URL}/#business`;
@@ -47,7 +57,11 @@ export const personSchema = {
   url: SITE_URL,
   address: ADDRESS,
   knowsLanguage: ["en", "fr", "es", "nl"],
-  // BeTranslated is the agency Mike Bastin founded and still runs (see
+  // The same photograph the reader meets on /how-i-work/, not the wave
+  // mark: a logo is not a picture of a person, and Google reads `image` on
+  // Person as exactly that.
+  image: abs("/images/mike-bastin.webp"),
+  // BeTranslated is the agency Mike Bastin co-founded and still runs (see
   // lib/projects.ts, the "betranslated" case study). worksFor is the Person
   // property that names it; a full Organization schema for BeTranslated
   // itself is out of scope here (not the entity this site is about).
@@ -82,6 +96,11 @@ export const professionalServiceSchema = {
   address: ADDRESS,
   areaServed: "Worldwide",
   knowsLanguage: ["en", "fr", "es", "nl"],
+  // The wave mark, 180x180, comfortably over Google's 112x112 floor for an
+  // organisation logo. `image` repeats it because the business has no
+  // premises photograph and inventing one is not an option.
+  logo: abs("/apple-icon.png"),
+  image: abs("/apple-icon.png"),
   founder: { "@id": PERSON_ID },
   sameAs: SAME_AS,
 };
@@ -107,6 +126,8 @@ export function serviceSchema(opts: {
   name: string;
   description: string;
   url: string;
+  /** Absolute URL of a real image for this service, where one exists. */
+  image?: string;
 }) {
   return {
     "@context": "https://schema.org",
@@ -115,6 +136,10 @@ export function serviceSchema(opts: {
     name: opts.name,
     description: opts.description,
     url: opts.url,
+    // Omitted rather than filled with the wave mark. No service page
+    // carries a photograph of its own today, and a logo dressed as the
+    // service's image is the substitution the style guide warns against.
+    ...(opts.image ? { image: opts.image } : {}),
     provider: { "@id": BUSINESS_ID },
     areaServed: "Worldwide",
   };
@@ -127,6 +152,14 @@ export function blogPostingSchema(opts: {
   datePublished: string;
   dateModified: string;
   url: string;
+  /**
+   * Absolute URL of the post's own photograph. 57 of the posts have one in
+   * lib/blog-images.ts and it is what PostImage renders, so the structured
+   * data and the visible hero agree. The rest fall back to PostArt, which
+   * draws a wave from the slug and has no file behind it, so they pass
+   * nothing and the property is omitted.
+   */
+  image?: string;
 }) {
   return {
     "@context": "https://schema.org",
@@ -135,6 +168,7 @@ export function blogPostingSchema(opts: {
     description: opts.description,
     datePublished: new Date(opts.datePublished).toISOString(),
     dateModified: new Date(opts.dateModified).toISOString(),
+    ...(opts.image ? { image: opts.image } : {}),
     author: { "@id": PERSON_ID },
     publisher: { "@id": BUSINESS_ID },
     mainEntityOfPage: opts.url,
