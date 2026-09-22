@@ -60,9 +60,14 @@ async function main() {
     // An entry sourced outside the legacy library records its origin
     // rather than an upload path, so there is nothing to fetch from the
     // WordPress uploads directory. The Commons ones are rebuilt by
-    // scripts/fetch-commons-images.mjs instead; the Unsplash one is a
-    // single downloaded file with no script behind it.
-    if (image.legacy.startsWith("unsplash:") || image.legacy.startsWith("commons:")) {
+    // scripts/fetch-commons-images.mjs instead; the Unsplash one and the
+    // owner-supplied ones are single files with no script behind them, so
+    // the committed webp is the only copy and --force must not delete it.
+    if (
+      image.legacy.startsWith("unsplash:") ||
+      image.legacy.startsWith("commons:") ||
+      image.legacy.startsWith("owner:")
+    ) {
       skipped++;
       continue;
     }
