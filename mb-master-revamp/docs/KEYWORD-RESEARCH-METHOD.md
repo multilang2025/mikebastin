@@ -322,25 +322,56 @@ meant to.
 
 ---
 
-## 8. Open, for the owner
+## 8. Owner decisions
 
-Two questions, both unchanged by the work above, because neither can be
-settled by measurement.
+### Settled: `content marketing services` gets a page of its own
 
-1. **`content marketing services`, 26,000 at KD 0.** The largest easy term
-   found anywhere on the site, and accurate only for a page that claims
-   general content marketing. Taking it on
-   `/services/multilingual-content` means the page stops being about
-   multilingual content. Leaving it means the term goes unclaimed.
-   Currently left, which is the reversible choice.
-2. **`/results` as a keyword page.** Proof page as it stands, or a
+Measured 26,000 at KD 0 on 22 September, the second-largest winnable term
+on the site after `local seo services`. It was found while researching
+`/services/multilingual-content` and could not be taken there, because a
+page cannot be about multilingual content and about content marketing
+generally at the same time.
+
+The owner resolved it the same day by asking for a separate page, which
+is the answer neither option in the original framing offered: both terms
+are now held, and neither page cannibalises the other.
+`/services/content-marketing/` takes `content marketing services`, and
+the multilingual page keeps `multilingual content marketing` and the
+qualifier that makes it distinct. The new page says in its own words
+where it stops and the multilingual one starts, so a reader landing on
+either can tell which they wanted.
+
+Its cluster measured better than the term that prompted it:
+
+| Term | Volume | KD | CPC |
+|---|---|---|---|
+| `content marketing agency` | 30,000 | 28 | $0.50 |
+| `content marketing services` | 26,000 | 0 | $4.50 |
+| `content creation services` | 5,600 | 0 | $2.00 |
+| `b2b content marketing agency` | 4,300 | 3 | **$25.00** |
+| `content marketing company` | 3,400 | 5 | $4.50 |
+| `blog writing services` | 3,100 | 0 | $0.60 |
+| `seo content services` | 3,100 | 1 | $6.00 |
+| `content strategy services` | 2,500 | 0 | $2.50 |
+| `content marketing consultant` | 2,100 | 0 | $2.50 |
+
+`b2b content marketing agency` carries the highest CPC measured anywhere
+on this site, ahead of the homepage's `international seo consultant` at
+$19.00. `content marketing agency` is larger than the primary and sits at
+KD 28, so it is the term the page grows into rather than the one it opens
+with. `blog writing services` and `content marketing consultant` are
+recorded here and not assigned, because neither describes how this
+practice sells the work.
+
+### Still open
+
+1. **`/results` as a keyword page.** Proof page as it stands, or a
    landing page for `seo case studies` at 3,000 and KD 9. Taking it costs
    an h1 change and changes what the page is for.
-
-A third item, **one positioning claim per service page**, has been named
-repeatedly and still cannot be written here. It is a statement about what
-the business does better than the alternative, and inventing one would
-break the rule that matters most.
+2. **One positioning claim per service page.** Named repeatedly and still
+   not written, because it is a statement about what the business does
+   better than the alternative, and inventing one would break the rule
+   that matters most.
 
 ---
 

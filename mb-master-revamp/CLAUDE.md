@@ -415,8 +415,9 @@ three featured post URLs, Valencia STAY-list sign-off, credibility strip
 numbers, the twelve posts rendering "Uncategorised", and the GEO
 blog/service term overlap. Closed since that list was written: repo org
 (`multilang2025/mikebastin`), Tier C prune (below), the 43 to 19 service
-consolidation (built and live in `lib/services.ts`), the host and the
-database (§27).
+consolidation (built and live in `lib/services.ts`, now 20 after the
+owner asked on 22 Sep for a page owning `content marketing services`),
+the host and the database (§27).
 
 **Tier C prune is CLOSED** (owner, 20 Sep). `docs/BLOG-PRUNE-AUDIT.md` holds
 the record. REMOVE and MERGE shipped the same day, with all 42 legacy URLs
