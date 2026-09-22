@@ -252,7 +252,7 @@ export const SERVICES: Service[] = [
     angle: "The evidence layer, per locale",
     lede: "You can see which markets bring traffic. Whether the French visitors ever turn into customers is a different question, and one merged report will never answer it.",
     metaTitle: "Conversion tracking services per locale",
-    metaDescription: "Traffic per market is easy to see. Which language earns the enquiries is not, until conversion tracking is set up per locale rather than per domain.",
+    metaDescription: "Traffic per market is easy to see. Which language earns the enquiries is not, until conversion tracking is set up per locale, with consent mode and CRM data accounted for.",
     sections: ["Why a single blended number hides the problem", ...ENGAGEMENT],
     body: [
       {
@@ -265,7 +265,8 @@ export const SERVICES: Service[] = [
       {
         heading: "What actually gets set up, per locale",
         paragraphs: [
-          "GA4 and Google Tag Manager configured per locale, with key events (form submissions, downloads, calls, cart actions for stores) defined once and applied consistently across languages. Where sales pass through a CRM, conversion data is synced so a lead is measured through to a qualified outcome, not just counted at the click.",
+          "GA4 and Google Tag Manager configured per locale, with key events (form submissions, downloads, calls, cart actions for stores) defined once and applied consistently across languages. Google Ads conversion tracking is wired to the same event definitions, so the campaign report and the analytics report stop disagreeing about the same enquiry.",
+          "Where sales pass through a CRM, offline conversion tracking sends the closed outcome back to GA4 and Google Ads, so a lead is measured through to a qualified result rather than counted at the click. Bidding then runs on what a market is worth instead of on how many forms it filled in.",
           "Reporting is reviewed on a fixed cadence, typically monthly, with a clear owner for the numbers rather than a dashboard nobody opens. A market that stops converting shows up in the data before it shows up in the sales pipeline three months later.",
         ],
       },
@@ -275,7 +276,7 @@ export const SERVICES: Service[] = [
       "The four reasons a multilingual site reports conversions it did not get, or misses ones it did.",
     expandables: [
       {
-        q: "Consent changes what you can measure, and it changes per market",
+        q: "Consent mode changes what you can measure, and it changes per market",
         a: [
           "In the EU a visitor who declines cookies is still a visitor, and what reaches your analytics from them depends on how consent mode is configured rather than on whether they converted. Decline rates differ sharply by country, so two markets with identical real performance can report very differently.",
           "Which means a comparison between markets is only honest once you know each one's consent rate. Otherwise you are ranking your languages by how willing their visitors are to accept cookies.",

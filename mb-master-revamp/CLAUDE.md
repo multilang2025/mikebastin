@@ -198,6 +198,12 @@ when a page's h1 does not carry its primary term, so the map cannot rot
 into decoration. One page owns each primary term; two pages chasing one
 term is the cannibalisation the file exists to prevent.
 
+The method behind the map, written so the next page can be done without
+re-deriving it: [`docs/KEYWORD-RESEARCH-METHOD.md`](docs/KEYWORD-RESEARCH-METHOD.md).
+It carries the exact Ahrefs calls, the rule about putting controls in
+every batch, how to judge a term, unassigned research for four more
+pages, and the three keyword questions only the owner can answer.
+
 The starting position, worth remembering when reading any of it: Ahrefs
 Site Explorer showed mikebastin.com ranking for **exactly one keyword
 worldwide**, "michael bastin", position 11, volume 10. There is no
