@@ -176,9 +176,10 @@ export default function Home() {
               className="mb-7 max-w-[56ch] text-[clamp(1rem,1.4vw,1.14rem)] leading-[1.55]"
               style={{ color: "var(--dim)" }}
             >
-              Traffic arrives in French and German. The enquiries arrive in
-              English. We work out how much of that gap is search and how much
-              is the writing, then close it market by market.
+              The traffic in your other languages is already there. Turning it
+              into enquiries is usually a research and writing job rather than a
+              bigger budget, and it starts with the market where the evidence is
+              strongest.
             </p>
           </Reveal>
 
