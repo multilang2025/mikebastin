@@ -430,15 +430,11 @@ September). 38 days of runway rather than 8. `docs/LAUNCH-CHECKLIST.md`
 holds the steps, and `npm run check:launch --live` is what says whether
 the site can actually go.
 
-**English only is now a decision rather than a constraint.** It was
-settled on 20 Sep with the reasoning "neither FR nor ES is ready today",
-which was true with ten days left and is a different question with
-thirty-eight. Nothing has been built for those locales in the meantime and
-the standing rule still says not to, so EN remains the plan until the
-owner says otherwise. Worth asking rather than assuming: the FR and ES
-gaps are listed under "FR and ES are deferred" below, and the largest of
-them (no index pages, no topic pages, 21 service pages whose headings were
-never adapted) are now plausible inside the new runway.
+**English only, and FR and ES start when EN is approved and locked**
+(owner, 22 Sep 2026). The gate is the approval, not the calendar: the
+extra month does not release FR and ES, and a date arriving does not
+either. See "FR and ES are gated on EN" below for what locked means in
+practice.
 
 **What the site is selling** (owner, 20 Sep): **ongoing multilingual SEO,
 for companies already selling abroad whose non-English markets
@@ -466,9 +462,26 @@ exactly the wrong inference. Stating the boundary is also the stronger
 position: an agency vague about which costs are passed through and which
 are priced usually has a reason to be.
 
-**FR and ES are deferred** (owner, 20 Sep). Do not build new French or
-Spanish surfaces for now. Flagged rather than forgotten, so the gaps are
-known and deliberate:
+**FR and ES are gated on EN** (owner, 22 Sep 2026, superseding the open
+ended deferral of 20 Sep). French and Spanish work **starts when EN is
+approved and locked**, and not before. Two consequences worth being
+precise about, because they point in opposite directions.
+
+It is a gate, not a date. The launch moving to 30 October released no FR
+or ES work, and 30 October arriving will not either. Only the owner's
+approval of EN does. So the critical path runs through **getting EN
+approved**, and anything that delays that approval delays two more
+locales behind it.
+
+And **locked means locked**. EN copy has changed many times a day through
+this session, which was right while it was being shaped and becomes
+expensive the moment translation starts: every English edit after the lock
+is an edit owed in French and Spanish, or a drift left in place. Once the
+owner approves EN, treat a change to English copy as needing a reason, not
+as routine, and say plainly what it costs the other two locales.
+
+The gaps below are the FR and ES starting position whenever the gate
+opens. Flagged rather than forgotten, so they are known and deliberate:
 
 - **No FR or ES index pages.** `/fr/services/`, `/es/services/`, `/fr/blog/`
   and `/es/blog/` do not exist, only the individual `[slug]` routes under
@@ -480,6 +493,12 @@ known and deliberate:
   have no FR/ES equivalent, so `/blog/topics/` is English only.
 - **The FR and ES motto renderings are unreviewed.** They ship in
   `SiteFooter`'s string table and are a first pass, not signed off.
+- **21 FR and ES service pages have unadapted headings.** The heading rule
+  of 21 Sep applies to English commercial routes only, and
+  `scripts/heading-shape-lint.mjs` reports those 21 on every run without
+  failing. A word count does not survive translation, so they need a
+  native reader rather than a rule, which is exactly the work the gate is
+  holding back.
 - **valenciamove.com's services page launches EN only.** The plan first
   recommended EN plus ES; the owner's call on 20 Sep supersedes that.
 

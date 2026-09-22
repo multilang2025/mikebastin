@@ -1,10 +1,11 @@
 # Launch checklist
 
 **Due 30 October 2026** (owner, 22 Sep 2026, moved from 30 September).
-English only, which was decided on 20 Sep because neither French nor
-Spanish was ready with ten days left. Thirty-eight days is a different
-question, so treat EN as the plan rather than the ceiling and put FR and
-ES back to the owner before assuming they are out.
+English only. **French and Spanish start when EN is approved and locked**
+(owner, 22 Sep 2026), which is a gate rather than a date: the extra month
+released nothing, and 30 October arriving will not either. Getting EN
+approved is therefore the critical path, and after that approval an edit
+to English copy is an edit owed in two more locales.
 
 Everything here is reversible except the first item, which is the one that
 decides whether the site exists as far as search is concerned.
