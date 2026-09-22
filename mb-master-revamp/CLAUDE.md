@@ -425,11 +425,20 @@ reachable, but only once the AISA bridge is pointed at that site
 reports mikebastin.com as inaccessible, which reads like missing access
 rather than a wrong default.
 
-**Launch date: 30 September 2026, English only** (owner, 20 Sep). FR and ES
-ship with it only if they are ready by then, and neither is ready today, so
-plan for EN and treat the other two as upside rather than as scope. Ten
-days from the decision. `docs/LAUNCH-CHECKLIST.md` holds the steps, and
-`npm run check:launch --live` is what says whether the site can actually go.
+**Launch date: 30 October 2026** (owner, 22 Sep 2026, moved from 30
+September). 38 days of runway rather than 8. `docs/LAUNCH-CHECKLIST.md`
+holds the steps, and `npm run check:launch --live` is what says whether
+the site can actually go.
+
+**English only is now a decision rather than a constraint.** It was
+settled on 20 Sep with the reasoning "neither FR nor ES is ready today",
+which was true with ten days left and is a different question with
+thirty-eight. Nothing has been built for those locales in the meantime and
+the standing rule still says not to, so EN remains the plan until the
+owner says otherwise. Worth asking rather than assuming: the FR and ES
+gaps are listed under "FR and ES are deferred" below, and the largest of
+them (no index pages, no topic pages, 21 service pages whose headings were
+never adapted) are now plausible inside the new runway.
 
 **What the site is selling** (owner, 20 Sep): **ongoing multilingual SEO,
 for companies already selling abroad whose non-English markets
