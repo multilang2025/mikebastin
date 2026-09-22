@@ -123,11 +123,32 @@ export type Service = {
   needsRefresh?: string;
 };
 
+/**
+ * What every service page covers, after its own opening item.
+ *
+ * Five rather than four, which is the owner's ask on 22 Sep 2026 and also
+ * fixes a layout fault: the list renders as a two-column grid, so one
+ * service-specific item plus four shared ones came to five and left an
+ * empty cell showing the grid's own rule colour as a grey box. Six fills
+ * the rows.
+ *
+ * The old four asked the same question twice. "What we include in the
+ * engagement" and "What is included, what is not" are one item, and
+ * "Our process in five steps, named deliverables" counted its own steps
+ * in a heading, which tells a reader about our document rather than about
+ * the work. Each line now answers a question a buyer actually has before
+ * signing, in the order they ask them.
+ *
+ * Every line has to be true on all nineteen pages, which is why billing
+ * is not among them: the no-markup position is real but lives on three
+ * pages, not nineteen.
+ */
 const ENGAGEMENT = [
-  "What we include in the engagement",
-  "Our process in five steps, named deliverables",
-  "What is included, what is not",
-  "Frequently asked questions",
+  "What the engagement covers",
+  "How the work runs, month to month",
+  "What lands, and when",
+  "Where our work stops",
+  "Questions we get asked first",
 ];
 
 export const SERVICES: Service[] = [
@@ -1527,6 +1548,36 @@ export const SERVICES: Service[] = [
 ];
 
 export const CLUSTERS = ["Lead generation", "Search", "Localization", "AI", "Supporting"] as const;
+
+/**
+ * Heading form of each cluster, for the `h2` on /services/.
+ *
+ * The array above stays as it is because `Service.cluster` matches those
+ * strings, so it is a key rather than a label. Same split as
+ * `Service.name` and `Service.h1`: a key wants to be short and a heading
+ * wants to say something.
+ *
+ * Two faults in the bare keys, beyond their being one word each. "Search"
+ * headed eight pages covering six languages plus local and multilingual,
+ * which is the largest group on the page and was the least described. And
+ * "Supporting" is our own taxonomy, from `pillar` in the Service type,
+ * meaning a page that supports a query network rather than owning one.
+ * A reader does not have query networks. It is the fault the H1 audit
+ * called copy that comments on the website rather than the work.
+ *
+ * "Services" is worked in where the phrase is one people search and where
+ * it reads, not stamped on all five: `lead generation services` draws
+ * 11,000 a month and `localization services` 2,800. Nothing here repeats
+ * a service page's own primary keyword exactly, so the index frames the
+ * pages rather than competing with them.
+ */
+export const CLUSTER_HEADING: Record<string, string> = {
+  "Lead generation": "Lead generation services",
+  Search: "SEO services per language and market",
+  Localization: "Localization and translation services",
+  AI: "AI services for search and language",
+  Supporting: "Technical and content services",
+};
 
 /** Mid-sentence form of each cluster, for the same reason as Service.inline. */
 export const CLUSTER_INLINE: Record<string, string> = {

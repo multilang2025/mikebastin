@@ -249,7 +249,19 @@ export default async function ServicePage({
           <ol className="grid gap-px sm:grid-cols-2" style={{ background: "var(--rule)" }}>
             {service.sections.map((s, i) => (
               <Reveal key={s} i={i}>
-                <li className="band flex h-full items-baseline gap-4 px-7 py-7" style={{ background: "var(--bg)" }}>
+                {/* The grid paints its own rule colour through a 1px gap,
+                    so an odd count left the last cell empty and showing
+                    that colour as a grey box. The final item spans both
+                    columns when the count is odd, which fills the row
+                    rather than relying on every list staying even. */}
+                <li
+                  className={`band flex h-full items-baseline gap-4 px-7 py-7${
+                    i === service.sections.length - 1 && service.sections.length % 2 === 1
+                      ? " sm:col-span-2"
+                      : ""
+                  }`}
+                  style={{ background: "var(--bg)" }}
+                >
                   <span className="display shrink-0 text-[.9rem] font-semibold tabular-nums" style={{ color: "var(--berry)" }}>
                     {String(i + 1).padStart(2, "0")}
                   </span>
