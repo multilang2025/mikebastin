@@ -1,15 +1,20 @@
 # Launch checklist
 
-**Due 30 September 2026, English only** (owner, 20 Sep). French and Spanish
-ship with it only if they are ready by then; neither is today, so EN is the
-commitment and the other two are upside.
+**Due 30 October 2026** (owner, 22 Sep 2026, moved from 30 September).
+English only. **French and Spanish start when EN is approved and locked**
+(owner, 22 Sep 2026), which is a gate rather than a date: the extra month
+released nothing, and 30 October arriving will not either. Getting EN
+approved is therefore the critical path, and after that approval an edit
+to English copy is an edit owed in two more locales.
 
 Everything here is reversible except the first item, which is the one that
 decides whether the site exists as far as search is concerned.
 
-Run `npm run verify` in `site/` first. It typechecks, runs all three copy
-lints, builds, and reports the launch switches. CI runs the same chain on
-every pull request.
+Run `npm run verify` in `site/` first. It typechecks, lints the copy and
+the source strings, builds, then runs the three lints that read the built
+output (mechanism vocabulary above the fold, heading shape, keyword
+coverage), prints the sourcing advisory and reports the launch switches.
+CI runs the same chain on every pull request.
 
 ## 1. The two switches that make the site visible
 

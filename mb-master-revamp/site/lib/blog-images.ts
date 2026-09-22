@@ -41,7 +41,10 @@ export type BlogImage = {
    * refetches. A "commons:File:..." title for the public domain
    * photographs, which scripts/fetch-commons-images.mjs rebuilds. An
    * "unsplash:<id>" reference for the one photo from there, which has no
-   * script behind it and was downloaded once.
+   * script behind it and was downloaded once. An "owner:<file>" reference
+   * for a picture the owner supplied directly, which likewise has no
+   * script behind it: the committed webp is the only copy, so
+   * fetch-legacy-images.mjs skips these the way it skips the other two.
    */
   legacy: string;
   /**
@@ -78,7 +81,10 @@ export const BLOG_IMAGES: Record<string, BlogImage> = {
   "360-marketing-agency": { width: 1200, height: 529, alt: "A man facing a tunnel of screens showing many different images at once", legacy: "2024/12/360-Marketing-Agency.jpg" },
   "affiliate-marketing-programs": { width: 1200, height: 425, alt: "A laptop screen reading affiliate marketing, surrounded by icons for targets and reports", legacy: "2024/10/Affiliate-Marketing-Programs.jpg" },
   "ai-powered-marketing": { width: 1200, height: 503, alt: "A laptop on a desk showing the letters AI over a network of connected points", legacy: "2024/10/AI-Powered-Marketing.jpg" },
-  "alternatives-to-google-analytics": { cropFocus: "top", width: 1200, height: 630, alt: "A woman working at a punched card tabulating machine during the 1950 United States census", legacy: "commons:File:Keypunch operator 1950 census IBM 016.jpg", credit: { author: "U.S. Census Bureau employees", source: "Wikimedia Commons", sourceUrl: "https://commons.wikimedia.org/wiki/File:Keypunch_operator_1950_census_IBM_016.jpg", licence: "Public domain" } },
+  // Replaced the 1950 census tabulating-machine photograph on 22 Sep 2026,
+  // on an image supplied by the owner. Cropped bottom-anchored rather than
+  // by attention, which cut the compass and the shield in half.
+  "alternatives-to-google-analytics": { width: 1200, height: 630, alt: "A laptop on a wooden desk showing a dashboard of charts, beside a brass compass, a frosted glass shield and a cup of coffee", legacy: "owner:2026-09-22-analytics-desk.jpg", credit: { author: "Supplied by the owner", source: "Owner", sourceUrl: "", licence: "Owner-supplied, no attribution required" } },
   "best-practices-for-multilingual-seo": { width: 1200, height: 428, alt: "Two people seated with phones, with SEO and web icons drawn over the photograph", legacy: "2024/10/best-practices-for-multilingual-seo.jpg" },
   "best-vietnam-sourcing-agencies-for-eudr-supplier-scouting-and-audits": { width: 1200, height: 764, alt: "Weathered timber planks in several colours, laid side by side", legacy: "2025/12/vietnam-sourcing-agencies.jpg" },
   "building-a-global-brand": { width: 1200, height: 800, alt: "A globe resting on a dark surface lit by circuit lines", legacy: "2024/09/Building-a-Global-Brand-1.jpg" },

@@ -4,8 +4,9 @@
  * Owner instruction, 21 September 2026: define these from Ahrefs rather
  * than from instinct. Every figure below is `global_volume` and
  * `difficulty` from Ahrefs Keywords Explorer, country GB, pulled on that
- * date. Volumes move, so treat them as a snapshot with a date on it, not
- * a constant.
+ * date, except for the five pages researched on 22 September, whose
+ * notes say so. Volumes move, so treat them as a snapshot with a date on
+ * it, not a constant.
  *
  * The starting position matters for reading any of this. Ahrefs Site
  * Explorer on 21 Sep 2026 showed mikebastin.com ranking for exactly one
@@ -133,11 +134,11 @@ export const KEYWORDS: Record<string, PageKeywords> = {
       { term: "geo generative engine optimization", volume: 4300, kd: null },
     ],
     note:
-      "SPELLING CONFLICT, owner decision needed. Every one of these terms is " +
-      "the US spelling, and the site is UK English by non-negotiable rule, so " +
-      "the page says `optimization` while the searches say `optimization`. " +
-      "The route slug is already US-spelled. Not resolved here, because the " +
-      "spelling rule is the owner's and so is the trade.",
+      "Every one of these terms is the US spelling. The owner resolved the " +
+      "conflict on 21 Sep 2026 (\"it's international and volume based SEO\"), " +
+      "so the page copy now matches the searches and the route slug, which " +
+      "was US-spelled all along. 26,000 for the head term against 3,800 for " +
+      "the UK form is what settled it.",
   },
 
   "/services/translation-services": {
@@ -160,10 +161,11 @@ export const KEYWORDS: Record<string, PageKeywords> = {
     primary: { term: "website localization", volume: 2800, kd: 5 },
     secondary: [{ term: "website localization services", volume: 350, kd: null }],
     note:
-      "Same spelling conflict as the GEO page, and sharper: the US " +
-      "`localization` draws 2,800 against 350 for the UK `localization`. " +
-      "Eight times the demand sits on a spelling the house rules forbid. " +
-      "Owner's call, flagged rather than taken.",
+      "Same spelling question as the GEO page and sharper, 2,800 against " +
+      "350 for the UK form, resolved the same way on 21 Sep 2026. The page " +
+      "copy is US-spelled; the route slug stays UK because eighteen legacy " +
+      "URLs in docs/sitemap-MB-EN.txt depend on it, so this page is " +
+      "deliberately served at a UK-spelled URL under a US-spelled heading.",
   },
 
   "/services/ai-consulting": {
@@ -218,31 +220,105 @@ export const KEYWORDS: Record<string, PageKeywords> = {
     note: "The thinnest of the six language pages. Kept because the Dutch trade market is a real one for this practice, not because the volume argues for it.",
   },
 
+  "/services/multilingual-sem": {
+    primary: { term: "international ppc agency", volume: 1300, kd: 2 },
+    secondary: [
+      { term: "international ppc", volume: 1000, kd: 0 },
+      { term: "multilingual ppc", volume: 600, kd: 0 },
+      { term: "multilingual ppc agency", volume: 450, kd: null },
+    ],
+    note:
+      "Researched 22 Sep 2026. 'international' beats 'multilingual' again, " +
+      "1,300 against 450 for the same shape, which is the third page where " +
+      "the qualifier the brand prefers is not the one buyers type. The h1 " +
+      "now says PPC where the page said SEM, because SEM returns the " +
+      "vocabulary of the trade and PPC returns the vocabulary of the buyer. " +
+      "The route slug stays multilingual-sem. 'international ppc' carries a " +
+      "$7.00 CPC, second only to the homepage term.",
+  },
+
+  "/services/app-and-software-localisation": {
+    primary: { term: "software localization", volume: 1900, kd: 4 },
+    secondary: [
+      { term: "app localization services", volume: 1200, kd: null },
+      { term: "software localization services", volume: 900, kd: 0 },
+      { term: "app localization", volume: 1400, kd: 44 },
+    ],
+    note:
+      "Researched 22 Sep 2026, and the h1 needed no change: 'App and " +
+      "software localization services' already carried the term. " +
+      "'app localization' at KD 44 is the outlier on this list and stays " +
+      "secondary. $9.00 CPC on 'software localization services' is the " +
+      "highest measured on the site. US spelling per the 21 Sep decision; " +
+      "the route slug stays UK because legacy URLs depend on it.",
+  },
+
+  "/services/multilingual-content": {
+    primary: { term: "multilingual content marketing", volume: 900, kd: 2 },
+    secondary: [
+      { term: "international content marketing", volume: 200, kd: null },
+      { term: "multilingual content agency", volume: 40, kd: null },
+    ],
+    note:
+      "Researched 22 Sep 2026. 'content marketing services' measured 26,000 " +
+      "at KD 0 in the same batch, the second-largest winnable term found " +
+      "anywhere here, and it is not recorded as this page's primary because " +
+      "taking it would mean claiming general content marketing rather than " +
+      "multilingual content. An owner decision, open in " +
+      "docs/KEYWORD-RESEARCH-METHOD.md section 8, not a measurement.",
+  },
+
+  "/services/ai-translation-and-post-editing": {
+    primary: { term: "machine translation post editing", volume: 500, kd: null },
+    secondary: [
+      { term: "ai translation services", volume: 350, kd: null },
+      { term: "mtpe services", volume: 300, kd: null },
+      { term: "post editing services", volume: 70, kd: null },
+    ],
+    note:
+      "Researched 22 Sep 2026 and thin, in the way the Portuguese page is " +
+      "thin. The whole cluster is under 1,000 combined. Recorded anyway " +
+      "because 500 searches with no competition is still the page's best " +
+      "available term, and because naming it stops the next pass " +
+      "re-researching ground already covered.",
+  },
+
   "/services/conversion-tracking": {
     primary: { term: "conversion tracking", volume: 3300, kd: 13 },
     secondary: [
       { term: "google ads conversion tracking", volume: 2200, kd: 18 },
       { term: "offline conversion tracking", volume: 2000, kd: 6 },
+      { term: "consent mode", volume: 3100, kd: 0 },
     ],
+    note:
+      "`consent mode` at 3,100 and KD 0 is close to the primary in size and " +
+      "far easier, and the page already earns it: the body explains that a " +
+      "visitor who declines cookies is still a visitor, and that comparing " +
+      "markets is only honest once each one's consent rate is known. The " +
+      "term was surfaced by an external research document (22 Sep 2026) " +
+      "whose own twelve proposed keywords all returned zero volume; this " +
+      "was the one real find in it, and it was not on its list.",
   },
 };
 
 /**
  * Pages with no researched keyword yet.
  *
- * Named rather than quietly omitted. Each was searched on 21 Sep 2026 and
- * the seed terms returned nothing with meaningful volume, which is a
- * finding: `multilingual sem`, `multilingual content` and
- * `multilingual lead generation` are all close to zero, because buyers do
- * not put "multilingual" in front of a service name. That does not make
- * the pages worthless, it makes them pages that earn their traffic from
- * internal links and long-tail body copy rather than a head term.
+ * Named rather than quietly omitted.
+ *
+ * Four pages left this list on 22 Sep 2026. The 21 Sep pass had searched
+ * them on seeds carrying "multilingual", which returns close to zero
+ * because buyers do not put the word in front of a service name. Dropping
+ * the qualifier found a usable term for every one of them, which says the
+ * earlier finding was about the seed rather than about the page.
+ *
+ * `/contact` and `/how-i-work` have no commercial head term and are not
+ * meant to. `/results` does: `seo case studies`, 3,000 at KD 9, measured
+ * 22 Sep. It stays here because whether a proof page should be optimized
+ * as a landing page is an owner decision, open in
+ * docs/KEYWORD-RESEARCH-METHOD.md section 8.
  */
 export const UNRESEARCHED = [
-  "/services/multilingual-sem",
-  "/services/multilingual-content",
-  "/services/app-and-software-localisation",
-  "/services/ai-translation-and-post-editing",
   "/contact",
   "/how-i-work",
   "/results",

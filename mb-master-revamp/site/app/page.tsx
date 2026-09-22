@@ -215,9 +215,11 @@ export default function Home() {
             <p className="mb-12 max-w-[56ch] text-[1.05rem]" style={{ color: "var(--dim)" }}>
               You already sell abroad, so the product is proven. Ongoing
               multilingual SEO is the main engagement, with localization,
-              paid search and AI consulting around it, and enquiries are the
-              product either way, counted market by market so you can see
-              which language earns them.
+              paid search and AI consulting around it. A global SEO
+              programme is those pieces running together rather than any one
+              of them alone, and enquiries are the product either way,
+              counted market by market so you can see which language earns
+              them.
             </p>
           </Reveal>
 

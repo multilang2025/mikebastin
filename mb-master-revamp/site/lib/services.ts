@@ -50,6 +50,23 @@ export type Service = {
    */
   inline: string;
   /**
+   * What the three templated section headings say, when `inline` would
+   * say something the keyword map does not back.
+   *
+   * `inline` is the label's mid-sentence form, and on most pages that is
+   * also the term the page is trying to win. On four it is not, because
+   * the label and the demand diverged: the SEM page targets PPC, the
+   * AI translation page targets machine translation post-editing. Leaving
+   * `inline` in those headings meant three h2s per page quietly arguing
+   * with the h1 above them.
+   *
+   * Defaults to `inline`, and is deliberately not set on the pages whose
+   * primary differs only by a trailing "services" or "agency". "How the
+   * local SEO services engagement runs" is worse English than the
+   * sentence it replaces, and the h1 already carries the word.
+   */
+  headingTerm?: string;
+  /**
    * The page's `h1`: three to five words, carrying the term the page is
    * trying to win (owner rule, 21 Sep 2026, stated as a hard rule).
    * Separate from `name`, which stays the label the nav, footer and cards
@@ -123,11 +140,32 @@ export type Service = {
   needsRefresh?: string;
 };
 
+/**
+ * What every service page covers, after its own opening item.
+ *
+ * Five rather than four, which is the owner's ask on 22 Sep 2026 and also
+ * fixes a layout fault: the list renders as a two-column grid, so one
+ * service-specific item plus four shared ones came to five and left an
+ * empty cell showing the grid's own rule colour as a grey box. Six fills
+ * the rows.
+ *
+ * The old four asked the same question twice. "What we include in the
+ * engagement" and "What is included, what is not" are one item, and
+ * "Our process in five steps, named deliverables" counted its own steps
+ * in a heading, which tells a reader about our document rather than about
+ * the work. Each line now answers a question a buyer actually has before
+ * signing, in the order they ask them.
+ *
+ * Every line has to be true on all nineteen pages, which is why billing
+ * is not among them: the no-markup position is real but lives on three
+ * pages, not nineteen.
+ */
 const ENGAGEMENT = [
-  "What we include in the engagement",
-  "Our process in five steps, named deliverables",
-  "What is included, what is not",
-  "Frequently asked questions",
+  "What the engagement covers",
+  "How the work runs, month to month",
+  "What lands, and when",
+  "Where our work stops",
+  "Questions we get asked first",
 ];
 
 export const SERVICES: Service[] = [
@@ -155,12 +193,13 @@ export const SERVICES: Service[] = [
     slug: "multilingual-sem",
     name: "Multilingual SEM",
     inline: "multilingual SEM",
-    h1: "Multilingual SEM services per market",
+    headingTerm: "international PPC",
+    h1: "International PPC agency running paid search per market",
     subhead: "Media budget goes straight to Google, Microsoft or Meta, so there is no markup on spend and no reason to recommend a bigger one.",
     cluster: "Lead generation",
     angle: "International PPC, buying what search has not earned",
     lede: "Reaching the buyer who has not found you organically yet, in the language they searched in, without letting a single blended campaign quietly subsidise one market from another.",
-    metaTitle: "Multilingual SEM services, Mike Bastin",
+    metaTitle: "International PPC agency, paid search per market",
     metaDescription: "Paid search that reaches buyers in the language they searched in, market by market, so one blended campaign never quietly subsidises another.",
     sections: ["Three patterns that drain ad budgets", ...ENGAGEMENT],
     body: [
@@ -231,7 +270,7 @@ export const SERVICES: Service[] = [
     angle: "The evidence layer, per locale",
     lede: "You can see which markets bring traffic. Whether the French visitors ever turn into customers is a different question, and one merged report will never answer it.",
     metaTitle: "Conversion tracking services per locale",
-    metaDescription: "Traffic per market is easy to see. Which language earns the enquiries is not, until conversion tracking is set up per locale rather than per domain.",
+    metaDescription: "Traffic per market is easy to see. Which language earns the enquiries is not, until conversion tracking is set up per locale, with consent mode and CRM data accounted for.",
     sections: ["Why a single blended number hides the problem", ...ENGAGEMENT],
     body: [
       {
@@ -244,7 +283,8 @@ export const SERVICES: Service[] = [
       {
         heading: "What actually gets set up, per locale",
         paragraphs: [
-          "GA4 and Google Tag Manager configured per locale, with key events (form submissions, downloads, calls, cart actions for stores) defined once and applied consistently across languages. Where sales pass through a CRM, conversion data is synced so a lead is measured through to a qualified outcome, not just counted at the click.",
+          "GA4 and Google Tag Manager configured per locale, with key events (form submissions, downloads, calls, cart actions for stores) defined once and applied consistently across languages. Google Ads conversion tracking is wired to the same event definitions, so the campaign report and the analytics report stop disagreeing about the same enquiry.",
+          "Where sales pass through a CRM, offline conversion tracking sends the closed outcome back to GA4 and Google Ads, so a lead is measured through to a qualified result rather than counted at the click. Bidding then runs on what a market is worth instead of on how many forms it filled in.",
           "Reporting is reviewed on a fixed cadence, typically monthly, with a clear owner for the numbers rather than a dashboard nobody opens. A market that stops converting shows up in the data before it shows up in the sales pipeline three months later.",
         ],
       },
@@ -254,7 +294,7 @@ export const SERVICES: Service[] = [
       "The four reasons a multilingual site reports conversions it did not get, or misses ones it did.",
     expandables: [
       {
-        q: "Consent changes what you can measure, and it changes per market",
+        q: "Consent mode changes what you can measure, and it changes per market",
         a: [
           "In the EU a visitor who declines cookies is still a visitor, and what reaches your analytics from them depends on how consent mode is configured rather than on whether they converted. Decline rates differ sharply by country, so two markets with identical real performance can report very differently.",
           "Which means a comparison between markets is only honest once you know each one's consent rate. Otherwise you are ranking your languages by how willing their visitors are to accept cookies.",
@@ -289,6 +329,7 @@ export const SERVICES: Service[] = [
     slug: "multilingual-seo",
     name: "International SEO",
     inline: "international SEO",
+    headingTerm: "multilingual SEO",
     h1: "Multilingual SEO agency for companies already selling abroad",
     subhead: "Search run across several markets at once, so the languages you already publish in start producing enquiries too.",
     cluster: "Search",
@@ -318,7 +359,7 @@ export const SERVICES: Service[] = [
         heading: "What actually goes into the engagement",
         paragraphs: [
           "A global SEO programme starts with native research in each target language, covering real commercial intent and long-tail phrasing per market, never a set translated from English. Subdirectory, subdomain or ccTLD gets a reasoned recommendation rather than a default, with hreflang, sitemaps and Search Console geo-targeting configured per language from the start.",
-          "Writing runs fluent and direct for French, English, Spanish and Dutch, and through native copywriters from the BeTranslated network for German, Italian, Portuguese and other languages. LocalBusiness, Service, Article and FAQ schema is built per language and validated on Google's Rich Results tool, and the same work extends to how ChatGPT, Claude, Perplexity and AI Overviews answer in each language.",
+          "An international SEO specialist earns the fee on the decisions that are expensive to undo later: the domain structure, the hreflang map and the order the markets go in. Writing runs fluent and direct for French, English, Spanish and Dutch, and through native copywriters from the BeTranslated network for German, Italian, Portuguese and other languages. LocalBusiness, Service, Article and FAQ schema is built per language and validated on Google's Rich Results tool, and the same work extends to how ChatGPT, Claude, Perplexity and AI Overviews answer in each language.",
         ],
       },
       {
@@ -484,7 +525,7 @@ export const SERVICES: Service[] = [
       {
         heading: "Piloted here, written natively",
         paragraphs: [
-          "German SEO needs two distinct skills at once: strategic piloting (architecture, keyword targets, technical setup, editorial calendar) and native execution (writing, tone, regulatory compliance). We handle the first directly and hand the second to native German copywriters from the BeTranslated network, briefed and reviewed in English or French.",
+          "German SEO needs two distinct skills at once: strategic piloting (architecture, keyword targets, technical setup, editorial calendar) and native execution (writing, tone, regulatory compliance). We handle the first directly and hand the second to native German copywriters from the BeTranslated network, briefed and reviewed in English or French. One German SEO expert rarely covers both halves, which is why the work is split rather than handed to a single pair of hands.",
           "Impressum compliant with the Telemediengesetz, a strict GDPR-aligned privacy policy, an opt-in cookie banner and, for stores, Trusted Shops integration where it fits. Outreach targets German regional press and trade directories such as IHK listings rather than links bought from an unrelated market.",
         ],
       },
@@ -715,7 +756,7 @@ export const SERVICES: Service[] = [
       {
         heading: "Read fluently here, written natively by the network",
         paragraphs: [
-          "We read Italian fluently, built on French, Spanish and a Latin background, and use that to handle strategy and competitor reading directly. Native Italian copywriters from the BeTranslated network handle the writing itself, briefed in English or French and checked by a second native reader before anything ships. No pretence about who writes the commercial copy.",
+          "We read Italian fluently, built on French, Spanish and a Latin background, and use that to handle strategy and competitor reading directly. Native Italian copywriters from the BeTranslated network handle the writing itself, briefed in English or French and checked by a second native reader before anything ships. No pretence about who writes the commercial copy. An Italian SEO company writing from inside the market and a foreign agency translating into Italian are not the same purchase, and the page shows which one produced it.",
           "Targeting runs per macro-region (Nord, Centro, Sud) when the offer justifies it, with local landing pages for Milan, Rome, Turin and other metropolitan areas where relevant. Outreach targets Corriere della Sera, La Repubblica and Sole 24 Ore for B2B, plus sector associations such as Confindustria and Confartigianato.",
         ],
       },
@@ -858,7 +899,7 @@ export const SERVICES: Service[] = [
       {
         heading: "Where local visibility actually gets lost",
         paragraphs: [
-          "A Google Business Profile with the wrong categories, an incomplete service list, outdated hours, few photos and no recent posts gets buried below competitors with no better product, just better profile hygiene. Google's own algorithm rewards a profile that is complete and kept active.",
+          "A Google Business Profile with the wrong categories, an incomplete service list, outdated hours, few photos and no recent posts gets buried below competitors with no better product, just better profile hygiene. Google's own algorithm rewards a profile that is complete and kept active. For a small business working from one address, the profile often carries more of the enquiries than the website does.",
           "A business name that reads slightly differently across a directory listing, a review site and a Chamber of Commerce entry, an address abbreviated one way in one place and spelled out in another, erodes the confidence signal Google reads from name, address and phone consistency. Cleaning it up everywhere is unglamorous work with a direct effect on ranking.",
           "A homepage that says it serves the whole city is a start. A dedicated page per neighbourhood actually served captures the long tail a city-level page misses entirely, because people search for a service plus a neighbourhood, not a service plus a city.",
         ],
@@ -1096,7 +1137,7 @@ export const SERVICES: Service[] = [
         ],
       },
       {
-        heading: "What the localization pass actually covers",
+        heading: "What app and software localization services cover",
         paragraphs: [
           "Interface text, notifications and app store descriptions translated and adapted for clarity and cultural relevance, dates, currency and units of measurement adjusted per locale, and app store keywords optimized per target market to support discoverability. Testing runs across the operating systems and devices actually used in each market, not just the primary one.",
           "For video and audio content, subtitling and voice-over work across standard formats, with accurate transcription supporting both localization and accessibility compliance. Software internationalization work prepares the underlying architecture, so adding a new language later is a translation task rather than a rebuild.",
@@ -1170,7 +1211,7 @@ export const SERVICES: Service[] = [
       {
         heading: "Deciding what to trust before anything gets built",
         paragraphs: [
-          "Whether a chatbot handling multilingual customer support is safe to deploy on its own, or needs a human fallback for anything past the routine questions, gets assessed against the actual cost of a wrong answer, not against how impressive the demo looked.",
+          "An AI strategy worth the name says where the tool is not used, which is the half of the answer a vendor demo leaves out. Whether a chatbot handling multilingual customer support is safe to deploy on its own, or needs a human fallback for anything past the routine questions, gets assessed against the actual cost of a wrong answer, not against how impressive the demo looked.",
           "The output of any AI system in this stack gets reviewed by someone who reads the target language, because the real risk in AI-assisted multilingual work is never an obviously broken sentence. It is a fluent, professional-looking sentence that is quietly wrong.",
         ],
       },
@@ -1214,12 +1255,13 @@ export const SERVICES: Service[] = [
     slug: "ai-translation-and-post-editing",
     name: "AI translation and post-editing",
     inline: "AI translation and post-editing",
-    h1: "AI translation services and post-editing",
+    headingTerm: "machine translation post-editing",
+    h1: "Machine translation post-editing after the AI first pass",
     subhead: "Machine output worked over by a native speaker, because text that reads fluently and is wrong is worse than text that warns you.",
     cluster: "AI",
     angle: "Machine first, human decisive",
     lede: "Your pages came back from the machine reading fluently, which is the problem. A sentence that is confidently wrong is far harder to catch than one that is obviously broken.",
-    metaTitle: "AI translation services and post-editing",
+    metaTitle: "Machine translation post-editing and AI translation",
     metaDescription: "Machine-translated pages that read fluently are the hard case, not the broken ones. AI translation and post-editing catches what reads right and is wrong.",
     sections: ["Why fluent output is the harder problem", ...ENGAGEMENT],
     body: [
@@ -1231,10 +1273,10 @@ export const SERVICES: Service[] = [
         ],
       },
       {
-        heading: "What actually gets corrected",
+        heading: "What machine translation post-editing actually corrects",
         paragraphs: [
           "Terminology errors and unnatural phrasing corrected against a defined glossary per sector, formatting and tone standardised across languages so the brand voice holds, and consistency checked against the SEO targets the content was meant to hit in the first place, since a post-edit that fixes the grammar but drifts off the target keyword defeats its own purpose.",
-          "Work runs across sectors that lean on AI output to scale quickly, particularly SaaS, ecommerce and travel, where the volume of content makes full native writing impractical but the accuracy bar is still commercial, not casual.",
+          "The trade calls it MTPE, and buying MTPE services by the word misses what the work is: the effort belongs where the risk is, not spread evenly across a file. Work runs across sectors that lean on AI output to scale quickly, particularly SaaS, ecommerce and travel, where the volume of content makes full native writing impractical but the accuracy bar is still commercial, not casual.",
         ],
       },
     ],
@@ -1458,12 +1500,13 @@ export const SERVICES: Service[] = [
     slug: "multilingual-content",
     name: "Multilingual content",
     inline: "multilingual content",
-    h1: "Multilingual content services written per market",
+    headingTerm: "multilingual content marketing",
+    h1: "Multilingual content marketing written per market",
     subhead: "Written in the target language against that market's own research, rather than translated from a page optimized for a different one.",
     cluster: "Supporting",
     angle: "Written per market, not translated",
     lede: "Your Spanish page is a translation of your English one, so it answers the question an English buyer asks. Spanish buyers phrase the problem differently, and they are out looking for the other version.",
-    metaTitle: "Multilingual content, written per market",
+    metaTitle: "Multilingual content marketing, written per market",
     metaDescription: "A Spanish page translated from English answers the question an English buyer asks. Multilingual content is researched and written for the market reading it.",
     sections: ["Why translated copy underperforms written copy", ...ENGAGEMENT],
     body: [
@@ -1475,7 +1518,7 @@ export const SERVICES: Service[] = [
         ],
       },
       {
-        heading: "What the engagement covers, cluster by cluster",
+        heading: "What international content marketing covers, cluster by cluster",
         paragraphs: [
           "Content researched and written per market with native keyword localization, hreflang and canonical setup handled at the structural level, and schema (Article, FAQPage, LocalBusiness as relevant) implemented per language to support rich results. Cultural consulting sits underneath the copy itself, checking messaging and tone against local values before publication rather than after a complaint.",
           "Social platform choice follows the audience rather than habit: Facebook and Instagram cover many markets, but WeChat matters more in China and VK more in Russia, and a content plan that assumes one platform set fits every market misses the audience it was meant to reach.",
@@ -1527,6 +1570,36 @@ export const SERVICES: Service[] = [
 ];
 
 export const CLUSTERS = ["Lead generation", "Search", "Localization", "AI", "Supporting"] as const;
+
+/**
+ * Heading form of each cluster, for the `h2` on /services/.
+ *
+ * The array above stays as it is because `Service.cluster` matches those
+ * strings, so it is a key rather than a label. Same split as
+ * `Service.name` and `Service.h1`: a key wants to be short and a heading
+ * wants to say something.
+ *
+ * Two faults in the bare keys, beyond their being one word each. "Search"
+ * headed eight pages covering six languages plus local and multilingual,
+ * which is the largest group on the page and was the least described. And
+ * "Supporting" is our own taxonomy, from `pillar` in the Service type,
+ * meaning a page that supports a query network rather than owning one.
+ * A reader does not have query networks. It is the fault the H1 audit
+ * called copy that comments on the website rather than the work.
+ *
+ * "Services" is worked in where the phrase is one people search and where
+ * it reads, not stamped on all five: `lead generation services` draws
+ * 11,000 a month and `localization services` 2,800. Nothing here repeats
+ * a service page's own primary keyword exactly, so the index frames the
+ * pages rather than competing with them.
+ */
+export const CLUSTER_HEADING: Record<string, string> = {
+  "Lead generation": "Lead generation services",
+  Search: "SEO services per language and market",
+  Localization: "Localization and translation services",
+  AI: "AI services for search and language",
+  Supporting: "Technical and content services",
+};
 
 /** Mid-sentence form of each cluster, for the same reason as Service.inline. */
 export const CLUSTER_INLINE: Record<string, string> = {

@@ -75,6 +75,9 @@ export default async function ServicePage({
   );
   const url = `${SITE_URL}/services/${service.slug}/`;
 
+  // The term the section headings use. See `headingTerm` in lib/services.ts.
+  const headingTerm = service.headingTerm ?? service.inline;
+
   // Bands alternate strictly A/B/A/B (HANDOFF.md §23): the hero is always
   // band-a, and every section after it flips regardless of which optional
   // sections (demand, body, absorbs, siblings) are actually present, so two
@@ -222,7 +225,7 @@ export default async function ServicePage({
             <Reveal>
               <p className="eyebrow mb-3">Open what you need</p>
               <h2 className="mb-4 max-w-[24ch] text-[clamp(1.7rem,3.2vw,2.5rem)] font-semibold leading-[1.12]">
-                {service.expandablesHeading ?? `What ${service.inline} involves in practice`}
+                {service.expandablesHeading ?? `What ${headingTerm} involves in practice`}
               </h2>
               <p className="mb-8 max-w-[60ch] text-[1.02rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
                 {service.expandablesLede ??
@@ -243,13 +246,25 @@ export default async function ServicePage({
           <Reveal>
             <p className="eyebrow mb-3">From the brief to the reporting</p>
             <h2 className="mb-10 max-w-[22ch] text-[clamp(1.7rem,3.2vw,2.5rem)] font-semibold leading-[1.12]">
-              How the {service.inline} engagement runs
+              How the {headingTerm} engagement runs
             </h2>
           </Reveal>
           <ol className="grid gap-px sm:grid-cols-2" style={{ background: "var(--rule)" }}>
             {service.sections.map((s, i) => (
               <Reveal key={s} i={i}>
-                <li className="band flex h-full items-baseline gap-4 px-7 py-7" style={{ background: "var(--bg)" }}>
+                {/* The grid paints its own rule colour through a 1px gap,
+                    so an odd count left the last cell empty and showing
+                    that colour as a grey box. The final item spans both
+                    columns when the count is odd, which fills the row
+                    rather than relying on every list staying even. */}
+                <li
+                  className={`band flex h-full items-baseline gap-4 px-7 py-7${
+                    i === service.sections.length - 1 && service.sections.length % 2 === 1
+                      ? " sm:col-span-2"
+                      : ""
+                  }`}
+                  style={{ background: "var(--bg)" }}
+                >
                   <span className="display shrink-0 text-[.9rem] font-semibold tabular-nums" style={{ color: "var(--berry)" }}>
                     {String(i + 1).padStart(2, "0")}
                   </span>
@@ -267,7 +282,7 @@ export default async function ServicePage({
           <Reveal>
             <p className="eyebrow mb-3">The next step</p>
             <h2 className="mb-5 max-w-[24ch] text-[clamp(1.7rem,3.2vw,2.5rem)] font-semibold leading-[1.12]">
-              Find out what {service.inline} could be worth in your markets
+              Find out what {headingTerm} could be worth in your markets
             </h2>
           </Reveal>
           <Reveal i={1}>
@@ -299,7 +314,7 @@ export default async function ServicePage({
             <Reveal>
               <p className="eyebrow mb-3">The whole scope</p>
               <h2 className="mb-5 max-w-[24ch] text-[clamp(1.5rem,2.8vw,2.1rem)] font-semibold leading-[1.15]">
-                What we take on under {service.inline}
+                What we take on under {headingTerm}
               </h2>
               <p className="mb-10 max-w-[60ch] text-[1.02rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
                 Most briefs ask for one part of the work and turn out to

@@ -3,7 +3,7 @@ import Link from "next/link";
 import Reveal from "@/components/Reveal";
 import ServiceIcon from "@/components/ServiceIcon";
 import SiteFooter from "@/components/SiteFooter";
-import { SERVICES, CLUSTERS } from "@/lib/services";
+import { SERVICES, CLUSTERS, CLUSTER_HEADING } from "@/lib/services";
 import { SITE_URL } from "@/lib/schema";
 
 const DESCRIPTION =
@@ -40,7 +40,7 @@ export default function ServicesIndex() {
       <section className="band band-a grain relative overflow-hidden pb-[clamp(56px,8vw,100px)] pt-[clamp(96px,14vw,160px)]">
         <div className="shell relative">
           <Reveal>
-            <p className="eyebrow mb-8">{SERVICES.length} services, {CLUSTERS.length} groups</p>
+            <p className="eyebrow mb-8">Multilingual SEO, localization, paid search and AI</p>
           </Reveal>
           <Reveal i={1}>
             <h1 className="mb-6 max-w-[19ch] text-[clamp(2.3rem,5.6vw,4rem)] font-semibold leading-[1.08]">
@@ -55,8 +55,9 @@ export default function ServicesIndex() {
           <Reveal i={3}>
             <p className="max-w-[58ch] text-[clamp(1.05rem,1.5vw,1.2rem)] leading-[1.58]" style={{ color: "var(--dim)" }}>
               Lead generation, search, localization, AI and the technical
-              work underneath all of it. Start with the job in front of
-              you, and we will tell you what it really needs.
+              work underneath all of it. Hiring a global SEO company should
+              start with the job in front of you rather than with a package,
+              so name that job and we will tell you what it really needs.
             </p>
           </Reveal>
         </div>
@@ -72,13 +73,16 @@ export default function ServicesIndex() {
           >
             <div className="shell">
               <Reveal>
-                <div className="mb-8 flex items-baseline justify-between gap-6 border-b pb-4" style={{ borderColor: "var(--rule)" }}>
+                {/* The per-cluster count that sat here ("3 services") was
+                    telling a reader how our own list is arranged, which is
+                    the same fault the eyebrows had: information about the
+                    site rather than about the work. The services are listed
+                    directly underneath and can be counted by anyone who
+                    cares. Owner, 22 Sep 2026. */}
+                <div className="mb-8 border-b pb-4" style={{ borderColor: "var(--rule)" }}>
                   <h2 className="text-[clamp(1.4rem,2.6vw,2rem)] font-semibold leading-[1.15]">
-                    {cluster}
+                    {CLUSTER_HEADING[cluster] ?? cluster}
                   </h2>
-                  <span className="shrink-0 text-[.78rem] uppercase tracking-[.11em]" style={{ color: "var(--dim)" }}>
-                    {inCluster.length} {inCluster.length === 1 ? "service" : "services"}
-                  </span>
                 </div>
               </Reveal>
 
