@@ -50,7 +50,7 @@ export const ABSORBED_PROSE: Record<string, string[]> = {
   ],
 
   "app-and-software-localisation": [
-    "Order decides the cost here: internationalisation is what you do before launch, localization is what you do after.",
+    "Order decides the cost here: internationalization is what you do before launch, localization is what you do after.",
     "Software built to take another language costs far less than software retrofitted to it, which is the whole argument for doing the dull part early. Apps then go to market with their store listings translated too, since the listing is what gets found before the app does.",
     "Video, audio and podcasts come with the same expectation. An audience that finds you in its own language expects the media in it as well, with subtitling or voice work depending on what the format can carry.",
   ],

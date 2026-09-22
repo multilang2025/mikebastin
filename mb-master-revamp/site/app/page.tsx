@@ -76,9 +76,9 @@ const BASTIN = [
   },
   {
     letter: "I",
-    word: "Interpretation",
-    desc: "The discipline behind BeTranslated, the agency this site's own projects keep pointing back to.",
-    href: "/projects/betranslated/",
+    word: "Internationalization",
+    desc: "The dull work done before launch, so a product can take a second language without a rebuild.",
+    href: "/services/app-and-software-localisation/",
   },
   {
     letter: "N",

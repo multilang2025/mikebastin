@@ -1080,7 +1080,7 @@ export const SERVICES: Service[] = [
     name: "App and software localization",
     inline: "app and software localization",
     h1: "App and software localization services",
-    subhead: "Internationalised before launch rather than retrofitted after it, which is where the cost of this work is decided.",
+    subhead: "Internationalized before launch rather than retrofitted after it, which is where the cost of this work is decided.",
     cluster: "Localization",
     angle: "Strings, and everything around them",
     lede: "You are shipping the product into a market that writes longer sentences than English, sometimes reads right to left, and reviews you in a store nobody on the team can read. What breaks first is rarely the translation.",
@@ -1099,7 +1099,7 @@ export const SERVICES: Service[] = [
         heading: "What the localization pass actually covers",
         paragraphs: [
           "Interface text, notifications and app store descriptions translated and adapted for clarity and cultural relevance, dates, currency and units of measurement adjusted per locale, and app store keywords optimized per target market to support discoverability. Testing runs across the operating systems and devices actually used in each market, not just the primary one.",
-          "For video and audio content, subtitling and voice-over work across standard formats, with accurate transcription supporting both localization and accessibility compliance. Software internationalisation work prepares the underlying architecture, so adding a new language later is a translation task rather than a rebuild.",
+          "For video and audio content, subtitling and voice-over work across standard formats, with accurate transcription supporting both localization and accessibility compliance. Software internationalization work prepares the underlying architecture, so adding a new language later is a translation task rather than a rebuild.",
         ],
       },
     ],
@@ -1108,7 +1108,7 @@ export const SERVICES: Service[] = [
       "The sequence that decides how expensive the rest of the work becomes.",
     expandables: [
       {
-        q: "Internationalisation comes first, or localization costs several times more",
+        q: "Internationalization comes first, or localization costs several times more",
         a: [
           "Preparing the software is the part nobody demos: strings pulled out of the code, no sentences assembled from fragments, dates and numbers and currency formatted by locale rather than hardcoded, sorting that follows the target language's rules, and layouts that survive text arriving longer than the English.",
           "Done first, adding a language is a content job. Skipped, every new market reopens the codebase, and the second language costs more than the first did.",
