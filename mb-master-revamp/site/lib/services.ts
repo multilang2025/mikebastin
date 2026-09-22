@@ -50,6 +50,23 @@ export type Service = {
    */
   inline: string;
   /**
+   * What the three templated section headings say, when `inline` would
+   * say something the keyword map does not back.
+   *
+   * `inline` is the label's mid-sentence form, and on most pages that is
+   * also the term the page is trying to win. On four it is not, because
+   * the label and the demand diverged: the SEM page targets PPC, the
+   * AI translation page targets machine translation post-editing. Leaving
+   * `inline` in those headings meant three h2s per page quietly arguing
+   * with the h1 above them.
+   *
+   * Defaults to `inline`, and is deliberately not set on the pages whose
+   * primary differs only by a trailing "services" or "agency". "How the
+   * local SEO services engagement runs" is worse English than the
+   * sentence it replaces, and the h1 already carries the word.
+   */
+  headingTerm?: string;
+  /**
    * The page's `h1`: three to five words, carrying the term the page is
    * trying to win (owner rule, 21 Sep 2026, stated as a hard rule).
    * Separate from `name`, which stays the label the nav, footer and cards
@@ -176,6 +193,7 @@ export const SERVICES: Service[] = [
     slug: "multilingual-sem",
     name: "Multilingual SEM",
     inline: "multilingual SEM",
+    headingTerm: "international PPC",
     h1: "International PPC agency running paid search per market",
     subhead: "Media budget goes straight to Google, Microsoft or Meta, so there is no markup on spend and no reason to recommend a bigger one.",
     cluster: "Lead generation",
@@ -311,6 +329,7 @@ export const SERVICES: Service[] = [
     slug: "multilingual-seo",
     name: "International SEO",
     inline: "international SEO",
+    headingTerm: "multilingual SEO",
     h1: "Multilingual SEO agency for companies already selling abroad",
     subhead: "Search run across several markets at once, so the languages you already publish in start producing enquiries too.",
     cluster: "Search",
@@ -1118,7 +1137,7 @@ export const SERVICES: Service[] = [
         ],
       },
       {
-        heading: "What the localization pass actually covers",
+        heading: "What app and software localization services cover",
         paragraphs: [
           "Interface text, notifications and app store descriptions translated and adapted for clarity and cultural relevance, dates, currency and units of measurement adjusted per locale, and app store keywords optimized per target market to support discoverability. Testing runs across the operating systems and devices actually used in each market, not just the primary one.",
           "For video and audio content, subtitling and voice-over work across standard formats, with accurate transcription supporting both localization and accessibility compliance. Software internationalization work prepares the underlying architecture, so adding a new language later is a translation task rather than a rebuild.",
@@ -1236,6 +1255,7 @@ export const SERVICES: Service[] = [
     slug: "ai-translation-and-post-editing",
     name: "AI translation and post-editing",
     inline: "AI translation and post-editing",
+    headingTerm: "machine translation post-editing",
     h1: "Machine translation post-editing after the AI first pass",
     subhead: "Machine output worked over by a native speaker, because text that reads fluently and is wrong is worse than text that warns you.",
     cluster: "AI",
@@ -1253,7 +1273,7 @@ export const SERVICES: Service[] = [
         ],
       },
       {
-        heading: "What actually gets corrected",
+        heading: "What machine translation post-editing actually corrects",
         paragraphs: [
           "Terminology errors and unnatural phrasing corrected against a defined glossary per sector, formatting and tone standardised across languages so the brand voice holds, and consistency checked against the SEO targets the content was meant to hit in the first place, since a post-edit that fixes the grammar but drifts off the target keyword defeats its own purpose.",
           "The trade calls it MTPE, and buying MTPE services by the word misses what the work is: the effort belongs where the risk is, not spread evenly across a file. Work runs across sectors that lean on AI output to scale quickly, particularly SaaS, ecommerce and travel, where the volume of content makes full native writing impractical but the accuracy bar is still commercial, not casual.",
@@ -1480,6 +1500,7 @@ export const SERVICES: Service[] = [
     slug: "multilingual-content",
     name: "Multilingual content",
     inline: "multilingual content",
+    headingTerm: "multilingual content marketing",
     h1: "Multilingual content marketing written per market",
     subhead: "Written in the target language against that market's own research, rather than translated from a page optimized for a different one.",
     cluster: "Supporting",
@@ -1497,7 +1518,7 @@ export const SERVICES: Service[] = [
         ],
       },
       {
-        heading: "What the engagement covers, cluster by cluster",
+        heading: "What international content marketing covers, cluster by cluster",
         paragraphs: [
           "Content researched and written per market with native keyword localization, hreflang and canonical setup handled at the structural level, and schema (Article, FAQPage, LocalBusiness as relevant) implemented per language to support rich results. Cultural consulting sits underneath the copy itself, checking messaging and tone against local values before publication rather than after a complaint.",
           "Social platform choice follows the audience rather than habit: Facebook and Instagram cover many markets, but WeChat matters more in China and VK more in Russia, and a content plan that assumes one platform set fits every market misses the audience it was meant to reach.",

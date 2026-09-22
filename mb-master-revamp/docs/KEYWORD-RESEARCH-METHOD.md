@@ -110,6 +110,35 @@ Secondary terms go in the h2, the meta description and the body. Naming
 the mechanism in the words buyers type is usually a small edit, not a
 rewrite: see section 4.
 
+### Step 5b. The h1 is not the only heading
+
+Three h2s on every service page are templated, and they take their term
+from `inline` in `lib/services.ts`, which is the label's mid-sentence
+form. On most pages the label and the researched term are the same word,
+so nothing needs doing. On four they had diverged, and the result was
+three headings per page quietly arguing with the h1 above them: an h1
+reading "International PPC agency" over an h2 reading "How the
+multilingual SEM engagement runs".
+
+`headingTerm` on the service overrides those three, defaulting to
+`inline`. It is set on the four pages where the subject word differed
+(SEM against PPC, AI translation against machine translation
+post-editing, multilingual content against multilingual content
+marketing, international SEO against multilingual SEO) and deliberately
+not set where the primary differs only by a trailing "services" or
+"agency". "How the local SEO services engagement runs" is worse English
+than the sentence it replaces, and the h1 already carries the word.
+
+Section headings written per page are worth the same pass, but only where
+a rename stays true to what is under it. Three were retargeted on
+22 September: "What the localization pass actually covers" became "What
+app and software localization services cover", "What the engagement
+covers, cluster by cluster" became "What international content marketing
+covers, cluster by cluster", and "What actually gets corrected" became
+"What machine translation post-editing actually corrects". Each now names
+its subject instead of pointing at it. A heading that would need the
+section rewritten to be accurate stays as it is.
+
 ### Step 6. Verify on the built page
 
 ```
