@@ -133,11 +133,11 @@ export const KEYWORDS: Record<string, PageKeywords> = {
       { term: "geo generative engine optimization", volume: 4300, kd: null },
     ],
     note:
-      "SPELLING CONFLICT, owner decision needed. Every one of these terms is " +
-      "the US spelling, and the site is UK English by non-negotiable rule, so " +
-      "the page says `optimization` while the searches say `optimization`. " +
-      "The route slug is already US-spelled. Not resolved here, because the " +
-      "spelling rule is the owner's and so is the trade.",
+      "Every one of these terms is the US spelling. The owner resolved the " +
+      "conflict on 21 Sep 2026 (\"it's international and volume based SEO\"), " +
+      "so the page copy now matches the searches and the route slug, which " +
+      "was US-spelled all along. 26,000 for the head term against 3,800 for " +
+      "the UK form is what settled it.",
   },
 
   "/services/translation-services": {
@@ -160,10 +160,11 @@ export const KEYWORDS: Record<string, PageKeywords> = {
     primary: { term: "website localization", volume: 2800, kd: 5 },
     secondary: [{ term: "website localization services", volume: 350, kd: null }],
     note:
-      "Same spelling conflict as the GEO page, and sharper: the US " +
-      "`localization` draws 2,800 against 350 for the UK `localization`. " +
-      "Eight times the demand sits on a spelling the house rules forbid. " +
-      "Owner's call, flagged rather than taken.",
+      "Same spelling question as the GEO page and sharper, 2,800 against " +
+      "350 for the UK form, resolved the same way on 21 Sep 2026. The page " +
+      "copy is US-spelled; the route slug stays UK because eighteen legacy " +
+      "URLs in docs/sitemap-MB-EN.txt depend on it, so this page is " +
+      "deliberately served at a UK-spelled URL under a US-spelled heading.",
   },
 
   "/services/ai-consulting": {
@@ -223,7 +224,16 @@ export const KEYWORDS: Record<string, PageKeywords> = {
     secondary: [
       { term: "google ads conversion tracking", volume: 2200, kd: 18 },
       { term: "offline conversion tracking", volume: 2000, kd: 6 },
+      { term: "consent mode", volume: 3100, kd: 0 },
     ],
+    note:
+      "`consent mode` at 3,100 and KD 0 is close to the primary in size and " +
+      "far easier, and the page already earns it: the body explains that a " +
+      "visitor who declines cookies is still a visitor, and that comparing " +
+      "markets is only honest once each one's consent rate is known. The " +
+      "term was surfaced by an external research document (22 Sep 2026) " +
+      "whose own twelve proposed keywords all returned zero volume; this " +
+      "was the one real find in it, and it was not on its list.",
   },
 };
 
