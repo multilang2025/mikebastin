@@ -196,31 +196,35 @@ The test to apply to the next document that arrives:
 
 ## 6. Current state
 
-Seventeen pages carry a researched primary and pass the h1 rule. Seven
-carry a secondary term that has not yet been written into the body, which
-is advisory and is the cheapest work available:
+Twenty-one pages carry a researched primary, every one of them passes the
+h1 rule, and **every secondary term is present in its page body**. The
+coverage lint reports nothing outstanding.
 
-| Page | Secondary still absent |
-|---|---|
-| `/` | `global seo` |
-| `/services` | `global seo company` |
-| `/services/multilingual-seo` | `international seo specialist` |
-| `/services/local-seo` | `local seo services for small business` |
-| `/services/ai-consulting` | `ai strategy consulting` |
-| `/services/german-seo` | `german seo expert` |
-| `/services/italian-seo` | `italian seo company` |
+Getting there took one sentence per page. The seven gaps recorded on
+22 September are closed:
 
-Each is one sentence of body copy, on a page that already means it.
+| Page | Term | How it landed |
+|---|---|---|
+| `/` | `global seo` | A global SEO programme named as the pieces running together |
+| `/services` | `global seo company` | Hiring one starts with the job, not with a package |
+| `/services/multilingual-seo` | `international seo specialist` | Named against the decisions expensive to undo |
+| `/services/local-seo` | `local seo services for small business` | The profile carries more than the website for a one-address business |
+| `/services/ai-consulting` | `ai strategy consulting` | An AI strategy says where the tool is not used |
+| `/services/german-seo` | `german seo expert` | One expert rarely covers both halves, which is why the work splits |
+| `/services/italian-seo` | `italian seo company` | Writing from inside the market is not the same purchase as translating into it |
+| `/services/ai-translation-and-post-editing` | `mtpe services` | The trade's own acronym, and what buying it by the word misses |
+
+None of those sentences claims anything the page did not already mean,
+which is the constraint that shaped every one of them.
 
 ---
 
-## 7. New research, 22 September, for pages that had none
+## 7. The four pages that had no keyword now have one
 
-Measured in the same run, country GB, controls included. None of these is
-written into `lib/keywords.ts` yet, because each needs an h1 change and
-the h1 is a positioning decision rather than a measurement.
+Researched 22 September, country GB, controls in the batch. All four are
+written into `site/lib/keywords.ts` and enforced.
 
-### `/services/multilingual-sem`
+### `/services/multilingual-sem`, primary `international ppc agency`
 
 | Term | Volume | KD | CPC |
 |---|---|---|---|
@@ -229,13 +233,13 @@ the h1 is a positioning decision rather than a measurement.
 | `multilingual ppc` | 600 | 0 | n/a |
 | `multilingual ppc agency` | 450 | n/a | n/a |
 
-Proposed primary `international ppc agency`, on the same reasoning that
-settled the homepage. `international ppc` at a $7.00 CPC is the most
-valuable secondary found anywhere except the homepage's
-`international seo consultant`. Cost: the h1 has to say PPC, and the page
-currently says SEM.
+h1 now reads **International PPC agency running paid search per market**,
+where it read "Multilingual SEM services per market". SEM is the
+vocabulary of the trade and PPC is the vocabulary of the buyer, 1,300
+against nothing. The route slug stays `multilingual-sem`, and the page's
+own angle line already said "International PPC" before any of this.
 
-### `/services/app-and-software-localisation`
+### `/services/app-and-software-localisation`, primary `software localization`
 
 | Term | Volume | KD | CPC |
 |---|---|---|---|
@@ -244,13 +248,14 @@ currently says SEM.
 | `app localization services` | 1,200 | n/a | n/a |
 | `software localization services` | 900 | 0 | $9.00 |
 
-Proposed primary `software localization`. `app localization` at KD 44 is
-the outlier on this list and belongs in secondary. The $9.00 CPC on
-`software localization services` is the highest measured on the site. US
-spelling, per the decision of 21 September; the route slug stays UK
-because legacy URLs depend on it.
+**No h1 change was needed.** "App and software localization services"
+already carried the term. Worth checking before drafting a replacement:
+the coverage lint ignores word order, so an existing heading often passes
+a term nobody assigned it yet. `app localization` at KD 44 is the outlier
+here and stays secondary. The $9.00 CPC is the highest measured on the
+site.
 
-### `/services/multilingual-content`
+### `/services/multilingual-content`, primary `multilingual content marketing`
 
 | Term | Volume | KD | CPC |
 |---|---|---|---|
@@ -259,13 +264,11 @@ because legacy URLs depend on it.
 | `multilingual content agency` | 40 | n/a | n/a |
 | `content marketing services` | 26,000 | 0 | $4.50 |
 
-`multilingual content marketing` is the accurate primary at 900 and KD 2.
-`content marketing services` at 26,000 and KD 0 is the second-largest
-winnable term found anywhere on the site, and taking it would mean
-claiming general content marketing rather than multilingual content. An
-owner decision, flagged in section 8, not a measurement.
+h1 now reads **Multilingual content marketing written per market**, one
+word from where it was. `content marketing services` is recorded in the
+note and deliberately not taken, for the reason in section 8.
 
-### `/services/ai-translation-and-post-editing`
+### `/services/ai-translation-and-post-editing`, primary `machine translation post editing`
 
 | Term | Volume | KD | CPC |
 |---|---|---|---|
@@ -274,30 +277,41 @@ owner decision, flagged in section 8, not a measurement.
 | `mtpe services` | 300 | n/a | n/a |
 | `post editing services` | 70 | n/a | n/a |
 
-Thin, in the way `/services/portuguese-seo` is thin. Worth recording at
-`machine translation post editing` and worth no h1 argument.
+h1 now reads **Machine translation post-editing after the AI first pass**.
+The whole cluster is under 1,000 combined, which is thin in the way the
+Portuguese page is thin. Recorded anyway, because 500 searches with no
+competition is still the page's best available term, and because naming it
+stops the next pass re-researching ground already covered.
 
-### `/results`
+### `/results`, not taken
 
-`seo case studies`, 3,000, KD 9, $2.50. A proof page can carry a
-commercial term, and whether it should is a judgement about what the page
-is for.
+`seo case studies`, 3,000, KD 9, $2.50. Left in `UNRESEARCHED` on purpose,
+because taking it is a decision about what the page is for. Section 8.
 
-`/contact` and `/how-i-work` have no commercial head term and stay out of
-the map by design.
+`/contact` and `/how-i-work` have no commercial head term and are not
+meant to.
 
 ---
 
 ## 8. Open, for the owner
 
-1. **`content marketing services`, 26,000 at KD 0.** Take it on
-   `/services/multilingual-content` and the page stops being about
-   multilingual content, or leave it and the biggest easy term on the
-   site goes unclaimed. Neither answer can be measured.
-2. **`/results` as a keyword page.** Proof page, or `seo case studies`
-   landing page.
-3. **One positioning claim per service page.** Named repeatedly as
-   missing and still not written, because it cannot be invented here.
+Two questions, both unchanged by the work above, because neither can be
+settled by measurement.
+
+1. **`content marketing services`, 26,000 at KD 0.** The largest easy term
+   found anywhere on the site, and accurate only for a page that claims
+   general content marketing. Taking it on
+   `/services/multilingual-content` means the page stops being about
+   multilingual content. Leaving it means the term goes unclaimed.
+   Currently left, which is the reversible choice.
+2. **`/results` as a keyword page.** Proof page as it stands, or a
+   landing page for `seo case studies` at 3,000 and KD 9. Taking it costs
+   an h1 change and changes what the page is for.
+
+A third item, **one positioning claim per service page**, has been named
+repeatedly and still cannot be written here. It is a statement about what
+the business does better than the alternative, and inventing one would
+break the rule that matters most.
 
 ---
 

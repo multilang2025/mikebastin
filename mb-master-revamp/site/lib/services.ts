@@ -176,12 +176,12 @@ export const SERVICES: Service[] = [
     slug: "multilingual-sem",
     name: "Multilingual SEM",
     inline: "multilingual SEM",
-    h1: "Multilingual SEM services per market",
+    h1: "International PPC agency running paid search per market",
     subhead: "Media budget goes straight to Google, Microsoft or Meta, so there is no markup on spend and no reason to recommend a bigger one.",
     cluster: "Lead generation",
     angle: "International PPC, buying what search has not earned",
     lede: "Reaching the buyer who has not found you organically yet, in the language they searched in, without letting a single blended campaign quietly subsidise one market from another.",
-    metaTitle: "Multilingual SEM services, Mike Bastin",
+    metaTitle: "International PPC agency, paid search per market",
     metaDescription: "Paid search that reaches buyers in the language they searched in, market by market, so one blended campaign never quietly subsidises another.",
     sections: ["Three patterns that drain ad budgets", ...ENGAGEMENT],
     body: [
@@ -340,7 +340,7 @@ export const SERVICES: Service[] = [
         heading: "What actually goes into the engagement",
         paragraphs: [
           "A global SEO programme starts with native research in each target language, covering real commercial intent and long-tail phrasing per market, never a set translated from English. Subdirectory, subdomain or ccTLD gets a reasoned recommendation rather than a default, with hreflang, sitemaps and Search Console geo-targeting configured per language from the start.",
-          "Writing runs fluent and direct for French, English, Spanish and Dutch, and through native copywriters from the BeTranslated network for German, Italian, Portuguese and other languages. LocalBusiness, Service, Article and FAQ schema is built per language and validated on Google's Rich Results tool, and the same work extends to how ChatGPT, Claude, Perplexity and AI Overviews answer in each language.",
+          "An international SEO specialist earns the fee on the decisions that are expensive to undo later: the domain structure, the hreflang map and the order the markets go in. Writing runs fluent and direct for French, English, Spanish and Dutch, and through native copywriters from the BeTranslated network for German, Italian, Portuguese and other languages. LocalBusiness, Service, Article and FAQ schema is built per language and validated on Google's Rich Results tool, and the same work extends to how ChatGPT, Claude, Perplexity and AI Overviews answer in each language.",
         ],
       },
       {
@@ -506,7 +506,7 @@ export const SERVICES: Service[] = [
       {
         heading: "Piloted here, written natively",
         paragraphs: [
-          "German SEO needs two distinct skills at once: strategic piloting (architecture, keyword targets, technical setup, editorial calendar) and native execution (writing, tone, regulatory compliance). We handle the first directly and hand the second to native German copywriters from the BeTranslated network, briefed and reviewed in English or French.",
+          "German SEO needs two distinct skills at once: strategic piloting (architecture, keyword targets, technical setup, editorial calendar) and native execution (writing, tone, regulatory compliance). We handle the first directly and hand the second to native German copywriters from the BeTranslated network, briefed and reviewed in English or French. One German SEO expert rarely covers both halves, which is why the work is split rather than handed to a single pair of hands.",
           "Impressum compliant with the Telemediengesetz, a strict GDPR-aligned privacy policy, an opt-in cookie banner and, for stores, Trusted Shops integration where it fits. Outreach targets German regional press and trade directories such as IHK listings rather than links bought from an unrelated market.",
         ],
       },
@@ -737,7 +737,7 @@ export const SERVICES: Service[] = [
       {
         heading: "Read fluently here, written natively by the network",
         paragraphs: [
-          "We read Italian fluently, built on French, Spanish and a Latin background, and use that to handle strategy and competitor reading directly. Native Italian copywriters from the BeTranslated network handle the writing itself, briefed in English or French and checked by a second native reader before anything ships. No pretence about who writes the commercial copy.",
+          "We read Italian fluently, built on French, Spanish and a Latin background, and use that to handle strategy and competitor reading directly. Native Italian copywriters from the BeTranslated network handle the writing itself, briefed in English or French and checked by a second native reader before anything ships. No pretence about who writes the commercial copy. An Italian SEO company writing from inside the market and a foreign agency translating into Italian are not the same purchase, and the page shows which one produced it.",
           "Targeting runs per macro-region (Nord, Centro, Sud) when the offer justifies it, with local landing pages for Milan, Rome, Turin and other metropolitan areas where relevant. Outreach targets Corriere della Sera, La Repubblica and Sole 24 Ore for B2B, plus sector associations such as Confindustria and Confartigianato.",
         ],
       },
@@ -880,7 +880,7 @@ export const SERVICES: Service[] = [
       {
         heading: "Where local visibility actually gets lost",
         paragraphs: [
-          "A Google Business Profile with the wrong categories, an incomplete service list, outdated hours, few photos and no recent posts gets buried below competitors with no better product, just better profile hygiene. Google's own algorithm rewards a profile that is complete and kept active.",
+          "A Google Business Profile with the wrong categories, an incomplete service list, outdated hours, few photos and no recent posts gets buried below competitors with no better product, just better profile hygiene. Google's own algorithm rewards a profile that is complete and kept active. For a small business working from one address, the profile often carries more of the enquiries than the website does.",
           "A business name that reads slightly differently across a directory listing, a review site and a Chamber of Commerce entry, an address abbreviated one way in one place and spelled out in another, erodes the confidence signal Google reads from name, address and phone consistency. Cleaning it up everywhere is unglamorous work with a direct effect on ranking.",
           "A homepage that says it serves the whole city is a start. A dedicated page per neighbourhood actually served captures the long tail a city-level page misses entirely, because people search for a service plus a neighbourhood, not a service plus a city.",
         ],
@@ -1192,7 +1192,7 @@ export const SERVICES: Service[] = [
       {
         heading: "Deciding what to trust before anything gets built",
         paragraphs: [
-          "Whether a chatbot handling multilingual customer support is safe to deploy on its own, or needs a human fallback for anything past the routine questions, gets assessed against the actual cost of a wrong answer, not against how impressive the demo looked.",
+          "An AI strategy worth the name says where the tool is not used, which is the half of the answer a vendor demo leaves out. Whether a chatbot handling multilingual customer support is safe to deploy on its own, or needs a human fallback for anything past the routine questions, gets assessed against the actual cost of a wrong answer, not against how impressive the demo looked.",
           "The output of any AI system in this stack gets reviewed by someone who reads the target language, because the real risk in AI-assisted multilingual work is never an obviously broken sentence. It is a fluent, professional-looking sentence that is quietly wrong.",
         ],
       },
@@ -1236,12 +1236,12 @@ export const SERVICES: Service[] = [
     slug: "ai-translation-and-post-editing",
     name: "AI translation and post-editing",
     inline: "AI translation and post-editing",
-    h1: "AI translation services and post-editing",
+    h1: "Machine translation post-editing after the AI first pass",
     subhead: "Machine output worked over by a native speaker, because text that reads fluently and is wrong is worse than text that warns you.",
     cluster: "AI",
     angle: "Machine first, human decisive",
     lede: "Your pages came back from the machine reading fluently, which is the problem. A sentence that is confidently wrong is far harder to catch than one that is obviously broken.",
-    metaTitle: "AI translation services and post-editing",
+    metaTitle: "Machine translation post-editing and AI translation",
     metaDescription: "Machine-translated pages that read fluently are the hard case, not the broken ones. AI translation and post-editing catches what reads right and is wrong.",
     sections: ["Why fluent output is the harder problem", ...ENGAGEMENT],
     body: [
@@ -1256,7 +1256,7 @@ export const SERVICES: Service[] = [
         heading: "What actually gets corrected",
         paragraphs: [
           "Terminology errors and unnatural phrasing corrected against a defined glossary per sector, formatting and tone standardised across languages so the brand voice holds, and consistency checked against the SEO targets the content was meant to hit in the first place, since a post-edit that fixes the grammar but drifts off the target keyword defeats its own purpose.",
-          "Work runs across sectors that lean on AI output to scale quickly, particularly SaaS, ecommerce and travel, where the volume of content makes full native writing impractical but the accuracy bar is still commercial, not casual.",
+          "The trade calls it MTPE, and buying MTPE services by the word misses what the work is: the effort belongs where the risk is, not spread evenly across a file. Work runs across sectors that lean on AI output to scale quickly, particularly SaaS, ecommerce and travel, where the volume of content makes full native writing impractical but the accuracy bar is still commercial, not casual.",
         ],
       },
     ],
@@ -1480,12 +1480,12 @@ export const SERVICES: Service[] = [
     slug: "multilingual-content",
     name: "Multilingual content",
     inline: "multilingual content",
-    h1: "Multilingual content services written per market",
+    h1: "Multilingual content marketing written per market",
     subhead: "Written in the target language against that market's own research, rather than translated from a page optimized for a different one.",
     cluster: "Supporting",
     angle: "Written per market, not translated",
     lede: "Your Spanish page is a translation of your English one, so it answers the question an English buyer asks. Spanish buyers phrase the problem differently, and they are out looking for the other version.",
-    metaTitle: "Multilingual content, written per market",
+    metaTitle: "Multilingual content marketing, written per market",
     metaDescription: "A Spanish page translated from English answers the question an English buyer asks. Multilingual content is researched and written for the market reading it.",
     sections: ["Why translated copy underperforms written copy", ...ENGAGEMENT],
     body: [
