@@ -665,28 +665,58 @@ export const SERVICES: Service[] = [
     slug: "spanish-seo",
     name: "Spanish SEO",
     inline: "Spanish SEO",
-    h1: "Spanish SEO agency for Spain and Latin America",
-    subhead: "Run from Valencia and adapted per country, because what convinces a buyer in Madrid reads as foreign in Bogota.",
+    h1: "Spanish SEO agency for companies selling in Spanish",
+    subhead: "Spain run directly from Valencia, Latin America by native copywriters in Santo Domingo, so every Spanish-speaking buyer reads a page written for their own country.",
     cluster: "Search",
-    angle: "SEO Spain, researched here rather than abroad",
-    lede: "Your Spanish pages are read in Madrid, Mexico City and Bogotá, and what convinces a buyer in one of them reads as foreign in the next. We work Spain from Valencia, and the Latin American variants through native copywriters based in the region.",
-    metaTitle: "Spanish SEO agency, from Valencia",
-    metaDescription: "Spanish SEO for buyers in Madrid, Mexico City and Bogotá, who do not read the same page the same way. Spain run from Valencia, Latin America by native writers.",
-    sections: ["Three ways to fail at Spanish SEO", ...ENGAGEMENT],
+    angle: "SEO Spain and Latin America, one market at a time",
+    lede: "Your Spanish pages are read in Madrid, Mexico City and Bogotá, and what convinces a buyer in one of them reads as foreign in the next. One Spanish site written for all of them usually convinces none of them.",
+    metaTitle: "Spanish SEO agency for Spain and Latin America",
+    metaDescription: "What convinces a buyer in Madrid reads as foreign in Mexico City. Spanish SEO run from Valencia for Spain and by native writers for Latin America.",
+    // Research, 23 Sep 2026 (Ahrefs US, GB and worldwide, plus this page's
+    // own Search Console for 24 Mar to 20 Sep 2026). Unlike French and
+    // German, the biggest single share of the English-language demand is
+    // American: 500 of the 1,100 for `spanish seo` and 400 of the 800 for
+    // `seo in spanish`. The page also collects `consultant seo espagnol`,
+    // `seo spanien`, `spaanse seo` and `hire seo consultant in latin
+    // america`. Two buyers, one question first: which Spanish.
+    sections: [
+      "A decision on which Spanish comes first: Spain, one Latin American country, or both",
+      "Keyword research in each Spanish you target, by native speakers of it",
+      "A strategy and editorial calendar per market, agreed with you in English, French or Spanish",
+      "Spanish for Spain written directly from Valencia, Latin American variants by native copywriters in Santo Domingo",
+      "The legal details each market expects, from the CIF or NIF in Spain to the RFC in Mexico",
+      "Monthly reporting per market, so Spain and Mexico never blur into one number",
+    ],
     body: [
       {
-        heading: "Spain and Latin America are not one market",
+        heading: "What one Spanish site for every market costs you",
         paragraphs: [
-          "Castilian Spanish and the various Latin American variants diverge in vocabulary, address forms, currency and regulatory framework. A single Spanish site reads too formal to a Latin American visitor or too informal to a Spanish one in ways that erode trust either direction. Hreflang es-ES, es-MX, es-CO, es-AR and es-DO disambiguate per target market.",
-          "A page passed through machine translation and presented as the Spanish version sounds like translated English, not native Spanish. Idioms land wrong, register feels off, and sector terminology is sometimes simply invented. Spanish readers notice immediately.",
-          "Spain requires a CIF or NIF visible, EUR pricing and AEPD-approved cookie consent. Mexico expects an RFC and INAI compliance, Colombia a NIT, Argentina a CUIT, the Dominican Republic an RNC. Each market carries its own legal markers, and a site missing them looks foreign no matter how good the copy is.",
+          "Spanish from Spain reads as distant and formal in Mexico City. Latin American Spanish reads as casual in unexpected places in Madrid. A page run through machine translation reads as translated English everywhere. The buyer rarely complains about any of it, they simply trust the local competitor who sounds like one of them.",
+          "The company details do the same damage. A buyer in Spain expects to see a CIF or NIF, a buyer in Mexico an RFC, and prices in their own currency. A site without them reads as foreign, whatever the quality of the Spanish, and the enquiry goes elsewhere without anything showing up in your reports.",
+          "Spanish is one language spread across two continents, so a site that fits none of its markets properly gives up more buyers than almost any other language could.",
         ],
       },
       {
-        heading: "Direct in Spain, native across Latin America",
+        heading: "Spain from Valencia, Latin America from Santo Domingo",
         paragraphs: [
-          "Research and writing for ES-ES run direct from the Valencia base. LatAm variants (es-MX, es-CO, es-AR, es-DO) are handled by native copywriters from the BeTranslated team in Santo Domingo, briefed and supervised on strategy so the variants stay coherent rather than diverging into five unrelated sites.",
-          "Outreach targets El País, El Mundo and Expansión in Spain, and the regional press per country in Latin America (El Universal in Mexico, El Tiempo in Colombia, La Nación in Argentina, Listín Diario in the Dominican Republic), which counts for far more than a generic Spanish-language link from an unrelated market.",
+          "Spain runs directly from Valencia, where we have been based since 2016. The research, the writing, the reading of competitors and the meetings all happen in Spanish, with no intermediary between the plan and the page.",
+          "Mexico, Colombia, Argentina and the Dominican Republic go to native copywriters on the BeTranslated team in Santo Domingo, briefed and checked here so the markets stay one coherent plan rather than drifting into several unrelated sites. We say who writes which Spanish because quietly subcontracting all of it is common, and it is not the same service.",
+          "Then the things that make a local buyer trust a supplier: the legal details each country expects, prices in the local currency, and mentions in the press that market actually reads.",
+        ],
+      },
+      {
+        heading: "Spanish SEO is searched for from two directions",
+        paragraphs: [
+          "When we measured the demand in September 2026, the largest single share came from the United States: 500 of the 1,100 monthly searches worldwide for Spanish SEO, and 400 of the 800 for SEO in Spanish. Search Console for this page adds the other direction, companies elsewhere in Europe looking for help in Spain, searching in French, German and Dutch.",
+          "Whichever one you are, the first decision is the same: which Spanish, for which buyers. Getting that right before a word is written is cheaper than rewriting a site that picked the wrong one.",
+        ],
+      },
+      {
+        heading: "Spanish sites we run and work on",
+        paragraphs: [
+          "Delaguía y Luzón is a Valencia law firm whose site leads in Spanish. Between May and July 2026 it drew 38,476 clicks from 2,399,567 Google impressions at an average position of 9.4, across the whole site.",
+          "Century 21 Perdomo sells property in the Dominican Republic in four languages, Spanish among them. Over the same three months it drew 9,944 clicks from 461,231 impressions at an average position of 10.1.",
+          "ValenciaMove, our own relocation site for Valencia, carries Spanish alongside four other languages and drew 5,685 clicks from 496,316 impressions over the same period.",
         ],
       },
     ],
@@ -725,7 +755,7 @@ export const SERVICES: Service[] = [
       {
         q: "Each market carries its own identifier",
         a: [
-          "Spain expects a CIF or NIF, Mexico an RFC, Colombia a NIT, Argentina a CUIT, the Dominican Republic an RNC. Alongside them sit the local data protection regimes: the AEPD in Spain, INAI in Mexico, the SIC in Colombia, the AAIP in Argentina, Indotel in the Dominican Republic.",
+          "Spain expects a CIF or NIF, Mexico an RFC, Colombia a NIT, Argentina a CUIT, the Dominican Republic an RNC. Alongside them sit the local data protection rules: the AEPD in Spain, the SIC in Colombia, the AAIP in Argentina, and in Mexico a new federal data protection law since 2025, when INAI was dissolved and its oversight moved to a government ministry.",
           "Missing them does not read as an oversight to a local buyer, it reads as a foreign site, and no amount of well-written Spanish compensates for that.",
         ],
       },
@@ -739,7 +769,7 @@ export const SERVICES: Service[] = [
     demand: {
       volume: 2100,
       kd: "0 to 7",
-      note: "Third-largest, and the two biggest terms both sit at difficulty 0.",
+      note: "Third-largest, and the two biggest terms both sit at difficulty 0. Re-measured on 23 September 2026, the largest single share is American: 500 of the 1,100 monthly searches for `spanish seo` and 400 of the 800 for `seo in spanish` come from the US.",
     },
   },
   {

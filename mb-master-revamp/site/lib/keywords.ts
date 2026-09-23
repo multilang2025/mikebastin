@@ -219,9 +219,17 @@ export const KEYWORDS: Record<string, PageKeywords> = {
     primary: { term: "spanish seo", volume: 1100, kd: 0 },
     secondary: [
       { term: "seo in spanish", volume: 800, kd: 0 },
-      { term: "spanish seo services", volume: 500, kd: null },
-      { term: "seo for spanish website", volume: 350, kd: null },
+      { term: "seo spain", volume: 700, kd: 1 },
+      { term: "seo agency spain", volume: 600, kd: 1 },
+      { term: "spanish seo services", volume: 500, kd: 1 },
+      { term: "seo for spanish website", volume: 350, kd: 0 },
     ],
+    note:
+      "Re-measured 23 Sep 2026 against US and GB. The US is the largest " +
+      "single share: 500 of 1,100 for 'spanish seo', 400 of 800 for 'seo in " +
+      "spanish'. Search Console (24 Mar to 20 Sep 2026) adds 'spanish seo " +
+      "services' 327 and 'spanish seo' 302 impressions, plus French, German " +
+      "and Dutch queries for SEO in Spain.",
   },
   "/services/italian-seo": {
     primary: { term: "italian seo agency", volume: 300, kd: null },
