@@ -16,6 +16,11 @@
   --berry-deep: #9E1B31;
   --berry-soft: rgb(196 38 64 / 0.10);
   --deep:      #1C6580;
+  /* The MB monogram. Teal on a light surface, cream on a dark one, which
+     is what the owner's concept sheet shows on its two panels. A token
+     rather than a hardcoded fill because the mark sits in the nav, and
+     the nav floats over whichever band is beneath it. */
+  --mark:      #1C6580;
   --rule:      rgb(15 40 55 / 0.16);
   --chip:      rgb(15 40 55 / 0.055);
   --glow:      rgb(196 38 64 / 0.09);
@@ -30,6 +35,7 @@
   --berry-deep: #C9304A;
   --berry-soft: rgb(242 85 106 / 0.13);
   --deep:      #155268;
+  --mark:      #F5EFE2;
   --rule:      rgb(245 239 226 / 0.15);
   --chip:      rgb(245 239 226 / 0.07);
   --glow:      rgb(242 85 106 / 0.14);
@@ -46,6 +52,7 @@
     --berry-deep: #C9304A;
     --berry-soft: rgb(242 85 106 / 0.13);
     --deep:      #155268;
+    --mark:      #F5EFE2;
     --rule:      rgb(245 239 226 / 0.15);
     --chip:      rgb(245 239 226 / 0.07);
     --glow:      rgb(242 85 106 / 0.14);
@@ -59,6 +66,7 @@
     --berry-deep: #9E1B31;
     --berry-soft: rgb(196 38 64 / 0.10);
     --deep:      #1C6580;
+    --mark:      #1C6580;
     --rule:      rgb(15 40 55 / 0.16);
     --chip:      rgb(15 40 55 / 0.055);
     --glow:      rgb(196 38 64 / 0.09);
@@ -69,23 +77,23 @@
 :root[data-theme="dark"],
 :root[data-theme="dark"] .band-a {
   --bg:#0A1B28; --ink:#F5EFE2; --dim:#AFC0CC; --berry:#F2556A; --berry-deep:#C9304A; --berry-soft:rgb(242 85 106 / .13);
-  --deep:#155268; --rule:rgb(245 239 226 / .15); --chip:rgb(245 239 226 / .07);
+  --deep:#155268; --mark:#F5EFE2; --rule:rgb(245 239 226 / .15); --chip:rgb(245 239 226 / .07);
   --glow:rgb(242 85 106 / .14); --shade:rgb(245 239 226 / .04);
 }
 :root[data-theme="dark"] .band-b {
   --bg:#F5F0E4; --ink:#0F2837; --dim:#58707F; --berry:#C42640; --berry-deep:#9E1B31; --berry-soft:rgb(196 38 64 / .10);
-  --deep:#1C6580; --rule:rgb(15 40 55 / .16); --chip:rgb(15 40 55 / .055);
+  --deep:#1C6580; --mark:#1C6580; --rule:rgb(15 40 55 / .16); --chip:rgb(15 40 55 / .055);
   --glow:rgb(196 38 64 / .09); --shade:rgb(15 40 55 / .04);
 }
 :root[data-theme="light"],
 :root[data-theme="light"] .band-a {
   --bg:#F5F0E4; --ink:#0F2837; --dim:#58707F; --berry:#C42640; --berry-deep:#9E1B31; --berry-soft:rgb(196 38 64 / .10);
-  --deep:#1C6580; --rule:rgb(15 40 55 / .16); --chip:rgb(15 40 55 / .055);
+  --deep:#1C6580; --mark:#1C6580; --rule:rgb(15 40 55 / .16); --chip:rgb(15 40 55 / .055);
   --glow:rgb(196 38 64 / .09); --shade:rgb(15 40 55 / .04);
 }
 :root[data-theme="light"] .band-b {
   --bg:#0A1B28; --ink:#F5EFE2; --dim:#AFC0CC; --berry:#F2556A; --berry-deep:#C9304A; --berry-soft:rgb(242 85 106 / .13);
-  --deep:#155268; --rule:rgb(245 239 226 / .15); --chip:rgb(245 239 226 / .07);
+  --deep:#155268; --mark:#F5EFE2; --rule:rgb(245 239 226 / .15); --chip:rgb(245 239 226 / .07);
   --glow:rgb(242 85 106 / .14); --shade:rgb(245 239 226 / .04);
 }
 

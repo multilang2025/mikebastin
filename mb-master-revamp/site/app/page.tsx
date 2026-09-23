@@ -135,10 +135,10 @@ export default function Home() {
   return (
     <main>
       {/* ============ HERO ============ */}
-      <section className="band band-a grain hero-glow relative overflow-hidden pb-[clamp(60px,9vw,120px)] pt-[clamp(96px,14vw,190px)]">
+      <section className="band band-a grain hero-glow relative overflow-hidden pb-[clamp(36px,5vw,72px)] pt-[clamp(52px,7vw,104px)]">
         <div className="shell relative">
           <Reveal>
-            <p className="eyebrow mb-10">
+            <p className="eyebrow mb-5">
               Plenty of sites rank. Far fewer sell.
             </p>
           </Reveal>
@@ -151,13 +151,21 @@ export default function Home() {
                 echoing it. The sentence the owner approved ("that's the
                 way forward") is not lost, it moves to the h2 where its
                 length belongs. */}
-            <h1 className="mb-5 max-w-[14ch] pb-[.06em] text-[clamp(2.7rem,7.4vw,5.6rem)] font-semibold leading-[1.05]">
-              International SEO agency for every market you sell in
+            {/* Owner, 22 Sep: two lines, and no preposition on the end.
+                "every market you sell in" became "every market you serve",
+                which keeps the owner's own phrase and loses the dangling
+                "in". Two lines is a measurement rather than a hope: the
+                measure went from 14ch to 25ch and the type down from
+                5.6rem to 4.3rem, which is what makes 50 characters break
+                once rather than three times. Checked in Chromium at 1920,
+                1440, 1366, 1280, 768, 390 and 360 wide. */}
+            <h1 className="mb-4 max-w-[25ch] pb-[.06em] text-[clamp(2.1rem,5.4vw,4.3rem)] font-semibold leading-[1.06]">
+              International SEO agency for every market you serve
             </h1>
           </Reveal>
 
           <Reveal i={2}>
-            <h2 className="mb-8 max-w-[24ch] text-[clamp(1.35rem,3vw,2.3rem)] font-medium leading-[1.2]">
+            <h2 className="mb-5 max-w-[30ch] text-[clamp(1.2rem,2.4vw,1.85rem)] font-medium leading-[1.25]">
               Your English pages sell.{" "}
               <span className="shimmer">Multilingual SEO makes your other languages sell too.</span>
             </h2>
@@ -165,17 +173,18 @@ export default function Home() {
 
           <Reveal i={3}>
             <p
-              className="mb-10 max-w-[54ch] text-[clamp(1.05rem,1.65vw,1.24rem)] leading-[1.58]"
+              className="mb-7 max-w-[56ch] text-[clamp(1rem,1.4vw,1.14rem)] leading-[1.55]"
               style={{ color: "var(--dim)" }}
             >
-              Traffic arrives in French and German. The enquiries arrive in
-              English. We work out how much of that gap is search and how much
-              is the writing, then close it market by market.
+              The traffic in your other languages is already there. Turning it
+              into enquiries is usually a research and writing job rather than a
+              bigger budget, and it starts with the market where the evidence is
+              strongest.
             </p>
           </Reveal>
 
           <Reveal i={4}>
-            <div className="mb-10 flex flex-wrap items-center gap-x-6 gap-y-4">
+            <div className="mb-7 flex flex-wrap items-center gap-x-6 gap-y-4">
               <Link href="/contact/" className="btn btn-primary btn-lg">
                 Book a discovery call
               </Link>

@@ -253,6 +253,29 @@ export const KEYWORDS: Record<string, PageKeywords> = {
       "the route slug stays UK because legacy URLs depend on it.",
   },
 
+  "/services/content-marketing": {
+    primary: { term: "content marketing services", volume: 26000, kd: 0 },
+    secondary: [
+      { term: "content marketing agency", volume: 30000, kd: 28 },
+      { term: "content creation services", volume: 5600, kd: 0 },
+      { term: "b2b content marketing agency", volume: 4300, kd: 3 },
+      { term: "seo content services", volume: 3100, kd: 1 },
+      { term: "content strategy services", volume: 2500, kd: 0 },
+    ],
+    note:
+      "26,000 at KD 0 is the second-largest winnable term on the site after " +
+      "'local seo services'. It was found on 22 Sep 2026 while researching " +
+      "/services/multilingual-content and deliberately not taken there, " +
+      "because a page cannot be about multilingual content and about " +
+      "content marketing generally at the same time. The owner resolved it " +
+      "on 22 Sep by asking for a page of its own, which keeps both terms " +
+      "and cannibalises neither. 'b2b content marketing agency' carries a " +
+      "$25.00 CPC, the highest measured anywhere on this site. " +
+      "'content marketing agency' at 30,000 is bigger than the primary and " +
+      "sits at KD 28, so it is the term this page grows into rather than " +
+      "the one it opens with.",
+  },
+
   "/services/multilingual-content": {
     primary: { term: "multilingual content marketing", volume: 900, kd: 2 },
     secondary: [
@@ -261,11 +284,12 @@ export const KEYWORDS: Record<string, PageKeywords> = {
     ],
     note:
       "Researched 22 Sep 2026. 'content marketing services' measured 26,000 " +
-      "at KD 0 in the same batch, the second-largest winnable term found " +
-      "anywhere here, and it is not recorded as this page's primary because " +
-      "taking it would mean claiming general content marketing rather than " +
-      "multilingual content. An owner decision, open in " +
-      "docs/KEYWORD-RESEARCH-METHOD.md section 8, not a measurement.",
+      "at KD 0 in the same batch and is not this page's primary, because a " +
+      "page cannot be about multilingual content and about content " +
+      "marketing generally at the same time. The owner settled it the same " +
+      "day by asking for a separate page, so the term now belongs to " +
+      "/services/content-marketing and this page keeps the qualifier that " +
+      "makes it distinct.",
   },
 
   "/services/ai-translation-and-post-editing": {

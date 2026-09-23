@@ -174,20 +174,22 @@ export const SERVICES: Service[] = [
     slug: "lead-generation",
     name: "Multilingual lead generation",
     inline: "multilingual lead generation",
-    h1: "Multilingual lead generation services",
-    subhead: "Enquiries counted market by market, never blended into one number that hides which language is selling.",
+    h1: "B2B lead generation services for companies selling abroad",
+    subhead: "Your other markets already send you visitors. We turn them into enquiries worth a sales call, and show which market each one came from.",
     cluster: "Lead generation",
     pillar: true,
-    angle: "The outcome, not the mechanism",
-    lede: "Traffic in several languages and enquiries in one is the pattern we are called about most. What gets counted here is the enquiry, in the market it came from.",
-    metaTitle: "Lead generation services for multilingual sites",
-    metaDescription: "Traffic in several languages and enquiries in one? Multilingual lead generation counts the enquiry, market by market, and is judged on that number.",
-    sections: ["What gets measured", "How it is delivered", "The evidence", ...ENGAGEMENT.slice(2)],
+    angle: "Enquiries, not visits",
+    lede: "Traffic arrives in French, German and Spanish, and the enquiries still arrive in English. One client's Search Console showed forty thousand impressions in ninety days, and six clicks. The buyers were looking, and nothing was turning the looking into a conversation.",
+    metaTitle: "B2B lead generation services across every market",
+    metaDescription: "Your other markets send visitors and few enquiries. We turn them into leads worth a sales call, counted per market, with no markup on your ad spend.",
+    sections: ["What a blended report costs you", "What we do in each market", "How it is billed", "The evidence", ...ENGAGEMENT.slice(3)],
     // No `body` or `expandables` here on purpose: lead-generation has its own
     // hand-built route at app/services/lead-generation/page.tsx rather than
-    // rendering through services/[slug], and that route reads neither. It is
-    // the one service of nineteen with no expandables, and that is the reason
-    // rather than an oversight; its prose lives in the route instead.
+    // rendering through services/[slug]. Its prose and its questions live in
+    // that route. The route does read h1, subhead, lede and the meta fields
+    // from here, so the page and the services index cannot drift apart: until
+    // 23 Sep 2026 the route hardcoded its own h1, and the site carried two
+    // different h1s for one page.
   },
   {
     slug: "multilingual-sem",
@@ -1495,6 +1497,78 @@ export const SERVICES: Service[] = [
       },
     ],
     absorbs: ["on-page-seo", "keyword-research", "analytics-and-tracking", "english-seo", "link-building"],
+  },
+  {
+    slug: "content-marketing",
+    name: "Content marketing",
+    inline: "content marketing",
+    h1: "Content marketing services built from search demand",
+    subhead:
+      "Research first, so the pages you publish answer a question buyers are already asking rather than filling a slot in a calendar.",
+    cluster: "Supporting",
+    angle: "Demand first, calendar second",
+    lede: "You are publishing steadily and the enquiries have not moved. Nine times out of ten the calendar was built from what the business wanted to say, rather than from what its buyers are out looking for.",
+    metaTitle: "Content marketing services built from search demand",
+    metaDescription:
+      "Publishing steadily while enquiries stay flat usually means the calendar came from the business rather than from its buyers. See what changes when research comes first.",
+    sections: ["Where a publishing calendar loses the thread", ...ENGAGEMENT],
+    body: [
+      {
+        heading: "What a content programme is actually made of",
+        paragraphs: [
+          "Content strategy services are the half that decides whether the rest pays: which questions the business can credibly answer, which of those carry commercial intent, what already exists and can be rewritten rather than replaced, and the order it all gets published in. Deciding that first is what stops a programme becoming a list of articles nobody commissioned for a reason.",
+          "Content creation services are the other half, and they are a writing problem before they are a volume problem. A page earns its place by answering one question better than the pages already ranking for it, which takes a writer who understands the subject and an editor willing to reject a draft that merely covers the topic.",
+          "Measurement sits underneath both. A programme reports on what it produced, an engagement reports on what the production earned, and the gap between those two numbers is the whole argument for doing the research first.",
+        ],
+      },
+      {
+        heading: "What search-led content changes",
+        paragraphs: [
+          "SEO content services and content marketing are often sold as separate things, and treating them separately is how a business ends up with pages that rank for nothing and pages nobody wanted to read. The research says which subjects have demand, the writing decides whether the page deserves the position, and neither half works alone.",
+          "Demand research also tells you what not to write. A subject with no measurable search behind it can still be worth publishing, for a sales conversation or a newsletter, but it should be commissioned knowingly rather than because it filled a Tuesday.",
+        ],
+      },
+      {
+        heading: "Where this stops and the multilingual page starts",
+        paragraphs: [
+          "Everything above holds in one language. Run the same programme in three and a second set of decisions appears: the keyword set does not survive translation, the cluster shape differs by language, and trust signals have to exist in each one rather than once on the English site. Multilingual content marketing covers that ground, and the two pages are deliberately not the same page.",
+          "Most of the companies we do it for are B2B, which changes the brief more than the language does. A B2B content marketing agency is writing for a committee and a long cycle, so the page that earns the enquiry is usually the one answering the objection rather than the one introducing the subject.",
+        ],
+      },
+    ],
+    expandablesHeading: "The questions that come up before the first brief",
+    expandablesLede:
+      "What the research decides, what the writing decides, and where the two get confused.",
+    expandables: [
+      {
+        q: "Volume is a starting point, not an instruction",
+        a: [
+          "A term with a large number beside it can still be the wrong subject for a business, either because the people searching it are not buyers or because the pages already ranking are ones no newcomer displaces for two years. Both are visible before anything is commissioned, and both are cheaper to find then.",
+          "The terms worth taking first are usually the ones where the demand is real and the pages currently answering it are thin. Difficulty scores are an approximation of that, and reading the results themselves is the part that cannot be skipped.",
+        ],
+      },
+      {
+        q: "Rewriting usually beats publishing",
+        a: [
+          "Most sites arrive with pages that already rank somewhere in the second or third page of results for a term worth having. Lifting one of those is faster and more certain than starting a new page from nothing, and it costs a fraction of the words.",
+          "The instinct to publish something new is strong because new work is visible. An audit that returns fewer new pages than expected is usually the one doing its job.",
+        ],
+      },
+      {
+        q: "Cadence matters less than most calendars assume",
+        a: [
+          "Publishing weekly is a production decision dressed as a strategy. What moves is whether each page is the best answer to its question, and a business that ships one strong page a month will overtake one shipping four that merely exist.",
+          "A cadence is still worth setting, because work without one drifts. It just should not be the number the programme is judged on.",
+        ],
+      },
+      {
+        q: "Where we stop",
+        a: [
+          "We do not run social accounts, design campaign creative or buy media, and we do not place links on sites that sell them. Writing, research, structure and the reporting around them is the whole of it.",
+          "Where a language we do not write in is involved, the writing goes to a native copywriter from the BeTranslated network and we brief and review it, which is the same arrangement the language pages describe.",
+        ],
+      },
+    ],
   },
   {
     slug: "multilingual-content",

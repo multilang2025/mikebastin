@@ -131,8 +131,15 @@ export default function BlogIndex() {
                 </Reveal>
               )}
 
+              {/* Real space between the cards, not the hairline-rule trick
+                  the service lists use. Here every card opens with a
+                  full-bleed photograph, so a 1px gap put one photograph
+                  directly against the next and the grid read as a single
+                  collage: the rule it was meant to show through was
+                  invisible behind the images, and the row below started
+                  immediately under the row above's date. Owner, 22 Sep. */}
               {group.posts.length > 0 && (
-                <ul className="grid gap-px sm:grid-cols-2 lg:grid-cols-3" style={{ background: "var(--rule)" }}>
+                <ul className="grid gap-x-8 gap-y-12 sm:grid-cols-2 lg:grid-cols-3">
                   {group.posts.map((post, i) => (
                     <Reveal key={post.slug} i={i}>
                       <li className="band h-full" style={{ background: "var(--bg)" }}>
@@ -142,7 +149,11 @@ export default function BlogIndex() {
                             cluster={group.name}
                             className="aspect-[1200/630] w-full"
                           />
-                          <div className="flex flex-1 flex-col px-7 py-6">
+                          {/* No horizontal padding: the card's own surface is
+                              the section's, so there is no edge for the text
+                              to sit inside. Inset it and the title floats 28px
+                              right of the photograph above it. */}
+                          <div className="flex flex-1 flex-col pt-5">
                             <span className="ulink mb-2 text-[1.02rem] font-semibold leading-[1.3]">
                               {post.title}
                             </span>

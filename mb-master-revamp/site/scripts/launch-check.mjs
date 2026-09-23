@@ -69,7 +69,54 @@ console.log(`noindex, deliberate:    ${noindexed.length - blanket.length} pages`
 console.log(`robots.txt Disallow: /  ${disallowAll ? "YES" : "no"}`);
 console.log(`robots.txt Sitemap:     ${hasSitemap ? "present" : "MISSING"}`);
 
+/**
+ * The sitemap index and its six children.
+ *
+ * Checked because the split is easy to break quietly. A child that stops
+ * being generated leaves an index row pointing at a 404, and a locale
+ * whose entries lose their `kind` lands in no child at all: both produce
+ * a smaller, still-valid set of files that nothing else complains about.
+ * Summing the children against the index is the cheapest way to notice.
+ */
+const CHILDREN = [
+  "sitemap-en-pages.xml",
+  "sitemap-en-posts.xml",
+  "sitemap-fr-pages.xml",
+  "sitemap-fr-posts.xml",
+  "sitemap-es-pages.xml",
+  "sitemap-es-posts.xml",
+];
+const indexPath = join(OUT, "sitemap.xml");
+const indexXml = existsSync(indexPath) ? readFileSync(indexPath, "utf8") : "";
+const listed = [...indexXml.matchAll(/<loc>[^<]*\/([^/<]+\.xml)<\/loc>/g)].map((m) => m[1]);
+const missing = CHILDREN.filter((c) => !existsSync(join(OUT, c)));
+const unlisted = CHILDREN.filter((c) => !listed.includes(c));
+const counts = CHILDREN.filter((c) => existsSync(join(OUT, c))).map((c) => ({
+  name: c,
+  urls: (readFileSync(join(OUT, c), "utf8").match(/<loc>/g) || []).length,
+}));
+const totalUrls = counts.reduce((n, c) => n + c.urls, 0);
+
+console.log(
+  `sitemap index:          ${indexXml.includes("<sitemapindex") ? `${listed.length} children` : "MISSING"}` +
+    `, ${totalUrls} URLs total`
+);
+for (const c of counts) console.log(`  ${c.name.padEnd(24)} ${String(c.urls).padStart(4)}`);
+
 const problems = [];
+
+if (!indexXml.includes("<sitemapindex")) {
+  problems.push("out/sitemap.xml is not a sitemap index. app/sitemap.xml/route.ts should emit <sitemapindex>.");
+}
+if (missing.length) {
+  problems.push(`sitemap children missing from the build: ${missing.join(", ")}`);
+}
+if (unlisted.length) {
+  problems.push(`sitemap children not listed in the index: ${unlisted.join(", ")}`);
+}
+for (const c of counts) {
+  if (c.urls === 0) problems.push(`${c.name} contains no URLs, so that locale would be submitted empty.`);
+}
 
 // A half-flipped state is worse than either consistent one, because it
 // looks launched and is not, or looks private and is not.

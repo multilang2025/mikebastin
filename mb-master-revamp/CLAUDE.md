@@ -184,7 +184,10 @@ needs.
 - Design tokens (colour, type) come only from HANDOFF.md §2/§22/§23 (Night
   Swell / Morning Glass palette — aubergine is retired, do not reintroduce
   it). No hex outside that set. No monospace UI fonts.
-- Every legacy URL in `docs/sitemap-MB-EN.txt` resolves 200-same or 301s.
+- Every legacy URL in `docs/sitemap-MB-EN.txt` resolves 200-same or 301s,
+  and never through a chain. `npm run lint:redirects` enforces it, and
+  fails on a URL that 404s, a redirect whose target is redirected again,
+  and a rule pointing at a page that is not built.
   Never 404 on launch.
 - IP boundary: no Marvel/superhero imagery tied to "Silver Surfer" — it is a
   prose-only nickname, visual language is original surf/wave motifs.
@@ -379,6 +382,23 @@ chat history.
   the owner is the only honest route.
 - **The Unsplash key pasted in chat has not been rotated.** Erasing a
   message is not rotation.
+- **Three published claims contradict each other** (found 23 Sep 2026,
+  while choosing proof for `/services/lead-generation/`). Owner's facts, so
+  recorded rather than resolved, and none of the three was repeated on the
+  new page:
+  - `/services/multilingual-seo/` calls the Houston freight forwarder
+    **English and Spanish** on one domain and says **daily quote requests
+    doubled over eighteen months**. Its case study, `lib/projects.ts`
+    `tx-international-freight`, says **"EN, single market"** and "a single
+    market covered properly rather than several covered thinly".
+  - The Bemelman Spuiterij case study says **Noordwijkerhout**;
+    `/services/local-seo/` and `/services/dutch-seo/` say **Hillegom**.
+  - The Valencia law firm is **three languages** (ES, FR, EN) on
+    `/services/multilingual-seo/` and **four, including Russian**, on its
+    case study.
+  The quote-request doubling matters most: it is the one client outcome
+  on the site stated as a number, and the page carrying it describes the
+  account differently from the account's own case study.
 
 ## Agent roster
 
@@ -415,8 +435,9 @@ three featured post URLs, Valencia STAY-list sign-off, credibility strip
 numbers, the twelve posts rendering "Uncategorised", and the GEO
 blog/service term overlap. Closed since that list was written: repo org
 (`multilang2025/mikebastin`), Tier C prune (below), the 43 to 19 service
-consolidation (built and live in `lib/services.ts`), the host and the
-database (§27).
+consolidation (built and live in `lib/services.ts`, now 20 after the
+owner asked on 22 Sep for a page owning `content marketing services`),
+the host and the database (§27).
 
 **Tier C prune is CLOSED** (owner, 20 Sep). `docs/BLOG-PRUNE-AUDIT.md` holds
 the record. REMOVE and MERGE shipped the same day, with all 42 legacy URLs

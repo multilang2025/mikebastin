@@ -1,8 +1,48 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Mike Bastin">
-  <rect width="64" height="64" rx="13" fill="#0A1B28"/>
-  <!-- Two swell lines, the same motif the site's hero draws. Gold over silver. -->
-  <path d="M8 30 C 17 20, 25 20, 33 27 S 49 40, 56 25"
-        fill="none" stroke="#D9A94A" stroke-width="4.4" stroke-linecap="round"/>
-  <path d="M8 44 C 18 35, 26 35, 34 41 S 49 51, 56 40"
-        fill="none" stroke="#BCC9D3" stroke-width="3.4" stroke-linecap="round" opacity=".85"/>
+  <!--
+    The MB mark, drawn rather than traced.
+
+    The reference was a 704x384 concept sheet in which this favicon is
+    about 40px across, so there was nothing to extract: every asset here
+    is vector, built to match the design rather than cut out of it.
+
+    Berry is the default, which is the owner's instruction for the single
+    favicon a browser will take. The light-scheme override paints it in
+    the deep token, the teal the sheet shows on its light panel. One file serves
+    both, so nothing has to pick.
+
+    Replaces a mark still drawn in the gold and silver that HANDOFF §26
+    retired site-wide. The favicon was missed when they were pulled, so
+    the one asset every tab showed was the one still using them. Hex
+    values deliberately not repeated here: §26 says do not reintroduce
+    them, and a grep for either should not land in this file.
+  -->
+  <style>
+    .disc { fill: #C42640 }
+    .grid { stroke: #F5EFE2; stroke-width: 1.1; fill: none; opacity: .28 }
+    .mark { fill: #F5EFE2 }
+    @media (prefers-color-scheme: light) {
+      .disc { fill: #1C6580 }
+    }
+  </style>
+
+  <circle class="disc" cx="32" cy="32" r="31"/>
+
+  <!-- Globe: the equator, two tropics and two meridians. Faint enough to
+       read as texture at 32px and to disappear entirely at 16px, which is
+       the size where anything behind the letters becomes dirt. -->
+  <g class="grid">
+    <circle cx="32" cy="32" r="23"/>
+    <path d="M9 32 H55"/>
+    <path d="M13.5 21 H50.5"/>
+    <path d="M13.5 43 H50.5"/>
+    <path d="M32 9 C 20 20, 20 44, 32 55"/>
+    <path d="M32 9 C 44 20, 44 44, 32 55"/>
+  </g>
+
+  <!-- M -->
+  <path class="mark" d="M12 44 V20 h5.6 l5.4 11.4 L28.4 20 H34 v24 h-5 V29.6 l-4 8.2 h-3.9 l-4.1 -8.2 V44 Z"/>
+  <!-- B, counters cut with evenodd rather than painted over, so the disc
+       shows through and the letter stays correct on either background. -->
+  <path class="mark" fill-rule="evenodd" d="M37 20 h10.6 c4.3 0 7.2 2.4 7.2 5.9 c0 2.3 -1.2 4 -3.1 4.9 c2.5 0.9 4.1 2.9 4.1 5.7 c0 4.2 -3.2 7.5 -8.3 7.5 H37 Z M42 24.4 v4.4 h5.1 c1.8 0 2.8 -0.8 2.8 -2.2 c0 -1.4 -1 -2.2 -2.8 -2.2 Z M42 33 v6.6 h5.9 c2.2 0 3.5 -1.2 3.5 -3.3 c0 -2.1 -1.3 -3.3 -3.5 -3.3 Z"/>
 </svg>

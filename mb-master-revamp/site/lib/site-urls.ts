@@ -39,6 +39,18 @@ import { SITE_URL } from "@/lib/schema";
 export type UrlEntry = {
   /** Site-relative, always with a trailing slash. */
   path: string;
+  /**
+   * Which locale published it, and whether it is a page or a post.
+   *
+   * Both are set where the entry is built rather than inferred from the
+   * URL later, because the URL cannot carry it: an EN post sits at
+   * `/blog/<slug>/` while its French sibling sits at `/fr/<slug>/` with
+   * no segment naming it a post at all. A generator splitting the
+   * sitemap on path shape counted all 39 FR and ES posts as pages, which
+   * is the kind of wrong that looks right in a total.
+   */
+  locale: "en" | "fr" | "es";
+  kind: "page" | "post";
   /** ISO date, when the content carries one. */
   lastModified?: string;
   /** Section heading on the HTML sitemap. */
@@ -65,7 +77,7 @@ const STATIC: { path: string; section: string; label: string }[] = [
 ];
 
 export function getSiteUrls(): UrlEntry[] {
-  const out: UrlEntry[] = [...STATIC];
+  const out: UrlEntry[] = STATIC.map((e) => ({ ...e, locale: "en" as const, kind: "page" as const }));
 
   // Services. lead-generation has its own hand-built route rather than
   // going through /services/[slug]/, but its URL is the same shape, so it
@@ -78,6 +90,8 @@ export function getSiteUrls(): UrlEntry[] {
     const group = serviceGroupForEnSlug(s.slug);
     out.push({
       path: `/services/${s.slug}/`,
+      locale: "en",
+      kind: "page",
       section: "Services",
       label: s.name,
       languages: group ? serviceHreflang(group) : undefined,
@@ -87,6 +101,10 @@ export function getSiteUrls(): UrlEntry[] {
   for (const t of getTopics()) {
     out.push({
       path: `/blog/topics/${t.slug}/`,
+      locale: "en",
+      // A topic listing is an archive, not an article, so it goes with
+      // the pages. Nothing on it is written; it indexes what is.
+      kind: "page",
       section: "Journal topics",
       label: t.name,
     });
@@ -97,6 +115,8 @@ export function getSiteUrls(): UrlEntry[] {
   for (const p of getPosts()) {
     out.push({
       path: postPath("en", p.slug),
+      locale: "en",
+      kind: "post",
       lastModified: p.modified || p.date,
       section: "Journal",
       label: p.title,
@@ -107,6 +127,8 @@ export function getSiteUrls(): UrlEntry[] {
   for (const pr of PROJECTS) {
     out.push({
       path: `/projects/${pr.slug}/`,
+      locale: "en",
+      kind: "page",
       section: "Work",
       label: pr.name,
     });
@@ -117,6 +139,8 @@ export function getSiteUrls(): UrlEntry[] {
     for (const p of getPostsForLocale(locale)) {
       out.push({
         path: postPath(locale, p.slug),
+        locale,
+        kind: "post",
         lastModified: p.modified || p.date,
         section: heading,
         label: p.title,
@@ -126,6 +150,8 @@ export function getSiteUrls(): UrlEntry[] {
     for (const sv of getServicesForLocale(locale)) {
       out.push({
         path: servicePath(locale, sv.slug),
+        locale,
+        kind: "page",
         lastModified: sv.modified || sv.date,
         section: `${heading} services`,
         label: sv.title,
