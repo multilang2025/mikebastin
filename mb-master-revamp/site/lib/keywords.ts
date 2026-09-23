@@ -184,9 +184,19 @@ export const KEYWORDS: Record<string, PageKeywords> = {
     primary: { term: "french seo", volume: 800, kd: null },
     secondary: [
       { term: "french seo agency", volume: 700, kd: null },
+      { term: "seo france", volume: 1100, kd: null },
+      { term: "seo agency france", volume: 600, kd: null },
       { term: "french seo services", volume: 350, kd: null },
       { term: "french seo consultant", volume: 300, kd: null },
     ],
+    note:
+      "Re-measured 23 Sep 2026, worldwide volumes with the GB share checked. " +
+      "The English-language demand sits outside France: 'french seo agency' " +
+      "is 500 of its 700 in the UK. The page's own Search Console (24 Mar to " +
+      "20 Sep 2026) has 'seo frankrijk' as its biggest query at 1,193 " +
+      "impressions, ahead of 'french seo' at 1,030, plus German queries for " +
+      "an SEO agency in France. The h1 names that buyer. Ahrefs returns no " +
+      "difficulty score for any French term measured.",
   },
   "/services/german-seo": {
     primary: { term: "german seo", volume: 1000, kd: 1 },

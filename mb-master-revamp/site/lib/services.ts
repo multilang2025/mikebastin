@@ -431,28 +431,59 @@ export const SERVICES: Service[] = [
     slug: "french-seo",
     name: "French SEO",
     inline: "French SEO",
-    h1: "French SEO agency for France, Belgium and Switzerland",
-    subhead: "Written natively per market rather than translated from the English, because a French buyer researches before enquiring.",
+    h1: "French SEO agency for companies selling into France",
+    subhead: "Researched and written in French rather than translated into it, so buyers in France, Belgium and Switzerland read a supplier they can trust with the enquiry.",
     cluster: "Search",
-    angle: "SEO France, where the francophone volume sits",
-    lede: "France is where the francophone search volume actually sits, while Belgium and Switzerland are where the network is. Winning French means writing for France first and selling through the other two.",
-    metaTitle: "French SEO agency, France and Belgium",
-    metaDescription: "France carries most of the francophone search volume in this market. See what a proper French SEO engagement covers, market by market.",
-    sections: ["Three ways to fail at French SEO", ...ENGAGEMENT],
+    angle: "SEO France, from the outside in",
+    lede: "You have French pages, French visitors, and fewer French enquiries than the market should send you. A French buyer compares suppliers before contacting any of them, and a site that reads as translated rarely makes the shortlist.",
+    metaTitle: "French SEO agency for companies selling into France",
+    metaDescription: "French buyers spot a translated page within a sentence. We research and write your French site in French, so French traffic turns into enquiries.",
+    // Research, 23 Sep 2026 (Ahrefs GB and worldwide, plus this page's own
+    // Search Console for 24 Mar to 20 Sep 2026): the people searching for
+    // French SEO in English are mostly outside France. 500 of the 700
+    // monthly searches for `french seo agency` come from the UK, and the
+    // page's single biggest query is the Dutch `seo frankrijk` (1,193
+    // impressions), ahead of `french seo` itself (1,030). German queries
+    // for an SEO agency in France show up too. So the h1 names the buyer,
+    // a company selling into France, rather than listing three countries.
+    sections: [
+      "French keyword research, done in French, market by market",
+      "An audit of the French pages you already have against what French buyers search",
+      "The pages that matter most rewritten or written natively in French",
+      "Setup for France: domain choice, language targeting and mobile speed",
+      "A French Google Business Profile, French directory listings and French reviews",
+      "Monthly reporting on French enquiries, kept apart from your other markets",
+    ],
     body: [
       {
-        heading: "Where French SEO goes wrong across four markets",
+        heading: "What a translated French site costs you",
         paragraphs: [
-          "France, Belgium, Switzerland and Quebec share a language but not a market. Pricing in EUR does not automatically work for CHF, local search habits do not transfer between them, and treating the four as one audience produces copy that reads as slightly foreign everywhere at once. Hreflang fr-FR, fr-BE, fr-CH and fr-CA disambiguate when more than one is genuinely in scope.",
-          "A page translated from English by an agency that does not master the sector produces French that is grammatically fine and commercially flat. French readers notice the register is off before they notice anything else, and the trust never quite forms.",
-          "Most French search happens on mobile, so a site that is technically sound on desktop but slow or awkward on a phone loses the majority of its own audience before the content gets read. Page speed and mobile usability carry most of the traffic on this market, not an optional extra.",
+          "A French buyer shortlists the way yours do: read a few sites, compare them, contact one or two. A page translated from English gives itself away in the first sentence, through a word nobody in France would choose, a register that is slightly off or an example that only makes sense in Britain, and the buyer moves on to a supplier who sounds local.",
+          "Nothing in your reports records the moment. The French traffic keeps arriving, so the numbers look healthy, and the enquiry that went to a French competitor with a weaker product and better French never appears anywhere.",
+          "France is the largest French-speaking market in Europe, so a French site that reads as foreign loses the biggest share of the audience it was built to win.",
         ],
       },
       {
-        heading: "What a proper French SEO engagement covers",
+        heading: "French SEO written in French, not translated into it",
         paragraphs: [
-          "Native keyword research targeted at France first, since it carries the largest share of francophone search volume, with Belgium and Switzerland picked up through the existing network rather than treated as the primary target. Local citations, French-language backlinks and Google Business Profile optimization for city-level queries from Paris and Lyon to Brussels and Geneva.",
-          "Content localization that adapts tone and cultural reference rather than translating word for word, technical optimization for mobile-first search behaviour, and authority building through French press, sector directories and customer reviews that feed E-E-A-T signals directly.",
+          "We research what French buyers actually type, in French and market by market. Their words are rarely a translation of yours: a British buyer searches for SEO, while a French one often types “référencement naturel” instead, and a site that only ever says SEO misses them. Research that starts from the English keyword list never finds the gap.",
+          "French runs directly here, with no translator in between. The research, the page copy and the reading of what French visitors do are all handled in French by the people setting the strategy, so nothing gets lost between the plan and the page.",
+          "Then the things that make a French buyer trust a supplier they have never met: a Google Business Profile in French, listings in the French directories your sector uses, reviews from French customers, and mentions in the French trade press.",
+        ],
+      },
+      {
+        heading: "Most people searching for French SEO are outside France",
+        paragraphs: [
+          "When we measured the demand in September 2026, 500 of the 700 monthly searches worldwide for a French SEO agency came from the UK. Search Console for this page tells the same story from other directions: its biggest query is “seo frankrijk”, in Dutch, ahead of “french seo” itself, and German-language searches for an SEO agency in France turn up too.",
+          "So the typical buyer is a company outside France selling into it, and that is who this service is built for. You write the brief in English, Dutch or French, and the work is done in French.",
+        ],
+      },
+      {
+        heading: "French sites we run for ourselves and for clients",
+        paragraphs: [
+          "BeTranslated, the translation agency we co-founded twenty years ago, runs its French site on its own .fr domain, with keyword research done for France rather than carried over from the .com.",
+          "Matosurf is our own French board sports site: a hundred and twenty guides to forty-eight French spots, written in French for French riders rather than translated for them.",
+          "For Delaguía y Luzón, a Valencia law firm working across Spain and France, the French pages are held to the standard a French lawyer would apply when reading them, because in legal content a wrong term is a liability before it is a lost ranking.",
         ],
       },
     ],
@@ -477,7 +508,7 @@ export const SERVICES: Service[] = [
       {
         q: "French runs longer than English",
         a: [
-          "The same sentence typically runs 15 to 20 percent longer in French. A title tag and meta description written to length in English and then translated overflow the snippet, and get cut mid-phrase in the result that was supposed to win the click.",
+          "French usually runs longer than the English it replaces. A title tag and meta description written to length in English and then translated overflow the snippet, and get cut mid-phrase in the result that was supposed to win the click.",
           "Write them natively to the French limit rather than translating to it. The same expansion shows up in navigation labels and buttons, which is a layout problem before it is a search one.",
         ],
       },
@@ -491,8 +522,22 @@ export const SERVICES: Service[] = [
       {
         q: "Where the searching actually happens",
         a: [
-          "Most French search is on a phone, so a site that is fast and comfortable on desktop and merely tolerable on mobile is failing the larger half of its own audience before a word of the copy is read.",
+          "A large share of French search happens on a phone, so a site that is fast and comfortable on desktop and merely tolerable on mobile is failing much of its own audience before a word of the copy is read.",
           "Google carries the market. Qwant exists and is French, and it is worth knowing about rather than optimizing separately for.",
+        ],
+      },
+      {
+        q: "Belgium: two languages, one buyer",
+        a: [
+          "A Belgian company usually needs French and Dutch side by side, and a Belgian buyer notices which of the two was written first. Treating the Dutch as a translation of the French, or the other way round, loses half the country.",
+          "French and Dutch both run directly here, so a Belgian site gets one strategy in two languages rather than two agencies working from two briefs. The fr-BE and nl-BE versions stay apart from the French and Dutch sites aimed at France and the Netherlands.",
+        ],
+      },
+      {
+        q: "French SEO or French translation first",
+        a: [
+          "Research first, every time. A page translated well and then optimized afterwards ends up rewritten, because the French terms buyers search for were never in the brief the translator worked from.",
+          "Where the translation is already done, the audit shows which pages are worth rewriting around French search and which can stay as they are. Usually it is a handful, not the whole site.",
         ],
       },
     ],
@@ -500,7 +545,7 @@ export const SERVICES: Service[] = [
     demand: {
       volume: 2700,
       kd: "3 to 6",
-      note: "Largest of the six, and the most expensive to buy: `seo france` carries the highest cost per click of any language-market term we measured.",
+      note: "Largest of the six language markets. Most of it is not in France: re-measured on 23 September 2026, 500 of the 700 monthly searches for `french seo agency` come from the UK, and Dutch and German searches for SEO in France add to it.",
     },
   },
   {
