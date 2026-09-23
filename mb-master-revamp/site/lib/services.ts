@@ -174,20 +174,22 @@ export const SERVICES: Service[] = [
     slug: "lead-generation",
     name: "Multilingual lead generation",
     inline: "multilingual lead generation",
-    h1: "Multilingual lead generation services",
-    subhead: "Enquiries counted market by market, never blended into one number that hides which language is selling.",
+    h1: "B2B lead generation services for companies selling abroad",
+    subhead: "Your other markets already send you visitors. We turn them into enquiries worth a sales call, and show which market each one came from.",
     cluster: "Lead generation",
     pillar: true,
-    angle: "The outcome, not the mechanism",
-    lede: "Traffic in several languages and enquiries in one is the pattern we are called about most. What gets counted here is the enquiry, in the market it came from.",
-    metaTitle: "Lead generation services for multilingual sites",
-    metaDescription: "Traffic in several languages and enquiries in one? Multilingual lead generation counts the enquiry, market by market, and is judged on that number.",
-    sections: ["What gets measured", "How it is delivered", "The evidence", ...ENGAGEMENT.slice(2)],
+    angle: "Enquiries, not visits",
+    lede: "Traffic arrives in French, German and Spanish, and the enquiries still arrive in English. One client's Search Console showed forty thousand impressions in ninety days, and six clicks. The buyers were looking, and nothing was turning the looking into a conversation.",
+    metaTitle: "B2B lead generation services across every market",
+    metaDescription: "Your other markets send visitors and few enquiries. We turn them into leads worth a sales call, counted per market, with no markup on your ad spend.",
+    sections: ["What a blended report costs you", "What we do in each market", "How it is billed", "The evidence", ...ENGAGEMENT.slice(3)],
     // No `body` or `expandables` here on purpose: lead-generation has its own
     // hand-built route at app/services/lead-generation/page.tsx rather than
-    // rendering through services/[slug], and that route reads neither. It is
-    // the one service of nineteen with no expandables, and that is the reason
-    // rather than an oversight; its prose lives in the route instead.
+    // rendering through services/[slug]. Its prose and its questions live in
+    // that route. The route does read h1, subhead, lede and the meta fields
+    // from here, so the page and the services index cannot drift apart: until
+    // 23 Sep 2026 the route hardcoded its own h1, and the site carried two
+    // different h1s for one page.
   },
   {
     slug: "multilingual-sem",

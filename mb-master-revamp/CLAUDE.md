@@ -382,6 +382,23 @@ chat history.
   the owner is the only honest route.
 - **The Unsplash key pasted in chat has not been rotated.** Erasing a
   message is not rotation.
+- **Three published claims contradict each other** (found 23 Sep 2026,
+  while choosing proof for `/services/lead-generation/`). Owner's facts, so
+  recorded rather than resolved, and none of the three was repeated on the
+  new page:
+  - `/services/multilingual-seo/` calls the Houston freight forwarder
+    **English and Spanish** on one domain and says **daily quote requests
+    doubled over eighteen months**. Its case study, `lib/projects.ts`
+    `tx-international-freight`, says **"EN, single market"** and "a single
+    market covered properly rather than several covered thinly".
+  - The Bemelman Spuiterij case study says **Noordwijkerhout**;
+    `/services/local-seo/` and `/services/dutch-seo/` say **Hillegom**.
+  - The Valencia law firm is **three languages** (ES, FR, EN) on
+    `/services/multilingual-seo/` and **four, including Russian**, on its
+    case study.
+  The quote-request doubling matters most: it is the one client outcome
+  on the site stated as a number, and the page carrying it describes the
+  account differently from the account's own case study.
 
 ## Agent roster
 
