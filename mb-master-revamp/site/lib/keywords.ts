@@ -107,6 +107,7 @@ export const KEYWORDS: Record<string, PageKeywords> = {
       { term: "local seo services for small business", volume: 4300, kd: 3 },
       { term: "local business seo services", volume: 2700, kd: 3 },
       { term: "local seo marketing services", volume: 3200, kd: 2 },
+      { term: "local seo agency", volume: 24000, kd: 6 },
     ],
     note:
       "47,000 at KD 5 is the largest winnable term anywhere on this site by " +
