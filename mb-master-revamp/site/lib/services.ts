@@ -481,7 +481,7 @@ export const SERVICES: Service[] = [
       {
         heading: "French sites we run for ourselves and for clients",
         paragraphs: [
-          "BeTranslated, the translation agency we co-founded twenty years ago, runs its French site on its own .fr domain, with keyword research done for France rather than carried over from the .com.",
+          "BeTranslated, the translation agency we have run for twenty years, has its French site on its own .fr domain, with keyword research done for France rather than carried over from the .com.",
           "Matosurf is our own French board sports site: a hundred and twenty guides to forty-eight French spots, written in French for French riders rather than translated for them.",
           "For Delaguía y Luzón, a Valencia law firm working across Spain and France, the French pages are held to the standard a French lawyer would apply when reading them, because in legal content a wrong term is a liability before it is a lost ranking.",
         ],
@@ -552,28 +552,58 @@ export const SERVICES: Service[] = [
     slug: "german-seo",
     name: "German SEO",
     inline: "German SEO",
-    h1: "German SEO agency for Germany, Austria and Switzerland",
-    subhead: "Written natively for a market that reads the detail, compares carefully and enquires once it is satisfied.",
+    h1: "German SEO agency for companies expanding into Germany",
+    subhead: "Strategy agreed with you in English or French, every German page written by native German copywriters, so buyers in Germany, Austria and Switzerland read a supplier that sounds local.",
     cluster: "Search",
-    angle: "SEO Germany, researched longer, decided slower",
-    lede: "German buyers research further before enquiring than most markets, so the page that wins is the one that answers the question rather than the one that ranks loudest.",
-    metaTitle: "German SEO agency, DACH markets",
-    metaDescription: "German buyers research longer before enquiring than most markets. See the SEO approach built to answer the question, not just rank for it.",
-    sections: ["Three ways to fail at German SEO", ...ENGAGEMENT],
+    angle: "SEO Germany, planned with you, written by Germans",
+    lede: "Your German pages bring visitors and very few enquiries. A German buyer reads the whole page, checks who is behind it, and leaves the moment the German sounds translated or the company details they expect are missing.",
+    metaTitle: "German SEO agency for companies expanding into Germany",
+    metaDescription: "German buyers read the whole page and leave when it sounds translated. Strategy agreed with you, German written by native copywriters, so visits turn into enquiries.",
+    // Research, 23 Sep 2026 (Ahrefs GB, NL and worldwide, plus this page's
+    // own Search Console for 24 Mar to 20 Sep 2026). The demand is spread
+    // across Europe rather than concentrated in the UK: 150 of the 1,000
+    // monthly searches for `german seo` are British, the Dutch search
+    // `duitse seo` (200) and `seo duitsland` (150), and the page collects
+    // impressions in Spanish, Italian, Dutch, French and the Scandinavian
+    // languages. So the h1 names the buyer, a company expanding into
+    // Germany, the same shape as the French page.
+    sections: [
+      "An audit of your German pages against three direct German competitors",
+      "Keyword research in German, by native speakers, market by market",
+      "A strategy and editorial calendar agreed with you in English or French",
+      "German pages written by native copywriters and read by a second native before they go live",
+      "Impressum, privacy policy and opt-in consent set up the way a German buyer expects",
+      "Monthly reporting on German enquiries, in English or French",
+    ],
     body: [
       {
-        heading: "The DACH region is three markets, not one",
+        heading: "What a German site that reads as foreign costs you",
         paragraphs: [
-          "Germany, Austria and Switzerland share a language with real variation. A word used everyday in one shifts slightly in another, prices run in CHF for the Swiss market and EUR for the other two, and tax law differs by country even where the vocabulary overlaps. Hreflang de-DE, de-AT and de-CH kept distinct is what serious DACH targeting actually looks like.",
-          "German carries long compound words, a formal register and dense sector jargon. A site translated from English by a service that does not know the sector reads as awkward to a native, and the trust drops immediately even when the traffic numbers look fine.",
-          "A full Impressum with tax ID and register entry, GDPR-strict cookie consent with no soft opt-in, and a visible German phone number are legal requirements in Germany, not nice-to-haves. Missing any of them reads as a foreign site to a German buyer and costs conversions that never show up as a ranking problem.",
+          "German buyers read. They go through the page, compare it with two or three others, and look for the company details before they trust anyone with an enquiry. A page translated from English gives itself away in the first paragraph, through a compound word nobody would build that way, a register that swings between Sie and du, or an example that only makes sense at home.",
+          "Missing company details do the same damage faster. A German site is expected to carry a full Impressum with the register entry and tax number, and a proper opt-in for cookies. A site without them reads as foreign, or as careless, and the buyer moves on to a German competitor without anything showing up in your reports.",
+          "Germany is the largest economy in Europe, so a German site that loses the comparison loses the biggest market it could have opened.",
         ],
       },
       {
-        heading: "Piloted here, written natively",
+        heading: "Planned with you, written by native Germans",
         paragraphs: [
-          "German SEO needs two distinct skills at once: strategic piloting (architecture, keyword targets, technical setup, editorial calendar) and native execution (writing, tone, regulatory compliance). We handle the first directly and hand the second to native German copywriters from the BeTranslated network, briefed and reviewed in English or French. One German SEO expert rarely covers both halves, which is why the work is split rather than handed to a single pair of hands.",
-          "Impressum compliant with the Telemediengesetz, a strict GDPR-aligned privacy policy, an opt-in cookie banner and, for stores, Trusted Shops integration where it fits. Outreach targets German regional press and trade directories such as IHK listings rather than links bought from an unrelated market.",
+          "German SEO needs two skills at once. One is the plan: which pages, which searches, which market first, and how the site is set up. The other is German that a native reads without noticing it was written for them. We do the first with you directly, in English or French, and native German copywriters do the second.",
+          "We say so plainly because most agencies that offer German work the same way and let you find out later. You get one person to talk to, one invoice, and German written by Germans, with every page briefed and checked against the plan before it goes live.",
+          "Then the details a German buyer checks before trusting a supplier: the Impressum, the privacy policy, a German phone number where you have one, listings in German trade directories and with the local chamber of commerce, and mentions in the German trade press.",
+        ],
+      },
+      {
+        heading: "Companies all over Europe are looking for German SEO",
+        paragraphs: [
+          "When we measured the demand in September 2026, only 150 of the 1,000 monthly searches worldwide for German SEO came from the UK. Dutch businesses search for it in Dutch, and Search Console for this page shows the same search in Spanish, Italian, French, Dutch and the Scandinavian languages.",
+          "So the typical buyer is a company that already sells well at home and wants Germany next, and that is who this service is built for. You work with us in English or French, and your German buyers read German.",
+        ],
+      },
+      {
+        heading: "Where the German writing comes from",
+        paragraphs: [
+          "The German is written by the native German translators and copywriters of BeTranslated, the translation agency we have run for twenty years. They have written German for clients selling into Germany, Austria and Switzerland for years, and they work from our briefs rather than from a translated English page.",
+          "Every page is read by a second native German before it goes live, and by your own team after that. We review each one against the plan, so a page that reads well but answers the wrong search still goes back.",
         ],
       },
     ],
@@ -612,8 +642,15 @@ export const SERVICES: Service[] = [
       {
         q: "Where the compliance work stops",
         a: [
-          "We set up the technical side: an Impressum carrying what the Telemediengesetz requires, a privacy policy aligned to GDPR and the Bundesdatenschutzgesetz, and consent that is an actual opt-in.",
+          "We set up the technical side: an Impressum carrying what the Digitale-Dienste-Gesetz requires (it replaced the Telemediengesetz in May 2024), a privacy policy aligned to GDPR and the Bundesdatenschutzgesetz, and consent that is an actual opt-in.",
           "Where the question is legal rather than technical, sensitive data, employee tracking, marketing profiling, that is a German lawyer's work and we say so rather than improvising it.",
+        ],
+      },
+  {
+        q: "German SEO or German translation first",
+        a: [
+          "Research first. A page translated into German and optimized afterwards ends up rewritten, because the German terms buyers actually search for were never in the brief the translator worked from.",
+          "Where the German translation already exists, the audit shows which pages are worth rewriting around German search and which can stay. Usually it is a handful rather than the whole site.",
         ],
       },
     ],
@@ -621,7 +658,7 @@ export const SERVICES: Service[] = [
     demand: {
       volume: 2350,
       kd: "0 to 1",
-      note: "Second-largest and the easiest of the six. Nearly the size of French at a fraction of the difficulty, which makes it the next page to build.",
+      note: "Second-largest and the easiest of the six. Re-measured on 23 September 2026, only 150 of the 1,000 monthly searches for `german seo` come from the UK, and Dutch searches such as `duitse seo` add 200 more of their own.",
     },
   },
   {

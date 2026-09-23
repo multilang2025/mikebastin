@@ -201,10 +201,19 @@ export const KEYWORDS: Record<string, PageKeywords> = {
   "/services/german-seo": {
     primary: { term: "german seo", volume: 1000, kd: 1 },
     secondary: [
+      { term: "seo germany", volume: 1000, kd: null },
+      { term: "seo agency germany", volume: 600, kd: null },
       { term: "german seo services", volume: 450, kd: null },
       { term: "german seo agency", volume: 350, kd: null },
       { term: "german seo expert", volume: 300, kd: null },
     ],
+    note:
+      "Re-measured 23 Sep 2026, worldwide volumes with the GB and NL shares " +
+      "checked. Only 150 of the 1,000 for 'german seo' are British; Dutch " +
+      "adds 'duitse seo' (200) and 'seo duitsland' (150). The page's Search " +
+      "Console (24 Mar to 20 Sep 2026) shows the same search in Spanish, " +
+      "Italian, French, Dutch and Scandinavian languages. 'german serp " +
+      "tracking' (1,061 impressions) is tool intent and not a target.",
   },
   "/services/spanish-seo": {
     primary: { term: "spanish seo", volume: 1100, kd: 0 },
