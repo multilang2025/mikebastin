@@ -21,21 +21,42 @@ typing, minimalist desks, antique brass globes, glass office buildings.
 Every prompt below respects that list, and so avoids the exact images it
 is replacing.
 
-## Enter these once, in the tool
+## Settings, as the app actually shows them
 
-**Palette field.** The site's own tokens, so the images sit in the page
-rather than on it:
+Checked against the running app on 23 September 2026, which corrected an
+earlier version of this sheet that described a palette field the app
+does not have.
+
+- **Output style: HYPERREALISTIC.** One style for all sixteen, so the
+  journal reads as a set. It matches the one hero the owner has supplied
+  so far, on `alternatives-to-google-analytics`.
+- **Aspect ratio: 16:9 LANDSCAPE**, not the `1200x640` preset. The preset
+  resizes by drawing the image onto a 1200x640 canvas without keeping its
+  proportions, which stretches a 16:9 picture about five per cent wider.
+  Take 16:9 and the crop to 1200x630 happens here, without distortion.
+- **Resolution: 1K (STANDARD).** Already wider than the 1200px the site
+  serves, so a larger size costs more and adds nothing.
+- **Branding and protection: off.** In the app's code this switch stamps
+  a text watermark into the bottom-right corner, which a hero image should
+  not carry.
+- **High quality (paid): on**, as the app already shows it. That is what
+  selects the Gemini 3.1 Flash Image model.
+
+## The palette goes in the prompt
+
+There is no palette field. The app's branding block asks for "a colour
+palette matching" a value it fills from the **Analyze** step, and falls
+back to "Professional and modern" when nothing was analysed. So each
+prompt below ends with the site's own tokens, which is the one way to get
+them into the picture without relying on Analyze reading the palette
+correctly off a page:
 
 ```
-deep navy #0F2837, warm cream #F5F0E4, deep sea teal #1C6580, berry red #C42640 used sparingly as an accent
+Colour palette: deep navy #0F2837, warm cream #F5F0E4, deep sea teal #1C6580, with berry red #C42640 only as a small accent. Calm, coastal, sea-toned light.
 ```
 
-**Size.** `1200x640`, the tool's preset closest to the site's 1200x630.
-The last 10px come off in the crop.
-
-**Style.** One of the two, applied to all sixteen so the journal reads as
-one set. Hyperrealistic matches the one hero the owner has supplied so
-far, on `alternatives-to-google-analytics`.
+Paste the prompt from the table, add that line after it, and generate.
+Together they stay inside the app's 1,000-character limit.
 
 ## Why these sixteen
 
@@ -47,7 +68,7 @@ logo, a brand name or legible text.
 
 ## The prompts
 
-Each is the subject line only. The tool adds the branding block itself.
+Each is the subject line. Add the palette line above after it; the app adds its own branding block on top.
 
 | Post | Prompt |
 |---|---|
