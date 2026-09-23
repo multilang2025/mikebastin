@@ -431,28 +431,59 @@ export const SERVICES: Service[] = [
     slug: "french-seo",
     name: "French SEO",
     inline: "French SEO",
-    h1: "French SEO agency for France, Belgium and Switzerland",
-    subhead: "Written natively per market rather than translated from the English, because a French buyer researches before enquiring.",
+    h1: "French SEO agency for companies selling into France",
+    subhead: "Researched and written in French rather than translated into it, so buyers in France, Belgium and Switzerland read a supplier they can trust with the enquiry.",
     cluster: "Search",
-    angle: "SEO France, where the francophone volume sits",
-    lede: "France is where the francophone search volume actually sits, while Belgium and Switzerland are where the network is. Winning French means writing for France first and selling through the other two.",
-    metaTitle: "French SEO agency, France and Belgium",
-    metaDescription: "France carries most of the francophone search volume in this market. See what a proper French SEO engagement covers, market by market.",
-    sections: ["Three ways to fail at French SEO", ...ENGAGEMENT],
+    angle: "SEO France, from the outside in",
+    lede: "You have French pages, French visitors, and fewer French enquiries than the market should send you. A French buyer compares suppliers before contacting any of them, and a site that reads as translated rarely makes the shortlist.",
+    metaTitle: "French SEO agency for companies selling into France",
+    metaDescription: "French buyers spot a translated page within a sentence. We research and write your French site in French, so French traffic turns into enquiries.",
+    // Research, 23 Sep 2026 (Ahrefs GB and worldwide, plus this page's own
+    // Search Console for 24 Mar to 20 Sep 2026): the people searching for
+    // French SEO in English are mostly outside France. 500 of the 700
+    // monthly searches for `french seo agency` come from the UK, and the
+    // page's single biggest query is the Dutch `seo frankrijk` (1,193
+    // impressions), ahead of `french seo` itself (1,030). German queries
+    // for an SEO agency in France show up too. So the h1 names the buyer,
+    // a company selling into France, rather than listing three countries.
+    sections: [
+      "French keyword research, done in French, market by market",
+      "An audit of the French pages you already have against what French buyers search",
+      "The pages that matter most rewritten or written natively in French",
+      "Setup for France: domain choice, language targeting and mobile speed",
+      "A French Google Business Profile, French directory listings and French reviews",
+      "Monthly reporting on French enquiries, kept apart from your other markets",
+    ],
     body: [
       {
-        heading: "Where French SEO goes wrong across four markets",
+        heading: "What a translated French site costs you",
         paragraphs: [
-          "France, Belgium, Switzerland and Quebec share a language but not a market. Pricing in EUR does not automatically work for CHF, local search habits do not transfer between them, and treating the four as one audience produces copy that reads as slightly foreign everywhere at once. Hreflang fr-FR, fr-BE, fr-CH and fr-CA disambiguate when more than one is genuinely in scope.",
-          "A page translated from English by an agency that does not master the sector produces French that is grammatically fine and commercially flat. French readers notice the register is off before they notice anything else, and the trust never quite forms.",
-          "Most French search happens on mobile, so a site that is technically sound on desktop but slow or awkward on a phone loses the majority of its own audience before the content gets read. Page speed and mobile usability carry most of the traffic on this market, not an optional extra.",
+          "A French buyer shortlists the way yours do: read a few sites, compare them, contact one or two. A page translated from English gives itself away in the first sentence, through a word nobody in France would choose, a register that is slightly off or an example that only makes sense in Britain, and the buyer moves on to a supplier who sounds local.",
+          "Nothing in your reports records the moment. The French traffic keeps arriving, so the numbers look healthy, and the enquiry that went to a French competitor with a weaker product and better French never appears anywhere.",
+          "France is the largest French-speaking market in Europe, so a French site that reads as foreign loses the biggest share of the audience it was built to win.",
         ],
       },
       {
-        heading: "What a proper French SEO engagement covers",
+        heading: "French SEO written in French, not translated into it",
         paragraphs: [
-          "Native keyword research targeted at France first, since it carries the largest share of francophone search volume, with Belgium and Switzerland picked up through the existing network rather than treated as the primary target. Local citations, French-language backlinks and Google Business Profile optimization for city-level queries from Paris and Lyon to Brussels and Geneva.",
-          "Content localization that adapts tone and cultural reference rather than translating word for word, technical optimization for mobile-first search behaviour, and authority building through French press, sector directories and customer reviews that feed E-E-A-T signals directly.",
+          "We research what French buyers actually type, in French and market by market. Their words are rarely a translation of yours: a British buyer searches for SEO, while a French one often types “référencement naturel” instead, and a site that only ever says SEO misses them. Research that starts from the English keyword list never finds the gap.",
+          "French runs directly here, with no translator in between. The research, the page copy and the reading of what French visitors do are all handled in French by the people setting the strategy, so nothing gets lost between the plan and the page.",
+          "Then the things that make a French buyer trust a supplier they have never met: a Google Business Profile in French, listings in the French directories your sector uses, reviews from French customers, and mentions in the French trade press.",
+        ],
+      },
+      {
+        heading: "Most people searching for French SEO are outside France",
+        paragraphs: [
+          "When we measured the demand in September 2026, 500 of the 700 monthly searches worldwide for a French SEO agency came from the UK. Search Console for this page tells the same story from other directions: its biggest query is “seo frankrijk”, in Dutch, ahead of “french seo” itself, and German-language searches for an SEO agency in France turn up too.",
+          "So the typical buyer is a company outside France selling into it, and that is who this service is built for. You write the brief in English, Dutch or French, and the work is done in French.",
+        ],
+      },
+      {
+        heading: "French sites we run for ourselves and for clients",
+        paragraphs: [
+          "BeTranslated, the translation agency we have run for twenty years, has its French site on its own .fr domain, with keyword research done for France rather than carried over from the .com.",
+          "Matosurf is our own French board sports site: a hundred and twenty guides to forty-eight French spots, written in French for French riders rather than translated for them.",
+          "For Delaguía y Luzón, a Valencia law firm working across Spain and France, the French pages are held to the standard a French lawyer would apply when reading them, because in legal content a wrong term is a liability before it is a lost ranking.",
         ],
       },
     ],
@@ -477,7 +508,7 @@ export const SERVICES: Service[] = [
       {
         q: "French runs longer than English",
         a: [
-          "The same sentence typically runs 15 to 20 percent longer in French. A title tag and meta description written to length in English and then translated overflow the snippet, and get cut mid-phrase in the result that was supposed to win the click.",
+          "French usually runs longer than the English it replaces. A title tag and meta description written to length in English and then translated overflow the snippet, and get cut mid-phrase in the result that was supposed to win the click.",
           "Write them natively to the French limit rather than translating to it. The same expansion shows up in navigation labels and buttons, which is a layout problem before it is a search one.",
         ],
       },
@@ -491,8 +522,22 @@ export const SERVICES: Service[] = [
       {
         q: "Where the searching actually happens",
         a: [
-          "Most French search is on a phone, so a site that is fast and comfortable on desktop and merely tolerable on mobile is failing the larger half of its own audience before a word of the copy is read.",
+          "A large share of French search happens on a phone, so a site that is fast and comfortable on desktop and merely tolerable on mobile is failing much of its own audience before a word of the copy is read.",
           "Google carries the market. Qwant exists and is French, and it is worth knowing about rather than optimizing separately for.",
+        ],
+      },
+      {
+        q: "Belgium: two languages, one buyer",
+        a: [
+          "A Belgian company usually needs French and Dutch side by side, and a Belgian buyer notices which of the two was written first. Treating the Dutch as a translation of the French, or the other way round, loses half the country.",
+          "French and Dutch both run directly here, so a Belgian site gets one strategy in two languages rather than two agencies working from two briefs. The fr-BE and nl-BE versions stay apart from the French and Dutch sites aimed at France and the Netherlands.",
+        ],
+      },
+      {
+        q: "French SEO or French translation first",
+        a: [
+          "Research first, every time. A page translated well and then optimized afterwards ends up rewritten, because the French terms buyers search for were never in the brief the translator worked from.",
+          "Where the translation is already done, the audit shows which pages are worth rewriting around French search and which can stay as they are. Usually it is a handful, not the whole site.",
         ],
       },
     ],
@@ -500,35 +545,65 @@ export const SERVICES: Service[] = [
     demand: {
       volume: 2700,
       kd: "3 to 6",
-      note: "Largest of the six, and the most expensive to buy: `seo france` carries the highest cost per click of any language-market term we measured.",
+      note: "Largest of the six language markets. Most of it is not in France: re-measured on 23 September 2026, 500 of the 700 monthly searches for `french seo agency` come from the UK, and Dutch and German searches for SEO in France add to it.",
     },
   },
   {
     slug: "german-seo",
     name: "German SEO",
     inline: "German SEO",
-    h1: "German SEO agency for Germany, Austria and Switzerland",
-    subhead: "Written natively for a market that reads the detail, compares carefully and enquires once it is satisfied.",
+    h1: "German SEO agency for companies expanding into Germany",
+    subhead: "Strategy agreed with you in English or French, every German page written by native German copywriters, so buyers in Germany, Austria and Switzerland read a supplier that sounds local.",
     cluster: "Search",
-    angle: "SEO Germany, researched longer, decided slower",
-    lede: "German buyers research further before enquiring than most markets, so the page that wins is the one that answers the question rather than the one that ranks loudest.",
-    metaTitle: "German SEO agency, DACH markets",
-    metaDescription: "German buyers research longer before enquiring than most markets. See the SEO approach built to answer the question, not just rank for it.",
-    sections: ["Three ways to fail at German SEO", ...ENGAGEMENT],
+    angle: "SEO Germany, planned with you, written by Germans",
+    lede: "Your German pages bring visitors and very few enquiries. A German buyer reads the whole page, checks who is behind it, and leaves the moment the German sounds translated or the company details they expect are missing.",
+    metaTitle: "German SEO agency for companies expanding into Germany",
+    metaDescription: "German buyers read the whole page and leave when it sounds translated. Strategy agreed with you, German written by native copywriters, so visits turn into enquiries.",
+    // Research, 23 Sep 2026 (Ahrefs GB, NL and worldwide, plus this page's
+    // own Search Console for 24 Mar to 20 Sep 2026). The demand is spread
+    // across Europe rather than concentrated in the UK: 150 of the 1,000
+    // monthly searches for `german seo` are British, the Dutch search
+    // `duitse seo` (200) and `seo duitsland` (150), and the page collects
+    // impressions in Spanish, Italian, Dutch, French and the Scandinavian
+    // languages. So the h1 names the buyer, a company expanding into
+    // Germany, the same shape as the French page.
+    sections: [
+      "An audit of your German pages against three direct German competitors",
+      "Keyword research in German, by native speakers, market by market",
+      "A strategy and editorial calendar agreed with you in English or French",
+      "German pages written by native copywriters and read by a second native before they go live",
+      "Impressum, privacy policy and opt-in consent set up the way a German buyer expects",
+      "Monthly reporting on German enquiries, in English or French",
+    ],
     body: [
       {
-        heading: "The DACH region is three markets, not one",
+        heading: "What a German site that reads as foreign costs you",
         paragraphs: [
-          "Germany, Austria and Switzerland share a language with real variation. A word used everyday in one shifts slightly in another, prices run in CHF for the Swiss market and EUR for the other two, and tax law differs by country even where the vocabulary overlaps. Hreflang de-DE, de-AT and de-CH kept distinct is what serious DACH targeting actually looks like.",
-          "German carries long compound words, a formal register and dense sector jargon. A site translated from English by a service that does not know the sector reads as awkward to a native, and the trust drops immediately even when the traffic numbers look fine.",
-          "A full Impressum with tax ID and register entry, GDPR-strict cookie consent with no soft opt-in, and a visible German phone number are legal requirements in Germany, not nice-to-haves. Missing any of them reads as a foreign site to a German buyer and costs conversions that never show up as a ranking problem.",
+          "German buyers read. They go through the page, compare it with two or three others, and look for the company details before they trust anyone with an enquiry. A page translated from English gives itself away in the first paragraph, through a compound word nobody would build that way, a register that swings between Sie and du, or an example that only makes sense at home.",
+          "Missing company details do the same damage faster. A German site is expected to carry a full Impressum with the register entry and tax number, and a proper opt-in for cookies. A site without them reads as foreign, or as careless, and the buyer moves on to a German competitor without anything showing up in your reports.",
+          "Germany is the largest economy in Europe, so a German site that loses the comparison loses the biggest market it could have opened.",
         ],
       },
       {
-        heading: "Piloted here, written natively",
+        heading: "Planned with you, written by native Germans",
         paragraphs: [
-          "German SEO needs two distinct skills at once: strategic piloting (architecture, keyword targets, technical setup, editorial calendar) and native execution (writing, tone, regulatory compliance). We handle the first directly and hand the second to native German copywriters from the BeTranslated network, briefed and reviewed in English or French. One German SEO expert rarely covers both halves, which is why the work is split rather than handed to a single pair of hands.",
-          "Impressum compliant with the Telemediengesetz, a strict GDPR-aligned privacy policy, an opt-in cookie banner and, for stores, Trusted Shops integration where it fits. Outreach targets German regional press and trade directories such as IHK listings rather than links bought from an unrelated market.",
+          "German SEO needs two skills at once. One is the plan: which pages, which searches, which market first, and how the site is set up. The other is German that a native reads without noticing it was written for them. We do the first with you directly, in English or French, and native German copywriters do the second.",
+          "We say so plainly because most agencies that offer German work the same way and let you find out later. You get one person to talk to, one invoice, and German written by Germans, with every page briefed and checked against the plan before it goes live.",
+          "Then the details a German buyer checks before trusting a supplier: the Impressum, the privacy policy, a German phone number where you have one, listings in German trade directories and with the local chamber of commerce, and mentions in the German trade press.",
+        ],
+      },
+      {
+        heading: "Companies all over Europe are looking for German SEO",
+        paragraphs: [
+          "When we measured the demand in September 2026, only 150 of the 1,000 monthly searches worldwide for German SEO came from the UK. Dutch businesses search for it in Dutch, and Search Console for this page shows the same search in Spanish, Italian, French, Dutch and the Scandinavian languages.",
+          "So the typical buyer is a company that already sells well at home and wants Germany next, and that is who this service is built for. You work with us in English or French, and your German buyers read German.",
+        ],
+      },
+      {
+        heading: "Where the German writing comes from",
+        paragraphs: [
+          "The German is written by the native German translators and copywriters of BeTranslated, the translation agency we have run for twenty years. They have written German for clients selling into Germany, Austria and Switzerland for years, and they work from our briefs rather than from a translated English page.",
+          "Every page is read by a second native German before it goes live, and by your own team after that. We review each one against the plan, so a page that reads well but answers the wrong search still goes back.",
         ],
       },
     ],
@@ -567,8 +642,15 @@ export const SERVICES: Service[] = [
       {
         q: "Where the compliance work stops",
         a: [
-          "We set up the technical side: an Impressum carrying what the Telemediengesetz requires, a privacy policy aligned to GDPR and the Bundesdatenschutzgesetz, and consent that is an actual opt-in.",
+          "We set up the technical side: an Impressum carrying what the Digitale-Dienste-Gesetz requires (it replaced the Telemediengesetz in May 2024), a privacy policy aligned to GDPR and the Bundesdatenschutzgesetz, and consent that is an actual opt-in.",
           "Where the question is legal rather than technical, sensitive data, employee tracking, marketing profiling, that is a German lawyer's work and we say so rather than improvising it.",
+        ],
+      },
+  {
+        q: "German SEO or German translation first",
+        a: [
+          "Research first. A page translated into German and optimized afterwards ends up rewritten, because the German terms buyers actually search for were never in the brief the translator worked from.",
+          "Where the German translation already exists, the audit shows which pages are worth rewriting around German search and which can stay. Usually it is a handful rather than the whole site.",
         ],
       },
     ],
@@ -576,35 +658,65 @@ export const SERVICES: Service[] = [
     demand: {
       volume: 2350,
       kd: "0 to 1",
-      note: "Second-largest and the easiest of the six. Nearly the size of French at a fraction of the difficulty, which makes it the next page to build.",
+      note: "Second-largest and the easiest of the six. Re-measured on 23 September 2026, only 150 of the 1,000 monthly searches for `german seo` come from the UK, and Dutch searches such as `duitse seo` add 200 more of their own.",
     },
   },
   {
     slug: "spanish-seo",
     name: "Spanish SEO",
     inline: "Spanish SEO",
-    h1: "Spanish SEO agency for Spain and Latin America",
-    subhead: "Run from Valencia and adapted per country, because what convinces a buyer in Madrid reads as foreign in Bogota.",
+    h1: "Spanish SEO agency for companies selling in Spanish",
+    subhead: "Spain run directly from Valencia, Latin America by native copywriters in Santo Domingo, so every Spanish-speaking buyer reads a page written for their own country.",
     cluster: "Search",
-    angle: "SEO Spain, researched here rather than abroad",
-    lede: "Your Spanish pages are read in Madrid, Mexico City and Bogotá, and what convinces a buyer in one of them reads as foreign in the next. We work Spain from Valencia, and the Latin American variants through native copywriters based in the region.",
-    metaTitle: "Spanish SEO agency, from Valencia",
-    metaDescription: "Spanish SEO for buyers in Madrid, Mexico City and Bogotá, who do not read the same page the same way. Spain run from Valencia, Latin America by native writers.",
-    sections: ["Three ways to fail at Spanish SEO", ...ENGAGEMENT],
+    angle: "SEO Spain and Latin America, one market at a time",
+    lede: "Your Spanish pages are read in Madrid, Mexico City and Bogotá, and what convinces a buyer in one of them reads as foreign in the next. One Spanish site written for all of them usually convinces none of them.",
+    metaTitle: "Spanish SEO agency for Spain and Latin America",
+    metaDescription: "What convinces a buyer in Madrid reads as foreign in Mexico City. Spanish SEO run from Valencia for Spain and by native writers for Latin America.",
+    // Research, 23 Sep 2026 (Ahrefs US, GB and worldwide, plus this page's
+    // own Search Console for 24 Mar to 20 Sep 2026). Unlike French and
+    // German, the biggest single share of the English-language demand is
+    // American: 500 of the 1,100 for `spanish seo` and 400 of the 800 for
+    // `seo in spanish`. The page also collects `consultant seo espagnol`,
+    // `seo spanien`, `spaanse seo` and `hire seo consultant in latin
+    // america`. Two buyers, one question first: which Spanish.
+    sections: [
+      "A decision on which Spanish comes first: Spain, one Latin American country, or both",
+      "Keyword research in each Spanish you target, by native speakers of it",
+      "A strategy and editorial calendar per market, agreed with you in English, French or Spanish",
+      "Spanish for Spain written directly from Valencia, Latin American variants by native copywriters in Santo Domingo",
+      "The legal details each market expects, from the CIF or NIF in Spain to the RFC in Mexico",
+      "Monthly reporting per market, so Spain and Mexico never blur into one number",
+    ],
     body: [
       {
-        heading: "Spain and Latin America are not one market",
+        heading: "What one Spanish site for every market costs you",
         paragraphs: [
-          "Castilian Spanish and the various Latin American variants diverge in vocabulary, address forms, currency and regulatory framework. A single Spanish site reads too formal to a Latin American visitor or too informal to a Spanish one in ways that erode trust either direction. Hreflang es-ES, es-MX, es-CO, es-AR and es-DO disambiguate per target market.",
-          "A page passed through machine translation and presented as the Spanish version sounds like translated English, not native Spanish. Idioms land wrong, register feels off, and sector terminology is sometimes simply invented. Spanish readers notice immediately.",
-          "Spain requires a CIF or NIF visible, EUR pricing and AEPD-approved cookie consent. Mexico expects an RFC and INAI compliance, Colombia a NIT, Argentina a CUIT, the Dominican Republic an RNC. Each market carries its own legal markers, and a site missing them looks foreign no matter how good the copy is.",
+          "Spanish from Spain reads as distant and formal in Mexico City. Latin American Spanish reads as casual in unexpected places in Madrid. A page run through machine translation reads as translated English everywhere. The buyer rarely complains about any of it, they simply trust the local competitor who sounds like one of them.",
+          "The company details do the same damage. A buyer in Spain expects to see a CIF or NIF, a buyer in Mexico an RFC, and prices in their own currency. A site without them reads as foreign, whatever the quality of the Spanish, and the enquiry goes elsewhere without anything showing up in your reports.",
+          "Spanish is one language spread across two continents, so a site that fits none of its markets properly gives up more buyers than almost any other language could.",
         ],
       },
       {
-        heading: "Direct in Spain, native across Latin America",
+        heading: "Spain from Valencia, Latin America from Santo Domingo",
         paragraphs: [
-          "Research and writing for ES-ES run direct from the Valencia base. LatAm variants (es-MX, es-CO, es-AR, es-DO) are handled by native copywriters from the BeTranslated team in Santo Domingo, briefed and supervised on strategy so the variants stay coherent rather than diverging into five unrelated sites.",
-          "Outreach targets El País, El Mundo and Expansión in Spain, and the regional press per country in Latin America (El Universal in Mexico, El Tiempo in Colombia, La Nación in Argentina, Listín Diario in the Dominican Republic), which counts for far more than a generic Spanish-language link from an unrelated market.",
+          "Spain runs directly from Valencia, where we have been based since 2016. The research, the writing, the reading of competitors and the meetings all happen in Spanish, with no intermediary between the plan and the page.",
+          "Mexico, Colombia, Argentina and the Dominican Republic go to native copywriters on the BeTranslated team in Santo Domingo, briefed and checked here so the markets stay one coherent plan rather than drifting into several unrelated sites. We say who writes which Spanish because quietly subcontracting all of it is common, and it is not the same service.",
+          "Then the things that make a local buyer trust a supplier: the legal details each country expects, prices in the local currency, and mentions in the press that market actually reads.",
+        ],
+      },
+      {
+        heading: "Spanish SEO is searched for from two directions",
+        paragraphs: [
+          "When we measured the demand in September 2026, the largest single share came from the United States: 500 of the 1,100 monthly searches worldwide for Spanish SEO, and 400 of the 800 for SEO in Spanish. Search Console for this page adds the other direction, companies elsewhere in Europe looking for help in Spain, searching in French, German and Dutch.",
+          "Whichever one you are, the first decision is the same: which Spanish, for which buyers. Getting that right before a word is written is cheaper than rewriting a site that picked the wrong one.",
+        ],
+      },
+      {
+        heading: "Spanish sites we run and work on",
+        paragraphs: [
+          "Delaguía y Luzón is a Valencia law firm whose site leads in Spanish. Between May and July 2026 it drew 38,476 clicks from 2,399,567 Google impressions at an average position of 9.4, across the whole site.",
+          "Century 21 Perdomo sells property in the Dominican Republic in four languages, Spanish among them. Over the same three months it drew 9,944 clicks from 461,231 impressions at an average position of 10.1.",
+          "ValenciaMove, our own relocation site for Valencia, carries Spanish alongside four other languages and drew 5,685 clicks from 496,316 impressions over the same period.",
         ],
       },
     ],
@@ -643,7 +755,7 @@ export const SERVICES: Service[] = [
       {
         q: "Each market carries its own identifier",
         a: [
-          "Spain expects a CIF or NIF, Mexico an RFC, Colombia a NIT, Argentina a CUIT, the Dominican Republic an RNC. Alongside them sit the local data protection regimes: the AEPD in Spain, INAI in Mexico, the SIC in Colombia, the AAIP in Argentina, Indotel in the Dominican Republic.",
+          "Spain expects a CIF or NIF, Mexico an RFC, Colombia a NIT, Argentina a CUIT, the Dominican Republic an RNC. Alongside them sit the local data protection rules: the AEPD in Spain, the SIC in Colombia, the AAIP in Argentina, and in Mexico a new federal data protection law since 2025, when INAI was dissolved and its oversight moved to a government ministry.",
           "Missing them does not read as an oversight to a local buyer, it reads as a foreign site, and no amount of well-written Spanish compensates for that.",
         ],
       },
@@ -657,7 +769,7 @@ export const SERVICES: Service[] = [
     demand: {
       volume: 2100,
       kd: "0 to 7",
-      note: "Third-largest, and the two biggest terms both sit at difficulty 0.",
+      note: "Third-largest, and the two biggest terms both sit at difficulty 0. Re-measured on 23 September 2026, the largest single share is American: 500 of the 1,100 monthly searches for `spanish seo` and 400 of the 800 for `seo in spanish` come from the US.",
     },
   },
   {

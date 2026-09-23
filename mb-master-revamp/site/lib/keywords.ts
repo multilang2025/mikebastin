@@ -184,25 +184,52 @@ export const KEYWORDS: Record<string, PageKeywords> = {
     primary: { term: "french seo", volume: 800, kd: null },
     secondary: [
       { term: "french seo agency", volume: 700, kd: null },
+      { term: "seo france", volume: 1100, kd: null },
+      { term: "seo agency france", volume: 600, kd: null },
       { term: "french seo services", volume: 350, kd: null },
       { term: "french seo consultant", volume: 300, kd: null },
     ],
+    note:
+      "Re-measured 23 Sep 2026, worldwide volumes with the GB share checked. " +
+      "The English-language demand sits outside France: 'french seo agency' " +
+      "is 500 of its 700 in the UK. The page's own Search Console (24 Mar to " +
+      "20 Sep 2026) has 'seo frankrijk' as its biggest query at 1,193 " +
+      "impressions, ahead of 'french seo' at 1,030, plus German queries for " +
+      "an SEO agency in France. The h1 names that buyer. Ahrefs returns no " +
+      "difficulty score for any French term measured.",
   },
   "/services/german-seo": {
     primary: { term: "german seo", volume: 1000, kd: 1 },
     secondary: [
+      { term: "seo germany", volume: 1000, kd: null },
+      { term: "seo agency germany", volume: 600, kd: null },
       { term: "german seo services", volume: 450, kd: null },
       { term: "german seo agency", volume: 350, kd: null },
       { term: "german seo expert", volume: 300, kd: null },
     ],
+    note:
+      "Re-measured 23 Sep 2026, worldwide volumes with the GB and NL shares " +
+      "checked. Only 150 of the 1,000 for 'german seo' are British; Dutch " +
+      "adds 'duitse seo' (200) and 'seo duitsland' (150). The page's Search " +
+      "Console (24 Mar to 20 Sep 2026) shows the same search in Spanish, " +
+      "Italian, French, Dutch and Scandinavian languages. 'german serp " +
+      "tracking' (1,061 impressions) is tool intent and not a target.",
   },
   "/services/spanish-seo": {
     primary: { term: "spanish seo", volume: 1100, kd: 0 },
     secondary: [
       { term: "seo in spanish", volume: 800, kd: 0 },
-      { term: "spanish seo services", volume: 500, kd: null },
-      { term: "seo for spanish website", volume: 350, kd: null },
+      { term: "seo spain", volume: 700, kd: 1 },
+      { term: "seo agency spain", volume: 600, kd: 1 },
+      { term: "spanish seo services", volume: 500, kd: 1 },
+      { term: "seo for spanish website", volume: 350, kd: 0 },
     ],
+    note:
+      "Re-measured 23 Sep 2026 against US and GB. The US is the largest " +
+      "single share: 500 of 1,100 for 'spanish seo', 400 of 800 for 'seo in " +
+      "spanish'. Search Console (24 Mar to 20 Sep 2026) adds 'spanish seo " +
+      "services' 327 and 'spanish seo' 302 impressions, plus French, German " +
+      "and Dutch queries for SEO in Spain.",
   },
   "/services/italian-seo": {
     primary: { term: "italian seo agency", volume: 300, kd: null },
