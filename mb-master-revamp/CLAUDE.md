@@ -470,6 +470,14 @@ around it rather than four peers competing for the same slot. The
 homepage's "what we do" section names that audience directly now, and it
 is the tie-breaker whenever a page has to decide what to lead with.
 
+**Key markets** (owner, 23 Sep 2026): **Benelux, France and Spain**, then
+**Germany to a much lesser extent**. Italian and Portuguese SEO are **low
+priority**: their pages stay live (never 404) but get no rebuild effort
+until the key markets are done. When choosing the next page, an example
+or a proof point, draw from the key markets first. The French, German and
+Spanish SEO pages were rebuilt on 23 Sep (PR #104) around the buyer
+entering each market; Dutch SEO is next.
+
 **Billing is a positioning point, not a footnote** (owner, 20 Sep). Where
 an engagement includes paid search, the media budget goes straight to
 Google, Microsoft or Meta, so there is no markup on spend and no reason

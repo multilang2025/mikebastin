@@ -243,9 +243,22 @@ export const KEYWORDS: Record<string, PageKeywords> = {
     secondary: [{ term: "portuguese seo services", volume: 90, kd: null }],
   },
   "/services/dutch-seo": {
-    primary: { term: "dutch seo agency", volume: 150, kd: null },
-    secondary: [],
-    note: "The thinnest of the six language pages. Kept because the Dutch trade market is a real one for this practice, not because the volume argues for it.",
+    primary: { term: "dutch seo", volume: 250, kd: null },
+    secondary: [
+      { term: "seo netherlands", volume: 400, kd: 3 },
+      { term: "seo belgium", volume: 350, kd: null },
+      { term: "seo agency belgium", volume: 200, kd: null },
+      { term: "dutch seo agency", volume: 150, kd: null },
+    ],
+    note:
+      "Re-measured 23 Sep 2026 against GB and BE. English-language buyers " +
+      "name the country: 'seo netherlands' and 'seo belgium' each beat " +
+      "'dutch seo', and Search Console (24 Mar to 20 Sep 2026) puts 'seo " +
+      "the netherlands', 'seo holland' and 'seo netherlands' ahead of " +
+      "'dutch seo'. The Belgian terms in Dutch and French ('seo antwerpen' " +
+      "600 at KD 0, 'seo belgie' 200, 'seo bruxelles' 150, 'agence seo' 900 " +
+      "at KD 6 in BE) belong to the FR and future NL locales, not here. " +
+      "Benelux is a key market (owner, 23 Sep 2026).",
   },
 
   "/services/multilingual-sem": {

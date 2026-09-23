@@ -776,38 +776,70 @@ export const SERVICES: Service[] = [
     slug: "dutch-seo",
     name: "Dutch SEO",
     inline: "Dutch SEO",
-    h1: "Dutch SEO agency for the Netherlands and Flanders",
-    subhead: "Two markets that read the same language differently, and a trade buyer in each who wants specifics early.",
+    h1: "Dutch SEO agency for the Netherlands and Belgium",
+    subhead: "Dutch and French handled directly, with a native reader on every commercial page, so buyers in Amsterdam, Antwerp and Brussels read a supplier who speaks their language properly.",
     cluster: "Search",
-    angle: "Small volume, decisive buyers",
-    lede: "Dutch trade search is low in volume and high in intent, which rewards covering a narrow thing properly over covering a broad thing thinly. Bemelman Spuiterij is the worked example.",
-    metaTitle: "Dutch SEO agency for trade buyers",
-    metaDescription: "Dutch trade search is low volume and high intent. See how covering one narrow set of searches properly beats a broad one covered thinly.",
-    sections: ["Three ways to fail at Dutch SEO", ...ENGAGEMENT],
+    angle: "SEO Netherlands and Belgium, without a translator in between",
+    lede: "Your Dutch pages bring visitors from the Netherlands and Flanders and too few of them get in touch. Dutch buyers decide quickly and want short, concrete answers and the company details up front, and a translated page that pitches instead loses them in seconds.",
+    metaTitle: "Dutch SEO agency for the Netherlands and Belgium",
+    metaDescription: "Dutch buyers decide fast and leave pages that read as translated. Dutch SEO for the Netherlands and Belgium, written directly rather than through a translator.",
+    // Research, 23 Sep 2026 (Ahrefs GB and BE, plus this page's own Search
+    // Console for 24 Mar to 20 Sep 2026). Buyers searching in English name
+    // the country, not the language: `seo netherlands` 400 and `seo
+    // belgium` 350 against `dutch seo` 250, and the page's top queries are
+    // `seo the netherlands` (128 impressions), `seo holland` (86) and `seo
+    // netherlands` (75), ahead of `dutch seo` (38). So the h1 names the
+    // Netherlands and Belgium. Benelux is a key market (owner, 23 Sep), and
+    // Belgium needs French as well as Dutch, which this practice writes
+    // directly.
+    sections: [
+      "An audit of your Dutch pages against three direct Dutch or Belgian competitors",
+      "Keyword research in Dutch, kept separate for the Netherlands and Flanders where both matter",
+      "A strategy and editorial calendar agreed with you in English, French or Dutch",
+      "Dutch pages written directly here, with a native reader on every commercial page",
+      "KvK or KBO, BTW, cookie consent and the payment methods Dutch and Belgian buyers expect",
+      "Monthly reporting on Dutch and Belgian enquiries, kept apart from your other markets",
+    ],
     body: [
       {
-        heading: "The Netherlands and Flanders are not one market either",
+        heading: "What a translated Dutch site costs you",
         paragraphs: [
-          "The Netherlands and Flanders share Dutch as a language but the markets differ: everyday terms shift between the two, tax regimes and regulations diverge, and a single site aimed at both ends up half-relevant everywhere. Hreflang nl-NL and nl-BE separate the two when both are genuinely in scope.",
-          "Dutch readers decide fast and expect direct copy. A site translated from English keeps the verbose, enthusiastic tone that works in the US and reads as marketing fluff to a Dutch visitor, who expects short sentences, concrete prices and visible terms rather than a pitch.",
-          "A KvK number and BTW number on the footer, a Thuiswinkel Waarborg badge for stores, AVG-compliant cookie consent and iDEAL as a payment option are the trust signals a Dutch buyer looks for before converting. Belgian sites carry the parallel version, a KBO number and BTW/TVA. Missing them reads as a foreign site regardless of how good the content is.",
+          "Dutch buyers read fast and decide fast. A page translated from English keeps the long, enthusiastic pitch that works elsewhere, and to a Dutch reader it sounds like marketing rather than a supplier. They expect short sentences, concrete answers and the terms in plain view, and they leave when they do not find them.",
+          "They also look for the company details before they trust anyone: a KvK and BTW number in the Netherlands, a KBO number in Belgium, cookie consent done properly, and iDEAL or Bancontact at the checkout. A site without them reads as foreign, and the enquiry goes to a local competitor without anything showing up in your reports.",
+          "Belgium adds a second cost. A Belgian site in Dutch only reaches Flanders, and a site in French only reaches Brussels and Wallonia. Covering half the country is the most common way a Benelux plan underdelivers.",
         ],
       },
       {
-        heading: "The Bemelman Spuiterij pattern",
+        heading: "Dutch and French from one team",
         paragraphs: [
-          "Bemelman Spuiterij, a paint and powder-coating specialist based in Hillegom, is the case that shaped this page. Dutch trade search runs low in volume and high in intent, which rewards covering one narrow set of searches properly rather than a broad one thinly. KvK and BTW compliance, AVG cookie consent and dedicated pages per surrounding town turned into steady map pack visibility across the whole Bollenstreek region.",
+          "Dutch runs directly here, from an Erasmus year in Utrecht and years of Dutch and Belgian clients. The research, the reading of competitors, the briefs and the meetings all happen in Dutch, and every commercial page still gets a native Dutch reader before it goes live, because fluent and native are not the same thing.",
+          "French runs directly too, so a Belgian site gets one plan in both of its languages rather than two agencies working from two briefs. The Dutch for Flanders and the Dutch for the Netherlands stay separate where both are in scope, since the words and the rules differ on each side of the border.",
+          "Then the things that make a Dutch or Belgian buyer trust a supplier: the company details in the footer, the payment methods they expect, listings in the directories your trade uses, and mentions in the regional press.",
+        ],
+      },
+      {
+        heading: "Buyers search by country, not by language",
+        paragraphs: [
+          "When we measured the demand in September 2026, more people searched in English for SEO in the Netherlands (400 a month) and SEO in Belgium (350) than for Dutch SEO (250). Search Console for this page shows the same thing: its top queries name the Netherlands or Holland, and German and French searches for SEO in the Netherlands turn up as well.",
+          "So the question a buyer brings is rarely which language. It is how to win customers in the Netherlands, in Belgium, or in both, and the answer starts with which of the three that is.",
+        ],
+      },
+      {
+        heading: "Dutch and Belgian sites we run and work on",
+        paragraphs: [
+          "Bemelman Spuiterij is a powder-coating specialist in the Bollenstreek with forty-five years of reputation. Its site is written entirely in Dutch, with a page per service and a quote form that asks for the project type and the surface area, so requests arrive ready to price. Between May and July 2026 it drew 1,436 clicks from 108,568 Google impressions.",
+          "BeTranslated, the translation agency we have run for twenty years, has its own .be and .nl sites, each researched for its own market rather than copied from the other.",
         ],
       },
     ],
-    expandablesHeading: "The one language here we run without a translator",
+    expandablesHeading: "What Dutch SEO turns on, north and south of the border",
     expandablesLede:
-      "Dutch works differently from the other language pages, and the Netherlands and Flanders differ again.",
+      "Where the Netherlands and Flanders share a language, where they part ways, and what that means for the site.",
     expandables: [
       {
         q: "Who writes the Dutch",
         a: [
-          "We do, and that is not true of every language on this site. Dutch is fluent here, from an Erasmus year in Utrecht and years of daily work through the BeTranslated network, so the briefs, the SERP reading, the competitor analysis and the meetings all happen directly in Dutch with nobody in the middle.",
+          "We do, and that is not true of every language on this site. German, Italian and Portuguese go to native copywriters; Dutch, like French, English and Spanish, runs directly here, so the briefs, the SERP reading, the competitor analysis and the meetings happen in Dutch with nobody in the middle.",
           "Published commercial copy still gets a native polishing pass, because fluent and native are not the same thing and the last five percent of tone is where a Dutch reader decides whether a site was written for them.",
         ],
       },
@@ -843,7 +875,7 @@ export const SERVICES: Service[] = [
     demand: {
       volume: 800,
       kd: "3",
-      note: "Smallest of the six by volume, which matches the low-volume high-intent pattern the Bemelman work already showed.",
+      note: "Smallest of the six in English, and it undercounts the market: re-measured on 23 September 2026, buyers name the country rather than the language, so `seo netherlands` (400) and `seo belgium` (350) each draw more than `dutch seo` (250).",
     },
   },
   {
