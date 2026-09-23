@@ -41,18 +41,33 @@ sitemap is a list of pages worth indexing, so none of them is in it.
 ## 2. DNS and the redirects
 
 `site/public/.htaccess` is generated, never hand-edited. Regenerate with
-the `scripts/gen-*-redirects.mjs` family and confirm coverage against
-`docs/sitemap-MB-EN.txt`, which is the URL inventory of record: every
-legacy URL in it must resolve 200 or 301, never 404.
+the `scripts/gen-*-redirects.mjs` family.
 
-Check for chains rather than assuming single hops. A redirect whose target
-is itself redirected costs the link equity the redirect existed to keep,
-and the project has shipped a two-hop chain once already.
+`npm run lint:redirects` now checks the rule this section used to state
+and nothing enforced: every one of the 138 legacy URLs in
+`docs/sitemap-MB-EN.txt`, the inventory of record, resolves 200 or 301
+and never through a chain. It fails on three things, and each was proved
+by breaking the file on purpose rather than assumed from a clean run:
+
+- a legacy URL with no rule and no page built at it, which 404s
+- a rule whose target is itself redirected, the two-hop chain this
+  section warned about, which the project has shipped once already: each
+  hop is individually correct, which is why it goes unnoticed
+- a rule pointing at an internal path with no page built at it, a 301
+  into a 404, which is worse than no rule because it reads as handled
+
+Current state: 12 legacy URLs still served here, 105 redirecting to a
+live page, 21 redirecting off-site to valenciamove.com. External targets
+are followed as far as the rule and no further, since whether that host
+serves a 200 is its own site's business.
 
 ## 3. Search Console
 
 - Add the property for the new site if the host changes.
-- Submit `https://mikebastin.com/sitemap.xml`.
+- Submit `https://mikebastin.com/sitemap.xml`, the index, and only it.
+  It lists six children split by locale and by page against post, and a
+  crawler reads them from it. Submitting the children as well would
+  double every row in the coverage report.
 - Set the geotargeting where a generic domain needs it.
 - Expect a reporting gap while Google recrawls, and do not read the first
   fortnight as a ranking change.

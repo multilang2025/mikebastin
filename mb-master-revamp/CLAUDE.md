@@ -184,7 +184,10 @@ needs.
 - Design tokens (colour, type) come only from HANDOFF.md §2/§22/§23 (Night
   Swell / Morning Glass palette — aubergine is retired, do not reintroduce
   it). No hex outside that set. No monospace UI fonts.
-- Every legacy URL in `docs/sitemap-MB-EN.txt` resolves 200-same or 301s.
+- Every legacy URL in `docs/sitemap-MB-EN.txt` resolves 200-same or 301s,
+  and never through a chain. `npm run lint:redirects` enforces it, and
+  fails on a URL that 404s, a redirect whose target is redirected again,
+  and a rule pointing at a page that is not built.
   Never 404 on launch.
 - IP boundary: no Marvel/superhero imagery tied to "Silver Surfer" — it is a
   prose-only nickname, visual language is original surf/wave motifs.
