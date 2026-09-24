@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Reveal from "@/components/Reveal";
+import MarketReach from "@/components/MarketReach";
 import Counter from "@/components/Counter";
 import Spread from "@/components/Spread";
 import { PROJECTS } from "@/lib/projects";
@@ -136,7 +137,8 @@ export default function Home() {
     <main>
       {/* ============ HERO ============ */}
       <section className="band band-a grain hero-glow relative overflow-hidden pb-[clamp(36px,5vw,72px)] pt-[clamp(52px,7vw,104px)]">
-        <div className="shell relative">
+        <div className="shell relative grid items-center gap-x-10 lg:grid-cols-[1fr_auto]">
+        <div>
           <Reveal>
             <p className="eyebrow mb-5">
               Plenty of sites rank. Far fewer sell.
@@ -210,6 +212,9 @@ export default function Home() {
               ))}
             </div>
           </Reveal>
+        </div>
+
+        <MarketReach />
         </div>
       </section>
 
