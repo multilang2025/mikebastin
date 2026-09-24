@@ -1,0 +1,110 @@
+{
+  "local-seo": {
+    "page": "/services/local-seo/",
+    "angle": "Found first, streets away",
+    "concepts": [
+      {
+        "name": "Winding Path",
+        "description": "A long, thin line meanders slowly across the page, tracing a winding path that resembles a street map. At each bend the line briefly glows with a pale shimmer, suggesting an intersection or a local business. The subtle loop of the path underscores the idea that the right local SEO makes the buyer find you quickly, no matter how many streets lie in between."
+      },
+      {
+        "name": "Ascending Dots",
+        "description": "A sequence of small circles emerges from the bottom of the canvas and gradually rises upward like a gentle staircase. Each successive circle is slightly larger and brighter, conveying a sense of growing prominence among nearby listings. This slow ascent visualises how local optimisation lifts a business towards the top of the local search results, especially in a bilingual city where visibility matters twice as much."
+      },
+      {
+        "name": "Radar Sweep",
+        "description": "A semi‑transparent arc slowly rotates and expands over a faint grid of small squares, mimicking a radar scanning a city block. The arc’s pulse is gentle, creating a soft, ambient glow along the grid lines. The sweep represents the continuous scanning that local search engines perform, ensuring that a business just a few streets away appears first for both language groups."
+      }
+    ]
+  },
+  "french-seo": {
+    "page": "/services/french-seo/",
+    "angle": "SEO France, from the outside in",
+    "concepts": [
+      {
+        "name": "Expanding Ripple",
+        "description": "A small central dot surrounded by a series of concentric arcs that slowly expand and contract in a gentle ripple, symbolizing SEO signals radiating inward towards a target audience. The arcs fade gradually, creating a soothing ambient motion that suggests steady, organic growth without distraction."
+      },
+      {
+        "name": "Converging Path",
+        "description": "A linear sequence of small, evenly spaced points that glide from left to right and subtly shrink as they approach a central focal point shaped like an abstract compass needle. This motion represents foreign traffic moving inward, converging on France, while the gradual reduction of the points evokes the narrowing focus of localization."
+      },
+      {
+        "name": "Glowing Orbit",
+        "description": "A softly glowing sphere that rolls slowly across the scene, leaving a translucent, diminishing trail that fades into the background. The sphere’s motion mimics the gradual crossing of borders into a new market, with its gentle rotation symbolizing the continuous effort of multilingual SEO optimization."
+      }
+    ]
+  },
+  "german-seo": {
+    "page": "/services/german-seo/",
+    "angle": "SEO Germany, planned with you, written by Germans",
+    "concepts": [
+      {
+        "name": "Link Mesh",
+        "description": "A network of small circles.knots connected by thin lines forms a subtle web that gently φό expands and contracts over time. The slow pulsing mimics the building and strengthening of backlinks, illustrating how German SEO connects a brand with search engines in a calm, continuous loop."
+      },
+      {
+        "name": "Keyword Pulse",
+        "description": "A pair of translucent ellipses overlap and slowly swell in sync as if measuring keyword frequency. The rhythmic expansion and contraction evoke the steady, data‑driven optimisation process behind German SEO, without any busy movement."
+      },
+      {
+        "name": "Navigator",
+        "description": "An abstract compass with a point that rotates slowly in one direction, accompanied by faint radial lines that rotate in the opposite sense. The counter‑rotating movement suggests guided navigation through the German search landscape while providing a tranquil visual backdrop to the page's content."
+      }
+    ]
+  },
+  "spanish-seo": {
+    "page": "/services/spanish-seo/",
+    "angle": "SEO Spain and Latin America, one market at a time",
+    "concepts": [
+      {
+        "name": "Dual Orbit",
+        "description": "Two semi‑elliptical arcs rotate slowly in opposite directions around a invisible center point. Their subtle fading when passing each other creates a calm dance that suggests shifting focus between distinct clusters, echoing the idea of targeting one Unfortunately we can't mention local markets directly, but the motion implies a careful pivot."
+      },
+      {
+        "name": "Pivot Patch",
+        "description": "A square gently expands while an adjacent square contracts, then the roles reverse, looping continuously. The reversible scaling gives a sense of one shape taking precedence over the other, mirroring a single site focusing on one region before shifting to the next."
+      },
+      {
+        "name": "Flow Thread",
+        "description": "A thin line traces a gentle sinusoidal path across the frame, leaving behind faint, slowly fading loops that drift away. The rhythmic undulation and fading trails represent subtle content movement into separate niches, reinforcing the notion of focused market outreach."
+      }
+    ]
+  },
+  "dutch-seo": {
+    "page": "/services/dutch-seo/",
+    "angle": "SEO Netherlands and Belgium, without a translator in between",
+    "concepts": [
+      {
+        "name": "Twin Wave Harmony",
+        "description": "Two translucent ovals, one slightly larger and offset, slowly breathe in and out together, creating a subtle wave effect that subtly hints at the Dutch and Belgian markets working in tandem. The motion is slow and rhythmic, suggesting the calm yet efficient collaboration of a single team handling both languages."
+      },
+      {
+        "name": "Speed Pulse Core",
+        "description": "A central, softly pulsing circle expands and contracts gently, emulating the rapid decision‑making pace of Dutch buyers. The pulse is evenly spaced and low‑frequency, giving the viewer a sense of steady, quick action without distracting from the surrounding copy."
+      },
+      {
+        "name": "Coalescent Arch",
+        "description": "Two interlocking curved segments glide slowly across each other on an invisible track, gradually drawing a smooth arch that appears only once per loop. This gentle animation symbolizes the merging of Dutch and French content streams from a single source, emphasizing unity and streamlined service."
+      }
+    ]
+  },
+  "lead-generation": {
+    "page": "/services/lead-generation/",
+    "angle": "Enquiries, not visits",
+    "concepts": [
+      {
+        "name": "Language Confluence",
+        "description": "Three softly curving ribbons glide from left to right, each representing a different language stream. As they converge, the ribbons reduce to a single straight line that culminates in a small, subtly glowing dot. The slow, looping motion emphasizes the flow of multilingual traffic funneling into a singular English enquiry."
+      },
+      {
+        "name": "Click Pulse Wheel",
+        "description": "A thin, expanding ring rotates in place, with a tiny spot travelling along its circumference. The spot pauses briefly at a fixed point before the ring contracts, suggesting an enquiry moment. The gentle, rhythmic pulse creates a calming visual that mirrors the subtle conversion rate."
+      },
+      {
+        "name": "Gap Bridge Crossing",
+        "description": "A low, semi‑circular bridge is drawn in two halves separated by a tiny gap. A single dot appears on the left side and waits; when the gap closes as the right half slowly extends, the dot crosses to the right side before the bridge resets. This restrained loop illustrates the bridging of the impressions‑to‑clicks gap."
+      }
+    ]
+  }
+}
