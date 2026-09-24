@@ -1,5 +1,5 @@
 ---
-words: 1133
+words: 1154
 title: "Search everywhere, the strategy that replaced ranking"
 slug: "search-everywhere-strategy"
 locale: "en"
@@ -42,35 +42,12 @@ Modern search delivers answers, not links. Success now depends on becoming the â
 
 ### Key search surfaces in 2026
 
-Search Surface
-
-User Intent
-
-Optimization Focus
-
-AI Assistants (ChatGPT, Gemini)
-
-Synthesised research
-
-GEO + structured data
-
-Social Search (LinkedIn, TikTok)
-
-Social proof and trends
-
-Native video + thought leadership
-
-Vertical Engines (G2, Amazon)
-
-Product comparison
-
-Review management + attributes
-
-Traditional Search (Google, Bing)
-
-Navigational queries
-
-E-E-A-T + technical SEO
+| Search Surface | User Intent | Optimization Focus |
+|---|---|---|
+| AI Assistants (ChatGPT, Gemini) | Synthesised research | GEO + structured data |
+| Social Search (LinkedIn, TikTok) | Social proof and trends | Native video + thought leadership |
+| Vertical Engines (G2, Amazon) | Product comparison | Review management + attributes |
+| Traditional Search (Google, Bing) | Navigational queries | E-E-A-T + technical SEO |
 
 ## Mastering generative engine optimization (GEO)
 

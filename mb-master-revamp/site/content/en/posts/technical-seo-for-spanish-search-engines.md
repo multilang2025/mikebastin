@@ -1,5 +1,5 @@
 ---
-words: 1668
+words: 1747
 title: "Technical SEO for Spanish search engines"
 slug: "technical-seo-for-spanish-search-engines"
 locale: "en"
@@ -34,65 +34,13 @@ Whether your audience is in Madrid or Valencia, local habits can have an impact 
 
 **Tools and Techniques:** Using tools such as **Google Keyword Planner**, **SISTRIX**, or **SEMrush** can reveal **high-impact** [keywords matched to both national and regional Spanish](/blog/spanish-keyword-localisation/) audiences. Understanding user intent and local terminology is critical.
 
-**Tool**
-
-**Features**
-
-**Pricing**
-
-**Best Use Case**
-
-**Suitability for Spanish Market**
-
-**Google Keyword Planner**
-
-[Keyword research](/blog/what-is-search-intent-mapping/), search volume data, trend insights, limited audience targeting
-
-Free for Google Ads users
-
-Basic keyword research and planning, ideal for [PPC campaigns](/blog/french-ppc-campaign/)
-
-Moderate: limited localization for Spain-specific keywords
-
-**SISTRIX**
-
-Competitive analysis, visibility index, backlink analysis, SEO benchmarking for regions
-
-Starts at £90/month
-
-Ideal for monitoring search engine rankings and competition
-
-High: strong Spanish market presence
-
-**Oncrawl**
-
-Full SEO auditing, log analysis, crawl behaviour tracking, data visualisations
-
-Starts at £36/month
-
-Technical SEO analysis, useful for large sites needing in-depth auditing
-
-Moderate: English-only interface but supports all market crawls
-
-**Ahrefs**
-
-Backlink analysis, keyword explorer, rank tracking, site audit, content research
-
-Starts at £75/month
-
-Complete SEO tasks, excellent for backlink analysis and competitive research
-
-High: includes Spanish language and keyword support
-
-**Screaming Frog**
-
-Site crawling, identifying broken links, metadata analysis, custom filters
-
-Free (limited), £160/year Pro
-
-Ideal for [technical SEO and one-time or regular site audits](/blog/technical-seo-audit-checklist/)
-
-High: effective in Spanish markets, requires user-generated keyword input
+| Tool | Features | Pricing | Best Use Case | Suitability for Spanish Market |
+|---|---|---|---|---|
+| **Google Keyword Planner** | [Keyword research](/blog/what-is-search-intent-mapping/), search volume data, trend insights, limited audience targeting | Free for Google Ads users | Basic keyword research and planning, ideal for [PPC campaigns](/blog/french-ppc-campaign/) | Moderate: limited localization for Spain-specific keywords |
+| **SISTRIX** | Competitive analysis, visibility index, backlink analysis, SEO benchmarking for regions | Starts at £90/month | Ideal for monitoring search engine rankings and competition | High: strong Spanish market presence |
+| **Oncrawl** | Full SEO auditing, log analysis, crawl behaviour tracking, data visualisations | Starts at £36/month | Technical SEO analysis, useful for large sites needing in-depth auditing | Moderate: English-only interface but supports all market crawls |
+| **Ahrefs** | Backlink analysis, keyword explorer, rank tracking, site audit, content research | Starts at £75/month | Complete SEO tasks, excellent for backlink analysis and competitive research | High: includes Spanish language and keyword support |
+| **Screaming Frog** | Site crawling, identifying broken links, metadata analysis, custom filters | Free (limited), £160/year Pro | Ideal for [technical SEO and one-time or regular site audits](/blog/technical-seo-audit-checklist/) | High: effective in Spanish markets, requires user-generated keyword input |
 
 ### Mobile optimization: reflecting the organic design of Gaudí
 
@@ -112,56 +60,16 @@ High: effective in Spanish markets, requires user-generated keyword input
 
 **PageSpeed Insights and GTmetrix:** Using tools like **PageSpeed Insights** and **GTmetrix** can help identify performance issues and ensure your website delivers fast, reliable experiences for Spanish users.
 
-Recommendations
-
-Checklist
-
-Image Optimization
-
--   Compress images (WebP)
--   Use responsive sizes
--   Use tools like TinyPNG, adapt images for screen sizes
-
-Server Optimization
-
--   EU or local hosting
--   Minimise response time
--   Choose EU servers, enable GZIP compression
-
-Content Delivery
-
--   Use EU CDN
--   Enable lazy loading
--   Use CDN like Cloudflare, lazy load off-screen elements
-
-JavaScript and CSS
-
--   Minify files
--   Defer non-critical JavaScript
--   Use tools like UglifyJS, defer non-essential scripts
-
-Reduce HTTP Requests
-
--   Combine files
--   Limit redirects
--   Merge CSS/JS, maintain clean URLs
-
-Mobile Optimization
-
--   [Responsive design](/services/multilingual-seo/)
--   Optimize for touch
--   Ensure layout adapts well to mobile
-
-Browser Caching
-
--   Cache static assets
--   Set cache control headers for faster repeat visits
-
-Font Optimization
-
--   Use WOFF2 format
--   Preload primary fonts
--   Use WOFF2 for smaller file size, preload main fonts
+| Recommendations | Checklist |
+|---|---|
+| Image Optimization | Compress images (WebP); use responsive sizes; use tools like TinyPNG, adapt images for screen sizes |
+| Server Optimization | EU or local hosting; minimise response time; choose EU servers, enable GZIP compression |
+| Content Delivery | Use EU CDN; enable lazy loading; use CDN like Cloudflare, lazy load off-screen elements |
+| JavaScript and CSS | Minify files; defer non-critical JavaScript; use tools like UglifyJS, defer non-essential scripts |
+| Reduce HTTP Requests | Combine files; limit redirects; merge CSS/JS, maintain clean URLs |
+| Mobile Optimization | [Responsive design](/services/multilingual-seo/); optimize for touch; ensure layout adapts well to mobile |
+| Browser Caching | Cache static assets; set cache control headers for faster repeat visits |
+| Font Optimization | Use WOFF2 format; preload primary fonts; use WOFF2 for smaller file size, preload main fonts |
 
 ### URL structure and international SEO: building a Spanish identity
 
@@ -175,59 +83,16 @@ Font Optimization
 
 **Types of Schema for Spanish Search Engines:** Employing **event**, **organisation**, and **FAQ schema** can improve **local visibility** in Spanish search results, making your content more accessible and appealing.
 
-Type
-
-Use Case
-
-Impact on Spanish SEO
-
-Local Business
-
-For Local Businesses with a physical presence.
-
-Optimizes for local searches, increasing foot traffic and local engagement.
-
-Organisation
-
-Details about a company or organisation.
-
-Enhances brand presence in search results, making it easier for users to find business information.
-
-Product
-
-Used for e-commerce products.
-
-Boosts product visibility, allowing for rich results in product searches, especially in local markets.
-
-Review
-
-Used for product or service reviews.
-
-Enhances credibility and click-through rates by displaying star ratings in search results.
-
-FAQ
-
-Commonly used to answer frequently asked questions.
-
-Improves search visibility and can lead to rich snippets, enhancing click-through rates.
-
-Article
-
-For blog posts and news articles.
-
-Improves the chances of appearing as featured snippets, driving more traffic to content.
-
-Event
-
-Used for local events, concerts, and festivals.
-
-Increases visibility in local search results and helps users find relevant events nearby.
-
-Recipe
-
-Applicable for food and cooking websites.
-
-Increases chances of appearing in recipe searches, attracting food enthusiasts.
+| Type | Use Case | Impact on Spanish SEO |
+|---|---|---|
+| Local Business | For Local Businesses with a physical presence. | Optimizes for local searches, increasing foot traffic and local engagement. |
+| Organisation | Details about a company or organisation. | Enhances brand presence in search results, making it easier for users to find business information. |
+| Product | Used for e-commerce products. | Boosts product visibility, allowing for rich results in product searches, especially in local markets. |
+| Review | Used for product or service reviews. | Enhances credibility and click-through rates by displaying star ratings in search results. |
+| FAQ | Commonly used to answer frequently asked questions. | Improves search visibility and can lead to rich snippets, enhancing click-through rates. |
+| Article | For blog posts and news articles. | Improves the chances of appearing as featured snippets, driving more traffic to content. |
+| Event | Used for local events, concerts, and festivals. | Increases visibility in local search results and helps users find relevant events nearby. |
+| Recipe | Applicable for food and cooking websites. | Increases chances of appearing in recipe searches, attracting food enthusiasts. |
 
 ### Crawlability and indexing: the ongoing construction
 

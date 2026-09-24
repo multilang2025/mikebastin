@@ -1,5 +1,5 @@
 ---
-words: 1509
+words: 1557
 title: "How to create a targeted content strategy?"
 slug: "how-to-create-a-targeted-content-strategy"
 locale: "en"
@@ -150,41 +150,13 @@ Now it’s time to develop content that truly performs, focusing on quality and 
 
 Here’s an overview of how different content types can perform (engagement and conversion rates can vary based on industry and audience):
 
-Content Type
-
-Avg. Engagement (mins)
-
-Conversion Rate (%)
-
-Blog Posts
-
-5.2
-
-2.8
-
-Videos
-
-12.5
-
-4.5
-
-Social Media Posts
-
-2.1
-
-1.1
-
-Whitepapers/Guides
-
-8.0
-
-3.9
-
-Webinars
-
-14.2
-
-5.2
+| Content Type | Avg. Engagement (mins) | Conversion Rate (%) |
+| --- | --- | --- |
+| Blog Posts | 5.2 | 2.8 |
+| Videos | 12.5 | 4.5 |
+| Social Media Posts | 2.1 | 1.1 |
+| Whitepapers/Guides | 8.0 | 3.9 |
+| Webinars | 14.2 | 5.2 |
 
 _Source: Internal analytics via Google Analytics + user surveys (Note: This data is illustrative and should be based on your own analytics)._
 
@@ -225,21 +197,11 @@ Create once, promote perpetually. Increase the reach of your valuable content.
 
 ### Repurposing examples for distribution
 
-Source Asset
-
-Repurpose Into
-
-Blog Post
-
-Social media carousel post + Twitter thread snippets
-
-Webinar
-
-YouTube highlight clips + blog post summary
-
-Data Report/Study
-
-LinkedIn PDF + press release + infographic
+| Source Asset | Repurpose Into |
+| --- | --- |
+| Blog Post | Social media carousel post + Twitter thread snippets |
+| Webinar | YouTube highlight clips + blog post summary |
+| Data Report/Study | LinkedIn PDF + press release + infographic |
 
 Consider how a multilingual branding approach impacts your distribution channels in different markets.
 

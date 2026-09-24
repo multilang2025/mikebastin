@@ -1,5 +1,5 @@
 ---
-words: 2004
+words: 2033
 title: "When businesses need a digital marketing advisor instead of an agency"
 slug: "digital-marketing-advisor"
 locale: "en"
@@ -32,47 +32,14 @@ The signal is rarely about budget.
 
 Where the bottleneck sits matters far more.
 
-Dimension
-
-Digital marketing advisor
-
-Marketing agency
-
-**Primary role**
-
-Strategy, audit, direction
-
-Execution, production, ad management
-
-**Time on strategy**
-
-~80%
-
-~20%
-
-**Engagement style**
-
-Fractional, often inside leadership meetings
-
-External vendor with an account manager
-
-**Best for**
-
-Companies that do not know what to do next
-
-Companies that know what to do but lack capacity
-
-**Typical pricing**
-
-Flat retainer or project fee
-
-Monthly retainer plus media spend
-
-**Risk of bias**
-
-Lower (no products to sell beyond time)
-
-Higher (incentive to keep the retainer alive)
+| Dimension | Digital marketing advisor | Marketing agency |
+|---|---|---|
+| **Primary role** | Strategy, audit, direction | Execution, production, ad management |
+| **Time on strategy** | ~80% | ~20% |
+| **Engagement style** | Fractional, often inside leadership meetings | External vendor with an account manager |
+| **Best for** | Companies that do not know what to do next | Companies that know what to do but lack capacity |
+| **Typical pricing** | Flat retainer or project fee | Monthly retainer plus media spend |
+| **Risk of bias** | Lower (no products to sell beyond time) | Higher (incentive to keep the retainer alive) |
 
 ## What a digital marketing advisor actually does
 

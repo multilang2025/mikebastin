@@ -1,5 +1,5 @@
 ---
-words: 1096
+words: 1121
 title: "Competitor analysis for SEO and digital growth"
 slug: "competitor-analysis"
 locale: "en"
@@ -58,41 +58,13 @@ The implication is uncomfortable: most pages your rivals publish do nothing. Fin
 
 ### The toolkit we use, with honest caveats
 
-Tool
-
-What we use it for
-
-Reality check
-
-Ahrefs
-
-Top pages, keyword overlap, link patterns
-
-Traffic figures are CTR-model estimates, not measured data
-
-Semrush
-
-Position tracking, paid intelligence, content gap
-
-Stronger in US English, weaker in long-tail Spanish
-
-SimilarWeb
-
-Channel split, audience overlap
-
-Reliable mostly above 50k monthly visits
-
-Google Search Console
-
-Where you actually appear next to rivals
-
-Free and underused, especially the Pages and Queries cross-filter
-
-Manual SERP checks (VPN)
-
-What real Spanish, French, UK SERPs look like
-
-Tool snapshots lag the live SERP by days
+| Tool | What we use it for | Reality check |
+|---|---|---|
+| Ahrefs | Top pages, keyword overlap, link patterns | Traffic figures are CTR-model estimates, not measured data |
+| Semrush | Position tracking, paid intelligence, content gap | Stronger in US English, weaker in long-tail Spanish |
+| SimilarWeb | Channel split, audience overlap | Reliable mostly above 50k monthly visits |
+| Google Search Console | Where you actually appear next to rivals | Free and underused, especially the Pages and Queries cross-filter |
+| Manual SERP checks (VPN) | What real Spanish, French, UK SERPs look like | Tool snapshots lag the live SERP by days |
 
 Ahrefs themselves [document the gap](https://help.ahrefs.com/en/articles/431381-why-don-t-the-organic-traffic-numbers-reported-by-ahrefs-match-those-i-see-in-google-analytics-or-gsc) between their traffic estimates and Google Search Console reality. Treat the numbers as ranges. Compare relative trends, not absolute figures.
 

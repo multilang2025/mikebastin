@@ -1,5 +1,5 @@
 ---
-words: 2322
+words: 2342
 title: "Optimizing your website for Valencia-based searches"
 slug: "optimising-your-website-for-valencia-based-searches"
 locale: "en"
@@ -83,25 +83,12 @@ Understanding and mapping these distinct intentions ensures your digital presenc
 
 **Example Keywords and Their Intent:**
 
-**Keyword**
-
-**Search Intent**
-
-Valencia coffee shops
-
-Informational/Transactional
-
-Hire a plumber in Valencia
-
-Transactional
-
-Best schools in Valencia
-
-Informational
-
-Valencia real estate listings
-
-Transactional
+| Keyword | Search Intent |
+| --- | --- |
+| Valencia coffee shops | Informational/Transactional |
+| Hire a plumber in Valencia | Transactional |
+| Best schools in Valencia | Informational |
+| Valencia real estate listings | Transactional |
 
 ## Improving site structure and metadata
 

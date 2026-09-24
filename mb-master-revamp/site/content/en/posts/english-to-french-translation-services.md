@@ -1,5 +1,5 @@
 ---
-words: 1828
+words: 1859
 title: "What to look for in English to French translation services"
 slug: "english-to-french-translation-services"
 locale: "en"
@@ -176,53 +176,13 @@ See our piece on [running a French PPC campaign](/blog/french-ppc-campaign/) for
 
 ## Service tiers and what each one covers
 
-Service
-
-Best for
-
-Includes
-
-Typical turnaround
-
-**Standard translation**
-
-Internal documents, manuals, technical content
-
-Native translator + reviewer + glossary
-
-2,500 words per day
-
-**SEO translation**
-
-Website pages, blog content, landing pages
-
-French keyword research + on-page SEO + CMS push
-
-1,500 words per day
-
-**Transcreation**
-
-Ads, hero copy, taglines, brand campaigns
-
-Concept rewrite + cultural adaptation + multiple options
-
-Project-based
-
-**MTPE / post-AI editing**
-
-High-volume content with budget constraints
-
-Machine translation + full human post-editing + QA
-
-4,000 words per day
-
-**Certified / sworn translation**
-
-Legal documents, official certificates, court filings
-
-_Traducteur assermenté_, stamped output
-
-3 to 7 days
+| Service | Best for | Includes | Typical turnaround |
+|---|---|---|---|
+| **Standard translation** | Internal documents, manuals, technical content | Native translator + reviewer + glossary | 2,500 words per day |
+| **SEO translation** | Website pages, blog content, landing pages | French keyword research + on-page SEO + CMS push | 1,500 words per day |
+| **Transcreation** | Ads, hero copy, taglines, brand campaigns | Concept rewrite + cultural adaptation + multiple options | Project-based |
+| **MTPE / post-AI editing** | High-volume content with budget constraints | Machine translation + full human post-editing + QA | 4,000 words per day |
+| **Certified / sworn translation** | Legal documents, official certificates, court filings | _Traducteur assermenté_, stamped output | 3 to 7 days |
 
 > The most expensive translation mistake we see is companies treating French as one language. Shipping Parisian copy into Québec, or Belgian register into a Geneva audience, costs more in lost conversion than the price difference between proper localization and a generic one-variant job.
 > 
