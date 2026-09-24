@@ -202,15 +202,37 @@ export default async function ServicePage({
           <div className="shell space-y-14">
             {service.body.map((section, i) => (
               <Reveal key={section.heading} i={i}>
-                <h2 className="mb-5 max-w-[28ch] text-[clamp(1.4rem,2.6vw,2rem)] font-semibold leading-[1.18]">
-                  {section.heading}
-                </h2>
-                <div className="max-w-[68ch] space-y-4">
-                  {section.paragraphs.map((p, j) => (
-                    <p key={j} className="text-[1.02rem] leading-[1.65]" style={{ color: "var(--dim)" }}>
-                      {p}
-                    </p>
-                  ))}
+                {/* A section with `art` runs two columns from md up: the
+                    illustration takes a fixed-width column and the text
+                    keeps its own max-width rather than stretching to fill
+                    the row. Below md the art sits above the text, full
+                    width. A section with no `art` is unchanged: full width,
+                    max-w-[68ch], the plain single-column read every other
+                    body section already uses. */}
+                <div className={section.art ? "flex flex-col gap-8 md:flex-row md:items-start" : undefined}>
+                  {section.art && (
+                    <img
+                      src={section.art.src}
+                      alt={section.art.alt}
+                      width={700}
+                      height={516}
+                      loading="lazy"
+                      className="w-full shrink-0 rounded-[4px] border md:w-[340px]"
+                      style={{ borderColor: "var(--rule)" }}
+                    />
+                  )}
+                  <div className={section.art ? "flex-1" : undefined}>
+                    <h2 className="mb-5 max-w-[28ch] text-[clamp(1.4rem,2.6vw,2rem)] font-semibold leading-[1.18]">
+                      {section.heading}
+                    </h2>
+                    <div className="max-w-[68ch] space-y-4">
+                      {section.paragraphs.map((p, j) => (
+                        <p key={j} className="text-[1.02rem] leading-[1.65]" style={{ color: "var(--dim)" }}>
+                          {p}
+                        </p>
+                      ))}
+                    </div>
+                  </div>
                 </div>
               </Reveal>
             ))}

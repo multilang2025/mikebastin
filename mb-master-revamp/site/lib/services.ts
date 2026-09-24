@@ -108,7 +108,18 @@ export type Service = {
    * new pillars with no matching harvested page, so their `body` is
    * written fresh rather than adapted.
    */
-  body?: { heading: string; paragraphs: string[] }[];
+  body?: {
+    heading: string;
+    paragraphs: string[];
+    /**
+     * An optional branded illustration for this section, shown beside the
+     * text at desktop width and above it on mobile. Files live in
+     * `public/images/sections/`. Most body sections carry no `art`; add it
+     * only where a real illustration exists, so the layout falls back to
+     * the plain single-column read everywhere else.
+     */
+    art?: { src: string; alt: string };
+  }[];
   /**
    * Collapsible detail, for an absorbed article's substance. Keeps the depth
    * a consolidated page needs without the scroll, and keeps the absorbed
@@ -1044,6 +1055,10 @@ export const SERVICES: Service[] = [
     body: [
       {
         heading: "What an invisible profile costs a local business",
+        art: {
+          src: "/images/sections/local-seo-visibility.webp",
+          alt: "One faded, outlined shopfront beside a solid, visible shopfront marked with a map pin",
+        },
         paragraphs: [
           "Somebody searching for a service near them rarely scrolls. They call one of the three businesses on the map, read the reviews of the other two, and are gone. A business outside those three does not lose the enquiry to a better competitor, it never gets the chance to compete for it.",
           "In a city where people search in more than one language, the loss doubles quietly. A profile written only in Spanish is invisible to the English speaker two streets away searching in English, and the competitor who bothered to add the second language takes both.",
