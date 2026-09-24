@@ -1,35 +1,39 @@
 #!/usr/bin/env node
 /**
- * Cheap-model bulk triage across the migrated blog posts not yet covered
- * by a real restoration pass, ahead of spending full-price agent work on
- * them. Two spot checks (affiliate-marketing-programs,
- * german-seo-best-practices) found the WP-to-MDX migration had silently
- * dropped most list items, tables and links on some posts. A follow-up
- * restoration pass on fourteen top-traffic posts then found the opposite
- * on most of them: eleven of fourteen were already intact, and the real
- * remaining faults were narrower (a markdown table that lost its syntax,
- * a stale internal link) rather than wholesale content loss. So this
- * script exists to find out, cheaply, which of this project's remaining
- * migrated posts actually need work, rather than assuming every post
- * needs the same expensive full restoration.
+ * Cheap, reliable triage for the migrated blog posts not yet covered by
+ * a real restoration pass: which ones lost a comparison table.
  *
- * For every target slug:
- *   1. Fetch the live legacy page (free) and the migrated .md (free).
- *   2. Compute structural counts locally, no model call: headings, list
- *      items, table rows, links, for both versions.
- *   3. Only if the migrated counts are meaningfully lower does it spend
- *      a cheap OpenRouter call (openai/gpt-oss-20b -- see
- *      svg-animation-ideas.mjs for why this model) asking the model to
- *      read both texts and describe, in plain language, what looks
- *      missing. That is extraction from text actually given to it, not
- *      the model's own recall, so it is not the "fact-checking" this
- *      project reserves for live search (CLAUDE.md) -- it is closer to
- *      cheap reading comprehension over supplied source material.
+ * This script went through two broken versions before this one. Both
+ * tried to isolate the real article body from the rest of a legacy
+ * Divi/WordPress page (nav, breadcrumbs, language switcher, widgets) so
+ * that headings/list-items/links could be counted structurally and
+ * compared. Both failed for different reasons specific to this theme's
+ * markup:
+ *   1. Scoping to <header>/<footer> alone left the breadcrumb nav and
+ *      the WPML language switcher in scope, which sit outside those
+ *      tags on this theme -- confirmed on eeat-vs-aeat-typo, where they
+ *      added a constant phantom 8 list items to every single post.
+ *   2. Scoping to a `.dipi-post-content` div by string search matched a
+ *      *different* occurrence of that class name on at least one post
+ *      (ai-powered-marketing): the class also appears as a literal
+ *      string inside a jQuery snippet that wraps text nodes in that
+ *      class at runtime, client-side -- meaning the div doesn't exist
+ *      in the HTML this script ever sees, and the match landed on the
+ *      JS string instead, producing near-empty bogus bounds.
  *
- * Output: docs/blog-legacy-diff.json, one entry per post, a plain
- * "needs_review" boolean and (when true) the model's description of
- * what is missing. This is triage, not a spec: read it before spending
- * a full restoration pass on anything it flags.
+ * Real evidence from the fourteen posts a full restoration pass already
+ * checked by hand (docs/blog-restore-batch-{a,b,c}.md): eleven of
+ * fourteen had every legacy heading, list item and link already intact.
+ * The one recurring real defect was a comparison table whose data
+ * survived the WP-to-MDX migration but landed as dozens of flattened
+ * one-line paragraphs instead of markdown table syntax, on five of
+ * fourteen posts. So rather than keep chasing this theme's markup
+ * variations to make a general structural diff reliable, this script
+ * checks for that one specific, actually-confirmed failure mode, on an
+ * unscoped page fetch: a `<table` tag essentially never appears in a
+ * WordPress theme's nav, footer or sidebar widgets, so searching the
+ * whole page for it (rather than a hand-isolated article body) is safe
+ * without the scoping this file's earlier versions got wrong.
  *
  *   node scripts/blog-legacy-diff.mjs
  *   node scripts/blog-legacy-diff.mjs --slug some-slug   # one post only
@@ -41,7 +45,6 @@ import { fileURLToPath } from "node:url";
 const ROOT = join(fileURLToPath(new URL("../", import.meta.url)));
 const REPO_ROOT = join(ROOT, "..");
 const OUT_FILE = join(REPO_ROOT, "docs", "blog-legacy-diff.json");
-const MODEL = "openai/gpt-oss-20b";
 
 const ALREADY_HANDLED = new Set([
   "affiliate-marketing-programs", "german-seo-best-practices", "chrome-extensions-for-seo",
@@ -51,84 +54,14 @@ const ALREADY_HANDLED = new Set([
   "top-instagram-tools", "building-a-global-brand", "competitor-analysis-traffic-checklist",
 ]);
 
-function stripHtml(html) {
-  return html
-    .replace(/<(script|style|noscript)[^>]*>[\s\S]*?<\/\1>/gi, "")
-    .replace(/<header[\s\S]*?<\/header>/i, "")
-    .replace(/<footer[\s\S]*?<\/footer>/i, "");
+function hasLegacyTable(html) {
+  const noScript = html.replace(/<(script|style|noscript)[^>]*>[\s\S]*?<\/\1>/gi, "");
+  return (noScript.match(/<table[ >]/gi) || []).length;
 }
 
-function countLegacy(html) {
-  const s = stripHtml(html);
-  return {
-    headings: (s.match(/<h[234][ >]/gi) || []).length,
-    list_items: (s.match(/<li[ >]/gi) || []).length,
-    tables: (s.match(/<table[ >]/gi) || []).length,
-    links: (s.match(/<a [^>]*href/gi) || []).length,
-  };
-}
-
-function countMigrated(md) {
+function hasMigratedTable(md) {
   const body = md.replace(/^---[\s\S]*?---/, "");
-  return {
-    headings: (body.match(/^#{2,4} /gm) || []).length,
-    list_items: (body.match(/^-\s/gm) || []).length,
-    tables: (body.match(/^\|.*\|.*\n\|[-:| ]+\|/gm) || []).length,
-    links: (body.match(/\[[^\]]*\]\(https?:\/\//g) || []).length,
-  };
-}
-
-function needsReview(legacy, migrated) {
-  // Flag when the migrated version is meaningfully thinner in any
-  // dimension, allowing headings some slack (legacy h4s sometimes
-  // fold into a paragraph honestly, without losing content).
-  if (legacy.list_items >= 6 && migrated.list_items < legacy.list_items * 0.6) return true;
-  if (legacy.tables > 0 && migrated.tables < legacy.tables) return true;
-  if (legacy.links >= 4 && migrated.links < legacy.links * 0.5) return true;
-  if (legacy.headings >= 6 && migrated.headings < legacy.headings * 0.4) return true;
-  return false;
-}
-
-async function describeGap(slug, legacyText, migratedText) {
-  const res = await fetch("https://openrouter.ai/api/v1/chat/completions", {
-    method: "POST",
-    headers: {
-      Authorization: `Bearer ${process.env.OPENROUTER_API_KEY}`,
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify({
-      model: MODEL,
-      messages: [
-        {
-          role: "system",
-          content: `You compare a legacy article to a migrated, rewritten version of the
-same article and describe what looks missing from the migrated one:
-specific list entries, table rows, links, or subsections present in the
-legacy text but not represented in the migrated text, even in different
-words. Do not invent anything not in the legacy text. Do not comment on
-style or voice. Reply with 2-5 short bullet points, plain text, no
-markdown headers, or reply exactly "Nothing significant missing." if the
-migrated version genuinely covers the same ground.`,
-        },
-        {
-          role: "user",
-          content: `LEGACY (may include boilerplate, ignore nav/footer noise):\n${legacyText.slice(0, 6000)}\n\n---\n\nMIGRATED:\n${migratedText.slice(0, 4000)}`,
-        },
-      ],
-      temperature: 0.3,
-    }),
-  });
-  if (!res.ok) throw new Error(`OpenRouter ${res.status} for ${slug}: ${(await res.text()).slice(0, 300)}`);
-  const data = await res.json();
-  return data.choices?.[0]?.message?.content?.trim() ?? "(no content returned)";
-}
-
-function htmlToText(html) {
-  return stripHtml(html)
-    .replace(/<[^>]+>/g, " ")
-    .replace(/&nbsp;/g, " ")
-    .replace(/\s+/g, " ")
-    .trim();
+  return (body.match(/^\|.*\|.*\n\|[-:| ]+\|/gm) || []).length;
 }
 
 async function main() {
@@ -144,9 +77,6 @@ async function main() {
     console.error("No targets to check.");
     process.exit(1);
   }
-  if (!process.env.OPENROUTER_API_KEY) {
-    console.error("OPENROUTER_API_KEY not set. Structural counts will still run; gap descriptions will not.");
-  }
 
   const results = {};
   for (const slug of targets) {
@@ -156,8 +86,7 @@ async function main() {
       console.log(`${slug}: no migrated file, skipped`);
       continue;
     }
-    const migratedRaw = readFileSync(mdPath, "utf8");
-    let legacyHtml;
+    let html;
     try {
       const res = await fetch(`https://mikebastin.com/${slug}/`);
       if (!res.ok) {
@@ -165,33 +94,24 @@ async function main() {
         console.log(`${slug}: legacy ${res.status}, skipped`);
         continue;
       }
-      legacyHtml = await res.text();
+      html = await res.text();
     } catch (err) {
       results[slug] = { error: `legacy fetch failed: ${err.message}` };
       console.log(`${slug}: fetch failed, skipped`);
       continue;
     }
 
-    const legacyCounts = countLegacy(legacyHtml);
-    const migratedCounts = countMigrated(migratedRaw);
-    const flagged = needsReview(legacyCounts, migratedCounts);
-
-    let gap = null;
-    if (flagged && process.env.OPENROUTER_API_KEY) {
-      try {
-        gap = await describeGap(slug, htmlToText(legacyHtml), migratedRaw);
-      } catch (err) {
-        gap = `(gap description failed: ${err.message})`;
-      }
-    }
-
-    results[slug] = { legacy: legacyCounts, migrated: migratedCounts, needs_review: flagged, gap };
-    console.log(`${slug}: ${flagged ? "FLAGGED" : "ok"} (legacy ${JSON.stringify(legacyCounts)} vs migrated ${JSON.stringify(migratedCounts)})`);
+    const legacyTables = hasLegacyTable(html);
+    const migratedTables = hasMigratedTable(readFileSync(mdPath, "utf8"));
+    const missingTable = legacyTables > 0 && migratedTables < legacyTables;
+    results[slug] = { legacy_tables: legacyTables, migrated_tables: migratedTables, missing_table: missingTable };
+    console.log(`${slug}: legacy tables=${legacyTables}, migrated tables=${migratedTables}${missingTable ? "  <-- MISSING TABLE" : ""}`);
   }
 
   writeFileSync(OUT_FILE, JSON.stringify(results, null, 2) + "\n");
-  const flaggedCount = Object.values(results).filter((r) => r.needs_review).length;
-  console.log(`\n${targets.length} posts checked, ${flaggedCount} flagged for review. Written to ${OUT_FILE}`);
+  const flagged = Object.values(results).filter((r) => r.missing_table);
+  console.log(`\n${targets.length} posts checked, ${flagged.length} with a legacy table not reflected in the migrated markdown. Written to ${OUT_FILE}`);
+  console.log("This checks one confirmed failure mode only (a dropped comparison table). It is not a general audit -- a post with no table may still have other issues a person or a fuller pass would catch.");
 }
 
 main();
