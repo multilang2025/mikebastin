@@ -1197,7 +1197,7 @@ export const SERVICES: Service[] = [
     cluster: "Localization",
     pillar: true,
     angle: "Where accuracy is a liability question",
-    lede: "You have a contract, a patient record or a birth certificate that a court, a regulator or an embassy has to accept, and a wrong term in it costs you a deadline or worse. Work goes through the BeTranslated network, co-founded and run for twenty years.",
+    lede: "You have a contract, a patient record or a birth certificate that a court, a regulator or an embassy has to accept, and a wrong term in it costs you a deadline or worse. Work goes through the BeTranslated network, which we have run for twenty years.",
     metaTitle: "Translation services, Mike Bastin",
     metaDescription: "A contract, a patient record or a certificate a court or an embassy has to accept. Certified and sworn translation services through the BeTranslated network.",
     sections: ["Where a translation error actually costs", ...ENGAGEMENT],
@@ -1213,8 +1213,15 @@ export const SERVICES: Service[] = [
       {
         heading: "How the BeTranslated network actually delivers it",
         paragraphs: [
-          "Translation runs through the BeTranslated network, co-founded and run for over twenty years, with certified and sworn translators per language and per specialism (legal, medical, financial, academic, technical). Standard delivery runs two to five business days, with rush turnaround available for time-critical personal documents such as a visa or birth certificate translation.",
+          "Translation runs through the BeTranslated network, run for over twenty years, with certified and sworn translators per language and per specialism (legal, medical, financial, academic, technical). Standard delivery runs two to five business days, with rush turnaround available for time-critical personal documents such as a visa or birth certificate translation.",
           "Every document gets matched to a translator with the relevant sector background, then a rigorous review pass before delivery, with notarisation or an apostille handled where the receiving institution requires it. Confidentiality protocols apply throughout, since much of what moves through this service is precisely the kind of document a business cannot afford to have mishandled.",
+        ],
+      },
+      {
+        heading: "Where the accuracy standard actually gets tested",
+        paragraphs: [
+          "Delaguía y Luzón is a Valencia law firm whose practice runs across Spain and France in four languages, including Russian, so the same document sometimes needs to hold up in two legal systems at once. Its site, which carries that translated legal content, drew 38,476 clicks from 2,399,567 Google impressions between May and July 2026, an average position of 9.4.",
+          "A lawyer who will read the translation before a court or a client does is exactly the client this network was built for, in a language we do not need to check for them because it was done right the first time.",
         ],
       },
     ],
