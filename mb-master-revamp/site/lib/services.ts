@@ -367,7 +367,7 @@ export const SERVICES: Service[] = [
       {
         heading: "Three cases where the multilingual scope was the whole challenge",
         paragraphs: [
-          "BeTranslated, the translation agency we co-founded, runs twelve country-specific domains with WPML across all of them, cross-domain hreflang, native content per market from the in-house translator team and schema localized per country. The result has been consistent organic ranking across several European markets and AI citations in each target language for translation services queries.",
+          "BeTranslated, the translation agency we have run for twenty years, runs twelve country-specific domains with WPML across all of them, cross-domain hreflang, native content per market from the in-house translator team and schema localized per country. The result has been consistent organic ranking across several European markets and AI citations in each target language for translation services queries.",
           "A Houston freight forwarder targeting English-speaking US shippers and Spanish-speaking Latin American clients runs WordPress and WPML on a single domain with a Spanish subdirectory, distinct keyword research per language and FreightForwarder schema in both. Daily quote requests doubled over eighteen months across both languages.",
           "A Valencia law firm targeting Spanish, French and English-speaking clients runs WPML across all three, with LegalService schema localized per language and attorney bios adapted to each audience. It now gets recurring leads from three markets on commercial-intent queries such as business law and franchise contracts, in their own languages.",
         ],
