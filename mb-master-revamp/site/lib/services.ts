@@ -1142,6 +1142,13 @@ export const SERVICES: Service[] = [
           "Full QA runs across languages before launch: every interface element, form, menu and piece of multimedia checked for display, function and cultural fit, not just spot-checked on the homepage. A localization project that skips this step tends to surface its problems in a support inbox rather than in a test report.",
         ],
       },
+      {
+        heading: "A build that has to stay correct while stock turns over weekly",
+        paragraphs: [
+          "Century 21 Perdomo sells Dominican real estate in four languages on a headless WordPress, WPML and WooCommerce stack, where a property selling, a price moving or a status flipping has to update correctly in every locale at once rather than three of the four. Between May and July 2026 the site drew 9,944 clicks from 461,231 Google impressions at an average position of 10.1.",
+          "Localization is actually for that case: not a one-off translation pass, but a build that keeps four languages accurate against inventory that changes every week without anyone checking it by hand.",
+        ],
+      },
     ],
     expandablesHeading: "What localization touches beyond the copy",
     expandablesLede:
