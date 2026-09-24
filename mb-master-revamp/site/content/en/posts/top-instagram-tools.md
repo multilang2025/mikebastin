@@ -130,7 +130,7 @@ inBeat is a user-friendly platform that focuses on connecting businesses with re
 
 Traackr is known for its data-driven approach to influencer marketing. It offers advanced analytics and relationship management tools, making it suitable for larger brands with complex influencer marketing needs.
 
-### Impulze.Ai
+### Impulze.ai
 
 Impulze.ai is an influencer marketing management platform with a database of 250 million influencers. The platform offers tools for influencer discovery, authenticity verification, and campaign management.
 

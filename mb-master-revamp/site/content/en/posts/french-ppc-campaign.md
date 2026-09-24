@@ -154,7 +154,7 @@ For example, you can reallocate budgets toward higher-performing ads or keywords
 
 ## Common pitfalls to avoid in French PPC campaigns
 
-There are several [common mistakes businesses](/blog/) make when creating PPC campaigns for France, but you can avoid these with proper planning.
+There are several [common mistakes businesses](/blog/seo-mistakes-to-avoid/) make when creating PPC campaigns for France, but you can avoid these with proper planning.
 
 Firstly, don’t overlook the regional differences within France. The cultural and linguistic diversity between regions means that a one-size-fits-all campaign is unlikely to succeed. Adapt your messaging to fit the specific areas you’re targeting.
 

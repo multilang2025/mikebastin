@@ -1,5 +1,5 @@
 ---
-words: 912
+words: 946
 title: "Local link building in Spain"
 slug: "link-building-in-spain"
 locale: "en"
@@ -58,45 +58,12 @@ Most of what works for us on Spanish properties falls into four buckets.
 
 **Sponsorships and event listings.** Backing or attending a sector fair (DES Madrid, eShow, FITUR for tourism, SIL Barcelona for logistics) earns a mention on the event site, often a regional press writeup, sometimes a podcast or interview. Real-world activity feeds genuine link signals.
 
-Tactic
-
-Effort
-
-Typical DR range
-
-What you actually get
-
-Spanish digital PR
-
-High
-
-70 to 90
-
-Editorial mentions, brand authority
-
-Niche edits in sectoral blogs
-
-Medium
-
-40 to 65
-
-Topical relevance, anchor control
-
-Cámara + association listings
-
-Low to medium
-
-50 to 70
-
-Local trust signals, evergreen
-
-Sponsorships and events
-
-Medium
-
-50 to 80
-
-Mixed press plus brand exposure
+| Tactic | Effort | Typical DR range | What you actually get |
+| --- | --- | --- | --- |
+| Spanish digital PR | High | 70 to 90 | Editorial mentions, brand authority |
+| Niche edits in sectoral blogs | Medium | 40 to 65 | Topical relevance, anchor control |
+| Cámara + association listings | Low to medium | 50 to 70 | Local trust signals, evergreen |
+| Sponsorships and events | Medium | 50 to 80 | Mixed press plus brand exposure |
 
 ### A pattern we keep watching agencies repeat
 

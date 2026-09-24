@@ -1,5 +1,5 @@
 ---
-words: 1901
+words: 1984
 title: "Chrome extensions for translators, and what each one saves"
 slug: "chrome-extensions-for-translators"
 locale: "en"
@@ -188,129 +188,21 @@ A short audit on the article you might have read in 2024.
 
 ## Side-by-side comparison
 
-Extension
-
-Best for
-
-Free tier
-
-Languages
-
-MV3 in 2026
-
-Our usage
-
-**DeepL for Chrome**
-
-High-quality MT for European languages
-
-Yes (character cap)
-
-30+
-
-Yes
-
-Daily
-
-**ImTranslator**
-
-Side-by-side engine comparison
-
-Yes
-
-100+
-
-Yes
-
-Weekly
-
-**Mate Translate**
-
-Word and phrase bubble
-
-Yes (with paywall)
-
-200+
-
-Yes
-
-Daily
-
-**Google Translate**
-
-Fast page gist
-
-Yes
-
-130+
-
-Yes
-
-Daily
-
-**Claude for Chrome**
-
-Context-aware translation and rewriting
-
-With Claude plan
-
-All
-
-Yes
-
-Daily
-
-**DeepL Write**
-
-Target-language polish
-
-Yes
-
-7
-
-Yes
-
-Per project
-
-**Linguee**
-
-Bilingual example sentences
-
-Yes
-
-25+
-
-Yes
-
-Hourly
-
-**Reverso Context**
-
-Informal register and idiom
-
-Yes
-
-15+
-
-Yes
-
-Daily
-
-**LanguageTool**
-
-Multilingual grammar QA
-
-Yes
-
-30+
-
-Yes
-
-Daily
+| Extension | Best for | Free tier | Languages | MV3 in 2026 | Our usage |
+| --- | --- | --- | --- | --- | --- |
+| DeepL for Chrome | High-quality MT for European languages | Yes (character cap) | 30+ | Yes | Daily |
+| ImTranslator | Side-by-side engine comparison | Yes | 100+ | Yes | Weekly |
+| Mate Translate | Word and phrase bubble | Yes (with paywall) | 200+ | Yes | Daily |
+| Google Translate | Fast page gist | Yes | 130+ | Yes | Daily |
+| Claude for Chrome | Context-aware translation and rewriting | With Claude plan | All | Yes | Daily |
+| DeepL Write | Target-language polish | Yes | 7 | Yes | Per project |
+| Linguee | Bilingual example sentences | Yes | 25+ | Yes | Hourly |
+| Reverso Context | Informal register and idiom | Yes | 15+ | Yes | Daily |
+| LanguageTool | Multilingual grammar QA | Yes | 30+ | Yes | Daily |
 
 > The biggest change in twenty-five years of multilingual work is not the quality of MT or even the rise of LLMs. It is that the browser became the workbench. Everything we used to do across Trados, a paper dictionary, and three monitors now happens inside one Chrome window with seven extensions. The job is the same. The tools are unrecognisable.
-> 
->, [Mike Bastin](/how-i-work/), multilingual SEO and translation consultant
+>
+> [Mike Bastin](/how-i-work/), multilingual SEO and translation consultant
 
 ## How we sequence these in a working translation day
 

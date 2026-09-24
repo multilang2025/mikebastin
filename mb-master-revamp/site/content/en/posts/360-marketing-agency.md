@@ -1,5 +1,5 @@
 ---
-words: 891
+words: 914
 title: "Transform your marketing strategy with a 360 marketing agency"
 slug: "360-marketing-agency"
 locale: "en"
@@ -78,29 +78,13 @@ The headline we take from that research: connecting channels matters, but adding
 
 ### Promise vs reality
 
-What 360 brochures promise
-
-What integration actually requires
-
-“We cover every channel”
-
-One strategy that names the constraint and the trade-offs
-
-“Cross-functional team”
-
-One accountable lead with budget authority
-
-“Custom dashboards”
-
-One measurement plan everyone reads weekly
-
-“Multilingual ready”
-
-Translation as planning input, not the last step
-
-“Always-on social”
-
-Social tied to the same conversion goals as paid and SEO
+| What 360 brochures promise | What integration actually requires |
+| --- | --- |
+| “We cover every channel” | One strategy that names the constraint and the trade-offs |
+| “Cross-functional team” | One accountable lead with budget authority |
+| “Custom dashboards” | One measurement plan everyone reads weekly |
+| “Multilingual ready” | Translation as planning input, not the last step |
+| “Always-on social” | Social tied to the same conversion goals as paid and SEO |
 
 ### When to hire a 360 partner, and when not to
 

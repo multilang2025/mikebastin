@@ -116,7 +116,7 @@ A keyword map helps you organise your [multilingual SEO strategy](/blog/what-is-
 4.  **Optimize for local search engines**: In some markets, Google may not be the dominant search engine. For example, optimize for Baidu in China or Yandex in Russia.
 5.  **Use local keyword variations**: Include colloquialisms, slang, and regional terms in your keyword research.
 6.  **Analyse keyword difficulty**: Consider the competition level for keywords in each market to identify opportunities.
-7.  [Use long-tail keywords](/blog/multilingual-keyword-research/): These can be less competitive and more targeted to specific user intents.
+7.  [Use long-tail keywords](/blog/long-tail-keywords/): These can be less competitive and more targeted to specific user intents.
 
 By following these strategies and best practices, you’ll be well-equipped to conduct thorough multilingual keyword research and set the foundation for a [successful global SEO strategy](/services/multilingual-seo/).
 

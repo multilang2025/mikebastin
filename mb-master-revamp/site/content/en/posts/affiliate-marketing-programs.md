@@ -1,5 +1,5 @@
 ---
-words: 1076
+words: 1142
 title: "Affiliate marketing programs worth the setup time"
 slug: "affiliate-marketing-programs"
 locale: "en"
@@ -120,93 +120,18 @@ Good for: beginner blogging guides, WordPress tutorials, small-business starters
 
 ## Quick comparison of the 10 programmes
 
-Programme
-
-Commission
-
-Cookie
-
-Best for
-
-Amazon Associates
-
-1-10% per sale
-
-24 hours
-
-Product reviewers
-
-Shopify
-
-Up to $150 per merchant
-
-30 days
-
-Ecommerce content
-
-HubSpot
-
-30% recurring (12 mo.)
-
-180 days
-
-B2B marketers
-
-Semrush
-
-$200 per sale + $10 trial
-
-120 days
-
-SEO bloggers
-
-ClickFunnels
-
-Up to 30% recurring
-
-45 days
-
-Course creators
-
-Teachable
-
-Up to 30% lifetime
-
-90 days
-
-Course creators
-
-Kinsta
-
-$500 + 10% recurring
-
-60 days
-
-WordPress pros
-
-Kit (ConvertKit)
-
-30% recurring (24 mo.)
-
-60 days
-
-Creators, newsletters
-
-Fiverr
-
-Up to $150 + $10 hybrid
-
-30 days
-
-Freelancer content
-
-Bluehost
-
-$65 flat
-
-45 days
-
-Beginner bloggers
+| Programme | Commission | Cookie | Best for |
+| --- | --- | --- | --- |
+| Amazon Associates | 1 to 10% per sale | 24 hours | Product reviewers |
+| Shopify | Up to $150 per merchant | 30 days | Ecommerce content |
+| HubSpot | 30% recurring (12 mo.) | 180 days | B2B marketers |
+| Semrush | $200 per sale plus $10 trial | 120 days | SEO bloggers |
+| ClickFunnels | Up to 30% recurring | 45 days | Course creators |
+| Teachable | Up to 30% lifetime | 90 days | Course creators |
+| Kinsta | $500 plus 10% recurring | 60 days | WordPress pros |
+| Kit (ConvertKit) | 30% recurring (24 mo.) | 60 days | Creators, newsletters |
+| Fiverr | Up to $150 plus $10 hybrid | 30 days | Freelancer content |
+| Bluehost | $65 flat | 45 days | Beginner bloggers |
 
 ## Where new affiliates lose money in 2026
 
