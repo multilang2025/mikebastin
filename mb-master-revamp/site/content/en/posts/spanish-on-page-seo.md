@@ -44,7 +44,7 @@ Should you use “tú” or “usted”?
 
 The choice depends on the target audience: a younger, informal audience may prefer “tú,” while a more professional or older audience would expect “usted.”
 
-Focusing on [long-tail keywords](/blog/multilingual-keyword-research/) in Spanish, which reflect common expressions, can help better match the user’s search intent and make the content feel natural.
+Focusing on [long-tail keywords](/services/multilingual-seo/) in Spanish, which reflect common expressions, can help better match the user’s search intent and make the content feel natural.
 
 ## Content optimization: writing the melody
 

@@ -150,9 +150,9 @@ SEO success in Germany requires targeted [keyword research](/services/technical-
 
 Don’t simply translate English keywords into German.
 
-Instead, use [keyword research](/blog/multilingual-keyword-research/) tools matched to the German market to identify high-traffic search terms and phrases.
+Instead, use [keyword research](/services/multilingual-seo/) tools matched to the German market to identify high-traffic search terms and phrases.
 
-[Long-tail keywords](/blog/multilingual-keyword-research/), in particular, can be useful in capturing more specific search intent in the German-speaking regions.
+[Long-tail keywords](/services/multilingual-seo/), in particular, can be useful in capturing more specific search intent in the German-speaking regions.
 
 #### Creating region-specific content
 

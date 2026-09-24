@@ -94,7 +94,7 @@ SEO strategy in 2026 must account for visibility that does not convert through t
 
 ## Voice search matured quietly
 
-Voice search never had its predicted “revolution” moment. Instead, it became a steady part of how people interact with search, especially for local and [conversational queries](/blog/optimising-your-website-for-voice-search/).
+Voice search never had its predicted “revolution” moment. Instead, it became a steady part of how people interact with search, especially for local and [conversational queries](/services/generative-engine-optimization/).
 
 > An estimated 157.1 million Americans will use voice search in 2026. 75% of households are expected to own smart speaker devices by 2025. The speech recognition market is projected to reach $47 billion by 2030, growing at a 14.24% CAGR. Source: [DemandSage](https://www.demandsage.com/voice-search-statistics/), [Invoca](https://www.invoca.com/blog/voice-search-stats-marketers)
 

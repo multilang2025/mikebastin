@@ -110,7 +110,7 @@ Here are some general benchmarks to consider:
 2.  **Implement proper tracking:** Ensure your analytics tools are set up correctly to track performance across different languages and regions.
 3.  **Conduct regular audits:** Periodically review your localized content and [SEO strategies](https://mikebastin.com/how-ai-is-revolutionising-seo-strategies/) to identify areas for improvement.
 4.  **Invest in quality translations:** High-quality, culturally appropriate translations are crucial for maximizing ROI.
-5.  **Optimize for local search intent:** [Research and target keywords](https://mikebastin.com/multilingual-keyword-research/) that reflect local search behaviour and preferences.
+5.  **Optimize for local search intent:** [Research and target keywords](/services/multilingual-seo/) that reflect local search behaviour and preferences.
 6.  **Use hreflang tags:** Properly implement hreflang tags to help search engines serve the right content to the right audience.
 7.  **Monitor competitor performance:** Keep an eye on how your competitors are performing in local markets to identify opportunities and threats.
 

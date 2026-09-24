@@ -64,7 +64,7 @@ Keep title tags under 60 characters with the focus keyword near the front.
 
 Meta descriptions should stay under 160 characters, summarise the page content clearly, and include a localized call to action.
 
-Translated meta tags must incorporate [localized keywords](/blog/multilingual-keyword-research/) naturally, not just mirror the English version in another language.
+Translated meta tags must incorporate [localized keywords](/services/multilingual-seo/) naturally, not just mirror the English version in another language.
 
 Well-written meta data improves both click-through rates in traditional SERPs and the likelihood of AI systems extracting your page as a reference.
 

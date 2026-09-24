@@ -330,7 +330,7 @@ Voice interfaces continue to improve.
 
 Speech-to-text accuracy has reached near-human levels in major languages.
 
-[Voice search considerations](/blog/optimising-your-website-for-voice-search/) now extend to conversational commerce.
+[Voice search considerations](/services/generative-engine-optimization/) now extend to conversational commerce.
 
 Multimodal AI combines text, voice, and image understanding.
 

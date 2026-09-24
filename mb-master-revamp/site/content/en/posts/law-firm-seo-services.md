@@ -388,7 +388,7 @@ We build content ecosystems that capture research, consideration, and decision s
 
 -   Evergreen guides that answer complex queries.
 -   Regular updates on legal changes that affect clients.
--   Email sequences that nurture [interest and prompt](/blog/prompt-engineers/) action.
+-   Email sequences that nurture [interest and prompt](/services/ai-consulting/) action.
 -   Downloadable resources that generate qualified leads.
 
 Consistency across channels compounds brand recognition and enquiry volume.

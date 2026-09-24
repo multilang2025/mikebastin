@@ -102,7 +102,6 @@ const CLUSTERS: {
     posts: [
       "best-practices-for-multilingual-seo",
       "technical-seo-for-multilingual-websites",
-      "multilingual-keyword-research",
       "optimising-multilingual-website-content",
       "common-mistakes-to-avoid-when-localising-your-website",
       "building-a-global-brand",
@@ -160,8 +159,6 @@ const CLUSTERS: {
       "ai-powered-marketing",
       "conversational-ai-chatbots-business",
       "llms-beyond-giants-hidden-ai-models",
-      "prompt-engineers",
-      "optimising-your-website-for-voice-search",
     ],
   },
   {
@@ -227,7 +224,6 @@ const CLUSTERS: {
       "how-to-write-about-your-professional-background",
       "human-creator-economy",
       "mastering-the-art-of-networking",
-      "top-instagram-tools",
       "15-simple-blog-post-ideas-to-help-attract-more-customers-to-your-business",
     ],
   },

@@ -2650,7 +2650,10 @@
     "url": "https://mikebastin.com/fr/recherche-vocale/",
     "content_path": "site/content/fr/posts/recherche-vocale.md"
    },
-   "es": null
+   "es": null,
+   "locale_actions": {
+    "en": "retire"
+   }
   },
   {
    "group": "g115",
@@ -3301,8 +3304,8 @@
    "group": "g150",
    "type": "post",
    "tier": null,
-   "action": "migrate",
-   "destination": "mdx",
+   "action": "retire",
+   "destination": "prune",
    "absorbed_into": null,
    "vm_action": null,
    "vm_target_url": null,
@@ -3391,8 +3394,8 @@
    "group": "g155",
    "type": "post",
    "tier": null,
-   "action": "migrate",
-   "destination": "mdx",
+   "action": "retire",
+   "destination": "prune",
    "absorbed_into": null,
    "vm_action": null,
    "vm_target_url": null,
@@ -3625,8 +3628,8 @@
    "group": "g168",
    "type": "post",
    "tier": null,
-   "action": "migrate",
-   "destination": "mdx",
+   "action": "retire",
+   "destination": "prune",
    "absorbed_into": null,
    "vm_action": null,
    "vm_target_url": null,

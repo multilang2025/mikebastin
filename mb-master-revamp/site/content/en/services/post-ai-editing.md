@@ -95,4 +95,4 @@ Our Customers
 
 ## Trusted Experts in Post AI/MT Editing
 
-With [years of experience in translation](https://mikebastin.com/prompt-engineers/) and content editing, our team knows how to turn raw AI/MT output into polished, high-quality text. We understand the nuances that machines often miss and are dedicated to ensuring your content meets the highest standards. Whether it’s maintaining tone, fixing inaccuracies, or improving flow, you can trust us to handle your editing needs efficiently and professionally.
+With [years of experience in translation](/services/ai-consulting/) and content editing, our team knows how to turn raw AI/MT output into polished, high-quality text. We understand the nuances that machines often miss and are dedicated to ensuring your content meets the highest standards. Whether it’s maintaining tone, fixing inaccuracies, or improving flow, you can trust us to handle your editing needs efficiently and professionally.

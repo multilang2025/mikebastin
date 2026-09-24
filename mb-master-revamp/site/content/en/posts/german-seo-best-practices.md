@@ -90,7 +90,7 @@ Effective **[keyword research](/services/technical-seo/)** is at the heart of an
 
 **German** is known for its **compound words**, where multiple words are combined to form a single, longer word. For example, the word “Rechtschutzversicherungsgesellschaften” (legal insurance companies) is far more complex than its English counterpart.
 
-Targeting **[long-tail keywords](/blog/multilingual-keyword-research/)** that include these compound words can help you rank for more specific, less competitive search queries.
+Targeting **[long-tail keywords](/services/multilingual-seo/)** that include these compound words can help you rank for more specific, less competitive search queries.
 
 #### Localizing keywords
 

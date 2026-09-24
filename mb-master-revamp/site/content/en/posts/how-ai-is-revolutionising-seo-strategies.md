@@ -38,7 +38,7 @@ Google’s systems prioritise topical authority over individual keyword targetin
 
 A site covering a subject comprehensively outranks one optimizing isolated pages for specific terms.
 
-AI tools help identify [long-tail keywords](/blog/multilingual-keyword-research/) that signal high purchase intent.
+AI tools help identify [long-tail keywords](/services/multilingual-seo/) that signal high purchase intent.
 
 These lower-volume queries often convert at 2-3x the rate of head terms, according to Backlinko research.
 

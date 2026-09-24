@@ -150,7 +150,7 @@ Consider these examples:
 
 Direct translations miss these differences entirely.
 
-Effective [multilingual keyword research](/blog/multilingual-keyword-research/) requires native-speaker input, regional SERP analysis, and an understanding of local buying behaviour.
+Effective [multilingual keyword research](/services/multilingual-seo/) requires native-speaker input, regional SERP analysis, and an understanding of local buying behaviour.
 
 AI tools can accelerate this process by identifying intent differences across language variants at scale, but human validation remains essential for accuracy.
 

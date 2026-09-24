@@ -182,7 +182,7 @@ It requires [localized websites](/services/website-localisation/), [multilingual
 
 ### What to do now
 
--   Conduct market-specific [keyword research](/blog/multilingual-keyword-research/) in each target language
+-   Conduct market-specific [keyword research](/services/multilingual-seo/) in each target language
 -   Adapt product positioning and [content strategy for local audiences](/blog/content-optimisation-for-spanish-users/)
 -   Partner with regional logistics and payment providers
 -   [Research local registration requirements](https://valenciamove.com/company-formation-spain/) and regulatory environments before entry

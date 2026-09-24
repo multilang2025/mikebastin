@@ -30,7 +30,7 @@ It’s specially built for [web agencies](/services/) looking to supercharge the
 
 Get ready to diagnose those pesky technical hiccups, apply some digital elbow grease, and transform your clients’ websites from rusty jalopies into sleek, [search engine-conquering machines](/services/technical-seo/).
 
-We’ll walk you through real-world examples, dish out practical solutions, and have you speaking fluent ‘Tech SEO’ faster than you can say “[robots.txt](/blog/optimising-your-website-for-voice-search/)“!
+We’ll walk you through real-world examples, dish out practical solutions, and have you speaking fluent ‘Tech SEO’ faster than you can say “[robots.txt](/services/generative-engine-optimization/)“!
 
 So, are you ready to become the master mechanic of the digital highway? Let’s rev up those engines and start our [Technical SEO tune-up](/blog/technical-seo-audit-checklist/)!
 

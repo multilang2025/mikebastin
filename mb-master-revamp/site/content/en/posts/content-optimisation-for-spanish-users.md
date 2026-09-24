@@ -88,7 +88,7 @@ Compare search volumes across different Spanish-speaking regions to identify con
 
 Remember to analyse keyword patterns during significant Spanish cultural events, festivals, and holidays to capitalise on seasonal search trends.
 
-Consider how voice search patterns differ in Spanish, as the structure of questions and natural language queries may vary significantly from English patterns. Learn more in our guide to [optimizing for voice search](/blog/optimising-your-website-for-voice-search/).
+Consider how voice search patterns differ in Spanish, as the structure of questions and natural language queries may vary significantly from English patterns. Learn more in our guide to [optimizing for voice search](/services/generative-engine-optimization/).
 
 ### Content tone and style: the flamenco spirit
 

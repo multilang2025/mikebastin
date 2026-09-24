@@ -114,7 +114,7 @@ Collecting **feedback from local audiences** can also be immensely valuable
 
 Real feedback lets you fine-tune your approach, ensuring that your content feels genuinely local and effectively reaches your target audience.
 
-Incorporate their input and continue to refine your [keyword strategy](/blog/multilingual-keyword-research/) until it paints a complete picture of cultural relevance.
+Incorporate their input and continue to refine your [keyword strategy](/services/multilingual-seo/) until it paints a complete picture of cultural relevance.
 
 ### Tools and resources for effective Spanish keyword localization
 
@@ -133,7 +133,7 @@ Spain differs significantly from Latin American countries.
 Research cultural context and user intent, use A/B testing, and seek local expertise for cultural nuances.
 
 **What tools can we use for [keyword research](/services/technical-seo/) in Spanish?**  
-Google Keyword Planner, Ahrefs, and SEMrush are highly effective for Spanish [keyword research](/blog/multilingual-keyword-research/).
+Google Keyword Planner, Ahrefs, and SEMrush are highly effective for Spanish [keyword research](/services/multilingual-seo/).
 
 **Can we use machine translation for keyword localization?**  
 It’s not recommended.  
