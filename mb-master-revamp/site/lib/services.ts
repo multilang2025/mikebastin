@@ -367,7 +367,7 @@ export const SERVICES: Service[] = [
       {
         heading: "Three cases where the multilingual scope was the whole challenge",
         paragraphs: [
-          "BeTranslated, the translation agency we co-founded, runs twelve country-specific domains with WPML across all of them, cross-domain hreflang, native content per market from the in-house translator team and schema localized per country. The result has been consistent organic ranking across several European markets and AI citations in each target language for translation services queries.",
+          "BeTranslated, the translation agency we have run for twenty years, runs twelve country-specific domains with WPML across all of them, cross-domain hreflang, native content per market from the in-house translator team and schema localized per country. The result has been consistent organic ranking across several European markets and AI citations in each target language for translation services queries.",
           "A Houston freight forwarder targeting English-speaking US shippers and Spanish-speaking Latin American clients runs WordPress and WPML on a single domain with a Spanish subdirectory, distinct keyword research per language and FreightForwarder schema in both. Daily quote requests doubled over eighteen months across both languages.",
           "A Valencia law firm targeting Spanish, French and English-speaking clients runs WPML across all three, with LegalService schema localized per language and attorney bios adapted to each audience. It now gets recurring leads from three markets on commercial-intent queries such as business law and franchise contracts, in their own languages.",
         ],
@@ -1142,6 +1142,13 @@ export const SERVICES: Service[] = [
           "Full QA runs across languages before launch: every interface element, form, menu and piece of multimedia checked for display, function and cultural fit, not just spot-checked on the homepage. A localization project that skips this step tends to surface its problems in a support inbox rather than in a test report.",
         ],
       },
+      {
+        heading: "A build that has to stay correct while stock turns over weekly",
+        paragraphs: [
+          "Century 21 Perdomo sells Dominican real estate in four languages on a headless WordPress, WPML and WooCommerce stack, where a property selling, a price moving or a status flipping has to update correctly in every locale at once rather than three of the four. Between May and July 2026 the site drew 9,944 clicks from 461,231 Google impressions at an average position of 10.1.",
+          "Localization is actually for that case: not a one-off translation pass, but a build that keeps four languages accurate against inventory that changes every week without anyone checking it by hand.",
+        ],
+      },
     ],
     expandablesHeading: "What localization touches beyond the copy",
     expandablesLede:
@@ -1197,7 +1204,7 @@ export const SERVICES: Service[] = [
     cluster: "Localization",
     pillar: true,
     angle: "Where accuracy is a liability question",
-    lede: "You have a contract, a patient record or a birth certificate that a court, a regulator or an embassy has to accept, and a wrong term in it costs you a deadline or worse. Work goes through the BeTranslated network, co-founded and run for twenty years.",
+    lede: "You have a contract, a patient record or a birth certificate that a court, a regulator or an embassy has to accept, and a wrong term in it costs you a deadline or worse. Work goes through the BeTranslated network, which we have run for twenty years.",
     metaTitle: "Translation services, Mike Bastin",
     metaDescription: "A contract, a patient record or a certificate a court or an embassy has to accept. Certified and sworn translation services through the BeTranslated network.",
     sections: ["Where a translation error actually costs", ...ENGAGEMENT],
@@ -1213,8 +1220,15 @@ export const SERVICES: Service[] = [
       {
         heading: "How the BeTranslated network actually delivers it",
         paragraphs: [
-          "Translation runs through the BeTranslated network, co-founded and run for over twenty years, with certified and sworn translators per language and per specialism (legal, medical, financial, academic, technical). Standard delivery runs two to five business days, with rush turnaround available for time-critical personal documents such as a visa or birth certificate translation.",
+          "Translation runs through the BeTranslated network, run for over twenty years, with certified and sworn translators per language and per specialism (legal, medical, financial, academic, technical). Standard delivery runs two to five business days, with rush turnaround available for time-critical personal documents such as a visa or birth certificate translation.",
           "Every document gets matched to a translator with the relevant sector background, then a rigorous review pass before delivery, with notarisation or an apostille handled where the receiving institution requires it. Confidentiality protocols apply throughout, since much of what moves through this service is precisely the kind of document a business cannot afford to have mishandled.",
+        ],
+      },
+      {
+        heading: "Where the accuracy standard actually gets tested",
+        paragraphs: [
+          "Delaguía y Luzón is a Valencia law firm whose practice runs across Spain and France in four languages, including Russian, so the same document sometimes needs to hold up in two legal systems at once. Its site, which carries that translated legal content, drew 38,476 clicks from 2,399,567 Google impressions between May and July 2026, an average position of 9.4.",
+          "A lawyer who will read the translation before a court or a client does is exactly the client this network was built for, in a language we do not need to check for them because it was done right the first time.",
         ],
       },
     ],
