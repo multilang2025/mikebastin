@@ -224,7 +224,7 @@ export default function Home() {
           <Reveal>
             <p className="eyebrow mb-3">What we do</p>
             <h2 className="mb-5 max-w-[26ch] text-[clamp(1.8rem,3.6vw,2.9rem)] font-semibold leading-[1.1]">
-              Enquiries from every market you sell in.
+              Enquiries from every market where you already sell.
             </h2>
             <p className="mb-12 max-w-[56ch] text-[1.05rem]" style={{ color: "var(--dim)" }}>
               You already sell abroad, so the product is proven. Ongoing
@@ -338,7 +338,7 @@ export default function Home() {
           <Reveal>
             <p className="eyebrow mb-3">Why it works</p>
             <h2 className="mb-12 max-w-[20ch] text-[clamp(1.8rem,3.6vw,2.9rem)] font-semibold leading-[1.1]">
-              The same person reads every language you sell in.
+              The same person reads every language your buyers use.
             </h2>
           </Reveal>
 
