@@ -17,7 +17,8 @@
     "audit:sources": "node scripts/copy-sources-audit.mjs",
     "lint:headings": "node scripts/heading-shape-lint.mjs",
     "lint:keywords": "node --experimental-strip-types scripts/keyword-coverage-lint.mjs",
-    "lint:redirects": "node scripts/redirect-coverage-lint.mjs"
+    "lint:redirects": "node scripts/redirect-coverage-lint.mjs",
+    "images:blog": "node --experimental-strip-types scripts/fetch-legacy-images.mjs && node --experimental-strip-types scripts/fetch-commons-images.mjs && node --experimental-strip-types scripts/optimize-blog-images.mjs"
   },
   "dependencies": {
     "clsx": "^2.1.1",

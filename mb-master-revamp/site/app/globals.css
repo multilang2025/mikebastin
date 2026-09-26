@@ -438,6 +438,67 @@ h1, h2, h3, .display {
   .mr-art { max-width: 300px; justify-self: center; }
 }
 
+/* Service hero art: components/ServiceHeroArt.tsx. Reuses the mr-
+   primitives above (plate, draw-in, spark, pulse, pin); sh- is only what
+   the five service motifs add. Rotating groups spin about the art's
+   centre, not their own box, hence view-box origins. */
+.sh-art {
+  aspect-ratio: 1;
+  width: 100%;
+  max-width: 360px;
+  justify-self: end;
+  animation: mr-appear 1.2s cubic-bezier(.2,0,.2,1) both;
+}
+.sh-node   { fill: var(--dim); }
+.sh-grid   { stroke: var(--dim); stroke-width: 1; opacity: .3; fill: none; }
+.sh-divide { stroke: var(--rule); stroke-width: 1; stroke-dasharray: 2 7; }
+
+.sh-sweep {
+  transform-box: view-box;
+  transform-origin: 200px 200px;
+  animation: mr-spin 9s linear infinite;
+}
+.sh-sweep-fill { fill: var(--berry); opacity: .1; }
+.sh-sweep-edge { stroke: var(--berry); stroke-width: 1.4; opacity: .5; }
+.sh-blip { fill: var(--dim); opacity: .35; animation: mr-blink calc(3.4s + var(--i) * .45s) ease-in-out calc(var(--i) * .6s) infinite; }
+
+.sh-orbit  { transform-box: view-box; transform-origin: 200px 200px; }
+.sh-orbit0 { animation: mr-spin 60s linear infinite; }
+.sh-orbit1 { animation: mr-spin 95s linear infinite reverse; }
+.sh-orbit2 { animation: mr-spin 140s linear infinite; }
+
+.sh-page      { fill: var(--bg); stroke: var(--dim); stroke-width: 1.2; }
+.sh-page-line { stroke: var(--dim); stroke-width: 1.4; stroke-linecap: round; opacity: .6; }
+.sh-crosslink {
+  fill: none;
+  stroke: var(--dim);
+  stroke-width: 1;
+  stroke-dasharray: 3 5;
+  opacity: .5;
+}
+
+.sh-line-src { fill: var(--dim); opacity: .28; }
+.sh-line-out {
+  fill: var(--dim);
+  opacity: .5;
+  transform-box: fill-box;
+  transform-origin: left center;
+  animation: sh-grow .9s cubic-bezier(.3,0,.2,1) calc(1.2s + var(--i) * .28s) both;
+}
+.sh-line-lead { fill: var(--berry); opacity: .7; }
+@keyframes sh-grow { 0% { transform: scaleX(0); } to { transform: none; } }
+.sh-scan {
+  fill: var(--berry);
+  opacity: .1;
+  animation: sh-scan 7s ease-in-out 3.4s infinite both;
+}
+@keyframes sh-scan {
+  0%   { transform: translateY(0); opacity: 0; }
+  10%  { opacity: .12; }
+  85%  { opacity: .12; }
+  100% { transform: translateY(180px); opacity: 0; }
+}
+
 /* ===========================================================
    Reduced motion — hard stop on everything decorative
    =========================================================== */

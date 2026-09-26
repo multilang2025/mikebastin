@@ -106,5 +106,257 @@
         "description": "A low, semi‑circular bridge is drawn in two halves separated by a tiny gap. A single dot appears on the left side and waits; when the gap closes as the right half slowly extends, the dot crosses to the right side before the bridge resets. This restrained loop illustrates the bridging of the impressions‑to‑clicks gap."
       }
     ]
+  },
+  "multilingual-sem": {
+    "page": "/services/multilingual-sem/",
+    "angle": "International PPC, buying what search has not earned",
+    "concepts": [
+      {
+        "name": "Radiant Ripple",
+        "description": "A quiet, centrally positioned circle slowly expands into a thin, radiant ring that fades back to nothing, then repeats. The pulsing envelope of the ripple suggests a search query growing outward into new markets,.Uniquely simple, it glides on a muted loop, reflecting an organic, measured reach."
+      },
+      {
+        "name": "Orbiting Glints",
+        "description": "A small central dot emits a handful of loosely tied polyline glints that orbit around it in a gentle, slow rotation. Each glint moves independently, never overlapping, symbolising discrete language markets turning without one bleeding into another. The recurring circle pattern keeps revolutionary motion restrained, echoing the page’s assurance of market isolation."
+      },
+      {
+        "name": "Drifting Search Cloud",
+        "description": "A soft, cloud‑shaped silhouette drifts horizontally across the frame, gradually dissolving into a subtle tail that regrows on the opposite side. The motion mirrors the fleeting nature of a buyer’s search intent, moving silently from one linguistic context to another without overt cross‑pollution. It loops seamlessly, providing ambient visual interest without distraction."
+      }
+    ]
+  },
+  "conversion-tracking": {
+    "page": "/services/conversion-tracking/",
+    "angle": "The evidence layer, per locale",
+    "concepts": [
+      {
+        "name": "Locale Pulse Grid",
+        "description": "A grid of semi‑transparent circles, each subtly pulsing in sync with a gentle rhythm. Thin lines connect each circle to a central rectangle, hinting at a shared report layer. The slow, rhythmic pulses convey continuous evidence collection across distinct markets."
+      },
+      {
+        "name": "Wave of Markets",
+        "description": "A set of overlapping translucent arcs that glide upward in a slow, rolling motion, resembling waves. Each arc rises from a different starting point on the left, converging toward a single point on the right, symbolising traffic flowing from various locales into one aggregated view."
+      },
+      {
+        "name": "Data Cloud Drift",
+        "description": "A soft, amorphous cloud comprised of scattered dots that slowly drift away from a central core, with faint connecting lines emerging from each dot. The subtle departure of the dots illustrates the separation between raw traffic data and the eventual observable conversions."
+      }
+    ]
+  },
+  "multilingual-seo": {
+    "page": "/services/multilingual-seo/",
+    "angle": "The engine underneath the outcome",
+    "concepts": [
+      {
+        "name": "Global Gear",
+        "description": "A stylized central gear with ten evenly spaced spokes. The gear rotates slowly counter‑clockwise while each spoke terminates in a small circle that pulses gently on a 6‑second loop. The gear‑like motion conveys the idea of an engine driving results, while the pulsing spokes hint at the individual markets receiving targeted attention."
+      },
+      {
+        "name": "Linking Network",
+        "description": "A sparse web of nodes and connecting lines that form a simple triangular lattice. Every node oscillates subtly outward and then returns to its center in a gradual rhythm, with the line thickness subtly thickening during the outward phase. This breathes life into the hidden connective tissue of multilingual SEO, implying that the strategy links disparate language markets through a steady engine."
+      },
+      {
+        "name": "Ripple Reach",
+        "description": "A set of concentric, semi‑transparent circles centered on an invisible point. Each circle expands slowly into a new circle, then fades, creating a continuous ripple effect that propagates outward. The gentle, looping ripple mirrors how the underlying engine spreads and amplifies impact across markets, visualizing unseen momentum behind traffic and enquiry growth."
+      }
+    ]
+  },
+  "italian-seo": {
+    "page": "/services/italian-seo/",
+    "angle": "SEO Italy, where translated copy gets found out",
+    "concepts": [
+      {
+        "name": "Editorial Stack",
+        "description": "A layered stack of semi‑circular arches, each slightly offset to create a three‑dimensional feel. The arches slowly rock back and forth in a gentle, ambient rhythm, as if each curve is being polished by careful attention. The motion conveys the idea that editorial depth is built over time, echoing how quality Italian content gains trust."
+      },
+      {
+        "name": "Search Pulse",
+        "description": "A horizontal baseline with a single semi‑elliptical pulse that expands and contracts along the line. The pulse travels from left to right at a measured pace, then resets, creating a rhythmic heartbeat. This subtle animation reflects the algorithmic response to content, hinting at how translated copy’s reward is delayed."
+      },
+      {
+        "name": "Language Wave",
+        "description": "A smooth sine wave traversing the width of the canvas, punctuated by small circles that glide along its crest and trough. The circles fade in upon reaching the top and fade out at the bottom, then reappear at the start, looping endlessly. The wave’s gentle undulation suggests the fluid movement of ideas across language layers while maintaining editorial integrity."
+      }
+    ]
+  },
+  "portuguese-seo": {
+    "page": "/services/portuguese-seo/",
+    "angle": "Two markets, one language",
+    "concepts": [
+      {
+        "name": "Dual Catenary Arcs",
+        "description": "Two smooth, semi‑circular arcs rise from a shared lower point and gradually diverge toward opposite upper corners, mimicking the separation of two markets. Each arc gently pulses in opacity at a slow rhythm, suggesting subtle shifts in focus over time. The motion illustrates that Portugal and Brazil share a language but maintain distinct market identities."
+      },
+      {
+        "name": "Converging Radii",
+        "description": "From a single central point, two thin radial lines extend outward in opposite directions, rotating slowly in counter‑clockwise motion. The lines intersect only at the origin, then separate, creating a visual orbit that feels both unified and distinct. This subtle orbit conveys the idea of one language guiding two separate market strategies."
+      },
+      {
+        "name": "Splitting Wave",
+        "description": "A single, smooth sine wave travels horizontally across the frame. Midway, the wave splits into two parallel, slightly offset waves that continue to the right side. The slow, continuous flow emphasizes that the same language can produce two parallel content paths, reflecting Portugal and Brazil’s separate markets."
+      }
+    ]
+  },
+  "website-localisation": {
+    "page": "/services/website-localisation/",
+    "angle": "Beyond translated strings",
+    "concepts": [
+      {
+        "name": "Rotating Rings",
+        "description": "A set of three concentric, semi-translucent rings centered in the viewport. They rotate slowly in opposite directions, each completing a full turn over a minute. The overlapping motion suggests layered meanings beyond surface translation, inviting viewers to contemplate deeper localisation."
+      },
+      {
+        "name": "Sine Wave Flow",
+        "description": "A single, gently curving path stretches horizontally across the page, reminiscent of a sine wave. The wave moves slowly from left to right, with its crest and troughs subtly stretching and compressing in a loop. This dsp fluid motion highlights the continuous journey from foreign to locally resonant experience."
+      },
+      {
+        "name": "Trust Pulse",
+        "description": "A small, abstract shape resembling a stylised shield appears at the centre, then expands outward in a soft pulse before receding. The pulse repeats at an interval of about ninety seconds, creating a rhythmic breathing effect. It subtly conveys the idea of reinforcing trust and assurance in a new local context."
+      }
+    ]
+  },
+  "translation-services": {
+    "page": "/services/translation-services/",
+    "angle": "Where accuracy is a liability question",
+    "concepts": [
+      {
+        "name": "Rippleed Rings",
+        "description": "Concentric circles radiating from a central point, each ring expanding slowly and then contracting in a gentle pulse. The motion represents the ripple effect of accurate translations spreading across legal and regulatory borders, emphasizing reliability and reach."
+      },
+      {
+        "name": "Triangular Trail",
+        "description": "A diagonal sequence of equilateral triangles sliding upward on a muted axis, one following the other in a seamless glide. The steady ascent conveys a clear, continuous path fromотив source documents to their final, verified forms within the translation network."
+      },
+      {
+        "name": "Calm Pulse Line",
+        "description": "A single vertical bar that rhythmically thickens and thins, creating a soft beating effect. This subtle oscillation signals the meticulous attention required to avoid errors, mirroring the precise nature of contractual and official translations."
+      }
+    ]
+  },
+  "app-and-software-localisation": {
+    "page": "/services/app-and-software-localisation/",
+    "angle": "Strings, and everything around them",
+    "concepts": [
+      {
+        "name": "Weaving Threads",
+        "description": "A set of fine, translucent threads tangle between two semicircular anchors, representing the interconnection of multiple language strings. The threads slowly rotate and interlace, creating a calm, ambient sense of continued translation work."
+      },
+      {
+        "name": "Ribbon Globe",
+        "description": "A sphere composed of overlapping ribbons, each ribbon flowing in a different direction to suggest varied language orientations. The globe gently rotates clockwise, subtly highlighting the global nature of localisation."
+      },
+      {
+        "name": "Expanding Line",
+        "description": "A single smooth line that elongates from one side and retracts on a slow loop, creating a subtle pulse that echoes the need for longer sentences in target markets. The line’s gentle sway feels like continuous readjustment to new languages."
+      }
+    ]
+  },
+  "ai-consulting": {
+    "page": "/services/ai-consulting/",
+    "angle": "AI consultants who say where AI does not help",
+    "concepts": [
+      {
+        "name": "Lingual Layer",
+        "description": "Multiple soft, translucent, gently wavy layers that slide horizontally in opposite directions at a slow cadence. The layering evokes the idea of textual content stacked with nuance, while the slow motion hints at the subtlety required for accurate German translation that AI alone can’t achieve."
+      },
+      {
+        "name": "Precision Needle",
+        "description": "A slender, diagonal line rotates slowly around a central pivot, briefly illuminating a faint, divided circle beneath it. The rhythmic pulsing of the line’s glow suggests pinpoint human expertise that can correct AI oversights, aligning with the message that a human touch is still essential."
+      },
+      {
+        "name": "Echo Spiral",
+        "description": "A single spiral path originates from a point and expands outward, its edges fading progressively. The spiral rotates slowly, creating a gentle echo effect. It conveys the notion of AI’s reach spreading wide but ultimately diminishing without human guidance, paralleling the need for a human reviewer to maintain quality."
+      }
+    ]
+  },
+  "ai-translation-and-post-editing": {
+    "page": "/services/ai-translation-and-post-editing/",
+    "angle": "Machine first, human decisive",
+    "concepts": [
+      {
+        "name": "Layered Flow",
+        "description": "Two translucent, rounded rectangles overlap: the lower layer, subtly shifting left‑to‑right and up‑down with a gentle jitter, represents machine output. The upper, thinner layer—a faint path of points—slowly loops over the lower one, leaving a faint ripple where the path crosses. The ripple symbolizes human correction, underscoring the idea that machine fluency is refined by human oversight."
+      },
+      {
+        "name": "Gear & Brush",
+        "description": "A stylised gear, rotating at a slow, consistent pace, forms the backdrop, embodying automated processing. A simple, translucent hand‑like outline moves vertically across the gear, tracing a thin, looping line that highlights sections of the gear. The hand’s movement is deliberate and deliberate, suggesting the thoughtful human edit that corrects any machine misstep."
+      },
+      {
+        "name": "Token Pull",
+        "description": "A line of small, evenly spaced dots travels horizontally from left to right, depicting a stream of machine‑generated tokens. Intermittently, a larger, glowing bead—a human figure rendered as a simple circle—appears and extends a line toward the stream, pulling a few dots out of their path and redirecting them into a faster, more direct trajectory. The motion merges linear flow with occasional human intervention, visualising the post‑editing process."
+      }
+    ]
+  },
+  "generative-engine-optimization": {
+    "page": "/services/generative-engine-optimization/",
+    "angle": "Cited inside the answer, not just ranked below it",
+    "concepts": [
+      {
+        "name": "Citing Circles",
+        "description": "A set of semi‑transparent rings represent each source, rotating slowly around a central point. The rings expand and contract in rhythm, visualising the act of citing without using text. The gentle motion suggests depth of knowledge in a calm, non‑θυνuffering way."
+      },
+      {
+        "name": "Rising Ripple",
+        "description": "Concentric, wave‑like layers emerge from the page bottom and rise upward, fading as they travel. The pulses symbolize insights arriving from various AI engines converging into one answer. Its continuous, low‑intensity motion keeps the space tranquil while implying dynamic research."
+      },
+      {
+        "name": "Overlayed Lenses",
+        "description": "Three translucent rectangular prisms glide past each other in a slow, alternating left‑to‑right motion. Their overlapping edges create a montage effect, hinting at multiple viewpoints merging into a single service offering. The subtle shuffling imparts a sense of layered optimisation without hard lines."
+      }
+    ]
+  },
+  "technical-seo": {
+    "page": "/services/technical-seo/",
+    "angle": "Crawlability and hreflang, noticed only when broken",
+    "concepts": [
+      {
+        "name": "Parallel Crawl Path",
+        "description": "Two gently curving paths glide across the canvas in opposite directions, each path lightly thickening and thinning in a slow sine rhythm. The paths intersect briefly, creating a subtle overlap that ripples before separating again. This oscillation mirrors how hreflang-marked pages can temporarily compete before harmonizing during crawl cycles."
+      },
+      {
+        "name": "Interlocking Zest Gears",
+        "description": "Two interlocking gear-like rings rotate in opposite directions at a steady, slow pace, with a small pulsing glow at their contact point. The gears never collide but their interlaced motion subtly indicates coordination and shared movement. It visualizes how language-specific content can spin together in sync without interfering with each other's crawl paths."
+      },
+      {
+        "name": "Dual Spiral Pathway",
+        "description": "Two contrasting spirals originate from a common center, winding outward in opposite senses. The spirals expand and contract slowly, creating a gentle wave of motion that eventually crests and diverges again. This conveys the idea of SEO crawlers navigating language layers that may at once overlap and then separate, echoing the page’s focus on minimizing internal competition."
+      }
+    ]
+  },
+  "content-marketing": {
+    "page": "/services/content-marketing/",
+    "angle": "Demand first, calendar second",
+    "concepts": [
+      {
+        "name": "PulseGrid",
+        "description": "A large, muted checkerboard subtly pulses in the center, mimicking a breathing calendar. The gentle ripple moves across the grid, suggesting a rhythm that waits for content to sync with scheduled slots. It visually implies that steady publishing alone does not drive engagement."
+      },
+      {
+        "name": "Steady Spiral",
+        "description": "A 赌 thin line spirals outward from a central point, continually drawing in small segments resembling articles each loop. The spiral’s slow, smooth motion reflects a consistent content schedule that pauses until a calendar marker aligns. It conveys a continuous flow that still needs buyer-driven timing."
+      },
+      {
+        "name": "Flux Arrows",
+        "description": "Minimalist arrows arranged in a circular sweep rotate slowly around a central point, pointing both inward and outward. This motion portrays the tug between a business’s messaging and its audience’s demand. The steady sweep hints at cyclical publishing that seeks alignment with market interest."
+      }
+    ]
+  },
+  "multilingual-content": {
+    "page": "/services/multilingual-content/",
+    "angle": "Written per market, not translated",
+    "concepts": [
+      {
+        "name": "Synchronized Ripples",
+        "description": "A pair of thin, semi‑transparent arcs emerge from opposite sides of the canvas and glide toward the center, gradually expanding like ripples. The arcs pause softly at the center before fading back, creating a subtle pulse that reflects the idea of two viewpoints meeting without merging."
+      },
+      {
+        "name": "Dual Helix",
+        "description": "Two intertwined, gently spiraling strands begin at opposite edges and slowly coil around one another, each strand maintaining its own pitch. Their motion evokes parallel yet distinct narratives that eventually align, symbolizing content crafted for separate markets."
+      },
+      {
+        "name": "Perpetual Glides",
+        "description": "Two ellipses trace separate, elliptical paths that mirror each other’s trajectory but offset in phase. The graceful, slow glide emphasizes the separation of markets while hinting at a shared underlying rhythm."
+      }
+    ]
   }
 }

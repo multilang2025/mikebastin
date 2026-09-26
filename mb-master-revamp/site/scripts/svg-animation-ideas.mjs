@@ -20,8 +20,9 @@
  *
  *   node scripts/svg-animation-ideas.mjs
  *   node scripts/svg-animation-ideas.mjs --slug local-seo   # one page only
+ *   node scripts/svg-animation-ideas.mjs --missing          # pages with no concepts yet
  */
-import { readFileSync, writeFileSync } from "node:fs";
+import { readFileSync, writeFileSync, existsSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -111,15 +112,20 @@ async function main() {
   }
 
   const onlySlug = process.argv.includes("--slug") ? process.argv[process.argv.indexOf("--slug") + 1] : null;
+  const missingOnly = process.argv.includes("--missing");
   const prompts = JSON.parse(readFileSync(PROMPTS_FILE, "utf8"));
-  const targets = onlySlug ? prompts.filter((p) => p.slug === onlySlug) : prompts;
+  // Earlier runs are kept: a page re-ideated replaces its own entry only.
+  const existing = existsSync(OUT_FILE) ? JSON.parse(readFileSync(OUT_FILE, "utf8")) : {};
+  const targets = prompts.filter((p) =>
+    onlySlug ? p.slug === onlySlug : missingOnly ? !existing[p.slug]?.concepts : true,
+  );
 
   if (targets.length === 0) {
     console.error(onlySlug ? `No prompt entry for slug "${onlySlug}".` : "No prompts to run.");
     process.exit(1);
   }
 
-  const results = {};
+  const results = { ...existing };
   for (const entry of targets) {
     process.stdout.write(`${entry.slug} ... `);
     try {

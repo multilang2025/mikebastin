@@ -57,8 +57,13 @@ Same model as valenciamove.com, which the owner already runs at larger scale
   `lib/blog-images.ts` maps slug to file,
   alt text and the legacy upload path it came from;
   `scripts/fetch-legacy-images.mjs` rebuilds `public/images/blog/` from
-  that map, writing `<slug>.webp` at 1200px and `<slug>-thumb.webp` at
-  160x84 for the footer. The derivatives are committed, so a build never
+  that map, writing `<slug>.webp` and `<slug>-thumb.webp` at
+  160x84 for the footer; `scripts/optimize-blog-images.mjs` then cuts
+  every `<slug>.webp` to exactly 1200x630 (the slot it is drawn in, crop
+  by sharp "attention" or the entry's `cropFocus`, never enlarged) and
+  writes a `<slug>-640.webp` sibling that `PostImage` serves through
+  `srcset` to cards and phones. `npm run images:blog` runs all three
+  (26 Sep 2026). The derivatives are committed, so a build never
   depends on the legacy site being up. `components/PostImage.tsx` picks
   the photograph, and falls back to `components/PostArt.tsx`, which draws
   a wave composition from a hash of the slug, for a post with no picture
