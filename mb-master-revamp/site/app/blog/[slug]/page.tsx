@@ -169,18 +169,31 @@ export default async function BlogPostPage({
 
       {/* ============ BODY ============ */}
       <section className={`band band-${bodyBand} py-[clamp(48px,7vw,90px)]`}>
-        <div className="shell">
-          {showToc && (
-            <Reveal>
-              <TableOfContents items={tocItems} />
+        {/* On desktop the outline moves into the empty column beside the
+            text and stays in view; below lg it sits above the body. The
+            rail is not inside a Reveal, whose transform would break the
+            sticky positioning. */}
+        <div className={showToc ? "shell lg:grid lg:grid-cols-[minmax(0,68ch)_minmax(0,1fr)] lg:gap-x-16" : "shell"}>
+          <div className="min-w-0">
+            {showToc && (
+              <div className="lg:hidden">
+                <Reveal>
+                  <TableOfContents items={tocItems} />
+                </Reveal>
+              </div>
+            )}
+            <Reveal i={showToc ? 1 : 0}>
+              <div
+                className="post-body max-w-[68ch] text-[1.05rem] leading-[1.7]"
+                dangerouslySetInnerHTML={{ __html: bodyHtml }}
+              />
             </Reveal>
+          </div>
+          {showToc && (
+            <aside className="hidden lg:block">
+              <TableOfContents items={tocItems} variant="rail" />
+            </aside>
           )}
-          <Reveal i={showToc ? 1 : 0}>
-            <div
-              className="post-body max-w-[68ch] text-[1.05rem] leading-[1.7]"
-              dangerouslySetInnerHTML={{ __html: bodyHtml }}
-            />
-          </Reveal>
         </div>
       </section>
 

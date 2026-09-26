@@ -245,6 +245,19 @@ A `term:` value in that file is exempt from the US-spelling lint. A
 keyword is research data quoted verbatim, and correcting it would not fix
 a spelling, it would falsify a figure.
 
+## Journal post structure
+
+`docs/BLOG-STRUCTURE.md` (owner request, 26 Sep 2026: tables,
+illustrations, shorter posts, a TOC). The heading structure *is* the TOC:
+every post with three or more h2/h3 gets an "On this page" outline, a
+sticky highlighted rail on desktop and a disclosure above the body below
+1024px. Posts target 1,200 to 2,200 words, carry one to three tables where
+content is tabular, and one or two inline SVG figures drawn only with the
+`fg-*` classes (no hard-coded colours, so they follow the theme toggle).
+`npm run lint:structure` reports the editorial side; `verify` fails only
+on a figure that would break the page (blank line inside, hex colour,
+missing aria-label).
+
 ## Copy has to sell, not only pass the protocol
 
 The Master Content Protocol and the `copy-editor` agent are all

@@ -725,6 +725,24 @@ select.control {
 }
 .post-body img { border-radius: 4px; margin: 1.6em 0; }
 .post-body > :first-child { margin-top: 0; }
+.post-body h4 {
+  margin-top: 1.6em;
+  margin-bottom: .4em;
+  font-size: 1.05rem;
+  font-weight: 600;
+  line-height: 1.35;
+}
+.post-body pre {
+  margin: 1.4em 0;
+  padding: .9em 1.1em;
+  overflow-x: auto;
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  background: var(--chip);
+  font-size: .88rem;
+  line-height: 1.55;
+}
+.post-body pre code { padding: 0; background: none; font-size: inherit; }
 
 /* ===========================================================
    Scroll reveal (components/Reveal.tsx)
@@ -764,3 +782,81 @@ html.mb-anim .reveal.is-in {
     transition: none;
   }
 }
+
+/* ===========================================================
+   Journal post: tables, figures, TOC rail
+   =========================================================== */
+.post-body .table-wrap {
+  margin: 1.8em 0;
+  overflow-x: auto;
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+}
+.post-body .table-wrap:focus-visible { outline: 2px solid var(--berry); outline-offset: 2px; }
+.post-body table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: .92rem;
+  line-height: 1.5;
+}
+.post-body th,
+.post-body td {
+  padding: .7em 1em;
+  text-align: start;
+  vertical-align: top;
+  border-bottom: 1px solid var(--rule);
+}
+/* A floor on column width: on a phone a four-column table scrolls inside
+   its wrapper rather than squeezing every cell to a word per line. */
+.post-body th,
+.post-body td { min-width: 8rem; }
+.post-body :is(th, td):first-child { min-width: 5rem; }
+.post-body th {
+  background: var(--chip);
+  font-weight: 600;
+  white-space: nowrap;
+}
+.post-body tbody tr:last-child td { border-bottom: 0; }
+.post-body td:first-child { font-weight: 500; }
+
+/* Inline SVG illustrations in markdown. Drawn with these classes rather
+   than hard-coded colours, so a figure follows the light/dark toggle. */
+.post-body figure.post-fig {
+  margin: 2em 0;
+  padding: clamp(.6em, 2.5vw, 1.2em) clamp(.5em, 2.5vw, 1.2em) .9em;
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  background: var(--chip);
+}
+/* Figures are drawn on a 400-unit-wide viewBox and capped at 560px, so
+   14-unit labels land between ~11px on a phone and ~20px on desktop. */
+.post-fig svg { display: block; width: 100%; max-width: 560px; height: auto; margin-inline: auto; }
+.post-fig figcaption {
+  margin-top: .8em;
+  font-size: .85rem;
+  line-height: 1.5;
+  color: var(--dim);
+}
+.post-fig .fg-line   { fill: none; stroke: var(--ink); stroke-width: 1.5; }
+.post-fig .fg-rule   { fill: none; stroke: var(--rule); stroke-width: 1; }
+.post-fig .fg-dim    { fill: none; stroke: var(--dim); stroke-width: 1.2; }
+.post-fig .fg-accent { fill: none; stroke: var(--berry); stroke-width: 2; }
+.post-fig .fg-box    { fill: var(--bg); stroke: var(--rule); stroke-width: 1; }
+.post-fig .fg-hot    { fill: var(--berry-soft); stroke: var(--berry); stroke-width: 1.2; }
+.post-fig .fg-fill   { fill: var(--dim); opacity: .35; }
+.post-fig .fg-fill-accent { fill: var(--berry); }
+.post-fig .fg-text   { fill: var(--ink); font: 500 16px var(--font-inter), system-ui, sans-serif; }
+.post-fig .fg-label  { fill: var(--dim); font: 400 14px var(--font-inter), system-ui, sans-serif; }
+.post-fig .fg-strong { fill: var(--ink); font: 600 17px var(--font-inter), system-ui, sans-serif; }
+
+.toc-rail {
+  position: sticky;
+  top: 96px;
+  max-height: calc(100vh - 128px);
+  overflow-y: auto;
+  padding-inline-start: 1.25rem;
+  border-inline-start: 1px solid var(--rule);
+}
+.toc-rail ol { font-size: .88rem; }
+.toc-rail .toc-link { text-decoration: none; }
+.toc-rail .toc-link[aria-current] { color: var(--berry) !important; font-weight: 600; }

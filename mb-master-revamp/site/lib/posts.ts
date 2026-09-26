@@ -27,6 +27,17 @@ import { readFileSync } from "fs";
 import { join } from "path";
 import matter from "gray-matter";
 import { marked } from "marked";
+
+/**
+ * Markdown to post HTML. Tables get a scrolling wrapper so a wide one
+ * scrolls inside the column on a phone instead of pushing the page
+ * sideways (body is overflow-x: hidden, so it would otherwise be cut off).
+ */
+function renderMarkdown(content: string): string {
+  return (marked.parse(content, { async: false }) as string)
+    .replace(/<table>/g, '<div class="table-wrap" tabindex="0" role="region" aria-label="Table"><table>')
+    .replace(/<\/table>/g, "</table></div>");
+}
 import { SITE_URL } from "@/lib/schema";
 import {
   REPO_ROOT,
@@ -265,7 +276,7 @@ export function getPosts(): Post[] {
 
     posts.push({
       ...fm,
-      html: marked.parse(content, { async: false }) as string,
+      html: renderMarkdown(content),
       cluster: assignment?.cluster ?? UNCATEGORISED,
       relatedService: assignment?.service,
     });
@@ -306,7 +317,7 @@ export function getPostRecord(slug: string): Post | undefined {
 
   return {
     ...(data as PostFrontmatter),
-    html: marked.parse(content, { async: false }) as string,
+    html: renderMarkdown(content),
     cluster: assignment?.cluster ?? UNCATEGORISED,
     relatedService: assignment?.service,
   };
@@ -520,7 +531,7 @@ export function getPostsForLocale(locale: Locale): LocalePost[] {
     const raw = readFileSync(join(REPO_ROOT, contentPath), "utf8");
     const { data, content } = matter(raw);
     const fm = data as PostFrontmatter;
-    posts.push({ ...fm, html: marked.parse(content, { async: false }) as string });
+    posts.push({ ...fm, html: renderMarkdown(content) });
   }
 
   posts.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
