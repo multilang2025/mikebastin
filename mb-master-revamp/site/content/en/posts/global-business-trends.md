@@ -1,5 +1,5 @@
 ---
-words: 1689
+words: 2170
 title: "Global business trends: AI, trade policy and what drives growth now"
 slug: "global-business-trends"
 locale: "en"
@@ -7,14 +7,14 @@ type: "posts"
 group: "g125"
 wpId: 36912
 date: "2020-03-27T15:58:17"
-modified: "2026-09-26"
+modified: "2026-09-26T21:30:00"
 sourceUrl: "https://mikebastin.com/global-business-trends/"
-excerpt: "Slower global growth, a reset US tariff regime, AI spending that outpaces its returns and EU rules that keep moving. The trends shaping global business now, with sources."
+excerpt: "Tariffs reset, Europe slowing, AI costs outrunning returns: the global business trends of 2026 that change where you sell next, with sources."
 ---
 
 ## Global business in 2026: growth, uncertainty and the AI shift
 
-Global commerce is still expanding, but more slowly, and the ground underneath it keeps moving. The IMF's July 2026 update expects world growth to ease this year as a war in the Middle East pushes up energy prices, partly offset by investment in AI.
+If you sell across borders, your 2025 plan has probably been overturned at least once: US tariffs rebuilt twice, Europe barely growing, AI budgets rising faster than their returns. Plan next year on last year's assumptions and you fund the wrong markets. The global numbers look calm, which makes the shifts underneath easy to miss.
 
 > Global growth is projected at 3.0% in 2026 and 3.4% in 2027, down from an average of 3.5% in 2024 to 2025. World trade volume growth is projected to slow from 5.0% in 2025 to 3.5% in 2026.
 >
@@ -33,19 +33,17 @@ Global commerce is still expanding, but more slowly, and the ground underneath i
 >
 > Source: [IMF, World Economic Outlook Update, July 2026, Table 1](https://www.imf.org/-/media/files/publications/weo/2026/update/july/english/text.pdf)
 
-The headline numbers look reasonable, but the picture underneath is more complicated than at any point in the last decade.
-
-US trade policy has been rebuilt twice in eighteen months, Europe is growing slowly, and AI is reshaping work faster than most organisations can adapt. Here is what matters for businesses planning their next move.
+Below: the trends that change where your next euro or dollar should go, each sourced, with what to do now.
 
 ## AI in business: from experiment to operating cost
 
-Spending on generative AI has grown faster than almost any enterprise technology before it. Menlo Ventures' annual survey of US enterprises, reported in US dollars, found spending more than tripled in a year.
+Your competitors are already paying for AI; whether they get anything back is less clear. Menlo Ventures' survey of US enterprises found spending more than tripled in a year.
 
 > Companies spent US$37 billion on generative AI in 2025, up from US$11.5 billion in 2024, a 3.2x increase. Coding was the largest departmental use case at US$4.0 billion. The survey covers US enterprises only.
 >
 > Source: [Menlo Ventures, 2025: The State of Generative AI in the Enterprise, December 2025](https://menlovc.com/perspective/2025-the-state-of-generative-ai-in-the-enterprise/)
 
-Adoption is now close to universal among larger organisations, but returns lag well behind. McKinsey's global survey and Deloitte's enterprise report point to the same gap.
+McKinsey's global survey and Deloitte's enterprise report point to the same gap between use and return.
 
 > 88% of respondents say their organisations regularly use AI in at least one business function, yet only 39% report any enterprise-level EBIT impact from AI.
 >
@@ -55,7 +53,7 @@ Adoption is now close to universal among larger organisations, but returns lag w
 >
 > Source: [Deloitte, State of AI in the Enterprise 2026](https://www.deloitte.com/global/en/issues/generative-ai/state-of-ai-in-enterprise.html)
 
-AI is no longer optional, it is an operating cost. Businesses that treat it as a side project will fall behind those building it into workflows, customer service and [marketing strategy](/blog/how-ai-is-revolutionising-seo-strategies/).
+AI is now an operating cost. Businesses running it as a side project will fall behind those building it into workflows, customer service and [marketing strategy](/blog/how-ai-is-revolutionising-seo-strategies/).
 
 ### What to do now
 
@@ -66,13 +64,13 @@ AI is no longer optional, it is an operating cost. Businesses that treat it as a
 
 ## Agentic AI and autonomous systems: what changes in 2026
 
-AI agents that plan, execute and iterate without human prompts represent the next shift. Most companies are testing them, and few have moved past the pilot.
+AI agents could answer your customers in their own language at any hour. Most companies are testing them; few have moved past the pilot.
 
 > 62% of survey respondents say their organisations are at least experimenting with AI agents, and 23% are scaling an agentic AI system somewhere in the enterprise.
 >
 > Source: [McKinsey, The state of AI in 2025: agents, innovation and transformation, November 2025](https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai)
 
-For businesses operating across borders, agentic AI creates openings in multilingual customer service, automated compliance checking and real-time supply chain adjustments. It also creates new risks around governance, data privacy and accountability that most regulatory frameworks have not yet addressed.
+Across borders, agents open options in multilingual customer service, compliance checking and supply chains, with governance and privacy risks most regulators have not yet addressed.
 
 ### What to do now
 
@@ -82,7 +80,7 @@ For businesses operating across borders, agentic AI creates openings in multilin
 
 ## US tariffs: the uncertainty tax on global trade
 
-US trade policy has been rewritten twice since early 2025. On 20 February 2026 the Supreme Court ruled that the International Emergency Economic Powers Act (IEEPA) does not authorise the President to impose tariffs, which ended the country-by-country tariffs built on it.
+If the US is one of your markets, your margins there now depend on a legal question as much as a rate. On 20 February 2026 the Supreme Court ruled that the International Emergency Economic Powers Act (IEEPA) does not authorise the President to impose tariffs, which ended the country-by-country tariffs built on it.
 
 > Held: IEEPA does not authorize the President to impose tariffs.
 >
@@ -94,7 +92,7 @@ The administration replaced them with temporary tariffs under Section 122, then,
 >
 > Source: [The Budget Lab at Yale, The State of U.S. Tariffs, updated 24 August 2026](https://budgetlab.yale.edu/research/state-us-tariffs)
 
-The North American picture is also less settled than it looks. At the USMCA joint review on 1 July 2026 the United States declined to renew the agreement. It stays in force while Washington negotiates separately with Mexico and Canada.
+At the USMCA joint review on 1 July 2026 the United States declined to renew the agreement, which stays in force while Washington negotiates separately with Mexico and Canada.
 
 > The United States did not agree to renew the USMCA in its current form. As a result, the USMCA is not renewed.
 >
@@ -123,7 +121,7 @@ The North American picture is also less settled than it looks. At the USMCA join
 <figcaption>Each change of legal basis reset the rates and the rules on how long they could last. Pricing models need to track the authority behind a tariff, not just the rate.</figcaption>
 </figure>
 
-For businesses trading with the US, this environment rewards agility and diversified supply chains over long-term plans.
+Depending on one market or one supplier is now a pricing risk.
 
 ### What to do now
 
@@ -132,17 +130,21 @@ For businesses trading with the US, this environment rewards agility and diversi
 -   Check whether IEEPA duties you paid in 2025 and early 2026 are eligible for refund
 -   Explore markets where trade barriers are falling: the [EU and India concluded negotiations](https://commission.europa.eu/topics/trade/eu-india-trade-agreement_en) on a free trade agreement in January 2026, though it only takes effect once it is signed and ratified
 
+<aside class="post-cta">
+<p><strong>Moving sales away from a market that just got more expensive?</strong> Our <a href="/services/lead-generation/">B2B lead generation services</a> turn a new market's visitors into enquiries and show which market each one came from. <a href="/contact/">Book the discovery call</a>.</p>
+</aside>
+
 ## Ukraine: ongoing disruption with a reconstruction horizon
 
-More than four years into the full-scale invasion, the war in Ukraine continues to distort energy markets, grain supplies and European economic confidence. European growth is modest and the energy shock from the Middle East has added to the pressure.
+If you buy energy, move goods or sell in Europe, the war still sets part of your cost base, distorting energy, grain and European confidence, with the Middle East energy shock adding pressure.
 
 > Euro area growth is projected at 0.9% in 2026, 0.2 percentage point lower than in April, reflecting weak momentum and higher energy prices.
 >
 > Source: [IMF, World Economic Outlook Update, July 2026, Table 1](https://www.imf.org/-/media/files/publications/weo/2026/update/july/english/text.pdf)
 
-For businesses, the war creates three distinct planning challenges. Energy costs are volatile across Europe, supply chains through Eastern European corridors are fragile, and sanctions compliance keeps getting more complex.
+In practice you face three planning problems: volatile energy costs across Europe, fragile supply chains through Eastern European corridors, and sanctions compliance that keeps getting more complex.
 
-A durable ceasefire, if one is reached, would open one of the largest reconstruction programmes in modern history. The latest joint assessment by the Government of Ukraine, the World Bank Group, the European Commission and the United Nations puts the bill at more than half a trillion euros.
+A durable ceasefire would open one of the largest reconstruction programmes in modern history. The latest joint assessment by Ukraine, the World Bank, the European Commission and the United Nations puts the bill above half a trillion euros.
 
 > The total cost of reconstruction and recovery in Ukraine is almost US$588 billion (over €500 billion) over the next decade, as of 31 December 2025.
 >
@@ -156,21 +158,21 @@ A durable ceasefire, if one is reached, would open one of the largest reconstruc
 
 ## Sustainability: regulation is replacing goodwill
 
-Sustainability has shifted from a branding exercise to a compliance requirement in most major markets. The EU has scaled back some of its rules in 2026, but the obligations that remain now have firm dates.
+Sustainability is now a condition of selling into the EU, and missing a deadline can stop goods at the border. The EU scaled back some rules in 2026, but the obligations that remain have firm dates.
 
-The EU's Corporate Sustainability Reporting Directive (CSRD) was narrowed by the Sustainability Omnibus Directive, published in the Official Journal on 26 February 2026. It now applies to much larger companies than first planned.
+The Corporate Sustainability Reporting Directive (CSRD) was narrowed by the Sustainability Omnibus Directive, published in the Official Journal on 26 February 2026, and now applies to much larger companies than first planned.
 
 > CSRD now applies to EU undertakings or groups with more than 1,000 employees and net annual turnover above €450 million, replacing the earlier thresholds of 250 employees, €25 million balance sheet or €50 million turnover.
 >
 > Source: [Latham and Watkins, EU Sustainability Omnibus published in the Official Journal, February 2026](https://www.lw.com/en/insights/eu-sustainability-omnibus-published-in-the-official-journal)
 
-The EU Deforestation Regulation (EUDR) adds supply chain traceability obligations for commodities including coffee, cocoa, soy and timber. It has been postponed again, to a date that is now close.
+The EU Deforestation Regulation (EUDR) adds traceability obligations for commodities including coffee, cocoa, soy and timber. It has been postponed again, to a date that is now close.
 
 > Large and medium operators and traders must comply with their main obligations from 30 December 2026; micro and small enterprises from 30 June 2027.
 >
 > Source: [European Commission, Access2Markets, Delay until December 2026 and other developments in the implementation of the EUDR](https://trade.ec.europa.eu/access-to-markets/en/news/delay-until-december-2026-and-other-developments-implementation-eudr-regulation)
 
-The EU's Carbon Border Adjustment Mechanism (CBAM) entered its definitive phase on 1 January 2026. Importers of covered goods now need authorisation and must buy and surrender certificates for the carbon embedded in what they import.
+The Carbon Border Adjustment Mechanism (CBAM) entered its definitive phase on 1 January 2026. Importers of covered goods now need authorisation and must buy and surrender certificates for the carbon embedded in what they import.
 
 > CBAM applies in its definitive regime from 1 January 2026, with authorisation, reporting and the purchase and surrender of CBAM certificates for importers.
 >
@@ -184,9 +186,7 @@ The EU's Carbon Border Adjustment Mechanism (CBAM) entered its definitive phase 
 
 ## Remote and hybrid work: settled, not solved
 
-Remote and hybrid models are now standard for knowledge-work industries, and the tools to run distributed teams have matured.
-
-For international businesses, remote work opens up talent pools in lower-cost markets. It also brings complexity around employment law, tax obligations and data residency.
+Remote and hybrid work gives you access to talent in lower-cost markets, and the tools to run distributed teams have matured. The catch is employment law, tax obligations and data residency, which follow each hire across the border.
 
 ### What to do now
 
@@ -196,9 +196,9 @@ For international businesses, remote work opens up talent pools in lower-cost ma
 
 ## Emerging markets: where the growth is
 
-Southeast Asia, Latin America, India and parts of Africa continue to post the fastest ecommerce growth. Expanding into them takes more than a translated checkout page.
+Southeast Asia, Latin America, India and parts of Africa post the fastest ecommerce growth. The trap is arriving with a translated checkout page and wondering why nobody buys.
 
-It takes [localized websites](/services/website-localisation/), [multilingual SEO](/services/multilingual-seo/), local payment options and culturally adapted marketing. Buyers in these markets search, compare and pay in their own languages and on their own platforms.
+Buyers there search, compare and pay in their own languages and on their own platforms. Winning them takes [localized websites](/services/website-localisation/), [multilingual SEO](/services/multilingual-seo/), local payment options and marketing adapted to the culture.
 
 ### What to do now
 
@@ -207,11 +207,15 @@ It takes [localized websites](/services/website-localisation/), [multilingual SE
 -   Partner with regional logistics and payment providers
 -   [Research local registration requirements](https://valenciamove.com/company-formation-spain/) and regulatory environments before entry
 
+<aside class="post-cta">
+<p><strong>Visitors arriving in Spanish or Portuguese, enquiries still arriving in English?</strong> We turn traffic from your other markets into <a href="/services/lead-generation/">enquiries worth a sales call</a>, counted per market so you can see which one is paying. <a href="/contact/">Talk to us about your markets</a>.</p>
+</aside>
+
 ## Ecommerce and digital transformation: mobile-first is non-negotiable
 
-Mobile now carries most ecommerce traffic in most markets, and AI-driven personalisation has become a standard expectation rather than a differentiator. Customers who move between online and offline channels expect the experience to follow them.
+Your buyers now shop on their phones first, and they expect personalised recommendations as standard. Customers who move between online and offline channels expect the experience to follow them.
 
-De minimis exemptions for low-value imports are disappearing across major markets. Each change adds a new cost and compliance layer for cross-border sellers.
+Cross-border selling is also getting dearer: de minimis exemptions for low-value imports are disappearing across major markets, each change adding a cost and a compliance step.
 
 ### What to do now
 
@@ -222,13 +226,13 @@ De minimis exemptions for low-value imports are disappearing across major market
 
 ## Data privacy and cybersecurity: the cost of getting it wrong keeps rising
 
-GDPR enforcement shows no sign of slowing. European regulators fined roughly as much in 2025 as in 2024, and breach notifications are climbing.
+A privacy mistake in one market can now cost more than a year's profit there. GDPR enforcement shows no sign of slowing: European regulators fined roughly as much in 2025 as in 2024, and breach notifications are climbing.
 
 > Aggregate GDPR fines reported from 25 May 2018 to 10 January 2026 stand at €7.1 billion. European supervisory authorities issued fines of approximately €1.2 billion in 2025.
 >
 > Source: [DLA Piper, GDPR Fines and Data Breach Survey, January 2026](https://www.dlapiper.com/en/insights/publications/2026/01/dla-piper-gdpr-fines-and-data-breach-survey-january-2026)
 
-New regulations in Brazil (LGPD), India (DPDP Act 2023) and across Southeast Asia are creating a patchwork of compliance obligations for international businesses. AI deployment amplifies privacy risks: automated decision-making, cross-border data transfers and customer profiling all trigger regulatory scrutiny.
+New regulations in Brazil (LGPD), India (DPDP Act 2023) and across Southeast Asia add a patchwork of obligations for international businesses. AI raises the stakes: automated decisions, cross-border data transfers and customer profiling all draw regulatory scrutiny.
 
 ### What to do now
 
@@ -239,8 +243,6 @@ New regulations in Brazil (LGPD), India (DPDP Act 2023) and across Southeast Asi
 
 ## What comes next
 
-2026 is not a year for cautious incrementalism. AI is restructuring how businesses operate, trade policy is being rewritten in real time, and regulatory environments are diverging across regions.
+The markets with the most growth potential demand genuine [localization](/services/website-localisation/), not surface-level translation. Businesses that build adaptable operations, diversified supply chains and market-specific [digital strategies](/services/multilingual-seo/) will outperform those waiting for stability that is not coming.
 
-The markets with the highest growth potential demand genuine [localization](/services/website-localisation/), not surface-level translation. Businesses that invest in adaptable infrastructure, diversified supply chains and market-specific [digital strategies](/services/multilingual-seo/) will outperform those waiting for stability that is not coming.
-
-Treat AI, localization and compliance as connected investments, not separate budget lines.
+Treat AI, localization and compliance as connected investments, and judge each market on the business it brings in.

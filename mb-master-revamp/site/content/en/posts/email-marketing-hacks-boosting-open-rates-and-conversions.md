@@ -1,5 +1,5 @@
 ---
-words: 630
+words: 769
 title: "Email marketing hacks: boosting open rates and conversions"
 slug: "email-marketing-hacks-boosting-open-rates-and-conversions"
 locale: "en"
@@ -7,24 +7,24 @@ type: "posts"
 group: "g031"
 wpId: 24845561
 date: "2024-11-06T13:52:49"
-modified: "2026-09-26T12:00:00"
+modified: "2026-09-26T21:30:00"
 sourceUrl: "https://mikebastin.com/email-marketing-hacks-boosting-open-rates-and-conversions/"
-excerpt: "Uncover advanced email marketing strategies to boost engagement and conversions. Learn how to write compelling subject lines and optimize for mobile."
+excerpt: "Your emails get opened and still do not sell. These email marketing hacks lift open rates and conversions: sharper subject lines, mobile layouts, segments."
 ---
 
 ## Proven strategies to increase email performance and drive results
 
-Email remains a powerful tool for engaging customers and driving conversions. With inboxes becoming ever more crowded, it takes more than the basics to stand out and lift your email marketing performance.
+Your list is growing, your emails go out on time, and the sales they should bring in are thin. Every send that gets skimmed and deleted trains your subscribers to ignore the next one.
 
-Below we cover strategies for writing compelling subject lines, optimizing email content for mobile devices, and using personalisation and segmentation to boost open rates and conversions.
+Below: subject lines that earn the open, emails people can act on from a phone, segments that make each send relevant, and the numbers that show whether email pays.
 
 ## Writing compelling subject lines
 
-Your subject line is the gatekeeper to your email content. Here are some advanced techniques to make them irresistible:
+If the subject line fails, nothing else in the email gets a chance.
 
 ### Use power words
 
-Incorporate emotionally charged words that trigger curiosity or urgency. Examples include:
+Emotionally charged words trigger curiosity or urgency. Use them where they are true:
 
 -   “Exclusive”
 -   “Limited Time”
@@ -33,25 +33,25 @@ Incorporate emotionally charged words that trigger curiosity or urgency. Example
 
 ### Employ the curiosity gap
 
-Create intrigue by hinting at valuable information without giving it all away. For example:
+Hint at something valuable without giving it all away. For example:
 
 -   “The workout trick that’s changing lives”
 -   “You won’t believe what we’ve discovered about productivity”
 
 ### Personalisation beyond first names
 
-Use data points beyond just names to create hyper-relevant subject lines:
+A first name is expected. A detail the reader recognises as theirs gets noticed:
 
 -   “[City] residents: your local guide is here”
 -   “Based on your last purchase, we think you’ll love this”
 
 ### A/B test continuously
 
-Regularly test different subject line styles, lengths, and elements to refine your approach.
+Your audience decides what works, not a list of tips. Test subject line styles, lengths and elements on every send and keep what wins.
 
 ## Optimizing email content for mobile devices
 
-Phones are where most of your subscribers will read your email, so mobile optimization is non-negotiable.
+An email that is awkward to read on a phone loses most of its readers before they reach your offer, so mobile optimization is non-negotiable.
 
 > Mobile devices continue to be the primary reading environment for the majority of subscribers.
 >
@@ -59,31 +59,31 @@ Phones are where most of your subscribers will read your email, so mobile optimi
 
 ### Embrace responsive design
 
-Ensure your emails adapt to different screen sizes. Use a single-column layout for easy scrolling.
+Emails should adapt to every screen size. A single-column layout keeps scrolling easy.
 
 ### Optimize for quick scanning
 
 -   Use short paragraphs and bullet points
--   Incorporate plenty of white space
+-   Leave plenty of white space
 -   Make CTAs large and easily tappable (minimum 44×44 pixels)
 
 ### Optimize images
 
 -   Use alt text for images in case they don’t load
 -   Compress images to reduce load times
--   Consider using scalable vector graphics (SVGs) for logos and icons
+-   Consider scalable vector graphics (SVGs) for logos and icons
 
 ### Test across multiple devices and email clients
 
-Use tools like Litmus or Email on Acid to preview your emails across various platforms.
+Preview every email on various platforms with tools like Litmus or Email on Acid before it goes to your whole list.
 
 ## Using personalisation and segmentation
 
-Personalisation goes beyond using a subscriber’s name. Here’s how to take it to the next level:
+A message written for everyone persuades nobody in particular. Segments let each subscriber get the email that fits.
 
 ### Behavioural segmentation
 
-Segment your list based on user behaviour:
+Segment your list based on what people actually do:
 
 -   Purchase history
 -   Email engagement levels
@@ -91,18 +91,18 @@ Segment your list based on user behaviour:
 
 ### Dynamic content
 
-Use dynamic content blocks that change based on subscriber data:
+Dynamic content blocks change with subscriber data:
 
 -   Show different product recommendations based on past purchases
 -   Alter imagery to reflect the subscriber’s location or demographics
 
 ### Personalised send times
 
-Analyse when each subscriber is most likely to open emails and send accordingly.
+Send when each subscriber is most likely to open, based on when they have opened before.
 
 ### Lifecycle-based emails
 
-Create targeted campaigns based on the customer’s journey:
+Match campaigns to the customer’s journey:
 
 -   Welcome series for new subscribers
 -   Re-engagement campaigns for inactive users
@@ -110,7 +110,7 @@ Create targeted campaigns based on the customer’s journey:
 
 ## Advanced analytics and optimization
 
-To continually improve your email marketing, dive deep into your data:
+Judge email on the wrong number and you will keep improving the wrong thing.
 
 ### Look beyond open rates
 
@@ -122,7 +122,7 @@ Open rates are now a weak signal on their own. Apple's Mail Privacy Protection p
 
 Focus instead on:
 
--   [Click-through rates](/services/technical-seo/)
+-   Click-through rates, and whether the page the click lands on holds it (our [technical SEO](/services/technical-seo/) work covers that side)
 -   Conversion rates
 -   Revenue per email
 
@@ -140,13 +140,17 @@ Focus instead on:
 <figcaption>Each stage loses readers, and privacy features now blur the "opened" stage. Judge a campaign by the clicks and conversions further down.</figcaption>
 </figure>
 
+<aside class="post-cta">
+<p><strong>Clicks from your emails, and no way to tell which market the enquiries came from?</strong> Our <a href="/services/lead-generation/">lead generation service</a> traces every enquiry to the market and the language that earned it, then follows it into your CRM. <a href="/contact/">Book the discovery call</a>.</p>
+</aside>
+
 ### Heat mapping
 
-Use heat mapping tools to see where subscribers are clicking within your emails.
+Heat mapping tools show where subscribers click within your emails.
 
 ### Predictive analytics
 
-Use AI and machine learning to predict:
+AI and machine learning can predict:
 
 -   The best time to send emails to each subscriber
 -   Which products a customer is most likely to buy next
@@ -154,7 +158,7 @@ Use AI and machine learning to predict:
 
 ### Automated optimization
 
-Use AI-powered tools that can automatically:
+AI-powered tools can automatically:
 
 -   Write subject lines
 -   Optimize send times
@@ -162,6 +166,4 @@ Use AI-powered tools that can automatically:
 
 ## Where to start
 
-Put these techniques into practice and you can lift both open rates and conversions. The key to success is continuous testing and refinement.
-
-Keep experimenting with new strategies and stay attuned to your audience’s preferences and behaviours.
+Pick the one weakest link, whether subject lines, mobile layout or segments, and test a fix on your next send. Judge it on clicks and conversions rather than opens, keep what wins, and move to the next.

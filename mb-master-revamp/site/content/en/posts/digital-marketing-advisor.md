@@ -1,5 +1,5 @@
 ---
-words: 1831
+words: 2049
 title: "When businesses need a digital marketing advisor instead of an agency"
 slug: "digital-marketing-advisor"
 locale: "en"
@@ -7,14 +7,14 @@ type: "posts"
 group: "g029"
 wpId: 24855777
 date: "2026-01-26T18:00:33"
-modified: "2026-09-26T12:00:00"
+modified: "2026-09-26T21:30:00"
 sourceUrl: "https://mikebastin.com/digital-marketing-advisor/"
-excerpt: "You need a digital marketing advisor who focuses on results, not vanity metrics. Get clear direction, practical actions, and a strategy built to generate real growth. Contact us and move faster with fewer mistakes."
+excerpt: "Marketing spend is up and enquiries are flat. Here is how to tell whether you need a digital marketing advisor or an agency before a year of budget goes."
 ---
 
-Most business owners come to us with the same question: do we need a marketing agency, or do we need an advisor? The two roles get confused all the time, yet they solve different problems.
+Your marketing spend has gone up and your enquiries have not. You suspect the problem is either the plan or the people doing it, and you are about to hire someone to fix one of them.
 
-An advisor sets direction. An agency does the work. Pick the wrong one for your stage and you can spend a year of budget chasing the wrong outcome.
+Pick the wrong one and you can spend a year of budget chasing the wrong outcome. An advisor sets direction. An agency does the work. Below: how to tell which your business needs, what each really costs, and when the answer is both.
 
 ## Digital marketing advisor vs agency at a glance
 
@@ -31,7 +31,7 @@ After 25 years on both sides of this fence, we can usually tell within a 20 minu
 
 ## What a digital marketing advisor actually does
 
-An advisor is a strategic partner, not a doer. They draft the blueprint, audit the foundation, and check that every marketing decision still serves the business model underneath.
+What you buy from an advisor is the answer to "why is this not working", which no amount of extra execution gives you. An advisor is a strategic partner, not a doer. They draft the blueprint, audit the foundation, and check that every marketing decision still serves the business model underneath.
 
 In our own work across legal, logistics, real estate and translation, the advisor role usually starts with a diagnostic. What is the buyer journey actually doing? Where do leads die? Which channels look productive on a dashboard but produce no booked revenue?
 
@@ -45,7 +45,7 @@ When campaigns produce traffic but no booked calls, an advisor digs into the dat
 
 ## What a digital marketing agency does
 
-An agency is an execution machine. Inside it you find specialists: copywriters, SEO practitioners, paid media buyers, UX designers and web developers, whose job is to take the work off your plate and ship it.
+What you buy from an agency is capacity: work shipped without hiring a department. An agency is an execution machine. Inside it you find specialists: copywriters, SEO practitioners, paid media buyers, UX designers and web developers, whose job is to take the work off your plate and ship it.
 
 Agencies scale. They run substantial ad budgets across Google, Meta, LinkedIn and TikTok, publish content on a weekly cadence, and handle technical tasks no single in-house hire could cover. Engaging a [full-service marketing agency](/blog/360-marketing-agency/) means renting an entire marketing department for less than the cost of building one.
 
@@ -56,6 +56,8 @@ Agencies scale. They run substantial ad budgets across Google, Meta, LinkedIn an
 For businesses with no internal marketing staff, agencies provide capacity across several channels in weeks rather than months.
 
 ## Where each model wins and where it loses
+
+Each model is cheap where it fits and expensive where it does not.
 
 ### Strategy versus execution
 
@@ -73,16 +75,20 @@ An advisor often works like a temporary C-suite member or fractional CMO, attend
 
 ## When your business needs an advisor
 
-Choose an advisor when strategy is the bottleneck.
+Choose an advisor when strategy is the bottleneck: when the work gets done and the numbers still refuse to move.
 
 - **You have a team but no leadership.** Junior and mid-level marketers who execute well but cannot plan need the roadmap they currently lack.
 - **You are scaling rapidly.** Growth creates chaos, and an advisor makes the structural calls early.
 - **You need an objective audit.** If results have plateaued after two or three years with the same agency, an outside view shows whether the current partner still fits.
 - **You are navigating an industry shift.** ChatGPT, Claude and Perplexity are changing search behaviour faster than most agencies are pivoting. Google updates and the rise of [generative engine optimization](/services/generative-engine-optimization/) demand forward-looking thinking about [the future of SEO](/blog/future-of-seo/) and which bets to make first.
 
+<aside class="post-cta">
+<p><strong>Traffic arriving in several languages, and the enquiries still only in English?</strong> Our <a href="/services/lead-generation/">B2B lead generation service</a> turns visitors in each market into enquiries worth a sales call, and the first call produces a written scope naming the pages and deliverables. <a href="/contact/">Book the discovery call</a>.</p>
+</aside>
+
 ## When your business needs an agency
 
-Choose an agency when execution is the bottleneck.
+Choose an agency when execution is the bottleneck: when you know what should happen and nobody has the hours to make it happen.
 
 - **You need specialised hands on demand.** A technical SEO audit for three months, video editing for two weeks, Google Ads management on an open-ended basis, all without individual hires.
 - **You have no internal marketing staff.** SMEs that cannot fund a CMO salary plus a team can rent a full department.
@@ -91,13 +97,19 @@ Choose an agency when execution is the bottleneck.
 
 ## The hidden costs nobody mentions in the pitch
 
+Both models carry a cost that only shows up after you sign.
+
 **Advisor hidden cost: you still need someone to do the work.** Hire an advisor without staff or freelancers to execute the strategy and you have paid for a binder of ideas that never opens. Budget for execution before the engagement starts.
 
 **Agency hidden cost: management overhead.** Someone on your side still has to review reports in Looker Studio, approve creative and keep the agency aligned with brand voice. Many agencies use junior staff for delivery while the senior talent only shows up in sales pitches, and the mismatch is the single biggest reason companies churn out of agency relationships in year two.
 
+<aside class="post-cta">
+<p><strong>Wondering whether your agency's advice is always a bigger ad budget?</strong> Where our <a href="/services/lead-generation/">lead generation work</a> includes paid search, your media budget goes straight to Google, Microsoft or Meta, never through us, so a bigger budget earns us nothing. <a href="/contact/">Ask us how it is billed</a>.</p>
+</aside>
+
 ## The hybrid model most companies end up choosing
 
-Mid-market and enterprise companies rarely pick one or the other. They run both. The advisor sits at board level or works directly with the CEO to set annual strategy and KPIs, then helps select and manage a specialised agency for the tactical work.
+For most growing companies the answer is not one or the other. Mid-market and enterprise companies usually run both. The advisor sits at board level or works directly with the CEO to set annual strategy and KPIs, then helps select and manage a specialised agency for the tactical work.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 190" role="img" aria-label="A decision tree: if strategy is the bottleneck, hire an advisor; if execution is, hire an agency; if both are, run a hybrid.">
@@ -128,7 +140,7 @@ The hybrid creates checks and balances. The advisor keeps the agency accountable
 
 ## A quick framework for deciding
 
-Answer three questions before you commit to either path.
+Answer three questions before you commit, and save yourself a contract you will want out of.
 
 | Question | Points to an advisor | Points to an agency |
 |---|---|---|

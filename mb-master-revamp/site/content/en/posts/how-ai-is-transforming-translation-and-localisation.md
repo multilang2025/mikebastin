@@ -1,5 +1,5 @@
 ---
-words: 656
+words: 748
 title: "How AI is transforming translation and localization"
 slug: "how-ai-is-transforming-translation-and-localisation"
 locale: "en"
@@ -7,26 +7,26 @@ type: "posts"
 group: "g128"
 wpId: 37218
 date: "2024-09-25T14:34:03"
-modified: "2026-09-26T12:00:00"
+modified: "2026-09-26T21:30:00"
 sourceUrl: "https://mikebastin.com/how-ai-is-transforming-translation-and-localisation/"
-excerpt: "AI and machine learning are transforming translation and localization, offering businesses unprecedented opportunities to expand globally while bringing unique challenges. Discover the impact of AI tools and learn how to work with them as they change."
+excerpt: "AI is transforming translation and localization: more markets on the same budget, but also fluent errors. Where it helps, and where people still decide."
 ---
 
-Businesses that trade across languages depend on communicating well in each of them. Artificial intelligence (AI) and machine learning have changed how translation and localization are done, opening real opportunities to expand internationally and bringing new risks with them.
+Your translation budget covers two markets and your sales team wants six. AI translation can close much of that gap, and it can also put a fluent, wrong sentence on your German product page that nobody on your team reads well enough to catch.
 
-Below we look at what AI changes, where it helps, where it falls short, and how to use it well.
+Below: where AI earns its place, where it still needs a native speaker, and how to get the speed without the risk.
 
 ## The rise of AI in translation and localization
 
-Neural machine translation (NMT), natural language processing (NLP) and, more recently, large language models have sharply improved the quality and speed of automated translation. For many content types, a machine draft is now the normal starting point rather than an experiment.
+Competitors who use AI well now reach new markets faster than those who do not. Neural machine translation (NMT), natural language processing (NLP) and, more recently, large language models have sharply improved the quality and speed of automated translation. For many content types, a machine draft is now the normal starting point rather than an experiment.
 
-The question for most businesses is no longer whether to use AI, but where it needs a human alongside it. Our [multilingual SEO consulting](/services/multilingual-seo/) starts from that question.
+The question for most businesses is no longer whether to use AI, but where it needs a human alongside it. Our [multilingual SEO consulting](/services/multilingual-seo/) starts there.
 
 ## Opportunities for businesses
 
 ### Faster turnaround
 
-AI translates thousands of words in minutes, so businesses can respond to demand in each market and enter new ones faster. Online education shows the scale now possible:
+Every month a market waits for translated pages is a month of demand going to whoever got there first. AI translates thousands of words in minutes. Online education shows the scale now possible:
 
 > Coursera's "AI-powered text translations in 2023 ... have enabled nearly 3 million learners to take more than 5,000 courses across 25 languages." In April 2025 it added AI-dubbed courses in Spanish, French, German and Brazilian Portuguese.
 > Source: [Coursera, "Coursera launches AI-dubbed courses in Spanish, French, Brazilian Portuguese and German", 15 April 2025](https://blog.coursera.org/coursera-launches-ai-dubbed-courses-in-spanish-french-brazilian-portuguese-and-german/)
@@ -35,17 +35,19 @@ For faster results on your own site, see our [website localization services](/se
 
 ### Lower cost
 
-AI translation generally costs less than human translation, especially for large projects. The savings can go into other parts of a localization strategy, such as targeted marketing or product development. Our article on [AI in SEO strategy](/blog/how-ai-is-revolutionising-seo-strategies/) covers where else automation pays.
+AI translation generally costs less than human translation, especially on large projects, so the saving can fund the parts of localization that win customers, such as targeted marketing. Our article on [AI in SEO strategy](/blog/how-ai-is-revolutionising-seo-strategies/) covers where else automation pays.
 
 ### Scale and consistency
 
-AI handles large volumes across many languages at once, with consistent terminology and style. Businesses with big product catalogues or frequently updated content, such as shops on platforms like Shopify, benefit most.
+Big catalogues and frequently updated content are where manual translation falls behind. AI handles large volumes across many languages at once, with consistent terminology, which helps most on shops running on platforms like Shopify.
 
 ### Productivity
 
-Automating routine translation frees human translators for the complex, nuanced and creative work. The collaboration improves both productivity and quality. [AI consulting](/services/ai-consulting/) helps decide which tasks to automate first.
+Your best translators are wasted on routine strings. Automating those frees them for the nuanced and creative work that decides whether a market trusts you. [AI consulting](/services/ai-consulting/) helps decide which tasks to automate first.
 
 ## Challenges and how to manage them
+
+Each of these costs more to fix after publication than before it.
 
 | Challenge | Risk | How to manage it |
 |---|---|---|
@@ -61,14 +63,20 @@ Cloud-based language tools are a real attack surface. [Citizen Lab's 2024 study 
 
 For confidential material, work with [professional translation services](/services/translation-services/) that control where your text goes.
 
+<aside class="post-cta">
+<p><strong>Worried your machine-translated pages read well and say the wrong thing?</strong> Our <a href="/services/ai-translation-and-post-editing/">AI translation and post-editing</a> puts a native speaker over the machine output, with review effort scaled to what each page puts at risk. <a href="/contact/">Book the discovery call</a>.</p>
+</aside>
+
 ## Using AI effectively in localization
 
+The businesses that get the saving without the embarrassment split the work the same way:
+
 - **Take a hybrid approach.** Combine AI translation with human post-editing to balance efficiency with accuracy and cultural sensitivity.
-- **Train the systems.** Feed them industry terminology and brand content so accuracy improves over time.
+- **Train the systems.** Feed them your terminology and brand content.
 - **Prioritise quality assurance.** Catch errors before publication, not after.
 - **Manage your language data.** Keep translation memories and glossaries up to date for consistency across languages.
-- **Stay informed.** Models and features change quickly, so review your tools regularly.
+- **Stay informed.** Models change quickly, so review your tools regularly.
 
 ## Where to start
 
-AI is changing translation and localization, bringing speed and efficiency to global expansion. The value of human expertise has not gone away: businesses that combine AI efficiency with human judgement get localization that resonates with each audience. [Contact our team](/contact/) for advice matched to your business.
+Pick one market and one content type, run AI with human post-editing, and have a native reader check the result before you scale. The speed comes from the machine; the trust still comes from people. [Contact our team](/contact/) for advice matched to your business.

@@ -1,5 +1,5 @@
 ---
-words: 731
+words: 1094
 title: "Blog post ideas that attract customers, not just traffic"
 slug: "15-simple-blog-post-ideas-to-help-attract-more-customers-to-your-business"
 locale: "en"
@@ -7,14 +7,16 @@ type: "posts"
 group: "g002"
 wpId: 24845565
 date: "2024-11-01T23:38:00"
-modified: "2026-09-26T12:00:00"
+modified: "2026-09-26T21:30:00"
 sourceUrl: "https://mikebastin.com/15-simple-blog-post-ideas-to-help-attract-more-customers-to-your-business/"
-excerpt: "Struggling to find blog topics that actually bring customers. These simple blog post ideas help you attract qualified traffic and turn content into leads. Use them today and make your blog work harder for your business."
+excerpt: "Your blog gets read and still sends no enquiries. These 15 blog post ideas are sorted by the buying stage they win, so each post earns its place."
 ---
 
 ## Content strategies that convert readers into customers
 
-A business blog serves one purpose: attract buyers and move them towards a decision. Here are 15 blog post formats that build authority, answer buyer questions, and generate leads.
+Your blog gets visits, and your sales team cannot name one enquiry it produced. Every post written for traffic alone costs somebody a day and hands a competitor the reader who was ready to buy.
+
+Below are 15 blog post ideas sorted by the job they do in the sale, each with an example you can adapt.
 
 | Format | Buyer stage | Main job |
 | --- | --- | --- |
@@ -36,100 +38,110 @@ A business blog serves one purpose: attract buyers and move them towards a decis
 
 ## Formats that answer search demand
 
+These posts reach a buyer the moment they name their problem. Miss it and a competitor gets the first word.
+
 ### How-to guides
 
-Step-by-step tutorials rank well in Google and answer high-intent queries. A searcher typing "how to" already has the problem and is looking for someone to solve it.
+Somebody typing "how to" already has the problem. A clear step-by-step answer ranks well in Google and makes you the one who solved it.
 
 **Example:** A SaaS company publishes “How to automate invoicing in Xero” to capture users actively seeking that solution.
 
 ### Industry trends and insights
 
-Trend content positions you as a source worth following. Check Google Trends before you write, so the piece goes live as interest rises rather than after it peaks.
+Trend pieces make you the source a buyer checks before deciding. Check Google Trends first, so the piece goes live as interest rises rather than after it peaks.
 
 **Example:** A B2B supplier writes “Supply chain shifts in European manufacturing for 2027” to attract procurement managers researching market changes.
 
 ### FAQ posts
 
-FAQ content targets featured snippets and People Also Ask boxes in Google Search. Short, direct answers are also the format AI Overviews and chat assistants most readily quote.
+Short, direct answers win featured snippets and People Also Ask boxes, and they are the format AI Overviews and chat assistants most readily quote.
 
 **Example:** An accountancy firm answers “What expenses can UK sole traders claim?” to capture tax-season search volume.
 
 ### Problem-solving guides
 
-Address pain points your product or service solves. A reader with a specific problem is closer to buying than one browsing for general awareness.
+A reader with a specific problem is closer to buying than one browsing for general awareness. Write about the pain points your product or service removes.
 
 **Example:** A cybersecurity firm writes “How to prevent ransomware attacks on SMEs” to attract IT decision-makers.
 
 ### Jargon explainers
 
-Define industry terms your audience searches for. These posts target informational queries and build topical authority for Google E-E-A-T signals.
+Buyers search your industry's terms before they search for suppliers. Defining them builds topical authority for Google E-E-A-T signals.
 
 **Example:** A fintech company explains “What is open banking?” to capture searchers early in the buying journey.
 
 ### Seasonal content
 
-Calendar-driven content captures predictable search spikes. Publish a few weeks early so Google has time to index the page, then compare the seasonal window year on year in Google Search Console.
+Calendar-driven searches spike on dates you can predict. Publish a few weeks early so Google has time to index the page, then compare the seasonal window year on year in Google Search Console.
 
 **Example:** An HR consultancy publishes “UK employment law changes effective April 2027” before the new tax year.
 
 ## Formats that build trust
 
+Traffic without trust stalls at the contact form. These formats give a buyer, and their colleagues, reasons to believe you.
+
 ### Behind-the-scenes content
 
-Humanise your brand by showing how you work. Buyers trust a process they can see, and these posts give sales teams something useful to share on LinkedIn.
+Buyers trust a process they can see, and your sales team gets something useful to share on LinkedIn.
 
 **Example:** A manufacturing company shares “How we quality-test every component before shipping” to build trust with B2B buyers.
 
 ### Case studies and customer success stories
 
-Case studies are among the most useful content types for B2B buyers in the decision stage. They are also the piece a champion forwards to the rest of the buying committee.
+A case study is the piece your champion forwards to the rest of the buying committee, which makes it among the most useful content a B2B buyer reads at the decision stage.
 
 **Example:** A logistics company publishes “How we cut delivery times for a Benelux retailer” with measurable outcomes.
 
 ### Employee spotlights
 
-Showcase expertise and build employer brand simultaneously. People engage with people, so a named expert often travels further on LinkedIn than a brand-only post.
+A named expert often travels further on LinkedIn than a brand-only post, and builds employer brand at the same time.
 
 **Example:** A consultancy profiles “Meet our head of data analytics” to demonstrate bench strength to potential clients.
 
 ### Expert interviews
 
-Interviews borrow authority from established names in your field. Guest content also earns backlinks when interviewees share with their audiences.
+An interview borrows authority from an established name in your field, and it earns backlinks when the interviewee shares it with their audience.
 
 **Example:** A [marketing agency](/blog/360-marketing-agency/) interviews a Google Ads product manager on upcoming Performance Max changes.
 
 ### Future predictions
 
-Prediction posts attract links from journalists and industry publications seeking expert commentary. Tie each prediction to a named, citable source so the piece earns trust rather than just attention.
+Journalists and industry publications link to expert commentary. Tie each prediction to a named, citable source so the piece earns trust rather than just attention.
 
 **Example:** A renewable energy consultancy writes “Solar adoption rates in Southern Europe: a forecast to 2030” with cited projections from the International Energy Agency.
 
+<aside class="post-cta">
+<p><strong>Plenty of readers in your other markets, and still no enquiries from them?</strong> Our <a href="/services/lead-generation/">B2B lead generation service</a> turns visitors in each language into enquiries worth a sales call, and shows which market each one came from. <a href="/contact/">Book the discovery call</a>.</p>
+</aside>
+
 ## Formats that capture leads and buying intent
+
+Here the reader starts choosing. These formats turn that moment into a name, an email address or a shortlist with you on it.
 
 ### Polls and surveys
 
-Interactive content generates first-party data while boosting engagement. The results also give you original data to publish, which is rarer and more linkable than opinion.
+A question to your audience gives you first-party data and original findings, which are more linkable than opinion.
 
 **Example:** A recruitment agency asks “What’s your biggest hiring challenge in 2027?” and publishes findings as a follow-up report.
 
 ### Quizzes
 
-Quizzes capture leads through gated results. Because the visitor gets something personal back, they are more willing to leave an email address than on a static landing page.
+Visitors hand over an email address more readily when they get something personal back, which a quiz with gated results does.
 
 **Example:** A marketing agency offers “What’s your content maturity score?” to segment leads by readiness.
 
 ### Comparison posts
 
-Comparison queries signal high purchase intent. Check the cost per click in your keyword tool: advertisers usually pay more for "vs" terms, which tells you the searchers are close to buying.
+A "vs" search comes from somebody close to buying. Check the cost per click in your keyword tool: advertisers usually pay more for those terms, which confirms the intent.
 
 **Example:** An ERP vendor writes “SAP vs Oracle NetSuite: which suits mid-market manufacturers?” to intercept buyers evaluating options.
 
 ### Product updates and releases
 
-Announce new features with clear benefit statements. Product update posts drive existing customers back to your site and reduce churn.
+Announcing new features with clear benefit statements brings existing customers back to your site and reduces churn.
 
 **Example:** A project management tool announces “New Gantt chart view now available in Asana integration” to retain users.
 
 ## Where to start
 
-Choose formats that match your buyers’ information needs at each stage, and measure performance in Google Analytics 4 and Google Search Console. Double down on what generates leads, not just traffic.
+Pick one format per buying stage, not fifteen at once. Measure each in Google Analytics 4 and Google Search Console, and double down on what generates leads, not just traffic.

@@ -1,5 +1,5 @@
 ---
-words: 936
+words: 1058
 title: "Transform your marketing strategy with a 360 marketing agency"
 slug: "360-marketing-agency"
 locale: "en"
@@ -7,20 +7,20 @@ type: "posts"
 group: "g003"
 wpId: 24847220
 date: "2024-12-22T12:09:44"
-modified: "2026-09-26T12:00:00"
+modified: "2026-09-26T21:30:00"
 sourceUrl: "https://mikebastin.com/360-marketing-agency/"
-excerpt: "Transform your brand’s digital presence with 360 Marketing Agency! From social media dominance to data-driven campaigns, we build strategies that deliver real results. Ready to improve your business to new heights? Contact us today and let’s make your marketing vision a reality."
+excerpt: "Paying one 360 marketing agency and still getting four disconnected channels? Here is what joined-up work looks like, and how to test for it."
 ---
 
-Most "360 marketing agencies" sell a fantasy: one partner, every channel, perfectly synced. After 25 years in this industry we have watched larger agencies sell that pitch hundreds of times.
+You signed with a **360 marketing agency** to get one joined-up plan. What arrives each month is four channel reports stapled together: four KPIs, four audience definitions, and nobody who can say which one is paying for the rest.
 
-Most of the time the result is four siloed deliverables stapled together inside one retainer. Same client, four invoices, four KPIs, four audience definitions, nothing genuinely connected.
+The cost is not only the retainer: paid search buys clicks your organic pages already win, and your other languages inherit every gap in the English plan. After 25 years in this industry we have watched larger agencies sell that pitch hundreds of times.
 
-The version of **360 marketing** that actually works is narrower than the brochure, and substantially more useful.
+Below: what joined-up work looks like, a three-question test for any agency you pay, and when a 360 partner is the wrong hire.
 
 ## What integration looks like when it works
 
-Five things genuinely integrated, not seven things billed in parallel.
+You are paying for decisions made across channels. Five things genuinely joined up deliver that; seven billed in parallel do not.
 
 -   One strategy document that names the actual constraint: lead quality, search visibility in three languages, trade-show pipeline, whatever it really is.
 -   One measurement plan everyone reads weekly, not a 90-page slide deck nobody opens after kickoff.
@@ -50,7 +50,7 @@ Five things genuinely integrated, not seven things billed in parallel.
 
 ## What “360” usually is, and why it disappoints
 
-Three failure patterns we see month after month.
+Each pattern below spends budget in one channel on a problem another has already solved.
 
 **Channel teams that meet once a month and call it joined-up work.** Each team copies its KPIs into the same deck. Lots of motion, no overlap, no shared decisions.
 
@@ -60,7 +60,7 @@ Three failure patterns we see month after month.
 
 ## The integration test
 
-A real 360 partner can answer three questions in ten minutes for any active campaign.
+Ten minutes tells you whether your agency is joined up or just well presented. Ask three questions about any active campaign.
 
 -   Which paid keyword should we kill because organic now ranks for it?
 -   Which Spanish blog post would benefit most from a remarketing pixel?
@@ -68,11 +68,15 @@ A real 360 partner can answer three questions in ten minutes for any active camp
 
 If the answer to any of these is “let us sync with another team”, you are paying for branding, not joined-up work.
 
+<aside class="post-cta">
+<p><strong>Your agency could not answer the third question?</strong> Our <a href="/services/lead-generation/">lead generation work</a> counts every enquiry against the market and the language that earned it, so a French campaign is judged on French conversations. <a href="/contact/">Book the discovery call</a>.</p>
+</aside>
+
 ## A real example: a Houston freight client
 
-The freight forwarding client we work with in Houston runs in two languages, three buyer types (importers, exporters, freight forwarders), and across LinkedIn, organic search, Google Ads, and trade events.
+Our freight forwarding client in Houston runs in two languages, three buyer types (importers, exporters, freight forwarders), and across LinkedIn, organic search, Google Ads, and trade events.
 
-For six months before we came in the agency on the account had treated those as four separate engagements. Four invoices, four sets of KPIs, four audience definitions, no shared dashboard.
+For six months before we came in, the agency on the account had treated those as four separate engagements. Four invoices, four sets of KPIs, four audience definitions, no shared dashboard.
 
 After we consolidated into one strategy document and one measurement plan, three findings surfaced inside the first month.
 
@@ -84,15 +88,17 @@ None of this required new tactics. Joining the work up drove the lift.
 
 ## The data behind joined-up campaigns
 
-The IPA’s analysis of more than 250 campaign case studies found a measurable gap between integrated multi-channel work and single-channel campaigns.
+Connection pays; channel count does not. The IPA’s analysis of more than 250 campaign case studies found a measurable gap between integrated multi-channel work and single-channel campaigns.
 
 > 78% of cases with three channels demonstrate hard business effects versus 67% of those with only one channel.
 > 
 > Source: [Smart Insights, summarising the IPA Effectiveness Databank](https://www.smartinsights.com/traffic-building-strategy/integrated-marketing-communications/4-options-for-integrating-marketing-campaigns/)
 
-The headline we take from that research: connecting channels matters, but adding more does not. Three connected channels beat seven disconnected ones.
+For your budget, that means three connected channels beat seven disconnected ones.
 
 ## Promise versus reality
+
+Read a proposal against the right-hand column; each line is something to ask to see before you sign.
 
 | What 360 brochures promise | What integration actually requires |
 | --- | --- |
@@ -104,7 +110,7 @@ The headline we take from that research: connecting channels matters, but adding
 
 ## When to hire a 360 partner, and when not to
 
-We usually tell clients to hire a 360 partner only when at least two of the following are true.
+Hire too early and you pay for coordination you do not need yet. We usually tell clients to hire a 360 partner only when at least two of the following are true.
 
 -   You operate across more than two languages or markets, and brand consistency is visibly breaking down.
 -   You have lost track of where the next quarter’s revenue is meant to come from inside your existing reporting.
@@ -114,7 +120,7 @@ Outside those scenarios, a senior fractional lead plus two specialist contractor
 
 ## A second pair of eyes on your marketing engine
 
-If you are weighing a **360 marketing agency** retainer against keeping things in-house, we are happy to walk through the trade-offs with you.
+If you are weighing a 360 marketing agency retainer against keeping things in-house, we are happy to walk through the trade-offs with you.
 
 We work with B2B clients in legal, freight, real estate, and translation across six languages, from Valencia. You can read more about [how we work](/how-i-work/).
 

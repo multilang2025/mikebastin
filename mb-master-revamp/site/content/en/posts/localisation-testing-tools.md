@@ -1,5 +1,5 @@
 ---
-words: 645
+words: 751
 title: "Localization testing tools, and what each one catches"
 slug: "localisation-testing-tools"
 locale: "en"
@@ -7,16 +7,18 @@ type: "posts"
 group: "g145"
 wpId: 17228970
 date: "2024-11-20T14:01:00"
-modified: "2026-09-26T12:00:00"
+modified: "2026-09-26T21:30:00"
 sourceUrl: "https://mikebastin.com/localisation-testing-tools/"
-excerpt: "The localization testing tools worth knowing, from translation management systems to pseudo-localization and visual testing, what each one catches, and how to combine them with native-speaker review."
+excerpt: "Localized release breaking in ways nobody caught? The localization testing tools that find layout, text and locale faults before your users do."
 ---
 
-Localization testing tools check that software and websites work correctly in every language, culture and region you ship to. They catch the problems that only appear after translation, before your users do.
+Your product works perfectly in English. Then the German release ships: a label runs off its button, a date reads as the wrong month. No translation review caught it, and every user there sees it on day one.
 
-Below we list the main types of tool and what each catches, the features worth paying for, and how to use them well.
+Localization testing tools catch those faults first. Below: what each type catches, the features worth paying for, and how to combine them.
 
 ## What localization testing tools catch
+
+Most localization defects are not translation defects, so they slip past a linguist and land in your support inbox. The tools look for:
 
 - **Technical issues:** character encoding, date formats, currency displays and text direction.
 - **Layout breaks:** UI elements that overflow or truncate when translated text expands or contracts.
@@ -24,9 +26,11 @@ Below we list the main types of tool and what each catches, the features worth p
 - **Regional settings:** sorting of accented characters, right-to-left rendering for Arabic and Hebrew, line breaking in Asian languages.
 - **Cultural risks:** imagery, colours or symbols that could offend or confuse in a given market.
 
-Many tools plug into continuous integration pipelines, simulate locale environments and check internationalisation APIs, so issues surface early in development. Paired with human review, they [reduce the risk of cultural faux pas](/services/multilingual-content/) and technical faults that could damage a product's reception abroad.
+Many tools plug into continuous integration pipelines, simulate locale environments and check internationalisation APIs, so faults surface early, when they are cheapest. Paired with human review, they [reduce the risk of cultural faux pas](/services/multilingual-content/) and technical faults that could damage a product's reception abroad.
 
 ## Tools by type
+
+No single tool covers the whole job; the table shows where your setup has gaps.
 
 | Tool | Type | What it catches or does |
 |---|---|---|
@@ -54,6 +58,8 @@ Two older automation tools deserve a warning. PhantomJS development is suspended
 
 ## Features to look for
 
+The right tool saves your testers time on every release. Look for:
+
 1. **Integration** with your [existing development and testing workflows](https://lokalise.com/blog/localization-testing/).
 2. **QA checks** for common localization issues.
 3. **Context** for testers, such as screenshots or string descriptions.
@@ -64,6 +70,8 @@ Two older automation tools deserve a warning. PhantomJS development is suspended
 
 ## Best practices
 
+How you use the tools decides whether each new market costs less to launch than the last.
+
 1. **Combine tools.** No single tool covers every aspect of localization testing.
 2. **Automate where possible.** Automate repetitive checks, but accept that full automation is not possible.
 3. **Involve native speakers.** Pair the tools with [native-speaker review for linguistic and cultural accuracy](/services/website-localisation/).
@@ -71,6 +79,10 @@ Two older automation tools deserve a warning. PhantomJS development is suspended
 5. **Pseudo-localize early.** Run pseudo-localization [early in development to catch potential issues](https://daily.dev/blog/localization-testing-guide-best-practices-and-checklist) before translation starts.
 6. **Test continuously.** Build localization tests into your continuous integration and deployment (CI/CD) pipeline.
 
+<aside class="post-cta">
+<p><strong>Launching a new language and not sure what your tests would miss?</strong> Our <a href="/services/website-localisation/">website localization</a> includes full QA in every language before launch. <a href="/contact/">Book the discovery call</a>.</p>
+</aside>
+
 ## The short version
 
-With the right mix of tools and practices, development teams can make sure their software is properly adapted for every market. Tools are essential, but they work best alongside human expertise.
+The right mix of tools and practices lets your team ship every market with the confidence of the first. Automate the repetitive checks, and keep native speakers on the judgement calls.
