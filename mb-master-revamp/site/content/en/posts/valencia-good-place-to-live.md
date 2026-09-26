@@ -125,22 +125,6 @@ It’s one of those things that sounds charming in theory but takes real adjustm
 
 > **Worried about the red tape?** Moving to a new country shouldn’t feel like a full-time job. [Book a discovery call today](https://mikebastin.com/contact-us/) and let our relocation experts handle the NIE, housing search, and school registrations, so you can focus on enjoying the sunshine.
 
-## What real expats have to say
-
-Numbers and lists are useful, but nothing beats hearing from people who’ve actually done it. Here are three expats who’ve been living in Valencia for several years.
-
-### Sarah, 34, graphic designer (UK)
-
-_“We moved from Manchester three years ago. The biggest shock wasn’t the language. It was the pace. Back home, everything is ‘now, now, now.’ Here, if you try to rush a waiter or a landlord, they actually slow down just to spite you! But once we learned to breathe and accept it, our stress levels plummeted. We earn less than we did in the UK, but our quality of life is ten times higher. Tuesday nights at the beach instead of stuck in traffic on the M60, that says it all.”_
-
-### Mark, 45, software engineer (USA)
-
-_“Valencia works brilliantly if you have a US salary. We work remotely for a firm in Chicago. The safety is what gets us. We can walk through the park at 2 AM without looking over our shoulder. The downside? The bureaucracy. Four months and three different lawyers just to sort our [digital nomad visa](https://mikebastin.com/american-move-to-valencia-spain/). Don’t try to do it yourself.”_
-
-### Elena, 29, ESL teacher (Ireland)
-
-_“We love the social life here. In Dublin, socialising revolves around the pub. In Valencia, it’s the plaza. You see three generations of a family at the same café table. It’s beautiful. But the August humidity is no joke. We changed flats twice just to find decent cross-ventilation and AC. And seriously: learn Spanish. You’ll be a permanent outsider if you don’t.”_
-
 ## Who is Valencia perfect for, and who should think twice?
 
 ### You’ll love Valencia if:
