@@ -291,7 +291,8 @@ is in the rest, which the Master Content Protocol never covered:
   figure, and the period and the cohort get checked, not only the number.
   49 English posts carry a percentage and 14 carry a `Source:` line.
 - **An external link is never removed during a rewrite** unless the target
-  is dead, spam or a competitor. There are four external destinations in
+  is dead or spam. Competitor links stay too (owner, 26 Sep 2026, "keep
+  the links", after a sourcing pass cut six and they were restored). There are four external destinations in
   the whole content set, two of them the sources for statistics on a
   cluster pillar, so one careless rewrite can strip the evidence and leave
   the claim.

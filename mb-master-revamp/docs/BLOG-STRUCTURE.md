@@ -35,8 +35,9 @@ point made twice, or a checklist item padded out with generic filler.
   questions stacked up before the first useful sentence.
 - Cut repetition and filler, not substance. Merge sections that say the
   same thing. Move comparable facts out of prose into a table.
-- **Never remove an external link** (dead, spam or competitor excepted,
-  and verified by fetching). Keep every sourced statistic and its source
+- **Never remove an external link**, competitor links included (owner,
+  26 Sep 2026). Only a dead one (verified 404 or no DNS, swapped for its
+  live equivalent where one exists) or spam goes, checked by fetching. Keep every sourced statistic and its source
   blockquote. Keep the post's primary topic, title and slug.
 - Fix internal links whose anchor text does not describe the target
   (an anchor saying "robots.txt" that points at the GEO service page),

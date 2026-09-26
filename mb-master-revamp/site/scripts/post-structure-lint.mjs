@@ -17,7 +17,7 @@
  *   node scripts/post-structure-lint.mjs slug slug  # only these
  *   node scripts/post-structure-lint.mjs --errors   # errors only
  */
-import { readFileSync, readdirSync } from "node:fs";
+import { readFileSync, readdirSync, existsSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -25,8 +25,30 @@ const DIR = join(dirname(fileURLToPath(import.meta.url)), "../content/en/posts")
 const args = process.argv.slice(2);
 const errorsOnly = args.includes("--errors");
 const only = args.filter((a) => !a.startsWith("--"));
+// Only posts that are actually built: content-map.json marks a published
+// post as action "migrate", destination "mdx". The rest of the files are
+// kept as source but 301 to valenciamove.com or a service page, so their
+// structure affects no page on this site.
+const MAP = JSON.parse(readFileSync(join(dirname(fileURLToPath(import.meta.url)), "../../redirects/content-map.json"), "utf8"));
+const HTACCESS = readFileSync(join(dirname(fileURLToPath(import.meta.url)), "../public/.htaccess"), "utf8");
+const PUBLISHED = new Set(
+  MAP.groups
+    .filter((g) => g.type === "post" && g.action === "migrate" && g.destination === "mdx" && g.en?.slug)
+    .map((g) => g.en.slug)
+    // A post the prune later redirected elsewhere keeps its migrate record
+    // but is not built: skip anything .htaccess sends somewhere other than
+    // its own /blog/ URL.
+    .filter((slug) => {
+      const rule = HTACCESS.match(new RegExp(`^RewriteRule \\^${slug}/\\?\\$ (\\S+)`, "m"));
+      return !rule || rule[1] === `blog/${slug}/`;
+    })
+    // Hand-built routes (lib/posts.ts HAND_BUILT_SLUGS) render their own
+    // JSX, so the markdown file is not what the reader sees.
+    .filter((slug) => !existsSync(join(dirname(fileURLToPath(import.meta.url)), `../app/${slug}/page.tsx`))),
+);
 const files = readdirSync(DIR)
   .filter((f) => f.endsWith(".md"))
+  .filter((f) => PUBLISHED.has(f.replace(/\.md$/, "")))
   .filter((f) => only.length === 0 || only.includes(f.replace(/\.md$/, "")));
 
 let errorCount = 0;

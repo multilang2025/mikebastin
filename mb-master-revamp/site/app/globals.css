@@ -842,7 +842,8 @@ html.mb-anim .reveal.is-in {
 .post-fig .fg-dim    { fill: none; stroke: var(--dim); stroke-width: 1.2; }
 .post-fig .fg-accent { fill: none; stroke: var(--berry); stroke-width: 2; }
 .post-fig .fg-box    { fill: var(--bg); stroke: var(--rule); stroke-width: 1; }
-.post-fig .fg-hot    { fill: var(--berry-soft); stroke: var(--berry); stroke-width: 1.2; }
+/* Opaque, so a connector drawn underneath never shows through the label. */
+.post-fig .fg-hot    { fill: color-mix(in srgb, var(--berry) 12%, var(--bg)); stroke: var(--berry); stroke-width: 1.2; }
 .post-fig .fg-fill   { fill: var(--dim); opacity: .35; }
 .post-fig .fg-fill-accent { fill: var(--berry); }
 .post-fig .fg-text   { fill: var(--ink); font: 500 16px var(--font-inter), system-ui, sans-serif; }

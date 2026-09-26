@@ -1,5 +1,5 @@
 ---
-words: 1244
+words: 751
 title: "Internal linking tools and WordPress plugins worth installing"
 slug: "internal-linking-tools"
 locale: "en"
@@ -7,255 +7,77 @@ type: "posts"
 group: "g135"
 wpId: 24846129
 date: "2024-12-11T11:24:48"
-modified: "2026-07-19T15:03:37"
+modified: "2026-09-26T12:00:00"
 sourceUrl: "https://mikebastin.com/internal-linking-tools/"
-excerpt: "Internal linking tools and WordPress plugins compared, from Link Whisper to Interlinks Manager, and how to choose between them."
+excerpt: "Internal linking tools and WordPress plugins compared, from Link Whisper to Link Manager, and how to choose between them."
 ---
 
-## How to choose the right internal linking tool for your WordPress site
+Internal linking is one of the parts of on-page SEO you control completely, and it affects both rankings and how easily visitors find their way around. On a WordPress site with hundreds of posts, doing it by hand quickly falls behind.
 
-Internal linking is a crucial aspect of on-page SEO that can significantly impact your website’s search engine rankings and user experience.
-
-For WordPress users, using the right internal linking tools and plugins can streamline this process, making it easier to create a well-structured site that both search engines and visitors love.
-
-In this guide, we’ll explore the top internal linking tools and WordPress plugins to help you boost your SEO efforts.
+Below we compare six internal linking tools and WordPress plugins, what each does best, and how to choose between them.
 
 ## Why internal linking matters
 
-Before diving into the tools, let’s quickly recap why internal linking is so important:
+- It improves navigation and user experience.
+- It spreads page authority through the site.
+- It helps search engines understand your site structure.
+- It keeps visitors reading, which lifts time on site.
 
--   Improves site navigation and user experience
--   Distributes page authority throughout your site
--   Helps search engines understand your site structure
--   Increases time on site and reduces bounce rates
+## The tools compared
 
-Now, let’s look at some of the best tools available to enhance your internal linking strategy.
+Prices are the vendors' own, in US dollars, for a single site, checked on 26 September 2026. Several run launch discounts, so check before you buy.
 
-## Top internal linking tools and WordPress plugins
+| Tool | Main strength | Best for | Entry price |
+|---|---|---|---|
+| [Link Whisper](https://linkwhisper.com/) | Link suggestions as you write | Medium to large sites | See vendor site |
+| [Linkilo](https://linkilo.co/) | Link analysis and orphan pages | Medium to large sites | $59 a year |
+| [LinkBoss](https://linkboss.io/) | Semantic analysis and silos | SEO specialists and agencies | Free plan, paid from $11 a month |
+| [Linksy](https://linksyai.com/) | NLP-based contextual links | AI-driven linking | $79 a year |
+| [Internal Link Juicer](https://www.internallinkjuicer.com/) | Keyword-based auto-linking | Small to medium sites | Free, Pro from $69.99 a year |
+| [Link Manager](https://daext.com/autolinks-manager/) | Link analysis plus auto-linking | Affiliate and e-commerce sites | Free, Pro from $59 a year |
 
-### 1\. Link Whisper
+### Link Whisper
 
-**Overview:** [Link Whisper](https://linkwhisper.com/) is a powerful AI-driven internal linking plugin that automatically suggests relevant internal links as you write.
+[Link Whisper](https://linkwhisper.com/) suggests relevant internal links as you write, lets you add links in bulk and reports on your linking. The suggestions save a lot of time, though some still need a manual check. Pricing is by number of sites, with AI credits sold separately.
 
-**Key Features:**
+### Linkilo
 
--   AI-powered link suggestions
--   Bulk adding of internal links
--   Detailed internal linking reports
--   Customizable link settings
+[Linkilo](https://linkilo.co/) automates internal linking and adds detailed link analysis, including orphan page detection. The analysis is thorough, but beginners may face a learning curve. All plans carry the same features and differ only in the number of sites.
 
-**Pros:**
+### LinkBoss
 
--   Saves time with automatic suggestions
--   Improves site structure effortlessly
--   User-friendly interface
+[LinkBoss](https://linkboss.io/) uses natural language processing to find semantically related pages, build silos for topic clusters and add links in bulk. It works with several page builders. It suits users who understand SEO concepts, and it can feel complex for casual use. A free plan with a small number of credits lets you test it.
 
-**Cons:**
+### Linksy
 
--   Premium pricing may not suit all budgets
--   Suggestions sometimes need manual review
+[Linksy](https://linksyai.com/) reads the semantic relationships between posts and suggests contextual links, with automation, silo support and reports. It connects with SEO plugins and page builders but takes some time to set up.
 
-**Best Suited For:** Medium to large websites with extensive content
+### Internal Link Juicer
 
-**Pricing:** Starts at $77/year for a single site
+[Internal Link Juicer](https://wordpress.org/plugins/internal-links/) adds links automatically based on keywords you define, with anchor text variation and blacklist and whitelist rules. It is lightweight, easy to set up and has a capable free version. Reporting is more limited than in the analysis-led tools.
 
-### 2\. Linkilo
+### Link Manager (formerly Interlinks Manager and Autolinks Manager)
 
-**Overview:** [Linkilo](https://linkilo.co/) is a WordPress plugin that automates internal linking and provides detailed link analysis to boost SEO performance.
+DAEXT has folded its [Interlinks Manager](https://wordpress.org/plugins/daext-interlinks-manager/) and [Autolinks Manager](https://daext.com/autolinks-manager/) plugins into one product, Link Manager. It combines internal link analysis, link equity reporting and click tracking with flexible auto-linking rules, bulk keyword setup and an HTTP status checker. Set the rules carefully to avoid over-linking. DAEXT sells three annual licences: [Personal, one site, $59](https://daext.com/?daextcomm-action=create-checkout-session&product_id=1), [Freelance, five sites, $99](https://daext.com/?daextcomm-action=create-checkout-session&product_id=2) and [Agency, 25 sites, $149](https://daext.com/?daextcomm-action=create-checkout-session&product_id=6).
 
-**Key Features:**
+## How to choose
 
--   AI-powered link suggestions as you write
--   Bulk adding of internal links
--   Detailed internal linking reports
--   Customizable link settings
--   Orphan page detection
+- **Suggestions while you write:** Link Whisper or Linkilo.
+- **Semantic analysis and silos:** LinkBoss or Linksy.
+- **Simple, low-cost automation:** Internal Link Juicer.
+- **Affiliate or product links with click tracking:** Link Manager.
 
-**Pros:**
+Most of these tools offer a free version, a trial or a money-back guarantee, so test one on your own content before committing.
 
--   Thorough link analysis
--   Automated linking saves time
--   Helps identify and fix orphan pages
+## Tips for using internal linking tools well
 
-**Cons:**
+1. **Pick linking keywords carefully.** Each one should describe the target page accurately.
+2. **Avoid over-optimization.** Too many automatic links read as spam to users and search engines alike.
+3. **Revisit older posts.** When you publish something new, add links to it from related older content.
+4. **Spread your links.** Do not point everything at the homepage or a few popular pages.
+5. **Use descriptive anchor text.** The anchor should tell the reader what the linked page is about.
+6. **Check the reports.** Fix broken links and orphaned content as they appear.
 
--   May have a learning curve for beginners
--   Pricing might be high for small websites
+## Where to start
 
-**Best Suited For:** Medium to large websites looking for detailed link analysis
-
-**Pricing:** Starts at $77/year for a single site
-
-### 3\. LinkBoss
-
-**Overview:** [LinkBoss](https://linkboss.io/) is a semantic internal linking tool that uses NLP, AI, and big data to build interlinks efficiently.
-
-**Key Features:**
-
--   Manual inbound/outbound interlinking
--   SILO network creation for topic clusters
--   Bulk interlinking
--   AI-generated paragraphs with optimized anchors
--   Works with multiple page builders
-
-**Pros:**
-
--   Advanced semantic analysis for better relevance
--   SILO structure support for improved SEO
--   Flexible with various page builders
-
-**Cons:**
-
--   Might be complex for casual users
--   Requires understanding of SEO concepts for best results
-
-**Best Suited For:** SEO experts, content creators, and agencies
-
-**Pricing:** Offers a free trial; paid plans start at $11/month
-
-### 4\. Linksy
-
-**Overview:** [Linksy](https://linksyai.com/) is an AI-powered WordPress plugin for internal link building.
-
-**Key Features:**
-
--   Uses NLP to understand semantic relationships between posts
--   Contextual link suggestions based on content
--   Link automation system
--   Silo network creation
--   Detailed link reports
--   Integration with SEO plugins and page builders
-
-**Pros:**
-
--   Advanced AI for contextual linking
--   Supports SILO structure
--   Integrates well with other SEO tools
-
-**Cons:**
-
--   Pricing not readily available on the website
--   May require time to set up and optimize
-
-**Best Suited For:** Websites looking for advanced, AI-driven linking
-
-### 5\. Internal link Juicer
-
-**Overview:** [Internal Link Juicer](https://wordpress.org/plugins/internal-links/) is a dedicated internal linking plugin that automates the process of adding links based on keywords.
-
-**Key Features:**
-
--   Automatic linking based on defined keywords
--   Link juice control
--   Customizable link appearance
--   Anchor text diversification
--   Blacklist/whitelist functionality
-
-**Pros:**
-
--   Easy to set up and use
--   Lightweight plugin with minimal impact on site speed
--   Offers both automatic and manual linking options
-
-**Cons:**
-
--   May require more manual setup for optimal results
--   Limited reporting features compared to some competitors
-
-**Best Suited For:** Small to medium-sized websites looking for a simple, effective solution
-
-**Pricing:** Free version available; Pro version starts at €39/year
-
-### 6\. Interlinks Manager/Autolinks Manager
-
-**Overview:** [Interlinks Manager](https://wordpress.org/plugins/daext-interlinks-manager/) is a WordPress plugin for analyzing and optimizing internal link structure. Autolinks Manager, although a different website, seems to be same product as Interlinks Manager
-
-**Key Features:**
-
--   Internal link analysis and reporting
--   Link juice flow information
--   Related content suggestions
--   Automatic linking based on keywords
--   Click tracking on internal links
--   Data export to CSV
-
-**Pros:**
-
--   Detailed link analysis and reporting
--   Helps optimize link juice flow
--   Useful for identifying linking opportunities
-
-**Cons:**
-
--   Pricing not readily available
--   May have a steeper learning curve
-
-**Best Suited For:** SEO professionals and websites needing in-depth link analysis
-
-**Pricing:**
-
-### 7\. Autolinks Manager
-
-**Overview:** [Autolinks Manager](https://daext.com/autolinks-manager/) is a WordPress plugin focused on creating automatic links.
-
-**Key Features:**
-
--   Highly customizable auto-linking rules
--   Statistics on auto links and clicks
--   Bulk keyword configuration
--   Click tracking
--   Import/export of auto link settings
--   HTTP status code checker
-
-**Pros:**
-
--   Flexible auto-linking rules
--   Useful for affiliate and product linking
--   Includes link health checking
-
-**Cons:**
-
--   Pricing information not readily available
--   May require careful setup to avoid over-linking
-
-**Best Suited For:** Affiliate marketers and e-commerce sites
-
-**Pricing:** See above
-
-## Comparison table
-
-| Tool | Key feature | Best for | Price |
-| --- | --- | --- | --- |
-| [Link Whisper](https://linkwhisper.com/) | AI-powered suggestions | Medium to large sites | From $77/year |
-| [Linkilo](https://linkilo.co) | Thorough link analysis | Medium to large sites | From $77/year |
-| [LinkBoss](https://linkboss.io/) | Semantic analysis and SILO structure | SEO experts and agencies | From $11/month |
-| [Linksy](https://linksyai.com/) | NLP-based contextual linking | Advanced AI-driven linking | Not specified |
-| [Internal Link Juicer](https://www.internallinkjuicer.com/) | Keyword-based auto-linking | Small to medium sites | Free, €69.99/year |
-| [Autolinks Manager](https://daext.com/autolinks-manager/) / Interlinks Manager | Customizable auto-linking | Affiliate and e-commerce | Personal, 1 site, $39/year ([buy](https://daext.com/?daextcomm-action=create-checkout-session&product_id=1)); Freelance, 5 sites, $79/year ([buy](https://daext.com/?daextcomm-action=create-checkout-session&product_id=2)); Agency, 25 sites, $149/year ([buy](https://daext.com/?daextcomm-action=create-checkout-session&product_id=6)) |
-
-## Tips for increasing internal linking with these tools
-
-1.  **Set up keyword-based linking carefully:** Choose relevant keywords that accurately represent your content.
-2.  **Avoid over-optimisation:** Don’t overdo it with internal links. Aim for a natural feel.
-3.  **Regularly update your internal links:** As you add new content, revisit older posts to add new relevant links.
-4.  **Balance link distribution:** Ensure you’re not just linking to your homepage or a few popular pages.
-5.  **Use descriptive anchor text:** Make your anchor text informative and relevant to the linked page.
-6.  **Monitor your internal linking structure:** Regularly check reports to identify and fix issues like broken links or orphaned content.
-
-## Conclusion
-
-Choosing the right internal linking tool or plugin can significantly enhance your WordPress site’s SEO and user experience.
-
-Each tool offers unique features catering to different needs and expertise levels.
-
-For AI-powered solutions, Link Whisper and Linkilo offer solid features.
-
-If you’re looking for advanced semantic analysis, LinkBoss might be your best bet.
-
-For a simpler, budget-friendly option, Internal Link Juicer provides a good balance of features and simplicity.
-
-Remember, the best tool for you depends on your specific needs, budget, and the size of your website.
-
-Many of these tools offer free trials or versions, allowing you to test their functionality before committing to a paid plan.
-
-Whichever tool you choose, use it wisely and in conjunction with a solid overall [SEO strategy](/blog/how-ai-is-revolutionising-seo-strategies/) to see the best results.
+The right tool depends on your site's size, your budget and how much control you want. Whichever you choose, it works best as part of a wider [AI-assisted SEO strategy](/blog/how-ai-is-revolutionising-seo-strategies/) rather than on autopilot.

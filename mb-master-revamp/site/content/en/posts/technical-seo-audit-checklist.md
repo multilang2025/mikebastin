@@ -1,5 +1,5 @@
 ---
-words: 3900
+words: 2120
 title: "Technical SEO audit checklist for websites"
 slug: "technical-seo-audit-checklist"
 locale: "en"
@@ -7,392 +7,161 @@ type: "posts"
 group: "g164"
 wpId: 24845784
 date: "2024-10-22T13:13:00"
-modified: "2026-07-02T15:11:16"
+modified: "2026-09-26T12:00:00"
 sourceUrl: "https://mikebastin.com/technical-seo-audit-checklist/"
-excerpt: "Dive into the world of Technical SEO and supercharge your website’s performance. An essential audit checklist for web agencies."
+excerpt: "A technical SEO audit checklist for web agencies: what to check, how to spot the problem and how to fix it, from robots.txt to Core Web Vitals."
 ---
 
-## Website technical SEO assessment checklist
+A technical SEO audit answers one question: can search engines reach, understand and trust every page that matters on the site? Content and links only pay off once the answer is yes.
 
-Imagine your website as a sleek, high-performance sports car.
+The checklist below is written for [web agencies](/services/) auditing client sites. Each section covers what to check, how to find the problem and how to fix it, with the tools we use and short code examples. Where Google has retired a tool since this list was first published, we name the replacement.
 
-Now, Technical SEO? That’s the finely-tuned engine under the hood, propelling your site to the front of the search engine race.
+If you would rather hand the job over, our [technical SEO services](/services/technical-seo/) run the same audit and ship the fixes.
 
-It’s the secret sauce that makes your website irresistible to [Google’s crawlers](/services/local-seo/), turning them from casual visitors into devoted fans who can’t wait to showcase your site to the world.
+<figure class="post-fig">
+<svg viewBox="0 0 400 130" role="img" aria-label="The audit runs in four stages, each depending on the one before: crawl, index, render, rank.">
+<line x1="50" y1="32" x2="350" y2="32" class="fg-rule"/>
+<circle cx="50" cy="32" r="26" class="fg-box"/>
+<circle cx="150" cy="32" r="26" class="fg-box"/>
+<circle cx="250" cy="32" r="26" class="fg-box"/>
+<circle cx="350" cy="32" r="26" class="fg-hot"/>
+<text x="50" y="38" text-anchor="middle" class="fg-strong">1</text>
+<text x="150" y="38" text-anchor="middle" class="fg-strong">2</text>
+<text x="250" y="38" text-anchor="middle" class="fg-strong">3</text>
+<text x="350" y="38" text-anchor="middle" class="fg-strong">4</text>
+<text x="50" y="90" text-anchor="middle" class="fg-text">Crawl</text>
+<text x="150" y="90" text-anchor="middle" class="fg-text">Index</text>
+<text x="250" y="90" text-anchor="middle" class="fg-text">Render</text>
+<text x="350" y="90" text-anchor="middle" class="fg-text">Rank</text>
+<text x="50" y="114" text-anchor="middle" class="fg-label">robots.txt</text>
+<text x="150" y="114" text-anchor="middle" class="fg-label">canonicals</text>
+<text x="250" y="114" text-anchor="middle" class="fg-label">speed, mobile</text>
+<text x="350" y="114" text-anchor="middle" class="fg-label">metadata</text>
+</svg>
+<figcaption>Each stage depends on the one before it. A page Google cannot crawl never gets as far as its title tag being judged, so an audit fixes problems in this order.</figcaption>
+</figure>
 
-But here’s the million-dollar question: Is your website’s engine purring like a kitten or sputtering like an old jalopy?
+## Crawlability and indexability
 
-Buckle up, digital mechanics! We’re about to pop the hood and dig into the nitty-gritty world of technical SEO.
+### Robots.txt
 
-In this turbo-charged guide, we’ll hand you the ultimate toolbox, a complete [Technical SEO audit checklist](/blog/technical-seo-audit-checklist/).
+The robots.txt file at `yourdomain.com/robots.txt` tells crawlers which paths not to fetch. Check that it exists, that it blocks only what it should, and that no important section sits behind a `Disallow` rule.
 
-It’s specially built for [web agencies](/services/) looking to supercharge their clients’ websites and leave the competition in the dust.
+Google retired its old robots.txt Tester in December 2023. Use the robots.txt report in Search Console (Settings) instead: it shows which robots.txt files Google found, when it last crawled them and any errors, and lets you request a recrawl after a fix. The URL Inspection tool confirms whether a single URL is blocked.
 
-Get ready to diagnose those pesky technical hiccups, apply some digital elbow grease, and transform your clients’ websites from rusty jalopies into sleek, [search engine-conquering machines](/services/technical-seo/).
+> Google added a robots.txt report to Search Console in November 2023 and sunset the legacy robots.txt tester at the same time.
+> Source: [Search Engine Land, "Google Search Console adds robots.txt report"](https://searchengineland.com/google-search-console-adds-robots-txt-report-434708)
 
-We’ll walk you through real-world examples, dish out practical solutions, and have you speaking fluent ‘Tech SEO’ faster than you can say “[robots.txt](/services/generative-engine-optimization/)“!
-
-So, are you ready to become the master mechanic of the digital highway? Let’s rev up those engines and start our [Technical SEO tune-up](/blog/technical-seo-audit-checklist/)!
-
-### 1\. Crawlability and indexability
-
-#### 1.1 Robots.Txt file
-
-The **robots.txt file** is a simple text file located at the root of your website. It instructs search engine crawlers which pages or sections of your site should not be crawled.
-
-**Check**: Ensure that the `robots.txt` file exists at `yourdomain.com/robots.txt` and is correctly configured.
-
-**Example**:
-
-Visit `example.com/robots.txt` to view the site’s directives. A typical `robots.txt` file might look like:
-
-```
-User-agent: *
-Disallow: /private-section/
-```
-
-**Identify Issues**:
-
--   Use **Google Search Console’s Robots Testing Tool** to test your `robots.txt` file for errors.
--   Look for any **disallowed pages** that should be accessible to search engines.
-
-**Address**:
-
--   Edit the `robots.txt` file to allow or disallow specific URLs.
--   Use `User-agent` and `Disallow` directives appropriately.
--   Ensure that important pages are not blocked.
-
-**Example**:
-
-If you accidentally disallowed all crawlers from your entire site:
+The classic mistake is a staging rule left live, which blocks the entire site:
 
 ```
 User-agent: *
 Disallow: /
 ```
 
-It would prevent your site from being indexed. To fix this, you should update it to allow all content:
+An empty `Disallow:` line allows everything. Block private sections by path instead, for example `Disallow: /private-section/`.
 
-```
-User-agent: *
-Disallow:
-```
+### XML sitemap
 
-#### 1.2 XML sitemap
+An XML sitemap lists the URLs you want indexed. Check that `yourdomain.com/sitemap.xml` exists, contains only live, canonical, indexable URLs (no 404s, redirects or noindexed pages) and updates when content changes.
 
-An **XML sitemap** is a file that lists all the important pages of your website, helping search engines find and crawl them.
+Most CMSs generate one automatically (Yoast SEO or Rank Math on WordPress); XML-Sitemaps.com covers static sites. Submit the sitemap in Google Search Console and Bing Webmaster Tools, reference it in robots.txt, and check the Sitemaps report for processing errors after each resubmission.
 
-**Check**: Verify the presence of an up-to-date XML sitemap at `yourdomain.com/sitemap.xml`.
+### Noindex and nofollow
 
-**Identify Issues**:
+A stray `noindex` removes a page from search as surely as a robots.txt block. Crawl the site with Screaming Frog or Ahrefs Site Audit and list every page carrying `noindex` or `nofollow`, then confirm each one is intended. Pages you want indexed need no robots meta tag at all, or `<meta name="robots" content="index, follow">`.
 
--   Check for **broken links** or URLs leading to **404 errors** within the sitemap.
--   Ensure that all important pages, including new and updated ones, are included.
+Do not combine `noindex` with a robots.txt block on the same URL: Google cannot see the `noindex` on a page it is not allowed to fetch.
 
-**Address**:
+### Redirects
 
--   Generate a new sitemap using tools like **Yoast SEO** for WordPress or **XML-Sitemaps.com**.
--   Submit the sitemap to **Google Search Console** and **Bing Webmaster Tools**.
+| Code | Meaning | Passes signals | Use it when |
+| --- | --- | --- | --- |
+| 301 | Moved permanently | Yes | A URL has a new permanent home |
+| 302 | Found, temporary | Eventually treated as 301 if left | A short test or a seasonal page |
+| 410 | Gone | No | The content is removed for good |
 
-**Example**:
-
-After adding new content, update your sitemap to include the new URLs, then resubmit it to search engines.
-
-#### 1.3 URL structure
-
-A clean and descriptive **URL structure** improves both user experience and search engine crawling.
-
-**Check**: Ensure that URLs are clean, descriptive, and use hyphens to separate words.
-
-**Example**:
-
-Use `yourdomain.com/blue-widgets` instead of `yourdomain.com/page?id=123`.
-
-**Identify Issues**:
-
--   Look for URLs with excessive parameters or session IDs.
--   Avoid dynamic URLs with long strings of numbers and symbols.
-
-**Address**:
-
--   Implement URL rewriting using **mod\_rewrite** for Apache or similar modules for other servers.
--   Use consistent and readable URL naming conventions.
-
-**Example**:
-
-In Apache’s `.htaccess` file, you can add:
-
-```
-RewriteEngine On
-RewriteRule ^product/([0-9]+)$ /product.php?id=$1 
-```
-
-#### 1.4 Canonical tags
-
-**Canonical tags** help prevent duplicate content issues by specifying the preferred version of a page.
-
-**Check**: Ensure that canonical tags are correctly implemented on all pages.
-
-**Identify Issues**:
-
--   Use tools like **Screaming Frog SEO Spider** to detect missing or incorrect canonical tags.
--   Identify duplicate content that appears under multiple URLs.
-
-**Address**:
-
--   Add `<link rel="canonical" href="https://yourdomain.com/preferred-page" />` in the `<head>` section of HTML pages.
--   Ensure that the canonical URL points to the main version of the content.
-
-**Example**:
-
-If `yourdomain.com/page` and `yourdomain.com/page?ref=twitter` show the same content, set the canonical tag to `yourdomain.com/page`.
-
-#### 1.5 Noindex and nofollow tags
-
-**Noindex** and **nofollow** tags control whether a page should be indexed or whether its links should be followed by crawlers.
-
-**Check**: Verify that pages meant to be indexed do not have `noindex` tags.
-
-**Identify Issues**:
-
--   Crawl the site to find pages with `noindex` or `nofollow` directives that shouldn’t have them.
--   Use tools like **Screaming Frog** or **Ahrefs Site Audit**.
-
-**Address**:
-
--   Remove unnecessary `noindex` tags from pages that need to be indexed.
--   Update **meta robots** tags appropriately.
-
-**Example**:
-
-To allow indexing and following of a page:
-
-```
-<meta name="robots" content="index, follow">
-```
-
-#### 1.6 Redirects (301, 302)
-
-Redirects inform browsers and search engines that a page has moved to a new location.
-
-**Check**: Use **301 redirects** for permanent URL changes.
-
-**Identify Issues**:
-
--   Identify redirect chains and loops using tools like **Ahrefs** or **Redirect Path**.
--   Check for **302 redirects** that should be **301 redirects**.
-
-**Address**:
-
--   Update server configurations or `.htaccess` files to correct redirects.
--   Ensure redirects point directly to the final URL without intermediate steps.
-
-**Example**:
-
-In `.htaccess`:
+Find redirect chains and loops with Screaming Frog, Ahrefs or the Redirect Path browser extension, and point every redirect straight at the final URL. Replace 302s that have become permanent with 301s. In `.htaccess`:
 
 ```
 Redirect 301 /old-page /new-page
 ```
 
-* * *
+## Site architecture and navigation
 
-#### 2\. Site architecture and navigation
+### Internal links and click depth
 
-### 2.1 Internal linking
+Internal links spread authority and show crawlers what matters. Use a site audit tool to find orphan pages (no internal links pointing in) and link to them from relevant, well-linked pages. In articles, link to related posts and product or service pages with anchor text that describes the target.
 
-Effective **internal linking** helps distribute link equity and improves crawlability.
+Keep important pages within three clicks of the homepage. List pages deeper than that, simplify menus, and merge categories that hold a single page into a related one.
 
-**Check**: Ensure that internal links are logical and support easy navigation.
+<figure class="post-fig">
+<svg viewBox="0 0 400 200" role="img" aria-label="A shallow site hierarchy: the homepage links to categories, categories link to pages, and every page sits within three clicks.">
+<rect x="150" y="10" width="100" height="36" rx="6" class="fg-hot"/>
+<text x="200" y="34" text-anchor="middle" class="fg-text">Home</text>
+<line x1="200" y1="46" x2="110" y2="80" class="fg-line"/>
+<line x1="200" y1="46" x2="290" y2="80" class="fg-line"/>
+<rect x="50" y="80" width="120" height="36" rx="6" class="fg-box"/>
+<rect x="230" y="80" width="120" height="36" rx="6" class="fg-box"/>
+<text x="110" y="104" text-anchor="middle" class="fg-text">Category</text>
+<text x="290" y="104" text-anchor="middle" class="fg-text">Category</text>
+<line x1="110" y1="116" x2="55" y2="150" class="fg-line"/>
+<line x1="110" y1="116" x2="150" y2="150" class="fg-line"/>
+<line x1="290" y1="116" x2="250" y2="150" class="fg-line"/>
+<line x1="290" y1="116" x2="345" y2="150" class="fg-line"/>
+<rect x="15" y="150" width="80" height="36" rx="6" class="fg-fill"/>
+<rect x="110" y="150" width="80" height="36" rx="6" class="fg-fill"/>
+<rect x="210" y="150" width="80" height="36" rx="6" class="fg-fill"/>
+<rect x="305" y="150" width="80" height="36" rx="6" class="fg-fill"/>
+<text x="55" y="173" text-anchor="middle" class="fg-label">Page</text>
+<text x="150" y="173" text-anchor="middle" class="fg-label">Page</text>
+<text x="250" y="173" text-anchor="middle" class="fg-label">Page</text>
+<text x="345" y="173" text-anchor="middle" class="fg-label">Page</text>
+</svg>
+<figcaption>A flat structure keeps every page two or three clicks from the homepage. Anything buried deeper gets crawled less often and receives less internal authority.</figcaption>
+</figure>
 
-**Identify Issues**:
+### URL structure
 
--   Use site audit tools to find **orphan pages** (pages not linked from any other page).
--   Analyse **link depth** to ensure important pages are accessible within a few clicks from the homepage.
+URLs should be short, readable and hyphenated: `yourdomain.com/blue-widgets`, not `yourdomain.com/page?id=123`. Look for long parameter strings and session IDs. On Apache, `mod_rewrite` maps clean URLs onto parameter-based ones:
 
-**Address**:
+```
+RewriteEngine On
+RewriteRule ^product/([0-9]+)$ /product.php?id=$1
+```
 
--   Add internal links from high-authority pages to orphan pages.
--   Create a logical linking structure that guides users through your content.
+### Breadcrumbs and pagination
 
-**Example**:
-
-In blog posts, include links to related articles or relevant product pages.
-
-### 2.2 Breadcrumbs
-
-**Breadcrumb navigation** enhances user experience and provides additional context to search engines.
-
-**Check**: Implement breadcrumbs that reflect the site’s hierarchy.
-
-**Identify Issues**:
-
--   Ensure breadcrumbs are present and accurately represent the page’s position in the site structure.
-
-**Address**:
-
--   Add breadcrumb markup using **Schema.org** vocabulary.
--   Implement breadcrumbs via your CMS or through custom coding.
-
-**Example**:
+Breadcrumbs show users and search engines where a page sits. Add them through your CMS or theme and mark them up with `BreadcrumbList` structured data:
 
 ```
 <nav aria-label="Breadcrumb">
   <ol>
     <li><a href="https://yourdomain.com">Home</a></li>
     <li><a href="https://yourdomain.com/category">Category</a></li>
-    <li>Current Page</li>
+    <li>Current page</li>
   </ol>
 </nav>
 ```
 
-### 2.3 Site hierarchy
+Google has not used `rel="next"` and `rel="prev"` as an indexing signal since 2019, so adding them will not fix a paginated series. Give each page in the series its own URL and a self-referencing canonical (not a canonical to page 1), link the pages with ordinary crawlable `<a href>` links, and offer a "view all" page only where it loads fast.
 
-A clear and logical **site hierarchy** improves user navigation and helps search engines understand your site’s structure.
+## Speed and Core Web Vitals
 
-**Check**: Verify that the website’s structure is logical and not overly deep.
+Core Web Vitals measure loading, responsiveness and visual stability from real Chrome users. Interaction to Next Paint (INP) replaced First Input Delay (FID) on 12 March 2024, so older audit templates that still ask for FID are out of date. Check the Core Web Vitals report in Search Console, then diagnose individual URLs in PageSpeed Insights or Lighthouse.
 
-**Identify Issues**:
+| Metric | Measures | Good score | Usual fixes |
+| --- | --- | --- | --- |
+| LCP | Loading of the main content | 2.5 seconds or less | Faster server, compressed hero image, preload key assets |
+| INP | Response to clicks and taps | 200 milliseconds or less | Less JavaScript, break up long tasks, fewer third-party scripts |
+| CLS | Visual stability | 0.1 or less | Width and height on images and ads, reserved space for embeds |
 
--   Identify pages that are more than three clicks away from the homepage.
--   Check for an imbalance in the distribution of pages within categories.
+> Google recommends meeting all three thresholds at the 75th percentile of page loads, on mobile and desktop.
+> Source: [web.dev, "Web Vitals"](https://web.dev/articles/vitals); [web.dev, "Interaction to Next Paint becomes a Core Web Vital on March 12"](https://web.dev/blog/inp-cwv-march-12)
 
-**Address**:
+**Images.** Images are usually the heaviest part of a page. Compress them with TinyPNG, ImageOptim or Kraken.io, serve WebP or AVIF, size them to the space they fill, and lazy-load images below the fold. Do not lazy-load the main hero image: it delays LCP.
 
--   Simplify navigation menus to make important pages more accessible.
--   Reorganise categories and subcategories if necessary.
-
-**Example**:
-
-If you have a category with only one page, consider merging it with a related category.
-
-### 2.4 Pagination
-
-Proper handling of **paginated content** ensures that search engines can crawl and index all pages in a series.
-
-**Check**: Implement pagination correctly using appropriate tags.
-
-**Identify Issues**:
-
--   Missing `rel="next"` and `rel="prev"` tags in paginated series.
--   Duplicate content issues arising from pagination.
-
-**Address**:
-
--   Add pagination tags in the `<head>` section of your HTML.
--   Consider creating “View All” pages if it doesn’t impact load times significantly.
-
-**Example**:
-
-On page 1 of a paginated series:
-
-```
-<link rel="next" href="https://yourdomain.com/page2" />
-```
-
-* * *
-
-### 3\. Website performance
-
-#### 3.1 Page speed (load time)
-
-Website **load time** is a crucial factor affecting user experience and search rankings.
-
-**Check**: Ensure pages load quickly on all devices.
-
-**Identify Issues**:
-
--   Use **Google PageSpeed Insights** or **GTmetrix** to analyse page load times.
--   Identify render-blocking resources and unoptimised images.
-
-**Address**:
-
--   Optimize images by compressing them without significant quality loss.
--   Use browser caching and enable compression (e.g., GZIP).
--   Minimise CSS and JavaScript files by minifying and combining them.
-
-**Example**:
-
-Compress images using **TinyPNG** or **ImageOptim** to reduce file sizes.
-
-#### 3.2 Mobile friendliness
-
-With the majority of searches occurring on mobile devices, **mobile friendliness** is essential.
-
-**Check**: Verify that the site is responsive and mobile-friendly.
-
-**Identify Issues**:
-
--   Use **Google’s Mobile-Friendly Test** to check for mobile usability issues.
--   Look for content wider than the screen or text too small to read.
-
-**Address**:
-
--   Implement a responsive design using CSS media queries or frameworks like **Bootstrap**.
--   Optimize touch elements and ensure adequate spacing.
-
-**Example**:
-
-Ensure that navigation menus collapse into a mobile-friendly format on smaller screens.
-
-#### 3.3 Core Web Vitals
-
-**Core Web Vitals** are a set of metrics related to speed, responsiveness, and visual stability.
-
-**Check**: Assess **Largest Contentful Paint (LCP)**, **First Input Delay (FID)**, and **Cumulative Layout Shift (CLS)** scores.
-
-**Identify Issues**:
-
--   Review reports in **Google Search Console** under **Core Web Vitals**.
--   Identify pages with poor scores that need improvement.
-
-**Address**:
-
--   Optimize server response times to improve LCP.
--   Reduce JavaScript execution time to enhance FID.
--   Allocate size attributes for images and ads to fix CLS issues.
-
-**Example**:
-
-Implement lazy loading for images to improve LCP.
-
-#### 3.4 Image optimization
-
-Optimizing images can significantly improve page load times.
-
-**Check**: Ensure images are properly sized and compressed.
-
-**Identify Issues**:
-
--   Identify images with large file sizes or incorrect formats.
-
-**Address**:
-
--   Use image compression tools like **ImageOptim** or **Kraken.io**.
--   Serve images in next-gen formats like **WebP** or **AVIF**.
-
-**Example**:
-
-Convert PNG images to compressed JPEGs when transparency is not required.
-
-#### 3.5 Browser caching
-
-Using **browser caching** can reduce load times for returning visitors.
-
-**Check**: Verify that caching headers are set correctly.
-
-**Identify Issues**:
-
--   Use tools like **webpagetest.org** to check for caching headers.
-
-**Address**:
-
--   Add caching rules in `.htaccess` or server configuration files.
--   Set appropriate `Cache-Control` and `Expires` headers.
-
-**Example**:
-
-In `.htaccess`:
+**Caching and minification.** Set `Cache-Control` headers so returning visitors reuse static files, enable GZIP or Brotli compression, and minify CSS, JavaScript and HTML in your build (Webpack, Vite or Gulp with CSSNano and a JavaScript minifier). WebPageTest shows which files lack caching headers. On Apache:
 
 ```
 <IfModule mod_expires.c>
@@ -401,49 +170,16 @@ In `.htaccess`:
 </IfModule>
 ```
 
-#### 3.6 Minification of CSS, JavaScript, HTML
+**Server response.** A slow Time to First Byte (TTFB) holds back every other metric. Measure it in WebPageTest, then put the site behind a CDN such as Cloudflare, cache database queries (Redis is common), and move to better hosting if the server is simply underpowered. Monitor uptime with UptimeRobot or Pingdom so outages show up before rankings do.
 
-**Minification** removes unnecessary characters from code to reduce file sizes.
+**Mobile.** Google indexes the mobile version of your site. The Mobile-Friendly Test and the Mobile Usability report were retired on 1 December 2023, so test with Lighthouse in Chrome DevTools and the device toolbar: look for content wider than the screen, text too small to read and tap targets too close together.
 
-**Check**: Ensure that CSS, JavaScript, and HTML files are minified.
+> Google retired the Mobile Usability report, the Mobile-Friendly Test tool and its API from 1 December 2023, pointing site owners to Lighthouse.
+> Source: [Search Engine Land, "Google officially drops Mobile Usability report, Mobile-Friendly Test tool and Mobile-Friendly Test API"](https://searchengineland.com/google-officially-drops-mobile-usability-report-mobile-friendly-test-tool-and-mobile-friendly-test-api-435377)
 
-**Identify Issues**:
+## Security
 
--   Use **PageSpeed Insights** to identify unminified files.
-
-**Address**:
-
--   Minify files using tools like **UglifyJS** for JavaScript or **CSSNano** for CSS.
--   Implement minification in your build process using tools like **Webpack** or **Gulp**.
-
-**Example**:
-
-Configure **Gulp** to automate the minification of CSS and JavaScript files before deployment.
-
-* * *
-
-### 4\. Security
-
-#### 4.1 HTTPS implementation
-
-Using **HTTPS** is essential for website security and is a ranking factor.
-
-**Check**: Ensure the site uses the HTTPS protocol.
-
-**Identify Issues**:
-
--   Look for **mixed content** warnings indicating insecure elements on pages.
--   Use **Why No Padlock** to identify non-secure content.
-
-**Address**:
-
--   Install an **SSL certificate** from a trusted authority like **Let’s Encrypt** or **Comodo**.
--   Redirect all HTTP traffic to HTTPS using 301 redirects.
--   Update all internal links and resources to use HTTPS.
-
-**Example**:
-
-In `.htaccess`, force HTTPS:
+Every page should load over HTTPS with no mixed-content warnings. Check with Why No Padlock or the browser console, redirect all HTTP traffic to HTTPS with a 301, and update internal links and resources to `https://`:
 
 ```
 RewriteEngine On
@@ -451,45 +187,11 @@ RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://yourdomain.com/$1 [R=301,L]
 ```
 
-#### 4.2 SSL certificate validity
+An expired certificate triggers browser warnings that stop visitors cold. Check validity with the [SSL Server Test](https://www.ssllabs.com/ssltest//index.html) by Qualys SSL Labs, and automate renewal (Certbot for Let's Encrypt certificates).
 
-An expired or invalid SSL certificate can cause security warnings.
+## Structured data
 
-**Check**: Ensure the SSL certificate is valid and not expired.
-
-**Identify Issues**:
-
--   Use **[SSL Server Test](https://www.ssllabs.com/ssltest//index.html)** by **Qualys SSL Labs** to check the certificate’s status.
-
-**Address**:
-
--   Renew SSL certificates before they expire.
--   Set up automatic renewals if possible.
-
-**Example**:
-
-Use **Certbot** to automatically renew Let’s Encrypt certificates.
-
-### 5\. Structured data and markup
-
-#### 5.1 Schema.Org implementation
-
-**Structured data** helps search engines understand your content and can enhance search listings.
-
-**Check**: Implement structured data using **Schema.org** vocabulary.
-
-**Identify Issues**:
-
--   Use **Google’s Rich Results Test** to detect errors in markup.
-
-**Address**:
-
--   Add appropriate schema types like `Article`, `Product`, `BreadcrumbList`.
--   Ensure the markup is correctly formatted and valid.
-
-**Example**:
-
-Implement FAQ schema:
+Structured data helps search engines understand the page and can earn rich results. Add the types that match the content (`Article`, `Product`, `BreadcrumbList`, `Organization`), preferably as JSON-LD, and validate with Google's Rich Results Test and the Schema Markup Validator. Microdata works too, but mixing formats across templates makes errors harder to trace, so pick one and apply it consistently.
 
 ```
 {
@@ -498,581 +200,104 @@ Implement FAQ schema:
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is Technical SEO?",
+      "name": "What is technical SEO?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Technical SEO refers to website and server optimizations that help search engine spiders crawl and index your site more effectively."
+        "text": "Technical SEO covers the website and server optimizations that help search engines crawl and index a site."
       }
     }
   ]
 }
 ```
 
-#### 5.2 Open graph tags
-
-**Open Graph (OG) tags** improve how your content appears when shared on social media platforms.
-
-**Check**: Ensure OG tags are correctly implemented.
-
-**Identify Issues**:
-
--   Missing or incorrect OG tags can lead to poor social media previews.
-
-**Address**:
-
--   Add OG meta tags like `<meta property="og:title" content="Your Page Title" />`.
--   Test with **Facebook Sharing Debugger** and **Twitter Card Validator**.
-
-**Example**:
-
-Include an OG image:
+Open Graph tags control how a page looks when shared on social platforms. Every page needs at least `og:title`, `og:description` and `og:image`:
 
 ```
 <meta property="og:image" content="https://yourdomain.com/images/preview.jpg" />
 ```
 
-#### 5.3 Microdata
+Check previews with Facebook's Sharing Debugger and LinkedIn's Post Inspector.
 
-**Microdata** provides additional context to search engines about your content.
+## Duplicate and thin content
 
-**Check**: Implement microdata according to the HTML5 specification.
-
-**Identify Issues**:
-
--   Inconsistent or missing microdata across pages.
-
-**Address**:
-
--   Use appropriate microdata items and properties.
--   Ensure consistency in implementation.
-
-**Example**:
-
-Mark up a product:
-
-```
-<div itemscope itemtype="https://schema.org/Product">
-  <span itemprop="name">Blue Widget</span>
-  <img itemprop="image" src="blue-widget.jpg" alt="Blue Widget">
-  <span itemprop="description">A high-quality blue widget.</span>
-  <span itemprop="price">£19.99</span>
-</div>
-```
-
-### 6\. Duplicate content issues
-
-#### 6.1 Canonical URLs
-
-Prevent duplicate content issues by specifying the preferred version of a page with **canonical URLs**.
-
-**Check**: Ensure canonical tags are correctly implemented on all pages.
-
-**Identify Issues**:
-
--   Duplicate content appearing under multiple URLs, such as with and without `www` or trailing slashes.
-
-**Address**:
-
--   Set canonical URLs to the preferred version of each page.
--   Consistently use the same URL formats in internal links.
-
-**Example**:
-
-In the `<head>` section:
+When the same content lives at several URLs (with and without `www`, with a trailing slash or a tracking parameter), a canonical tag names the version to index. Check every template outputs a canonical, that it points at a live, indexable URL, and that internal links use the same format:
 
 ```
 <link rel="canonical" href="https://www.yourdomain.com/page" />
 ```
 
-#### 6.2 Content duplication within site
+If `yourdomain.com/page` and `yourdomain.com/page?ref=twitter` show the same content, both should declare `yourdomain.com/page` as canonical.
 
-Duplicate content within your site can confuse search engines and dilute ranking signals.
-
-**Check**: Identify and eliminate duplicate content.
-
-**Identify Issues**:
-
--   Use tools like **Copyscape** or **Siteliner** to find duplicate content.
-
-**Address**:
-
--   Merge similar pages into one complete page.
--   Use 301 redirects for the outdated pages.
-
-**Example**:
-
-Combine “Blue Widget Info” and “Blue Widget Details” into a single, detailed page.
-
-#### 6.3 URL parameters
-
-Unmanaged **URL parameters** can create multiple URLs with identical content.
-
-**Check**: Manage URL parameters to prevent duplication.
-
-**Identify Issues**:
-
--   URLs differing only by parameters indexing the same content.
-
-**Address**:
-
--   Use `rel="canonical"` tags to point to the main version.
--   Set parameter handling in **Google Search Console**.
-
-**Example**:
-
-In `robots.txt`, exclude session IDs:
+Google removed the URL Parameters tool from Search Console in April 2022, so parameter handling now happens on the site itself: canonical tags on parameter URLs, consistent internal links, and robots.txt rules for parameters that should never be crawled, such as session IDs:
 
 ```
 Disallow: /*?sessionID=
 ```
 
-### 7\. Broken links and errors
+> Google shut down the URL Parameters tool on 26 April 2022, saying only about 1% of configurations in it were useful for crawling.
+> Source: [Google Search Central Blog, "Spring cleaning: the URL Parameters tool"](https://developers.google.com/search/blog/2022/03/url-parameters-tool-deprecated)
 
-#### 7.1 404 Errors
+Siteliner and Copyscape find duplicated text within a site. Merge near-identical pages into one stronger page and 301 the others to it. Apply the same fix to thin pages with little useful content and to keyword cannibalisation, where two pages compete for the same query: two articles both targeting "SEO best practices" become one complete guide.
 
-Broken pages result in a poor user experience and wasted crawl budget.
+Review older content on a schedule and refresh anything outdated, such as a trends article still naming a year that has passed.
 
-**Check**: Identify all pages returning **404 errors**.
+## Errors and broken links
 
-**Identify Issues**:
+| Problem | What it tells you | Fix |
+| --- | --- | --- |
+| 404 on a page with links or traffic | Content moved or deleted without a redirect | 301 to the closest relevant page |
+| 404 on a page with no value | Genuinely gone | Leave it or return 410; remove internal links to it |
+| Broken outbound link | The external resource moved or died | Update to a current source or remove |
+| 5xx server error | Server misconfiguration or overload | Check server logs, fix the error, upgrade hosting if it recurs |
 
--   Crawl the site with tools like **Screaming Frog** to find broken pages.
+Crawl with Screaming Frog, check the Page indexing report in Search Console, and use a link checker such as Dead Link Checker for outbound links. A custom 404 page with a search bar and links to popular pages keeps visitors who hit a dead end.
 
-**Address**:
+## Metadata and image SEO
 
--   Fix or redirect broken links to relevant content.
--   Implement custom 404 pages with helpful navigation options.
+Every indexable page needs a unique title that leads with its main keyword and stays under about 60 characters so it does not truncate, for example "Blue widgets: quality widgets with fast delivery". Meta descriptions should be unique, describe the page accurately and give the searcher a reason to click. Audit tools list missing and duplicate titles and descriptions in one report.
 
-**Example**:
-
-A custom 404 page might include:
-
--   A search bar.
--   Links to popular pages.
--   A friendly message like “Sorry, we couldn’t find that page.”
-
-#### 7.2 Broken internal and external links
-
-Broken links affect user experience and can harm SEO.
-
-**Check**: Ensure all links lead to valid pages.
-
-**Identify Issues**:
-
--   Use link checkers like **Dead Link Checker** or **Broken Link Checker**.
-
-**Address**:
-
--   Update or remove broken links.
--   Replace outdated external links with up-to-date resources.
-
-**Example**:
-
-Replace a broken link to an old resource with a link to a current, relevant article.
-
-#### 7.3 Server errors (5xx)
-
-Server errors indicate issues with your website’s server configuration or resources.
-
-**Check**: Identify any pages returning **server errors** like 500 Internal Server Error.
-
-**Identify Issues**:
-
--   Monitor server logs.
--   Use crawl tools to detect errors.
-
-**Address**:
-
--   Resolve server configuration issues.
--   Optimize server resources to handle traffic efficiently.
-
-**Example**:
-
-If experiencing **503 Service Unavailable** errors, consider upgrading your hosting plan.
-
-### 8\. Metadata
-
-#### 8.1 Title tags
-
-**Title tags** are crucial for SEO and user click-through rates.
-
-**Check**: Ensure unique, descriptive title tags on all pages.
-
-**Identify Issues**:
-
--   Use SEO auditing tools to find duplicate or missing title tags.
-
-**Address**:
-
--   Build unique titles that include target keywords.
--   Keep titles under 60 characters to prevent truncation in search results.
-
-**Example**:
-
-“Buy Blue Widgets | High-Quality Widgets at Great Prices”
-
-#### 8.2 Meta descriptions
-
-**Meta descriptions** summarise the page content in search results.
-
-**Check**: Ensure unique meta descriptions for each page.
-
-**Identify Issues**:
-
--   Missing or duplicate meta descriptions.
-
-**Address**:
-
--   Write compelling descriptions that encourage clicks.
--   Include target keywords naturally.
-
-**Example**:
-
-“Discover our range of blue widgets. Shop now for quality products and fast delivery!”
-
-#### 8.3 Header tags (H1, H2, etc.)
-
-Proper use of **header tags** helps structure content and signals importance to search engines.
-
-**Check**: Verify the proper use of header hierarchy.
-
-**Identify Issues**:
-
--   Multiple H1 tags on a single page.
--   Skipped heading levels (e.g., H1 followed by H3 without an H2).
-
-**Address**:
-
--   Use one H1 tag per page that includes the main keyword.
--   Structure content with H2-H6 tags logically.
-
-**Example**:
+Use one `h1` per page containing the main keyword, then `h2` and `h3` in order without skipping levels:
 
 ```
-<h1>Technical SEO Audit Checklist</h1>
-<h2>Crawlability and Indexability</h2>
-<h3>Robots.txt File</h3>
+<h1>Technical SEO audit checklist</h1>
+<h2>Crawlability and indexability</h2>
+<h3>Robots.txt</h3>
 ```
 
-### 9\. International SEO (if applicable)
-
-#### 9.1 hreflang tags
-
-**Hreflang tags** help search engines serve the correct language or regional URL to users.
-
-**Check**: Implement hreflang tags for multilingual sites.
-
-**Identify Issues**:
-
--   Incorrect language or region codes.
--   Missing return tags.
-
-**Address**:
-
--   Use `hreflang="en-gb"` for British English or `hreflang="en-us"` for American English.
--   Ensure that each hreflang tag references all language versions, including itself.
-
-**Example**:
-
-```
-<link rel="alternate" href="https://yourdomain.com/en-gb/" hreflang="en-gb" />
-<link rel="alternate" href="https://yourdomain.com/en-us/" hreflang="en-us" />
-```
-
-#### 9.2 Regional and language settings
-
-Geotargeting helps focus your site on a specific country or region.
-
-**Check**: Set the preferred country in **Google Search Console**.
-
-**Identify Issues**:
-
--   Incorrect geographic targeting settings.
--   Use of generic TLDs when a country-specific TLD might be more appropriate.
-
-**Address**:
-
--   In **Google Search Console**, navigate to **Settings > International Targeting**.
--   Use local domain extensions like `.co.uk` for the UK when appropriate.
-
-**Example**:
-
-For a UK-focused site, set the target country to the United Kingdom in GSC.
-
-### 10\. Image SEO
-
-#### 10.1 Alt text
-
-**Alt text** provides descriptions of images for search engines and improves accessibility.
-
-**Check**: Ensure all images have descriptive alt attributes.
-
-**Identify Issues**:
-
--   Missing or non-descriptive alt text.
-
-**Address**:
-
--   Add meaningful alt text that describes the image content.
--   Avoid keyword stuffing.
-
-**Example**:
-
-```
-<img src="blue-widget.jpg" alt="Blue Widget available for purchase">
-```
-
-#### 10.2 Image sitemaps
-
-An **image sitemap** helps search engines find and index your images.
-
-**Check**: Create and submit an image sitemap.
-
-**Identify Issues**:
-
--   Important images not appearing in image search results.
-
-**Address**:
-
--   Include images in your existing sitemap or create a separate image sitemap.
--   Submit it to search engines via their webmaster tools.
-
-**Example**:
+Every meaningful image needs alt text that describes it, without stuffing keywords: `alt="Blue widget with chrome handle"`. Rename generic files such as `IMG_1234.jpg` to descriptive, hyphenated names like `blue-widget-chrome-handle.jpg`. For image-heavy sites, add image entries to the sitemap:
 
 ```
 <url>
   <loc>https://yourdomain.com/page</loc>
   <image:image>
     <image:loc>https://yourdomain.com/images/blue-widget.jpg</image:loc>
-    <image:caption>Blue Widget</image:caption>
   </image:image>
 </url>
 ```
 
-#### 10.3 Image file names
+## International SEO
 
-Descriptive **image file names** improve image SEO.
+Multilingual and multi-regional sites need hreflang annotations so Google serves each user the right version. Check for wrong language or region codes (`en-gb`, not `en-uk`), missing return tags and versions that do not reference themselves:
 
-**Check**: Ensure images have SEO-friendly file names.
+```
+<link rel="alternate" href="https://yourdomain.com/en-gb/" hreflang="en-gb" />
+<link rel="alternate" href="https://yourdomain.com/en-us/" hreflang="en-us" />
+<link rel="alternate" href="https://yourdomain.com/" hreflang="x-default" />
+```
 
-**Identify Issues**:
+Search Console's International Targeting report and its country setting were removed in 2022. Country targeting now comes from hreflang, a country-code domain such as `.co.uk` where that suits the business, and local signals in the content itself. Our guide to [technical SEO for multilingual websites](/blog/technical-seo-for-multilingual-websites/) covers the setup in detail.
 
--   Generic file names like `IMG_1234.jpg`.
+## Tracking and monitoring
 
-**Address**:
+Universal Analytics stopped processing data in July 2023, so any site still carrying only a `UA-` tag is collecting nothing. Confirm Google Analytics 4 (or your chosen alternative) fires on every page, ideally through Google Tag Manager, and verify it with Tag Assistant. Then set up [analytics and conversion tracking](/services/conversion-tracking/) for the actions that matter: form submissions, downloads, calls and key button clicks.
 
--   Rename images using descriptive keywords separated by hyphens.
+Then make these reports part of every audit and every month afterwards:
 
-**Example**:
+- **Sitemaps**: processing errors and the count of discovered URLs.
+- **Page indexing**: why pages are not indexed, and whether that is intended.
+- **Crawl stats**: sudden drops or spikes, which usually point to server errors or a robots.txt change.
+- **Manual actions**: any penalty for guideline violations. Fix the cause (for unnatural links, remove or disavow them), then submit a reconsideration request.
 
-Rename `IMG_1234.jpg` to `blue-widget-high-quality.jpg`.
+## Where to start
 
-### 11\. Analytics and tracking
-
-#### 11.1 Proper implementation of analytics tools
-
-Accurate data is essential for informed decision-making.
-
-**Check**: Ensure [analytics tracking](/services/technical-seo/) code is present on all pages.
-
-**Identify Issues**:
-
--   Missing tracking code on some pages.
-
-**Address**:
-
--   Add analytics scripts before the closing `</head>` tag.
--   Verify installation using tools like **Google Tag Assistant**.
-
-**Example**:
-
-Insert the Google Analytics code snippet provided in your GA account into your site’s header.
-
-#### 11.2 Event tracking
-
-**Event tracking** allows you to measure specific user interactions.
-
-**Check**: Implement event tracking for key user actions.
-
-**Identify Issues**:
-
--   Important interactions not being tracked, such as form submissions or downloads.
-
-**Address**:
-
--   Use **Google Tag Manager** to set up event tracking without altering site code.
--   Define events for actions like clicks, scrolls, and form submissions.
-
-**Example**:
-
-Set up an event to track when users click the “Subscribe” button.
-
-### 12\. Hosting and server issues
-
-#### 12.1 Uptime and downtime monitoring
-
-Website availability is critical for user experience and SEO.
-
-**Check**: Monitor site uptime using services like **UptimeRobot** or **Pingdom**.
-
-**Identify Issues**:
-
--   Frequent or prolonged downtimes.
-
-**Address**:
-
--   Upgrade hosting plans or switch to a more reliable provider.
--   Optimize server configurations and ensure adequate resources.
-
-**Example**:
-
-If your site experiences downtime during peak hours, consider upgrading to a dedicated server.
-
-#### 12.2 Server response times
-
-Fast server response times improve user experience and SEO.
-
-**Check**: Measure **Time To First Byte (TTFB)** using tools like **WebPageTest**.
-
-**Identify Issues**:
-
--   High TTFB indicating slow server responses.
-
-**Address**:
-
--   Use a **Content Delivery Network (CDN)** like **Cloudflare**.
--   Optimize server-side scripts and database queries.
-
-**Example**:
-
-Implement caching mechanisms like **Redis** to reduce database load.
-
-### 13\. Content issues
-
-#### 13.1 Thin content
-
-Thin content provides little value to users and can negatively impact SEO.
-
-**Check**: Identify pages with low word counts or little useful information.
-
-**Identify Issues**:
-
--   Pages that are short and lack depth.
-
-**Address**:
-
--   Enrich content with detailed, valuable information.
--   Combine thin pages into complete resources.
-
-**Example**:
-
-Expand a brief product description into a detailed page with specifications, reviews, and FAQs.
-
-#### 13.2 Content relevance
-
-Content should align with user intent and target keywords.
-
-**Check**: Ensure content is relevant and up-to-date.
-
-**Identify Issues**:
-
--   Outdated information or content that doesn’t meet user needs.
-
-**Address**:
-
--   Update content regularly.
--   Align topics with current user search queries and trends.
-
-**Example**:
-
-Update an article about “SEO Trends 2021” to “SEO Trends 2024” with the latest insights.
-
-#### 13.3 Keyword cannibalisation
-
-Avoid having multiple pages competing for the same keyword.
-
-**Check**: Identify instances of keyword cannibalisation.
-
-**Identify Issues**:
-
--   Overlapping keyword targets causing internal competition.
-
-**Address**:
-
--   Consolidate similar content into a single, authoritative page.
--   Differentiate keyword strategies for different pages.
-
-**Example**:
-
-Merge two articles both targeting “Best SEO Practices” into one complete guide.
-
-### 14\. Miscellaneous
-
-#### 14.1 Sitemap submission to Google Search Console
-
-Ensure search engines are aware of your sitemap.
-
-**Check**: Submit your sitemap to **Google Search Console**.
-
-**Identify Issues**:
-
--   Errors in sitemap processing or unindexed pages.
-
-**Address**:
-
--   Fix errors such as incorrect URLs or syntax issues.
--   Resubmit the sitemap after corrections.
-
-**Example**:
-
-After correcting errors, resubmit `sitemap.xml` in GSC under **Sitemaps**.
-
-#### 14.2 Monitoring crawl stats in Google Search Console
-
-Regularly review crawl statistics for insights.
-
-**Check**: Monitor **crawl stats** in GSC.
-
-**Identify Issues**:
-
--   Unusual spikes or drops in crawl rates.
-
-**Address**:
-
--   Investigate server logs for errors.
--   Optimize the crawl budget by fixing issues like duplicate content.
-
-**Example**:
-
-If crawl rate drops, check for increased server errors or robots.txt blocking.
-
-#### 14.3 Checking for manual actions or penalties
-
-Manual actions can significantly impact your site’s visibility.
-
-**Check**: Review **Manual Actions** in GSC.
-
-**Identify Issues**:
-
--   Notifications of penalties due to guideline violations.
-
-**Address**:
-
--   Resolve issues as per Google’s guidelines.
--   Submit a reconsideration request after fixing problems.
-
-**Example**:
-
-If penalised for unnatural links, remove or disavow the links, then request reconsideration.
-
-## Conclusion
-
-Conducting regular **[technical SEO audits](/blog/technical-seo-for-multilingual-websites/)** is essential for maintaining and improving a website’s performance in search engines.
-
-By systematically addressing each element in this checklist, web agencies can ensure their clients’ websites are optimized for both search engines and users. Implementing these **best practices** leads to better visibility, higher rankings, and an improved user experience.
-
-**Next Steps**:
-
--   **Prioritise issues** based on their impact and the effort required to fix them.
--   Develop a **timeline** for addressing the identified issues.
--   Schedule **regular audits** to maintain optimal technical health and stay ahead of potential problems.
+Fix in the order of the diagram at the top: anything that stops crawling or indexing first, then speed and rendering, then metadata and content. Within each stage, rank issues by impact and effort, put the fixes on a dated timeline, and re-run the audit quarterly so new problems are caught while they are still small.
