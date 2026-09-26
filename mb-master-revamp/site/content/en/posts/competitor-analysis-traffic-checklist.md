@@ -99,7 +99,7 @@ You can no longer ignore which sites get cited inside AI responses, because a gr
 
 To build the real list, open Ahrefs or Semrush, run the Organic Competitors report, then cross check against G2, Capterra and LinkedIn.
 
-We usually finish with a quick browser scan using a handful of [SEO Chrome extensions](https://mikebastin.com/chrome-extensions-for-seo/) to see who is doing what at a technical level.
+We usually finish with a quick browser scan using a handful of [SEO Chrome extensions](/blog/chrome-extensions-for-seo/) to see who is doing what at a technical level.
 
 ## Phase 2: Map Traffic Sources, Not Just Totals
 
@@ -142,7 +142,7 @@ If you are auditing a competitor that earns most of its traffic in Germany or Sp
 
 The combined view is usually closer to reality than either tool alone.
 
-For everything strategic, anchor that picture in a real [targeted content strategy](https://mikebastin.com/how-to-create-a-targeted-content-strategy/) rather than a pile of CSVs.
+For everything strategic, anchor that picture in a real [targeted content strategy](/blog/how-to-create-a-targeted-content-strategy/) rather than a pile of CSVs.
 
 ## Phase 3: Read Their Content Like an Editor, Not a Bot
 
@@ -166,7 +166,7 @@ It is not.
 
 It is a content liability that costs them rankings every time Google rolls out a quality update.
 
-You should also evaluate [search intent mapping](https://mikebastin.com/what-is-search-intent-mapping/) on their best pages.
+You should also evaluate [search intent mapping](/blog/what-is-search-intent-mapping/) on their best pages.
 
 If they dominate “how-to” queries but have nothing strong on “pricing”, “vs” or “alternatives” terms, the bottom of funnel is wide open for you.
 
@@ -196,7 +196,7 @@ When auditing a competitor’s AI footprint, look for four structural patterns t
 
 If a competitor is doing three of those four, they will keep showing up in AI answers until you build something more useful.
 
-For international queries you also need to check how they handle [technical SEO for multilingual websites](https://mikebastin.com/technical-seo-for-multilingual-websites/), including hreflang, localized schema and language-specific structured data.
+For international queries you also need to check how they handle [technical SEO for multilingual websites](/blog/technical-seo-for-multilingual-websites/), including hreflang, localized schema and language-specific structured data.
 
 A clean multilingual setup is a moat.
 
@@ -240,9 +240,9 @@ Tidy up social referral and improve internal linking from blog to service pages.
 
 Broader brand signals and stronger topical authority.
 
-If you want a deeper view of where SEO is heading and how to plan around it, our piece on the [future of SEO](https://mikebastin.com/future-of-seo/) goes into more detail.
+If you want a deeper view of where SEO is heading and how to plan around it, our piece on the [future of SEO](/blog/future-of-seo/) goes into more detail.
 
-For day to day execution, a small list of [long tail keyword](https://mikebastin.com/long-tail-keywords/) wins beats a vague “let’s improve content” line on a slide.
+For day to day execution, a small list of [long tail keyword](/services/multilingual-seo/) wins beats a vague “let’s improve content” line on a slide.
 
 ## Free Tools for Each Phase of the Audit
 
@@ -288,9 +288,9 @@ Direct keyword translation is a trap.
 
 The way Spanish, German, French or Dutch users phrase queries is rarely a literal translation of the English equivalent.
 
-If you need to audit competitors in those markets, either work with a bilingual SEO or use proper [keyword research](https://mikebastin.com/services/keyword-research/) built around local intent rather than English seed lists.
+If you need to audit competitors in those markets, either work with a bilingual SEO or use proper [keyword research](/services/technical-seo/) built around local intent rather than English seed lists.
 
-For German specifically, our notes on [German SEO best practices](https://mikebastin.com/german-seo-best-practices/) cover the differences that matter.
+For German specifically, our notes on [German SEO best practices](/blog/german-seo-best-practices/) cover the differences that matter.
 
 ### How do we find competitors we did not know about?
 
@@ -308,7 +308,7 @@ An SEO competitor outranks you for the queries that matter to your business, reg
 
 A news site can be your biggest SEO competitor for the keyword “best translation services 2026” without ever offering translation.
 
-Treating those two groups the same is a classic mistake, and it is why so many [competitor analysis](https://mikebastin.com/competitor-analysis/) projects produce reports that look thorough and change nothing.
+Treating those two groups the same is a classic mistake, and it is why so many [competitor analysis](/blog/competitor-analysis/) projects produce reports that look thorough and change nothing.
 
 ## Ready to Turn Competitor Data Into a Real Plan?
 
@@ -320,9 +320,9 @@ We run competitor traffic audits across multilingual markets, mostly for B2B ser
 
 Every audit ends with a six-line plan, not an 80-page deck.
 
-**[Get in touch to discuss your competitive strategy](https://mikebastin.com/contact-us/)**
+**[Get in touch to discuss your competitive strategy](/contact/)**
 
-If you want more context before talking, our breakdown of [how AI is changing SEO](https://mikebastin.com/how-ai-is-revolutionising-seo-strategies/) and our [analytics and tracking services](https://mikebastin.com/services/analytics-and-tracking/) page give you a clearer picture of how we work and where we add value.
+If you want more context before talking, our breakdown of [how AI is changing SEO](/blog/how-ai-is-revolutionising-seo-strategies/) and our [analytics and tracking services](/services/technical-seo/) page give you a clearer picture of how we work and where we add value.
 
 Our own work does not stop at SEO and translation. We also run [Globaprom](https://globaprom.com), where we build custom AI-assisted software and automation tools for logistics, e-commerce and multilingual businesses.
 

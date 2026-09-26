@@ -7,6 +7,7 @@ import ServiceProof from "@/components/ServiceProof";
 import SiteFooter from "@/components/SiteFooter";
 import Expandables from "@/components/Expandables";
 import JsonLd from "@/components/JsonLd";
+import ServiceHeroArt from "@/components/ServiceHeroArt";
 import { absorbedProse } from "@/lib/absorbed";
 import { SERVICES, getService, CLUSTER_INLINE } from "@/lib/services";
 import { SITE_URL, breadcrumbSchema, serviceSchema } from "@/lib/schema";
@@ -112,7 +113,8 @@ export default async function ServicePage({
       />
       {/* ============ HERO ============ */}
       <section className="band band-a grain relative overflow-hidden pb-[clamp(56px,8vw,100px)] pt-[clamp(96px,14vw,160px)]">
-        <div className="shell relative">
+        <div className="shell relative grid items-start gap-x-12 lg:grid-cols-[1fr_auto]">
+        <div>
           <Reveal>
             <Link href="/services/" className="ulink mb-8 inline-block text-[.9rem]" style={{ color: "var(--dim)" }}>
               All services
@@ -159,6 +161,12 @@ export default async function ServicePage({
               <ServiceProof slug={service.slug} />
             </div>
           </Reveal>
+        </div>
+        {/* Desktop only: below lg the hero is already a long column of
+            text and proof, and the art would push the lede off screen. */}
+        <div className="hidden w-[min(360px,30vw)] lg:mt-24 lg:block">
+          <ServiceHeroArt slug={service.slug} />
+        </div>
         </div>
       </section>
 

@@ -81,7 +81,7 @@ Avoid US idioms and cultural references ("touch base," "circle back," "home run,
 
 ## 6. Links
 
-- **Never remove a live external link during a rewrite.** A link stays unless the target has genuinely disappeared (404/410 or the host no longer resolves), is clearly spam, or points at a direct competitor. "It reads like an insertion" or "it doesn't add much editorially" are not valid reasons to cut it — some links are paid placements or long-standing partner relationships, and removing one destroys value invisibly. If a rewrite touches a paragraph containing a link, carry the link forward into the new text rather than dropping it.
+- **Never remove a live external link during a rewrite.** A link stays unless the target has genuinely disappeared (404/410 or the host no longer resolves) or is clearly spam. **A competitor link stays too** (owner, 26 September 2026: "keep the links"), after six were cut in a sourcing pass and had to be restored. A dead link is swapped for its live equivalent where one exists, not dropped. "It reads like an insertion" or "it doesn't add much editorially" are not valid reasons to cut it — some links are paid placements or long-standing partner relationships, and removing one destroys value invisibly. If a rewrite touches a paragraph containing a link, carry the link forward into the new text rather than dropping it.
 - When a link's target moves, **repoint it** to the correct new destination rather than deleting it, and verify the redirect actually lands somewhere relevant.
 - **Never fabricate a link destination.** Confirm a target page genuinely exists before linking to it.
 
@@ -107,7 +107,7 @@ Before publishing or approving UK/EU-facing copy:
 - [ ] Dates in DD Month YYYY; currency is £ or € as appropriate; units are metric; times are 24-hour
 - [ ] Every statistic has its source in an inline blockquote, and the period/cohort match the source
 - [ ] No claimed certification, accreditation, or client-track-record statement that isn't independently grounded
-- [ ] No external link removed without a genuine 404/spam/competitor reason
+- [ ] No external link removed without a genuine 404 or spam reason (competitor links stay)
 - [ ] No hard-coded strings that should be localised
 - [ ] Internal link anchors are 2–4 term expressions, varied across pages
 - [ ] Links and CTAs actually go where their label promises

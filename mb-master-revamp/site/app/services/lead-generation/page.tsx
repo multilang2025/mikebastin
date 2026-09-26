@@ -7,6 +7,7 @@ import SiteFooter from "@/components/SiteFooter";
 import JsonLd from "@/components/JsonLd";
 import { getService } from "@/lib/services";
 import { SITE_URL, breadcrumbSchema, serviceSchema } from "@/lib/schema";
+import ServiceHeroArt from "@/components/ServiceHeroArt";
 
 // The Service entry for this slug lives in lib/services.ts, and this route
 // reads its h1, subhead, lede and meta fields from there rather than
@@ -120,7 +121,8 @@ export default function LeadGenerationPage() {
 
       {/* ============ HERO: their situation ============ */}
       <section className="band band-a grain relative overflow-hidden pb-[clamp(56px,8vw,100px)] pt-[clamp(96px,14vw,160px)]">
-        <div className="shell relative">
+        <div className="shell relative grid items-start gap-x-12 lg:grid-cols-[1fr_auto]">
+        <div>
           <Reveal>
             <p className="eyebrow mb-8">{service.angle}</p>
           </Reveal>
@@ -149,6 +151,10 @@ export default function LeadGenerationPage() {
               </Link>
             </div>
           </Reveal>
+        </div>
+        <div className="hidden w-[min(360px,30vw)] lg:mt-24 lg:block">
+          <ServiceHeroArt slug="lead-generation" />
+        </div>
         </div>
       </section>
 

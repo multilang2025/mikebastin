@@ -5,6 +5,8 @@ import PostImage from "@/components/PostImage";
 import Reveal from "@/components/Reveal";
 import SiteFooter from "@/components/SiteFooter";
 import JsonLd from "@/components/JsonLd";
+import TableOfContents from "@/components/TableOfContents";
+import { addHeadingIds } from "@/lib/toc";
 import {
   getPosts,
   getPost,
@@ -64,6 +66,10 @@ export default async function BlogPostPage({
   const service = post.relatedService ? getService(post.relatedService) : undefined;
   const related = getRelatedPosts(post.slug);
   const url = `${SITE_URL}/blog/${post.slug}/`;
+  // Below three headings, an outline just repeats the page back at the
+  // reader rather than helping them jump around it.
+  const { html: bodyHtml, items: tocItems } = addHeadingIds(post.html);
+  const showToc = tocItems.length >= 3;
 
   // Bands alternate strictly A/B/A/B (HANDOFF.md §23): the hero is always
   // band-a, and every section after it flips, so no two same-surface bands
@@ -163,13 +169,31 @@ export default async function BlogPostPage({
 
       {/* ============ BODY ============ */}
       <section className={`band band-${bodyBand} py-[clamp(48px,7vw,90px)]`}>
-        <div className="shell">
-          <Reveal>
-            <div
-              className="post-body max-w-[68ch] text-[1.05rem] leading-[1.7]"
-              dangerouslySetInnerHTML={{ __html: post.html }}
-            />
-          </Reveal>
+        {/* On desktop the outline moves into the empty column beside the
+            text and stays in view; below lg it sits above the body. The
+            rail is not inside a Reveal, whose transform would break the
+            sticky positioning. */}
+        <div className={showToc ? "shell lg:grid lg:grid-cols-[minmax(0,68ch)_minmax(0,1fr)] lg:gap-x-16" : "shell"}>
+          <div className="min-w-0">
+            {showToc && (
+              <div className="lg:hidden">
+                <Reveal>
+                  <TableOfContents items={tocItems} />
+                </Reveal>
+              </div>
+            )}
+            <Reveal i={showToc ? 1 : 0}>
+              <div
+                className="post-body max-w-[68ch] text-[1.05rem] leading-[1.7]"
+                dangerouslySetInnerHTML={{ __html: bodyHtml }}
+              />
+            </Reveal>
+          </div>
+          {showToc && (
+            <aside className="hidden lg:block">
+              <TableOfContents items={tocItems} variant="rail" />
+            </aside>
+          )}
         </div>
       </section>
 
@@ -192,6 +216,7 @@ export default async function BlogPostPage({
                         slug={r.slug}
                         cluster={r.cluster}
                         className="aspect-[1200/630] w-full"
+                        sizes="(min-width: 1024px) 400px, (min-width: 640px) 50vw, 100vw"
                       />
                       <div className="flex flex-1 flex-col px-7 py-6">
                         <span className="ulink mb-2 text-[1.02rem] font-semibold leading-[1.3]">

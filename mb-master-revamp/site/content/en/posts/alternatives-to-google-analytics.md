@@ -8,44 +8,44 @@ type: "posts"
 group: "g009"
 wpId: 24844917
 date: "2024-10-10T09:19:53"
-modified: "2026-07-21T11:31:36"
+modified: "2026-09-26"
 sourceUrl: "https://mikebastin.com/alternatives-to-google-analytics/"
 excerpt: "Google Analytics alternatives that put privacy, simplicity and performance first, and which one fits which kind of site."
 ---
 
-## Balancing privacy and insights
+As digital privacy concerns grow and regulations tighten, many website owners are looking for alternatives to Google Analytics. Google’s platform has long been the industry standard, but newer options offer stronger privacy features, simpler interfaces, and specialised capabilities.
 
-As digital privacy concerns grow and regulations tighten, many website owners are seeking alternatives to Google Analytics.
+Here are some of the leading Google Analytics alternatives for 2026. Prices are each vendor’s published entry price when we checked on 26 September 2026, in the currency the vendor quotes; they change often, so confirm before you commit.
 
-While Google’s platform has long been the industry standard, newer options offer enhanced privacy features, simpler interfaces, and specialized capabilities.
+## Why consider an alternative?
 
-Let’s explore some of the leading Google Analytics alternatives for 2026.
-
-### Why consider an alternative?
-
-Before diving into the options, it’s worth understanding why you might want to switch:
+Before looking at the options, it’s worth understanding why you might want to switch:
 
 -   **Privacy concerns:** Google Analytics collects extensive user data, which may not align with privacy regulations like GDPR or your own ethical standards.
--   **Complexity:** GA4 can be overwhelming for casual users who just need basic traffic insights.
+-   **Complexity:** GA4, the only version left since Universal Analytics was switched off, can be overwhelming for casual users who just need basic traffic insights.
 -   **Performance impact:** Google’s tracking script can slow down your website.
 -   **Data ownership:** Some businesses prefer full control over their analytics data.
 
-### Top Google Analytics alternatives
+## Top Google Analytics alternatives
 
-#### 1\. Matomo (formerly piwik)
+### Matomo (formerly Piwik)
 
 [Matomo](https://matomo.org) is an open-source analytics platform that offers both self-hosted and cloud options.
 
 **Key features:**
 
--   100% data ownership
+-   Full ownership of your data
 -   GDPR compliant
 -   Similar functionality to Google Analytics
 -   Open-source with a large community
 
-**Pricing:** Free for self-hosted version; cloud version starts at around $23/month for up to 50,000 hits.
+**Pricing:** the self-hosted Community edition is free, and the cloud version starts at €29 a month.
 
-#### 2\. Plausible analytics
+> Matomo Cloud: from €29 a month for 50,000 hits a month. On-premise Community edition: free, with unlimited users and hits.
+>
+> Source: [Matomo, pricing page, 2026](https://matomo.org/pricing/)
+
+### Plausible Analytics
 
 [Plausible](https://plausible.io) is a lightweight, open-source alternative focused on simplicity and privacy.
 
@@ -54,13 +54,17 @@ Before diving into the options, it’s worth understanding why you might want to
 -   Cookie-free tracking
 -   GDPR, CCPA, and PECR compliant
 -   Simple, easy-to-understand dashboard
--   Extremely lightweight (<1KB) script
+-   Very lightweight script, which Plausible says is 54 times smaller than Google Analytics
 
-**Pricing:** Plans start at $9/month for up to 10,000 monthly pageviews.
+**Pricing:** priced in US dollars, from USD 9 a month.
 
-#### 3\. Fathom analytics
+> Starter plan: $9 a month for up to 10k monthly pageviews.
+>
+> Source: [Plausible Analytics, pricing, 2026](https://plausible.io/#pricing)
 
-[Fathom](https://usefathom.com/) is another privacy-focused analytics tool that emphasizes simplicity.
+### Fathom Analytics
+
+[Fathom](https://usefathom.com/) is another privacy-focused analytics tool that emphasises simplicity.
 
 **Key features:**
 
@@ -69,9 +73,13 @@ Before diving into the options, it’s worth understanding why you might want to
 -   Simple, clean interface
 -   Fast loading times
 
-**Pricing:** Plans start at $15/month for up to 100,000 monthly pageviews.
+**Pricing:** priced in US dollars, from USD 15 a month.
 
-#### 4\. Piwik PRO
+> $15 a month for up to 100,000 monthly page views.
+>
+> Source: [Fathom Analytics, pricing, 2026](https://usefathom.com/pricing)
+
+### Piwik PRO
 
 Not to be confused with Matomo (formerly Piwik), [Piwik PRO](https://piwik.pro/) is a separate company offering an advanced analytics suite.
 
@@ -81,9 +89,13 @@ Not to be confused with Matomo (formerly Piwik), [Piwik PRO](https://piwik.pro/)
 -   Suitable for industries with strict data regulations
 -   Thorough feature set similar to Google Analytics
 
-**Pricing:** Free core plan available; enterprise pricing by quote.
+**Pricing:** the free Core plan has been retired, so Piwik PRO is now a paid product after a 30-day free trial, with enterprise plans priced through sales.
 
-#### 5\. Mixpanel
+> The free trial lasts 30 days, and you can upgrade to a paying Business account at any time during your trial.
+>
+> Source: [Piwik PRO, Core upgrade page, 2026](https://piwik.pro/core-upgrade/). Background on the end of the free plan: [Brian Clifton, "Piwik PRO ends freemium", July 2025](https://brianclifton.com/blog/2025/07/03/piwik-pro-ends-freemium-my-take/)
+
+### Mixpanel
 
 [Mixpanel](https://mixpanel.com/) is geared towards product analytics but can also serve as a general web analytics tool.
 
@@ -91,11 +103,27 @@ Not to be confused with Matomo (formerly Piwik), [Piwik PRO](https://piwik.pro/)
 
 -   Detailed user behaviour tracking
 -   Advanced segmentation and funnel analysis
--   Real-time data and customizable reports
+-   Real-time data and customisable reports
 
-**Pricing:** Free plan covers up to 1 million monthly events; the Growth plan is usage-based at roughly $0.28 per 1,000 events beyond that (no longer a flat monthly fee), with custom Enterprise pricing for larger volumes.
+**Pricing:** a free plan, then a usage-based Growth plan (no longer a flat monthly fee), with custom Enterprise pricing for larger volumes.
 
-### Choosing the right alternative
+> Free plan: unlimited seats and up to 1M events a month. Enterprise: custom pricing.
+>
+> Source: [Mixpanel, pricing, 2026](https://mixpanel.com/pricing/)
+
+## The alternatives at a glance
+
+| Tool | Hosting | Cookie-free | Entry price, as published |
+|---|---|---|---|
+| Matomo | Self-hosted or cloud | Configurable | Free self-hosted; cloud from €29 a month |
+| Plausible | Cloud or self-hosted | Yes | From USD 9 a month |
+| Fathom | Cloud | Yes | From USD 15 a month |
+| Piwik PRO | Cloud | Configurable | 30-day free trial, then paid |
+| Mixpanel | Cloud | Configurable | Free up to 1M events a month |
+
+Prices are taken from each vendor’s pricing page on 26 September 2026 and sourced under each tool above.
+
+## Choosing the right alternative
 
 When selecting a Google Analytics alternative, consider these factors:
 
@@ -106,12 +134,8 @@ When selecting a Google Analytics alternative, consider these factors:
 5.  **Integration:** Check compatibility with your existing tools and platforms.
 6.  **Specific needs:** Some alternatives excel in areas like e-commerce or product analytics.
 
-### Conclusion
+## Where to start
 
-While Google Analytics remains a powerful tool, the growing array of alternatives offers compelling options for businesses prioritising privacy, simplicity, or specialized features.
+Google Analytics remains a powerful tool, but the growing range of alternatives offers compelling options for businesses prioritising privacy, simplicity, or specialised features. By carefully evaluating your needs and the available options, you can find an analytics solution that provides valuable insights while aligning with your privacy standards and technical requirements.
 
-By carefully evaluating your needs and the available options, you can find an analytics solution that provides valuable insights while aligning with your privacy standards and technical requirements.
-
-Remember, the best analytics tool is one that you’ll actually use consistently to improve your website and business performance.
-
-Take advantage of free trials and demos to find the right fit for your organisation.
+The best analytics tool is the one you’ll actually use consistently to improve your website and business performance. Take advantage of free trials and demos to find the right fit for your organisation.

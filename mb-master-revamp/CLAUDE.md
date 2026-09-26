@@ -57,8 +57,13 @@ Same model as valenciamove.com, which the owner already runs at larger scale
   `lib/blog-images.ts` maps slug to file,
   alt text and the legacy upload path it came from;
   `scripts/fetch-legacy-images.mjs` rebuilds `public/images/blog/` from
-  that map, writing `<slug>.webp` at 1200px and `<slug>-thumb.webp` at
-  160x84 for the footer. The derivatives are committed, so a build never
+  that map, writing `<slug>.webp` and `<slug>-thumb.webp` at
+  160x84 for the footer; `scripts/optimize-blog-images.mjs` then cuts
+  every `<slug>.webp` to exactly 1200x630 (the slot it is drawn in, crop
+  by sharp "attention" or the entry's `cropFocus`, never enlarged) and
+  writes a `<slug>-640.webp` sibling that `PostImage` serves through
+  `srcset` to cards and phones. `npm run images:blog` runs all three
+  (26 Sep 2026). The derivatives are committed, so a build never
   depends on the legacy site being up. `components/PostImage.tsx` picks
   the photograph, and falls back to `components/PostArt.tsx`, which draws
   a wave composition from a hash of the slug, for a post with no picture
@@ -240,6 +245,19 @@ A `term:` value in that file is exempt from the US-spelling lint. A
 keyword is research data quoted verbatim, and correcting it would not fix
 a spelling, it would falsify a figure.
 
+## Journal post structure
+
+`docs/BLOG-STRUCTURE.md` (owner request, 26 Sep 2026: tables,
+illustrations, shorter posts, a TOC). The heading structure *is* the TOC:
+every post with three or more h2/h3 gets an "On this page" outline, a
+sticky highlighted rail on desktop and a disclosure above the body below
+1024px. Posts target 1,200 to 2,200 words, carry one to three tables where
+content is tabular, and one or two inline SVG figures drawn only with the
+`fg-*` classes (no hard-coded colours, so they follow the theme toggle).
+`npm run lint:structure` reports the editorial side; `verify` fails only
+on a figure that would break the page (blank line inside, hex colour,
+missing aria-label).
+
 ## Copy has to sell, not only pass the protocol
 
 The Master Content Protocol and the `copy-editor` agent are all
@@ -273,7 +291,8 @@ is in the rest, which the Master Content Protocol never covered:
   figure, and the period and the cohort get checked, not only the number.
   49 English posts carry a percentage and 14 carry a `Source:` line.
 - **An external link is never removed during a rewrite** unless the target
-  is dead, spam or a competitor. There are four external destinations in
+  is dead or spam. Competitor links stay too (owner, 26 Sep 2026, "keep
+  the links", after a sourcing pass cut six and they were restored). There are four external destinations in
   the whole content set, two of them the sources for statistics on a
   cluster pillar, so one careless rewrite can strip the evidence and leave
   the claim.
@@ -285,7 +304,9 @@ is in the rest, which the Master Content Protocol never covered:
 - Sworn and certified translation is not one term across Europe. Use the
   local designation rather than a catch-all English gloss.
 - Never claim a certification, accreditation or track record the business
-  does not hold. Extends the existing ban on inventing a price, a
+  does not hold. No named testimonial or quote from a "real" customer or expat
+  unless the person is verifiable (owner, 26 Sep 2026: the unverified
+  expat testimonials in the Valencia posts were removed on that basis). Extends the existing ban on inventing a price, a
   guarantee, a turnaround or a client outcome.
 
 Split across `copy-editor` (language, sourcing, claims),

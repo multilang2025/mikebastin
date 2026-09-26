@@ -1,5 +1,5 @@
 ---
-words: 891
+words: 936
 title: "Transform your marketing strategy with a 360 marketing agency"
 slug: "360-marketing-agency"
 locale: "en"
@@ -7,22 +7,18 @@ type: "posts"
 group: "g003"
 wpId: 24847220
 date: "2024-12-22T12:09:44"
-modified: "2026-07-19T12:08:28"
+modified: "2026-09-26T12:00:00"
 sourceUrl: "https://mikebastin.com/360-marketing-agency/"
 excerpt: "Transform your brand’s digital presence with 360 Marketing Agency! From social media dominance to data-driven campaigns, we build strategies that deliver real results. Ready to improve your business to new heights? Contact us today and let’s make your marketing vision a reality."
 ---
 
-## Most “360 marketing agencies” sell a fantasy
-
-The phrase sells a clean idea: one partner, every channel, perfectly synced.
-
-After 25 years in this industry we have watched larger agencies sell that pitch hundreds of times.
+Most "360 marketing agencies" sell a fantasy: one partner, every channel, perfectly synced. After 25 years in this industry we have watched larger agencies sell that pitch hundreds of times.
 
 Most of the time the result is four siloed deliverables stapled together inside one retainer. Same client, four invoices, four KPIs, four audience definitions, nothing genuinely connected.
 
 The version of **360 marketing** that actually works is narrower than the brochure, and substantially more useful.
 
-### What integration looks like when it works
+## What integration looks like when it works
 
 Five things genuinely integrated, not seven things billed in parallel.
 
@@ -32,7 +28,27 @@ Five things genuinely integrated, not seven things billed in parallel.
 -   One tech stack the team can log into without asking for credentials.
 -   One person accountable when numbers move sideways.
 
-### What “360” usually is, and why it disappoints
+<figure class="post-fig">
+<svg viewBox="0 0 400 170" role="img" aria-label="Four channels, paid search, SEO, LinkedIn and events, all connected to one shared plan in the centre.">
+<line x1="120" y1="28" x2="200" y2="85" class="fg-line"/>
+<line x1="280" y1="28" x2="200" y2="85" class="fg-line"/>
+<line x1="120" y1="142" x2="200" y2="85" class="fg-line"/>
+<line x1="280" y1="142" x2="200" y2="85" class="fg-line"/>
+<rect x="20" y="10" width="100" height="36" rx="6" class="fg-box"/>
+<rect x="280" y="10" width="100" height="36" rx="6" class="fg-box"/>
+<rect x="20" y="124" width="100" height="36" rx="6" class="fg-box"/>
+<rect x="280" y="124" width="100" height="36" rx="6" class="fg-box"/>
+<circle cx="200" cy="85" r="42" class="fg-hot"/>
+<text x="200" y="91" text-anchor="middle" class="fg-strong">One plan</text>
+<text x="70" y="33" text-anchor="middle" class="fg-label">Paid search</text>
+<text x="330" y="33" text-anchor="middle" class="fg-label">SEO</text>
+<text x="70" y="147" text-anchor="middle" class="fg-label">LinkedIn</text>
+<text x="330" y="147" text-anchor="middle" class="fg-label">Events</text>
+</svg>
+<figcaption>Integration means every channel reads from the same strategy and measurement plan. Four teams reporting into one deck is not the same thing.</figcaption>
+</figure>
+
+## What “360” usually is, and why it disappoints
 
 Three failure patterns we see month after month.
 
@@ -40,9 +56,9 @@ Three failure patterns we see month after month.
 
 **Strategy that lives in a document nobody re-reads.** 90 pages, beautifully structured, last opened on day one. The plan stops shaping the work after week two.
 
-**Multilingual treated as a translation step at the end.** Spanish and French versions inherit every limitation of the English plan plus a few extra bugs from the handover. Real [multilingual marketing](/blog/best-practices-for-multilingual-seo/) needs to be a planning input, not a finishing layer.
+**Multilingual treated as a translation step at the end.** Spanish and French versions inherit every limitation of the English plan plus a few extra bugs from the handover. Real multilingual marketing, as our [multilingual SEO best practices](/blog/best-practices-for-multilingual-seo/) explain, needs to be a planning input, not a finishing layer.
 
-### The integration test
+## The integration test
 
 A real 360 partner can answer three questions in ten minutes for any active campaign.
 
@@ -52,7 +68,7 @@ A real 360 partner can answer three questions in ten minutes for any active camp
 
 If the answer to any of these is “let us sync with another team”, you are paying for branding, not joined-up work.
 
-### A real example: a texas freight client
+## A real example: a Houston freight client
 
 The freight forwarding client we work with in Houston runs in two languages, three buyer types (importers, exporters, freight forwarders), and across LinkedIn, organic search, Google Ads, and trade events.
 
@@ -66,7 +82,7 @@ After we consolidated into one strategy document and one measurement plan, three
 
 None of this required new tactics. Joining the work up drove the lift.
 
-### The data behind the case for joined-up campaigns
+## The data behind joined-up campaigns
 
 The IPA’s analysis of more than 250 campaign case studies found a measurable gap between integrated multi-channel work and single-channel campaigns.
 
@@ -76,33 +92,17 @@ The IPA’s analysis of more than 250 campaign case studies found a measurable g
 
 The headline we take from that research: connecting channels matters, but adding more does not. Three connected channels beat seven disconnected ones.
 
-### Promise vs reality
+## Promise versus reality
 
-What 360 brochures promise
+| What 360 brochures promise | What integration actually requires |
+| --- | --- |
+| “We cover every channel” | One strategy that names the constraint and the trade-offs |
+| “Cross-functional team” | One accountable lead with budget authority |
+| “Custom dashboards” | One measurement plan everyone reads weekly |
+| “Multilingual ready” | Translation as planning input, not the last step |
+| “Always-on social” | Social tied to the same conversion goals as paid and SEO |
 
-What integration actually requires
-
-“We cover every channel”
-
-One strategy that names the constraint and the trade-offs
-
-“Cross-functional team”
-
-One accountable lead with budget authority
-
-“Custom dashboards”
-
-One measurement plan everyone reads weekly
-
-“Multilingual ready”
-
-Translation as planning input, not the last step
-
-“Always-on social”
-
-Social tied to the same conversion goals as paid and SEO
-
-### When to hire a 360 partner, and when not to
+## When to hire a 360 partner, and when not to
 
 We usually tell clients to hire a 360 partner only when at least two of the following are true.
 
@@ -110,14 +110,14 @@ We usually tell clients to hire a 360 partner only when at least two of the foll
 -   You have lost track of where the next quarter’s revenue is meant to come from inside your existing reporting.
 -   Your in-house generalist is doing five jobs poorly and needs strategic cover, not extra execution capacity.
 
-Outside those scenarios, a senior fractional lead plus two specialist contractors usually outperform an agency retainer at lower cost. Less polish, more use on the actual constraint.
+Outside those scenarios, a senior fractional lead plus two specialist contractors usually outperform an agency retainer at lower cost: less polish, more attention on the actual constraint. Our comparison of a [digital marketing advisor versus an agency](/blog/digital-marketing-advisor/) sets out that choice in more detail.
 
-### A second pair of eyes on your marketing engine
+## A second pair of eyes on your marketing engine
 
 If you are weighing a **360 marketing agency** retainer against keeping things in-house, we are happy to walk through the trade-offs with you.
 
-We work with B2B clients in legal, freight, real estate, and translation across six languages, from [Valencia](/how-i-work/).
+We work with B2B clients in legal, freight, real estate, and translation across six languages, from Valencia. You can read more about [how we work](/how-i-work/).
 
 The honest answer for many companies is to keep the in-house team and bring in narrow expertise where the constraint actually lives. Sometimes the answer is a full 360 partner. Either way you should know which it is before signing.
 
-[Get in touch](/contact/) or look at [how we run digital marketing programmes](/services/multilingual-seo/).
+[Get in touch](/contact/) or look at how we run [multilingual SEO programmes](/services/multilingual-seo/).

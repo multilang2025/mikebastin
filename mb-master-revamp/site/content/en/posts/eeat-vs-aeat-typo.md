@@ -1,5 +1,5 @@
 ---
-words: 675
+words: 584
 title: "EEAT vs AEAT. The typo that turns an SEO audit into a tax audit"
 slug: "eeat-vs-aeat-typo"
 locale: "en"
@@ -7,211 +7,71 @@ type: "posts"
 group: "g030"
 wpId: 24856171
 date: "2026-01-29T15:51:54"
-modified: "2026-07-19T15:04:12"
+modified: "2026-09-26T12:00:00"
 sourceUrl: "https://mikebastin.com/eeat-vs-aeat-typo/"
 excerpt: "A single typo can turn an SEO audit into a tax audit when you work as an international SEO in Spain. Discover how confusing EEAT with AEAT creates panic, dark humour, and very real professional lessons. Read the story and join the community of SEOs navigating Google guidelines and Spanish bureaucracy at the same time."
 ---
 
-## How a single letter almost cost a Spanish law firm its SEO strategy
+We are optimizing E-E-A-T for a Spanish law firm. Half the screen shows Google's quality guidelines. The other half shows Spanish legal content full of tax terminology. Then there is a third window: AEAT documentation.
 
-We optimize EEAT for a Spanish law firm.
-
-Half our screen shows Google quality guidelines.
-
-The other half shows Spanish legal content filled with fiscal terminology.
-
-Then there is the third window. AEAT documentation.
-
-At some point, your brain stops seeing letters. It only sees threats.
-
-Google judges your rankings. The Spanish tax office judges your existence.
-
-One misplaced letter is all it takes to switch from search performance anxiety to fiscal survival mode.
+At some point the brain stops seeing letters and only sees threats. Google judges your rankings. The Spanish tax office judges your existence. One misplaced letter is all it takes to move from search anxiety to fiscal survival mode.
 
 Welcome to international SEO life in Spain.
 
-* * *
+## Two judges, one letter apart
 
-## EEAT. The Google judge
+| | EEAT | AEAT |
+| --- | --- | --- |
+| Stands for | Experience, Expertise, Authoritativeness, Trust | Agencia Estatal de Administración Tributaria |
+| Who it is | Google's quality framework | Spain's national tax agency |
+| Cares about | Authors, sources, reputation | VAT, income tax, quarterly filings, invoice numbering |
+| Gets in touch via | Search Console | Very official letters |
+| Worst case | Lower rankings | Lower bank balance |
 
-EEAT stands for Experience, Expertise, Authoritativeness, and Trust.
+## EEAT, the Google judge
 
-If you work in legal SEO, you breathe EEAT.
+If you work in legal SEO, you breathe EEAT. Law firm content lives in YMYL territory, and Google treats it like a loaded weapon. One weak signal and visibility drops. No trust, no authority, no rankings.
 
-Law firm content lives in YMYL territory. Google treats it like a loaded weapon.
+So you optimize author bios. You refine the tone. You add references. You build entity consistency. You whisper gentle prayers to the quality raters.
 
-One weak signal and visibility drops.
+Such is the daily ritual of a serious SEO. Quiet. Focused. Slightly paranoid.
 
-No trust. No authority. No rankings.
+## AEAT, the Spanish judge
 
-So you optimize author bios. You refine content tone. You add references. You build entity consistency.
+If you work in Spain as a freelancer or agency, you learn this acronym fast. AEAT does not care about your content structure. It cares whether your invoice numbering makes sense.
 
-You whisper gentle prayers to the Google quality raters.
-
-Such is the daily ritual of a serious SEO.
-
-Quiet. Focused. Slightly paranoid.
-
-* * *
-
-## AEAT. The Spanish judge
-
-AEAT stands for Agencia Estatal de Administración Tributaria.
-
-If you work in Spain as a freelancer or agency, you learn this acronym fast.
-
-AEAT does not care about your content structure.
-
-AEAT cares about VAT, income tax, quarterly filings, and whether your invoice numbering makes sense.
-
-Google may lower your rankings.
-
-AEAT may lower your bank balance.
-
-Both send messages.
-
-One arrives in Search Console.
-
-The other arrives in your mailbox with very official typography.
-
-* * *
+Both send messages. One arrives in Search Console. The other arrives in your mailbox with very official typography.
 
 ## Life as an international SEO in Spain
 
-You work in English.
+You work in English. Your clients work in Spanish. Your projects mix legal language, tax references and administrative acronyms, and you translate mental contexts all day.
 
-Your clients work in Spanish.
+Eventually the acronyms start to blend. EEAT. AEAT. EAT. AET. ETA. Your brain runs an uncontrolled A/B test on your sanity.
 
-Your projects involve legal language, fiscal references, and administrative acronyms.
+Then one day you type the wrong acronym in the wrong place.
 
-You translate mental contexts all day.
+## The EEAT and AEAT slip
 
-SEO terminology. Spanish bureaucracy. Client expectations.
+It starts small. A Slack message to a colleague: "Client wants stronger AEAT signals on the site." Silence.
 
-Eventually, acronyms start blending.
+A presentation slide: "Optimizing AEAT for legal credibility." The client raises an eyebrow.
 
-EEAT. AEAT. EAT. AET. ETA.
+A proposal draft: "Full AEAT audit included." Now the finance department is interested.
 
-Your brain runs an uncontrolled A B test on your sanity.
-
-Then one day it happens.
-
-You type the wrong acronym in the wrong place.
-
-* * *
-
-## The EEAT AEAT cognitive slip
-
-It starts small.
-
-A Slack message to a colleague.
-
-“Client wants stronger AEAT signals on the site.”
-
-Silence.
-
-A presentation slide.
-
-“Optimizing AEAT for legal credibility.”
-
-The client raises an eyebrow.
-
-A proposal draft.
-
-“Full AEAT audit included.”
-
-Now the finance department is interested.
-
-Late night work increases the probability.
-
-Coffee lowers the resistance.
-
-And suddenly your SEO document reads like a fiscal compliance report.
-
-Which is where our meme gallery begins.
-
-* * *
-
-## Seven memes SEOs in Spain will understand
-
-### Meme 1. The accidental typo
-
-* * *
-
-### Meme 2. Two doors
-
-* * *
-
-### Meme 3. Google meets the tax office
-
-* * *
-
-### Meme 4. The SEO report vs the tax report
-
-* * *
-
-### Meme 5. Autocomplete disaster
-
-### Meme 6. The conference badge
-
-* * *
-
-### Meme 7. Brain short circuit
-
-* * *
+Late nights raise the odds. Coffee lowers the resistance. Suddenly your SEO document reads like a tax compliance report.
 
 ## The professional moral
 
-The above is satire.
+The above is satire, and also reality.
 
-But also reality.
+Precision matters in SEO. One missing reference weakens authority. One sloppy entity breaks consistency. One misread guideline costs visibility.
 
-Precision matters in SEO.
+Precision matters in Spain too. One wrong invoice number triggers a request. One late filing brings penalties. One missing document generates letters.
 
-One missing reference weakens authority.
+Working in legal SEO in Spain means respecting both judges. Both reward structure. Both punish chaos. Only one accepts backlinks as currency.
 
-One sloppy entity breaks consistency.
+## Check your acronyms
 
-One misinterpreted guideline costs visibility.
+If you work in SEO in Spain, you have lived this moment, or you will. So check your acronyms, save your documents, sleep more, and never send a client an email promising AEAT optimization. Unless you really mean it.
 
-Precision also matters in Spain.
-
-One wrong invoice number triggers a request.
-
-One late filing creates penalties.
-
-One missing document generates letters.
-
-Working in legal SEO in Spain means respecting both judges.
-
-Google.
-
-And AEAT.
-
-Both reward structure.
-
-Both punish chaos.
-
-Only one accepts backlinks as currency.
-
-* * *
-
-## Shared trauma builds community
-
-If you work in SEO in Spain, you have lived this moment.
-
-If you have not yet, you will.
-
-So consider this your warning.
-
-Check your acronyms.
-
-Save your documents.
-
-Sleep more.
-
-And never send an email promising AEAT optimization to a client.
-
-Unless you really mean it.
-
-## If you enjoyed this painfully familiar story, follow our work on [international SEO strategy](/blog/best-practices-for-multilingual-seo/) and multilingual content optimization. More real life SEO survival stories coming soon. You are not alone in the acronym battlefield.
+If the story felt painfully familiar, our guide to [multilingual SEO best practices](/blog/best-practices-for-multilingual-seo/) covers the less stressful side of working across languages. More SEO survival stories are on the way.

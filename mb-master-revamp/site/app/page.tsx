@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Reveal from "@/components/Reveal";
+import MarketReach from "@/components/MarketReach";
 import Counter from "@/components/Counter";
 import Spread from "@/components/Spread";
 import { PROJECTS } from "@/lib/projects";
@@ -136,7 +137,8 @@ export default function Home() {
     <main>
       {/* ============ HERO ============ */}
       <section className="band band-a grain hero-glow relative overflow-hidden pb-[clamp(36px,5vw,72px)] pt-[clamp(52px,7vw,104px)]">
-        <div className="shell relative">
+        <div className="shell relative grid items-center gap-x-10 lg:grid-cols-[1fr_auto]">
+        <div>
           <Reveal>
             <p className="eyebrow mb-5">
               Plenty of sites rank. Far fewer sell.
@@ -211,6 +213,9 @@ export default function Home() {
             </div>
           </Reveal>
         </div>
+
+        <MarketReach />
+        </div>
       </section>
 
       {/* ============ WHAT WE DO ============ */}
@@ -219,7 +224,7 @@ export default function Home() {
           <Reveal>
             <p className="eyebrow mb-3">What we do</p>
             <h2 className="mb-5 max-w-[26ch] text-[clamp(1.8rem,3.6vw,2.9rem)] font-semibold leading-[1.1]">
-              Enquiries from every market you sell in.
+              Enquiries from every market where you already sell.
             </h2>
             <p className="mb-12 max-w-[56ch] text-[1.05rem]" style={{ color: "var(--dim)" }}>
               You already sell abroad, so the product is proven. Ongoing
@@ -333,7 +338,7 @@ export default function Home() {
           <Reveal>
             <p className="eyebrow mb-3">Why it works</p>
             <h2 className="mb-12 max-w-[20ch] text-[clamp(1.8rem,3.6vw,2.9rem)] font-semibold leading-[1.1]">
-              The same person reads every language you sell in.
+              The same person reads every language your buyers use.
             </h2>
           </Reveal>
 

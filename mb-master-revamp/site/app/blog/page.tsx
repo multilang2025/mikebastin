@@ -109,6 +109,7 @@ export default function BlogIndex() {
                         slug={group.pillar?.slug ?? (group.pillarHref ?? "").replace(/\//g, "")}
                         cluster={group.name}
                         className="aspect-[1200/630] w-full"
+                        sizes="(min-width: 640px) 50vw, 100vw"
                       />
                     </span>
                     <div>
@@ -148,6 +149,7 @@ export default function BlogIndex() {
                             slug={post.slug}
                             cluster={group.name}
                             className="aspect-[1200/630] w-full"
+                            sizes="(min-width: 1024px) 400px, (min-width: 640px) 50vw, 100vw"
                           />
                           {/* No horizontal padding: the card's own surface is
                               the section's, so there is no edge for the text

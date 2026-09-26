@@ -1,182 +1,213 @@
 ---
 words: 1503
-title: "How to Make Money on YouTube"
+title: "How to make money on YouTube"
 slug: "how-to-make-money-on-youtube"
 locale: "en"
 type: "posts"
 group: "g130"
 wpId: 36914
 date: "2020-11-30T14:30:25"
-modified: "2026-07-19T11:11:09"
+modified: "2026-09-26"
 sourceUrl: "https://mikebastin.com/how-to-make-money-on-youtube/"
-excerpt: "Discover how to monetise your YouTube channel with proven strategies, from joining the YouTube Partner Program to using affiliate marketing and channel memberships."
+excerpt: "Discover how to monetise your YouTube channel with proven strategies, from joining the YouTube Partner Programme to using affiliate marketing and channel memberships."
 ---
 
-## Discover Proven Strategies to Monetise Your YouTube Channel
+## Proven ways to monetise your YouTube channel
 
-YouTube has become a powerful platform for creators to showcase their talents, share knowledge, and build an audience.
+YouTube has become a powerful platform for creators to showcase their talents, share knowledge and build an audience. Beyond content creation, it offers several ways to turn that effort into income.
 
-Beyond content creation, YouTube offers several ways to monetise your efforts and turn your passion into a profitable venture.
+Whether you are just starting or already run an established channel, the sections below cover the main ways to make money on YouTube and how to grow each one. For the planning side, see our [guide to creating a targeted content strategy](/blog/how-to-create-a-targeted-content-strategy/).
 
-Whether you’re just starting or have an established channel, this guide will show you the different ways you can make money on YouTube and offer tips on how to increase your revenue. For more on content strategy, see our [guide to creating a targeted content strategy](https://mikebastin.com/how-to-create-a-targeted-content-strategy/).
+## Join the YouTube Partner Programme (YPP)
 
-## Join the YouTube Partner Program (YPP)
+The most common way to earn money on YouTube is through the YouTube Partner Programme. Once you qualify, you can switch on ads and earn a share of the ad revenue your videos generate.
 
-One of the most common ways to earn money on YouTube is through the YouTube Partner Program (YPP).
-
-Once you qualify for YPP, YouTube allows you to monetise your videos through ads, which can provide a significant revenue stream as your viewership grows. If you’re interested in optimizing your channel for better reach, check out our [voice search optimization tips](https://mikebastin.com/optimising-your-website-for-voice-search/).
+The programme also unlocks fan funding and shopping features. If you want your channel to be found in AI answers as well as search, read about [generative engine optimization](/services/generative-engine-optimization/).
 
 ### Requirements for YPP
 
-To be eligible for the YouTube Partner Program, you must meet the following criteria:
+YouTube runs two entry points. The lower one unlocks fan funding and shopping features; the higher one adds ad revenue sharing.
 
--   **1,000 subscribers** on your YouTube channel
--   **4,000 watch hours** in the past 12 months
--   Comply with **YouTube’s policies** and community guidelines
--   Have a linked **AdSense account**
+| Tier | Subscribers | Plus one of | What it unlocks |
+| --- | --- | --- | --- |
+| Fan funding and shopping | 500, with three public uploads in the last 90 days | 3,000 watch hours in 12 months, or 3 million Shorts views in 90 days | Memberships, Super Chat, Super Stickers, Super Thanks, YouTube Shopping |
+| Ad revenue sharing | 1,000 | 4,000 watch hours in 12 months, or 10 million Shorts views in 90 days | Everything above plus ad revenue and YouTube Premium revenue |
 
-Once you meet these requirements, you can apply for YPP, and YouTube will review your channel for eligibility.
+> Ad revenue sharing: 1,000 subscribers plus either 4,000 valid public watch hours in the past 12 months or 10 million valid public Shorts views in the past 90 days.
+>
+> Fan funding and shopping features: 500 subscribers, three valid public uploads in the last 90 days, plus either 3,000 valid public watch hours in the last 12 months or 3 million valid public Shorts views in the last 90 days.
+>
+> Source: [YouTube Help, YouTube Partner Programme overview and eligibility, accessed 26 September 2026](https://support.google.com/youtube/answer/72851?hl=en-GB)
 
-Once approved, ads will start showing on your videos, and you’ll earn a share of the ad revenue.
+<figure class="post-fig">
+<svg viewBox="0 0 400 130" role="img" aria-label="A monetisation ladder: build an audience, reach 500 subscribers for fan funding, reach 1,000 subscribers for ad revenue, then add brand deals.">
+<line x1="50" y1="32" x2="350" y2="32" class="fg-rule"/>
+<circle cx="50" cy="32" r="26" class="fg-box"/>
+<circle cx="150" cy="32" r="26" class="fg-box"/>
+<circle cx="250" cy="32" r="26" class="fg-box"/>
+<circle cx="350" cy="32" r="26" class="fg-hot"/>
+<text x="50" y="38" text-anchor="middle" class="fg-strong">1</text>
+<text x="150" y="38" text-anchor="middle" class="fg-strong">2</text>
+<text x="250" y="38" text-anchor="middle" class="fg-strong">3</text>
+<text x="350" y="38" text-anchor="middle" class="fg-strong">4</text>
+<text x="50" y="90" text-anchor="middle" class="fg-text">Audience</text>
+<text x="150" y="90" text-anchor="middle" class="fg-text">Fans</text>
+<text x="250" y="90" text-anchor="middle" class="fg-text">Ads</text>
+<text x="350" y="90" text-anchor="middle" class="fg-text">Brands</text>
+<text x="50" y="114" text-anchor="middle" class="fg-label">affiliates</text>
+<text x="150" y="114" text-anchor="middle" class="fg-label">500 subs</text>
+<text x="250" y="114" text-anchor="middle" class="fg-label">1,000 subs</text>
+<text x="350" y="114" text-anchor="middle" class="fg-label">sponsors</text>
+</svg>
+<figcaption>Affiliate links and your own products work from day one. Fan funding and ad revenue arrive at the two YouTube thresholds, and sponsorships follow once an engaged audience makes you worth paying.</figcaption>
+</figure>
 
-### Increasing Ad Revenue
+You must also:
 
-The amount you earn from ads depends on factors like the type of [content you create](https://mikebastin.com/how-to-create-a-targeted-content-strategy/), audience location, and viewer engagement.
+-   Follow YouTube's channel monetisation policies and have no active Community Guidelines strikes
+-   Live in a country or region where the programme is available
+-   Turn on two-step verification for your Google Account
+-   Have one active AdSense for YouTube account linked to your channel
 
-You can increase your earnings by:
+Once you meet the thresholds, you can apply from YouTube Studio and YouTube will review your channel. Once approved, ads start showing on your videos and you earn a share of the revenue.
 
--   **Creating longer videos**: YouTube allows more ads on longer videos (over 8 minutes), which can increase your revenue.
--   **Targeting a niche**: Some niches, like tech or finance, have higher ad rates, meaning you’ll earn more per ad view.
+### Increasing ad revenue
 
-## Make Money Through Affiliate Marketing
+What you earn from ads depends on the type of [content you create](/blog/how-to-create-a-targeted-content-strategy/), where your audience lives and how engaged it is. You can increase your earnings by:
 
-[Affiliate marketing](https://mikebastin.com/affiliate-marketing-programs/) is another effective way to monetise your YouTube channel.
+-   **Creating longer videos**: mid-roll ads become available on longer videos, which adds ad slots to each view.
+-   **Targeting a niche**: some niches, like tech or finance, attract higher ad rates, so you earn more per ad view.
 
-You can earn a commission for each sale or referral generated through your video descriptions by endorsing products or services in your videos and incorporating affiliate links.
+> On monetised videos that are eight minutes or longer, you can turn on ads during the middle of the video (known as mid-rolls).
+>
+> Source: [YouTube Help, Manage mid-roll ad breaks in long videos](https://support.google.com/youtube/answer/6175006?hl=en-GB)
 
-### How Affiliate Marketing Works
+## Make money through affiliate marketing
+
+[Affiliate marketing](/blog/affiliate-marketing-programs/) is another effective way to monetise a YouTube channel. You earn a commission for each sale or referral that comes through the affiliate links in your video descriptions.
+
+### How affiliate marketing works
 
 To start with affiliate marketing on YouTube:
 
-1.  **Join affiliate programs**: Many companies, including Amazon and eBay, offer affiliate programs that provide you with custom links to share.
-2.  **Promote products or services**: Include a genuine recommendation or review in your videos that encourages viewers to click your affiliate link.
-3.  **Earn commissions**: You’ll get paid when your viewers make a purchase or sign up using your unique affiliate link.
+1.  **Join affiliate programmes**: many companies, including Amazon and eBay, run affiliate programmes that give you custom links to share.
+2.  **Promote products or services**: include a genuine recommendation or review in your videos that encourages viewers to click your affiliate link.
+3.  **Earn commissions**: you are paid when viewers make a purchase or sign up through your link.
 
-### Tips for Successful Affiliate Marketing
+### Tips for successful affiliate marketing
 
--   **Be authentic**: Promote products that align with your niche and that you truly believe in. Authenticity builds trust with your audience, increasing the likelihood that they’ll click your links.
--   **Include a call-to-action**: Encourage viewers to check the product link in the description.
--   **Focus on product review or “how-to” videos**: These types of videos are more likely to convert viewers into buyers.
+-   **Be authentic**: promote products that fit your niche and that you believe in. Authenticity builds trust, which makes viewers more likely to click.
+-   **Include a call to action**: encourage viewers to check the product link in the description.
+-   **Focus on product reviews or how-to videos**: these formats are more likely to turn viewers into buyers.
+-   **Disclose the relationship**: tell viewers when a link earns you a commission.
 
-## Offer Channel Memberships
+## Offer channel memberships
 
-YouTube’s Channel Memberships feature allows your subscribers to pay a monthly fee in exchange for perks like exclusive content, badges, or live chat privileges. Memberships are a good way to create a stable revenue stream from your most dedicated fans. For more monetisation ideas, read our article on [how to make money on YouTube](https://mikebastin.com/how-to-make-money-on-youtube/).
+Channel memberships let viewers pay a monthly fee for perks like exclusive content, badges or live chat privileges. Memberships create a steadier revenue stream from your most dedicated fans.
 
-### How to Enable Channel Memberships
+### How to enable channel memberships
 
-To enable memberships, your channel must meet the following criteria:
+Memberships are no longer reserved for large channels. To offer them, you need to:
 
--   Have at least **30,000 subscribers**
--   Be part of the **YouTube Partner Program**
--   Be over **18 years old**
--   Comply with YouTube’s policies
+-   Be in the YouTube Partner Programme and meet the fan funding threshold above
+-   Be at least 18 years old
+-   Have a channel that is not set as made for kids
+-   Accept the relevant commerce terms and follow YouTube's policies
 
-### Ideas for Membership Perks
+> Channel memberships, Super Chat, Super Stickers and Super Thanks each require the creator to be at least 18 years old and to accept the Commerce Product Module.
+>
+> Source: [YouTube Help, YouTube channel monetisation features and eligibility](https://support.google.com/youtube/answer/72857?hl=en-GB)
+
+### Ideas for membership perks
 
 To make memberships appealing, offer value beyond your regular content. Perks could include:
 
 -   **Exclusive behind-the-scenes videos**
--   **Member-only live streams or Q&A sessions**
+-   **Member-only live streams or Q and A sessions**
 -   **Custom emojis and badges**
 -   **Early access to new videos**
 
-## Super Chats and Super Stickers
+## Super Chat, Super Stickers and Super Thanks
 
-If you regularly host live streams, Super Chats and Super Stickers are another way to make money.
+If you host live streams regularly, Super Chat and Super Stickers are another way to earn. Viewers pay to have their comments or stickers highlighted in the chat, and Super Thanks does the same for comments on uploaded videos.
 
-During live streams, viewers can pay to have their comments or stickers highlighted, making them more visible in the chat.
+The features can turn live streams into a fun, interactive experience while generating income.
 
-The feature can turn live streams into a fun and interactive experience while generating income.
+### Best practices for earning with Super Chat
 
-### Best Practices for Earning with Super Chats
+-   **Engage with your audience**: acknowledge viewers who send a Super Chat. Recognition encourages others to join in.
+-   **Host regular live streams**: the more often you stream, the more chances you have to earn.
 
--   **Engage with your audience**: Acknowledge and interact with viewers who send Super Chats. Acknowledgement encourages others to participate and increase your earnings.
--   **Host regular live streams**: The more often you stream, the more opportunities you have to generate income through Super Chats.
+## Sell merchandise
 
-## Sell Merchandise
+You can make money on YouTube by selling branded merchandise like T-shirts, mugs and stickers. With a loyal following, merchandise engages your audience while bringing in extra income.
 
-You can make money on YouTube by selling branded merchandise like T-shirts, mugs, and stickers.
+For more on building a recognisable identity, see our guide to [building a global brand](/blog/building-a-global-brand/).
 
-If you have a loyal following, offering merchandise can be an excellent way to engage your audience while earning extra income. For more on creating a strong brand, see our guide to [building a global brand](https://mikebastin.com/building-a-global-brand/).
+### How to start selling merchandise
 
-### How to Start Selling Merchandise
+Eligible channels can connect a store through YouTube Shopping and show products below their videos, where viewers can browse and buy. Here is how to get started:
 
-YouTube allows eligible channels to integrate a merchandise shelf directly below their videos, where viewers can browse and purchase products. Here’s how to get started:
+-   **Create your merchandise**: use platforms like Spring (formerly Teespring), Spreadshop or Printful to design and sell custom products.
+-   **Link to your merchandise**: add links in your video descriptions and mention the products in your videos.
+-   **Use YouTube Shopping**: if your channel is eligible, connect your store to showcase products directly on your channel.
 
--   **Create your merchandise**: Use platforms like Teespring, Spreadshop, or Printful to design and sell custom products.
--   **Link to your merchandise**: Add links to your merchandise in your video descriptions and promote them in your videos.
--   **Use YouTube’s merchandise shelf**: If your channel is eligible, enable the shelf feature to showcase your products directly on your YouTube page.
+### Tips for selling merchandise
 
-### Tips for Selling Merchandise
+-   **Keep your designs simple**: fans are more likely to buy items that reflect your brand or catchphrase in a subtle, wearable way.
+-   **Promote your merch in your videos**: highlight it without being overly promotional, and link to it in your descriptions.
 
--   **Keep your designs simple**: Fans are more likely to buy items that reflect your brand or catchphrase in a subtle, wearable way.
--   **Promote your merch in your videos**: Highlight the merchandise in your videos without being overly promotional, and link to it in your descriptions.
+## Sponsored content and brand deals
 
-## Sponsored Content and Brand Deals
+As your channel grows, brands may approach you for sponsored content. In these partnerships, companies pay you to create videos promoting their products or services.
 
-As your YouTube channel grows, brands may approach you for sponsored content.
+Sponsored content can pay well, especially with a large, engaged audience. Read more about [AI-powered marketing](/blog/ai-powered-marketing/) and how brands use digital channels.
 
-In these partnerships, companies pay you to create videos promoting their products or services.
+### How to land sponsorships
 
-Sponsored content can be highly lucrative, especially if you have a large, engaged audience. Read more about [AI-powered marketing](https://mikebastin.com/ai-powered-marketing/) and how brands are using digital channels.
+You do not have to wait for brands to contact you. Take a proactive approach instead:
 
-### How to Land Sponsorships
+-   **Reach out to brands**: contact companies whose products or services fit your niche, and be clear about the value you offer.
+-   **Join creator marketplaces**: eligible channels can use [YouTube Creator Partnerships](https://support.google.com/youtube/answer/9385307?hl=en) in YouTube Studio, and independent influencer platforms connect creators with brands looking for sponsors.
 
-You don’t have to wait for brands to contact you. Instead, take a proactive approach by:
+### Best practices for sponsored content
 
--   **Reaching out to brands**: Contact companies whose products or services align with your channel’s niche. Be clear about the value you can provide.
--   **Joining influencer platforms**: Sign up for platforms like [Brand Connect](https://support.google.com/youtube/answer/9385307?hl=en) or Grapevine that connect YouTubers with brands seeking sponsorship opportunities.
+-   **Be transparent**: always disclose paid promotions, using YouTube's paid promotion setting, to keep your audience's trust.
+-   **Only promote relevant products**: choose sponsorships that fit your niche so you do not alienate your viewers.
 
-### Best Practices for Sponsored Content
+## Create and sell digital products or courses
 
--   **Be transparent**: Always disclose when a video is sponsored to maintain trust with your audience.
--   **Only promote relevant products**: Choose sponsorships that align with your channel’s niche to avoid alienating your viewers.
+If you have expertise in a specific area, you can create and sell digital products such as eBooks, guides or online courses through your channel. Our tips on [content strategy](/blog/how-to-create-a-targeted-content-strategy/) will help you structure and promote them.
 
-## Create and Sell Digital Products or Courses
+The approach works well for educational and tutorial creators who can package their knowledge into a product.
 
-If you have expertise in a specific area, you can create and sell digital products such as eBooks, guides, or online courses directly through your YouTube channel. Explore our tips on [content strategy](https://mikebastin.com/how-to-create-a-targeted-content-strategy/) to help you structure and promote your products.
+### How to create and sell digital products
 
-The approach works well for educational or tutorial-based content creators who can package their knowledge into a product.
+1.  **Identify your expertise**: build products or courses around what you do best, whether it is photography, fitness, marketing or something else.
+2.  **Promote your products in your videos**: include links in your video descriptions and mention them in your content.
+3.  **Use a platform for delivery**: sell through platforms like Gumroad, Teachable or Udemy, which handle payment and delivery.
 
-### How to Create and Sell Digital Products
+### Tips for selling digital products
 
-1.  **Identify your expertise**: Create products or courses based on what you’re best at, whether it’s photography, fitness, marketing, or something else.
-2.  **Promote your products in your videos**: Include links to your digital products in your video descriptions and mention them within your content.
-3.  **Use a platform for delivery**: Sell your products through platforms like Gumroad, Teachable, or Udemy, which handle transactions and delivery.
+-   **Solve a problem**: focus on products that fix a pain point for your audience. A fitness YouTuber could create a workout guide or nutrition plan, for example.
+-   **Bundle content**: offer packages that combine several courses or resources at a higher price point.
 
-### Tips for Selling Digital Products
+## YouTube Premium revenue
 
--   **Solve a problem**: Focus on creating products that solve a pain point for your audience. For example, a fitness YouTuber could create a workout guide or nutrition plan.
--   **Bundle content**: Offer package deals that include multiple courses or resources for a higher price point.
+Another way to earn money on YouTube is through YouTube Premium. When a Premium subscriber watches your content, you receive part of their subscription fee.
 
-## YouTube Premium Revenue
+Premium revenue is usually smaller than ad revenue or sponsorships, but it still adds to your overall earnings.
 
-Another way to earn money on YouTube is through YouTube Premium. When a YouTube Premium subscriber watches your content, you receive a share of their subscription fee.
+### How YouTube Premium revenue works
 
-While this may not be as significant as ad revenue or sponsorships, it can still contribute to your overall earnings. Learn how to optimize digital monetisation for extra revenue streams.
+YouTube Premium lets users watch videos without ads. YouTube pays creators in the Partner Programme a portion of the subscription revenue based on how much Premium members watch their content.
 
-### How YouTube Premium Revenue Works
+The more popular your videos are with Premium subscribers, the more you can earn.
 
-YouTube Premium allows users to watch videos ad-free, and YouTube pays creators a portion of the subscription revenue based on how much Premium users watch their content.
+## Where to start
 
-The more popular your videos are among Premium subscribers, the more you can earn.
+Making money on YouTube is not just about creating engaging videos, it is about building several revenue streams. For more ideas, explore our [digital marketing blog](/blog/).
 
-## Conclusion
-
-Making money on YouTube is not just about creating engaging videos, it’s about using multiple revenue streams to increase your earnings. To stay ahead, explore more tips in our [digital marketing blog](https://mikebastin.com/blog/).
-
-Whether you’re monetising through ads, affiliate marketing, or offering memberships, the key is consistency and delivering value to your audience.
-
-As your channel grows, diversify your income streams, and continue to experiment with new ways to engage and monetise your content.
+Whether you monetise through ads, affiliate marketing or memberships, the key is consistency and delivering value to your audience. As your channel grows, diversify your income and keep testing new ways to engage and monetise your content.
 
 With time and dedication, you can turn your YouTube channel into a thriving business.
