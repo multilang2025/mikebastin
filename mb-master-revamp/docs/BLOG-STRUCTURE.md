@@ -123,3 +123,89 @@ Rules:
 - No `<script>`, no external `href`, no `<foreignObject>`, no animation.
 - Straight lines, circles, rects with `rx="6"`, simple paths. Arrowheads
   as a small `path` in `fg-line`/`fg-accent` rather than `<marker>` defs.
+
+## Voice, value and CTAs (owner, 26 Sep 2026)
+
+"Make the content sound more engaging. Too many sections lack a clear CTA
+and value proposition. Some of the prose sounds like a tutorial." This
+section is the spec for that pass. It applies `.claude/skills/mb-copy-voice`
+to posts: the reader is **a company already selling abroad whose
+non-English markets underperform**, commercially responsible, not a
+beginner and not a fellow SEO.
+
+### The opening
+
+The first two or three paragraphs (above the first `h2`, or the first
+section) state **the reader's situation, what it costs them, and what the
+post gives them**. No definitions of the category, no market commentary
+("International expansion is no longer limited to large enterprises"),
+no "In this guide we will". Mechanism vocabulary stays out of the opening,
+as on service pages.
+
+Before (google-analytics-international-marketing-limits):
+
+> International expansion is no longer limited to large enterprises. SMEs
+> now operate across borders by default. The difference between growth and
+> wasted spend comes down to how data is interpreted.
+
+After:
+
+> Your analytics say Germany is your second-biggest market. Your German
+> enquiries say otherwise. Both can be true, because GA4 sees less of your
+> international traffic than its dashboards suggest, and it sees least in
+> the markets where privacy rules are strictest.
+>
+> Below: what GA4 tells you reliably about each market, what it only
+> guesses, and how to decide where the next localization budget goes.
+
+The excerpt in frontmatter is the meta description, the hero lede and the
+card text. Rewrite it in the same spirit: the reader's problem and the
+payoff, 120 to 155 characters, primary keyword kept.
+
+### Sections: value first, then the how
+
+Every `h2` section answers "why should a business care" in its first one
+or two sentences, then gives the how. The tutorial tone comes from
+sections that open on instructions ("Go to Admin. Click Data Streams.")
+or on a definition. Fix it by leading with the consequence (what goes
+wrong, what it costs, what good looks like), then keeping the steps short.
+
+- Second person, active, concrete: "your French pages", not "websites".
+- Replace generic claims with the specific case the reader recognises.
+- Keep genuinely procedural detail where the post is a checklist or a
+  how-to the reader searched for; tighten it, do not delete it.
+- A closing line per major section that says what the reader now knows
+  or should do, where one earns its place. Not a slogan.
+- Headings may become benefit-led, but keep the searched term in any
+  heading that carries it.
+
+### In-body CTAs
+
+The template already closes every post with "Book the discovery call".
+Add **one to three** CTAs inside the article, at decision points: after
+the section where the reader has just recognised their problem, and
+where the post hands over from "what to do" to "who does it". Never
+more than three, never two in a row, never in the first screen.
+
+Markup (raw HTML, no blank lines inside, blank line before and after):
+
+```html
+<aside class="post-cta">
+<p><strong>Not sure which of your markets GA4 is undercounting?</strong> Every <a href="/services/multilingual-seo/">multilingual SEO programme</a> we run starts with an audit of each language version. <a href="/contact/">Book the discovery call</a>.</p>
+</aside>
+```
+
+- The bold lead names the reader's problem as a question or a statement,
+  in their words. The link text says what they get, not "click here".
+- Link to the post's related service (the one the template's end CTA
+  already uses) or `/contact/`. **Promise only what that service page
+  itself says we do**: read the service's entry in `site/lib/services.ts`
+  before writing the CTA. Never a price, guarantee, turnaround, free
+  audit or outcome that the site does not already state.
+- Each CTA is different and specific to the section before it.
+
+### Unchanged
+
+Everything above this section still applies: sources, links (never
+removed), tables and figures kept, word targets, house copy rules.
+Titles, slugs and dates do not change.

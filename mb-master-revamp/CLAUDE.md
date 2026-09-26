@@ -254,6 +254,11 @@ sticky highlighted rail on desktop and a disclosure above the body below
 1024px. Posts target 1,200 to 2,200 words, carry one to three tables where
 content is tabular, and one or two inline SVG figures drawn only with the
 `fg-*` classes (no hard-coded colours, so they follow the theme toggle).
+Posts also open on the reader's situation and its cost (not a
+definition or market commentary), lead each section with why it matters
+before the how, and carry one to three in-body `aside.post-cta` blocks
+that promise only what the linked service page states (owner, 26 Sep
+2026: "too many sections lacking a clear CTA and value proposition").
 `npm run lint:structure` reports the editorial side; `verify` fails only
 on a figure that would break the page (blank line inside, hex colour,
 missing aria-label).
