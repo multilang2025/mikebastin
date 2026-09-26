@@ -89,7 +89,11 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en-GB" suppressHydrationWarning>
+    // data-scroll-behavior: Next 16 no longer suspends the smooth scrolling
+    // set in globals.css during navigation, so every route change animated
+    // from the old scroll position up to the top before the page showed.
+    // The attribute restores the instant jump on navigation only.
+    <html lang="en-GB" data-scroll-behavior="smooth" suppressHydrationWarning>
       <head>
         <script dangerouslySetInnerHTML={{ __html: noFlash }} />
         <script dangerouslySetInnerHTML={{ __html: reveal }} />
