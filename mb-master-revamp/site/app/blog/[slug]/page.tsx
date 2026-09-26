@@ -76,7 +76,6 @@ export default async function BlogPostPage({
   // ever end up touching.
   let band: "a" | "b" = "a";
   const nextBand = () => (band = band === "a" ? "b" : "a");
-  const coverBand = nextBand();
   const bodyBand = nextBand();
   // Skipped sections still have to leave the A/B run intact, so the band
   // is only taken when the section is actually rendered.
@@ -144,15 +143,13 @@ export default async function BlogPostPage({
               <span>{formatDate(post.date)}</span>
             </p>
           </Reveal>
-        </div>
-      </section>
-
-      {/* ============ COVER ============ */}
-      <section className={`band band-${coverBand} pb-[clamp(48px,7vw,90px)]`}>
-        <div className="shell">
-          <Reveal>
+          {/* The cover sits inside the hero, on the hero's own surface. As
+              a band of its own it was flush to the band's top edge with a
+              strip of the other surface left empty beneath it, which read
+              as an image that did not fit its space. */}
+          <Reveal i={5}>
             <div
-              className="overflow-hidden rounded-[4px] border"
+              className="mt-[clamp(32px,5vw,56px)] overflow-hidden rounded-[4px] border"
               style={{ borderColor: "var(--rule)" }}
             >
               <PostImage
