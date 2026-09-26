@@ -653,7 +653,7 @@ export const SERVICES: Service[] = [
       {
         q: "Where the compliance work stops",
         a: [
-          "We set up the technical side: an Impressum carrying what the Digitale-Dienste-Gesetz requires (it replaced the Telemediengesetz in May 2024), a privacy policy aligned to GDPR and the Bundesdatenschutzgesetz, and consent that is an actual opt-in.",
+          "We set up the technical side: a compliant Impressum, a privacy policy that holds up under German law, and consent that is an actual opt-in rather than a soft one.",
           "Where the question is legal rather than technical, sensitive data, employee tracking, marketing profiling, that is a German lawyer's work and we say so rather than improvising it.",
         ],
       },
@@ -757,17 +757,10 @@ export const SERVICES: Service[] = [
         ],
       },
       {
-        q: "What LSSI-CE and the AEPD require on a Spanish site",
+        q: "What a Spanish site has to get right beyond the words",
         a: [
-          "Spain's LSSI-CE asks a transactional site to show specific commercial information: the CIF or NIF, a real address, contact details and terms. The AEPD reads cookie consent more granularly than the baseline interpretation some other countries settle for, so a banner that passes elsewhere can still be wrong here.",
-          "The technical setup is included. Regulated sectors, finance, healthcare, anything touching gambling, want a Spanish lawyer on top of it rather than instead of it.",
-        ],
-      },
-      {
-        q: "Each market carries its own identifier",
-        a: [
-          "Spain expects a CIF or NIF, Mexico an RFC, Colombia a NIT, Argentina a CUIT, the Dominican Republic an RNC. Alongside them sit the local data protection rules: the AEPD in Spain, the SIC in Colombia, the AAIP in Argentina, and in Mexico a new federal data protection law since 2025, when INAI was dissolved and its oversight moved to a government ministry.",
-          "Missing them does not read as an oversight to a local buyer, it reads as a foreign site, and no amount of well-written Spanish compensates for that.",
+          "Every market has its own tax number, its own cookie rules and its own regulator, and Spain, Mexico, Colombia, Argentina and the Dominican Republic each read a site more strictly than the last one. We set up the technical side of every one of them.",
+          "Missing them does not read as an oversight to a local buyer, it reads as a foreign site, and no amount of well-written Spanish compensates for that. Regulated sectors, finance, healthcare, anything touching gambling, want a local lawyer on top of it rather than instead of it.",
         ],
       },
     ],
@@ -871,7 +864,7 @@ export const SERVICES: Service[] = [
       {
         q: "What the footer has to carry",
         a: [
-          "A KvK number and a BTW number in the Netherlands, a KBO number and BTW or TVA in Belgium, visible in the footer and on the contact page rather than buried. Cookie consent aligned to the AVG, which is the GDPR as the Dutch read it, and terms appropriate to what you actually sell.",
+          "The Dutch registration number, the Belgian equivalent, cookie consent done the way local law expects, visible in the footer and on the contact page rather than buried.",
           "Regulated sectors want a Dutch or Belgian lawyer on top of the technical setup, not instead of it.",
         ],
       },
@@ -1089,7 +1082,7 @@ export const SERVICES: Service[] = [
       {
         q: "The profile is a product surface, not a listing",
         a: [
-          "Categories, services, attributes, opening hours, photos, posts and the questions people ask, all filled in and all kept current. A profile finished once and left alone decays against competitors who update theirs, and in a city with more than one working language the profile needs the second one too.",
+          "Filled in fully and kept current, not set up once and forgotten. A profile left alone decays against competitors who update theirs, and in a city with more than one working language it needs the second one too.",
           "It compounds rather than spikes. Done consistently for a few months it moves you up the map pack quietly, which is unsatisfying to watch and the reason most businesses stop.",
         ],
       },

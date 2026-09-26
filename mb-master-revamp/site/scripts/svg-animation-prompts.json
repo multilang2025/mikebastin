@@ -1,0 +1,122 @@
+[
+  {
+    "slug": "local-seo",
+    "page": "/services/local-seo/",
+    "angle": "Found first, streets away",
+    "context": "A buyer a few streets away searches for exactly what you sell and finds a competitor who is no better, just easier to find. In a city that searches in two languages, the gap doubles."
+  },
+  {
+    "slug": "french-seo",
+    "page": "/services/french-seo/",
+    "angle": "SEO France, from the outside in",
+    "context": "Most buyers searching for this service are outside France, looking to sell into it. French pages read as translated to French visitors and lose the shortlist before a word is read."
+  },
+  {
+    "slug": "german-seo",
+    "page": "/services/german-seo/",
+    "angle": "SEO Germany, planned with you, written by Germans",
+    "context": "German buyers read the whole page and check who is behind it before enquiring. Strategy is agreed in English or French, every page is written by native Germans."
+  },
+  {
+    "slug": "spanish-seo",
+    "page": "/services/spanish-seo/",
+    "angle": "SEO Spain and Latin America, one market at a time",
+    "context": "One Spanish site written for Madrid, Mexico City and Bogota at once convinces none of them. Spain runs from Valencia, Latin America through native copywriters in Santo Domingo."
+  },
+  {
+    "slug": "dutch-seo",
+    "page": "/services/dutch-seo/",
+    "angle": "SEO Netherlands and Belgium, without a translator in between",
+    "context": "Dutch buyers decide fast and want the company details up front. Belgium needs Dutch and French both, from one team rather than two agencies."
+  },
+  {
+    "slug": "lead-generation",
+    "page": "/services/lead-generation/",
+    "angle": "Enquiries, not visits",
+    "context": "Traffic already arrives in French, German and Spanish. The enquiries still arrive in English. The gap between impressions and clicks is the actual problem, not a lack of traffic."
+  },
+  {
+    "slug": "multilingual-sem",
+    "page": "/services/multilingual-sem/",
+    "angle": "International PPC, buying what search has not earned",
+    "context": "Reaching the buyer who has not found you organically yet, in the language they searched in, without letting a single blended campaign quietly subsidise one market from another."
+  },
+  {
+    "slug": "conversion-tracking",
+    "page": "/services/conversion-tracking/",
+    "angle": "The evidence layer, per locale",
+    "context": "You can see which markets bring traffic. Whether the French visitors ever turn into customers is a different question, and one merged report will never answer it."
+  },
+  {
+    "slug": "multilingual-seo",
+    "page": "/services/multilingual-seo/",
+    "angle": "The engine underneath the outcome",
+    "context": "You already sell abroad, and the markets outside English are not pulling their weight. We run the strategy and brief native writers per market, so each language earns enquiries rather than only traffic."
+  },
+  {
+    "slug": "italian-seo",
+    "page": "/services/italian-seo/",
+    "angle": "SEO Italy, where translated copy gets found out",
+    "context": "Italian search rewards editorial quality more than most markets, and punishes translated-from-English copy faster."
+  },
+  {
+    "slug": "portuguese-seo",
+    "page": "/services/portuguese-seo/",
+    "angle": "Two markets, one language",
+    "context": "Portugal and Brazil are not one market with one keyword set, and treating them as one is the mistake that makes Portuguese look harder than it is."
+  },
+  {
+    "slug": "website-localisation",
+    "page": "/services/website-localisation/",
+    "angle": "Beyond translated strings",
+    "context": "Your site has been translated and it still reads as foreign. The prices, the form fields, the trust marks and the way people search all still belong to somewhere else, and none of it is fixed by the words."
+  },
+  {
+    "slug": "translation-services",
+    "page": "/services/translation-services/",
+    "angle": "Where accuracy is a liability question",
+    "context": "You have a contract, a patient record or a birth certificate that a court, a regulator or an embassy has to accept, and a wrong term in it costs you a deadline or worse. Work goes through the BeTranslated network, which we have run for twenty years."
+  },
+  {
+    "slug": "app-and-software-localisation",
+    "page": "/services/app-and-software-localisation/",
+    "angle": "Strings, and everything around them",
+    "context": "You are shipping the product into a market that writes longer sentences than English, sometimes reads right to left, and reviews you in a store nobody on the team can read. What breaks first is rarely the translation."
+  },
+  {
+    "slug": "ai-consulting",
+    "page": "/services/ai-consulting/",
+    "angle": "AI consultants who say where AI does not help",
+    "context": "Somebody has told you AI can handle your German content, and some of it can. The part that decides whether the page earns anything is the part that still needs a person who reads German."
+  },
+  {
+    "slug": "ai-translation-and-post-editing",
+    "page": "/services/ai-translation-and-post-editing/",
+    "angle": "Machine first, human decisive",
+    "context": "Your pages came back from the machine reading fluently, which is the problem. A sentence that is confidently wrong is far harder to catch than one that is obviously broken."
+  },
+  {
+    "slug": "generative-engine-optimization",
+    "page": "/services/generative-engine-optimization/",
+    "angle": "Cited inside the answer, not just ranked below it",
+    "context": "ChatGPT, Perplexity and Google's AI Overviews answer a buyer's question directly, and name two or three sources while doing it. Being one of them is the difference between being considered and never being seen."
+  },
+  {
+    "slug": "technical-seo",
+    "page": "/services/technical-seo/",
+    "angle": "Crawlability and hreflang, noticed only when broken",
+    "context": "Your French pages and your German pages can end up competing with each other instead of adding up. We find out whether it is happening on your site, and fix what is causing it."
+  },
+  {
+    "slug": "content-marketing",
+    "page": "/services/content-marketing/",
+    "angle": "Demand first, calendar second",
+    "context": "You are publishing steadily and the enquiries have not moved. Nine times out of ten the calendar was built from what the business wanted to say, rather than from what its buyers are out looking for."
+  },
+  {
+    "slug": "multilingual-content",
+    "page": "/services/multilingual-content/",
+    "angle": "Written per market, not translated",
+    "context": "Your Spanish page is a translation of your English one, so it answers the question an English buyer asks. Spanish buyers phrase the problem differently, and they are out looking for the other version."
+  }
+]

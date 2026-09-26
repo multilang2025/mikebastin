@@ -29,6 +29,7 @@ export default function PostImage({
   rounded = false,
   compact = false,
   priority = false,
+  sizes = "(min-width: 1280px) 1200px, 100vw",
 }: {
   slug: string;
   cluster?: string;
@@ -38,6 +39,9 @@ export default function PostImage({
   compact?: boolean;
   /** Set on the one image above the fold on a post page. */
   priority?: boolean;
+  /** How wide the slot is drawn, for picking between the 640 and 1200
+   *  files. Defaults to a full-width post head. */
+  sizes?: string;
 }) {
   const image = getBlogImage(slug);
 
@@ -50,10 +54,18 @@ export default function PostImage({
   const src = compact
     ? `/images/blog/${slug}-thumb.webp`
     : `/images/blog/${slug}.webp`;
+  // Every file is cut to the 1200:630 slot (scripts/optimize-blog-images.mjs),
+  // with a 640-wide sibling for cards and phones. A source no wider than
+  // 640 has nothing smaller to offer, so it gets a plain src.
+  const srcSet = compact || image.width <= 640
+    ? undefined
+    : `/images/blog/${slug}-640.webp 640w, ${src} ${image.width}w`;
 
   return (
     <img
       src={src}
+      srcSet={srcSet}
+      sizes={srcSet ? sizes : undefined}
       alt={image.alt}
       width={compact ? 160 : image.width}
       height={compact ? 84 : image.height}

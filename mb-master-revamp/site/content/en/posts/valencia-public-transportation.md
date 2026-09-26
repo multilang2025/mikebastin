@@ -1,14 +1,14 @@
 ---
 words: 764
 editorial: "relocating"
-title: "Best Ways to Experience Valencia Public Transportation"
+title: "Best ways to experience Valencia public transportation"
 slug: "valencia-public-transportation"
 locale: "en"
 type: "posts"
 group: "g116"
 wpId: 24847786
 date: "2025-01-19T16:05:57"
-modified: "2026-07-02T17:23:49"
+modified: "2026-09-26"
 sourceUrl: "https://mikebastin.com/valencia-public-transportation/"
 excerpt: "Explore Valencia’s public transportation with efficient buses, metro, and trams, connecting you effortlessly across the city."
 ---
@@ -21,15 +21,15 @@ Most of the tourist guides describe **Valencia public transportation** as if it 
 
 ### Metrovalencia: the workhorse
 
-Six metro lines plus three tram lines run by Metrovalencia. The network covers the city centre, the beaches at Cabanyal and Malvarrosa, the airport, and most of the residential neighbourhoods worth living in.
+Metrovalencia runs ten lines: six metro lines (1, 2, 3, 5, 7 and 9) and four tram lines (4, 6, 8 and 10, the newest, opened in 2022). The network covers the city centre, the beaches at Cabanyal and Malvarrosa, the airport, and most of the residential neighbourhoods worth living in.
 
 What we use almost daily:
 
--   **Lines 3 and 5** connect the city centre to the airport directly. About 25 minutes from Xàtiva to Aeroport. No need to think about taxis for flights.
+-   **Lines 3 and 5** connect the city centre to the airport directly. Allow around 25 minutes from Xàtiva to Aeroport. No need to think about taxis for flights.
 -   **Line 5** runs east to Marítim and the beach. Tram from there onwards.
 -   **Tram line 4** from the centre out to Cabanyal beach in summer. Slower than the metro, more pleasant.
 
-Frequencies are decent, ten to fifteen minutes off-peak, six to eight at rush hour. Trains are clean and air-conditioned. Current fares and zones are on the [Metrovalencia official site](https://www.metrovalencia.es/en/). For a detailed ticket-by-ticket breakdown in French, see the [Valencia Metro tickets guide 2026](https://valenciamove.com/fr/blog/guide-tickets-metro-valencia-2026/) on our sister site Valenciamove.
+Frequencies are decent on the central stretches, and noticeably better at rush hour than late in the evening. Trains are clean and air-conditioned. Current fares and zones are on the [Metrovalencia official site](https://www.metrovalencia.es/en/). For a detailed ticket-by-ticket breakdown in French, see the [Valencia Metro tickets guide 2026](https://valenciamove.com/fr/blog/guide-tickets-metro-valencia-2026/) on our sister site Valenciamove.
 
 ### EMT buses: the dense urban grid
 
@@ -41,9 +41,13 @@ Get the EMT app. The route planning saves time and the live arrival data is accu
 
 ### Valenbisi: the secret weapon
 
-The bike-share network is genuinely excellent. Around 280 stations, decent coverage of the residential ring around the centre, and an annual subscription that pays for itself in roughly three weeks of normal use.
+The bike-share network is genuinely excellent. Hundreds of stations, decent coverage of the residential ring around the centre, and a cheap annual subscription that includes short rides at no extra cost. Check current prices on the [Valenbisi site](https://www.valenbisi.es/).
 
-What makes it work: the Turia gardens. The dry riverbed running through the city is a nine-kilometre car-free park with a continuous bike path. From the Bioparc in the west to the Ciutat de les Arts in the east, no traffic lights, no cars.
+What makes it work: the Turia gardens. The old riverbed running through the city is a car-free park more than nine kilometres long, with a continuous bike path.
+
+> Stretching for over nine kilometres, it follows the old course of the River Turia, diverted to the south of the city after the floods of 1957.
+>
+> Source: [Visit València, "Turia Gardens"](https://www.visitvalencia.com/en/what-to-see-valencia/turia-gardens) From the Bioparc in the west to the Ciutat de les Arts in the east, no traffic lights, no cars.
 
 Cycling Valencia in March and October is one of the genuine pleasures of the city.
 
@@ -52,10 +56,10 @@ Cycling Valencia in March and October is one of the genuine pleasures of the cit
 The regional rail network is the part most expats discover late.
 
 -   **Line C-1** south to Cullera and Gandia. Beach day with no parking stress.
--   **Line C-5** north to Sagunto. Roman amphitheatre, good seafood, half the tourists of the centre.
+-   **Lines C-5 and C-6** north to Sagunto. Roman amphitheatre, good seafood, half the tourists of the centre.
 -   **Line C-3** west to Buñol if you need a tomato fight every August.
 
-From there, AVE high-speed rail puts Madrid at 1h45, Barcelona at around 3h. We have not driven those routes in years.
+From Joaquín Sorolla station, high-speed trains put Madrid under two hours away, and Barcelona takes around three. We have not driven those routes in years.
 
 ### Where having a car still earns its keep
 
@@ -66,18 +70,22 @@ We do drive. Almost never inside the city, but the car earns its keep on weekend
 -   The Costa Blanca beaches south of Cullera, and the Sierra Calderona north of the city, for weekend escapes.
 -   Bulky shopping runs that do not fit a Valenbisi front basket.
 
-Inside the centre we have not parked in months. Cabify covers the late-night returns and is roughly 30% cheaper than central European equivalents. Standard taxis work fine and accept card without the arguments of a few years back.
+Inside the centre we have not parked in months. Cabify covers the late-night returns and is usually cheaper than the equivalent ride in northern European capitals. Standard taxis work fine and accept card without the arguments of a few years back.
 
 ### A practical week-one checklist
 
 If you are [moving to Valencia](https://mikebastin.com/move-to-valencia-spain-from-usa/), the order we would recommend:
 
--   Day one: buy a TuiN card at any metro station. Refillable, works on metro, tram, and bus.
+-   Day one: get a Mobilis card at a metro station and load a SUMA ticket. One card and one fare cover metro, tram, EMT buses, MetroBus and Cercanías across the metropolitan area. (The older TuiN wallet still exists but only works on metro and tram.)
 -   Week one: download the EMT and Metrovalencia apps. The English versions work properly.
 -   Week two: set up Valenbisi annual. Requires a Spanish bank card, which is part of the broader [setup process](https://mikebastin.com/business-registration-in-valencia/).
 -   Month one: try Cercanías for a beach day. Once you do, the car-rental habit usually fades.
 
 ### If you want a relocation hand from someone who lives here
+
+> Since 31 January 2022, SUMA integrates all public transport in the Valencia metropolitan area, Metrovalencia, EMT, MetroBus and Renfe Cercanías, on a single card at the same price.
+>
+> Source: [Valencia Plaza, "La nueva tarjeta única que permite viajar en metro, bus y Cercanías entra en vigor este lunes", 31 January 2022](https://valenciaplaza.com/nueva-tarjeta-unica-permite-viajar-metro-bus-cercanias-vigor-lunes)
 
 Public transit is one of the smaller pieces of moving here, but it shapes how you choose a neighbourhood. [The neighbourhoods worth living in](https://mikebastin.com/best-neighborhoods-valencia/) all sit close to a metro line for a reason.
 

@@ -44,7 +44,11 @@ const TARGETS = {
   "optimise-a-google-business-profile": ["/services/local-seo/", "Owner correction 6 Sep: this is off-site/local visibility work, not technical-seo. local-seo has its own page now."],
   "how-to-make-money-on-youtube": ["/blog/", "Owner confirmed 6 Sep: no experience in that space, nothing on the site to point it at."],
   "boosting-local-seo": ["/services/local-seo/", "Owner correction 6 Sep: this is off-site SEO, not technical-seo. Same cluster as optimise-a-google-business-profile, which is retiring to the same page in this batch -- pointed directly here rather than chaining through a post that is about to disappear."],
-  "long-tail-keywords": ["/blog/multilingual-keyword-research/", "multilingual-keyword-research already owns this topic, with 2,852 impressions, and stays live at its Journal URL now that /blog/ is wired up."],
+  "long-tail-keywords": ["/services/multilingual-seo/", "Originally pointed at multilingual-keyword-research, but that post is retiring in this same batch (24 Sep audit); repointed straight at its own final destination rather than chaining through a post about to stop existing."],
+  "multilingual-keyword-research": ["/services/multilingual-seo/", "24 Sep audit: no legacy comparison table survived migration and GSC gave it no standing figure; the topic is already the multilingual-seo service page's job."],
+  "top-instagram-tools": ["/blog/", "24 Sep audit: a generic tools listicle with no owning page and no topical tie to the practice's own services."],
+  "prompt-engineers": ["/services/ai-consulting/", "24 Sep audit: AI-consulting service page already owns the prompt-engineering topic."],
+  "optimising-your-website-for-voice-search": ["/services/generative-engine-optimization/", "24 Sep audit: voice search is the earlier form of the same buyer behaviour the GEO service page now covers (answers surfaced by an assistant rather than a ranked list); FR sibling recherche-vocale stays live, no FR GEO service page to absorb it into."],
 };
 
 const cm = JSON.parse(readFileSync(MAP, "utf8"));

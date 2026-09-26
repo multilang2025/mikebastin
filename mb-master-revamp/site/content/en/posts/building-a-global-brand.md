@@ -7,24 +7,18 @@ type: "posts"
 group: "g018"
 wpId: 37220
 date: "2024-09-25T15:01:46"
-modified: "2026-07-02T15:24:02"
+modified: "2026-09-26"
 sourceUrl: "https://mikebastin.com/building-a-global-brand/"
 excerpt: "Master the art of building a global brand by balancing consistency and local relevance. Explore insights, case studies, and practical tips in this guide."
 ---
 
-## Building a global brand is not the same as translating one
-
-Most “global brand” projects we see are translation projects in disguise.
-
-The English brand voice gets converted into Spanish, French, Dutch, German. The visual identity stays. The launch deck travels well. Six months later the in-market teams quietly start rewriting copy because the translated version sounds wrong to local buyers.
+Most “global brand” projects we see are translation projects in disguise. The English brand voice gets converted into Spanish, French, Dutch, German. The visual identity stays. The launch deck travels well. Six months later the in-market teams quietly start rewriting copy because the translated version sounds wrong to local buyers.
 
 The gap between “translated” and “genuinely global” is where **building a global brand** actually lives.
 
-### What changes between markets, even when the brand stays the same
+## What changes between markets, even when the brand stays the same
 
-We run BeTranslated across .be, .fr, .es, .co.uk, .nl, and .com properties. Same agency, same service, same positioning at the strategic level.
-
-The execution differs in ways that matter to conversion.
+We run BeTranslated across .be, .fr, .es, .co.uk, .nl, and .com properties: same agency, same service, same positioning at the strategic level. The execution differs in ways that matter to conversion.
 
 -   **Belgian B2B audiences want functional precision and pricing clarity early.** Long emotional headlines lose them in the first paragraph.
 -   **French B2B audiences expect a more formal register and more context** before any commercial ask. Vouvoyer is non-negotiable.
@@ -34,9 +28,20 @@ The execution differs in ways that matter to conversion.
 
 Same brand, five different on-page emphases. None of these adjustments break the identity. They make it land.
 
-### Three things that travel without adjustment
+## What travels and what needs work
 
-The brand assets that survive cross-market deployment without rework, in our experience.
+| Brand element | Travels as is? | What to do per market |
+|---|---|---|
+| Visual identity | Yes | Nothing, if the system was disciplined |
+| Strategic positioning | Yes | Translate the one-liner, keep the meaning |
+| Proof points and metrics | Yes | Add local proof where you have it |
+| Tone of voice | No | Transcreate, budget for it |
+| Cultural references and humour | No | Replace, do not translate |
+| Trust signals | No | Local reviews, phone, address, payment methods |
+
+## Three things that travel without adjustment
+
+In our experience, these brand assets survive cross-market deployment without rework.
 
 **Visual identity.** Logo, palette, typography, photographic style. These move clean across borders if the original system was disciplined.
 
@@ -44,7 +49,7 @@ The brand assets that survive cross-market deployment without rework, in our exp
 
 **Proof points and metrics.** Numbers, case studies, awards. Specifics carry credibility everywhere.
 
-### Three things that need market-by-market work
+## Three things that need market-by-market work
 
 **Tone of voice.** Direct in Dutch reads as rude in French. Warm in Spanish reads as overfamiliar in German. Voice is the most expensive part of [multilingual brand work](/blog/best-practices-for-multilingual-seo/) precisely because it is the part nobody budgets enough for.
 
@@ -52,19 +57,19 @@ The brand assets that survive cross-market deployment without rework, in our exp
 
 **Trust signals.** Reviews from local clients, local phone numbers, local addresses, payment methods buyers recognise. [Cultural differences in multilingual websites](/services/multilingual-content/) show up most sharply in this layer.
 
-### A real failure mode we keep seeing
+## A real failure mode we keep seeing
 
-The pattern goes like this. A brand decides to “go global”. Marketing commissions a translation agency. Six locales launch simultaneously. The English version converts at 3.2%. The localized versions average 0.9%.
+The pattern goes like this. A brand decides to “go global”, marketing commissions a translation agency, and six locales launch simultaneously. The English version keeps converting; the localized versions convert at a fraction of its rate.
 
-Three weeks later someone calls us and asks why “the SEO is not working”.
+A few weeks later someone calls us and asks why “the SEO is not working”.
 
 The SEO is fine. The brand never landed. Translation moved the words; nobody moved the brand.
 
 Fixing it takes a transcreation pass plus on-page tweaks per market. Eight to twelve weeks for the full set, depending on language count.
 
-### A practical checklist
+## A practical checklist
 
-If you are about to launch in a new market, the questions worth answering before you ship.
+If you are about to launch in a new market, these are the questions worth answering before you ship.
 
 -   Has the headline been transcreated, not translated?
 -   Does the local site list a local phone number, address, and named contact?
@@ -75,7 +80,7 @@ If you are about to launch in a new market, the questions worth answering before
 
 If you cannot tick all six, the brand has crossed the border but not arrived.
 
-### A second pair of eyes on your global brand work
+## A second pair of eyes on your global brand work
 
 If you are launching across two or more markets, we are happy to look at the gap between your strategic brand and what each market actually sees.
 

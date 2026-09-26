@@ -1,5 +1,5 @@
 ---
-words: 1359
+words: 1030
 title: "Technical SEO for multilingual websites"
 slug: "technical-seo-for-multilingual-websites"
 locale: "en"
@@ -7,166 +7,123 @@ type: "posts"
 group: "g166"
 wpId: 24845457
 date: "2024-12-16T16:08:46"
-modified: "2026-07-19T11:29:01"
+modified: "2026-09-26T12:00:00"
 sourceUrl: "https://mikebastin.com/technical-seo-for-multilingual-websites/"
 excerpt: "Master multilingual SEO with our essential checklist. Learn to optimize hreflang tags, manage server locations, and address duplicate content effectively."
 ---
 
-## How to avoid common mistakes
+Managing [multilingual websites](/blog/optimising-multilingual-website-content/) brings its own set of technical SEO problems. Most of them come down to four things: hreflang tags, server location, duplicate content and domain structure.
 
-### Essential checklist: technical implementation steps for multiple language versions
+Below we go through each one, the mistakes we see most often, and how to avoid them so they do not hold back your [multilingual SEO](/services/multilingual-seo/) or your rankings.
 
-  
-Managing [multilingual websites](/blog/optimising-multilingual-website-content/) comes with its own set of technical SEO challenges.
+## Why hreflang tags matter
 
-To ensure optimal performance and avoid common pitfalls, it’s important to address technical aspects like [hreflang tags](/blog/best-practices-for-multilingual-seo/), server location, and duplicate content management.
+Hreflang tags tell search engines which language and regional version of a page to show each user. Missing or incorrect tags lead to the wrong version ranking, near-duplicate pages competing with each other and a poor user experience. Our [best practices for multilingual SEO](/blog/best-practices-for-multilingual-seo/) cover the wider strategy.
 
-Below we look in detail at how to avoid mistakes that could hinder your [multilingual SEO](/services/multilingual-seo/) efforts and harm your search engine rankings.
+### How to implement hreflang tags correctly
 
-### Why hreflang tags matter in multilingual SEO
+Each page carries annotations pointing to itself and to every other language or regional version. You can declare them in three places, and one is enough:
 
-Hreflang tags are essential for telling search engines which language and region-specific version of a page to show users. Learn more about their importance in our [best practices for multilingual SEO](/blog/best-practices-for-multilingual-seo/) guide.
+| Method | Where it lives | Best for |
+|---|---|---|
+| HTML link tags | The `<head>` of each page | Most websites |
+| HTTP headers | The server response | PDFs and other non-HTML files |
+| XML sitemap | The sitemap file | Large sites with many languages |
 
-They help ensure that users see the right content based on their language preference and geographic location.
+Every annotation must be returned. If page A points to page B, page B must point back to page A, or Google discards the pair.
 
-Incorrect or missing hreflang tags can lead to issues like [duplicate content](/blog/common-mistakes-to-avoid-when-localising-your-website/) and poor user experience.
+> "If two pages don't both point to each other, the tags will be ignored."
+> Source: [Google Search Central, "Tell Google about localized versions of your page"](https://developers.google.com/search/docs/specialty/international/localized-versions)
 
-#### How to Implement hreflang tags correctly
+<figure class="post-fig">
+<svg viewBox="0 0 400 184" role="img" aria-label="Three language versions of a page reference one another with hreflang, and all three point to the same x-default fallback.">
+<path d="M70 34 Q200 0 330 34" fill="none" class="fg-line"/>
+<line x1="120" y1="58" x2="150" y2="58" class="fg-line"/>
+<line x1="250" y1="58" x2="280" y2="58" class="fg-line"/>
+<rect x="20" y="34" width="100" height="48" rx="6" class="fg-box"/>
+<rect x="150" y="34" width="100" height="48" rx="6" class="fg-box"/>
+<rect x="280" y="34" width="100" height="48" rx="6" class="fg-box"/>
+<text x="70" y="64" text-anchor="middle" class="fg-text">en-GB</text>
+<text x="200" y="64" text-anchor="middle" class="fg-text">fr-FR</text>
+<text x="330" y="64" text-anchor="middle" class="fg-text">de-DE</text>
+<line x1="70" y1="82" x2="160" y2="128" class="fg-accent"/>
+<line x1="200" y1="82" x2="200" y2="128" class="fg-accent"/>
+<line x1="330" y1="82" x2="240" y2="128" class="fg-accent"/>
+<rect x="140" y="128" width="120" height="44" rx="6" class="fg-hot"/>
+<text x="200" y="156" text-anchor="middle" class="fg-strong">x-default</text>
+</svg>
+<figcaption>An hreflang cluster works only as a whole: every version lists every other version and itself, and all of them name the same fallback page.</figcaption>
+</figure>
 
-Each page should have hreflang annotations pointing to its language-specific and region-specific versions.
+### Common hreflang mistakes
 
-These annotations can be implemented in the HTML header, HTTP headers, or [XML sitemap](/blog/localisation-testing-tools/).
+- Pointing to the wrong URL, a redirect or a page that returns an error.
+- Using an invalid code: `en-UK` instead of `en-GB`, or a country code where a language code belongs.
+- Leaving out `x-default`, the version shown to users who match no listed language or region.
+- Missing return links, as above.
 
-Ensure that all hreflang tags are bidirectional, meaning if page A points to page B, page B must point back to page A.
+Each of these costs you ranking opportunities and undermines the [website localization](/services/website-localisation/) work behind the pages.
 
-#### Common hreflang mistakes to avoid
+## Server location and geotargeting
 
-One common mistake is linking to the wrong URLs or using incorrect language codes, which can confuse search engines.
+Where your site is hosted affects speed, and speed matters to users in every market. Google treats server location as a hint about the intended audience at most, so it should never be your main geotargeting signal. Our [guide to SEO in Belgium](/blog/seo-in-belgium/) shows how the stronger signals work in a multilingual country.
 
-Another issue is forgetting to include a default language version (`x-default`) for users who don’t fit into any specific language or region.
+If your site targets several countries, a content delivery network (CDN) serves pages from locations close to each user, which keeps load times low everywhere. Pair it with hreflang and a clear domain structure rather than relying on hosting alone.
 
-Overlooking hreflang errors can lead to poor [localization](/services/website-localisation/) results and missed ranking opportunities.
+## Managing duplicate content across languages
 
-### Server location and its impact on multilingual SEO
+Multilingual sites often end up with near-identical pages, for example English versions for the UK and Ireland, or pages that were never fully translated. Google only treats localized versions as duplicates when the main content stays untranslated, so the fix is mostly about making each version distinct and clearly labelled.
 
-Where your website is hosted can affect your site’s performance, particularly when it comes to speed and [geotargeting](/blog/seo-in-belgium/).
+- Use hreflang to tie language and regional variants together.
+- Give each version its own URL, [meta tags and headings](/services/technical-seo/).
+- Give each version a self-referencing canonical. A canonical pointing from the French page to the English one tells Google to drop the French page.
 
-Having servers located closer to your target audience can reduce latency and improve load times.
+## Avoiding automated translation pitfalls
 
-Server location should be part of a broader strategy that includes other geotargeting factors.
+Raw machine translation often reads unnaturally, misses context and loses the intent of the original. Search engines may treat thin, machine-generated text as low quality, which harms organic rankings, and users who struggle with it leave. [Post-editing by a professional linguist](/services/ai-translation-and-post-editing/) fixes most of this.
 
-#### Choosing the right server location
+Proper localization adapts content to the language, culture and expectations of each market. Translate and localize:
 
-If your multilingual site targets multiple countries, consider using a Content Delivery Network (CDN) to serve content quickly regardless of the user’s location.
+- meta titles and meta descriptions
+- URL slugs
+- image alt text
+- structured data, where it contains text
 
-CDNs help distribute your content across various locations, ensuring faster load times for users in different regions.
+Work with professional [translation services](/services/translation-services/) or native-speaking SEO specialists, who also research the keywords people use in each market rather than translating English ones. Clear, localized content is more relevant to local searchers and builds the trust an international brand needs.
 
-Avoid relying solely on server location for geotargeting; instead, use it with other signals like hreflang and [country-specific domains](/blog/).
+## Choosing a domain structure
 
-### Managing duplicate content across different languages
+There are three common ways to organise a multilingual site. Each has trade-offs, and the right choice depends on your markets, budget and team.
 
-Multilingual websites often face the challenge of [duplicate content](/blog/common-mistakes-to-avoid-when-localising-your-website/), where similar content exists in different languages or regions.
+| Structure | Example | Geotargeting signal | Effort to run |
+|---|---|---|---|
+| ccTLD | example.fr | Strongest | High, separate domains to build up |
+| Subdirectory | example.com/fr/ | Clear with hreflang | Low, one domain shares its authority |
+| Subdomain | fr.example.com | Clear with hreflang | Medium, often treated more like a separate site |
 
-Duplicate content can confuse search engines and dilute your website’s ranking power.
+Google advises against using URL parameters such as `?lang=fr` for language versions.
 
-It’s crucial to ensure that search engines understand the distinctions between language-specific pages.
+### Avoiding domain structure mistakes
 
-#### How to avoid duplicate content issues
+Keep one structure across the whole site. Mixing ccTLDs for some languages and subdirectories for others makes the site harder to manage and sends weaker, inconsistent signals. Make sure users can switch language from any page, and that the switcher links to the equivalent page rather than the homepage.
 
-Use hreflang tags to differentiate between language versions of similar content. See our [best practices](/blog/best-practices-for-multilingual-seo/) for more guidance.
+## Translating and optimizing metadata
 
-If different language versions of a page contain largely the same content, ensure that they are properly distinguished by using different URLs, [meta tags](/services/technical-seo/), and headers.
+Metadata shapes how your pages are indexed and how they appear in results. Translated and optimized titles, descriptions and alt text help each version rank in its own market.
 
-Canonical tags can also be used to tell search engines which version of a page is the primary one, preventing duplicate content penalties.
+Do not copy English metadata into other language versions. Write it for the local audience, with the keywords people there search for; our [multilingual SEO copywriting services](/services/multilingual-content/) handle exactly that. Translated alt text also improves accessibility and image search visibility.
 
-#### Avoiding automated translation pitfalls
+## Keeping the setup healthy
 
-Automated translations often produce content that sounds unnatural, lacks context, and fails to capture the intent behind the original message. [Learn why post-editing is essential for quality multilingual sites](/services/ai-translation-and-post-editing/).
+Multilingual SEO is never set and forget. Follow [emerging trends and tools](/blog/future-of-seo/), and schedule [regular technical audits](/services/technical-seo/) that check:
 
-Search engines like Google may treat this machine-generated text as low-quality or even duplicate content, which can harm your **organic search rankings**.
+- hreflang errors and missing return links
+- crawl errors in each language folder or domain
+- indexation of every language version
+- redirects that send users to the wrong language
 
-That’s a serious risk when managing **multilingual websites**, especially when targeting different countries through [international SEO](/services/multilingual-seo/).
+Document your international architecture so anyone on the team can see which URL serves which market. When search engines change their requirements, a documented setup is quicker to adjust. Our [technical SEO audit checklist](/blog/technical-seo-audit-checklist/) covers the wider audit.
 
-Low-quality translations confuse users, damage the **user experience**, and increase **bounce rates**, sending negative signals to search engines.
+## The short version
 
-Proper [website localization](/services/website-localisation/) means adapting content to the **language, culture, and expectations** of each market.
-
-Translate **meta titles**, **meta descriptions**, **URL slugs**, **alt text**, and **structured data** where relevant.
-
-Use **hreflang tags** to help search engines serve the correct language version of each page and avoid **duplicate content issues**.
-
-Avoid tools like Google Translate or other automated software that introduce errors, mistranslations, and miss out on [local keyword optimization](/services/technical-seo/).
-
-Work with professional [translation services](/services/translation-services/) or native-speaking SEO experts to ensure content accuracy and alignment with your brand voice.
-
-Clear, localized content improves **content relevance**, supports your [international marketing strategy](/services/multilingual-seo/), and boosts visibility across global **search engine results pages (SERPs)**.
-
-Professional translation is more than a language task.  
-It’s a core part of scaling your brand internationally and building trust with local audiences.
-
-### Domain structure for multilingual websites
-
-Choosing the right [domain structure](/blog/technical-seo-for-multilingual-websites/) is essential for multilingual SEO success.
-
-There are several options for setting up multilingual websites, including country-code top-level domains (ccTLDs), subdirectories, and subdomains.
-
-Each option has its pros and cons, and the best choice depends on your business goals and target audience.
-
-#### ccTLDs vs. subdirectories vs. subdomains
-
-Using ccTLDs (e.g., example.fr) provides clear geotargeting signals to search engines but requires more resources to manage multiple domains.
-
-Subdirectories (e.g., example.com/fr) are easier to manage and allow authority to flow from one main domain, but they are not as strong a geotargeting signal as ccTLDs.
-
-Subdomains (e.g., fr.example.com) can be an option, but they are generally less effective for SEO than ccTLDs or subdirectories.
-
-#### Avoiding domain structure mistakes
-
-Ensure that your chosen domain structure is consistent across your multilingual site and easy to navigate for both users and search engines.
-
-Avoid mixing different structures (e.g., using ccTLDs for some languages and subdirectories for others), as this can confuse search engines.
-
-Consistency is key to providing clear geotargeting signals and improving your site’s SEO performance.
-
-### The role of metadata in multilingual SEO
-
-Metadata plays a critical role in how your multilingual content is indexed and displayed in search results. See our [metadata optimization tips](/services/local-seo/).
-
-Properly translated and optimized meta titles, descriptions, and alt tags can boost your search visibility in different languages and regions.
-
-Neglecting metadata in multilingual SEO efforts can limit the effectiveness of your optimization strategy.
-
-#### Translating and optimizing metadata
-
-Ensure that all metadata, including meta titles and descriptions, are translated accurately and include relevant keywords for each target language. Explore our [multilingual SEO copywriting services](/services/multilingual-content/).
-
-Don’t simply copy and paste English metadata into other language versions, optimize it specifically for the local audience and search behaviour.
-
-Using translated alt tags for images is also important for improving accessibility and ranking in image search results.
-
-### Looking ahead: staying on top of multilingual SEO trends
-
-The world of multilingual SEO is constantly evolving, with new trends and technologies emerging to help businesses optimize their content for global audiences.
-
-To stay competitive, it’s important to keep up with [best practices and emerging tools](/blog/future-of-seo/) in the field.
-
-Here’s a more detailed version that avoids gerunds:
-
-A systematic approach to multilingual SEO maintenance will protect your site’s performance and help you detect issues before they impact your rankings.
-
-Schedule routine [technical audits](/services/technical-seo/) to check hreflang implementation, monitor crawl errors, and verify proper content indexation across all language versions.
-
-When search engines update their algorithms or introduce new requirements for international SEO, you must adjust your technical setup quickly to maintain visibility.
-
-The proactive strategy, combined with thorough documentation of your international architecture, will help you prevent common pitfalls such as incorrect language targeting, mixed content issues, and poor URL structure, problems that often affect multilingual websites but can be avoided through consistent monitoring and swift resolution.
-
-### Final thoughts: mastering technical SEO for multilingual sites
-
-Technical SEO is the foundation of successful multilingual websites.
-
-Achieving strong search rankings across multiple regions requires a thorough technical approach: implementing hreflang tags to signal language relationships between pages, strategically selecting server locations to optimize loading speeds for each market, preventing duplicate content issues through proper content management and URL structures, and choosing the right domain architecture (whether subdirectories, subdomains, or ccTLDs) for your international presence.
-
-When these technical elements work in harmony, search engines can better understand, index, and rank your content for users in each target market, ultimately driving more relevant organic traffic to your multilingual website.
-
-Avoiding common mistakes and regularly refining your strategy will help you provide a smooth experience for global users and boost your visibility in search engines.
-
+Strong rankings across several markets rest on a sound technical base: complete hreflang clusters, fast delivery in every region, distinct and self-canonical language versions, and one consistent domain structure. When these work together, search engines understand which page to show to whom, and more of the right visitors reach your multilingual site.

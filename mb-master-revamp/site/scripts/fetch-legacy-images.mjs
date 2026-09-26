@@ -20,7 +20,8 @@
  *   node scripts/fetch-legacy-images.mjs --force  # re-fetch everything
  *
  * Two derivatives per post, both webp:
- *   <slug>.webp        1200px wide, the card and the post head
+ *   <slug>.webp        the card and the post head (then cut to 1200x630
+ *                      with a -640 sibling by optimize-blog-images.mjs)
  *   <slug>-thumb.webp  160x84, the footer's recent-post thumbnails
  *
  * The thumbnail is a real file rather than the full image scaled in the
