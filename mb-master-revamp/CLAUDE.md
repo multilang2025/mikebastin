@@ -176,6 +176,13 @@ needs.
   correcting an earlier assumption here), so *agency* is accurate and
   available: "generative engine optimisation agency" draws 1,300 globally
   at difficulty 1, and seven service titles now use the word.
+- **Headings never read as a bare exact-match keyword** (owner, 27 Sep
+  2026: "improve the HN across the board so they don't look like an exact
+  match kw"). A heading leads with the term and says what the section or
+  page gives the reader. Language-market SEO headings add GEO ("French SEO
+  and GEO agency for companies selling into France"). `name` stays the
+  short nav and footer label; cards and share images use `cardTitle`, and
+  topic pages use `TOPIC_HEADING` in `lib/posts.ts`.
 - **The focus keyword is always in the h1** (owner, 21 Sep 2026). Every
   page has one term it is trying to win, and the h1 carries it, whatever
   else the headline is doing. A hero rewritten for punch that drops the

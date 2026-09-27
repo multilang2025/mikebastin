@@ -418,6 +418,22 @@ export type ClusterGroup = {
  * its topic page and used as that page's meta description, so it is
  * written once rather than drifting between the two.
  */
+/**
+ * The h1 and share-card title of each topic page. The cluster name alone
+ * ("Multilingual SEO", "SEO fundamentals") read as a bare exact-match
+ * keyword in a heading (owner, 27 Sep 2026), so the heading leads with the
+ * term and says what the reader finds there. The name stays the label.
+ */
+const TOPIC_HEADING: Record<string, string> = {
+  "Multilingual SEO": "Multilingual SEO and GEO without your languages competing",
+  "Language markets": "Language markets read one country at a time",
+  "AI and the future of search": "AI search and GEO: how answer engines pick their sources",
+  "SEO fundamentals": "SEO fundamentals to get right before you translate",
+  "Language industry": "Inside the language industry: translation and localization work",
+  "Multilingual lead generation": "Multilingual lead generation that shows which language sold",
+  "Business and marketing": "Business and marketing for companies selling abroad",
+};
+
 const TOPIC_BLURB: Record<string, string> = {
   "Multilingual SEO":
     "Running one site across several languages without the versions competing with each other. Hreflang, per-market keyword work, and the decisions that get made before anything is written.",
@@ -443,7 +459,7 @@ export function topicSlug(name: string): string {
     .replace(/^-|-$/g, "");
 }
 
-export type Topic = ClusterGroup & { slug: string; blurb: string };
+export type Topic = ClusterGroup & { slug: string; blurb: string; heading: string };
 
 /**
  * The clusters that get a topic landing page at /blog/topics/<slug>/.
@@ -466,6 +482,7 @@ export function getTopics(): Topic[] {
       ...g,
       slug: topicSlug(g.name),
       blurb: TOPIC_BLURB[g.name] ?? "",
+      heading: TOPIC_HEADING[g.name] ?? g.name,
     }));
 }
 

@@ -70,8 +70,8 @@ export default async function TopicPage({
             <p className="eyebrow mb-4">
               {count} {count === 1 ? "piece" : "pieces"} in the journal
             </p>
-            <h1 className="mb-7 max-w-[18ch] text-[clamp(2rem,5vw,3.4rem)] font-semibold leading-[1.05]">
-              {topic.name}
+            <h1 className="mb-7 max-w-[22ch] text-[clamp(2rem,5vw,3.4rem)] font-semibold leading-[1.05]">
+              {topic.heading}
             </h1>
             <p className="max-w-[62ch] text-[1.05rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
               {topic.blurb}

@@ -11,5 +11,5 @@ export const contentType = OG_CONTENT_TYPE;
 export const alt = "Lead generation services card from Mike Bastin";
 
 export default async function Image() {
-  return renderServiceOgImage(service);
+  return renderServiceOgImage({ name: service.cardTitle ?? service.name, angle: service.angle });
 }

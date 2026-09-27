@@ -99,7 +99,7 @@ export default function ServicesIndex() {
                         >
                           <ServiceIcon slug={s.slug} />
                         </span>
-                        <span className="ulink mb-2 text-[1.08rem] font-semibold">{s.name}</span>
+                        <span className="ulink mb-2 text-[1.08rem] font-semibold">{s.cardTitle ?? s.name}</span>
                         <p className="text-[.9rem] leading-[1.5]" style={{ color: "var(--dim)" }}>
                           {s.lede}
                         </p>

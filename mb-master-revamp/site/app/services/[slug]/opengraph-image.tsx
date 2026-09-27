@@ -17,6 +17,8 @@ export default async function Image({ params }: { params: Promise<{ slug: string
   const { slug } = await params;
   const service = getService(slug);
   return renderServiceOgImage(
-    service ?? { name: "Mike Bastin", angle: "Multilingual search consultant" }
+    service
+      ? { name: service.cardTitle ?? service.name, angle: service.angle }
+      : { name: "Mike Bastin", angle: "Multilingual search consultant" }
   );
 }

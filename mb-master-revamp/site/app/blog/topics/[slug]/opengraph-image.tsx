@@ -15,5 +15,5 @@ export const alt = "Journal topic card from Mike Bastin";
 export default async function Image({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const topic = getTopics().find((t) => t.slug === slug);
-  return renderBlogOgImage({ title: topic?.name ?? "Journal", label: "Journal topic" });
+  return renderBlogOgImage({ title: topic?.heading ?? "Journal", label: "Journal topic" });
 }
