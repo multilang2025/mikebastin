@@ -1,15 +1,16 @@
 ---
 words: 883
-title: "Spanish on-page SEO: a checklist for pages that read local"
+title: "Spanish on-page SEO and GEO: a checklist for pages that read local"
+metaTitle: "Spanish on-page SEO and GEO: a local checklist"
 slug: "spanish-on-page-seo"
 locale: "en"
 type: "posts"
 group: "g162"
 wpId: 24845619
 date: "2024-10-25T14:48:00"
-modified: "2026-09-26T21:30:00"
+modified: "2026-09-27T16:00:00"
 sourceUrl: "https://mikebastin.com/spanish-on-page-seo/"
-excerpt: "Spanish pages that get found, then closed? A Spanish on-page SEO checklist for the details that make a page read local and turn visits into enquiries."
+excerpt: "Spanish pages that get found, then closed? A Spanish on-page SEO and GEO checklist for pages that read local, win enquiries and get cited in AI answers."
 ---
 
 ## On-page SEO for Spanish-speaking audiences
@@ -78,6 +79,23 @@ A large share of Spanish users browse on phones, so mobile optimization comes fi
 
 Richer listings draw more clicks than plain ones. Localized schema, such as business details or events, supports [technical SEO for Spanish search engines](/blog/technical-seo-for-spanish-search-engines/) and can earn them.
 
+## GEO: getting your Spanish pages cited in AI answers
+
+More Spanish buyers now ask ChatGPT, Perplexity or Google's AI Overviews before they ever see a list of links. The answer names two or three sources. If your Spanish page is not one of them, the buyer may never reach your site, no matter how well it ranks. Generative engine optimization (GEO) is the work of making the page easy for those systems to quote.
+
+Most of it is on-page work you are already doing, done with more discipline:
+
+- **Answer first.** Open each section with the direct answer in one or two plain Spanish sentences, then give the detail. An AI answer lifts the sentence that stands on its own.
+- **Headings buyers would ask.** Phrase subheadings the way a Spanish buyer types the question, in their Spanish, so the section matches the query it answers.
+- **Facts with sources.** Prices, lead times and figures stated plainly, with the source named, are easier to cite than claims.
+- **Consistent business details.** The same company name, address and services on the page, in the schema and on your profiles, so the systems can tell who you are.
+
+Treat it as a second reader of the same page: a page written clearly for a Spanish buyer is usually the page an AI answer quotes.
+
+<aside class="post-cta">
+<p><strong>Want your Spanish pages named in AI answers, not only ranked?</strong> Our <a href="/services/generative-engine-optimization/">generative engine optimization service</a> structures pages for ChatGPT, Perplexity and Google's AI Overviews to cite. <a href="/contact/">Book the discovery call</a>.</p>
+</aside>
+
 ## Measuring results
 
 Without numbers per market you cannot tell what worked. Use Google Search Console filtered to Spain, your analytics and [local SEO](/services/local-seo/) tools, and track engagement and click-through rates.
@@ -109,6 +127,10 @@ Tú suits informal audiences; usted suits formal content and older readers.
 ### How does internal linking help on-page SEO in Spain?
 
 Linking relevant Spanish content keeps visitors on the site longer and signals relevance to search engines.
+
+### Does on-page SEO help with AI answers in Spanish?
+
+Yes. Clear Spanish headings, direct answers and consistent business details make a page easier for ChatGPT, Perplexity and AI Overviews to cite, which is the core of GEO.
 
 ### Is schema markup necessary for local Spanish SEO?
 
