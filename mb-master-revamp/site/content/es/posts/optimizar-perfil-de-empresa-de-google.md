@@ -9,7 +9,7 @@ wpId: 24857773
 date: "2026-05-31T20:44:43"
 modified: "2026-05-31T20:44:43"
 sourceUrl: "https://mikebastin.com/es/optimizar-perfil-de-empresa-de-google/"
-excerpt: "Cómo optimizar tu Perfil de Empresa de Google en 2026: categorías, reseñas, fotos, Gemini en Maps y SEO local, con 25 años de experiencia."
+excerpt: "Cómo optimizar tu Perfil de Empresa de Google en 2026: categorías, reseñas, fotos, Gemini en Maps y SEO local, con más de dos décadas de experiencia."
 ---
 
 ![Cómo optimizar tu Perfil de Empresa de Google](https://mikebastin.com/wp-content/uploads/2024/10/Google-Business-Profile-1024x386.jpg)
@@ -260,7 +260,7 @@ Arregla esas cinco y verás movimiento en menos de un mes.
 > 
 > [Mike Bastin](https://mikebastin.com/es/conocenos-agencia-experta-en-seo/)
 
-Llevo 25 años haciendo SEO y traducción, con SEO local multilingüe en Bélgica, Francia, España, Países Bajos, el Reino Unido y Estados Unidos.
+Llevo más de dos décadas haciendo SEO y traducción, con SEO local multilingüe en Bélgica, Francia, España, Países Bajos, el Reino Unido y Estados Unidos.
 
 Ahora mismo aplico el mismo método para un despacho de abogados español, una empresa de transporte estadounidense, una inmobiliaria dominicana y un puñado de marcas de bienestar y servicios lingüísticos.
 

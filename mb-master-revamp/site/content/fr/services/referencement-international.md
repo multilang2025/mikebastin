@@ -17,7 +17,7 @@ excerpt: "Les stratégies de référencement permettent aux entreprises d'adapte
 
 Quels marchés cibler en premier, comment structurer l’architecture, quels signaux d’autorité construire par pays. La stratégie en amont du SEO multilingue.
 
-25 ans
+20+ ans
 
 de stratégies SEO transfrontalières en Europe et Amériques
 
@@ -145,7 +145,7 @@ Développement et migration technique
 
 ## Pourquoi un consultant pour la stratégie internationale
 
-**Mike Bastin** : 25 ans à orchestrer des stratégies SEO transfrontalières. Fondateur de BeTranslated, présent sur 12 ccTLDs, ce qui m’a forcé à apprendre de l’intérieur ce que peu de consultants ont vu : comment scaler proprement plusieurs marchés sans cannibaliser ses propres domaines, comment hiérarchiser quand on n’a pas le budget pour tout faire bien partout.
+**Mike Bastin** : plus de deux décennies à orchestrer des stratégies SEO transfrontalières. Fondateur de BeTranslated, présent sur 12 ccTLDs, ce qui m’a forcé à apprendre de l’intérieur ce que peu de consultants ont vu : comment scaler proprement plusieurs marchés sans cannibaliser ses propres domaines, comment hiérarchiser quand on n’a pas le budget pour tout faire bien partout.
 
 Quadrilingue (FR, EN, ES, NL), avec une expérience terrain dans 6 pays différents (Belgique, France, Espagne, Pays-Bas, États-Unis, République dominicaine). Cette expérience compte parce que la stratégie internationale n’est pas une discipline théorique : elle se prend dans la figure quand on essaie de vendre du B2B en allemand sans connaître les codes locaux, ou quand on lance le Mexique sans savoir qu’on n’utilise pas le même espagnol qu’en Espagne.
 

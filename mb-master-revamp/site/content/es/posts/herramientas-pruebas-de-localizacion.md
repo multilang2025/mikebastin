@@ -9,7 +9,7 @@ wpId: 24857767
 date: "2026-05-31T19:52:04"
 modified: "2026-05-31T19:52:04"
 sourceUrl: "https://mikebastin.com/es/herramientas-pruebas-de-localizacion/"
-excerpt: "Las mejores herramientas de pruebas de localización: TMS, gestión de casos, capturas, automatización y pseudolocalización, con 25 años de experiencia."
+excerpt: "Las mejores herramientas de pruebas de localización: TMS, gestión de casos, capturas, automatización y pseudolocalización, con más de dos décadas de experiencia."
 ---
 
 ![Herramientas de pruebas de localización](https://mikebastin.com/wp-content/uploads/2024/10/testing-tools-1024x364.jpg)
@@ -18,7 +18,7 @@ excerpt: "Las mejores herramientas de pruebas de localización: TMS, gestión de
 
 Las herramientas de pruebas de localización sirven para comprobar que un software o una web funcionan bien en cada idioma, cultura y región.
 
-En veinticinco años traduciendo y probando interfaces, he visto que casi ningún proyecto falla por la traducción en sí. Falla por un texto que se sale del botón, una fecha en el formato equivocado o un acento que rompe el orden alfabético.
+En más de dos décadas traduciendo y probando interfaces, he visto que casi ningún proyecto falla por la traducción en sí. Falla por un texto que se sale del botón, una fecha en el formato equivocado o un acento que rompe el orden alfabético.
 
 Estas herramientas detectan ese tipo de problemas: codificación de caracteres, formatos de fecha, monedas, dirección del texto y cadenas que se quedan sin traducir.
 

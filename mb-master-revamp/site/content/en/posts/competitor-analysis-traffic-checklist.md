@@ -1,6 +1,6 @@
 ---
 words: 2764
-title: "Competitor Traffic Analysis Checklist: A 25-Year SEO View"
+title: "Competitor Traffic Analysis Checklist: A Two-Decade SEO View"
 slug: "competitor-analysis-traffic-checklist"
 locale: "en"
 type: "posts"
@@ -14,7 +14,7 @@ excerpt: "Use this step-by-step checklist to analyse competitor traffic systemat
 
 ## What a Competitor Traffic Audit Really Tells You in 2026
 
-After 25 years of running SEO and translation projects across Belgian, Spanish, French and US markets, we can tell you the single biggest mistake clients make.
+After more than two decades of running SEO and translation projects across Belgian, Spanish, French and US markets, we can tell you the single biggest mistake clients make.
 
 They obsess over their own dashboards and ignore where their rivals quietly steal pipeline every quarter.
 

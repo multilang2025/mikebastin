@@ -87,7 +87,7 @@ Nuestros clientes
 
 ¿Por qué confiar en nuestra experiencia en traducción jurada?
 
-Tenemos casi más de 25 años de experiencia y hemos trabajado con clientes de diversos sectores, donde hemos entregado traducciones certificadas y juradas que cumplen los requisitos legales y los estándares profesionales más altos.
+Tenemos más de dos décadas de experiencia y hemos trabajado con clientes de diversos sectores, donde hemos entregado traducciones certificadas y juradas que cumplen los requisitos legales y los estándares profesionales más altos.
 
 Contamos con un equipo multilingüe de traductores jurados con las habilidades y capacidades necesarias para garantizar que la traducción de tus documentos sea exacta y válida legalmente.
 

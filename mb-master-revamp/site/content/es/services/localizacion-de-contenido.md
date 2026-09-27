@@ -55,4 +55,4 @@ From multilingual SEO and [cultural consulting](https://mikebastin.com/es/servic
 
 ## Expertos en localización de contenido
 
-Nuestros servicios de localización de contenido reposan sobre una base sólida de conocimiento de los mercados globales, los idiomas y las diferencias culturales. Con más de 25 años de experiencia en traducción, SEO y marketing digital, ofrecemos una combinación única de precisión lingüística y conocimientos técnicos en cada proyecto. Nuestro equipo de expertos asegura que tu contenido se traduzca y adapte con el fin de conectar con las audiencias locales, manteniendo siempre la integridad de tu marca en cada frontera.
+Nuestros servicios de localización de contenido reposan sobre una base sólida de conocimiento de los mercados globales, los idiomas y las diferencias culturales. Con más de dos décadas de experiencia en traducción, SEO y marketing digital, ofrecemos una combinación única de precisión lingüística y conocimientos técnicos en cada proyecto. Nuestro equipo de expertos asegura que tu contenido se traduzca y adapte con el fin de conectar con las audiencias locales, manteniendo siempre la integridad de tu marca en cada frontera.

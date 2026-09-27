@@ -1,5 +1,5 @@
 ---
-words: 862
+words: 990
 title: "How to promote your local business on Google Maps"
 slug: "how-to-promote-your-local-business-on-google-maps"
 locale: "en"
@@ -7,18 +7,18 @@ type: "posts"
 group: "g131"
 wpId: 37037
 date: "2024-09-14T16:11:34"
-modified: "2026-09-26T12:00:00"
+modified: "2026-09-26T21:30:00"
 sourceUrl: "https://mikebastin.com/how-to-promote-your-local-business-on-google-maps/"
-excerpt: "Boost your small business visibility on Google Maps. Learn how to list your business, optimize your profile, and rank higher in local search results."
+excerpt: "Nearby customers call one of the first three businesses on the map. How to promote your local business on Google Maps and be one of those three."
 ---
 
-For a small business, Google Maps is one of the most direct routes to new customers: people use it to find nearby services and products and then call, visit or ask for directions.
+Somebody a few streets away searches for exactly what you sell, calls one of the three businesses Google Maps shows first, and never sees yours. Nothing reports it. The phone simply rings less than it could.
 
-Below we walk through how to list your business, optimize the profile, build citations and reviews, use posts, ads and AI search, and measure what works.
+Below: how to get listed, what wins a place on the map, where reviews, posts, ads and AI answers fit in, and how to see what brings calls.
 
 ## Add your business to Google Maps
 
-Your Maps listing comes from a Google Business Profile.
+No verified profile, no place on the map. Your Maps listing comes from a Google Business Profile.
 
 1. Go to the [Google Business Profile website](https://www.google.com/business/) and sign in with your Google account.
 2. Enter your business name and choose the most accurate category.
@@ -32,7 +32,7 @@ Once verified, your business appears on Google Maps. Our [local SEO service](/se
 
 ## Optimize your listing
 
-A complete, accurate profile ranks better and earns more clicks.
+A half-finished profile loses to competitors with better upkeep, not better products. A complete, accurate one ranks better and earns more clicks.
 
 - **Accurate details.** Name, address, phone number and opening hours, kept up to date, including holiday hours.
 - **Business description.** Explain what you do in plain language, using the terms customers search for.
@@ -41,22 +41,26 @@ A complete, accurate profile ranks better and earns more clicks.
 
 ## Build citations
 
-A citation is a mention of your business name, address and phone number (NAP) on another website. Consistent citations help Google trust your details, which supports your [local SEO](/services/local-seo/).
+When your address reads differently across directories, Google trusts none of them. A citation is a mention of your business name, address and phone number (NAP) on another website. Consistent citations help Google trust your details, which supports your [local SEO](/services/local-seo/).
 
 - List your business in reputable directories such as Yelp, TripAdvisor and the leading sites for your industry.
 - Keep your NAP identical everywhere.
 - Add LocalBusiness schema markup to your website so Google can read the same details there.
 
+<aside class="post-cta">
+<p><strong>Not sure your details match everywhere they appear?</strong> Our <a href="/services/local-seo/">local SEO service</a> makes your name, address and phone number identical across every directory. <a href="/contact/">Book the discovery call</a>.</p>
+</aside>
+
 ## Encourage customer reviews
 
-Reviews influence both potential customers and your ranking in local results.
+Reviews are the first thing a nearby customer reads before calling, and they count towards your ranking in local results.
 
 - **Ask for reviews.** Invite satisfied customers in follow-up emails, on receipts or on social media.
 - **Respond to every review.** Replying to positive and negative reviews alike shows you value feedback and builds trust with people reading them.
 
 ## Use Google posts
 
-A Business Profile lets you publish updates, offers and events directly on your listing, which appear when people find you on Search and Maps. Post about:
+An active profile looks like an open business. A Business Profile lets you publish updates, offers and events directly on your listing, which appear when people find you on Search and Maps. Post about:
 
 - sales or discounts
 - new products or services
@@ -67,16 +71,20 @@ Short on ideas? Many of our [blog post ideas for small businesses](/blog/15-simp
 
 ## Prepare for AI search in Maps
 
-Google is adding its Gemini models to Maps, so people can ask detailed questions rather than type a few keywords.
+Google is adding its Gemini models to Maps, so people ask full questions instead of typing keywords, and the answers draw on your profile and your reviews. Gaps in either now cost you twice.
 
 > "Ask Maps, a new conversational experience that answers complex, real-world questions a map could never answer before." Google began rolling it out in the US and India on 12 March 2026.
 > Source: [Google, "Ask Maps and Immersive Navigation", 12 March 2026](https://blog.google/products-and-platforms/products/maps/ask-maps-immersive-navigation/)
 
-Conversational answers draw on the details in your profile and on what reviewers say. Keep your information accurate and specific, answer common questions in your description and posts, and base your wording on [local keyword research](/services/local-seo/) rather than guesswork.
+Keep your information accurate and specific, answer common questions in your description and posts, and base your wording on [local keyword research](/services/local-seo/) rather than guesswork.
+
+<aside class="post-cta">
+<p><strong>Does your city search in more than one language?</strong> Our <a href="/services/local-seo/">local SEO for multilingual cities</a> covers every language your customers search in, with a review routine and a reply to every review. <a href="/contact/">Book the discovery call</a>.</p>
+</aside>
 
 ## Consider paid ads
 
-Google Ads can put your business at the top of Maps and local results. Google has retired its old Local campaigns in favour of Performance Max for store goals:
+Organic visibility builds over months; ads buy it on day one. Google Ads can put your business at the top of Maps and local results. Google has retired its old Local campaigns in favour of Performance Max for store goals:
 
 1. Create a Google Ads account and link your Business Profile.
 2. Start a Performance Max campaign with a store visits goal.
@@ -96,7 +104,7 @@ Google Ads can put your business at the top of Maps and local results. Google ha
 
 ## Track your results
 
-The Performance report in your Business Profile shows:
+Without numbers you cannot tell which change brought the calls. The Performance report in your Business Profile shows:
 
 - how many people found you on Search and Maps
 - the search terms they used
@@ -106,4 +114,4 @@ Use the data to adjust your profile and posts. For tracking what happens once vi
 
 ## The short version
 
-Promoting a local business on Google Maps comes down to a verified, complete profile, consistent citations, a steady flow of reviews and replies, regular posts, and paid ads when you need visibility fast. Whether you run a shop or a service-area business, visibility and a good customer experience, online and offline, go together.
+Promoting a local business on Google Maps comes down to a verified, complete profile, consistent citations, a steady flow of reviews and replies, regular posts, and paid ads when you need visibility fast.

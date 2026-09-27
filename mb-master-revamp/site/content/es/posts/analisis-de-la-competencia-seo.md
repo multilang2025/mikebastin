@@ -9,14 +9,14 @@ wpId: 24857772
 date: "2026-05-31T20:42:23"
 modified: "2026-05-31T20:42:23"
 sourceUrl: "https://mikebastin.com/es/analisis-de-la-competencia-seo/"
-excerpt: "Análisis de la competencia para SEO en 2026: rivales reales en la SERP, cuota de tráfico, brechas de palabras clave y citas en IA, con 25 años de oficio."
+excerpt: "Análisis de la competencia para SEO en 2026: rivales reales en la SERP, cuota de tráfico, brechas de palabras clave y citas en IA, con más de dos décadas de oficio."
 ---
 
 ![Análisis de la competencia para SEO](https://mikebastin.com/wp-content/uploads/2026/01/competitoranalysis-1024x585.jpg)
 
 ## La mayoría del análisis de la competencia es teatro, no estrategia
 
-Después de veinticinco años, he leído más informes de «análisis de la competencia» de los que me gustaría reconocer.
+Después de más de dos décadas, he leído más informes de «análisis de la competencia» de los que me gustaría reconocer.
 
 Casi todos lucen en una presentación de dirección. Casi ninguno sirve para posicionar mejor.
 

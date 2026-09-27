@@ -1,5 +1,5 @@
 ---
-words: 1416
+words: 1552
 title: "Link selling and link buying platforms"
 slug: "link-selling-and-link-buying-platforms"
 locale: "en"
@@ -7,16 +7,16 @@ type: "posts"
 group: "g141"
 wpId: 24847099
 date: "2024-12-16T14:47:29"
-modified: "2026-09-26"
+modified: "2026-09-26T21:30:00"
 sourceUrl: "https://mikebastin.com/link-selling-and-link-buying-platforms/"
-excerpt: "Platforms for buying and selling backlinks, and what each one delivers for marketers, agencies and site owners."
+excerpt: "Paying for links Google quietly ignores? Link buying and selling platforms in 2026: 27 marketplaces listed, and how to check one before you pay."
 ---
 
 ## Link buying and selling platforms in 2026: an honest working list
 
-We have been buying and selling links for 25 years. We know which platforms produce links that hold and which ones produce links that get penalised in the next core update.
+You are paying for links, or being told you should, and you cannot tell which of them will still count after Google’s next update. The wrong ones rarely get you penalised now. Google simply ignores them, so the invoice arrives and the ranking never moves.
 
-The list below is not theoretical. These are the platforms we have used or watched clients use, with the trade-offs we have observed: some are excellent, some are useful for specific niches, and a few should never be used by anyone serious about long-term rankings.
+We have worked around the link market for over two decades, and the list below is not theoretical. These are the platforms we have used or watched clients use, with the trade-offs we have observed: some are excellent, some are useful for specific niches, and a few should never be used by anyone serious about long-term rankings.
 
 **Important context:** Buying links that pass ranking credit breaks Google’s spam policies (part of Google Search Essentials, formerly the Webmaster Guidelines). Google’s **SpamBrain** system can detect and neutralise (or penalise) unnatural link patterns. What follows documents the link economy as it exists in 2026, so use professional judgement.
 
@@ -24,7 +24,7 @@ The most resilient SEO is built on earned editorial links, digital PR, and conte
 
 ## Why site owners still sell placements
 
-Quality content is expensive to produce: editorial teams have payroll and independent bloggers have hosting bills. Selling sponsored placements, niche edits, or branded content is one of the few ways content sites monetise without ad networks.
+Knowing why publishers sell tells you which placements are worth buying, because a site that exists to sell links is the one Google discounts first. Quality content is expensive to produce: editorial teams have payroll and independent bloggers have hosting bills. Selling sponsored placements, niche edits, or branded content is one of the few ways content sites monetise without ad networks.
 
 The platforms below exist because there is genuine commercial demand on both sides. Buyers want backlinks for SEO, brand visibility, or referral traffic, publishers want revenue from their content investment, and the platforms are the matchmakers.
 
@@ -44,7 +44,7 @@ Marketplaces compress the discovery, negotiation, and placement steps into a few
 
 ## What SpamBrain changed and why cheap links stopped working
 
-Until 2022, Google’s link spam detection was patchy: PBNs, cheap directory links and mass guest post networks all worked. [Google’s December 2022 link spam update](https://developers.google.com/search/blog/2022/12/december-22-link-spam-update) changed that.
+If you bought links before 2022, some of what you paid for may now count for nothing. Until then, Google’s link spam detection was patchy: PBNs, cheap directory links and mass guest post networks all worked. [Google’s December 2022 link spam update](https://developers.google.com/search/blog/2022/12/december-22-link-spam-update) changed that.
 
 > Google announced that it was using SpamBrain to neutralise the impact of unnatural links on search results, and warned that rankings may change as spammy links are neutralised and any credit they passed is lost. The update applied to all languages.
 >
@@ -56,7 +56,7 @@ Google’s later spam updates have continued in the same direction. Sites keep r
 
 ## How to evaluate a platform before you pay
 
-The same checks apply across every marketplace. The platform name matters less than the underlying inventory.
+An hour of checks before you pay is cheaper than a year of placements that count for nothing. The same checks apply across every marketplace, and the platform name matters less than the inventory behind it.
 
 -   **Look at the actual sites listed.** Real domains with real organic traffic verified through [Ahrefs](https://ahrefs.com/) or [Semrush](https://www.semrush.com/). Avoid sites with traffic graphs that look like a dropped barometer.
 -   **Check editorial standards.** Does the site post content other than sponsored placements? If most recent posts are paid, Google’s algorithms have probably already discounted that domain.
@@ -85,6 +85,10 @@ The same checks apply across every marketplace. The platform name matters less t
 </svg>
 <figcaption>A platform that fails an early check does not deserve a later one: if the sites have no real traffic, their transparency about it hardly matters.</figcaption>
 </figure>
+
+<aside class="post-cta">
+<p><strong>Tired of paying for placements you have to second-guess?</strong> Link building in our <a href="/services/technical-seo/">technical SEO service</a> stays white hat: editorial links, resource page placements and guest posts on sites with real traffic and real editorial standards, never a private blog network. <a href="/contact/">Book the discovery call</a>.</p>
+</aside>
 
 ## Link buying and selling platforms: the working list
 
@@ -124,7 +128,7 @@ Every figure in the last column is the vendor’s own claim, taken from the link
 
 ## Want a link strategy that is not just a shopping list?
 
-We help clients build link portfolios that hold up through algorithm updates. The platforms above are tools, and whether they work for you depends on what you actually need: niche relevance, language coverage, anchor text distribution, or genuine editorial reach. Twenty-five years of SEO experience, put to work on your specific situation.
+We help clients build link portfolios that hold up through algorithm updates. The platforms above are tools, and whether they work for you depends on what you actually need: niche relevance, language coverage, anchor text distribution, or genuine editorial reach. Over two decades of SEO experience, put to work on your specific situation.
 
 [Get in touch](/contact/)
 

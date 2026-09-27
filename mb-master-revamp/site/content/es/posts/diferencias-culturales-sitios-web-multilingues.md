@@ -9,14 +9,14 @@ wpId: 24857759
 date: "2026-05-31T18:00:51"
 modified: "2026-05-31T18:00:51"
 sourceUrl: "https://mikebastin.com/es/diferencias-culturales-sitios-web-multilingues/"
-excerpt: "Cómo las diferencias culturales cambian una web multilingüe: idioma, colores, símbolos y timing por mercado, con 25 años de experiencia detrás."
+excerpt: "Cómo las diferencias culturales cambian una web multilingüe: idioma, colores, símbolos y timing por mercado, con más de dos décadas de experiencia detrás."
 ---
 
 ![Diferencias culturales en sitios web multilingües](https://mikebastin.com/wp-content/uploads/2024/10/cultural-differences-in-multilingual-websites-1024x363.jpg)
 
 ## Diferencias culturales en sitios web multilingües: lo que decide si conectas o rebotas
 
-Llevo veinticinco años traduciendo y posicionando webs en varios idiomas, y he visto el mismo error una y otra vez.
+Llevo más de dos décadas traduciendo y posicionando webs en varios idiomas, y he visto el mismo error una y otra vez.
 
 Una marca traduce su web palabra por palabra, la publica en cinco mercados y espera los mismos resultados en todos. Luego llega el silencio.
 
@@ -90,4 +90,4 @@ Llevar tu contenido al mundo no va de jugar sobre seguro, va de jugar con cabeza
 
 La próxima vez que prepares contenido para varios países, hazte una pregunta sencilla: ¿esto conecta igual en Río que en Roma?
 
-¿Quieres que tu web hable de verdad el idioma cultural de cada mercado? [Escríbeme y lo revisamos juntos](https://mikebastin.com/es/contactanos/), con la experiencia de veinticinco años en traducción y posicionamiento multilingüe de mi lado.
+¿Quieres que tu web hable de verdad el idioma cultural de cada mercado? [Escríbeme y lo revisamos juntos](https://mikebastin.com/es/contactanos/), con la experiencia de más de dos décadas en traducción y posicionamiento multilingüe de mi lado.

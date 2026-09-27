@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://mikebastin.com"),
   title: "Mike Bastin, multilingual search consultant",
   description:
-    "Twenty-five years reading the swell of search, in four languages. Multilingual SEO, localization and AI consulting from Valencia, for businesses selling abroad.",
+    "Over two decades reading the swell of search, in four languages. Multilingual SEO, localization and AI consulting from Valencia, for businesses selling abroad.",
   // PREVIEW BUILD ONLY. Remove this block before the real launch, or the
   // live site ships noindex and disappears from search.
   robots: { index: false, follow: false, nocache: true },

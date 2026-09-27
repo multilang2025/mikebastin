@@ -1,5 +1,5 @@
 ---
-words: 2120
+words: 2199
 title: "Technical SEO audit checklist for websites"
 slug: "technical-seo-audit-checklist"
 locale: "en"
@@ -7,14 +7,14 @@ type: "posts"
 group: "g164"
 wpId: 24845784
 date: "2024-10-22T13:13:00"
-modified: "2026-09-26T12:00:00"
+modified: "2026-09-26T21:30:00"
 sourceUrl: "https://mikebastin.com/technical-seo-audit-checklist/"
-excerpt: "A technical SEO audit checklist for web agencies: what to check, how to spot the problem and how to fix it, from robots.txt to Core Web Vitals."
+excerpt: "Good content, stalled rankings? A technical SEO audit checklist: what to check, how to spot the problem and how to fix it, from site structure to speed."
 ---
 
-A technical SEO audit answers one question: can search engines reach, understand and trust every page that matters on the site? Content and links only pay off once the answer is yes.
+Your content is good, the pages look fine, and rankings still stall. The cause often sits underneath: pages search engines cannot reach, versions of one page competing with each other, a site too slow on a phone to keep the visitor. Until those are fixed, every euro spent on content and links earns less than it should.
 
-The checklist below is written for [web agencies](/services/) auditing client sites. Each section covers what to check, how to find the problem and how to fix it, with the tools we use and short code examples. Where Google has retired a tool since this list was first published, we name the replacement.
+The checklist below is written for [web agencies](/services/) auditing client sites, and works just as well for your own. Each section covers what to check, how to find the problem and how to fix it, with the tools we use and short code examples.
 
 If you would rather hand the job over, our [technical SEO services](/services/technical-seo/) run the same audit and ship the fixes.
 
@@ -43,11 +43,13 @@ If you would rather hand the job over, our [technical SEO services](/services/te
 
 ## Crawlability and indexability
 
+If search engines cannot reach a page, nothing else on this list matters for it.
+
 ### Robots.txt
 
 The robots.txt file at `yourdomain.com/robots.txt` tells crawlers which paths not to fetch. Check that it exists, that it blocks only what it should, and that no important section sits behind a `Disallow` rule.
 
-Google retired its old robots.txt Tester in December 2023. Use the robots.txt report in Search Console (Settings) instead: it shows which robots.txt files Google found, when it last crawled them and any errors, and lets you request a recrawl after a fix. The URL Inspection tool confirms whether a single URL is blocked.
+Google retired its old robots.txt Tester in December 2023. Use the robots.txt report in Search Console (Settings) instead: it shows the files Google found, crawl dates and errors, and lets you request a recrawl. The URL Inspection tool confirms whether a single URL is blocked.
 
 > Google added a robots.txt report to Search Console in November 2023 and sunset the legacy robots.txt tester at the same time.
 > Source: [Search Engine Land, "Google Search Console adds robots.txt report"](https://searchengineland.com/google-search-console-adds-robots-txt-report-434708)
@@ -65,7 +67,7 @@ An empty `Disallow:` line allows everything. Block private sections by path inst
 
 An XML sitemap lists the URLs you want indexed. Check that `yourdomain.com/sitemap.xml` exists, contains only live, canonical, indexable URLs (no 404s, redirects or noindexed pages) and updates when content changes.
 
-Most CMSs generate one automatically (Yoast SEO or Rank Math on WordPress); XML-Sitemaps.com covers static sites. Submit the sitemap in Google Search Console and Bing Webmaster Tools, reference it in robots.txt, and check the Sitemaps report for processing errors after each resubmission.
+Most CMSs generate one automatically (Yoast SEO or Rank Math on WordPress); XML-Sitemaps.com covers static sites. Submit the sitemap in Google Search Console and Bing Webmaster Tools, reference it in robots.txt.
 
 ### Noindex and nofollow
 
@@ -81,7 +83,7 @@ Do not combine `noindex` with a robots.txt block on the same URL: Google cannot 
 | 302 | Found, temporary | Eventually treated as 301 if left | A short test or a seasonal page |
 | 410 | Gone | No | The content is removed for good |
 
-Find redirect chains and loops with Screaming Frog, Ahrefs or the Redirect Path browser extension, and point every redirect straight at the final URL. Replace 302s that have become permanent with 301s. In `.htaccess`:
+Find chains and loops with Screaming Frog, Ahrefs or the Redirect Path extension, and point every redirect straight at the final URL. Replace 302s that have become permanent with 301s. In `.htaccess`:
 
 ```
 Redirect 301 /old-page /new-page
@@ -89,11 +91,13 @@ Redirect 301 /old-page /new-page
 
 ## Site architecture and navigation
 
+Pages buried deep in a site get visited less, by search engines and buyers alike.
+
 ### Internal links and click depth
 
 Internal links spread authority and show crawlers what matters. Use a site audit tool to find orphan pages (no internal links pointing in) and link to them from relevant, well-linked pages. In articles, link to related posts and product or service pages with anchor text that describes the target.
 
-Keep important pages within three clicks of the homepage. List pages deeper than that, simplify menus, and merge categories that hold a single page into a related one.
+Keep important pages within three clicks of the homepage: simplify menus and merge single-page categories into related ones.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 200" role="img" aria-label="A shallow site hierarchy: the homepage links to categories, categories link to pages, and every page sits within three clicks.">
@@ -132,7 +136,7 @@ RewriteRule ^product/([0-9]+)$ /product.php?id=$1
 
 ### Breadcrumbs and pagination
 
-Breadcrumbs show users and search engines where a page sits. Add them through your CMS or theme and mark them up with `BreadcrumbList` structured data:
+Breadcrumbs show users and search engines where a page sits. Add them and mark them up with `BreadcrumbList` structured data:
 
 ```
 <nav aria-label="Breadcrumb">
@@ -148,7 +152,7 @@ Google has not used `rel="next"` and `rel="prev"` as an indexing signal since 20
 
 ## Speed and Core Web Vitals
 
-Core Web Vitals measure loading, responsiveness and visual stability from real Chrome users. Interaction to Next Paint (INP) replaced First Input Delay (FID) on 12 March 2024, so older audit templates that still ask for FID are out of date. Check the Core Web Vitals report in Search Console, then diagnose individual URLs in PageSpeed Insights or Lighthouse.
+A slow page costs you the visitor first and the ranking later. Core Web Vitals measure loading, responsiveness and visual stability from real Chrome users. Interaction to Next Paint (INP) replaced First Input Delay (FID) on 12 March 2024, so audit templates asking for FID are out of date. Check the Core Web Vitals report in Search Console, then diagnose individual URLs in PageSpeed Insights or Lighthouse.
 
 | Metric | Measures | Good score | Usual fixes |
 | --- | --- | --- | --- |
@@ -159,9 +163,9 @@ Core Web Vitals measure loading, responsiveness and visual stability from real C
 > Google recommends meeting all three thresholds at the 75th percentile of page loads, on mobile and desktop.
 > Source: [web.dev, "Web Vitals"](https://web.dev/articles/vitals); [web.dev, "Interaction to Next Paint becomes a Core Web Vital on March 12"](https://web.dev/blog/inp-cwv-march-12)
 
-**Images.** Images are usually the heaviest part of a page. Compress them with TinyPNG, ImageOptim or Kraken.io, serve WebP or AVIF, size them to the space they fill, and lazy-load images below the fold. Do not lazy-load the main hero image: it delays LCP.
+**Images.** Compress them with TinyPNG, ImageOptim or Kraken.io, serve WebP or AVIF, size them to the space they fill, and lazy-load images below the fold. Do not lazy-load the main hero image: it delays LCP.
 
-**Caching and minification.** Set `Cache-Control` headers so returning visitors reuse static files, enable GZIP or Brotli compression, and minify CSS, JavaScript and HTML in your build (Webpack, Vite or Gulp with CSSNano and a JavaScript minifier). WebPageTest shows which files lack caching headers. On Apache:
+**Caching and minification.** Set `Cache-Control` headers so returning visitors reuse static files, enable GZIP or Brotli compression, and minify CSS, JavaScript and HTML in your build (Webpack, Vite or Gulp). WebPageTest shows which files lack caching headers. On Apache:
 
 ```
 <IfModule mod_expires.c>
@@ -170,7 +174,7 @@ Core Web Vitals measure loading, responsiveness and visual stability from real C
 </IfModule>
 ```
 
-**Server response.** A slow Time to First Byte (TTFB) holds back every other metric. Measure it in WebPageTest, then put the site behind a CDN such as Cloudflare, cache database queries (Redis is common), and move to better hosting if the server is simply underpowered. Monitor uptime with UptimeRobot or Pingdom so outages show up before rankings do.
+**Server response.** A slow Time to First Byte (TTFB) holds back every other metric. Measure it in WebPageTest, then put the site behind a CDN such as Cloudflare, cache database queries (Redis is common), and upgrade underpowered hosting. Monitor uptime with UptimeRobot or Pingdom so outages show up before rankings do.
 
 **Mobile.** Google indexes the mobile version of your site. The Mobile-Friendly Test and the Mobile Usability report were retired on 1 December 2023, so test with Lighthouse in Chrome DevTools and the device toolbar: look for content wider than the screen, text too small to read and tap targets too close together.
 
@@ -179,7 +183,7 @@ Core Web Vitals measure loading, responsiveness and visual stability from real C
 
 ## Security
 
-Every page should load over HTTPS with no mixed-content warnings. Check with Why No Padlock or the browser console, redirect all HTTP traffic to HTTPS with a 301, and update internal links and resources to `https://`:
+A browser warning ends the visit before your page has said a word. Every page should load over HTTPS with no mixed-content warnings. Check with Why No Padlock or the browser console, redirect all HTTP traffic to HTTPS with a 301, and update internal links and resources to `https://`:
 
 ```
 RewriteEngine On
@@ -187,11 +191,11 @@ RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://yourdomain.com/$1 [R=301,L]
 ```
 
-An expired certificate triggers browser warnings that stop visitors cold. Check validity with the [SSL Server Test](https://www.ssllabs.com/ssltest//index.html) by Qualys SSL Labs, and automate renewal (Certbot for Let's Encrypt certificates).
+An expired certificate triggers exactly that warning. Check validity with the [SSL Server Test](https://www.ssllabs.com/ssltest//index.html) by Qualys SSL Labs, and automate renewal (Certbot for Let's Encrypt certificates).
 
 ## Structured data
 
-Structured data helps search engines understand the page and can earn rich results. Add the types that match the content (`Article`, `Product`, `BreadcrumbList`, `Organization`), preferably as JSON-LD, and validate with Google's Rich Results Test and the Schema Markup Validator. Microdata works too, but mixing formats across templates makes errors harder to trace, so pick one and apply it consistently.
+Structured data helps search engines understand the page and can earn rich results. Add the types that match the content (`Article`, `Product`, `BreadcrumbList`, `Organization`), preferably as JSON-LD, and validate with Google's Rich Results Test and the Schema Markup Validator. Microdata works too, but pick one format and use it everywhere.
 
 ```
 {
@@ -220,7 +224,7 @@ Check previews with Facebook's Sharing Debugger and LinkedIn's Post Inspector.
 
 ## Duplicate and thin content
 
-When the same content lives at several URLs (with and without `www`, with a trailing slash or a tracking parameter), a canonical tag names the version to index. Check every template outputs a canonical, that it points at a live, indexable URL, and that internal links use the same format:
+Two pages competing for one search usually both lose. When the same content lives at several URLs (with and without `www`, with a trailing slash or a tracking parameter), a canonical tag names the version to index. Check every template outputs a canonical, that it points at a live, indexable URL, and that internal links use the same format:
 
 ```
 <link rel="canonical" href="https://www.yourdomain.com/page" />
@@ -239,9 +243,15 @@ Disallow: /*?sessionID=
 
 Siteliner and Copyscape find duplicated text within a site. Merge near-identical pages into one stronger page and 301 the others to it. Apply the same fix to thin pages with little useful content and to keyword cannibalisation, where two pages compete for the same query: two articles both targeting "SEO best practices" become one complete guide.
 
-Review older content on a schedule and refresh anything outdated, such as a trends article still naming a year that has passed.
+Refresh outdated content on a schedule.
+
+<aside class="post-cta">
+<p><strong>Two of your pages chasing the same search?</strong> Our <a href="/services/technical-seo/">technical SEO work</a> finds which page should rank and points your internal links at it. <a href="/contact/">Book the discovery call</a>.</p>
+</aside>
 
 ## Errors and broken links
+
+Every dead link wastes a visitor who was already interested.
 
 | Problem | What it tells you | Fix |
 | --- | --- | --- |
@@ -250,11 +260,11 @@ Review older content on a schedule and refresh anything outdated, such as a tren
 | Broken outbound link | The external resource moved or died | Update to a current source or remove |
 | 5xx server error | Server misconfiguration or overload | Check server logs, fix the error, upgrade hosting if it recurs |
 
-Crawl with Screaming Frog, check the Page indexing report in Search Console, and use a link checker such as Dead Link Checker for outbound links. A custom 404 page with a search bar and links to popular pages keeps visitors who hit a dead end.
+Crawl with Screaming Frog, check the Page indexing report in Search Console, and use a link checker such as Dead Link Checker for outbound links. A custom 404 page with search and popular links keeps visitors who hit a dead end.
 
 ## Metadata and image SEO
 
-Every indexable page needs a unique title that leads with its main keyword and stays under about 60 characters so it does not truncate, for example "Blue widgets: quality widgets with fast delivery". Meta descriptions should be unique, describe the page accurately and give the searcher a reason to click. Audit tools list missing and duplicate titles and descriptions in one report.
+The title is the first thing a searcher reads, and often what decides the click. Every indexable page needs a unique title that leads with its main keyword and stays under about 60 characters so it does not truncate, for example "Blue widgets: quality widgets with fast delivery". Meta descriptions should be unique, describe the page accurately and give the searcher a reason to click.
 
 Use one `h1` per page containing the main keyword, then `h2` and `h3` in order without skipping levels:
 
@@ -264,7 +274,7 @@ Use one `h1` per page containing the main keyword, then `h2` and `h3` in order w
 <h3>Robots.txt</h3>
 ```
 
-Every meaningful image needs alt text that describes it, without stuffing keywords: `alt="Blue widget with chrome handle"`. Rename generic files such as `IMG_1234.jpg` to descriptive, hyphenated names like `blue-widget-chrome-handle.jpg`. For image-heavy sites, add image entries to the sitemap:
+Every meaningful image needs alt text that describes it, without stuffing keywords: `alt="Blue widget with chrome handle"`. Rename `IMG_1234.jpg` to something like `blue-widget-chrome-handle.jpg`. For image-heavy sites, add image entries to the sitemap:
 
 ```
 <url>
@@ -277,7 +287,7 @@ Every meaningful image needs alt text that describes it, without stuffing keywor
 
 ## International SEO
 
-Multilingual and multi-regional sites need hreflang annotations so Google serves each user the right version. Check for wrong language or region codes (`en-gb`, not `en-uk`), missing return tags and versions that do not reference themselves:
+Without the right tags, a French visitor lands on your Spanish page and leaves. Multilingual and multi-regional sites need hreflang annotations so Google serves each user the right version. Check for wrong language or region codes (`en-gb`, not `en-uk`), missing return tags and versions that do not reference themselves:
 
 ```
 <link rel="alternate" href="https://yourdomain.com/en-gb/" hreflang="en-gb" />
@@ -286,6 +296,10 @@ Multilingual and multi-regional sites need hreflang annotations so Google serves
 ```
 
 Search Console's International Targeting report and its country setting were removed in 2022. Country targeting now comes from hreflang, a country-code domain such as `.co.uk` where that suits the business, and local signals in the content itself. Our guide to [technical SEO for multilingual websites](/blog/technical-seo-for-multilingual-websites/) covers the setup in detail.
+
+<aside class="post-cta">
+<p><strong>French visitors landing on your Spanish pages?</strong> Our <a href="/services/technical-seo/">technical SEO for multilingual websites</a> finds out whether your language versions compete instead of adding up, and fixes the cause. <a href="/contact/">Book the discovery call</a>.</p>
+</aside>
 
 ## Tracking and monitoring
 

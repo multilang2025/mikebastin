@@ -132,7 +132,7 @@ export default function HowIWorkPage() {
               <span className="flex flex-col gap-[2px]">
                 <span className="display text-[1.02rem] font-semibold">Mike Bastin</span>
                 <span className="text-[.88rem]" style={{ color: "var(--dim)" }}>
-                  Valencia, twenty-five years in multilingual search
+                  Valencia, over two decades in multilingual search
                 </span>
               </span>
             </div>

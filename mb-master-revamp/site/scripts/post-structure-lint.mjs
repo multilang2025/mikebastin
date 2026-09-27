@@ -81,6 +81,14 @@ for (const f of files) {
   const tables = (prose.match(/^\|\s*:?-{3,}/gm) || []).length;
   const figures = (body.match(/<figure/g) || []).length;
 
+  const ctas = [...body.matchAll(/<aside class="post-cta">[\s\S]*?<\/aside>/g)];
+  for (const c of ctas) {
+    const line = body.slice(0, c.index).split("\n").length;
+    if (/\n\s*\n/.test(c[0])) errors.push(`post-cta at line ${line}: blank line inside the block`);
+    if (!/href="\/(services|contact)\//.test(c[0])) errors.push(`post-cta at line ${line}: needs a link to a service page or /contact/`);
+  }
+  if (words > 700 && ctas.length === 0) warns.push("no in-body CTA (aside.post-cta)");
+  if (ctas.length > 3) warns.push(`${ctas.length} in-body CTAs, keep it to three at most`);
   if (words > 2200) warns.push(`${words} words, target 1,200 to 2,200`);
   if (heads.some((h) => /^\d+(\\?\.\d*)?\\?\.?\s/.test(h.text))) warns.push("numbered headings (1\\. 2.1): the TOC repeats the numbers");
   if (heads.some((h) => /^conclusion\b/i.test(h.text))) warns.push('a heading reading "Conclusion"');

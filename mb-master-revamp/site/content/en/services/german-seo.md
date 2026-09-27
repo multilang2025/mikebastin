@@ -9,7 +9,7 @@ wpId: 17228768
 date: "2024-09-24T15:50:08"
 modified: "2026-05-29T07:41:19"
 sourceUrl: "https://mikebastin.com/services/german-seo/"
-excerpt: "Boost your German-speaking market presence with MikeBastin’s expert SEO services. Over 25 years of experience ensures top rankings and increased visibility."
+excerpt: "Boost your German-speaking market presence with MikeBastin’s expert SEO services. Over two decades of experience ensures top rankings and increased visibility."
 ---
 
 # German SEO: ranking in the DACH region with native execution
@@ -142,7 +142,7 @@ Local presence per German city (GBP, citations)
 
 ## Why this model is more honest (and more effective)
 
-**Mike Bastin:** 25 years in SEO. German: B1 level (functional reading, basic conversation). We read German SERPs, we understand briefs, we can follow a meeting in German with effort. We do not write your German commercial content.
+**Mike Bastin:** Over two decades in SEO. German: B1 level (functional reading, basic conversation). We read German SERPs, we understand briefs, we can follow a meeting in German with effort. We do not write your German commercial content.
 
 The boundary is explicit, not hidden. Most European SEO agencies “cover” German by subcontracting to native copywriters. The difference with us: it is stated clearly on this page, not discovered in the invoice.
 

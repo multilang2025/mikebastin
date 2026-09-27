@@ -1,5 +1,5 @@
 ---
-words: 2766
+words: 2127
 title: "Law firm SEO services"
 slug: "law-firm-seo-services"
 locale: "en"
@@ -7,24 +7,24 @@ type: "posts"
 group: "g139"
 wpId: 24847256
 date: "2024-12-22T14:50:51"
-modified: "2026-09-26T12:00:00"
+modified: "2026-09-26T21:30:00"
 sourceUrl: "https://mikebastin.com/law-firm-seo-services/"
-excerpt: "Transform your law firm’s digital presence with expert SEO strategies that capture high-intent clients. From multilingual content to technical excellence, we’ll help your practice climb the rankings and outperform larger competitors. Ready to dominate your legal niche? Let’s discuss your firm’s growth potential today."
+excerpt: "Your next client compares three firms online before calling any. Law firm SEO services that make yours one of the three, in every language you serve."
 ---
 
-Law firm SEO is the work of making a firm’s website and wider digital footprint visible in search, so it attracts high-quality clients and generates enquiries rather than just traffic. Clients increasingly start that search online, and the trend is still rising.
+Your next client is comparing three firms on their phone before they call any of them. If yours is not one of the three, or its practice pages read like a business card, the enquiry goes to a firm that may be no better, only easier to find and easier to trust. For a firm with international clients, that happens once per language.
 
 > A growing majority of consumers say they would look for their next lawyer online, increasing the importance of strong digital presence and client-facing technology.
 >
 > Source: [Clio, 2025 Legal Trends Report press release, via PR Newswire, 2025](https://www.prnewswire.com/news-releases/the-science-behind-smarter-law-clios-2025-legal-trends-report-reveals-how-technology-is-rewiring-the-way-lawyers-work-302585725.html)
 
-Below we set out how we approach SEO for law firms: finding the searches that matter, building pages that earn trust, winning local and international visibility, and measuring what it produces. For more on the fundamentals, our journal covers the [practical steps that help your firm](/blog/) win and keep top positions.
+Below is how we approach SEO for law firms: the searches that matter, pages that earn trust, local and international visibility, and how to measure what it produces. For the fundamentals, our journal covers the [practical steps that help your firm](/blog/) win and keep top positions.
 
 ## Why law firms need specialist SEO
 
-Today’s legal clients are savvy researchers. They read reviews, compare detailed service pages and assess several solicitors before making contact, so your website has to be more than a static digital business card.
+A generic site loses the client at the comparison stage, where legal clients spend longest. Today’s legal clients are savvy researchers. They read reviews, compare detailed service pages and assess several solicitors before making contact, so your website has to be more than a static digital business card.
 
-Whether someone is researching employment law at midnight or looking for urgent family law guidance at lunch, your site should be the resource they trust. Future clients expect complete, well-researched practice pages, credible insights from articles and navigation that gets them to the right practice area quickly.
+Future clients expect complete, well-researched practice pages, credible insights from articles and navigation that gets them to the right practice area quickly.
 
 Legal work also carries its own constraints. Confidentiality, regulatory compliance and jurisdictional rules add scrutiny to page copy, disclaimers and promotional material, and a structured SEO plan has to meet user expectations and professional conduct rules at the same time.
 
@@ -53,7 +53,7 @@ Legal work also carries its own constraints. Confidentiality, regulatory complia
 
 ## Start with what your firm actually does
 
-No two practices are identical. One focuses on property disputes; another prioritises private client work. Before starting SEO, make sure you can clearly explain what sets your firm apart:
+SEO built on a vague picture of the firm attracts vague enquiries. One practice focuses on property disputes; another prioritises private client work. Before starting SEO, make sure you can clearly explain what sets your firm apart:
 
 -   Which services should you spotlight, and why?
 -   Which geographical areas do you serve?
@@ -86,7 +86,7 @@ Within six months, international enquiries had risen sharply, from entrepreneurs
 
 ## Keyword research across English-speaking markets
 
-Targeting English speakers in Spain takes nuance, because Americans, Brits, Australians and non-native speakers search differently. We plan content that covers these variations naturally, without forcing the terms in.
+A British expat searches for a solicitor, an American for an attorney. Write for only one and the other never finds you. Americans, Brits, Australians and non-native speakers all search differently. We plan content that covers these variations naturally, without forcing the terms in.
 
 | Audience | What they search | Example queries |
 | --- | --- | --- |
@@ -97,9 +97,13 @@ Targeting English speakers in Spain takes nuance, because Americans, Brits, Aust
 
 Meta titles might lead with “International business lawyer Valencia”, while the copy refers to experienced solicitors and corporate attorneys where appropriate. The approach captures demand across countries without diluting the page.
 
+<aside class="post-cta">
+<p><strong>Writing for solicitors when your clients search for attorneys?</strong> The keyword research in our <a href="/services/technical-seo/">technical SEO service</a> reads how people phrase the problem in each market, and treats English as a market in its own right, British and American alike. <a href="/contact/">Book the discovery call</a>.</p>
+</aside>
+
 ## On-page optimization for practice pages
 
-Presentation matters online as much as it does in your office. We structure practice pages with clear titles, scannable sections and plain-English explanations, answer pressing questions directly and guide visitors to act, whether that means booking a consultation or requesting a quote.
+A practice page that ranks but does not persuade wastes the ranking. We structure practice pages with clear titles, scannable sections and plain-English explanations, answer pressing questions directly and guide visitors to act, whether that means booking a consultation or requesting a quote.
 
 Trust and transparency are essential, so jurisdiction and regulatory credentials are shown clearly. For our Valencia client, we created focused sections for NIE, company formation and [sworn translations](/services/translation-services/) in several languages, and the structure grew international enquiries while keeping the tone professional.
 
@@ -111,7 +115,7 @@ Meta descriptions act as your lift pitch. We front-load value and a call to acti
 
 ## Local SEO for law firms
 
-Location targeting is essential for firms serving local clients. Law firm local SEO covers map listings, location keywords and region-specific content.
+When a client searches for a lawyer near them, the map listing often decides who gets the call. Law firm local SEO covers map listings, location keywords and region-specific content.
 
 Set up and refine your [Google Business Profile](/services/local-seo/) with accurate details, reviews and services. Embed location signals in your [multilingual site content](/blog/optimising-multilingual-website-content/) and metadata to reflect the areas you serve, and use local references in guides to increase relevance.
 
@@ -119,13 +123,13 @@ Encourage reviews on Google and reputable legal platforms. Positive reviews act 
 
 ## Link building and digital PR
 
-Quality links come from relevant stories, credible mentions and trusted directories. For our Valencia client, we used press releases on international services aimed at specific markets and expatriate outlets, and offered expert commentary to regional media and industry journals.
+Links from credible legal and business sources tell search engines a firm is an authority, and they send clients of their own. They come from relevant stories, credible mentions and trusted directories. For our Valencia client, we used press releases on international services aimed at specific markets and expatriate outlets, and offered expert commentary to regional media and industry journals.
 
 We also built relationships with legal directories and business associations in priority countries. The approach positioned the firm as a trusted voice and generated qualified referral traffic. Our [360 marketing approach](/blog/360-marketing-agency/) explains how PR, search and paid media reinforce each other.
 
 ## Technical audits and page speed
 
-We often inherit technical debt from previous vendors: bloated URLs, inconsistent trailing slashes and duplicate paths that split authority. We standardise URL formats, add 301 redirects, align slugs with intent keywords, fix indexing problems and improve internal linking so Google understands the site architecture.
+A slow, untidy site undercuts every other piece of work: rankings stall, and the client on a phone leaves before booking. We often inherit technical debt from previous vendors: bloated URLs, inconsistent trailing slashes and duplicate paths that split authority. We standardise URL formats, add 301 redirects, align slugs with intent keywords, fix indexing problems and improve internal linking so Google understands the site architecture.
 
 Speed supports rankings and conversions, but not at the expense of persuasion. We balance Core Web Vitals with the design elements that convert:
 
@@ -136,6 +140,10 @@ Speed supports rankings and conversions, but not at the expense of persuasion. W
 -   keep booking flows simple on mobile
 
 Learn more in our guide to [technical SEO for multilingual websites](/blog/technical-seo-for-multilingual-websites/).
+
+<aside class="post-cta">
+<p><strong>Inherited a site from a previous agency?</strong> Our <a href="/services/technical-seo/">technical SEO for multilingual websites</a> finds out whether your language versions are competing with each other instead of adding up, and fixes what is causing it. <a href="/contact/">Book the discovery call</a>.</p>
+</aside>
 
 ## Content, competitors and compliance
 

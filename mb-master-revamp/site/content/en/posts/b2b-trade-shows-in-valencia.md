@@ -178,7 +178,7 @@ A quarterly cadence with a planned topic works better than sporadic “checking 
 
 ## Need help preparing for Valencia trade fairs?
 
-From multilingual catalogue translation to international SEO that brings buyers to your booth before they arrive, we help Valencia exporters reach the global buyers who matter most. Twenty-five years of translation and SEO experience put to work on your trade fair strategy.
+From multilingual catalogue translation to international SEO that brings buyers to your booth before they arrive, we help Valencia exporters reach the global buyers who matter most. Over two decades of translation and SEO experience put to work on your trade fair strategy.
 
 [Get in touch](https://mikebastin.com/contact-us/)
 

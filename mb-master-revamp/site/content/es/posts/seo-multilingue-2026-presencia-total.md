@@ -9,7 +9,7 @@ wpId: 24857765
 date: "2026-05-31T19:19:46"
 modified: "2026-05-31T19:19:46"
 sourceUrl: "https://mikebastin.com/es/seo-multilingue-2026-presencia-total/"
-excerpt: "SEO multilingüe en 2026: cómo pasar de posicionar páginas a tener presencia total en buscadores, IA y GEO, con 25 años de experiencia detrás."
+excerpt: "SEO multilingüe en 2026: cómo pasar de posicionar páginas a tener presencia total en buscadores, IA y GEO, con más de dos décadas de experiencia detrás."
 ---
 
 ![SEO multilingüe en 2026: de las posiciones a la presencia total](https://mikebastin.com/wp-content/uploads/2024/10/best-practices-for-multilingual-seo-1024x365.jpg)
@@ -130,4 +130,4 @@ Quien crece fuera en 2026 necesita las dos cosas. Posicionar en la búsqueda tra
 
 Una estrategia multilingüe que ignora la GEO deja dinero sobre la mesa. Una estrategia GEO sin unos cimientos sólidos de SEO multilingüe no tiene sobre qué construir.
 
-El [SEO global](https://mikebastin.com/es/services/agencia-de-seo-global/) en 2026 pide las dos disciplinas trabajando juntas, en cada idioma y cada mercado. Si quieres ver dónde está hoy tu marca y dónde podría estar, [escríbeme y lo revisamos juntos](https://mikebastin.com/es/contactanos/), con veinticinco años de SEO y traducción de mi lado.
+El [SEO global](https://mikebastin.com/es/services/agencia-de-seo-global/) en 2026 pide las dos disciplinas trabajando juntas, en cada idioma y cada mercado. Si quieres ver dónde está hoy tu marca y dónde podría estar, [escríbeme y lo revisamos juntos](https://mikebastin.com/es/contactanos/), con más de dos décadas de SEO y traducción de mi lado.

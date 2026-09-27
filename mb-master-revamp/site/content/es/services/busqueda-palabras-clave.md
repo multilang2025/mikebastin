@@ -97,4 +97,4 @@ Nuestros clientes
 
 Nuestra experiencia en la investigación de palabras clave para SEO
 
-Con más de 25 años de experiencia en la industria del marketing digital y el SEO, nos especializamos en la búsqueda de palabras clave que proporcionan resultados. Nuestro equipo de profesionales combina conocimientos del sector, análisis de la competencia y herramientas innovadoras para identificar las palabras clave que mejor funcionan para tu negocio. Ayudamos a empresas de todos los tamaños a mejorar su posicionamiento y a atraer tráfico relevante y de alta calidad.
+Con más de dos décadas de experiencia en la industria del marketing digital y el SEO, nos especializamos en la búsqueda de palabras clave que proporcionan resultados. Nuestro equipo de profesionales combina conocimientos del sector, análisis de la competencia y herramientas innovadoras para identificar las palabras clave que mejor funcionan para tu negocio. Ayudamos a empresas de todos los tamaños a mejorar su posicionamiento y a atraer tráfico relevante y de alta calidad.

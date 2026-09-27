@@ -1,5 +1,5 @@
 ---
-words: 584
+words: 669
 title: "EEAT vs AEAT. The typo that turns an SEO audit into a tax audit"
 slug: "eeat-vs-aeat-typo"
 locale: "en"
@@ -7,16 +7,16 @@ type: "posts"
 group: "g030"
 wpId: 24856171
 date: "2026-01-29T15:51:54"
-modified: "2026-09-26T12:00:00"
+modified: "2026-09-26T21:30:00"
 sourceUrl: "https://mikebastin.com/eeat-vs-aeat-typo/"
-excerpt: "A single typo can turn an SEO audit into a tax audit when you work as an international SEO in Spain. Discover how confusing EEAT with AEAT creates panic, dark humour, and very real professional lessons. Read the story and join the community of SEOs navigating Google guidelines and Spanish bureaucracy at the same time."
+excerpt: "EEAT vs AEAT: one letter separates Google's trust test from Spain's tax office. A true-to-life slip for anyone doing SEO in Spain, and its lesson."
 ---
 
-We are optimizing E-E-A-T for a Spanish law firm. Half the screen shows Google's quality guidelines. The other half shows Spanish legal content full of tax terminology. Then there is a third window: AEAT documentation.
+If you do business in Spain, two acronyms one letter apart decide how your year goes. EEAT decides whether Google trusts your website. AEAT decides whether the tax office trusts your books. Swap them in a client proposal and you have promised the wrong audit.
 
-At some point the brain stops seeing letters and only sees threats. Google judges your rankings. The Spanish tax office judges your existence. One misplaced letter is all it takes to move from search anxiety to fiscal survival mode.
+It happens easily. We were optimizing E-E-A-T for a Spanish law firm, with Google's quality guidelines on one half of the screen, Spanish legal content full of tax terminology on the other, and AEAT documentation open in a third window. At some point the brain stops seeing letters and only sees threats.
 
-Welcome to international SEO life in Spain.
+Below: a one-table cheat sheet, the slip in slow motion, and the serious point under the joke.
 
 ## Two judges, one letter apart
 
@@ -30,7 +30,7 @@ Welcome to international SEO life in Spain.
 
 ## EEAT, the Google judge
 
-If you work in legal SEO, you breathe EEAT. Law firm content lives in YMYL territory, and Google treats it like a loaded weapon. One weak signal and visibility drops. No trust, no authority, no rankings.
+For a law firm, EEAT is the difference between being shown to a client and being skipped. Legal content lives in YMYL territory, and Google treats it like a loaded weapon. One weak signal and visibility drops. No trust, no authority, no rankings.
 
 So you optimize author bios. You refine the tone. You add references. You build entity consistency. You whisper gentle prayers to the quality raters.
 
@@ -38,7 +38,7 @@ Such is the daily ritual of a serious SEO. Quiet. Focused. Slightly paranoid.
 
 ## AEAT, the Spanish judge
 
-If you work in Spain as a freelancer or agency, you learn this acronym fast. AEAT does not care about your content structure. It cares whether your invoice numbering makes sense.
+For anyone invoicing in Spain, AEAT is the acronym you learn first and fastest. It does not care about your content structure. It cares whether your invoice numbering makes sense.
 
 Both send messages. One arrives in Search Console. The other arrives in your mailbox with very official typography.
 
@@ -69,6 +69,10 @@ Precision matters in SEO. One missing reference weakens authority. One sloppy en
 Precision matters in Spain too. One wrong invoice number triggers a request. One late filing brings penalties. One missing document generates letters.
 
 Working in legal SEO in Spain means respecting both judges. Both reward structure. Both punish chaos. Only one accepts backlinks as currency.
+
+<aside class="post-cta">
+<p><strong>Publishing in Spanish and English, and not sure both versions pull their weight?</strong> Our <a href="/services/technical-seo/">technical SEO for multilingual websites</a> finds out whether your language versions compete with each other instead of adding up, and fixes the cause. <a href="/contact/">Book the discovery call</a>.</p>
+</aside>
 
 ## Check your acronyms
 

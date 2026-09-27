@@ -87,9 +87,9 @@ Nuestros clientes
 -   **Stronger topical authority:** Links from relevant industry sites tell Google what your site is genuinely about, helping you rank for competitive keyword clusters.
 -   **Rankings that hold:** Editorial backlinks from real sites are algorithm-resistant. No penalties, no volatility from the next core update.
 
-25 Years of SEO and Link Building Experience
+Over Two Decades of SEO and Link Building Experience
 
-I have been building links professionally since before Domain Authority was a metric people tracked. Over 25 years, I have seen every tactic come and go: directories, article spinning, PBNs, reciprocal exchanges. Most of them stopped working or created penalties.
+I have been building links professionally since before Domain Authority was a metric people tracked. Over two decades, I have seen every tactic come and go: directories, article spinning, PBNs, reciprocal exchanges. Most of them stopped working or created penalties.
 
 What holds up is simple: earn links from real sites that have real audiences and real editorial standards. We use broken link building, resource page outreach, digital PR, and strategic guest posts on sites with genuine Trust Flow and organic traffic.
 

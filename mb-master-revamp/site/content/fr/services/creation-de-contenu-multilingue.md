@@ -85,4 +85,4 @@ Nos clients
 
 Notre expertise en rédaction SEO multilingue
 
-Avec plus de 25 ans d’expérience en traduction, SEO et marketing digital, nous savons comment créer un contenu qui se connecte avec les audiences [locales tout en améliorant votre performance](https://mikebastin.com/fr/services/localisation-contenu/) de recherche mondiale. Des petites entreprises aux grandes multinationales, nous proposons des solutions SEO multilingues sur mesure qui génèrent des résultats et augmentent la visibilité sur n’importe quel marché.
+Avec plus de deux décennies d’expérience en traduction, SEO et marketing digital, nous savons comment créer un contenu qui se connecte avec les audiences [locales tout en améliorant votre performance](https://mikebastin.com/fr/services/localisation-contenu/) de recherche mondiale. Des petites entreprises aux grandes multinationales, nous proposons des solutions SEO multilingues sur mesure qui génèrent des résultats et augmentent la visibilité sur n’importe quel marché.

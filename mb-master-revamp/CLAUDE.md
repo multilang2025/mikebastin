@@ -254,6 +254,11 @@ sticky highlighted rail on desktop and a disclosure above the body below
 1024px. Posts target 1,200 to 2,200 words, carry one to three tables where
 content is tabular, and one or two inline SVG figures drawn only with the
 `fg-*` classes (no hard-coded colours, so they follow the theme toggle).
+Posts also open on the reader's situation and its cost (not a
+definition or market commentary), lead each section with why it matters
+before the how, and carry one to three in-body `aside.post-cta` blocks
+that promise only what the linked service page states (owner, 26 Sep
+2026: "too many sections lacking a clear CTA and value proposition").
 `npm run lint:structure` reports the editorial side; `verify` fails only
 on a figure that would break the page (blank line inside, hex colour,
 missing aria-label).
@@ -304,7 +309,17 @@ is in the rest, which the Master Content Protocol never covered:
 - Sworn and certified translation is not one term across Europe. Use the
   local designation rather than a catch-all English gloss.
 - Never claim a certification, accreditation or track record the business
-  does not hold. No named testimonial or quote from a "real" customer or expat
+  does not hold.
+- **The free offers in posts are real** (owner, 27 Sep 2026: "I do give
+  the free offers"): the free 20-minute audit, the free 20-minute stack
+  walkthrough, the free localization assessment, the free consultation
+  and the GEO audit. Keep them; they may also be used in in-body CTAs.
+- **There is no Madrid law firm** (owner, 27 Sep 2026). The law-firm
+  client is the Valencia one; correct any "Madrid law firm" on sight.
+- **Experience is "over two decades"** (owner, 27 Sep 2026: "I started in
+  1999, but I don't want to show too many years"). Never "25 years" or a
+  start year; the homepage counter reads 20+. BeTranslated's own age
+  ("run for twenty years") is a separate fact about the agency. No named testimonial or quote from a "real" customer or expat
   unless the person is verifiable (owner, 26 Sep 2026: the unverified
   expat testimonials in the Valencia posts were removed on that basis). Extends the existing ban on inventing a price, a
   guarantee, a turnaround or a client outcome.

@@ -1,5 +1,5 @@
 ---
-words: 1309
+words: 1983
 title: "LLMs beyond ChatGPT worth knowing"
 slug: "llms-beyond-giants-hidden-ai-models"
 locale: "en"
@@ -7,24 +7,26 @@ type: "posts"
 group: "g144"
 wpId: 24855595
 date: "2025-12-16T13:46:54"
-modified: "2026-09-26"
+modified: "2026-09-26T21:30:00"
 sourceUrl: "https://mikebastin.com/llms-beyond-giants-hidden-ai-models/"
-excerpt: "While ChatGPT and Gemini dominate headlines, the LLM field is rich with lesser-known models worth knowing about. We cover 10 impactful LLMs redefining AI beyond the giants."
+excerpt: "Paying frontier prices for routine AI work? Ten LLMs beyond ChatGPT worth knowing, what each is good for, and the licence terms to check before you build."
 ---
 
 ## Why look beyond ChatGPT in 2026
 
-When we talk about large language models, the conversation defaults to ChatGPT, Claude, Gemini, and Llama. Those four dominate headlines, budgets, and the API calls of most production workloads.
+Your team may be paying frontier-model prices for work a smaller model could do, and in some of your languages a less famous model may translate better than the one you use now. Defaulting to the four names in the headlines, ChatGPT, Claude, Gemini and Llama, costs you money on routine work and quality in the markets English-first models serve worst.
 
-The LLM space in 2026 is far more interesting than that headline list suggests. A vibrant ecosystem of specialised, multilingual, open-source, and research-grade models is shaping AI in ways that the household names cannot.
+Below: ten models worth knowing, grouped by why they matter, with the licence terms to check before you build on any of them.
 
 Some matter for multilingual SEO and translation work, where models with strong non-English coverage can beat bigger English-first models on specific language pairs. Others matter because they are genuinely open-source and commercially usable, which many “open” models are not. A few simply matter because they pioneered ideas that everyone else has since copied.
 
-Here are ten LLMs worth knowing in 2026, grouped by why they matter, with links to their official sources so you can dig deeper. Licences and model line-ups change fast, so the details below were checked against each project’s own pages on 26 September 2026.
+Each entry links to its official source. Licences and model line-ups change fast, so the details below were checked against each project’s own pages on 26 September 2026.
 
-**Why this matters in 2026:** the frontier leaderboard is dominated by closed models from OpenAI, Anthropic, and Google, and the open-weight world by a handful of large families. Underneath those headlines, dozens of open and specialised models are doing critical work in research, multilingual NLP, and on-device inference. If you are building something that does not need frontier-class reasoning, a smaller open model often fits your use case better and costs a fraction.
+**Why this matters in 2026:** the frontier leaderboard belongs to closed models from OpenAI, Anthropic and Google, but dozens of open and specialised models do critical work underneath, in research, multilingual NLP and on-device inference. If your task does not need frontier-class reasoning, a smaller open model often fits better and costs a fraction.
 
 ## Open-science and research models
+
+You are unlikely to deploy these as they stand, but they explain why the open models you might deploy behave as they do, and BLOOM’s documentation is still useful for low-resource languages.
 
 ### BLOOM
 
@@ -65,6 +67,8 @@ Microsoft Research
 [Microsoft Research Orca 2](https://www.microsoft.com/en-us/research/blog/orca-2-teaching-small-language-models-how-to-reason/)
 
 ## Early commercially usable open models
+
+Licence terms are where a promising pilot turns into a legal problem. These four made commercial use of open models possible, and their mixed licences show why you check the exact variant, not the family.
 
 ### Falcon
 
@@ -116,6 +120,8 @@ Salesforce AI Research
 
 ## Today’s open-weight families
 
+These are the models most likely to take over part of a workload you now pay an API for, and two of them are strong well beyond English.
+
 ### Qwen
 
 Alibaba Cloud, Qwen team
@@ -150,7 +156,13 @@ Microsoft
 
 [Microsoft Phi family](https://azure.microsoft.com/en-us/products/phi)
 
+<aside class="post-cta">
+<p><strong>Weighing an open model against a paid API for your multilingual content?</strong> Our <a href="/services/ai-consulting/">AI consulting</a> says which parts of your workflow a model can take on in each language, and which still need a person who reads it. <a href="/contact/">Book the discovery call</a>.</p>
+</aside>
+
 ## Licences at a glance
+
+Building on a model whose licence forbids your use means rebuilding later. Check the row before you check the benchmark.
 
 | Model | Maker | Licence, as checked | Good fit for |
 |---|---|---|---|
@@ -173,7 +185,7 @@ The other licences come from each project’s own pages, linked in its section a
 
 ## What this list means for your AI strategy
 
-The “best” LLM is the one that fits your specific use case at an economical cost. For many business applications, you do not need the latest frontier model at all.
+Paying for the latest frontier model on every task is often money you do not need to spend. The “best” LLM is the one that fits your use case at a sensible cost.
 
 Doing multilingual SEO and translation? Test Qwen and Mistral’s open models on your language pairs, and look at BLOOM’s documentation for low-resource languages. Building an on-device feature? Phi-4-mini and the Ministral 3 models run on consumer hardware. Need commercial-friendly licensing? Check each model’s licence rather than the family’s: Falcon-40B, MPT-7B Base, XGen-7B and the current Qwen and Mistral open-weight models use Apache 2.0, while other variants in the same families do not.
 
@@ -197,6 +209,6 @@ For more on how AI is reshaping search and content work, see our pieces on [how 
 
 ## Need help picking the right AI stack for your business?
 
-We help businesses find their way through the AI market, from picking the right LLM for multilingual content to integrating AI into existing SEO and translation workflows. Get advice that is grounded in production reality, not vendor marketing.
+A wrong model choice shows up months later, as a licence problem, a bill that grew with usage, or a language your customers notice reads badly. We help businesses avoid all three, from picking the right LLM for multilingual content to fitting AI into existing SEO and translation workflows, with advice grounded in production reality rather than vendor marketing.
 
 [Get in touch](/contact/)

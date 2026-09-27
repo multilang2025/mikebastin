@@ -35,9 +35,9 @@ Discover how conversational AI chatbots can improve customer experience, automat
 
 [read more](https://mikebastin.com/conversational-ai-chatbots-business/)
 
-[![Competitor Traffic Analysis Checklist: A 25-Year SEO View](https://mikebastin.com/wp-content/uploads/2026/01/competitoranalysistrafficcheck-400x250.jpg)](https://mikebastin.com/competitor-analysis-traffic-checklist/)
+[![Competitor Traffic Analysis Checklist: A Two-Decade SEO View](https://mikebastin.com/wp-content/uploads/2026/01/competitoranalysistrafficcheck-400x250.jpg)](https://mikebastin.com/competitor-analysis-traffic-checklist/)
 
-## [Competitor Traffic Analysis Checklist: A 25-Year SEO View](https://mikebastin.com/competitor-analysis-traffic-checklist/)
+## [Competitor Traffic Analysis Checklist: A Two-Decade SEO View](https://mikebastin.com/competitor-analysis-traffic-checklist/)
 
 by [Mike Bastin](# "Posts by Michael Bastin") | Apr 22, 2026 |
 

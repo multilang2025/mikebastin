@@ -268,7 +268,7 @@ Five checks, in order:
 
 Fix those five and you will see movement inside a month.
 
-We have been doing SEO and translation work for 25 years, including multilingual local SEO across Belgium, France, Spain, the Netherlands, the UK, and the US.
+We have been doing SEO and translation work for over two decades, including multilingual local SEO across Belgium, France, Spain, the Netherlands, the UK, and the US.
 
 Right now we run the same playbook for a Spanish law firm, a US freight company, a Dominican real estate agency, and a handful of wellness and language-services brands.
 

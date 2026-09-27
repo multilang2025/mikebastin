@@ -10,7 +10,7 @@ wpId: 17229193
 date: "2024-10-03T13:52:28"
 modified: "2026-07-19T10:50:08"
 sourceUrl: "https://mikebastin.com/services/multilingual-seo-copywriting/"
-excerpt: "Unsure how to expand your reach? Our multilingual SEO copywriting service integrates analytics tracking (GA4) and Rank Tracker insights to measure CTR, conversion rates, and organic visibility in every market. Partner with an agency combining 25 years of translation expertise and modern AI-assisted optimization tools to boost your brand’s online authority worldwide. Contact us for a detailed proposal or explore our multilingual SEO, content localization, and digital PR strategies."
+excerpt: "Unsure how to expand your reach? Our multilingual SEO copywriting service integrates analytics tracking (GA4) and Rank Tracker insights to measure CTR, conversion rates, and organic visibility in every market. Partner with an agency combining over two decades of translation expertise and modern AI-assisted optimization tools to boost your brand’s online authority worldwide. Contact us for a detailed proposal or explore our multilingual SEO, content localization, and digital PR strategies."
 ---
 
 # Multilingual SEO Copywriting
@@ -153,4 +153,4 @@ Our Customers
 
 Our Expertise in Multilingual SEO Copywriting
 
-With over 25 years of experience in translation, SEO, and digital marketing, we know how to write content that connects with local audiences while improving your global search engine performance. From small businesses to international enterprises, we provide bespoke multilingual SEO solutions that drive results and increase visibility in any market.
+With over two decades of experience in translation, SEO, and digital marketing, we know how to write content that connects with local audiences while improving your global search engine performance. From small businesses to international enterprises, we provide bespoke multilingual SEO solutions that drive results and increase visibility in any market.

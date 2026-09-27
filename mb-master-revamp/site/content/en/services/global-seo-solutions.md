@@ -17,7 +17,7 @@ excerpt: "Global SEO solutions help businesses optimize their websites for inter
 
 Which markets to target first, how to sequence them, how to allocate budget. Strategic decisions before any line of code or content is produced.
 
-25 years
+20+ years
 
 scoping multi-market expansion across EU, UK, US, LatAm
 
@@ -149,7 +149,7 @@ Local presence per city in target markets
 
 ## Why this team for international SEO
 
-**Mike Bastin:** 25 years scoping multi-country SEO across Europe and the Americas. Co-founder of BeTranslated, which operates on 12 country-specific TLDs (live experience of running cross-domain SEO architecture, not theoretical).
+**Mike Bastin:** Over two decades scoping multi-country SEO across Europe and the Americas. Co-founder of BeTranslated, which operates on 12 country-specific TLDs (live experience of running cross-domain SEO architecture, not theoretical).
 
 Languages: French and English fluent, Spanish (Valencia resident since 2016, 16 years in the Dominican Republic), Dutch (Erasmus Utrecht + Caribbean clientele), B1 German. Plus a native copywriter and translator network for any language not directly spoken.
 

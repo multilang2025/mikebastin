@@ -1,5 +1,5 @@
 ---
-words: 1872
+words: 2136
 title: "Chrome extensions for translators, and what each one saves"
 slug: "chrome-extensions-for-translators"
 locale: "en"
@@ -7,18 +7,20 @@ type: "posts"
 group: "g021"
 wpId: 37229
 date: "2024-09-25T14:57:40"
-modified: "2026-09-26T12:00:00"
+modified: "2026-09-26T21:30:00"
 sourceUrl: "https://mikebastin.com/chrome-extensions-for-translators/"
-excerpt: "Boost your translation productivity with these top 10 essential Chrome extensions for translators, enhancing efficiency, accuracy, and workflow."
+excerpt: "Which Chrome extensions for translators still earn their place in 2026: faster drafts, surer terminology, fewer errors reaching a client, and what to drop."
 ---
 
-We have been working between English, French, Spanish and Dutch since the mid-2000s, and the browser is where most of that work happens. Not the CAT tool or the Trados memory, but a translation job open in one tab and reference material in five more.
+If you or your team translate in the browser, your extensions decide two things: how fast a draft moves, and how many errors get past you into a client document or a live page. A slow stack costs time on every job. A careless one costs a client’s trust, which is harder to win back.
 
-Below is the toolkit we actually keep installed in 2026, after Manifest V3 broke or replaced several old favourites and generative AI rewrote half of what a translation extension is supposed to do. If you still use a list bookmarked in 2022, parts of it are now broken.
+The stack most people rely on has also aged badly. Several favourites stopped working after Chrome changed how extensions are built, and AI assistants now do much of what three or four translation tools used to do. If you still work from a list bookmarked in 2022, parts of it are broken.
+
+Below is the toolkit we actually keep installed in 2026, after working between English, French, Spanish and Dutch since the mid-2000s: what each extension saves, what we dropped, and how we chain them on a real job.
 
 ## What changed since the last version of this article
 
-Two shifts forced a full audit. First, Chrome retired Manifest V2 during 2024 and 2025. Extensions that did not migrate to Manifest V3 stopped working, and several translation extensions either rebuilt themselves around service workers or quietly left the Chrome Web Store.
+Two shifts broke the old toolkit, and both change where your time goes. First, Chrome retired Manifest V2 during 2024 and 2025. Extensions that did not migrate to Manifest V3 stopped working, and several translation extensions either rebuilt themselves around service workers or quietly left the Chrome Web Store.
 
 The second shift is bigger. Large language models moved into the browser through dedicated extensions and sidebar panels. For everyday lookup, quick rephrasing and post-editing of machine output, one LLM extension now does what three or four translation extensions used to do.
 
@@ -29,6 +31,8 @@ The second shift is bigger. Large language models moved into the browser through
 If the per-word price keeps falling while volume holds steady, the only way a translator stays profitable is by being faster, and the browser stack is where that speed comes from.
 
 ## Translation engines we still keep on the toolbar
+
+A good engine gets you to a usable first draft fast. The choice is which one to trust for which job.
 
 ### DeepL for Chrome
 
@@ -52,9 +56,9 @@ Not the strongest engine, but the one every client recognises. Clients send us w
 
 ## AI assistants that quietly replaced half the old toolkit
 
-### Claude in Chrome and ChatGPT
+The errors that cost you are rarely single words. They are tone, register and ambiguity, and those need context that a plain translation engine cannot take. For complex sentences, idiomatic content, or anything legal or technical, a general-purpose LLM extension now beats most dedicated translation tools.
 
-For complex sentences, idiomatic content, or anything legal or technical, a general-purpose LLM extension now beats most dedicated translation tools. The reason is context.
+### Claude in Chrome and ChatGPT
 
 We can paste a paragraph plus three lines of surrounding context and a one-line instruction such as "translate to formal French for a Belgian law firm audience, keep the second-person plural form". A standalone translation engine cannot take that instruction; an LLM extension can.
 
@@ -64,9 +68,13 @@ We use Claude in Chrome, generally available since 26 August 2026 on paid Claude
 
 Sits halfway between a translator and a grammar tool, rephrasing your target-language draft for tone, register and natural flow. We run our own French and Spanish drafts through it, then accept or reject each suggestion sentence by sentence. It catches the stiffness that comes from translating word for word in your head.
 
+<aside class="post-cta">
+<p><strong>AI drafts going into documents your clients or regulators will read?</strong> Through our <a href="/services/translation-services/">translation services</a>, each document is matched to a translator with the relevant sector background, then reviewed before delivery. <a href="/contact/">Book the discovery call</a>.</p>
+</aside>
+
 ## Reference helpers we cannot work without
 
-Translation is mostly disambiguation, and these lookup tools earn their place by closing that gap quickly.
+Most translation errors are a wrong choice between two plausible meanings. These lookup tools close that gap quickly, and they are how you check an AI draft rather than trust it.
 
 ### Linguee
 
@@ -82,13 +90,15 @@ A multilingual grammar and style checker for French, Spanish, German, Dutch and 
 
 ## Two extras for translators who also handle web content
 
-If your translation work touches WordPress sites or website localization projects, two more belong in the toolbar.
+If your translation work touches websites, two more extensions save you from quoting blind or localizing a site that is broken at the source.
 
 **Wappalyzer** tells you what CMS, plugins and translation setup a site runs before you open the source code. When a prospect asks about translating their WordPress site, we want to know in two seconds whether it runs WPML, Polylang, TranslatePress or a custom system. Our [website localization service](/services/website-localisation/) page explains what each one means in practice.
 
 **Detailed SEO Extension** gives a fast on-page audit of headings, metas, hreflang, canonical tags and schema markup. Before we localize a site into three more languages, we want to see whether the source-language SEO is competent. Our round-up of [Chrome extensions for SEO](/blog/chrome-extensions-for-seo/) covers the wider audit toolkit.
 
 ## What we removed from the previous version of this list
+
+Every extension you keep is another popup, shortcut and permission. These no longer earn the space.
 
 **Readlang Web Reader.** Useful for language learners, but rarely fits a working translator's day.
 
@@ -118,13 +128,13 @@ If your translation work touches WordPress sites or website localization project
 >
 > Source: [DeepL API documentation, Languages supported](https://developers.deepl.com/docs/getting-started/supported-languages)
 
-> The biggest change in twenty-five years of multilingual work is not the quality of MT or even the rise of LLMs. It is that the browser became the workbench. Everything we used to do across Trados, a paper dictionary, and three monitors now happens inside one Chrome window with seven extensions. The job is the same. The tools are unrecognisable.
+> The biggest change in over two decades of multilingual work is not the quality of MT or even the rise of LLMs. It is that the browser became the workbench. Everything we used to do across Trados, a paper dictionary, and three monitors now happens inside one Chrome window with seven extensions. The job is the same. The tools are unrecognisable.
 >
 > [Mike Bastin](/how-i-work/), multilingual SEO and translation consultant
 
 ## How we sequence these in a working translation day
 
-A real example: a Belgian law firm sent us a 1,200-word French contract excerpt to translate into English for an international client meeting.
+The tools only pay off in the right order: machines for speed first, a human for accuracy last. A real example: a Belgian law firm sent us a 1,200-word French contract excerpt to translate into English for an international client meeting.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 222" role="img" aria-label="Five passes in order: DeepL draft, Linguee term check, Claude rewrite, LanguageTool grammar check, then a final read aloud by hand.">
@@ -161,9 +171,13 @@ A real example: a Belgian law firm sent us a 1,200-word French contract excerpt 
 
 Two hours from raw French to delivered English, and the browser stack made about 60% of that speed possible.
 
+<aside class="post-cta">
+<p><strong>A contract or court document where one wrong term changes an obligation?</strong> Our <a href="/services/translation-services/">legal translation</a> goes to translators with the legal background for the jurisdiction concerned, with sworn or certified translation where the receiving body requires it. <a href="/contact/">Tell us what the document is for</a>.</p>
+</aside>
+
 ## Where the translator's browser stack is heading
 
-Two predictions for the next twelve to eighteen months. Sidebar LLMs will probably absorb most dedicated translation extensions for word-level lookup, while bilingual corpora such as Linguee and Reverso Context become more important, not less, because LLM output is harder to check without ground-truth examples.
+Knowing where the tools are going tells you what to learn now and what to stop paying for. Two predictions for the next twelve to eighteen months. Sidebar LLMs will probably absorb most dedicated translation extensions for word-level lookup, while bilingual corpora such as Linguee and Reverso Context become more important, not less, because LLM output is harder to check without ground-truth examples.
 
 Specialised CAT tool companions will also multiply. Smartcat, Lokalise and Phrase are all racing to embed translator workflow inside Chrome, so if you live in a CAT environment, expect to add one of those soon. For a wider view, see our piece on [how AI is transforming translation and localization](/blog/how-ai-is-transforming-translation-and-localisation/).
 

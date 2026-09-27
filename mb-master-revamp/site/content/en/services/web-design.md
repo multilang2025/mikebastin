@@ -17,7 +17,7 @@ excerpt: "Improve your brand with our multilingual web design and SEO expertise,
 
 WordPress by default (Divi, Gutenberg, Elementor or Bricks depending on your case), Webflow or Shopify when the project calls for it. Multilingual planned from the brief, not bolted on later. Technical SEO baked into the design.
 
-25 years
+20+ years
 
 building and ranking multilingual sites across Europe and the Americas
 
@@ -149,7 +149,7 @@ Hosting, domain registration, ongoing maintenance
 
 ## Why this team for multilingual web design
 
-**Mike Bastin:** 25 years in SEO and translation, based in Valencia (Spain) since 2016. Multilingual builds across Europe (BE, FR, ES, NL, UK, DE, IT, PT) and the Americas (US, Dominican Republic, Costa Rica, Mexico). Fluent in French, English, Spanish and Dutch, B1 in German.
+**Mike Bastin:** Over two decades in SEO and translation, based in Valencia (Spain) since 2016. Multilingual builds across Europe (BE, FR, ES, NL, UK, DE, IT, PT) and the Americas (US, Dominican Republic, Costa Rica, Mexico). Fluent in French, English, Spanish and Dutch, B1 in German.
 
 Full stack mastery end to end: WordPress (Divi, Gutenberg, Elementor, Bricks depending on the case), WPML / Polylang, Rank Math / Yoast, GA4, GTM, Cloudflare, LiteSpeed, managed hosting. Webflow and Shopify for specific contexts. Plus a native copywriter and translator network for any other language via BeTranslated.
 

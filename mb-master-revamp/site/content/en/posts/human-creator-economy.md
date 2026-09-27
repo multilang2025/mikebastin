@@ -1,5 +1,5 @@
 ---
-words: 1179
+words: 1340
 title: "Why Jean Marie Cordaro advocates for a more human creator economy"
 slug: "human-creator-economy"
 locale: "en"
@@ -7,26 +7,26 @@ type: "posts"
 group: "g134"
 wpId: 24855433
 date: "2025-11-05T08:32:16"
-modified: "2026-09-26T12:00:00"
+modified: "2026-09-26T21:30:00"
 sourceUrl: "https://mikebastin.com/human-creator-economy/"
-excerpt: "The Human Creator Economy is changing how we create, share, and earn online. Discover how authentic human creativity keeps its edge in an AI-driven world."
+excerpt: "Renting your audience from a platform? Why Jean Marie Cordaro wants a more human creator economy, and how to own the relationship with your audience."
 ---
 
-The creator economy is booming. Millions of creators, educators, coaches and independent entrepreneurs now earn a living from their audiences. Behind the apparent freedom sits a growing concern: dependence on opaque platforms, unpredictable algorithms, and tools that automate so much they risk erasing the human element of creativity.
+If your audience lives on someone else's platform, you are renting it. One change to an algorithm, a payment provider or an account policy, and the reach you spent years building can shrink overnight, taking your income with it. Millions of creators, coaches and independent businesses now earn a living this way, and most of them feel that risk.
 
-Jean Marie Cordaro, founder of Bonzai.pro, has built his work around one belief: technology should serve humans, not consume them. For him, the future of the creator economy depends on restoring balance between tools and values, automation and authenticity, growth and meaning.
+Jean Marie Cordaro, founder of Bonzai.pro, has built his work around one belief: technology should serve people, not consume them. Below: why he thinks the creator economy has tilted too far towards the platforms, what a human-first alternative looks like in practice, and what it means for anyone who wants to own the relationship with their audience.
 
 ## A career built on human connection
 
-Through his own journey as a creator, Jean Marie Cordaro saw how fragile digital independence can be. He watched creators lose access to their work overnight, caught in systems that put algorithms before people.
+The view Jean Marie Cordaro holds comes from watching the downside up close. As a creator himself, he saw how fragile digital independence can be: creators losing access to their work overnight, caught in systems that put algorithms before people.
 
-From that came a conviction: a creator's success is built not on tools but on the relationships they build with their audience. Human connection before technology now defines his approach to entrepreneurship and his vision for a more balanced digital economy.
+His conclusion was that a creator's success rests on the relationships they build with their audience, not on the tools. Human connection before technology now defines his approach to business and his idea of a more balanced digital economy. For any business, the lesson is the same: the relationship is the asset, and the channel is only rented.
 
 ## The drift toward a too-technological economy
 
-Digital tools have made creativity more accessible than ever. Anyone can share knowledge, sell a product or build a global community from a laptop. The same progress has also made creation colder and more mechanical.
+When success is counted only in views and clicks, you can grow the numbers and still lose the audience. Digital tools have made creativity more accessible than ever: anyone can share knowledge, sell a product or build a global community from a laptop. The same progress has made creation colder and more mechanical.
 
-Everything is measured in views, clicks, conversion rates and retention, so success becomes a number rather than a story. In chasing efficiency, creators risk losing the emotional bond that made their work valuable in the first place.
+Everything is measured in views, clicks, conversion rates and retention, so success becomes a number rather than a story. Chasing efficiency, creators risk losing the emotional bond that made their work valuable in the first place.
 
 Cordaro does not reject technology; he redefines its purpose. Tools should amplify relationships, not replace them.
 
@@ -38,9 +38,13 @@ Cordaro does not reject technology; he redefines its purpose. Tools should ampli
 | **Support** | Chatbots and help articles | A real person |
 | **Automation** | Dictates the work | Saves time, leaves expression alone |
 
+<aside class="post-cta">
+<p><strong>Plenty of visitors, very few conversations?</strong> Our <a href="/services/lead-generation/">lead generation services</a> judge each market on the enquiries it sends your team, not on its traffic, and show which market each one came from. <a href="/contact/">Book the discovery call</a>.</p>
+</aside>
+
 ## Bonzai: a more human vision of technology
 
-When Jean Marie Cordaro founded Bonzai, his goal was not another SaaS platform but an environment that serves creators instead of trapping them.
+Most platforms make leaving expensive, which is how they keep you. Cordaro set out to build the opposite: an environment that serves creators instead of trapping them.
 
 Bonzai centralises a creator's content, products, subscribers and audience in one place, without the usual restrictions. Users own their data, understand their earnings and are free to leave whenever they choose. The vision rests on three principles:
 
@@ -48,13 +52,13 @@ Bonzai centralises a creator's content, products, subscribers and audience in on
 - support rather than control;
 - humanise rather than over-automate.
 
-The principles go beyond product design and shape the company's culture. When users reach out, they speak to a real person who understands their creative journey, not a chatbot.
+The principles shape the company's culture as well as the product. When users reach out, they speak to a real person who understands their creative journey, not a chatbot.
 
-For years the creator economy was sold as total independence. For many it turned into another form of dependence: on algorithms for visibility, third parties for payments and platforms for audience access. Cordaro proposes an economy rooted in meaning, trust and responsibility, where creators do not just produce, they transmit, and where value is defined by how deeply they connect rather than how much they earn.
+For years the creator economy was sold as total independence. For many it became another form of dependence: on algorithms for visibility, third parties for payments and platforms for audience access. Cordaro proposes an economy rooted in meaning, trust and responsibility, where value is defined by how deeply creators connect rather than how much they earn.
 
 ## Trust as the foundation of a human creator economy
 
-At the heart of Jean Marie Cordaro's vision lies one word: trust. Creators must be able to trust their tools, their data and themselves.
+Trust is what turns a one-off buyer into a long-term customer, and it is the first thing an opaque platform spends. For Cordaro, creators must be able to trust their tools, their data and themselves.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 176" role="img" aria-label="Trust drawn as a roof resting on three pillars: transparency, coherence and respect.">
@@ -82,17 +86,17 @@ Bonzai applies these principles daily. Every transaction is clear, every rule un
 
 ## "Humanity should never be optional"
 
-Cordaro often repeats a phrase that captures his philosophy:
+The fear many creators share is simple: that AI will make them replaceable. Cordaro answers it with a phrase he often repeats:
 
 > "Humanity must never become an optional feature in a technological system."
 
-He firmly rejects the idea that creators could ever be replaced by artificial intelligence or standardised workflows. In his view, the future belongs to those who blend technological power with human depth and use new tools to express individuality, not erase it.
+He rejects the idea that creators could be replaced by artificial intelligence or standardised workflows. In his view, the future belongs to those who combine technological power with human depth and use new tools to express individuality, not erase it.
 
-The same mindset shapes Bonzai's balance between automation and creativity. The platform saves time but never dictates expression, and helps creators grow faster without costing them their personality.
+The same mindset sets Bonzai's balance between automation and creativity. The platform saves time but never dictates expression, helping creators grow faster without costing them their personality.
 
 ## A global and inclusive vision
 
-Cordaro's human-first philosophy is not limited to Europe or North America. He envisions a global creator economy where access to reliable tools is a right rather than a privilege, which is why Bonzai was built to be:
+Some of the fastest-growing audiences are in places most creator tools were never built for. Cordaro envisions a global creator economy where access to reliable tools is a right rather than a privilege, which is why Bonzai was built to be:
 
 - optimized for slower internet connections;
 - compatible with multiple currencies;
@@ -100,17 +104,21 @@ Cordaro's human-first philosophy is not limited to Europe or North America. He e
 
 In many emerging regions, creators face structural barriers that hold back growth. For Jean Marie Cordaro, humanity also means accessibility: technology should close gaps, not widen them. Reaching those audiences in their own languages is its own discipline, one we cover in our guide to [building a global brand](/blog/building-a-global-brand/).
 
+<aside class="post-cta">
+<p><strong>Audiences finding you in French, Spanish or German, and enquiries still arriving only in English?</strong> We write pages for each market from its own research, so the right visitor lands on a page written for them. See how our <a href="/services/lead-generation/">B2B lead generation services</a> work, or <a href="/contact/">talk to us</a>.</p>
+</aside>
+
 ## The creator's role in tomorrow's economy
 
-Tomorrow's creator, as Jean Marie Cordaro sees it, is more than a content producer: an independent media outlet, an educator, a connector and a business owner with purpose. To fill that role, creators need tools that are ethical, transparent and empowering rather than exploitative.
+Tomorrow's creator, as Jean Marie Cordaro sees it, is a small business in their own right: an independent media outlet, an educator, a connector and an owner with purpose. To fill that role, creators need tools that are ethical, transparent and empowering rather than exploitative.
 
-He envisions a creator economy where creators truly own their data and revenue, transparency is a standard rather than a marketing claim, and technology supports creativity without dictating it. Performance may attract attention, but it does not build loyalty; algorithms can amplify reach, but not trust.
+He envisions an economy where creators own their data and revenue, transparency is a standard rather than a marketing claim, and technology supports creativity without dictating it. Performance may attract attention, but it does not build loyalty; algorithms can amplify reach, but not trust.
 
 ## Reconciling humanity and technology
 
-Cordaro's message is simple but urgent: the future of the digital world depends on our ability to remain human. The creator economy should stay what it was meant to be, a space for expression, emotion and exchange, rather than another automated industry.
+The practical takeaway for anyone with an audience: build on ground you own, measure what the audience means to you rather than how big it looks, and use automation to save time, never to replace the relationship.
 
-Bonzai is his working example of that vision, and his wider point is about redefining success: not by how much we automate, but by how much meaning we preserve. Even in a world run by algorithms, the future belongs to those who know how to create connection. For creators building a personal brand of their own, our guide to [mastering the art of networking](/blog/mastering-the-art-of-networking/) covers the offline side of the same idea.
+Cordaro's message is simple but urgent: the future of the digital world depends on our ability to remain human. Bonzai is his working example, and his wider point is about success measured by how much meaning we preserve, not how much we automate. For creators building a personal brand of their own, our guide to [mastering the art of networking](/blog/mastering-the-art-of-networking/) covers the offline side of the same idea.
 
 ## Frequently asked questions
 

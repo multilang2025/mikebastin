@@ -95,7 +95,7 @@ Nos clients
 
 **Pourquoi faire confiance à notre expertise en SEO sur page ?**
 
-Avec 25 ans d’expérience en marketing digital et en SEO, nous comprenons comment élaborer des stratégies gagnantes qui fonctionnent.
+Avec plus de deux décennies d’expérience en marketing digital et en SEO, nous comprenons comment élaborer des stratégies gagnantes qui fonctionnent.
 
 Notre connaissance approfondie du marché, associée à un vaste parcours d’amélioration des classements des sites Web de nos clients, garantit que votre site est toujours en avance sur la concurrence.
 

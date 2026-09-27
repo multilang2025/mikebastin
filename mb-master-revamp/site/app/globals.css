@@ -861,3 +861,16 @@ html.mb-anim .reveal.is-in {
 .toc-rail ol { font-size: .88rem; }
 .toc-rail .toc-link { text-decoration: none; }
 .toc-rail .toc-link[aria-current] { color: var(--berry) !important; font-weight: 600; }
+
+/* In-body call to action (docs/BLOG-STRUCTURE.md, "Voice, value and CTAs").
+   A short aside at a decision point in the article, distinct from a source
+   blockquote: upright, accent rule, on the chip surface. */
+.post-body aside.post-cta {
+  margin: 2em 0;
+  padding: 1.1em 1.3em;
+  border-inline-start: 3px solid var(--berry);
+  border-radius: 0 4px 4px 0;
+  background: var(--chip);
+}
+.post-body aside.post-cta p { margin: 0; line-height: 1.6; }
+.post-body aside.post-cta strong { color: var(--ink); }

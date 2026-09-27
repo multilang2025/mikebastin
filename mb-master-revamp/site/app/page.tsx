@@ -44,7 +44,7 @@ export const metadata: Metadata = {
 
 
 const STATS = [
-  { n: 25, s: "", k: "Years in search" },
+  { n: 20, s: "+", k: "Years in search" },
   { n: 4, s: "+1", k: "Languages spoken" },
   { n: 8, s: "", k: "Projects in the line-up" },
   { n: 12, s: "", k: "Domains run" },
@@ -84,7 +84,7 @@ const BASTIN = [
   {
     letter: "N",
     word: "Networking",
-    desc: "Twenty-five years of referrals, in four languages, still the channel that works.",
+    desc: "Over two decades of referrals, in four languages, still the channel that works.",
     href: null,
   },
 ];
