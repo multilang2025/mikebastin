@@ -142,7 +142,7 @@ Local presence per Italian city (GBP, citations)
 
 ## Why this model is more honest (and more effective)
 
-**Mike Bastin:** 25 years in SEO. Italian: we do not speak it, but we read it fluently. The reading proficiency comes from native French, fluent Spanish (Valencia resident since 2016), Castilian context and a Latin background from school years. The result is that we can audit Italian SERPs and competitor pages competently, understand briefs, take notes during native team meetings.
+**Mike Bastin:** Over two decades in SEO. Italian: we do not speak it, but we read it fluently. The reading proficiency comes from native French, fluent Spanish (Valencia resident since 2016), Castilian context and a Latin background from school years. The result is that we can audit Italian SERPs and competitor pages competently, understand briefs, take notes during native team meetings.
 
 What we do not do: write or speak the language commercially. Native Italian copywriters from the BeTranslated network do that.
 

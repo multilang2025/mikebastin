@@ -15,11 +15,11 @@ excerpt: "Discover our team of multilingual SEO experts and digital marketing pr
 
 # About MikeBastin.com
 
-Multilingual SEO, translation, and digital strategy. Twenty-five years of doing the work, not just talking about it.
+Multilingual SEO, translation, and digital strategy. Over two decades of doing the work, not just talking about it.
 
 ## The Experience
 
-We have been doing SEO and translation work for 25 years. Long enough to remember when AltaVista was a serious competitor, when Google did not have a Spanish version, and when “multilingual SEO” meant translating your meta keywords. The work has changed. The principles have not. Today we help international businesses rank, communicate, and convert across markets they cannot fully see from the inside. Outside of SEO, we still spend time on the water. We run [Matosurf](https://matosurf.com), a French-language guide to surf, kitesurf and paddle spots, since windsurfing and kitesurfing shaped a good chunk of our life before Valencia did.
+We have been doing SEO and translation work for over two decades. Long enough to remember when AltaVista was a serious competitor, when Google did not have a Spanish version, and when “multilingual SEO” meant translating your meta keywords. The work has changed. The principles have not. Today we help international businesses rank, communicate, and convert across markets they cannot fully see from the inside. Outside of SEO, we still spend time on the water. We run [Matosurf](https://matosurf.com), a French-language guide to surf, kitesurf and paddle spots, since windsurfing and kitesurfing shaped a good chunk of our life before Valencia did.
 
 ## Meet Our Team
 

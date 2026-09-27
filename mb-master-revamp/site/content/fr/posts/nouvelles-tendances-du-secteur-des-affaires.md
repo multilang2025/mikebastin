@@ -130,7 +130,7 @@ Avec l’IA généraliste qui couvre les paires de langues majeures (anglais-fra
 
 C’est exactement le phénomène que je décris dans mon analyse sur les [agences de sourcing Vietnam pour la conformité EUDR](https://mikebastin.com/best-vietnam-sourcing-agencies-for-eudr-supplier-scouting-and-audits/) : les entreprises qui veulent fiabiliser leurs audits multilingues paient désormais une prime pour des traducteurs natifs spécialisés, pas pour de la post-édition standard.
 
-**Mon angle.** Sur 25 ans à faire du SEO et de la traduction internationale, ce qui m’a frappé en 2025-2026 c’est le retour en force de la qualité éditoriale comme différenciateur. La GenAI a démocratisé le contenu moyen. Ce qui se vend maintenant, c’est le contenu qu’une IA ne peut pas produire seule : expérience terrain, données propriétaires, prise de position assumée. Toutes les tendances ci-dessus convergent vers ce constat.
+**Mon angle.** En plus de deux décennies à faire du SEO et de la traduction internationale, ce qui m’a frappé en 2025-2026 c’est le retour en force de la qualité éditoriale comme différenciateur. La GenAI a démocratisé le contenu moyen. Ce qui se vend maintenant, c’est le contenu qu’une IA ne peut pas produire seule : expérience terrain, données propriétaires, prise de position assumée. Toutes les tendances ci-dessus convergent vers ce constat.
 
 ### Questions fréquentes sur les tendances business 2026
 

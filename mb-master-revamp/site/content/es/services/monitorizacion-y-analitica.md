@@ -84,4 +84,4 @@ Nuestros clientes
 
 Especialización herramientas de monitorización y analítica
 
-Con más de 25 años de experiencia en marketing digital y análisis de datos, nuestro equipo se destaca en la integración de monitorización y analítica. No solo configuramos herramientas: proporcionamos insights que impulsan el crecimiento y mejoran el rendimiento. Nuestra experiencia garantiza que tu empresa tome decisiones informadas basadas en datos, logrando resultados tangibles.
+Con más de dos décadas de experiencia en marketing digital y análisis de datos, nuestro equipo se destaca en la integración de monitorización y analítica. No solo configuramos herramientas: proporcionamos insights que impulsan el crecimiento y mejoran el rendimiento. Nuestra experiencia garantiza que tu empresa tome decisiones informadas basadas en datos, logrando resultados tangibles.

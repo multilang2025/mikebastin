@@ -77,7 +77,7 @@ Plus de 80 000 Français vivent désormais à Valencia. Communauté, immobilier,
 
 par [Mike Bastin](# "Articles de Michael Bastin") | Août 31, 2025 | [SEO International](https://mikebastin.com/fr/category/seo-international/)
 
-Le SEO multilingue ne se résume pas à traduire des balises. 25 ans d’expérience sur des marchés UE, Amérique latine et Maghreb : ce qu’un expert en référencement international apporte vraiment.
+Le SEO multilingue ne se résume pas à traduire des balises. Plus de deux décennies d’expérience sur des marchés UE, Amérique latine et Maghreb : ce qu’un expert en référencement international apporte vraiment.
 
 [lire plus](https://mikebastin.com/fr/expert-en-seo-international/)
 

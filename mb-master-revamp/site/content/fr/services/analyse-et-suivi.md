@@ -85,4 +85,4 @@ Nos clients
 
 Notre expertise en analytique et tracking
 
-Avec plus de 25 ans d’expérience en marketing digital et en analyse de données, notre équipe excelle dans l’intégration de l’analyse et du suivi. Nous ne nous contentons pas de mettre en place des outils, nous fournissons des insights qui stimulent la croissance et améliorent la performance. Notre expertise garantit que votre entreprise prend des décisions éclairées basées sur les données, conduisant à un succès mesurable.
+Avec plus de deux décennies d’expérience en marketing digital et en analyse de données, notre équipe excelle dans l’intégration de l’analyse et du suivi. Nous ne nous contentons pas de mettre en place des outils, nous fournissons des insights qui stimulent la croissance et améliorent la performance. Notre expertise garantit que votre entreprise prend des décisions éclairées basées sur les données, conduisant à un succès mesurable.

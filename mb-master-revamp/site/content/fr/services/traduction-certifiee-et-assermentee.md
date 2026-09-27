@@ -95,7 +95,7 @@ Nos clients
 
 Pourquoi faire confiance à notre expertise en traduction certifiée ?
 
-En plus de 25 ans d’expérience, nous avons travaillé avec des clients variés, fournit des traductions certifiées et assermentées qui répondent aux fortes exigences juridiques et professionnelles.
+En plus de deux décennies d’expérience, nous avons travaillé avec des clients variés, fournit des traductions certifiées et assermentées qui répondent aux fortes exigences juridiques et professionnelles.
 
 Notre équipe multilingue de traducteurs certifiés est en mesure de garantir que vos documents sont à la fois exacts et conformes à la législation.
 

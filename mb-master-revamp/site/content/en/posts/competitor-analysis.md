@@ -16,7 +16,7 @@ excerpt: "Benchmarking against the rival you lose deals to? In search it is rare
 
 You are probably benchmarking against the company you lose deals to. In search it rarely is, and every month spent chasing the wrong rival funds the wrong pages.
 
-Twenty-five years in, we have read more “competitor analysis” reports than we want to admit. Most look impressive in an exec deck. Most do nothing for search performance.
+More than two decades in, we have read more “competitor analysis” reports than we want to admit. Most look impressive in an exec deck. Most do nothing for search performance.
 
 One [law firm we have worked with](/blog/law-firm-seo-services/) for three years was convinced its main rival was a well-known boutique two streets away. One afternoon of checking who actually appeared for its clients' searches turned up three solo practitioners with twelve-page websites and very tidy local pages. The boutique they obsessed over barely ranked.
 

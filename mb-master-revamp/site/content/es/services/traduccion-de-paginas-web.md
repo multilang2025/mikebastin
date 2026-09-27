@@ -50,7 +50,7 @@ Key challenges include ensuring accurate cultural adaptation, managing technical
 
 ### Our Website Localization Expertise
 
-With over 25 years of experience in [website localization, we specialise in delivering end-to-end global solutions](https://mikebastin.com/es/services/soluciones-linguisticas/). Our services include multilingual SEO, translation management, UX design, and [e-commerce localization](https://mikebastin.com/es/services/localizacion-de-e-commerce/), helping businesses like yours expand into international markets.
+With over two decades of experience in [website localization, we specialise in delivering end-to-end global solutions](https://mikebastin.com/es/services/soluciones-linguisticas/). Our services include multilingual SEO, translation management, UX design, and [e-commerce localization](https://mikebastin.com/es/services/localizacion-de-e-commerce/), helping businesses like yours expand into international markets.
 
 From [adapting content for different languages](https://mikebastin.com/es/services/localizacion-de-contenido/) to integrating with CMS platforms, we ensure your brand resonates with diverse audiences, boosts search rankings, and drives conversions. With 72% of consumers more likely to buy from a website in their native language, our solutions are designed to improve user experience and drive revenue growth.
 

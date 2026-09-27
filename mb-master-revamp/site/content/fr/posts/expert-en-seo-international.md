@@ -9,7 +9,7 @@ wpId: 24851999
 date: "2025-08-31T09:43:05"
 modified: "2026-07-02T17:35:20"
 sourceUrl: "https://mikebastin.com/fr/expert-en-seo-international/"
-excerpt: "Le SEO multilingue ne se résume pas à traduire des balises. 25 ans d'expérience sur des marchés UE, Amérique latine et Maghreb : ce qu'un expert en référencement international apporte vraiment."
+excerpt: "Le SEO multilingue ne se résume pas à traduire des balises. Plus de deux décennies d'expérience sur des marchés UE, Amérique latine et Maghreb : ce qu'un expert en référencement international apporte vraiment."
 ---
 
 ## Un site multilingue ne suffit pas pour conquérir le monde

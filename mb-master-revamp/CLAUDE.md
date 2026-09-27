@@ -309,7 +309,11 @@ is in the rest, which the Master Content Protocol never covered:
 - Sworn and certified translation is not one term across Europe. Use the
   local designation rather than a catch-all English gloss.
 - Never claim a certification, accreditation or track record the business
-  does not hold. No named testimonial or quote from a "real" customer or expat
+  does not hold.
+- **Experience is "over two decades"** (owner, 27 Sep 2026: "I started in
+  1999, but I don't want to show too many years"). Never "25 years" or a
+  start year; the homepage counter reads 20+. BeTranslated's own age
+  ("run for twenty years") is a separate fact about the agency. No named testimonial or quote from a "real" customer or expat
   unless the person is verifiable (owner, 26 Sep 2026: the unverified
   expat testimonials in the Valencia posts were removed on that basis). Extends the existing ban on inventing a price, a
   guarantee, a turnaround or a client outcome.

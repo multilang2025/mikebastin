@@ -97,4 +97,4 @@ Our Customers
 
 Our Expertise in Keyword Research for SEO
 
-With over 25 years in the digital marketing and SEO industry, we specialise in keyword research that delivers results. Our team of experts combines industry insights, competitor analysis, and cutting-edge tools to identify the best-performing keywords for your business. We help companies of all sizes improve their rankings and drive relevant, high-quality traffic.
+With over two decades in the digital marketing and SEO industry, we specialise in keyword research that delivers results. Our team of experts combines industry insights, competitor analysis, and cutting-edge tools to identify the best-performing keywords for your business. We help companies of all sizes improve their rankings and drive relevant, high-quality traffic.

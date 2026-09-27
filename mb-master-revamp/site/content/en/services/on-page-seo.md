@@ -96,7 +96,7 @@ Our Customers
 
 **Why Trust Our On-Page SEO Expertise?**
 
-With 25 years of experience in digital marketing and SEO, we understand how to build winning strategies that work.
+With over two decades of experience in digital marketing and SEO, we understand how to build winning strategies that work.
 
 Our in-depth market knowledge, coupled with an extensive track record of improving clients’ website rankings, ensures that your site is always ahead of the competition.
 

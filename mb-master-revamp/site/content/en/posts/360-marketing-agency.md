@@ -14,7 +14,7 @@ excerpt: "Paying one 360 marketing agency and still getting four disconnected ch
 
 You signed with a **360 marketing agency** to get one joined-up plan. What arrives each month is four channel reports stapled together: four KPIs, four audience definitions, and nobody who can say which one is paying for the rest.
 
-The cost is not only the retainer: paid search buys clicks your organic pages already win, and your other languages inherit every gap in the English plan. After 25 years in this industry we have watched larger agencies sell that pitch hundreds of times.
+The cost is not only the retainer: paid search buys clicks your organic pages already win, and your other languages inherit every gap in the English plan. After more than two decades in this industry we have watched larger agencies sell that pitch hundreds of times.
 
 Below: what joined-up work looks like, a three-question test for any agency you pay, and when a 360 partner is the wrong hire.
 

@@ -75,7 +75,7 @@ Our Customers
 
 Why Trust Our Certified Translation Expertise?
 
-With over 25 years of experience, we have worked with clients across various industries, delivering certified and sworn translations that meet the highest legal and professional standards.
+With over two decades of experience, we have worked with clients across various industries, delivering certified and sworn translations that meet the highest legal and professional standards.
 
 Our multilingual team of certified translators is adept at ensuring your documents are both accurate and legally compliant.
 

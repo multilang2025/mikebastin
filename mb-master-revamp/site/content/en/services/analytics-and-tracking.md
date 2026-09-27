@@ -84,4 +84,4 @@ Our Customers
 
 Our Expertise in Analytics and Tracking
 
-With over 25 years of experience in digital marketing and data analysis, our team excels in analytics and tracking integration. We don’t just set up tools, we provide insights that drive growth and improve performance. Our expertise ensures your business makes informed, data-driven decisions that lead to measurable success.
+With over two decades of experience in digital marketing and data analysis, our team excels in analytics and tracking integration. We don’t just set up tools, we provide insights that drive growth and improve performance. Our expertise ensures your business makes informed, data-driven decisions that lead to measurable success.

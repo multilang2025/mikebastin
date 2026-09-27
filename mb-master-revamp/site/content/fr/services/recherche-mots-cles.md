@@ -97,4 +97,4 @@ Nos clients
 
 Notre expertise en recherche de mots-clés pour le SEO
 
-Avec plus de 25 ans d’expérience dans le marketing numérique et le SEO, nous sommes spécialisés dans la recherche de mots-clés qui offre des résultats. Notre équipe d’experts combine des insights sectoriels, une analyse concurrentielle et des outils à la pointe de la technologie pour identifier les mots-clés les plus performants pour votre entreprise. Nous aidons des entreprises de toutes tailles à améliorer leurs classements et à générer un trafic pertinent et de haute qualité.
+Avec plus de deux décennies d’expérience dans le marketing numérique et le SEO, nous sommes spécialisés dans la recherche de mots-clés qui offre des résultats. Notre équipe d’experts combine des insights sectoriels, une analyse concurrentielle et des outils à la pointe de la technologie pour identifier les mots-clés les plus performants pour votre entreprise. Nous aidons des entreprises de toutes tailles à améliorer leurs classements et à générer un trafic pertinent et de haute qualité.

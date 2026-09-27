@@ -84,6 +84,6 @@ Nuestros clientes
 
 Nuestra experiencia en redacción multilingüe SEO
 
-Con más de 25 años de experiencia en traducción, SEO y marketing digital, sabemos cómo crear contenido que conecte con el público local mientras optimizamos tu rendimiento global en los motores de búsqueda.
+Con más de dos décadas de experiencia en traducción, SEO y marketing digital, sabemos cómo crear contenido que conecte con el público local mientras optimizamos tu rendimiento global en los motores de búsqueda.
 
 Desde empresas pequeñas hasta multinacionales, ofrecemos soluciones SEO multilingües personalizadas que generan resultados e impulsan la visibilidad en cualquier mercado.

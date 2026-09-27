@@ -104,7 +104,7 @@ hello@mikebastin.com
 
 Get in Touch
 
-Our team is based in the vibrant city of Valencia, Spain, but our services extend across the globe. Whether you’re looking for expert SEO, web design, or internationalisation services, we’re here to help your business thrive in any market. With over 25 years of experience working with clients worldwide, our team understands the unique challenges of reaching new audiences and can provide tailored solutions to meet your needs. Get in touch today to discuss how we can support your digital growth, no matter where your business is located.
+Our team is based in the vibrant city of Valencia, Spain, but our services extend across the globe. Whether you’re looking for expert SEO, web design, or internationalisation services, we’re here to help your business thrive in any market. With over two decades of experience working with clients worldwide, our team understands the unique challenges of reaching new audiences and can provide tailored solutions to meet your needs. Get in touch today to discuss how we can support your digital growth, no matter where your business is located.
 
 Let’s work together
 

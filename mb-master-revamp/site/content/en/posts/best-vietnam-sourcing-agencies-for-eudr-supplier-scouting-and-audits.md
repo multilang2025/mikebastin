@@ -127,7 +127,7 @@ Vietnam's growing use of certified sourcing, such as FSC timber and sustainable 
 
 ## The language gap in EUDR audits
 
-An audit can pass on paper and still miss the one answer that decides compliance, because nobody in the room understood it. EUDR compliance is presented as a sourcing problem and an audit problem. Both are real. After twenty-five years in translation and language services, we would add a third: it is a language problem.
+An audit can pass on paper and still miss the one answer that decides compliance, because nobody in the room understood it. EUDR compliance is presented as a sourcing problem and an audit problem. Both are real. After over two decades in translation and language services, we would add a third: it is a language problem.
 
 The conversations that decide whether a supplier passes due diligence happen between EU compliance officers and Vietnamese plantation managers, smallholders, processors and officials. Many of them speak no English. They speak Vietnamese, regional varieties, and sometimes minority languages from the Central Highlands or the Mekong Delta.
 

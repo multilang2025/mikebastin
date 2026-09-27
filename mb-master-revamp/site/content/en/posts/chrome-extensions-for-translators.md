@@ -128,7 +128,7 @@ Every extension you keep is another popup, shortcut and permission. These no lon
 >
 > Source: [DeepL API documentation, Languages supported](https://developers.deepl.com/docs/getting-started/supported-languages)
 
-> The biggest change in twenty-five years of multilingual work is not the quality of MT or even the rise of LLMs. It is that the browser became the workbench. Everything we used to do across Trados, a paper dictionary, and three monitors now happens inside one Chrome window with seven extensions. The job is the same. The tools are unrecognisable.
+> The biggest change in over two decades of multilingual work is not the quality of MT or even the rise of LLMs. It is that the browser became the workbench. Everything we used to do across Trados, a paper dictionary, and three monitors now happens inside one Chrome window with seven extensions. The job is the same. The tools are unrecognisable.
 >
 > [Mike Bastin](/how-i-work/), multilingual SEO and translation consultant
 

@@ -18,7 +18,7 @@ Pick the wrong one and you can spend a year of budget chasing the wrong outcome.
 
 ## Digital marketing advisor vs agency at a glance
 
-After 25 years on both sides of this fence, we can usually tell within a 20 minute call which one a business needs. The signal is rarely budget. Where the bottleneck sits matters far more.
+After more than two decades on both sides of this fence, we can usually tell within a 20 minute call which one a business needs. The signal is rarely budget. Where the bottleneck sits matters far more.
 
 | Dimension | Digital marketing advisor | Marketing agency |
 |---|---|---|

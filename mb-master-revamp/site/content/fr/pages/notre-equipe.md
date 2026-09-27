@@ -15,11 +15,11 @@ excerpt: "Découvrez notre équipe d'experts SEO multilingues et de professionne
 
 # À propos de MikeBastin.com
 
-SEO multilingue, traduction et stratégie digitale. Vingt-cinq ans à faire le travail, pas seulement à en parler.
+SEO multilingue, traduction et stratégie digitale. Plus de deux décennies à faire le travail, pas seulement à en parler.
 
 ## L’expérience
 
-Je fais du SEO et de la traduction depuis 25 ans. Assez longtemps pour me souvenir de l’époque où AltaVista était un concurrent sérieux, où Google n’existait pas encore en français, et où le « SEO multilingue » consistait à traduire ses balises meta keywords. Le métier a changé. Les principes de fond, beaucoup moins. Aujourd’hui, j’aide des entreprises internationales à se positionner, à communiquer et à convertir sur des marchés qu’elles ne voient pas toujours bien depuis l’intérieur.
+Je fais du SEO et de la traduction depuis plus de deux décennies. Assez longtemps pour me souvenir de l’époque où AltaVista était un concurrent sérieux, où Google n’existait pas encore en français, et où le « SEO multilingue » consistait à traduire ses balises meta keywords. Le métier a changé. Les principes de fond, beaucoup moins. Aujourd’hui, j’aide des entreprises internationales à se positionner, à communiquer et à convertir sur des marchés qu’elles ne voient pas toujours bien depuis l’intérieur.
 
 ## Rencontrez notre équipe
 

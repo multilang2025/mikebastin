@@ -53,6 +53,6 @@ With decades of experience, we combine technical expertise and [cultural insight
 
 ### Our Internationalisation Expertise
 
-At the core of our internationalisation services is a deep understanding of global markets, languages, and digital ecosystems. With over 25 years of experience in SEO, [web design](https://mikebastin.com/services/web-design/), and multilingual content adaptation, we specialise in preparing businesses to thrive internationally.
+At the core of our internationalisation services is a deep understanding of global markets, languages, and digital ecosystems. With over two decades of experience in SEO, [web design](https://mikebastin.com/services/web-design/), and multilingual content adaptation, we specialise in preparing businesses to thrive internationally.
 
 Our team combines technical precision with cultural sensitivity, ensuring your digital presence is adapted for new regions without losing its unique brand identity. From localized user experiences to [optimized multilingual SEO](https://mikebastin.com/services/multilingual-seo/), we provide thorough solutions that help you break into new markets and connect with global audiences effectively.

@@ -16,7 +16,7 @@ excerpt: "Paying for links Google quietly ignores? Link buying and selling platf
 
 You are paying for links, or being told you should, and you cannot tell which of them will still count after Google’s next update. The wrong ones rarely get you penalised now. Google simply ignores them, so the invoice arrives and the ranking never moves.
 
-We have worked around the link market for 25 years, and the list below is not theoretical. These are the platforms we have used or watched clients use, with the trade-offs we have observed: some are excellent, some are useful for specific niches, and a few should never be used by anyone serious about long-term rankings.
+We have worked around the link market for over two decades, and the list below is not theoretical. These are the platforms we have used or watched clients use, with the trade-offs we have observed: some are excellent, some are useful for specific niches, and a few should never be used by anyone serious about long-term rankings.
 
 **Important context:** Buying links that pass ranking credit breaks Google’s spam policies (part of Google Search Essentials, formerly the Webmaster Guidelines). Google’s **SpamBrain** system can detect and neutralise (or penalise) unnatural link patterns. What follows documents the link economy as it exists in 2026, so use professional judgement.
 
@@ -128,7 +128,7 @@ Every figure in the last column is the vendor’s own claim, taken from the link
 
 ## Want a link strategy that is not just a shopping list?
 
-We help clients build link portfolios that hold up through algorithm updates. The platforms above are tools, and whether they work for you depends on what you actually need: niche relevance, language coverage, anchor text distribution, or genuine editorial reach. Twenty-five years of SEO experience, put to work on your specific situation.
+We help clients build link portfolios that hold up through algorithm updates. The platforms above are tools, and whether they work for you depends on what you actually need: niche relevance, language coverage, anchor text distribution, or genuine editorial reach. Over two decades of SEO experience, put to work on your specific situation.
 
 [Get in touch](/contact/)
 

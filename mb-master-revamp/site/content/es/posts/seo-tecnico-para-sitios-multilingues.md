@@ -9,14 +9,14 @@ wpId: 24857721
 date: "2026-05-31T16:32:15"
 modified: "2026-05-31T16:32:15"
 sourceUrl: "https://mikebastin.com/es/seo-tecnico-para-sitios-multilingues/"
-excerpt: "SEO técnico para sitios multilingües: hreflang, ubicación del servidor, contenido duplicado y estructura de dominios. Los errores que más veo en 25 años."
+excerpt: "SEO técnico para sitios multilingües: hreflang, ubicación del servidor, contenido duplicado y estructura de dominios. Los errores que más veo en más de dos décadas."
 ---
 
 ![SEO técnico para sitios web multilingües](https://mikebastin.com/wp-content/uploads/2024/12/Technical-SEO-for-Multilingual-Websites-1024x457.jpg)
 
 ## SEO técnico para sitios multilingües: lo que de verdad mueve la aguja
 
-Llevo veinticinco años trabajando en SEO y traducción, y los sitios multilingües siguen siendo donde más proyectos se tuercen por culpa de un detalle técnico.
+Llevo más de dos décadas trabajando en SEO y traducción, y los sitios multilingües siguen siendo donde más proyectos se tuercen por culpa de un detalle técnico.
 
 Casi nunca falla el contenido. Falla el hreflang mal puesto, el servidor en el país equivocado o tres versiones de idioma compitiendo entre ellas dentro de Google.
 
@@ -136,6 +136,6 @@ El SEO técnico es el cimiento de cualquier web multilingüe que funcione.
 
 Posicionar en varios mercados pide hreflang bien resuelto, servidores elegidos con criterio, control del contenido duplicado y una estructura de dominios coherente. Cuando esas piezas encajan, Google entiende, indexa y posiciona tu contenido para el público de cada mercado.
 
-¿Tu web multilingüe no rinde como debería en cada país? [Escríbeme y revisamos juntos tu configuración técnica](https://mikebastin.com/es/contactanos/), con la experiencia de veinticinco años en SEO y traducción de mi lado.
+¿Tu web multilingüe no rinde como debería en cada país? [Escríbeme y revisamos juntos tu configuración técnica](https://mikebastin.com/es/contactanos/), con la experiencia de más de dos décadas en SEO y traducción de mi lado.
 
 ![Pasos de implementación técnica para varias versiones de idioma](https://mikebastin.com/wp-content/uploads/2024/12/image.png)

@@ -8,7 +8,7 @@ import { useInView, useReducedMotion } from "motion/react";
  *
  * The final value is the initial state, which is the whole point of the
  * 21 September 2026 rewrite. Starting at zero meant the static export
- * shipped `0 Years in search` in the HTML, and the real 25 only ever
+ * shipped `0 Years in search` in the HTML, and the real figure only ever
  * existed after React hydrated and the strip scrolled into view. Anything
  * reading the page without running JS, which includes some crawlers, some
  * previews and any reader with scripts blocked, met a consultancy

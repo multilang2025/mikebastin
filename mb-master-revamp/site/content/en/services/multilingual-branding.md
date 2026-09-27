@@ -44,6 +44,6 @@ Want a brand that works across borders without losing its soul? [Let’s talk](h
 
 ### Our Multilingual Branding Expertise
 
-At the core of your brand’s global success is its ability to resonate with audiences across different languages and cultures. With over 25 years of experience in multilingual services, we understand the complexities of international branding. Whether it’s adapting your logo to local tastes, creating engaging multilingual content, or strategising your brand’s global expansion, our expertise ensures your brand thrives in any market.
+At the core of your brand’s global success is its ability to resonate with audiences across different languages and cultures. With over two decades of experience in multilingual services, we understand the complexities of international branding. Whether it’s adapting your logo to local tastes, creating engaging multilingual content, or strategising your brand’s global expansion, our expertise ensures your brand thrives in any market.
 
 Ready to make your brand go global? Contact us today to start building a brand that truly speaks to the world.

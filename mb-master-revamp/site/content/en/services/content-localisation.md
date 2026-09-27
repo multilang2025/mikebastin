@@ -55,4 +55,4 @@ From multilingual SEO and [cultural consulting](https://mikebastin.com/services/
 
 ## Our Content Localization Expertise
 
-At the heart of our content localization services is a deep understanding of global markets, languages, and cultural differences. With over 25 years of experience in translation, SEO, and digital marketing, we bring a unique blend of linguistic precision and technical know-how to every project. Our team of experts ensures that your content is translated and adapted to engage with local audiences, while maintaining your brand’s integrity across borders.
+At the heart of our content localization services is a deep understanding of global markets, languages, and cultural differences. With over two decades of experience in translation, SEO, and digital marketing, we bring a unique blend of linguistic precision and technical know-how to every project. Our team of experts ensures that your content is translated and adapted to engage with local audiences, while maintaining your brand’s integrity across borders.

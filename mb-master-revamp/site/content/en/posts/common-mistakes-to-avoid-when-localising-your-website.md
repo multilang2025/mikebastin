@@ -77,4 +77,4 @@ One design does not suit every region, and friction shows up as bounce rather th
 
 Website localization is a strategic investment, not a technical chore. Start with the mistakes closest to the sale (payments, forms and trust), then work outwards to search and culture.
 
-With over 25 years in SEO, translation and marketing, we help businesses build websites that fit each market and get found in it. Our [website localization services](/services/website-localisation/) cover all ten points, and you can [contact us](/contact/) to talk through yours.
+With over two decades in SEO, translation and marketing, we help businesses build websites that fit each market and get found in it. Our [website localization services](/services/website-localisation/) cover all ten points, and you can [contact us](/contact/) to talk through yours.

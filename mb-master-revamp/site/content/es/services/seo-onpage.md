@@ -96,7 +96,7 @@ Nuestros clientes
 
 **¿Por qué confiar en nuestra experiencia en SEO en la página?**
 
-Con 25 años de experiencia en marketing digital y SEO, sabemos cómo crear estrategias efectivas que realmente funcionen.
+Con más de dos décadas de experiencia en marketing digital y SEO, sabemos cómo crear estrategias efectivas que realmente funcionen.
 
 Nuestro profundo conocimiento del mercado, junto con un extenso historial de mejora en los posicionamientos web de nuestros clientes, garantiza que tu página web siempre esté por delante de la competencia.
 

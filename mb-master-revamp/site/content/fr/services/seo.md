@@ -24,7 +24,7 @@ At [MikeBastin](https://mikebastin.com/services/global-seo-solutions/), we provi
 
 With more than 300 million French speakers globally and Google accounting for nearly 90% of all searches in French-speaking countries, a strategic approach to SEO is crucial for maximising reach and generating targeted traffic.
 
-Benefit from over 25 years of proven experience in [search engine optimization](https://mikebastin.com/services/), delivering consistent Top 10 rankings and boosting conversions for clients in competitive sectors.
+Benefit from over two decades of proven experience in [search engine optimization](https://mikebastin.com/services/), delivering consistent Top 10 rankings and boosting conversions for clients in competitive sectors.
 
 -   **Local SEO in France and Francophone Regions:** Target hyperlocal keywords and optimize your [Google Business Profile](https://mikebastin.com/optimise-a-google-business-profile/) to reach clients in specific cities and regions, from Paris and Lyon to Brussels and Geneva. Learn more about our [local SEO services](https://mikebastin.com/services/local-seo/).
 -   **French Content Localization and Keyword Research:** Create culturally relevant, search-intent-driven content that resonates with native French speakers and meets the latest search trends. See our [content localization](https://mikebastin.com/services/content-localisation/) and [keyword research services](https://mikebastin.com/services/keyword-research/).
@@ -45,7 +45,7 @@ Businesses in France, Belgium, Switzerland, and Québec rely on our expertise fo
 
 Discover why organisations across French-speaking regions choose us as their trusted partner for SEO success.
 
-Avec plus de 25 ans d’expérience dans le domaine du SEO multilingue, nous avons aidé de nombreuses entreprises à atteindre le haut des classements dans leurs marchés respectifs.
+Avec plus de deux décennies d’expérience dans le domaine du SEO multilingue, nous avons aidé de nombreuses entreprises à atteindre le haut des classements dans leurs marchés respectifs.
 
 Our French SEO strategies have consistently delivered Top 10 positions for BeTranslated and our clients across France, Belgium, Switzerland, and Québec.
 
@@ -119,7 +119,7 @@ Nos clients
 
 ### Our French SEO Expertise
 
-With over 25 years of experience in multilingual SEO, our team delivers exceptional results for French-speaking markets, including  
+With over two decades of experience in multilingual SEO, our team delivers exceptional results for French-speaking markets, including  
 [France](https://mikebastin.com/services/french-seo/), [Belgium](https://mikebastin.com/seo-in-belgium/), [Switzerland](https://mikebastin.com/services/internationalisation/), and [Québec](https://mikebastin.com/services/french-seo/).  
 We specialise in tailored SEO strategies that boost your online presence and connect you with local audiences.
 

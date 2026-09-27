@@ -14,9 +14,9 @@ excerpt: "Boostez vos ventes en ligne avec l’intégration e-commerce localisé
 
 # Agence de référencement multilingue : SEO international par un consultant à Valencia
 
-25 ans à pousser des marques sur des marchés où elles n’étaient pas attendues. Audit SEO multilingue, stratégie hreflang, contenu localisé, netlinking par pays. Pas de templates traduits.
+Plus de deux décennies à pousser des marques sur des marchés où elles n’étaient pas attendues. Audit SEO multilingue, stratégie hreflang, contenu localisé, netlinking par pays. Pas de templates traduits.
 
-25 ans
+20+ ans
 
 de SEO et traduction sur des marchés européens et latino-américains
 
@@ -34,7 +34,7 @@ stratégies pensées pour Google ET les moteurs génératifs (ChatGPT, Perplexit
 
 ## Le SEO multilingue rate quand on copie-colle ce qui marche en français
 
-J’ai vu trois fois la même erreur en 25 ans, dans trois secteurs différents :
+J’ai vu trois fois la même erreur en plus de deux décennies, dans trois secteurs différents :
 
 Résultat : les mots-clés ciblés en français n’ont aucun volume de recherche en espagnol ou en allemand. La page se positionne sur des termes que personne ne tape. Le trafic stagne, les conversions aussi.
 
@@ -144,7 +144,7 @@ Traduction certifiée ou assermentée
 
 ## Qui est derrière la mission
 
-**Mike Bastin**, consultant SEO international, fondateur de BeTranslated. 25 ans à travailler le SEO et la traduction sur des marchés européens, latino-américains et nord-américains. Quadrilingue (FR, EN, ES, NL) plus une compréhension de travail en italien, allemand et catalan.
+**Mike Bastin**, consultant SEO international, fondateur de BeTranslated, plus de deux décennies à travailler le SEO et la traduction sur des marchés européens, latino-américains et nord-américains. Quadrilingue (FR, EN, ES, NL) plus une compréhension de travail en italien, allemand et catalan.
 
 Basé à Valencia depuis 2016. J’ai vécu en République dominicaine, au Costa Rica, au Mexique et aux États-Unis. Cette expérience terrain influence directement mes choix SEO sur les marchés hispanophones et anglophones.
 
