@@ -1,6 +1,7 @@
 ---
 words: 669
 title: "EEAT vs AEAT. The typo that turns an SEO audit into a tax audit"
+metaTitle: "EEAT vs AEAT: when an SEO audit becomes a tax audit"
 slug: "eeat-vs-aeat-typo"
 locale: "en"
 type: "posts"

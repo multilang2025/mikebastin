@@ -263,6 +263,26 @@ that promise only what the linked service page states (owner, 26 Sep
 on a figure that would break the page (blank line inside, hex colour,
 missing aria-label).
 
+## Page metadata goes through `lib/meta.ts`
+
+Every EN route builds its metadata with `pageMeta()` (EN meta audit, 27
+Sep 2026). A page that sets only `title` and `description` inherits the
+root layout's `openGraph`, which is how 68 pages, every post among them,
+shared as "Mike Bastin, multilingual search consultant" with no canonical
+and no og:url. Rules that came out of fixing it:
+
+- A route with its own `opengraph-image.tsx` must **not** pass
+  `fallbackImage`: on this Next version a config `images` array overrides
+  the generated card instead of yielding to it. Routes without one must
+  pass it, or setting `openGraph` drops the inherited card entirely.
+- Every `opengraph-image.tsx` exports `alt`.
+- A post's meta description is its `excerpt` as written (120 to 155
+  characters since the voice pass); `lib/seo.ts` only trims one over 160.
+  A post title over 60 characters gets a `metaTitle` in frontmatter; the
+  h1 keeps `title`.
+- `.htaccess` forces `image/png` on the extensionless `opengraph-image`
+  files; without it the host sends no Content-Type.
+
 ## Copy has to sell, not only pass the protocol
 
 The Master Content Protocol and the `copy-editor` agent are all
@@ -327,10 +347,12 @@ is in the rest, which the Master Content Protocol never covered:
 - **Experience is "over two decades"** (owner, 27 Sep 2026: "I started in
   1999, but I don't want to show too many years"). Never "25 years" or a
   start year; the homepage counter reads 20+. BeTranslated's own age
-  ("run for twenty years") is a separate fact about the agency. No named testimonial or quote from a "real" customer or expat
-  unless the person is verifiable (owner, 26 Sep 2026: the unverified
-  expat testimonials in the Valencia posts were removed on that basis). Extends the existing ban on inventing a price, a
-  guarantee, a turnaround or a client outcome.
+  ("run for twenty years") is a separate fact about the agency.
+- No named testimonial or quote from a "real" customer or expat unless
+  the person is verifiable (owner, 26 Sep 2026: the unverified expat
+  testimonials in the Valencia posts were removed on that basis). Extends
+  the existing ban on inventing a price, a guarantee, a turnaround or a
+  client outcome.
 
 Split across `copy-editor` (language, sourcing, claims),
 `localization-qa` (per-market formats, legal terminology),

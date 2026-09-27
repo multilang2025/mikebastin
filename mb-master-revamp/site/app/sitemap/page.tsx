@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/meta";
 import Link from "next/link";
 import Reveal from "@/components/Reveal";
 import SiteFooter from "@/components/SiteFooter";
-import { SITE_URL } from "@/lib/schema";
+import { SITE_URL, breadcrumbSchema } from "@/lib/schema";
 import { getSiteUrls, SECTION_ORDER, type UrlEntry } from "@/lib/site-urls";
+import JsonLd from "@/components/JsonLd";
 
 /**
  * The HTML sitemap, for people rather than crawlers.
@@ -22,15 +24,13 @@ const DESCRIPTION =
   "Every page on mikebastin.com in one list: services, the journal and its topics, client work, and the French and Spanish pages.";
 
 export const metadata: Metadata = {
-  title: "Sitemap, Mike Bastin",
-  description: DESCRIPTION,
-  alternates: { canonical: `${SITE_URL}/sitemap/` },
-  openGraph: {
+  ...pageMeta({
     title: "Sitemap, Mike Bastin",
     description: DESCRIPTION,
-    url: `${SITE_URL}/sitemap/`,
+    path: "/sitemap/",
+    fallbackImage: true,
     type: "website",
-  },
+  }),
 };
 
 export default function SitemapPage() {
@@ -50,6 +50,7 @@ export default function SitemapPage() {
 
   return (
     <main id="main">
+      <JsonLd data={breadcrumbSchema([{ name: "Home", url: `${SITE_URL}/` }, { name: "Sitemap", url: `${SITE_URL}/sitemap/` }])} />
       {/* ============ HERO ============ */}
       <section className="band band-a grain relative overflow-hidden pb-[clamp(48px,7vw,90px)] pt-[clamp(88px,13vw,150px)]">
         <div className="shell">

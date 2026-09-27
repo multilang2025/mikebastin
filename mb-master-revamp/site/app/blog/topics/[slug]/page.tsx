@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/meta";
 import Link from "next/link";
 import PostImage from "@/components/PostImage";
 import Reveal from "@/components/Reveal";
 import SiteFooter from "@/components/SiteFooter";
 import { getTopics, type Topic } from "@/lib/posts";
 import { getService } from "@/lib/services";
-import { SITE_URL } from "@/lib/schema";
+import { SITE_URL, breadcrumbSchema } from "@/lib/schema";
+import JsonLd from "@/components/JsonLd";
 
 /**
  * Topic landing pages, one per cluster.
@@ -38,14 +40,11 @@ export async function generateMetadata({
   const topic = topicOr404(slug);
   if (!topic) return {};
 
-  const title = `${topic.name}, from the Mike Bastin journal`;
-  const url = `${SITE_URL}/blog/topics/${topic.slug}/`;
-  return {
-    title,
+  return pageMeta({
+    title: `${topic.name}, from the Mike Bastin journal`,
     description: topic.blurb,
-    alternates: { canonical: url },
-    openGraph: { title, description: topic.blurb, url, type: "website" },
-  };
+    path: `/blog/topics/${topic.slug}/`,
+  });
 }
 
 export default async function TopicPage({
@@ -63,6 +62,7 @@ export default async function TopicPage({
 
   return (
     <main id="main">
+      <JsonLd data={breadcrumbSchema([{ name: "Home", url: `${SITE_URL}/` }, { name: "Journal", url: `${SITE_URL}/blog/` }, { name: topic.name, url: `${SITE_URL}/blog/topics/${topic.slug}/` }])} />
       {/* ============ HERO ============ */}
       <section className="band band-a grain relative overflow-hidden pb-[clamp(48px,7vw,90px)] pt-[clamp(88px,13vw,150px)]">
         <div className="shell">

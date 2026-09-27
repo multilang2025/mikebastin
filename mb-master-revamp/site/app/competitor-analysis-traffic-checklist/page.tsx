@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/meta";
 import Link from "next/link";
 import PostImage from "@/components/PostImage";
 import Reveal from "@/components/Reveal";
@@ -32,17 +33,13 @@ const DESCRIPTION =
   "Work through a competitor traffic audit the way we run one: the real rival list, what the traffic tools can and cannot tell you, channel mix, AI citations, and six actions rather than eighty.";
 
 export const metadata: Metadata = {
-  title: "The competitor analysis and traffic checklist, Mike Bastin",
-  description: DESCRIPTION,
-  alternates: { canonical: `${SITE_URL}/competitor-analysis-traffic-checklist/` },
-  openGraph: {
-    type: "article",
-    siteName: "Mike Bastin",
-    locale: "en_GB",
-    url: `${SITE_URL}/competitor-analysis-traffic-checklist/`,
+  ...pageMeta({
     title: "The competitor analysis and traffic checklist, Mike Bastin",
     description: DESCRIPTION,
-  },
+    path: "/competitor-analysis-traffic-checklist/",
+    fallbackImage: true,
+    type: "article",
+  }),
 };
 
 /** The artefact people arrive for. Ordered as the audit actually runs. */

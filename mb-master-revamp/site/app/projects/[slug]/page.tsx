@@ -1,9 +1,12 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/meta";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import Reveal from "@/components/Reveal";
 import { PROJECTS, getProject } from "@/lib/projects";
 import SiteFooter from "@/components/SiteFooter";
+import JsonLd from "@/components/JsonLd";
+import { SITE_URL, breadcrumbSchema } from "@/lib/schema";
 
 export function generateStaticParams() {
   return PROJECTS.map((p) => ({ slug: p.slug }));
@@ -17,10 +20,11 @@ export async function generateMetadata({
   const { slug } = await params;
   const project = getProject(slug);
   if (!project) return {};
-  return {
+  return pageMeta({
     title: project.metaTitle ?? `${project.name}, a case study, Mike Bastin`,
     description: project.metaDescription ?? project.body,
-  };
+    path: `/projects/${project.slug}/`,
+  });
 }
 
 export default async function ProjectPage({
@@ -38,6 +42,7 @@ export default async function ProjectPage({
 
   return (
     <main>
+      <JsonLd data={breadcrumbSchema([{ name: "Home", url: `${SITE_URL}/` }, { name: project.name, url: `${SITE_URL}/projects/${project.slug}/` }])} />
       {/* ============ HERO ============ */}
       <section className="band band-a grain relative overflow-hidden pb-[clamp(56px,8vw,100px)] pt-[clamp(96px,14vw,160px)]">
         <div className="shell relative">

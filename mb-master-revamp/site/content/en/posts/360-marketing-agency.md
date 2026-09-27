@@ -1,6 +1,7 @@
 ---
 words: 1058
 title: "Transform your marketing strategy with a 360 marketing agency"
+metaTitle: "360 marketing agency: what joined-up marketing looks like"
 slug: "360-marketing-agency"
 locale: "en"
 type: "posts"

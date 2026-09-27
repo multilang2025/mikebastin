@@ -1,6 +1,7 @@
 ---
 words: 2049
 title: "When businesses need a digital marketing advisor instead of an agency"
+metaTitle: "Digital marketing advisor or agency: which do you need?"
 slug: "digital-marketing-advisor"
 locale: "en"
 type: "posts"

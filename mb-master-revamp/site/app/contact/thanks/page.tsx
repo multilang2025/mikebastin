@@ -1,11 +1,16 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/meta";
 import Reveal from "@/components/Reveal";
 import SiteFooter from "@/components/SiteFooter";
 import { ButtonLink } from "@/components/ui/Button";
 
 export const metadata: Metadata = {
-  title: "Thanks, Mike Bastin",
-  description: "Your message is in. We reply ourselves, usually within a working day.",
+  ...pageMeta({
+    title: "Thanks, Mike Bastin",
+    description: "Your message is in. We reply ourselves, usually within a working day.",
+    path: "/contact/thanks/",
+    fallbackImage: true,
+  }),
   robots: { index: false, follow: true },
 };
 

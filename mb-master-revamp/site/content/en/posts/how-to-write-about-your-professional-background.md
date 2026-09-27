@@ -1,6 +1,7 @@
 ---
 words: 1524
 title: "How to write about your professional background in digital marketing"
+metaTitle: "How to write about your professional background"
 slug: "how-to-write-about-your-professional-background"
 locale: "en"
 type: "posts"

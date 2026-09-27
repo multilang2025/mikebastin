@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/meta";
 import Link from "next/link";
 import Reveal from "@/components/Reveal";
 import SiteFooter from "@/components/SiteFooter";
@@ -14,9 +15,12 @@ import { SITE_URL, breadcrumbSchema } from "@/lib/schema";
 // (discovery, a plan, monthly delivery, reporting, flexible contracts). That
 // shape survives here as the real content; the figures do not.
 export const metadata: Metadata = {
-  title: "How we work, Mike Bastin",
-  description:
-    "How a multilingual SEO, localization or AI consulting engagement actually runs: the discovery call, the written scope, delivery cadence and reporting.",
+  ...pageMeta({
+    title: "How we work, Mike Bastin",
+    description: "How a multilingual SEO, localization or AI consulting engagement actually runs: the discovery call, the written scope, delivery cadence and reporting.",
+    path: "/how-i-work/",
+    fallbackImage: true,
+  }),
 };
 
 const STAGES = [

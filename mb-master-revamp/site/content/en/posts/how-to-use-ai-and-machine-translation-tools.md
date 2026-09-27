@@ -1,6 +1,7 @@
 ---
 words: 742
 title: "How to use AI and machine translation tools for multilingual content optimization"
+metaTitle: "AI and machine translation tools for multilingual content"
 slug: "how-to-use-ai-and-machine-translation-tools"
 locale: "en"
 type: "posts"

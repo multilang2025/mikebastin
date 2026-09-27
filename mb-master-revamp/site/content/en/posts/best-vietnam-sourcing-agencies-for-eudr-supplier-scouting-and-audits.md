@@ -1,6 +1,7 @@
 ---
 words: 2181
 title: "Vietnam sourcing agencies for EUDR: supplier scouting and audits"
+metaTitle: "Vietnam sourcing agencies for EUDR scouting and audits"
 slug: "best-vietnam-sourcing-agencies-for-eudr-supplier-scouting-and-audits"
 locale: "en"
 type: "posts"

@@ -1,6 +1,7 @@
 ---
 words: 2170
 title: "Global business trends: AI, trade policy and what drives growth now"
+metaTitle: "Global business trends 2026: AI, tariffs and growth"
 slug: "global-business-trends"
 locale: "en"
 type: "posts"

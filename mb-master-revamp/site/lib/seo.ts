@@ -32,7 +32,6 @@ const CLUSTER_CTA: Record<string, string> = {
 
 const DEFAULT_CTA = "Read the full post.";
 const MAX_LEN = 160;
-const MIN_LEN = 120;
 
 function cleanSentence(text: string): string {
   return text.trim().replace(/\s+/g, " ").replace(/[.!?]+$/, "");
@@ -85,36 +84,30 @@ function truncateAtWord(text: string, max: number): string {
 }
 
 /**
- * Builds a 140-160 character (best effort; shorter only when the source
- * excerpt itself is short) meta description from a post's real excerpt,
- * closing with a cluster-appropriate call to action.
+ * A post's meta description. Since the voice pass of 26 Sep 2026 every
+ * `excerpt` is written as a search snippet (problem plus payoff, 120 to
+ * 155 characters, docs/BLOG-STRUCTURE.md), so it is used as written. The
+ * old rule trimmed it to make room for a cluster call to action, which cut
+ * 50 of the 52 new excerpts mid-sentence ("...Brussels, each. See the
+ * market-specific detail."). Now an excerpt over 160 characters is trimmed
+ * at a clean boundary, and only one too short to fill a snippet gets the
+ * cluster line appended.
  */
 export function postMetaDescription(post: { excerpt: string; cluster: string }): string {
-  const cta = CLUSTER_CTA[post.cluster] ?? DEFAULT_CTA;
-  const base = cleanSentence(post.excerpt);
-
-  const room = MAX_LEN - cta.length - 2; // ". " joins base and cta
-  const fitted = truncateAtWord(base, Math.max(room, 40));
-  const combined = `${fitted}. ${cta}`;
-
-  if (combined.length <= MAX_LEN && combined.length >= MIN_LEN) return combined;
-  // Excerpt was already short: appending the CTA still reads naturally and
-  // there is nothing more true to say without inventing content, so a
-  // shorter-than-ideal snippet stands rather than padding it with filler.
-  return combined.length <= MAX_LEN ? combined : `${truncateAtWord(base, MAX_LEN - 1)}.`;
+  const written = post.excerpt.trim().replace(/\s+/g, " ");
+  // Keep the author's own closing mark, so a question stays a question.
+  const whole = /[.!?]$/.test(written) ? written : `${written}.`;
+  if (whole.length > MAX_LEN) return `${truncateAtWord(cleanSentence(written), MAX_LEN - 1)}.`;
+  const withCta = `${whole} ${CLUSTER_CTA[post.cluster] ?? DEFAULT_CTA}`;
+  return whole.length < 110 && withCta.length <= MAX_LEN ? withCta : whole;
 }
 
 /**
- * Hand-tuned overrides for the two cluster pillars that are ordinary blog
- * posts (the checklist pillar has its own bespoke hand-built page and
- * metadata already). Written from the posts' own bodies, not invented.
+ * Hand-tuned overrides, for a post whose excerpt cannot double as its
+ * snippet. Empty since the voice pass: the two it used to hold carried
+ * pre-rewrite copy and now lose to the rewritten excerpts.
  */
-export const POST_META_OVERRIDES: Record<string, string> = {
-  "best-practices-for-multilingual-seo":
-    "Multilingual SEO in 2026 needs hreflang, structured data and GEO working together, not translated keywords alone. See the practices that build presence.",
-  "generative-engine-optimization":
-    "AI answers now name a handful of sources instead of ranking ten blue links. Here is how Generative Engine Optimization adapts SEO to be one of them.",
-};
+export const POST_META_OVERRIDES: Record<string, string> = {};
 
 export function getPostMetaDescription(post: { slug: string; excerpt: string; cluster: string }): string {
   return POST_META_OVERRIDES[post.slug] ?? postMetaDescription(post);

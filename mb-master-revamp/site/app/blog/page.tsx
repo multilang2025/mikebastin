@@ -1,15 +1,20 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/meta";
 import Link from "next/link";
 import PostImage from "@/components/PostImage";
 import Reveal from "@/components/Reveal";
 import SiteFooter from "@/components/SiteFooter";
 import { topicSlug, getClusterGroups, UNCATEGORISED } from "@/lib/posts";
 import { getService } from "@/lib/services";
+import JsonLd from "@/components/JsonLd";
+import { SITE_URL, breadcrumbSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Journal: multilingual SEO and AI consulting articles, Mike Bastin",
-  description:
-    "Fifty nine posts on multilingual SEO, localization and AI, grouped by subject, with the service behind each group named alongside it.",
+  ...pageMeta({
+    title: "Multilingual SEO and AI journal, Mike Bastin",
+    description: "Fifty nine posts on multilingual SEO, localization and AI, grouped by subject, with the service behind each group named alongside it.",
+    path: "/blog/",
+  }),
 };
 
 function formatDate(iso: string) {
@@ -29,6 +34,7 @@ export default function BlogIndex() {
 
   return (
     <main>
+      <JsonLd data={breadcrumbSchema([{ name: "Home", url: `${SITE_URL}/` }, { name: "Journal", url: `${SITE_URL}/blog/` }])} />
       {/* ============ HERO ============ */}
       <section className="band band-a grain relative overflow-hidden pb-[clamp(56px,8vw,100px)] pt-[clamp(96px,14vw,160px)]">
         <div className="shell relative">

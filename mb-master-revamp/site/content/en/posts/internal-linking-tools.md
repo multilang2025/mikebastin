@@ -1,6 +1,7 @@
 ---
 words: 862
 title: "Internal linking tools and WordPress plugins worth installing"
+metaTitle: "Internal linking tools and WordPress plugins compared"
 slug: "internal-linking-tools"
 locale: "en"
 type: "posts"

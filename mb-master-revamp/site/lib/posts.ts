@@ -66,6 +66,9 @@ export type PostFrontmatter = {
   date: string;
   modified: string;
   sourceUrl: string;
+  /** Search title when the on-page title runs past ~60 characters. The
+   * h1 keeps `title`; only <title> and the social cards use this. */
+  metaTitle?: string;
   excerpt: string;
 };
 

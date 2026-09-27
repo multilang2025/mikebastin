@@ -1,6 +1,7 @@
 ---
 words: 1475
 title: "German SEO content localization: beyond translation for German SEO"
+metaTitle: "German SEO content localization, beyond translation"
 slug: "german-seo-content-localisation"
 locale: "en"
 type: "posts"
