@@ -20,13 +20,25 @@ Ranking is still the foundation, but no longer where the job ends. The work that
 
 If search engines cannot tell which version of your site is meant for which market, even an excellent translation sits unseen. Localized [multilingual SEO](/services/multilingual-seo/) puts each version in front of the people looking for it.
 
-The groundwork is language tags, region-specific sitemaps and localized URL structures. The same signals are now the foundation for GEO in each language, so a gap here costs you twice.
+The groundwork, in every language:
+
+- Language tags on each page.
+- Region-specific sitemaps.
+- Localized URL structures.
+
+The same signals are now the foundation for GEO in each language, so a gap here costs you twice.
 
 ## Keyword localization, not translation
 
 Translate your English keywords and you get terms that are correct and that nobody in the market types. [Keyword localization](/blog/spanish-keyword-localisation/) starts from how buyers in each country actually search, which is often not how the English page phrased it.
 
-Each market needs its own research, covering regional dialects, colloquial phrasing and local intent. Google Keyword Planner, Semrush and Ahrefs all support it, but native-level knowledge is what separates real queries from assumptions carried over from English. Precise local wording also helps AI models associate your brand with the right topics in each language.
+Each market needs its own research, covering:
+
+- Regional dialects.
+- Colloquial phrasing.
+- Local intent.
+
+Google Keyword Planner, Semrush and Ahrefs all support it, but native-level knowledge is what separates real queries from assumptions carried over from English. Precise local wording also helps AI models associate your brand with the right topics in each language.
 
 ## Localized meta tags for each language
 
@@ -42,7 +54,16 @@ Good metadata lifts click-through in classic results and makes it more likely an
 
 Your URL structure is expensive to undo later. It is a core [technical element of multilingual SEO](/blog/technical-seo-for-multilingual-websites/), because search engines use it to identify language and regional targeting.
 
-There are three main approaches: subdomains (en.example.com), subdirectories (example.com/en/) and country-code top-level domains (example.fr). They differ in crawl management, authority consolidation and hosting complexity. Subdirectories are the most common choice for keeping authority under one domain. Whichever you choose, keep URLs clean, descriptive and consistent, and never mix structures across languages.
+There are three main approaches:
+
+- **Subdomains:** en.example.com.
+- **Subdirectories:** example.com/en/, the most common choice for keeping authority under one domain.
+- **Country-code top-level domains:** example.fr.
+
+They differ in crawl management, authority consolidation and hosting complexity. Whichever you choose:
+
+- Keep URLs clean, descriptive and consistent.
+- Never mix structures across languages.
 
 ## Implementing hreflang: three rules for correct tags
 
@@ -60,13 +81,24 @@ Hreflang errors are among the most common [technical SEO issues](/blog/technical
 
 ## Local backlinks and regional authority
 
-A link from the local press or a sector association in your target country is worth more than a generic international link, because search relevance is geographic as well as topical. Localized guest posts, partnerships with [local businesses](/blog/how-to-promote-your-local-business-on-google-maps/) and targeted PR all earn regional links. Quality outweighs quantity, and bought links or link schemes risk penalties. For a market-specific example, see our guide to [link building in Spain](/blog/link-building-in-spain/).
+A link from the local press or a sector association in your target country is worth more than a generic international link, because search relevance is geographic as well as topical. Three ways to earn regional links:
+
+- Localized guest posts.
+- Partnerships with [local businesses](/blog/how-to-promote-your-local-business-on-google-maps/).
+- Targeted PR.
+
+Quality outweighs quantity, and bought links or link schemes risk penalties. For a market-specific example, see our guide to [link building in Spain](/blog/link-building-in-spain/).
 
 Authoritative local links also make it more likely that AI models treat your content as a source worth citing in that market.
 
 ## Structured data and entity clarity
 
-When an AI system cannot tell which version of your page serves which market, it quotes a clearer source. Structured data now shapes how AI systems interpret your content, not only how it ranks. Every language version should carry accurate schema markup: WebPage, Organization, BreadcrumbList and any relevant Product or Service types.
+When an AI system cannot tell which version of your page serves which market, it quotes a clearer source. Structured data now shapes how AI systems interpret your content, not only how it ranks. Every language version should carry accurate schema markup:
+
+- WebPage.
+- Organization.
+- BreadcrumbList.
+- Any relevant Product or Service types.
 
 Entity clarity matters even more on multilingual sites. AI models need unambiguous signals about which version applies to which market, language and audience. Without them, your content starts at a disadvantage in AI answers, whatever its rankings.
 
@@ -74,7 +106,14 @@ Entity clarity matters even more on multilingual sites. AI models need unambiguo
 
 A growing share of your buyers now compare suppliers inside Google’s AI Overviews and AI Mode, ChatGPT, Perplexity and Gemini, which all draw on structured, authoritative, entity-rich content. Content that only targets classic results misses that part of the decision.
 
-GEO makes content citable by AI, not just indexable. For multilingual sites it demands factual density, clear entity relationships, correct language tagging and authoritative sources in every language, not only the primary one. Brands that treat secondary languages as an afterthought will lose ground to competitors who invest in full [content localization](/services/website-localisation/) in every market. Our view on [the future of SEO](/blog/future-of-seo/) goes further into where this is heading.
+GEO makes content citable by AI, not just indexable. For multilingual sites it demands, in every language and not only the primary one:
+
+- Factual density.
+- Clear entity relationships.
+- Correct language tagging.
+- Authoritative sources.
+
+Brands that treat secondary languages as an afterthought will lose ground to competitors who invest in full [content localization](/services/website-localisation/) in every market. Our view on [the future of SEO](/blog/future-of-seo/) goes further into where this is heading.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 172" role="img" aria-label="Three stacked layers: multilingual SEO at the base, GEO on top of it, and everywhere presence at the top.">

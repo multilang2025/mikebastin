@@ -26,7 +26,13 @@ Most localization defects are not translation defects, so they slip past a lingu
 - **Regional settings:** sorting of accented characters, right-to-left rendering for Arabic and Hebrew, line breaking in Asian languages.
 - **Cultural risks:** imagery, colours or symbols that could offend or confuse in a given market.
 
-Many tools plug into continuous integration pipelines, simulate locale environments and check internationalisation APIs, so faults surface early, when they are cheapest. Paired with human review, they [reduce the risk of cultural faux pas](/services/multilingual-content/) and technical faults that could damage a product's reception abroad.
+Many tools also work before a release reaches anyone:
+
+- They plug into continuous integration pipelines.
+- They simulate locale environments.
+- They check internationalisation APIs.
+
+So faults surface early, when they are cheapest. Paired with human review, they [reduce the risk of cultural faux pas](/services/multilingual-content/) and technical faults that could damage a product's reception abroad.
 
 ## Tools by type
 
@@ -54,7 +60,12 @@ No single tool covers the whole job; the table shows where your setup has gaps.
 | [Localize](https://localizejs.com/) | Translation management | Spots localization problems in web apps |
 | [Microsoft pseudolocalization](https://learn.microsoft.com/en-us/globalization/methodology/pseudolocalization) | Pseudo-localization | Test builds that reveal hard-coded and truncated text |
 
-Two older automation tools deserve a warning. PhantomJS development is suspended, and iMacros reached end of life on 30 November 2023, so choose Selenium or Playwright for new test suites.
+Two older automation tools deserve a warning:
+
+- **PhantomJS:** development is suspended.
+- **iMacros:** reached end of life on 30 November 2023.
+
+Choose Selenium or Playwright for new test suites.
 
 ## Features to look for
 
@@ -71,6 +82,29 @@ The right tool saves your testers time on every release. Look for:
 ## Best practices
 
 How you use the tools decides whether each new market costs less to launch than the last.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 130" role="img" aria-label="Four steps in order: pseudo-localize, translate with QA checks, automate tests in every locale, then native-speaker review.">
+<line x1="50" y1="32" x2="350" y2="32" class="fg-rule"/>
+<circle cx="50" cy="32" r="26" class="fg-box"/>
+<circle cx="150" cy="32" r="26" class="fg-box"/>
+<circle cx="250" cy="32" r="26" class="fg-box"/>
+<circle cx="350" cy="32" r="26" class="fg-hot"/>
+<text x="50" y="38" text-anchor="middle" class="fg-strong">1</text>
+<text x="150" y="38" text-anchor="middle" class="fg-strong">2</text>
+<text x="250" y="38" text-anchor="middle" class="fg-strong">3</text>
+<text x="350" y="38" text-anchor="middle" class="fg-strong">4</text>
+<text x="50" y="90" text-anchor="middle" class="fg-text">Pseudo</text>
+<text x="150" y="90" text-anchor="middle" class="fg-text">Translate</text>
+<text x="250" y="90" text-anchor="middle" class="fg-text">Automate</text>
+<text x="350" y="90" text-anchor="middle" class="fg-text">Review</text>
+<text x="50" y="114" text-anchor="middle" class="fg-label">fake strings</text>
+<text x="150" y="114" text-anchor="middle" class="fg-label">QA checks</text>
+<text x="250" y="114" text-anchor="middle" class="fg-label">every locale</text>
+<text x="350" y="114" text-anchor="middle" class="fg-label">native speaker</text>
+</svg>
+<figcaption>Tools cover the first three steps, where faults are cheapest to fix. The last still needs a native speaker, for the linguistic and cultural judgement calls.</figcaption>
+</figure>
 
 1. **Combine tools.** No single tool covers every aspect of localization testing.
 2. **Automate where possible.** Automate repetitive checks, but accept that full automation is not possible.
