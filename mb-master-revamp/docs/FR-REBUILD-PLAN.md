@@ -3,8 +3,8 @@
 Owner request, 27 Sep 2026: "Start planning the /fr/ rebuild". This file is
 the plan and the decisions behind it. **It is a plan only**: nothing here is
 built until the owner approves and locks EN (CLAUDE.md, "FR and ES are
-gated on EN", 22 Sep 2026). Phase 1 is the only exception the owner may
-choose to release early, because it is redirects rather than copy.
+gated on EN", 22 Sep 2026). **Phase 1 is the one exception, released early
+by the owner** (27 Sep 2026), because it is redirects rather than copy.
 
 ## Owner decisions (27 Sep 2026)
 
@@ -101,11 +101,9 @@ proposal to fold its five children into `/fr/services/seo/`). None of the
 five legacy URLs names the service as a whole, so it takes a new URL,
 `/fr/services/seo-technique/`, and all five 301 to it.
 
-`seo-anglais` is the one to watch. EN absorbed it into technical SEO, but
-for the French reader (decision 2) "SEO in English" is a market page like
-`seo-espagnol`: a French company selling into the UK or Ireland. It
-redirects to the technical page as decided, and is listed below as a
-candidate for its own language page later.
+`seo-anglais` redirects to the technical page like the other four. It was
+raised as a possible language page of its own (a French company selling
+into the UK); the owner chose to leave it as a redirect (27 Sep 2026).
 
 ### Posts
 
@@ -116,7 +114,7 @@ targets exist.
 ## Phases
 
 **0. Gate.** The owner locks EN. Nothing below starts before that, except
-phase 1 if the owner releases it.
+phase 1, which the owner released on 27 Sep 2026.
 
 **1. Safety net: redirects only, no copy.** Add the 301s above for the 31
 absorbed services, `404-2`, `nos-services` and the 2 Globaprom URLs, as a
@@ -160,7 +158,5 @@ page before merge.
 
 ## Open for the owner
 
-- Whether `seo-anglais` should later become its own language page (a
-  French company selling into the UK), rather than redirecting to
-  `seo-technique`.
-- Whether phase 1 (redirects only) can start before the EN lock.
+Nothing at the plan stage. Phase 1 is released; phases 2 to 5 wait for the
+EN lock.
