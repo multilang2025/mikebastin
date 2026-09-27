@@ -19,7 +19,7 @@ choose to release early, because it is redirects rather than copy.
    not the target (CLAUDE.md, "a locale version is an adaptation").
 4. **Services absorbed into an EN page with no French sibling get a French
    page built** (option B), rather than a redirect to English or to the
-   nearest French page.
+   nearest French page. This includes technical SEO, confirmed separately.
 5. **The owner writes or reviews every French page** before it ships.
 6. **The two Globaprom relocations** (`/fr/services/conception-de-site-web/`,
    `/fr/services/marketing-digital/`) 301 to the French homepage `/fr/`.
@@ -63,7 +63,7 @@ build needs as few redirects as possible.
 | Blog index | `/fr/blog/` | same URL | Lists the 8 French posts |
 | `404-2` | 301 to `/fr/` | | Legacy junk page |
 
-### Services (16)
+### Services (17)
 
 **Already built (11), to adapt to the French reader:**
 `seo` (the main page), `referencement-multilingue`, `referencement-local`,
@@ -74,7 +74,7 @@ reframed from "entering France" to "a French company entering Spain,
 Germany, the Netherlands". Italian and Portuguese stay live with light
 edits only (low priority, CLAUDE.md "Key markets").
 
-**To build under decision 4 (5), each at its strongest legacy URL:**
+**To build under decision 4 (6), each at its strongest legacy URL where one fits:**
 
 | EN parent | French page | Absorbed legacy URLs that 301 to it |
 |---|---|---|
@@ -83,6 +83,7 @@ edits only (low priority, CLAUDE.md "Key markets").
 | multilingual-content | `/fr/services/creation-de-contenu-multilingue/` | conseil-culturel, gestion-multilingue-reseaux-sociaux |
 | ai-consulting | `/fr/services/conseil-ia/` | none, same URL |
 | ai-translation-and-post-editing | `/fr/services/postedition-ia/` | none, same URL |
+| technical-seo | `/fr/services/seo-technique/` (new URL) | recherche-mots-cles, netlinking, analyse-et-suivi, seo-on-page, seo-anglais |
 
 The sworn translation facts apply to the French translation page as they
 do in EN: one to seven days depending on the document and the situation,
@@ -95,13 +96,16 @@ and apostille for US and Canadian citizens.
 | `/fr/services/referencement-multilingue/` | referencement-international, branding-multilingue, internationalisation, solutions-linguistiques |
 | `/fr/services/localisation-de-site-web/` | conception-ux-ui-multilingue, cms-multilingue, localisation-contenu, localisation-ecommerce, plugin-de-traduction-wordpress, test-localisation |
 
-**One exception proposed, for the owner to confirm:** the five children of
-EN `technical-seo` (recherche-mots-cles, netlinking, analyse-et-suivi,
-seo-anglais, seo-on-page) 301 to `/fr/services/seo/` rather than to a new
-French technical SEO page. Decision 2 makes `/fr/services/seo/` the main
-French SEO page, and these are the parts of it a French buyer is actually
-looking for. Building a sixth page instead is the strict reading of
-decision 4.
+**Technical SEO gets its own French page** (owner, 27 Sep 2026, over the
+proposal to fold its five children into `/fr/services/seo/`). None of the
+five legacy URLs names the service as a whole, so it takes a new URL,
+`/fr/services/seo-technique/`, and all five 301 to it.
+
+`seo-anglais` is the one to watch. EN absorbed it into technical SEO, but
+for the French reader (decision 2) "SEO in English" is a market page like
+`seo-espagnol`: a French company selling into the UK or Ireland. It
+redirects to the technical page as decided, and is listed below as a
+candidate for its own language page later.
 
 ### Posts
 
@@ -117,7 +121,7 @@ phase 1 if the owner releases it.
 **1. Safety net: redirects only, no copy.** Add the 301s above for the 31
 absorbed services, `404-2`, `nos-services` and the 2 Globaprom URLs, as a
 generated block like the prune redirects. Pages still to be built (the
-homepage, contact, about, tarifs, blog index and the 5 new services) point
+homepage, contact, about, tarifs, blog index and the 6 new services) point
 temporarily at the closest live French page or `/fr/`, and each rule is
 removed when its page ships. Result: zero French 404s at launch.
 
@@ -156,5 +160,7 @@ page before merge.
 
 ## Open for the owner
 
-- Confirm the `technical-seo` exception above, or build the sixth page.
+- Whether `seo-anglais` should later become its own language page (a
+  French company selling into the UK), rather than redirecting to
+  `seo-technique`.
 - Whether phase 1 (redirects only) can start before the EN lock.
