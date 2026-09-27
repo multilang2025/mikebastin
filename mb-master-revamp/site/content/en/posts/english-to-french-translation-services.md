@@ -108,7 +108,7 @@ Paying for transcreation on a product manual wastes budget; paying for machine t
 | **SEO translation** | Website pages, blog content, landing pages | French keyword research, on-page SEO, CMS push | 1,500 words per day |
 | **Transcreation** | Ads, hero copy, taglines, brand campaigns | Concept rewrite, cultural adaptation, several options | Project-based |
 | **MTPE or post-AI editing** | High-volume content on a tight budget | Machine translation, full human post-editing, QA | 4,000 words per day |
-| **Certified or sworn translation** | Legal documents, official certificates, court filings | _Traducteur assermenté_, stamped output | 3 to 7 days |
+| **Certified or sworn translation** | Legal documents, official certificates, court filings | _Traducteur assermenté_, stamped output | 1 to 7 days |
 
 > The most expensive translation mistake we see is companies treating French as one language. Shipping Parisian copy into Québec, or Belgian register into a Geneva audience, costs more in lost conversion than the price difference between proper localization and a generic one-variant job.
 >

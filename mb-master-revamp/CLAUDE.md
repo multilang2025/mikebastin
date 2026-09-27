@@ -314,6 +314,10 @@ is in the rest, which the Master Content Protocol never covered:
   the free offers"): the free 20-minute audit, the free 20-minute stack
   walkthrough, the free localization assessment, the free consultation
   and the GEO audit. Keep them; they may also be used in in-body CTAs.
+- **Sworn and certified translation takes 1 to 7 days** depending on the
+  complexity of the document and the client's situation, and **apostille
+  services are provided for US and Canadian citizens** (owner, 27 Sep
+  2026). Never quote "2 to 5" or "3 to 7" days.
 - **There is no Madrid law firm** (owner, 27 Sep 2026). The law-firm
   client is the Valencia one; correct any "Madrid law firm" on sight.
 - **Experience is "over two decades"** (owner, 27 Sep 2026: "I started in

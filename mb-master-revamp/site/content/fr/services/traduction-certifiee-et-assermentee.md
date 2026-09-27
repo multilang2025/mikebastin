@@ -81,7 +81,7 @@ Des documents juridiques, financiers et personnels exigent parfois une traductio
 
 Oui, nos traductions certifiées et assermentées sont acceptées par les autorités légales et les institutions gouvernementales.
 
-Le délai dépend de la longueur et de la complexité du document, mais en général, nous fournissons la traduction sous 2 à 5 jours ouvrables.
+Le délai va de 1 à 7 jours, selon la complexité du document et votre situation. Pour les citoyens des États-Unis et du Canada, nous proposons également des services d’apostille.
 
 Nous suivons des protocoles stricts de protection de données pour protéger vos documents et garantir une totale confidentialité.
 

@@ -73,7 +73,7 @@ Normalmente, los documentos legales, financieros, académicos y personales requi
 
 Sí, nuestras traducciones certificadas y juradas son válidas y están reconocidas por las autoridades legales y las instituciones gubernamentales.
 
-Los plazos de entrega dependen de la longitud y complejidad del documento, pero solemos entregarlos en 2 a 5 días laborales.
+Los plazos de entrega dependen de la longitud y complejidad del documento, pero los entregamos en 1 a 7 días, según la complejidad del documento y su situación. Para ciudadanos de Estados Unidos y Canadá, también ofrecemos servicios de apostilla.
 
 Seguimos un protocolo estricto de protección de datos para proteger tus documentos, lo que garantiza la confidencialidad total de tu información.
 

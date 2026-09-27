@@ -1228,8 +1228,8 @@ export const SERVICES: Service[] = [
       {
         heading: "How the BeTranslated network actually delivers it",
         paragraphs: [
-          "Translation runs through the BeTranslated network, run for over twenty years, with certified and sworn translators per language and per specialism (legal, medical, financial, academic, technical). Standard delivery runs two to five business days, with rush turnaround available for time-critical personal documents such as a visa or birth certificate translation.",
-          "Every document gets matched to a translator with the relevant sector background, then a rigorous review pass before delivery, with notarisation or an apostille handled where the receiving institution requires it. Confidentiality protocols apply throughout, since much of what moves through this service is precisely the kind of document a business cannot afford to have mishandled.",
+          "Translation runs through the BeTranslated network, run for over twenty years, with certified and sworn translators per language and per specialism (legal, medical, financial, academic, technical). Delivery takes one to seven days, depending on the complexity of the document and your situation, with rush turnaround available for time-critical personal documents such as a visa or birth certificate translation.",
+          "Every document gets matched to a translator with the relevant sector background, then a rigorous review pass before delivery, with notarisation or an apostille handled where the receiving institution requires it. For US and Canadian citizens, we also provide apostille services. Confidentiality protocols apply throughout, since much of what moves through this service is precisely the kind of document a business cannot afford to have mishandled.",
         ],
       },
       {
@@ -1247,7 +1247,7 @@ export const SERVICES: Service[] = [
       {
         q: "Certified, sworn, notarised and apostilled are four different things",
         a: [
-          "People ask for the wrong one constantly, and the receiving institution is the only authority on which is right. A certified translation carries a signed statement of accuracy from the translator or agency. A sworn translation is made by a translator formally registered with a court or ministry, which is how Spain, France and much of the EU handle official documents. Notarisation adds a notary attesting to the signature, not to the translation. An apostille authenticates the document itself for use abroad under the Hague Convention, and is a matter for the issuing authority rather than the translator.",
+          "People ask for the wrong one constantly, and the receiving institution is the only authority on which is right. A certified translation carries a signed statement of accuracy from the translator or agency. A sworn translation is made by a translator formally registered with a court or ministry, which is how Spain, France and much of the EU handle official documents. Notarisation adds a notary attesting to the signature, not to the translation. An apostille authenticates the document itself for use abroad under the Hague Convention, and is issued in the country the document comes from rather than by the translator. For US and Canadian citizens, we provide apostille services too.",
           "So the first question is never which service you want, it is what the body receiving the document asks for: a court, a registry, a university admissions office and an immigration authority each have their own rule. Establish that first and the rest is straightforward.",
         ],
       },
