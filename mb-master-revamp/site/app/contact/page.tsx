@@ -1,14 +1,20 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/meta";
 import Reveal from "@/components/Reveal";
 import SiteFooter from "@/components/SiteFooter";
 import { Button } from "@/components/ui/Button";
 import { Field, Input, Textarea, Select, Checkbox, describedBy } from "@/components/ui/Field";
 import { SERVICES } from "@/lib/services";
+import JsonLd from "@/components/JsonLd";
+import { SITE_URL, breadcrumbSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Contact, Mike Bastin",
-  description:
-    "Tell us which language you want selling next. A short brief on multilingual SEO, localization or AI consulting gets a straight answer within a working day.",
+  ...pageMeta({
+    title: "Contact, Mike Bastin",
+    description: "Tell us which language you want selling next. A short brief on multilingual SEO, localization or AI consulting gets a straight answer within a working day.",
+    path: "/contact/",
+    fallbackImage: true,
+  }),
 };
 
 /**
@@ -32,6 +38,7 @@ const BUDGETS = [
 export default function ContactPage() {
   return (
     <main>
+      <JsonLd data={breadcrumbSchema([{ name: "Home", url: `${SITE_URL}/` }, { name: "Contact", url: `${SITE_URL}/contact/` }])} />
       <section className="band band-a grain relative overflow-hidden pb-[clamp(48px,7vw,80px)] pt-[clamp(96px,14vw,160px)]">
         <div className="shell relative">
           <Reveal>

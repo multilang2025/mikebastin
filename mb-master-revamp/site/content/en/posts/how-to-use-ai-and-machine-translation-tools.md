@@ -1,6 +1,7 @@
 ---
 words: 742
 title: "How to use AI and machine translation tools for multilingual content optimization"
+metaTitle: "AI and machine translation tools for multilingual content"
 slug: "how-to-use-ai-and-machine-translation-tools"
 locale: "en"
 type: "posts"
@@ -77,7 +78,7 @@ The workflows that keep the saving and lose the risk pair the speed of AI with t
 <figcaption>The human step sits in the middle, not at the end. A glossary and translation memory prepared up front make the machine output easier to fix, and the linguist's edit is where tone and meaning are secured.</figcaption>
 </figure>
 
-### Human-in-the-loop translation
+### Human-in-the-loop translation: AI drafts, translators review
 
 AI produces the first draft and human translators review and edit it. It is faster than translating from scratch, and the translator catches what the machine misses.
 

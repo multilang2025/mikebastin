@@ -4,7 +4,8 @@ import Reveal from "@/components/Reveal";
 import ServiceIcon from "@/components/ServiceIcon";
 import SiteFooter from "@/components/SiteFooter";
 import { SERVICES, CLUSTERS, CLUSTER_HEADING } from "@/lib/services";
-import { SITE_URL } from "@/lib/schema";
+import { SITE_URL, breadcrumbSchema } from "@/lib/schema";
+import JsonLd from "@/components/JsonLd";
 
 const DESCRIPTION =
   "Multilingual SEO, localization and AI consulting in nineteen services across five groups, from market strategy to translation, paid search and the technical work underneath.";
@@ -36,6 +37,7 @@ export const metadata: Metadata = {
 export default function ServicesIndex() {
   return (
     <main>
+      <JsonLd data={breadcrumbSchema([{ name: "Home", url: `${SITE_URL}/` }, { name: "Services", url: `${SITE_URL}/services/` }])} />
       {/* ============ HERO ============ */}
       <section className="band band-a grain relative overflow-hidden pb-[clamp(56px,8vw,100px)] pt-[clamp(96px,14vw,160px)]">
         <div className="shell relative">
@@ -97,7 +99,7 @@ export default function ServicesIndex() {
                         >
                           <ServiceIcon slug={s.slug} />
                         </span>
-                        <span className="ulink mb-2 text-[1.08rem] font-semibold">{s.name}</span>
+                        <span className="ulink mb-2 text-[1.08rem] font-semibold">{s.cardTitle ?? s.name}</span>
                         <p className="text-[.9rem] leading-[1.5]" style={{ color: "var(--dim)" }}>
                           {s.lede}
                         </p>

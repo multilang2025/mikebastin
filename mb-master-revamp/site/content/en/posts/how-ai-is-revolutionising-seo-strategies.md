@@ -30,7 +30,7 @@ Then came generative results. Search Generative Experience (SGE) became AI Overv
 >
 > Source: [Google, AI Overviews expansion update, 20 May 2025](https://blog.google/products-and-platforms/products/search/ai-overview-expansion-may-2025-update/)
 
-## AI-powered keyword research
+## AI-powered keyword research that maps whole topic clusters
 
 Chasing single high-volume terms now loses to competitors who cover the whole topic. AI tools for [keyword research in each language](/services/multilingual-seo/) map entire topic clusters, find content gaps and flag emerging demand before competitors notice.
 
@@ -95,7 +95,7 @@ Commercial queries are less exposed, which makes bottom-of-funnel content more v
 
 [Multilingual SEO](/blog/best-practices-for-multilingual-seo/) benefits from MUM's cross-language understanding, but localized content still outperforms translated material.
 
-## Generative engine optimization
+## Generative engine optimization: what earns a place in AI answers
 
 If an AI answer names three suppliers in your category, the buyer may never look for a fourth. GEO has emerged as a discipline alongside traditional SEO. Appearing in AI-generated answers from Google AI Overviews and AI Mode, Perplexity, Claude and ChatGPT requires different signals than ranking in traditional results.
 

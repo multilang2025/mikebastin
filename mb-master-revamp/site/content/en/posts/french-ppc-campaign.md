@@ -121,7 +121,7 @@ Microsoft Advertising typically offers lower CPCs than Google, which makes it a 
 
 Use ad assets (formerly extensions). Sitelinks, callouts and location assets make your ad bigger and more clickable at no extra cost per click, and they should be written in French so the experience stays consistent.
 
-## Tracking and optimization
+## Tracking and optimization to show whether France is profitable
 
 Without market-level tracking you cannot tell whether France is profitable or quietly subsidised by another market. Set up conversion tracking in Google Analytics for your French campaigns, and watch click-through rate (CTR), cost per click (CPC), conversion rate and return on ad spend (ROAS) for France on its own.
 

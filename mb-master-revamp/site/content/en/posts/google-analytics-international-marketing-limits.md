@@ -1,6 +1,7 @@
 ---
 words: 1177
 title: "Google Analytics and international digital marketing: what you can and cannot trust"
+metaTitle: "Google Analytics for international marketing: what to trust"
 slug: "google-analytics-international-marketing-limits"
 locale: "en"
 type: "posts"

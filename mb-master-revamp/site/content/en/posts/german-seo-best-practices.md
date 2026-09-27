@@ -59,13 +59,13 @@ Mobile search keeps growing, but German buyers still switch to a desktop for ser
 
 Trends matter only where they change who finds you. Four do in Germany.
 
-### Voice search optimization
+### Voice search optimization for longer, spoken German questions
 
 Spoken searches are longer and phrased as questions, which favours the business whose pages answer real questions. Voice use is growing in Germany through Google Home, Alexa and the assistants on every phone, and Germans tend to use long, specific phrases when they speak a search.
 
 Write pages that answer the conversational question in natural German, especially if you are chasing local searches.
 
-### Local SEO
+### Local SEO for businesses with a German location
 
 If you have a German location, your nearest buyers search for businesses “in der Nähe” (nearby) or in a named city, and the business with the complete profile and the most reviews gets the call.
 
@@ -79,7 +79,7 @@ Google ranks your German site on the strength of its mobile version. If the mobi
 
 Responsive design, fast load times and mobile-optimized content are the baseline in a market like Germany, where users expect smooth performance on every device.
 
-### Core Web Vitals
+### Core Web Vitals: speed, responsiveness and visual stability
 
 Slow, jumpy pages lose German visitors who expect efficiency, and Google measures exactly that. Core Web Vitals remain part of its page experience signals.
 
@@ -95,7 +95,7 @@ German builds long words by joining short ones. “Rechtsschutzversicherungsgese
 
 Long-tail searches built on compounds like these are more specific and less contested, so they often bring the buyers who already know what they want.
 
-### Localizing keywords
+### Localizing keywords for Germany, Austria and Switzerland
 
 A keyword that works in Germany may not work in Austria or Switzerland, where the words people choose differ slightly. Translating your English terms misses all of it.
 
@@ -127,7 +127,7 @@ Site structure matters as much. German users appreciate a well-organised site, a
 
 Clean internal linking and a logical architecture let both find and reach your content without effort.
 
-## Technical SEO considerations
+## Technical SEO considerations for German-speaking markets
 
 Technical mistakes on a German site stay invisible to you and cost you anyway: the Austrian page shows in Germany, or a link looks broken when a buyer forwards it to a colleague.
 
@@ -167,7 +167,7 @@ Without them the three versions compete as duplicates. With them, each user gets
 
 A link from a respected German site tells Google, and your buyers, that you are known in Germany. Links from elsewhere do far less for your German rankings.
 
-### Local link building
+### Local link building from authoritative German-language sites
 
 Backlinks from German-language sites with real authority do most for your credibility in the local market.
 

@@ -1,11 +1,16 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/meta";
 import Reveal from "@/components/Reveal";
 import SiteFooter from "@/components/SiteFooter";
 import { ButtonLink } from "@/components/ui/Button";
 
 export const metadata: Metadata = {
-  title: "The message did not send, Mike Bastin",
-  description: "The form did not go through. Email reaches exactly the same place.",
+  ...pageMeta({
+    title: "The message did not send, Mike Bastin",
+    description: "The form did not go through. Email reaches exactly the same place.",
+    path: "/contact/problem/",
+    fallbackImage: true,
+  }),
   robots: { index: false, follow: true },
 };
 

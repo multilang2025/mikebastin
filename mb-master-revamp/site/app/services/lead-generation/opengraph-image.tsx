@@ -8,7 +8,8 @@ const service = getService("lead-generation")!;
 export const dynamic = "force-static";
 export const size = OG_SIZE;
 export const contentType = OG_CONTENT_TYPE;
+export const alt = "Lead generation services card from Mike Bastin";
 
 export default async function Image() {
-  return renderServiceOgImage(service);
+  return renderServiceOgImage({ name: service.cardTitle ?? service.name, angle: service.angle });
 }

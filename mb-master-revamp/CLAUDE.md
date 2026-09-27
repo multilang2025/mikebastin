@@ -176,6 +176,13 @@ needs.
   correcting an earlier assumption here), so *agency* is accurate and
   available: "generative engine optimisation agency" draws 1,300 globally
   at difficulty 1, and seven service titles now use the word.
+- **Headings never read as a bare exact-match keyword** (owner, 27 Sep
+  2026: "improve the HN across the board so they don't look like an exact
+  match kw"). A heading leads with the term and says what the section or
+  page gives the reader. Language-market SEO headings add GEO ("French SEO
+  and GEO agency for companies selling into France"). `name` stays the
+  short nav and footer label; cards and share images use `cardTitle`, and
+  topic pages use `TOPIC_HEADING` in `lib/posts.ts`.
 - **The focus keyword is always in the h1** (owner, 21 Sep 2026). Every
   page has one term it is trying to win, and the h1 carries it, whatever
   else the headline is doing. A hero rewritten for punch that drops the
@@ -263,6 +270,26 @@ that promise only what the linked service page states (owner, 26 Sep
 on a figure that would break the page (blank line inside, hex colour,
 missing aria-label).
 
+## Page metadata goes through `lib/meta.ts`
+
+Every EN route builds its metadata with `pageMeta()` (EN meta audit, 27
+Sep 2026). A page that sets only `title` and `description` inherits the
+root layout's `openGraph`, which is how 68 pages, every post among them,
+shared as "Mike Bastin, multilingual search consultant" with no canonical
+and no og:url. Rules that came out of fixing it:
+
+- A route with its own `opengraph-image.tsx` must **not** pass
+  `fallbackImage`: on this Next version a config `images` array overrides
+  the generated card instead of yielding to it. Routes without one must
+  pass it, or setting `openGraph` drops the inherited card entirely.
+- Every `opengraph-image.tsx` exports `alt`.
+- A post's meta description is its `excerpt` as written (120 to 155
+  characters since the voice pass); `lib/seo.ts` only trims one over 160.
+  A post title over 60 characters gets a `metaTitle` in frontmatter; the
+  h1 keeps `title`.
+- `.htaccess` forces `image/png` on the extensionless `opengraph-image`
+  files; without it the host sends no Content-Type.
+
 ## Copy has to sell, not only pass the protocol
 
 The Master Content Protocol and the `copy-editor` agent are all
@@ -314,15 +341,25 @@ is in the rest, which the Master Content Protocol never covered:
   the free offers"): the free 20-minute audit, the free 20-minute stack
   walkthrough, the free localization assessment, the free consultation
   and the GEO audit. Keep them; they may also be used in in-body CTAs.
+- **Sworn and certified translation takes 1 to 7 days** depending on the
+  complexity of the document and the client's situation, and **apostille
+  services are provided for US and Canadian citizens** (owner, 27 Sep
+  2026). Never quote "2 to 5" or "3 to 7" days.
+- **German and Italian level stays vague** (owner, 27 Sep 2026): "enough
+  to manage SEO projects" in them, never "B1", "working Italian" or a
+  described reading or speaking level. Native writers still do the
+  commercial copy, and saying so stays.
 - **There is no Madrid law firm** (owner, 27 Sep 2026). The law-firm
   client is the Valencia one; correct any "Madrid law firm" on sight.
 - **Experience is "over two decades"** (owner, 27 Sep 2026: "I started in
   1999, but I don't want to show too many years"). Never "25 years" or a
   start year; the homepage counter reads 20+. BeTranslated's own age
-  ("run for twenty years") is a separate fact about the agency. No named testimonial or quote from a "real" customer or expat
-  unless the person is verifiable (owner, 26 Sep 2026: the unverified
-  expat testimonials in the Valencia posts were removed on that basis). Extends the existing ban on inventing a price, a
-  guarantee, a turnaround or a client outcome.
+  ("run for twenty years") is a separate fact about the agency.
+- No named testimonial or quote from a "real" customer or expat unless
+  the person is verifiable (owner, 26 Sep 2026: the unverified expat
+  testimonials in the Valencia posts were removed on that basis). Extends
+  the existing ban on inventing a price, a guarantee, a turnaround or a
+  client outcome.
 
 Split across `copy-editor` (language, sourcing, claims),
 `localization-qa` (per-market formats, legal terminology),

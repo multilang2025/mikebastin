@@ -6,6 +6,7 @@ import { OG_SIZE, OG_CONTENT_TYPE, renderBlogOgImage } from "@/lib/og-card";
 export const dynamic = "force-static";
 export const size = OG_SIZE;
 export const contentType = OG_CONTENT_TYPE;
+export const alt = "The Mike Bastin journal on multilingual SEO, localization and AI";
 
 // The index card reuses the same renderer, called with a framing line
 // rather than one post's own cluster. The count is read from getPosts()

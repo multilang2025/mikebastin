@@ -61,7 +61,7 @@ Legal, financial, academic, and personal documents often require certified trans
 
 Yes, our certified and sworn translations are accepted by legal authorities and government institutions.
 
-The timeframe depends on the document’s length and complexity. While our standard delivery is 2 to 5 business days, we offer **Rush Certified Translation** and **Same-Day Certified Translation** services for urgent needs, often delivering critical personal documents like a **Birth Certificate Translation** or **Visa Translation** documents immediately.
+Delivery takes 1 to 7 days, depending on the complexity of the document and your situation. For US and Canadian citizens, we provide apostille services too. We also offer **Rush Certified Translation** and **Same-Day Certified Translation** services for urgent needs, often delivering critical personal documents like a **Birth Certificate Translation** or **Visa Translation** documents immediately.
 
 We follow strict data protection protocols to safeguard your documents, ensuring complete confidentiality.
 

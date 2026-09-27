@@ -1,6 +1,7 @@
 ---
 words: 1381
 title: "Most popular marketing strategies for SMBs going international"
+metaTitle: "Marketing strategies for SMBs going international"
 slug: "most-popular-marketing-strategies"
 locale: "en"
 type: "posts"
@@ -60,11 +61,11 @@ If you would rather hand the whole mix to one team, a [full-service marketing ag
 
 If buyers cannot find you when they search in their own language, every other channel has to work harder. SEO is slow to start, and keeps sending visitors after the budget stops.
 
-### Localizing keywords
+### Localizing keywords rather than translating them
 
 Translated keywords often bring no traffic, because search terms vary between regions even within one language. Run [multilingual keyword research](/services/multilingual-seo/) with local tools, and use [search intent mapping](/blog/what-is-search-intent-mapping/) to match each term to what the searcher actually wants.
 
-### Content localization
+### Content localization for each region's language and culture
 
 A translated page tells a buyer you did not write for them. Localized content fits the audience's language, tone and cultural references, so write blog posts, product descriptions and landing pages for each region rather than copying one version everywhere.
 
@@ -72,7 +73,7 @@ A translated page tells a buyer you did not write for them. Localized content fi
 
 Set up badly, language versions compete instead of adding up. Hreflang tags tell search engines which language and country version of a page to show to which user. A region-specific domain strategy, such as country-code top-level domains (ccTLDs), can strengthen rankings in target markets. Our guide to [technical SEO for multilingual websites](/blog/technical-seo-for-multilingual-websites/) covers the setup.
 
-## Pay-per-click advertising (PPC)
+## Pay-per-click advertising (PPC) to test demand in a new market
 
 PPC shows quickly whether a new market wants what you sell, reaching buyers by location, language and demographic from day one.
 
@@ -92,7 +93,7 @@ Start with small test campaigns in each new market, then watch click-through rat
 <p><strong>Testing a new market and cannot tell which country the leads come from?</strong> Our <a href="/services/lead-generation/">B2B lead generation services</a> run search per market and count every enquiry against the market that earned it. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
-## Social media marketing
+## Social media marketing on the platforms each country uses
 
 Social media reaches a new audience quickly, if you are on the platforms that market uses, and those vary widely by country. Facebook, Instagram and LinkedIn dominate in Western markets; WeChat is essential in China, and WhatsApp is widely used for business in Latin America. Research the platforms first.
 
@@ -100,7 +101,7 @@ Social media reaches a new audience quickly, if you are on the platforms that ma
 
 **Paid social campaigns.** Facebook and Instagram ads build awareness quickly, with targeting by country, language and interests.
 
-## Influencer marketing
+## Influencer marketing to borrow a local reputation
 
 As a newcomer you have no reputation yet. A local influencer lends you theirs, with immediate exposure to a loyal following.
 
@@ -108,7 +109,7 @@ As a newcomer you have no reputation yet. A local influencer lends you theirs, w
 
 **Allowing creative freedom.** Let influencers adapt the campaign to their own voice. Authenticity is what makes the message land with their followers, and it matters most when you are new to a market.
 
-## Email marketing
+## Email marketing, localized to keep customers abroad buying
 
 Email is one of the cheapest ways to keep customers abroad buying, provided it is properly localized. Our [email marketing hacks](/blog/email-marketing-hacks-boosting-open-rates-and-conversions/) cover open rates and conversions in more depth.
 
@@ -118,7 +119,7 @@ Email is one of the cheapest ways to keep customers abroad buying, provided it i
 
 **Compliance with local regulations.** Rules differ by country. In the EU, GDPR generally requires clear consent before you send marketing emails, so check the law in each market before you send.
 
-## Content marketing
+## Content marketing that proves you know each market
 
 Content is how a buyer who has never heard of you decides you know their market, and one version for every country rarely convinces.
 
@@ -140,7 +141,7 @@ A local partner lends you credibility and know-how that would take years to buil
 
 For B2B sellers, trade shows put you face to face with distributors and buyers, and face-to-face contact builds trust faster than most online channels. Localize your stand materials and presentations for the market you are targeting. If Spain is on your list, see our guide to [B2B trade shows in Valencia](https://valenciamove.com/blog/b2b-trade-shows-valencia/).
 
-## Affiliate marketing
+## Affiliate marketing that only costs you when it sells
 
 Affiliate marketing only costs you when it sells: local marketers earn a commission on the sales they generate, a low-risk way into new markets. Local affiliates understand their audience's preferences and shopping habits, and every sale is tracked, so you can see what works in each market and shift effort accordingly. Our overview of [affiliate marketing programs](/blog/affiliate-marketing-programs/) explains the main models.
 

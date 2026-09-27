@@ -1,15 +1,21 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/meta";
 import Reveal from "@/components/Reveal";
 import Testimonials from "@/components/Testimonials";
 import ImpressionsChart from "@/components/ImpressionsChart";
 import ConsolidationDiagram from "@/components/ConsolidationDiagram";
 import LocaleTable from "@/components/LocaleTable";
 import SiteFooter from "@/components/SiteFooter";
+import JsonLd from "@/components/JsonLd";
+import { SITE_URL, breadcrumbSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Results, not impressions, Mike Bastin",
-  description:
-    "A case study is a narrative written afterwards. A report is primary evidence, so see the numbers from real multilingual SEO and localization work first.",
+  ...pageMeta({
+    title: "Results, not impressions, Mike Bastin",
+    description: "A case study is a narrative written afterwards. A report is primary evidence, so see the numbers from real multilingual SEO and localization work first.",
+    path: "/results/",
+    fallbackImage: true,
+  }),
 };
 
 const ROUTES = [
@@ -30,6 +36,7 @@ const ROUTES = [
 export default function ResultsPage() {
   return (
     <main>
+      <JsonLd data={breadcrumbSchema([{ name: "Home", url: `${SITE_URL}/` }, { name: "Results", url: `${SITE_URL}/results/` }])} />
       {/* ============ HERO ============ */}
       <section className="band band-a grain relative overflow-hidden pb-[clamp(56px,8vw,100px)] pt-[clamp(96px,14vw,160px)]">
         <div className="shell relative">

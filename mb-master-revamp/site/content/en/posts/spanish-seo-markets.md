@@ -38,7 +38,7 @@ Holidays, shopping seasons and buying habits differ between Madrid, Mexico City 
 <p><strong>Not sure which Spanish your site is actually written for?</strong> Every <a href="/services/spanish-seo/">Spanish SEO engagement</a> we run starts by deciding which Spanish comes first: Spain, one Latin American country, or both. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
-## Technical SEO considerations
+## Technical SEO considerations across Spanish-speaking countries
 
 Get the technical set-up wrong and Google shows your Mexican page to a searcher in Madrid, or shows neither to anyone. The fixes are well understood: correct hreflang tags, region-specific URLs, and metadata translated and optimized for each target market. Getting them right across several countries at once takes a Spanish SEO agency that knows the regional differences.
 

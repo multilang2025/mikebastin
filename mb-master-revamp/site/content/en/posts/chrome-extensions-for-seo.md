@@ -57,7 +57,7 @@ The [Web Developer extension](https://chromewebstore.google.com/detail/web-devel
 
 [Redirect Path](https://chromewebstore.google.com/detail/redirect-path/aomidfkchockcldhbkggjokdkkebmdll?hl=en) shows every hop a URL takes, with the HTTP status code at each step. Chains and loops slow the page and leak link value, and here you see them at a glance. Our [technical SEO audit checklist](/blog/technical-seo-audit-checklist/) explains what to do with what it finds.
 
-## Keywords and competitors
+## Keywords and competitors: extensions for sizing up a market
 
 What a competitor ranks for, and what it earns them, tells you whether a market is worth the budget before you commit it.
 

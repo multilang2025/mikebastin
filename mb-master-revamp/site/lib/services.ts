@@ -40,6 +40,14 @@ export type Service = {
   /** Heading and label form: "International SEO", "Website localization". */
   name: string;
   /**
+   * Display title for the services index cards and the social card image.
+   * `name` stays the short nav and footer label, but shown as a card
+   * heading it read as a bare exact-match keyword ("French SEO"), so the
+   * cards carry a longer phrase that still leads with the term (owner,
+   * 27 Sep 2026).
+   */
+  cardTitle?: string;
+  /**
    * Mid-sentence form of `name`, for headings that drop it inside a
    * sentence ("How the international SEO engagement runs"). Written out
    * per service rather than derived, because `name.toLowerCase()` turns
@@ -184,6 +192,7 @@ export const SERVICES: Service[] = [
   {
     slug: "lead-generation",
     name: "Multilingual lead generation",
+    cardTitle: "Lead generation services for companies selling abroad",
     inline: "multilingual lead generation",
     h1: "B2B lead generation services for companies selling abroad",
     subhead: "Your other markets already send you visitors. We turn them into enquiries worth a sales call, and show which market each one came from.",
@@ -205,6 +214,7 @@ export const SERVICES: Service[] = [
   {
     slug: "multilingual-sem",
     name: "Multilingual SEM",
+    cardTitle: "International PPC run separately per market",
     inline: "multilingual SEM",
     headingTerm: "international PPC",
     h1: "International PPC agency running paid search per market",
@@ -276,6 +286,7 @@ export const SERVICES: Service[] = [
   {
     slug: "conversion-tracking",
     name: "Conversion tracking",
+    cardTitle: "Conversion tracking measured per market",
     inline: "conversion tracking",
     h1: "Conversion tracking measured per market",
     subhead: "Measurement that shows which language earns the enquiry, rather than one blended figure for the whole site.",
@@ -341,9 +352,10 @@ export const SERVICES: Service[] = [
   {
     slug: "multilingual-seo",
     name: "International SEO",
+    cardTitle: "Multilingual SEO and GEO across every market you sell in",
     inline: "international SEO",
     headingTerm: "multilingual SEO",
-    h1: "Multilingual SEO agency for companies already selling abroad",
+    h1: "Multilingual SEO and GEO agency for companies already selling abroad",
     subhead: "Search run across several markets at once, so the languages you already publish in start producing enquiries too.",
     cluster: "Search",
     pillar: true,
@@ -441,8 +453,9 @@ export const SERVICES: Service[] = [
   {
     slug: "french-seo",
     name: "French SEO",
+    cardTitle: "French SEO and GEO for buyers in France",
     inline: "French SEO",
-    h1: "French SEO agency for companies selling into France",
+    h1: "French SEO and GEO agency for companies selling into France",
     subhead: "Researched and written in French rather than translated into it, so buyers in France, Belgium and Switzerland read a supplier they can trust with the enquiry.",
     cluster: "Search",
     angle: "SEO France, from the outside in",
@@ -562,8 +575,9 @@ export const SERVICES: Service[] = [
   {
     slug: "german-seo",
     name: "German SEO",
+    cardTitle: "German SEO and GEO for the German market",
     inline: "German SEO",
-    h1: "German SEO agency for companies expanding into Germany",
+    h1: "German SEO and GEO agency for companies expanding into Germany",
     subhead: "Strategy agreed with you in English or French, every German page written by native German copywriters, so buyers in Germany, Austria and Switzerland read a supplier that sounds local.",
     cluster: "Search",
     angle: "SEO Germany, planned with you, written by Germans",
@@ -625,7 +639,7 @@ export const SERVICES: Service[] = [
       {
         q: "Who actually writes the German",
         a: [
-          "Native German copywriters, briefed and reviewed by us. We read German SERPs, competitor pages and briefs, and we follow a meeting in German with effort. We do not write your German commercial copy, because the register is the sale and a near-miss register loses it.",
+          "Native German copywriters, briefed and reviewed by us. We know enough German to manage SEO projects in it, from search results and competitor pages to briefs and meetings. We do not write your German commercial copy, because the register is the sale and a near-miss register loses it.",
           "Most agencies that offer German work the same way and let you discover it later. Saying it here is the difference: you pay for strategy where the strategy is done, and for writing where the writing is done well.",
         ],
       },
@@ -675,8 +689,9 @@ export const SERVICES: Service[] = [
   {
     slug: "spanish-seo",
     name: "Spanish SEO",
+    cardTitle: "Spanish SEO and GEO for Spain and Latin America",
     inline: "Spanish SEO",
-    h1: "Spanish SEO agency for companies selling in Spanish",
+    h1: "Spanish SEO and GEO agency for companies selling in Spanish",
     subhead: "Spain run directly from Valencia, Latin America by native copywriters in Santo Domingo, so every Spanish-speaking buyer reads a page written for their own country.",
     cluster: "Search",
     angle: "SEO Spain and Latin America, one market at a time",
@@ -779,8 +794,9 @@ export const SERVICES: Service[] = [
   {
     slug: "dutch-seo",
     name: "Dutch SEO",
+    cardTitle: "Dutch SEO and GEO for the Netherlands and Belgium",
     inline: "Dutch SEO",
-    h1: "Dutch SEO agency for the Netherlands and Belgium",
+    h1: "Dutch SEO and GEO agency for the Netherlands and Belgium",
     subhead: "Dutch and French handled directly, with a native reader on every commercial page, so buyers in Amsterdam, Antwerp and Brussels read a supplier who speaks their language properly.",
     cluster: "Search",
     angle: "SEO Netherlands and Belgium, without a translator in between",
@@ -885,8 +901,9 @@ export const SERVICES: Service[] = [
   {
     slug: "italian-seo",
     name: "Italian SEO",
+    cardTitle: "Italian SEO and GEO for the Italian market",
     inline: "Italian SEO",
-    h1: "Italian SEO agency for an uncontested market",
+    h1: "Italian SEO and GEO agency for an uncontested market",
     subhead: "Commercial terms in Italian are far less fought over than the English equivalents, which makes entry cheap.",
     cluster: "Search",
     angle: "SEO Italy, where translated copy gets found out",
@@ -954,8 +971,9 @@ export const SERVICES: Service[] = [
   {
     slug: "portuguese-seo",
     name: "Portuguese SEO",
+    cardTitle: "Portuguese SEO and GEO for Portugal and Brazil",
     inline: "Portuguese SEO",
-    h1: "Portuguese SEO agency for Portugal and Brazil",
+    h1: "Portuguese SEO and GEO agency for Portugal and Brazil",
     subhead: "Two markets rather than one language, with different search behaviour and different competition in each.",
     cluster: "Search",
     angle: "Two markets, one language",
@@ -1030,6 +1048,7 @@ export const SERVICES: Service[] = [
   {
     slug: "local-seo",
     name: "Local SEO",
+    cardTitle: "Local SEO for cities that search in several languages",
     inline: "local SEO",
     h1: "Local SEO services for multilingual cities",
     subhead: "Be the business nearby buyers find first on the map, in every language your city searches in, and turn the profile into calls and visits.",
@@ -1125,6 +1144,7 @@ export const SERVICES: Service[] = [
   {
     slug: "website-localisation",
     name: "Website localization",
+    cardTitle: "Website localization that makes each market buy",
     inline: "website localization",
     h1: "Website localization services that make a site sell in its market",
     subhead: "From the copy to the checkout: currency, payment methods, shipping rules and a layout that survives a third more text.",
@@ -1206,6 +1226,7 @@ export const SERVICES: Service[] = [
   {
     slug: "translation-services",
     name: "Translation services",
+    cardTitle: "Translation services sorted by document type",
     inline: "translation services",
     h1: "Multilingual translation services sorted by document type",
     subhead: "The risk changes completely from a proposal to a court filing, and so does who should be doing the work.",
@@ -1228,8 +1249,8 @@ export const SERVICES: Service[] = [
       {
         heading: "How the BeTranslated network actually delivers it",
         paragraphs: [
-          "Translation runs through the BeTranslated network, run for over twenty years, with certified and sworn translators per language and per specialism (legal, medical, financial, academic, technical). Standard delivery runs two to five business days, with rush turnaround available for time-critical personal documents such as a visa or birth certificate translation.",
-          "Every document gets matched to a translator with the relevant sector background, then a rigorous review pass before delivery, with notarisation or an apostille handled where the receiving institution requires it. Confidentiality protocols apply throughout, since much of what moves through this service is precisely the kind of document a business cannot afford to have mishandled.",
+          "Translation runs through the BeTranslated network, run for over twenty years, with certified and sworn translators per language and per specialism (legal, medical, financial, academic, technical). Delivery takes one to seven days, depending on the complexity of the document and your situation, with rush turnaround available for time-critical personal documents such as a visa or birth certificate translation.",
+          "Every document gets matched to a translator with the relevant sector background, then a rigorous review pass before delivery, with notarisation or an apostille handled where the receiving institution requires it. For US and Canadian citizens, we also provide apostille services. Confidentiality protocols apply throughout, since much of what moves through this service is precisely the kind of document a business cannot afford to have mishandled.",
         ],
       },
       {
@@ -1247,7 +1268,7 @@ export const SERVICES: Service[] = [
       {
         q: "Certified, sworn, notarised and apostilled are four different things",
         a: [
-          "People ask for the wrong one constantly, and the receiving institution is the only authority on which is right. A certified translation carries a signed statement of accuracy from the translator or agency. A sworn translation is made by a translator formally registered with a court or ministry, which is how Spain, France and much of the EU handle official documents. Notarisation adds a notary attesting to the signature, not to the translation. An apostille authenticates the document itself for use abroad under the Hague Convention, and is a matter for the issuing authority rather than the translator.",
+          "People ask for the wrong one constantly, and the receiving institution is the only authority on which is right. A certified translation carries a signed statement of accuracy from the translator or agency. A sworn translation is made by a translator formally registered with a court or ministry, which is how Spain, France and much of the EU handle official documents. Notarisation adds a notary attesting to the signature, not to the translation. An apostille authenticates the document itself for use abroad under the Hague Convention, and is issued in the country the document comes from rather than by the translator. For US and Canadian citizens, we provide apostille services too.",
           "So the first question is never which service you want, it is what the body receiving the document asks for: a court, a registry, a university admissions office and an immigration authority each have their own rule. Establish that first and the rest is straightforward.",
         ],
       },
@@ -1296,8 +1317,9 @@ export const SERVICES: Service[] = [
   {
     slug: "app-and-software-localisation",
     name: "App and software localization",
+    cardTitle: "App and software localization for products sold abroad",
     inline: "app and software localization",
-    h1: "App and software localization services",
+    h1: "App and software localization services for products sold abroad",
     subhead: "Internationalized before launch rather than retrofitted after it, which is where the cost of this work is decided.",
     cluster: "Localization",
     angle: "Strings, and everything around them",
@@ -1361,6 +1383,7 @@ export const SERVICES: Service[] = [
   {
     slug: "ai-consulting",
     name: "AI consulting",
+    cardTitle: "AI consulting for multilingual search and content",
     inline: "AI consulting",
     h1: "AI consulting services for multilingual search and content",
     subhead: "Where machine output helps across languages, and where it quietly costs the trust a page was built to earn.",
@@ -1431,6 +1454,7 @@ export const SERVICES: Service[] = [
   {
     slug: "ai-translation-and-post-editing",
     name: "AI translation and post-editing",
+    cardTitle: "AI translation with human post-editing",
     inline: "AI translation and post-editing",
     headingTerm: "machine translation post-editing",
     h1: "Machine translation post-editing after the AI first pass",
@@ -1496,6 +1520,7 @@ export const SERVICES: Service[] = [
   {
     slug: "generative-engine-optimization",
     name: "Generative engine optimization",
+    cardTitle: "Generative engine optimization for AI answers",
     inline: "generative engine optimization",
     h1: "Generative engine optimization services for AI search",
     subhead: "Structured for ChatGPT, Perplexity and Google's AI Overviews to cite you, not only for Google to rank you.",
@@ -1606,6 +1631,7 @@ export const SERVICES: Service[] = [
   {
     slug: "technical-seo",
     name: "Technical SEO",
+    cardTitle: "Technical SEO for multilingual websites",
     inline: "technical SEO",
     h1: "Technical SEO services for multilingual websites",
     subhead: "The work that stops your language versions competing with each other for the same buyers.",
@@ -1676,6 +1702,7 @@ export const SERVICES: Service[] = [
   {
     slug: "content-marketing",
     name: "Content marketing",
+    cardTitle: "Content marketing built from search demand",
     inline: "content marketing",
     h1: "Content marketing services built from search demand",
     subhead:
@@ -1748,6 +1775,7 @@ export const SERVICES: Service[] = [
   {
     slug: "multilingual-content",
     name: "Multilingual content",
+    cardTitle: "Multilingual content written per market",
     inline: "multilingual content",
     headingTerm: "multilingual content marketing",
     h1: "Multilingual content marketing written per market",

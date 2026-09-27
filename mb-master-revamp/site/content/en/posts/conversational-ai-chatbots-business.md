@@ -1,6 +1,7 @@
 ---
 words: 1885
 title: "Conversational AI and chatbots in business: 10 practical uses"
+metaTitle: "Conversational AI chatbots in business: 10 practical uses"
 slug: "conversational-ai-chatbots-business"
 locale: "en"
 type: "posts"

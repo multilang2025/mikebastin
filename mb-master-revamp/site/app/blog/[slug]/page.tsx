@@ -18,6 +18,7 @@ import {
 } from "@/lib/posts";
 import { getService } from "@/lib/services";
 import { getPostMetaDescription, postMetaTitle } from "@/lib/seo";
+import { pageMeta } from "@/lib/meta";
 import { SITE_URL, blogPostingSchema, breadcrumbSchema } from "@/lib/schema";
 import { getBlogImage } from "@/lib/blog-images";
 
@@ -38,12 +39,15 @@ export async function generateMetadata({
   const { slug } = await params;
   const post = getPost(slug);
   if (!post) return {};
-  const languages = postHreflang(post.group);
-  return {
-    title: postMetaTitle(post.title),
+  return pageMeta({
+    title: postMetaTitle(post.metaTitle ?? post.title),
     description: getPostMetaDescription(post),
-    ...(languages ? { alternates: { languages } } : {}),
-  };
+    path: `/blog/${post.slug}/`,
+    type: "article",
+    publishedTime: new Date(post.date).toISOString(),
+    modifiedTime: new Date(post.modified ?? post.date).toISOString(),
+    languages: postHreflang(post.group),
+  });
 }
 
 function formatDate(iso: string) {

@@ -12,6 +12,14 @@ ErrorDocument 404 /404.html
   </FilesMatch>
 </IfModule>
 
+# Social card images. Next exports opengraph-image and twitter-image
+# without a file extension, so the host sent them with no Content-Type at
+# all, and LinkedIn in particular will not show an image it cannot type
+# (EN meta audit, 27 Sep 2026). Name them as the PNGs they are.
+<FilesMatch "^(opengraph|twitter)-image$">
+  ForceType image/png
+</FilesMatch>
+
 # Belt and braces on top of robots.txt and the noindex meta tag.
 <IfModule mod_headers.c>
   Header set X-Robots-Tag "noindex, nofollow"

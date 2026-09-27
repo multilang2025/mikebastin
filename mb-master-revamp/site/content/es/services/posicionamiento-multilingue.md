@@ -18,7 +18,7 @@ Pilotaje estratégico de mi parte. Redacción nativa por idioma desde la red BeT
 
 4+ idiomas
 
-fluidez directa en FR / EN / ES / NL + B1 DE. Red nativa para cualquier otro idioma.
+fluidez directa en FR / EN / ES / NL, y alemán e italiano suficientes para dirigir proyectos SEO. Red nativa para cualquier otro idioma.
 
 WPML
 
@@ -154,7 +154,7 @@ Construcción inicial del sitio multilingüe desde cero
 
 **Mike Bastin:** Más de dos décadas en SEO y traducción. Co-fundador de BeTranslated, una agencia de traducción multilingüe que opera en 12 dominios por país.
 
-Ejecución directa con fluidez: francés, inglés, español (residente en Valencia desde 2016, 16 años previos en República Dominicana), neerlandés (Erasmus en Utrecht + clientela neerlandófona caribeña). B1 en alemán. Lectura de italiano y catalán.
+Ejecución directa con fluidez: francés, inglés, español (residente en Valencia desde 2016, 16 años previos en República Dominicana), neerlandés (Erasmus en Utrecht + clientela neerlandófona caribeña). Alemán e italiano suficientes para dirigir proyectos SEO en ambos idiomas, y lectura de catalán.
 
 Para los idiomas que no redacto nativamente (DE, IT, PT y otros), redactores nativos de la red BeTranslated se encargan de la producción mientras coordino estrategia y gobernanza SEO. Un solo interlocutor, un consultor responsable, sin briefs diluidos entre tres niveles de project managers.
 
@@ -166,7 +166,7 @@ El diferenciador: no finjo redactar idiomas que no domino. El modelo es transpar
 
 **Fluidez directa (Mike redacta / revisa):** francés (nativo), inglés (fluido desde estudios en EE. UU. a los 18), español (Valencia desde 2016 + República Dominicana 16 años), neerlandés (Erasmus en Utrecht + clientela caribeña).
 
-**Nivel B1 (Mike lee + coordina):** alemán. Redacción nativa vía red BeTranslated.
+**Gestionado (Mike dirige el proyecto SEO, redactores nativos escriben):** alemán e italiano. Redacción nativa vía red BeTranslated.
 
 **Solo red (redactores nativos, Mike coordina estrategia):** italiano (lectura perfecta vía FR+ES+latín), portugués, y cualquier otro idioma disponible en la red de traductores y redactores de BeTranslated.
 

@@ -165,7 +165,7 @@ Spanish brands that get it right are worth studying, because they compete for th
 -   **Mercadona** matches social content to local produce and seasonal celebrations.
 -   **El Corte Inglés** is a strong example of seasonal content adaptation, adjusting its messaging for regional celebrations while keeping its premium positioning.
 
-## SEO and localization
+## SEO and localization: swapping English examples for Spanish ones
 
 An English example left in a Spanish page tells the reader it was not written for them. Localization adapts meaning, not just words; see how we do it through our [content localization services](/services/website-localisation/).
 

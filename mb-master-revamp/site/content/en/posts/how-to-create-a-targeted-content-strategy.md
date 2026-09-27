@@ -120,7 +120,7 @@ A page that answers the question well but is not built to be found reaches nobod
 -   Target lower-competition, high-intent phrases and questions.
 -   Identify the core entities (people, places, concepts) relevant to your topics.
 
-### On-page SEO essentials
+### On-page SEO essentials: titles, headers and internal links
 
 -   Write compelling title tags and meta descriptions that include primary keywords and accurately reflect page content.
 -   Use a logical header structure (H1, H2, H3) to organise content and highlight subtopics.

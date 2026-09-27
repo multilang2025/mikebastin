@@ -6,6 +6,7 @@ import { OG_SIZE, OG_CONTENT_TYPE, renderServiceOgImage } from "@/lib/og-card";
 export const dynamic = "force-static";
 export const size = OG_SIZE;
 export const contentType = OG_CONTENT_TYPE;
+export const alt = "Mike Bastin services: multilingual SEO, localization and AI consulting";
 
 // The index card reuses the same per-service renderer, called with a
 // framing line rather than one service's own angle. The count is read
