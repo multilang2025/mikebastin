@@ -38,6 +38,7 @@ const SITE = fileURLToPath(new URL("../", import.meta.url));
 const OUT = join(SITE, "out");
 const HTACCESS = join(SITE, "public/.htaccess");
 const INVENTORY = join(SITE, "../docs/sitemap-MB-EN.txt");
+const CONTENT_MAP = join(SITE, "../redirects/content-map.json");
 
 if (!existsSync(OUT)) {
   console.error("no out/ directory: run `npm run build` first");
@@ -94,10 +95,20 @@ function resolve(path) {
   return { hops, end: cur, external: false };
 }
 
-const inventory = readFileSync(INVENTORY, "utf8")
-  .split("\n")
-  .map((l) => l.trim())
-  .filter((l) => l.startsWith("http"));
+// EN comes from the sitemap of record. FR has no such file, so its legacy
+// URLs are read from content-map.json, which carries every one of them
+// (docs/FR-REBUILD-PLAN.md phase 1, 27 Sep 2026). ES joins when its own
+// safety net exists.
+const frInventory = JSON.parse(readFileSync(CONTENT_MAP, "utf8"))
+  .groups.map((g) => g.fr?.url)
+  .filter(Boolean);
+const inventory = [
+  ...readFileSync(INVENTORY, "utf8")
+    .split("\n")
+    .map((l) => l.trim())
+    .filter((l) => l.startsWith("http")),
+  ...frInventory,
+];
 
 const missing = [];
 const chains = [];
@@ -124,9 +135,9 @@ for (const url of inventory) {
   else redirected++;
 }
 
-console.log(`legacy URLs checked:    ${inventory.length}`);
+console.log(`legacy URLs checked:    ${inventory.length} (${frInventory.length} FR)`);
 console.log(`  still served here:    ${direct}`);
-console.log(`  301 to a live page:   ${redirected}`);
+console.log(`  redirect to a live page: ${redirected}`);
 console.log(`  301 off-site:         ${external}`);
 console.log(`redirect rules parsed:  ${rules.size}`);
 

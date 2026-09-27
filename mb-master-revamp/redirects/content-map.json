@@ -1796,6 +1796,9 @@
    "type": "service",
    "tier": null,
    "action": "absorb",
+   "locale_actions": {
+    "fr": "migrate"
+   },
    "destination": "mdx",
    "absorbed_into": "technical-seo",
    "vm_action": null,
