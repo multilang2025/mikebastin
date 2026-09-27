@@ -142,7 +142,7 @@ Présence locale par ville italienne (GBP, citations)
 
 ## Pourquoi ce modèle est plus honnête (et plus efficace)
 
-**Mike Bastin** : plus de deux décennies en SEO. Italien : niveau intermédiaire (lecture courante, conversation correcte). Catalan également (mon profil linguistique de Valencia aide à la compréhension de l’italien et de ses régionalismes). Je lis les SERP italiennes, je comprends les briefs, je peux suivre une réunion en italien sans interprète. Je ne rédige pas votre contenu commercial italien.
+**Mike Bastin** : plus de deux décennies en SEO. Italien : suffisamment pour piloter des projets SEO dans cette langue, des SERP italiennes aux briefs et aux réunions. Catalan également (mon profil linguistique de Valencia aide à la compréhension de l’italien et de ses régionalismes). Je ne rédige pas votre contenu commercial italien.
 
 Cette frontière est explicite, pas masquée. La plupart des agences SEO européennes « couvrent » l’italien en sous-traitant à des copywriters natifs. La différence chez moi : c’est dit clairement sur cette page, pas découvert dans la facture.
 

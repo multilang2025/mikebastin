@@ -625,7 +625,7 @@ export const SERVICES: Service[] = [
       {
         q: "Who actually writes the German",
         a: [
-          "Native German copywriters, briefed and reviewed by us. We read German SERPs, competitor pages and briefs, and we follow a meeting in German with effort. We do not write your German commercial copy, because the register is the sale and a near-miss register loses it.",
+          "Native German copywriters, briefed and reviewed by us. We know enough German to manage SEO projects in it, from search results and competitor pages to briefs and meetings. We do not write your German commercial copy, because the register is the sale and a near-miss register loses it.",
           "Most agencies that offer German work the same way and let you discover it later. Saying it here is the difference: you pay for strategy where the strategy is done, and for writing where the writing is done well.",
         ],
       },

@@ -18,7 +18,7 @@ Strategic piloting on our side. Native writing per language from the BeTranslate
 
 4+ languages
 
-fluent direct in FR / EN / ES / NL + B1 DE. Native network for any other language.
+fluent direct in FR / EN / ES / NL, plus enough German and Italian to manage SEO projects. Native network for any other language.
 
 WPML
 
@@ -154,7 +154,7 @@ Initial multilingual site build from scratch
 
 **Mike Bastin:** Over two decades in SEO and translation. Co-founder of BeTranslated, a multilingual translation agency operating across 12 country domains.
 
-Direct fluent execution: French, English, Spanish (Valencia resident since 2016, 16 years in the Dominican Republic), Dutch (Erasmus Utrecht + Caribbean Dutch clientele). B1 German. Some Italian and Catalan reading.
+Direct fluent execution: French, English, Spanish (Valencia resident since 2016, 16 years in the Dominican Republic), Dutch (Erasmus Utrecht + Caribbean Dutch clientele). Enough German and Italian to manage SEO projects in both, and some Catalan reading.
 
 For languages we do not write natively (DE, IT, PT and others), native copywriters from the BeTranslated network handle production while we coordinate strategy and SEO governance. One interlocutor, one accountable consultant, no diluted briefs across project managers.
 
@@ -166,7 +166,7 @@ The differentiator: we do not pretend to write languages we do not write. The mo
 
 **Fluent direct (Mike writes / reviews):** French (native), English (fluent professional since US studies aged 18), Spanish (Valencia 2016 onwards + Dominican Republic 16 years), Dutch (Erasmus Utrecht + Caribbean clientele).
 
-**B1 supported (Mike reads + coordinates):** German. Native writing through BeTranslated network.
+**Managed (Mike leads the SEO project, native writers write):** German and Italian. Native writing through BeTranslated network.
 
 **Network only (native writers, Mike coordinates strategy):** Italian, Portuguese, and any other language available through the BeTranslated translator and copywriter roster.
 

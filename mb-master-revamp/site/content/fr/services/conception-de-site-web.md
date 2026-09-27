@@ -27,7 +27,7 @@ core stack on 80% of projects, other CMSes when the context warrants it
 
 4 languages
 
-FR, EN, ES, NL native or fluent + B1 DE. Plus a translator network for everything else via BeTranslated.
+FR, EN, ES, NL native or fluent + enough DE and IT to manage SEO projects. Plus a translator network for everything else via BeTranslated.
 
 SEO + GEO
 
@@ -149,7 +149,7 @@ Hosting, domain registration, ongoing maintenance
 
 ## Why this team for multilingual web design
 
-**Mike Bastin:** Over two decades in SEO and translation, based in Valencia (Spain) since 2016. Multilingual builds across Europe (BE, FR, ES, NL, UK, DE, IT, PT) and the Americas (US, Dominican Republic, Costa Rica, Mexico). Fluent in French, English, Spanish and Dutch, B1 in German.
+**Mike Bastin:** Over two decades in SEO and translation, based in Valencia (Spain) since 2016. Multilingual builds across Europe (BE, FR, ES, NL, UK, DE, IT, PT) and the Americas (US, Dominican Republic, Costa Rica, Mexico). Fluent in French, English, Spanish and Dutch, with enough German and Italian to manage SEO projects.
 
 Full stack mastery end to end: WordPress (Divi, Gutenberg, Elementor, Bricks depending on the case), WPML / Polylang, Rank Math / Yoast, GA4, GTM, Cloudflare, LiteSpeed, managed hosting. Webflow and Shopify for specific contexts. Plus a native copywriter and translator network for any other language via BeTranslated.
 

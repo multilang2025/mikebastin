@@ -94,6 +94,6 @@ If you cannot tick all six, the brand has crossed the border but not arrived.
 
 If you are launching across two or more markets, we are happy to look at the gap between your strategic brand and what each market actually sees.
 
-We work in French, English, Spanish, and Dutch fluently, with B1 German and working Italian. Most of what we do for clients sits on the seam between brand voice and SEO performance, where the slip-ups cost real revenue.
+We work in French, English, Spanish, and Dutch fluently, and know enough German and Italian to manage SEO projects in both. Most of what we do for clients sits on the seam between brand voice and SEO performance, where the slip-ups cost real revenue.
 
 [Get in touch](/contact/) or read more about [how we run multilingual branding work](/services/multilingual-seo/).
