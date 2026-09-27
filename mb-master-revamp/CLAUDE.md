@@ -587,6 +587,14 @@ is an edit owed in French and Spanish, or a drift left in place. Once the
 owner approves EN, treat a change to English copy as needing a reason, not
 as routine, and say plainly what it costs the other two locales.
 
+**The FR plan is [`docs/FR-REBUILD-PLAN.md`](docs/FR-REBUILD-PLAN.md)**
+(owner decisions, 27 Sep 2026). The French reader is a French-speaking
+company selling abroad, and `/fr/services/seo/` is the main French page,
+naming no language. Absorbed services with no French sibling get a French
+page built. The owner reviews all French copy. It also records that 40
+legacy French URLs are neither built nor redirected, which is a launch
+blocker independent of the gate.
+
 The gaps below are the FR and ES starting position whenever the gate
 opens. Flagged rather than forgotten, so they are known and deliberate:
 
