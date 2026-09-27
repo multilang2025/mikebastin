@@ -240,13 +240,12 @@ The three findings that changed what the pages say:
   of a service name generally kills its volume, which is also why
   multilingual-sem and multilingual-content have no researched primary.
 
-**Two spelling conflicts are open for the owner**, recorded in that file's
-`note` fields rather than decided: `website localization` draws 2,800
-against 350 for the UK spelling, and every `generative engine
-optimization` variant is US-spelled while the house rule is UK English.
-Eight times the demand sits on a spelling the rules forbid. The route slug
-is already US-spelled, which makes it a live inconsistency rather than a
-hypothetical one.
+**The two spelling conflicts are closed** (owner, 21 Sep 2026, confirmed
+again 27 Sep): `website localization` (2,800 against 350 for the UK
+spelling) and every `generative engine optimization` variant take the US
+spelling, under the `optimiz*`/`localiz*` exception in the copy rules
+above. The page copy matches the searches; `keywords.ts` `note` fields
+record the figures. Do not re-open them.
 
 A `term:` value in that file is exempt from the US-spelling lint. A
 keyword is research data quoted verbatim, and correcting it would not fix
