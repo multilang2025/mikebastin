@@ -16,7 +16,7 @@ excerpt: "Paid for .es links that never moved a ranking? Link building in Spain 
 
 You have paid for links to your Spanish site, the reports show them live, and your rankings in Spain have barely moved. The budget went on placements Spanish editors never chose and Google learns to ignore.
 
-We have run SEO from Valencia for over a decade, including campaigns for a Madrid law firm, a Dominican real estate group selling holiday homes to Spanish retirees, and [our own translation agency](https://betranslated.com/) across .es, .fr, .be, .nl and .com properties. What we see month after month: cold pitches in English to Spanish editors get no traction, generic guest post templates land in spam folders, and bulk-bought placements on PBN-flavoured .es domains burn budget on links Google quietly ignores within months.
+We have run SEO from Valencia since 2016, including campaigns for a Valencia law firm, a Dominican real estate group selling holiday homes to Spanish retirees, and [our own translation agency](https://betranslated.com/) across .es, .fr, .be, .nl and .com properties. What we see month after month: cold pitches in English to Spanish editors get no traction, generic guest post templates land in spam folders, and bulk-bought placements on PBN-flavoured .es domains burn budget on links Google quietly ignores within months.
 
 Good [Spanish SEO](/services/spanish-seo/) treats link building as slow-burn PR rather than mass outreach. Below: where authority sits in Spain, the tactics we rely on, the costliest mistakes, and realistic timing.
 

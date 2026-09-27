@@ -310,6 +310,12 @@ is in the rest, which the Master Content Protocol never covered:
   local designation rather than a catch-all English gloss.
 - Never claim a certification, accreditation or track record the business
   does not hold.
+- **The free offers in posts are real** (owner, 27 Sep 2026: "I do give
+  the free offers"): the free 20-minute audit, the free 20-minute stack
+  walkthrough, the free localization assessment, the free consultation
+  and the GEO audit. Keep them; they may also be used in in-body CTAs.
+- **There is no Madrid law firm** (owner, 27 Sep 2026). The law-firm
+  client is the Valencia one; correct any "Madrid law firm" on sight.
 - **Experience is "over two decades"** (owner, 27 Sep 2026: "I started in
   1999, but I don't want to show too many years"). Never "25 years" or a
   start year; the homepage counter reads 20+. BeTranslated's own age
