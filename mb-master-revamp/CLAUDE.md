@@ -591,9 +591,11 @@ as routine, and say plainly what it costs the other two locales.
 (owner decisions, 27 Sep 2026). The French reader is a French-speaking
 company selling abroad, and `/fr/services/seo/` is the main French page,
 naming no language. Absorbed services with no French sibling get a French
-page built. The owner reviews all French copy. It also records that 40
-legacy French URLs are neither built nor redirected, which is a launch
-blocker independent of the gate.
+page built. The owner reviews all French copy. Phase 1, released ahead
+of the EN lock, is done: `scripts/gen-fr-redirects.mjs` gives every legacy
+French URL a 301, or a 302 to the nearest live French page while its
+destination is unbuilt. Rerun it whenever a planned French page ships.
+The redirect lint checks all 74 French legacy URLs.
 
 The gaps below are the FR and ES starting position whenever the gate
 opens. Flagged rather than forgotten, so they are known and deliberate:

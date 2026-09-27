@@ -63,13 +63,13 @@ build needs as few redirects as possible.
 | Blog index | `/fr/blog/` | same URL | Lists the 8 French posts |
 | `404-2` | 301 to `/fr/` | | Legacy junk page |
 
-### Services (17)
+### Services (18)
 
-**Already built (11), to adapt to the French reader:**
+**Already built (12), to adapt to the French reader:**
 `seo` (the main page), `referencement-multilingue`, `referencement-local`,
 `sem-multilingue`, `localisation-de-site-web`,
 `localisation-juridique-reglementaire`, `seo-espagnol`, `seo-allemand`,
-`seo-neerlandais`, `seo-italien`, `seo-portugais`. The language pages are
+`seo-neerlandais`, `seo-anglais`, `seo-italien`, `seo-portugais`. The language pages are
 reframed from "entering France" to "a French company entering Spain,
 Germany, the Netherlands". Italian and Portuguese stay live with light
 edits only (low priority, CLAUDE.md "Key markets").
@@ -83,7 +83,7 @@ edits only (low priority, CLAUDE.md "Key markets").
 | multilingual-content | `/fr/services/creation-de-contenu-multilingue/` | conseil-culturel, gestion-multilingue-reseaux-sociaux |
 | ai-consulting | `/fr/services/conseil-ia/` | none, same URL |
 | ai-translation-and-post-editing | `/fr/services/postedition-ia/` | none, same URL |
-| technical-seo | `/fr/services/seo-technique/` (new URL) | recherche-mots-cles, netlinking, analyse-et-suivi, seo-on-page, seo-anglais |
+| technical-seo | `/fr/services/seo-technique/` (new URL) | recherche-mots-cles, netlinking, analyse-et-suivi, seo-on-page |
 
 The sworn translation facts apply to the French translation page as they
 do in EN: one to seven days depending on the document and the situation,
@@ -97,13 +97,17 @@ and apostille for US and Canadian citizens.
 | `/fr/services/localisation-de-site-web/` | conception-ux-ui-multilingue, cms-multilingue, localisation-contenu, localisation-ecommerce, plugin-de-traduction-wordpress, test-localisation |
 
 **Technical SEO gets its own French page** (owner, 27 Sep 2026, over the
-proposal to fold its five children into `/fr/services/seo/`). None of the
-five legacy URLs names the service as a whole, so it takes a new URL,
-`/fr/services/seo-technique/`, and all five 301 to it.
+proposal to fold its children into `/fr/services/seo/`). None of the
+legacy URLs names the service as a whole, so it takes a new URL,
+`/fr/services/seo-technique/`, and four of them 301 to it.
 
-`seo-anglais` redirects to the technical page like the other four. It was
-raised as a possible language page of its own (a French company selling
-into the UK); the owner chose to leave it as a redirect (27 Sep 2026).
+**`seo-anglais` stays alive** as a French language page (owner, 27 Sep
+2026): for the French reader it is a market page like `seo-espagnol`, a
+French company selling into the UK or Ireland. EN absorbed its sibling
+`english-seo` into technical SEO, so the group `g078` carries
+`"locale_actions": {"fr": "migrate"}`: FR keeps the page, EN and ES keep
+the absorb. It is built from its legacy copy today and gets the same
+adaptation pass as the other language pages in phase 4.
 
 ### Posts
 
@@ -116,12 +120,24 @@ targets exist.
 **0. Gate.** The owner locks EN. Nothing below starts before that, except
 phase 1, which the owner released on 27 Sep 2026.
 
-**1. Safety net: redirects only, no copy.** Add the 301s above for the 31
-absorbed services, `404-2`, `nos-services` and the 2 Globaprom URLs, as a
-generated block like the prune redirects. Pages still to be built (the
-homepage, contact, about, tarifs, blog index and the 6 new services) point
-temporarily at the closest live French page or `/fr/`, and each rule is
-removed when its page ships. Result: zero French 404s at launch.
+**1. Safety net: redirects only, no copy. Done 27 Sep 2026.**
+`site/scripts/gen-fr-redirects.mjs` writes the `fr-safety-net` block of
+`public/.htaccess`. Every legacy French URL points at its final French
+destination above with a 301. Where that page is not built yet, it points
+instead at the closest live French page with a **302**, so no temporary
+target gets cached as permanent. Rerun the script whenever a planned page
+ships: its rules become 301s, or disappear for a page built at its own
+legacy URL. `scripts/redirect-coverage-lint.mjs` now checks all 74 legacy
+French URLs from content-map.json alongside the EN sitemap, so a French
+404 or chain fails `npm run verify`. At the time of writing: 10 permanent
+rules, 30 temporary, 0 French 404s.
+
+Interim targets while a page is unbuilt: the homepage, indexes, about,
+contact, tarifs, blog index, the Globaprom URLs, AI consulting and the
+technical SEO children go to `/fr/services/seo/`; translation to
+`localisation-juridique-reglementaire`; app localization and AI
+post-editing to `localisation-de-site-web`; multilingual content to
+`referencement-multilingue`.
 
 **2. Research.**
 - Search Console, 16 months, for every legacy French URL: which carry
