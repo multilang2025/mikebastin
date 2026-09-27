@@ -116,7 +116,7 @@ A joke that lands at home and falls flat in German makes your brand look out of 
 
 What is funny or familiar to an English-speaking reader can confuse or put off a German one unless it is adapted with care.
 
-### Localizing humour
+### Localizing humour for a more direct German audience
 
 Humour depends on cultural context, wordplay and shared experience, so it rarely travels intact. Subtle British sarcasm or American irony can be lost on German audiences, whose humour tends to be more direct.
 
@@ -150,7 +150,7 @@ What are German users searching for?
 
 Google Trends, Ahrefs or SEMrush will show local search behaviour and content preferences.
 
-### Localizing keyword research
+### Localizing keyword research with tools set to the German market
 
 Translated English keywords miss the terms Germans actually type. Run keyword research with tools set to the German market instead.
 

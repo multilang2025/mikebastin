@@ -44,7 +44,7 @@ Your URL structure is expensive to undo later. It is a core [technical element o
 
 There are three main approaches: subdomains (en.example.com), subdirectories (example.com/en/) and country-code top-level domains (example.fr). They differ in crawl management, authority consolidation and hosting complexity. Subdirectories are the most common choice for keeping authority under one domain. Whichever you choose, keep URLs clean, descriptive and consistent, and never mix structures across languages.
 
-## Implementing hreflang
+## Implementing hreflang: three rules for correct tags
 
 When these tags are wrong, a buyer in France lands on your Spanish page, and leaves. Hreflang tags tell search engines which language and region each page targets. Three rules:
 

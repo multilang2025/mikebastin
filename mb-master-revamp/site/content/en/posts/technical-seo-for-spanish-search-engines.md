@@ -65,7 +65,7 @@ Tool prices change often, so check before you budget. At the time of writing, th
 >
 > Source: [SISTRIX, prices page, 2026](https://www.sistrix.com/prices/) and [Screaming Frog, SEO Spider pricing, 2026](https://www.screamingfrog.co.uk/seo-spider/pricing/)
 
-## Mobile optimization
+## Mobile optimization when most Spanish page views come from phones
 
 More than half of web page views in Spain come from phones, so a page that is awkward on mobile loses the majority of your visitors before they read a word. Mobile-friendly pages and quick load times are the minimum for reaching this audience.
 

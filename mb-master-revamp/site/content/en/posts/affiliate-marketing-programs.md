@@ -48,7 +48,7 @@ Shopify pays [up to $150 per qualified merchant referral](https://www.shopify.co
 
 Good for: ecommerce tutorials, store-building courses, small-business advisors.
 
-## Marketing software programmes
+## Marketing software programmes: recurring and per-sale commissions
 
 Software pays best when the commission recurs: a customer who stays keeps paying you.
 

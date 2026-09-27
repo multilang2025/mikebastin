@@ -86,11 +86,11 @@ A Word document does not rank. For website translation we push the French conten
 
 A faithful translation of a sales page is still a page written for English buyers.
 
-### Multilingual SEO copywriting
+### Multilingual SEO copywriting around the French keyword cluster
 
 For marketing pages, we do not translate sentence by sentence. We rewrite around the French keyword cluster while preserving your tone and offer. See [multilingual SEO copywriting](/services/multilingual-content/) for how that differs from straight translation.
 
-### Transcreation
+### Transcreation for taglines, ads and hero copy
 
 For taglines, ads, hero copy and creative campaigns, a direct translation almost always loses the punch. What you want is transcreation, part of our [translation and transcreation service](/services/translation-services/): a fresh French version with the same emotional effect, even if it shares almost no words with the source.
 

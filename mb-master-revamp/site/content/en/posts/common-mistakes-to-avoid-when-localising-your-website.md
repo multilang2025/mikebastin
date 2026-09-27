@@ -37,7 +37,7 @@ Localize the message without losing the personality. A style guide every transla
 
 ## Search and technical
 
-### Overlooking local SEO
+### Overlooking local SEO and translating the keyword list
 
 A translated page does not rank on its own. Each market has its own search behaviour, phrasing and sometimes its own preferred search engine. [Multilingual SEO](/services/multilingual-seo/) starts with keyword research done in the target language, not a translation of the English keyword list.
 

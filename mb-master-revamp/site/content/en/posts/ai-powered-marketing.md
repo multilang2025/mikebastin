@@ -1,6 +1,6 @@
 ---
 words: 804
-title: "AI-powered marketing"
+title: "AI-powered marketing: three uses that pay back first"
 slug: "ai-powered-marketing"
 locale: "en"
 type: "posts"

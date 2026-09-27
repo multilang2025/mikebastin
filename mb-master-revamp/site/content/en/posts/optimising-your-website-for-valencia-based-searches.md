@@ -30,13 +30,13 @@ Guess the words and you rank for searches nobody in Valencia makes. Keyword rese
 -   **Assess competition**: how hard each term is to rank for, so you can prioritise.
 -   **Find related terms**: variations and long-tail phrases with a more specific intent.
 
-### Long-tail keywords
+### Long-tail keywords that catch Valencia searchers closer to booking
 
 Long-tail keywords are detailed directions rather than general signposts. Someone might start with "massage Valencia", but people closer to booking use phrases such as "[traditional Thai massage near Ruzafa Valencia](https://www.ro-ki.net/treatments/thai-yoga-massage/)", "deep tissue Thai massage Ciutat Vella" or "[English-speaking Thai massage therapist Valencia](https://www.ro-ki.net/treatments/thai-yoga-massage/)". The more specific the phrase, the higher the intent to book.
 
 Add Valencia-specific phrases wherever they are relevant: "restaurants in Valencia", "apartments in Valencia", "Valencia events", "lawyer in Valencia".
 
-### Search intent
+### Search intent, from research to booking in Valencia
 
 [Search intent mapping](/blog/what-is-search-intent-mapping/) means reading what a searcher actually wants. `Thai massage benefits` is research; `Thai massage Valencia prices Ruzafa` is comparison; `book Thai massage Valencia today`, or any search ending in `open now`, is a booking. Map each intent to a page built for it.
 
@@ -126,7 +126,7 @@ In Google Analytics, geographic reports show how much traffic comes from Valenci
 -   **Click-through rate**: a higher CTR means your titles and descriptions work for local searchers.
 -   **Conversion rate**: how many Valencia visitors become customers or leads.
 
-### Local SEO tools
+### Local SEO tools for tracking Valencia rankings and listings
 
 [BrightLocal](https://www.brightlocal.com/) tracks rankings for Valencia keywords, checks that your business details match across local directories and helps manage reviews. [Moz Local](https://moz.com/products/local) distributes your business information to directories and reports on local visibility.
 

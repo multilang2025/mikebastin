@@ -1,6 +1,6 @@
 ---
 words: 883
-title: "Spanish on-page SEO"
+title: "Spanish on-page SEO: a checklist for pages that read local"
 slug: "spanish-on-page-seo"
 locale: "en"
 type: "posts"
@@ -74,7 +74,7 @@ A Spanish reader sent to an English page mid-journey is a reader lost. Link Span
 
 A large share of Spanish users browse on phones, so mobile optimization comes first: fast pages, clear navigation and nothing that breaks on a small screen.
 
-## Schema markup
+## Schema markup for richer listings in Spanish results
 
 Richer listings draw more clicks than plain ones. Localized schema, such as business details or events, supports [technical SEO for Spanish search engines](/blog/technical-seo-for-spanish-search-engines/) and can earn them.
 

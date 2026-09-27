@@ -67,7 +67,7 @@ Emails should adapt to every screen size. A single-column layout keeps scrolling
 -   Leave plenty of white space
 -   Make CTAs large and easily tappable (minimum 44×44 pixels)
 
-### Optimize images
+### Optimize images so emails load and still make sense
 
 -   Use alt text for images in case they don’t load
 -   Compress images to reduce load times
@@ -148,7 +148,7 @@ Focus instead on:
 
 Heat mapping tools show where subscribers click within your emails.
 
-### Predictive analytics
+### Predictive analytics for send times, next purchases and churn
 
 AI and machine learning can predict:
 
@@ -156,7 +156,7 @@ AI and machine learning can predict:
 -   Which products a customer is most likely to buy next
 -   When a customer is at risk of churning
 
-### Automated optimization
+### Automated optimization of subject lines, send times and content
 
 AI-powered tools can automatically:
 

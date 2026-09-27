@@ -30,7 +30,7 @@ No verified profile, no place on the map. Your Maps listing comes from a Google 
 
 Once verified, your business appears on Google Maps. Our [local SEO service](/services/local-seo/) can handle the setup and verification for you.
 
-## Optimize your listing
+## Optimize your listing with complete, accurate profile details
 
 A half-finished profile loses to competitors with better upkeep, not better products. A complete, accurate one ranks better and earns more clicks.
 
@@ -39,7 +39,7 @@ A half-finished profile loses to competitors with better upkeep, not better prod
 - **Photos and videos.** Show your premises, team, products or services.
 - **Categories.** Choose one primary category and add every relevant secondary one.
 
-## Build citations
+## Build citations with identical details in every directory
 
 When your address reads differently across directories, Google trusts none of them. A citation is a mention of your business name, address and phone number (NAP) on another website. Consistent citations help Google trust your details, which supports your [local SEO](/services/local-seo/).
 

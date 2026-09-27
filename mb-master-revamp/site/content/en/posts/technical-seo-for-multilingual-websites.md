@@ -55,7 +55,7 @@ Every annotation must be returned. If page A points to page B, page B must point
 <figcaption>An hreflang cluster works only as a whole: every version lists every other version and itself, and all of them name the same fallback page.</figcaption>
 </figure>
 
-### Common hreflang mistakes
+### Common hreflang mistakes that cost you rankings
 
 - Pointing to the wrong URL, a redirect or a page that returns an error.
 - Using an invalid code: `en-UK` instead of `en-GB`, or a country code where a language code belongs.

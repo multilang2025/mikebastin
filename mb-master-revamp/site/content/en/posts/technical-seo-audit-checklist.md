@@ -63,7 +63,7 @@ Disallow: /
 
 An empty `Disallow:` line allows everything. Block private sections by path instead, for example `Disallow: /private-section/`.
 
-### XML sitemap
+### XML sitemap: what to include and where to submit it
 
 An XML sitemap lists the URLs you want indexed. Check that `yourdomain.com/sitemap.xml` exists, contains only live, canonical, indexable URLs (no 404s, redirects or noindexed pages) and updates when content changes.
 
@@ -193,7 +193,7 @@ RewriteRule ^(.*)$ https://yourdomain.com/$1 [R=301,L]
 
 An expired certificate triggers exactly that warning. Check validity with the [SSL Server Test](https://www.ssllabs.com/ssltest//index.html) by Qualys SSL Labs, and automate renewal (Certbot for Let's Encrypt certificates).
 
-## Structured data
+## Structured data that can earn rich results
 
 Structured data helps search engines understand the page and can earn rich results. Add the types that match the content (`Article`, `Product`, `BreadcrumbList`, `Organization`), preferably as JSON-LD, and validate with Google's Rich Results Test and the Schema Markup Validator. Microdata works too, but pick one format and use it everywhere.
 
@@ -285,7 +285,7 @@ Every meaningful image needs alt text that describes it, without stuffing keywor
 </url>
 ```
 
-## International SEO
+## International SEO checks for hreflang and regional versions
 
 Without the right tags, a French visitor lands on your Spanish page and leaves. Multilingual and multi-regional sites need hreflang annotations so Google serves each user the right version. Check for wrong language or region codes (`en-gb`, not `en-uk`), missing return tags and versions that do not reference themselves:
 

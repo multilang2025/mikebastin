@@ -38,7 +38,7 @@ German contains umlauts (ä, ö, ü) and the ß, which appear percent-encoded wh
 
 Most German sites therefore transliterate them: ä becomes ae, ö becomes oe, ü becomes ue and ß becomes ss. “Küche” (kitchen) becomes “kueche” in the URL, which keeps links clean wherever they are pasted.
 
-### Keywords in URLs
+### Keywords in URLs, without stuffing them
 
 **German keywords** in the URL help both users and search engines. Google treats words in the URL as a light signal, and a descriptive URL also earns more clicks in results and shared links.
 

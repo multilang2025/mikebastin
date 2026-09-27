@@ -17,7 +17,7 @@ Your multilingual website has every page in every language, and the non-English 
 
 The gap is usually translation alone versus [translation and cultural adaptation](/services/website-localisation/) together. Below: where localization pays off, how it works with search, where AI helps, and how to tell whether it is working.
 
-## Localization versus translation
+## Localization versus translation: what each one changes
 
 The difference decides whether a market reads your site as local or imported. Translation converts words. Localization reshapes meaning, adapting language, tone, imagery and UX to the habits and expectations of each audience, and accounting for language variants and [cultural differences](/services/multilingual-content/).
 
