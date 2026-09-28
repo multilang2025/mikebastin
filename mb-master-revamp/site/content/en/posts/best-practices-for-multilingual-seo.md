@@ -1,20 +1,21 @@
 ---
 words: 998
-title: "Ranking is no longer where multilingual SEO ends"
+title: "Multilingual SEO best practices that get you ranked and cited"
+metaTitle: "Multilingual SEO best practices: ranked and cited"
 slug: "best-practices-for-multilingual-seo"
 locale: "en"
 type: "posts"
 group: "g014"
 wpId: 24845454
 date: "2024-10-28T16:24:29"
-modified: "2026-09-26T21:30:00"
+modified: "2026-09-28T09:00:00"
 sourceUrl: "https://mikebastin.com/best-practices-for-multilingual-seo/"
-excerpt: "Ranking in every language and still short of enquiries? The multilingual SEO practices that get each market found in search and quoted in AI answers."
+excerpt: "Multilingual SEO best practices that get each language version found in search and quoted in AI answers, so every market brings in enquiries."
 ---
 
-Your French and German pages may rank and still bring in few enquiries. More buyers now get their answer from an AI summary or a chatbot before they click, and if your other languages are not the ones quoted, a competitor’s are.
+Your French and German pages may rank and still bring in few enquiries. More buyers now get their answer from an AI summary or a chatbot before they click, and the brand quoted in their language is the one they contact.
 
-Ranking is still the foundation, but no longer where the job ends. The work that gets you quoted is [generative engine optimization](/services/generative-engine-optimization/) (GEO). Below: the multilingual SEO best practices that get each language version found, and cited too.
+Ranking is still the foundation, and now the first half of the job. The work that gets you quoted is [generative engine optimization](/services/generative-engine-optimization/) (GEO). Below: the multilingual SEO best practices that get each language version found, and cited too.
 
 ## Why multilingual SEO remains the foundation
 
@@ -28,9 +29,9 @@ The groundwork, in every language:
 
 The same signals are now the foundation for GEO in each language, so a gap here costs you twice.
 
-## Keyword localization, not translation
+## Keyword localization: start from how each market searches
 
-Translate your English keywords and you get terms that are correct and that nobody in the market types. [Keyword localization](/blog/spanish-keyword-localisation/) starts from how buyers in each country actually search, which is often not how the English page phrased it.
+Localized keywords are the terms buyers in each market actually type, which a translation of your English list rarely finds. [Keyword localization](/blog/spanish-keyword-localisation/) starts from how buyers in each country search, often in words of their own.
 
 Each market needs its own research, covering:
 
@@ -46,7 +47,7 @@ Your title and description are the first sales copy a searcher in each market re
 
 - Title tags under 60 characters, focus keyword near the front.
 - Meta descriptions under 160 characters, a clear summary and a localized call to action.
-- [Localized keywords](/services/multilingual-seo/) used naturally, not an English version in another language.
+- [Localized keywords](/services/multilingual-seo/) used naturally, in the market's own phrasing.
 
 Good metadata lifts click-through in classic results and makes it more likely an AI system picks your page as a reference.
 
@@ -63,7 +64,7 @@ There are three main approaches:
 They differ in crawl management, authority consolidation and hosting complexity. Whichever you choose:
 
 - Keep URLs clean, descriptive and consistent.
-- Never mix structures across languages.
+- Use the same structure for every language.
 
 ## Implementing hreflang: three rules for correct tags
 
@@ -76,7 +77,7 @@ When these tags are wrong, a buyer in France lands on your Spanish page, and lea
 Hreflang errors are among the most common [technical SEO issues](/blog/technical-seo-audit-checklist/) on multilingual sites, so audit them regularly.
 
 <aside class="post-cta">
-<p><strong>Not sure each market is reaching the right version of your site?</strong> Our <a href="/services/multilingual-seo/">multilingual SEO programmes</a> validate the language signals per market rather than assuming them. <a href="/contact/">Book the discovery call</a>.</p>
+<p><strong>Want every market to land on the right version of your site?</strong> Our <a href="/services/multilingual-seo/">multilingual SEO programmes</a> validate the language signals per market rather than assuming them. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
 ## Local backlinks and regional authority
@@ -93,27 +94,27 @@ Authoritative local links also make it more likely that AI models treat your con
 
 ## Structured data and entity clarity
 
-When an AI system cannot tell which version of your page serves which market, it quotes a clearer source. Structured data now shapes how AI systems interpret your content, not only how it ranks. Every language version should carry accurate schema markup:
+An AI system quotes the page whose market it can identify with confidence. Structured data now shapes how AI systems interpret your content as well as how it ranks. Every language version should carry accurate schema markup:
 
 - WebPage.
 - Organization.
 - BreadcrumbList.
 - Any relevant Product or Service types.
 
-Entity clarity matters even more on multilingual sites. AI models need unambiguous signals about which version applies to which market, language and audience. Without them, your content starts at a disadvantage in AI answers, whatever its rankings.
+Entity clarity matters even more on multilingual sites. AI models need unambiguous signals about which version applies to which market, language and audience. With them, your content competes in AI answers on the same footing as it does in rankings.
 
 ## GEO and presence everywhere
 
 A growing share of your buyers now compare suppliers inside Google’s AI Overviews and AI Mode, ChatGPT, Perplexity and Gemini, which all draw on structured, authoritative, entity-rich content. Content that only targets classic results misses that part of the decision.
 
-GEO makes content citable by AI, not just indexable. For multilingual sites it demands, in every language and not only the primary one:
+GEO makes content citable by AI as well as indexable. For multilingual sites it asks for the same four things in every language you sell in:
 
 - Factual density.
 - Clear entity relationships.
 - Correct language tagging.
 - Authoritative sources.
 
-Brands that treat secondary languages as an afterthought will lose ground to competitors who invest in full [content localization](/services/website-localisation/) in every market. Our view on [the future of SEO](/blog/future-of-seo/) goes further into where this is heading.
+Brands that give every language the same care as the primary one, through full [content localization](/services/website-localisation/), gain ground in each market. Our view on [the future of SEO](/blog/future-of-seo/) goes further into where this is heading.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 172" role="img" aria-label="Three stacked layers: multilingual SEO at the base, GEO on top of it, and everywhere presence at the top.">
@@ -124,7 +125,7 @@ Brands that treat secondary languages as an afterthought will lose ground to com
 <text x="200" y="92" text-anchor="middle" class="fg-text">GEO: citable content</text>
 <text x="200" y="146" text-anchor="middle" class="fg-text">Multilingual SEO foundation</text>
 </svg>
-<figcaption>GEO builds on multilingual SEO rather than replacing it. Without hreflang, clean URLs and localized keywords underneath, there is nothing for AI systems to cite in each language.</figcaption>
+<figcaption>GEO builds on multilingual SEO. Hreflang, clean URLs and localized keywords underneath give AI systems something to cite in each language.</figcaption>
 </figure>
 
 <aside class="post-cta">
@@ -138,4 +139,4 @@ Brands that treat secondary languages as an afterthought will lose ground to com
 | Multilingual SEO | hreflang, URL structure, localized keywords, metadata | Rankings and intent-driven traffic in each market |
 | GEO | Entities, structured data, factual and sourced content | Citations in AI answers, often before a visit |
 
-A multilingual strategy that ignores GEO leaves revenue on the table. A GEO strategy without multilingual SEO fundamentals has nothing to build on. [Global SEO](/services/multilingual-seo/) now needs both, working together in every target language and market.
+Multilingual SEO wins the ranking and GEO wins the citation, so together they reach the buyer at both moments. [Global SEO](/services/multilingual-seo/) now needs both, working together in every target language and market.
