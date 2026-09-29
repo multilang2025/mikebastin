@@ -1,5 +1,5 @@
 ---
-words: 1047
+words: 1105
 title: "SEM multilingue et Google Ads international, pilotés marché par marché"
 metaTitle: "SEM multilingue et Google Ads international"
 slug: "sem-multilingue"
@@ -35,10 +35,10 @@ Ce principe concerne le budget média ; la rédaction et la traduction font l�
 
 ## Ce que nous faisons pour chaque marché
 
-- **Une recherche de mots-clés par marché.** L’outil de planification donne les volumes ; l’intention vient de la lecture des résultats de recherche dans le pays visé et de la validation des termes par des locuteurs natifs, avant la première enchère.
+- **Une recherche de mots-clés par marché.** L’outil de planification donne les volumes ; l’intention vient de la lecture des résultats de recherche dans le pays visé et de la validation des termes par des locuteurs natifs, avant la première enchère. Chaque variante a sa propre recherche : l’espagnol d’Espagne et celui du Mexique, l’anglais britannique et l’anglais américain, le français de France, de Belgique ou du Canada.
 - **Des campagnes distinctes par marché**, avec leurs propres budgets et stratégies d’enchères, chacune construite pour le marché qu’elle sert.
-- **Des annonces rédigées dans chaque langue** : titres, descriptions et visuels écrits pour le lecteur du pays.
-- **Des pages d’arrivée dédiées par marché**, partout où le budget le permet.
+- **Des annonces rédigées dans chaque langue** : titres, descriptions et visuels écrits pour le lecteur du pays, en trois à cinq variantes par groupe d’annonces, testées entre elles.
+- **Des pages d’arrivée dédiées par marché**, partout où le budget le permet, avec les preuves que ce marché attend : avis de clients du pays, certifications reconnues sur place, prix dans la devise locale.
 - **Un suivi des conversions par marché** avec GA4 et Google Tag Manager, synchronisé avec votre CRM, pour suivre chaque demande jusqu’à son résultat commercial.
 
 Google Ads porte le budget par défaut. Microsoft Advertising trouve sa place auprès d’une audience B2B américaine restée dans l’écosystème Microsoft, Meta couvre la portée B2C, et LinkedIn le ciblage B2B dans des secteurs précis.

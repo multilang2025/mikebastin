@@ -1,5 +1,5 @@
 ---
-words: 806
+words: 822
 title: "Localisation juridique et réglementaire d’un site qui vend dans plusieurs pays"
 metaTitle: "Localisation juridique et réglementaire, Mike Bastin"
 slug: "localisation-juridique-reglementaire"
@@ -20,7 +20,7 @@ Votre site vend en Espagne, en Allemagne ou au Royaume-Uni, et ses pages commerc
 Des pages légales dans la langue et le format du pays rassurent l’acheteur au moment où il décide, et votre site se présente dans chaque marché avec le même sérieux qu’en France. Les préparer avant d’ouvrir un marché vous permet de le lancer à la date prévue.
 
 <aside class="post-cta">
-<p><strong>Votre site s’ouvre à un nouveau pays et ses pages légales doivent suivre ?</strong> Nous localisons vos textes juridiques et vos réglages de consentement pour chaque marché, et les mettons en ligne. <a href="/fr/nous-contacter/">Réserver un premier échange</a>.</p>
+<p><strong>Votre site s’ouvre à un nouveau pays et ses pages légales doivent suivre ?</strong> Nous localisons vos textes juridiques et vos réglages de consentement pour chaque marché, et les mettons en ligne. <a href="/fr/nous-contacter/">Réserver un premier échange</a>.</p>
 </aside>
 
 ## Ce que nous localisons
@@ -31,6 +31,7 @@ Des pages légales dans la langue et le format du pays rassurent l’acheteur au
 - **Le bandeau cookies et les textes de consentement**, traduits, affichés dans la bonne langue et réglés pour chaque version.
 - **Les textes autour de la commande et des formulaires** : cases de consentement, informations affichées avant le paiement, messages de confirmation.
 - **La déclaration d’accessibilité**, lorsque le marché en attend une.
+- **Les sous-titres et transcriptions de vos vidéos**, lorsque les règles d’accessibilité du pays les demandent.
 
 ## Votre juriste fixe le fond, nous le rendons dans chaque langue
 

@@ -1,5 +1,5 @@
 ---
-words: 1196
+words: 1272
 title: "Référencement multilingue pour mener plusieurs marchés étrangers de front"
 metaTitle: "Référencement multilingue et SEO multilingue par marché"
 slug: "referencement-multilingue"
@@ -29,7 +29,7 @@ Le SEO multilingue, tel que nous le pratiquons, consiste à piloter ces langues 
 
 Chaque marché commence par sa propre recherche, menée dans sa langue : les intentions commerciales réelles, les expressions de longue traîne, la façon dont les acheteurs comparent avant de choisir. Les mots qui vendent en Espagne diffèrent de ceux qui vendent en Allemagne, et la recherche part d’eux.
 
-Les textes sont écrits par des natifs. Le français, l’anglais, l’espagnol et le néerlandais sont travaillés directement par l’équipe qui pense la stratégie. L’allemand, l’italien, le portugais et les autres langues passent par des rédacteurs natifs du réseau BeTranslated, relus par un natif avant livraison. Une page écrite dans la langue de son lecteur retient ses visiteurs, se positionne durablement et se fait citer par les moteurs d’IA, qui reprennent volontiers les pages natives.
+Les textes sont écrits par des natifs. Le français, l’anglais, l’espagnol et le néerlandais sont travaillés directement par l’équipe qui pense la stratégie. L’allemand, l’italien, le portugais et les autres langues passent par des rédacteurs natifs du réseau BeTranslated, relus par un second natif avant livraison. Une page écrite dans la langue de son lecteur retient ses visiteurs, se positionne durablement et se fait citer par les moteurs d’IA, qui reprennent volontiers les pages natives.
 
 Les décisions qui coûtent cher à défaire plus tard sont prises au début : la structure du domaine, la carte des versions linguistiques et l’ordre d’entrée des marchés. Elles font la valeur d’un accompagnement en SEO multilingue.
 
@@ -76,3 +76,9 @@ La même règle vaut pour les réponses de ChatGPT, Claude, Perplexity et des AI
 Mike Bastin, cofondateur de BeTranslated, travaille le SEO et la traduction depuis plus de deux décennies. Il parle couramment le français, l’anglais, l’espagnol et le néerlandais, avec assez d’italien, d’allemand et de catalan pour piloter des projets SEO dans ces langues. Les textes commerciaux restent confiés à des rédacteurs natifs.
 
 Chaque mission suit le même rythme : un premier échange sur vos marchés, un périmètre écrit pour le premier trimestre, une livraison mensuelle marché par marché, puis un rapport mensuel par langue sur les positions, le trafic et les demandes reçues, avec les recommandations du mois suivant. La rédaction et la traduction sont chiffrées comme un travail, sur devis ; le détail figure sur la page [nos tarifs](/fr/tarifs/). Pour la vue d’ensemble de notre accompagnement à l’export, voyez notre [SEO international](/fr/services/seo/).
+
+### Les livrables de la mission
+
+- **Un rapport d’audit** : structure technique, balises hreflang, contenus existants par langue, liens par marché et écarts face à vos concurrents locaux.
+- **Un tableur de mots-clés par marché** : termes principaux et longue traîne, volumes, intention, difficulté, et la page existante ou à créer pour chacun.
+- **Un document de stratégie** : priorités par marché, calendrier éditorial multilingue, plan technique et plan de liens par pays, validé avec vous avant l’exécution.

@@ -1,5 +1,5 @@
 ---
-words: 1102
+words: 1245
 title: "SEO en Espagne pour les entreprises françaises qui y vendent"
 slug: "seo-espagnol"
 locale: "fr"
@@ -61,11 +61,15 @@ Le vocabulaire change d’un pays à l’autre, et les recherches suivent. « C
 
 L’espagnol d’Espagne paraît distant et formel à Mexico ; l’espagnol d’Amérique latine paraît familier, par endroits, à Madrid. Chaque version se comprend des deux côtés, et chacune convainc surtout chez elle. La séparation rapporte le plus sur les pages commerciales : fiches produits, descriptions de services, tarifs, tout ce qui se termine par un formulaire. Les contenus éditoriaux fonctionnent souvent en version unique. Un blog commun et des pages commerciales séparées : c’est la solution la plus fréquente, et souvent la bonne.
 
-Côté technique, chaque version porte sa balise hreflang : es-ES pour l’Espagne, es-MX, es-AR ou es-CO pour un pays précis, es-419 pour un corpus commun à l’Amérique latine. Google montre ainsi à chaque acheteur la page écrite pour son pays.
+Côté technique, chaque version porte sa balise hreflang : es-ES pour l’Espagne, es-MX, es-AR ou es-CO pour un pays précis, es-419 pour un corpus commun à l’Amérique latine. Google montre ainsi à chaque acheteur la page écrite pour son pays. Le registre se choisit aussi : « usted » ou « tú », selon ce que votre secteur pratique dans chaque pays.
 
 ### Les détails que l’acheteur vérifie
 
 Chaque marché a son numéro fiscal, ses règles de cookies et son autorité de contrôle. En Espagne, l’acheteur cherche le CIF ou le NIF et l’aviso legal ; au Mexique, le RFC et des prix en pesos. Nous configurons la partie technique de chacun. Les secteurs réglementés (finance, santé, jeux) ajoutent un avocat local à ce travail.
+
+### Des liens gagnés en espagnol, région par région
+
+En Espagne, un lien se gagne comme une relation de presse : une proposition écrite en espagnol, dans le ton du journaliste, avec une histoire qui a sa place dans sa rubrique. La presse régionale pèse autant que la presse nationale : un média de Valence ou de Bilbao apporte la pertinence locale que récompense une recherche comme « agencia inmobiliaria Costa Blanca ». Viennent ensuite les annuaires des chambres de commerce provinciales, les associations professionnelles de votre secteur et les salons où votre marché se retrouve, comme eShow pour le e-commerce, FITUR pour le tourisme ou le SIL de Barcelone pour la logistique. Les rédactions espagnoles préfèrent une ancre au nom de la marque : nous la prévoyons dès le départ.
 
 ## Quel marché d’Amérique latine ouvrir ensuite
 

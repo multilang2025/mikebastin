@@ -26,7 +26,7 @@ Le moment est favorable. Les termes commerciaux en italien sont bien moins dispu
 
 Nous pilotons la stratégie et la lecture de vos concurrents directement : notre italien est assez bon pour piloter des projets SEO en italien, de l’audit d’une page à la relecture d’un brouillon qui s’écarte de son brief. Vos textes commerciaux sont écrits par des rédacteurs italiens natifs du réseau BeTranslated, l’agence de traduction que nous dirigeons depuis vingt ans. Chaque rédacteur reçoit un brief en français ou en anglais, avec les cibles et la structure fixées, puis un second lecteur natif relit la page avant publication. Vos équipes forment le filtre suivant.
 
-La recherche part des mots que tapent les Italiens. Un acheteur qui veut un devis cherche un « preventivo », un mot que l’oreille française entend comme « préventif » : les volumes se trouvent sur ces formulations, qu’un natif repère tout de suite. Le ton suit la même logique, jusqu’au choix entre tu et voi sur une page commerciale.
+La recherche part des mots que tapent les Italiens. Un acheteur qui veut un devis cherche un « preventivo », un mot que l’oreille française entend comme « préventif » : les volumes se trouvent sur ces formulations, qu’un natif repère tout de suite. Le ton suit la même logique, jusqu’au choix entre tutoiement et vouvoiement italien sur une page commerciale.
 
 Nous appliquons la même méthode à nos propres sites : ValenciaMove publie plus de mille pages dans cinq langues, dont l’italien.
 

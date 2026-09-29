@@ -1,5 +1,5 @@
 ---
-words: 697
+words: 775
 title: "SEO technique pour les sites multilingues"
 slug: "seo-technique"
 locale: "fr"
@@ -27,6 +27,10 @@ Nous vérifions si cela se produit sur votre site, puis nous corrigeons ce qui l
 Réglez les balises hreflang : chaque page en porte une, avec le bon code de langue et un lien de retour, pour que le visiteur français arrive sur la version française et le visiteur espagnol sur la version espagnole. Les configurer correctement dès le départ prend moins de temps que de démêler la Search Console après coup.
 
 Découpez le sitemap par langue et concentrez le budget de crawl sur les pages qui méritent de se positionner : Google indexe alors une plus grande part du site. La correction est structurelle et peu spectaculaire ; faites-la avant que le trafic stagne.
+
+### Une refonte qui garde vos positions
+
+Une refonte ou un changement de CMS conserve l’historique du site quand chaque ancienne adresse reçoit une redirection 301 vers la page qui lui correspond, et que les contenus qui se positionnent déjà passent dans le nouveau site. Nous établissons cette correspondance adresse par adresse et langue par langue avant la mise en ligne, puis nous suivons l’indexation dans la Search Console. L’audit s’appuie sur Screaming Frog, Ahrefs et la Search Console.
 
 ## Des pages construites pour l’intention de recherche
 

@@ -1,5 +1,5 @@
 ---
-words: 682
+words: 754
 title: "Création de contenu multilingue"
 slug: "creation-de-contenu-multilingue"
 locale: "fr"
@@ -29,6 +29,8 @@ Votre page espagnole traduit votre page française : elle répond à la questio
 - Des données structurées (Article, FAQPage, LocalBusiness selon le cas) dans chaque langue, pour soutenir les résultats enrichis.
 - Une relecture culturelle du message et du ton avant publication.
 - Un choix de réseaux sociaux qui suit votre audience dans chaque pays.
+- La reprise de vos contenus déjà publiés, localisés et optimisés pour se positionner dans leur langue.
+- Un suivi mensuel des positions, du trafic et des demandes, marché par marché.
 
 Ce travail prolonge notre [référencement multilingue](/fr/services/referencement-multilingue/) et, marché par marché, notre [SEO espagnol](/fr/services/seo-espagnol/), [SEO allemand](/fr/services/seo-allemand/) ou [SEO néerlandais](/fr/services/seo-neerlandais/).
 
@@ -57,6 +59,6 @@ Un robot d’exploration lit chacun de ces éléments, même quand un lecteur su
 
 L’essentiel de la valeur tient à ce que l’on repère avant publication : une couleur, un geste, une comparaison ou une affirmation banale sur un marché et maladroite sur un autre. Le vérifier avant coûte peu, après beaucoup plus. Le reste relève du ton : un discours commercial perçu comme assuré sur un marché peut sembler insistant sur le suivant.
 
-Sur les réseaux sociaux, le réseau qui porte votre audience dans un pays peut être secondaire dans un autre, et un calendrier propre à chaque pays vous rend visible sur chacun. Les règles des plateformes et le droit local de la publicité changent aussi : une campagne s’ajuste donc avant sa diffusion.
+Sur les réseaux sociaux, le réseau qui porte votre audience dans un pays peut être secondaire dans un autre, et un calendrier propre à chaque pays vous rend visible sur chacun. Les règles des plateformes et le droit local de la publicité changent aussi : une campagne s’ajuste donc avant sa diffusion. Un compte par pays donne à chaque marché son contenu, sa communauté et ses horaires de publication ; un compte unique en plusieurs langues se gère plus simplement. Nous choisissons avec vous selon vos objectifs et l’équipe qui fera vivre ces comptes.
 
 Nous travaillons au mois, et chaque demande reçoit une réponse, en général sous un jour ouvré.

@@ -18,7 +18,7 @@ excerpt: "Link building en España: RR. PP. digitales, inserciones sectoriales y
 
 España es un mercado con reglas propias dentro de Europa occidental.
 
-Llevo más de una década haciendo SEO desde Valencia, con campañas para un despacho de abogados de Madrid, una inmobiliaria dominicana que vende segundas residencias a jubilados españoles y [mi propia agencia de traducción](https://mikebastin.com/es/conocenos-agencia-experta-en-seo/) repartida entre dominios .es, .fr, .be, .nl y .com.
+Llevamos más de dos décadas haciendo SEO, hoy desde Valencia, con campañas para un despacho de abogados de Valencia, una inmobiliaria dominicana que vende segundas residencias a jubilados españoles y [nuestra propia agencia de traducción](https://mikebastin.com/es/conocenos-agencia-experta-en-seo/) repartida entre dominios .es, .fr, .be, .nl y .com.
 
 Lo que veo mes tras mes: los editores españoles responden a propuestas en español, personales y pensadas para su sección.
 

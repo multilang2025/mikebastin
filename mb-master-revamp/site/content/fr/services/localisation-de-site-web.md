@@ -1,5 +1,5 @@
 ---
-words: 998
+words: 1027
 title: "Traduction et localisation de site web pour vendre dans chaque langue"
 metaTitle: "Traduction et localisation de site web, Mike Bastin"
 slug: "localisation-de-site-web"
@@ -24,7 +24,7 @@ La localisation de site web fait ce dernier pas. Un site qui lit comme local dan
 > Source : [CSA Research, 2020](https://csa-research.com/l/media/Consumers-Prefer-their-Own-Language)
 
 <aside class="post-cta">
-<p><strong>Vos pages étrangères attirent du monde et vous voulez qu’elles vendent ?</strong> Nous adaptons chaque version de votre site à son marché, du texte jusqu’au paiement. <a href="/fr/nous-contacter/">Réserver un premier échange</a>.</p>
+<p><strong>Vos pages étrangères attirent du monde et vous voulez qu’elles vendent ?</strong> Nous adaptons chaque version de votre site à son marché, du texte jusqu’au paiement. <a href="/fr/nous-contacter/">Réserver un premier échange</a>.</p>
 </aside>
 
 ## Ce que nous adaptons, bien au-delà des mots
@@ -37,7 +37,7 @@ La traduction rend le texte juste. La localisation remplace tout ce qui signale 
 - les images, les signes de confiance et les appels à l’action eux-mêmes ;
 - les mots-clés, choisis à partir de la manière dont les gens cherchent dans chaque langue.
 
-Nous travaillons pour les marchés où nos clients vendent déjà : l’Espagne, le Benelux, l’Allemagne, le Royaume-Uni, la Suisse, et au-delà vers les États-Unis et le Canada. Les textes commerciaux sont écrits par des rédacteurs natifs, et les traductions passent par le réseau BeTranslated, que nous dirigeons depuis vingt ans. Pour un document qui doit être accepté par un tribunal ou une administration, voir notre page [traduction professionnelle](/fr/services/traduction-professionnelle/).
+Nous travaillons pour les marchés où nos clients vendent déjà : l’Espagne, le Benelux, l’Allemagne, le Royaume-Uni, la Suisse, et au-delà vers les États-Unis et le Canada. Les textes commerciaux sont écrits par des rédacteurs natifs, et les traductions passent par le réseau BeTranslated, que nous dirigeons depuis vingt ans. Un glossaire par langue fixe vos termes de produit et de marque, et chaque page ou fiche ajoutée ensuite suit le même vocabulaire dans toutes les versions du site. Pour un document qui doit être accepté par un tribunal ou une administration, voir notre page [traduction professionnelle](/fr/services/traduction-professionnelle/).
 
 ## Un site en quatre langues juste chaque semaine
 
