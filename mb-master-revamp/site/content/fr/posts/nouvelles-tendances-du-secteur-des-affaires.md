@@ -31,9 +31,9 @@ Voici les dix tendances que nous voyons peser réellement sur les décisions str
 
 2024 a été l’année des pilotes. 2025 a été l’année des déploiements partiels. 2026 est l’année où la GenAI cesse d’être un projet du DSI pour devenir un poste budgétaire opérationnel, intégré aux outils du quotidien : CRM, support client, marketing automation, génération de code.
 
-Selon Gartner, plus de 80 % des entreprises auront déployé des applications d’IA générative en production d’ici la fin 2026, contre moins de 5 % début 2023. McKinsey estime la valeur annuelle ajoutée potentielle à long terme entre 2,6 et 4,4 trillions de dollars.
+Selon Gartner, plus de 80 % des entreprises auront utilisé des API ou des modèles d’IA générative, ou déployé des applications d’IA générative en production, d’ici la fin 2026, contre moins de 5 % début 2023. McKinsey estime la valeur annuelle ajoutée potentielle à long terme entre 2,6 et 4,4 trillions de dollars.
 
-Source : [Gartner](https://www.gartner.com/en/newsroom) et [McKinsey Global Institute](https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/the-economic-potential-of-generative-ai-the-next-productivity-frontier)
+Source : [Gartner, communiqué du 11 octobre 2023](https://www.gartner.com/en/newsroom/press-releases/2023-10-11-gartner-says-more-than-80-percent-of-enterprises-will-have-used-generative-ai-apis-or-deployed-generative-ai-enabled-applications-by-2026) et [McKinsey Global Institute](https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/the-economic-potential-of-generative-ai-the-next-productivity-frontier)
 
 Ce que cela change pour vous : intégrer l’IA dans le marketing, le service client ou la production de contenu fait baisser le coût unitaire de production. La question porte désormais sur où et comment l’intégrer en gardant la qualité.
 

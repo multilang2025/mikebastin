@@ -31,7 +31,7 @@ Mais l’essor de l’intelligence artificielle et des systèmes de recherche co
 
 Selon Gartner, le volume de recherche sur les moteurs traditionnels devrait chuter de 25 % d’ici fin 2026, au profit des chatbots IA et des agents virtuels. En parallèle, les sessions web provenant de l’IA ont bondi de 527 % en un an entre janvier et mai 2025.
 
-Source : [Gartner](https://www.gartner.com/) et [rapport Previsible 2025 (cité par Frase.io)](https://www.frase.io/blog/what-is-generative-engine-optimization-geo)
+Source : [Gartner, communiqué du 19 février 2024](https://www.gartner.com/en/newsroom/press-releases/2024-02-19-gartner-predicts-search-engine-volume-will-drop-25-percent-by-2026-due-to-ai-chatbots-and-other-virtual-agents) et [rapport Previsible 2025 (cité par Frase.io)](https://www.frase.io/blog/what-is-generative-engine-optimization-geo)
 
 Face à ce changement, voici neuf stratégies concrètes pour maintenir, voire renforcer votre visibilité en SEO et GEO en 2026.
 
