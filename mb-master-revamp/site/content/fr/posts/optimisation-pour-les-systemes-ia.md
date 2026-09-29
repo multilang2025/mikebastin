@@ -37,7 +37,7 @@ Un audit structuré par un [expert en SEO international](https://mikebastin.com/
 
 Voici une méthodologie à suivre en quatre étapes :
 
-![Optimisation pour les systèmes d’IA](https://mikebastin.com/wp-content/uploads/2026/01/optimisation-ia-1024x359.jpg)
+![Optimisation pour les systèmes d’IA](/images/legacy/2026/01/optimisation-ia-1024x359.jpg)
 
 ### 1\. Extrayez les faits
 
@@ -79,7 +79,7 @@ Il a repris le contenu d’un site supprimé par la mise à jour « Helpful Con
 
 En 48 heures, ce même contenu a généré :
 
--   Un [classement #1 sur Google](https://mikebastin.com/fr/services/referencement-international/)
+-   Un [classement #1 sur Google](/fr/services/referencement-multilingue/)
 -   Un **extrait mis en avant** (featured snippet)
 -   Une **apparition systématique** dans les réponses de ChatGPT (mode IA)
 
@@ -87,7 +87,7 @@ _Même contenu. Domaine différent. Résultat radicalement opposé._
 
 La leçon à en tirer ? La source prime sur le message pour les LLM.
 
-![Exemple d’optimisation pour IA](https://mikebastin.com/wp-content/uploads/2026/01/exemple-optimisation-ia-1024x565.jpg)
+![Exemple d’optimisation pour IA](/images/legacy/2026/01/exemple-optimisation-ia-1024x565.jpg)
 
 L’optimisation pour les systèmes d’IA exige des boucles de feedback rapides (48 à 72 heures).
 

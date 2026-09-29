@@ -18,7 +18,7 @@ En dix ans de vie à Valencia, j’ai vu la **communauté française à Valencia
 
 Cet article analyse l’impact concret de cette **présence francophone sur l’économie, la culture et le tissu social** de la capitale du **Turia**, a partir d’observations de terrain et de données vérifiables issues du **padron municipal**, de l’**INE** (Instituto Nacional de Estadistica), du **registre consulaire français** et des rapports de la **Fondation Visit Valencia**.
 
-![Vue panoramique sur Valencia, troisième ville d'Espagne et destination privilegiee des expatriés français](https://mikebastin.com/wp-content/uploads/2025/09/vue-panoramique-de-valencia.jpg)
+![Vue panoramique sur Valencia, troisième ville d'Espagne et destination privilegiee des expatriés français](/images/legacy/2025/09/vue-panoramique-de-valencia.jpg)
 
 ## Une communauté française en croissance constante
 
@@ -94,7 +94,7 @@ La demande en logements a contribue à une **hausse significative des prix immob
 
 Le contrat de location espagnol (_contrato de arrendamiento_), regi par la **Ley de Arrendamientos Urbanos (LAU)**, impose une _fianza_ d’un mois pour les locations residentielles, avec des garanties complementaires souvent exigees des étrangers.
 
-[![Evolution des prix immobiliers a Valencia selon Idealista 2025](https://mikebastin.com/wp-content/uploads/2025/10/image-1024x438.jpg)](https://www.idealista.com/sala-de-prensa/informes-precio-vivienda/venta/comunitat-valenciana/valencia-valencia/)
+[![Evolution des prix immobiliers a Valencia selon Idealista 2025](/images/legacy/2025/10/image-1024x438.jpg)](https://www.idealista.com/sala-de-prensa/informes-precio-vivienda/venta/comunitat-valenciana/valencia-valencia/)
 
 Source : [Idealista, rapport prix immobilier Valencia 2025](https://www.idealista.com/sala-de-prensa/informes-precio-vivienda/venta/comunitat-valenciana/valencia-valencia/)
 
@@ -170,7 +170,7 @@ Les Français figurent historiquement parmi les **premiers touristes étrangers 
 
 Malgre ce recul relatif, les liaisons aeriennes directes depuis **Paris-Orly, Lyon-Saint Exupery, Marseille-Provence, Nantes-Atlantique et Toulouse-Blagnac** via Vueling, Transavia, Ryanair et easyJet maintiennent un flux constant de visiteurs francophones, alimente par les courts sejours, les week-ends prolonges et les visites familiales aux expatriés installes.
 
-![Paella valenciana traditionnelle preparee au feu de bois, patrimoine gastronomique de la Communauté valencienne](https://mikebastin.com/wp-content/uploads/2025/09/paella-valencienne.jpeg)
+![Paella valenciana traditionnelle preparee au feu de bois, patrimoine gastronomique de la Communauté valencienne](/images/legacy/2025/09/paella-valencienne.jpeg)
 
 Le **tourisme gastronomique** joue un rôle de passerelle entre les deux cultures. Les Français apprecient les specialites locales : **paella valenciana**, **horchata de chufa**, **agua de Valencia**, **tapas**, **fideua** et **all i pebre**. Ils frequentent aussi bien les adresses traditionnelles du **Mercat Central de Valencia** et du **Mercat de Colon** que les restaurants tenus par des compatriotes. Ces etablissements franco-valenciens sont devenus des lieux de rencontre enrichissant le [quotidien valencien](https://mikebastin.com/fr/mode-de-vie-de-valencia/).
 

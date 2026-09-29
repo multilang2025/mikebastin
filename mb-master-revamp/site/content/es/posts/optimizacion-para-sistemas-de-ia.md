@@ -12,7 +12,7 @@ sourceUrl: "https://mikebastin.com/es/optimizacion-para-sistemas-de-ia/"
 excerpt: "Optimización para sistemas de IA: qué define la visibilidad en ChatGPT más allá del seguimiento de prompts y cómo construir una huella semántica sólida."
 ---
 
-![Optimización para sistemas de IA](https://mikebastin.com/wp-content/uploads/2026/01/Optimizacion-para-sistemas-de-IA-e1769595525365-1024x657.jpg)
+![Optimización para sistemas de IA](/images/legacy/2026/01/Optimizacion-para-sistemas-de-IA-e1769595525365-1024x657.jpg)
 
 ## Qué es la optimización para sistemas de IA y cómo afecta a tu visibilidad digital
 
@@ -24,7 +24,7 @@ ChatGPT ofrece respuestas distintas a usuarios distintos, incluso cuando formula
 
 El historial de búsqueda, la ubicación y el contexto de la conversación influyen directamente en los resultados. Este comportamiento explica **por qué el SEO necesita más que el seguimiento de prompts**, igual que una optimización real orientada a sistemas de IA.
 
-![](https://mikebastin.com/wp-content/uploads/2026/01/esquema_respuestas_nuevo_diseno_1-1024x489.jpg)
+![](/images/legacy/2026/01/esquema_respuestas_nuevo_diseno_1-1024x489.jpg)
 
 Un número limitado de prompts aporta una visión parcial de cómo los sistemas de IA interpretan una marca en su conjunto.
 
@@ -32,7 +32,7 @@ Hay un enfoque que da resultados.
 
 Se apoya en un análisis estructurado de cómo los sistemas de IA interpretan una marca y utilizan esa información para generar respuestas coherentes y repetibles.
 
-![](https://mikebastin.com/wp-content/uploads/2026/01/esquema_4_pasos_visual_1-1024x572.jpg)
+![](/images/legacy/2026/01/esquema_4_pasos_visual_1-1024x572.jpg)
 
 La optimización para sistemas de IA exige centrarse en lo que ChatGPT y otros [modelos de lenguaje](https://openai.com/es-ES/research/) conocen sobre una marca. En concreto, en lo que responden cuando un usuario formula una consulta.
 

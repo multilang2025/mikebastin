@@ -96,7 +96,7 @@ export default async function FrenchBlogPostPage({
           <Reveal i={2}>
             <p className="mt-6 flex flex-wrap items-center gap-x-3 gap-y-1 text-[.78rem] uppercase tracking-[.11em]" style={{ color: "var(--dim)" }}>
               <span>
-                <Link href="/" className="ulink" style={{ color: "var(--dim)" }}>
+                <Link href="/fr/notre-equipe/" className="ulink" style={{ color: "var(--dim)" }}>
                   Mike Bastin
                 </Link>
               </span>

@@ -17,7 +17,7 @@ excerpt: "Plus de deux décennies sur des marchés UE, Amérique latine et Maghr
 
 Vous avez investi dans la traduction de votre site web en plusieurs langues ; l’étape suivante consiste à rendre ces pages visibles sur Google au-delà de votre marché domestique.
 
-Nous rencontrons ce scénario depuis plus de deux décennies, et la réponse tient à la différence entre traduction et [localisation de contenu](https://mikebastin.com/fr/services/localisation-contenu/).
+Nous rencontrons ce scénario depuis plus de deux décennies, et la réponse tient à la différence entre traduction et [localisation de contenu](/fr/services/localisation-de-site-web/).
 
 Un expert SEO international intervient précisément à ce carrefour entre technique, linguistique et stratégie commerciale.
 
@@ -31,7 +31,7 @@ Nous aborderons les compétences indispensables, les fondations techniques à ma
 
 Un consultant en référencement local optimise votre site pour un seul marché, une seule langue, un seul moteur de recherche.
 
-Un expert SEO international jongle avec des réalités bien différentes : des comportements de recherche qui varient d’un pays à l’autre, des [mots-clés](https://mikebastin.com/fr/services/recherche-mots-cles/) à rechercher dans chaque langue et des algorithmes locaux qui ont leurs propres subtilités.
+Un expert SEO international jongle avec des réalités bien différentes : des comportements de recherche qui varient d’un pays à l’autre, des [mots-clés](/fr/services/seo-technique/) à rechercher dans chaque langue et des algorithmes locaux qui ont leurs propres subtilités.
 
 Au fil de nos missions en Europe francophone, en Allemagne, en Espagne, aux Pays-Bas et en Amérique du Nord, nous avons constaté que les compétences requises dépassent largement le cadre du SEO technique.
 
@@ -45,7 +45,7 @@ Un mot-clé qui génère 1 000 recherches mensuelles en France peut être totale
 
 Nous utilisons des outils comme Ahrefs et Screaming Frog pour cartographier les opportunités marché par marché, puis SEO PowerSuite pour le suivi de positionnement.
 
-Plus récemment, les LLM comme Claude et ChatGPT nous aident à accélérer l’[analyse des données](https://mikebastin.com/fr/services/analyse-et-suivi/) et à produire des briefs de contenu adaptés à chaque audience.
+Plus récemment, les LLM comme Claude et ChatGPT nous aident à accélérer l’[analyse des données](/fr/services/seo-technique/) et à produire des briefs de contenu adaptés à chaque audience.
 
 ### SEO, SEM et vision globale
 
@@ -90,7 +90,7 @@ Elles permettent aussi à Google de reconnaître vos versions linguistiques comm
 Une implémentation correcte améliore trois aspects en même temps :
 
 -   La pertinence des résultats pour chaque marché
--   L’[expérience utilisateur](https://mikebastin.com/fr/services/conception-ux-ui-multilingue/) grâce à un contenu dans la bonne langue
+-   L’[expérience utilisateur](/fr/services/localisation-de-site-web/) grâce à un contenu dans la bonne langue
 -   Le positionnement dans les recherches locales et internationales
 
 ## Backlinks internationaux : la crédibilité se construit localement
@@ -101,7 +101,7 @@ Pour vous positionner sur Google.de ou Google.es, les backlinks allemands et esp
 
 Les moteurs de recherche valorisent les liens provenant de sites dans la langue et la région que vous ciblez.
 
-Une [stratégie de netlinking](https://mikebastin.com/fr/services/netlinking/) internationale repose sur trois piliers :
+Une [stratégie de netlinking](/fr/services/seo-technique/) internationale repose sur trois piliers :
 
 -   Identifier des sites autoritaires dans chaque marché cible
 -   Produire du contenu suffisamment pertinent pour attirer des liens naturels
@@ -137,7 +137,7 @@ L’investissement se mesure toutefois par les résultats : un positionnement e
 
 Chaque marché a ses particularités.
 
-En Allemagne, les internautes privilégient des contenus très détaillés et factuels. En Espagne, le ton peut être plus direct et émotionnel. En Amérique du Nord, l’approche [marketing digital](https://mikebastin.com/fr/services/marketing-digital/) repose davantage sur la preuve sociale et les témoignages.
+En Allemagne, les internautes privilégient des contenus très détaillés et factuels. En Espagne, le ton peut être plus direct et émotionnel. En Amérique du Nord, l’approche [marketing digital](/fr/) repose davantage sur la preuve sociale et les témoignages.
 
 Avant de lancer une campagne, il est indispensable de :
 
@@ -149,7 +149,7 @@ Avant de lancer une campagne, il est indispensable de :
 
 Le [référencement naturel à l’international](https://mikebastin.com/fr/services/seo-anglais/) est un travail de longue haleine.
 
-Pour obtenir des résultats plus rapides sur un nouveau marché, les campagnes PPC sur Google Ads ou les [réseaux sociaux](https://mikebastin.com/fr/services/gestion-multilingue-reseaux-sociaux/) offrent un complément précieux.
+Pour obtenir des résultats plus rapides sur un nouveau marché, les campagnes PPC sur Google Ads ou les [réseaux sociaux](/fr/services/creation-de-contenu-multilingue/) offrent un complément précieux.
 
 Vous testez des mots-clés, vous mesurez les taux de conversion et vous ajustez votre stratégie organique en conséquence.
 
@@ -159,9 +159,9 @@ Cette approche hybride réduit les risques et accélère le retour sur investiss
 
 Après plus de deux décennies passées à optimiser des sites pour les marchés européens et nord-américains, une conviction s’impose : le SEO international se prépare, marché par marché.
 
-Un site [bien conçu](https://mikebastin.com/fr/services/conception-de-site-web/) gagne sa visibilité par le référencement.
+Un site [bien conçu](/fr/) gagne sa visibilité par le référencement.
 
-Un contenu traduit prend toute sa valeur avec une [optimisation on-page](https://mikebastin.com/fr/services/seo-on-page/).
+Un contenu traduit prend toute sa valeur avec une [optimisation on-page](/fr/services/seo-technique/).
 
 Et une refonte accompagnée d’une expertise SEO préserve des années de travail.
 

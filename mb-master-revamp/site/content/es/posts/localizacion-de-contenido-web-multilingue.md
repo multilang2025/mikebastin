@@ -12,7 +12,7 @@ sourceUrl: "https://mikebastin.com/es/localizacion-de-contenido-web-multilingue/
 excerpt: "Cómo la localización adapta el contenido web multilingüe a cada mercado: SEO, UX, CMS y métodos de pago locales, con más de dos décadas de experiencia."
 ---
 
-![El papel de la localización en el contenido web multilingüe](https://mikebastin.com/wp-content/uploads/2024/10/optimising-multilingual-website-content-1024x366.jpg)
+![El papel de la localización en el contenido web multilingüe](/images/legacy/2024/10/optimising-multilingual-website-content-1024x366.jpg)
 
 ## El papel de la localización en el contenido web multilingüe
 

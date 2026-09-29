@@ -12,7 +12,7 @@ sourceUrl: "https://mikebastin.com/es/seo-tecnico-para-sitios-multilingues/"
 excerpt: "SEO técnico para sitios multilingües: hreflang, servidor, contenido duplicado y estructura de dominios. Lo que más ajusto tras más de dos décadas."
 ---
 
-![SEO técnico para sitios web multilingües](https://mikebastin.com/wp-content/uploads/2024/12/Technical-SEO-for-Multilingual-Websites-1024x457.jpg)
+![SEO técnico para sitios web multilingües](/images/legacy/2024/12/Technical-SEO-for-Multilingual-Websites-1024x457.jpg)
 
 ## SEO técnico para sitios multilingües: lo que de verdad mueve la aguja
 
@@ -138,4 +138,4 @@ Posicionar en varios mercados pide hreflang bien resuelto, servidores elegidos c
 
 ¿Quieres que tu web multilingüe rinda al máximo en cada país? [Escríbeme y revisamos juntos tu configuración técnica](https://mikebastin.com/es/contactanos/), con la experiencia de más de dos décadas en SEO y traducción de mi lado.
 
-![Pasos de implementación técnica para varias versiones de idioma](https://mikebastin.com/wp-content/uploads/2024/12/image.png)
+![Pasos de implementación técnica para varias versiones de idioma](/images/legacy/2024/12/image.png)

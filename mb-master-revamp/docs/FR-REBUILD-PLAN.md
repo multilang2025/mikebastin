@@ -264,6 +264,15 @@ French footer lists the main page and the key markets by those names.
 The eight French posts got `metaTitle`s. The 129 legacy FR and ES pages
 were harvested (`docs/LEGACY-CONTENT-HARVEST.md`).
 
+Phase 5 QA started the same day: every internal link on the built French
+pages checked. Legacy links inside the eight live posts now point at
+their final page (no redirect hop), links to relocated Valencia posts go
+straight to valenciamove.com, and the French byline links to
+`/fr/notre-equipe/`. 91 images the French and Spanish posts still
+loaded from the old WordPress `wp-content` folder now ship from
+`public/images/legacy/` (6.7 MB); one was already missing on the live
+site and belongs to a relocated Valencia post.
+
 Written for the French reader, not translated from EN. Order:
 homepage, `seo`, the three key-market language pages (espagnol,
 néerlandais, allemand), `referencement-multilingue`,

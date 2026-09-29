@@ -12,7 +12,7 @@ sourceUrl: "https://mikebastin.com/es/medir-rendimiento-geo/"
 excerpt: "Medir el rendimiento GEO te permite entender cómo los motores generativos interpretan, citan y reutilizan tu contenido en entornos basados en IA. Analiza tu visibilidad real en LLMs, identifica oportunidades de mejora y toma decisiones basadas en datos para reforzar tu posicionamiento digital."
 ---
 
-![Article header image](https://mikebastin.com/wp-content/uploads/2026/01/medirrendimientogeoseguimiento-1024x585.jpg)
+![Article header image](/images/legacy/2026/01/medirrendimientogeoseguimiento-1024x585.jpg)
 
 ## Medición de rendimiento GEO: cómo dominar la visibilidad en la era de la IA generativa
 

@@ -13,7 +13,7 @@ sourceUrl: "https://mikebastin.com/fr/seo-au-geo/"
 excerpt: "Le GEO optimise vos contenus pour être cité par ChatGPT, Perplexity et AI Overviews : neuf stratégies concrètes pour rester visible en 2026 et au-delà."
 ---
 
-![Du SEO au GEO : l’optimisation pour les moteurs génératifs](https://mikebastin.com/wp-content/uploads/2024/12/generative-engine-optimization-1024x481.jpg)
+![Du SEO au GEO : l’optimisation pour les moteurs génératifs](/images/legacy/2024/12/generative-engine-optimization-1024x481.jpg)
 
 ## Du SEO au GEO en 2026 : 9 stratégies pour rester visible dans les moteurs IA
 
@@ -207,4 +207,4 @@ Nous proposons des audits SEO/GEO combinés sur sites multilingues : analyse de
 
 [Nous contacter](https://mikebastin.com/fr/nous-contacter/)
 
-Vous pouvez aussi poursuivre votre lecture avec notre page sur le [référencement naturel](https://mikebastin.com/fr/services/seo/), nos services de [marketing digital](https://mikebastin.com/fr/services/marketing-digital/), ou l’article connexe sur la [recherche vocale et l’optimisation pour les assistants IA en 2026](https://mikebastin.com/fr/recherche-vocale/).
+Vous pouvez aussi poursuivre votre lecture avec notre page sur le [référencement naturel](https://mikebastin.com/fr/services/seo/), nos services de [marketing digital](/fr/), ou l’article connexe sur la [recherche vocale et l’optimisation pour les assistants IA en 2026](https://mikebastin.com/fr/recherche-vocale/).

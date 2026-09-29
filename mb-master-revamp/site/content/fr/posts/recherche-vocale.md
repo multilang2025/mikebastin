@@ -181,12 +181,12 @@ Captent les requêtes « près de chez moi »
 
 ## Bonnes pratiques pour un impact maximal
 
--   Utilisez des [mots-clés de longue traîne](https://mikebastin.com/fr/services/recherche-mots-cles/) formulés en langage conversationnel
--   Adoptez une approche mobile-first avec des mises en page adaptatives. En savoir plus sur la [localisation d’interface utilisateur](https://mikebastin.com/fr/services/conception-ux-ui-multilingue/)
+-   Utilisez des [mots-clés de longue traîne](/fr/services/seo-technique/) formulés en langage conversationnel
+-   Adoptez une approche mobile-first avec des mises en page adaptatives. En savoir plus sur la [localisation d’interface utilisateur](/fr/services/localisation-de-site-web/)
 -   Intégrez les balises Schema (FAQ, LocalBusiness, HowTo) via l’[outil d’aide au balisage de Google](https://support.google.com/webmasters/answer/3069489)
--   Rédigez du contenu qui vise les featured snippets. Consultez notre page sur la [recherche vocale et l’optimisation on-page](https://mikebastin.com/fr/services/seo-on-page/)
--   Maintenez la cohérence de vos citations (NAP : nom, adresse, téléphone). Approfondissez avec nos [stratégies de SEO local](https://mikebastin.com/fr/services/netlinking/)
--   Suivez vos performances vocales avec les [outils d’analyse et de données structurées](https://mikebastin.com/fr/services/analyse-et-suivi/)
+-   Rédigez du contenu qui vise les featured snippets. Consultez notre page sur la [recherche vocale et l’optimisation on-page](/fr/services/seo-technique/)
+-   Maintenez la cohérence de vos citations (NAP : nom, adresse, téléphone). Approfondissez avec nos [stratégies de SEO local](/fr/services/seo-technique/)
+-   Suivez vos performances vocales avec les [outils d’analyse et de données structurées](/fr/services/seo-technique/)
 
 ## Recherche vocale et commerce local : exemples de requêtes
 
@@ -200,7 +200,7 @@ Captent les requêtes « près de chez moi »
 
 -   Utilisez des synonymes et des termes associés pour refléter l’intention de l’utilisateur
 -   Concentrez votre contenu non seulement sur le « quoi » mais aussi sur le « pourquoi » et le « comment »
--   Renforcez votre [maillage interne](https://mikebastin.com/fr/services/localisation-contenu/) avec des ancres contextuelles et naturelles
+-   Renforcez votre [maillage interne](/fr/services/localisation-de-site-web/) avec des ancres contextuelles et naturelles
 
 ## Mesurer et améliorer vos résultats
 
@@ -210,7 +210,7 @@ Captent les requêtes « près de chez moi »
 
 ## Restez à la pointe des tendances SEO
 
--   Suivez les dernières actualités SEO sur [mikebastin.com](https://mikebastin.com/fr/services/marketing-digital/)
+-   Suivez les dernières actualités SEO sur [mikebastin.com](/fr/)
 -   Suivez les mises à jour d’algorithmes et ajustez votre stratégie régulièrement
 
 ## Passez à l’action avant vos concurrents
@@ -232,7 +232,7 @@ Des expressions comme « comment fonctionne la recherche vocale ? » ou « q
 Structurez ensuite vos pages avec des réponses claires, concises et immédiatement exploitables.  
 Les assistants vocaux privilégient des contenus capables de répondre rapidement à une intention précise.
 
-Travaillez également votre stratégie de mots-clés longue traîne grâce à une [recherche de mots-clés](https://mikebastin.com/fr/recherche-mots-cles/) approfondie.  
+Travaillez également votre stratégie de mots-clés longue traîne grâce à une [recherche de mots-clés](/fr/services/seo-technique/) approfondie.  
 Les requêtes vocales sont plus longues, plus conversationnelles et souvent géolocalisées.
 
 Enfin, combinez cette approche avec une stratégie de [référencement multilingue](https://mikebastin.com/fr/services/referencement-multilingue/) pour capter une audience internationale.  

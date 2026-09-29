@@ -18,7 +18,7 @@ Bonne nouvelle, il y en a pour tous les goûts. Que vous soyez amateur de balade
 
 ## Explorer la Cité des Arts
 
-![Cité des Arts et des Sciences](https://mikebastin.com/wp-content/uploads/2025/06/Cite-des-Arts-1.jpg)
+![Cité des Arts et des Sciences](/images/legacy/2025/06/Cite-des-Arts-1.jpg)
 
 L’un des symboles les plus marquants de Valence est la Cité des Arts et des Sciences.
 
@@ -31,7 +31,7 @@ La Cité des Arts et des Sciences de Valence, conçue par Santiago Calatrava et 
 
 ## S’évader dans la nature
 
-![Albufera Valencia](https://mikebastin.com/wp-content/uploads/2025/06/albufera-valencia.jpg)
+![Albufera Valencia](/images/legacy/2025/06/albufera-valencia.jpg)
 
 Vous rêvez d’une bouffée d’air pur ? Plusieurs parcs naturels entourent Valence et valent le détour.
 
@@ -44,7 +44,7 @@ Pour une aventure plus insolite, envolez-vous en montgolfière au-dessus du Parc
 
 ## Tenter les sports nautiques
 
-![SUP Valencia](https://mikebastin.com/wp-content/uploads/2025/06/sup-valencia.jpg)
+![SUP Valencia](/images/legacy/2025/06/sup-valencia.jpg)
 
 Avec son climat agréable presque toute l’année, vous pouvez tester différents sports nautiques sur la Méditerranée.
 
@@ -57,7 +57,7 @@ Pour en savoir plus sur le littoral et les spots sympas, consultez les [plages d
 
 ## Explorer la vie nocturne
 
-![](https://mikebastin.com/wp-content/uploads/2025/06/umbracle.jpg)
+![](/images/legacy/2025/06/umbracle.jpg)
 
 Vous cherchez une ambiance festive après une journée bien remplie ? Valence regorge de quartiers [animés pour profiter de la vie nocturne](https://mikebastin.com/fr/mode-de-vie-de-valencia/) selon vos envies. Le quartier de Ruzafa est animé toute l’année, avec ses bars branchés, ses clubs alternatifs et son atmosphère créative idéale pour sortir entre amis.
 
@@ -73,7 +73,7 @@ Pensez à prévoir un petit budget supplémentaire, car les boissons peuvent vit
 
 ## Savourer la gastronomie locale
 
-![Paella](https://mikebastin.com/wp-content/uploads/2025/06/paella-valencia.jpg)
+![Paella](/images/legacy/2025/06/paella-valencia.jpg)
 
 Valence ne se limite pas à la paella (même si elle y est née).
 

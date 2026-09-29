@@ -75,7 +75,7 @@ Ma journée type commence à 9h, s’alignant parfaitement avec le début de jou
 
 Au lieu de suivre la pause traditionnelle de l’almuerzo, je programme souvent des appels avec des clients internationaux à cette heure-là, quand mes clients Européens sont pleinement opérationnels et cherchent à faire des réunions en milieu de matinée.
 
-![](https://mikebastin.com/wp-content/uploads/2025/06/valenciano-almuerzo.webp)
+![](/images/legacy/2025/06/valenciano-almuerzo.webp)
 
 Je me suis habitué à prendre des pauses déjeuner plus courtes, souvent de 14h à 15h, ce qui me permet de garder de l’élan sur les projets internationaux tout en expérimentant un peu de la culture du repas à Valencia.
 

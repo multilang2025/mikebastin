@@ -12,7 +12,7 @@ sourceUrl: "https://mikebastin.com/es/link-building-local-en-espana/"
 excerpt: "Link building en España: RR. PP. digitales, inserciones sectoriales y relaciones con editores españoles. Cómo ganar DR y tráfico, con más de dos décadas de oficio."
 ---
 
-![Link building local en España](https://mikebastin.com/wp-content/uploads/2024/10/spanish-link-building-1024x368.jpg)
+![Link building local en España](/images/legacy/2024/10/spanish-link-building-1024x368.jpg)
 
 ## El link building en España va de relaciones
 

@@ -12,7 +12,7 @@ sourceUrl: "https://mikebastin.com/es/seo-multilingue-2026-presencia-total/"
 excerpt: "SEO multilingüe en 2026: cómo pasar de posicionar páginas a tener presencia total en buscadores, IA y GEO, con más de dos décadas de experiencia detrás."
 ---
 
-![SEO multilingüe en 2026: de las posiciones a la presencia total](https://mikebastin.com/wp-content/uploads/2024/10/best-practices-for-multilingual-seo-1024x365.jpg)
+![SEO multilingüe en 2026: de las posiciones a la presencia total](/images/legacy/2024/10/best-practices-for-multilingual-seo-1024x365.jpg)
 
 ## SEO multilingüe en 2026: de las posiciones a la presencia total
 

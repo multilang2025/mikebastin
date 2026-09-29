@@ -73,7 +73,7 @@ _Mais on n’est pas à Zurich ici._
 
 ## 3\. Terrasses et karaokés spontanés : le concert permanent
 
-![3\. Terrasses et karaokés spontanés : le concert permanent](https://mikebastin.com/wp-content/uploads/2025/06/Terraza-de-la-Virgen-Blanca-1.jpg)
+![3\. Terrasses et karaokés spontanés : le concert permanent](/images/legacy/2025/06/Terraza-de-la-Virgen-Blanca-1.jpg)
 
 Envie de déguster une _clóchina_ en toute tranquillité ? Dommage.
 
@@ -140,7 +140,7 @@ On a même soupçonné certains immeubles d’utiliser les portes comme système
 
 ## 7\. Les fêtes de quartier (où tout le monde est DJ, mais personne n’est sobre)
 
-![Street parties (everyone is the DJ but no one is sober)](https://mikebastin.com/wp-content/uploads/2025/06/Nits-de-Vivers-concierto.jpg)
+![Street parties (everyone is the DJ but no one is sober)](/images/legacy/2025/06/Nits-de-Vivers-concierto.jpg)
 
 L’Espagne adore ses fêtes de quartier. Valencia, elle, les chérit, les célèbre et les amplifie jusqu’au délire acoustique. Que ce soit la Feria de Julio, les fêtes de San Vicente Mártir ou l’incontournable nuit de la Saint-Jean (San Juan pour les intimes), une chose est certaine : le calme est interdit par arrêté municipal.
 
@@ -188,7 +188,7 @@ Et si tu crois l’éviter en allant aux Jardins de Viveros, sache qu’ils y op
 
 ## 9\. Les enfants en mode turbo sur les plazas
 
-![The kids in turbo mode in the town squares](https://mikebastin.com/wp-content/uploads/2025/06/children-in-turbo-mode.jpg)
+![The kids in turbo mode in the town squares](/images/legacy/2025/06/children-in-turbo-mode.jpg)
 
 Tu veux prendre un café sur une jolie place comme la **Plaza del Patriarca** ou la **Plaza Doctor Collado** ?
 
@@ -202,7 +202,7 @@ Pas de pause, pas de filtre, pas de bouton « mute ».
 
 ## 10\. Les alarmes de voiture ou de maison qui hurlent pour rien (et longtemps)
 
-![Car and house alarms wailing away for no reason and going on and on and on...](https://mikebastin.com/wp-content/uploads/2025/06/House-and-car-alarms.jpg)
+![Car and house alarms wailing away for no reason and going on and on and on...](/images/legacy/2025/06/House-and-car-alarms.jpg)
 
 Tu n’as rien fait, personne n’a rien touché, et pourtant une alarme de voiture vient de se déclencher.
 
@@ -220,7 +220,7 @@ Et comme les alarmes durent en moyenne 3 à 7 minutes, tu as largement le temps 
 
 ## 11\. Les sirènes… toujours les sirènes
 
-![The damn sirens...](https://mikebastin.com/wp-content/uploads/2025/06/SIrens-in-Valencia-1.jpg)
+![The damn sirens...](/images/legacy/2025/06/SIrens-in-Valencia-1.jpg)
 
 Pompiers, ambulances, police locale, nationale ou guardia civil.
 
@@ -232,7 +232,7 @@ Tu n’es jamais loin d’un bon vieux combo sirène + klaxon + juron.
 
 ## 12\. Les chiens bavards du quartier
 
-![The chatty dogs of the neighbourhood](https://mikebastin.com/wp-content/uploads/2025/06/Dogs-of-the-neighbourhood.jpg)
+![The chatty dogs of the neighbourhood](/images/legacy/2025/06/Dogs-of-the-neighbourhood.jpg)
 
 À Valencia, on n’a pas besoin de sonnette.
 
@@ -254,7 +254,7 @@ Adopte un chat.
 
 ## 13\. Le commérage de quartier : volume illimité
 
-![Neighbourhood gossip : unlimited volume](https://mikebastin.com/wp-content/uploads/2025/06/Neighborhood-gossip.jpg)
+![Neighbourhood gossip : unlimited volume](/images/legacy/2025/06/Neighborhood-gossip.jpg)
 
 Tu crois que les _abuelas_ espagnoles se contentent de faire des biscuits et de regarder les telenovelas ?
 
@@ -304,7 +304,7 @@ Et ça recommence chaque semaine.
 
 ## 16\. Le haut-parleur humain en voiture (ou comment tout entendre sans le vouloir)
 
-![Human speakers in the cars (or how to hear everything unwillingly)](https://mikebastin.com/wp-content/uploads/2025/06/human-speaker-in-the-car.jpg)
+![Human speakers in the cars (or how to hear everything unwillingly)](/images/legacy/2025/06/human-speaker-in-the-car.jpg)
 
 Ici, la voiture n’est pas seulement un moyen de transport.
 
@@ -320,7 +320,7 @@ Un vrai service public.
 
 ## 17\. Les meubles dansent chez les voisins
 
-![Dancing furniture in the neighbour's flat](https://mikebastin.com/wp-content/uploads/2025/06/Dancing-furniture-1.jpg)
+![Dancing furniture in the neighbour's flat](/images/legacy/2025/06/Dancing-furniture-1.jpg)
 
 À Valencia, les meubles ont une vie.
 
@@ -358,7 +358,7 @@ Bonus : entre 8h et 9h, tu peux entendre au moins 27 injures créatives criées
 
 ## 19\. Les bus, toujours pressés de faire leur entrée
 
-![Bus EMT à Valencia](https://mikebastin.com/wp-content/uploads/2025/06/bus2.jpg)
+![Bus EMT à Valencia](/images/legacy/2025/06/bus2.jpg)
 
 Le **bus EMT**, c’est un peu le gros oncle qui entre sans frapper.
 
@@ -386,7 +386,7 @@ Et le **livreur qui discute au téléphone sur haut-parleur en même temps**.
 
 ## 21\. Les bouteilles de gaz qui tombent du ciel
 
-![Gas cylinders falling from the sky](https://mikebastin.com/wp-content/uploads/2025/06/Bonbonero.jpg)
+![Gas cylinders falling from the sky](/images/legacy/2025/06/Bonbonero.jpg)
 
 À Valencia, le **livreur de bombonas** (bouteilles de gaz) est un personnage mythique.
 
@@ -398,7 +398,7 @@ Chaque livraison est une performance acoustique de 3 minutes, suivie d’un sile
 
 ## 22\. Le home cinéma du voisin (sans cinéma, mais avec le son)
 
-![Your neighbour's home cinema (no cinema but the volume on full blast)](https://mikebastin.com/wp-content/uploads/2025/06/Neighbours-being-nosy-1.jpg)
+![Your neighbour's home cinema (no cinema but the volume on full blast)](/images/legacy/2025/06/Neighbours-being-nosy-1.jpg)
 
 Ton voisin a du goût.
 
@@ -444,7 +444,7 @@ Mention spéciale aux annonces surprises et aux passagers qui prennent l’appel
 
 ## 25\. Les volets roulants de commerce : BOUM, GRRRR, CLACK
 
-![Shop roller shutters : BOUM, GRRRR, CLACK](https://mikebastin.com/wp-content/uploads/2025/06/shop-shutters.jpg)
+![Shop roller shutters : BOUM, GRRRR, CLACK](/images/legacy/2025/06/shop-shutters.jpg)
 
 Il est 7h58. Tu dors encore. La rue est calme. Et soudain : _GRRRRRRRRRRRAAAAAANKKKK_.
 
@@ -468,7 +468,7 @@ Le rythme frappe plus fort que l’humidité, et il y a quelque chose d’héro�
 
 ## 27\. Le bitume, la batterie urbaine de Valence
 
-![Bitume de Valence](https://mikebastin.com/wp-content/uploads/2025/11/Generated-Image-November-11-2025-4_45PM-1024x585.jpg)
+![Bitume de Valence](/images/legacy/2025/11/Generated-Image-November-11-2025-4_45PM-1024x585.jpg)
 
 Conçus avec la symétrie en tête et le chaos en pratique, les pavés carrés de Valence font office d’instrument de percussion.
 
@@ -482,7 +482,7 @@ Symphonique. Impitoyable. Commence à l’aube. Ne finit jamais.
 
 ## 28\. La reforma, le deuxième hymne national espagnol
 
-![Reforma à Valence](https://mikebastin.com/wp-content/uploads/2025/06/reforma-1-1024x585.jpg)
+![Reforma à Valence](/images/legacy/2025/06/reforma-1-1024x585.jpg)
 
 **Un appartement à Valence n’est pas un foyer. C’est un champ de bataille du bricolage.**
 
@@ -502,7 +502,7 @@ Si tu aimes te lire des histoires juridiques avant de dormir, voici la politique
 
 ## 29\. Les igloos verts, catapultes à verre sans la catapulte
 
-![Green Igloos](https://mikebastin.com/wp-content/uploads/2025/11/green-igloo-valencia-1024x585.jpg)
+![Green Igloos](/images/legacy/2025/11/green-igloo-valencia-1024x585.jpg)
 
 Ces mignons conteneurs à verre écologiques ? Piégés avec du bruit.
 
@@ -516,7 +516,7 @@ Et si tu n’as jamais été réveillé par 600 bouteilles vides qui dégringole
 
 ## 30\. Le casal fallero, parce que rester dedans c’est trop mainstream
 
-![Casal fallero à Valence](https://mikebastin.com/wp-content/uploads/2025/06/casal-fallero-valencia.jpg)
+![Casal fallero à Valence](/images/legacy/2025/06/casal-fallero-valencia.jpg)
 
 Les casals falleros, c’est comme des clowns dans une voiture. Trop de monde dans trop peu d’espace.
 
@@ -566,7 +566,7 @@ Contenu multilingue soigné, netlinking intelligent, branding localisé… voil�
 
 Une mascletà digitale ? Commence par un [audit de référencement local](https://mikebastin.com/fr/services/referencement-local/).
 
-Envie de dominer ta niche ? Travaille ton [netlinking](https://mikebastin.com/fr/services/netlinking/) avec précision.
+Envie de dominer ta niche ? Travaille ton [netlinking](/fr/services/seo-technique/) avec précision.
 
 Tu veux un site qui attire naturellement, sans hurler ? [Contacte notre équipe](https://mikebastin.com/fr/nous-contacter/), on parle SEO comme d’autres parlent fort sur les terrasses.
 

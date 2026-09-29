@@ -12,7 +12,7 @@ sourceUrl: "https://mikebastin.com/es/sistemas-cualificacion-leads-ia/"
 excerpt: "La cualificación con IA filtra leads automáticamente: sistemas que identifican por sí solos las oportunidades de alto valor para tu equipo."
 ---
 
-![Article header image](https://mikebastin.com/wp-content/uploads/2026/01/sistemascualificacionleadsia-1024x585.jpg)
+![Article header image](/images/legacy/2026/01/sistemascualificacionleadsia-1024x585.jpg)
 
 ## El reto actual en la gestión de leads
 

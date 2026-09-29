@@ -12,7 +12,7 @@ sourceUrl: "https://mikebastin.com/es/herramientas-pruebas-de-localizacion/"
 excerpt: "Las mejores herramientas de pruebas de localización: TMS, gestión de casos, capturas, automatización y pseudolocalización, con más de dos décadas de experiencia."
 ---
 
-![Herramientas de pruebas de localización](https://mikebastin.com/wp-content/uploads/2024/10/testing-tools-1024x364.jpg)
+![Herramientas de pruebas de localización](/images/legacy/2024/10/testing-tools-1024x364.jpg)
 
 ## Herramientas de pruebas de localización: la guía práctica
 

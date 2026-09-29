@@ -12,7 +12,7 @@ sourceUrl: "https://mikebastin.com/es/competidores-seo/"
 excerpt: "Aprende a encontrar tus competidores SEO reales, compárate con quien juega en tu misma liga en Google y toma mejores decisiones para tu posicionamiento."
 ---
 
-![Article header image](https://mikebastin.com/wp-content/uploads/2026/01/encontrarcompetidoresseoverdad-1024x585.jpg)
+![Article header image](/images/legacy/2026/01/encontrarcompetidoresseoverdad-1024x585.jpg)
 
 ## Entender el ecosistema digital para identificar a tus rivales en las SERP
 

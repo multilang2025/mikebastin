@@ -12,7 +12,7 @@ sourceUrl: "https://mikebastin.com/es/diferencias-culturales-sitios-web-multilin
 excerpt: "Cómo las diferencias culturales cambian una web multilingüe: idioma, colores, símbolos y timing por mercado, con más de dos décadas de experiencia detrás."
 ---
 
-![Diferencias culturales en sitios web multilingües](https://mikebastin.com/wp-content/uploads/2024/10/cultural-differences-in-multilingual-websites-1024x363.jpg)
+![Diferencias culturales en sitios web multilingües](/images/legacy/2024/10/cultural-differences-in-multilingual-websites-1024x363.jpg)
 
 ## Diferencias culturales en sitios web multilingües: lo que decide si conectas o rebotas
 
@@ -82,7 +82,7 @@ Cuando lo aciertas, la recompensa es clara. Mira cómo McDonald’s adapta su ca
 
 Del McAloo Tikki en la India al Teriyaki McBurger en Japón, han convertido la sensibilidad cultural en una historia de éxito global.
 
-![Diferencias culturales en sitios web multilingües](https://mikebastin.com/wp-content/uploads/2024/10/napkin-selection.png)
+![Diferencias culturales en sitios web multilingües](/images/legacy/2024/10/napkin-selection.png)
 
 ### Reflexión final
 

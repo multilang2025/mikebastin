@@ -12,7 +12,7 @@ sourceUrl: "https://mikebastin.com/es/analisis-competitivo-seo/"
 excerpt: "El análisis competitivo transforma los datos de la competencia en ventajas estratégicas de SEO, domina los marcos que impulsan el crecimiento medible."
 ---
 
-![Article header image](https://mikebastin.com/wp-content/uploads/2026/01/analisiscompetitivoseocrecimie-1024x585.jpg)
+![Article header image](/images/legacy/2026/01/analisiscompetitivoseocrecimie-1024x585.jpg)
 
 ## Dominar el análisis competitivo de SEO en tiempos de inteligencia artificial
 

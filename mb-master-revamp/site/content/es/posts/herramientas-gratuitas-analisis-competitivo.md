@@ -12,7 +12,7 @@ sourceUrl: "https://mikebastin.com/es/herramientas-gratuitas-analisis-competitiv
 excerpt: "Herramientas gratuitas de análisis competitivo para analizar a tus competidores, palabras clave, tráfico y posicionamiento SEO. Recursos prácticos para tomar mejores decisiones basadas en datos reales."
 ---
 
-![Article header image](https://mikebastin.com/wp-content/uploads/2026/01/herramientasgratuitasanalisisc-1024x585.jpg)
+![Article header image](/images/legacy/2026/01/herramientasgratuitasanalisisc-1024x585.jpg)
 
 ## El valor real de las herramientas gratuitas de análisis competitivo
 

@@ -70,7 +70,7 @@ Il ne s’agit pas de moins travailler, mais de structurer sa journée autour du
 
 ### Vous vous installez à Valencia en tant qu’entrepreneur ou freelance ?
 
-Je vous accompagne pour [créer un site web professionnel](https://mikebastin.com/fr/services/conception-de-site-web/), [optimiser votre référencement](https://mikebastin.com/fr/services/referencement-multilingue/), et [mettre en place une stratégie de contenu assistée par IA](https://mikebastin.com/fr/services/conseil-ia/).
+Je vous accompagne pour [créer un site web professionnel](/fr/), [optimiser votre référencement](https://mikebastin.com/fr/services/referencement-multilingue/), et [mettre en place une stratégie de contenu assistée par IA](https://mikebastin.com/fr/services/conseil-ia/).
 
 Voici tous mes [services pour les entrepreneurs multilingues](https://mikebastin.com/fr/services/) ou [contactez-moi](https://mikebastin.com/fr/nous-contacter/) pour en discuter.
 
@@ -122,9 +122,9 @@ C’est une opportunité d’inventer un modèle qui soutient à la fois votre c
 
 ### Entrepreneur à Valencia, avec une clientèle internationale ?
 
-Gagnez du temps, structurez vos journées et développez votre présence en ligne grâce à mes [services](https://mikebastin.com/fr/nos-services/) spécialisés :
+Gagnez du temps, structurez vos journées et développez votre présence en ligne grâce à mes [services](/fr/services/) spécialisés :
 
--   [SEO international pour entrepreneurs](https://mikebastin.com/fr/services/referencement-international/)
+-   [SEO international pour entrepreneurs](/fr/services/referencement-multilingue/)
 -   [Création de contenu multilingue](https://mikebastin.com/fr/services/creation-de-contenu-multilingue/) adaptée à vos marchés
 -   [Automatisation et conseil IA pour optimiser votre productivité](https://mikebastin.com/fr/services/conseil-ia/)
 
@@ -186,10 +186,10 @@ La clé est d’aligner vos créneaux sur les attentes locales tout en préserva
 
 ### Besoin d’organiser votre activité internationale depuis Valencia ?
 
-Je vous aide à structurer vos canaux de communication, votre visibilité en ligne et votre [stratégie digitale pour mieux gérer](https://mikebastin.com/fr/services/marketing-digital/) le travail en multi-fuseaux.
+Je vous aide à structurer vos canaux de communication, votre visibilité en ligne et votre [stratégie digitale pour mieux gérer](/fr/) le travail en multi-fuseaux.
 
--   [Référencement international](https://mikebastin.com/fr/services/referencement-international/)
--   [Gestion de réseaux sociaux multilingues](https://mikebastin.com/fr/services/gestion-multilingue-reseaux-sociaux/)
+-   [Référencement international](/fr/services/referencement-multilingue/)
+-   [Gestion de réseaux sociaux multilingues](/fr/services/creation-de-contenu-multilingue/)
 -   [Conseil IA pour automatiser et planifier vos processus](https://mikebastin.com/fr/services/conseil-ia/)
 
 [Contactez-moi](https://mikebastin.com/fr/nous-contacter/) pour adapter votre présence digitale à un agenda international.
@@ -228,7 +228,7 @@ Car c’est souvent pour cela qu’on choisit cette ville ensoleillée : prouve
 
 Je vous accompagne dans la mise en place d’une organisation sur-mesure grâce à :
 
--   [la création de sites adaptés à votre rythme](https://mikebastin.com/fr/services/conception-de-site-web/)
+-   [la création de sites adaptés à votre rythme](/fr/)
 -   [la post-édition IA pour gagner du temps](https://mikebastin.com/fr/services/postedition-ia/)
 -   [des stratégies SEO multilingues pour vos clients étrangers](https://mikebastin.com/fr/services/referencement-multilingue/)
 

@@ -12,7 +12,7 @@ sourceUrl: "https://mikebastin.com/es/rastrear-posiciones-de-keywords-de-competi
 excerpt: "Análisis competitivo SEO para identificar brechas, anticipar movimientos de la competencia y escalar la visibilidad orgánica con datos accionables."
 ---
 
-![análisis competitivo SEO](https://mikebastin.com/wp-content/uploads/2026/01/analisis-competitivo-SEO.jpg)
+![análisis competitivo SEO](/images/legacy/2026/01/analisis-competitivo-SEO.jpg)
 
 ## Por qué el seguimiento de posiciones de keywords de competidores es vital hoy en día
 

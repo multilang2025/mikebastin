@@ -84,7 +84,7 @@ export default async function FrenchServicePage({
           </Reveal>
           <Reveal i={2}>
             <p className="mt-6">
-              <Link href="/" className="ulink text-[.9rem]" style={{ color: "var(--dim)" }}>
+              <Link href="/fr/notre-equipe/" className="ulink text-[.9rem]" style={{ color: "var(--dim)" }}>
                 Mike Bastin
               </Link>
             </p>

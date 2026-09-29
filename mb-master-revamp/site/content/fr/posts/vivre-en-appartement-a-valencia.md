@@ -172,7 +172,7 @@ Août est le mois le plus chaud (jusqu’à 31,3 °C en moyenne), tandis que jan
 
 Pour le choix de votre appartement, ce climat a une conséquence directe : la **mauvaise isolation thermique** de nombreux bâtiments espagnols. En été, un appartement mal orienté ou sans climatisation peut vite devenir un four. En hiver, l’absence de chauffage central dans les constructions anciennes rend les soirées plus fraîches qu’on ne l’imaginerait sous cette latitude. Pensez-y lors de vos visites.
 
-![Vue sur les toits de Valencia et ses bâtiments colorés typiques de la Communauté valencienne](https://mikebastin.com/wp-content/uploads/2025/06/lieux-historiques-du-paysage-urbain-de-valence-ville-en-espagne-300x200.jpg)
+![Vue sur les toits de Valencia et ses bâtiments colorés typiques de la Communauté valencienne](/images/legacy/2025/06/lieux-historiques-du-paysage-urbain-de-valence-ville-en-espagne-300x200.jpg)
 
 Le centre historique de Valencia vu depuis les hauteurs de la ville
 
@@ -468,7 +468,7 @@ Pour résumer l’essentiel en quelques étapes concrètes :
 
 D’El Carmen à Ruzafa en passant par Cabanyal, Valencia propose des options pour tous les profils et tous les budgets. Le plus important est de prendre le temps de choisir, et de résister à la tentation de signer le premier appartement avec vue sur un oranger. Car ces oranges, rappelons-le, [ne sont pas comestibles](https://mikebastin.com/fr/vivre-a-valencia/).
 
-![Paysage urbain de Valencia avec ses bâtiments historiques et colorés dans la Communauté valencienne](https://mikebastin.com/wp-content/uploads/2025/06/lieux-historiques-du-paysage-urbain-de-valence-ville-en-espagne-300x200.jpg)
+![Paysage urbain de Valencia avec ses bâtiments historiques et colorés dans la Communauté valencienne](/images/legacy/2025/06/lieux-historiques-du-paysage-urbain-de-valence-ville-en-espagne-300x200.jpg)
 
 Valencia combine patrimoine historique et modernité architecturale
 

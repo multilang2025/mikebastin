@@ -12,7 +12,7 @@ sourceUrl: "https://mikebastin.com/es/analizar-backlinks-competidores/"
 excerpt: "Analizar perfiles de backlinks de tus competidores te permite descubrir qué enlaces impulsan su visibilidad y cómo replicar esa estrategia de forma controlada. Empieza ahora a identificar oportunidades de enlaces reales y refuerza tu posicionamiento SEO con una estrategia basada en datos."
 ---
 
-![Article header image](https://mikebastin.com/wp-content/uploads/2026/01/analizarbacklinkscompetidores-1024x585.jpg)
+![Article header image](/images/legacy/2026/01/analizarbacklinkscompetidores-1024x585.jpg)
 
 ## Por qué analizar los backlinks de la competencia te da ventaja en 2026
 
@@ -33,7 +33,7 @@ Este método basado en datos se centra en los enlaces que funcionan hoy.
 -   **Visibilidad en IA:** [fuentes que citan modelos](https://mikebastin.com/es/medir-rendimiento-geo/) como Perplexity o Gemini.
 -   **Resultados rápidos:** [saber exactamente a qué oportunidades tirar](https://mikebastin.com/es/services/monitorizacion-y-analitica/) primero para convertir más.
 
-![analizar los backlinks](https://mikebastin.com/wp-content/uploads/2026/01/backlinks_network_analysis_1-1024x572.jpg)
+![analizar los backlinks](/images/legacy/2026/01/backlinks_network_analysis_1-1024x572.jpg)
 
 ## Cómo encontrar a tus verdaderos competidores en Google
 
@@ -134,7 +134,7 @@ Una vez tengas el análisis, haz esto:
 
 Para **Smartown** hicimos un estudio sobre logística inversa en Valencia que consiguió 19 backlinks de medios del sector en 60 días, y los leads cualificados subieron un 28%.
 
-![conseguir backlinks](https://mikebastin.com/wp-content/uploads/2026/01/seo_tools_dashboard_1-1024x572.jpg)
+![conseguir backlinks](/images/legacy/2026/01/seo_tools_dashboard_1-1024x572.jpg)
 
 ## Preguntas que me hacéis mucho
 

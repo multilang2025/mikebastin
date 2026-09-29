@@ -69,7 +69,7 @@ Un audit GEO en 2026 montre à une entreprise sa place dans les réponses des IA
 
 Les tensions sino-américaines, la guerre en Ukraine et la crise du transport maritime en mer Rouge ont accéléré une tendance déjà en cours : rapprocher la production des marchés finaux. Le Mexique a dépassé la Chine comme premier fournisseur des États-Unis en 2023. L’Europe centrale et les Balkans gagnent du terrain auprès des donneurs d’ordre allemands et français.
 
-Pour les services linguistiques, ça veut dire des paires de langues qui prennent de la valeur (espagnol mexicain, polonais, roumain, turc), et une demande accrue pour les [traductions juridiques et réglementaires](https://mikebastin.com/fr/services/traduction-juridique-et-reglementaire/) dans les nouveaux corridors commerciaux.
+Pour les services linguistiques, ça veut dire des paires de langues qui prennent de la valeur (espagnol mexicain, polonais, roumain, turc), et une demande accrue pour les [traductions juridiques et réglementaires](/fr/services/localisation-juridique-reglementaire/) dans les nouveaux corridors commerciaux.
 
 ### 7\. Le travail hybride se stabilise (et se mesure)
 
@@ -129,7 +129,7 @@ L’effet de bord intéressant : les entreprises qui produisent des rapports cl
 
 Avec l’IA généraliste qui couvre les paires de langues majeures (anglais-français, anglais-espagnol, anglais-allemand) à un coût marginal proche de zéro, la valeur s’est déplacée vers les langues à faibles ressources (vietnamien, swahili, langues régionales) où les usages critiques (juridique, médical, technique) exigent encore la précision d’un traducteur spécialisé.
 
-C’est exactement le phénomène que nous décrivons dans notre analyse sur les [agences de sourcing Vietnam pour la conformité EUDR](https://mikebastin.com/best-vietnam-sourcing-agencies-for-eudr-supplier-scouting-and-audits/) : les entreprises qui veulent fiabiliser leurs audits multilingues paient désormais une prime pour des traducteurs natifs spécialisés.
+C’est exactement le phénomène que nous décrivons dans notre analyse sur les [agences de sourcing Vietnam pour la conformité EUDR](/blog/best-vietnam-sourcing-agencies-for-eudr-supplier-scouting-and-audits/) : les entreprises qui veulent fiabiliser leurs audits multilingues paient désormais une prime pour des traducteurs natifs spécialisés.
 
 **Notre angle.** En plus de deux décennies de SEO et de traduction internationale, ce qui nous a frappés en 2025-2026, c’est le retour en force de la qualité éditoriale comme différenciateur. La GenAI a démocratisé le contenu moyen. Ce qui se vend maintenant, c’est le contenu qui porte une signature humaine : expérience terrain, données propriétaires, prise de position assumée. Toutes les tendances ci-dessus convergent vers ce constat.
 

@@ -12,7 +12,7 @@ sourceUrl: "https://mikebastin.com/es/analizar-trafico-web-competencia/"
 excerpt: "Analiza el tráfico web de tu competencia para entender su estrategia SEO, detectar oportunidades reales y tomar decisiones basadas en datos. Aprende qué métricas mirar y cómo interpretarlas para mejorar tu posicionamiento."
 ---
 
-![Article header image](https://mikebastin.com/wp-content/uploads/2026/01/analizartraficowebcompetencia-1024x585.jpg)
+![Article header image](/images/legacy/2026/01/analizartraficowebcompetencia-1024x585.jpg)
 
 ## Dominar tu mercado empieza por entender el tráfico de la competencia
 

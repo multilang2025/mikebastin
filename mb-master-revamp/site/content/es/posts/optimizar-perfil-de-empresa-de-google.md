@@ -12,7 +12,7 @@ sourceUrl: "https://mikebastin.com/es/optimizar-perfil-de-empresa-de-google/"
 excerpt: "Cómo optimizar tu Perfil de Empresa de Google en 2026: categorías, reseñas, fotos, Gemini en Maps y SEO local, con más de dos décadas de experiencia."
 ---
 
-![Cómo optimizar tu Perfil de Empresa de Google](https://mikebastin.com/wp-content/uploads/2024/10/Google-Business-Profile-1024x386.jpg)
+![Cómo optimizar tu Perfil de Empresa de Google](/images/legacy/2024/10/Google-Business-Profile-1024x386.jpg)
 
 ## Perfil de Empresa de Google en 2026: lo que de verdad funciona para la visibilidad local
 

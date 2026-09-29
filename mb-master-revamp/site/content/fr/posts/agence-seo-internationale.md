@@ -110,4 +110,4 @@ Vous voulez discuter de votre projet de **référencement international** ?
 Contactez-nous directement pour un premier échange ; vous décidez ensuite librement de la suite. Nous vous indiquons en 30 minutes le potentiel de votre site sur les marchés francophones, anglophones ou hispanophones.
 
 -   Email : [mike@mikebastin.com](mailto:mike@mikebastin.com)
--   [Formulaire de contact](https://mikebastin.com/contact-us/)
+-   [Formulaire de contact](/fr/nous-contacter/)

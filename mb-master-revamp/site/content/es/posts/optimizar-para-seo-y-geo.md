@@ -12,7 +12,7 @@ sourceUrl: "https://mikebastin.com/es/optimizar-para-seo-y-geo/"
 excerpt: "El contenido puede optimizarse para búsqueda tradicional y citas de IA simultáneamente, estrategia dual para máxima visibilidad."
 ---
 
-![Article header image](https://mikebastin.com/wp-content/uploads/2026/01/estrategiacontenidodualseogeos-1024x585.jpg)
+![Article header image](/images/legacy/2026/01/estrategiacontenidodualseogeos-1024x585.jpg)
 
 ## Estrategia dual SEO y GEO: Cómo posicionarse en Google y en la IA generativa
 

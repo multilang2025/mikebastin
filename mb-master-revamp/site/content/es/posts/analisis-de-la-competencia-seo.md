@@ -12,7 +12,7 @@ sourceUrl: "https://mikebastin.com/es/analisis-de-la-competencia-seo/"
 excerpt: "Análisis de la competencia para SEO en 2026: rivales reales en la SERP, cuota de tráfico, brechas de palabras clave y citas en IA, con más de dos décadas de oficio."
 ---
 
-![Análisis de la competencia para SEO](https://mikebastin.com/wp-content/uploads/2026/01/competitoranalysis-1024x585.jpg)
+![Análisis de la competencia para SEO](/images/legacy/2026/01/competitoranalysis-1024x585.jpg)
 
 ## El análisis de la competencia que sirve es el que guía la estrategia
 

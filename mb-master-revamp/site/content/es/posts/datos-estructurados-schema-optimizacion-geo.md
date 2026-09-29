@@ -12,7 +12,7 @@ sourceUrl: "https://mikebastin.com/es/datos-estructurados-schema-optimizacion-ge
 excerpt: "Datos estructurados y schema bien implementados mejoran la visibilidad SEO, la comprensión semántica y el posicionamiento en buscadores y motores de IA. Analizamos, diseñamos y validamos schemas adaptados a objetivos GEO."
 ---
 
-![Article header image](https://mikebastin.com/wp-content/uploads/2026/01/datosestructuradosschemaoptimi-1024x585.jpg)
+![Article header image](/images/legacy/2026/01/datosestructuradosschemaoptimi-1024x585.jpg)
 
 ## El SEO ha evolucionado: bienvenido a la era de la IA generativa
 
