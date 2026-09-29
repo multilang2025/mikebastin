@@ -298,6 +298,12 @@ and no og:url. Rules that came out of fixing it:
   h1 keeps `title`.
 - `.htaccess` forces `image/png` on the extensionless `opengraph-image`
   files; without it the host sends no Content-Type.
+- `<html lang>` is `en` on English pages (international English; hreflang
+  already says `en`) and `fr`/`es` on French and Spanish ones, written into
+  the exported HTML by `scripts/set-html-lang.mjs` (postbuild) and checked
+  by `npm run lint:lang` (owner, 30 Sep 2026: "My audience is
+  international"). `og:locale` stays `en_GB` for English, since it must
+  name a country and the spelling is British.
 - FR and ES routes go through `pageMeta()` too (30 Sep 2026: the `[slug]`
   routes had no canonical, an `en_GB` og:locale and ignored `metaTitle`).
   Each has its own `opengraph-image.tsx`; FR service markdown carries a

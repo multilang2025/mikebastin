@@ -6,6 +6,7 @@ import SiteNav from "@/components/SiteNav";
 import JsonLd from "@/components/JsonLd";
 import { personSchema, professionalServiceSchema } from "@/lib/schema";
 import { getLocaleManifest } from "@/lib/posts";
+import HtmlLang from "@/components/HtmlLang";
 
 const fraunces = localFont({
   src: "./fonts/fraunces.woff2",
@@ -93,7 +94,7 @@ export default function RootLayout({
     // set in globals.css during navigation, so every route change animated
     // from the old scroll position up to the top before the page showed.
     // The attribute restores the instant jump on navigation only.
-    <html lang="en-GB" data-scroll-behavior="smooth" suppressHydrationWarning>
+    <html lang="en" data-scroll-behavior="smooth" suppressHydrationWarning>
       <head>
         <script dangerouslySetInnerHTML={{ __html: noFlash }} />
         <script dangerouslySetInnerHTML={{ __html: reveal }} />
@@ -108,6 +109,7 @@ export default function RootLayout({
         className={`${fraunces.variable} ${cormorant.variable} ${inter.variable}`}
       >
         <SmoothScroll />
+        <HtmlLang />
         <SiteNav localeManifest={getLocaleManifest()} />
         {children}
       </body>

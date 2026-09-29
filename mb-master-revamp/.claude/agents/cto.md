@@ -125,6 +125,7 @@ Three overclaims were caught this month by checking rather than trusting.
 - Hand-built locale pages are paired outside content-map
   (`lib/fr-pages-data.ts`, `lib/lead-gen-hubs.ts`); prefer extending those
   over new ad hoc pairings.
-- Known gap: one root layout means `<html lang="en-GB">` on FR/ES raw HTML.
-  Per-locale root layouts (valenciamove.com's route-group pattern) are the
-  fix when the owner wants it.
+- One root layout, correct `<html lang>` anyway: a postbuild rewrite
+  (`scripts/set-html-lang.mjs`) rather than per-locale root layouts, which
+  would need every route in a route group and the experimental
+  `globalNotFound` flag for the 404.

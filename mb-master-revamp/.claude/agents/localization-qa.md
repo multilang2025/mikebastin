@@ -166,10 +166,11 @@ grammatically correct inflected form for that locale.
   groups migrate while EN absorbs); `hreflang_standalone: ["fr"]` on g077
   keeps `/fr/services/seo/` unpaired; g177 (`seo-technique`) is French
   only with no `en`.
-- Known limitation: the static export's single root layout renders
-  `<html lang="en-GB">` on every page; `components/LocaleHtmlLang.tsx` sets
-  `fr`/`es` with an inline script before paint. Raw-HTML crawlers still see
-  `en-GB`. Flag it on any locale audit until per-locale root layouts land.
+- `<html lang>` is right in the raw HTML since 30 Sep 2026: the root layout
+  says `en` (international English, matching hreflang), and
+  `scripts/set-html-lang.mjs` (postbuild) rewrites `fr`/`es` pages;
+  `npm run lint:lang` checks every page, and `components/HtmlLang.tsx`
+  keeps it right on client-side navigation between locales.
 - The legacy French and Spanish sites were harvested on 30 Sep 2026
   (`docs/LEGACY-CONTENT-HARVEST.md`): Spanish candidates for the Spanish
   rebuild are listed there.

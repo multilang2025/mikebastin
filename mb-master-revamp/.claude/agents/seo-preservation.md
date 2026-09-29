@@ -126,6 +126,8 @@ owns the policy; check it here on any PR that adds internal links in bulk,
   `lib/fr-pages-data.ts` (hand-built French pages) and `lib/lead-gen-hubs.ts`
   (the three lead generation hubs). A new hand-built locale page must be
   added to one of them, never hard-coded on one side.
-- `<html lang>` is `en-GB` in the raw HTML of FR and ES pages (single root
-  layout; set client-side by `LocaleHtmlLang`). hreflang and og:locale are
-  correct; the html attribute is a known gap, not a regression.
+- `<html lang>` is right in the raw HTML since 30 Sep 2026: the root layout
+  says `en` (international English, matching hreflang), and
+  `scripts/set-html-lang.mjs` (postbuild) rewrites `fr`/`es` pages;
+  `npm run lint:lang` checks every page, and `components/HtmlLang.tsx`
+  keeps it right on client-side navigation between locales.
