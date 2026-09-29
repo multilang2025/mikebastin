@@ -172,8 +172,22 @@ it ships is a draft the owner reviews, per decision 5). First slice done:
   English and misfired on French ("même" matched the first-person "me").
 - Legacy titles "Localization ..." corrected to "Localisation ...".
 
-Next slice: `/fr/notre-equipe/`, `/fr/tarifs/`, the six new service pages,
-the French copy lint. Legacy French copy to fix in phase 4, noted while
+Second slice done (29 Sep 2026):
+
+- `/fr/tarifs/` (sibling of `/how-i-work/`, both halves of the billing
+  answer kept) and `/fr/notre-equipe/` (French only, `en: null`).
+- The six service pages, written from the English parents' facts only:
+  `traduction-professionnelle`, `postedition-ia`, `localisation-applications`,
+  `creation-de-contenu-multilingue`, `conseil-ia` (these five get
+  `locale_actions {"fr":"migrate"}`) and the new `seo-technique` (group
+  `g177`, no EN sibling). The legacy "2 à 4 semaines" turnaround on the
+  apps page was dropped: no English source for it.
+- `/fr/services/` gains a "Contenu, traduction et IA" group; an odd card
+  count in two columns widens its last card.
+- `gen-fr-redirects.mjs` rerun: 29 rules, all permanent. No legacy French
+  URL waits on an interim page any more.
+
+Next slice: the French copy lint. Legacy French copy to fix in phase 4, noted while
 building: several service excerpts say "25 années d'expérience" (the
 owner's rule is "over two decades"), and two post titles use
 "optimizer" for "optimiser".

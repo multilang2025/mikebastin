@@ -1,90 +1,63 @@
 ---
-words: 677
-editorial: "superseded"
-title: "Localisation d'applications"
+words: 695
+title: "Localisation d’applications et de logiciels"
 slug: "localisation-applications"
 locale: "fr"
 type: "services"
 group: "g064"
 wpId: 24848039
 date: "2024-10-08T10:01:51"
-modified: "2026-05-29T07:40:42"
+modified: "2026-09-29T12:00:00"
 sourceUrl: "https://mikebastin.com/fr/services/localisation-applications/"
-excerpt: "La localization d'applications consiste à adapter une application pour qu'elle réponde aux spécificités linguistiques, culturelles et aux préférences régionales. Cette tâche inclut la traduction de textes, l'adaption des formats (dates, devises, etc.), ainsi que la personnalisation de l'expérience utilisateur. Ce processus contribue à améliorer l'intérêt du client et à renforcer la portée de l'application à travers les frontières."
+excerpt: "Votre application ou logiciel prêt pour l’Allemagne, l’Espagne ou le Benelux : une interface qui tient dans chaque langue et une fiche de store qui se trouve."
 ---
 
-# Services de localization d’applications
+## Votre produit se vend à l’étranger, votre interface suit-elle ?
 
-Services de traduction d’applications mobiles
+Vous lancez votre application ou votre logiciel en Allemagne, aux Pays-Bas ou en Espagne. Le texte arrive plus long en allemand, certains marchés lisent de droite à gauche, et les avis arrivent dans une langue que personne dans l’équipe ne lit. Ce qui cède en premier, c’est rarement la traduction : un bouton qui déborde, un libellé tronqué, une date lue comme le mauvais mois, un code postal local refusé.
 
-## Services de traduction d’applications mobiles pour un public mondial
+Chaque défaut coûte des téléchargements et des avis sur un marché où vous avez déjà investi. Et sur un produit qui n’a pas été préparé, chaque nouvelle langue rouvre le code : la deuxième finit par coûter plus cher que la première.
 
-Transposez votre application sur un nouveau marché grâce à nos services de localization et attirez l’attention des utilisateurs, d’où qu’ils viennent.
+<aside class="post-cta">
+<p><strong>Vous voulez que votre produit tienne dans chaque langue où vous le vendez ?</strong> Nous préparons le logiciel, adaptons son contenu et le testons sur place, marché par marché. <a href="/fr/nous-contacter/">Réserver un premier échange</a>.</p>
+</aside>
 
-Nous adaptons le contenu, le design et les fonctionnalités de votre application, pour répondre aux spécificités culturelles, [linguistiques](https://mikebastin.com/fr/services/solutions-linguistiques/) et régionales, afin d’offrir une expérience fluide à votre public international.
+## Ce que nous prenons en charge
 
-Pourquoi passer par la localization d’applications ?
+- Les textes d’interface, les notifications et les fiches de store, traduits et adaptés pour rester clairs et justes dans chaque culture.
+- Les dates, devises et unités de mesure, réglées pays par pays.
+- Les mots-clés de store, optimisés pour chaque marché cible afin que l’application se trouve. Pour votre site, voir [localisation de site web](/fr/services/localisation-de-site-web/).
+- Les tests sur les systèmes d’exploitation et les appareils réellement utilisés dans chaque marché, au-delà de votre plateforme principale.
+- Le sous-titrage, la voix off et la transcription de vos vidéos et contenus audio.
+- L’internationalisation de l’architecture, pour que l’ajout d’une langue devienne un travail de traduction plutôt qu’une refonte.
 
-La localization d’applications va plus loin qu’une simple traduction. Il s’agit de personnaliser votre application pour qu’elle respecte les critères linguistiques et culturels régionaux afin de stimuler pour augmenter l’engagement, la satisfaction et les conversions.
+La traduction elle-même passe par des spécialistes nommés, pour la plupart issus du réseau BeTranslated, que nous animons depuis vingt ans. Voir aussi notre page [traduction professionnelle](/fr/services/traduction-professionnelle/).
 
-La localization peut vous apporter :
+## Internationaliser d’abord, pour que chaque langue reste un travail de contenu
 
-Plus de téléchargements et des utilisateurs séduits.
+Cette étape décide du coût de tout le reste :
 
-Une marque présente dans de nouvelles langues.
+- les chaînes de texte sont extraites du code ;
+- aucune phrase n’est assemblée à partir de fragments ;
+- dates, nombres et devises sont formatés selon la langue et le pays, au lieu d’être codés en dur ;
+- le tri suit les règles de la langue cible ;
+- les mises en page supportent un texte plus long que l’original ;
+- l’encodage des caractères gère les accents et les alphabets non latins, faute de quoi ils s’affichent en symboles illisibles pour chaque utilisateur concerné.
 
-Plus d’engagement et de conversions grâce à un [contenu adapté à chaque langue](https://mikebastin.com/fr/services/localisation-contenu/) et à culture visée.
+Pour l’arabe ou l’hébreu, c’est la mise en page elle-même qu’il faut adapter, et pas seulement le sens du texte. Fait en amont, l’ajout d’une langue devient un travail de contenu. Reporté, chaque nouveau marché rouvre le code.
 
-Localization professionnelle : un succès mondial garanti
+## Votre fiche de store, une surface de recherche à part entière
 
-Notre [service de localization d’applications](https://mikebastin.com/fr/services/test-localisation/) s’assure que la langue, le design et les fonctionnalités soient adaptés à chaque marché. Nous prenons en compte les particularités culturelles, les exigences juridiques et les préférences des utilisateurs afin d’offrir une [expérience](https://mikebastin.com/fr/services/conception-ux-ui-multilingue/) véritablement localisée.
+Le titre, le sous-titre, la description et le champ de mots-clés sont indexés par store et par langue. Traduire la fiche française gaspille l’essentiel de cette place : ce qu’un utilisateur espagnol tape pour trouver une application n’est pas ce que tape un utilisateur français, et les limites de caractères varient d’un store à l’autre.
 
-Traduction et [localization précises du contenu](https://mikebastin.com/fr/services/localisation-multimedia/) de votre application mobile, y compris le texte de l’interface utilisateur, les descriptions et les notifications, afin de garantir la clarté et la cohérence culturelle.
+Les captures d’écran comptent aussi. Une fiche qui montre une interface française à un visiteur allemand lui signale que l’application n’est pas vraiment pour lui, avant même qu’il lise un mot.
 
-Définition et suivi des indicateurs clés de performance (ICP), également appelés KPI (Key Performance Indicators) : conversions, téléchargements et autres actions.
+## Des tests sur l’appareil, dans la langue
 
-Garantie de la [conformité juridique de votre application](https://mikebastin.com/fr/services/traduction-juridique/) dans le monde entier. Cette démarche englobe les exigences RGPD, CCPA et autres régulations internationales pertinentes.
+La plupart des défauts de localisation ne sont pas des fautes de traduction : un libellé qui déborde de son bouton en allemand, une date inversée, une mise en page de droite à gauche qui retourne tout sauf une icône. Rien de tout cela n’apparaît dans un tableau de chaînes. Cela apparaît sur un appareil, dans cette langue : c’est là que nous vérifions.
 
-Personnalisation des descriptions App Store et Google Play, ainsi que des mots-clés, pour maximiser la visibilité sur chaque marché cible.
+## Vos vidéos et contenus audio dans chaque langue
 
-Garantie d’une adaptation précise des dates, devises, unités de mesure et autres éléments, afin d’offrir une expérience unique dans chaque pays.
+Sous-titrage, voix off ou transcription, selon ce dont chaque contenu a besoin. Les sous-titres coûtent peu et apportent l’essentiel de la valeur, y compris pour ceux qui regardent sans le son, c’est-à-dire la plupart. Une transcription sert deux fois : elle rend le contenu accessible et elle met sur la page des mots que les moteurs de recherche et les moteurs de réponse peuvent lire, ce qu’une vidéo seule ne permet pas.
 
-Notre processus de localization
-
-La transparence et les stratégies orientées résultats sont au cœur de notre approche. Voici notre mode de fonctionnement :
-
-Nous analysons la portée actuelle de votre application et définissons ensemble les objectifs de marchés et de localization.
-
-Nous réalisons des études approfondies pour évaluer les tendances du marché et les concurrents afin de comprendre ce que la localization peut vous apporter.
-
-Notre équipe élabore une [stratégie de localization personnalisée](https://mikebastin.com/fr/services/branding-multilingue/) pour assurer le succès de votre application mobile à l’international.
-
-Le processus de localization consiste à traduire et adapter le contenu, l’interface et les fonctionnalités.
-
-Après le lancement, nous surveillons et mettons continuellement à jour votre application localisée pour répondre aux préférences des utilisateurs, aux tendances linguistiques et aux exigences du marché.
-
-FAQ, Questions fréquentes
-
-La localization d’applications implique l’adaptation de la langue, du contenu et des fonctionnalités de votre application pour les différents marchés régionaux.
-
-La localization d’une application mobile sert à proposer vos produits et services dans la langue de l’utilisateur. Vous améliorez ainsi l’expérience utilisateur sur de nouveaux marchés.
-
-Nous proposons des services de localization pour les principales langues internationales pour répondre aux particularités régionales.
-
-Le délai de livraison dépend de la complexité de l’application et du nombre de langues visées. Habituellement, nous finalisons la localization en 2 à 4 semaines.
-
-Non. Notre processus de localization préserve le look and feel de votre application.
-
-Nos clients
-
-Principaux avantages de notre service de localization d’applications
-
--   **Plus de téléchargements :** attirez des utilisateurs partout dans le monde.
--   **Meilleure expérience utilisateur :** adaptez l’expérience utilisateur à votre public.
--   **Engagement renforcé** : séduisez les utilisateurs grâce à un contenu qui parle à vos visiteurs.
-
-### Maîtrise incontestée de la localization d’applications : notre gage de qualité
-
-Avec des années d’expérience dans le domaine de la traduction et de la localization, notre équipe a accompagné de nombreuses entreprises dans leurs efforts [d’internationalisation grâce à la localization des applications](https://mikebastin.com/fr/services/internationalisation-de-logiciels/). Nous comprenons les défis que représente l’adaptation des applications pour différents marchés et dans une palette de langues.
-
-Confiez-nous la traduction de vos applications, nous traitons la plupart des formats de fichiers comme .PROPERTIES et JSON et vous ne le regretterez pas.
+Nous travaillons au mois, et chaque demande reçoit une réponse, en général sous un jour ouvré.

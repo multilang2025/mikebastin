@@ -1180,6 +1180,9 @@
    "type": "service",
    "tier": null,
    "action": "absorb",
+   "locale_actions": {
+    "fr": "migrate"
+   },
    "destination": "mdx",
    "absorbed_into": "ai-consulting",
    "vm_action": null,
@@ -1404,6 +1407,9 @@
    "type": "service",
    "tier": null,
    "action": "absorb",
+   "locale_actions": {
+    "fr": "migrate"
+   },
    "destination": "mdx",
    "absorbed_into": "app-and-software-localisation",
    "vm_action": null,
@@ -1600,6 +1606,9 @@
    "type": "service",
    "tier": null,
    "action": "absorb",
+   "locale_actions": {
+    "fr": "migrate"
+   },
    "destination": "mdx",
    "absorbed_into": "ai-translation-and-post-editing",
    "vm_action": null,
@@ -1712,6 +1721,9 @@
    "type": "service",
    "tier": null,
    "action": "absorb",
+   "locale_actions": {
+    "fr": "migrate"
+   },
    "destination": "mdx",
    "absorbed_into": "multilingual-content",
    "vm_action": null,
@@ -2222,6 +2234,9 @@
    "type": "service",
    "tier": null,
    "action": "absorb",
+   "locale_actions": {
+    "fr": "migrate"
+   },
    "destination": "mdx",
    "absorbed_into": "translation-services",
    "vm_action": null,
@@ -3791,6 +3806,23 @@
    },
    "fr": null,
    "es": null
+  },
+  {
+   "group": "g177",
+   "type": "service",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "note": "French-only page built 29 Sep 2026 (docs/FR-REBUILD-PLAN.md, owner: technical SEO gets its own French page). The EN technical-seo page is a consolidated page with no group of its own, so this group has no en entry; four legacy French URLs 301 here.",
+   "fr": {
+    "id": null,
+    "slug": "seo-technique",
+    "url": "https://mikebastin.com/fr/services/seo-technique/",
+    "content_path": "site/content/fr/services/seo-technique.md"
+   }
   }
  ]
 }

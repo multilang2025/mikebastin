@@ -40,7 +40,11 @@ const GROUPS: { heading: string; slugs: string[] }[] = [
   },
   {
     heading: "Référencement et acquisition",
-    slugs: ["seo", "referencement-multilingue", "referencement-local", "sem-multilingue"],
+    slugs: ["seo", "referencement-multilingue", "seo-technique", "referencement-local", "sem-multilingue"],
+  },
+  {
+    heading: "Contenu, traduction et IA",
+    slugs: ["creation-de-contenu-multilingue", "traduction-professionnelle", "postedition-ia", "conseil-ia"],
   },
   { heading: "Localisation", slugs: [] },
 ];
@@ -97,13 +101,22 @@ export default function FrenchServicesIndex() {
               </div>
             </Reveal>
             {/* Three across only when the row fills: two or four cards in a
-                three-column grid leave an empty grey cell. */}
+                three-column grid leave an empty grey cell. An odd count in
+                two columns widens its last card for the same reason. */}
             <ul
               className={`grid gap-px sm:grid-cols-2 ${g.items.length % 3 === 0 ? "lg:grid-cols-3" : ""}`}
               style={{ background: "var(--rule)" }}
             >
               {g.items.map((s, i) => (
-                <Reveal key={s.slug} i={i}>
+                <Reveal
+                  key={s.slug}
+                  i={i}
+                  className={
+                    g.items.length % 3 !== 0 && g.items.length % 2 === 1 && i === g.items.length - 1
+                      ? "sm:col-span-2"
+                      : undefined
+                  }
+                >
                   <li className="band group h-full" style={{ background: "var(--bg)" }}>
                     <Link href={servicePath("fr", s.slug)} className="flex h-full flex-col px-7 py-8">
                       <span className="ulink mb-2 text-[1.08rem] font-semibold">{s.title}</span>
