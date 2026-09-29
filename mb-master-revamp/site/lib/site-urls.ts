@@ -14,6 +14,7 @@ import {
   servicePath,
 } from "@/lib/services-locale";
 import { SITE_URL } from "@/lib/schema";
+import { builtFrPages, enLanguages, frLanguages } from "@/lib/fr-pages";
 
 /**
  * Every indexable URL on the site, in one place.
@@ -77,7 +78,17 @@ const STATIC: { path: string; section: string; label: string }[] = [
 ];
 
 export function getSiteUrls(): UrlEntry[] {
-  const out: UrlEntry[] = STATIC.map((e) => ({ ...e, locale: "en" as const, kind: "page" as const }));
+  const out: UrlEntry[] = STATIC.map((e) => ({
+    ...e,
+    locale: "en" as const,
+    kind: "page" as const,
+    languages: enLanguages(e.path),
+  }));
+
+  // The hand-built French pages (lib/fr-pages-data.ts), once their route exists.
+  for (const p of builtFrPages()) {
+    out.push({ path: p.path, locale: "fr", kind: "page", section: "French", label: p.label, languages: frLanguages(p.path) });
+  }
 
   // Services. lead-generation has its own hand-built route rather than
   // going through /services/[slug]/, but its URL is the same shape, so it
@@ -155,7 +166,7 @@ export function getSiteUrls(): UrlEntry[] {
         lastModified: sv.modified || sv.date,
         section: `${heading} services`,
         label: sv.title,
-        languages: serviceHreflang(sv.group),
+        languages: serviceHreflang(sv.group, locale),
       });
     }
   }

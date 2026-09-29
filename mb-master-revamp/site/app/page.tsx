@@ -8,6 +8,7 @@ import { PROJECTS } from "@/lib/projects";
 import Testimonials from "@/components/Testimonials";
 import SiteFooter from "@/components/SiteFooter";
 import { SITE_URL } from "@/lib/schema";
+import { enLanguages } from "@/lib/fr-pages";
 
 // The homepage previously inherited the root layout's metadata, which is the
 // whole-site fallback rather than anything aimed at a query. It now carries
@@ -22,7 +23,7 @@ const DESCRIPTION =
 export const metadata: Metadata = {
   title: TITLE,
   description: DESCRIPTION,
-  alternates: { canonical: `${SITE_URL}/` },
+  alternates: { canonical: `${SITE_URL}/`, languages: enLanguages("/") },
   // og:image comes from the colocated app/opengraph-image.tsx, not an
   // `images` array here, so the card can never drift from the file that
   // renders it. `robots` is deliberately absent: the preview-only noindex

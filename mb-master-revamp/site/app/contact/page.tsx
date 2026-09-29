@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { pageMeta } from "@/lib/meta";
+import { enLanguages } from "@/lib/fr-pages";
 import Reveal from "@/components/Reveal";
 import SiteFooter from "@/components/SiteFooter";
 import { Button } from "@/components/ui/Button";
@@ -13,6 +14,7 @@ export const metadata: Metadata = {
     title: "Contact, Mike Bastin",
     description: "Tell us which language you want selling next. A short brief on multilingual SEO, localization or AI consulting gets a straight answer within a working day.",
     path: "/contact/",
+    languages: enLanguages("/contact/"),
     fallbackImage: true,
   }),
 };

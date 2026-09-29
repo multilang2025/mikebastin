@@ -596,6 +596,11 @@ of the EN lock, is done: `scripts/gen-fr-redirects.mjs` gives every legacy
 French URL a 301, or a 302 to the nearest live French page while its
 destination is unbuilt. Rerun it whenever a planned French page ships.
 The redirect lint checks all 74 French legacy URLs.
+Phase 3 started 29 Sep 2026 on the owner's "continue building FR": the
+French homepage, services index, blog index and contact pages are built,
+with French copy drafted for the owner's review. `lib/fr-pages-data.ts`
+is the one list of French pages; add a page there and it reaches the
+menu, sitemap and hreflang at once.
 
 The gaps below are the FR and ES starting position whenever the gate
 opens. Flagged rather than forgotten, so they are known and deliberate:

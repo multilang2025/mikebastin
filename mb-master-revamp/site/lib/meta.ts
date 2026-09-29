@@ -38,6 +38,7 @@ export function pageMeta({
   modifiedTime,
   languages,
   fallbackImage = false,
+  ogLocale = "en_GB",
 }: {
   title: string;
   description: string;
@@ -49,6 +50,8 @@ export function pageMeta({
   languages?: Record<string, string>;
   /** Only for routes without their own opengraph-image.tsx. */
   fallbackImage?: boolean;
+  /** og:locale; "fr_FR" on the French pages. */
+  ogLocale?: string;
 }): Metadata {
   const url = `${SITE_URL}${path}`;
   return {
@@ -58,7 +61,7 @@ export function pageMeta({
     openGraph: {
       type,
       siteName: SITE_NAME,
-      locale: "en_GB",
+      locale: ogLocale,
       url,
       title,
       description,

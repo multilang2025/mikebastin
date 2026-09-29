@@ -1,7 +1,7 @@
 ---
 words: 677
 editorial: "superseded"
-title: "Localization d'applications"
+title: "Localisation d'applications"
 slug: "localisation-applications"
 locale: "fr"
 type: "services"

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { pageMeta } from "@/lib/meta";
+import { enLanguages } from "@/lib/fr-pages";
 import Link from "next/link";
 import PostImage from "@/components/PostImage";
 import Reveal from "@/components/Reveal";
@@ -14,6 +15,7 @@ export const metadata: Metadata = {
     title: "Multilingual SEO and AI journal, Mike Bastin",
     description: "Fifty nine posts on multilingual SEO, localization and AI, grouped by subject, with the service behind each group named alongside it.",
     path: "/blog/",
+    languages: enLanguages("/blog/"),
   }),
 };
 

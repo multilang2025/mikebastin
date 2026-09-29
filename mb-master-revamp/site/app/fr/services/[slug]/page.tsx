@@ -28,7 +28,7 @@ export async function generateMetadata({
   const { slug } = await params;
   const service = getServiceForLocale(LOCALE, slug);
   if (!service) return {};
-  const languages = serviceHreflang(service.group);
+  const languages = serviceHreflang(service.group, LOCALE);
   return {
     title: postMetaTitle(service.title),
     description: service.excerpt,

@@ -22,8 +22,15 @@ const TO      = 'hello@mikebastin.com';
 const SUBJECT = 'mikebastin.com enquiry';
 const THANKS  = '/contact/thanks/';
 const FAILED  = '/contact/problem/';
+// The French contact page (app/fr/nous-contacter/) posts lang=fr, so its
+// visitors land on French pages. Same form, same fields, same mailbox.
+const THANKS_FR = '/fr/nous-contacter/merci/';
+const FAILED_FR = '/fr/nous-contacter/probleme/';
 
 function back(string $where): never {
+    if (($_POST['lang'] ?? '') === 'fr') {
+        $where = $where === THANKS ? THANKS_FR : FAILED_FR;
+    }
     header('Location: ' . $where, true, 303);
     exit;
 }

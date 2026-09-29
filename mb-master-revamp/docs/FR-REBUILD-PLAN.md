@@ -148,7 +148,37 @@ post-editing to `localisation-de-site-web`; multilingual content to
   types, e.g. "agence seo international", "référencement multilingue",
   "traduction site web", not "seo France".
 
-**3. Templates and plumbing.**
+**3. Templates and plumbing. Started 29 Sep 2026** (owner: "continue
+building FR", which releases phase 3 ahead of the EN lock; the French copy
+it ships is a draft the owner reviews, per decision 5). First slice done:
+
+- `lib/fr-pages-data.ts` and `lib/fr-pages.ts`: one list of the French
+  pages and their English siblings, read by the pages, the sitemap, the
+  French menu and the reciprocal hreflang on the English pages. A page
+  counts as built when its route file exists.
+- Built: `/fr/` homepage, `/fr/services/` index, `/fr/blog/` index,
+  `/fr/nous-contacter/` with `merci/` and `probleme/`. The form posts to
+  the same `public/contact.php` with `lang=fr`, which lands French
+  visitors on the French pages.
+- French menu, menu button and call to action on every `/fr/` URL; footer
+  links to the French contact and services index, and hides the English
+  results link on French pages.
+- `pageMeta` takes `ogLocale`; French pages carry `fr_FR`.
+- `g077` gets `"hreflang_standalone": ["fr"]`, so `/fr/services/seo/`
+  and EN `/services/french-seo/` no longer claim each other.
+- `gen-fr-redirects.mjs` rerun: 14 permanent rules, 22 temporary; unbuilt
+  pages now wait on `/fr/` rather than on the SEO service page.
+- `copy-lint-code.mjs` skips `app/fr/` and `app/es/`: its rules are
+  English and misfired on French ("même" matched the first-person "me").
+- Legacy titles "Localization ..." corrected to "Localisation ...".
+
+Next slice: `/fr/notre-equipe/`, `/fr/tarifs/`, the six new service pages,
+the French copy lint. Legacy French copy to fix in phase 4, noted while
+building: several service excerpts say "25 années d'expérience" (the
+owner's rule is "over two decades"), and two post titles use
+"optimizer" for "optimiser".
+
+The original phase 3 list:
 - Routes: `/fr/` homepage, `/fr/services/` index, `/fr/blog/` index,
   `/fr/nous-contacter/` plus thanks and problem, `/fr/notre-equipe/`,
   `/fr/tarifs/`.

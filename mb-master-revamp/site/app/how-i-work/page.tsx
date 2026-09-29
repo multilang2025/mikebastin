@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { pageMeta } from "@/lib/meta";
+import { enLanguages } from "@/lib/fr-pages";
 import Link from "next/link";
 import Reveal from "@/components/Reveal";
 import SiteFooter from "@/components/SiteFooter";
@@ -19,6 +20,7 @@ export const metadata: Metadata = {
     title: "How we work, Mike Bastin",
     description: "How a multilingual SEO, localization or AI consulting engagement actually runs: the discovery call, the written scope, delivery cadence and reporting.",
     path: "/how-i-work/",
+    languages: enLanguages("/how-i-work/"),
     fallbackImage: true,
   }),
 };

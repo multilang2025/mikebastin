@@ -1,6 +1,6 @@
 ---
 words: 1163
-title: "Localization juridique et réglementaire"
+title: "Localisation juridique et réglementaire"
 slug: "localisation-juridique-reglementaire"
 locale: "fr"
 type: "services"

@@ -6,6 +6,7 @@ import SiteFooter from "@/components/SiteFooter";
 import { SERVICES, CLUSTERS, CLUSTER_HEADING } from "@/lib/services";
 import { SITE_URL, breadcrumbSchema } from "@/lib/schema";
 import JsonLd from "@/components/JsonLd";
+import { enLanguages } from "@/lib/fr-pages";
 
 const DESCRIPTION =
   "Multilingual SEO, localization and AI consulting in nineteen services across five groups, from market strategy to translation, paid search and the technical work underneath.";
@@ -16,7 +17,7 @@ const HERO_TITLE = "Multilingual SEO services, Mike Bastin";
 export const metadata: Metadata = {
   title: HERO_TITLE,
   description: DESCRIPTION,
-  alternates: { canonical: CANONICAL },
+  alternates: { canonical: CANONICAL, languages: enLanguages("/services/") },
   // og:image/twitter:image come from the colocated opengraph-image.tsx
   // (Next.js file-convention metadata), not an `images` array here.
   openGraph: {

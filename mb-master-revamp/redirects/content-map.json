@@ -1769,6 +1769,9 @@
    "tier": null,
    "action": "migrate",
    "destination": "mdx",
+   "hreflang_standalone": [
+    "fr"
+   ],
    "absorbed_into": null,
    "vm_action": null,
    "vm_target_url": null,

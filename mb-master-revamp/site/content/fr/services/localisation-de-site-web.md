@@ -1,7 +1,7 @@
 ---
 words: 392
 editorial: "light"
-title: "Localization de site web"
+title: "Localisation de site web"
 slug: "localisation-de-site-web"
 locale: "fr"
 type: "services"
