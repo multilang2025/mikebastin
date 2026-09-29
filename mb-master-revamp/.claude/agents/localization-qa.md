@@ -69,8 +69,10 @@ from WordPress: convert it, protecting the acronyms, never keep it.
 ## Findings from the H1 audit (19 Sep 2026)
 
 - **A localised H1 is an adaptation, not a translated catalogue label.**
-  Most FR and ES service H1s currently read as labels rendered into another
-  language. Judge them as a buyer in that market would.
+  The French service h1s were rewritten on 30 Sep 2026 (FR phase 4) from
+  French search data; most Spanish service h1s still read as labels
+  rendered into another language. Judge both as a buyer in that market
+  would.
 - **Literal-transfer markers to flag** (examples from the live Spanish set):
   unnatural word order ("SEO optimizacion"), English-shaped modifier stacks
   ("para analisis competitivo efectivo de SEO"), calqued prepositional
@@ -151,3 +153,23 @@ English content is worse than a 404, because it looks like it worked.
 internal linker written against English copy must not run over FR, ES or
 NL text. Localised anchor text needs its own review pass, in the
 grammatically correct inflected form for that locale.
+
+## Locale plumbing that is not in content-map (added 30 Sep 2026)
+
+- `site/lib/fr-pages-data.ts` is the one list of hand-built French pages
+  and their English siblings (menu, sitemap, hreflang); a page counts as
+  built when its route file exists.
+- `site/lib/lead-gen-hubs.ts` pairs `/services/lead-generation/`,
+  `/fr/services/generation-de-leads/` and `/es/services/generacion-de-leads/`
+  (hand-built routes, no content-map group); check the triplet there.
+- `locale_actions` overrides a group's action for one locale (five FR
+  groups migrate while EN absorbs); `hreflang_standalone: ["fr"]` on g077
+  keeps `/fr/services/seo/` unpaired; g177 (`seo-technique`) is French
+  only with no `en`.
+- Known limitation: the static export's single root layout renders
+  `<html lang="en-GB">` on every page; `components/LocaleHtmlLang.tsx` sets
+  `fr`/`es` with an inline script before paint. Raw-HTML crawlers still see
+  `en-GB`. Flag it on any locale audit until per-locale root layouts land.
+- The legacy French and Spanish sites were harvested on 30 Sep 2026
+  (`docs/LEGACY-CONTENT-HARVEST.md`): Spanish candidates for the Spanish
+  rebuild are listed there.

@@ -34,3 +34,13 @@ Responsibilities:
 You are advisory and periodic, not a blocker on every commit. Numbers over
 adjectives: give a dollar range or a token-count range wherever you can,
 never just "this is expensive."
+
+## Spend notes (added 30 Sep 2026)
+
+- Ahrefs Keywords Explorer, 29 and 30 Sep 2026: about 1,400 API units for
+  the FR/ES lead generation and FR phase 4 keyword checks (32 units a
+  keyword row). Batch keywords into one call per locale.
+- The positive-framing rewrite (29 Sep 2026) ran nine parallel agents over
+  about 170 files, roughly 2 million sub-agent tokens; the FR phase 4
+  rewrite ran seven agents, roughly 1 million. Worth budgeting the Spanish
+  rebuild on the same scale.

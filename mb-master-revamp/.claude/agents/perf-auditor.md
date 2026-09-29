@@ -30,3 +30,8 @@ You own the performance budget for the MB Master Revamp front end
 
 Report as pass/fail against each budget line above, with the specific file
 or component responsible for any regression.
+
+## Build-time checks (added 30 Sep 2026)
+
+- `lint:negative` and `lint:fr` read `out/` after the build; together they
+  add seconds, not minutes. The deploy's FTP step remains the long pole.

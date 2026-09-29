@@ -269,3 +269,22 @@ English posts carry a percentage and 14 carry a `Source:` line, and the
 wrong response to a red build would be to attach a plausible-looking
 citation to 35 posts. Report it, keep it visible, close it one real source
 at a time.
+
+## French and Spanish copy (added 30 Sep 2026)
+
+- `npm run lint:fr` (`site/scripts/fr-copy-lint.mjs`) is the French half
+  of this agent's checks, on the built `out/fr/`: *nous* voice (never je,
+  mon, mes), vouvoiement, U+00A0 before `: ; ? !` and inside « »,
+  localisation/optimiser (the US `optimiz*`/`localiz*` exception is
+  English only), "plus de deux décennies", sentence case, untranslated
+  English runs, and the French forbidden list (exhaustif, sur mesure, sans
+  couture, tirer parti, innovant, robuste, transformateur, en constante
+  évolution, en conclusion, il est important de noter, cependant, "De
+  plus,", en outre, incontournable). `npm run fix:fr` applies spacing and
+  spelling mechanically.
+- Spanish copy addresses the reader as *tú* (owner, 29 Sep 2026).
+- A quoted query or prompt in « » keeps the searcher's own words.
+- `site/scripts/negative-wording-allow.json` holds the only exemptions
+  from `lint:negative` (two verbatim reviews, the 404 title), each with its
+  reason. Add to it only for a verbatim quote, a searched query or a legal
+  distinction.

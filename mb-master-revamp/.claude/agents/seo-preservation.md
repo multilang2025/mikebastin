@@ -116,3 +116,16 @@ word, grammatically inflected for its locale, and varied across pages
 rather than the same phrase repeated. Shared with `seo-offpage`, which
 owns the policy; check it here on any PR that adds internal links in bulk,
 `lib/posts.ts` related-post rotation included.
+
+## French and Spanish surface (added 30 Sep 2026)
+
+- All 74 legacy French URLs are in `npm run lint:redirects`;
+  `scripts/gen-fr-redirects.mjs` regenerates the `fr-safety-net` block
+  (all 301 since 29 Sep 2026). Rerun it when a French page ships.
+- hreflang comes from three places, all reciprocal: content-map groups,
+  `lib/fr-pages-data.ts` (hand-built French pages) and `lib/lead-gen-hubs.ts`
+  (the three lead generation hubs). A new hand-built locale page must be
+  added to one of them, never hard-coded on one side.
+- `<html lang>` is `en-GB` in the raw HTML of FR and ES pages (single root
+  layout; set client-side by `LocaleHtmlLang`). hreflang and og:locale are
+  correct; the html attribute is a known gap, not a regression.

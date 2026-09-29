@@ -133,3 +133,9 @@ The same playbook section quotes our own token set and band alternation
 back to us as a device "worth stealing", having observed
 preview.mikebastin.com from the outside. Do not read that as external
 validation of a token decision it learned from HANDOFF.md.
+
+## Grid rule on the French services index (added 29 Sep 2026)
+
+- A card grid goes three across only when the row fills; in two columns an
+  odd count widens its last card (`sm:col-span-2` on the `Reveal`
+  wrapper, since `Reveal` is the grid item). No empty grey cell.

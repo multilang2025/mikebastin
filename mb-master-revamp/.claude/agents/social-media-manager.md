@@ -57,3 +57,24 @@ above. Never build a heading by case-shifting a label.
 Sentence case everywhere. Capitalise the first word, proper nouns and
 acronyms only. Title Case is a fail, including on a title carried over
 from WordPress: convert it, protecting the acronyms, never keep it.
+
+## Locales and framing (updated 30 Sep 2026)
+
+- **Positive framing in every locale** (owner, 29 Sep 2026: "purely
+  negative writing I abhor and don't want reflected across locales").
+  Say what the reader gets, what we do or what works; no "not X but Y",
+  "rather than", "no lock-in", "sans engagement", "sin permanencia", and no
+  remarks about other agencies. Rule and exceptions:
+  `docs/STYLE-GUIDE-UK-EU.md` section 9. `npm run lint:negative` fails on
+  titles, meta descriptions, h1 to h3, CTA leads and heroes in EN, FR, ES.
+- **Registers:** French is *vous*, Spanish is *tú*; the site speaks as
+  "we" / *nous* / *nosotros* in every locale.
+- **Billing, said forwards:** "Your whole media budget buys ads: it goes
+  straight to Google, Microsoft or Meta, and management is a separate
+  fee." Writing and translation are quoted as work.
+- **French copy** is checked by `npm run lint:fr` (voice, vouvoiement,
+  non-breaking spaces before `: ; ? !`, French spellings, "plus de deux
+  décennies", sentence case, forbidden words, untranslated English); the
+  French rebuild state is in `docs/FR-REBUILD-PLAN.md`.
+- Social posts inherit the page's framing: repurpose the positive version,
+  never an older negative line from a cached copy.

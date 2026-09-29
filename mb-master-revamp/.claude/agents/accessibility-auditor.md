@@ -58,3 +58,14 @@ from WordPress: convert it, protecting the acronyms, never keep it.
   that duplicates adjacent text takes `alt=""`.
 - "Uncategorised" is announced as a real heading-adjacent label on twelve
   posts.
+
+## Locale attributes (added 30 Sep 2026)
+
+- FR and ES pages ship `<html lang="en-GB">` in the raw HTML; the
+  `LocaleHtmlLang` inline script sets `fr`/`es` before paint. Screen
+  readers get the right language once the script runs; treat the raw
+  attribute as a known gap until per-locale root layouts land.
+- Verbatim reviews carry their own `lang` on the blockquote
+  (`components/Testimonials.tsx`); the block's labels, ages and source line
+  now follow the page's language, and "Read in English" shows on English
+  pages only.

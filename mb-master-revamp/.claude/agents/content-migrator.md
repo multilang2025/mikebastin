@@ -137,3 +137,27 @@ a one-off script. A hand-rolled count drifts from the render pipeline and
 reports false parity. Today `scripts/flag-thin.mjs` is the only counter in
 the repo, so the rule costs nothing to keep; the moment a second script
 needs a count, extract the first one rather than writing another.
+
+## Locales and framing (updated 30 Sep 2026)
+
+- **Positive framing in every locale** (owner, 29 Sep 2026: "purely
+  negative writing I abhor and don't want reflected across locales").
+  Say what the reader gets, what we do or what works; no "not X but Y",
+  "rather than", "no lock-in", "sans engagement", "sin permanencia", and no
+  remarks about other agencies. Rule and exceptions:
+  `docs/STYLE-GUIDE-UK-EU.md` section 9. `npm run lint:negative` fails on
+  titles, meta descriptions, h1 to h3, CTA leads and heroes in EN, FR, ES.
+- **Registers:** French is *vous*, Spanish is *tú*; the site speaks as
+  "we" / *nous* / *nosotros* in every locale.
+- **Billing, said forwards:** "Your whole media budget buys ads: it goes
+  straight to Google, Microsoft or Meta, and management is a separate
+  fee." Writing and translation are quoted as work.
+- **French copy** is checked by `npm run lint:fr` (voice, vouvoiement,
+  non-breaking spaces before `: ; ? !`, French spellings, "plus de deux
+  décennies", sentence case, forbidden words, untranslated English); the
+  French rebuild state is in `docs/FR-REBUILD-PLAN.md`.
+- **Legacy French and Spanish harvest** (30 Sep 2026):
+  `docs/LEGACY-CONTENT-HARVEST.md` records what was brought back from the
+  live legacy pages and what was left out. Legacy copy is a source of
+  facts, never of framing: drop prices, turnarounds, unsourced figures,
+  "25 ans", *je* voice and remarks about other agencies.
