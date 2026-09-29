@@ -6,8 +6,8 @@ import { ButtonLink } from "@/components/ui/Button";
 
 export const metadata: Metadata = {
   ...pageMeta({
-    title: "The message did not send, Mike Bastin",
-    description: "The form did not go through. Email reaches exactly the same place.",
+    title: "Send your message by email, Mike Bastin",
+    description: "The form hit a snag on our side. Email reaches exactly the same place, so your message still gets to us.",
     path: "/contact/problem/",
     fallbackImage: true,
   }),
@@ -20,11 +20,11 @@ export default function ProblemPage() {
       <section className="band band-a grain relative overflow-hidden pb-[clamp(64px,9vw,120px)] pt-[clamp(96px,14vw,180px)]">
         <div className="shell relative">
           <Reveal>
-            <p className="eyebrow mb-8">Our fault, not yours</p>
+            <p className="eyebrow mb-8">The fix is on our side</p>
           </Reveal>
           <Reveal i={1}>
             <h1 className="mb-6 max-w-[16ch] text-[clamp(2.3rem,5.6vw,4rem)] font-semibold leading-[1.08]">
-              The message did not send
+              Send your message by email
             </h1>
           </Reveal>
           <Reveal i={2}>
@@ -32,8 +32,9 @@ export default function ProblemPage() {
               className="mb-10 max-w-[58ch] text-[clamp(1.05rem,1.65vw,1.24rem)]"
               style={{ color: "var(--dim)" }}
             >
-              Either a required field came through empty or the mail relay
-              refused it. Rather than make you guess which, email us directly at{" "}
+              The form hit a snag: either a required field came through empty
+              or the mail relay held it. The quickest route is to email us
+              directly at{" "}
               <a href="mailto:hello@mikebastin.com" className="ulink">
                 hello@mikebastin.com
               </a>{" "}

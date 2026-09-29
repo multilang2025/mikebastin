@@ -14,7 +14,7 @@ excerpt: "Explota todo tu potencial empresarial en el mercado multilingüe con e
 
 # SEO multilingüe: un solo consultor, varios mercados, ejecución nativa
 
-Pilotaje estratégico de mi parte. Redacción nativa por idioma desde la red BeTranslated. WPML, hreflang y schema configurados desde el brief, no parcheados después.
+Pilotaje estratégico de mi parte. Redacción nativa por idioma desde la red BeTranslated. WPML, hreflang y schema configurados desde el brief.
 
 4+ idiomas
 
@@ -32,29 +32,29 @@ SEO + GEO
 
 visibilidad por idioma en SERP de Google y en motores IA que responden en ese idioma
 
-## Dónde fallan la mayoría de los proyectos de SEO multilingüe
+## Lo que necesita un proyecto de SEO multilingüe para funcionar
 
 Tres patrones recurrentes en cada auditoría de sitio multilingüe:
 
-Pasar el contenido por DeepL más un 10% de revisión humana no es localización, es traducción automática parcheada. Google la detecta, los motores IA evitan citarla y los lectores nativos abandonan la página en segundos. La tentación económica es real, el resultado SEO es sistemáticamente plano. La redacción nativa por idioma es la única base viable.
+La localización empieza por la redacción nativa en cada idioma. Google reconoce el texto escrito para su mercado, los motores IA lo citan y los lectores nativos se quedan en la página. Pasar el contenido por DeepL con un 10% de revisión humana resulta más barato al principio; la redacción nativa por idioma es la base que sostiene los resultados SEO.
 
-Etiquetas hreflang ausentes, en bucle, mezcladas con códigos de idioma incorrectos o sin presencia en la portada. Google acaba mostrando la versión equivocada al país equivocado y las conversiones caen. Search Console reporta un laberinto. La corrección técnica está bien definida pero hay que ejecutarla con rigor y verificarla, no asumirla.
+Revisa que cada página lleve sus etiquetas hreflang, con enlaces de retorno correctos, los códigos de idioma adecuados y presencia en la portada. Así Google muestra a cada país su versión, las conversiones llegan y Search Console queda claro. La corrección técnica está bien definida: hay que ejecutarla con rigor y verificarla.
 
-Un redactor publica en francés, otro añade español seis meses después sin coordinar slugs, enlaces internos, schema ni keywords objetivo. El sitio crece de manera inconsistente. Hacia el mes 12 la arquitectura multilingüe es un enredo que nadie puede auditar. La gobernanza SEO por idioma debe estar definida desde el día uno.
+Cuando un redactor publica en francés y otro añade español seis meses después, los dos coordinan slugs, enlaces internos, schema y keywords objetivo. Con esa coordinación el sitio crece de forma coherente y, en el mes 12, la arquitectura multilingüe sigue siendo fácil de auditar. La gobernanza SEO por idioma se define desde el día uno.
 
-Mi método de SEO multilingüe ataca los tres patrones desde el alcance: redacción nativa por idioma, configuración técnica validada en el lanzamiento y gobernanza documentada antes de publicar la primera página. El sitio crece limpio, no parcheado.
+Mi método de SEO multilingüe ataca los tres patrones desde el alcance: redacción nativa por idioma, configuración técnica validada en el lanzamiento y gobernanza documentada antes de publicar la primera página. El sitio crece limpio.
 
 ## Qué incluye una intervención de SEO multilingüe
 
-Investigación nativa en cada idioma objetivo: intención comercial real, long tail por mercado, vocabulario sectorial. No un set traducido del inglés.
+Investigación nativa en cada idioma objetivo: intención comercial real, long tail por mercado, vocabulario sectorial. Un set construido en cada idioma desde el principio.
 
 Subdirectorio vs subdominio vs ccTLD: recomendación razonada. Slugs traducidos, hreflang, sitemaps por idioma, segmentación geográfica en Search Console.
 
-Directa en FR, EN, ES, NL. Redactores nativos de BeTranslated para DE, IT, PT y otros idiomas. Sin traducción automática vendida como nativa.
+Directa en FR, EN, ES, NL. Redactores nativos de BeTranslated para DE, IT, PT y otros idiomas. Lo que se presenta como nativo lo escribe un nativo.
 
 Stack WPML completo: String Translation, Translation Management, conmutador de idiomas, hreflang limpio, traducción de custom fields. Polylang o TranslatePress en casos puntuales.
 
-LocalBusiness, Service, Product, Article, FAQ, BreadcrumbList por idioma. JSON-LD personalizado cuando los plugins se quedan cortos. Validado en Google Rich Results por idioma.
+LocalBusiness, Service, Product, Article, FAQ, BreadcrumbList por idioma. JSON-LD personalizado cuando hace falta ir más allá de los plugins. Validado en Google Rich Results por idioma.
 
 Los LLM responden por idioma con grafos de conocimiento distintos. Optimización para ChatGPT, Claude, Perplexity y Google AI Overviews por idioma objetivo.
 
@@ -94,13 +94,13 @@ Tres intervenciones donde el alcance multilingüe era el reto central.
 
 **Resultado:** leads recurrentes desde tres mercados en sus idiomas respectivos sobre consultas de intención comercial (derecho mercantil, contratos de franquicia, asistencia NIE), citaciones IA por idioma sobre consultas jurídicas en Valencia.
 
-## Qué se incluye, qué no
+## Qué se incluye y qué se cubre aparte
 
 Servicio
 
 Incluido
 
-No incluido
+Cubierto aparte
 
 Auditoría SEO multilingüe (por idioma)
 
@@ -156,9 +156,9 @@ Construcción inicial del sitio multilingüe desde cero
 
 Ejecución directa con fluidez: francés, inglés, español (residente en Valencia desde 2016, 16 años previos en República Dominicana), neerlandés (Erasmus en Utrecht + clientela neerlandófona caribeña). Alemán e italiano suficientes para dirigir proyectos SEO en ambos idiomas, y lectura de catalán.
 
-Para los idiomas que no redacto nativamente (DE, IT, PT y otros), redactores nativos de la red BeTranslated se encargan de la producción mientras coordino estrategia y gobernanza SEO. Un solo interlocutor, un consultor responsable, sin briefs diluidos entre tres niveles de project managers.
+Para DE, IT, PT y otros idiomas, redactores nativos de la red BeTranslated se encargan de la producción mientras coordino estrategia y gobernanza SEO. Un solo interlocutor, un consultor responsable, y cada brief pasa directamente de mí al redactor.
 
-El diferenciador: no finjo redactar idiomas que no domino. El modelo es transparente y la cadena de producción es una que he construido y operado yo mismo durante años.
+El diferenciador: redacto los idiomas que domino y confío el resto a nativos. El modelo es transparente y la cadena de producción es una que he construido y operado yo mismo durante años.
 
 [Más sobre el equipo →](https://mikebastin.com/es/conocenos-agencia-experta-en-seo/)
 
@@ -182,11 +182,11 @@ El SEO multilingüe se centra en el idioma: atender a hispanohablantes independi
 
 ¿WPML, Polylang o TranslatePress para WordPress?
 
-WPML por defecto en proyectos multilingües serios (gestión de traducción más potente, mejor soporte, compatibilidad con más plugins). Polylang para presupuestos más ajustados o estructuras simples. TranslatePress para sitios que necesitan traducción en contexto en vivo (por ejemplo, para equipos de contenido no técnicos). La recomendación llega después de ver tu stack y equipo en el alcance.
+WPML por defecto en proyectos multilingües serios (gestión de traducción más potente, mejor soporte, compatibilidad con más plugins). Polylang para presupuestos más ajustados o estructuras simples. TranslatePress para sitios que necesitan traducción en contexto en vivo (por ejemplo, para equipos de contenido de perfil editorial). La recomendación llega después de ver tu stack y equipo en el alcance.
 
 ¿Subdirectorios, subdominios o ccTLD?
 
-Subdirectorio por defecto (consolida autoridad, más fácil de gestionar). ccTLD si necesitas máximas señales de confianza local en mercados grandes y tienes presupuesto para dominios separados. Subdominio rara vez es la mejor opción en 2026 salvo limitación técnica. Recomendación razonada en el alcance.
+Subdirectorio por defecto (consolida autoridad, más fácil de gestionar). ccTLD si necesitas máximas señales de confianza local en mercados grandes y tienes presupuesto para dominios separados. El subdominio encaja en 2026 sobre todo cuando hay una limitación técnica. Recomendación razonada en el alcance.
 
 ¿Cuántos idiomas puedes cubrir a la vez?
 
@@ -194,18 +194,18 @@ Fluidez directa: 4 (FR, EN, ES, NL). Con la red nativa: cualquier idioma europeo
 
 ¿Reusarás mis traducciones existentes o las rehaces?
 
-Las traducciones existentes se auditan primero. Si la calidad es aceptable y los lectores nativos lo confirman, las mantenemos y optimizamos encima. Si la calidad es dudosa o pura traducción automática, recomiendo reescribir las páginas estratégicas y aceptar las páginas de menor prioridad tal cual por ahora. Sin reescritura dogmática, pero sin tapar mala traducción tampoco.
+Las traducciones existentes se auditan primero. Si la calidad es aceptable y los lectores nativos lo confirman, las mantenemos y optimizamos encima. Si la calidad es dudosa o pura traducción automática, recomiendo reescribir las páginas estratégicas y dejar por ahora las de menor prioridad tal cual. Reescribo donde aporta y señalo con claridad la traducción que necesita trabajo.
 
 ¿Cómo se mantiene la gobernanza SEO multilingüe en el tiempo?
 
-Tres artefactos: (1) hoja de cálculo de keywords por idioma actualizada trimestralmente; (2) calendario editorial por idioma con slots de publicación; (3) documento de gobernanza que define quién puede publicar en cada idioma, reglas de slug, reglas de hreflang, reglas de schema. El contenido nuevo pasa por estos tres filtros. Evita el crecimiento parcheado que arruina los sitios multilingües después de 12 meses.
+Tres artefactos: (1) hoja de cálculo de keywords por idioma actualizada trimestralmente; (2) calendario editorial por idioma con slots de publicación; (3) documento de gobernanza que define quién puede publicar en cada idioma, reglas de slug, reglas de hreflang, reglas de schema. El contenido nuevo pasa por estos tres filtros. Así el sitio multilingüe sigue creciendo de forma ordenada más allá del mes 12.
 
 ¿Cuánto cuesta una intervención de SEO multilingüe?
 
-Bajo presupuesto. El precio depende del número de idiomas, profundidad por idioma, estado inicial del sitio y ritmo de producción de contenido. Primera llamada gratuita: 30 minutos para entender tu contexto y dar un rango honesto. No envío propuesta genérica sin conversación previa.
+Bajo presupuesto. El precio depende del número de idiomas, profundidad por idioma, estado inicial del sitio y ritmo de producción de contenido. Primera llamada gratuita: 30 minutos para entender tu contexto y dar un rango honesto. Cada propuesta llega después de una conversación.
 
 ## ¿Listo para definir tu SEO multilingüe?
 
-Empiezo con una auditoría honesta del estado actual por idioma. Primera llamada gratuita, sin compromiso.
+Empiezo con una auditoría honesta del estado actual por idioma. Primera llamada gratuita, y tú decides el siguiente paso.
 
 Servicios relacionados: [SEO internacional](https://mikebastin.com/es/services/agencia-de-seo-global/) · [SEM multilingüe](https://mikebastin.com/es/services/publicidad-multilingue/) · [diseño web](https://mikebastin.com/es/services/diseno-web/) · [SEO local](https://mikebastin.com/es/services/seo-local/)

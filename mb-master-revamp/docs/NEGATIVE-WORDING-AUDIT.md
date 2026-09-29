@@ -13,6 +13,68 @@ out of scope except on the flagged post.
 no longer, never, without, cannot, nobody, mistakes, failure, lose, avoid,
 wrong...). 143 strings matched. Each was read and given a verdict.
 
+## Second pass, every sentence and every locale (29 Sep 2026)
+
+Owner, on the French lead generation billing section ("Aucune marge sur
+votre budget publicitaire : un budget plus élevé ne nous rapporte rien"):
+"This is purely negative writing I abhor and don't want reflected across
+locales. Continue audit for rewrites."
+
+That overrules two Keep groups below: **Keep: positioning** (the billing
+point is now said forwards, with every fact kept) and **Keep:
+problem-first** (situation openings stay, written as where the reader is
+and where they want to be). The rule is now `docs/STYLE-GUIDE-UK-EU.md`
+section 9, and `npm run lint:negative` enforces it on the built output.
+
+| | Before | After |
+|---|---|---|
+| Titles, meta descriptions, h1 to h3, CTA leads, heroes (all locales) | 209 | 0 (3 allowlisted: two verbatim reviews, the 404 title) |
+| Body sentences with a negation | 2,032 on 153 pages (EN 1,388, FR 298, ES 346) | 47 on 38 pages (EN 35, FR 3, ES 9) |
+
+The 47 remaining body sentences are deliberate keeps, each listed by the
+rewriting pass: sourced figures and dated facts (retired Google tools,
+the IEEPA ruling), legal distinctions (a notary attests the signature,
+the Beckham regime's residence condition), the reader's own question
+that the page then answers, and grammatical glue. Blockquotes (sourced
+statistics, reviews) are never counted.
+
+Scope: `lib/services.ts` (20 service pages), every hand-built EN route
+and shared component, `lib/projects.ts`, `lib/absorbed.ts`, `lib/posts.ts`
+topic text, all published EN, FR and ES posts, the live FR and ES service
+pages, and the FR and ES hand-built pages. Figure captions had their own
+pass (29 rewritten). No h1 lost its primary keyword, every excerpt and
+meta description stayed in range, and remarks about other agencies were
+removed everywhere. Spanish now addresses the reader as "tú" (owner, same
+day).
+
+Side fixes made along the way: "fondateur" corrected to "cofondateur" of
+BeTranslated and the Italian and German level made vague on the French
+multilingual SEO page, "We read Italian fluently" replaced with the
+owner's "enough to manage SEO projects" wording, and French spellings
+(localisation, optimiser) restored in eight French posts.
+
+## Applied 29 Sep 2026
+
+The owner said "apply". All 76 rewrites are in, and a re-run of the scan
+flags 64 strings: exactly the Keep groups below. Each heading was read
+against the opening of its section first, and where the section turned
+out to be a list of faults, a heading promising "what to get right" would
+have misdescribed it. Those take a neutral "what to watch for" form
+instead of the proposal:
+
+| Page | Proposed | Applied |
+|---|---|---|
+| conversational-ai-chatbots-business | What to get right from the start | What to watch for |
+| english-to-french-translation-services | What makes English to French translation work for French readers | Three faults to watch for in English to French translation |
+| french-ppc-campaign | What to get right in French PPC campaigns | Three things to watch in French PPC campaigns |
+| link-building-in-spain | Three things agencies should do differently | Three agency habits to watch for |
+| spanish-keyword-localisation, spanish-on-page-seo, technical-seo-considerations-for-german-websites | Getting the details right / What to get right | What to watch for |
+| affiliate-marketing-programs | What new affiliates should budget for in 2026 | Where new affiliates can protect their margin in 2026 |
+| building-a-global-brand | A pattern we keep seeing, and the fix | A pattern we keep seeing in global launches |
+| digital-marketing-advisor | Where each model is strongest | Where each model fits best |
+| global-business-trends | ...settled, and still being refined | ...settled, with obligations to plan for |
+| global-business-trends | ...getting it right is worth more every year | ...the stakes keep rising |
+
 ## Verdicts
 
 | Verdict | Meaning | Count |

@@ -30,6 +30,7 @@ import matter from "gray-matter";
 import { marked } from "marked";
 import { SITE_URL } from "@/lib/schema";
 import { REPO_ROOT, LOCALES, qualifyingGroupsForLocale, type Locale, type LocaleSlugs } from "@/lib/content-locale";
+import { LEAD_GEN_SLUGS } from "@/lib/lead-gen-hubs";
 
 export type ServiceFrontmatter = {
   words: number;
@@ -86,6 +87,26 @@ let serviceSiblingIndex: Map<string, LocaleSlugs> | null = null;
  * FR and ES come from the actual file-backed readers, same as
  * lib/posts.ts's buildSiblingIndex.
  */
+let standaloneIndex: Map<string, string[]> | null = null;
+
+/**
+ * Locales a group's page stands alone in: published, but paired with none
+ * of its group siblings for hreflang. Set per group in content-map.json as
+ * `hreflang_standalone`. First use: g077, where /fr/services/seo/ is the
+ * main French SEO page for French companies selling abroad and the EN
+ * sibling french-seo sells to foreign companies entering France, so the
+ * two are different pages for different readers (docs/FR-REBUILD-PLAN.md).
+ */
+function standaloneLocales(group: string): string[] {
+  if (!standaloneIndex) {
+    const cm = JSON.parse(readFileSync(join(REPO_ROOT, "redirects/content-map.json"), "utf8")) as {
+      groups: { group: string; hreflang_standalone?: string[] }[];
+    };
+    standaloneIndex = new Map(cm.groups.filter((g) => g.hreflang_standalone).map((g) => [g.group, g.hreflang_standalone!]));
+  }
+  return standaloneIndex.get(group) ?? [];
+}
+
 function buildServiceSiblingIndex(): Map<string, LocaleSlugs> {
   if (serviceSiblingIndex) return serviceSiblingIndex;
   const map = new Map<string, LocaleSlugs>();
@@ -96,6 +117,7 @@ function buildServiceSiblingIndex(): Map<string, LocaleSlugs> {
 
   for (const locale of FILE_BACKED_LOCALES) {
     for (const service of getServicesForLocale(locale)) {
+      if (standaloneLocales(service.group).includes(locale)) continue;
       const entry = map.get(service.group) ?? {};
       entry[locale] = service.slug;
       map.set(service.group, entry);
@@ -137,7 +159,8 @@ export function servicePath(locale: Locale, slug: string): string {
  * lib/posts.ts's postHreflang: undefined when there is no sibling at all,
  * and `x-default` only when EN published this group.
  */
-export function serviceHreflang(group: string): Record<string, string> | undefined {
+export function serviceHreflang(group: string, fromLocale?: Locale): Record<string, string> | undefined {
+  if (fromLocale && standaloneLocales(group).includes(fromLocale)) return undefined;
   const siblings = getServiceSiblings(group);
   const published = LOCALES.filter((l) => siblings[l]);
   if (published.length < 2) return undefined;
@@ -166,6 +189,11 @@ export function getServiceLocaleManifest(): Record<string, LocaleSlugs> {
     for (const locale of published) {
       manifest[servicePath(locale, siblings[locale]!)] = siblings;
     }
+  }
+  // The lead generation hubs are hand-built routes with no content-map
+  // group (lib/lead-gen-hubs.ts), so they are paired here by hand.
+  for (const locale of LOCALES) {
+    manifest[servicePath(locale, LEAD_GEN_SLUGS[locale])] = { ...LEAD_GEN_SLUGS };
   }
   return manifest;
 }

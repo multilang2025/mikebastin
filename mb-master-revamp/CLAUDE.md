@@ -133,6 +133,16 @@ needs.
   Shops integration") and one is inside a service name, so they are not a
   hard fail. The lint warns above a density threshold instead.
 - No bolded links.
+- **Positive framing, in every locale** (owner, 29 Sep 2026: "purely
+  negative writing I abhor and don't want reflected across locales").
+  Every sentence says what the reader gets, what we do or what works: no
+  "not X but Y", "rather than", "no lock-in", "never", "without" as the
+  selling point, and no digs at other agencies. Facts stay, framing turns.
+  The billing decision is said forwards ("your whole media budget goes
+  straight to Google, Microsoft or Meta; management is a separate fee").
+  `docs/STYLE-GUIDE-UK-EU.md` section 9 has the rule and its exceptions;
+  `npm run lint:negative` enforces headings, titles, excerpts, CTA leads
+  and hero fields in EN, FR and ES.
 - **Motto** (owner, 20 Sep): "Automating business. Translating ideas.
   Connecting people." Use it where a motto belongs, under the wordmark or
   as `slogan` in schema, not in titles or meta descriptions, which are
@@ -260,7 +270,7 @@ sticky highlighted rail on desktop and a disclosure above the body below
 1024px. Posts target 1,200 to 2,200 words, carry one to three tables where
 content is tabular, and one or two inline SVG figures drawn only with the
 `fg-*` classes (no hard-coded colours, so they follow the theme toggle).
-Posts also open on the reader's situation and its cost (not a
+Posts also open on the reader's situation and what acting is worth, framed forwards (not a
 definition or market commentary), lead each section with why it matters
 before the how, and carry one to three in-body `aside.post-cta` blocks
 that promise only what the linked service page states (owner, 26 Sep
@@ -557,6 +567,10 @@ for the recommendation to be a bigger budget; management is charged as its
 own fee. Carried from the legacy multilingual-sem page, confirmed by the
 owner, and now on three pages: multilingual-sem, lead-generation and
 how-i-work.
+**Said forwards** (owner, 29 Sep 2026, on the French version: "purely
+negative writing I abhor"): "Your whole media budget buys ads: it goes
+straight to Google, Microsoft or Meta, and management is a separate fee."
+Never "no markup", "earns us nothing" or a remark about other agencies.
 
 **It covers media spend and nothing else** (owner, 20 Sep, asked
 directly). Translation and localisation through the BeTranslated network
@@ -566,8 +580,8 @@ the no-markup line must never be written in a way that implies otherwise.
 `/how-i-work/` says both halves out loud, because the question there is
 "how is it billed" and answering it only with the media-spend half invited
 exactly the wrong inference. Stating the boundary is also the stronger
-position: an agency vague about which costs are passed through and which
-are priced usually has a reason to be.
+position. Say it as our own practice, with no remark about other
+agencies (owner, 29 Sep 2026).
 
 **FR and ES are gated on EN** (owner, 22 Sep 2026, superseding the open
 ended deferral of 20 Sep). French and Spanish work **starts when EN is
@@ -596,6 +610,15 @@ of the EN lock, is done: `scripts/gen-fr-redirects.mjs` gives every legacy
 French URL a 301, or a 302 to the nearest live French page while its
 destination is unbuilt. Rerun it whenever a planned French page ships.
 The redirect lint checks all 74 French legacy URLs.
+Phase 3 started 29 Sep 2026 on the owner's "continue building FR": the
+French homepage, services index, blog index and contact pages are built,
+with French copy drafted for the owner's review. `lib/fr-pages-data.ts`
+is the one list of French pages; add a page there and it reaches the
+menu, sitemap and hreflang at once.
+The lead generation hub has FR and ES siblings (29 Sep 2026, owner
+request), paired by `lib/lead-gen-hubs.ts` rather than content-map; the
+ES one is the first rebuilt Spanish page. **Spanish addresses the reader as "tú"**
+(owner, 29 Sep 2026); French keeps "vous".
 
 The gaps below are the FR and ES starting position whenever the gate
 opens. Flagged rather than forgotten, so they are known and deliberate:

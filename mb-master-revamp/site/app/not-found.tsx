@@ -38,13 +38,13 @@ export default function NotFound() {
           <Reveal>
             <p className="eyebrow mb-4">Error 404</p>
             <h1 className="mb-6 max-w-[20ch] text-[clamp(2rem,5vw,3.4rem)] font-semibold leading-[1.05]">
-              We could not find that page
+              Here is where to go next
             </h1>
             <p className="max-w-[58ch] text-[1.05rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
               The address may have changed, or the page may have moved. Our
               Valencia writing now lives on valenciamove.com, and those URLs
-              redirect on their own, so a link that lands here is more likely
-              a typo than a retirement.
+              redirect on their own, so a link that lands here is most likely
+              a typo, and the pages below are a good place to pick up.
             </p>
           </Reveal>
 

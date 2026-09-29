@@ -44,7 +44,7 @@ Más velocidad, usabilidad y rendimiento general de tu sitio para cumplir con lo
 
 Construye enlaces de calidad desde sitios web holandeses de confianza para mejorar tu autoridad y credibilidad en el mercado holandés.
 
-Nuestros servicios de SEO local están diseñados para mejorar su visibilidad en ciudades y regiones específicas dentro de Bélgica y los Países Bajos.
+Nuestros servicios de SEO local están diseñados para mejorar tu visibilidad en ciudades y regiones específicas dentro de Bélgica y los Países Bajos.
 
 Nuestro proceso
 
@@ -56,7 +56,7 @@ Analizamos el paisaje del mercado holandés y a los competidores para identifica
 
 Creamos una estrategia de SEO personalizada centrada en palabras clave específicas, contenido y mejoras técnicas.
 
-Ejecutamos la estrategia, optimizando su sitio web e implementando los cambios necesarios para lograr el máximo impacto.
+Ejecutamos la estrategia, optimizando tu sitio web e implementando los cambios necesarios para lograr el máximo impacto.
 
 El seguimiento continuo de tu rendimiento SEO con informes detallados para refinar y mejorar las estrategias con el tiempo.
 

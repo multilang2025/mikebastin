@@ -136,8 +136,9 @@ beginner and not a fellow SEO.
 ### The opening
 
 The first two or three paragraphs (above the first `h2`, or the first
-section) state **the reader's situation, what it costs them, and what the
-post gives them**. No definitions of the category, no market commentary
+section) state **the reader's situation, what acting on it is worth, and
+what the post gives them**, framed forwards (STYLE-GUIDE-UK-EU.md section
+9, owner 29 Sep 2026). No definitions of the category, no market commentary
 ("International expansion is no longer limited to large enterprises"),
 no "In this guide we will". Mechanism vocabulary stays out of the opening,
 as on service pages.

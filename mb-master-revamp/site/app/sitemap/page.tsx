@@ -55,7 +55,7 @@ export default function SitemapPage() {
       <section className="band band-a grain relative overflow-hidden pb-[clamp(48px,7vw,90px)] pt-[clamp(88px,13vw,150px)]">
         <div className="shell">
           <Reveal>
-            <p className="eyebrow mb-4">{urls.length} pages, nothing hidden</p>
+            <p className="eyebrow mb-4">{urls.length} pages, all in one list</p>
             <h1 className="mb-7 max-w-[16ch] text-[clamp(2rem,5vw,3.4rem)] font-semibold leading-[1.05]">
               Everything on this site
             </h1>
@@ -64,7 +64,7 @@ export default function SitemapPage() {
               <a href="/sitemap.xml" className="ulink">
                 sitemap.xml
               </a>
-              , built from the same source so the two cannot disagree.
+              , built from the same source so the two always match.
             </p>
           </Reveal>
         </div>

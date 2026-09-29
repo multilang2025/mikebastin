@@ -56,7 +56,7 @@ Verificamos que tu sitio web cumpla con todos los requisitos legales locales, lo
 
 Examinamos tu contenido, asegurándonos de que se alinee con las costumbres, preferencias y lenguas locales para crear una mejor experiencia para el usuario.
 
-Probamos la funcionalidad y la capacidad de respuesta de su sitio web en diferentes plataformas, incluyendo WordPress, Joomla y Drupal.
+Probamos la funcionalidad y la capacidad de respuesta de tu sitio web en diferentes plataformas, incluyendo WordPress, Joomla y Drupal.
 
 Verificamos los tiempos de carga del sitio, la capacidad de respuesta móvil y el rendimiento general para garantizar una experiencia rápida y fluida para los usuarios locales.
 
@@ -76,7 +76,7 @@ Monitoreomos continuamente el rendimiento y elaboraramos de informes detallados 
 
 Preguntas frecuentes
 
-La prueba de localización garantiza que su sitio web funcione a la perfección y esté adaptado culturalmente a diferentes regiones, abordando diferencias de idioma, legales y de usabilidad.
+La prueba de localización garantiza que tu sitio web funcione a la perfección y esté adaptado culturalmente a diferentes regiones, abordando diferencias de idioma, legales y de usabilidad.
 
 Garantiza que tu sitio web o software funcione sin problemas en cada mercado objetivo, cumpla con los requisitos legales locales y resuene culturalmente con la audiencia prevista.
 
@@ -84,7 +84,7 @@ Nos especializamos en plataformas como WordPress, Joomla y Drupal, pero también
 
 La duración depende de la complejidad de tu página web y del número de las versiones localizadas. En general, los proyectos duran entre 1 y 2 semanas.
 
-Sí, ofrecemos monitoreo y reporte continuo para asegurarnos de que su sitio web localizado se mantenga conforme y funcione de manera óptima con el tiempo.
+Sí, ofrecemos monitoreo y reporte continuo para asegurarnos de que tu sitio web localizado se mantenga conforme y funcione de manera óptima con el tiempo.
 
 Nuestros clientes
 
@@ -92,7 +92,7 @@ Nuestros clientes
 
 -   **Alcance global:** adapta tu sitio web a cada mercado local para lograr una mayor participación.
 -   **Mejo experiencia del usuario**: asegurar una funcionalidad fluida en todas las plataformas y regiones.
--   **Cumplimiento normativo**: manténgase en conformidad con las leyes locales y los estándares de accesibilidad.
+-   **Cumplimiento normativo**: mantente en conformidad con las leyes locales y los estándares de accesibilidad.
 
 Our Expertise in Localization TestingWith years of experience in localization, web development, and SEO, we possess a thorough understanding of the complexities involved in testing localized websites.
 

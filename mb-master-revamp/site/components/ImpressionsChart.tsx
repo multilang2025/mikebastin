@@ -100,8 +100,8 @@ export default function ImpressionsChart() {
       </ul>
 
       <p className="mt-9 max-w-[58ch] text-[.92rem]" style={{ color: "var(--dim)" }}>
-        Ninety days of impressions against roughly six clicks. Visibility was
-        never the problem, and two of these are leaving for
+        Ninety days of impressions against roughly six clicks. The visibility
+        was there to build on, and two of these are moving to
         valenciamove.com, which is the point.
       </p>
     </div>

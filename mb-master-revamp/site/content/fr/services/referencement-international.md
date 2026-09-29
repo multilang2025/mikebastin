@@ -191,6 +191,6 @@ Sur devis. Le tarif dépend du nombre de marchés analysés, du périmètre (cad
 
 ## Vous prévoyez d’ouvrir 2-3 marchés étrangers cette année ?
 
-Avant de lancer, on cadre. C’est la phase qui fait la différence entre un investissement qui paie et un budget qui s’évapore. Premier échange gratuit, sans engagement.
+Avant de lancer, on cadre. C’est la phase qui fait de votre budget un investissement qui paie. Premier échange gratuit, et vous décidez ensuite.
 
 Pour aller plus loin : [SEO multilingue](https://mikebastin.com/fr/nos-services/referencement-multilingue/) · [SEO local](https://mikebastin.com/fr/nos-services/referencement-local/) · [SEM multilingue](https://mikebastin.com/fr/nos-services/sem-multilingue/) · [guide SEO/GEO 2026](https://mikebastin.com/fr/seo-au-geo/)

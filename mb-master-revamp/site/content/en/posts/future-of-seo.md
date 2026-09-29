@@ -9,28 +9,28 @@ wpId: 24847479
 date: "2024-12-31T15:00:55"
 modified: "2026-09-26T21:30:00"
 sourceUrl: "https://mikebastin.com/future-of-seo/"
-excerpt: "Fewer clicks from Google does not mean SEO stopped working. Where the future of SEO is heading, AI answers included, and where next quarter's effort goes."
+excerpt: "SEO still pays as Google sends fewer clicks. Where the future of SEO is heading, AI answers included, and where next quarter's effort goes."
 ---
 
-Your organic traffic report probably looks worse than your business does. Fewer people click through from Google now, because more questions get answered on the results page, or inside ChatGPT, before anyone visits a site. Judge search on clicks alone and you risk cutting the channel that still sends your best leads, while paying for tactics the new results pages ignore.
+Your business is probably doing better than your organic traffic report suggests. Fewer people click through from Google now, because more questions get answered on the results page, or inside ChatGPT, before anyone visits a site. Judge search on what it brings in, and you keep the channel that still sends your best leads while spending on the tactics the new results pages reward.
 
-Below: what still earns visibility, what has lost its value, and where to put next quarter's effort, trend by trend, with a priority table at the end.
+Below: what earns visibility now, which measures have taken over from the old ones, and where to put next quarter's effort, trend by trend, with a priority table at the end.
 
-## AI is not replacing SEO, it is replacing bad SEO
+## AI raises the bar for SEO
 
-If a competitor publishes ten AI-written pages for every one of yours, Google is discounting most of them. AI tools can produce content at scale, and every competitor is using them. Google's March 2025 core update showed what happens next: volume without substance gets devalued. The spam policies target scaled content abuse, and the systems reward original research, first-hand experience and real expertise.
+If a competitor publishes ten AI-written pages for every one of yours, your one page with real substance carries more weight with Google than most of theirs. AI tools can produce content at scale, and every competitor is using them. Google's March 2025 core update showed what it rewards: substance over volume. The spam policies target scaled content abuse, and the systems reward original research, first-hand experience and real expertise.
 
 > According to BrightEdge, AI Overviews reached 48% of tracked queries by February 2026, up from roughly 13% in early 2025 (Semrush). Healthcare, education, and B2B technology sectors see AI Overview rates above 80%. Source: [Search Engine Land](https://searchengineland.com/google-ai-overviews-surge-pullback-data-466314), [Semrush](https://www.semrush.com/blog/generative-engine-optimization/)
 
-AI Overviews (the successor to Search Generative Experience) write the answer in the results page, so thin content has little chance of being seen. Winning [AI-driven SEO strategies](/blog/how-ai-is-revolutionising-seo-strategies/) use machine learning for research, pattern spotting and faster workflows, not as a publishing autopilot. Use AI for ideas and analysis, attach real authors and case studies to what you publish, and measure engagement quality rather than raw traffic. Where you need a plan for doing that across a team, our [AI consulting](/services/ai-consulting/) work starts there.
+AI Overviews (the successor to Search Generative Experience) write the answer in the results page, so the content that gets seen is the content with real depth. Winning [AI-driven SEO strategies](/blog/how-ai-is-revolutionising-seo-strategies/) use machine learning for research, pattern spotting and faster workflows, with people deciding what gets published. Use AI for ideas and analysis, attach real authors and case studies to what you publish, and measure engagement quality. Where you need a plan for doing that across a team, our [AI consulting](/services/ai-consulting/) work starts there.
 
 ## Generative engine optimization runs alongside SEO
 
-When a buyer asks an AI assistant which supplier to shortlist, the answer names two or three businesses, and yours is either one of them or invisible. ChatGPT Search, Gemini, Perplexity and Microsoft Copilot all draw on web content to write those answers. Brands cited in those answers gain visibility without a click, which is what [generative engine optimization (GEO)](/services/generative-engine-optimization/) is for.
+When a buyer asks an AI assistant which supplier to shortlist, the answer names two or three businesses, and the goal is for yours to be one of them. ChatGPT Search, Gemini, Perplexity and Microsoft Copilot all draw on web content to write those answers. Brands cited in those answers gain visibility straight from the answer, which is what [generative engine optimization (GEO)](/services/generative-engine-optimization/) is for.
 
 > AI referrals to top websites surged 357% year-over-year between June 2024 and June 2025, according to Ahrefs data. AI-referred sessions jumped 527% YoY in the first five months of 2025 (Previsible AI Traffic Report). Semrush predicts LLM traffic will overtake traditional Google search by the end of 2027. Source: [Superlines AI Search Statistics](https://www.superlines.io/articles/ai-search-statistics/)
 
-GEO does not replace SEO. The same page serves both channels when it makes clear, quotable claims, names its sources and carries Schema.org markup in JSON-LD. Monitor how your brand appears in AI answers with tools such as the Semrush AI Toolkit or Ahrefs Brand Radar, the same way you track rankings.
+GEO works alongside SEO. The same page serves both channels when it makes clear, quotable claims, names its sources and carries Schema.org markup in JSON-LD. Monitor how your brand appears in AI answers with tools such as the Semrush AI Toolkit or Ahrefs Brand Radar, the same way you track rankings.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 230" role="img" aria-label="One page feeds two channels: search results, which earn clicks, and AI answers, which earn citations. Both build brand demand.">
@@ -53,30 +53,30 @@ GEO does not replace SEO. The same page serves both channels when it makes clear
 </figure>
 
 <aside class="post-cta">
-<p><strong>Do you know which AI answers name your competitors instead of you?</strong> Our <a href="/services/generative-engine-optimization/">generative engine optimization</a> work tracks which platforms cite you for which questions, then reshapes the pages that should be quoted. <a href="/contact/">Book the discovery call</a>.</p>
+<p><strong>Want to see which AI answers name you, and which name your competitors?</strong> Our <a href="/services/generative-engine-optimization/">generative engine optimization</a> work tracks which platforms cite you for which questions, then reshapes the pages that should be quoted. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
 ## E-E-A-T has teeth now
 
-An anonymous page now loses to one with a named expert behind it, and on health, money and legal topics it barely competes. Google's E-E-A-T framework (experience, expertise, authoritativeness, trustworthiness) is set out in the [Search Quality Rater Guidelines](https://guidelines.raterhub.com/searchqualityevaluatorguidelines.pdf), updated in January and September 2025. It weighs most heavily on YMYL (Your Money or Your Life) topics.
+A page with a named expert behind it now wins over an anonymous one, and on health, money and legal topics that named expert carries the most weight. Google's E-E-A-T framework (experience, expertise, authoritativeness, trustworthiness) is set out in the [Search Quality Rater Guidelines](https://guidelines.raterhub.com/searchqualityevaluatorguidelines.pdf), updated in January and September 2025. It weighs most heavily on YMYL (Your Money or Your Life) topics.
 
 > Google’s September 2025 Search Quality Rater Guidelines update broadened the YMYL definition to include Government, Civics and Society, now covering election information and content impacting trust in public institutions. Google’s systems give even more weight to content aligned with strong E-E-A-T for topics that could significantly impact health, financial stability, or safety. Source: [Search Engine Land](https://searchengineland.com/google-updates-search-quality-raters-guidelines-adding-ai-overview-examples-ymyl-definitions-461908)
 
-There is no E-E-A-T score. Google reads indirect signals: domain reputation, clear authorship, source quality and author markup. Sites with anonymous content and no editorial transparency lose ground to those with detailed author bios, published case studies, recent sources and Person and Organization schema.
+Google assesses E-E-A-T through indirect signals: domain reputation, clear authorship, source quality and author markup. Sites with detailed author bios, published case studies, recent sources and Person and Organization schema gain ground on anonymous ones.
 
-## Zero-click is the default, not the enemy
+## Working with zero-click as the default
 
-If your reporting counts only clicks, it undercounts what search does for you. Most Google searches now end without a click to another website.
+Reporting that counts features, impressions and branded searches alongside clicks shows the full value of search. Most Google searches now end on Google's own results page.
 
 > According to SparkToro and Datos Group, approximately 60 to 65% of all Google queries in the US result in zero clicks. A July 2025 Similarweb report found zero-click searches surged from 56% to 69%. Searches triggering AI Overviews show an average zero-click rate of 83%. Source: [SparkToro](https://sparktoro.com/blog/2024-zero-click-search-study-for-every-1000-us-google-searches-only-374-clicks-go-to-the-open-web-in-the-eu-its-360/)
 
-Appearing in AI Overviews, featured snippets, knowledge panels and People Also Ask boxes builds brand recall even when nobody visits. Branded search volume, people searching for you by name, becomes a key measure. [Search intent mapping](/blog/what-is-search-intent-mapping/) shows which queries deserve click-focused content and which serve awareness.
+Appearing in AI Overviews, featured snippets, knowledge panels and People Also Ask boxes builds brand recall straight from the results page. Branded search volume, people searching for you by name, becomes a key measure. [Search intent mapping](/blog/what-is-search-intent-mapping/) shows which queries deserve click-focused content and which serve awareness.
 
 Answer the question in the first 100 words, add FAQ markup where it fits (Google now shows FAQ rich results mainly for authoritative government and health sites, but the structure still helps machines read the page), and track SERP feature visibility alongside clicks.
 
 ## Voice search matured quietly
 
-Voice queries are longer, more local and mostly answered by whoever holds the featured answer. Voice search never had its predicted revolution. It became a steady part of search, especially for local and conversational queries.
+Voice queries are longer, more local and mostly answered by whoever holds the featured answer. Voice search grew into a steady part of search, especially for local and conversational queries, at a gentler pace than the early forecasts.
 
 > An estimated 157.1 million Americans will use voice search in 2026. The speech recognition market is projected to reach $47 billion by 2030, growing at a 14.24% CAGR. Source: [DemandSage](https://www.demandsage.com/voice-search-statistics/), [Invoca](https://www.invoca.com/blog/voice-search-stats-marketers)
 
@@ -84,25 +84,25 @@ Voice assistants lean on featured snippets, so pages that answer in natural lang
 
 ## Core Web Vitals are table stakes
 
-A slow page loses to a comparable fast one, and it loses first on mobile. Performance is a baseline, not an edge. Interaction to Next Paint (INP) replaced First Input Delay (FID) as the responsiveness metric in March 2024. FID only timed the first interaction; INP looks at responsiveness across the whole visit.
+A fast page wins over a comparable slow one, and mobile is where it wins first. Performance is the baseline every page needs. Interaction to Next Paint (INP) replaced First Input Delay (FID) as the responsiveness metric in March 2024. FID only timed the first interaction; INP looks at responsiveness across the whole visit.
 
 > The three metrics to pass: LCP under 2.5 seconds, INP under 200 milliseconds, and Cumulative Layout Shift (CLS) under 0.1. Source: [Google Search Central](https://developers.google.com/search/docs/appearance/core-web-vitals)
 
 > According to the 2025 Web Almanac, 77% of mobile pages achieve a good INP score but only 62% pass LCP, making Largest Contentful Paint the hardest of the three to meet. Source: [HTTP Archive, Web Almanac 2025, Performance](https://almanac.httparchive.org/en/2025/performance)
 
-Pages that fail lose out to faster competitors when content is comparable. Check the three metrics monthly in Search Console and PageSpeed Insights, cut JavaScript and render-blocking resources, use caching and a CDN, and set width and height on images. A [technical SEO audit checklist](/blog/technical-seo-audit-checklist/) catches these issues before they cost visibility.
+When content is comparable, speed decides, so keep all three passing. Check the three metrics monthly in Search Console and PageSpeed Insights, cut JavaScript and render-blocking resources, use caching and a CDN, and set width and height on images. A [technical SEO audit checklist](/blog/technical-seo-audit-checklist/) catches these issues early, while your visibility is intact.
 
 ## Local SEO rewards specificity
 
-Somebody searching nearby is close to buying, so a vague area page costs you the customers most ready to act. Google keeps refining hyper-local results, especially on mobile.
+Somebody searching nearby is close to buying, so a specific area page reaches the customers most ready to act. Google keeps refining hyper-local results, especially on mobile.
 
 > 84% of local searches are conducted on mobile, with local mobile searches growing 50% faster than overall searches. 80% of US consumers search for local businesses weekly, and 88% who perform a local search on a smartphone visit a related store within a week. Nearly 46% of all Google search queries have local intent. Source: [BrightLocal](https://www.brightlocal.com/resources/local-seo-statistics/)
 
-Generic "near us" pages do worse than pages built around specific districts or service areas. [Local SEO](/services/local-seo/) favours businesses that show a real presence: an up-to-date Google Business Profile, reviews answered consistently, local backlinks, LocalBusiness schema and the same name, address and phone number across every citation.
+Pages built around specific districts or service areas outperform generic "near us" pages. [Local SEO](/services/local-seo/) favours businesses that show a real presence: an up-to-date Google Business Profile, reviews answered consistently, local backlinks, LocalBusiness schema and the same name, address and phone number across every citation.
 
-## Multilingual SEO is a growth lever, not a checkbox
+## Multilingual SEO as a growth lever
 
-If your English pages sell and your other languages only look busy, the gap is usually in how those versions were built, not in the market. International markets remain underworked by most businesses, and machine translation, much improved, still reads like a translation.
+If your English pages sell and you want your other languages to do the same, the answer usually lies in how those versions are built, and the market is there for them. International markets are open ground for the businesses that work them, and native writing still reads better than even much-improved machine translation.
 
 > According to CSA Research (formerly Common Sense Advisory), 76% of consumers prefer to buy products with information in their own language, and 40% will never buy from websites in other languages. 70% of global search queries are non-English. A 2025 Weglot study found that translated websites achieved up to 327% more visibility in Google’s AI Overviews. Source: [CSA Research](https://csa-research.com/Blogs-Events/CSA-in-the-Media/Press-Releases/Multilingual-Content-Gives-Global-Brands-Competitive-Edge)
 
@@ -110,19 +110,19 @@ Ranking in Spanish, German, French or Dutch markets takes [multilingual SEO](/se
 
 ## Content and SEO are one discipline
 
-Publishing for its own sake burns budget and dilutes authority. Every piece of content should serve a search intent, build topical authority or support a conversion. A focused [content strategy](/blog/how-to-create-a-targeted-content-strategy/) built on topic clusters, a pillar page supported by linked cluster pages, compounds over time where scattered posts do not. Measure content by qualified leads, not pageviews, and prune or merge underperforming pages each quarter.
+Content earns its budget when it has a job to do. Every piece of content should serve a search intent, build topical authority or support a conversion. A focused [content strategy](/blog/how-to-create-a-targeted-content-strategy/) built on topic clusters, a pillar page supported by linked cluster pages, compounds over time as each page strengthens the others. Measure content by qualified leads, and prune or merge the weakest pages each quarter.
 
 ## Ethical practice is a ranking signal
 
-A shortcut that gets caught can undo years of rankings in one update. Google's spam policy updates through 2024 and 2025 widened enforcement against link schemes, parasite SEO (third-party content hosted on strong domains to borrow their rankings) and scaled AI content.
+Clean practice keeps years of rankings safe through every update. Google's spam policy updates through 2024 and 2025 widened enforcement against link schemes, parasite SEO (third-party content hosted on strong domains to borrow their rankings) and scaled AI content.
 
 > Google’s 2024 to 2025 spam policy expansions specifically targeted parasite SEO, link schemes, and AI content abuse. Sites engaged in these practices face manual actions and algorithmic devaluations with increasing speed and severity. Source: [Google Search Central](https://developers.google.com/search/docs/fundamentals/creating-helpful-content)
 
-Link building still matters, but it now means earning editorial links through original research, digital PR and useful content. Audit your backlink profile, avoid bought links, PBNs and guest post schemes, and be open about how your content is made.
+Link building still matters, and it now means earning editorial links through original research, digital PR and useful content. Audit your backlink profile, clear out bought links, PBNs and guest post schemes, and be open about how your content is made.
 
 ## Where SEO goes from here
 
-SEO is not dying; it is becoming broader and more demanding. Visibility now needs technical precision, real authority and content that works whether or not anyone clicks. Businesses that still judge success by rankings alone will fall behind those that measure what the new results pages reward.
+SEO is growing broader and more demanding. Visibility now needs technical precision, real authority and content that works whether or not anyone clicks. The businesses pulling ahead are the ones measuring what the new results pages reward.
 
 | Old measure | Measure now |
 | --- | --- |
@@ -144,17 +144,17 @@ Where to put the effort first:
 | Multilingual | Research keywords natively; check hreflang |
 | Spam risk | Audit the backlink profile |
 
-Set up [conversion tracking](/services/conversion-tracking/) so the new measures are visible, build content worth citing, and stop chasing numbers that no longer move the business.
+Set up [conversion tracking](/services/conversion-tracking/) so the new measures are visible, build content worth citing, and focus on the numbers that move the business.
 
 <aside class="post-cta">
-<p><strong>Want the new measures tied to enquiries rather than mentions?</strong> Our <a href="/services/generative-engine-optimization/">generative engine optimization</a> reporting connects visibility in AI answers back to enquiries per market, so the work is judged on what it brought in. <a href="/contact/">Book the discovery call</a>.</p>
+<p><strong>Want the new measures tied to enquiries?</strong> Our <a href="/services/generative-engine-optimization/">generative engine optimization</a> reporting connects visibility in AI answers back to enquiries per market, so the work is judged on what it brought in. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
 ## Frequently asked questions about SEO in 2026
 
 ### Is SEO dead in 2026?
 
-No. Zero-click searches and AI Overviews have changed how visibility works, but organic search remains the largest single source of website traffic. What has changed is how success is measured: presence in AI answers, featured snippets and knowledge panels now matters alongside rankings.
+SEO is very much alive. Zero-click searches and AI Overviews have changed how visibility works, and organic search remains the largest single source of website traffic. What has changed is how success is measured: presence in AI answers, featured snippets and knowledge panels now matters alongside rankings.
 
 ### What is GEO (generative engine optimization)?
 
@@ -162,8 +162,8 @@ GEO is the practice of making content appear in AI-generated answers from ChatGP
 
 ### Do zero-click searches kill SEO?
 
-No. With 60 to 65% of Google searches ending without a click (SparkToro and Datos), visibility on the results page itself has value. Featured snippets, People Also Ask and AI Overviews build awareness and trust even without a visit.
+They change where SEO pays off. With 60 to 65% of Google searches ending on the results page (SparkToro and Datos), visibility on that page has value in itself. Featured snippets, People Also Ask and AI Overviews build awareness and trust before any visit.
 
 ### Is link building still important?
 
-Yes, but the method has changed. Link schemes, PBNs and paid links carry more risk than ever under Google's spam policies. Earn editorial links through original research, digital PR and content worth referencing. Relevance matters far more than quantity.
+Yes, and the method has changed. Google's spam policies now target link schemes, PBNs and paid links, so earn editorial links through original research, digital PR and content worth referencing. Relevance matters far more than quantity.

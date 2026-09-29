@@ -425,7 +425,7 @@ export type ClusterGroup = {
  * term and says what the reader finds there. The name stays the label.
  */
 const TOPIC_HEADING: Record<string, string> = {
-  "Multilingual SEO": "Multilingual SEO and GEO without your languages competing",
+  "Multilingual SEO": "Multilingual SEO and GEO where every language adds up",
   "Language markets": "Language markets read one country at a time",
   "AI and the future of search": "AI search and GEO: how answer engines pick their sources",
   "SEO fundamentals": "SEO fundamentals to get right before you translate",
@@ -436,11 +436,11 @@ const TOPIC_HEADING: Record<string, string> = {
 
 const TOPIC_BLURB: Record<string, string> = {
   "Multilingual SEO":
-    "Running one site across several languages without the versions competing with each other. Hreflang, per-market keyword work, and the decisions that get made before anything is written.",
+    "Running one site across several languages so each version adds to the others. Hreflang, per-market keyword work, and the decisions that get made before anything is written.",
   "Language markets":
-    "What search behaves like inside one country rather than across a region. Volume, intent and competition read per market, because France and Belgium are not one audience with one keyword list.",
+    "What search behaves like inside one country. Volume, intent and competition read per market, because France and Belgium are two audiences, each with its own keyword list.",
   "AI and the future of search":
-    "How answer engines pick sources, and what that changes about writing for search. Practical reading rather than prediction.",
+    "How answer engines pick sources, and what that changes about writing for search. Practical reading you can act on now.",
   "SEO fundamentals":
     "The parts that hold whatever is built on top of them: crawling, indexation, structure and measurement. Worth getting right before a translation budget goes anywhere near them.",
   "Language industry":
@@ -448,7 +448,7 @@ const TOPIC_BLURB: Record<string, string> = {
   "Multilingual lead generation":
     "Turning international visibility into enquiries, and knowing which language produced them. Tracking, attribution and the reporting that makes a market's spend defensible.",
   "Business and marketing":
-    "Wider marketing and business writing, for the decisions around a site rather than inside it.",
+    "Wider marketing and business writing, for the decisions made around a site.",
 };
 
 /** URL segment for a topic page: the cluster name, lowercased and hyphenated. */

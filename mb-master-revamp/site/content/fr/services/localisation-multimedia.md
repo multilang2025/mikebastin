@@ -1,7 +1,7 @@
 ---
 words: 885
 editorial: "superseded"
-title: "Localization multimédia"
+title: "Localisation multimédia"
 slug: "localisation-multimedia"
 locale: "fr"
 type: "services"

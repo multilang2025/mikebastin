@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { pageMeta } from "@/lib/meta";
+import { enLanguages } from "@/lib/fr-pages";
 import Reveal from "@/components/Reveal";
 import SiteFooter from "@/components/SiteFooter";
 import { Button } from "@/components/ui/Button";
@@ -13,6 +14,7 @@ export const metadata: Metadata = {
     title: "Contact, Mike Bastin",
     description: "Tell us which language you want selling next. A short brief on multilingual SEO, localization or AI consulting gets a straight answer within a working day.",
     path: "/contact/",
+    languages: enLanguages("/contact/"),
     fallbackImage: true,
   }),
 };
@@ -42,7 +44,7 @@ export default function ContactPage() {
       <section className="band band-a grain relative overflow-hidden pb-[clamp(48px,7vw,80px)] pt-[clamp(96px,14vw,160px)]">
         <div className="shell relative">
           <Reveal>
-            <p className="eyebrow mb-8">No form-filling theatre</p>
+            <p className="eyebrow mb-8">Six fields, one straight answer</p>
           </Reveal>
           <Reveal i={1}>
             <h1 className="mb-6 max-w-[18ch] text-[clamp(2.3rem,5.6vw,4rem)] font-semibold leading-[1.08]">
@@ -59,9 +61,10 @@ export default function ContactPage() {
               className="max-w-[58ch] text-[clamp(1.05rem,1.65vw,1.24rem)]"
               style={{ color: "var(--dim)" }}
             >
-              Six fields, none of them optional theatre. We read every one and
-              reply ourselves, usually within a working day. If we are the wrong
-              people for the job we will say so and point you at who is not.
+              Six fields, each one a question we would ask on the call. We read
+              every one and reply ourselves, usually within a working day. If
+              another team fits the job better, we will say so and point you to
+              them.
             </p>
           </Reveal>
         </div>
@@ -97,12 +100,12 @@ export default function ContactPage() {
                     aria-describedby={describedBy("company", "A URL is the most useful thing here.")}
                   />
                 </Field>
-                <Field id="budget" label="Monthly budget" hint="An honest range saves us both a call.">
+                <Field id="budget" label="Monthly budget" hint="A realistic range lets us prepare the right first call.">
                   <Select
                     id="budget"
                     name="budget"
                     defaultValue=""
-                    aria-describedby={describedBy("budget", "An honest range saves us both a call.")}
+                    aria-describedby={describedBy("budget", "A realistic range lets us prepare the right first call.")}
                   >
                     <option value="" disabled>
                       Choose a range
@@ -132,7 +135,7 @@ export default function ContactPage() {
 
               <Field
                 id="message"
-                label="What is going wrong"
+                label="What you want to improve"
                 required
                 hint="Which markets, which languages, and what you have already tried."
               >
@@ -155,8 +158,8 @@ export default function ContactPage() {
                   required
                   label={
                     <>
-                      We can keep your details on file to answer this enquiry.
-                      Nothing else, and no list.
+                      We can keep your details on file to answer this enquiry,
+                      and use them for that alone.
                     </>
                   }
                 />
@@ -174,8 +177,8 @@ export default function ContactPage() {
                 Rather just email
               </h2>
               <p className="mb-6">
-                Entirely reasonable. The form only exists so we ask the questions
-                we would have asked anyway.
+                Entirely reasonable. The form simply asks the questions we would
+                ask on the call.
               </p>
               <div className="mb-8 flex flex-col gap-2">
                 <a href="mailto:hello@mikebastin.com" className="ulink w-fit">

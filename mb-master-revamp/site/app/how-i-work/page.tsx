@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { pageMeta } from "@/lib/meta";
+import { enLanguages } from "@/lib/fr-pages";
 import Link from "next/link";
 import Reveal from "@/components/Reveal";
 import SiteFooter from "@/components/SiteFooter";
@@ -19,6 +20,7 @@ export const metadata: Metadata = {
     title: "How we work, Mike Bastin",
     description: "How a multilingual SEO, localization or AI consulting engagement actually runs: the discovery call, the written scope, delivery cadence and reporting.",
     path: "/how-i-work/",
+    languages: enLanguages("/how-i-work/"),
     fallbackImage: true,
   }),
 };
@@ -27,32 +29,32 @@ const STAGES = [
   {
     name: "Discovery call",
     detail:
-      "Thirty minutes on which markets and languages matter, what is already ranking, what has already been tried, and what a good outcome looks like in enquiries rather than traffic. We ask questions before we recommend anything.",
+      "Thirty minutes on which markets and languages matter, what is already ranking, what has already been tried, and what a good outcome looks like, measured in enquiries. We ask questions before we recommend anything.",
   },
   {
-    name: "A written scope, not a quote",
+    name: "A written scope for your markets",
     detail:
-      "A short brief naming the pages, keywords and deliverables for the first quarter, and who does what. No plan tier to pick from, because a five-language site and a two-language one are not the same job.",
+      "A short brief naming the pages, keywords and deliverables for the first quarter, and who does what. Each scope is sized to the site, because a five-language site and a two-language one are different jobs.",
   },
   {
     name: "Research before writing",
     detail:
-      "Keyword and competitor research per market before a single page gets built or a post gets written. A term that ranks in English rarely carries the same weight once it is translated.",
+      "Keyword and competitor research per market before a single page gets built or a post gets written. Each market gets terms researched in its own language, because the weight a term carries in English changes once it is translated.",
   },
   {
     name: "Delivery on a fixed cadence",
     detail:
-      "Work ships on a monthly rhythm, market by market, so a French page is not waiting on a German one to be finished first. Native writers per language, reviewed against the brief before anything goes live.",
+      "Work ships on a monthly rhythm, market by market, so a French page ships on its own schedule, whatever stage the German one is at. Native writers per language, reviewed against the brief before anything goes live.",
   },
   {
     name: "Reporting that separates markets",
     detail:
-      "Monthly numbers per locale, not one blended figure that hides which market is converting and which one is only getting traffic. See a real example on the results page.",
+      "Monthly numbers per locale, so you can see which market is converting and which one is getting traffic so far. See a real example on the results page.",
   },
   {
-    name: "A straight answer if it is not working",
+    name: "A straight answer on every market",
     detail:
-      "If a market is not moving after a fair run, we say so and change the plan rather than keep billing the same approach. No long lock-in contracts. Most engagements are open-ended for that reason.",
+      "When a market needs a new approach after a fair run, we say so and change the plan. Engagements run month to month, and most are open-ended for that reason.",
   },
 ];
 
@@ -63,19 +65,19 @@ const QUESTIONS = [
   },
   {
     q: "Do we need a contract",
-    a: "No fixed term. Engagements run month to month, and either side can end one with notice. Most clients stay because the reporting keeps showing what is working market by market, not because a contract holds them in.",
+    a: "Engagements run month to month, and either side can end one with notice. Most clients stay because the reporting keeps showing what is working market by market.",
   },
   {
     q: "What if we only need one market fixed",
-    a: "A single-language SEO fix, a localization review, an AI consulting session on where machine translation is quietly costing you quality, all run as a scoped piece of work with a start and an end, not a subscription. Most enquiries are exactly this.",
+    a: "A single-language SEO fix, a localization review, an AI consulting session on where machine translation quality needs lifting, each run as a scoped piece of work with a start and an end. Most enquiries are exactly this.",
   },
   {
     q: "Who actually does the work",
-    a: "We scope and run the strategy directly. Native-language writing and translation go through named specialists, most through the BeTranslated network run for twenty years, never an anonymous freelancer pool.",
+    a: "We scope and run the strategy directly. Native-language writing and translation go through named specialists, most through the BeTranslated network run for twenty years.",
   },
   {
     q: "How is it billed",
-    a: "Management is a fee of its own. Where an engagement includes paid search, the media budget goes straight to Google, Microsoft or Meta rather than through us, so there is no markup on spend and no reason for our recommendation to be a bigger budget. That arrangement is specific to media spend: translation and localization running through the BeTranslated network are quoted as a price for the work itself, not passed through at cost. Worth saying which is which, because an agency that is vague about it usually has a reason.",
+    a: "Management is a fee of its own. Where an engagement includes paid search, your whole media budget buys ads: it goes straight to Google, Microsoft or Meta, and management stays that separate fee. So the budget we recommend is the one that brings in enquiries. The arrangement covers media spend; writing and translation, including localization through the BeTranslated network, are quoted as a price for the work.",
   },
   {
     q: "How do we start",
@@ -99,7 +101,7 @@ export default function HowIWorkPage() {
       <section className="band band-a grain relative overflow-hidden pb-[clamp(48px,7vw,80px)] pt-[clamp(96px,14vw,160px)]">
         <div className="shell relative">
           <Reveal>
-            <p className="eyebrow mb-8">Process, not a price list</p>
+            <p className="eyebrow mb-8">The process, stage by stage</p>
           </Reveal>
           <Reveal i={1}>
             <h1 className="mb-6 max-w-[20ch] text-[clamp(2.3rem,5.6vw,4rem)] font-semibold leading-[1.08]">
@@ -116,9 +118,9 @@ export default function HowIWorkPage() {
               className="max-w-[60ch] text-[clamp(1.05rem,1.65vw,1.24rem)]"
               style={{ color: "var(--dim)" }}
             >
-              Every market is scoped on its own terms, so there is no tier to
-              pick from and no rate card here. What follows is the shape the
-              work takes instead, from the first call to the monthly report.
+              Every market is scoped on its own terms, so each engagement is
+              priced from its own scope. What follows is the shape the work
+              takes, from the first call to the monthly report.
             </p>
           </Reveal>
 
@@ -177,25 +179,24 @@ export default function HowIWorkPage() {
       <section className="band band-a py-[clamp(56px,8vw,110px)]">
         <div className="shell grid gap-[clamp(32px,5vw,64px)] lg:grid-cols-[minmax(0,1.1fr)_minmax(0,1fr)]">
           <Reveal>
-            <p className="eyebrow mb-3">Why there is no rate card</p>
+            <p className="eyebrow mb-3">Why each scope is priced on its own</p>
             <h2 className="mb-6 max-w-[22ch] text-[clamp(1.5rem,2.8vw,2.1rem)] font-semibold leading-[1.15]">
-              A two-language site and a five-language one are not the same job
+              A two-language site and a five-language one are different jobs
             </h2>
             <p className="max-w-[56ch] text-[1.02rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
-              A published tier list either overcharges a small site or
-              undercharges a large one, and we have run this business long
-              enough to know both outcomes annoy a client eventually. The
-              scope call fixes that: we quote against the markets, the
-              current state of the site, and what needs to be built first,
-              not against a fixed menu.
+              Pricing from the scope means a small site pays for a small site
+              and a large one pays for what it needs, and we have run this
+              business long enough to know a fair fit is what clients want.
+              The scope call sets it: we quote against the markets, the current state of the
+              site, and what needs to be built first.
             </p>
           </Reveal>
           <Reveal i={2}>
             <ul className="flex flex-col gap-4">
               {[
                 "Which languages the site needs to compete in, and which are optional",
-                "How much of the current content is salvageable against how much needs writing from scratch",
-                "Whether the gap is search visibility, on-site localization, translation accuracy, or AI content quality",
+                "How much of the current content can be kept, and how much needs writing fresh",
+                "Where the work lies: search visibility, on-site localization, translation accuracy, or AI content quality",
                 "What a realistic monthly cadence looks like given the team on both sides",
               ].map((item) => (
                 <li key={item} className="flex items-start gap-3 text-[.98rem] leading-[1.55]" style={{ color: "var(--dim)" }}>

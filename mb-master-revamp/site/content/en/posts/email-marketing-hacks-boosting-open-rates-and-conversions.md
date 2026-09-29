@@ -9,18 +9,18 @@ wpId: 24845561
 date: "2024-11-06T13:52:49"
 modified: "2026-09-26T21:30:00"
 sourceUrl: "https://mikebastin.com/email-marketing-hacks-boosting-open-rates-and-conversions/"
-excerpt: "Your emails get opened and still do not sell. These email marketing hacks lift open rates and conversions: sharper subject lines, mobile layouts, segments."
+excerpt: "Your emails get opened; now make them sell. These email marketing hacks lift open rates and conversions: sharper subject lines, mobile layouts, segments."
 ---
 
 ## Proven strategies to increase email performance and drive results
 
-Your list is growing, your emails go out on time, and the sales they should bring in are thin. Every send that gets skimmed and deleted trains your subscribers to ignore the next one.
+Your list is growing, your emails go out on time, and the next step is the sales they should bring in. Every send that earns a read trains your subscribers to open the next one.
 
 Below: subject lines that earn the open, emails people can act on from a phone, segments that make each send relevant, and the numbers that show whether email pays.
 
 ## Writing compelling subject lines
 
-If the subject line fails, nothing else in the email gets a chance.
+The subject line earns the chance for everything else in the email.
 
 ### Use power words
 
@@ -33,7 +33,7 @@ Emotionally charged words trigger curiosity or urgency. Use them where they are 
 
 ### Employ the curiosity gap
 
-Hint at something valuable without giving it all away. For example:
+Hint at something valuable and keep the full reveal for the email. For example:
 
 -   “The workout trick that’s changing lives”
 -   “You won’t believe what we’ve discovered about productivity”
@@ -47,11 +47,11 @@ A first name is expected. A detail the reader recognises as theirs gets noticed:
 
 ### A/B test continuously
 
-Your audience decides what works, not a list of tips. Test subject line styles, lengths and elements on every send and keep what wins.
+Your audience decides what works. Test subject line styles, lengths and elements on every send and keep what wins.
 
 ## Optimizing email content for mobile devices
 
-An email that is awkward to read on a phone loses most of its readers before they reach your offer, so mobile optimization is non-negotiable.
+An email that reads easily on a phone carries most of its readers through to your offer, so mobile optimization comes first.
 
 > Mobile devices continue to be the primary reading environment for the majority of subscribers.
 >
@@ -69,7 +69,7 @@ Emails should adapt to every screen size. A single-column layout keeps scrolling
 
 ### Optimize images so emails load and still make sense
 
--   Use alt text for images in case they don’t load
+-   Give every image alt text, so the email reads well with images switched off
 -   Compress images to reduce load times
 -   Consider scalable vector graphics (SVGs) for logos and icons
 
@@ -79,7 +79,7 @@ Preview every email on various platforms with tools like Litmus or Email on Acid
 
 ## Using personalisation and segmentation
 
-A message written for everyone persuades nobody in particular. Segments let each subscriber get the email that fits.
+A message written for one segment persuades that segment. Segments let each subscriber get the email that fits.
 
 ### Behavioural segmentation
 
@@ -110,17 +110,17 @@ Match campaigns to the customer’s journey:
 
 ## Advanced analytics and optimization
 
-Judge email on the wrong number and you will keep improving the wrong thing.
+Judge email on the right number and you improve the right thing.
 
 ### Look beyond open rates
 
-Open rates are now a weak signal on their own. Apple's Mail Privacy Protection preloads messages, so an "open" from those users does not prove anyone read the email.
+Open rates are now a weak signal on their own. Apple's Mail Privacy Protection preloads messages, so an "open" from those users counts the preload, whether or not anyone read the email.
 
 > Apple's Mail Privacy Protection now affects roughly 55 to 60% of all email opens.
 >
 > Source: [Litmus, email client market share, July 2026 data](https://www.litmus.com/email-client-market-share)
 
-Focus instead on:
+Focus on:
 
 -   Click-through rates, and whether the page the click lands on holds it (our [technical SEO](/services/technical-seo/) work covers that side)
 -   Conversion rates
@@ -137,11 +137,11 @@ Focus instead on:
 <text x="200" y="122" text-anchor="middle" class="fg-text">Clicked</text>
 <text x="200" y="166" text-anchor="middle" class="fg-text">Converted</text>
 </svg>
-<figcaption>Each stage loses readers, and privacy features now blur the "opened" stage. Judge a campaign by the clicks and conversions further down.</figcaption>
+<figcaption>The funnel narrows at every stage, and privacy features now blur the "opened" figure, so clicks and conversions further down give the clearest measure of a campaign.</figcaption>
 </figure>
 
 <aside class="post-cta">
-<p><strong>Clicks from your emails, and no way to tell which market the enquiries came from?</strong> Our <a href="/services/lead-generation/">lead generation service</a> traces every enquiry to the market and the language that earned it, then follows it into your CRM. <a href="/contact/">Book the discovery call</a>.</p>
+<p><strong>Clicks from your emails, and want to see which market each enquiry came from?</strong> Our <a href="/services/lead-generation/">lead generation service</a> traces every enquiry to the market and the language that earned it, then follows it into your CRM. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
 ### Heat mapping
@@ -166,4 +166,4 @@ AI-powered tools can automatically:
 
 ## Where to start
 
-Pick the one weakest link, whether subject lines, mobile layout or segments, and test a fix on your next send. Judge it on clicks and conversions rather than opens, keep what wins, and move to the next.
+Pick the one weakest link, whether subject lines, mobile layout or segments, and test a fix on your next send. Judge it on clicks and conversions, keep what wins, and move to the next.

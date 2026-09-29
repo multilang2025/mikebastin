@@ -20,11 +20,56 @@ function displayName(full: string): string {
   return `${first} ${lastInitial}.`;
 }
 
-const FILTERS = [
-  { id: "all", label: "All" },
-  { id: "delivery", label: "Client work" },
-  { id: "training", label: "Training" },
-] as const;
+const FILTERS = [{ id: "all" }, { id: "delivery" }, { id: "training" }] as const;
+
+type Ui = {
+  filters: Record<(typeof FILTERS)[number]["id"], string>;
+  count: (shown: number, total: number) => string;
+  source: [string, string, string];
+  /** Offer the English rendering. Off where the page is in the review's own language. */
+  translate: boolean;
+  /** Review ages as lib/testimonials.ts stores them, in English. */
+  when: (en: string) => string;
+};
+
+const AGE_FR: Record<string, string> = {
+  "One month ago": "Il y a un mois",
+  "Six months ago": "Il y a six mois",
+  "Ten months ago": "Il y a dix mois",
+  "One year ago": "Il y a un an",
+};
+const AGE_ES: Record<string, string> = {
+  "One month ago": "Hace un mes",
+  "Six months ago": "Hace seis meses",
+  "Ten months ago": "Hace diez meses",
+  "One year ago": "Hace un año",
+};
+
+// The block's own labels follow the page's language, like the reviews
+// themselves. A locale missing here falls back to English.
+const UI: Partial<Record<Testimonial["lang"], Ui>> = {
+  en: {
+    filters: { all: "All", delivery: "Client work", training: "Training" },
+    count: (n, t) => `${n} of ${t} reviews, written in this language`,
+    source: ["Every one of these is public on ", "the Google Business Profile", ", where you can check them against the source."],
+    translate: true,
+    when: (en) => en,
+  },
+  fr: {
+    filters: { all: "Tous", delivery: "Missions clients", training: "Formation" },
+    count: (n, t) => `${n} avis sur ${t}, rédigés en français`,
+    source: ["Chacun de ces avis est public sur ", "notre fiche Google", ", où vous pouvez les vérifier à la source."],
+    translate: false,
+    when: (en) => AGE_FR[en] ?? "",
+  },
+  es: {
+    filters: { all: "Todas", delivery: "Proyectos", training: "Formación" },
+    count: (n, t) => `${n} de ${t} reseñas, escritas en español`,
+    source: ["Todas estas reseñas son públicas en ", "nuestro perfil de Google", ", donde puedes comprobarlas en su origen."],
+    translate: false,
+    when: (en) => AGE_ES[en] ?? "",
+  },
+};
 
 function Stars() {
   return (
@@ -39,7 +84,7 @@ function Stars() {
   );
 }
 
-function Card({ t, i }: { t: Testimonial; i: number }) {
+function Card({ t, i, ui }: { t: Testimonial; i: number; ui: Ui }) {
   const still = useReducedMotion();
   const [showEn, setShowEn] = useState(false);
 
@@ -74,7 +119,7 @@ function Card({ t, i }: { t: Testimonial; i: number }) {
         {t.quote}
       </blockquote>
 
-      {t.english && (
+      {ui.translate && t.english && (
         <div>
           <button
             onClick={() => setShowEn((v) => !v)}
@@ -108,7 +153,7 @@ function Card({ t, i }: { t: Testimonial; i: number }) {
             Local Guide
           </span>
         )}
-        <span className="ml-auto" style={{ color: "var(--dim)" }}>{t.when}</span>
+        <span className="ml-auto" style={{ color: "var(--dim)" }}>{ui.when(t.when)}</span>
       </figcaption>
     </motion.figure>
   );
@@ -126,6 +171,7 @@ export default function Testimonials({
   locale?: Testimonial["lang"];
 }) {
   const [filter, setFilter] = useState<(typeof FILTERS)[number]["id"]>("all");
+  const ui = UI[locale] ?? UI.en!;
 
   const inLocale = TESTIMONIALS.filter((t) => t.lang === locale);
   const shown =
@@ -154,28 +200,27 @@ export default function Testimonials({
                   background: on ? "var(--berry-soft)" : "transparent",
                 }}
               >
-                {f.label}
+                {ui.filters[f.id]}
               </button>
             );
           })}
         <span className="ml-auto text-[.8rem]" style={{ color: "var(--dim)" }}>
-          {inLocale.length} of {TESTIMONIALS.length} reviews, written in this
-          language
+          {ui.count(inLocale.length, TESTIMONIALS.length)}
         </span>
       </div>
 
       <div className="columns-1 gap-5 md:columns-2">
         {shown.map((t, i) => (
-          <Card key={t.name} t={t} i={i} />
+          <Card key={t.name} t={t} i={i} ui={ui} />
         ))}
       </div>
 
       <p className="mt-6 text-[.85rem]" style={{ color: "var(--dim)" }}>
-        Every one of these is public on{" "}
+        {ui.source[0]}
         <a href={GBP_URL} className="ulink" target="_blank" rel="noopener noreferrer">
-          the Google Business Profile
+          {ui.source[1]}
         </a>
-        , where you can check them against the source.
+        {ui.source[2]}
       </p>
     </div>
   );

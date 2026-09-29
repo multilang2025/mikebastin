@@ -265,8 +265,7 @@ export default async function BlogPostPage({
               We start with a thirty minute call on your markets, what
               already ranks and what has already been tried. Questions come
               before recommendations, and what comes back afterwards is a
-              written scope naming real pages and deliverables, never a
-              quote with plan tiers.
+              written scope naming real pages and deliverables.
             </p>
           </Reveal>
           <Reveal i={2}>

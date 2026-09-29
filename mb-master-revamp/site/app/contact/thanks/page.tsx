@@ -32,8 +32,8 @@ export default function ThanksPage() {
               className="mb-10 max-w-[58ch] text-[clamp(1.05rem,1.65vw,1.24rem)]"
               style={{ color: "var(--dim)" }}
             >
-              A person reads it, not a routing rule. Expect a reply within a
-              working day, and a straight answer about whether we are the right
+              A person reads it. Expect a reply within a working day, and a
+              straight answer about whether we are the right
               people for it.
             </p>
           </Reveal>

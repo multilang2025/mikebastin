@@ -97,7 +97,72 @@ Avoid US idioms and cultural references ("touch base," "circle back," "home run,
 - Every page's social-share image and its structured-data (`schema.org`) image should point at the **same, real, on-topic image** — never leave either defaulting to a generic brand logo when a genuine hero or section image exists.
 - If a page adds a preselect, query-parameter, or deep-link mechanism (e.g. a quote form defaulting to a specific service), wire every entry point that plausibly promises it — a CTA whose label implies a specific outcome should not land somewhere generic.
 
-## 9. Quick Review Checklist
+## 9. Positive framing, in every locale
+
+Owner, 29 September 2026, on the French lead generation page's billing
+section: "This is purely negative writing I abhor and don't want reflected
+across locales." It extends the negative-wording audit of 28 September
+(`docs/NEGATIVE-WORDING-AUDIT.md`) from headings to every sentence, and
+from English to French and Spanish.
+
+**The rule.** Say what the reader gets, what we do and what works. Never
+build a sentence on a denial, a loss or a fault when the same fact can be
+stated as what is true.
+
+| Write | Not |
+|---|---|
+| Your whole media budget buys ads: it goes straight to Google, Microsoft or Meta, and our management fee is separate. | No markup on your ad spend, so a bigger budget earns us nothing. |
+| We recommend the budget that brings in enquiries. | We have no reason to recommend a bigger budget. |
+| Use the same structure for every language. | Never mix structures across languages. |
+| Start with the market where the evidence is strongest. | Do not launch every language at once. |
+| A page written for the market reading it. | A page that is not translated from English. |
+| Month to month, with a written scope after the first call. | No lock-in, no minimum contract. |
+
+What that means in practice:
+
+- **Denial-led contrasts go.** "Not X but Y", "rather than X", "instead of
+  X", "X, not Y": keep Y and drop X, unless X is the reader's own words
+  (a query they type, a belief they hold that the page then answers).
+- **No digs at other agencies** or at the reader's current setup ("an
+  agency that stays vague usually has a reason"). State our own practice
+  and let it stand.
+- **Situation openings stay, written forwards.** Posts and service pages
+  still open on the reader's situation (BLOG-STRUCTURE.md "The opening",
+  `mb-copy-voice`), but as where they are and where they want to be:
+  "Your German pages draw visitors; the next step is turning them into
+  enquiries", rather than "Your German pages do not convert".
+- **Warnings become instructions.** In a how-to, the fix is the sentence:
+  "Check the hreflang return links", rather than "Missing return links
+  break hreflang".
+- **Positioning keeps its facts.** The billing point (media spend passes
+  straight to the platform, management is a separate fee, translation is
+  quoted as work) survives in full; only its framing changes, as in the
+  table above.
+- **Every fact survives.** A rewrite changes framing only: no claim,
+  figure, source or link is dropped, and nothing new is promised.
+
+**Kept on purpose**, and only these: a verbatim quote (reviews, cited
+sources); a searched query quoted as the query; a legal or factual
+distinction that is false when stated positively; UI and code strings;
+and a negation that is grammatical glue rather than framing ("whether or
+not", "not only", "no later than").
+
+**French and Spanish** follow the same rule with their own markers:
+*ne ... pas / jamais / rien / aucun, sans, plutôt que, au lieu de, éviter,
+erreur*; *no, nunca, nada, ningún, sin, nadie, en lugar de, evitar,
+error*. "Sans engagement" becomes "au mois"; "sin permanencia" becomes
+"mes a mes".
+
+**Register.** French uses *vous*. Spanish uses *tú* (owner, 29 Sep 2026),
+in page copy, UI strings and the footer alike.
+
+**Enforced** by `site/scripts/negative-wording-lint.mjs` (`npm run
+lint:negative`, in `verify`): it fails on a negation in any title, meta
+title, excerpt, `h1` to `h3`, CTA lead or service-page hero field in any
+locale, and reports body sentences per page. The `copy-editor` and
+`localization-qa` agents apply the rule to body copy.
+
+## 10. Quick Review Checklist
 
 Before publishing or approving UK/EU-facing copy:
 
@@ -111,6 +176,7 @@ Before publishing or approving UK/EU-facing copy:
 - [ ] No hard-coded strings that should be localised
 - [ ] Internal link anchors are 2–4 term expressions, varied across pages
 - [ ] Links and CTAs actually go where their label promises
+- [ ] Positive framing (section 9): no sentence built on a denial, a loss or a dig at other agencies, in any locale
 
 ---
 

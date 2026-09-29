@@ -9,16 +9,16 @@ wpId: 24845622
 date: "2024-10-16T14:37:26"
 modified: "2026-09-26T21:30:00"
 sourceUrl: "https://mikebastin.com/link-building-in-spain/"
-excerpt: "Paid for .es links that never moved a ranking? Link building in Spain runs on Spanish PR and relationships. Where authority sits and what it takes."
+excerpt: "Want .es links that move your rankings? Link building in Spain runs on Spanish PR and relationships. Where authority sits and what it takes."
 ---
 
-## Link building in Spain works on relationships, not templates
+## Link building in Spain works on relationships
 
-You have paid for links to your Spanish site, the reports show them live, and your rankings in Spain have barely moved. The budget went on placements Spanish editors never chose and Google learns to ignore.
+You have links to your Spanish site live in the reports, and the next step is rankings in Spain that move with them. The links that do it are the ones Spanish editors chose to give, and Google counts those.
 
-We have run SEO from Valencia since 2016, including campaigns for a Valencia law firm, a Dominican real estate group selling holiday homes to Spanish retirees, and [our own translation agency](https://betranslated.com/) across .es, .fr, .be, .nl and .com properties. What we see month after month: cold pitches in English to Spanish editors get no traction, generic guest post templates land in spam folders, and bulk-bought placements on PBN-flavoured .es domains burn budget on links Google quietly ignores within months.
+We have run SEO from Valencia since 2016, including campaigns for a Valencia law firm, a Dominican real estate group selling holiday homes to Spanish retirees, and [our own translation agency](https://betranslated.com/) across .es, .fr, .be, .nl and .com properties. What we see month after month: pitches written in Spanish get answered by Spanish editors, personal proposals reach the inbox, and editorial placements keep their value long after bulk-bought links on PBN-flavoured .es domains have been discounted by Google.
 
-Good [Spanish SEO](/services/spanish-seo/) treats link building as slow-burn PR rather than mass outreach. Below: where authority sits in Spain, the tactics we rely on, the costliest mistakes, and realistic timing.
+Good [Spanish SEO](/services/spanish-seo/) treats link building as slow-burn PR. Below: where authority sits in Spain, the tactics we rely on, the habits worth checking for, and realistic timing.
 
 ## The Spanish link economy in 2026
 
@@ -34,17 +34,17 @@ Earn a mention in La Vanguardia, El País, ABC, El Confidencial, El Español or 
 >
 > Source: [Instituto Nacional de Estadística (INE), Survey on ICT in Households 2025](https://www.ine.es/dyngs/Prensa/en/TICH2025.htm)
 
-The regional spread matters more than most off-page plans assume. A backlink from a regional publisher in Valencia or Bilbao is not the same asset as one from a Madrid outlet, even at a similar Domain Rating, and local relevance still beats raw DR for queries like _abogado herencia Valencia_ or _agencia inmobiliaria Costa Blanca_.
+The regional spread deserves a place in every off-page plan. A backlink from a regional publisher in Valencia or Bilbao is a different asset from one from a Madrid outlet, even at a similar Domain Rating, and local relevance still beats raw DR for queries like _abogado herencia Valencia_ or _agencia inmobiliaria Costa Blanca_.
 
 ## The four tactics we keep going back to
 
 Each earns links a Spanish editor chose to give, the kind that keeps its value.
 
-**Spanish digital PR.** Pitch in Spanish, in the journalist's tone, with a story that fits their beat: Marketing4eCommerce, El Referente, Vozpópuli, El Español, Cinco Días for fintech, regional press for local angles. Lead times are long and reply rates above 5% are rare, but the placements you earn are excellent.
+**Spanish digital PR.** Pitch in Spanish, in the journalist's tone, with a story that fits their beat: Marketing4eCommerce, El Referente, Vozpópuli, El Español, Cinco Días for fintech, regional press for local angles. Lead times are long and reply rates usually sit below 5%, and the placements you earn are excellent.
 
-**Niche edits in sector publishers.** Spanish industry blogs covering legal, real estate, logistics, translation and e-commerce accept contextual links when the proposal genuinely helps their readers. We work mostly with editors we have known for years, and a new relationship starts with a useful comment on their existing content, not a pitch.
+**Niche edits in sector publishers.** Spanish industry blogs covering legal, real estate, logistics, translation and e-commerce accept contextual links when the proposal genuinely helps their readers. We work mostly with editors we have known for years, and a new relationship starts with a useful comment on their existing content, well before any pitch.
 
-**Cámara de Comercio and association listings.** Slow, evergreen, unglamorous. Each provincial Cámara runs its own member directory, and sector associations (AECOC for retail, AERR for real estate, ANETI for the language industry) still pass equity. Most agencies skip them because they take admin work rather than outreach skill.
+**Cámara de Comercio and association listings.** Slow, evergreen, unglamorous. Each provincial Cámara runs its own member directory, and sector associations (AECOC for retail, AERR for real estate, ANETI for the language industry) still pass equity. They reward patient admin work more than outreach skill, which keeps them underused.
 
 **Sponsorships and event listings.** Backing or attending a sector fair (DES Madrid, eShow, FITUR for tourism, SIL Barcelona for logistics) earns a mention on the event site, often regional press coverage, sometimes a podcast or interview. Real activity feeds genuine link signals.
 
@@ -55,34 +55,34 @@ Each earns links a Spanish editor chose to give, the kind that keeps its value.
 | Cámara and association listings | Low to medium | 50 to 70 | Local trust signals, evergreen |
 | Sponsorships and events | Medium | 50 to 80 | Press mentions plus brand exposure |
 
-## Three mistakes we see agencies repeat
+## Three habits to check in any Spanish link plan
 
-Each spends real money on links that do little, and they show up in almost every Spanish off-page programme we audit.
+Checking for these three keeps your budget on links that count, and we look for them in every Spanish off-page programme we audit.
 
-**Buying generic .es links from cheap marketplace inventory.** Publisuites and Prensalink list legitimate publishers, but the cheap end (under EUR 40) is mostly low-traffic blogs with thin editorial control, and Google has had years to learn the footprint.
+**Check what sits behind cheap marketplace inventory.** Publisuites and Prensalink list legitimate publishers, and the cheap end (under EUR 40) is mostly low-traffic blogs with thin editorial control, a footprint Google has had years to learn.
 
-**Pitching in English to Spanish editors.** We ran the test once with a US client who insisted: 80 personalised English pitches over two months, a 1.25% reply rate. We re-ran the same list in Spanish through a junior linguist on our team and got 11%. Same publishers, same angle, same week of the year.
+**Pitch Spanish editors in Spanish.** We ran the test once with a US client who wanted English pitches: 80 personalised English pitches over two months, a 1.25% reply rate. We re-ran the same list in Spanish through a junior linguist on our team and got 11%. Same publishers, same angle, same week of the year.
 
-**Over-optimised exact-match anchors.** Spanish editors strip them. An anchor like _abogado matrimonialista Madrid_ tends to be rewritten as _este despacho_ or the brand name, so plan for that rather than against it.
+**Plan anchors the way Spanish editors write them.** Editors rewrite exact-match anchors: one like _abogado matrimonialista Madrid_ tends to become _este despacho_ or the brand name, so build the plan around that.
 
 <aside class="post-cta">
-<p><strong>Paying for Spanish links that never moved a ranking?</strong> Our <a href="/services/spanish-seo/">Spanish SEO service</a> works on the things that make a Spanish buyer trust a supplier, mentions in the press that market actually reads among them, run in Spanish from Valencia. <a href="/contact/">Book the discovery call</a>.</p>
+<p><strong>Want Spanish links that move your rankings?</strong> Our <a href="/services/spanish-seo/">Spanish SEO service</a> works on the things that make a Spanish buyer trust a supplier, mentions in the press that market actually reads among them, run in Spanish from Valencia. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
 ## Realistic timing
 
-Knowing the real timeline protects you from impossible promises. From first contact to a live editorial link in Spain, expect four to eight weeks for genuine placements. It is faster only when the relationship already exists, and slower when August or late December fall in the window: Spain shuts down properly twice a year, and pretending otherwise frustrates everyone.
+Knowing the real timeline lets you plan with confidence. From first contact to a live editorial link in Spain, expect four to eight weeks for genuine placements. It runs faster where the relationship already exists, and slower when August or late December fall in the window: Spain takes a proper break twice a year, so plan around both.
 
-If a vendor promises 20 .es links in 30 days, the inventory is already bought, already on a PBN and already discounted by Google.
+Measure any offer against that pace: 20 .es links in 30 days means inventory already bought, already on a PBN and already discounted by Google.
 
 ## Where links fit in a wider Spanish SEO programme
 
-Links multiply what your pages are already worth; they cannot rescue weak ones. Off-page work in Spain pulls hardest beside proper [Spanish keyword localization](/blog/spanish-keyword-localisation/), [content tuned for Spanish users](/blog/content-optimisation-for-spanish-users/) and a clear [Spanish SEO market plan](/blog/spanish-seo-markets/) that respects regional differences.
+Links multiply what your pages are already worth, so strong pages come first. Off-page work in Spain pulls hardest beside proper [Spanish keyword localization](/blog/spanish-keyword-localisation/), [content tuned for Spanish users](/blog/content-optimisation-for-spanish-users/) and a clear [Spanish SEO market plan](/blog/spanish-seo-markets/) that respects regional differences.
 
-A link from El Español is wasted on a thin English landing page nobody translated properly, and a perfectly translated page goes nowhere without referring domains. The two halves only work together.
+A link from El Español pays off on a strong landing page written properly in Spanish, and a well-translated page climbs once referring domains point to it. The two halves work together.
 
 ## A second opinion on your Spanish link plan
 
-If you are weighing a Spanish link building plan against generic outreach packages, we are happy to look at the gap with you. We work from Valencia, in Spanish, French and English, and we do not sell volume packages.
+If you are weighing a Spanish link building plan, we are happy to look at it with you. We work from Valencia, in Spanish, French and English, and we build every link plan placement by placement.
 
 [Get in touch here](/contact/), read [how we work with clients](/how-i-work/), or see what our [Spanish SEO service](/services/spanish-seo/) covers.

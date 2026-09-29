@@ -1,7 +1,7 @@
 ---
 words: 392
 editorial: "light"
-title: "Localization de site web"
+title: "Localisation de site web"
 slug: "localisation-de-site-web"
 locale: "fr"
 type: "services"
@@ -33,7 +33,7 @@ Plus de vingt ans passés à vivre et travailler dans quatre pays (Belgique, Ét
 
 Je vous conseille sur le design, le ton éditorial et les stratégies de contenu adaptés à chaque marché visé, en m’appuyant sur une connaissance directe des cultures francophone, anglophone, hispanophone et néerlandophone.
 
-Avant de lancer une campagne, j’analyse les tendances de recherche locales, les différences réglementaires (RGPD en Europe, CCPA aux États-Unis), et les termes de recherche réellement utilisés par votre audience, pas ceux que vous imaginez depuis votre bureau.
+Avant de lancer une campagne, j’analyse les tendances de recherche locales, les différences réglementaires (RGPD en Europe, CCPA aux États-Unis), et les termes de recherche réellement utilisés par votre audience.
 
 ## CMS multilingue WordPress
 
@@ -41,4 +41,4 @@ La majorité des sites multilingues que j’audite reposent sur WordPress, et po
 
 J’intègre et configure votre CMS multilingue en m’assurant que les balises hreflang sont générées automatiquement, que chaque version linguistique dispose de son propre sitemap XML, et que les URL sont structurées en sous-répertoires (/fr/, /en/, /es/) pour consolider l’autorité de votre domaine principal.
 
-Après plus de vingt ans de pratique sur WordPress, je sais où se cachent les pièges techniques : contenus mixtes (menu dans une langue, corps du texte dans une autre), URL non traduites (/de/about-us au lieu de /de/ueber-uns), ou attribut lang manquant dans le HTML.
+Après plus de vingt ans de pratique sur WordPress, je sais quels points techniques vérifier : une seule langue par page, menu et corps du texte compris ; des URL traduites (/de/ueber-uns pour la page /de/about-us) ; un attribut lang présent dans le HTML.

@@ -1,7 +1,7 @@
 ---
 words: 799
 editorial: "superseded"
-title: "Localization de contenu"
+title: "Localisation de contenu"
 slug: "localisation-contenu"
 locale: "fr"
 type: "services"

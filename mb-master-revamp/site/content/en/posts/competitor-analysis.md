@@ -9,34 +9,34 @@ wpId: 24855661
 date: "2026-01-24T16:37:28"
 modified: "2026-09-26T21:30:00"
 sourceUrl: "https://mikebastin.com/competitor-analysis/"
-excerpt: "Benchmarking against the rival you lose deals to? In search it is rarely the same one. Competitor analysis that finds who actually takes your buyers."
+excerpt: "Benchmarking against the rival you meet in sales? In search it is often another. Competitor analysis that finds who actually wins your buyers."
 ---
 
-## Most competitor analysis is theatre, not strategy
+## Competitor analysis that drives strategy
 
-You are probably benchmarking against the company you lose deals to. In search it rarely is, and every month spent chasing the wrong rival funds the wrong pages.
+You are probably benchmarking against the company you meet in sales pitches. In search your rival is often someone else, and finding them points every month’s budget at the right pages.
 
-More than two decades in, we have read more “competitor analysis” reports than we want to admit. Most look impressive in an exec deck. Most do nothing for search performance.
+More than two decades in, we have read a great many “competitor analysis” reports, and the ones that move search performance share one habit: they start from the search results.
 
-One [law firm we have worked with](/blog/law-firm-seo-services/) for three years was convinced its main rival was a well-known boutique two streets away. One afternoon of checking who actually appeared for its clients' searches turned up three solo practitioners with twelve-page websites and very tidy local pages. The boutique they obsessed over barely ranked.
+One [law firm we have worked with](/blog/law-firm-seo-services/) for three years was convinced its main rival was a well-known boutique two streets away. One afternoon of checking who actually appeared for its clients' searches turned up three solo practitioners with twelve-page websites and very tidy local pages. The boutique they had focused on ranked well below those three.
 
-Good **competitor analysis** in 2026 starts with one shift: stop listing the companies you assume are competitors, and start listing the pages that appear next to yours when buyers search. Below: how to find them, what to take from them, and when the exercise pays.
+Good **competitor analysis** in 2026 starts with one shift: move from listing the companies you assume are competitors to listing the pages that appear next to yours when buyers search. Below: how to find them, what to take from them, and when the exercise pays.
 
-## Who shares your SERPs is not who shares your industry conference
+## Your search competitors are the ones sharing your SERPs
 
-Get the list wrong and every brief after it aims at the wrong rival. Business competitors and SEO competitors are different categories. The biggest firm in the city is rarely the one ranking for the high-intent queries small and mid-size firms convert on.
+Get the list right and every brief after it aims at the right rival. Business competitors and SEO competitors are different categories. The high-intent queries small and mid-size firms convert on are usually won by someone other than the biggest firm in the city.
 
 We run a quick SERP scrape on the 30 to 50 queries that genuinely matter to a client. The pages that show up repeatedly are the real list. Sometimes a forum thread or a Reddit post outranks every “official” competitor for the buyer’s actual question.
 
-Knowing that changes the brief. You stop trying to outrank Forbes for a generic term and start outranking the three blogs that actually capture buying intent.
+Knowing that changes the brief. You aim at the three blogs that actually capture buying intent, and leave the generic term to Forbes.
 
 ## The four things worth extracting
 
 Five rivals produce thousands of rows. Four things in them change what you do next. When a client asks us to analyse five rivals, this is what we pull.
 
-**Top pages by traffic share.** Not the whole site. Just the 10 to 20 URLs Ahrefs or Semrush flag as the real organic earners. The model lives in those pages, not in the homepage.
+**Top pages by traffic share.** Just the 10 to 20 URLs Ahrefs or Semrush flag as the real organic earners. The model lives in those pages.
 
-**Link velocity, not link count.** A five-links-a-month flow over two years beats a 200-link spike from one PR campaign. Patterns matter. Totals are vanity.
+**Link velocity.** A five-links-a-month flow over two years beats a 200-link spike from one PR campaign. Patterns matter more than totals.
 
 **SERP feature mix.** Are rivals winning featured snippets, video carousels, or the local pack? Each one tells you what Google currently rewards for that intent. The answer guides format choices for your own pages.
 
@@ -44,19 +44,19 @@ Five rivals produce thousands of rows. Four things in them change what you do ne
 
 For the methodical version of this on traffic specifically, see our [competitor traffic analysis checklist](/competitor-analysis-traffic-checklist/).
 
-## Why most of your rivals’ pages are decorative
+## Where your rivals’ traffic really comes from
 
-Mapping every page on a rival’s site is a week you can mostly skip. One number explains why.
+A handful of pages on a rival’s site do the work, so a focused study saves you a week of mapping. One number explains why.
 
 > 96.55% of all pages in our index get zero traffic from Google, and 1.94% get between one and ten monthly visits.
 > 
 > Source: [Ahrefs, 14 Billion Page Search Traffic Study (2024)](https://ahrefs.com/blog/search-traffic-study/)
 
-The implication is uncomfortable: most pages your rivals publish do nothing. Find their five to ten traffic-driving URLs and study those properly. Skip the rest.
+The implication: a rival’s traffic sits in a few pages. Find their five to ten traffic-driving URLs and study those properly.
 
 ## The toolkit we use, with honest caveats
 
-A plan built on an estimate read as fact goes wrong quietly.
+Read each estimate as an estimate, and the plan built on it holds.
 
 | Tool | What we use it for | Reality check |
 |---|---|---|
@@ -66,15 +66,15 @@ A plan built on an estimate read as fact goes wrong quietly.
 | Google Search Console | Where you actually appear next to rivals | Free and underused, especially the Pages and Queries cross-filter |
 | Manual SERP checks (VPN) | What real Spanish, French, UK SERPs look like | Tool snapshots lag the live SERP by days |
 
-Ahrefs themselves [document the gap](https://help.ahrefs.com/en/articles/431381-why-don-t-the-organic-traffic-numbers-reported-by-ahrefs-match-those-i-see-in-google-analytics-or-gsc) between their traffic estimates and Google Search Console reality. Treat the numbers as ranges. Compare relative trends, not absolute figures.
+Ahrefs themselves [document the gap](https://help.ahrefs.com/en/articles/431381-why-don-t-the-organic-traffic-numbers-reported-by-ahrefs-match-those-i-see-in-google-analytics-or-gsc) between their traffic estimates and Google Search Console reality. Treat the numbers as ranges and compare relative trends.
 
 <aside class="post-cta">
-<p><strong>Are tool estimates the only numbers behind your plans?</strong> Our <a href="/services/technical-seo/">technical SEO work</a> sets up GA4 with traffic split by market, so you can check the estimates against measured figures. <a href="/contact/">Book the discovery call</a>.</p>
+<p><strong>Want measured numbers behind your plans, alongside tool estimates?</strong> Our <a href="/services/technical-seo/">technical SEO work</a> sets up GA4 with traffic split by market, so you can check the estimates against measured figures. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
 ## Multilingual competitor analysis is plural by default
 
-Sell in more than one language and a single analysis hides most of your rivals. The law firm we mentioned earlier has three sets.
+Sell in more than one language and each language brings its own rivals. The law firm we mentioned earlier has three sets.
 
 | Language | Audience | Typical queries |
 |---|---|---|
@@ -84,31 +84,31 @@ Sell in more than one language and a single analysis hides most of your rivals. 
 
 Three competitor lists. Three different content briefs. Three different link strategies.
 
-UK and US agencies regularly copy a single English-market analysis across all language versions. The output is wasted budget and content that ranks nowhere. If you operate across countries, expect to do the analysis once per language, not once per company.
+Give each language its own analysis, so each market gets a brief it can rank with. If you operate across countries, plan for one analysis per language.
 
 For the deeper view, see [best practices for multilingual SEO](/blog/best-practices-for-multilingual-seo/).
 
-## AI search shifts the question, not the method
+## AI search changes the question, and the method holds
 
-Yes, [GEO](/services/generative-engine-optimization/) matters. Yes, ChatGPT and Perplexity citations now factor into B2B buyer journeys. The underlying competitor logic does not change much.
+Yes, [GEO](/services/generative-engine-optimization/) matters. Yes, ChatGPT and Perplexity citations now factor into B2B buyer journeys. The underlying competitor logic stays much the same.
 
 What we add for clients now: a small layer of “who gets cited in AI answers for our buyer prompts”. We run five to ten prompts a real prospect might genuinely use, log the cited domains, and check overlap with the traditional SERP rivals.
 
-Often the overlap is high. Sometimes a niche site we had not flagged shows up. Neither replaces the SERP-level work.
+Often the overlap is high. Sometimes a niche site turns up that is new to the list. Both findings build on the SERP-level work.
 
-The mistake is treating GEO as a separate exercise. It is the same SERP behind a chat layer.
+Treat GEO as part of the same exercise: it is the same SERP behind a chat layer.
 
 <aside class="post-cta">
-<p><strong>Running one competitor list across every language?</strong> The keyword research in our <a href="/services/technical-seo/">technical SEO service for multilingual websites</a> reads how buyers phrase the problem, not just volume. <a href="/contact/">Book the discovery call</a>.</p>
+<p><strong>Running one competitor list across every language?</strong> The keyword research in our <a href="/services/technical-seo/">technical SEO service for multilingual websites</a> reads how buyers phrase the problem in each language, as well as the volume. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
-## Three failure patterns we keep seeing
+## Three habits worth building early
 
-**Reading tool numbers as truth.** Estimates are not measurements. The further down the long tail you go, the wider the gap between Ahrefs’ estimate and Google Analytics reality.
+**Reading tool numbers as estimates.** Measurements come from your own analytics. The further down the long tail you go, the wider the gap between Ahrefs’ estimate and Google Analytics reality.
 
-**Treating keyword gap exports as content briefs.** A 1,200-row export is a list. A brief is what survives an editor and a subject-matter expert reviewing it. The two are not the same document.
+**Turning keyword gap exports into content briefs.** A 1,200-row export is a list. A brief is what survives an editor and a subject-matter expert reviewing it.
 
-**Running the analysis once a year.** Markets shift. Algorithms update. New entrants arrive. For active clients we refresh the picture quarterly. For fast-moving niches like AI tooling or fintech, monthly.
+**Refreshing the analysis through the year.** Markets shift. Algorithms update. New entrants arrive. For active clients we refresh the picture quarterly. For fast-moving niches like AI tooling or fintech, monthly.
 
 ## When competitor analysis earns its budget
 
@@ -116,18 +116,18 @@ Run it when a decision depends on it. Three scenarios where it genuinely pays ba
 
 Entering a new geographic or vertical market, where you need to learn what good looks like before committing budget.
 
-Diagnosing a stalled growth plateau, where your team is “doing all the right things” and rankings still will not move.
+Diagnosing a growth plateau, where your team is “doing all the right things” and wants the rankings moving again.
 
 Pricing or service positioning decisions, where you are weighing a shift and want to know which space is already occupied.
 
-Outside those moments, weekly competitor reports are mostly busy work.
+In between, a regular refresh keeps the picture current.
 
 ## A second pair of eyes on your real rivals
 
-If you suspect your team is benchmarking against the wrong list, we can pull a focused SERP-level **competitor analysis** for one of your priority queries inside an hour.
+If you want to check your team is benchmarking against the right list, we can pull a focused SERP-level **competitor analysis** for one of your priority queries inside an hour.
 
 We do this for clients in legal, freight, real estate, and translation across six languages, working from [Valencia](/how-i-work/).
 
-The SERP does not care about org charts. Neither should your analysis.
+The SERP ranks pages, whatever the org chart says, and your analysis can do the same.
 
 [Get in touch](/contact/) or look at [how we run multilingual SEO programmes](/services/multilingual-seo/).

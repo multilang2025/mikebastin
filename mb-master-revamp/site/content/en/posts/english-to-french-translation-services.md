@@ -9,28 +9,28 @@ wpId: 37205
 date: "2024-09-17T17:33:07"
 modified: "2026-09-26T21:30:00"
 sourceUrl: "https://mikebastin.com/english-to-french-translation-services/"
-excerpt: "Paid for French pages that neither sell nor rank? What to look for in English to French translation services for France, Belgium, Switzerland and Québec."
+excerpt: "Want French pages that sell and rank? What to look for in English to French translation services for France, Belgium, Switzerland and Québec."
 ---
 
-You paid for a French version of your site, and French buyers still are not getting in touch. The pages are correct, more or less, but they read as translated, they use the French of the wrong country, or they rank for nothing because nobody checked what French buyers actually search for. The budget is spent and the French market is still underperforming.
+You paid for a French version of your site, and the next step is French buyers getting in touch. Pages that win them read as written in French, use the French of the right country, and rank because someone checked what French buyers actually search for.
 
 Most of that is decided before a translator types a word: by the variant of French you choose, the brief, and whether search is planned in.
 
-Below: what each French market expects, how a good English to French translation project runs, where translation alone falls short, and what to send so the quote fits the job.
+Below: what each French market expects, how a good English to French translation project runs, where translation needs localization alongside it, and what to send so the quote fits the job.
 
-## Why generic English to French translation keeps failing
+## Three things to get right in English to French translation
 
-Bad French copy costs twice: once to produce and again to fix, with lost enquiries in between. Most of what we get asked to repair shares the same three faults.
+French copy done right is paid for once and earns enquiries from day one. Most of what we get asked to repair comes down to the same three things.
 
-The first is choosing the wrong variant. A campaign written for Parisians but shipped to Québec reads as foreign and loses conversions immediately. The reverse is worse: Canadian phrasing on a French website looks like an Americanism written by someone who learned French from films.
+The first is the variant. A campaign written for Parisians reads as foreign in Québec, so each market gets its own version. The same holds in reverse, more strongly still: Canadian phrasing on a French website reads to a French buyer like an Americanism picked up from films.
 
-The second is raw machine translation pushed live without human review. DeepL is strong on English to French, but French readers spot the giveaways within two sentences: overuse of "très", wrong gender agreement on rare nouns, anglicised verb and noun pairings, and title case in headings.
+The second is human review of machine translation before it goes live. DeepL is strong on English to French, and a reviewer catches the giveaways French readers spot within two sentences: overuse of "très", wrong gender agreement on rare nouns, anglicised verb and noun pairings, and title case in headings.
 
-The third is the one nobody talks about. Most agencies translate the words and ignore the SEO, so the French page ranks for nothing because the keyword research was never adapted to how French speakers actually search Google.fr, Qwant or Ecosia.
+The third is the one least discussed: SEO. Adapt the keyword research to how French speakers actually search Google.fr, Qwant or Ecosia, and the French page ranks.
 
 ## The French markets and what each one wants
 
-Pick the wrong French and your copy lands somewhere between odd and offensive. Hexagonal, Belgian, Swiss and Québécois French each have their own vocabulary, register and commercial expectations, so the first question we ask before quoting is which French audience you are writing for.
+Pick the right French and your copy lands as local. Hexagonal, Belgian, Swiss and Québécois French each have their own vocabulary, register and commercial expectations, so the first question we ask before quoting is which French audience you are writing for.
 
 | Market | Default register | Distinctive features | Watch for |
 |---|---|---|---|
@@ -40,9 +40,9 @@ Pick the wrong French and your copy lands somewhere between odd and offensive. H
 | **Québec** | Most distinct variant | "Courriel", "magasinage", "stationnement" | French-first legal rules under Bill 96 |
 | **Africa** | Formal Hexagonal | Regional terminology where relevant | Mobile-first consumers |
 
-A few notes the table cannot carry. In France, use "vous" by default for business audiences unless the brand is explicitly youth-oriented. In Belgium, the Dutch-speaking north means [multilingual SEO](/services/multilingual-seo/) setup matters more than almost anywhere else in Europe. Romandy, around Geneva and Lausanne, is a high-value market in finance, watchmaking and pharma, and deserves proper local review rather than generic Hexagonal copy.
+A few notes beyond the table. In France, use "vous" by default for business audiences unless the brand is explicitly youth-oriented. In Belgium, the Dutch-speaking north means [multilingual SEO](/services/multilingual-seo/) setup matters more than almost anywhere else in Europe. Romandy, around Geneva and Lausanne, is a high-value market in finance, watchmaking and pharma, and deserves proper local review of its own.
 
-Québec is where mistakes cost most. The Office québécois de la langue française enforces French-first signage and packaging rules under Bill 96, anglicisms are aggressively replaced, and Hexagonal copy run unchanged will get flagged on regulatory and cultural grounds.
+Québec is where getting it right matters most. The Office québécois de la langue française enforces French-first signage and packaging rules under Bill 96, anglicisms are aggressively replaced, and Hexagonal copy needs adapting to pass on regulatory and cultural grounds.
 
 French is an official or co-official language in around 20 African countries and widely used in Morocco, Tunisia and Algeria besides. For most African markets, formal Hexagonal French with local terminology adjustments is the right register.
 
@@ -64,15 +64,15 @@ A clear process keeps the French on brief. French is the language we work in mos
 
 ### Source audit
 
-Weak English produces weak French no matter how good the translator is. So before any translation we read the English source critically, and if it needs tightening we flag it before the meter starts.
+Strong French starts from strong English, whoever the translator is. So before any translation we read the English source critically, and if it needs tightening we flag it before the meter starts.
 
 ### Variant selection and brief
 
-We confirm target market, register and any non-negotiable terminology. If you have a glossary or French competitor copy you admire, send it. If not, we build a 30 to 60 term glossary from your English content and confirm it with you before drafting.
+We confirm target market, register and any non-negotiable terminology. If you have a glossary or French competitor copy you admire, send it. Otherwise, we build a 30 to 60 term glossary from your English content and confirm it with you before drafting.
 
 ### Translation by native French linguists
 
-We work with a small team of native French translators based in France, Belgium and Québec, assigned by target market rather than by who is free that week. For legal and certified work, we bring in _traducteurs assermentés_ registered with French courts.
+We work with a small team of native French translators based in France, Belgium and Québec, assigned by target market. For legal and certified work, we bring in _traducteurs assermentés_ registered with French courts.
 
 ### Post-editing and quality control
 
@@ -80,19 +80,19 @@ Every translation is reviewed by a second native linguist. For AI-assisted proje
 
 ### SEO and CMS delivery
 
-A Word document does not rank. For website translation we push the French content into WPML, Polylang or TranslatePress with proper hreflang tags, French metas and a French URL structure. The keyword research is done in French before drafting, not bolted on after; see [French SEO services](/services/french-seo/) for the full setup.
+Rankings come from the live page. For website translation we push the French content into WPML, Polylang or TranslatePress with proper hreflang tags, French metas and a French URL structure. The keyword research is done in French before drafting; see [French SEO services](/services/french-seo/) for the full setup.
 
-## Where translation alone is not enough
+## Where translation needs localization alongside it
 
-A faithful translation of a sales page is still a page written for English buyers.
+Localization turns a faithful translation of a sales page into a page written for French buyers.
 
 ### Multilingual SEO copywriting around the French keyword cluster
 
-For marketing pages, we do not translate sentence by sentence. We rewrite around the French keyword cluster while preserving your tone and offer. See [multilingual SEO copywriting](/services/multilingual-content/) for how that differs from straight translation.
+For marketing pages, we rewrite around the French keyword cluster while preserving your tone and offer. See [multilingual SEO copywriting](/services/multilingual-content/) for how that differs from straight translation.
 
 ### Transcreation for taglines, ads and hero copy
 
-For taglines, ads, hero copy and creative campaigns, a direct translation almost always loses the punch. What you want is transcreation, part of our [translation and transcreation service](/services/translation-services/): a fresh French version with the same emotional effect, even if it shares almost no words with the source.
+For taglines, ads, hero copy and creative campaigns, what you want is transcreation, part of our [translation and transcreation service](/services/translation-services/): a fresh French version that keeps the punch and the emotional effect, even if it shares few words with the source.
 
 ### French paid search and PPC
 
@@ -100,7 +100,7 @@ Google Ads and Meta campaigns in French markets have their own constraints: head
 
 ## Service tiers and what each one covers
 
-Paying for transcreation on a product manual wastes budget; paying for machine translation on your homepage wastes the market. Match the tier to what the content has to do.
+Put transcreation on your homepage and machine translation on a product manual, and the budget goes where it earns. Match the tier to what the content has to do.
 
 | Service | Best for | Includes | Typical turnaround |
 |---|---|---|---|
@@ -134,11 +134,11 @@ A Spanish e-commerce client wanted their full product catalogue translated for t
 <text x="394" y="95" text-anchor="end" class="fg-label">Categories</text>
 <text x="394" y="151" text-anchor="end" class="fg-label">SKUs</text>
 </svg>
-<figcaption>The more a page carries the brand, the more human effort it gets. Thousands of repetitive SKU lines do not need a copywriter; the homepage hero does.</figcaption>
+<figcaption>The more a page carries the brand, the more human effort it gets. The homepage hero gets a copywriter; thousands of repetitive SKU lines go through MTPE.</figcaption>
 </figure>
 
-1. SKU short descriptions went through MTPE rather than full human translation, because the repetition rate was high and the linguistic risk per item was low.
-2. Category descriptions and brand pages were SEO-translated from French keyword research, not literally translated.
+1. SKU short descriptions went through MTPE, because the repetition rate was high and the linguistic risk per item was low.
+2. Category descriptions and brand pages were SEO-translated from French keyword research.
 3. The homepage hero, three flagship campaigns and the about page were transcreated by a native Parisian copywriter, then reviewed by a Belgian linguist for the .be subdomain.
 
 Total turnaround was 11 weeks. French organic traffic moved from negligible to a meaningful share of the brand's overall sessions within two quarters of launch.
@@ -152,11 +152,11 @@ A complete brief gets you an accurate quote. Send us four things:
 - the intended use: website pages, ads, legal documents, marketing collateral or technical manuals;
 - your existing French presence, if any, so we can audit what ranks and where the gaps sit.
 
-From there we quote a fixed price for the project, not a per-word rate, so you know the cost up front.
+From there we quote a fixed price for the whole project, so you know the cost up front.
 
 ## Where to start
 
-French pays back well when the work is done properly. It is also where we see the most damage from cheap or rushed translation: lost rankings, regulatory flags in Québec, and brand copy that quietly turns French readers away.
+French pays back well when the work is done properly: rankings that hold, a clean regulatory record in Québec, and brand copy that draws French readers in.
 
 For a free 20-minute audit of your current French-language content, [get in touch](/contact/) and we will walk through what we see. For other language pairs, see our [expert translation services](/services/translation-services/). For why translation and SEO need planning together, read [how we work](/how-i-work/).
 
@@ -168,7 +168,7 @@ For website content, ads and marketing materials: yes, almost always. For intern
 
 ### Can we just use DeepL or ChatGPT for French translation?
 
-For personal use, internal drafts and low-stakes communication, yes. For anything client-facing, legal, marketing-led or SEO-driven, raw machine output is detectable and costly. MTPE is the middle ground: machine output edited by a native linguist, billed lower than full human translation but safe to publish.
+For personal use, internal drafts and low-stakes communication, yes. For anything client-facing, legal, marketing-led or SEO-driven, have a native linguist edit the output, because readers detect raw machine translation. MTPE is the middle ground: machine output edited by a native linguist, billed lower than full human translation but safe to publish.
 
 ### How long does an English to French website translation take?
 

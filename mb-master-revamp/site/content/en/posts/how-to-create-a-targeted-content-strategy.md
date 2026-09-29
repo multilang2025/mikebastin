@@ -9,22 +9,20 @@ wpId: 24845163
 date: "2024-10-09T21:43:36"
 modified: "2026-09-26T21:30:00"
 sourceUrl: "https://mikebastin.com/how-to-create-a-targeted-content-strategy/"
-excerpt: "Publishing steadily while enquiries stay flat? How to create a targeted content strategy in seven steps, built on what your buyers search."
+excerpt: "Publishing steadily and want enquiries to follow? How to create a targeted content strategy in seven steps, built on what your buyers search."
 ---
 
 ## Build a strategy that aligns with your audience and goals
 
-You publish steadily, the blog looks busy, and enquiries have not moved. Usually the calendar was built from what the business wanted to say rather than from what its buyers are looking for, and every post written that way costs a writer's week and earns little back.
+You publish steadily and the blog looks busy; the next step is turning that output into enquiries. A calendar built from what buyers are looking for does it, and puts every writer's week to work.
 
 A targeted content strategy fixes the order: who you write for, what they are searching for, what you already own, and how you will know it worked. Below are the seven steps we use, from buyer personas to measurement, and what each one saves you.
 
 ## Why your content needs a strategy (and why you should care)
 
-Content without a strategy costs just as much to write as content with one, and usually earns less. In a busy international market you would not shout random offers in a language nobody speaks. You would learn the language, read the room and pitch with precision.
+Content with a strategy behind it costs the same to write and usually earns more. In a busy international market you would learn the language, read the room and pitch with precision.
 
 Content strategy works the same way. It’s about moving beyond simple keywords to a deeper understanding of topics and user intent, a core principle of [natural language processing](/blog/) (NLP) in search.
-
-Without it, you’re just broadcasting noise.
 
 With it, you’re building relationships, relevance, and revenue.
 
@@ -36,7 +34,7 @@ Here’s why strategy matters:
 
 ## Step 1: know your audience (who’s this for?)
 
-Write for everyone and your buyer recognises themselves in none of it. Knowing exactly who you are addressing is what makes a page read as if it were written for them, and it is the groundwork for any [global SEO strategy](/services/multilingual-seo/).
+Write for one buyer and they recognise themselves in every line. Knowing exactly who you are addressing is what makes a page read as if it were written for them, and it is the groundwork for any [global SEO strategy](/services/multilingual-seo/).
 
 ### Build buyer personas
 
@@ -81,12 +79,12 @@ Track metrics such as:
 -   Click-through rates (CTR) on internal calls to action (CTAs)
 
 <aside class="post-cta">
-<p><strong>Publishing steadily while enquiries stay flat?</strong> Our <a href="/services/content-marketing/">content marketing service</a> starts from search demand, and it often finds that rewriting pages you already have beats publishing new ones. <a href="/contact/">Book the discovery call</a>.</p>
+<p><strong>Want your steady publishing to bring in enquiries?</strong> Our <a href="/services/content-marketing/">content marketing service</a> starts from search demand, and it often finds that rewriting pages you already have beats publishing new ones. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
 ## Step 3: define SMART goals
 
-Without a target, nobody can say whether the content budget worked, and the next budget gets decided on opinion. Your objectives should be:
+A clear target shows whether the content budget worked, so the next budget is decided on evidence. Your objectives should be:
 
 -   **S**pecific: Clearly define what you want to achieve.
 -   **M**easurable: Use quantifiable metrics to track progress.
@@ -107,7 +105,7 @@ Without a target, nobody can say whether the content budget worked, and the next
 
 ## Step 4: perfect your SEO
 
-A page that answers the question well but is not built to be found reaches nobody. Search engines understand content through keywords, entities and context, so write around topics and related terms rather than repeating a single keyword. Google has said it does not use “LSI keywords”, so treat related terms as a way to cover a topic properly, not as a ranking trick.
+A page that answers the question well reaches buyers once it is built to be found. Search engines understand content through keywords, entities and context, so write around topics and related terms. Google has said it does not use “LSI keywords”, so treat related terms as a way to cover a topic properly.
 
 > “There’s no such thing as LSI keywords, anyone who’s telling you otherwise is mistaken, sorry.” John Mueller of Google, July 2019, repeated in January 2023.
 >
@@ -133,12 +131,12 @@ A page that answers the question well but is not built to be found reaches nobod
 -   Cover the related queries and subtopics thoroughly to signal topical authority to search engines.
 
 <aside class="post-cta">
-<p><strong>Not sure which subjects your buyers actually search for?</strong> Our <a href="/services/content-marketing/">content marketing</a> does the research first, so each page answers a question buyers already ask, not a slot in a calendar. <a href="/contact/">Book the discovery call</a>.</p>
+<p><strong>Want to know which subjects your buyers actually search for?</strong> Our <a href="/services/content-marketing/">content marketing</a> does the research first, so each page answers a question buyers already ask. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
 ## Step 5: create with purpose
 
-Most content plans overproduce for readers who are only browsing and leave the buyer who is ready to decide with nothing to read. Give each page one audience at one stage.
+The strongest content plans serve the buyer who is ready to decide as well as the reader who is browsing. Give each page one audience at one stage.
 
 Blog posts, videos, social media posts, whitepapers and guides, and webinars all have a place. Which performs best depends on your audience, so benchmark engagement time and conversion rate per format in your own analytics before moving budget.
 
@@ -153,7 +151,7 @@ Blog posts, videos, social media posts, whitepapers and guides, and webinars all
 <text x="200" y="78" text-anchor="middle" class="fg-text">Consideration: case studies</text>
 <text x="200" y="122" text-anchor="middle" class="fg-text">Decision: demos</text>
 </svg>
-<figcaption>Each stage needs a different format. Most content plans overproduce for the top of the funnel and leave the decision stage, where leads convert, thin.</figcaption>
+<figcaption>Each stage needs a different format. Give the decision stage, where leads convert, as much care as the top of the funnel; it is where most content plans have the most room to grow.</figcaption>
 </figure>
 
 -   **Awareness:** Use how-to guides, informative blog posts, and infographics.
@@ -169,7 +167,7 @@ Blog posts, videos, social media posts, whitepapers and guides, and webinars all
 
 ## Step 6: distribute everywhere
 
-A good page nobody sees has cost you the full price of writing it. Distribution is how the same piece keeps earning after launch day.
+A good page repays its writing once people see it. Distribution is how the same piece keeps earning after launch day.
 
 -   **Owned media:** your company blog, email newsletters and podcasts.
 -   **Earned media:** press coverage, guest posts in industry publications, and collaborations with influencers and thought leaders. Earned media is especially powerful for a specific region, for example features in UK publications to support your **visibility in the UK market**.
@@ -187,7 +185,7 @@ Consider how a multilingual branding approach impacts your distribution channels
 
 ## Step 7: measure and iterate
 
-The first version of any strategy is a well-informed guess. Measuring what each page earns, not only what it attracts, is how the second version gets better.
+The first version of any strategy is a well-informed guess. Measuring what each page earns as well as what it attracts is how the second version gets better.
 
 ### Track everything diligently
 

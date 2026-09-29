@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import ThemeToggle from "@/components/ThemeToggle";
 import type { Locale, LocaleSlugs } from "@/lib/posts";
+import { FR_PAGES } from "@/lib/fr-pages-data";
 
 const LINKS = [
   { href: "/", label: "Home" },
@@ -14,6 +15,11 @@ const LINKS = [
   { href: "/results/", label: "Results" },
   { href: "/contact/", label: "Contact" },
 ];
+
+// The French menu, from the same list the French pages and sitemap read
+// (lib/fr-pages-data.ts). Shown on every /fr/ URL, posts and services
+// included, so a French reader never meets an English menu.
+const FR_LINKS = FR_PAGES.filter((p) => p.nav).map((p) => ({ href: p.path, label: p.label }));
 
 const LOCALE_LABEL: Record<Locale, string> = { en: "EN", fr: "FR", es: "ES" };
 
@@ -109,6 +115,8 @@ export default function SiteNav({
   localeManifest: Record<string, LocaleSlugs>;
 }) {
   const pathname = usePathname();
+  const isFr = (pathname ?? "").startsWith("/fr/");
+  const links = isFr ? FR_LINKS : LINKS;
   const [open, setOpen] = useState(false);
 
   useEffect(() => {
@@ -148,7 +156,7 @@ export default function SiteNav({
       }}
     >
       <nav className="shell flex h-[62px] items-center justify-between gap-4 sm:gap-6">
-        <Link href="/" className="flex shrink-0 items-center gap-2.5">
+        <Link href={isFr ? "/fr/" : "/"} className="flex shrink-0 items-center gap-2.5">
           {/* The MB monogram, rebuilt as vector from the owner's concept
               sheet (22 Sep 2026), where it exists only as a 122x60 area of
               a JPEG. Nothing was traced: the two ribbons follow stroke
@@ -203,7 +211,7 @@ export default function SiteNav({
           className="hidden items-center gap-x-6 text-[.86rem] sm:flex"
           style={{ color: "var(--dim)" }}
         >
-          {LINKS.map((l) => {
+          {links.map((l) => {
             const active =
               l.href !== "/#work" &&
               l.href !== "/#contact" &&
@@ -235,7 +243,7 @@ export default function SiteNav({
             onClick={() => setOpen((v) => !v)}
             aria-expanded={open}
             aria-controls="mb-mobile-menu"
-            aria-label={open ? "Close menu" : "Open menu"}
+            aria-label={open ? (isFr ? "Fermer le menu" : "Close menu") : isFr ? "Ouvrir le menu" : "Open menu"}
             className="grid h-11 w-11 shrink-0 place-items-center rounded-full sm:hidden"
             style={{ color: "var(--berry)" }}
           >
@@ -278,7 +286,7 @@ export default function SiteNav({
         >
           <nav aria-label="Site" className="shell pt-3">
             <ul className="flex flex-col">
-              {LINKS.map((l, i) => {
+              {links.map((l, i) => {
                 const active =
                   l.href !== "/#work" &&
                   l.href !== "/#contact" &&
@@ -336,22 +344,22 @@ export default function SiteNav({
               after the last link. */}
           <div
             className="mb-menu-row shell pt-6"
-            style={{ animationDelay: `${20 + LINKS.length * 22}ms` }}
+            style={{ animationDelay: `${20 + links.length * 22}ms` }}
           >
             <Link
-              href="/contact/"
+              href={isFr ? "/fr/nous-contacter/" : "/contact/"}
               onClick={() => setOpen(false)}
               className="btn btn-primary btn-lg btn-full"
             >
-              Book the discovery call
+              {isFr ? "Réserver un premier échange" : "Book the discovery call"}
             </Link>
           </div>
 
           <div
             className="mb-menu-row shell flex flex-col gap-3 pb-7 pt-7"
-            style={{ animationDelay: `${40 + LINKS.length * 22}ms` }}
+            style={{ animationDelay: `${40 + links.length * 22}ms` }}
           >
-            <p className="eyebrow">Or reach us directly</p>
+            <p className="eyebrow">{isFr ? "Ou contactez-nous directement" : "Or reach us directly"}</p>
             <a
               href="mailto:hello@mikebastin.com"
               onClick={() => setOpen(false)}

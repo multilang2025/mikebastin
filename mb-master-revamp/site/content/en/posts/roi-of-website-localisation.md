@@ -74,7 +74,7 @@ Before a new language goes live, record organic traffic, conversion rate, revenu
 <text x="250" y="114" text-anchor="middle" class="fg-label">months</text>
 <text x="350" y="114" text-anchor="middle" class="fg-label">months</text>
 </svg>
-<figcaption>The baseline is the step most projects skip, and without it no later review can show what localization changed.</figcaption>
+<figcaption>Record the baseline first: it is what lets every later review show what localization changed.</figcaption>
 </figure>
 
 ## Tips for tracking and improving ROI

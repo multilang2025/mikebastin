@@ -8,6 +8,7 @@ import JsonLd from "@/components/JsonLd";
 import { getService } from "@/lib/services";
 import { SITE_URL, breadcrumbSchema, serviceSchema } from "@/lib/schema";
 import ServiceHeroArt from "@/components/ServiceHeroArt";
+import { leadGenLanguages } from "@/lib/lead-gen-hubs";
 
 // The Service entry for this slug lives in lib/services.ts, and this route
 // reads its h1, subhead, lede and meta fields from there rather than
@@ -20,7 +21,7 @@ const url = `${SITE_URL}/services/lead-generation/`;
 export const metadata: Metadata = {
   title: service.metaTitle,
   description: service.metaDescription,
-  alternates: { canonical: url },
+  alternates: { canonical: url, languages: leadGenLanguages() },
   // og:image/twitter:image come from the colocated opengraph-image.tsx
   // (Next.js file-convention metadata), not an `images` array here.
   openGraph: {
@@ -47,13 +48,13 @@ export const metadata: Metadata = {
 const PARTS = [
   {
     title: "Found in their language",
-    body: "Search built per market from what buyers there actually type, so the right visitor arrives on a page written for them rather than translated at them.",
+    body: "Search built per market from what buyers there actually type, so the right visitor arrives on a page written for them.",
     href: "/services/multilingual-seo/",
     link: "International SEO",
   },
   {
     title: "Reached before they find you",
-    body: "Paid search in each language for the buyer who has not found you organically yet, with the budget kept separate per market so one never quietly funds another.",
+    body: "Paid search in each language for the buyer still on the way to finding you organically, with a separate budget per market so each one pays its own way.",
     href: "/services/multilingual-sem/",
     link: "International PPC",
   },
@@ -69,34 +70,34 @@ const PARTS = [
  * Objections a buyer raises before booking, answered only with what the
  * rest of the site already commits to. Nothing here is new: the sequencing
  * is the multilingual SEO page's, the writing arrangement is the language
- * pages', and "no lock-in" is on every service page's closing section.
+ * pages', and month-to-month terms are on every service page's closing section.
  */
 const QUESTIONS = [
   {
     q: "Do we have to launch every language at once?",
     a: [
-      "No, and it usually costs less not to. We start with the market where the evidence is strongest, get it producing enquiries, and add the next one once it does.",
-      "Spreading the first budget across every language you sell in is how a company ends up with several markets that each look almost busy and none that clearly pays.",
+      "One at a time works better, and usually costs less. We start with the market where the evidence is strongest, get it producing enquiries, and add the next one once it does.",
+      "Putting the whole first budget into one market is how a company gets a market that clearly pays, and a proven result to build the next language on.",
     ],
   },
   {
     q: "What counts as a lead?",
     a: [
       "The definition your own sales team recognises, agreed before anything is measured. Usually that is an enquiry that became a conversation.",
-      "Spam, job applications and test submissions are counted separately from real enquiries, so a market is judged on what actually reached your team rather than on how many forms were filled in.",
+      "Spam, job applications and test submissions are counted separately from real enquiries, so a market is judged on what actually reached your team.",
     ],
   },
   {
-    q: "Who writes in the languages you do not write yourselves?",
+    q: "Who writes the pages in German, Italian and other languages?",
     a: [
       "We write French, English, Spanish and Dutch directly. German, Italian, Portuguese and other languages go to native copywriters from the BeTranslated network, briefed and reviewed by us.",
-      "Either way the page is written for the market reading it, from that market's own research, rather than translated from an English page built for somebody else.",
+      "Either way the page is written for the market reading it, from that market's own research.",
     ],
   },
   {
-    q: "Is there a minimum contract?",
+    q: "How long do we commit for?",
     a: [
-      "No lock-in. The first call produces a written scope naming the pages and the deliverables, and you decide from there.",
+      "Month to month. The first call produces a written scope naming the pages and the deliverables, and you decide from there.",
     ],
   },
 ];
@@ -162,23 +163,22 @@ export default function LeadGenerationPage() {
       <section className="band band-b py-[clamp(56px,8vw,110px)]">
         <div className="shell">
           <Reveal>
-            <p className="eyebrow mb-3">What a blended report costs you</p>
+            <p className="eyebrow mb-3">What a per-market report shows you</p>
             <h2 className="mb-6 max-w-[24ch] text-[clamp(1.7rem,3.2vw,2.5rem)] font-semibold leading-[1.12]">
-              One enquiry total hides the market paying for the others
+              Enquiries counted per market show which one pays for the others
             </h2>
             <p className="mb-5 max-w-[62ch] text-[1.05rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
-              A single number for the whole site is the most comfortable
-              report to read and the least useful one to act on. Inside an
-              average, the market carrying your results and the market
-              spending its budget on visits that never convert look exactly
-              the same.
+              A single number for the whole site is comfortable to read; a
+              number per market is the one you can act on. Split by market,
+              the one carrying your results stands clear of the one spending
+              its budget on visits alone, and each can be funded on what it
+              returns.
             </p>
             <p className="max-w-[62ch] text-[1.05rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
-              So the money keeps going where the traffic looks healthiest,
-              and the language quietly doing the selling gets less of it
-              every quarter. Nobody decided that. The report decided it,
-              by never showing the difference. Every month it runs that way,
-              the market that should be growing is the one being starved.
+              With the split in view, the budget follows the language doing
+              the selling, and the market that should be growing gets more of
+              it every quarter. The report puts the decision in front of you,
+              so you make it on purpose.
             </p>
           </Reveal>
         </div>
@@ -223,21 +223,19 @@ export default function LeadGenerationPage() {
           <Reveal>
             <p className="eyebrow mb-3">How it is billed</p>
             <h2 className="mb-6 max-w-[24ch] text-[clamp(1.7rem,3.2vw,2.5rem)] font-semibold leading-[1.12]">
-              No markup on your ad spend, so a bigger budget earns us nothing
+              Your whole media budget buys ads, and management is a separate fee
             </h2>
             <p className="mb-5 max-w-[62ch] text-[1.05rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
-              Where an engagement includes paid search, your media budget
-              goes straight to Google, Microsoft or Meta, never through us.
-              Management is charged as its own fee. So there is no reason for
-              our recommendation to be a larger budget, and every reason for
-              it to be the one that brings enquiries in.
+              Where an engagement includes paid search, your whole media
+              budget buys ads: it goes straight to Google, Microsoft or Meta,
+              and management is a separate fee. So the budget we recommend is
+              the one that brings in enquiries.
             </p>
             <p className="max-w-[62ch] text-[1.05rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
-              To be exact about where the line sits: it covers media spend.
-              Writing and translation are quoted as a price for the work. An
-              agency that stays vague about which costs pass through and which
-              are priced usually has a reason to, and we would rather you knew
-              before the first call.
+              To be exact about where the line sits: it covers media spend;
+              writing and translation are quoted as a price for the work. We
+              set it out here so you have the full picture before the first
+              call.
             </p>
           </Reveal>
         </div>
@@ -280,23 +278,21 @@ export default function LeadGenerationPage() {
           <Reveal>
             <p className="eyebrow mb-3">How the enquiries get counted</p>
             <h2 className="mb-6 max-w-[24ch] text-[clamp(1.7rem,3.2vw,2.5rem)] font-semibold leading-[1.12]">
-              A form submission is not a lead until your team says it is
+              A lead counts once your sales team confirms it
             </h2>
             <p className="mb-5 max-w-[62ch] text-[1.05rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
               Tracking runs through GA4 and Google Tag Manager, set up per
               locale with the same event definitions in every language, so a
               French enquiry and a German one are counted the same way and can
               be compared. Consent mode is configured market by market,
-              because decline rates differ by country and an uncorrected
-              comparison ranks your languages by cookie acceptance rather than
-              by sales.
+              because decline rates differ by country, and correcting for them
+              lets your languages be compared on sales.
             </p>
             <p className="mb-12 max-w-[62ch] text-[1.05rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
               The CRM closes the loop. Offline conversion tracking sends the
               outcome of each enquiry back to GA4 and Google Ads, so a market
               sending fewer but better enquiries shows up as winning, and paid
-              search bids on what a market is worth rather than on how many
-              forms it filled in.
+              search bids on what a market is worth.
             </p>
           </Reveal>
           <Reveal i={1}>
@@ -324,8 +320,7 @@ export default function LeadGenerationPage() {
               Thirty minutes on which markets matter, what already ranks, and
               what has been tried before. We ask questions before we recommend
               anything, and what comes back is a written scope naming real
-              pages and deliverables, not a quote with plan tiers on it. No
-              lock-in either way.
+              pages and deliverables. Engagements run month to month.
             </p>
           </Reveal>
           <Reveal i={2}>

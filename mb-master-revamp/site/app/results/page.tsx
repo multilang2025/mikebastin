@@ -11,7 +11,7 @@ import { SITE_URL, breadcrumbSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
   ...pageMeta({
-    title: "Results, not impressions, Mike Bastin",
+    title: "Client results you can count, Mike Bastin",
     description: "A case study is a narrative written afterwards. A report is primary evidence, so see the numbers from real multilingual SEO and localization work first.",
     path: "/results/",
     fallbackImage: true,
@@ -29,7 +29,7 @@ const ROUTES = [
   },
   {
     name: "Rebuilt chart",
-    body: "Only the shape of the result, redrawn from the underlying numbers, no client artefact published.",
+    body: "The shape of the result, redrawn from the underlying numbers, with the client's own artefacts kept private.",
   },
 ];
 
@@ -41,7 +41,7 @@ export default function ResultsPage() {
       <section className="band band-a grain relative overflow-hidden pb-[clamp(56px,8vw,100px)] pt-[clamp(96px,14vw,160px)]">
         <div className="shell relative">
           <Reveal>
-            <p className="eyebrow mb-8">Results, not impressions</p>
+            <p className="eyebrow mb-8">Results you can count</p>
           </Reveal>
           <Reveal i={1}>
             <h1 className="mb-6 max-w-[18ch] text-[clamp(2.3rem,5.6vw,4rem)] font-semibold leading-[1.08]">
@@ -56,9 +56,8 @@ export default function ResultsPage() {
           <Reveal i={3}>
             <p className="max-w-[58ch] text-[clamp(1.05rem,1.5vw,1.2rem)] leading-[1.58]" style={{ color: "var(--dim)" }}>
               A case study is a narrative written afterwards. A report is
-              primary evidence. Very few competing consultants can show
-              multilingual lead figures at all, and this page is where
-              that advantage becomes visible rather than implied.
+              primary evidence, and this page is where our multilingual lead
+              figures are shown in full.
             </p>
           </Reveal>
         </div>
@@ -74,7 +73,8 @@ export default function ResultsPage() {
             </h2>
             <p className="mb-12 max-w-[56ch] text-[1.05rem]" style={{ color: "var(--dim)" }}>
               Before rebuilding anything, we pulled ninety days of Search Console
-              for the whole domain. The problem was never visibility.
+              for the whole domain. Visibility was already there; the work was
+              turning it into clicks.
             </p>
           </Reveal>
 
@@ -103,7 +103,7 @@ export default function ResultsPage() {
           <Reveal>
             <p className="mb-3 mt-16 eyebrow">Three locales, one set of groups</p>
             <h3 className="mb-8 max-w-[24ch] display text-[1.4rem] font-semibold leading-[1.2]">
-              Every merge happens in all three languages, or not at all.
+              Every merge happens in all three languages at once.
             </h3>
           </Reveal>
           <Reveal i={2}>
@@ -111,8 +111,8 @@ export default function ResultsPage() {
           </Reveal>
           <Reveal i={3}>
             <p className="mt-8 max-w-[60ch] text-[.95rem]" style={{ color: "var(--dim)" }}>
-              French carries one service more than English and Spanish, which is
-              the kind of detail that quietly breaks hreflang if nobody counts.
+              French carries one service more than English and Spanish, and
+              counting details like that one is what keeps hreflang intact.
             </p>
           </Reveal>
         </div>
@@ -130,13 +130,12 @@ export default function ResultsPage() {
               }}
             >
               <p className="mb-1 text-[.72rem] font-semibold uppercase tracking-[.1em]" style={{ color: "var(--deep)" }}>
-                Blocked
+                Waiting on a report
               </p>
               <p className="max-w-[62ch] text-[.95rem] leading-[1.55]">
-                No client report has been supplied yet, so every number on
-                this page is currently undecided rather than approximate.
-                Send one representative report so its actual shape, not a
-                guess at it, is what gets designed against. Confidentiality
+                The numbers on this page are placeholders until a client
+                report arrives. Send one representative report so the design
+                is built against its actual shape. Confidentiality
                 level is decided per client once that report exists.
               </p>
             </div>
@@ -178,9 +177,10 @@ export default function ResultsPage() {
               Four languages, each one the client's choice.
             </h2>
             <p className="mb-10 max-w-[56ch] text-[1.05rem]" style={{ color: "var(--dim)" }}>
-              No Review or AggregateRating schema on any of this, by
-              design. Every one is public on the linked Google Business
-              Profile, where it can be checked against the source.
+              Every one is public on the linked Google Business Profile,
+              where it can be checked against the source. By design they
+              appear here as plain quotes, outside Review and AggregateRating
+              schema.
             </p>
           </Reveal>
           <Reveal i={2}>

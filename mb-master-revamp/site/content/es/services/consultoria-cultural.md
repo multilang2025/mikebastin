@@ -19,7 +19,7 @@ Communicate across cultures without losing credibility, nuance, or commercial im
 
 ## Navega por los mercados globales con consultoría cultural experta.
 
-Nuestros servicios de consultoría cultural empoderan a su negocio para tener éxito en diversos mercados globales.
+Nuestros servicios de consultoría cultural empoderan a tu negocio para tener éxito en diversos mercados globales.
 
 Te ayudamos a comprender y adaptarte a las diferencias culturales, asegurando que tu mensaje, productos y estrategias se alineen con los valores y costumbres locales.
 

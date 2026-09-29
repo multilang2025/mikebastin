@@ -14,7 +14,7 @@ excerpt: "Boostez les ventes mondiales en intégrant des solutions e-commerce lo
 
 # SEM multilingue : Google Ads et Bing qui convertissent par marché
 
-Annonces natives par langue, smart bidding piloté, landing pages qui convertissent, mots-clés par variante de marché. Pas de campagnes traduites au mot à mot.
+Annonces natives par langue, smart bidding piloté, landing pages qui convertissent, mots-clés par variante de marché. Chaque campagne écrite pour son marché.
 
 Google + Bing
 
@@ -26,21 +26,21 @@ en interne (FR, EN, ES, NL) + réseau natif sur 8 autres
 
 SEO + SEM
 
-les deux pilotés ensemble pour éviter la cannibalisation
+les deux pilotés ensemble, chacun sur ses propres requêtes
 
 CPL réel
 
-tracking de bout en bout, pas juste des clics
+tracking de bout en bout, jusqu’au lead
 
-## Le SEM multilingue rate quand on copie-colle ses campagnes françaises
+## Le SEM multilingue réussit quand chaque marché a ses propres campagnes
 
 Trois schémas reviennent sur la quasi-totalité des comptes que j’audite :
 
-Une accroche qui marche en français devient plate en anglais et carrément maladroite en espagnol mexicain. Le Quality Score s’effondre, le CPC monte, le ROI s’érode silencieusement. Une bonne annonce SEM se rédige par un natif qui comprend l’intent, pas par un traducteur.
+Une accroche qui marche en français se réécrit pour l’anglais et pour l’espagnol mexicain, où sa traduction sonne plate ou maladroite. Une annonce écrite pour le marché soutient le Quality Score, contient le CPC et protège le ROI. Une bonne annonce SEM se rédige par un natif qui comprend l’intent.
 
-Performance Max et Maximize Conversions sur tous les marchés sans surveillance détaillée donnent un faux sentiment d’optimization. Google sur-investit sur 1-2 marchés rentables et néglige les autres. Les comptes « automatisés » finissent souvent à 80 % de leur potentiel.
+Supervisez Performance Max et Maximize Conversions marché par marché : Google tend à concentrer le budget sur 1-2 marchés rentables, et un compte supervisé va chercher les 20 % de potentiel que les comptes « automatisés » laissent souvent de côté.
 
-La page de conversion en anglais marchande mal pour un public allemand qui veut des certifications, des chiffres précis et des témoignages locaux. Le taux de conversion par langue varie de 1 à 4 entre une landing localisée et une page traduite à la va-vite.
+Un public allemand veut des certifications, des chiffres précis et des témoignages locaux : donnez-lui une page de conversion allemande. Le taux de conversion par langue peut être jusqu’à quatre fois plus élevé sur une landing localisée que sur une page traduite à la va-vite.
 
 Mon approche : chaque marché traité comme une campagne dédiée. Recherche de mots-clés par variante linguistique, annonces rédigées par natifs, landing pages locales avec preuves sociales locales, pilotage manuel du smart bidding marché par marché.
 
@@ -54,15 +54,15 @@ Conception de pages de conversion adaptées à chaque marché : preuves sociales
 
 Performance Max et tCPA supervisés par marché. Audit hebdomadaire des recherches activées, exclusions pertinentes, ajustements de bid par segment.
 
-GA4 + Google Tag Manager + conversions importées (ventes, leads qualifiés). Suivi du CPL et du CAC réels, pas juste des clics.
+GA4 + Google Tag Manager + conversions importées (ventes, leads qualifiés). Suivi du CPL et du CAC réels, au-delà des clics.
 
-Pas de cannibalisation entre organique et payant. Stratégie complémentaire : SEM pour les requêtes commerciales chaudes, SEO pour le top of funnel et la marque.
+Organique et payant travaillent chacun sur leurs requêtes. Stratégie complémentaire : SEM pour les requêtes commerciales chaudes, SEO pour le top of funnel et la marque.
 
 ## Mon process en 5 étapes, livrables nommés
 
-Pas de campagnes lancées avant la phase de cadrage. Pas d’optimization déléguée à une boîte noire.
+Les campagnes démarrent après la phase de cadrage, et chaque optimization reste pilotée et expliquée.
 
-**Livrable :** rapport d’audit Google Ads + Bing : Quality Score moyen par groupe, CTR, taux de conversion par campagne, gaspillage budgétaire identifié, opportunités non exploitées par marché. Vous repartez avec ce diagnostic même sans engagement de suite.
+**Livrable :** rapport d’audit Google Ads + Bing : Quality Score moyen par groupe, CTR, taux de conversion par campagne, dépenses à réallouer identifiées, opportunités à saisir par marché. Le diagnostic vous reste acquis, quelle que soit la suite.
 
 **Livrable :** tableur de mots-clés par marché avec volumes, CPC, intent ; structure de compte recommandée (campagnes, ad groups, audiences, exclusions) ; définition des conversions à tracker.
 
@@ -74,7 +74,7 @@ Pas de campagnes lancées avant la phase de cadrage. Pas d’optimization délé
 
 ## Cas clients
 
-Trois missions où le SEM multilingue a livré du lead qualifié là où l’organique ne suffisait pas (encore).
+Trois missions où le SEM multilingue a livré du lead qualifié pendant que l’organique montait en puissance.
 
 **Contexte :** transitaire texan voulant accélérer la captation de leads pendant que le SEO bilingue (EN + ES) montait en puissance. Besoin de remplir le pipeline commercial en parallèle.
 
@@ -94,15 +94,15 @@ Trois missions où le SEM multilingue a livré du lead qualifié là où l’org
 
 **Résultat :** volume régulier de leads sur les trois langues, complément efficace au trafic organique existant, pilote pour transposer les meilleures audiences vers le SEO de marque.
 
-## Inclus / pas inclus
+## Inclus, et où trouver le reste
 
 Prestation
 
 Inclus
 
-Pas inclus
+Assuré par ailleurs
 
-Audit Google Ads et Bing existants (Quality Score, CPL, gaspillage)
+Audit Google Ads et Bing existants (Quality Score, CPL, dépenses à réallouer)
 
 ✓
 
@@ -132,19 +132,19 @@ Reporting mensuel par marché avec CPL réel
 
 Budget média (l’investissement publicitaire lui-même)
 
-⨯ payé directement par vous à Google/Bing
+→ va entièrement à vos annonces, payé directement par vous à Google/Bing
 
 Réseaux sociaux payants (Meta, LinkedIn, TikTok Ads)
 
-⨯ devis séparé selon brief
+→ devis séparé selon brief
 
 SEO organique (mots-clés, contenu, hreflang, backlinks)
 
-⨯ couvert par [SEO multilingue](https://mikebastin.com/fr/nos-services/referencement-multilingue/)
+→ couvert par [SEO multilingue](https://mikebastin.com/fr/nos-services/referencement-multilingue/)
 
 ## Pourquoi un consultant SEO pour gérer du SEM multilingue
 
-**Mike Bastin** : plus de deux décennies à piloter en parallèle SEO et SEM sur des marchés européens et latino-américains. La plupart des agences SEM travaillent en silo sans la couche linguistique. La plupart des agences de traduction n’ont jamais touché à un compte Google Ads. Mon avantage : les deux disciplines en interne, pas en sous-traitance.
+**Mike Bastin** : plus de deux décennies à piloter en parallèle SEO et SEM sur des marchés européens et latino-américains. Mon avantage : les deux disciplines, SEM et langues, réunies en interne.
 
 Quadrilingue (FR, EN, ES, NL), expérience freight, juridique, traduction, expat content. Cari (basée en RD) gère la production hispanophone, je supervise les comptes EN et FR, le réseau BeTranslated couvre les autres langues.
 
@@ -152,9 +152,9 @@ Quadrilingue (FR, EN, ES, NL), expérience freight, juridique, traduction, expat
 
 ### SEM seul ou SEM + SEO ?
 
-Le SEM seul fonctionne pour démarrer : pipeline rempli rapidement, prévisibilité du CPL. Mais le coût du clic monte avec la concurrence et le ROI s’érode si vous ne construisez pas le SEO en parallèle.
+Le SEM seul fonctionne pour démarrer : pipeline rempli rapidement, prévisibilité du CPL. Construisez le SEO en parallèle : le coût du clic monte avec la concurrence, et le SEO protège le ROI dans la durée.
 
-Mon biais : combiner les deux. SEM pour les requêtes chaudes commerciales, SEO pour le top of funnel et la marque, sans cannibalisation. C’est un investissement plus structurant qu’un compte SEM en autonome, mais plus rentable à 18 mois.
+Mon biais : combiner les deux. SEM pour les requêtes chaudes commerciales, SEO pour le top of funnel et la marque, chacun sur ses propres requêtes. C’est un investissement plus structurant qu’un compte SEM en autonome, mais plus rentable à 18 mois.
 
 Si vous voulez seulement du SEM, je peux le faire. Je vous le dirai juste si je pense que le SEO devrait suivre.
 
@@ -162,7 +162,7 @@ Si vous voulez seulement du SEM, je peux le faire. Je vous le dirai juste si je 
 
 Quelle est la différence entre SEM et SEO ?
 
-SEM = Search Engine Marketing, c’est la publicité payante sur les moteurs (Google Ads, Bing Ads). Vous payez par clic. SEO = Search Engine Optimization, c’est la visibilité organique non payée. Le [SEO multilingue](https://mikebastin.com/fr/nos-services/referencement-multilingue/) et le SEM multilingue se complètent : SEM rapide mais coûte tant qu’on ne paie plus, SEO long mais durable.
+SEM = Search Engine Marketing, c’est la publicité payante sur les moteurs (Google Ads, Bing Ads). Vous payez par clic. SEO = Search Engine Optimization, c’est la visibilité organique non payée. Le [SEO multilingue](https://mikebastin.com/fr/nos-services/referencement-multilingue/) et le SEM multilingue se complètent : SEM rapide, avec un coût à chaque clic ; SEO plus long, et durable.
 
 Faut-il faire du SEM ou attendre que le SEO décolle ?
 
@@ -174,22 +174,22 @@ Google domine partout en volume, mais Bing capture une audience B2B et senior so
 
 Le smart bidding est-il fiable en multilingue ?
 
-Oui, mais il a besoin d’être supervisé marché par marché. Performance Max et tCPA fonctionnent bien quand chaque marché a un volume de conversions suffisant (50+ par mois) et que les exclusions sont propres. En dessous de ce seuil, ils sur-investissent au mauvais endroit. Mon approche : smart bidding actif mais surveillé hebdomadairement, ajustements manuels là où l’algo se trompe.
+Oui, mais il a besoin d’être supervisé marché par marché. Performance Max et tCPA fonctionnent bien quand chaque marché a un volume de conversions suffisant (50+ par mois) et que les exclusions sont propres. Sous ce seuil, ils ont tendance à investir au mauvais endroit, d’où une supervision rapprochée. Mon approche : smart bidding actif mais surveillé hebdomadairement, avec des ajustements manuels là où l’algo en a besoin.
 
 Quel budget minimum pour du SEM multilingue rentable ?
 
-Honnêtement : en dessous de 1500-2000 €/mois de média par marché, c’est compliqué d’avoir des données statistiquement significatives pour optimizer. Sur des secteurs très chers (juridique, finance), le seuil monte. Je préfère vous dire de commencer par un seul marché bien financé plutôt que de saupoudrer trois marchés sous-investis.
+Honnêtement : à partir de 1500-2000 €/mois de média par marché, les données deviennent statistiquement significatives pour optimizer. Sur des secteurs très chers (juridique, finance), le seuil monte. Je vous recommande de commencer par un seul marché bien financé, puis d’ajouter les suivants.
 
-Travaillez-vous avec des comptes existants ou ne créez-vous que du neuf ?
+Travaillez-vous avec des comptes existants, ou créez-vous de nouveaux comptes ?
 
-Les deux. La majorité de mes missions commencent par un audit de comptes existants (souvent gérés par une agence précédente ou en interne sans expertise dédiée). Reprise et restructuration coûtent généralement moins cher qu’une création from scratch quand l’historique de conversions a de la valeur.
+Les deux. La majorité de mes missions commencent par un audit de comptes existants (souvent gérés par une agence précédente ou en interne). Reprise et restructuration coûtent généralement moins cher qu’une création from scratch quand l’historique de conversions a de la valeur.
 
 Combien coûte une mission SEM multilingue ?
 
-Sur devis. Le tarif dépend du nombre de marchés, du volume budgétaire géré, du périmètre (audit + setup, ou audit + setup + pilotage récurrent), et du niveau de complexité (B2B avec cycle long vs e-commerce volumique). Premier échange gratuit : 30 minutes pour comprendre votre contexte et donner une fourchette honnête. Pas de proposition générique sans avoir échangé.
+Sur devis. Le tarif dépend du nombre de marchés, du volume budgétaire géré, du périmètre (audit + setup, ou audit + setup + pilotage récurrent), et du niveau de complexité (B2B avec cycle long vs e-commerce volumique). Premier échange gratuit : 30 minutes pour comprendre votre contexte et donner une fourchette honnête. La proposition suit cet échange et part de votre contexte.
 
-## Vos campagnes Google Ads ne convertissent pas par marché ?
+## Vous voulez des campagnes Google Ads qui convertissent dans chaque marché ?
 
-Je commence par un audit de votre compte. Diagnostic chiffré, gaspillage identifié, recommandations actionnables. Premier échange gratuit, sans engagement.
+Je commence par un audit de votre compte. Diagnostic chiffré, budget à réallouer identifié, recommandations actionnables. Premier échange gratuit, et vous décidez ensuite.
 
 Pour aller plus loin : [SEO multilingue](https://mikebastin.com/fr/nos-services/referencement-multilingue/) · [SEO international](https://mikebastin.com/fr/nos-services/referencement-international/) · [SEO local](https://mikebastin.com/fr/nos-services/referencement-local/) · [guide SEO/GEO 2026](https://mikebastin.com/fr/seo-au-geo/)

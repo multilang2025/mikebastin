@@ -30,7 +30,7 @@ Nuestro equipo de expertos en **traducción y localización web** se encarga de 
 -   **Expansión de tu marca** en mercados emergentes y consolidados.
 -   **Aumento de las ventas online** y fidelización de clientes internacionales.
 
-No importa dónde estés ni qué plataforma utilices: nuestra solución de **localización e-commerce** te permitirá conectar con tus clientes en su propio idioma y moneda, generando confianza y una experiencia de compra memorable.
+Estés donde estés y utilices la plataforma que utilices, nuestra solución de **localización e-commerce** te permitirá conectar con tus clientes en su propio idioma y moneda, generando confianza y una experiencia de compra memorable.
 
 **¿El resultado?** Más visitas cualificadas, clientes satisfechos y un crecimiento real en tus ventas globales. ¡Haz que tu tienda online destaque en el competitivo mundo del comercio electrónico internacional!
 
@@ -85,7 +85,7 @@ Sí, garantizamos que tu tienda soporta monedas locales y métodos de pago para,
 
 La localización mejora el SEO al optimizar tu sitio para términos y plataformas de búsqueda locales, así mejoramos la visibilidad en los motores de búsqueda internacionales.
 
-Nuestros servicios de localización garantizan que el diseño de su web se mantenga intacto mientras se adapta el contenido, la disposición y la funcionalidad para satisfacer las preferencias locales.
+Nuestros servicios de localización garantizan que el diseño de tu web se mantenga intacto mientras se adapta el contenido, la disposición y la funcionalidad para satisfacer las preferencias locales.
 
 Podemos efectuar una localización de e-commerce para cualquier mercado internacional, mientras nos aseguramos de que funciona de manera óptima en cada región objetivo.
 

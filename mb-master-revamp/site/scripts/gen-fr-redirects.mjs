@@ -103,7 +103,9 @@ for (const g of cm.groups) {
     if (!t) { unresolved.push(from); continue; }
     if (t.to === from && routeBuilt(t.route)) continue; // built at its own URL
     if (routeBuilt(t.route)) rules.push({ from, to: t.to, code: 301 });
-    else rules.push({ from, to: FR_MAIN, code: 302, note: `until /${t.to} ships` });
+    // Once the French homepage exists it is the natural stand-in for an
+    // unbuilt page; before that, the main French service page was.
+    else rules.push({ from, to: routeBuilt("app/fr/page.tsx") ? "fr/" : FR_MAIN, code: 302, note: `until /${t.to} ships` });
     continue;
   }
 

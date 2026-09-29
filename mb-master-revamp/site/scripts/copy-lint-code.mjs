@@ -130,9 +130,16 @@ function copyStrings(src) {
 }
 
 const files = [];
+// app/fr/ and app/es/ are French and Spanish copy. Every rule here is an
+// English rule, and they misfire on other languages: `\b` treats "ê" as a
+// boundary, so "même" matched the first-person "me". The French pages get
+// their own lint (docs/FR-REBUILD-PLAN.md, phase 3); until then the owner
+// reviews every French string by hand (plan decision 5).
+const OTHER_LOCALE = new RegExp(`^${join(ROOT, "app")}/(fr|es)/`);
 (function walk(dir) {
   for (const f of readdirSync(dir)) {
     const p = join(dir, f);
+    if (OTHER_LOCALE.test(p)) continue;
     if (statSync(p).isDirectory()) walk(p);
     else if (/\.(tsx?|jsx?)$/.test(p)) files.push(p);
   }

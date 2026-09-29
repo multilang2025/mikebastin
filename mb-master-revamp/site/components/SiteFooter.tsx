@@ -53,7 +53,7 @@ const T: Record<
     posts: "Recent posts",
     contact: "Get in touch",
     more: "All services",
-    eyebrow: "Clean face, no crowd",
+    eyebrow: "Straight to the point",
     cta: "Tell us which language you want selling next.",
     ctaButton: "Book a discovery call",
     ctaSecondary: "See what the numbers did",
@@ -67,7 +67,7 @@ const T: Record<
     posts: "Articles récents",
     contact: "Nous contacter",
     more: "Tous les services",
-    eyebrow: "Sans détour",
+    eyebrow: "Droit au but",
     cta: "Dites-nous quelle langue vous voulez faire vendre.",
     ctaButton: "Réserver un premier échange",
     ctaSecondary: "Voir ce que les chiffres ont donné",
@@ -81,7 +81,7 @@ const T: Record<
     posts: "Artículos recientes",
     contact: "Contacta con nosotros",
     more: "Todos los servicios",
-    eyebrow: "Sin rodeos",
+    eyebrow: "Directo al grano",
     cta: "Dinos qué idioma quieres que venda.",
     ctaButton: "Reservar una primera conversación",
     ctaSecondary: "Mira lo que hicieron los números",
@@ -91,10 +91,16 @@ const T: Record<
   },
 };
 
+// Where the sign-off button and the "all services" link go per locale. A
+// locale with no index of its own gets no link rather than an English one:
+// sending a French reader to an English page is worse than offering nothing.
+const CONTACT_HREF: Record<Locale, string> = { en: "/contact/", fr: "/fr/nous-contacter/", es: "/contact/" };
+const SERVICES_INDEX: Record<Locale, string | null> = { en: "/services/", fr: "/fr/services/", es: null };
+
 const ABOUT: Record<Locale, string> = {
-  en: "We are a multilingual SEO and localization practice in Valencia, working across European markets. Enquiries are what we count, not rankings.",
-  fr: "Nous sommes un cabinet de référencement multilingue et de localization basé à Valencia, actif sur les marchés européens. Ce que nous comptons, ce sont les demandes entrantes, pas les positions.",
-  es: "Somos un equipo de posicionamiento multilingüe y localización con base en Valencia, trabajando en los mercados europeos. Contamos consultas, no posiciones.",
+  en: "We are a multilingual SEO and localization practice in Valencia, working across European markets. Enquiries are what we count, market by market.",
+  fr: "Nous sommes un cabinet de référencement multilingue et de localisation basé à Valencia, actif sur les marchés européens. Ce que nous comptons, ce sont les demandes entrantes, marché par marché.",
+  es: "Somos un equipo de posicionamiento multilingüe y localización con base en Valencia, trabajando en los mercados europeos. Contamos consultas, mercado a mercado.",
 };
 
 /**
@@ -241,12 +247,14 @@ export default function SiteFooter({
                 {t.cta}
               </h2>
               <div className="flex flex-wrap items-center gap-x-6 gap-y-4">
-                <Link href="/contact/" className="btn btn-primary btn-lg">
+                <Link href={CONTACT_HREF[locale]} className="btn btn-primary btn-lg">
                   {t.ctaButton}
                 </Link>
-                <Link href="/results/" className="ulink text-[.98rem]">
-                  {t.ctaSecondary}
-                </Link>
+                {locale !== "fr" && (
+                  <Link href="/results/" className="ulink text-[.98rem]">
+                    {t.ctaSecondary}
+                  </Link>
+                )}
               </div>
             </div>
             <div className="hidden justify-end lg:flex" style={{ color: "var(--rule)" }} aria-hidden="true">
@@ -307,10 +315,10 @@ export default function SiteFooter({
                     </Link>
                   </li>
                 ))}
-                {locale === "en" && (
+                {SERVICES_INDEX[locale] && (
                   <li className="mt-2">
                     <Link
-                      href="/services/"
+                      href={SERVICES_INDEX[locale]!}
                       className="ulink inline-flex items-center gap-1.5 font-semibold"
                       style={{ color: "var(--berry)" }}
                     >

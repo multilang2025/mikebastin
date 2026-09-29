@@ -30,7 +30,7 @@ import { getPostMetaDescription } from "@/lib/seo";
  */
 
 const DESCRIPTION =
-  "Work through a competitor traffic audit the way we run one: the real rival list, what the traffic tools can and cannot tell you, channel mix, AI citations, and six actions rather than eighty.";
+  "Work through a competitor traffic audit the way we run one: the real rival list, what the traffic tools tell you and how far to trust them, channel mix, AI citations, and six actions to take.";
 
 export const metadata: Metadata = {
   ...pageMeta({
@@ -44,13 +44,13 @@ export const metadata: Metadata = {
 
 /** The artefact people arrive for. Ordered as the audit actually runs. */
 const CHECKLIST = [
-  "Build the real rival list: direct, indirect, content and AI-citation competitors, not the names on the sales whiteboard.",
+  "Build the real rival list: direct, indirect, content and AI-citation competitors, beyond the names on the sales whiteboard.",
   "Establish the margin of error before quoting a single traffic number to anyone.",
-  "Map traffic sources rather than totals: organic, paid, direct, referral and geographic mix.",
+  "Map traffic sources and their shares: organic, paid, direct, referral and geographic mix.",
   "Read what each channel discloses about how their marketing function is actually built.",
   "Read their top pages like an editor: audience, intent and next action on every money page.",
-  "Find the terms they rank for that you do not, and the gaps they have left open.",
-  "Audit AI citations, not only SERP position.",
+  "Find the terms they rank for that you have still to win, and the gaps they have left open.",
+  "Audit AI citations as well as SERP position.",
   "Check the multilingual setup: hreflang, localized schema, language-specific content.",
   "Cut the findings to six lines: three quick fixes, two content gaps, one structural play.",
 ];
@@ -62,36 +62,36 @@ const RIVALS = [
   },
   {
     name: "Indirect rivals",
-    body: "Solving the same problem with a different model, such as a translation agency losing work to an AI tool rather than to another agency.",
+    body: "Solving the same problem with a different model, such as an AI tool taking on work that once went to a translation agency.",
   },
   {
     name: "Content competitors",
-    body: "Publishers and blogs outranking you on your own money terms without selling what you sell. They take the click and never take the deal.",
+    body: "Publishers and blogs outranking you on your own money terms while selling something else entirely. They win the click and leave the deal for a seller.",
   },
   {
     name: "AI citation rivals",
-    body: "The domains an LLM reaches for when someone asks an industry question. Newest of the four, and the one most often missing from the list entirely.",
+    body: "The domains an LLM reaches for when someone asks an industry question. Newest of the four, and the one most worth adding to the list.",
   },
 ];
 
 const CHANNELS = [
   ["High direct share", "Real brand equity and a repeat audience, usually with offline or PR spend behind it."],
   ["High organic, low paid", "A mature content programme, often with dedicated search people on staff."],
-  ["High paid, low organic", "An acquisition shop, and one exposed the moment ad costs move."],
+  ["High paid, low organic", "An acquisition shop, whose position moves with every change in ad costs."],
   ["High referral, low search", "Partnerships, affiliates, or a single viral page holding the number up."],
-  ["Concentrated geography", "A local focus, and frequently weak hreflang or no localized content at all."],
+  ["Concentrated geography", "A local focus, often with hreflang and localized content still to build."],
 ];
 
 const AI_PATTERNS = [
   ["Clean data tables", "Tabular content gets lifted intact, which is why a table often outranks the paragraph that says the same thing."],
-  ["FAQ schema", "Direct answers to specific questions, marked up so a machine can find the answer without parsing the page."],
+  ["FAQ schema", "Direct answers to specific questions, marked up so a machine can lift the answer directly."],
   ["Entity linking", "Their brand tied to recognised industry concepts, with outbound references to sources worth citing."],
   ["Visible expertise", "Named authors, real dates, actual citations. The signals Google's own guidelines reward, and the ones LLMs reuse."],
 ];
 
 const ROADMAP = [
-  ["High", "Fix technical errors and schema gaps on the money pages.", "Cleaner crawling and indexing, fewer impressions wasted on pages that cannot convert."],
-  ["Medium", "Build or rewrite content where a rival ranks on a weak page.", "Organic capture on competitive queries, over months rather than weeks."],
+  ["High", "Fix technical errors and schema gaps on the money pages.", "Cleaner crawling and indexing, with impressions landing on pages that can convert."],
+  ["Medium", "Build or rewrite content where a rival ranks on a weak page.", "Organic capture on competitive queries, built over months."],
   ["Low", "Tidy referral sources and link properly from the journal to the service pages.", "Stronger topical authority and broader brand signals."],
 ];
 
@@ -152,10 +152,10 @@ export default function CompetitorChecklistPage() {
           </Reveal>
           <Reveal i={2}>
             <p className="max-w-[58ch] text-[clamp(1.05rem,1.5vw,1.2rem)] leading-[1.58]" style={{ color: "var(--dim)" }}>
-              A competitor audit is not a Semrush export. It is a
+              A competitor audit goes well beyond a Semrush export: it is a
               structured way to read another company&rsquo;s playbook and
               decide what is worth copying, what is worth ignoring, and
-              what they have not worked out yet. The question underneath
+              what they have yet to work out. The question underneath
               every one we run is the same: where is their traffic
               actually coming from, and is that source repeatable in your
               language, your market and your budget?
@@ -174,7 +174,7 @@ export default function CompetitorChecklistPage() {
             </h2>
             <p className="mb-10 max-w-[62ch] text-[1.02rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
               Nine steps, in the order the audit runs. The sections below
-              cover why each one is there and where it goes wrong.
+              cover why each one is there and how to get it right.
             </p>
           </Reveal>
           <ol className="grid gap-px" style={{ background: "var(--rule)" }}>
@@ -201,30 +201,28 @@ export default function CompetitorChecklistPage() {
           <Reveal>
             <p className="eyebrow mb-3">Before you quote a number</p>
             <h2 className="mb-6 max-w-[26ch] text-[clamp(1.7rem,3.2vw,2.5rem)] font-semibold leading-[1.12]">
-              What the traffic tools can and cannot tell you
+              What the traffic tools tell you, and how far to trust them
             </h2>
           </Reveal>
           <Reveal i={1}>
             <div className="max-w-[64ch] space-y-5 text-[1.02rem] leading-[1.65]" style={{ color: "var(--dim)" }}>
               <p>
-                We have watched consultants read Semrush traffic estimates
-                to a client as though they were Analytics data. They are
-                not. Published testing puts Semrush within roughly 10 to
+                Treat Semrush traffic estimates as estimates, kept separate
+                from Analytics data when they go to a client. Published testing puts Semrush within roughly 10 to
                 15 percent of real traffic on mid to high traffic sites,
                 and at 20 to 40 percent variance once a site is small.
-                Similarweb is stronger on large international domains and
-                loses accuracy faster on smaller ones, with variance
-                reported at 15 to 30 percent for mid-sized sites and above
-                50 percent at the low end.
+                Similarweb is strongest on large international domains, and
+                its variance widens faster on smaller ones: 15 to 30 percent
+                reported for mid-sized sites and above 50 percent at the low
+                end.
               </p>
               <p>
-                A 50 percent margin of error sounds like it makes the data
-                worthless. In practice it does not, as long as the numbers
-                are read as direction rather than as fact. You can see
+                A 50 percent margin of error still leaves the data useful,
+                as long as the numbers are read as direction. You can see
                 which rival is growing, which is flat, and which mix is
-                tilting towards paid. What you cannot do is tell a client
-                they are getting 47,000 visits a month when the real figure
-                could sit anywhere between 22,000 and 70,000.
+                tilting towards paid. Quote a range: a rival estimated at
+                47,000 visits a month could really sit anywhere between
+                22,000 and 70,000, and the range is what goes to the client.
               </p>
               <p>
                 For an international audit the two tools are better
@@ -264,12 +262,12 @@ export default function CompetitorChecklistPage() {
           <Reveal>
             <p className="eyebrow mb-3">Phase one</p>
             <h2 className="mb-6 max-w-[26ch] text-[clamp(1.7rem,3.2vw,2.5rem)] font-semibold leading-[1.12]">
-              Four kinds of competitor, and only one is on the whiteboard
+              Four kinds of competitor, beyond the one on the whiteboard
             </h2>
             <p className="mb-10 max-w-[62ch] text-[1.02rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
               Every client hands over three or four main competitors at
-              kickoff, and in our experience at least one of them does not
-              compete online at all.
+              kickoff, and in our experience at least one of them competes
+              offline only.
             </p>
           </Reveal>
           <div className="grid gap-px sm:grid-cols-2" style={{ background: "var(--rule)" }}>
@@ -307,8 +305,9 @@ export default function CompetitorChecklistPage() {
               What a channel mix discloses
             </h2>
             <p className="mb-10 max-w-[62ch] text-[1.02rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
-              Total visits are vanity. The mix feeding them describes what
-              their marketing function is, and where it breaks.
+              The mix feeding total visits is where the insight sits: it
+              describes what their marketing function is, and where it is
+              thinnest.
             </p>
           </Reveal>
           <div className="grid gap-px" style={{ background: "var(--rule)" }}>
@@ -343,22 +342,22 @@ export default function CompetitorChecklistPage() {
               <p>
                 Open their best pages and ask three questions. Who is it
                 written for? What does it ask the reader to do next? Does
-                it answer the query, or pad around a few keywords?
+                it answer the query in full?
               </p>
               <p>
                 The pattern we meet most often is the everything hub: a few
                 hundred articles, a good share of them short and
-                machine-written, and traffic that flattens and stays flat.
-                It looks like a content engine from the outside. It is a
-                liability that costs them ground on every quality update.
+                machine-written, and traffic on a long plateau. It looks
+                like a content engine from the outside, and every quality
+                update opens ground for a rival with deeper pages.
               </p>
               <p>
                 Look at where their intent coverage stops. A rival that
-                owns the how-to queries and has nothing on pricing,
+                owns the how-to queries and stops short of pricing,
                 comparisons or alternatives has left the bottom of the
-                funnel open. Three sharp comparison pages, linked properly
-                from the pages that already rank, take enquiries they will
-                never see leaving.
+                funnel open for you. Three sharp comparison pages, linked
+                properly from the pages that already rank, quietly win
+                those enquiries.
               </p>
             </div>
           </Reveal>
@@ -371,14 +370,14 @@ export default function CompetitorChecklistPage() {
           <Reveal>
             <p className="eyebrow mb-3">Phase four</p>
             <h2 className="mb-6 max-w-[26ch] text-[clamp(1.7rem,3.2vw,2.5rem)] font-semibold leading-[1.12]">
-              Audit the citations, not only the position
+              Audit the citations as well as the position
             </h2>
             <p className="mb-10 max-w-[62ch] text-[1.02rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
               A growing share of research now happens inside an assistant
-              before anyone clicks anything, so a rival can be invisible in
-              the ten blue links and quoted in every answer. Tools track
+              before anyone clicks anything, so a rival can sit outside the
+              ten blue links and still be quoted in every answer. Tools track
               this now, Ahrefs Brand Radar among them, and their counts are
-              worth treating as direction rather than as a tally. Run the
+              worth treating as direction. Run the
               same prompts yourself once a month and see who gets named.
               Four structural patterns make a page easy to lift:
             </p>
@@ -401,8 +400,8 @@ export default function CompetitorChecklistPage() {
               <Link className="ulink" href="/blog/technical-seo-for-multilingual-websites/">
                 technical SEO across languages
               </Link>
-              . A clean multilingual setup is a moat. A broken one is an
-              opening for whoever takes it seriously first.
+              . A clean multilingual setup is a moat, and an untidy one is
+              an opening for whoever takes it seriously first.
             </p>
           </Reveal>
         </div>
@@ -417,9 +416,8 @@ export default function CompetitorChecklistPage() {
               Cut eighty findings down to six
             </h2>
             <p className="mb-10 max-w-[62ch] text-[1.02rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
-              Where most audits die. The analyst lists eighty issues, the
-              client nods, and nothing happens, because eighty issues is
-              not a plan. Pick six: three quick technical fixes, two
+              Where an audit turns into action. Eighty issues make a list;
+              six make a plan. Pick six: three quick technical fixes, two
               content gaps where a rival ranks on a weak page, and one
               structural play worth a quarter or two.
             </p>
@@ -451,7 +449,7 @@ export default function CompetitorChecklistPage() {
           <Reveal>
             <p className="eyebrow mb-3">Before you buy anything</p>
             <h2 className="mb-6 max-w-[26ch] text-[clamp(1.7rem,3.2vw,2.5rem)] font-semibold leading-[1.12]">
-              A first pass costs nothing
+              A first pass runs on free tools
             </h2>
           </Reveal>
           <Reveal i={1}>
@@ -464,11 +462,12 @@ export default function CompetitorChecklistPage() {
                 extension gives a quick directional read on any
                 domain&rsquo;s channel mix. Keyword Planner and your own
                 Search Console show the queries you already touch, which is
-                how you spot what a rival owns and you do not.
+                how you spot the queries a rival owns that are still open to
+                you.
               </p>
               <p>
                 Upgrade once the exercise has proved it is worth paying
-                for, not before. The discipline in the checklist matters
+                for. The discipline in the checklist matters
                 more than the subscription behind it.
               </p>
             </div>

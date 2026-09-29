@@ -21,9 +21,9 @@ Soñamos a lo grande
 
 Una interfaz multilingüe bien diseñada es clave para ofrecer una experiencia de usuario fluida en diferentes regiones.
 
-Nos especializamos en adaptar la UX/UI de su sitio web para múltiples idiomas, asegurando cumplimiento, capacidad de respuesta y precisión técnica.
+Nos especializamos en adaptar la UX/UI de tu sitio web para múltiples idiomas, asegurando cumplimiento, capacidad de respuesta y precisión técnica.
 
-Desde los idiomas que se leen de izquierda a derecha hasta los desafíos de codificación, localizamos su sitio para ofrecer diseños culturalmente relevantes y visualmente consistentes, ya sea en alemán o en cualquier otro idioma.
+Desde los idiomas que se leen de izquierda a derecha hasta los desafíos de codificación, localizamos tu sitio para ofrecer diseños culturalmente relevantes y visualmente consistentes, ya sea en alemán o en cualquier otro idioma.
 
 ## Por qué el diseño UX/UI multilingüe es importante.
 
@@ -53,7 +53,7 @@ Localiza elementos de la interfaz de usuario, como íconos, imágenes y símbolo
 
 Seguimos un proceso riguroso y estructurado para asegurarnos de que tu página web multilingüe tiene un diseño bonito, funciona correctamente y está adaptada a la cultura de tu audiencia.
 
-Entendemos sus necesidades de diseño, mercados objetivo y especificaciones de la plataforma, asegurando una solución personalizada.
+Entendemos tus necesidades de diseño, mercados objetivo y especificaciones de la plataforma, asegurando una solución personalizada.
 
 Investiga las tendencias regionales, competidores y preferencias culturales para informar nuestras estrategias de diseño UX/UI.
 
@@ -71,7 +71,7 @@ Aseguramos que las interfaces estén completamente adaptadas a los idiomas de de
 
 Los problemas de codificación surgen cuando los caracteres especiales de diferentes idiomas no se muestran correctamente. Nos aseguramos de que tu sitio web utilice la codificación adecuada, para que todos los idiomas se rendericen sin problemas.
 
-Localizamos elementos visuales como íconos, imágenes y colores para alinearlos con las preferencias culturales, asegurando que su diseño resuene con las audiencias locales.
+Localizamos elementos visuales como íconos, imágenes y colores para alinearlos con las preferencias culturales, asegurando que tu diseño resuene con las audiencias locales.
 
 Trabajamos en plataformas populares como WordPress, Joomla y Drupal, asegurando que tu interfaz se adapte perfectamente a múltiples idiomas.
 
@@ -85,7 +85,7 @@ Nuestros clientes
 
 Nuestra experiencia en diseño UX/UI multilingüe
 
-Nuestro equipo aporta años de experiencia en el diseño de sitios web multilingües, asegurando que su UX/UI sea visualmente coherente, culturalmente adaptada y técnicamente impecable. Nos especializamos en manejar desafíos de diseño complejos, como problemas de codificación, variaciones en la longitud del texto y soporte para idiomas de derecha a izquierda, en plataformas como WordPress, Joomla y Drupal. Nuestro objetivo es ayudarle a ofrecer una experiencia atractiva y accesible a los usuarios en cualquier idioma, asegurando una interfaz global fluida y conforme.
+Nuestro equipo aporta años de experiencia en el diseño de sitios web multilingües, asegurando que tu UX/UI sea visualmente coherente, culturalmente adaptada y técnicamente impecable. Nos especializamos en manejar desafíos de diseño complejos, como problemas de codificación, variaciones en la longitud del texto y soporte para idiomas de derecha a izquierda, en plataformas como WordPress, Joomla y Drupal. Nuestro objetivo es ayudarle a ofrecer una experiencia atractiva y accesible a los usuarios en cualquier idioma, asegurando una interfaz global fluida y conforme.
 
 [Integración en CMS](https://mikebastin.com/es/servicios/integracion-cms-multilingue/)
 

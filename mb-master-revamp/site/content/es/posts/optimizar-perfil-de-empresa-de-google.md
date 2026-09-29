@@ -20,9 +20,9 @@ Una clienta me llamó en febrero.
 
 Su estudio de yoga en Valencia se había caído del pack local de tres después de dos años de visibilidad estable.
 
-Su web no había cambiado.
+Su web seguía siendo la misma.
 
-Su Perfil de Empresa de Google no se tocaba desde octubre.
+La última actualización de su Perfil de Empresa de Google era de octubre.
 
 Ese desfase te cuenta casi todo lo que necesitas saber sobre la búsqueda local en 2026.
 
@@ -32,11 +32,11 @@ Google retiró la sección pública de preguntas y respuestas a finales de 2025.
 
 En su lugar, Gemini responde a las preguntas locales en Maps tirando de tu perfil, tus reseñas, tus publicaciones y tu web.
 
-El chat integrado también ha desaparecido, sustituido por la integración con WhatsApp para los negocios verificados.
+La integración con WhatsApp para los negocios verificados ocupa ahora el lugar del chat integrado.
 
-La frescura del perfil funciona ya en la práctica como un factor de posicionamiento, no solo como una buena costumbre.
+La frescura del perfil funciona ya en la práctica como un factor de posicionamiento, además de una buena costumbre.
 
-Deja de actualizar durante 30 días y la visibilidad baja sin hacer ruido.
+Actualízalo al menos cada 30 días para mantener la visibilidad, que a partir de ese plazo baja en silencio.
 
 ### Qué cambió entre 2024 y 2026
 
@@ -90,7 +90,7 @@ Borrador con IA permitido, reseñas con IA prohibidas
 
 ### Reclama el perfil, verifícalo y mantenlo vivo
 
-Reclama el perfil en business.google.com si todavía no lo has hecho.
+Reclama el perfil en business.google.com como primer paso.
 
 La verificación por vídeo es ya el método por defecto para las fichas nuevas en casi todas las regiones.
 
@@ -98,7 +98,7 @@ Graba una sola toma continua que muestre el cartel, la recepción y una activida
 
 Tras la verificación, trata el perfil como la sala del estudio: necesita cuidado diario para seguir resultando acogedor.
 
-Vi a un estudio de bienestar de Valencia perder un tercio de sus reservas de clase tras tres semanas de silencio.
+En un estudio de bienestar de Valencia, tres semanas de silencio costaron un tercio de las reservas de clase.
 
 El perfil se recuperó en cuanto publicamos dos fotos y una actualización por semana durante 30 días.
 
@@ -106,9 +106,9 @@ El perfil se recuperó en cuanto publicamos dos fotos y una actualización por s
 
 Tu NAP (nombre, dirección y teléfono) tiene que coincidir al detalle entre tu web, tu Perfil de Empresa de Google, los directorios y las redes sociales.
 
-Las incoherencias debilitan el reconocimiento de entidad por parte de Google.
+La coherencia refuerza el reconocimiento de entidad por parte de Google.
 
-Un número de local escrito de una forma en tu web y de otra en MindBody o ClassPass basta a menudo para aflojar la señal.
+Escribe el número de local igual en tu web, en MindBody y en ClassPass: ese detalle basta a menudo para mantener la señal firme.
 
 Haz una auditoría de citaciones cada trimestre con Moz Local, BrightLocal o la gestión de fichas de Semrush.
 
@@ -118,13 +118,13 @@ Corrige primero las 20 incoherencias de mayor autoridad.
 
 La categoría principal mueve la aguja más que cualquier otro cambio dentro del perfil.
 
-Un estudio de yoga en caliente debería elegir «Estudio de yoga en caliente», no «Centro de fitness».
+Un estudio de yoga en caliente elige «Estudio de yoga en caliente», más concreto que «Centro de fitness».
 
-Un estudio de pilates con reformer debería elegir «Estudio de pilates», no «Gimnasio».
+Un estudio de pilates con reformer elige «Estudio de pilates», más concreto que «Gimnasio».
 
-Las categorías secundarias sirven de apoyo, no de relleno, así que añade solo lo que de verdad enseñas u ofreces.
+Las categorías secundarias sirven de apoyo, así que añade solo lo que de verdad enseñas u ofreces.
 
-Google detecta el atiborramiento de categorías y penaliza los perfiles que abusan de ello.
+Google detecta el atiborramiento de categorías y penaliza el abuso, así que quédate con las que describen tu negocio.
 
 Revisa tu lista de categorías cada tres meses, porque Google sigue añadiendo opciones más concretas, sobre todo en bienestar y servicios holísticos.
 
@@ -138,7 +138,7 @@ Escríbela en lenguaje claro y empieza por lo que enseñas, dónde lo enseñas y
 
 Incluye tus estilos, las certificaciones de tus profesores, los niveles de clase, los idiomas y cualquier taller o retiro propio.
 
-La descripción autogenerada del panel es un borrador, nada más.
+La descripción autogenerada del panel es un punto de partida.
 
 Edítala y añade los detalles que solo tú conoces: el linaje Ashtanga, la certificación prenatal, las clases bilingües de los martes.
 
@@ -146,17 +146,17 @@ Edítala y añade los detalles que solo tú conoces: el linaje Ashtanga, la cert
 > 
 > Adaptado de [Digital Applied, guía de funciones del Perfil de Empresa 2026](https://www.digitalapplied.com/blog/google-business-profile-guide-every-feature-2026)
 
-### Fotos y vídeos: muestra trabajo real, no montajes con IA
+### Fotos y vídeos: muestra trabajo real
 
 Sube fotos nuevas al menos dos veces por semana.
 
 La IA de visión de Google escanea lo que publicas y usa ese contenido para estimar tu nivel de experiencia.
 
-Olvídate de las imágenes generadas por IA para tu galería principal.
+Para tu galería principal, usa fotos reales.
 
-Los interiores de estudio falsos, las fotos de profesores falsas y las clases inventadas incumplen la política de contenido de 2026.
+La política de contenido de 2026 exige interiores, profesores y clases reales; las imágenes inventadas la incumplen.
 
-Google permite la edición asistida por IA dentro de Product Studio, pero la galería principal tiene que ser real.
+Google permite la edición asistida por IA dentro de Product Studio, y la galería principal tiene que ser real.
 
 Para los negocios de bienestar, las fotos en acción son las que más trabajan: un profesor a mitad de secuencia, una terapeuta preparando la sala, un estudio recibiendo a sus habituales de la mañana.
 
@@ -166,7 +166,7 @@ Los vídeos verticales cortos de avances de clase o recorridos por el estudio ri
 
 Desde noviembre de 2025, quien usa Google Maps puede publicar reseñas con un apodo y un avatar personalizado.
 
-Cuenta con más reseñas en general, algunas de cuentas que no podrás identificar con facilidad.
+Cuenta con más reseñas en general, algunas de cuentas con seudónimo, más difíciles de identificar.
 
 Las respuestas del propietario las modera ahora Google antes de publicarlas, normalmente en unos diez minutos y, de vez en cuando, hasta 30 días.
 
@@ -176,11 +176,11 @@ La velocidad de reseñas pesa más que el número total.
 
 Un flujo constante a lo largo de 90 días gana a un golpe de 50 reseñas tras un taller con mucha gente seguido de silencio.
 
-Un 5,0 perfecto sin ninguna crítica puede activar el filtro de reseñas falsas de Google, así que un 4,6 creíble y con sustancia es terreno más seguro.
+Un 4,6 creíble y con sustancia es terreno más seguro: un 5,0 perfecto hecho solo de elogios puede activar el filtro de reseñas falsas de Google.
 
-### Publicaciones, productos y las superficies infrautilizadas
+### Publicaciones, productos y las superficies con más margen
 
-Las publicaciones de Google no mueven directamente la posición en el pack.
+El efecto de las publicaciones de Google sobre la posición en el pack es indirecto.
 
 Suben el porcentaje de clics dentro del panel local y alimentan el resumen con IA de Maps.
 
@@ -188,7 +188,7 @@ El panel de 2026 ya permite programar y publicar en varias ubicaciones, lo que h
 
 Cada publicación necesita una llamada a la acción clara: reserva una clase, guarda tu plaza, apúntate a la lista de espera.
 
-La pestaña de Productos es la superficie más desaprovechada del perfil, incluso en estudios centrados en servicios.
+La pestaña de Productos es la superficie con más margen del perfil, incluso en estudios centrados en servicios.
 
 Un estudio de yoga puede listar sus bonos de clases, las cuotas ilimitadas y las tarifas de sesión privada.
 
@@ -202,31 +202,31 @@ El chat de Google se ha retirado, así que añade un botón de WhatsApp si tu es
 
 Para los negocios que viven de las clases, conecta tu sistema de reservas (MindBody, Momoyoga, Arketa, Bsport) directamente al perfil.
 
-Menos pasos de la búsqueda a la esterilla reservada significa menos alumnos perdidos.
+Cuantos menos pasos haya de la búsqueda a la esterilla reservada, más alumnos llegan a clase.
 
-Lo monté para un estudio de bienestar el año pasado y las reservas de clase subieron un 40 % en dos meses, sin gasto en anuncios.
+Lo monté para un estudio de bienestar el año pasado y las reservas de clase subieron un 40 % en dos meses, con cero gasto en anuncios.
 
 ### Métricas que vale la pena seguir
 
-Dentro del panel, sigue tres cosas e ignora el resto:
+Dentro del panel, céntrate en tres cosas:
 
 -   Las búsquedas que hicieron aparecer tu perfil.
 -   Las acciones realizadas: llamadas, solicitudes de ruta, clics a la web, clics de reserva.
 -   Las vistas de fotos frente a los estudios de tu competencia en tu categoría.
 
-El recuento de impresiones por sí solo es una métrica de vanidad.
+Lee las impresiones junto a las acciones.
 
-Muchas impresiones con pocas acciones significa que el perfil no convierte, así que retoca primero la descripción y las fotos.
+Si tienes muchas impresiones y pocas acciones, retoca primero la descripción y las fotos para que el perfil convierta.
 
 ### Preguntas frecuentes: Perfil de Empresa de Google en 2026
 
 #### ¿Sigue llamándose Google My Business?
 
-No. El producto se llama Perfil de Empresa de Google desde finales de 2021, aunque mucha gente del sector aún dice GMB por costumbre.
+El producto se llama Perfil de Empresa de Google desde finales de 2021, aunque mucha gente del sector aún dice GMB por costumbre.
 
 #### ¿Con qué frecuencia debería publicar un estudio de yoga?
 
-Al menos dos veces por semana: una foto nueva y una actualización, como una clase nueva, un taller o la presentación de un profesor. Los perfiles silenciosos empiezan a perder visibilidad antes de 30 días.
+Al menos dos veces por semana: una foto nueva y una actualización, como una clase nueva, un taller o la presentación de un profesor. Ese ritmo mantiene la visibilidad, que en los perfiles silenciosos empieza a bajar antes de 30 días.
 
 #### ¿Sigue disponible la sección de preguntas y respuestas?
 
@@ -234,17 +234,17 @@ La sección pública de preguntas y respuestas se ha retirado en casi todas las 
 
 #### ¿Puedo usar IA para escribir la descripción de mi estudio?
 
-Sí para el borrador, no para publicar de forma totalmente automática. Google permite el texto asistido por IA, pero prohíbe las reseñas generadas por IA y el contenido engañoso. Edita cada borrador antes de publicarlo.
+Sí para el borrador; la publicación pasa siempre por tu revisión. Google permite el texto asistido por IA y prohíbe las reseñas generadas por IA y el contenido engañoso. Edita cada borrador antes de publicarlo.
 
 #### ¿Necesito un 5 sobre 5 para posicionar?
 
-No. Una media de 4,5 con 20 o más reseñas recientes y participación activa posiciona mejor que un 5,0 sospechoso sin ninguna crítica. El filtro de IA de Google marca las valoraciones perfectas como posibles manipulaciones.
+Una media de 4,5 con 20 o más reseñas recientes y participación activa posiciona mejor que un 5,0 sospechoso hecho solo de elogios. El filtro de IA de Google marca las valoraciones perfectas como posibles manipulaciones.
 
 #### ¿Qué sustituyó al chat de Google para los estudios?
 
 La integración con WhatsApp para negocios verificados en casi todas las regiones, junto a los botones estándar de llamada y de enlace a la web. Para un estudio, combinar WhatsApp con un enlace de reserva directa suele ser lo que mejor funciona.
 
-### Por dónde empezar si tu perfil está parado
+### Por dónde empezar para reactivar tu perfil
 
 Cinco comprobaciones, en orden:
 

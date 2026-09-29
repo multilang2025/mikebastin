@@ -148,7 +148,72 @@ post-editing to `localisation-de-site-web`; multilingual content to
   types, e.g. "agence seo international", "référencement multilingue",
   "traduction site web", not "seo France".
 
-**3. Templates and plumbing.**
+**3. Templates and plumbing. Started 29 Sep 2026** (owner: "continue
+building FR", which releases phase 3 ahead of the EN lock; the French copy
+it ships is a draft the owner reviews, per decision 5). First slice done:
+
+- `lib/fr-pages-data.ts` and `lib/fr-pages.ts`: one list of the French
+  pages and their English siblings, read by the pages, the sitemap, the
+  French menu and the reciprocal hreflang on the English pages. A page
+  counts as built when its route file exists.
+- Built: `/fr/` homepage, `/fr/services/` index, `/fr/blog/` index,
+  `/fr/nous-contacter/` with `merci/` and `probleme/`. The form posts to
+  the same `public/contact.php` with `lang=fr`, which lands French
+  visitors on the French pages.
+- French menu, menu button and call to action on every `/fr/` URL; footer
+  links to the French contact and services index, and hides the English
+  results link on French pages.
+- `pageMeta` takes `ogLocale`; French pages carry `fr_FR`.
+- `g077` gets `"hreflang_standalone": ["fr"]`, so `/fr/services/seo/`
+  and EN `/services/french-seo/` no longer claim each other.
+- `gen-fr-redirects.mjs` rerun: 14 permanent rules, 22 temporary; unbuilt
+  pages now wait on `/fr/` rather than on the SEO service page.
+- `copy-lint-code.mjs` skips `app/fr/` and `app/es/`: its rules are
+  English and misfired on French ("même" matched the first-person "me").
+- Legacy titles "Localization ..." corrected to "Localisation ...".
+
+Second slice done (29 Sep 2026):
+
+- `/fr/tarifs/` (sibling of `/how-i-work/`, both halves of the billing
+  answer kept) and `/fr/notre-equipe/` (French only, `en: null`).
+- The six service pages, written from the English parents' facts only:
+  `traduction-professionnelle`, `postedition-ia`, `localisation-applications`,
+  `creation-de-contenu-multilingue`, `conseil-ia` (these five get
+  `locale_actions {"fr":"migrate"}`) and the new `seo-technique` (group
+  `g177`, no EN sibling). The legacy "2 à 4 semaines" turnaround on the
+  apps page was dropped: no English source for it.
+- `/fr/services/` gains a "Contenu, traduction et IA" group; an odd card
+  count in two columns widens its last card.
+- `gen-fr-redirects.mjs` rerun: 29 rules, all permanent. No legacy French
+  URL waits on an interim page any more.
+
+Lead generation hubs (29 Sep 2026, owner: "work on the lead generation
+hubs in fr and es"):
+
+- `/fr/services/generation-de-leads/` and `/es/services/generacion-de-leads/`,
+  hand-built siblings of `/services/lead-generation/` with the same case
+  in the same order, and only facts the English page states. Slugs and
+  h1s from Ahrefs (29 Sep): FR "génération de leads" 800 a month,
+  "agence génération de leads" 600; ES "generación de leads" 200 plus 200
+  unaccented, "generación de leads b2b" 150.
+- `lib/lead-gen-hubs.ts` pairs the three (no content-map group, since all
+  three are hand-built routes): reciprocal hreflang on all three pages,
+  the sitemaps and the language switcher.
+- `Testimonials` shows its labels, review ages and source line in the
+  page's language, and drops "Read in English" on FR and ES pages.
+- Linked from `/fr/services/` (a card above the groups) and the French
+  homepage.
+- The ES hub is the first rebuilt Spanish page. Spain has no contact page
+  yet, so its calls to action go to `/contact/` and say the form can be
+  filled in in Spanish. It uses "tú", as all Spanish copy now does (owner,
+  29 Sep 2026).
+
+Next slice: the French copy lint. Legacy French copy to fix in phase 4, noted while
+building: several service excerpts say "25 années d'expérience" (the
+owner's rule is "over two decades"), and two post titles use
+"optimizer" for "optimiser".
+
+The original phase 3 list:
 - Routes: `/fr/` homepage, `/fr/services/` index, `/fr/blog/` index,
   `/fr/nous-contacter/` plus thanks and problem, `/fr/notre-equipe/`,
   `/fr/tarifs/`.

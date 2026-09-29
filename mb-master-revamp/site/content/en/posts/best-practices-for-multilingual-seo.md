@@ -19,7 +19,7 @@ Ranking is still the foundation, and now the first half of the job. The work tha
 
 ## Why multilingual SEO remains the foundation
 
-If search engines cannot tell which version of your site is meant for which market, even an excellent translation sits unseen. Localized [multilingual SEO](/services/multilingual-seo/) puts each version in front of the people looking for it.
+When search engines can tell which version of your site is meant for which market, an excellent translation gets seen. Localized [multilingual SEO](/services/multilingual-seo/) puts each version in front of the people looking for it.
 
 The groundwork, in every language:
 
@@ -68,16 +68,16 @@ They differ in crawl management, authority consolidation and hosting complexity.
 
 ## Implementing hreflang: three rules for correct tags
 
-When these tags are wrong, a buyer in France lands on your Spanish page, and leaves. Hreflang tags tell search engines which language and region each page targets. Three rules:
+Correct tags send a buyer in France to your French page. Hreflang tags tell search engines which language and region each page targets. Three rules:
 
 - Place the tags in the HTML head or the XML sitemap.
 - Make every tag bidirectional: if page A lists page B as an alternate, page B must list page A.
 - Include an x-default for users outside your defined languages and regions.
 
-Hreflang errors are among the most common [technical SEO issues](/blog/technical-seo-audit-checklist/) on multilingual sites, so audit them regularly.
+Hreflang is among the most common [technical SEO issues](/blog/technical-seo-audit-checklist/) to check on multilingual sites, so audit the tags regularly.
 
 <aside class="post-cta">
-<p><strong>Want every market to land on the right version of your site?</strong> Our <a href="/services/multilingual-seo/">multilingual SEO programmes</a> validate the language signals per market rather than assuming them. <a href="/contact/">Book the discovery call</a>.</p>
+<p><strong>Want every market to land on the right version of your site?</strong> Our <a href="/services/multilingual-seo/">multilingual SEO programmes</a> validate the language signals for each market. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
 ## Local backlinks and regional authority
@@ -88,7 +88,7 @@ A link from the local press or a sector association in your target country is wo
 - Partnerships with [local businesses](/blog/how-to-promote-your-local-business-on-google-maps/).
 - Targeted PR.
 
-Quality outweighs quantity, and bought links or link schemes risk penalties. For a market-specific example, see our guide to [link building in Spain](/blog/link-building-in-spain/).
+Quality outweighs quantity, so earn every link: that keeps you clear of the penalties bought links and link schemes risk. For a market-specific example, see our guide to [link building in Spain](/blog/link-building-in-spain/).
 
 Authoritative local links also make it more likely that AI models treat your content as a source worth citing in that market.
 
@@ -105,7 +105,7 @@ Entity clarity matters even more on multilingual sites. AI models need unambiguo
 
 ## GEO and presence everywhere
 
-A growing share of your buyers now compare suppliers inside Google’s AI Overviews and AI Mode, ChatGPT, Perplexity and Gemini, which all draw on structured, authoritative, entity-rich content. Content that only targets classic results misses that part of the decision.
+A growing share of your buyers now compare suppliers inside Google’s AI Overviews and AI Mode, ChatGPT, Perplexity and Gemini, which all draw on structured, authoritative, entity-rich content. Content written for AI answers as well as classic results reaches that part of the decision.
 
 GEO makes content citable by AI as well as indexable. For multilingual sites it asks for the same four things in every language you sell in:
 

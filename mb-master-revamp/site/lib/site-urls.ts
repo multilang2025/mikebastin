@@ -14,6 +14,8 @@ import {
   servicePath,
 } from "@/lib/services-locale";
 import { SITE_URL } from "@/lib/schema";
+import { builtFrPages, enLanguages, frLanguages } from "@/lib/fr-pages";
+import { leadGenLanguages, leadGenPath } from "@/lib/lead-gen-hubs";
 
 /**
  * Every indexable URL on the site, in one place.
@@ -77,7 +79,17 @@ const STATIC: { path: string; section: string; label: string }[] = [
 ];
 
 export function getSiteUrls(): UrlEntry[] {
-  const out: UrlEntry[] = STATIC.map((e) => ({ ...e, locale: "en" as const, kind: "page" as const }));
+  const out: UrlEntry[] = STATIC.map((e) => ({
+    ...e,
+    locale: "en" as const,
+    kind: "page" as const,
+    languages: enLanguages(e.path),
+  }));
+
+  // The hand-built French pages (lib/fr-pages-data.ts), once their route exists.
+  for (const p of builtFrPages()) {
+    out.push({ path: p.path, locale: "fr", kind: "page", section: "French", label: p.label, languages: frLanguages(p.path) });
+  }
 
   // Services. lead-generation has its own hand-built route rather than
   // going through /services/[slug]/, but its URL is the same shape, so it
@@ -94,9 +106,14 @@ export function getSiteUrls(): UrlEntry[] {
       kind: "page",
       section: "Services",
       label: s.name,
-      languages: group ? serviceHreflang(group) : undefined,
+      languages: s.slug === "lead-generation" ? leadGenLanguages() : group ? serviceHreflang(group) : undefined,
     });
   }
+
+  // The FR and ES lead generation hubs: hand-built routes, paired in
+  // lib/lead-gen-hubs.ts rather than through content-map.
+  out.push({ path: leadGenPath("fr"), locale: "fr", kind: "page", section: "French", label: "Génération de leads", languages: leadGenLanguages() });
+  out.push({ path: leadGenPath("es"), locale: "es", kind: "page", section: "Spanish", label: "Generación de leads", languages: leadGenLanguages() });
 
   for (const t of getTopics()) {
     out.push({
@@ -155,7 +172,7 @@ export function getSiteUrls(): UrlEntry[] {
         lastModified: sv.modified || sv.date,
         section: `${heading} services`,
         label: sv.title,
-        languages: serviceHreflang(sv.group),
+        languages: serviceHreflang(sv.group, locale),
       });
     }
   }

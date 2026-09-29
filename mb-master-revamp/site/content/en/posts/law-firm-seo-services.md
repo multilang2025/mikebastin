@@ -12,7 +12,7 @@ sourceUrl: "https://mikebastin.com/law-firm-seo-services/"
 excerpt: "Your next client compares three firms online before calling any. Law firm SEO services that make yours one of the three, in every language you serve."
 ---
 
-Your next client is comparing three firms on their phone before they call any of them. If yours is not one of the three, or its practice pages read like a business card, the enquiry goes to a firm that may be no better, only easier to find and easier to trust. For a firm with international clients, that happens once per language.
+Your next client is comparing three firms on their phone before they call any of them. The aim is for yours to be one of the three, with practice pages that make it the easiest to find and the easiest to trust. For a firm with international clients, that comparison runs once per language.
 
 > A growing majority of consumers say they would look for their next lawyer online, increasing the importance of strong digital presence and client-facing technology.
 >
@@ -22,7 +22,7 @@ Below is how we approach SEO for law firms: the searches that matter, pages that
 
 ## Why law firms need specialist SEO
 
-A generic site loses the client at the comparison stage, where legal clients spend longest. Today’s legal clients are savvy researchers. They read reviews, compare detailed service pages and assess several solicitors before making contact, so your website has to be more than a static digital business card.
+A specialist site wins the client at the comparison stage, where legal clients spend longest. Today’s legal clients are savvy researchers. They read reviews, compare detailed service pages and assess several solicitors before making contact, so your website has to give a full, current picture of the firm.
 
 Future clients expect complete, well-researched practice pages, credible insights from articles and navigation that gets them to the right practice area quickly.
 
@@ -53,7 +53,7 @@ Legal work also carries its own constraints. Confidentiality, regulatory complia
 
 ## Start with what your firm actually does
 
-SEO built on a vague picture of the firm attracts vague enquiries. One practice focuses on property disputes; another prioritises private client work. Before starting SEO, make sure you can clearly explain what sets your firm apart:
+SEO built on a sharp picture of the firm attracts the enquiries you want. One practice focuses on property disputes; another prioritises private client work. Before starting SEO, make sure you can clearly explain what sets your firm apart:
 
 -   Which services should you spotlight, and why?
 -   Which geographical areas do you serve?
@@ -61,16 +61,16 @@ SEO built on a vague picture of the firm attracts vague enquiries. One practice 
 
 The answers shape tone, keywords and depth of content. Your [SEO strategy in the age of AI](/blog/how-ai-is-revolutionising-seo-strategies/) has to answer real questions, both for immediate needs and for long-term planning, and surface at the moment a potential client needs your expertise.
 
-## What a specialist does that a generalist misses
+## What a specialist brings to legal SEO
 
-Legal searches often happen during stressful life events, so trust and clarity matter more than clever copy. A specialist in legal and [multilingual SEO](/services/multilingual-seo/) catches details a generic provider misses:
+Legal searches often happen during stressful life events, so trust and clarity matter more than clever copy. A specialist in legal and [multilingual SEO](/services/multilingual-seo/) covers the details that decide trust:
 
 -   correct disclaimers by jurisdiction
 -   terminology by market and audience
 -   privacy regulations across countries
 -   professional conduct rules for legal advertising
 
-For a Valencia client, generic terms such as “lawyer Spain” missed the mark. International clients needed precise content on NIE applications, company formation and [certified translations](/services/translation-services/), so we balanced professional authority with plain explanations and included practical references to Spanish corporate law in the company-formation guides. Legally informed SEO outperformed generic tactics, even against larger firms.
+For a Valencia client, international clients searched beyond generic terms such as “lawyer Spain”: they needed precise content on NIE applications, company formation and [certified translations](/services/translation-services/), so we balanced professional authority with plain explanations and included practical references to Spanish corporate law in the company-formation guides. Legally informed SEO outperformed generic tactics, even against larger firms.
 
 ## Case study: a Valencia firm reaching international clients
 
@@ -79,14 +79,14 @@ We helped a [Valencia law firm reach foreign entrepreneurs](/services/spanish-se
 -   a site restructure to support four languages
 -   targeted [keyword research](/blog/what-is-search-intent-mapping/) for high-intent queries
 -   [Google Business Profile optimization](/services/local-seo/) for local visibility
--   native-language content, with no machine translation
+-   native-language content, written from scratch in each language
 -   press release campaigns in Belgium, France, Switzerland, Canada, the USA and the UK
 
 Within six months, international enquiries had risen sharply, from entrepreneurs seeking formation services and families needing residency help. Despite larger rivals, the firm now ranks for key terms across languages.
 
 ## Keyword research across English-speaking markets
 
-A British expat searches for a solicitor, an American for an attorney. Write for only one and the other never finds you. Americans, Brits, Australians and non-native speakers all search differently. We plan content that covers these variations naturally, without forcing the terms in.
+A British expat searches for a solicitor, an American for an attorney. Write for both and each one finds you. Americans, Brits, Australians and non-native speakers all search differently. We plan content that covers these variations naturally, with each term sitting where a reader expects it.
 
 | Audience | What they search | Example queries |
 | --- | --- | --- |
@@ -95,7 +95,7 @@ A British expat searches for a solicitor, an American for an attorney. Write for
 | International business | business lawyer, corporate legal services | “business lawyer Spain”, “corporate legal services” |
 | Non-native speakers | English-speaking lawyer | “English-speaking lawyer Spain” |
 
-Meta titles might lead with “International business lawyer Valencia”, while the copy refers to experienced solicitors and corporate attorneys where appropriate. The approach captures demand across countries without diluting the page.
+Meta titles might lead with “International business lawyer Valencia”, while the copy refers to experienced solicitors and corporate attorneys where appropriate. The approach captures demand across countries and keeps the page focused.
 
 <aside class="post-cta">
 <p><strong>Writing for solicitors when your clients search for attorneys?</strong> The keyword research in our <a href="/services/technical-seo/">technical SEO service</a> reads how people phrase the problem in each market, and treats English as a market in its own right, British and American alike. <a href="/contact/">Book the discovery call</a>.</p>
@@ -103,7 +103,7 @@ Meta titles might lead with “International business lawyer Valencia”, while 
 
 ## On-page optimization for practice pages
 
-A practice page that ranks but does not persuade wastes the ranking. We structure practice pages with clear titles, scannable sections and plain-English explanations, answer pressing questions directly and guide visitors to act, whether that means booking a consultation or requesting a quote.
+A practice page earns its ranking when it persuades as well as ranks. We structure practice pages with clear titles, scannable sections and plain-English explanations, answer pressing questions directly and guide visitors to act, whether that means booking a consultation or requesting a quote.
 
 Trust and transparency are essential, so jurisdiction and regulatory credentials are shown clearly. For our Valencia client, we created focused sections for NIE, company formation and [sworn translations](/services/translation-services/) in several languages, and the structure grew international enquiries while keeping the tone professional.
 
@@ -129,9 +129,9 @@ We also built relationships with legal directories and business associations in 
 
 ## Technical audits and page speed
 
-A slow, untidy site undercuts every other piece of work: rankings stall, and the client on a phone leaves before booking. We often inherit technical debt from previous vendors: bloated URLs, inconsistent trailing slashes and duplicate paths that split authority. We standardise URL formats, add 301 redirects, align slugs with intent keywords, fix indexing problems and improve internal linking so Google understands the site architecture.
+A fast, tidy site lets every other piece of work pay off: rankings move, and the client on a phone books. Many sites we take on carry technical debt: bloated URLs, inconsistent trailing slashes and duplicate paths that split authority. We standardise URL formats, add 301 redirects, align slugs with intent keywords, fix indexing problems and improve internal linking so Google understands the site architecture.
 
-Speed supports rankings and conversions, but not at the expense of persuasion. We balance Core Web Vitals with the design elements that convert:
+Speed supports rankings and conversions, and persuasive design does too. We balance Core Web Vitals with the design elements that convert:
 
 -   compress and serve responsive images
 -   cache assets and reduce scripts
@@ -142,14 +142,14 @@ Speed supports rankings and conversions, but not at the expense of persuasion. W
 Learn more in our guide to [technical SEO for multilingual websites](/blog/technical-seo-for-multilingual-websites/).
 
 <aside class="post-cta">
-<p><strong>Inherited a site from a previous agency?</strong> Our <a href="/services/technical-seo/">technical SEO for multilingual websites</a> finds out whether your language versions are competing with each other instead of adding up, and fixes what is causing it. <a href="/contact/">Book the discovery call</a>.</p>
+<p><strong>Inherited a site from a previous agency?</strong> Our <a href="/services/technical-seo/">technical SEO for multilingual websites</a> makes sure your language versions add up, each one supporting the others. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
 ## Content, competitors and compliance
 
-We benchmark rivals with tools like Ahrefs and SEMrush to find the gaps they miss. Many firms target broad terms and neglect high-intent services like NIE, company formation or sworn translation support, and detailed, market-specific content in native languages is how smaller firms compete head-to-head with international players. Our guide to a [targeted content strategy](/blog/how-to-create-a-targeted-content-strategy/) covers the method for professional services.
+We benchmark rivals with tools like Ahrefs and SEMrush to find the openings they leave. Many firms target broad terms, which leaves high-intent services like NIE, company formation or sworn translation support open to you, and detailed, market-specific content in native languages is how smaller firms compete head-to-head with international players. Our guide to a [targeted content strategy](/blog/how-to-create-a-targeted-content-strategy/) covers the method for professional services.
 
-A specialist balances visibility with compliance. We avoid problematic claims, use verifiable expertise with appropriate disclaimers and respect regional rules on testimonials, success claims and advertising language.
+A specialist balances visibility with compliance. We keep every claim verifiable, show expertise with appropriate disclaimers and respect regional rules on testimonials, success claims and advertising language.
 
 Content works best as part of a system that covers research, consideration and decision:
 
@@ -162,11 +162,11 @@ Read our [best practices for multilingual SEO](/blog/best-practices-for-multilin
 
 ### Paid search alongside SEO
 
-We align PPC with SEO to cover more of the high-intent results. Separate campaigns by language and service improve Quality Score and conversions, and targeting phrases that signal action rather than vanity terms lowers wasted spend.
+We align PPC with SEO to cover more of the high-intent results. Separate campaigns by language and service improve Quality Score and conversions, and targeting phrases that signal action puts the spend where clients are ready to act.
 
 ## Measuring results
 
-Every campaign starts with objectives tied to growth, and we report against them rather than against activity.
+Every campaign starts with objectives tied to growth, and we report against those objectives.
 
 | Goal | How we measure it |
 | --- | --- |
@@ -177,18 +177,18 @@ Every campaign starts with objectives tied to growth, and we report against them
 
 For Valencia, focused terms like “NIE application Valencia” and “English-speaking business lawyer Spain” lifted qualified leads across all four languages. We review metrics quarterly and adjust the strategy to keep momentum.
 
-## Trends and pitfalls in legal SEO
+## Trends and good practice in legal SEO
 
-AI search is changing how people ask legal questions. Google’s AI Overviews and chat assistants answer conversational queries directly, so clear, citable answers and FAQs matter more than ever. Short explainer videos with transcripts help too, and guidance must be updated promptly when legislation or case law changes, because outdated advice damages both trust and visibility.
+AI search is changing how people ask legal questions. Google’s AI Overviews and chat assistants answer conversational queries directly, so clear, citable answers and FAQs matter more than ever. Short explainer videos with transcripts help too, and guidance must be updated promptly when legislation or case law changes, because current advice protects both trust and visibility.
 
-The common failures are familiar. Keyword stuffing still happens and still fails, chasing ultra-broad terms while ignoring local intent wastes budget, and stale sites lose ground after major updates. Success comes from sustainable, evidence-led work that balances local and international demand.
+What works is familiar too: natural language over keyword stuffing, local intent alongside broad terms, and a site kept fresh through major updates. Success comes from sustainable, evidence-led work that balances local and international demand.
 
 ## Choosing a law firm SEO agency
 
 A reputable agency blends proven marketing methods with sector experience. You should receive clear reports, realistic timelines and a roadmap grounded in metrics. When you compare providers:
 
 -   ask for similar law-firm case studies (we can share multilingual work where enquiries rose significantly)
--   clarify how success is measured: qualified leads and conversions, not just rankings
+-   clarify how success is measured: qualified leads and conversions as well as rankings
 -   ask how they handle solicitor, attorney and lawyer terminology across markets
 -   ask about keyword research, language coverage and checks for accuracy by jurisdiction
 -   review their link-building methods across press, directories and partnerships
@@ -225,4 +225,4 @@ Yes. Reviews on Google Business Profile and reputable legal sites are strong loc
 
 ### Should we produce content on every legal topic?
 
-No. Focus on the core practice areas with the best visibility and return; quality and relevance outweigh volume.
+Focus on the core practice areas with the best visibility and return; quality and relevance outweigh volume.
