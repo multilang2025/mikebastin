@@ -10,7 +10,7 @@ wpId: 24848710
 date: "2024-10-29T13:35:16"
 modified: "2026-05-29T07:40:11"
 sourceUrl: "https://mikebastin.com/fr/services/traduction-financiere/"
-excerpt: "Des services de traduction de documents juridiques pour assurer leur conformité à l'international : maîtrisez les complexités du droit international grâce à nos traductions juridiques précises et culturellement nuancées."
+excerpt: "Des services de traduction de documents juridiques pour assurer leur conformité à l'international : maîtrisez les complexités du droit international grâce à nos traductions juridiques précises et culturellement nuancées."
 ---
 
 # Services de traduction financière
@@ -25,7 +25,7 @@ Nous veillons à ce que vos documents financiers soient traduits correctement, c
 
 Notre équipe de linguistes expérimentés et d’experts en finance s’associent pour fournir une [traduction qui répond aux normes](https://mikebastin.com/fr/services/traduction-academique/) les plus strictes en matière d’exactitude financière et de confidentialité.
 
-## Pourquoi choisir nos services de traduction financière ?
+## Pourquoi choisir nos services de traduction financière ?
 
 Nos [services de traduction financière combinent l’expertise linguistique](https://mikebastin.com/fr/services/traduction-commerciale/) avec de grandes connaissances pour garantir l’exactitude, la confidentialité et la livraison en temps voulu de vos précieux documents.
 
@@ -51,7 +51,7 @@ Traduction précise des déclarations fiscales, des formulaires et de la corresp
 
 ## Notre méthode de traduction financière
 
-La transparence et les stratégies orientées résultats sont au cœur de notre approche. Voici notre mode de fonctionnement :
+La transparence et les stratégies orientées résultats sont au cœur de notre approche. Voici notre mode de fonctionnement :
 
 Nous commençons par évaluer vos besoins en traduction financière, comme un analyste financier qui prévoit les tendances du marché.
 

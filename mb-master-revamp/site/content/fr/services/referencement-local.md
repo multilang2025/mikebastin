@@ -12,7 +12,7 @@ sourceUrl: "https://mikebastin.com/fr/services/referencement-local/"
 excerpt: "Donnez un nouvel élan à votre activité en exploitant la puissance du SEO local. Faites rayonner votre entreprise près de chez vous et attirez des clients prêts à commander près de chez vous."
 ---
 
-# Local SEO: ranking in the map pack and converting nearby customers
+# Local SEO : ranking in the map pack and converting nearby customers
 
 Google Business Profile, local citations, NAP consistency, LocalBusiness schema, neighbourhood-level landing pages. Multilingual cities (Valencia, Brussels, Geneva, Houston) treated language by language.
 
@@ -106,7 +106,7 @@ Local SEO audit (map pack, GBP, NAP, schema, reviews)
 
 ✓
 
-Google Business Profile full optimization
+Google Business Profile full optimisation
 
 ✓
 
@@ -148,15 +148,15 @@ Cross-country expansion strategy
 
 ## Why this team for local SEO
 
-**Mike Bastin:** Over two decades in SEO. Live experience of local visibility across multilingual cities: Valencia (Spanish-French-English expat market), the Bollenstreek (Dutch-only paint shop), Houston (English-Spanish freight forwarder), Santo Domingo (Spanish-English real estate).
+**Mike Bastin:** Over two decades in SEO. Live experience of local visibility across multilingual cities : Valencia (Spanish-French-English expat market), the Bollenstreek (Dutch-only paint shop), Houston (English-Spanish freight forwarder), Santo Domingo (Spanish-English real estate).
 
-Multilingual local SEO is a distinct discipline: a city like Valencia or Brussels needs the GBP to surface in the right language depending on the searcher, the schema to declare multiple languages served, and the citations to span both Spanish and international directories.
+Multilingual local SEO is a distinct discipline : a city like Valencia or Brussels needs the GBP to surface in the right language depending on the searcher, the schema to declare multiple languages served, and the citations to span both Spanish and international directories.
 
-End-to-end execution: GBP, schema, content, citations, review management, ongoing maintenance. One interlocutor, one accountable consultant.
+End-to-end execution : GBP, schema, content, citations, review management, ongoing maintenance. One interlocutor, one accountable consultant.
 
 [More about the team →](https://mikebastin.com/about-us/)
 
-### Single location, multi-location, or service area?
+### Single location, multi-location, or service area ?
 
 Local SEO strategy depends on physical footprint.
 
@@ -170,36 +170,36 @@ Reasoned recommendation given at scoping.
 
 ## Frequently asked questions on local SEO
 
-How long before I see map pack improvement?
+How long before I see map pack improvement ?
 
-First movement: 4 to 8 weeks once GBP is fully optimized and NAP is consistent. Significant ranking improvement: 3 to 6 months as citations propagate and reviews accumulate. Highly competitive markets (restaurants in major cities, lawyers in capitals) can take 9-12 months to reach top 3.
+First movement : 4 to 8 weeks once GBP is fully optimized and NAP is consistent. Significant ranking improvement : 3 to 6 months as citations propagate and reviews accumulate. Highly competitive markets (restaurants in major cities, lawyers in capitals) can take 9-12 months to reach top 3.
 
-How important are Google reviews vs other review sites?
+How important are Google reviews vs other review sites ?
 
 Google reviews matter most for map pack ranking. Yelp matters more in the US than in Europe. Trustpilot is strong for ecommerce. Sector-specific sites (TripAdvisor for hospitality, Avvo for legal, Healthgrades for medical) carry weight in their vertical. Strategy is to prioritise Google then add the relevant sector sites.
 
-Should I have a separate GBP per language for a multilingual market?
+Should I have a separate GBP per language for a multilingual market ?
 
 No. One GBP profile per physical location. The GBP can list multiple languages served and the descriptions can be translated through the GBP interface where supported. Multiple GBP profiles for the same location create duplicate listing issues that hurt ranking. The multilingual aspect is handled on the website side, not by duplicating GBPs.
 
-What is NAP and why does consistency matter?
+What is NAP and why does consistency matter ?
 
 NAP stands for Name, Address, Phone, the three core data points Google cross-references across the web to validate a business is real and located where it claims. Inconsistencies (one citation says « Avenida del Puerto 14 », another says « Av Puerto 14 ») erode Google’s confidence and depress local ranking. Consolidating NAP is unglamorous work but it directly affects map pack position.
 
-Do paid Local Service Ads matter for local SEO?
+Do paid Local Service Ads matter for local SEO ?
 
-LSAs (Local Service Ads) are a paid product, not organic SEO, but they appear above the map pack on relevant queries. For service-area businesses (plumbers, electricians, locksmiths) and certain legal and healthcare verticals, LSAs are increasingly the dominant click path. Strategy can include both: LSAs for immediate visibility plus organic local SEO for compounding long-term presence.
+LSAs (Local Service Ads) are a paid product, not organic SEO, but they appear above the map pack on relevant queries. For service-area businesses (plumbers, electricians, locksmiths) and certain legal and healthcare verticals, LSAs are increasingly the dominant click path. Strategy can include both : LSAs for immediate visibility plus organic local SEO for compounding long-term presence.
 
-How do you handle negative reviews?
+How do you handle negative reviews ?
 
-Three-step playbook: (1) respond promptly and professionally, never argue, never reveal client information; (2) try to take the conversation offline with a phone number or email; (3) once resolved, ask the reviewer if they would update the review. Never request review removal through Google unless it violates policy (fake reviewer, profanity, off-topic). Public response shows future customers how the business handles complaints.
+Three-step playbook : (1) respond promptly and professionally, never argue, never reveal client information ; (2) try to take the conversation offline with a phone number or email ; (3) once resolved, ask the reviewer if they would update the review. Never request review removal through Google unless it violates policy (fake reviewer, profanity, off-topic). Public response shows future customers how the business handles complaints.
 
-How much does a local SEO engagement cost?
+How much does a local SEO engagement cost ?
 
-Quoted. Depends on scope (single location vs multi-location), number of languages, level of content production for neighbourhood pages, and ongoing maintenance frequency. Free first call: 30 minutes to understand your context and give an honest range. No generic proposal sent without a conversation.
+Quoted. Depends on scope (single location vs multi-location), number of languages, level of content production for neighbourhood pages, and ongoing maintenance frequency. Free first call : 30 minutes to understand your context and give an honest range. No generic proposal sent without a conversation.
 
-## Ready to own your local map pack?
+## Ready to own your local map pack ?
 
 I start by auditing your current local presence, ranking, NAP and GBP. Quantified diagnosis, actionable recommendations. Free first call, no commitment.
 
-Related services: [multilingual SEO](https://mikebastin.com/services/multilingual-seo/) · [international SEO](https://mikebastin.com/services/global-seo-solutions/) · [multilingual SEM](https://mikebastin.com/services/multilingual-sem/) · [web design](https://mikebastin.com/services/web-design/)
+Related services : [multilingual SEO](https://mikebastin.com/services/multilingual-seo/) · [international SEO](https://mikebastin.com/services/global-seo-solutions/) · [multilingual SEM](https://mikebastin.com/services/multilingual-sem/) · [web design](https://mikebastin.com/services/web-design/)

@@ -615,6 +615,11 @@ French homepage, services index, blog index and contact pages are built,
 with French copy drafted for the owner's review. `lib/fr-pages-data.ts`
 is the one list of French pages; add a page there and it reaches the
 menu, sitemap and hreflang at once.
+`npm run lint:fr` (`scripts/fr-copy-lint.mjs`, in `verify`) checks every
+built French page for "nous" voice, vouvoiement, non-breaking spaces
+before `: ; ? !`, French spellings, "plus de deux décennies", sentence
+case, the French forbidden words and untranslated English; `npm run
+fix:fr` applies the mechanical half to `content/fr/`.
 The lead generation hub has FR and ES siblings (29 Sep 2026, owner
 request), paired by `lib/lead-gen-hubs.ts` rather than content-map; the
 ES one is the first rebuilt Spanish page. **Spanish addresses the reader as "tú"**

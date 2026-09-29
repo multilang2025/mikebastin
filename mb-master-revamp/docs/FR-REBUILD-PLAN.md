@@ -208,7 +208,26 @@ hubs in fr and es"):
   filled in in Spanish. It uses "tú", as all Spanish copy now does (owner,
   29 Sep 2026).
 
-Next slice: the French copy lint. Legacy French copy to fix in phase 4, noted while
+French copy lint (30 Sep 2026, owner: "continue building the fr site"):
+
+- `scripts/fr-copy-lint.mjs` (`npm run lint:fr`, in `verify`) reads the
+  built `out/fr/` and fails on: first-person voice (je, mon, mes), "tu",
+  a plain or missing space before `: ; ? !`, straight double quotes,
+  US spellings (optimiz-, localiz-), "25 ans", Title Case headings, the
+  French forbidden words, and untranslated English runs. Blockquotes and
+  a query quoted in « » are exempt.
+- `scripts/fr-copy-fix.mjs` (`npm run fix:fr`) applies the mechanical half
+  to `content/fr/`: non-breaking spaces and French spellings, skipping
+  code, links and HTML. First run: 68 files, 391 spacing and 73 spelling
+  findings cleared.
+- First measurement after the fixer: 179 findings left, 116 of them
+  untranslated English. `/fr/services/seo/`, the main French page, carried
+  40 English runs; `seo-allemand`, `seo-portugais` and
+  `referencement-local` were mostly English.
+
+Phase 4 started the same day on those findings (below).
+
+Legacy French copy to fix in phase 4, noted while
 building: several service excerpts say "25 années d'expérience" (the
 owner's rule is "over two decades"), and two post titles use
 "optimizer" for "optimiser".
@@ -225,7 +244,19 @@ The original phase 3 list:
   French quotation marks, sentence-case headings, and the French forbidden
   words, alongside the existing EN lints.
 
-**4. Copy.** Written for the French reader, not translated from EN. Order:
+**4. Copy. Started 30 Sep 2026.** Twelve service pages rewritten from
+their English entries and the legacy facts, for the French exporter, with
+h1s from Ahrefs FR (29 Sep): `seo` ("seo international" 1,100,
+"référencement naturel" 1,900; the homepage keeps "agence SEO
+internationale"), `referencement-multilingue` ("seo multilingue" 200),
+`seo-espagnol` ("seo espagne" 70), `seo-neerlandais`, `seo-allemand`
+("seo allemagne" 40), `seo-portugais` ("seo portugal" 90), `seo-italien`,
+`seo-anglais` (60), `referencement-local` ("seo local" 2,000,
+"référencement local" 1,200), `sem-multilingue`, `localisation-de-site-web`
+("traduction site web" 450) and `localisation-juridique-reglementaire`.
+The eight live French posts got a voice and cleanup pass ("nous").
+
+Written for the French reader, not translated from EN. Order:
 homepage, `seo`, the three key-market language pages (espagnol,
 néerlandais, allemand), `referencement-multilingue`,
 `localisation-de-site-web`, then the rest. The 21 FR/ES service headings

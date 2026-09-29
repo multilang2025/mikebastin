@@ -19,7 +19,7 @@ Build authority with backlinks that hold up through algorithm updates.
 
 ## Build Authority. Earn Rankings. Get Quality Backlinks.
 
-A backlink from the right website does more than most on-page optimizations ever will. It signals to Google that another domain vouches for your content. Done well, [link building](https://mikebastin.com/services/link-building/) raises your Domain Rating, grows your pool of referring domains, and puts you in front of search queries you were not ranking for before.
+A backlink from the right website does more than most on-page optimisations ever will. It signals to Google that another domain vouches for your content. Done well, [link building](https://mikebastin.com/services/link-building/) raises your Domain Rating, grows your pool of referring domains, and puts you in front of search queries you were not ranking for before.
 
 We build editorial links, resource page placements, and guest posts on sites that matter in your industry. No private blog networks. No link farms. No shortcuts that create a liability six months down the line.
 
@@ -89,15 +89,15 @@ Nos clients
 
 Over Two Decades of SEO and Link Building Experience
 
-I have been building links professionally since before Domain Authority was a metric people tracked. Over two decades, I have seen every tactic come and go: directories, article spinning, PBNs, reciprocal exchanges. Most of them stopped working or created penalties.
+I have been building links professionally since before Domain Authority was a metric people tracked. Over two decades, I have seen every tactic come and go : directories, article spinning, PBNs, reciprocal exchanges. Most of them stopped working or created penalties.
 
-What holds up is simple: earn links from real sites that have real audiences and real editorial standards. We use broken link building, resource page outreach, digital PR, and strategic guest posts on sites with genuine Trust Flow and organic traffic.
+What holds up is simple : earn links from real sites that have real audiences and real editorial standards. We use broken link building, resource page outreach, digital PR, and strategic guest posts on sites with genuine Trust Flow and organic traffic.
 
 We have helped clients in Spain, Belgium, the UK, and the US grow their referring domain count and improve their position in competitive SERPs. [Get in touch](https://mikebastin.com/contact-us/) to talk through what link building would look like for your site.
 
 CMS Integration
 
-Localization de contenu
+Localisation de contenu
 
 UX Multilingue/UI Design
 

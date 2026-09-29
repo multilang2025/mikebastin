@@ -30,7 +30,7 @@ Nous aborderons les compétences indispensables, les fondations techniques à ma
 
 Un consultant en référencement local optimise votre site pour un seul marché, une seule langue, un seul moteur de recherche.
 
-Un expert SEO international jongle avec des réalités bien différentes : des comportements de recherche qui varient d’un pays à l’autre, des [mots-clés](https://mikebastin.com/fr/services/recherche-mots-cles/) à rechercher dans chaque langue et des algorithmes locaux qui ont leurs propres subtilités.
+Un expert SEO international jongle avec des réalités bien différentes : des comportements de recherche qui varient d’un pays à l’autre, des [mots-clés](https://mikebastin.com/fr/services/recherche-mots-cles/) à rechercher dans chaque langue et des algorithmes locaux qui ont leurs propres subtilités.
 
 Au fil de mes missions en Europe francophone, en Allemagne, en Espagne, aux Pays-Bas et en Amérique du Nord, j’ai constaté que les compétences requises dépassent largement le cadre du SEO technique.
 
@@ -58,7 +58,7 @@ L’expert SEO international sait combiner ces leviers pour maximiser le retour 
 
 ### Structure d’URL : un choix stratégique
 
-Je me souviens d’un client actif dans l’immobilier aux Caraïbes, dont le site existait en quatre langues : anglais, français, espagnol et allemand.
+Je me souviens d’un client actif dans l’immobilier aux Caraïbes, dont le site existait en quatre langues : anglais, français, espagnol et allemand.
 
 Lors d’une refonte, le webmaster a reconstruit le site de zéro, en repartant d’une page blanche pour le contenu existant, les URL historiques et le travail de référencement accumulé pendant des dizaines d’années.
 
@@ -68,17 +68,17 @@ Il m’a fallu recréer toute la stratégie, refaire le maillage interne et rest
 
 Six mois plus tard, le site est remonté en troisième position, avec une trajectoire claire vers la première place.
 
-Trois options existent pour structurer vos URL à l’international :
+Trois options existent pour structurer vos URL à l’international :
 
--   **ccTLD** (exemple.fr, exemple.de) : forte association géographique, mais coûteux et complexe à administrer
--   **Sous-domaine** (fr.exemple.com) : facile à configurer, mais dilue l’autorité de domaine
--   **Sous-répertoire** (exemple.com/fr/) : consolide l’autorité, moins onéreux, souvent le meilleur compromis
+-   **ccTLD** (exemple.fr, exemple.de) : forte association géographique, mais coûteux et complexe à administrer
+-   **Sous-domaine** (fr.exemple.com) : facile à configurer, mais dilue l’autorité de domaine
+-   **Sous-répertoire** (exemple.com/fr/) : consolide l’autorité, moins onéreux, souvent le meilleur compromis
 
 Le choix dépend de votre budget, de vos marchés cibles et de votre infrastructure technique existante.
 
 Un [consultant en référencement international](https://mikebastin.com/fr/consultant-referencement-international/) vous guidera vers la solution la plus adaptée.
 
-### Balises hreflang : le détail qui change tout
+### Balises hreflang : le détail qui change tout
 
 Les balises hreflang indiquent à Google quelle version linguistique afficher selon la localisation de l’internaute.
 
@@ -86,13 +86,13 @@ Avec elles, vos pages en français s’affichent pour les internautes francophon
 
 Elles permettent aussi à Google de reconnaître vos versions linguistiques comme les équivalents d’une même page, ce qui protège l’ensemble du site d’un traitement en contenu dupliqué.
 
-Une implémentation correcte améliore trois aspects en même temps :
+Une implémentation correcte améliore trois aspects en même temps :
 
 -   La pertinence des résultats pour chaque marché
 -   L’[expérience utilisateur](https://mikebastin.com/fr/services/conception-ux-ui-multilingue/) grâce à un contenu dans la bonne langue
 -   Le positionnement dans les recherches locales et internationales
 
-## Backlinks internationaux : la crédibilité se construit localement
+## Backlinks internationaux : la crédibilité se construit localement
 
 ### Pourquoi les liens locaux comptent autant
 
@@ -100,7 +100,7 @@ Pour vous positionner sur Google.de ou Google.es, les backlinks allemands et esp
 
 Les moteurs de recherche valorisent les liens provenant de sites dans la langue et la région que vous ciblez.
 
-Une [stratégie de netlinking](https://mikebastin.com/fr/services/netlinking/) internationale repose sur trois piliers :
+Une [stratégie de netlinking](https://mikebastin.com/fr/services/netlinking/) internationale repose sur trois piliers :
 
 -   Identifier des sites autoritaires dans chaque marché cible
 -   Produire du contenu suffisamment pertinent pour attirer des liens naturels
@@ -118,19 +118,19 @@ Les titres affichaient des majuscules à chaque mot, calquées sur l’anglais. 
 
 Pour un francophone, une langue cohérente inspire confiance, et cette confiance se joue en quelques secondes.
 
-La [localisation de site web](https://mikebastin.com/fr/services/localisation-de-site-web/) va bien au-delà de la traduction : elle adapte le ton, les références culturelles, les formats de date, les devises et même la longueur des textes selon les habitudes de lecture locales.
+La [localisation de site web](https://mikebastin.com/fr/services/localisation-de-site-web/) va bien au-delà de la traduction : elle adapte le ton, les références culturelles, les formats de date, les devises et même la longueur des textes selon les habitudes de lecture locales.
 
 ## Stratégies et investissements pour un SEO international performant
 
-### Combien coûte un accompagnement SEO international ?
+### Combien coûte un accompagnement SEO international ?
 
-Soyons directs : les budgets varient considérablement.
+Soyons directs : les budgets varient considérablement.
 
 Pour un projet ciblant deux ou trois marchés, comptez entre 500 et 2 500 € par mois.
 
 Les projets complexes impliquant cinq langues ou plus, avec une refonte technique et une stratégie de contenu complète, peuvent atteindre 10 000 € mensuels.
 
-L’investissement se mesure toutefois par les résultats : un positionnement en première page sur un marché international génère un flux durable de prospects qualifiés, qui s’ajoute à ce que la publicité apporte.
+L’investissement se mesure toutefois par les résultats : un positionnement en première page sur un marché international génère un flux durable de prospects qualifiés, qui s’ajoute à ce que la publicité apporte.
 
 ### Comprendre vos marchés cibles avant d’agir
 
@@ -138,7 +138,7 @@ Chaque marché a ses particularités.
 
 En Allemagne, les internautes privilégient des contenus très détaillés et factuels. En Espagne, le ton peut être plus direct et émotionnel. En Amérique du Nord, l’approche [marketing digital](https://mikebastin.com/fr/services/marketing-digital/) repose davantage sur la preuve sociale et les témoignages.
 
-Avant de lancer une campagne, il est indispensable de :
+Avant de lancer une campagne, il est indispensable de :
 
 -   Analyser les tendances de recherche locales avec des outils spécialisés
 -   Comprendre les différences culturelles et réglementaires propres à chaque région

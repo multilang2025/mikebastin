@@ -10,7 +10,7 @@ wpId: 24848697
 date: "2024-10-29T10:43:45"
 modified: "2026-05-29T07:40:12"
 sourceUrl: "https://mikebastin.com/fr/services/traduction-juridique/"
-excerpt: "Expertise en traduction juridique internationale : maîtrisez les subtilités légales de chaque marché grâce à nos traductions spécialisées, rigoureuses et culturellement adaptées."
+excerpt: "Expertise en traduction juridique internationale : maîtrisez les subtilités légales de chaque marché grâce à nos traductions spécialisées, rigoureuses et culturellement adaptées."
 ---
 
 # Services de traduction juridique
@@ -21,13 +21,13 @@ Traduisez vos documents juridiques avec rigueur et conformité
 
 Maîtrisez les subtilités légales de chaque marché grâce à nos **traductions juridiques spécialisées**, couvrant contrats internationaux, brevets, accords de confidentialité et conditions générales de vente.
 
-Chaque document est localisé avec précision : terminologie de droit des sociétés, clauses de conformité RGPD / GDPR et exigences de la localization multilingue sont harmonisés afin de préserver l’intégrité juridique et la pertinence culturelle dans chaque juridiction, qu’il s’agisse de l’Union européenne, de la Suisse ou des États-Unis.
+Chaque document est localisé avec précision : terminologie de droit des sociétés, clauses de conformité RGPD / GDPR et exigences de la localisation multilingue sont harmonisés afin de préserver l’intégrité juridique et la pertinence culturelle dans chaque juridiction, qu’il s’agisse de l’Union européenne, de la Suisse ou des États-Unis.
 
 Notre équipe, composée de **linguistes assermentés et de juristes chevronnés**, collabore avec nos [experts en solutions linguistiques](https://mikebastin.com/fr/services/solutions-linguistiques/) pour livrer des traductions certifiées conformes aux standards des tribunaux et organismes de propriété intellectuelle (WIPO, USPTO), facilitant la conformité réglementaire et les transactions transfrontalières.
 
-## Pourquoi choisir nos services de traduction juridique ?
+## Pourquoi choisir nos services de traduction juridique ?
 
-Notre [expertise en traduction juridique](https://mikebastin.com/fr/services/traduction-certifiee-et-assermentee/) conjugue maîtrise linguistique, connaissance du droit comparé et respect strict des clauses de confidentialité ; contrats internationaux, brevets, accords de conformité RGPD et conditions générales de vente sont livrés fidèlement, dans des délais compétitifs, par une équipe de juristes chevronnés et de linguistes assermentés.
+Notre [expertise en traduction juridique](https://mikebastin.com/fr/services/traduction-certifiee-et-assermentee/) conjugue maîtrise linguistique, connaissance du droit comparé et respect strict des clauses de confidentialité ; contrats internationaux, brevets, accords de conformité RGPD et conditions générales de vente sont livrés fidèlement, dans des délais compétitifs, par une équipe de juristes chevronnés et de linguistes assermentés.
 
 Nos traductions sont certifiées, garantissant qu’elles respectent les normes les plus élevées de précision requises dans les contextes juridiques.
 
@@ -51,7 +51,7 @@ Traduction précise des documents réglementaires, en veillant au respect des no
 
 ## Notre procédure de traduction juridique
 
-La transparence et les stratégies orientées résultats sont au cœur de notre approche. Voici notre mode de fonctionnement :
+La transparence et les stratégies orientées résultats sont au cœur de notre approche. Voici notre mode de fonctionnement :
 
 Comprendre vos besoins et exigences spécifiques de traduction juridique.
 

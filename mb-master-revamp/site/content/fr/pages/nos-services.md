@@ -10,19 +10,19 @@ wpId: 24847025
 date: "2020-04-09T19:23:53"
 modified: "2026-05-29T07:42:07"
 sourceUrl: "https://mikebastin.com/fr/nos-services/"
-excerpt: "Transformez vos idées en solutions efficaces grâce à nos services complets : conception de sites web, SEO, marketing digital, support WordPress et conseils professionnels."
+excerpt: "Transformez vos idées en solutions efficaces grâce à nos services complets : conception de sites web, SEO, marketing digital, support WordPress et conseils professionnels."
 ---
 
 # Services de conseil en ligne multilingues
 
-Du diagnostic à l’action : une approche globale du conseil linguistique
+Du diagnostic à l’action : une approche globale du conseil linguistique
 
-## Services de conseil web multilingues :  
+## Services de conseil web multilingues :  
 Passez du rêve à réalité
 
 ### Transformez vos idées en solutions percutantes grâce à nos services complets.
 
-De la création de sites web élégants au [marketing digital stratégique](https://mikebastin.com/fr/), en passant par un support fiable sur WordPress et des conseils d’experts, nous vous aidons à développer votre marque et à assurer votre réussite sur le long terme. Prêt à commencer ?
+De la création de sites web élégants au [marketing digital stratégique](https://mikebastin.com/fr/), en passant par un support fiable sur WordPress et des conseils d’experts, nous vous aidons à développer votre marque et à assurer votre réussite sur le long terme. Prêt à commencer ?
 
 Travaillons ensemble
 

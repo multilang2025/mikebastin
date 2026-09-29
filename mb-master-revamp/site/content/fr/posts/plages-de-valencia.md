@@ -1,6 +1,6 @@
 ---
 words: 930
-title: "Les plages de Valencia : profitez du sable et du soleil"
+title: "Les plages de Valencia : profitez du sable et du soleil"
 slug: "plages-de-valencia"
 locale: "fr"
 type: "posts"
@@ -9,7 +9,7 @@ wpId: 24852012
 date: "2025-06-03T15:46:32"
 modified: "2026-07-02T17:36:31"
 sourceUrl: "https://mikebastin.com/fr/plages-de-valencia/"
-excerpt: "Malvarrosa, Cabanyal, El Saler, La Devesa : les plages de Valencia entre urbain animé et nature de l'Albufera. Le guide pour choisir selon la saison, l'ambiance et l'accès en transport."
+excerpt: "Malvarrosa, Cabanyal, El Saler, La Devesa : les plages de Valencia entre urbain animé et nature de l'Albufera. Le guide pour choisir selon la saison, l'ambiance et l'accès en transport."
 ---
 
 Vous rêvez de longues étendues de sable, de soleil et d’un déjeuner improvisé au bord de la Méditerranée ?
@@ -102,4 +102,4 @@ Profitez d’une pause détente sur la plage, goûtez aux mets régionaux et, po
 
 Valencia ne demande qu’à vous accueillir, alors ne laissez pas passer l’occasion de plonger vos orteils dans le sable.
 
-Bonne baignade !
+Bonne baignade !

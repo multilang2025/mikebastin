@@ -10,7 +10,7 @@ wpId: 24848589
 date: "2024-10-30T10:45:43"
 modified: "2026-05-29T07:40:16"
 sourceUrl: "https://mikebastin.com/fr/services/traduction-academique/"
-excerpt: "Des traductions académiques de qualité pour une réussite à l'international : Explorez l'univers académique à l'échelle mondiale avec des traductions précises et professionnelles de vos documents universitaires."
+excerpt: "Des traductions académiques de qualité pour une réussite à l'international : Explorez l'univers académique à l'échelle mondiale avec des traductions précises et professionnelles de vos documents universitaires."
 ---
 
 # Services de traduction académique
@@ -25,7 +25,7 @@ Nous veillons à ce que vos documents soient traduits avec exactitude, en mainte
 
 Notre équipe de spécialistes de la langue et de l’éducation s’associe pour vous fournir des traductions qui répondent aux hauts standards des institutions académiques mondiaux.
 
-## Pourquoi choisir nos services de traduction académique ?
+## Pourquoi choisir nos services de traduction académique ?
 
 Nos services de traduction académique allient une expertise linguistique avec des connaissances approfondies des systèmes éducatifs. Cette approche permet de garantir l’exactitude, l’authenticité et la livraison dans les délais de vos documents importants.
 
@@ -51,7 +51,7 @@ Traduction fidèle des programmes de cours, des notes de conférences et des res
 
 ## La méthode utilisée pour la traduction académique
 
-La transparence et les stratégies orientées résultats sont au cœur de notre approche. Voici notre mode de fonctionnement :
+La transparence et les stratégies orientées résultats sont au cœur de notre approche. Voici notre mode de fonctionnement :
 
 Compréhension de vos besoins et exigences en matière de traduction académique
 

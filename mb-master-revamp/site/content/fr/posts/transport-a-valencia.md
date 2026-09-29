@@ -10,16 +10,16 @@ wpId: 24851386
 date: "2025-01-19T16:05:57"
 modified: "2026-07-02T17:39:02"
 sourceUrl: "https://mikebastin.com/fr/transport-a-valencia/"
-excerpt: "Métro, EMT, Valenbisi, Cercanías : les transports publics de Valencia couvrent toute la ville et l'aéroport. Tarifs, abonnements, applis utiles et astuces pour se déplacer sans stress."
+excerpt: "Métro, EMT, Valenbisi, Cercanías : les transports publics de Valencia couvrent toute la ville et l'aéroport. Tarifs, abonnements, applis utiles et astuces pour se déplacer sans stress."
 ---
 
 ## Valencia public transportation, the way I actually use it
 
 I have lived in Valencia for over a decade and barely drive inside the city. I have never once regretted that.
 
-Most of the tourist guides describe **Valencia public transportation** as if it were a museum exhibit. Useful information, no flavour. What follows is the honest, lived-in version: what works, what to skip, and how I actually move around as a resident.
+Most of the tourist guides describe **Valencia public transportation** as if it were a museum exhibit. Useful information, no flavour. What follows is the honest, lived-in version : what works, what to skip, and how I actually move around as a resident.
 
-### Metrovalencia: the workhorse
+### Metrovalencia : the workhorse
 
 Six metro lines plus three tram lines run by Metrovalencia. The network covers the city centre, the beaches at Cabanyal and Malvarrosa, the airport, and most of the residential neighbourhoods worth living in.
 
@@ -31,7 +31,7 @@ What I use almost daily:
 
 Frequencies are decent, ten to fifteen minutes off-peak, six to eight at rush hour. Trains are clean and air-conditioned. Current fares and zones are on the [Metrovalencia official site](https://www.metrovalencia.es/en/). For a detailed ticket-by-ticket breakdown in French, see the [Valencia Metro tickets guide 2026](https://valenciamove.com/fr/blog/guide-tickets-metro-valencia-2026/) on my sister site Valenciamove.
 
-### EMT buses: the dense urban grid
+### EMT buses : the dense urban grid
 
 EMT Valencia runs the city bus network. Coverage is denser than the metro for inner-city movement, and faster than walking once you learn the routes that matter for your neighbourhood.
 
@@ -39,15 +39,15 @@ The night buses are surprisingly civilised compared to most Spanish cities. If y
 
 Get the EMT app. The route planning saves time and the live arrival data is accurate.
 
-### Valenbisi: the secret weapon
+### Valenbisi : the secret weapon
 
 The bike-share network is genuinely excellent. Around 280 stations, decent coverage of the residential ring around the centre, and an annual subscription that pays for itself in roughly three weeks of normal use.
 
-What makes it work: the Turia gardens. The dry riverbed running through the city is a nine-kilometre car-free park with a continuous bike path. From the Bioparc in the west to the Ciutat de les Arts in the east, no traffic lights, no cars.
+What makes it work : the Turia gardens. The dry riverbed running through the city is a nine-kilometre car-free park with a continuous bike path. From the Bioparc in the west to the Ciutat de les Arts in the east, no traffic lights, no cars.
 
 Cycling Valencia in March and October is one of the genuine pleasures of the city.
 
-### Cercanías: when you need to leave the city
+### Cercanías : when you need to leave the city
 
 The regional rail network is the part most expats discover late.
 
@@ -72,10 +72,10 @@ Inside the centre I have not parked in months. Cabify covers the late-night retu
 
 If you are [moving to Valencia](https://mikebastin.com/move-to-valencia-spain-from-usa/), the order I would recommend:
 
--   Day one: buy a TuiN card at any metro station. Refillable, works on metro, tram, and bus.
--   Week one: download the EMT and Metrovalencia apps. The English versions work properly.
--   Week two: set up Valenbisi annual. Requires a Spanish bank card, which is part of the broader [setup process](https://mikebastin.com/business-registration-in-valencia/).
--   Month one: try Cercanías for a beach day. Once you do, the car-rental habit usually fades.
+-   Day one : buy a TuiN card at any metro station. Refillable, works on metro, tram, and bus.
+-   Week one : download the EMT and Metrovalencia apps. The English versions work properly.
+-   Week two : set up Valenbisi annual. Requires a Spanish bank card, which is part of the broader [setup process](https://mikebastin.com/business-registration-in-valencia/).
+-   Month one : try Cercanías for a beach day. Once you do, the car-rental habit usually fades.
 
 ### If you want a relocation hand from someone who lives here
 

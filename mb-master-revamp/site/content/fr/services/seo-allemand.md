@@ -12,7 +12,7 @@ sourceUrl: "https://mikebastin.com/fr/services/seo-allemand/"
 excerpt: "Boostez votre présence sur le marché germanophone grâce à nos services de référencement professionnels. Nos 25 années d'expériences vous garantissent un meilleur classement et une visibilité améliorée."
 ---
 
-# German SEO: ranking in the DACH region with native execution
+# German SEO : ranking in the DACH region with native execution
 
 Strategy piloted in English or French, editorial execution by native German copywriters from the BeTranslated network. Transparent model, no language pretence.
 
@@ -38,17 +38,17 @@ Recurring errors on the German sites I audit:
 
 Germany, Austria and Switzerland share a language with significant variations (vocabulary, pricing expectations, regulatory frameworks). « Steuerberater » works across all three but tax law differs. « Kassa » in Austria vs « Kasse » in Germany. Prices in CHF for Switzerland, EUR for the other two. Hreflang de-DE, de-AT and de-CH should be distinct for serious DACH targeting.
 
-German has compound words (« Maschinenbauingenieur »), formal register expectations (Sie vs du) and very specific industry jargon. A site translated from English by an external service that does not master the sector ends up with copy that natives find awkward. The trust erodes immediately. Search keywords are also fundamentally different: Germans search in compound nouns Google now decomposes contextually but where exact match still helps.
+German has compound words (« Maschinenbauingenieur »), formal register expectations (Sie vs du) and very specific industry jargon. A site translated from English by an external service that does not master the sector ends up with copy that natives find awkward. The trust erodes immediately. Search keywords are also fundamentally different : Germans search in compound nouns Google now decomposes contextually but where exact match still helps.
 
 Full Impressum required by law in Germany (with USt-IdNr, register entry, managing director). GDPR-strict cookie consent (no soft opt-in like in some EU countries). Trusted Shops badge for ecommerce. Telephone with German country code prominently displayed. Absence of any of these immediately signals « foreign site » and erodes the trust that drives conversion.
 
-German SEO requires two distinct skills: strategic piloting (architecture, keywords, technical, calendar) and native execution (writing, tone, regulatory). My model: I pilot the first, native German copywriters from the [BeTranslated network](https://mikebastin.com/services/multilingual-seo/) handle the second. No pretence.
+German SEO requires two distinct skills : strategic piloting (architecture, keywords, technical, calendar) and native execution (writing, tone, regulatory). My model : I pilot the first, native German copywriters from the [BeTranslated network](https://mikebastin.com/services/multilingual-seo/) handle the second. No pretence.
 
 ## What I include in a German SEO engagement
 
 Real research in German by the native team (commercial intent, long tail, sector terminology). Not a translated keyword set. Per-market variant where DACH targeting is required.
 
-Distinct strategy per country if your offer requires it: Germany, Austria, Switzerland. Hreflang de-DE, de-AT, de-CH. Pricing and regulatory adaptation per market.
+Distinct strategy per country if your offer requires it : Germany, Austria, Switzerland. Hreflang de-DE, de-AT, de-CH. Pricing and regulatory adaptation per market.
 
 Impressum compliant with German Telemediengesetz, Datenschutzerklärung strict GDPR, opt-in cookie banner aligned with Bundesdatenschutzgesetz. Trusted Shops integration available for ecommerce.
 
@@ -56,7 +56,7 @@ Subdirectory or ccTLD architecture depending on your case, hreflang de-DE / de-A
 
 German regional press (FAZ, Handelsblatt, Süddeutsche), sector directories (Branchenbuch, Gelbe Seiten), professional associations (IHK, BVMW). No PBN, no guest post from another market to rank in Germany.
 
-Optimization for ChatGPT, Claude, Perplexity and Google AI Overviews in German. LLMs respond in German on local commercial queries with a distinct knowledge graph per language.
+Optimisation for ChatGPT, Claude, Perplexity and Google AI Overviews in German. LLMs respond in German on local commercial queries with a distinct knowledge graph per language.
 
 ## My process in 5 steps, named deliverables
 
@@ -68,13 +68,13 @@ Strategic piloting in English or French with you. Editorial execution in German 
 
 **Deliverable:** 6-12 month strategy document with editorial calendar, architecture choice, DACH prioritisation, technical plan, German legal compliance roadmap.
 
-**Deliverable:** native writing by German copywriters from the network, briefs and QA piloted by me in EN/FR. Technical optimization. German backlinks. Search Console and Bing Webmaster submission.
+**Deliverable:** native writing by German copywriters from the network, briefs and QA piloted by me in EN/FR. Technical optimisation. German backlinks. Search Console and Bing Webmaster submission.
 
 **Deliverable:** monthly report with Google.de positions, AI citations in German, performance by DACH market if relevant, actionable recommendations. Report in English or French.
 
 ## Engagement model and case
 
-Transparency on the German topic: editorial production by natives, strategic piloting on my side.
+Transparency on the German topic : editorial production by natives, strategic piloting on my side.
 
 **Context:** multilingual translation agency with a native German team of translators and copywriters. Editorial production in German for network clients has been handled by this team for years across DACH markets.
 
@@ -142,15 +142,15 @@ Local presence per German city (GBP, citations)
 
 ## Why this model is more honest (and more effective)
 
-**Mike Bastin:** Over two decades in SEO. German: enough to manage SEO projects in it, from reading German search results to working through briefs and meetings. I do not write your German commercial content.
+**Mike Bastin:** Over two decades in SEO. German : enough to manage SEO projects in it, from reading German search results to working through briefs and meetings. I do not write your German commercial content.
 
-This boundary is explicit, not hidden. Most European SEO agencies « cover » German by subcontracting to native copywriters. The difference with me: it is stated clearly on this page, not discovered in the invoice.
+This boundary is explicit, not hidden. Most European SEO agencies « cover » German by subcontracting to native copywriters. The difference with me : it is stated clearly on this page, not discovered in the invoice.
 
-The benefit: you pay for strategy where strategy is delivered, and writing where writing is done well, without an intermediary taking a margin to hide the reality.
+The benefit : you pay for strategy where strategy is delivered, and writing where writing is done well, without an intermediary taking a margin to hide the reality.
 
 [More about the team →](https://mikebastin.com/about-us/)
 
-### Germany, Austria, Switzerland, which DACH priority?
+### Germany, Austria, Switzerland, which DACH priority ?
 
 Strategic question at every engagement. Germany alone is usually 80% of the volume and the default priority. Austria and Switzerland are addressed if your offer makes sense there.
 
@@ -164,36 +164,36 @@ Reasoned recommendation given at scoping, not a dogmatic stance.
 
 ## Frequently asked questions on German SEO
 
-Why not hire a German SEO agency directly?
+Why not hire a German SEO agency directly ?
 
 You can, and for engagements above 10,000 € per month that is often justified. German agency rates are typically 1.3 to 1.8x my hybrid model. For SMBs and mid-market companies with tighter budgets, my model (piloted strategy + outsourced native writing) covers 80% of the value at 50-60% of the cost.
 
-How do you guarantee German content quality without writing it yourself?
+How do you guarantee German content quality without writing it yourself ?
 
-Three levels: (1) SEO and strategic brief from me in English or French to the copywriter; (2) writing by the native German copywriter briefed; (3) second pass by another native German before publication. Your client-side feedback constitutes a fourth filter. Strategic QA passes through me systematically.
+Three levels : (1) SEO and strategic brief from me in English or French to the copywriter ; (2) writing by the native German copywriter briefed ; (3) second pass by another native German before publication. Your client-side feedback constitutes a fourth filter. Strategic QA passes through me systematically.
 
-Should I segment Germany, Austria and Switzerland?
+Should I segment Germany, Austria and Switzerland ?
 
-Depends on your sector. Premium B2B industrial: often yes, the DACH region has distinct purchasing patterns and Switzerland has very different price expectations. Generic B2C: rarely useful, a unified DE site with German content works well. I give the reasoned recommendation in scoping based on your offer.
+Depends on your sector. Premium B2B industrial : often yes, the DACH region has distinct purchasing patterns and Switzerland has very different price expectations. Generic B2C : rarely useful, a unified DE site with German content works well. I give the reasoned recommendation in scoping based on your offer.
 
-How do you handle Impressum and GDPR compliance?
+How do you handle Impressum and GDPR compliance ?
 
 I include the technical setup for an Impressum compliant with German Telemediengesetz (with USt-IdNr, register entry, managing director details) and Datenschutzerklärung aligned with strict GDPR and Bundesdatenschutzgesetz. For complex cases (sensitive data, employee tracking, marketing profiling) I recommend a specialised German lawyer on top of my technical implementation.
 
-Is Switzerland a distinct German-speaking market?
+Is Switzerland a distinct German-speaking market ?
 
 Yes, and often underestimated. Swiss German speakers (~5 million) have high purchasing power and very different price expectations from Germany. The written language is standard German but with Swiss spelling quirks (Strasse without ß, currency in CHF, different phone codes). de-CH hreflang on commercial priority pages is justified when targeting Switzerland.
 
-How long before results in DE SEO?
+How long before results in DE SEO ?
 
-First measurable signals: 8 to 12 weeks. Significant traffic: 6 to 12 months depending on sectoral competition. The German market is competitive on most mainstream verticals. On B2B niches or specialised services, it can be more accessible than equivalent France or UK markets.
+First measurable signals : 8 to 12 weeks. Significant traffic : 6 to 12 months depending on sectoral competition. The German market is competitive on most mainstream verticals. On B2B niches or specialised services, it can be more accessible than equivalent France or UK markets.
 
-How much does a German SEO engagement cost?
+How much does a German SEO engagement cost ?
 
-Quoted. The price depends on scope (Germany only, DACH, or scaled), editorial volume, initial site state, and sectoral competition. Free first call: 30 minutes to understand your context and give an honest range. No generic proposal sent without a conversation.
+Quoted. The price depends on scope (Germany only, DACH, or scaled), editorial volume, initial site state, and sectoral competition. Free first call : 30 minutes to understand your context and give an honest range. No generic proposal sent without a conversation.
 
-## Ready to rank in the DACH region?
+## Ready to rank in the DACH region ?
 
 I start by auditing your DACH presence with native review of German SERPs. Quantified diagnosis, actionable recommendations. Free first call, no commitment.
 
-Related services: [multilingual SEO](https://mikebastin.com/services/multilingual-seo/) · [international SEO](https://mikebastin.com/services/global-seo-solutions/) · [multilingual SEM](https://mikebastin.com/services/multilingual-sem/)
+Related services : [multilingual SEO](https://mikebastin.com/services/multilingual-seo/) · [international SEO](https://mikebastin.com/services/global-seo-solutions/) · [multilingual SEM](https://mikebastin.com/services/multilingual-sem/)
