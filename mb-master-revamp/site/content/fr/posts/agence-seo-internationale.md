@@ -25,7 +25,7 @@ Un **consultant SEO international** comprend que les algorithmes, les comporteme
 
 Dans cet article, vous allez comprendre ce que recouvre réellement le **référencement international**, pourquoi il exige une approche distincte du SEO local, et comment nous travaillons avec des entreprises francophones qui veulent exister sur plusieurs marchés simultanément.
 
-## Ce que signifie vraiment le référencement international
+## Ce que signifie réellement le référencement international
 
 Le référencement international, c’est l’ensemble des stratégies qui permettent à un site de se positionner dans les résultats de recherche de plusieurs pays ou plusieurs langues.
 

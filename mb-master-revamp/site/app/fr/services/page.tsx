@@ -86,7 +86,7 @@ export default function FrenchServicesIndex() {
           </Reveal>
           <Reveal i={3}>
             <p className="max-w-[58ch] text-[clamp(1.05rem,1.5vw,1.2rem)] leading-[1.58]" style={{ color: "var(--dim)" }}>
-              Vous vendez en Espagne, en Allemagne, au Benelux ou au Royaume-Uni, et vous voulez que chacun de ces marchés rapporte des demandes. Partez du marché qui compte le plus pour vous{" "}: nous vous dirons ce qu&apos;il demande vraiment.
+              Vous vendez en Espagne, en Allemagne, au Benelux ou au Royaume-Uni, et vous voulez que chacun de ces marchés rapporte des demandes. Partez du marché qui compte le plus pour vous{" "}: nous vous dirons ce qu&apos;il demande réellement.
             </p>
           </Reveal>
         </div>

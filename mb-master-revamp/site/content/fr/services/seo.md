@@ -18,7 +18,7 @@ excerpt: "Vos pages en langues étrangères attirent déjà des visiteurs. Nous 
 
 Vous vendez déjà en Espagne, au Benelux, en Allemagne ou au Royaume-Uni. Votre site existe dans ces langues, les visiteurs arrivent, et les demandes de devis viennent surtout de vos pages en français. L’étape suivante est de faire travailler vos autres langues au même niveau : chaque marché où vous vendez déjà peut vous envoyer ses propres prospects.
 
-Le potentiel est déjà là. Votre produit a fait ses preuves à l’étranger, vos pages sont en ligne et Google les connaît. Ce qui reste à gagner se joue sur deux points : les mots que vos acheteurs tapent vraiment dans leur langue, et des pages qui leur parlent comme un fournisseur de leur pays. Chaque trimestre passé à régler ces deux points est un trimestre où vos marchés étrangers commencent à rapporter.
+Le potentiel est déjà là. Votre produit a fait ses preuves à l’étranger, vos pages sont en ligne et Google les connaît. Ce qui reste à gagner se joue sur deux points : les mots que vos acheteurs tapent réellement dans leur langue, et des pages qui leur parlent comme un fournisseur de leur pays. Chaque trimestre passé à régler ces deux points est un trimestre où vos marchés étrangers commencent à rapporter.
 
 C’est notre métier depuis plus de deux décennies : le SEO international pour les entreprises qui exportent, jugé sur les demandes que chaque marché vous envoie.
 

@@ -490,7 +490,7 @@ Faut-il un avocat pour signer un bail ?
 
 Pour un bail standard de logement, non. Pour un bail commercial, un bail haut de gamme ou un bail pour une SCI étrangère, oui. Voir mes recommandations dans [choisir un avocat à Valencia](https://mikebastin.com/fr/avocats-a-valencia/).
 
-L’absence de chauffage est-elle vraiment un problème ?
+L’absence de chauffage est-elle réellement un problème ?
 
 Oui, en janvier-février. Les températures intérieures descendent souvent à 12-14 °C dans les immeubles anciens sans chauffage. Solutions : climatiseur réversible (consommation électrique élevée), poêle à pellets, radiateurs électriques d’appoint. Avant de signer, vérifiez : type de chauffage, double vitrage, exposition (sud = grand confort hivernal).
 

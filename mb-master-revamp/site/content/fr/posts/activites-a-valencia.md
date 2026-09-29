@@ -39,7 +39,7 @@ Le Parc Naturel de l’Albufera est un site à ne pas manquer pour admirer de sp
 
 Pour une aventure plus insolite, envolez-vous en montgolfière au-dessus du Parc Naturel de la Sierra de Mariola, non loin de la ville. Vous survolerez montagnes, cités et châteaux, avec un petit-déjeuner proposé après l’atterrissage.
 
--   Conseil détente : prévoyez une journée complète pour vraiment déconnecter.
+-   Conseil détente : prévoyez une journée complète pour réellement déconnecter.
 -   Si vous voulez vous déplacer sans souci, renseignez-vous sur les [transports à valencia](https://mikebastin.com/fr/transport-a-valencia/).
 
 ## Tenter les sports nautiques

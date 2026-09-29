@@ -173,3 +173,6 @@ grammatically correct inflected form for that locale.
 - The legacy French and Spanish sites were harvested on 30 Sep 2026
   (`docs/LEGACY-CONTENT-HARVEST.md`): Spanish candidates for the Spanish
   rebuild are listed there.
+- French is formal as well as *vous* (owner, 30 Sep 2026): *cela*, not *ça*;
+  *nous* or a passive, not *on*; no exclamation marks; no slang. Checked
+  by `lint:fr`'s "formal" rule.

@@ -359,6 +359,9 @@ is in the rest, which the Master Content Protocol never covered:
   complexity of the document and the client's situation, and **apostille
   services are provided for US and Canadian citizens** (owner, 27 Sep
   2026). Never quote "2 to 5" or "3 to 7" days.
+- **We still work with Polylang, TranslatePress, Weglot, Shopify and
+  Webflow** (owner, 30 Sep 2026), alongside WPML: a legacy French claim
+  the owner confirmed, usable on any page.
 - **German and Italian level stays vague** (owner, 27 Sep 2026): "enough
   to manage SEO projects" in them, never "B1", "working Italian" or a
   described reading or speaking level. Native writers still do the
@@ -628,7 +631,8 @@ fix:fr` applies the mechanical half to `content/fr/`.
 The lead generation hub has FR and ES siblings (29 Sep 2026, owner
 request), paired by `lib/lead-gen-hubs.ts` rather than content-map; the
 ES one is the first rebuilt Spanish page. **Spanish addresses the reader as "tú"**
-(owner, 29 Sep 2026); French keeps "vous".
+(owner, 29 Sep 2026); French keeps "vous" in a **formal** register (owner,
+30 Sep 2026), enforced by `lint:fr`.
 
 The gaps below are the FR and ES starting position whenever the gate
 opens. Flagged rather than forgotten, so they are known and deliberate:

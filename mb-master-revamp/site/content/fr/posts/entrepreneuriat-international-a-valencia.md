@@ -16,7 +16,7 @@ excerpt: "Lancer une activité internationale depuis Valencia : visa nomade, fi
 
 Quand j’ai posé mes valises à Valencia, entre ambition pro et envie de soleil, je ne savais pas encore que cette ville allait m’apprendre à faire les deux en même temps.
 
-Comme beaucoup d’expatriés, je rêvais d’un cadre plus humain, mais je doutais qu’on puisse vraiment y développer une activité sérieuse sans faire une croix sur sa carrière.
+Comme beaucoup d’expatriés, je rêvais d’un cadre plus humain, mais je doutais qu’on puisse réellement y développer une activité sérieuse sans faire une croix sur sa carrière.
 
 J’ai vite découvert une scène entrepreneuriale vivante, cosmopolite, où les rendez-vous clients se calent entre une session coworking et un déjeuner en terrasse. Ici, les connexions se font autant autour d’une horchata que sur LinkedIn.
 
@@ -38,7 +38,7 @@ Alors que de nombreuses entreprises internationales conservent des horaires clas
 
 À Valencia, la journée démarre souvent tôt, dès 8h, à l’heure où la lumière est douce et les rues encore calmes.
 
-Mais ce qui m’a vraiment surpris, c’est la pause **almuerzo** entre 10h30 et 11h30 : un moment sacré dans de nombreux bureaux.
+Mais ce qui m’a réellement surpris, c’est la pause **almuerzo** entre 10h30 et 11h30 : un moment sacré dans de nombreux bureaux.
 
 On s’arrête pour partager un _bocadillo_, un sandwich généreux, autour d’un café ou d’un jus, souvent dans un bar de quartier.
 

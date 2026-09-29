@@ -45,7 +45,7 @@ Quelques studios de bien-être et marques de services linguistiques en Espagne e
 
 ## Lire plus sur le blog
 
-Des articles qui montrent comment le travail se déroule en pratique : SEO multilingue, vie à Valencia, IA dans la recherche, et les outils que j’utilise vraiment.
+Des articles qui montrent comment le travail se déroule en pratique : SEO multilingue, vie à Valencia, IA dans la recherche, et les outils que j’utilise réellement.
 
 Le visa nomade numérique espagnol pour les francophones : conditions, démarches, avantages fiscaux.
 

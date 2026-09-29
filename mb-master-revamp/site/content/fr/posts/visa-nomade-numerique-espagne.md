@@ -150,4 +150,4 @@ Entre casier judiciaire, assurances et traductions, un dossier de visa peut vite
 
 * * *
 
-**Ce guide est-il clair pour vous ?** Si vous avez des questions spécifiques sur votre situation, écrivez-nous !
+**Ce guide est-il clair pour vous ?** Si vous avez des questions spécifiques sur votre situation, écrivez-nous.

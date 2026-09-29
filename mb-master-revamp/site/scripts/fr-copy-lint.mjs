@@ -18,6 +18,8 @@
  *                (CLAUDE.md, owner 21 Aug 2026)
  *   register     "vous", never "tu": French is vouvoiement (STYLE-GUIDE
  *                section 9, owner 29 Sep 2026)
+ *   formal       no "ça", no "on" for "nous", no exclamation marks (owner,
+ *                30 Sep 2026: "French should be formal")
  *   spacing      a non-breaking space before : ; ? ! (and none missing)
  *   quotes       « » rather than straight double quotes
  *   spelling     localisation, optimiser: the US spellings are an English
@@ -61,6 +63,11 @@ const RULES = [
   { id: "quotes", re: /"[^"]{2,}"/u, fix: "« » with non-breaking spaces inside" },
   { id: "spelling", re: /optimiz|localiz|Localiz|Optimiz/u, fix: "optimiser, localisation" },
   { id: "experience", re: /\b25 (ans|années)\b|vingt-cinq ans|depuis 1999/iu, fix: "plus de deux décennies" },
+  // Formal register (owner, 30 Sep 2026: "French should be formal"): written
+  // French for a buyer, so no "ça", no "on" standing in for "nous", no
+  // exclamation marks in running text.
+  { id: "formal", re: new RegExp(`(?<![${L}’'])(ça|Ça)(?![${L}])|(?<![${L}’'])[Oo]n (?=[a-zéèêàâîôû])|[${L}]\u00a0?!`, "u"),
+    fix: "formal register: cela, nous or a passive, no exclamation mark" },
   // Untranslated English: three or more English function words in one run
   // of text. Product and tool names ("Google Business Profile") carry none.
   { id: "english", test: (t) => (t.match(/(?<![\p{L}])(the|and|with|your|for|is|are|of|to|that|this|you|we|our|will|can|by)(?![\p{L}])/giu) || []).length >= 3,
@@ -138,7 +145,7 @@ for (const file of pages(OUT)) {
     // English proper names of a discipline keep their English spelling.
     const named = t.replace(/(Generative Engine|Search Everywhere|Answer Engine) Optimi[sz]ation/gu, "");
     for (const r of RULES) {
-      const subject = r.id === "voice" || r.id === "register" ? own : r.id === "spelling" ? named : t;
+      const subject = r.id === "voice" || r.id === "register" || r.id === "formal" ? own : r.id === "spelling" ? named : t;
       const m = r.test ? (r.test(subject) ? { index: 0 } : null) : subject.match(r.re);
       if (!m) continue;
       const key = `${r.id}|${t}`;
@@ -175,7 +182,7 @@ if (REPORT) {
 }
 
 if (unique.length === 0) {
-  console.log(`clean: ${pages(OUT).length} French pages pass voice, register, spacing, quotes, spelling, experience, headings and vocabulary`);
+  console.log(`clean: ${pages(OUT).length} French pages pass voice, register, formal register, spacing, quotes, spelling, experience, headings and vocabulary`);
   process.exit(0);
 }
 

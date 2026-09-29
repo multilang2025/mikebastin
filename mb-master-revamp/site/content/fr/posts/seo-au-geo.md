@@ -191,7 +191,7 @@ Central. L’étude Princeton/IIT Delhi a montré que l’ajout de statistiques 
 
 Quelles balises Schema sont les plus utiles pour le GEO ?
 
-Pour la majorité des sites : Article, FAQPage, HowTo, Organization, Person (pour les auteurs), et BreadcrumbList. Les sites à fort enjeu local ou commercial ajoutent LocalBusiness, Product, Review et AggregateRating. Le critère de choix : la balise doit décrire vraiment ce que la page contient. Les IA font preuve de plus en plus de discernement : gardez un Schema fidèle au contenu de la page.
+Pour la majorité des sites : Article, FAQPage, HowTo, Organization, Person (pour les auteurs), et BreadcrumbList. Les sites à fort enjeu local ou commercial ajoutent LocalBusiness, Product, Review et AggregateRating. Le critère de choix : la balise doit décrire réellement ce que la page contient. Les IA font preuve de plus en plus de discernement : gardez un Schema fidèle au contenu de la page.
 
 À quelle fréquence faut-il mettre à jour son contenu ?
 

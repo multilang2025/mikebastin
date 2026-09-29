@@ -512,7 +512,7 @@ Par la loi, c’est interdit de 22h à 8h. Mais bon, l’application ici est sur
 
 Puis le camion arrive.
 
-Et si tu n’as jamais été réveillé par 600 bouteilles vides qui dégringolent en cascade dans une benne métallique, as-tu vraiment vécu en Espagne ?
+Et si tu n’as jamais été réveillé par 600 bouteilles vides qui dégringolent en cascade dans une benne métallique, as-tu réellement vécu en Espagne ?
 
 ## 30\. Le casal fallero, parce que rester dedans c’est trop mainstream
 

@@ -214,7 +214,7 @@ Valencia est une grande ville, donc les vols à la tire existent (centre histori
 
 Le castillan (espagnol) et le valencien (variante du catalan) sont les deux langues co-officielles. Toute l’administration utilise les deux. La signalétique est bilingue. Le valencien est obligatoire dans la plupart des écoles publiques et certaines administrations privilégient les candidats qui le parlent. Pour un expatrié adulte, l’espagnol suffit largement à une intégration sociale et professionnelle.
 
-**Mon constat après dix ans.** J’ai mis trois ans à atteindre un espagnol vraiment fluide, et je n’ai toujours qu’un valencien passif. Vivre à Valencia sans parler espagnol est possible mais coûte cher en autonomie : tout passe par un traducteur, un avocat anglophone, un comptable bilingue, etc. Le seuil minimal réaliste pour vivre confortablement, c’est un B1 espagnol au bout de 18 à 24 mois, pas un mois d’application Duolingo.
+**Mon constat après dix ans.** J’ai mis trois ans à atteindre un espagnol réellement fluide, et je n’ai toujours qu’un valencien passif. Vivre à Valencia sans parler espagnol est possible mais coûte cher en autonomie : tout passe par un traducteur, un avocat anglophone, un comptable bilingue, etc. Le seuil minimal réaliste pour vivre confortablement, c’est un B1 espagnol au bout de 18 à 24 mois, pas un mois d’application Duolingo.
 
 ### Démarches administratives à connaître
 
@@ -268,7 +268,7 @@ Plus de 80 000 Français vivent désormais en Communauté valencienne selon les 
 
 L’erreur typique des nouveaux arrivants : rester entre francophones les six premiers mois. C’est rassurant mais ça retarde l’intégration et l’acquisition de la langue. Une bonne pratique : diviser sa vie sociale en trois : un tiers compatriotes, un tiers Espagnols, un tiers autres expats. C’est exactement ce que recommande la plupart des études d’intégration interculturelle.
 
-## Adaptation culturelle : ce qui change vraiment
+## Adaptation culturelle : ce qui change réellement
 
 Quelques chocs culturels à anticiper, dans l’ordre de l’impact réel sur le quotidien :
 
@@ -280,7 +280,7 @@ Quelques chocs culturels à anticiper, dans l’ordre de l’impact réel sur le
 
 ## FAQ : adopter le mode de vie valencien
 
-Combien de temps faut-il pour se sentir vraiment intégré à Valencia ?
+Combien de temps faut-il pour se sentir réellement intégré à Valencia ?
 
 Selon les retours des expats francophones que je connais, on passe par trois phases : honeymoon (6 premiers mois, tout est merveilleux), choc culturel (6-18 mois, frustrations administratives et culturelles), équilibre (à partir de 18-24 mois). L’intégration vraie passe par la langue. Sans espagnol fonctionnel, on stagne en phase expat-bulle.
 
@@ -292,7 +292,7 @@ Faut-il avoir une voiture à Valencia ?
 
 Pas en ville. Le métro, le réseau EMT (bus) et les Valenbisi (vélos en libre-service) couvrent largement la ville et la première couronne. Pour les sorties en sierra ou pour aller à Madrid, location ponctuelle ou Cabify suffisent. Les expats qui s’installent en pueblos (Bétera, Náquera, Gandía) ont besoin d’une voiture.
 
-Le système de santé espagnol est-il vraiment bon ?
+Le système de santé espagnol est-il réellement bon ?
 
 Oui, en moyenne. Les hôpitaux publics valenciens sont compétents mais les délais d’attente pour spécialistes peuvent être longs (3-6 mois pour certaines disciplines). Le privé (Quirónsalud, Vithas, IMED) est très accessible : une consultation spécialisée coûte 60-100 €, une assurance privée familiale autour de 80-150 €/mois. Beaucoup d’expats combinent SNS pour les urgences et privé pour le suivi.
 

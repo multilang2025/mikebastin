@@ -288,3 +288,6 @@ at a time.
   from `lint:negative` (two verbatim reviews, the 404 title), each with its
   reason. Add to it only for a verbatim quote, a searched query or a legal
   distinction.
+- French is formal as well as *vous* (owner, 30 Sep 2026): *cela*, not *ça*;
+  *nous* or a passive, not *on*; no exclamation marks; no slang. Checked
+  by `lint:fr`'s "formal" rule.

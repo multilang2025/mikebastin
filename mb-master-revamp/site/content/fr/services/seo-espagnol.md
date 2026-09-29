@@ -17,7 +17,7 @@ excerpt: "Des pages écrites dans l’espagnol de vos acheteurs, depuis Valence,
 
 Vous vendez déjà en Espagne, et vos pages espagnoles attirent des visiteurs. L’étape suivante est de transformer ces visites en demandes. Un acheteur de Madrid, de Barcelone ou de Valence fait confiance au fournisseur qui parle comme lui : un espagnol d’Espagne, les coordonnées d’entreprise qu’il a l’habitude de voir, des réponses concrètes à ses questions. Quand vos pages lui donnent tout cela, c’est à vous qu’il envoie sa demande.
 
-L’Espagne est un marché voisin, dans votre fuseau horaire, où vos commerciaux se rendent en quelques heures. Chaque page que vous rendez vraiment espagnole travaille pour vous dès sa mise en ligne, et le même travail ouvre ensuite l’Amérique latine si elle fait partie de vos plans. L’espagnol se lit sur deux continents : un site juste pour chacun de ses marchés touche plus d’acheteurs que presque n’importe quelle autre langue.
+L’Espagne est un marché voisin, dans votre fuseau horaire, où vos commerciaux se rendent en quelques heures. Chaque page que vous rendez réellement espagnole travaille pour vous dès sa mise en ligne, et le même travail ouvre ensuite l’Amérique latine si elle fait partie de vos plans. L’espagnol se lit sur deux continents : un site juste pour chacun de ses marchés touche plus d’acheteurs que presque n’importe quelle autre langue.
 
 <aside class="post-cta">
 <p><strong>Vous voulez que vos pages espagnoles rapportent autant que vos pages françaises ?</strong> Nous les écrivons dans l’espagnol de vos acheteurs, depuis Valence, et nous suivons les demandes qu’elles génèrent. <a href="/fr/nous-contacter/">Réserver un premier échange</a>.</p>
@@ -42,7 +42,7 @@ Nous sommes installés à Valence depuis 2016. Pour l’Espagne, la recherche, l
 
 Le Mexique, la Colombie, l’Argentine et la République dominicaine sont confiés aux rédacteurs natifs de l’équipe BeTranslated à Saint-Domingue. BeTranslated est l’agence de traduction que nous dirigeons depuis vingt ans. Ces rédacteurs sont briefés et relus ici, pour que tous vos marchés suivent un seul plan cohérent. Nous vous disons qui écrit quel espagnol : vous savez exactement ce que vous achetez.
 
-Viennent ensuite les éléments qui font qu’un acheteur local fait confiance à un fournisseur : les mentions légales propres à chaque pays, des prix dans la devise locale, et des citations dans la presse que ce marché lit vraiment.
+Viennent ensuite les éléments qui font qu’un acheteur local fait confiance à un fournisseur : les mentions légales propres à chaque pays, des prix dans la devise locale, et des citations dans la presse que ce marché lit réellement.
 
 ## Des sites espagnols que nous faisons tourner
 

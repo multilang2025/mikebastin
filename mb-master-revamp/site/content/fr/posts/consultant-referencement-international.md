@@ -23,7 +23,7 @@ Un [consultant référencement international](https://mikebastin.com/fr/) peut a
 
 ### Ce spécialiste identifie avec vous les indicateurs clés du SEO international (KPI)
 
-Les KPI sont essentiels pour comprendre l’impact des efforts de référencement. Parmi les plus importants, on trouve :
+Les KPI sont essentiels pour comprendre l’impact des efforts de référencement. Les plus importants sont les suivants :
 
 -   **Trafic organique** : Nombre de visiteurs arrivant via des résultats de recherche non payants.
 -   **Taux de rebond** : Pourcentage de visiteurs quittant le site après avoir consulté une seule page.

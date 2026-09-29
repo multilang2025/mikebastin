@@ -22,7 +22,7 @@ L’enjeu varie d’un texte à l’autre. Sur une fiche produit, une traduction
 Nous faisons reprendre le texte machine par un locuteur natif, avec un effort concentré là où se trouve le risque.
 
 <aside class="post-cta">
-<p><strong>Vos pages traduites automatiquement disent-elles vraiment ce que vous vendez ?</strong> Un locuteur natif reprend le texte pour que ce qui sonne juste le soit aussi. <a href="/fr/nous-contacter/">Réserver un premier échange</a>.</p>
+<p><strong>Vos pages traduites automatiquement disent-elles réellement ce que vous vendez ?</strong> Un locuteur natif reprend le texte pour que ce qui sonne juste le soit aussi. <a href="/fr/nous-contacter/">Réserver un premier échange</a>.</p>
 </aside>
 
 ## Un effort proportionné à l’enjeu

@@ -50,7 +50,7 @@ Chaque page passe par trois lectures : le rédacteur natif, un second natif ava
 
 L’Allemagne porte l’essentiel du volume de recherche et reste le point de départ par défaut : de-DE sur l’ensemble du contenu, une seule architecture, et toute l’attention sur une variante. Une version de-CH des pages commerciales se justifie pour le B2B haut de gamme, où le pouvoir d’achat et les attentes de prix des acheteurs suisses méritent une réponse directe.
 
-La Suisse alémanique lit l’allemand standard, avec ses propres conventions : on y écrit Strasse avec ss là où l’Allemagne écrit Straße, les prix s’affichent en CHF et les numéros de téléphone suivent le format suisse. Ce sont des détails, et justement ceux qui disent à un acheteur suisse que la page a été écrite pour lui.
+La Suisse alémanique lit l’allemand standard, avec ses propres conventions : Strasse s’y écrit avec ss là où l’Allemagne écrit Straße, les prix s’affichent en CHF et les numéros de téléphone suivent le format suisse. Ce sont des détails, et justement ceux qui disent à un acheteur suisse que la page a été écrite pour lui.
 
 Couvrir les trois pays représente un vrai engagement éditorial, qui se justifie quand votre offre parle autant aux trois marchés. Nous faisons la recommandation au cadrage, à partir de ce que vous vendez. Les balises hreflang de-DE, de-AT et de-CH indiquent ensuite à Google quelle version montrer dans quel pays, avec des slugs traduits et un sitemap par variante.
 

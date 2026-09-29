@@ -89,7 +89,7 @@ La leçon à en tirer ? La source prime sur le message pour les LLM.
 
 ![Exemple d’optimisation pour IA](/images/legacy/2026/01/exemple-optimisation-ia-1024x565.jpg)
 
-L’optimisation pour les systèmes d’IA exige des boucles de feedback rapides (48 à 72 heures).
+L’optimisation pour les systèmes d’IA exige des boucles de retour rapides (48 à 72 heures).
 
 Publiez du contenu sur des plateformes tierces dotées d’une forte autorité de domaine, puis mesurez son impact via :
 

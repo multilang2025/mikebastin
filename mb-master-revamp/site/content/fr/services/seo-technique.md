@@ -49,7 +49,7 @@ Sur un site multilingue, la plupart des problèmes viennent d’une page qui con
 
 ## Des analytics qui séparent chaque marché
 
-Nous configurons GA4 et Google Tag Manager pour que chaque événement ait un sens, que les conversions désignent ce que vous voulez vraiment, et que le trafic soit découpé par marché. Chaque langue apparaît dans ses propres chiffres.
+Nous configurons GA4 et Google Tag Manager pour que chaque événement ait un sens, que les conversions désignent ce que vous voulez réellement, et que le trafic soit découpé par marché. Chaque langue apparaît dans ses propres chiffres.
 
 Configurés après coup, les analytics répondent à des questions sur le mois dernier. Configurés d’abord, ils décident de ce qu’il faut faire le mois prochain.
 

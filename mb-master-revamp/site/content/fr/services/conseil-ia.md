@@ -22,7 +22,7 @@ La phrase à surveiller est la phrase fluide, professionnelle et discrètement f
 Notre conseil en IA vous dit précisément quelle partie de votre activité multilingue gagne à être automatisée, et laquelle a encore besoin d’une personne.
 
 <aside class="post-cta">
-<p><strong>Vous voulez savoir quelle part de vos contenus étrangers l’IA peut vraiment prendre en charge ?</strong> Nous examinons vos marchés et vos contenus, puis nous vous disons où l’automatisation rapporte et où elle doit être relue. <a href="/fr/nous-contacter/">Réserver un premier échange</a>.</p>
+<p><strong>Vous voulez savoir quelle part de vos contenus étrangers l’IA peut réellement prendre en charge ?</strong> Nous examinons vos marchés et vos contenus, puis nous vous disons où l’automatisation rapporte et où elle doit être relue. <a href="/fr/nous-contacter/">Réserver un premier échange</a>.</p>
 </aside>
 
 ## Une traduction automatique relue par quelqu’un qui lit la langue
@@ -43,7 +43,7 @@ Le point à surveiller, c’est l’aplomb : sur un marché dont seuls vos clie
 
 ## Lire ce que disent vos marchés, à grande échelle
 
-Nous analysons le sentiment et les thèmes des avis clients, des tickets de support et des mentions sur les réseaux sociaux, langue par langue. Menée sur plusieurs marchés à la fois, cette analyse fait ressortir des tendances dans la façon dont on parle de votre marque qu’une revue manuelle mettrait des semaines à trouver. Ici, l’IA ajoute une capacité en plus de la vitesse.
+Nous analysons le sentiment et les thèmes des avis clients, des tickets de support et des mentions sur les réseaux sociaux, langue par langue. Menée sur plusieurs marchés à la fois, cette analyse fait ressortir des tendances dans la façon dont vos clients parlent de votre marque qu’une revue manuelle mettrait des semaines à trouver. Ici, l’IA ajoute une capacité en plus de la vitesse.
 
 Une plainte qui revient uniquement en espagnol relève généralement de la localisation, et c’est là qu’elle se corrige. Un rapport langue par langue la fait ressortir.
 
