@@ -149,7 +149,5 @@ class bookings).
 - The Spanish AI consulting page dropped the legacy "visibility in ChatGPT
   answers" angle, which the English entry does not cover; say if it should
   come back as its own page or a section of the main page.
-- The footer address reads "12 to 2" or "12 - 2" in the legacy site; the
-  posts now say "12, 2.º". Confirm the floor notation.
 - The `SiteFooter` motto and the Spanish string table are still a first
   pass.

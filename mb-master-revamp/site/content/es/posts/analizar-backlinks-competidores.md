@@ -175,4 +175,4 @@ Te decimos exactamente dónde poner el foco para que tu link building dé result
 [Pedir auditoría de backlinks](https://mikebastin.com/es/contactanos/)
 
 Mike Bastin · Consultor SEO para empresas B2B y proyectos multilingües  
-Calle Rugat 12, 2.º, 46021 Valencia · +34 671 17 57 74
+Calle Rugat 12 - 2, 46021 Valencia · +34 671 17 57 74

@@ -379,7 +379,7 @@ export default function SiteFooter({
                 </a>
                 {address && (
                   <span className="leading-[1.5]" style={{ color: "var(--dim)" }}>
-                    Calle Rugat 12 to 2, 46021 Valencia, Spain
+                    Calle Rugat 12 - 2, 46021 Valencia, Spain
                   </span>
                 )}
               </div>

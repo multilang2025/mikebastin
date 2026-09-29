@@ -134,4 +134,4 @@ Maximiza tu ROI y cualifica tus leads con precisión quirúrgica mediante nuestr
 
 **Sobre el autor:** Mike Bastin es consultor especializado en inteligencia artificial aplicada al marketing y ventas, con más de dos décadas de experiencia en SEO y traducción y en la implementación de sistemas automatizados para empresas internacionales. Fundador de MikeBastin.com, agencia experta en soluciones digitales.
 
-**Contacto:** Calle Rugat 12, 2.º, 46021 Valencia, España | Teléfono: +34 671 17 57 74 | [LinkedIn](https://www.linkedin.com/in/michaelbastin/) | [Google Business](https://www.google.com/maps/place//data=!4m2!3m1!1s0xd6048f48e63ffff:0x1be84e97abaa5aa1?sa=X&ved=1t:8290&ictx=111)
+**Contacto:** Calle Rugat 12 - 2, 46021 Valencia, España | Teléfono: +34 671 17 57 74 | [LinkedIn](https://www.linkedin.com/in/michaelbastin/) | [Google Business](https://www.google.com/maps/place//data=!4m2!3m1!1s0xd6048f48e63ffff:0x1be84e97abaa5aa1?sa=X&ved=1t:8290&ictx=111)

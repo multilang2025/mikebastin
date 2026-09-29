@@ -39,7 +39,7 @@ const SAME_AS = [
 
 const ADDRESS = {
   "@type": "PostalAddress",
-  streetAddress: "Calle Rugat 12",
+  streetAddress: "Calle Rugat 12 - 2",
   postalCode: "46021",
   addressLocality: "Valencia",
   addressCountry: "ES",

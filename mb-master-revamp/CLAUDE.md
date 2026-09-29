@@ -372,6 +372,9 @@ is in the rest, which the Master Content Protocol never covered:
   to manage SEO projects" in them, never "B1", "working Italian" or a
   described reading or speaking level. Native writers still do the
   commercial copy, and saying so stays.
+- **The address is "Calle Rugat 12 - 2, 46021 Valencia"** (owner, 30 Sep
+  2026). The hyphen is part of the address, so it is not a range: never
+  "12 to 2" (the dash rule had rewritten it) and never "12, 2.º".
 - **There is no Madrid law firm** (owner, 27 Sep 2026). The law-firm
   client is the Valencia one; correct any "Madrid law firm" on sight.
 - **Experience is "over two decades"** (owner, 27 Sep 2026: "I started in
