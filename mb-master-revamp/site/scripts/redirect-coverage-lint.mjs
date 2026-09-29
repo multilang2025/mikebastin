@@ -95,19 +95,20 @@ function resolve(path) {
   return { hops, end: cur, external: false };
 }
 
-// EN comes from the sitemap of record. FR has no such file, so its legacy
-// URLs are read from content-map.json, which carries every one of them
-// (docs/FR-REBUILD-PLAN.md phase 1, 27 Sep 2026). ES joins when its own
-// safety net exists.
-const frInventory = JSON.parse(readFileSync(CONTENT_MAP, "utf8"))
-  .groups.map((g) => g.fr?.url)
-  .filter(Boolean);
+// EN comes from the sitemap of record. FR and ES have no such file, so
+// their legacy URLs are read from content-map.json, which carries every one
+// of them (docs/FR-REBUILD-PLAN.md phase 1, 27 Sep 2026; docs/ES-REBUILD-PLAN.md
+// phase 1, 30 Sep 2026).
+const groups = JSON.parse(readFileSync(CONTENT_MAP, "utf8")).groups;
+const frInventory = groups.map((g) => g.fr?.url).filter(Boolean);
+const esInventory = groups.map((g) => g.es?.url).filter(Boolean);
 const inventory = [
   ...readFileSync(INVENTORY, "utf8")
     .split("\n")
     .map((l) => l.trim())
     .filter((l) => l.startsWith("http")),
   ...frInventory,
+  ...esInventory,
 ];
 
 const missing = [];
@@ -135,7 +136,7 @@ for (const url of inventory) {
   else redirected++;
 }
 
-console.log(`legacy URLs checked:    ${inventory.length} (${frInventory.length} FR)`);
+console.log(`legacy URLs checked:    ${inventory.length} (${frInventory.length} FR, ${esInventory.length} ES)`);
 console.log(`  still served here:    ${direct}`);
 console.log(`  redirect to a live page: ${redirected}`);
 console.log(`  301 off-site:         ${external}`);

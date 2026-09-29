@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 import ThemeToggle from "@/components/ThemeToggle";
 import type { Locale, LocaleSlugs } from "@/lib/posts";
 import { FR_PAGES } from "@/lib/fr-pages-data";
+import { ES_PAGES } from "@/lib/es-pages-data";
 
 const LINKS = [
   { href: "/", label: "Home" },
@@ -21,7 +22,21 @@ const LINKS = [
 // included, so a French reader never meets an English menu.
 const FR_LINKS = FR_PAGES.filter((p) => p.nav).map((p) => ({ href: p.path, label: p.label }));
 
+const ES_LINKS = ES_PAGES.filter((p) => p.nav).map((p) => ({ href: p.path, label: p.label }));
+
 const LOCALE_LABEL: Record<Locale, string> = { en: "EN", fr: "FR", es: "ES" };
+
+/** The menu's own strings and destinations, per locale. */
+const UI: Record<
+  Locale,
+  { links: { href: string; label: string }[]; home: string; contact: string; cta: string; openMenu: string; closeMenu: string; reach: string; since: string }
+> = {
+  en: { links: LINKS, home: "/", contact: "/contact/", cta: "Book the discovery call", openMenu: "Open menu", closeMenu: "Close menu", reach: "Or reach us directly", since: "Valencia, Spain, since 2016" },
+  fr: { links: FR_LINKS, home: "/fr/", contact: "/fr/nous-contacter/", cta: "Réserver un premier échange", openMenu: "Ouvrir le menu", closeMenu: "Fermer le menu", reach: "Ou contactez-nous directement", since: "Valencia, Espagne, depuis 2016" },
+  es: { links: ES_LINKS, home: "/es/", contact: "/es/contactanos/", cta: "Reservar una primera conversación", openMenu: "Abrir el menú", closeMenu: "Cerrar el menú", reach: "O escríbenos directamente", since: "Valencia, España, desde 2016" },
+};
+
+const localeOfPath = (pathname: string): Locale => (pathname.startsWith("/fr/") || pathname === "/fr" ? "fr" : pathname.startsWith("/es/") || pathname === "/es" ? "es" : "en");
 
 function postPath(locale: Locale, slug: string): string {
   return locale === "en" ? `/blog/${slug}/` : `/${locale}/${slug}/`;
@@ -46,18 +61,21 @@ function servicePath(locale: Locale, slug: string): string {
  */
 function LocaleSwitcher({
   manifest,
+  pagePairs,
   pathname,
 }: {
   manifest: Record<string, LocaleSlugs>;
+  pagePairs: Record<string, Partial<Record<Locale, string>>>;
   pathname: string;
 }) {
+  const pair = pagePairs[pathname];
   const siblings = manifest[pathname];
-  if (!siblings) return null;
+  if (!siblings && !pair) return null;
 
   const isService = pathname.includes("/services/");
   const buildPath = isService ? servicePath : postPath;
 
-  const locales = (Object.keys(siblings) as Locale[]).sort(
+  const locales = (Object.keys(pair ?? siblings!) as Locale[]).sort(
     (a, b) => ["en", "fr", "es"].indexOf(a) - ["en", "fr", "es"].indexOf(b),
   );
 
@@ -67,7 +85,7 @@ function LocaleSwitcher({
       style={{ color: "var(--dim)" }}
     >
       {locales.map((locale) => {
-        const href = buildPath(locale, siblings[locale]!);
+        const href = pair ? pair[locale]! : buildPath(locale, siblings![locale]!);
         const active = href === pathname;
         return (
           <li key={locale}>
@@ -111,12 +129,14 @@ function LocaleSwitcher({
  */
 export default function SiteNav({
   localeManifest,
+  pagePairs = {},
 }: {
   localeManifest: Record<string, LocaleSlugs>;
+  pagePairs?: Record<string, Partial<Record<Locale, string>>>;
 }) {
   const pathname = usePathname();
-  const isFr = (pathname ?? "").startsWith("/fr/");
-  const links = isFr ? FR_LINKS : LINKS;
+  const ui = UI[localeOfPath(pathname ?? "/")];
+  const links = ui.links;
   const [open, setOpen] = useState(false);
 
   useEffect(() => {
@@ -156,7 +176,7 @@ export default function SiteNav({
       }}
     >
       <nav className="shell flex h-[62px] items-center justify-between gap-4 sm:gap-6">
-        <Link href={isFr ? "/fr/" : "/"} className="flex shrink-0 items-center gap-2.5">
+        <Link href={ui.home} className="flex shrink-0 items-center gap-2.5">
           {/* The MB monogram, rebuilt as vector from the owner's concept
               sheet (22 Sep 2026), where it exists only as a 122x60 area of
               a JPEG. Nothing was traced: the two ribbons follow stroke
@@ -231,7 +251,7 @@ export default function SiteNav({
         </ul>
 
         <div className="hidden sm:block">
-          <LocaleSwitcher manifest={localeManifest} pathname={pathname ?? ""} />
+          <LocaleSwitcher manifest={localeManifest} pagePairs={pagePairs} pathname={pathname ?? ""} />
         </div>
 
         {/* The two controls are one group, so `justify-between` spreads the
@@ -243,7 +263,7 @@ export default function SiteNav({
             onClick={() => setOpen((v) => !v)}
             aria-expanded={open}
             aria-controls="mb-mobile-menu"
-            aria-label={open ? (isFr ? "Fermer le menu" : "Close menu") : isFr ? "Ouvrir le menu" : "Open menu"}
+            aria-label={open ? ui.closeMenu : ui.openMenu}
             className="grid h-11 w-11 shrink-0 place-items-center rounded-full sm:hidden"
             style={{ color: "var(--berry)" }}
           >
@@ -347,11 +367,11 @@ export default function SiteNav({
             style={{ animationDelay: `${20 + links.length * 22}ms` }}
           >
             <Link
-              href={isFr ? "/fr/nous-contacter/" : "/contact/"}
+              href={ui.contact}
               onClick={() => setOpen(false)}
               className="btn btn-primary btn-lg btn-full"
             >
-              {isFr ? "Réserver un premier échange" : "Book the discovery call"}
+              {ui.cta}
             </Link>
           </div>
 
@@ -359,7 +379,7 @@ export default function SiteNav({
             className="mb-menu-row shell flex flex-col gap-3 pb-7 pt-7"
             style={{ animationDelay: `${40 + links.length * 22}ms` }}
           >
-            <p className="eyebrow">{isFr ? "Ou contactez-nous directement" : "Or reach us directly"}</p>
+            <p className="eyebrow">{ui.reach}</p>
             <a
               href="mailto:hello@mikebastin.com"
               onClick={() => setOpen(false)}
@@ -377,14 +397,14 @@ export default function SiteNav({
               +34 671 17 57 74
             </a>
             <p className="text-[.88rem]" style={{ color: "var(--dim)" }}>
-              Valencia, Spain, since 2016
+              {ui.since}
             </p>
 
             {/* LocaleSwitcher renders nothing on a page with no published
                 siblings, which is most of them. Asking the manifest here
                 too keeps the rule and its spacing from being drawn round
                 an empty element. */}
-            {localeManifest[pathname ?? ""] && (
+            {(localeManifest[pathname ?? ""] || pagePairs[pathname ?? ""]) && (
               <div
                 className="mt-2 border-t pt-4"
                 style={{ borderColor: "var(--rule)" }}
@@ -392,6 +412,7 @@ export default function SiteNav({
               >
                 <LocaleSwitcher
                   manifest={localeManifest}
+                  pagePairs={pagePairs}
                   pathname={pathname ?? ""}
                 />
               </div>

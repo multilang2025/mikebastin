@@ -36,7 +36,7 @@ En un proyecto multilingüe, la GEO añade una capa más. Cada versión de idiom
 
 Los buscadores evalúan el contenido de forma distinta según el idioma y la región.
 
-Un [SEO multilingüe](https://mikebastin.com/es/services/posicionamiento-multilingue/) bien localizado hace que tu contenido aparezca en los resultados locales, justo donde el usuario está buscando.
+Un [SEO multilingüe](/es/services/posicionamiento-multilingue/) bien localizado hace que tu contenido aparezca en los resultados locales, justo donde el usuario está buscando.
 
 Con etiquetas de idioma correctas, sitemaps por región y URLs localizadas, la traducción llega a su público. El buscador identifica y clasifica el contenido multilingüe a partir de esas señales técnicas claras.
 
@@ -48,7 +48,7 @@ Localizar palabras clave va mucho más allá de traducir los términos ingleses 
 
 La intención de búsqueda local vive en la palabra clave localizada, más que en la traducción literal.
 
-Cada mercado necesita su propia [investigación de palabras clave](https://mikebastin.com/es/services/busqueda-palabras-clave/), atenta a los dialectos regionales, al lenguaje coloquial y a cómo busca de verdad la gente en ese lugar.
+Cada mercado necesita su propia [investigación de palabras clave](/es/services/seo-tecnico/), atenta a los dialectos regionales, al lenguaje coloquial y a cómo busca de verdad la gente en ese lugar.
 
 Semrush y Ahrefs ayudan a encontrar palabras clave locales, y el paso siguiente es entender el comportamiento de búsqueda a nivel nativo para apuntar a lo que la gente escribe de verdad.
 
@@ -92,7 +92,7 @@ Los enlaces desde webs locales con autoridad generan confianza y señalan releva
 
 Las colaboraciones con empresas locales, los artículos invitados regionales y las campañas de prensa bien dirigidas consiguen enlaces de valor. La calidad siempre pesa más que la cantidad.
 
-Quédate con los enlaces ganados: comprar enlaces o tirar de esquemas de spam acaba en penalizaciones, y el [link building](https://mikebastin.com/es/services/link-building/) a largo plazo se construye con enlaces editoriales.
+Quédate con los enlaces ganados: comprar enlaces o tirar de esquemas de spam acaba en penalizaciones, y el [link building](/es/services/seo-tecnico/) a largo plazo se construye con enlaces editoriales.
 
 En clave GEO, los enlaces con autoridad también suben la probabilidad de que los modelos traten tu contenido como una fuente fiable y digna de cita.
 
@@ -130,4 +130,4 @@ Quien crece fuera en 2026 necesita las dos cosas. Posicionar en la búsqueda tra
 
 Una estrategia multilingüe que suma la GEO aprovecha todo el valor disponible, y una estrategia GEO se construye sobre unos cimientos sólidos de SEO multilingüe.
 
-El [SEO global](https://mikebastin.com/es/services/agencia-de-seo-global/) en 2026 pide las dos disciplinas trabajando juntas, en cada idioma y cada mercado. Si quieres ver dónde está hoy tu marca y dónde podría estar, [escríbeme y lo revisamos juntos](https://mikebastin.com/es/contactanos/), con más de dos décadas de SEO y traducción de mi lado.
+El [SEO global](/es/services/posicionamiento-multilingue/) en 2026 pide las dos disciplinas trabajando juntas, en cada idioma y cada mercado. Si quieres ver dónde está hoy tu marca y dónde podría estar, [escríbeme y lo revisamos juntos](/es/contactanos/), con más de dos décadas de SEO y traducción de mi lado.

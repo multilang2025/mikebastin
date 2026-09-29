@@ -14,7 +14,7 @@ import {
   servicePath,
 } from "@/lib/services-locale";
 import { SITE_URL } from "@/lib/schema";
-import { builtFrPages, enLanguages, frLanguages } from "@/lib/fr-pages";
+import { builtFrPages, builtEsPages, enLanguages, frLanguages, esLanguages } from "@/lib/fr-pages";
 import { leadGenLanguages, leadGenPath } from "@/lib/lead-gen-hubs";
 
 /**
@@ -89,6 +89,11 @@ export function getSiteUrls(): UrlEntry[] {
   // The hand-built French pages (lib/fr-pages-data.ts), once their route exists.
   for (const p of builtFrPages()) {
     out.push({ path: p.path, locale: "fr", kind: "page", section: "French", label: p.label, languages: frLanguages(p.path) });
+  }
+
+  // The hand-built Spanish pages (lib/es-pages-data.ts), once their route exists.
+  for (const p of builtEsPages()) {
+    out.push({ path: p.path, locale: "es", kind: "page", section: "Spanish", label: p.label, languages: esLanguages(p.path) });
   }
 
   // Services. lead-generation has its own hand-built route rather than

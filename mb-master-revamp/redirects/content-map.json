@@ -1181,7 +1181,8 @@
    "tier": null,
    "action": "absorb",
    "locale_actions": {
-    "fr": "migrate"
+    "fr": "migrate",
+    "es": "migrate"
    },
    "destination": "mdx",
    "absorbed_into": "ai-consulting",
@@ -1408,7 +1409,8 @@
    "tier": null,
    "action": "absorb",
    "locale_actions": {
-    "fr": "migrate"
+    "fr": "migrate",
+    "es": "migrate"
    },
    "destination": "mdx",
    "absorbed_into": "app-and-software-localisation",
@@ -1607,7 +1609,8 @@
    "tier": null,
    "action": "absorb",
    "locale_actions": {
-    "fr": "migrate"
+    "fr": "migrate",
+    "es": "migrate"
    },
    "destination": "mdx",
    "absorbed_into": "ai-translation-and-post-editing",
@@ -1722,7 +1725,8 @@
    "tier": null,
    "action": "absorb",
    "locale_actions": {
-    "fr": "migrate"
+    "fr": "migrate",
+    "es": "migrate"
    },
    "destination": "mdx",
    "absorbed_into": "multilingual-content",
@@ -1812,7 +1816,8 @@
    "tier": null,
    "action": "absorb",
    "locale_actions": {
-    "fr": "migrate"
+    "fr": "migrate",
+    "es": "migrate"
    },
    "destination": "mdx",
    "absorbed_into": "technical-seo",
@@ -2235,7 +2240,8 @@
    "tier": null,
    "action": "absorb",
    "locale_actions": {
-    "fr": "migrate"
+    "fr": "migrate",
+    "es": "migrate"
    },
    "destination": "mdx",
    "absorbed_into": "translation-services",
@@ -3816,12 +3822,18 @@
    "absorbed_into": null,
    "vm_action": null,
    "vm_target_url": null,
-   "note": "French-only page built 29 Sep 2026 (docs/FR-REBUILD-PLAN.md, owner: technical SEO gets its own French page). The EN technical-seo page is a consolidated page with no group of its own, so this group has no en entry; four legacy French URLs 301 here.",
+   "note": "French and Spanish page built 29 and 30 Sep 2026 (docs/FR-REBUILD-PLAN.md, owner: technical SEO gets its own French page). The EN technical-seo page is a consolidated page with no group of its own, so this group has no en entry; four legacy French and four Spanish URLs 301 here.",
    "fr": {
     "id": null,
     "slug": "seo-technique",
     "url": "https://mikebastin.com/fr/services/seo-technique/",
     "content_path": "site/content/fr/services/seo-technique.md"
+   },
+   "es": {
+    "id": null,
+    "slug": "seo-tecnico",
+    "url": "https://mikebastin.com/es/services/seo-tecnico/",
+    "content_path": "site/content/es/services/seo-tecnico.md"
    }
   }
  ]

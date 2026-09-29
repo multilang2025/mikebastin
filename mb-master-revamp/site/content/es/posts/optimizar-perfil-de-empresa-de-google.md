@@ -264,6 +264,6 @@ Llevo más de dos décadas haciendo SEO y traducción, con SEO local multilingü
 
 Ahora mismo aplico el mismo método para un despacho de abogados español, una empresa de transporte estadounidense, una inmobiliaria dominicana y un puñado de marcas de bienestar y servicios lingüísticos.
 
-¿Quieres una revisión directa del Perfil de Empresa de Google de tu estudio, de tu posición en el pack local o del SEO que lo rodea? [Escríbeme aquí](https://mikebastin.com/es/contactanos/) o conoce cómo trabajo en la [página sobre mí](https://mikebastin.com/es/conocenos-agencia-experta-en-seo/).
+¿Quieres una revisión directa del Perfil de Empresa de Google de tu estudio, de tu posición en el pack local o del SEO que lo rodea? [Escríbeme aquí](/es/contactanos/) o conoce cómo trabajo en la [página sobre mí](https://mikebastin.com/es/conocenos-agencia-experta-en-seo/).
 
-También puedes ver todo lo que cubro en la página de [servicios de SEO local](https://mikebastin.com/es/services/seo-local/).
+También puedes ver todo lo que cubro en la página de [servicios de SEO local](/es/services/seo-local/).

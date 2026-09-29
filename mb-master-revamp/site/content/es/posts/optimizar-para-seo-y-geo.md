@@ -18,11 +18,11 @@ excerpt: "El contenido puede optimizarse para búsqueda tradicional y citas de I
 
 Los usuarios buscan en Google y también en ChatGPT, Claude y Perplexity, que responden directamente a sus preguntas, citando fuentes que consideran fiables. Para captar tráfico en 2026, las empresas necesitan optimizar simultáneamente para buscadores tradicionales y para modelos de lenguaje.
 
-Un [servicio de posicionamiento web internacional](https://mikebastin.com/es/services/agencia-de-seo-global/) debe dominar ambos canales: el SEO tradicional para las SERP y el GEO (Generative Engine Optimization) para las respuestas generadas por IA.
+Un [servicio de posicionamiento web internacional](/es/services/posicionamiento-multilingue/) debe dominar ambos canales: el SEO tradicional para las SERP y el GEO (Generative Engine Optimization) para las respuestas generadas por IA.
 
 **En síntesis:** El SEO busca clics desde los resultados de búsqueda. El GEO busca que [la IA cite tu marca](https://mikebastin.com/es/medir-rendimiento-geo/) como fuente autorizada. Dominar ambos exige un [enfoque técnico en inteligencia artificial](https://mikebastin.com/es/servicios/consultoria-ia/) aplicado al contenido digital.
 
-**¿Tu contenido aparece en las respuestas de Perplexity o Gemini?** [Evalúa tu visibilidad en IA](https://mikebastin.com/es/services/marketing-digital-valencia/) con una auditoría especializada.
+**¿Tu contenido aparece en las respuestas de Perplexity o Gemini?** [Evalúa tu visibilidad en IA](/es/services/marketing-digital-valencia/) con una auditoría especializada.
 
 ### SEO vs GEO: Diferencias clave
 
@@ -72,11 +72,11 @@ La consistencia NAP (Name, Address, Phone) en todas las plataformas genera confi
 
 ## Integración práctica de SEO y GEO en la estrategia de contenidos
 
-El proceso de creación debe evolucionar de un enfoque basado en palabras clave a uno basado en entidades y conceptos. Cada artículo debe satisfacer la intención del usuario humano y ofrecer estructura lógica para la recuperación de información por IA. Un [especialista en optimización para buscadores globales](https://mikebastin.com/es/services/posicionamiento-multilingue/) mantiene este equilibrio en diferentes idiomas.
+El proceso de creación debe evolucionar de un enfoque basado en palabras clave a uno basado en entidades y conceptos. Cada artículo debe satisfacer la intención del usuario humano y ofrecer estructura lógica para la recuperación de información por IA. Un [especialista en optimización para buscadores globales](/es/services/posicionamiento-multilingue/) mantiene este equilibrio en diferentes idiomas.
 
 El lenguaje debe ser natural pero técnicamente preciso. Si ofreces servicios de logística como **Texas Freight**, tu contenido debe responder las preguntas que un usuario formularía a un chatbot. Una [asesoría en sistemas inteligentes](https://mikebastin.com/es/) identifica qué temas tienen mayor potencial de citación en resúmenes generativos.
 
-**Objetivo:** Convertir tu sitio web en la base de conocimientos preferida por los motores que sintetizan información. [Solicita un diagnóstico de visibilidad IA](https://mikebastin.com/es/services/marketing-digital-valencia/).
+**Objetivo:** Convertir tu sitio web en la base de conocimientos preferida por los motores que sintetizan información. [Solicita un diagnóstico de visibilidad IA](/es/services/marketing-digital-valencia/).
 
 ### UX para humanos y algoritmos de extracción
 
@@ -98,7 +98,7 @@ Experiencia, Pericia, Autoridad y Fiabilidad (E-E-A-T) son criterios que los mot
 
 Según [Search Engine Journal](https://www.searchenginejournal.com/), la transparencia sobre la autoría influye directamente en la selección como fuente primaria.
 
-Los [enlaces externos de](https://mikebastin.com/es/analizar-backlinks-competidores/) calidad siguen siendo indicadores de confianza que los LLMs utilizan para validar información. Un [especialista en posicionamiento orgánico internacional](https://mikebastin.com/es/services/posicionamiento-multilingue/) construye perfiles de enlaces que respaldan la autoridad en múltiples regiones.
+Los [enlaces externos de](https://mikebastin.com/es/analizar-backlinks-competidores/) calidad siguen siendo indicadores de confianza que los LLMs utilizan para validar información. Un [especialista en posicionamiento orgánico internacional](/es/services/posicionamiento-multilingue/) construye perfiles de enlaces que respaldan la autoridad en múltiples regiones.
 
 Como indica el blog de [Google Search](https://blog.google/products/search/), la búsqueda generativa destaca el mejor contenido web cuando demuestra utilidad clara para el usuario.
 
@@ -112,7 +112,7 @@ La adaptación a actualizaciones de GPT-5 o nuevas versiones de Gemini marcará 
 
 Para negocios B2B que buscan leads cualificados, como [SmartOwn](https://smartown.ae) o [C21 Perdomo](https://c21perdomo.com/es/), el enfoque debe ser la creación de activos digitales técnicos y perennes.
 
-Integrar servicios de [estrategia digital integral](https://mikebastin.com/es/services/marketing-digital-valencia/) permite que cada contenido atraiga tráfico hoy y mantenga relevancia mañana.
+Integrar servicios de [estrategia digital integral](/es/services/marketing-digital-valencia/) permite que cada contenido atraiga tráfico hoy y mantenga relevancia mañana.
 
 Auditorías periódicas para [evaluar la estrategia competitiva](https://mikebastin.com/es/analisis-competitivo-seo/) permiten ajustar tácticas según el comportamiento de los motores generativos.
 
@@ -145,4 +145,4 @@ Depende de su calidad. Lo penalizado es el contenido genérico y de baja calidad
 Implementamos estrategias duales SEO+GEO que generan resultados medibles en buscadores tradicionales y en respuestas de IA.
 
 [Solicitar consultoría en IA](https://mikebastin.com/es/)  
-[Ver servicios SEO internacional](https://mikebastin.com/es/services/posicionamiento-multilingue/)
+[Ver servicios SEO internacional](/es/services/posicionamiento-multilingue/)

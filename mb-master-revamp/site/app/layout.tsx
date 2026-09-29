@@ -7,6 +7,7 @@ import JsonLd from "@/components/JsonLd";
 import { personSchema, professionalServiceSchema } from "@/lib/schema";
 import { getLocaleManifest } from "@/lib/posts";
 import HtmlLang from "@/components/HtmlLang";
+import { getPageLocaleManifest } from "@/lib/fr-pages";
 
 const fraunces = localFont({
   src: "./fonts/fraunces.woff2",
@@ -110,7 +111,7 @@ export default function RootLayout({
       >
         <SmoothScroll />
         <HtmlLang />
-        <SiteNav localeManifest={getLocaleManifest()} />
+        <SiteNav localeManifest={getLocaleManifest()} pagePairs={getPageLocaleManifest()} />
         {children}
       </body>
     </html>

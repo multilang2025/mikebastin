@@ -7,10 +7,10 @@
  * (/about-us/) now redirects to /how-i-work/, which already pairs with
  * `/fr/tarifs/`, and one English page cannot name two French alternates.
  */
-export type FrPage = {
-  /** French URL path, leading and trailing slash. */
+export type LocalePage = {
+  /** This locale's URL path, leading and trailing slash. */
   path: string;
-  /** The English page it pairs with, or null for a French-only page. */
+  /** The English page it pairs with, or null for a page with no English sibling. */
   en: string | null;
   /** Menu and sitemap label. */
   label: string;
@@ -20,7 +20,10 @@ export type FrPage = {
   nav?: boolean;
 };
 
-export const FR_PAGES: FrPage[] = [
+/** Kept for the existing imports: the French list is the original. */
+export type FrPage = LocalePage;
+
+export const FR_PAGES: LocalePage[] = [
   { path: "/fr/", en: "/", label: "Accueil", route: "app/fr/page.tsx", nav: true },
   { path: "/fr/services/", en: "/services/", label: "Services", route: "app/fr/services/page.tsx", nav: true },
   { path: "/fr/blog/", en: "/blog/", label: "Articles", route: "app/fr/blog/page.tsx", nav: true },

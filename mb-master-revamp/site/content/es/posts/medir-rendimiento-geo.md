@@ -102,7 +102,7 @@ Mantén el SEO y hazlo evolucionar:
 
 1.  **Identifica a tus verdaderos competidores GEO**: pueden ser distintos de los de Google. Usa búsquedas conversacionales para descubrirlos.
 2.  **Localiza para la IA**: los modelos como GPT-4o son multilingües, pero citan mejor fuentes **localizadas**.  
-    → combina [**SEO multilingüe**](https://mikebastin.com/es/services/posicionamiento-multilingue/) con contenido adaptado culturalmente.
+    → combina [**SEO multilingüe**](/es/services/posicionamiento-multilingue/) con contenido adaptado culturalmente.
 3.  **Optimiza para voz y chat**: las consultas son preguntas largas (“¿cuál es la mejor agencia de SEO en Valencia para empresas B2B?”). Responde con encabezados H2/H3 en formato pregunta-respuesta.
 
 > **Caso de éxito**: **BeTranslated** usa esta estrategia para posicionarse en francés, alemán y neerlandés. La IA cita la versión local correcta según el idioma del usuario.
@@ -185,8 +185,8 @@ En **Mike Bastin**, combinamos:
 
 -   Auditorías técnicas de schema
 -   Estrategias de contenido para LLMs
--   [SEO multilingüe](https://mikebastin.com/es/services/posicionamiento-multilingue/) con enfoque GEO
+-   [SEO multilingüe](/es/services/posicionamiento-multilingue/) con enfoque GEO
 
 …para que **tu marca sea la respuesta**.
 
-[Solicitar auditoría GEO gratuita](https://mikebastin.com/es/services/marketing-digital-valencia/)
+[Solicitar auditoría GEO gratuita](/es/services/marketing-digital-valencia/)

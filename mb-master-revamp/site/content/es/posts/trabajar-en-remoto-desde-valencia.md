@@ -28,7 +28,7 @@ Aquí te cuento lo que he visto de cerca, con datos actualizados y sin romantiza
 
 Cuando llegué a Valencia, la comunidad expat era pequeña y bastante homogénea. Hoy es otra historia. Hay profesionales del norte de Europa, nómadas digitales latinoamericanos, founders de startups, investigadores universitarios y perfiles híbridos que trabajan para empresas de tres países distintos desde un piso en Ruzafa.
 
-Ese tejido internacional tiene consecuencias prácticas para cualquier negocio digital. Más empresas con operaciones en varios mercados significa más demanda de [SEO internacional](https://mikebastin.com/es/services/agencia-de-seo-global/), de [localización de contenido](https://mikebastin.com/es/services/localizacion-de-contenido/) y de estrategias pensadas para audiencias en distintos idiomas. Valencia genera ese tipo de cliente, y eso lo noto directamente en MikeBastin.
+Ese tejido internacional tiene consecuencias prácticas para cualquier negocio digital. Más empresas con operaciones en varios mercados significa más demanda de [SEO internacional](/es/services/posicionamiento-multilingue/), de [localización de contenido](/es/services/traduccion-de-paginas-web/) y de estrategias pensadas para audiencias en distintos idiomas. Valencia genera ese tipo de cliente, y eso lo noto directamente en MikeBastin.
 
 Plataformas como Meetup e InterNations organizan eventos con regularidad. El ecosistema de startups, con iniciativas como **Lanzadera** y **La Marina de Empresas**, atrae capital y talento externo de forma continua. No es Madrid, pero tampoco lo pretende: tiene su propia velocidad, y para muchos perfiles esa es precisamente la ventaja.
 
@@ -38,7 +38,7 @@ Cuando empecé a trabajar aquí, los espacios de coworking se contaban con los d
 
 Si prefieres la flexibilidad de las cafeterías, la mayoría tienen wifi funcional y no hay ningún problema por quedarte un par de horas con el portátil. Es parte del modo de vida de la ciudad.
 
-Para quien viene de fuera y quiere entender mejor cómo estructurar su presencia digital en España antes de instalarse, en MikeBastin ofrecemos asesoramiento en [internacionalización de empresas](https://mikebastin.com/es/services/internacionalizacion/) y estrategia digital multilingüe. Si tienes preguntas, puedes escribirnos desde el [formulario de contacto](https://mikebastin.com/es/contactanos/).
+Para quien viene de fuera y quiere entender mejor cómo estructurar su presencia digital en España antes de instalarse, en MikeBastin ofrecemos asesoramiento en [internacionalización de empresas](/es/services/posicionamiento-multilingue/) y estrategia digital multilingüe. Si tienes preguntas, puedes escribirnos desde el [formulario de contacto](/es/contactanos/).
 
 ## El coste de vida: mejor que Madrid o Barcelona, aunque ya no barato sin más
 
@@ -70,7 +70,7 @@ El menú del día en Valencia es uno de los mejores argumentos económicos de la
 
 Culturalmente, la ciudad tiene la **Ciutat de les Arts i les Ciències**, el **IVAM**, las **Fallas** (Patrimonio Cultural Inmaterial de la UNESCO desde 2016) y el parque natural de la **Albufera**. No todo el ocio cuesta dinero, y eso también es parte del cálculo de calidad de vida.
 
-Para una agencia como MikeBastin, ese entorno multicultural también es un activo de negocio directo: clientes del sector turístico, empresas con operaciones en varios mercados y profesionales internacionales que necesitan [localización de páginas web](https://mikebastin.com/es/services/traduccion-de-paginas-web/), [integración para ecommerce](https://mikebastin.com/es/services/localizacion-de-e-commerce/) o [adaptación multimedia](https://mikebastin.com/es/services/traduccion-audiovisual/) en varios idiomas.
+Para una agencia como MikeBastin, ese entorno multicultural también es un activo de negocio directo: clientes del sector turístico, empresas con operaciones en varios mercados y profesionales internacionales que necesitan [localización de páginas web](/es/services/traduccion-de-paginas-web/), [integración para ecommerce](/es/services/traduccion-de-paginas-web/) o [adaptación multimedia](/es/services/localizacion-de-aplicaciones/) en varios idiomas.
 
 ## Conectividad: fibra en casi todos los barrios
 
@@ -80,7 +80,7 @@ Para videollamadas, trabajo en la nube, gestión de campañas o auditorías SEO 
 
 ## Valencia como hub económico: el mercado real que hay detrás
 
-Valencia no es solo turismo y estilo de vida. El **Puerto de Valencia** mueve alrededor de 4,8 millones de TEUs anuales y es uno de los más activos del Mediterráneo europeo. Ese tráfico internacional genera una demanda constante de presencia digital en varios idiomas, de [marketing digital multilingüe](https://mikebastin.com/es/services/marketing-digital-valencia/) y de [optimización SEO en español](https://mikebastin.com/es/services/optimizacion-seo/) para empresas que operan con clientes de múltiples mercados.
+Valencia no es solo turismo y estilo de vida. El **Puerto de Valencia** mueve alrededor de 4,8 millones de TEUs anuales y es uno de los más activos del Mediterráneo europeo. Ese tráfico internacional genera una demanda constante de presencia digital en varios idiomas, de [marketing digital multilingüe](/es/services/marketing-digital-valencia/) y de [optimización SEO en español](/es/services/optimizacion-seo/) para empresas que operan con clientes de múltiples mercados.
 
 El tejido industrial de la Comunitat Valenciana incluye sectores como la automoción (**Ford** en Almussafes), la cerámica, el calzado, el mueble y la alimentación. Muchas de estas empresas trabajan con proveedores y clientes en varios continentes y, tarde o temprano, necesitan una estrategia digital que funcione más allá del mercado español. Ahí es donde encaja exactamente lo que hacemos desde MikeBastin.
 
@@ -94,7 +94,7 @@ Quien viene de capitales europeas con más tensión urbana lo nota bastante ráp
 
 Si estás valorando instalarte en Valencia como profesional digital o trasladar parte de tu operación aquí, lo primero que te recomendaría es venir unos días a comprobarlo tú mismo. Una semana de experiencia directa vale más que cualquier análisis comparativo.
 
-Y si ya tienes claro que quieres operar desde aquí y necesitas ayuda con tu estrategia digital multilingüe, en MikeBastin trabajamos exactamente en eso. Puedes conocer mejor nuestros servicios en la [página de servicios](https://mikebastin.com/es/servicios-consultoria-web/) o escribirnos directamente desde el [formulario de contacto](https://mikebastin.com/es/contactanos/).
+Y si ya tienes claro que quieres operar desde aquí y necesitas ayuda con tu estrategia digital multilingüe, en MikeBastin trabajamos exactamente en eso. Puedes conocer mejor nuestros servicios en la [página de servicios](https://mikebastin.com/es/servicios-consultoria-web/) o escribirnos directamente desde el [formulario de contacto](/es/contactanos/).
 
 * * *
 

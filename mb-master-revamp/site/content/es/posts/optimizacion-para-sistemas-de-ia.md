@@ -83,6 +83,6 @@ En 2026, la visibilidad estará determinada por la huella semántica global y po
 Te ayudo a identificar qué cambios necesitan tus contenidos y tu estructura web para ganar visibilidad en entornos generativos y LLMs.
 
 [Solicitar análisis  
-](https://mikebastin.com/es/contactanos/)
+](/es/contactanos/)
 
 O llámame al [+34 671 17 57 74](tel:+34671175774)
