@@ -91,9 +91,9 @@ Nos clients
 
 ## Avantages de notre service d’étude de mots-clés
 
--   **Stratégies SEO ciblées :** atteignez votre public idéal avec des mots-clés précis.
--   **Augmentez le trafic de votre site web :** améliorez vos classements de recherche organique et votre visibilité.
--   **Restez compétitif :** gardez une longueur d’avance en suivant les tendances de mots-clés.
+-   **Stratégies SEO ciblées :** atteignez votre public idéal avec des mots-clés précis.
+-   **Augmentez le trafic de votre site web :** améliorez vos classements de recherche organique et votre visibilité.
+-   **Restez compétitif :** gardez une longueur d’avance en suivant les tendances de mots-clés.
 
 Notre expertise en recherche de mots-clés pour le SEO
 

@@ -1,6 +1,7 @@
 ---
-words: 695
+words: 765
 title: "Localisation d’applications et de logiciels"
+name: "Localisation d’applications"
 slug: "localisation-applications"
 locale: "fr"
 type: "services"
@@ -30,6 +31,7 @@ Chaque point réglé protège vos téléchargements et vos avis sur un marché o
 - Les tests sur les systèmes d’exploitation et les appareils réellement utilisés dans chaque marché, au-delà de votre plateforme principale.
 - Le sous-titrage, la voix off et la transcription de vos vidéos et contenus audio.
 - L’internationalisation de l’architecture, pour que l’ajout d’une langue devienne un travail de traduction.
+- Vos fichiers de chaînes dans leur format d’origine, JSON ou .properties par exemple, rendus prêts à intégrer.
 
 La traduction elle-même passe par des spécialistes nommés, pour la plupart issus du réseau BeTranslated, que nous animons depuis vingt ans. Voir aussi notre page [traduction professionnelle](/fr/services/traduction-professionnelle/).
 
@@ -55,6 +57,8 @@ Les captures d’écran comptent aussi. Une fiche qui montre à un visiteur alle
 ## Des tests sur l’appareil, dans la langue
 
 La plupart des défauts de localisation tiennent à l’affichage : un libellé qui déborde de son bouton en allemand, une date inversée, une mise en page de droite à gauche qui retourne tout sauf une icône. Ils apparaissent sur un appareil, dans cette langue : c’est là que nous vérifions.
+
+Le premier test a lieu avant la traduction : une pseudo-localisation remplit l’interface d’un texte fictif, allongé et accentué, et montre d’emblée chaque libellé qui déborde. Après le lancement, chaque nouvelle version de l’application part dans toutes ses langues : les nouvelles chaînes sont traduites et testées avant la mise à jour du store.
 
 ## Vos vidéos et contenus audio dans chaque langue
 

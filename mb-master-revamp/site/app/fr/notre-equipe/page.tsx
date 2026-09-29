@@ -23,7 +23,6 @@ export const metadata: Metadata = {
       "Qui pilote votre référencement international et qui écrit dans chaque langue : Mike Bastin à Valence, et des spécialistes natifs du réseau BeTranslated.",
     path: PATH,
     languages: frLanguages(PATH),
-    fallbackImage: true,
     ogLocale: "fr_FR",
   }),
 };

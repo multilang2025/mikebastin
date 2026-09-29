@@ -1,6 +1,7 @@
 ---
-words: 697
+words: 775
 title: "SEO technique pour les sites multilingues"
+name: "SEO technique"
 slug: "seo-technique"
 locale: "fr"
 type: "services"
@@ -28,6 +29,10 @@ Réglez les balises hreflang : chaque page en porte une, avec le bon code de la
 
 Découpez le sitemap par langue et concentrez le budget de crawl sur les pages qui méritent de se positionner : Google indexe alors une plus grande part du site. La correction est structurelle et peu spectaculaire ; faites-la avant que le trafic stagne.
 
+### Une refonte qui garde vos positions
+
+Une refonte ou un changement de CMS conserve l’historique du site quand chaque ancienne adresse reçoit une redirection 301 vers la page qui lui correspond, et que les contenus qui se positionnent déjà passent dans le nouveau site. Nous établissons cette correspondance adresse par adresse et langue par langue avant la mise en ligne, puis nous suivons l’indexation dans la Search Console. L’audit s’appuie sur Screaming Frog, Ahrefs et la Search Console.
+
 ## Des pages construites pour l’intention de recherche
 
 Une liste de mots-clés triée par volume dit ce qui est tapé ; l’intention dit qui achète. La recherche utile lit comment les gens formulent leur problème, comment ils comparent les options et ce qu’ils tapent une fois décidés, puis classe le travail par étape de décision. Elle tient compte aussi de l’endroit où la réponse s’affiche désormais : une requête résolue dans un résumé d’IA ou directement dans la page de résultats demande un contenu conçu pour être cité. Choisissez donc les termes par intention : c’est elle qui fait convertir le trafic, bien plus que le volume.
@@ -44,7 +49,7 @@ Sur un site multilingue, la plupart des problèmes viennent d’une page qui con
 
 ## Des analytics qui séparent chaque marché
 
-Nous configurons GA4 et Google Tag Manager pour que chaque événement ait un sens, que les conversions désignent ce que vous voulez vraiment, et que le trafic soit découpé par marché. Chaque langue apparaît dans ses propres chiffres.
+Nous configurons GA4 et Google Tag Manager pour que chaque événement ait un sens, que les conversions désignent ce que vous voulez réellement, et que le trafic soit découpé par marché. Chaque langue apparaît dans ses propres chiffres.
 
 Configurés après coup, les analytics répondent à des questions sur le mois dernier. Configurés d’abord, ils décident de ce qu’il faut faire le mois prochain.
 

@@ -113,3 +113,19 @@ direction.
 Fact-checking and stats sourcing go to a tool with live search, never to a
 model's own recall. `fact_check`, Ahrefs, Semrush and GSC are connected.
 Three overclaims were caught this month by checking rather than trusting.
+
+## Lints and orchestration notes (added 30 Sep 2026)
+
+- `npm run verify` now also runs `lint:negative` (positive framing, EN/FR/ES)
+  and `lint:fr` (French copy), both on the built output after `build`.
+- Parallel rewrite passes worked when each agent owned a disjoint file set
+  and ran no build or git; the main session built, linted and committed
+  once at the end. Shared components (footer, nav) belong to exactly one
+  agent per pass.
+- Hand-built locale pages are paired outside content-map
+  (`lib/fr-pages-data.ts`, `lib/lead-gen-hubs.ts`); prefer extending those
+  over new ad hoc pairings.
+- One root layout, correct `<html lang>` anyway: a postbuild rewrite
+  (`scripts/set-html-lang.mjs`) rather than per-locale root layouts, which
+  would need every route in a route group and the experimental
+  `globalNotFound` flag for the 404.

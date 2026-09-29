@@ -19,7 +19,7 @@ Boost Global Success with Expert Business Translation Services
 
 ## Des traductions professionnelles expertes pour un succès mondial
 
-Want to master the complexities of international business?  
+Want to master the complexities of international business ?  
 Our [business translation experts](https://mikebastin.com/services/content-localisation/) are here to help you trade confidently across borders.
 
 We deliver corporate translations for contracts, marketing, and technical documents, ensuring accuracy and legal impact in every language.
@@ -27,11 +27,11 @@ We deliver corporate translations for contracts, marketing, and technical docume
 No shortcuts. No awkward machine translation.  
 Our team blends [industry expertise and language skills](https://mikebastin.com/services/expert-translation-services/) to support your business worldwide.
 
-Looking for more? Explore our [legal translation](https://mikebastin.com/services/legal-translation/) or [website localization](https://mikebastin.com/services/website-localisation/) services to expand your reach even further.
+Looking for more ? Explore our [legal translation](https://mikebastin.com/services/legal-translation/) or [website localisation](https://mikebastin.com/services/website-localisation/) services to expand your reach even further.
 
-Ready to grow? [Contact us today](https://mikebastin.com/contact-us/) and start your journey to new markets.
+Ready to grow ? [Contact us today](https://mikebastin.com/contact-us/) and start your journey to new markets.
 
-## Pourquoi choisir nos services de traduction commerciale?
+## Pourquoi choisir nos services de traduction commerciale ?
 
 Our business [translation services](https://mikebastin.com/services/certified-and-sworn-translation-services/) combine linguistic expertise with commercial acumen, ensuring your corporate communications resonate effectively in global markets.
 
@@ -58,7 +58,7 @@ Traduction précise de manuels de produits, de spécifications et de documentati
 ## Notre processus de traduction pour les entreprises
 
 La transparence et les stratégies axées sur les résultats sont au cœur de notre approche.  
-Voici comment nous travaillons :
+Voici comment nous travaillons :
 
 We deliver translations tailored to your business context and target audience.
 

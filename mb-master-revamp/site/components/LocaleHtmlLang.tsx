@@ -1,5 +1,9 @@
 /**
- * Sets <html lang> for a FR/ES route before paint.
+ * Sets <html lang> for a FR/ES route before paint. Belt and braces since
+ * 30 Sep 2026: the exported HTML already carries the right lang
+ * (scripts/set-html-lang.mjs) and components/HtmlLang.tsx follows client
+ * navigation; this only covers a page served from a build that skipped
+ * postbuild.
  *
  * The static export has one root layout (`app/layout.tsx`) shared by every
  * route, so it cannot vary `<html lang>` per segment the way a nested

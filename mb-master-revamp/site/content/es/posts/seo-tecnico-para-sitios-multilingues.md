@@ -9,22 +9,22 @@ wpId: 24857721
 date: "2026-05-31T16:32:15"
 modified: "2026-05-31T16:32:15"
 sourceUrl: "https://mikebastin.com/es/seo-tecnico-para-sitios-multilingues/"
-excerpt: "SEO técnico para sitios multilingües: hreflang, servidor, contenido duplicado y estructura de dominios. Lo que más ajusto tras más de dos décadas."
+excerpt: "SEO técnico para sitios multilingües: hreflang, servidor, contenido duplicado y estructura de dominios. Lo que más ajustamos tras más de dos décadas."
 ---
 
-![SEO técnico para sitios web multilingües](https://mikebastin.com/wp-content/uploads/2024/12/Technical-SEO-for-Multilingual-Websites-1024x457.jpg)
+![SEO técnico para sitios web multilingües](/images/legacy/2024/12/Technical-SEO-for-Multilingual-Websites-1024x457.jpg)
 
 ## SEO técnico para sitios multilingües: lo que de verdad mueve la aguja
 
-Llevo más de dos décadas trabajando en SEO y traducción, y en los sitios multilingües es donde más proyectos dependen de un detalle técnico.
+Llevamos más de dos décadas trabajando en SEO y traducción, y en los sitios multilingües es donde más proyectos dependen de un detalle técnico.
 
 El contenido suele estar bien. Lo que marca la diferencia es un hreflang bien puesto, el servidor en el país adecuado y versiones de idioma que ocupan cada una su mercado dentro de Google.
 
-En esta guía te enseño los puntos que más ajusto cuando audito una web en varios idiomas, y cómo dejarlos resueltos para proteger tus posiciones.
+En esta guía te enseñamos los puntos que más ajustamos cuando auditamos una web en varios idiomas, y cómo dejarlos resueltos para proteger tus posiciones.
 
 > El 76 % de los compradores online prefiere adquirir productos con información en su propio idioma, y un 40 % no compra en webs que estén en otra lengua.
 > 
-> Fuente: [CSA Research](https://csa-research.com/)
+> Fuente: [CSA Research, «Can't Read, Won't Buy» (2020, 8.709 consumidores de 29 países)](https://www.newswire.com/news/survey-of-8-709-consumers-in-29-countries-finds-that-76-prefer-21174283)
 
 ### Por qué las etiquetas hreflang son el cimiento
 
@@ -40,13 +40,13 @@ Puedes ponerlas en la cabecera HTML, en las cabeceras HTTP o en el sitemap XML. 
 
 Las anotaciones tienen que ser bidireccionales: si la página A apunta a la B, la B debe apuntar de vuelta a la A. Revisa cada enlace de esa cadena: Google necesita el grupo completo para tenerlo en cuenta.
 
-#### Puntos de hreflang que reviso a diario
+#### Puntos de hreflang que revisamos a diario
 
-Comprueba que cada anotación enlaza a la URL correcta y usa un código de idioma bien formado: es lo primero que reviso.
+Comprueba que cada anotación enlaza a la URL correcta y usa un código de idioma bien formado: es lo primero que revisamos.
 
 Añade también la versión por defecto (`x-default`) para los usuarios de fuera de tus idiomas y regiones.
 
-Con estos puntos resueltos, la [localización de contenido](https://mikebastin.com/es/services/localizacion-de-contenido/) rinde y aprovechas todas las oportunidades de posicionamiento.
+Con estos puntos resueltos, la [localización de contenido](/es/services/traduccion-de-paginas-web/) rinde y aprovechas todas las oportunidades de posicionamiento.
 
 ### La ubicación del servidor y su efecto real
 
@@ -74,15 +74,15 @@ Si dos versiones comparten gran parte del texto, sepáralas con URLs distintas, 
 
 #### La traducción automática, siempre con revisión
 
-La [posedición humana](https://mikebastin.com/es/services/posedicion-de-ia/) devuelve a la traducción automática la naturalidad, el contexto y la intención del mensaje original. En un proyecto serio es imprescindible.
+La [posedición humana](/es/services/posedicion-de-ia/) devuelve a la traducción automática la naturalidad, el contexto y la intención del mensaje original. En un proyecto serio es imprescindible.
 
 Así proteges tu posicionamiento orgánico, porque Google puede tratar el texto automático en bruto como contenido de baja calidad, o incluso como duplicado.
 
-Una buena [localización de páginas web](https://mikebastin.com/es/services/traduccion-de-paginas-web/) adapta el contenido al idioma, la cultura y las expectativas de cada mercado. Va mucho más allá de cambiar palabras.
+Una buena [localización de páginas web](/es/services/traduccion-de-paginas-web/) adapta el contenido al idioma, la cultura y las expectativas de cada mercado. Va mucho más allá de cambiar palabras.
 
 Traduce los títulos y descripciones meta, los slugs de las URL, el texto alternativo y los datos estructurados cuando tenga sentido.
 
-Para producción real, trabaja con [traductores profesionales](https://mikebastin.com/es/services/traduccion-profesional/) o especialistas SEO nativos: cuidan la precisión y la voz de tu marca e integran la [investigación de palabras clave](https://mikebastin.com/es/services/busqueda-palabras-clave/) local, dos cosas que herramientas como Google Translate dejan fuera.
+Para producción real, trabaja con [traductores profesionales](/es/services/traduccion-profesional/) o especialistas SEO nativos: cuidan la precisión y la voz de tu marca e integran la [investigación de palabras clave](/es/services/seo-tecnico/) local, dos cosas que herramientas como Google Translate dejan fuera.
 
 > La mayoría de los problemas de hreflang que audito no son fallos de código. Son falta de un mapa claro de qué página equivale a cuál en cada idioma. Sin ese mapa, ningún plugin te salva.
 > 
@@ -90,9 +90,9 @@ Para producción real, trabaja con [traductores profesionales](https://mikebasti
 
 ### Estructura de dominios para sitios multilingües
 
-Elegir bien la estructura de dominios marca buena parte del éxito de un proyecto multilingüe.
+Elegir bien la estructura de dominios marca buena parte del resultado de un proyecto multilingüe.
 
-Tienes tres caminos: dominios de nivel superior por país (ccTLD), subdirectorios y subdominios. Cada uno tiene ventajas e inconvenientes, y la mejor opción depende de tus objetivos y de tu público.
+Tienes tres caminos: dominios de nivel superior por país (ccTLD), subdirectorios y subdominios. Cada uno tiene sus ventajas, y la mejor opción depende de tus objetivos y de tu público.
 
 #### ccTLD, subdirectorios o subdominios
 
@@ -116,7 +116,7 @@ Unos títulos, descripciones y textos alternativos bien traducidos suben tu visi
 
 #### Traducir y ajustar los metadatos
 
-Traduce todos los metadatos con cuidado e incluye las palabras clave propias de cada idioma. Si quieres delegarlo, mira mis servicios de [redacción SEO multilingüe](https://mikebastin.com/es/services/redaccion-seo-multilingue/).
+Traduce todos los metadatos con cuidado e incluye las palabras clave propias de cada idioma. Si quieres delegarlo, consulta nuestros servicios de [redacción SEO multilingüe](/es/services/redaccion-seo-multilingue/).
 
 Escribe metadatos propios para cada versión, adaptados al público local y a cómo busca de verdad esa audiencia. El texto alternativo traducido también ayuda en accesibilidad y en la búsqueda de imágenes.
 
@@ -126,16 +126,16 @@ El SEO multilingüe cambia rápido, con nuevas prácticas y herramientas que apa
 
 Un mantenimiento sistemático protege el rendimiento de tu sitio y te deja detectar fallos a tiempo y proteger tus posiciones.
 
-Programa [auditorías técnicas](https://mikebastin.com/es/services/monitorizacion-y-analitica/) periódicas para revisar el hreflang, vigilar errores de rastreo y comprobar la indexación en todas las versiones de idioma.
+Programa [auditorías técnicas](/es/services/seo-tecnico/) periódicas para revisar el hreflang, vigilar errores de rastreo y comprobar la indexación en todas las versiones de idioma.
 
-Cuando Google cambia su algoritmo o introduce requisitos nuevos para el [SEO internacional](https://mikebastin.com/es/services/internacionalizacion/), ajusta tu configuración cuanto antes para mantener la visibilidad.
+Cuando Google cambia su algoritmo o introduce requisitos nuevos para el [SEO internacional](/es/services/posicionamiento-multilingue/), ajusta tu configuración cuanto antes para mantener la visibilidad.
 
-### Reflexión final
+### Para cerrar
 
 El SEO técnico es el cimiento de cualquier web multilingüe que funcione.
 
 Posicionar en varios mercados pide hreflang bien resuelto, servidores elegidos con criterio, control del contenido duplicado y una estructura de dominios coherente. Cuando esas piezas encajan, Google entiende, indexa y posiciona tu contenido para el público de cada mercado.
 
-¿Quieres que tu web multilingüe rinda al máximo en cada país? [Escríbeme y revisamos juntos tu configuración técnica](https://mikebastin.com/es/contactanos/), con la experiencia de más de dos décadas en SEO y traducción de mi lado.
+¿Quieres que tu web multilingüe rinda al máximo en cada país? [Escríbenos y revisamos juntos tu configuración técnica](/es/contactanos/), con la experiencia de más de dos décadas en SEO y traducción de nuestro lado.
 
-![Pasos de implementación técnica para varias versiones de idioma](https://mikebastin.com/wp-content/uploads/2024/12/image.png)
+![Pasos de implementación técnica para varias versiones de idioma](/images/legacy/2024/12/image.png)

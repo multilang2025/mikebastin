@@ -23,7 +23,6 @@ export const metadata: Metadata = {
       "Comment se déroule une mission de SEO multilingue, de localisation ou de conseil en IA : premier échange, périmètre écrit, livraison mensuelle, facturation.",
     path: PATH,
     languages: frLanguages(PATH),
-    fallbackImage: true,
     ogLocale: "fr_FR",
   }),
 };
@@ -35,7 +34,7 @@ const STAGES = [
       "Trente minutes sur les marchés et les langues qui comptent, ce qui se positionne déjà, ce qui a déjà été essayé, et ce qu’un bon résultat représente en demandes. Nous posons d’abord nos questions, puis nous recommandons.",
   },
   {
-    name: "Un périmètre écrit, sur mesure",
+    name: "Un périmètre écrit pour vos marchés",
     detail:
       "Un bref document qui nomme les pages, les mots-clés et les livrables du premier trimestre, et qui fait quoi. Un site en cinq langues et un site en deux langues sont deux missions différentes, d’où un périmètre construit pour la vôtre.",
   },
@@ -101,7 +100,7 @@ export default function FrenchTarifsPage() {
       <section className="band band-a grain relative overflow-hidden pb-[clamp(48px,7vw,80px)] pt-[clamp(96px,14vw,160px)]">
         <div className="shell relative">
           <Reveal>
-            <p className="eyebrow mb-8">Une méthode chiffrée sur mesure</p>
+            <p className="eyebrow mb-8">Une méthode chiffrée pour vos marchés</p>
           </Reveal>
           <Reveal i={1}>
             <h1 className="mb-6 max-w-[20ch] text-[clamp(2.3rem,5.6vw,4rem)] font-semibold leading-[1.08]">

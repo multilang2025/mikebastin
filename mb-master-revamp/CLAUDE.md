@@ -147,7 +147,7 @@ needs.
   Connecting people." Use it where a motto belongs, under the wordmark or
   as `slogan` in schema, not in titles or meta descriptions, which are
   keyword real estate. FR and ES renderings live in `SiteFooter`'s string
-  table and are a first pass awaiting the owner's eye.
+  table and are a first pass awaiting the owner's eye (French reworded 30 Sep 2026 to "Automatiser l’entreprise. Traduire les idées. Relier les personnes.").
 - **Sentence case everywhere**, headings, titles and blog post titles
   alike (owner decision, 19 Sep). Capitalise the first word, proper nouns
   and acronyms only: SEO, AI, GEO, AEO, PPC, LLMs, Google Analytics,
@@ -298,6 +298,17 @@ and no og:url. Rules that came out of fixing it:
   h1 keeps `title`.
 - `.htaccess` forces `image/png` on the extensionless `opengraph-image`
   files; without it the host sends no Content-Type.
+- `<html lang>` is `en` on English pages (international English; hreflang
+  already says `en`) and `fr`/`es` on French and Spanish ones, written into
+  the exported HTML by `scripts/set-html-lang.mjs` (postbuild) and checked
+  by `npm run lint:lang` (owner, 30 Sep 2026: "My audience is
+  international"). `og:locale` stays `en_GB` for English, since it must
+  name a country and the spelling is British.
+- FR and ES routes go through `pageMeta()` too (30 Sep 2026: the `[slug]`
+  routes had no canonical, an `en_GB` og:locale and ignored `metaTitle`).
+  Each has its own `opengraph-image.tsx`; FR service markdown carries a
+  short `name` for cards and the footer, and `metaTitle` when the h1 runs
+  over 60 characters.
 
 ## Copy has to sell, not only pass the protocol
 
@@ -354,10 +365,16 @@ is in the rest, which the Master Content Protocol never covered:
   complexity of the document and the client's situation, and **apostille
   services are provided for US and Canadian citizens** (owner, 27 Sep
   2026). Never quote "2 to 5" or "3 to 7" days.
+- **We still work with Polylang, TranslatePress, Weglot, Shopify and
+  Webflow** (owner, 30 Sep 2026), alongside WPML: a legacy French claim
+  the owner confirmed, usable on any page.
 - **German and Italian level stays vague** (owner, 27 Sep 2026): "enough
   to manage SEO projects" in them, never "B1", "working Italian" or a
   described reading or speaking level. Native writers still do the
   commercial copy, and saying so stays.
+- **The address is "Calle Rugat 12 - 2, 46021 Valencia"** (owner, 30 Sep
+  2026). The hyphen is part of the address, so it is not a range: never
+  "12 to 2" (the dash rule had rewritten it) and never "12, 2.º".
 - **There is no Madrid law firm** (owner, 27 Sep 2026). The law-firm
   client is the Valencia one; correct any "Madrid law firm" on sight.
 - **Experience is "over two decades"** (owner, 27 Sep 2026: "I started in
@@ -615,30 +632,41 @@ French homepage, services index, blog index and contact pages are built,
 with French copy drafted for the owner's review. `lib/fr-pages-data.ts`
 is the one list of French pages; add a page there and it reaches the
 menu, sitemap and hreflang at once.
+`npm run lint:fr` (`scripts/fr-copy-lint.mjs`, in `verify`) checks every
+built French page for "nous" voice, vouvoiement, non-breaking spaces
+before `: ; ? !`, French spellings, "plus de deux décennies", sentence
+case, the French forbidden words and untranslated English; `npm run
+fix:fr` applies the mechanical half to `content/fr/`.
 The lead generation hub has FR and ES siblings (29 Sep 2026, owner
 request), paired by `lib/lead-gen-hubs.ts` rather than content-map; the
 ES one is the first rebuilt Spanish page. **Spanish addresses the reader as "tú"**
-(owner, 29 Sep 2026); French keeps "vous".
+(owner, 29 Sep 2026); French keeps "vous" in a **formal** register (owner,
+30 Sep 2026), enforced by `lint:fr`.
+**Spanish rebuild started 30 Sep 2026** ("Start Spanish"), following the
+French one: `docs/ES-REBUILD-PLAN.md` (the reader is a Spanish-speaking
+company selling abroad, assumed to mirror the French decisions),
+`lib/es-pages-data.ts`, `scripts/gen-es-redirects.mjs`, and `npm run
+lint:es` (`scripts/es-copy-lint.mjs`: nosotros voice, tú, paired ¿ ¡, no
+straight quotes, "más de dos décadas", the Spanish forbidden words,
+untranslated English, sentence case). The main Spanish page is
+`/es/services/optimizacion-seo/`; six services were built new
+(`traduccion-profesional`, `localizacion-de-aplicaciones`,
+`redaccion-seo-multilingue`, `consultoria-de-inteligencia-artificial`,
+`posedicion-de-ia`, `seo-tecnico`).
 
 The gaps below are the FR and ES starting position whenever the gate
 opens. Flagged rather than forgotten, so they are known and deliberate:
 
-- **No FR or ES index pages.** `/fr/services/`, `/es/services/`, `/fr/blog/`
-  and `/es/blog/` do not exist, only the individual `[slug]` routes under
-  them. `SiteFooter` handles that by giving those locales no link to an
-  index at all, since sending a French reader to an English one is worse
-  than offering nothing. Both sitemaps list the individual pages, which is
-  correct and not a workaround.
-- **No FR or ES topic pages.** `getTopics()` reads the EN clusters, which
-  have no FR/ES equivalent, so `/blog/topics/` is English only.
+- **FR and ES topic pages are built** (30 Sep 2026): `lib/locale-topics.ts`
+  groups each journal's posts (FR: `/fr/blog/sujets/`, two topics; ES:
+  `/es/blog/temas/`, four), with no hreflang since each locale groups its
+  own posts. `/blog/topics/` stays the English set.
 - **The FR and ES motto renderings are unreviewed.** They ship in
   `SiteFooter`'s string table and are a first pass, not signed off.
-- **21 FR and ES service pages have unadapted headings.** The heading rule
-  of 21 Sep applies to English commercial routes only, and
-  `scripts/heading-shape-lint.mjs` reports those 21 on every run without
-  failing. A word count does not survive translation, so they need a
-  native reader rather than a rule, which is exactly the work the gate is
-  holding back.
+- **FR and ES headings are reported, not failed, by the heading lint.**
+  The French and Spanish service pages were rewritten on 30 Sep 2026;
+  `scripts/heading-shape-lint.mjs` still reports them without failing,
+  since a word count does not survive translation.
 - **valenciamove.com's services page launches EN only.** The plan first
   recommended EN plus ES; the owner's call on 20 Sep supersedes that.
 

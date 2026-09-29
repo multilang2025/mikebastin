@@ -26,7 +26,6 @@ export const metadata: Metadata = {
       "Vos pages en français vendent. Nous faisons vendre vos autres langues aussi : référencement par marché, pages écrites par des natifs, demandes comptées pays par pays.",
     path: PATH,
     languages: frLanguages(PATH),
-    fallbackImage: true,
     ogLocale: "fr_FR",
   }),
 };

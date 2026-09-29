@@ -6,6 +6,7 @@ import SiteFooter from "@/components/SiteFooter";
 import JsonLd from "@/components/JsonLd";
 import LocaleHtmlLang from "@/components/LocaleHtmlLang";
 import { getPostsForLocale, postPath } from "@/lib/posts";
+import { localeTopics, topicPath } from "@/lib/locale-topics";
 import { frLanguages } from "@/lib/fr-pages";
 import { SITE_URL, breadcrumbSchema } from "@/lib/schema";
 
@@ -21,7 +22,6 @@ export const metadata: Metadata = {
       "Nos articles en français sur le SEO international, la visibilité dans les réponses des IA et la conquête de nouveaux marchés, pour les entreprises qui vendent à l’étranger.",
     path: PATH,
     languages: frLanguages(PATH),
-    fallbackImage: true,
     ogLocale: "fr_FR",
   }),
 };
@@ -55,6 +55,17 @@ export default function FrenchBlogIndex() {
             <h2 className="mb-6 max-w-[46ch] text-[clamp(1.2rem,2.1vw,1.7rem)] font-medium leading-[1.3]" style={{ color: "var(--ink)" }}>
               Ce qui fait vendre un site dans chaque langue, et comment être cité dans les réponses des IA.
             </h2>
+          </Reveal>
+          <Reveal i={3}>
+            <ul className="flex flex-wrap gap-x-6 gap-y-2 text-[.95rem]" aria-label="Sujets">
+              {localeTopics("fr").map((t) => (
+                <li key={t.slug}>
+                  <Link href={topicPath("fr", t.slug)} className="ulink">
+                    {t.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
           </Reveal>
         </div>
       </section>

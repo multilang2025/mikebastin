@@ -14,7 +14,8 @@ import {
   servicePath,
 } from "@/lib/services-locale";
 import { SITE_URL } from "@/lib/schema";
-import { builtFrPages, enLanguages, frLanguages } from "@/lib/fr-pages";
+import { builtFrPages, builtEsPages, enLanguages, frLanguages, esLanguages } from "@/lib/fr-pages";
+import { localeTopics, topicPath } from "@/lib/locale-topics";
 import { leadGenLanguages, leadGenPath } from "@/lib/lead-gen-hubs";
 
 /**
@@ -91,6 +92,11 @@ export function getSiteUrls(): UrlEntry[] {
     out.push({ path: p.path, locale: "fr", kind: "page", section: "French", label: p.label, languages: frLanguages(p.path) });
   }
 
+  // The hand-built Spanish pages (lib/es-pages-data.ts), once their route exists.
+  for (const p of builtEsPages()) {
+    out.push({ path: p.path, locale: "es", kind: "page", section: "Spanish", label: p.label, languages: esLanguages(p.path) });
+  }
+
   // Services. lead-generation has its own hand-built route rather than
   // going through /services/[slug]/, but its URL is the same shape, so it
   // needs no special case here.
@@ -114,6 +120,13 @@ export function getSiteUrls(): UrlEntry[] {
   // lib/lead-gen-hubs.ts rather than through content-map.
   out.push({ path: leadGenPath("fr"), locale: "fr", kind: "page", section: "French", label: "Génération de leads", languages: leadGenLanguages() });
   out.push({ path: leadGenPath("es"), locale: "es", kind: "page", section: "Spanish", label: "Generación de leads", languages: leadGenLanguages() });
+
+  // FR and ES topic pages (lib/locale-topics.ts): archives with no sibling.
+  for (const loc of ["fr", "es"] as const) {
+    for (const t of localeTopics(loc)) {
+      out.push({ path: topicPath(loc, t.slug), locale: loc, kind: "page", section: loc === "fr" ? "French" : "Spanish", label: t.name });
+    }
+  }
 
   for (const t of getTopics()) {
     out.push({

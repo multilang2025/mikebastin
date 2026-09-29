@@ -9,14 +9,14 @@ wpId: 24857759
 date: "2026-05-31T18:00:51"
 modified: "2026-05-31T18:00:51"
 sourceUrl: "https://mikebastin.com/es/diferencias-culturales-sitios-web-multilingues/"
-excerpt: "Cómo las diferencias culturales cambian una web multilingüe: idioma, colores, símbolos y timing por mercado, con más de dos décadas de experiencia detrás."
+excerpt: "Cómo las diferencias culturales cambian una web multilingüe: idioma, colores, símbolos y momento de cada mercado, con más de dos décadas de oficio."
 ---
 
-![Diferencias culturales en sitios web multilingües](https://mikebastin.com/wp-content/uploads/2024/10/cultural-differences-in-multilingual-websites-1024x363.jpg)
+![Diferencias culturales en sitios web multilingües](/images/legacy/2024/10/cultural-differences-in-multilingual-websites-1024x363.jpg)
 
 ## Diferencias culturales en sitios web multilingües: lo que decide si conectas o rebotas
 
-Llevo más de dos décadas traduciendo y posicionando webs en varios idiomas, y he visto una y otra vez lo que decide el resultado.
+Llevamos más de dos décadas traduciendo y posicionando webs en varios idiomas, y hemos visto una y otra vez lo que decide el resultado.
 
 Una marca traduce su web palabra por palabra, la publica en cinco mercados y espera los mismos resultados en todos. La respuesta de cada mercado depende de algo más que el idioma.
 
@@ -38,7 +38,7 @@ El ejemplo clásico lo protagonizó Pepsi. Su eslogan «Come Alive with Pepsi» 
 
 Un poco de trabajo cultural previo protege tu dinero y tu imagen.
 
-He auditado webs en las que una sola imagen o un gesto marcaba las ventas en un país entero.
+Hemos auditado webs en las que una sola imagen o un gesto marcaba las ventas en un país entero.
 
 ### Estrategias que funcionan de verdad
 
@@ -46,11 +46,11 @@ He auditado webs en las que una sola imagen o un gesto marcaba las ventas en un 
 
 Antes de redactar, métete en la cultura de destino. Qué costumbres tiene, qué tabúes, qué valora y qué le incomoda.
 
-Una hora de investigación al principio te ahorra semanas de trabajo después. Si necesitas ayuda con ese trabajo, lo cubro en mi servicio de [consultoría cultural](https://mikebastin.com/es/services/consultoria-cultural/).
+Una hora de investigación al principio te ahorra semanas de trabajo después. Si necesitas ayuda con ese trabajo, lo cubrimos en nuestro servicio de [consultoría cultural](/es/services/redaccion-seo-multilingue/).
 
 #### Transcrea el mensaje
 
-Una buena adaptación trabaja el efecto, más allá de las palabras. La [transcreación](https://mikebastin.com/es/services/transcreacion/) reescribe el mensaje para que conecte con los modismos, el humor y el tono de cada mercado.
+Una buena adaptación trabaja el efecto, más allá de las palabras. La [transcreación](/es/services/traduccion-profesional/) reescribe el mensaje para que conecte con los modismos, el humor y el tono de cada mercado.
 
 Un juego de palabras que arrasa en español necesita su propio equivalente en alemán: la gracia se reconstruye en cada idioma.
 
@@ -70,7 +70,7 @@ Programa las grandes campañas en fechas que respeten el calendario religioso lo
 
 El conocimiento de primera mano vale oro. Si puedes, trabaja con un equipo diverso o consulta con personas de tus mercados objetivo.
 
-Detectan matices que van más allá de la investigación más cuidada. Cuando ese trabajo se traslada al contenido, lo veo en mi servicio de [redacción SEO multilingüe](https://mikebastin.com/es/services/redaccion-seo-multilingue/).
+Detectan matices que van más allá de la investigación más cuidada. Cuando ese trabajo se traslada al contenido, lo vemos en nuestro servicio de [redacción SEO multilingüe](https://mikebastin.com/es/services/redaccion-seo-multilingue/).
 
 > La mayoría de los fracasos internacionales que he visto no fueron por mala traducción. Fueron por dar por hecho que lo que funciona en un mercado funciona igual en todos. Nunca es así.
 > 
@@ -82,7 +82,7 @@ Cuando lo aciertas, la recompensa es clara. Mira cómo McDonald’s adapta su ca
 
 Del McAloo Tikki en la India al Teriyaki McBurger en Japón, han convertido la sensibilidad cultural en una historia de éxito global.
 
-![Diferencias culturales en sitios web multilingües](https://mikebastin.com/wp-content/uploads/2024/10/napkin-selection.png)
+![Diferencias culturales en sitios web multilingües](/images/legacy/2024/10/napkin-selection.png)
 
 ### Reflexión final
 
@@ -90,4 +90,4 @@ Llevar tu contenido al mundo va de jugar con cabeza.
 
 La próxima vez que prepares contenido para varios países, hazte una pregunta sencilla: ¿esto conecta igual en Río que en Roma?
 
-¿Quieres que tu web hable de verdad el idioma cultural de cada mercado? [Escríbeme y lo revisamos juntos](https://mikebastin.com/es/contactanos/), con la experiencia de más de dos décadas en traducción y posicionamiento multilingüe de mi lado.
+¿Quieres que tu web hable de verdad el idioma cultural de cada mercado? [Escríbenos y lo revisamos juntos](/es/contactanos/), con la experiencia de más de dos décadas en traducción y posicionamiento multilingüe de nuestro lado.

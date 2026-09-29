@@ -25,7 +25,7 @@ Análisis prácticos, guías estratégicas y reflexiones basadas en experiencia 
 
 ### Sin recetas mágicas. Sin ruido innecesario. Solo decisiones basadas en datos, contexto y experiencia.
 
-[![Cómo optimizar tu Perfil de Empresa de Google](https://mikebastin.com/wp-content/uploads/2024/10/Google-Business-Profile-400x250.jpg)](https://mikebastin.com/es/optimizar-perfil-de-empresa-de-google/)
+[![Cómo optimizar tu Perfil de Empresa de Google](/images/legacy/2024/10/Google-Business-Profile-400x250.jpg)](https://mikebastin.com/es/optimizar-perfil-de-empresa-de-google/)
 
 ## [Cómo optimizar tu Perfil de Empresa de Google](https://mikebastin.com/es/optimizar-perfil-de-empresa-de-google/)
 
@@ -35,7 +35,7 @@ Cómo optimizar tu Perfil de Empresa de Google en 2026: categorías, reseñas, f
 
 [leer más](https://mikebastin.com/es/optimizar-perfil-de-empresa-de-google/)
 
-[![Análisis de la competencia para SEO](https://mikebastin.com/wp-content/uploads/2026/01/competitoranalysis-400x250.jpg)](https://mikebastin.com/es/analisis-de-la-competencia-seo/)
+[![Análisis de la competencia para SEO](/images/legacy/2026/01/competitoranalysis-400x250.jpg)](https://mikebastin.com/es/analisis-de-la-competencia-seo/)
 
 ## [Análisis de la competencia para SEO](https://mikebastin.com/es/analisis-de-la-competencia-seo/)
 
@@ -45,7 +45,7 @@ Análisis de la competencia para SEO en 2026: rivales reales en la SERP, cuota d
 
 [leer más](https://mikebastin.com/es/analisis-de-la-competencia-seo/)
 
-[![Link building local en España](https://mikebastin.com/wp-content/uploads/2024/10/spanish-link-building-400x250.jpg)](https://mikebastin.com/es/link-building-local-en-espana/)
+[![Link building local en España](/images/legacy/2024/10/spanish-link-building-400x250.jpg)](https://mikebastin.com/es/link-building-local-en-espana/)
 
 ## [Link building local en España](https://mikebastin.com/es/link-building-local-en-espana/)
 
@@ -55,7 +55,7 @@ Link building en España: RR. PP. digitales, inserciones sectoriales y relacione
 
 [leer más](https://mikebastin.com/es/link-building-local-en-espana/)
 
-[![Herramientas de pruebas de localización](https://mikebastin.com/wp-content/uploads/2024/10/testing-tools-400x250.jpg)](https://mikebastin.com/es/herramientas-pruebas-de-localizacion/)
+[![Herramientas de pruebas de localización](/images/legacy/2024/10/testing-tools-400x250.jpg)](https://mikebastin.com/es/herramientas-pruebas-de-localizacion/)
 
 ## [Herramientas de pruebas de localización](https://mikebastin.com/es/herramientas-pruebas-de-localizacion/)
 
@@ -65,7 +65,7 @@ Las mejores herramientas de pruebas de localización: TMS, gestión de casos, ca
 
 [leer más](https://mikebastin.com/es/herramientas-pruebas-de-localizacion/)
 
-[![SEO multilingüe en 2026: de las posiciones a la presencia total](https://mikebastin.com/wp-content/uploads/2024/10/best-practices-for-multilingual-seo-400x250.jpg)](https://mikebastin.com/es/seo-multilingue-2026-presencia-total/)
+[![SEO multilingüe en 2026: de las posiciones a la presencia total](/images/legacy/2024/10/best-practices-for-multilingual-seo-400x250.jpg)](https://mikebastin.com/es/seo-multilingue-2026-presencia-total/)
 
 ## [SEO multilingüe en 2026: de las posiciones a la presencia total](https://mikebastin.com/es/seo-multilingue-2026-presencia-total/)
 
@@ -75,7 +75,7 @@ SEO multilingüe en 2026: cómo pasar de posicionar páginas a tener presencia t
 
 [leer más](https://mikebastin.com/es/seo-multilingue-2026-presencia-total/)
 
-[![El papel de la localización en el contenido web multilingüe](https://mikebastin.com/wp-content/uploads/2024/10/optimising-multilingual-website-content-400x250.jpg)](https://mikebastin.com/es/localizacion-de-contenido-web-multilingue/)
+[![El papel de la localización en el contenido web multilingüe](/images/legacy/2024/10/optimising-multilingual-website-content-400x250.jpg)](https://mikebastin.com/es/localizacion-de-contenido-web-multilingue/)
 
 ## [El papel de la localización en el contenido web multilingüe](https://mikebastin.com/es/localizacion-de-contenido-web-multilingue/)
 
@@ -85,7 +85,7 @@ Cómo la localización adapta el contenido web multilingüe a cada mercado: SEO,
 
 [leer más](https://mikebastin.com/es/localizacion-de-contenido-web-multilingue/)
 
-[![Diferencias culturales en sitios web multilingües](https://mikebastin.com/wp-content/uploads/2024/10/cultural-differences-in-multilingual-websites-400x250.jpg)](https://mikebastin.com/es/diferencias-culturales-sitios-web-multilingues/)
+[![Diferencias culturales en sitios web multilingües](/images/legacy/2024/10/cultural-differences-in-multilingual-websites-400x250.jpg)](https://mikebastin.com/es/diferencias-culturales-sitios-web-multilingues/)
 
 ## [Diferencias culturales en sitios web multilingües](https://mikebastin.com/es/diferencias-culturales-sitios-web-multilingues/)
 
@@ -95,7 +95,7 @@ Cómo las diferencias culturales cambian una web multilingüe: idioma, colores, 
 
 [leer más](https://mikebastin.com/es/diferencias-culturales-sitios-web-multilingues/)
 
-[![SEO técnico para sitios web multilingües](https://mikebastin.com/wp-content/uploads/2024/12/Technical-SEO-for-Multilingual-Websites-400x250.jpg)](https://mikebastin.com/es/seo-tecnico-para-sitios-multilingues/)
+[![SEO técnico para sitios web multilingües](/images/legacy/2024/12/Technical-SEO-for-Multilingual-Websites-400x250.jpg)](https://mikebastin.com/es/seo-tecnico-para-sitios-multilingues/)
 
 ## [SEO técnico para sitios web multilingües](https://mikebastin.com/es/seo-tecnico-para-sitios-multilingues/)
 
@@ -105,7 +105,7 @@ SEO técnico para sitios multilingües: hreflang, ubicación del servidor, conte
 
 [leer más](https://mikebastin.com/es/seo-tecnico-para-sitios-multilingues/)
 
-[![Trabajar en remoto desde Valencia: mi experiencia real después de una década aquí](https://mikebastin.com/wp-content/uploads/2026/04/trabajar-en-remoto-valencia-estilo-de-vida-digital-400x250.webp)](https://mikebastin.com/es/trabajar-en-remoto-desde-valencia/)
+[![Trabajar en remoto desde Valencia: mi experiencia real después de una década aquí](/images/legacy/2026/04/trabajar-en-remoto-valencia-estilo-de-vida-digital-400x250.webp)](https://mikebastin.com/es/trabajar-en-remoto-desde-valencia/)
 
 ## [Trabajar en remoto desde Valencia: mi experiencia real después de una década aquí](https://mikebastin.com/es/trabajar-en-remoto-desde-valencia/)
 
@@ -115,7 +115,7 @@ Valencia lleva dos años en el podio mundial para expatriados según InterNation
 
 [leer más](https://mikebastin.com/es/trabajar-en-remoto-desde-valencia/)
 
-[![Estrategia de contenido dual: optimizar para SEO y GEO](https://mikebastin.com/wp-content/uploads/2026/01/estrategiacontenidodualseogeos-400x250.jpg)](https://mikebastin.com/es/optimizar-para-seo-y-geo/)
+[![Estrategia de contenido dual: optimizar para SEO y GEO](/images/legacy/2026/01/estrategiacontenidodualseogeos-400x250.jpg)](https://mikebastin.com/es/optimizar-para-seo-y-geo/)
 
 ## [Estrategia de contenido dual: optimizar para SEO y GEO](https://mikebastin.com/es/optimizar-para-seo-y-geo/)
 
@@ -125,7 +125,7 @@ El contenido puede optimizarse para búsqueda tradicional y citas de IA simultá
 
 [leer más](https://mikebastin.com/es/optimizar-para-seo-y-geo/)
 
-[![La transformación de las ventas mediante sistemas de cualificación de leads con IA](https://mikebastin.com/wp-content/uploads/2026/01/sistemascualificacionleadsia-400x250.jpg)](https://mikebastin.com/es/sistemas-cualificacion-leads-ia/)
+[![La transformación de las ventas mediante sistemas de cualificación de leads con IA](/images/legacy/2026/01/sistemascualificacionleadsia-400x250.jpg)](https://mikebastin.com/es/sistemas-cualificacion-leads-ia/)
 
 ## [La transformación de las ventas mediante sistemas de cualificación de leads con IA](https://mikebastin.com/es/sistemas-cualificacion-leads-ia/)
 
@@ -135,7 +135,7 @@ La cualificación con IA filtra leads automáticamente, sistemas que identifican
 
 [leer más](https://mikebastin.com/es/sistemas-cualificacion-leads-ia/)
 
-[![Optimización para sistemas de IA: por qué el seguimiento de prompts ya no es suficiente](https://mikebastin.com/wp-content/uploads/2026/01/Optimizacion-para-sistemas-de-IA-e1769595525365-400x250.jpg)](https://mikebastin.com/es/optimizacion-para-sistemas-de-ia/)
+[![Optimización para sistemas de IA: por qué el seguimiento de prompts ya no es suficiente](/images/legacy/2026/01/Optimizacion-para-sistemas-de-IA-e1769595525365-400x250.jpg)](https://mikebastin.com/es/optimizacion-para-sistemas-de-ia/)
 
 ## [Optimización para sistemas de IA: por qué el seguimiento de prompts ya no es suficiente](https://mikebastin.com/es/optimizacion-para-sistemas-de-ia/)
 

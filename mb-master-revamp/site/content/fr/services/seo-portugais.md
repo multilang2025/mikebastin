@@ -1,199 +1,53 @@
 ---
-words: 1705
-title: "SEO portugais"
+words: 683
+title: "SEO au Portugal pour vendre aux acheteurs portugais"
+name: "SEO au Portugal"
 slug: "seo-portugais"
 locale: "fr"
 type: "services"
 group: "g083"
 wpId: 24848863
 date: "2024-09-29T12:42:48"
-modified: "2026-05-29T07:41:21"
+modified: "2026-09-30T12:00:00"
 sourceUrl: "https://mikebastin.com/fr/services/seo-portugais/"
-excerpt: "Les services de référencement (SEO) portugais se spécialisent dans l'optimization des sites web pour le marché lusophone, aidant les entreprises à obtenir un meilleur classement dans les moteurs de recherche locaux comme Google. Ces services comprennent la recherche de mots-clés en portugais, la création de contenu culturellement pertinent et l'ajustement des aspects techniques pour s'adapter aux comportements de recherche locaux."
+excerpt: "Des pages portugaises écrites par des natifs pour le Portugal ou le Brésil : vos visiteurs lusophones deviennent des clients qui vous contactent."
 ---
 
-# Portuguese SEO: PT-PT and PT-BR as distinct markets, native execution
+## Vos pages portugaises attirent des visiteurs : faites-en des demandes
 
-Portugal and Brazil are not the same market. I read Portuguese at working level via Spanish and French. Native writing handled by PT-PT or PT-BR copywriters from the BeTranslated network depending on your target.
+Vous vendez déjà au Portugal, ou vous vous y préparez, et vos pages en portugais amènent des visiteurs. L’étape suivante est d’en faire des demandes. Un acheteur de Lisbonne ou de Porto reconnaît dès la première phrase si la page a été écrite pour lui, en portugais européen, avec les informations d’entreprise qu’il attend. Quand c’est le cas, il vous fait confiance et vous écrit.
 
-~260M
+Le Portugal est un marché européen mûr, en euros, sous RGPD, et accueillant pour une entreprise francophone qui connaît déjà l’Europe. Des pages écrites pour lui transforment cette proximité en ventes.
 
-Portuguese speakers worldwide (Brazil ~215M, Portugal ~10M, Angola, Mozambique, diaspora)
+<aside class="post-cta">
+<p><strong>Vous voulez que vos visiteurs portugais deviennent des clients ?</strong> Nous préparons avec vous des pages portugaises écrites par des natifs pour le marché qui les lit. <a href="/fr/nous-contacter/">Réserver un premier échange</a>.</p>
+</aside>
 
-PT-PT ≠ PT-BR
+## Ce que nous faisons pour votre marché portugais
 
-Portugal and Brazil have major vocabulary, grammar and regulatory differences. Treated as separate markets.
+Nous commençons par la question qui oriente tout le reste : Portugal, Brésil ou les deux. Viennent ensuite :
 
-Working read
+- un audit de votre présence actuelle en portugais ;
+- une recherche de mots-clés par marché, validée par un rédacteur natif sur la terminologie et la façon réelle de formuler les recherches ;
+- une stratégie et un calendrier éditorial par marché, validés avec vous en français ;
+- des pages rédigées par des natifs et relues par un second lecteur natif ;
+- des liens obtenus dans la presse du marché visé, Público et Expresso au Portugal, Folha et Estadão au Brésil ;
+- un rapport mensuel en français, marché par marché.
 
-Portuguese read at working level via Spanish and French. Native execution for writing.
+## Qui lit et qui écrit votre portugais
 
-SEO + GEO
+Nous lisons le portugais d’Europe et celui du Brésil à un niveau de travail, appuyé sur le français natif et l’espagnol quotidien : assez pour auditer une page de résultats, suivre les pages d’un concurrent, vérifier la configuration technique et prendre des notes en réunion avec l’équipe native.
 
-visibility on Google.pt or Google.com.br and LLMs answering in Portuguese
+La rédaction revient à des natifs du marché visé, issus du réseau BeTranslated, l’agence de traduction que nous dirigeons depuis vingt ans : un rédacteur portugais pour le Portugal, un rédacteur brésilien pour le Brésil, chacun sur sa propre variante. Nous vous le disons dès le départ, pour que vous sachiez qui écrit chaque page.
 
-## Three ways to fail at Portuguese SEO
+## Portugal ou Brésil : deux marchés, une langue
 
-Recurring patterns on Portuguese sites I audit:
+Le portugais européen et le portugais du Brésil diffèrent par le vocabulaire, la grammaire, la monnaie et le cadre réglementaire. Chaque public reconnaît la variante : un lecteur de Lisbonne trouve un texte brésilien trop brésilien, un lecteur de São Paulo trouve un texte européen raide. Écrit pour chacun, le site gagne la confiance des deux. Deux balises hreflang distinctes, pt-PT et pt-BR, et un sitemap par variante gardent les versions séparées.
 
-Portugal European Portuguese (PT-PT) and Brazilian Portuguese (PT-BR) diverge significantly in vocabulary, pronunciation, grammar conventions, regulatory frameworks and trust signals. « Telemóvel » vs « celular », « autocarro » vs « ônibus », different orthographic preferences post-2009 reform, EUR vs BRL currency, GDPR-EU vs LGPD compliance. A unified Portuguese site sounds Brazilian to a Portuguese reader and European to a Brazilian one. Both lose trust.
+Chaque marché attend aussi ses propres signaux. Le Portugal attend un NIF ou un NIPC visible et un consentement aux cookies conforme au RGPD. Le Brésil attend un CNPJ, une gestion des données conforme à la LGPD, la loi brésilienne contrôlée par sa propre autorité, l’ANPD, et, pour une boutique en ligne, le paiement par PIX ou par boleto bancário. PIX, lancé par la banque centrale en 2020, est devenu le moyen de paiement d’une grande partie des Brésiliens. Un tunnel de commande qui le propose convertit mieux, et une page qui convertit tient mieux ses positions. Pour les données sensibles ou les transferts internationaux, un avocat brésilien spécialisé complète notre travail technique.
 
-Brazil is ~215 million speakers, the world’s 5th largest country by population and a major digital economy with its own ecommerce giants (Mercado Livre, Magalu, Americanas), payment methods (PIX, boleto bancário) and SEO ecosystem. European companies often default to PT-PT and miss the larger market entirely. The strategic question is which market matches your offer, not which one is geographically closer.
+Le Brésil compte environ 215 millions de locuteurs. Pour une PME européenne qui vend des services, le Portugal est souvent le meilleur point de départ : c’est le marché qu’elle peut bien servir. Nous faisons la recommandation au cadrage, selon votre offre et l’endroit où se trouvent déjà vos clients.
 
-Portugal: NIF / NIPC visible, EUR currency, GDPR-EU compliant cookie consent. Brazil: CNPJ visible, BRL currency, LGPD-compliant privacy policy, PIX and boleto payment methods for B2C ecommerce. The same site cannot satisfy both. Absence of expected local signals immediately erodes conversion in either market.
+## Comment nous travaillons avec vous
 
-Portuguese SEO starts with the strategic question: PT-PT, PT-BR, or both with distinct hreflang. Native writing per market by the appropriate copywriter from the [BeTranslated network](https://mikebastin.com/services/multilingual-seo/). No « Portuguese » content that satisfies neither side of the Atlantic.
-
-## What I include in a Portuguese SEO engagement
-
-Distinct research per variant by the appropriate native copywriter. PT-PT for Portugal, PT-BR for Brazil. Different keyword universes, different intent, different competition.
-
-Hreflang pt-PT and pt-BR distinct, separate sitemap per variant, dedicated content with appropriate vocabulary, currency and regulatory references.
-
-Portugal: NIF/NIPC, GDPR-EU, EUR. Brazil: CNPJ, LGPD, BRL, PIX/boleto integration where relevant. Distinct configurations per target.
-
-Subdirectory, subdomain or ccTLD architecture depending on PT-PT vs PT-BR targeting, hreflang validated, translated slugs, localized schema markup.
-
-Portugal: Público, Expresso, Jornal de Negócios, sector associations. Brazil: Folha, Estadão, Valor Econômico, regional press, sector associations.
-
-Optimization for ChatGPT, Claude, Perplexity and Google AI Overviews in Portuguese. LLMs distinguish PT-PT and PT-BR responses to a meaningful extent.
-
-## My process in 5 steps, named deliverables
-
-Strategic piloting in English or French. Editorial execution by native PT-PT or PT-BR copywriters depending on your target.
-
-**Deliverable:** strategic recommendation on PT-PT vs PT-BR vs both, based on your offer fit, sales pipeline data, competition per market, budget. Architecture decision: subdirectory, subdomain or ccTLD per variant.
-
-**Deliverable:** distinct keyword spreadsheets per variant. Volumes, intent classification, long tail. Native copywriter validation on terminology and natural query phrasing per market.
-
-**Deliverable:** 6-12 month strategy with editorial calendar per variant, technical plan, legal compliance roadmap (GDPR-EU for PT, LGPD for BR), payment methods integration plan for ecommerce, local backlink strategy per market.
-
-**Deliverable:** native writing by PT-PT or PT-BR copywriters depending on target, briefs from me in English or French, content QA by a second native reader. Technical optimization, local backlinks, Search Console submission per variant.
-
-**Deliverable:** monthly report with Google.pt and / or Google.com.br positions, AI citations per variant, performance per market, actionable recommendations. Report in English or French.
-
-## Engagement model
-
-Transparent split: strategy and supervision by me, native writing per variant by appropriate Portuguese copywriters.
-
-**Context:** the multilingual translation agency network includes native PT-PT translators in Portugal and native PT-BR copywriters in Brazil. Each variant is handled by a copywriter who lives and works in the target market.
-
-**My role:** I read Portuguese at working level via Spanish and French, enough to follow SERPs, audit competitor pages and validate brief execution at a structural level. I write SEO briefs in English or French to the appropriate copywriter, supervise technical configuration, validate strategic angles. Native writing is done by natives.
-
-**Outcome:** Portuguese content that reads correctly to the target audience (Portuguese to a Portuguese reader, Brazilian to a Brazilian reader), aligned on solid SEO strategy, with no machine translation patched into commercial pages.
-
-**Target profile:** European SMB or mid-market company entering Portugal, or company entering Brazil from Europe / North America. Monthly budget 1500-5000 € depending on scope.
-
-**How I work:** monthly strategic touchpoints in English or French. I present the trade-offs (PT-PT vs PT-BR priority, budget allocation, sequencing), you validate. Native production handled per market. One interlocutor (me), one invoice.
-
-**Why it works:** Portuguese is too often treated as a single language by SEO agencies that have not actually run campaigns in both Portugal and Brazil. My model is explicit about the PT-PT vs PT-BR separation and about who writes what.
-
-## What is included, what is not
-
-Service
-
-Included
-
-Not included
-
-Portuguese SEO audit (PT-PT and / or PT-BR scope)
-
-✓
-
-Native keyword research per variant
-
-✓
-
-PT-PT vs PT-BR market prioritisation
-
-✓
-
-Hreflang pt-PT and / or pt-BR, localized schema
-
-✓
-
-Native writing per variant (BeTranslated PT-PT or PT-BR copywriters)
-
-✓
-
-Briefing and content QA piloted by Mike
-
-✓
-
-GDPR-EU (Portugal) or LGPD (Brazil) compliance setup
-
-✓
-
-Monthly reporting per variant in English or French
-
-✓
-
-Advanced Portuguese or Brazilian legal counsel
-
-⨯ via PT advogado or BR advogado partner
-
-Google Ads campaigns in Portuguese
-
-⨯ covered by [multilingual SEM](https://mikebastin.com/services/multilingual-sem/)
-
-Local presence per city in PT or BR (GBP, citations)
-
-⨯ covered by [local SEO](https://mikebastin.com/services/local-seo/)
-
-## Why this model is more honest (and more effective)
-
-**Mike Bastin:** Over two decades in SEO. Portuguese: working reading level via French (native) and Spanish (Valencia resident since 2016, 16 years in the Dominican Republic). I read PT-PT and PT-BR SERPs, understand competitor pages, can follow notes in Portuguese with some effort. I do not write or speak the language commercially.
-
-This boundary is explicit. Many European SEO agencies « cover » Portuguese without separating PT-PT and PT-BR, and without natives writing the commercial copy. My model is honest about both: PT-PT and PT-BR are distinct markets, and writing for each is done by natives from that market.
-
-The benefit: you pay for strategy where strategy is delivered, and for native writing where native writing is necessary, without an intermediary taking a margin to mask the reality.
-
-[More about the team →](https://mikebastin.com/about-us/)
-
-### Portugal, Brazil, or both?
-
-Strategic question at every Portuguese SEO engagement.
-
-**Portugal only (PT-PT):** ~10M speakers, mature EU market, GDPR-EU, EUR. Default for European SMBs with proximity to Portugal or expat targeting.
-
-**Brazil only (PT-BR):** ~215M speakers, major digital economy, LGPD, BRL. Default for international companies looking for scale, ecommerce volume, or fintech expansion.
-
-**Both PT-PT + PT-BR (with distinct hreflang):** justified for global brands or companies with active customers in both. Two distinct content sets, two compliance frameworks, two payment ecosystems. Significant editorial overhead but valuable when justified by the customer base.
-
-Reasoned recommendation given at scoping, not a default opinion.
-
-## Frequently asked questions on Portuguese SEO
-
-Why insist on separating PT-PT and PT-BR?
-
-Because European Portuguese and Brazilian Portuguese diverge enough on vocabulary, grammar, regulatory frameworks, currency and trust signals that a unified Portuguese site sounds wrong to both audiences. Portuguese readers in Lisbon find unified PT-BR content distractingly Brazilian. Brazilian readers in São Paulo find unified PT-PT content stiff and unnatural. Both lose trust, both convert worse. Separation is the only honest approach.
-
-You don’t speak Portuguese. How is this Portuguese SEO?
-
-I read Portuguese at working level via native French and fluent Spanish. Enough to audit PT-PT and PT-BR SERPs, follow competitor pages, validate technical configuration for the variant, take notes in native team meetings. Writing commercial copy is done by native PT-PT or PT-BR copywriters depending on target market. The split is honest and the production chain produces content that reads native because it is.
-
-Should I target Portugal or Brazil first?
-
-Depends on your offer and sales reality. Portugal: ~10M speakers, mature EU regulatory environment, expat-friendly market for foreign businesses, EUR currency. Brazil: ~215M speakers, much larger scale, distinct payment methods (PIX dominant since 2020), LGPD compliance, BRL currency with FX considerations. Strategic question based on your offer fit, not on geographic proximity.
-
-How do you handle LGPD compliance for the Brazilian market?
-
-LGPD (Lei Geral de Proteção de Dados) is Brazil’s data protection law, broadly similar to GDPR but with distinct enforcement under ANPD (Autoridade Nacional de Proteção de Dados). I include the technical setup for LGPD-compliant cookie consent, data subject rights, privacy policy. For complex cases (sensitive data, cross-border transfers, AI-driven decisions) I recommend a specialised Brazilian privacy lawyer on top of my technical implementation.
-
-Should I integrate PIX for the Brazilian market?
-
-For B2C ecommerce or any consumer-facing transaction in Brazil, yes. PIX has become the dominant payment method since 2020 (faster than credit cards, instant settlement, near-zero fees for individuals). Boleto bancário remains relevant for older demographics and B2B. A Brazilian ecommerce without PIX leaks a significant share of buyers. Integration is usually a paid Stripe / Mercado Pago / Pagar.me extension on the WordPress side.
-
-How long before results in Portuguese SEO?
-
-First measurable signals: 8 to 12 weeks. Significant traffic: 6 to 14 months depending on market and sectoral competition. PT-PT is generally less saturated than DE or FR equivalents in many verticals. PT-BR is competitive on consumer verticals (especially ecommerce, fintech, education) and more accessible on B2B niches.
-
-How much does a Portuguese SEO engagement cost?
-
-Quoted. The price depends on scope (PT-PT only, PT-BR only, or both), editorial volume, initial site state, sectoral competition. Free first call: 30 minutes to understand your context and give an honest range. No generic proposal sent without a conversation.
-
-## Ready to rank in Portuguese?
-
-I start with the strategic question: Portugal, Brazil, or both. Then a native-reviewed audit of your current Portuguese presence. Free first call, no commitment.
-
-Related services: [multilingual SEO](https://mikebastin.com/services/multilingual-seo/) · [international SEO](https://mikebastin.com/services/global-seo-solutions/) · [multilingual SEM](https://mikebastin.com/services/multilingual-sem/)
+Chaque mois, un point stratégique en français : nous présentons les arbitrages, vous décidez. L’accompagnement se règle au mois. La rédaction et la traduction sont chiffrées sur devis, comme un travail à part entière, et le détail figure dans [nos tarifs et modalités](/fr/tarifs/). Si le Portugal s’ajoute à d’autres langues, notre [référencement multilingue](/fr/services/referencement-multilingue/) les réunit dans un seul plan. Pour des annonces Google en portugais, notre [SEM multilingue](/fr/services/sem-multilingue/) prend le relais : votre budget média va directement à Google, et notre gestion est facturée séparément.

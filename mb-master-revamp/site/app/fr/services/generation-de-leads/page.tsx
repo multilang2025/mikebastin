@@ -28,7 +28,6 @@ export const metadata: Metadata = {
     description: DESCRIPTION,
     path: PATH,
     languages: leadGenLanguages(),
-    fallbackImage: true,
     ogLocale: "fr_FR",
   }),
 };
@@ -36,7 +35,7 @@ export const metadata: Metadata = {
 const PARTS = [
   {
     title: "Trouvé dans leur langue",
-    body: "Un référencement construit marché par marché à partir de ce que les acheteurs y tapent vraiment, pour que le bon visiteur arrive sur une page écrite pour lui.",
+    body: "Un référencement construit marché par marché à partir de ce que les acheteurs y tapent réellement, pour que le bon visiteur arrive sur une page écrite pour lui.",
     href: "/fr/services/referencement-multilingue/",
     link: "Référencement multilingue",
   },
@@ -149,7 +148,7 @@ export default function FrenchLeadGenerationPage() {
               Un seul chiffre pour tout le site se lit facilement ; pour décider, il vous faut le chiffre de chaque marché. Il distingue le marché qui porte vos résultats de celui dont le budget s’arrête aux visites, deux marchés qu’une moyenne fait se ressembler parfaitement.
             </p>
             <p className="max-w-[62ch] text-[1.05rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
-              Avec un total unique, le budget suit le trafic qui a l’air le plus sain, et la langue qui vend vraiment en reçoit un peu moins chaque trimestre. C’est le rapport qui oriente ce choix. Un rapport qui montre la différence marché par marché oriente chaque mois le budget vers le marché qui doit grandir.
+              Avec un total unique, le budget suit le trafic qui a l’air le plus sain, et la langue qui vend réellement en reçoit un peu moins chaque trimestre. C’est le rapport qui oriente ce choix. Un rapport qui montre la différence marché par marché oriente chaque mois le budget vers le marché qui doit grandir.
             </p>
           </Reveal>
         </div>

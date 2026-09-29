@@ -15,7 +15,7 @@ excerpt: "Augmentez votre présence en ligne à l'échelle mondiale grâce à no
 
 # Branding multilingue
 
-Localize your message while staying true to your brand values
+Localise your message while staying true to your brand values
 
 ## Stratégie de marque multilingue pour un succès mondial
 
@@ -23,11 +23,11 @@ Your brand should speak the language of every market.
 
 We offer [multilingual branding services](https://mikebastin.com/services/multilingual-branding/) that help you build trust and recognition across cultures.
 
-From localization to content creation, we adapt your message to match regional expectations and communication styles.
+From localisation to content creation, we adapt your message to match regional expectations and communication styles.
 
 Every detail, from tone to visuals, is aligned with local preferences to maximise engagement.
 
-Ready to grow your global presence with a consistent, localized brand? [Contact us](https://mikebastin.com/contact-us/) today.
+Ready to grow your global presence with a consistent, localized brand ? [Contact us](https://mikebastin.com/contact-us/) today.
 
 Nos clients
 
@@ -40,10 +40,10 @@ Our [multilingual branding services](https://mikebastin.com/services/multilingua
 
 We adapt every element of your identity, from logos and slogans to brand voice and visuals, for consistency, clarity and authenticity in every language.
 
-Want a brand that works across borders without losing its soul? [Let’s talk](https://mikebastin.com/contact-us/).
+Want a brand that works across borders without losing its soul ? [Let’s talk](https://mikebastin.com/contact-us/).
 
 ### Our Multilingual Branding Expertise
 
 At the core of your brand’s global success is its ability to resonate with audiences across different languages and cultures. With over two decades of experience in multilingual services, we understand the complexities of international branding. Whether it’s adapting your logo to local tastes, creating engaging multilingual content, or strategising your brand’s global expansion, our expertise ensures your brand thrives in any market.
 
-Ready to make your brand go global? Contact us today to start building a brand that truly speaks to the world.
+Ready to make your brand go global ? Contact us today to start building a brand that truly speaks to the world.

@@ -22,14 +22,20 @@ const TO      = 'hello@mikebastin.com';
 const SUBJECT = 'mikebastin.com enquiry';
 const THANKS  = '/contact/thanks/';
 const FAILED  = '/contact/problem/';
-// The French contact page (app/fr/nous-contacter/) posts lang=fr, so its
-// visitors land on French pages. Same form, same fields, same mailbox.
+// The French and Spanish contact pages (app/fr/nous-contacter/,
+// app/es/contactanos/) post lang=fr or lang=es, so their visitors land on
+// pages in their own language. Same form, same fields, same mailbox.
 const THANKS_FR = '/fr/nous-contacter/merci/';
 const FAILED_FR = '/fr/nous-contacter/probleme/';
+const THANKS_ES = '/es/contactanos/gracias/';
+const FAILED_ES = '/es/contactanos/problema/';
 
 function back(string $where): never {
-    if (($_POST['lang'] ?? '') === 'fr') {
+    $lang = $_POST['lang'] ?? '';
+    if ($lang === 'fr') {
         $where = $where === THANKS ? THANKS_FR : FAILED_FR;
+    } elseif ($lang === 'es') {
+        $where = $where === THANKS ? THANKS_ES : FAILED_ES;
     }
     header('Location: ' . $where, true, 303);
     exit;

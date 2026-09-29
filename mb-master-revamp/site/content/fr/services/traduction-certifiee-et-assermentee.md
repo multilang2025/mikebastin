@@ -19,7 +19,7 @@ Faites reconnaître vos documents officiels partout dans le monde
 
 ## Services de traduction certifiée et assermentée dignes de confiance
 
-Vous devez faire traduire des documents officiels ou sensibles ?
+Vous devez faire traduire des documents officiels ou sensibles ?
 
 Faites appel à notre équipe de **traducteurs certifiés et assermentés** pour garantir l’exactitude et la conformité légale de chaque mot, en vous appuyant sur notre savoir-faire en [traduction juridique](https://mikebastin.com/fr/services/traduction-juridique/) et en [traduction commerciale](https://mikebastin.com/fr/services/traduction-commerciale/).
 
@@ -31,7 +31,7 @@ Aucune complication, aucun délai inutile.
 
 Uniquement des traductions officielles précises, fiables et livrées dans les temps.
 
-## Pourquoi choisir nos services de traduction certifiée ?
+## Pourquoi choisir nos services de traduction certifiée ?
 
 Traductions fiables, accréditées et conformes pour garantir que vos documents respectent les exigences légales partout dans le monde.
 
@@ -89,14 +89,14 @@ Nos clients
 
 ## Les avantages des services de traduction certifiée
 
--   **Reconnaissance légale** : acceptés par les tribunaux et les organismes gouvernementaux.
--   **Précision and Fiabilité** : garantissent des traductions exactes, tout le temps.
--   **Confidentialité and Sécurité** : une protection totale de vos données sensibles.
+-   **Reconnaissance légale** : acceptés par les tribunaux et les organismes gouvernementaux.
+-   **Précision and Fiabilité** : garantissent des traductions exactes, tout le temps.
+-   **Confidentialité and Sécurité** : une protection totale de vos données sensibles.
 
-Pourquoi faire confiance à notre expertise en traduction certifiée ?
+Pourquoi faire confiance à notre expertise en traduction certifiée ?
 
 En plus de deux décennies d’expérience, nous avons travaillé avec des clients variés, fournit des traductions certifiées et assermentées qui répondent aux fortes exigences juridiques et professionnelles.
 
 Notre équipe multilingue de traducteurs certifiés est en mesure de garantir que vos documents sont à la fois exacts et conformes à la législation.
 
-Faites appel à nous pour des services de traduction. Faites-nous confiance et vous ne serez pas déçu !
+Faites appel à nous pour des services de traduction. Faites-nous confiance et vous ne serez pas déçu !

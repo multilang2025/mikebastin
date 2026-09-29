@@ -1,6 +1,7 @@
 ---
-words: 661
+words: 694
 title: "Services de traduction professionnelle"
+name: "Traduction professionnelle"
 slug: "traduction-professionnelle"
 locale: "fr"
 type: "services"
@@ -31,6 +32,7 @@ Nous confions chaque document à un traducteur spécialisé du réseau BeTransla
 - **Une relecture rigoureuse** avant chaque livraison.
 - **La certification notariale ou l’apostille** prises en charge lorsque l’institution destinataire les exige. Pour les citoyens américains et canadiens, nous proposons aussi un service d’apostille.
 - **Des protocoles de confidentialité** appliqués du début à la fin.
+- **Les grands projets**, comme une documentation juridique ou financière complète, relus avec le même soin qu’un document isolé.
 
 Nous répondons à chaque demande, généralement sous un jour ouvré.
 
@@ -55,6 +57,6 @@ Un tribunal, un registre, une université et un service d’immigration ont chac
 
 - **Juridique** : contrats, actes de procédure, procurations, statuts, pactes d’associés, dépôts de brevets et de marques. Le langage juridique dépend de la juridiction, et le travail va donc à des traducteurs formés au droit du pays concerné.
 - **Médical et réglementé** : dossiers patients, documentation d’essais cliniques, soumissions réglementaires, formulaires de consentement éclairé, notices de dispositifs médicaux. La terminologie doit correspondre à celle du comité d’éthique ou du régulateur, sous protocoles de confidentialité RGPD et HIPAA.
-- **Financier** : rapports annuels, prospectus, bilans, rapports d’audit, déclarations fiscales. Le bon terme est celui que la norme comptable emploie déjà dans la langue cible.
+- **Financier** : rapports annuels, prospectus, bilans, rapports d’audit, déclarations fiscales. Le bon terme est celui que la norme comptable emploie déjà dans la langue cible. Nos traducteurs financiers travaillent aussi bien avec les IFRS qu’avec les normes comptables nationales.
 - **Académique** : diplômes, relevés de notes, articles de recherche, lettres de recommandation. Un barème de notation se transpose mal d’un pays à l’autre, et un article doit conserver toutes ses nuances.
 - **Transcréation** : un slogan ou un texte de marque réécrit pour produire le même effet dans la langue cible. Elle convient au marketing, et pour un site entier, notre offre de [localisation de site web](/fr/services/localisation-de-site-web/) prend le relais. Pour un document comparé ligne à ligne par un régulateur ou un tribunal, la traduction fidèle reste la bonne réponse.

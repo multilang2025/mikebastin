@@ -30,7 +30,6 @@ export const metadata: Metadata = {
     description: DESCRIPTION,
     path: PATH,
     languages: leadGenLanguages(),
-    fallbackImage: true,
     ogLocale: "es_ES",
   }),
 };

@@ -73,7 +73,7 @@ const T: Record<
     ctaSecondary: "Voir ce que les chiffres ont donné",
     based: "Référencement multilingue, depuis Valencia",
     top: "Haut de page",
-    motto: "Automatiser les entreprises. Traduire les idées. Rapprocher les gens.",
+    motto: "Automatiser l’entreprise. Traduire les idées. Relier les personnes.",
   },
   es: {
     about: "Quiénes somos",
@@ -94,8 +94,8 @@ const T: Record<
 // Where the sign-off button and the "all services" link go per locale. A
 // locale with no index of its own gets no link rather than an English one:
 // sending a French reader to an English page is worse than offering nothing.
-const CONTACT_HREF: Record<Locale, string> = { en: "/contact/", fr: "/fr/nous-contacter/", es: "/contact/" };
-const SERVICES_INDEX: Record<Locale, string | null> = { en: "/services/", fr: "/fr/services/", es: null };
+const CONTACT_HREF: Record<Locale, string> = { en: "/contact/", fr: "/fr/nous-contacter/", es: "/es/contactanos/" };
+const SERVICES_INDEX: Record<Locale, string | null> = { en: "/services/", fr: "/fr/services/", es: "/es/services/" };
 
 const ABOUT: Record<Locale, string> = {
   en: "We are a multilingual SEO and localization practice in Valencia, working across European markets. Enquiries are what we count, market by market.",
@@ -116,6 +116,10 @@ const ABOUT: Record<Locale, string> = {
  * instead: deterministic, and "longest" is a claim about the page rather
  * than about the service, which is why their heading does not say "top".
  */
+const FR_FOOTER = ["seo", "referencement-multilingue", "seo-espagnol", "seo-neerlandais", "seo-allemand", "sem-multilingue"];
+// Spanish: the main page, then the destinations a Spanish exporter enters.
+const ES_FOOTER = ["optimizacion-seo", "posicionamiento-multilingue", "seo-frances", "seo-neerlandes", "seo-aleman", "publicidad-multilingue"];
+
 function servicesFor(locale: Locale): { href: string; label: string }[] {
   if (locale === "en") {
     return SERVICES.filter((s) => s.pillar).map((s) => ({
@@ -124,10 +128,15 @@ function servicesFor(locale: Locale): { href: string; label: string }[] {
     }));
   }
 
-  return [...getServicesForLocale(locale)]
-    .sort((a, b) => b.words - a.words)
-    .slice(0, 6)
-    .map((s) => ({ href: servicePath(locale, s.slug), label: s.title }));
+  // French has a curated list since the phase 4 rewrite (30 Sep 2026): the
+  // main page and the key markets (Spain, Benelux, Germany), by their short
+  // names. Spanish keeps the longest-pages rule until it is rebuilt.
+  const all = getServicesForLocale(locale);
+  const picked =
+    locale === "fr" || locale === "es"
+      ? (locale === "fr" ? FR_FOOTER : ES_FOOTER).map((slug) => all.find((s) => s.slug === slug)).filter((s) => s !== undefined)
+      : [...all].sort((a, b) => b.words - a.words).slice(0, 6);
+  return picked.map((s) => ({ href: servicePath(locale, s.slug), label: s.name ?? s.title }));
 }
 
 /**
@@ -370,7 +379,7 @@ export default function SiteFooter({
                 </a>
                 {address && (
                   <span className="leading-[1.5]" style={{ color: "var(--dim)" }}>
-                    Calle Rugat 12 to 2, 46021 Valencia, Spain
+                    Calle Rugat 12 - 2, 46021 Valencia, Spain
                   </span>
                 )}
               </div>

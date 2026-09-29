@@ -153,8 +153,12 @@ erreur*; *no, nunca, nada, ningún, sin, nadie, en lugar de, evitar,
 error*. "Sans engagement" becomes "au mois"; "sin permanencia" becomes
 "mes a mes".
 
-**Register.** French uses *vous*. Spanish uses *tú* (owner, 29 Sep 2026),
-in page copy, UI strings and the footer alike.
+**Register.** French uses *vous* and a **formal** register (owner, 30 Sep
+2026: "French should be formal"): *cela* rather than *ça*, *nous* or a
+passive rather than *on*, no exclamation marks, no slang or needless
+anglicisms (*retours*, not *feedback*; *réellement*, not *vraiment*).
+Spanish uses *tú* (owner, 29 Sep 2026), in page copy, UI strings and the
+footer alike. `npm run lint:fr` enforces the French register.
 
 **Enforced** by `site/scripts/negative-wording-lint.mjs` (`npm run
 lint:negative`, in `verify`): it fails on a negation in any title, meta

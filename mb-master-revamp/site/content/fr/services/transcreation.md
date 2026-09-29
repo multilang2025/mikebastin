@@ -28,12 +28,12 @@ Our transcreation experts adapt your content, so your message inspires trust and
 • Every project balances creative freedom and brand consistency
 
 Stand out with copy that feels natural, everywhere.  
-Ready to connect with your global audience?  
-[Contact us](https://mikebastin.com/contact-us/) or see our [content localization](https://mikebastin.com/services/content-localisation/) and [business translation](https://mikebastin.com/services/business-translation/) services.
+Ready to connect with your global audience ?  
+[Contact us](https://mikebastin.com/contact-us/) or see our [content localisation](https://mikebastin.com/services/content-localisation/) and [business translation](https://mikebastin.com/services/business-translation/) services.
 
-## Pourquoi choisir nos Services de transcréation ?
+## Pourquoi choisir nos Services de transcréation ?
 
-Un public international exige bien plus qu’une simple traduction : un design UX/UI adaptable et réactif, capable de s’adapter aux langues et cultures du monde entier reste fondamental.
+Un public international exige bien plus qu’une simple traduction : un design UX/UI adaptable et réactif, capable de s’adapter aux langues et cultures du monde entier reste fondamental.
 
 Adapter le contenu pour refléter la culture locale.
 
@@ -86,8 +86,8 @@ Nos clients
 ## Principaux avantages de nos services de transcréation
 
 -   **Touchez votre public en plein cœur** grâce à un impact émotionnel plus fort
--   **Pertinence culturelle** : assurez-vous que votre message est en accord avec les habitudes et tendances locales.
--   **Cohérence de marque** : conservez la voix de votre marque à travers différentes langues et marchés.
+-   **Pertinence culturelle** : assurez-vous que votre message est en accord avec les habitudes et tendances locales.
+-   **Cohérence de marque** : conservez la voix de votre marque à travers différentes langues et marchés.
 
 Expertise reconnue en services de transcréation
 

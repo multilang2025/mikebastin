@@ -12,11 +12,11 @@ sourceUrl: "https://mikebastin.com/es/optimizar-perfil-de-empresa-de-google/"
 excerpt: "Cómo optimizar tu Perfil de Empresa de Google en 2026: categorías, reseñas, fotos, Gemini en Maps y SEO local, con más de dos décadas de experiencia."
 ---
 
-![Cómo optimizar tu Perfil de Empresa de Google](https://mikebastin.com/wp-content/uploads/2024/10/Google-Business-Profile-1024x386.jpg)
+![Cómo optimizar tu Perfil de Empresa de Google](/images/legacy/2024/10/Google-Business-Profile-1024x386.jpg)
 
 ## Perfil de Empresa de Google en 2026: lo que de verdad funciona para la visibilidad local
 
-Una clienta me llamó en febrero.
+Una clienta nos llamó en febrero.
 
 Su estudio de yoga en Valencia se había caído del pack local de tres después de dos años de visibilidad estable.
 
@@ -26,7 +26,7 @@ La última actualización de su Perfil de Empresa de Google era de octubre.
 
 Ese desfase te cuenta casi todo lo que necesitas saber sobre la búsqueda local en 2026.
 
-### Tu perfil ahora es una fuente de respuestas para la IA, no solo una ficha
+### Tu perfil ahora es una fuente de respuestas para la IA
 
 Google retiró la sección pública de preguntas y respuestas a finales de 2025.
 
@@ -40,53 +40,15 @@ Actualízalo al menos cada 30 días para mantener la visibilidad, que a partir d
 
 ### Qué cambió entre 2024 y 2026
 
-Área
-
-Antes de 2026
-
-2026
-
-Preguntas de usuarios
-
-Visibles en el perfil, cualquiera respondía
-
-Retiradas, sustituidas por Gemini en Ask Maps
-
-Mensajería
-
-Chat integrado de Google
-
-Botón de WhatsApp para negocios verificados
-
-Identidad en reseñas
-
-Nombre real casi siempre obligatorio
-
-Se permiten seudónimos y avatares personalizados
-
-Respuestas del propietario
-
-Se publicaban al instante
-
-Moderadas por Google antes de publicarse
-
-Verificación
-
-Postal habitual
-
-Verificación por vídeo por defecto
-
-Inactividad
-
-Impacto lento en la visibilidad
-
-Caída en menos de 30 días de silencio
-
-Texto generado por IA
-
-Sin regular
-
-Borrador con IA permitido, reseñas con IA prohibidas
+| Área | Antes de 2026 | 2026 |
+|---|---|---|
+| Preguntas de usuarios | Visibles en el perfil, cualquiera respondía | Retiradas, sustituidas por Gemini en Ask Maps |
+| Mensajería | Chat integrado de Google | Botón de WhatsApp para negocios verificados |
+| Identidad en reseñas | Nombre real casi siempre obligatorio | Se permiten seudónimos y avatares personalizados |
+| Respuestas del propietario | Se publicaban al instante | Moderadas por Google antes de publicarse |
+| Verificación | Postal habitual | Verificación por vídeo por defecto |
+| Inactividad | Impacto lento en la visibilidad | Caída en menos de 30 días de silencio |
+| Texto generado por IA | Sin normas específicas | Borrador con IA permitido, reseñas con IA prohibidas |
 
 ### Reclama el perfil, verifícalo y mantenlo vivo
 
@@ -98,7 +60,7 @@ Graba una sola toma continua que muestre el cartel, la recepción y una activida
 
 Tras la verificación, trata el perfil como la sala del estudio: necesita cuidado diario para seguir resultando acogedor.
 
-En un estudio de bienestar de Valencia, tres semanas de silencio costaron un tercio de las reservas de clase.
+En un estudio de bienestar de Valencia, tres semanas de silencio se notaron en las reservas de clase.
 
 El perfil se recuperó en cuanto publicamos dos fotos y una actualización por semana durante 30 días.
 
@@ -204,7 +166,7 @@ Para los negocios que viven de las clases, conecta tu sistema de reservas (MindB
 
 Cuantos menos pasos haya de la búsqueda a la esterilla reservada, más alumnos llegan a clase.
 
-Lo monté para un estudio de bienestar el año pasado y las reservas de clase subieron un 40 % en dos meses, con cero gasto en anuncios.
+Lo montamos para un estudio de bienestar el año pasado y las reservas de clase subieron con solo el perfil orgánico.
 
 ### Métricas que vale la pena seguir
 
@@ -232,7 +194,7 @@ Al menos dos veces por semana: una foto nueva y una actualización, como una cla
 
 La sección pública de preguntas y respuestas se ha retirado en casi todas las regiones. Gemini responde ahora a través de Ask Maps usando tu perfil, tus reseñas y el contenido de tu web. Añade una sección de preguntas frecuentes a tu sitio con marcado LocalBusiness y FAQPage para alimentarla con datos limpios.
 
-#### ¿Puedo usar IA para escribir la descripción de mi estudio?
+#### ¿Se puede usar IA para escribir la descripción de tu negocio?
 
 Sí para el borrador; la publicación pasa siempre por tu revisión. Google permite el texto asistido por IA y prohíbe las reseñas generadas por IA y el contenido engañoso. Edita cada borrador antes de publicarlo.
 
@@ -260,10 +222,10 @@ Arregla esas cinco y verás movimiento en menos de un mes.
 > 
 > [Mike Bastin](https://mikebastin.com/es/conocenos-agencia-experta-en-seo/)
 
-Llevo más de dos décadas haciendo SEO y traducción, con SEO local multilingüe en Bélgica, Francia, España, Países Bajos, el Reino Unido y Estados Unidos.
+Llevamos más de dos décadas haciendo SEO y traducción, con SEO local multilingüe en Bélgica, Francia, España, Países Bajos, el Reino Unido y Estados Unidos.
 
-Ahora mismo aplico el mismo método para un despacho de abogados español, una empresa de transporte estadounidense, una inmobiliaria dominicana y un puñado de marcas de bienestar y servicios lingüísticos.
+Ahora mismo aplicamos el mismo método para un despacho de abogados de Valencia, una empresa de transporte estadounidense, una inmobiliaria dominicana y un puñado de marcas de bienestar y servicios lingüísticos.
 
-¿Quieres una revisión directa del Perfil de Empresa de Google de tu estudio, de tu posición en el pack local o del SEO que lo rodea? [Escríbeme aquí](https://mikebastin.com/es/contactanos/) o conoce cómo trabajo en la [página sobre mí](https://mikebastin.com/es/conocenos-agencia-experta-en-seo/).
+¿Quieres una revisión directa del Perfil de Empresa de Google de tu estudio, de tu posición en el pack local o del SEO que lo rodea? [Escríbenos aquí](/es/contactanos/) o conoce cómo trabajamos en la [página sobre nosotros](https://mikebastin.com/es/conocenos-agencia-experta-en-seo/).
 
-También puedes ver todo lo que cubro en la página de [servicios de SEO local](https://mikebastin.com/es/services/seo-local/).
+También puedes ver todo lo que cubrimos en la página de [servicios de SEO local](/es/services/seo-local/).

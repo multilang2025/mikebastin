@@ -20,6 +20,8 @@ export function generateStaticParams() {
   return getServicesForLocale(LOCALE).map((s) => ({ slug: s.slug }));
 }
 
+import { pageMeta } from "@/lib/meta";
+
 export async function generateMetadata({
   params,
 }: {
@@ -28,12 +30,16 @@ export async function generateMetadata({
   const { slug } = await params;
   const service = getServiceForLocale(LOCALE, slug);
   if (!service) return {};
-  const languages = serviceHreflang(service.group, "es");
-  return {
-    title: postMetaTitle(service.title),
+  // Through pageMeta like every English route: canonical, og:url and the
+  // es_ES og:locale, and the frontmatter metaTitle when the h1 runs long.
+  // The card comes from the colocated opengraph-image.tsx.
+  return pageMeta({
+    title: service.metaTitle ?? postMetaTitle(service.title),
     description: service.excerpt,
-    ...(languages ? { alternates: { languages } } : {}),
-  };
+    path: `/es/services/${service.slug}/`,
+    languages: serviceHreflang(service.group, "es"),
+    ogLocale: "es_ES",
+  });
 }
 
 export default async function SpanishServicePage({
@@ -78,7 +84,7 @@ export default async function SpanishServicePage({
           </Reveal>
           <Reveal i={2}>
             <p className="mt-6">
-              <Link href="/" className="ulink text-[.9rem]" style={{ color: "var(--dim)" }}>
+              <Link href="/es/conocenos-agencia-experta-en-seo/" className="ulink text-[.9rem]" style={{ color: "var(--dim)" }}>
                 Mike Bastin
               </Link>
             </p>

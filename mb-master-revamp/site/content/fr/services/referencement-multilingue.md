@@ -1,199 +1,85 @@
 ---
-words: 1794
-title: "Référencement multilingue"
+words: 1272
+title: "Référencement multilingue pour mener plusieurs marchés étrangers de front"
+name: "Référencement multilingue"
+metaTitle: "Référencement multilingue et SEO multilingue par marché"
 slug: "referencement-multilingue"
 locale: "fr"
 type: "services"
 group: "g072"
 wpId: 24848110
 date: "2024-09-29T11:09:22"
-modified: "2026-05-29T07:40:40"
+modified: "2026-09-30T12:00:00"
 sourceUrl: "https://mikebastin.com/fr/services/referencement-multilingue/"
-excerpt: "Boostez vos ventes en ligne avec l’intégration e-commerce localisée. Adaptez votre boutique aux marchés locaux avec devises, langues et paiements adaptés !"
+excerpt: "Plusieurs langues en ligne, chacune avec sa stratégie, ses rédacteurs natifs et ses propres chiffres : chaque marché vous envoie des demandes à son rythme."
 ---
 
-# Agence de référencement multilingue : SEO international par un consultant à Valencia
+## Chaque langue de votre site a son propre potentiel
 
-Plus de deux décennies à installer des marques sur de nouveaux marchés. Audit SEO multilingue, stratégie hreflang, contenu localisé, netlinking par pays. Chaque page écrite pour son marché.
+Votre site parle déjà trois, quatre langues ou davantage. Chacune a été lancée à un moment différent, souvent à partir des pages françaises, et chacune reçoit des visites. Pour un programme sur plusieurs marchés, l’étape suivante est de donner à chaque langue sa propre stratégie : ses mots-clés, ses textes, ses liens et ses chiffres.
 
-20+ ans
+Le gain est direct. Une langue menée pour son marché se positionne sur ce que ses acheteurs tapent, parle comme un fournisseur local et vous envoie des demandes que vous pouvez compter. Et plusieurs langues menées ensemble, sur une même structure, s’additionnent : le travail fait pour l’espagnol profite à l’allemand ajouté six mois plus tard.
 
-de SEO et traduction sur des marchés européens et latino-américains
+Le SEO multilingue, tel que nous le pratiquons, consiste à piloter ces langues de front, dans le bon ordre, avec des rédacteurs natifs pour chacune.
 
-4 langues
+<aside class="post-cta">
+<p><strong>Vous voulez que chacune de vos langues vous envoie ses propres demandes ?</strong> Nous bâtissons une stratégie par marché et nous la faisons écrire par des natifs, langue après langue. <a href="/fr/nous-contacter/">Réserver un premier échange</a>.</p>
+</aside>
 
-en interne (FR, EN, ES, NL) + réseau de natifs sur 8 autres
+## Une stratégie par marché, écrite par des natifs
 
-12 marchés
+Chaque marché commence par sa propre recherche, menée dans sa langue : les intentions commerciales réelles, les expressions de longue traîne, la façon dont les acheteurs comparent avant de choisir. Les mots qui vendent en Espagne diffèrent de ceux qui vendent en Allemagne, et la recherche part d’eux.
 
-couverts via le réseau BeTranslated (Belgique, France, Espagne, UK, NL, US…)
+Les textes sont écrits par des natifs. Le français, l’anglais, l’espagnol et le néerlandais sont travaillés directement par l’équipe qui pense la stratégie. L’allemand, l’italien, le portugais et les autres langues passent par des rédacteurs natifs du réseau BeTranslated, relus par un second natif avant livraison. Une page écrite dans la langue de son lecteur retient ses visiteurs, se positionne durablement et se fait citer par les moteurs d’IA, qui reprennent volontiers les pages natives.
 
-SEO + GEO
+Les décisions qui coûtent cher à défaire plus tard sont prises au début : la structure du domaine, la carte des versions linguistiques et l’ordre d’entrée des marchés. Elles font la valeur d’un accompagnement en SEO multilingue.
 
-stratégies pensées pour Google ET les moteurs génératifs (ChatGPT, Perplexity, AI Overviews)
+## L’ordre dans lequel les marchés entrent
 
-## Le SEO multilingue réussit quand chaque marché a sa propre stratégie
+Quatre marchés menés à fond dépassent neuf marchés lancés ensemble : les quatre ont la profondeur nécessaire pour se positionner, là où neuf à la fois donnent des pages minces.
 
-Trois situations reviennent depuis plus de deux décennies, dans trois secteurs différents, et chacune a sa solution :
+**Des marchés classés sur des données.** Nous partons en général de huit à douze marchés candidats, notés sur cinq critères : le volume de recherche, la difficulté concurrentielle, l’adéquation commerciale avec ce que vous vendez, le coût de la localisation et les contraintes réglementaires propres au pays. Le classement fixe l’ordre sur des éléments mesurés, et place parfois en tête un autre marché que celui qu’on attendait.
 
-Les mots-clés ciblés en français ont leur volume en France ; en espagnol ou en allemand, le volume se trouve sur d’autres termes. Ciblez ceux-là : c’est là que se trouvent le trafic et les conversions.
+**Une expansion par vagues.** Une première vague de trois ou quatre marchés, là où les données sont les plus solides. Une seconde vague qui reste un test jusqu’à ce que la première montre de la traction. Vers six mois, un point de décision indique quels marchés tests passent en programme complet et lesquels s’arrêtent.
 
-Quand Google envoie un internaute belge sur la page américaine et un Français sur la page espagnole, les sessions s’arrêtent vite et Search Console signale « Page alternative avec balise canonique appropriée » sur la moitié des pages traduites. Des balises hreflang et canoniques cohérentes envoient chacun sur sa page et font indexer les versions traduites.
+**Une même structure pour toutes les langues.** Les adresses de pages, les liens internes, le balisage et les mots-clés cibles sont fixés par langue avant la mise en ligne de la première page. Le français publié aujourd’hui et l’espagnol ajouté dans six mois partagent la même structure, et le site reste simple à auditer au douzième mois.
 
-Quand tous les backlinks pointent vers la version anglaise, les versions FR/ES/DE attendent leurs propres signaux d’autorité locaux : ce sont eux qui les font ranker, bien plus que la qualité éditoriale seule.
+## Quatre langues tenues à jour chaque semaine
 
-Le SEO multilingue est une discipline à part entière, qui combine recherche de mots-clés par marché, architecture technique, localization éditoriale et signaux d’autorité par pays. Mon travail consiste à orchestrer les quatre.
+Century 21 Perdomo, une agence immobilière en République dominicaine, publie ses biens en anglais, en français, en espagnol et en allemand, sur un WordPress headless avec WPML et WooCommerce, le site et son suivi étant construits par Globaprom. Les annonces changent chaque semaine : un bien se vend, un prix bouge, un statut change, et chaque modification doit arriver dans les quatre langues en même temps. Nous menons le SEO langue par langue, à partir des recherches propres à chaque marché. De mai à juillet 2026, le site a reçu 9 944 clics et 461 231 impressions dans Google.
 
-## Ce que j’inclus dans une mission de référencement multilingue
+> Source : Google Search Console de c21perdomo.com, mai à juillet 2026.
 
-Volumes réels, intentions de recherche locales, mots-clés concurrentiels par pays. Chaque marché a ses propres expressions, et la recherche part d’elles.
+Nous appliquons la même discipline à BeTranslated, l’agence de traduction que nous faisons tourner depuis vingt ans : un domaine par marché, chacun avec son sitemap, son groupe hreflang et sa recherche de mots-clés.
 
-Balises hreflang correctes, sitemap par langue, canonicals cohérents, gestion des sous-domaines ou sous-répertoires selon votre cible.
+## Le socle technique qui laisse le contenu se positionner
 
-Rédaction par des natifs (FR, EN, ES, NL en interne ; DE, IT, PT, autres en réseau). Chaque texte est relu par un natif avant livraison.
+Ces réglages décident de la page que Google montre à chaque pays.
 
-Backlinks acquis sur des sites locaux du pays cible. Une PR française pour la version FR, une PR espagnole pour la version ES. Signaux d’autorité par marché.
+**Les balises hreflang.** Chaque page porte ses balises hreflang, page d’accueil comprise, avec le bon code de langue et un lien de retour vers chacune de ses versions. Validées marché par marché, elles envoient le visiteur belge sur la version belge et gardent une Search Console propre. Des balises hreflang cassées ou circulaires sont la constatation la plus fréquente de nos audits, et les corriger relève le plafond de tout le reste.
 
-Schema markup, données chiffrées, autorité de marque thématique. Être cité par ChatGPT, Perplexity et AI Overviews dans plusieurs langues.
+**Sitemap, adresses et balisage.** Un sitemap découpé par langue, des adresses de pages traduites dans chaque langue et un balisage schema (LocalBusiness, Service, Article, FAQ) localisé par pays et validé avec l’outil de test des résultats enrichis de Google.
 
-Tableau de bord par langue : positions, trafic organique, conversions, citations IA. Reporting mensuel en langage clair, avec recommandations concrètes.
+**Sous-répertoire, sous-domaine ou domaine national.** Le domaine national est le signal local le plus fort et le plus coûteux à entretenir. Le sous-répertoire garde l’autorité au même endroit et convient à la plupart des entreprises qui ajoutent des marchés à une activité existante. Nous tranchons une fois, au début.
 
-## Mon process en 5 étapes, livrables nommés
+**Le choix de la langue laissé au visiteur.** La géolocalisation par adresse IP sert à suggérer une version ; le visiteur choisit. Toutes les versions restent visibles pour Google et accessibles à celui qui voyage, ce qui concerne une bonne part d’une clientèle professionnelle.
 
-Le travail démarre vite, et chaque étape produit un livrable concret que vous pouvez relire et challenger.
+**Votre CMS.** Nous travaillons le plus souvent sur WordPress avec WPML, et aussi avec Polylang, TranslatePress ou Weglot. Sur Shopify, Webflow ou un développement propre, nous appliquons la stratégie avec votre équipe technique.
 
-**Livrable :** rapport d’audit PDF (15 à 25 pages) couvrant la structure technique, les balises hreflang, le contenu existant par langue, le profil de backlinks par marché, les écarts vs concurrents locaux. Le document vous reste acquis, quelle que soit la suite.
+## Des liens et des citations gagnés pays par pays
 
-**Livrable :** tableur Excel par marché cible avec mots-clés primaires et longue traîne, volumes Ahrefs/SEMrush, intention de recherche, difficulté concurrentielle, mapping vers les pages existantes ou à créer. Un fichier construit pour chaque langue.
+Un lien venu de la presse locale, d’une association professionnelle ou d’un annuaire régional du pays cible pèse bien davantage qu’un lien international générique : en recherche internationale, la pertinence est géographique autant que thématique. Chaque version linguistique gagne donc ses propres liens dans son propre pays.
 
-**Livrable :** document de stratégie 6 à 12 mois avec priorisation par marché, calendrier éditorial multilingue, plan technique (corrections hreflang, schema, sitemaps), plan de netlinking par pays. Validation conjointe avant exécution.
+La même règle vaut pour les réponses de ChatGPT, Claude, Perplexity et des AI Overviews. Les sources citées changent selon le pays et la langue, et chaque marché a sa propre place à conquérir.
 
-**Livrable :** production éditoriale par natifs, optimization des pages existantes, corrections techniques, acquisition de backlinks locaux. Tableau de bord partagé en temps réel. Point hebdomadaire ou bimensuel selon le rythme convenu.
+## Qui pilote la mission, et comment
 
-**Livrable :** rapport mensuel par langue : trafic organique, positions, conversions, citations IA (ChatGPT/Perplexity/Google AIO), recommandations pour le mois suivant. Chaque chiffre est commenté.
+Mike Bastin, cofondateur de BeTranslated, travaille le SEO et la traduction depuis plus de deux décennies. Il parle couramment le français, l’anglais, l’espagnol et le néerlandais, avec assez d’italien, d’allemand et de catalan pour piloter des projets SEO dans ces langues. Les textes commerciaux restent confiés à des rédacteurs natifs.
 
-## Cas clients
+Chaque mission suit le même rythme : un premier échange sur vos marchés, un périmètre écrit pour le premier trimestre, une livraison mensuelle marché par marché, puis un rapport mensuel par langue sur les positions, le trafic et les demandes reçues, avec les recommandations du mois suivant. La rédaction et la traduction sont chiffrées comme un travail, sur devis ; le détail figure sur la page [nos tarifs](/fr/tarifs/). Pour la vue d’ensemble de notre accompagnement à l’export, voyez notre [SEO international](/fr/services/seo/).
 
-Trois missions récentes, trois contextes différents. Toutes traitées en personne.
+### Les livrables de la mission
 
-**Contexte :** agence de traduction multilingue avec 12 domaines TLD (Belgique, France, Espagne, UK, Pays-Bas, US…). Problème historique de duplication de contenu cross-domaine et de balises hreflang incohérentes.
-
-**Mon intervention :** refonte complète de l’architecture hreflang, audit cross-domaine, déduplication de contenu, mise en place d’un système de schema markup centralisé, optimization GEO multilingue.
-
-**Résultat :** indexation propre sur l’ensemble des domaines, hausse régulière du trafic organique sur les marchés cibles, citations dans plusieurs réponses ChatGPT et Perplexity sur la requête « agence de traduction multilingue ».
-
-**Contexte :** transitaire international basé à Houston, marché US dominé par des géants. Besoin de capter une clientèle hispanophone (Mexique, Amérique latine, Espagne) tout en gardant une marque anglophone forte.
-
-**Mon intervention :** stratégie SEO bilingue EN/ES, recherche de mots-clés sur le vocabulaire freight forwarding ES (différent ES Espagne vs ES Mexique), schema FreightForwarder, contenu local sur les corridors logistiques Houston-Mexique, refonte technique pour Core Web Vitals.
-
-**Résultat :** doublement du nombre de demandes de devis sur 18 mois, et surtout un changement de canal : une part croissante des nouveaux prospects arrive désormais via **ChatGPT et Claude**, qui citent le site comme référence sur les requêtes de freight forwarding bilingues. Signal clair que le travail GEO bilingue commence à payer là où le SEO classique plafonnait.
-
-**Contexte :** cabinet juridique valencien spécialisé en droit des affaires et franchise, clientèle internationale (FR, EN, ES). Visibilité organique à construire face aux cabinets madrilènes Tier 1.
-
-**Mon intervention :** stratégie de contenu pillar + cluster sur trois langues, schema LegalService localisé, netlinking par marché (presse spécialisée FR, anuarios juridiques ES, legal directories EN), optimization pour les requêtes de longue traîne type « avocat franchise Espagne ».
-
-**Résultat :** visibilité construite sur les trois langues cibles, flux régulier de leads internationaux entrants (clientèle française et anglophone qui s’installe en Communauté valencienne), et présence dans les classements sectoriels de référence pour les cabinets boutique en Espagne.
-
-## Inclus, et où trouver le reste
-
-Prestation
-
-Inclus
-
-Assuré par ailleurs
-
-Audit SEO multilingue (technique + éditorial + backlinks)
-
-✓
-
-Recherche de mots-clés par marché cible
-
-✓
-
-Stratégie hreflang et architecture URL
-
-✓
-
-Rédaction localisée par traducteurs natifs (FR, EN, ES, NL, DE, IT, PT…)
-
-✓
-
-Schema markup multilingue et optimization GEO
-
-✓
-
-Acquisition de backlinks locaux par marché
-
-✓
-
-Reporting mensuel par langue (positions, trafic, conversions, citations IA)
-
-✓
-
-Développement web (refonte CMS, intégration Divi, plugins WPML)
-
-→ devis séparé
-
-Achat de campagnes Google Ads ou Meta Ads
-
-→ couvert par [SEM multilingue](https://mikebastin.com/fr/nos-services/sem-multilingue/)
-
-Traduction certifiée ou assermentée
-
-→ via [page dédiée](https://mikebastin.com/fr/nos-services/traduction-certifiee-et-assermentee/)
-
-## Qui est derrière la mission
-
-**Mike Bastin**, consultant SEO international, cofondateur de BeTranslated, plus de deux décennies à travailler le SEO et la traduction sur des marchés européens, latino-américains et nord-américains. Quadrilingue (FR, EN, ES, NL), avec assez d’italien, d’allemand et de catalan pour piloter des projets SEO dans ces langues.
-
-Basé à Valencia depuis 2016. J’ai vécu en République dominicaine, au Costa Rica, au Mexique et aux États-Unis. Cette expérience terrain influence directement mes choix SEO sur les marchés hispanophones et anglophones.
-
-**Cari**, basée en République dominicaine, gère les projets SEO et traduction côté hispanophone. Détail clinique, expertise en optimization, fiabilité sur les deadlines.
-
-Pour les autres langues, je travaille avec un réseau de traducteurs et SEO natifs sélectionnés via BeTranslated : 30+ paires de langues couvertes, validation systématique par un relecteur natif différent du traducteur.
-
-[En savoir plus sur l’équipe →](https://mikebastin.com/fr/a-propos-de-nous/)
-
-### Pourquoi travailler avec un consultant ?
-
-Votre budget va au travail lui-même, avec un interlocuteur stable et une stratégie tenue de bout en bout.
-
-Avec moi, vous parlez à la personne qui pense la stratégie, qui rédige les briefs, qui pilote les traducteurs, qui lit les rapports.
-
-Je prends un nombre limité de missions long terme par an, et vous obtenez ce que vous payez.
-
-## Questions fréquentes sur le référencement multilingue
-
-Quelle est la différence entre traduction d’un site et SEO multilingue ?
-
-La traduction transpose le sens dans une autre langue. Le SEO multilingue travaille pour que les pages traduites se positionnent dans le pays cible. Un site parfaitement traduit se positionne quand l’architecture hreflang fonctionne, que les mots-clés ciblés ont un volume local et que des backlinks locaux pointent vers la version traduite. Les deux disciplines doivent travailler ensemble.
-
-Combien de temps avant de voir des résultats SEO sur un marché étranger ?
-
-Premiers signaux mesurables : 3 à 4 mois (corrections techniques + indexation propre + premiers contenus localisés). Trafic organique significatif : 6 à 9 mois selon la concurrence du marché. Position de référence sur les requêtes commerciales principales : 12 à 18 mois. Sur un marché concurrentiel, ces délais sont ceux du SEO ; des résultats en quelques semaines relèvent de la publicité payante.
-
-Faut-il un sous-domaine, un sous-répertoire ou un domaine séparé par langue ?
-
-Sous-répertoire (/fr/, /es/, /de/) dans 80 % des cas : hérite de l’autorité du domaine principal, plus simple à maintenir. Sous-domaine (fr.example.com) si chaque marché a son équipe et son contenu autonome. Domaines séparés (.fr, .es, .de) uniquement si chaque marché justifie une marque locale forte ou des contraintes légales spécifiques. Je vous oriente sur ce choix dans l’audit initial selon votre contexte.
-
-Travaillez-vous avec WordPress et WPML ?
-
-Oui, c’est même la combinaison que j’utilise sur la plupart des sites clients. Je connais aussi Polylang, TranslatePress, Weglot, et les architectures multisite WordPress. Pour les CMS non-WordPress (Shopify, Webflow, custom), je travaille en collaboration avec votre équipe technique pour appliquer la stratégie SEO multilingue.
-
-Comment optimizer pour les moteurs IA dans plusieurs langues ?
-
-Trois leviers : (1) schema markup structuré et complet, (2) contenu chiffré avec sources primaires citées, (3) autorité de marque thématique construite via des PR et des publications par langue. Je couvre ce sujet en profondeur dans mon article [du SEO au GEO en 2026](https://mikebastin.com/fr/seo-au-geo/). La spécificité multilingue : les LLM apprennent votre marque langue par langue, à partir de votre empreinte dans chacune : poussez donc des signaux par marché.
-
-Quels secteurs avez-vous accompagnés ?
-
-Traduction et services linguistiques (BeTranslated et son réseau), logistique internationale (TX Intl Freight, Houston), juridique (cabinets espagnols), immobilier (agence dominicaine, expat real estate Valencia), expat content (mikebastin.com, valenciamove.com). Mes profils sectoriels les plus solides : services B2B internationaux, juridique multilingue, real estate expat, logistique transfrontalière.
-
-Combien coûte une mission SEO multilingue ?
-
-Sur devis. Le tarif dépend du nombre de marchés ciblés, du volume éditorial mensuel, du niveau d’optimization technique requis et de la concurrence sectorielle. Premier échange gratuit : 30 minutes pour comprendre le contexte, identifier les vrais leviers et donner une fourchette honnête. La proposition suit cet échange et part de votre contexte.
-
-## Vous voulez voir si votre site est prêt pour ses marchés étrangers ?
-
-Je commence toujours par un audit : il établit honnêtement le point de départ avant de proposer un budget. Premier échange gratuit, et vous décidez ensuite.
-
-Pour aller plus loin : [SEO international](https://mikebastin.com/fr/nos-services/referencement-international/) · [recherche de mots-clés](https://mikebastin.com/fr/nos-services/recherche-mots-cles/) · [SEM multilingue](https://mikebastin.com/fr/nos-services/sem-multilingue/) · [guide SEO/GEO 2026](https://mikebastin.com/fr/seo-au-geo/)
+- **Un rapport d’audit** : structure technique, balises hreflang, contenus existants par langue, liens par marché et écarts face à vos concurrents locaux.
+- **Un tableur de mots-clés par marché** : termes principaux et longue traîne, volumes, intention, difficulté, et la page existante ou à créer pour chacun.
+- **Un document de stratégie** : priorités par marché, calendrier éditorial multilingue, plan technique et plan de liens par pays, validé avec vous avant l’exécution.

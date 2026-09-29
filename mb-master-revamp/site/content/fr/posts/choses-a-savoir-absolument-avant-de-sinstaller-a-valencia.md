@@ -9,7 +9,7 @@ wpId: 24856092
 date: "2026-01-28T14:11:12"
 modified: "2026-07-02T17:34:54"
 sourceUrl: "https://mikebastin.com/fr/choses-a-savoir-absolument-avant-de-sinstaller-a-valencia/"
-excerpt: "Logement, NIE, banque, sécurité sociale, médecin de famille, écoles : huit choses à régler avant l'installation à Valencia. Les angles morts que les guides généralistes oublient systématiquement."
+excerpt: "Logement, NIE, banque, sécurité sociale, médecin de famille, écoles : huit choses à régler avant l'installation à Valencia. Les angles morts que les guides généralistes oublient systématiquement."
 ---
 
 ## Ce que personne ne vous dit avant de partir
@@ -18,13 +18,13 @@ L’Espagne fait rêver.
 
 Avec ses plages ensoleillées, sa culture du bon-vivant, sa gastronomie et l’accueil chaleureux de ses habitants, tout francophone habitué à la pluie et au froid pourrait croire qu’il s’agit d’un paradis sans nuances.
 
-**S’installer à Valencia** en tant qu’expatrié francophone, c’est pourtant accepter une courbe d’adaptation bien réelle : administrative, culturelle et climatique.
+**S’installer à Valencia** en tant qu’expatrié francophone, c’est pourtant accepter une courbe d’adaptation bien réelle : administrative, culturelle et climatique.
 
 Voici un guide pratique des choses à savoir avant de [déménager dans la troisième plus grande ville d’Espagne](https://mikebastin.com/fr/francais-a-valencia/), pour vous préparer sérieusement à votre installation en 2026.
 
-## Le climat méditerranéen de Valencia : doux mais sournois
+## Le climat méditerranéen de Valencia : doux mais sournois
 
-![Climat méditerranéen de Valencia, Espagne : soleil et palmiers toute l'année](https://mikebastin.com/wp-content/uploads/2026/01/image-5.jpeg)
+![Climat méditerranéen de Valencia, Espagne : soleil et palmiers toute l'année](/images/legacy/2026/01/image-5.jpeg)
 
 À Valencia, [ville méditerranéenne en bord de mer, le climat est globalement très doux](https://mikebastin.com/fr/climat-a-valencia/).
 
@@ -48,7 +48,7 @@ Une raison de plus d’être déjà installé à Valencia à cette date.
 
 ## Les horaires espagnols et la santa siesta
 
-![Terrasse de restaurant à Valencia pendant la sieste espagnole](https://mikebastin.com/wp-content/uploads/2026/01/image-2.jpeg)
+![Terrasse de restaurant à Valencia pendant la sieste espagnole](/images/legacy/2026/01/image-2.jpeg)
 
 S’adapter aux horaires de Valencia constitue l’un des premiers chocs culturels pour un francophone.
 
@@ -56,9 +56,9 @@ Le déjeuner débute rarement avant 14 h.
 
 Le dîner, jamais avant 21 h.
 
-Cette organisation du temps découle directement du **fuseau horaire espagnol** : sous Franco, l’Espagne a basculé du fuseau GMT vers le CET (Central European Time), alignant l’horloge sur l’Allemagne plutôt que sur le Royaume-Uni, avec lequel elle partage pourtant la même longitude.
+Cette organisation du temps découle directement du **fuseau horaire espagnol** : sous Franco, l’Espagne a basculé du fuseau GMT vers le CET (Central European Time), alignant l’horloge sur l’Allemagne plutôt que sur le Royaume-Uni, avec lequel elle partage pourtant la même longitude.
 
-Conséquence directe : la plupart des commerces n’ouvrent qu’à partir de 9 h ou 10 h, et ferment de 14 h à 17 h pour la **siesta**, ou _santa siesta_, comme on l’appelle affectueusement ici.
+Conséquence directe : la plupart des commerces n’ouvrent qu’à partir de 9 h ou 10 h, et ferment de 14 h à 17 h pour la **siesta**, ou _santa siesta_, comme on l’appelle affectueusement ici.
 
 La **sobremesa**, c’est-à-dire le temps passé à table après le repas pour discuter, est une pratique culturelle profondément ancrée, à l’opposé du déjeuner-express que pratiquent bon nombre de Français.
 
@@ -66,17 +66,17 @@ Votre estomac protestera probablement les premières semaines.
 
 Votre agenda professionnel aussi, si vous travaillez avec des clients européens.
 
-## Le valencien : une langue co-officielle à ne pas confondre avec le catalan
+## Le valencien : une langue co-officielle à ne pas confondre avec le catalan
 
-![Panneaux bilingues espagnol et valencien dans la Communauté valencienne](https://mikebastin.com/wp-content/uploads/2026/01/image-1.jpeg)
+![Panneaux bilingues espagnol et valencien dans la Communauté valencienne](/images/legacy/2026/01/image-1.jpeg)
 
-La **Communauté valencienne**, l’une des 17 _comunidades autónomas_ d’Espagne, possède deux langues officielles : l’espagnol castillan et le **valencien** (_valencià_).
+La **Communauté valencienne**, l’une des 17 _comunidades autónomas_ d’Espagne, possède deux langues officielles : l’espagnol castillan et le **valencien** (_valencià_).
 
 Ce dernier est un dialecte roman étroitement apparenté au catalan, dont les racines latines le rapprochent aussi du français et de l’occitan.
 
 Des termes comme _porta_ (porte), _filla_ (fille) ou _parlar_ (parler) seront immédiatement reconnaissables pour un francophone.
 
-Attention cependant : ne dites jamais à un Valencien que sa langue ressemble au catalan.
+Attention cependant : ne dites jamais à un Valencien que sa langue ressemble au catalan.
 
 Les habitants de la **Comunitat Valenciana** tiennent scrupuleusement à distinguer le valencien du catalan, et ce sujet reste politiquement et culturellement sensible.
 
@@ -86,9 +86,9 @@ En milieu urbain, à peine 15 % de la population l’utilise au quotidien, séqu
 
 Vous l’entendrez abondamment lors des **Fallas**, les célèbres fêtes pyrotechniques valenciennes classées au patrimoine immatériel de l’UNESCO.
 
-## Le bruit : une réalité culturelle à anticiper
+## Le bruit : une réalité culturelle à anticiper
 
-![Animation nocturne dans les rues de Valencia, Espagne](https://mikebastin.com/wp-content/uploads/2026/01/image-3.jpeg)
+![Animation nocturne dans les rues de Valencia, Espagne](/images/legacy/2026/01/image-3.jpeg)
 
 Valencia est une ville vivante.
 
@@ -106,9 +106,9 @@ Les murs mitoyens des immeubles anciens du **Barrio del Carmen**, de **Ruzafa** 
 
 [Lisez notre décryptage complet sur le bruit à Valence](https://mikebastin.com/fr/valencia-50-nuances-de-bruits/) pour anticiper sereinement cet aspect de la vie locale.
 
-## La gastronomie valencienne : bien plus que la paella
+## La gastronomie valencienne : bien plus que la paella
 
-![Tapas et paella valenciana dans un restaurant de Valencia, Espagne](https://mikebastin.com/wp-content/uploads/2026/01/image-6.jpeg)
+![Tapas et paella valenciana dans un restaurant de Valencia, Espagne](/images/legacy/2026/01/image-6.jpeg)
 
 La **gastronomie valencienne** est l’une des plus riches d’Espagne.
 
@@ -116,15 +116,15 @@ La région est le berceau de la **paella valenciana** (poulet, lapin, haricots v
 
 Les **tapas**, _patatas bravas_, _boquerones fritos_, _croquetas_, _calamares_, aubergines frites au miel, sont omniprésentes et se consomment à toute heure.
 
-Le **Mercat Central de Valencia**, l’un des plus grands marchés couverts d’Europe avec ses 8 000 m², est le meilleur point d’entrée pour comprendre la richesse des produits locaux : oranges, kakis, artichauds, poissons frais de l’**Albufera**.
+Le **Mercat Central de Valencia**, l’un des plus grands marchés couverts d’Europe avec ses 8 000 m², est le meilleur point d’entrée pour comprendre la richesse des produits locaux : oranges, kakis, artichauds, poissons frais de l’**Albufera**.
 
 Valencia est régulièrement classée dans le guide gastronomique OAD (Opinionated About Dining), qui répertorie les meilleurs restaurants d’Europe.
 
 Le **festival de la paella de Sueca**, qui se tient à 30 km au sud de Valencia, est la compétition internationale de référence sur ce plat, un repère culturel majeur pour tout expatrié sérieux.
 
-## Le système de santé espagnol : public, privé et pharmacies
+## Le système de santé espagnol : public, privé et pharmacies
 
-![Pharmacie espagnole à Valencia : soins de premier recours sans ordonnance](https://mikebastin.com/wp-content/uploads/2026/01/image-1024x682.jpeg)
+![Pharmacie espagnole à Valencia : soins de premier recours sans ordonnance](/images/legacy/2026/01/image-1024x682.jpeg)
 
 Le système de santé espagnol, le **Sistema Nacional de Salud (SNS)**, est universel et gratuit pour les résidents.
 
@@ -142,11 +142,11 @@ Les tarifs sont raisonnables comparés à la France, et l’accès aux spéciali
 
 En 2026, Valencia renforce son offre de soins avec l’ouverture de nouveaux établissements privés au sud de la ville.
 
-À noter : les pharmaciens espagnols peuvent délivrer des conseils médicaux de premier recours et orienter vers un traitement sans ordonnance, un avantage non négligeable au quotidien.
+À noter : les pharmaciens espagnols peuvent délivrer des conseils médicaux de premier recours et orienter vers un traitement sans ordonnance, un avantage non négligeable au quotidien.
 
 ## Environnement et mobilité verte à Valencia
 
-![Pistes cyclables et vélos Valenbisi dans les rues de Valencia](https://mikebastin.com/wp-content/uploads/2026/01/image-4.jpeg)
+![Pistes cyclables et vélos Valenbisi dans les rues de Valencia](/images/legacy/2026/01/image-4.jpeg)
 
 Valencia a été élue **Capitale verte européenne 2024** par la Commission européenne, une distinction qui récompense ses 160 km de pistes cyclables, son réseau de transports en commun (métro, tramway, bus EMT) et son engagement pour la **renaturalisation urbaine**.
 
@@ -154,25 +154,25 @@ Le système de vélos en libre-service **Valenbisi** couvre l’ensemble de la v
 
 [Retrouvez le guide complet des transports à Valencia](https://mikebastin.com/fr/transport-a-valencia/) pour planifier vos déplacements dès votre arrivée.
 
-En 2026, la ville poursuit ses projets de végétalisation : le nouveau **Jardín Trini Simó** ajoutera 8 000 m² de paysage agricole méditerranéen, et plus de 60 espaces verts seront améliorés avec une flore locale, des zones humides et des refuges pour la faune.
+En 2026, la ville poursuit ses projets de végétalisation : le nouveau **Jardín Trini Simó** ajoutera 8 000 m² de paysage agricole méditerranéen, et plus de 60 espaces verts seront améliorés avec une flore locale, des zones humides et des refuges pour la faune.
 
 Le parc de la **Túria**, 110 hectares d’ancien lit de fleuve reconverti en parc linéaire, reste le poumon vert de la ville et l’une de ses infrastructures les plus emblématiques.
 
-Le tri sélectif reste en revanche un point de friction : malgré cinq types de conteneurs disponibles dans toute la ville, les pratiques restent inégales.
+Le tri sélectif reste en revanche un point de friction : malgré cinq types de conteneurs disponibles dans toute la ville, les pratiques restent inégales.
 
 La forte consommation d’eau en bouteille, liée à la teneur en calcaire de l’eau du robinet, génère par ailleurs une quantité notable de déchets plastiques.
 
-## L’administration espagnole : NIE, empadronamiento et démarches d’installation
+## L’administration espagnole : NIE, empadronamiento et démarches d’installation
 
 L’administration espagnole est réputée pour sa complexité, et cette réputation n’est pas usurpée.
 
 Tout expatrié souhaitant **s’installer à Valencia** doit accomplir plusieurs démarches dans un ordre précis.
 
--   **Le NIE** (_Número de Identificación de Extranjero_) : le numéro d’identification fiscal indispensable pour toute démarche administrative, bancaire ou immobilière en Espagne. Il s’obtient à la _Oficina de Extranjería_ ou dans certains commissariats (_comisarías de policía_), sur rendez-vous.
--   **L’empadronamiento** : l’inscription au **Padrón municipal** de l’_Ayuntamiento de Valencia_. Ce document justifie votre résidence à Valencia et conditionne l’accès à de nombreux services publics (santé, école, bibliothèques).
--   **La Seguridad Social** : si vous exercez une activité salariée ou indépendante, l’inscription à la Sécurité sociale espagnole est obligatoire. Les travailleurs indépendants relèvent du régime des **autónomos**, avec des cotisations mensuelles variables selon le revenu déclaré.
--   **Le compte bancaire espagnol** : indispensable pour domicilier vos prélèvements (loyer, factures). Les principales banques locales sont BBVA, CaixaBank, Santander et Bankinter.
--   **La résidence fiscale** : si vous passez plus de 183 jours par an en Espagne, vous devenez résident fiscal espagnol et êtes soumis à l’IRPF (_Impuesto sobre la Renta de las Personas Físicas_). Le **Modelo 720**, soit la déclaration des biens détenus à l’étranger, peut s’appliquer selon votre situation patrimoniale.
+-   **Le NIE** (_Número de Identificación de Extranjero_) : le numéro d’identification fiscal indispensable pour toute démarche administrative, bancaire ou immobilière en Espagne. Il s’obtient à la _Oficina de Extranjería_ ou dans certains commissariats (_comisarías de policía_), sur rendez-vous.
+-   **L’empadronamiento** : l’inscription au **Padrón municipal** de l’_Ayuntamiento de Valencia_. Ce document justifie votre résidence à Valencia et conditionne l’accès à de nombreux services publics (santé, école, bibliothèques).
+-   **La Seguridad Social** : si vous exercez une activité salariée ou indépendante, l’inscription à la Sécurité sociale espagnole est obligatoire. Les travailleurs indépendants relèvent du régime des **autónomos**, avec des cotisations mensuelles variables selon le revenu déclaré.
+-   **Le compte bancaire espagnol** : indispensable pour domicilier vos prélèvements (loyer, factures). Les principales banques locales sont BBVA, CaixaBank, Santander et Bankinter.
+-   **La résidence fiscale** : si vous passez plus de 183 jours par an en Espagne, vous devenez résident fiscal espagnol et êtes soumis à l’IRPF (_Impuesto sobre la Renta de las Personas Físicas_). Le **Modelo 720**, soit la déclaration des biens détenus à l’étranger, peut s’appliquer selon votre situation patrimoniale.
 
 Obtenir un interlocuteur compétent au téléphone peut relever du parcours du combattant.
 
@@ -188,7 +188,7 @@ Pour un accompagnement personnalisé dans vos démarches d’installation, le ca
 
 [Consultez notre sélection des meilleurs avocats à Valencia pour expatriés](https://mikebastin.com/fr/avocats-a-valencia/) pour choisir l’interlocuteur adapté à votre situation.
 
-## Valencia en 2026 : une ville en pleine mutation
+## Valencia en 2026 : une ville en pleine mutation
 
 Au-delà des ajustements pratiques, Valencia reste l’une des villes les plus attractives d’Europe pour les expatriés francophones.
 
@@ -196,7 +196,7 @@ Le coût de la vie y est nettement inférieur à Paris, Genève ou Bruxelles.
 
 Le réseau de transports en commun est dense et abordable.
 
-La scène culturelle est riche : musées, opéra, théâtres, gastronomie, festivals.
+La scène culturelle est riche : musées, opéra, théâtres, gastronomie, festivals.
 
 En 2026, la ville accueillera les **XIIe Gay Games** (27 juin au 4 juillet), avec plus de 3 000 participants et 37 disciplines sportives.
 
@@ -204,13 +204,13 @@ Le nouveau **Musée Sorolla** ouvrira au Palais des Communications, réunissant 
 
 L’église des Santos Juanes retrouvera son style baroque après quatre ans de restauration.
 
-Valencia continue d’attirer de nouvelles populations : les visiteurs américains dépassent désormais les Français en termes de nuitées, tout en préservant une qualité de vie méditerranéenne difficile à trouver ailleurs en Europe occidentale.
+Valencia continue d’attirer de nouvelles populations : les visiteurs américains dépassent désormais les Français en termes de nuitées, tout en préservant une qualité de vie méditerranéenne difficile à trouver ailleurs en Europe occidentale.
 
 [Consultez notre guide sur le marché locatif et les quartiers de Valencia](https://mikebastin.com/fr/vivre-en-appartement-a-valencia/), ou explorez [notre article sur le mode de vie valencien](https://mikebastin.com/fr/mode-de-vie-de-valencia/) pour affiner votre vision de la vie quotidienne ici.
 
-## FAQ : s’installer à Valencia en tant qu’expatrié francophone
+## FAQ : s’installer à Valencia en tant qu’expatrié francophone
 
-### Faut-il le NIE pour louer un appartement à Valencia ?
+### Faut-il le NIE pour louer un appartement à Valencia ?
 
 Oui.
 
@@ -218,7 +218,7 @@ Le NIE (_Número de Identificación de Extranjero_) est exigé par la quasi-tota
 
 Il est également indispensable pour ouvrir un compte bancaire et souscrire à des services comme l’électricité ou internet.
 
-### Peut-on vivre à Valencia sans parler espagnol ?
+### Peut-on vivre à Valencia sans parler espagnol ?
 
 En théorie oui, notamment dans les quartiers à forte concentration d’expatriés comme Ruzafa ou El Carmen.
 
@@ -226,7 +226,7 @@ En pratique, les démarches administratives, les interactions avec les propriét
 
 Un accompagnement par un professionnel bilingue est fortement recommandé pour les premières démarches.
 
-### Quel est le coût moyen d’un appartement à Valencia en 2026 ?
+### Quel est le coût moyen d’un appartement à Valencia en 2026 ?
 
 Le marché locatif valencien s’est significativement tendu ces dernières années.
 
@@ -236,7 +236,7 @@ Des alternatives plus abordables existent dans les quartiers périphériques com
 
 [Notre guide sur le logement à Valencia](https://mikebastin.com/fr/vivre-en-appartement-a-valencia/) détaille les prix par quartier et les démarches pour trouver un appartement.
 
-### Comment accéder au système de santé public à Valencia ?
+### Comment accéder au système de santé public à Valencia ?
 
 L’accès au Sistema Nacional de Salud nécessite une inscription au Padrón municipal de l’Ayuntamiento de Valencia, puis une demande de tarjeta sanitaria auprès du centre de santé (_centro de salud_) de votre secteur.
 

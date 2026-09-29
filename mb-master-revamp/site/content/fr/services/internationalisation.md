@@ -15,7 +15,7 @@ excerpt: "Augmentez votre présence en ligne à l'échelle mondiale grâce à no
 
 # Global Expansion Services
 
-Internationalisation Made Simple: Expert Support for Every Market
+Internationalisation Made Simple : Expert Support for Every Market
 
 ## Internationalisation harmonieuse pour une croissance à l’international
 
@@ -25,13 +25,13 @@ Reach new customers worldwide with internationalisation services designed for bu
 
 We tailor your website, marketing, and SEO to match each target country.
 
-[Website localization goes beyond](https://mikebastin.com/optimising-multilingual-website-content/) simple translation. We [adapt layouts, images, and content](https://mikebastin.com/services/multilingual-ux-ui-design/) for a seamless local experience.
+[Website localisation goes beyond](https://mikebastin.com/optimising-multilingual-website-content/) simple translation. We [adapt layouts, images, and content](https://mikebastin.com/services/multilingual-ux-ui-design/) for a seamless local experience.
 
 Our multilingual SEO strategies target Google, Bing and Baidu, using the right keywords and [local search intent](https://mikebastin.com/services/local-seo/) for every region.
 
 More than 70% of users prefer content in their own language.
 
-Optimize for French, Spanish, German, Portuguese, Dutch and Italian- [see our full language solutions](https://mikebastin.com/services/language-solutions/) and [website localization services](https://mikebastin.com/services/website-localisation/).
+Optimise for French, Spanish, German, Portuguese, Dutch and Italian- [see our full language solutions](https://mikebastin.com/services/language-solutions/) and [website localisation services](https://mikebastin.com/services/website-localisation/).
 
 [Analytics and tracking uncover](https://mikebastin.com/services/analytics-and-tracking/) how different audiences behave on your site.
 
@@ -41,13 +41,13 @@ Transcreation [turns your brand messages into campaigns](https://mikebastin.com/
 
 International e-commerce sales are set to reach $7.5 trillion in 2025.
 
-Is your website ready to compete? Start today and connect with new customers in every market.
+Is your website ready to compete ? Start today and connect with new customers in every market.
 
 [Contact us](https://mikebastin.com/contact-us/) to expand your reach.
 
 Nos clients
 
-## Pourquoi choisir nos services d’internationalisation ?
+## Pourquoi choisir nos services d’internationalisation ?
 
 With decades of experience, we combine technical expertise and [cultural insight to help your brand](https://mikebastin.com/services/cultural-consulting/) expand globally with confidence. Our tailored solutions ensure a smooth transition into new markets, boosting engagement and driving growth.
 

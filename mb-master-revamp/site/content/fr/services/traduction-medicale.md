@@ -10,7 +10,7 @@ wpId: 24848707
 date: "2024-10-30T16:32:04"
 modified: "2026-05-29T07:40:11"
 sourceUrl: "https://mikebastin.com/fr/services/traduction-medicale/"
-excerpt: "Des traductions académiques de qualité pour une réussite à l'international : Explorez l'univers académique à l'échelle mondiale avec des traductions précises et professionnelles de vos documents universitaires."
+excerpt: "Des traductions académiques de qualité pour une réussite à l'international : Explorez l'univers académique à l'échelle mondiale avec des traductions précises et professionnelles de vos documents universitaires."
 ---
 
 # Services de traduction médicale
@@ -25,7 +25,7 @@ Nous traduisons vos documents médicaux avec précision, en conservant la cohér
 
 Notre équipe de linguistes experts et de professionnels de la santé travaille ce concert pour vous proposer des traductions médicaleé précises dans le plus grand respect de la confidentialité.
 
-## Pourquoi choisir nos services de traduction médicale ?
+## Pourquoi choisir nos services de traduction médicale ?
 
 Nos services de traduction médicale associent une expertise linguistique à des connaissances profondes du domaine médical pour garantir la précision, la confidentialité, et la livraison dans les temps de vos documents médicaux.
 
@@ -51,7 +51,7 @@ Traduction précise de manuels d’utilisation, de fiches produits, et de suppor
 
 ## Notre approche de la traduction médicale
 
-Clarté et efficacité sont au cœur de notre approche. Voici notre mode de fonctionnement :
+Clarté et efficacité sont au cœur de notre approche. Voici notre mode de fonctionnement :
 
 Nous comprenons vos exigences et vos besoins en ce qui concerne la traduction de votre document médical.
 

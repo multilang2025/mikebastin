@@ -1,6 +1,6 @@
 ---
 words: 930
-title: "Les plages de Valencia : profitez du sable et du soleil"
+title: "Les plages de Valencia : profitez du sable et du soleil"
 slug: "plages-de-valencia"
 locale: "fr"
 type: "posts"
@@ -9,7 +9,7 @@ wpId: 24852012
 date: "2025-06-03T15:46:32"
 modified: "2026-07-02T17:36:31"
 sourceUrl: "https://mikebastin.com/fr/plages-de-valencia/"
-excerpt: "Malvarrosa, Cabanyal, El Saler, La Devesa : les plages de Valencia entre urbain animé et nature de l'Albufera. Le guide pour choisir selon la saison, l'ambiance et l'accès en transport."
+excerpt: "Malvarrosa, Cabanyal, El Saler, La Devesa : les plages de Valencia entre urbain animé et nature de l'Albufera. Le guide pour choisir selon la saison, l'ambiance et l'accès en transport."
 ---
 
 Vous rêvez de longues étendues de sable, de soleil et d’un déjeuner improvisé au bord de la Méditerranée ?
@@ -20,7 +20,7 @@ Voici **cinq lieux emblématiques** à explorer pour profiter pleinement de la c
 
 ## Explorez la plage du Cabanyal
 
-![plage du Cabanyal](https://mikebastin.com/wp-content/uploads/2025/06/playa-cabanal.webp)
+![plage du Cabanyal](/images/legacy/2025/06/playa-cabanal.webp)
 
 Située dans le quartier historique de _Poblats Marítims_, la plage du _Cabanyal_ (également appelée _Las Arenas_) se trouve à moins de 5 km de la _Plaza del Ayuntamiento_, en plein centre-ville.
 
@@ -33,7 +33,7 @@ Longue, large et dotée de sable fin, elle offre un accès facile **aux transpor
 
 ## Détendez-vous à la Malvarrosa
 
-![Malvarrosa](https://mikebastin.com/wp-content/uploads/2025/06/Playa_de_la_Malvarrosa_Valencia_01.jpg)
+![Malvarrosa](/images/legacy/2025/06/Playa_de_la_Malvarrosa_Valencia_01.jpg)
 
 La plage de _La Malvarrosa_ est sans doute la plus emblématique. Inspirée par les écrits du romancier _Vicente Blasco Ibáñez_, qui y possédait une villa (aujourd’hui musée), cette plage est large, bien aménagée et très fréquentée en été.
 
@@ -47,7 +47,7 @@ Ambiance détendue garantie, surtout en fin d’après-midi quand la lumière ad
 
 ## Savourez le calme de la Patacona
 
-![Paseo\_playa\_de\_la\_Patacona](https://mikebastin.com/wp-content/uploads/2025/06/Paseo_playa_de_la_Patacona.jpg)
+![Paseo\_playa\_de\_la\_Patacona](/images/legacy/2025/06/Paseo_playa_de_la_Patacona.jpg)
 
 Située au nord de la Malvarrosa, dans la commune d’_Alboraya_, la _Playa de la Patacona_ conserve une atmosphère plus détendue, elle est réputée pour avoir un charme plus posé, avec moins de foule et des vues magnifiques au lever du soleil.
 
@@ -61,7 +61,7 @@ Cette plage se prolonge vers le nord et séduit ceux qui rêvent de larges espac
 
 ## Évadez-vous à El Saler
 
-![Playa El Saler, Valencia,](https://mikebastin.com/wp-content/uploads/2025/06/playa-el-saler.jpg)
+![Playa El Saler, Valencia,](/images/legacy/2025/06/playa-el-saler.jpg)
 
 À une quinzaine de kilomètres au sud, dans le _Parque Natural de la Albufera_, se trouve la plage d’[El Saler](https://www.comunitatvalenciana.com/es/valencia/valencia/playas/playa-de-el-saler), nichée au cœur d’une **zone naturelle protégée**, elle bénéficie du _microclimat méditerranéen_ qui caractérise cette région, avec plus de **320 jours de soleil par an**.
 
@@ -74,7 +74,7 @@ Ici, la plage est plus sauvage et le paysage se compose de dunes et de pins, par
 
 ## Imprégnez-vous de L’Albufera
 
-![L'Albufera](https://mikebastin.com/wp-content/uploads/2025/06/albufera.jpg)
+![L'Albufera](/images/legacy/2025/06/albufera.jpg)
 
 Si vous cherchez un endroit où nature et tranquillité se rencontrent, le _Parc Naturel de L’Albufera_, à 11 km de la ville, est un bijou de biodiversité.
 
@@ -102,4 +102,4 @@ Profitez d’une pause détente sur la plage, goûtez aux mets régionaux et, po
 
 Valencia ne demande qu’à vous accueillir, alors ne laissez pas passer l’occasion de plonger vos orteils dans le sable.
 
-Bonne baignade !
+Bonne baignade !

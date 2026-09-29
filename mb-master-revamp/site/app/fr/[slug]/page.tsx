@@ -7,6 +7,7 @@ import JsonLd from "@/components/JsonLd";
 import LocaleHtmlLang from "@/components/LocaleHtmlLang";
 import { getPostsForLocale, getPostForLocale, postHreflang } from "@/lib/posts";
 import { postMetaTitle } from "@/lib/seo";
+import { pageMeta } from "@/lib/meta";
 import { SITE_URL, blogPostingSchema, breadcrumbSchema } from "@/lib/schema";
 
 const LOCALE = "fr" as const;
@@ -27,12 +28,19 @@ export async function generateMetadata({
   const { slug } = await params;
   const post = getPostForLocale(LOCALE, slug);
   if (!post) return {};
-  const languages = postHreflang(post.group);
-  return {
-    title: postMetaTitle(post.title),
+  // Through pageMeta like every English route: canonical, og:url and the
+  // fr_FR og:locale, and the frontmatter metaTitle when the h1 runs long.
+  // The card comes from the colocated opengraph-image.tsx.
+  return pageMeta({
+    title: post.metaTitle ?? postMetaTitle(post.title),
     description: post.excerpt,
-    ...(languages ? { alternates: { languages } } : {}),
-  };
+    path: `/fr/${post.slug}/`,
+    type: "article",
+    publishedTime: post.date,
+    modifiedTime: post.modified,
+    languages: postHreflang(post.group),
+    ogLocale: "fr_FR",
+  });
 }
 
 function formatDate(iso: string) {
@@ -88,7 +96,7 @@ export default async function FrenchBlogPostPage({
           <Reveal i={2}>
             <p className="mt-6 flex flex-wrap items-center gap-x-3 gap-y-1 text-[.78rem] uppercase tracking-[.11em]" style={{ color: "var(--dim)" }}>
               <span>
-                <Link href="/" className="ulink" style={{ color: "var(--dim)" }}>
+                <Link href="/fr/notre-equipe/" className="ulink" style={{ color: "var(--dim)" }}>
                   Mike Bastin
                 </Link>
               </span>
