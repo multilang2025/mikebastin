@@ -198,7 +198,7 @@ export const SERVICES: Service[] = [
     subhead: "Your other markets already send you visitors. We turn them into enquiries worth a sales call, and show which market each one came from.",
     cluster: "Lead generation",
     pillar: true,
-    angle: "Enquiries, not visits",
+    angle: "Counted in enquiries",
     lede: "Traffic arrives in French, German and Spanish, and the enquiries still arrive in English. One client's Search Console showed forty thousand impressions in ninety days, and six clicks. The buyers were looking, and nothing was turning the looking into a conversation.",
     metaTitle: "B2B lead generation services across every market",
     metaDescription: "Your other markets send visitors and few enquiries. We turn them into leads worth a sales call, counted per market, with no markup on your ad spend.",
@@ -220,7 +220,7 @@ export const SERVICES: Service[] = [
     h1: "International PPC agency running paid search per market",
     subhead: "Media budget goes straight to Google, Microsoft or Meta, so there is no markup on spend and no reason to recommend a bigger one.",
     cluster: "Lead generation",
-    angle: "International PPC, buying what search has not earned",
+    angle: "International PPC, buying reach while search builds it",
     lede: "Reaching the buyer who has not found you organically yet, in the language they searched in, without letting a single blended campaign quietly subsidise one market from another.",
     metaTitle: "International PPC agency, paid search per market",
     metaDescription: "Paid search that reaches buyers in the language they searched in, market by market, so one blended campaign never quietly subsidises another.",
@@ -235,7 +235,7 @@ export const SERVICES: Service[] = [
         ],
       },
       {
-        heading: "Native per market, never translated from one list",
+        heading: "Native per market, researched from each market's own searches",
         paragraphs: [
           "Google Ads carries the default budget. Bing Ads earns its place with a US B2B audience still on the Microsoft ecosystem. Meta covers B2C reach, LinkedIn covers B2B targeting in specific verticals. Distinct campaigns or ad groups run per market, with separate budgets and bidding strategies, never one translated master campaign split by geography.",
           "Headlines, descriptions and creative are written natively per language rather than translated from a source campaign. Landing pages are dedicated per market wherever the budget allows, and conversion tracking runs through GA4 and GTM with CRM sync so a lead is qualified past the click, not just counted at it.",
@@ -298,7 +298,7 @@ export const SERVICES: Service[] = [
     sections: ["Why a single blended number hides the problem", ...ENGAGEMENT],
     body: [
       {
-        heading: "What one merged report cannot tell you",
+        heading: "What per-market reporting tells you",
         paragraphs: [
           "A single analytics view covering every locale answers the wrong question. It reports how the whole site performed, not which language earned the enquiry, so a market that converts well and one that only pulls traffic look identical until someone splits them apart by hand.",
           "Per-locale tracking needs distinct goals, events and conversion definitions set up from the start, not bolted on once someone asks why the French pages are not converting. A form submission, a call click and a quote request each need to be tracked the same way in every language, or the numbers stop being comparable.",
@@ -373,7 +373,7 @@ export const SERVICES: Service[] = [
     ],
     body: [
       {
-        heading: "Three failure patterns we see in every audit",
+        heading: "Three patterns we check in every audit",
         paragraphs: [
           "A DeepL pass with a light human review is not localization, it is patched-up machine translation. Search engines detect it, AI engines tend to avoid citing it, and native readers leave within seconds. The economics are tempting, the outcome is consistently flat. Native writing per language is the only foundation that holds.",
           "Hreflang tags go missing, point in circles, carry the wrong language code, or are simply absent from the homepage. The visitor in the wrong country sees the wrong language version, conversions drop, and Search Console reports a maze that takes longer to untangle than to have built correctly the first time.",
@@ -488,7 +488,7 @@ export const SERVICES: Service[] = [
         ],
       },
       {
-        heading: "French SEO written in French, not translated into it",
+        heading: "French SEO written in French from the start",
         paragraphs: [
           "We research what French buyers actually type, in French and market by market. Their words are rarely a translation of yours: a British buyer searches for SEO, while a French one often types “référencement naturel” instead, and a site that only ever says SEO misses them. Research that starts from the English keyword list never finds the gap.",
           "French runs directly here, with no translator in between. The research, the page copy and the reading of what French visitors do are all handled in French by the people setting the strategy, so nothing gets lost between the plan and the page.",
@@ -799,7 +799,7 @@ export const SERVICES: Service[] = [
     h1: "Dutch SEO and GEO agency for the Netherlands and Belgium",
     subhead: "Dutch and French handled directly, with a native reader on every commercial page, so buyers in Amsterdam, Antwerp and Brussels read a supplier who speaks their language properly.",
     cluster: "Search",
-    angle: "SEO Netherlands and Belgium, without a translator in between",
+    angle: "SEO Netherlands and Belgium, written in Dutch from the start",
     lede: "Your Dutch pages bring visitors from the Netherlands and Flanders and too few of them get in touch. Dutch buyers decide quickly and want short, concrete answers and the company details up front, and a translated page that pitches instead loses them in seconds.",
     metaTitle: "Dutch SEO agency for the Netherlands and Belgium",
     metaDescription: "Dutch buyers decide fast and leave pages that read as translated. Dutch SEO for the Netherlands and Belgium, written directly rather than through a translator.",
@@ -838,7 +838,7 @@ export const SERVICES: Service[] = [
         ],
       },
       {
-        heading: "Buyers search by country, not by language",
+        heading: "Dutch buyers search by country: the Netherlands and Flanders apart",
         paragraphs: [
           "When we measured the demand in September 2026, more people searched in English for SEO in the Netherlands (400 a month) and SEO in Belgium (350) than for Dutch SEO (250). Search Console for this page shows the same thing: its top queries name the Netherlands or Holland, and German and French searches for SEO in the Netherlands turn up as well.",
           "So the question a buyer brings is rarely which language. It is how to win customers in the Netherlands, in Belgium, or in both, and the answer starts with which of the three that is.",
@@ -977,9 +977,9 @@ export const SERVICES: Service[] = [
     subhead: "Two markets rather than one language, with different search behaviour and different competition in each.",
     cluster: "Search",
     angle: "Two markets, one language",
-    lede: "Portugal and Brazil are not one market with one keyword set, and treating them as one is the mistake that makes Portuguese look harder than it is.",
+    lede: "Portugal and Brazil are two markets with two keyword sets, and treating them separately is what makes Portuguese simpler than it looks.",
     metaTitle: "Portuguese SEO services, Portugal and Brazil",
-    metaDescription: "Portugal and Brazil are two markets, not one keyword set. See why treating them separately is what makes Portuguese SEO actually work.",
+    metaDescription: "Portugal and Brazil are two markets with two keyword sets. See why treating them separately is what makes Portuguese SEO actually work.",
     sections: ["Three ways to fail at Portuguese SEO", ...ENGAGEMENT],
     body: [
       {
@@ -997,7 +997,7 @@ export const SERVICES: Service[] = [
         ],
       },
     ],
-    expandablesHeading: "Portugal or Brazil, and why not both by default",
+    expandablesHeading: "Portugal or Brazil: choosing per market",
     expandablesLede:
       "The decision this engagement opens with, and what follows from each answer.",
     expandables: [
@@ -1078,7 +1078,7 @@ export const SERVICES: Service[] = [
         ],
       },
       {
-        heading: "Where local visibility actually gets lost",
+        heading: "Where local visibility is won",
         paragraphs: [
           "A Google Business Profile with the wrong categories, an incomplete service list, outdated hours, few photos and no recent posts gets buried below competitors with no better product, just better profile hygiene. Google rewards a profile that is complete and kept active. For a small business working from one address, the profile often brings in more enquiries than the website does.",
           "A business name that reads slightly differently across a directory listing, a review site and a chamber of commerce entry, or an address abbreviated one way in one place and spelled out in another, weakens the confidence Google places in any of them. Cleaning it up everywhere is unglamorous work with a direct effect on where you appear.",
@@ -1153,7 +1153,7 @@ export const SERVICES: Service[] = [
     angle: "Beyond translated strings",
     lede: "Your site has been translated and it still reads as foreign. The prices, the form fields, the trust marks and the way people search all still belong to somewhere else, and none of it is fixed by the words.",
     metaTitle: "Website localization services, Mike Bastin",
-    metaDescription: "Translated and still reading as foreign, from the prices to the form fields to the way people search? Website localization is the job the words alone do not do.",
+    metaDescription: "Translated and still reading as foreign, from the prices to the form fields to the way people search? Website localization is the job that makes the site feel local.",
     sections: ["Why localization is not translation", ...ENGAGEMENT],
     body: [
       {
@@ -1239,7 +1239,7 @@ export const SERVICES: Service[] = [
     sections: ["Where a translation error actually costs", ...ENGAGEMENT],
     body: [
       {
-        heading: "Where a mistranslation stops being cosmetic",
+        heading: "Where accuracy carries legal weight",
         paragraphs: [
           "A sworn or certified translation of a birth certificate, power of attorney, court ruling or immigration document has to be accepted by the specific court, embassy or public administration it is submitted to, in Spain, the UK or across the EU. Getting the format wrong means resubmission and a missed deadline, not a stylistic quibble.",
           "Medical translation carries clinical and legal weight: patient records, informed consent forms and regulatory submissions handled under GDPR and HIPAA confidentiality protocols, by translators who know the terminology of the specific medical field involved, not a generalist working from a dictionary.",
@@ -1458,16 +1458,16 @@ export const SERVICES: Service[] = [
     inline: "AI translation and post-editing",
     headingTerm: "machine translation post-editing",
     h1: "Machine translation post-editing after the AI first pass",
-    subhead: "Machine output worked over by a native speaker, because text that reads fluently and is wrong is worse than text that warns you.",
+    subhead: "Machine output worked over by a native speaker, because fluent text has to be right as well as readable.",
     cluster: "AI",
     angle: "Machine first, human decisive",
     lede: "Your pages came back from the machine reading fluently, which is the problem. A sentence that is confidently wrong is far harder to catch than one that is obviously broken.",
     metaTitle: "Machine translation post-editing and AI translation",
-    metaDescription: "Machine-translated pages that read fluently are the hard case, not the broken ones. AI translation and post-editing catches what reads right and is wrong.",
+    metaDescription: "Machine-translated pages that read fluently are the hard case to catch. AI translation and post-editing catches what reads right and is wrong.",
     sections: ["Why fluent output is the harder problem", ...ENGAGEMENT],
     body: [
       {
-        heading: "Why a fluent translation can still be wrong",
+        heading: "Why fluent translation still needs a native check",
         paragraphs: [
           "Machine translation and plugin-driven translation, whether through WPML, Weglot or Polylang's auto-translate, have become fluent enough that the output reads as professionally written even when it is not accurate. A broken sentence gets caught by anyone reading it. A fluent sentence that has quietly shifted the meaning, dropped a qualifier or mistranslated a technical term gets published and stays wrong until someone who knows the subject reads it closely.",
           "The risk scales with the stakes of the content: a mistranslated product description is a minor embarrassment, a mistranslated clause in ecommerce terms or a mistranslated instruction in medical or legal content is a liability. Post-editing effort should scale the same way, heavier review on what actually carries risk, lighter on what does not.",
@@ -1523,10 +1523,10 @@ export const SERVICES: Service[] = [
     cardTitle: "Generative engine optimization for AI answers",
     inline: "generative engine optimization",
     h1: "Generative engine optimization services for AI search",
-    subhead: "Structured for ChatGPT, Perplexity and Google's AI Overviews to cite you, not only for Google to rank you.",
+    subhead: "Structured for ChatGPT, Perplexity and Google's AI Overviews to cite you, as well as for Google to rank you.",
     cluster: "AI",
     pillar: true,
-    angle: "Cited inside the answer, not just ranked below it",
+    angle: "Cited inside the answer as well as ranked below it",
     lede: "ChatGPT, Perplexity and Google's AI Overviews answer a buyer's question directly, and name two or three sources while doing it. Being one of them is the difference between being considered and never being seen.",
     metaTitle: "Generative engine optimization agency and AEO",
     metaDescription: "ChatGPT, Perplexity and Google AI Overviews name a small number of sources when they answer a question. See what it takes for the answer to name you.",
@@ -1607,7 +1607,7 @@ export const SERVICES: Service[] = [
     ],
     body: [
       {
-        heading: "Why citation, not just ranking, is now the target",
+        heading: "Why citation is now the target alongside ranking",
         paragraphs: [
           "A user who asks ChatGPT or Perplexity a question gets a direct answer with a small number of sources named inside it. Ranking on page one of Google no longer guarantees a mention inside that answer, because the model is selecting a handful of sources it judges citation-worthy, not listing every page that matches the query.",
           "The pages that get named tend to share a shape: a clear, quotable claim near the top, structured data that tells a crawler exactly what the page is, and a consistent way of naming the same entity, the same business name and the same service name, across every place that entity appears online.",
@@ -1634,7 +1634,7 @@ export const SERVICES: Service[] = [
     cardTitle: "Technical SEO for multilingual websites",
     inline: "technical SEO",
     h1: "Technical SEO services for multilingual websites",
-    subhead: "The work that stops your language versions competing with each other for the same buyers.",
+    subhead: "The work that lets each language version win its own buyers.",
     cluster: "Supporting",
     angle: "Crawlability and hreflang, noticed only when broken",
     lede: "Your French pages and your German pages can end up competing with each other instead of adding up. We find out whether it is happening on your site, and fix what is causing it.",
@@ -1781,7 +1781,7 @@ export const SERVICES: Service[] = [
     h1: "Multilingual content marketing written per market",
     subhead: "Written in the target language against that market's own research, rather than translated from a page optimized for a different one.",
     cluster: "Supporting",
-    angle: "Written per market, not translated",
+    angle: "Written per market",
     lede: "Your Spanish page is a translation of your English one, so it answers the question an English buyer asks. Spanish buyers phrase the problem differently, and they are out looking for the other version.",
     metaTitle: "Multilingual content marketing, written per market",
     metaDescription: "A Spanish page translated from English answers the question an English buyer asks. Multilingual content is researched and written for the market reading it.",
@@ -1802,7 +1802,7 @@ export const SERVICES: Service[] = [
         ],
       },
     ],
-    expandablesHeading: "What travels between languages and what does not",
+    expandablesHeading: "What travels between languages and what each market rewrites",
     expandablesLede:
       "The copywriting, the cultural fit and the social side, and where each one stops travelling.",
     expandables: [

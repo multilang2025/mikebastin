@@ -48,7 +48,7 @@ When your address reads differently across directories, Google trusts none of th
 - Add LocalBusiness schema markup to your website so Google can read the same details there.
 
 <aside class="post-cta">
-<p><strong>Not sure your details match everywhere they appear?</strong> Our <a href="/services/local-seo/">local SEO service</a> makes your name, address and phone number identical across every directory. <a href="/contact/">Book the discovery call</a>.</p>
+<p><strong>Want your details to match everywhere they appear?</strong> Our <a href="/services/local-seo/">local SEO service</a> makes your name, address and phone number identical across every directory. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
 ## Encourage customer reviews

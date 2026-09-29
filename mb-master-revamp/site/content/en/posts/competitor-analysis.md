@@ -12,7 +12,7 @@ sourceUrl: "https://mikebastin.com/competitor-analysis/"
 excerpt: "Benchmarking against the rival you lose deals to? In search it is rarely the same one. Competitor analysis that finds who actually takes your buyers."
 ---
 
-## Most competitor analysis is theatre, not strategy
+## Competitor analysis that drives strategy
 
 You are probably benchmarking against the company you lose deals to. In search it rarely is, and every month spent chasing the wrong rival funds the wrong pages.
 
@@ -22,7 +22,7 @@ One [law firm we have worked with](/blog/law-firm-seo-services/) for three years
 
 Good **competitor analysis** in 2026 starts with one shift: stop listing the companies you assume are competitors, and start listing the pages that appear next to yours when buyers search. Below: how to find them, what to take from them, and when the exercise pays.
 
-## Who shares your SERPs is not who shares your industry conference
+## Your search competitors are the ones sharing your SERPs
 
 Get the list wrong and every brief after it aims at the wrong rival. Business competitors and SEO competitors are different categories. The biggest firm in the city is rarely the one ranking for the high-intent queries small and mid-size firms convert on.
 
@@ -88,7 +88,7 @@ UK and US agencies regularly copy a single English-market analysis across all la
 
 For the deeper view, see [best practices for multilingual SEO](/blog/best-practices-for-multilingual-seo/).
 
-## AI search shifts the question, not the method
+## AI search changes the question, and the method holds
 
 Yes, [GEO](/services/generative-engine-optimization/) matters. Yes, ChatGPT and Perplexity citations now factor into B2B buyer journeys. The underlying competitor logic does not change much.
 
@@ -102,7 +102,7 @@ The mistake is treating GEO as a separate exercise. It is the same SERP behind a
 <p><strong>Running one competitor list across every language?</strong> The keyword research in our <a href="/services/technical-seo/">technical SEO service for multilingual websites</a> reads how buyers phrase the problem, not just volume. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
-## Three failure patterns we keep seeing
+## Three patterns worth correcting early
 
 **Reading tool numbers as truth.** Estimates are not measurements. The further down the long tail you go, the wider the gap between Ahrefs’ estimate and Google Analytics reality.
 

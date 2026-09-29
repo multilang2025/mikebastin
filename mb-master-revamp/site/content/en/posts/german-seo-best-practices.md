@@ -108,7 +108,7 @@ German has two forms of address, formal (“Sie”) and informal (“Du”), and
 Formal language dominates professional and B2B settings, while informal language suits casual and B2C brands. Pick the one your buyers expect and hold it across the site.
 
 <aside class="post-cta">
-<p><strong>Not sure your German pages target the words German buyers type?</strong> Our <a href="/services/german-seo/">German SEO service</a> starts with an audit of your German pages against three direct German competitors, and keyword research done in German by native speakers. <a href="/contact/">Book the discovery call</a>.</p>
+<p><strong>Want your German pages to target the words German buyers type?</strong> Our <a href="/services/german-seo/">German SEO service</a> starts with an audit of your German pages against three direct German competitors, and keyword research done in German by native speakers. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
 ## Content localization for the German market

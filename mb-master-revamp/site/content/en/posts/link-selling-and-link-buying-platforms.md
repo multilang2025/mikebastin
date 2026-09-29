@@ -126,7 +126,7 @@ An hour of checks before you pay is cheaper than a year of placements that count
 
 Every figure in the last column is the vendor’s own claim, taken from the linked website on 26 September 2026; none is independently audited.
 
-## Want a link strategy that is not just a shopping list?
+## Want a link strategy built around your markets?
 
 We help clients build link portfolios that hold up through algorithm updates. The platforms above are tools, and whether they work for you depends on what you actually need: niche relevance, language coverage, anchor text distribution, or genuine editorial reach. Over two decades of SEO experience, put to work on your specific situation.
 

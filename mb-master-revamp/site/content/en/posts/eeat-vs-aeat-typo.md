@@ -72,7 +72,7 @@ Precision matters in Spain too. One wrong invoice number triggers a request. One
 Working in legal SEO in Spain means respecting both judges. Both reward structure. Both punish chaos. Only one accepts backlinks as currency.
 
 <aside class="post-cta">
-<p><strong>Publishing in Spanish and English, and not sure both versions pull their weight?</strong> Our <a href="/services/technical-seo/">technical SEO for multilingual websites</a> finds out whether your language versions compete with each other instead of adding up, and fixes the cause. <a href="/contact/">Book the discovery call</a>.</p>
+<p><strong>Publishing in Spanish and English, and want both versions pulling their weight?</strong> Our <a href="/services/technical-seo/">technical SEO for multilingual websites</a> finds out whether your language versions compete with each other instead of adding up, and fixes the cause. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
 ## Check your acronyms

@@ -38,7 +38,7 @@ German contains umlauts (ä, ö, ü) and the ß, which appear percent-encoded wh
 
 Most German sites therefore transliterate them: ä becomes ae, ö becomes oe, ü becomes ue and ß becomes ss. “Küche” (kitchen) becomes “kueche” in the URL, which keeps links clean wherever they are pasted.
 
-### Keywords in URLs, without stuffing them
+### Keywords in URLs, used sparingly
 
 **German keywords** in the URL help both users and search engines. Google treats words in the URL as a light signal, and a descriptive URL also earns more clicks in results and shared links.
 
@@ -97,7 +97,7 @@ Set up correctly, the tags send each user to the most appropriate version of you
 
 Without hreflang, search engines may index several near-identical German versions (one for Germany and one for Austria, say) and treat them as duplicates, which holds back the rankings of all of them. Proper tags make sure the right version appears in the right country and keep your site’s SEO equity together.
 
-### Common mistakes to avoid
+### What to watch for
 
 The usual faults are inconsistent tags across versions, missing reciprocal references and wrong language codes. Every language page must reference the other versions, and itself. Search Console no longer has an international targeting report, so check your setup with a site crawler or a dedicated hreflang testing tool.
 

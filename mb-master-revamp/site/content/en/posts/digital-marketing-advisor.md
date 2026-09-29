@@ -56,7 +56,7 @@ Agencies scale. They run substantial ad budgets across Google, Meta, LinkedIn an
 
 For businesses with no internal marketing staff, agencies provide capacity across several channels in weeks rather than months.
 
-## Where each model wins and where it loses
+## Where each model fits best
 
 Each model is cheap where it fits and expensive where it does not.
 
@@ -96,7 +96,7 @@ Choose an agency when execution is the bottleneck: when you know what should hap
 - **You need to launch fast.** Campaigns go live within weeks on Google Ads, Meta Business Suite or LinkedIn Campaign Manager, while building an internal team takes months of recruiting.
 - **You have high-volume content requirements.** Daily social posts, weekly long-form articles and constant ad creative testing demand workforce capacity only an agency provides.
 
-## The hidden costs nobody mentions in the pitch
+## The full costs to ask about before you sign
 
 Both models carry a cost that only shows up after you sign.
 

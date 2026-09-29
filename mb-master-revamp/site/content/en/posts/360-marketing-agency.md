@@ -109,7 +109,7 @@ Read a proposal against the right-hand column; each line is something to ask to 
 | “Multilingual ready” | Translation as planning input, not the last step |
 | “Always-on social” | Social tied to the same conversion goals as paid and SEO |
 
-## When to hire a 360 partner, and when not to
+## Deciding whether a 360 partner is the right hire
 
 Hire too early and you pay for coordination you do not need yet. We usually tell clients to hire a 360 partner only when at least two of the following are true.
 

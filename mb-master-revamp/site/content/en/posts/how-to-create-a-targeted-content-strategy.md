@@ -133,7 +133,7 @@ A page that answers the question well but is not built to be found reaches nobod
 -   Cover the related queries and subtopics thoroughly to signal topical authority to search engines.
 
 <aside class="post-cta">
-<p><strong>Not sure which subjects your buyers actually search for?</strong> Our <a href="/services/content-marketing/">content marketing</a> does the research first, so each page answers a question buyers already ask, not a slot in a calendar. <a href="/contact/">Book the discovery call</a>.</p>
+<p><strong>Want to know which subjects your buyers actually search for?</strong> Our <a href="/services/content-marketing/">content marketing</a> does the research first, so each page answers a question buyers already ask, not a slot in a calendar. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
 ## Step 5: create with purpose

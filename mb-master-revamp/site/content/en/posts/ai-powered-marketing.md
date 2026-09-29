@@ -67,7 +67,7 @@ Tools bought one at a time become subscriptions nobody opens. AI pays back when 
 If you want one team to join these pieces up across channels, see what a [full-service marketing agency](/blog/360-marketing-agency/) should and should not promise.
 
 <aside class="post-cta">
-<p><strong>Not sure which of these to try first in your markets?</strong> Our <a href="/services/ai-consulting/">AI consulting</a> starts by saying where AI helps your multilingual content and support, and where it still needs a person who reads the language. <a href="/contact/">Book the discovery call</a>.</p>
+<p><strong>Want to know which of these to try first in your markets?</strong> Our <a href="/services/ai-consulting/">AI consulting</a> starts by saying where AI helps your multilingual content and support, and where it still needs a person who reads the language. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
 ## The short version

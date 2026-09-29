@@ -50,7 +50,7 @@ Some markets are mobile-first, others still lean to desktop, and a slow or cramp
 Every defect you skip testing for gets found by a customer instead. [Test every localized version](/blog/localisation-testing-tools/) before launch: translation quality, navigation, form fields, payment gateways and speed, across browsers and devices.
 
 <aside class="post-cta">
-<p><strong>Worried your localized site has problems nobody has reported yet?</strong> Our <a href="/services/website-localisation/">website localization</a> runs full QA in every language before launch, checking each form, menu and interface element for display, function and cultural fit. <a href="/contact/">Book the discovery call</a>.</p>
+<p><strong>Want the problems on your localized site found before a buyer finds them?</strong> Our <a href="/services/website-localisation/">website localization</a> runs full QA in every language before launch, checking each form, menu and interface element for display, function and cultural fit. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
 ## Law, payments and user experience

@@ -93,14 +93,14 @@ Most of it is on-page work you are already doing, done with more discipline:
 Treat it as a second reader of the same page: a page written clearly for a Spanish buyer is usually the page an AI answer quotes.
 
 <aside class="post-cta">
-<p><strong>Want your Spanish pages named in AI answers, not only ranked?</strong> Our <a href="/services/generative-engine-optimization/">generative engine optimization service</a> structures pages for ChatGPT, Perplexity and Google's AI Overviews to cite. <a href="/contact/">Book the discovery call</a>.</p>
+<p><strong>Want your Spanish pages named in AI answers as well as ranked?</strong> Our <a href="/services/generative-engine-optimization/">generative engine optimization service</a> structures pages for ChatGPT, Perplexity and Google's AI Overviews to cite. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
 ## Measuring results
 
 Without numbers per market you cannot tell what worked. Use Google Search Console filtered to Spain, your analytics and [local SEO](/services/local-seo/) tools, and track engagement and click-through rates.
 
-## Mistakes to avoid
+## What to watch for
 
 Mistranslations and ignored regional differences do the most damage, because they break trust just as the reader decides whether to contact you.
 

@@ -13,6 +13,28 @@ out of scope except on the flagged post.
 no longer, never, without, cannot, nobody, mistakes, failure, lose, avoid,
 wrong...). 143 strings matched. Each was read and given a verdict.
 
+## Applied 29 Sep 2026
+
+The owner said "apply". All 76 rewrites are in, and a re-run of the scan
+flags 64 strings: exactly the Keep groups below. Each heading was read
+against the opening of its section first, and where the section turned
+out to be a list of faults, a heading promising "what to get right" would
+have misdescribed it. Those take a neutral "what to watch for" form
+instead of the proposal:
+
+| Page | Proposed | Applied |
+|---|---|---|
+| conversational-ai-chatbots-business | What to get right from the start | What to watch for |
+| english-to-french-translation-services | What makes English to French translation work for French readers | Three faults to watch for in English to French translation |
+| french-ppc-campaign | What to get right in French PPC campaigns | Three things to watch in French PPC campaigns |
+| link-building-in-spain | Three things agencies should do differently | Three agency habits to watch for |
+| spanish-keyword-localisation, spanish-on-page-seo, technical-seo-considerations-for-german-websites | Getting the details right / What to get right | What to watch for |
+| affiliate-marketing-programs | What new affiliates should budget for in 2026 | Where new affiliates can protect their margin in 2026 |
+| building-a-global-brand | A pattern we keep seeing, and the fix | A pattern we keep seeing in global launches |
+| digital-marketing-advisor | Where each model is strongest | Where each model fits best |
+| global-business-trends | ...settled, and still being refined | ...settled, with obligations to plan for |
+| global-business-trends | ...getting it right is worth more every year | ...the stakes keep rising |
+
 ## Verdicts
 
 | Verdict | Meaning | Count |

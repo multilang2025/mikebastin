@@ -133,7 +133,7 @@ Good tracking turns every euro spent into a lesson about the next one.
 <p><strong>Can you see what a French lead costs you, separately from your other markets?</strong> Our <a href="/services/multilingual-sem/">international PPC</a> runs each market with its own tracking, synced to your CRM, so a lead is qualified past the click and not just counted at it. <a href="/contact/">Talk to us about your French account</a>.</p>
 </aside>
 
-## Common pitfalls to avoid in French PPC campaigns
+## Three things to watch in French PPC campaigns
 
 Most French campaigns that underperform make one of three mistakes, and each one costs money every day it runs.
 

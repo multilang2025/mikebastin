@@ -18,7 +18,7 @@ Most of that is decided before a translator types a word: by the variant of Fren
 
 Below: what each French market expects, how a good English to French translation project runs, where translation alone falls short, and what to send so the quote fits the job.
 
-## Why generic English to French translation keeps failing
+## Three faults to watch for in English to French translation
 
 Bad French copy costs twice: once to produce and again to fix, with lost enquiries in between. Most of what we get asked to repair shares the same three faults.
 
@@ -82,7 +82,7 @@ Every translation is reviewed by a second native linguist. For AI-assisted proje
 
 A Word document does not rank. For website translation we push the French content into WPML, Polylang or TranslatePress with proper hreflang tags, French metas and a French URL structure. The keyword research is done in French before drafting, not bolted on after; see [French SEO services](/services/french-seo/) for the full setup.
 
-## Where translation alone is not enough
+## Where translation needs localization alongside it
 
 A faithful translation of a sales page is still a page written for English buyers.
 

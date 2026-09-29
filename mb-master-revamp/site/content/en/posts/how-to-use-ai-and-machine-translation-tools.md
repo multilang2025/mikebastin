@@ -87,7 +87,7 @@ AI produces the first draft and human translators review and edit it. It is fast
 In PEMT, a professional linguist edits machine output until it reads naturally and accurately and matches the brand's tone and regional expectations. It saves time and money while keeping a human accountable for the final text.
 
 <aside class="post-cta">
-<p><strong>Already running machine translation and unsure what it gets wrong?</strong> Our <a href="/services/ai-translation-and-post-editing/">AI translation and post-editing</a> settles your key terms once per language and puts a native editor on the pages that carry risk, with a lighter pass on the rest. <a href="/contact/">Book the discovery call</a>.</p>
+<p><strong>Already running machine translation and want to know where it needs an editor?</strong> Our <a href="/services/ai-translation-and-post-editing/">AI translation and post-editing</a> settles your key terms once per language and puts a native editor on the pages that carry risk, with a lighter pass on the rest. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
 ## Data privacy and transparency

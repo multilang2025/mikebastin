@@ -120,7 +120,7 @@ Most people at a networking event feel at least slightly awkward, which works in
 
 Not every message gets a reply and not every connection leads anywhere. Treat silence as information about timing rather than about you, and move on to the next opportunity.
 
-## Long-term networking: relationships, not contacts
+## Long-term networking: building relationships
 
 A thousand LinkedIn connections who would not take your call are worth less than twenty who would. Engage regularly through comments, shares and messages. The people who help you most in five years are often the ones you kept in touch with when you needed nothing.
 

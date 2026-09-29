@@ -1,6 +1,6 @@
 ---
 words: 1177
-title: "Google Analytics and international digital marketing: what you can and cannot trust"
+title: "Google Analytics and international digital marketing: what to trust and what to check"
 metaTitle: "Google Analytics for international marketing: what to trust"
 slug: "google-analytics-international-marketing-limits"
 locale: "en"
@@ -45,7 +45,7 @@ Engagement metrics are reliable for comparing markets on the same content. Consi
 
 GA4’s data-driven attribution is directionally useful for deciding which channels deserve budget in each market. Treat it as a guide, not exact truth: use it to prioritise testing and budget allocation, never to justify absolute ROI claims.
 
-## What you cannot trust: structural limits of international data
+## What to check: structural limits of international data
 
 Every blind spot below makes a market look smaller or noisier than it is, which leads to underinvesting in regulated or hard-to-track markets that may be doing well.
 
@@ -57,7 +57,7 @@ Every blind spot below makes a market look smaller or noisier than it is, which 
 | VPNs and mobile routing | Location is less precise | Trust country data, treat city data with caution |
 
 <aside class="post-cta">
-<p><strong>Not sure which of your markets GA4 is undercounting?</strong> Our <a href="/services/conversion-tracking/">conversion tracking per market</a> shows which language earns the enquiry, with consent mode accounted for, so markets are compared on what they sell. <a href="/contact/">Book the discovery call</a>.</p>
+<p><strong>Want to know which of your markets GA4 is undercounting?</strong> Our <a href="/services/conversion-tracking/">conversion tracking per market</a> shows which language earns the enquiry, with consent mode accounted for, so markets are compared on what they sell. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
 ## Optimizing GA4 for international accuracy
@@ -98,7 +98,7 @@ Benchmark each international market against your home market. Large conversion g
 <p><strong>One language drawing traffic and no enquiries?</strong> Every <a href="/services/multilingual-seo/">multilingual SEO programme</a> we run starts with native research in each target language, never a keyword set translated from English. <a href="/contact/">Talk to us about your markets</a>.</p>
 </aside>
 
-## Why data alone is not enough
+## Why data needs market knowledge beside it
 
 Analytics shows behaviour. It does not explain motivation. Seasonality, cultural habits, infrastructure limits and local expectations all affect performance, and none of them appear in dashboards.
 
@@ -120,7 +120,7 @@ GA4’s predictive audiences help identify users likely to convert in new market
 
 In many regions the sale happens on a call, a visit or a follow-up that a click-level report never sees. The Measurement Protocol brings those interactions into GA4, so each market is credited with the business it closes.
 
-## Using analytics without being misled
+## Reading analytics with confidence
 
 Google Analytics is essential for international marketing. It is not complete.
 

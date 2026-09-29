@@ -96,7 +96,7 @@ Around 1% of the population speaks German, in the eastern cantons, and [the lang
 -   [Legal considerations:](/services/translation-services/) certain industries may be required to provide [multilingual content](/services/multilingual-content/), German included, to comply with regulations.
 
 <aside class="post-cta">
-<p><strong>Reaching Flanders or Wallonia, but not both?</strong> Dutch and French both run directly here, so a Belgian site gets one plan in both of its languages rather than two agencies working from two briefs. See our <a href="/services/dutch-seo/">Dutch SEO</a> and <a href="/services/french-seo/">French SEO</a> services, or <a href="/contact/">book the discovery call</a>.</p>
+<p><strong>Want to reach Flanders and Wallonia alike?</strong> Dutch and French both run directly here, so a Belgian site gets one plan in both of its languages rather than two agencies working from two briefs. See our <a href="/services/dutch-seo/">Dutch SEO</a> and <a href="/services/french-seo/">French SEO</a> services, or <a href="/contact/">book the discovery call</a>.</p>
 </aside>
 
 ## The Brussels factor

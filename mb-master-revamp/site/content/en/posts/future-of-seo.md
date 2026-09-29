@@ -16,7 +16,7 @@ Your organic traffic report probably looks worse than your business does. Fewer 
 
 Below: what still earns visibility, what has lost its value, and where to put next quarter's effort, trend by trend, with a priority table at the end.
 
-## AI is not replacing SEO, it is replacing bad SEO
+## AI raises the bar for SEO
 
 If a competitor publishes ten AI-written pages for every one of yours, Google is discounting most of them. AI tools can produce content at scale, and every competitor is using them. Google's March 2025 core update showed what happens next: volume without substance gets devalued. The spam policies target scaled content abuse, and the systems reward original research, first-hand experience and real expertise.
 
@@ -64,7 +64,7 @@ An anonymous page now loses to one with a named expert behind it, and on health,
 
 There is no E-E-A-T score. Google reads indirect signals: domain reputation, clear authorship, source quality and author markup. Sites with anonymous content and no editorial transparency lose ground to those with detailed author bios, published case studies, recent sources and Person and Organization schema.
 
-## Zero-click is the default, not the enemy
+## Working with zero-click as the default
 
 If your reporting counts only clicks, it undercounts what search does for you. Most Google searches now end without a click to another website.
 
@@ -100,7 +100,7 @@ Somebody searching nearby is close to buying, so a vague area page costs you the
 
 Generic "near us" pages do worse than pages built around specific districts or service areas. [Local SEO](/services/local-seo/) favours businesses that show a real presence: an up-to-date Google Business Profile, reviews answered consistently, local backlinks, LocalBusiness schema and the same name, address and phone number across every citation.
 
-## Multilingual SEO is a growth lever, not a checkbox
+## Multilingual SEO as a growth lever
 
 If your English pages sell and your other languages only look busy, the gap is usually in how those versions were built, not in the market. International markets remain underworked by most businesses, and machine translation, much improved, still reads like a translation.
 

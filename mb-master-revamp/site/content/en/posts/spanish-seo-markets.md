@@ -1,6 +1,6 @@
 ---
 words: 1003
-title: "Why Spanish SEO is not optional"
+title: "Spanish SEO markets: where each one needs its own approach"
 slug: "spanish-seo-markets"
 locale: "en"
 type: "posts"
@@ -35,7 +35,7 @@ A buyer who spots an imported reference stops reading as a buyer and starts read
 Holidays, shopping seasons and buying habits differ between Madrid, Mexico City and Buenos Aires, and content that ignores them reads as imported, whatever the quality of the Spanish.
 
 <aside class="post-cta">
-<p><strong>Not sure which Spanish your site is actually written for?</strong> Every <a href="/services/spanish-seo/">Spanish SEO engagement</a> we run starts by deciding which Spanish comes first: Spain, one Latin American country, or both. <a href="/contact/">Book the discovery call</a>.</p>
+<p><strong>Want to know which Spanish your site is actually written for?</strong> Every <a href="/services/spanish-seo/">Spanish SEO engagement</a> we run starts by deciding which Spanish comes first: Spain, one Latin American country, or both. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
 ## Technical SEO considerations across Spanish-speaking countries

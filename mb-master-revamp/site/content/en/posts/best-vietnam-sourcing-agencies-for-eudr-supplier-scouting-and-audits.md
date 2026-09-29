@@ -134,7 +134,7 @@ The conversations that decide whether a supplier passes due diligence happen bet
 
 Without a qualified interpreter, your auditor talks to whoever in the chain speaks the best English, who is rarely the person who knows where the rubber, coffee or cocoa came from. The strongest audits we see pair a sourcing consultant with a Vietnamese-English interpreter who knows supply chain and agricultural terminology. The cost is small next to the risk: one misunderstood term about land tenure or harvest dates can undo a whole batch of due diligence.
 
-### Why machine translation is not enough
+### Why machine translation needs a human editor
 
 A phone running Google Translate or DeepL is tempting, and it is where the costly mistakes come from. Vietnamese is tonal, and a tone error changes the meaning of a word. Agricultural and land use vocabulary also varies by region in ways general-purpose engines handle badly.
 

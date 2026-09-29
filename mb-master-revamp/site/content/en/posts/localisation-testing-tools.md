@@ -114,7 +114,7 @@ How you use the tools decides whether each new market costs less to launch than 
 6. **Test continuously.** Build localization tests into your continuous integration and deployment (CI/CD) pipeline.
 
 <aside class="post-cta">
-<p><strong>Launching a new language and not sure what your tests would miss?</strong> Our <a href="/services/website-localisation/">website localization</a> includes full QA in every language before launch. <a href="/contact/">Book the discovery call</a>.</p>
+<p><strong>Launching a new language and want every fault caught before launch?</strong> Our <a href="/services/website-localisation/">website localization</a> includes full QA in every language before launch. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
 ## The short version

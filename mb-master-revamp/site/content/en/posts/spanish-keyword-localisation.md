@@ -12,7 +12,7 @@ sourceUrl: "https://mikebastin.com/spanish-keyword-localisation/"
 excerpt: "Spanish pages live but barely found? Spanish keyword localization swaps translated terms for the words buyers in Spain actually type into Google."
 ---
 
-## When your Spanish keywords are translations, not searches
+## When your Spanish keywords should come from searches
 
 Your Spanish pages are live, the translation is good, and the traffic from Spain is a trickle. The usual reason is not the writing. It is the words the pages were built around: translated from your English list, correct in the dictionary, and rarely what a buyer in Madrid or Valencia types into Google.
 
@@ -75,7 +75,7 @@ A product can have a popular name in Latin America that nobody uses in Spain, so
 Details like these decide whether the [content speaks the local](/blog/building-a-global-brand/) language, culturally as well as literally.
 
 <aside class="post-cta">
-<p><strong>Not sure whether your Spanish pages target Spain or Mexico?</strong> Our <a href="/services/spanish-seo/">Spanish SEO service</a> runs keyword research in each Spanish you target, by native speakers of it, before a strategy is agreed with you. <a href="/contact/">Book the discovery call</a>.</p>
+<p><strong>Want to know whether your Spanish pages target Spain or Mexico?</strong> Our <a href="/services/spanish-seo/">Spanish SEO service</a> runs keyword research in each Spanish you target, by native speakers of it, before a strategy is agreed with you. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
 ## Applying the keywords to your pages
@@ -84,7 +84,7 @@ The right keyword on the wrong page, or in a sentence no Spaniard would write, s
 
 Match the tone to local expectations, formal or conversational. On a site with sound [technical SEO](/services/technical-seo/), localized keywords work best used where they help the reader, not scattered through the text. What you want is a page that reads as native, so the buyer keeps reading.
 
-## Avoiding common mistakes
+## What to watch for
 
 The costliest errors are the ones nobody on your side can see, because the page looks fine in translation. The most [common mistake](/blog/common-mistakes-to-avoid-when-localising-your-website/) is relying on literal translations.
 

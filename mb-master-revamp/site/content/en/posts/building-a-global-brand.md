@@ -43,7 +43,7 @@ Knowing which is which tells you where to spend the localization budget and wher
 | Cultural references and humour | No | Replace, do not translate |
 | Trust signals | No | Local reviews, phone, address, payment methods |
 
-## Three things that travel without adjustment
+## Three things that travel as they are
 
 These are where you save money. In our experience they cross markets without rework.
 
@@ -63,7 +63,7 @@ These decide whether the brand lands, so the budget goes here.
 
 **Trust signals.** Reviews from local clients, local phone numbers, local addresses, payment methods buyers recognise. [Cultural differences in multilingual websites](/services/multilingual-content/) show up most sharply in this layer.
 
-## A real failure mode we keep seeing
+## A pattern we keep seeing in global launches
 
 The pattern goes like this. A brand decides to “go global”, marketing commissions a translation agency, and six locales launch simultaneously. The English version keeps converting; the localized versions convert at a fraction of its rate.
 

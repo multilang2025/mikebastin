@@ -106,7 +106,7 @@ Customers stuck in a loop leave, often for good. Even AI-driven chatbots need st
 
 A bot trained on imagined questions fails on the real ones. Use actual customer queries, with their misspellings, slang and odd phrasing, and keep learning from live interactions.
 
-### Plan for failure gracefully
+### Plan for graceful recovery
 
 A frustrated user who cannot reach a human becomes a former customer. Design clear escalation paths, and never reply "we don't understand" without offering an alternative.
 
@@ -114,7 +114,7 @@ A frustrated user who cannot reach a human becomes a former customer. Design cle
 
 A standalone bot that answers only generic questions rarely justifies its cost. Connected to your CRM, ERP and order management, it can check inventory, update orders and read customer history, which is where the value sits.
 
-## Common mistakes
+## What to watch for
 
 Each of these turns a support saving into a support cost.
 

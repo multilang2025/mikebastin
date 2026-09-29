@@ -12,7 +12,7 @@ sourceUrl: "https://mikebastin.com/link-building-in-spain/"
 excerpt: "Paid for .es links that never moved a ranking? Link building in Spain runs on Spanish PR and relationships. Where authority sits and what it takes."
 ---
 
-## Link building in Spain works on relationships, not templates
+## Link building in Spain works on relationships
 
 You have paid for links to your Spanish site, the reports show them live, and your rankings in Spain have barely moved. The budget went on placements Spanish editors never chose and Google learns to ignore.
 
@@ -55,7 +55,7 @@ Each earns links a Spanish editor chose to give, the kind that keeps its value.
 | Cámara and association listings | Low to medium | 50 to 70 | Local trust signals, evergreen |
 | Sponsorships and events | Medium | 50 to 80 | Press mentions plus brand exposure |
 
-## Three mistakes we see agencies repeat
+## Three agency habits to watch for
 
 Each spends real money on links that do little, and they show up in almost every Spanish off-page programme we audit.
 

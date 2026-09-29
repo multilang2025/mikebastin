@@ -55,7 +55,7 @@ Every annotation must be returned. If page A points to page B, page B must point
 <figcaption>An hreflang cluster works only as a whole: every version lists every other version and itself, and all of them name the same fallback page.</figcaption>
 </figure>
 
-### Common hreflang mistakes that cost you rankings
+### Hreflang checks that protect your rankings
 
 - Pointing to the wrong URL, a redirect or a page that returns an error.
 - Using an invalid code: `en-UK` instead of `en-GB`, or a country code where a language code belongs.
@@ -107,7 +107,7 @@ Your domain structure is expensive to change once content is built on it, so dec
 
 Google advises against using URL parameters such as `?lang=fr` for language versions.
 
-### Avoiding domain structure mistakes
+### Choosing a domain structure that scales
 
 Keep one structure across the whole site. Mixing ccTLDs for some languages and subdirectories for others makes the site harder to manage and sends weaker, inconsistent signals. Make sure users can switch language from any page, and that the switcher links to the equivalent page rather than the homepage.
 

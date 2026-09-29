@@ -72,7 +72,7 @@ Sits halfway between a translator and a grammar tool, rephrasing your target-lan
 <p><strong>AI drafts going into documents your clients or regulators will read?</strong> Through our <a href="/services/translation-services/">translation services</a>, each document is matched to a translator with the relevant sector background, then reviewed before delivery. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
-## Reference helpers we cannot work without
+## Reference helpers we use every day
 
 Most translation errors are a wrong choice between two plausible meanings. These lookup tools close that gap quickly, and they are how you check an AI draft rather than trust it.
 

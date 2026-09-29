@@ -185,7 +185,7 @@ The Carbon Border Adjustment Mechanism (CBAM) entered its definitive phase on 1 
 -   Check whether the revised CSRD thresholds still bring you, or your large customers, into scope
 -   Position sustainability credentials as a competitive differentiator, not just a compliance checkbox
 
-## Remote and hybrid work: settled, not solved
+## Remote and hybrid work: settled, with obligations to plan for
 
 Remote and hybrid work gives you access to talent in lower-cost markets, and the tools to run distributed teams have matured. The catch is employment law, tax obligations and data residency, which follow each hire across the border.
 
@@ -225,7 +225,7 @@ Cross-border selling is also getting dearer: de minimis exemptions for low-value
 -   Build omnichannel strategies that connect online and offline touchpoints
 -   Factor customs and de minimis changes into cross-border pricing models
 
-## Data privacy and cybersecurity: the cost of getting it wrong keeps rising
+## Data privacy and cybersecurity: the stakes keep rising
 
 A privacy mistake in one market can now cost more than a year's profit there. GDPR enforcement shows no sign of slowing: European regulators fined roughly as much in 2025 as in 2024, and breach notifications are climbing.
 
