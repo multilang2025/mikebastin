@@ -13,19 +13,19 @@ sourceUrl: "https://mikebastin.com/mastering-the-art-of-networking/"
 excerpt: "The best roles and clients often go to someone already known. Networking strategies for young professionals that turn contacts into real opportunities."
 ---
 
-The best roles and the best clients in digital marketing often go to someone a decision-maker already knows. If that is not you yet, you are competing on your CV alone, against people who arrive with an introduction. Early in a career, that gap is widest, and the cheapest time to close it is now.
+The best roles and the best clients in digital marketing often go to someone a decision-maker already knows. Early in a career, your CV does most of the talking, while the people who win those roles arrive with an introduction. The best time to start collecting introductions of your own is now.
 
-Networking closes it. Not swapping business cards, but building relationships that bring you learning, clients and projects. Below: the channels worth your time, how to prepare and follow up, the tools that keep a network organised, and how to handle the awkward parts.
+Networking is how you get them: building relationships that bring you learning, clients and projects. Below: the channels worth your time, how to prepare and follow up, the tools that keep a network organised, and how to handle the awkward parts.
 
 ## Where young marketers find networking opportunities
 
-Your time is limited, so pick the channels that match your goal. Most people need two or three, not all of them.
+Your time is limited, so pick the channels that match your goal. Two or three are plenty for most people.
 
 | Channel | Best for | Effort | How to use it well |
 |---|---|---|---|
 | **Industry events** | Face-to-face time with senior people | High | Research attendees beforehand |
 | **LinkedIn** | Visible expertise, warm introductions | Medium | Comment thoughtfully before you connect |
-| **X (formerly Twitter)** | Following live industry debate | Low to medium | Reply with substance, not praise |
+| **X (formerly Twitter)** | Following live industry debate | Low to medium | Reply with substance |
 | **Online communities** | Peer learning on Slack, Reddit, Facebook groups | Medium | Answer questions before asking them |
 | **Meetup** | Small local groups on one topic | Medium | Go regularly so faces become familiar |
 | **Eventbrite** | Conferences and workshops of any size | Medium | Filter by topic, try in-person and virtual |
@@ -40,19 +40,19 @@ People look you up before they reply to you. What they find decides whether the 
 
 ### A LinkedIn profile that tells a story
 
-Treat your LinkedIn profile as a career narrative, not a CV. Describe projects with tangible results, use the keywords your target network searches for, and make it clear what you bring. Our guide on [writing about your professional background](/blog/how-to-write-about-your-professional-background/) covers the wording in detail.
+Treat your LinkedIn profile as a career narrative. Describe projects with tangible results, use the keywords your target network searches for, and make it clear what you bring. Our guide on [writing about your professional background](/blog/how-to-write-about-your-professional-background/) covers the wording in detail.
 
 ### A home base you control
 
-A personal website is the one place where you set the terms. Use it to show how you think, not just what you did: case studies, a short blog, a portfolio that brings the work to life.
+A personal website is the one place where you set the terms. Use it to show how you think as well as what you did: case studies, a short blog, a portfolio that brings the work to life.
 
 ### A voice worth following
 
-Sharing other people's content makes you visible; saying something useful makes you memorable. Offer considered views on what your industry is debating, share lessons from successes and failures, and create material that solves problems your network actually has. The shift from participant to contributor is what makes people seek you out, a theme we explore in our piece on the [human creator economy](/blog/human-creator-economy/).
+Sharing other people's content makes you visible; saying something useful makes you memorable. Offer considered views on what your industry is debating, share lessons from what worked and what you would do differently, and create material that answers the questions your network actually has. The shift from participant to contributor is what makes people seek you out, a theme we explore in our piece on the [human creator economy](/blog/human-creator-economy/).
 
 ## Networking strategies that work in person and online
 
-Most networking fails after the first meeting, not during it. The four steps below work whether the first contact is a handshake or a LinkedIn message.
+Networking pays off in what happens after the first meeting. The four steps below work whether the first contact is a handshake or a LinkedIn message.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 130" role="img" aria-label="Four steps of networking in order: research, meet, follow up within 24 hours, then keep adding value.">
@@ -74,7 +74,7 @@ Most networking fails after the first meeting, not during it. The four steps bel
 <text x="250" y="114" text-anchor="middle" class="fg-label">within 24 h</text>
 <text x="350" y="114" text-anchor="middle" class="fg-label">for years</text>
 </svg>
-<figcaption>Most people stop after the second step. The relationship is built in the last two, which is where networking becomes a network.</figcaption>
+<figcaption>The relationship is built in the last two steps, which is where networking becomes a network.</figcaption>
 </figure>
 
 ### Prepare before every event
@@ -83,19 +83,19 @@ Preparation is what turns small talk into a conversation someone remembers. Look
 
 ### Start conversations naturally
 
-Rehearsed elevator pitches make people step back. Join with something useful to say: a relevant question, a mutual connection, a comment on the speaker's argument. The aim is a dialogue both of you want to continue, not a sale.
+People warm to a genuine opening. Join with something useful to say: a relevant question, a mutual connection, a comment on the speaker's argument. The aim is a dialogue both of you want to continue.
 
 ### Follow up within 24 hours
 
-A day later, they still remember you; a week later, you are a name on a card. Within 24 hours, send a personal message that refers to something specific from your conversation, and connect on LinkedIn.
+A day later, they still remember you clearly, so that is the moment to write. Within 24 hours, send a personal message that refers to something specific from your conversation, and connect on LinkedIn.
 
 ### Keep adding value
 
-Share insights that match their interests, congratulate them on achievements, and introduce them to people they should know. People help those who helped them first, so be the person who adds value consistently, not only when you need something.
+Share insights that match their interests, congratulate them on achievements, and introduce them to people they should know. People help those who helped them first, so be the person who adds value consistently, in the quiet months as well as the busy ones.
 
 ## Digital tools that keep a network organised
 
-A network you cannot keep track of slowly turns into a list of strangers. A few tools make the difference between a growing network and a pile of forgotten contacts.
+A network you keep track of keeps growing. A few tools keep every contact warm and every conversation on record.
 
 | Tool | What it does for networking |
 |---|---|
@@ -104,10 +104,10 @@ A network you cannot keep track of slowly turns into a list of strangers. A few 
 | **Nimble** | Relationship-focused CRM that connects to your email and social accounts |
 | **Dex** | Personal CRM that syncs contact details from LinkedIn profiles |
 
-Whichever CRM you choose, look for contact tagging, interaction history and reminders, so you can see at a glance who you have not spoken to for six months. Social media sync saves hours of manual updating.
+Whichever CRM you choose, look for contact tagging, interaction history and reminders, so you can see at a glance who is due a message after six months. Social media sync saves hours of manual updating.
 
 <aside class="post-cta">
-<p><strong>Your contacts live in a CRM, but you cannot tell which market your website enquiries come from?</strong> Our <a href="/services/lead-generation/">lead generation services</a> trace every enquiry to the market and language that earned it, then follow it into your CRM. <a href="/contact/">Book the discovery call</a>.</p>
+<p><strong>Want your CRM to show which market each website enquiry comes from?</strong> Our <a href="/services/lead-generation/">lead generation services</a> trace every enquiry to the market and language that earned it, then follow it into your CRM. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
 ## Handling networking challenges
@@ -116,13 +116,13 @@ Whichever CRM you choose, look for contact tagging, interaction history and remi
 
 Most people at a networking event feel at least slightly awkward, which works in your favour: a friendly question is usually welcome. Start online if face-to-face feels hard, set a small target such as two conversations per event, and remember that listening well counts as much as talking.
 
-### Managing rejection
+### Handling quiet replies
 
-Not every message gets a reply and not every connection leads anywhere. Treat silence as information about timing rather than about you, and move on to the next opportunity.
+Some messages get a reply and some connections lead somewhere, on their own timing. Treat silence as information about timing, and move on to the next opportunity.
 
 ## Long-term networking: building relationships
 
-A thousand LinkedIn connections who would not take your call are worth less than twenty who would. Engage regularly through comments, shares and messages. The people who help you most in five years are often the ones you kept in touch with when you needed nothing.
+Twenty LinkedIn connections who would take your call are worth more than a thousand who would only scroll past. Engage regularly through comments, shares and messages. The people who help you most in five years are often the ones you kept in touch with just to stay in touch.
 
 ## Where to start this week
 

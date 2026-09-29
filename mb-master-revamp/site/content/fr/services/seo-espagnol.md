@@ -14,7 +14,7 @@ excerpt: "Améliorez votre impact en ligne sur le marché espagnol grâce à des
 
 # SEO espagnol : ranker en Espagne et en Amérique latine
 
-Équipe basée à Valencia (Espagne) et Saint-Domingue. ES Espagne, ES Mexique, ES Argentine ou ES Colombie : variantes traitées séparément, pas en espagnol « neutre » qui ne marche nulle part.
+Équipe basée à Valencia (Espagne) et Saint-Domingue. ES Espagne, ES Mexique, ES Argentine ou ES Colombie : chaque variante traitée séparément, dans l’espagnol que son marché lit.
 
 ~500 M
 
@@ -32,15 +32,15 @@ Cari à RD
 
 direction de production hispanophone, native LatAm, plusieurs années à mes côtés
 
-## Le SEO espagnol rate quand on traite l’hispanophonie comme un seul marché
+## Le SEO espagnol réussit quand chaque pays hispanophone est traité comme un marché
 
-Trois pièges classiques sur les sites ES que j’audite :
+Trois points à régler sur les sites ES que j’audite :
 
-« Coche » en Espagne, « carro » au Mexique, « auto » en Argentine. « Móvil » en Espagne, « celular » en LatAm. Cibler « alquiler de coches » pour le Mexique, c’est cibler une formulation que personne n’utilise. Les volumes sont sur « renta de carros ». Hreflang es-ES distinct de es-MX, es-AR, es-CO obligatoire.
+« Coche » en Espagne, « carro » au Mexique, « auto » en Argentine. « Móvil » en Espagne, « celular » en LatAm. Pour le Mexique, ciblez « renta de carros », la formulation qu’on y utilise et où sont les volumes ; « alquiler de coches » est celle de l’Espagne. Hreflang es-ES distinct de es-MX, es-AR, es-CO obligatoire.
 
-L’espagnol « international » ou « neutre » est un compromis qui sonne mal partout. En Espagne il sonne sud-américain, au Mexique il sonne espagnol, et la confiance s’érode dans les deux. Les marques sérieuses choisissent un ou plusieurs marchés cibles et écrivent dedans, pas entre.
+L’espagnol « international » ou « neutre » est un compromis : en Espagne il sonne sud-américain, au Mexique il sonne espagnol. Les marques sérieuses choisissent un ou plusieurs marchés cibles et écrivent dans l’espagnol de chacun, ce qui gagne la confiance des lecteurs de chaque côté.
 
-Anuarios sectoriels par pays, presse régionale (provincias et comunidades autónomas), Aviso legal LSSI en Espagne, démarches officielles différentes (NIE, RFC, RUT, CURP, CDI). Un site qui ignore cette infrastructure ne capte ni les signaux de confiance ni les backlinks pertinents.
+Anuarios sectoriels par pays, presse régionale (provincias et comunidades autónomas), Aviso legal LSSI en Espagne, démarches officielles différentes (NIE, RFC, RUT, CURP, CDI). Un site qui s’appuie sur cette infrastructure capte les signaux de confiance et les backlinks pertinents.
 
 Le SEO espagnol couvre des marchés trop différents pour un traitement unifié. Mon approche par défaut : prioriser un marché principal (souvent Espagne), traiter les autres comme variantes hreflang sur les pages prioritaires, étendre selon ROI mesuré. La [stratégie internationale](https://mikebastin.com/fr/nos-services/referencement-international/) précède l’exécution.
 
@@ -54,15 +54,15 @@ Inscription dans les annuaires juridiques (ICAV, Páginas Amarillas), citations 
 
 Architecture sous-répertoire ou ccTLD selon votre cas, hreflang multi-variantes (es-ES, es-MX, es-AR, es-419), schema markup localisé, slugs traduits, sitemap par variante.
 
-Presse régionale espagnole, anuarios sectoriels par marché, blogs experts hispanophones (Spain et LatAm distincts), associations professionnelles. Pas de guest post LatAm pour ranker en Espagne, ça ne marche pas.
+Presse régionale espagnole, anuarios sectoriels par marché, blogs experts hispanophones (Spain et LatAm distincts), associations professionnelles. Chaque marché reçoit ses propres liens : des sites espagnols pour ranker en Espagne, des sites LatAm pour l’Amérique latine.
 
-Optimization pour ChatGPT, Claude, Perplexity et Google AI Overviews en espagnol. Les LLM construisent des knowledge graphs distincts par variante : les requêtes ES Espagne ne sont pas répondues comme ES Mexique.
+Optimization pour ChatGPT, Claude, Perplexity et Google AI Overviews en espagnol. Les LLM construisent des knowledge graphs distincts par variante : une requête ES Espagne et une requête ES Mexique reçoivent chacune leur propre réponse.
 
 ## Mon process en 5 étapes, livrables nommés
 
-Pas de production éditoriale avant validation conjointe du marché principal et des variantes secondaires.
+La production éditoriale démarre après validation conjointe du marché principal et des variantes secondaires.
 
-**Livrable :** rapport d’audit en espagnol avec relecture native des SERP par marché, analyse des erreurs de variantes (ES Spain mappé sur ES LatAm ou inverse), audit technique, profil de backlinks hispanophone, benchmark vs 3 concurrents par marché cible.
+**Livrable :** rapport d’audit en espagnol avec relecture native des SERP par marché, analyse du ciblage des variantes (ES Spain mappé sur ES LatAm ou inverse), audit technique, profil de backlinks hispanophone, benchmark vs 3 concurrents par marché cible.
 
 **Livrable :** tableur de mots-clés par variante (ES Espagne séparé de ES Mexique, etc.), volumes par pays, intent classifié, identification des longue traîne, mapping vers vos pages existantes ou à créer.
 
@@ -94,13 +94,13 @@ Trois missions où la maîtrise des variantes ES a été le levier : Espagne, M�
 
 **Résultat :** visibilité construite sur les requêtes immobilières en ES Caraïbes et US Hispanic, flux d’acheteurs internationaux récurrent, présence dans les réponses ChatGPT sur « best places to buy property Dominican Republic » dans les deux langues.
 
-## Inclus / pas inclus
+## Inclus, et où trouver le reste
 
 Prestation
 
 Inclus
 
-Pas inclus
+Assuré par ailleurs
 
 Audit SEO en espagnol natif (relecture des SERP par marché)
 
@@ -136,21 +136,21 @@ Reporting mensuel séparant par marché actif
 
 Aviso legal LSSI et conformité RGPD avancée
 
-⨯ via avocat espagnol partenaire
+→ via avocat espagnol partenaire
 
 Campagnes Google Ads en espagnol
 
-⨯ couvert par [SEM multilingue](https://mikebastin.com/fr/nos-services/sem-multilingue/)
+→ couvert par [SEM multilingue](https://mikebastin.com/fr/nos-services/sem-multilingue/)
 
 Présence locale par ville hispanophone
 
-⨯ couvert par [SEO local](https://mikebastin.com/fr/nos-services/referencement-local/)
+→ couvert par [SEO local](https://mikebastin.com/fr/nos-services/referencement-local/)
 
 ## Pourquoi cette équipe sur le SEO en espagnol
 
-**Mike Bastin** : basé à Valencia depuis 2016, terrain SEO Espagne au quotidien. 16 ans en République dominicaine avant ça, plus du temps au Costa Rica et au Mexique. Espagnol couramment parlé et écrit, lecteur natif des SERP par variante. Pas une couverture ES sous-traitée à un freelance distant.
+**Mike Bastin** : basé à Valencia depuis 2016, terrain SEO Espagne au quotidien. 16 ans en République dominicaine avant ça, plus du temps au Costa Rica et au Mexique. Espagnol couramment parlé et écrit, lecteur natif des SERP par variante. Une couverture ES suivie en personne, depuis le terrain.
 
-**Cari à Saint-Domingue** : dirige la production hispanophone du réseau depuis plusieurs années. Native LatAm, rédige et révise les contenus ES Mexique, ES Caraïbes, ES Colombie, ES Argentine. Connaît les codes culturels et les références locales qui font qu’un texte sonne juste ou pas.
+**Cari à Saint-Domingue** : dirige la production hispanophone du réseau depuis plusieurs années. Native LatAm, rédige et révise les contenus ES Mexique, ES Caraïbes, ES Colombie, ES Argentine. Connaît les codes culturels et les références locales qui font qu’un texte sonne juste.
 
 Pour l’ES Spain pur, je travaille avec des copywriters natifs d’Espagne via le réseau BeTranslated. Le QA stratégique passe toujours par moi.
 
@@ -160,7 +160,7 @@ Pour l’ES Spain pur, je travaille avec des copywriters natifs d’Espagne via 
 
 Trois scénarios reviennent au cadrage initial :
 
-**Cible Espagne uniquement** : cibler es-ES sur tous les contenus, ne pas inclure de tournures LatAm qui érodent la confiance des lecteurs espagnols. Architecture la plus simple.
+**Cible Espagne uniquement** : cibler es-ES sur tous les contenus, avec des tournures d’Espagne qui gagnent la confiance des lecteurs espagnols. Architecture la plus simple.
 
 **Cible LatAm (souvent Mexique en priorité)** : cibler es-MX ou es-CO en priorité, avec hreflang propre. Cari dirige la production. Volumes souvent énormes mais concurrence locale forte.
 
@@ -170,11 +170,11 @@ Trois scénarios reviennent au cadrage initial :
 
 L’espagnol « neutre » peut-il vraiment fonctionner pour plusieurs marchés ?
 
-Court terme oui (un site avec un seul corpus ES capte du trafic dans plusieurs pays). Long terme non, parce que les volumes les plus importants sont sur des formulations locales très précises. Une marque qui veut être prise au sérieux sur l’Espagne ET le Mexique a presque toujours intérêt à séparer ses corpus sur les pages commerciales prioritaires, quitte à mutualiser le blog informationnel.
+À court terme, oui : un site avec un seul corpus ES capte du trafic dans plusieurs pays. À long terme, les volumes les plus importants sont sur des formulations locales très précises. Une marque qui veut être prise au sérieux sur l’Espagne ET le Mexique a presque toujours intérêt à séparer ses corpus sur les pages commerciales prioritaires, quitte à mutualiser le blog informationnel.
 
 Quelle est la différence entre es-ES et es-419 dans hreflang ?
 
-« es-ES » cible spécifiquement l’Espagne. « es-419 » est le code UN M.49 pour l’Amérique latine et les Caraïbes dans leur ensemble. C’est utile quand vous avez un corpus LatAm unifié et que vous ne voulez pas créer des dizaines de variantes par pays. Combinaison recommandée typique : es-ES pour l’Espagne, es-419 pour LatAm en général, plus éventuellement es-MX, es-AR ou es-CO pour vos marchés prioritaires.
+« es-ES » cible spécifiquement l’Espagne. « es-419 » est le code UN M.49 pour l’Amérique latine et les Caraïbes dans leur ensemble. C’est utile quand vous avez un corpus LatAm unifié et préférez garder une seule version pour tous ces pays. Combinaison recommandée typique : es-ES pour l’Espagne, es-419 pour LatAm en général, plus éventuellement es-MX, es-AR ou es-CO pour vos marchés prioritaires.
 
 Combien de temps avant des résultats en SEO ES ?
 
@@ -182,22 +182,22 @@ Premiers signaux mesurables : 6 à 10 semaines. Trafic significatif : 6 à 12 mo
 
 Travaillez-vous le marché hispanophone des États-Unis (US Hispanic) ?
 
-Oui, c’est même un marché que peu d’agences SEO européennes adressent correctement. ~60 millions d’hispanophones aux États-Unis, à mi-chemin entre l’ES Mexique standard et un anglais ponctuel (codeswitching). Les requêtes commerciales mélangent souvent ES et EN. Cari gère ce profil très bien parce que la diaspora dominicaine est largement présente aux USA.
+Oui. ~60 millions d’hispanophones aux États-Unis, à mi-chemin entre l’ES Mexique standard et un anglais ponctuel (codeswitching). Les requêtes commerciales mélangent souvent ES et EN. Cari gère ce profil très bien parce que la diaspora dominicaine est largement présente aux USA.
 
 Les LLM répondent-ils différemment selon la variante d’espagnol ?
 
-Oui. Une requête « mejor abogado para autónomos » en Espagne et « mejor abogado para autónomos » tapée depuis le Mexique ne donneront pas les mêmes citations chez ChatGPT ou Claude. Les LLM construisent un knowledge graph qui tient compte du contexte géographique. Optimizer pour le GEO en espagnol demande de cibler la variante du marché où vous voulez être cité.
+Oui. Une requête « mejor abogado para autónomos » en Espagne et « mejor abogado para autónomos » tapée depuis le Mexique donnent chacune leurs propres citations chez ChatGPT ou Claude. Les LLM construisent un knowledge graph qui tient compte du contexte géographique. Optimizer pour le GEO en espagnol demande de cibler la variante du marché où vous voulez être cité.
 
 Comment garantir la qualité des contenus ES Spain ?
 
-Trois niveaux : (1) je brief le sujet et l’angle SEO en français ou en anglais avec le copywriter ; (2) le copywriter natif d’Espagne rédige ; (3) deuxième regard par un autre natif ou par Cari (pour les contenus marketing transversaux) avant publication. Vos retours côté client constituent un quatrième filtre : si une page sonne mal, on la révise.
+Trois niveaux : (1) je brief le sujet et l’angle SEO en français ou en anglais avec le copywriter ; (2) le copywriter natif d’Espagne rédige ; (3) deuxième regard par un autre natif ou par Cari (pour les contenus marketing transversaux) avant publication. Vos retours côté client constituent un quatrième filtre : chaque page que vous signalez est révisée.
 
 Combien coûte une mission SEO espagnol ?
 
-Sur devis. Le tarif dépend du périmètre (Espagne seule, LatAm seul, ou les deux), du volume éditorial à produire, et du niveau de concurrence sectorielle. Premier échange gratuit : 30 minutes pour comprendre votre contexte et donner une fourchette honnête. Pas de proposition générique envoyée par mail sans avoir échangé.
+Sur devis. Le tarif dépend du périmètre (Espagne seule, LatAm seul, ou les deux), du volume éditorial à produire, et du niveau de concurrence sectorielle. Premier échange gratuit : 30 minutes pour comprendre votre contexte et donner une fourchette honnête. La proposition suit cet échange et part de votre contexte.
 
 ## Vous voulez ranker en Espagne, en LatAm, ou sur les deux ?
 
-Je commence par auditer votre présence hispanophone réelle, en lisant les SERP en natif par marché. Diagnostic chiffré, recommandations actionnables. Premier échange gratuit, sans engagement.
+Je commence par auditer votre présence hispanophone réelle, en lisant les SERP en natif par marché. Diagnostic chiffré, recommandations actionnables. Premier échange gratuit, et vous décidez ensuite.
 
 Pour aller plus loin : [SEO multilingue](https://mikebastin.com/fr/nos-services/referencement-multilingue/) · [SEO international](https://mikebastin.com/fr/nos-services/referencement-international/) · [SEM multilingue](https://mikebastin.com/fr/nos-services/sem-multilingue/) · [guide SEO/GEO 2026](https://mikebastin.com/fr/seo-au-geo/)

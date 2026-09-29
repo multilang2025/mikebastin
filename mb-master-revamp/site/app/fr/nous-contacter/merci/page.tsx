@@ -33,7 +33,7 @@ export default function FrenchThanksPage() {
           </Reveal>
           <Reveal i={2}>
             <p className="mb-10 max-w-[58ch] text-[clamp(1.05rem,1.65vw,1.24rem)]" style={{ color: "var(--dim)" }}>
-              Une personne le lit, pas un robot. Comptez sur une réponse sous un jour ouvré, avec un avis franc sur la question de savoir si nous sommes les bonnes personnes pour votre projet.
+              Une personne de l’équipe le lit. Comptez sur une réponse sous un jour ouvré, avec un avis franc sur la question de savoir si nous sommes les bonnes personnes pour votre projet.
             </p>
           </Reveal>
           <Reveal i={3}>

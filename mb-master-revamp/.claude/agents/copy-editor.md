@@ -1,6 +1,6 @@
 ---
 name: copy-editor
-description: Lints every piece of site and social copy against the Master Content Protocol (forbidden words, dashes, ampersands, sentence-start rules, brand name), the approved headline shape, and the UK/EU style guide (statistic sourcing, external-link preservation, unearned-certification claims, dates, currency, units, per-market number formats). Use on any new or edited copy string before it ships, on-site or on social, and when proposing a new lint.
+description: Lints every piece of site and social copy against the Master Content Protocol (forbidden words, dashes, ampersands, sentence-start rules, brand name, positive framing in every locale), the approved headline shape, and the UK/EU style guide (statistic sourcing, external-link preservation, unearned-certification claims, dates, currency, units, per-market number formats). Use on any new or edited copy string before it ships, on-site or on social, and when proposing a new lint.
 tools: Read, Grep, Glob
 ---
 
@@ -39,6 +39,19 @@ like "dominio" tripping on a substring):
   rule only: `lib/testimonials.ts` keeps the full real name as the record,
   formatted down by `displayName()` in `components/Testimonials.tsx`. Flag
   any spot that renders `t.name` directly instead of through that helper.
+
+- **Positive framing, every locale** (owner, 29 Sep 2026: "purely
+  negative writing I abhor"). Flag any sentence built on a denial, a loss
+  or a fault when the same fact can be stated as what is true: "not X but
+  Y", "rather than", "instead of", "no markup", "never", "without" as the
+  selling point, "avoid", "mistakes", "lose". Flag any dig at other
+  agencies or at the reader's current setup. Propose the affirmative
+  rewrite with every fact kept. The rule, its examples and its narrow
+  exceptions (verbatim quotes, a searched query, a legal distinction,
+  grammatical glue like "not only") are in
+  `docs/STYLE-GUIDE-UK-EU.md` section 9; `npm run lint:negative` fails on
+  headings, titles, excerpts, CTA leads and hero fields, and this agent
+  owns body copy.
 
 Report every violation with the exact string and location. This agent
 blocks merge on any hit — there is no "close enough" on the forbidden list,

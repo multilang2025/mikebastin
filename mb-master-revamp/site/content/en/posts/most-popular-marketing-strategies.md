@@ -13,7 +13,7 @@ sourceUrl: "https://mikebastin.com/most-popular-marketing-strategies/"
 excerpt: "Going international on a small budget? The most popular marketing strategies for SMBs, how fast each pays back, and the two to run first."
 ---
 
-Your first foreign market rarely fails for lack of effort. It fails because a small team spreads one budget across ten channels, none gets enough to work, and a year later the new country has cost money without showing what could have paid. For a small or medium-sized business (SMB), the starting point is the expensive decision.
+Your first foreign market pays back fastest when a small team puts its budget behind two or three channels, gives each enough to work, and within a year can see which ones earn their keep. For a small or medium-sized business (SMB), choosing the starting point is the decision that counts.
 
 Below: the ten marketing strategies SMBs use most abroad, what each involves and how quickly it pays back, so you can choose where to start.
 
@@ -59,19 +59,19 @@ If you would rather hand the whole mix to one team, a [full-service marketing ag
 
 ## Search engine optimization (SEO)
 
-If buyers cannot find you when they search in their own language, every other channel has to work harder. SEO is slow to start, and keeps sending visitors after the budget stops.
+When buyers find you as they search in their own language, every other channel has an easier job. SEO takes time to start, and keeps sending visitors after the budget stops.
 
-### Localizing keywords rather than translating them
+### Localizing keywords for each region
 
-Translated keywords often bring no traffic, because search terms vary between regions even within one language. Run [multilingual keyword research](/services/multilingual-seo/) with local tools, and use [search intent mapping](/blog/what-is-search-intent-mapping/) to match each term to what the searcher actually wants.
+Localized keywords bring the traffic, because search terms vary between regions even within one language. Run [multilingual keyword research](/services/multilingual-seo/) with local tools, and use [search intent mapping](/blog/what-is-search-intent-mapping/) to match each term to what the searcher actually wants.
 
 ### Content localization for each region's language and culture
 
-A translated page tells a buyer you did not write for them. Localized content fits the audience's language, tone and cultural references, so write blog posts, product descriptions and landing pages for each region rather than copying one version everywhere.
+A localized page tells a buyer you wrote for them. Localized content fits the audience's language, tone and cultural references, so write blog posts, product descriptions and landing pages for each region.
 
 ### Technical SEO for global websites
 
-Set up badly, language versions compete instead of adding up. Hreflang tags tell search engines which language and country version of a page to show to which user. A region-specific domain strategy, such as country-code top-level domains (ccTLDs), can strengthen rankings in target markets. Our guide to [technical SEO for multilingual websites](/blog/technical-seo-for-multilingual-websites/) covers the setup.
+Set up well, language versions add up. Hreflang tags tell search engines which language and country version of a page to show to which user. A region-specific domain strategy, such as country-code top-level domains (ccTLDs), can strengthen rankings in target markets. Our guide to [technical SEO for multilingual websites](/blog/technical-seo-for-multilingual-websites/) covers the setup.
 
 ## Pay-per-click advertising (PPC) to test demand in a new market
 
@@ -90,7 +90,7 @@ Ads work when they sound local. Translate the copy and adapt it with [multilingu
 Start with small test campaigns in each new market, then watch click-through rate (CTR), conversion rate and return on investment (ROI) before scaling. Our guide to [running a French PPC campaign](/blog/french-ppc-campaign/) walks through one market in detail.
 
 <aside class="post-cta">
-<p><strong>Testing a new market and cannot tell which country the leads come from?</strong> Our <a href="/services/lead-generation/">B2B lead generation services</a> run search per market and count every enquiry against the market that earned it. <a href="/contact/">Book the discovery call</a>.</p>
+<p><strong>Testing a new market and want to see which country each lead comes from?</strong> Our <a href="/services/lead-generation/">B2B lead generation services</a> run search per market and count every enquiry against the market that earned it. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
 ## Social media marketing on the platforms each country uses
@@ -103,7 +103,7 @@ Social media reaches a new audience quickly, if you are on the platforms that ma
 
 ## Influencer marketing to borrow a local reputation
 
-As a newcomer you have no reputation yet. A local influencer lends you theirs, with immediate exposure to a loyal following.
+As a newcomer, you can borrow a reputation. A local influencer lends you theirs, with immediate exposure to a loyal following.
 
 **Identifying local influencers.** Partner with people whose audience matches your target demographic. Tools such as Upfluence or Aspire help you filter by location, engagement and content relevance.
 
@@ -121,7 +121,7 @@ Email is one of the cheapest ways to keep customers abroad buying, provided it i
 
 ## Content marketing that proves you know each market
 
-Content is how a buyer who has never heard of you decides you know their market, and one version for every country rarely convinces.
+Content is how a buyer meeting you for the first time decides you know their market, and a version written for their country is what convinces.
 
 **Localized blogs and articles.** Address each market's specific challenges and interests; a post that performs in one country may need significant changes to work in another.
 
@@ -141,18 +141,18 @@ A local partner lends you credibility and know-how that would take years to buil
 
 For B2B sellers, trade shows put you face to face with distributors and buyers, and face-to-face contact builds trust faster than most online channels. Localize your stand materials and presentations for the market you are targeting. If Spain is on your list, see our guide to [B2B trade shows in Valencia](https://valenciamove.com/blog/b2b-trade-shows-valencia/).
 
-## Affiliate marketing that only costs you when it sells
+## Affiliate marketing that you pay for per sale
 
-Affiliate marketing only costs you when it sells: local marketers earn a commission on the sales they generate, a low-risk way into new markets. Local affiliates understand their audience's preferences and shopping habits, and every sale is tracked, so you can see what works in each market and shift effort accordingly. Our overview of [affiliate marketing programs](/blog/affiliate-marketing-programs/) explains the main models.
+With affiliate marketing you pay per sale: local marketers earn a commission on the sales they generate, a low-outlay way into new markets. Local affiliates understand their audience's preferences and shopping habits, and every sale is tracked, so you can see what works in each market and shift effort accordingly. Our overview of [affiliate marketing programs](/blog/affiliate-marketing-programs/) explains the main models.
 
 ## Multilingual chatbots and customer support
 
-A buyer in another time zone who gets no answer often buys elsewhere. Multilingual chatbots answer common questions, resolve issues and guide customers through a purchase in their own language, around the clock. They also capture leads by asking qualifying questions and recommending the right product or service. Our guide to [conversational AI in business](/blog/conversational-ai-chatbots-business/) covers set-up and measurement.
+A buyer in another time zone wants an answer at their hour, in their language. Multilingual chatbots answer common questions, resolve issues and guide customers through a purchase in their own language, around the clock. They also capture leads by asking qualifying questions and recommending the right product or service. Our guide to [conversational AI in business](/blog/conversational-ai-chatbots-business/) covers set-up and measurement.
 
 <aside class="post-cta">
-<p><strong>Visitors arrive from your other markets, and enquiries still come mostly in English?</strong> We turn it into <a href="/services/lead-generation/">enquiries worth a sales call</a>, starting with your strongest market. <a href="/contact/">Talk to us about your markets</a>.</p>
+<p><strong>Visitors arrive from your other markets and you want enquiries from them too?</strong> We turn those visits into <a href="/services/lead-generation/">enquiries worth a sales call</a>, starting with your strongest market. <a href="/contact/">Talk to us about your markets</a>.</p>
 </aside>
 
 ## Where to start
 
-Few SMBs can run all ten strategies at once. A sensible first mix is one fast channel to test demand, usually PPC, and one slow channel that compounds, usually SEO with localized content. Add partnerships, email and events once you know which market responds, and judge each market on the enquiries it sends rather than on its traffic.
+Start with two of the ten strategies. A sensible first mix is one fast channel to test demand, usually PPC, and one slow channel that compounds, usually SEO with localized content. Add partnerships, email and events once you know which market responds, and judge each market on the enquiries it sends.

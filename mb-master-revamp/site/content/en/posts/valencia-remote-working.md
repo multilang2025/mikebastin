@@ -115,7 +115,7 @@ Housing is the largest expense, and rents have risen fast. At the August 2026 ci
 <text x="124" y="139" class="fg-label">30</text>
 <text x="122" y="175" class="fg-label">21</text>
 </svg>
-<figcaption>Monthly euros, drawn to scale from the figures above: a 75 m² flat at the August 2026 average, Wayco's cheapest fixed desk before VAT, Numbeo utilities and internet, and the discounted transport pass. Rent dwarfs everything else, so the neighbourhood decision matters most.</figcaption>
+<figcaption>Monthly euros, drawn to scale from the figures above: a 75 m² flat at the August 2026 average, Wayco's cheapest fixed desk before VAT, Numbeo utilities and internet, and the discounted transport pass. Rent is by far the largest line, so the neighbourhood decision matters most.</figcaption>
 </figure>
 
 For a full breakdown, our guide to [Valencia living expenses](https://mikebastin.com/valencia-living-expenses/) goes further.

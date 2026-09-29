@@ -14,9 +14,9 @@ excerpt: "Sachez quelle part de vos contenus étrangers l’IA peut prendre en c
 
 ## Ce que l’IA peut déjà faire pour vos marchés étrangers
 
-On vous a sans doute dit que l’IA pouvait prendre en charge vos contenus en allemand, en espagnol ou en néerlandais. Une partie, oui. Mais la partie qui décide si une page vous rapporte des demandes est celle qui demande encore quelqu’un qui lit la langue.
+L’IA peut prendre en charge une partie de vos contenus en allemand, en espagnol ou en néerlandais. La partie qui décide si une page vous rapporte des demandes reste l’affaire de quelqu’un qui lit la langue.
 
-Le vrai risque n’est pas la phrase manifestement bancale : celle-là, tout le monde la repère. C’est la phrase fluide, professionnelle, et discrètement fausse. Sur un marché dont personne chez vous ne lit la langue, elle reste en ligne des mois et elle entame la confiance que la page devait gagner. La perte se voit dans le nombre de demandes, bien avant de se voir dans un rapport d’outil.
+La phrase à surveiller est la phrase fluide, professionnelle et discrètement fausse ; la phrase manifestement bancale, tout le monde la repère. Sur un marché dont seuls vos clients lisent la langue, la première peut rester en ligne des mois : faites relire chaque page par quelqu’un qui lit la langue, et la page garde la confiance qu’elle doit gagner. L’effet se voit dans le nombre de demandes, bien avant un rapport d’outil.
 
 Notre conseil en IA vous dit précisément quelle partie de votre activité multilingue gagne à être automatisée, et laquelle a encore besoin d’une personne.
 
@@ -26,25 +26,25 @@ Notre conseil en IA vous dit précisément quelle partie de votre activité mult
 
 ## Une traduction automatique relue par quelqu’un qui lit la langue
 
-Les moteurs actuels sont assez bons pour qu’une traduction entièrement manuelle soit difficile à justifier, et pas assez pour publier leur production sans la lire. Le dispositif qui fonctionne tient en trois points :
+Les moteurs actuels sont assez bons pour prendre en charge le premier jet, et leur production se publie après lecture. Le dispositif qui fonctionne tient en trois points :
 
 - un moteur choisi et réglé pour votre domaine ;
 - un éditeur natif sur les contenus qui engagent votre entreprise ;
 - une relecture plus légère sur le reste.
 
-L’économie est réelle, et elle vient du tri entre ces contenus, pas d’une confiance excessive dans le moteur. C’est le principe de notre [post-édition IA](/fr/services/postedition-ia/).
+L’économie est réelle, et elle vient du tri entre ces contenus. C’est le principe de notre [post-édition IA](/fr/services/postedition-ia/).
 
 ## Un support qui répond dans la langue de la question
 
-Un assistant multilingue sur votre site traite les questions répétitives de chaque marché, sans équipe de support par langue, et passe la main proprement quand il ne sait pas. Il s’appuie sur vos propres contenus plutôt que sur les suppositions d’un modèle généraliste : il parle de vos produits, pas de votre secteur en général.
+Un assistant multilingue sur votre site traite les questions répétitives de chaque marché dans sa langue, avec une seule équipe de support pour toutes, et passe la main proprement à une personne quand la question dépasse ce qu’il connaît. Il s’appuie sur vos propres contenus : il parle de vos produits.
 
-Le point à surveiller, c’est l’aplomb. Un assistant qui invente une réponse en néerlandais, alors que personne chez vous ne lit le néerlandais, peut le faire pendant des mois avant que quelqu’un s’en aperçoive. C’est pourquoi toute production d’IA dans ce dispositif est relue par une personne qui lit la langue cible.
+Le point à surveiller, c’est l’aplomb : sur un marché dont seuls vos clients lisent la langue, une réponse inventée en néerlandais peut passer des mois inaperçue. Toute production d’IA dans ce dispositif est donc relue par une personne qui lit la langue cible.
 
 ## Lire ce que disent vos marchés, à grande échelle
 
-Nous analysons le sentiment et les thèmes des avis clients, des tickets de support et des mentions sur les réseaux sociaux, langue par langue. Menée sur plusieurs marchés à la fois, cette analyse fait ressortir des tendances dans la façon dont on parle de votre marque qu’une revue manuelle mettrait des semaines à trouver. C’est l’un des rares cas où l’IA ajoute une capacité, et pas seulement de la vitesse.
+Nous analysons le sentiment et les thèmes des avis clients, des tickets de support et des mentions sur les réseaux sociaux, langue par langue. Menée sur plusieurs marchés à la fois, cette analyse fait ressortir des tendances dans la façon dont on parle de votre marque qu’une revue manuelle mettrait des semaines à trouver. Ici, l’IA ajoute une capacité en plus de la vitesse.
 
-Une plainte qui revient en espagnol et nulle part ailleurs relève généralement d’un défaut de localisation, pas d’un défaut du produit. Dans un rapport qui mélange toutes les langues, elle reste invisible.
+Une plainte qui revient uniquement en espagnol relève généralement de la localisation, et c’est là qu’elle se corrige. Un rapport langue par langue la fait ressortir.
 
 ## Mesurer ce que l’IA vous rapporte réellement
 
@@ -55,7 +55,7 @@ Pour savoir si l’automatisation fonctionne, nous suivons :
 - le coût par page publiée ;
 - l’avis des personnes qui utilisent la production : accepteraient-elles de revenir en arrière ?
 
-Ces indicateurs s’accompagnent de chiffres par marché, parce qu’une économie en allemand et un désordre en espagnol s’annulent sur un tableau de bord. Une automatisation qui fait gagner du temps et perdre la confiance n’a rien fait gagner.
+Ces indicateurs s’accompagnent de chiffres par marché, pour voir séparément une économie en allemand et un désordre en espagnol qu’un tableau de bord global additionnerait. Une automatisation réussie fait gagner du temps et garde la confiance de chaque marché.
 
 ## Un accompagnement au mois, avec des spécialistes nommés
 

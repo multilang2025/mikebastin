@@ -53,7 +53,7 @@ Integra tus estrategias de redes sociales con WordPress, Joomla, Drupal y otras 
 
 Seguimos un proceso estructurado de cinco pasos para asegurar que tu estrategia de redes sociales multilingüe esté optimizada para el éxito.
 
-Entendemos sus objetivos comerciales, mercados objetivo y necesidades de redes sociales.
+Entendemos tus objetivos comerciales, mercados objetivo y necesidades de redes sociales.
 
 Investigamos tendencias regionales y competidores para informar estrategias de contenido y elección de plataformas.
 

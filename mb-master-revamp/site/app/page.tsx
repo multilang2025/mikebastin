@@ -55,13 +55,13 @@ const BASTIN = [
   {
     letter: "B",
     word: "Business",
-    desc: "The case for search sits inside a business case first, or it does not get built at all.",
+    desc: "The case for search starts inside a business case, which is what gets it built.",
     href: "/services/lead-generation/",
   },
   {
     letter: "A",
     word: "Automation",
-    desc: "AI drafts, tests and reports, so nothing waits on a person asleep in the wrong timezone.",
+    desc: "AI drafts, tests and reports, so the work keeps moving around the clock, in every timezone.",
     href: "/services/ai-consulting/",
   },
   {
@@ -73,13 +73,13 @@ const BASTIN = [
   {
     letter: "T",
     word: "Translation",
-    desc: "Copy adapted for the market reading it, not translated for the market that wrote it.",
+    desc: "Copy adapted for the market reading it.",
     href: "/services/translation-services/",
   },
   {
     letter: "I",
     word: "Internationalization",
-    desc: "The dull work done before launch, so a product can take a second language without a rebuild.",
+    desc: "The groundwork done before launch, so a product can take a second language on the build it already has.",
     href: "/services/app-and-software-localisation/",
   },
   {
@@ -103,33 +103,33 @@ const WHAT_WE_DO = [
   },
   {
     cluster: "Localization",
-    desc: "Making a site work in a market, not merely readable in a language.",
+    desc: "Making a site work in a market, from the language to the prices and the trust signals.",
     href: "/services/website-localisation/",
   },
   {
     cluster: "AI",
-    desc: "Structured for ChatGPT, Perplexity and Google's AI Overviews to cite, not just for Google to rank.",
+    desc: "Structured for ChatGPT, Perplexity and Google's AI Overviews to cite, as well as for Google to rank.",
     href: "/services/generative-engine-optimization/",
   },
   {
     cluster: "Technical",
-    desc: "The work that stops your language versions competing with each other for the same buyers.",
+    desc: "The work that makes your language versions add up, each one reaching its own buyers.",
     href: "/services/technical-seo/",
   },
 ];
 
 const WHY_IT_WORKS = [
   {
-    title: "In-market copy, not translated copy",
+    title: "Copy written in the market",
     body: "A site that works in a market is a currency, trust signal and search behaviour question, as much as a language one.",
   },
   {
-    title: "AI accelerates the work, not the excuses",
-    body: "Machine drafting first, human decision after, so speed does not cost accuracy.",
+    title: "AI accelerates the work",
+    body: "Machine drafting first, human decision after, so speed and accuracy arrive together.",
   },
   {
     title: "Every locale gets the same rigour",
-    body: "French, Spanish and English are built to the same standard, not one full version and two lighter ones.",
+    body: "French, Spanish and English are built to the same standard, each one a full version.",
   },
 ];
 
@@ -142,7 +142,7 @@ export default function Home() {
         <div>
           <Reveal>
             <p className="eyebrow mb-5">
-              Plenty of sites rank. Far fewer sell.
+              Built to sell, in every language
             </p>
           </Reveal>
 
@@ -180,9 +180,8 @@ export default function Home() {
               style={{ color: "var(--dim)" }}
             >
               The traffic in your other languages is already there. Turning it
-              into enquiries is usually a research and writing job rather than a
-              bigger budget, and it starts with the market where the evidence is
-              strongest.
+              into enquiries is usually a research and writing job, and it
+              starts with the market where the evidence is strongest.
             </p>
           </Reveal>
 
@@ -205,7 +204,7 @@ export default function Home() {
                 French only converted, and it named four markets when six
                 language SEO services exist, quietly dropping DE, IT and PT. */}
             <div className="flex flex-wrap items-center gap-x-3 gap-y-2 text-[.94rem]" style={{ color: "var(--dim)" }}>
-              {["Written natively, market by market", "Languages that add up, not compete", "Enquiries counted per language"].map((t, i) => (
+              {["Written natively, market by market", "Languages that add up", "Enquiries counted per language"].map((t, i) => (
                 <span key={t} className="flex items-center gap-3">
                   {i > 0 && <i className="block h-[3px] w-[3px] rounded-full" style={{ background: "var(--berry)" }} />}
                   {t}
@@ -231,8 +230,8 @@ export default function Home() {
               You already sell abroad, so the product is proven. Ongoing
               multilingual SEO is the main engagement, with localization,
               paid search and AI consulting around it. A global SEO
-              programme is those pieces running together rather than any one
-              of them alone, and enquiries are the product either way,
+              programme is those pieces running together, and enquiries are
+              the product,
               counted market by market so you can see which language earns
               them.
             </p>
@@ -278,7 +277,7 @@ export default function Home() {
       <section className="band band-b py-[clamp(64px,9vw,128px)]">
         <div className="shell">
           <Reveal>
-            <p className="eyebrow mb-3">Nobody planned this, but it fits</p>
+            <p className="eyebrow mb-3">A happy accident that fits</p>
             <h2 className="mb-4 max-w-[18ch] text-[clamp(1.8rem,3.6vw,2.9rem)] font-semibold leading-[1.1]">
               BASTIN was there the whole time.
             </h2>

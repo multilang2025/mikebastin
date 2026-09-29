@@ -42,7 +42,7 @@ const MARKETS: { slug: string; market: string; line: string }[] = [
 const SERVICES_FOR: { slug: string; name: string; line: string }[] = [
   { slug: "referencement-multilingue", name: "Référencement multilingue", line: "La stratégie par marché, et des rédacteurs natifs pour chaque langue." },
   { slug: "localisation-de-site-web", name: "Localisation de site web", line: "Des prix, des formulaires et des pages qui paraissent locaux dans chaque pays." },
-  { slug: "sem-multilingue", name: "Publicité multilingue", line: "Votre budget média va directement à Google, Microsoft ou Meta, sans marge sur la dépense." },
+  { slug: "sem-multilingue", name: "Publicité multilingue", line: "Votre budget média va entièrement à vos annonces, versé directement à Google, Microsoft ou Meta ; le pilotage fait l’objet d’honoraires à part." },
 ];
 
 const STEPS = [
@@ -81,7 +81,7 @@ export default function FrenchHome() {
           </Reveal>
           <Reveal i={3}>
             <p className="mb-10 max-w-[58ch] text-[clamp(1.05rem,1.65vw,1.24rem)]" style={{ color: "var(--dim)" }}>
-              Le trafic dans vos autres langues existe déjà. Le transformer en demandes, marché par marché, c&apos;est notre métier depuis plus de vingt ans{" "}: des mots-clés trouvés dans chaque pays, des pages écrites par des natifs, et des résultats comptés en demandes plutôt qu&apos;en visites.
+              Le trafic dans vos autres langues existe déjà. Le transformer en demandes, marché par marché, c&apos;est notre métier depuis plus de vingt ans{" "}: des mots-clés trouvés dans chaque pays, des pages écrites par des natifs, et des résultats comptés en demandes.
             </p>
           </Reveal>
           <Reveal i={4}>
@@ -104,7 +104,7 @@ export default function FrenchHome() {
             <Reveal>
               <h2 className="mb-3 text-[clamp(1.6rem,3vw,2.3rem)] font-semibold leading-[1.15]">Le marché où vous voulez vendre ensuite</h2>
               <p className="mb-10 max-w-[58ch]" style={{ color: "var(--dim)" }}>
-                Chaque pays cherche avec ses propres mots. Nous partons de ceux-là, pas d&apos;une traduction de vos pages françaises.
+                Chaque pays cherche avec ses propres mots, et nous écrivons vos pages à partir de ceux-là.
               </p>
             </Reveal>
             <ul className="grid gap-px sm:grid-cols-2" style={{ background: "var(--rule)" }}>

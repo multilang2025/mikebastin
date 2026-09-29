@@ -12,17 +12,17 @@ sourceUrl: "https://mikebastin.com/how-to-promote-your-local-business-on-google-
 excerpt: "Nearby customers call one of the first three businesses on the map. How to promote your local business on Google Maps and be one of those three."
 ---
 
-Somebody a few streets away searches for exactly what you sell, calls one of the three businesses Google Maps shows first, and never sees yours. Nothing reports it. The phone simply rings less than it could.
+Somebody a few streets away searches for exactly what you sell and calls one of the three businesses Google Maps shows first. The aim is for yours to be one of them, so the phone rings as often as it could.
 
 Below: how to get listed, what wins a place on the map, where reviews, posts, ads and AI answers fit in, and how to see what brings calls.
 
 ## Add your business to Google Maps
 
-No verified profile, no place on the map. Your Maps listing comes from a Google Business Profile.
+A verified profile is your place on the map. Your Maps listing comes from a Google Business Profile.
 
 1. Go to the [Google Business Profile website](https://www.google.com/business/) and sign in with your Google account.
 2. Enter your business name and choose the most accurate category.
-3. Add your location. A service-area business without premises can hide its address and show the areas it serves instead.
+3. Add your location. A service-area business that works at its customers' locations can hide its address and show the areas it serves.
 4. Verify the business. Google chooses the method for you, depending on your business type and region: phone or text, email, a video recording or live video call, or a postcard by mail.
 
 > "Verification methods are automatically determined by Google and can't be changed."
@@ -32,7 +32,7 @@ Once verified, your business appears on Google Maps. Our [local SEO service](/se
 
 ## Optimize your listing with complete, accurate profile details
 
-A half-finished profile loses to competitors with better upkeep, not better products. A complete, accurate one ranks better and earns more clicks.
+Upkeep wins here as much as the product does. A complete, accurate profile ranks better and earns more clicks.
 
 - **Accurate details.** Name, address, phone number and opening hours, kept up to date, including holiday hours.
 - **Business description.** Explain what you do in plain language, using the terms customers search for.
@@ -41,7 +41,7 @@ A half-finished profile loses to competitors with better upkeep, not better prod
 
 ## Build citations with identical details in every directory
 
-When your address reads differently across directories, Google trusts none of them. A citation is a mention of your business name, address and phone number (NAP) on another website. Consistent citations help Google trust your details, which supports your [local SEO](/services/local-seo/).
+When your address reads the same in every directory, Google trusts it. A citation is a mention of your business name, address and phone number (NAP) on another website. Consistent citations help Google trust your details, which supports your [local SEO](/services/local-seo/).
 
 - List your business in reputable directories such as Yelp, TripAdvisor and the leading sites for your industry.
 - Keep your NAP identical everywhere.
@@ -71,12 +71,12 @@ Short on ideas? Many of our [blog post ideas for small businesses](/blog/15-simp
 
 ## Prepare for AI search in Maps
 
-Google is adding its Gemini models to Maps, so people ask full questions instead of typing keywords, and the answers draw on your profile and your reviews. Gaps in either now cost you twice.
+Google is adding its Gemini models to Maps, so people ask full questions in their own words, and the answers draw on your profile and your reviews. A complete profile and a steady flow of reviews now count twice.
 
 > "Ask Maps, a new conversational experience that answers complex, real-world questions a map could never answer before." Google began rolling it out in the US and India on 12 March 2026.
 > Source: [Google, "Ask Maps and Immersive Navigation", 12 March 2026](https://blog.google/products-and-platforms/products/maps/ask-maps-immersive-navigation/)
 
-Keep your information accurate and specific, answer common questions in your description and posts, and base your wording on [local keyword research](/services/local-seo/) rather than guesswork.
+Keep your information accurate and specific, answer common questions in your description and posts, and base your wording on [local keyword research](/services/local-seo/).
 
 <aside class="post-cta">
 <p><strong>Does your city search in more than one language?</strong> Our <a href="/services/local-seo/">local SEO for multilingual cities</a> covers every language your customers search in, with a review routine and a reply to every review. <a href="/contact/">Book the discovery call</a>.</p>
@@ -104,7 +104,7 @@ Organic visibility builds over months; ads buy it on day one. Google Ads can put
 
 ## Track your results
 
-Without numbers you cannot tell which change brought the calls. The Performance report in your Business Profile shows:
+The numbers tell you which change brought the calls. The Performance report in your Business Profile shows:
 
 - how many people found you on Search and Maps
 - the search terms they used

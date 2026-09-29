@@ -14,7 +14,7 @@ excerpt: "Impulsa tus ventas a nivel mundial mediante la integración de solucio
 
 # Multilingual SEM: Google Ads, Bing Ads and Meta Ads piloted per market
 
-Native keyword research per language. Campaign architecture aligned with multilingual SEO structure. Honest reporting on CPL and ROAS per market, not vanity metrics.
+Native keyword research per language. Campaign architecture aligned with multilingual SEO structure. Honest reporting on CPL and ROAS per market: the numbers that show what each market earns.
 
 4+ platforms
 
@@ -22,33 +22,33 @@ Google Ads, Bing Ads (especially relevant US B2B), Meta Ads, LinkedIn Ads for B2
 
 CPL / ROAS
 
-cost per qualified lead and return on ad spend per market, not vanity metrics
+cost per qualified lead and return on ad spend per market
 
 Native ads
 
-ad copy written natively per market, not translated from a master campaign
+ad copy written natively for each market
 
 SEM + SEO
 
 paid and organic strategies aligned, sharing keyword research and landing pages
 
-## Three patterns that drain ad budgets
+## Three things that make ad budgets work across markets
 
-Recurring issues I see on multi-market paid campaigns:
+Recurring patterns I see on multi-market paid campaigns:
 
-A US Google Ads campaign translated to French, Spanish and German keeps the original keyword set, ad copy structure and bidding strategy. Result: low Quality Score per market because the keywords are not how locals search, ad copy reads stilted, landing pages feel imported. CPC climbs, conversion drops. Native ad campaigns per market beat translated campaigns in every meaningful test I have run.
+Each market needs its own keyword set, ad copy structure and bidding strategy, built on how locals search. Native keywords lift Quality Score per market, native ad copy reads naturally and local landing pages feel at home, which brings CPC down and conversion up. Native ad campaigns per market have beaten translated campaigns in every meaningful test I have run.
 
-Keywords picked from Google Keyword Planner without verifying real intent or local search behaviour. The result: high impressions, low CTR, irrelevant clicks, wasted spend. Real keyword research means checking actual SERPs in the target market, validating with native speakers, and starting with tighter intent buckets rather than broad match.
+Verify real intent and local search behaviour before taking keywords from Google Keyword Planner: verified keywords turn impressions into relevant clicks. Real keyword research means checking actual SERPs in the target market, validating with native speakers, and starting with tighter intent buckets.
 
-Generic conversion tracking that mixes all markets together. You cannot tell which language is profitable, which is bleeding budget, which is mid. Decision-making becomes guesswork. Each market needs its own conversion tracking, attribution and KPI report. Without that, optimization is theatre.
+Track conversions per market. Each market needs its own conversion tracking, attribution and KPI report, so you can see which language is profitable, which needs budget moved and which sits in the middle. With that in place, optimization decisions rest on data.
 
-Multilingual SEM is sequencing and discipline, not just translating ad copy. Campaigns built per market with native research, distinct ad accounts where it makes sense, dedicated tracking. Aligned with the [multilingual SEO](https://mikebastin.com/es/services/posicionamiento-multilingue/) structure to share keyword research and landing pages.
+Multilingual SEM is sequencing and discipline. Campaigns built per market with native research, distinct ad accounts where it makes sense, dedicated tracking. Aligned with the [multilingual SEO](https://mikebastin.com/es/services/posicionamiento-multilingue/) structure to share keyword research and landing pages.
 
 ## What I include in a multilingual SEM engagement
 
 Real research in each target language. Intent classification, exclusion of low-quality terms, validation by native speakers before bidding.
 
-Distinct campaigns or ad groups per market, separate budgets, distinct bidding strategies. No master campaign translated.
+Distinct campaigns or ad groups per market, separate budgets, distinct bidding strategies. Each campaign is built for its own market.
 
 Headlines, descriptions and assets in each language by natives. Direct in FR / EN / ES / NL. BeTranslated network for DE, IT, PT and others.
 
@@ -60,9 +60,9 @@ Google Ads as default. Bing Ads where US B2B audience justifies (Microsoft ecosy
 
 ## My process in 5 steps, named deliverables
 
-Audit, native research, build, launch, optimize. No spending before scoping is validated.
+Audit, native research, build, launch, optimize. Spending starts once scoping is validated.
 
-**Deliverable:** diagnostic of current accounts (Google Ads, Bing Ads, Meta Ads): structure, spend allocation, performance per market, wasted budget on irrelevant keywords or audiences, conversion tracking gaps.
+**Deliverable:** diagnostic of current accounts (Google Ads, Bing Ads, Meta Ads): structure, spend allocation, performance per market, budget spent on irrelevant keywords or audiences, conversion tracking gaps.
 
 **Deliverable:** distinct keyword spreadsheet per market. Volumes, CPC estimates, intent classification, negative keyword lists per language. Validated by native speakers before any bidding decision.
 
@@ -92,15 +92,15 @@ Three engagements where paid campaigns spanned multiple languages or markets.
 
 **Build:** separate Google Ads accounts per country (clean Quality Score per ccTLD), native keyword research per language by the in-house translator team, distinct ad copy per market, landing pages on the local domain.
 
-**Outcome:** steady cost per qualified lead per market, monthly reporting that identifies which countries are profitable vs which need adjustment, no cross-contamination across markets.
+**Outcome:** steady cost per qualified lead per market, monthly reporting that identifies which countries are profitable vs which need adjustment, with each market's data kept separate.
 
-## What is included, what is not
+## What is included, what is handled elsewhere
 
 Service
 
 Included
 
-Not included
+Handled elsewhere
 
 Paid account audit (Google Ads, Bing Ads, Meta Ads)
 
@@ -136,7 +136,7 @@ Monthly reporting: CPL, ROAS, qualified pipeline per market
 
 Media buying budget itself
 
-⨯ paid directly to the platform (transparent, no markup)
+⨯ paid directly to the platform (transparent, the whole budget buys ads)
 
 Creative video production for ads
 
@@ -150,9 +150,9 @@ SEO content production
 
 **Mike Bastin:** Over two decades in SEO and SEM. Direct fluent execution on Google Ads in French, English, Spanish and Dutch. Native team coverage for German, Italian, Portuguese and other languages.
 
-SEM aligned with SEO from day one: same keyword research universe, same landing pages where possible, same multilingual architecture. The paid and organic strategies inform each other instead of competing for budget.
+SEM aligned with SEO from day one: same keyword research universe, same landing pages where possible, same multilingual architecture. The paid and organic strategies inform each other.
 
-Transparent media buying: budget paid directly to Google, Microsoft and Meta. No agency markup on spend. Management fee is the only compensation line, which keeps incentives aligned with your results, not with your gross ad spend.
+Transparent media buying. Your whole media budget buys ads: it goes straight to Google, Microsoft or Meta, and management is a separate fee. So the budget I recommend is the one that brings in enquiries. It covers media spend; writing and translation are quoted as a price for the work.
 
 [More about the team →](https://mikebastin.com/es/conocenos-agencia-experta-en-seo/)
 
@@ -162,7 +162,7 @@ Both, sequenced thoughtfully.
 
 **SEM first:** when you need pipeline now, when SEO will take 6-12 months to mature, when you have budget to test market demand quickly, or when your offer is new and requires immediate signal.
 
-**SEO first:** when CPC in your sector is prohibitive, when your buyers research extensively before contacting (long sales cycles), or when budget is too tight to sustain paid acquisition at scale.
+**SEO first:** when CPC in your sector is prohibitive, when your buyers research extensively before contacting (long sales cycles), or when the budget suits organic growth better than paid acquisition at scale.
 
 **Both in parallel (most common):** SEM captures the bottom-of-funnel commercial intent traffic while SEO is building. As SEO matures, SEM budget can be redirected to less competitive expansion markets or non-branded queries.
 
@@ -176,7 +176,7 @@ Often yes for markets with significant budget or strict Quality Score sensitivit
 
 How do you handle currency and budget allocation across markets?
 
-Each market gets its own monthly budget cap in local currency (or EUR/USD with FX conversion). Spend is reported per market separately. Reallocation decisions happen monthly based on CPL and ROAS per market. No «global budget» pool that hides which markets are draining.
+Each market gets its own monthly budget cap in local currency (or EUR/USD with FX conversion). Spend is reported per market separately. Reallocation decisions happen monthly based on CPL and ROAS per market. Each market's spend stays visible, so you see which markets earn their budget.
 
 Are Bing Ads still relevant in 2026?
 
@@ -184,22 +184,22 @@ For US B2B yes. Microsoft’s Bing/Edge ecosystem has a high penetration in US c
 
 Do you charge a percentage of ad spend?
 
-No. Management fee is a fixed monthly amount based on scope (number of markets, platforms, campaigns, complexity). Media budget is paid directly to Google, Microsoft, Meta, no markup, no margin on spend. Incentive aligned with your performance, not with how much you spend on ads.
+The management fee is a fixed monthly amount based on scope (number of markets, platforms, campaigns, complexity). Your whole media budget buys ads: it goes straight to Google, Microsoft or Meta, and management is a separate fee. So the budget I recommend is the one that brings in enquiries.
 
 How fast do you scale ad spend?
 
-Conservative initial period: 2-4 weeks at controlled budget while tracking validates and Quality Score builds. Then scale aggressively on what works, kill what does not. Most multi-market campaigns reach steady-state monthly spend by month 3.
+Conservative initial period: 2-4 weeks at controlled budget while tracking validates and Quality Score builds. Then scale aggressively on what works and cut the rest. Most multi-market campaigns reach steady-state monthly spend by month 3.
 
 Can you work with my existing Google Ads or Meta account?
 
-Yes. I prefer working in your existing accounts when they have history (Quality Score, audience signals, conversion data). Audit first, restructure if needed, then optimize. Starting fresh is recommended only when the existing account has accumulated bad signals (low Quality Score across the board, conversion tracking broken for months).
+Yes. I prefer working in your existing accounts when they have history (Quality Score, audience signals, conversion data). Audit first, restructure if needed, then optimize. I recommend starting fresh when the existing account has accumulated poor signals (low Quality Score across the board, conversion tracking broken for months).
 
 How much does a multilingual SEM engagement cost?
 
-Quoted. Management fee depends on number of markets, platforms, complexity. Ad spend depends on competitive landscape and growth targets. Free first call: 30 minutes to understand your context and give honest ranges for both. No generic proposal sent without a conversation.
+Quoted. Management fee depends on number of markets, platforms, complexity. Ad spend depends on competitive landscape and growth targets. Free first call: 30 minutes to understand your context and give honest ranges for both. Every proposal follows a conversation.
 
 ## Ready to scale paid acquisition across markets?
 
-I start by auditing your current paid accounts and identifying wasted spend per market. Quantified diagnosis, actionable recommendations. Free first call, no commitment.
+I start by auditing your current paid accounts and identifying where spend in each market can work harder. Quantified diagnosis, actionable recommendations. Free first call, and you decide what comes next.
 
 Related services: [multilingual SEO](https://mikebastin.com/es/services/posicionamiento-multilingue/) · [international SEO](https://mikebastin.com/es/services/agencia-de-seo-global/) · [local SEO](https://mikebastin.com/es/services/seo-local/)

@@ -16,11 +16,11 @@ excerpt: "Cómo las diferencias culturales cambian una web multilingüe: idioma,
 
 ## Diferencias culturales en sitios web multilingües: lo que decide si conectas o rebotas
 
-Llevo más de dos décadas traduciendo y posicionando webs en varios idiomas, y he visto el mismo error una y otra vez.
+Llevo más de dos décadas traduciendo y posicionando webs en varios idiomas, y he visto una y otra vez lo que decide el resultado.
 
-Una marca traduce su web palabra por palabra, la publica en cinco mercados y espera los mismos resultados en todos. Luego llega el silencio.
+Una marca traduce su web palabra por palabra, la publica en cinco mercados y espera los mismos resultados en todos. La respuesta de cada mercado depende de algo más que el idioma.
 
-El idioma es solo la capa de arriba. Debajo están las costumbres, los colores, el humor y las expectativas de cada cultura, y ahí es donde se gana o se pierde la confianza del usuario.
+El idioma es solo la capa de arriba. Debajo están las costumbres, los colores, el humor y las expectativas de cada cultura, y ahí es donde se gana la confianza del usuario.
 
 > El 65 % de los consumidores prefiere contenido en su propio idioma, aunque la calidad sea inferior, y la cercanía cultural pesa más que la pura traducción literal.
 > 
@@ -28,31 +28,31 @@ El idioma es solo la capa de arriba. Debajo están las costumbres, los colores, 
 
 ### Por qué la sensibilidad cultural pesa tanto
 
-Tu contenido viaja por el mundo más rápido que tú. Entender los matices culturales no es cortesía, es lo que sostiene la reputación de tu marca fuera de casa.
+Tu contenido viaja por el mundo más rápido que tú. Entender los matices culturales es lo que sostiene la reputación de tu marca fuera de casa.
 
-Cuando hablas el idioma cultural de tu público, dejas de ser «esa marca extranjera» y pasas a ser «una de las nuestras». La diferencia en conversión es enorme.
+Cuando hablas el idioma cultural de tu público, pasas a ser «una de las nuestras». La diferencia en conversión es enorme.
 
-### El coste de no hacer los deberes culturales
+### Lo que aporta hacer los deberes culturales
 
 El ejemplo clásico lo protagonizó Pepsi. Su eslogan «Come Alive with Pepsi» acabó entendiéndose en algunos mercados asiáticos como una promesa de resucitar a los antepasados.
 
-Un poco de trabajo cultural previo evita errores que salen caros, tanto en dinero como en imagen.
+Un poco de trabajo cultural previo protege tu dinero y tu imagen.
 
-He auditado webs donde una sola imagen o un gesto mal elegido frenaban las ventas en un país entero, sin que nadie del equipo se diera cuenta.
+He auditado webs en las que una sola imagen o un gesto marcaba las ventas en un país entero.
 
 ### Estrategias que funcionan de verdad
 
 #### Investiga la cultura antes de escribir una línea
 
-Antes de redactar nada, métete en la cultura de destino. Qué costumbres tiene, qué tabúes, qué valora y qué le incomoda.
+Antes de redactar, métete en la cultura de destino. Qué costumbres tiene, qué tabúes, qué valora y qué le incomoda.
 
-Una hora de investigación al principio te ahorra semanas de problemas después. Si necesitas ayuda con ese trabajo, lo cubro en mi servicio de [consultoría cultural](https://mikebastin.com/es/services/consultoria-cultural/).
+Una hora de investigación al principio te ahorra semanas de trabajo después. Si necesitas ayuda con ese trabajo, lo cubro en mi servicio de [consultoría cultural](https://mikebastin.com/es/services/consultoria-cultural/).
 
-#### No traduzcas, transcrea
+#### Transcrea el mensaje
 
-Una buena adaptación no cambia palabras, cambia el efecto. La [transcreación](https://mikebastin.com/es/services/transcreacion/) reescribe el mensaje para que conecte con los modismos, el humor y el tono de cada mercado.
+Una buena adaptación trabaja el efecto, más allá de las palabras. La [transcreación](https://mikebastin.com/es/services/transcreacion/) reescribe el mensaje para que conecte con los modismos, el humor y el tono de cada mercado.
 
-Un juego de palabras que arrasa en español puede caer plano en alemán. La gracia no se traduce, se reconstruye.
+Un juego de palabras que arrasa en español necesita su propio equivalente en alemán: la gracia se reconstruye en cada idioma.
 
 #### Cuida los elementos visuales
 
@@ -64,13 +64,13 @@ Ese gesto del pulgar hacia arriba que aquí es positivo resulta ofensivo en algu
 
 Ten en cuenta las festividades locales, los eventos culturales y hasta las zonas horarias al planificar tu calendario.
 
-Lanzar una gran campaña en plena fecha religiosa señalada rara vez sale bien.
+Programa las grandes campañas en fechas que respeten el calendario religioso local.
 
 #### Rodéate de gente local
 
-Nada sustituye al conocimiento de primera mano. Si puedes, trabaja con un equipo diverso o consulta con personas de tus mercados objetivo.
+El conocimiento de primera mano vale oro. Si puedes, trabaja con un equipo diverso o consulta con personas de tus mercados objetivo.
 
-Detectan matices que ni la investigación más cuidada llega a captar. Cuando ese trabajo se traslada al contenido, lo veo en mi servicio de [redacción SEO multilingüe](https://mikebastin.com/es/services/redaccion-seo-multilingue/).
+Detectan matices que van más allá de la investigación más cuidada. Cuando ese trabajo se traslada al contenido, lo veo en mi servicio de [redacción SEO multilingüe](https://mikebastin.com/es/services/redaccion-seo-multilingue/).
 
 > La mayoría de los fracasos internacionales que he visto no fueron por mala traducción. Fueron por dar por hecho que lo que funciona en un mercado funciona igual en todos. Nunca es así.
 > 
@@ -86,7 +86,7 @@ Del McAloo Tikki en la India al Teriyaki McBurger en Japón, han convertido la s
 
 ### Reflexión final
 
-Llevar tu contenido al mundo no va de jugar sobre seguro, va de jugar con cabeza.
+Llevar tu contenido al mundo va de jugar con cabeza.
 
 La próxima vez que prepares contenido para varios países, hazte una pregunta sencilla: ¿esto conecta igual en Río que en Roma?
 

@@ -18,17 +18,17 @@ excerpt: "Las mejores herramientas de pruebas de localización: TMS, gestión de
 
 Las herramientas de pruebas de localización sirven para comprobar que un software o una web funcionan bien en cada idioma, cultura y región.
 
-En más de dos décadas traduciendo y probando interfaces, he visto que casi ningún proyecto falla por la traducción en sí. Falla por un texto que se sale del botón, una fecha en el formato equivocado o un acento que rompe el orden alfabético.
+En más de dos décadas traduciendo y probando interfaces, he visto que el éxito de un proyecto depende sobre todo de los detalles que rodean a la traducción: un texto que cabe en su botón, una fecha en el formato de cada país, un acento que respeta el orden alfabético.
 
-Estas herramientas detectan ese tipo de problemas: codificación de caracteres, formatos de fecha, monedas, dirección del texto y cadenas que se quedan sin traducir.
+Estas herramientas revisan justo esos puntos: codificación de caracteres, formatos de fecha, monedas, dirección del texto y cadenas pendientes de traducir.
 
-Más allá de lo técnico, ayudan en la adaptación cultural. Señalan imágenes, colores o símbolos que podrían chirriar en un mercado concreto, algo que cubro en mayor detalle en mi servicio de [pruebas de localización](https://mikebastin.com/es/services/pruebas-de-localizacion/).
+Más allá de lo técnico, ayudan en la adaptación cultural. Señalan imágenes, colores o símbolos que conviene adaptar a un mercado concreto, algo que cubro en mayor detalle en mi servicio de [pruebas de localización](https://mikebastin.com/es/services/pruebas-de-localizacion/).
 
 También comprueban funciones propias de cada lengua: el texto de derecha a izquierda en árabe y hebreo, el salto de línea correcto en idiomas asiáticos y la ordenación de caracteres acentuados en lenguas europeas.
 
 Las más modernas se integran en los flujos de integración continua, lo que permite cazar los fallos pronto, cuando corregirlos cuesta poco. Pueden simular distintos entornos regionales y verificar que el comportamiento es coherente en todas las versiones de idioma.
 
-Ese enfoque sistemático [reduce el riesgo de meter la pata a nivel cultural](https://mikebastin.com/es/diferencias-culturales-sitios-web-multilingues/) y de arrastrar errores técnicos que dañan la acogida de un producto fuera de casa.
+Ese enfoque sistemático [ayuda a acertar a nivel cultural](https://mikebastin.com/es/diferencias-culturales-sitios-web-multilingues/) y a lanzar un producto técnicamente limpio, bien recibido fuera de casa.
 
 > El coste de corregir un defecto se multiplica conforme avanza el desarrollo: un fallo detectado en producción puede costar hasta cien veces más que si se hubiera encontrado en la fase de diseño.
 > 
@@ -94,7 +94,7 @@ Al elegir, fíjate en estos puntos:
 ### Buenas prácticas con estas herramientas
 
 1.  Combina varias herramientas para cubrir todas las facetas de la prueba.
-2.  Automatiza lo repetitivo, pero asume que la automatización total no existe.
+2.  Automatiza lo repetitivo y reserva a las personas lo que pide criterio.
 3.  Cuenta con hablantes nativos para la precisión lingüística y cultural.
 4.  Mantén los casos y los datos de prueba al día.
 5.  Usa la pseudolocalización pronto, para anticipar problemas.

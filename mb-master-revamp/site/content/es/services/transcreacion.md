@@ -57,7 +57,7 @@ Investigamos las tendencias del mercado local y a la competencia para crear cont
 
 Nuestro equipo desarrolla una estrategia de transcreación personalizada para garantizar que tu mensaje resuena en cada mercado.
 
-Adaptamos y refinamos su contenido, transformándolo en mensajes localmente relevantes mientras preservamos la voz de tu marca.
+Adaptamos y refinamos tu contenido, transformándolo en mensajes localmente relevantes mientras preservamos la voz de tu marca.
 
 Seguimos el rendimiento del contenido creado y proporcionamos informes detallados, con opción de realizar ajustes si es necesario para obtener resultados óptimos.
 

@@ -101,7 +101,7 @@ The pedestrian warning blink gives you roughly two seconds to sprint like Usain 
 <text x="100" y="92" text-anchor="middle" class="fg-label">you may cross</text>
 <text x="300" y="92" text-anchor="middle" class="fg-label">it may turn</text>
 </svg>
-<figcaption>Flashing amber means proceed with caution, which some drivers read as “floor it”. Look before you step out, even on green.</figcaption>
+<figcaption>Flashing amber lets turning drivers move through the crossing with caution, so check the road before you step out, even on a green light.</figcaption>
 </figure>
 
 On a more positive note, Valencia made [headlines in 2016 by introducing female figures on their traffic lights](https://english.elpais.com/elpais/2016/03/08/inenglish/1457429892_421779.html), timed with planned LED upgrades so the change cost nothing extra. Some debated the dresses, but the aim was to make women more visible in public space.

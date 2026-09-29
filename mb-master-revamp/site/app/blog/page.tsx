@@ -41,7 +41,7 @@ export default function BlogIndex() {
       <section className="band band-a grain relative overflow-hidden pb-[clamp(56px,8vw,100px)] pt-[clamp(96px,14vw,160px)]">
         <div className="shell relative">
           <Reveal>
-            <p className="eyebrow mb-8">Sorted by subject, because a date is not a subject</p>
+            <p className="eyebrow mb-8">Sorted by subject, so you can follow a topic</p>
           </Reveal>
           <Reveal i={1}>
             <h1 className="mb-6 max-w-[20ch] text-[clamp(2.3rem,5.6vw,4rem)] font-semibold leading-[1.08]">
@@ -52,7 +52,7 @@ export default function BlogIndex() {
             <p className="max-w-[58ch] text-[clamp(1.05rem,1.5vw,1.2rem)] leading-[1.58]" style={{ color: "var(--dim)" }}>
               Grouped by topic, with the main guide for each group first
               and the service behind it named alongside, so you can read
-              your way to the answer rather than scroll for it.
+              your way straight to the answer.
             </p>
           </Reveal>
         </div>
@@ -184,8 +184,8 @@ export default function BlogIndex() {
               {isUncategorised && (
                 <Reveal i={2}>
                   <p className="mt-6 max-w-[62ch] text-[.85rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
-                    A few posts belong to no single topic above, and are
-                    still worth a read.
+                    A few posts range across the topics above, and each one
+                    is worth a read.
                   </p>
                 </Reveal>
               )}

@@ -59,7 +59,7 @@ export const PROJECTS: Project[] = [
     name: "BeTranslated",
     domain: "betranslated.com",
     angle: "Founded it, still run it",
-    body: "A translation agency with six regional identities and a multi-TLD setup that has to rank separately in every one of them. Twenty years of learning what breaks when a brand tries to speak six languages at once.",
+    body: "A translation agency with six regional identities and a multi-TLD setup that has to rank separately in every one of them. Twenty years of learning what it takes for a brand to speak six languages at once.",
     metaTitle: "BeTranslated, a multi-TLD case study",
     metaDescription: "Twenty years running a translation agency across six regional TLDs, each ranking separately in its own market. See what that discipline required.",
     metrics: [
@@ -67,9 +67,9 @@ export const PROJECTS: Project[] = [
       { v: "20 yr", k: "Running it" },
     ],
     problem:
-      "A translation agency selling into six markets needs six SEO campaigns, not one campaign copied six times. The regional TLDs (.com, .be, .fr, .es, .co.uk, .nl) each carry their own competitors, their own search habits and their own trust signals, and treating them as a single site with translated pages loses to a local competitor every time.",
+      "A translation agency selling into six markets needs six SEO campaigns, each one built for its own market. The regional TLDs (.com, .be, .fr, .es, .co.uk, .nl) each carry their own competitors, their own search habits and their own trust signals, so each one is run as a site of its own, built to hold its ground against local competitors.",
     work:
-      "Founded the agency and has run it for twenty years, which means every lesson here came from the business itself rather than from a client engagement. Each regional TLD gets its own technical SEO treatment: separate sitemaps, separate hreflang groups, separate keyword research per market rather than a translated version of the English keyword list.",
+      "Founded the agency and has run it for twenty years, so every lesson here came from running the business itself. Each regional TLD gets its own technical SEO treatment: separate sitemaps, separate hreflang groups, and separate keyword research per market, built from that market's own searches.",
     outcome:
       "Six regional identities still trading after two decades, each ranking on its own market's terms. The multi-TLD discipline learned here is the same discipline applied to every multilingual client since, including the other seven projects on this page.",
     services: ["Multi-TLD SEO", "Multilingual content", "Six regional markets", "Founder"],
@@ -89,9 +89,9 @@ export const PROJECTS: Project[] = [
       { v: "10 h/wk", k: "On reconciliation" },
     ],
     problem:
-      "Small businesses that need custom software usually get a choice between an expensive agency with a moving scope, or an off-the-shelf tool that almost fits. Neither works for a business whose operations run in more than one language from day one.",
+      "Small businesses that need custom software want a fixed scope, a price they can plan around and a tool that fits their operations exactly. A business running in more than one language from day one needs that tool to be multilingual from the start as well.",
     work:
-      "AI-assisted development with a fixed scope and a fixed price, delivered in weeks rather than quarters, multilingual from the first commit rather than bolted on later. Built on Next.js with Payload CMS, the same stack this very site started from before the owner decided a self-edited portfolio did not need a database.",
+      "AI-assisted development with a fixed scope and a fixed price, delivered in weeks, multilingual from the first commit. Built on Next.js with Payload CMS, the same stack this very site started from before the owner moved it to content files in the repo, the simpler fit for a portfolio he edits himself.",
     outcome:
       "A shipment tracking portal for TX International Freight that cut roughly three hours a day of manual status chasing, an internal reconciliation platform that saved about ten hours a week, and the multilingual site and tracking system running Century 21 Perdomo's real estate listings.",
     services: ["Custom AI software", "Multilingual from build", "Fixed scope, fixed price"],
@@ -103,17 +103,17 @@ export const PROJECTS: Project[] = [
     name: "TX International Freight",
     domain: "txintlfreight.com",
     angle: "Houston industrial freight",
-    body: "Technical SEO and content for a freight forwarder whose customers search in terms no marketer would guess. Learning the vocabulary was most of the work.",
+    body: "Technical SEO and content for a freight forwarder whose customers search in their own industry vocabulary. Learning the vocabulary was most of the work.",
     metaTitle: "TX International Freight, a case study",
-    metaDescription: "Technical SEO and content for a Houston freight forwarder, built around the industry vocabulary its buyers actually search in, not textbook keywords.",
+    metaDescription: "Technical SEO and content for a Houston freight forwarder, built around the industry vocabulary its buyers search in, learned from the trade itself.",
     metrics: [
       { v: "Houston", k: "Local pack" },
       { v: "EN", k: "Single market" },
     ],
     problem:
-      "Industrial freight buyers do not search the way consumer buyers do. The terms that carry commercial intent are industry jargon, and generic SEO built around textbook keyword research misses the actual search behaviour entirely.",
+      "Industrial freight buyers search in their own way, distinct from consumer buyers. The terms that carry commercial intent are industry jargon, so the keyword research has to start from the trade's own vocabulary to meet the actual search behaviour.",
     work:
-      "Technical SEO and content built around the vocabulary Houston's industrial freight buyers actually use, learned from the industry rather than assumed from a keyword tool. A single market covered properly rather than several covered thinly.",
+      "Technical SEO and content built around the vocabulary Houston's industrial freight buyers actually use, learned from the industry itself. A single market covered properly and in depth.",
     outcome:
       "Local pack presence in Houston's industrial freight search, and the shipment tracking portal Globaprom built for this account is itself one of the proof points on the Globaprom case study above.",
     services: ["Technical SEO", "Industry content", "Houston local search", "Tracking portal"],
@@ -134,11 +134,11 @@ export const PROJECTS: Project[] = [
       { v: "Headless", k: "Architecture" },
     ],
     problem:
-      "Real estate listings change weekly: a property sells, a price moves, a status flips. Four languages means four chances for a listing to go stale in one locale while it is correct in the others, and a headless WordPress and WooCommerce build makes that consistency a technical problem, not just an editorial one.",
+      "Real estate listings change weekly: a property sells, a price moves, a status flips. Four languages means every change has to land in all four locales at once, and a headless WordPress and WooCommerce build makes that consistency a technical job as well as an editorial one.",
     work:
-      "EN/FR/ES/DE coverage across a headless WordPress, WPML and WooCommerce stack, with the multilingual site and tracking system itself built by Globaprom. SEO discipline applied per locale rather than translated from an English baseline.",
+      "EN/FR/ES/DE coverage across a headless WordPress, WPML and WooCommerce stack, with the multilingual site and tracking system itself built by Globaprom. SEO discipline applied per locale, built from each market's own searches.",
     outcome:
-      "Four languages held correct against weekly-turnover inventory on a live real estate site, the kind of ongoing operational SEO that does not show up as a single launch metric but has to keep working every week.",
+      "Four languages held correct against weekly-turnover inventory on a live real estate site, the kind of ongoing operational SEO that proves itself every week, well beyond a single launch metric.",
     services: ["Multilingual SEO", "Headless WordPress", "WPML and WooCommerce", "Four languages"],
     search: { clicks: "9,944", impressions: "461,231", position: "10.1", note: "May to July 2026" },
     shot: "/work/c21perdomo.webp",
@@ -149,17 +149,17 @@ export const PROJECTS: Project[] = [
     name: "ValenciaMove",
     domain: "valenciamove.com",
     angle: "Expat relocation, first hand",
-    body: "Over a thousand pages across five languages, written from actually having done the move rather than from a keyword tool. The Valencia content leaving mikebastin.com is heading here.",
+    body: "Over a thousand pages across five languages, written from first-hand experience of the move. The Valencia content leaving mikebastin.com is heading here.",
     metaTitle: "ValenciaMove, a case study",
-    metaDescription: "Over a thousand pages across five languages, written from having made the move to Valencia personally rather than from a keyword tool.",
+    metaDescription: "Over a thousand pages across five languages, written from having made the move to Valencia personally, with first-hand detail on every page.",
     metrics: [
       { v: "1,132", k: "URLs" },
       { v: "5", k: "Locales" },
     ],
     problem:
-      "Mikebastin.com used to carry Valencia relocation content alongside its SEO consultancy content, and the two competed for the same search real estate under the same domain. The French page for a digital nomad visa existed at an identical slug on both sites at once, an unforced case of a domain competing with itself.",
+      "Mikebastin.com used to carry Valencia relocation content alongside its SEO consultancy content under one domain, and each subject deserved a site of its own. The French page for a digital nomad visa even existed at an identical slug on both sites at once.",
     work:
-      "Over a thousand pages across five locales (EN, FR, ES, NL, IT), built from having made the move personally rather than from generic destination-guide research. The Valencia content leaving mikebastin.com as part of this rebuild is migrating here rather than being deleted, with 301s carrying the existing search equity across.",
+      "Over a thousand pages across five locales (EN, FR, ES, NL, IT), built from having made the move personally. The Valencia content leaving mikebastin.com as part of this rebuild is migrating here, with 301s carrying the existing search equity across.",
     outcome:
       "1,132 URLs live across five languages, and the exodus this case study describes is the same one this rebuild is executing: the reader is looking at the fix while it happens.",
     services: ["Content strategy", "Five locales", "Technical SEO", "Owned property"],
@@ -172,17 +172,17 @@ export const PROJECTS: Project[] = [
     name: "Bemelman Spuiterij",
     domain: "bemelmanspuiterij.nl",
     angle: "Dutch powder coating, 45 years",
-    body: "A specialist in Noordwijkerhout who had no web presence worth the name. Dutch local SEO for a trade where the buyers are other businesses and the search volume is small but decisive.",
+    body: "A specialist in Noordwijkerhout whose reputation had outgrown its web presence. Dutch local SEO for a trade where the buyers are other businesses and the search volume is small but decisive.",
     metaTitle: "Bemelman Spuiterij, a case study",
-    metaDescription: "A Dutch powder coating specialist with forty five years of reputation and no web presence. See the local SEO built for its small, decisive market.",
+    metaDescription: "A Dutch powder coating specialist with forty five years of reputation and a web presence to build. See the local SEO made for its decisive market.",
     metrics: [
       { v: "45 yr", k: "Trading" },
       { v: "NL", k: "Local search" },
     ],
     problem:
-      "A trade business with forty-five years of reputation and almost no web presence is invisible to the small number of buyers actually searching for it. B2B search volume in a niche trade is low, but every one of those searches is a real buyer, not a browser.",
+      "A trade business with forty-five years of reputation needed a web presence to match, so the small number of buyers actually searching for it could find it. B2B search volume in a niche trade is low, and every one of those searches is a real buyer.",
     work:
-      "A Divi build paired with Dutch local SEO aimed at the small, decisive search volume a specialist trade actually gets, rather than chasing the larger but irrelevant traffic of adjacent consumer terms.",
+      "A Divi build paired with Dutch local SEO aimed at the small, decisive search volume a specialist trade actually gets, from the businesses that buy.",
     outcome:
       "A genuine web presence for a business that had been trading on reputation alone for forty-five years, positioned for the low-volume, high-intent local searches that actually convert in this trade.",
     services: ["Dutch local SEO", "Divi build", "B2B trade search"],
@@ -203,11 +203,11 @@ export const PROJECTS: Project[] = [
       { v: "2", k: "Jurisdictions" },
     ],
     problem:
-      "Legal content in four languages across two jurisdictions carries a different risk than most multilingual SEO: a mistranslated term is not a missed ranking, it is a liability. Generic translation and generic SEO both fail this brief in the same way, by treating accuracy as secondary to volume.",
+      "Legal content in four languages across two jurisdictions raises the stakes of multilingual SEO: in law, the wording of a term is a question of liability before it is a question of ranking. The brief puts accuracy first and volume second, in the translation and the SEO alike.",
     work:
-      "Legal SEO and multilingual content across ES/FR/EN/RU, covering legal, labour, immigration and tax practice areas across Spain and France, built with the accuracy standard a law firm's content actually requires rather than the standard general SEO content gets away with.",
+      "Legal SEO and multilingual content across ES/FR/EN/RU, covering legal, labour, immigration and tax practice areas across Spain and France, built with the accuracy standard a law firm's content actually requires.",
     outcome:
-      "Four languages, two jurisdictions, multiple practice areas held to a legal accuracy bar, proof that multilingual SEO and professional liability can be handled by the same process rather than needing separate ones.",
+      "Four languages, two jurisdictions, multiple practice areas held to a legal accuracy bar, proof that multilingual SEO and professional liability can be handled by one and the same process.",
     services: ["Legal SEO", "Multilingual content", "Four languages", "Two jurisdictions"],
     search: { clicks: "38,476", impressions: "2,399,567", position: "9.4", note: "May to July 2026" },
     shot: "/work/delaguia-y-luzon.webp",
@@ -226,9 +226,9 @@ export const PROJECTS: Project[] = [
       { v: "48", k: "Spots" },
     ],
     problem:
-      "Board sports content online is mostly thin affiliate copy: a spot name, a product link, no evidence anyone has actually surfed the break. Buyers can tell the difference, and search engines are getting better at telling it too.",
+      "Board sports readers look for evidence that someone has actually surfed the break, beyond a spot name and a product link. Buyers value that first-hand proof, and search engines are getting better at recognising it too.",
     work:
-      "Seven board sports covered across four geographic zones, forty-eight French spots, a hundred and twenty guides, built on a visible editorial method page that states plainly how the content is researched rather than asserting authority without showing the work.",
+      "Seven board sports covered across four geographic zones, forty-eight French spots, a hundred and twenty guides, built on a visible editorial method page that states plainly how the content is researched, so the authority comes with the work shown.",
     outcome:
       "A real, checkable scale of coverage across the French board sports market, and an editorial-method pattern proven here first and then reused for this very site's own credibility layer.",
     services: ["Editorial strategy", "Content architecture", "EEAT method page", "Owned property"],

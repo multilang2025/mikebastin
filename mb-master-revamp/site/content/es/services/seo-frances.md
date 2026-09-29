@@ -86,7 +86,7 @@ La estrategia de dominio tiene un papel muy importante en el SEO francés, pues 
 1.  **Dominio de primer nivel con código de país (ccTLD)**: utilizar el dominio .fr (ccTLD) puede impulsar tu relevancia y confianza entre los usuarios franceses. Envía a los motores de búsqueda una señal clara de que tu web está dirigida específicamente al mercado francés.
 2.  **Subdominio frente a subdirectorio**: si quieres expandir una web ya existente para incluir contenido en francés, puedes usar también un subdominio (fr.ejemplo.com) o un subdirectorio (ejemplo.com/fr/). Aunque ambos seas efectivos, los subdirectorios son generalmente más fáciles de manejar y pueden dar más autoridad más fácilmente desde el dominio principal.
 3.  **Geotargeting en Google Search Console**: si usas un dominio a nivel superior genérico (gTLD) como .com o .net, asegúrate de establecer tus preferencias de geotargeting en Google Search Console para especificar que tu contenido está dirigido a Francia.
-4.  **No redirigir automáticamente**: no redirijas automáticamente a los usuarios a la versión francesa basándote en su dirección IP. En vez de eso, ofrece una opción clara de selección de idioma para respetar las preferencias del usuario.
+4.  **Deja elegir al usuario**: ofrece una opción clara de selección de idioma y deja que cada usuario llegue a la versión francesa por su propia elección, con independencia de su dirección IP. Así respetas sus preferencias.
 5.  **Etiquetas hreflang**: incorpora etiquetas hreflang correctamente para indicar el idioma y la orientación regional de tus páginas. Esto es especialmente importante si tienes versiones de tu web en diferentes idiomas.
 6.  **Información NAP consistente**: si tienes presencia local en Francia, asegúrate de que tu información NAP (Nombre, Dirección y Número de teléfono) sea consistente en tu web y directorios online\*.
 7.  **Variaciones regionales**: si te diriges a varias regiones francófonas, (Francia, Bélgica, Suiza…), ten en cuenta que separar los dominios o subdominios de cada región sería beneficioso.
@@ -94,8 +94,8 @@ La estrategia de dominio tiene un papel muy importante en el SEO francés, pues 
 
 Los resultados pueden variar, pero los clientes suelen ver avances en los primeros 3 a 6 meses desde la implementación de las estrategias.
 
-1.  **Language and localization:** Content must be properly translated and localized for French audiences, considering cultural nuances and preferences. This includes not just the main content, but also meta tags, URLs, and other on-page elements.
-2.  **Keyword research:** Conduct thorough keyword research specific to the French market. Direct translations of English keywords may not always be the most effective or commonly used terms in French.
+1.  **Language and localization:** Content must be properly translated and localized for French audiences, considering cultural nuances and preferences. Localization covers the main content as well as meta tags, URLs and other on-page elements.
+2.  **Keyword research:** Conduct thorough keyword research specific to the French market. The most effective and commonly used terms in French often differ from direct translations of English keywords.
 3.  **Accented characters:** While French uses many accented characters, users often search without them. It’s important to optimize for both accented and non-accented versions of keywords.
 4.  **Local search optimization:** If targeting specific regions in France, optimize for local search by including location-specific keywords and creating [Google My Business](https://mikebastin.com/es/optimizar-perfil-de-empresa-de-google/ "Google My Business") listings.
 5.  **Technical SEO:** Ensure your website’s technical aspects are optimized, including site speed, mobile responsiveness, and proper use of hreflang tags for language targeting.
@@ -103,7 +103,7 @@ Los resultados pueden variar, pero los clientes suelen ver avances en los primer
 
 1.  **Language structure:** French sentences are typically 15-20% longer than English ones, which can affect meta descriptions, title tags, and overall content layout.
 2.  **Search engine preferences:** While Google dominates in both markets, there are French-specific search engines like Qwant that may require consideration.
-3.  **Cultural sensitivity:** French audiences often prefer content that respects their language and culture. Directly translated content may not resonate as well as content [created specifically for French](https://mikebastin.com/french-ppc-campaign/) users.
+3.  **Cultural sensitivity:** French audiences often prefer content that respects their language and culture. Content [created specifically for French](https://mikebastin.com/french-ppc-campaign/) users resonates better than directly translated content.
 4.  **Keyword variations:** French has more verb conjugations and gender agreements than English, leading to more potential keyword variations.
 5.  **Local focus:** French SEO often requires a stronger focus on local optimization, especially when targeting specific regions or cities within France.
 6.  **Content preferences:** French users may have different content format preferences or topics of interest compared to English-speaking audiences.

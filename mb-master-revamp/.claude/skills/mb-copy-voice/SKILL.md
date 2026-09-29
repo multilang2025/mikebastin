@@ -32,10 +32,11 @@ Two consequences:
 
 ## The order a page makes its case in
 
-1. **Their situation**, in the words they would use. Where it hurts, not
-   what we do.
-2. **The cost of leaving it alone.** A reason to act now rather than next
-   quarter.
+1. **Their situation**, in the words they would use: where they are and
+   where they want to be.
+2. **What acting now is worth.** The gain from moving this quarter,
+   stated as the gain (owner, 29 Sep 2026: negative writing is out, in
+   every locale; see "Positive framing" below).
 3. **What we do about it**, still in plain terms.
 4. **Proof.** Named client, real number, or a review in their words.
 5. **Mechanism**, in as much depth as the subject deserves. Deep in the
@@ -44,6 +45,17 @@ Two consequences:
 
 Mechanism last is the rule people break. The temptation is to open with
 the cleverest thing on the page.
+
+## Positive framing, in every locale
+
+Owner, 29 Sep 2026, on a French section that sold by denial ("Aucune
+marge ... un budget plus élevé ne nous rapporte rien"): "purely negative
+writing I abhor". Every sentence says what the reader gets, what we do
+or what works. No "not X but Y", no "rather than", no "no lock-in", no
+digs at other agencies. The billing decision keeps every fact and is said
+forwards: "Your whole media budget buys ads: it goes straight to Google,
+Microsoft or Meta, and our management fee is separate." Rule, examples
+and the narrow exceptions: `docs/STYLE-GUIDE-UK-EU.md` section 9.
 
 ## Jargon: banned at the top, welcome further down
 

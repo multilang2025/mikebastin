@@ -32,32 +32,32 @@ const STAGES = [
   {
     name: "Un premier échange",
     detail:
-      "Trente minutes sur les marchés et les langues qui comptent, ce qui se positionne déjà, ce qui a déjà été essayé, et ce qu’un bon résultat représente en demandes plutôt qu’en trafic. Nous posons nos questions avant de recommander quoi que ce soit.",
+      "Trente minutes sur les marchés et les langues qui comptent, ce qui se positionne déjà, ce qui a déjà été essayé, et ce qu’un bon résultat représente en demandes. Nous posons d’abord nos questions, puis nous recommandons.",
   },
   {
-    name: "Un périmètre écrit, plutôt qu’un devis type",
+    name: "Un périmètre écrit, sur mesure",
     detail:
-      "Un bref document qui nomme les pages, les mots-clés et les livrables du premier trimestre, et qui fait quoi. Un site en cinq langues et un site en deux langues sont deux missions différentes, d’où un périmètre sur mesure plutôt qu’une formule à choisir.",
+      "Un bref document qui nomme les pages, les mots-clés et les livrables du premier trimestre, et qui fait quoi. Un site en cinq langues et un site en deux langues sont deux missions différentes, d’où un périmètre construit pour la vôtre.",
   },
   {
     name: "La recherche avant la rédaction",
     detail:
-      "Recherche de mots-clés et de concurrents dans chaque marché avant de construire une page ou d’écrire un article. Un terme qui se positionne en français pèse rarement autant une fois traduit.",
+      "Recherche de mots-clés et de concurrents dans chaque marché avant de construire une page ou d’écrire un article. La recherche trouve les termes qui pèsent dans chaque langue, car un terme fort en français change souvent de poids une fois traduit.",
   },
   {
     name: "Une livraison à rythme fixe",
     detail:
-      "Le travail avance chaque mois, marché par marché, pour qu’une page allemande n’attende pas qu’une page espagnole soit terminée. Des rédacteurs natifs pour chaque langue, relus au regard du brief avant toute mise en ligne.",
+      "Le travail avance chaque mois, marché par marché, pour qu’une page allemande avance en parallèle d’une page espagnole. Des rédacteurs natifs pour chaque langue, relus au regard du brief avant toute mise en ligne.",
   },
   {
     name: "Des rapports marché par marché",
     detail:
-      "Des chiffres mensuels pour chaque langue, plutôt qu’un total qui cache le marché qui convertit et celui qui ne fait que du trafic.",
+      "Des chiffres mensuels pour chaque langue, qui montrent le marché qui convertit et celui qui apporte surtout du trafic.",
   },
   {
-    name: "Un avis franc si un marché stagne",
+    name: "Un avis franc sur chaque marché",
     detail:
-      "Si un marché ne progresse pas après un essai sérieux, nous le disons et changeons de plan. Les missions sont ouvertes, au mois, pour cette raison.",
+      "Quand un marché stagne après un essai sérieux, nous vous le disons et changeons de plan. Les missions sont ouvertes, au mois, pour cette raison.",
   },
 ];
 
@@ -72,7 +72,7 @@ const QUESTIONS = [
   },
   {
     q: "Et si nous avons un seul marché à corriger ?",
-    a: "Une correction SEO sur une langue, une revue de localisation, une séance de conseil en IA sur ce que la traduction automatique coûte en qualité : chacune se fait comme une mission cadrée, avec un début et une fin. C’est le cas de la plupart des demandes.",
+    a: "Une correction SEO sur une langue, une revue de localisation, une séance de conseil en IA sur la qualité de la traduction automatique : chacune se fait comme une mission cadrée, avec un début et une fin. C’est le cas de la plupart des demandes.",
   },
   {
     q: "Qui fait le travail ?",
@@ -80,7 +80,7 @@ const QUESTIONS = [
   },
   {
     q: "Comment est-ce facturé ?",
-    a: "Le pilotage fait l’objet d’honoraires à part. Quand une mission comprend de la publicité en ligne, le budget média va directement à Google, Microsoft ou Meta : aucune marge sur la dépense, et aucune raison pour nous de recommander un budget plus élevé. Ce principe vaut pour le budget média uniquement : la traduction et la localisation réalisées avec le réseau BeTranslated font l’objet d’un devis pour le travail lui-même. Mieux vaut le dire clairement.",
+    a: "Le pilotage fait l’objet d’honoraires à part. Quand une mission comprend de la publicité en ligne, votre budget média va entièrement à vos annonces : il est versé directement à Google, Microsoft ou Meta. Le budget que nous recommandons est donc celui qui apporte des demandes. Ce principe concerne le budget média ; la traduction et la localisation réalisées avec le réseau BeTranslated font l’objet d’un devis pour le travail lui-même.",
   },
   {
     q: "Comment commencer ?",
@@ -101,7 +101,7 @@ export default function FrenchTarifsPage() {
       <section className="band band-a grain relative overflow-hidden pb-[clamp(48px,7vw,80px)] pt-[clamp(96px,14vw,160px)]">
         <div className="shell relative">
           <Reveal>
-            <p className="eyebrow mb-8">Une méthode plutôt qu&apos;une grille tarifaire</p>
+            <p className="eyebrow mb-8">Une méthode chiffrée sur mesure</p>
           </Reveal>
           <Reveal i={1}>
             <h1 className="mb-6 max-w-[20ch] text-[clamp(2.3rem,5.6vw,4rem)] font-semibold leading-[1.08]">

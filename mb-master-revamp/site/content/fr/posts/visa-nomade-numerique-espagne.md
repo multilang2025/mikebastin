@@ -9,14 +9,14 @@ wpId: 24856398
 date: "2026-04-03T22:13:40"
 modified: "2026-07-02T17:34:32"
 sourceUrl: "https://mikebastin.com/fr/visa-nomade-numerique-espagne/"
-excerpt: "Visa nomade numérique espagnol 2026 pour les francophones : seuils de revenus, paperasse, régime fiscal Beckham, installation à Valencia. Les erreurs à éviter pour un dossier accepté du premier coup."
+excerpt: "Visa nomade numérique espagnol 2026 : seuils de revenus, documents, régime Beckham, installation à Valencia et points clés d’un dossier accepté."
 ---
 
 * * *
 
 # ****C****onditions, revenus minimaux et régime fiscal Beckham pour les télétravailleurs francophones****
 
-Vous rêvez de travailler depuis Valencia tout en gardant vos clients à Paris, Bruxelles ou Montréal ? Le **visa nomade numérique espagnol** (ou _digital nomad visa_) est peut-être la solution idéale pour vous, à condition de remplir les critères. Ce guide vous explique tout : **conditions, revenus minimaux, démarches, fiscalité (régime Beckham) et pièges à éviter**.
+Vous rêvez de travailler depuis Valencia tout en gardant vos clients à Paris, Bruxelles ou Montréal ? Le **visa nomade numérique espagnol** (ou _digital nomad visa_) est peut-être la solution idéale pour vous, à condition de remplir les critères. Ce guide vous explique tout : **conditions, revenus minimaux, démarches, fiscalité (régime Beckham) et points de vigilance**.
 
 > **À noter** : Ce visa s’adresse principalement aux **ressortissants hors Union européenne**. Si vous êtes citoyen de l’UE, vos démarches relèvent du régime de libre circulation et non de ce visa spécifique.
 
@@ -27,7 +27,7 @@ Vous rêvez de travailler depuis Valencia tout en gardant vos clients à Paris, 
 Le _visado para teletrabajo de carácter internacional_ permet de résider en Espagne tout en exerçant une activité professionnelle à distance pour des entreprises ou clients situés **hors d’Espagne**. Deux configurations principales existent :
 
 -   **Salarié** : Vous travaillez pour une entreprise basée à l’étranger.
--   **Indépendant** : Vous exercez en freelance, avec une limite stricte : **moins de 20 % de votre activité** ne doit concerner des clients espagnols.
+-   **Indépendant** : Vous exercez en freelance, avec une limite stricte : vos clients espagnols représentent **moins de 20 % de votre activité**.
 
 > **Source officielle** :  
 > Le cadre juridique est défini par la **Ley 14/2013**, modifiée par la **Ley 28/2022**, qui introduit un chapitre dédié aux télétravailleurs internationaux.  
@@ -132,7 +132,7 @@ La loi prévoit **10 jours ouvrables** pour les visas (consulat) et **20 jours**
 
 ### **Le régime Beckham est-il automatique avec le visa ?**
 
-Non, c’est une **option fiscale** à activer séparément via le **Modelo 149**.
+C’est une **option fiscale** à activer séparément via le **Modelo 149**.
 
 ### **Quand faut-il une traduction assermentée ?**
 
@@ -149,4 +149,4 @@ Entre casier judiciaire, assurances et traductions, un dossier de visa peut vite
 
 * * *
 
-**Ce guide est-il clair pour vous ?** Si vous avez des questions spécifiques sur votre situation, n’hésitez pas à demander !
+**Ce guide est-il clair pour vous ?** Si vous avez des questions spécifiques sur votre situation, écrivez-nous !

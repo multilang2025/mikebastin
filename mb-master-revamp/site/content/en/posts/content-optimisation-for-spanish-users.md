@@ -9,14 +9,14 @@ wpId: 24845624
 date: "2024-10-14T16:10:18"
 modified: "2026-09-26T21:30:00"
 sourceUrl: "https://mikebastin.com/content-optimisation-for-spanish-users/"
-excerpt: "Spanish traffic but few enquiries? Content optimization for Spanish users: tone, keywords, structure and visuals that make your pages read as local."
+excerpt: "Spanish traffic, and ready for enquiries? Content optimization for Spanish users: tone, keywords, structure and visuals that make your pages read as local."
 ---
 
-## Why translated content underperforms in Spain
+## What makes translated content perform in Spain
 
-Your Spanish content is well translated, it gets traffic, and it rarely turns into enquiries. Spanish readers can tell within a paragraph whether a page was written for them or converted for them, and they give their business to the supplier who sounds local. The same page does not even land the same way in Madrid, Seville and Mexico City.
+Your Spanish content is well translated and it gets traffic; the next step is turning that traffic into enquiries. Spanish readers can tell within a paragraph whether a page was written for them or converted for them, and they give their business to the supplier who sounds local. Madrid, Seville and Mexico City each read the same page in their own way.
 
-The cost is a market that looks active in your analytics and quiet in your inbox. Below: how to shape Spanish content that reads as local, from the audience and the keywords to tone, structure, visuals and measurement, so the traffic you already get starts turning into business.
+The goal is a market as busy in your inbox as it is in your analytics. Below: how to shape Spanish content that reads as local, from the audience and the keywords to tone, structure, visuals and measurement, so the traffic you already get starts turning into business.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 130" role="img" aria-label="Spanish content optimization runs in four steps: research the audience, choose keywords, set the tone, then measure and adapt.">
@@ -38,16 +38,16 @@ The cost is a market that looks active in your analytics and quiet in your inbox
 <text x="250" y="114" text-anchor="middle" class="fg-label">tú or usted</text>
 <text x="350" y="114" text-anchor="middle" class="fg-label">adapt</text>
 </svg>
-<figcaption>Each step shapes the next. Keywords chosen before you know which regions you are writing for tend to miss, and tone set before the keyword research rarely matches how people search.</figcaption>
+<figcaption>Each step shapes the next. Choose the regions first so the keywords fit them, and set the tone after the keyword research so it matches how people search.</figcaption>
 </figure>
 
 ## Know your audience
 
 ### User personas and cultural insights
 
-Write for "Spain" as a single audience and you end up writing for nobody in particular. The country has several co-official languages, each with its own literary tradition: Castellano (Spanish), Català (Catalan), Euskara (Basque) and Galego (Galician).
+Spain is several audiences, so write for the one you are selling to. The country has several co-official languages, each with its own literary tradition: Castellano (Spanish), Català (Catalan), Euskara (Basque) and Galego (Galician).
 
-Like other multilingual European nations such as Switzerland or Belgium, Spain's regions keep distinct traditions that shape everything from business practices to social media habits. Content that acknowledges those differences, without falling into stereotypes, earns trust faster. For practical help, see our [cultural consulting services](/services/multilingual-content/).
+Like other multilingual European nations such as Switzerland or Belgium, Spain's regions keep distinct traditions that shape everything from business practices to social media habits. Content that acknowledges those differences with an accurate, light touch earns trust faster. For practical help, see our [cultural consulting services](/services/multilingual-content/).
 
 ### Audience research techniques
 
@@ -63,7 +63,7 @@ Combine analytics, qualitative research and cultural insight to build [data-driv
 
 ### National vs. regional keywords
 
-A keyword that performs in Madrid can be the wrong word in Bilbao, so a national list quietly misses regional buyers. Search patterns in Madrid, Barcelona, Valencia and Bilbao differ, and keywords that resonate in Andalucía may fall flat in País Vasco.
+A keyword that performs in Madrid can take a different form in Bilbao, so add regional terms to the national list to reach regional buyers. Search patterns in Madrid, Barcelona, Valencia and Bilbao differ, and keywords that resonate in Andalucía may need their own form in País Vasco.
 
 Seasonal and regional events shift search behaviour too, from Sevilla's Feria de Abril to Barcelona's Mobile World Congress. Build keyword matrices that cover standard Castellano and the regional variations, and watch regional trends in Google Trends.
 
@@ -79,13 +79,13 @@ Each tool answers a different commercial question, so pick by what you need to d
 | Keyword Tool Dominator | Amazon.es search suggestions |
 | AnswerThePublic | Question-based queries in Spanish |
 
-Focus on the metrics that matter in Spain, such as mobile search volume, and compare volumes across Spanish-speaking countries to find openings your competitors miss. Conversational queries are phrased differently in Spanish than in English, which matters for voice and AI search too; read more about [generative engine optimization](/services/generative-engine-optimization/).
+Focus on the metrics that matter in Spain, such as mobile search volume, and compare volumes across Spanish-speaking countries to find openings your competitors have yet to take. Conversational queries are phrased differently in Spanish than in English, which matters for voice and AI search too; read more about [generative engine optimization](/services/generative-engine-optimization/).
 
 ## Tone and style for Spanish readers
 
 ### Formal vs. informal language
 
-The choice between tú and usted tells the reader who you think they are, and a wrong guess reads as either presumptuous or cold. It shapes everything from email subject lines to social posts.
+The choice between tú and usted tells the reader who you think they are, so pick the form that reads as respectful and warm to them, where the other could feel presumptuous or cold. It shapes everything from email subject lines to social posts.
 
 | Aspect | Tú (informal) | Usted (formal) |
 | --- | --- | --- |
@@ -93,11 +93,11 @@ The choice between tú and usted tells the reader who you think they are, and a 
 | Signals | Closeness, energy, a conversational brand | Respect, distance, reliability |
 | Risk | Can feel presumptuous to older or traditional readers | Can feel stiff to younger readers |
 
-Younger Spanish audiences generally expect informal address, while older or more traditional sectors may find it inappropriate. Whichever you choose, stay consistent: switching between the two confuses readers and weakens your brand voice. Our guide to [Spanish on-page SEO](/blog/spanish-on-page-seo/) goes further.
+Younger Spanish audiences generally expect informal address, while older or more traditional sectors expect usted. Whichever you choose, stay consistent: one form throughout keeps readers oriented and your brand voice strong. Our guide to [Spanish on-page SEO](/blog/spanish-on-page-seo/) goes further.
 
 ### Regional nuances in tone
 
-A tone that wins Barcelona's startup scene can lose a traditional business audience in Asturias. The Basque Country's industrial and entrepreneurial focus rewards content rich in sector insight, and Mediterranean coastal regions often respond to content that reflects their international outlook and tourism expertise. Madrid's metropolitan audience expects quick, trend-aware content, while rural regions value content that recognises local industries.
+A traditional business audience in Asturias wants a different tone from Barcelona's startup scene. The Basque Country's industrial and entrepreneurial focus rewards content rich in sector insight, and Mediterranean coastal regions often respond to content that reflects their international outlook and tourism expertise. Madrid's metropolitan audience expects quick, trend-aware content, while rural regions value content that recognises local industries.
 
 Business hours, seasonal patterns and local festivals all influence when people read. Let your analytics guide the regional approach and refine it over time.
 
@@ -107,11 +107,11 @@ Business hours, seasonal patterns and local festivals all influence when people 
 
 ## Structuring content for Spanish readers
 
-Readers who lose the thread leave before they reach your offer, so structure is where content turns into enquiries. Each paragraph should lead into the next and keep the reader moving through the argument.
+Readers who follow the thread reach your offer, so structure is where content turns into enquiries. Each paragraph should lead into the next and keep the reader moving through the argument.
 
 ### Headers and formatting for SEO
 
-Your headings have to work twice, as the words Spanish buyers search and as a natural read; see our [Spanish on-page SEO guide](/blog/spanish-on-page-seo/) for detail. Direct translations usually fail one test or the other.
+Your headings have to work twice, as the words Spanish buyers search and as a natural read; see our [Spanish on-page SEO guide](/blog/spanish-on-page-seo/) for detail. Headings written in Spanish from the start pass both tests.
 
 Work high-value Spanish keywords naturally into your H1, and phrase H2 and H3 subheadings as the questions Spanish users actually type. Keep the structure clear on smaller screens.
 
@@ -122,19 +122,19 @@ When building bullet points in Spanish:
 -   Keep each point similar in weight and length
 -   Follow Spanish punctuation rules
 
-Use Spanish number formatting, with a comma for decimals and a point or space for thousands (1.234,56 rather than 1,234.56). Spanish sentences also run longer than English ones, so a translated text grows; test section length with Spanish readers rather than copying English norms.
+Use Spanish number formatting, with a comma for decimals and a point or space for thousands (1.234,56, where English writes 1,234.56). Spanish sentences also run longer than English ones, so a translated text grows; test section length with Spanish readers.
 
 ## Visuals that read as local
 
 ### Local imagery
 
-A stock photo that screams "tourist Spain" undoes the trust your copy has built. Show Spain's architectural and regional diversity, from Barcelona's modernisme to Granada's Moorish heritage, and avoid clichés.
+Imagery that shows the Spain your buyers know keeps the trust your copy has built. Show Spain's architectural and regional diversity, from Barcelona's modernisme to Granada's Moorish heritage, and choose the everyday over the cliché.
 
 Business scenes should reflect Spanish professional culture: typical offices, meeting styles and dress for each region. Infographics should use Spanish number formats and metric units, and icons should follow local conventions, such as Spanish regulatory symbols for compliance topics.
 
 ### Videos and infographics
 
-Video that reflects contemporary Spanish business and society holds attention; stereotypes lose it. What resonates in Madrid may differ from what engages audiences in Valencia or Bilbao.
+Video that reflects contemporary Spanish business and society holds attention. What resonates in Madrid may differ from what engages audiences in Valencia or Bilbao.
 
 Structure video content to fit Spanish viewing habits:
 
@@ -143,15 +143,15 @@ Structure video content to fit Spanish viewing habits:
 -   Optimize for mobile viewing
 -   Publish around peak viewing times in Spanish time zones
 
-Voice-over should use appropriate regional accents and terminology, and location-specific B-roll beats generic corporate footage. Test video length with your own audience data rather than assuming English-market norms.
+Voice-over should use appropriate regional accents and terminology, and location-specific B-roll beats generic corporate footage. Test video length with your own Spanish audience data.
 
 ## Storytelling that connects
 
 ### Cultural references
 
-The right reference shows a Spanish reader you know their world; a dated one shows them you do not. Modern icons like Rafael Nadal, or business leaders like Amancio Ortega, resonate across professional contexts.
+The right reference shows a Spanish reader you know their world. Modern icons like Rafael Nadal, or business leaders like Amancio Ortega, resonate across professional contexts.
 
-Spain's strengths in renewable energy, high-speed rail and gastronomy make relevant business examples, and Barcelona's smart city work is widely known. Avoid dated stereotypes, and let references support the message rather than overshadow it.
+Spain's strengths in renewable energy, high-speed rail and gastronomy make relevant business examples, and Barcelona's smart city work is widely known. Keep references current, and let them support the message.
 
 ### Case studies and local stories
 
@@ -167,7 +167,7 @@ Spanish brands that get it right are worth studying, because they compete for th
 
 ## SEO and localization: swapping English examples for Spanish ones
 
-An English example left in a Spanish page tells the reader it was not written for them. Localization adapts meaning, not just words; see how we do it through our [content localization services](/services/website-localisation/).
+A Spanish example tells the reader the page was written for them. Localization adapts meaning as well as words; see how we do it through our [content localization services](/services/website-localisation/).
 
 -   **Metaphors:** swap cricket for football, the sport that drives countless Spanish business conversations.
 -   **Finance:** Spanish investors relate more readily to European market examples than to Wall Street.
@@ -182,7 +182,7 @@ An English example left in a Spanish page tells the reader it was not written fo
 
 ### Key metrics to monitor
 
-Judge your Spanish pages against English benchmarks and you will fix the wrong things. Compare time on page and bounce rate with your own Spanish baseline, not your English pages.
+Judge your Spanish pages against a Spanish benchmark, so you fix the right things. Compare time on page and bounce rate with your own Spanish baseline.
 
 Social sharing has its own shape in Spain:
 
@@ -191,21 +191,21 @@ Social sharing has its own shape in Spain:
 -   Facebook remains important for B2C distribution
 -   Instagram performance varies by region
 
-Track mobile engagement separately, since so much Spanish browsing happens on phones. Monitor engagement around Spanish business hours, including the long lunch from 14:00 to 16:00, and compare comment activity across markets rather than assuming it matches your home market.
+Track mobile engagement separately, since so much Spanish browsing happens on phones. Monitor engagement around Spanish business hours, including the long lunch from 14:00 to 16:00, and compare comment activity across markets, since each has its own pattern.
 
 ### User feedback and adaptation
 
-The most useful feedback from Spanish customers tends to arrive through personal channels, so an automated survey alone will miss most of it. Combine several approaches:
+The most useful feedback from Spanish customers tends to arrive through personal channels, so pair any automated survey with personal contact. Combine several approaches:
 
 -   Focus groups in key regional centres
 -   Online surveys optimized for mobile completion
 -   Social listening in Spanish and regional languages
 -   Analysis of customer service conversations
 
-Many Spanish customers prefer WhatsApp and the phone over email for anything pressing, so track enquiries across all channels. Avoid collecting feedback in August, when many businesses slow down, and read heatmaps and session recordings through the lens of local habits.
+Many Spanish customers prefer WhatsApp and the phone over email for anything pressing, so track enquiries across all channels. Collect feedback outside August, when many businesses slow down, and read heatmaps and session recordings through the lens of local habits.
 
 <aside class="post-cta">
-<p><strong>Spanish traffic up, Spanish enquiries flat?</strong> Every <a href="/services/spanish-seo/">Spanish SEO engagement</a> we run comes with monthly reporting per market, so you can see which pages bring buyers in Spain and which only bring visits. <a href="/contact/">Talk to us about your Spanish site</a>.</p>
+<p><strong>Spanish traffic up, and enquiries next?</strong> Every <a href="/services/spanish-seo/">Spanish SEO engagement</a> we run comes with monthly reporting per market, so you can see which pages bring buyers in Spain and which only bring visits. <a href="/contact/">Talk to us about your Spanish site</a>.</p>
 </aside>
 
 ## Working with us on the Spanish market

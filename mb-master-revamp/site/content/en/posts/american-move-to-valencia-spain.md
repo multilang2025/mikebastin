@@ -141,7 +141,7 @@ Otherwise, look at the NLV, the DNV or investor options in **Portugal**, **Greec
 <text x="250" y="114" text-anchor="middle" class="fg-label">within 1 month</text>
 <text x="350" y="114" text-anchor="middle" class="fg-label">after 1 year</text>
 </svg>
-<figcaption>The TIE deadline is the one people miss: the clock starts the day you enter Spain, not the day the visa was issued.</figcaption>
+<figcaption>Put the TIE deadline in your diary first: the clock starts the day you enter Spain, whatever date the visa was issued.</figcaption>
 </figure>
 
 ### Documents and submission
@@ -199,7 +199,7 @@ Your neighbourhood matters as much as the city: Ruzafa is trendy but noisy, Beni
 <text x="250" y="114" text-anchor="middle" class="fg-label">no income test</text>
 <text x="350" y="114" text-anchor="middle" class="fg-label">DELE, CCSE</text>
 </svg>
-<figcaption>Years are counted from your first residence authorisation. Long absences reset the count, so plan trips home around the limits below.</figcaption>
+<figcaption>Years are counted from your first residence authorisation, and the count keeps running while trips home stay within the limits below, so plan them around those limits.</figcaption>
 </figure>
 
 Both visas lead to **long-term residency after 5 years** of continuous, legal residence. No single absence should exceed six months, and absences should not add up to more than 10 months in total. The NLV renews for 2-year periods and, since 20 May 2025, each renewal requires more than 183 days of real residence in the calendar year. The DNV renews to complete the cycle.

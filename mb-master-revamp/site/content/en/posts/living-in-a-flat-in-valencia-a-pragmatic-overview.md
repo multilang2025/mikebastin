@@ -90,7 +90,7 @@ The landlord must lodge the one-month fianza with the Generalitat Valenciana wit
 <text x="250" y="114" text-anchor="middle" class="fg-label">max 3 months</text>
 <text x="350" y="114" text-anchor="middle" class="fg-label">by landlord</text>
 </svg>
-<figcaption>The last step is the landlord’s job, not yours. Ask for proof that the fianza was lodged with the Generalitat, because it is what protects your deposit at the end of the lease.</figcaption>
+<figcaption>The landlord handles the last step. Ask for proof that the fianza was lodged with the Generalitat, because it is what protects your deposit at the end of the lease.</figcaption>
 </figure>
 
 ## Building quirks nobody warns you about

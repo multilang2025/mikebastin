@@ -10,23 +10,23 @@ wpId: 24847220
 date: "2024-12-22T12:09:44"
 modified: "2026-09-26T21:30:00"
 sourceUrl: "https://mikebastin.com/360-marketing-agency/"
-excerpt: "Paying one 360 marketing agency and still getting four disconnected channels? Here is what joined-up work looks like, and how to test for it."
+excerpt: "One 360 marketing agency should give you one plan that joins every channel up. Here is what joined-up work looks like, and how to test for it."
 ---
 
-You signed with a **360 marketing agency** to get one joined-up plan. What arrives each month is four channel reports stapled together: four KPIs, four audience definitions, and nobody who can say which one is paying for the rest.
+You signed with a **360 marketing agency** to get one joined-up plan. What arrives each month may still be four channel reports stapled together; what you want is one set of KPIs, one audience definition, and one person who can say which channel is paying for the rest.
 
-The cost is not only the retainer: paid search buys clicks your organic pages already win, and your other languages inherit every gap in the English plan. After more than two decades in this industry we have watched larger agencies sell that pitch hundreds of times.
+Joined-up work pays back more than the retainer: paid search spends on the clicks your organic pages have yet to win, and your other languages start from a complete plan. We have spent more than two decades in this industry, and we know what joined-up work looks like from the inside.
 
-Below: what joined-up work looks like, a three-question test for any agency you pay, and when a 360 partner is the wrong hire.
+Below: what joined-up work looks like, a three-question test for any agency you pay, and when a 360 partner is the right hire.
 
 ## What integration looks like when it works
 
-You are paying for decisions made across channels. Five things genuinely joined up deliver that; seven billed in parallel do not.
+You are paying for decisions made across channels. Five things, genuinely joined up, deliver them.
 
 -   One strategy document that names the actual constraint: lead quality, search visibility in three languages, trade-show pipeline, whatever it really is.
--   One measurement plan everyone reads weekly, not a 90-page slide deck nobody opens after kickoff.
--   One brand voice and positioning that survives translation across markets without losing its edge.
--   One tech stack the team can log into without asking for credentials.
+-   One short measurement plan everyone reads weekly.
+-   One brand voice and positioning that keeps its edge in translation across markets.
+-   One tech stack the whole team can log into directly.
 -   One person accountable when numbers move sideways.
 
 <figure class="post-fig">
@@ -46,50 +46,50 @@ You are paying for decisions made across channels. Five things genuinely joined 
 <text x="70" y="147" text-anchor="middle" class="fg-label">LinkedIn</text>
 <text x="330" y="147" text-anchor="middle" class="fg-label">Events</text>
 </svg>
-<figcaption>Integration means every channel reads from the same strategy and measurement plan. Four teams reporting into one deck is not the same thing.</figcaption>
+<figcaption>Integration means every channel reads from the same strategy and measurement plan, so the teams share the plan from the start as well as the report at the end.</figcaption>
 </figure>
 
-## What “360” usually is, and why it disappoints
+## Three habits of joined-up work
 
-Each pattern below spends budget in one channel on a problem another has already solved.
+Each habit below sends budget to the channel where the problem is still open.
 
-**Channel teams that meet once a month and call it joined-up work.** Each team copies its KPIs into the same deck. Lots of motion, no overlap, no shared decisions.
+**Channel teams that decide together.** A monthly meeting where each team copies its KPIs into the same deck keeps everyone busy. Joined-up work means the teams overlap and take shared decisions.
 
-**Strategy that lives in a document nobody re-reads.** 90 pages, beautifully structured, last opened on day one. The plan stops shaping the work after week two.
+**A strategy the team re-reads.** A plan shapes the work for as long as people open it. Keep it short enough to reread every week, so it still shapes the work long after week two; a 90-page document, beautifully structured, tends to be read once, on day one.
 
-**Multilingual treated as a translation step at the end.** Spanish and French versions inherit every limitation of the English plan plus a few extra bugs from the handover. Real multilingual marketing, as our [multilingual SEO best practices](/blog/best-practices-for-multilingual-seo/) explain, needs to be a planning input, not a finishing layer.
+**Multilingual planned from the start.** When the Spanish and French versions are planned alongside the English one, each starts from its own complete plan and a clean handover. Real multilingual marketing, as our [multilingual SEO best practices](/blog/best-practices-for-multilingual-seo/) explain, is a planning input from day one.
 
 ## The integration test
 
-Ten minutes tells you whether your agency is joined up or just well presented. Ask three questions about any active campaign.
+Ten minutes shows you how joined up your agency’s work is. Ask three questions about any active campaign.
 
 -   Which paid keyword should we kill because organic now ranks for it?
 -   Which Spanish blog post would benefit most from a remarketing pixel?
--   What did the Belgian (.be) version of the campaign learn that the French (.fr) version has not yet adopted?
+-   What did the Belgian (.be) version of the campaign learn that the French (.fr) version can adopt next?
 
-If the answer to any of these is “let us sync with another team”, you are paying for branding, not joined-up work.
+A joined-up agency answers all three on the spot, from one shared plan.
 
 <aside class="post-cta">
-<p><strong>Your agency could not answer the third question?</strong> Our <a href="/services/lead-generation/">lead generation work</a> counts every enquiry against the market and the language that earned it, so a French campaign is judged on French conversations. <a href="/contact/">Book the discovery call</a>.</p>
+<p><strong>Want an agency that answers the third question on the spot?</strong> Our <a href="/services/lead-generation/">lead generation work</a> counts every enquiry against the market and the language that earned it, so a French campaign is judged on French conversations. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
 ## A real example: a Houston freight client
 
 Our freight forwarding client in Houston runs in two languages, three buyer types (importers, exporters, freight forwarders), and across LinkedIn, organic search, Google Ads, and trade events.
 
-For six months before we came in, the agency on the account had treated those as four separate engagements. Four invoices, four sets of KPIs, four audience definitions, no shared dashboard.
+For the six months before we came in, those had run as four separate engagements: four invoices, four sets of KPIs and four audience definitions, each reported on its own.
 
 After we consolidated into one strategy document and one measurement plan, three findings surfaced inside the first month.
 
 -   **31% of paid keywords were already ranking #1 organically.** We killed those bids and reallocated budget to upper-funnel terms.
--   **Three Spanish blog posts were ranking top three with no remarketing pixel.** Added it. The conversion path appeared overnight.
+-   **Three Spanish blog posts were ranking top three, ready for a remarketing pixel.** We added it. The conversion path appeared overnight.
 -   **LinkedIn outreach was using a different positioning line than the website.** Aligned them. Reply rate moved in the same month.
 
-None of this required new tactics. Joining the work up drove the lift.
+Every gain came from tactics already in place. Joining the work up drove the lift.
 
 ## The data behind joined-up campaigns
 
-Connection pays; channel count does not. The IPA’s analysis of more than 250 campaign case studies found a measurable gap between integrated multi-channel work and single-channel campaigns.
+Connection pays more than channel count. The IPA’s analysis of more than 250 campaign case studies found a measurable gap between integrated multi-channel work and single-channel campaigns.
 
 > 78% of cases with three channels demonstrate hard business effects versus 67% of those with only one channel.
 > 
@@ -106,18 +106,18 @@ Read a proposal against the right-hand column; each line is something to ask to 
 | “We cover every channel” | One strategy that names the constraint and the trade-offs |
 | “Cross-functional team” | One accountable lead with budget authority |
 | “Custom dashboards” | One measurement plan everyone reads weekly |
-| “Multilingual ready” | Translation as planning input, not the last step |
+| “Multilingual ready” | Translation as a planning input from the start |
 | “Always-on social” | Social tied to the same conversion goals as paid and SEO |
 
 ## Deciding whether a 360 partner is the right hire
 
-Hire too early and you pay for coordination you do not need yet. We usually tell clients to hire a 360 partner only when at least two of the following are true.
+A 360 partner pays off once you need coordination across channels. We usually tell clients to hire one when at least two of the following are true.
 
--   You operate across more than two languages or markets, and brand consistency is visibly breaking down.
--   You have lost track of where the next quarter’s revenue is meant to come from inside your existing reporting.
--   Your in-house generalist is doing five jobs poorly and needs strategic cover, not extra execution capacity.
+-   You operate across more than two languages or markets, and you want brand consistency back across them.
+-   You want your reporting to show where the next quarter’s revenue is meant to come from.
+-   Your in-house generalist is covering five jobs, and what helps most is strategic cover.
 
-Outside those scenarios, a senior fractional lead plus two specialist contractors usually outperform an agency retainer at lower cost: less polish, more attention on the actual constraint. Our comparison of a [digital marketing advisor versus an agency](/blog/digital-marketing-advisor/) sets out that choice in more detail.
+In other cases, a senior fractional lead plus two specialist contractors usually outperform an agency retainer at lower cost, with more attention on the actual constraint. Our comparison of a [digital marketing advisor versus an agency](/blog/digital-marketing-advisor/) sets out that choice in more detail.
 
 ## A second pair of eyes on your marketing engine
 

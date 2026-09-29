@@ -22,7 +22,7 @@ const PATH = leadGenPath("es");
 const NAME = "Generación de leads B2B";
 const TITLE = "Generación de leads B2B para empresas que exportan";
 const DESCRIPTION =
-  "Sus mercados exteriores le envían visitas y pocas consultas. Las convertimos en leads cualificados, contados mercado a mercado, sin margen sobre su inversión publicitaria.";
+  "Tus mercados exteriores ya te envían visitas. Las convertimos en leads cualificados, contados por mercado, y toda tu inversión publicitaria va a tus anuncios.";
 
 export const metadata: Metadata = {
   ...pageMeta({
@@ -38,19 +38,19 @@ export const metadata: Metadata = {
 const PARTS: { title: string; body: string; href?: string; link?: string }[] = [
   {
     title: "Encontrado en su idioma",
-    body: "Posicionamiento construido mercado a mercado a partir de lo que los compradores escriben de verdad, para que el visitante adecuado llegue a una página escrita para él y no traducida para él.",
+    body: "Posicionamiento construido mercado a mercado a partir de lo que los compradores escriben de verdad, para que el visitante adecuado llegue a una página escrita para él.",
     href: "/es/services/posicionamiento-multilingue/",
     link: "Posicionamiento multilingüe",
   },
   {
-    title: "Alcanzado antes de que le encuentre",
-    body: "Campañas de pago en cada idioma para el comprador que aún no le ha encontrado en orgánico, con un presupuesto separado por mercado para que ninguno financie en silencio a otro.",
+    title: "Alcanzado antes de que te encuentre",
+    body: "Campañas de pago en cada idioma que llegan al comprador antes que la búsqueda orgánica, con un presupuesto separado por mercado para que cada uno responda de su propio gasto.",
     href: "/es/services/publicidad-multilingue/",
     link: "Publicidad multilingüe",
   },
   {
     title: "Contado donde nació",
-    body: "Cada consulta atribuida al mercado y al idioma que la trajeron, y seguida hasta su CRM, para juzgar cada mercado por las conversaciones que abre.",
+    body: "Cada consulta atribuida al mercado y al idioma que la trajeron, y seguida hasta tu CRM, para juzgar cada mercado por las conversaciones que abre.",
   },
 ];
 
@@ -58,28 +58,28 @@ const QUESTIONS = [
   {
     q: "¿Hay que lanzar todos los idiomas a la vez?",
     a: [
-      "No, y normalmente sale más barato no hacerlo. Empezamos por el mercado donde las señales son más claras, hacemos que genere consultas y añadimos el siguiente cuando lo consigue.",
-      "Repartir el primer presupuesto entre todos los idiomas en los que vende es la forma más segura de acabar con varios mercados casi activos y ninguno que claramente rinda.",
+      "Normalmente sale más barato ir mercado a mercado. Empezamos por el mercado donde las señales son más claras, hacemos que genere consultas y añadimos el siguiente cuando lo consigue.",
+      "Concentrar el primer presupuesto en un solo idioma es la forma más segura de tener un mercado que claramente rinde antes de abrir el siguiente.",
     ],
   },
   {
     q: "¿Qué cuenta como un lead?",
     a: [
-      "La definición que reconoce su propio equipo comercial, acordada antes de medir nada. Normalmente, una consulta que se convirtió en conversación.",
-      "El spam, las candidaturas y los envíos de prueba se cuentan aparte, para que cada mercado se juzgue por lo que de verdad llega a su equipo y no por cuántos formularios se rellenaron.",
+      "La definición que reconoce tu propio equipo comercial, acordada antes de empezar a medir. Normalmente, una consulta que se convirtió en conversación.",
+      "El spam, las candidaturas y los envíos de prueba se cuentan aparte, para que cada mercado se juzgue por lo que de verdad llega a tu equipo.",
     ],
   },
   {
-    q: "¿Quién escribe en los idiomas que ustedes no redactan?",
+    q: "¿Quién escribe en los demás idiomas?",
     a: [
       "Escribimos directamente en español, inglés, francés y neerlandés. El alemán, el italiano, el portugués y los demás idiomas pasan por redactores nativos de la red BeTranslated, a quienes damos el briefing y cuyo trabajo revisamos.",
-      "En todos los casos la página se escribe para el mercado que la lee, a partir de su propia investigación, y no se traduce de una página española pensada para otro lector.",
+      "En todos los casos la página se escribe para el mercado que la lee, a partir de su propia investigación.",
     ],
   },
   {
     q: "¿Hay una permanencia mínima?",
     a: [
-      "Sin permanencia. La primera llamada da lugar a un alcance por escrito que nombra las páginas y los entregables, y usted decide a partir de ahí.",
+      "Trabajamos mes a mes. La primera llamada da lugar a un alcance por escrito que nombra las páginas y los entregables, y tú decides a partir de ahí.",
     ],
   },
 ];
@@ -103,7 +103,7 @@ export default function SpanishLeadGenerationPage() {
         <div className="shell relative grid items-start gap-x-12 lg:grid-cols-[1fr_auto]">
           <div>
             <Reveal>
-              <p className="eyebrow mb-8">Medido en consultas, no en visitas</p>
+              <p className="eyebrow mb-8">Medido en consultas</p>
             </Reveal>
             <Reveal i={1}>
               <h1 className="mb-6 max-w-[22ch] text-[clamp(2.3rem,5.6vw,4rem)] font-semibold leading-[1.08]">
@@ -112,12 +112,12 @@ export default function SpanishLeadGenerationPage() {
             </Reveal>
             <Reveal i={2}>
               <h2 className="mb-6 max-w-[46ch] text-[clamp(1.2rem,2.1vw,1.7rem)] font-medium leading-[1.3]" style={{ color: "var(--ink)" }}>
-                Sus mercados exteriores ya le envían visitantes. Los convertimos en consultas que merecen una llamada comercial, y le mostramos de qué mercado viene cada una.
+                Tus mercados exteriores ya te envían visitantes. Los convertimos en consultas que merecen una llamada comercial, y te mostramos de qué mercado viene cada una.
               </h2>
             </Reveal>
             <Reveal i={3}>
               <p className="mb-10 max-w-[58ch] text-[clamp(1.05rem,1.5vw,1.2rem)] leading-[1.58]" style={{ color: "var(--dim)" }}>
-                El tráfico llega en francés, alemán y neerlandés, y las consultas siguen llegando en español. La Search Console de un cliente mostraba cuarenta mil impresiones en noventa días, y seis clics. Los compradores buscaban, y nada convertía esa búsqueda en una conversación.
+                El tráfico llega en francés, alemán y neerlandés, y las consultas siguen llegando en español. La Search Console de un cliente mostraba cuarenta mil impresiones en noventa días, y seis clics. Los compradores ya buscaban: el siguiente paso era convertir esa búsqueda en una conversación.
               </p>
             </Reveal>
             <Reveal i={4}>
@@ -140,15 +140,15 @@ export default function SpanishLeadGenerationPage() {
       <section className="band band-b py-[clamp(56px,8vw,110px)]">
         <div className="shell">
           <Reveal>
-            <p className="eyebrow mb-3">Lo que cuesta un informe global</p>
+            <p className="eyebrow mb-3">Lo que muestra un informe por mercado</p>
             <h2 className="mb-6 max-w-[24ch] text-[clamp(1.7rem,3.2vw,2.5rem)] font-semibold leading-[1.12]">
-              Un único total esconde el mercado que paga por los demás
+              Un informe por mercado muestra cuál sostiene a los demás
             </h2>
             <p className="mb-5 max-w-[62ch] text-[1.05rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
-              Una sola cifra para todo el sitio es el informe más cómodo de leer y el menos útil para decidir. Dentro de una media, el mercado que sostiene sus resultados y el que gasta su presupuesto en visitas que nunca convierten parecen exactamente iguales.
+              Una sola cifra para todo el sitio es el informe más cómodo de leer; el informe por mercado es el que sirve para decidir. Dentro de una media, el mercado que sostiene tus resultados y el que gasta tu presupuesto solo en visitas parecen exactamente iguales. Separados, se distinguen a simple vista.
             </p>
             <p className="max-w-[62ch] text-[1.05rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
-              Así que el dinero sigue yendo adonde el tráfico parece más sano, y el idioma que de verdad vende recibe un poco menos cada trimestre. Nadie lo decidió. Lo decidió el informe, al no mostrar nunca la diferencia. Cada mes que funciona así, el mercado que debería crecer es el que se queda sin recursos.
+              Con una sola cifra, el dinero va adonde el tráfico parece más sano, y el idioma que de verdad vende recibe un poco menos cada trimestre: la decisión la toma el informe. Cuando cada mercado se ve por separado, el presupuesto va al mercado que debe crecer.
             </p>
           </Reveal>
         </div>
@@ -162,7 +162,7 @@ export default function SpanishLeadGenerationPage() {
               La generación de leads B2B, idioma a idioma
             </h2>
             <p className="mb-10 max-w-[62ch] text-[1.05rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
-              Tres piezas, trabajadas juntas y juzgadas por una sola cosa: si cada mercado envía a su equipo comercial consultas que valen la pena. Por separado, cada una produce un informe. Juntas, producen un pipeline que usted lee mercado a mercado.
+              Tres piezas, trabajadas juntas y juzgadas por una sola cosa: si cada mercado envía a tu equipo comercial consultas que valen la pena. Por separado, cada una produce un informe. Juntas, producen un pipeline que lees mercado a mercado.
             </p>
           </Reveal>
           <Reveal i={2}>
@@ -190,13 +190,13 @@ export default function SpanishLeadGenerationPage() {
           <Reveal>
             <p className="eyebrow mb-3">Cómo se factura</p>
             <h2 className="mb-6 max-w-[24ch] text-[clamp(1.7rem,3.2vw,2.5rem)] font-semibold leading-[1.12]">
-              Sin margen sobre su inversión publicitaria, así que un presupuesto mayor no nos aporta nada
+              Toda tu inversión publicitaria va a tus anuncios
             </h2>
             <p className="mb-5 max-w-[62ch] text-[1.05rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
-              Cuando un proyecto incluye publicidad de pago, su presupuesto de medios va directamente a Google, Microsoft o Meta, sin pasar por nosotros. La gestión se factura como honorarios propios. Así que no tenemos ningún motivo para recomendar un presupuesto mayor, y todos los motivos para recomendar el que trae consultas.
+              Cuando un proyecto incluye publicidad de pago, toda tu inversión en medios compra anuncios: va directamente a Google, Microsoft o Meta, y la gestión se factura como honorarios propios. Así que el presupuesto que te recomendamos es el que trae consultas.
             </p>
             <p className="max-w-[62ch] text-[1.05rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
-              Para ser exactos sobre dónde está el límite: el principio vale para la inversión en medios. La redacción y la traducción se presupuestan como un precio por el trabajo. Una agencia que se mantiene imprecisa sobre qué costes repercute y cuáles factura suele tener un motivo, y preferimos que lo sepa antes de la primera llamada.
+              Esto vale para la inversión en medios; la redacción y la traducción se presupuestan como un precio por el trabajo.
             </p>
           </Reveal>
         </div>
@@ -210,7 +210,7 @@ export default function SpanishLeadGenerationPage() {
               Reseñas públicas, en el idioma de quien las escribe
             </h2>
             <p className="mb-10 max-w-[58ch] text-[1.05rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
-              Nuestros clientes nos valoran en inglés, neerlandés, francés y español, cada uno en el idioma que eligió. Esta es la reseña escrita en español.
+              Nuestros clientes nos valoran en inglés, neerlandés, francés y español, cada uno en el idioma que eligió. Aquí tienes la reseña escrita en español.
             </p>
           </Reveal>
           <Reveal i={2}>
@@ -224,13 +224,13 @@ export default function SpanishLeadGenerationPage() {
           <Reveal>
             <p className="eyebrow mb-3">Cómo se cuentan las consultas</p>
             <h2 className="mb-6 max-w-[24ch] text-[clamp(1.7rem,3.2vw,2.5rem)] font-semibold leading-[1.12]">
-              Un formulario enviado se convierte en lead cuando su equipo lo reconoce como tal
+              Un formulario enviado se convierte en lead cuando tu equipo lo reconoce como tal
             </h2>
             <p className="mb-5 max-w-[62ch] text-[1.05rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
-              La medición pasa por GA4 y Google Tag Manager, configurados por idioma con las mismas definiciones de eventos en todos, para que una consulta francesa y una alemana se cuenten igual y puedan compararse. El modo de consentimiento se ajusta mercado a mercado, porque las tasas de rechazo varían entre países, y una comparación sin corregir ordenaría sus idiomas por aceptación de cookies y no por ventas.
+              La medición pasa por GA4 y Google Tag Manager, configurados por idioma con las mismas definiciones de eventos en todos, para que una consulta francesa y una alemana se cuenten igual y puedan compararse. El modo de consentimiento se ajusta mercado a mercado, porque la aceptación de cookies varía entre países, y así la comparación ordena tus idiomas por ventas.
             </p>
             <p className="mb-12 max-w-[62ch] text-[1.05rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
-              El CRM cierra el círculo. El seguimiento de conversiones offline devuelve el resultado de cada consulta a GA4 y Google Ads, de modo que un mercado que envía menos consultas pero mejores aparece como ganador, y las pujas de pago siguen lo que vale un mercado y no cuántos formularios rellena.
+              El CRM cierra el círculo. El seguimiento de conversiones offline devuelve el resultado de cada consulta a GA4 y Google Ads, de modo que un mercado que envía menos consultas pero mejores aparece como ganador, y las pujas de pago siguen lo que vale cada mercado.
             </p>
           </Reveal>
           <Reveal i={1}>
@@ -249,12 +249,12 @@ export default function SpanishLeadGenerationPage() {
           <Reveal>
             <p className="eyebrow mb-3">El siguiente paso</p>
             <h2 className="mb-5 max-w-[24ch] text-[clamp(1.7rem,3.2vw,2.5rem)] font-semibold leading-[1.12]">
-              Descubra lo que sus otros mercados podrían enviarle
+              Descubre lo que tus otros mercados podrían enviarte
             </h2>
           </Reveal>
           <Reveal i={1}>
             <p className="mb-9 max-w-[58ch] text-[1.05rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
-              Treinta minutos sobre los mercados que importan, lo que ya posiciona y lo que ya se ha probado. Preguntamos antes de recomendar nada, y lo que recibe después es un alcance por escrito que nombra páginas y entregables reales, no un presupuesto con planes cerrados. Sin permanencia. El formulario de contacto está en inglés, y puede rellenarlo en español: le responderemos en español.
+              Treinta minutos sobre los mercados que importan, lo que ya posiciona y lo que ya se ha probado. Primero preguntamos y después recomendamos, y lo que recibes es un alcance por escrito que nombra páginas y entregables reales. Trabajamos mes a mes. El formulario de contacto está en inglés, y puedes rellenarlo en español: te responderemos en español.
             </p>
           </Reveal>
           <Reveal i={2}>

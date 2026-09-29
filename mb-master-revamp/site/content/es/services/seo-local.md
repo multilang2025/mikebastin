@@ -32,17 +32,17 @@ GEO + Local
 
 AI engines now answer «best X in » queries with citations to local results
 
-## Three ways to lose local visibility
+## Three things local visibility depends on
 
 Recurring patterns on local businesses I audit:
 
-Profile exists but categories are wrong, services list incomplete, hours not updated, photos sparse, no posts in months, Q&A unanswered. Google’s algorithm rewards complete and active profiles. A half-finished profile gets buried below competitors with no better product, just better profile hygiene.
+The profile needs the right categories, a complete services list, current hours, plenty of photos, regular posts and answered Q&A. Google’s algorithm rewards complete and active profiles, and profile hygiene is often what puts a competitor with the same product above you.
 
-The business name is slightly different on Yelp vs Yellow Pages vs the local Chamber of Commerce listing. Address has «Street» on one and «St» on another. Phone has different country codes across sources. Google sees these inconsistencies as confidence signals being eroded. Consolidating NAP everywhere is unglamorous but it directly affects ranking.
+The business name is slightly different on Yelp vs Yellow Pages vs the local Chamber of Commerce listing. Address has «Street» on one and «St» on another. Phone has different country codes across sources. Google reads a consistent NAP as a confidence signal. Consolidating NAP everywhere is routine work, and it directly affects ranking.
 
-A homepage saying «serving Valencia» is fine. A dedicated page for each neighbourhood you actually serve (Ruzafa, El Carmen, Benimaclet, Cabanyal) is much better. People search «service + neighbourhood», not just «service + city». Without neighbourhood-level content, you miss the long tail entirely.
+A homepage saying «serving Valencia» is fine. A dedicated page for each neighbourhood you actually serve (Ruzafa, El Carmen, Benimaclet, Cabanyal) is much better. People search «service + neighbourhood» as well as «service + city», and neighbourhood-level content is what captures that long tail.
 
-Local SEO is mostly about discipline and consistency rather than tricks. Google Business Profile maintained, NAP consistent everywhere, schema in place, neighbourhood-level pages, reviews managed actively, citations cleaned up. Done properly, it compounds over months and quietly pushes you up the map pack.
+Local SEO is mostly about discipline and consistency. Google Business Profile maintained, NAP consistent everywhere, schema in place, neighbourhood-level pages, reviews managed actively, citations cleaned up. Done properly, it compounds over months and quietly pushes you up the map pack.
 
 ## What I include in a local SEO engagement
 
@@ -52,7 +52,7 @@ Audit of existing citations, correction of inconsistencies, addition of high-val
 
 JSON-LD with NAP, opening hours, geo-coordinates, areaServed, priceRange, paymentAccepted. Specialised subtypes (LegalService, MedicalBusiness, RealEstateAgent, FreightForwarder) where relevant.
 
-Dedicated pages per neighbourhood or district served. Real content per area (not duplicated boilerplate), local schema, internal linking from main service pages.
+Dedicated pages per neighbourhood or district served. Content written for each area, local schema, internal linking from main service pages.
 
 Process for requesting reviews from satisfied customers (post-service email, QR code at checkout). Active response strategy to all reviews. Negative review handling protocol.
 
@@ -64,7 +64,7 @@ Audit, profile work, citations, content, ongoing maintenance.
 
 **Deliverable:** map pack ranking analysis for your top commercial queries, GBP completeness check, NAP audit across the top 20 citation sources, schema verification, review profile assessment, competitor benchmark on the 3 closest competitors.
 
-**Deliverable:** GBP fully optimized (categories, services, attributes, hours, photos), NAP consistency restored across all relevant directories, new citations added on missing high-value sources, duplicate listings removed.
+**Deliverable:** GBP fully optimized (categories, services, attributes, hours, photos), NAP consistency restored across all relevant directories, new citations added on high-value sources, duplicate listings removed.
 
 **Deliverable:** LocalBusiness schema deployed with correct subtype, internal linking restructured for local relevance, neighbourhood landing pages produced if scope includes them, Service schema per offering where relevant.
 
@@ -94,13 +94,13 @@ Three engagements where local visibility was the central revenue driver.
 
 **Outcome:** visibility on «abogado mercantil Valencia» and equivalent queries in French and English, recurring local leads requesting consultation for business law matters.
 
-## What is included, what is not
+## What is included, what is handled elsewhere
 
 Service
 
 Included
 
-Not included
+Handled elsewhere
 
 Local SEO audit (map pack, GBP, NAP, schema, reviews)
 
@@ -162,9 +162,9 @@ Local SEO strategy depends on physical footprint.
 
 **Single location:** one GBP profile, one set of citations, neighbourhood landing pages for surrounding districts served. Default for SMBs.
 
-**Multi-location (chain or franchise):** distinct GBP profile per location, parent-child page structure, location-specific schema. Care needed to avoid duplicate content across locations.
+**Multi-location (chain or franchise):** distinct GBP profile per location, parent-child page structure, location-specific schema. Each location gets its own content.
 
-**Service-area business (mobile services, freight, repair, consulting):** service area declared in GBP, content covering cities served, no physical address displayed (with Google’s permission) for home-based operators. Specific schema for service-area businesses.
+**Service-area business (mobile services, freight, repair, consulting):** service area declared in GBP, content covering cities served, physical address hidden (with Google’s permission) for home-based operators. Specific schema for service-area businesses.
 
 Reasoned recommendation given at scoping.
 
@@ -180,26 +180,26 @@ Google reviews matter most for map pack ranking. Yelp matters more in the US tha
 
 Should I have a separate GBP per language for a multilingual market?
 
-No. One GBP profile per physical location. The GBP can list multiple languages served and the descriptions can be translated through the GBP interface where supported. Multiple GBP profiles for the same location create duplicate listing issues that hurt ranking. The multilingual aspect is handled on the website side, not by duplicating GBPs.
+One GBP profile per physical location. The GBP can list multiple languages served and the descriptions can be translated through the GBP interface where supported. A single profile per location keeps the listing clean for ranking. The multilingual aspect is handled on the website side.
 
 What is NAP and why does consistency matter?
 
-NAP stands for Name, Address, Phone: the three core data points Google cross-references across the web to validate a business is real and located where it claims. Inconsistencies (one citation says «Avenida del Puerto 14», another says «Av Puerto 14») erode Google’s confidence and depress local ranking. Consolidating NAP is unglamorous work but it directly affects map pack position.
+NAP stands for Name, Address, Phone: the three core data points Google cross-references across the web to validate a business is real and located where it claims. Make every citation read the same way, for example «Avenida del Puerto 14» on every listing where one might say «Av Puerto 14»: consistent details build Google’s confidence and support local ranking. Consolidating NAP is routine work, and it directly affects map pack position.
 
 Do paid Local Service Ads matter for local SEO?
 
-LSAs (Local Service Ads) are a paid product, not organic SEO, but they appear above the map pack on relevant queries. For service-area businesses (plumbers, electricians, locksmiths) and certain legal and healthcare verticals, LSAs are increasingly the dominant click path. Strategy can include both: LSAs for immediate visibility plus organic local SEO for compounding long-term presence.
+LSAs (Local Service Ads) are a paid product, separate from organic SEO, and they appear above the map pack on relevant queries. For service-area businesses (plumbers, electricians, locksmiths) and certain legal and healthcare verticals, LSAs are increasingly the dominant click path. Strategy can include both: LSAs for immediate visibility plus organic local SEO for compounding long-term presence.
 
 How do you handle negative reviews?
 
-Three-step playbook: (1) respond promptly and professionally, never argue, never reveal client information; (2) try to take the conversation offline with a phone number or email; (3) once resolved, ask the reviewer if they would update the review. Never request review removal through Google unless it violates policy (fake reviewer, profanity, off-topic). Public response shows future customers how the business handles complaints.
+Three-step playbook: (1) respond promptly and professionally, stay courteous and keep client information private; (2) try to take the conversation offline with a phone number or email; (3) once resolved, ask the reviewer if they would update the review. Request removal through Google only when a review violates policy (fake reviewer, profanity, off-topic). Public response shows future customers how the business handles complaints.
 
 How much does a local SEO engagement cost?
 
-Quoted. Depends on scope (single location vs multi-location), number of languages, level of content production for neighbourhood pages, and ongoing maintenance frequency. Free first call: 30 minutes to understand your context and give an honest range. No generic proposal sent without a conversation.
+Quoted. Depends on scope (single location vs multi-location), number of languages, level of content production for neighbourhood pages, and ongoing maintenance frequency. Free first call: 30 minutes to understand your context and give an honest range. Every proposal follows a conversation.
 
 ## Ready to own your local map pack?
 
-I start by auditing your current local presence, ranking, NAP and GBP. Quantified diagnosis, actionable recommendations. Free first call, no commitment.
+I start by auditing your current local presence, ranking, NAP and GBP. Quantified diagnosis, actionable recommendations. Free first call, and you decide what comes next.
 
 Related services: [multilingual SEO](https://mikebastin.com/es/services/posicionamiento-multilingue/) · [international SEO](https://mikebastin.com/es/services/agencia-de-seo-global/) · [multilingual SEM](https://mikebastin.com/es/services/publicidad-multilingue/) · [web design](https://mikebastin.com/es/services/diseno-web/)

@@ -27,11 +27,11 @@ Trabajamos con organizaciones B2B que necesitan **convertirse en fuente fiable**
 
 ## Por qué la consultoría de IA ya es una prioridad estratégica en España?
 
-En el mercado español, la adopción de la IA ya no se limita a la automatización interna. Cada vez más empresas B2B descubren que **la forma en la que los modelos de lenguaje interpretan su web condiciona su visibilidad futura**.
+En el mercado español, la adopción de la IA ya no se limita a la automatización interna. Cada vez más empresas B2B descubren que **la forma en la que los modelos de lenguaje interpretan tu web condiciona tu visibilidad futura**.
 
 Una **consultoría de IA bien planteada** permite:
 
--   Analizar cómo los LLMs procesan su contenido corporativo.
+-   Analizar cómo los LLMs procesan tu contenido corporativo.
 -   Detectar lagunas semánticas que impiden aparecer como fuente experta.
 -   Ajustar la arquitectura del sitio para facilitar la comprensión por modelos generativos.
 -   Reforzar señales de **experiencia, autoridad y fiabilidad (EEAT)** que los LLMs reutilizan en sus respuestas.
@@ -46,9 +46,9 @@ Benefíciate de la IA para que [tu comunicación en el extranjero y la interacci
 
 ## Servicios de consultoría de IA orientados a visibilidad en LLMs
 
-Nuestra consultoría de IA se centra en cómo los sistemas de inteligencia artificial leen, interpretan y reutilizan el contenido de su empresa.
+Nuestra consultoría de IA se centra en cómo los sistemas de inteligencia artificial leen, interpretan y reutilizan el contenido de tu empresa.
 
-Analizamos cómo modelos de lenguaje interpretan su web, su marca y sus contenidos.  
+Analizamos cómo modelos de lenguaje interpretan tu web, tu marca y tus contenidos.  
 Detectamos qué páginas pueden ser citadas, resumidas o ignoradas.
 
 Reestructuramos el contenido para que los conceptos clave sean claros para humanos y modelos de IA.  
@@ -56,7 +56,7 @@ Trabajamos entidades, relaciones, contexto y consistencia temática.
 
 Implementamos Schema adecuado para reforzar señales de empresa, servicios, experiencia y especialización.
 
-Definimos qué contenidos permiten a su empresa convertirse en fuente de referencia en respuestas generadas por IA.
+Definimos qué contenidos permiten a tu empresa convertirse en fuente de referencia en respuestas generadas por IA.
 
 Evaluamos cómo los LLMs pueden reinterpretar información sensible, técnica o legal, y reducimos ambigüedades.
 
@@ -66,12 +66,12 @@ Nuestro proceso de consultoría de IA se basa en análisis técnico y semántico
 
 Evaluamos contenido, estructura, datos estructurados y señales EEAT existentes.
 
-Simulamos cómo los modelos interpretan su información.   
+Simulamos cómo los modelos interpretan tu información.   
 Detectamos pérdidas de contexto, ambigüedades y ausencia de entidades clave.
 
 Definimos acciones concretas para mejorar comprensión, citabilidad y autoridad.
 
-Acompañamos a su equipo técnico, SEO o marketing durante la aplicación de cambios.
+Acompañamos a tu equipo técnico, SEO o marketing durante la aplicación de cambios.
 
 Medimos impacto en visibilidad orgánica y coherencia semántica a medio plazo.
 

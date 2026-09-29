@@ -9,14 +9,14 @@ wpId: 24847099
 date: "2024-12-16T14:47:29"
 modified: "2026-09-26T21:30:00"
 sourceUrl: "https://mikebastin.com/link-selling-and-link-buying-platforms/"
-excerpt: "Paying for links Google quietly ignores? Link buying and selling platforms in 2026: 27 marketplaces listed, and how to check one before you pay."
+excerpt: "Want links that Google counts? Link buying and selling platforms in 2026: 27 marketplaces listed, and how to check one before you pay."
 ---
 
 ## Link buying and selling platforms in 2026: an honest working list
 
-You are paying for links, or being told you should, and you cannot tell which of them will still count after Google’s next update. The wrong ones rarely get you penalised now. Google simply ignores them, so the invoice arrives and the ranking never moves.
+You are paying for links, or being told you should, and you want to know which of them will still count after Google’s next update. Google now mostly neutralises weak links, so the links worth paying for are the ones that move a ranking.
 
-We have worked around the link market for over two decades, and the list below is not theoretical. These are the platforms we have used or watched clients use, with the trade-offs we have observed: some are excellent, some are useful for specific niches, and a few should never be used by anyone serious about long-term rankings.
+We have worked around the link market for over two decades, and the list below comes from practice. These are the platforms we have used or watched clients use, with the trade-offs we have observed: some are excellent, some are useful for specific niches, and a few are best left alone by anyone serious about long-term rankings.
 
 **Important context:** Buying links that pass ranking credit breaks Google’s spam policies (part of Google Search Essentials, formerly the Webmaster Guidelines). Google’s **SpamBrain** system can detect and neutralise (or penalise) unnatural link patterns. What follows documents the link economy as it exists in 2026, so use professional judgement.
 
@@ -24,45 +24,45 @@ The most resilient SEO is built on earned editorial links, digital PR, and conte
 
 ## Why site owners still sell placements
 
-Knowing why publishers sell tells you which placements are worth buying, because a site that exists to sell links is the one Google discounts first. Quality content is expensive to produce: editorial teams have payroll and independent bloggers have hosting bills. Selling sponsored placements, niche edits, or branded content is one of the few ways content sites monetise without ad networks.
+Knowing why publishers sell tells you which placements are worth buying, because a site that exists to sell links is the one Google discounts first. Quality content is expensive to produce: editorial teams have payroll and independent bloggers have hosting bills. Selling sponsored placements, niche edits, or branded content is one of the few ways content sites monetise beyond ad networks.
 
 The platforms below exist because there is genuine commercial demand on both sides. Buyers want backlinks for SEO, brand visibility, or referral traffic, publishers want revenue from their content investment, and the platforms are the matchmakers.
 
-In 2026, Google still uses links as a ranking signal. The question has never been whether links matter; it is whether the links you acquire come from sites Google’s algorithms judge as authoritative, topically relevant, and editorially independent.
+In 2026, Google still uses links as a ranking signal. The question is whether the links you acquire come from sites Google’s algorithms judge as authoritative, topically relevant, and editorially independent.
 
 ## Why buyers prefer marketplaces to manual outreach
 
-Cold outreach is slow. Most emails never get a reply, and a reply is still a long way from a placement.
+Cold outreach is slow: replies are few, and each reply is still several steps from a placement.
 
 > Only 8.5% of outreach emails receive a response.
 >
 > Source: [Backlinko and Pitchbox, analysis of 12 million outreach emails, 2019](https://backlinko.com/email-outreach-study)
 
-Multiply that across the volume any agency or in-house SEO team needs, and the manual approach becomes untenable.
+Multiply that across the volume any agency or in-house SEO team needs, and marketplaces become the practical route.
 
-Marketplaces compress the discovery, negotiation, and placement steps into a few clicks. Pricing is upfront, the publisher has already agreed to placements in principle, and the marketplace handles invoicing, escrow, and dispute resolution. It is not better SEO, just faster operations.
+Marketplaces compress the discovery, negotiation, and placement steps into a few clicks. Pricing is upfront, the publisher has already agreed to placements in principle, and the marketplace handles invoicing, escrow, and dispute resolution. The gain is speed of operations; the SEO value still depends on the site.
 
-## What SpamBrain changed and why cheap links stopped working
+## What SpamBrain changed for cheap links
 
-If you bought links before 2022, some of what you paid for may now count for nothing. Until then, Google’s link spam detection was patchy: PBNs, cheap directory links and mass guest post networks all worked. [Google’s December 2022 link spam update](https://developers.google.com/search/blog/2022/12/december-22-link-spam-update) changed that.
+If you bought links before 2022, it is worth checking which of them still count. Until then, Google’s link spam detection was patchy: PBNs, cheap directory links and mass guest post networks all worked. [Google’s December 2022 link spam update](https://developers.google.com/search/blog/2022/12/december-22-link-spam-update) changed that.
 
 > Google announced that it was using SpamBrain to neutralise the impact of unnatural links on search results, and warned that rankings may change as spammy links are neutralised and any credit they passed is lost. The update applied to all languages.
 >
 > Source: [Google Search Central Blog, "December 2022 link spam update", 14 December 2022](https://developers.google.com/search/blog/2022/12/december-22-link-spam-update)
 
-**SpamBrain** is Google’s AI-based spam-prevention system, and it identifies unnatural link patterns at scale. Cheap links increasingly get nullified rather than penalised: the algorithm simply ignores them. From a buyer’s perspective, that is worse than a penalty, because you pay for placements that have zero ranking impact.
+**SpamBrain** is Google’s AI-based spam-prevention system, and it identifies unnatural link patterns at scale. Cheap links increasingly get nullified rather than penalised: the algorithm simply ignores them. For a buyer, that makes quality checks the priority, because a neutralised placement carries zero ranking impact.
 
-Google’s later spam updates have continued in the same direction. Sites keep ranking, but the budget spent on low-quality links gets quietly discounted to zero, as set out in [Google Search Essentials, spam policies](https://developers.google.com/search/docs/essentials/spam-policies).
+Google’s later spam updates have continued in the same direction. Sites keep ranking, and the value of low-quality links is discounted to zero, as set out in [Google Search Essentials, spam policies](https://developers.google.com/search/docs/essentials/spam-policies).
 
 ## How to evaluate a platform before you pay
 
-An hour of checks before you pay is cheaper than a year of placements that count for nothing. The same checks apply across every marketplace, and the platform name matters less than the inventory behind it.
+An hour of checks before you pay protects a year of placement budget. The same checks apply across every marketplace, and the platform name matters less than the inventory behind it.
 
--   **Look at the actual sites listed.** Real domains with real organic traffic verified through [Ahrefs](https://ahrefs.com/) or [Semrush](https://www.semrush.com/). Avoid sites with traffic graphs that look like a dropped barometer.
+-   **Look at the actual sites listed.** Real domains with real organic traffic verified through [Ahrefs](https://ahrefs.com/) or [Semrush](https://www.semrush.com/). Choose sites whose traffic holds steady over time.
 -   **Check editorial standards.** Does the site post content other than sponsored placements? If most recent posts are paid, Google’s algorithms have probably already discounted that domain.
--   **Verify the topical relevance.** A general “lifestyle” or “tech tips” site that publishes in any niche on demand is a flag. Topical authority is what makes a link count.
--   **Avoid PBN red flags.** Networks of sites with shared hosting IPs, similar template designs, and overlapping content patterns get caught together.
--   **Test the platform’s transparency.** Reputable marketplaces share Domain Rating, organic traffic, referring domains, and recent placement examples. Anything that hides this is not worth your money.
+-   **Verify the topical relevance.** Choose sites focused on your topic, since topical authority is what makes a link count; a general “lifestyle” or “tech tips” site that publishes in any niche on demand carries less weight.
+-   **Check for a network footprint.** Networks of sites with shared hosting IPs, similar template designs, and overlapping content patterns get caught together.
+-   **Test the platform’s transparency.** Reputable marketplaces share Domain Rating, organic traffic, referring domains, and recent placement examples. Spend with the ones that show it.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 250" role="img" aria-label="Five checks to run on any link platform, in order: real sites, editorial standards, topical relevance, network footprint and transparency.">
@@ -78,16 +78,16 @@ An hour of checks before you pay is cheaper than a year of placements that count
 <text x="40" y="179" text-anchor="middle" class="fg-label">4</text>
 <text x="40" y="228" text-anchor="middle" class="fg-label">5</text>
 <text x="72" y="31" class="fg-text">Real sites, real traffic</text>
-<text x="72" y="80" class="fg-text">Editorial, not ad farms</text>
+<text x="72" y="80" class="fg-text">Genuine editorial content</text>
 <text x="72" y="129" class="fg-text">Topically relevant</text>
 <text x="72" y="178" class="fg-text">No network footprint</text>
 <text x="72" y="227" class="fg-text">Transparent metrics</text>
 </svg>
-<figcaption>A platform that fails an early check does not deserve a later one: if the sites have no real traffic, their transparency about it hardly matters.</figcaption>
+<figcaption>Run the checks in order and move a platform on only once it passes each one: real traffic comes first, and transparent metrics count once the traffic is there.</figcaption>
 </figure>
 
 <aside class="post-cta">
-<p><strong>Tired of paying for placements you have to second-guess?</strong> Link building in our <a href="/services/technical-seo/">technical SEO service</a> stays white hat: editorial links, resource page placements and guest posts on sites with real traffic and real editorial standards, never a private blog network. <a href="/contact/">Book the discovery call</a>.</p>
+<p><strong>Want every placement to be one you can check?</strong> Link building in our <a href="/services/technical-seo/">technical SEO service</a> stays white hat: editorial links, resource page placements and guest posts on sites with real traffic and real editorial standards. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
 ## Link buying and selling platforms: the working list
@@ -134,6 +134,6 @@ We help clients build link portfolios that hold up through algorithm updates. Th
 
 ## Bottom line on link platforms in 2026
 
-The link economy continues to operate and marketplaces are bigger than ever, but the cost-benefit equation has shifted. Cheap links waste your budget, and expensive editorial placements still work. The middle ground is where most agencies waste client money.
+The link economy continues to operate and marketplaces are bigger than ever, but the cost-benefit equation has shifted. Editorial placements still work, and they are where the budget earns its keep. Spend on the middle ground only after the checks above.
 
 For more on building authority that holds up, see our work on [link building services](/services/technical-seo/), [competitor backlink analysis](/blog/competitor-analysis/), and [local link building in Spain](/blog/link-building-in-spain/).

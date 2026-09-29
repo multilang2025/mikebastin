@@ -9,22 +9,22 @@ wpId: 17228970
 date: "2024-11-20T14:01:00"
 modified: "2026-09-26T21:30:00"
 sourceUrl: "https://mikebastin.com/localisation-testing-tools/"
-excerpt: "Localized release breaking in ways nobody caught? The localization testing tools that find layout, text and locale faults before your users do."
+excerpt: "Want every localized release to ship clean? The localization testing tools that find layout, text and locale faults before your users see them."
 ---
 
-Your product works perfectly in English. Then the German release ships: a label runs off its button, a date reads as the wrong month. No translation review caught it, and every user there sees it on day one.
+Your product works perfectly in English, and the German release should too: every label inside its button, every date reading as the right month, on day one.
 
-Localization testing tools catch those faults first. Below: what each type catches, the features worth paying for, and how to combine them.
+Localization testing tools find layout and locale faults before your users do. Below: what each type catches, the features worth paying for, and how to combine them.
 
 ## What localization testing tools catch
 
-Most localization defects are not translation defects, so they slip past a linguist and land in your support inbox. The tools look for:
+Most localization defects sit in the code and layout, outside the text a linguist reviews, so the tools check exactly those areas. They look for:
 
 - **Technical issues:** character encoding, date formats, currency displays and text direction.
-- **Layout breaks:** UI elements that overflow or truncate when translated text expands or contracts.
-- **Missing translations:** untranslated strings and hard-coded text.
+- **Layout fit:** UI elements that overflow or truncate when translated text expands or contracts.
+- **Translation coverage:** untranslated strings and hard-coded text.
 - **Regional settings:** sorting of accented characters, right-to-left rendering for Arabic and Hebrew, line breaking in Asian languages.
-- **Cultural risks:** imagery, colours or symbols that could offend or confuse in a given market.
+- **Cultural fit:** imagery, colours and symbols that read as intended in each market.
 
 Many tools also work before a release reaches anyone:
 
@@ -32,11 +32,11 @@ Many tools also work before a release reaches anyone:
 - They simulate locale environments.
 - They check internationalisation APIs.
 
-So faults surface early, when they are cheapest. Paired with human review, they [reduce the risk of cultural faux pas](/services/multilingual-content/) and technical faults that could damage a product's reception abroad.
+So faults surface early, when they are cheapest to fix. Paired with human review, they [keep the product culturally on point](/services/multilingual-content/) and technically sound, so it is well received abroad.
 
 ## Tools by type
 
-No single tool covers the whole job; the table shows where your setup has gaps.
+Each tool covers part of the job; the table shows which parts your setup already covers and which to add.
 
 | Tool | Type | What it catches or does |
 |---|---|---|
@@ -56,11 +56,11 @@ No single tool covers the whole job; the table shows where your setup has gaps.
 | [Playwright](https://playwright.dev/) | Automation | Scripted browser tests with locale and time zone emulation |
 | [PhantomJS](https://phantomjs.org/) | Automation | Headless browser, development suspended |
 | [Applitools](https://applitools.com/) | Visual testing | Layout and rendering differences between languages |
-| [Pseudolocalize](http://www.pseudolocalize.com/) | Pseudo-localization | Fake translations that expose layout problems |
-| [Localize](https://localizejs.com/) | Translation management | Spots localization problems in web apps |
+| [Pseudolocalize](http://www.pseudolocalize.com/) | Pseudo-localization | Fake translations that expose layout issues |
+| [Localize](https://localizejs.com/) | Translation management | Spots localization issues in web apps |
 | [Microsoft pseudolocalization](https://learn.microsoft.com/en-us/globalization/methodology/pseudolocalization) | Pseudo-localization | Test builds that reveal hard-coded and truncated text |
 
-Two older automation tools deserve a warning:
+Two older automation tools are best left to existing suites:
 
 - **PhantomJS:** development is suspended.
 - **iMacros:** reached end of life on 30 November 2023.
@@ -103,18 +103,18 @@ How you use the tools decides whether each new market costs less to launch than 
 <text x="250" y="114" text-anchor="middle" class="fg-label">every locale</text>
 <text x="350" y="114" text-anchor="middle" class="fg-label">native speaker</text>
 </svg>
-<figcaption>Tools cover the first three steps, where faults are cheapest to fix. The last still needs a native speaker, for the linguistic and cultural judgement calls.</figcaption>
+<figcaption>Tools cover the first three steps, where fixes are quickest and cheapest. A native speaker handles the last, for the linguistic and cultural judgement calls.</figcaption>
 </figure>
 
-1. **Combine tools.** No single tool covers every aspect of localization testing.
-2. **Automate where possible.** Automate repetitive checks, but accept that full automation is not possible.
+1. **Combine tools.** Each tool covers part of localization testing; together they cover it all.
+2. **Automate where possible.** Automate repetitive checks, and keep people on the checks that need judgement.
 3. **Involve native speakers.** Pair the tools with [native-speaker review for linguistic and cultural accuracy](/services/website-localisation/).
 4. **Maintain test data.** Keep test cases and data current in your test management tool.
 5. **Pseudo-localize early.** Run pseudo-localization [early in development to catch potential issues](https://daily.dev/blog/localization-testing-guide-best-practices-and-checklist) before translation starts.
 6. **Test continuously.** Build localization tests into your continuous integration and deployment (CI/CD) pipeline.
 
 <aside class="post-cta">
-<p><strong>Launching a new language and want every fault caught before launch?</strong> Our <a href="/services/website-localisation/">website localization</a> includes full QA in every language before launch. <a href="/contact/">Book the discovery call</a>.</p>
+<p><strong>Launching a new language and want it right from day one?</strong> Our <a href="/services/website-localisation/">website localization</a> includes full QA in every language before launch. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
 ## The short version

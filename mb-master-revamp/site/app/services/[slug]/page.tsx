@@ -320,8 +320,7 @@ export default async function ServicePage({
               Thirty minutes on which markets matter, what already ranks, and
               what has been tried before. We ask questions before we recommend
               anything, and what comes back is a written scope naming real
-              pages and deliverables, not a quote with plan tiers on it. No
-              lock-in either way.
+              pages and deliverables. Engagements run month to month.
             </p>
           </Reveal>
           <Reveal i={2}>

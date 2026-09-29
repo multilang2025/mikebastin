@@ -33,6 +33,18 @@ Checks:
   Valencia content are resolved via the content-map, not handled EN-only
   while FR/ES versions are silently dropped.
 
+- **Positive framing carries across locales** (owner, 29 Sep 2026). A
+  French or Spanish page must not reintroduce framing the English was
+  rewritten out of, and must not add its own. Flag *ne ... pas / jamais /
+  rien / aucun, sans, plutôt que, au lieu de, éviter* and *no, nunca,
+  nada, ningún, sin, nadie, en lugar de, evitar* where they carry the
+  sentence's point, including set phrases that sell by denial ("sans
+  engagement", "sin permanencia": write "au mois", "mes a mes"). Rule and
+  exceptions: `docs/STYLE-GUIDE-UK-EU.md` section 9.
+- **Register per locale:** French addresses the reader as *vous*, Spanish
+  as *tú* (owner, 29 Sep 2026), in page copy, UI strings and the footer.
+  Flag any *usted* address on a Spanish page and any *tu* on a French one.
+
 Report gaps by content-map group ID, not by vague summary — the person
 fixing this needs the exact group to open.
 

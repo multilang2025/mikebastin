@@ -14,7 +14,7 @@ excerpt: "Les services de SEO néerlandais sont axés sur l'amélioration de la 
 
 # SEO néerlandais : ranker aux Pays-Bas et en Flandre
 
-Néerlandais natif, recherche de mots-clés en NL réel, distinction Pays-Bas vs Flandre, et un ton qui parle aux lecteurs hollandais sans ornement inutile.
+Néerlandais natif, recherche de mots-clés en NL réel, distinction Pays-Bas vs Flandre, et un ton qui parle aux lecteurs hollandais de façon directe.
 
 23 M
 
@@ -32,37 +32,37 @@ NL ≠ BE
 
 Pays-Bas et flamand de Belgique : vocabulaire, intent et hreflang séparés
 
-## Le SEO en néerlandais rate quand on l’aborde comme du français traduit
+## Le SEO en néerlandais réussit quand il est pensé en néerlandais
 
-Trois pièges récurrents dans les audits que je conduis sur des sites NL existants :
+Trois points récurrents dans les audits que je conduis sur des sites NL existants :
 
-Le néerlandais est une langue à mots composés (compound words). Les Hollandais cherchent « tandartspraktijk Amsterdam », pas « tandarts praktijk Amsterdam ». Une traduction littérale d’un mot-clé français produit souvent un terme correct grammaticalement mais que personne ne tape.
+Le néerlandais est une langue à mots composés (compound words). Les Hollandais cherchent « tandartspraktijk Amsterdam », en un mot. Partez donc des termes que les Néerlandais tapent réellement : une traduction littérale d’un mot-clé français donne souvent un terme simplement correct grammaticalement.
 
-« Magnetron » aux Pays-Bas, « microgolfoven » en Flandre. Vocabulaire commercial, ton, références culturelles divergent. Ranker pour les deux marchés demande deux variantes hreflang (nl-NL et nl-BE) et souvent deux corpus de contenu, pas une traduction unique.
+« Magnetron » aux Pays-Bas, « microgolfoven » en Flandre. Vocabulaire commercial, ton, références culturelles divergent. Ranker pour les deux marchés demande deux variantes hreflang (nl-NL et nl-BE) et souvent deux corpus de contenu.
 
-Les Hollandais lisent en diagonale. Ils veulent les faits, le prix, la garantie, la prochaine étape. Une page d’accueil pleine de tournures décoratives sera scannée et fermée. Le copywriting NL qui convertit est court, factuel et direct (pas brutal : direct).
+Les Hollandais lisent en diagonale. Ils veulent les faits, le prix, la garantie, la prochaine étape. Allez droit au but, sur une page d’accueil que le lecteur scanne : le copywriting NL qui convertit est court, factuel et direct, et reste courtois.
 
-Le SEO néerlandais demande une exécution en langue native, pas un projet de traduction. C’est l’angle que je couvre : recherche en NL réel, rédaction par natif, distinction Pays-Bas vs Flandre, et coordination avec une [stratégie multilingue plus large](https://mikebastin.com/fr/nos-services/referencement-multilingue/) si vous adressez aussi d’autres marchés.
+Le SEO néerlandais demande une exécution en langue native. C’est l’angle que je couvre : recherche en NL réel, rédaction par natif, distinction Pays-Bas vs Flandre, et coordination avec une [stratégie multilingue plus large](https://mikebastin.com/fr/nos-services/referencement-multilingue/) si vous adressez aussi d’autres marchés.
 
 ## Ce que j’inclus dans une mission SEO néerlandais
 
-Recherche réelle en néerlandais (compound words, longue traîne, intent commercial), pas une traduction de mots-clés FR/EN. Différenciation NL Pays-Bas vs flamand Belgique.
+Recherche réelle en néerlandais (compound words, longue traîne, intent commercial). Différenciation NL Pays-Bas vs flamand Belgique.
 
 Adaptation des contenus aux Pays-Bas et à la Flandre : vocabulaire, références culturelles, formes de politesse, structure de prix. Hreflang nl-NL et nl-BE proprement posés.
 
-Copywriting NL court et clair, prix affichés, garanties explicites, parcours d’action immédiat. Le ton qui marche pour le lecteur hollandais et qui ne provoque pas le réflexe de fermeture.
+Copywriting NL court et clair, prix affichés, garanties explicites, parcours d’action immédiat. Le ton qui marche pour le lecteur hollandais et le garde sur la page.
 
 Architecture sous-répertoire ou ccTLD selon votre cas, hreflang nl-NL/nl-BE, slugs traduits, schema markup localisé, sitemap par langue.
 
-Stratégie de netlinking sur la presse, les annuaires sectoriels, les blogs et les associations néerlandophones (Pays-Bas et Flandre). Pas de PBN, pas de blogs italiens recyclés.
+Stratégie de netlinking sur la presse, les annuaires sectoriels, les blogs et les associations néerlandophones (Pays-Bas et Flandre). Uniquement des liens éditoriaux néerlandophones.
 
 Optimization pour Bing (part NL plus haute) et pour les LLM en néerlandais (ChatGPT et Claude répondent souvent en NL aux requêtes commerciales hollandaises).
 
 ## Mon process en 5 étapes, livrables nommés
 
-Pas de production de contenu avant validation conjointe de l’angle Pays-Bas vs Flandre.
+La production de contenu démarre après validation conjointe de l’angle Pays-Bas vs Flandre.
 
-**Livrable :** rapport d’audit SEO en néerlandais (technique, contenu, backlinks), distinction des cibles Pays-Bas et Flandre, identification des erreurs de traduction littérale, benchmark vs 3 concurrents néerlandophones.
+**Livrable :** rapport d’audit SEO en néerlandais (technique, contenu, backlinks), distinction des cibles Pays-Bas et Flandre, repérage des traductions littérales à reprendre, benchmark vs 3 concurrents néerlandophones.
 
 **Livrable :** tableur de mots-clés natifs avec volumes Ahrefs et SEMrush, intent (informationnel, commercial, transactionnel), variantes Pays-Bas vs Flandre, longue traîne et compound words réels, mapping vers vos pages existantes ou à créer.
 
@@ -70,7 +70,7 @@ Pas de production de contenu avant validation conjointe de l’angle Pays-Bas vs
 
 **Livrable :** rédaction native NL ou supervision des copywriters néerlandophones, optimization technique (hreflang, schema, sitemap), netlinking sur la presse et les sites néerlandophones, soumission aux outils Webmaster Bing et Google.
 
-**Livrable :** rapport mensuel séparant Pays-Bas et Flandre, positions Google.nl et Google.be NL, performance Bing, citations IA en néerlandais, recommandations actionnables. Pas de screenshots empilés.
+**Livrable :** rapport mensuel séparant Pays-Bas et Flandre, positions Google.nl et Google.be NL, performance Bing, citations IA en néerlandais, recommandations actionnables, dans un rapport synthétique.
 
 ## Cas clients néerlandophones
 
@@ -88,13 +88,13 @@ Deux missions où l’exécution en néerlandais natif a fait la différence.
 
 **Résultat :** indexation propre sur Google.nl, trafic organique régulier sur les requêtes commerciales chaudes (vertaalbureau + spécialité), citations dans les réponses ChatGPT et Perplexity en néerlandais sur les requêtes « beste vertaalbureau » et variantes.
 
-## Inclus / pas inclus
+## Inclus, et où trouver le reste
 
 Prestation
 
 Inclus
 
-Pas inclus
+Assuré par ailleurs
 
 Audit SEO en néerlandais (technique, contenu, backlinks)
 
@@ -130,21 +130,21 @@ Reporting mensuel séparant Pays-Bas et Flandre
 
 Traduction de gros volumes éditoriaux
 
-⨯ via le réseau BeTranslated, devis séparé
+→ via le réseau BeTranslated, devis séparé
 
 Campagnes Google Ads et Bing Ads en NL
 
-⨯ couvert par [SEM multilingue](https://mikebastin.com/fr/nos-services/sem-multilingue/)
+→ couvert par [SEM multilingue](https://mikebastin.com/fr/nos-services/sem-multilingue/)
 
 Pages locales et fiches GBP par ville
 
-⨯ couvert par [SEO local](https://mikebastin.com/fr/nos-services/referencement-local/)
+→ couvert par [SEO local](https://mikebastin.com/fr/nos-services/referencement-local/)
 
 ## Pourquoi un consultant NL natif fait la différence
 
 **Mike Bastin** : néerlandais courant après une année Erasmus à Utrecht et 16 ans aux Caraïbes à travailler avec une clientèle néerlandophone (République dominicaine, Curaçao, Aruba). Plus de deux décennies à piloter du SEO en quatre langues, dont le néerlandais.
 
-La plupart des consultants SEO européens « couvrent » le néerlandais sans le parler. Ils sous-traitent la recherche de mots-clés, ne lisent pas les SERP eux-mêmes, et ne savent pas distinguer une formulation hollandaise naturelle d’une formulation flamande dans un brief. Mon avantage : je lis les SERP en NL, j’écris les briefs en NL, et je relis le copy avant publication.
+Mon avantage : je lis les SERP en NL, j’écris les briefs en NL, je distingue dans un brief une formulation hollandaise naturelle d’une formulation flamande, et je relis le copy avant publication.
 
 L’équipe de copywriting NL passe par le réseau BeTranslated, mais la coordination, la stratégie et le QA passent toujours par moi.
 
@@ -156,13 +156,13 @@ Question stratégique posée à chaque mission. Si votre offre est identique pou
 
 Cas concret : une PME industrielle qui vend la même solution aux Pays-Bas et en Flandre peut souvent rester unifiée. Une marque de retail ou un service avec une politique de prix différenciée bénéficie presque toujours d’une séparation claire.
 
-Je vous donne ma recommandation argumentée dans la phase de cadrage, pas un parti pris dogmatique.
+Je vous donne ma recommandation argumentée dans la phase de cadrage, selon votre offre.
 
 ## Questions fréquentes sur le SEO néerlandais
 
 Le néerlandais des Pays-Bas et le flamand de Belgique sont-ils vraiment différents pour le SEO ?
 
-Oui, suffisamment pour que les confondre vous coûte du trafic. Le vocabulaire commercial diverge (« magnetron » vs « microgolfoven », « frietsaus » vs « mayonaise »), les volumes de recherche sont distincts par zone, l’intent peut différer (les Hollandais comparent davantage en ligne, les Flamands appellent davantage). Hreflang nl-NL et nl-BE sont les balises minimales à poser, et un audit révèle souvent qu’un seul corpus ne suffit pas pour bien ranker sur les deux marchés.
+Oui, et les distinguer vous rapporte du trafic. Le vocabulaire commercial diverge (« magnetron » vs « microgolfoven », « frietsaus » vs « mayonaise »), les volumes de recherche sont distincts par zone, l’intent peut différer (les Hollandais comparent davantage en ligne, les Flamands appellent davantage). Posez au minimum les balises hreflang nl-NL et nl-BE ; un audit montre souvent qu’un corpus par marché ranke mieux sur les deux.
 
 Bing est-il vraiment important aux Pays-Bas ?
 
@@ -170,26 +170,26 @@ Plus qu’en France, oui. Bing capture environ 5-8 % des recherches NL selon les
 
 Combien de temps avant de voir des résultats en SEO NL ?
 
-Premiers signaux mesurables : 8 à 12 semaines (audit corrigé + premier corpus éditorial NL natif + premiers backlinks néerlandophones). Trafic organique significatif : 6 à 12 mois selon la concurrence. Les marchés NL et BE flamand ont une concurrence SEO plus modérée que la France ou l’Allemagne, ce qui joue en votre faveur si l’exécution est propre. Mais l’enjeu est l’exécution native, pas le calendrier.
+Premiers signaux mesurables : 8 à 12 semaines (audit corrigé + premier corpus éditorial NL natif + premiers backlinks néerlandophones). Trafic organique significatif : 6 à 12 mois selon la concurrence. Les marchés NL et BE flamand ont une concurrence SEO plus modérée que la France ou l’Allemagne, ce qui joue en votre faveur si l’exécution est propre. L’enjeu principal reste l’exécution native.
 
 Les compound words changent-ils vraiment la donne ?
 
-Beaucoup. « Tandartspraktijk » (cabinet dentaire) en un mot a un volume de recherche très différent de « tandarts praktijk » en deux mots. La même logique s’applique à des centaines de requêtes commerciales (autospuiterij, vertaalbureau, hovenierbedrijf). Une recherche de mots-clés réalisée par traduction depuis le français rate cette dimension presque systématiquement.
+Beaucoup. « Tandartspraktijk » (cabinet dentaire) en un mot a un volume de recherche très différent de « tandarts praktijk » en deux mots. La même logique s’applique à des centaines de requêtes commerciales (autospuiterij, vertaalbureau, hovenierbedrijf). Une recherche de mots-clés menée directement en néerlandais capte cette dimension.
 
 Combien coûte une traduction NL professionnelle ?
 
-Variable selon le volume, la spécialité et le délai. Pour des traductions intégrées à une stratégie SEO, je passe par le réseau BeTranslated avec des traducteurs néerlandophones natifs spécialisés en SEO (différent d’un traducteur littéraire). Un devis honnête se fait sur volume et complexité réels, pas au tarif au mot affiché publiquement.
+Variable selon le volume, la spécialité et le délai. Pour des traductions intégrées à une stratégie SEO, je passe par le réseau BeTranslated avec des traducteurs néerlandophones natifs spécialisés en SEO (différent d’un traducteur littéraire). Un devis honnête se fait sur volume et complexité réels.
 
 Peut-on viser Pays-Bas et Flandre avec un seul site ?
 
-Oui, mais pas avec un seul corpus identique. Un seul site avec une architecture multilingue propre (sous-répertoires /nl/ et /be-nl/, hreflang correct) peut couvrir les deux marchés. Le contenu, lui, doit être adapté par marché : au minimum les pages commerciales prioritaires, idéalement aussi le blog si le sujet le justifie. Mon rôle au cadrage : vous dire quel niveau de différenciation est justifié pour votre secteur.
+Oui, avec un corpus adapté à chaque marché. Un seul site avec une architecture multilingue propre (sous-répertoires /nl/ et /be-nl/, hreflang correct) peut couvrir les deux marchés. Le contenu, lui, doit être adapté par marché : au minimum les pages commerciales prioritaires, idéalement aussi le blog si le sujet le justifie. Mon rôle au cadrage : vous dire quel niveau de différenciation est justifié pour votre secteur.
 
 Combien coûte une mission SEO néerlandais ?
 
-Sur devis. Le tarif dépend du périmètre (Pays-Bas seuls, Flandre seule, ou les deux), du volume éditorial à produire, de l’état initial du site, et du niveau de concurrence sectorielle. Premier échange gratuit : 30 minutes pour comprendre votre contexte et donner une fourchette honnête. Pas de proposition générique envoyée par mail sans avoir échangé.
+Sur devis. Le tarif dépend du périmètre (Pays-Bas seuls, Flandre seule, ou les deux), du volume éditorial à produire, de l’état initial du site, et du niveau de concurrence sectorielle. Premier échange gratuit : 30 minutes pour comprendre votre contexte et donner une fourchette honnête. La proposition suit cet échange et part de votre contexte.
 
 ## Vous voulez ranker aux Pays-Bas, en Flandre, ou sur les deux ?
 
-Je commence par auditer votre présence néerlandophone réelle et identifier les erreurs de traduction littérale. Premier échange gratuit, sans engagement.
+Je commence par auditer votre présence néerlandophone réelle et repérer les traductions littérales à reprendre. Premier échange gratuit, et vous décidez ensuite.
 
 Pour aller plus loin : [SEO multilingue](https://mikebastin.com/fr/nos-services/referencement-multilingue/) · [SEO international](https://mikebastin.com/fr/nos-services/referencement-international/) · [SEM multilingue](https://mikebastin.com/fr/nos-services/sem-multilingue/) · [guide SEO/GEO 2026](https://mikebastin.com/fr/seo-au-geo/)

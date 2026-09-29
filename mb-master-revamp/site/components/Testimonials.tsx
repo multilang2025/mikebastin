@@ -65,7 +65,7 @@ const UI: Partial<Record<Testimonial["lang"], Ui>> = {
   es: {
     filters: { all: "Todas", delivery: "Proyectos", training: "Formación" },
     count: (n, t) => `${n} de ${t} reseñas, escritas en español`,
-    source: ["Todas estas reseñas son públicas en ", "nuestro perfil de Google", ", donde puede comprobarlas en su origen."],
+    source: ["Todas estas reseñas son públicas en ", "nuestro perfil de Google", ", donde puedes comprobarlas en su origen."],
     translate: false,
     when: (en) => AGE_ES[en] ?? "",
   },

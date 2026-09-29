@@ -13,15 +13,15 @@ sourceUrl: "https://mikebastin.com/alternatives-to-google-analytics/"
 excerpt: "Weighing Google Analytics alternatives? Compare five by privacy, price and ease of use, and pick the one that fits how your business measures its markets."
 ---
 
-Your analytics should tell you which market deserves the next budget. Instead your European numbers look thin, visitors who decline the consent banner vanish from the reports, and only one person on the team can find anything in GA4.
+Your analytics should tell you which market deserves the next budget: full European numbers, visitors who decline the consent banner accounted for, and reports everyone on the team can find their way around.
 
 Below: five Google Analytics alternatives, what each costs to start, and which business each suits. Prices are each vendor’s published entry price when we checked on 26 September 2026, in the currency the vendor quotes; they change often, so confirm before you commit.
 
 ## Why consider an alternative?
 
-Switching is disruptive, so it should fix a problem you actually have:
+Switching takes effort, so match it to a need you actually have:
 
-- **Privacy:** Google Analytics collects extensive user data, which may not align with regulations like GDPR or your own standards.
+- **Privacy:** Google Analytics collects extensive user data, so check how it sits with regulations like GDPR and with your own standards.
 - **Complexity:** GA4, the only version left since Universal Analytics was switched off, is more than most teams need to see where visitors came from.
 - **Performance:** Google’s tracking script can slow your pages.
 - **Data ownership:** some businesses want full control over their analytics data.
@@ -63,7 +63,7 @@ Five tools, each strongest at a different job:
 
 **Best for:** a simple, cookie-free dashboard.
 
-[Plausible](https://plausible.io) suits a team that wants one clear screen rather than a reporting suite. It is lightweight, open source and privacy-first.
+[Plausible](https://plausible.io) suits a team that wants one clear screen. It is lightweight, open source and privacy-first.
 
 **Key features:**
 
@@ -127,7 +127,7 @@ Five tools, each strongest at a different job:
 - Advanced segmentation and funnel analysis
 - Real-time data and customisable reports
 
-**Pricing:** a free plan, then a usage-based Growth plan (no longer a flat monthly fee), with custom Enterprise pricing for larger volumes.
+**Pricing:** a free plan, then a usage-based Growth plan (which replaced the flat monthly fee), with custom Enterprise pricing for larger volumes.
 
 > Free plan: unlimited seats and up to 1M events a month. Enterprise: custom pricing.
 >
@@ -188,7 +188,7 @@ Then check the shortlist against:
 4. **Cost:** the price still works at high traffic volumes.
 5. **Integration:** it connects to the tools you already run.
 6. **Specific needs:** some alternatives do more for ecommerce or product analytics.
-7. **Per-market reporting:** every report splits by language and country, or one market hides inside another.
+7. **Per-market reporting:** every report splits by language and country, so each market shows on its own.
 
 <aside class="post-cta">
 <p><strong>Selling in several languages and reading one blended report?</strong> Our <a href="/services/multilingual-seo/">multilingual SEO programmes</a> give each market its own strategy, its own native writing and a number of its own. <a href="/contact/">Talk to us about your markets</a>.</p>

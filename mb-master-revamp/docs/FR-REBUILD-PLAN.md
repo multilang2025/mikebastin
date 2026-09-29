@@ -205,8 +205,8 @@ hubs in fr and es"):
   homepage.
 - The ES hub is the first rebuilt Spanish page. Spain has no contact page
   yet, so its calls to action go to `/contact/` and say the form can be
-  filled in in Spanish. It uses "usted"; the ES footer string table uses
-  "tú", to settle when the Spanish rebuild starts.
+  filled in in Spanish. It uses "tú", as all Spanish copy now does (owner,
+  29 Sep 2026).
 
 Next slice: the French copy lint. Legacy French copy to fix in phase 4, noted while
 building: several service excerpts say "25 années d'expérience" (the

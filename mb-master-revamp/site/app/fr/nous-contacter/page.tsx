@@ -135,7 +135,7 @@ export default function FrenchContactPage() {
                   name="consent"
                   value="yes"
                   required
-                  label={<>Vous acceptez que nous conservions vos coordonnées pour répondre à cette demande, et à rien d&apos;autre.</>}
+                  label={<>Vous acceptez que nous conservions vos coordonnées uniquement pour répondre à cette demande.</>}
                 />
               </div>
 

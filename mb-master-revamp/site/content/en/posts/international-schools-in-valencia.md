@@ -81,7 +81,7 @@ The right curriculum depends mostly on where your child will study after school.
 <text x="250" y="126" text-anchor="middle" class="fg-label">IB Diploma</text>
 <text x="350" y="126" text-anchor="middle" class="fg-label">Bachillerato</text>
 </svg>
-<figcaption>Start from the destination, not the school. If the family has no fixed plan, the IB keeps the most doors open.</figcaption>
+<figcaption>Start from the destination, then choose the school. For a family still deciding, the IB keeps the most doors open.</figcaption>
 </figure>
 
 | Curriculum | Leads to | Best for | Offered at |
@@ -163,7 +163,7 @@ Admission to a private school in Valencia follows a defined process rather than 
 <text x="250" y="114" text-anchor="middle" class="fg-label">test, interview</text>
 <text x="350" y="114" text-anchor="middle" class="fg-label">fee holds place</text>
 </svg>
-<figcaption>The place is only secure once the registration fee is paid, so a family comparing two schools can end up paying one of those fees for nothing.</figcaption>
+<figcaption>Paying the registration fee secures the place, so a family comparing two schools should compare deadlines too: holding both places means paying both fees.</figcaption>
 </figure>
 
 1.  **Application**: usually a form on the school's website.

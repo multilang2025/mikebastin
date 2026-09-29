@@ -32,17 +32,17 @@ SEO + GEO
 
 visibility on Google.es and LatAm domains, LLMs responding in Spanish per variant
 
-## Three ways to fail at Spanish SEO
+## Three things Spanish SEO has to get right
 
 Recurring patterns on Spanish sites I audit:
 
-Castilian Spanish (ES-ES) and the various LatAm Spanish variants diverge significantly in vocabulary, address forms (tú/vosotros vs tú/ustedes), commercial expressions, currency (EUR vs MXN, COP, ARS, DOP), payment methods and regulatory frameworks. A unified Spanish site reads either Castilian to LatAm users (formal, distant) or LatAm to Spanish users (informal in unexpected ways). Both lose trust. Hreflang es-ES vs es-MX vs es-AR vs es-CO and so on disambiguates per target market.
+Castilian Spanish (ES-ES) and the various LatAm Spanish variants diverge significantly in vocabulary, address forms (tú/vosotros vs tú/ustedes), commercial expressions, currency (EUR vs MXN, COP, ARS, DOP), payment methods and regulatory frameworks. Each audience trusts the variant written for it: Castilian reads formal and distant to LatAm users, and LatAm Spanish reads informal in unexpected ways to users in Spain. Hreflang es-ES vs es-MX vs es-AR vs es-CO and so on disambiguates per target market.
 
-An EN page passed through DeepL or ChatGPT and presented as a Spanish version sounds like translated English, not native Spanish. Idioms come out wrong, register feels off, sectoral terminology is sometimes invented. Spanish users notice immediately. Real native execution is the only foundation that converts.
+Spanish users recognise at once whether a page was written in Spanish or passed through DeepL or ChatGPT from English. Native writing gets the idioms, the register and the sectoral terminology right, and native execution is the foundation that converts.
 
 Spain: CIF/NIF visible, EUR currency, GDPR-EU + LSSI-CE compliance, AEPD-approved cookie consent. Mexico: RFC visible, MXN currency, INAI privacy compliance. Colombia: NIT and SuperIntendencia compliance. Argentina: CUIT and PDPDP compliance. Dominican Republic: RNC and Indotel compliance. Each market has its own legal markers and trust expectations.
 
-Spanish SEO at my level means direct fluent execution in ES-ES (Valencia base) plus native LatAm variant support from the BeTranslated team in Santo Domingo. No hand-off through machine translation, no pretending one Spanish site fits five distinct markets.
+Spanish SEO at my level means direct fluent execution in ES-ES (Valencia base) plus native LatAm variant support from the BeTranslated team in Santo Domingo. Every page is written by a native writer, and each of five distinct markets gets content built for it.
 
 ## What I include in a Spanish SEO engagement
 
@@ -94,13 +94,13 @@ Three engagements where Spanish was the central language: ES-ES, LatAm and bilin
 
 **Outcome:** recurring inquiries from local Dominican buyers in Spanish plus international buyers in English, AI citations across both languages for Sosúa and Cabarete property queries.
 
-## What is included, what is not
+## What is included, what is handled elsewhere
 
 Service
 
 Included
 
-Not included
+Handled elsewhere
 
 Spanish SEO audit (ES-ES + LatAm variants in scope)
 
@@ -152,7 +152,7 @@ Local presence per Spanish or LatAm city (GBP, citations)
 
 Direct fluent execution on ES-ES (Castilian context, Valencia base). For LatAm variants, native copywriters in Santo Domingo handle the regional production with full understanding of vocabulary differences across Mexico, Colombia, Argentina, the Caribbean.
 
-The differentiator: I do not delegate Spanish strategy to a third party while pretending to «cover» Spanish. I run ES-ES directly, coordinate native LatAm production, and report directly in Spanish if needed.
+The differentiator: I keep Spanish strategy in my own hands. I run ES-ES directly, coordinate native LatAm production, and report directly in Spanish if needed.
 
 [More about the team →](https://mikebastin.com/es/conocenos-agencia-experta-en-seo/)
 
@@ -166,21 +166,21 @@ Strategic question at every Spanish SEO engagement.
 
 **Spain + LatAm combined (broader Hispanic reach):** justified for global brands with active customers in both regions, especially in B2B SaaS, media, education and remote services. Distinct content sets per variant.
 
-Reasoned recommendation given at scoping, not a default opinion.
+A reasoned recommendation, given at scoping for your case.
 
 ## Frequently asked questions on Spanish SEO
 
 Why insist on separating ES-ES and LatAm?
 
-Because Castilian Spanish and LatAm Spanish variants diverge significantly enough to make unified content read awkwardly to either side. Spanish readers in Madrid find unified LatAm content informal in unexpected ways. Mexican or Argentine readers find unified ES-ES content distant, formal, and sometimes literally incomprehensible on specific vocabulary. Currency, regulatory frameworks and trust signals also differ per country. Separation is the only honest approach for any Spanish SEO that intends to convert.
+Because Castilian Spanish and LatAm Spanish variants diverge enough that each side reads best in its own variant. Spanish readers in Madrid read unified LatAm content as informal in unexpected ways. Mexican or Argentine readers read unified ES-ES content as distant and formal, with some vocabulary understood only in Spain. Currency, regulatory frameworks and trust signals also differ per country. Separate content per variant is the approach that converts.
 
 Do you write Spanish directly or via a translator?
 
-Direct on my side for ES-ES. Native LatAm copywriters from Santo Domingo handle es-MX, es-CO, es-AR, es-DO. I write SEO briefs, I review competitor pages, I take meetings in Spanish without intermediary. For commercial copy on LatAm targets, native production guarantees regional vocabulary and tone.
+Direct on my side for ES-ES. Native LatAm copywriters from Santo Domingo handle es-MX, es-CO, es-AR, es-DO. I write SEO briefs, I review competitor pages, I take meetings in Spanish directly. For commercial copy on LatAm targets, native production guarantees regional vocabulary and tone.
 
 Which LatAm market should I target first?
 
-Mexico for sheer volume (~129M speakers). Colombia, Argentina or Chile for more competitive but accessible mid-sized markets. The Dominican Republic, Costa Rica, Guatemala for niche local services. The strategic question is offer fit and customer base, not just population. Reasoned recommendation in scoping.
+Mexico for sheer volume (~129M speakers). Colombia, Argentina or Chile for more competitive but accessible mid-sized markets. The Dominican Republic, Costa Rica, Guatemala for niche local services. The strategic question is offer fit and customer base as well as population. Reasoned recommendation in scoping.
 
 How do you handle LSSI-CE and AEPD for Spanish ecommerce?
 
@@ -188,7 +188,7 @@ Spain’s LSSI-CE (Ley de Servicios de la Sociedad de la Información) requires 
 
 Is es-ES content readable by LatAm users (and vice-versa)?
 
-Readable yes, but the register and vocabulary differences are noticeable enough to erode conversion on commercial pages. For low-stakes editorial content (blog posts, news), unified Spanish often works fine. For commercial intent pages (product pages, service descriptions, lead forms, pricing), separation pays off in conversion. Mixed approach is common: editorial unified, commercial separated.
+Readable, yes, and on commercial pages the register and vocabulary differences are noticeable enough to affect conversion. For low-stakes editorial content (blog posts, news), unified Spanish often works fine. For commercial intent pages (product pages, service descriptions, lead forms, pricing), separation pays off in conversion. Mixed approach is common: editorial unified, commercial separated.
 
 How long before results in Spanish SEO?
 
@@ -196,10 +196,10 @@ First measurable signals: 6 to 10 weeks. Significant traffic: 4 to 12 months dep
 
 How much does a Spanish SEO engagement cost?
 
-Quoted. The price depends on scope (ES-ES, specific LatAm variant, or combined), editorial volume, initial site state, sectoral competition. Free first call: 30 minutes to understand your context and give an honest range. No generic proposal sent without a conversation.
+Quoted. The price depends on scope (ES-ES, specific LatAm variant, or combined), editorial volume, initial site state, sectoral competition. Free first call: 30 minutes to understand your context and give an honest range. Every proposal follows a conversation.
 
 ## Ready to rank in Spanish?
 
-I start by mapping your Spanish-speaking customer base to the right variants (ES-ES vs specific LatAm targets). Direct fluent audit on my side. Free first call, no commitment.
+I start by mapping your Spanish-speaking customer base to the right variants (ES-ES vs specific LatAm targets). Direct fluent audit on my side. Free first call, and you decide what comes next.
 
 Related services: [multilingual SEO](https://mikebastin.com/es/services/posicionamiento-multilingue/) · [international SEO](https://mikebastin.com/es/services/agencia-de-seo-global/) · [multilingual SEM](https://mikebastin.com/es/services/publicidad-multilingue/)

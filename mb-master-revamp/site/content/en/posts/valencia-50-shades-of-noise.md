@@ -124,7 +124,7 @@ Mechanical shutters, wild percussion, crying children, jarring scooters: everyth
 <text x="234" y="124" text-anchor="middle" class="fg-label">12:00</text>
 <text x="378" y="124" text-anchor="end" class="fg-label">24:00</text>
 </svg>
-<figcaption>The weekend and public holiday start is later, which is exactly when the neighbour with the drill forgets it.</figcaption>
+<figcaption>The weekend and public holiday start is later, a rule worth mentioning politely to the neighbour with the drill.</figcaption>
 </figure>
 
 | Rule | What the ordinance says |
