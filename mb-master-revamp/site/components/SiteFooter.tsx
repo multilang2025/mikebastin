@@ -73,7 +73,7 @@ const T: Record<
     ctaSecondary: "Voir ce que les chiffres ont donné",
     based: "Référencement multilingue, depuis Valencia",
     top: "Haut de page",
-    motto: "Automatiser les entreprises. Traduire les idées. Rapprocher les gens.",
+    motto: "Automatiser l’entreprise. Traduire les idées. Relier les personnes.",
   },
   es: {
     about: "Quiénes somos",

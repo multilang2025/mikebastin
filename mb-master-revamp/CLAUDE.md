@@ -147,7 +147,7 @@ needs.
   Connecting people." Use it where a motto belongs, under the wordmark or
   as `slogan` in schema, not in titles or meta descriptions, which are
   keyword real estate. FR and ES renderings live in `SiteFooter`'s string
-  table and are a first pass awaiting the owner's eye.
+  table and are a first pass awaiting the owner's eye (French reworded 30 Sep 2026 to "Automatiser l’entreprise. Traduire les idées. Relier les personnes.").
 - **Sentence case everywhere**, headings, titles and blog post titles
   alike (owner decision, 19 Sep). Capitalise the first word, proper nouns
   and acronyms only: SEO, AI, GEO, AEO, PPC, LLMs, Google Analytics,
@@ -657,8 +657,10 @@ untranslated English, sentence case). The main Spanish page is
 The gaps below are the FR and ES starting position whenever the gate
 opens. Flagged rather than forgotten, so they are known and deliberate:
 
-- **No FR or ES topic pages.** `getTopics()` reads the EN clusters, which
-  have no FR/ES equivalent, so `/blog/topics/` is English only.
+- **FR and ES topic pages are built** (30 Sep 2026): `lib/locale-topics.ts`
+  groups each journal's posts (FR: `/fr/blog/sujets/`, two topics; ES:
+  `/es/blog/temas/`, four), with no hreflang since each locale groups its
+  own posts. `/blog/topics/` stays the English set.
 - **The FR and ES motto renderings are unreviewed.** They ship in
   `SiteFooter`'s string table and are a first pass, not signed off.
 - **FR and ES headings are reported, not failed, by the heading lint.**

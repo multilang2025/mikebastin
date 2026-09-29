@@ -6,6 +6,7 @@ import SiteFooter from "@/components/SiteFooter";
 import JsonLd from "@/components/JsonLd";
 import LocaleHtmlLang from "@/components/LocaleHtmlLang";
 import { getPostsForLocale, postPath } from "@/lib/posts";
+import { localeTopics, topicPath } from "@/lib/locale-topics";
 import { esLanguages } from "@/lib/fr-pages";
 import { SITE_URL, breadcrumbSchema } from "@/lib/schema";
 
@@ -54,6 +55,17 @@ export default function SpanishBlogIndex() {
             <h2 className="mb-6 max-w-[46ch] text-[clamp(1.2rem,2.1vw,1.7rem)] font-medium leading-[1.3]" style={{ color: "var(--ink)" }}>
               Lo que hace vender a una web exportadora en cada idioma, y cómo lograr que las respuestas de la IA te citen.
             </h2>
+          </Reveal>
+          <Reveal i={3}>
+            <ul className="flex flex-wrap gap-x-6 gap-y-2 text-[.95rem]" aria-label="Temas">
+              {localeTopics("es").map((t) => (
+                <li key={t.slug}>
+                  <Link href={topicPath("es", t.slug)} className="ulink">
+                    {t.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
           </Reveal>
         </div>
       </section>
