@@ -1,5 +1,5 @@
 ---
-words: 899
+words: 1304
 title: "Consultoría de inteligencia artificial para tus mercados"
 name: "Consultoría de IA"
 slug: "consultoria-de-inteligencia-artificial"
@@ -10,7 +10,7 @@ wpId: 24848569
 date: "2025-01-06T12:39:08"
 modified: "2026-09-30T12:00:00"
 sourceUrl: "https://mikebastin.com/es/services/consultoria-de-inteligencia-artificial/"
-excerpt: "Descubre qué parte de tus contenidos en alemán, francés o neerlandés puede llevar la IA y cuál conviene que revise alguien que lea el idioma."
+excerpt: "Qué parte de tus contenidos puede llevar la IA y cómo lograr que ChatGPT, Gemini o Perplexity te citen en cada idioma de tus mercados."
 ---
 
 ## Lo que la IA ya puede hacer por tus mercados extranjeros
@@ -27,14 +27,32 @@ Nuestra consultoría de inteligencia artificial te dice con precisión qué part
 
 ## Qué hacemos en una consultoría de IA
 
-Trabajamos sobre cuatro decisiones concretas, todas pensadas para empresas que ya venden fuera de España:
+Trabajamos sobre cinco decisiones concretas, todas pensadas para empresas que ya venden fuera de España:
 
 - qué contenidos pasan por traducción automática y con qué nivel de revisión;
 - si un asistente multilingüe puede atender a los clientes de cada mercado, y hasta dónde;
 - qué dicen tus clientes en cada idioma, leído a una escala que una sola persona no alcanza;
+- cómo aparecen tus contenidos en las respuestas de ChatGPT, Claude, Gemini o Perplexity, y qué cambia para que te citen;
 - cómo medir si todo eso funciona.
 
 Una estrategia de IA que merezca ese nombre responde a las dos mitades de la pregunta: dónde se usa la herramienta y dónde toma el relevo una persona. Lo evaluamos contra el coste real de una respuesta equivocada en cada caso. Un texto de un blog admite más margen que una cláusula de condiciones de venta.
+
+## Que las respuestas de la IA te citen en cada idioma
+
+Tus compradores ya preguntan a ChatGPT, Claude, Gemini o Perplexity, y cada respuesta nombra a muy pocas fuentes. Ser una de ellas te sitúa entre las opciones del comprador en el momento exacto en que pregunta. Trabajamos para que ocurra en cada idioma en el que vendes, con una misma voz y una misma afirmación en todos, porque los motores de respuesta citan las fuentes que coinciden consigo mismas.
+
+Nuestra consultoría se centra en cómo los sistemas de IA leen, interpretan y reutilizan el contenido de tu empresa:
+
+- Analizamos cómo los modelos de lenguaje interpretan tu web, tu marca y tus contenidos, y qué páginas pueden citar o resumir.
+- Ordenamos el contenido para que los conceptos clave queden claros para las personas y para los modelos: entidades, relaciones, contexto y coherencia temática.
+- Aplicamos datos estructurados (Schema) que dicen quién eres, qué ofreces y en qué te has especializado.
+- Reforzamos las señales de experiencia, especialización, autoridad y fiabilidad (E-E-A-T) que los modelos reutilizan: autores con trayectoria, afirmaciones que se pueden comprobar y fechas que muestran que la página se mantiene.
+- Definimos qué contenidos te convierten en fuente de referencia dentro de una respuesta generada por IA.
+- Revisamos cómo un modelo puede reinterpretar información técnica, sensible o legal, y damos al texto la precisión que la deja clara.
+
+El proceso parte de un análisis técnico y semántico real. Evaluamos tu contenido, tu estructura, tus datos estructurados y las señales E-E-A-T que ya tienes; simulamos cómo interpretan los modelos tu información; localizamos las pérdidas de contexto y las entidades que faltan; y definimos acciones concretas para mejorar la comprensión, la citabilidad y la autoridad. Acompañamos a tu equipo técnico, de SEO o de marketing mientras se aplican los cambios, y medimos el efecto en la visibilidad orgánica y en la coherencia semántica a medio plazo.
+
+Este trabajo complementa al SEO, que sigue siendo la base: el SEO técnico y semántico hace que Google entienda tu web, y esa misma claridad ayuda a un modelo a citarla. La autoridad se construye de forma progresiva y se evalúa con señales indirectas, como la coherencia semántica y la evolución de la visibilidad orgánica. Lo desarrollamos en dos artículos: [SEO y GEO](/es/optimizar-para-seo-y-geo/) y [medir el rendimiento GEO](/es/medir-rendimiento-geo/).
 
 ## Traducción automática revisada por alguien que lee el idioma
 

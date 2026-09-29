@@ -130,6 +130,12 @@ title runs over 60 characters.
 | 4. Copy | Done as a draft: 17 service pages and the 19 live posts; the owner reviews |
 | 5. QA | Links, images, hreflang, redirects and all lints pass |
 
+The Spanish AI consulting page carries the legacy "visibility in ChatGPT,
+Claude and Gemini answers" angle again (owner, 30 Sep 2026: "Recover
+legacy angle"): a section on how AI systems read and cite a company's
+content, written from the legacy page and the English GEO service. The
+French legacy page never had it.
+
 `g069` (EN `spanish-seo`, FR `seo-espagnol`, ES `optimizacion-seo`) is
 `hreflang_standalone: ["es"]`: the Spanish main page sells to a Spanish
 exporter, the other two to a foreign company entering Spain.
@@ -146,8 +152,5 @@ class bookings).
 
 - Confirm assumptions 1, 3, 4 and 6 (or reverse them).
 - Review the Spanish copy in one go: every page is a draft.
-- The Spanish AI consulting page dropped the legacy "visibility in ChatGPT
-  answers" angle, which the English entry does not cover; say if it should
-  come back as its own page or a section of the main page.
 - The `SiteFooter` motto and the Spanish string table are still a first
   pass.
