@@ -9,14 +9,14 @@ wpId: 24856398
 date: "2026-04-03T22:13:40"
 modified: "2026-07-02T17:34:32"
 sourceUrl: "https://mikebastin.com/fr/visa-nomade-numerique-espagne/"
-excerpt: "Visa nomade numérique espagnol 2026 : seuils de revenus, documents, régime Beckham, installation à Valencia et points clés d’un dossier accepté."
+excerpt: "Visa nomade numérique espagnol 2026 : seuils de revenus, documents, régime Beckham, installation à Valence et points clés d’un dossier accepté."
 ---
 
 * * *
 
-# ****C****onditions, revenus minimaux et régime fiscal Beckham pour les télétravailleurs francophones****
+# Conditions, revenus minimaux et régime fiscal Beckham pour les télétravailleurs francophones
 
-Vous rêvez de travailler depuis Valencia tout en gardant vos clients à Paris, Bruxelles ou Montréal ? Le **visa nomade numérique espagnol** (ou _digital nomad visa_) est peut-être la solution idéale pour vous, à condition de remplir les critères. Ce guide vous explique tout : **conditions, revenus minimaux, démarches, fiscalité (régime Beckham) et points de vigilance**.
+Vous rêvez de travailler depuis Valence tout en gardant vos clients à Paris, Bruxelles ou Montréal ? Le **visa nomade numérique espagnol** (ou _digital nomad visa_) est peut-être la solution idéale pour vous, à condition de remplir les critères. Ce guide vous explique tout : **conditions, revenus minimaux, démarches, fiscalité (régime Beckham) et points de vigilance**.
 
 > **À noter** : Ce visa s’adresse principalement aux **ressortissants hors Union européenne**. Si vous êtes citoyen de l’UE, vos démarches relèvent du régime de libre circulation et non de ce visa spécifique.
 
@@ -88,7 +88,7 @@ Préparez les pièces suivantes (vérifiez les exigences de votre consulat) :
 
 -   **Passeport valide**.
 -   **Casier judiciaire** (des 2 dernières années) + déclaration sur les 5 dernières années.
--   **Assurance maladie** : Couverture publique (Sécurité Sociale) ou privée équivalente, **excluant les assurances voyage**.
+-   **Assurance maladie** : Couverture publique (Sécurité sociale) ou privée équivalente, **excluant les assurances voyage**.
 -   **Preuves de revenus** : Contrat de travail, fiches de paie, déclarations fiscales, etc.
 -   **Preuves de télétravail** : Contrat commercial, attestation de l’employeur, etc.
 
@@ -142,10 +142,10 @@ Dès qu’un document étranger doit être présenté aux autorités espagnoles,
 
 ## **Besoin d’aide pour votre dossier ?**
 
-Entre casier judiciaire, assurances et traductions, un dossier de visa peut vite devenir complexe. Pour un accompagnement sur mesure :
+Entre casier judiciaire, assurances et traductions, un dossier de visa peut vite devenir complexe. Pour un accompagnement adapté à votre situation :
 
--   [Demander un devis pour une traduction assermentée](https://chat.mistral.ai/chat/49a22356-5496-4e6c-a9bd-ccbb0085158c#)
--   [Nous contacter pour un dossier « prêt à déposer »](https://chat.mistral.ai/chat/49a22356-5496-4e6c-a9bd-ccbb0085158c#)
+-   [Demander un devis pour une traduction assermentée](/fr/nous-contacter/)
+-   [Nous contacter pour un dossier « prêt à déposer »](/fr/nous-contacter/)
 
 * * *
 

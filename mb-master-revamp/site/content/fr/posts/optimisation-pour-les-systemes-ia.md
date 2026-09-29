@@ -46,14 +46,14 @@ Ces plateformes révèlent les entités, attributs et relations que le modèle a
 
 Comparez ensuite ces données à votre positionnement réel.
 
-L’écart entre les deux constitue votre point de départ : si le modèle vous classe comme « fournisseur de SaaS B2B » alors que vous êtes une agence de conseil, corrigez cette représentation _avant_ toute autre optimisation.
+L’écart entre les deux constitue votre point de départ : si le modèle vous classe comme « fournisseur de SaaS B2B » alors que vous êtes une agence de conseil, corrigez cette représentation _avant_ toute autre optimisation.
 
 ### 2\. Analysez les parcours conversationnels
 
 Pour refléter la façon dont les utilisateurs interrogent les LLM, enrichissez les **mots-clés traditionnels** avec :
 
 -   Des **personas segmentés**
--   Des **intentions conversationnelles** générées par les LLM eux-mêmes (ex. « Quelle agence SEO recommanderais-tu pour une PME industrielle ? »)
+-   Des **intentions conversationnelles** générées par les LLM eux-mêmes (ex. « Quelle agence SEO recommanderais-tu pour une PME industrielle ? »)
 
 Des outils comme Perplexity permettent d’identifier les prompts qui déclenchent des recherches web en temps réel.
 
@@ -68,13 +68,13 @@ Elle repose sur votre présence dans les sources citées par les systèmes d’I
 Stratégie opérationnelle :
 
 -   Apparaissez **3 à 5 fois dans les 10 à 20 premiers résultats** pour vos requêtes stratégiques
--   Ciblez les **articles de compilation** (« roundups »), **publications sectorielles** et plateformes comme **LinkedIn**
+-   Ciblez les **articles de compilation** (« roundups »), **publications sectorielles** et plateformes comme **LinkedIn**
 
 ### 4\. Testez et réitérez rapidement
 
-Mark, de AlsoAsked, a partagé un exemple frappant tiré de ses propres tests.
+Mark, d’AlsoAsked, a partagé un exemple frappant tiré de ses propres tests.
 
-Il a repris le contenu d’un site supprimé par la mise à jour « Helpful Content » de Google et l’a publié sous forme d’articles sur LinkedIn Pulse.
+Il a repris le contenu d’un site supprimé par la mise à jour « Helpful Content » de Google et l’a publié sous forme d’articles sur LinkedIn Pulse.
 
 En 48 heures, ce même contenu a généré :
 
@@ -88,7 +88,7 @@ La leçon à en tirer ? La source prime sur le message pour les LLM.
 
 ![Exemple d’optimisation pour IA](https://mikebastin.com/wp-content/uploads/2026/01/exemple-optimisation-ia-1024x565.jpg)
 
-L’optimisation pour les systèmes d’IA exige des boucles de feedback rapides (48-72h).
+L’optimisation pour les systèmes d’IA exige des boucles de feedback rapides (48 à 72 heures).
 
 Publiez du contenu sur des plateformes tierces dotées d’une forte autorité de domaine, puis mesurez son impact via :
 
@@ -104,12 +104,12 @@ En 2026, la visibilité numérique se joue sur la cohérence de votre **empreint
 
 Commencez donc par auditer ce que les LLM disent _réellement_ de vous.
 
-Quand un utilisateur demande à ChatGPT : _« Quelle marque recommandes-tu dans ? »_, la réponse dépendra moins de vos meta descriptions que de votre représentation dans le knowledge graph, et de la réputation des sources qui parlent de vous.
+Quand un utilisateur demande à ChatGPT : _« Quelle marque recommandes-tu dans ? »_, la réponse dépendra moins de vos meta descriptions que de votre représentation dans le knowledge graph, et de la réputation des sources qui parlent de vous.
 
 ## Vous souhaitez optimiser votre site web pour les systèmes d’IA ?
 
-Je vous aide à identifier les changements nécessaires à votre contenu et à la structure de votre site web afin de gagner en visibilité dans les environnements génératifs et les LLM.
+Nous vous aidons à identifier les changements nécessaires à votre contenu et à la structure de votre site web afin de gagner en visibilité dans les environnements génératifs et les LLM.
 
 [Demander une analyse](https://mikebastin.com/fr/nous-contacter/)
 
-Ou appelez-moi au [+34 671 17 57 74](tel:+34671175774)
+Ou appelez-nous au [+34 671 17 57 74](tel:+34671175774)
