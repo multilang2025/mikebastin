@@ -1,6 +1,7 @@
 ---
 words: 760
 title: "SEO en Italie pour les entreprises françaises qui y vendent"
+name: "SEO en Italie"
 slug: "seo-italien"
 locale: "fr"
 type: "services"

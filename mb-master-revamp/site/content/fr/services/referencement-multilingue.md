@@ -1,6 +1,7 @@
 ---
 words: 1272
 title: "Référencement multilingue pour mener plusieurs marchés étrangers de front"
+name: "Référencement multilingue"
 metaTitle: "Référencement multilingue et SEO multilingue par marché"
 slug: "referencement-multilingue"
 locale: "fr"

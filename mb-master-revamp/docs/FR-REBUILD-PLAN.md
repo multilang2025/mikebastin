@@ -256,6 +256,14 @@ internationale"), `referencement-multilingue` ("seo multilingue" 200),
 ("traduction site web" 450) and `localisation-juridique-reglementaire`.
 The eight live French posts got a voice and cleanup pass ("nous").
 
+Same day, metadata and cards: the FR and ES `[slug]` routes now build
+their metadata with `pageMeta()` (canonical, og:url, `fr_FR`/`es_ES`,
+the frontmatter `metaTitle`), every French route and the Spanish hub has
+its own share card, the 18 French services carry a short `name`, and the
+French footer lists the main page and the key markets by those names.
+The eight French posts got `metaTitle`s. The 129 legacy FR and ES pages
+were harvested (`docs/LEGACY-CONTENT-HARVEST.md`).
+
 Written for the French reader, not translated from EN. Order:
 homepage, `seo`, the three key-market language pages (espagnol,
 néerlandais, allemand), `referencement-multilingue`,

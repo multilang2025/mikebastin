@@ -1,6 +1,7 @@
 ---
 words: 2192
 title: "Du SEO au GEO : comment optimiser votre visibilité pour les moteurs de recherche alimentés par l’IA"
+metaTitle: "Du SEO au GEO : être cité dans les réponses des IA"
 slug: "seo-au-geo"
 locale: "fr"
 type: "posts"

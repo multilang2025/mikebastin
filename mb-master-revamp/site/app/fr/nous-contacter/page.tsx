@@ -23,7 +23,6 @@ export const metadata: Metadata = {
       "Dites-nous dans quelle langue vous voulez vendre ensuite. Un bref descriptif de votre projet SEO, localisation ou IA reçoit une réponse claire sous un jour ouvré.",
     path: PATH,
     languages: frLanguages(PATH),
-    fallbackImage: true,
     ogLocale: "fr_FR",
   }),
 };

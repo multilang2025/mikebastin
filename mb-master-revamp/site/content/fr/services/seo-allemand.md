@@ -1,6 +1,7 @@
 ---
 words: 1032
 title: "SEO en Allemagne pour vendre aux acheteurs germanophones"
+name: "SEO en Allemagne"
 slug: "seo-allemand"
 locale: "fr"
 type: "services"

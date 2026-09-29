@@ -1,6 +1,7 @@
 ---
 words: 765
 title: "Localisation d’applications et de logiciels"
+name: "Localisation d’applications"
 slug: "localisation-applications"
 locale: "fr"
 type: "services"

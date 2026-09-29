@@ -21,7 +21,6 @@ export const metadata: Metadata = {
       "Nos articles en français sur le SEO international, la visibilité dans les réponses des IA et la conquête de nouveaux marchés, pour les entreprises qui vendent à l’étranger.",
     path: PATH,
     languages: frLanguages(PATH),
-    fallbackImage: true,
     ogLocale: "fr_FR",
   }),
 };

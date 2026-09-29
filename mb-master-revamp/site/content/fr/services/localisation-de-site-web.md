@@ -1,6 +1,7 @@
 ---
 words: 1027
 title: "Traduction et localisation de site web pour vendre dans chaque langue"
+name: "Localisation de site web"
 metaTitle: "Traduction et localisation de site web, Mike Bastin"
 slug: "localisation-de-site-web"
 locale: "fr"

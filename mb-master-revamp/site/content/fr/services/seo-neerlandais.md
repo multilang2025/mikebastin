@@ -1,6 +1,7 @@
 ---
 words: 1111
 title: "SEO néerlandais pour vendre aux Pays-Bas et en Flandre"
+name: "SEO néerlandais"
 slug: "seo-neerlandais"
 locale: "fr"
 type: "services"

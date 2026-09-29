@@ -1,6 +1,7 @@
 ---
 words: 1174
 title: "Référencement local et SEO local pour être trouvé dans chaque ville où vous vendez"
+name: "Référencement local"
 metaTitle: "Référencement local, agence SEO local ville par ville"
 slug: "referencement-local"
 locale: "fr"

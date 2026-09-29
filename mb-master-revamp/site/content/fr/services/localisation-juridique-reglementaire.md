@@ -1,6 +1,7 @@
 ---
 words: 822
 title: "Localisation juridique et réglementaire d’un site qui vend dans plusieurs pays"
+name: "Localisation juridique"
 metaTitle: "Localisation juridique et réglementaire, Mike Bastin"
 slug: "localisation-juridique-reglementaire"
 locale: "fr"

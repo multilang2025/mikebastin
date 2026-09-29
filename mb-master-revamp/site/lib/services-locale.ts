@@ -44,6 +44,10 @@ export type ServiceFrontmatter = {
   modified: string;
   sourceUrl: string;
   excerpt: string;
+  /** Search title when the h1 runs over 60 characters. */
+  metaTitle?: string;
+  /** Short label for the footer and menus; the h1 is too long there. */
+  name?: string;
 };
 
 export type LocaleService = ServiceFrontmatter & {

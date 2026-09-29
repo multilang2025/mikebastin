@@ -1,6 +1,7 @@
 ---
 words: 816
 title: "Visa nomade numérique en Espagne 2026 : guide complet pour les francophones"
+metaTitle: "Visa nomade numérique en Espagne : guide 2026"
 slug: "visa-nomade-numerique-espagne"
 locale: "fr"
 type: "posts"

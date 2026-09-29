@@ -1,6 +1,7 @@
 ---
 words: 677
 title: "Conseil en IA pour les entreprises"
+name: "Conseil en IA"
 slug: "conseil-ia"
 locale: "fr"
 type: "services"

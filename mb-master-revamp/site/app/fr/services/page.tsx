@@ -23,7 +23,6 @@ export const metadata: Metadata = {
       "Référencement par marché, localisation et publicité multilingue pour les entreprises qui vendent déjà à l’étranger et veulent que chaque langue rapporte des demandes.",
     path: PATH,
     languages: frLanguages(PATH),
-    fallbackImage: true,
     ogLocale: "fr_FR",
   }),
 };

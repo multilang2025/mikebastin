@@ -1,6 +1,7 @@
 ---
 words: 694
 title: "Services de traduction professionnelle"
+name: "Traduction professionnelle"
 slug: "traduction-professionnelle"
 locale: "fr"
 type: "services"

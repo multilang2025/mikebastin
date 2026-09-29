@@ -1,6 +1,7 @@
 ---
 words: 938
 title: "SEO anglais pour vendre au Royaume-Uni et en Irlande"
+name: "SEO anglais"
 slug: "seo-anglais"
 locale: "fr"
 type: "services"

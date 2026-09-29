@@ -1,6 +1,7 @@
 ---
 words: 754
 title: "Création de contenu multilingue"
+name: "Contenu multilingue"
 slug: "creation-de-contenu-multilingue"
 locale: "fr"
 type: "services"

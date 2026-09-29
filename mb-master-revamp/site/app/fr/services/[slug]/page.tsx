@@ -20,6 +20,8 @@ export function generateStaticParams() {
   return getServicesForLocale(LOCALE).map((s) => ({ slug: s.slug }));
 }
 
+import { pageMeta } from "@/lib/meta";
+
 export async function generateMetadata({
   params,
 }: {
@@ -28,12 +30,16 @@ export async function generateMetadata({
   const { slug } = await params;
   const service = getServiceForLocale(LOCALE, slug);
   if (!service) return {};
-  const languages = serviceHreflang(service.group, LOCALE);
-  return {
-    title: postMetaTitle(service.title),
+  // Through pageMeta like every English route: canonical, og:url and the
+  // fr_FR og:locale, and the frontmatter metaTitle when the h1 runs long.
+  // The card comes from the colocated opengraph-image.tsx.
+  return pageMeta({
+    title: service.metaTitle ?? postMetaTitle(service.title),
     description: service.excerpt,
-    ...(languages ? { alternates: { languages } } : {}),
-  };
+    path: `/fr/services/${service.slug}/`,
+    languages: serviceHreflang(service.group, LOCALE),
+    ogLocale: "fr_FR",
+  });
 }
 
 export default async function FrenchServicePage({

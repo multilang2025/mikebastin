@@ -298,6 +298,11 @@ and no og:url. Rules that came out of fixing it:
   h1 keeps `title`.
 - `.htaccess` forces `image/png` on the extensionless `opengraph-image`
   files; without it the host sends no Content-Type.
+- FR and ES routes go through `pageMeta()` too (30 Sep 2026: the `[slug]`
+  routes had no canonical, an `en_GB` og:locale and ignored `metaTitle`).
+  Each has its own `opengraph-image.tsx`; FR service markdown carries a
+  short `name` for cards and the footer, and `metaTitle` when the h1 runs
+  over 60 characters.
 
 ## Copy has to sell, not only pass the protocol
 
@@ -628,22 +633,17 @@ ES one is the first rebuilt Spanish page. **Spanish addresses the reader as "tú
 The gaps below are the FR and ES starting position whenever the gate
 opens. Flagged rather than forgotten, so they are known and deliberate:
 
-- **No FR or ES index pages.** `/fr/services/`, `/es/services/`, `/fr/blog/`
-  and `/es/blog/` do not exist, only the individual `[slug]` routes under
-  them. `SiteFooter` handles that by giving those locales no link to an
-  index at all, since sending a French reader to an English one is worse
-  than offering nothing. Both sitemaps list the individual pages, which is
-  correct and not a workaround.
+- **No ES index pages.** French has `/fr/services/` and `/fr/blog/` since
+  29 Sep 2026; `/es/services/` and `/es/blog/` do not exist yet, so
+  `SiteFooter` gives Spanish no index link.
 - **No FR or ES topic pages.** `getTopics()` reads the EN clusters, which
   have no FR/ES equivalent, so `/blog/topics/` is English only.
 - **The FR and ES motto renderings are unreviewed.** They ship in
   `SiteFooter`'s string table and are a first pass, not signed off.
-- **21 FR and ES service pages have unadapted headings.** The heading rule
-  of 21 Sep applies to English commercial routes only, and
-  `scripts/heading-shape-lint.mjs` reports those 21 on every run without
-  failing. A word count does not survive translation, so they need a
-  native reader rather than a rule, which is exactly the work the gate is
-  holding back.
+- **Spanish service pages have unadapted headings.** The French ones were
+  rewritten in phase 4 (30 Sep 2026); `scripts/heading-shape-lint.mjs`
+  still reports FR and ES without failing, since a word count does not
+  survive translation.
 - **valenciamove.com's services page launches EN only.** The plan first
   recommended EN plus ES; the owner's call on 20 Sep supersedes that.
 

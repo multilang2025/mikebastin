@@ -1,6 +1,7 @@
 ---
 words: 775
 title: "SEO technique pour les sites multilingues"
+name: "SEO technique"
 slug: "seo-technique"
 locale: "fr"
 type: "services"

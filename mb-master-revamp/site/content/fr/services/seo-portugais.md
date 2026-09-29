@@ -1,6 +1,7 @@
 ---
 words: 683
 title: "SEO au Portugal pour vendre aux acheteurs portugais"
+name: "SEO au Portugal"
 slug: "seo-portugais"
 locale: "fr"
 type: "services"

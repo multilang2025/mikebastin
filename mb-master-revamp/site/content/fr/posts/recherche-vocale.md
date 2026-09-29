@@ -1,6 +1,7 @@
 ---
 words: 1780
 title: "Recherche vocale : comment optimiser votre site pour les assistants IA en 2026"
+metaTitle: "Recherche vocale : optimiser votre site en 2026"
 slug: "recherche-vocale"
 locale: "fr"
 type: "posts"

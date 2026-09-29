@@ -23,7 +23,6 @@ export const metadata: Metadata = {
       "Comment se déroule une mission de SEO multilingue, de localisation ou de conseil en IA : premier échange, périmètre écrit, livraison mensuelle, facturation.",
     path: PATH,
     languages: frLanguages(PATH),
-    fallbackImage: true,
     ogLocale: "fr_FR",
   }),
 };

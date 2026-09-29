@@ -1,6 +1,7 @@
 ---
 words: 1060
 title: "SEO international et référencement naturel pour les entreprises qui vendent à l’étranger"
+name: "SEO international"
 metaTitle: "SEO international et référencement naturel à l’export"
 slug: "seo"
 locale: "fr"

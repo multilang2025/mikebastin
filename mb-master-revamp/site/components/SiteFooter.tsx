@@ -116,6 +116,8 @@ const ABOUT: Record<Locale, string> = {
  * instead: deterministic, and "longest" is a claim about the page rather
  * than about the service, which is why their heading does not say "top".
  */
+const FR_FOOTER = ["seo", "referencement-multilingue", "seo-espagnol", "seo-neerlandais", "seo-allemand", "sem-multilingue"];
+
 function servicesFor(locale: Locale): { href: string; label: string }[] {
   if (locale === "en") {
     return SERVICES.filter((s) => s.pillar).map((s) => ({
@@ -124,10 +126,15 @@ function servicesFor(locale: Locale): { href: string; label: string }[] {
     }));
   }
 
-  return [...getServicesForLocale(locale)]
-    .sort((a, b) => b.words - a.words)
-    .slice(0, 6)
-    .map((s) => ({ href: servicePath(locale, s.slug), label: s.title }));
+  // French has a curated list since the phase 4 rewrite (30 Sep 2026): the
+  // main page and the key markets (Spain, Benelux, Germany), by their short
+  // names. Spanish keeps the longest-pages rule until it is rebuilt.
+  const all = getServicesForLocale(locale);
+  const picked =
+    locale === "fr"
+      ? FR_FOOTER.map((slug) => all.find((s) => s.slug === slug)).filter((s) => s !== undefined)
+      : [...all].sort((a, b) => b.words - a.words).slice(0, 6);
+  return picked.map((s) => ({ href: servicePath(locale, s.slug), label: s.name ?? s.title }));
 }
 
 /**

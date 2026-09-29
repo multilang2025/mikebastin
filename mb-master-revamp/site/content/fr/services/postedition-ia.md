@@ -1,6 +1,7 @@
 ---
 words: 607
 title: "Traduction automatique et post-édition"
+name: "Post-édition IA"
 slug: "postedition-ia"
 locale: "fr"
 type: "services"

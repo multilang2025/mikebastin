@@ -1,6 +1,7 @@
 ---
 words: 1105
 title: "SEM multilingue et Google Ads international, pilotés marché par marché"
+name: "SEM multilingue"
 metaTitle: "SEM multilingue et Google Ads international"
 slug: "sem-multilingue"
 locale: "fr"
