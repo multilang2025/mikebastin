@@ -285,7 +285,20 @@ page before merge.
 - `hreflang` reciprocal on every paired page, `null` where unpaired.
 - All lints, `npm run verify`, `check:launch`.
 
+## Status (30 Sep 2026)
+
+| Phase | State |
+|---|---|
+| 1. Redirects, no legacy URL 404s | Done (29 URLs, all 301) |
+| 2. Decisions | Done (owner answers 1 to 6 and the follow-ups) |
+| 3. Templates and plumbing | Done: homepage, services and blog indexes, contact, tarifs, notre-equipe, the lead generation hub, share cards, metadata, footer, `<html lang>`, `lint:fr` |
+| 4. Copy | Done as a draft: 18 service pages, the 8 live posts, the hub; the owner reviews |
+| 5. QA | Links, images, hreflang, redirects and all lints pass; the owner's review is the last gate |
+
 ## Open for the owner
 
-Nothing at the plan stage. Phase 1 is released; phases 2 to 5 wait for the
-EN lock.
+- Review the French copy in one go (PR #118): every page is a draft.
+- Confirm the Portuguese page's "working level" wording against the vague
+  German and Italian rule.
+- The 8 unrebuilt Spanish-first items in `docs/LEGACY-CONTENT-HARVEST.md`
+  wait for the Spanish rebuild, which the EN lock gates (CLAUDE.md).
