@@ -46,6 +46,6 @@ Nuestras soluciones personalizadas garantizan una transición fluida a nuevos me
 
 Somos expertos en la internacionalización de empresas
 
-Nuestros servicios de internacionalización reposan sobre una base de profunda comprensión de los mercados internacionales, los idiomas y los ecosistemas digitales. Con más de dos décadas de experiencia en SEO, [diseño web](https://mikebastin.com/es/services/diseno-web/) y adaptación de contenido multilingüe, nos especializamos en preparar a las empresas para prosperar a nivel internacional.
+Nuestros servicios de internacionalización reposan sobre una base de profunda comprensión de los mercados internacionales, los idiomas y los ecosistemas digitales. Con más de dos décadas de experiencia en SEO, [diseño web](/es/services/) y adaptación de contenido multilingüe, nos especializamos en preparar a las empresas para prosperar a nivel internacional.
 
 Nuestro equipo combina precisión técnica con sensibilidad cultural para garantizar que tu presencia digital se adapta a nuevas regiones fácilmente y sin perder la identidad única de tu marca. Desde localización de experiencias de usuario hasta optimización SEO multilingüe, ofrecemos soluciones integrales que te ayudan a penetrar en nuevos mercados y conectar con audiencias internacionales de manera exitosa.

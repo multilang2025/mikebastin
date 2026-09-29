@@ -84,7 +84,7 @@ export default async function SpanishServicePage({
           </Reveal>
           <Reveal i={2}>
             <p className="mt-6">
-              <Link href="/" className="ulink text-[.9rem]" style={{ color: "var(--dim)" }}>
+              <Link href="/es/conocenos-agencia-experta-en-seo/" className="ulink text-[.9rem]" style={{ color: "var(--dim)" }}>
                 Mike Bastin
               </Link>
             </p>

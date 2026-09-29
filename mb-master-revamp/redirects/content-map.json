@@ -1573,7 +1573,11 @@
     "slug": "optimizacion-seo",
     "url": "https://mikebastin.com/es/services/optimizacion-seo/",
     "content_path": "site/content/es/services/optimizacion-seo.md"
-   }
+   },
+   "hreflang_standalone": [
+    "es"
+   ],
+   "note": "ES optimizacion-seo is the main Spanish SEO page for Spanish companies selling abroad (docs/ES-REBUILD-PLAN.md), so it is standalone: EN spanish-seo pairs with FR seo-espagnol only."
   },
   {
    "group": "g070",

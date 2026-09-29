@@ -1,5 +1,5 @@
 ---
-words: 0
+words: 1090
 title: "SEO en Alemania para vender a compradores de habla alemana"
 name: "SEO en Alemania"
 slug: "seo-aleman"
@@ -10,7 +10,7 @@ wpId: 24849079
 date: "2024-09-24T15:50:08"
 modified: "2026-09-30T12:00:00"
 sourceUrl: "https://mikebastin.com/es/services/seo-aleman/"
-excerpt: "Páginas en alemán escritas por nativos y pensadas para la búsqueda alemana: tus visitas de Alemania, Austria y Suiza se convierten en peticiones de presupuesto."
+excerpt: "Páginas en alemán escritas por nativos y pensadas para la búsqueda alemana: tus visitas de Alemania, Austria y Suiza piden presupuesto."
 ---
 
 ## Tus páginas en alemán ya traen visitas: conviértelas en peticiones

@@ -177,3 +177,9 @@ grammatically correct inflected form for that locale.
 - French is formal as well as *vous* (owner, 30 Sep 2026): *cela*, not *ça*;
   *nous* or a passive, not *on*; no exclamation marks; no slang. Checked
   by `lint:fr`'s "formal" rule.
+- Spanish is checked by `npm run lint:es` (`scripts/es-copy-lint.mjs`): *nosotros*
+  (never yo, mi, mis, soy), *tú* (never usted), ¿ ¡ paired, no straight
+  quotes, "más de dos décadas", the Spanish forbidden words (exhaustivo,
+  a medida, sin fisuras, innovador, robusto, transformador, en constante
+  evolución, sin embargo, no obstante, asimismo, "Además,"), untranslated
+  English and sentence case. Plan: `docs/ES-REBUILD-PLAN.md`.

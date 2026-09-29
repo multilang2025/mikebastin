@@ -1,5 +1,5 @@
 ---
-words: 0
+words: 1100
 title: "SEO en Francia para empresas españolas que venden allí"
 name: "SEO en Francia"
 slug: "seo-frances"
@@ -10,16 +10,16 @@ wpId: 24848927
 date: "2024-09-23T14:02:02"
 modified: "2026-09-30T12:00:00"
 sourceUrl: "https://mikebastin.com/es/services/seo-frances/"
-excerpt: "Páginas en francés investigadas y escritas directamente en francés, para que tus visitas francesas se conviertan en solicitudes de presupuesto."
+excerpt: "Páginas en francés investigadas y escritas directamente en francés para el comprador de Francia: tus visitas francesas se convierten en solicitudes."
 ---
 ## Tu web en francés puede ser tu mercado de exportación más rentable
 
-Ya vendes en Francia y tu web en francés recibe visitas. Muchas veces esas páginas siguen en su primera traducción del español, mientras que tu equipo comercial trabaja el mercado con esmero. El siguiente paso es escribirlas para el comprador francés que compara proveedores: lee tres o cuatro sitios, se queda con dos y escribe al que suena como un proveedor de allí.
+Ya vendes en Francia y tu web en francés recibe visitas. Con frecuencia esas páginas siguen en su primera traducción del español. El siguiente paso es escribirlas para el comprador francés que compara proveedores: lee tres o cuatro sitios, se queda con dos y escribe al que suena como un proveedor de allí.
 
 El comprador francés distingue en la primera frase si una página se pensó en Francia: la palabra que elegiría un redactor francés, el tratamiento adecuado, un ejemplo que le resulta familiar. Francia es el mayor mercado francófono de Europa, y una web que suena local llega a la mayor parte del público para el que se construyó.
 
 <aside class="post-cta">
-<p><strong>¿Quieres que tus páginas en francés te traigan solicitudes de empresas francesas?</strong> Investigamos y escribimos directamente en francés, para el mercado que tú vendes. <a href="/es/contactanos/">Reservar una primera conversación</a>.</p>
+<p><strong>¿Quieres que tus páginas en francés te traigan solicitudes de empresas francesas?</strong> Investigamos y escribimos directamente en francés, para el mercado al que vendes. <a href="/es/contactanos/">Reservar una primera conversación</a>.</p>
 </aside>
 
 ## Investigación y textos en francés, con la estrategia en tu idioma
@@ -40,7 +40,7 @@ Matosurf es nuestro propio sitio francés de deportes de tabla: ciento veinte gu
 
 ## Ajustes técnicos para Francia
 
-La estructura de dominio se decide una vez y pronto. Un dominio .fr es la señal local más fuerte y el que más cuesta mantener. Un subdirectorio /fr/ conserva toda la autoridad que ya tiene tu web y es la opción habitual cuando una empresa española añade Francia. En un dominio .com u otro genérico, fija la segmentación geográfica en Search Console para que Google tenga estampado el país al que te diriges.
+La estructura de dominio se decide una vez y pronto. Un dominio .fr es la señal local más fuerte y el que más cuesta mantener. Un subdirectorio /fr/ conserva toda la autoridad que ya tiene tu web y es la opción habitual cuando una empresa española añade Francia. En un dominio .com u otro genérico, fija la segmentación geográfica en Search Console para que Google tenga declarado el país al que te diriges.
 
 Coloca etiquetas hreflang en cada página, la de inicio incluida, con el código correcto (es-ES, fr-FR y los que necesites) y un enlace de vuelta a cada versión. El visitante francés llega a la versión francesa, el español a la española, y Search Console muestra un informe limpio. Ofrece además al usuario la opción de elegir su versión, para que cada persona llegue a la que prefiere y el rastreador vea todas.
 

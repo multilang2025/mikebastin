@@ -120,9 +120,36 @@ title runs over 60 characters.
 5. **QA**: `npm run lint:es` (Spanish copy check), links, images,
    hreflang, `verify`.
 
+## Status (30 Sep 2026)
+
+| Phase | State |
+|---|---|
+| 1. Redirects, no legacy URL 404s | Done: 29 rules, all 301, every legacy URL resolves |
+| 2. Templates and plumbing | Done: page list, hreflang across en, fr and es, menu and language switcher on hand-built pages, footer, sitemap, `contact.php`, share cards, `pageMeta`, `lint:es` |
+| 3. Pages | Done: homepage, services and blog indexes, contact (thanks, problem), about, pricing |
+| 4. Copy | Done as a draft: 17 service pages and the 19 live posts; the owner reviews |
+| 5. QA | Links, images, hreflang, redirects and all lints pass |
+
+`g069` (EN `spanish-seo`, FR `seo-espagnol`, ES `optimizacion-seo`) is
+`hreflang_standalone: ["es"]`: the Spanish main page sells to a Spanish
+exporter, the other two to a foreign company entering Spain.
+
+Posts carry some unsourced figures from the legacy copy that the owner
+may want to confirm or drop: BeTranslated "68 %", the Delaguía y Luzón
+"42 oportunidades, 27 backlinks, 34 %" and the Smartown "19 backlinks,
+28 %" in the backlinks post, a "más del 30 %" transactional-search
+forecast, the "1,25 % frente a 11 %" outreach test and "80 propuestas",
+and two Google Business Profile cases (a third of bookings lost, +40 %
+class bookings).
+
 ## Open for the owner
 
 - Confirm assumptions 1, 3, 4 and 6 (or reverse them).
 - Review the Spanish copy in one go: every page is a draft.
+- The Spanish AI consulting page dropped the legacy "visibility in ChatGPT
+  answers" angle, which the English entry does not cover; say if it should
+  come back as its own page or a section of the main page.
+- The footer address reads "12 to 2" or "12 - 2" in the legacy site; the
+  posts now say "12, 2.º". Confirm the floor notation.
 - The `SiteFooter` motto and the Spanish string table are still a first
   pass.

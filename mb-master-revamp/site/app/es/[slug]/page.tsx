@@ -96,7 +96,7 @@ export default async function SpanishBlogPostPage({
           <Reveal i={2}>
             <p className="mt-6 flex flex-wrap items-center gap-x-3 gap-y-1 text-[.78rem] uppercase tracking-[.11em]" style={{ color: "var(--dim)" }}>
               <span>
-                <Link href="/" className="ulink" style={{ color: "var(--dim)" }}>
+                <Link href="/es/conocenos-agencia-experta-en-seo/" className="ulink" style={{ color: "var(--dim)" }}>
                   Mike Bastin
                 </Link>
               </span>

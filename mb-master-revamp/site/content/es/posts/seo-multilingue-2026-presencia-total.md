@@ -1,6 +1,7 @@
 ---
 words: 1346
 title: "SEO multilingüe en 2026: de las posiciones a la presencia total"
+metaTitle: "SEO multilingüe en 2026: de posicionar a presencia total"
 slug: "seo-multilingue-2026-presencia-total"
 locale: "es"
 type: "posts"
@@ -130,4 +131,4 @@ Quien crece fuera en 2026 necesita las dos cosas. Posicionar en la búsqueda tra
 
 Una estrategia multilingüe que suma la GEO aprovecha todo el valor disponible, y una estrategia GEO se construye sobre unos cimientos sólidos de SEO multilingüe.
 
-El [SEO global](/es/services/posicionamiento-multilingue/) en 2026 pide las dos disciplinas trabajando juntas, en cada idioma y cada mercado. Si quieres ver dónde está hoy tu marca y dónde podría estar, [escríbeme y lo revisamos juntos](/es/contactanos/), con más de dos décadas de SEO y traducción de mi lado.
+El [SEO global](/es/services/posicionamiento-multilingue/) en 2026 pide las dos disciplinas trabajando juntas, en cada idioma y cada mercado. Si quieres ver dónde está hoy tu marca y dónde podría estar, [escríbenos y lo revisamos juntos](/es/contactanos/), con más de dos décadas de SEO y traducción de nuestro lado.

@@ -1,94 +1,63 @@
 ---
-words: 670
-editorial: "superseded"
-title: "SEO en inglés"
+words: 983
+title: "SEO en inglés para vender en el Reino Unido e Irlanda"
+name: "SEO en inglés"
 slug: "seo-ingles"
 locale: "es"
 type: "services"
 group: "g078"
 wpId: 24848077
 date: "2024-10-10T11:49:05"
-modified: "2026-05-31T16:44:08"
+modified: "2026-09-30T12:00:00"
 sourceUrl: "https://mikebastin.com/es/services/seo-ingles/"
-excerpt: "El posicionamiento web SEO en inglés optimiza el contenido de tu página web en inglés para potenciar la visibilidad en los buscadores, como Google. Tus competidores ya están generando más tráfico y llegando a clientes anglófonos. ¿Cómo? Utilizando palabras clave, mejorando su contenido y enlazando su página web. ¡Hazlo tú mejor con nuestra ayuda!"
+excerpt: "Páginas en inglés escritas directamente en inglés para compradores británicos e irlandeses: tu tráfico anglófono se convierte en solicitudes."
 ---
+## Tus páginas en inglés pueden ser tu mercado de exportación más grande
 
-# Servicios de SEO en inglés
+Ya vendes en el Reino Unido o en Irlanda y tus páginas en inglés reciben visitas. Con frecuencia siguen en su primera traducción del español, mientras que las versiones en francés o en alemán han recibido más cuidado. El siguiente paso es escribirlas para el comprador británico que compara proveedores: lee unos cuantos sitios, se queda con dos y escribe al que le habla como un proveedor local.
 
-Amplía tu visibilidad internacional con posicionamiento web en inglés
+El inglés suele ser el idioma con más volumen de búsqueda de toda tu web, y una página escrita para el lector británico convierte ese volumen en solicitudes.
 
-## Soluciones SEO en inglés para un éxito internacional
+<aside class="post-cta">
+<p><strong>¿Quieres que tus páginas en inglés te traigan solicitudes del Reino Unido?</strong> Escribimos directamente en inglés, para el mercado al que vendes. <a href="/es/contactanos/">Reservar una primera conversación</a>.</p>
+</aside>
 
-Adéntrate en el dinamismo de los mercados anglosajones con nuestras [soluciones expertas de SEO](https://mikebastin.com/es/services/soluciones-linguisticas/).
+## Escrito directamente en inglés, por el equipo que fija la estrategia
 
-Adaptamos las estrategias a los matices culturales y lingüísticos de cada región, ya sea **Reino Unido**, **Estados Unidos**, **Canadá**, **Australia** u otros países de habla inglesa.
+Trabajamos en inglés igual que en español: la investigación, los textos y la lectura del comportamiento de tus visitantes anglófonos se hacen en inglés por las mismas personas que fijan la estrategia. El plan llega entero hasta la página, y tú puedes redactar el encargo en español.
 
-Nuestros [servicios de SEO en inglés](https://mikebastin.com/es/services/seo-ingles/) están diseñados para aumentar el tráfico orgánico, mejorar la conversión y reforzar tu [visibilidad internacional](https://mikebastin.com/es/services/branding-multilingue/) en estos entornos altamente competitivos.
+La investigación parte de las palabras que teclean tus compradores, y a menudo difieren de las tuyas. Un comprador español busca «posicionamiento web», y uno británico teclea «SEO». Una empresa de mudanzas es una «removalist» en Australia y una «removals company» en el Reino Unido, y Londres busca la segunda. La traducción da la palabra correcta; la investigación da la que la gente escribe.
 
-## Por qué elegir nuestras soluciones SEO en inglés
+Después llegan los elementos que hacen que un comprador británico confíe en un proveedor nuevo: precios en libras esterlinas cuando vendes en libras, referencias que tu lector conoce, opiniones de clientes británicos y presencia en los directorios y la prensa profesional de tu sector en el Reino Unido.
 
-Conocemos las necesidades específicas de los distintos mercados anglosajones y personalizamos nuestras estrategias para garantizar tu éxito.
+## Inglés británico o americano: una variante por mercado
 
-Estrategias personalizadas para cada región de habla inglesa.
+El inglés británico y el americano se diferencian en la ortografía, el vocabulario y los términos que la gente busca de verdad. Elegir una variante da un texto que suena bien a sus lectores: «colour» y «centre» para Londres y Dublín, «color» y «center» para Nueva York. El Reino Unido e Irlanda comparten el inglés británico, cada uno con sus propios hábitos de búsqueda.
 
-Contenido que atrae al público local.
+Cuando Estados Unidos entra en tu proyecto, recibe su propia versión, escrita para el lector americano. Empezamos por el mercado donde las pruebas son más sólidas y añadimos el siguiente cuando el primero muestra resultados.
 
-Aumentar el tráfico cualificado y mejorar el ROI.
+## Sitios en inglés que llevamos
 
-**Soluciones completas de SEO en inglés**
+Para TX International Freight, un transitario de Houston, llevamos el SEO técnico y el contenido en inglés, en un único mercado cubierto en profundidad. Los compradores de flete industrial buscan con el vocabulario de su oficio: la investigación de palabras clave partió de ese vocabulario, aprendido del propio sector. El sitio está presente en el paquete local de Houston con esas búsquedas, y Search Console le cuenta 764 222 impresiones y 2 616 clics de mayo a julio de 2026.
 
-Nuestros servicios de SEO están diseñados para ayudarte a mejorar tu posición en mercados anglosajones y garantizar una mayor visibilidad y éxito a largo plazo.
+Delaguía y Luzón, un despacho de abogados de Valencia, publica en cuatro idiomas, entre ellos el inglés, sobre derecho español y francés. Cada término se mantiene al nivel de precisión que un abogado exige al leerlo, en la traducción y en el SEO.
 
-Realizamos un estudio de palabras clave exhaustivo para identificar términos específicos con potencial para cada mercado anglosajón.
+BeTranslated, la agencia de traducción que dirigimos desde hace veinte años y que Mike cofundó, tiene seis identidades regionales, entre ellas una en .co.uk, cada una con contenido nativo y su propia investigación para su mercado.
 
-Optimizamos meta tags, encabezados y contenido para mejorar el SEO en inglés y la experiencia del usuario.
+## Ajustes técnicos bajo tus páginas en inglés
 
-Elaboramos un contenido de alta calidad y optimizado para SEO que llame la atención de tu público objetivo y que aumente el tráfico orgánico.
+Coloca una etiqueta hreflang en cada página, la de inicio incluida, con el código correcto (en-GB, en-IE, en-US según tus mercados) y un enlace de vuelta a cada versión. El visitante británico llega entonces a la versión inglesa, el español a la española, y Search Console se lee con claridad. Completa con un mapa del sitio por idioma, URL traducidas y datos estructurados por país.
 
-Nos aseguramos de que tu web cumpla con los requisitos del SEO técnico: velocidad, adaptación móvil y la organización de datos.
+Para la estructura del dominio, un subdirectorio /en/ conserva toda la autoridad que ya tiene tu web y encaja con la mayoría de las empresas que añaden un mercado. Un dominio .co.uk es la señal local más fuerte y el más costoso de mantener. Decídelo una vez, pronto.
 
-Creamos backlinks de alta calidad para mejorar tu autoridad y visibilidad en buscadores anglosajones.
+Escribimos las etiquetas title y las metadescripciones directamente en inglés, a la longitud que pide cada resultado, para que la frase completa se muestre. Cuidamos también la velocidad en el móvil, donde se hace buena parte de las búsquedas. En cuanto a enlaces, un artículo en la prensa profesional británica o en una asociación sectorial del Reino Unido pesa mucho más que un enlace internacional genérico, porque la relevancia se mide también por país.
 
-## Cómo trabajamos el SEO en inglés
+Para los ajustes de fondo, consulta nuestro [SEO técnico](/es/services/seo-tecnico/); para el inglés dentro de un programa con varios idiomas, el [posicionamiento multilingüe](/es/services/posicionamiento-multilingue/).
 
-Seguimos un proceso riguroso y estructurado para asegurarnos de que tu página web multilingüe tiene un diseño bonito, funciona correctamente y está adaptada a la cultura de tu audiencia.
+## Cómo trabajamos
 
-Hablamos sobre tus objetivos, tu audiencia y mercado anglosajón de interés para crear una estrategia de posicionamiento SEO en inglés personalizada.
+Empezamos con una conversación sobre tu empresa, tus compradores y tus mercados anglófonos, y después hacemos una auditoría de tus páginas en inglés frente a lo que buscan los compradores británicos, con Ahrefs, Semrush y Search Console. La investigación va antes de cualquier traducción: pone en el encargo los términos que teclean tus compradores, y la página sale bien a la primera. Cuando tus páginas ya están traducidas, la auditoría señala las que merecen una reescritura; suele ser un puñado. La auditoría de 20 minutos es gratuita.
 
-Analizamos la competencia y las tendencias del mercado en las regiones de tu preferencia para identificar oportunidades de crecimiento.
+A continuación reescribimos o escribimos las páginas que más pesan, y cada mes un informe sigue tus solicitudes llegadas del mercado anglófono, separadas de tus otros mercados. Recibes por escrito el alcance del primer trimestre y respondemos en un día laborable. La colaboración continúa mes a mes.
 
-Elaboramos una estrategia de SEO detallada basada en tus objetivos empresariales y en los resultados del análisis de mercado.
-
-Nuestro equipo pone en marcha la estrategia SEO y optimiza el contenido, la estructura y los enlaces hacia tu página para mejorar el rendimiento de los buscadores.
-
-Hacemos un seguimiento del rendimiento de tu página web y proporcionamos informes detallados con los ajustes necesarios para garantizar un éxito continuo.
-
-Preguntas frecuentes
-
-Cada mercado anglosajón tiene sus propias preferencias y conductas de búsqueda, lo que requiere unas estrategias de SEO personalizadas.
-
-Las estrategias de SEO no dan resultados inmediatos, pero se suelen registrar cambios significativos en un plazo de 3 a 6 meses.
-
-Sí, proporcionamos un servicio de SEO específico para distintas regiones y públicos de Reino Unido, Estados Unidos, Canadá, Australia y más.
-
-¡Por supuesto! Podemos optimizar el contenido de tu página web actual para mejorar tu rendimiento SEO.
-
-Hacemos un seguimiento del rendimiento con métricas claves como el tráfico orgánico, las clasificaciones de palabras clave y las conversiones para medir el éxito de las estrategias SEO.
-
-Alemania es el segundo socio comercial más importante de España después de Francia. En 2023, el comercio bilateral alcanzó los 87.000 millones de euros, mientras que España ocupa el duodécimo lugar como cliente de Alemania.
-
-Nuestros clientes
-
-## Beneficios de las soluciones SEO en inglés
-
--   **Amplía tu alcance internacional**: aumenta tu visibilidad a través de los distintos mercados anglosajones.
--   **Cuida la UX**: asegúrate de que tu página web ofrece una experiencia cómoda a todos los usuarios.
--   **Genera tráfico cualificado**: atrae más visitas relevantes a tu página web.
-
-Expertos en SEO en inglés
-
-Con años de experiencia de SEO en inglés, hemos ayudado a muchas empresas a mejorar su posicionamiento en mercados como Reino Unido, Estados Unidos, Canadá y Australia.
-
-Con un conocimiento profundo de cada región, creamos estrategias personalizadas que realmente dan resultados.
-
-Ya sea que necesites SEO local o quieras expandirte a nivel internacional, te ofrecemos servicios respaldadospor un historial de éxito.
+La redacción se presupuesta como un trabajo. Si añades campañas con nuestra [publicidad multilingüe](/es/services/publicidad-multilingue/), todo tu presupuesto de medios se destina a anuncios y va directo a Google, Microsoft o Meta, y la gestión es una tarifa aparte.

@@ -9,18 +9,18 @@ wpId: 24857772
 date: "2026-05-31T20:42:23"
 modified: "2026-05-31T20:42:23"
 sourceUrl: "https://mikebastin.com/es/analisis-de-la-competencia-seo/"
-excerpt: "Análisis de la competencia para SEO en 2026: rivales reales en la SERP, cuota de tráfico, brechas de palabras clave y citas en IA, con más de dos décadas de oficio."
+excerpt: "Análisis de la competencia para SEO en 2026: rivales reales en la SERP, tráfico, brechas de palabras clave y citas en IA, con más de dos décadas de oficio."
 ---
 
 ![Análisis de la competencia para SEO](/images/legacy/2026/01/competitoranalysis-1024x585.jpg)
 
 ## El análisis de la competencia que sirve es el que guía la estrategia
 
-En más de dos décadas he leído muchísimos informes de «análisis de la competencia».
+En más de dos décadas hemos leído muchísimos informes de «análisis de la competencia».
 
 Casi todos lucen en una presentación de dirección; los que sirven para posicionar mejor parten de la SERP.
 
-Un despacho de abogados con el que llevo tres años estaba convencido de que su gran rival era una boutique conocida a dos calles. Tras una tarde de comprobación seria a nivel de SERP, los rivales orgánicos de verdad resultaron ser tres abogados independientes con webs de doce páginas y un SEO local muy afinado.
+Un despacho de abogados con el que llevamos tres años estaba convencido de que su gran rival era una boutique conocida a dos calles. Tras una tarde de comprobación seria a nivel de SERP, los rivales orgánicos de verdad resultaron ser tres abogados independientes con webs de doce páginas y un SEO local muy afinado.
 
 La boutique que les obsesionaba apenas posicionaba.
 
@@ -30,13 +30,13 @@ Un buen análisis de la competencia en 2026 empieza con un cambio: lista las URL
 
 El competidor de negocio y el competidor de SEO son categorías distintas. Las búsquedas de alta intención que convierten las pymes suelen ganarlas firmas más pequeñas que la más grande de la ciudad.
 
-Yo hago un rastreo rápido de las SERP en las 30 a 50 búsquedas que de verdad le importan a un cliente. Las páginas que salen una y otra vez son la lista real. A veces un hilo de foro o un post de Reddit posiciona por encima de cualquier competidor «oficial» para la pregunta real del comprador.
+Nosotros hacemos un rastreo rápido de las SERP en las 30 a 50 búsquedas que de verdad le importan a un cliente. Las páginas que salen una y otra vez son la lista real. A veces un hilo de foro o un post de Reddit posiciona por encima de cualquier competidor «oficial» para la pregunta real del comprador.
 
 Saber eso cambia el encargo. Tu objetivo pasa a ser superar a los tres blogs que capturan la intención de compra, más que a Forbes por un término genérico.
 
 ### Las cuatro cosas que vale la pena extraer
 
-Cuando un cliente me pide analizar cinco rivales, esto es lo que saco de verdad.
+Cuando un cliente nos pide analizar cinco rivales, esto es lo que sacamos de verdad.
 
 **Páginas top por cuota de tráfico.** Las 10 a 20 URLs que Ahrefs o Semrush señalan como las que ganan tráfico orgánico de verdad. El modelo vive en esas páginas.
 
@@ -56,11 +56,11 @@ Un dato a tener en cuenta antes de pasarte una semana mapeando cada página del 
 
 La conclusión es práctica: el tráfico de tus rivales se concentra en unas pocas páginas. Encuentra sus cinco a diez URLs que traen tráfico y estúdialas a fondo.
 
-### Las herramientas que uso, con sus matices honestos
+### Las herramientas que usamos, con sus matices honestos
 
 Herramienta
 
-Para qué la uso
+Para qué la usamos
 
 El matiz honesto
 
@@ -98,7 +98,7 @@ La propia Ahrefs documenta la diferencia entre sus estimaciones de tráfico y la
 
 ### El análisis multilingüe es plural por defecto
 
-El despacho de Valencia que mencioné antes tiene tres conjuntos de competidores distintos.
+El despacho de Valencia que mencionamos antes tiene tres conjuntos de competidores distintos.
 
 Un conjunto español para derecho de familia y herencias a nivel nacional. Un conjunto francés para casos matrimoniales de franceses residentes en la Costa Blanca. Y un conjunto inglés para la comunidad expatriada anglófona con temas de herencias, NIE y disputas de propiedad.
 
@@ -106,15 +106,15 @@ Tres listas de competidores. Tres encargos de contenido distintos. Tres estrateg
 
 Cada versión de idioma necesita su propio análisis, porque cada mercado tiene su propio conjunto de rivales. Si operas en varios países, cuenta con hacer el análisis una vez por idioma.
 
-Para la visión completa, mira mis [buenas prácticas de SEO multilingüe](https://mikebastin.com/es/seo-multilingue-2026-presencia-total/).
+Para la visión completa, mira nuestras [buenas prácticas de SEO multilingüe](https://mikebastin.com/es/seo-multilingue-2026-presencia-total/).
 
 ### La búsqueda con IA cambia la pregunta y mantiene el método
 
 Sí, la [GEO](https://mikebastin.com/es/optimizar-para-seo-y-geo/) importa. Sí, las citas de ChatGPT y Perplexity ya pesan en el recorrido de compra B2B. La lógica de fondo del análisis de competencia se mantiene.
 
-Lo que añado para los clientes ahora: una capa pequeña de «quién aparece citado en las respuestas de IA para los prompts de nuestro comprador». Lanzo cinco a diez prompts que un cliente real usaría de verdad, anoto los dominios citados y cruzo el solapamiento con los rivales de la SERP tradicional.
+Lo que añadimos para los clientes ahora: una capa pequeña de «quién aparece citado en las respuestas de IA para los prompts de nuestro comprador». Lanzamos cinco a diez prompts que un cliente real usaría de verdad, anotamos los dominios citados y cruzamos el solapamiento con los rivales de la SERP tradicional.
 
-A menudo el solapamiento es alto. A veces aparece un sitio de nicho nuevo para mí. Ambas señales sirven, y las dos complementan el trabajo a nivel de SERP.
+A menudo el solapamiento es alto. A veces aparece un sitio de nicho nuevo para nosotros. Ambas señales sirven, y las dos complementan el trabajo a nivel de SERP.
 
 Trata la GEO como parte del mismo análisis: es la misma SERP detrás de una capa de chat.
 
@@ -128,7 +128,7 @@ Trata la GEO como parte del mismo análisis: es la misma SERP detrás de una cap
 
 **Convertir el export de brecha de palabras clave en un encargo de contenido.** Un export de 1200 filas es una lista. El encargo es lo que queda tras la revisión de un editor y de un experto en la materia.
 
-**Repetir el análisis a lo largo del año.** Los mercados se mueven. Los algoritmos cambian. Llegan nuevos jugadores. Para los clientes activos, refresco el cuadro cada trimestre. En nichos rápidos como las herramientas de IA o las fintech, cada mes.
+**Repetir el análisis a lo largo del año.** Los mercados se mueven. Los algoritmos cambian. Llegan nuevos jugadores. Para los clientes activos, refrescamos el cuadro cada trimestre. En nichos rápidos como las herramientas de IA o las fintech, cada mes.
 
 ### Cuándo el análisis de competencia se gana su presupuesto
 
@@ -140,12 +140,12 @@ Diagnosticar un estancamiento del crecimiento, cuando tu equipo «hace todo bien
 
 Decisiones de precio o de posicionamiento de servicio, cuando sopesas un cambio y quieres saber qué espacio ya está ocupado.
 
-Para el resto del año, basta con el refresco periódico que describo arriba.
+Para el resto del año, basta con el refresco periódico que describimos arriba.
 
 ### Un segundo par de ojos sobre tus rivales reales
 
-Si quieres comprobar que tu equipo se compara con la lista correcta, puedo sacarte un análisis de la competencia a nivel de SERP, centrado en una de tus búsquedas prioritarias, en menos de una hora.
+Si quieres comprobar que tu equipo se compara con la lista correcta, podemos sacarte un análisis de la competencia a nivel de SERP, centrado en una de tus búsquedas prioritarias, en menos de una hora.
 
-Lo hago para clientes de derecho, transporte, inmobiliaria y traducción en seis idiomas, desde Valencia.
+Lo hacemos para clientes de derecho, transporte, inmobiliaria y traducción en seis idiomas, desde Valencia.
 
-¿Quieres saber contra quién compites de verdad en Google? [Escríbeme](https://mikebastin.com/es/contactanos/) o mira [cómo llevo los programas de SEO multilingüe](https://mikebastin.com/es/services/posicionamiento-multilingue/).
+¿Quieres saber contra quién compites de verdad en Google? [Escríbenos](https://mikebastin.com/es/contactanos/) o mira [cómo llevamos los programas de SEO multilingüe](https://mikebastin.com/es/services/posicionamiento-multilingue/).

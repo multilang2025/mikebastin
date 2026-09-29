@@ -32,7 +32,7 @@ Global eCommerce sales will reach $7.5 trillion by 2025 ([eMarketer](https://www
 
 We test every interface element, menu, contact form, and multimedia file for relevance and clarity.
 
-See how we deliver seamless multilingual experiences with our [Website Localization Services](https://mikebastin.com/es/services/traduccion-de-paginas-web/), [Multimedia Localization](https://mikebastin.com/es/services/traduccion-audiovisual/), and [Digital Marketing](https://mikebastin.com/es/services/marketing-digital-valencia/).
+See how we deliver seamless multilingual experiences with our [Website Localization Services](https://mikebastin.com/es/services/traduccion-de-paginas-web/), [Multimedia Localization](https://mikebastin.com/es/services/traduccion-audiovisual/), and [Digital Marketing](/es/services/).
 
 Ready to impress your new audience? We help you launch with confidence and create a site your users can trust.
 

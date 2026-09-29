@@ -1,205 +1,74 @@
 ---
-words: 1620
-title: "SEO local"
+words: 1220
+title: "SEO local para que te encuentren en cada ciudad donde vendes"
+name: "SEO local"
 slug: "seo-local"
 locale: "es"
 type: "services"
 group: "g080"
 wpId: 24848921
 date: "2024-10-10T11:39:41"
-modified: "2026-05-31T16:27:55"
+modified: "2026-09-30T12:00:00"
 sourceUrl: "https://mikebastin.com/es/services/seo-local/"
-excerpt: "Impulsa tu empresa potenciando la capacidad del SEO local. Aumenta tu visibilidad, atrae consumidores dispuestos a comprar y dispara las ventas."
+excerpt: "Sé la empresa que tus clientes encuentran primero en el mapa, en cada ciudad donde vendes y en su idioma, en tu país y en el extranjero."
 ---
 
-# Local SEO: ranking in the map pack and converting nearby customers
+## Ser la primera empresa que tus clientes encuentran cerca de ellos
 
-Google Business Profile, local citations, NAP consistency, LocalBusiness schema, neighbourhood-level landing pages. Multilingual cities (Valencia, Brussels, Geneva, Houston) treated language by language.
+Vendes en varias ciudades: las de tu entorno y quizá Bruselas, Barcelona o Róterdam, donde tienes una oficina, un almacén o clientes habituales. En cada una, quien busca tu servicio mira el mapa de Google y decide ahí: llama a una de las tres empresas que aparecen, después de leer las reseñas de las otras dos. La demanda se gana en esos tres huecos, y hacia ellos apuntamos.
 
-Map pack
+En una ciudad que busca en dos idiomas, la ganancia se duplica. Una ficha en francés y neerlandés en Bruselas, en español e inglés en Valencia, llega a los dos públicos a la vez, y la empresa que añade el segundo idioma se queda con los dos.
 
-top 3 Google Maps results capture the majority of local commercial intent clicks
+El resultado llega con discreción, unas cuantas llamadas más por semana, y se acumula mes a mes. Por eso lo medimos ciudad por ciudad, para que veas lo que te aporta cada dirección.
 
-NAP
+<aside class="post-cta">
+<p><strong>¿Quieres aparecer entre los primeros del mapa en cada ciudad donde vendes?</strong> Trabajamos tu ficha, tus páginas por ciudad y tus reseñas, mercado por mercado y en el idioma de tus clientes. <a href="/es/contactanos/">Reservar una primera conversación</a>.</p>
+</aside>
 
-Name, Address, Phone consistent across every public listing, directory and citation
+## Lo que hacemos por cada ciudad en la que trabajas
 
-Multi-lingual
+El trabajo se concentra en lo que hace elegir a una empresa en el mapa:
 
-cities like Valencia, Brussels, Geneva, Houston are local SEO contexts where multiple languages matter
+- una ficha de Google Business Profile por dirección, completa y al día, en los idiomas que hablan tus clientes en cada lugar;
+- tu nombre, tu dirección y tu teléfono escritos igual en cada directorio, cada web de reseñas y cada cámara de comercio;
+- una página por ciudad o por barrio al que sirves de verdad, que diga algo cierto sobre ese lugar;
+- una rutina para pedir reseñas y una respuesta a cada reseña recibida;
+- un seguimiento mensual de llamadas, solicitudes de ruta y formularios, ciudad por ciudad.
 
-GEO + Local
+Para una empresa que trabaja desde una sola dirección, la ficha suele traer más consultas que la propia web. Para una empresa presente en varios países, cada dirección se convierte en una puerta de entrada a ese mercado, y la [traducción y localización web](/es/services/traduccion-de-paginas-web/) da a cada página local el idioma, los formatos y las referencias de ese mercado.
 
-AI engines now answer «best X in » queries with citations to local results
+Las páginas en español, inglés, francés y neerlandés las redacta directamente nuestro equipo. El alemán, el italiano, el portugués y los demás idiomas los redactan nativos del equipo de BeTranslated, con el mismo briefing y la misma revisión.
 
-## Three things local visibility depends on
+## Resultados de nuestro posicionamiento local
 
-Recurring patterns on local businesses I audit:
+Bemelman Spuiterij es un especialista en pintura en polvo de la Bollenstreek, en los Países Bajos, con cuarenta y cinco años de reputación y una presencia en internet por construir. Montamos un SEO local en neerlandés pensado para el pequeño número de compradores profesionales que buscan este trabajo, y el sitio logró 1 436 clics con 108 568 impresiones en Google entre mayo y julio de 2026. Para las empresas que venden en los Países Bajos o en Flandes, nuestro [SEO en neerlandés](/es/services/seo-neerlandes/) continúa ese trabajo.
 
-The profile needs the right categories, a complete services list, current hours, plenty of photos, regular posts and answered Q&A. Google’s algorithm rewards complete and active profiles, and profile hygiene is often what puts a competitor with the same product above you.
+ValenciaMove es nuestro propio sitio sobre cómo instalarse en Valencia, construido con guías de barrio en cinco idiomas. En esos mismos tres meses logró 5 685 clics con 496 316 impresiones y una posición media de 10,7. Es lo que ocurre cuando una ciudad se busca en varios idiomas y cada uno tiene sus propias páginas.
 
-The business name is slightly different on Yelp vs Yellow Pages vs the local Chamber of Commerce listing. Address has «Street» on one and «St» on another. Phone has different country codes across sources. Google reads a consistent NAP as a confidence signal. Consolidating NAP everywhere is routine work, and it directly affects ranking.
+Presentamos estas cifras como prueba de un método y como punto de partida para hablar de tus ciudades, porque cada mercado tiene sus competidores y su ritmo.
 
-A homepage saying «serving Valencia» is fine. A dedicated page for each neighbourhood you actually serve (Ruzafa, El Carmen, Benimaclet, Cabanyal) is much better. People search «service + neighbourhood» as well as «service + city», and neighbourhood-level content is what captures that long tail.
+## Una ficha de Google Business Profile tratada como un escaparate
 
-Local SEO is mostly about discipline and consistency. Google Business Profile maintained, NAP consistent everywhere, schema in place, neighbourhood-level pages, reviews managed actively, citations cleaned up. Done properly, it compounds over months and quietly pushes you up the map pack.
+Google recompensa una ficha completa y activa: las categorías correctas, la lista entera de servicios, horarios exactos, muchas fotos y publicaciones recientes. Rellenada del todo y actualizada semana tras semana, una ficha conserva su sitio frente a los competidores que cuidan la suya. Con constancia durante unos meses, esa disciplina sube a la empresa al trío de cabeza del mapa, y suben las empresas que perseveran.
 
-## What I include in a local SEO engagement
+Google espera una ficha por dirección física. Los idiomas se trabajan en la descripción, las publicaciones y las respuestas a las reseñas, y después en la web, con una página por idioma para cada ciudad. Una empresa que se desplaza a casa de sus clientes declara su zona de servicio en la ficha y publica una página por cada ciudad que atiende.
 
-Categories, services, attributes, hours, photos, posts, Q&A. Multi-language profile where the city is multilingual. Monthly updates and posts to keep the profile active.
+Cada vez más preguntas del tipo «cuál es el mejor X en Lyon» pasan por ChatGPT, Claude o Perplexity antes que por el mapa. Esas respuestas se apoyan en la misma materia: datos estructurados, citaciones coherentes y una reputación lo bastante visible como para resumirse. El trabajo rinde así dos veces, en el mapa y en las respuestas.
 
-Audit of existing citations, correction of inconsistencies, addition of high-value local directories (Yellow Pages local equivalent, Chamber of Commerce, sector associations).
+## Datos de contacto idénticos y páginas que hablan de cada ciudad
 
-JSON-LD with NAP, opening hours, geo-coordinates, areaServed, priceRange, paymentAccepted. Specialised subtypes (LegalService, MedicalBusiness, RealEstateAgent, FreightForwarder) where relevant.
+Google lee tus datos de contacto en decenas de sitios, y cuando coinciden, se fía de ellos en todas partes. El trabajo empieza con una auditoría de las citaciones existentes: corregimos las diferencias, eliminamos duplicados y añadimos las fuentes locales que cuentan, como la cámara de comercio, la asociación profesional y el directorio que tu sector consulta de verdad. Esa corrección, la más frecuente, es la que hace aparecer en el mapa a una empresa con buenas páginas.
 
-Dedicated pages per neighbourhood or district served. Content written for each area, local schema, internal linking from main service pages.
+Una página por barrio o por ciudad funciona cuando cada una dice algo cierto sobre ese lugar, mucho más allá de un nombre de ciudad cambiado. Lleva el marcado LocalBusiness con el subtipo adecuado: LegalService para un despacho de abogados, FreightForwarder para un transitario. Los enlaces internos desde las páginas de servicio principales la hacen fácil de encontrar. En una web multilingüe, las etiquetas hreflang unen la página de Bruselas en francés con su versión en neerlandés, para que cada visitante llegue en su idioma; nuestro [posicionamiento multilingüe](/es/services/posicionamiento-multilingue/) cubre esa estructura al detalle.
 
-Process for requesting reviews from satisfied customers (post-service email, QR code at checkout). Active response strategy to all reviews. Negative review handling protocol.
+Las reseñas nacen de un proceso: una petición enviada después del servicio, por correo o con un código QR en el recibo. Cada reseña recibe respuesta, también las críticas, porque la respuesta la leen todos los clientes siguientes. Conviene tener preparada la respuesta a una reseña crítica antes de que llegue: bien gestionada, inspira más confianza que una columna de cinco estrellas.
 
-«Best X in » queries on ChatGPT, Claude and Perplexity now drive a meaningful share of local discovery. Structured data, citations and reputation feed AI knowledge graphs.
+## Cómo trabajamos
 
-## My process in 5 steps, named deliverables
+1. **Auditoría.** Tu posición en el mapa para tus principales búsquedas comerciales, el estado de cada ficha, la coherencia de tus datos, el marcado y tus reseñas, comparados con tus tres competidores más cercanos.
+2. **Fichas y citaciones.** Cada ficha completada, los datos armonizados en los directorios, los duplicados eliminados y las fuentes que faltan añadidas.
+3. **Páginas y marcado.** Las páginas por ciudad o barrio redactadas en cada idioma elegido, el marcado LocalBusiness instalado y los enlaces internos reorganizados.
+4. **Reseñas.** La rutina de petición instalada, modelos de respuesta listos y vigilancia de las reseñas nuevas.
+5. **Seguimiento mensual.** Publicaciones, fotos, respuestas y un informe de tu visibilidad local y de las consultas recibidas, ciudad por ciudad, con los ajustes recomendados.
 
-Audit, profile work, citations, content, ongoing maintenance.
-
-**Deliverable:** map pack ranking analysis for your top commercial queries, GBP completeness check, NAP audit across the top 20 citation sources, schema verification, review profile assessment, competitor benchmark on the 3 closest competitors.
-
-**Deliverable:** GBP fully optimized (categories, services, attributes, hours, photos), NAP consistency restored across all relevant directories, new citations added on high-value sources, duplicate listings removed.
-
-**Deliverable:** LocalBusiness schema deployed with correct subtype, internal linking restructured for local relevance, neighbourhood landing pages produced if scope includes them, Service schema per offering where relevant.
-
-**Deliverable:** review request workflow installed (email post-service, QR code, links on receipts), response template library, monitoring of new reviews across Google, Yelp, Trustpilot. Negative review playbook documented.
-
-**Deliverable:** monthly GBP posts, new photos, Q&A maintenance, monitoring of map pack rankings, monthly report on local visibility, review volume and sentiment, conversion data (calls, direction requests, form submissions). Adjustment recommendations.
-
-## Local SEO case studies
-
-Three engagements where local visibility was the central revenue driver.
-
-**Context:** ISO 9001-certified paint shop in Hillegom serving the Bollenstreek region. Mixed B2C and B2B clientele, in-person service requiring local presence.
-
-**Build:** GBP fully optimized with all services and attributes, NAP consistent across Dutch directories (Gouden Gids, Detailhandel.nl, Branchevereniging Carrosseriebedrijven), LocalBusiness schema on every page, dedicated landing pages per surrounding city (Hillegom, Lisse, Sassenheim, Noordwijkerhout), proactive review request process.
-
-**Outcome:** map pack presence on «autospuiterij + city» queries across the Bollenstreek, qualified inquiries arriving daily through GBP messaging and the website form, organic ranking on long-tail neighbourhood queries.
-
-**Context:** expatriate content site covering Valencia. Local SEO matters for ranking on neighbourhood-specific queries about Valencia districts and surrounding municipalities.
-
-**Build:** dedicated guide pages per Valencia neighbourhood (Ruzafa, El Carmen, Benimaclet, Cabanyal, Patacona) and surrounding cities (Paterna, Mislata, Burjassot), neighbourhood-level cost-of-living analysis, geo schema markup, GBP for the content brand.
-
-**Outcome:** rankings on neighbourhood-specific queries about Valencia districts in both Spanish and English, AI citations for «best neighbourhoods in Valencia» type queries, recurring inbound from prospective movers exploring specific areas.
-
-**Context:** Valencia-based law firm specialised in business law and franchising. Local trust signals critical for legal sector. Multilingual local presence (Spanish, French, English).
-
-**Build:** LegalService schema with ICAV (Valencia bar association) membership, GBP optimized in Spanish as primary plus translated profile descriptions for French and English versions, NAP consistency across legal directories, structured attorney bios with credentials.
-
-**Outcome:** visibility on «abogado mercantil Valencia» and equivalent queries in French and English, recurring local leads requesting consultation for business law matters.
-
-## What is included, what is handled elsewhere
-
-Service
-
-Included
-
-Handled elsewhere
-
-Local SEO audit (map pack, GBP, NAP, schema, reviews)
-
-✓
-
-Google Business Profile full optimization
-
-✓
-
-NAP cleanup across top citation sources
-
-✓
-
-LocalBusiness schema with correct subtype
-
-✓
-
-Neighbourhood landing pages (writing included for direct languages)
-
-✓
-
-Review request workflow and response strategy
-
-✓
-
-Monthly GBP maintenance (posts, photos, Q&A)
-
-✓
-
-Monthly reporting on local visibility and conversions
-
-✓
-
-Paid Local Service Ads (LSA) campaigns
-
-⨯ covered by [multilingual SEM](https://mikebastin.com/es/services/publicidad-multilingue/)
-
-Complete multilingual site build
-
-⨯ covered by [web design](https://mikebastin.com/es/services/diseno-web/)
-
-Cross-country expansion strategy
-
-⨯ covered by [international SEO](https://mikebastin.com/es/services/agencia-de-seo-global/)
-
-## Why this team for local SEO
-
-**Mike Bastin:** Over two decades in SEO. Live experience of local visibility across multilingual cities: Valencia (Spanish-French-English expat market), the Bollenstreek (Dutch-only paint shop), Houston (English-Spanish freight forwarder), Santo Domingo (Spanish-English real estate).
-
-Multilingual local SEO is a distinct discipline: a city like Valencia or Brussels needs the GBP to surface in the right language depending on the searcher, the schema to declare multiple languages served, and the citations to span both Spanish and international directories.
-
-End-to-end execution: GBP, schema, content, citations, review management, ongoing maintenance. One interlocutor, one accountable consultant.
-
-[More about the team →](https://mikebastin.com/es/conocenos-agencia-experta-en-seo/)
-
-### Single location, multi-location, or service area?
-
-Local SEO strategy depends on physical footprint.
-
-**Single location:** one GBP profile, one set of citations, neighbourhood landing pages for surrounding districts served. Default for SMBs.
-
-**Multi-location (chain or franchise):** distinct GBP profile per location, parent-child page structure, location-specific schema. Each location gets its own content.
-
-**Service-area business (mobile services, freight, repair, consulting):** service area declared in GBP, content covering cities served, physical address hidden (with Google’s permission) for home-based operators. Specific schema for service-area businesses.
-
-Reasoned recommendation given at scoping.
-
-## Frequently asked questions on local SEO
-
-How long before I see map pack improvement?
-
-First movement: 4 to 8 weeks once GBP is fully optimized and NAP is consistent. Significant ranking improvement: 3 to 6 months as citations propagate and reviews accumulate. Highly competitive markets (restaurants in major cities, lawyers in capitals) can take 9-12 months to reach top 3.
-
-How important are Google reviews vs other review sites?
-
-Google reviews matter most for map pack ranking. Yelp matters more in the US than in Europe. Trustpilot is strong for ecommerce. Sector-specific sites (TripAdvisor for hospitality, Avvo for legal, Healthgrades for medical) carry weight in their vertical. Strategy is to prioritise Google then add the relevant sector sites.
-
-Should I have a separate GBP per language for a multilingual market?
-
-One GBP profile per physical location. The GBP can list multiple languages served and the descriptions can be translated through the GBP interface where supported. A single profile per location keeps the listing clean for ranking. The multilingual aspect is handled on the website side.
-
-What is NAP and why does consistency matter?
-
-NAP stands for Name, Address, Phone: the three core data points Google cross-references across the web to validate a business is real and located where it claims. Make every citation read the same way, for example «Avenida del Puerto 14» on every listing where one might say «Av Puerto 14»: consistent details build Google’s confidence and support local ranking. Consolidating NAP is routine work, and it directly affects map pack position.
-
-Do paid Local Service Ads matter for local SEO?
-
-LSAs (Local Service Ads) are a paid product, separate from organic SEO, and they appear above the map pack on relevant queries. For service-area businesses (plumbers, electricians, locksmiths) and certain legal and healthcare verticals, LSAs are increasingly the dominant click path. Strategy can include both: LSAs for immediate visibility plus organic local SEO for compounding long-term presence.
-
-How do you handle negative reviews?
-
-Three-step playbook: (1) respond promptly and professionally, stay courteous and keep client information private; (2) try to take the conversation offline with a phone number or email; (3) once resolved, ask the reviewer if they would update the review. Request removal through Google only when a review violates policy (fake reviewer, profanity, off-topic). Public response shows future customers how the business handles complaints.
-
-How much does a local SEO engagement cost?
-
-Quoted. Depends on scope (single location vs multi-location), number of languages, level of content production for neighbourhood pages, and ongoing maintenance frequency. Free first call: 30 minutes to understand your context and give an honest range. Every proposal follows a conversation.
-
-## Ready to own your local map pack?
-
-I start by auditing your current local presence, ranking, NAP and GBP. Quantified diagnosis, actionable recommendations. Free first call, and you decide what comes next.
-
-Related services: [multilingual SEO](https://mikebastin.com/es/services/posicionamiento-multilingue/) · [international SEO](https://mikebastin.com/es/services/agencia-de-seo-global/) · [multilingual SEM](https://mikebastin.com/es/services/publicidad-multilingue/) · [web design](https://mikebastin.com/es/services/diseno-web/)
+Empezamos con una auditoría gratuita de 20 minutos de tu presencia local, y después recibes un alcance escrito para el primer trimestre. El trabajo sigue mes a mes, leemos cada solicitud nosotros mismos y respondemos en general en un día laborable. El precio depende del número de direcciones, de idiomas y de páginas por redactar; se presupuesta tras la primera conversación, y [nuestros precios](/es/precios/) explican cómo facturamos.

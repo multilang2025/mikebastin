@@ -40,13 +40,13 @@ const word = (w) => new RegExp(`(?<![${L}])(?:${w})(?![${L}])`, "iu");
 const RULES = [
   { id: "voice", re: new RegExp(`(?<![${L}])(yo|mi|mis|mío|mía|míos|mías|conmigo|soy|estoy)(?![${L}])`, "u"),
     fix: "nosotros, nuestro, nos: the site speaks as \"we\"" },
-  { id: "register", re: word("usted|ustedes|suyo|suya"), fix: "tú: tu, tus, te, contigo" },
+  { id: "register", re: word("usted|ustedes"), fix: "tú: tu, tus, te, contigo (never usted)" },
   { id: "punctuation", test: (t) => /[^¿]*\?/.test(t) && sentencesOf(t).some((s) => /\?\s*$/.test(s) && !s.includes("¿")),
     fix: "open with ¿ (and ¡ before !)" },
   { id: "punctuation", re: /"[^"]{2,}"/u, fix: "« » or “ ”, not straight quotes" },
   { id: "experience", re: /\b25 años\b|veinticinco años|desde 1999/iu, fix: "más de dos décadas" },
   { id: "vocabulary",
-    re: word("exhaustiv[oa]s?|a medida|sin fisuras|sin costuras|innovador[ae]?s?|robust[oa]s?|transformador[ae]?s?|en constante evolución|en conclusión|es importante señalar|es importante destacar|sin embargo|no obstante|asimismo|imprescindibles?"),
+    re: word("exhaustiv[oa]s?|a medida(?! que)|sin fisuras|sin costuras|innovador[ae]?s?|robust[oa]s?|transformador[ae]?s?|en constante evolución|en conclusión|es importante señalar|es importante destacar|sin embargo|no obstante|asimismo"),
     fix: "the Spanish forbidden list (mirrors the English one in CLAUDE.md)" },
   { id: "vocabulary", re: /(^|[.!?]\s+)Además,/u, fix: "\"Además,\" opener (forbidden: additionally)" },
   { id: "english",
@@ -97,7 +97,11 @@ const headingsOf = (html) =>
     decode(m[2].replace(/<[^>]+>/g, "")).trim()
   );
 
-function titleCase(h) {
+// Product and platform names keep their capitals in Spanish.
+const NAMES = /Perfil de Empresa de Google|Google Analytics|Search Console|Tag Manager|Generative Engine Optimization/g;
+
+function titleCase(h0) {
+  const h = h0.replace(NAMES, "");
   const words = h.split(/\s+/).filter((w) => /^\p{L}/u.test(w)).slice(1);
   if (words.length < 3) return false;
   const lower = words.filter((w) => w.length > 3 && /^\p{Ll}/u.test(w)).length;

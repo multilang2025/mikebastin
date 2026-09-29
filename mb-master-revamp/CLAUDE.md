@@ -639,21 +639,29 @@ request), paired by `lib/lead-gen-hubs.ts` rather than content-map; the
 ES one is the first rebuilt Spanish page. **Spanish addresses the reader as "tú"**
 (owner, 29 Sep 2026); French keeps "vous" in a **formal** register (owner,
 30 Sep 2026), enforced by `lint:fr`.
+**Spanish rebuild started 30 Sep 2026** ("Start Spanish"), following the
+French one: `docs/ES-REBUILD-PLAN.md` (the reader is a Spanish-speaking
+company selling abroad, assumed to mirror the French decisions),
+`lib/es-pages-data.ts`, `scripts/gen-es-redirects.mjs`, and `npm run
+lint:es` (`scripts/es-copy-lint.mjs`: nosotros voice, tú, paired ¿ ¡, no
+straight quotes, "más de dos décadas", the Spanish forbidden words,
+untranslated English, sentence case). The main Spanish page is
+`/es/services/optimizacion-seo/`; six services were built new
+(`traduccion-profesional`, `localizacion-de-aplicaciones`,
+`redaccion-seo-multilingue`, `consultoria-de-inteligencia-artificial`,
+`posedicion-de-ia`, `seo-tecnico`).
 
 The gaps below are the FR and ES starting position whenever the gate
 opens. Flagged rather than forgotten, so they are known and deliberate:
 
-- **No ES index pages.** French has `/fr/services/` and `/fr/blog/` since
-  29 Sep 2026; `/es/services/` and `/es/blog/` do not exist yet, so
-  `SiteFooter` gives Spanish no index link.
 - **No FR or ES topic pages.** `getTopics()` reads the EN clusters, which
   have no FR/ES equivalent, so `/blog/topics/` is English only.
 - **The FR and ES motto renderings are unreviewed.** They ship in
   `SiteFooter`'s string table and are a first pass, not signed off.
-- **Spanish service pages have unadapted headings.** The French ones were
-  rewritten in phase 4 (30 Sep 2026); `scripts/heading-shape-lint.mjs`
-  still reports FR and ES without failing, since a word count does not
-  survive translation.
+- **FR and ES headings are reported, not failed, by the heading lint.**
+  The French and Spanish service pages were rewritten on 30 Sep 2026;
+  `scripts/heading-shape-lint.mjs` still reports them without failing,
+  since a word count does not survive translation.
 - **valenciamove.com's services page launches EN only.** The plan first
   recommended EN plus ES; the owner's call on 20 Sep supersedes that.
 
