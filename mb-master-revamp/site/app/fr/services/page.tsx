@@ -7,6 +7,7 @@ import JsonLd from "@/components/JsonLd";
 import LocaleHtmlLang from "@/components/LocaleHtmlLang";
 import { getServicesForLocale, servicePath } from "@/lib/services-locale";
 import { frLanguages } from "@/lib/fr-pages";
+import { leadGenPath } from "@/lib/lead-gen-hubs";
 import { SITE_URL, breadcrumbSchema } from "@/lib/schema";
 
 // French services index (docs/FR-REBUILD-PLAN.md). The legacy /fr/nos-services/
@@ -92,8 +93,29 @@ export default function FrenchServicesIndex() {
         </div>
       </section>
 
+      {/* The hub every service below feeds, as on the English index. */}
+      <section className="band band-b py-[clamp(48px,7vw,96px)]">
+        <div className="shell">
+          <Reveal>
+            <Link
+              href={leadGenPath("fr")}
+              className="group flex flex-col gap-3 border px-7 py-8 sm:px-10"
+              style={{ borderColor: "var(--rule)" }}
+            >
+              <span className="eyebrow">Le service qui réunit tous les autres</span>
+              <span className="ulink text-[clamp(1.3rem,2.4vw,1.8rem)] font-semibold leading-[1.2]">
+                Génération de leads B2B à l’international
+              </span>
+              <span className="max-w-[60ch] text-[.98rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
+                Référencement, publicité et suivi des conversions menés ensemble, et jugés sur un seul critère{"\u00a0"}: les demandes que chaque marché envoie à votre équipe commerciale.
+              </span>
+            </Link>
+          </Reveal>
+        </div>
+      </section>
+
       {groups.map((g, gi) => (
-        <section key={g.heading} className={`band ${gi % 2 === 0 ? "band-b" : "band-a"} py-[clamp(48px,7vw,96px)]`}>
+        <section key={g.heading} className={`band ${gi % 2 === 0 ? "band-a" : "band-b"} py-[clamp(48px,7vw,96px)]`}>
           <div className="shell">
             <Reveal>
               <div className="mb-8 border-b pb-4" style={{ borderColor: "var(--rule)" }}>

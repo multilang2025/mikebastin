@@ -187,6 +187,27 @@ Second slice done (29 Sep 2026):
 - `gen-fr-redirects.mjs` rerun: 29 rules, all permanent. No legacy French
   URL waits on an interim page any more.
 
+Lead generation hubs (29 Sep 2026, owner: "work on the lead generation
+hubs in fr and es"):
+
+- `/fr/services/generation-de-leads/` and `/es/services/generacion-de-leads/`,
+  hand-built siblings of `/services/lead-generation/` with the same case
+  in the same order, and only facts the English page states. Slugs and
+  h1s from Ahrefs (29 Sep): FR "génération de leads" 800 a month,
+  "agence génération de leads" 600; ES "generación de leads" 200 plus 200
+  unaccented, "generación de leads b2b" 150.
+- `lib/lead-gen-hubs.ts` pairs the three (no content-map group, since all
+  three are hand-built routes): reciprocal hreflang on all three pages,
+  the sitemaps and the language switcher.
+- `Testimonials` shows its labels, review ages and source line in the
+  page's language, and drops "Read in English" on FR and ES pages.
+- Linked from `/fr/services/` (a card above the groups) and the French
+  homepage.
+- The ES hub is the first rebuilt Spanish page. Spain has no contact page
+  yet, so its calls to action go to `/contact/` and say the form can be
+  filled in in Spanish. It uses "usted"; the ES footer string table uses
+  "tú", to settle when the Spanish rebuild starts.
+
 Next slice: the French copy lint. Legacy French copy to fix in phase 4, noted while
 building: several service excerpts say "25 années d'expérience" (the
 owner's rule is "over two decades"), and two post titles use

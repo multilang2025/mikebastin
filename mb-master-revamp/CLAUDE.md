@@ -601,6 +601,9 @@ French homepage, services index, blog index and contact pages are built,
 with French copy drafted for the owner's review. `lib/fr-pages-data.ts`
 is the one list of French pages; add a page there and it reaches the
 menu, sitemap and hreflang at once.
+The lead generation hub has FR and ES siblings (29 Sep 2026, owner
+request), paired by `lib/lead-gen-hubs.ts` rather than content-map; the
+ES one is the first rebuilt Spanish page.
 
 The gaps below are the FR and ES starting position whenever the gate
 opens. Flagged rather than forgotten, so they are known and deliberate:

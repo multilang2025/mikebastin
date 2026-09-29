@@ -30,6 +30,7 @@ import matter from "gray-matter";
 import { marked } from "marked";
 import { SITE_URL } from "@/lib/schema";
 import { REPO_ROOT, LOCALES, qualifyingGroupsForLocale, type Locale, type LocaleSlugs } from "@/lib/content-locale";
+import { LEAD_GEN_SLUGS } from "@/lib/lead-gen-hubs";
 
 export type ServiceFrontmatter = {
   words: number;
@@ -188,6 +189,11 @@ export function getServiceLocaleManifest(): Record<string, LocaleSlugs> {
     for (const locale of published) {
       manifest[servicePath(locale, siblings[locale]!)] = siblings;
     }
+  }
+  // The lead generation hubs are hand-built routes with no content-map
+  // group (lib/lead-gen-hubs.ts), so they are paired here by hand.
+  for (const locale of LOCALES) {
+    manifest[servicePath(locale, LEAD_GEN_SLUGS[locale])] = { ...LEAD_GEN_SLUGS };
   }
   return manifest;
 }

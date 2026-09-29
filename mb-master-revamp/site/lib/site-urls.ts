@@ -15,6 +15,7 @@ import {
 } from "@/lib/services-locale";
 import { SITE_URL } from "@/lib/schema";
 import { builtFrPages, enLanguages, frLanguages } from "@/lib/fr-pages";
+import { leadGenLanguages, leadGenPath } from "@/lib/lead-gen-hubs";
 
 /**
  * Every indexable URL on the site, in one place.
@@ -105,9 +106,14 @@ export function getSiteUrls(): UrlEntry[] {
       kind: "page",
       section: "Services",
       label: s.name,
-      languages: group ? serviceHreflang(group) : undefined,
+      languages: s.slug === "lead-generation" ? leadGenLanguages() : group ? serviceHreflang(group) : undefined,
     });
   }
+
+  // The FR and ES lead generation hubs: hand-built routes, paired in
+  // lib/lead-gen-hubs.ts rather than through content-map.
+  out.push({ path: leadGenPath("fr"), locale: "fr", kind: "page", section: "French", label: "Génération de leads", languages: leadGenLanguages() });
+  out.push({ path: leadGenPath("es"), locale: "es", kind: "page", section: "Spanish", label: "Generación de leads", languages: leadGenLanguages() });
 
   for (const t of getTopics()) {
     out.push({

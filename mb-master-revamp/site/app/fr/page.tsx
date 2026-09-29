@@ -8,6 +8,7 @@ import LocaleHtmlLang from "@/components/LocaleHtmlLang";
 import { ButtonLink } from "@/components/ui/Button";
 import { getServicesForLocale, servicePath } from "@/lib/services-locale";
 import { frLanguages } from "@/lib/fr-pages";
+import { leadGenPath } from "@/lib/lead-gen-hubs";
 import { SITE_URL, breadcrumbSchema } from "@/lib/schema";
 
 // The French homepage (docs/FR-REBUILD-PLAN.md). Its reader is a
@@ -144,6 +145,15 @@ export default function FrenchHome() {
               </Reveal>
             ))}
           </ul>
+          <Reveal>
+            <p className="mt-10 max-w-[62ch] text-[1.02rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
+              Les trois sont menés ensemble et jugés sur les demandes que chaque marché vous envoie.{" "}
+              <Link href={leadGenPath("fr")} className="ulink">
+                Voir notre génération de leads B2B
+              </Link>
+              .
+            </p>
+          </Reveal>
         </div>
       </section>
 

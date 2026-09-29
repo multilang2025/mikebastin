@@ -8,6 +8,7 @@ import JsonLd from "@/components/JsonLd";
 import { getService } from "@/lib/services";
 import { SITE_URL, breadcrumbSchema, serviceSchema } from "@/lib/schema";
 import ServiceHeroArt from "@/components/ServiceHeroArt";
+import { leadGenLanguages } from "@/lib/lead-gen-hubs";
 
 // The Service entry for this slug lives in lib/services.ts, and this route
 // reads its h1, subhead, lede and meta fields from there rather than
@@ -20,7 +21,7 @@ const url = `${SITE_URL}/services/lead-generation/`;
 export const metadata: Metadata = {
   title: service.metaTitle,
   description: service.metaDescription,
-  alternates: { canonical: url },
+  alternates: { canonical: url, languages: leadGenLanguages() },
   // og:image/twitter:image come from the colocated opengraph-image.tsx
   // (Next.js file-convention metadata), not an `images` array here.
   openGraph: {
