@@ -60,7 +60,7 @@ Graba una sola toma continua que muestre el cartel, la recepción y una activida
 
 Tras la verificación, trata el perfil como la sala del estudio: necesita cuidado diario para seguir resultando acogedor.
 
-En un estudio de bienestar de Valencia, tres semanas de silencio costaron un tercio de las reservas de clase.
+En un estudio de bienestar de Valencia, tres semanas de silencio se notaron en las reservas de clase.
 
 El perfil se recuperó en cuanto publicamos dos fotos y una actualización por semana durante 30 días.
 
@@ -166,7 +166,7 @@ Para los negocios que viven de las clases, conecta tu sistema de reservas (MindB
 
 Cuantos menos pasos haya de la búsqueda a la esterilla reservada, más alumnos llegan a clase.
 
-Lo montamos para un estudio de bienestar el año pasado y las reservas de clase subieron un 40 % en dos meses, solo con el perfil orgánico.
+Lo montamos para un estudio de bienestar el año pasado y las reservas de clase subieron con solo el perfil orgánico.
 
 ### Métricas que vale la pena seguir
 

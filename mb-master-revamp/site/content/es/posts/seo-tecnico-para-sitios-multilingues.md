@@ -24,7 +24,7 @@ En esta guía te enseñamos los puntos que más ajustamos cuando auditamos una w
 
 > El 76 % de los compradores online prefiere adquirir productos con información en su propio idioma, y un 40 % no compra en webs que estén en otra lengua.
 > 
-> Fuente: [CSA Research](https://csa-research.com/)
+> Fuente: [CSA Research, «Can't Read, Won't Buy» (2020, 8.709 consumidores de 29 países)](https://www.newswire.com/news/survey-of-8-709-consumers-in-29-countries-finds-that-76-prefer-21174283)
 
 ### Por qué las etiquetas hreflang son el cimiento
 

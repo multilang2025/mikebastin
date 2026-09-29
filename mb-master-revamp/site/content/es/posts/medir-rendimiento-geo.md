@@ -97,8 +97,6 @@ Hoy, el cliente B2B **ya ha interactuado con la IA antes de visitar tu web**. Cu
 -   **E-E-A-T visible**: autores con biografías, credenciales y enlaces a [LinkedIn](https://www.linkedin.com/in/michaelbastin/) o publicaciones.
 -   **Schema integrado**: todo el contenido debe tener JSON-LD válido.
 
-> Según _Search Engine Journal_, páginas que responden directamente a la intención del usuario tienen **40 % más probabilidades** de ser citadas en Google AI Overviews.
-
 ## Casos reales: GEO en acción
 
 | Sector | Cliente | Estrategia GEO | Resultado |

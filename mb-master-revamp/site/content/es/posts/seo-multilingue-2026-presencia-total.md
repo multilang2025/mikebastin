@@ -29,9 +29,9 @@ La [Generative Engine Optimization](https://mikebastin.com/es/optimizar-para-seo
 
 En un proyecto multilingüe, la GEO añade una capa más. Cada versión de idioma tiene que estar estructurada, ser factual y tener suficiente densidad de entidades para que un modelo la extraiga con confianza.
 
-> Para 2028, el tráfico de búsqueda orgánica tradicional caerá más de un 25 % a medida que los asistentes de IA absorban consultas que antes terminaban en un clic.
+> Gartner previó en febrero de 2024 que el volumen de las búsquedas en buscadores tradicionales caería un 25 % para 2026, a medida que los chatbots de IA y otros agentes virtuales absorban consultas que antes terminaban en un clic.
 > 
-> Fuente: [Gartner](https://www.gartner.com/)
+> Fuente: [Gartner, nota de prensa del 19 de febrero de 2024](https://www.gartner.com/en/newsroom/press-releases/2024-02-19-gartner-predicts-search-engine-volume-will-drop-25-percent-by-2026-due-to-ai-chatbots-and-other-virtual-agents)
 
 ### Por qué el SEO multilingüe sigue siendo la base
 

@@ -108,8 +108,6 @@ Audita a tus rivales: ¿usan JSON-LD? ¿Definen bien sus servicios y autores?
 
 Marcas como **Bemelman** o **Smartown** ya preparan su web para que la IA la entienda. Para dar ese paso, una [consultoría de IA](https://mikebastin.com/es/services/consultoria-de-inteligencia-artificial/) te ayuda a estructurar tu contenido para la era generativa.
 
-**Dato clave:** Se estima que para finales de 2026, más del 30% de las búsquedas transaccionales se resolverán dentro de interfaces conversacionales, con la respuesta en el propio chat.
-
 ## Cómo analizar a un rival paso a paso
 
 Sigue este flujo:

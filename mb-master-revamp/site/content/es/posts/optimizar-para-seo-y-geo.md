@@ -78,7 +78,7 @@ Seguir la evolución de términos de búsqueda y cómo activan respuestas enriqu
 
 Experiencia, Pericia, Autoridad y Fiabilidad (E-E-A-T) son criterios que los motores generativos aplican para dar respuestas fiables. Firmar artículos con autores reales y reconocidos aumenta la probabilidad de citación.
 
-Según [Search Engine Journal](https://www.searchenginejournal.com/), la transparencia sobre la autoría influye directamente en la selección como fuente primaria.
+Puedes seguir cómo evolucionan estas señales en [Search Engine Journal](https://www.searchenginejournal.com/).
 
 Los [enlaces externos](https://mikebastin.com/es/analizar-backlinks-competidores/) de calidad siguen siendo indicadores de confianza que los LLMs utilizan para validar información. Un [especialista en posicionamiento orgánico internacional](/es/services/posicionamiento-multilingue/) construye perfiles de enlaces que respaldan la autoridad en múltiples regiones.
 

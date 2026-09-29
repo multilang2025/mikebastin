@@ -140,13 +140,17 @@ French legacy page never had it.
 `hreflang_standalone: ["es"]`: the Spanish main page sells to a Spanish
 exporter, the other two to a foreign company entering Spain.
 
-Posts carry some unsourced figures from the legacy copy that the owner
-may want to confirm or drop: BeTranslated "68 %", the Delaguía y Luzón
-"42 oportunidades, 27 backlinks, 34 %" and the Smartown "19 backlinks,
-28 %" in the backlinks post, a "más del 30 %" transactional-search
-forecast, the "1,25 % frente a 11 %" outreach test and "80 propuestas",
-and two Google Business Profile cases (a third of bookings lost, +40 %
-class bookings).
+Unsourced figures in the posts were resolved on 30 Sep 2026 ("find
+sourced stats"). Gartner (25 % by 2026, press release of 19 Feb 2024, the
+old copy said 2028), CSA Research (76 % and 40 %, 2020) and Backlinko with
+Pitchbox (32,7 % more replies to a personalised body, 12 million emails)
+now cite their real pages. The legacy client figures with no record
+(BeTranslated 68 %, Delaguía y Luzón 42, 27 and 34 %, Smartown 19 and 28 %,
+the 1,25 % against 11 % test with its 80 proposals, the two Business Profile
+percentages), the "más del 30 %" forecast, the Backlinko "73 %" and the
+Search Engine Journal "40 %" were dropped or stated without numbers, since
+no source could be found. The owner can restore a client figure with its
+Search Console evidence.
 
 ## Open for the owner
 

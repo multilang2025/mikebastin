@@ -69,11 +69,11 @@ Estos tres puntos aparecen casi siempre que auditamos un programa de enlaces esp
 
 **Elegir bien el inventario .es.** Publisuites y Prensalink tienen editores legítimos en su catálogo; la franja barata (por debajo de 40 euros) son sobre todo blogs de poco tráfico y control editorial flojo, y Google ha tenido años para aprenderse esa huella.
 
-**Escribir en español a editores españoles.** Hicimos la prueba una vez con un cliente estadounidense que quería el inglés. Enviamos 80 propuestas personalizadas en inglés durante dos meses. Tasa de respuesta: 1,25 %. Repetimos la misma lista en español, con una lingüista junior de nuestro equipo. Tasa de respuesta: 11 %. Mismos editores, mismo ángulo, misma semana del año.
+**Escribir en español a editores españoles.** Hicimos la prueba una vez con un cliente estadounidense que quería el inglés. Enviamos propuestas personalizadas en inglés durante dos meses y casi ninguna obtuvo respuesta. Repetimos la misma lista en español, con una lingüista de nuestro equipo, y las respuestas llegaron. Mismos editores, mismo ángulo, misma temporada.
 
 **Anchors naturales.** Los editores españoles reescriben los anchors exactos: uno como _abogado matrimonialista Madrid_ suele acabar como _este despacho_ o el nombre de la marca. Cuenta con ello.
 
-> La misma lista de editores, el mismo ángulo y la misma semana del año. Lo único que cambié fue el idioma de la propuesta, del inglés al español. La tasa de respuesta pasó del 1,25 % al 11 %. En España, el idioma no es un detalle, es la puerta de entrada.
+> La misma lista de editores, el mismo ángulo y la misma temporada. Solo cambiamos el idioma de la propuesta, del inglés al español, y las respuestas llegaron. En España, el idioma es la puerta de entrada.
 > 
 > [Mike Bastin](https://mikebastin.com/es/conocenos-agencia-experta-en-seo/)
 

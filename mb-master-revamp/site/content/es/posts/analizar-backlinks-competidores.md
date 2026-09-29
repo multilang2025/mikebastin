@@ -46,7 +46,7 @@ Para identificar a los competidores reales:
 2.  Busca tus términos clave y apunta quién sale arriba, venda o no lo mismo que tú
 3.  Incluye blogs y medios que capturan la atención del usuario antes de que decida comprar
 
-Con **BeTranslated** nos dimos cuenta de que el 68% del tráfico orgánico en keywords de traducción venía de blogs especializados.
+Con **BeTranslated** vimos que los blogs especializados ocupaban buena parte de las primeras posiciones en keywords de traducción.
 
 Ese dato nos hizo cambiar el foco del outreach: empezamos a contactar editores de contenido lingüístico.
 
@@ -60,9 +60,9 @@ Con herramientas como Ahrefs puedes filtrar y ver:
 -   Qué tipo de contenido les funciona (estudios, herramientas, guías prácticas)
 -   Qué anchor text usan y cómo lo distribuyen para que parezca natural
 
-Para **Delaguía Luzón** encontramos 42 oportunidades en portales jurídicos españoles que enlazaban a competidores.
+Para **Delaguía Luzón** encontramos portales jurídicos españoles que enlazaban a competidores.
 
-Tras crear contenido específico sobre derecho inmobiliario valenciano, conseguimos 27 backlinks nuevos en 90 días y el tráfico orgánico subió un 34%.
+Tras crear contenido específico sobre derecho inmobiliario valenciano, conseguimos backlinks nuevos de esos portales.
 
 ## Herramientas que usamos para analizar backlinks en 2026
 
@@ -118,7 +118,7 @@ Por eso en nuestro [SEO local](https://mikebastin.com/es/services/seo-local/) si
 Un perfil sano tiene este aspecto:
 
 -   40 a 50 %: texto de marca o URL directa
--   30 a 40 %: frases genéricas («más info», «ver aquí»)
+-   30 a 40 % (orientativo): frases genéricas («más info», «ver aquí»)
 -   10 a 20 %: keywords exactas
 
 Mantén el anchor text con keywords exactas por debajo del 25%: por encima, Google empieza a sospechar.
@@ -130,10 +130,10 @@ Mira los perfiles de tus competidores para ver qué tácticas arriesgadas usan y
 Una vez tengas el análisis, haz esto:
 
 1.  **Enfócate en lo importante:** empieza por los 10 dominios con más autoridad en tu sector
-2.  **Crea contenido que inviten a enlazar:** estudios con datos propios funcionan mejor que el 73% de solicitudes genéricas (Backlinko, 2025)
-3.  **Personaliza el contacto:** cuando escribas, menciona el artículo donde enlazaron a un competidor y explica por qué tu contenido es mejor referencia
+2.  **Crea contenido que invite a enlazar:** un estudio con datos propios da al editor un motivo concreto para citarte
+3.  **Personaliza el contacto:** cuando escribas, menciona el artículo donde enlazaron a un competidor y explica por qué tu contenido es mejor referencia. En el análisis de [Backlinko y Pitchbox](https://backlinko.com/email-outreach-study) sobre 12 millones de correos, el cuerpo personalizado obtuvo un 32,7 % más de respuestas
 
-Para **Smartown** hicimos un estudio sobre logística inversa en Valencia que consiguió 19 backlinks de medios del sector en 60 días, y los leads cualificados subieron un 28%.
+Para **Smartown** hicimos un estudio sobre logística inversa en Valencia que consiguió backlinks de medios del sector.
 
 ![conseguir backlinks](/images/legacy/2026/01/seo_tools_dashboard_1-1024x572.jpg)
 
