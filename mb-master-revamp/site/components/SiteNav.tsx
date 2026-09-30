@@ -7,6 +7,7 @@ import ThemeToggle from "@/components/ThemeToggle";
 import type { Locale, LocaleSlugs } from "@/lib/posts";
 import { FR_PAGES } from "@/lib/fr-pages-data";
 import { ES_PAGES } from "@/lib/es-pages-data";
+import { useLocaleData } from "@/components/LocaleData";
 
 const LINKS = [
   { href: "/", label: "Home" },
@@ -127,13 +128,8 @@ function LocaleSwitcher({
  * Someone who wants to ring or mail while the page is still in front of
  * them should not have to load the contact page to find an address.
  */
-export default function SiteNav({
-  localeManifest,
-  pagePairs = {},
-}: {
-  localeManifest: Record<string, LocaleSlugs>;
-  pagePairs?: Record<string, Partial<Record<Locale, string>>>;
-}) {
+export default function SiteNav() {
+  const { localeManifest, pagePairs } = useLocaleData();
   const pathname = usePathname();
   const ui = UI[localeOfPath(pathname ?? "/")];
   const links = ui.links;

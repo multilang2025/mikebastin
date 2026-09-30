@@ -55,6 +55,7 @@ illustrations). No PR is open.
 | Q22 | Credibility strip numbers |
 | Q23 | matosurf.com as an eighth portfolio spread |
 | Q24 | Illustrations: homepage, and the Spain map on the Spanish SEO page |
+| Q25 | Privacy and cookies pages (draft, `docs/CONSENT.md`): the legal entity and tax ID, how long enquiries are kept, the hosting and email providers, and which analytics tool you plan to add |
 
 ## Mine to do (no owner decision needed)
 
@@ -67,6 +68,7 @@ illustrations). No PR is open.
 | E5 | FR and ES topic pages have no hreflang | By design, each locale groups its own posts |
 | E6 | `design/dl-art/geo/make-variants.mjs` needs `d3-geo`, `topojson-client`, `topojson-simplify`, `world-atlas` in a scratch folder | Documented in `docs/DL-ART.md` |
 | E7 | Preview is `noindex` site-wide until launch (30 Oct 2026) | `npm run check:launch` says whether the site can go |
+| E9 | The consent banner gates nothing yet, since no analytics or embeds exist; wire any added script through `lib/consent.ts` | `docs/CONSENT.md` |
 | E8 | `content/nl` (Belgium, Netherlands) is planned after the three locales | Do not build early |
 
 ## Closed

@@ -11,6 +11,7 @@ import { frLanguages } from "@/lib/fr-pages";
 import { SITE_URL, breadcrumbSchema } from "@/lib/schema";
 import DlArt from "@/components/DlArt";
 import HeroArtSlot from "@/components/HeroArtSlot";
+import Link from "next/link";
 
 // French contact page at the legacy URL (docs/FR-REBUILD-PLAN.md). Same
 // form, fields and endpoint as /contact/; `lang=fr` makes public/contact.php
@@ -141,7 +142,7 @@ export default function FrenchContactPage() {
                   name="consent"
                   value="yes"
                   required
-                  label={<>Vous acceptez que nous conservions vos coordonnées uniquement pour répondre à cette demande.</>}
+                  label={<>Vous acceptez que nous conservions vos coordonnées uniquement pour répondre à cette demande. Plus de détails dans notre page <Link href="/fr/confidentialite/" className="ulink">confidentialité et cookies</Link>.</>}
                 />
               </div>
 
