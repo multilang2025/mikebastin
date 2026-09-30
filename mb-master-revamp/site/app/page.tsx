@@ -176,8 +176,8 @@ export default function Home() {
 
           <Reveal i={3}>
             <p
-              className="mb-7 max-w-[56ch] text-[clamp(1rem,1.4vw,1.14rem)] leading-[1.55]"
-              style={{ color: "var(--dim)" }}
+              className="mb-8 max-w-[56ch] text-[clamp(1.05rem,1.5vw,1.2rem)] leading-[1.6]"
+              style={{ color: "color-mix(in srgb, var(--dim) 65%, var(--ink))" }}
             >
               The traffic in your other languages is already there. Turning it
               into enquiries is usually a research and writing job, and it
