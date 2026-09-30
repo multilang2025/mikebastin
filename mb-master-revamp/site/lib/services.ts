@@ -964,7 +964,7 @@ export const SERVICES: Service[] = [
     subhead: "Two markets sharing one language, each with its own search behaviour and its own competition.",
     cluster: "Search",
     angle: "Two markets, one language",
-    lede: "Portugal and Brazil are two markets with two keyword sets, and hreflang pt-PT and pt-BR keeps them apart.",
+    lede: "Portugal and Brazil are two markets with two keyword sets, and treating them separately is what makes Portuguese simpler than it looks.",
     metaTitle: "Portuguese SEO services, Portugal and Brazil",
     metaDescription: "Portugal and Brazil are two markets with two keyword sets. See why treating them separately is what makes Portuguese SEO actually work.",
     sections: ["Three things Portuguese SEO has to get right", ...ENGAGEMENT],

@@ -226,8 +226,7 @@ export default async function ServicePage({
               </h2>
               <p className="mb-8 max-w-[60ch] text-[1.02rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
                 {service.expandablesLede ??
-                  `${service.expandables.length} answers to the questions that come up first.`}{" "}
-                Open the ones that apply to your job and leave the rest closed.
+                  `${service.expandables.length} answers to the questions that come up first.`}
               </p>
             </Reveal>
             <Reveal i={1}>
@@ -285,9 +284,8 @@ export default async function ServicePage({
           <Reveal i={1}>
             <p className="mb-9 max-w-[58ch] text-[1.05rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
               Thirty minutes on which markets matter, what already ranks, and
-              what has been tried before. We ask questions before we recommend
-              anything, and what comes back is a written scope naming real
-              pages and deliverables. Engagements run month to month.
+              what has been tried before. A written scope naming pages and
+              deliverables follows. Engagements run month to month.
             </p>
           </Reveal>
           <Reveal i={2}>
