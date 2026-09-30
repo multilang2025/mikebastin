@@ -1,7 +1,7 @@
 ---
-words: 0
-title: "L’IA en traduction et localisation : plus de marchés avec le même budget"
-metaTitle: "IA et traduction : plus de marchés avec le même budget"
+words: 906
+title: "L’IA en traduction et localisation : plus de marchés avec le même budget"
+metaTitle: "IA et traduction : plus de marchés avec le même budget"
 slug: "ia-traduction-et-localisation"
 locale: "fr"
 type: "posts"
@@ -27,10 +27,10 @@ Pour la plupart des entreprises, la question porte désormais sur les endroits o
 
 ### Des délais plus courts
 
-Chaque mois gagné sur la mise en ligne des pages d’un marché est un mois de demande que vous captez en premier. L’IA traduit des milliers de mots en quelques minutes. L’enseignement en ligne montre l’échelle désormais possible :
+Chaque mois gagné sur la mise en ligne des pages d’un marché est un mois de demande que vous captez en premier. L’IA traduit des milliers de mots en quelques minutes. L’enseignement en ligne montre l’échelle désormais possible :
 
 > Les traductions de texte par IA de Coursera en 2023 « ont permis à près de 3 millions d’apprenants de suivre plus de 5 000 cours dans 25 langues ». En avril 2025, la plateforme a ajouté des cours doublés par IA en espagnol, français, allemand et portugais brésilien.
-> Source : [Coursera, « Coursera launches AI-dubbed courses in Spanish, French, Brazilian Portuguese and German », 15 avril 2025](https://blog.coursera.org/coursera-launches-ai-dubbed-courses-in-spanish-french-brazilian-portuguese-and-german/)
+> Source : [Coursera, « Coursera launches AI-dubbed courses in Spanish, French, Brazilian Portuguese and German », 15 avril 2025](https://blog.coursera.org/coursera-launches-ai-dubbed-courses-in-spanish-french-brazilian-portuguese-and-german/)
 
 Pour accélérer les résultats sur votre propre site, voyez nos services de [localisation de site web](/fr/services/localisation-de-site-web/).
 
@@ -57,20 +57,20 @@ Chacun se règle au moindre coût avant la publication.
 | Sécurité des données | Texte confidentiel exposé par des outils dans le cloud | Prestataires vérifiés, conformes au RGPD, et règles claires sur les données |
 | Dépendance excessive | Moins d’apport créatif des traducteurs, contenu plus plat | Laisser aux traducteurs la main sur le ton et le message |
 
-Les outils linguistiques dans le cloud demandent la même attention à la sécurité que tout système qui détient vos textes. L’[étude 2024 du Citizen Lab sur les claviers dans le cloud](https://citizenlab.ca/2024/04/vulnerabilities-across-keyboard-apps-reveal-keystrokes-to-network-eavesdroppers/) a montré comment un texte envoyé dans le cloud peut fuiter :
+Les outils linguistiques dans le cloud demandent la même attention à la sécurité que tout système qui détient vos textes. L’[étude 2024 du Citizen Lab sur les claviers dans le cloud](https://citizenlab.ca/2024/04/vulnerabilities-across-keyboard-apps-reveal-keystrokes-to-network-eavesdroppers/) a montré comment un texte envoyé dans le cloud peut fuiter :
 
 > « Notre analyse a révélé des vulnérabilités critiques dans les applications de clavier de huit des neuf éditeurs étudiés, que nous avons pu exploiter pour révéler l’intégralité des frappes des utilisateurs en transit. »
-> Source : [Citizen Lab, « The Not-So-Silent Type », 23 avril 2024](https://citizenlab.ca/2024/04/vulnerabilities-across-keyboard-apps-reveal-keystrokes-to-network-eavesdroppers/)
+> Source : [Citizen Lab, « The Not-So-Silent Type », 23 avril 2024](https://citizenlab.ca/2024/04/vulnerabilities-across-keyboard-apps-reveal-keystrokes-to-network-eavesdroppers/)
 
 Pour le matériel confidentiel, travaillez avec des [services de traduction professionnelle](/fr/services/traduction-professionnelle/) qui maîtrisent la destination de vos textes.
 
 <aside class="post-cta">
-<p><strong>Vous voulez que vos pages traduites par machine disent exactement ce qu’il faut ?</strong> Notre <a href="/fr/services/postedition-ia/">traduction IA et post-édition</a> place un locuteur natif au-dessus de la sortie machine, avec un effort de relecture proportionné à l’enjeu de chaque page. <a href="/fr/nous-contacter/">Réservez un premier échange</a>.</p>
+<p><strong>Vous voulez que vos pages traduites par machine disent exactement ce qu’il faut ?</strong> Notre <a href="/fr/services/postedition-ia/">traduction IA et post-édition</a> place un locuteur natif au-dessus de la sortie machine, avec un effort de relecture proportionné à l’enjeu de chaque page. <a href="/fr/nous-contacter/">Réservez un premier échange</a>.</p>
 </aside>
 
 ## Utiliser l’IA efficacement en localisation
 
-Les entreprises qui gardent l’économie et la qualité répartissent le travail de la même façon :
+Les entreprises qui gardent l’économie et la qualité répartissent le travail de la même façon :
 
 - **Adoptez une approche hybride.** Associez la traduction par IA à la post-édition humaine pour allier efficacité, exactitude et sensibilité culturelle.
 - **Entraînez les systèmes.** Fournissez-leur votre terminologie et vos contenus de marque.

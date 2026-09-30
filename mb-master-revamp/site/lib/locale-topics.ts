@@ -74,6 +74,41 @@ const TOPICS: LocaleTopic[] = [
     ],
   },
   {
+    locale: "fr",
+    slug: "marche-espagnol",
+    name: "Marché espagnol",
+    heading: "SEO en Espagne : mots-clés, pages et technique pour vendre en espagnol",
+    blurb:
+      "Ce qui change pour une entreprise qui vend en Espagne : la recherche de mots-clés en espagnol, les pages, les réglages techniques et les marchés à aborder.",
+    service: { href: "/fr/services/seo-espagnol/", label: "SEO en Espagne" },
+    posts: [
+      "marches-espagnols-seo",
+      "localisation-mots-cles-espagnol",
+      "seo-on-page-espagnol",
+      "seo-technique-marche-espagnol",
+    ],
+  },
+  {
+    locale: "fr",
+    slug: "ia-et-traduction",
+    name: "IA et traduction",
+    heading: "IA et traduction : de la traduction automatique à la localisation",
+    blurb:
+      "Comment l’IA change le travail de traduction et de localisation, et comment l’employer pour des contenus multilingues de qualité.",
+    service: { href: "/fr/services/postedition-ia/", label: "Post-édition par IA" },
+    posts: ["ia-traduction-et-localisation", "outils-ia-traduction-automatique"],
+  },
+  {
+    locale: "fr",
+    slug: "local-et-mesure",
+    name: "Local et mesure",
+    heading: "Référencement local et mesure : être trouvé, puis compter les demandes",
+    blurb:
+      "Comment une entreprise locale se fait trouver sur Google Maps, et comment mesurer les résultats avec des outils d’analyse adaptés à son marché.",
+    service: { href: "/fr/services/referencement-local/", label: "Référencement local" },
+    posts: ["promouvoir-entreprise-locale-google-maps", "alternatives-a-google-analytics"],
+  },
+  {
     locale: "es",
     slug: "seo-multilingue",
     name: "SEO multilingüe",
@@ -111,7 +146,19 @@ const TOPICS: LocaleTopic[] = [
       "estrategia-search-everywhere",
       "futuro-del-seo",
       "mapa-de-intencion-de-busqueda",
+      "ia-y-estrategias-seo",
+      "marketing-con-ia",
     ],
+  },
+  {
+    locale: "es",
+    slug: "ia-y-traduccion",
+    name: "IA y traducción",
+    heading: "IA y traducción: de la traducción automática a la localización",
+    blurb:
+      "Cómo cambia la IA el trabajo de traducción y localización, y cómo usarla en tus contenidos multilingües con buena calidad.",
+    service: { href: "/es/services/posedicion-de-ia/", label: "Posedición de IA" },
+    posts: ["ia-traduccion-y-localizacion", "herramientas-ia-traduccion-automatica"],
   },
   {
     locale: "es",
@@ -129,6 +176,7 @@ const TOPICS: LocaleTopic[] = [
       "analizar-trafico-web-competencia",
       "analizar-backlinks-competidores",
       "rastrear-posiciones-de-keywords-de-competidores",
+      "alternativas-a-google-analytics",
     ],
   },
   {

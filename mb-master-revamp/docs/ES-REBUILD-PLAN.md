@@ -156,7 +156,7 @@ Eight EN posts gained a Spanish adaptation on 30 Sep 2026 (multilingual
 content, localization points to get right, interface localization, search
 everywhere, search intent mapping, technical audit checklist, the future of
 SEO, SEO in Belgium), written for the Spanish-speaking company selling
-abroad. The Spanish journal now has 27 posts, grouped in four topics.
+abroad. The Spanish journal now has 27 posts, grouped in four topics. Five more followed (AI in translation, AI and machine translation tools, Google Analytics alternatives, AI and SEO strategy, AI-powered marketing): 32 posts, in five topics.
 
 ## Open for the owner
 

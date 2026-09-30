@@ -1,5 +1,5 @@
 ---
-words: 0
+words: 1360
 title: "Alternativas a Google Analytics y cuándo encaja cada una"
 slug: "alternativas-a-google-analytics"
 locale: "es"

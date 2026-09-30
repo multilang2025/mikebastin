@@ -1,5 +1,5 @@
 ---
-words: 0
+words: 1804
 title: "Cómo la IA renueva las estrategias SEO en 2026"
 slug: "ia-y-estrategias-seo"
 locale: "es"

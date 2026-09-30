@@ -1,5 +1,5 @@
 ---
-words: 0
+words: 944
 title: "Herramientas de IA y traducción automática para optimizar contenido multilingüe"
 metaTitle: "IA y traducción automática para contenido multilingüe"
 slug: "herramientas-ia-traduccion-automatica"
