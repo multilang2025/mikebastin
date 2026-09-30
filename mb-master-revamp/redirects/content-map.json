@@ -346,7 +346,12 @@
     "url": "https://mikebastin.com/best-practices-for-multilingual-seo/",
     "content_path": "site/content/en/posts/best-practices-for-multilingual-seo.md"
    },
-   "fr": null,
+   "fr": {
+     "id": null,
+     "slug": "bonnes-pratiques-seo-multilingue",
+     "url": "https://mikebastin.com/fr/bonnes-pratiques-seo-multilingue/",
+     "content_path": "site/content/fr/posts/bonnes-pratiques-seo-multilingue.md"
+   },
    "es": null
   },
   {
@@ -500,8 +505,18 @@
     "url": "https://mikebastin.com/common-mistakes-to-avoid-when-localising-your-website/",
     "content_path": "site/content/en/posts/common-mistakes-to-avoid-when-localising-your-website.md"
    },
-   "fr": null,
-   "es": null
+   "fr": {
+     "id": null,
+     "slug": "localiser-son-site-points-a-soigner",
+     "url": "https://mikebastin.com/fr/localiser-son-site-points-a-soigner/",
+     "content_path": "site/content/fr/posts/localiser-son-site-points-a-soigner.md"
+   },
+   "es": {
+     "id": null,
+     "slug": "localizar-tu-web-puntos-a-cuidar",
+     "url": "https://mikebastin.com/es/localizar-tu-web-puntos-a-cuidar/",
+     "content_path": "site/content/es/posts/localizar-tu-web-puntos-a-cuidar.md"
+   }
   },
   {
    "group": "g023",
@@ -2842,8 +2857,18 @@
     "url": "https://mikebastin.com/future-of-seo/",
     "content_path": "site/content/en/posts/future-of-seo.md"
    },
-   "fr": null,
-   "es": null
+   "fr": {
+     "id": null,
+     "slug": "avenir-du-seo",
+     "url": "https://mikebastin.com/fr/avenir-du-seo/",
+     "content_path": "site/content/fr/posts/avenir-du-seo.md"
+   },
+   "es": {
+     "id": null,
+     "slug": "futuro-del-seo",
+     "url": "https://mikebastin.com/es/futuro-del-seo/",
+     "content_path": "site/content/es/posts/futuro-del-seo.md"
+   }
   },
   {
    "group": "g123",
@@ -2860,7 +2885,12 @@
     "url": "https://mikebastin.com/german-seo-best-practices/",
     "content_path": "site/content/en/posts/german-seo-best-practices.md"
    },
-   "fr": null,
+   "fr": {
+     "id": null,
+     "slug": "seo-allemand-bonnes-pratiques",
+     "url": "https://mikebastin.com/fr/seo-allemand-bonnes-pratiques/",
+     "content_path": "site/content/fr/posts/seo-allemand-bonnes-pratiques.md"
+   },
    "es": null
   },
   {
@@ -3166,7 +3196,12 @@
     "url": "https://mikebastin.com/link-building-in-spain/",
     "content_path": "site/content/en/posts/link-building-in-spain.md"
    },
-   "fr": null,
+   "fr": {
+     "id": null,
+     "slug": "netlinking-en-espagne",
+     "url": "https://mikebastin.com/fr/netlinking-en-espagne/",
+     "content_path": "site/content/fr/posts/netlinking-en-espagne.md"
+   },
    "es": null
   },
   {
@@ -3400,8 +3435,18 @@
     "url": "https://mikebastin.com/optimising-multilingual-website-content/",
     "content_path": "site/content/en/posts/optimising-multilingual-website-content.md"
    },
-   "fr": null,
-   "es": null
+   "fr": {
+     "id": null,
+     "slug": "optimiser-contenu-site-multilingue",
+     "url": "https://mikebastin.com/fr/optimiser-contenu-site-multilingue/",
+     "content_path": "site/content/fr/posts/optimiser-contenu-site-multilingue.md"
+   },
+   "es": {
+     "id": null,
+     "slug": "optimizar-contenido-web-multilingue",
+     "url": "https://mikebastin.com/es/optimizar-contenido-web-multilingue/",
+     "content_path": "site/content/es/posts/optimizar-contenido-web-multilingue.md"
+   }
   },
   {
    "group": "g154",
@@ -3472,8 +3517,18 @@
     "url": "https://mikebastin.com/search-everywhere-strategy/",
     "content_path": "site/content/en/posts/search-everywhere-strategy.md"
    },
-   "fr": null,
-   "es": null
+   "fr": {
+     "id": null,
+     "slug": "strategie-search-everywhere",
+     "url": "https://mikebastin.com/fr/strategie-search-everywhere/",
+     "content_path": "site/content/fr/posts/strategie-search-everywhere.md"
+   },
+   "es": {
+     "id": null,
+     "slug": "estrategia-search-everywhere",
+     "url": "https://mikebastin.com/es/estrategia-search-everywhere/",
+     "content_path": "site/content/es/posts/estrategia-search-everywhere.md"
+   }
   },
   {
    "group": "g158",
@@ -3490,8 +3545,18 @@
     "url": "https://mikebastin.com/seo-in-belgium/",
     "content_path": "site/content/en/posts/seo-in-belgium.md"
    },
-   "fr": null,
-   "es": null
+   "fr": {
+     "id": null,
+     "slug": "seo-en-belgique",
+     "url": "https://mikebastin.com/fr/seo-en-belgique/",
+     "content_path": "site/content/fr/posts/seo-en-belgique.md"
+   },
+   "es": {
+     "id": null,
+     "slug": "seo-en-belgica",
+     "url": "https://mikebastin.com/es/seo-en-belgica/",
+     "content_path": "site/content/es/posts/seo-en-belgica.md"
+   }
   },
   {
    "group": "g159",
@@ -3598,8 +3663,18 @@
     "url": "https://mikebastin.com/technical-seo-audit-checklist/",
     "content_path": "site/content/en/posts/technical-seo-audit-checklist.md"
    },
-   "fr": null,
-   "es": null
+   "fr": {
+     "id": null,
+     "slug": "checklist-audit-seo-technique",
+     "url": "https://mikebastin.com/fr/checklist-audit-seo-technique/",
+     "content_path": "site/content/fr/posts/checklist-audit-seo-technique.md"
+   },
+   "es": {
+     "id": null,
+     "slug": "lista-de-auditoria-seo-tecnica",
+     "url": "https://mikebastin.com/es/lista-de-auditoria-seo-tecnica/",
+     "content_path": "site/content/es/posts/lista-de-auditoria-seo-tecnica.md"
+   }
   },
   {
    "group": "g165",
@@ -3634,7 +3709,12 @@
     "url": "https://mikebastin.com/technical-seo-for-multilingual-websites/",
     "content_path": "site/content/en/posts/technical-seo-for-multilingual-websites.md"
    },
-   "fr": null,
+   "fr": {
+     "id": null,
+     "slug": "seo-technique-site-multilingue",
+     "url": "https://mikebastin.com/fr/seo-technique-site-multilingue/",
+     "content_path": "site/content/fr/posts/seo-technique-site-multilingue.md"
+   },
    "es": null
   },
   {
@@ -3688,8 +3768,18 @@
     "url": "https://mikebastin.com/user-interface-localisation-can-transform-your-global-reach/",
     "content_path": "site/content/en/posts/user-interface-localisation-can-transform-your-global-reach.md"
    },
-   "fr": null,
-   "es": null
+   "fr": {
+     "id": null,
+     "slug": "localisation-interface-utilisateur",
+     "url": "https://mikebastin.com/fr/localisation-interface-utilisateur/",
+     "content_path": "site/content/fr/posts/localisation-interface-utilisateur.md"
+   },
+   "es": {
+     "id": null,
+     "slug": "localizacion-de-interfaz-de-usuario",
+     "url": "https://mikebastin.com/es/localizacion-de-interfaz-de-usuario/",
+     "content_path": "site/content/es/posts/localizacion-de-interfaz-de-usuario.md"
+   }
   },
   {
    "group": "g170",
@@ -3814,8 +3904,18 @@
     "url": "https://mikebastin.com/what-is-search-intent-mapping/",
     "content_path": "site/content/en/posts/what-is-search-intent-mapping.md"
    },
-   "fr": null,
-   "es": null
+   "fr": {
+     "id": null,
+     "slug": "cartographie-intention-de-recherche",
+     "url": "https://mikebastin.com/fr/cartographie-intention-de-recherche/",
+     "content_path": "site/content/fr/posts/cartographie-intention-de-recherche.md"
+   },
+   "es": {
+     "id": null,
+     "slug": "mapa-de-intencion-de-busqueda",
+     "url": "https://mikebastin.com/es/mapa-de-intencion-de-busqueda/",
+     "content_path": "site/content/es/posts/mapa-de-intencion-de-busqueda.md"
+   }
   },
   {
    "group": "g177",

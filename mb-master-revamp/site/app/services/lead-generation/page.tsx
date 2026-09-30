@@ -9,6 +9,8 @@ import { getService } from "@/lib/services";
 import { SITE_URL, breadcrumbSchema, serviceSchema } from "@/lib/schema";
 import ServiceHeroArt from "@/components/ServiceHeroArt";
 import { leadGenLanguages } from "@/lib/lead-gen-hubs";
+import HeroArtSlot from "@/components/HeroArtSlot";
+import { hasDlArt } from "@/lib/dl-art";
 
 // The Service entry for this slug lives in lib/services.ts, and this route
 // reads its h1, subhead, lede and meta fields from there rather than
@@ -153,9 +155,9 @@ export default function LeadGenerationPage() {
             </div>
           </Reveal>
         </div>
-        <div className="hidden w-[min(360px,30vw)] lg:mt-24 lg:block">
+        <HeroArtSlot visibleOnMobile={hasDlArt("en", "lead-generation")}>
           <ServiceHeroArt slug="lead-generation" />
-        </div>
+        </HeroArtSlot>
         </div>
       </section>
 

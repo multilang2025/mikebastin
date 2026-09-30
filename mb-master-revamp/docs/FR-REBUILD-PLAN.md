@@ -10,7 +10,8 @@ by the owner** (27 Sep 2026), because it is redirects rather than copy.
 
 1. **Status: plan only.** EN is not locked yet.
 2. **The French reader is a French-speaking company selling abroad**
-   (France, Wallonia, Brussels) into Spain, Benelux, Germany or the UK. It
+   (France, Belgium, which is the owner's natural market and more
+   international by nature, Switzerland or Luxembourg; owner, 30 Sep 2026) into Spain, Benelux, Germany or the UK. It
    is the reverse of the EN "French SEO" page, which sells to foreign
    companies entering France. **The main French page is
    `/fr/services/seo/`, and it names no language**: it is our SEO service
@@ -294,6 +295,17 @@ page before merge.
 | 3. Templates and plumbing | Done: homepage, services and blog indexes, contact, tarifs, notre-equipe, the lead generation hub, share cards, metadata, footer, `<html lang>`, `lint:fr` |
 | 4. Copy | Done as a draft: 18 service pages, the 8 live posts, the hub; the owner reviews |
 | 5. QA | Links, images, hreflang, redirects and all lints pass; the owner's review is the last gate |
+
+Two EN posts gained a French adaptation on 30 Sep 2026 (`g014`
+`bonnes-pratiques-seo-multilingue`, `g166` `seo-technique-site-multilingue`),
+written for the French company selling abroad, with FR service links; they
+pair with their EN siblings in hreflang and sit under the new French topic
+`seo-multilingue`. The French journal now has 10 posts.
+
+Eight more EN posts were adapted on 30 Sep 2026, plus two for the
+French reader only (`seo-en-belgique`, `seo-allemand-bonnes-pratiques`,
+`netlinking-en-espagne` and the rest of the list in `lib/locale-topics.ts`):
+the journal now has 20 posts.
 
 ## Open for the owner
 

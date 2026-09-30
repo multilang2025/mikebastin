@@ -8,6 +8,8 @@ import { Field, Input, Textarea, Select, Checkbox, describedBy } from "@/compone
 import { SERVICES } from "@/lib/services";
 import JsonLd from "@/components/JsonLd";
 import { SITE_URL, breadcrumbSchema } from "@/lib/schema";
+import DlArt from "@/components/DlArt";
+import HeroArtSlot from "@/components/HeroArtSlot";
 
 export const metadata: Metadata = {
   ...pageMeta({
@@ -42,7 +44,8 @@ export default function ContactPage() {
     <main>
       <JsonLd data={breadcrumbSchema([{ name: "Home", url: `${SITE_URL}/` }, { name: "Contact", url: `${SITE_URL}/contact/` }])} />
       <section className="band band-a grain relative overflow-hidden pb-[clamp(48px,7vw,80px)] pt-[clamp(96px,14vw,160px)]">
-        <div className="shell relative">
+        <div className="shell relative grid items-start gap-x-12 lg:grid-cols-[1fr_auto]">
+        <div>
           <Reveal>
             <p className="eyebrow mb-8">Six fields, one straight answer</p>
           </Reveal>
@@ -67,6 +70,10 @@ export default function ContactPage() {
               them.
             </p>
           </Reveal>
+        </div>
+        <HeroArtSlot visibleOnMobile={true}>
+          <DlArt name="globe-world" />
+        </HeroArtSlot>
         </div>
       </section>
 

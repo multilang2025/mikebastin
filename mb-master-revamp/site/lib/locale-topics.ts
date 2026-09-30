@@ -29,7 +29,32 @@ const TOPICS: LocaleTopic[] = [
     blurb:
       "Ce qu’un consultant, un expert ou une agence apporte à un site qui vend dans plusieurs langues, et comment choisir le partenaire qui convient à votre marché.",
     service: { href: "/fr/services/seo/", label: "SEO international" },
-    posts: ["agence-seo-internationale", "consultant-referencement-international", "expert-en-seo-international"],
+    posts: [
+      "agence-seo-internationale",
+      "consultant-referencement-international",
+      "expert-en-seo-international",
+      "seo-en-belgique",
+      "seo-allemand-bonnes-pratiques",
+      "netlinking-en-espagne",
+    ],
+  },
+  {
+    locale: "fr",
+    slug: "seo-multilingue",
+    name: "SEO multilingue",
+    heading: "SEO multilingue\u00a0: les réglages qui additionnent vos langues",
+    blurb:
+      "Les bonnes pratiques et les réglages techniques qui font positionner chaque version de votre site sur son marché : hreflang, structure de domaine, métadonnées, données structurées.",
+    service: { href: "/fr/services/referencement-multilingue/", label: "Référencement multilingue" },
+    posts: [
+      "bonnes-pratiques-seo-multilingue",
+      "seo-technique-site-multilingue",
+      "optimiser-contenu-site-multilingue",
+      "localiser-son-site-points-a-soigner",
+      "localisation-interface-utilisateur",
+      "checklist-audit-seo-technique",
+      "cartographie-intention-de-recherche",
+    ],
   },
   {
     locale: "fr",
@@ -44,6 +69,8 @@ const TOPICS: LocaleTopic[] = [
       "optimisation-pour-les-systemes-ia",
       "recherche-vocale",
       "nouvelles-tendances-du-secteur-des-affaires",
+      "strategie-search-everywhere",
+      "avenir-du-seo",
     ],
   },
   {
@@ -60,6 +87,11 @@ const TOPICS: LocaleTopic[] = [
       "diferencias-culturales-sitios-web-multilingues",
       "localizacion-de-contenido-web-multilingue",
       "herramientas-pruebas-de-localizacion",
+      "optimizar-contenido-web-multilingue",
+      "localizar-tu-web-puntos-a-cuidar",
+      "localizacion-de-interfaz-de-usuario",
+      "lista-de-auditoria-seo-tecnica",
+      "seo-en-belgica",
     ],
   },
   {
@@ -76,6 +108,9 @@ const TOPICS: LocaleTopic[] = [
       "datos-estructurados-schema-optimizacion-geo",
       "medir-rendimiento-geo",
       "sistemas-cualificacion-leads-ia",
+      "estrategia-search-everywhere",
+      "futuro-del-seo",
+      "mapa-de-intencion-de-busqueda",
     ],
   },
   {

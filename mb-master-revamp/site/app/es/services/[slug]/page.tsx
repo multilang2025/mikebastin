@@ -21,6 +21,9 @@ export function generateStaticParams() {
 }
 
 import { pageMeta } from "@/lib/meta";
+import ServiceHeroArt from "@/components/ServiceHeroArt";
+import HeroArtSlot from "@/components/HeroArtSlot";
+import { hasDlArt } from "@/lib/dl-art";
 
 export async function generateMetadata({
   params,
@@ -71,7 +74,8 @@ export default async function SpanishServicePage({
       />
       {/* ============ HERO ============ */}
       <section className="band band-a grain relative overflow-hidden pb-[clamp(48px,7vw,84px)] pt-[clamp(96px,14vw,160px)]">
-        <div className="shell relative">
+        <div className="shell relative grid items-start gap-x-12 lg:grid-cols-[1fr_auto]">
+        <div>
           <Reveal>
             <h1 className="mb-6 max-w-[26ch] text-[clamp(2rem,4.8vw,3.4rem)] font-semibold leading-[1.1]">
               {service.title}
@@ -89,6 +93,10 @@ export default async function SpanishServicePage({
               </Link>
             </p>
           </Reveal>
+        </div>
+        <HeroArtSlot visibleOnMobile={hasDlArt("es", service.slug)}>
+          <ServiceHeroArt slug={service.slug} locale="es" />
+        </HeroArtSlot>
         </div>
       </section>
 

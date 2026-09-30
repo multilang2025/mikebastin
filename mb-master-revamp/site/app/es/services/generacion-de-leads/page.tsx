@@ -10,6 +10,7 @@ import ServiceHeroArt from "@/components/ServiceHeroArt";
 import { pageMeta } from "@/lib/meta";
 import { leadGenLanguages, leadGenPath } from "@/lib/lead-gen-hubs";
 import { SITE_URL, breadcrumbSchema, serviceSchema } from "@/lib/schema";
+import HeroArtSlot from "@/components/HeroArtSlot";
 
 // Spanish sibling of /services/lead-generation/, the first page of the
 // Spanish rebuild. Same case in the same order as the English page,
@@ -130,9 +131,9 @@ export default function SpanishLeadGenerationPage() {
               </div>
             </Reveal>
           </div>
-          <div className="hidden w-[min(360px,30vw)] lg:mt-24 lg:block">
+          <HeroArtSlot visibleOnMobile={true}>
             <ServiceHeroArt slug="lead-generation" />
-          </div>
+          </HeroArtSlot>
         </div>
       </section>
 

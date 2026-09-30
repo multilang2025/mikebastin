@@ -7,6 +7,8 @@ import LocaleHtmlLang from "@/components/LocaleHtmlLang";
 import { ButtonLink } from "@/components/ui/Button";
 import { esLanguages } from "@/lib/fr-pages";
 import { SITE_URL, breadcrumbSchema } from "@/lib/schema";
+import DlArt from "@/components/DlArt";
+import HeroArtSlot from "@/components/HeroArtSlot";
 
 // Spanish-only page at the legacy /es/conocenos-agencia-experta-en-seo/ URL
 // (content-map, plan phase 3). No English sibling: the English site folds
@@ -56,7 +58,8 @@ export default function SpanishTeamPage() {
         ])}
       />
       <section className="band band-a grain relative overflow-hidden pb-[clamp(48px,7vw,80px)] pt-[clamp(96px,14vw,160px)]">
-        <div className="shell relative">
+        <div className="shell relative grid items-start gap-x-12 lg:grid-cols-[1fr_auto]">
+        <div>
           <Reveal>
             <p className="eyebrow mb-8">Quién trabaja en tu sitio web</p>
           </Reveal>
@@ -89,6 +92,10 @@ export default function SpanishTeamPage() {
               </span>
             </div>
           </Reveal>
+        </div>
+        <HeroArtSlot visibleOnMobile={true}>
+          <DlArt name="skyline" />
+        </HeroArtSlot>
         </div>
       </section>
 

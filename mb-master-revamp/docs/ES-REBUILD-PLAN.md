@@ -152,6 +152,12 @@ Search Engine Journal "40 %" were dropped or stated without numbers, since
 no source could be found. The owner can restore a client figure with its
 Search Console evidence.
 
+Eight EN posts gained a Spanish adaptation on 30 Sep 2026 (multilingual
+content, localization points to get right, interface localization, search
+everywhere, search intent mapping, technical audit checklist, the future of
+SEO, SEO in Belgium), written for the Spanish-speaking company selling
+abroad. The Spanish journal now has 27 posts, grouped in four topics.
+
 ## Open for the owner
 
 - Confirm assumptions 1, 3, 4 and 6 (or reverse them).

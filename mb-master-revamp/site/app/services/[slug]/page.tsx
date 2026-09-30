@@ -12,6 +12,8 @@ import { absorbedProse } from "@/lib/absorbed";
 import { SERVICES, getService, CLUSTER_INLINE } from "@/lib/services";
 import { SITE_URL, breadcrumbSchema, serviceSchema } from "@/lib/schema";
 import { serviceGroupForEnSlug, serviceHreflang } from "@/lib/services-locale";
+import HeroArtSlot from "@/components/HeroArtSlot";
+import { hasDlArt } from "@/lib/dl-art";
 
 // lead-generation has its own hand-built route at app/services/lead-generation/,
 // with the testimonial wall this template does not carry. Excluded here so the
@@ -164,9 +166,9 @@ export default async function ServicePage({
         </div>
         {/* Desktop only: below lg the hero is already a long column of
             text and proof, and the art would push the lede off screen. */}
-        <div className="hidden w-[min(360px,30vw)] lg:mt-24 lg:block">
+        <HeroArtSlot visibleOnMobile={hasDlArt("en", service.slug)}>
           <ServiceHeroArt slug={service.slug} />
-        </div>
+        </HeroArtSlot>
         </div>
       </section>
 

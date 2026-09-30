@@ -1,4 +1,6 @@
 import type { CSSProperties, ReactNode } from "react";
+import DlArt from "@/components/DlArt";
+import { DL_SERVICE_ART } from "@/lib/dl-art";
 
 /**
  * Decorative animated art for the service page heroes. Same family as the
@@ -270,7 +272,11 @@ function Layers({ check }: { check?: boolean }) {
   );
 }
 
-export default function ServiceHeroArt({ slug }: { slug: string }) {
+export default function ServiceHeroArt({ slug, locale = "en" }: { slug: string; locale?: "en" | "fr" | "es" }) {
+  // Illustrations recycled from the Delaguía y Luzón proposal (lib/dl-art.ts)
+  // replace the generic motif where one fits the page better.
+  const recycled = DL_SERVICE_ART[locale][slug];
+  if (recycled) return <DlArt name={recycled} />;
   const m = ART[slug];
   if (!m) return null;
   let body: ReactNode;
