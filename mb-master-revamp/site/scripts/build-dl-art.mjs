@@ -25,7 +25,7 @@ const ARCHIVE = join(ROOT, "..", "design", "dl-art");
 // share the CSS of their base illustration.
 const USED = [
   "convergence", "convergence-world", "convergence-europe", "globe", "globe-world", "globe-europe",
-  "constellation", "audit", "hexagons", "gears", "orbits", "puzzle", "venn", "amphora",
+  "constellation", "audit", "gbp", "gears", "orbits", "puzzle", "venn", "amphora",
   "roundtable", "clock", "skyline",
 ];
 

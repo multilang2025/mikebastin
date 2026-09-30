@@ -27,7 +27,7 @@ CSS animations are the originals.
 | convergence-europe (Europe map, routes to Valencia) | The main French SEO page |
 | constellation (hub and markets) | French multilingual SEO, Spanish multilingual and main SEO pages |
 | audit (spreadsheet, magnifier) | Technical SEO in EN, FR, ES |
-| hexagons (locations) | Local SEO in EN, FR, ES |
+| gbp (a business profile card: storefront, stars, action buttons, reviews, map pin and route; original drawing inspired by Google Business Profile iconography, owner 30 Sep 2026) | Local SEO in EN, FR, ES |
 | gears | AI consulting in EN, FR, ES |
 | orbits | Generative engine optimization |
 | puzzle | Website localisation, FR and ES equivalents |
