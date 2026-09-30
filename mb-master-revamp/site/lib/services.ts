@@ -154,7 +154,7 @@ export type Service = {
    * "<language> seo agency" variants, which is how the demand actually
    * splits: no single head term carries the market.
    */
-  demand?: { volume: number; kd: string; note: string };
+  demand?: { volume: number; kd: string; note: string; measured?: string };
   /** Flags a page whose source copy has not had the refresh its siblings got. */
   needsRefresh?: string;
 };
@@ -484,7 +484,7 @@ export const SERVICES: Service[] = [
         paragraphs: [
           "A French buyer shortlists the way yours do: read a few sites, compare them, contact one or two. Within the first sentence they know whether a page was written in France: the word a French writer would choose, the right register, an example that makes sense to them. The supplier who sounds local is the one who gets the enquiry.",
           "Your reports show the French traffic arriving; the enquiry itself is decided on the page, often in favour of a French competitor with a weaker product and better French. Writing in French brings that enquiry to you.",
-          "France is the largest French-speaking market in Europe, so a French site that reads as local reaches the biggest share of the audience it was built to win.",
+          
         ],
       },
       {
@@ -498,7 +498,7 @@ export const SERVICES: Service[] = [
       {
         heading: "Most searches for French SEO come from companies outside France",
         paragraphs: [
-          "When we measured the demand in September 2026, 500 of the 700 monthly searches worldwide for a French SEO agency came from the UK. Search Console for this page tells the same story from other directions: its biggest query is “seo frankrijk”, in Dutch, ahead of “french seo” itself, and German-language searches for an SEO agency in France turn up too.",
+          "500 of the 700 monthly searches worldwide for a French SEO agency come from the UK (Ahrefs, September 2026), and Dutch and German companies search for SEO in France in their own languages.",
           "So the typical buyer is a company outside France selling into it, and that is who this service is built for. You write the brief in English, Dutch or French, and the work is done in French.",
         ],
       },
@@ -569,7 +569,8 @@ export const SERVICES: Service[] = [
     demand: {
       volume: 2700,
       kd: "3 to 6",
-      note: "Largest of the six language markets. Most of it comes from outside France: re-measured on 23 September 2026, 500 of the 700 monthly searches for `french seo agency` come from the UK, and Dutch and German searches for SEO in France add to it.",
+      note: "Most of it comes from outside France: 500 of the 700 monthly searches for `french seo agency` come from the UK, and Dutch and German searches for SEO in France add to it.",
+      measured: "23 September 2026",
     },
   },
   {
@@ -606,21 +607,21 @@ export const SERVICES: Service[] = [
         paragraphs: [
           "German buyers read. They go through the page, compare it with two or three others, and look for the company details before they trust anyone with an enquiry. By the first paragraph they know whether it was written in German: compound words built the way a German builds them, a register that holds steady in Sie or du, examples that make sense in Germany.",
           "Company details count just as much, and sooner. A German site is expected to carry a full Impressum with the register entry and tax number, and a proper opt-in for cookies. With them in place the site reads as local and careful, and the buyer stays with you.",
-          "Germany is the largest economy in Europe, so a German site that wins the comparison opens the biggest market in Europe to you.",
+          
         ],
       },
       {
         heading: "Planned with you, written by native Germans",
         paragraphs: [
           "German SEO needs two skills at once. One is the plan: which pages, which searches, which market first, and how the site is set up. The other is German that a native reads as their own. We do the first with you directly, in English or French, and native German copywriters do the second.",
-          "We say so plainly, so you know from the first call who does what. You get one person to talk to, one invoice, and German written by Germans, with every page briefed and checked against the plan before it goes live.",
+          "You get one person to talk to, one invoice, and German written by Germans, with every page briefed and checked against the plan before it goes live.",
           "Then the details a German buyer checks before trusting a supplier: the Impressum, the privacy policy, a German phone number where you have one, listings in German trade directories and with the local chamber of commerce, and mentions in the German trade press.",
         ],
       },
       {
         heading: "Companies all over Europe are looking for German SEO",
         paragraphs: [
-          "When we measured the demand in September 2026, only 150 of the 1,000 monthly searches worldwide for German SEO came from the UK. Dutch businesses search for it in Dutch, and Search Console for this page shows the same search in Spanish, Italian, French, Dutch and the Scandinavian languages.",
+          "Only 150 of the 1,000 monthly searches worldwide for German SEO come from the UK (Ahrefs, September 2026). Dutch businesses search for it in Dutch, and Spanish, Italian, French and Scandinavian companies look for it in their own languages.",
           "So the typical buyer is a company that already sells well at home and wants Germany next, and that is who this service is built for. You work with us in English or French, and your German buyers read German.",
         ],
       },
@@ -639,8 +640,7 @@ export const SERVICES: Service[] = [
       {
         q: "Who actually writes the German",
         a: [
-          "Native German copywriters, briefed and reviewed by us. We know enough German to manage SEO projects in it, from search results and competitor pages to briefs and meetings. Your German commercial copy is written by native Germans, because the register is the sale and it has to be exact.",
-          "We say it here so you know from the start: you pay for strategy where the strategy is done, and for writing where the writing is done well.",
+          "Native German copywriters, briefed and reviewed by us. We know enough German to manage SEO projects in it, from search results and competitor pages to briefs and meetings. Your German commercial copy is written by native Germans, because the register decides whether a German buyer trusts the page.",
         ],
       },
       {
@@ -661,7 +661,7 @@ export const SERVICES: Service[] = [
         q: "Swiss German is written as standard German with its own spelling",
         a: [
           "Swiss readers read standard German, so the copy stays as it is. The conventions differ: Swiss German writes Strasse for Straße, using ss throughout, prices in CHF, and its own phone formats.",
-          "Small details, and precisely the ones that tell a Swiss buyer the page was written for them.",
+          "These are the details a Swiss buyer notices first.",
         ],
       },
       {
@@ -683,7 +683,8 @@ export const SERVICES: Service[] = [
     demand: {
       volume: 2350,
       kd: "0 to 1",
-      note: "Second-largest and the easiest of the six. Re-measured on 23 September 2026, only 150 of the 1,000 monthly searches for `german seo` come from the UK, and Dutch searches such as `duitse seo` add 200 more of their own.",
+      note: "Only 150 of the 1,000 monthly searches for `german seo` come from the UK, and Dutch searches such as `duitse seo` add 200 more of their own.",
+      measured: "23 September 2026",
     },
   },
   {
@@ -726,14 +727,14 @@ export const SERVICES: Service[] = [
         heading: "Spain from Valencia, Latin America from Santo Domingo",
         paragraphs: [
           "Spain runs directly from Valencia, where we have been based since 2016. The research, the writing, the reading of competitors and the meetings all happen in Spanish, straight from the plan to the page.",
-          "Mexico, Colombia, Argentina and the Dominican Republic go to native copywriters on the BeTranslated team in Santo Domingo, briefed and checked here so the markets stay one coherent plan. We say who writes which Spanish so you know exactly what you are buying.",
+          "Mexico, Colombia, Argentina and the Dominican Republic go to native copywriters on the BeTranslated team in Santo Domingo, briefed and checked here so the markets stay one coherent plan.",
           "Then the things that make a local buyer trust a supplier: the legal details each country expects, prices in the local currency, and mentions in the press that market actually reads.",
         ],
       },
       {
         heading: "Spanish SEO is searched for from two directions",
         paragraphs: [
-          "When we measured the demand in September 2026, the largest single share came from the United States: 500 of the 1,100 monthly searches worldwide for Spanish SEO, and 400 of the 800 for SEO in Spanish. Search Console for this page adds the other direction, companies elsewhere in Europe looking for help in Spain, searching in French, German and Dutch.",
+          "The largest single share of searches comes from the United States: 500 of the 1,100 monthly searches worldwide for Spanish SEO, and 400 of the 800 for SEO in Spanish (Ahrefs, September 2026). From the other direction, companies elsewhere in Europe look for help in Spain in French, German and Dutch.",
           "Whichever one you are, the first decision is the same: which Spanish, for which buyers. Settling it before a word is written is the cheapest point to get it right.",
         ],
       },
@@ -768,7 +769,7 @@ export const SERVICES: Service[] = [
         q: "Who writes which variant",
         a: [
           "Castilian runs direct from the Valencia base: research, briefs, competitor reading, writing and meetings in Spanish, first hand. The Latin American variants go to native copywriters on the BeTranslated team in Santo Domingo, briefed and supervised here so the set stays coherent as one plan.",
-          "We state the split plainly so you know who writes every page you pay for.",
+          "",
         ],
       },
       {
@@ -788,7 +789,8 @@ export const SERVICES: Service[] = [
     demand: {
       volume: 2100,
       kd: "0 to 7",
-      note: "Third-largest, and the two biggest terms both sit at difficulty 0. Re-measured on 23 September 2026, the largest single share is American: 500 of the 1,100 monthly searches for `spanish seo` and 400 of the 800 for `seo in spanish` come from the US.",
+      note: "The two biggest terms both sit at difficulty 0, and the largest single share is American: 500 of the 1,100 monthly searches for `spanish seo` and 400 of the 800 for `seo in spanish` come from the US.",
+      measured: "23 September 2026",
     },
   },
   {
@@ -840,7 +842,7 @@ export const SERVICES: Service[] = [
       {
         heading: "Dutch buyers search by country: the Netherlands and Flanders apart",
         paragraphs: [
-          "When we measured the demand in September 2026, more people searched in English for SEO in the Netherlands (400 a month) and SEO in Belgium (350) than for Dutch SEO (250). Search Console for this page shows the same thing: its top queries name the Netherlands or Holland, and German and French searches for SEO in the Netherlands turn up as well.",
+          "More people search in English for SEO in the Netherlands (400 a month) and SEO in Belgium (350) than for Dutch SEO (250) (Ahrefs, September 2026). The queries that reach this page name the Netherlands or Holland, and German and French searches for SEO in the Netherlands turn up as well.",
           "So the question a buyer brings is how to win customers in the Netherlands, in Belgium, or in both, and the answer starts with which of the three that is.",
         ],
       },
@@ -895,7 +897,8 @@ export const SERVICES: Service[] = [
     demand: {
       volume: 800,
       kd: "3",
-      note: "Smallest of the six in English, and the market is larger than the figure: re-measured on 23 September 2026, buyers name the country more often than the language, so `seo netherlands` (400) and `seo belgium` (350) each draw more than `dutch seo` (250).",
+      note: "The market is larger than the figure: buyers name the country more often than the language, so `seo netherlands` (400) and `seo belgium` (350) each draw more than `dutch seo` (250).",
+      measured: "23 September 2026",
     },
   },
   {
@@ -923,7 +926,7 @@ export const SERVICES: Service[] = [
       {
         heading: "Read fluently here, written natively by the network",
         paragraphs: [
-          "Our Italian is enough to manage SEO projects in it, and we handle strategy and competitor reading directly. Native Italian copywriters from the BeTranslated network handle the writing itself, briefed in English or French and checked by a second native reader before anything ships. We say plainly who writes the commercial copy. Writing from inside the market is what you are buying, and the page shows it.",
+          "Our Italian is enough to manage SEO projects in it, and we handle strategy and competitor reading directly. Native Italian copywriters from the BeTranslated network handle the writing itself, briefed in English or French and checked by a second native reader before anything ships. The commercial copy comes from inside the market.",
           "Targeting runs per macro-region (Nord, Centro, Sud) when the offer justifies it, with local landing pages for Milan, Rome, Turin and other metropolitan areas where relevant. Outreach targets Corriere della Sera, La Repubblica and Sole 24 Ore for B2B, plus sector associations such as Confindustria and Confartigianato.",
         ],
       },
@@ -1019,7 +1022,7 @@ export const SERVICES: Service[] = [
         q: "Who reads the Portuguese and who writes it",
         a: [
           "We read both variants at a working level, built on native French and daily Spanish, which is enough to audit a SERP, follow a competitor's pages, check the technical configuration for the variant and take notes in a native team meeting.",
-          "Writing is done by native copywriters from the target market: a Portuguese writer for pt-PT and a Brazilian writer for pt-BR, each on their own variant. We say so up front so you know who writes each page.",
+          "Writing is done by native copywriters from the target market: a Portuguese writer for pt-PT and a Brazilian writer for pt-BR, each on their own variant.",
         ],
       },
       {
@@ -1040,7 +1043,7 @@ export const SERVICES: Service[] = [
     demand: {
       volume: 1150,
       kd: "33",
-      note: "Mid-sized but by far the hardest of the six. `seo portugal` at difficulty 33 is ten times the difficulty of the German or Spanish equivalents, so it should be built last.",
+      note: "`seo portugal` sits at difficulty 33, ten times the difficulty of the German or Spanish equivalents, so it is built last.",
     },
   },
 

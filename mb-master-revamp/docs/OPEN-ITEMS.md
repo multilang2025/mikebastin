@@ -82,3 +82,5 @@ illustrations). No PR is open.
 | | Unsourced statistics in the Spanish and French posts | Sourced or dropped, 30 Sep 2026 |
 | | Belgium, Switzerland and Luxembourg in the French reader | Owner, 30 Sep 2026 |
 | | Recycled illustrations, world and Europe maps, on mobile, Business Profile drawing | Owner, 30 Sep 2026 |
+| | Horizontal scroll on the German SEO post at 320 to 360px (a long compound word), and the header overflowing at 768px | Fixed 30 Sep 2026: long words wrap, the desktop menu starts at 1024px |
+| | Stale prose on the service pages: the "Measured demand, Ahrefs" block (two SEO figures and an analyst note) and internal asides ("We say so plainly", "Search Console for this page", "the six") | Owner, 30 Sep 2026: removed the block from every service page and rewrote the asides on the German, French, Spanish, Dutch, Italian and Portuguese pages. The data stays in `lib/services.ts` as research |

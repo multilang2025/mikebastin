@@ -224,7 +224,7 @@ export default function SiteNav() {
           </span>
         </Link>
         <ul
-          className="hidden items-center gap-x-6 text-[.86rem] sm:flex"
+          className="hidden items-center gap-x-6 text-[.86rem] lg:flex"
           style={{ color: "var(--dim)" }}
         >
           {links.map((l) => {
@@ -246,7 +246,7 @@ export default function SiteNav() {
           })}
         </ul>
 
-        <div className="hidden sm:block">
+        <div className="hidden lg:block">
           <LocaleSwitcher manifest={localeManifest} pagePairs={pagePairs} pathname={pathname ?? ""} />
         </div>
 
@@ -260,7 +260,7 @@ export default function SiteNav() {
             aria-expanded={open}
             aria-controls="mb-mobile-menu"
             aria-label={open ? ui.closeMenu : ui.openMenu}
-            className="grid h-11 w-11 shrink-0 place-items-center rounded-full sm:hidden"
+            className="grid h-11 w-11 shrink-0 place-items-center rounded-full lg:hidden"
             style={{ color: "var(--berry)" }}
           >
             <svg
@@ -297,7 +297,7 @@ export default function SiteNav() {
       {open && (
         <div
           id="mb-mobile-menu"
-          className="mb-menu border-t sm:hidden"
+          className="mb-menu border-t lg:hidden"
           style={{ borderColor: "var(--rule)", background: "var(--bg)" }}
         >
           <nav aria-label="Site" className="shell pt-3">

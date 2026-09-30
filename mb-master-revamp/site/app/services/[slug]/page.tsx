@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import Reveal from "@/components/Reveal";
-import QueryTerms from "@/components/QueryTerms";
 import ServiceProof from "@/components/ServiceProof";
 import SiteFooter from "@/components/SiteFooter";
 import Expandables from "@/components/Expandables";
@@ -87,7 +86,6 @@ export default async function ServicePage({
   // same-surface bands never end up touching.
   let band: "a" | "b" = "a";
   const nextBand = () => (band = band === "a" ? "b" : "a");
-  const demandBand = service.demand ? nextBand() : undefined;
   const bodyBand = service.body && service.body.length > 0 ? nextBand() : undefined;
   const expandablesBand =
     service.expandables && service.expandables.length > 0 ? nextBand() : undefined;
@@ -172,39 +170,6 @@ export default async function ServicePage({
         </div>
       </section>
 
-
-      {/* ============ MEASURED DEMAND ============ */}
-      {service.demand && (
-        <section className={`band band-${demandBand} py-[clamp(48px,7vw,90px)]`}>
-          <div className="shell">
-            <Reveal>
-              <p className="eyebrow mb-6">Measured demand, Ahrefs, 20 August 2026</p>
-            </Reveal>
-            <div className="grid gap-px sm:grid-cols-2" style={{ background: "var(--rule)" }}>
-              {[
-                { v: service.demand.volume.toLocaleString("en-GB"), k: "Worldwide monthly searches" },
-                { v: service.demand.kd, k: "Keyword difficulty" },
-              ].map((m, i) => (
-                <div key={m.k} className="band px-6 py-9" style={{ background: "var(--bg)" }}>
-                  <Reveal i={i}>
-                    <div className="display text-[clamp(2rem,4.2vw,2.9rem)] font-semibold leading-none tabular-nums" style={{ color: "var(--berry)" }}>
-                      {m.v}
-                    </div>
-                    <div className="mt-3 text-[.72rem] uppercase tracking-[.12em]" style={{ color: "var(--dim)" }}>
-                      {m.k}
-                    </div>
-                  </Reveal>
-                </div>
-              ))}
-            </div>
-            <Reveal i={2}>
-              <p className="mt-6 max-w-[62ch] text-[.95rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
-                <QueryTerms text={service.demand.note} />
-              </p>
-            </Reveal>
-          </div>
-        </section>
-      )}
 
       {/* ============ BODY (real prose, migrated + adapted from the legacy pages this service absorbs) ============ */}
       {service.body && service.body.length > 0 && (
