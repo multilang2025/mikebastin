@@ -1,7 +1,6 @@
 ---
 words: 760
-title: "SEO en Italie pour les entreprises françaises, belges ou suisses"
-metaTitle: "SEO en Italie pour les entreprises francophones"
+title: "SEO en Italie pour les entreprises francophones"
 name: "SEO en Italie"
 slug: "seo-italien"
 locale: "fr"
@@ -16,7 +15,7 @@ excerpt: "Vos pages italiennes attirent des visiteurs : faites-en des demandes,
 
 ## Vos pages italiennes peuvent vous apporter des demandes
 
-Vous vendez déjà en Italie, ou vous y entrez, et votre site italien reçoit des visites. L’étape suivante : que l’acheteur italien qui compare ses fournisseurs vous garde dans sa sélection. Il lit quelques sites, puis contacte un ou deux fournisseurs, et dès la première phrase il sait si la page a été écrite par quelqu’un qui vit dans la langue.
+Que votre entreprise soit française, belge, suisse ou luxembourgeoise, vous vendez déjà en Italie, ou vous y entrez, et votre site italien reçoit des visites. L’étape suivante : que l’acheteur italien qui compare ses fournisseurs vous garde dans sa sélection. Il lit quelques sites, puis contacte un ou deux fournisseurs, et dès la première phrase il sait si la page a été écrite par quelqu’un qui vit dans la langue.
 
 Le moment est favorable. Les termes commerciaux en italien sont bien moins disputés que leurs équivalents anglais, si bien qu’une entrée soignée coûte peu. Une page rédigée par un natif, construite sur ce que les Italiens recherchent, transforme ce trafic en demandes.
 

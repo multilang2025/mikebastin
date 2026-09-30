@@ -620,9 +620,9 @@ as routine, and say plainly what it costs the other two locales.
 
 **The FR plan is [`docs/FR-REBUILD-PLAN.md`](docs/FR-REBUILD-PLAN.md)**
 (owner decisions, 27 Sep 2026). The French reader is a French-speaking
-company selling abroad, from France, Belgium or Switzerland (owner, 30 Sep
+company selling abroad, from France, Belgium, Switzerland or Luxembourg (owner, 30 Sep
 2026: Belgium is his natural market, more international by nature, so name
-Belgian and Swiss companies alongside French ones), and `/fr/services/seo/` is the main French page,
+Belgian, Swiss and Luxembourg companies alongside French ones), and `/fr/services/seo/` is the main French page,
 naming no language. Absorbed services with no French sibling get a French
 page built. The owner reviews all French copy. Phase 1, released ahead
 of the EN lock, is done: `scripts/gen-fr-redirects.mjs` gives every legacy
