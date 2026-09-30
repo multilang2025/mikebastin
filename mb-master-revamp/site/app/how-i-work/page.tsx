@@ -7,6 +7,7 @@ import SiteFooter from "@/components/SiteFooter";
 import JsonLd from "@/components/JsonLd";
 import { SITE_URL, breadcrumbSchema } from "@/lib/schema";
 import DlArt from "@/components/DlArt";
+import HeroArtSlot from "@/components/HeroArtSlot";
 
 // Legacy /pricing/ (content-map.json group g048) is reframed here rather than
 // rebuilt as a pricing page. Owner decision: no public rates for a
@@ -146,9 +147,9 @@ export default function HowIWorkPage() {
             </div>
           </Reveal>
         </div>
-        <div className="hidden w-[min(360px,30vw)] lg:mt-24 lg:block">
+        <HeroArtSlot visibleOnMobile={true}>
           <DlArt name="roundtable" />
-        </div>
+        </HeroArtSlot>
         </div>
       </section>
 

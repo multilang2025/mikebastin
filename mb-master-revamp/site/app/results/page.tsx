@@ -9,6 +9,7 @@ import SiteFooter from "@/components/SiteFooter";
 import JsonLd from "@/components/JsonLd";
 import { SITE_URL, breadcrumbSchema } from "@/lib/schema";
 import DlArt from "@/components/DlArt";
+import HeroArtSlot from "@/components/HeroArtSlot";
 
 export const metadata: Metadata = {
   ...pageMeta({
@@ -63,9 +64,9 @@ export default function ResultsPage() {
             </p>
           </Reveal>
         </div>
-        <div className="hidden w-[min(360px,30vw)] lg:mt-24 lg:block">
+        <HeroArtSlot visibleOnMobile={true}>
           <DlArt name="clock" />
-        </div>
+        </HeroArtSlot>
         </div>
       </section>
 

@@ -8,6 +8,7 @@ import { ButtonLink } from "@/components/ui/Button";
 import { frLanguages } from "@/lib/fr-pages";
 import { SITE_URL, breadcrumbSchema } from "@/lib/schema";
 import DlArt from "@/components/DlArt";
+import HeroArtSlot from "@/components/HeroArtSlot";
 
 // French-only page at the legacy /fr/notre-equipe/ URL (content-map, plan
 // phase 3). No English sibling: the English site folds this into
@@ -92,9 +93,9 @@ export default function FrenchTeamPage() {
             </div>
           </Reveal>
         </div>
-        <div className="hidden w-[min(360px,30vw)] lg:mt-24 lg:block">
+        <HeroArtSlot visibleOnMobile={true}>
           <DlArt name="skyline" />
-        </div>
+        </HeroArtSlot>
         </div>
       </section>
 

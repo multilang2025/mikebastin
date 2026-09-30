@@ -10,6 +10,7 @@ import { getServicesForLocale } from "@/lib/services-locale";
 import { esLanguages } from "@/lib/fr-pages";
 import { SITE_URL, breadcrumbSchema } from "@/lib/schema";
 import DlArt from "@/components/DlArt";
+import HeroArtSlot from "@/components/HeroArtSlot";
 
 // Spanish contact page at the legacy URL (docs/ES-REBUILD-PLAN.md). Same
 // form, fields and endpoint as /contact/; `lang=es` makes public/contact.php
@@ -74,9 +75,9 @@ export default function SpanishContactPage() {
             </p>
           </Reveal>
         </div>
-        <div className="hidden w-[min(360px,30vw)] lg:mt-24 lg:block">
+        <HeroArtSlot visibleOnMobile={true}>
           <DlArt name="globe" />
-        </div>
+        </HeroArtSlot>
         </div>
       </section>
 

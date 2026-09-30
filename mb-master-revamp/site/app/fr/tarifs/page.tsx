@@ -8,6 +8,7 @@ import { ButtonLink } from "@/components/ui/Button";
 import { frLanguages } from "@/lib/fr-pages";
 import { SITE_URL, breadcrumbSchema } from "@/lib/schema";
 import DlArt from "@/components/DlArt";
+import HeroArtSlot from "@/components/HeroArtSlot";
 
 // French sibling of /how-i-work/, at the legacy /fr/tarifs/ URL (content-map
 // g048, action "reposition"). Same owner decision as the English page: no
@@ -115,9 +116,9 @@ export default function FrenchTarifsPage() {
             </h2>
           </Reveal>
         </div>
-        <div className="hidden w-[min(360px,30vw)] lg:mt-24 lg:block">
+        <HeroArtSlot visibleOnMobile={true}>
           <DlArt name="roundtable" />
-        </div>
+        </HeroArtSlot>
         </div>
       </section>
 

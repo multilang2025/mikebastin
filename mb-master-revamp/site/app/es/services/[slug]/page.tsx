@@ -22,6 +22,8 @@ export function generateStaticParams() {
 
 import { pageMeta } from "@/lib/meta";
 import ServiceHeroArt from "@/components/ServiceHeroArt";
+import HeroArtSlot from "@/components/HeroArtSlot";
+import { hasDlArt } from "@/lib/dl-art";
 
 export async function generateMetadata({
   params,
@@ -92,9 +94,9 @@ export default async function SpanishServicePage({
             </p>
           </Reveal>
         </div>
-        <div className="hidden w-[min(360px,30vw)] lg:mt-24 lg:block">
+        <HeroArtSlot visibleOnMobile={hasDlArt("es", service.slug)}>
           <ServiceHeroArt slug={service.slug} locale="es" />
-        </div>
+        </HeroArtSlot>
         </div>
       </section>
 

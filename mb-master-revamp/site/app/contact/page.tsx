@@ -9,6 +9,7 @@ import { SERVICES } from "@/lib/services";
 import JsonLd from "@/components/JsonLd";
 import { SITE_URL, breadcrumbSchema } from "@/lib/schema";
 import DlArt from "@/components/DlArt";
+import HeroArtSlot from "@/components/HeroArtSlot";
 
 export const metadata: Metadata = {
   ...pageMeta({
@@ -70,9 +71,9 @@ export default function ContactPage() {
             </p>
           </Reveal>
         </div>
-        <div className="hidden w-[min(360px,30vw)] lg:mt-24 lg:block">
-          <DlArt name="globe" />
-        </div>
+        <HeroArtSlot visibleOnMobile={true}>
+          <DlArt name="globe-world" />
+        </HeroArtSlot>
         </div>
       </section>
 

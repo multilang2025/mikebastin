@@ -8,7 +8,7 @@
 export const DL_SERVICE_ART: Record<"en" | "fr" | "es", Record<string, string>> = {
   en: {
     "spanish-seo": "convergence",
-    "multilingual-seo": "constellation",
+    "multilingual-seo": "convergence-world",
     "technical-seo": "audit",
     "local-seo": "hexagons",
     "ai-consulting": "gears",
@@ -18,7 +18,7 @@ export const DL_SERVICE_ART: Record<"en" | "fr" | "es", Record<string, string>> 
     "lead-generation": "amphora",
   },
   fr: {
-    seo: "constellation",
+    seo: "convergence-europe",
     "seo-espagnol": "convergence",
     "referencement-multilingue": "constellation",
     "seo-technique": "audit",
@@ -47,3 +47,9 @@ export const DL_PAGE_ART = {
   results: "clock",
   team: "skyline",
 } as const;
+
+/**
+ * Whether a service hero has a recycled illustration. Those show on mobile
+ * too (owner, 30 Sep 2026); the generic hero motifs stay desktop only.
+ */
+export const hasDlArt = (locale: "en" | "fr" | "es", slug: string) => Boolean(DL_SERVICE_ART[locale][slug]);
