@@ -302,6 +302,11 @@ written for the French company selling abroad, with FR service links; they
 pair with their EN siblings in hreflang and sit under the new French topic
 `seo-multilingue`. The French journal now has 10 posts.
 
+Eight more EN posts were adapted on 30 Sep 2026, plus two for the
+French reader only (`seo-en-belgique`, `seo-allemand-bonnes-pratiques`,
+`netlinking-en-espagne` and the rest of the list in `lib/locale-topics.ts`):
+the journal now has 20 posts.
+
 ## Open for the owner
 
 - Review the French copy in one go (PR #118): every page is a draft.
