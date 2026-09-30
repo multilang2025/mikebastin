@@ -21,6 +21,7 @@ export function generateStaticParams() {
 }
 
 import { pageMeta } from "@/lib/meta";
+import ServiceHeroArt from "@/components/ServiceHeroArt";
 
 export async function generateMetadata({
   params,
@@ -71,7 +72,8 @@ export default async function SpanishServicePage({
       />
       {/* ============ HERO ============ */}
       <section className="band band-a grain relative overflow-hidden pb-[clamp(48px,7vw,84px)] pt-[clamp(96px,14vw,160px)]">
-        <div className="shell relative">
+        <div className="shell relative grid items-start gap-x-12 lg:grid-cols-[1fr_auto]">
+        <div>
           <Reveal>
             <h1 className="mb-6 max-w-[26ch] text-[clamp(2rem,4.8vw,3.4rem)] font-semibold leading-[1.1]">
               {service.title}
@@ -89,6 +91,10 @@ export default async function SpanishServicePage({
               </Link>
             </p>
           </Reveal>
+        </div>
+        <div className="hidden w-[min(360px,30vw)] lg:mt-24 lg:block">
+          <ServiceHeroArt slug={service.slug} locale="es" />
+        </div>
         </div>
       </section>
 

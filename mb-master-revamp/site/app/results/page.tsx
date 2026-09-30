@@ -8,6 +8,7 @@ import LocaleTable from "@/components/LocaleTable";
 import SiteFooter from "@/components/SiteFooter";
 import JsonLd from "@/components/JsonLd";
 import { SITE_URL, breadcrumbSchema } from "@/lib/schema";
+import DlArt from "@/components/DlArt";
 
 export const metadata: Metadata = {
   ...pageMeta({
@@ -39,7 +40,8 @@ export default function ResultsPage() {
       <JsonLd data={breadcrumbSchema([{ name: "Home", url: `${SITE_URL}/` }, { name: "Results", url: `${SITE_URL}/results/` }])} />
       {/* ============ HERO ============ */}
       <section className="band band-a grain relative overflow-hidden pb-[clamp(56px,8vw,100px)] pt-[clamp(96px,14vw,160px)]">
-        <div className="shell relative">
+        <div className="shell relative grid items-start gap-x-12 lg:grid-cols-[1fr_auto]">
+        <div>
           <Reveal>
             <p className="eyebrow mb-8">Results you can count</p>
           </Reveal>
@@ -60,6 +62,10 @@ export default function ResultsPage() {
               figures are shown in full.
             </p>
           </Reveal>
+        </div>
+        <div className="hidden w-[min(360px,30vw)] lg:mt-24 lg:block">
+          <DlArt name="clock" />
+        </div>
         </div>
       </section>
 

@@ -6,6 +6,7 @@ import Reveal from "@/components/Reveal";
 import SiteFooter from "@/components/SiteFooter";
 import JsonLd from "@/components/JsonLd";
 import { SITE_URL, breadcrumbSchema } from "@/lib/schema";
+import DlArt from "@/components/DlArt";
 
 // Legacy /pricing/ (content-map.json group g048) is reframed here rather than
 // rebuilt as a pricing page. Owner decision: no public rates for a
@@ -99,7 +100,8 @@ export default function HowIWorkPage() {
       />
       {/* ============ HERO ============ */}
       <section className="band band-a grain relative overflow-hidden pb-[clamp(48px,7vw,80px)] pt-[clamp(96px,14vw,160px)]">
-        <div className="shell relative">
+        <div className="shell relative grid items-start gap-x-12 lg:grid-cols-[1fr_auto]">
+        <div>
           <Reveal>
             <p className="eyebrow mb-8">The process, stage by stage</p>
           </Reveal>
@@ -143,6 +145,10 @@ export default function HowIWorkPage() {
               </span>
             </div>
           </Reveal>
+        </div>
+        <div className="hidden w-[min(360px,30vw)] lg:mt-24 lg:block">
+          <DlArt name="roundtable" />
+        </div>
         </div>
       </section>
 

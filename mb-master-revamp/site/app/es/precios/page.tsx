@@ -7,6 +7,7 @@ import LocaleHtmlLang from "@/components/LocaleHtmlLang";
 import { ButtonLink } from "@/components/ui/Button";
 import { esLanguages } from "@/lib/fr-pages";
 import { SITE_URL, breadcrumbSchema } from "@/lib/schema";
+import DlArt from "@/components/DlArt";
 
 // Spanish sibling of /how-i-work/, at the legacy /es/precios/ URL (content-map
 // g048, action "reposition"). Same owner decision as the English page: no
@@ -98,7 +99,8 @@ export default function SpanishPricingPage() {
         ])}
       />
       <section className="band band-a grain relative overflow-hidden pb-[clamp(48px,7vw,80px)] pt-[clamp(96px,14vw,160px)]">
-        <div className="shell relative">
+        <div className="shell relative grid items-start gap-x-12 lg:grid-cols-[1fr_auto]">
+        <div>
           <Reveal>
             <p className="eyebrow mb-8">Un método pensado para tus mercados</p>
           </Reveal>
@@ -112,6 +114,10 @@ export default function SpanishPricingPage() {
               Cada proyecto se presupuesta a partir de tus mercados, tus idiomas y lo que ya existe. Así se desarrolla y así se factura.
             </h2>
           </Reveal>
+        </div>
+        <div className="hidden w-[min(360px,30vw)] lg:mt-24 lg:block">
+          <DlArt name="roundtable" />
+        </div>
         </div>
       </section>
 

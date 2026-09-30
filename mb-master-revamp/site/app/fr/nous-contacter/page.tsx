@@ -9,6 +9,7 @@ import { Field, Input, Textarea, Select, Checkbox, describedBy } from "@/compone
 import { getServicesForLocale } from "@/lib/services-locale";
 import { frLanguages } from "@/lib/fr-pages";
 import { SITE_URL, breadcrumbSchema } from "@/lib/schema";
+import DlArt from "@/components/DlArt";
 
 // French contact page at the legacy URL (docs/FR-REBUILD-PLAN.md). Same
 // form, fields and endpoint as /contact/; `lang=fr` makes public/contact.php
@@ -52,7 +53,8 @@ export default function FrenchContactPage() {
         ])}
       />
       <section className="band band-a grain relative overflow-hidden pb-[clamp(48px,7vw,80px)] pt-[clamp(96px,14vw,160px)]">
-        <div className="shell relative">
+        <div className="shell relative grid items-start gap-x-12 lg:grid-cols-[1fr_auto]">
+        <div>
           <Reveal>
             <p className="eyebrow mb-8">Un formulaire court, une vraie réponse</p>
           </Reveal>
@@ -71,6 +73,10 @@ export default function FrenchContactPage() {
               Six champs, chacun utile. Nous lisons chaque message et y répondons nous-mêmes, en général sous un jour ouvré. Si quelqu&apos;un d&apos;autre est mieux placé pour votre projet, nous vous le dirons et vous orienterons vers lui.
             </p>
           </Reveal>
+        </div>
+        <div className="hidden w-[min(360px,30vw)] lg:mt-24 lg:block">
+          <DlArt name="globe" />
+        </div>
         </div>
       </section>
 
