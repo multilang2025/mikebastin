@@ -1,5 +1,5 @@
 ---
-words: 0
+words: 1232
 title: "Promouvoir votre entreprise locale sur Google Maps"
 slug: "promouvoir-entreprise-locale-google-maps"
 locale: "fr"

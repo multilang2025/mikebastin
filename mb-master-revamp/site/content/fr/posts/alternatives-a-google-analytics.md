@@ -129,7 +129,7 @@ Cinq outils, chacun le plus fort sur une tâche différente :
 
 **Prix :** une offre gratuite, puis une offre Growth facturée à l’usage (qui a remplacé l’abonnement mensuel fixe), avec une tarification Enterprise sur devis pour les volumes plus importants.
 
-> Offre gratuite : utilisateurs illimités et jusqu’à 1 million d’événements par mois. Enterprise : tarification sur mesure.
+> Offre gratuite : utilisateurs illimités et jusqu’à 1 million d’événements par mois. Enterprise : tarification sur devis.
 >
 > Source : [Mixpanel, tarifs, 2026](https://mixpanel.com/pricing/)
 

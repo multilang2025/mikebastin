@@ -1,7 +1,7 @@
 ---
 words: 0
 title: "SEO on-page et GEO en espagnol : la liste de contrôle des pages qui sonnent locales"
-metaTitle: "SEO on-page et GEO en espagnol : la liste de contrôle locale"
+metaTitle: "SEO on-page et GEO en espagnol : la liste de contrôle"
 slug: "seo-on-page-espagnol"
 locale: "fr"
 type: "posts"
@@ -10,7 +10,7 @@ wpId: null
 date: "2026-09-30T12:20:00"
 modified: "2026-09-30T12:20:00"
 sourceUrl: null
-excerpt: "Une liste de contrôle SEO on-page et GEO pour vos pages espagnoles : des pages qui se lisent comme locales, font venir des demandes et sont citées par les IA."
+excerpt: "Une liste de contrôle SEO on-page et GEO pour vos pages espagnoles : des pages qui sonnent locales, font venir des demandes et sont citées par les IA."
 ---
 
 Vos pages en espagnol sont déjà trouvées, et l’étape suivante consiste à garder le lecteur sur la page. La traduction est souvent correcte ; ce qui retient un acheteur, c’est une page qui sonne locale de bout en bout : une adresse web en espagnol, des titres que taperait un acheteur à Madrid, un seul registre du début à la fin. Les acheteurs espagnols le remarquent, sur Google.es comme sur Bing, et choisissent le fournisseur qui parle comme eux.
@@ -46,7 +46,7 @@ Une poignée de détails décide des performances d’une page espagnole, et cha
 | Élément | Ce qu’il faut faire pour les internautes espagnols | Point de contrôle |
 | --- | --- | --- |
 | URL | Courte, lisible, mots-clés espagnols, une région ou une ville si pertinent | Slug en espagnol sur chaque page espagnole |
-| Titre et H1 | Formulation espagnole qu’un natif rechercherait | Titre écrit pour l’Espagne, pas calqué sur le titre français |
+| Titre et H1 | Formulation espagnole qu’un natif rechercherait | Titre écrit pour l’Espagne, distinct du titre français |
 | Méta description | Tú ou usted tenu d’un bout à l’autre, une raison claire de cliquer | Un seul registre |
 | Images | Texte alternatif rédigé en espagnol | Texte alternatif en espagnol sur toutes les images |
 | Vidéo et audio | Contenus qui parlent à la culture locale | Voix ou sous-titres en espagnol |
