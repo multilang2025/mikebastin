@@ -528,6 +528,8 @@ scope, or spend decision, not on every diff.
 
 ## Open decisions
 
+**The running log of everything open is [`docs/OPEN-ITEMS.md`](docs/OPEN-ITEMS.md)** (owner questions Q1 to Q24, matched by the published answer sheet, and the items that are ours to do). Update it in the turn an item opens or closes.
+
 Tracked in `docs/HANDOFF.md` §21 "Decisions OPEN" and §17 addendum. Resolve
 with the owner before P1 work depends on them. Still open: X handle and the
 three featured post URLs, Valencia STAY-list sign-off, credibility strip
