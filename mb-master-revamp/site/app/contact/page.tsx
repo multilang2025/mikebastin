@@ -10,6 +10,7 @@ import JsonLd from "@/components/JsonLd";
 import { SITE_URL, breadcrumbSchema } from "@/lib/schema";
 import DlArt from "@/components/DlArt";
 import HeroArtSlot from "@/components/HeroArtSlot";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   ...pageMeta({
@@ -166,7 +167,11 @@ export default function ContactPage() {
                   label={
                     <>
                       We can keep your details on file to answer this enquiry,
-                      and use them for that alone.
+                      and use them for that alone. More in our{" "}
+                      <Link href="/privacy/" className="ulink">
+                        privacy and cookies
+                      </Link>{" "}
+                      page.
                     </>
                   }
                 />

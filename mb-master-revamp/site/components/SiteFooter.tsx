@@ -1,3 +1,5 @@
+import FooterLanguages from "@/components/FooterLanguages";
+import CookieSettingsLink from "@/components/CookieSettingsLink";
 import Link from "next/link";
 import PostImage from "@/components/PostImage";
 import Reveal from "@/components/Reveal";
@@ -45,6 +47,8 @@ const T: Record<
     based: string;
     top: string;
     motto: string;
+    privacy: string;
+    cookies: string;
   }
 > = {
   en: {
@@ -60,6 +64,8 @@ const T: Record<
     based: "Multilingual search, from Valencia",
     top: "Back to top",
     motto: "Automating business. Translating ideas. Connecting people.",
+    privacy: "Privacy and cookies",
+    cookies: "Cookie settings",
   },
   fr: {
     about: "À propos",
@@ -74,6 +80,8 @@ const T: Record<
     based: "Référencement multilingue, depuis Valencia",
     top: "Haut de page",
     motto: "Automatiser l’entreprise. Traduire les idées. Relier les personnes.",
+    privacy: "Confidentialité et cookies",
+    cookies: "Réglages des cookies",
   },
   es: {
     about: "Quiénes somos",
@@ -88,8 +96,12 @@ const T: Record<
     based: "Posicionamiento multilingüe, desde Valencia",
     top: "Volver arriba",
     motto: "Automatizar negocios. Traducir ideas. Conectar personas.",
+    privacy: "Privacidad y cookies",
+    cookies: "Ajustes de cookies",
   },
 };
+
+const PRIVACY_HREF: Record<Locale, string> = { en: "/privacy/", fr: "/fr/confidentialite/", es: "/es/privacidad/" };
 
 // Where the sign-off button and the "all services" link go per locale. A
 // locale with no index of its own gets no link rather than an English one:
@@ -420,6 +432,11 @@ export default function SiteFooter({
                 ))}
               </nav>
             )}
+            <Link href={PRIVACY_HREF[locale]} className="ulink">
+              {t.privacy}
+            </Link>
+            <CookieSettingsLink label={t.cookies} />
+            <FooterLanguages />
             <a href="#main" className="ulink ml-auto inline-flex items-center gap-1.5">
               {t.top}
               <span aria-hidden="true">&uarr;</span>

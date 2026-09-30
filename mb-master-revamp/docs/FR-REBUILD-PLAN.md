@@ -305,7 +305,7 @@ pair with their EN siblings in hreflang and sit under the new French topic
 Eight more EN posts were adapted on 30 Sep 2026, plus two for the
 French reader only (`seo-en-belgique`, `seo-allemand-bonnes-pratiques`,
 `netlinking-en-espagne` and the rest of the list in `lib/locale-topics.ts`):
-the journal now has 20 posts.
+the journal now has 20 posts. Eight more followed the same day (the four Spain market posts, Google Maps local promotion, AI in translation, AI and machine translation tools, Google Analytics alternatives): 28 posts, in six topics.
 
 ## Open for the owner
 

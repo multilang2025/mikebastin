@@ -31,12 +31,12 @@ const STAGES = [
   {
     name: "Discovery call",
     detail:
-      "Thirty minutes on which markets and languages matter, what is already ranking, what has already been tried, and what a good outcome looks like, measured in enquiries. We ask questions before we recommend anything.",
+   "Thirty minutes on which markets and languages matter, what is already ranking, what has already been tried, and what a good outcome looks like, measured in enquiries. ",
   },
   {
     name: "A written scope for your markets",
     detail:
-      "A short brief naming the pages, keywords and deliverables for the first quarter, and who does what. Each scope is sized to the site, because a five-language site and a two-language one are different jobs.",
+   "A short brief naming the pages, keywords and deliverables for the first quarter, and who does what. ",
   },
   {
     name: "Research before writing",
@@ -51,12 +51,12 @@ const STAGES = [
   {
     name: "Reporting that separates markets",
     detail:
-      "Monthly numbers per locale, so you can see which market is converting and which one is getting traffic so far. See a real example on the results page.",
+   "Monthly numbers per locale, so you can see which market is converting and which one is getting traffic so far. ",
   },
   {
     name: "A straight answer on every market",
     detail:
-      "When a market needs a new approach after a fair run, we say so and change the plan. Engagements run month to month, and most are open-ended for that reason.",
+   "When a market needs a new approach after a fair run, we say so and change the plan. ",
   },
 ];
 
@@ -67,11 +67,11 @@ const QUESTIONS = [
   },
   {
     q: "Do we need a contract",
-    a: "Engagements run month to month, and either side can end one with notice. Most clients stay because the reporting keeps showing what is working market by market.",
+  a: "Engagements run month to month, and either side can end one with notice. ",
   },
   {
     q: "What if we only need one market fixed",
-    a: "A single-language SEO fix, a localization review, an AI consulting session on where machine translation quality needs lifting, each run as a scoped piece of work with a start and an end. Most enquiries are exactly this.",
+  a: "A single-language SEO fix, a localization review, an AI consulting session on where machine translation quality needs lifting, each run as a scoped piece of work with a start and an end. ",
   },
   {
     q: "Who actually does the work",

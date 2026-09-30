@@ -50,7 +50,7 @@ export const metadata: Metadata = {
 const PARTS = [
   {
     title: "Found in their language",
-    body: "Search built per market from what buyers there actually type, so the right visitor arrives on a page written for them.",
+  body: "Search built per market from what buyers there actually type, ",
     href: "/services/multilingual-seo/",
     link: "International SEO",
   },
@@ -320,9 +320,8 @@ export default function LeadGenerationPage() {
           <Reveal i={1}>
             <p className="mb-9 max-w-[58ch] text-[1.05rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
               Thirty minutes on which markets matter, what already ranks, and
-              what has been tried before. We ask questions before we recommend
-              anything, and what comes back is a written scope naming real
-              pages and deliverables. Engagements run month to month.
+              what has been tried before. A written scope naming pages and
+              deliverables follows. Engagements run month to month.
             </p>
           </Reveal>
           <Reveal i={2}>

@@ -239,7 +239,12 @@
     "content_path": "site/content/en/posts/ai-powered-marketing.md"
    },
    "fr": null,
-   "es": null
+   "es": {
+     "id": null,
+     "slug": "marketing-con-ia",
+     "url": "https://mikebastin.com/es/marketing-con-ia/",
+     "content_path": "site/content/es/posts/marketing-con-ia.md"
+   }
   },
   {
    "group": "g009",
@@ -256,8 +261,18 @@
     "url": "https://mikebastin.com/alternatives-to-google-analytics/",
     "content_path": "site/content/en/posts/alternatives-to-google-analytics.md"
    },
-   "fr": null,
-   "es": null
+   "fr": {
+     "id": null,
+     "slug": "alternatives-a-google-analytics",
+     "url": "https://mikebastin.com/fr/alternatives-a-google-analytics/",
+     "content_path": "site/content/fr/posts/alternatives-a-google-analytics.md"
+   },
+   "es": {
+     "id": null,
+     "slug": "alternativas-a-google-analytics",
+     "url": "https://mikebastin.com/es/alternativas-a-google-analytics/",
+     "content_path": "site/content/es/posts/alternativas-a-google-analytics.md"
+   }
   },
   {
    "group": "g010",
@@ -2963,7 +2978,12 @@
     "content_path": "site/content/en/posts/how-ai-is-revolutionising-seo-strategies.md"
    },
    "fr": null,
-   "es": null
+   "es": {
+     "id": null,
+     "slug": "ia-y-estrategias-seo",
+     "url": "https://mikebastin.com/es/ia-y-estrategias-seo/",
+     "content_path": "site/content/es/posts/ia-y-estrategias-seo.md"
+   }
   },
   {
    "group": "g128",
@@ -2980,8 +3000,18 @@
     "url": "https://mikebastin.com/how-ai-is-transforming-translation-and-localisation/",
     "content_path": "site/content/en/posts/how-ai-is-transforming-translation-and-localisation.md"
    },
-   "fr": null,
-   "es": null
+   "fr": {
+     "id": null,
+     "slug": "ia-traduction-et-localisation",
+     "url": "https://mikebastin.com/fr/ia-traduction-et-localisation/",
+     "content_path": "site/content/fr/posts/ia-traduction-et-localisation.md"
+   },
+   "es": {
+     "id": null,
+     "slug": "ia-traduccion-y-localizacion",
+     "url": "https://mikebastin.com/es/ia-traduccion-y-localizacion/",
+     "content_path": "site/content/es/posts/ia-traduccion-y-localizacion.md"
+   }
   },
   {
    "group": "g129",
@@ -3034,7 +3064,12 @@
     "url": "https://mikebastin.com/how-to-promote-your-local-business-on-google-maps/",
     "content_path": "site/content/en/posts/how-to-promote-your-local-business-on-google-maps.md"
    },
-   "fr": null,
+   "fr": {
+     "id": null,
+     "slug": "promouvoir-entreprise-locale-google-maps",
+     "url": "https://mikebastin.com/fr/promouvoir-entreprise-locale-google-maps/",
+     "content_path": "site/content/fr/posts/promouvoir-entreprise-locale-google-maps.md"
+   },
    "es": null
   },
   {
@@ -3052,8 +3087,18 @@
     "url": "https://mikebastin.com/how-to-use-ai-and-machine-translation-tools/",
     "content_path": "site/content/en/posts/how-to-use-ai-and-machine-translation-tools.md"
    },
-   "fr": null,
-   "es": null
+   "fr": {
+     "id": null,
+     "slug": "outils-ia-traduction-automatique",
+     "url": "https://mikebastin.com/fr/outils-ia-traduction-automatique/",
+     "content_path": "site/content/fr/posts/outils-ia-traduction-automatique.md"
+   },
+   "es": {
+     "id": null,
+     "slug": "herramientas-ia-traduccion-automatica",
+     "url": "https://mikebastin.com/es/herramientas-ia-traduccion-automatica/",
+     "content_path": "site/content/es/posts/herramientas-ia-traduccion-automatica.md"
+   }
   },
   {
    "group": "g133",
@@ -3609,7 +3654,12 @@
     "url": "https://mikebastin.com/spanish-keyword-localisation/",
     "content_path": "site/content/en/posts/spanish-keyword-localisation.md"
    },
-   "fr": null,
+   "fr": {
+     "id": null,
+     "slug": "localisation-mots-cles-espagnol",
+     "url": "https://mikebastin.com/fr/localisation-mots-cles-espagnol/",
+     "content_path": "site/content/fr/posts/localisation-mots-cles-espagnol.md"
+   },
    "es": null
   },
   {
@@ -3627,7 +3677,12 @@
     "url": "https://mikebastin.com/spanish-on-page-seo/",
     "content_path": "site/content/en/posts/spanish-on-page-seo.md"
    },
-   "fr": null,
+   "fr": {
+     "id": null,
+     "slug": "seo-on-page-espagnol",
+     "url": "https://mikebastin.com/fr/seo-on-page-espagnol/",
+     "content_path": "site/content/fr/posts/seo-on-page-espagnol.md"
+   },
    "es": null
   },
   {
@@ -3645,7 +3700,12 @@
     "url": "https://mikebastin.com/spanish-seo-markets/",
     "content_path": "site/content/en/posts/spanish-seo-markets.md"
    },
-   "fr": null,
+   "fr": {
+     "id": null,
+     "slug": "marches-espagnols-seo",
+     "url": "https://mikebastin.com/fr/marches-espagnols-seo/",
+     "content_path": "site/content/fr/posts/marches-espagnols-seo.md"
+   },
    "es": null
   },
   {
@@ -3732,7 +3792,12 @@
     "url": "https://mikebastin.com/technical-seo-for-spanish-search-engines/",
     "content_path": "site/content/en/posts/technical-seo-for-spanish-search-engines.md"
    },
-   "fr": null,
+   "fr": {
+     "id": null,
+     "slug": "seo-technique-marche-espagnol",
+     "url": "https://mikebastin.com/fr/seo-technique-marche-espagnol/",
+     "content_path": "site/content/fr/posts/seo-technique-marche-espagnol.md"
+   },
    "es": null
   },
   {

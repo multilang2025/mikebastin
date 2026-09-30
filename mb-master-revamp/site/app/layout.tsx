@@ -3,6 +3,9 @@ import localFont from "next/font/local";
 import "./globals.css";
 import SmoothScroll from "@/components/SmoothScroll";
 import SiteNav from "@/components/SiteNav";
+import { LocaleDataProvider } from "@/components/LocaleData";
+import CookieConsent from "@/components/CookieConsent";
+import BackToTop from "@/components/BackToTop";
 import JsonLd from "@/components/JsonLd";
 import { personSchema, professionalServiceSchema } from "@/lib/schema";
 import { getLocaleManifest } from "@/lib/posts";
@@ -111,8 +114,12 @@ export default function RootLayout({
       >
         <SmoothScroll />
         <HtmlLang />
-        <SiteNav localeManifest={getLocaleManifest()} pagePairs={getPageLocaleManifest()} />
-        {children}
+        <LocaleDataProvider value={{ localeManifest: getLocaleManifest(), pagePairs: getPageLocaleManifest() }}>
+          <SiteNav />
+          {children}
+          <CookieConsent />
+          <BackToTop />
+        </LocaleDataProvider>
       </body>
     </html>
   );

@@ -7,6 +7,7 @@ import ThemeToggle from "@/components/ThemeToggle";
 import type { Locale, LocaleSlugs } from "@/lib/posts";
 import { FR_PAGES } from "@/lib/fr-pages-data";
 import { ES_PAGES } from "@/lib/es-pages-data";
+import { useLocaleData } from "@/components/LocaleData";
 
 const LINKS = [
   { href: "/", label: "Home" },
@@ -127,13 +128,8 @@ function LocaleSwitcher({
  * Someone who wants to ring or mail while the page is still in front of
  * them should not have to load the contact page to find an address.
  */
-export default function SiteNav({
-  localeManifest,
-  pagePairs = {},
-}: {
-  localeManifest: Record<string, LocaleSlugs>;
-  pagePairs?: Record<string, Partial<Record<Locale, string>>>;
-}) {
+export default function SiteNav() {
+  const { localeManifest, pagePairs } = useLocaleData();
   const pathname = usePathname();
   const ui = UI[localeOfPath(pathname ?? "/")];
   const links = ui.links;
@@ -228,7 +224,7 @@ export default function SiteNav({
           </span>
         </Link>
         <ul
-          className="hidden items-center gap-x-6 text-[.86rem] sm:flex"
+          className="hidden items-center gap-x-6 text-[.86rem] lg:flex"
           style={{ color: "var(--dim)" }}
         >
           {links.map((l) => {
@@ -250,7 +246,7 @@ export default function SiteNav({
           })}
         </ul>
 
-        <div className="hidden sm:block">
+        <div className="hidden lg:block">
           <LocaleSwitcher manifest={localeManifest} pagePairs={pagePairs} pathname={pathname ?? ""} />
         </div>
 
@@ -264,7 +260,7 @@ export default function SiteNav({
             aria-expanded={open}
             aria-controls="mb-mobile-menu"
             aria-label={open ? ui.closeMenu : ui.openMenu}
-            className="grid h-11 w-11 shrink-0 place-items-center rounded-full sm:hidden"
+            className="grid h-11 w-11 shrink-0 place-items-center rounded-full lg:hidden"
             style={{ color: "var(--berry)" }}
           >
             <svg
@@ -301,7 +297,7 @@ export default function SiteNav({
       {open && (
         <div
           id="mb-mobile-menu"
-          className="mb-menu border-t sm:hidden"
+          className="mb-menu border-t lg:hidden"
           style={{ borderColor: "var(--rule)", background: "var(--bg)" }}
         >
           <nav aria-label="Site" className="shell pt-3">

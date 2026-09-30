@@ -16,9 +16,13 @@ import { TESTIMONIALS, GBP_URL, type Testimonial } from "@/lib/testimonials";
  * delivered localization for that person. Only `delivery` and `expertise`
  * appear here.
  *
- * The pick is a hash of the slug rather than the first match, so the six
- * eligible reviews spread across the nineteen pages instead of one voice
- * speaking on all of them. It is stable across builds.
+ * English pages show English reviews only (owner, 30 Sep 2026: "Remove
+ * French reviews text on EN pages"). The French, Dutch and Spanish reviews
+ * stay on the pages in their own language (components/Testimonials.tsx).
+ *
+ * The pick is a hash of the slug rather than the first match, so the
+ * eligible reviews spread across the pages instead of one voice speaking
+ * on all of them. It is stable across builds.
  *
  * No Review or AggregateRating schema, per the warning in
  * lib/testimonials.ts: Google excludes reviews collected elsewhere and
@@ -27,7 +31,7 @@ import { TESTIMONIALS, GBP_URL, type Testimonial } from "@/lib/testimonials";
  */
 
 const ELIGIBLE: Testimonial[] = TESTIMONIALS.filter(
-  (t) => t.theme === "delivery" || t.theme === "expertise"
+  (t) => t.lang === "en" && (t.theme === "delivery" || t.theme === "expertise")
 );
 
 /** First name plus last initial, matching components/Testimonials.tsx. */
@@ -48,9 +52,6 @@ export default function ServiceProof({ slug }: { slug: string }) {
   const t = pick(slug);
   if (!t) return null;
 
-  // A review written in Dutch is shown in Dutch first, with the English
-  // underneath. Showing only the translation would hide that the person
-  // is a real client in a real market, which is most of the point.
   return (
     <figure
       className="flex max-w-[62ch] flex-col gap-4 rounded-[4px] border p-7"

@@ -30,4 +30,5 @@ export const FR_PAGES: LocalePage[] = [
   { path: "/fr/nous-contacter/", en: "/contact/", label: "Contact", route: "app/fr/nous-contacter/page.tsx", nav: true },
   { path: "/fr/notre-equipe/", en: null, label: "Notre équipe", route: "app/fr/notre-equipe/page.tsx" },
   { path: "/fr/tarifs/", en: "/how-i-work/", label: "Tarifs", route: "app/fr/tarifs/page.tsx" },
+  { path: "/fr/confidentialite/", en: "/privacy/", label: "Confidentialité et cookies", route: "app/fr/confidentialite/page.tsx" },
 ];
