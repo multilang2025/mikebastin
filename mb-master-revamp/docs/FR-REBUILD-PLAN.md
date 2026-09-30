@@ -10,7 +10,8 @@ by the owner** (27 Sep 2026), because it is redirects rather than copy.
 
 1. **Status: plan only.** EN is not locked yet.
 2. **The French reader is a French-speaking company selling abroad**
-   (France, Wallonia, Brussels) into Spain, Benelux, Germany or the UK. It
+   (France, Belgium, which is the owner's natural market and more
+   international by nature, or Switzerland; owner, 30 Sep 2026) into Spain, Benelux, Germany or the UK. It
    is the reverse of the EN "French SEO" page, which sells to foreign
    companies entering France. **The main French page is
    `/fr/services/seo/`, and it names no language**: it is our SEO service

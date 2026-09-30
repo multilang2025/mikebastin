@@ -12,7 +12,9 @@ import { leadGenPath } from "@/lib/lead-gen-hubs";
 import { SITE_URL, breadcrumbSchema } from "@/lib/schema";
 
 // The French homepage (docs/FR-REBUILD-PLAN.md). Its reader is a
-// French-speaking company, in France, Wallonia or Brussels, selling abroad
+// French-speaking company, in France, Belgium (Wallonia, Brussels) or
+// Switzerland, selling abroad (owner, 30 Sep 2026: Belgium is his natural
+// market, more international by nature, so Belgian and Swiss companies are named)
 // (plan decision 2): the reverse of the English "French SEO" page. Every
 // claim here is one the English site already makes (over two decades, the
 // BeTranslated network, no markup on media spend, month-to-month, a reply
@@ -80,7 +82,7 @@ export default function FrenchHome() {
           </Reveal>
           <Reveal i={3}>
             <p className="mb-10 max-w-[58ch] text-[clamp(1.05rem,1.65vw,1.24rem)]" style={{ color: "var(--dim)" }}>
-              Le trafic dans vos autres langues existe déjà. Le transformer en demandes, marché par marché, c&apos;est notre métier depuis plus de vingt ans{" "}: des mots-clés trouvés dans chaque pays, des pages écrites par des natifs, et des résultats comptés en demandes.
+              Entreprise française, belge ou suisse, vous avez déjà du trafic dans vos autres langues. Le transformer en demandes, marché par marché, c&apos;est notre métier depuis plus de vingt ans{" "}: des mots-clés trouvés dans chaque pays, des pages écrites par des natifs, et des résultats comptés en demandes.
             </p>
           </Reveal>
           <Reveal i={4}>

@@ -1,6 +1,7 @@
 ---
 words: 1245
-title: "SEO en Espagne pour les entreprises françaises qui y vendent"
+title: "SEO en Espagne pour les entreprises françaises, belges ou suisses"
+metaTitle: "SEO en Espagne pour les entreprises francophones"
 name: "SEO en Espagne"
 slug: "seo-espagnol"
 locale: "fr"
