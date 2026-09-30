@@ -33,6 +33,16 @@ const TOPICS: LocaleTopic[] = [
   },
   {
     locale: "fr",
+    slug: "seo-multilingue",
+    name: "SEO multilingue",
+    heading: "SEO multilingue\u00a0: les réglages qui additionnent vos langues",
+    blurb:
+      "Les bonnes pratiques et les réglages techniques qui font positionner chaque version de votre site sur son marché : hreflang, structure de domaine, métadonnées, données structurées.",
+    service: { href: "/fr/services/referencement-multilingue/", label: "Référencement multilingue" },
+    posts: ["bonnes-pratiques-seo-multilingue", "seo-technique-site-multilingue"],
+  },
+  {
+    locale: "fr",
     slug: "ia-et-recherche",
     name: "IA et recherche",
     heading: "GEO et recherche vocale : être cité dans les réponses des IA",

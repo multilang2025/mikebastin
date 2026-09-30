@@ -346,7 +346,12 @@
     "url": "https://mikebastin.com/best-practices-for-multilingual-seo/",
     "content_path": "site/content/en/posts/best-practices-for-multilingual-seo.md"
    },
-   "fr": null,
+   "fr": {
+     "id": null,
+     "slug": "bonnes-pratiques-seo-multilingue",
+     "url": "https://mikebastin.com/fr/bonnes-pratiques-seo-multilingue/",
+     "content_path": "site/content/fr/posts/bonnes-pratiques-seo-multilingue.md"
+   },
    "es": null
   },
   {
@@ -3634,7 +3639,12 @@
     "url": "https://mikebastin.com/technical-seo-for-multilingual-websites/",
     "content_path": "site/content/en/posts/technical-seo-for-multilingual-websites.md"
    },
-   "fr": null,
+   "fr": {
+     "id": null,
+     "slug": "seo-technique-site-multilingue",
+     "url": "https://mikebastin.com/fr/seo-technique-site-multilingue/",
+     "content_path": "site/content/fr/posts/seo-technique-site-multilingue.md"
+   },
    "es": null
   },
   {

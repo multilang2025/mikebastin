@@ -295,6 +295,12 @@ page before merge.
 | 4. Copy | Done as a draft: 18 service pages, the 8 live posts, the hub; the owner reviews |
 | 5. QA | Links, images, hreflang, redirects and all lints pass; the owner's review is the last gate |
 
+Two EN posts gained a French adaptation on 30 Sep 2026 (`g014`
+`bonnes-pratiques-seo-multilingue`, `g166` `seo-technique-site-multilingue`),
+written for the French company selling abroad, with FR service links; they
+pair with their EN siblings in hreflang and sit under the new French topic
+`seo-multilingue`. The French journal now has 10 posts.
+
 ## Open for the owner
 
 - Review the French copy in one go (PR #118): every page is a draft.
