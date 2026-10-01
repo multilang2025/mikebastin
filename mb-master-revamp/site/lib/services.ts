@@ -876,7 +876,7 @@ export const SERVICES: Service[] = [
         q: "Why iDEAL and Bancontact belong in an SEO conversation",
         a: [
           "Indirectly, and measurably. iDEAL in the Netherlands and Bancontact in Belgium are what people expect to see at a checkout, and a consumer store that offers them keeps more buyers at the last step.",
-          "Search notices the consequence: a page people complete holds its position better than one they bounce from, so a payment method ends up being a ranking factor by a longer route.",
+          "It belongs here because search is judged on sales as well as visits, and the visitor who finds their usual payment method at checkout is the one who completes.",
         ],
       },
     ],
@@ -892,13 +892,13 @@ export const SERVICES: Service[] = [
     name: "Italian SEO",
     cardTitle: "Italian SEO and GEO for the Italian market",
     inline: "Italian SEO",
-    h1: "Italian SEO and GEO agency for an uncontested market",
-    subhead: "Italian SEO terms sit at difficulty 0 to 1 in Ahrefs, so entry costs little.",
+    h1: "Italian SEO and GEO agency for companies selling into Italy",
+    subhead: "Few competitors write native Italian pages for the terms your buyers search, so well-written Italian pages get seen early and turn visits into enquiries.",
     cluster: "Search",
     angle: "SEO Italy, where native copy wins",
     lede: "An Italian buyer looks for the Partita IVA and the REA registration before enquiring, and notices whether the page speaks in tu or voi. Pages that carry those details and read as written in Italy win the enquiry.",
-    metaTitle: "Italian SEO agency, an uncontested market",
-    metaDescription: "Italian SEO written natively, with the Partita IVA and REA details buyers look for and regional pages where they pay off. Terms sit at difficulty 0 to 1.",
+    metaTitle: "Italian SEO agency for companies selling into Italy",
+    metaDescription: "Italian SEO written natively, with the Partita IVA and REA details Italian buyers check, in a market with little competition for your terms.",
     sections: ["Three things Italian SEO has to get right", ...ENGAGEMENT],
     body: [
       {
@@ -910,7 +910,7 @@ export const SERVICES: Service[] = [
         ],
       },
       {
-        heading: "Read fluently here, written natively by the network",
+        heading: "Managed here, written by native Italians",
         paragraphs: [
           "Our Italian is enough to manage SEO projects in it, and we handle strategy and competitor reading directly. Native Italian copywriters from the BeTranslated network handle the writing itself, briefed in English or French and checked by a second native reader before anything ships.",
           "Targeting runs per macro-region (Nord, Centro, Sud) when the offer justifies it, with local landing pages for Milan, Rome, Turin and other metropolitan areas where relevant. Outreach targets Corriere della Sera, La Repubblica and Sole 24 Ore for B2B, plus sector associations such as Confindustria and Confartigianato.",
@@ -920,7 +920,7 @@ export const SERVICES: Service[] = [
     expandablesHeading: "The objection an Italian buyer raises first",
     expandables: [
       {
-        q: "You do not speak Italian, so how is this Italian SEO",
+        q: "How much Italian do you speak?",
         a: [
           "Most of Italian SEO is reading. Reading the SERP, reading what the competitors rank for and why, reading intent in an Italian query, checking that it-IT is configured the way it should be. Our Italian is enough to manage SEO projects in it: enough to audit an Italian page and challenge a draft that drifts from its brief.",
           "Your Italian commercial copy is written by native Italian writers, so the page reads native because it is.",
@@ -961,12 +961,12 @@ export const SERVICES: Service[] = [
     cardTitle: "Portuguese SEO and GEO for Portugal and Brazil",
     inline: "Portuguese SEO",
     h1: "Portuguese SEO and GEO agency for Portugal and Brazil",
-    subhead: "Two markets sharing one language, each with its own search behaviour and its own competition.",
+    subhead: "Portugal and Brazil each get their own pages, keywords and native writers, so buyers on both sides of the Atlantic read Portuguese written for them.",
     cluster: "Search",
     angle: "Two markets, one language",
     lede: "A reader in Lisbon finds Brazilian Portuguese distracting, and a reader in São Paulo finds European Portuguese stiff. Each market gets its own pages and keywords, and Brazil, with roughly 215 million speakers, is the far larger of the two.",
     metaTitle: "Portuguese SEO services, Portugal and Brazil",
-    metaDescription: "Portuguese SEO with separate pt-PT and pt-BR pages, keywords and native writers for Portugal and Brazil, plus the payment and registration details each market expects.",
+    metaDescription: "Portuguese SEO with separate pages, keywords and native writers for Portugal and Brazil, plus the payment and registration details each market expects.",
     sections: ["Three things Portuguese SEO has to get right", ...ENGAGEMENT],
     body: [
       {
@@ -1020,7 +1020,7 @@ export const SERVICES: Service[] = [
         q: "A Brazilian store with PIX keeps its buyers",
         a: [
           "PIX, the instant payment system the central bank launched in 2020, is how a great many Brazilians now pay: faster than a card, settled immediately, and effectively free for an individual. Boleto bancário still matters for some demographics and for business-to-business.",
-          "It reaches SEO indirectly and reliably. A checkout that offers what a buyer expects converts better, and a page that converts better holds its position more easily than one that ranks and bounces.",
+          "It belongs in an SEO plan because search traffic is worth what it converts, and a checkout that offers what a Brazilian buyer expects converts more of it.",
         ],
       },
     ],
@@ -1082,7 +1082,7 @@ export const SERVICES: Service[] = [
     expandablesHeading: "What the map pack actually rewards",
     expandables: [
       {
-        q: "Treat the profile as a product surface",
+        q: "Treat the profile like a shopfront",
         a: [
           "Filled in fully and kept current, week after week. A profile that is kept up holds its place against competitors who update theirs, and in a city with more than one working language it carries the second one too.",
         ],
@@ -1118,7 +1118,7 @@ export const SERVICES: Service[] = [
     demand: {
       volume: 134000,
       kd: "5 to 87",
-      note: "Sums `local seo`, `local seo services` and `local seo agency` worldwide. The head term alone draws 63,000 at KD 87, easily the hardest term measured for any service page. `local seo services` (47,000, KD 5) and `local seo agency` (24,000, KD 6) carry nearly as much volume between them at a fraction of the difficulty,",
+      note: "Sums `local seo`, `local seo services` and `local seo agency` worldwide. The head term alone draws 63,000 at KD 87, easily the hardest term measured for any service page. `local seo services` (47,000, KD 5) and `local seo agency` (24,000, KD 6) carry nearly as much volume between them at a fraction of the difficulty.",
     },
   },
   {

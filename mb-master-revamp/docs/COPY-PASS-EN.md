@@ -21,8 +21,8 @@ alone.
 | 1 | Homepage | done |
 | 2 | Services index, lead generation hub, multilingual SEM, conversion tracking | done |
 | 3 | Multilingual SEO, French SEO, German SEO, Spanish SEO | done |
-| 4 | Dutch SEO, Italian SEO, Portuguese SEO, local SEO | next |
-| 5 | Website localization, translation services, app and software localization, AI consulting | to do |
+| 4 | Dutch SEO, Italian SEO, Portuguese SEO, local SEO | done |
+| 5 | Website localization, translation services, app and software localization, AI consulting | next |
 | 6 | AI translation and post-editing, generative engine optimization, technical SEO, content marketing, multilingual content | to do |
 | 7 | Results, how we work, contact (and its two status pages), competitor analysis checklist, project template | to do |
 
@@ -107,3 +107,28 @@ corrections more than rewrites.
   says why it matters to the buyer.
 - **Left alone, waiting on the owner**: the Houston doubling (Q2) and the
   law firm's language count (Q4), both on the multilingual SEO page.
+
+### Batch 4: Dutch, Italian, Portuguese and local SEO
+
+- **Italian SEO hero** spoke to an SEO rather than a buyer: the h1 ended
+  "for an uncontested market" and the h2 was "terms sit at difficulty 0 to 1
+  in Ahrefs, so entry costs little", mechanism in the hero. The h1 now names
+  the buyer, as the French and German pages do ("for companies selling into
+  Italy"), and the h2 says what low competition means to them. Meta title
+  and description follow; the description loses "difficulty 0 to 1".
+- **Italian level stays vague** (owner rule, 27 Sep 2026): the heading
+  "Read fluently here" described a reading level and becomes "Managed here,
+  written by native Italians". The objection "You do not speak Italian, so
+  how is this Italian SEO" becomes the buyer's actual question, "How much
+  Italian do you speak?", which the existing answer meets.
+- **Portuguese SEO**: the h2 described the market and now says what the
+  buyer gets; the meta description was 170 characters with `pt-PT` and
+  `pt-BR` codes in it, now 151 in plain words.
+- **Payment methods and ranking** (Dutch and Portuguese): both pages claimed
+  iDEAL or PIX end up "a ranking factor by a longer route", which is not
+  something we can show. Both now make the honest case: search traffic is
+  worth what it converts, and the expected payment method converts more.
+- **Local SEO**: "Treat the profile as a product surface" becomes "like a
+  shopfront".
+- **Left alone, waiting on the owner**: the Portuguese "working level"
+  wording (Q11).
