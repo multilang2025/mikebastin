@@ -1,5 +1,5 @@
 ---
-words: 715
+words: 712
 title: "SEO en Portugal y Brasil: un mercado, una página"
 name: "SEO en Portugal"
 slug: "seo-portugues"

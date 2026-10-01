@@ -1,5 +1,5 @@
 ---
-words: 681
+words: 678
 title: "SEO en Italia: páginas que el comprador italiano da por serias"
 name: "SEO en Italia"
 slug: "seo-italiano"
@@ -15,7 +15,7 @@ excerpt: "Páginas en italiano con Partita IVA y REA a la vista, redactores nati
 
 ## Lo que consigues en Italia: páginas que el comprador italiano da por serias
 
-Tu empresa vende en Italia, o va a entrar, y tu web en italiano ya recibe visitas. Antes de escribirte, el comprador italiano busca tu Partita IVA, tu codice fiscale y tu inscripción en el REA o en la Cámara de Comercio. Y desde la primera frase nota si tu página trata de tú (tu) o de usted (voi), y si la escribió alguien que vive en el idioma. Las páginas que llevan esos datos y suenan a Italia se llevan la consulta.
+Tu empresa vende en Italia, o va a entrar, y tu web en italiano ya recibe visitas. Antes de escribirte, el comprador italiano busca tu Partita IVA, tu codice fiscale y tu inscripción en el REA o en la Cámara de Comercio. Y desde la primera frase nota si la página usa el trato informal o el formal del italiano, y si la escribió alguien que vive en el idioma. Las páginas que llevan esos datos y suenan a Italia se llevan la consulta.
 
 El momento juega a tu favor: los términos de SEO en italiano están en dificultad 0 a 1 en Ahrefs, así que entrar cuesta poco. Por ejemplo, «italian seo agency» está en dificultad 0.
 
@@ -33,7 +33,7 @@ El momento juega a tu favor: los términos de SEO en italiano están en dificult
 
 El Garante della Privacy, la autoridad italiana de protección de datos, lee algunos puntos del RGPD con más rigor que la base europea. Construimos el consentimiento sobre esa lectura. Los datos sensibles, las decisiones automatizadas y la vigilancia de empleados son trabajo de un abogado italiano especializado, como complemento de la implementación.
 
-## Italia no es un solo mercado
+## Cada región de Italia pide su propio enfoque
 
 Italia es el gran mercado europeo más fragmentado por regiones. Milán, Roma, Nápoles y Palermo se comportan de forma distinta en sensibilidad al precio, hábitos de pago y señales de confianza.
 
