@@ -258,7 +258,7 @@ export default function Home() {
               className="display max-w-[22ch] text-[clamp(1.9rem,4.6vw,3.4rem)] font-medium leading-[1.14]"
             >
               A ranking gets you found.{" "}
-              <em style={{ color: "var(--berry)" }}>The writing in their language</em>{" "}
+              <em style={{ color: "var(--berry)" }}>Writing in your buyer's language</em>{" "}
               gets you the enquiry.
             </blockquote>
           </Reveal>
