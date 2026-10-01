@@ -1,6 +1,6 @@
 ---
-words: 718
-title: "SEO en Portugal para vender a compradores portugueses"
+words: 715
+title: "SEO en Portugal y Brasil: un mercado, una página"
 name: "SEO en Portugal"
 slug: "seo-portugues"
 locale: "es"
@@ -10,46 +10,50 @@ wpId: 24849233
 date: "2024-09-29T12:42:48"
 modified: "2026-09-30T12:00:00"
 sourceUrl: "https://mikebastin.com/es/services/seo-portugues/"
-excerpt: "Páginas en portugués escritas por nativos para Portugal o Brasil: tus visitantes lusófonos se convierten en clientes que te contactan."
+excerpt: "Páginas en portugués con pt-PT y pt-BR por separado, redactores nativos y los datos que cada mercado espera: NIF, CNPJ, LGPD, PIX."
 ---
 
-## Tus páginas en portugués atraen visitas: conviértelas en peticiones
+## Lo que consigues en Portugal y Brasil: páginas para el mercado que las lee
 
-Tu empresa ya vende en Portugal, o se prepara para hacerlo, y tus páginas en portugués traen visitantes. El siguiente paso es convertirlos en peticiones. Un comprador de Lisboa o de Oporto reconoce desde la primera frase si la página se escribió para él, en portugués europeo y con los datos de empresa que espera. Cuando es así, confía en ti y te escribe.
+Tu empresa vende en Portugal, o se prepara para ello, y tus páginas en portugués traen visitas. Un lector de Lisboa encuentra distractor el portugués de Brasil, y uno de São Paulo encuentra rígido el europeo. Cada mercado necesita sus propias páginas y sus propias palabras clave. Brasil, con unos 215 millones de hablantes, es el mucho mayor de los dos.
 
-Portugal es un mercado europeo maduro, en euros, bajo el RGPD y muy cercano para una empresa española que ya conoce Europa. Unas páginas escritas para él convierten esa cercanía en ventas.
+Para una empresa española, Portugal es un mercado europeo maduro, en euros y bajo el RGPD, y cercano. Brasil tiene su propia ley de datos, sus propios medios de pago y su propia moneda.
 
 <aside class="post-cta">
 <p><strong>¿Quieres que tus visitantes portugueses se conviertan en clientes?</strong> Preparamos contigo páginas en portugués escritas por nativos para el mercado que las lee. <a href="/es/contactanos/">Reservar una primera conversación</a>.</p>
 </aside>
 
-## Lo que hacemos para tu mercado portugués
+## Dos mercados, cada uno con lo suyo
 
-Empezamos por la pregunta que orienta todo lo demás: Portugal, Brasil o los dos. Después vienen:
+El portugués europeo y el brasileño se separan en vocabulario, gramática, moneda y marco normativo. Por eso mantenemos aparte las dos versiones: hreflang pt-PT y pt-BR, palabras clave propias, páginas propias y redactores nativos propios.
 
-- una auditoría de tu presencia actual en portugués;
-- una investigación de palabras clave por mercado, validada por un redactor nativo en la terminología y en la forma real de formular las búsquedas;
-- una estrategia y un calendario editorial por mercado, acordados contigo en español;
-- páginas redactadas por nativos y revisadas por un segundo lector nativo;
-- enlaces conseguidos en la prensa del mercado elegido, Público y Expresso en Portugal, Folha y Estadão en Brasil;
-- un informe mensual en español, mercado por mercado.
+| | Portugal | Brasil |
+| --- | --- | --- |
+| Datos de empresa | NIF o NIPC visibles | CNPJ |
+| Protección de datos | Consentimiento conforme al RGPD | Tratamiento conforme a la LGPD |
+| Pago en tienda online | Los habituales del mercado | PIX o boleto bancário |
+| Prensa para enlaces | Público y Expresso | Folha y Estadão |
+
+## Brasil: LGPD y PIX
+
+La Lei Geral de Proteção de Dados cubre un terreno parecido al del RGPD y la aplica su propia autoridad, la ANPD. Configuramos el consentimiento, los derechos de los interesados y la política de privacidad según la lectura brasileña. Los datos sensibles, las transferencias internacionales y las decisiones automatizadas piden además un abogado brasileño de privacidad.
+
+PIX, el sistema de pago instantáneo que el banco central lanzó en 2020, es hoy la forma de pago de una gran parte de los brasileños. El boleto bancário sigue contando para algunos públicos y para el B2B. Un proceso de compra que ofrece lo que el comprador espera convierte mejor, y una página que convierte mejor mantiene sus posiciones con más facilidad.
+
+## Por cuál empezar
+
+Portugal es un mercado europeo en euros, bajo el RGPD y amable con una empresa extranjera con cercanía europea. Brasil es mucho mayor, con su propio comportamiento de pago, su propia ley de datos y una moneda que trae riesgo de cambio. La respuesta depende del encaje de tu oferta y de dónde están ya tus clientes. Una pyme europea que vende servicios suele funcionar mejor en Portugal, el mercado que puede atender bien. Nos lo planteamos contigo al definir el alcance.
+
+Una referencia de competencia: «seo portugal» está en dificultad 33 en Ahrefs, diez veces la de los equivalentes en alemán o español, así que Portugal se construye con paciencia y se deja para el final dentro de un plan de varios idiomas.
 
 ## Quién lee y quién escribe tu portugués
 
-Leemos el portugués de Europa y el de Brasil a un nivel de trabajo, apoyados en el francés nativo y el español de cada día: lo bastante para auditar una página de resultados, seguir las páginas de un competidor, comprobar la configuración técnica y tomar notas en una reunión con el equipo nativo.
+Leemos las dos variantes a un nivel de trabajo, apoyados en el francés nativo y el español de cada día. Basta para auditar una página de resultados, seguir las páginas de un competidor, comprobar la configuración técnica de cada variante y tomar notas en una reunión con el equipo nativo.
 
-La redacción corresponde a nativos del mercado elegido, de la red de BeTranslated, la agencia de traducción que dirigimos desde hace veinte años: un redactor portugués para Portugal y un redactor brasileño para Brasil, cada uno en su variante. Te lo decimos desde el principio, para que sepas quién escribe cada página.
-
-## Portugal o Brasil: dos mercados, un idioma
-
-El portugués europeo y el de Brasil difieren en vocabulario, gramática, moneda y marco normativo. Cada público reconoce su variante: un lector de Lisboa encuentra un texto brasileño demasiado brasileño y uno de São Paulo encuentra un texto europeo rígido. Escrito para cada uno, el sitio gana la confianza de ambos. Dos etiquetas hreflang distintas, pt-PT y pt-BR, y un sitemap por variante mantienen las versiones separadas.
-
-Cada mercado espera además sus propias señales. Portugal espera un NIF o NIPC visible y un consentimiento de cookies conforme al RGPD. Brasil espera un CNPJ, un tratamiento de datos conforme a la LGPD, la ley brasileña que controla su propia autoridad, la ANPD, y, en una tienda online, el pago con PIX o con boleto bancário. PIX, lanzado por el banco central en 2020, es hoy el medio de pago de buena parte de los brasileños. Un proceso de compra que lo ofrece convierte mejor, y una página que convierte mejor mantiene mejor sus posiciones. Para datos sensibles o transferencias internacionales, un abogado brasileño especializado completa nuestro trabajo técnico.
-
-Brasil cuenta con unos 215 millones de hablantes. Para una pyme europea que vende servicios, Portugal suele ser el mejor punto de partida: es el mercado que puede atender bien. Te damos la recomendación al definir el alcance, según tu oferta y dónde están ya tus clientes.
+Escriben redactores nativos del mercado elegido, de la red de BeTranslated: un redactor portugués para pt-PT y uno brasileño para pt-BR, cada uno en su variante, con un brief en español o en inglés y un segundo lector nativo por variante. Los enlaces se consiguen en la prensa de cada mercado, a su lado del Atlántico.
 
 ## Cómo trabajamos contigo
 
-Todo empieza con una primera conversación en español sobre tus ventas en Portugal o Brasil, y te proponemos un alcance por escrito para el primer trimestre. Puedes reservar una auditoría gratuita de 20 minutos y te respondemos en un día laborable. Cada mes, una reunión estratégica en español: presentamos las opciones y tú decides.
+Empezamos con una primera conversación en español sobre tus ventas en Portugal o Brasil, y te proponemos un alcance por escrito para el primer trimestre. Después van la auditoría, la investigación de palabras clave por mercado, el calendario editorial y un informe mensual en español, mercado por mercado. El acompañamiento se paga mes a mes y la redacción se presupuesta aparte; el detalle está en [nuestras tarifas](/es/precios/).
 
-El acompañamiento se paga mes a mes. La redacción y la traducción se presupuestan como un trabajo aparte, y el detalle está en [nuestras tarifas](/es/precios/). Si Portugal se suma a otros idiomas, nuestro [posicionamiento multilingüe](/es/services/posicionamiento-multilingue/) los reúne en un solo plan. Para anuncios de Google en portugués, nuestra [publicidad multilingüe](/es/services/publicidad-multilingue/) toma el relevo: tu presupuesto de medios va directo a Google y nuestra gestión se factura aparte.
+Si Portugal se suma a otros idiomas, el [posicionamiento multilingüe](/es/services/posicionamiento-multilingue/) los reúne en un solo plan. Para anuncios en portugués, mira la [publicidad multilingüe](/es/services/publicidad-multilingue/).
