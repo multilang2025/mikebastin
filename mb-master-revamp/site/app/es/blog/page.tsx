@@ -72,7 +72,7 @@ export default function SpanishBlogIndex() {
 
       <section className="band band-b py-[clamp(48px,7vw,96px)]">
         <div className="shell">
-          <ul className="grid gap-px sm:grid-cols-2" style={{ background: "var(--rule)" }}>
+          <ul className="grid gap-px cells-2 sm:grid-cols-2" style={{ background: "var(--rule)" }}>
             {posts.map((p, i) => (
               <Reveal key={p.slug} i={i}>
                 <li className="band h-full" style={{ background: "var(--bg)" }}>

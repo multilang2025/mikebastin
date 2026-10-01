@@ -93,7 +93,7 @@ export default async function TopicPage({
       {/* ============ POSTS ============ */}
       <section className="band band-b py-[clamp(48px,7vw,96px)]">
         <div className="shell">
-          <ul className="grid gap-px sm:grid-cols-2 lg:grid-cols-3" style={{ background: "var(--rule)" }}>
+          <ul className="grid gap-px cells-3 sm:grid-cols-2 lg:grid-cols-3" style={{ background: "var(--rule)" }}>
             {all.map((post, i) => (
               <Reveal key={post.slug} i={i}>
                 <li className="band h-full" style={{ background: "var(--bg)" }}>

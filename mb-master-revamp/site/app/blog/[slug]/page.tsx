@@ -208,7 +208,7 @@ export default async function BlogPostPage({
                 More from the journal
               </h2>
             </Reveal>
-            <ul className="grid gap-px sm:grid-cols-2 lg:grid-cols-3" style={{ background: "var(--rule)" }}>
+            <ul className="grid gap-px cells-3 sm:grid-cols-2 lg:grid-cols-3" style={{ background: "var(--rule)" }}>
               {related.map((r, i) => (
                 <Reveal key={r.slug} i={i}>
                   <li className="band h-full" style={{ background: "var(--bg)" }}>

@@ -151,7 +151,7 @@ export default function HowIWorkPage() {
               From the first call to the monthly report
             </h2>
           </Reveal>
-          <ol className="grid gap-px sm:grid-cols-2" style={{ background: "var(--rule)" }}>
+          <ol className="grid gap-px cells-2 sm:grid-cols-2" style={{ background: "var(--rule)" }}>
             {STAGES.map((s, i) => (
               <Reveal key={s.name} i={i}>
                 <li className="band flex h-full flex-col gap-3 px-7 py-7" style={{ background: "var(--bg)" }}>

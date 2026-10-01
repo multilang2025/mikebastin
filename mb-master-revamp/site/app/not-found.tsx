@@ -50,7 +50,7 @@ export default function NotFound() {
 
           <Reveal i={1}>
             <ul
-              className="mt-10 grid gap-px sm:grid-cols-2"
+              className="mt-10 grid gap-px cells-2 sm:grid-cols-2"
               style={{ background: "var(--rule)" }}
             >
               {ELSEWHERE.map((l) => (

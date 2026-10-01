@@ -124,7 +124,7 @@ export default function SpanishServicesIndex() {
                 three-column grid leave an empty grey cell. An odd count in
                 two columns widens its last card for the same reason. */}
             <ul
-              className={`grid gap-px sm:grid-cols-2 ${g.items.length % 3 === 0 ? "lg:grid-cols-3" : ""}`}
+              className={`grid gap-px ${g.items.length % 3 === 0 ? "cells-3 lg:grid-cols-3" : "cells-2"} sm:grid-cols-2`}
               style={{ background: "var(--rule)" }}
             >
               {g.items.map((s, i) => (

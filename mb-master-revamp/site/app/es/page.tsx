@@ -106,7 +106,7 @@ export default function SpanishHome() {
                 Cada país busca con sus propias palabras, y escribimos tus páginas a partir de ellas.
               </p>
             </Reveal>
-            <ul className="grid gap-px sm:grid-cols-2" style={{ background: "var(--rule)" }}>
+            <ul className="grid gap-px cells-2 sm:grid-cols-2" style={{ background: "var(--rule)" }}>
               {markets.map((m, i) => (
                 <Reveal key={m.slug} i={i}>
                   <li className="band h-full" style={{ background: "var(--bg)" }}>
