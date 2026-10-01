@@ -3,7 +3,7 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
-Stable tag: 2.3.0
+Stable tag: 2.4.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -26,6 +26,8 @@ Architecture (see the source for detail):
 * `class-aisa-settings.php`     — settings + chat page.
 * `class-aisa-audit-log.php`    — records every write to a custom table.
 * `class-aisa-approval-log.php`— read-only admin page over the audit log.
+* `class-aisa-pending-ops.php`  — queue of db_write statements awaiting human approval.
+* `class-aisa-approval-queue.php` — wp-admin page to Approve/Deny a queued db_write; the only place it actually runs.
 * `class-aisa-skills.php`       — on-demand task playbooks, loaded via load_skill.
 * `class-aisa-wpcli.php`        — WP-CLI-equivalent site admin, no shell binary.
 * `class-aisa-abilities.php`    — bridge to WP core's Abilities API (6.9+).
@@ -155,6 +157,9 @@ Tips:
   gate on more precisely.
 
 == Changelog ==
+= 2.4.0 =
+* Added db_write + check_approval_status: a human-in-the-loop escape hatch for mutating SQL (INSERT/UPDATE/DELETE) against a plugin's own custom table when no REST route, WP-CLI command, or registered Ability reaches it -- the same gap WPVibe's raw-SQL tool fills, discovered fixing Formidable dropdown placeholders on a client site where db_query's read-only design (correctly) refused to write directly to frm_fields. Unlike db_query, db_write never executes anything itself: it validates the statement (single INSERT/UPDATE/DELETE, no DDL, no multiple statements, string literals blanked before keyword matching, same rigor as db_query's SELECT validator) and queues it in a new "Pending Approvals" wp-admin page, where an administrator reviews the exact SQL and clicks Approve or Deny. Only that click runs the statement; nothing an MCP client sends can write to the database unattended. Decisions and outcomes are recorded to the existing audit log.
+
 = 2.3.0 =
 * Added a WPML safety net: update_post/replace_in_post/append_to_post now warn when the post just written to has sibling translations in other languages, so a translation task that accidentally lands on the wrong language's post ID gets caught instead of silently overwriting the original content. New wpml_translations skill documents how to find the correct target post ID via icl_translations before writing.
 * Added a multi_site_workflow skill covering the new per-chat switch_site isolation (bridge v3.4+): pass chat_id on every AISA tool call when multiple chats may be using the same connection, so switching sites in one chat can't silently redirect another chat's calls.

@@ -3,7 +3,7 @@
  * Plugin Name:       AISA Connector
  * Plugin URI:        https://example.com/ai-site-assistant
  * Description:        An AI assistant for WordPress that can read and edit your content using your own Claude API key. No daily limits — you pay your provider per use.
- * Version:           2.3.0
+ * Version:           2.4.0
  * Requires at least: 6.3
  * Requires PHP:      8.1
  * Author:            betranslated
@@ -16,11 +16,13 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'AISA_VERSION', '2.3.0' );
+define( 'AISA_VERSION', '2.4.0' );
 define( 'AISA_PATH', plugin_dir_path( __FILE__ ) );
 define( 'AISA_URL', plugin_dir_url( __FILE__ ) );
 
 require_once AISA_PATH . 'includes/class-aisa-audit-log.php';
+require_once AISA_PATH . 'includes/class-aisa-pending-ops.php';
+require_once AISA_PATH . 'includes/class-aisa-approval-queue.php';
 require_once AISA_PATH . 'includes/class-aisa-claude-client.php';
 require_once AISA_PATH . 'includes/class-aisa-openrouter-client.php';
 require_once AISA_PATH . 'includes/class-aisa-unsplash-client.php';
@@ -49,12 +51,14 @@ require_once AISA_PATH . 'includes/class-aisa-updater.php';
  * Boot the plugin once all plugins are loaded.
  */
 function aisa_bootstrap() {
+	AISA_Pending_Ops::maybe_install();
 	AISA_Settings::init();
 	AISA_REST::init();
 	AISA_SEO::init();
 	AISA_Meta::init();
 	AISA_Checkin::init();
 	AISA_Approval_Log::init();
+	AISA_Approval_Queue::init();
 	AISA_Updater::init();
 }
 add_action( 'plugins_loaded', 'aisa_bootstrap' );
@@ -63,6 +67,11 @@ add_action( 'plugins_loaded', 'aisa_bootstrap' );
  * Create the audit-log table on activation.
  */
 register_activation_hook( __FILE__, array( 'AISA_Audit_Log', 'install' ) );
+
+/**
+ * Create the pending-approvals table on activation.
+ */
+register_activation_hook( __FILE__, array( 'AISA_Pending_Ops', 'install' ) );
 
 /**
  * Clear the scheduled fleet check-in on deactivation.

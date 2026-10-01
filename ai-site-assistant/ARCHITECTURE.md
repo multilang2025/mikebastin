@@ -57,6 +57,49 @@ classes rather than growing one giant file:
 - `AISA_Skills` (`load_skill`) — the on-demand playbook library described
   under "Model configuration".
 
+## The approval-gated write escape hatch
+
+`db_query` is deliberately SELECT-only — "there is no write path here" is
+enforced in code, not just documentation. But some data genuinely has no
+other way in: a form plugin's own tables (Formidable's `frm_fields`,
+Gravity Forms' entry meta, ...), a custom plugin's settings row, anything
+with no REST route, no WP-CLI command this plugin exposes, and no
+registered WordPress Ability. `db_write` + `check_approval_status` cover
+that gap without ever letting an MCP client write unattended:
+
+```
+AISA_Tools::db_write          validates the statement, then only *queues* it
+        │  (single INSERT/UPDATE/DELETE; no DDL; no multiple statements;
+        │   string literals blanked before keyword matching — same rigor
+        │   as db_query's own validator)
+        ▼
+AISA_Pending_Ops::create       one row in a new table, a random token (not a
+                                nonce — the approving admin may be in a
+                                different session, or no session at all, same
+                                reasoning as AISA_GSC_Client's OAuth state),
+                                10-minute expiry
+        ▼
+"Pending Approvals" wp-admin page (AISA_Approval_Queue, manage_options)
+        │  a human reads the exact SQL and clicks Approve or Deny
+        ▼
+AISA_Approval_Queue::handle_approve   the ONLY place the statement actually
+                                        runs ($wpdb->query()); records the
+                                        outcome to AISA_Audit_Log
+```
+
+`check_approval_status` lets the model poll for the outcome instead of
+assuming a `db_write` call succeeded just because it returned — it returns
+`pending_approval` immediately, before anything has touched the database.
+
+This mirrors the pattern WPVibe (a hosted sibling connector) uses for its own
+raw-SQL tool. The difference is where the approval surface lives: WPVibe's
+approval link is hosted on its own SaaS and relayed back over the MCP
+connection; AISA is self-hosted per site, so the approval page is just
+another `manage_options`-gated wp-admin screen, consistent with every other
+admin surface in this plugin (`class-aisa-approval-log.php`,
+`class-aisa-settings.php`'s OAuth connect/disconnect buttons, etc.) rather
+than a new kind of security boundary.
+
 ## The security boundary
 
 Claude never touches the database. It emits `tool_use` blocks; `AISA_Tools`

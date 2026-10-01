@@ -203,6 +203,55 @@ class AISA_Tools {
 				),
 			),
 			array(
+				'name'         => 'db_write',
+				'description'  => 'Queue a MUTATING SQL statement (INSERT/UPDATE/DELETE) for human '
+					. 'approval -- the escape hatch for writing to a plugin\'s own custom table '
+					. '(Formidable, WooCommerce order meta, a form plugin\'s entries, ...) when no REST '
+					. 'route, WP-CLI command, or registered Ability reaches it. This never runs '
+					. 'immediately: it records the exact statement and returns an approve_url that the '
+					. 'site owner must open in their own browser and click Approve on before anything '
+					. 'touches the database. Tell the user you\'re waiting on that, then call '
+					. 'check_approval_status with the returned op_id -- never assume the write succeeded '
+					. 'just because this call returned. A single INSERT/UPDATE/DELETE only; DDL (DROP/'
+					. 'ALTER/TRUNCATE/CREATE/RENAME), multiple statements, and executable comments are '
+					. 'rejected outright before anything is even queued. Use "{prefix}" for the table '
+					. 'prefix. Needs an administrator account.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'sql'     => array(
+							'type'        => 'string',
+							'description' => 'A single INSERT, UPDATE, or DELETE statement. Use "{prefix}" for the table prefix.',
+						),
+						'summary' => array(
+							'type'        => 'string',
+							'description' => 'One short sentence describing what this write does and why -- '
+								. 'shown to the human on the approval screen, e.g. "Add the missing '
+								. 'Formidable dropdown placeholder to field 18".',
+						),
+					),
+					'required'             => array( 'sql', 'summary' ),
+					'additionalProperties' => false,
+				),
+			),
+			array(
+				'name'         => 'check_approval_status',
+				'description'  => 'Check whether a db_write queued earlier has been approved, denied, is '
+					. 'still waiting, or has finished executing. Poll this after telling the user you\'re '
+					. 'waiting on their approval -- don\'t just assume a db_write succeeded. Read-only.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'op_id' => array(
+							'type'        => 'string',
+							'description' => 'The op_id token returned by db_write.',
+						),
+					),
+					'required'             => array( 'op_id' ),
+					'additionalProperties' => false,
+				),
+			),
+			array(
 				'name'         => 'find_in_post',
 				'description'  => 'Search one post/page\'s content for a snippet and return short windowed '
 					. 'matches (line number + up to 400 chars of context), instead of pulling the whole '
@@ -1189,6 +1238,7 @@ class AISA_Tools {
 			'set_seo',
 			'set_meta',
 			'wp_cli_set',
+			'db_write',
 			'run_ability',
 			'create_draft_theme',
 			'write_theme_file',
@@ -1221,6 +1271,10 @@ class AISA_Tools {
 				return self::get_site_context();
 			case 'db_query':
 				return self::db_query( $input );
+			case 'db_write':
+				return self::db_write( $input );
+			case 'check_approval_status':
+				return self::check_approval_status( $input );
 			case 'find_in_post':
 				return self::find_in_post( $input );
 			case 'fact_check':
@@ -1792,6 +1846,125 @@ class AISA_Tools {
 				)
 			),
 		);
+	}
+
+	/**
+	 * Queue a mutating SQL statement for human approval before it runs.
+	 *
+	 * Validated the same way db_query() validates reads -- single statement,
+	 * no executable comments, string literals blanked before keyword
+	 * matching so quoted data can't smuggle a blocked keyword past the
+	 * check -- but requiring INSERT/UPDATE/DELETE instead of SELECT.
+	 * Approval itself (and the actual write) happens in
+	 * AISA_Approval_Queue::handle_approve(), triggered only by a human
+	 * clicking Approve in wp-admin; this method never touches the database.
+	 *
+	 * @param array $in Tool input.
+	 * @return array Tool result with the op token and approval URL, or an error.
+	 */
+	private static function db_write( array $in ) {
+		if ( ! current_user_can( 'manage_options' ) ) {
+			return self::error( 'Permission denied. This tool requires an administrator account.' );
+		}
+
+		global $wpdb;
+
+		$sql     = trim( (string) ( $in['sql'] ?? '' ) );
+		$summary = trim( (string) ( $in['summary'] ?? '' ) );
+
+		if ( '' === $sql ) {
+			return self::error( 'A SQL statement is required. Example: UPDATE {prefix}frm_fields SET options = \'...\' WHERE id = 18' );
+		}
+		if ( '' === $summary ) {
+			return self::error( 'A one-sentence "summary" is required -- it\'s what the approving human sees.' );
+		}
+
+		$sql = str_replace( '{prefix}', $wpdb->prefix, $sql );
+
+		// Same reasoning as db_query(): executable MySQL comments would run
+		// at the server despite being stripped by the validator below.
+		if ( false !== strpos( $sql, '/*!' ) ) {
+			return self::error( 'Executable MySQL comments (/*! ... */) are not allowed.' );
+		}
+
+		$stripped   = preg_replace( '/--.*$/m', '', $sql );
+		$stripped   = preg_replace( '/\/\*.*?\*\//s', '', $stripped );
+		$normalized = preg_replace( '/\s+/', ' ', strtoupper( trim( $stripped ) ) );
+
+		// Blank out string-literal contents before keyword matching, same as
+		// db_query() -- a value being written could legitimately contain the
+		// word "drop" or a semicolon as plain data.
+		$literal_free            = preg_replace( "/'(?:[^'\\\\]|\\\\.|'')*'/s", "''", $stripped );
+		$normalized_literal_free = preg_replace( '/\s+/', ' ', strtoupper( trim( $literal_free ) ) );
+
+		$is_mutating = (bool) preg_match( '/^(INSERT|UPDATE|DELETE)\b/', $normalized );
+		if ( ! $is_mutating ) {
+			return self::error( 'Only INSERT, UPDATE, or DELETE are allowed here. Use db_query for SELECT.' );
+		}
+
+		$blocked = array(
+			'DROP', 'ALTER', 'TRUNCATE', 'CREATE', 'GRANT', 'REVOKE',
+			'EXEC', 'EXECUTE', 'RENAME', 'REPLACE', 'LOAD', 'OUTFILE', 'DUMPFILE',
+		);
+		foreach ( $blocked as $keyword ) {
+			if ( preg_match( '/\b' . $keyword . '\b/', $normalized_literal_free ) ) {
+				return self::error( "Blocked SQL keyword: {$keyword}." );
+			}
+		}
+
+		if ( preg_match( '/;\s*\S/', $literal_free ) ) {
+			return self::error( 'Multiple SQL statements are not allowed.' );
+		}
+
+		if ( preg_match( '/\bINTO\s+(OUTFILE|DUMPFILE|@)/i', $normalized ) ) {
+			return self::error( 'INTO OUTFILE/DUMPFILE is not allowed.' );
+		}
+
+		$sql = rtrim( $sql, '; ' );
+
+		$queued = AISA_Pending_Ops::create( 'db_write', $summary, array( 'sql' => $sql ) );
+
+		return array(
+			'content' => self::safe_json_encode(
+				array(
+					'status'      => 'pending_approval',
+					'op_id'       => $queued['token'],
+					'approve_url' => $queued['approve_url'],
+					'message'     => 'Nothing has run yet. Tell the user to open approve_url in their own '
+						. 'browser and click Approve, then call check_approval_status with this op_id.',
+				)
+			),
+		);
+	}
+
+	/**
+	 * Poll a db_write queued earlier.
+	 *
+	 * @param array $in Tool input.
+	 * @return array Tool result with the op's current status (and result, once decided), or an error.
+	 */
+	private static function check_approval_status( array $in ) {
+		$token = trim( (string) ( $in['op_id'] ?? '' ) );
+		if ( '' === $token ) {
+			return self::error( 'An "op_id" is required -- the token db_write returned.' );
+		}
+
+		$op = AISA_Pending_Ops::get( $token );
+		if ( ! $op ) {
+			return self::error( 'No pending operation found for that op_id.' );
+		}
+
+		$response = array(
+			'op_id'  => $op->token,
+			'tool'   => $op->tool,
+			'status' => $op->status,
+		);
+
+		if ( $op->result ) {
+			$response['result'] = json_decode( $op->result, true );
+		}
+
+		return array( 'content' => self::safe_json_encode( $response ) );
 	}
 
 	/**
