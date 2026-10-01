@@ -270,7 +270,7 @@ export default function CompetitorChecklistPage() {
               offline only.
             </p>
           </Reveal>
-          <div className="grid gap-px sm:grid-cols-2" style={{ background: "var(--rule)" }}>
+          <div className="grid gap-px cells-2 sm:grid-cols-2" style={{ background: "var(--rule)" }}>
             {RIVALS.map((r, i) => (
               <Reveal key={r.name} i={i}>
                 <div className="band h-full px-7 py-8" style={{ background: "var(--bg)" }}>
@@ -382,7 +382,7 @@ export default function CompetitorChecklistPage() {
               Four structural patterns make a page easy to lift:
             </p>
           </Reveal>
-          <div className="grid gap-px sm:grid-cols-2" style={{ background: "var(--rule)" }}>
+          <div className="grid gap-px cells-2 sm:grid-cols-2" style={{ background: "var(--rule)" }}>
             {AI_PATTERNS.map(([name, body], i) => (
               <Reveal key={name} i={i}>
                 <div className="band h-full px-7 py-8" style={{ background: "var(--bg)" }}>
@@ -485,7 +485,7 @@ export default function CompetitorChecklistPage() {
                 More from the journal
               </h2>
             </Reveal>
-            <ul className="grid gap-px sm:grid-cols-2 lg:grid-cols-3" style={{ background: "var(--rule)" }}>
+            <ul className="grid gap-px cells-3 sm:grid-cols-2 lg:grid-cols-3" style={{ background: "var(--rule)" }}>
               {related.map((r, i) => (
                 <Reveal key={r.slug} i={i}>
                   <li className="band h-full" style={{ background: "var(--bg)" }}>

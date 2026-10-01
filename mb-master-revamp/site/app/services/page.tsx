@@ -87,7 +87,7 @@ export default function ServicesIndex() {
                 </div>
               </Reveal>
 
-              <ul className="grid gap-px sm:grid-cols-2 lg:grid-cols-3" style={{ background: "var(--rule)" }}>
+              <ul className="grid gap-px cells-3 sm:grid-cols-2 lg:grid-cols-3" style={{ background: "var(--rule)" }}>
                 {inCluster.map((s, i) => (
                   <Reveal key={s.slug} i={i}>
                     <li className="band group h-full" style={{ background: "var(--bg)" }}>

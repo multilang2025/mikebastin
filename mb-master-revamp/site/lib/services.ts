@@ -896,9 +896,9 @@ export const SERVICES: Service[] = [
     subhead: "Italian SEO terms sit at difficulty 0 to 1 in Ahrefs, so entry costs little.",
     cluster: "Search",
     angle: "SEO Italy, where native copy wins",
-    lede: "Italian buyers check the tu or voi register, the Partita IVA and the REA registration before they enquire.",
+    lede: "An Italian buyer looks for the Partita IVA and the REA registration before enquiring, and notices whether the page speaks in tu or voi. Pages that carry those details and read as written in Italy win the enquiry.",
     metaTitle: "Italian SEO agency, an uncontested market",
-    metaDescription: "Italian search rewards editorial quality, and native Italian copy most of all. See the SEO approach built for that market, from research to regional pages.",
+    metaDescription: "Italian SEO written natively, with the Partita IVA and REA details buyers look for and regional pages where they pay off. Terms sit at difficulty 0 to 1.",
     sections: ["Three things Italian SEO has to get right", ...ENGAGEMENT],
     body: [
       {
@@ -964,9 +964,9 @@ export const SERVICES: Service[] = [
     subhead: "Two markets sharing one language, each with its own search behaviour and its own competition.",
     cluster: "Search",
     angle: "Two markets, one language",
-    lede: "Portugal and Brazil are two markets with two keyword sets, and treating them separately is what makes Portuguese simpler than it looks.",
+    lede: "A reader in Lisbon finds Brazilian Portuguese distracting, and a reader in São Paulo finds European Portuguese stiff. Each market gets its own pages and keywords, and Brazil, with roughly 215 million speakers, is the far larger of the two.",
     metaTitle: "Portuguese SEO services, Portugal and Brazil",
-    metaDescription: "Portugal and Brazil are two markets with two keyword sets. See why treating them separately is what makes Portuguese SEO actually work.",
+    metaDescription: "Portuguese SEO with separate pt-PT and pt-BR pages, keywords and native writers for Portugal and Brazil, plus the payment and registration details each market expects.",
     sections: ["Three things Portuguese SEO has to get right", ...ENGAGEMENT],
     body: [
       {

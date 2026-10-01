@@ -192,7 +192,7 @@ export default function LeadGenerationPage() {
             </p>
           </Reveal>
           <Reveal i={2}>
-            <div className="grid gap-px lg:grid-cols-3" style={{ background: "var(--rule)" }}>
+            <div className="grid gap-px cells-lg3 lg:grid-cols-3" style={{ background: "var(--rule)" }}>
               {PARTS.map((p) => (
                 <div key={p.title} className="band flex flex-col px-7 py-8" style={{ background: "var(--bg)" }}>
                   <p className="display mb-3 text-[1.2rem] font-semibold">{p.title}</p>

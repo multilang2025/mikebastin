@@ -914,3 +914,18 @@ main { overflow-wrap: break-word; }
 @media (max-width: 1023px) and (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) .shimmer { color: var(--berry); }
 }
+
+
+/* A hairline grid paints its rule colour behind the cells, so an odd last
+   cell left a grey block. The last cell takes the rest of its row instead. */
+@media (min-width: 640px) {
+  .cells-2 > :last-child:nth-child(odd),
+  .cells-3 > :last-child:nth-child(odd) { grid-column: span 2; }
+}
+@media (min-width: 1024px) {
+  .cells-3 > :last-child:nth-child(odd) { grid-column: auto; }
+  .cells-3 > :last-child:nth-child(3n+1),
+  .cells-lg3 > :last-child:nth-child(3n+1) { grid-column: span 3; }
+  .cells-3 > :last-child:nth-child(3n+2),
+  .cells-lg3 > :last-child:nth-child(3n+2) { grid-column: span 2; }
+}

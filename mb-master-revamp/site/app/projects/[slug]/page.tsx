@@ -208,7 +208,7 @@ export default async function ProjectPage({
       {/* ============ NEXT / PREV ============ */}
       <section className="band band-a py-[clamp(56px,8vw,110px)]">
         <div className="shell">
-          <div className="grid gap-px sm:grid-cols-2" style={{ background: "var(--rule)" }}>
+          <div className="grid gap-px cells-2 sm:grid-cols-2" style={{ background: "var(--rule)" }}>
             <Link
               href={`/projects/${prev.slug}/`}
               className="band px-8 py-10"

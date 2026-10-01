@@ -245,7 +245,7 @@ export default async function ServicePage({
               How the {headingTerm} engagement runs
             </h2>
           </Reveal>
-          <ol className="grid gap-px sm:grid-cols-2" style={{ background: "var(--rule)" }}>
+          <ol className="grid gap-px cells-2 sm:grid-cols-2" style={{ background: "var(--rule)" }}>
             {service.sections.map((s, i) => (
               <Reveal key={s} i={i}>
                 {/* The grid paints its own rule colour through a 1px gap,
