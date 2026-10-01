@@ -61,7 +61,7 @@ const BASTIN = [
   {
     letter: "A",
     word: "Automation",
-    desc: "AI drafts, tests and reports, so the work keeps moving around the clock, in every timezone.",
+    desc: "AI drafts, tests and reports, so the work keeps moving.",
     href: "/services/ai-consulting/",
   },
   {
@@ -113,7 +113,7 @@ const WHAT_WE_DO = [
   },
   {
     cluster: "Technical",
-    desc: "The work that makes your language versions add up, each one reaching its own buyers.",
+    desc: "Hreflang, crawl and index work so each language version reaches its own buyers.",
     href: "/services/technical-seo/",
   },
 ];
@@ -122,14 +122,6 @@ const WHY_IT_WORKS = [
   {
     title: "Copy written in the market",
     body: "A site that works in a market is a currency, trust signal and search behaviour question, as much as a language one.",
-  },
-  {
-    title: "AI accelerates the work",
-    body: "Machine drafting first, human decision after, so speed and accuracy arrive together.",
-  },
-  {
-    title: "Every locale gets the same rigour",
-    body: "French, Spanish and English are built to the same standard, each one a full version.",
   },
 ];
 
@@ -277,13 +269,12 @@ export default function Home() {
       <section className="band band-b py-[clamp(64px,9vw,128px)]">
         <div className="shell">
           <Reveal>
-            <p className="eyebrow mb-3">A happy accident that fits</p>
+            <p className="eyebrow mb-3">What the name stands for</p>
             <h2 className="mb-4 max-w-[18ch] text-[clamp(1.8rem,3.6vw,2.9rem)] font-semibold leading-[1.1]">
               BASTIN was there the whole time.
             </h2>
             <p className="mb-12 max-w-[56ch] text-[1.05rem]" style={{ color: "var(--dim)" }}>
-              Six letters, six things this practice has actually been doing,
-              long before anyone spelled it out.
+              Six letters, six things this practice does.
             </p>
           </Reveal>
 
@@ -342,7 +333,7 @@ export default function Home() {
             </h2>
           </Reveal>
 
-          <div className="grid gap-8 sm:grid-cols-3">
+          <div className="grid max-w-[56ch] gap-8">
             {WHY_IT_WORKS.map((w, i) => (
               <Reveal key={w.title} i={i}>
                 <p className="display mb-2 text-[1.08rem] font-semibold leading-[1.25]">
@@ -385,9 +376,7 @@ export default function Home() {
             </h2>
             <p className="mb-10 max-w-[56ch] text-[1.05rem]" style={{ color: "var(--dim)" }}>
               Clients reviewed the work in Dutch, Spanish, French and English,
-              unprompted, which is the multilingual claim proving itself better
-              than any copy on this page could. Shown here are the English
-              reviews; each language version of the site carries its own.
+              unprompted. Shown here are the English reviews.
             </p>
           </Reveal>
           <Reveal i={1}>

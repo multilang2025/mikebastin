@@ -79,7 +79,6 @@ const QUESTIONS = [
     q: "Do we have to launch every language at once?",
     a: [
       "One at a time works better, and usually costs less. We start with the market where the evidence is strongest, get it producing enquiries, and add the next one once it does.",
-      "Putting the whole first budget into one market is how a company gets a market that clearly pays, and a proven result to build the next language on.",
     ],
   },
   {
@@ -93,7 +92,6 @@ const QUESTIONS = [
     q: "Who writes the pages in German, Italian and other languages?",
     a: [
       "We write French, English, Spanish and Dutch directly. German, Italian, Portuguese and other languages go to native copywriters from the BeTranslated network, briefed and reviewed by us.",
-      "Either way the page is written for the market reading it, from that market's own research.",
     ],
   },
   {
@@ -176,12 +174,6 @@ export default function LeadGenerationPage() {
               its budget on visits alone, and each can be funded on what it
               returns.
             </p>
-            <p className="max-w-[62ch] text-[1.05rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
-              With the split in view, the budget follows the language doing
-              the selling, and the market that should be growing gets more of
-              it every quarter. The report puts the decision in front of you,
-              so you make it on purpose.
-            </p>
           </Reveal>
         </div>
       </section>
@@ -196,9 +188,7 @@ export default function LeadGenerationPage() {
             </h2>
             <p className="mb-10 max-w-[62ch] text-[1.05rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
               Three pieces, run together and judged on one thing: whether each
-              market sends your sales team enquiries worth having. Any one of
-              them alone produces a report. The three together produce a
-              pipeline you can read market by market.
+              market sends your sales team enquiries worth having.
             </p>
           </Reveal>
           <Reveal i={2}>
@@ -234,10 +224,8 @@ export default function LeadGenerationPage() {
               the one that brings in enquiries.
             </p>
             <p className="max-w-[62ch] text-[1.05rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
-              To be exact about where the line sits: it covers media spend;
-              writing and translation are quoted as a price for the work. We
-              set it out here so you have the full picture before the first
-              call.
+              Media spend goes direct; writing and translation are quoted
+              as a price for the work.
             </p>
           </Reveal>
         </div>
@@ -252,8 +240,7 @@ export default function LeadGenerationPage() {
               Clients in four languages, in their own words
             </h2>
             <p className="mb-10 max-w-[58ch] text-[1.05rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
-              Reviews written in English, Dutch, French and Spanish, each in
-              the language the client chose. The case studies of{" "}
+              The case studies of{" "}
               <Link href="/projects/delaguia-y-luzon/" className="ulink">
                 a law firm working in four languages
               </Link>

@@ -116,17 +116,6 @@ export default function HowIWorkPage() {
               What a multilingual SEO engagement covers month to month, how it is billed, and which costs are passed through at cost.
             </h2>
           </Reveal>
-          <Reveal i={3}>
-            <p
-              className="max-w-[60ch] text-[clamp(1.05rem,1.65vw,1.24rem)]"
-              style={{ color: "var(--dim)" }}
-            >
-              Every market is scoped on its own terms, so each engagement is
-              priced from its own scope. What follows is the shape the work
-              takes, from the first call to the monthly report.
-            </p>
-          </Reveal>
-
           <Reveal i={4}>
             <div className="mt-10 flex items-center gap-4">
               <img
@@ -191,9 +180,6 @@ export default function HowIWorkPage() {
               A two-language site and a five-language one are different jobs
             </h2>
             <p className="max-w-[56ch] text-[1.02rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
-              Pricing from the scope means a small site pays for a small site
-              and a large one pays for what it needs, and we have run this
-              business long enough to know a fair fit is what clients want.
               The scope call sets it: we quote against the markets, the current state of the
               site, and what needs to be built first.
             </p>
@@ -249,8 +235,7 @@ export default function HowIWorkPage() {
               Tell us which market you want to start with
             </h2>
             <p className="mb-8 max-w-[56ch] text-[1.02rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
-              A short brief is all the first call needs. We read every one
-              ourselves and reply within a working day.
+              We reply to every brief within a working day.
             </p>
             <Link href="/contact/" className="ulink text-[1.02rem]">
               Start with a brief

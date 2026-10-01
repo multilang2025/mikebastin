@@ -310,11 +310,6 @@ export default async function ServicePage({
               <h2 className="mb-5 max-w-[24ch] text-[clamp(1.5rem,2.8vw,2.1rem)] font-semibold leading-[1.15]">
                 What we take on under {headingTerm}
               </h2>
-              <p className="mb-10 max-w-[60ch] text-[1.02rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
-                Most briefs ask for one part of the work and turn out to
-                need two or three. Here is the full ground it covers, so
-                you can see at a glance whether your job sits inside it.
-              </p>
             </Reveal>
             <Reveal i={1}>
               <div className="flex max-w-[64ch] flex-col gap-5 text-[1.02rem] leading-[1.7]">
