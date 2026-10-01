@@ -58,9 +58,7 @@ export default function ServicesIndex() {
           <Reveal i={3}>
             <p className="max-w-[58ch] text-[clamp(1.05rem,1.5vw,1.2rem)] leading-[1.58]" style={{ color: "var(--dim)" }}>
               Lead generation, search, localization, AI and the technical
-              work underneath all of it. Hiring a global SEO company starts
-              best with the job in front of you, so name that job and we will
-              tell you what it really needs.
+              work underneath all of it.
             </p>
           </Reveal>
         </div>

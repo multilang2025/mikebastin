@@ -20,21 +20,6 @@ export const metadata: Metadata = {
   }),
 };
 
-const ROUTES = [
-  {
-    name: "Named, with permission",
-    body: "The strongest proof available, needs a signed yes from the client.",
-  },
-  {
-    name: "Anonymised by sector",
-    body: "“A Houston freight forwarder,” figures intact, identifying detail removed.",
-  },
-  {
-    name: "Rebuilt chart",
-    body: "The shape of the result, redrawn from the underlying numbers, with the client's own artefacts kept private.",
-  },
-];
-
 export default function ResultsPage() {
   return (
     <main>
@@ -55,13 +40,6 @@ export default function ResultsPage() {
             <h2 className="mb-6 max-w-[46ch] text-[clamp(1.2rem,2.1vw,1.7rem)] font-medium leading-[1.3]" style={{ color: "var(--ink)" }}>
               What changed on real engagements, with the figures attached and the markets they came from named.
             </h2>
-          </Reveal>
-          <Reveal i={3}>
-            <p className="max-w-[58ch] text-[clamp(1.05rem,1.5vw,1.2rem)] leading-[1.58]" style={{ color: "var(--dim)" }}>
-              A case study is a narrative written afterwards. A report is
-              primary evidence, and this page is where our multilingual lead
-              figures are shown in full.
-            </p>
           </Reveal>
         </div>
         <HeroArtSlot visibleOnMobile={true}>
@@ -100,8 +78,7 @@ export default function ResultsPage() {
               Forty-three service pages became nineteen.
             </h2>
             <p className="mb-12 max-w-[56ch] text-[1.05rem]" style={{ color: "var(--dim)" }}>
-              One page, one subject, covered properly. Open a cluster to
-              see which pages were combined.
+              Open a cluster to see which pages were combined.
             </p>
           </Reveal>
 
@@ -125,55 +102,6 @@ export default function ResultsPage() {
         </div>
       </section>
 
-      {/* ============ OPEN BLOCKER ============ */}
-      <section className="band band-b py-[clamp(40px,6vw,72px)]">
-        <div className="shell">
-          <Reveal>
-            <div
-              className="rounded-[4px] px-7 py-6"
-              style={{
-                border: "1px dashed color-mix(in oklab, var(--deep) 55%, transparent)",
-                background: "color-mix(in oklab, var(--deep) 8%, transparent)",
-              }}
-            >
-              <p className="mb-1 text-[.72rem] font-semibold uppercase tracking-[.1em]" style={{ color: "var(--deep)" }}>
-                Waiting on a report
-              </p>
-              <p className="max-w-[62ch] text-[.95rem] leading-[1.55]">
-                The numbers on this page are placeholders until a client
-                report arrives. Send one representative report so the design
-                is built against its actual shape. Confidentiality
-                level is decided per client once that report exists.
-              </p>
-            </div>
-          </Reveal>
-        </div>
-      </section>
-
-      {/* ============ THREE ROUTES ============ */}
-      <section className="band band-a py-[clamp(56px,8vw,110px)]">
-        <div className="shell">
-          <Reveal>
-            <p className="eyebrow mb-3">Three ways a report can appear here</p>
-            <h2 className="mb-10 max-w-[22ch] text-[clamp(1.7rem,3.2vw,2.5rem)] font-semibold leading-[1.12]">
-              We decide how to publish each client with them
-            </h2>
-          </Reveal>
-
-          <div className="grid gap-px sm:grid-cols-3" style={{ background: "var(--rule)" }}>
-            {ROUTES.map((r, i) => (
-              <Reveal key={r.name} i={i}>
-                <div className="band h-full px-7 py-8" style={{ background: "var(--bg)" }}>
-                  <p className="display mb-2 text-[1.05rem] font-semibold">{r.name}</p>
-                  <p className="text-[.9rem] leading-[1.55]" style={{ color: "var(--dim)" }}>
-                    {r.body}
-                  </p>
-                </div>
-              </Reveal>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* ============ TESTIMONIALS (live today) ============ */}
       <section className="band band-b py-[clamp(56px,8vw,110px)]">
@@ -185,9 +113,7 @@ export default function ResultsPage() {
             </h2>
             <p className="mb-10 max-w-[56ch] text-[1.05rem]" style={{ color: "var(--dim)" }}>
               Every one is public on the linked Google Business Profile,
-              where it can be checked against the source. By design they
-              appear here as plain quotes, outside Review and AggregateRating
-              schema.
+              where it can be checked against the source.
             </p>
           </Reveal>
           <Reveal i={2}>

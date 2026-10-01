@@ -65,10 +65,8 @@ export default function ContactPage() {
               className="max-w-[58ch] text-[clamp(1.05rem,1.65vw,1.24rem)]"
               style={{ color: "var(--dim)" }}
             >
-              Six fields, each one a question we would ask on the call. We read
-              every one and reply ourselves, usually within a working day. If
-              another team fits the job better, we will say so and point you to
-              them.
+              If another team fits the job better, we will say so and point you
+              to them.
             </p>
           </Reveal>
         </div>
@@ -188,10 +186,6 @@ export default function ContactPage() {
               <h2 className="mb-4 text-[1.08rem] font-semibold" style={{ color: "var(--ink)" }}>
                 Rather just email
               </h2>
-              <p className="mb-6">
-                Entirely reasonable. The form simply asks the questions we would
-                ask on the call.
-              </p>
               <div className="mb-8 flex flex-col gap-2">
                 <a href="mailto:hello@mikebastin.com" className="ulink w-fit">
                   hello@mikebastin.com
