@@ -1146,8 +1146,8 @@ export const SERVICES: Service[] = [
       {
         heading: "What gets configured underneath the words",
         paragraphs: [
-          "WPML runs as the default multilingual stack for WordPress, with Polylang for tighter budgets or simpler structures and TranslatePress where a non-technical content team needs in-context, front-end translation. For stores, WooCommerce, Shopify and Magento get local currency, local payment methods and checkout flows adjusted per region, since conversion rates move measurably once a shopper sees a familiar payment option at checkout.",
-          "Run before launch, the pass puts every issue in a test report, where it is quickest to fix.",
+          "WPML runs as the default multilingual stack for WordPress, with Polylang for tighter budgets or simpler structures and TranslatePress where a non-technical content team needs in-context, front-end translation. For stores, WooCommerce, Shopify and Magento get local currency, local payment methods and checkout flows adjusted per region, since shoppers are more likely to complete when they see a payment option they know.",
+          "A localization test pass before launch puts every issue in one report, where it is quickest to fix.",
         ],
       },
       {
@@ -1203,15 +1203,15 @@ export const SERVICES: Service[] = [
   {
     slug: "translation-services",
     name: "Translation services",
-    cardTitle: "Translation services sorted by document type",
+    cardTitle: "Certified and specialist translation services",
     inline: "translation services",
-    h1: "Multilingual translation services sorted by document type",
-    subhead: "The risk changes completely from a proposal to a court filing, and so does who should be doing the work.",
+    h1: "Translation services for documents a court or embassy must accept",
+    subhead: "Each document goes to a sworn or specialist translator in its field, from a business proposal to a court filing, delivered in one to seven days.",
     cluster: "Localization",
     pillar: true,
     angle: "Where accuracy is a liability question",
     lede: "You have a contract, a patient record or a birth certificate that a court, a regulator or an embassy has to accept, with every term right the first time. Work goes through the BeTranslated network, which we have run for twenty years.",
-    metaTitle: "Translation services, Mike Bastin",
+    metaTitle: "Certified and sworn translation services, Mike Bastin",
     metaDescription: "A contract, a patient record or a certificate a court or an embassy has to accept. Certified and sworn translation services through the BeTranslated network.",
     sections: ["Where translation accuracy carries the most weight", ...ENGAGEMENT],
     body: [
@@ -1224,14 +1224,14 @@ export const SERVICES: Service[] = [
         ],
       },
       {
-        heading: "How the BeTranslated network actually delivers it",
+        heading: "How the BeTranslated network delivers it",
         paragraphs: [
           "Translation runs through the BeTranslated network, run for over twenty years, with certified and sworn translators per language and per specialism (legal, medical, financial, academic, technical). Delivery takes one to seven days, depending on the complexity of the document and your situation, with rush turnaround available for time-critical personal documents such as a visa or birth certificate translation.",
           "Every document gets matched to a translator with the relevant sector background, then a review pass before delivery, with notarisation or an apostille handled where the receiving institution requires it. For US and Canadian citizens, we also provide apostille services.",
         ],
       },
       {
-        heading: "Where the accuracy standard actually gets tested",
+        heading: "Where the accuracy standard gets tested",
         paragraphs: [
           "Delaguía y Luzón is a Valencia law firm whose practice runs across Spain and France in four languages, including Russian, so the same document sometimes needs to hold up in two legal systems at once. Its site, which carries that translated legal content, drew 38,476 clicks from 2,399,567 Google impressions between May and July 2026, an average position of 9.4.",
         ],
@@ -1292,12 +1292,12 @@ export const SERVICES: Service[] = [
     cardTitle: "App and software localization for products sold abroad",
     inline: "app and software localization",
     h1: "App and software localization services for products sold abroad",
-    subhead: "Internationalized before launch, which is where the cost of this work is decided and kept low.",
+    subhead: "Prepared for new languages before launch, so adding each market after that is a content job and the code stays as it is.",
     cluster: "Localization",
     angle: "Strings, and everything around them",
     lede: "You are shipping the product into a market that writes longer sentences than English, sometimes reads right to left, and reviews you in a store in its own language. The work starts with the interface around the translation.",
     metaTitle: "App and software localization services",
-    metaDescription: "Shipping into a market that writes longer than English or reads right to left? App and software localization covers the layout, encoding and store listing too.",
+    metaDescription: "Shipping into a market that writes longer than English or reads right to left? App and software localization covers the layout, the formats and the store listing too.",
     sections: ["What software needs to cross a language", ...ENGAGEMENT],
     body: [
       {
@@ -1360,14 +1360,14 @@ export const SERVICES: Service[] = [
     pillar: true,
     angle: "AI consultants who say where AI helps and where a person does",
     lede: "Somebody has told you AI can handle your German content, and some of it can. The part that decides whether the page earns anything is the part that still needs a person who reads German.",
-    metaTitle: "AI consulting for multilingual SEO",
+    metaTitle: "AI consulting services for multilingual SEO",
     metaDescription: "Told that AI can handle your German content? Some of it can. AI consulting that says which part still needs a person who reads the language.",
     sections: ["Where AI helps, and where a person does", ...ENGAGEMENT],
     body: [
       {
         heading: "Where AI helps",
         paragraphs: [
-          "Neural machine translation combined with terminology-aware post-editing shortens the first draft of a multilingual page, and AI-assisted research speeds up the early stages of keyword and competitor work across languages far faster than doing it by hand.",
+          "Neural machine translation combined with terminology-aware post-editing shortens the first draft of a multilingual page, and AI-assisted research gets through the early keyword and competitor work across languages far faster than doing it by hand.",
           "Sentiment analysis run across several markets at once surfaces patterns in how a brand is discussed that a manual review would take weeks to find.",
         ],
       },

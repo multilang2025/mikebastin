@@ -22,8 +22,8 @@ alone.
 | 2 | Services index, lead generation hub, multilingual SEM, conversion tracking | done |
 | 3 | Multilingual SEO, French SEO, German SEO, Spanish SEO | done |
 | 4 | Dutch SEO, Italian SEO, Portuguese SEO, local SEO | done |
-| 5 | Website localization, translation services, app and software localization, AI consulting | next |
-| 6 | AI translation and post-editing, generative engine optimization, technical SEO, content marketing, multilingual content | to do |
+| 5 | Website localization, translation services, app and software localization, AI consulting | done |
+| 6 | AI translation and post-editing, generative engine optimization, technical SEO, content marketing, multilingual content | next |
 | 7 | Results, how we work, contact (and its two status pages), competitor analysis checklist, project template | to do |
 
 ## Changes
@@ -132,3 +132,24 @@ corrections more than rewrites.
   shopfront".
 - **Left alone, waiting on the owner**: the Portuguese "working level"
   wording (Q11).
+
+### Batch 5: website localization, translation, app localization, AI consulting
+
+- **Translation services** led with how we file the work: the h1 was
+  "Multilingual translation services sorted by document type". It now
+  names the buyer's stake, "Translation services for documents a court or
+  embassy must accept", and the h2 says who translates and how fast, using
+  the owner's "one to seven days". The card title and the meta title
+  ("Translation services, Mike Bastin") now say certified and sworn.
+- **App and software localization**: the h2 explained when cost is
+  decided; it now says what the buyer gets (each later market is a content
+  job). "Encoding" leaves the meta description.
+- **Website localization**: a claim that conversion rates "move
+  measurably" with a familiar payment method (unsourced) now says what
+  shoppers do; a paragraph opening "Run before launch, the pass" had no
+  pass to refer to and now names it.
+- **AI consulting**: the meta title carries the assigned primary, "AI
+  consulting services"; "speeds up ... far faster" de-duplicated.
+- Two headings lose a filler "actually".
+- **Left alone, waiting on the owner**: "four languages, including
+  Russian" for the law firm on the translation page (Q4).
