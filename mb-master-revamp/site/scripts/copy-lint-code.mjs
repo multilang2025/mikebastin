@@ -13,9 +13,10 @@
  * a variable.
  */
 import { readFileSync, readdirSync, statSync } from "fs";
-import { join, relative } from "path";
+import { join, relative } from "path/posix";
+import { fileURLToPath } from "url";
 
-const ROOT = new URL("../", import.meta.url).pathname;
+const ROOT = fileURLToPath(new URL("../", import.meta.url)).replace(/\\/g, "/");
 const DIRS = ["app", "components", "lib"];
 
 /**

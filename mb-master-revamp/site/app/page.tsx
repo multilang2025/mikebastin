@@ -12,13 +12,12 @@ import { enLanguages } from "@/lib/fr-pages";
 
 // The homepage previously inherited the root layout's metadata, which is the
 // whole-site fallback rather than anything aimed at a query. It now carries
-// its own. Targets are the entity-level terms, since the head term
-// "international SEO" (2,100 UK, 10,000 global, KD 34 per Ahrefs, 19 Aug 2026)
-// already belongs to /services/multilingual-seo/ and duplicating it here would
-// put two of our own pages in the same result.
-const TITLE = "Multilingual SEO and localization consultancy, Mike Bastin";
+// its own, led by the primary term lib/keywords.ts assigns to "/":
+// "international SEO agency" (7,500 global, KD 3), the agency variant of the
+// head term, which sits at KD 34.
+const TITLE = "International SEO agency and localization, Mike Bastin";
 const DESCRIPTION =
-  "Your English pages sell. Multilingual SEO makes your other languages sell too. Localization consultancy from Valencia, enquiries counted per market.";
+  "International SEO agency for companies selling abroad: native multilingual SEO and localization, with enquiries counted per market. Free consultation.";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -55,7 +54,7 @@ const BASTIN = [
   {
     letter: "B",
     word: "Business",
-    desc: "The case for search starts inside a business case, which is what gets it built.",
+    desc: "Every search project starts from your business case, so it gets the budget it needs.",
     href: "/services/lead-generation/",
   },
   {
@@ -93,35 +92,43 @@ const BASTIN = [
 const WHAT_WE_DO = [
   {
     cluster: "Lead generation",
-    desc: "Enquiries are the product. Multilingual SEO, localization and AI consulting are the mechanisms underneath.",
+    desc: "More enquiries from your non-English markets, each one traced back to its language.",
     href: "/services/lead-generation/",
   },
   {
     cluster: "Search",
-    desc: "Native writing per language, researched against what that market actually searches for.",
+    desc: "Native writing for each language, researched against what buyers in that market search for.",
     href: "/services/multilingual-seo/",
   },
   {
     cluster: "Localization",
-    desc: "Making a site work in a market, from the language to the prices and the trust signals.",
+    desc: "Your site ready for each market: the language, the prices and the trust signals buyers there expect.",
     href: "/services/website-localisation/",
   },
   {
     cluster: "AI",
-    desc: "Structured for ChatGPT, Perplexity and Google's AI Overviews to cite, as well as for Google to rank.",
+    desc: "Pages that ChatGPT, Perplexity and Google's AI Overviews can cite, as well as pages Google ranks.",
     href: "/services/generative-engine-optimization/",
   },
   {
     cluster: "Technical",
-    desc: "Hreflang, crawl and index work so each language version reaches its own buyers.",
+    desc: "Each language version reaches its own buyers, with the hreflang, crawl and index work done right.",
     href: "/services/technical-seo/",
   },
 ];
 
 const WHY_IT_WORKS = [
   {
-    title: "Copy written in the market",
-    body: "A site that works in a market is a currency, trust signal and search behaviour question, as much as a language one.",
+    title: "One strategist across your languages",
+    body: "The person planning your French SEO also reads your Spanish and Dutch pages, so every market runs on one plan and the results compare like for like.",
+  },
+  {
+    title: "Copy written by natives of the market",
+    body: "Commercial pages in each language are written by a native speaker, with the prices, trust signals and search habits of that market built in.",
+  },
+  {
+    title: "Enquiries counted per language",
+    body: "You see which market pays back, so the budget follows the evidence.",
   },
 ];
 
@@ -171,19 +178,19 @@ export default function Home() {
               className="mb-8 max-w-[56ch] text-[clamp(1.05rem,1.5vw,1.2rem)] leading-[1.6]"
               style={{ color: "color-mix(in srgb, var(--dim) 65%, var(--ink))" }}
             >
-              The traffic in your other languages is already there. Turning it
-              into enquiries is usually a research and writing job, and it
-              starts with the market where the evidence is strongest.
+              You already sell abroad, so the demand is there. We find the
+              market with the most room to grow, write for it natively, and
+              count every enquiry it brings in.
             </p>
           </Reveal>
 
           <Reveal i={4}>
             <div className="mb-7 flex flex-wrap items-center gap-x-6 gap-y-4">
               <Link href="/contact/" className="btn btn-primary btn-lg">
-                Book a discovery call
+                Book a free consultation
               </Link>
               <Link href="/results/" className="ulink text-[.98rem]">
-                See what the numbers did
+                See client results
               </Link>
             </div>
           </Reveal>
@@ -196,7 +203,7 @@ export default function Home() {
                 French only converted, and it named four markets when six
                 language SEO services exist, quietly dropping DE, IT and PT. */}
             <div className="flex flex-wrap items-center gap-x-3 gap-y-2 text-[.94rem]" style={{ color: "var(--dim)" }}>
-              {["Written natively, market by market", "Languages that add up", "Enquiries counted per language"].map((t, i) => (
+              {["Written natively, market by market", "One strategy across every language", "Enquiries counted per language"].map((t, i) => (
                 <span key={t} className="flex items-center gap-3">
                   {i > 0 && <i className="block h-[3px] w-[3px] rounded-full" style={{ background: "var(--berry)" }} />}
                   {t}
@@ -220,12 +227,10 @@ export default function Home() {
             </h2>
             <p className="mb-12 max-w-[56ch] text-[1.05rem]" style={{ color: "var(--dim)" }}>
               You already sell abroad, so the product is proven. Ongoing
-              multilingual SEO is the main engagement, with localization,
-              paid search and AI consulting around it. A global SEO
-              programme is those pieces running together, and enquiries are
-              the product,
-              counted market by market so you can see which language earns
-              them.
+              multilingual SEO is the core of a global SEO programme, with
+              localization, paid search and AI consulting around it. Every
+              enquiry is counted by market, so you see which language earns
+              its keep.
             </p>
           </Reveal>
 
@@ -265,61 +270,22 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ============ BASTIN, THE ACRONYM ============ */}
+      {/* ============ TESTIMONIALS ============ */}
       <section className="band band-b py-[clamp(64px,9vw,128px)]">
         <div className="shell">
           <Reveal>
-            <p className="eyebrow mb-3">What the name stands for</p>
-            <h2 className="mb-4 max-w-[18ch] text-[clamp(1.8rem,3.6vw,2.9rem)] font-semibold leading-[1.1]">
-              BASTIN was there the whole time.
+            <p className="eyebrow mb-3">In their own words</p>
+            <h2 className="mb-5 max-w-[20ch] text-[clamp(1.8rem,3.6vw,2.9rem)] font-semibold leading-[1.1]">
+              Clients review us in their own language.
             </h2>
-            <p className="mb-12 max-w-[56ch] text-[1.05rem]" style={{ color: "var(--dim)" }}>
-              Six letters, six things this practice does.
+            <p className="mb-10 max-w-[56ch] text-[1.05rem]" style={{ color: "var(--dim)" }}>
+              Reviews arrived in Dutch, Spanish, French and English,
+              unprompted. Here are the English ones.
             </p>
           </Reveal>
-
-          <div className="flex flex-col" style={{ borderTop: "1px solid var(--rule)" }}>
-            {BASTIN.map((row, i) => {
-              const body = (
-                <>
-                  <span
-                    className="display shrink-0 text-[clamp(2.4rem,5vw,3.4rem)] font-semibold leading-none"
-                    style={{ color: "var(--berry)" }}
-                  >
-                    {row.letter}
-                  </span>
-                  <span className="flex flex-col gap-1 pt-1">
-                    <span
-                      className={`display text-[1.3rem] font-semibold leading-none${
-                        row.href ? " transition-colors duration-300 group-hover:text-[var(--berry)]" : ""
-                      }`}
-                    >
-                      {row.word}
-                    </span>
-                    <span className="text-[.92rem] leading-[1.55]" style={{ color: "var(--dim)" }}>
-                      {row.desc}
-                    </span>
-                  </span>
-                </>
-              );
-              const rowClass =
-                "flex items-start gap-5 py-6 sm:gap-7";
-              const rowStyle = { borderBottom: "1px solid var(--rule)" };
-              return (
-                <Reveal key={row.letter} i={i}>
-                  {row.href ? (
-                    <Link href={row.href} className={`${rowClass} group`} style={rowStyle}>
-                      {body}
-                    </Link>
-                  ) : (
-                    <div className={rowClass} style={rowStyle}>
-                      {body}
-                    </div>
-                  )}
-                </Reveal>
-              );
-            })}
-          </div>
+          <Reveal i={1}>
+            <Testimonials />
+          </Reveal>
         </div>
       </section>
 
@@ -366,22 +332,61 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ============ TESTIMONIALS ============ */}
+      {/* ============ BASTIN, THE ACRONYM ============ */}
       <section className="band band-a py-[clamp(64px,9vw,128px)]">
         <div className="shell">
           <Reveal>
-            <p className="eyebrow mb-3">In their own words</p>
-            <h2 className="mb-5 max-w-[20ch] text-[clamp(1.8rem,3.6vw,2.9rem)] font-semibold leading-[1.1]">
-              Four languages, each one the client's choice.
+            <p className="eyebrow mb-3">What the name stands for</p>
+            <h2 className="mb-4 max-w-[18ch] text-[clamp(1.8rem,3.6vw,2.9rem)] font-semibold leading-[1.1]">
+              BASTIN was there the whole time.
             </h2>
-            <p className="mb-10 max-w-[56ch] text-[1.05rem]" style={{ color: "var(--dim)" }}>
-              Clients reviewed the work in Dutch, Spanish, French and English,
-              unprompted. Shown here are the English reviews.
+            <p className="mb-12 max-w-[56ch] text-[1.05rem]" style={{ color: "var(--dim)" }}>
+              Six letters, six things we do for you.
             </p>
           </Reveal>
-          <Reveal i={1}>
-            <Testimonials />
-          </Reveal>
+
+          <div className="flex flex-col" style={{ borderTop: "1px solid var(--rule)" }}>
+            {BASTIN.map((row, i) => {
+              const body = (
+                <>
+                  <span
+                    className="display shrink-0 text-[clamp(2.4rem,5vw,3.4rem)] font-semibold leading-none"
+                    style={{ color: "var(--berry)" }}
+                  >
+                    {row.letter}
+                  </span>
+                  <span className="flex flex-col gap-1 pt-1">
+                    <span
+                      className={`display text-[1.3rem] font-semibold leading-none${
+                        row.href ? " transition-colors duration-300 group-hover:text-[var(--berry)]" : ""
+                      }`}
+                    >
+                      {row.word}
+                    </span>
+                    <span className="text-[.92rem] leading-[1.55]" style={{ color: "var(--dim)" }}>
+                      {row.desc}
+                    </span>
+                  </span>
+                </>
+              );
+              const rowClass =
+                "flex items-start gap-5 py-6 sm:gap-7";
+              const rowStyle = { borderBottom: "1px solid var(--rule)" };
+              return (
+                <Reveal key={row.letter} i={i}>
+                  {row.href ? (
+                    <Link href={row.href} className={`${rowClass} group`} style={rowStyle}>
+                      {body}
+                    </Link>
+                  ) : (
+                    <div className={rowClass} style={rowStyle}>
+                      {body}
+                    </div>
+                  )}
+                </Reveal>
+              );
+            })}
+          </div>
         </div>
       </section>
 

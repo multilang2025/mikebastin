@@ -15,9 +15,10 @@
  * Run with `--json` for machine output, otherwise a readable report.
  */
 import { readFileSync, readdirSync, statSync, writeFileSync } from "fs";
-import { join } from "path";
+import { join } from "path/posix";
+import { fileURLToPath } from "url";
 
-const CONTENT = new URL("../content/", import.meta.url).pathname;
+const CONTENT = fileURLToPath(new URL("../content/", import.meta.url)).replace(/\\/g, "/");
 
 /**
  * The content files that actually render.
@@ -33,7 +34,7 @@ const CONTENT = new URL("../content/", import.meta.url).pathname;
  */
 const LIVE = (() => {
   const cm = JSON.parse(
-    readFileSync(new URL("../../redirects/content-map.json", import.meta.url).pathname, "utf8")
+    readFileSync(fileURLToPath(new URL("../../redirects/content-map.json", import.meta.url)).replace(/\\/g, "/"), "utf8")
   );
   const live = new Set();
   for (const g of cm.groups) {
@@ -431,7 +432,7 @@ for (const locale of readdirSync(CONTENT)) {
 
 if (process.argv.includes("--json")) {
   writeFileSync(
-    new URL("../content/copy-lint.json", import.meta.url).pathname,
+    fileURLToPath(new URL("../content/copy-lint.json", import.meta.url)).replace(/\\/g, "/"),
     JSON.stringify({ generatedAt: new Date().toISOString(), rows }, null, 1)
   );
   console.log(`wrote content/copy-lint.json (${rows.length} files)`);
