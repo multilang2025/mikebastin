@@ -1441,14 +1441,14 @@ export const SERVICES: Service[] = [
         ],
       },
       {
-        heading: "What machine translation post-editing actually corrects",
+        heading: "What machine translation post-editing corrects",
         paragraphs: [
           "Terminology errors and unnatural phrasing corrected against a defined glossary per sector, formatting and tone standardised across languages so the brand voice holds, and consistency checked against the SEO targets the content was meant to hit in the first place, so the post-edit keeps the grammar right and the target keyword in place.",
           "The trade calls it MTPE. Work runs across sectors that lean on AI output to scale quickly, particularly SaaS, ecommerce and travel, where the volume of content calls for machine first drafts and the accuracy bar stays commercial.",
         ],
       },
     ],
-    expandablesHeading: "What a post-editing pass actually changes",
+    expandablesHeading: "What a post-editing pass changes",
     expandablesLede:
       "What the pass fixes in machine output, in the order a reader meets it.",
     expandables: [
@@ -1503,7 +1503,7 @@ export const SERVICES: Service[] = [
         q: "Optimize for search everywhere, Google included",
         a: [
           "Buyers now ask ChatGPT, Perplexity, Bing and a voice assistant before they ask Google, and each one assembles its answer differently.",
-          "Presence across the platforms your market actually uses, with one voice and one claim everywhere, because answer engines cite the sources that agree with themselves.",
+          "Presence across the platforms your market actually uses, with one voice and one claim everywhere, because answer engines favour sources that say the same thing wherever they appear.",
         ],
       },
       {
@@ -1549,7 +1549,7 @@ export const SERVICES: Service[] = [
       {
         q: "Watch who the answers cite",
         a: [
-          "Tracking the sources your market's answers cite, and closing the specific gap that puts them there.",
+          "Tracking which sources the answers in your market cite, and closing the gap between their pages and yours.",
         ],
       },
       {
@@ -1575,9 +1575,9 @@ export const SERVICES: Service[] = [
         ],
       },
       {
-        heading: "What being cited actually takes",
+        heading: "What being cited takes",
         paragraphs: [
-          "Content restructured around answer-shaped claims a model can quote directly and accurately. Schema and structured data built specifically for AI retrieval as well as for a search engine crawler, alongside a consistent presence across the platforms people actually ask: ChatGPT, Perplexity, Claude, Google AI Overviews.",
+          "Content restructured around answer-shaped claims a model can quote directly and accurately. Schema and structured data built specifically for AI retrieval as well as for a search engine crawler, alongside a consistent presence across the platforms people ask: ChatGPT, Perplexity, Claude, Google AI Overviews.",
           "Citation tracking monitors which platforms name the site for which queries over time, and the tracking data feeds directly back into which pages get the answer-shaped treatment next.",
         ],
       },
@@ -1597,7 +1597,7 @@ export const SERVICES: Service[] = [
     h1: "Technical SEO services for multilingual websites",
     subhead: "The work that lets each language version win its own buyers.",
     cluster: "Supporting",
-    angle: "Crawlability and hreflang, the foundations every language ranks on",
+    angle: "The foundations every language ranks on",
     lede: "Your French pages and your German pages should add up, each winning its own buyers. We check how they work together on your site, and set them up so each one adds to the total.",
     metaTitle: "Technical SEO services for multilingual websites",
     metaDescription: "Make every language version of your site add up, each winning its own buyers. See how we check the setup on your site, and what it takes to get it right.",
@@ -1613,8 +1613,8 @@ export const SERVICES: Service[] = [
       {
         heading: "The unglamorous work underneath the rankings",
         paragraphs: [
-          "On-page work aligns headers, internal linking and semantic HTML with real search intent.",
-          "Domain rating and the diversity of referring domains matter more over a longer period than any single placement.",
+          "On-page work aligns headers, internal linking and semantic HTML with what people search for.",
+          "Links count too: a steady spread of relevant referring domains builds more over time than any single placement.",
         ],
       },
     ],
@@ -1637,16 +1637,16 @@ export const SERVICES: Service[] = [
         ],
       },
       {
-        q: "Analytics is the part that makes the rest arguable",
+        q: "Analytics is the part that proves the rest",
         a: [
           "GA4 and Google Tag Manager configured so events mean something, conversions defined as the thing you actually want, and traffic split by market so each language shows its own numbers.",
           "Set up after the fact, it answers questions about last month. Set up first, it decides what to do next month.",
         ],
       },
       {
-        q: "Link building, and how we keep it clean",
+        q: "Link building that keeps its value",
         a: [
-          "Editorial links, resource page placements and guest posts on sites with real traffic and real editorial standards. Every link is earned on its merits: private blog networks, link farms and bought links from unrelated markets come cheap because they are a liability with a delay on it.",
+          "Editorial links, resource page placements and guest posts on sites with real traffic and real editorial standards. Every link is earned on its merits, from sites a buyer in your market would read, so each one keeps its value over time.",
           "What moves the needle is the topical relevance of the linking domain, a steady spread of referring domains, and anchor text that reads like something a person wrote.",
         ],
       },
@@ -1677,7 +1677,7 @@ export const SERVICES: Service[] = [
     sections: ["Where a publishing calendar finds its thread", ...ENGAGEMENT],
     body: [
       {
-        heading: "What a content programme is actually made of",
+        heading: "What a content programme is made of",
         paragraphs: [
           "Content strategy services are the half that decides whether the rest pays: which questions the business can credibly answer, which of those carry commercial intent, what already exists and can be rewritten, and the order it all gets published in.",
           "Content creation services are the other half, and they are a writing job before they are a volume job. A page earns its place by answering one question better than the pages already ranking for it, which takes a writer who understands the subject and an editor who sends back any draft that merely covers the topic.",
@@ -1694,7 +1694,7 @@ export const SERVICES: Service[] = [
       {
         heading: "Where the multilingual page takes over",
         paragraphs: [
-          "Run the same programme in three and a second set of decisions appears: each language needs its own keyword set, the cluster shape differs by language, and trust signals have to exist in each one.",
+          "Run the same programme in three languages and a second set of decisions appears: each language needs its own keyword set, the cluster shape differs by language, and trust signals have to exist in each one.",
           "Most of the companies we do it for are B2B, which changes the brief more than the language does. A B2B content marketing agency is writing for a committee and a long cycle, so the page that earns the enquiry is usually the one answering the objection.",
         ],
       },
@@ -1750,7 +1750,7 @@ export const SERVICES: Service[] = [
         heading: "Why each market needs its own keyword set",
         paragraphs: [
           "The keyword set that gets searched in Spanish or French comes from research in that language, because the way people phrase a problem shifts with the language as well as the words.",
-          "E-E-A-T signals, expert authorship, verifiable sources, testimonials, need to exist in every language, because a reader and a search engine both judge trustworthiness locally, from what they can actually verify in front of them.",
+          "E-E-A-T signals, such as expert authorship, verifiable sources and testimonials, need to exist in every language, because a reader and a search engine both judge trustworthiness locally, from what they can verify in front of them.",
         ],
       },
       {

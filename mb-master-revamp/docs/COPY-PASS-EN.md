@@ -23,8 +23,8 @@ alone.
 | 3 | Multilingual SEO, French SEO, German SEO, Spanish SEO | done |
 | 4 | Dutch SEO, Italian SEO, Portuguese SEO, local SEO | done |
 | 5 | Website localization, translation services, app and software localization, AI consulting | done |
-| 6 | AI translation and post-editing, generative engine optimization, technical SEO, content marketing, multilingual content | next |
-| 7 | Results, how we work, contact (and its two status pages), competitor analysis checklist, project template | to do |
+| 6 | AI translation and post-editing, generative engine optimization, technical SEO, content marketing, multilingual content | done |
+| 7 | Results, how we work, contact (and its two status pages), competitor analysis checklist, project template | next |
 
 ## Changes
 
@@ -153,3 +153,23 @@ corrections more than rewrites.
 - Two headings lose a filler "actually".
 - **Left alone, waiting on the owner**: "four languages, including
   Russian" for the law firm on the translation page (Q4).
+
+### Batch 6: AI translation, GEO, technical SEO, content marketing, multilingual content
+
+- **Technical SEO** opened its hero eyebrow on "Crawlability and hreflang",
+  the exact mechanism-first opening `mb-copy-voice` uses as its worked
+  example of what not to do. It now reads "The foundations every language
+  ranks on"; the terms stay below the fold.
+- **Technical SEO, positive framing**: the link-building answer sold by
+  listing what we avoid ("private blog networks, link farms ... a liability
+  with a delay on it"); it now says what the links we earn give you.
+  "Analytics is the part that makes the rest arguable" meant the opposite of
+  what it said and now reads "proves the rest". The thin "unglamorous work"
+  section's link sentence talks about relevance rather than "domain rating".
+- **GEO**: "answer engines cite the sources that agree with themselves" and
+  "closing the specific gap that puts them there" were hard to parse; both
+  rewritten. The "agency" meta title stays as it is pending Q8.
+- **Content marketing**: "Run the same programme in three" was missing its
+  noun ("languages").
+- **Multilingual content**: the E-E-A-T list was punctuated as a run-on.
+- Six headings and lines across the five pages lose a filler "actually".
