@@ -359,8 +359,8 @@ export const SERVICES: Service[] = [
     pillar: true,
     angle: "The engine underneath the outcome",
     lede: "You already sell abroad, and your markets outside English have more to give. We run the strategy and brief native writers per market, so each language earns enquiries as well as traffic.",
-    metaTitle: "International SEO agency and consulting",
-    metaDescription: "Selling abroad and want more from your other languages? See how each language gets its own strategy, its own native writing, and a number of its own.",
+    metaTitle: "Multilingual SEO agency for companies selling abroad",
+    metaDescription: "Selling abroad and want more from your other languages? Each one gets its own strategy, its own native writing and its own enquiry count.",
     sections: [
       "What makes an international SEO project work",
       "What we include in an international SEO engagement",
@@ -373,13 +373,13 @@ export const SERVICES: Service[] = [
       {
         heading: "Three patterns we check in every audit",
         paragraphs: [
-          "Search engines recognise a DeepL pass with a light human review as patched-up machine translation, AI engines tend to cite native pages ahead of it, and native readers stay to read what was written for them.",
+          "Pages written natively hold up on three fronts: search engines treat them as original content, AI engines tend to cite them ahead of machine translation, and native readers stay to read them.",
           "We check that hreflang tags sit on every page, the homepage included, point back to each other and carry the right language code. Built correctly the first time, they show each visitor the language version for their country, keep conversions where they belong and give Search Console a clean report.",
           "Slugs, internal links, schema and keyword targets are agreed per language before the first page goes live, so French published now and Spanish added six months later share one structure.",
         ],
       },
       {
-        heading: "What actually goes into the engagement",
+        heading: "What goes into the engagement",
         paragraphs: [
           "A global SEO programme starts with native research in each target language, covering real commercial intent and long-tail phrasing per market. Subdirectory, subdomain or ccTLD gets a reasoned recommendation for your case, with hreflang, sitemaps and Search Console geo-targeting configured per language from the start.",
           "An international SEO specialist earns the fee on the decisions that are expensive to undo later: the domain structure, the hreflang map and the order the markets go in. Writing runs fluent and direct for French, English, Spanish and Dutch, and through native copywriters from the BeTranslated network for German, Italian, Portuguese and other languages. LocalBusiness, Service, Article and FAQ schema is built per language and validated on Google's Rich Results tool, and the same work extends to how ChatGPT, Claude, Perplexity and AI Overviews answer in each language.",
@@ -459,7 +459,7 @@ export const SERVICES: Service[] = [
     angle: "SEO France, from the outside in",
     lede: "You have French pages and French visitors, and the market has more enquiries to send you. A French buyer compares suppliers before contacting any of them, and the shortlist goes to sites that read as written in French.",
     metaTitle: "French SEO agency for companies selling into France",
-    metaDescription: "French buyers can tell in one sentence if a page was written in French. We research and write your French site in French, so French traffic becomes enquiries.",
+    metaDescription: "French buyers know in one sentence whether a page was written in French. We research and write your French pages natively, so French visits become enquiries.",
     // Research, 23 Sep 2026 (Ahrefs GB and worldwide, plus this page's own
     // Search Console for 24 Mar to 20 Sep 2026): the people searching for
     // French SEO in English are mostly outside France. 500 of the 700
@@ -660,10 +660,10 @@ export const SERVICES: Service[] = [
         q: "Where the compliance work hands over to a lawyer",
         a: [
           "We set up the technical side: a compliant Impressum, a privacy policy that holds up under German law, and consent that is a genuine opt-in.",
-          "Legal questions, sensitive data, employee tracking, marketing profiling, are a German lawyer's work.",
+          "Legal questions, such as sensitive data, employee tracking and marketing profiling, are a German lawyer's work.",
         ],
       },
-  {
+      {
         q: "German SEO or German translation first",
         a: [
           "Research first. Research puts the German terms buyers actually search for into the brief the translator works from, so the page is right first time.",
@@ -719,7 +719,7 @@ export const SERVICES: Service[] = [
         paragraphs: [
           "Spain runs directly from Valencia, where we have been based since 2016. The research, the writing, the reading of competitors and the meetings all happen in Spanish, straight from the plan to the page.",
           "Mexico, Colombia, Argentina and the Dominican Republic go to native copywriters on the BeTranslated team in Santo Domingo, briefed and checked here so the markets stay one coherent plan.",
-          "We also earn mentions in the press each market reads.",
+          "We also earn mentions in the press each market reads, which buyers there check before they get in touch.",
         ],
       },
       {
@@ -752,7 +752,7 @@ export const SERVICES: Service[] = [
       {
         q: "Which Latin American market to open first",
         a: [
-          "Mexico on sheer volume, and it is competitive to match on consumer verticals while staying reachable on regional B2B. Colombia, Argentina and Chile are mid-sized, more accessible, and each behave differently enough to need their own research. The Dominican Republic, Costa Rica and Guatemala suit niche or local services.",
+          "Mexico on sheer volume, and it is competitive to match on consumer verticals while staying reachable on regional B2B. Colombia, Argentina and Chile are mid-sized, more accessible, and each behaves differently enough to need their own research. The Dominican Republic, Costa Rica and Guatemala suit niche or local services.",
         ],
       },
       {
@@ -764,7 +764,7 @@ export const SERVICES: Service[] = [
       {
         q: "What a Spanish site has to get right beyond the words",
         a: [
-          "Every market has its own tax number, its own cookie rules and its own regulator, and Spain, Mexico, Colombia, Argentina and the Dominican Republic each read a site more strictly than the last one. We set up the technical side of every one of them.",
+          "Every market has its own tax number, its own cookie rules and its own regulator, and Spain, Mexico, Colombia, Argentina and the Dominican Republic each judge a site by their own rules. We set up the technical side of every one of them.",
           "Regulated sectors, finance, healthcare, anything touching gambling, add a local lawyer on top of the technical setup.",
         ],
       },

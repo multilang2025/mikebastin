@@ -20,8 +20,8 @@ alone.
 |---|---|---|
 | 1 | Homepage | done |
 | 2 | Services index, lead generation hub, multilingual SEM, conversion tracking | done |
-| 3 | Multilingual SEO, French SEO, German SEO, Spanish SEO | next |
-| 4 | Dutch SEO, Italian SEO, Portuguese SEO, local SEO | to do |
+| 3 | Multilingual SEO, French SEO, German SEO, Spanish SEO | done |
+| 4 | Dutch SEO, Italian SEO, Portuguese SEO, local SEO | next |
 | 5 | Website localization, translation services, app and software localization, AI consulting | to do |
 | 6 | AI translation and post-editing, generative engine optimization, technical SEO, content marketing, multilingual content | to do |
 | 7 | Results, how we work, contact (and its two status pages), competitor analysis checklist, project template | to do |
@@ -83,3 +83,27 @@ alone.
 - **Left alone, waiting on the owner**: the Houston "quote pipeline doubled"
   line on SEM (Q2) and "a law firm working in four languages" on lead
   generation (Q4).
+
+### Batch 3: multilingual, French, German and Spanish SEO
+
+These four were already in good shape: heroes open on the reader, and
+Spanish carries real Search Console figures as proof. The changes are
+corrections more than rewrites.
+
+- **Multilingual SEO meta title** read "International SEO agency and
+  consulting", the homepage's assigned primary, so the two pages competed
+  for one term. It now carries its own, "multilingual SEO agency"
+  (`lib/keywords.ts`).
+- **Multilingual SEO**: the meta description's "a number of its own" says
+  what the number is; the first audit paragraph called a competitor's
+  workflow "patched-up machine translation" and now says what native pages
+  win; "What actually goes into" loses "actually".
+- **French SEO**: the meta description reads as one clean claim.
+- **German SEO**: a list that read as a run-on ("Legal questions, sensitive
+  data, ... are") is a proper example list; one misindented block fixed.
+- **Spanish SEO**: "each behave" corrected to "each behaves"; a claim that
+  each market "reads a site more strictly than the last one" (unprovable)
+  becomes "judges a site by its own rules"; the orphan press-mentions line
+  says why it matters to the buyer.
+- **Left alone, waiting on the owner**: the Houston doubling (Q2) and the
+  law firm's language count (Q4), both on the multilingual SEO page.
