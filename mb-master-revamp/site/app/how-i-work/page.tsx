@@ -20,7 +20,7 @@ import HeroArtSlot from "@/components/HeroArtSlot";
 export const metadata: Metadata = {
   ...pageMeta({
     title: "How we work, Mike Bastin",
-    description: "How a multilingual SEO, localization or AI consulting engagement actually runs: the discovery call, the written scope, delivery cadence and reporting.",
+    description: "How a multilingual SEO, localization or AI consulting engagement runs: the free consultation, the written scope, monthly delivery and reporting per market.",
     path: "/how-i-work/",
     languages: enLanguages("/how-i-work/"),
     fallbackImage: true,
@@ -29,14 +29,14 @@ export const metadata: Metadata = {
 
 const STAGES = [
   {
-    name: "Discovery call",
+    name: "Free consultation",
     detail:
-   "Thirty minutes on which markets and languages matter, what is already ranking, what has already been tried, and what a good outcome looks like, measured in enquiries. ",
+   "Thirty minutes on which markets and languages matter, what is already ranking, what has already been tried, and what a good outcome looks like, measured in enquiries.",
   },
   {
     name: "A written scope for your markets",
     detail:
-   "A short brief naming the pages, keywords and deliverables for the first quarter, and who does what. ",
+   "A short brief naming the pages, keywords and deliverables for the first quarter, and who does what.",
   },
   {
     name: "Research before writing",
@@ -51,38 +51,38 @@ const STAGES = [
   {
     name: "Reporting that separates markets",
     detail:
-   "Monthly numbers per locale, so you can see which market is converting and which one is getting traffic so far. ",
+   "Monthly numbers per locale, so you can see which market is converting and which one is getting traffic so far.",
   },
   {
     name: "A straight answer on every market",
     detail:
-   "When a market needs a new approach after a fair run, we say so and change the plan. ",
+   "When a market needs a new approach after a fair run, we say so and change the plan.",
   },
 ];
 
 const QUESTIONS = [
   {
-    q: "How long before we see movement",
+    q: "How long before we see movement?",
     a: "Most clients see the first measurable change, a keyword entering the top twenty, a form fill from a new market, inside the first three months. A full ranking shift across several languages usually takes two to three quarters, because native content and hreflang plumbing both need time to be crawled and trusted.",
   },
   {
-    q: "Do we need a contract",
-  a: "Engagements run month to month, and either side can end one with notice. ",
+    q: "Do we need a contract?",
+  a: "Engagements run month to month, and either side can end one with notice.",
   },
   {
-    q: "What if we only need one market fixed",
-  a: "A single-language SEO fix, a localization review, an AI consulting session on where machine translation quality needs lifting, each run as a scoped piece of work with a start and an end. ",
+    q: "What if we only need one market fixed?",
+  a: "A single-language SEO fix, a localization review, an AI consulting session on where machine translation quality needs lifting, each run as a scoped piece of work with a start and an end.",
   },
   {
-    q: "Who actually does the work",
+    q: "Who does the work?",
     a: "We scope and run the strategy directly. Native-language writing and translation go through named specialists, most through the BeTranslated network run for twenty years.",
   },
   {
-    q: "How is it billed",
+    q: "How is it billed?",
     a: "Management is a fee of its own. Where an engagement includes paid search, your whole media budget buys ads: it goes straight to Google, Microsoft or Meta, and management stays that separate fee. So the budget we recommend is the one that brings in enquiries. The arrangement covers media spend; writing and translation, including localization through the BeTranslated network, are quoted as a price for the work.",
   },
   {
-    q: "How do we start",
+    q: "How do we start?",
     a: "A short brief on the contact page: which markets, which languages, and what has already been tried. We read every one and reply ourselves, usually within a working day.",
   },
 ];
@@ -113,7 +113,7 @@ export default function HowIWorkPage() {
           </Reveal>
           <Reveal i={2}>
             <h2 className="mb-6 max-w-[46ch] text-[clamp(1.2rem,2.1vw,1.7rem)] font-medium leading-[1.3]" style={{ color: "var(--ink)" }}>
-              What a multilingual SEO engagement covers month to month, how it is billed, and which costs are passed through at cost.
+              What happens from the first call to the monthly report, how it is billed, and where your media budget goes.
             </h2>
           </Reveal>
           <Reveal i={4}>
@@ -237,8 +237,8 @@ export default function HowIWorkPage() {
             <p className="mb-8 max-w-[56ch] text-[1.02rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
               We reply to every brief within a working day.
             </p>
-            <Link href="/contact/" className="ulink text-[1.02rem]">
-              Start with a brief
+            <Link href="/contact/" className="btn btn-primary btn-lg">
+              Book a free consultation
             </Link>
           </Reveal>
         </div>

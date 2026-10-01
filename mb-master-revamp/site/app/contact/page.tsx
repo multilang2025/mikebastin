@@ -14,7 +14,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   ...pageMeta({
-    title: "Contact, Mike Bastin",
+    title: "Contact a multilingual SEO agency in Valencia, Mike Bastin",
     description: "Tell us which language you want selling next. A short brief on multilingual SEO, localization or AI consulting gets a straight answer within a working day.",
     path: "/contact/",
     languages: enLanguages("/contact/"),
@@ -176,7 +176,7 @@ export default function ContactPage() {
               </div>
 
               <Button type="submit" size="lg">
-                Send it
+                Send your brief
               </Button>
             </form>
           </Reveal>
@@ -184,7 +184,7 @@ export default function ContactPage() {
           <Reveal i={2}>
             <aside className="text-[.95rem]" style={{ color: "var(--dim)" }}>
               <h2 className="mb-4 text-[1.08rem] font-semibold" style={{ color: "var(--ink)" }}>
-                Rather just email
+                Prefer email or phone?
               </h2>
               <div className="mb-8 flex flex-col gap-2">
                 <a href="mailto:hello@mikebastin.com" className="ulink w-fit">
@@ -199,8 +199,9 @@ export default function ContactPage() {
               </h2>
               <p className="mb-2">Valencia, Spain, since 2016.</p>
               <p>
-                We work in English, French and Spanish, and read Italian.
-                Everything else goes through native writers we name.
+                We work directly in English, French, Spanish and Dutch.
+                German, Italian, Portuguese and other languages go to native
+                writers we name.
               </p>
             </aside>
           </Reveal>

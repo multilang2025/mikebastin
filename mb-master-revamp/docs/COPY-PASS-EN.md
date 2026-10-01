@@ -24,7 +24,7 @@ alone.
 | 4 | Dutch SEO, Italian SEO, Portuguese SEO, local SEO | done |
 | 5 | Website localization, translation services, app and software localization, AI consulting | done |
 | 6 | AI translation and post-editing, generative engine optimization, technical SEO, content marketing, multilingual content | done |
-| 7 | Results, how we work, contact (and its two status pages), competitor analysis checklist, project template | next |
+| 7 | Results, how we work, contact (and its two status pages), competitor analysis checklist, project template | done |
 
 ## Changes
 
@@ -173,3 +173,46 @@ corrections more than rewrites.
   noun ("languages").
 - **Multilingual content**: the E-E-A-T list was punctuated as a run-on.
 - Six headings and lines across the five pages lose a filler "actually".
+
+### Batch 7: results, how we work, contact, checklist, project template
+
+- **Contact contradicted the rest of the site** on languages: "We work in
+  English, French and Spanish, and read Italian". Every language page says
+  Dutch runs directly, and "read Italian" describes a level the owner rule
+  keeps vague. It now matches the language pages: English, French, Spanish
+  and Dutch directly, German, Italian, Portuguese and the rest to named
+  native writers.
+- **Contact**: the meta title ("Contact, Mike Bastin") carries the h1's
+  term; the submit button "Send it" becomes "Send your brief"; the aside
+  heading "Rather just email" becomes the question it is.
+- **How we work**: the first stage is now "Free consultation", matching the
+  CTA everywhere since batch 2; the six FAQ headings were questions without
+  question marks; the h2 no longer says "passed through at cost", which no
+  stage describes; the closing call to action was a text link and is now
+  the consultation button. Five stray trailing spaces removed.
+- **Results**: the meta description argued about case studies and now says
+  what the page holds; the testimonials heading matches the homepage.
+- **Project template**: the eyebrow "What actually happened" becomes "What
+  we did". The footer already carries the CTA, so none was added.
+- **Competitor analysis checklist**: an editorial pillar rather than a sales
+  page, so left to the `copy-editing` pass with the journal.
+
+## For the owner
+
+The pass changed wording, never facts. Three things it found that only you
+can settle:
+
+1. **The results page shows our own site's rebuild as the result.** Its two
+   main sections are this site's Search Console ("Forty thousand
+   impressions produced six clicks") and this site's 43-to-19 service
+   consolidation, under an h2 promising "what changed on real engagements".
+   A buyer reads that as client work. The client case studies with real
+   figures (Delaguía y Luzón, Century 21 Perdomo, Bemelman Spuiterij,
+   ValenciaMove) would carry the page better. Your call, since it changes
+   what the page is.
+2. **Q2, Q4 and Q11 still block three lines**: the Houston doubling on SEM
+   and multilingual SEO, the law firm's three or four languages on lead
+   generation, multilingual SEO and translation, and the Portuguese
+   "working level".
+3. **Q8, "agency" on generative engine optimization**: the meta title says
+   agency while the h1 says services; left as it is.

@@ -14,7 +14,7 @@ import HeroArtSlot from "@/components/HeroArtSlot";
 export const metadata: Metadata = {
   ...pageMeta({
     title: "Client results you can count, Mike Bastin",
-    description: "A case study is a narrative written afterwards. A report is primary evidence, so see the numbers from real multilingual SEO and localization work first.",
+    description: "Results from multilingual SEO and localization work: real Search Console figures, the markets they came from, and reviews from clients in four languages.",
     path: "/results/",
     fallbackImage: true,
   }),
@@ -52,7 +52,7 @@ export default function ResultsPage() {
       <section className="band band-b py-[clamp(64px,9vw,128px)]">
         <div className="shell">
           <Reveal>
-            <p className="eyebrow mb-3">What the data actually said</p>
+            <p className="eyebrow mb-3">What the data said</p>
             <h2 className="mb-5 max-w-[18ch] text-[clamp(1.8rem,3.6vw,2.9rem)] font-semibold leading-[1.1]">
               Forty thousand impressions produced six clicks.
             </h2>
@@ -109,7 +109,7 @@ export default function ResultsPage() {
           <Reveal>
             <p className="eyebrow mb-3">In their own words</p>
             <h2 className="mb-5 max-w-[20ch] text-[clamp(1.7rem,3.2vw,2.5rem)] font-semibold leading-[1.12]">
-              Four languages, each one the client's choice.
+              Clients review us in their own language.
             </h2>
             <p className="mb-10 max-w-[56ch] text-[1.05rem]" style={{ color: "var(--dim)" }}>
               Every one is public on the linked Google Business Profile,

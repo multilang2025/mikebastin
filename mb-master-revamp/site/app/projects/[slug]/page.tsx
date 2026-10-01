@@ -187,7 +187,7 @@ export default async function ProjectPage({
       {/* ============ PROBLEM / WORK / OUTCOME ============ */}
       {[
         { label: `The ${project.name} brief`, eyebrow: "Where it started", text: project.problem },
-        { label: `The ${project.name} work, ${project.services[0] ?? "the engagement"}`, eyebrow: "What actually happened", text: project.work },
+        { label: `The ${project.name} work, ${project.services[0] ?? "the engagement"}`, eyebrow: "What we did", text: project.work },
         { label: `The ${project.name} outcome`, eyebrow: "Where it landed", text: project.outcome },
       ].map((section, i) => (
         <section key={section.label} className={`band ${i % 2 === 0 ? "band-a" : "band-b"} py-[clamp(56px,8vw,110px)]`}>
