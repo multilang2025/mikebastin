@@ -201,7 +201,7 @@ export const SERVICES: Service[] = [
     angle: "Counted in enquiries",
     lede: "Traffic arrives in French, German and Spanish, and the enquiries still arrive in English. One client's Search Console showed forty thousand impressions in ninety days, and six clicks.",
     metaTitle: "B2B lead generation services across every market",
-    metaDescription: "Your other markets already send visitors. We turn them into leads worth a sales call, counted per market, with your whole media budget buying ads.",
+    metaDescription: "Your other markets already send visitors. We turn them into leads worth a sales call, counted per market. Book a free consultation.",
     sections: ["What a report per market shows you", "What we do in each market", "How it is billed", "The evidence", ...ENGAGEMENT.slice(3)],
     // No `body` or `expandables` here on purpose: lead-generation has its own
     // hand-built route at app/services/lead-generation/page.tsx rather than
@@ -221,9 +221,9 @@ export const SERVICES: Service[] = [
     subhead: "Your whole media budget buys ads, straight from Google, Microsoft or Meta, so the budget we recommend is the one that brings in enquiries.",
     cluster: "Lead generation",
     angle: "International PPC, buying reach while search builds it",
-    lede: "Reaching the buyers still to find you organically, in the language they searched in, with every market run on its own budget and judged on its own results.",
+    lede: "Reach buyers in the language they search in while your organic rankings build, with every market on its own budget and judged on its own results.",
     metaTitle: "International PPC agency, paid search per market",
-    metaDescription: "Paid search that reaches buyers in the language they searched in, market by market, each with its own budget and its own results.",
+    metaDescription: "International PPC that reaches buyers in the language they search in. Each market runs on its own budget, and your whole media spend buys ads.",
     sections: ["Three things we build into every ad account", ...ENGAGEMENT],
     body: [
       {
@@ -235,7 +235,7 @@ export const SERVICES: Service[] = [
         ],
       },
       {
-        heading: "Native per market, researched from each market's own searches",
+        heading: "The platforms, the copy and the tracking, per market",
         paragraphs: [
           "Google Ads carries the default budget. Bing Ads earns its place with a US B2B audience still on the Microsoft ecosystem. Meta covers B2C reach, LinkedIn covers B2B targeting in specific verticals. Distinct campaigns or ad groups run per market, with separate budgets and bidding strategies.",
           "Headlines, descriptions and creative are written natively per language. Landing pages are dedicated per market wherever the budget allows, and conversion tracking runs through GA4 and GTM with CRM sync, so every lead is followed past the click to a qualified result.",
@@ -293,13 +293,13 @@ export const SERVICES: Service[] = [
     angle: "The evidence layer, per locale",
     lede: "You can see which markets bring traffic. Tracking per market answers the next question: which of those French visitors turn into customers.",
     metaTitle: "Conversion tracking services per locale",
-    metaDescription: "See which language earns the enquiries, not only the traffic: conversion tracking set up per locale, with consent mode and CRM data accounted for.",
+    metaDescription: "See which language earns your enquiries. Conversion tracking set up for each market, so every language has its own figure and sales and analytics agree.",
     sections: ["What a separate number per market shows", ...ENGAGEMENT],
     body: [
       {
         heading: "What per-market reporting tells you",
         paragraphs: [
-          "A market that converts well stands apart from one that mainly pulls traffic, straight from the report.",
+          "The report shows at a glance which market converts and which mainly brings traffic.",
           "Per-locale tracking works best with distinct goals, events and conversion definitions set up from the start. A form submission, a call click and a quote request are each tracked the same way in every language, so the numbers stay comparable.",
         ],
       },

@@ -32,7 +32,7 @@ const UI: Record<
   Locale,
   { links: { href: string; label: string }[]; home: string; contact: string; cta: string; openMenu: string; closeMenu: string; reach: string; since: string }
 > = {
-  en: { links: LINKS, home: "/", contact: "/contact/", cta: "Book the discovery call", openMenu: "Open menu", closeMenu: "Close menu", reach: "Or reach us directly", since: "Valencia, Spain, since 2016" },
+  en: { links: LINKS, home: "/", contact: "/contact/", cta: "Book a free consultation", openMenu: "Open menu", closeMenu: "Close menu", reach: "Or reach us directly", since: "Valencia, Spain, since 2016" },
   fr: { links: FR_LINKS, home: "/fr/", contact: "/fr/nous-contacter/", cta: "Réserver un premier échange", openMenu: "Ouvrir le menu", closeMenu: "Fermer le menu", reach: "Ou contactez-nous directement", since: "Valencia, Espagne, depuis 2016" },
   es: { links: ES_LINKS, home: "/es/", contact: "/es/contactanos/", cta: "Reservar una primera conversación", openMenu: "Abrir el menú", closeMenu: "Cerrar el menú", reach: "O escríbenos directamente", since: "Valencia, España, desde 2016" },
 };

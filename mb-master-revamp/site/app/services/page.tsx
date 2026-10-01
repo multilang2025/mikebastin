@@ -9,10 +9,10 @@ import JsonLd from "@/components/JsonLd";
 import { enLanguages } from "@/lib/fr-pages";
 
 const DESCRIPTION =
-  "Multilingual SEO, localization and AI consulting in nineteen services across five groups, from market strategy to translation, paid search and the technical work underneath.";
+  "Global SEO services for companies selling abroad: multilingual SEO, localization, paid search and AI consulting, with every enquiry counted per market.";
 const CANONICAL = `${SITE_URL}/services/`;
 
-const HERO_TITLE = "Multilingual SEO services, Mike Bastin";
+const HERO_TITLE = "Global SEO services and localization, Mike Bastin";
 
 export const metadata: Metadata = {
   title: HERO_TITLE,
@@ -52,14 +52,19 @@ export default function ServicesIndex() {
           </Reveal>
           <Reveal i={2}>
             <h2 className="mb-6 max-w-[46ch] text-[clamp(1.2rem,2.1vw,1.7rem)] font-medium leading-[1.3]" style={{ color: "var(--ink)" }}>
-              Ongoing search across several markets is the main engagement, with localization, paid search and AI consulting around it.
+              More enquiries from every market you sell in, with multilingual SEO at the core and localization, paid search and AI consulting around it.
             </h2>
           </Reveal>
           <Reveal i={3}>
-            <p className="max-w-[58ch] text-[clamp(1.05rem,1.5vw,1.2rem)] leading-[1.58]" style={{ color: "var(--dim)" }}>
-              Lead generation, search, localization, AI and the technical
-              work underneath all of it.
+            <p className="mb-8 max-w-[58ch] text-[clamp(1.05rem,1.5vw,1.2rem)] leading-[1.58]" style={{ color: "var(--dim)" }}>
+              Pick the market you want selling next and the service that gets
+              it there. Every engagement starts with a free consultation.
             </p>
+          </Reveal>
+          <Reveal i={4}>
+            <Link href="/contact/" className="btn btn-primary btn-lg">
+              Book a free consultation
+            </Link>
           </Reveal>
         </div>
       </section>

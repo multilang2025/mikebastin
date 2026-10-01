@@ -291,7 +291,7 @@ export default async function ServicePage({
           <Reveal i={2}>
             <div className="flex flex-wrap items-center gap-x-6 gap-y-4">
               <Link href="/contact/" className="btn btn-primary btn-lg">
-                Book the discovery call
+                Book your free consultation
               </Link>
               <Link href="/how-i-work/" className="ulink text-[.98rem]">
                 See how an engagement runs

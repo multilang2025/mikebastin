@@ -19,8 +19,8 @@ alone.
 | # | Pages | Status |
 |---|---|---|
 | 1 | Homepage | done |
-| 2 | Services index, lead generation hub, multilingual SEM, conversion tracking | next |
-| 3 | Multilingual SEO, French SEO, German SEO, Spanish SEO | to do |
+| 2 | Services index, lead generation hub, multilingual SEM, conversion tracking | done |
+| 3 | Multilingual SEO, French SEO, German SEO, Spanish SEO | next |
 | 4 | Dutch SEO, Italian SEO, Portuguese SEO, local SEO | to do |
 | 5 | Website localization, translation services, app and software localization, AI consulting | to do |
 | 6 | AI translation and post-editing, generative engine optimization, technical SEO, content marketing, multilingual content | to do |
@@ -54,3 +54,32 @@ alone.
   work, BASTIN, figures. Band alternation kept.
 - **BASTIN** intro and the B line read as the reader's gain.
 - **Testimonials** heading says what the section shows.
+
+### Batch 2: services index, lead generation, SEM, conversion tracking
+
+- **One CTA across the English site.** "Book a discovery call" and "Book
+  the discovery call" become "Book a free consultation" (an owner-confirmed
+  offer) in the nav, the footer, the service template, the post template
+  and the lead generation page. The footer's "See what the numbers did"
+  becomes "See client results", matching the homepage. The step on
+  `/how-i-work/` keeps its name until batch 7.
+- **Services index**: meta title now carries its assigned primary, "global
+  SEO services" (it read "Multilingual SEO services"); the description
+  dropped "nineteen services across five groups" (a count about our list,
+  and wrong since the twentieth page); the h2 opens on the reader's gain;
+  the lede, which repeated the eyebrow, now names the next step and the
+  hero gains the consultation button.
+- **Lead generation**: the first of the three parts printed a truncated
+  sentence ("from what buyers there actually type, "), now complete; the
+  per-market paragraph cut from five clauses to one sentence; "How a B2B
+  lead generation agency should work" becomes "How our ... works"; the
+  meta description no longer ends on ad billing, which belongs to SEM.
+- **Multilingual SEM**: the lede was a verb-less fragment, now a sentence
+  that opens on the reader; the meta description carries the billing
+  decision, the one line a competitor cannot copy; the second body heading
+  no longer repeats the first.
+- **Conversion tracking**: the meta description loses its "not only the
+  traffic" framing; the first body line reads as one sentence.
+- **Left alone, waiting on the owner**: the Houston "quote pipeline doubled"
+  line on SEM (Q2) and "a law firm working in four languages" on lead
+  generation (Q4).

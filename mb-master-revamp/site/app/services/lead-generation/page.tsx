@@ -50,7 +50,7 @@ export const metadata: Metadata = {
 const PARTS = [
   {
     title: "Found in their language",
-  body: "Search built per market from what buyers there actually type, ",
+    body: "Search built for each market from what buyers there type, so your pages show up where those buyers are looking.",
     href: "/services/multilingual-seo/",
     link: "International SEO",
   },
@@ -145,7 +145,7 @@ export default function LeadGenerationPage() {
           <Reveal i={4}>
             <div className="flex flex-wrap items-center gap-x-6 gap-y-4">
               <Link href="/contact/" className="btn btn-primary btn-lg">
-                Book a discovery call
+                Book a free consultation
               </Link>
               <Link href="#how-it-is-billed" className="ulink text-[.98rem]">
                 See how it is billed
@@ -168,10 +168,8 @@ export default function LeadGenerationPage() {
               Enquiries counted per market show which one pays for the others
             </h2>
             <p className="mb-5 max-w-[62ch] text-[1.05rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
-              A single number for the whole site is comfortable to read; a
-              number per market is the one you can act on. Split by market,
-              the one carrying your results stands clear of the one spending
-              its budget on visits alone, and each can be funded on what it
+              A figure per market shows which language brings enquiries and
+              which mostly brings visits, so you can fund each one on what it
               returns.
             </p>
           </Reveal>
@@ -184,7 +182,7 @@ export default function LeadGenerationPage() {
           <Reveal>
             <p className="eyebrow mb-3">What we do in each market</p>
             <h2 className="mb-6 max-w-[24ch] text-[clamp(1.7rem,3.2vw,2.5rem)] font-semibold leading-[1.12]">
-              How a B2B lead generation agency should work across languages
+              How our B2B lead generation agency works across languages
             </h2>
             <p className="mb-10 max-w-[62ch] text-[1.05rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
               Three pieces, run together and judged on one thing: whether each
@@ -314,7 +312,7 @@ export default function LeadGenerationPage() {
           <Reveal i={2}>
             <div className="flex flex-wrap items-center gap-x-6 gap-y-4">
               <Link href="/contact/" className="btn btn-primary btn-lg">
-                Book the discovery call
+                Book your free consultation
               </Link>
               <Link href="/how-i-work/" className="ulink text-[.98rem]">
                 See how an engagement runs

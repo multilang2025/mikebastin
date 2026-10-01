@@ -271,7 +271,7 @@ export default async function BlogPostPage({
           <Reveal i={2}>
             <div className="flex flex-wrap items-center gap-x-6 gap-y-4">
               <Link href="/contact/" className="btn btn-primary btn-lg">
-                Book the discovery call
+                Book your free consultation
               </Link>
               {service ? (
                 <Link href={`/services/${service.slug}/`} className="ulink text-[.98rem]">
