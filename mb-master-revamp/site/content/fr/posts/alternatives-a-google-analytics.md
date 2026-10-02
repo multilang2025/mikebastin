@@ -27,7 +27,7 @@ Une alternative se justifie quand elle répond à un besoin précis de l’entre
 - **Propriété des données :** certaines entreprises veulent garder la maîtrise complète de leurs données d’analyse.
 
 <aside class="post-cta">
-<p><strong>Vous voulez savoir quel marché rapporte réellement ?</strong> La configuration compte autant que l’outil. Notre service d’<a href="/fr/services/analyse-et-suivi/">analyse et de suivi</a> configure votre mesure, définit les indicateurs qui comptent pour vous (conversions, téléchargements, autres actions clés) et livre des rapports centrés sur ces chiffres. <a href="/fr/nous-contacter/">Prenez contact avec nous</a>.</p>
+<p><strong>Vous voulez savoir quel marché rapporte réellement ?</strong> La configuration compte autant que l’outil. Notre service d’<a href="/fr/services/seo-technique/">analyse et de suivi</a> configure votre mesure, définit les indicateurs qui comptent pour vous (conversions, téléchargements, autres actions clés) et livre des rapports centrés sur ces chiffres. <a href="/fr/nous-contacter/">Prenez contact avec nous</a>.</p>
 </aside>
 
 ## Les meilleures alternatives à Google Analytics

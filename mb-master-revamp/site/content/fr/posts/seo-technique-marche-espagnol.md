@@ -48,7 +48,7 @@ Donnez aux internautes espagnols une arborescence logique et facile à parcourir
 
 ## Recherche de mots-clés pour les moteurs espagnols
 
-Un site techniquement solide se positionne sur les recherches qui comptent quand il cible les bons mots. La [recherche de mots-clés](/fr/services/recherche-mots-cles/) distingue l’espagnol d’Espagne des variantes d’Amérique latine, et ce sont les mots-clés localisés qui amènent le trafic qui achète. Pour une entreprise francophone, le terme traduit depuis le français diffère souvent de ce que tape l’acheteur espagnol : la requête se vérifie donc dans les données du marché.
+Un site techniquement solide se positionne sur les recherches qui comptent quand il cible les bons mots. La [recherche de mots-clés](/fr/services/seo-technique/) distingue l’espagnol d’Espagne des variantes d’Amérique latine, et ce sont les mots-clés localisés qui amènent le trafic qui achète. Pour une entreprise francophone, le terme traduit depuis le français diffère souvent de ce que tape l’acheteur espagnol : la requête se vérifie donc dans les données du marché.
 
 Google Keyword Planner, SISTRIX ou Semrush font ressortir les mots-clés à fort impact pour les publics espagnols, nationaux comme régionaux. Lisez-les à la lumière de l’intention de recherche et de la terminologie locale, en plus du volume.
 

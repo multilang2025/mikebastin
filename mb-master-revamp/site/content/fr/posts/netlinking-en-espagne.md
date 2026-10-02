@@ -64,7 +64,7 @@ Ces trois réflexes gardent votre budget sur des liens qui comptent, et nous les
 **Planifiez les ancres comme les rédacteurs espagnols les écrivent.** Les rédacteurs reformulent souvent les ancres à correspondance exacte : _abogado matrimonialista Valencia_ devient facilement _este despacho_ ou le nom de la marque. Construisez le plan autour de ces formes naturelles.
 
 <aside class="post-cta">
-<p><strong>Vous voulez des liens espagnols qui font monter vos positions ?</strong> Notre <a href="/fr/services/netlinking/">service de netlinking</a> obtient des liens éditoriaux, des placements sur des pages ressources et des articles invités sur des sites de votre marché qui ont un vrai lectorat. <a href="/fr/nous-contacter/">Réservez un premier échange</a>.</p>
+<p><strong>Vous voulez des liens espagnols qui font monter vos positions ?</strong> Notre <a href="/fr/services/seo-technique/">service de netlinking</a> obtient des liens éditoriaux, des placements sur des pages ressources et des articles invités sur des sites de votre marché qui ont un vrai lectorat. <a href="/fr/nous-contacter/">Réservez un premier échange</a>.</p>
 </aside>
 
 ## Un calendrier réaliste
@@ -75,7 +75,7 @@ Pour juger une offre, comparez-la à ce rythme : les placements éditoriaux s�
 
 ## Où les liens s’insèrent dans un programme SEO espagnol
 
-Les liens multiplient la valeur de vos pages, alors des pages solides passent en premier. Le travail de liens en Espagne porte le plus loin à côté d’une [recherche de mots-clés adaptée à l’espagnol](/fr/services/recherche-mots-cles/), de [contenus rédigés pour les internautes espagnols](/fr/services/creation-de-contenu-multilingue/) et d’un plan de marché clair qui respecte les différences régionales.
+Les liens multiplient la valeur de vos pages, alors des pages solides passent en premier. Le travail de liens en Espagne porte le plus loin à côté d’une [recherche de mots-clés adaptée à l’espagnol](/fr/services/seo-technique/), de [contenus rédigés pour les internautes espagnols](/fr/services/creation-de-contenu-multilingue/) et d’un plan de marché clair qui respecte les différences régionales.
 
 Un lien d’El Español rapporte sur une page d’atterrissage solide, rédigée correctement en espagnol, et une page bien localisée monte quand des domaines référents pointent vers elle. Les deux moitiés travaillent ensemble.
 

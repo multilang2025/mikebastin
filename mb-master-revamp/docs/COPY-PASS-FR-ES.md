@@ -104,3 +104,41 @@ references, with one exception below.
    space; the style guide should probably say so.
 8. **Bemelman's town** (Q3) is still open; `lib/projects.ts` names
    Noordwijkerhout in its `body`.
+
+## Built on 2 October 2026
+
+Nine English posts adapted for the French and Spanish reader, each checked
+first against the existing posts in its locale so none competes with one
+already live. Statistics re-verified at source; `content-map.json` and
+`lib/locale-topics.ts` updated.
+
+| Locale | Slug | From EN | Topic |
+|---|---|---|---|
+| FR | `marketing-ia` | ai-powered-marketing | ia-et-recherche |
+| FR | `strategie-marketing-international` | most-popular-marketing-strategies | seo-international |
+| FR | `marque-internationale` | building-a-global-brand | seo-international |
+| FR | `google-analytics-international` | google-analytics-international-marketing-limits | local-et-mesure |
+| ES | `seo-en-alemania` | german-seo-best-practices | seo-multilingue |
+| ES | `localizar-contenido-en-aleman` | german-seo-content-localisation | seo-multilingue |
+| ES | `estrategias-de-marketing-internacional` | most-popular-marketing-strategies | seo-multilingue |
+| ES | `crear-una-marca-global` | building-a-global-brand | seo-multilingue |
+| ES | `google-analytics-marketing-internacional` | google-analytics-international-marketing-limits | analisis-de-la-competencia |
+
+Skipped because a live post already covers the intent: FR for
+how-ai-is-revolutionising-seo-strategies (`avenir-du-seo`) and
+german-seo-content-localisation (`seo-allemand-bonnes-pratiques`); ES for
+best-practices-for-multilingual-seo (`seo-multilingue-2026-presencia-total`,
+group g050, which is effectively the Spanish g014 and could be re-grouped
+to give the EN and FR posts an hreflang sibling).
+
+Ten French posts linked service URLs that 301 (`recherche-mots-cles`,
+`netlinking`, `analyse-et-suivi`); every one now points at the page the
+redirect lands on.
+
+For the owner, from the build: the Spanish global brand post keeps the
+English post's "eight to twelve weeks" for a transcreation fix (the French
+one dropped it as an unsourced turnaround); the German idioms in
+`localizar-contenido-en-aleman` want a native German read; neither locale
+has a "marketing" topic, so the two marketing posts sit under SEO for now;
+slugs were chosen without search-volume data (Ahrefs API units ran out).
+

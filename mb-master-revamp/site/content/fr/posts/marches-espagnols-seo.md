@@ -24,7 +24,7 @@ Les mots que tapent vos acheteurs décident s’ils vous trouvent, et en espagno
 
 Les baskets sont des « zapatillas » en Espagne et des « tenis » au Mexique. Le verbe « coger » (prendre, attraper) est courant en Espagne et vulgaire en Argentine et au Mexique. Le vocabulaire varie aussi au sein de l’Espagne : ce que les Valenciens appellent « bajoca » (haricot vert), les Madrilènes le nomment « judías verdes ». L’Espagne compte d’ailleurs des langues co-officielles comme le valencien et le catalan.
 
-Choisir les bons mots-clés suppose donc une recherche par pays, et une [recherche de mots-clés](/fr/services/recherche-mots-cles/) menée région par région dès le départ est le moyen le plus économique de bâtir des pages qui durent.
+Choisir les bons mots-clés suppose donc une recherche par pays, et une [recherche de mots-clés](/fr/services/seo-technique/) menée région par région dès le départ est le moyen le plus économique de bâtir des pages qui durent.
 
 ## Nuances culturelles : une langue, plusieurs cultures
 

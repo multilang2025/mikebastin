@@ -136,7 +136,7 @@ Un contenu mérite son budget quand il répond à une intention de recherche, b�
 
 Une pratique propre met des années de positions à l’abri à chaque mise à jour. En mars 2024, Google a élargi ses règles anti-spam à l’abus de contenu produit à grande échelle, à l’abus de réputation de site (du contenu tiers hébergé sur des domaines puissants pour emprunter leurs positions) et à l’abus de domaines expirés ; ses [consignes sur le contenu utile](https://developers.google.com/search/docs/fundamentals/creating-helpful-content) décrivent ce qu’il attend en retour.
 
-Le netlinking compte toujours, et il consiste désormais à gagner des liens éditoriaux grâce à la recherche originale, aux relations presse numériques et aux contenus utiles. Auditez votre profil de backlinks, retirez les liens achetés, les PBN et les échanges d’articles invités, et soyez transparent sur la façon dont votre contenu est produit. Notre service de [netlinking](/fr/services/netlinking/) s’appuie sur ces méthodes éditoriales.
+Le netlinking compte toujours, et il consiste désormais à gagner des liens éditoriaux grâce à la recherche originale, aux relations presse numériques et aux contenus utiles. Auditez votre profil de backlinks, retirez les liens achetés, les PBN et les échanges d’articles invités, et soyez transparent sur la façon dont votre contenu est produit. Notre service de [netlinking](/fr/services/seo-technique/) s’appuie sur ces méthodes éditoriales.
 
 ## Où va le SEO à partir d’ici
 
@@ -162,7 +162,7 @@ Où placer l’effort en premier :
 | Multilingue | Rechercher les mots-clés en natif ; vérifier hreflang |
 | Risque de spam | Auditer le profil de backlinks |
 
-Mettez en place l’[analyse et le suivi](/fr/services/analyse-et-suivi/) des conversions pour que les nouvelles mesures deviennent visibles, bâtissez un contenu digne d’être cité et concentrez-vous sur les chiffres qui font avancer l’entreprise.
+Mettez en place l’[analyse et le suivi](/fr/services/seo-technique/) des conversions pour que les nouvelles mesures deviennent visibles, bâtissez un contenu digne d’être cité et concentrez-vous sur les chiffres qui font avancer l’entreprise.
 
 <aside class="post-cta">
 <p><strong>Vous voulez relier les nouvelles mesures à vos demandes de contact ?</strong> Notre <a href="/fr/services/referencement-multilingue/">référencement multilingue</a> rend compte chaque mois, langue par langue, des positions, du trafic et des demandes reçues, et notre audit <a href="/fr/seo-au-geo/">SEO et GEO</a> y ajoute vos citations dans les réponses d’IA. <a href="/fr/nous-contacter/">Réservez un premier échange gratuit</a>.</p>

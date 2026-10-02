@@ -36,6 +36,8 @@ const TOPICS: LocaleTopic[] = [
       "seo-en-belgique",
       "seo-allemand-bonnes-pratiques",
       "netlinking-en-espagne",
+      "strategie-marketing-international",
+      "marque-internationale",
     ],
   },
   {
@@ -71,6 +73,7 @@ const TOPICS: LocaleTopic[] = [
       "nouvelles-tendances-du-secteur-des-affaires",
       "strategie-search-everywhere",
       "avenir-du-seo",
+      "marketing-ia",
     ],
   },
   {
@@ -106,7 +109,7 @@ const TOPICS: LocaleTopic[] = [
     blurb:
       "Comment une entreprise locale se fait trouver sur Google Maps, et comment mesurer les résultats avec des outils d’analyse adaptés à son marché.",
     service: { href: "/fr/services/referencement-local/", label: "Référencement local" },
-    posts: ["promouvoir-entreprise-locale-google-maps", "alternatives-a-google-analytics"],
+    posts: ["promouvoir-entreprise-locale-google-maps", "alternatives-a-google-analytics", "google-analytics-international"],
   },
   {
     locale: "es",
@@ -127,6 +130,10 @@ const TOPICS: LocaleTopic[] = [
       "localizacion-de-interfaz-de-usuario",
       "lista-de-auditoria-seo-tecnica",
       "seo-en-belgica",
+      "seo-en-alemania",
+      "localizar-contenido-en-aleman",
+      "crear-una-marca-global",
+      "estrategias-de-marketing-internacional",
     ],
   },
   {
@@ -177,6 +184,7 @@ const TOPICS: LocaleTopic[] = [
       "analizar-backlinks-competidores",
       "rastrear-posiciones-de-keywords-de-competidores",
       "alternativas-a-google-analytics",
+      "google-analytics-marketing-internacional",
     ],
   },
   {

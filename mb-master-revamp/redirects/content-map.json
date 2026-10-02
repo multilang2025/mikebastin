@@ -238,7 +238,12 @@
     "url": "https://mikebastin.com/ai-powered-marketing/",
     "content_path": "site/content/en/posts/ai-powered-marketing.md"
    },
-   "fr": null,
+   "fr": {
+     "id": null,
+     "slug": "marketing-ia",
+     "url": "https://mikebastin.com/fr/marketing-ia/",
+     "content_path": "site/content/fr/posts/marketing-ia.md"
+   },
    "es": {
      "id": null,
      "slug": "marketing-con-ia",
@@ -448,8 +453,18 @@
     "url": "https://mikebastin.com/building-a-global-brand/",
     "content_path": "site/content/en/posts/building-a-global-brand.md"
    },
-   "fr": null,
-   "es": null
+   "fr": {
+     "id": null,
+     "slug": "marque-internationale",
+     "url": "https://mikebastin.com/fr/marque-internationale/",
+     "content_path": "site/content/fr/posts/marque-internationale.md"
+   },
+   "es": {
+     "id": null,
+     "slug": "crear-una-marca-global",
+     "url": "https://mikebastin.com/es/crear-una-marca-global/",
+     "content_path": "site/content/es/posts/crear-una-marca-global.md"
+   }
   },
   {
    "group": "g019",
@@ -2906,7 +2921,12 @@
      "url": "https://mikebastin.com/fr/seo-allemand-bonnes-pratiques/",
      "content_path": "site/content/fr/posts/seo-allemand-bonnes-pratiques.md"
    },
-   "es": null
+   "es": {
+     "id": null,
+     "slug": "seo-en-alemania",
+     "url": "https://mikebastin.com/es/seo-en-alemania/",
+     "content_path": "site/content/es/posts/seo-en-alemania.md"
+   }
   },
   {
    "group": "g124",
@@ -2924,7 +2944,12 @@
     "content_path": "site/content/en/posts/german-seo-content-localisation.md"
    },
    "fr": null,
-   "es": null
+   "es": {
+     "id": null,
+     "slug": "localizar-contenido-en-aleman",
+     "url": "https://mikebastin.com/es/localizar-contenido-en-aleman/",
+     "content_path": "site/content/es/posts/localizar-contenido-en-aleman.md"
+   }
   },
   {
    "group": "g125",
@@ -2959,8 +2984,18 @@
     "url": "https://mikebastin.com/google-analytics-international-marketing-limits/",
     "content_path": "site/content/en/posts/google-analytics-international-marketing-limits.md"
    },
-   "fr": null,
-   "es": null
+   "fr": {
+     "id": null,
+     "slug": "google-analytics-international",
+     "url": "https://mikebastin.com/fr/google-analytics-international/",
+     "content_path": "site/content/fr/posts/google-analytics-international.md"
+   },
+   "es": {
+     "id": null,
+     "slug": "google-analytics-marketing-internacional",
+     "url": "https://mikebastin.com/es/google-analytics-marketing-internacional/",
+     "content_path": "site/content/es/posts/google-analytics-marketing-internacional.md"
+   }
   },
   {
    "group": "g127",
@@ -3390,8 +3425,18 @@
     "url": "https://mikebastin.com/most-popular-marketing-strategies/",
     "content_path": "site/content/en/posts/most-popular-marketing-strategies.md"
    },
-   "fr": null,
-   "es": null
+   "fr": {
+     "id": null,
+     "slug": "strategie-marketing-international",
+     "url": "https://mikebastin.com/fr/strategie-marketing-international/",
+     "content_path": "site/content/fr/posts/strategie-marketing-international.md"
+   },
+   "es": {
+     "id": null,
+     "slug": "estrategias-de-marketing-internacional",
+     "url": "https://mikebastin.com/es/estrategias-de-marketing-internacional/",
+     "content_path": "site/content/es/posts/estrategias-de-marketing-internacional.md"
+   }
   },
   {
    "group": "g149",

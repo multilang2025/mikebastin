@@ -290,7 +290,7 @@ Le rapport Ciblage international de la Search Console et son réglage de pays on
 
 ## Suivi et surveillance
 
-Une mesure fiable vous dit quelles corrections ont rapporté. Universal Analytics a cessé de traiter les données en juillet 2023 : vérifiez que GA4 (ou l’alternative de votre choix) a remplacé toute balise `UA-` et se déclenche sur chaque page, idéalement via Google Tag Manager, avec Tag Assistant pour contrôler. Mettez ensuite en place l’[analyse et le suivi des conversions](/fr/services/analyse-et-suivi/) pour les actions qui comptent : envois de formulaires, téléchargements, appels et clics sur les boutons clés.
+Une mesure fiable vous dit quelles corrections ont rapporté. Universal Analytics a cessé de traiter les données en juillet 2023 : vérifiez que GA4 (ou l’alternative de votre choix) a remplacé toute balise `UA-` et se déclenche sur chaque page, idéalement via Google Tag Manager, avec Tag Assistant pour contrôler. Mettez ensuite en place l’[analyse et le suivi des conversions](/fr/services/seo-technique/) pour les actions qui comptent : envois de formulaires, téléchargements, appels et clics sur les boutons clés.
 
 Consultez ensuite ces rapports de la Search Console à chaque audit, puis chaque mois :
 

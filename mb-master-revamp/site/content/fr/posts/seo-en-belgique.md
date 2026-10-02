@@ -70,7 +70,7 @@ Chacune des langues de la Belgique a sa version belge : un contenu écrit pour 
 
 Le flamand est le néerlandais de la Flandre, la région du nord, et de la plus grande communauté linguistique. Il est proche du [néerlandais parlé aux Pays-Bas](/fr/services/seo-neerlandais/), et de petits écarts de vocabulaire et d’usage font bouger vos positions.
 
-- **Le vocabulaire** : les mots-clés courants aux Pays-Bas diffèrent parfois de ceux de la Flandre. Les termes familiers et les noms de produits varient, ce qui change votre [recherche de mots-clés](/fr/services/recherche-mots-cles/) et les contenus à produire.
+- **Le vocabulaire** : les mots-clés courants aux Pays-Bas diffèrent parfois de ceux de la Flandre. Les termes familiers et les noms de produits varient, ce qui change votre [recherche de mots-clés](/fr/services/seo-technique/) et les contenus à produire.
 - **Le ton** : un marketing calé sur les attentes flamandes gagne la confiance du lecteur.
 
 ### Le français
@@ -113,10 +113,10 @@ Planifiez la Belgique à partir de plusieurs sources de données, car un seul ou
 | Ubersuggest | Des idées de mots-clés en complément des grandes plateformes |
 | Majestic | Une seconde source pour l’analyse de backlinks, à côté d’Ahrefs et de Semrush |
 
-Croisés avec les **rapports de performances de Google Search Console**, ces outils donnent une vue plus juste de ce que la Belgique peut vous apporter. Les faibles volumes de certains termes belges rendent la [recherche de mots-clés](/fr/services/recherche-mots-cles/) plus délicate à interpréter : associez les données à la connaissance du terrain, et aux données du marché français ajustées aux spécificités belges.
+Croisés avec les **rapports de performances de Google Search Console**, ces outils donnent une vue plus juste de ce que la Belgique peut vous apporter. Les faibles volumes de certains termes belges rendent la [recherche de mots-clés](/fr/services/seo-technique/) plus délicate à interpréter : associez les données à la connaissance du terrain, et aux données du marché français ajustées aux spécificités belges.
 
 <aside class="post-cta">
-<p><strong>Vous voulez une image juste de la demande de recherche belge ?</strong> Notre <a href="/fr/services/recherche-mots-cles/">recherche de mots-clés</a> se mène langue par langue et marché par marché : le français de Belgique est étudié comme du français de Belgique. <a href="/fr/nous-contacter/">Parlons de la Belgique</a>.</p>
+<p><strong>Vous voulez une image juste de la demande de recherche belge ?</strong> Notre <a href="/fr/services/seo-technique/">recherche de mots-clés</a> se mène langue par langue et marché par marché : le français de Belgique est étudié comme du français de Belgique. <a href="/fr/nous-contacter/">Parlons de la Belgique</a>.</p>
 </aside>
 
 ## Les enjeux propres à chaque secteur

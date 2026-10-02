@@ -91,7 +91,7 @@ Ils couvrent la vitesse de chargement, la réactivité (mesurée par Interaction
 
 ## La recherche de mots-clés pour le marché allemand
 
-Une recherche menée en allemand vous positionne sur les mots que tapent les acheteurs allemands. Commencez par là, car le comportement de recherche allemand diffère nettement de celui des marchés francophones ou anglophones. Notre service de [recherche de mots-clés](/fr/services/recherche-mots-cles/) part de cette base.
+Une recherche menée en allemand vous positionne sur les mots que tapent les acheteurs allemands. Commencez par là, car le comportement de recherche allemand diffère nettement de celui des marchés francophones ou anglophones. Notre service de [recherche de mots-clés](/fr/services/seo-technique/) part de cette base.
 
 ### Longue traîne et mots composés
 
@@ -167,7 +167,7 @@ Grâce à elles, les trois versions restent distinctes et chaque utilisateur re�
 
 ## Stratégies de netlinking en Allemagne
 
-Un lien venu d’un site allemand respecté indique à Google, et à vos acheteurs, que vous êtes connu en Allemagne. Les liens allemands pèsent le plus lourd pour vos positions allemandes. Notre service de [netlinking](/fr/services/netlinking/) s’appuie sur ce principe.
+Un lien venu d’un site allemand respecté indique à Google, et à vos acheteurs, que vous êtes connu en Allemagne. Les liens allemands pèsent le plus lourd pour vos positions allemandes. Notre service de [netlinking](/fr/services/seo-technique/) s’appuie sur ce principe.
 
 ### Liens locaux depuis des sites germanophones d’autorité
 
@@ -183,7 +183,7 @@ Les avis sur des plateformes comme Google Business Profile et sur les annuaires 
 
 Isolez vos chiffres allemands du reste, et vous voyez une évolution des demandes allemandes au moment où elle se produit.
 
-Utilisez Google Analytics, Google Search Console et des outils de SEO local pour suivre la performance allemande à part et choisir le chantier suivant. Notre service d’[analyse et de suivi](/fr/services/analyse-et-suivi/) met ces indicateurs en place.
+Utilisez Google Analytics, Google Search Console et des outils de SEO local pour suivre la performance allemande à part et choisir le chantier suivant. Notre service d’[analyse et de suivi](/fr/services/seo-technique/) met ces indicateurs en place.
 
 Des audits SEO réguliers gardent votre site conforme aux règles allemandes et performant. La recherche, le comportement des acheteurs et le droit de la vie privée évoluent, et votre plan évolue avec eux.
 

@@ -110,7 +110,7 @@ L’Espagne diffère nettement des pays d’Amérique latine.
 Étudiez le contexte culturel et l’intention de recherche, menez des tests A/B et faites appel à une expertise locale pour les nuances culturelles.
 
 **Quels outils employer pour la recherche de mots-clés en espagnol ?**  
-Google Keyword Planner, Ahrefs et Semrush sont très efficaces pour la [recherche de mots-clés](/fr/services/recherche-mots-cles/) en espagnol, sur un site dont le [SEO technique](/fr/services/seo-technique/) est solide.
+Google Keyword Planner, Ahrefs et Semrush sont très efficaces pour la [recherche de mots-clés](/fr/services/seo-technique/) en espagnol, sur un site dont le [SEO technique](/fr/services/seo-technique/) est solide.
 
 **La traduction automatique convient-elle pour localiser des mots-clés ?**  
 Nous recommandons des traducteurs professionnels qui maîtrisent le SEO.  

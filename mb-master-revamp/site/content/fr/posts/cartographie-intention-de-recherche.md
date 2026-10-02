@@ -80,7 +80,7 @@ Auditez les pages existantes au regard de la carte. Là où une page manque, cr�
 Suivez l’engagement, les taux de clic et les conversions. Les signaux d’intention évoluent, en particulier depuis que les AI Overviews changent ce qui s’affiche en haut des résultats.
 
 <aside class="post-cta">
-<p><strong>Du trafic qui arrive et des demandes de contact à en tirer ?</strong> La <a href="/fr/services/recherche-mots-cles/">recherche de mots-clés</a> que nous menons lit la façon dont vos acheteurs décrivent leur problème, comparent les solutions et signalent leur intention d’achat, puis classe le travail par étape de décision. <a href="/fr/nous-contacter/">Réservez un premier échange gratuit</a>.</p>
+<p><strong>Du trafic qui arrive et des demandes de contact à en tirer ?</strong> La <a href="/fr/services/seo-technique/">recherche de mots-clés</a> que nous menons lit la façon dont vos acheteurs décrivent leur problème, comparent les solutions et signalent leur intention d’achat, puis classe le travail par étape de décision. <a href="/fr/nous-contacter/">Réservez un premier échange gratuit</a>.</p>
 </aside>
 
 ## Pourquoi l’alignement sur l’intention fait progresser positions et chiffre d’affaires
@@ -123,7 +123,7 @@ Trois vérifications à faire marché par marché :
 -   **« Billets d’avion pas chers » et « billetes de avión baratos » :** regardez si les premiers résultats sont des agrégateurs de comparaison ou des plateformes de réservation, ce qui indique si l’internaute compare encore ou s’apprête à réserver
 -   **« Nachhaltig » et « umweltfreundlich » :** deux termes allemands liés à la durabilité, qui peuvent déclencher des pages très différentes ; le terme qui fait apparaître des fiches produits porte l’intention commerciale
 
-La recherche menée par des locuteurs natifs relève ces différences, et nos [bonnes pratiques du SEO multilingue](/fr/bonnes-pratiques-seo-multilingue/) montrent comment les traduire en pages. Une [recherche de mots-clés multilingue](/fr/services/recherche-mots-cles/) efficace s’appuie sur des locuteurs natifs, une analyse des pages de résultats région par région et une compréhension des comportements d’achat locaux.
+La recherche menée par des locuteurs natifs relève ces différences, et nos [bonnes pratiques du SEO multilingue](/fr/bonnes-pratiques-seo-multilingue/) montrent comment les traduire en pages. Une [recherche de mots-clés multilingue](/fr/services/seo-technique/) efficace s’appuie sur des locuteurs natifs, une analyse des pages de résultats région par région et une compréhension des comportements d’achat locaux.
 
 <aside class="post-cta">
 <p><strong>Des mots-clés recherchés dans chaque langue ?</strong> Notre <a href="/fr/services/referencement-multilingue/">référencement multilingue</a> donne à chaque langue sa propre stratégie, ses mots-clés et des textes écrits par des natifs, avec un rapport mensuel des demandes reçues par marché. <a href="/fr/nous-contacter/">Réservez une consultation gratuite</a>.</p>
