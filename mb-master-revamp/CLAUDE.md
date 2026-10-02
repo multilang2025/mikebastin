@@ -377,6 +377,12 @@ is in the rest, which the Master Content Protocol never covered:
   "12 to 2" (the dash rule had rewritten it) and never "12, 2.º".
 - **There is no Madrid law firm** (owner, 27 Sep 2026). The law-firm
   client is the Valencia one; correct any "Madrid law firm" on sight.
+- **Languages: five plus three** (owner, 2 Oct 2026): French native,
+  English C2, Spanish C2, Dutch C1, German B2, plus Italian and Catalan
+  understood and Portuguese read. The homepage strip says "5+3 languages
+  spoken". The levels are for internal reference: site copy keeps German,
+  Italian and Portuguese vague ("enough to manage SEO projects") and native
+  writers still do commercial copy in German, Italian and Portuguese.
 - **TX International Freight is English only** (owner, 2 Oct 2026): one
   market, Houston. Never "English and Spanish" or a Spanish campaign.
 - **Bemelman Spuiterij is in Noordwijkerhout** (owner, 2 Oct 2026), in the

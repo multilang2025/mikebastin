@@ -16,7 +16,7 @@ illustrations). No PR is open.
 
 | ID | Item | Where it shows |
 |---|---|---|
-| Q2 | Houston freight: can "daily quote requests doubled over eighteen months" be backed as an English-only result? Removed from multilingual SEO and SEM on 2 Oct 2026 with Q1; it would be the only client outcome on the site stated as a number | `lib/projects.ts` `tx-international-freight` |
+| Q2 | Houston freight: the "doubled" claim. Quote Request form entries on txintlfreight.com (Formidable, read 2 Oct 2026): 405 in 2021, 662 in 2022, 847 in 2023, 1,029 in 2024, 1,023 in 2025, 1,058 to 1 Oct 2026. Raw submissions, spam not separated. Owner to give the engagement start date and say whether a figure may be published | `lib/projects.ts` `tx-international-freight` |
 | Q5 | Dropped client figures: restore any (BeTranslated 68 %, Delaguía 42/27/34 %, Smartown 19/28 %, the 1,25 % to 11 % outreach test, two Business Profile cases)? | Spanish posts (dropped 30 Sep 2026) |
 
 ### Positioning and copy
@@ -45,8 +45,8 @@ illustrations). No PR is open.
 | ID | Item |
 |---|---|
 | Q20 | Approve and lock EN (the gate for treating English edits as costly) |
-| Q21 | X handle and the three featured post URLs |
-| Q22 | Credibility strip numbers |
+| Q21 | X handle confirmed as x.com/mikebastin (owner, 2 Oct 2026); still needed: the three featured post URLs for the Dispatches section |
+| Q22 | Credibility strip: languages answered (owner, 2 Oct 2026: 5+3, see CLAUDE.md); still to confirm "12 domains run" against the six BeTranslated domains in `lib/projects.ts` |
 | Q24 | Illustrations: homepage, and the Spain map on the Spanish SEO page |
 | Q25 | Privacy and cookies pages (draft, `docs/CONSENT.md`): the legal entity and tax ID, how long enquiries are kept, the hosting and email providers, and which analytics tool you plan to add |
 

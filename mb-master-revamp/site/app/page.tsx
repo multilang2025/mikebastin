@@ -45,7 +45,7 @@ export const metadata: Metadata = {
 
 const STATS = [
   { n: 20, s: "+", k: "Years in search" },
-  { n: 4, s: "+1", k: "Languages spoken" },
+  { n: 5, s: "+3", k: "Languages spoken" },
   { n: 8, s: "", k: "Projects in the line-up" },
   { n: 12, s: "", k: "Domains run" },
 ];
