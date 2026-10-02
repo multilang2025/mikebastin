@@ -57,7 +57,7 @@ Aquí es donde ahorras. Según nuestra experiencia, cruzan las fronteras tal com
 
 Estas deciden si la marca llega, así que el presupuesto va aquí.
 
-**El tono de voz.** La franqueza que encaja en los Países Bajos se suaviza para Francia. La cercanía que funciona en España se modera para Alemania. La voz es la parte más cara del [trabajo de marca multilingüe](/es/seo-multilingue-2026-presencia-total/), y la que más merece un presupuesto bien pensado. La [transcreación](/es/services/traduccion-profesional/) reescribe el mensaje para que produzca el mismo efecto en el otro idioma.
+**El tono de voz.** La franqueza que encaja en los Países Bajos se suaviza para Francia. La cercanía que funciona en España se modera para Alemania. La voz es la parte más cara del [trabajo de marca multilingüe](/es/buenas-practicas-seo-multilingue/), y la que más merece un presupuesto bien pensado. La [transcreación](/es/services/traduccion-profesional/) reescribe el mensaje para que produzca el mismo efecto en el otro idioma.
 
 **Las referencias culturales y el humor.** Un eslogan con un juego de palabras en español necesita su equivalente francés para Lyon, y una referencia francesa su versión flamenca para Amberes. Explica la marca a un redactor de cada mercado y cada versión conserva su chispa.
 

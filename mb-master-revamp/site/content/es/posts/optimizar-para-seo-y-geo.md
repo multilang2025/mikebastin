@@ -82,7 +82,7 @@ Como explica el blog de [Google Search](https://blog.google/products/search/), l
 
 El contenido de marketing y los datos de tu empresa se leen ya como un solo conjunto. Nuestra [página de inicio](/es/) explica cómo ordenamos esa información para cada mercado donde vendes.
 
-Los modelos cambian de versión con frecuencia, y las empresas que publican contenido claro, sólido y actualizado se adaptan a cada cambio con menos esfuerzo. Para negocios que buscan leads cualificados, como [SmartOwn](https://smartown.ae) o [C21 Perdomo](https://c21perdomo.com/es/), el foco está en crear activos digitales técnicos y duraderos.
+Los modelos cambian de versión con frecuencia, y las empresas que publican contenido claro, sólido y actualizado se adaptan a cada cambio con menos esfuerzo. Para negocios que buscan leads cualificados, como [C21 Perdomo](https://c21perdomo.com/es/), el foco está en crear activos digitales técnicos y duraderos.
 
 Combinar varios de [nuestros servicios](/es/services/) permite que cada contenido atraiga tráfico hoy y siga siendo relevante mañana. Revisa tu análisis de la competencia con regularidad para ajustar las tácticas a cómo responden los motores generativos y descubrir las preguntas en las que tu marca puede convertirse en la respuesta.
 

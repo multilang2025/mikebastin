@@ -103,7 +103,7 @@ El idioma de tu contenido determina cómo lo interpretan los buscadores. Las pal
 
 ### ¿Cuáles son las mejores prácticas de SEO para un sitio en varios idiomas?
 
-Usa etiquetas hreflang correctas, estructuras de URL coherentes y títulos y descripciones meta traducidos. Adapta imágenes, llamadas a la acción y contenido a cada mercado local. Las tienes en detalle en nuestras [buenas prácticas de SEO multilingüe](/es/seo-multilingue-2026-presencia-total/).
+Usa etiquetas hreflang correctas, estructuras de URL coherentes y títulos y descripciones meta traducidos. Adapta imágenes, llamadas a la acción y contenido a cada mercado local. Las tienes en detalle en nuestras [buenas prácticas de SEO multilingüe](/es/buenas-practicas-seo-multilingue/).
 
 ### ¿Cómo se optimiza el SEO de un sitio web multilingüe?
 

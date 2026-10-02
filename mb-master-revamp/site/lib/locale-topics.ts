@@ -120,7 +120,7 @@ const TOPICS: LocaleTopic[] = [
       "El SEO técnico, la localización y las diferencias culturales que hacen que cada versión de tu web trabaje para tu negocio en su mercado.",
     service: { href: "/es/services/posicionamiento-multilingue/", label: "Posicionamiento multilingüe" },
     posts: [
-      "seo-multilingue-2026-presencia-total",
+      "buenas-practicas-seo-multilingue",
       "seo-tecnico-para-sitios-multilingues",
       "diferencias-culturales-sitios-web-multilingues",
       "herramientas-pruebas-de-localizacion",

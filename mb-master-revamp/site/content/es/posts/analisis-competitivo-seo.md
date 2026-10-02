@@ -123,7 +123,7 @@ Cada mercado al que vendes tiene su propio conjunto de competidores, y por eso e
 
 El despacho de Valencia que mencionamos trabaja en cuatro idiomas: español, francés, inglés y ruso. En español compite con despachos nacionales de familia y herencias. En francés, con quienes atienden a los franceses residentes en la Costa Blanca. En inglés, con quienes atienden a la comunidad anglófona en herencias, NIE y compraventas. El ruso tiene su propio conjunto.
 
-Cuatro listas de competidores, cuatro encargos de contenido y cuatro estrategias de enlaces. Para tu empresa ocurre lo mismo con Francia, Bélgica o Alemania: el rival que te supera en París puede ser desconocido en Amberes. Y en mercados locales, como el de [Bemelman](https://bemelmanspuiterij.nl/), un especialista neerlandés en pintura en polvo, los rivales que cuentan son los de su zona. Para la visión completa, mira nuestras [buenas prácticas de SEO multilingüe](/es/seo-multilingue-2026-presencia-total/).
+Cuatro listas de competidores, cuatro encargos de contenido y cuatro estrategias de enlaces. Para tu empresa ocurre lo mismo con Francia, Bélgica o Alemania: el rival que te supera en París puede ser desconocido en Amberes. Y en mercados locales, como el de [Bemelman](https://bemelmanspuiterij.nl/), un especialista neerlandés en pintura en polvo, los rivales que cuentan son los de su zona. Para la visión completa, mira nuestras [buenas prácticas de SEO multilingüe](/es/buenas-practicas-seo-multilingue/).
 
 ## Cómo aparecen tus rivales en las respuestas de IA
 

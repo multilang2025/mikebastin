@@ -94,6 +94,13 @@ for (const g of cm.groups) {
 
   // Posts and services already built at their URL, and the Valencia
   // exodus (gen-redirects.mjs), need nothing here.
+  // A post rebuilt under a new slug (owner hard rule, 2 Oct 2026: no dates
+  // in URLs) keeps its legacy `url` in the map as the record, and its old
+  // address 301s to the new one.
+  if (action === "migrate" && g.type === "post" && `es/${g.es.slug}/` !== from) {
+    rules.push({ from, to: `es/${g.es.slug}/`, code: 301 });
+    continue;
+  }
   if (action === "migrate" && g.type !== "page") continue;
   if (action === "relocate" && g.destination === "valenciamove") continue;
 

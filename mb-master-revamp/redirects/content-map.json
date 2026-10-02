@@ -374,9 +374,10 @@
    },
    "es": {
     "id": 24857765,
-    "slug": "seo-multilingue-2026-presencia-total",
+    "slug": "buenas-practicas-seo-multilingue",
     "url": "https://mikebastin.com/es/seo-multilingue-2026-presencia-total/",
-    "content_path": "site/content/es/posts/seo-multilingue-2026-presencia-total.md"
+    "content_path": "site/content/es/posts/buenas-practicas-seo-multilingue.md",
+    "_note": "Renamed 2 Oct 2026 (owner hard rule: no dates in URLs); the legacy url 301s to the new slug via gen-es-redirects.mjs."
    }
   },
   {

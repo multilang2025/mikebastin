@@ -2,7 +2,7 @@
 words: 1248
 title: "Buenas prácticas de SEO multilingüe para posicionar y ser citado en cada mercado"
 metaTitle: "Buenas prácticas de SEO multilingüe: posicionar y ser citado"
-slug: "seo-multilingue-2026-presencia-total"
+slug: "buenas-practicas-seo-multilingue"
 locale: "es"
 type: "posts"
 group: "g014"

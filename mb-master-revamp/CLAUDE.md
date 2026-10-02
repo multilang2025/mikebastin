@@ -211,6 +211,13 @@ needs.
   fails on a URL that 404s, a redirect whose target is redirected again,
   and a rule pointing at a page that is not built.
   Never 404 on launch.
+- **No dates in URLs**, in any locale (owner, 2 Oct 2026, a hard rule). A
+  year in a slug ages the page and costs a redirect to fix. `npm run
+  lint:urls` fails the build on any published URL carrying a year. A page
+  that has to lose one keeps its legacy address as a 301 (new `slug`, legacy
+  `url` kept in `redirects/content-map.json`, redirects regenerated):
+  `/es/seo-multilingue-2026-presencia-total/` became
+  `/es/buenas-practicas-seo-multilingue/` that way.
 - IP boundary: no Marvel/superhero imagery tied to "Silver Surfer" — it is a
   prose-only nickname, visual language is original surf/wave motifs.
 

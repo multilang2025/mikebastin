@@ -86,7 +86,7 @@ Cuando un mercado va por detrás, el instinto es mirar el SEO. Más a menudo, la
 
 ### El porcentaje de interacción como señal
 
-Una interacción baja en las páginas localizadas apunta a la intención o a la adaptación, y las dos son trabajo de localización que va más allá de la traducción. Aplica las [buenas prácticas de SEO multilingüe](/es/seo-multilingue-2026-presencia-total/) para alinear el contenido con la forma de buscar de cada mercado.
+Una interacción baja en las páginas localizadas apunta a la intención o a la adaptación, y las dos son trabajo de localización que va más allá de la traducción. Aplica las [buenas prácticas de SEO multilingüe](/es/buenas-practicas-seo-multilingue/) para alinear el contenido con la forma de buscar de cada mercado.
 
 ### Dimensiones personalizadas para el idioma y el enrutamiento
 
