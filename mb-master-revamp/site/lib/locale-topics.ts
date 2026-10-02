@@ -123,7 +123,6 @@ const TOPICS: LocaleTopic[] = [
       "seo-multilingue-2026-presencia-total",
       "seo-tecnico-para-sitios-multilingues",
       "diferencias-culturales-sitios-web-multilingues",
-      "localizacion-de-contenido-web-multilingue",
       "herramientas-pruebas-de-localizacion",
       "optimizar-contenido-web-multilingue",
       "localizar-tu-web-puntos-a-cuidar",
@@ -176,9 +175,8 @@ const TOPICS: LocaleTopic[] = [
       "Cómo identificar a tus competidores reales en Google, revisar su tráfico, sus backlinks y sus posiciones, y convertir lo que ves en un plan.",
     service: { href: "/es/services/optimizacion-seo/", label: "Optimización SEO" },
     posts: [
-      "competidores-seo",
-      "analisis-de-la-competencia-seo",
       "analisis-competitivo-seo",
+      "competidores-seo",
       "herramientas-gratuitas-analisis-competitivo",
       "analizar-trafico-web-competencia",
       "analizar-backlinks-competidores",

@@ -1,5 +1,5 @@
 ---
-words: 2759
+words: 2080
 title: "El futuro del SEO: IA, GEO y lo que sigue funcionando"
 slug: "futuro-del-seo"
 locale: "es"
@@ -7,18 +7,16 @@ type: "posts"
 group: "g122"
 wpId: null
 date: "2026-09-30T11:00:00"
-modified: "2026-09-30T11:00:00"
+modified: "2026-10-02T12:00:00"
 sourceUrl: null
 excerpt: "El SEO sigue dando resultados aunque Google envíe menos clics. Qué esperar de la IA, el GEO y las nuevas métricas, y dónde invertir el próximo trimestre."
 ---
 
 Tu negocio probablemente va mejor de lo que indica tu informe de tráfico orgánico. Hoy hacen clic menos personas desde Google, porque más preguntas se resuelven en la propia página de resultados o dentro de ChatGPT. Si mides la búsqueda por lo que aporta al negocio, conservas el canal que sigue enviando tus mejores contactos comerciales y llevas el presupuesto a lo que premian los resultados de ahora.
 
-En cada tendencia verás qué gana visibilidad hoy, qué medidas han tomado el relevo de las antiguas y dónde poner el esfuerzo del próximo trimestre. Al final tienes una tabla de prioridades pensada para empresas que ya venden en Francia, el Benelux, Alemania o el Reino Unido.
+Aquí verás hacia dónde va la búsqueda: qué ocupan ya las respuestas de IA, cómo trabajar con el cero clics, qué medidas han tomado el relevo de las antiguas y dónde poner el esfuerzo del próximo trimestre. Al final tienes una tabla de prioridades pensada para empresas que ya venden en Francia, el Benelux, Alemania o el Reino Unido.
 
-## La IA sube el listón del contenido
-
-Si un competidor publica diez páginas escritas con IA por cada una tuya, tu página con contenido de verdad tiene más peso ante Google que la mayoría de las suyas. Las políticas de Google contra el spam apuntan al contenido producido en masa para posicionar, y sus sistemas favorecen la investigación original, la experiencia de primera mano y la especialización real.
+## Las respuestas de IA ocupan la página de resultados
 
 Las respuestas generadas ocupan ya buena parte de la página de resultados, así que el contenido que aparece es el que tiene profundidad.
 
@@ -26,9 +24,13 @@ Las respuestas generadas ocupan ya buena parte de la página de resultados, así
 >
 > Fuente: [BrightEdge, AI Overviews at the one-year mark, febrero de 2026](https://www.brightedge.com/resources/weekly-ai-search-insights/ai-overviews-one-year-presence-size-citing)
 
+> AI Overviews ya está disponible en más de 200 países y territorios y en más de 40 idiomas.
+>
+> Fuente: [Google, AI Overviews expansion update, 20 de mayo de 2025](https://blog.google/products-and-platforms/products/search/ai-overview-expansion-may-2025-update/)
+
 La cobertura cambia mucho según el sector y el estudio; [Search Engine Land](https://searchengineland.com/google-ai-overviews-surge-pullback-data-466314) y [Semrush](https://www.semrush.com/blog/generative-engine-optimization/) siguen esa evolución de cerca. Desde octubre de 2025, AI Mode también está disponible en España y en mercados como Alemania, Italia o los Países Bajos.
 
-Las estrategias SEO con IA que funcionan usan el aprendizaje automático para investigar, detectar patrones y ganar ritmo, y dejan que las personas decidan qué se publica. Usa la IA para ideas y análisis, firma con autores reales, publica casos prácticos y mide la calidad de las visitas. Si necesitas un plan para todo un equipo, nuestra [consultoría de inteligencia artificial](/es/services/consultoria-de-inteligencia-artificial/) empieza justo ahí.
+El listón del contenido sube con ellas. Si un competidor publica diez páginas escritas con IA por cada una tuya, tu página con contenido de verdad tiene más peso ante Google que la mayoría de las suyas. Desde marzo de 2024, las [políticas contra el spam de Google](https://developers.google.com/search/docs/essentials/spam-policies) cubren de forma explícita el abuso de contenido a escala, el abuso de la reputación de un sitio (el llamado parasite SEO) y los esquemas de enlaces, y Google resume lo que sí premia en su guía sobre [contenido útil y fiable](https://developers.google.com/search/docs/fundamentals/creating-helpful-content): investigación original, experiencia de primera mano y especialización real. Cómo usar la IA dentro de tu propio flujo de trabajo, con un experto que decide qué se publica, lo contamos en [cómo la IA renueva las estrategias SEO](/es/ia-y-estrategias-seo/).
 
 ## La optimización para motores generativos (GEO) acompaña al SEO
 
@@ -40,7 +42,7 @@ Cuando un comprador pregunta a un asistente de IA a qué proveedores incluir en 
 
 Las dos cifras juntas dan la medida justa: la IA crece deprisa y Google sigue enviando la gran mayoría de las visitas. Recopilaciones como la de [Superlines](https://www.superlines.io/articles/ai-search-statistics/) reúnen más datos de este tipo.
 
-El GEO funciona junto al SEO. La misma página sirve a los dos canales cuando formula afirmaciones claras y citables y nombra sus fuentes. Sigue cómo aparece tu marca en las respuestas de IA con herramientas como el AI Visibility Toolkit de Semrush o Ahrefs Brand Radar, igual que sigues tus posiciones.
+El GEO funciona junto al SEO. La misma página sirve a los dos canales cuando formula afirmaciones claras y citables y nombra sus fuentes.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 230" role="img" aria-label="Una misma página alimenta dos canales: los resultados de búsqueda, que consiguen clics, y las respuestas de IA, que consiguen citas. Los dos crean demanda de marca.">
@@ -63,18 +65,8 @@ El GEO funciona junto al SEO. La misma página sirve a los dos canales cuando fo
 </figure>
 
 <aside class="post-cta">
-<p><strong>¿Quieres aparecer en las respuestas de IA de cada mercado donde vendes?</strong> Nuestro <a href="/es/services/optimizacion-seo/">SEO internacional</a> trabaja tu presencia en ChatGPT, Claude, Perplexity y los AI Overviews de Google con páginas nativas, enlaces ganados en cada país y una marca presente en cada idioma. <a href="/es/contactanos/">Pide tu auditoría gratuita de 20 minutos</a>.</p>
+<p><strong>¿Quieres aparecer en las respuestas de IA de cada mercado donde vendes?</strong> Nuestro <a href="/es/services/optimizacion-seo/">SEO internacional</a> trabaja tu presencia en ChatGPT, Claude, Perplexity y los AI Overviews de Google con páginas nativas, enlaces ganados en cada país y una marca presente en cada idioma. <a href="/es/contactanos/">Reserva una consulta gratuita</a>.</p>
 </aside>
-
-## El E-E-A-T pesa en cada tema delicado
-
-Una página firmada por un experto con nombre y apellidos gana hoy a una anónima, y en salud, dinero o derecho ese experto pesa más que nada. El marco E-E-A-T de Google (experiencia, especialización, autoridad y fiabilidad) está recogido en las [Search Quality Rater Guidelines](https://guidelines.raterhub.com/searchqualityevaluatorguidelines.pdf), actualizadas en enero y en septiembre de 2025, y pesa sobre todo en los temas YMYL (Your Money or Your Life).
-
-> La versión del 11 de septiembre de 2025 de las directrices amplió la categoría YMYL de sociedad a «Gobierno, civismo y sociedad», que abarca la información electoral, los trámites cívicos y el contenido que afecta a la confianza en las instituciones públicas.
->
-> Fuente: [Search Engine Land](https://searchengineland.com/google-updates-search-quality-raters-guidelines-adding-ai-overview-examples-ymyl-definitions-461908)
-
-Google lee el E-E-A-T a través de señales indirectas: reputación del dominio, autoría clara, calidad de las fuentes y marcado de autor. Los sitios con biografías de autor detalladas, casos prácticos publicados, fuentes recientes y marcado Person y Organization ganan terreno.
 
 ## Trabajar con el cero clics como norma
 
@@ -84,21 +76,60 @@ Un informe que cuenta funcionalidades, impresiones y búsquedas de marca junto a
 >
 > Fuente: [SparkToro, 2024 Zero-Click Search Study](https://sparktoro.com/blog/2024-zero-click-search-study-for-every-1000-us-google-searches-only-374-clicks-go-to-the-open-web-in-the-eu-its-360/)
 
-Aparecer en AI Overviews, en los fragmentos destacados, en los paneles de conocimiento y en «Otras preguntas de los usuarios» refuerza el recuerdo de marca desde la página de resultados. El volumen de búsquedas de tu marca, es decir, las personas que te buscan por tu nombre, se convierte en una medida clave. El mapeo de intención de búsqueda te dice qué consultas merecen contenido orientado al clic y cuáles sirven para la notoriedad.
+Los resúmenes de IA acentúan el efecto en las consultas informativas. Pew Research siguió la navegación de 900 adultos de Estados Unidos y midió una diferencia grande.
+
+> Los usuarios que vieron un resumen de IA hicieron clic en un enlace de resultado tradicional en el 8 % de las visitas; quienes no vieron ninguno hicieron clic en un resultado en el 15 % de las visitas. Datos de navegación de marzo de 2025, 900 adultos de Estados Unidos, 68.879 búsquedas en Google.
+>
+> Fuente: [Pew Research, Google users are less likely to click on links when an AI summary appears in the results, 22 de julio de 2025](https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/)
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 170" role="img" aria-label="Comparación de barras: los usuarios hicieron clic en un resultado tradicional en el 15 por ciento de las visitas cuando no había resumen de IA y en el 8 por ciento cuando lo había.">
+<text x="10" y="40" class="fg-label">Sin resumen de IA</text>
+<rect x="130" y="22" width="225" height="28" rx="6" class="fg-fill"/>
+<text x="365" y="42" class="fg-text">15 %</text>
+<text x="10" y="92" class="fg-label">Con resumen de IA</text>
+<rect x="130" y="74" width="120" height="28" rx="6" class="fg-hot"/>
+<text x="260" y="94" class="fg-text">8 %</text>
+<line x1="130" y1="120" x2="385" y2="120" class="fg-rule"/>
+<text x="10" y="150" class="fg-label">Visitas con clic en un resultado clásico</text>
+</svg>
+<figcaption>Un resultado tradicional recibió un clic en el 15 % de las visitas a una página de resultados sin resumen y en el 8 % cuando un resumen de IA aparecía encima. Pew Research, navegación de 900 adultos de Estados Unidos en marzo de 2025.</figcaption>
+</figure>
+
+Las consultas comerciales están menos expuestas, y eso da más valor al contenido de la parte baja del embudo. Aparecer en AI Overviews, en los fragmentos destacados, en los paneles de conocimiento y en «Otras preguntas de los usuarios» refuerza el recuerdo de marca desde la página de resultados. El mapeo de intención de búsqueda te dice qué consultas merecen contenido orientado al clic y cuáles sirven para la notoriedad.
 
 Responde a la pregunta en las primeras 100 palabras y estructura tus preguntas frecuentes con encabezados claros. Google dejó de mostrar los resultados enriquecidos de FAQ el 7 de mayo de 2026; el marcado FAQPage sigue siendo vocabulario válido y la estructura de pregunta y respuesta sigue ayudando a leer la página.
 
 > Fuente: [Google Search Central, actualizaciones de la documentación de 2026](https://developers.google.com/search/updates)
 
-## La búsqueda por voz, una parte estable de la búsqueda
+## Cómo se mide ahora el éxito en búsqueda
 
-Las consultas por voz son más largas, más locales y las responde casi siempre quien ocupa la respuesta destacada. La voz se ha asentado sobre todo en las consultas locales y conversacionales, a un ritmo más pausado que el de las primeras previsiones; [DemandSage](https://www.demandsage.com/voice-search-statistics/) e [Invoca](https://www.invoca.com/blog/voice-search-stats-marketers) recopilan los datos de uso, casi todos de Estados Unidos.
+Las empresas que van por delante miden lo que premian los resultados de ahora. El volumen de búsquedas de tu marca, es decir, las personas que te buscan por tu nombre, se convierte en una medida clave, y la presencia en las respuestas de IA se sigue igual que las posiciones, con herramientas como el AI Visibility Toolkit de Semrush o Ahrefs Brand Radar.
 
-Los asistentes de voz se apoyan en los fragmentos destacados, así que las páginas que responden en lenguaje natural, cargan rápido en el móvil y llevan datos estructurados captan estas consultas. Redacta las preguntas frecuentes tal como habla la gente, en el idioma de cada mercado.
+| Medida antigua | Medida actual |
+| --- | --- |
+| Posiciones | Cuota de respuestas de IA y de funcionalidades de la página de resultados |
+| Sesiones | Contactos cualificados y conversiones |
+| Clics orgánicos | Volumen de búsquedas de marca |
+| Páginas publicadas | Cobertura temática de los servicios principales |
 
-## Core Web Vitals: la base de cada página
+Configura el [seguimiento de conversiones](/es/services/seo-tecnico/) para que las nuevas medidas se vean, y mide el contenido por los contactos cualificados que genera.
 
-Una página rápida gana a una comparable más lenta, y en el móvil gana primero. Interaction to Next Paint (INP) sustituyó a First Input Delay (FID) como métrica de respuesta en marzo de 2024: FID medía solo la primera interacción e INP mide la respuesta durante toda la visita.
+## El E-E-A-T pesa en cada tema delicado
+
+Una página firmada por un experto con nombre y apellidos gana hoy a una anónima, y en salud, dinero o derecho ese experto pesa más que nada. El marco E-E-A-T de Google (experiencia, especialización, autoridad y fiabilidad) está recogido en las [Search Quality Rater Guidelines](https://guidelines.raterhub.com/searchqualityevaluatorguidelines.pdf), actualizadas en enero y en septiembre de 2025, y pesa sobre todo en los temas YMYL (Your Money or Your Life).
+
+> La versión del 11 de septiembre de 2025 de las directrices amplió la categoría YMYL de sociedad a «Gobierno, civismo y sociedad», que abarca la información electoral, los trámites cívicos y el contenido que afecta a la confianza en las instituciones públicas.
+>
+> Fuente: [Search Engine Land](https://searchengineland.com/google-updates-search-quality-raters-guidelines-adding-ai-overview-examples-ymyl-definitions-461908)
+
+Google lee el E-E-A-T a través de señales indirectas: reputación del dominio, autoría clara, calidad de las fuentes y marcado de autor. Los sitios con biografías de autor detalladas, casos prácticos publicados y fuentes recientes ganan terreno.
+
+## Voz, velocidad y búsqueda local: lo que sigue sumando
+
+Las consultas por voz son más largas, más locales y las responde casi siempre quien ocupa la respuesta destacada. La voz se ha asentado sobre todo en las consultas locales y conversacionales, a un ritmo más pausado que el de las primeras previsiones; [DemandSage](https://www.demandsage.com/voice-search-statistics/) e [Invoca](https://www.invoca.com/blog/voice-search-stats-marketers) recopilan los datos de uso, casi todos de Estados Unidos. Redacta las preguntas frecuentes tal como habla la gente, en el idioma de cada mercado.
+
+Una página rápida gana a una comparable más lenta, y en el móvil gana primero. Interaction to Next Paint (INP) sustituyó a First Input Delay (FID) como métrica de respuesta en marzo de 2024.
 
 > Las tres métricas que hay que superar: LCP por debajo de 2,5 segundos, INP por debajo de 200 milisegundos y Cumulative Layout Shift (CLS) por debajo de 0,1.
 >
@@ -108,15 +139,9 @@ Una página rápida gana a una comparable más lenta, y en el móvil gana primer
 >
 > Fuente: [HTTP Archive, Web Almanac 2025, Performance](https://almanac.httparchive.org/en/2025/performance)
 
-Cuando el contenido es comparable, decide la velocidad. Revisa las tres métricas cada mes en Search Console y PageSpeed Insights, reduce el JavaScript y los recursos que bloquean el renderizado, usa caché y una CDN, e indica el ancho y el alto de las imágenes. Una [auditoría de SEO técnico](/es/services/seo-tecnico/) detecta estos puntos pronto, mientras tu visibilidad sigue intacta.
+Una [auditoría de SEO técnico](/es/services/seo-tecnico/) detecta estos puntos pronto, mientras tu visibilidad sigue intacta.
 
-## El SEO local premia la concreción
-
-Quien busca cerca está cerca de comprar, así que una página de zona concreta llega a los clientes más dispuestos a actuar. Google sigue afinando los resultados hiperlocales, sobre todo en el móvil, y [BrightLocal](https://www.brightlocal.com/resources/local-seo-statistics/) publica cada año sus datos sobre cómo se buscan negocios locales.
-
-Las páginas creadas para barrios o zonas de servicio concretas rinden más que las genéricas de «cerca de mí». El [SEO local](/es/services/seo-local/) favorece a los negocios que muestran presencia real: una ficha de Google Business Profile al día, reseñas respondidas con constancia, enlaces locales, marcado LocalBusiness y el mismo nombre, dirección y teléfono en todas las citas.
-
-Si vendes en el extranjero, la regla se traslada a cada mercado: una ficha y una página de zona en francés para tus clientes de Lyon, o en neerlandés para los de Róterdam, llegan a quien busca cerca en su idioma.
+Quien busca cerca está cerca de comprar, y Google sigue afinando los resultados hiperlocales; [BrightLocal](https://www.brightlocal.com/resources/local-seo-statistics/) publica cada año sus datos sobre cómo se buscan negocios locales. El [SEO local](/es/services/seo-local/) favorece a los negocios con presencia real: una ficha de Google Business Profile al día, reseñas respondidas y el mismo nombre, dirección y teléfono en todas las citas. Si vendes en el extranjero, la regla se traslada a cada mercado: una ficha y una página de zona en francés para tus clientes de Lyon, o en neerlandés para los de Róterdam.
 
 ## El SEO multilingüe como palanca de crecimiento
 
@@ -130,30 +155,11 @@ Si tus páginas en español venden y quieres que tus versiones en francés, neer
 >
 > Fuente: [Weglot, Does AI favor translated content?, 2025](https://www.weglot.com/blog/multilingual-seo-ai-visibility)
 
-Posicionar en los mercados de habla francesa, alemana, neerlandesa o inglesa pide un [SEO multilingüe](/es/services/posicionamiento-multilingue/) que va más allá de la conversión palabra por palabra: investigación de palabras clave hecha de forma nativa en cada idioma, adaptación cultural y normativa, y conocimiento de cómo busca cada región. El hreflang correcto indica a los buscadores qué versión servir a quién, y los enlaces de cada país y el seguimiento de los resultados locales completan el cuadro.
+Posicionar en los mercados de habla francesa, alemana, neerlandesa o inglesa pide un [SEO multilingüe](/es/services/posicionamiento-multilingue/) con investigación de palabras clave hecha de forma nativa en cada idioma, adaptación cultural y normativa, y conocimiento de cómo busca cada región.
 
-## Contenido y SEO son una sola disciplina
+## Dónde poner primero el esfuerzo
 
-El contenido se gana su presupuesto cuando tiene una tarea. Cada pieza atiende una intención de búsqueda, construye autoridad temática o apoya una conversión. Una estrategia por clústeres temáticos (una página pilar respaldada por páginas enlazadas) se acumula con el tiempo, porque cada página refuerza a las demás. Mide el contenido por los contactos cualificados que genera, y cada trimestre fusiona o retira las páginas más débiles.
-
-## Las prácticas limpias protegen tus posiciones
-
-Una práctica limpia mantiene a salvo años de posicionamiento en cada actualización. Desde marzo de 2024, las [políticas contra el spam de Google](https://developers.google.com/search/docs/essentials/spam-policies) cubren de forma explícita el abuso de contenido a escala, el abuso de la reputación de un sitio (el llamado parasite SEO, contenido de terceros alojado en dominios fuertes) y los esquemas de enlaces, y Google resume lo que sí premia en su guía sobre [contenido útil y fiable](https://developers.google.com/search/docs/fundamentals/creating-helpful-content).
-
-El link building sigue contando, y hoy consiste en ganar enlaces editoriales con investigación original, relaciones públicas digitales y contenido útil. Audita tu perfil de enlaces, retira los enlaces comprados, las redes de blogs privados y los intercambios de artículos, y explica con transparencia cómo se elabora tu contenido.
-
-## Hacia dónde va el SEO
-
-El SEO es cada vez más amplio y más exigente. La visibilidad pide precisión técnica, autoridad real y contenido que funcione tanto si alguien hace clic como si no. Las empresas que van por delante miden lo que premian los resultados de ahora.
-
-| Medida antigua | Medida actual |
-| --- | --- |
-| Posiciones | Cuota de respuestas de IA y de funcionalidades de la página de resultados |
-| Sesiones | Contactos cualificados y conversiones |
-| Clics orgánicos | Volumen de búsquedas de marca |
-| Páginas publicadas | Cobertura temática de los servicios principales |
-
-Dónde poner primero el esfuerzo:
+El SEO es cada vez más amplio y más exigente: la visibilidad pide precisión técnica, autoridad real y contenido que funcione tanto si alguien hace clic como si no. Esta es la primera acción para cada tendencia.
 
 | Tendencia | Primera acción |
 | --- | --- |
@@ -166,10 +172,8 @@ Dónde poner primero el esfuerzo:
 | Multilingüe | Investiga las palabras clave de forma nativa; revisa el hreflang |
 | Riesgo de spam | Audita el perfil de enlaces |
 
-Configura el [seguimiento de conversiones](/es/services/seo-tecnico/) para que las nuevas medidas se vean, crea contenido digno de ser citado y céntrate en los números que mueven el negocio.
-
 <aside class="post-cta">
-<p><strong>¿Quieres ver tus resultados de búsqueda separados por mercado?</strong> En nuestro <a href="/es/services/seo-tecnico/">SEO técnico</a> configuramos GA4 y Google Tag Manager para que el tráfico y las conversiones se dividan por mercado, y cada idioma aparezca con sus propias cifras. <a href="/es/contactanos/">Pide tu auditoría gratuita de 20 minutos</a>.</p>
+<p><strong>¿Quieres ver tus resultados de búsqueda separados por mercado?</strong> En nuestro <a href="/es/services/seo-tecnico/">SEO técnico</a> configuramos GA4 y Google Tag Manager para que el tráfico y las conversiones se dividan por mercado, y cada idioma aparezca con sus propias cifras. <a href="/es/contactanos/">Reserva una consulta gratuita</a>.</p>
 </aside>
 
 ## Preguntas frecuentes sobre el SEO en 2026

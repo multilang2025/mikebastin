@@ -28,7 +28,7 @@ Whether you’re launching in Spain, France or the US, we help your content feel
 We go beyond words, adjusting layouts, dates, images, currencies and calls to action.  
 The result? More trust, more clarity, more conversions.
 
-Our localization [experts combine language skills](https://mikebastin.com/es/localizacion-de-contenido-web-multilingue/) with SEO insight.
+Our localization [experts combine language skills](https://mikebastin.com/es/optimizar-contenido-web-multilingue/) with SEO insight.
 
 We integrate local keyword data, adapt for search intent, and ensure content structure meets expectations across markets.
 

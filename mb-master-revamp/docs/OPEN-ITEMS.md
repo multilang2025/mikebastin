@@ -33,12 +33,10 @@ illustrations). No PR is open.
 | ID | Item |
 |---|---|
 | Q13 | Confirm the Spanish reader: a Spanish-speaking company selling abroad |
-| Q14 | Confirm `seo-ingles` stays live (the twin of French `seo-anglais`) |
 | Q15 | Confirm the two Globaprom pages redirect to the homepage in FR and ES |
 | Q16 | Review order for the FR and ES drafts (every page is a draft) |
 | Q17 | Sign off the FR and ES motto lines |
 | Q18 | Which further EN posts get a FR or ES adaptation (8 French and 5 Spanish more were built on 30 Sep 2026 without waiting: the Spain market posts, local, AI and measurement; the French journal is at 28 posts, the Spanish at 32) |
-| Q19 | The Valencia lifestyle posts still live on the old site (ten French, one Spanish) and `trabajar-en-remoto-desde-valencia` |
 
 ### Site and launch
 
@@ -53,8 +51,6 @@ illustrations). No PR is open.
 | ID | Item | Note |
 |---|---|---|
 | E1 | `audit:sources` flags two English posts that are false positives (a number in a table, the directory name 11880.com) | Tune the audit |
-| E2 | `content/fr/posts/transport-a-valencia.md` is still an English body | Not built into `/fr/`, so no visitor sees it; translate or delete when Q19 is answered |
-| E3 | `content/es/posts/trabajar-en-remoto-desde-valencia.md` is edited but not live | Waits on Q19 |
 | E4 | Heading-shape lint reports FR and ES without failing | By design, word counts do not translate |
 | E5 | FR and ES topic pages have no hreflang | By design, each locale groups its own posts |
 | E6 | `design/dl-art/geo/make-variants.mjs` needs `d3-geo`, `topojson-client`, `topojson-simplify`, `world-atlas` in a scratch folder | Documented in `docs/DL-ART.md` |
@@ -66,6 +62,9 @@ illustrations). No PR is open.
 
 | ID | Item | Closed |
 |---|---|---|
+| Q14 | `seo-ingles` stays live | Owner, 2 Oct 2026: yes |
+| Q19 | Valencia lifestyle posts still live on the old site | Audited 2 Oct 2026: all 15 French and the one Spanish Valencia URL 301 to valenciamove.com in the new `.htaccess` (every target returns 200); they stay live only until the new site replaces WordPress. Every one of the 99 French and 89 Spanish legacy URLs in `redirects/content-map.json` is either rebuilt at its own URL or 301s, none temporary. The two unbuilt source files (`fr/posts/transport-a-valencia.md`, `es/posts/trabajar-en-remoto-desde-valencia.md`, E2 and E3) are deleted |
+| | Overlapping Spanish posts | Owner, 2 Oct 2026, "fix the overlapping pages": `analisis-de-la-competencia-seo` merged into `analisis-competitivo-seo` (507 impressions against 0) and `localizacion-de-contenido-web-multilingue` into `optimizar-contenido-web-multilingue`, both 301 via `gen-es-redirects.mjs`; `seo-multilingue-2026-presencia-total` regrouped to g014 as the Spanish best-practices sibling; the GEO posts, `competidores-seo` and the future-of-SEO pair de-duplicated |
 | Q25 | Privacy pages and analytics | Owner, 2 Oct 2026: BeTranslated, NIF B40654865, Calle Doctor Ferran 13, 46021 Valencia; Hostinger for hosting and email; enquiries kept one year; GA4 (G-8TSFDZTWL3), Clarity (r517do2v6j) and Ahrefs, IDs from the legacy site, installed in `components/Analytics.tsx` behind consent and on the production domain only |
 | Q24 | Illustrations: the homepage market map and the Spain map on the Spanish SEO page | Owner, 2 Oct 2026: both approved |
 | Q1 | Houston freight: English only, or English and Spanish | Owner, 2 Oct 2026: **English only**. The multilingual SEO case and the SEM Spanish-campaign paragraph are gone (the SEO case is now Century 21 Perdomo, from `lib/projects.ts`); the 360 agency post no longer says two languages |

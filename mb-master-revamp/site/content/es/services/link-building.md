@@ -31,7 +31,7 @@ Google still uses backlinks as one of its primary ranking signals. A high Domain
 
 White hat link building builds these signals in a way that holds up through algorithm updates. The sites we target have real traffic, real audiences, and real editorial standards. That is what makes a link worth earning.
 
-Read more on our [link building in Spain](https://mikebastin.com/es/link-building-local-en-espana/) approach or our broader [competitor analysis](https://mikebastin.com/es/analisis-de-la-competencia-seo/) methodology.
+Read more on our [link building in Spain](https://mikebastin.com/es/link-building-local-en-espana/) approach or our broader [competitor analysis](https://mikebastin.com/es/analisis-competitivo-seo/) methodology.
 
 Sube más alto en los resultados de los motores de búsqueda.
 
@@ -55,7 +55,7 @@ Contacta a influenciadores de la industria y sitios web para crear conexiones va
 
 ## Cómo entregamos un servicio de linkbuilding efectivo
 
-We start with a backlink audit of your current profile using [competitor link analysis](https://mikebastin.com/es/analisis-de-la-competencia-seo/). We look at what links your top-ranking competitors have that you do not. Then we build a target list of domains with high Trust Flow, strong topical relevance, and real organic traffic. Outreach follows, and we track every placement.
+We start with a backlink audit of your current profile using [competitor link analysis](https://mikebastin.com/es/analisis-competitivo-seo/). We look at what links your top-ranking competitors have that you do not. Then we build a target list of domains with high Trust Flow, strong topical relevance, and real organic traffic. Outreach follows, and we track every placement.
 
 We begin by understanding your business goals, target audience, and current SEO performance to identify your link building needs.
 

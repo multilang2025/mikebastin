@@ -1,5 +1,5 @@
 ---
-words: 1178
+words: 1385
 title: "Datos estructurados y schema para optimización de motores generativos"
 metaTitle: "Datos estructurados y schema para GEO"
 slug: "datos-estructurados-schema-optimizacion-geo"
@@ -8,7 +8,7 @@ type: "posts"
 group: "g038"
 wpId: 24855842
 date: "2026-01-26T16:45:08"
-modified: "2026-05-31T16:27:44"
+modified: "2026-10-02T12:00:00"
 sourceUrl: "https://mikebastin.com/es/datos-estructurados-schema-optimizacion-geo/"
 excerpt: "Datos estructurados y schema que describen tu empresa igual en cada idioma: así Google y los motores de IA te entienden y te citan con precisión."
 ---
@@ -119,7 +119,7 @@ Un orden claro evita rehacer el marcado cuando añades un idioma:
 
 La web se lee cada vez más como una base de datos. Define tu contenido con entidades claras y facilitas que las respuestas de IA te incluyan con datos correctos.
 
-La estrategia es doble: SEO para las personas que buscan y GEO para los sistemas que responden. El SEO te da tráfico directo; el GEO te da autoridad, citas y presencia en asistentes de voz y de chat.
+Los datos estructurados son una pieza de una estrategia más amplia, la que trabaja a la vez el SEO y el GEO: la tienes completa en nuestra guía de [estrategia de contenido dual para SEO y GEO](/es/optimizar-para-seo-y-geo/).
 
 Documentación útil:
 
@@ -144,10 +144,6 @@ Lo básico se resuelve con plugins. Para un grafo de entidades completo y multil
 ### ¿Cómo juzga la IA a un autor?
 
 Por las señales que encuentra sobre él: biografía, cargo, formación, temas que domina y perfiles profesionales. El schema `Person` (`jobTitle`, `alumniOf`, `knowsAbout`, `sameAs`) recoge esas señales de forma legible por máquina.
-
-### ¿Afecta al tráfico orgánico?
-
-A corto plazo puede haber menos clics cuando la IA responde directamente. El tráfico que llega tras una cita suele llegar mejor informado y más cerca de decidir.
 
 ## Empieza por tus entidades
 

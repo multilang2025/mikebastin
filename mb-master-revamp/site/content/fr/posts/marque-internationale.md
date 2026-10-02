@@ -92,7 +92,7 @@ Quelques semaines plus tard, quelqu’un nous appelle pour demander pourquoi «�
 
 Le SEO va bien. Ce dont la marque a besoin, c’est de s’installer sur chaque marché : la traduction a fait passer les mots, et la marque doit passer avec eux.
 
-La solution passe par une transcréation des messages clés et des ajustements de page, marché par marché, en commençant par celui qui reçoit déjà le plus de visites. Notre article sur la [localisation de site, point par point](/fr/localiser-son-site-points-a-soigner/) liste les éléments à reprendre.
+La solution passe par une transcréation des messages clés et des ajustements de page, marché par marché, en commençant par celui qui reçoit déjà le plus de visites. Comptez huit à douze semaines pour l’ensemble, selon le nombre de langues. Notre article sur la [localisation de site, point par point](/fr/localiser-son-site-points-a-soigner/) liste les éléments à reprendre.
 
 <aside class="post-cta">
 <p><strong>Vous reconnaissez ce scénario sur vos propres marchés ?</strong> Notre <a href="/fr/services/referencement-multilingue/">référencement multilingue</a> donne à chaque langue sa propre stratégie, écrite par des rédacteurs natifs, pour que chaque marché vous envoie ses propres demandes en plus de son trafic. <a href="/fr/nous-contacter/">Réserver une consultation gratuite</a>.</p>

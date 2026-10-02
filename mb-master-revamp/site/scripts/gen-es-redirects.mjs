@@ -108,6 +108,17 @@ for (const g of cm.groups) {
     continue;
   }
 
+  // A Spanish post merged into another (owner, 2 Oct 2026: the overlapping
+  // posts). `absorbed_into` names the surviving group, per content-map
+  // `_rules`; the rule points at that group's Spanish post, and stays
+  // unresolved (failing the run) until the survivor's file exists.
+  if (action === "absorb" && g.type === "post") {
+    const target = cm.groups.find((t) => t.group === g.absorbed_into)?.es;
+    if (!target?.slug || !existsSync(join(SITE, "..", target.content_path))) { unresolved.push(from); continue; }
+    rules.push({ from, to: `es/${target.slug}/`, code: 301 });
+    continue;
+  }
+
   if (action === "absorb") {
     const p = ES_PARENT[g.absorbed_into];
     if (!p) { unresolved.push(from); continue; }

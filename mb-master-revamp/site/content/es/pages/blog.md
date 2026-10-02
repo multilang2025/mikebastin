@@ -35,15 +35,15 @@ Cómo optimizar tu Perfil de Empresa de Google en 2026: categorías, reseñas, f
 
 [leer más](https://mikebastin.com/es/optimizar-perfil-de-empresa-de-google/)
 
-[![Análisis de la competencia para SEO](/images/legacy/2026/01/competitoranalysis-400x250.jpg)](https://mikebastin.com/es/analisis-de-la-competencia-seo/)
+[![Análisis de la competencia para SEO](/images/legacy/2026/01/competitoranalysis-400x250.jpg)](https://mikebastin.com/es/analisis-competitivo-seo/)
 
-## [Análisis de la competencia para SEO](https://mikebastin.com/es/analisis-de-la-competencia-seo/)
+## [Análisis de la competencia para SEO](https://mikebastin.com/es/analisis-competitivo-seo/)
 
 por [Mike Bastin](# "Mensajes de Michael Bastin") | May 31, 2026 | [Sin categorizar](https://mikebastin.com/es/category/sin-categorizar/)
 
 Análisis de la competencia para SEO en 2026: rivales reales en la SERP, cuota de tráfico, brechas de palabras clave y citas en IA, con más de dos décadas de oficio.
 
-[leer más](https://mikebastin.com/es/analisis-de-la-competencia-seo/)
+[leer más](https://mikebastin.com/es/analisis-competitivo-seo/)
 
 [![Link building local en España](/images/legacy/2024/10/spanish-link-building-400x250.jpg)](https://mikebastin.com/es/link-building-local-en-espana/)
 
@@ -75,15 +75,15 @@ SEO multilingüe en 2026: cómo pasar de posicionar páginas a tener presencia t
 
 [leer más](https://mikebastin.com/es/seo-multilingue-2026-presencia-total/)
 
-[![El papel de la localización en el contenido web multilingüe](/images/legacy/2024/10/optimising-multilingual-website-content-400x250.jpg)](https://mikebastin.com/es/localizacion-de-contenido-web-multilingue/)
+[![El papel de la localización en el contenido web multilingüe](/images/legacy/2024/10/optimising-multilingual-website-content-400x250.jpg)](https://mikebastin.com/es/optimizar-contenido-web-multilingue/)
 
-## [El papel de la localización en el contenido web multilingüe](https://mikebastin.com/es/localizacion-de-contenido-web-multilingue/)
+## [El papel de la localización en el contenido web multilingüe](https://mikebastin.com/es/optimizar-contenido-web-multilingue/)
 
 por [Mike Bastin](# "Mensajes de Michael Bastin") | May 31, 2026 | [Sin categorizar](https://mikebastin.com/es/category/sin-categorizar/)
 
 Cómo la localización adapta el contenido web multilingüe a cada mercado: SEO, UX, CMS y métodos de pago locales, con más de dos décadas de experiencia.
 
-[leer más](https://mikebastin.com/es/localizacion-de-contenido-web-multilingue/)
+[leer más](https://mikebastin.com/es/optimizar-contenido-web-multilingue/)
 
 [![Diferencias culturales en sitios web multilingües](/images/legacy/2024/10/cultural-differences-in-multilingual-websites-400x250.jpg)](https://mikebastin.com/es/diferencias-culturales-sitios-web-multilingues/)
 
