@@ -17,10 +17,10 @@ excerpt: "Páginas en alemán escritas por nativos y pensadas para la búsqueda 
 
 Tu empresa ya vende en Alemania, Austria o la Suiza alemana, y tus páginas en alemán traen visitantes. El siguiente paso es que esas visitas se conviertan en peticiones de presupuesto. Un comprador alemán lee la página entera, la compara con otras dos o tres y busca quién hay detrás de la empresa antes de escribir. Te contacta cuando el alemán suena natural y encuentra todos los datos que espera.
 
-Alemania es la mayor economía de Europa. Un sitio alemán que gana esa comparación te abre el mercado más grande del continente, y las páginas que publiques este trimestre empiezan a ganar posiciones y peticiones desde este mismo trimestre.
+Alemania es la mayor economía de Europa. Un sitio alemán que gana esa comparación te abre el mercado más grande del continente, y cada página bien escrita sigue trabajando para ti los trimestres siguientes.
 
 <aside class="post-cta">
-<p><strong>¿Quieres que tus visitantes alemanes se conviertan en clientes?</strong> Construimos contigo un sitio alemán redactado por alemanes, que inspira confianza al comprador de habla alemana. <a href="/es/contactanos/">Reservar una primera conversación</a>.</p>
+<p><strong>¿Quieres que tus visitantes alemanes se conviertan en clientes?</strong> Construimos contigo un sitio alemán redactado por alemanes, que inspira confianza al comprador de habla alemana. <a href="/es/contactanos/">Reserva una consulta gratuita</a>.</p>
 </aside>
 
 ## Lo que hacemos para tu mercado de habla alemana
@@ -40,7 +40,7 @@ Tienes un único interlocutor, una única factura y un alemán escrito por alema
 
 ## Quién escribe tu alemán
 
-Te lo decimos desde la primera conversación, para que sepas quién hace qué. Sabemos alemán lo justo para dirigir proyectos SEO en ese idioma: resultados de búsqueda, páginas de la competencia, briefs y reuniones. Tus textos comerciales en alemán los redactan alemanes nativos, porque el registro es lo que vende y tiene que ser exacto.
+Te lo decimos desde el primer contacto, para que sepas quién hace qué. Nuestro alemán es suficiente para gestionar proyectos SEO en ese idioma: resultados de búsqueda, páginas de la competencia, briefs y reuniones. Tus textos comerciales en alemán los redactan alemanes nativos, porque el registro es lo que vende y tiene que ser exacto.
 
 Esos redactores son los traductores y redactores alemanes nativos de BeTranslated, la agencia de traducción que dirigimos desde hace veinte años y que Mike Bastin cofundó. Llevan años escribiendo para clientes que venden en Alemania, Austria y Suiza, a partir de nuestros briefs pensados para la página alemana. La estrategia se apoya en más de dos décadas de SEO.
 
@@ -64,7 +64,7 @@ Alrededor del sitio, la reputación se construye en Alemania: directorios profes
 
 ## Cómo trabajamos contigo
 
-Todo arranca con una primera conversación en español sobre tus ventas en los países de habla alemana. Te proponemos un alcance por escrito para el primer trimestre: qué mercado primero, qué páginas y en qué orden. Puedes reservar una auditoría gratuita de 20 minutos y te respondemos en un día laborable.
+Todo arranca con una consulta gratuita en español sobre tus ventas en los países de habla alemana. Te proponemos un alcance por escrito para el primer trimestre: qué mercado primero, qué páginas y en qué orden. Puedes reservar una auditoría gratuita de 20 minutos, y te respondemos por lo general en un día laborable.
 
 Después viene la investigación, que pone en el brief los términos alemanes que tus compradores escriben de verdad, y el redactor o traductor trabaja a partir de ese brief: la página sale bien a la primera. Si ya existe una traducción al alemán, la auditoría muestra qué páginas conviene reescribir en torno a la búsqueda alemana y cuáles se quedan como están. Suele ser un puñado de páginas.
 

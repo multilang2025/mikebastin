@@ -20,7 +20,7 @@ Tus páginas en francés y tus páginas en alemán pueden sumar resultados. En m
 Comprobamos si eso ocurre en tu web y corregimos lo que lo provoca. Así cada versión gana a sus propios compradores, y tu inversión en traducción se convierte en consultas.
 
 <aside class="post-cta">
-<p><strong>¿Quieres que cada versión de tu web encuentre por fin a sus propios compradores?</strong> Identificamos lo que frena tus mercados extranjeros y lo corregimos, idioma por idioma. <a href="/es/contactanos/">Reservar una primera conversación</a>.</p>
+<p><strong>¿Quieres que cada versión de tu web llegue a sus propios compradores?</strong> Revisamos cómo se ve cada uno de tus mercados extranjeros y lo ajustamos, idioma por idioma. <a href="/es/contactanos/">Reserva una consulta gratuita</a>.</p>
 </aside>
 
 ## Los ajustes que abren la visibilidad de una web multilingüe
@@ -35,7 +35,7 @@ Un rediseño o un cambio de CMS conserva el historial de la web cuando cada dire
 
 ## Páginas construidas para la intención de búsqueda
 
-Una lista de palabras clave ordenada por volumen dice qué se escribe; la intención dice quién compra. La investigación útil lee cómo formula la gente su problema, cómo compara las opciones y qué escribe cuando ya ha decidido, y ordena el trabajo por etapa de decisión. Tiene en cuenta también dónde aparece ahora la respuesta: una consulta resuelta en un resumen de IA o directamente en la página de resultados pide un contenido pensado para que lo citen. Elige los términos por intención, porque es ella la que hace convertir el tráfico.
+Una lista de palabras clave ordenada por volumen dice qué se escribe; la intención dice quién compra. La investigación útil lee cómo formula la gente su problema, cómo compara las opciones y qué escribe cuando ya ha decidido, y ordena el trabajo por etapa de decisión. Tiene en cuenta también dónde aparece ahora la respuesta: una consulta resuelta en un resumen de IA o directamente en la página de resultados pide un contenido pensado para que lo citen. Elige los términos por intención, porque es la intención la que convierte el tráfico en ventas.
 
 En la página, la estructura va antes que las palabras:
 
@@ -55,9 +55,9 @@ Configurada después, la analítica responde a preguntas sobre el mes pasado. Co
 
 ## Enlaces editoriales que aguantan con el tiempo
 
-Enlaces editoriales, presencia en páginas de recursos y artículos como invitado en webs con tráfico real y criterio editorial real. Partimos de una auditoría de tu perfil de enlaces actual y de los enlaces que tienen tus competidores mejor posicionados en cada país, y buscamos también enlaces rotos hacia tu web que se puedan recuperar. Elegimos enlaces ganados en sitios de cada mercado en el que vendes: un enlace alemán procede de una web alemana y uno neerlandés, de una web neerlandesa. Las redes de blogs privados y los enlaces comprados fuera de tu mercado son un riesgo diferido, y por eso son baratos.
+Enlaces editoriales, presencia en páginas de recursos y artículos como invitado en webs con tráfico real y criterio editorial real. Partimos de una auditoría de tu perfil de enlaces actual y de los enlaces que tienen tus competidores mejor posicionados en cada país, y buscamos también enlaces rotos hacia tu web que se puedan recuperar. Elegimos enlaces ganados en sitios de cada mercado en el que vendes: un enlace alemán procede de una web alemana y uno neerlandés, de una web neerlandesa. Esos enlaces ganados en tu propio mercado son los que siguen sumando con el tiempo.
 
-Lo que hace avanzar es la relevancia temática del dominio que enlaza, una diversidad de dominios de referencia construida con regularidad y anclas que se leen como escritas por una persona. Un buen enlace dura más que cincuenta comprados en lote.
+Lo que hace avanzar es la relevancia temática del dominio que enlaza, una diversidad de dominios de referencia construida con regularidad y anclas que se leen como escritas por una persona. Un buen enlace ganado sigue trabajando para ti año tras año.
 
 ## El inglés, un mercado con entidad propia
 
@@ -65,4 +65,4 @@ Una empresa que cuida sus versiones alemana y francesa gana también al cuidar s
 
 ## Cómo trabajamos
 
-Empezamos con una primera conversación sobre tu web y tus mercados; también puedes pedir una auditoría gratuita de 20 minutos. Después recibes por escrito el alcance del primer trimestre. La colaboración es mes a mes, y respondemos a cada consulta, normalmente en un día laborable. Para ver el conjunto del servicio, consulta nuestra página de [optimización SEO](/es/services/optimizacion-seo/) y los [precios](/es/precios/).
+Empezamos con una consulta gratuita sobre tu web y tus mercados; también puedes pedir una auditoría gratuita de 20 minutos. Después recibes por escrito el alcance del primer trimestre. La colaboración es mes a mes, y respondemos a cada consulta, normalmente en un día laborable. Para ver el conjunto del servicio, consulta nuestra página de [optimización SEO](/es/services/optimizacion-seo/) y los [precios](/es/precios/).

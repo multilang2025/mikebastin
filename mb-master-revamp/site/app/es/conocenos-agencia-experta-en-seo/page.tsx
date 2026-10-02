@@ -33,7 +33,7 @@ const POINTS = [
   {
     name: "La estrategia, dirigida directamente",
     detail:
-      "Definimos y seguimos nosotros mismos la estrategia de cada mercado: investigación, prioridades e informes mensuales. Sabes con quién hablas, desde la primera conversación hasta el último informe.",
+      "Definimos y seguimos nosotros mismos la estrategia de cada mercado: investigación, prioridades e informes mensuales. Sabes con quién hablas, desde la consulta gratuita hasta el último informe.",
   },
   {
     name: "Especialistas nativos, con nombre y apellidos",
@@ -124,7 +124,7 @@ export default function SpanishTeamPage() {
           <Reveal>
             <div className="mt-8 flex flex-wrap gap-4">
               <ButtonLink href="/es/contactanos/" size="lg">
-                Contáctanos
+                Reserva una consulta gratuita
               </ButtonLink>
               <ButtonLink href="/es/precios/" size="lg" variant="ghost">
                 Cómo se desarrolla un proyecto

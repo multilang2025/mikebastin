@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   ...pageMeta({
     title: "Agencia SEO internacional, Mike Bastin",
     description:
-      "Tus páginas en español ya venden. Hacemos que vendan también tus otros idiomas: SEO por mercado, textos de nativos y consultas contadas país por país.",
+      "Tus páginas en español ya venden. Hacemos que vendan también tus otros idiomas, con textos de nativos y consultas contadas por país. Consulta gratuita.",
     path: PATH,
     languages: esLanguages(PATH),
     ogLocale: "es_ES",
@@ -45,7 +45,7 @@ const SERVICES_FOR: { slug: string; name: string; line: string }[] = [
 ];
 
 const STEPS = [
-  "Una primera conversación de treinta minutos sobre tus mercados, tus idiomas y lo que ya has probado.",
+  "Una consulta gratuita de treinta minutos sobre tus mercados, tus idiomas y lo que ya has probado.",
   "Un alcance por escrito para el primer trimestre: las páginas, las palabras clave y quién hace qué.",
   "Una entrega mensual, mercado por mercado, a cargo de redactores nativos de la red BeTranslated, con la que trabajamos desde hace veinte años.",
   "Consultas contadas idioma por idioma, para saber qué mercado da resultados.",
@@ -80,13 +80,13 @@ export default function SpanishHome() {
           </Reveal>
           <Reveal i={3}>
             <p className="mb-10 max-w-[58ch] text-[clamp(1.05rem,1.65vw,1.24rem)]" style={{ color: "var(--dim)" }}>
-              Las visitas en tus otros idiomas ya existen. Convertirlas en consultas, mercado por mercado, es nuestro oficio desde hace más de dos décadas: palabras clave halladas en cada país, páginas escritas por nativos y resultados contados en consultas.
+              Las visitas en tus otros idiomas ya existen. Convertirlas en consultas, mercado por mercado, es nuestro oficio desde hace más de dos décadas: palabras clave investigadas en cada país, páginas escritas por nativos y resultados contados en consultas.
             </p>
           </Reveal>
           <Reveal i={4}>
             <div className="flex flex-wrap items-center gap-6">
               <ButtonLink href="/es/contactanos/" size="lg">
-                Reservar una primera conversación
+                Reserva una consulta gratuita
               </ButtonLink>
               <Link href="/es/services/" className="ulink text-[.98rem]">
                 Ver nuestros servicios
@@ -101,7 +101,7 @@ export default function SpanishHome() {
         <section className="band band-b py-[clamp(56px,8vw,104px)]">
           <div className="shell">
             <Reveal>
-              <h2 className="mb-3 text-[clamp(1.6rem,3vw,2.3rem)] font-semibold leading-[1.15]">El mercado donde quieres vender después</h2>
+              <h2 className="mb-3 text-[clamp(1.6rem,3vw,2.3rem)] font-semibold leading-[1.15]">El próximo mercado en el que quieres vender</h2>
               <p className="mb-10 max-w-[58ch]" style={{ color: "var(--dim)" }}>
                 Cada país busca con sus propias palabras, y escribimos tus páginas a partir de ellas.
               </p>
@@ -146,7 +146,7 @@ export default function SpanishHome() {
           </ul>
           <Reveal>
             <p className="mt-10 max-w-[62ch] text-[1.02rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
-              Los tres se llevan juntos y se miden por las consultas que cada mercado te envía.{" "}
+              Los tres servicios se coordinan entre sí y se miden por las consultas que cada mercado te envía.{" "}
               <Link href={leadGenPath("es")} className="ulink">
                 Ver nuestra generación de leads B2B
               </Link>

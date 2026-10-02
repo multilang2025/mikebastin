@@ -10,17 +10,17 @@ wpId: 24848039
 date: "2024-10-08T10:01:51"
 modified: "2026-09-29T12:00:00"
 sourceUrl: "https://mikebastin.com/fr/services/localisation-applications/"
-excerpt: "Votre application ou logiciel prêt pour l’Allemagne, l’Espagne ou le Benelux : une interface qui tient dans chaque langue et une fiche de store qui se trouve."
+excerpt: "Votre logiciel ou votre application prêts pour chaque marché, avec une interface claire et une fiche facile à trouver dans chaque langue."
 ---
 
-## Votre produit se vend à l’étranger, votre interface suit-elle ?
+## Votre produit se vend à l’étranger : votre interface peut suivre
 
 Vous lancez votre application ou votre logiciel en Allemagne, aux Pays-Bas ou en Espagne. Le texte arrive plus long en allemand, certains marchés lisent de droite à gauche, et les avis arrivent dans des langues nouvelles pour l’équipe. Les premiers points à régler touchent surtout l’interface : un bouton qui déborde, un libellé tronqué, une date lue comme le mauvais mois, un code postal local refusé.
 
-Chaque point réglé protège vos téléchargements et vos avis sur un marché où vous avez déjà investi. Préparé en amont, un produit accueille chaque nouvelle langue comme un travail de contenu ; préparé au fil des langues, il rouvre le code à chaque fois, et la deuxième finit par coûter plus cher que la première.
+Chaque point réglé protège vos téléchargements et vos avis sur un marché où vous avez déjà investi. Préparé en amont, un produit accueille chaque nouvelle langue comme un simple travail de contenu, et chaque marché suivant s’ouvre plus vite que le premier.
 
 <aside class="post-cta">
-<p><strong>Vous voulez que votre produit tienne dans chaque langue où vous le vendez ?</strong> Nous préparons le logiciel, adaptons son contenu et le testons sur place, marché par marché. <a href="/fr/nous-contacter/">Réserver un premier échange</a>.</p>
+<p><strong>Vous voulez que votre produit tienne dans chaque langue où vous le vendez ?</strong> Nous préparons le logiciel, adaptons son contenu et le testons sur place, marché par marché. <a href="/fr/nous-contacter/">Réserver une consultation gratuite</a>.</p>
 </aside>
 
 ## Ce que nous prenons en charge
@@ -33,7 +33,7 @@ Chaque point réglé protège vos téléchargements et vos avis sur un marché o
 - L’internationalisation de l’architecture, pour que l’ajout d’une langue devienne un travail de traduction.
 - Vos fichiers de chaînes dans leur format d’origine, JSON ou .properties par exemple, rendus prêts à intégrer.
 
-La traduction elle-même passe par des spécialistes nommés, pour la plupart issus du réseau BeTranslated, que nous animons depuis vingt ans. Voir aussi notre page [traduction professionnelle](/fr/services/traduction-professionnelle/).
+La traduction elle-même passe par des spécialistes nommés, pour la plupart issus du réseau BeTranslated, l’agence de traduction que nous dirigeons depuis vingt ans. Voir aussi notre page [traduction professionnelle](/fr/services/traduction-professionnelle/).
 
 ## Internationaliser d’abord, pour que chaque langue reste un travail de contenu
 
@@ -48,9 +48,9 @@ Cette étape décide du coût de tout le reste :
 
 Pour l’arabe ou l’hébreu, la mise en page elle-même s’adapte, en plus du sens du texte. Fait en amont, l’ajout d’une langue devient un travail de contenu, et le code reste en place pour chaque nouveau marché.
 
-## Votre fiche de store, une surface de recherche à part entière
+## Votre fiche sur les stores, un moteur de recherche à part entière
 
-Le titre, le sous-titre, la description et le champ de mots-clés sont indexés par store et par langue. Écrire chaque fiche dans sa langue tire parti de toute cette place : un utilisateur espagnol tape ses propres mots pour trouver une application, et les limites de caractères varient d’un store à l’autre.
+Le titre, le sous-titre, la description et le champ de mots-clés sont indexés par store et par langue. Écrire chaque fiche dans sa langue utilise toute cette place : un utilisateur espagnol tape ses propres mots pour trouver une application, et les limites de caractères varient d’un store à l’autre.
 
 Les captures d’écran comptent aussi. Une fiche qui montre à un visiteur allemand une interface en allemand lui signale, avant qu’il lise un mot, que l’application est faite pour lui.
 
@@ -62,6 +62,6 @@ Le premier test a lieu avant la traduction : une pseudo-localisation remplit l�
 
 ## Vos vidéos et contenus audio dans chaque langue
 
-Sous-titrage, voix off ou transcription, selon ce dont chaque contenu a besoin. Les sous-titres coûtent peu et apportent l’essentiel de la valeur, y compris pour ceux qui regardent en mode muet, c’est-à-dire la plupart. Une transcription sert deux fois : elle rend le contenu accessible et elle met sur la page des mots que les moteurs de recherche et les moteurs de réponse peuvent lire.
+Sous-titrage, voix off ou transcription, selon ce dont chaque contenu a besoin. Les sous-titres coûtent peu et apportent l’essentiel de la valeur, y compris pour ceux qui regardent sans le son. Une transcription sert deux fois : elle rend le contenu accessible et elle met sur la page des mots que les moteurs de recherche et les moteurs de réponse peuvent lire.
 
 Nous travaillons au mois, et chaque demande reçoit une réponse, en général sous un jour ouvré.

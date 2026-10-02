@@ -9,135 +9,137 @@ wpId: 24855845
 date: "2026-01-26T13:09:23"
 modified: "2026-05-31T16:27:47"
 sourceUrl: "https://mikebastin.com/es/medir-rendimiento-geo/"
-excerpt: "Mide cómo ChatGPT, Perplexity y Google AI Overviews citan tu marca: KPIs de GEO, datos estructurados y un seguimiento mensual para ganar visibilidad en IA."
+excerpt: "Mide cómo ChatGPT, Perplexity y Google AI Overviews citan tu marca: KPIs de GEO, herramientas y un seguimiento mensual para ganar visibilidad en IA."
 ---
 
 ![Article header image](/images/legacy/2026/01/medirrendimientogeoseguimiento-1024x585.jpg)
 
-## Medición de rendimiento GEO: cómo dominar la visibilidad en la era de la IA generativa
+Tus compradores en Francia, Alemania o el Benelux preguntan ya a ChatGPT, Perplexity o los AI Overviews de Google qué proveedores considerar. Si sabes cuántas veces te nombran esas respuestas, cómo te describen y en qué idioma, puedes invertir en las páginas que te llevan a la lista corta.
 
-El marketing digital gira en torno a Google y, cada vez más, en torno a la IA. Con la irrupción de **motores generativos** como ChatGPT, Claude, Perplexity y Google AI Overviews, las marcas deben competir por algo más valioso que un clic: **ser citadas como fuente de autoridad**.
+Aquí tienes los indicadores que conviene seguir, las herramientas que los miden hoy y una rutina mensual que tu equipo puede mantener.
 
-La **medición de rendimiento GEO** (Generative Engine Optimization) es ahora esencial para cualquier empresa B2B que quiera liderar su nicho en 2026.
+> **En resumen:** el éxito en GEO se mide por tu **cuota de citas** (citation share), el porcentaje de respuestas de IA que te mencionan frente a otras marcas de tu sector, mercado por mercado.
 
-Más allá de aparecer en una lista de resultados, se trata de **alimentar directamente las respuestas de la IA** con información precisa, estructurada y verificable.
+## Los KPIs que cuentan en GEO
 
-> **En resumen**: El éxito en 2026 se mide por tu **«citation share»** (el porcentaje de veces que la IA te menciona frente a otras marcas del sector).
+Una cita vale tanto como lo que dice de ti, así que conviene medir algo más que la presencia. Estos son los indicadores que importan:
 
-## KPIs críticos en GEO: más allá del tráfico
+-   **Cuota de citas:** porcentaje de respuestas de IA que citan tu marca frente a otras marcas.
+-   **Tono de la cita:** si la IA te presenta como «líder», «opción económica» o «fuente fiable».
+-   **Atribución de fuente:** si la respuesta enlaza a tu web o solo parafrasea tu contenido.
+-   **Precisión:** si la IA repite datos correctos sobre precios, fechas, servicios y mercados.
 
-En el ecosistema generativo, el peso pasa a nuevos indicadores. Estos son los **KPIs que importan**:
+Estos indicadores se apoyan en un [análisis competitivo SEO actualizado](https://mikebastin.com/es/analisis-competitivo-seo/), centrado en la autoridad temática y en cómo se describe tu empresa en la web.
 
--   **Citation share**: porcentaje de respuestas de IA que citan tu marca frente a otras marcas.
--   **Sentimiento de la cita**: ¿te presenta la IA como “líder”, “opción económica” o “fuente fiable”?
--   **Atribución de fuente**: ¿incluye la IA un enlace a tu web o parafrasea tu contenido?
--   **Precisión semántica**: ¿extrae la IA datos correctos (precios, fechas, servicios)?
+## Métricas SEO y métricas GEO, lado a lado
 
-Estos KPIs se apoyan en un [análisis competitivo SEO actualizado](https://mikebastin.com/es/analisis-competitivo-seo/), centrado en **autoridad temática y presencia en grafos de conocimiento**.
-
-## Comparativa: métricas SEO y GEO
+Cada métrica clásica tiene su equivalente en las respuestas de IA, y leerlas juntas evita juzgar un canal con la vara del otro.
 
 | Métrica tradicional (SEO) | Métrica generativa (GEO) | Objetivo de negocio |
 |---|---|---|
-| Posición media en SERP | Tasa de citación (citation rate) | Visibilidad de marca |
-| CTR (click-through rate) | Atribución de fuente | Tráfico de alta intención |
-| Autoridad de dominio (DA) | Confianza del modelo (model trust) | Autoridad semántica |
-| Volumen de backlinks | Calidad de entidades definidas | Fiabilidad ante la IA |
+| Posición media en los resultados | Tasa de citación | Visibilidad de marca |
+| CTR (porcentaje de clics) | Atribución de fuente | Tráfico de alta intención |
+| Autoridad de dominio | Frecuencia con que te eligen como fuente | Autoridad temática |
+| Volumen de backlinks | Coherencia de los datos de tu empresa | Fiabilidad ante la IA |
 
 ## Herramientas para rastrear tu presencia en motores generativos
 
-Mientras llegan dashboards oficiales de «GEO analytics», puedes usar estas estrategias:
+Medir bien te dice qué páginas reescribir primero. Hoy el seguimiento combina varias fuentes:
 
--   **Perplexity.ai + modo «copilot»**: verifica si tu web aparece como fuente en respuestas.
--   **ChatGPT + plugins de búsqueda**: simula consultas de clientes ideales y observa qué fuentes cita.
--   **Google AI Overviews**: busca en modo incógnito y revisa si tu contenido está en el resumen.
--   [**Herramientas gratuitas de análisis competitivo**](https://mikebastin.com/es/herramientas-gratuitas-analisis-competitivo/): adapta Ubersuggest o SimilarWeb para identificar quién domina en búsquedas conversacionales.
+-   **Google Search Console:** Google suma los clics e impresiones de AI Overviews y AI Mode al total de la búsqueda web en el informe de rendimiento, sin separarlos.
+-   **Google Analytics 4:** las visitas que llegan desde chatgpt.com, perplexity.ai o gemini.google.com aparecen como tráfico de referencia; crea un grupo de canales propio para verlas juntas.
+-   **Herramientas de visibilidad en IA:** el AI Visibility Toolkit de Semrush o Ahrefs Brand Radar siguen las menciones de tu marca en ChatGPT, Perplexity, Gemini, Copilot y las funciones de IA de Google.
+-   **Comprobaciones manuales:** pregunta a Perplexity, a ChatGPT con la búsqueda activada y a Google, y anota qué fuentes citan.
+-   [Herramientas gratuitas de análisis competitivo](https://mikebastin.com/es/herramientas-gratuitas-analisis-competitivo/): Ubersuggest o Similarweb te ayudan a ver quién domina las búsquedas conversacionales de tu sector.
 
-> **Consejo práctico**: haz un seguimiento mensual de 10 a 15 consultas clave de tu buyer persona. Documenta si apareces, cómo te describen y si te enlazan.
+> Fuente: [Google Search Central, AI features and your website](https://developers.google.com/search/docs/appearance/ai-features)
 
-## El rol del marcado de datos estructurados en GEO
+> **Consejo práctico:** sigue cada mes de 10 a 15 consultas clave de tu comprador ideal, en cada idioma de tus mercados. Anota si apareces, cómo te describen y si te enlazan.
 
-Los **datos estructurados en JSON-LD** son la base en GEO: son el lenguaje nativo de la IA.
+## La función de los datos estructurados en GEO
 
-### Tipos de schema esenciales:
+Los datos estructurados en JSON-LD describen tu empresa, tus autores y tus servicios de forma coherente. Google indica que sus funciones de IA no exigen un marcado especial, así que su valor en GEO está en que lo que la IA lee sobre ti coincida en tu web, en tus perfiles y en cada idioma. Lo explicamos en detalle en nuestra guía de [datos estructurados y schema para GEO](/es/datos-estructurados-schema-optimizacion-geo/).
 
--   `Organization`: define tu marca, logo y enlaces de autoridad (`sameAs`).
--   `Person`: acredita a autores con `jobTitle`, `knowsAbout` y perfiles profesionales.
--   `Service` / `Product`: detalla ofertas con `areaServed`, `offers` y `aggregateRating`.
--   `Article`: usa `about`, `mentions` y `citation` para facilitar la extracción de ideas.
+### Tipos de schema más útiles
 
-> **Ejemplo real**: la firma legal **Delaguía Luzón** optimizó sus guías con schema detallado sobre derecho internacional. Ahora, ChatGPT las cita como fuente en consultas complejas, generando leads altamente cualificados.
+-   `Organization`: define tu marca, tu logo y tus perfiles de referencia (`sameAs`).
+-   `Person`: presenta a los autores con `jobTitle`, `knowsAbout` y perfiles profesionales.
+-   `Service` / `Product`: detalla la oferta con `areaServed`, `offers` y `aggregateRating`.
+-   `Article`: usa `about`, `mentions` y `citation` para dejar claro el tema y las fuentes.
 
-Con este marcado, la IA **entiende** tu contenido y tu autoridad.
+<aside class="post-cta">
+<p><strong>¿Quieres saber cómo apareces en las respuestas de IA y cómo medirlo?</strong> Nuestra <a href="/es/services/consultoria-de-inteligencia-artificial/">consultoría de inteligencia artificial</a> analiza cómo aparecen tus contenidos en ChatGPT, Claude, Gemini o Perplexity, qué cambia para que te citen y cómo medir si funciona. <a href="/es/contactanos/">Pide tu auditoría gratuita de 20 minutos</a>.</p>
+</aside>
 
 ## Estrategia dual: sincronizar SEO y GEO en 2026
 
-Mantén el SEO y hazlo evolucionar:
+El SEO sigue siendo la base, y el GEO se construye encima:
 
-1.  **Identifica a tus competidores GEO**: pueden ser otros que los de Google. Usa búsquedas conversacionales para descubrirlos.
-2.  **Localiza para la IA**: los modelos como GPT-4o son multilingües, pero citan mejor fuentes **localizadas**.  
-    → combina [**SEO multilingüe**](/es/services/posicionamiento-multilingue/) con contenido adaptado culturalmente.
-3.  **Optimiza para voz y chat**: las consultas son preguntas largas (“¿cuál es la mejor agencia de SEO en Valencia para empresas B2B?”). Responde con encabezados H2/H3 en formato pregunta-respuesta.
+1.  **Identifica a tus competidores en GEO:** pueden ser otros que los de Google. Usa búsquedas conversacionales para descubrirlos.
+2.  **Localiza para la IA:** los modelos de lenguaje son multilingües y responden en el idioma de quien pregunta, así que cada mercado necesita sus propias páginas. Combina el [SEO multilingüe](/es/services/posicionamiento-multilingue/) con contenido adaptado a cada cultura.
+3.  **Escribe para la voz y el chat:** las consultas son preguntas largas («¿cuál es la mejor agencia de SEO en Valencia para empresas B2B?»). Responde con encabezados H2 y H3 en formato de pregunta y respuesta.
 
-> **Caso de éxito**: **BeTranslated** usa esta estrategia para posicionarse en francés, alemán y neerlandés. La IA cita la versión local correcta según el idioma del usuario.
+Mide cada idioma por separado: una versión francesa citada y una alemana ausente se compensan en una media global y quedan a la vista en un informe por mercado.
 
-## Impacto en el embudo B2B: la IA como primer punto de contacto
+## La IA como primer punto de contacto en el embudo B2B
 
-Hoy, el cliente B2B **ya ha interactuado con la IA antes de visitar tu web**. Cuando estás en esas respuestas:
+Muchos compradores B2B han preguntado a una IA antes de visitar tu web. Cuando estás en esas respuestas:
 
 -   Ganas credibilidad desde el inicio.
--   Defines tu sector.
+-   Formas parte de cómo se describe tu sector.
 -   Tus leads llegan mejor informados.
 
-## Checklist: optimización de contenido para citas de IA
+## Lista de comprobación: contenido preparado para las citas de IA
 
--   **Claridad**: frases cortas, respuestas directas a preguntas del sector.
--   **Datos verificables**: incluye fechas, cifras, nombres y estudios.
--   **Estructura P+R**: usa H3 como “¿qué es el GEO?” o “¿cómo medir el citation share?”.
--   **E-E-A-T visible**: autores con biografías, credenciales y enlaces a [LinkedIn](https://www.linkedin.com/in/michaelbastin/) o publicaciones.
--   **Schema integrado**: todo el contenido debe tener JSON-LD válido.
+-   **Claridad:** frases cortas y respuestas directas a las preguntas de tu sector.
+-   **Datos verificables:** fechas, cifras, nombres y estudios con su fuente.
+-   **Estructura de pregunta y respuesta:** usa H3 como «¿qué es el GEO?» o «¿cómo medir la cuota de citas?».
+-   **E-E-A-T visible:** autores con biografía, credenciales y enlaces a [LinkedIn](https://www.linkedin.com/in/michaelbastin/) o a sus publicaciones.
+-   **Marcado coherente:** JSON-LD válido que repite lo que dice la página.
 
-## Casos reales: GEO en acción
+## Qué consultas seguir según tu sector
 
-| Sector | Cliente | Estrategia GEO | Resultado |
+Las consultas que vale la pena seguir son las que haría tu comprador antes de elegir proveedor. Dos ejemplos de sectores en los que trabajamos:
+
+| Sector | Ejemplo de cliente | Consulta de ejemplo | Qué comprobar |
 |---|---|---|---|
-| Inmobiliario | C21 Perdomo | Contenido estructurado en torno a preguntas como “¿dónde invertir en lujo en República Dominicana?” | Citado por ChatGPT en consultas de inversión |
-| Logística global | Texas Freight | Datos precisos sobre normativas aduaneras, actualizados en tiempo real | Fuente de confianza en consultas internacionales |
+| Inmobiliario | C21 Perdomo | «¿Dónde invertir en una vivienda de lujo en República Dominicana?» | Si la respuesta cita la agencia y en qué idioma |
+| Logística internacional | TX International Freight | «¿Qué transitario de Texas gestiona envíos internacionales?» | Si aparece la empresa y con qué servicios |
 
-## Preguntas frecuentes (FAQ)
+## Preguntas frecuentes
 
-### ¿Qué es la medición de rendimiento GEO?
+### ¿Qué es la medición del rendimiento GEO?
 
-Es el análisis de cuánto y cómo te citan los motores generativos (ChatGPT, Perplexity, etc.), basado en **citation share**, **sentimiento** y **precisión de datos**.
+Es el análisis de cuánto y cómo te citan los motores generativos (ChatGPT, Perplexity, AI Overviews y otros), a partir de la **cuota de citas**, el **tono** y la **precisión de los datos**.
 
-### ¿GEO sustituye al SEO?
+### ¿Sustituye el GEO al SEO?
 
-Lo complementa. El SEO sigue siendo crucial para el tráfico directo, y el GEO asegura **visibilidad en la nueva primera página**: las respuestas de IA.
+Lo complementa. El SEO sigue trayendo el tráfico directo, y el GEO te da **visibilidad en la nueva primera página**: las respuestas de IA.
 
 ### ¿Cómo empezar a rastrear las citas de tu marca?
 
-1.  Define de 10 a 15 consultas clave de tu buyer persona.
-2.  Pregúntale a Perplexity, ChatGPT y Google (modo incógnito).
-3.  Registra si apareces, cómo te describen y si te enlazan.
+1.  Define de 10 a 15 consultas clave de tu comprador ideal, en cada idioma.
+2.  Pregunta a Perplexity, a ChatGPT y a Google en una ventana de incógnito.
+3.  Registra si apareces, cómo te describen y si te enlazan, y repítelo cada mes.
 
-### ¿Es obligatorio el schema para GEO?
+### ¿Es obligatorio el schema para el GEO?
 
-**Sí.** Con JSON-LD, la IA identifica las entidades con claridad. Usa `Organization`, `Person` y `Service` como mínimo.
+Para Google, el schema es opcional: sus funciones de IA se apoyan en el contenido visible. Aun así, `Organization`, `Person` y `Service` bien definidos describen tu empresa con coherencia y ayudan a que todo lo que se dice de ti coincida.
 
-### ¿Sirve el contenido generado por IA para GEO?
+### ¿Sirve el contenido generado por IA para el GEO?
 
-Solo si está **supervisado por expertos humanos**. La IA premia el **contenido original, técnico y verificado** (E-E-A-T).
+Sirve cuando lo **supervisan expertos**. Las respuestas de IA tienden a citar **contenido original, técnico y verificado**, con las señales de experiencia que resume el E-E-A-T.
 
-## ¿Listo para liderar en la era generativa?
+## Empieza a medir tu presencia en la IA
 
-Apostar hoy por el GEO es como apostar por el móvil en 2010. Hoy es el momento de posicionarte como **fuente de autoridad** en los motores de IA.
+El mejor momento para empezar a medir es antes de que tus competidores ocupen esas respuestas. Con una línea base de hoy, cada mejora del próximo trimestre se ve.
 
-En **Mike Bastin**, combinamos:
+En **Mike Bastin** combinamos:
 
--   Auditorías técnicas de schema
--   Estrategias de contenido para LLMs
+-   Revisión técnica de tus datos estructurados
+-   Estrategias de contenido para modelos de lenguaje
 -   [SEO multilingüe](/es/services/posicionamiento-multilingue/) con enfoque GEO
 
-…para que **tu marca sea la respuesta**.
+…para que tu marca aparezca en las respuestas de cada mercado.
 
-[Solicitar auditoría GEO gratuita](/es/services/)
+[Solicitar una auditoría GEO](/es/services/)

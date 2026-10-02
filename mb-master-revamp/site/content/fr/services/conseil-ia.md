@@ -1,6 +1,6 @@
 ---
 words: 677
-title: "Conseil en IA pour les entreprises"
+title: "Conseil en IA pour les entreprises qui vendent à l’international"
 name: "Conseil en IA"
 slug: "conseil-ia"
 locale: "fr"
@@ -22,12 +22,12 @@ La phrase à surveiller est la phrase fluide, professionnelle et discrètement f
 Notre conseil en IA vous dit précisément quelle partie de votre activité multilingue gagne à être automatisée, et laquelle a encore besoin d’une personne.
 
 <aside class="post-cta">
-<p><strong>Vous voulez savoir quelle part de vos contenus étrangers l’IA peut réellement prendre en charge ?</strong> Nous examinons vos marchés et vos contenus, puis nous vous disons où l’automatisation rapporte et où elle doit être relue. <a href="/fr/nous-contacter/">Réserver un premier échange</a>.</p>
+<p><strong>Vous voulez savoir quelle part de vos contenus étrangers l’IA peut réellement prendre en charge ?</strong> Nous examinons vos marchés et vos contenus, puis nous vous disons où l’automatisation rapporte et où elle doit être relue. <a href="/fr/nous-contacter/">Réserver une consultation gratuite</a>.</p>
 </aside>
 
 ## Une traduction automatique relue par quelqu’un qui lit la langue
 
-Les moteurs actuels sont assez bons pour prendre en charge le premier jet, et leur production se publie après lecture. Le dispositif qui fonctionne tient en trois points :
+Les moteurs actuels sont assez bons pour prendre en charge le premier jet, et leur production se publie après relecture. Le dispositif qui fonctionne tient en trois points :
 
 - un moteur choisi et réglé pour votre domaine ;
 - un éditeur natif sur les contenus qui engagent votre entreprise ;
@@ -60,6 +60,6 @@ Ces indicateurs s’accompagnent de chiffres par marché, pour voir séparément
 
 ## Un accompagnement au mois, avec des spécialistes nommés
 
-Nous accompagnons le [référencement multilingue](/fr/services/referencement-multilingue/) et les contenus internationaux des entreprises depuis plus de vingt ans, et nous sommes basés à Valence depuis 2016. La rédaction native et la traduction passent par des spécialistes nommés, la plupart issus du réseau BeTranslated, que nous animons depuis vingt ans. Si vos contenus étrangers restent à produire, voyez aussi notre [création de contenu multilingue](/fr/services/creation-de-contenu-multilingue/).
+Nous accompagnons le [référencement multilingue](/fr/services/referencement-multilingue/) et les contenus internationaux des entreprises depuis plus de deux décennies, et nous sommes basés à Valencia depuis 2016. La rédaction native et la traduction passent par des spécialistes nommés, la plupart issus du réseau BeTranslated, l’agence de traduction que nous dirigeons depuis vingt ans. Si vos contenus étrangers restent à produire, voyez aussi notre [création de contenu multilingue](/fr/services/creation-de-contenu-multilingue/).
 
 L’accompagnement se fait au mois, et chaque demande reçoit une réponse, en général sous un jour ouvré.

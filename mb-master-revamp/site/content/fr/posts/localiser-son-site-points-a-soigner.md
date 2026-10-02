@@ -12,11 +12,13 @@ sourceUrl: null
 excerpt: "Dix points à soigner pour qu’un site traduit se lise comme un site local : ton, prix, formulaires, paiements et recherche, expliqués un à un."
 ---
 
-Votre site traduit est en ligne et les premiers visiteurs du Royaume-Uni, d’Allemagne ou des Pays-Bas arrivent : reste à en faire des acheteurs. Le plus souvent, le site fonctionne très bien sur le plan technique. Il lui faut surtout se lire comme un site local, avec un ton adapté, des prix au format attendu et un formulaire qui accepte une adresse locale, pour que le visiteur reste chez vous.
+Votre site traduit est en ligne et les premiers visiteurs du Royaume-Uni, d’Allemagne ou des Pays-Bas arrivent : reste à en faire des acheteurs. Le site fonctionne ; l’étape qui reste est de lui donner l’allure d’un site local, avec un ton adapté, des prix au format attendu et un formulaire qui accepte une adresse du pays.
 
-Voici dix points de localisation de site web qui y mènent, regroupés selon l’endroit où ils s’appliquent.
+Chacun de ces réglages garde chez vous un visiteur qui compare avec les concurrents installés sur place. Voici dix points de localisation de site web qui y mènent, regroupés selon l’endroit où ils s’appliquent.
 
 ## Langue et culture
+
+Le visiteur juge en quelques secondes si la page a été écrite pour lui. Ces quatre points en décident.
 
 ### Tenir compte des différences culturelles
 
@@ -24,17 +26,19 @@ Chaque pays lit un contenu à travers sa propre culture. Ce qui se vend bien en 
 
 ### Transcréer le message
 
-Une traduction littérale est correcte sur le plan grammatical. La transcréation, que nous pratiquons avec notre [traduction professionnelle](/fr/services/traduction-professionnelle/), adapte la voix, le style et le message à la culture locale : elle porte le ton, l’intention et la pertinence locale qui font vendre, et garde toute sa force à la marque.
+Une traduction littérale est correcte sur le plan grammatical. La transcréation, que nous pratiquons avec notre [traduction professionnelle](/fr/services/traduction-professionnelle/), adapte la voix, le style et le message à la culture locale : elle porte le ton, l’intention et la pertinence locale qui font vendre, et garde toute sa force à la marque. Un slogan, un titre de page d’accueil ou un appel à l’action se réécrivent ; une notice technique se traduit.
 
 ### Adapter les visuels
 
-La bonne photo dit au visiteur que la page a été pensée pour lui. Les icônes, les gestes, les codes vestimentaires et la représentation des familles varient beaucoup d’une culture à l’autre.
+La bonne photo dit au visiteur que la page a été pensée pour lui. Les icônes, les gestes, les codes vestimentaires, les intérieurs et la représentation des familles varient beaucoup d’une culture à l’autre.
 
 ### Garder une voix de marque cohérente
 
-Localisez le message et conservez la personnalité. Un guide de style que chaque traducteur suit maintient votre positionnement intact dans toutes les langues.
+Localisez le message et conservez la personnalité. Un guide de style suivi par chaque traducteur, avec le registre retenu pour chaque langue, maintient votre positionnement intact partout.
 
 ## Recherche et technique
+
+Une page juste rapporte quand elle est trouvée, et quand elle s’affiche bien sur l’appareil du visiteur.
 
 ### Travailler le SEO local et les mots-clés dans chaque langue
 
@@ -42,21 +46,29 @@ Une page traduite se positionne quand elle est construite pour la recherche loca
 
 ### Concevoir pour le mobile
 
-Certains marchés sont d’abord mobiles, d’autres restent plus proches du poste de bureau, et une page rapide et aérée retient les visiteurs dans les deux cas. Rendez chaque version de langue adaptative et rapide.
+Certains marchés achètent d’abord sur mobile, d’autres restent plus proches de l’ordinateur de bureau, et une page rapide et aérée retient les visiteurs dans les deux cas. Rendez chaque version de langue adaptative et rapide, avec les textes les plus longs, souvent l’allemand, en référence pour la mise en page.
 
 ### Tester chaque version
 
 Un test repère chaque défaut avant votre client. Testez chaque version localisée avant le lancement : qualité de la traduction, navigation, champs de formulaire, passerelles de paiement et vitesse, sur plusieurs navigateurs et appareils.
 
 <aside class="post-cta">
-<p><strong>Vous voulez que chaque version localisée soit vérifiée avant qu’un acheteur la voie ?</strong> Notre <a href="/fr/services/localisation-de-site-web/">localisation de site web</a> inclut un contrôle qualité complet dans chaque langue avant le lancement : affichage, fonctionnement et justesse culturelle de chaque formulaire, menu et élément d’interface. <a href="/fr/nous-contacter/">Réservez un premier échange</a>.</p>
+<p><strong>Vous voulez que chaque version localisée soit vérifiée avant qu’un acheteur la voie ?</strong> Notre <a href="/fr/services/localisation-de-site-web/">localisation de site web</a> vérifie avant le lancement chaque formulaire, menu, sélecteur de langue et média, dans chaque langue : affichage, fonctionnement et adéquation culturelle. <a href="/fr/nous-contacter/">Réservez un premier échange</a>.</p>
 </aside>
 
 ## Droit, paiements et expérience utilisateur
 
+Ces trois points se jouent au moment de payer, là où la confiance devient du chiffre d’affaires.
+
 ### Respecter les lois locales
 
 La conformité vous met à l’abri des amendes et préserve la confiance des acheteurs. Chaque marché a ses règles sur la protection des données, le consentement aux cookies et le commerce en ligne : la politique de confidentialité, les conditions générales et le tunnel de commande suivent donc les exigences locales.
+
+Quelques exemples concrets :
+
+- en Allemagne, les mentions légales (Impressum) relèvent du § 5 de la loi sur les services numériques (DDG), en vigueur depuis mai 2024 ;
+- au Royaume-Uni, le UK GDPR et les règles PECR encadrent les données personnelles et les cookies, en parallèle du RGPD européen ;
+- dans l’Union européenne, l’Acte européen sur l’accessibilité s’applique depuis le 28 juin 2025 à la plupart des services de commerce en ligne.
 
 ### Adapter les moyens de paiement et les formats
 
@@ -66,14 +78,17 @@ Les clients finalisent leur achat quand ils paient à leur façon, et quand les 
 | --- | --- | --- | --- |
 | Devise | £ | € | € |
 | Format des nombres | 1,000.50 | 1.000,50 | 1.000,50 |
-| Paiement courant | Cartes | PayPal | iDEAL |
+| Paiement courant | Cartes | PayPal, achat sur facture | iDEAL, en cours de passage à Wero |
+
+> Aux Pays-Bas, les paiements iDEAL passent progressivement sur l’infrastructure Wero à partir d’octobre 2026, une migration que banques et prestataires visent à terminer au plus tard le 31 décembre 2027.
+> Source : [Dutch Payments Association, « Next Phase of iDEAL Migration to Wero Begins in October », 16 juillet 2026](https://www.betaalvereniging.nl/en/news/next-phase-of-ideal-migration-to-wero-begins-in-october/)
 
 ### Localiser l’expérience utilisateur
 
-Chaque région a ses habitudes, et la friction se lit dans le taux de rebond : suivez-le avec autant d’attention que les réclamations. Localisez la navigation, les appels à l’action et les champs de formulaire (les formats de code postal et d’adresse diffèrent eux aussi).
+Chaque région a ses habitudes, et la friction se lit dans le taux de rebond : suivez-le par langue avec autant d’attention que les réclamations. Localisez la navigation, les appels à l’action et les champs de formulaire, y compris les formats de code postal et d’adresse.
 
 ## Par où commencer
 
-La localisation d’un site web est un investissement stratégique. Commencez par les points les plus proches de la vente (paiements, formulaires et confiance), puis avancez vers la recherche et la culture.
+Commencez par les points les plus proches de la vente (paiements, formulaires et confiance), puis avancez vers la recherche et la culture. Ce sont les réglages qui transforment le plus vite des visites en commandes.
 
-Forts de plus de deux décennies dans le SEO, la traduction et le marketing, nous aidons les entreprises à bâtir des sites adaptés à chaque marché et visibles sur celui-ci. Nos services de [localisation de site web](/fr/services/localisation-de-site-web/) couvrent les dix points, et vous pouvez [nous contacter](/fr/nous-contacter/) pour faire le tour des vôtres.
+Forts de plus de deux décennies dans le SEO, la traduction et le marketing, nous aidons les entreprises à bâtir des sites adaptés à chaque marché et visibles sur celui-ci. Nos services de [localisation de site web](/fr/services/localisation-de-site-web/) commencent par une évaluation gratuite de la localisation d’un marché, et vous pouvez [nous contacter](/fr/nous-contacter/) pour la demander.

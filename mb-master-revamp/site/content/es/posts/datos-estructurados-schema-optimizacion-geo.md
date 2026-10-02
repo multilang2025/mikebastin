@@ -10,161 +10,150 @@ wpId: 24855842
 date: "2026-01-26T16:45:08"
 modified: "2026-05-31T16:27:44"
 sourceUrl: "https://mikebastin.com/es/datos-estructurados-schema-optimizacion-geo/"
-excerpt: "Datos estructurados y schema bien aplicados mejoran tu visibilidad SEO y la comprensión semántica en buscadores y en motores de IA."
+excerpt: "Datos estructurados y schema que describen tu empresa igual en cada idioma: así Google y los motores de IA te entienden y te citan con precisión."
 ---
 
 ![Imagen de cabecera del artículo](/images/legacy/2026/01/datosestructuradosschemaoptimi-1024x585.jpg)
 
-## El SEO ha evolucionado: bienvenido a la era de la IA generativa
+Google sigue mostrando enlaces y, cada vez más, responde con IA: AI Overviews, AI Mode, y fuera de Google, ChatGPT, Perplexity o Claude. Tu web tiene que describir tu empresa con tanta claridad que cualquiera de esos sistemas la entienda igual en cada idioma, y te cite con los datos correctos.
 
-Google muestra enlaces y ahora también responde directamente con IA. Tu contenido tiene que aparecer en esas respuestas para seguir en el juego. El objetivo, además de estar en la primera página, es que modelos como Perplexity, Claude o SearchGPT te citen como fuente fiable.
+Los datos estructurados son una de las piezas de esa claridad. Aquí verás qué tipos de schema importan, qué dice Google de verdad sobre su papel en las funciones de IA y cómo implantarlos paso a paso.
 
-Para lograrlo, necesitas **datos estructurados para GEO** (Generative Engine Optimization). Son la forma en que la IA entiende quién eres, qué haces y por qué debe confiar en ti.
+Si quieres que alguien revise contigo cómo te leen estos sistemas, nuestra [consultoría de inteligencia artificial](https://mikebastin.com/es/services/consultoria-de-inteligencia-artificial/) empieza justo por ahí.
 
-Si quieres que tu negocio destaque en 2026, necesitas una [consultoría de inteligencia artificial](https://mikebastin.com/es/services/consultoria-de-inteligencia-artificial/) que te ayude a estructurar tu web para que la IA te lea, te entienda y te recomiende.
+**En resumen:** los datos estructurados dan a Google resultados enriquecidos y un contexto preciso sobre quién eres. Para la IA, lo que más pesa es el texto visible; el marcado ayuda cuando repite exactamente ese texto. Usa bien la propiedad `sameAs`, define tus entidades con claridad y valida todo.
 
-**En resumen:** Los datos estructurados sirven para las estrellitas en Google y, sobre todo, son el lenguaje nativo de la IA. Usa bien la propiedad `sameAs`, define tus entidades con claridad y valida todo técnicamente. Así alimentarás a los LLMs y aparecerás en sus respuestas.
+## Qué aportan los datos estructurados al GEO
 
-## ¿Qué es el GEO y por qué importa ya?
+El GEO (generative engine optimization) busca que la IA te cite, y una cita correcta empieza por una descripción sin ambigüedad. Los datos estructurados en JSON-LD dicen a Google qué hay en tu página: antes se usaban sobre todo para mostrar precios o valoraciones, y hoy describen también las relaciones entre personas, empresas, servicios y hechos.
 
-Los datos estructurados (en JSON-LD) le dicen a la IA exactamente qué hay en tu página. Antes los usábamos para que Google mostrara precios o reseñas. Ahora sirven para que la IA entienda relaciones entre personas, empresas, servicios y hechos, con precisión.
+Google es claro sobre sus propias funciones de IA: no hacen falta archivos especiales ni un marcado específico.
 
-Si vendes en varios países, esto se multiplica. Necesitas [SEO multilingüe avanzado](https://mikebastin.com/es/services/posicionamiento-multilingue/) con datos estructurados adaptados a cada idioma y región. La IA interpreta cada idioma, y te muestra en alemán o francés cuando entiende tu relevancia en ese idioma.
+> No hace falta crear archivos legibles por máquina, archivos de texto para IA ni marcado nuevo para aparecer en AI Overviews o AI Mode, ni añadir datos estructurados especiales de schema.org.
+>
+> Fuente: [Google Search Central, AI features and your website](https://developers.google.com/search/docs/appearance/ai-features)
 
-### De buscar palabras a entender entidades
+Lo mismo vale para los archivos llms.txt: Google indica que no los necesita para la búsqueda y que no afectan al posicionamiento, aunque puedes mantenerlos para otros servicios. Por eso el valor del schema en GEO está en la coherencia: describe tu empresa igual en tu web, en tus perfiles y en cada idioma, y esa coherencia es la que hace fiable lo que la IA repite sobre ti.
 
-Antes, Google buscaba “palabras clave”. Hoy, los motores generativos buscan “entidades” y “hechos”. Cuando tu web dice claramente:
+Si vendes en varios países, el efecto se multiplica. Necesitas un [SEO multilingüe](https://mikebastin.com/es/services/posicionamiento-multilingue/) con datos estructurados adaptados a cada idioma y región, para que cada versión describa la misma empresa en el idioma de su comprador.
+
+### De palabras clave a entidades
+
+Los buscadores y los motores generativos ya leen entidades y hechos, además de palabras clave. Cuando tu web dice con claridad:
 
 -   Quién eres (`Organization`)
 -   Qué ofreces (`Service`)
 -   Quién escribe (`Person`)
 
-…la IA sabe que puede confiar en ti. Y te cita.
+…tu empresa queda descrita sin ambigüedad, y una respuesta que te cite repite datos correctos.
 
 ## Schema que importa para la IA
 
-Algunos tipos de Schema pesan más que otros. Estos son los que más peso tienen en GEO:
+Unos pocos tipos de schema hacen casi todo el trabajo de describir tu empresa. Estos son los que más cuentan:
 
-Tipo de Schema
+| Tipo de schema | Para qué sirve | Propiedades clave |
+|---|---|---|
+| `Organization` | Define tu marca como entidad | `sameAs`, `logo`, `brand` |
+| `Person` | Muestra la experiencia de quien escribe (E-E-A-T) | `jobTitle`, `alumniOf`, `knowsAbout` |
+| `Article` / `BlogPosting` | Deja claros el tema, la autoría y las fechas | `about`, `mentions`, `citation` |
+| `Service` | Describe tu oferta y dónde la prestas | `offers`, `areaServed`, `provider` |
 
-Para qué sirve en GEO
+Antes de implementarlos, haz un [análisis competitivo SEO](https://mikebastin.com/es/analisis-competitivo-seo/) y mira cómo marcan sus páginas tus rivales. A veces, ganar terreno es tan sencillo como describir con claridad lo que ellos dejan vago.
 
-Propiedades clave
+Los resultados enriquecidos también cambian. Google dejó de mostrar los de FAQ el 7 de mayo de 2026 y los de HowTo en 2023; el marcado `FAQPage` sigue siendo vocabulario válido, pero ya no produce un resultado especial en Google.
 
-`Organization`
-
-Define tu marca como entidad fiable.
-
-`sameAs`, `logo`, `brand`
-
-`Person`
-
-Muestra la experiencia de quien escribe (E-E-A-T).
-
-`jobTitle`, `alumniOf`, `knowsAbout`
-
-`Article` / `BlogPosting`
-
-Permite que la IA extraiga ideas clave con claridad.
-
-`about`, `mentions`, `citation`
-
-`Service`
-
-Ayuda a la IA a comparar tu oferta con otras.
-
-`offers`, `areaServed`, `provider`
-
-Antes de implementarlos, haz un [análisis competitivo SEO](https://mikebastin.com/es/analisis-competitivo-seo/). Mira cómo estructuran sus datos tus rivales. A veces, ganar en GEO es tan fácil como cubrir un vacío que ellos dejan libre.
+> Fuente: [Google Search Central, actualizaciones de la documentación](https://developers.google.com/search/updates)
 
 ### La clave: la propiedad `sameAs`
 
-Esta propiedad une tu web con tu perfil en LinkedIn, Google Business, Wikidata o directorios profesionales. Le dice a la IA: “esto es la misma entidad en todas partes”. Cuantas más fuentes autorizadas apunten a ti, más fiel es lo que la IA dice sobre tu empresa.
+Esta propiedad une tu web con tus perfiles en LinkedIn, Google Business Profile, Wikidata o directorios profesionales, y dice «esta es la misma entidad en todas partes». Cuantas más fuentes fiables coinciden contigo, más fiel es lo que se dice de tu empresa.
 
-Ejemplo: tu [perfil de LinkedIn](https://www.linkedin.com/in/michaelbastin/) y tu [ficha de Google Business](https://www.google.com/maps/place//data=!4m2!3m1!1s0xd6048f48e63ffff:0x1be84e97abaa5aa1?sa=X&ved=1t:8290&ictx=111) deben estar enlazadas desde tu `Organization` con `sameAs`.
+Ejemplo: tu [perfil de LinkedIn](https://www.linkedin.com/in/michaelbastin/) y tu [ficha de Google Business Profile](https://www.google.com/maps/place//data=!4m2!3m1!1s0xd6048f48e63ffff:0x1be84e97abaa5aa1?sa=X&ved=1t:8290&ictx=111) se enlazan desde tu `Organization` con `sameAs`.
 
-## Cómo asegurar que la IA te cite
+<aside class="post-cta">
+<p><strong>¿Quieres que tus datos estructurados digan lo mismo en cada idioma?</strong> En nuestra <a href="/es/services/consultoria-de-inteligencia-artificial/">consultoría de inteligencia artificial</a> aplicamos datos estructurados que dicen quién eres, qué ofreces y en qué te has especializado, y reforzamos las señales que reutilizan los modelos. <a href="/es/contactanos/">Pide tu auditoría gratuita de 20 minutos</a>.</p>
+</aside>
 
-Además de añadir un bloque de JSON-LD, crea un **grafo interno**. Por ejemplo, si publicas un caso de éxito, vincula:
+## Cómo ayudar a que la IA te cite
+
+Un bloque de JSON-LD aislado describe una página; un **grafo interno** describe tu empresa entera. Si publicas un caso de éxito, por ejemplo, conecta:
 
 -   El servicio prestado
 -   La empresa cliente
 -   El autor del artículo
 
-Todo con entidades conectadas. Así, la IA ve tu web como una base de conocimiento coherente.
+Con las entidades conectadas, tu web se lee como una base de conocimiento coherente. Este trabajo une contenido y técnica, y en [nuestros servicios](/es/services/) los tratamos juntos, porque la IA lee relaciones además de texto.
 
-Esto requiere integración entre contenido y técnica. Por eso muchas empresas eligen [marketing digital en Valencia](/es/services/) con enfoque técnico: porque la IA lee relaciones además de texto.
+Nuestra forma de verlo: el GEO funciona por claridad. Cuanto más claro y coherente es lo que publicas, más fácil resulta elegirte como fuente.
 
-> «El GEO no engaña a la IA. Le das tanta claridad que no tiene otra opción que elegirte.»
+### Estructura también tu HTML
 
-### Estructura tu HTML también
+El JSON-LD suele ir en el `<head>`, y el contenido visible coincide con él al 100 %: si el código dice que un producto cuesta 100 €, la página también dice 100 €. Google exige esa coincidencia, y es lo que hace fiables tus datos para cualquier sistema que los lea.
 
-El JSON-LD va en el `<head>`, y el contenido visible debe coincidir al 100 %: si el código dice que un producto cuesta 100 €, la web también dice 100 €. Así la IA confía en tus datos, y Google también.
+## Mira lo que hacen tus competidores
 
-## Mira lo que hacen los demás (pero bien)
+Además de analizar palabras clave, conviene ver qué entidades dominan las respuestas de IA en tu sector. Usa [herramientas para analizar el tráfico de la competencia](https://mikebastin.com/es/analizar-trafico-web-competencia/) y descubre si reciben visitas desde asistentes de IA.
 
-Además de analizar keywords, ahora debes ver qué entidades dominan las respuestas de IA en tu sector.
-
-Usa [herramientas para analizar el tráfico de la competencia](https://mikebastin.com/es/analizar-trafico-web-competencia/) y descubre si reciben visitas desde asistentes de IA.
-
-Tus verdaderos rivales en GEO pueden ser otros que los que imaginas. A veces, un blog o un medio de noticias compite por la misma cita que tú. Aprende [cómo identificar a esos competidores ocultos](https://mikebastin.com/es/competidores-seo/).
+Tus rivales en GEO pueden ser otros que los que imaginas: un blog o un medio de noticias puede competir por la misma cita que tú. Aprende [cómo identificar a esos competidores ocultos](https://mikebastin.com/es/competidores-seo/).
 
 ### Herramientas útiles
 
 Empieza con:
 
 -   [Prueba de resultados enriquecidos de Google](https://search.google.com/test/rich-results)
--   Validador de Schema.org
+-   [Validador de Schema.org](https://validator.schema.org/)
 
-Y complementa con [herramientas gratuitas de análisis competitivo](https://mikebastin.com/es/herramientas-gratuitas-analisis-competitivo/) para ver cómo están estructurados tus rivales.
+Y compleméntalas con [herramientas gratuitas de análisis competitivo](https://mikebastin.com/es/herramientas-gratuitas-analisis-competitivo/) para ver cómo están estructurados tus rivales.
 
-## Pasos para implementar GEO en 2026
+## Pasos para implementar los datos estructurados en 2026
 
-1.  **Audita tus entidades:** ¿Qué productos, servicios, expertos y ubicaciones defines claramente?
-2.  **Asigna tipos Schema:** Usa `Service`, `Person`, `Organization`… y propiedades como `knowsAbout` o `mainEntityOfPage`.
-3.  **Genera JSON-LD válido:** Manual o con scripts, pero siempre validado.
-4.  **Integra en tu CMS:** Que se inserte dinámicamente en cada página relevante.
-5.  **Monitorea:** Usa herramientas para rastrear posiciones y cambios en visibilidad, incluyendo apariciones en respuestas de IA.
+Un orden claro evita rehacer el marcado cuando añades un idioma:
+
+1.  **Audita tus entidades:** qué productos, servicios, expertos y ubicaciones defines hoy con claridad.
+2.  **Asigna tipos de schema:** `Service`, `Person`, `Organization`, y propiedades como `knowsAbout` o `mainEntityOfPage`.
+3.  **Genera JSON-LD válido:** a mano o con scripts, y siempre validado.
+4.  **Intégralo en tu CMS:** que se inserte de forma automática en cada página relevante y en cada idioma.
+5.  **Haz seguimiento:** sigue tus posiciones, tus resultados enriquecidos y tus apariciones en respuestas de IA.
 
 ## El futuro es semántico
 
-La web se está convirtiendo en una base de datos legible por máquinas. Define tu contenido con entidades claras y aparecerás en las respuestas de IA, una presencia que hoy vale más que la página 2 de Google.
+La web se lee cada vez más como una base de datos. Define tu contenido con entidades claras y facilitas que las respuestas de IA te incluyan con datos correctos.
 
-Necesitas una estrategia dual: SEO para humanos + GEO para máquinas. El SEO te da tráfico directo. El GEO te da autoridad, citas y presencia en coches, altavoces y gafas de realidad aumentada.
+La estrategia es doble: SEO para las personas que buscan y GEO para los sistemas que responden. El SEO te da tráfico directo; el GEO te da autoridad, citas y presencia en asistentes de voz y de chat.
 
 Documentación útil:
 
 -   [Schema.org](https://schema.org/)
 -   [Guía de Google sobre datos estructurados](https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data?hl=es)
--   [Perplexity AI Hub](https://www.perplexity.ai/hub) (para ver cómo citan fuentes)
+-   [Perplexity AI Hub](https://www.perplexity.ai/hub) (para ver cómo cita sus fuentes)
 
 ## Preguntas frecuentes
 
-### ¿SEO o GEO con Schema?
+### ¿Schema para SEO o para GEO?
 
-SEO: Schema para mejorar el CTR en SERPs (estrellas, etc.). GEO: Schema para que la IA entienda y cite tu contenido en respuestas generadas.
+Para los dos. En SEO, el schema alimenta los resultados enriquecidos que siguen activos, como valoraciones, productos o eventos. En GEO, describe tu empresa de forma coherente para que lo que la IA repite sobre ti sea correcto.
 
 ### ¿Ayuda a que la IA dé datos correctos sobre tu marca?
 
-Sí. Con `sameAs`, `identifier` y datos verificables, das a la IA una fuente fiable. Así lo que dice sobre tu marca se ajusta a los hechos.
+Ayuda, junto con el texto visible. Con `sameAs`, `identifier` y datos verificables, das a cualquier sistema una fuente fiable y coherente.
 
 ### ¿Hace falta programar?
 
-Lo básico se resuelve con plugins; para GEO avanzado, sí. Necesitas control sobre el JSON-LD y la arquitectura de la información, más allá de lo que da un plugin genérico.
+Lo básico se resuelve con plugins. Para un grafo de entidades completo y multilingüe, necesitas controlar el JSON-LD y la arquitectura de la información más allá de lo que da un plugin genérico.
 
 ### ¿Cómo juzga la IA a un autor?
 
-Por su `Person` schema: títulos, formación (`alumniOf`), temas que domina (`knowsAbout`) y enlaces a perfiles profesionales (`sameAs`). Es su E-E-A-T legible por máquina.
+Por las señales que encuentra sobre él: biografía, cargo, formación, temas que domina y perfiles profesionales. El schema `Person` (`jobTitle`, `alumniOf`, `knowsAbout`, `sameAs`) recoge esas señales de forma legible por máquina.
 
-### ¿Afecta el tráfico orgánico?
+### ¿Afecta al tráfico orgánico?
 
-A corto plazo, quizás menos clics si la IA responde directamente. Pero el tráfico que llega tras una cita suele ser más cualificado y con mayor intención de compra.
+A corto plazo puede haber menos clics cuando la IA responde directamente. El tráfico que llega tras una cita suele llegar mejor informado y más cerca de decidir.
 
-## Actúa ya
+## Empieza por tus entidades
 
-Hoy es el momento de posicionarte como fuente de autoridad en los grafos de conocimiento de la IA. Estructura tu contenido ahora y gana visibilidad en los canales del futuro.
+Hoy es buen momento para posicionarte como fuente de referencia. Estructura tu contenido ahora y gana visibilidad en los canales que usan ya tus compradores.
 
-**¿Quieres que la IA elija tu marca como respuesta?**  
-En Mike Bastin, ayudamos a empresas B2B y profesionales a preparar su web para la era de los motores generativos. Hacemos auditorías de Schema, creamos estrategias de contenido para LLMs y optimizamos tu presencia global.
+**¿Quieres que la IA describa tu marca con precisión?**  
+En Mike Bastin ayudamos a empresas que venden en varios mercados a preparar su web para los motores generativos: revisamos sus datos estructurados, ordenamos su contenido para los modelos de lenguaje y cuidamos su presencia en cada idioma.
 
-[Reserva tu consultoría de GEO hoy](https://mikebastin.com/es/services/consultoria-de-inteligencia-artificial/)
+[Reserva tu consultoría de GEO](https://mikebastin.com/es/services/consultoria-de-inteligencia-artificial/)

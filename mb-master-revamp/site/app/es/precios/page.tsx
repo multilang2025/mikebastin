@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   ...pageMeta({
     title: "Precios y desarrollo de un proyecto de SEO, Mike Bastin",
     description:
-      "Cómo se desarrolla un proyecto de SEO internacional, localización o consultoría de IA: primera conversación, alcance escrito, entregas mensuales y facturación.",
+      "Cómo se desarrolla un proyecto de SEO internacional, localización o consultoría de IA: consulta gratuita, alcance escrito, entregas mensuales y facturación.",
     path: PATH,
     languages: esLanguages(PATH),
     ogLocale: "es_ES",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
 
 const STAGES = [
   {
-    name: "Una primera conversación",
+    name: "Una consulta gratuita",
     detail:
       "Treinta minutos sobre los mercados y los idiomas que cuentan, lo que ya posiciona, lo que ya se ha probado y lo que supone un buen resultado en consultas de clientes. Primero hacemos nuestras preguntas y después recomendamos.",
   },
@@ -58,7 +58,7 @@ const STAGES = [
   {
     name: "Una opinión sincera sobre cada mercado",
     detail:
-      "Cuando un mercado se estanca tras un intento serio, te lo decimos y cambiamos de plan. Por eso los proyectos funcionan mes a mes.",
+      "Cuando un mercado necesita otro enfoque tras un intento serio, te lo decimos y cambiamos el plan.",
   },
 ];
 
@@ -69,11 +69,11 @@ const QUESTIONS = [
   },
   {
     q: "¿Hay que firmar un contrato?",
-    a: "Los proyectos funcionan mes a mes y cualquiera de las dos partes puede terminarlos con un preaviso. La mayoría de los clientes se queda porque los informes muestran, mercado por mercado, lo que funciona.",
+    a: "Los proyectos funcionan mes a mes y cualquiera de las dos partes puede terminarlos con un preaviso.",
   },
   {
     q: "¿Y si solo tenemos un mercado que corregir?",
-    a: "Una corrección de SEO en un idioma, una revisión de localización, una sesión de consultoría de IA sobre la calidad de la traducción automática: cada una se hace como un proyecto acotado, con principio y fin. Es el caso de la mayoría de las consultas.",
+    a: "Una corrección de SEO en un idioma, una revisión de localización, una sesión de consultoría de IA sobre la calidad de la traducción automática: cada una se hace como un proyecto acotado, con principio y fin.",
   },
   {
     q: "¿Quién hace el trabajo?",
@@ -81,7 +81,7 @@ const QUESTIONS = [
   },
   {
     q: "¿Cómo se factura?",
-    a: "La gestión lleva unos honorarios aparte. Cuando un proyecto incluye publicidad online, toda tu inversión en medios compra anuncios: se abona directamente a Google, Microsoft o Meta. El presupuesto que recomendamos es, por tanto, el que trae consultas. Esto se aplica al presupuesto de medios; la redacción y la traducción que hacemos con la red BeTranslated se presupuestan como trabajo.",
+    a: "La gestión lleva unos honorarios aparte. Cuando un proyecto incluye publicidad online, toda tu inversión en medios compra anuncios: se abona directamente a Google, Microsoft o Meta. El presupuesto que recomendamos es, por tanto, el que trae consultas. Esta regla se aplica a la inversión en medios; la redacción y la traducción que hacemos con la red BeTranslated se presupuestan como trabajo.",
   },
   {
     q: "¿Cómo empezar?",
@@ -167,7 +167,7 @@ export default function SpanishPricingPage() {
           <Reveal>
             <div className="mt-12">
               <ButtonLink href="/es/contactanos/" size="lg">
-                Enviar un breve resumen
+                Reserva una consulta gratuita
               </ButtonLink>
             </div>
           </Reveal>

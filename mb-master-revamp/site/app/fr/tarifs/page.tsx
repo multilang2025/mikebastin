@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   ...pageMeta({
     title: "Tarifs et déroulement d’une mission, Mike Bastin",
     description:
-      "Comment se déroule une mission de SEO multilingue, de localisation ou de conseil en IA : premier échange, périmètre écrit, livraison mensuelle, facturation.",
+      "Comment se déroule une mission de SEO multilingue, de localisation ou de conseil en IA : consultation gratuite, périmètre écrit, livraison mensuelle, facturation.",
     path: PATH,
     languages: frLanguages(PATH),
     ogLocale: "fr_FR",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
 
 const STAGES = [
   {
-    name: "Un premier échange",
+    name: "Une consultation gratuite",
     detail:
       "Trente minutes sur les marchés et les langues qui comptent, ce qui se positionne déjà, ce qui a déjà été essayé, et ce qu’un bon résultat représente en demandes. Nous posons d’abord nos questions, puis nous recommandons.",
   },
@@ -48,7 +48,7 @@ const STAGES = [
   {
     name: "Une livraison à rythme fixe",
     detail:
-      "Le travail avance chaque mois, marché par marché, pour qu’une page allemande avance en parallèle d’une page espagnole. Des rédacteurs natifs pour chaque langue, relus au regard du brief avant toute mise en ligne.",
+      "Le travail avance chaque mois, marché par marché, et chaque langue suit son propre calendrier. Les textes sont écrits par des natifs et relus au regard du brief avant leur mise en ligne.",
   },
   {
     name: "Des rapports marché par marché",
@@ -58,7 +58,7 @@ const STAGES = [
   {
     name: "Un avis franc sur chaque marché",
     detail:
-      "Quand un marché stagne après un essai sérieux, nous vous le disons et changeons de plan. Les missions sont ouvertes, au mois, pour cette raison.",
+      "Quand un marché demande une autre approche après un essai sérieux, nous vous le disons et nous adaptons le plan. C’est aussi pour cela que les missions fonctionnent au mois.",
   },
 ];
 
@@ -69,15 +69,15 @@ const QUESTIONS = [
   },
   {
     q: "Faut-il signer un contrat ?",
-    a: "Les missions fonctionnent au mois, et chacun peut y mettre fin avec un préavis. La plupart des clients restent parce que les rapports montrent, marché par marché, ce qui fonctionne.",
+    a: "Les missions fonctionnent au mois, et chacun peut y mettre fin avec un préavis. Les rapports mensuels vous montrent, marché par marché, ce que chaque mois a apporté.",
   },
   {
     q: "Et si nous avons un seul marché à corriger ?",
-    a: "Une correction SEO sur une langue, une revue de localisation, une séance de conseil en IA sur la qualité de la traduction automatique : chacune se fait comme une mission cadrée, avec un début et une fin. C’est le cas de la plupart des demandes.",
+    a: "Une correction SEO sur une langue, une revue de localisation, une séance de conseil en IA sur la qualité de la traduction automatique : chacune se traite comme une mission cadrée, avec un début et une fin.",
   },
   {
     q: "Qui fait le travail ?",
-    a: "Nous définissons et pilotons la stratégie nous-mêmes. La rédaction et la traduction dans chaque langue passent par des spécialistes que nous vous présentons, la plupart issus du réseau BeTranslated, que nous faisons travailler depuis vingt ans.",
+    a: "Nous définissons et pilotons la stratégie nous-mêmes. La rédaction et la traduction dans chaque langue passent par des spécialistes que nous vous présentons, la plupart issus du réseau BeTranslated, l’agence de traduction que nous dirigeons depuis vingt ans.",
   },
   {
     q: "Comment est-ce facturé ?",
@@ -167,7 +167,7 @@ export default function FrenchTarifsPage() {
           <Reveal>
             <div className="mt-12">
               <ButtonLink href="/fr/nous-contacter/" size="lg">
-                Envoyer un bref descriptif
+                Réserver une consultation gratuite
               </ButtonLink>
             </div>
           </Reveal>

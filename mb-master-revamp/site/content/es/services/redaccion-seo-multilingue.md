@@ -15,12 +15,12 @@ excerpt: "Páginas escritas para tus compradores franceses, alemanes o neerlande
 
 ## Una página extranjera responde a la pregunta del comprador que la lee
 
-Tu página en francés traduce tu página en español, así que responde a la pregunta que se hace un comprador español. Un comprador francés formula su problema con otras palabras y otras prioridades, y elige la página escrita para él, a menudo la de un competidor.
+Tu página en francés nació de tu página en español y responde bien a la pregunta que se hace un comprador español. Un comprador francés formula su problema con otras palabras y otras prioridades, y escribe al proveedor cuya página habla como él.
 
 Escribir para ese lector te trae el tráfico y las consultas de cada mercado, y un sitio que se posiciona en sus cuatro idiomas igual que se lee en los cuatro. Cada idioma tiene sus propias palabras clave, porque la manera de describir una necesidad cambia con el idioma además del vocabulario. Esa es la redacción SEO que hacemos: investigada en el idioma de destino y escrita para quien la va a leer.
 
 <aside class="post-cta">
-<p><strong>¿Quieres páginas que hablen como tus compradores franceses, alemanes o neerlandeses?</strong> Escribimos cada versión a partir de lo que busca su propio mercado. <a href="/es/contactanos/">Reservar una primera conversación</a>.</p>
+<p><strong>¿Quieres páginas que hablen como tus compradores franceses, alemanes o neerlandeses?</strong> Escribimos cada versión a partir de lo que busca su propio mercado. <a href="/es/contactanos/">Reserva una consulta gratuita</a>.</p>
 </aside>
 
 ## Lo que escribimos para cada mercado
@@ -46,7 +46,7 @@ Las señales de calidad de Google se construyen en cada idioma. Un autor con nom
 
 Cita a un lector alemán las referencias que conoce y tendrá motivos para creerte.
 
-## Los detalles de página que hacen existir cada idioma
+## Los detalles de página que hacen visible cada idioma
 
 - Títulos y metadescripciones escritos de forma nativa, dentro de los límites de cada idioma.
 - Enlaces internos que apuntan a la versión del mismo idioma.
@@ -63,4 +63,4 @@ En redes sociales, la red que lleva a tu audiencia en un país puede ser secunda
 
 ## Cómo trabajamos
 
-Empezamos con una primera conversación sobre tus mercados y tus páginas actuales. Después te enviamos por escrito el alcance del primer trimestre y trabajamos mes a mes, con un seguimiento mensual de posiciones, tráfico y consultas, mercado por mercado. Cada solicitud recibe respuesta, por lo general en un día laborable. La redacción se presupuesta como trabajo, y en la página de precios explicamos cómo lo planteamos.
+Empezamos con una consulta gratuita sobre tus mercados y tus páginas actuales. Después te enviamos por escrito el alcance del primer trimestre y trabajamos mes a mes, con un seguimiento mensual de posiciones, tráfico y consultas, mercado por mercado. Cada solicitud recibe respuesta, por lo general en un día laborable. La redacción se presupuesta aparte, como un encargo, y en la página de [precios](/es/precios/) explicamos cómo lo planteamos.

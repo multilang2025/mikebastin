@@ -74,9 +74,9 @@ const T: Record<
     contact: "Nous contacter",
     more: "Tous les services",
     eyebrow: "Droit au but",
-    cta: "Dites-nous quelle langue vous voulez faire vendre.",
-    ctaButton: "Réserver un premier échange",
-    ctaSecondary: "Voir ce que les chiffres ont donné",
+    cta: "Dites-nous dans quelle langue vous voulez vendre ensuite.",
+    ctaButton: "Réserver une consultation gratuite",
+    ctaSecondary: "Voir les résultats de nos clients",
     based: "Référencement multilingue, depuis Valencia",
     top: "Haut de page",
     motto: "Automatiser l’entreprise. Traduire les idées. Relier les personnes.",
@@ -90,9 +90,9 @@ const T: Record<
     contact: "Contacta con nosotros",
     more: "Todos los servicios",
     eyebrow: "Directo al grano",
-    cta: "Dinos qué idioma quieres que venda.",
-    ctaButton: "Reservar una primera conversación",
-    ctaSecondary: "Mira lo que hicieron los números",
+    cta: "Cuéntanos en qué idioma quieres vender ahora.",
+    ctaButton: "Reserva una consulta gratuita",
+    ctaSecondary: "Ver resultados de clientes",
     based: "Posicionamiento multilingüe, desde Valencia",
     top: "Volver arriba",
     motto: "Automatizar negocios. Traducir ideas. Conectar personas.",
@@ -111,8 +111,8 @@ const SERVICES_INDEX: Record<Locale, string | null> = { en: "/services/", fr: "/
 
 const ABOUT: Record<Locale, string> = {
   en: "We are a multilingual SEO and localization practice in Valencia, working across European markets. Enquiries are what we count, market by market.",
-  fr: "Nous sommes un cabinet de référencement multilingue et de localisation basé à Valencia, actif sur les marchés européens. Ce que nous comptons, ce sont les demandes entrantes, marché par marché.",
-  es: "Somos un equipo de posicionamiento multilingüe y localización con base en Valencia, trabajando en los mercados europeos. Contamos consultas, mercado a mercado.",
+  fr: "Nous sommes un cabinet de référencement multilingue et de localisation basé à Valencia, actif sur les marchés européens. Nous mesurons notre travail aux demandes reçues, marché par marché.",
+  es: "Somos un equipo de posicionamiento multilingüe y localización con sede en Valencia, que trabaja en los mercados europeos. Medimos nuestro trabajo por las consultas recibidas, mercado a mercado.",
 };
 
 /**

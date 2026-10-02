@@ -151,7 +151,7 @@ const FR: PrivacyCopy = {
     },
     {
       h: "Qui traite les données",
-      p: ["Notre hébergeur et notre fournisseur de messagerie traitent les données pour notre compte, afin que le site et la boîte de réception fonctionnent. Nous utilisons vos données pour vous répondre, et nous ne les vendons pas ni ne les transmettons à des fins de prospection."],
+      p: ["Notre hébergeur et notre fournisseur de messagerie traitent les données pour notre compte, afin que le site et la boîte de réception fonctionnent. Nous utilisons vos données pour vous répondre, et nous ne les vendons ni ne les transmettons à des fins de prospection."],
     },
     {
       h: "Vos droits",

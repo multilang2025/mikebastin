@@ -12,27 +12,27 @@ sourceUrl: null
 excerpt: "Les clients proches appellent l’une des trois premières entreprises de la carte. Voici comment promouvoir la vôtre sur Google Maps et en faire partie."
 ---
 
-Quelqu’un, à quelques rues de votre boutique, de votre agence ou de votre showroom, cherche exactement ce que vous vendez et appelle l’une des trois entreprises que Google Maps affiche en premier. L’objectif est que la vôtre en fasse partie, pour que le téléphone sonne aussi souvent que possible, dans chaque ville où vous avez des clients, à Lyon comme à Bruxelles, à Genève comme à Valence.
+Quelqu’un, à quelques rues de votre boutique, de votre agence ou de votre showroom, cherche exactement ce que vous vendez et appelle l’une des trois entreprises que Google affiche en tête de la carte. Placez la vôtre parmi elles, et le téléphone sonne plus souvent, dans chaque ville où vous avez des clients, à Lyon comme à Bruxelles, à Genève comme à Valence.
 
 Voici comment être référencé, ce qui donne une place sur la carte, où se placent les avis, les publications, les annonces et les réponses de l’IA, et comment voir ce qui fait sonner le téléphone.
 
 ## Ajouter votre entreprise à Google Maps
 
-Une fiche validée est votre place sur la carte. Votre présence sur Maps vient d’une fiche d’établissement Google, nommée Google Business Profile.
+Une fiche validée est votre place sur la carte. Votre présence sur Maps passe par une fiche d’établissement Google, appelée Google Business Profile.
 
 1. Rendez-vous sur le [site Google Business Profile](https://www.google.com/business/) et connectez-vous avec votre compte Google.
 2. Saisissez le nom de votre entreprise et choisissez la catégorie la plus précise.
 3. Ajoutez votre adresse. Une entreprise qui se déplace chez ses clients peut masquer son adresse et afficher les zones qu’elle dessert.
-4. Validez l’entreprise. Google choisit la méthode pour vous, selon votre type d’activité et votre région : téléphone ou SMS, e-mail, enregistrement vidéo ou appel vidéo en direct, ou carte postale envoyée par courrier.
+4. Validez l’entreprise. Google choisit la méthode pour vous, selon votre type d’activité et votre région : téléphone ou SMS, e-mail, appel vidéo en direct, ou carte postale envoyée par courrier.
 
-> « Les méthodes de validation sont déterminées automatiquement par Google et ne peuvent pas être modifiées. »
-> Source : [Google Business Profile Help, « Verify your business on Google »](https://support.google.com/business/answer/7107242?hl=en)
+> « Les méthodes de validation sont déterminées automatiquement par Google et ne peuvent pas être modifiées. »
+> Source : [Google Business Profile Help, « Verify your business on Google »](https://support.google.com/business/answer/7107242?hl=en)
 
 Une fois la validation faite, votre entreprise apparaît sur Google Maps. Si vous avez une adresse dans plusieurs pays, prévoyez une fiche par adresse, rédigée dans la langue de vos clients sur place. Notre [service de référencement local](/fr/services/referencement-local/) peut prendre en charge la création et la validation de vos fiches.
 
 ## Optimiser votre fiche avec des informations complètes et exactes
 
-L’entretien compte autant que la création. Une fiche complète et exacte se positionne mieux et attire plus de clics.
+Une fiche complète et exacte se positionne mieux et attire plus de clics : son entretien compte autant que sa création.
 
 - **Informations exactes.** Nom, adresse, numéro de téléphone et horaires d’ouverture, tenus à jour, jours fériés compris.
 - **Description de l’entreprise.** Expliquez votre activité en langage simple, avec les termes que vos clients recherchent.
@@ -48,7 +48,7 @@ Quand votre adresse s’écrit de la même façon dans tous les annuaires, Googl
 - Ajoutez le balisage LocalBusiness à votre site pour que Google y lise les mêmes informations.
 
 <aside class="post-cta">
-<p><strong>Envie que vos informations soient identiques partout où elles apparaissent ?</strong> Notre <a href="/fr/services/referencement-local/">service de référencement local</a> aligne votre nom, votre adresse et votre numéro de téléphone dans chaque annuaire. <a href="/fr/nous-contacter/">Réservez l’appel de découverte</a>.</p>
+<p><strong>Vous voulez des informations identiques partout où elles apparaissent ?</strong> Notre <a href="/fr/services/referencement-local/">service de référencement local</a> aligne votre nom, votre adresse et votre numéro de téléphone dans chaque annuaire. <a href="/fr/nous-contacter/">Réservez l’appel de découverte</a>.</p>
 </aside>
 
 ## Encourager les avis clients
@@ -56,7 +56,7 @@ Quand votre adresse s’écrit de la même façon dans tous les annuaires, Googl
 Les avis sont la première chose qu’un client proche lit avant d’appeler, et ils comptent dans votre classement dans les résultats locaux.
 
 - **Demandez des avis.** Invitez vos clients satisfaits à en laisser un dans vos e-mails de suivi, sur vos tickets de caisse ou sur les réseaux sociaux.
-- **Répondez à chaque avis.** Répondre aux avis positifs comme aux avis négatifs montre que vous valorisez les retours et inspire confiance à ceux qui les lisent.
+- **Répondez à chaque avis.** Répondre aux avis positifs comme aux avis négatifs montre que vous tenez compte des retours et inspire confiance à ceux qui les lisent.
 
 ## Utiliser les publications Google
 
@@ -67,14 +67,14 @@ Une fiche active ressemble à une entreprise ouverte. Google Business Profile vo
 - les événements
 - les changements d’horaires
 
-Les idées manquent ? Beaucoup de sujets d’articles de blog pour petites entreprises fonctionnent aussi comme publications Google.
+Pour trouver des sujets, puisez dans vos articles de blog : beaucoup fonctionnent aussi comme publications Google.
 
 ## Se préparer à la recherche par IA dans Maps
 
-Google ajoute ses modèles Gemini à Maps : les utilisateurs posent des questions complètes, avec leurs propres mots, et les réponses s’appuient sur votre fiche et sur vos avis. Une fiche complète et un flux régulier d’avis comptent désormais double.
+Google a intégré ses modèles Gemini à Maps : les utilisateurs posent des questions complètes, avec leurs propres mots, et les réponses s’appuient sur les informations des établissements et sur les avis. Une fiche complète et un flux régulier d’avis comptent désormais double.
 
-> « Ask Maps, une nouvelle expérience conversationnelle qui répond à des questions complexes du monde réel auxquelles une carte ne pouvait pas répondre auparavant. » Google a commencé son déploiement aux États-Unis et en Inde le 12 mars 2026.
-> Source : [Google, « Ask Maps and Immersive Navigation », 12 mars 2026](https://blog.google/products-and-platforms/products/maps/ask-maps-immersive-navigation/)
+> « Ask Maps, une nouvelle expérience conversationnelle qui répond à des questions complexes du monde réel auxquelles une carte ne pouvait pas répondre auparavant. » Google l’a lancé le 12 mars 2026 aux États-Unis et en Inde, sur Android et iOS, puis l’a étendu le 6 août 2026 à plus de 150 pays et territoires, en anglais.
+> Source : [Google, « Ask Maps and Immersive Navigation », 12 mars 2026](https://blog.google/products-and-platforms/products/maps/ask-maps-immersive-navigation/) ; [Google, « Ask Maps gets more helpful with food ordering and more », 6 août 2026](https://blog.google/products-and-platforms/products/maps/order-food-in-ask-maps/)
 
 Gardez vos informations exactes et précises, répondez aux questions courantes dans votre description et vos publications, et appuyez vos formulations sur une [recherche de mots-clés locale](/fr/services/referencement-local/).
 
@@ -84,15 +84,15 @@ Gardez vos informations exactes et précises, répondez aux questions courantes 
 
 ## Envisager la publicité payante
 
-La visibilité naturelle se construit en plusieurs mois ; les annonces l’obtiennent dès le premier jour. Google Ads peut placer votre entreprise en tête de Maps et des résultats locaux. Google a retiré ses anciennes campagnes Local au profit de Performance Max pour les objectifs en magasin :
+La visibilité naturelle se construit sur plusieurs mois ; les annonces l’apportent dès le premier jour. Google Ads peut placer votre entreprise en tête de Maps et des résultats locaux. Google a retiré ses anciennes campagnes Local au profit de Performance Max pour les objectifs en magasin :
 
-1. Créez un compte Google Ads et associez-y votre fiche Google Business Profile.
+1. Créez un compte Google Ads et associez-y votre fiche Google Business Profile (ou sélectionnez des points de vente affiliés).
 2. Lancez une campagne Performance Max avec un objectif de visites en magasin.
 3. Définissez vos zones géographiques et votre budget.
 4. Ajoutez vos textes d’annonce, vos images et vos autres ressources.
 
-> Performance Max pour les objectifs en magasin promeut vos points de vente « sur les plus grandes propriétés de Google, dont le réseau de recherche Google, Google Maps, Waze, YouTube, Gmail et le réseau Display de Google. »
-> Source : [Google Ads Help, « About Performance Max for store goals »](https://support.google.com/google-ads/answer/12971048?hl=en)
+> Performance Max pour les objectifs en magasin promeut vos points de vente « sur les plus grandes propriétés de Google, dont le réseau de recherche Google, Google Maps, Waze, YouTube, Gmail et le réseau Display de Google. »
+> Source : [Google Ads Help, « About Performance Max for store goals »](https://support.google.com/google-ads/answer/12971048?hl=en)
 
 Votre budget média entier achète de la publicité : il va directement à Google, et la gestion est facturée à part. Pour piloter des campagnes dans plusieurs langues, voyez notre [SEM multilingue](/fr/services/sem-multilingue/).
 
@@ -112,7 +112,7 @@ Les chiffres disent quel changement a fait sonner le téléphone. Le rapport Per
 - les termes de recherche qu’elles ont utilisés
 - les appels, les clics vers votre site et les demandes d’itinéraire
 
-Utilisez ces données pour ajuster votre fiche et vos publications. Pour suivre ce qui se passe une fois les visiteurs arrivés sur votre site, il existe des alternatives à Google Analytics.
+Utilisez ces données pour ajuster votre fiche et vos publications. Pour suivre ce que font les visiteurs une fois sur votre site, comparez les [alternatives à Google Analytics](/fr/alternatives-a-google-analytics/).
 
 ## L’essentiel en bref
 

@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   ...pageMeta({
     title: "Notre équipe, Mike Bastin",
     description:
-      "Qui pilote votre référencement international et qui écrit dans chaque langue : Mike Bastin à Valence, et des spécialistes natifs du réseau BeTranslated.",
+      "Qui pilote votre référencement international et qui écrit dans chaque langue : Mike Bastin à Valencia, et des spécialistes natifs du réseau BeTranslated.",
     path: PATH,
     languages: frLanguages(PATH),
     ogLocale: "fr_FR",
@@ -38,12 +38,12 @@ const POINTS = [
   {
     name: "Des spécialistes natifs, nommés",
     detail:
-      "La rédaction et la traduction dans chaque langue passent par des spécialistes que nous vous présentons, la plupart issus du réseau BeTranslated, que nous animons depuis vingt ans. Chacun écrit dans sa langue maternelle et connaît le secteur qu’il traite.",
+      "La rédaction et la traduction dans chaque langue passent par des spécialistes que nous vous présentons, la plupart issus du réseau BeTranslated, l’agence de traduction que nous dirigeons depuis vingt ans. Chacun écrit dans sa langue maternelle et connaît le secteur qu’il traite.",
   },
   {
-    name: "Trois langues de travail",
+    name: "Quatre langues de travail",
     detail:
-      "Nous échangeons avec vous en français, en anglais ou en espagnol, depuis Valence où nous sommes installés depuis 2016.",
+      "Nous travaillons directement en français, en anglais, en espagnol et en néerlandais, depuis Valencia, où nous sommes installés depuis 2016.",
   },
 ];
 
@@ -70,7 +70,7 @@ export default function FrenchTeamPage() {
           </Reveal>
           <Reveal i={2}>
             <h2 className="mb-6 max-w-[46ch] text-[clamp(1.2rem,2.1vw,1.7rem)] font-medium leading-[1.3]" style={{ color: "var(--ink)" }}>
-              Plus de vingt ans de référencement multilingue, avec un rédacteur natif pour chaque langue où vous vendez.
+              Plus de deux décennies de référencement multilingue, et un rédacteur natif pour chaque langue où vous vendez.
             </h2>
           </Reveal>
           <Reveal i={3}>
@@ -87,7 +87,7 @@ export default function FrenchTeamPage() {
               <span className="flex flex-col gap-[2px]">
                 <span className="display text-[1.02rem] font-semibold">Mike Bastin</span>
                 <span className="text-[.88rem]" style={{ color: "var(--dim)" }}>
-                  Valence, plus de vingt ans de référencement multilingue
+                  Valencia, plus de deux décennies de référencement multilingue
                 </span>
               </span>
             </div>
@@ -124,7 +124,7 @@ export default function FrenchTeamPage() {
           <Reveal>
             <div className="mt-8 flex flex-wrap gap-4">
               <ButtonLink href="/fr/nous-contacter/" size="lg">
-                Nous contacter
+                Réserver une consultation gratuite
               </ButtonLink>
               <ButtonLink href="/fr/tarifs/" size="lg" variant="ghost">
                 Le déroulement d&apos;une mission

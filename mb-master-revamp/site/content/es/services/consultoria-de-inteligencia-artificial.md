@@ -1,6 +1,7 @@
 ---
 words: 1304
-title: "Consultoría de inteligencia artificial para tus mercados"
+title: "Consultoría de inteligencia artificial para empresas que venden fuera"
+metaTitle: "Consultoría de inteligencia artificial, Mike Bastin"
 name: "Consultoría de IA"
 slug: "consultoria-de-inteligencia-artificial"
 locale: "es"
@@ -17,17 +18,17 @@ excerpt: "Qué parte de tus contenidos puede llevar la IA y cómo lograr que Cha
 
 Alguien te ha dicho que la inteligencia artificial puede encargarse de tus contenidos en alemán, y una parte sí puede. La parte que decide si una página trae consultas sigue en manos de una persona que lee el idioma.
 
-La frase que hay que vigilar es la que suena fluida, profesional y está discretamente equivocada. La frase claramente torpe la detecta cualquiera. En un mercado cuyo idioma solo lee tu cliente, la primera puede quedarse publicada durante meses. Si cada página la revisa alguien que lee el idioma, conserva la confianza que debe ganar, y ese efecto se nota en el número de consultas mucho antes que en un informe de herramientas.
+La IA escribe frases fluidas y profesionales; una persona que lee el idioma comprueba que además sean exactas. Con esa revisión, cada página conserva la confianza que tiene que ganar, y el efecto se nota en el número de consultas mucho antes que en un informe de herramientas.
 
 Nuestra consultoría de inteligencia artificial te dice con precisión qué parte de tu actividad multilingüe conviene automatizar y cuál sigue necesitando a una persona. Así eliges herramientas sabiendo qué parte del volumen que producen convence al lector de cada mercado.
 
 <aside class="post-cta">
-<p><strong>¿Quieres saber qué parte de tus contenidos extranjeros puede llevar la IA?</strong> Analizamos tus mercados y tus contenidos, y te decimos dónde la automatización rinde y dónde debe revisarla una persona. <a href="/es/contactanos/">Reservar una primera conversación</a>.</p>
+<p><strong>¿Quieres saber qué parte de tus contenidos extranjeros puede llevar la IA?</strong> Analizamos tus mercados y tus contenidos, y te decimos dónde rinde la automatización y dónde conviene la revisión de una persona. <a href="/es/contactanos/">Reserva una consulta gratuita</a>.</p>
 </aside>
 
 ## Qué hacemos en una consultoría de IA
 
-Trabajamos sobre cinco decisiones concretas, todas pensadas para empresas que ya venden fuera de España:
+Trabajamos sobre cinco decisiones concretas, todas pensadas para empresas que ya venden en el extranjero:
 
 - qué contenidos pasan por traducción automática y con qué nivel de revisión;
 - si un asistente multilingüe puede atender a los clientes de cada mercado, y hasta dónde;
@@ -39,7 +40,7 @@ Una estrategia de IA que merezca ese nombre responde a las dos mitades de la pre
 
 ## Que las respuestas de la IA te citen en cada idioma
 
-Tus compradores ya preguntan a ChatGPT, Claude, Gemini o Perplexity, y cada respuesta nombra a muy pocas fuentes. Ser una de ellas te sitúa entre las opciones del comprador en el momento exacto en que pregunta. Trabajamos para que ocurra en cada idioma en el que vendes, con una misma voz y una misma afirmación en todos, porque los motores de respuesta citan las fuentes que coinciden consigo mismas.
+Tus compradores ya preguntan a ChatGPT, Claude, Gemini o Perplexity, y cada respuesta nombra a muy pocas fuentes. Ser una de ellas te sitúa entre las opciones del comprador en el momento exacto en que pregunta. Trabajamos para que ocurra en cada idioma en el que vendes, con una misma voz y un mismo mensaje en todos, porque los motores de respuesta citan con más facilidad una fuente que dice lo mismo en cada idioma.
 
 Nuestra consultoría se centra en cómo los sistemas de IA leen, interpretan y reutilizan el contenido de tu empresa:
 
@@ -66,9 +67,9 @@ El ahorro es real y nace de decidir qué contenido es cuál. Es el principio de 
 
 ## Atención al cliente que responde en el idioma de la pregunta
 
-Un asistente multilingüe en tu web resuelve las preguntas repetitivas de cada mercado en su idioma, con un solo equipo de soporte detrás, y pasa el testigo a una persona cuando la consulta lo supera. Se apoya en tus propios materiales, así que habla de tus productos y no de productos en general.
+Un asistente multilingüe en tu web resuelve las preguntas repetitivas de cada mercado en su idioma, con un solo equipo de soporte detrás, y pasa el testigo a una persona cuando la consulta lo supera. Se apoya en tus propios materiales, así que habla de tus productos con tus propias palabras.
 
-El punto que vigilamos es la seguridad con la que responde. En un mercado cuyo idioma solo leen tus clientes, una respuesta inventada en neerlandés puede pasar meses publicada hasta que alguien la lea. Por eso cada idioma en el que responde el asistente tiene a alguien que lee ese idioma y comprueba sus respuestas.
+El punto que cuidamos es la exactitud de cada respuesta. Por eso cada idioma en el que responde el asistente tiene a alguien que lee ese idioma y comprueba lo que dice.
 
 ## Leer lo que dicen tus mercados, a gran escala
 
@@ -91,4 +92,4 @@ Los acompañamos de cifras por mercado, para ver por separado un ahorro en alem�
 
 Llevamos más de dos décadas acompañando el posicionamiento multilingüe y los contenidos internacionales de empresas, y estamos en Valencia desde 2016. La redacción nativa y la traducción pasan por especialistas con nombre y apellidos, en su mayoría de la red BeTranslated, que dirigimos desde hace veinte años. Si tus contenidos extranjeros están por producir, mira también nuestra [redacción SEO multilingüe](/es/services/redaccion-seo-multilingue/).
 
-Empezamos con una primera conversación sobre tus mercados y tus contenidos; también puedes pedir una auditoría gratuita de 20 minutos. Después recibes por escrito el alcance del primer trimestre. La colaboración es mes a mes, y respondemos a cada consulta, normalmente en un día laborable. Si quieres ver cómo encaja con el resto, consulta [nuestros precios](/es/precios/).
+Empezamos con una consulta gratuita sobre tus mercados y tus contenidos; también puedes pedir una auditoría gratuita de 20 minutos. Después recibes por escrito el alcance del primer trimestre. La colaboración es mes a mes, y respondemos a cada consulta, normalmente en un día laborable. Si quieres ver cómo encaja con el resto, consulta [nuestros precios](/es/precios/).

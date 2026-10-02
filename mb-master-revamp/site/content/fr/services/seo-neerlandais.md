@@ -13,14 +13,14 @@ sourceUrl: "https://mikebastin.com/fr/services/seo-neerlandais/"
 excerpt: "Des pages écrites en néerlandais pour les Pays-Bas et la Flandre, pour que vos visiteurs néerlandophones deviennent des demandes."
 ---
 
-## Des pages néerlandaises qui font écrire vos acheteurs
+## Des pages néerlandaises qui donnent envie à vos acheteurs de vous écrire
 
 Vos pages néerlandaises attirent des visiteurs des Pays-Bas et de Flandre ; l’étape suivante est d’en faire des demandes. L’acheteur néerlandais lit vite et décide vite. Il attend des phrases courtes, des réponses concrètes et les conditions bien visibles, et il cherche les coordonnées de l’entreprise avant de faire confiance. Une page qui lui donne tout cela sonne comme un fournisseur, et c’est à vous qu’il écrit.
 
 Le Benelux est à votre porte. Pour une entreprise belge francophone, la Flandre représente une grande part du marché national : un site belge en français et en néerlandais touche tout le pays, de Bruxelles à Anvers. Pour une entreprise française, les Pays-Bas sont un marché proche, où une page écrite dans la langue du client fait la différence. Chaque page mise au point ce trimestre commence à travailler pour vous dès sa mise en ligne.
 
 <aside class="post-cta">
-<p><strong>Vous voulez que vos pages néerlandaises rapportent autant que vos pages françaises ?</strong> Nous les écrivons en néerlandais, pour les Pays-Bas et pour la Flandre, et nous suivons les demandes qu’elles génèrent. <a href="/fr/nous-contacter/">Réserver un premier échange</a>.</p>
+<p><strong>Vous voulez que vos pages néerlandaises rapportent autant que vos pages françaises ?</strong> Nous les écrivons en néerlandais, pour les Pays-Bas et pour la Flandre, et nous suivons les demandes qu’elles génèrent. <a href="/fr/nous-contacter/">Réserver une consultation gratuite</a>.</p>
 </aside>
 
 ## Ce que nous faisons pour votre site néerlandais
@@ -36,15 +36,17 @@ Nous prenons en charge votre visibilité néerlandophone, de l’audit jusqu’a
 
 ## Le néerlandais et le français, par la même équipe
 
-Nous écrivons le néerlandais directement, fort d’une année Erasmus à Utrecht et de nombreuses années de clients néerlandais et belges. La recherche, la lecture des concurrents, les briefs et les réunions avec les équipes locales se font en néerlandais. Chaque page commerciale passe ensuite par un relecteur natif avant sa mise en ligne, car la langue maternelle va un cran plus loin que la maîtrise.
+Nous écrivons le néerlandais directement : Mike Bastin a fait son Erasmus à Utrecht et travaille depuis de nombreuses années avec des clients néerlandophones. La recherche, la lecture des concurrents, les briefs et les réunions avec les équipes locales se font en néerlandais. Chaque page commerciale passe ensuite par un relecteur natif avant sa mise en ligne, car la langue maternelle va un cran plus loin que la maîtrise.
 
 Nous écrivons aussi le français directement : un site belge reçoit un seul plan dans ses deux langues, par une seule équipe, et vous en parlez avec nous en français. Le néerlandais de Flandre et celui des Pays-Bas restent séparés quand les deux marchés sont visés, parce que les mots et les règles changent de part et d’autre de la frontière.
 
 Viennent ensuite les éléments qui font qu’un acheteur néerlandais ou belge fait confiance à un fournisseur : les coordonnées d’entreprise en pied de page, les moyens de paiement qu’il connaît, une présence dans les annuaires de votre secteur et des citations dans la presse régionale.
 
-## Des sites néerlandophones que nous faisons tourner
+## Des sites néerlandophones que nous menons
 
-Bemelman Spuiterij est un spécialiste du thermolaquage installé dans la Bollenstreek, fort de quarante-cinq ans de réputation. Son site est entièrement rédigé en néerlandais, avec une page par service et un formulaire de devis qui demande le type de projet et la surface à traiter : les demandes arrivent prêtes à chiffrer. Entre mai et juillet 2026, il a reçu 1 436 clics pour 108 568 impressions Google.
+Bemelman Spuiterij est un spécialiste du thermolaquage installé dans la Bollenstreek, fort de quarante-cinq ans de réputation. Son site est entièrement rédigé en néerlandais, avec une page par service et un formulaire de devis qui demande le type de projet et la surface à traiter : les demandes arrivent prêtes à chiffrer. Entre mai et juillet 2026, il a reçu 1 436 clics pour 108 568 impressions Google.
+
+> Source : Google Search Console de bemelmanspuiterij.nl, mai à juillet 2026.
 
 BeTranslated, l’agence de traduction que nous dirigeons depuis vingt ans, a ses propres sites en .be et en .nl, chacun construit sur la recherche de son propre marché.
 
@@ -62,7 +64,7 @@ Côté technique, chaque version porte sa balise hreflang, nl-NL pour les Pays-B
 
 ### Le pied de page et le paiement
 
-Le numéro d’inscription néerlandais (KvK), son équivalent belge (BCE, ou KBO en néerlandais), le numéro de TVA et un consentement aux cookies conforme au droit local : l’acheteur les cherche en pied de page et sur la page de contact. Les secteurs réglementés ajoutent un avocat néerlandais ou belge à ce travail. iDEAL aux Pays-Bas et Bancontact en Belgique sont les moyens de paiement que le client s’attend à voir. Une boutique qui les propose garde une vraie part de ses acheteurs jusqu’au bout, et une page que les visiteurs mènent à terme tient mieux sa position dans Google.
+Le numéro d’inscription néerlandais (KvK), son équivalent belge (BCE, ou KBO en néerlandais), le numéro de TVA et un consentement aux cookies conforme au droit local : l’acheteur les cherche en pied de page et sur la page de contact. Les secteurs réglementés ajoutent un avocat néerlandais ou belge à ce travail. iDEAL aux Pays-Bas et Bancontact en Belgique sont les moyens de paiement que le client s’attend à voir. Un trafic de recherche vaut ce qu’il convertit, et le moyen de paiement que l’acheteur attend convertit davantage.
 
 ## Pays-Bas, Flandre ou les deux
 
@@ -72,6 +74,6 @@ La recommandation part de vos ventes : où sont déjà vos clients, et où votr
 
 ## Comment nous travaillons avec vous
 
-Tout commence par un premier échange en français sur vos ventes au Benelux. Nous auditons ensuite vos pages néerlandaises et celles de vos concurrents directs, puis nous vous proposons un périmètre écrit : quel marché d’abord, quelles pages, dans quel ordre. Une fois le plan validé, nous écrivons, nous faisons relire, nous publions et nous suivons les Pays-Bas et la Flandre séparément dans le rapport mensuel.
+Tout commence par une consultation gratuite, en français, sur vos ventes au Benelux. Nous auditons ensuite vos pages néerlandaises et celles de vos concurrents directs, puis nous vous proposons un périmètre écrit : quel marché d’abord, quelles pages, dans quel ordre. Une fois le plan validé, nous écrivons, nous faisons relire, nous publions et nous suivons les Pays-Bas et la Flandre séparément dans le rapport mensuel.
 
-Le néerlandais s’intègre dans votre [référencement multilingue](/fr/services/referencement-multilingue/) et suit le même plan que vos autres langues. Pour une présence par ville, avec vos fiches Google Business Profile, voyez notre [référencement local](/fr/services/referencement-local/). Les missions se règlent au mois, avec un périmètre écrit après le premier échange, et l’écriture est chiffrée comme un travail : notre [façon de facturer](/fr/tarifs/) est détaillée ici.
+Le néerlandais s’intègre dans votre [référencement multilingue](/fr/services/referencement-multilingue/) et suit le même plan que vos autres langues. Pour une présence par ville, avec vos fiches Google Business Profile, voyez notre [référencement local](/fr/services/referencement-local/). Les missions se règlent au mois, avec un périmètre écrit après la consultation, et l’écriture fait l’objet d’un devis pour le travail lui-même : notre [façon de facturer](/fr/tarifs/) est détaillée ici.

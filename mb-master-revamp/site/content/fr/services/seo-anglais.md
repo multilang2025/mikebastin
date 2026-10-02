@@ -20,7 +20,7 @@ Vous vendez déjà au Royaume-Uni ou en Irlande, et vos pages anglaises attirent
 L’enjeu est à la hauteur du marché. L’anglais est souvent la langue au plus fort volume de recherche de tout votre site, et une page écrite pour le lecteur britannique transforme ce volume en demandes.
 
 <aside class="post-cta">
-<p><strong>Vous voulez que vos pages anglaises vous apportent des demandes britanniques ?</strong> Nous écrivons directement en anglais, pour le marché que vous visez. <a href="/fr/nous-contacter/">Réserver un premier échange</a>.</p>
+<p><strong>Vous voulez que vos pages anglaises vous apportent des demandes britanniques ?</strong> Nous écrivons directement en anglais, pour le marché que vous visez. <a href="/fr/nous-contacter/">Réserver une consultation gratuite</a>.</p>
 </aside>
 
 ## Écrit directement en anglais, par l’équipe qui fixe la stratégie
@@ -37,13 +37,15 @@ L’anglais britannique et l’anglais américain diffèrent par l’orthographe
 
 Quand les États-Unis entrent dans votre projet, ils reçoivent leur propre version, écrite pour le lecteur américain. Nous commençons par le marché où les preuves sont les plus solides, puis nous ajoutons le suivant quand le premier montre des résultats.
 
-## Des sites en anglais que nous faisons tourner
+## Des sites en anglais que nous menons
 
-Pour TX International Freight, un transitaire de Houston, nous menons le SEO technique et le contenu en anglais, sur un seul marché couvert en profondeur. Les acheteurs du fret industriel cherchent avec le vocabulaire de leur métier : la recherche de mots-clés est partie de ce vocabulaire, appris auprès de la profession. Le site est présent dans le pack local de Houston sur ces recherches, et la Search Console lui compte 764 222 impressions et 2 616 clics de mai à juillet 2026.
+Pour TX International Freight, un transitaire de Houston, nous menons le SEO technique et le contenu anglais. Les acheteurs du fret industriel cherchent avec le vocabulaire de leur métier : la recherche de mots-clés est partie de ce vocabulaire, appris auprès de la profession. Le site est présent dans le pack local de Houston sur ces recherches, et la Search Console lui compte 764 222 impressions et 2 616 clics de mai à juillet 2026.
 
-Delaguía y Luzón, un cabinet d’avocats de Valencia, publie en quatre langues, dont l’anglais, sur le droit espagnol et français. Chaque terme y est tenu à la précision qu’un avocat exige en le lisant, dans la traduction comme dans le SEO.
+> Source : Google Search Console de txintlfreight.com, mai à juillet 2026.
 
-BeTranslated, l’agence de traduction que nous dirigeons depuis vingt ans, fait tourner douze domaines par pays, avec un contenu natif pour chaque marché.
+Delaguía y Luzón, un cabinet d’avocats de Valencia, publie en quatre langues, dont l’anglais, sur le droit espagnol et français. Chaque terme doit y résister à la lecture d’un avocat, dans la traduction comme dans le SEO.
+
+BeTranslated, l’agence de traduction que nous dirigeons depuis vingt ans, mène un site par pays, avec un contenu natif pour chaque marché.
 
 ## Les réglages techniques sous vos pages anglaises
 
@@ -55,8 +57,8 @@ L’anglais est plus court que le français : écrivez les balises title et les
 
 ## Comment nous travaillons
 
-Nous commençons par un échange sur votre entreprise, vos acheteurs et vos marchés anglophones, puis un audit de vos pages anglaises face à ce que recherchent les acheteurs britanniques, avec Ahrefs, Semrush et la Search Console. La recherche vient avant toute traduction : elle place dans le brief les termes que vos acheteurs tapent, et la page est juste du premier coup. Quand vos pages sont déjà traduites, l’audit montre celles qui méritent une réécriture ; c’est en général une poignée.
+Nous commençons par une consultation gratuite sur votre entreprise, vos acheteurs et vos marchés anglophones, puis un audit de vos pages anglaises face à ce que recherchent les acheteurs britanniques, avec Ahrefs, Semrush et la Search Console. La recherche vient avant toute traduction : elle place dans le brief les termes que vos acheteurs tapent, et la page est juste du premier coup. Quand vos pages sont déjà traduites, l’audit montre celles qui méritent une réécriture ; c’est en général une poignée.
 
-Nous réécrivons ou écrivons ensuite les pages qui comptent le plus, et chaque mois un rapport suit vos demandes venues du marché anglophone, séparées de vos autres marchés. La mission se poursuit au mois. L’écriture est chiffrée comme un travail ; si vous ajoutez des campagnes avec notre [SEM multilingue](/fr/services/sem-multilingue/), tout votre budget média va directement à Google, Microsoft ou Meta, et notre gestion est facturée à part.
+Nous réécrivons ou écrivons ensuite les pages qui comptent le plus, et chaque mois un rapport suit vos demandes venues du marché anglophone, séparées de vos autres marchés. La mission se poursuit au mois. L’écriture est chiffrée comme un travail ; si vous ajoutez des campagnes avec notre [SEM multilingue](/fr/services/sem-multilingue/), tout votre budget média va directement à Google, Microsoft ou Meta, et le pilotage fait l’objet d’honoraires à part.
 
 Pour les réglages de fond, voyez notre [SEO technique](/fr/services/seo-technique/) ; pour l’anglais dans un programme à plusieurs langues, le [référencement multilingue](/fr/services/referencement-multilingue/).

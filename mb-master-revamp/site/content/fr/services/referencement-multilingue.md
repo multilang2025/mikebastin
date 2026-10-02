@@ -11,7 +11,7 @@ wpId: 24848110
 date: "2024-09-29T11:09:22"
 modified: "2026-09-30T12:00:00"
 sourceUrl: "https://mikebastin.com/fr/services/referencement-multilingue/"
-excerpt: "Plusieurs langues en ligne, chacune avec sa stratégie, ses rédacteurs natifs et ses propres chiffres : chaque marché vous envoie des demandes à son rythme."
+excerpt: "Votre site parle déjà plusieurs langues. Nous donnons à chacune sa stratégie et ses rédacteurs natifs : chaque marché vous envoie ses propres demandes."
 ---
 
 ## Chaque langue de votre site a son propre potentiel
@@ -23,7 +23,7 @@ Le gain est direct. Une langue menée pour son marché se positionne sur ce que 
 Le SEO multilingue, tel que nous le pratiquons, consiste à piloter ces langues de front, dans le bon ordre, avec des rédacteurs natifs pour chacune.
 
 <aside class="post-cta">
-<p><strong>Vous voulez que chacune de vos langues vous envoie ses propres demandes ?</strong> Nous bâtissons une stratégie par marché et nous la faisons écrire par des natifs, langue après langue. <a href="/fr/nous-contacter/">Réserver un premier échange</a>.</p>
+<p><strong>Vous voulez que chacune de vos langues vous envoie ses propres demandes ?</strong> Nous bâtissons une stratégie par marché et nous la faisons écrire par des natifs, langue après langue. <a href="/fr/nous-contacter/">Réserver une consultation gratuite</a>.</p>
 </aside>
 
 ## Une stratégie par marché, écrite par des natifs
@@ -34,13 +34,13 @@ Les textes sont écrits par des natifs. Le français, l’anglais, l’espagnol 
 
 Les décisions qui coûtent cher à défaire plus tard sont prises au début : la structure du domaine, la carte des versions linguistiques et l’ordre d’entrée des marchés. Elles font la valeur d’un accompagnement en SEO multilingue.
 
-## L’ordre dans lequel les marchés entrent
+## Dans quel ordre ouvrir vos marchés
 
-Quatre marchés menés à fond dépassent neuf marchés lancés ensemble : les quatre ont la profondeur nécessaire pour se positionner, là où neuf à la fois donnent des pages minces.
+Quatre marchés menés à fond rapportent davantage que neuf lancés ensemble, parce que chacun reçoit la profondeur qu’il faut pour se positionner.
 
-**Des marchés classés sur des données.** Nous partons en général de huit à douze marchés candidats, notés sur cinq critères : le volume de recherche, la difficulté concurrentielle, l’adéquation commerciale avec ce que vous vendez, le coût de la localisation et les contraintes réglementaires propres au pays. Le classement fixe l’ordre sur des éléments mesurés, et place parfois en tête un autre marché que celui qu’on attendait.
+**Des marchés classés sur des données.** Nous partons en général de huit à douze marchés candidats, notés sur cinq critères : le volume de recherche, la difficulté concurrentielle, l’adéquation commerciale avec ce que vous vendez, le coût de la localisation et les contraintes réglementaires propres au pays. Le classement fixe l’ordre sur des éléments mesurés, et place parfois en tête un autre marché que celui que vous attendiez.
 
-**Une expansion par vagues.** Une première vague de trois ou quatre marchés, là où les données sont les plus solides. Une seconde vague qui reste un test jusqu’à ce que la première montre de la traction. Vers six mois, un point de décision indique quels marchés tests passent en programme complet et lesquels s’arrêtent.
+**Une expansion par vagues.** Une première vague de trois ou quatre marchés, là où les données sont les plus solides. Une seconde vague, menée comme un test, qui prend de l’ampleur quand la première a fait ses preuves. Vers le sixième mois, un point d’étape désigne les marchés tests qui passent en programme complet.
 
 **Une même structure pour toutes les langues.** Les adresses de pages, les liens internes, le balisage et les mots-clés cibles sont fixés par langue avant la mise en ligne de la première page. Le français publié aujourd’hui et l’espagnol ajouté dans six mois partagent la même structure, et le site reste simple à auditer au douzième mois.
 
@@ -50,13 +50,13 @@ Century 21 Perdomo, une agence immobilière en République dominicaine, publie s
 
 > Source : Google Search Console de c21perdomo.com, mai à juillet 2026.
 
-Nous appliquons la même discipline à BeTranslated, l’agence de traduction que nous faisons tourner depuis vingt ans : un domaine par marché, chacun avec son sitemap, son groupe hreflang et sa recherche de mots-clés.
+Nous appliquons la même discipline à BeTranslated, l’agence de traduction que nous dirigeons depuis vingt ans : un domaine par marché, chacun avec son sitemap, son groupe hreflang et sa recherche de mots-clés.
 
 ## Le socle technique qui laisse le contenu se positionner
 
 Ces réglages décident de la page que Google montre à chaque pays.
 
-**Les balises hreflang.** Chaque page porte ses balises hreflang, page d’accueil comprise, avec le bon code de langue et un lien de retour vers chacune de ses versions. Validées marché par marché, elles envoient le visiteur belge sur la version belge et gardent une Search Console propre. Des balises hreflang cassées ou circulaires sont la constatation la plus fréquente de nos audits, et les corriger relève le plafond de tout le reste.
+**Les balises hreflang.** Chaque page porte ses balises hreflang, page d’accueil comprise, avec le bon code de langue et un lien de retour vers chacune de ses versions. Validées marché par marché, elles envoient le visiteur belge sur la version belge et gardent une Search Console propre. Les balises hreflang cassées ou circulaires sont ce que nos audits relèvent le plus souvent, et leur correction profite à tout le reste du travail.
 
 **Sitemap, adresses et balisage.** Un sitemap découpé par langue, des adresses de pages traduites dans chaque langue et un balisage schema (LocalBusiness, Service, Article, FAQ) localisé par pays et validé avec l’outil de test des résultats enrichis de Google.
 
@@ -74,9 +74,9 @@ La même règle vaut pour les réponses de ChatGPT, Claude, Perplexity et des AI
 
 ## Qui pilote la mission, et comment
 
-Mike Bastin, cofondateur de BeTranslated, travaille le SEO et la traduction depuis plus de deux décennies. Il parle couramment le français, l’anglais, l’espagnol et le néerlandais, avec assez d’italien, d’allemand et de catalan pour piloter des projets SEO dans ces langues. Les textes commerciaux restent confiés à des rédacteurs natifs.
+Mike Bastin, cofondateur de BeTranslated, travaille le SEO et la traduction depuis plus de deux décennies. Il parle couramment le français, l’anglais, l’espagnol et le néerlandais, avec assez d’allemand et d’italien pour piloter des projets SEO dans ces deux langues. Les textes commerciaux restent confiés à des rédacteurs natifs.
 
-Chaque mission suit le même rythme : un premier échange sur vos marchés, un périmètre écrit pour le premier trimestre, une livraison mensuelle marché par marché, puis un rapport mensuel par langue sur les positions, le trafic et les demandes reçues, avec les recommandations du mois suivant. La rédaction et la traduction sont chiffrées comme un travail, sur devis ; le détail figure sur la page [nos tarifs](/fr/tarifs/). Pour la vue d’ensemble de notre accompagnement à l’export, voyez notre [SEO international](/fr/services/seo/).
+Chaque mission suit le même rythme : une consultation gratuite sur vos marchés, un périmètre écrit pour le premier trimestre, une livraison mensuelle marché par marché, puis un rapport mensuel par langue sur les positions, le trafic et les demandes reçues, avec les recommandations du mois suivant. La rédaction et la traduction font l’objet d’un devis pour le travail lui-même ; le détail figure sur la page [nos tarifs](/fr/tarifs/). Pour la vue d’ensemble de notre accompagnement à l’export, voyez notre [SEO international](/fr/services/seo/).
 
 ### Les livrables de la mission
 

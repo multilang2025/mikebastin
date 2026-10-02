@@ -22,7 +22,7 @@ El potencial ya está ahí. Tu producto ha demostrado que funciona fuera, tus p�
 A esto nos dedicamos desde hace más de dos décadas: el SEO internacional para empresas que exportan, medido por las consultas que recibes de cada mercado.
 
 <aside class="post-cta">
-<p><strong>¿Quieres que tus páginas en el extranjero te traigan clientes?</strong> Encontramos las palabras que usan tus compradores en cada país y escribimos las páginas que les llevan a contactarte. <a href="/es/contactanos/">Reservar una primera conversación</a>.</p>
+<p><strong>¿Quieres que tus páginas en el extranjero te traigan clientes?</strong> Encontramos las palabras que usan tus compradores en cada país y escribimos las páginas que les llevan a contactarte. <a href="/es/contactanos/">Reserva una consulta gratuita</a>.</p>
 </aside>
 
 ## Lo que hacemos por tu marketing internacional en cada mercado
@@ -31,7 +31,7 @@ El posicionamiento web internacional se resume en tres tareas, repetidas para ca
 
 **Buscamos las palabras de tus compradores, en su idioma.** Un comprador alemán y uno francés describen la misma necesidad con expresiones propias de su mercado, a menudo lejos de la traducción de tus palabras clave en español. La investigación parte de su mercado, de lo que escriben y de lo que comparan antes de contactar con un proveedor.
 
-**Hacemos escribir tus páginas por nativos.** Un comprador sabe desde la primera frase si una página está escrita para él. El español, el francés, el inglés y el neerlandés los trabaja directamente el equipo que diseña la estrategia; el alemán, el italiano, el portugués y el resto de idiomas pasan por redactores nativos de la red BeTranslated.
+**Encargamos tus páginas a redactores nativos.** Un comprador sabe desde la primera frase si una página está escrita para él. El español, el francés, el inglés y el neerlandés los trabaja directamente el equipo que diseña la estrategia; el alemán, el italiano, el portugués y el resto de idiomas pasan por redactores nativos de la red BeTranslated.
 
 **Contamos las consultas, idioma por idioma.** Cada mercado tiene sus propias cifras: visitas, posiciones y, sobre todo, consultas recibidas. Ves qué país rinde y el presupuesto acompaña a los mercados que responden.
 
@@ -39,7 +39,7 @@ Estas tareas forman parte de tu marketing internacional: el SEO trabaja de forma
 
 ## Sitios que llevamos en varios idiomas
 
-Delaguía y Luzón, un despacho de abogados de Valencia, cubre derecho mercantil, laboral, inmigración y fiscalidad entre España y Francia, en español, francés, inglés y ruso. Cada término jurídico se mantiene al nivel que exigiría un abogado al leerlo, en cada idioma. De mayo a julio de 2026, el sitio recibió 38 476 clics desde Google, con una posición media de 9,4.
+Delaguía y Luzón, un despacho de abogados de Valencia, cubre derecho mercantil, laboral, inmigración y fiscalidad entre España y Francia, en español, francés, inglés y ruso. Cada término jurídico se mantiene al nivel que exigiría un abogado al leerlo, en cada idioma. De mayo a julio de 2026, el sitio recibió 38.476 clics desde Google, con una posición media de 9,4.
 
 > Fuente: Google Search Console de delaguialuzon.com, de mayo a julio de 2026.
 
@@ -51,7 +51,7 @@ Una vez fijada la estrategia, una parte del trabajo es técnica, y es la que per
 
 **La estructura del sitio.** Subdirectorio (/fr/, /de/), subdominio o dominio nacional (.fr, .de): la elección depende de tu presupuesto, de la autoridad que puedes repartir y del peso que tiene una dirección local para tus compradores. Para la mayoría de las empresas que añaden mercados a una actividad existente, el subdirectorio concentra la autoridad en un mismo lugar. Lo decidimos contigo una vez, al principio.
 
-**Las etiquetas hreflang.** Cada página lleva su etiqueta hreflang con el código de idioma correcto y un enlace de vuelta a sus versiones hermanas, portada incluida. El comprador belga llega a la versión belga, el francés a la francesa, y Search Console ofrece un informe limpio, mercado por mercado.
+**Las etiquetas hreflang.** Cada página lleva su etiqueta hreflang con el código de idioma correcto y un enlace de vuelta a sus versiones hermanas, portada incluida. El comprador belga llega a la versión belga, el francés a la francesa, y Search Console muestra un informe claro, mercado por mercado.
 
 **Los datos estructurados.** El marcado schema (LocalBusiness, Service, Article, FAQ) se construye para cada idioma y se valida con la prueba de resultados enriquecidos de Google.
 
@@ -65,12 +65,12 @@ Tres o cuatro mercados trabajados a fondo dan más resultados que nueve lanzados
 
 ## Cómo trabajamos
 
-1. **Una primera conversación** sobre tus mercados, tus idiomas y lo que ya has puesto en marcha. También puedes pedir una auditoría gratuita de 20 minutos.
+1. **Una consulta gratuita** sobre tus mercados, tus idiomas y lo que ya has puesto en marcha. También puedes pedir una auditoría gratuita de 20 minutos.
 2. **Un alcance escrito para el primer trimestre**: las páginas, las palabras clave, los mercados por orden y quién hace qué.
 3. **Una entrega mensual, mercado por mercado**, con textos escritos por nativos y revisados antes de publicar.
 4. **Un informe mensual por idioma**: visitas, posiciones y consultas recibidas, comentados con claridad, con las prioridades del mes siguiente.
 5. **Un compromiso mes a mes**, con preaviso por ambas partes.
 
-La redacción y la traducción se presupuestan como un trabajo, a partir de esa primera conversación. El detalle de nuestra facturación está en la página de [precios](/es/precios/).
+La redacción y la traducción se presupuestan aparte, como un encargo, a partir de esa consulta. El detalle de nuestra facturación está en la página de [precios](/es/precios/).
 
 Hablas directamente con las personas que diseñan la estrategia, redactan los briefs y leen los informes. Respondemos a cada mensaje, por lo general en un día laborable.

@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   ...pageMeta({
     title: "Contáctanos, Mike Bastin",
     description:
-      "Cuéntanos en qué idioma quieres vender a continuación. Un breve resumen de tu proyecto de SEO, localización o IA recibe una respuesta clara en un día laborable.",
+      "Cuéntanos en qué idioma quieres vender ahora. Con un breve resumen de tu proyecto de SEO, localización o IA, te respondemos por lo general en un día laborable.",
     path: PATH,
     languages: esLanguages(PATH),
     ogLocale: "es_ES",
@@ -31,10 +31,10 @@ export const metadata: Metadata = {
 };
 
 const BUDGETS = [
-  "Menos de 1 000 al mes",
-  "De 1 000 a 2 500 al mes",
-  "De 2 500 a 5 000 al mes",
-  "Más de 5 000 al mes",
+  "Menos de 1.000 al mes",
+  "De 1.000 a 2.500 al mes",
+  "De 2.500 a 5.000 al mes",
+  "Más de 5.000 al mes",
   "Proyecto puntual",
   "Por definir",
 ];
@@ -67,7 +67,7 @@ export default function SpanishContactPage() {
           </Reveal>
           <Reveal i={2}>
             <h2 className="mb-6 max-w-[46ch] text-[clamp(1.2rem,2.1vw,1.7rem)] font-medium leading-[1.3]" style={{ color: "var(--ink)" }}>
-              Cuéntanos en qué idioma quieres vender a continuación y un breve resumen recibe una respuesta clara en un día laborable.
+              Cuéntanos en qué idioma quieres vender ahora y empezamos con una consulta gratuita sobre tus mercados.
             </h2>
           </Reveal>
           <Reveal i={3}>
@@ -147,7 +147,7 @@ export default function SpanishContactPage() {
               </div>
 
               <Button type="submit" size="lg">
-                Enviar
+                Enviar tu mensaje
               </Button>
             </form>
           </Reveal>
@@ -155,7 +155,7 @@ export default function SpanishContactPage() {
           <Reveal i={2}>
             <aside className="text-[.95rem]" style={{ color: "var(--dim)" }}>
               <h2 className="mb-4 text-[1.08rem] font-semibold" style={{ color: "var(--ink)" }}>
-                Si prefieres escribirnos directamente
+                ¿Prefieres escribirnos directamente?
               </h2>
               <p className="mb-6">Por supuesto. El formulario solo sirve para hacerte las preguntas que te habríamos hecho de todos modos.</p>
               <div className="mb-8 flex flex-col gap-2">
@@ -170,7 +170,7 @@ export default function SpanishContactPage() {
                 Dónde encontrarnos
               </h2>
               <p className="mb-2">Valencia, España, desde 2016.</p>
-              <p>Trabajamos en español, inglés, francés y neerlandés. Para los demás idiomas contamos con redactores nativos que te presentamos.</p>
+              <p>Trabajamos directamente en español, inglés, francés y neerlandés. El alemán, el italiano, el portugués y el resto de idiomas los escriben redactores nativos que te presentamos.</p>
             </aside>
           </Reveal>
         </div>

@@ -9,18 +9,18 @@ wpId: null
 date: "2026-09-30T10:20:00"
 modified: "2026-09-30T10:20:00"
 sourceUrl: null
-excerpt: "Adapta textos, formularios y diseño de tu interfaz a cada mercado donde vendes, y logra que tus usuarios se sientan como en casa desde el primer clic."
+excerpt: "Localización de interfaz para cada mercado donde vendes: textos, formularios y diseño que tus usuarios sienten como propios desde el primer clic."
 ---
 
-Tu producto ya vende en Francia, Alemania o el Reino Unido, la traducción está bien y el siguiente paso es mejorar las cifras. Más registros completados y etiquetas que suenan naturales llegan cuando adaptas la interfaz alrededor de la traducción.
+Tu producto ya vende en Francia, Alemania o el Reino Unido y la traducción está bien hecha. El siguiente paso es mejorar las cifras: más registros completados, más compras terminadas y etiquetas que suenan naturales a quien las lee.
 
-La localización de la interfaz de usuario (UI) adapta el texto, las imágenes, el diseño y el comportamiento al idioma, la cultura y los requisitos legales de cada mercado. A continuación te contamos en qué consiste, qué aporta a tu negocio y cómo planificarla y probarla para que cada idioma nuevo encaje en el diseño que ya tienes.
+Esas mejoras llegan cuando adaptas la interfaz alrededor de la traducción: el texto, las imágenes, el diseño y el comportamiento de cada pantalla. Aquí tienes qué aporta a tu negocio, qué capas hay que trabajar y cómo planificarlo para que cada idioma nuevo encaje en el diseño que ya tienes.
 
 ## Por qué la localización de la interfaz marca la diferencia
 
-Para las empresas que venden en varios mercados, la interfaz es donde el usuario decide si el producto es para él. Una interfaz localizada refleja su idioma y sus costumbres, resulta más fácil de usar y el usuario le atribuye ese mérito a tu marca.
+Para una empresa que vende en varios mercados, la interfaz es donde el usuario decide si el producto es para él. Una interfaz localizada refleja su idioma y sus costumbres, resulta más fácil de usar, y el usuario le atribuye ese mérito a tu marca.
 
-La localización también abarca formatos de fecha, campos de moneda y símbolos normativos, y acertar en ellos protege al negocio. Un comprador alemán espera ver «1.234,50 €» y una fecha escrita día, mes y año, y uno británico espera libras y su propio formato de dirección.
+La localización abarca también los formatos de fecha, los campos de moneda y los símbolos normativos, y acertar en ellos protege al negocio. Un comprador alemán espera ver «1.234,50 €» y una fecha escrita en el orden día, mes y año; uno británico espera libras y su propio formato de dirección.
 
 Los beneficios se resumen en tres:
 
@@ -43,7 +43,9 @@ Las imágenes y los símbolos necesitan [contenido adaptado culturalmente](/es/s
 
 ### Un ejemplo de formulario
 
-El formulario de dirección muestra bien lo que cambia de un mercado a otro. Un cliente en España rellena calle, número, código postal de cinco cifras, localidad y provincia. En otros países el orden de los campos, el formato del código postal o la forma de escribir el teléfono son distintos, y el formulario que los respeta se completa con menos fricción.
+El formulario de dirección muestra bien lo que cambia de un mercado a otro. Un cliente en España rellena calle, número, código postal de cinco cifras, localidad y provincia.
+
+En otros países cambian el orden de los campos, el formato del código postal o la forma de escribir el teléfono. El formulario que respeta esas costumbres se completa con menos fricción y entrega más pedidos.
 
 ## Buenas prácticas
 
@@ -52,18 +54,18 @@ Casi todo el coste se decide antes de traducir la primera cadena de texto. Cuatr
 - **Planifica desde el principio.** Integra la localización en el proceso de diseño, de modo que los diseños y las funciones admitan cualquier idioma a medida que llegue.
 - **Trabaja con traductores profesionales.** En las cadenas de la interfaz, los traductores humanos transmiten el contexto, el tono y el significado que cada una necesita.
 - **Prueba con usuarios locales.** Las pruebas de usabilidad con personas reales de cada mercado son la comprobación fiable de que la interfaz localizada funciona.
-- **Colabora de cerca con los desarrolladores.** Asegúrate de que el equipo conoce las necesidades de localización, como la expansión del texto y la compatibilidad con la escritura de derecha a izquierda.
+- **Trabaja de cerca con los desarrolladores.** Asegúrate de que el equipo conoce las necesidades de localización, como la expansión del texto y la escritura de derecha a izquierda.
 
 <aside class="post-cta">
-<p><strong>¿Vas a abrir un mercado nuevo y quieres que salga bien a la primera?</strong> Nuestra <a href="/es/services/localizacion-de-aplicaciones/">localización de aplicaciones y software</a> prepara primero la arquitectura, para que un idioma nuevo sea una tarea de traducción. <a href="/es/contactanos/">Reserva la llamada de descubrimiento</a>.</p>
+<p><strong>¿Vas a abrir un mercado nuevo y quieres que salga bien a la primera?</strong> Nuestra <a href="/es/services/localizacion-de-aplicaciones/">localización de aplicaciones y software</a> prepara primero la arquitectura, para que añadir un idioma sea un trabajo de traducción. <a href="/es/contactanos/">Reserva una primera conversación</a>.</p>
 </aside>
 
 ## Herramientas que ayudan
 
 Las herramientas adecuadas mantienen todos los idiomas al mismo ritmo. La mayor parte de la localización de interfaces se apoya en tres tipos, que a menudo se combinan en una misma plataforma como Smartcat:
 
-- **Los sistemas de gestión de traducción (TMS)** organizan los flujos de trabajo y el control de versiones, de modo que las actualizaciones llegan a todos los idiomas de forma coherente y a tiempo.
-- **Las herramientas de traducción asistida por ordenador (TAO)** ofrecen a los traductores memoria de traducción, bases terminológicas y sugerencias automáticas, lo que mantiene la terminología uniforme.
+- **Los sistemas de gestión de traducción (TMS)** organizan los flujos de trabajo y el control de versiones, de modo que las actualizaciones llegan a todos los idiomas a la vez.
+- **Las herramientas de traducción asistida por ordenador (TAO)** ofrecen a los traductores memoria de traducción, bases terminológicas y sugerencias automáticas, y así la terminología se mantiene uniforme.
 - **Las sugerencias de traducción automática** aceleran las cadenas rutinarias, y un traductor humano revisa el resultado.
 
 ## Retos frecuentes y cómo resolverlos
@@ -76,8 +78,16 @@ Tres retos aparecen una y otra vez, y cada uno tiene una solución conocida:
 | Contexto ausente | Los traductores ven las cadenas sin conocer su función | Guías, capturas de pantalla y notas para cada elemento de la interfaz |
 | Desajustes culturales | Las imágenes, los colores o los símbolos significan otra cosa | Revisar los elementos visuales con hablantes nativos de cada mercado |
 
+La expansión pesa más en los textos cortos, que son justo los de la interfaz: botones, pestañas y etiquetas de formulario.
+
+> En textos de hasta 10 caracteres en inglés, la traducción a lenguas europeas ocupa de media entre el 200 % y el 300 % de la longitud original; en textos de más de 70 caracteres, en torno al 130 %.
+>
+> Fuente: [W3C, «Text size in translation», con datos de las guías de diseño global de IBM](https://www.w3.org/International/articles/article-text-size)
+
+Diseña los botones con margen y prueba la interfaz con el texto real del idioma más largo antes de cerrar el diseño.
+
 ## Por dónde empezar
 
-Un producto que habla el idioma de sus usuarios, en sentido literal y cultural, resulta más fácil de usar, consigue más interacción y genera confianza entre los usuarios internacionales. La localización profesional de la interfaz es una pieza central para construir una marca global.
+Un producto que habla el idioma de sus usuarios, en sentido literal y cultural, resulta más fácil de usar, consigue más interacción y genera confianza entre los usuarios internacionales. Empieza por las pantallas que deciden la venta: el registro, el formulario de pedido y el pago.
 
-¿Listo para localizar tu interfaz? Te ofrecemos una evaluación gratuita de tus necesidades de localización y un plan adaptado a tu caso. [Contáctanos para empezar](/es/contactanos/).
+¿Quieres saber qué necesita tu interfaz para el próximo mercado? Te ofrecemos una evaluación gratuita de localización. [Escríbenos para empezar](/es/contactanos/).

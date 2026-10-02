@@ -37,19 +37,19 @@ export const metadata: Metadata = {
 
 const PARTS: { title: string; body: string; href?: string; link?: string }[] = [
   {
-    title: "Encontrado en su idioma",
+    title: "Te encuentran en su idioma",
     body: "Posicionamiento construido mercado a mercado a partir de lo que los compradores escriben de verdad, para que el visitante adecuado llegue a una página escrita para él.",
     href: "/es/services/posicionamiento-multilingue/",
     link: "Posicionamiento multilingüe",
   },
   {
-    title: "Alcanzado antes de que te encuentre",
+    title: "Llegas a ellos desde el primer día",
     body: "Campañas de pago en cada idioma que llegan al comprador antes que la búsqueda orgánica, con un presupuesto separado por mercado para que cada uno responda de su propio gasto.",
     href: "/es/services/publicidad-multilingue/",
     link: "Publicidad multilingüe",
   },
   {
-    title: "Contado donde nació",
+    title: "Cada consulta, en su mercado de origen",
     body: "Cada consulta atribuida al mercado y al idioma que la trajeron, y seguida hasta tu CRM, para juzgar cada mercado por las conversaciones que abre.",
   },
 ];
@@ -79,7 +79,7 @@ const QUESTIONS = [
   {
     q: "¿Hay una permanencia mínima?",
     a: [
-      "Trabajamos mes a mes. La primera llamada da lugar a un alcance por escrito que nombra las páginas y los entregables, y tú decides a partir de ahí.",
+      "Trabajamos mes a mes. La consulta gratuita da lugar a un alcance por escrito que nombra las páginas y los entregables, y tú decides a partir de ahí.",
     ],
   },
 ];
@@ -117,13 +117,13 @@ export default function SpanishLeadGenerationPage() {
             </Reveal>
             <Reveal i={3}>
               <p className="mb-10 max-w-[58ch] text-[clamp(1.05rem,1.5vw,1.2rem)] leading-[1.58]" style={{ color: "var(--dim)" }}>
-                El tráfico llega en francés, alemán y neerlandés, y las consultas siguen llegando en español. La Search Console de un cliente mostraba cuarenta mil impresiones en noventa días, y seis clics. Los compradores ya buscaban: el siguiente paso era convertir esa búsqueda en una conversación.
+                El tráfico llega en francés, alemán y neerlandés, y las consultas siguen llegando en español. Nuestra propia web mostraba cuarenta mil impresiones en noventa días y seis clics, hasta que la reconstruimos pensando en las consultas. Los compradores ya buscaban: el siguiente paso era convertir esa búsqueda en una conversación.
               </p>
             </Reveal>
             <Reveal i={4}>
               <div className="flex flex-wrap items-center gap-x-6 gap-y-4">
-                <Link href="/contact/" className="btn btn-primary btn-lg">
-                  Reservar una primera llamada
+                <Link href="/es/contactanos/" className="btn btn-primary btn-lg">
+                  Reserva una consulta gratuita
                 </Link>
                 <Link href="#facturacion" className="ulink text-[.98rem]">
                   Ver cómo se factura
@@ -162,7 +162,7 @@ export default function SpanishLeadGenerationPage() {
               La generación de leads B2B, idioma a idioma
             </h2>
             <p className="mb-10 max-w-[62ch] text-[1.05rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
-              Tres piezas, trabajadas juntas y juzgadas por una sola cosa: si cada mercado envía a tu equipo comercial consultas que valen la pena. Por separado, cada una produce un informe. Juntas, producen un pipeline que lees mercado a mercado.
+              Tres piezas, trabajadas juntas y juzgadas por una sola cosa: si cada mercado envía a tu equipo comercial consultas que valen la pena. Por separado, cada una produce un informe. Juntas, producen una cartera de oportunidades que lees mercado a mercado.
             </p>
           </Reveal>
           <Reveal i={2}>
@@ -196,7 +196,7 @@ export default function SpanishLeadGenerationPage() {
               Cuando un proyecto incluye publicidad de pago, toda tu inversión en medios compra anuncios: va directamente a Google, Microsoft o Meta, y la gestión se factura como honorarios propios. Así que el presupuesto que te recomendamos es el que trae consultas.
             </p>
             <p className="max-w-[62ch] text-[1.05rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
-              Esto vale para la inversión en medios; la redacción y la traducción se presupuestan como un precio por el trabajo.
+              Esta regla se aplica a la inversión en medios; la redacción y la traducción se presupuestan aparte, por el trabajo que suponen.
             </p>
           </Reveal>
         </div>
@@ -235,7 +235,7 @@ export default function SpanishLeadGenerationPage() {
           </Reveal>
           <Reveal i={1}>
             <h3 className="display mb-6 text-[clamp(1.3rem,2.2vw,1.7rem)] font-semibold">
-              Lo que nos preguntan antes de la primera llamada
+              Lo que nos preguntan antes de la consulta gratuita
             </h3>
           </Reveal>
           <Reveal i={2}>
@@ -254,12 +254,12 @@ export default function SpanishLeadGenerationPage() {
           </Reveal>
           <Reveal i={1}>
             <p className="mb-9 max-w-[58ch] text-[1.05rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
-              Treinta minutos sobre los mercados que importan, lo que ya posiciona y lo que ya se ha probado. Primero preguntamos y después recomendamos, y lo que recibes es un alcance por escrito que nombra páginas y entregables reales. Trabajamos mes a mes. El formulario de contacto está en inglés, y puedes rellenarlo en español: te responderemos en español.
+              Una consulta gratuita de treinta minutos sobre los mercados que importan, lo que ya posiciona y lo que ya se ha probado. Primero preguntamos y después recomendamos, y lo que recibes es un alcance por escrito que nombra páginas y entregables reales. Trabajamos mes a mes.
             </p>
           </Reveal>
           <Reveal i={2}>
-            <Link href="/contact/" className="btn btn-primary btn-lg">
-              Reservar una primera llamada
+            <Link href="/es/contactanos/" className="btn btn-primary btn-lg">
+              Reserva una consulta gratuita
             </Link>
           </Reveal>
         </div>

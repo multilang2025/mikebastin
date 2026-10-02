@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   ...pageMeta({
     title: "Nous contacter, Mike Bastin",
     description:
-      "Dites-nous dans quelle langue vous voulez vendre ensuite. Un bref descriptif de votre projet SEO, localisation ou IA reçoit une réponse claire sous un jour ouvré.",
+      "Dites-nous dans quelle langue vous voulez vendre ensuite. Quelques lignes sur votre projet SEO, de localisation ou d’IA suffisent pour recevoir une réponse claire sous un jour ouvré.",
     path: PATH,
     languages: frLanguages(PATH),
     ogLocale: "fr_FR",
@@ -40,7 +40,7 @@ const BUDGETS = [
 ];
 
 const HINT_COMPANY = "Une URL est ce qui nous aide le plus.";
-const HINT_BUDGET = "Une fourchette réaliste nous fait gagner du temps à tous les deux.";
+const HINT_BUDGET = "Une fourchette réaliste nous permet de bien préparer le premier échange.";
 const HINT_MESSAGE = "Quels marchés, quelles langues, et ce que vous avez déjà essayé.";
 
 export default function FrenchContactPage() {
@@ -67,12 +67,12 @@ export default function FrenchContactPage() {
           </Reveal>
           <Reveal i={2}>
             <h2 className="mb-6 max-w-[46ch] text-[clamp(1.2rem,2.1vw,1.7rem)] font-medium leading-[1.3]" style={{ color: "var(--ink)" }}>
-              Dites-nous dans quelle langue vous voulez vendre ensuite, et un bref descriptif reçoit une réponse claire sous un jour ouvré.
+              Dites-nous dans quelle langue vous voulez vendre ensuite. Quelques lignes suffisent pour recevoir une réponse claire sous un jour ouvré.
             </h2>
           </Reveal>
           <Reveal i={3}>
             <p className="max-w-[58ch] text-[clamp(1.05rem,1.65vw,1.24rem)]" style={{ color: "var(--dim)" }}>
-              Six champs, chacun utile. Nous lisons chaque message et y répondons nous-mêmes, en général sous un jour ouvré. Si quelqu&apos;un d&apos;autre est mieux placé pour votre projet, nous vous le dirons et vous orienterons vers lui.
+              Six champs, tous utiles. Nous lisons chaque message et y répondons nous-mêmes. Si une autre équipe convient mieux à votre projet, nous vous le disons et vous mettons en relation avec elle.
             </p>
           </Reveal>
         </div>
@@ -133,7 +133,7 @@ export default function FrenchContactPage() {
                 </Select>
               </Field>
 
-              <Field id="message" label="Où en êtes-vous" required hint={HINT_MESSAGE}>
+              <Field id="message" label="Ce que vous voulez améliorer" required hint={HINT_MESSAGE}>
                 <Textarea id="message" name="message" required rows={7} aria-describedby={describedBy("message", HINT_MESSAGE)} />
               </Field>
 
@@ -147,7 +147,7 @@ export default function FrenchContactPage() {
               </div>
 
               <Button type="submit" size="lg">
-                Envoyer
+                Envoyer votre demande
               </Button>
             </form>
           </Reveal>
@@ -155,7 +155,7 @@ export default function FrenchContactPage() {
           <Reveal i={2}>
             <aside className="text-[.95rem]" style={{ color: "var(--dim)" }}>
               <h2 className="mb-4 text-[1.08rem] font-semibold" style={{ color: "var(--ink)" }}>
-                Vous préférez écrire directement
+                Vous préférez l’e-mail ou le téléphone ?
               </h2>
               <p className="mb-6">Bien sûr. Le formulaire sert seulement à poser les questions que nous vous aurions posées de toute façon.</p>
               <div className="mb-8 flex flex-col gap-2">
@@ -170,7 +170,7 @@ export default function FrenchContactPage() {
                 Où nous trouver
               </h2>
               <p className="mb-2">Valencia, Espagne, depuis 2016.</p>
-              <p>Nous travaillons en français, en anglais et en espagnol. Pour les autres langues, nous faisons appel à des rédacteurs natifs que nous vous présentons.</p>
+              <p>Nous travaillons directement en français, en anglais, en espagnol et en néerlandais. L’allemand, l’italien, le portugais et les autres langues sont confiés à des rédacteurs natifs que nous vous présentons.</p>
             </aside>
           </Reveal>
         </div>

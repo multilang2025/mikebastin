@@ -21,7 +21,7 @@ Votre site vend en Espagne, en Allemagne ou au Royaume-Uni, et ses pages commerc
 Des pages légales dans la langue et le format du pays rassurent l’acheteur au moment où il décide, et votre site se présente dans chaque marché avec le même sérieux qu’en France. Les préparer avant d’ouvrir un marché vous permet de le lancer à la date prévue.
 
 <aside class="post-cta">
-<p><strong>Votre site s’ouvre à un nouveau pays et ses pages légales doivent suivre ?</strong> Nous localisons vos textes juridiques et vos réglages de consentement pour chaque marché, et les mettons en ligne. <a href="/fr/nous-contacter/">Réserver un premier échange</a>.</p>
+<p><strong>Votre site s’ouvre à un nouveau pays et ses pages légales doivent suivre ?</strong> Nous localisons vos textes juridiques et vos réglages de consentement pour chaque marché, et les mettons en ligne. <a href="/fr/nous-contacter/">Réserver une consultation gratuite</a>.</p>
 </aside>
 
 ## Ce que nous localisons
@@ -38,11 +38,13 @@ Des pages légales dans la langue et le format du pays rassurent l’acheteur au
 
 Le contenu juridique de chaque pays relève de votre avocat ou de votre juriste : c’est lui qui confirme ce que vos textes doivent dire en Allemagne, en Espagne ou au Royaume-Uni. Notre travail est la localisation : traduire ces textes avec la terminologie juridique du pays, les adapter au format local, les placer là où l’acheteur les cherche et régler le site pour qu’il les applique.
 
-La traduction passe par le réseau BeTranslated, que nous dirigeons depuis vingt ans, avec des traducteurs qui ont la formation juridique du pays concerné. Pour un contrat, un acte ou tout document qu’un tribunal ou une administration doit accepter, la traduction assermentée prend un à sept jours selon la complexité du document : le détail est sur notre page [traduction professionnelle](/fr/services/traduction-professionnelle/).
+La traduction passe par le réseau BeTranslated, l’agence de traduction que nous dirigeons depuis vingt ans, avec des traducteurs qui ont la formation juridique du pays concerné. Pour un contrat, un acte ou tout document qu’un tribunal ou une administration doit accepter, la traduction assermentée prend un à sept jours selon la complexité du document : le détail est sur notre page [traduction professionnelle](/fr/services/traduction-professionnelle/).
 
 ## Un site juridique qui travaille dans deux systèmes
 
-Delaguía y Luzón est un cabinet d’avocats de Valence dont l’activité couvre l’Espagne et la France, en quatre langues dont le russe. Un même contenu doit parfois tenir dans deux systèmes juridiques à la fois. Son site, qui porte ces contenus juridiques traduits, a obtenu 38 476 clics pour 2 399 567 impressions Google entre mai et juillet 2026, avec une position moyenne de 9,4.
+Delaguía y Luzón est un cabinet d’avocats de Valencia dont l’activité couvre l’Espagne et la France, en quatre langues dont le russe. Un même contenu doit parfois tenir dans deux systèmes juridiques à la fois. Son site, qui porte ces contenus juridiques traduits, a obtenu 38 476 clics pour 2 399 567 impressions Google entre mai et juillet 2026, avec une position moyenne de 9,4.
+
+> Source : Google Search Console de delaguialuzon.com, mai à juillet 2026.
 
 ## Consentement, cookies et formulaires, pays par pays
 
@@ -63,4 +65,4 @@ Chaque page légale reçoit sa propre URL dans le sous-répertoire de sa langue,
 4. **La mise en ligne et les tests.** Chaque texte à sa place, dans chaque langue, avec le bandeau et les formulaires vérifiés sur le site réel.
 5. **Les mises à jour.** Quand votre juriste modifie un texte, nous répercutons le changement dans toutes les langues.
 
-La traduction est chiffrée comme un travail, texte par texte ; le détail figure dans [nos tarifs](/fr/tarifs/). Ce travail s’intègre naturellement à la [localisation de site web](/fr/services/localisation-de-site-web/), qui adapte le reste du site à chaque marché. Nous lisons chaque demande nous-mêmes et répondons en général sous un jour ouvré.
+La traduction fait l’objet d’un devis pour le travail lui-même, texte par texte ; le détail figure dans [nos tarifs](/fr/tarifs/). Ce travail s’intègre naturellement à la [localisation de site web](/fr/services/localisation-de-site-web/), qui adapte le reste du site à chaque marché. Nous lisons chaque demande nous-mêmes et répondons en général sous un jour ouvré.

@@ -1,6 +1,6 @@
 ---
 words: 1367
-title: "Análisis de la competencia para SEO"
+title: "Análisis de la competencia SEO en cada mercado donde vendes"
 slug: "analisis-de-la-competencia-seo"
 locale: "es"
 type: "posts"
@@ -9,143 +9,144 @@ wpId: 24857772
 date: "2026-05-31T20:42:23"
 modified: "2026-05-31T20:42:23"
 sourceUrl: "https://mikebastin.com/es/analisis-de-la-competencia-seo/"
-excerpt: "Análisis de la competencia para SEO en 2026: rivales reales en la SERP, tráfico, brechas de palabras clave y citas en IA, con más de dos décadas de oficio."
+excerpt: "Análisis de la competencia SEO para empresas que exportan: quién gana tus búsquedas en cada país, qué páginas les dan tráfico y por dónde empezar."
 ---
 
 ![Análisis de la competencia para SEO](/images/legacy/2026/01/competitoranalysis-1024x585.jpg)
 
-## El análisis de la competencia que sirve es el que guía la estrategia
+Ya vendes en Francia, en el Benelux o en Alemania, y en cada uno de esos mercados alguien se queda con las búsquedas de tus compradores. Saber quién es, mercado por mercado, te dice dónde puede ganar terreno tu web en el próximo trimestre y qué tipo de página lo consigue.
 
-En más de dos décadas hemos leído muchísimos informes de «análisis de la competencia».
+En más de dos décadas hemos leído muchos informes de competencia. Los que mueven posiciones parten de lo que ve el comprador cuando busca, y caben en una tarde de trabajo por mercado.
 
-Casi todos lucen en una presentación de dirección; los que sirven para posicionar mejor parten de la SERP.
+Aquí tienes el método que seguimos: cómo dar con tus rivales reales, las cuatro cosas que conviene extraer de ellos, las herramientas y sus límites, y cómo repetirlo en cada idioma.
 
-Un despacho de abogados con el que llevamos tres años estaba convencido de que su gran rival era una boutique conocida a dos calles. Tras una tarde de comprobación seria a nivel de SERP, los rivales orgánicos de verdad resultaron ser tres abogados independientes con webs de doce páginas y un SEO local muy afinado.
+## El análisis útil es el que guía la estrategia
 
-La boutique que les obsesionaba apenas posicionaba.
+Un buen análisis te ahorra meses de contenido escrito contra el rival equivocado. Su punto de partida es sencillo: lista las direcciones que aparecen junto a la tuya cuando el comprador busca.
 
-Un buen análisis de la competencia en 2026 empieza con un cambio: lista las URLs que aparecen junto a la tuya cuando el comprador busca.
+Un despacho de abogados de Valencia con el que trabajamos tenía claro que su gran rival era una boutique conocida de la misma ciudad. Tras una tarde de comprobación en los resultados de búsqueda, sus rivales orgánicos resultaron ser tres abogados independientes con webs de doce páginas y un SEO local muy afinado. La boutique que les preocupaba apenas aparecía.
 
-### Tus rivales reales son los que comparten tus SERP
+### Tus rivales reales son los que comparten tus resultados de búsqueda
 
-El competidor de negocio y el competidor de SEO son categorías distintas. Las búsquedas de alta intención que convierten las pymes suelen ganarlas firmas más pequeñas que la más grande de la ciudad.
+El competidor de negocio y el competidor de SEO son categorías distintas. Las búsquedas de alta intención que más clientes traen a una pyme suelen ganarlas webs más pequeñas que la empresa más grande del sector.
 
-Nosotros hacemos un rastreo rápido de las SERP en las 30 a 50 búsquedas que de verdad le importan a un cliente. Las páginas que salen una y otra vez son la lista real. A veces un hilo de foro o un post de Reddit posiciona por encima de cualquier competidor «oficial» para la pregunta real del comprador.
+Nosotros revisamos los resultados de las 30 a 50 búsquedas que de verdad le importan a un cliente. Las páginas que salen una y otra vez forman la lista real. A veces un hilo de foro o una conversación de Reddit posiciona por encima de cualquier competidor «oficial» para la pregunta del comprador.
 
-Saber eso cambia el encargo. Tu objetivo pasa a ser superar a los tres blogs que capturan la intención de compra, más que a Forbes por un término genérico.
+Saber eso cambia el encargo. Tu objetivo pasa a ser superar a los tres blogs que captan la intención de compra, y dejas el término genérico para más adelante. Si quieres el detalle de esta fase, lo tienes en nuestra guía para [encontrar tus verdaderos competidores SEO](/es/competidores-seo/).
 
 ### Las cuatro cosas que vale la pena extraer
 
-Cuando un cliente nos pide analizar cinco rivales, esto es lo que sacamos de verdad.
+Cuando un cliente nos pide analizar cinco rivales, esto es lo que sacamos de cada uno.
 
-**Páginas top por cuota de tráfico.** Las 10 a 20 URLs que Ahrefs o Semrush señalan como las que ganan tráfico orgánico de verdad. El modelo vive en esas páginas.
+**Páginas que más tráfico ganan.** Las 10 a 20 direcciones que Ahrefs o Semrush señalan como las que reciben más visitas orgánicas. El modelo de negocio del rival vive en esas páginas.
 
-**Velocidad de enlaces.** Un flujo de cinco enlaces al mes durante dos años gana a un pico de 200 enlaces de una sola campaña de prensa. Lo que cuenta es el patrón, más que el total.
+**Ritmo de enlaces.** Un flujo regular de enlaces durante dos años suele pesar más que un pico aislado tras una campaña de prensa. Lo que cuenta es el patrón, más que el total. El método completo está en nuestra guía para [analizar los backlinks de tus competidores](/es/analizar-backlinks-competidores/).
 
-**Mezcla de funciones en la SERP.** ¿Los rivales se llevan los fragmentos destacados, los carruseles de vídeo o el pack local? Cada uno te dice qué premia Google ahora para esa intención. La respuesta guía el formato de tus propias páginas.
+**Formatos que ocupan los resultados.** ¿Los rivales se llevan los fragmentos destacados, los carruseles de vídeo o el pack local? Cada formato te dice qué premia Google ahora para esa intención, y la respuesta guía el formato de tus propias páginas.
 
-**Solapamiento real de palabras clave.** Quita los términos de marca de ambos lados. Filtra los informes de «palabras clave comunes» hasta dejar solo las de intención de compra. La lista limpia suele ser la décima parte del export en bruto.
+**Palabras clave que compartís de verdad.** Quita los términos de marca de ambos lados y filtra los informes de palabras clave comunes hasta dejar solo las de intención de compra. La lista limpia suele ser una fracción pequeña del export en bruto.
 
-### Por qué conviene centrarse en las pocas páginas que traen tráfico
+<figure class="post-fig">
+<svg viewBox="0 0 400 130" role="img" aria-label="Las cuatro extracciones del análisis de la competencia, en orden: páginas top, enlaces, formatos y palabras clave comunes.">
+<line x1="50" y1="32" x2="350" y2="32" class="fg-rule"/>
+<circle cx="50" cy="32" r="26" class="fg-box"/>
+<circle cx="150" cy="32" r="26" class="fg-box"/>
+<circle cx="250" cy="32" r="26" class="fg-box"/>
+<circle cx="350" cy="32" r="26" class="fg-hot"/>
+<text x="50" y="38" text-anchor="middle" class="fg-strong">1</text>
+<text x="150" y="38" text-anchor="middle" class="fg-strong">2</text>
+<text x="250" y="38" text-anchor="middle" class="fg-strong">3</text>
+<text x="350" y="38" text-anchor="middle" class="fg-strong">4</text>
+<text x="50" y="90" text-anchor="middle" class="fg-text">Páginas</text>
+<text x="150" y="90" text-anchor="middle" class="fg-text">Enlaces</text>
+<text x="250" y="90" text-anchor="middle" class="fg-text">Formatos</text>
+<text x="350" y="90" text-anchor="middle" class="fg-text">Palabras</text>
+<text x="50" y="114" text-anchor="middle" class="fg-label">tráfico</text>
+<text x="150" y="114" text-anchor="middle" class="fg-label">ritmo</text>
+<text x="250" y="114" text-anchor="middle" class="fg-label">resultados</text>
+<text x="350" y="114" text-anchor="middle" class="fg-label">comunes</text>
+</svg>
+<figcaption>Las tres primeras extracciones explican por qué gana el rival; la cuarta te dice qué páginas escribir primero.</figcaption>
+</figure>
 
-Un dato a tener en cuenta antes de pasarte una semana mapeando cada página del sitio de un competidor.
+## Por qué conviene centrarse en las pocas páginas que traen tráfico
+
+Antes de pasarte una semana mapeando cada página del sitio de un competidor, ten en cuenta cómo se reparte el tráfico en la web.
 
 > El 96,55 % de todas las páginas de nuestro índice no recibe ningún tráfico de Google, y un 1,94 % recibe entre una y diez visitas al mes.
-> 
-> Fuente: [Ahrefs, estudio de tráfico de 14 000 millones de páginas (2024)](https://ahrefs.com/blog/search-traffic-study/)
+>
+> Fuente: [Ahrefs, estudio de tráfico sobre unos 14.000 millones de páginas, actualizado en diciembre de 2023](https://ahrefs.com/blog/search-traffic-study/)
 
-La conclusión es práctica: el tráfico de tus rivales se concentra en unas pocas páginas. Encuentra sus cinco a diez URLs que traen tráfico y estúdialas a fondo.
+La conclusión es práctica: el tráfico de tus rivales se concentra en unas pocas páginas. Encuentra sus cinco a diez direcciones que traen visitas y estúdialas a fondo.
 
-### Las herramientas que usamos, con sus matices honestos
+<aside class="post-cta">
+<p><strong>¿Quieres saber quién se queda con tus búsquedas en Francia o en Alemania?</strong> Nuestra auditoría de SEO multilingüe compara cada idioma de tu web con tus competidores locales, mercado por mercado. <a href="/es/services/posicionamiento-multilingue/">Empieza con una auditoría gratuita de 20 minutos</a>.</p>
+</aside>
 
-Herramienta
+## Las herramientas que usamos y lo que mide cada una
 
-Para qué la usamos
+Cada herramienta responde bien a una pregunta concreta. Combinarlas, y leer cada cifra como lo que es, te da una imagen fiable del mercado.
 
-El matiz honesto
+| Herramienta | Para qué la usamos | Cómo leer sus datos |
+|---|---|---|
+| Ahrefs | Páginas top, palabras clave comunes, patrones de enlaces | El tráfico es una estimación de un modelo de clics |
+| Semrush | Seguimiento de posiciones, publicidad de pago, brecha de contenido | Contrasta el long tail en español con la búsqueda en vivo |
+| Similarweb | Reparto por canales, solapamiento de audiencia | Más fiable cuanto más tráfico tiene el sitio |
+| Google Search Console | Dónde apareces de verdad junto a los rivales | Gratis y con mucho recorrido, sobre todo el cruce de páginas y consultas |
+| Comprobación manual con VPN | Cómo se ven de verdad los resultados en España, Francia o el Reino Unido | Los resultados en vivo van por delante de las capturas de las herramientas |
 
-Ahrefs
+Las cifras de tráfico de cualquier herramienta de terceros son estimaciones. Trátalas como rangos y compara tendencias relativas entre rivales.
 
-Páginas top, solapamiento de palabras clave, patrones de enlaces
+## Un análisis por idioma, porque cada mercado tiene sus rivales
 
-Las cifras de tráfico son estimaciones de un modelo de CTR
+Cada mercado al que vendes tiene su propio conjunto de competidores, y por eso el análisis se repite una vez por idioma. Hacerlo así te da un encargo de contenido y un plan de enlaces que funcionan en ese país.
 
-Semrush
+El despacho de Valencia que mencionamos trabaja en cuatro idiomas: español, francés, inglés y ruso. En español compite con despachos nacionales de familia y herencias. En francés, con quienes atienden a los franceses residentes en la Costa Blanca. En inglés, con quienes atienden a la comunidad anglófona en herencias, NIE y compraventas. El ruso tiene su propio conjunto.
 
-Seguimiento de posiciones, inteligencia de pago, brecha de contenido
-
-Más fuerte en inglés de EE. UU. que en long tail en español
-
-SimilarWeb
-
-Reparto de canales, solapamiento de audiencia
-
-Fiable sobre todo por encima de 50 000 visitas al mes
-
-Google Search Console
-
-Dónde apareces de verdad junto a los rivales
-
-Gratis y con mucho recorrido, sobre todo el cruce de Páginas y Consultas
-
-Comprobación manual de SERP (VPN)
-
-Cómo se ven de verdad las SERP españolas, francesas o británicas
-
-La SERP en vivo va unos días por delante de las capturas de las herramientas
-
-La propia Ahrefs documenta la diferencia entre sus estimaciones de tráfico y la realidad de Google Search Console. Trata los números como rangos y compara tendencias relativas.
-
-### El análisis multilingüe es plural por defecto
-
-El despacho de Valencia que mencionamos antes tiene tres conjuntos de competidores distintos.
-
-Un conjunto español para derecho de familia y herencias a nivel nacional. Un conjunto francés para casos matrimoniales de franceses residentes en la Costa Blanca. Y un conjunto inglés para la comunidad expatriada anglófona con temas de herencias, NIE y disputas de propiedad.
-
-Tres listas de competidores. Tres encargos de contenido distintos. Tres estrategias de enlaces distintas.
-
-Cada versión de idioma necesita su propio análisis, porque cada mercado tiene su propio conjunto de rivales. Si operas en varios países, cuenta con hacer el análisis una vez por idioma.
+Cuatro listas de competidores, cuatro encargos de contenido y cuatro estrategias de enlaces. Para tu empresa ocurre lo mismo con Francia, Bélgica o Alemania: el rival que te supera en París puede ser desconocido en Amberes.
 
 Para la visión completa, mira nuestras [buenas prácticas de SEO multilingüe](https://mikebastin.com/es/seo-multilingue-2026-presencia-total/).
 
-### La búsqueda con IA cambia la pregunta y mantiene el método
+## La búsqueda con IA cambia la pregunta y mantiene el método
 
-Sí, la [GEO](https://mikebastin.com/es/optimizar-para-seo-y-geo/) importa. Sí, las citas de ChatGPT y Perplexity ya pesan en el recorrido de compra B2B. La lógica de fondo del análisis de competencia se mantiene.
+Las respuestas de ChatGPT, Perplexity o los AI Overviews de Google ya forman parte del recorrido de compra B2B, y la [GEO](https://mikebastin.com/es/optimizar-para-seo-y-geo/) es la forma de aparecer en ellas. La lógica del análisis de competencia sigue siendo la misma.
 
-Lo que añadimos para los clientes ahora: una capa pequeña de «quién aparece citado en las respuestas de IA para los prompts de nuestro comprador». Lanzamos cinco a diez prompts que un cliente real usaría de verdad, anotamos los dominios citados y cruzamos el solapamiento con los rivales de la SERP tradicional.
+Lo que añadimos ahora para los clientes es una capa pequeña: quién aparece citado en las respuestas de IA para las preguntas de su comprador. Lanzamos de cinco a diez preguntas que un cliente real haría, anotamos los dominios citados y los cruzamos con los rivales de los resultados clásicos.
 
-A menudo el solapamiento es alto. A veces aparece un sitio de nicho nuevo para nosotros. Ambas señales sirven, y las dos complementan el trabajo a nivel de SERP.
+A menudo coinciden. A veces aparece un sitio de nicho nuevo. Las dos señales sirven, y las dos completan el trabajo sobre los resultados de búsqueda.
 
-Trata la GEO como parte del mismo análisis: es la misma SERP detrás de una capa de chat.
-
-> La SERP no sabe nada de tu organigrama. Tu análisis tampoco debería. El rival real es la URL que sale junto a la tuya cuando alguien busca con intención de comprar, no la empresa que ves en el congreso del sector.
-> 
+> El rival real es la página que sale junto a la tuya cuando alguien busca con intención de comprar. La empresa que ves en el congreso del sector puede ser otra.
+>
 > [Mike Bastin](https://mikebastin.com/es/conocenos-agencia-experta-en-seo/)
 
-### Tres hábitos que hacen útil el análisis
+## Tres hábitos que hacen útil el análisis
 
-**Leer los números de las herramientas como estimaciones.** Una estimación es un modelo, y cuanto más bajas por el long tail, más se abre la diferencia entre la estimación de Ahrefs y la realidad de Google Analytics.
+Un análisis se queda en presentación si sus cifras se leen mal o si nadie lo convierte en trabajo. Estos tres hábitos lo mantienen vivo.
 
-**Convertir el export de brecha de palabras clave en un encargo de contenido.** Un export de 1200 filas es una lista. El encargo es lo que queda tras la revisión de un editor y de un experto en la materia.
+**Leer los números de las herramientas como estimaciones.** Una estimación es un modelo, y cuanto más bajas por el long tail, más se separa de lo que ves en Google Analytics.
 
-**Repetir el análisis a lo largo del año.** Los mercados se mueven. Los algoritmos cambian. Llegan nuevos jugadores. Para los clientes activos, refrescamos el cuadro cada trimestre. En nichos rápidos como las herramientas de IA o las fintech, cada mes.
+**Convertir la brecha de palabras clave en un encargo de contenido.** Un export de 1.200 filas es una lista. El encargo es lo que queda tras la revisión de un editor y de un experto en la materia. El seguimiento posterior lo explicamos en nuestra guía para [rastrear posiciones de keywords de competidores](/es/rastrear-posiciones-de-keywords-de-competidores/).
 
-### Cuándo el análisis de competencia se gana su presupuesto
+**Repetir el análisis a lo largo del año.** Los mercados se mueven, los algoritmos cambian y llegan nuevos rivales. Para los clientes activos refrescamos el cuadro cada trimestre; en nichos rápidos, como las herramientas de IA o las fintech, cada mes.
 
-Tres escenarios donde de verdad se paga solo.
+## Cuándo el análisis de competencia se gana su presupuesto
 
-Entrar en un mercado geográfico o vertical nuevo, donde necesitas aprender qué es lo bueno antes de comprometer presupuesto.
+Hay tres momentos en los que un análisis completo se paga solo.
 
-Diagnosticar un estancamiento del crecimiento, cuando tu equipo «hace todo bien» y las posiciones se mantienen quietas.
+Al entrar en un mercado geográfico o vertical nuevo, para saber qué funciona allí antes de comprometer presupuesto.
 
-Decisiones de precio o de posicionamiento de servicio, cuando sopesas un cambio y quieres saber qué espacio ya está ocupado.
+Cuando el crecimiento se estanca, tu equipo hace el trabajo de siempre y las posiciones se mantienen quietas.
 
-Para el resto del año, basta con el refresco periódico que describimos arriba.
+Cuando sopesas un cambio de precio o de posicionamiento de servicio y quieres saber qué espacio ya está ocupado.
 
-### Un segundo par de ojos sobre tus rivales reales
+El resto del año basta con el refresco periódico que describimos arriba.
 
-Si quieres comprobar que tu equipo se compara con la lista correcta, podemos sacarte un análisis de la competencia a nivel de SERP, centrado en una de tus búsquedas prioritarias, en menos de una hora.
+<aside class="post-cta">
+<p><strong>¿Te comparas con los rivales correctos en cada país?</strong> En nuestro SEO internacional empezamos por las palabras que usan tus compradores en cada mercado y por quién las gana hoy. <a href="/es/services/optimizacion-seo/">Pide tu auditoría gratuita de 20 minutos</a>.</p>
+</aside>
 
-Lo hacemos para clientes de derecho, transporte, inmobiliaria y traducción en seis idiomas, desde Valencia.
+## Un segundo par de ojos sobre tus rivales reales
+
+Trabajamos desde Valencia para clientes de derecho, transporte, inmobiliaria y traducción, en varios idiomas. Si quieres comprobar que tu equipo se compara con la lista correcta, empezamos por una de tus búsquedas prioritarias en el mercado que más te importa.
 
 ¿Quieres saber contra quién compites de verdad en Google? [Escríbenos](https://mikebastin.com/es/contactanos/) o mira [cómo llevamos los programas de SEO multilingüe](https://mikebastin.com/es/services/posicionamiento-multilingue/).

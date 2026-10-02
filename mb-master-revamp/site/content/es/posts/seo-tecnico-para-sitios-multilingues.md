@@ -14,127 +14,101 @@ excerpt: "SEO técnico para sitios multilingües: hreflang, servidor, contenido 
 
 ![SEO técnico para sitios web multilingües](/images/legacy/2024/12/Technical-SEO-for-Multilingual-Websites-1024x457.jpg)
 
-## SEO técnico para sitios multilingües: lo que de verdad mueve la aguja
+Tu web ya existe en varios idiomas y cada versión recibe visitas. Con unos ajustes técnicos, cada una puede ocupar su propio mercado en Google: el comprador francés llega a la página en francés, el alemán a la alemana, y cada traducción que pagaste trabaja para ti.
 
-Llevamos más de dos décadas trabajando en SEO y traducción, y en los sitios multilingües es donde más proyectos dependen de un detalle técnico.
+Los compradores lo agradecen, porque leen y compran en su idioma:
 
-El contenido suele estar bien. Lo que marca la diferencia es un hreflang bien puesto, el servidor en el país adecuado y versiones de idioma que ocupan cada una su mercado dentro de Google.
-
-En esta guía te enseñamos los puntos que más ajustamos cuando auditamos una web en varios idiomas, y cómo dejarlos resueltos para proteger tus posiciones.
-
-> El 76 % de los compradores online prefiere adquirir productos con información en su propio idioma, y un 40 % no compra en webs que estén en otra lengua.
-> 
+> El 76 % de los compradores online prefiere adquirir productos con información en su propio idioma, y un 40 % nunca compra en webs que estén en otra lengua.
+>
 > Fuente: [CSA Research, «Can't Read, Won't Buy» (2020, 8.709 consumidores de 29 países)](https://www.newswire.com/news/survey-of-8-709-consumers-in-29-countries-finds-that-76-prefer-21174283)
 
-### Por qué las etiquetas hreflang son el cimiento
+Aquí tienes los puntos que más ajustamos cuando auditamos una web en varios idiomas, tras más de dos décadas de SEO y traducción, y cómo dejarlos resueltos.
 
-Las etiquetas hreflang le dicen a Google qué versión de una página, por idioma y por región, debe mostrar a cada usuario.
+## Por qué las etiquetas hreflang son el cimiento
 
-Cuando están bien puestas, el usuario aterriza en la versión correcta según su idioma y su ubicación. Así cada versión se reconoce como propia y la experiencia es buena.
+Las etiquetas hreflang le dicen a Google qué versión de una página, por idioma y por región, debe mostrar a cada usuario. Bien puestas, el usuario aterriza en la versión de su idioma y su país, y cada versión se reconoce como propia.
 
-#### Cómo implementar hreflang correctamente
+### Cómo implementar hreflang correctamente
 
-Cada página necesita anotaciones hreflang que apunten a sus versiones por idioma y por región.
+Cada página necesita anotaciones hreflang que apunten a todas sus versiones por idioma y por región.
 
-Puedes ponerlas en la cabecera HTML, en las cabeceras HTTP o en el sitemap XML. Elige un solo método y aplícalo de forma uniforme en todo el sitio.
+Puedes ponerlas en la cabecera HTML, en las cabeceras HTTP o en el sitemap XML. Elige un método y aplícalo de forma uniforme en todo el sitio.
 
-Las anotaciones tienen que ser bidireccionales: si la página A apunta a la B, la B debe apuntar de vuelta a la A. Revisa cada enlace de esa cadena: Google necesita el grupo completo para tenerlo en cuenta.
+Las anotaciones tienen que ser bidireccionales: si la página A apunta a la B, la B apunta de vuelta a la A. Revisa cada enlace de esa cadena, porque Google tiene en cuenta el grupo cuando está completo.
 
-#### Puntos de hreflang que revisamos a diario
+### Puntos de hreflang que revisamos a diario
 
-Comprueba que cada anotación enlaza a la URL correcta y usa un código de idioma bien formado: es lo primero que revisamos.
+Comprueba que cada anotación enlaza a la URL correcta y usa un código de idioma bien formado: es lo primero que revisamos. Añade también la versión por defecto (`x-default`) para los usuarios cuyo idioma o región queda fuera de los que defines.
 
-Añade también la versión por defecto (`x-default`) para los usuarios de fuera de tus idiomas y regiones.
+Antes de tocar el código, construye un mapa claro de qué página equivale a cuál en cada idioma. Con ese mapa, cualquier plugin aplica el hreflang correctamente, y la [localización de contenido](/es/services/traduccion-de-paginas-web/) rinde todo lo que puede.
 
-Con estos puntos resueltos, la [localización de contenido](/es/services/traduccion-de-paginas-web/) rinde y aprovechas todas las oportunidades de posicionamiento.
+## La ubicación del servidor y su efecto real
 
-### La ubicación del servidor y su efecto real
+El alojamiento influye sobre todo en la velocidad, y la velocidad en la experiencia del visitante extranjero. Tener servidores cerca de tu público reduce la latencia y mejora los tiempos de carga.
 
-Dónde alojas tu web influye en el rendimiento, sobre todo en velocidad y en geolocalización.
+Para Google, la ubicación del servidor es una señal menor de geolocalización, que pesa mucho menos que hreflang o que un dominio de país.
 
-Tener servidores cerca de tu público reduce la latencia y mejora los tiempos de carga. Aun así, el servidor es una señal más dentro de una estrategia de geolocalización más amplia.
-
-#### Cómo elegir dónde alojar tu sitio
+### Cómo elegir dónde alojar tu sitio
 
 Si tu sitio multilingüe apunta a varios países, una red de distribución de contenido (CDN) sirve las páginas con rapidez, esté donde esté el usuario.
 
-Para geolocalizar, combina la ubicación del servidor con hreflang y con dominios específicos por país para enviar señales coherentes.
+Para geolocalizar, combina hreflang, la estructura de dominios y el contenido local, de modo que todas las señales apunten al mismo mercado.
 
-### Contenido duplicado entre idiomas
+## Contenido duplicado entre idiomas
 
-Las webs multilingües se enfrentan a menudo al contenido duplicado, cuando textos parecidos conviven en distintos idiomas o regiones.
+Textos parecidos en distintos idiomas o regiones (el francés de Francia y el de Bélgica, por ejemplo) pueden repartirse la fuerza de posicionamiento. Tu trabajo es dejarle claro a Google qué distingue a cada página.
 
-El duplicado reparte la fuerza de posicionamiento entre varias URLs, así que tu trabajo es dejarle claro a Google qué distingue a cada página por idioma.
+### Cómo diferenciar el contenido entre idiomas
 
-#### Cómo diferenciar el contenido entre idiomas
+Usa hreflang para unir las versiones de un mismo contenido. Si dos versiones comparten gran parte del texto, dales URL distintas, metadatos propios y ejemplos, precios o referencias del mercado al que se dirigen.
 
-Usa hreflang para diferenciar las versiones por idioma de un mismo contenido.
+Da a cada versión de idioma un canonical que apunte a sí misma, para que Google indexe todas. El canonical entre URL de un mismo idioma reúne las variantes técnicas (parámetros, barra final) en una sola página.
 
-Si dos versiones comparten gran parte del texto, sepáralas con URLs distintas, metadatos propios y cabeceras adaptadas. La etiqueta canónica también ayuda a señalar cuál es la página principal y a frenar las penalizaciones por duplicado.
+### La traducción automática, siempre con revisión
 
-#### La traducción automática, siempre con revisión
+La [posedición humana](/es/services/posedicion-de-ia/) devuelve a la traducción automática la naturalidad, el contexto y la intención del mensaje original. Google premia el contenido útil para quien lo lee, y un texto revisado por una persona lo es.
 
-La [posedición humana](/es/services/posedicion-de-ia/) devuelve a la traducción automática la naturalidad, el contexto y la intención del mensaje original. En un proyecto serio es imprescindible.
+Una buena [localización de páginas web](/es/services/traduccion-de-paginas-web/) adapta el contenido al idioma, la cultura y las expectativas de cada mercado. Traduce también los títulos y descripciones meta, los slugs de las URL, el texto alternativo y los datos estructurados cuando tenga sentido.
 
-Así proteges tu posicionamiento orgánico, porque Google puede tratar el texto automático en bruto como contenido de baja calidad, o incluso como duplicado.
+Para producción real, trabaja con [traductores profesionales](/es/services/traduccion-profesional/) o especialistas SEO nativos: cuidan la precisión y la voz de tu marca e integran la [investigación de palabras clave](/es/services/seo-tecnico/) local.
 
-Una buena [localización de páginas web](/es/services/traduccion-de-paginas-web/) adapta el contenido al idioma, la cultura y las expectativas de cada mercado. Va mucho más allá de cambiar palabras.
+<aside class="post-cta">
+<p><strong>¿Quieres que cada versión de tu web encuentre a sus propios compradores?</strong> Nuestro <a href="/es/services/seo-tecnico/">SEO técnico</a> comprueba si tus versiones de idioma compiten entre sí y corrige lo que lo provoca, idioma por idioma. <a href="/es/contactanos/">Pide una auditoría gratuita de 20 minutos</a>.</p>
+</aside>
 
-Traduce los títulos y descripciones meta, los slugs de las URL, el texto alternativo y los datos estructurados cuando tenga sentido.
+## Estructura de dominios para sitios multilingües
 
-Para producción real, trabaja con [traductores profesionales](/es/services/traduccion-profesional/) o especialistas SEO nativos: cuidan la precisión y la voz de tu marca e integran la [investigación de palabras clave](/es/services/seo-tecnico/) local, dos cosas que herramientas como Google Translate dejan fuera.
+La estructura de dominios decide cuánto trabajo cuesta posicionar cada mercado. Tienes tres caminos: dominios de nivel superior por país (ccTLD), subdirectorios y subdominios. La mejor opción depende de tus objetivos y de tu público.
 
-> La mayoría de los problemas de hreflang que audito no son fallos de código. Son falta de un mapa claro de qué página equivale a cuál en cada idioma. Sin ese mapa, ningún plugin te salva.
-> 
-> [Mike Bastin](https://mikebastin.com/es/conocenos-agencia-experta-en-seo/)
+### ccTLD, subdirectorios o subdominios
 
-### Estructura de dominios para sitios multilingües
+| Estructura | Ejemplo | Ventaja | Lo que pide |
+|---|---|---|---|
+| ccTLD | ejemplo.fr | La señal de país más clara | Gestionar y dar autoridad a varios dominios |
+| Subdirectorio | ejemplo.com/fr/ | Hereda la autoridad del dominio principal | Hreflang para señalar el país |
+| Subdominio | fr.ejemplo.com | Separación técnica sencilla | Trabajar la autoridad de cada subdominio |
 
-Elegir bien la estructura de dominios marca buena parte del resultado de un proyecto multilingüe.
+### Una estructura coherente
 
-Tienes tres caminos: dominios de nivel superior por país (ccTLD), subdirectorios y subdominios. Cada uno tiene sus ventajas, y la mejor opción depende de tus objetivos y de tu público.
+Mantén una sola estructura en todo el sitio y haz que sea fácil de recorrer, tanto para los usuarios como para los buscadores. Usa el mismo modelo para todos los idiomas (todo ccTLD o todo subdirectorios, por ejemplo): la coherencia envía señales geográficas limpias a Google.
 
-#### ccTLD, subdirectorios o subdominios
+## El papel de los metadatos en el SEO multilingüe
 
-Los ccTLD (por ejemplo, ejemplo.fr) envían una señal de geolocalización muy clara, pero exigen más recursos para gestionar varios dominios.
+El título y la descripción son lo que el comprador lee en el resultado, en su idioma, antes de decidir el clic. Unos títulos, descripciones y textos alternativos bien localizados suben tu visibilidad en cada lengua y multiplican el alcance del trabajo previo.
 
-Los subdirectorios (ejemplo.com/fr) son más fáciles de gestionar y heredan la autoridad del dominio principal, aunque su señal geográfica es más débil que la de un ccTLD.
+### Traducir y ajustar los metadatos
 
-Los subdominios (fr.ejemplo.com) son una opción, pero suelen rendir peor en SEO que las dos anteriores.
+Escribe metadatos propios para cada versión, con las palabras clave de cada idioma y adaptados a cómo busca de verdad esa audiencia. El texto alternativo traducido ayuda además en accesibilidad y en la búsqueda de imágenes. Si quieres delegarlo, consulta nuestros servicios de [redacción SEO multilingüe](/es/services/redaccion-seo-multilingue/).
 
-#### Una estructura coherente
+## Mantente al día con el SEO multilingüe
 
-Mantén una sola estructura en todo el sitio y haz que sea fácil de recorrer, tanto para los usuarios como para los buscadores.
+Un mantenimiento sistemático protege el rendimiento de tu sitio y te deja detectar los fallos cuando aún son pequeños.
 
-Usa el mismo modelo para todos los idiomas (todo ccTLD o todo subdirectorios, por ejemplo): la coherencia es la que envía señales geográficas limpias a Google.
+Programa [auditorías técnicas](/es/services/seo-tecnico/) periódicas para revisar el hreflang, vigilar los errores de rastreo y comprobar la indexación en todas las versiones de idioma. Cuando Google cambia su algoritmo o sus requisitos para el [SEO internacional](/es/services/posicionamiento-multilingue/), ajusta tu configuración cuanto antes.
 
-### El papel de los metadatos en el SEO multilingüe
+## Por dónde empezar
 
-Los metadatos pesan en cómo se indexa y se muestra tu contenido en los resultados de cada idioma.
-
-Unos títulos, descripciones y textos alternativos bien traducidos suben tu visibilidad en distintas lenguas y regiones. Cuidarlos multiplica el alcance de todo el trabajo previo.
-
-#### Traducir y ajustar los metadatos
-
-Traduce todos los metadatos con cuidado e incluye las palabras clave propias de cada idioma. Si quieres delegarlo, consulta nuestros servicios de [redacción SEO multilingüe](/es/services/redaccion-seo-multilingue/).
-
-Escribe metadatos propios para cada versión, adaptados al público local y a cómo busca de verdad esa audiencia. El texto alternativo traducido también ayuda en accesibilidad y en la búsqueda de imágenes.
-
-### Mantente al día con el SEO multilingüe
-
-El SEO multilingüe cambia rápido, con nuevas prácticas y herramientas que aparecen cada año.
-
-Un mantenimiento sistemático protege el rendimiento de tu sitio y te deja detectar fallos a tiempo y proteger tus posiciones.
-
-Programa [auditorías técnicas](/es/services/seo-tecnico/) periódicas para revisar el hreflang, vigilar errores de rastreo y comprobar la indexación en todas las versiones de idioma.
-
-Cuando Google cambia su algoritmo o introduce requisitos nuevos para el [SEO internacional](/es/services/posicionamiento-multilingue/), ajusta tu configuración cuanto antes para mantener la visibilidad.
-
-### Para cerrar
-
-El SEO técnico es el cimiento de cualquier web multilingüe que funcione.
-
-Posicionar en varios mercados pide hreflang bien resuelto, servidores elegidos con criterio, control del contenido duplicado y una estructura de dominios coherente. Cuando esas piezas encajan, Google entiende, indexa y posiciona tu contenido para el público de cada mercado.
+El SEO técnico es el cimiento de cualquier web multilingüe que funcione. Empieza por el mapa de equivalencias entre idiomas y el hreflang, sigue con el contenido duplicado y la estructura de dominios, y termina con los metadatos. Cuando esas piezas encajan, Google entiende, indexa y posiciona tu contenido para el público de cada mercado.
 
 ¿Quieres que tu web multilingüe rinda al máximo en cada país? [Escríbenos y revisamos juntos tu configuración técnica](/es/contactanos/), con la experiencia de más de dos décadas en SEO y traducción de nuestro lado.
 

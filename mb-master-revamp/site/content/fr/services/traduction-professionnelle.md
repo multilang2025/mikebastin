@@ -1,7 +1,8 @@
 ---
 words: 694
-title: "Services de traduction professionnelle"
+title: "Services de traduction professionnelle pour les documents qu’un tribunal ou une ambassade doit accepter"
 name: "Traduction professionnelle"
+metaTitle: "Traduction professionnelle certifiée et assermentée"
 slug: "traduction-professionnelle"
 locale: "fr"
 type: "services"
@@ -15,14 +16,14 @@ excerpt: "Des traductions certifiées et assermentées qu’un tribunal, une amb
 
 ## Une traduction acceptée du premier coup
 
-Vous devez remettre un contrat à un partenaire espagnol, un acte de naissance à une administration allemande ou un rapport annuel à des investisseurs britanniques. Le document sera lu par un tribunal, une ambassade ou un régulateur, et un terme mal choisi vous coûte une échéance, parfois bien davantage.
+Vous devez remettre un contrat à un partenaire espagnol, un acte de naissance à une administration allemande ou un rapport annuel à des investisseurs britanniques. Le document sera lu par un tribunal, une ambassade ou un régulateur : il doit être accepté au premier dépôt, dans le format exigé et avec les termes exacts.
 
-Un format inadapté, c’est un dossier refusé, une nouvelle soumission et un délai manqué. Une clause mal rendue dans un pacte d’associés ou un chiffre faux dans des comptes audités devient une question de responsabilité, bien au-delà d’une simple relecture.
+Une traduction acceptée du premier coup vous fait tenir votre échéance. Dans un pacte d’associés ou des comptes audités, le terme exact protège aussi votre responsabilité.
 
-Nous confions chaque document à un traducteur spécialisé du réseau BeTranslated, que nous dirigeons depuis vingt ans, puis nous le faisons relire avant livraison.
+Nous confions chaque document à un traducteur spécialisé du réseau BeTranslated, l’agence de traduction que nous dirigeons depuis vingt ans, puis nous le faisons relire avant livraison.
 
 <aside class="post-cta">
-<p><strong>Votre document doit-il être accepté par un tribunal, une administration ou une ambassade ?</strong> Nous identifions le type de traduction exigé et le confions au spécialiste de votre secteur. <a href="/fr/nous-contacter/">Réserver un premier échange</a>.</p>
+<p><strong>Votre document doit-il être accepté par un tribunal, une administration ou une ambassade ?</strong> Nous identifions le type de traduction exigé et le confions au spécialiste de votre secteur. <a href="/fr/nous-contacter/">Réserver une consultation gratuite</a>.</p>
 </aside>
 
 ## Des délais clairs et un traducteur de votre secteur
@@ -36,11 +37,13 @@ Nous confions chaque document à un traducteur spécialisé du réseau BeTransla
 
 Nous répondons à chaque demande, généralement sous un jour ouvré.
 
-## Un cabinet d’avocats qui plaide dans deux systèmes juridiques
+## Un cabinet d’avocats qui travaille dans deux systèmes juridiques
 
-Delaguía y Luzón est un cabinet d’avocats de Valence dont l’activité couvre l’Espagne et la France en quatre langues, dont le russe. Un même document doit parfois tenir dans deux systèmes juridiques à la fois. Son site, qui porte ces contenus juridiques traduits, a obtenu 38 476 clics pour 2 399 567 impressions Google entre mai et juillet 2026, avec une position moyenne de 9,4.
+Delaguía y Luzón est un cabinet d’avocats de Valencia dont l’activité couvre l’Espagne et la France en quatre langues, dont le russe. Un même document doit parfois tenir dans deux systèmes juridiques à la fois. Son site, qui porte ces contenus juridiques traduits, a obtenu 38 476 clics pour 2 399 567 impressions Google entre mai et juillet 2026, avec une position moyenne de 9,4.
 
-Un avocat qui lira la traduction avant un tribunal ou un client, c’est exactement le client pour lequel ce réseau a été construit.
+> Source : Google Search Console de delaguialuzon.com, mai à juillet 2026.
+
+Un avocat qui relit la traduction avant de la présenter à un tribunal ou à un client : c’est pour ce lecteur-là que ce réseau a été construit.
 
 ## Certifiée, assermentée, notariée ou apostillée : quatre démarches distinctes
 

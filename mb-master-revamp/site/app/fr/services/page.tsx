@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { pageMeta } from "@/lib/meta";
 import Reveal from "@/components/Reveal";
+import { ButtonLink } from "@/components/ui/Button";
 import SiteFooter from "@/components/SiteFooter";
 import JsonLd from "@/components/JsonLd";
 import LocaleHtmlLang from "@/components/LocaleHtmlLang";
@@ -81,13 +82,20 @@ export default function FrenchServicesIndex() {
           </Reveal>
           <Reveal i={2}>
             <h2 className="mb-6 max-w-[46ch] text-[clamp(1.2rem,2.1vw,1.7rem)] font-medium leading-[1.3]" style={{ color: "var(--ink)" }}>
-              Le référencement suivi dans chaque marché est le cœur de notre travail, avec la localisation et la publicité en ligne autour.
+              Chaque marché où vous vendez peut vous apporter ses propres demandes. Le référencement en est le moteur, la localisation et la publicité l’accompagnent.
             </h2>
           </Reveal>
           <Reveal i={3}>
             <p className="max-w-[58ch] text-[clamp(1.05rem,1.5vw,1.2rem)] leading-[1.58]" style={{ color: "var(--dim)" }}>
-              Vous vendez en Espagne, en Allemagne, au Benelux ou au Royaume-Uni, et vous voulez que chacun de ces marchés rapporte des demandes. Partez du marché qui compte le plus pour vous{" "}: nous vous dirons ce qu&apos;il demande réellement.
+              Vous vendez en Espagne, en Allemagne, au Benelux ou au Royaume-Uni, et vous voulez que chacun de ces marchés rapporte des demandes. Commencez par celui qui compte le plus pour vous{" "}: lors d’une consultation gratuite, nous vous montrons ce que ses acheteurs recherchent.
             </p>
+          </Reveal>
+          <Reveal i={4}>
+            <div className="mt-10">
+              <ButtonLink href="/fr/nous-contacter/" size="lg">
+                Réserver une consultation gratuite
+              </ButtonLink>
+            </div>
           </Reveal>
         </div>
       </section>

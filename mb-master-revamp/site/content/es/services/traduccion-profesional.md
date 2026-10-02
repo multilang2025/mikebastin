@@ -1,6 +1,7 @@
 ---
 words: 1011
-title: "Traducción profesional y jurada aceptada a la primera"
+title: "Traducción profesional y jurada para tribunales, embajadas y administraciones"
+metaTitle: "Traducción profesional y jurada, Mike Bastin"
 name: "Traducción profesional"
 slug: "traduccion-profesional"
 locale: "es"
@@ -10,19 +11,19 @@ wpId: 24849034
 date: "2024-09-29T17:45:35"
 modified: "2026-09-30T12:00:00"
 sourceUrl: "https://mikebastin.com/es/services/traduccion-profesional/"
-excerpt: "Traducción profesional y jurada de contratos, actas y certificados que un tribunal, una embajada o un regulador acepta a la primera."
+excerpt: "Contratos, actas y certificados traducidos por un especialista de tu sector, con traducción jurada en un plazo de uno a siete días según el documento."
 ---
 
-## Un documento aceptado a la primera
+## Un documento listo para el organismo que lo recibe
 
-Tienes que entregar un contrato a un socio francés, un acta de nacimiento a una administración alemana o unas cuentas anuales a inversores británicos. El documento lo leerá un tribunal, una embajada o un regulador, y un término mal elegido cuesta un plazo, a veces mucho más.
+Tienes que entregar un contrato a un socio francés, un acta de nacimiento a una administración alemana o unas cuentas anuales a inversores británicos. El documento lo leerá un tribunal, una embajada o un regulador, y cada término tiene que sostenerse ante ese lector.
 
 Con el formato adecuado, el expediente se acepta a la primera y el plazo se mantiene. Una cláusula bien traducida en un pacto de socios y una cifra correcta en unas cuentas auditadas son también una cuestión de responsabilidad, además de un trabajo de revisión.
 
 Encargamos cada documento a un traductor especializado de la red BeTranslated, que dirigimos desde hace veinte años, y lo pasamos por una revisión antes de entregarlo.
 
 <aside class="post-cta">
-<p><strong>¿Tu documento tiene que ser aceptado por un tribunal, una administración o una embajada?</strong> Identificamos el tipo de traducción que exige el destinatario y la encargamos al especialista de tu sector. <a href="/es/contactanos/">Reservar una primera conversación</a>.</p>
+<p><strong>¿Tu documento tiene que ser aceptado por un tribunal, una administración o una embajada?</strong> Identificamos el tipo de traducción que exige el destinatario y la encargamos al especialista de tu sector. <a href="/es/contactanos/">Reserva una consulta gratuita</a>.</p>
 </aside>
 
 ## Plazos claros y un traductor de tu sector
@@ -38,9 +39,9 @@ Respondemos a cada solicitud, por lo general en un día laborable.
 
 ## Un despacho de abogados que trabaja en dos sistemas jurídicos
 
-Delaguía y Luzón es un despacho de abogados de Valencia cuya actividad abarca España y Francia en cuatro idiomas, entre ellos el ruso. Un mismo documento tiene que sostenerse a veces en dos sistemas jurídicos a la vez. Su web, que recoge esos contenidos jurídicos traducidos, obtuvo 38 476 clics con 2 399 567 impresiones en Google entre mayo y julio de 2026, con una posición media de 9,4.
+Delaguía y Luzón es un despacho de abogados de Valencia cuya actividad abarca España y Francia en cuatro idiomas, entre ellos el ruso. Un mismo documento tiene que sostenerse a veces en dos sistemas jurídicos a la vez. Su web, que recoge esos contenidos jurídicos traducidos, obtuvo 38.476 clics con 2.399.567 impresiones en Google entre mayo y julio de 2026, con una posición media de 9,4.
 
-Un abogado que leerá la traducción ante un tribunal o un cliente es justo el cliente para el que se construyó esta red. Su sitio nos muestra el nivel de exigencia que aplicamos también a tus documentos.
+Un abogado que presentará la traducción ante un tribunal o un cliente es exactamente el lector para el que trabaja esta red, y su sitio refleja el nivel de exigencia que aplicamos también a tus documentos.
 
 ## Certificada, jurada, notarial o apostillada: cuatro trámites distintos
 
@@ -77,6 +78,6 @@ Un eslogan o un texto de marca que funciona en un idioma suele necesitar otra fo
 
 ## Cómo trabajamos
 
-Empezamos con una primera conversación en la que nos cuentas qué documento es, quién lo recibe y para cuándo. Con eso te confirmamos el tipo de traducción que hace falta y te enviamos por escrito el alcance del primer trimestre. Después trabajamos mes a mes, y cada solicitud recibe respuesta, por lo general en un día laborable.
+Empezamos con una consulta gratuita en la que nos cuentas qué documento es, quién lo recibe y para cuándo. Con eso te confirmamos el tipo de traducción que hace falta y te enviamos por escrito el alcance del primer trimestre. Después trabajamos mes a mes, y cada solicitud recibe respuesta, por lo general en un día laborable.
 
 La traducción de documentos se presupuesta como trabajo, y en la página de [precios](/es/precios/) tienes cómo lo planteamos. Si además vendes software en otros idiomas, mira nuestra [localización de apps](/es/services/localizacion-de-aplicaciones/).

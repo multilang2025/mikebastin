@@ -15,19 +15,19 @@ excerpt: "Comparez cinq alternatives à Google Analytics selon la confidentialit
 
 Votre outil de mesure devrait vous dire quel marché mérite le prochain budget : des chiffres européens complets, les visiteurs qui refusent le bandeau de consentement pris en compte, et des rapports que toute l’équipe sait lire.
 
-Voici cinq alternatives à Google Analytics, leur coût d’entrée et le type d’entreprise auquel chacune convient. Les prix sont ceux que chaque éditeur publie pour son offre d’entrée, relevés le 26 septembre 2026, dans la devise indiquée par l’éditeur. Ils changent souvent : confirmez-les avant de vous engager.
+Voici cinq alternatives à Google Analytics, leur coût d’entrée et le type d’entreprise auquel chacune convient. Les prix sont ceux que chaque éditeur publie pour son offre d’entrée, relevés le 2 octobre 2026, dans la devise affichée par l’éditeur. Ils changent souvent : confirmez-les avant de vous engager.
 
 ## Pourquoi envisager une alternative ?
 
-Changer d’outil demande de l’effort, alors rattachez-le à un besoin réel :
+Une alternative se justifie quand elle répond à un besoin précis de l’entreprise, car changer d’outil demande un effort. Les quatre besoins les plus fréquents :
 
-- **Confidentialité :** Google Analytics collecte de nombreuses données sur les utilisateurs, donc vérifiez comment il s’accorde avec des réglementations comme le RGPD et avec vos propres exigences.
-- **Complexité :** GA4, la seule version disponible depuis l’arrêt d’Universal Analytics, en offre plus que la plupart des équipes n’en exigent pour voir d’où viennent les visiteurs.
+- **Confidentialité :** Google Analytics collecte de nombreuses données sur les utilisateurs : vérifiez comment il s’accorde avec le RGPD et avec vos propres exigences.
+- **Complexité :** GA4, la seule version disponible depuis l’arrêt d’Universal Analytics, offre bien plus que ce dont la plupart des équipes ont besoin pour voir d’où viennent les visiteurs.
 - **Performance :** le script de suivi de Google peut ralentir vos pages.
 - **Propriété des données :** certaines entreprises veulent garder la maîtrise complète de leurs données d’analyse.
 
 <aside class="post-cta">
-<p><strong>Vous voulez savoir quel marché performe vraiment ?</strong> L’outil compte moins que la configuration. Notre <a href="/fr/services/analyse-et-suivi/">analyse et suivi par marché</a> montre quelle langue génère la demande, avec le mode consentement pris en compte. <a href="/fr/nous-contacter/">Prenez contact avec nous</a>.</p>
+<p><strong>Vous voulez savoir quel marché rapporte réellement ?</strong> La configuration compte autant que l’outil. Notre service d’<a href="/fr/services/analyse-et-suivi/">analyse et de suivi</a> configure votre mesure, définit les indicateurs qui comptent pour vous (conversions, téléchargements, autres actions clés) et livre des rapports centrés sur ces chiffres. <a href="/fr/nous-contacter/">Prenez contact avec nous</a>.</p>
 </aside>
 
 ## Les meilleures alternatives à Google Analytics
@@ -53,9 +53,9 @@ Cinq outils, chacun le plus fort sur une tâche différente :
 - Fonctionnalités proches de celles de Google Analytics
 - Open source, avec une large communauté
 
-**Prix :** l’édition Community auto-hébergée est gratuite, et la version cloud démarre à EUR 29 par mois.
+**Prix :** l’édition Community auto-hébergée est gratuite, et la version cloud démarre à 29 € par mois.
 
-> Matomo Cloud : à partir de 29 € par mois pour 50 000 hits par mois. Édition Community sur site : gratuite, avec utilisateurs et hits illimités.
+> Matomo Cloud : à partir de 29 € par mois pour 50 000 hits par mois. Édition Community sur site : gratuite, avec utilisateurs et hits illimités.
 >
 > Source : [Matomo, page des tarifs, 2026](https://matomo.org/pricing/)
 
@@ -72,9 +72,9 @@ Cinq outils, chacun le plus fort sur une tâche différente :
 - Tableau de bord simple, facile à comprendre
 - Script très léger, que Plausible dit 54 fois plus petit que celui de Google Analytics
 
-**Prix :** facturé en dollars américains, à partir de USD 9 par mois.
+**Prix :** à partir de 9 € par mois, prix affiché en euros pour l’Europe (9 $ en dollars américains).
 
-> Offre Starter : 9 $ par mois jusqu’à 10 000 pages vues mensuelles.
+> Offre Starter : 9 € par mois jusqu’à 10 000 pages vues mensuelles, avec un essai gratuit.
 >
 > Source : [Plausible Analytics, tarifs, 2026](https://plausible.io/#pricing)
 
@@ -91,9 +91,9 @@ Cinq outils, chacun le plus fort sur une tâche différente :
 - Interface simple et épurée
 - Chargement rapide
 
-**Prix :** facturé en dollars américains, à partir de USD 15 par mois.
+**Prix :** facturé en dollars américains, à partir de 15 $ par mois, après un essai gratuit de 7 jours.
 
-> 15 $ par mois jusqu’à 100 000 pages vues mensuelles.
+> 15 $ par mois jusqu’à 100 000 pages vues mensuelles ; essai gratuit de 7 jours.
 >
 > Source : [Fathom Analytics, tarifs, 2026](https://usefathom.com/pricing)
 
@@ -109,11 +109,11 @@ Cinq outils, chacun le plus fort sur une tâche différente :
 - Adapté aux secteurs soumis à une réglementation stricte sur les données
 - Ensemble de fonctionnalités complet, proche de celui de Google Analytics
 
-**Prix :** l’offre gratuite Core est retirée, donc Piwik PRO est désormais un produit payant après 30 jours d’essai gratuit, avec des offres entreprise chiffrées par l’équipe commerciale.
+**Prix :** l’offre gratuite Core a pris fin en 2025 ; Piwik PRO propose désormais un essai gratuit de 30 jours, puis l’offre Business à partir de 36 € par mois et l’offre Enterprise à partir de 366 € par mois, facturée à l’année.
 
-> L’essai gratuit dure 30 jours, et vous pouvez passer à un compte Business payant à tout moment pendant l’essai.
+> L’essai gratuit dure 30 jours, et vous pouvez passer à un compte Business payant à tout moment pendant l’essai. Business : à partir de 36 € par mois. Enterprise : à partir de 366 € par mois, facturation annuelle.
 >
-> Source : [Piwik PRO, page de passage depuis Core, 2026](https://piwik.pro/core-upgrade/). Contexte sur la fin de l’offre gratuite : [Brian Clifton, « Piwik PRO ends freemium », juillet 2025](https://brianclifton.com/blog/2025/07/03/piwik-pro-ends-freemium-my-take/)
+> Source : [Piwik PRO, tarifs, octobre 2026](https://piwik.pro/pricing/). Contexte sur la fin de l’offre gratuite : [Brian Clifton, « Piwik PRO ends freemium », juillet 2025](https://brianclifton.com/blog/2025/07/03/piwik-pro-ends-freemium-my-take/)
 
 ### Mixpanel
 
@@ -127,9 +127,9 @@ Cinq outils, chacun le plus fort sur une tâche différente :
 - Segmentation avancée et analyse d’entonnoirs
 - Données en temps réel et rapports personnalisables
 
-**Prix :** une offre gratuite, puis une offre Growth facturée à l’usage (qui a remplacé l’abonnement mensuel fixe), avec une tarification Enterprise sur devis pour les volumes plus importants.
+**Prix :** une offre gratuite, puis une offre Growth facturée à l’usage, dont le premier million d’événements mensuels est gratuit, et une tarification Enterprise sur devis pour les volumes plus importants.
 
-> Offre gratuite : utilisateurs illimités et jusqu’à 1 million d’événements par mois. Enterprise : tarification sur devis.
+> Offre gratuite : nombre illimité de comptes utilisateurs et jusqu’à 1 million d’événements par mois. Growth : facturation à l’usage, premier million d’événements gratuit. Enterprise : tarification sur devis.
 >
 > Source : [Mixpanel, tarifs, 2026](https://mixpanel.com/pricing/)
 
@@ -137,20 +137,20 @@ Cinq outils, chacun le plus fort sur une tâche différente :
 
 | Outil | Idéal pour | Hébergement | Cookies déposés | Prix d’entrée publié |
 |---|---|---|---|---|
-| Matomo | Propriété des données | Auto-hébergé ou cloud | Configurable | Gratuit en auto-hébergé ; cloud à partir de EUR 29 par mois |
-| Plausible | Un écran simple | Cloud ou auto-hébergé | Aucun | À partir de USD 9 par mois |
-| Fathom | Un écran simple | Cloud | Aucun | À partir de USD 15 par mois |
-| Piwik PRO | Secteurs réglementés | Cloud | Configurable | 30 jours d’essai gratuit, puis payant |
+| Matomo | Propriété des données | Auto-hébergé ou cloud | Configurable | Gratuit en auto-hébergé ; cloud à partir de 29 € par mois |
+| Plausible | Un écran simple | Cloud ou auto-hébergé | Aucun | À partir de 9 € par mois |
+| Fathom | Un écran simple | Cloud | Aucun | À partir de 15 $ par mois |
+| Piwik PRO | Secteurs réglementés | Cloud | Configurable | Essai de 30 jours, puis à partir de 36 € par mois |
 | Mixpanel | Analyse de produit | Cloud | Configurable | Gratuit jusqu’à 1 million d’événements par mois |
 
-Les prix proviennent de la page tarifaire de chaque éditeur au 26 septembre 2026 et sont sourcés sous chaque outil ci-dessus.
+Les prix proviennent de la page tarifaire de chaque éditeur au 2 octobre 2026 et sont sourcés sous chaque outil ci-dessus.
 
 ## Choisir la bonne alternative
 
 Le bon choix se fait une seule fois : une migration, et des rapports comparables dès le premier mois. Partez de la question dont votre équipe a le plus besoin de la réponse :
 
 <figure class="post-fig">
-<svg viewBox="0 0 400 244" role="img" aria-label="Quatre questions, chacune menant à un outil : des données sur vos propres serveurs mènent à Matomo, un secteur réglementé à Piwik PRO, le comportement dans le produit à Mixpanel, et un écran simple à Plausible ou Fathom.">
+<svg viewBox="0 0 400 244" role="img" aria-label="Quatre questions, chacune menant à un outil : des données sur vos propres serveurs mènent à Matomo, un secteur réglementé à Piwik PRO, le comportement dans le produit à Mixpanel, et un écran simple à Plausible ou Fathom.">
 <rect x="10" y="10" width="220" height="44" rx="6" class="fg-box"/>
 <rect x="10" y="70" width="220" height="44" rx="6" class="fg-box"/>
 <rect x="10" y="130" width="220" height="44" rx="6" class="fg-box"/>
@@ -165,8 +165,8 @@ Le bon choix se fait une seule fois : une migration, et des rapports comparable
 <line x1="230" y1="212" x2="258" y2="212" class="fg-line"/>
 <path d="M252 27 L260 32 L252 37" fill="none" class="fg-line"/>
 <path d="M252 87 L260 92 L252 97" fill="none" class="fg-line"/>
-<path d="M252 147 L260 152 L252 157" fill="none" class="fg-line"/>
-<path d="M252 207 L260 212 L252 217" fill="none" class="fg-line"/>
+<path d="M252 147 L260 152 L252 157" fill="none" class="fg-line"/>
+<path d="M252 207 L260 212 L252 217" fill="none" class="fg-line"/>
 <text x="120" y="38" text-anchor="middle" class="fg-text">Données sur vos serveurs ?</text>
 <text x="120" y="98" text-anchor="middle" class="fg-text">Secteur réglementé ?</text>
 <text x="120" y="158" text-anchor="middle" class="fg-text">Comportement dans le produit ?</text>
@@ -196,7 +196,7 @@ Confrontez ensuite votre liste à ces critères :
 
 ## Par où commencer
 
-Google Analytics reste capable, et pour beaucoup d’entreprises une configuration plus propre règle davantage qu’un changement d’outil :
+Google Analytics reste un outil solide, et pour beaucoup d’entreprises une configuration plus propre apporte davantage qu’un changement d’outil :
 
 - **Gardez GA4** si une configuration plus propre répond aux questions de votre équipe.
 - **Changez d’outil** si la confidentialité, la simplicité ou un besoin spécialisé est le vrai sujet.
@@ -204,7 +204,7 @@ Google Analytics reste capable, et pour beaucoup d’entreprises une configurati
 Pour choisir :
 
 1. Notez la question dont votre équipe a le plus besoin chaque mois.
-2. Retenez les outils dont la ligne « Idéal pour » correspond dans le tableau ci-dessus.
+2. Retenez les outils dont la ligne « Idéal pour » correspond dans le tableau ci-dessus.
 3. Testez l’adéquation avec l’essai gratuit ou la démonstration de chacun.
 
-Le meilleur outil d’analyse est celui que vous utiliserez vraiment pour décider où va le prochain budget.
+Le meilleur outil d’analyse est celui que vous utiliserez réellement pour décider où va le prochain budget.

@@ -5,6 +5,7 @@ import Reveal from "@/components/Reveal";
 import SiteFooter from "@/components/SiteFooter";
 import JsonLd from "@/components/JsonLd";
 import LocaleHtmlLang from "@/components/LocaleHtmlLang";
+import { ButtonLink } from "@/components/ui/Button";
 import { getServicesForLocale, servicePath } from "@/lib/services-locale";
 import { esLanguages } from "@/lib/fr-pages";
 import { leadGenPath } from "@/lib/lead-gen-hubs";
@@ -19,7 +20,7 @@ export const metadata: Metadata = {
   ...pageMeta({
     title: "Servicios de SEO internacional, Mike Bastin",
     description:
-      "SEO por mercado, traducción de páginas web y publicidad multilingüe para empresas que ya venden fuera y quieren que cada idioma les traiga consultas.",
+      "SEO por mercado, traducción de páginas web y publicidad multilingüe para empresas que ya venden fuera: cada idioma de tu web te trae sus propias consultas.",
     path: PATH,
     languages: esLanguages(PATH),
     ogLocale: "es_ES",
@@ -80,13 +81,18 @@ export default function SpanishServicesIndex() {
           </Reveal>
           <Reveal i={2}>
             <h2 className="mb-6 max-w-[46ch] text-[clamp(1.2rem,2.1vw,1.7rem)] font-medium leading-[1.3]" style={{ color: "var(--ink)" }}>
-              El posicionamiento medido en cada mercado es el centro de nuestro trabajo, con la traducción y la publicidad en línea alrededor.
+              Cada mercado donde ya vendes puede traerte sus propias consultas: medimos el posicionamiento país por país y sumamos la traducción y la publicidad donde ayudan.
             </h2>
           </Reveal>
           <Reveal i={3}>
-            <p className="max-w-[58ch] text-[clamp(1.05rem,1.5vw,1.2rem)] leading-[1.58]" style={{ color: "var(--dim)" }}>
-              Vendes en Francia, en Alemania, en el Benelux o en el Reino Unido, y quieres que cada uno de esos mercados te traiga consultas. Empieza por el mercado que más te importa{" "}: te diremos qué pide de verdad.
+            <p className="mb-10 max-w-[58ch] text-[clamp(1.05rem,1.5vw,1.2rem)] leading-[1.58]" style={{ color: "var(--dim)" }}>
+              Vendes en Francia, en Alemania, en el Benelux o en el Reino Unido, y quieres que cada uno de esos mercados te traiga consultas. Empieza por el mercado que más te importa: te diremos qué pide de verdad.
             </p>
+          </Reveal>
+          <Reveal i={4}>
+            <ButtonLink href="/es/contactanos/" size="lg">
+              Reserva una consulta gratuita
+            </ButtonLink>
           </Reveal>
         </div>
       </section>
@@ -105,7 +111,7 @@ export default function SpanishServicesIndex() {
                 Generación de leads B2B internacional
               </span>
               <span className="max-w-[60ch] text-[.98rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
-                Posicionamiento, publicidad y seguimiento de conversiones llevados juntos y medidos con un único criterio{" "}: las consultas que cada mercado envía a tu equipo comercial.
+                Posicionamiento, publicidad y seguimiento de conversiones llevados juntos y medidos con un único criterio: las consultas que cada mercado envía a tu equipo comercial.
               </span>
             </Link>
           </Reveal>

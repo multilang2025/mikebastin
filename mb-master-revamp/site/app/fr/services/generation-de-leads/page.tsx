@@ -21,7 +21,7 @@ const PATH = leadGenPath("fr");
 const NAME = "Génération de leads B2B";
 const TITLE = "Agence de génération de leads B2B à l’international";
 const DESCRIPTION =
-  "Vos marchés étrangers vous envoient déjà des visites. Nous en faisons des leads qualifiés, comptés marché par marché, et votre budget publicitaire va entièrement à vos annonces.";
+  "Vos marchés étrangers vous envoient déjà des visiteurs. Nous en faisons des leads qualifiés, comptés marché par marché. Première consultation gratuite.";
 
 export const metadata: Metadata = {
   ...pageMeta({
@@ -58,7 +58,7 @@ const QUESTIONS = [
   {
     q: "Faut-il lancer toutes les langues en même temps ?",
     a: [
-      "Nous avançons marché par marché, et c’est en général la voie la plus économique. Nous commençons par le marché où les signaux sont les plus nets, nous le faisons produire des demandes, puis nous ajoutons le suivant.",
+      "Nous avançons marché par marché, et c’est en général la voie la plus économique. Nous commençons par le marché où les signaux sont les plus nets, nous l’amenons à produire des demandes, puis nous ajoutons le suivant.",
       "Concentrer le premier budget sur une langue, c’est la façon la plus sûre d’obtenir un marché qui rapporte clairement avant d’ouvrir le suivant.",
     ],
   },
@@ -79,7 +79,7 @@ const QUESTIONS = [
   {
     q: "Y a-t-il une durée d’engagement minimale ?",
     a: [
-      "Vous travaillez avec nous au mois. Le premier échange aboutit à un périmètre écrit qui nomme les pages et les livrables, et vous décidez ensuite.",
+      "Vous travaillez avec nous au mois. La consultation gratuite aboutit à un périmètre écrit qui nomme les pages et les livrables, et vous décidez ensuite.",
     ],
   },
 ];
@@ -118,13 +118,13 @@ export default function FrenchLeadGenerationPage() {
             </Reveal>
             <Reveal i={3}>
               <p className="mb-10 max-w-[58ch] text-[clamp(1.05rem,1.5vw,1.2rem)] leading-[1.58]" style={{ color: "var(--dim)" }}>
-                Le trafic arrive en espagnol, en allemand et en néerlandais, et les demandes arrivent toujours en français. La Search Console d’un client affichait quarante mille impressions en quatre-vingt-dix jours, pour six clics. Les acheteurs cherchaient ; il restait à transformer cette recherche en conversation.
+                Le trafic arrive en espagnol, en allemand et en néerlandais, et les demandes arrivent toujours en français. Notre propre site affichait quarante mille impressions en quatre-vingt-dix jours, pour six clics, avant que nous le reconstruisions autour des demandes. Les acheteurs cherchaient ; il restait à transformer cette recherche en conversation.
               </p>
             </Reveal>
             <Reveal i={4}>
               <div className="flex flex-wrap items-center gap-x-6 gap-y-4">
                 <Link href="/fr/nous-contacter/" className="btn btn-primary btn-lg">
-                  Réserver un premier échange
+                  Réserver une consultation gratuite
                 </Link>
                 <Link href="#facturation" className="ulink text-[.98rem]">
                   Voir comment c’est facturé
@@ -163,7 +163,7 @@ export default function FrenchLeadGenerationPage() {
               La génération de leads B2B, menée langue par langue
             </h2>
             <p className="mb-10 max-w-[62ch] text-[1.05rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
-              Trois volets, menés ensemble et jugés sur une seule chose : chaque marché envoie-t-il à votre équipe commerciale des demandes qui valent la peine ? Pris isolément, chacun produit un rapport. Ensemble, ils produisent un pipeline que vous lisez marché par marché.
+              Trois volets, menés ensemble et jugés sur une seule chose : chaque marché envoie-t-il à votre équipe commerciale des demandes qui valent la peine ? Pris isolément, chacun produit un rapport. Ensemble, ils produisent un flux de demandes que vous lisez marché par marché.
             </p>
           </Reveal>
           <Reveal i={2}>
@@ -195,7 +195,7 @@ export default function FrenchLeadGenerationPage() {
               Quand une mission comprend de la publicité en ligne, votre budget média va entièrement à vos annonces : il est versé directement à Google, Microsoft ou Meta, et le pilotage fait l’objet d’honoraires à part. Le budget que nous recommandons est donc celui qui apporte des demandes.
             </p>
             <p className="max-w-[62ch] text-[1.05rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
-              Ce principe concerne le budget média ; la rédaction et la traduction font l’objet d’un devis pour le travail lui-même. Vous savez ainsi, avant même le premier échange, ce qui est refacturé et ce qui est facturé.
+              Ce principe concerne le budget média ; la rédaction et la traduction font l’objet d’un devis pour le travail lui-même. Vous savez ainsi, dès la consultation gratuite, ce qui va aux plateformes publicitaires et ce que nous facturons.
             </p>
           </Reveal>
         </div>
@@ -209,7 +209,7 @@ export default function FrenchLeadGenerationPage() {
               Des avis publics, dans la langue de leurs auteurs
             </h2>
             <p className="mb-10 max-w-[58ch] text-[1.05rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
-              Nos clients nous notent en anglais, en néerlandais, en français et en espagnol, chacun dans la langue qu’il a choisie. Voici ceux qui l’ont fait en français.
+              Nos clients nous notent en anglais, en néerlandais, en français et en espagnol, chacun dans la langue qu’il a choisie. Voici l’avis laissé en français.
             </p>
           </Reveal>
           <Reveal i={2}>
@@ -229,12 +229,12 @@ export default function FrenchLeadGenerationPage() {
               Le suivi passe par GA4 et Google Tag Manager, configurés par langue avec les mêmes définitions d’événements partout, pour qu’une demande espagnole et une demande allemande soient comptées de la même façon et puissent être comparées. Le mode de consentement est réglé marché par marché, car l’acceptation des cookies varie d’un pays à l’autre ; une fois corrigée, la comparaison classe vos langues selon les ventes.
             </p>
             <p className="mb-12 max-w-[62ch] text-[1.05rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
-              Le CRM boucle la boucle. Le suivi des conversions hors ligne renvoie l’issue de chaque demande vers GA4 et Google Ads : un marché qui envoie des demandes moins nombreuses mais meilleures apparaît comme gagnant, et les enchères publicitaires suivent ce que vaut chaque marché.
+              Le CRM complète le suivi. Le suivi des conversions hors ligne renvoie l’issue de chaque demande vers GA4 et Google Ads : un marché qui envoie des demandes moins nombreuses mais meilleures apparaît comme gagnant, et les enchères publicitaires suivent ce que vaut chaque marché.
             </p>
           </Reveal>
           <Reveal i={1}>
             <h3 className="display mb-6 text-[clamp(1.3rem,2.2vw,1.7rem)] font-semibold">
-              Les questions qu’on nous pose avant le premier échange
+              Les questions que l’on nous pose avant la consultation gratuite
             </h3>
           </Reveal>
           <Reveal i={2}>
@@ -259,7 +259,7 @@ export default function FrenchLeadGenerationPage() {
           <Reveal i={2}>
             <div className="flex flex-wrap items-center gap-x-6 gap-y-4">
               <Link href="/fr/nous-contacter/" className="btn btn-primary btn-lg">
-                Réserver un premier échange
+                Réserver une consultation gratuite
               </Link>
               <Link href="/fr/tarifs/" className="ulink text-[.98rem]">
                 Voir le déroulement d’une mission

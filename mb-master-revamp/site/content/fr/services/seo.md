@@ -11,10 +11,10 @@ wpId: 24848789
 date: "2024-09-23T14:02:02"
 modified: "2026-09-30T12:00:00"
 sourceUrl: "https://mikebastin.com/fr/services/seo/"
-excerpt: "Vos pages en langues étrangères attirent déjà des visiteurs. Nous les faisons produire des demandes, pays par pays, avec des textes écrits par des natifs."
+excerpt: "Vos pages en langues étrangères attirent déjà des visiteurs. Nous en faisons des demandes de devis, pays par pays, avec des textes écrits par des natifs."
 ---
 
-## Vos marchés étrangers ont davantage de demandes à vous envoyer
+## Vos marchés étrangers peuvent vous envoyer davantage de demandes
 
 Que votre entreprise soit française, belge, suisse ou luxembourgeoise, vous vendez déjà en Espagne, en Allemagne, au Royaume-Uni ou chez vos voisins du Benelux. Votre site existe dans ces langues, les visiteurs arrivent, et les demandes de devis viennent surtout de vos pages en français. L’étape suivante est de faire travailler vos autres langues au même niveau : chaque marché où vous vendez déjà peut vous envoyer ses propres prospects.
 
@@ -23,7 +23,7 @@ Le potentiel est déjà là. Votre produit a fait ses preuves à l’étranger, 
 C’est notre métier depuis plus de deux décennies : le SEO international pour les entreprises qui exportent, jugé sur les demandes que chaque marché vous envoie.
 
 <aside class="post-cta">
-<p><strong>Vous voulez que vos pages étrangères vous apportent des clients ?</strong> Nous trouvons les mots que vos acheteurs utilisent dans chaque pays et nous écrivons les pages qui les font vous contacter. <a href="/fr/nous-contacter/">Réserver un premier échange</a>.</p>
+<p><strong>Vous voulez que vos pages étrangères vous apportent des clients ?</strong> Nous trouvons les mots que vos acheteurs utilisent dans chaque pays et nous écrivons les pages qui les font vous contacter. <a href="/fr/nous-contacter/">Réserver une consultation gratuite</a>.</p>
 </aside>
 
 ## Ce que nous faisons pour vos marchés étrangers
@@ -40,11 +40,11 @@ Chaque marché a aussi sa propre page de service : le [SEO en espagnol](/fr/ser
 
 ## Des sites que nous menons dans plusieurs langues
 
-Delaguía y Luzón, un cabinet d’avocats de Valencia, en Espagne, couvre le droit des affaires, le droit du travail, l’immigration et la fiscalité entre l’Espagne et la France, en espagnol, en français, en anglais et en russe. Chaque terme juridique est tenu au niveau qu’un avocat exigerait en le lisant, dans chaque langue. De mai à juillet 2026, le site a reçu 38 476 clics depuis Google, pour une position moyenne de 9,4.
+Delaguía y Luzón, un cabinet d’avocats de Valencia, en Espagne, couvre le droit des affaires, le droit du travail, l’immigration et la fiscalité entre l’Espagne et la France, en espagnol, en français, en anglais et en russe. Chaque terme juridique doit résister à la lecture d’un avocat, dans chaque langue. De mai à juillet 2026, le site a reçu 38 476 clics depuis Google, pour une position moyenne de 9,4.
 
 > Source : Google Search Console de delaguialuzon.com, mai à juillet 2026.
 
-BeTranslated, l’agence de traduction que nous faisons tourner depuis vingt ans, mène un site par marché, du .be au .co.uk en passant par le .fr, le .es et le .nl. Chacun a sa propre recherche de mots-clés, construite à partir des recherches de son marché, et se positionne face à ses concurrents locaux. Nous appliquons à nos clients la méthode apprise sur ces domaines.
+BeTranslated, l’agence de traduction que nous dirigeons depuis vingt ans, mène un site par marché, du .be au .co.uk en passant par le .fr, le .es et le .nl. Chacun a sa propre recherche de mots-clés, construite à partir des recherches de son marché, et se positionne face à ses concurrents locaux. Nous appliquons à nos clients la méthode apprise sur ces domaines.
 
 ## Ce qui fait arriver chaque acheteur sur la bonne page
 
@@ -66,12 +66,12 @@ Trois ou quatre marchés menés en profondeur donnent plus de résultats que neu
 
 ## Comment nous travaillons
 
-1. **Un premier échange de trente minutes** sur vos marchés, vos langues et ce que vous avez déjà mis en place.
+1. **Une consultation gratuite de trente minutes** sur vos marchés, vos langues et ce que vous avez déjà mis en place.
 2. **Un périmètre écrit pour le premier trimestre** : les pages, les mots-clés, les marchés dans l’ordre, et qui fait quoi.
 3. **Une livraison mensuelle, marché par marché**, avec des textes écrits par des natifs et relus avant publication.
 4. **Un rapport mensuel par langue** : visites, positions et demandes reçues, commentés en clair, avec les priorités du mois suivant.
 5. **Un engagement au mois**, avec un préavis de part et d’autre.
 
-La rédaction et la traduction sont chiffrées comme un travail, sur devis, à partir de ce premier échange. Le détail de notre facturation figure sur la page [nos tarifs](/fr/tarifs/).
+La rédaction et la traduction font l’objet d’un devis pour le travail lui-même, établi après cette consultation. Le détail de notre facturation figure sur la page [nos tarifs](/fr/tarifs/).
 
 Vous parlez directement aux personnes qui pensent la stratégie, rédigent les briefs et lisent les rapports. Nous répondons à chaque message, en général sous un jour ouvré.

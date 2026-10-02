@@ -12,21 +12,21 @@ sourceUrl: null
 excerpt: "Compara cinco alternativas a Google Analytics por privacidad, precio y facilidad de uso, y elige la que mide mejor los mercados donde vendes."
 ---
 
-Tu analítica debería decirte qué mercado merece el próximo presupuesto: cifras completas de Francia, Países Bajos o Alemania, con los visitantes que rechazan el banner de consentimiento contabilizados, y informes que todo el equipo sepa leer.
+Tu analítica tiene que decirte qué mercado merece el próximo presupuesto: cifras completas de Francia, los Países Bajos o Alemania, e informes que todo el equipo sepa leer.
 
-A continuación te presentamos cinco alternativas a Google Analytics, lo que cuesta empezar con cada una y qué tipo de empresa encaja con ella. Los precios son los de entrada que publica cada proveedor el 26 de septiembre de 2026, en la moneda en que los cotiza. Cambian a menudo, así que confírmalos antes de decidir.
+Aquí tienes cinco alternativas a Google Analytics, lo que cuesta empezar con cada una y qué tipo de empresa encaja con ella. Los precios son los de entrada que publica cada proveedor, comprobados el 2 de octubre de 2026 en la moneda en que los cotiza. Cambian a menudo, así que confírmalos antes de decidir.
 
 ## Por qué plantearte una alternativa
 
-Cambiar de herramienta lleva trabajo, así que conviene ligarlo a una necesidad real:
+Cambiar de herramienta lleva trabajo, así que liga la decisión a una necesidad concreta:
 
-- **Privacidad:** Google Analytics recoge muchos datos de usuario, así que revisa cómo encaja con el RGPD, con la normativa de cada país donde vendes y con tus propios criterios.
+- **Privacidad:** Google Analytics recoge muchos datos de usuario, así que revisa cómo encaja con el RGPD, con la normativa de cada país donde vendes y con tus propios criterios. En Francia, la CNIL admite que una herramienta de medición de audiencia quede [exenta de consentimiento](https://www.cnil.fr/fr/cookies-solutions-pour-les-outils-de-mesure-daudience) si solo produce estadísticas anónimas y el proveedor se abstiene de reutilizar los datos por su cuenta.
 - **Complejidad:** GA4, la única versión disponible desde que se apagó Universal Analytics, ofrece más de lo que la mayoría de equipos necesita para saber de dónde llegan las visitas.
-- **Rendimiento:** el script de seguimiento de Google puede ralentizar tus páginas.
+- **Rendimiento:** un script de seguimiento más ligero aligera tus páginas.
 - **Propiedad de los datos:** algunas empresas quieren controlar por completo sus datos de analítica.
 
 <aside class="post-cta">
-<p><strong>¿Quieres ver qué mercado rinde de verdad?</strong> La herramienta importa menos que la configuración. Nuestra <a href="/es/services/monitorizacion-y-analitica/">monitorización y analítica por mercado</a> te muestra qué idioma genera cada consulta, con el modo de consentimiento contemplado. <a href="/es/contactanos/">Reserva la llamada de descubrimiento</a>.</p>
+<p><strong>¿Quieres ver qué mercado rinde de verdad?</strong> Con nuestro <a href="/es/services/seo-tecnico/">SEO técnico</a> configuramos GA4 y Google Tag Manager para que el tráfico se divida por mercado y cada idioma aparezca en sus propias cifras. <a href="/es/contactanos/">Reserva una primera conversación</a>.</p>
 </aside>
 
 ## Las mejores alternativas a Google Analytics
@@ -43,7 +43,7 @@ Cinco herramientas, cada una más fuerte en una tarea distinta:
 
 **Ideal para:** la propiedad de los datos.
 
-[Matomo](https://matomo.org) te encaja si quieres informes al estilo de Google Analytics con los datos bajo tu control. Es de código abierto, y puedes alojarlo tú o usarlo en la nube.
+[Matomo](https://matomo.org) te encaja si quieres informes al estilo de Google Analytics con los datos bajo tu control. Es de código abierto, y puedes alojarlo tú o usarlo en su nube, que guarda los datos en Fráncfort (Alemania).
 
 **Características principales:**
 
@@ -54,15 +54,15 @@ Cinco herramientas, cada una más fuerte en una tarea distinta:
 
 **Precio:** la edición Community autoalojada es gratuita, y la versión en la nube parte de 29 € al mes.
 
-> Matomo Cloud: from €29 a month for 50,000 hits a month. On-premise Community edition: free, with unlimited users and hits.
+> Matomo Cloud: desde 29 € al mes por 50.000 hits mensuales. Edición Community autoalojada: gratuita, con usuarios y hits ilimitados.
 >
-> Fuente: [Matomo, pricing page, 2026](https://matomo.org/pricing/)
+> Fuente: [Matomo, pricing page, consultada en octubre de 2026](https://matomo.org/pricing/)
 
 ### Plausible Analytics
 
 **Ideal para:** un panel sencillo y libre de cookies.
 
-[Plausible](https://plausible.io) le va bien a un equipo que quiere una sola pantalla clara. Es ligero, de código abierto y prioriza la privacidad.
+[Plausible](https://plausible.io) le va bien a un equipo que quiere una sola pantalla clara. Es ligero, de código abierto, se aloja en la UE y prioriza la privacidad.
 
 **Características principales:**
 
@@ -73,15 +73,15 @@ Cinco herramientas, cada una más fuerte en una tarea distinta:
 
 **Precio:** se cotiza en dólares estadounidenses, desde USD 9 al mes.
 
-> Starter plan: $9 a month for up to 10k monthly pageviews.
+> Plan Starter: 9 dólares al mes para hasta 10.000 páginas vistas mensuales.
 >
-> Fuente: [Plausible Analytics, pricing, 2026](https://plausible.io/#pricing)
+> Fuente: [Plausible Analytics, pricing, consultada en octubre de 2026](https://plausible.io/#pricing)
 
 ### Fathom Analytics
 
 **Ideal para:** un panel sencillo, libre de cookies y de carga rápida.
 
-[Fathom](https://usefathom.com/) ofrece el mismo enfoque de privacidad que Plausible, con una interfaz limpia.
+[Fathom](https://usefathom.com/) ofrece el mismo enfoque de privacidad que Plausible, con una interfaz limpia y una prueba gratuita de 7 días.
 
 **Características principales:**
 
@@ -92,15 +92,15 @@ Cinco herramientas, cada una más fuerte en una tarea distinta:
 
 **Precio:** se cotiza en dólares estadounidenses, desde USD 15 al mes.
 
-> $15 a month for up to 100,000 monthly page views.
+> 15 dólares al mes para hasta 100.000 páginas vistas mensuales.
 >
-> Fuente: [Fathom Analytics, pricing, 2026](https://usefathom.com/pricing)
+> Fuente: [Fathom Analytics, pricing, consultada en octubre de 2026](https://usefathom.com/pricing)
 
 ### Piwik PRO
 
 **Ideal para:** sectores regulados.
 
-[Piwik PRO](https://piwik.pro/) es una empresa distinta de Matomo (antes Piwik) y merece un lugar en la lista corta si trabajas en un sector regulado.
+[Piwik PRO](https://piwik.pro/) es una empresa distinta de Matomo (antes Piwik) y merece un lugar en la lista corta si trabajas en un sector regulado. Su plan Business se aloja por defecto en Suecia, con otras ubicaciones a elegir.
 
 **Características principales:**
 
@@ -108,11 +108,11 @@ Cinco herramientas, cada una más fuerte en una tarea distinta:
 - Adecuado para sectores con normativa estricta sobre datos
 - Conjunto de funciones completo, similar al de Google Analytics
 
-**Precio:** el plan gratuito Core se ha retirado, así que Piwik PRO es ahora un producto de pago tras una prueba gratuita de 30 días, y los planes para grandes empresas se cotizan a través de ventas.
+**Precio:** Piwik PRO retiró su plan gratuito Core en 2025. Hoy ofrece una prueba gratuita de 30 días, un plan Business desde 36 € al mes y planes Enterprise desde 366 € al mes con facturación anual.
 
-> The free trial lasts 30 days, and you can upgrade to a paying Business account at any time during your trial.
+> La prueba gratuita dura 30 días, y puedes pasar a una cuenta Business de pago en cualquier momento durante la prueba.
 >
-> Fuente: [Piwik PRO, Core upgrade page, 2026](https://piwik.pro/core-upgrade/). Contexto sobre el fin del plan gratuito: [Brian Clifton, «Piwik PRO ends freemium», julio de 2025](https://brianclifton.com/blog/2025/07/03/piwik-pro-ends-freemium-my-take/)
+> Fuente: [Piwik PRO, Core upgrade page, 2026](https://piwik.pro/core-upgrade/) y [Piwik PRO, pricing, consultada en octubre de 2026](https://piwik.pro/pricing/). Contexto sobre el fin del plan gratuito: [Brian Clifton, «Piwik PRO ends freemium», julio de 2025](https://brianclifton.com/blog/2025/07/03/piwik-pro-ends-freemium-my-take/)
 
 ### Mixpanel
 
@@ -126,23 +126,23 @@ Cinco herramientas, cada una más fuerte en una tarea distinta:
 - Segmentación avanzada y análisis de embudos
 - Datos en tiempo real e informes personalizables
 
-**Precio:** un plan gratuito y, después, un plan Growth basado en el uso (que sustituyó a la cuota mensual fija), con precios personalizados Enterprise para volúmenes mayores.
+**Precio:** un plan gratuito y, después, un plan Growth que se factura según el uso, con precios personalizados Enterprise para volúmenes mayores.
 
-> Free plan: unlimited seats and up to 1M events a month. Enterprise: custom pricing.
+> Plan Free: usuarios ilimitados y hasta 1 millón de eventos al mes. Enterprise: precio personalizado, previa conversación con ventas.
 >
-> Fuente: [Mixpanel, pricing, 2026](https://mixpanel.com/pricing/)
+> Fuente: [Mixpanel, pricing, consultada en octubre de 2026](https://mixpanel.com/pricing/)
 
 ## Las alternativas de un vistazo
 
 | Herramienta | Ideal para | Alojamiento | Libre de cookies | Precio de entrada, según el proveedor |
 |---|---|---|---|---|
-| Matomo | Propiedad de los datos | Autoalojado o nube | Configurable | Gratis autoalojado; nube desde 29 € al mes |
-| Plausible | Una pantalla sencilla | Nube o autoalojado | Sí | Desde USD 9 al mes |
+| Matomo | Propiedad de los datos | Autoalojado o nube en Alemania | Configurable | Gratis autoalojado; nube desde 29 € al mes |
+| Plausible | Una pantalla sencilla | Nube en la UE o autoalojado | Sí | Desde USD 9 al mes |
 | Fathom | Una pantalla sencilla | Nube | Sí | Desde USD 15 al mes |
-| Piwik PRO | Sectores regulados | Nube | Configurable | Prueba gratuita de 30 días, luego de pago |
+| Piwik PRO | Sectores regulados | Nube, por defecto en Suecia | Configurable | Prueba de 30 días; Business desde 36 € al mes |
 | Mixpanel | Analítica de producto | Nube | Configurable | Gratis hasta 1 M de eventos al mes |
 
-Los precios proceden de la página de precios de cada proveedor a 26 de septiembre de 2026 y llevan su fuente bajo cada herramienta.
+Los precios proceden de la página de precios de cada proveedor a 2 de octubre de 2026 y llevan su fuente bajo cada herramienta.
 
 ## Cómo elegir la alternativa adecuada
 
@@ -190,7 +190,7 @@ Después, contrasta la lista corta con estos criterios:
 7. **Informes por mercado:** cada informe se divide por idioma y país, de modo que cada mercado se ve por separado.
 
 <aside class="post-cta">
-<p><strong>¿Vendes en varios idiomas y lees un solo informe mezclado?</strong> Nuestros <a href="/es/services/posicionamiento-multilingue/">programas de posicionamiento multilingüe</a> dan a cada mercado su propia estrategia, su propia redacción nativa y su propia cifra. <a href="/es/contactanos/">Habla con nosotros sobre tus mercados</a>.</p>
+<p><strong>¿Vendes en varios idiomas y lees un solo informe mezclado?</strong> Nuestro <a href="/es/services/posicionamiento-multilingue/">SEO multilingüe</a> da a cada mercado su propia estrategia, sus textos escritos por nativos y un informe mensual por idioma. <a href="/es/contactanos/">Habla con nosotros sobre tus mercados</a>.</p>
 </aside>
 
 ## Por dónde empezar
@@ -198,7 +198,7 @@ Después, contrasta la lista corta con estos criterios:
 Google Analytics sigue siendo potente, y para muchas empresas una configuración más limpia resuelve más que un cambio:
 
 - **Mantén GA4** si una configuración más limpia responde a las preguntas de tu equipo.
-- **Cambia** si la privacidad, la simplicidad o una necesidad especializada es el verdadero problema.
+- **Cambia** si la privacidad, la simplicidad o una necesidad especializada es lo que de verdad pesa.
 
 Para decidir:
 

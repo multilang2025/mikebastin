@@ -10,22 +10,22 @@ wpId: 24848853
 date: "2024-10-03T13:52:28"
 modified: "2026-09-29T12:00:00"
 sourceUrl: "https://mikebastin.com/fr/services/creation-de-contenu-multilingue/"
-excerpt: "Des pages écrites pour vos acheteurs espagnols, allemands ou néerlandais, à partir de ce qu’ils recherchent, pour qu’ils vous trouvent et vous contactent."
+excerpt: "Des pages écrites pour vos acheteurs espagnols, allemands ou néerlandais, à partir de leurs recherches, pour qu’ils vous trouvent et vous contactent."
 ---
 
 ## Une page étrangère répond à la question de l’acheteur qui la lit
 
 Votre page espagnole traduit votre page française : elle répond à la question que se pose un acheteur français. Un acheteur espagnol formule son problème avec d’autres mots et d’autres priorités, et il choisit la page écrite pour lui, souvent celle d’un concurrent.
 
-Écrire pour ce lecteur vous apporte le trafic et les demandes de chaque marché, et un site qui se positionne dans ses quatre langues comme il se lit dans les quatre. Chaque langue a ses propres mots-clés, parce que la manière de décrire un besoin change avec la langue, en plus du vocabulaire.
+Écrire pour ce lecteur vous apporte le trafic et les demandes de chaque marché, et un site qui se positionne aussi bien qu’il se lit, dans chacune de vos langues. Chaque langue a ses propres mots-clés, parce que la manière de décrire un besoin change avec la langue, en plus du vocabulaire.
 
 <aside class="post-cta">
-<p><strong>Vous voulez des pages qui parlent comme vos acheteurs espagnols, allemands ou néerlandais ?</strong> Nous écrivons chaque version à partir des recherches de son propre marché. <a href="/fr/nous-contacter/">Réserver un premier échange</a>.</p>
+<p><strong>Vous voulez des pages qui parlent comme vos acheteurs espagnols, allemands ou néerlandais ?</strong> Nous écrivons chaque version à partir des recherches de son propre marché. <a href="/fr/nous-contacter/">Réserver une consultation gratuite</a>.</p>
 </aside>
 
 ## Ce que nous écrivons pour chaque marché
 
-- Des contenus recherchés et rédigés dans la langue cible, à partir des mots-clés réellement utilisés sur place, par des rédacteurs natifs nommés, pour la plupart issus du réseau BeTranslated, que nous animons depuis vingt ans.
+- Des contenus recherchés et rédigés dans la langue cible, à partir des mots-clés réellement utilisés sur place, par des rédacteurs natifs nommés, pour la plupart issus du réseau BeTranslated, l’agence de traduction que nous dirigeons depuis vingt ans.
 - Une structure multilingue propre : balises hreflang et canoniques réglées au niveau du site.
 - Des données structurées (Article, FAQPage, LocalBusiness selon le cas) dans chaque langue, pour soutenir les résultats enrichis.
 - Une relecture culturelle du message et du ton avant publication.

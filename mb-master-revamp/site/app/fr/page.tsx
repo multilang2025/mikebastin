@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   ...pageMeta({
     title: "Agence SEO internationale, Mike Bastin",
     description:
-      "Vos pages en français vendent. Nous faisons vendre vos autres langues aussi : référencement par marché, pages écrites par des natifs, demandes comptées pays par pays.",
+      "Vos pages en français vous apportent des clients. Vos autres langues peuvent en faire autant, avec des pages écrites par des natifs. Consultation gratuite.",
     path: PATH,
     languages: frLanguages(PATH),
     ogLocale: "fr_FR",
@@ -48,9 +48,9 @@ const SERVICES_FOR: { slug: string; name: string; line: string }[] = [
 ];
 
 const STEPS = [
-  "Un premier échange de trente minutes sur vos marchés, vos langues et ce que vous avez déjà essayé.",
+  "Une consultation gratuite de trente minutes sur vos marchés, vos langues et ce que vous avez déjà essayé.",
   "Un périmètre écrit pour le premier trimestre : les pages, les mots-clés et qui fait quoi.",
-  "Une livraison mensuelle, marché par marché, par des rédacteurs natifs du réseau BeTranslated, que nous faisons travailler depuis vingt ans.",
+  "Une livraison mensuelle, marché par marché, par des rédacteurs natifs du réseau BeTranslated, l’agence de traduction que nous dirigeons depuis vingt ans.",
   "Des demandes comptées langue par langue, pour savoir quel marché rapporte.",
   "Un engagement au mois, que chacun peut arrêter avec un préavis.",
 ];
@@ -78,18 +78,18 @@ export default function FrenchHome() {
           </Reveal>
           <Reveal i={2}>
             <h2 className="mb-6 max-w-[40ch] text-[clamp(1.25rem,2.2vw,1.8rem)] font-medium leading-[1.3]" style={{ color: "var(--ink)" }}>
-              Vos pages en français vendent. Nous faisons vendre vos autres langues aussi.
+              Vos pages en français vous apportent des clients. Vos autres langues peuvent en faire autant.
             </h2>
           </Reveal>
           <Reveal i={3}>
             <p className="mb-10 max-w-[58ch] text-[clamp(1.05rem,1.65vw,1.24rem)]" style={{ color: "var(--dim)" }}>
-              Entreprise française, belge, suisse ou luxembourgeoise, vous avez déjà du trafic dans vos autres langues. Le transformer en demandes, marché par marché, c&apos;est notre métier depuis plus de vingt ans{" "}: des mots-clés trouvés dans chaque pays, des pages écrites par des natifs, et des résultats comptés en demandes.
+              Entreprise française, belge, suisse ou luxembourgeoise, vos autres langues attirent déjà des visiteurs. Nous les transformons en demandes, marché par marché, depuis plus de deux décennies{" "}: les mots que vos acheteurs tapent dans chaque pays, des pages écrites par des natifs et des résultats comptés en demandes reçues.
             </p>
           </Reveal>
           <Reveal i={4}>
             <div className="flex flex-wrap items-center gap-6">
               <ButtonLink href="/fr/nous-contacter/" size="lg">
-                Réserver un premier échange
+                Réserver une consultation gratuite
               </ButtonLink>
               <Link href="/fr/services/" className="ulink text-[.98rem]">
                 Voir nos services
@@ -106,7 +106,7 @@ export default function FrenchHome() {
             <Reveal>
               <h2 className="mb-3 text-[clamp(1.6rem,3vw,2.3rem)] font-semibold leading-[1.15]">Le marché où vous voulez vendre ensuite</h2>
               <p className="mb-10 max-w-[58ch]" style={{ color: "var(--dim)" }}>
-                Chaque pays cherche avec ses propres mots, et nous écrivons vos pages à partir de ceux-là.
+                Chaque pays cherche avec ses propres mots, et vos pages sont écrites à partir de ces mots-là.
               </p>
             </Reveal>
             <ul className="grid gap-px cells-2 sm:grid-cols-2" style={{ background: "var(--rule)" }}>
@@ -151,7 +151,7 @@ export default function FrenchHome() {
             <p className="mt-10 max-w-[62ch] text-[1.02rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
               Les trois sont menés ensemble et jugés sur les demandes que chaque marché vous envoie.{" "}
               <Link href={leadGenPath("fr")} className="ulink">
-                Voir notre génération de leads B2B
+                Découvrir notre offre de génération de leads B2B
               </Link>
               .
             </p>

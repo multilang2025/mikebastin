@@ -17,10 +17,10 @@ excerpt: "Des pages allemandes écrites par des natifs et pensées pour la reche
 
 Vous vendez déjà en Allemagne, en Autriche ou en Suisse alémanique, et vos pages en allemand amènent du monde. L’étape suivante est de transformer ces visites en demandes de devis. Un acheteur allemand lit la page en entier, la compare à deux ou trois autres et cherche qui se trouve derrière l’entreprise avant d’écrire. Il vous contacte quand l’allemand sonne juste et que les informations qu’il attend sont toutes là.
 
-L’Allemagne est la première économie d’Europe. Un site allemand qui remporte cette comparaison vous ouvre le plus grand marché du continent, et les pages publiées ce trimestre commencent dès ce trimestre à gagner des positions et des demandes.
+L’Allemagne est la première économie d’Europe. Un site allemand qui remporte cette comparaison vous ouvre le plus grand marché du continent, et chaque page publiée ce trimestre commence à travailler pour vous.
 
 <aside class="post-cta">
-<p><strong>Vous voulez que vos visiteurs allemands deviennent des clients ?</strong> Nous bâtissons avec vous un site allemand rédigé par des Allemands, qui inspire confiance à l’acheteur germanophone. <a href="/fr/nous-contacter/">Réserver un premier échange</a>.</p>
+<p><strong>Vous voulez que vos visiteurs allemands deviennent des clients ?</strong> Nous bâtissons avec vous un site allemand rédigé par des Allemands, qui inspire confiance à l’acheteur germanophone. <a href="/fr/nous-contacter/">Réserver une consultation gratuite</a>.</p>
 </aside>
 
 ## Ce que nous faisons pour votre marché germanophone
@@ -40,7 +40,7 @@ Vous avez un seul interlocuteur, une seule facture, et un allemand écrit par de
 
 ## Qui écrit votre allemand
 
-Nous le disons dès le premier échange, pour que vous sachiez qui fait quoi. Nous maîtrisons assez l’allemand pour piloter des projets SEO en allemand : résultats de recherche, pages concurrentes, briefs et réunions. Vos textes commerciaux allemands sont rédigés par des Allemands natifs, parce que le registre fait la vente et doit être exact.
+Nous le disons dès le premier échange, pour que vous sachiez qui fait quoi. Notre allemand suffit pour piloter des projets SEO en allemand. Vos textes commerciaux allemands sont rédigés par des Allemands natifs, parce que le registre fait la vente et doit être exact.
 
 Ces rédacteurs sont les traducteurs et rédacteurs allemands natifs de BeTranslated, l’agence de traduction que nous dirigeons depuis vingt ans et que Mike Bastin a cofondée. Ils écrivent depuis des années pour des clients qui vendent en Allemagne, en Autriche et en Suisse, à partir de nos briefs rédigés pour la page allemande. La stratégie, elle, s’appuie sur plus de deux décennies de SEO.
 
@@ -68,4 +68,4 @@ Nous commençons par la recherche. Elle place dans le brief les termes allemands
 
 Chaque mois, un point stratégique en français : nous présentons les arbitrages, vous décidez. Le rapport mensuel suit les positions sur Google.de, les citations dans les réponses d’IA en allemand et les demandes par marché.
 
-L’accompagnement SEO se règle au mois. La rédaction et la traduction allemandes sont chiffrées sur devis, comme un travail à part entière. Le détail figure dans [nos tarifs et modalités](/fr/tarifs/). Pour des campagnes Google Ads en allemand, notre [SEM multilingue](/fr/services/sem-multilingue/) prend le relais : votre budget média va directement à Google, et notre gestion est facturée séparément.
+L’accompagnement SEO se règle au mois. La rédaction et la traduction allemandes sont chiffrées sur devis, comme un travail à part entière. Le détail figure dans [nos tarifs et modalités](/fr/tarifs/). Pour des campagnes Google Ads en allemand, notre [SEM multilingue](/fr/services/sem-multilingue/) prend le relais : votre budget média va directement à Google, et le pilotage fait l’objet d’honoraires à part.

@@ -23,7 +23,7 @@ Cada mercado tiene su propio presupuesto y sus propios resultados. Ves qué idio
 Construimos y gestionamos estas campañas idioma por idioma, y te rendimos cuentas mercado por mercado.
 
 <aside class="post-cta">
-<p><strong>¿Quieres campañas que traigan consultas en cada uno de tus mercados?</strong> Construimos tus anuncios en el idioma de cada país y seguimos cada mercado con su propio presupuesto y su propio informe. <a href="/es/contactanos/">Reservar una primera conversación</a>.</p>
+<p><strong>¿Quieres campañas que traigan consultas en cada uno de tus mercados?</strong> Construimos tus anuncios en el idioma de cada país y seguimos cada mercado con su propio presupuesto y su propio informe. <a href="/es/contactanos/">Reserva una consulta gratuita</a>.</p>
 </aside>
 
 ## Una inversión en medios que compra anuncios
@@ -32,7 +32,7 @@ Toda tu inversión en medios compra anuncios: va directamente a Google, Microsof
 
 Separar las dos partidas une nuestro interés al resultado de las campañas.
 
-Esto vale para la inversión en medios; la redacción y la traducción se presupuestan como un precio por el trabajo.
+Esta regla se aplica a la inversión en medios; la redacción y la traducción se presupuestan aparte, por el trabajo que suponen.
 
 ## Lo que hacemos en cada mercado
 
@@ -44,7 +44,7 @@ Esto vale para la inversión en medios; la redacción y la traducción se presup
 
 Google Ads lleva el presupuesto por defecto. Microsoft Advertising tiene su lugar ante una audiencia B2B estadounidense que sigue en el ecosistema de Microsoft, Meta cubre el alcance B2C y LinkedIn la segmentación B2B en sectores concretos.
 
-El español, el inglés, el francés y el neerlandés los gestiona directamente nuestro equipo: la investigación de palabras clave, los anuncios y los informes de términos de búsqueda se leen en el propio idioma. El alemán, el italiano, el portugués y los demás idiomas los llevan hablantes nativos del equipo de BeTranslated, con el mismo briefing y la misma revisión que el contenido orgánico.
+El español, el inglés, el francés y el neerlandés los gestiona directamente nuestro equipo: la investigación de palabras clave, los anuncios y los informes de términos de búsqueda se leen en el propio idioma. El alemán, el italiano, el portugués y los demás idiomas los llevan hablantes nativos de la red BeTranslated, con el mismo briefing y la misma revisión que el contenido orgánico.
 
 ## Lo que aportaron unas cuentas separadas por idioma
 
@@ -68,4 +68,4 @@ Lo más habitual es combinar ambos: el pago se queda con las búsquedas de inten
 4. **Gestión.** Lectura periódica de los términos de búsqueda, exclusiones, pruebas de anuncios y ajustes de puja por segmento.
 5. **Informe mensual por mercado.** Gasto, clics, conversiones, coste por consulta y recomendaciones de reparto para el mes siguiente.
 
-Empezamos con una auditoría gratuita de 20 minutos de tus cuentas y recibes después un alcance escrito para el primer trimestre. El trabajo sigue mes a mes, y respondemos a cada solicitud en un día laborable. El precio depende del número de mercados, del presupuesto gestionado y del alcance; [nuestros precios](/es/precios/) detallan cómo facturamos.
+Empezamos con una auditoría gratuita de 20 minutos de tus cuentas y recibes después un alcance escrito para el primer trimestre. El trabajo sigue mes a mes, y respondemos a cada solicitud, por lo general en un día laborable. El precio depende del número de mercados, del presupuesto gestionado y del alcance; [nuestros precios](/es/precios/) detallan cómo facturamos.

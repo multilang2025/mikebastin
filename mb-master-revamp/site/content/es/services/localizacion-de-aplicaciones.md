@@ -17,10 +17,10 @@ excerpt: "Tu app o tu software listos para Francia, Alemania o Benelux: una inte
 
 Vas a lanzar tu app o tu software en Alemania, en los Países Bajos o en Francia. El texto llega más largo en alemán, algunos mercados leen de derecha a izquierda y las reseñas aparecen en idiomas nuevos para tu equipo. Los primeros puntos que arreglar están sobre todo en la interfaz: un botón que desborda, una etiqueta cortada, una fecha leída como el mes equivocado, un código postal local rechazado.
 
-Cada punto resuelto protege tus descargas y tus reseñas en un mercado en el que ya has invertido. Un producto preparado desde el principio recibe cada idioma nuevo como un trabajo de contenido. Uno preparado idioma a idioma reabre el código cada vez, y el segundo idioma acaba costando más que el primero.
+Cada punto resuelto protege tus descargas y tus reseñas en un mercado en el que ya has invertido. Un producto preparado desde el principio recibe cada idioma nuevo como un trabajo de contenido, y cada mercado siguiente cuesta menos que el anterior.
 
 <aside class="post-cta">
-<p><strong>¿Quieres que tu producto funcione en cada idioma en el que lo vendes?</strong> Preparamos el software, adaptamos su contenido y lo probamos en el propio dispositivo, mercado a mercado. <a href="/es/contactanos/">Reservar una primera conversación</a>.</p>
+<p><strong>¿Quieres que tu producto funcione en cada idioma en el que lo vendes?</strong> Preparamos el software, adaptamos su contenido y lo probamos en el propio dispositivo, mercado a mercado. <a href="/es/contactanos/">Reserva una consulta gratuita</a>.</p>
 </aside>
 
 ## Lo que hacemos por tu producto
@@ -56,14 +56,14 @@ Las capturas de pantalla cuentan también. Una ficha que muestra a un visitante 
 
 ## Pruebas en el dispositivo, en el idioma
 
-La mayoría de los defectos de localización están fuera de la traducción: una etiqueta que desborda su botón en alemán, una fecha invertida, un diseño de derecha a izquierda que refleja todo menos un icono. Aparecen en un dispositivo y en ese idioma, y ahí es donde lo comprobamos.
+Muchos defectos de localización están fuera de la traducción: una etiqueta que desborda su botón en alemán, una fecha invertida, un diseño de derecha a izquierda que refleja todo menos un icono. Aparecen en un dispositivo y en ese idioma, y ahí es donde lo comprobamos.
 
 La primera prueba se hace antes de traducir: una pseudolocalización rellena la interfaz con texto ficticio, alargado y acentuado, y muestra de entrada cada etiqueta que desborda. Tras el lanzamiento, cada versión nueva de la app sale en todos sus idiomas: las cadenas nuevas se traducen y se prueban antes de actualizar la tienda.
 
 ## Tus vídeos y contenidos de audio en cada idioma
 
-Subtitulado, locución o transcripción, según lo que necesite cada pieza. Los subtítulos cuestan poco y aportan la mayor parte del valor, también a quien ve el vídeo con el sonido apagado, que es la mayoría. Una transcripción sirve dos veces: hace accesible el contenido y pone en la página palabras que los buscadores y los motores de respuesta pueden leer, de modo que un vídeo pasa a ser texto indexable.
+Subtitulado, locución o transcripción, según lo que necesite cada pieza. Los subtítulos cuestan poco y aportan la mayor parte del valor, también a quien ve el vídeo con el sonido apagado. Una transcripción sirve dos veces: hace accesible el contenido y pone en la página palabras que los buscadores y los motores de respuesta pueden leer, de modo que un vídeo pasa a ser texto indexable.
 
 ## Cómo trabajamos
 
-Empezamos con una primera conversación sobre tu producto, tus mercados y las plataformas en las que sale. Después te enviamos por escrito el alcance del primer trimestre y trabajamos mes a mes. Cada solicitud recibe respuesta, por lo general en un día laborable. La traducción se presupuesta como trabajo, y la página de [precios](/es/precios/) explica cómo lo planteamos.
+Empezamos con una consulta gratuita sobre tu producto, tus mercados y las plataformas en las que sale. Después te enviamos por escrito el alcance del primer trimestre y trabajamos mes a mes. Cada solicitud recibe respuesta, por lo general en un día laborable. La traducción se presupuesta como trabajo, y la página de [precios](/es/precios/) explica cómo lo planteamos.

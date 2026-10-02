@@ -8,5 +8,5 @@ export const contentType = OG_CONTENT_TYPE;
 export const alt = "Carte Mike Bastin : Agence SEO internationale";
 
 export default async function Image() {
-  return renderServiceOgImage({ name: "Agence SEO internationale", angle: "Mike Bastin, depuis Valence" });
+  return renderServiceOgImage({ name: "Agence SEO internationale", angle: "Mike Bastin, depuis Valencia" });
 }

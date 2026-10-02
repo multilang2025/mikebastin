@@ -8,5 +8,5 @@ export const contentType = OG_CONTENT_TYPE;
 export const alt = "Carte Mike Bastin : Notre équipe";
 
 export default async function Image() {
-  return renderServiceOgImage({ name: "Notre équipe", angle: "Mike Bastin, depuis Valence" });
+  return renderServiceOgImage({ name: "Notre équipe", angle: "Mike Bastin, depuis Valencia" });
 }

@@ -15,14 +15,14 @@ excerpt: "Un hablante nativo revisa tus traducciones automáticas: el texto flui
 
 ## Traducciones automáticas fluidas, revisadas para que sean exactas
 
-Tus páginas en español, alemán o neerlandés salieron de la herramienta de traducción con un texto que se lee bien. La frase claramente rota la detecta cualquier lector. La que hay que revisar es la fluida que ha movido el sentido, ha perdido un matiz o ha traducido mal un término técnico. Esa la encuentra quien conoce el tema y la lee con atención.
+Tus páginas en francés, alemán o neerlandés salieron de la herramienta de traducción con un texto que se lee bien. La frase claramente rota la detecta cualquier lector. La que hay que revisar es la fluida que ha movido el sentido, ha perdido un matiz o ha traducido mal un término técnico. Esa la encuentra quien conoce el tema y la lee con atención.
 
 La importancia varía de un texto a otro. En una ficha de producto, una traducción aproximada es una molestia pequeña. En una cláusula de condiciones de venta o en una instrucción médica compromete tu responsabilidad. Y un nombre de producto traducido de una sola manera en toda tu web es el que tus clientes acaban encontrando.
 
 Un hablante nativo revisa el texto de la máquina, y concentramos el esfuerzo donde está el riesgo. Tú recibes páginas que dicen lo que vendes, con la terminología que busca tu cliente.
 
 <aside class="post-cta">
-<p><strong>¿Dicen tus páginas traducidas automáticamente lo que de verdad vendes?</strong> Un hablante nativo revisa el texto para que lo que suena bien también sea exacto. <a href="/es/contactanos/">Reservar una primera conversación</a>.</p>
+<p><strong>¿Dicen tus páginas traducidas automáticamente lo que de verdad vendes?</strong> Un hablante nativo revisa el texto para que lo que suena bien también sea exacto. <a href="/es/contactanos/">Reserva una consulta gratuita</a>.</p>
 </aside>
 
 ## Un esfuerzo proporcional a lo que está en juego
@@ -66,4 +66,4 @@ Todo lo que lee un regulador, un tribunal o un clínico: documentación médica,
 
 ## Cómo trabajamos
 
-Empezamos con una primera conversación sobre tus páginas y tus idiomas; también puedes pedir una auditoría gratuita de 20 minutos. Después recibes por escrito el alcance del primer trimestre, con las páginas que pasan por revisión a fondo y las que van con revisión ligera. La colaboración es mes a mes, y respondemos a cada consulta, normalmente en un día laborable.
+Empezamos con una consulta gratuita sobre tus páginas y tus idiomas; también puedes pedir una auditoría gratuita de 20 minutos. Después recibes por escrito el alcance del primer trimestre, con las páginas que pasan por revisión a fondo y las que van con revisión ligera. La colaboración es mes a mes, y respondemos a cada consulta, normalmente en un día laborable.

@@ -23,7 +23,7 @@ Chaque marché a son propre budget et ses propres résultats. Vous voyez quelle 
 Nous construisons et pilotons ces campagnes langue par langue, et nous vous rendons compte marché par marché.
 
 <aside class="post-cta">
-<p><strong>Vous voulez des campagnes qui rapportent des demandes dans chacun de vos marchés ?</strong> Nous construisons vos annonces dans la langue de chaque pays et suivons chaque marché avec son propre budget et son propre rapport. <a href="/fr/nous-contacter/">Réserver un premier échange</a>.</p>
+<p><strong>Vous voulez des campagnes qui rapportent des demandes dans chacun de vos marchés ?</strong> Nous construisons vos annonces dans la langue de chaque pays et suivons chaque marché avec son propre budget et son propre rapport. <a href="/fr/nous-contacter/">Réserver une consultation gratuite</a>.</p>
 </aside>
 
 ## Un budget média qui va entièrement à vos annonces
@@ -48,7 +48,7 @@ Le français, l’anglais, l’espagnol et le néerlandais sont gérés directem
 
 ## Ce que des comptes séparés par langue ont apporté
 
-Pour un cabinet d’avocats de Valence, des campagnes de recherche ciblées sur des requêtes à intention commerciale, menées dans des comptes séparés par langue pour garder un niveau de qualité propre à chacune, ont produit un flux régulier de demandes qualifiées dans chacune de ses langues, à un coût par demande que la valeur moyenne d’un dossier du cabinet absorbe.
+Pour un cabinet d’avocats de Valencia, des campagnes de recherche ciblées sur des requêtes à intention commerciale, menées dans des comptes séparés par langue pour garder un niveau de qualité propre à chacune, ont produit un flux régulier de demandes qualifiées dans chacune de ses langues, à un coût par demande que la valeur moyenne d’un dossier du cabinet absorbe.
 
 ## Des comptes par marché, et le payant aux côtés de l’organique
 
@@ -56,7 +56,7 @@ Google évalue la pertinence par compte et par campagne : chaque marché réuss
 
 Les termes de recherche sont l’endroit où la langue compte le plus. La liste de mots-clés à exclure se construit en lisant ce que les gens ont réellement tapé, et il faut parler la langue couramment pour distinguer une requête prometteuse d’une requête hors sujet.
 
-Le payant passe en premier quand vous avez besoin de demandes tout de suite, quand l’offre est assez nouvelle pour mériter un signal de demande avant d’investir dans du contenu, ou quand l’organique prendra une bonne partie de l’année à mûrir sur ce marché. L’organique passe en premier quand les clics de votre secteur coûtent plus que ce que le payant peut rapporter, ou quand vos acheteurs se renseignent pendant des mois avant de vous contacter.
+Le payant passe en premier quand vous avez besoin de demandes tout de suite, quand l’offre est assez nouvelle pour qu’il vaille la peine de mesurer la demande avant d’investir dans du contenu, ou quand l’organique prendra une bonne partie de l’année à mûrir sur ce marché. L’organique passe en premier quand les clics de votre secteur coûtent plus que ce que le payant peut rapporter, ou quand vos acheteurs se renseignent pendant des mois avant de vous contacter.
 
 Les deux ensemble restent la réponse la plus courante : le payant prend les requêtes à intention commerciale pendant que le [référencement multilingue](/fr/services/referencement-multilingue/) se construit, puis le budget payant se déplace vers des marchés moins disputés ou des termes hors marque à mesure que l’organique les porte. Les deux partagent un même univers de mots-clés et, quand cela s’y prête, les mêmes pages d’arrivée. Notre [génération de leads](/fr/services/generation-de-leads/) réunit ces deux leviers autour d’un même objectif : des demandes qualifiées, marché par marché.
 
