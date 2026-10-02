@@ -199,7 +199,7 @@ export const SERVICES: Service[] = [
     cluster: "Lead generation",
     pillar: true,
     angle: "Counted in enquiries",
-    lede: "Traffic arrives in French, German and Spanish, and the enquiries still arrive in English. One client's Search Console showed forty thousand impressions in ninety days, and six clicks.",
+    lede: "Traffic arrives in French, German and Spanish, and the enquiries still arrive in English. Our own site showed forty thousand impressions in ninety days and six clicks, until we rebuilt it around enquiries.",
     metaTitle: "B2B lead generation services across every market",
     metaDescription: "Your other markets already send visitors. We turn them into leads worth a sales call, counted per market. Book a free consultation.",
     sections: ["What a report per market shows you", "What we do in each market", "How it is billed", "The evidence", ...ENGAGEMENT.slice(3)],
@@ -381,7 +381,7 @@ export const SERVICES: Service[] = [
       {
         heading: "What goes into the engagement",
         paragraphs: [
-          "A global SEO programme starts with native research in each target language, covering real commercial intent and long-tail phrasing per market. Subdirectory, subdomain or ccTLD gets a reasoned recommendation for your case, with hreflang, sitemaps and Search Console geo-targeting configured per language from the start.",
+          "A global SEO programme starts with native research in each target language, covering real commercial intent and long-tail phrasing per market. Subdirectory, subdomain or ccTLD gets a reasoned recommendation for your case, with hreflang and per-language sitemaps configured from the start.",
           "An international SEO specialist earns the fee on the decisions that are expensive to undo later: the domain structure, the hreflang map and the order the markets go in. Writing runs fluent and direct for French, English, Spanish and Dutch, and through native copywriters from the BeTranslated network for German, Italian, Portuguese and other languages. LocalBusiness, Service, Article and FAQ schema is built per language and validated on Google's Rich Results tool, and the same work extends to how ChatGPT, Claude, Perplexity and AI Overviews answer in each language.",
         ],
       },
@@ -517,7 +517,7 @@ export const SERVICES: Service[] = [
         q: "Which domain shape to use for France",
         a: [
           "A .fr domain reads as French to a French buyer and to Google. A subdirectory under an existing domain is easier to run and inherits the authority already built, so it usually wins for a company adding French to an existing business.",
-          "On a .com or another generic domain, set the geotargeting in Search Console so Google has it stated. Offer visitors the choice of version, and let hreflang carry the relationship: the French speaker abroad and the English speaker in Paris each land where they want, and a crawler sees every version.",
+          "On a .com or another generic domain, a French subdirectory with hreflang pointing at France tells Google who the pages are for. Offer visitors the choice of version, and let hreflang carry the relationship: the French speaker abroad and the English speaker in Paris each land where they want, and a crawler sees every version.",
         ],
       },
       {
@@ -964,7 +964,7 @@ export const SERVICES: Service[] = [
     subhead: "Portugal and Brazil each get their own pages, keywords and native writers, so buyers on both sides of the Atlantic read Portuguese written for them.",
     cluster: "Search",
     angle: "Two markets, one language",
-    lede: "A reader in Lisbon finds Brazilian Portuguese distracting, and a reader in São Paulo finds European Portuguese stiff. Each market gets its own pages and keywords, and Brazil, with roughly 215 million speakers, is the far larger of the two.",
+    lede: "A reader in Lisbon finds Brazilian Portuguese distracting, and a reader in São Paulo finds European Portuguese stiff. Each market gets its own pages and keywords, and Brazil is by far the larger of the two.",
     metaTitle: "Portuguese SEO services, Portugal and Brazil",
     metaDescription: "Portuguese SEO with separate pages, keywords and native writers for Portugal and Brazil, plus the payment and registration details each market expects.",
     sections: ["Three things Portuguese SEO has to get right", ...ENGAGEMENT],
@@ -973,7 +973,7 @@ export const SERVICES: Service[] = [
         heading: "Portugal and Brazil, sized correctly",
         paragraphs: [
           "European Portuguese and Brazilian Portuguese diverge in vocabulary, grammar convention, currency and regulatory framework. Each side notices which variant a page was written in, so one Portuguese site reads Brazilian in Lisbon and European in São Paulo. Hreflang pt-PT and pt-BR kept distinct is the baseline.",
-          "Brazil has roughly 215 million speakers, its own ecommerce platforms and payment methods such as PIX and boleto bancário. European companies often default to Portugal, and Brazil is the far larger market.",
+          "Brazil has over 213 million people (IBGE estimate, 2025), its own ecommerce platforms and payment methods such as PIX and boleto bancário. European companies often default to Portugal, and Brazil is the far larger market.",
           "Portugal expects a NIF or NIPC and GDPR-compliant consent. Brazil expects a CNPJ, LGPD-compliant handling and PIX or boleto as payment options for consumer stores.",
         ],
       },

@@ -44,9 +44,9 @@ Each earns links a Spanish editor chose to give, the kind that keeps its value.
 
 **Niche edits in sector publishers.** Spanish industry blogs covering legal, real estate, logistics, translation and e-commerce accept contextual links when the proposal genuinely helps their readers. We work mostly with editors we have known for years, and a new relationship starts with a useful comment on their existing content, well before any pitch.
 
-**Cámara de Comercio and association listings.** Slow, evergreen, unglamorous. Each provincial Cámara runs its own member directory, and sector associations (AECOC for retail, AERR for real estate, ANETI for the language industry) still pass equity. They reward patient admin work more than outreach skill, which keeps them underused.
+**Cámara de Comercio and association listings.** Slow, evergreen, unglamorous. Each provincial Cámara runs its own member directory, and sector associations (AECOC for retail, ANETI for the language industry) still pass equity. They reward patient admin work more than outreach skill, which keeps them underused.
 
-**Sponsorships and event listings.** Backing or attending a sector fair (DES Madrid, eShow, FITUR for tourism, SIL Barcelona for logistics) earns a mention on the event site, often regional press coverage, sometimes a podcast or interview. Real activity feeds genuine link signals.
+**Sponsorships and event listings.** Backing or attending a sector fair (DES in Málaga, eShow, FITUR for tourism, SIL Barcelona for logistics) earns a mention on the event site, often regional press coverage, sometimes a podcast or interview. Real activity feeds genuine link signals.
 
 | Tactic | Effort | Typical DR range | What you actually get |
 | --- | --- | --- | --- |
