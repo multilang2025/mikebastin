@@ -48,7 +48,7 @@ Una referencia de competencia: «seo portugal» está en dificultad 33 en Ahrefs
 
 ## Quién lee y quién escribe tu portugués
 
-Leemos las dos variantes a un nivel de trabajo, apoyados en el francés nativo y el español de cada día. Basta para auditar una página de resultados, seguir las páginas de un competidor, comprobar la configuración técnica de cada variante y tomar notas en una reunión con el equipo nativo.
+Nuestro portugués basta para gestionar proyectos SEO, apoyado en el francés, el español y el italiano, y un hablante nativo de portugués de nuestro equipo informático interno revisa con nosotros la configuración y los detalles. Con eso auditamos una página de resultados, seguimos las páginas de un competidor, comprobamos la configuración técnica de cada variante y tomamos notas en una reunión con el equipo nativo.
 
 Escriben redactores nativos del mercado elegido, de la red de BeTranslated: un redactor portugués para pt-PT y uno brasileño para pt-BR, cada uno en su variante, con un brief en español o en inglés y un segundo lector nativo por variante. Los enlaces se consiguen en la prensa de cada mercado, a su lado del Atlántico.
 

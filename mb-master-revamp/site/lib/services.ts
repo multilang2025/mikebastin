@@ -245,7 +245,7 @@ export const SERVICES: Service[] = [
         heading: "What changed once native research replaced a translated set",
         paragraphs: [
           "On a Houston freight forwarder's account, separate campaigns by language and transport mode with native LatAm keyword research replacing an initial translated list brought the Spanish campaign's cost per lead in 30 to 40 percent below the English one. Combined with organic search, the daily quote pipeline doubled across eighteen months.",
-          "On a Valencia law firm's account, tightly targeted search campaigns on commercial-intent queries, run through separate accounts per language to keep quality score clean, produced a steady flow of qualified leads in three languages at a cost per lead the firm's average case value could absorb.",
+          "On a Valencia law firm's account, tightly targeted search campaigns on commercial-intent queries, run through separate accounts per language to keep quality score clean, produced a steady flow of qualified leads across its languages at a cost per lead the firm's average case value could absorb.",
         ],
       },
     ],
@@ -390,7 +390,7 @@ export const SERVICES: Service[] = [
         paragraphs: [
           "BeTranslated, the translation agency we have run for twenty years, runs twelve country-specific domains with WPML across all of them, cross-domain hreflang, native content per market from the in-house translator team and schema localized per country. The result has been consistent organic ranking across several European markets and AI citations in each target language for translation services queries.",
           "A Houston freight forwarder targeting English-speaking US shippers and Spanish-speaking Latin American clients runs WordPress and WPML on a single domain with a Spanish subdirectory, distinct keyword research per language and FreightForwarder schema in both. Daily quote requests doubled over eighteen months across both languages.",
-          "A Valencia law firm targeting Spanish, French and English-speaking clients runs WPML across all three, with LegalService schema localized per language and attorney bios adapted to each audience. It now gets recurring leads from three markets on commercial-intent queries such as business law and franchise contracts, in their own languages.",
+          "A Valencia law firm working in Spanish, French, English and Russian runs WPML across all four, with LegalService schema localized per language and attorney bios adapted to each audience. It now gets recurring leads on commercial-intent queries such as business law and franchise contracts, in its clients' own languages.",
         ],
       },
     ],
@@ -1005,7 +1005,7 @@ export const SERVICES: Service[] = [
       {
         q: "Who reads the Portuguese and who writes it",
         a: [
-          "We read both variants at a working level, built on native French and daily Spanish, which is enough to audit a SERP, follow a competitor's pages, check the technical configuration for the variant and take notes in a native team meeting.",
+          "Our Portuguese is enough to manage SEO projects in it, built on French, Spanish and Italian, and a native Portuguese speaker on our in-house IT team checks the setup and the details with us. That covers auditing a SERP, following a competitor's pages, checking the technical configuration for each variant and taking notes in a native team meeting.",
           "Writing is done by native copywriters from the target market: a Portuguese writer for pt-PT and a Brazilian writer for pt-BR, each on their own variant.",
         ],
       },
@@ -1488,7 +1488,7 @@ export const SERVICES: Service[] = [
     cardTitle: "Generative engine optimization for AI answers",
     inline: "generative engine optimization",
     h1: "Generative engine optimization services for AI search",
-    subhead: "Structured for ChatGPT, Perplexity and Google's AI Overviews to cite you, as well as for Google to rank you.",
+    subhead: "A generative engine optimization agency that structures your pages for ChatGPT, Perplexity and Google's AI Overviews to cite, as well as for Google to rank.",
     cluster: "AI",
     pillar: true,
     angle: "Cited inside the answer as well as ranked below it",

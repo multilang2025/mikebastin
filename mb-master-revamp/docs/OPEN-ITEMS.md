@@ -19,7 +19,6 @@ illustrations). No PR is open.
 | Q1 | Houston freight: English only (case study) or English and Spanish (multilingual SEO page)? | `lib/projects.ts` `tx-international-freight`, `/services/multilingual-seo/` |
 | Q2 | Does "daily quote requests doubled over eighteen months" stay? | `/services/multilingual-seo/` |
 | Q3 | Bemelman Spuiterij: Hillegom or Noordwijkerhout? | Case study, `/services/local-seo/`, `/services/dutch-seo/` |
-| Q4 | Valencia law firm: three languages or four (Russian)? | `/services/multilingual-seo/`, its case study |
 | Q5 | Dropped client figures: restore any (BeTranslated 68 %, Delaguía 42/27/34 %, Smartown 19/28 %, the 1,25 % to 11 % outreach test, two Business Profile cases)? | Spanish posts (dropped 30 Sep 2026) |
 | Q6 | Unsplash key pasted in chat: rotated? | Security |
 
@@ -28,10 +27,8 @@ illustrations). No PR is open.
 | ID | Item |
 |---|---|
 | Q7 | One positioning claim per service page that a competitor could not also make |
-| Q8 | "agency" in the generative engine optimization h1 ("generative engine optimisation agency" 1,300 a month, KD 1) |
 | Q9 | GEO blog post and GEO service page target the same term |
 | Q10 | Posts over 2,000 words (search intent, technical audit, future of SEO, SEO in Belgium, in FR and ES): trim? |
-| Q11 | Portuguese page "working level" wording against the vague German and Italian rule |
 | Q12 | Globaprom data-privacy and MT-compliance article (backlog since 6 Sep) |
 
 ### French and Spanish
@@ -75,6 +72,10 @@ illustrations). No PR is open.
 
 | ID | Item | Closed |
 |---|---|---|
+| Q4 | Valencia law firm: three languages or four | Owner, 2 Oct 2026: **four** (ES, FR, EN, RU). The multilingual SEO and SEM lines that said three are corrected |
+| Q8 | "agency" on generative engine optimization | Owner, 2 Oct 2026: "agency is fine". The h2 now opens "A generative engine optimization agency"; the h1 keeps the primary term, "services" |
+| Q11 | Portuguese "working level" wording | Owner, 2 Oct 2026: enough Portuguese to manage SEO projects, built on French, Spanish and Italian, plus a native Portuguese speaker on the in-house IT team. EN, FR and ES pages updated |
+| | Results page showing this site's own rebuild as the result | Owner, 2 Oct 2026: rebuilt around the client Search Console figures in `lib/projects.ts` |
 | | The twelve posts rendering "Uncategorised" | Gone from the journal index (checked 30 Sep 2026) |
 | | Dutch SEO "agency" in the title | The h1 already reads "Dutch SEO and GEO agency" |
 | | Address "12 - 2" | Owner, 30 Sep 2026 |

@@ -377,6 +377,14 @@ is in the rest, which the Master Content Protocol never covered:
   "12 to 2" (the dash rule had rewritten it) and never "12, 2.º".
 - **There is no Madrid law firm** (owner, 27 Sep 2026). The law-firm
   client is the Valencia one; correct any "Madrid law firm" on sight.
+- **The Valencia law firm works in four languages**, Spanish, French,
+  English and Russian (owner, 2 Oct 2026). Never "three languages".
+- **Portuguese is "enough to manage SEO projects"**, built on French,
+  Spanish and Italian, and a native Portuguese speaker sits on the in-house
+  IT team (owner, 2 Oct 2026). Same vague-level rule as German and Italian:
+  never "working level" or a described reading level.
+- **"Agency" is fine everywhere** (owner, 2 Oct 2026), including generative
+  engine optimization.
 - **Experience is "over two decades"** (owner, 27 Sep 2026: "I started in
   1999, but I don't want to show too many years"). Never "25 years" or a
   start year; the homepage counter reads 20+. BeTranslated's own age
@@ -492,9 +500,8 @@ chat history.
     market covered properly rather than several covered thinly".
   - The Bemelman Spuiterij case study says **Noordwijkerhout**;
     `/services/local-seo/` and `/services/dutch-seo/` say **Hillegom**.
-  - The Valencia law firm is **three languages** (ES, FR, EN) on
-    `/services/multilingual-seo/` and **four, including Russian**, on its
-    case study.
+  - The Valencia law firm: **resolved** (owner, 2 Oct 2026), four
+    languages including Russian, and every page now says so.
   The quote-request doubling matters most: it is the one client outcome
   on the site stated as a number, and the page carrying it describes the
   account differently from the account's own case study.
