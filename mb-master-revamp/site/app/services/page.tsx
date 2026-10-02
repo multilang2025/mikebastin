@@ -6,6 +6,9 @@ import SiteFooter from "@/components/SiteFooter";
 import { SERVICES, CLUSTERS, CLUSTER_HEADING } from "@/lib/services";
 import { SITE_URL, breadcrumbSchema } from "@/lib/schema";
 import JsonLd from "@/components/JsonLd";
+import HeroArtSlot from "@/components/HeroArtSlot";
+import DlArt from "@/components/DlArt";
+import { DL_PAGE_ART } from "@/lib/dl-art";
 import { enLanguages } from "@/lib/fr-pages";
 
 const DESCRIPTION =
@@ -13,6 +16,38 @@ const DESCRIPTION =
 const CANONICAL = `${SITE_URL}/services/`;
 
 const HERO_TITLE = "Global SEO services and localization, Mike Bastin";
+
+// Scene illustrations (design/scenes, skill: scene-illustration): one per
+// cluster, so the index reads as five pictures of the work rather than five
+// walls of cards. Transparent WebP, so each sits on either band in either
+// theme. The sentence under each heading says what the group gets you.
+const CLUSTER_SCENE: Record<string, { src: string; alt: string; intro: string }> = {
+  "Lead generation": {
+    src: "/images/scenes/svc-lead-generation.webp",
+    alt: "A dashboard of enquiries by market, with new quote requests arriving from Germany and France",
+    intro: "Enquiries from each market, counted where they happen and handed to your sales team.",
+  },
+  Search: {
+    src: "/images/scenes/svc-search.webp",
+    alt: "The same service page ranking in French, German and Spanish search results, and cited in an AI answer",
+    intro: "Found in the language each buyer searches in, on Google and in AI answers.",
+  },
+  Localization: {
+    src: "/images/scenes/svc-localization.webp",
+    alt: "One product page in Germany and Switzerland with local prices and payment methods, beside a stamped sworn translation",
+    intro: "Sites, prices and documents that read as local in every market you sell to.",
+  },
+  AI: {
+    src: "/images/scenes/svc-ai.webp",
+    alt: "An AI answer citing German and Dutch pages, and a machine translation corrected by a native editor",
+    intro: "AI where it saves time, and a native reader wherever trust is on the line.",
+  },
+  Supporting: {
+    src: "/images/scenes/svc-technical.webp",
+    alt: "A site structure with linked language versions, page speed results and a publishing plan per language",
+    intro: "The structure, speed and content plan that every language version ranks on.",
+  },
+};
 
 export const metadata: Metadata = {
   title: HERO_TITLE,
@@ -41,7 +76,8 @@ export default function ServicesIndex() {
       <JsonLd data={breadcrumbSchema([{ name: "Home", url: `${SITE_URL}/` }, { name: "Services", url: `${SITE_URL}/services/` }])} />
       {/* ============ HERO ============ */}
       <section className="band band-a grain relative overflow-hidden pb-[clamp(56px,8vw,100px)] pt-[clamp(96px,14vw,160px)]">
-        <div className="shell relative">
+        <div className="shell relative grid items-start gap-x-12 lg:grid-cols-[1fr_auto]">
+        <div>
           <Reveal>
             <p className="eyebrow mb-8">Multilingual SEO, localization, paid search and AI</p>
           </Reveal>
@@ -67,6 +103,12 @@ export default function ServicesIndex() {
             </Link>
           </Reveal>
         </div>
+        {/* Heroes carry animated SVG art (owner, 2 Oct 2026); the static scenes
+            sit in the cluster bands below. */}
+        <HeroArtSlot visibleOnMobile={true}>
+          <DlArt name={DL_PAGE_ART.services} />
+        </HeroArtSlot>
+        </div>
       </section>
 
       {/* ============ CLUSTERS ============ */}
@@ -85,10 +127,31 @@ export default function ServicesIndex() {
                     site rather than about the work. The services are listed
                     directly underneath and can be counted by anyone who
                     cares. Owner, 22 Sep 2026. */}
-                <div className="mb-8 border-b pb-4" style={{ borderColor: "var(--rule)" }}>
-                  <h2 className="text-[clamp(1.4rem,2.6vw,2rem)] font-semibold leading-[1.15]">
-                    {CLUSTER_HEADING[cluster] ?? cluster}
-                  </h2>
+                <div
+                  className="mb-10 grid items-center gap-x-12 gap-y-6 border-b pb-8 lg:grid-cols-2"
+                  style={{ borderColor: "var(--rule)" }}
+                >
+                  <div className={ci % 2 === 1 ? "lg:order-2" : ""}>
+                    <h2 className="mb-4 text-[clamp(1.6rem,3vw,2.3rem)] font-semibold leading-[1.12]">
+                      {CLUSTER_HEADING[cluster] ?? cluster}
+                    </h2>
+                    {CLUSTER_SCENE[cluster] && (
+                      <p className="max-w-[44ch] text-[1.08rem] leading-[1.55]" style={{ color: "var(--dim)" }}>
+                        {CLUSTER_SCENE[cluster].intro}
+                      </p>
+                    )}
+                  </div>
+                  {CLUSTER_SCENE[cluster] && (
+                    <img
+                      src={CLUSTER_SCENE[cluster].src}
+                      alt={CLUSTER_SCENE[cluster].alt}
+                      width={872}
+                      height={672}
+                      loading="lazy"
+                      decoding="async"
+                      className="mx-auto w-full max-w-[560px]"
+                    />
+                  )}
                 </div>
               </Reveal>
 

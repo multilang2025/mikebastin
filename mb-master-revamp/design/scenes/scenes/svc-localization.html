@@ -1,0 +1,35 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="size" content="800x600">
+<link rel="stylesheet" href="../kit.css"><style>:root{--w:800px;--h:600px}
+.img{height:120px;background:var(--chip);border-radius:12px;margin:14px 14px 0;display:flex;align-items:center;justify-content:center}
+.price{font:700 28px 'Fraunces';color:var(--ink);margin-top:4px}.pay{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}.pay span{font:600 13px 'Inter';padding:5px 9px;border-radius:6px;border:1px solid var(--rule);color:var(--dim)}
+.name{font:600 18px/1.3 'Inter';margin-top:6px}.mk{font:500 14px 'Inter';color:var(--dim);display:flex;align-items:center;gap:8px}
+</style></head><body>
+<!-- Localization and translation: one product, two markets, each with its own
+     price format and payment methods; a sworn translation, stamped. -->
+<div class="card browser abs" style="left:4px;top:14px;width:300px">
+  <div class="bar"><i></i><i></i><i></i><span class="url">yoursite.com/de/</span></div>
+  <div class="img"><svg width="70" height="70" viewBox="0 0 90 90"><rect x="15" y="25" width="60" height="45" rx="8" fill="var(--deep)" opacity=".85"/><circle cx="45" cy="47" r="12" fill="var(--cream)"/></svg></div>
+  <div class="pad" style="padding-top:14px"><div class="mk"><span class="lang">DE</span>Deutschland</div>
+  <div class="name">Präzisionsmessgerät</div><div class="price">249,00 €</div>
+  <div class="pay"><span>Rechnung</span><span>SEPA</span><span>PayPal</span></div></div>
+</div>
+
+<div class="card browser abs" style="left:250px;top:120px;width:300px">
+  <div class="bar"><i></i><i></i><i></i><span class="url">yoursite.com/fr-ch/</span></div>
+  <div class="img"><svg width="70" height="70" viewBox="0 0 90 90"><rect x="15" y="25" width="60" height="45" rx="8" fill="var(--deep)" opacity=".85"/><circle cx="45" cy="47" r="12" fill="var(--cream)"/></svg></div>
+  <div class="pad" style="padding-top:14px"><div class="mk"><span class="lang">FR</span>Suisse</div>
+  <div class="name">Appareil de mesure de précision</div><div class="price">CHF 239.00</div>
+  <div class="pay"><span>TWINT</span><span>PostFinance</span><span>Facture</span></div></div>
+</div>
+
+<div class="doc abs" style="left:572px;top:40px;width:220px;height:300px;transform:rotate(4deg);padding:24px">
+  <div style="font:700 12px 'Inter';letter-spacing:1px;color:var(--dim)">TRADUCCIÓN JURADA</div>
+  <div class="line ink" style="width:80%;margin-top:16px"></div><div class="line" style="width:95%"></div><div class="line" style="width:88%"></div><div class="line" style="width:60%"></div>
+  <div class="line" style="width:92%;margin-top:18px"></div><div class="line" style="width:70%"></div>
+  <div class="stamp abs" style="right:18px;bottom:20px;width:104px;height:104px;font-size:11px">Sworn translator</div>
+</div>
+
+<div class="pill deep abs" style="left:570px;top:400px">Prices per market</div>
+<div class="pill abs" style="left:590px;top:450px">Local payments</div>
+<div class="pill berry abs" style="left:610px;top:500px">Certified translation</div>
+</body></html>

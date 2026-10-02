@@ -40,9 +40,10 @@ export const DL_SERVICE_ART: Record<"en" | "fr" | "es", Record<string, string>> 
   },
 };
 
-/** Page-level art: contact, how we work, results, the team page. */
+/** Page-level art: contact, how we work, results, the team page, the services index. */
 export const DL_PAGE_ART = {
   contact: "globe",
+  services: "constellation",
   howWeWork: "roundtable",
   results: "clock",
   team: "skyline",

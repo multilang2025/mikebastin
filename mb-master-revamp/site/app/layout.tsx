@@ -5,6 +5,7 @@ import SmoothScroll from "@/components/SmoothScroll";
 import SiteNav from "@/components/SiteNav";
 import { LocaleDataProvider } from "@/components/LocaleData";
 import CookieConsent from "@/components/CookieConsent";
+import Analytics from "@/components/Analytics";
 import BackToTop from "@/components/BackToTop";
 import JsonLd from "@/components/JsonLd";
 import { personSchema, professionalServiceSchema } from "@/lib/schema";
@@ -118,6 +119,7 @@ export default function RootLayout({
           <SiteNav />
           {children}
           <CookieConsent />
+          <Analytics />
           <BackToTop />
         </LocaleDataProvider>
       </body>

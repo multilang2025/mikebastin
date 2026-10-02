@@ -3,11 +3,10 @@ import type { Locale } from "@/lib/posts";
 /**
  * Privacy and cookies page copy, per locale. Owner facts, 2 Oct 2026
  * (docs/OPEN-ITEMS.md Q25): Mike Bastin is a brand of BeTranslated, NIF
- * B40654865, registered at Calle Doctor Ferran, Valencia; hosting is
- * Hostinger; analytics are GA4, Microsoft Clarity and Ahrefs, all held
- * behind the analytics consent category (lib/consent.ts). Still general
- * until the owner supplies them: the street number and postcode of the
- * registered address, the email provider and the retention period.
+ * B40654865, registered at Calle Doctor Ferran 13, 46021 Valencia; hosting
+ * and email are Hostinger; enquiries are kept one year; analytics are GA4,
+ * Microsoft Clarity and Ahrefs, loaded by components/Analytics.tsx only
+ * after consent and only on the production domain.
  */
 export type PrivacySection = {
   h: string;
@@ -47,7 +46,7 @@ const EN: PrivacyCopy = {
     {
       h: "Who we are",
       p: [
-        "Mike Bastin is a multilingual SEO practice and a brand of BeTranslated (NIF B40654865), registered at Calle Doctor Ferran, Valencia, Spain. Our Valencia office is at Calle Rugat 12 - 2, 46021 Valencia. You can reach us at hello@mikebastin.com.",
+        "Mike Bastin is a multilingual SEO practice and a brand of BeTranslated (NIF B40654865), registered at Calle Doctor Ferran 13, 46021 Valencia, Spain. Our Valencia office is at Calle Rugat 12 - 2, 46021 Valencia. You can reach us at hello@mikebastin.com.",
         "We decide how the data described here is used, which makes us the controller under the GDPR.",
       ],
     },
@@ -56,7 +55,7 @@ const EN: PrivacyCopy = {
       p: [
         "When you send the contact form we receive your name, your email address and your message. You may also give a company name, a budget and the service you are interested in.",
         "We use these details to answer your enquiry, and for that purpose alone. The legal basis is your consent, given by ticking the box on the form, and the steps you ask us to take before any agreement.",
-        "Our web host, Hostinger, handles the form and passes it to our mailbox. We keep an enquiry for as long as we are in touch with you about it, and for as long after that as we need to deal with it or to meet a legal duty.",
+        "Hostinger, our web host and email provider, handles the form and delivers it to our mailbox. We keep an enquiry for one year after our last exchange about it, or longer only where a legal duty requires it.",
       ],
     },
     {
@@ -80,7 +79,7 @@ const EN: PrivacyCopy = {
     },
     {
       h: "Who handles the data",
-      p: ["Our web host (Hostinger) and our email provider process the data on our behalf, so that the site and the mailbox work, and so do Google, Microsoft and Ahrefs when you allow analytics. We use your data to answer you and to improve the site, and we do not sell it or pass it on for marketing."],
+      p: ["Hostinger, our web host and email provider, processes the data on our behalf, so that the site and the mailbox work, and so do Google, Microsoft and Ahrefs when you allow analytics. We use your data to answer you and to improve the site, and we do not sell it or pass it on for marketing."],
     },
     {
       h: "Your rights",
@@ -119,7 +118,7 @@ const FR: PrivacyCopy = {
     {
       h: "Qui nous sommes",
       p: [
-        "Mike Bastin est un cabinet de référencement multilingue et une marque de BeTranslated (NIF B40654865), dont le siège est Calle Doctor Ferran, Valencia, Espagne. Notre bureau de Valencia est situé Calle Rugat 12 - 2, 46021 Valencia. Vous pouvez nous écrire à hello@mikebastin.com.",
+        "Mike Bastin est un cabinet de référencement multilingue et une marque de BeTranslated (NIF B40654865), dont le siège est Calle Doctor Ferran 13, 46021 Valencia, Espagne. Notre bureau de Valencia est situé Calle Rugat 12 - 2, 46021 Valencia. Vous pouvez nous écrire à hello@mikebastin.com.",
         "Nous décidons de l’usage des données décrites ici : nous sommes le responsable de traitement au sens du RGPD.",
       ],
     },
@@ -128,7 +127,7 @@ const FR: PrivacyCopy = {
       p: [
         "Lorsque vous envoyez le formulaire de contact, nous recevons votre nom, votre adresse e-mail et votre message. Vous pouvez aussi indiquer le nom de votre entreprise, un budget et le service qui vous intéresse.",
         "Nous utilisons ces informations pour répondre à votre demande, et uniquement pour cela. La base légale est votre consentement, donné en cochant la case du formulaire, ainsi que les démarches que vous nous demandez d’effectuer avant tout contrat.",
-        "Notre hébergeur, Hostinger, traite le formulaire et le transmet à notre messagerie. Nous conservons une demande aussi longtemps que nous restons en contact avec vous à son sujet, puis le temps nécessaire pour la traiter ou pour respecter une obligation légale.",
+        "Hostinger, notre hébergeur et fournisseur de messagerie, traite le formulaire et le transmet à notre boîte de réception. Nous conservons une demande pendant un an après notre dernier échange à son sujet, et plus longtemps uniquement lorsqu’une obligation légale l’exige.",
       ],
     },
     {
@@ -152,7 +151,7 @@ const FR: PrivacyCopy = {
     },
     {
       h: "Qui traite les données",
-      p: ["Notre hébergeur (Hostinger) et notre fournisseur de messagerie traitent les données pour notre compte, afin que le site et la boîte de réception fonctionnent, ainsi que Google, Microsoft et Ahrefs lorsque vous autorisez la mesure d’audience. Nous utilisons vos données pour vous répondre et améliorer le site, et nous ne les vendons ni ne les transmettons à des fins de prospection."],
+      p: ["Hostinger, notre hébergeur et fournisseur de messagerie, traite les données pour notre compte, afin que le site et la boîte de réception fonctionnent, ainsi que Google, Microsoft et Ahrefs lorsque vous autorisez la mesure d’audience. Nous utilisons vos données pour vous répondre et améliorer le site, et nous ne les vendons ni ne les transmettons à des fins de prospection."],
     },
     {
       h: "Vos droits",
@@ -200,7 +199,7 @@ const ES: PrivacyCopy = {
     {
       h: "Quiénes somos",
       p: [
-        "Mike Bastin es una consultoría de posicionamiento multilingüe y una marca de BeTranslated (NIF B40654865), con domicilio social en la calle Doctor Ferran, Valencia, España. Nuestra oficina de Valencia está en Calle Rugat 12 - 2, 46021 Valencia. Puedes escribirnos a hello@mikebastin.com.",
+        "Mike Bastin es una consultoría de posicionamiento multilingüe y una marca de BeTranslated (NIF B40654865), con domicilio social en la calle Doctor Ferran 13, 46021 Valencia, España. Nuestra oficina de Valencia está en Calle Rugat 12 - 2, 46021 Valencia. Puedes escribirnos a hello@mikebastin.com.",
         "Decidimos cómo se usan los datos que se describen aquí, por lo que somos el responsable del tratamiento según el RGPD.",
       ],
     },
@@ -209,7 +208,7 @@ const ES: PrivacyCopy = {
       p: [
         "Cuando envías el formulario de contacto recibimos tu nombre, tu correo electrónico y tu mensaje. También puedes indicar el nombre de tu empresa, un presupuesto y el servicio que te interesa.",
         "Usamos estos datos para responder a tu consulta, y solo para eso. La base legal es tu consentimiento, que das al marcar la casilla del formulario, y las gestiones que nos pides antes de cualquier contrato.",
-        "Nuestro proveedor de alojamiento, Hostinger, gestiona el formulario y lo entrega en nuestro buzón. Guardamos una consulta mientras sigamos en contacto contigo por ese motivo, y el tiempo posterior que necesitemos para resolverla o cumplir una obligación legal.",
+        "Hostinger, nuestro proveedor de alojamiento y de correo, gestiona el formulario y lo entrega en nuestro buzón. Guardamos una consulta durante un año desde nuestro último intercambio sobre ella, y más tiempo solo cuando lo exija una obligación legal.",
       ],
     },
     {
@@ -233,7 +232,7 @@ const ES: PrivacyCopy = {
     },
     {
       h: "Quién trata los datos",
-      p: ["Nuestro proveedor de alojamiento (Hostinger) y nuestro proveedor de correo tratan los datos por cuenta nuestra, para que funcionen el sitio y el buzón, igual que Google, Microsoft y Ahrefs cuando permites la analítica. Usamos tus datos para responderte y mejorar el sitio, y ni los vendemos ni los cedemos con fines de marketing."],
+      p: ["Hostinger, nuestro proveedor de alojamiento y de correo, trata los datos por cuenta nuestra, para que funcionen el sitio y el buzón, igual que Google, Microsoft y Ahrefs cuando permites la analítica. Usamos tus datos para responderte y mejorar el sitio, y ni los vendemos ni los cedemos con fines de marketing."],
     },
     {
       h: "Tus derechos",

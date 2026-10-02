@@ -1,0 +1,92 @@
+/* Scene kit for mikebastin.com illustrations (skill: scene-illustration).
+   Every colour here is a token value from site/app/globals.css: no other hex.
+   Scenes have a transparent background and are built from self-contained
+   cards, so one image reads on the cream band and the navy band alike. */
+
+@font-face { font-family: "Fraunces"; src: url("../../site/app/fonts/fraunces.woff2") format("woff2"); font-weight: 100 900; }
+@font-face { font-family: "Inter"; src: url("../../site/app/fonts/inter.woff2") format("woff2"); font-weight: 100 900; }
+
+:root {
+  --cream: #F5F0E4;   /* --bg, light */
+  --navy: #0A1B28;    /* --bg, dark */
+  --ink: #0F2837;     /* --ink, light */
+  --dim: #58707F;     /* --dim, light */
+  --mist: #AFC0CC;    /* --dim, dark */
+  --berry: #C42640;   /* --berry, light */
+  --coral: #F2556A;   /* --berry, dark */
+  --deep: #1C6580;    /* --deep, light */
+  --rule: rgb(15 40 55 / .16);
+  --chip: rgb(15 40 55 / .055);
+  --soft: rgb(196 38 64 / .10);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+/* A 36px margin all round, so card shadows fade out inside the image instead
+   of being cut at its edge. Scenes lay out in the inner --w by --h box. */
+html { width: calc(var(--w, 800px) + 72px); height: calc(var(--h, 600px) + 72px); overflow: hidden; background: transparent; }
+body { position: absolute; left: 36px; top: 36px; width: var(--w, 800px); height: var(--h, 600px); overflow: visible; background: transparent; font-family: "Inter", sans-serif; color: var(--ink); -webkit-font-smoothing: antialiased; }
+.abs { position: absolute; }
+.serif { font-family: "Fraunces", serif; }
+
+/* Surfaces */
+.card { background: var(--cream); border: 1px solid var(--rule); border-radius: 16px; box-shadow: 0 22px 50px rgb(10 27 40 / .22), 0 2px 6px rgb(10 27 40 / .08); }
+.card.deep { background: var(--deep); color: var(--cream); border-color: rgb(245 239 226 / .18); }
+.card.navy { background: var(--ink); color: var(--cream); border-color: rgb(245 239 226 / .16); }
+.pad { padding: 22px 24px; }
+
+/* Browser and phone frames */
+.browser { overflow: hidden; }
+.browser .bar { height: 38px; display: flex; align-items: center; gap: 7px; padding: 0 14px; border-bottom: 1px solid var(--rule); background: var(--chip); }
+.browser .bar i { width: 11px; height: 11px; border-radius: 50%; background: var(--rule); }
+.browser .bar i:first-child { background: var(--berry); opacity: .75; }
+.browser .url { margin-left: 14px; height: 22px; padding: 0 12px; border-radius: 6px; background: var(--cream); border: 1px solid var(--rule); font: 500 12px/20px "Inter"; color: var(--dim); }
+.phone { border-radius: 36px; background: var(--ink); padding: 10px; box-shadow: 0 26px 60px rgb(10 27 40 / .3); }
+.phone .screen { border-radius: 28px; background: var(--cream); overflow: hidden; height: 100%; }
+
+/* Text skeletons, for content that should read as "a page" without words */
+.line { height: 10px; border-radius: 6px; background: var(--rule); margin: 9px 0; }
+.line.ink { background: rgb(15 40 55 / .55); height: 14px; }
+.line.berry { background: var(--berry); opacity: .85; }
+.card.deep .line, .card.navy .line { background: rgb(245 239 226 / .28); }
+
+/* Pills, labels, badges */
+.pill { display: inline-flex; align-items: center; gap: 8px; height: 34px; padding: 0 16px; border-radius: 999px; font: 600 15px/1 "Inter"; background: var(--cream); border: 1px solid var(--rule); color: var(--ink); box-shadow: 0 8px 20px rgb(10 27 40 / .14); }
+.pill.berry { background: var(--berry); color: var(--cream); border-color: transparent; }
+.pill.deep { background: var(--deep); color: var(--cream); border-color: transparent; }
+.lang { display: inline-flex; align-items: center; justify-content: center; min-width: 34px; height: 24px; padding: 0 8px; border-radius: 6px; font: 700 12px/1 "Inter"; letter-spacing: .6px; background: var(--soft); color: var(--berry); }
+.rank { width: 34px; height: 34px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; background: var(--berry); color: var(--cream); font: 700 15px/1 "Inter"; box-shadow: 0 6px 14px rgb(196 38 64 / .35); }
+.dot { width: 10px; height: 10px; border-radius: 50%; background: var(--berry); display: inline-block; }
+.dot.ok { background: var(--deep); }
+
+/* A search result */
+.serp .u { font: 500 14px "Inter"; color: var(--dim); display: flex; align-items: center; gap: 8px; }
+.serp .t { font: 600 20px/1.25 "Inter"; color: var(--deep); margin: 6px 0 6px; }
+.serp .s { font: 400 15px/1.45 "Inter"; color: var(--dim); }
+
+/* A toast notification */
+.toast { display: flex; align-items: center; gap: 12px; padding: 14px 18px; }
+.toast b { font: 600 16px "Inter"; }
+.toast small { display: block; font: 400 14px "Inter"; color: var(--dim); margin-top: 2px; }
+
+/* Horizontal bars, one per market */
+.bars .row { display: grid; grid-template-columns: 116px 1fr; align-items: center; gap: 12px; margin: 12px 0; font: 500 15px "Inter"; color: var(--ink); }
+.bars .track { height: 14px; border-radius: 8px; background: var(--chip); overflow: hidden; }
+.bars .fill { height: 100%; border-radius: 8px; background: var(--deep); }
+.bars .fill.berry { background: var(--berry); }
+
+/* Card headings */
+.h { font: 600 15px "Inter"; letter-spacing: .2px; color: var(--dim); text-transform: none; }
+.h.serif { font: 600 22px/1.2 "Fraunces"; color: var(--ink); }
+
+/* A stamped document */
+.doc { background: var(--cream); border: 1px solid var(--rule); border-radius: 6px; box-shadow: 0 22px 50px rgb(10 27 40 / .22); padding: 30px 30px; }
+.stamp { width: 120px; height: 120px; border-radius: 50%; border: 3px solid var(--berry); color: var(--berry); display: flex; align-items: center; justify-content: center; text-align: center; font: 700 12px/1.25 "Inter"; letter-spacing: .8px; text-transform: uppercase; transform: rotate(-14deg); opacity: .9; outline: 2px solid var(--berry); outline-offset: -10px; padding: 18px; }
+
+/* Strike and correction, for post-editing */
+.strike { text-decoration: line-through; text-decoration-color: var(--berry); text-decoration-thickness: 2px; color: var(--dim); }
+.fix { background: var(--soft); color: var(--ink); border-radius: 4px; padding: 1px 4px; }
+
+/* Connectors drawn in SVG use these */
+svg .link { fill: none; stroke: var(--berry); stroke-width: 2.5; stroke-dasharray: 6 7; stroke-linecap: round; }
+svg .link.deep { stroke: var(--deep); }
+svg .solid { fill: none; stroke: var(--deep); stroke-width: 2.5; }

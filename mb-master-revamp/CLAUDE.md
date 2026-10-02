@@ -384,10 +384,12 @@ is in the rest, which the Master Content Protocol never covered:
   Italian and Portuguese vague ("enough to manage SEO projects") and native
   writers still do commercial copy in German, Italian and Portuguese.
 - **The legal entity is BeTranslated** (NIF B40654865), registered at Calle
-  Doctor Ferran, Valencia (owner, 2 Oct 2026). Mike Bastin, ValenciaMove,
+  Doctor Ferran 13, 46021 Valencia (owner, 2 Oct 2026). Mike Bastin, ValenciaMove,
   Globaprom, Matosurf and the BeTranslated sites are all its brands. Calle
-  Rugat 12 - 2 is the Valencia office the site shows. Hosting is Hostinger;
-  analytics are GA4, Microsoft Clarity and Ahrefs, loaded only after consent.
+  Rugat 12 - 2 is the Valencia office the site shows. Hosting and email are
+  Hostinger; enquiries are kept one year; analytics are GA4, Microsoft Clarity
+  and Ahrefs (`components/Analytics.tsx`), loaded only after consent and only
+  on the production domain.
 - **TX International Freight is English only** (owner, 2 Oct 2026): one
   market, Houston. Never "English and Spanish" or a Spanish campaign.
 - **Bemelman Spuiterij is in Noordwijkerhout** (owner, 2 Oct 2026), in the
