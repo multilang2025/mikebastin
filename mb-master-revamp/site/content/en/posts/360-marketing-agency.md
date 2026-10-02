@@ -75,7 +75,7 @@ A joined-up agency answers all three on the spot, from one shared plan.
 
 ## A real example: a Houston freight client
 
-Our freight forwarding client in Houston runs in two languages, three buyer types (importers, exporters, freight forwarders), and across LinkedIn, organic search, Google Ads, and trade events.
+Our freight forwarding client in Houston works in English across three buyer types (importers, exporters, freight forwarders), and across LinkedIn, organic search, Google Ads, and trade events.
 
 For the six months before we came in, those had run as four separate engagements: four invoices, four sets of KPIs and four audience definitions, each reported on its own.
 

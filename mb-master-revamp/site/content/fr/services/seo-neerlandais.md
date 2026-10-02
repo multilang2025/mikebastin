@@ -44,7 +44,7 @@ Viennent ensuite les éléments qui font qu’un acheteur néerlandais ou belge 
 
 ## Des sites néerlandophones que nous menons
 
-Bemelman Spuiterij est un spécialiste du thermolaquage installé dans la Bollenstreek, fort de quarante-cinq ans de réputation. Son site est entièrement rédigé en néerlandais, avec une page par service et un formulaire de devis qui demande le type de projet et la surface à traiter : les demandes arrivent prêtes à chiffrer. Entre mai et juillet 2026, il a reçu 1 436 clics pour 108 568 impressions Google.
+Bemelman Spuiterij est un spécialiste du thermolaquage installé à Noordwijkerhout, dans la Bollenstreek, fort de quarante-cinq ans de réputation. Son site est entièrement rédigé en néerlandais, avec une page par service et un formulaire de devis qui demande le type de projet et la surface à traiter : les demandes arrivent prêtes à chiffrer. Entre mai et juillet 2026, il a reçu 1 436 clics pour 108 568 impressions Google.
 
 > Source : Google Search Console de bemelmanspuiterij.nl, mai à juillet 2026.
 

@@ -77,7 +77,7 @@ No design before SEO scope and multilingual architecture are validated together 
 
 Three projects where multilingual + SEO + design were planned together from the brief.
 
-**Context:** ISO 9001-certified paint shop in Hillegom, Bollenstreek region (Zuid-Holland). Mixed B2C (car bodywork, kitchens, garden furniture, wheels) and B2B (industrial powder coating, cabinets, fencing). Dutch-only market.
+**Context:** ISO 9001-certified paint shop in Noordwijkerhout, Bollenstreek region (Zuid-Holland). Mixed B2C (car bodywork, kitchens, garden furniture, wheels) and B2B (industrial powder coating, cabinets, fencing). Dutch-only market.
 
 **Build:** WordPress + Divi, single language NL with structured pages per service, LocalBusiness schema with full NAP, Google Business Profile integration, lead form with mandatory project type and surface area to qualify quote requests.
 

@@ -377,6 +377,10 @@ is in the rest, which the Master Content Protocol never covered:
   "12 to 2" (the dash rule had rewritten it) and never "12, 2.º".
 - **There is no Madrid law firm** (owner, 27 Sep 2026). The law-firm
   client is the Valencia one; correct any "Madrid law firm" on sight.
+- **TX International Freight is English only** (owner, 2 Oct 2026): one
+  market, Houston. Never "English and Spanish" or a Spanish campaign.
+- **Bemelman Spuiterij is in Noordwijkerhout** (owner, 2 Oct 2026), in the
+  Bollenstreek. Never Hillegom.
 - **The Valencia law firm works in four languages**, Spanish, French,
   English and Russian (owner, 2 Oct 2026). Never "three languages".
 - **Portuguese is "enough to manage SEO projects"**, built on French,
@@ -487,24 +491,13 @@ chat history.
   competitor could not also make has to be a real decision about how the
   business runs, like the media-spend one on `multilingual-sem`. Asking
   the owner is the only honest route.
-- **The Unsplash key pasted in chat has not been rotated.** Erasing a
-  message is not rotation.
-- **Three published claims contradict each other** (found 23 Sep 2026,
-  while choosing proof for `/services/lead-generation/`). Owner's facts, so
-  recorded rather than resolved, and none of the three was repeated on the
-  new page:
-  - `/services/multilingual-seo/` calls the Houston freight forwarder
-    **English and Spanish** on one domain and says **daily quote requests
-    doubled over eighteen months**. Its case study, `lib/projects.ts`
-    `tx-international-freight`, says **"EN, single market"** and "a single
-    market covered properly rather than several covered thinly".
-  - The Bemelman Spuiterij case study says **Noordwijkerhout**;
-    `/services/local-seo/` and `/services/dutch-seo/` say **Hillegom**.
-  - The Valencia law firm: **resolved** (owner, 2 Oct 2026), four
-    languages including Russian, and every page now says so.
-  The quote-request doubling matters most: it is the one client outcome
-  on the site stated as a number, and the page carrying it describes the
-  account differently from the account's own case study.
+- **The Unsplash key pasted in chat**: rotated (owner, 2 Oct 2026).
+- **Three published claims contradicted each other** (found 23 Sep 2026),
+  all now resolved by the owner (2 Oct 2026): Houston freight is English
+  only, so the multilingual SEO and SEM lines claiming Spanish are gone;
+  Bemelman Spuiterij is in Noordwijkerhout; the Valencia law firm works in
+  four languages. Still open: whether "daily quote requests doubled over
+  eighteen months" can be backed as an English-only result (Q2).
 
 ## Agent roster
 

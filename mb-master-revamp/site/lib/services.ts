@@ -242,9 +242,8 @@ export const SERVICES: Service[] = [
         ],
       },
       {
-        heading: "What changed once native research replaced a translated set",
+        heading: "What an account run per language delivered",
         paragraphs: [
-          "On a Houston freight forwarder's account, separate campaigns by language and transport mode with native LatAm keyword research replacing an initial translated list brought the Spanish campaign's cost per lead in 30 to 40 percent below the English one. Combined with organic search, the daily quote pipeline doubled across eighteen months.",
           "On a Valencia law firm's account, tightly targeted search campaigns on commercial-intent queries, run through separate accounts per language to keep quality score clean, produced a steady flow of qualified leads across its languages at a cost per lead the firm's average case value could absorb.",
         ],
       },
@@ -389,7 +388,7 @@ export const SERVICES: Service[] = [
         heading: "Three cases where the multilingual scope was the whole challenge",
         paragraphs: [
           "BeTranslated, the translation agency we have run for twenty years, runs twelve country-specific domains with WPML across all of them, cross-domain hreflang, native content per market from the in-house translator team and schema localized per country. The result has been consistent organic ranking across several European markets and AI citations in each target language for translation services queries.",
-          "A Houston freight forwarder targeting English-speaking US shippers and Spanish-speaking Latin American clients runs WordPress and WPML on a single domain with a Spanish subdirectory, distinct keyword research per language and FreightForwarder schema in both. Daily quote requests doubled over eighteen months across both languages.",
+          "Century 21 Perdomo sells Dominican real estate in English, French, Spanish and German on a headless WordPress, WPML and WooCommerce build, with every locale researched from its own market's searches. Between May and July 2026 it drew 9,944 clicks from 461,231 Google impressions.",
           "A Valencia law firm working in Spanish, French, English and Russian runs WPML across all four, with LegalService schema localized per language and attorney bios adapted to each audience. It now gets recurring leads on commercial-intent queries such as business law and franchise contracts, in its clients' own languages.",
         ],
       },
@@ -837,7 +836,7 @@ export const SERVICES: Service[] = [
       {
         heading: "Dutch and Belgian sites we run and work on",
         paragraphs: [
-          "Bemelman Spuiterij is a powder-coating specialist in the Bollenstreek with forty-five years of reputation. Its site is written entirely in Dutch, with a page per service and a quote form that asks for the project type and the surface area, so requests arrive ready to price. Between May and July 2026 it drew 1,436 clicks from 108,568 Google impressions.",
+          "Bemelman Spuiterij is a powder-coating specialist in Noordwijkerhout, in the Bollenstreek, with forty-five years of reputation. Its site is written entirely in Dutch, with a page per service and a quote form that asks for the project type and the surface area, so requests arrive ready to price. Between May and July 2026 it drew 1,436 clicks from 108,568 Google impressions.",
           "BeTranslated, the translation agency we have run for twenty years, has its own .be and .nl sites, each researched for its own market.",
         ],
       },
@@ -1074,7 +1073,7 @@ export const SERVICES: Service[] = [
       {
         heading: "Local SEO we run on our own properties and for clients",
         paragraphs: [
-          "Bemelman Spuiterij is a powder-coating specialist in the Bollenstreek with forty-five years of reputation and, before we started, a web presence still to build. We built Dutch local SEO around the small number of trade buyers who search for that work, and the site drew 1,436 clicks from 108,568 Google impressions between May and July 2026.",
+          "Bemelman Spuiterij is a powder-coating specialist in Noordwijkerhout, in the Bollenstreek, with forty-five years of reputation and, before we started, a web presence still to build. We built Dutch local SEO around the small number of trade buyers who search for that work, and the site drew 1,436 clicks from 108,568 Google impressions between May and July 2026.",
           "ValenciaMove is our own relocation site for Valencia, built around neighbourhood guides in five languages. Over the same three months it drew 5,685 clicks from 496,316 impressions at an average position of 10.7.",
         ],
       },

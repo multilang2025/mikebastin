@@ -16,11 +16,8 @@ illustrations). No PR is open.
 
 | ID | Item | Where it shows |
 |---|---|---|
-| Q1 | Houston freight: English only (case study) or English and Spanish (multilingual SEO page)? | `lib/projects.ts` `tx-international-freight`, `/services/multilingual-seo/` |
-| Q2 | Does "daily quote requests doubled over eighteen months" stay? | `/services/multilingual-seo/` |
-| Q3 | Bemelman Spuiterij: Hillegom or Noordwijkerhout? | Case study, `/services/local-seo/`, `/services/dutch-seo/` |
+| Q2 | Houston freight: can "daily quote requests doubled over eighteen months" be backed as an English-only result? Removed from multilingual SEO and SEM on 2 Oct 2026 with Q1; it would be the only client outcome on the site stated as a number | `lib/projects.ts` `tx-international-freight` |
 | Q5 | Dropped client figures: restore any (BeTranslated 68 %, Delaguía 42/27/34 %, Smartown 19/28 %, the 1,25 % to 11 % outreach test, two Business Profile cases)? | Spanish posts (dropped 30 Sep 2026) |
-| Q6 | Unsplash key pasted in chat: rotated? | Security |
 
 ### Positioning and copy
 
@@ -50,7 +47,6 @@ illustrations). No PR is open.
 | Q20 | Approve and lock EN (the gate for treating English edits as costly) |
 | Q21 | X handle and the three featured post URLs |
 | Q22 | Credibility strip numbers |
-| Q23 | matosurf.com as an eighth portfolio spread |
 | Q24 | Illustrations: homepage, and the Spain map on the Spanish SEO page |
 | Q25 | Privacy and cookies pages (draft, `docs/CONSENT.md`): the legal entity and tax ID, how long enquiries are kept, the hosting and email providers, and which analytics tool you plan to add |
 
@@ -72,6 +68,10 @@ illustrations). No PR is open.
 
 | ID | Item | Closed |
 |---|---|---|
+| Q1 | Houston freight: English only, or English and Spanish | Owner, 2 Oct 2026: **English only**. The multilingual SEO case and the SEM Spanish-campaign paragraph are gone (the SEO case is now Century 21 Perdomo, from `lib/projects.ts`); the 360 agency post no longer says two languages |
+| Q3 | Bemelman Spuiterij: Hillegom or Noordwijkerhout | Owner, 2 Oct 2026: **Noordwijkerhout**, now named in EN, FR and ES |
+| Q6 | Unsplash key pasted in chat | Owner, 2 Oct 2026: rotated |
+| Q23 | matosurf.com as an eighth portfolio spread | Already yes (HANDOFF.md, spread VIII); live in `lib/projects.ts` |
 | Q4 | Valencia law firm: three languages or four | Owner, 2 Oct 2026: **four** (ES, FR, EN, RU). The multilingual SEO and SEM lines that said three are corrected |
 | Q8 | "agency" on generative engine optimization | Owner, 2 Oct 2026: "agency is fine". The h2 now opens "A generative engine optimization agency"; the h1 keeps the primary term, "services" |
 | Q11 | Portuguese "working level" wording | Owner, 2 Oct 2026: enough Portuguese to manage SEO projects, built on French, Spanish and Italian, plus a native Portuguese speaker on the in-house IT team. EN, FR and ES pages updated |
