@@ -144,7 +144,7 @@ const FR: PrivacyCopy = {
     },
     {
       h: "Mesure d’audience et contenus intégrés",
-      p: ["Pour comprendre comment le site est consulté, nous utilisons Google Analytics 4 (Google), Microsoft Clarity (Microsoft), qui enregistre le défilement et les clics sur les pages, et Ahrefs Web Analytics (Ahrefs). Ces trois outils restent désactivés tant que vous n’autorisez pas la mesure d’audience dans les réglages des cookies, et vous pouvez retirer cette autorisation à tout moment. Nous n’utilisons aucun cookie publicitaire. Les contenus intégrés d’autres sites suivent la même règle."],
+      p: ["Pour comprendre comment le site est consulté, nous utilisons Google Analytics 4 (Google), Microsoft Clarity (Microsoft), qui enregistre le défilement et les clics sur les pages, et Ahrefs Web Analytics (Ahrefs). Ces trois outils restent désactivés tant que vous n’autorisez pas la mesure d’audience dans les réglages des cookies, et vous pouvez retirer cette autorisation à tout moment. Nous n’utilisons aucun cookie publicitaire. Les contenus intégrés d’autres sites suivent ce principe."],
     },
     {
       h: "Les autres sites",
@@ -152,7 +152,7 @@ const FR: PrivacyCopy = {
     },
     {
       h: "Qui traite les données",
-      p: ["Notre hébergeur (Hostinger) et notre fournisseur de messagerie traitent les données pour notre compte, afin que le site et la boîte de réception fonctionnent, de même que Google, Microsoft et Ahrefs lorsque vous autorisez la mesure d’audience. Nous utilisons vos données pour vous répondre et améliorer le site, et nous ne les vendons ni ne les transmettons à des fins de prospection."],
+      p: ["Notre hébergeur (Hostinger) et notre fournisseur de messagerie traitent les données pour notre compte, afin que le site et la boîte de réception fonctionnent, ainsi que Google, Microsoft et Ahrefs lorsque vous autorisez la mesure d’audience. Nous utilisons vos données pour vous répondre et améliorer le site, et nous ne les vendons ni ne les transmettons à des fins de prospection."],
     },
     {
       h: "Vos droits",
