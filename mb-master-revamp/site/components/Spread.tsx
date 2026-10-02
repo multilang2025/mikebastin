@@ -74,7 +74,7 @@ export default function Spread({ d, flip }: { d: Project; flip: boolean }) {
           {d.shot ? (
             <motion.img
               src={d.shot}
-              alt={`The ${d.name} homepage`}
+              alt={`The ${d.name} website on desktop and mobile`}
               loading="lazy"
               decoding="async"
               style={{ scale }}

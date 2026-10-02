@@ -47,8 +47,7 @@ illustrations). No PR is open.
 | Q20 | Approve and lock EN (the gate for treating English edits as costly) |
 | Q21 | X handle confirmed as x.com/mikebastin (owner, 2 Oct 2026); still needed: the three featured post URLs for the Dispatches section |
 | Q22 | Credibility strip: languages answered (owner, 2 Oct 2026: 5+3, see CLAUDE.md); still to confirm "12 domains run" against the six BeTranslated domains in `lib/projects.ts` |
-| Q24 | Illustrations: homepage, and the Spain map on the Spanish SEO page |
-| Q25 | Privacy and cookies pages (draft, `docs/CONSENT.md`): the legal entity and tax ID, how long enquiries are kept, the hosting and email providers, and which analytics tool you plan to add |
+| Q25 | Privacy pages: entity (BeTranslated, NIF B40654865), registered address (Calle Doctor Ferran, Valencia), host (Hostinger) and analytics (GA4, Clarity, Ahrefs) added 2 Oct 2026. Still needed: the street number and postcode of the registered address, the email provider, how long enquiries are kept, and the GA4, Clarity and Ahrefs IDs to install behind the consent banner |
 
 ## Mine to do (no owner decision needed)
 
@@ -68,6 +67,7 @@ illustrations). No PR is open.
 
 | ID | Item | Closed |
 |---|---|---|
+| Q24 | Illustrations: the homepage market map and the Spain map on the Spanish SEO page | Owner, 2 Oct 2026: both approved |
 | Q1 | Houston freight: English only, or English and Spanish | Owner, 2 Oct 2026: **English only**. The multilingual SEO case and the SEM Spanish-campaign paragraph are gone (the SEO case is now Century 21 Perdomo, from `lib/projects.ts`); the 360 agency post no longer says two languages |
 | Q3 | Bemelman Spuiterij: Hillegom or Noordwijkerhout | Owner, 2 Oct 2026: **Noordwijkerhout**, now named in EN, FR and ES |
 | Q6 | Unsplash key pasted in chat | Owner, 2 Oct 2026: rotated |

@@ -133,7 +133,7 @@ export default async function ProjectPage({
             <Reveal>
               <img
                 src={project.shot}
-                alt={`The ${project.name} homepage`}
+                alt={`The ${project.name} website on desktop and mobile`}
                 loading="lazy"
                 decoding="async"
                 className="w-full rounded-[4px] border"

@@ -1,12 +1,13 @@
 import type { Locale } from "@/lib/posts";
 
 /**
- * Privacy and cookies page copy, per locale. A draft for the owner's
- * review (docs/OPEN-ITEMS.md Q25): it says only what the site does today,
- * from the repo (the contact form in public/contact.php, the two items
- * kept in the browser, no analytics or embeds). The legal entity, the
- * retention period and the hosting provider are not in the repo and are
- * left general until the owner supplies them.
+ * Privacy and cookies page copy, per locale. Owner facts, 2 Oct 2026
+ * (docs/OPEN-ITEMS.md Q25): Mike Bastin is a brand of BeTranslated, NIF
+ * B40654865, registered at Calle Doctor Ferran, Valencia; hosting is
+ * Hostinger; analytics are GA4, Microsoft Clarity and Ahrefs, all held
+ * behind the analytics consent category (lib/consent.ts). Still general
+ * until the owner supplies them: the street number and postcode of the
+ * registered address, the email provider and the retention period.
  */
 export type PrivacySection = {
   h: string;
@@ -38,7 +39,7 @@ const EN: PrivacyCopy = {
   metaDescription: "What this site collects, why, and the choices you have: the contact form, the two items kept in your browser, and your rights under the GDPR.",
   eyebrow: "What we collect and why",
   subhead: "What this site collects, why, and the choices you have.",
-  intro: "We keep the data this site handles to a minimum: what you send us in the contact form, and a small record of your choices in your browser.",
+  intro: "We keep the data this site handles to a minimum: what you send us in the contact form, a small record of your choices in your browser and, only if you allow it, how pages on the site are used.",
   home: "Home",
   homeHref: "/",
   settingsButton: "Open cookie settings",
@@ -46,7 +47,7 @@ const EN: PrivacyCopy = {
     {
       h: "Who we are",
       p: [
-        "Mike Bastin is a multilingual SEO practice based at Calle Rugat 12 - 2, 46021 Valencia, Spain. You can reach us at hello@mikebastin.com.",
+        "Mike Bastin is a multilingual SEO practice and a brand of BeTranslated (NIF B40654865), registered at Calle Doctor Ferran, Valencia, Spain. Our Valencia office is at Calle Rugat 12 - 2, 46021 Valencia. You can reach us at hello@mikebastin.com.",
         "We decide how the data described here is used, which makes us the controller under the GDPR.",
       ],
     },
@@ -55,7 +56,7 @@ const EN: PrivacyCopy = {
       p: [
         "When you send the contact form we receive your name, your email address and your message. You may also give a company name, a budget and the service you are interested in.",
         "We use these details to answer your enquiry, and for that purpose alone. The legal basis is your consent, given by ticking the box on the form, and the steps you ask us to take before any agreement.",
-        "Our web host handles the form and passes it to our mailbox. We keep an enquiry for as long as we are in touch with you about it, and for as long after that as we need to deal with it or to meet a legal duty.",
+        "Our web host, Hostinger, handles the form and passes it to our mailbox. We keep an enquiry for as long as we are in touch with you about it, and for as long after that as we need to deal with it or to meet a legal duty.",
       ],
     },
     {
@@ -71,7 +72,7 @@ const EN: PrivacyCopy = {
     },
     {
       h: "Analytics and embedded content",
-      p: ["We use no analytics, advertising or tracking cookies today. If we add any, or content embedded from other sites, it stays off until you allow it in the cookie settings, and you can withdraw that at any time."],
+      p: ["To see how visitors use the site, we use Google Analytics 4 (Google), Microsoft Clarity (Microsoft), which records how pages are scrolled and clicked, and Ahrefs Web Analytics (Ahrefs). All three stay off until you allow analytics in the cookie settings, and you can withdraw that at any time. We use no advertising cookies. Content embedded from other sites follows the same rule."],
     },
     {
       h: "Other sites",
@@ -79,7 +80,7 @@ const EN: PrivacyCopy = {
     },
     {
       h: "Who handles the data",
-      p: ["Our web host and our email provider process the data on our behalf, so that the site and the mailbox work. We use your data to answer you, and we do not sell it or pass it on for marketing."],
+      p: ["Our web host (Hostinger) and our email provider process the data on our behalf, so that the site and the mailbox work, and so do Google, Microsoft and Ahrefs when you allow analytics. We use your data to answer you and to improve the site, and we do not sell it or pass it on for marketing."],
     },
     {
       h: "Your rights",
@@ -100,7 +101,7 @@ const EN: PrivacyCopy = {
       ],
     },
     { h: "Change your cookie choices", p: ["Open the cookie settings to allow or withdraw analytics and embedded content whenever you like."], settings: true },
-    { h: "Updates", p: ["Last updated 30 September 2026. We change this page when what we collect changes, and the date moves with it."] },
+    { h: "Updates", p: ["Last updated 2 October 2026. We change this page when what we collect changes, and the date moves with it."] },
   ],
 };
 
@@ -110,7 +111,7 @@ const FR: PrivacyCopy = {
   metaDescription: fr("Ce que ce site collecte, pourquoi, et les choix dont vous disposez : le formulaire de contact, les deux éléments conservés dans votre navigateur et vos droits au titre du RGPD."),
   eyebrow: "Ce que nous collectons et pourquoi",
   subhead: fr("Ce que ce site collecte, pourquoi, et les choix dont vous disposez."),
-  intro: fr("Nous limitons au strict nécessaire les données que ce site traite : ce que vous nous envoyez par le formulaire de contact, et un petit enregistrement de vos choix dans votre navigateur."),
+  intro: fr("Nous limitons au strict nécessaire les données que ce site traite : ce que vous nous envoyez par le formulaire de contact, un petit enregistrement de vos choix dans votre navigateur et, seulement si vous l’autorisez, la façon dont les pages du site sont consultées."),
   home: "Accueil",
   homeHref: "/fr/",
   settingsButton: "Ouvrir les réglages des cookies",
@@ -118,7 +119,7 @@ const FR: PrivacyCopy = {
     {
       h: "Qui nous sommes",
       p: [
-        "Mike Bastin est un cabinet de référencement multilingue établi Calle Rugat 12 - 2, 46021 Valencia, Espagne. Vous pouvez nous écrire à hello@mikebastin.com.",
+        "Mike Bastin est un cabinet de référencement multilingue et une marque de BeTranslated (NIF B40654865), dont le siège est Calle Doctor Ferran, Valencia, Espagne. Notre bureau de Valencia est situé Calle Rugat 12 - 2, 46021 Valencia. Vous pouvez nous écrire à hello@mikebastin.com.",
         "Nous décidons de l’usage des données décrites ici : nous sommes le responsable de traitement au sens du RGPD.",
       ],
     },
@@ -127,7 +128,7 @@ const FR: PrivacyCopy = {
       p: [
         "Lorsque vous envoyez le formulaire de contact, nous recevons votre nom, votre adresse e-mail et votre message. Vous pouvez aussi indiquer le nom de votre entreprise, un budget et le service qui vous intéresse.",
         "Nous utilisons ces informations pour répondre à votre demande, et uniquement pour cela. La base légale est votre consentement, donné en cochant la case du formulaire, ainsi que les démarches que vous nous demandez d’effectuer avant tout contrat.",
-        "Notre hébergeur traite le formulaire et le transmet à notre messagerie. Nous conservons une demande aussi longtemps que nous restons en contact avec vous à son sujet, puis le temps nécessaire pour la traiter ou pour respecter une obligation légale.",
+        "Notre hébergeur, Hostinger, traite le formulaire et le transmet à notre messagerie. Nous conservons une demande aussi longtemps que nous restons en contact avec vous à son sujet, puis le temps nécessaire pour la traiter ou pour respecter une obligation légale.",
       ],
     },
     {
@@ -143,7 +144,7 @@ const FR: PrivacyCopy = {
     },
     {
       h: "Mesure d’audience et contenus intégrés",
-      p: ["Nous n’utilisons aujourd’hui aucun cookie de mesure d’audience, de publicité ou de suivi. Si nous en ajoutons, ou si nous intégrons du contenu d’autres sites, ils restent désactivés tant que vous ne les autorisez pas dans les réglages des cookies, et vous pouvez retirer cette autorisation à tout moment."],
+      p: ["Pour comprendre comment le site est consulté, nous utilisons Google Analytics 4 (Google), Microsoft Clarity (Microsoft), qui enregistre le défilement et les clics sur les pages, et Ahrefs Web Analytics (Ahrefs). Ces trois outils restent désactivés tant que vous n’autorisez pas la mesure d’audience dans les réglages des cookies, et vous pouvez retirer cette autorisation à tout moment. Nous n’utilisons aucun cookie publicitaire. Les contenus intégrés d’autres sites suivent la même règle."],
     },
     {
       h: "Les autres sites",
@@ -151,7 +152,7 @@ const FR: PrivacyCopy = {
     },
     {
       h: "Qui traite les données",
-      p: ["Notre hébergeur et notre fournisseur de messagerie traitent les données pour notre compte, afin que le site et la boîte de réception fonctionnent. Nous utilisons vos données pour vous répondre, et nous ne les vendons ni ne les transmettons à des fins de prospection."],
+      p: ["Notre hébergeur (Hostinger) et notre fournisseur de messagerie traitent les données pour notre compte, afin que le site et la boîte de réception fonctionnent, de même que Google, Microsoft et Ahrefs lorsque vous autorisez la mesure d’audience. Nous utilisons vos données pour vous répondre et améliorer le site, et nous ne les vendons ni ne les transmettons à des fins de prospection."],
     },
     {
       h: "Vos droits",
@@ -172,7 +173,7 @@ const FR: PrivacyCopy = {
       ],
     },
     { h: "Modifier vos choix de cookies", p: ["Ouvrez les réglages des cookies pour autoriser ou retirer la mesure d’audience et les contenus intégrés à tout moment."], settings: true },
-    { h: "Mises à jour", p: ["Dernière mise à jour : 30 septembre 2026. Nous modifions cette page lorsque ce que nous collectons change, et la date évolue avec elle."] },
+    { h: "Mises à jour", p: ["Dernière mise à jour : 2 octobre 2026. Nous modifions cette page lorsque ce que nous collectons change, et la date évolue avec elle."] },
   ].map((s) => ({
     ...s,
     h: fr(s.h),
@@ -191,7 +192,7 @@ const ES: PrivacyCopy = {
   metaDescription: "Qué recoge este sitio, por qué y qué puedes decidir: el formulario de contacto, los dos elementos que se guardan en tu navegador y tus derechos según el RGPD.",
   eyebrow: "Qué recogemos y por qué",
   subhead: "Qué recoge este sitio, por qué y qué puedes decidir.",
-  intro: "Reducimos al mínimo los datos que trata este sitio: lo que nos envías en el formulario de contacto y un pequeño registro de tus decisiones en tu navegador.",
+  intro: "Reducimos al mínimo los datos que trata este sitio: lo que nos envías en el formulario de contacto, un pequeño registro de tus decisiones en tu navegador y, solo si lo permites, cómo se usan las páginas del sitio.",
   home: "Inicio",
   homeHref: "/es/",
   settingsButton: "Abrir los ajustes de cookies",
@@ -199,7 +200,7 @@ const ES: PrivacyCopy = {
     {
       h: "Quiénes somos",
       p: [
-        "Mike Bastin es una consultoría de posicionamiento multilingüe con sede en Calle Rugat 12 - 2, 46021 Valencia, España. Puedes escribirnos a hello@mikebastin.com.",
+        "Mike Bastin es una consultoría de posicionamiento multilingüe y una marca de BeTranslated (NIF B40654865), con domicilio social en la calle Doctor Ferran, Valencia, España. Nuestra oficina de Valencia está en Calle Rugat 12 - 2, 46021 Valencia. Puedes escribirnos a hello@mikebastin.com.",
         "Decidimos cómo se usan los datos que se describen aquí, por lo que somos el responsable del tratamiento según el RGPD.",
       ],
     },
@@ -208,7 +209,7 @@ const ES: PrivacyCopy = {
       p: [
         "Cuando envías el formulario de contacto recibimos tu nombre, tu correo electrónico y tu mensaje. También puedes indicar el nombre de tu empresa, un presupuesto y el servicio que te interesa.",
         "Usamos estos datos para responder a tu consulta, y solo para eso. La base legal es tu consentimiento, que das al marcar la casilla del formulario, y las gestiones que nos pides antes de cualquier contrato.",
-        "Nuestro proveedor de alojamiento gestiona el formulario y lo entrega en nuestro buzón. Guardamos una consulta mientras sigamos en contacto contigo por ese motivo, y el tiempo posterior que necesitemos para resolverla o cumplir una obligación legal.",
+        "Nuestro proveedor de alojamiento, Hostinger, gestiona el formulario y lo entrega en nuestro buzón. Guardamos una consulta mientras sigamos en contacto contigo por ese motivo, y el tiempo posterior que necesitemos para resolverla o cumplir una obligación legal.",
       ],
     },
     {
@@ -224,7 +225,7 @@ const ES: PrivacyCopy = {
     },
     {
       h: "Analítica y contenido incrustado",
-      p: ["Hoy no usamos cookies de analítica, publicidad ni seguimiento. Si añadimos alguna, o contenido incrustado de otros sitios, sigue desactivada hasta que la permitas en los ajustes de cookies, y puedes retirar ese permiso cuando quieras."],
+      p: ["Para ver cómo se usa el sitio, utilizamos Google Analytics 4 (Google), Microsoft Clarity (Microsoft), que registra cómo se desplazan y se pulsan las páginas, y Ahrefs Web Analytics (Ahrefs). Las tres herramientas siguen desactivadas hasta que permitas la analítica en los ajustes de cookies, y puedes retirar ese permiso cuando quieras. No usamos cookies publicitarias. El contenido incrustado de otros sitios sigue la misma regla."],
     },
     {
       h: "Otros sitios",
@@ -232,7 +233,7 @@ const ES: PrivacyCopy = {
     },
     {
       h: "Quién trata los datos",
-      p: ["Nuestro proveedor de alojamiento y nuestro proveedor de correo tratan los datos por cuenta nuestra, para que funcionen el sitio y el buzón. Usamos tus datos para responderte, y ni los vendemos ni los cedemos con fines de marketing."],
+      p: ["Nuestro proveedor de alojamiento (Hostinger) y nuestro proveedor de correo tratan los datos por cuenta nuestra, para que funcionen el sitio y el buzón, igual que Google, Microsoft y Ahrefs cuando permites la analítica. Usamos tus datos para responderte y mejorar el sitio, y ni los vendemos ni los cedemos con fines de marketing."],
     },
     {
       h: "Tus derechos",
@@ -253,7 +254,7 @@ const ES: PrivacyCopy = {
       ],
     },
     { h: "Cambiar tus decisiones sobre cookies", p: ["Abre los ajustes de cookies para permitir o retirar la analítica y el contenido incrustado cuando quieras."], settings: true },
-    { h: "Actualizaciones", p: ["Última actualización: 30 de septiembre de 2026. Cambiamos esta página cuando cambia lo que recogemos, y la fecha cambia con ella."] },
+    { h: "Actualizaciones", p: ["Última actualización: 2 de octubre de 2026. Cambiamos esta página cuando cambia lo que recogemos, y la fecha cambia con ella."] },
   ],
 };
 
