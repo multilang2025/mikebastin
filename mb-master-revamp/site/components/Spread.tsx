@@ -9,8 +9,13 @@ import {
   useReducedMotion,
 } from "motion/react";
 import type { Project } from "@/lib/projects";
+import type { ProjectCopy } from "@/lib/projects-locale";
 
-export default function Spread({ d, flip }: { d: Project; flip: boolean }) {
+/**
+ * `copy` replaces the English strings on the FR and ES homepages. The case
+ * studies exist in English only, so a localized spread links to none.
+ */
+export default function Spread({ d, flip, copy }: { d: Project; flip: boolean; copy?: ProjectCopy }) {
   const ref = useRef<HTMLElement>(null);
   const still = useReducedMotion();
   const { scrollYProgress } = useScroll({
@@ -53,13 +58,17 @@ export default function Spread({ d, flip }: { d: Project; flip: boolean }) {
           >
             {d.numeral}.
           </span>
-          <span className="eyebrow">{d.angle}</span>
+          <span className="eyebrow">{copy?.angle ?? d.angle}</span>
         </div>
 
         <h3 className="text-[clamp(1.6rem,3.1vw,2.35rem)] font-semibold leading-[1.1]">
-          <Link href={`/projects/${d.slug}/`} className="ulink">
-            {d.name}
-          </Link>
+          {copy ? (
+            d.name
+          ) : (
+            <Link href={`/projects/${d.slug}/`} className="ulink">
+              {d.name}
+            </Link>
+          )}
         </h3>
       </div>
 
@@ -74,7 +83,7 @@ export default function Spread({ d, flip }: { d: Project; flip: boolean }) {
           {d.shot ? (
             <motion.img
               src={d.shot}
-              alt={`The ${d.name} website on desktop and mobile`}
+              alt={copy?.alt ?? `The ${d.name} website on desktop and mobile`}
               loading="lazy"
               decoding="async"
               style={{ scale }}
@@ -127,11 +136,11 @@ export default function Spread({ d, flip }: { d: Project; flip: boolean }) {
             className="mb-6 max-w-[46ch] text-[1.02rem]"
             style={{ color: "var(--dim)" }}
           >
-            {d.body}
+            {copy?.body ?? d.body}
           </p>
 
           <ul className="mb-7 flex flex-wrap gap-2">
-            {d.services.map((sv) => (
+            {(copy?.services ?? d.services).map((sv) => (
               <li
                 key={sv}
                 className="rounded-full px-3 py-[5px] text-[.74rem]"
@@ -143,7 +152,7 @@ export default function Spread({ d, flip }: { d: Project; flip: boolean }) {
           </ul>
 
           <dl className="flex flex-wrap gap-x-10 gap-y-4">
-            {d.metrics.map((m) => (
+            {(copy?.metrics ?? d.metrics).map((m) => (
               <div key={m.k}>
                 <dt
                   className="display text-[1.5rem] font-semibold leading-none tabular-nums"
@@ -161,13 +170,15 @@ export default function Spread({ d, flip }: { d: Project; flip: boolean }) {
             ))}
           </dl>
 
-          <Link
-            href={`/projects/${d.slug}/`}
-            className="ulink mt-7 inline-block text-[.9rem] font-medium"
-            style={{ color: "var(--berry)" }}
-          >
-            Read the case study
-          </Link>
+          {!copy && (
+            <Link
+              href={`/projects/${d.slug}/`}
+              className="ulink mt-7 inline-block text-[.9rem] font-medium"
+              style={{ color: "var(--berry)" }}
+            >
+              Read the case study
+            </Link>
+          )}
         </motion.div>
       </div>
     </article>
