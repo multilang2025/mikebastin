@@ -12,7 +12,7 @@ sourceUrl: "https://mikebastin.com/es/medir-rendimiento-geo/"
 excerpt: "Mide cómo ChatGPT, Perplexity y Google AI Overviews citan tu marca: KPIs de GEO, herramientas y un seguimiento mensual para ganar visibilidad en IA."
 ---
 
-![Article header image](/images/legacy/2026/01/medirrendimientogeoseguimiento-1024x585.jpg)
+![Article header image](/images/legacy/2026/01/medirrendimientogeoseguimiento-1024x585.webp)
 
 Tus compradores en Francia, Alemania o el Benelux preguntan ya a ChatGPT, Perplexity o los AI Overviews de Google qué proveedores considerar. Si sabes cuántas veces te nombran esas respuestas, cómo te describen y en qué idioma, puedes invertir en las páginas que te llevan a la lista corta.
 

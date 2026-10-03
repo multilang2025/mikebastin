@@ -12,7 +12,7 @@ sourceUrl: "https://mikebastin.com/es/optimizar-perfil-de-empresa-de-google/"
 excerpt: "Cómo optimizar tu Perfil de Empresa de Google en 2026: categorías, reseñas, fotos y Gemini en Maps, para que tu ficha atraiga más llamadas y visitas."
 ---
 
-![Cómo optimizar tu Perfil de Empresa de Google](/images/legacy/2024/10/Google-Business-Profile-1024x386.jpg)
+![Cómo optimizar tu Perfil de Empresa de Google](/images/legacy/2024/10/Google-Business-Profile-1024x386.webp)
 
 Tu ficha de Google es lo primero que ve quien busca tu servicio cerca: antes que tu web, a menudo antes que tu nombre. Un perfil al día, con fotos recientes y reseñas nuevas, te mantiene entre las tres empresas que Google enseña en el mapa, y ahí se deciden las llamadas y las reservas.
 

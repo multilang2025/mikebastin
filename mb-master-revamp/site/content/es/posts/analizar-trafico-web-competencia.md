@@ -13,7 +13,7 @@ sourceUrl: "https://mikebastin.com/es/analizar-trafico-web-competencia/"
 excerpt: "Analiza el tráfico web de tu competencia en cada país: de qué canales vienen sus visitas, qué páginas las captan y qué parte puedes disputar tú."
 ---
 
-![Imagen de cabecera del artículo](/images/legacy/2026/01/analizartraficowebcompetencia-1024x585.jpg)
+![Imagen de cabecera del artículo](/images/legacy/2026/01/analizartraficowebcompetencia-1024x585.webp)
 
 Tu competidor en Francia o en Alemania recibe visitas que podrían ser tuyas. Saber de dónde vienen, qué páginas las captan y cuánto dependen de la publicidad te dice qué parte de su tráfico puedes disputar este trimestre y con qué tipo de contenido.
 

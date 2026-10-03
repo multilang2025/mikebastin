@@ -133,6 +133,10 @@ export default async function ProjectPage({
             <Reveal>
               <img
                 src={project.shot}
+                srcSet={`${project.shot.replace(".webp", "-800.webp")} 800w, ${project.shot} 1600w`}
+                sizes="(min-width: 1280px) 1200px, 100vw"
+                width={1600}
+                height={1280}
                 alt={`The ${project.name} website on desktop and mobile`}
                 loading="lazy"
                 decoding="async"

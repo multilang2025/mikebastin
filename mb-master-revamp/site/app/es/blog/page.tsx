@@ -5,8 +5,9 @@ import Reveal from "@/components/Reveal";
 import SiteFooter from "@/components/SiteFooter";
 import JsonLd from "@/components/JsonLd";
 import LocaleHtmlLang from "@/components/LocaleHtmlLang";
-import { getPostsForLocale, postPath } from "@/lib/posts";
-import { localeTopics, topicPath } from "@/lib/locale-topics";
+import { getPostsForLocale, imageSlugFor, postPath } from "@/lib/posts";
+import PostCard, { POST_GRID } from "@/components/PostCard";
+import { localeTopics, topicPath, topicPosts } from "@/lib/locale-topics";
 import { esLanguages } from "@/lib/fr-pages";
 import { SITE_URL, breadcrumbSchema } from "@/lib/schema";
 
@@ -32,6 +33,17 @@ export default function SpanishBlogIndex() {
   // Sorted and dated by first publication: `modified` on migrated posts is
   // the migration date, which reads as no date at all.
   const posts = [...getPostsForLocale("es")].sort((a, b) => b.date.localeCompare(a.date));
+  // Grouped by topic, as the English journal is, newest first inside each;
+  // anything filed under no topic closes the page.
+  const filed = new Set<string>();
+  const groups = localeTopics("es").map((tp) => {
+    const list = topicPosts(tp).sort((a, b) => b.date.localeCompare(a.date));
+    list.forEach((p) => filed.add(p.slug));
+    return { key: tp.slug, name: tp.name, blurb: tp.blurb, href: topicPath("es", tp.slug), posts: list };
+  });
+  const rest = posts.filter((p) => !filed.has(p.slug));
+  if (rest.length) groups.push({ key: "other", name: "Otros artículos", blurb: "Nuestros artículos que no entran en los temas de arriba.", href: "", posts: rest });
+
   return (
     <main>
       <LocaleHtmlLang lang="es" />
@@ -70,27 +82,48 @@ export default function SpanishBlogIndex() {
         </div>
       </section>
 
-      <section className="band band-b py-[clamp(48px,7vw,96px)]">
-        <div className="shell">
-          <ul className="grid gap-px cells-2 sm:grid-cols-2" style={{ background: "var(--rule)" }}>
-            {posts.map((p, i) => (
-              <Reveal key={p.slug} i={i}>
-                <li className="band h-full" style={{ background: "var(--bg)" }}>
-                  <Link href={postPath("es", p.slug)} className="flex h-full flex-col px-7 py-8">
-                    <span className="mb-3 text-[.82rem] uppercase tracking-[.08em]" style={{ color: "var(--dim)" }}>
-                      {DATE.format(new Date(p.date))}
-                    </span>
-                    <span className="ulink mb-2 text-[1.12rem] font-semibold leading-[1.3]">{p.title}</span>
-                    <p className="line-clamp-4 text-[.92rem] leading-[1.55]" style={{ color: "var(--dim)" }}>
-                      {p.excerpt}
+      {groups.map((g, gi) => (
+        <section key={g.key} className={`band ${gi % 2 === 0 ? "band-b" : "band-a"} py-[clamp(56px,8vw,104px)]`}>
+          <div className="shell">
+            <Reveal>
+              <div
+                className="mb-10 flex flex-wrap items-end justify-between gap-x-8 gap-y-3 border-b pb-5"
+                style={{ borderColor: "var(--rule)" }}
+              >
+                <div>
+                  <h2 className="text-[clamp(1.5rem,2.8vw,2.2rem)] font-semibold leading-[1.15]">{g.name}</h2>
+                  {g.blurb && (
+                    <p className="mt-3 max-w-[62ch] text-[.98rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
+                      {g.blurb}
                     </p>
+                  )}
+                </div>
+                {g.href && (
+                  <Link href={g.href} className="ulink shrink-0 text-[.92rem]" style={{ color: "var(--berry)" }}>
+                    Ver todo el tema
                   </Link>
-                </li>
-              </Reveal>
-            ))}
-          </ul>
-        </div>
-      </section>
+                )}
+              </div>
+            </Reveal>
+            <ul className={POST_GRID}>
+              {g.posts.map((p, i) => (
+                <Reveal key={p.slug} i={i % 3}>
+                  <li className="h-full">
+                    <PostCard
+                      href={postPath("es", p.slug)}
+                      imageSlug={imageSlugFor("es", p.slug)}
+                      alt=""
+                      title={p.title}
+                      excerpt={p.excerpt}
+                      date={DATE.format(new Date(p.date))}
+                    />
+                  </li>
+                </Reveal>
+              ))}
+            </ul>
+          </div>
+        </section>
+      ))}
 
       <SiteFooter locale="es" />
     </main>

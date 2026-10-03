@@ -13,7 +13,7 @@ sourceUrl: "https://mikebastin.com/es/herramientas-gratuitas-analisis-competitiv
 excerpt: "Herramientas gratuitas de análisis competitivo para estudiar a tus rivales en cada mercado: tráfico, palabras clave, enlaces y anuncios, a coste cero."
 ---
 
-![Imagen de cabecera del artículo](/images/legacy/2026/01/herramientasgratuitasanalisisc-1024x585.jpg)
+![Imagen de cabecera del artículo](/images/legacy/2026/01/herramientasgratuitasanalisisc-1024x585.webp)
 
 Antes de pagar una suscripción, puedes saber mucho de tus rivales en Francia, en Bélgica o en Alemania con herramientas gratuitas: de dónde sacan su tráfico, qué palabras clave les funcionan, quién les enlaza y qué anuncios publican.
 

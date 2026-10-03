@@ -2,6 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { pageMeta } from "@/lib/meta";
 import Reveal from "@/components/Reveal";
+import MarketReach from "@/components/MarketReach";
+import Spread from "@/components/Spread";
+import { PROJECTS } from "@/lib/projects";
+import { PROJECTS_FR } from "@/lib/projects-locale";
 import SiteFooter from "@/components/SiteFooter";
 import JsonLd from "@/components/JsonLd";
 import LocaleHtmlLang from "@/components/LocaleHtmlLang";
@@ -67,7 +71,8 @@ export default function FrenchHome() {
 
       {/* ============ HERO ============ */}
       <section className="band band-a grain relative overflow-hidden pb-[clamp(56px,8vw,110px)] pt-[clamp(96px,14vw,170px)]">
-        <div className="shell relative">
+        <div className="shell relative grid items-center gap-x-10 lg:grid-cols-[1fr_auto]">
+        <div>
           <Reveal>
             <p className="eyebrow mb-8">Depuis Valencia, pour les entreprises qui exportent</p>
           </Reveal>
@@ -96,6 +101,8 @@ export default function FrenchHome() {
               </Link>
             </div>
           </Reveal>
+        </div>
+        <MarketReach />
         </div>
       </section>
 
@@ -159,8 +166,25 @@ export default function FrenchHome() {
         </div>
       </section>
 
+      {/* ============ WORK ============ */}
+      <section id="work" className="band band-b py-[clamp(64px,9vw,128px)]">
+        <div className="shell">
+          <Reveal>
+            <p className="eyebrow mb-3">Choisis dans nos réalisations</p>
+            <h2 className="mb-4 max-w-[18ch] text-[clamp(1.8rem,3.6vw,2.9rem)] font-semibold leading-[1.1]">
+              Huit projets, tous encore en ligne.
+            </h2>
+          </Reveal>
+          <div className="mt-10">
+            {PROJECTS.map((s, i) => (
+              <Spread key={s.domain} d={s} flip={i % 2 === 1} copy={PROJECTS_FR[s.slug]} />
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* ============ HOW WE WORK ============ */}
-      <section className="band band-b py-[clamp(56px,8vw,104px)]">
+      <section className="band band-a py-[clamp(56px,8vw,104px)]">
         <div className="shell grid gap-[clamp(32px,5vw,64px)] lg:grid-cols-[minmax(0,1fr)_minmax(0,1.2fr)]">
           <Reveal>
             <h2 className="text-[clamp(1.6rem,3vw,2.3rem)] font-semibold leading-[1.15]">Comment nous travaillons</h2>

@@ -13,7 +13,7 @@ sourceUrl: "https://mikebastin.com/es/analizar-backlinks-competidores/"
 excerpt: "Analiza los backlinks de tus competidores en cada mercado: qué sitios les dan autoridad, cuáles pueden enlazarte a ti y por cuáles empezar."
 ---
 
-![Imagen de cabecera del artículo](/images/legacy/2026/01/analizarbacklinkscompetidores-1024x585.jpg)
+![Imagen de cabecera del artículo](/images/legacy/2026/01/analizarbacklinkscompetidores-1024x585.webp)
 
 Tu rival francés o alemán tiene algo que tu web todavía está construyendo: sitios de su país que le enlazan y le dan autoridad. Esa lista es pública, y cada dominio que enlaza a dos o tres de tus competidores es un candidato a enlazarte a ti.
 
@@ -28,7 +28,7 @@ Aquí tienes cómo hacerlo: a quién analizar, cómo encontrar la brecha de enla
 - **Visibilidad en IA:** las [fuentes que citan modelos](https://mikebastin.com/es/medir-rendimiento-geo/) como Perplexity o Gemini suelen ser las mismas que enlazan a los líderes.
 - **Prioridades claras:** [qué oportunidades de enlace abordar primero](/es/services/seo-tecnico/) para que cada contacto cuente.
 
-![analizar los backlinks](/images/legacy/2026/01/backlinks_network_analysis_1-1024x572.jpg)
+![analizar los backlinks](/images/legacy/2026/01/backlinks_network_analysis_1-1024x572.webp)
 
 ## Cómo encontrar a tus verdaderos competidores en Google
 
@@ -104,7 +104,7 @@ La personalización tiene un efecto medido:
 >
 > Fuente: [Backlinko con Pitchbox, estudio sobre el contacto por correo electrónico](https://backlinko.com/email-outreach-study)
 
-![conseguir backlinks](/images/legacy/2026/01/seo_tools_dashboard_1-1024x572.jpg)
+![conseguir backlinks](/images/legacy/2026/01/seo_tools_dashboard_1-1024x572.webp)
 
 ## Preguntas que nos hacen con frecuencia
 

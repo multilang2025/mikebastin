@@ -12,7 +12,7 @@ sourceUrl: "https://mikebastin.com/es/diferencias-culturales-sitios-web-multilin
 excerpt: "Las diferencias culturales deciden si tu sitio web multilingüe vende en Francia, Alemania o Países Bajos: tono, formatos, imágenes y calendario."
 ---
 
-![Diferencias culturales en sitios web multilingües](/images/legacy/2024/10/cultural-differences-in-multilingual-websites-1024x363.jpg)
+![Diferencias culturales en sitios web multilingües](/images/legacy/2024/10/cultural-differences-in-multilingual-websites-1024x363.webp)
 
 Tu web ya está traducida al francés, al alemán o al neerlandés, y cada versión recibe visitas. El siguiente salto en ventas llega cuando cada versión, además de estar en el idioma del comprador, encaja con sus costumbres: el trato que espera, los formatos que reconoce y las imágenes que le resultan cercanas.
 
@@ -89,7 +89,7 @@ Cuando aciertas, la recompensa se ve en la caja. McDonald’s adapta su carta y 
 
 La marca es la misma en todo el mundo, y el producto que cada país ve en la carta es el suyo. Tu web puede aplicar la misma lógica: una marca, un mensaje adaptado a cada mercado.
 
-![Diferencias culturales en sitios web multilingües](/images/legacy/2024/10/napkin-selection.png)
+![Diferencias culturales en sitios web multilingües](/images/legacy/2024/10/napkin-selection.webp)
 
 ## Por dónde empezar
 

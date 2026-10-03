@@ -3,9 +3,11 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import PostImage from "@/components/PostImage";
 import Reveal from "@/components/Reveal";
+import PostCard, { POST_GRID } from "@/components/PostCard";
 import SiteFooter from "@/components/SiteFooter";
 import JsonLd from "@/components/JsonLd";
 import TableOfContents from "@/components/TableOfContents";
+import ShareLinks from "@/components/ShareLinks";
 import { addHeadingIds } from "@/lib/toc";
 import {
   getPosts,
@@ -189,6 +191,9 @@ export default async function BlogPostPage({
                 dangerouslySetInnerHTML={{ __html: bodyHtml }}
               />
             </Reveal>
+            <div className="mt-12 max-w-[68ch] border-t pt-8" style={{ borderColor: "var(--rule)" }}>
+              <ShareLinks url={url} title={post.title} />
+            </div>
           </div>
           {showToc && (
             <aside className="hidden lg:block">
@@ -208,29 +213,18 @@ export default async function BlogPostPage({
                 More from the journal
               </h2>
             </Reveal>
-            <ul className="grid gap-px cells-3 sm:grid-cols-2 lg:grid-cols-3" style={{ background: "var(--rule)" }}>
+            <ul className={POST_GRID}>
               {related.map((r, i) => (
                 <Reveal key={r.slug} i={i}>
-                  <li className="band h-full" style={{ background: "var(--bg)" }}>
-                    <Link href={`/blog/${r.slug}/`} className="flex h-full flex-col">
-                      <PostImage
-                        slug={r.slug}
-                        cluster={r.cluster}
-                        className="aspect-[1200/630] w-full"
-                        sizes="(min-width: 1024px) 400px, (min-width: 640px) 50vw, 100vw"
-                      />
-                      <div className="flex flex-1 flex-col px-7 py-6">
-                        <span className="ulink mb-2 text-[1.02rem] font-semibold leading-[1.3]">
-                          {r.title}
-                        </span>
-                        <p className="mb-4 line-clamp-3 text-[.88rem] leading-[1.5]" style={{ color: "var(--dim)" }}>
-                          {r.excerpt}
-                        </p>
-                        <span className="mt-auto text-[.72rem] uppercase tracking-[.1em]" style={{ color: "var(--dim)" }}>
-                          {formatDate(r.date)}
-                        </span>
-                      </div>
-                    </Link>
+                  <li className="h-full">
+                    <PostCard
+                      href={`/blog/${r.slug}/`}
+                      imageSlug={r.slug}
+                      cluster={r.cluster}
+                      title={r.title}
+                      excerpt={r.excerpt}
+                      date={formatDate(r.date)}
+                    />
                   </li>
                 </Reveal>
               ))}

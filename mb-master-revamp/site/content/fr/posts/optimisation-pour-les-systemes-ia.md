@@ -35,7 +35,7 @@ Deux acheteurs posant exactement la même question reçoivent donc des réponses
 
 Ce que Gemini, ChatGPT et les autres modèles savent de votre entreprise conditionne chacune de leurs recommandations. Un audit structuré, mené par un [expert en SEO international](https://mikebastin.com/fr/expert-en-seo-international/), mesure l’écart entre votre positionnement réel et votre représentation dans ce graphe de connaissances. Chaque modèle a sa propre image de vous, et notre panorama des [LLM alternatifs à ChatGPT](/fr/llm-alternatifs/) présente ceux à inclure dans l’audit. Voici la méthode, en quatre étapes.
 
-![Optimisation pour les systèmes d’IA : extraire, analyser, construire, tester](/images/legacy/2026/01/optimisation-ia-1024x359.jpg)
+![Optimisation pour les systèmes d’IA : extraire, analyser, construire, tester](/images/legacy/2026/01/optimisation-ia-1024x359.webp)
 
 ### Extrayez les faits
 
@@ -70,7 +70,7 @@ Votre visibilité dans les réponses d’IA repose sur votre présence dans les 
 
 Les LLM accordent un poids important à la source qui publie une information. Un même contenu peut ainsi gagner en visibilité une fois publié sur une plateforme tierce reconnue, comme LinkedIn ou un média de votre secteur, et ce type d’effet se vérifie en quelques jours.
 
-![Illustration : tester la diffusion d’un contenu sur une plateforme tierce](/images/legacy/2026/01/exemple-optimisation-ia-1024x565.jpg)
+![Illustration : tester la diffusion d’un contenu sur une plateforme tierce](/images/legacy/2026/01/exemple-optimisation-ia-1024x565.webp)
 
 Publiez sur des plateformes tierces à forte autorité, puis mesurez l’effet sur trois indicateurs :
 

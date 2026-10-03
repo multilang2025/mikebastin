@@ -12,7 +12,7 @@ sourceUrl: "https://mikebastin.com/es/herramientas-pruebas-de-localizacion/"
 excerpt: "Herramientas de pruebas de localización para lanzar cada idioma de tu web o tu app con el texto en su sitio: TMS, automatización y pseudolocalización."
 ---
 
-![Herramientas de pruebas de localización](/images/legacy/2024/10/testing-tools-1024x364.jpg)
+![Herramientas de pruebas de localización](/images/legacy/2024/10/testing-tools-1024x364.webp)
 
 Vas a lanzar tu web o tu app en francés, alemán o neerlandés, y la traducción ya está encargada. Lo que decide la primera impresión del comprador está alrededor del texto: que quepa en su botón, que la fecha salga en el formato de su país y que una palabra con acento se ordene donde él espera.
 

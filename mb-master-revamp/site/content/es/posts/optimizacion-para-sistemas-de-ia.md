@@ -13,7 +13,7 @@ sourceUrl: "https://mikebastin.com/es/optimizacion-para-sistemas-de-ia/"
 excerpt: "Optimización para sistemas de IA: descubre qué sabe ChatGPT de tu marca, ajusta lo que repite y gana presencia en las fuentes que consulta en cada mercado."
 ---
 
-![Optimización para sistemas de IA](/images/legacy/2026/01/Optimizacion-para-sistemas-de-IA-e1769595525365-1024x657.jpg)
+![Optimización para sistemas de IA](/images/legacy/2026/01/Optimizacion-para-sistemas-de-IA-e1769595525365-1024x657.webp)
 
 Tus compradores ya preguntan a ChatGPT qué proveedores considerar, y la respuesta describe a tu empresa con lo que el modelo ha leído sobre ella. Cuando esa descripción coincide con lo que vendes, en cada idioma, entras en la lista corta antes incluso de la primera visita a tu web.
 
@@ -23,11 +23,11 @@ Aquí tienes un método en cuatro pasos para saber qué dicen los sistemas de IA
 
 Seguir una lista de preguntas en ChatGPT es un buen comienzo, y su valor crece cuando se completa con una visión de conjunto. ChatGPT da respuestas distintas a usuarios distintos, incluso ante la misma pregunta: la memoria de la cuenta, la ubicación y el contexto de la conversación cambian el resultado. Un [análisis competitivo SEO](https://mikebastin.com/es/analisis-competitivo-seo/) ayuda a entender ese entorno y quién aparece en él.
 
-![Esquema de respuestas distintas a una misma pregunta](/images/legacy/2026/01/esquema_respuestas_nuevo_diseno_1-1024x489.jpg)
+![Esquema de respuestas distintas a una misma pregunta](/images/legacy/2026/01/esquema_respuestas_nuevo_diseno_1-1024x489.webp)
 
 Por eso el trabajo útil va más allá de un puñado de prompts. Se apoya en un análisis estructurado de cómo interpretan los sistemas de IA tu marca en su conjunto y de qué información usan para responder de forma coherente y repetible.
 
-![Esquema de los cuatro pasos](/images/legacy/2026/01/esquema_4_pasos_visual_1-1024x572.jpg)
+![Esquema de los cuatro pasos](/images/legacy/2026/01/esquema_4_pasos_visual_1-1024x572.webp)
 
 La optimización para sistemas de IA se centra en lo que ChatGPT y otros [modelos de lenguaje](https://openai.com/es-ES/research/) saben de una marca, y en lo que responden cuando alguien pregunta por ella o por su categoría. Es la parte de la GEO que mira a tu marca en el conjunto de la web; la estrategia de contenido que la acompaña está en nuestra guía para [optimizar para SEO y GEO](/es/optimizar-para-seo-y-geo/).
 
