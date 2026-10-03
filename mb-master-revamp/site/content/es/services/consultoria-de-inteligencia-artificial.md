@@ -16,7 +16,7 @@ excerpt: "Consultoría de inteligencia artificial en Valencia: qué parte de tus
 
 ## Lo que la IA ya puede hacer por tu empresa en Valencia
 
-Alguien te ha dicho que la inteligencia artificial puede encargarse de tus contenidos, de tu web en inglés o de las preguntas de tus clientes, y una parte sí puede. En Valencia esas preguntas llegan en castellano, en valenciano o en inglés, y si vendes fuera, también en el idioma de cada mercado. La parte que decide si una página trae consultas sigue en manos de una persona que lee el idioma.
+Alguien te ha dicho que la inteligencia artificial puede encargarse de tus contenidos, de tu web en inglés o de las preguntas de tus clientes, y una parte sí puede. En Valencia esas preguntas llegan en castellano o en inglés, y si vendes fuera, también en el idioma de cada mercado. La parte que decide si una página trae consultas sigue en manos de una persona que lee el idioma.
 
 La IA escribe frases fluidas y profesionales; una persona que lee el idioma comprueba que además sean exactas. Con esa revisión, cada página conserva la confianza que tiene que ganar, y el efecto se nota en el número de consultas mucho antes que en un informe de herramientas.
 

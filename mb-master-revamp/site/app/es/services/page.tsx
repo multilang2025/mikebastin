@@ -92,7 +92,7 @@ export default function SpanishServicesIndex() {
           </Reveal>
           <Reveal i={3}>
             <p className="mb-10 max-w-[58ch] text-[clamp(1.05rem,1.5vw,1.2rem)] leading-[1.58]" style={{ color: "var(--dim)" }}>
-              Tus clientes de Valencia buscan en castellano, en valenciano y en inglés, y los de fuera en su propio idioma. Empieza por lo que más te importa, tu ciudad o tu próximo mercado: te diremos qué pide de verdad.
+              Tus clientes de Valencia buscan en castellano y en inglés, y los de fuera en su propio idioma. Empieza por lo que más te importa, tu ciudad o tu próximo mercado: te diremos qué pide de verdad.
             </p>
           </Reveal>
           <Reveal i={4}>

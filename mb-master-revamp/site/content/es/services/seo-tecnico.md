@@ -16,7 +16,7 @@ excerpt: "SEO técnico en Valencia: revisamos tu web y corregimos lo que la fren
 
 ## Que cada versión de tu web llegue a sus propios clientes
 
-Tu empresa está en Valencia y tu web atiende a varios públicos: clientes de la ciudad que buscan en castellano o en valenciano, residentes internacionales que buscan en inglés y, si exportas, compradores en Francia o en Alemania. Esas versiones pueden sumar resultados. En muchas webs todavía compiten entre sí: un cliente valenciano aterriza en la versión inglesa y un comprador francés, en la castellana. El siguiente paso es llevar a cada uno a la página escrita para él, de modo que cada idioma que pagas se vea en los resultados.
+Tu empresa está en Valencia y tu web atiende a varios públicos: clientes de la ciudad que buscan en castellano, residentes internacionales que buscan en inglés y, si exportas, compradores en Francia o en Alemania. Esas versiones pueden sumar resultados. En muchas webs todavía compiten entre sí: un cliente valenciano aterriza en la versión inglesa y un comprador francés, en la castellana. El siguiente paso es llevar a cada uno a la página escrita para él, de modo que cada idioma que pagas se vea en los resultados.
 
 Lo comprobamos con una auditoría SEO de tu web y corregimos lo que lo provoca. Así cada versión gana a sus propios clientes, y tu inversión en contenido y traducción se convierte en consultas.
 

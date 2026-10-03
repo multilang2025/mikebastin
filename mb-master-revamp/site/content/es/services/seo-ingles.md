@@ -17,7 +17,7 @@ excerpt: "SEO en inglés para empresas de Valencia: páginas escritas en inglés
 
 Tu empresa está en Valencia y tus páginas en inglés trabajan para dos públicos. Uno está en el Reino Unido y en Irlanda, donde ya vendes o quieres vender. El otro vive en tu propia ciudad: una población internacional amplia que busca en inglés sus proveedores, sus servicios y sus profesionales. Con frecuencia esas páginas siguen en su primera traducción del español. El siguiente paso es escribirlas para el lector anglófono que compara proveedores: lee unos cuantos sitios, se queda con dos y escribe al que le habla como un proveedor local.
 
-El inglés suele ser el idioma con más volumen de búsqueda de toda tu web, y en Valencia se busca en castellano, en valenciano y en inglés. Una página escrita para el lector británico o para el residente internacional convierte ese volumen en solicitudes.
+El inglés suele ser el idioma con más volumen de búsqueda de toda tu web, y en Valencia se busca en castellano y en inglés. Una página escrita para el lector británico o para el residente internacional convierte ese volumen en solicitudes.
 
 <aside class="post-cta">
 <p><strong>¿Quieres que tus páginas en inglés te traigan solicitudes del Reino Unido y de tu propia ciudad?</strong> Escribimos directamente en inglés, para el mercado al que vendes. <a href="/es/contactanos/">Reserva una consulta gratuita</a>.</p>

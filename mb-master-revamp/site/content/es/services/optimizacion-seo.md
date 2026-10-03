@@ -18,7 +18,7 @@ excerpt: "Posicionamiento SEO en Valencia con un consultor SEO a tu lado: tu web
 
 Tu empresa trabaja en Valencia: atiendes a clientes de la ciudad y de su área metropolitana, y quizá vendes también en Francia, en Alemania o en el Reino Unido. Tu web existe, recibe visitas y las solicitudes de presupuesto llegan. El siguiente paso es que aparezca cada vez que un cliente busca lo que haces, en las palabras y en el idioma en que lo busca.
 
-El potencial ya está ahí. En Valencia se busca en castellano, en valenciano y en inglés, porque la ciudad tiene una gran población internacional, y cada público escribe sus propias palabras. Lo que queda por ganar se juega en dos puntos: las palabras que tus clientes escriben de verdad, y páginas que les hablen como una empresa de su ciudad. Si además exportas, el mismo trabajo se extiende a cada país donde vendes: es el SEO internacional, la segunda mitad de este servicio. Nuestra guía de [posicionamiento web en Valencia](/es/posicionamiento-web-valencia/) recoge cómo se busca en la ciudad, idioma por idioma.
+El potencial ya está ahí. En Valencia se busca en castellano y en inglés, porque la ciudad tiene una gran población internacional, y cada público escribe sus propias palabras. Lo que queda por ganar se juega en dos puntos: las palabras que tus clientes escriben de verdad, y páginas que les hablen como una empresa de su ciudad. Si además exportas, el mismo trabajo se extiende a cada país donde vendes: es el SEO internacional, la segunda mitad de este servicio. Nuestra guía de [posicionamiento web en Valencia](/es/posicionamiento-web-valencia/) recoge cómo se busca en la ciudad, idioma por idioma.
 
 A esto nos dedicamos desde hace más de dos décadas, medido por las consultas que recibes. Nuestra oficina está en Calle Rugat 12 - 2, 46021 Valencia, y podemos reunirnos contigo en persona. Si dudas entre contratar a un consultor SEO o a una agencia, nuestra guía sobre el [asesor de marketing digital](/es/asesor-marketing-digital/) te ayuda a decidir.
 
@@ -60,7 +60,7 @@ Una vez fijada la estrategia, una parte del trabajo es técnica, y es la que per
 
 ## Por qué mercado empezar
 
-Casi siempre, por el que tienes más cerca: las búsquedas de tu zona, en castellano, en valenciano o en inglés. Para la exportación, por el país donde las cifras ya son más alentadoras: el que envía visitas, donde la competencia resulta asequible y donde tu oferta encaja con lo que se busca. Medimos cada mercado candidato según la demanda, la competencia, el encaje comercial, el coste de la localización y las exigencias normativas, y después los ordenamos.
+Casi siempre, por el que tienes más cerca: las búsquedas de tu zona, en castellano o en inglés. Para la exportación, por el país donde las cifras ya son más alentadoras: el que envía visitas, donde la competencia resulta asequible y donde tu oferta encaja con lo que se busca. Medimos cada mercado candidato según la demanda, la competencia, el encaje comercial, el coste de la localización y las exigencias normativas, y después los ordenamos.
 
 Tres o cuatro mercados trabajados a fondo dan más resultados que nueve lanzados a la vez. Los siguientes llegan cuando los primeros muestran sus resultados. Si ya llevas varios idiomas en paralelo, nuestra página sobre el [SEO multilingüe](/es/services/posicionamiento-multilingue/) detalla cómo ordenamos y dirigimos un programa con varios mercados.
 

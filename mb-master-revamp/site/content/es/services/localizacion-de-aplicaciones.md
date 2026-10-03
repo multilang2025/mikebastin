@@ -16,7 +16,7 @@ excerpt: "Localización de apps en Valencia: traducción de apps y software con 
 
 ## Tu app hecha en Valencia, lista para cada idioma
 
-Desarrollas tu app o tu software en Valencia. Tus primeros usuarios están en la ciudad y la usan en castellano, en valenciano o en inglés, y el siguiente paso es Alemania, los Países Bajos o Francia. El texto llega más largo en alemán, algunos mercados leen de derecha a izquierda y las reseñas aparecen en idiomas nuevos para tu equipo. Los primeros puntos que arreglar están sobre todo en la interfaz: un botón que desborda, una etiqueta cortada, una fecha leída como el mes equivocado, un código postal local rechazado.
+Desarrollas tu app o tu software en Valencia. Tus primeros usuarios están en la ciudad y la usan en castellano o en inglés, y el siguiente paso es Alemania, los Países Bajos o Francia. El texto llega más largo en alemán, algunos mercados leen de derecha a izquierda y las reseñas aparecen en idiomas nuevos para tu equipo. Los primeros puntos que arreglar están sobre todo en la interfaz: un botón que desborda, una etiqueta cortada, una fecha leída como el mes equivocado, un código postal local rechazado.
 
 Cada punto resuelto protege tus descargas y tus reseñas en un mercado en el que ya has invertido. Un producto preparado desde el principio recibe cada idioma nuevo como un trabajo de contenido, y cada mercado siguiente cuesta menos que el anterior.
 

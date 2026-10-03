@@ -16,7 +16,7 @@ excerpt: "Redacción SEO en Valencia: páginas escritas a partir de lo que busca
 
 ## Páginas escritas como busca tu cliente en Valencia
 
-Tu cliente en Valencia te busca en castellano, en valenciano o en inglés, según quién sea, y escribe al proveedor cuya página responde a su pregunta con sus propias palabras. Si además vendes fuera, tu página en francés tiene que hablar como un comprador francés, que formula su problema con otras palabras y otras prioridades.
+Tu cliente en Valencia te busca en castellano o en inglés, según quién sea, y escribe al proveedor cuya página responde a su pregunta con sus propias palabras. Si además vendes fuera, tu página en francés tiene que hablar como un comprador francés, que formula su problema con otras palabras y otras prioridades.
 
 Escribir para cada lector te trae el tráfico y las consultas de cada público, y un sitio que se posiciona en cada idioma igual que se lee. Cada idioma tiene sus propias palabras clave, porque la manera de describir una necesidad cambia con el idioma además del vocabulario. Esa es la redacción SEO que hacemos desde Valencia: investigada en el idioma de quien busca y escrita para quien la va a leer.
 

@@ -10,7 +10,7 @@ wpId: null
 date: "2026-10-03"
 modified: "2026-10-03"
 sourceUrl: null
-excerpt: "Promociona tu negocio local en Google Maps en Valencia: ficha, reseñas y publicaciones en castellano, valenciano e inglés para que tu barrio te encuentre."
+excerpt: "Promociona tu negocio local en Google Maps en Valencia: ficha, reseñas y publicaciones en castellano e inglés para que tu barrio te encuentre."
 ---
 
 Alguien a dos calles de tu local, en Ruzafa, en Benimaclet o en Campanar, busca justo lo que ofreces y llama a una de las tres empresas que Google Maps enseña primero. El objetivo es que la tuya sea una de ellas, para que el teléfono suene tanto como puede sonar.
@@ -35,16 +35,14 @@ Una vez verificado, tu negocio aparece en Google Maps. Nuestro [SEO local en Val
 
 ## El idioma de cada búsqueda en Valencia
 
-Valencia busca en castellano, en valenciano y en inglés, y tu ficha gana cada vez que habla el idioma de quien busca. La ciudad tiene una gran población internacional, residentes y estudiantes que buscan en inglés todo el año, y vecinos que escriben en valenciano.
+Valencia busca en castellano y en inglés, y tu ficha gana cada vez que habla el idioma de quien busca. La ciudad tiene una gran población internacional, con residentes y estudiantes que buscan en inglés todo el año.
 
-Los barrios tienen además dos nombres. Ruzafa es también Russafa, El Carmen es El Carme, y los dos nombres aparecen en las búsquedas. Una ficha y una web que usan ambos los recogen todos.
-
-| Negocio de ejemplo | En castellano | En valenciano | En inglés |
-| --- | --- | --- | --- |
-| Peluquería en Ruzafa | peluquería Ruzafa | perruqueria Russafa | hairdresser Ruzafa |
-| Panadería en Benimaclet | panadería Benimaclet | forn Benimaclet | bakery Benimaclet |
-| Fisioterapia en Campanar | fisioterapeuta Campanar | fisioterapeuta Campanar | physiotherapist Campanar |
-| Restaurante en El Carmen | restaurante El Carmen | restaurant El Carme | restaurant old town Valencia |
+| Negocio de ejemplo | En castellano | En inglés |
+| --- | --- | --- |
+| Peluquería en Ruzafa | peluquería Ruzafa | hairdresser Ruzafa |
+| Panadería en Benimaclet | panadería Benimaclet | bakery Benimaclet |
+| Fisioterapia en Campanar | fisioterapeuta Campanar | physiotherapist Campanar |
+| Restaurante en El Carmen | restaurante El Carmen | restaurant old town Valencia |
 
 Google espera una sola ficha por dirección. Los idiomas se trabajan en la descripción, en las publicaciones y en las respuestas a las reseñas, y después en tu web, con una página por idioma. Nuestra guía de [posicionamiento web en Valencia](/es/posicionamiento-web-valencia/) explica cómo investigar esas palabras clave barrio a barrio.
 
@@ -77,7 +75,7 @@ Las reseñas son lo primero que lee un cliente cercano antes de llamar, y cuenta
 
 - **Pide reseñas.** Invita a tus clientes satisfechos en tus correos de seguimiento, en el ticket o en tus redes sociales.
 - **Responde a cada reseña.** Contestar a las positivas y a las negativas demuestra que escuchas, y genera confianza en quien las lee.
-- **Responde en su idioma.** Una reseña en inglés recibe la respuesta en inglés, y una en valenciano, en valenciano. Quien lee esas respuestas ve que en tu negocio le van a entender.
+- **Responde en su idioma.** Una reseña en inglés recibe la respuesta en inglés, y una en castellano, en castellano. Quien lee esas respuestas ve que en tu negocio le van a entender.
 
 ## Publicaciones de Google con el calendario de Valencia
 
@@ -130,13 +128,13 @@ Todo tu presupuesto de medios compra anuncios: va directo a Google, y la gestió
 Las cifras te dicen qué cambio trajo las llamadas. El informe de rendimiento de tu Perfil de Empresa muestra:
 
 - cuántas personas te encontraron en la búsqueda y en Maps
-- los términos que usaron, en castellano, en valenciano o en inglés
+- los términos que usaron, en castellano o en inglés
 - las llamadas, los clics a tu web y las solicitudes de ruta
 
 Usa esos datos para ajustar tu ficha y tus publicaciones. Si una búsqueda en inglés trae llamadas, dale más espacio en tu descripción y en tu web.
 
 ## Lo esencial
 
-Promocionar un negocio local en Google Maps en Valencia se reduce a una ficha verificada y completa, citas coherentes, un flujo constante de reseñas con sus respuestas, publicaciones al ritmo del calendario de la ciudad y, cuando quieres visibilidad rápida, anuncios. Hazlo en castellano, en valenciano y en inglés, y llegarás a todos los vecinos que te buscan.
+Promocionar un negocio local en Google Maps en Valencia se reduce a una ficha verificada y completa, citas coherentes, un flujo constante de reseñas con sus respuestas, publicaciones al ritmo del calendario de la ciudad y, cuando quieres visibilidad rápida, anuncios. Hazlo en castellano y en inglés, y llegarás a todos los vecinos que te buscan.
 
 Trabajamos desde nuestra oficina de Valencia, en la Calle Rugat 12 - 2, y llevamos, entre otros, el SEO de Delaguía y Luzón, un despacho de abogados de Valencia que atiende en cuatro idiomas. Si quieres que revisemos tu ficha en persona, [escríbenos](/es/contactanos/).

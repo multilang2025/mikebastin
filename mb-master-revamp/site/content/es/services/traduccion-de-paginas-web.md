@@ -16,7 +16,7 @@ excerpt: "Traducción de páginas web en Valencia: tu web adaptada a cada idioma
 
 ## Una web de Valencia que vende en cada idioma
 
-Tu empresa está en Valencia y tus clientes no hablan todos el mismo idioma. Quien te busca en la ciudad lo hace en castellano, en valenciano o en inglés, porque la ciudad tiene una gran población internacional. Si además vendes fuera, tus compradores franceses, alemanes o neerlandeses esperan encontrar lo mismo que en un proveedor de su país: los precios escritos como allí, un formulario con su código postal y sus medios de pago habituales.
+Tu empresa está en Valencia y tus clientes no hablan todos el mismo idioma. Quien te busca en la ciudad lo hace en castellano o en inglés, porque la ciudad tiene una gran población internacional. Si además vendes fuera, tus compradores franceses, alemanes o neerlandeses esperan encontrar lo mismo que en un proveedor de su país: los precios escritos como allí, un formulario con su código postal y sus medios de pago habituales.
 
 La traducción de páginas web, con la localización que la completa, da ese paso. Una web que se lee como local en cada idioma convierte el tráfico que ya tienes en consultas y pedidos, en tu ciudad y en cada mercado al que apuntas.
 

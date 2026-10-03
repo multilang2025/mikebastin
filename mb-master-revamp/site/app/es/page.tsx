@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   ...pageMeta({
     title: "Agencia SEO en Valencia, Mike Bastin",
     description:
-      "Agencia SEO en Valencia: te encuentran en castellano, valenciano e inglés, en tu ciudad y en cada mercado donde vendes. Consulta gratuita.",
+      "Agencia SEO en Valencia: te encuentran en castellano e inglés, en tu ciudad y en cada mercado donde vendes. Consulta gratuita.",
     path: PATH,
     languages: esLanguages(PATH),
     ogLocale: "es_ES",
@@ -45,7 +45,7 @@ const SERVICES_FOR: { slug: string; name: string; line: string }[] = [
   { slug: "optimizacion-seo", name: "Posicionamiento SEO", line: "Las búsquedas de tus clientes, investigadas una a una, y páginas que responden a cada una." },
   { slug: "seo-local", name: "SEO local", line: "Tu ficha de Google, tus reseñas y tus páginas por barrio, para salir entre los primeros del mapa." },
   { slug: "publicidad-multilingue", name: "Google Ads", line: "Tu presupuesto de medios va íntegro a tus anuncios, pagado directamente a Google, Microsoft o Meta; la gestión tiene una tarifa aparte." },
-  { slug: "posicionamiento-multilingue", name: "SEO multilingüe", line: "Castellano, valenciano, inglés y tus idiomas de exportación, cada uno con sus propias palabras clave." },
+  { slug: "posicionamiento-multilingue", name: "SEO multilingüe", line: "Castellano, inglés y tus idiomas de exportación, cada uno con sus propias palabras clave." },
   { slug: "traduccion-profesional", name: "Traducción jurada", line: "Documentos para tribunales, embajadas y extranjería, en uno a siete días según el documento." },
   { slug: "consultoria-de-inteligencia-artificial", name: "Consultoría de IA", line: "Procesos que se automatizan y una empresa que aparece en las respuestas de ChatGPT, Claude y Gemini." },
 ];
@@ -82,7 +82,7 @@ export default function SpanishHome() {
           </Reveal>
           <Reveal i={2}>
             <h2 className="mb-6 max-w-[40ch] text-[clamp(1.25rem,2.2vw,1.8rem)] font-medium leading-[1.3]" style={{ color: "var(--ink)" }}>
-              Te encuentran en castellano, en valenciano y en inglés, en tu ciudad y en cada mercado donde vendes.
+              Te encuentran en castellano y en inglés, en tu ciudad y en cada mercado donde vendes.
             </h2>
           </Reveal>
           <Reveal i={3}>

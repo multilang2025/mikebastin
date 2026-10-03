@@ -16,7 +16,7 @@ excerpt: "Optimiza tu Perfil de Empresa de Google en Valencia: categorías, rese
 
 Tu ficha de Google es lo primero que ve quien busca tu servicio cerca, en Ruzafa, en El Carmen o en Benimaclet: antes que tu web, a menudo antes que tu nombre. Un perfil al día, con fotos recientes y reseñas nuevas, te mantiene entre las tres empresas que Google enseña en el mapa, y ahí se deciden las llamadas y las reservas.
 
-Tu **Perfil de Empresa de Google en Valencia** lo leen clientes que buscan en castellano, en valenciano y en inglés, y una ficha que les habla a todos recibe las llamadas de todos. Tomamos como ejemplo un estudio de yoga en Valencia, y cada paso vale para cualquier negocio con local abierto al público. Nuestra guía de [posicionamiento web en Valencia](/es/posicionamiento-web-valencia/) completa el perfil con tu web, y la de [promocionar tu negocio local en Google Maps en Valencia](/es/promocionar-negocio-local-google-maps-valencia/) suma las reseñas, las publicaciones y los anuncios. Aquí tienes lo que cambió en el perfil entre 2024 y 2026, cómo dejarlo completo y qué revisar cada mes.
+Tu **Perfil de Empresa de Google en Valencia** lo leen clientes que buscan en castellano y en inglés, y una ficha que les habla a todos recibe las llamadas de todos. Tomamos como ejemplo un estudio de yoga en Valencia, y cada paso vale para cualquier negocio con local abierto al público. Nuestra guía de [posicionamiento web en Valencia](/es/posicionamiento-web-valencia/) completa el perfil con tu web, y la de [promocionar tu negocio local en Google Maps en Valencia](/es/promocionar-negocio-local-google-maps-valencia/) suma las reseñas, las publicaciones y los anuncios. Aquí tienes lo que cambió en el perfil entre 2024 y 2026, cómo dejarlo completo y qué revisar cada mes.
 
 ## Tu perfil, fuente de respuestas para la IA
 
@@ -65,7 +65,7 @@ Las categorías secundarias sirven de apoyo: añade solo lo que de verdad enseñ
 
 Tu descripción es materia prima para las respuestas de la IA: Gemini la lee, la coteja con tu web y la usa para responder en Maps.
 
-Escríbela en lenguaje claro y empieza por lo que enseñas, dónde lo enseñas y a quién atiendes. Incluye tus estilos, las certificaciones de tus profesores, los niveles de clase, los idiomas y tus talleres o retiros. En Valencia, decir que das clases en inglés o en valenciano te pone delante de quien busca en esos idiomas.
+Escríbela en lenguaje claro y empieza por lo que enseñas, dónde lo enseñas y a quién atiendes. Incluye tus estilos, las certificaciones de tus profesores, los niveles de clase, los idiomas y tus talleres o retiros. En Valencia, decir que das clases en inglés te pone delante de quien busca en ese idioma.
 
 Si partes de un texto sugerido, edítalo y añade los detalles que solo tú conoces: el linaje Ashtanga, la certificación prenatal, las clases bilingües de los martes.
 

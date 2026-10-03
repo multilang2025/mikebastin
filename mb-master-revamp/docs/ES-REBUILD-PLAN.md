@@ -13,9 +13,13 @@ serving Valencia and its surroundings, and one selling from Valencia into
 other markets. Each commercial page leads with its keyword **plus
 Valencia** in the h1, the meta title and the excerpt, and the body says why
 a Valencia office matters (meetings in person at Calle Rugat 12 - 2, local
-clients such as the Valencia law firm and ValenciaMove, Spanish, Valencian
-and English searches in one city). The export strand stays as a second
+clients such as the Valencia law firm and ValenciaMove, Spanish and
+English searches in one city). The export strand stays as a second
 reason to hire us, never the lead.
+
+**Valencian is not a target** (owner, 3 Oct 2026: "we could, but Valencian
+is not relevant"): the copy names castellano and English, never valenciano.
+**Meetings in person** at Calle Rugat 12 - 2 are offered (owner, same day).
 
 One page owns each term. Volumes are **not yet measured**: Ahrefs and
 Semrush were both out of API units on 3 Oct 2026, so the terms below are

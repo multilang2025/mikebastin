@@ -17,7 +17,7 @@ excerpt: "SEO local en Valencia: tu ficha, tus páginas y tus reseñas trabajada
 
 Tu empresa atiende a clientes en Valencia y en su área metropolitana. Quien busca tu servicio mira el mapa de Google y decide ahí: compara las reseñas de las tres empresas que aparecen y llama a una de ellas. La demanda se gana en esos tres huecos, y hacia ellos apuntamos. Si tienes también una oficina, un almacén o clientes habituales en otra ciudad, como Alicante, Bruselas o Róterdam, cada dirección se trabaja con el mismo método.
 
-En Valencia se busca en castellano, en valenciano y en inglés, porque la ciudad tiene una gran población internacional, y ahí ganas por partida doble. Una ficha que habla a cada público en su idioma llega a todos a la vez, y la empresa que añade el segundo idioma se queda con los dos. Nuestra guía de [posicionamiento web en Valencia](/es/posicionamiento-web-valencia/) lo aplica barrio a barrio.
+En Valencia se busca en castellano y en inglés, porque la ciudad tiene una gran población internacional, y ahí ganas por partida doble. Una ficha que habla a cada público en su idioma llega a todos a la vez, y la empresa que añade el segundo idioma se queda con los dos. Nuestra guía de [posicionamiento web en Valencia](/es/posicionamiento-web-valencia/) lo aplica barrio a barrio.
 
 El resultado llega con discreción, unas cuantas llamadas más por semana, y se acumula mes a mes. Por eso lo medimos ciudad por ciudad, para que veas lo que te aporta cada dirección.
 

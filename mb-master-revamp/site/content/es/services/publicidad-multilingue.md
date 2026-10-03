@@ -16,7 +16,7 @@ excerpt: "Agencia de Google Ads en Valencia: campañas en el idioma de cada clie
 
 ## Anuncios que traen consultas en tu ciudad y en cada mercado
 
-Tu empresa vende en Valencia y en su área, y quizá también en Francia, en Bélgica o en el Reino Unido. Google Ads llega hoy mismo a quien busca tu oferta, en el idioma de su búsqueda, mientras tu posicionamiento orgánico se construye. En Valencia ese idioma puede ser el castellano, el valenciano o el inglés, y cada uno rinde mejor con su propia campaña.
+Tu empresa vende en Valencia y en su área, y quizá también en Francia, en Bélgica o en el Reino Unido. Google Ads llega hoy mismo a quien busca tu oferta, en el idioma de su búsqueda, mientras tu posicionamiento orgánico se construye. En Valencia ese idioma puede ser el castellano o el inglés, y cada uno rinde mejor con su propia campaña.
 
 Cada mercado tiene su propio presupuesto y sus propios resultados. Ves qué idioma rinde, cuál necesita todavía trabajo, y el dinero va donde produce consultas. Una campaña escrita para su mercado recoge las palabras que la gente escribe de verdad allí, se lee con naturalidad y lleva a una página que se parece a ellos: eso convierte un clic de pago en una solicitud de presupuesto.
 
