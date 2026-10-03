@@ -1,7 +1,7 @@
 ---
 words: 772
-title: "EEAT ou AEAT : la coquille qui change un audit SEO en contrôle fiscal"
-metaTitle: "EEAT ou AEAT : quand l’audit SEO devient fiscal"
+title: "EEAT ou AEAT : la coquille qui change un audit SEO en contrôle fiscal"
+metaTitle: "EEAT ou AEAT : quand l’audit SEO devient fiscal"
 slug: "eeat-ou-aeat"
 locale: "fr"
 type: "posts"
@@ -10,7 +10,7 @@ wpId: null
 date: "2026-10-03"
 modified: "2026-10-03"
 sourceUrl: null
-excerpt: "EEAT ou AEAT : une lettre sépare le test de confiance de Google du fisc espagnol. Une anecdote du SEO en Espagne et les vérifications qui en découlent."
+excerpt: "EEAT ou AEAT : une lettre sépare le test de confiance de Google du fisc espagnol. Une anecdote du SEO en Espagne et les vérifications qui en découlent."
 ---
 
 Si vous vendez en Espagne, deux sigles séparés par une seule lettre décident de votre année. EEAT décide si Google fait confiance à votre site. AEAT décide si l’administration fiscale espagnole fait confiance à vos comptes. Gardez-les bien distincts dans une proposition commerciale, et vous promettez le bon audit.
@@ -29,7 +29,7 @@ La confusion arrive vite. Nous optimisions l’E-E-A-T d’un cabinet d’avocat
 
 ## EEAT, le juge Google
 
-Pour un cabinet d’avocats, l’EEAT décide si Google vous montre à un futur client. Le contenu juridique relève des sujets YMYL (Your Money or Your Life), que Google manie comme une arme chargée. Chaque signal compte pour la visibilité : la confiance construit l’autorité, et l’autorité construit les positions.
+Pour un cabinet d’avocats, l’EEAT décide si Google vous montre à un futur client. Le contenu juridique relève des sujets YMYL (Your Money or Your Life), que Google manie comme une arme chargée. Chaque signal compte pour la visibilité : la confiance construit l’autorité, et l’autorité construit les positions.
 
 Alors vous optimisez les biographies d’auteurs. Vous affinez le ton. Vous ajoutez des références. Vous consolidez la cohérence des entités. Vous murmurez quelques prières à l’intention des évaluateurs de qualité.
 
@@ -37,7 +37,7 @@ Tel est le rituel quotidien d’un SEO sérieux. Calme. Concentré. Légèrement
 
 ## AEAT, le juge espagnol
 
-Pour toute entreprise qui facture en Espagne, l’AEAT est le sigle que vous apprenez en premier, et le plus vite. Elle s’intéresse à la numérotation de vos factures et à sa logique ; la structure des contenus relève du département de Google.
+Pour toute entreprise qui facture en Espagne, l’AEAT est le sigle que vous apprenez en premier, et le plus vite. Elle s’intéresse à la numérotation de vos factures et à sa logique ; la structure des contenus relève du département de Google.
 
 Les deux envoient des messages. L’un arrive dans Search Console. L’autre arrive dans votre boîte aux lettres, avec une typographie très officielle.
 
@@ -51,11 +51,11 @@ Puis un jour, vos doigts tapent AEAT là où vous pensiez EEAT.
 
 ## La coquille EEAT et AEAT, au ralenti
 
-Tout commence petit. Un message Slack à un collègue : « Le client veut des signaux AEAT plus forts sur le site. » Silence.
+Tout commence petit. Un message Slack à un collègue : « Le client veut des signaux AEAT plus forts sur le site. » Silence.
 
-Une diapositive de présentation : « Optimiser l’AEAT pour la crédibilité juridique. » Le client hausse un sourcil.
+Une diapositive de présentation : « Optimiser l’AEAT pour la crédibilité juridique. » Le client hausse un sourcil.
 
-Un projet de proposition : « Audit AEAT complet inclus. » Le service financier, tout à coup, s’y intéresse de très près.
+Un projet de proposition : « Audit AEAT complet inclus. » Le service financier, tout à coup, s’y intéresse de très près.
 
 Les soirées tardives augmentent les risques. Le café abaisse les défenses. Et soudain, votre document SEO se lit comme un rapport de conformité fiscale.
 
@@ -71,7 +71,7 @@ Faire du SEO juridique en Espagne, c’est respecter les deux juges. Tous deux r
 
 ## Les signaux EEAT d’un site juridique en plusieurs langues
 
-Derrière la plaisanterie, la liste de contrôle est sérieuse. Sur un site juridique publié en français et en espagnol, la confiance se construit page par page, et dans chaque langue :
+Derrière la plaisanterie, la liste de contrôle est sérieuse. Sur un site juridique publié en français et en espagnol, la confiance se construit page par page, et dans chaque langue :
 
 - **Des auteurs identifiables.** Chaque article porte le nom d’un avocat du cabinet, sa spécialité et un lien vers sa biographie, dans la langue de la page.
 - **Des sources citées.** Les textes de loi et les décisions sont référencés avec précision, et la version espagnole renvoie aux sources espagnoles.
@@ -82,11 +82,11 @@ Derrière la plaisanterie, la liste de contrôle est sérieuse. Sur un site juri
 Côté technique, chaque version doit être indexée et reliée à ses équivalents. Une [checklist d’audit SEO technique](/fr/checklist-audit-seo-technique/) permet de vérifier les balises hreflang, les URL canoniques et les pages bloquées avant de travailler les signaux de confiance. Et si le marché espagnol est votre priorité, notre [SEO en Espagne pour entreprises francophones](/fr/services/seo-espagnol/) prend en charge les mots-clés, les pages et les liens pensés pour l’acheteur espagnol.
 
 <aside class="post-cta">
-<p><strong>Vous publiez en espagnol et en français, et voulez que les deux versions travaillent pour vous ?</strong> Notre <a href="/fr/services/seo-technique/">SEO technique pour sites multilingues</a> repère où vos versions de langue se concurrencent, et corrige la cause pour qu’elles s’additionnent. <a href="/fr/nous-contacter/">Réservez un premier échange</a>.</p>
+<p><strong>Vous publiez en espagnol et en français, et voulez que les deux versions travaillent pour vous ?</strong> Notre <a href="/fr/services/seo-technique/">SEO technique pour sites multilingues</a> repère où vos versions de langue se concurrencent, et corrige la cause pour qu’elles s’additionnent. <a href="/fr/nous-contacter/">Réservez un premier échange</a>.</p>
 </aside>
 
 ## Vérifiez vos sigles
 
-Si vous faites du SEO en Espagne, vous avez vécu ce moment, ou vous le vivrez. Alors vérifiez vos sigles, enregistrez vos documents, dormez davantage, et réservez « l’optimisation AEAT » aux e-mails destinés à votre expert-comptable.
+Si vous faites du SEO en Espagne, vous avez vécu ce moment, ou vous le vivrez. Alors vérifiez vos sigles, enregistrez vos documents, dormez davantage, et réservez « l’optimisation AEAT » aux e-mails destinés à votre expert-comptable.
 
 Si l’histoire vous a semblé familière, notre guide des [bonnes pratiques du SEO multilingue](/fr/bonnes-pratiques-seo-multilingue/) couvre le versant le plus serein du travail entre plusieurs langues.
