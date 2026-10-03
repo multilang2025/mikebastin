@@ -10,28 +10,28 @@ wpId: null
 date: "2026-10-03"
 modified: "2026-10-03"
 sourceUrl: null
-excerpt: "URL limpias en alemán, versiones para Alemania, Austria y Suiza, y páginas rápidas en el móvil: los ajustes técnicos que hacen que tu web se lea y venda."
+excerpt: "SEO técnico para tu web en alemán: URL limpias, versiones para Alemania, Austria y Suiza, y páginas rápidas en el móvil que retienen al comprador."
 ---
 
-Ya vendes en Alemania y tus páginas en alemán están bien escritas. La capa técnica que hay debajo decide cuántos compradores alemanes llegan a leerlas. Cuando está bien ajustada, la versión alemana aparece en Alemania y la suiza en Suiza, un enlace reenviado por correo se ve limpio y la página carga rápido en un móvil, en el tren entre Colonia y Fráncfort. Cada uno de esos puntos mantiene a tus visitantes alemanes en la página.
+Ya vendes en Alemania y tus páginas en alemán están bien escritas. La capa técnica que hay debajo decide cuántos compradores alemanes llegan a leerlas. Cuando está bien ajustada, la versión alemana aparece en Alemania y la suiza en Suiza, un enlace reenviado por correo se ve limpio y la página carga rápido en un móvil, en el tren entre Colonia y Fráncfort.
 
-Los ajustes suelen ser pequeños, y son propios del mercado de habla alemana. Para la estrategia completa (buscadores, palabras clave, contenido y enlaces), nuestra guía de [SEO en Alemania](/es/seo-en-alemania/) cubre el mercado. Aquí entramos en los ajustes: la estructura de las URL, las versiones regionales para Alemania, Austria y Suiza, la velocidad, el móvil y el orden en que conviene abordarlos para un [SEO en alemán](/es/services/seo-aleman/) que dé resultados.
+Los ajustes suelen ser pequeños, y son propios del mercado de habla alemana. Para la estrategia completa (buscadores, palabras clave, contenido y enlaces), nuestra guía de [SEO en Alemania](/es/seo-en-alemania/) cubre el mercado. Aquí entramos en los ajustes: la estructura de las URL, las versiones regionales para Alemania, Austria y Suiza, la velocidad, el móvil y el orden en que conviene abordarlos para un [posicionamiento en Alemania que dé resultados](/es/services/seo-aleman/).
 
 ## URL en alemán limpias y legibles
 
 Una URL suele ser lo primero que ve un comprador, en los resultados o en un enlace que le pasa un compañero. Una URL limpia en alemán gana clics y confianza, y demuestra que la página se hizo para lectores alemanes.
 
-La estructura de las URL es uno de los cimientos del [SEO técnico](/es/services/seo-tecnico/), y el alemán añade unas cuantas reglas propias del idioma.
+La estructura de las URL es uno de los cimientos del [SEO técnico de una web multilingüe](/es/services/seo-tecnico/), y el alemán añade unas cuantas reglas propias del idioma.
 
 ### Escribir las URL en alemán
 
-Escribe las URL en alemán cuando te diriges a Alemania. Reflejan el contenido en el idioma del lector y refuerzan la relevancia de la página para las búsquedas en alemán.
+Escribe las URL en alemán cuando te diriges a Alemania: refuerzan la relevancia de la página para las búsquedas en alemán.
 
 El caso que más vemos en empresas españolas y latinoamericanas: la carpeta `/de/` copia las direcciones de la web en español, y la página alemana se llama `/de/servicios-seguros`. Una dirección como `/de/versicherung-dienstleistungen` encaja mucho mejor con los términos que escriben los compradores alemanes. Prepara la redirección 301 de la dirección antigua a la nueva en el momento del cambio.
 
 ### Transcribir las diéresis y la ß
 
-El alemán tiene diéresis (ä, ö, ü) y la ß, que aparecen codificadas con porcentajes cuando se copia o se comparte una URL. Google sabe leerlas, y la forma codificada se ve ilegible en un correo, una hoja de cálculo o algunas herramientas de analítica.
+El alemán tiene diéresis (ä, ö, ü) y la ß, que aparecen codificadas con porcentajes cuando se copia o se comparte una URL. Google sabe leerlas, pero la forma codificada se ve ilegible en un correo, una hoja de cálculo o algunas herramientas de analítica.
 
 Por eso la mayoría de las webs alemanas las transcriben:
 
@@ -60,7 +60,7 @@ Si vendes en Alemania, Austria y Suiza, unas etiquetas hreflang correctas muestr
 
 ### Qué hacen las etiquetas hreflang
 
-Las etiquetas hreflang indican a los buscadores qué versión de idioma y de región de una página deben servir, según el idioma o la ubicación del usuario. Con ellas en su sitio, un comprador en Austria o en Suiza ve la versión escrita para él. Nuestra guía de [SEO técnico para sitios multilingües](/es/seo-tecnico-para-sitios-multilingues/) explica las tres formas de declararlas.
+Las etiquetas hreflang indican a los buscadores qué versión de idioma y de región de una página deben servir, según el idioma o la ubicación del usuario. Con ellas en su sitio, un comprador en Austria o en Suiza ve la versión escrita para él. Nuestra guía de [ajustes hreflang para sitios multilingües](/es/seo-tecnico-para-sitios-multilingues/) explica las tres formas de declararlas.
 
 ### Las variantes de alemán que conviene etiquetar
 
@@ -97,13 +97,11 @@ Decide primero qué variantes de alemán necesitas de verdad, y después etiqué
 >
 > Fuente: [Google Search Central, «Informar a Google sobre las versiones localizadas de tu página»](https://developers.google.com/search/docs/specialty/international/localized-versions)
 
-Bien configuradas, las etiquetas llevan a cada usuario a la versión de tu contenido que más le conviene.
-
 ### Mantener diferenciadas las versiones regionales
 
-Con hreflang, los buscadores leen varias versiones casi idénticas en alemán (una para Alemania y otra para Austria, por ejemplo) como versiones regionales de una misma página, y cada una puede posicionarse; sin etiquetas, se tratan como duplicados. Unas etiquetas correctas hacen que la versión adecuada aparezca en el país adecuado y mantienen unida la autoridad SEO de tu web.
+Con hreflang, los buscadores leen varias versiones casi idénticas en alemán (una para Alemania y otra para Austria, por ejemplo) como versiones regionales de una misma página, y cada una puede posicionarse; las etiquetas evitan que se traten como duplicados y mantienen unida la autoridad SEO de tu web.
 
-### Qué revisar
+### Comprobar la coherencia de las etiquetas
 
 Comprueba que las etiquetas son coherentes entre versiones, que las referencias son recíprocas y que los códigos de idioma son válidos. Cada página de idioma tiene que citar a las demás versiones y a sí misma. Search Console retiró su informe de segmentación internacional, así que revisa tu configuración con un rastreador o con una herramienta específica para probar hreflang.
 
@@ -111,13 +109,9 @@ Comprueba que las etiquetas son coherentes entre versiones, que las referencias 
 <p><strong>¿Quieres que tus páginas austriacas, suizas y alemanas se posicionen cada una en su país?</strong> Nuestro <a href="/es/services/seo-tecnico/">SEO técnico para sitios multilingües</a> comprueba si tus versiones de idioma suman, y corrige lo que las separa. <a href="/es/contactanos/">Reserva una primera llamada</a>.</p>
 </aside>
 
-## Velocidad de la web en el mercado alemán
+## Páginas rápidas que retienen al comprador alemán
 
-El usuario alemán espera webs rápidas y fiables, y una página rápida lo mantiene hasta que envía su consulta. La experiencia de página forma parte de la clasificación de Google desde hace años, medida con las **Core Web Vitals**: carga, interactividad y estabilidad visual.
-
-### Por qué la velocidad cuenta en Alemania
-
-Una página rápida retiene a los visitantes que están listos para leer tu oferta. La velocidad es un factor de SEO técnico, y también influye directamente en la satisfacción del usuario y en las ventas.
+Una página rápida retiene al comprador alemán hasta que envía su consulta. La experiencia de página forma parte de la clasificación de Google desde hace años, medida con las **Core Web Vitals**: carga, interactividad y estabilidad visual.
 
 ### Los umbrales de las Core Web Vitals
 
@@ -133,7 +127,7 @@ Google fija un umbral para cada una de las tres **Core Web Vitals**. Interaction
 >
 > Fuente: [web.dev (Google), Web Vitals](https://web.dev/articles/vitals)
 
-### Palancas de velocidad
+### Tres palancas para acelerar tus páginas
 
 **Compresión de imágenes y carga diferida:**  
 Las imágenes son el punto de partida habitual. Comprímelas con una herramienta como TinyPNG para reducir su peso con el mismo aspecto, y cárgalas en diferido, de modo que cada imagen se cargue justo cuando va a entrar en pantalla.
@@ -144,9 +138,9 @@ Elimina los espacios sobrantes, los comentarios y el código redundante de tus a
 **Red de distribución de contenidos (CDN):**  
 Una CDN sirve tus páginas desde un servidor cercano al usuario. Aporta más cuando tu web en alemán tiene compradores en Alemania, Austria, Suiza y el resto de Europa, y cuando la web está alojada en España o en Latinoamérica.
 
-## El móvil para el usuario alemán
+## Una versión móvil a la altura de la de escritorio
 
-La mayoría de las búsquedas se hacen ya desde el móvil, también en alemán, así que una web móvil sólida gana compradores y posiciones a la vez. La **optimización móvil** es una parte central del SEO técnico.
+La mayoría de las búsquedas se hacen ya desde el móvil, también en alemán, así que una web móvil sólida gana compradores y posiciones a la vez.
 
 ### Google clasifica tu versión móvil
 
@@ -155,12 +149,12 @@ Google rastrea y clasifica la versión móvil de tu web. Las posiciones siguen a
 ### Diseño para el usuario alemán en el móvil
 
 **Diseño adaptable:**  
-Un diseño adaptable se ajusta a la pantalla, y el comprador tiene la misma experiencia en móvil, tableta y ordenador. Hoy es lo estándar.
+Un diseño adaptable se ajusta a la pantalla, y el comprador tiene la misma experiencia en móvil, tableta y ordenador.
 
 **Navegación móvil:**  
 El usuario alemán espera una navegación intuitiva en el móvil. Haz que menús, botones y llamadas a la acción sean fáciles de pulsar, y mantén un diseño despejado.
 
-### AMP (accelerated mobile pages)
+### AMP, útil sobre todo para medios de noticias
 
 Las páginas AMP son una versión reducida de tu contenido, pensada para cargar rápido en el móvil. Google dejó de exigir AMP para todas sus funciones de búsqueda, Top Stories incluida, así que a la mayoría de las webs en alemán les rinde más hacer rápidas sus páginas normales.
 
@@ -178,8 +172,6 @@ La cobertura 5G de Alemania se amplía, y muchos usuarios siguen navegando con c
 <p><strong>¿Ajustes técnicos hechos y lista tu web para más consultas desde Alemania?</strong> Nuestra <a href="/es/services/seo-aleman/">agencia de SEO en alemán</a> audita tus páginas en alemán frente a tres competidores alemanes directos y acuerda contigo un plan en español. <a href="/es/contactanos/">Cuéntanos cómo es tu web en alemán</a>.</p>
 </aside>
 
-## Por dónde empezar
+## El orden de trabajo que da resultados antes
 
-El [SEO técnico](/es/seo-tecnico-para-sitios-multilingues/) decide si tu contenido en alemán tiene su oportunidad de vender. URL limpias, etiquetas hreflang correctas, páginas rápidas y una buena experiencia móvil suben las posiciones y mejoran la experiencia del comprador una vez que llega.
-
-Empieza por las versiones regionales si vendes en más de un país de habla alemana, y sigue con la velocidad y el móvil. Sigue revisando a medida que cambia la búsqueda, y combina el trabajo técnico con el contenido y los enlaces que cubre nuestra guía del [mercado alemán](/es/seo-en-alemania/).
+Empieza por las versiones regionales si vendes en más de un país de habla alemana, y sigue con la velocidad y el móvil. Nuestra [lista de auditoría de SEO técnico](/es/lista-de-auditoria-seo-tecnica/) te ayuda a revisar cada punto a medida que cambia la búsqueda. Combina después el trabajo técnico con el contenido y los enlaces que cubre nuestra guía del mercado alemán.

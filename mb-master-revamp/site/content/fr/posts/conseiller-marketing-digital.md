@@ -1,7 +1,7 @@
 ---
 words: 2406
 title: "Conseiller en marketing digital ou agence : ce dont votre entreprise a besoin"
-metaTitle: "Conseiller en marketing digital ou agence : que choisir ?"
+metaTitle: "Conseiller en marketing digital ou agence : que choisir ?"
 slug: "conseiller-marketing-digital"
 locale: "fr"
 type: "posts"
@@ -10,7 +10,7 @@ wpId: null
 date: "2026-10-03"
 modified: "2026-10-03"
 sourceUrl: null
-excerpt: "Votre budget marketing augmente et vous voulez que les demandes suivent. Voici comment savoir s’il vous faut d’abord un conseiller ou une agence."
+excerpt: "Conseiller en marketing digital ou agence : sachez lequel engager d’abord pour que vos demandes de devis suivent la hausse de votre budget."
 ---
 
 Votre budget marketing a augmenté, et l’étape suivante, ce sont des demandes de devis qui progressent au même rythme, en France comme sur vos marchés en Espagne, au Benelux ou en Allemagne. La réponse se trouve soit dans le plan, soit dans les personnes qui l’exécutent, et vous êtes sur le point de recruter pour l’un des deux.
@@ -80,7 +80,7 @@ Choisissez un conseiller quand la stratégie est le goulet d’étranglement : 
 - **Votre secteur change.** ChatGPT, Claude et Perplexity transforment les comportements de recherche plus vite que beaucoup d’équipes ne s’adaptent. Les mises à jour de Google et l’essor de l’[optimisation pour les moteurs génératifs](/fr/seo-au-geo/) demandent de choisir les paris à prendre en premier.
 
 <aside class="post-cta">
-<p><strong>Votre trafic arrive en plusieurs langues : vous voulez des demandes dans chacune d’elles ?</strong> Notre <a href="/fr/services/referencement-multilingue/">référencement multilingue</a> fait travailler chaque version de langue de votre site sur son propre marché. <a href="/fr/nous-contacter/">Réservez un premier échange</a>.</p>
+<p><strong>Votre trafic arrive en plusieurs langues : vous voulez des demandes dans chacune d’elles ?</strong> Notre <a href="/fr/services/referencement-multilingue/">référencement multilingue</a> fait travailler chaque version de langue de votre site sur son propre marché. <a href="/fr/nous-contacter/">Réservez un premier échange</a>.</p>
 </aside>
 
 ## Quand votre entreprise a besoin d’une agence
@@ -99,7 +99,7 @@ Choisissez une agence quand l’exécution est le goulet d’étranglement : qu
 **Coût caché de l’agence : le temps de pilotage.** Quelqu’un chez vous doit encore lire les rapports dans Looker Studio, valider les créations et garder l’agence alignée sur le ton de la marque. Demandez qui réalisera le travail au quotidien, au-delà des seniors présents lors de la présentation commerciale.
 
 <aside class="post-cta">
-<p><strong>Vous voulez que tout votre budget publicitaire achète de la publicité ?</strong> Quand notre <a href="/fr/services/sem-multilingue/">SEA multilingue</a> comprend du référencement payant, tout votre budget média achète des annonces : il va directement à Google, Microsoft ou Meta, et la gestion fait l’objet d’honoraires distincts. Le principe couvre les dépenses média ; la rédaction et la traduction sont chiffrées comme un prix pour le travail. <a href="/fr/nous-contacter/">Demandez-nous comment la facturation fonctionne</a>.</p>
+<p><strong>Vous voulez que tout votre budget publicitaire achète de la publicité ?</strong> Quand notre <a href="/fr/services/sem-multilingue/">SEA multilingue</a> comprend du référencement payant, tout votre budget média achète des annonces : il va directement à Google, Microsoft ou Meta, et la gestion fait l’objet d’honoraires distincts. Le principe couvre les dépenses média ; la rédaction et la traduction sont chiffrées comme un prix pour le travail. <a href="/fr/nous-contacter/">Demandez-nous comment la facturation fonctionne</a>.</p>
 </aside>
 
 ## Le modèle hybride que choisissent la plupart des entreprises
@@ -109,7 +109,7 @@ Pour la plupart des entreprises en croissance, la réponse est les deux : les E
 <figure class="post-fig">
 <svg viewBox="0 0 400 190" role="img" aria-label="Un arbre de décision : si la stratégie est le goulet d’étranglement, prenez un conseiller ; si c’est l’exécution, une agence ; si ce sont les deux, un modèle hybride.">
 <rect x="70" y="8" width="260" height="42" rx="6" class="fg-box"/>
-<text x="200" y="35" text-anchor="middle" class="fg-text">Où est le blocage ?</text>
+<text x="200" y="35" text-anchor="middle" class="fg-text">Où est le blocage ?</text>
 <line x1="200" y1="50" x2="200" y2="100" class="fg-line"/>
 <line x1="70" y1="76" x2="330" y2="76" class="fg-line"/>
 <line x1="70" y1="76" x2="70" y2="100" class="fg-line"/>
@@ -139,9 +139,9 @@ Répondez à ces trois questions avant de vous engager.
 
 | Question | Oriente vers un conseiller | Oriente vers une agence |
 |---|---|---|
-| **Où est le goulet d’étranglement ?** | Vous décidez quoi faire | Vous savez quoi faire et avez besoin que ce soit fait |
-| **Quel est votre budget sur 12 mois ?** | Serré, il doit tirer plus des ressources existantes | Plus large, réservé à la croissance sur plusieurs canaux |
-| **À quoi ressemble votre équipe ?** | Deux ou trois marketeurs débordés | Une équipe marketing encore à constituer |
+| **Où est le goulet d’étranglement ?** | Vous décidez quoi faire | Vous savez quoi faire et avez besoin que ce soit fait |
+| **Quel est votre budget sur 12 mois ?** | Serré, il doit tirer plus des ressources existantes | Plus large, réservé à la croissance sur plusieurs canaux |
+| **À quoi ressemble votre équipe ?** | Deux ou trois marketeurs débordés | Une équipe marketing encore à constituer |
 
 ## Vers où va le marché
 

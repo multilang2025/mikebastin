@@ -106,7 +106,7 @@ Un réseau dont vous gardez la trace continue de grandir. Quelques outils consig
 Quel que soit le CRM choisi, cherchez l’étiquetage des contacts, l’historique des échanges et les rappels, pour voir d’un coup d’œil à qui écrire après six mois de silence. La synchronisation avec les réseaux sociaux épargne des heures de mise à jour manuelle.
 
 <aside class="post-cta">
-<p><strong>Vous voulez savoir quel marché vous envoie chaque demande reçue par votre site ?</strong> Nos <a href="/fr/services/referencement-multilingue/">programmes de référencement multilingue</a> mesurent les demandes que chaque marché et chaque langue apportent à votre équipe. <a href="/fr/nous-contacter/">Réservez un premier échange</a>.</p>
+<p><strong>Sachez quel marché vous envoie chaque demande reçue par votre site.</strong> Nos programmes de référencement multilingue mesurent les demandes que chaque marché et chaque langue apportent à votre équipe. <a href="/fr/services/referencement-multilingue/">Découvrir le référencement multilingue</a> ou <a href="/fr/nous-contacter/">réserver un premier échange</a>.</p>
 </aside>
 
 ## Aborder les moments délicats du networking

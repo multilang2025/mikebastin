@@ -16,7 +16,7 @@ Votre entreprise achète des liens, ou une agence vous conseille de le faire, et
 
 Nous travaillons autour du marché des liens depuis plus de deux décennies. La liste ci-dessous réunit les plateformes que nous avons utilisées ou vu utiliser par des clients, avec les compromis observés : certaines sont excellentes, d’autres utiles pour des niches précises, et quelques-unes sont à laisser de côté pour qui vise des positions durables.
 
-**Contexte à connaître :** acheter des liens qui transmettent du crédit de classement enfreint les règles de Google relatives au spam (qui font partie de Google Search Essentials, les anciennes consignes aux webmasters). Le système **SpamBrain** de Google sait détecter et neutraliser (voire pénaliser) les schémas de liens artificiels. Le SEO le plus solide repose sur des liens éditoriaux obtenus, sur les relations presse numériques et sur des contenus que d’autres sites ont réellement envie de citer, comme le montre notre guide du [netlinking éditorial en Espagne](/fr/netlinking-en-espagne/).
+**Contexte à connaître :** acheter des liens qui transmettent du crédit de classement enfreint les règles de Google relatives au spam (qui font partie de Google Search Essentials, les anciennes consignes aux webmasters). Le système **SpamBrain** de Google sait détecter et neutraliser (voire pénaliser) les schémas de liens artificiels. Le SEO le plus solide repose sur des liens éditoriaux obtenus, sur les relations presse numériques et sur des contenus que d’autres sites ont réellement envie de citer, comme le montre notre guide du [netlinking éditorial en Espagne](/fr/netlinking-en-espagne/).
 
 ## Ce que la vente d’emplacements révèle d’un éditeur
 
@@ -46,7 +46,7 @@ Si vous avez acheté des liens avant 2022, vérifiez lesquels comptent encore. J
 >
 > Source : [Google Search Central Blog, « December 2022 link spam update », 14 décembre 2022](https://developers.google.com/search/blog/2022/12/december-22-link-spam-update)
 
-**SpamBrain** est le système de prévention du spam de Google fondé sur l’IA, et il repère les schémas de liens artificiels à grande échelle. Les liens bon marché sont de plus en plus souvent ignorés par l’algorithme. Pour un acheteur, les contrôles de qualité passent donc en premier, car un emplacement neutralisé n’a aucun effet sur le classement.
+**SpamBrain** est le système de prévention du spam de Google fondé sur l’IA, et il repère les schémas de liens artificiels à grande échelle. Les liens bon marché sont toujours plus souvent ignorés par l’algorithme. Pour un acheteur, les contrôles de qualité passent donc en premier, car un emplacement neutralisé n’a aucun effet sur le classement.
 
 Les mises à jour suivantes de Google contre le spam vont dans le même sens. Les sites continuent de se positionner, et la valeur des liens de faible qualité est ramenée à zéro, comme l’expliquent les [règles de Google Search Essentials relatives au spam](https://developers.google.com/search/docs/essentials/spam-policies).
 
@@ -83,7 +83,7 @@ Une heure de contrôles avant de payer protège une année de budget de publicat
 </figure>
 
 <aside class="post-cta">
-<p><strong>Vous voulez des liens que vous pouvez vérifier un par un ?</strong> Le netlinking de notre <a href="/fr/services/seo-technique/">service de SEO technique</a> reste en white hat : liens éditoriaux, pages ressources et articles invités sur des sites au trafic réel et à la ligne éditoriale réelle. <a href="/fr/nous-contacter/">Réservez un premier échange</a>.</p>
+<p><strong>Vous voulez des liens que vous pouvez vérifier un par un ?</strong> Le netlinking de notre <a href="/fr/services/seo-technique/">service de SEO technique</a> reste en white hat : liens éditoriaux, pages ressources et articles invités sur des sites au trafic réel et à la ligne éditoriale réelle. <a href="/fr/nous-contacter/">Réservez un premier échange</a>.</p>
 </aside>
 
 ## Plateformes d’achat et de vente de liens : la liste de travail

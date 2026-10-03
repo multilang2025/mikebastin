@@ -9,7 +9,7 @@ wpId: null
 date: "2026-10-03"
 modified: "2026-10-03"
 sourceUrl: null
-excerpt: "Présentez votre parcours en marketing digital pour que les premières secondes de lecture vous vendent, sur un CV, sur LinkedIn ou sur votre site."
+excerpt: "Rédigez votre parcours professionnel en marketing digital pour que les premières secondes de lecture vous vendent, sur un CV, LinkedIn ou votre site."
 ---
 
 Un client qui hésite entre deux agences, ou un recruteur face à quarante CV, accorde quelques secondes à votre parcours professionnel. Ouvrez ces secondes sur des résultats et vous décrochez le rendez-vous grâce à votre expérience. En marketing digital, où tout le monde revendique les mêmes outils, la façon de présenter votre expérience décide de qui reçoit l’appel.
@@ -135,7 +135,7 @@ Les réalisations sont ce dont le lecteur se souvient une fois la page fermée 
 Le contexte transforme un chiffre en une histoire que le lecteur peut se représenter. Transformez « Hausse du trafic » en « Conception d’une stratégie SEO qui a augmenté le trafic organique de [X] % en six mois et a aidé l’entreprise à réaliser son meilleur trimestre ».
 
 <aside class="post-cta">
-<p><strong>Vos équipes obtiennent de bons résultats ; vous voulez que votre site attire aussi des demandes depuis vos autres marchés ?</strong> Notre <a href="/fr/services/seo/">SEO international</a> positionne vos pages sur chaque marché où vous vendez, de l’Espagne au Benelux et à l’Allemagne. <a href="/fr/nous-contacter/">Réservez un premier échange</a>.</p>
+<p><strong>Vos équipes obtiennent de bons résultats ; vous voulez que votre site attire aussi des demandes depuis vos autres marchés ?</strong> Notre <a href="/fr/services/seo/">SEO international</a> positionne vos pages sur chaque marché où vous vendez, de l’Espagne au Benelux et à l’Allemagne. <a href="/fr/nous-contacter/">Réservez un premier échange</a>.</p>
 </aside>
 
 ## Adapter votre parcours à chaque opportunité
@@ -152,7 +152,7 @@ Beaucoup de compétences se transfèrent d’un poste ou d’un secteur à l’a
 La même règle vaut d’une langue à l’autre. Un parcours, ou une page de services, convainc un acheteur à Madrid ou à Munich quand il est écrit pour ce marché et s’adresse à lui dans ses propres termes.
 
 <aside class="post-cta">
-<p><strong>Vous voulez que votre site se lise aussi bien en espagnol, en anglais ou en néerlandais qu’en français ?</strong> Notre <a href="/fr/services/localisation-de-site-web/">localisation de site web</a> adapte vos pages au marché qui les lit, avec des rédacteurs natifs. <a href="/fr/nous-contacter/">Demandez une évaluation gratuite de localisation</a>.</p>
+<p><strong>Vous voulez que votre site se lise aussi bien en espagnol, en anglais ou en néerlandais qu’en français ?</strong> Notre <a href="/fr/services/localisation-de-site-web/">localisation de site web</a> adapte vos pages au marché qui les lit, avec des rédacteurs natifs. <a href="/fr/nous-contacter/">Demandez une évaluation gratuite de localisation</a>.</p>
 </aside>
 
 ## Un texte court qui garde l’essentiel

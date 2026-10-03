@@ -10,7 +10,7 @@ wpId: null
 date: "2026-10-03"
 modified: "2026-10-03"
 sourceUrl: null
-excerpt: "Tu inversión en marketing crece y quieres que las consultas la acompañen. Así sabrás si primero necesitas un asesor de marketing digital o una agencia."
+excerpt: "Asesor de marketing digital o agencia: descubre cuál contratar primero para que las consultas crezcan al ritmo de tu inversión en marketing."
 ---
 
 Tu inversión en marketing ha subido, y el siguiente paso son consultas que crezcan al mismo ritmo, en España y en tus mercados de Francia, el Benelux o Alemania. La respuesta está en el plan o en las personas que lo ejecutan, y estás a punto de contratar para una de las dos cosas.

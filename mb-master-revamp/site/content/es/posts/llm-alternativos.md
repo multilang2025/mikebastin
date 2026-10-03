@@ -158,7 +158,7 @@ Microsoft
 [La familia Phi de Microsoft](https://azure.microsoft.com/en-us/products/phi)
 
 <aside class="post-cta">
-<p><strong>¿Comparas un modelo abierto con una API de pago para tu contenido multilingüe?</strong> Nuestra <a href="/es/services/consultoria-de-inteligencia-artificial/">consultoría de inteligencia artificial</a> te dice qué partes de tu flujo de trabajo puede asumir un modelo en cada idioma, y cuáles siguen pidiendo una persona que lea ese idioma. <a href="/es/contactanos/">Reserva la primera llamada</a>.</p>
+<p><strong>El reparto justo entre modelo abierto y API de pago para tu contenido multilingüe.</strong> Nuestra consultoría de inteligencia artificial te dice qué partes de tu flujo de trabajo puede asumir un modelo en cada idioma, y cuáles siguen pidiendo una persona que lea ese idioma. <a href="/es/services/consultoria-de-inteligencia-artificial/">Conoce nuestra consultoría de IA</a> o <a href="/es/contactanos/">reserva la primera llamada</a>.</p>
 </aside>
 
 ## Las licencias de un vistazo

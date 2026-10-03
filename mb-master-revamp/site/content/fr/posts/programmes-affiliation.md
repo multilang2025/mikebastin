@@ -25,7 +25,7 @@ Chaque mois consacré au bon produit donne des contenus qui rapportent, et le ch
 >
 > Source : [Post Affiliate Pro, Affiliate Marketing Industry Size 2025-2026](https://www.postaffiliatepro.com/blog/affiliate-marketing-industry-size-2025/)
 
-Comparez le taux de commission en dernier : une commission de 50 % ne rapporte que si vos lecteurs veulent le produit. Trois filtres passent avant :
+Comparez le taux de commission en dernier : une commission de 50 % rapporte quand vos lecteurs veulent le produit. Trois filtres passent avant :
 
 - **L’adéquation produit :** votre audience achète-t-elle déjà quelque chose de proche, ou lui présenteriez-vous une catégorie entièrement nouvelle ?
 - **La durée du cookie :** 30 jours ou plus laissent à l’attribution le temps d’agir, et pour les produits par abonnement, les commissions récurrentes comptent davantage qu’un paiement unique.

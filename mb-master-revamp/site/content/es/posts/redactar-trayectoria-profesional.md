@@ -10,7 +10,7 @@ wpId: null
 date: "2026-10-03"
 modified: "2026-10-03"
 sourceUrl: null
-excerpt: "Presenta tu trayectoria en marketing digital para que los primeros segundos de lectura te vendan, en tu currículum, en LinkedIn o en la web de tu empresa."
+excerpt: "Redacta tu trayectoria profesional en marketing digital para que los primeros segundos de lectura te vendan, en tu currículum, LinkedIn o tu web."
 ---
 
 Un cliente que duda entre dos agencias, o una responsable de selección con cuarenta currículums sobre la mesa, le dedica unos segundos a tu trayectoria profesional. Abre esos segundos con resultados y consigues la reunión gracias a tu experiencia. En marketing digital, donde todo el mundo presume de las mismas herramientas, la forma de presentar tu experiencia decide quién recibe la llamada.

@@ -107,7 +107,7 @@ Una red de la que llevas el registro sigue creciendo. Unas pocas herramientas re
 Elijas el CRM que elijas, busca etiquetado de contactos, historial de interacciones y recordatorios, para ver de un vistazo a quién toca escribir después de seis meses. La sincronización con redes sociales ahorra horas de actualización manual.
 
 <aside class="post-cta">
-<p><strong>¿Quieres saber de qué mercado llega cada consulta que recibe tu web?</strong> Nuestros <a href="/es/services/posicionamiento-multilingue/">programas de posicionamiento multilingüe</a> miden las consultas que cada mercado y cada idioma aportan a tu equipo. <a href="/es/contactanos/">Reserva la primera llamada</a>.</p>
+<p><strong>Descubre de qué mercado llega cada consulta que recibe tu web.</strong> Nuestros programas de posicionamiento multilingüe miden las consultas que cada mercado y cada idioma aportan a tu equipo. <a href="/es/services/posicionamiento-multilingue/">Conoce el posicionamiento multilingüe</a> o <a href="/es/contactanos/">reserva la primera llamada</a>.</p>
 </aside>
 
 ## Cómo llevar los momentos difíciles del networking

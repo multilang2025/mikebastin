@@ -157,7 +157,7 @@ Microsoft
 [La famille Phi chez Microsoft](https://azure.microsoft.com/en-us/products/phi)
 
 <aside class="post-cta">
-<p><strong>Vous comparez un modèle ouvert et une API payante pour vos contenus multilingues ?</strong> Notre <a href="/fr/services/conseil-ia/">conseil en IA</a> indique quelles parties de votre flux de travail un modèle peut prendre en charge dans chaque langue, et lesquelles demandent encore un relecteur qui lit la langue. <a href="/fr/nous-contacter/">Réservez un premier échange</a>.</p>
+<p><strong>Le bon partage entre modèle ouvert et API payante pour vos contenus multilingues.</strong> Notre conseil en IA indique quelles parties de votre flux de travail un modèle peut prendre en charge dans chaque langue, et lesquelles demandent encore un relecteur qui lit la langue. <a href="/fr/services/conseil-ia/">Découvrir notre conseil en IA</a> ou <a href="/fr/nous-contacter/">réserver un premier échange</a>.</p>
 </aside>
 
 ## Les licences en un coup d’œil

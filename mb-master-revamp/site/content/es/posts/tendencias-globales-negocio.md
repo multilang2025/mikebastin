@@ -15,7 +15,7 @@ excerpt: "Aranceles, una Europa que crece poco y la IA convertida en gasto fijo:
 
 ## Negocio global en 2026: crecimiento, incertidumbre y el giro de la IA
 
-Si exportas desde España a Francia, al Benelux, a Alemania o al Reino Unido, tu plan de 2025 ha cambiado al menos una vez: los aranceles de Estados Unidos rehechos dos veces, una eurozona que apenas crece y presupuestos de IA que suben más deprisa que sus retornos. Planifica el próximo año con los datos de este y tu presupuesto irá a los mercados que crecen. Las cifras globales parecen tranquilas, y los cambios de fondo merecen una mirada más atenta.
+Si exportas desde España a Francia, al Benelux, a Alemania o al Reino Unido, tu plan de 2025 ha cambiado al menos una vez: los aranceles de Estados Unidos rehechos dos veces, una eurozona que apenas crece y presupuestos de IA que suben más deprisa que sus retornos. Planifica el próximo año con los datos de este y tu presupuesto irá a los mercados que crecen.
 
 > Se prevé un crecimiento mundial del 3,0 % en 2026 y del 3,4 % en 2027, por debajo de la media del 3,5 % de 2024 y 2025. Se prevé que el crecimiento del volumen del comercio mundial se modere del 5,0 % en 2025 al 3,5 % en 2026.
 >
@@ -34,7 +34,7 @@ Si exportas desde España a Francia, al Benelux, a Alemania o al Reino Unido, tu
 >
 > Fuente: [FMI, World Economic Outlook Update, julio de 2026, cuadro 1](https://www.imf.org/-/media/files/publications/weo/2026/update/july/english/text.pdf)
 
-Para una empresa española, la tabla dice algo concreto: tu mercado interior sigue creciendo más que la zona del euro, y Alemania, uno de tus clientes principales, se recupera despacio. Aquí tienes las tendencias que cambian adónde debe ir tu próximo euro, cada una con su fuente y con lo que conviene hacer ahora.
+Para una empresa española, la tabla dice algo concreto: tu mercado interior sigue creciendo más que la zona del euro, y Alemania, uno de tus principales mercados, se recupera despacio.
 
 ## La IA en la empresa: de experimento a coste operativo
 
@@ -54,18 +54,17 @@ La encuesta global de McKinsey y el informe empresarial de Deloitte señalan la 
 >
 > Fuente: [Deloitte, State of AI in the Enterprise 2026](https://www.deloitte.com/global/en/issues/generative-ai/state-of-ai-in-enterprise.html)
 
-La IA ya es un coste operativo. Las empresas que toman ventaja la integran en sus flujos de trabajo, en la atención al cliente y en su [estrategia de marketing](/es/ia-y-estrategias-seo/).
+Las empresas que toman ventaja integran la IA en sus flujos de trabajo, en la atención al cliente y en su [estrategia SEO apoyada en IA](/es/ia-y-estrategias-seo/).
 
 ### Qué hacer ahora
 
--   Reserva presupuesto para la [integración de la IA](/es/services/consultoria-de-inteligencia-artificial/) en atención al cliente, producción de contenido y análisis de datos
+-   Reserva presupuesto para [integrar la IA con una consultoría](/es/services/consultoria-de-inteligencia-artificial/) en atención al cliente, producción de contenido y análisis de datos
 -   Forma en herramientas de IA a los equipos que ya tienes, porque las habilidades deciden más proyectos que la tecnología
 -   Revisa la calidad y el cumplimiento normativo de lo que produce la IA, sobre todo en sectores regulados
--   Prioriza los casos de uso de IA agéntica en atención al cliente y cadena de suministro, donde las tareas acotadas hacen fácil medir los resultados
 
 ## IA agéntica y sistemas autónomos: lo que cambia en 2026
 
-Un agente de IA podría atender a tus clientes franceses, belgas o alemanes en su idioma a cualquier hora. La mayoría de las empresas los está probando, y un grupo más pequeño ya los está escalando.
+Un agente de IA puede atender a tus clientes franceses, belgas o alemanes en su idioma a cualquier hora; repasamos diez usos en [IA conversacional y chatbots en la empresa](/es/chatbots-ia-empresas/). La mayoría de las empresas los está probando, y un grupo más pequeño ya los escala.
 
 > El 62 % de los encuestados afirma que su organización al menos experimenta con agentes de IA, y el 23 % está escalando un sistema de IA agéntica en alguna parte de la empresa.
 >
@@ -126,7 +125,7 @@ Repartir las ventas entre varios mercados y proveedores protege hoy tus precios,
 
 ### Qué hacer ahora
 
--   Diversifica el aprovisionamiento para depender de más de un país
+-   Reparte el aprovisionamiento entre varios países
 -   Incluye escenarios arancelarios en tu estrategia de precios y en tus previsiones de margen, con la base legal de cada arancel, porque de ella depende cuánto puede durar
 -   Comprueba si los aranceles IEEPA que pagaste en 2025 y a comienzos de 2026 pueden reembolsarse
 -   Explora mercados donde las barreras comerciales bajan: la [UE y la India cerraron las negociaciones](https://commission.europa.eu/topics/trade/eu-india-trade-agreement_en) de un acuerdo de libre comercio en enero de 2026, que entrará en vigor una vez firmado y ratificado
@@ -159,7 +158,7 @@ Un alto el fuego duradero abriría uno de los mayores programas de reconstrucci�
 
 ## Sostenibilidad: la regulación ocupa el lugar de la buena voluntad
 
-La sostenibilidad es hoy una condición para vender en la UE, y cumplir cada plazo mantiene tus mercancías en movimiento. La UE rebajó algunas normas en 2026, y las obligaciones que quedan tienen fechas firmes.
+La sostenibilidad es hoy una condición para vender en la UE, y cumplir cada plazo mantiene tus mercancías en movimiento. La UE rebajó algunas normas en 2026; las obligaciones que quedan tienen fechas firmes.
 
 La Directiva sobre información corporativa en materia de sostenibilidad (CSRD) quedó acotada por la Directiva Ómnibus de sostenibilidad, publicada en el Diario Oficial el 26 de febrero de 2026, y ahora se aplica a empresas mucho más grandes de lo previsto.
 
@@ -185,7 +184,6 @@ El Mecanismo de Ajuste en Frontera por Carbono (CBAM) entró en su fase definiti
 
 -   Revisa tu cadena de suministro para el cumplimiento del EUDR y el abastecimiento ético
 -   Comprueba si los nuevos umbrales de la CSRD siguen incluyéndote a ti, o a tus grandes clientes
--   Presenta tus credenciales de sostenibilidad como una ventaja competitiva, además de un requisito normativo
 
 ## Teletrabajo y trabajo híbrido: asentados, con obligaciones que planificar
 
@@ -194,38 +192,24 @@ El teletrabajo y el modelo híbrido te dan acceso a talento en mercados de menor
 ### Qué hacer ahora
 
 -   Formaliza políticas de teletrabajo que tengan en cuenta la normativa laboral de cada país
--   Invierte en ciberseguridad en proporción al tamaño de tu equipo distribuido
 -   Usa la [contratación flexible en cuanto a ubicación](https://valenciamove.com/blog/valencia-remote-working/) como ventaja competitiva para atraer talento
 
 ## Mercados emergentes: dónde está el crecimiento
 
 El sudeste asiático, Latinoamérica, la India y parte de África registran el mayor crecimiento del comercio electrónico. Las empresas que ganan allí localizan todo el recorrido de compra, desde la primera búsqueda hasta la página de pago.
 
-Para una empresa española, Latinoamérica parte con la ventaja del idioma, y aun así cada país busca con sus propias palabras: un comprador mexicano y uno argentino no escriben la misma consulta. Los compradores buscan, comparan y pagan en su idioma y en sus plataformas. Ganarlos pide [webs localizadas](/es/services/traduccion-de-paginas-web/), [SEO multilingüe](/es/services/posicionamiento-multilingue/), medios de pago locales y un marketing adaptado a la cultura.
+Para una empresa española, Latinoamérica parte con la ventaja del idioma, y aun así cada país busca con sus propias palabras: un comprador mexicano y uno argentino no escriben la misma consulta. Los compradores buscan, comparan y pagan en su idioma y en sus plataformas. Ganarlos pide [webs traducidas y localizadas por mercado](/es/services/traduccion-de-paginas-web/), [SEO multilingüe para varios mercados](/es/services/posicionamiento-multilingue/), medios de pago locales y un marketing adaptado a la cultura.
 
 ### Qué hacer ahora
 
--   Haz una [investigación de palabras clave](/es/services/posicionamiento-multilingue/) propia de cada mercado, en cada idioma de destino
--   Adapta el posicionamiento del producto y la [estrategia de contenido a cada público local](/es/optimizar-contenido-web-multilingue/)
+-   Haz una investigación de palabras clave propia de cada mercado, en cada idioma de destino
+-   Adapta el posicionamiento del producto y la estrategia de contenido a cada público, con [la localización aplicada al contenido web](/es/optimizar-contenido-web-multilingue/)
 -   Alíate con proveedores regionales de logística y de pago
 -   Infórmate sobre los requisitos de registro y el marco normativo de cada país antes de entrar, como harías para [constituir una empresa en España](https://valenciamove.com/company-formation-spain/)
 
 <aside class="post-cta">
 <p><strong>¿Te llegan visitas en francés, neerlandés o alemán y quieres convertirlas en consultas?</strong> Nuestra <a href="/es/services/traduccion-de-paginas-web/">localización de páginas web</a> adapta tu web al idioma, la cultura y las expectativas de cada mercado. <a href="/es/contactanos/">Pide tu evaluación gratuita de localización</a>.</p>
 </aside>
-
-## Comercio electrónico y transformación digital: el móvil primero
-
-Tus compradores ya compran primero desde el móvil, y esperan recomendaciones personalizadas como algo normal. Los clientes que pasan de los canales online a los físicos esperan que la experiencia los acompañe.
-
-Vender entre países también se encarece: las exenciones de minimis para importaciones de poco valor desaparecen en los grandes mercados, y cada cambio añade un coste y un trámite de cumplimiento.
-
-### Qué hacer ahora
-
--   Prioriza la experiencia móvil en todas las páginas de cara al cliente
--   Incorpora la personalización con IA a las recomendaciones de producto y al email marketing
--   Construye estrategias omnicanal que conecten los puntos de contacto online y físicos
--   Incluye los cambios aduaneros y de minimis en tus modelos de precios internacionales
 
 ## Privacidad de datos y ciberseguridad: lo que está en juego sigue subiendo
 
@@ -241,11 +225,8 @@ Las nuevas normas de Brasil (LGPD), la India (DPDP Act 2023) y el sudeste asiát
 
 -   Traza los flujos de datos en todos los mercados donde operas
 -   Nombra o consulta a un delegado de protección de datos para el RGPD y los marcos equivalentes
--   Cifra los datos de clientes en reposo y en tránsito
--   Explica con claridad tus prácticas de privacidad en todas las plataformas de cara al cliente
+-   Explica con claridad tus prácticas de privacidad en cada idioma de cara al cliente
 
-## Lo que viene
+## Cómo repartir tu próximo euro
 
-Los mercados con más potencial de crecimiento piden una [localización](/es/services/traduccion-de-paginas-web/) real. Las empresas que construyan operaciones adaptables, cadenas de suministro diversificadas y [estrategias digitales](/es/services/posicionamiento-multilingue/) propias de cada mercado tomarán la delantera, porque el cambio ha llegado para quedarse.
-
-Trata la IA, la localización y el cumplimiento normativo como inversiones conectadas, y valora cada mercado por el negocio que te trae.
+Los mercados con más potencial de crecimiento piden una localización real. Las empresas que construyan operaciones adaptables, cadenas de suministro diversificadas y estrategias digitales propias de cada mercado tomarán la delantera. Trata la IA, la localización y el cumplimiento normativo como inversiones conectadas, y valora cada mercado por el negocio que te trae.
