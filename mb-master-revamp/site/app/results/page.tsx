@@ -6,7 +6,7 @@ import Testimonials from "@/components/Testimonials";
 import SiteFooter from "@/components/SiteFooter";
 import JsonLd from "@/components/JsonLd";
 import { SITE_URL, breadcrumbSchema } from "@/lib/schema";
-import { PROJECTS } from "@/lib/projects";
+import { LEADS_PERIOD, PROJECTS } from "@/lib/projects";
 import DlArt from "@/components/DlArt";
 import HeroArtSlot from "@/components/HeroArtSlot";
 
@@ -31,8 +31,8 @@ const WITH_SEARCH = PROJECTS.filter((p) => p.search).sort(
 const TOTAL_CLICKS = WITH_SEARCH.reduce((n, p) => n + toNumber(p.search!.clicks), 0);
 const TOTAL_IMPRESSIONS = WITH_SEARCH.reduce((n, p) => n + toNumber(p.search!.impressions), 0);
 const CLICKS = TOTAL_CLICKS.toLocaleString("en-GB");
-// Enquiries come first (owner, 3 Oct 2026: "the number of leads is more
-// important"), counted on the sites that keep a form record (lib/projects.ts).
+// Enquiries come first, as a monthly average (owner, 3 Oct 2026), counted on
+// the sites that keep a form record (lib/projects.ts).
 const WITH_LEADS = WITH_SEARCH.filter((p) => p.leads);
 const LEADS = WITH_LEADS.reduce((n, p) => n + toNumber(p.leads!.count), 0).toLocaleString("en-GB");
 const LEAD_SITES = WORDS[WITH_LEADS.length] ?? String(WITH_LEADS.length);
@@ -42,7 +42,7 @@ const SITE_COUNT = WORDS[WITH_SEARCH.length] ?? String(WITH_SEARCH.length);
 export const metadata: Metadata = {
   ...pageMeta({
     title: "Client results you can count, Mike Bastin",
-    description: `${LEADS} enquiries and ${CLICKS} Google clicks in three months across the client sites we run search for, each with its case study.`,
+    description: `${LEADS} enquiries a month and ${CLICKS} Google clicks in three months across the client sites we run search for, each with its case study.`,
     path: "/results/",
   }),
 };
@@ -84,9 +84,9 @@ export default function ResultsPage() {
       <section className="band band-b py-[clamp(64px,9vw,128px)]">
         <div className="shell">
           <Reveal>
-            <p className="eyebrow mb-3">Three months of enquiries and search</p>
+            <p className="eyebrow mb-3">Monthly enquiries and three months of search</p>
             <h2 className="mb-5 max-w-[24ch] text-[clamp(1.8rem,3.6vw,2.9rem)] font-semibold leading-[1.1]">
-              {LEADS} enquiries and {CLICKS} clicks from Google.
+              {LEADS} enquiries a month and {CLICKS} clicks from Google.
             </h2>
             <p className="mb-4 max-w-[56ch] text-[1.05rem]" style={{ color: "var(--dim)" }}>
               Across {SITE_COUNT} sites we run search for, from a Valencia law
@@ -95,10 +95,10 @@ export default function ResultsPage() {
               clicks. Open any row for the brief, the work and the outcome.
             </p>
             <blockquote className="mb-12 max-w-[56ch] text-[.85rem]" style={{ color: "var(--dim)" }}>
-              Sources, May to July 2026: enquiries from the {LEAD_SITES} sites
-              that keep a record of their contact and quote forms, counted
-              from those records (ValenciaMove’s record starts in July);
-              clicks and impressions from Google Search Console.
+              Sources: enquiries are a monthly average for {LEADS_PERIOD},
+              from the {LEAD_SITES} sites that keep a record of their contact
+              and quote forms, counted from those records; clicks and
+              impressions are May to July 2026, from Google Search Console.
             </blockquote>
           </Reveal>
 
@@ -120,7 +120,7 @@ export default function ResultsPage() {
                     </span>
                   </span>
                   {[
-                    { v: p.leads?.count ?? "", k: p.leads ? p.leads.what : "" },
+                    { v: p.leads?.count ?? "", k: p.leads ? `${p.leads.what} a month` : "" },
                     { v: p.search!.clicks, k: "Clicks" },
                     { v: p.search!.impressions, k: "Impressions" },
                   ].map((m, mi) => (
