@@ -4,6 +4,7 @@ import { enLanguages } from "@/lib/fr-pages";
 import Link from "next/link";
 import PostImage from "@/components/PostImage";
 import Reveal from "@/components/Reveal";
+import PostCard, { POST_GRID } from "@/components/PostCard";
 import SiteFooter from "@/components/SiteFooter";
 import { topicSlug, getClusterGroups, UNCATEGORISED } from "@/lib/posts";
 import { getService } from "@/lib/services";
@@ -148,33 +149,18 @@ export default function BlogIndex() {
                   invisible behind the images, and the row below started
                   immediately under the row above's date. Owner, 22 Sep. */}
               {group.posts.length > 0 && (
-                <ul className="grid gap-x-8 gap-y-12 sm:grid-cols-2 lg:grid-cols-3">
+                <ul className={POST_GRID}>
                   {group.posts.map((post, i) => (
                     <Reveal key={post.slug} i={i}>
-                      <li className="band h-full" style={{ background: "var(--bg)" }}>
-                        <Link href={`/blog/${post.slug}/`} className="flex h-full flex-col">
-                          <PostImage
-                            slug={post.slug}
-                            cluster={group.name}
-                            className="aspect-[1200/630] w-full"
-                            sizes="(min-width: 1024px) 400px, (min-width: 640px) 50vw, 100vw"
-                          />
-                          {/* No horizontal padding: the card's own surface is
-                              the section's, so there is no edge for the text
-                              to sit inside. Inset it and the title floats 28px
-                              right of the photograph above it. */}
-                          <div className="flex flex-1 flex-col pt-5">
-                            <span className="ulink mb-2 text-[1.02rem] font-semibold leading-[1.3]">
-                              {post.title}
-                            </span>
-                            <p className="mb-4 line-clamp-3 text-[.88rem] leading-[1.5]" style={{ color: "var(--dim)" }}>
-                              {post.excerpt}
-                            </p>
-                            <span className="mt-auto text-[.72rem] uppercase tracking-[.1em]" style={{ color: "var(--dim)" }}>
-                              {formatDate(post.date)}
-                            </span>
-                          </div>
-                        </Link>
+                      <li className="h-full">
+                        <PostCard
+                          href={`/blog/${post.slug}/`}
+                          imageSlug={post.slug}
+                          cluster={group.name}
+                          title={post.title}
+                          excerpt={post.excerpt}
+                          date={formatDate(post.date)}
+                        />
                       </li>
                     </Reveal>
                   ))}

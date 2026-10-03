@@ -278,3 +278,8 @@ export function topicPosts(topic: LocaleTopic): LocalePost[] {
   const live = new Map(getPostsForLocale(topic.locale).map((p) => [p.slug, p]));
   return topic.posts.map((s) => live.get(s)).filter((p): p is LocalePost => Boolean(p));
 }
+
+/** The topic a post is filed under in its own locale, if any. */
+export function topicForPost(locale: "fr" | "es", slug: string): LocaleTopic | undefined {
+  return TOPICS.find((t) => t.locale === locale && t.posts.includes(slug));
+}

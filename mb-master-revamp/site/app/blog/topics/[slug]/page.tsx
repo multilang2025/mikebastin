@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { pageMeta } from "@/lib/meta";
 import Link from "next/link";
-import PostImage from "@/components/PostImage";
 import Reveal from "@/components/Reveal";
+import PostCard, { POST_GRID } from "@/components/PostCard";
 import SiteFooter from "@/components/SiteFooter";
 import { getTopics, type Topic, topicMetaDescription } from "@/lib/posts";
 import { getService } from "@/lib/services";
@@ -93,21 +93,18 @@ export default async function TopicPage({
       {/* ============ POSTS ============ */}
       <section className="band band-b py-[clamp(48px,7vw,96px)]">
         <div className="shell">
-          <ul className="grid gap-px cells-3 sm:grid-cols-2 lg:grid-cols-3" style={{ background: "var(--rule)" }}>
+          <ul className={POST_GRID}>
             {all.map((post, i) => (
               <Reveal key={post.slug} i={i}>
-                <li className="band h-full" style={{ background: "var(--bg)" }}>
-                  <Link href={`/blog/${post.slug}/`} className="flex h-full flex-col">
-                    <PostImage slug={post.slug} cluster={topic.name} className="aspect-[1200/630] w-full" sizes="(min-width: 1024px) 400px, (min-width: 640px) 50vw, 100vw" />
-                    <div className="flex flex-1 flex-col px-7 py-6">
-                      <span className="ulink mb-2 text-[1.02rem] font-semibold leading-[1.3]">
-                        {post.title}
-                      </span>
-                      <p className="line-clamp-3 text-[.88rem] leading-[1.5]" style={{ color: "var(--dim)" }}>
-                        {post.excerpt}
-                      </p>
-                    </div>
-                  </Link>
+                <li className="h-full">
+                  <PostCard
+                    href={`/blog/${post.slug}/`}
+                    imageSlug={post.slug}
+                    cluster={topic.name}
+                    title={post.title}
+                    excerpt={post.excerpt}
+                    date={new Date(post.date).toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" })}
+                  />
                 </li>
               </Reveal>
             ))}

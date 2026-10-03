@@ -32,18 +32,27 @@ function Links({ items }: { items: TocItem[] }) {
   );
 }
 
+const LABEL = {
+  en: { title: "On this page", nav: "Table of contents" },
+  fr: { title: "Dans cet article", nav: "Sommaire" },
+  es: { title: "En este artículo", nav: "Índice" },
+} as const;
+
 export default function TableOfContents({
   items,
   variant = "inline",
+  locale = "en",
 }: {
   items: TocItem[];
   variant?: "inline" | "rail";
+  locale?: "en" | "fr" | "es";
 }) {
+  const l = LABEL[locale];
   if (variant === "rail") {
     return (
-      <nav aria-label="On this page" className="toc-rail">
+      <nav aria-label={l.title} className="toc-rail">
         <p className="mb-4 text-[.78rem] font-semibold uppercase tracking-[.1em]" style={{ color: "var(--dim)" }}>
-          On this page
+          {l.title}
         </p>
         <Links items={items} />
         <TocSpy ids={items.map((i) => i.id)} />
@@ -54,12 +63,11 @@ export default function TableOfContents({
     <details
       className="mb-10 max-w-[68ch] rounded-[4px] border px-6 py-4 open:pb-5"
       style={{ borderColor: "var(--rule)" }}
-      open
     >
       <summary className="cursor-pointer select-none text-[.9rem] font-semibold uppercase tracking-[.08em]" style={{ color: "var(--dim)" }}>
-        On this page
+        {l.title}
       </summary>
-      <nav aria-label="Table of contents" className="mt-4">
+      <nav aria-label={l.nav} className="mt-4">
         <Links items={items} />
       </nav>
     </details>
