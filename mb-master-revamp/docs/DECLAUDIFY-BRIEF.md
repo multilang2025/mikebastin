@@ -92,7 +92,7 @@ Before delivery, check the rendered homepage on desktop and mobile in both theme
 
 - Hero on all three homepages: Mike's portrait (`components/FounderPortrait.tsx`,
   `public/images/mike-bastin-portrait-{400,760}.webp`, from the legacy
-  `Mike_home-1.png`) replaces the `MarketReach` radar. EN h1 "International SEO
+  `Mike_home-1.png`, cropped at chest height with a soft bottom fade at the owner's request) replaces the `MarketReach` radar. EN h1 "International SEO
   agency, led by Mike Bastin"; FR "Agence SEO internationale, dirigée par Mike
   Bastin"; ES keeps its Valencia h1 (owner, same day). Primary CTA "Discuss your
   project" / "Parlons de votre projet" / "Hablemos de tu proyecto".
