@@ -12,7 +12,7 @@ sourceUrl: "https://mikebastin.com/es/optimizar-para-seo-y-geo/"
 excerpt: "Una misma página puede posicionar en Google y aparecer citada en ChatGPT. Así se construye una estrategia dual de SEO y GEO para cada mercado donde vendes."
 ---
 
-![Article header image](/images/legacy/2026/01/estrategiacontenidodualseogeos-1024x585.jpg)
+![Article header image](/images/legacy/2026/01/estrategiacontenidodualseogeos-1024x585.webp)
 
 Tus compradores en Francia, Alemania o el Benelux buscan en Google y también preguntan a ChatGPT, Claude o Perplexity, que les responden con dos o tres fuentes. Cada página que escribes puede servir a los dos canales a la vez: posicionar en los resultados y aparecer citada en la respuesta.
 

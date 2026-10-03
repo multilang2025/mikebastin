@@ -13,7 +13,7 @@ sourceUrl: "https://mikebastin.com/es/seo-multilingue-2026-presencia-total/"
 excerpt: "Buenas prácticas de SEO multilingüe para que cada versión de tu web posicione, aparezca citada por la IA y traiga consultas desde su mercado."
 ---
 
-![Buenas prácticas de SEO multilingüe](/images/legacy/2024/10/best-practices-for-multilingual-seo-1024x365.jpg)
+![Buenas prácticas de SEO multilingüe](/images/legacy/2024/10/best-practices-for-multilingual-seo-1024x365.webp)
 
 Tu empresa vende desde España, y tus páginas en francés, en alemán o en inglés ya reciben visitas. El siguiente paso es que cada una traiga consultas de su propio mercado. Cada vez más compradores obtienen su respuesta en un resumen de IA o en un chatbot antes de hacer clic, y la marca citada en su idioma es la que contactan.
 

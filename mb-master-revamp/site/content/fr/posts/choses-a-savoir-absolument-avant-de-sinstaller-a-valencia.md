@@ -24,7 +24,7 @@ Voici un guide pratique des choses à savoir avant de [déménager dans la trois
 
 ## Le climat méditerranéen de Valencia : doux mais sournois
 
-![Climat méditerranéen de Valencia, Espagne : soleil et palmiers toute l'année](/images/legacy/2026/01/image-5.jpeg)
+![Climat méditerranéen de Valencia, Espagne : soleil et palmiers toute l'année](/images/legacy/2026/01/image-5.webp)
 
 À Valencia, [ville méditerranéenne en bord de mer, le climat est globalement très doux](https://mikebastin.com/fr/climat-a-valencia/).
 
@@ -48,7 +48,7 @@ Une raison de plus d’être déjà installé à Valencia à cette date.
 
 ## Les horaires espagnols et la santa siesta
 
-![Terrasse de restaurant à Valencia pendant la sieste espagnole](/images/legacy/2026/01/image-2.jpeg)
+![Terrasse de restaurant à Valencia pendant la sieste espagnole](/images/legacy/2026/01/image-2.webp)
 
 S’adapter aux horaires de Valencia constitue l’un des premiers chocs culturels pour un francophone.
 
@@ -68,7 +68,7 @@ Votre agenda professionnel aussi, si vous travaillez avec des clients européens
 
 ## Le valencien : une langue co-officielle à ne pas confondre avec le catalan
 
-![Panneaux bilingues espagnol et valencien dans la Communauté valencienne](/images/legacy/2026/01/image-1.jpeg)
+![Panneaux bilingues espagnol et valencien dans la Communauté valencienne](/images/legacy/2026/01/image-1.webp)
 
 La **Communauté valencienne**, l’une des 17 _comunidades autónomas_ d’Espagne, possède deux langues officielles : l’espagnol castillan et le **valencien** (_valencià_).
 
@@ -88,7 +88,7 @@ Vous l’entendrez abondamment lors des **Fallas**, les célèbres fêtes pyrote
 
 ## Le bruit : une réalité culturelle à anticiper
 
-![Animation nocturne dans les rues de Valencia, Espagne](/images/legacy/2026/01/image-3.jpeg)
+![Animation nocturne dans les rues de Valencia, Espagne](/images/legacy/2026/01/image-3.webp)
 
 Valencia est une ville vivante.
 
@@ -108,7 +108,7 @@ Les murs mitoyens des immeubles anciens du **Barrio del Carmen**, de **Ruzafa** 
 
 ## La gastronomie valencienne : bien plus que la paella
 
-![Tapas et paella valenciana dans un restaurant de Valencia, Espagne](/images/legacy/2026/01/image-6.jpeg)
+![Tapas et paella valenciana dans un restaurant de Valencia, Espagne](/images/legacy/2026/01/image-6.webp)
 
 La **gastronomie valencienne** est l’une des plus riches d’Espagne.
 
@@ -124,7 +124,7 @@ Le **festival de la paella de Sueca**, qui se tient à 30 km au sud de Valencia,
 
 ## Le système de santé espagnol : public, privé et pharmacies
 
-![Pharmacie espagnole à Valencia : soins de premier recours sans ordonnance](/images/legacy/2026/01/image-1024x682.jpeg)
+![Pharmacie espagnole à Valencia : soins de premier recours sans ordonnance](/images/legacy/2026/01/image-1024x682.webp)
 
 Le système de santé espagnol, le **Sistema Nacional de Salud (SNS)**, est universel et gratuit pour les résidents.
 
@@ -146,7 +146,7 @@ En 2026, Valencia renforce son offre de soins avec l’ouverture de nouveaux ét
 
 ## Environnement et mobilité verte à Valencia
 
-![Pistes cyclables et vélos Valenbisi dans les rues de Valencia](/images/legacy/2026/01/image-4.jpeg)
+![Pistes cyclables et vélos Valenbisi dans les rues de Valencia](/images/legacy/2026/01/image-4.webp)
 
 Valencia a été élue **Capitale verte européenne 2024** par la Commission européenne, une distinction qui récompense ses 160 km de pistes cyclables, son réseau de transports en commun (métro, tramway, bus EMT) et son engagement pour la **renaturalisation urbaine**.
 

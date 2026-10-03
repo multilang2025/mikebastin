@@ -12,7 +12,7 @@ sourceUrl: "https://mikebastin.com/es/seo-tecnico-para-sitios-multilingues/"
 excerpt: "SEO técnico para sitios multilingües: hreflang, servidor, contenido duplicado y estructura de dominios. Lo que más ajustamos tras más de dos décadas."
 ---
 
-![SEO técnico para sitios web multilingües](/images/legacy/2024/12/Technical-SEO-for-Multilingual-Websites-1024x457.jpg)
+![SEO técnico para sitios web multilingües](/images/legacy/2024/12/Technical-SEO-for-Multilingual-Websites-1024x457.webp)
 
 Tu web ya existe en varios idiomas y cada versión recibe visitas. Con unos ajustes técnicos, cada una puede ocupar su propio mercado en Google: el comprador francés llega a la página en francés, el alemán a la alemana, y cada traducción que pagaste trabaja para ti.
 
@@ -112,4 +112,4 @@ El SEO técnico es el cimiento de cualquier web multilingüe que funcione. Empie
 
 ¿Quieres que tu web multilingüe rinda al máximo en cada país? [Escríbenos y revisamos juntos tu configuración técnica](/es/contactanos/), con la experiencia de más de dos décadas en SEO y traducción de nuestro lado.
 
-![Pasos de implementación técnica para varias versiones de idioma](/images/legacy/2024/12/image.png)
+![Pasos de implementación técnica para varias versiones de idioma](/images/legacy/2024/12/image.webp)

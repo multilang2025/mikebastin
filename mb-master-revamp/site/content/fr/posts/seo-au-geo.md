@@ -13,7 +13,7 @@ sourceUrl: "https://mikebastin.com/fr/seo-au-geo/"
 excerpt: "Du SEO au GEO : faites citer votre entreprise par ChatGPT, Perplexity et les AI Overviews dans chacun de vos marchés, grâce à neuf leviers concrets."
 ---
 
-![Du SEO au GEO : l’optimisation pour les moteurs génératifs](/images/legacy/2024/12/generative-engine-optimization-1024x481.jpg)
+![Du SEO au GEO : l’optimisation pour les moteurs génératifs](/images/legacy/2024/12/generative-engine-optimization-1024x481.webp)
 
 Vos acheteurs à l’étranger posent désormais une partie de leurs questions à ChatGPT, à Perplexity ou aux AI Overviews de Google, et la réponse qu’ils reçoivent nomme deux ou trois fournisseurs. Figurer parmi eux place votre entreprise dans la présélection au moment précis où l’acheteur cherche, en allemand, en espagnol ou en néerlandais comme en français.
 

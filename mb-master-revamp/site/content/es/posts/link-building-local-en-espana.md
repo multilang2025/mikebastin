@@ -12,7 +12,7 @@ sourceUrl: "https://mikebastin.com/es/link-building-local-en-espana/"
 excerpt: "Link building en España con relaciones públicas digitales, medios sectoriales y editores españoles: cómo ganar enlaces que duran en tu mercado de origen."
 ---
 
-![Link building local en España](/images/legacy/2024/10/spanish-link-building-1024x368.jpg)
+![Link building local en España](/images/legacy/2024/10/spanish-link-building-1024x368.webp)
 
 España es tu mercado de origen y el que sostiene a los demás: una web con autoridad en España llega con ventaja a Francia o a Alemania. Los enlaces de medios españoles son la parte de esa autoridad que más tarda en construirse y la que más dura.
 

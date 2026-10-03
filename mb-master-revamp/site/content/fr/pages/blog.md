@@ -41,7 +41,7 @@ Visa nomade numérique espagnol 2026 pour les francophones : seuils de revenus,
 
 [lire plus](https://mikebastin.com/fr/visa-nomade-numerique-espagne/)
 
-[![8 choses à savoir absolument avant de s’installer à Valencia, en Espagne](/images/legacy/2026/01/image-1-400x250.jpeg)](https://mikebastin.com/fr/choses-a-savoir-absolument-avant-de-sinstaller-a-valencia/)
+[![8 choses à savoir absolument avant de s’installer à Valencia, en Espagne](/images/legacy/2026/01/image-1-400x250.webp)](https://mikebastin.com/fr/choses-a-savoir-absolument-avant-de-sinstaller-a-valencia/)
 
 ## [8 choses à savoir absolument avant de s’installer à Valencia, en Espagne](https://mikebastin.com/fr/choses-a-savoir-absolument-avant-de-sinstaller-a-valencia/)
 
@@ -51,7 +51,7 @@ Logement, NIE, banque, sécurité sociale, médecin de famille, écoles : huit 
 
 [lire plus](https://mikebastin.com/fr/choses-a-savoir-absolument-avant-de-sinstaller-a-valencia/)
 
-[![Optimisation pour les systèmes d’IA : au-delà du suivi des prompts](/images/legacy/2026/01/Optimizacion-para-sistemas-de-IA-e1769595525365-400x250.jpg)](https://mikebastin.com/fr/optimisation-pour-les-systemes-ia/)
+[![Optimisation pour les systèmes d’IA : au-delà du suivi des prompts](/images/legacy/2026/01/Optimizacion-para-sistemas-de-IA-e1769595525365-400x250.webp)](https://mikebastin.com/fr/optimisation-pour-les-systemes-ia/)
 
 ## [Optimisation pour les systèmes d’IA : au-delà du suivi des prompts](https://mikebastin.com/fr/optimisation-pour-les-systemes-ia/)
 
@@ -61,7 +61,7 @@ Suivre les prompts ChatGPT est une illusion : le modèle personnalise selon l�
 
 [lire plus](https://mikebastin.com/fr/optimisation-pour-les-systemes-ia/)
 
-[![Les Français à Valencia : Un impact économique et culturel en pleine expansion](/images/legacy/2025/09/francais-a-valencia-400x250.jpg)](https://mikebastin.com/fr/francais-a-valencia/)
+[![Les Français à Valencia : Un impact économique et culturel en pleine expansion](/images/legacy/2025/09/francais-a-valencia-400x250.webp)](https://mikebastin.com/fr/francais-a-valencia/)
 
 ## [Les Français à Valencia : Un impact économique et culturel en pleine expansion](https://mikebastin.com/fr/francais-a-valencia/)
 
@@ -71,7 +71,7 @@ Plus de 80 000 Français vivent désormais à Valencia. Communauté, immobilier,
 
 [lire plus](https://mikebastin.com/fr/francais-a-valencia/)
 
-[![Expert SEO international : pourquoi votre entreprise a besoin d’un spécialiste du référencement multilingue](/images/legacy/2025/08/expert-seo-international-400x250.jpg)](https://mikebastin.com/fr/expert-en-seo-international/)
+[![Expert SEO international : pourquoi votre entreprise a besoin d’un spécialiste du référencement multilingue](/images/legacy/2025/08/expert-seo-international-400x250.webp)](https://mikebastin.com/fr/expert-en-seo-international/)
 
 ## [Expert SEO international : pourquoi votre entreprise a besoin d’un spécialiste du référencement multilingue](https://mikebastin.com/fr/expert-en-seo-international/)
 
@@ -81,7 +81,7 @@ Le SEO multilingue ne se résume pas à traduire des balises. Plus de deux déce
 
 [lire plus](https://mikebastin.com/fr/expert-en-seo-international/)
 
-[![Comment un consultant en référencement international peut vous aider](/images/legacy/2025/08/consultant-seo-international-400x250.jpg)](https://mikebastin.com/fr/consultant-referencement-international/)
+[![Comment un consultant en référencement international peut vous aider](/images/legacy/2025/08/consultant-seo-international-400x250.webp)](https://mikebastin.com/fr/consultant-referencement-international/)
 
 ## [Comment un consultant en référencement international peut vous aider](https://mikebastin.com/fr/consultant-referencement-international/)
 
@@ -91,7 +91,7 @@ Un consultant SEO international travaille la stratégie multi-pays, pas seulemen
 
 [lire plus](https://mikebastin.com/fr/consultant-referencement-international/)
 
-[![Vivre en appartement à Valencia : vue d’ensemble pragmatique](/images/legacy/2025/08/appartement-a-valencia-400x250.jpg)](https://mikebastin.com/fr/vivre-en-appartement-a-valencia/)
+[![Vivre en appartement à Valencia : vue d’ensemble pragmatique](/images/legacy/2025/08/appartement-a-valencia-400x250.webp)](https://mikebastin.com/fr/vivre-en-appartement-a-valencia/)
 
 ## [Vivre en appartement à Valencia : vue d’ensemble pragmatique](https://mikebastin.com/fr/vivre-en-appartement-a-valencia/)
 
@@ -101,7 +101,7 @@ Choisir le bon quartier, comprendre la LAU, lire un bail espagnol et anticiper l
 
 [lire plus](https://mikebastin.com/fr/vivre-en-appartement-a-valencia/)
 
-[![Comment une agence SEO internationale peut transformer votre site](/images/legacy/2025/08/agence-seo-internationale-400x250.jpg)](https://mikebastin.com/fr/agence-seo-internationale/)
+[![Comment une agence SEO internationale peut transformer votre site](/images/legacy/2025/08/agence-seo-internationale-400x250.webp)](https://mikebastin.com/fr/agence-seo-internationale/)
 
 ## [Comment une agence SEO internationale peut transformer votre site](https://mikebastin.com/fr/agence-seo-internationale/)
 
@@ -111,7 +111,7 @@ Une agence SEO internationale ne fait pas que traduire : hreflang, schema marku
 
 [lire plus](https://mikebastin.com/fr/agence-seo-internationale/)
 
-[![Adopter le mode de vie de Valencia : un périple d’expat’](/images/legacy/2025/06/mode-de-vie-mediterraneen-400x250.jpg)](https://mikebastin.com/fr/mode-de-vie-de-valencia/)
+[![Adopter le mode de vie de Valencia : un périple d’expat’](/images/legacy/2025/06/mode-de-vie-mediterraneen-400x250.webp)](https://mikebastin.com/fr/mode-de-vie-de-valencia/)
 
 ## [Adopter le mode de vie de Valencia : un périple d’expat’](https://mikebastin.com/fr/mode-de-vie-de-valencia/)
 
@@ -121,7 +121,7 @@ Climat, gastronomie, langues, rythme méditerranéen : adopter le mode de vie d
 
 [lire plus](https://mikebastin.com/fr/mode-de-vie-de-valencia/)
 
-[![Top 10 des cabinets d’avocats à Valencia](/images/legacy/2025/07/bureaux-avocats-valencia-400x250.jpg)](https://mikebastin.com/fr/avocats-a-valencia/)
+[![Top 10 des cabinets d’avocats à Valencia](/images/legacy/2025/07/bureaux-avocats-valencia-400x250.webp)](https://mikebastin.com/fr/avocats-a-valencia/)
 
 ## [Top 10 des cabinets d’avocats à Valencia](https://mikebastin.com/fr/avocats-a-valencia/)
 
@@ -131,7 +131,7 @@ Trouver un avocat fiable à Valencia change tout pour un expat. Sélection 2026 
 
 [lire plus](https://mikebastin.com/fr/avocats-a-valencia/)
 
-[![Tendances 2026 du secteur des affaires : ce qui change réellement](/images/legacy/2025/06/nouvelles-tendances-400x250.jpg)](https://mikebastin.com/fr/nouvelles-tendances-du-secteur-des-affaires/)
+[![Tendances 2026 du secteur des affaires : ce qui change réellement](/images/legacy/2025/06/nouvelles-tendances-400x250.webp)](https://mikebastin.com/fr/nouvelles-tendances-du-secteur-des-affaires/)
 
 ## [Tendances 2026 du secteur des affaires : ce qui change réellement](https://mikebastin.com/fr/nouvelles-tendances-du-secteur-des-affaires/)
 

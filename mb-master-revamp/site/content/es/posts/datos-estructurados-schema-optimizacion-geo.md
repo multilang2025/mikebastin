@@ -13,7 +13,7 @@ sourceUrl: "https://mikebastin.com/es/datos-estructurados-schema-optimizacion-ge
 excerpt: "Datos estructurados y schema que describen tu empresa igual en cada idioma: así Google y los motores de IA te entienden y te citan con precisión."
 ---
 
-![Imagen de cabecera del artículo](/images/legacy/2026/01/datosestructuradosschemaoptimi-1024x585.jpg)
+![Imagen de cabecera del artículo](/images/legacy/2026/01/datosestructuradosschemaoptimi-1024x585.webp)
 
 Google sigue mostrando enlaces y, cada vez más, responde con IA: AI Overviews, AI Mode, y fuera de Google, ChatGPT, Perplexity o Claude. Tu web tiene que describir tu empresa con tanta claridad que cualquiera de esos sistemas la entienda igual en cada idioma, y te cite con los datos correctos.
 

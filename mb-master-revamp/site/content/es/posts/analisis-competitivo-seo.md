@@ -13,7 +13,7 @@ sourceUrl: "https://mikebastin.com/es/analisis-competitivo-seo/"
 excerpt: "Análisis competitivo SEO para empresas que exportan: quién gana tus búsquedas en cada país, qué páginas les dan tráfico y qué hacer primero."
 ---
 
-![Imagen de cabecera del artículo](/images/legacy/2026/01/analisiscompetitivoseocrecimie-1024x585.jpg)
+![Imagen de cabecera del artículo](/images/legacy/2026/01/analisiscompetitivoseocrecimie-1024x585.webp)
 
 Ya vendes en Francia, en el Benelux o en Alemania, y en cada uno de esos mercados alguien se queda con las búsquedas de tus compradores. Quizá tienes ya exports de Ahrefs o de Semrush y una idea bastante clara de quién te supera en Google. El paso que más rinde ahora es decidir qué hacer con todo eso, en qué orden y en qué mercado.
 

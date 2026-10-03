@@ -26,7 +26,8 @@
     "lint:keywords": "node --experimental-strip-types scripts/keyword-coverage-lint.mjs",
     "lint:redirects": "node scripts/redirect-coverage-lint.mjs",
     "lint:urls": "node scripts/url-date-lint.mjs",
-    "images:blog": "node --experimental-strip-types scripts/fetch-legacy-images.mjs && node --experimental-strip-types scripts/fetch-commons-images.mjs && node --experimental-strip-types scripts/optimize-blog-images.mjs"
+    "images:blog": "node --experimental-strip-types scripts/fetch-legacy-images.mjs && node --experimental-strip-types scripts/fetch-commons-images.mjs && node --experimental-strip-types scripts/optimize-blog-images.mjs",
+    "images:legacy": "node scripts/optimize-legacy-images.mjs"
   },
   "dependencies": {
     "clsx": "^2.1.1",

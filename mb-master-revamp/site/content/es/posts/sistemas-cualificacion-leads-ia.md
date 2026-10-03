@@ -13,7 +13,7 @@ sourceUrl: "https://mikebastin.com/es/sistemas-cualificacion-leads-ia/"
 excerpt: "Sistemas de cualificación de leads con IA: puntúan cada consulta, en cada idioma, para que tu equipo llame primero a quien está listo para comprar."
 ---
 
-![Article header image](/images/legacy/2026/01/sistemascualificacionleadsia-1024x585.jpg)
+![Article header image](/images/legacy/2026/01/sistemascualificacionleadsia-1024x585.webp)
 
 Tus mercados extranjeros envían consultas en francés, alemán, neerlandés o inglés, y tu equipo comercial decide a mano a cuáles llamar primero. Un sistema de cualificación de leads con IA ordena esa lista por probabilidad de compra, de modo que tus comerciales dedican su tiempo a las conversaciones que pueden cerrarse.
 

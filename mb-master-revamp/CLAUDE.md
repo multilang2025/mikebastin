@@ -75,7 +75,8 @@ Same model as valenciamove.com, which the owner already runs at larger scale
   `opengraph-image.tsx`.
   The eight client images in `public/work/` keep their file names when
   `design/work-shots/gen.py` redraws them and the host caches images for a
-  week, so bump `SHOT_VERSION` in `lib/projects.ts` whenever they change.
+  week, so bump `SHOT_VERSION` in `lib/projects.ts` whenever they change, and
+  regenerate the `-800.webp` copies the homepage serves to phones.
   French and Spanish posts show their English sibling's photograph
   (`imageSlugFor()` in `lib/posts.ts`); a post with no English sibling is
   mapped by hand in `LOCALE_IMAGE_FALLBACK` to the English picture that fits

@@ -83,6 +83,13 @@ export default function Spread({ d, flip, copy }: { d: Project; flip: boolean; c
           {d.shot ? (
             <motion.img
               src={d.shot}
+              /* An 800px copy (written next to each file) serves phones and
+                 the half-width desktop column; the 1600px original covers
+                 high-density screens. */
+              srcSet={`${d.shot.replace(".webp", "-800.webp")} 800w, ${d.shot} 1600w`}
+              sizes="(min-width: 1024px) 560px, 100vw"
+              width={1600}
+              height={1280}
               alt={copy?.alt ?? `The ${d.name} website on desktop and mobile`}
               loading="lazy"
               decoding="async"

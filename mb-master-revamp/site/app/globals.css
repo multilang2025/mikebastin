@@ -728,7 +728,7 @@ select.control {
   background: var(--chip);
   font-size: .92em;
 }
-.post-body img { border-radius: 4px; margin: 1.6em 0; }
+.post-body img { border-radius: 4px; margin: 1.6em 0; max-width: 100%; height: auto; }
 .post-body > :first-child { margin-top: 0; }
 .post-body h4 {
   margin-top: 1.6em;

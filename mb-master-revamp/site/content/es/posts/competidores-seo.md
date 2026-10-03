@@ -12,7 +12,7 @@ sourceUrl: "https://mikebastin.com/es/competidores-seo/"
 excerpt: "Encuentra tus competidores SEO reales en cada país: quién ocupa las búsquedas de tus compradores, cómo clasificarlo y qué hacer con esa lista."
 ---
 
-![Imagen de cabecera del artículo](/images/legacy/2026/01/encontrarcompetidoresseoverdad-1024x585.jpg)
+![Imagen de cabecera del artículo](/images/legacy/2026/01/encontrarcompetidoresseoverdad-1024x585.webp)
 
 En Francia o en Alemania, las búsquedas de tus compradores las gana alguien, y a menudo es una web que tu equipo comercial todavía tiene fuera del radar: un blog, un directorio, un portal sectorial. Ponerle nombre a ese rival es el paso que convierte tu SEO internacional en un plan concreto.
 

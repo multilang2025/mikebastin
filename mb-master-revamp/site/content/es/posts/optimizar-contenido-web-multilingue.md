@@ -13,7 +13,7 @@ sourceUrl: null
 excerpt: "Optimiza tu contenido web multilingüe con localización: páginas traducidas que se sienten locales, se encuentran y convierten en cada mercado."
 ---
 
-![El papel de la localización en el contenido web multilingüe](/images/legacy/2024/10/optimising-multilingual-website-content-1024x366.jpg)
+![El papel de la localización en el contenido web multilingüe](/images/legacy/2024/10/optimising-multilingual-website-content-1024x366.webp)
 
 Tu web ya vende en español, y las versiones para Francia, Bélgica, Países Bajos o Alemania reciben visitas. El objetivo es que rindan igual: que un comprador de París, de Ámsterdam o de Múnich las encuentre precisas, familiares y dignas de una consulta.
 

@@ -13,7 +13,7 @@ sourceUrl: "https://mikebastin.com/es/rastrear-posiciones-de-keywords-de-competi
 excerpt: "Rastrea las posiciones de las keywords de tus competidores país por país: qué seguir, cómo configurarlo y cómo actuar cuando un rival sube."
 ---
 
-![Análisis competitivo SEO](/images/legacy/2026/01/analisis-competitivo-SEO.jpg)
+![Análisis competitivo SEO](/images/legacy/2026/01/analisis-competitivo-SEO.webp)
 
 Tus páginas en francés o en alemán ganan y pierden posiciones cada semana, y tus competidores también. Seguir sus movimientos en las búsquedas que te importan te dice a tiempo dónde puedes adelantarles y qué página merece tu siguiente hora de trabajo.
 
