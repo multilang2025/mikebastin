@@ -341,13 +341,9 @@ export default function Home() {
       {/* ============ CREDIBILITY ============ */}
       <section className="band band-a py-[clamp(56px,8vw,110px)]">
         <div className="shell">
-          <div
-            className="grid gap-px"
-            style={{
-              background: "var(--rule)",
-              gridTemplateColumns: "repeat(auto-fit, minmax(160px, 1fr))",
-            }}
-          >
+          {/* Two by two, then four across: auto-fit made a row of three
+              and a lone fourth with grey empty cells at tablet width. */}
+          <div className="grid grid-cols-2 gap-px lg:grid-cols-4" style={{ background: "var(--rule)" }}>
             {STATS.map((s, i) => (
               <div key={s.k} className="band px-6 py-9" style={{ background: "var(--bg)" }}>
                 <Reveal i={i}>

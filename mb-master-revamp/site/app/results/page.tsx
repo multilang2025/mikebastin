@@ -97,7 +97,7 @@ export default function ResultsPage() {
               <Reveal key={p.slug} i={i}>
                 <Link
                   href={`/projects/${p.slug}/`}
-                  className="group grid grid-cols-3 gap-x-6 gap-y-4 py-6 md:grid-cols-[minmax(0,1.4fr)_repeat(3,minmax(0,1fr))] md:items-baseline"
+                  className="group grid grid-cols-3 gap-x-3 gap-y-4 py-6 sm:gap-x-6 md:grid-cols-[minmax(0,1.4fr)_repeat(3,minmax(0,1fr))] md:items-baseline"
                   style={{ borderBottom: "1px solid var(--rule)" }}
                 >
                   <span className="col-span-3 flex flex-col gap-1 md:col-span-1">
@@ -114,11 +114,14 @@ export default function ResultsPage() {
                     { v: p.search!.impressions, k: "Impressions" },
                     { v: p.search!.position, k: "Avg. position" },
                   ].map((m) => (
-                    <span key={m.k} className="flex flex-col gap-1">
-                      <span className="display text-[1.2rem] font-semibold leading-none tabular-nums" style={{ color: "var(--berry)" }}>
+                    // Sized so a seven-digit figure and its label each hold
+                    // one line in a third of a 360px phone (owner, 3 Oct
+                    // 2026: "2,399,56 / 7" broke across lines).
+                    <span key={m.k} className="flex min-w-0 flex-col gap-1">
+                      <span className="display whitespace-nowrap text-[clamp(.98rem,4.4vw,1.2rem)] font-semibold leading-none tabular-nums" style={{ color: "var(--berry)" }}>
                         {m.v}
                       </span>
-                      <span className="text-[.7rem] uppercase tracking-[.12em]" style={{ color: "var(--dim)" }}>
+                      <span className="whitespace-nowrap text-[.62rem] uppercase tracking-[.06em] sm:text-[.7rem] sm:tracking-[.12em]" style={{ color: "var(--dim)" }}>
                         {m.k}
                       </span>
                     </span>
