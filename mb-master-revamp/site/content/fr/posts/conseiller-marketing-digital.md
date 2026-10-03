@@ -30,7 +30,7 @@ Après plus de deux décennies des deux côtés de la barrière, nous savons en 
 | **Tarification habituelle** | Forfait mensuel ou prix au projet | Forfait mensuel plus budget média |
 | **Risque de parti pris** | Plus faible (rémunéré pour son temps seul) | Plus élevé (rémunéré pour faire durer un contrat) |
 
-## Ce que fait réellement un conseiller en marketing digital
+## Le rôle réel d’un conseiller en marketing digital
 
 Auprès d’un conseiller, vous achetez la réponse à la question « pourquoi les résultats tardent-ils », et cette réponse vient du diagnostic. Un conseiller est un partenaire stratégique qui fixe le plan que d’autres exécutent. Il dessine le plan d’ensemble, audite les fondations et vérifie que chaque décision marketing sert toujours le modèle économique qui la porte.
 
@@ -44,7 +44,7 @@ Quand les campagnes apportent du trafic et que les rendez-vous tardent à suivre
 >
 > [Mike Bastin](/fr/notre-equipe/), consultant en SEO et marketing multilingues
 
-## Ce que fait une agence de marketing digital
+## Le rôle d’une agence de marketing digital
 
 Auprès d’une agence, vous achetez de la capacité : un travail livré par un service tout prêt. Une agence est une machine d’exécution. Vous y trouvez des spécialistes : rédacteurs, praticiens du SEO, acheteurs média, designers UX et développeurs web, dont le métier consiste à prendre le travail en charge et à le livrer.
 

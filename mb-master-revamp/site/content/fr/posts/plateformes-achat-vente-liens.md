@@ -1,6 +1,6 @@
 ---
 words: 0
-title: "Plateformes d’achat et de vente de liens : la liste commentée"
+title: "Plateformes d’achat et vente de liens : la liste commentée"
 slug: "plateformes-achat-vente-liens"
 locale: "fr"
 type: "posts"
@@ -40,7 +40,7 @@ Multipliez ce taux par le volume dont une agence ou une équipe SEO interne a be
 
 Les places de marché ramènent la recherche, la négociation et la publication à quelques clics. Le prix est affiché, l’éditeur a déjà accepté le principe des publications, et la plateforme gère la facturation, le séquestre et les litiges. Le gain porte sur la rapidité des opérations ; la valeur SEO dépend toujours du site.
 
-## Ce que SpamBrain a changé pour les liens bon marché
+## Les liens bon marché après SpamBrain
 
 Si vous avez acheté des liens avant 2022, vérifiez lesquels comptent encore. Jusque-là, la détection du spam de liens par Google restait inégale : réseaux de blogs privés (PBN), liens d’annuaires bon marché et réseaux d’articles invités en masse fonctionnaient tous. [La mise à jour de Google contre le spam de liens de décembre 2022](https://developers.google.com/search/blog/2022/12/december-22-link-spam-update) a changé la donne.
 
@@ -48,7 +48,7 @@ Si vous avez acheté des liens avant 2022, vérifiez lesquels comptent encore. J
 >
 > Source : [Google Search Central Blog, « December 2022 link spam update », 14 décembre 2022](https://developers.google.com/search/blog/2022/12/december-22-link-spam-update)
 
-**SpamBrain** est le système de prévention du spam de Google fondé sur l’IA, et il repère les schémas de liens artificiels à grande échelle. Les liens bon marché sont de plus en plus souvent annulés : l’algorithme les ignore, tout simplement. Pour un acheteur, les contrôles de qualité passent donc en premier, car un emplacement neutralisé n’a aucun effet sur le classement.
+**SpamBrain** est le système de prévention du spam de Google fondé sur l’IA, et il repère les schémas de liens artificiels à grande échelle. Les liens bon marché sont toujours plus souvent annulés : l’algorithme les ignore, tout simplement. Pour un acheteur, les contrôles de qualité passent donc en premier, car un emplacement neutralisé n’a aucun effet sur le classement.
 
 Les mises à jour suivantes de Google contre le spam vont dans le même sens. Les sites continuent de se positionner, et la valeur des liens de faible qualité est ramenée à zéro, comme l’expliquent les [règles de Google Search Essentials relatives au spam](https://developers.google.com/search/docs/essentials/spam-policies).
 

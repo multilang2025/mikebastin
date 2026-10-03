@@ -60,7 +60,7 @@ L’[extension Web Developer](https://chromewebstore.google.com/detail/web-devel
 
 ## Mots-clés et concurrents : des extensions pour évaluer un marché
 
-Ce sur quoi un concurrent se positionne, et ce que cela lui rapporte, vous dit si un marché vaut le budget avant de l’engager.
+Les requêtes sur lesquelles un concurrent se positionne, et ce qu’elles lui rapportent, vous disent si un marché vaut le budget avant de l’engager.
 
 ### Keywords Everywhere
 
