@@ -123,7 +123,7 @@ Una página firmada por un experto con nombre y apellidos gana hoy a una anónim
 >
 > Fuente: [Search Engine Land](https://searchengineland.com/google-updates-search-quality-raters-guidelines-adding-ai-overview-examples-ymyl-definitions-461908)
 
-Google lee el E-E-A-T a través de señales indirectas: reputación del dominio, autoría clara, calidad de las fuentes y marcado de autor. Los sitios con biografías de autor detalladas, casos prácticos publicados y fuentes recientes ganan terreno.
+Google lee el E-E-A-T a través de señales indirectas: reputación del dominio, autoría clara, calidad de las fuentes y marcado de autor. Los sitios con biografías de autor detalladas, casos prácticos publicados y fuentes recientes ganan terreno. La anécdota de [la errata entre EEAT y AEAT](/es/eeat-o-aeat/) cuenta cómo se trabajan estas señales en una web jurídica multilingüe.
 
 ## Voz, velocidad y búsqueda local: lo que sigue sumando
 
@@ -159,7 +159,7 @@ Posicionar en los mercados de habla francesa, alemana, neerlandesa o inglesa pid
 
 ## Dónde poner primero el esfuerzo
 
-El SEO es cada vez más amplio y más exigente: la visibilidad pide precisión técnica, autoridad real y contenido que funcione tanto si alguien hace clic como si no. Esta es la primera acción para cada tendencia.
+El SEO es cada vez más amplio y más exigente: la visibilidad pide precisión técnica, autoridad real y contenido que funcione tanto si alguien hace clic como si no. Para el contexto económico de esas decisiones, repasa nuestras [tendencias globales de negocio](/es/tendencias-globales-negocio/). Esta es la primera acción para cada tendencia.
 
 | Tendencia | Primera acción |
 | --- | --- |

@@ -44,7 +44,7 @@ La cantidad de tráfico te dice el tamaño del rival; la calidad te dice qué co
 - la duración media de la visita;
 - las páginas por visita.
 
-Revisa también el reparto por canales: orgánico, pago, redes sociales, referencias y directo. Un rival con tráfico orgánico sólido tiene un activo más duradero que uno que depende sobre todo de la publicidad. Para empezar, usa [herramientas gratuitas de análisis competitivo](https://mikebastin.com/es/herramientas-gratuitas-analisis-competitivo/) antes de invertir en soluciones de pago.
+Revisa también el reparto por canales: orgánico, pago, redes sociales, referencias y directo. Un rival con tráfico orgánico sólido tiene un activo más duradero que uno que depende sobre todo de la publicidad. Parte de las referencias suele venir de afiliados, y nuestra comparativa de [programas de afiliados](/es/programas-de-afiliados/) muestra cómo funcionan esas comisiones. Para empezar, usa [herramientas gratuitas de análisis competitivo](https://mikebastin.com/es/herramientas-gratuitas-analisis-competitivo/) antes de invertir en soluciones de pago.
 
 ### Tráfico orgánico y palabras clave
 

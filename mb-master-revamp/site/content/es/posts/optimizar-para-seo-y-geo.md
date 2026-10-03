@@ -52,7 +52,7 @@ El mismo nombre, dirección y teléfono (NAP) en todas las plataformas da confia
 
 ## Integrar SEO y GEO en tu estrategia de contenidos
 
-Un solo proceso de redacción para los dos canales cuesta menos y mantiene tu mensaje igual en todas partes. Pasa de pensar en palabras clave sueltas a pensar en entidades y temas: tu empresa, tus servicios, tus expertos y las preguntas que resuelven. Cada artículo responde a la persona que busca y ofrece una estructura que la IA puede recorrer. Nuestro [SEO multilingüe](/es/services/posicionamiento-multilingue/) mantiene ese equilibrio en cada idioma.
+Un solo proceso de redacción para los dos canales cuesta menos y mantiene tu mensaje igual en todas partes. Pasa de pensar en palabras clave sueltas a pensar en entidades y temas: tu empresa, tus servicios, tus expertos y las preguntas que resuelven. Cada artículo responde a la persona que busca y ofrece una estructura que la IA puede recorrer. Para elegir esos temas según lo que buscan tus clientes, sigue nuestra guía de [estrategia de contenido segmentada](/es/estrategia-de-contenido-segmentada/). Nuestro [SEO multilingüe](/es/services/posicionamiento-multilingue/) mantiene ese equilibrio en cada idioma.
 
 Escribe en lenguaje natural y técnicamente preciso. Si vendes servicios de logística, como hace TX International Freight, tu contenido responde a las preguntas que un cliente formularía a un chatbot. Nuestra [página de inicio](/es/) resume cómo elegimos los temas con más potencial en cada mercado.
 

@@ -16,7 +16,7 @@ excerpt: "Cómo optimizar tu Perfil de Empresa de Google en 2026: categorías, r
 
 Tu ficha de Google es lo primero que ve quien busca tu servicio cerca: antes que tu web, a menudo antes que tu nombre. Un perfil al día, con fotos recientes y reseñas nuevas, te mantiene entre las tres empresas que Google enseña en el mapa, y ahí se deciden las llamadas y las reservas.
 
-Tomamos como ejemplo un estudio de yoga en Valencia, pero cada paso vale para cualquier negocio con local abierto al público. Aquí tienes lo que cambió en el perfil entre 2024 y 2026, cómo dejarlo completo y qué revisar cada mes.
+Tomamos como ejemplo un estudio de yoga en Valencia, pero cada paso vale para cualquier negocio con local abierto al público. Si tu negocio está en Valencia, nuestra guía de [posicionamiento web en Valencia](/es/posicionamiento-web-valencia/) completa el perfil con tu web. Aquí tienes lo que cambió en el perfil entre 2024 y 2026, cómo dejarlo completo y qué revisar cada mes.
 
 ## Tu perfil, fuente de respuestas para la IA
 

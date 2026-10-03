@@ -64,7 +64,7 @@ Medir bien te dice qué páginas reescribir primero. Hoy el seguimiento combina 
 
 La precisión es el indicador que más se corrige desde tu lado. Cuando una respuesta repite un servicio antiguo o un mercado equivocado, la fuente suele estar en tu propia web o en tus perfiles. Anota cada dato erróneo y localiza dónde se publica.
 
-Dos sitios lo concentran casi siempre: los datos estructurados, que describen tu empresa en JSON-LD y que explicamos en nuestra guía de [datos estructurados y schema para GEO](/es/datos-estructurados-schema-optimizacion-geo/), y los perfiles de tus autores, como el de [LinkedIn](https://www.linkedin.com/in/michaelbastin/), que tienen que decir lo mismo que tu web.
+Dos sitios lo concentran casi siempre: los datos estructurados, que describen tu empresa en JSON-LD y que explicamos en nuestra guía de [datos estructurados y schema para GEO](/es/datos-estructurados-schema-optimizacion-geo/), y los perfiles de tus autores, como el de [LinkedIn](https://www.linkedin.com/in/michaelbastin/), que tienen que decir lo mismo que tu web. Nuestra guía para [redactar tu trayectoria profesional](/es/redactar-trayectoria-profesional/) te ayuda a escribir esas biografías.
 
 ## Medir cada idioma por separado
 

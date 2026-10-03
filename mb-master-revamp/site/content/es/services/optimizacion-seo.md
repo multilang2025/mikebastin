@@ -19,7 +19,7 @@ Ya vendes en Francia, en el Benelux, en Alemania o en el Reino Unido. Tu web exi
 
 El potencial ya está ahí. Tu producto ha demostrado que funciona fuera, tus páginas están publicadas y Google las conoce. Lo que queda por ganar se juega en dos puntos: las palabras que tus compradores escriben de verdad en su idioma, y páginas que les hablen como un proveedor de su país. Cada trimestre dedicado a ajustar esos dos puntos es un trimestre en el que tus mercados extranjeros empiezan a aportar.
 
-A esto nos dedicamos desde hace más de dos décadas: el SEO internacional para empresas que exportan, medido por las consultas que recibes de cada mercado.
+A esto nos dedicamos desde hace más de dos décadas: el SEO internacional para empresas que exportan, medido por las consultas que recibes de cada mercado. Si dudas entre contratar a un asesor o a una agencia, nuestra guía sobre el [asesor de marketing digital](/es/asesor-marketing-digital/) te ayuda a decidir.
 
 <aside class="post-cta">
 <p><strong>¿Quieres que tus páginas en el extranjero te traigan clientes?</strong> Encontramos las palabras que usan tus compradores en cada país y escribimos las páginas que les llevan a contactarte. <a href="/es/contactanos/">Reserva una consulta gratuita</a>.</p>
@@ -33,7 +33,7 @@ El posicionamiento web internacional se resume en tres tareas, repetidas para ca
 
 **Encargamos tus páginas a redactores nativos.** Un comprador sabe desde la primera frase si una página está escrita para él. El español, el francés, el inglés y el neerlandés los trabaja directamente el equipo que diseña la estrategia; el alemán, el italiano, el portugués y el resto de idiomas pasan por redactores nativos de la red BeTranslated.
 
-**Contamos las consultas, idioma por idioma.** Cada mercado tiene sus propias cifras: visitas, posiciones y, sobre todo, consultas recibidas. Ves qué país rinde y el presupuesto acompaña a los mercados que responden.
+**Contamos las consultas, idioma por idioma.** Cada mercado tiene sus propias cifras: visitas, posiciones y, sobre todo, consultas recibidas. Ves qué país rinde y el presupuesto acompaña a los mercados que responden. Si coordinas además publicidad, email y redes, una [agencia de marketing 360](/es/agencia-marketing-360/) une todos esos canales en un solo plan.
 
 Estas tareas forman parte de tu marketing internacional: el SEO trabaja de forma constante mientras la [publicidad multilingüe](/es/services/publicidad-multilingue/) acelera los mercados nuevos.
 

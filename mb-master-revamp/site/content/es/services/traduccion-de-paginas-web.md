@@ -38,7 +38,7 @@ La traducción deja el texto correcto. La localización cambia todo lo que le in
 - las imágenes, las señales de confianza y hasta las llamadas a la acción;
 - las palabras clave, elegidas según cómo busca la gente en cada idioma.
 
-Trabajamos para los mercados donde nuestros clientes ya venden: Francia, el Benelux, Alemania, el Reino Unido, Suiza y, más allá, Estados Unidos y Canadá. Los textos comerciales los escriben redactores nativos, y las traducciones pasan por la red BeTranslated, que dirigimos desde hace veinte años. Un glosario por idioma fija tus términos de producto y de marca, y cada página o ficha que se añade después sigue el mismo vocabulario en todas las versiones. Para un documento que deba aceptar un tribunal o una administración, consulta nuestra página de [traducción profesional](/es/services/traduccion-profesional/).
+Trabajamos para los mercados donde nuestros clientes ya venden: Francia, el Benelux, Alemania, el Reino Unido, Suiza y, más allá, Estados Unidos y Canadá. Para el francés, nuestra guía de [traducción de inglés a francés](/es/traduccion-ingles-frances/) detalla qué cambia entre Francia, Bélgica, Suiza y Quebec. Los textos comerciales los escriben redactores nativos, y las traducciones pasan por la red BeTranslated, que dirigimos desde hace veinte años. Un glosario por idioma fija tus términos de producto y de marca, y cada página o ficha que se añade después sigue el mismo vocabulario en todas las versiones. Para un documento que deba aceptar un tribunal o una administración, consulta nuestra página de [traducción profesional](/es/services/traduccion-profesional/).
 
 ## Una web en cuatro idiomas, exacta cada semana
 

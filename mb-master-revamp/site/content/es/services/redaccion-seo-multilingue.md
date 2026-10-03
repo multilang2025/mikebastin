@@ -38,7 +38,7 @@ Este trabajo se apoya en nuestro [posicionamiento multilingüe](/es/services/pos
 
 Un conjunto de páginas por temas que funciona en español refleja cómo dividen un asunto los hispanohablantes. Otro idioma lo divide a menudo de otra manera: parte uno de tus temas en dos, o fusiona dos que trata como un solo asunto.
 
-Construir el conjunto a partir de las consultas del idioma de destino da las páginas que ese mercado busca, enlazadas entre sí como buscan sus compradores. Lleva más tiempo, y es la versión que se posiciona.
+Construir el conjunto a partir de las consultas del idioma de destino da las páginas que ese mercado busca, enlazadas entre sí como buscan sus compradores. Lleva más tiempo, y es la versión que se posiciona. Si buscas temas para empezar, nuestras [ideas para artículos de blog](/es/ideas-para-articulos-de-blog/) te dan quince puntos de partida.
 
 ## Experiencia visible en cada idioma
 

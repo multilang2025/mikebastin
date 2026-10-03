@@ -73,7 +73,7 @@ Examina los primeros resultados de cada palabra clave objetivo, porque la primer
 El formato, la profundidad y el enfoque de las páginas que ya posicionan te dicen cuál es la intención dominante.
 
 **Clasifica cada palabra clave por tipo de intención.**  
-Agrupa las palabras clave en grupos informativos, navegacionales, comerciales o transaccionales, y asigna a cada grupo un formato: guías para las consultas informativas, comparativas para las comerciales y páginas de destino para las transaccionales.
+Agrupa las palabras clave en grupos informativos, navegacionales, comerciales o transaccionales, y asigna a cada grupo un formato: guías para las consultas informativas, comparativas para las comerciales y páginas de destino para las transaccionales. Para llenar el grupo informativo, nuestras [ideas para artículos de blog](/es/ideas-para-articulos-de-blog/) vienen ordenadas por etapa de compra.
 
 **Ajusta o crea el contenido.**  
 Audita las páginas existentes con el mapa en la mano. Donde hay huecos, crea contenido nuevo; donde hay desajustes, reestructura.
@@ -200,7 +200,7 @@ Para una empresa que vende en varios mercados, el efecto se multiplica, porque l
 
 ## Por dónde empezar
 
-El mapa de intención de búsqueda está en la base de toda estrategia de SEO eficaz, y más aún del [SEO multilingüe](/es/services/posicionamiento-multilingue/). Empieza por el mercado que ya te envía más tráfico, clasifica sus palabras clave por intención y compara sus resultados con los de tu idioma.
+El mapa de intención de búsqueda está en la base de toda estrategia de SEO eficaz, y más aún del [SEO multilingüe](/es/services/posicionamiento-multilingue/). Empieza por el mercado que ya te envía más tráfico, clasifica sus palabras clave por intención y compara sus resultados con los de tu idioma. Después, convierte el mapa en una [estrategia de contenido segmentada](/es/estrategia-de-contenido-segmentada/) en siete pasos.
 
 La IA acelera la investigación y la clasificación; la experiencia humana asegura la precisión y el encaje cultural. Las empresas que combinan ambas y estructuran su contenido para la extracción por IA y para el lector mantienen su visibilidad, cambien como cambien los resultados de búsqueda.
 

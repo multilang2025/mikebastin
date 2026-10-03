@@ -42,7 +42,7 @@ En la página, la estructura va antes que las palabras:
 - un plan de palabras clave ligado a una intención real;
 - una jerarquía de títulos que sigue el argumento;
 - HTML semántico;
-- enlaces internos que apuntan a la página que debe posicionarse;
+- [enlaces internos](/es/herramientas-enlazado-interno/) que apuntan a la página que debe posicionarse;
 - una página lo bastante rápida para que todo lo demás sirva.
 
 En una web multilingüe, la mayoría de los problemas vienen de una página que compite con otra por la misma consulta y en el mismo idioma. La solución pasa por la estructura, antes de reescribir cualquier página. El trabajo por mercado sigue en nuestro [posicionamiento multilingüe](/es/services/posicionamiento-multilingue/).

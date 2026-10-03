@@ -17,7 +17,7 @@ excerpt: "Sé la empresa que tus clientes encuentran primero en el mapa, en cada
 
 Vendes en varias ciudades: las de tu entorno y quizá Bruselas, Barcelona o Róterdam, donde tienes una oficina, un almacén o clientes habituales. En cada una, quien busca tu servicio mira el mapa de Google y decide ahí: compara las reseñas de las tres empresas que aparecen y llama a una de ellas. La demanda se gana en esos tres huecos, y hacia ellos apuntamos.
 
-En una ciudad que busca en dos idiomas, ganas por partida doble. Una ficha en francés y neerlandés en Bruselas, en español e inglés en Valencia, llega a los dos públicos a la vez, y la empresa que añade el segundo idioma se queda con los dos.
+En una ciudad que busca en dos idiomas, ganas por partida doble. Una ficha en francés y neerlandés en Bruselas, en español e inglés en Valencia, llega a los dos públicos a la vez, y la empresa que añade el segundo idioma se queda con los dos. Nuestra guía de [posicionamiento web en Valencia](/es/posicionamiento-web-valencia/) lo aplica barrio a barrio.
 
 El resultado llega con discreción, unas cuantas llamadas más por semana, y se acumula mes a mes. Por eso lo medimos ciudad por ciudad, para que veas lo que te aporta cada dirección.
 
@@ -59,7 +59,7 @@ Cada vez más preguntas del tipo «el mejor X en Lyon» pasan por ChatGPT, Claud
 
 Google lee tus datos de contacto en decenas de sitios, y cuando coinciden, se fía de ellos en todas partes. El trabajo empieza con una auditoría de las menciones existentes: corregimos las diferencias, eliminamos duplicados y añadimos las fuentes locales que cuentan, como la cámara de comercio, la asociación profesional y el directorio que tu sector consulta de verdad. Esa corrección, la más frecuente, es la que hace aparecer en el mapa a una empresa con buenas páginas.
 
-Una página por barrio o por ciudad funciona cuando cada una dice algo cierto sobre ese lugar, mucho más allá de un nombre de ciudad cambiado. Lleva el marcado LocalBusiness con el subtipo adecuado: LegalService para un despacho de abogados, FreightForwarder para un transitario. Los enlaces internos desde las páginas de servicio principales la hacen fácil de encontrar. En una web multilingüe, las etiquetas hreflang unen la página de Bruselas en francés con su versión en neerlandés, para que cada visitante llegue en su idioma; nuestro [posicionamiento multilingüe](/es/services/posicionamiento-multilingue/) cubre esa estructura al detalle.
+Una página por barrio o por ciudad funciona cuando cada una dice algo cierto sobre ese lugar, mucho más allá de un nombre de ciudad cambiado. Lleva el marcado LocalBusiness con el subtipo adecuado: LegalService para un [despacho de abogados](/es/seo-despachos-de-abogados/), FreightForwarder para un transitario. Los enlaces internos desde las páginas de servicio principales la hacen fácil de encontrar. En una web multilingüe, las etiquetas hreflang unen la página de Bruselas en francés con su versión en neerlandés, para que cada visitante llegue en su idioma; nuestro [posicionamiento multilingüe](/es/services/posicionamiento-multilingue/) cubre esa estructura al detalle.
 
 Las reseñas nacen de un proceso: una petición enviada después del servicio, por correo o con un código QR en el recibo. Cada reseña recibe respuesta, también las críticas, porque la respuesta la leen todos los clientes siguientes. Conviene tener preparada la respuesta a una reseña crítica antes de que llegue: bien gestionada, inspira más confianza que una columna de cinco estrellas.
 

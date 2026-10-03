@@ -84,7 +84,7 @@ Mantén abierta en robots.txt cualquier URL con `noindex`, para que Google pueda
 | 302 | Encontrada, temporal | Google acaba tratándola como 301 si se mantiene | Una prueba corta o una página de temporada |
 | 410 | Eliminada | No | El contenido se retira de forma definitiva |
 
-Encuentra cadenas y bucles con Screaming Frog, Ahrefs o la extensión Redirect Path, haz que cada redirección apunte directamente a la URL final y cambia por 301 las 302 que se han vuelto permanentes. En `.htaccess`:
+Encuentra cadenas y bucles con Screaming Frog, Ahrefs o la extensión Redirect Path, una de las [extensiones de Chrome para SEO](/es/extensiones-chrome-seo/) que más usamos, haz que cada redirección apunte directamente a la URL final y cambia por 301 las 302 que se han vuelto permanentes. En `.htaccess`:
 
 ```
 Redirect 301 /pagina-antigua /pagina-nueva

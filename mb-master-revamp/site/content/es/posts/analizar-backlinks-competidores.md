@@ -114,7 +114,7 @@ Es investigar qué webs enlazan a tus rivales, entender por qué lo hacen y busc
 
 ### ¿Se pueden conseguir los mismos enlaces que la competencia?
 
-Sí. Contactar con webs que ya enlazaron a un competidor para ofrecerles un contenido mejor es una práctica legítima. Apóyate en el contacto con editores y en el contenido, que es lo que Google valora: la compra de enlaces y las redes de blogs privados (PBN) van contra sus políticas de spam.
+Sí. Contactar con webs que ya enlazaron a un competidor para ofrecerles un contenido mejor es una práctica legítima. Apóyate en el contacto con editores y en el contenido, que es lo que Google valora: la compra de enlaces y las redes de blogs privados (PBN) van contra sus políticas de spam. Si trabajas con plataformas de enlaces, nuestra lista comentada de [plataformas de compraventa de enlaces](/es/plataformas-compraventa-enlaces/) recoge los cinco controles que llevan tu presupuesto a enlaces que Google sí cuenta.
 
 ### ¿Por qué un rival con menos enlaces te gana en Google?
 

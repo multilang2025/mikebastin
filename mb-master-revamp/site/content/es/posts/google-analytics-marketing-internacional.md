@@ -43,7 +43,7 @@ Las métricas de interacción son fiables para comparar mercados sobre un mismo 
 
 ### Atribución de conversiones, dentro de sus límites
 
-La atribución basada en datos de GA4 es útil como orientación para decidir qué canales merecen presupuesto en cada mercado. Trátala como una guía: úsala para priorizar pruebas y repartir el presupuesto, y respalda cualquier cálculo de retorno con tus propios datos de ventas.
+La atribución basada en datos de GA4 es útil como orientación para decidir qué canales merecen presupuesto en cada mercado. Trátala como una guía: úsala para priorizar pruebas y repartir el presupuesto, y respalda cualquier cálculo de retorno con tus propios datos de ventas. Si necesitas a alguien que lea estas cifras contigo, nuestra guía sobre el [asesor de marketing digital](/es/asesor-marketing-digital/) te dice cuándo encaja uno.
 
 ## Lo que conviene revisar: los límites de los datos internacionales
 
