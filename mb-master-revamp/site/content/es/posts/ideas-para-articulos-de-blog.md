@@ -145,4 +145,25 @@ Anunciar nuevas funciones con beneficios claros hace volver a tus clientes actua
 
 Elige un formato por etapa de compra para empezar. Mide cada uno en Google Analytics 4 y en Google Search Console, y apuesta más por los formatos que generan contactos. Para decidir qué temas tratar primero y para qué lector, nuestro método para crear una [estrategia de contenido segmentada](/es/estrategia-de-contenido-segmentada/) completa esta lista.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 204" role="img" aria-label="Las cuatro etapas de compra, de descubrimiento a fidelización, cada una con los formatos de artículo que le corresponden; la etapa de decisión está destacada.">
+<rect x="10" y="8" width="150" height="38" rx="6" class="fg-box"/>
+<text x="85" y="33" text-anchor="middle" class="fg-text">Descubrimiento</text>
+<text x="176" y="32" class="fg-label">Guías, FAQ, glosarios</text>
+<line x1="85" y1="46" x2="85" y2="58" class="fg-line"/>
+<rect x="10" y="58" width="150" height="38" rx="6" class="fg-box"/>
+<text x="85" y="83" text-anchor="middle" class="fg-text">Consideración</text>
+<text x="176" y="82" class="fg-label">Entrevistas, cuestionarios</text>
+<line x1="85" y1="96" x2="85" y2="108" class="fg-line"/>
+<rect x="10" y="108" width="150" height="38" rx="6" class="fg-hot"/>
+<text x="85" y="133" text-anchor="middle" class="fg-text">Decisión</text>
+<text x="176" y="132" class="fg-label">Casos de éxito, comparativas</text>
+<line x1="85" y1="146" x2="85" y2="158" class="fg-line"/>
+<rect x="10" y="158" width="150" height="38" rx="6" class="fg-box"/>
+<text x="85" y="183" text-anchor="middle" class="fg-text">Fidelización</text>
+<text x="176" y="182" class="fg-label">Novedades de producto</text>
+</svg>
+<figcaption>Un formato por etapa basta para empezar. Los de descubrimiento atraen visitas, y los de decisión son los que tu equipo comercial puede relacionar con solicitudes.</figcaption>
+</figure>
+
 En tus mercados exteriores, aplica la misma lógica en cada idioma: nuestras [buenas prácticas de SEO multilingüe](/es/buenas-practicas-seo-multilingue/) explican cómo hacer que cada versión rinda, y nuestro [SEO multilingüe mercado por mercado](/es/services/posicionamiento-multilingue/) se ocupa de las palabras clave y del seguimiento de cada país.

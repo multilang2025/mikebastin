@@ -145,3 +145,21 @@ Announcing new features with clear benefit statements brings existing customers 
 ## Where to start
 
 Pick one format per buying stage to start with. Measure each in Google Analytics 4 and Google Search Console, and double down on the formats that generate leads.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 186" role="img" aria-label="Four buying stages in order, awareness, consideration, decision and retention, each paired with blog formats that serve it; the decision stage is highlighted.">
+<rect x="20" y="8" width="360" height="36" rx="6" class="fg-box"/>
+<rect x="20" y="52" width="360" height="36" rx="6" class="fg-box"/>
+<rect x="20" y="96" width="360" height="36" rx="6" class="fg-hot"/>
+<rect x="20" y="140" width="360" height="36" rx="6" class="fg-box"/>
+<text x="36" y="32" class="fg-text">Awareness</text>
+<text x="364" y="31" text-anchor="end" class="fg-label">How-to, FAQ</text>
+<text x="36" y="76" class="fg-text">Consideration</text>
+<text x="364" y="75" text-anchor="end" class="fg-label">Polls, quizzes</text>
+<text x="36" y="120" class="fg-strong">Decision</text>
+<text x="364" y="119" text-anchor="end" class="fg-label">Case studies</text>
+<text x="36" y="164" class="fg-text">Retention</text>
+<text x="364" y="163" text-anchor="end" class="fg-label">Product updates</text>
+</svg>
+<figcaption>One format per stage is enough to start. The decision stage is where a post goes straight into a buyer's shortlist, so give it a case study or a comparison early.</figcaption>
+</figure>

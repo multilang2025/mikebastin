@@ -74,6 +74,33 @@ Si vous vendez en Allemagne, en Espagne ou aux Pays-Bas, l’IA multiplie ce que
 
 Concrètement, l’IA regroupe les requêtes de chaque marché et prépare un premier jet, puis un locuteur natif vérifie que le terme est celui qui se cherche sur place et que le texte sonne local. Une PME lyonnaise qui vend en Allemagne, ou une entreprise bruxelloise qui vend en Flandre et aux Pays-Bas, gagne ainsi du temps sur chaque langue et garde des pages que le lecteur reconnaît comme écrites pour lui. Notre [référencement multilingue](/fr/services/referencement-multilingue/) fonctionne de cette façon, et le contenu localisé rapporte davantage que le contenu simplement traduit.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 132" role="img" aria-label="L’IA regroupe les requêtes et rédige un premier jet, puis un locuteur natif relit le texte avant sa publication.">
+<text x="50" y="14" text-anchor="middle" class="fg-label">IA</text>
+<text x="150" y="14" text-anchor="middle" class="fg-label">IA</text>
+<text x="250" y="14" text-anchor="middle" class="fg-label">Natif</text>
+<text x="350" y="14" text-anchor="middle" class="fg-label">Vous</text>
+<line x1="50" y1="46" x2="350" y2="46" class="fg-rule"/>
+<circle cx="50" cy="46" r="24" class="fg-box"/>
+<circle cx="150" cy="46" r="24" class="fg-box"/>
+<circle cx="250" cy="46" r="24" class="fg-hot"/>
+<circle cx="350" cy="46" r="24" class="fg-box"/>
+<text x="50" y="52" text-anchor="middle" class="fg-strong">1</text>
+<text x="150" y="52" text-anchor="middle" class="fg-strong">2</text>
+<text x="250" y="52" text-anchor="middle" class="fg-strong">3</text>
+<text x="350" y="52" text-anchor="middle" class="fg-strong">4</text>
+<text x="50" y="98" text-anchor="middle" class="fg-text">Requêtes</text>
+<text x="50" y="120" text-anchor="middle" class="fg-label">regroupées</text>
+<text x="150" y="98" text-anchor="middle" class="fg-text">Premier jet</text>
+<text x="150" y="120" text-anchor="middle" class="fg-label">par marché</text>
+<text x="250" y="98" text-anchor="middle" class="fg-text">Relecture</text>
+<text x="250" y="120" text-anchor="middle" class="fg-label">native</text>
+<text x="350" y="98" text-anchor="middle" class="fg-text">Publication</text>
+<text x="350" y="120" text-anchor="middle" class="fg-label">signée</text>
+</svg>
+<figcaption>L’IA donne le rythme sur chaque langue, et la relecture native vérifie que le terme est celui qui se cherche sur place.</figcaption>
+</figure>
+
 <aside class="post-cta">
 <p><strong>Vous voulez savoir quelle part de votre travail SEO l’IA peut prendre en charge ?</strong> Notre <a href="/fr/services/conseil-ia/">conseil en IA</a> examine vos marchés et vos contenus, puis vous dit où l’automatisation rapporte et où une relecture par quelqu’un qui lit la langue s’impose. <a href="/fr/nous-contacter/">Réservez une consultation gratuite</a>.</p>
 </aside>

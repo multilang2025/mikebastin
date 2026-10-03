@@ -54,6 +54,22 @@ El mismo nombre, dirección y teléfono (NAP) en todas las plataformas da confia
 
 Un solo proceso de redacción para los dos canales cuesta menos y mantiene tu mensaje igual en todas partes. Pasa de pensar en palabras clave sueltas a pensar en entidades y temas: tu empresa, tus servicios, tus expertos y las preguntas que resuelven. Cada artículo responde a la persona que busca y ofrece una estructura que la IA puede recorrer. Para elegir esos temas según lo que buscan tus clientes, sigue nuestra guía de [estrategia de contenido segmentada](/es/estrategia-de-contenido-segmentada/). Nuestro [SEO multilingüe](/es/services/posicionamiento-multilingue/) mantiene ese equilibrio en cada idioma.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 144" role="img" aria-label="Una misma página sirve a dos canales: en Google gana posición y clics, y en las respuestas de IA gana citas y menciones.">
+<rect x="10" y="46" width="130" height="52" rx="6" class="fg-hot"/>
+<text x="75" y="78" text-anchor="middle" class="fg-strong">Una página</text>
+<line x1="140" y1="72" x2="210" y2="36" class="fg-line"/>
+<line x1="140" y1="72" x2="210" y2="108" class="fg-line"/>
+<rect x="210" y="8" width="180" height="56" rx="6" class="fg-box"/>
+<text x="300" y="32" text-anchor="middle" class="fg-text">Google</text>
+<text x="300" y="52" text-anchor="middle" class="fg-label">posición y clics</text>
+<rect x="210" y="80" width="180" height="56" rx="6" class="fg-box"/>
+<text x="300" y="104" text-anchor="middle" class="fg-text">Respuesta de IA</text>
+<text x="300" y="124" text-anchor="middle" class="fg-label">citas y menciones</text>
+</svg>
+<figcaption>Un solo proceso de redacción sirve a los dos canales. La página que responde bien a quien busca es también la que la IA puede citar.</figcaption>
+</figure>
+
 Escribe en lenguaje natural y técnicamente preciso. Si vendes servicios de logística, como hace TX International Freight, tu contenido responde a las preguntas que un cliente formularía a un chatbot. Nuestra [página de inicio](/es/) resume cómo elegimos los temas con más potencial en cada mercado.
 
 **Objetivo:** que tu sitio sea la base de conocimiento que prefieren los sistemas que sintetizan información. Para ver con qué servicio empezar, consulta [nuestros servicios](/es/services/).

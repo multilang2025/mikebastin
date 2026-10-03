@@ -47,6 +47,26 @@ Une même langue recouvre plusieurs marchés de recherche. Viser les mots du bon
 
 Un mot-clé qui génère 1 000 recherches mensuelles en France peut être quasi absent des requêtes en Belgique ou en Suisse romande. Le téléphone mobile en donne l’exemple le plus connu : un Français cherche un « portable », un Belge un « GSM », un Romand un « Natel ». Chaque pays reçoit donc sa propre recherche de mots-clés.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 156" role="img" aria-label="Le même téléphone mobile se cherche sous trois mots, portable en France, GSM en Belgique et Natel en Suisse romande.">
+<line x1="200" y1="46" x2="65" y2="84" class="fg-line"/>
+<line x1="200" y1="46" x2="200" y2="84" class="fg-line"/>
+<line x1="200" y1="46" x2="335" y2="84" class="fg-line"/>
+<rect x="120" y="10" width="160" height="36" rx="6" class="fg-hot"/>
+<text x="200" y="33" text-anchor="middle" class="fg-text">Téléphone mobile</text>
+<rect x="10" y="84" width="110" height="40" rx="6" class="fg-box"/>
+<rect x="145" y="84" width="110" height="40" rx="6" class="fg-box"/>
+<rect x="280" y="84" width="110" height="40" rx="6" class="fg-box"/>
+<text x="65" y="110" text-anchor="middle" class="fg-strong">portable</text>
+<text x="200" y="110" text-anchor="middle" class="fg-strong">GSM</text>
+<text x="335" y="110" text-anchor="middle" class="fg-strong">Natel</text>
+<text x="65" y="146" text-anchor="middle" class="fg-label">France</text>
+<text x="200" y="146" text-anchor="middle" class="fg-label">Belgique</text>
+<text x="335" y="146" text-anchor="middle" class="fg-label">Suisse romande</text>
+</svg>
+<figcaption>Une même langue, trois façons de chercher le même produit. Chaque pays reçoit donc sa propre recherche de mots-clés.</figcaption>
+</figure>
+
 Nous cartographions les opportunités marché par marché avec Ahrefs et Screaming Frog, puis suivons les positions avec SEO PowerSuite. Les LLM comme Claude et ChatGPT accélèrent l’analyse des données et la préparation de briefs de contenu adaptés à chaque audience ; le choix final des termes reste une décision humaine, prise avec vous. L’[audit SEO technique](/fr/services/seo-technique/) vient compléter cette recherche, page par page.
 
 ## La structure du site, décidée une fois

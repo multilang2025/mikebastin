@@ -30,6 +30,29 @@ We run a quick SERP scrape on the 30 to 50 queries that genuinely matter to a cl
 
 Knowing that changes the brief. You aim at the three blogs that actually capture buying intent, and leave the generic term to Forbes.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 112" role="img" aria-label="Four steps: take 30 to 50 buyer queries, scrape the results pages, keep the pages that recur as the real rival list, and aim the brief at them.">
+<line x1="50" y1="30" x2="350" y2="30" class="fg-rule"/>
+<circle cx="50" cy="30" r="22" class="fg-box"/>
+<circle cx="150" cy="30" r="22" class="fg-box"/>
+<circle cx="250" cy="30" r="22" class="fg-hot"/>
+<circle cx="350" cy="30" r="22" class="fg-box"/>
+<text x="50" y="36" text-anchor="middle" class="fg-strong">1</text>
+<text x="150" y="36" text-anchor="middle" class="fg-strong">2</text>
+<text x="250" y="36" text-anchor="middle" class="fg-strong">3</text>
+<text x="350" y="36" text-anchor="middle" class="fg-strong">4</text>
+<text x="50" y="80" text-anchor="middle" class="fg-text">Queries</text>
+<text x="50" y="100" text-anchor="middle" class="fg-label">30 to 50</text>
+<text x="150" y="80" text-anchor="middle" class="fg-text">SERPs</text>
+<text x="150" y="100" text-anchor="middle" class="fg-label">scraped</text>
+<text x="250" y="80" text-anchor="middle" class="fg-text">Repeats</text>
+<text x="250" y="100" text-anchor="middle" class="fg-label">real list</text>
+<text x="350" y="80" text-anchor="middle" class="fg-text">Brief</text>
+<text x="350" y="100" text-anchor="middle" class="fg-label">aimed right</text>
+</svg>
+<figcaption>Your rival list comes out of the search results. The pages that keep turning up across your buyer queries are the ones your brief should aim at.</figcaption>
+</figure>
+
 ## The four things worth extracting
 
 Five rivals produce thousands of rows. Four things in them change what you do next. When a client asks us to analyse five rivals, this is what we pull.

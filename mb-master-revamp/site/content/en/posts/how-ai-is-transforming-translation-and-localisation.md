@@ -80,3 +80,26 @@ The businesses that get the saving and keep the quality split the work the same 
 ## Where to start
 
 Pick one market and one content type, run AI with human post-editing, and have a native reader check the result before you scale. The speed comes from the machine; the trust still comes from people. [Contact our team](/contact/) for advice matched to your business.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 112" role="img" aria-label="Four steps: an AI draft for one market, post-editing by a person, a native reader's check, then scaling to the next market.">
+<line x1="50" y1="30" x2="350" y2="30" class="fg-rule"/>
+<circle cx="50" cy="30" r="22" class="fg-box"/>
+<circle cx="150" cy="30" r="22" class="fg-box"/>
+<circle cx="250" cy="30" r="22" class="fg-hot"/>
+<circle cx="350" cy="30" r="22" class="fg-box"/>
+<text x="50" y="36" text-anchor="middle" class="fg-strong">1</text>
+<text x="150" y="36" text-anchor="middle" class="fg-strong">2</text>
+<text x="250" y="36" text-anchor="middle" class="fg-strong">3</text>
+<text x="350" y="36" text-anchor="middle" class="fg-strong">4</text>
+<text x="50" y="80" text-anchor="middle" class="fg-text">AI draft</text>
+<text x="50" y="100" text-anchor="middle" class="fg-label">one market</text>
+<text x="150" y="80" text-anchor="middle" class="fg-text">Post-edit</text>
+<text x="150" y="100" text-anchor="middle" class="fg-label">by a person</text>
+<text x="250" y="80" text-anchor="middle" class="fg-text">Check</text>
+<text x="250" y="100" text-anchor="middle" class="fg-label">by a native</text>
+<text x="350" y="80" text-anchor="middle" class="fg-text">Scale</text>
+<text x="350" y="100" text-anchor="middle" class="fg-label">next market</text>
+</svg>
+<figcaption>The machine sets the pace and the native reader sets the standard. Scale only once one market has passed that check.</figcaption>
+</figure>

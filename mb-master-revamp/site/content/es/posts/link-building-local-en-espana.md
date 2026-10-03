@@ -75,6 +75,23 @@ Estos tres puntos aparecen casi siempre que auditamos un programa de enlaces esp
 
 **Escribir en español a editores españoles.** Lo comprobamos con un cliente estadounidense que quería hacer el contacto en inglés. Enviamos propuestas personalizadas en inglés durante dos meses y apenas hubo respuestas. Repetimos la misma lista en español, con una lingüista de nuestro equipo, y las respuestas llegaron. Mismos editores, mismo ángulo, misma temporada.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 134" role="img" aria-label="La misma lista de editores recibe dos propuestas: en inglés apenas hay respuestas, en español llegan las respuestas.">
+<text x="200" y="18" text-anchor="middle" class="fg-label">Mismos editores, mismo ángulo, misma temporada</text>
+<rect x="10" y="32" width="196" height="40" rx="6" class="fg-box"/>
+<text x="108" y="57" text-anchor="middle" class="fg-text">Propuesta en inglés</text>
+<line x1="206" y1="52" x2="232" y2="52" class="fg-dim"/>
+<path d="M224 47 L232 52 L224 57" class="fg-dim"/>
+<text x="242" y="57" class="fg-label">Apenas respuestas</text>
+<rect x="10" y="86" width="196" height="40" rx="6" class="fg-hot"/>
+<text x="108" y="111" text-anchor="middle" class="fg-text">Propuesta en español</text>
+<line x1="206" y1="106" x2="232" y2="106" class="fg-accent"/>
+<path d="M224 101 L232 106 L224 111" class="fg-accent"/>
+<text x="242" y="111" class="fg-text">Llegan respuestas</text>
+</svg>
+<figcaption>Con la misma lista, el mismo ángulo y la misma temporada, solo cambió el idioma de la propuesta. En España, escribir en español es lo que abre la conversación con el editor.</figcaption>
+</figure>
+
 **Anclajes naturales.** Los editores españoles reescriben los anclajes exactos: uno como _abogado matrimonialista Madrid_ suele acabar como _este despacho_ o como el nombre de la marca. Cuenta con ello y planifica el perfil con la marca por delante.
 
 > La misma lista de editores, el mismo ángulo y la misma temporada. Solo cambiamos el idioma de la propuesta, del inglés al español, y las respuestas llegaron. En España, el idioma es la puerta de entrada.

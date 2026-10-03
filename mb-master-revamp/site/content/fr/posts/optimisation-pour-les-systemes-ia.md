@@ -31,6 +31,23 @@ ChatGPT, Perplexity et les autres LLM personnalisent leurs réponses selon trois
 
 Deux acheteurs posant exactement la même question reçoivent donc des réponses différentes. Pour connaître la représentation que les systèmes d’IA associent à votre marque, un audit de leur graphe de connaissances en dit davantage que l’analyse de cinquante prompts.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Trois facteurs, l’historique, la localisation et le contexte, qui donnent à chaque acheteur sa propre réponse à la même question.">
+<line x1="66" y1="50" x2="200" y2="100" class="fg-line"/>
+<line x1="200" y1="50" x2="200" y2="100" class="fg-line"/>
+<line x1="334" y1="50" x2="200" y2="100" class="fg-line"/>
+<rect x="8" y="10" width="116" height="40" rx="6" class="fg-box"/>
+<text x="66" y="36" text-anchor="middle" class="fg-text">Historique</text>
+<rect x="142" y="10" width="116" height="40" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-text">Localisation</text>
+<rect x="276" y="10" width="116" height="40" rx="6" class="fg-box"/>
+<text x="334" y="36" text-anchor="middle" class="fg-text">Contexte</text>
+<rect x="70" y="100" width="260" height="40" rx="6" class="fg-hot"/>
+<text x="200" y="126" text-anchor="middle" class="fg-text">Une réponse par acheteur</text>
+</svg>
+<figcaption>Comme la réponse change d’un acheteur à l’autre, l’image que le modèle se fait de votre marque vous en apprend davantage qu’une liste de prompts suivis.</figcaption>
+</figure>
+
 ## Auditer ce que les LLM savent de votre marque
 
 Ce que Gemini, ChatGPT et les autres modèles savent de votre entreprise conditionne chacune de leurs recommandations. Un audit structuré, mené par un [expert en SEO international](https://mikebastin.com/fr/expert-en-seo-international/), mesure l’écart entre votre positionnement réel et votre représentation dans ce graphe de connaissances. Chaque modèle a sa propre image de vous, et notre panorama des [LLM alternatifs à ChatGPT](/fr/llm-alternatifs/) présente ceux à inclure dans l’audit. Voici la méthode, en quatre étapes.

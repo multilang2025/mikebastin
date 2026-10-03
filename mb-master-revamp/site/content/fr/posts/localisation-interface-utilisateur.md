@@ -46,6 +46,24 @@ Le formulaire d’adresse en donne un exemple parlant pour un éditeur francopho
 
 Les dates suivent la même logique : le 2 octobre 2026 s’écrit 02/10/2026 en France, 02.10.2026 en Allemagne et 10/2/2026 aux États-Unis. Affichée au format du marché, chaque date de rendez-vous ou d’échéance se lit au bon mois.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 112" role="img" aria-label="La même date du 2 octobre 2026 s’écrit 02/10/2026 en France, 02.10.2026 en Allemagne et 10/2/2026 aux États-Unis.">
+<text x="70" y="18" text-anchor="middle" class="fg-label">France</text>
+<text x="200" y="18" text-anchor="middle" class="fg-label">Allemagne</text>
+<text x="330" y="18" text-anchor="middle" class="fg-label">États-Unis</text>
+<rect x="10" y="28" width="120" height="44" rx="6" class="fg-box"/>
+<rect x="140" y="28" width="120" height="44" rx="6" class="fg-box"/>
+<rect x="270" y="28" width="120" height="44" rx="6" class="fg-hot"/>
+<text x="70" y="56" text-anchor="middle" class="fg-strong">02/10/2026</text>
+<text x="200" y="56" text-anchor="middle" class="fg-strong">02.10.2026</text>
+<text x="330" y="56" text-anchor="middle" class="fg-strong">10/2/2026</text>
+<text x="70" y="100" text-anchor="middle" class="fg-label">jour d’abord</text>
+<text x="200" y="100" text-anchor="middle" class="fg-label">jour d’abord</text>
+<text x="330" y="100" text-anchor="middle" class="fg-label">mois d’abord</text>
+</svg>
+<figcaption>Un même jour, trois écritures. Affichée au format de chaque marché, une date de rendez-vous se lit au bon mois.</figcaption>
+</figure>
+
 ## Les bonnes pratiques
 
 L’essentiel du coût se décide avant la traduction de la première chaîne. Cinq habitudes le maintiennent bas :

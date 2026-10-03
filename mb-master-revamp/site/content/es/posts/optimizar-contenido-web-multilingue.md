@@ -54,6 +54,25 @@ Herramientas de IA generativa como ChatGPT pueden redactar y adaptar contenido m
 
 Las empresas que sacan más valor trabajan con flujos híbridos: la máquina produce el borrador y una persona nativa responde del tono y del contexto cultural. La [consultoría de inteligencia artificial](/es/services/consultoria-de-inteligencia-artificial/) ayuda a decidir dónde compensa automatizar y dónde deben seguir participando las personas.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 76" role="img" aria-label="Flujo híbrido en tres pasos: la máquina produce el borrador, una persona nativa lo posedita y una revisión humana controla la calidad.">
+<rect x="6" y="8" width="116" height="60" rx="6" class="fg-box"/>
+<text x="64" y="34" text-anchor="middle" class="fg-text">Borrador</text>
+<text x="64" y="55" text-anchor="middle" class="fg-label">IA o máquina</text>
+<line x1="122" y1="38" x2="142" y2="38" class="fg-line"/>
+<path d="M134 33 L142 38 L134 43" class="fg-line"/>
+<rect x="142" y="8" width="116" height="60" rx="6" class="fg-hot"/>
+<text x="200" y="34" text-anchor="middle" class="fg-text">Posedición</text>
+<text x="200" y="55" text-anchor="middle" class="fg-label">persona nativa</text>
+<line x1="258" y1="38" x2="278" y2="38" class="fg-line"/>
+<path d="M270 33 L278 38 L270 43" class="fg-line"/>
+<rect x="278" y="8" width="116" height="60" rx="6" class="fg-box"/>
+<text x="336" y="34" text-anchor="middle" class="fg-text">Calidad</text>
+<text x="336" y="55" text-anchor="middle" class="fg-label">por personas</text>
+</svg>
+<figcaption>La máquina aporta velocidad en las tareas repetitivas, y la persona nativa responde del tono y del contexto cultural antes de publicar.</figcaption>
+</figure>
+
 ## Base técnica: CMS e internacionalización
 
 Una buena base convierte tu próximo mercado en una tarea de contenido. La mayoría de las webs multilingües funcionan sobre WordPress u otro CMS multilingüe, donde plugins como WPML, Polylang o TranslatePress, junto con WooCommerce para las tiendas, facilitan la gestión de las variantes de idioma y permiten actualizar cada región con fluidez. Puedes ver todo lo que cubrimos en [nuestros servicios](/es/services/).

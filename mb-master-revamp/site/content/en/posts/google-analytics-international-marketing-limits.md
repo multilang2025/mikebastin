@@ -49,6 +49,18 @@ GA4’s data-driven attribution is directionally useful for deciding which chann
 
 Each blind spot below makes a market look smaller or noisier than it is, so allowing for them keeps investment flowing to regulated or hard-to-track markets that may be doing well.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 136" role="img" aria-label="Two bars: all visitors to an EU market, and the shorter share GA4 records, with the missing part labelled as visitors who opted out.">
+<text x="20" y="22" class="fg-text">All visitors</text>
+<rect x="20" y="32" width="360" height="28" rx="6" class="fg-fill"/>
+<text x="20" y="90" class="fg-text">What GA4 records</text>
+<rect x="20" y="100" width="236" height="28" rx="6" class="fg-fill"/>
+<rect x="262" y="100" width="118" height="28" rx="6" class="fg-hot"/>
+<text x="321" y="119" text-anchor="middle" class="fg-label">Opted out</text>
+</svg>
+<figcaption>Visitors who decline consent never reach your reports, so an EU market's numbers are a floor. Consent Mode narrows the gap; read the rest as demand you cannot see.</figcaption>
+</figure>
+
 | Blind spot | Effect on the data | What to do |
 |---|---|---|
 | Consent loss under GDPR and similar laws | Users who opt out are invisible, so EU markets are under-reported | Use Consent Mode to narrow the gap, and read EU numbers as a floor |

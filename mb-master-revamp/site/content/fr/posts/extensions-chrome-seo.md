@@ -56,6 +56,35 @@ L’[extension Web Developer](https://chromewebstore.google.com/detail/web-devel
 
 [Redirect Path](https://chromewebstore.google.com/detail/redirect-path/aomidfkchockcldhbkggjokdkkebmdll?hl=en) affiche chaque étape qu’emprunte une URL, avec le code de statut HTTP à chacune. Repérez d’un coup d’œil les chaînes et les boucles, puis ramenez-les à une seule redirection : la page reste rapide et transmet toute la valeur de ses liens. Notre [checklist d’audit SEO technique](/fr/checklist-audit-seo-technique/) explique quoi faire de ce qu’elle révèle.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 148" role="img" aria-label="En haut, une URL passe par deux adresses intermédiaires avant la page finale. En bas, elle y mène en une seule redirection.">
+<text x="10" y="16" class="fg-label">Une chaîne</text>
+<rect x="10" y="26" width="74" height="36" rx="6" class="fg-box"/>
+<rect x="112" y="26" width="74" height="36" rx="6" class="fg-box"/>
+<rect x="214" y="26" width="74" height="36" rx="6" class="fg-box"/>
+<rect x="316" y="26" width="74" height="36" rx="6" class="fg-box"/>
+<text x="47" y="49" text-anchor="middle" class="fg-label">URL A</text>
+<text x="149" y="49" text-anchor="middle" class="fg-label">URL B</text>
+<text x="251" y="49" text-anchor="middle" class="fg-label">URL C</text>
+<text x="353" y="49" text-anchor="middle" class="fg-label">Page</text>
+<line x1="86" y1="44" x2="109" y2="44" class="fg-dim"/>
+<path d="M103 39 L109 44 L103 49" class="fg-dim"/>
+<line x1="188" y1="44" x2="211" y2="44" class="fg-dim"/>
+<path d="M205 39 L211 44 L205 49" class="fg-dim"/>
+<line x1="290" y1="44" x2="313" y2="44" class="fg-dim"/>
+<path d="M307 39 L313 44 L307 49" class="fg-dim"/>
+<text x="10" y="92" class="fg-label">Une seule redirection</text>
+<rect x="10" y="102" width="74" height="36" rx="6" class="fg-box"/>
+<rect x="316" y="102" width="74" height="36" rx="6" class="fg-hot"/>
+<text x="47" y="125" text-anchor="middle" class="fg-label">URL A</text>
+<text x="353" y="125" text-anchor="middle" class="fg-label">Page</text>
+<line x1="86" y1="120" x2="313" y2="120" class="fg-line"/>
+<path d="M306 114 L313 120 L306 126" class="fg-line"/>
+<text x="200" y="112" text-anchor="middle" class="fg-label">301</text>
+</svg>
+<figcaption>Redirect Path montre chaque étape de la chaîne. Ramenée à une seule redirection, l’URL reste rapide et transmet toute la valeur de ses liens.</figcaption>
+</figure>
+
 ## Évaluer un marché par ses mots-clés et ses concurrents
 
 Les requêtes sur lesquelles un concurrent se positionne, et ce qu’elles lui rapportent, vous disent si un marché vaut le budget avant de l’engager.

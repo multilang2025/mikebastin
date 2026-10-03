@@ -15,7 +15,7 @@ excerpt: "Promociona tu negocio local en Google Maps en Valencia: ficha, reseña
 
 Alguien a dos calles de tu local, en Ruzafa, en Benimaclet o en Campanar, busca justo lo que ofreces y llama a una de las tres empresas que Google Maps enseña primero. El objetivo es que la tuya sea una de ellas, para que el teléfono suene tanto como puede sonar.
 
-En Valencia esa búsqueda llega en tres idiomas. Un vecino escribe «peluquería Ruzafa», otro «perruqueria Russafa» y un residente extranjero «hairdresser Ruzafa». La empresa que aparece en las tres búsquedas recibe a los tres clientes, y eso está al alcance de cualquier negocio de barrio que cuide su ficha.
+En Valencia esa búsqueda llega en dos idiomas. Un vecino escribe «peluquería Ruzafa» y un residente extranjero «hairdresser Ruzafa». La empresa que aparece en las dos búsquedas recibe a los dos clientes, y eso está al alcance de cualquier negocio de barrio que cuide su ficha.
 
 Aquí tienes cómo aparecer en el mapa de Valencia, qué te da un buen puesto, dónde encajan las reseñas, las publicaciones, los anuncios y las respuestas de la IA, y cómo ver qué trae las llamadas. El detalle de cada campo de la ficha, de las categorías a las fotos, está en nuestra guía para [optimizar tu Perfil de Empresa de Google](/es/optimizar-perfil-de-empresa-de-google/).
 
@@ -45,6 +45,21 @@ Valencia busca en castellano y en inglés, y tu ficha gana cada vez que habla el
 | Restaurante en El Carmen | restaurante El Carmen | restaurant old town Valencia |
 
 Google espera una sola ficha por dirección. Los idiomas se trabajan en la descripción, en las publicaciones y en las respuestas a las reseñas, y después en tu web, con una página por idioma. Nuestra guía de [posicionamiento web en Valencia](/es/posicionamiento-web-valencia/) explica cómo investigar esas palabras clave barrio a barrio.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 96" role="img" aria-label="Dos búsquedas del mismo servicio, en castellano y en inglés, llevan a una sola ficha de Google.">
+<rect x="10" y="8" width="190" height="34" rx="6" class="fg-box"/>
+<text x="105" y="30" text-anchor="middle" class="fg-label">peluquería Ruzafa</text>
+<line x1="200" y1="25" x2="260" y2="48" class="fg-line"/>
+<rect x="10" y="54" width="190" height="34" rx="6" class="fg-box"/>
+<text x="105" y="76" text-anchor="middle" class="fg-label">hairdresser Ruzafa</text>
+<line x1="200" y1="71" x2="260" y2="48" class="fg-line"/>
+<rect x="260" y="19" width="130" height="58" rx="6" class="fg-hot"/>
+<text x="325" y="45" text-anchor="middle" class="fg-strong">Una ficha</text>
+<text x="325" y="65" text-anchor="middle" class="fg-label">dos idiomas</text>
+</svg>
+<figcaption>Una sola ficha por dirección puede aparecer en las búsquedas en castellano y en inglés. La descripción, las publicaciones y las respuestas a las reseñas le dan las palabras de cada idioma.</figcaption>
+</figure>
 
 ## Una ficha completa y exacta
 

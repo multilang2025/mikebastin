@@ -26,6 +26,22 @@ The words your buyers type decide whether they find you, and in Spanish they cha
 
 Trainers are "zapatillas" in Spain but "tenis" in Mexico. The verb "coger" (to take or grab) is everyday Spanish in Spain and vulgar in Argentina and Mexico. Vocabulary shifts within Spain too: what Valencians call "bajoca" (green beans), Madrileños know as "judías verdes", a reminder that Spain also has co-official languages such as Valencian and Catalan.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="One product, trainers, searched as zapatillas in Spain and as tenis in Mexico.">
+<line x1="200" y1="42" x2="110" y2="86" class="fg-line"/>
+<line x1="200" y1="42" x2="290" y2="86" class="fg-line"/>
+<rect x="140" y="8" width="120" height="34" rx="6" class="fg-box"/>
+<rect x="40" y="86" width="140" height="56" rx="6" class="fg-box"/>
+<rect x="220" y="86" width="140" height="56" rx="6" class="fg-hot"/>
+<text x="200" y="30" text-anchor="middle" class="fg-text">Trainers</text>
+<text x="110" y="108" text-anchor="middle" class="fg-label">Spain</text>
+<text x="110" y="130" text-anchor="middle" class="fg-strong">zapatillas</text>
+<text x="290" y="108" text-anchor="middle" class="fg-label">Mexico</text>
+<text x="290" y="130" text-anchor="middle" class="fg-strong">tenis</text>
+</svg>
+<figcaption>Same product, two keywords. A list researched in Spain misses the word Mexican buyers type, so each country gets its own research.</figcaption>
+</figure>
+
 So [selecting appropriate keywords](/blog/spanish-keyword-localisation/) means research per country, and [keyword research](/services/technical-seo/) done region by region from the start is the cheapest way to build pages that last.
 
 ## Cultural nuances: one language, many cultures

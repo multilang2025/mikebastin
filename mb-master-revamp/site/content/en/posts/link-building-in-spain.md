@@ -75,6 +75,22 @@ Knowing the real timeline lets you plan with confidence. From first contact to a
 
 Measure any offer against that pace: 20 .es links in 30 days means inventory already bought, already on a PBN and already discounted by Google.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 106" role="img" aria-label="A timeline from first contact at week 0 to a live editorial link between weeks 4 and 8, stretching further when August or late December fall in the window.">
+<line x1="40" y1="40" x2="300" y2="40" class="fg-line"/>
+<line x1="300" y1="40" x2="380" y2="40" stroke-dasharray="4 4" class="fg-dim"/>
+<rect x="220" y="32" width="80" height="16" rx="6" class="fg-hot"/>
+<circle cx="40" cy="40" r="8" class="fg-box"/>
+<text x="40" y="22" text-anchor="middle" class="fg-label">Week 0</text>
+<text x="220" y="22" text-anchor="middle" class="fg-label">Week 4</text>
+<text x="300" y="22" text-anchor="middle" class="fg-label">Week 8</text>
+<text x="28" y="74" class="fg-text">First contact</text>
+<text x="260" y="74" text-anchor="middle" class="fg-text">Live link</text>
+<text x="388" y="98" text-anchor="end" class="fg-label">longer over August, late December</text>
+</svg>
+<figcaption>Genuine placements in Spain go live in four to eight weeks. An offer that delivers dozens of links in a month is selling inventory bought long before.</figcaption>
+</figure>
+
 ## Where links fit in a wider Spanish SEO programme
 
 Links multiply what your pages are already worth, so strong pages come first. Off-page work in Spain pulls hardest beside proper [Spanish keyword localization](/blog/spanish-keyword-localisation/), [content tuned for Spanish users](/blog/content-optimisation-for-spanish-users/) and a clear [Spanish SEO market plan](/blog/spanish-seo-markets/) that respects regional differences.

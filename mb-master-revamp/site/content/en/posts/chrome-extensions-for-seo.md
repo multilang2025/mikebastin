@@ -89,6 +89,39 @@ Google's [Tag Assistant](https://chromewebstore.google.com/detail/tag-assistant/
 
 Extensions answer questions about one page. For anything site-wide, a crawler and Search Console are still the source of truth. Keep the set small, since some read every page you visit, and respect each site's terms of service when pulling data.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="A grid of pages making up a site; one page is highlighted and checked with extensions, while the whole grid is checked with a crawler and Search Console.">
+<rect x="20" y="10" width="28" height="34" rx="4" class="fg-box"/>
+<rect x="56" y="10" width="28" height="34" rx="4" class="fg-box"/>
+<rect x="92" y="10" width="28" height="34" rx="4" class="fg-box"/>
+<rect x="128" y="10" width="28" height="34" rx="4" class="fg-box"/>
+<rect x="164" y="10" width="28" height="34" rx="4" class="fg-box"/>
+<rect x="200" y="10" width="28" height="34" rx="4" class="fg-hot"/>
+<rect x="20" y="56" width="28" height="34" rx="4" class="fg-box"/>
+<rect x="56" y="56" width="28" height="34" rx="4" class="fg-box"/>
+<rect x="92" y="56" width="28" height="34" rx="4" class="fg-box"/>
+<rect x="128" y="56" width="28" height="34" rx="4" class="fg-box"/>
+<rect x="164" y="56" width="28" height="34" rx="4" class="fg-box"/>
+<rect x="200" y="56" width="28" height="34" rx="4" class="fg-box"/>
+<rect x="20" y="102" width="28" height="34" rx="4" class="fg-box"/>
+<rect x="56" y="102" width="28" height="34" rx="4" class="fg-box"/>
+<rect x="92" y="102" width="28" height="34" rx="4" class="fg-box"/>
+<rect x="128" y="102" width="28" height="34" rx="4" class="fg-box"/>
+<rect x="164" y="102" width="28" height="34" rx="4" class="fg-box"/>
+<rect x="200" y="102" width="28" height="34" rx="4" class="fg-box"/>
+<line x1="228" y1="27" x2="250" y2="27" class="fg-accent"/>
+<line x1="244" y1="56" x2="244" y2="136" class="fg-dim"/>
+<line x1="238" y1="56" x2="244" y2="56" class="fg-dim"/>
+<line x1="238" y1="136" x2="244" y2="136" class="fg-dim"/>
+<text x="258" y="28" class="fg-text">One page</text>
+<text x="258" y="47" class="fg-label">extensions</text>
+<text x="258" y="88" class="fg-text">Whole site</text>
+<text x="258" y="107" class="fg-label">crawler and</text>
+<text x="258" y="125" class="fg-label">Search Console</text>
+</svg>
+<figcaption>Extensions confirm a fault on the page in front of you. When the same fault shows up on page after page, the crawler and Search Console take over.</figcaption>
+</figure>
+
 <aside class="post-cta">
 <p><strong>Finding the same fault on page after page?</strong> The cause is site-wide, and our <a href="/services/technical-seo/">technical SEO work on multilingual sites</a> finds it and fixes it. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>

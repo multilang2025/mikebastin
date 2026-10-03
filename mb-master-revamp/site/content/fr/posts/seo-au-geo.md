@@ -42,6 +42,31 @@ Traitez ce chiffre comme une indication de direction, et mesurez le déplacement
 
 Le SEO reste la porte d’entrée, et cette porte s’élargit. Les AI Overviews puisent de plus en plus dans des requêtes voisines de celle tapée par l’internaute : une page classée sur les questions connexes à votre sujet gagne des citations au-delà de sa position principale.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 190" role="img" aria-label="À gauche une liste de liens que l’internaute parcourt, à droite une réponse rédigée par l’IA qui cite quelques sources, dont votre page.">
+<rect x="10" y="10" width="180" height="146" rx="6" class="fg-box"/>
+<rect x="210" y="10" width="180" height="146" rx="6" class="fg-box"/>
+<text x="100" y="36" text-anchor="middle" class="fg-text">Liste de liens</text>
+<text x="300" y="36" text-anchor="middle" class="fg-text">Réponse d’IA</text>
+<rect x="26" y="52" width="148" height="14" rx="6" class="fg-fill"/>
+<rect x="26" y="76" width="148" height="14" rx="6" class="fg-fill"/>
+<rect x="26" y="100" width="148" height="14" rx="6" class="fg-fill"/>
+<rect x="26" y="124" width="148" height="14" rx="6" class="fg-fill"/>
+<rect x="226" y="54" width="148" height="8" rx="4" class="fg-fill"/>
+<rect x="226" y="70" width="148" height="8" rx="4" class="fg-fill"/>
+<rect x="226" y="86" width="110" height="8" rx="4" class="fg-fill"/>
+<rect x="226" y="112" width="44" height="26" rx="6" class="fg-box"/>
+<rect x="278" y="112" width="44" height="26" rx="6" class="fg-box"/>
+<rect x="330" y="112" width="48" height="26" rx="6" class="fg-hot"/>
+<text x="248" y="130" text-anchor="middle" class="fg-label">Site</text>
+<text x="300" y="130" text-anchor="middle" class="fg-label">Site</text>
+<text x="354" y="130" text-anchor="middle" class="fg-label">Vous</text>
+<text x="100" y="180" text-anchor="middle" class="fg-label">Le SEO classe</text>
+<text x="300" y="180" text-anchor="middle" class="fg-label">Le GEO fait citer</text>
+</svg>
+<figcaption>Le SEO place votre page dans la liste, le GEO la fait nommer dans la réponse rédigée, et une même page peut gagner les deux places.</figcaption>
+</figure>
+
 > 38 % des pages citées dans les AI Overviews se classent aussi dans le top 10 pour la même requête, contre 76 % en juillet 2025 (4 millions d’URL analysées sur 863 000 requêtes).
 > Source : [Ahrefs, 2 mars 2026](https://ahrefs.com/blog/ai-overview-citations-top-10)
 
@@ -153,6 +178,30 @@ Pour suivre les études publiées sur le sujet, le [recueil de statistiques GEO 
 ## Mesurez les demandes que les citations vous apportent
 
 Une citation vaut par les demandes qu’elle fait naître. Rattachez votre visibilité dans les réponses d’IA à vos contacts et à votre chiffre d’affaires, marché par marché, pour investir là où le retour est réel.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 214" role="img" aria-label="Une chaîne en quatre étapes, de la citation dans une réponse d’IA à la visite, à la demande de contact puis au budget revu chaque trimestre.">
+<line x1="115" y1="44" x2="115" y2="62" class="fg-line"/>
+<path d="M110 56 L115 62 L120 56" class="fg-line"/>
+<line x1="115" y1="98" x2="115" y2="116" class="fg-line"/>
+<path d="M110 110 L115 116 L120 110" class="fg-line"/>
+<line x1="115" y1="152" x2="115" y2="170" class="fg-line"/>
+<path d="M110 164 L115 170 L120 164" class="fg-line"/>
+<rect x="40" y="8" width="150" height="36" rx="6" class="fg-box"/>
+<text x="115" y="32" text-anchor="middle" class="fg-text">Citation</text>
+<text x="206" y="31" class="fg-label">dans une réponse d’IA</text>
+<rect x="40" y="62" width="150" height="36" rx="6" class="fg-box"/>
+<text x="115" y="86" text-anchor="middle" class="fg-text">Visite</text>
+<text x="206" y="85" class="fg-label">GA4, par langue</text>
+<rect x="40" y="116" width="150" height="36" rx="6" class="fg-hot"/>
+<text x="115" y="140" text-anchor="middle" class="fg-text">Demande</text>
+<text x="206" y="139" class="fg-label">devis, appel</text>
+<rect x="40" y="170" width="150" height="36" rx="6" class="fg-box"/>
+<text x="115" y="194" text-anchor="middle" class="fg-text">Budget</text>
+<text x="206" y="193" class="fg-label">revu chaque trimestre</text>
+</svg>
+<figcaption>Une citation compte quand elle se transforme en demande, et c’est ce lien, mesuré marché par marché, qui oriente le budget du trimestre suivant.</figcaption>
+</figure>
 
 - Suivez dans Google Analytics 4 le trafic venu de chatgpt.com, perplexity.ai, copilot.microsoft.com et gemini.google.com, par langue.
 - Reliez ces visites aux formulaires, aux appels et aux demandes de devis.

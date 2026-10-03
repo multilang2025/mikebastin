@@ -65,6 +65,26 @@ Une agence se juge sur ses livrables. Voici ceux que vous recevez, dans l’ordr
 
 Une agence vaut par les personnes qui touchent à votre site. Chez nous, vous parlez directement à celles qui pensent la stratégie, rédigent les briefs et lisent les rapports.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 170" role="img" aria-label="Quatre métiers, stratégie, rédaction, technique et données, reliés à un même plan au centre.">
+<line x1="130" y1="28" x2="200" y2="85" class="fg-line"/>
+<line x1="270" y1="28" x2="200" y2="85" class="fg-line"/>
+<line x1="130" y1="142" x2="200" y2="85" class="fg-line"/>
+<line x1="270" y1="142" x2="200" y2="85" class="fg-line"/>
+<rect x="10" y="10" width="120" height="36" rx="6" class="fg-box"/>
+<rect x="270" y="10" width="120" height="36" rx="6" class="fg-box"/>
+<rect x="10" y="124" width="120" height="36" rx="6" class="fg-box"/>
+<rect x="270" y="124" width="120" height="36" rx="6" class="fg-box"/>
+<circle cx="200" cy="85" r="44" class="fg-hot"/>
+<text x="200" y="91" text-anchor="middle" class="fg-strong">Un plan</text>
+<text x="70" y="33" text-anchor="middle" class="fg-label">Stratégie</text>
+<text x="330" y="33" text-anchor="middle" class="fg-label">Rédaction</text>
+<text x="70" y="147" text-anchor="middle" class="fg-label">Technique</text>
+<text x="330" y="147" text-anchor="middle" class="fg-label">Données</text>
+</svg>
+<figcaption>Chaque métier part du même plan pour tous vos marchés, et vous parlez directement aux personnes qui le portent.</figcaption>
+</figure>
+
 - **La stratégie** est menée par Mike Bastin, qui travaille le SEO et la traduction depuis plus de deux décennies. Il travaille directement en français, en anglais, en espagnol et en néerlandais, avec un allemand, un italien et un portugais suffisants pour piloter des projets SEO.
 - **La rédaction** est confiée à des natifs. Le français, l’anglais, l’espagnol et le néerlandais sont écrits par l’équipe qui pense la stratégie ; l’allemand, l’italien, le portugais et les autres langues par les rédacteurs natifs du réseau BeTranslated, relus par un second natif.
 - **La technique** s’appuie sur notre équipe informatique, qui compte un locuteur natif du portugais. Nous travaillons le plus souvent sur WordPress avec WPML, et aussi avec Polylang, TranslatePress, Weglot, Shopify et Webflow ; sur un développement propre, nous appliquons la stratégie avec votre équipe technique.

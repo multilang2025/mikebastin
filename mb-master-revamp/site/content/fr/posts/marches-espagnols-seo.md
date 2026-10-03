@@ -40,6 +40,28 @@ Les fêtes, les saisons de vente et les habitudes d’achat diffèrent entre Mad
 
 Avec un paramétrage technique exact, Google présente votre page mexicaine à un internaute de Mexico et votre page espagnole à un internaute de Madrid. Le paramétrage est bien connu : balises hreflang correctes, URL propres à chaque région, métadonnées traduites et optimisées pour chaque marché cible. Les régler sur plusieurs pays à la fois demande une agence de SEO espagnol qui connaît les différences régionales.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 140" role="img" aria-label="Grâce aux balises hreflang, Google sert la page mexicaine à un internaute de Mexico et la page espagnole à un internaute de Madrid.">
+<text x="55" y="16" text-anchor="middle" class="fg-label">Internaute</text>
+<text x="327" y="16" text-anchor="middle" class="fg-label">Page servie</text>
+<line x1="100" y1="46" x2="158" y2="68" class="fg-line"/>
+<line x1="100" y1="112" x2="158" y2="94" class="fg-line"/>
+<line x1="242" y1="68" x2="264" y2="50" class="fg-line"/>
+<line x1="242" y1="94" x2="264" y2="108" class="fg-line"/>
+<rect x="10" y="28" width="90" height="36" rx="6" class="fg-box"/>
+<rect x="10" y="94" width="90" height="36" rx="6" class="fg-box"/>
+<circle cx="200" cy="81" r="46" class="fg-hot"/>
+<rect x="264" y="28" width="126" height="36" rx="6" class="fg-box"/>
+<rect x="264" y="94" width="126" height="36" rx="6" class="fg-box"/>
+<text x="55" y="51" text-anchor="middle" class="fg-text">Mexico</text>
+<text x="55" y="117" text-anchor="middle" class="fg-text">Madrid</text>
+<text x="200" y="87" text-anchor="middle" class="fg-strong">hreflang</text>
+<text x="327" y="51" text-anchor="middle" class="fg-label">Page mexicaine</text>
+<text x="327" y="117" text-anchor="middle" class="fg-label">Page espagnole</text>
+</svg>
+<figcaption>Un paramétrage hreflang exact envoie chaque internaute vers la version écrite pour son pays.</figcaption>
+</figure>
+
 ## Localisation du contenu et traduction
 
 Un contenu localisé répond aux questions des acheteurs espagnols, qui diffèrent de celles de vos acheteurs francophones. Un SEO espagnol efficace adapte le ton, le style et jusqu’aux sujets eux-mêmes pour [convenir aux préférences locales](/fr/services/localisation-de-site-web/) et à l’intention de recherche.

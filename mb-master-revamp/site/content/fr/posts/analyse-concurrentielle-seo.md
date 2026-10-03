@@ -29,6 +29,29 @@ Avec la bonne liste, chaque brief qui suit vise le bon rival. Concurrents commer
 
 Nous relevons les pages de résultats sur les 30 à 50 requêtes qui comptent vraiment pour un client. Les pages qui reviennent d’une requête à l’autre forment la vraie liste. Il arrive qu’un fil de forum ou un message Reddit devance tous les concurrents « officiels » sur la question réelle de l’acheteur.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 122" role="img" aria-label="Quatre étapes, des 30 à 50 requêtes qui comptent jusqu’à la vraie liste de concurrents, en passant par les résultats relevés et les pages qui reviennent.">
+<line x1="50" y1="34" x2="350" y2="34" class="fg-rule"/>
+<circle cx="50" cy="34" r="24" class="fg-box"/>
+<circle cx="150" cy="34" r="24" class="fg-box"/>
+<circle cx="250" cy="34" r="24" class="fg-box"/>
+<circle cx="350" cy="34" r="24" class="fg-hot"/>
+<text x="50" y="40" text-anchor="middle" class="fg-strong">1</text>
+<text x="150" y="40" text-anchor="middle" class="fg-strong">2</text>
+<text x="250" y="40" text-anchor="middle" class="fg-strong">3</text>
+<text x="350" y="40" text-anchor="middle" class="fg-strong">4</text>
+<text x="50" y="88" text-anchor="middle" class="fg-text">30 à 50</text>
+<text x="50" y="110" text-anchor="middle" class="fg-label">requêtes</text>
+<text x="150" y="88" text-anchor="middle" class="fg-text">Résultats</text>
+<text x="150" y="110" text-anchor="middle" class="fg-label">relevés</text>
+<text x="250" y="88" text-anchor="middle" class="fg-text">Pages</text>
+<text x="250" y="110" text-anchor="middle" class="fg-label">récurrentes</text>
+<text x="350" y="88" text-anchor="middle" class="fg-text">Vraie liste</text>
+<text x="350" y="110" text-anchor="middle" class="fg-label">concurrents</text>
+</svg>
+<figcaption>La liste de concurrents sort des pages de résultats. Les pages qui reviennent d’une requête à l’autre sont vos vrais rivaux en recherche.</figcaption>
+</figure>
+
 Le brief change en conséquence : vous visez les trois blogs qui captent réellement l’intention d’achat, et vous laissez le terme générique aux grands médias économiques.
 
 ## Les quatre éléments à extraire

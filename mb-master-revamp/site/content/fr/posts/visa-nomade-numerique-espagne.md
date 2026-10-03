@@ -97,6 +97,30 @@ Préparez les pièces suivantes (vérifiez les exigences de votre consulat) :
 > Tous les documents **non espagnols** doivent être **apostillés** (Convention de La Haye) et **traduits par un traducteur assermenté**.  
 > [Annuaire officiel des traducteurs jurés en Espagne](https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Traductores-Interpretes-Jurados.aspx)
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 214" role="img" aria-label="Le parcours d’un document étranger, apostillé, traduit par un traducteur assermenté, puis déposé au consulat ou auprès de l’UGE.">
+<line x1="115" y1="44" x2="115" y2="62" class="fg-line"/>
+<path d="M110 56 L115 62 L120 56" class="fg-line"/>
+<line x1="115" y1="98" x2="115" y2="116" class="fg-line"/>
+<path d="M110 110 L115 116 L120 110" class="fg-line"/>
+<line x1="115" y1="152" x2="115" y2="170" class="fg-line"/>
+<path d="M110 164 L115 170 L120 164" class="fg-line"/>
+<rect x="40" y="8" width="150" height="36" rx="6" class="fg-box"/>
+<text x="115" y="32" text-anchor="middle" class="fg-text">Document</text>
+<text x="206" y="31" class="fg-label">non espagnol</text>
+<rect x="40" y="62" width="150" height="36" rx="6" class="fg-box"/>
+<text x="115" y="86" text-anchor="middle" class="fg-text">Apostille</text>
+<text x="206" y="85" class="fg-label">Convention de La Haye</text>
+<rect x="40" y="116" width="150" height="36" rx="6" class="fg-hot"/>
+<text x="115" y="140" text-anchor="middle" class="fg-text">Traduction</text>
+<text x="206" y="139" class="fg-label">traducteur assermenté</text>
+<rect x="40" y="170" width="150" height="36" rx="6" class="fg-box"/>
+<text x="115" y="194" text-anchor="middle" class="fg-text">Dépôt</text>
+<text x="206" y="193" class="fg-label">consulat ou UGE</text>
+</svg>
+<figcaption>Chaque document non espagnol passe par ces deux étapes avant le dépôt, et la traduction assermentée permet de le présenter aux autorités espagnoles.</figcaption>
+</figure>
+
 * * *
 
 ## **5\. Démarches : consulat ou UGE ?**

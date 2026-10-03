@@ -86,6 +86,25 @@ La expansión pesa más en los textos cortos, que son justo los de la interfaz: 
 
 Diseña los botones con margen y prueba la interfaz con el texto real del idioma más largo antes de cerrar el diseño.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 162" role="img" aria-label="Barras comparativas: un texto de hasta 10 caracteres ocupa entre el 200 y el 300 % de su longitud al traducirse a lenguas europeas, y uno de más de 70 caracteres, en torno al 130 %.">
+<text x="10" y="18" class="fg-text">Hasta 10 caracteres</text>
+<text x="390" y="18" text-anchor="end" class="fg-label">200 a 300 %</text>
+<text x="10" y="43" class="fg-label">Original</text>
+<rect x="110" y="30" width="80" height="16" rx="3" class="fg-box"/>
+<text x="10" y="67" class="fg-label">Traducido</text>
+<rect x="110" y="54" width="160" height="16" rx="3" class="fg-hot"/>
+<rect x="270" y="54" width="80" height="16" rx="3" class="fg-dim"/>
+<text x="10" y="104" class="fg-text">Más de 70 caracteres</text>
+<text x="390" y="104" text-anchor="end" class="fg-label">130 %</text>
+<text x="10" y="129" class="fg-label">Original</text>
+<rect x="110" y="116" width="80" height="16" rx="3" class="fg-box"/>
+<text x="10" y="153" class="fg-label">Traducido</text>
+<rect x="110" y="140" width="104" height="16" rx="3" class="fg-fill"/>
+</svg>
+<figcaption>En un botón o una etiqueta, la traducción puede ocupar hasta el triple que el original, y en una frase larga crece mucho menos. Por eso son los botones los que necesitan margen.</figcaption>
+</figure>
+
 ## Por dónde empezar
 
 Un producto que habla el idioma de sus usuarios, en sentido literal y cultural, resulta más fácil de usar, consigue más interacción y genera confianza entre los usuarios internacionales. Empieza por las pantallas que deciden la venta: el registro, el formulario de pedido y el pago.

@@ -41,6 +41,34 @@ Une mission de conseil se juge sur ce qu’elle produit chaque mois. Chez nous, 
 
 **Un rapport mensuel par langue.** Visites, positions et demandes reçues, commentés en clair, avec les priorités du mois suivant. Vous voyez quel pays rapporte, et le budget suit les marchés qui répondent.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 176" role="img" aria-label="Le premier mois mène de l’échange à l’audit puis au périmètre écrit, ensuite chaque mois alterne une livraison et un rapport comparé à ce périmètre.">
+<text x="10" y="18" class="fg-label">Le premier mois</text>
+<rect x="10" y="30" width="110" height="40" rx="6" class="fg-box"/>
+<rect x="145" y="30" width="110" height="40" rx="6" class="fg-box"/>
+<rect x="280" y="30" width="110" height="40" rx="6" class="fg-hot"/>
+<text x="65" y="55" text-anchor="middle" class="fg-text">Échange</text>
+<text x="200" y="55" text-anchor="middle" class="fg-text">Audit</text>
+<text x="335" y="55" text-anchor="middle" class="fg-text">Périmètre</text>
+<line x1="122" y1="50" x2="142" y2="50" class="fg-line"/>
+<path d="M136 45 L142 50 L136 55" class="fg-line"/>
+<line x1="257" y1="50" x2="277" y2="50" class="fg-line"/>
+<path d="M271 45 L277 50 L271 55" class="fg-line"/>
+<line x1="300" y1="72" x2="300" y2="121" class="fg-dim"/>
+<path d="M295 115 L300 121 L305 115" class="fg-dim"/>
+<text x="10" y="112" class="fg-label">Chaque mois</text>
+<rect x="60" y="124" width="120" height="40" rx="6" class="fg-box"/>
+<rect x="220" y="124" width="120" height="40" rx="6" class="fg-box"/>
+<text x="120" y="149" text-anchor="middle" class="fg-text">Livraison</text>
+<text x="280" y="149" text-anchor="middle" class="fg-text">Rapport</text>
+<line x1="182" y1="136" x2="217" y2="136" class="fg-line"/>
+<path d="M211 131 L217 136 L211 141" class="fg-line"/>
+<line x1="183" y1="152" x2="218" y2="152" class="fg-line"/>
+<path d="M189 147 L183 152 L189 157" class="fg-line"/>
+</svg>
+<figcaption>Le périmètre écrit le premier mois sert de référence à chaque rapport mensuel, et chaque rapport fixe les priorités de la livraison suivante.</figcaption>
+</figure>
+
 **Un engagement au mois**, avec un préavis de part et d’autre. Vous parlez directement aux personnes qui pensent la stratégie, rédigent les briefs et lisent les rapports, et nous répondons à chaque message, en général sous un jour ouvré.
 
 <aside class="post-cta">

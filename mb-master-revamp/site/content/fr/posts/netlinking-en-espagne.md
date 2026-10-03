@@ -71,6 +71,29 @@ Ces trois réflexes gardent votre budget sur des liens qui comptent, et nous les
 
 Connaître le rythme réel permet de planifier avec sérénité. Un placement éditorial authentique demande du temps entre le premier contact et la mise en ligne. Il avance plus vite quand la relation existe déjà, et plus lentement quand août ou la fin décembre tombent dans la période : l’Espagne fait une vraie pause deux fois par an, et un calendrier qui tient compte des deux garde vos placements sur la bonne trajectoire.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 102" role="img" aria-label="Une année de placements éditoriaux en Espagne, avec deux pauses, en août et à la fin décembre.">
+<line x1="20" y1="40" x2="380" y2="40" class="fg-line"/>
+<rect x="230" y="34" width="30" height="12" rx="6" class="fg-fill-accent"/>
+<rect x="356" y="34" width="24" height="12" rx="6" class="fg-fill-accent"/>
+<text x="245" y="20" text-anchor="middle" class="fg-label">Pause d’août</text>
+<text x="35" y="66" text-anchor="middle" class="fg-label">J</text>
+<text x="65" y="66" text-anchor="middle" class="fg-label">F</text>
+<text x="95" y="66" text-anchor="middle" class="fg-label">M</text>
+<text x="125" y="66" text-anchor="middle" class="fg-label">A</text>
+<text x="155" y="66" text-anchor="middle" class="fg-label">M</text>
+<text x="185" y="66" text-anchor="middle" class="fg-label">J</text>
+<text x="215" y="66" text-anchor="middle" class="fg-label">J</text>
+<text x="245" y="66" text-anchor="middle" class="fg-label">A</text>
+<text x="275" y="66" text-anchor="middle" class="fg-label">S</text>
+<text x="305" y="66" text-anchor="middle" class="fg-label">O</text>
+<text x="335" y="66" text-anchor="middle" class="fg-label">N</text>
+<text x="365" y="66" text-anchor="middle" class="fg-label">D</text>
+<text x="380" y="94" text-anchor="end" class="fg-label">Fin décembre</text>
+</svg>
+<figcaption>Prévoyez ces deux pauses dans le calendrier de liens, et vos placements avancent au rythme réel des rédactions le reste de l’année.</figcaption>
+</figure>
+
 Pour juger une offre, comparez-la à ce rythme : les placements éditoriaux s’obtiennent un par un, au fil des relations.
 
 ## Où les liens s’insèrent dans un programme SEO espagnol

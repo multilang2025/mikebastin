@@ -36,6 +36,22 @@ Puedes ponerlas en la cabecera HTML, en las cabeceras HTTP o en el sitemap XML. 
 
 Las anotaciones tienen que ser bidireccionales: si la página A apunta a la B, la B apunta de vuelta a la A. Revisa cada enlace de esa cadena, porque Google tiene en cuenta el grupo cuando está completo.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 108" role="img" aria-label="Dos versiones de idioma enlazadas con hreflang en los dos sentidos: la página A apunta a la B y la B vuelve a apuntar a la A.">
+<rect x="20" y="28" width="120" height="52" rx="6" class="fg-box"/>
+<text x="80" y="59" text-anchor="middle" class="fg-text">Página A</text>
+<rect x="260" y="28" width="120" height="52" rx="6" class="fg-box"/>
+<text x="320" y="59" text-anchor="middle" class="fg-text">Página B</text>
+<text x="200" y="18" text-anchor="middle" class="fg-label">A apunta a B</text>
+<line x1="140" y1="44" x2="258" y2="44" class="fg-line"/>
+<path d="M250 39 L258 44 L250 49" class="fg-line"/>
+<line x1="142" y1="64" x2="260" y2="64" class="fg-accent"/>
+<path d="M150 59 L142 64 L150 69" class="fg-accent"/>
+<text x="200" y="100" text-anchor="middle" class="fg-label">B vuelve a A</text>
+</svg>
+<figcaption>Cada anotación necesita su vuelta. Con los dos sentidos en su sitio, Google lee el grupo completo y muestra a cada usuario su versión.</figcaption>
+</figure>
+
 ### Puntos de hreflang que revisamos a diario
 
 Comprueba que cada anotación enlaza a la URL correcta y usa un código de idioma bien formado: es lo primero que revisamos. Añade también la versión por defecto (`x-default`) para los usuarios cuyo idioma o región queda fuera de los que defines.
