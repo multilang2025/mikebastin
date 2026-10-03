@@ -67,7 +67,7 @@ export default function Spread({ d, flip }: { d: Project; flip: boolean }) {
         {/* visual */}
         <motion.div
           style={{ y: yVisual }}
-          className={`relative aspect-[4/3] overflow-hidden rounded-[3px] lg:aspect-[5/4] ${
+          className={`relative aspect-[5/4] overflow-hidden rounded-[3px] ${
             flip ? "lg:order-2" : "lg:order-1"
           }`}
         >
