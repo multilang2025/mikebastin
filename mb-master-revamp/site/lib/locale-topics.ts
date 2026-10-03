@@ -14,6 +14,8 @@ export type LocaleTopic = {
   slug: string;
   name: string;
   heading: string;
+  /** Search title when `heading` runs over 60 characters (<= 60). */
+  metaTitle?: string;
   blurb: string;
   /** The service page the topic feeds, and its link label. */
   service: { href: string; label: string };
@@ -25,6 +27,7 @@ const TOPICS: LocaleTopic[] = [
     locale: "fr",
     slug: "seo-international",
     name: "SEO international",
+    metaTitle: "SEO international : choisir son partenaire par marché",
     heading: "SEO international : choisir le partenaire qui fait vendre chaque langue",
     blurb:
       "Ce qu’un consultant, un expert ou une agence apporte à un site qui vend dans plusieurs langues, et comment choisir le partenaire qui convient à votre marché.",
@@ -38,6 +41,7 @@ const TOPICS: LocaleTopic[] = [
       "netlinking-en-espagne",
       "strategie-marketing-international",
       "marque-internationale",
+      "seo-technique-allemagne",
     ],
   },
   {
@@ -56,6 +60,11 @@ const TOPICS: LocaleTopic[] = [
       "localisation-interface-utilisateur",
       "checklist-audit-seo-technique",
       "cartographie-intention-de-recherche",
+      "outils-maillage-interne",
+      "extensions-chrome-seo",
+      "outils-test-localisation",
+      "analyse-concurrentielle-seo",
+      "plateformes-achat-vente-liens",
     ],
   },
   {
@@ -74,12 +83,16 @@ const TOPICS: LocaleTopic[] = [
       "strategie-search-everywhere",
       "avenir-du-seo",
       "marketing-ia",
+      "chatbots-ia-entreprise",
+      "llm-alternatifs",
+      "eeat-ou-aeat",
     ],
   },
   {
     locale: "fr",
     slug: "marche-espagnol",
     name: "Marché espagnol",
+    metaTitle: "SEO en Espagne : mots-clés, pages et technique",
     heading: "SEO en Espagne : mots-clés, pages et technique pour vendre en espagnol",
     blurb:
       "Ce qui change pour une entreprise qui vend en Espagne : la recherche de mots-clés en espagnol, les pages, les réglages techniques et les marchés à aborder.",
@@ -95,21 +108,45 @@ const TOPICS: LocaleTopic[] = [
     locale: "fr",
     slug: "ia-et-traduction",
     name: "IA et traduction",
+    metaTitle: "IA et traduction : de la machine à la localisation",
     heading: "IA et traduction : de la traduction automatique à la localisation",
     blurb:
       "Comment l’IA change le travail de traduction et de localisation, et comment l’employer pour des contenus multilingues de qualité.",
     service: { href: "/fr/services/postedition-ia/", label: "Post-édition par IA" },
-    posts: ["ia-traduction-et-localisation", "outils-ia-traduction-automatique"],
+    posts: ["ia-traduction-et-localisation", "outils-ia-traduction-automatique", "traduction-anglais-francais", "extensions-chrome-traducteurs"],
   },
   {
     locale: "fr",
     slug: "local-et-mesure",
     name: "Local et mesure",
+    metaTitle: "Référencement local et mesure des demandes",
     heading: "Référencement local et mesure : être trouvé, puis compter les demandes",
     blurb:
       "Comment une entreprise locale se fait trouver sur Google Maps, et comment mesurer les résultats avec des outils d’analyse adaptés à son marché.",
     service: { href: "/fr/services/referencement-local/", label: "Référencement local" },
-    posts: ["promouvoir-entreprise-locale-google-maps", "alternatives-a-google-analytics", "google-analytics-international"],
+    posts: ["promouvoir-entreprise-locale-google-maps", "alternatives-a-google-analytics", "google-analytics-international", "referencement-local-valencia", "seo-cabinets-avocats"],
+  },
+  {
+    locale: "fr",
+    slug: "contenu-et-marketing",
+    name: "Contenu et marketing",
+    heading: "Contenu et marketing : les canaux qui font revenir vos acheteurs",
+    metaTitle: "Contenu et marketing : articles, e-mailing, réseau",
+    blurb:
+      "Articles de blog, e-mailing, affiliation, publicité et réseau : les leviers qui amènent des demandes à une entreprise qui vend dans plusieurs langues.",
+    service: { href: "/fr/services/creation-de-contenu-multilingue/", label: "Création de contenu multilingue" },
+    posts: [
+      "strategie-de-contenu-ciblee",
+      "idees-articles-de-blog",
+      "emailing-taux-ouverture-conversions",
+      "campagne-google-ads-france",
+      "programmes-affiliation",
+      "agence-marketing-360",
+      "conseiller-marketing-digital",
+      "art-du-networking",
+      "rediger-parcours-professionnel",
+      "economie-des-createurs",
+    ],
   },
   {
     locale: "es",
@@ -133,6 +170,10 @@ const TOPICS: LocaleTopic[] = [
       "localizar-contenido-en-aleman",
       "crear-una-marca-global",
       "estrategias-de-marketing-internacional",
+      "herramientas-enlazado-interno",
+      "extensiones-chrome-seo",
+      "seo-tecnico-alemania",
+      "plataformas-compraventa-enlaces",
     ],
   },
   {
@@ -154,17 +195,22 @@ const TOPICS: LocaleTopic[] = [
       "mapa-de-intencion-de-busqueda",
       "ia-y-estrategias-seo",
       "marketing-con-ia",
+      "chatbots-ia-empresas",
+      "llm-alternativos",
+      "eeat-o-aeat",
+      "tendencias-globales-negocio",
     ],
   },
   {
     locale: "es",
     slug: "ia-y-traduccion",
     name: "IA y traducción",
+    metaTitle: "IA y traducción: de la máquina a la localización",
     heading: "IA y traducción: de la traducción automática a la localización",
     blurb:
       "Cómo cambia la IA el trabajo de traducción y localización, y cómo usarla en tus contenidos multilingües con buena calidad.",
     service: { href: "/es/services/posedicion-de-ia/", label: "Posedición de IA" },
-    posts: ["ia-traduccion-y-localizacion", "herramientas-ia-traduccion-automatica"],
+    posts: ["ia-traduccion-y-localizacion", "herramientas-ia-traduccion-automatica", "traduccion-ingles-frances", "extensiones-chrome-traductores"],
   },
   {
     locale: "es",
@@ -193,7 +239,29 @@ const TOPICS: LocaleTopic[] = [
     blurb:
       "Cómo ganar visibilidad en las búsquedas de tu zona: enlaces de editores españoles y un Perfil de Empresa de Google bien cuidado.",
     service: { href: "/es/services/seo-local/", label: "SEO local" },
-    posts: ["link-building-local-en-espana", "optimizar-perfil-de-empresa-de-google"],
+    posts: ["link-building-local-en-espana", "optimizar-perfil-de-empresa-de-google", "posicionamiento-web-valencia", "seo-despachos-de-abogados"],
+  },
+  {
+    locale: "es",
+    slug: "contenido-y-marketing",
+    name: "Contenido y marketing",
+    heading: "Contenido y marketing: los canales que traen a tus compradores",
+    metaTitle: "Contenido y marketing: artículos, email y networking",
+    blurb:
+      "Artículos de blog, email marketing, afiliación, publicidad y networking: las palancas que traen consultas a una empresa que vende en varios idiomas.",
+    service: { href: "/es/services/redaccion-seo-multilingue/", label: "Redacción SEO multilingüe" },
+    posts: [
+      "estrategia-de-contenido-segmentada",
+      "ideas-para-articulos-de-blog",
+      "email-marketing-tasa-apertura-conversiones",
+      "campanas-google-ads-francia",
+      "programas-de-afiliados",
+      "agencia-marketing-360",
+      "asesor-marketing-digital",
+      "arte-del-networking",
+      "redactar-trayectoria-profesional",
+      "economia-de-los-creadores",
+    ],
   },
 ];
 

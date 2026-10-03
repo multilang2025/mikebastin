@@ -4,7 +4,7 @@ import Link from "next/link";
 import PostImage from "@/components/PostImage";
 import Reveal from "@/components/Reveal";
 import SiteFooter from "@/components/SiteFooter";
-import { getTopics, type Topic } from "@/lib/posts";
+import { getTopics, type Topic, topicMetaDescription } from "@/lib/posts";
 import { getService } from "@/lib/services";
 import { SITE_URL, breadcrumbSchema } from "@/lib/schema";
 import JsonLd from "@/components/JsonLd";
@@ -42,7 +42,7 @@ export async function generateMetadata({
 
   return pageMeta({
     title: `${topic.name}, from the Mike Bastin journal`,
-    description: topic.blurb,
+    description: topicMetaDescription(topic),
     path: `/blog/topics/${topic.slug}/`,
   });
 }

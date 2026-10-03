@@ -30,7 +30,7 @@ import { getPostMetaDescription } from "@/lib/seo";
  */
 
 const DESCRIPTION =
-  "Work through a competitor traffic audit the way we run one: the real rival list, what the traffic tools tell you and how far to trust them, channel mix, AI citations, and six actions to take.";
+  "Run a competitor traffic audit the way we do: the real rival list, what traffic tools tell you and how far to trust them, AI citations and six actions.";
 
 export const metadata: Metadata = {
   ...pageMeta({

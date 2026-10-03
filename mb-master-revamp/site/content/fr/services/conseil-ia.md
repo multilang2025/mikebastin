@@ -1,6 +1,7 @@
 ---
 words: 677
 title: "Conseil en IA pour les entreprises qui vendent à l’international"
+metaTitle: "Conseil en IA pour les entreprises qui exportent"
 name: "Conseil en IA"
 slug: "conseil-ia"
 locale: "fr"

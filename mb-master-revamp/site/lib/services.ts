@@ -1296,7 +1296,7 @@ export const SERVICES: Service[] = [
     angle: "Strings, and everything around them",
     lede: "You are shipping the product into a market that writes longer sentences than English, sometimes reads right to left, and reviews you in a store in its own language. The work starts with the interface around the translation.",
     metaTitle: "App and software localization services",
-    metaDescription: "Shipping into a market that writes longer than English or reads right to left? App and software localization covers the layout, the formats and the store listing too.",
+    metaDescription: "Shipping into a market that writes longer than English or reads right to left? App and software localization covers layout, formats and store listings.",
     sections: ["What software needs to cross a language", ...ENGAGEMENT],
     body: [
       {

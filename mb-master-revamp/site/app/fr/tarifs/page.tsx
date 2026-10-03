@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   ...pageMeta({
     title: "Tarifs et déroulement d’une mission, Mike Bastin",
     description:
-      "Comment se déroule une mission de SEO multilingue, de localisation ou de conseil en IA : consultation gratuite, périmètre écrit, livraison mensuelle, facturation.",
+      "Comment se déroule une mission de SEO multilingue, de localisation ou de conseil en IA : consultation gratuite, périmètre écrit, livraison mensuelle.",
     path: PATH,
     languages: frLanguages(PATH),
     ogLocale: "fr_FR",
