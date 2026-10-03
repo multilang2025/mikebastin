@@ -73,6 +73,9 @@ Same model as valenciamove.com, which the owner already runs at larger scale
   printed every title twice and a post repeated its `h1`. Social images
   are separate and unaffected: they come from each route's
   `opengraph-image.tsx`.
+  The eight client images in `public/work/` keep their file names when
+  `design/work-shots/gen.py` redraws them and the host caches images for a
+  week, so bump `SHOT_VERSION` in `lib/projects.ts` whenever they change.
 - **Redirects:** `site/public/.htaccess`, generated from `content-map.json`
   by the `scripts/gen-*-redirects.mjs` family. Never hand-maintained. Not
   `next.config` `redirects()`, which never runs under `output: "export"`;
