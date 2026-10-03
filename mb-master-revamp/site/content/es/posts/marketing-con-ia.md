@@ -1,5 +1,5 @@
 ---
-words: 916
+words: 936
 title: "Marketing con IA: tres usos que se amortizan primero"
 slug: "marketing-con-ia"
 locale: "es"
@@ -48,7 +48,7 @@ Publicar con frecuencia te mantiene visible en cada mercado al que vendes, y la 
 - **Relevancia:** las herramientas leen tendencias y comportamiento de búsqueda y sugieren temas oportunos.
 - **Personalización:** el texto se adapta a cada segmento, lo que mejora la interacción y la conversión.
 
-Los modelos GPT redactan artículos, fichas de producto y campañas de correo, y herramientas como [Copy.ai](https://www.copy.ai) y [Jasper](https://www.jasper.ai/) automatizan partes del flujo de contenido. La calidad depende del briefing y de quien edita. Si vendes en varios idiomas, cada versión necesita a alguien que lea ese idioma y revise el borrador antes de publicarlo, y ahí encaja nuestra [redacción SEO multilingüe](/es/services/redaccion-seo-multilingue/).
+Los modelos GPT redactan artículos, fichas de producto y [campañas de correo](/es/email-marketing-tasa-apertura-conversiones/), y herramientas como [Copy.ai](https://www.copy.ai) y [Jasper](https://www.jasper.ai/) automatizan partes del flujo de contenido. La calidad depende del briefing y de quien edita. Si vendes en varios idiomas, cada versión necesita a alguien que lea ese idioma y revise el borrador antes de publicarlo, y ahí encaja nuestra [redacción SEO multilingüe](/es/services/redaccion-seo-multilingue/).
 
 ## Analítica predictiva para optimizar campañas
 
@@ -62,7 +62,7 @@ Netflix y Amazon son los ejemplos más conocidos, con modelos predictivos que pe
 
 ## Chatbots con IA para atención al cliente
 
-Una pregunta respondida de madrugada mantiene al comprador contigo, y cuando vendes en varios husos horarios, la madrugada es buena parte del día en algún sitio. Los chatbots con IA atienden muchas consultas a la vez, al instante y a cualquier hora.
+Una pregunta respondida de madrugada mantiene al comprador contigo, y cuando vendes en varios husos horarios, la madrugada es buena parte del día en algún sitio. Los [chatbots con IA](/es/chatbots-ia-empresas/) atienden muchas consultas a la vez, al instante y a cualquier hora.
 
 - **Disponibilidad continua:** los clientes reciben ayuda de inmediato, sea cual sea su huso horario.
 - **Respuestas personalizadas:** el bot puede usar datos del cliente para recomendar el producto o la respuesta adecuados.

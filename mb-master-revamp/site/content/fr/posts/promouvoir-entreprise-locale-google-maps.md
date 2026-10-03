@@ -1,5 +1,5 @@
 ---
-words: 1254
+words: 1329
 title: "Promouvoir votre entreprise locale sur Google Maps"
 slug: "promouvoir-entreprise-locale-google-maps"
 locale: "fr"
@@ -12,7 +12,7 @@ sourceUrl: null
 excerpt: "Les clients proches appellent l’une des trois premières entreprises de la carte. Voici comment promouvoir la vôtre sur Google Maps et en faire partie."
 ---
 
-Quelqu’un, à quelques rues de votre boutique, de votre agence ou de votre showroom, cherche exactement ce que vous vendez et appelle l’une des trois entreprises que Google affiche en tête de la carte. Placez la vôtre parmi elles, et le téléphone sonne plus souvent, dans chaque ville où vous avez des clients, à Lyon comme à Bruxelles, à Genève comme à Valence.
+Quelqu’un, à quelques rues de votre boutique, de votre agence ou de votre showroom, cherche exactement ce que vous vendez et appelle l’une des trois entreprises que Google affiche en tête de la carte. Placez la vôtre parmi elles, et le téléphone sonne plus souvent, dans chaque ville où vous avez des clients, à Lyon comme à Bruxelles, à Genève comme à Valence. Pour une entreprise francophone installée en Espagne, notre guide du [référencement local à Valencia](/fr/referencement-local-valencia/) détaille l’approche quartier par quartier.
 
 Voici comment être référencé, ce qui donne une place sur la carte, où se placent les avis, les publications, les annonces et les réponses de l’IA, et comment voir ce qui fait sonner le téléphone.
 
@@ -67,7 +67,7 @@ Une fiche active ressemble à une entreprise ouverte. Google Business Profile vo
 - les événements
 - les changements d’horaires
 
-Pour trouver des sujets, puisez dans vos articles de blog : beaucoup fonctionnent aussi comme publications Google.
+Pour trouver des sujets, puisez dans vos articles de blog : beaucoup fonctionnent aussi comme publications Google. Pour en écrire de nouveaux, nos [idées d’articles qui attirent des clients](/fr/idees-articles-de-blog/) vous donnent quinze points de départ.
 
 ## Se préparer à la recherche par IA dans Maps
 

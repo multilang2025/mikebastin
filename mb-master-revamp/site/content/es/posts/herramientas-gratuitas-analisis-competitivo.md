@@ -1,5 +1,5 @@
 ---
-words: 1251
+words: 1377
 title: "Herramientas gratuitas de análisis competitivo para SEO"
 metaTitle: "Herramientas gratuitas de análisis competitivo SEO"
 slug: "herramientas-gratuitas-analisis-competitivo"
@@ -34,7 +34,7 @@ Cada herramienta gratuita responde bien a una pregunta concreta. Combinadas, cub
 | Ahrefs Backlink Checker | Domain Rating, enlaces y dominios de referencia | Primera lectura del perfil de enlaces |
 | Biblioteca de anuncios de Meta | Anuncios activos de cualquier anunciante | Mensajes y ofertas de tus rivales |
 
-Las versiones gratuitas cambian con frecuencia y limitan el número de consultas, así que úsalas para una primera lectura y comprueba las cifras importantes con una segunda fuente.
+Las versiones gratuitas cambian con frecuencia y limitan el número de consultas, así que úsalas para una primera lectura y comprueba las cifras importantes con una segunda fuente. Para comprobaciones rápidas desde el navegador, nuestras [extensiones de Chrome para SEO](/es/extensiones-chrome-seo/) tienen todas versión gratuita.
 
 ### Por qué analizar a la competencia genera ideas nuevas
 
@@ -50,7 +50,7 @@ La primera pregunta es cuánto tráfico recibe tu competidor y de dónde viene, 
 
 **Similarweb** muestra gratis las visitas estimadas, los canales principales, el comportamiento de los visitantes y las palabras clave principales de cualquier dominio. Usa esos datos en tu [análisis SEO competitivo](https://mikebastin.com/es/analisis-competitivo-seo/) para fijar metas realistas.
 
-Si un rival saca mucho tráfico de LinkedIn o de TikTok, ahí hay una comunidad activa a tener en cuenta. Esa información te ayuda a [analizar el tráfico de la competencia de forma efectiva](https://mikebastin.com/es/analizar-trafico-web-competencia/) y a decidir dónde invertir tu tiempo.
+Si un rival saca mucho tráfico de LinkedIn o de TikTok, ahí hay una comunidad activa a tener en cuenta. Que la relación con tu propia comunidad sea tuya es la idea central de una [economía de los creadores más humana](/es/economia-de-los-creadores/). Esa información te ayuda a [analizar el tráfico de la competencia de forma efectiva](https://mikebastin.com/es/analizar-trafico-web-competencia/) y a decidir dónde invertir tu tiempo.
 
 **Ubersuggest** muestra qué páginas de tu competencia generan más tráfico y con qué palabras clave. Úsalo como punto de partida para [rastrear posiciones de keywords de competidores](https://mikebastin.com/es/rastrear-posiciones-de-keywords-de-competidores/) y ver qué temas interesan a vuestra audiencia común.
 

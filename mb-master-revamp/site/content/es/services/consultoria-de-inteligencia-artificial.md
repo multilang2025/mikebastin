@@ -1,5 +1,5 @@
 ---
-words: 1304
+words: 1265
 title: "Consultoría de inteligencia artificial para empresas que venden fuera"
 metaTitle: "Consultoría de inteligencia artificial, Mike Bastin"
 name: "Consultoría de IA"
@@ -31,7 +31,7 @@ Nuestra consultoría de inteligencia artificial te dice con precisión qué part
 Trabajamos sobre cinco decisiones concretas, todas pensadas para empresas que ya venden en el extranjero:
 
 - qué contenidos pasan por traducción automática y con qué nivel de revisión;
-- si un asistente multilingüe puede atender a los clientes de cada mercado, y hasta dónde;
+- si un [asistente multilingüe con IA](/es/chatbots-ia-empresas/) puede atender a los clientes de cada mercado, y hasta dónde;
 - qué dicen tus clientes en cada idioma, leído a una escala que una sola persona no alcanza;
 - cómo aparecen tus contenidos en las respuestas de ChatGPT, Claude, Gemini o Perplexity, y qué cambia para que te citen;
 - cómo medir si todo eso funciona.

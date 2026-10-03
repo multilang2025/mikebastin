@@ -1,5 +1,5 @@
 ---
-words: 2674
+words: 2522
 title: "Checklist d’audit SEO technique pour votre site web"
 slug: "checklist-audit-seo-technique"
 locale: "fr"
@@ -81,7 +81,7 @@ Laissez une URL en `noindex` ouverte dans robots.txt : Google peut alors récup
 | 302 | Trouvée, temporaire | Traitée à terme comme une 301 si elle reste | Un test court ou une page saisonnière |
 | 410 | Disparue | Non | Le contenu est supprimé pour de bon |
 
-Repérez les chaînes et les boucles avec Screaming Frog, Ahrefs ou l’extension Redirect Path, et faites pointer chaque redirection directement vers l’URL finale. Remplacez par des 301 les 302 devenues permanentes. Dans `.htaccess` :
+Repérez les chaînes et les boucles avec Screaming Frog, Ahrefs ou l’extension Redirect Path, et faites pointer chaque redirection directement vers l’URL finale. Redirect Path figure parmi les [extensions Chrome utiles au SEO](/fr/extensions-chrome-seo/) que nous gardons au quotidien. Remplacez par des 301 les 302 devenues permanentes. Dans `.htaccess` :
 
 ```
 Redirect 301 /ancienne-page /nouvelle-page
@@ -93,7 +93,7 @@ Les pages proches de la page d’accueil reçoivent plus de visites, des moteurs
 
 ### Liens internes et profondeur de clic
 
-Les liens internes répartissent l’autorité et montrent aux robots ce qui compte. Reliez chaque page orpheline repérée par l’outil d’audit depuis des pages pertinentes, avec un texte d’ancre qui décrit la cible, et gardez les pages importantes à trois clics au plus de l’accueil.
+Les liens internes répartissent l’autorité et montrent aux robots ce qui compte. Reliez chaque page orpheline repérée par l’outil d’audit depuis des pages pertinentes, avec un texte d’ancre qui décrit la cible, et gardez les pages importantes à trois clics au plus de l’accueil. Notre comparatif des [outils de maillage interne](/fr/outils-maillage-interne/) vous aide à relier ces pages plus vite.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 200" role="img" aria-label="Une hiérarchie de site peu profonde : la page d’accueil renvoie vers les catégories, les catégories vers les pages, et chaque page se trouve à trois clics au plus.">

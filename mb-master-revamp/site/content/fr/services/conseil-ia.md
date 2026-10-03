@@ -1,6 +1,7 @@
 ---
-words: 677
+words: 679
 title: "Conseil en IA pour les entreprises qui vendent à l’international"
+metaTitle: "Conseil en IA pour les entreprises qui exportent"
 name: "Conseil en IA"
 slug: "conseil-ia"
 locale: "fr"
@@ -37,7 +38,7 @@ L’économie est réelle, et elle vient du tri entre ces contenus. C’est le p
 
 ## Un support qui répond dans la langue de la question
 
-Un assistant multilingue sur votre site traite les questions répétitives de chaque marché dans sa langue, avec une seule équipe de support pour toutes, et passe la main proprement à une personne quand la question dépasse ce qu’il connaît. Il s’appuie sur vos propres contenus : il parle de vos produits.
+Un assistant multilingue sur votre site traite les questions répétitives de chaque marché dans sa langue, avec une seule équipe de support pour toutes, et passe la main proprement à une personne quand la question dépasse ce qu’il connaît. Il s’appuie sur vos propres contenus : il parle de vos produits. Nos [dix usages concrets des chatbots en entreprise](/fr/chatbots-ia-entreprise/) vous aident à choisir le premier à lancer.
 
 Le point à surveiller, c’est l’aplomb : sur un marché dont seuls vos clients lisent la langue, une réponse inventée en néerlandais peut passer des mois inaperçue. Toute production d’IA dans ce dispositif est donc relue par une personne qui lit la langue cible.
 

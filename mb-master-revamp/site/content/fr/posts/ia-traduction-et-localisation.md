@@ -1,5 +1,5 @@
 ---
-words: 906
+words: 1027
 title: "L’IA en traduction et localisation : plus de marchés avec le même budget"
 metaTitle: "IA et traduction : plus de marchés avec le même budget"
 slug: "ia-traduction-et-localisation"
@@ -82,4 +82,4 @@ Les entreprises qui gardent à la fois l’économie et la qualité répartissen
 
 ## Par où commencer
 
-Choisissez un marché et un type de contenu, lancez l’IA avec une post-édition humaine, et faites vérifier le résultat par un lecteur natif avant de passer à l’échelle. La vitesse vient de la machine, et la confiance vient des personnes. [Contactez notre équipe](/fr/nous-contacter/) pour un conseil adapté à votre entreprise, ou reliez ce travail à votre [référencement multilingue](/fr/services/referencement-multilingue/) pour que les pages traduites soient aussi trouvées.
+Choisissez un marché et un type de contenu, lancez l’IA avec une post-édition humaine, et faites vérifier le résultat par un lecteur natif avant de passer à l’échelle. La vitesse vient de la machine, et la confiance vient des personnes. Pour vos contenus rédigés en anglais, notre guide de la [traduction anglais-français](/fr/traduction-anglais-francais/) détaille ce que votre prestataire doit vous livrer. [Contactez notre équipe](/fr/nous-contacter/) pour un conseil adapté à votre entreprise, ou reliez ce travail à votre [référencement multilingue](/fr/services/referencement-multilingue/) pour que les pages traduites soient aussi trouvées.

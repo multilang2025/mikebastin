@@ -12,13 +12,13 @@ sourceUrl: null
 excerpt: "Asuntos que invitan a abrir, emails cómodos en el móvil y segmentos por mercado: así haces que cada campaña de email marketing venda en cada país."
 ---
 
-Tu lista de suscriptores crece en varios mercados y tus campañas salen puntuales: en francés para Francia y Bélgica, en inglés para el Reino Unido, en alemán para Alemania. El siguiente paso son las ventas que esas campañas tienen que traer. Cada envío que merece la lectura enseña a tus suscriptores a abrir el siguiente.
+Tu lista de suscriptores crece en varios mercados y tus campañas salen puntuales: en francés para Francia y Bélgica, en inglés para el Reino Unido, en alemán para Alemania. Falta que traigan ventas. Cada envío que merece la lectura enseña a tus suscriptores a abrir el siguiente.
 
-Aquí tienes las palancas que cuentan: asuntos que se ganan la apertura, emails con los que tu lector puede actuar desde el móvil, segmentos que hacen relevante cada envío y las cifras que muestran si el email marketing es rentable.
+Cuentan cuatro palancas: asuntos que se ganan la apertura, emails con los que tu lector puede actuar desde el móvil, segmentos que hacen relevante cada envío y las cifras que muestran si el email marketing es rentable.
 
 ## Asuntos que invitan a abrir
 
-El asunto se gana la oportunidad de que se lea todo lo demás.
+El asunto decide si se lee el resto del email.
 
 ### Usa palabras con fuerza
 
@@ -51,7 +51,7 @@ Tu público decide qué funciona. Prueba estilos, longitudes y elementos del asu
 
 ## Emails pensados para el móvil
 
-Un email que se lee con comodidad en el teléfono lleva a la mayoría de sus lectores hasta tu oferta, así que la optimización para móvil va primero.
+Un email que se lee con comodidad en el teléfono lleva a la mayoría de sus lectores hasta tu oferta, así que el móvil va primero.
 
 > Los dispositivos móviles siguen siendo el principal entorno de lectura para la mayoría de los suscriptores.
 >
@@ -75,11 +75,11 @@ Tus emails se adaptan a cualquier tamaño de pantalla. Un diseño a una sola col
 
 ### Prueba en varios dispositivos y clientes de correo
 
-Previsualiza cada email en distintas plataformas con herramientas como Litmus o Email on Acid antes de enviarlo a toda tu lista. Revisa cada versión de idioma: un botón en alemán o en neerlandés suele ocupar más que su equivalente en español, y el diseño tiene que darle sitio.
+Previsualiza cada email en distintas plataformas con herramientas como Litmus o Email on Acid antes de enviarlo a toda tu lista. Revisa cada versión de idioma: un botón en alemán o en neerlandés suele ocupar más que su equivalente en español, y el diseño tiene que darle sitio. Las [herramientas de pruebas de localización](/es/herramientas-pruebas-de-localizacion/) detectan esos desbordes antes del envío.
 
-## Personalización y segmentación
+## Segmentos que hacen relevante cada envío
 
-Un mensaje escrito para un segmento convence a ese segmento. Los segmentos permiten que cada suscriptor reciba el email que le encaja.
+Un mensaje escrito para un segmento convence a ese segmento: cada suscriptor recibe el email que le encaja.
 
 ### Segmentación por comportamiento
 
@@ -89,7 +89,7 @@ Segmenta tu lista según lo que hace de verdad cada suscriptor:
 - nivel de interacción con tus emails;
 - recorrido de navegación por tu web.
 
-Si vendes en el extranjero, el país y el idioma forman el primer nivel de segmentación: cada mercado recibe su email, escrito en su idioma.
+Si vendes en el extranjero, el país y el idioma forman el primer nivel de segmentación: cada mercado recibe su email, escrito en su idioma, en línea con una [estrategia de contenido segmentada](/es/estrategia-de-contenido-segmentada/) según lo que busca cada mercado.
 
 ### Contenido dinámico
 
@@ -110,9 +110,7 @@ Ajusta tus campañas al recorrido del cliente:
 - campañas de reactivación para los suscriptores inactivos;
 - recompensas de fidelidad para los clientes habituales.
 
-## Mide lo que cuenta y optimiza
-
-Si juzgas el email marketing por la cifra correcta, mejoras lo correcto.
+## Las cifras que muestran si el email marketing es rentable
 
 ### Mira más allá de la tasa de apertura
 
@@ -127,6 +125,8 @@ Céntrate en:
 - las tasas de clic, y en si la página a la que lleva el clic retiene al visitante (nuestro trabajo de [SEO técnico](/es/services/seo-tecnico/) cubre esa parte);
 - las tasas de conversión;
 - los ingresos por email.
+
+Para atribuir esas conversiones al país correcto, conviene saber qué mide bien [Google Analytics en marketing internacional](/es/google-analytics-marketing-internacional/) y qué hay que revisar.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 190" role="img" aria-label="Un embudo de email marketing que se estrecha de entregados a abiertos, a clics y a conversiones, la etapa que cuenta.">
@@ -145,6 +145,8 @@ Céntrate en:
 <aside class="post-cta">
 <p><strong>¿Envías tus campañas en varios idiomas?</strong> Nuestra <a href="/es/services/redaccion-seo-multilingue/">redacción multilingüe</a> escribe tus asuntos y tus emails directamente en el idioma de cada mercado, para que cada suscriptor lea una campaña pensada para él. <a href="/es/contactanos/">Reserva una primera conversación</a>.</p>
 </aside>
+
+## Herramientas que afinan cada envío
 
 ### Mapas de calor
 
@@ -166,7 +168,7 @@ Las herramientas con IA pueden, de forma automática:
 - optimizar las horas de envío;
 - personalizar el contenido para cada destinatario.
 
-En tus mercados extranjeros, haz que un lingüista nativo revise esos textos generados: nuestro servicio de [posedición de IA](/es/services/posedicion-de-ia/) les da un tono natural en cada idioma.
+En tus mercados extranjeros, haz que un lingüista nativo revise esos textos generados: nuestro servicio de [posedición de textos generados con IA](/es/services/posedicion-de-ia/) les da un tono natural en cada idioma. Para ver dónde se amortiza antes la IA en el resto de tu marketing, consulta [los usos rentables del marketing con IA](/es/marketing-con-ia/).
 
 ## Por dónde empezar
 

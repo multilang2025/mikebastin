@@ -1,5 +1,5 @@
 ---
-words: 1070
+words: 1092
 title: "Publicidad multilingüe y Google Ads internacional, mercado por mercado"
 metaTitle: "Publicidad multilingüe y Google Ads internacional"
 name: "Publicidad multilingüe"
@@ -36,7 +36,7 @@ Esta regla se aplica a la inversión en medios; la redacción y la traducción s
 
 ## Lo que hacemos en cada mercado
 
-- **Una investigación de palabras clave por mercado.** El planificador da los volúmenes; la intención sale de leer los resultados de búsqueda en el país elegido y de validar los términos con hablantes nativos, antes de la primera puja. Cada variante tiene su propia investigación: el español de España y el de México, el inglés británico y el estadounidense, el francés de Francia, de Bélgica o de Canadá.
+- **Una investigación de palabras clave por mercado.** El planificador da los volúmenes; la intención sale de leer los resultados de búsqueda en el país elegido y de validar los términos con hablantes nativos, antes de la primera puja. Cada variante tiene su propia investigación: el español de España y el de México, el inglés británico y el estadounidense, el francés de Francia, de Bélgica o de Canadá. Para Francia, nuestra guía de [Google Ads en Francia](/es/campanas-google-ads-francia/) muestra cómo busca y compra allí el cliente.
 - **Campañas distintas por mercado**, con presupuestos y estrategias de puja propios, cada una construida para el mercado al que sirve.
 - **Anuncios redactados en cada idioma**: títulos, descripciones y recursos escritos para el lector de cada país, en tres a cinco variantes por grupo de anuncios, probadas entre sí.
 - **Páginas de destino propias por mercado**, siempre que el presupuesto lo permita, con las pruebas que ese mercado espera: opiniones de clientes del país, certificaciones reconocidas allí, precios en la moneda local.

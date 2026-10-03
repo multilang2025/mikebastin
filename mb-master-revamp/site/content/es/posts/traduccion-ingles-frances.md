@@ -9,28 +9,26 @@ wpId: null
 date: "2026-10-03"
 modified: "2026-10-03"
 sourceUrl: null
-excerpt: "Páginas en francés que venden y posicionan: qué esperar de un servicio de traducción de inglés a francés para Francia, Bélgica, Suiza y Quebec."
+excerpt: "Traducción de inglés a francés: la variante correcta, el nivel de servicio y el SEO para páginas que venden en Francia, Bélgica, Suiza y Quebec."
 ---
 
-Tu web ya funciona en inglés para tus mercados de exportación, y el siguiente paso es que los compradores franceses y belgas te escriban. Las páginas que los convencen se leen como escritas en francés, usan el francés del país correcto y posicionan porque alguien comprobó qué buscan de verdad esos compradores. Si tu contenido de exportación ya está en inglés, ese inglés suele ser el texto de partida más práctico.
+Tu web ya funciona en inglés para tus mercados de exportación, y ese inglés suele ser el texto de partida más práctico para que los compradores franceses y belgas te escriban. Las páginas que los convencen se leen como escritas en francés, usan el francés del país correcto y posicionan con lo que esos compradores buscan de verdad.
 
-Casi todo se decide antes de que el traductor escriba una palabra: con la variante de francés que eliges, con el brief y con el lugar que le das al SEO desde el principio.
-
-Aquí tienes lo que espera cada mercado francófono, cómo funciona un buen proyecto de traducción de inglés a francés, cuándo la traducción va acompañada de localización y qué enviarnos para que el presupuesto se ajuste al trabajo.
+Casi todo se decide antes de que el traductor escriba una palabra: la variante de francés, el brief y el lugar que le das al SEO desde el principio.
 
 ## Tres puntos que hay que acertar en la traducción de inglés a francés
 
-Un texto en francés bien hecho se paga una vez y trae solicitudes desde el primer día. Casi todo lo que nos piden corregir se reduce a los mismos tres puntos.
+Casi todo lo que nos piden corregir se reduce a los mismos tres puntos.
 
 El primero es la variante. Una campaña escrita para parisinos suena extranjera en Quebec, así que cada mercado recibe su propia versión. Lo mismo pasa a la inversa, y con más fuerza: las expresiones canadienses en una web para Francia le suenan a un comprador francés como un americanismo aprendido en el cine.
 
-El segundo es la revisión humana de la traducción automática antes de publicar. DeepL rinde bien de inglés a francés, y un revisor detecta las señales que un lector francés nota en dos frases: el abuso de «très», errores de concordancia de género en sustantivos poco frecuentes, combinaciones de verbo y sustantivo calcadas del inglés y mayúsculas en cada palabra de los títulos.
+El segundo es la revisión humana de la traducción automática antes de publicar. DeepL rinde bien de inglés a francés, y un revisor nativo detecta las señales que un lector francés nota en dos frases: el abuso de «très», errores de concordancia de género en sustantivos poco frecuentes, combinaciones de verbo y sustantivo calcadas del inglés y mayúsculas en cada palabra de los títulos.
 
 El tercero es el que menos se comenta: el SEO. Adapta la investigación de palabras clave a cómo buscan de verdad los francófonos en Google.fr, Qwant o Ecosia, y la página en francés posiciona.
 
 ## Los mercados francófonos y lo que espera cada uno
 
-Elige el francés correcto y tu texto se lee como local. El francés de Francia, de Bélgica, de Suiza y de Quebec tiene cada uno su vocabulario, su registro y sus expectativas comerciales, así que lo primero que preguntamos antes de presupuestar es a qué público francófono te diriges.
+El francés de Francia, de Bélgica, de Suiza y de Quebec tiene cada uno su vocabulario, su registro y sus expectativas comerciales, así que lo primero que preguntamos antes de presupuestar es a qué público francófono te diriges.
 
 | Mercado | Registro por defecto | Rasgos propios | Puntos de atención |
 |---|---|---|---|
@@ -40,11 +38,11 @@ Elige el francés correcto y tu texto se lee como local. El francés de Francia,
 | **Quebec** | La variante más distinta | «Courriel», «magasinage», «stationnement» | Primacía del francés fijada por la ley 96 |
 | **África** | Francés de Francia formal | Terminología regional cuando procede | Consumidores que usan sobre todo el móvil |
 
-Algunas notas más allá de la tabla. En Francia, usa «vous» por defecto con un público profesional, salvo que la marca se dirija claramente a los jóvenes. En Bélgica, el norte de habla neerlandesa hace que la configuración del [posicionamiento multilingüe](/es/services/posicionamiento-multilingue/) importe más que casi en ningún otro lugar de Europa. La Suiza francófona, en torno a Ginebra y Lausana, es un mercado de alto valor en finanzas, relojería y farmacia, y merece su propia revisión local.
+En Francia, usa «vous» por defecto con un público profesional, salvo que la marca se dirija claramente a los jóvenes. En Bélgica, el norte de habla neerlandesa hace que la configuración multilingüe importe más que casi en ningún otro lugar de Europa, como explicamos en [SEO en Bélgica y sus tres mercados](/es/seo-en-belgica/). La Suiza francófona, en torno a Ginebra y Lausana, es un mercado de alto valor en finanzas, relojería y farmacia, y merece su propia revisión local.
 
 Quebec es donde más cuenta acertar. El Office québécois de la langue française hace cumplir las normas de primacía del francés en rótulos y envases que fija la ley 96, los anglicismos se sustituyen de forma activa y un texto en francés de Francia necesita adaptación para cumplir los requisitos normativos y culturales.
 
-El francés es lengua oficial o cooficial en una veintena de países africanos, y además se usa mucho en Marruecos, Túnez y Argelia. Para la mayoría de los mercados africanos, el registro adecuado es un francés de Francia formal con ajustes de terminología local.
+El francés es lengua oficial o cooficial en una veintena de países africanos, y además se usa mucho en Marruecos, Túnez y Argelia. Allí suele funcionar un francés de Francia formal, ajustado a la terminología local.
 
 > Hoy hay 396 millones de francófonos en el mundo, el 65 % de ellos en África, y el francés es la cuarta lengua más hablada del mundo, frente al quinto puesto que ocupaba en 2022.
 >
@@ -55,12 +53,12 @@ El francés es lengua oficial o cooficial en una veintena de países africanos, 
 > Fuente: [CSA Research, 2024 Market Sizing Update](https://csa-research.com/Blogs-Events/CSA-in-the-Media/Press-Releases/Language-Services-and-Technology-Industry-Faces-Revenue-Decline-but-Remains-Poised-for-Transformation)
 
 <aside class="post-cta">
-<p><strong>¿Quieres vender en Francia y Bélgica con una sola web en francés?</strong> Nuestro <a href="/es/services/seo-frances/">SEO en francés</a> se investiga y se redacta en francés, mercado por mercado, para que los compradores de Francia, Bélgica y Suiza lean a un proveedor al que confiar su solicitud. <a href="/es/contactanos/">Reserva una primera conversación</a>.</p>
+<p><strong>¿Quieres vender en Francia y Bélgica con una sola web en francés?</strong> Nuestro <a href="/es/services/seo-frances/">SEO en Francia</a> parte de lo que buscan los compradores de cada país y redacta tus páginas en francés, mercado por mercado. <a href="/es/contactanos/">Reserva una primera conversación</a>.</p>
 </aside>
 
 ## Cómo llevamos un proyecto de traducción de inglés a francés
 
-Un proceso claro mantiene el francés fiel al brief. El francés es el idioma en el que más trabajamos: crecimos en Bélgica hablándolo, estudiamos marketing en francés en la universidad, vivimos tres años en París y compartimos durante diez años una oficina en el Caribe con compañeros quebequeses. Los mismos cinco pasos se aplican tanto a una página de aterrizaje de 500 palabras como a una web de 60.000.
+El francés es el idioma en el que más trabajamos: crecimos en Bélgica hablándolo, estudiamos marketing en francés en la universidad, vivimos tres años en París y compartimos durante diez años una oficina en el Caribe con compañeros quebequeses. Los mismos cinco pasos se aplican tanto a una página de aterrizaje de 500 palabras como a una web de 60.000.
 
 ### Auditoría del texto de origen
 
@@ -76,31 +74,31 @@ Trabajamos con un equipo reducido de traductores nativos de francés con base en
 
 ### Posedición y control de calidad
 
-Un segundo lingüista nativo revisa cada traducción. En los proyectos asistidos por IA, el proceso pasa a ser traducción automática seguida de una posedición completa, lo que el sector llama MTPE. Nuestro servicio de [posedición de IA](/es/services/posedicion-de-ia/) explica ese flujo.
+Un segundo lingüista nativo revisa cada traducción. En los proyectos asistidos por IA, el proceso pasa a ser traducción automática seguida de una posedición completa, lo que el sector llama MTPE. Nuestro servicio de [traducción automática con posedición nativa](/es/services/posedicion-de-ia/) explica ese flujo.
 
 ### SEO y publicación en el CMS
 
-El posicionamiento se gana en la página publicada. En la traducción de webs, cargamos el contenido en francés en WPML, Polylang o TranslatePress con etiquetas hreflang correctas, metadatos en francés y una estructura de URL en francés. La investigación de palabras clave se hace en francés antes de redactar; en nuestro servicio de [SEO en francés](/es/services/seo-frances/) tienes la configuración completa.
+En la traducción de webs, cargamos el contenido en francés en WPML, Polylang o TranslatePress con etiquetas hreflang correctas, metadatos en francés y una estructura de URL en francés. La investigación de palabras clave se hace en francés antes de redactar, y los ajustes de [SEO técnico para sitios multilingües](/es/seo-tecnico-para-sitios-multilingues/) hacen que cada versión posicione en su mercado.
 
 ## Cuándo la traducción va acompañada de localización
 
-La localización convierte la traducción fiel de una página de venta en una página escrita para compradores franceses.
+La localización convierte la traducción fiel de una página de venta en una página escrita para compradores franceses, cuidando los [diez puntos de la localización web](/es/localizar-tu-web-puntos-a-cuidar/), del tono a los formularios.
 
 ### Redacción SEO multilingüe en torno a las palabras clave francesas
 
-Para las páginas de marketing, reescribimos en torno al grupo de palabras clave en francés y conservamos tu tono y tu oferta. En [redacción SEO multilingüe](/es/services/redaccion-seo-multilingue/) verás en qué se diferencia de la traducción sin más.
+Para las páginas de marketing, reescribimos en torno al grupo de palabras clave en francés y conservamos tu tono y tu oferta. Es el trabajo de nuestro servicio de [contenido multilingüe escrito para cada mercado](/es/services/redaccion-seo-multilingue/).
 
 ### Transcreación para eslóganes, anuncios y textos de cabecera
 
-Para eslóganes, anuncios, textos de cabecera y campañas creativas, lo que necesitas es transcreación, parte de nuestros [servicios de traducción y transcreación](/es/services/traduccion-profesional/): una versión francesa nueva que conserva la fuerza y el efecto emocional, aunque comparta pocas palabras con el original.
+Para eslóganes, anuncios, textos de cabecera y campañas creativas, lo que necesitas es transcreación: una versión francesa nueva que conserva la fuerza y el efecto emocional, aunque comparta pocas palabras con el original.
 
 ### Publicidad de pago en francés
 
-Las campañas de Google Ads y Meta en los mercados francófonos tienen sus propias reglas: la longitud de los titulares, las convenciones de las llamadas a la acción y la estrategia de pujas cambian entre Francia y Quebec. Nuestro servicio de [publicidad multilingüe](/es/services/publicidad-multilingue/) gestiona esas campañas mercado por mercado.
+Las campañas de Google Ads y Meta en los mercados francófonos tienen sus propias reglas: la longitud de los titulares, las convenciones de las llamadas a la acción y la estrategia de pujas cambian entre Francia y Quebec. Gestionamos esas campañas mercado por mercado.
 
 ## Niveles de servicio y lo que cubre cada uno
 
-Pon la transcreación en tu página de inicio y la traducción automática en un manual de producto, y el presupuesto va donde rinde. Elige el nivel según lo que tenga que conseguir el contenido.
+Pon la transcreación en tu página de inicio y la traducción automática en un manual de producto: el presupuesto va donde rinde.
 
 | Servicio | Ideal para | Incluye | Plazo habitual |
 |---|---|---|---|
@@ -112,13 +110,13 @@ Pon la transcreación en tu página de inicio y la traducción automática en un
 
 > El error de traducción más caro que vemos es tratar el francés como un solo idioma. Enviar un texto parisino a Quebec, o un registro belga a un público de Ginebra, cuesta más en conversiones perdidas que la diferencia de precio entre una localización bien hecha y un trabajo genérico en una sola variante.
 >
-> [Mike Bastin](/es/conocenos-agencia-experta-en-seo/), consultor de SEO multilingüe y traducción
+> Mike Bastin, consultor de SEO multilingüe y traducción
 
 <aside class="post-cta">
 <p><strong>¿Necesitas un contrato o un certificado en francés que acepte un tribunal o una embajada?</strong> Nuestros <a href="/es/services/traduccion-profesional/">servicios de traducción</a> funcionan a través de la red BeTranslated, con traductores certificados y jurados por idioma y especialidad. <a href="/es/contactanos/">Cuéntanos para qué es el documento</a>.</p>
 </aside>
 
-## Un ejemplo real de un proyecto reciente
+## Un catálogo de comercio electrónico de 180.000 palabras, nivel por nivel
 
 Un cliente español de comercio electrónico quería traducir todo su catálogo para los mercados francés y belga: ocho mil referencias, seiscientas descripciones de categoría y una web corporativa de cien páginas, unas 180.000 palabras en total. Tres decisiones mantuvieron el presupuesto en cifras realistas, cada una ajustando el nivel de servicio al riesgo del contenido.
 
@@ -143,9 +141,9 @@ Un cliente español de comercio electrónico quería traducir todo su catálogo 
 
 El plazo total fue de 11 semanas. El tráfico orgánico francés pasó de ser insignificante a una parte notable de las sesiones de la marca en los dos trimestres siguientes al lanzamiento.
 
-## Cómo preparar el brief de un proyecto de inglés a francés
+## Qué enviarnos para un presupuesto ajustado
 
-Un brief completo te da un presupuesto preciso. Envíanos cuatro cosas:
+Envíanos cuatro cosas:
 
 - el contenido de origen, aunque sea en borrador;
 - el mercado de destino: Francia, Bélgica, Suiza, Quebec, África o una combinación;
@@ -156,19 +154,17 @@ A partir de ahí te damos un precio cerrado para todo el proyecto, así conoces 
 
 ## Por dónde empezar
 
-El francés devuelve bien la inversión cuando el trabajo se hace como es debido: posiciones que se mantienen, un expediente normativo en regla en Quebec y textos de marca que atraen a los lectores franceses.
+Un francés bien elegido te da posiciones que se mantienen, un expediente normativo en regla en Quebec y textos de marca que atraen a los lectores franceses.
 
-Para una auditoría gratuita de 20 minutos de tu contenido actual en francés, [escríbenos](/es/contactanos/) y repasamos juntos lo que vemos. Para otras combinaciones de idiomas, consulta nuestros [servicios de traducción profesional](/es/services/traduccion-profesional/). Para entender por qué la traducción y el SEO se planifican juntos, [conoce cómo trabajamos](/es/conocenos-agencia-experta-en-seo/).
+<aside class="post-cta">
+<p><strong>¿Ya tienes contenido en francés publicado?</strong> Lo repasamos contigo en una auditoría gratuita de 20 minutos. <a href="/es/contactanos/">Pide tu auditoría gratuita</a>.</p>
+</aside>
 
 ## Preguntas frecuentes
 
 ### ¿Necesito traducciones al francés distintas para Francia y Quebec?
 
 Para contenido web, anuncios y material de marketing: sí, casi siempre. Para documentos internos, manuales y documentación técnica con poca exposición cultural, una sola versión bien escrita en francés de Francia puede cubrir los dos mercados si tu público lo acepta.
-
-### ¿Puedo usar solo DeepL o ChatGPT para traducir al francés?
-
-Para uso personal, borradores internos y comunicaciones de poco riesgo, sí. Para todo lo que vaya a clientes, lo jurídico, lo que lleve marketing o lo que dependa del SEO, haz que un lingüista nativo edite el resultado, porque los lectores detectan la traducción automática sin revisar. El MTPE es el término medio: traducción automática editada por un lingüista nativo, con una tarifa más baja que la traducción totalmente humana y lista para publicar.
 
 ### ¿Cuánto tarda la traducción de una web de inglés a francés?
 

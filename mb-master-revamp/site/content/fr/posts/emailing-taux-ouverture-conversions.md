@@ -12,22 +12,22 @@ sourceUrl: null
 excerpt: "Objets qui donnent envie d’ouvrir, e-mails lisibles sur mobile, segments par marché : nos leviers pour que chaque campagne d’emailing fasse vendre."
 ---
 
-Votre liste d’abonnés grandit sur plusieurs marchés, vos campagnes partent à l’heure, en français pour la Belgique et la Suisse, en anglais pour le Royaume-Uni, en espagnol pour l’Espagne. L’étape suivante, ce sont les ventes qu’elles doivent apporter. Chaque envoi qui mérite d’être lu apprend à vos abonnés à ouvrir le suivant.
+Votre liste d’abonnés grandit sur plusieurs marchés et vos campagnes partent à l’heure : en français pour la Belgique et la Suisse, en anglais pour le Royaume-Uni, en espagnol pour l’Espagne. Reste à leur faire apporter des ventes. Chaque envoi qui mérite d’être lu apprend à vos abonnés à ouvrir le suivant.
 
-Voici les leviers qui comptent : des objets qui gagnent l’ouverture, des e-mails sur lesquels vos lecteurs peuvent agir depuis leur téléphone, des segments qui rendent chaque envoi pertinent, et les indicateurs qui montrent si l’emailing rapporte.
+Quatre leviers comptent : des objets qui gagnent l’ouverture, des e-mails sur lesquels vos lecteurs agissent depuis leur téléphone, des segments qui rendent chaque envoi pertinent, et les indicateurs qui montrent si l’emailing rapporte.
 
 ## Des objets qui donnent envie d’ouvrir
 
-L’objet gagne le droit d’être lu pour tout le reste de l’e-mail.
+C’est l’objet qui décide si le reste de l’e-mail sera lu.
 
 ### Choisir des mots forts
 
 Les mots chargés d’émotion éveillent la curiosité ou créent l’urgence. Employez-les quand ils disent vrai :
 
-- « Exclusif »
-- « Offre limitée »
-- « En avant-première »
-- « Réservé à nos clients »
+- « Exclusif »
+- « Offre limitée »
+- « En avant-première »
+- « Réservé à nos clients »
 
 Sur vos marchés étrangers, choisissez ces mots dans la langue du lecteur, avec un rédacteur natif : le mot qui crée l’urgence en espagnol ou en allemand se trouve rarement par traduction littérale.
 
@@ -35,15 +35,15 @@ Sur vos marchés étrangers, choisissez ces mots dans la langue du lecteur, avec
 
 Laissez entrevoir quelque chose de précieux et gardez la révélation complète pour l’e-mail. Par exemple :
 
-- « L’astuce d’organisation qui change des journées entières »
-- « Ce que nous avons découvert sur la productivité va vous surprendre »
+- « L’astuce d’organisation qui change des journées entières »
+- « Ce que nous avons découvert sur la productivité va vous surprendre »
 
 ### Personnaliser au-delà du prénom
 
 Le prénom est attendu. Un détail que le lecteur reconnaît comme le sien attire l’attention :
 
-- « Habitants de [ville] : votre guide local est arrivé »
-- « D’après votre dernier achat, ceci devrait vous plaire »
+- « Habitants de [ville] : votre guide local est arrivé »
+- « D’après votre dernier achat, ceci devrait vous plaire »
 
 ### Tester en continu avec l’A/B testing
 
@@ -51,7 +51,7 @@ Votre public décide de ce qui fonctionne. Testez les styles, les longueurs et l
 
 ## Des e-mails pensés pour le mobile
 
-Un e-mail facile à lire sur téléphone conduit la plupart de ses lecteurs jusqu’à votre offre : l’optimisation pour le mobile passe donc en premier.
+Un e-mail facile à lire sur téléphone conduit la plupart de ses lecteurs jusqu’à votre offre : le mobile passe donc en premier.
 
 > Les appareils mobiles restent le principal environnement de lecture pour la majorité des abonnés.
 >
@@ -75,11 +75,11 @@ Vos e-mails s’adaptent à chaque taille d’écran. Une mise en page sur une s
 
 ### Tester sur plusieurs appareils et messageries
 
-Prévisualisez chaque e-mail sur différentes plateformes avec des outils comme Litmus ou Email on Acid avant de l’envoyer à toute votre liste. Vérifiez chaque version de langue : un bouton en allemand ou en néerlandais demande souvent plus de place que son équivalent français, et la mise en page doit le contenir.
+Prévisualisez chaque e-mail sur différentes plateformes avec des outils comme Litmus ou Email on Acid avant de l’envoyer à toute votre liste. Vérifiez chaque version de langue : un bouton en allemand ou en néerlandais demande souvent plus de place que son équivalent français, et la mise en page doit le contenir. Les [outils de test de localisation](/fr/outils-test-localisation/) repèrent ce genre de débordement avant l’envoi.
 
-## Personnalisation et segmentation
+## Des segments qui rendent chaque envoi pertinent
 
-Un message écrit pour un segment convainc ce segment. Les segments permettent à chaque abonné de recevoir l’e-mail qui lui correspond.
+Un message écrit pour un segment convainc ce segment : chaque abonné reçoit l’e-mail qui lui correspond.
 
 ### Segmenter selon le comportement
 
@@ -89,7 +89,7 @@ Segmentez votre liste selon ce que font réellement vos abonnés :
 - le niveau d’engagement avec vos e-mails ;
 - le parcours de navigation sur votre site.
 
-Pour une entreprise qui vend à l’étranger, le pays et la langue forment le premier niveau de segmentation : chaque marché reçoit son e-mail, écrit dans sa langue.
+Pour une entreprise qui vend à l’étranger, le pays et la langue forment le premier niveau de segmentation : chaque marché reçoit son e-mail, écrit dans sa langue, dans le prolongement d’une [stratégie de contenu ciblée](/fr/strategie-de-contenu-ciblee/) sur ce que chaque marché recherche.
 
 ### Contenu dynamique
 
@@ -110,13 +110,11 @@ Faites correspondre vos campagnes au parcours du client :
 - des campagnes de réactivation pour les abonnés inactifs ;
 - des récompenses de fidélité pour les clients réguliers.
 
-## Mesurer ce qui compte pour mieux optimiser
-
-Jugez l’emailing sur le bon indicateur, et vous améliorez la bonne chose.
+## Les indicateurs qui montrent si l’emailing rapporte
 
 ### Regarder au-delà du taux d’ouverture
 
-Pris seul, le taux d’ouverture est devenu un signal faible. La protection de la confidentialité de Mail d’Apple (Mail Privacy Protection) précharge les messages : chez ces utilisateurs, une « ouverture » compte le préchargement, que quelqu’un ait lu l’e-mail ou non.
+Pris seul, le taux d’ouverture est devenu un signal faible. La protection de la confidentialité de Mail d’Apple (Mail Privacy Protection) précharge les messages : chez ces utilisateurs, une « ouverture » compte le préchargement, que quelqu’un ait lu l’e-mail ou non.
 
 > La protection de la confidentialité de Mail d’Apple concerne désormais environ 55 à 60 % de toutes les ouvertures d’e-mails.
 >
@@ -127,6 +125,8 @@ Concentrez-vous sur :
 - les taux de clic, et la capacité de la page d’arrivée à retenir le visiteur (notre travail de [SEO technique](/fr/services/seo-technique/) couvre ce volet) ;
 - les taux de conversion ;
 - le chiffre d’affaires par e-mail.
+
+Pour attribuer ces conversions au bon pays, sachez ce que mesure vraiment [Google Analytics à l’international](/fr/google-analytics-international/) et ce qu’il faut y vérifier.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 190" role="img" aria-label="Un entonnoir d’emailing qui se resserre des e-mails délivrés aux ouvertures, puis aux clics et aux conversions, l’étape qui compte.">
@@ -145,6 +145,8 @@ Concentrez-vous sur :
 <aside class="post-cta">
 <p><strong>Vous envoyez vos campagnes dans plusieurs langues ?</strong> Notre <a href="/fr/services/creation-de-contenu-multilingue/">création de contenu multilingue</a> rédige vos objets et vos e-mails directement dans la langue de chaque marché, pour que chaque abonné lise une campagne écrite pour lui. <a href="/fr/nous-contacter/">Réservez un premier échange</a>.</p>
 </aside>
+
+## Les outils qui affinent chaque envoi
 
 ### Les cartes de chaleur
 
@@ -166,7 +168,7 @@ Les outils fondés sur l’IA peuvent automatiquement :
 - optimiser les heures d’envoi ;
 - personnaliser le contenu pour chaque destinataire.
 
-Sur vos marchés étrangers, faites relire ces textes générés par un linguiste natif : notre service de [post-édition IA](/fr/services/postedition-ia/) leur donne un ton naturel dans chaque langue.
+Sur vos marchés étrangers, faites relire ces textes générés par un linguiste natif : notre service de [post-édition de textes générés par IA](/fr/services/postedition-ia/) leur donne un ton naturel dans chaque langue. Pour savoir où l’IA rapporte en premier dans le reste de votre marketing, voyez [les usages rentables de l’IA en marketing](/fr/marketing-ia/).
 
 ## Par où commencer
 

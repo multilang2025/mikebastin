@@ -1,5 +1,5 @@
 ---
-words: 1877
+words: 1986
 title: "SEO en Alemania: buenas prácticas y tendencias"
 slug: "seo-en-alemania"
 locale: "es"
@@ -121,11 +121,11 @@ Tu título y tu descripción son el primer alemán que lee el comprador en los r
 
 Construye los títulos alrededor de las palabras clave alemanas que has investigado, y las descripciones de modo que el buscador local sepa con claridad qué va a encontrar.
 
-La estructura del sitio pesa lo mismo. El usuario alemán aprecia un sitio bien ordenado, y los buscadores premian el que se recorre con facilidad. Un enlazado interno limpio y una arquitectura lógica permiten a ambos encontrar tu contenido y llegar a él.
+La estructura del sitio pesa lo mismo. El usuario alemán aprecia un sitio bien ordenado, y los buscadores premian el que se recorre con facilidad. Un [enlazado interno limpio](/es/herramientas-enlazado-interno/) y una arquitectura lógica permiten a ambos encontrar tu contenido y llegar a él.
 
 ## SEO técnico para los mercados de habla alemana
 
-Con la base técnica bien hecha, cada comprador ve su versión: la página austriaca en Austria, la alemana en Alemania, y enlaces que siguen limpios cuando el comprador los reenvía a un compañero.
+Con la base técnica bien hecha, cada comprador ve su versión: la página austriaca en Austria, la alemana en Alemania, y enlaces que siguen limpios cuando el comprador los reenvía a un compañero. Nuestra guía de [SEO técnico para webs en alemán](/es/seo-tecnico-alemania/) repasa cada ajuste con ejemplos.
 
 ### Direcciones URL para webs en alemán
 

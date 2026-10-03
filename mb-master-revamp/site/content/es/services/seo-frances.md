@@ -1,5 +1,5 @@
 ---
-words: 1100
+words: 1138
 title: "SEO en Francia para empresas españolas que venden allí"
 name: "SEO en Francia"
 slug: "seo-frances"
@@ -14,7 +14,7 @@ excerpt: "Tu web en francés ya recibe visitas. Escribimos tus páginas directam
 ---
 ## Tu web en francés puede ser tu mercado de exportación más rentable
 
-Ya vendes en Francia y tu web en francés recibe visitas. Con frecuencia esas páginas siguen en su primera traducción del español. El siguiente paso es escribirlas para el comprador francés que compara proveedores: lee tres o cuatro sitios, se queda con dos y escribe al que suena como un proveedor de allí.
+Ya vendes en Francia y tu web en francés recibe visitas. Con frecuencia esas páginas siguen en su primera traducción del español. Si partes de textos en inglés, nuestra guía sobre la [traducción de inglés a francés](/es/traduccion-ingles-frances/) te dice qué pedir a tu proveedor. El siguiente paso es escribirlas para el comprador francés que compara proveedores: lee tres o cuatro sitios, se queda con dos y escribe al que suena como un proveedor de allí.
 
 El comprador francés distingue en la primera frase si una página se pensó en Francia: la palabra que elegiría un redactor francés, el tratamiento adecuado, un ejemplo que le resulta familiar. Francia es el mayor mercado francófono de Europa, y una web que suena local llega a la mayor parte del público para el que se construyó.
 
@@ -64,4 +64,4 @@ Empezamos con una consulta gratuita sobre tu empresa, tus compradores y tus merc
 
 A continuación escribimos o reescribimos las páginas que más pesan. Cada mes, un informe sigue las solicitudes que llegan desde el mercado francófono, separadas de tus otros mercados. Recibes por escrito el alcance del primer trimestre y respondemos, por lo general, en un día laborable. La colaboración continúa mes a mes.
 
-La redacción se presupuesta aparte, como un encargo. Si añades campañas con nuestra [publicidad multilingüe](/es/services/publicidad-multilingue/), todo tu presupuesto de medios se destina a anuncios y va directo a Google, Microsoft o Meta, y la gestión es una tarifa aparte. Para el conjunto de idiomas de tu programa, mira el [posicionamiento multilingüe](/es/services/posicionamiento-multilingue/).
+La redacción se presupuesta aparte, como un encargo. Si añades campañas con nuestra [publicidad multilingüe](/es/services/publicidad-multilingue/), todo tu presupuesto de medios se destina a anuncios y va directo a Google, Microsoft o Meta, y la gestión es una tarifa aparte. Nuestra guía de [Google Ads para Francia](/es/campanas-google-ads-francia/) muestra cómo construir esas campañas para el comprador francés. Para el conjunto de idiomas de tu programa, mira el [posicionamiento multilingüe](/es/services/posicionamiento-multilingue/).

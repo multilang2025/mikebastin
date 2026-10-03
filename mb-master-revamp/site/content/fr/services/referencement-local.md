@@ -1,5 +1,5 @@
 ---
-words: 1174
+words: 1227
 title: "Référencement local et SEO local pour être trouvé dans chaque ville où vous vendez"
 name: "Référencement local"
 metaTitle: "Référencement local, agence SEO local ville par ville"
@@ -18,7 +18,7 @@ excerpt: "Soyez l’entreprise que vos clients trouvent en premier sur la carte,
 
 Vous servez plusieurs villes : celles autour de votre siège, et peut-être Bruxelles, Barcelone ou Rotterdam, où vous avez une agence, un dépôt ou des clients réguliers. Dans chacune, un acheteur qui cherche votre service regarde la carte de Google et décide là : il compare les avis des trois entreprises affichées et appelle l’une d’elles. La demande se gagne dans ces trois places, et c’est là que nous visons.
 
-Dans une ville qui cherche en deux langues, une présence dans les deux langues touche les deux publics à la fois : en français et en néerlandais à Bruxelles, en espagnol et en anglais à Valencia.
+Dans une ville qui cherche en deux langues, une présence dans les deux langues touche les deux publics à la fois : en français et en néerlandais à Bruxelles, en espagnol et en anglais à Valencia. Notre guide du [référencement local à Valencia](/fr/referencement-local-valencia/) montre comment y ajouter le français, quartier par quartier.
 
 Le résultat se construit progressivement, appel après appel, et s’additionne mois après mois. C’est pourquoi nous le mesurons ville par ville, pour que vous voyiez ce que chaque adresse vous rapporte.
 
@@ -62,7 +62,7 @@ Une part croissante des questions « quel est le meilleur X à Lyon » passe p
 
 Google lit vos coordonnées à des dizaines d’endroits, et quand elles concordent, il leur fait confiance partout. Le travail commence par un audit des citations existantes : nous corrigeons les écarts, supprimons les doublons et ajoutons les sources locales qui comptent, comme la chambre de commerce, l’association professionnelle et l’annuaire que votre métier consulte réellement. C’est souvent cette correction qui fait apparaître sur la carte une entreprise dont les pages sont déjà bonnes.
 
-Une page par quartier ou par ville fonctionne quand chacune dit quelque chose de vrai sur ce lieu, bien au-delà d’un nom de ville remplacé. Elle porte le balisage LocalBusiness avec le bon sous-type : LegalService pour un cabinet d’avocats, FreightForwarder pour un transitaire. Des liens internes depuis les pages de service principales la rendent facile à trouver. Sur un site multilingue, les balises hreflang relient la page de Bruxelles en français à sa version néerlandaise, pour que chaque visiteur arrive dans sa langue ; notre [référencement multilingue](/fr/services/referencement-multilingue/) couvre cette structure en détail.
+Une page par quartier ou par ville fonctionne quand chacune dit quelque chose de vrai sur ce lieu, bien au-delà d’un nom de ville remplacé. Elle porte le balisage LocalBusiness avec le bon sous-type : LegalService pour un cabinet d’avocats, FreightForwarder pour un transitaire. Notre article sur le [SEO pour cabinets d’avocats](/fr/seo-cabinets-avocats/) applique cette méthode à un cabinet qui reçoit des clients en plusieurs langues. Des liens internes depuis les pages de service principales la rendent facile à trouver. Sur un site multilingue, les balises hreflang relient la page de Bruxelles en français à sa version néerlandaise, pour que chaque visiteur arrive dans sa langue ; notre [référencement multilingue](/fr/services/referencement-multilingue/) couvre cette structure en détail.
 
 Les avis viennent d’un processus : une demande envoyée après la prestation, par e-mail ou par un QR code sur le reçu. Chaque avis reçoit une réponse, les critiques comprises, car la réponse est lue par tous les clients suivants. Préparez la réponse à un avis critique avant qu’il arrive : bien traité, il inspire plus confiance qu’une colonne de cinq étoiles.
 

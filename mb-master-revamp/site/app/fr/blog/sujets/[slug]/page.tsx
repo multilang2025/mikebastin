@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const topic = localeTopic("fr", slug);
   if (!topic) return {};
   return pageMeta({
-    title: topic.heading.length <= 60 ? topic.heading : topic.name,
+    title: topic.metaTitle ?? (topic.heading.length <= 60 ? topic.heading : topic.name),
     description: topic.blurb,
     path: topicPath("fr", topic.slug),
     ogLocale: "fr_FR",

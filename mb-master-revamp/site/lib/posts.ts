@@ -446,6 +446,27 @@ const TOPIC_BLURB: Record<string, string> = {
     "Wider marketing and business writing, for the decisions made around a site.",
 };
 
+/**
+ * Meta descriptions for the topic pages whose on-page blurb runs past 160
+ * characters, or is too short to sell the page in a search result.
+ */
+const TOPIC_META: Record<string, string> = {
+  "Multilingual SEO":
+    "Run one site across several languages so each version adds to the others: hreflang, per-market keyword research and the decisions made before writing.",
+  "Language markets":
+    "How search behaves inside each country: volume, intent and competition read per market, with France and Belgium treated as two audiences.",
+  "SEO fundamentals":
+    "Crawling, indexation, site structure and measurement: the foundations to get right before a translation budget goes anywhere near your site.",
+  "Multilingual lead generation":
+    "Turn international visibility into enquiries and see which language produced them: tracking, attribution and reporting per market.",
+  "Business and marketing":
+    "Marketing and business writing for companies selling abroad: content strategy, networking, advertising and the decisions made around a site.",
+};
+
+export function topicMetaDescription(topic: { name: string; blurb: string }): string {
+  return TOPIC_META[topic.name] ?? topic.blurb;
+}
+
 /** URL segment for a topic page: the cluster name, lowercased and hyphenated. */
 export function topicSlug(name: string): string {
   return name

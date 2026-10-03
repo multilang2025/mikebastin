@@ -1,5 +1,5 @@
 ---
-words: 944
+words: 1193
 title: "Herramientas de IA y traducción automática para optimizar contenido multilingüe"
 metaTitle: "Herramientas de IA y traducción automática multilingüe"
 slug: "herramientas-ia-traduccion-automatica"
@@ -19,7 +19,7 @@ Si una persona revisa el resultado antes de publicarlo, cada frase fluida es ade
 
 ## Qué hace la IA en el contenido multilingüe
 
-Saber en qué destacan los motores te indica dónde dejarlos trabajar y dónde pedir una revisión a fondo. Los motores de traducción automática neuronal, como DeepL y Google Translate, y los modelos de lenguaje como ChatGPT, Gemini y Claude traducen grandes volúmenes de contenido en segundos, con un resultado mucho más fluido y atento al contexto que el de los sistemas anteriores.
+Saber en qué destacan los motores te indica dónde dejarlos trabajar y dónde pedir una revisión a fondo. Los motores de traducción automática neuronal, como DeepL y Google Translate, y los modelos de lenguaje como ChatGPT, Gemini y Claude traducen grandes volúmenes de contenido en segundos, con un resultado mucho más fluido y atento al contexto que el de los sistemas anteriores. Otros [LLM alternativos a ChatGPT](/es/llm-alternativos/) cubren tareas rutinarias a menor coste y, en algunos idiomas, traducen muy bien.
 
 También rinden en el trabajo repetitivo: cadenas de texto que se repiten, catálogos de producto y varias versiones de idioma que hay que actualizar cada vez que cambia el original.
 
@@ -116,7 +116,7 @@ Los archivos confidenciales quedan bajo tu control cuando solo entran en herrami
 
 Los modelos de traducción siguen ganando en precisión, contexto y matiz cultural. Las empresas que siguen estos avances amplían su alcance internacional, también con la [localización de interfaces de usuario](/es/services/localizacion-de-aplicaciones/), y entregan contenido de calidad a gran escala.
 
-Lo que se mantiene es el reparto de papeles: la herramienta cambia cada pocos meses, y el glosario, la guía de estilo y el revisor nativo siguen siendo tuyos. Revisa tus herramientas con regularidad y conserva esos tres activos.
+Lo que se mantiene es el reparto de papeles: la herramienta cambia cada pocos meses, y el glosario, la guía de estilo y el revisor nativo siguen siendo tuyos. Revisa tus herramientas con regularidad y conserva esos tres activos. Para el día a día de tu revisor, nuestras [extensiones de Chrome para traductores](/es/extensiones-chrome-traductores/) agilizan los borradores y la consulta de terminología.
 
 ## Dónde se encuentran la IA y la experiencia humana
 

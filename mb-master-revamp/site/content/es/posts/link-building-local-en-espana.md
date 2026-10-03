@@ -1,5 +1,5 @@
 ---
-words: 1096
+words: 1316
 title: "Link building local en España"
 slug: "link-building-local-en-espana"
 locale: "es"
@@ -22,7 +22,7 @@ Aquí tienes lo que funciona en España: dónde están los enlaces que cuentan, 
 
 ## El link building en España va de relaciones
 
-Los editores españoles responden a propuestas en español, personales y pensadas para su sección, y los enlaces que perduran son los editoriales, ganados uno a uno. Los comprados al por mayor en dominios .es de baja calidad aportan poco y por poco tiempo.
+Los editores españoles responden a propuestas en español, personales y pensadas para su sección, y los enlaces que perduran son los editoriales, ganados uno a uno. Los comprados al por mayor en dominios .es de baja calidad aportan poco y por poco tiempo. Si valoras una plataforma de enlaces, nuestra [lista comentada de plataformas de compraventa](/es/plataformas-compraventa-enlaces/) te ayuda a quedarte con los que suman.
 
 El [link building](/es/services/seo-tecnico/) en España se parece más a unas relaciones públicas a fuego lento que a una campaña masiva de difusión. La misma lógica vale en cada mercado extranjero donde vendes: enlaces del país, ganados en su idioma.
 
@@ -54,7 +54,7 @@ Casi todo lo que nos funciona en proyectos españoles cabe en cuatro bloques, y 
 
 **Cámaras de Comercio y directorios de asociaciones.** Lento, duradero y discreto. Cada Cámara provincial tiene su directorio de miembros, y las asociaciones sectoriales (AECOC en gran consumo, ANETI en el sector lingüístico) transmiten autoridad. Piden trabajo administrativo más que difusión, y por eso hay espacio en ellas.
 
-**Patrocinios y agendas de eventos.** Apoyar o asistir a una feria del sector (DES en Málaga, eShow, FITUR para turismo, SIL Barcelona para logística) consigue una mención en la web del evento, a menudo una nota en prensa regional y, a veces, un pódcast o una entrevista. La actividad real fuera de la red alimenta enlaces genuinos.
+**Patrocinios y agendas de eventos.** Apoyar o asistir a una feria del sector (DES en Málaga, eShow, FITUR para turismo, SIL Barcelona para logística) consigue una mención en la web del evento, a menudo una nota en prensa regional y, a veces, un pódcast o una entrevista. La actividad real fuera de la red alimenta enlaces genuinos. Nuestras [estrategias de networking para profesionales](/es/arte-del-networking/) te ayudan a preparar cada encuentro y a hacer el seguimiento.
 
 | Táctica | Esfuerzo | Autoridad típica del sitio | Lo que consigues |
 |---|---|---|---|

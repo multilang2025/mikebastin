@@ -1,5 +1,5 @@
 ---
-words: 2629
+words: 2529
 title: "Cartographie de l’intention de recherche : une page pour chaque demande"
 metaTitle: "Cartographie de l’intention de recherche : le guide"
 slug: "cartographie-intention-de-recherche"
@@ -71,7 +71,7 @@ Examinez les premiers résultats de chaque mot-clé cible, car la première page
 Étudiez le format, la profondeur et l’angle des pages déjà positionnées pour repérer l’intention dominante.
 
 **Classer chaque mot-clé par type d’intention.**  
-Regroupez les mots-clés en quatre ensembles et associez chacun à un format : des guides pour les requêtes informationnelles, des comparatifs pour les requêtes commerciales, des pages d’atterrissage pour les requêtes transactionnelles.
+Regroupez les mots-clés en quatre ensembles et associez chacun à un format : des guides pour les requêtes informationnelles, des comparatifs pour les requêtes commerciales, des pages d’atterrissage pour les requêtes transactionnelles. Quand vos comparatifs recommandent des outils, notre sélection de [programmes d’affiliation rémunérateurs](/fr/programmes-affiliation/) leur ajoute un revenu.
 
 **Aligner ou créer le contenu.**  
 Auditez les pages existantes au regard de la carte. Là où une page manque, créez-la ; là où une page répond à une autre intention que celle de la requête, restructurez-la.
@@ -157,7 +157,7 @@ Repérez les langues et les régions prioritaires d’après l’opportunité co
 Associez des locuteurs natifs et des outils d’IA pour analyser les comportements de recherche de chaque marché. Semrush, Ahrefs et Sistrix proposent des bases de mots-clés par pays, et Semrush comme Ahrefs y ajoutent une classification de l’intention.
 
 **Associer les types de contenu à l’intention.**  
-Les requêtes informationnelles appellent des guides, les requêtes commerciales des comparatifs et des études de cas, les requêtes transactionnelles des pages d’atterrissage avec des appels à l’action clairs.
+Les requêtes informationnelles appellent des guides, les requêtes commerciales des comparatifs et des études de cas, les requêtes transactionnelles des pages d’atterrissage avec des appels à l’action clairs. Nos [idées d’articles de blog](/fr/idees-articles-de-blog/), classées par étape d’achat, vous donnent quinze sujets prêts à planifier.
 
 **Soigner le [SEO technique](/fr/seo-technique-site-multilingue/).**  
 Les balises hreflang, les structures d’URL et les balises canoniques soutiennent le contenu multilingue, avec une exploration propre et des versions de langue bien distinctes.

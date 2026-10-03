@@ -1,5 +1,5 @@
 ---
-words: 926
+words: 955
 title: "Optimización para sistemas de IA: más allá del seguimiento de prompts"
 metaTitle: "Optimización para sistemas de IA: más allá de los prompts"
 slug: "optimizacion-para-sistemas-de-ia"
@@ -49,7 +49,7 @@ Aquí también ves **cómo influyen la memoria y el contexto en las respuestas d
 
 ## Paso 3: construir visibilidad más allá de tu sitio web
 
-Los modelos de lenguaje toman sus referencias de toda la web, así que tu presencia fuera de tu sitio pesa tanto como tus páginas. La visibilidad depende de aparecer en las fuentes que consultan cuando generan respuestas: medios del sector, directorios profesionales, plataformas como LinkedIn y publicaciones de terceros.
+Los modelos de lenguaje toman sus referencias de toda la web, así que tu presencia fuera de tu sitio pesa tanto como tus páginas. La visibilidad depende de aparecer en las fuentes que consultan cuando generan respuestas: medios del sector, directorios profesionales, plataformas como LinkedIn y publicaciones de terceros. Una red de contactos cuidada te abre muchas de esas puertas, y nuestra guía sobre [el arte del networking](/es/arte-del-networking/) te ayuda a construirla.
 
 Entender **cómo aparecer en las fuentes de referencia de ChatGPT** implica trabajar una presencia coherente en todos esos entornos, y [nuestros servicios](/es/services/) cubren esa presencia mercado por mercado. Las plataformas profesionales y los contenidos republicados influyen en esta percepción, y un dominio con mucha autoridad en un tema, como LinkedIn, puede dar visibilidad a un contenido que en un sitio pequeño pasaría desapercibido.
 

@@ -1,5 +1,5 @@
 ---
-words: 2116
+words: 2222
 title: "Análisis competitivo SEO: cómo convertir el análisis de la competencia en un plan"
 metaTitle: "Análisis competitivo SEO convertido en un plan de acción"
 slug: "analisis-competitivo-seo"
@@ -121,7 +121,7 @@ Para la parte técnica, Screaming Frog compara la arquitectura de los sitios, y 
 
 Cada mercado al que vendes tiene su propio conjunto de competidores, y por eso el análisis se repite una vez por idioma. Hacerlo así te da un encargo de contenido y un plan de enlaces que funcionan en ese país.
 
-El despacho de Valencia que mencionamos trabaja en cuatro idiomas: español, francés, inglés y ruso. En español compite con despachos nacionales de familia y herencias. En francés, con quienes atienden a los franceses residentes en la Costa Blanca. En inglés, con quienes atienden a la comunidad anglófona en herencias, NIE y compraventas. El ruso tiene su propio conjunto.
+El despacho de Valencia que mencionamos trabaja en cuatro idiomas: español, francés, inglés y ruso. En español compite con despachos nacionales de familia y herencias. En francés, con quienes atienden a los franceses residentes en la Costa Blanca. En inglés, con quienes atienden a la comunidad anglófona en herencias, NIE y compraventas. El ruso tiene su propio conjunto. Nuestra guía de [SEO para despachos de abogados](/es/seo-despachos-de-abogados/) cuenta cómo un despacho así atrae clientes en cada idioma.
 
 Cuatro listas de competidores, cuatro encargos de contenido y cuatro estrategias de enlaces. Para tu empresa ocurre lo mismo con Francia, Bélgica o Alemania: el rival que te supera en París puede ser desconocido en Amberes. Y en mercados locales, como el de [Bemelman](https://bemelmanspuiterij.nl/), un especialista neerlandés en pintura en polvo, los rivales que cuentan son los de su zona. Para la visión completa, mira nuestras [buenas prácticas de SEO multilingüe](/es/buenas-practicas-seo-multilingue/).
 

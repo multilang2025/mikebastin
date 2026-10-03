@@ -1,5 +1,5 @@
 ---
-words: 1705
+words: 1876
 title: "Stratégie search everywhere : soyez visible là où vos acheteurs cherchent"
 metaTitle: "Stratégie search everywhere : soyez visible partout"
 slug: "strategie-search-everywhere"
@@ -56,9 +56,9 @@ Les IA reprennent ce qui paraît crédible. Employez des tableaux, des listes et
 
 ## Les réseaux sociaux, moteurs de recherche verticaux
 
-Si vos acheteurs cherchent sur LinkedIn ou YouTube avant Google, votre profil y est la première impression que vous leur donnez : soignez-le. LinkedIn est devenu un moteur de recherche B2B de premier plan : placez les mots-clés de votre secteur dans votre profil pour apparaître dans ses recherches internes. TikTok et YouTube répondent de leur côté aux requêtes pratiques, surtout sur des sujets complexes comme la conformité au règlement européen sur la déforestation (EUDR) ou les démonstrations de logiciels SaaS.
+Si vos acheteurs cherchent sur LinkedIn ou YouTube avant Google, votre profil y est la première impression que vous leur donnez : soignez-le. Notre guide pour [rédiger votre parcours professionnel](/fr/rediger-parcours-professionnel/) vous aide à présenter le vôtre. LinkedIn est devenu un moteur de recherche B2B de premier plan : placez les mots-clés de votre secteur dans votre profil pour apparaître dans ses recherches internes. TikTok et YouTube répondent de leur côté aux requêtes pratiques, surtout sur des sujets complexes comme la conformité au règlement européen sur la déforestation (EUDR) ou les démonstrations de logiciels SaaS.
 
-Hashtags, légendes et texte à l’écran y jouent le rôle de métadonnées. Une présence régulière sur ces plateformes construit une autorité bien réelle, que les modèles d’IA prennent en compte pour juger votre crédibilité.
+Hashtags, légendes et texte à l’écran y jouent le rôle de métadonnées. Une présence régulière sur ces plateformes construit une autorité bien réelle, que les modèles d’IA prennent en compte pour juger votre crédibilité. Pour garder le lien avec l’audience que vous y construisez, la vision de [Jean Marie Cordaro sur l’économie des créateurs](/fr/economie-des-createurs/) montre comment posséder cette relation.
 
 ### Optimiser les plateformes B2B verticales
 

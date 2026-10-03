@@ -1,5 +1,5 @@
 ---
-words: 2805
+words: 2575
 title: "Avenir du SEO : IA, GEO et ce qui donne des résultats"
 slug: "avenir-du-seo"
 locale: "fr"
@@ -73,7 +73,7 @@ Une page signée par un expert identifié inspire davantage confiance à Google 
 > La mise à jour du 11 septembre 2025 des consignes aux évaluateurs a précisé la catégorie YMYL « Government, Civics and Society », qui couvre désormais explicitement les informations électorales et la confiance dans les institutions publiques, et a ajouté des exemples d’évaluation des AI Overviews.
 > Source : [Search Engine Land, septembre 2025](https://searchengineland.com/google-updates-search-quality-raters-guidelines-adding-ai-overview-examples-ymyl-definitions-461908)
 
-Google évalue l’E-E-A-T par des signaux indirects : réputation du domaine, paternité clairement indiquée, qualité des sources et balisage des auteurs. Les sites qui présentent des biographies d’auteurs détaillées, des études de cas publiées, des sources récentes et un balisage Person et Organization gagnent du terrain.
+Google évalue l’E-E-A-T par des signaux indirects : réputation du domaine, paternité clairement indiquée, qualité des sources et balisage des auteurs. Les sites qui présentent des biographies d’auteurs détaillées, des études de cas publiées, des sources récentes et un balisage Person et Organization gagnent du terrain. Notre retour d’expérience [EEAT ou AEAT](/fr/eeat-ou-aeat/) applique ces signaux au site d’un cabinet d’avocats espagnol.
 
 ## Travailler avec le zéro clic comme situation normale
 
@@ -130,7 +130,7 @@ CSA Research publie de longue date sur ce sujet, par exemple sur [l’avantage d
 
 ## Contenu et SEO forment une seule discipline
 
-Un contenu mérite son budget quand il répond à une intention de recherche, bâtit une autorité thématique ou soutient une conversion. Organisé en clusters (une page pilier soutenue par des pages liées), il prend de la valeur avec le temps. Mesurez le contenu en contacts qualifiés, et élaguez ou fusionnez chaque trimestre les pages les plus faibles.
+Un contenu mérite son budget quand il répond à une intention de recherche, bâtit une autorité thématique ou soutient une conversion. Organisé en clusters (une page pilier soutenue par des pages liées), il prend de la valeur avec le temps. Mesurez le contenu en contacts qualifiés, et élaguez ou fusionnez chaque trimestre les pages les plus faibles. Notre méthode pour [créer une stratégie de contenu ciblée](/fr/strategie-de-contenu-ciblee/) organise ce travail en sept étapes.
 
 ## Les pratiques propres protègent vos positions
 

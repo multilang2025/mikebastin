@@ -1,5 +1,5 @@
 ---
-words: 1318
+words: 1434
 title: "Crear una marca global: qué viaja y qué se adapta"
 slug: "crear-una-marca-global"
 locale: "es"
@@ -67,7 +67,7 @@ Los medios de pago son el ejemplo más claro. Bizum convence a tu comprador espa
 
 ## Lo que pide cada mercado al que exportas
 
-Si vendes desde España, estos son los ajustes que más a menudo marcan la diferencia en los mercados del norte de Europa:
+Para decidir a qué mercados ir primero, repasa nuestras [tendencias globales de negocio](/es/tendencias-globales-negocio/). Si vendes desde España, estos son los ajustes que más a menudo marcan la diferencia en los mercados del norte de Europa:
 
 | Mercado | Registro | Lo que busca pronto | Señal de confianza clave |
 |---|---|---|---|
@@ -108,7 +108,7 @@ Con las seis casillas marcadas, la marca ha llegado al mercado, además de cruza
 
 ## Una segunda mirada sobre tu marca global
 
-Si lanzas en dos mercados o más, revisamos contigo la distancia entre tu marca estratégica y lo que ve cada mercado.
+Si lanzas en dos mercados o más, revisamos contigo la distancia entre tu marca estratégica y lo que ve cada mercado. Cuando la marca necesita además un plan que conecte todos sus canales, una [agencia de marketing 360](/es/agencia-marketing-360/) lo coordina mercado por mercado.
 
 Trabajamos con fluidez en español, francés, inglés y neerlandés, y nuestro alemán y nuestro italiano son suficientes para gestionar proyectos SEO en esos idiomas; los textos comerciales los escriben redactores nativos. Buena parte de lo que hacemos para nuestros clientes está en la unión entre la voz de marca y el rendimiento SEO, donde acertar se traduce en ingresos reales.
 

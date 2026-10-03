@@ -1,5 +1,5 @@
 ---
-words: 822
+words: 888
 title: "Localisation juridique et réglementaire d’un site qui vend dans plusieurs pays"
 name: "Localisation juridique"
 metaTitle: "Localisation juridique et réglementaire, Mike Bastin"
@@ -42,7 +42,7 @@ La traduction passe par le réseau BeTranslated, l’agence de traduction que no
 
 ## Un site juridique qui travaille dans deux systèmes
 
-Delaguía y Luzón est un cabinet d’avocats de Valencia dont l’activité couvre l’Espagne et la France, en quatre langues dont le russe. Un même contenu doit parfois tenir dans deux systèmes juridiques à la fois. Son site, qui porte ces contenus juridiques traduits, a obtenu 38 476 clics pour 2 399 567 impressions Google entre mai et juillet 2026, avec une position moyenne de 9,4.
+Delaguía y Luzón est un cabinet d’avocats de Valencia dont l’activité couvre l’Espagne et la France, en quatre langues dont le russe. Un même contenu doit parfois tenir dans deux systèmes juridiques à la fois. Son site, qui porte ces contenus juridiques traduits, a obtenu 38 476 clics pour 2 399 567 impressions Google entre mai et juillet 2026, avec une position moyenne de 9,4. Notre article sur le [SEO pour cabinets d’avocats](/fr/seo-cabinets-avocats/) montre comment un cabinet attire ainsi des clients dans chaque langue.
 
 > Source : Google Search Console de delaguialuzon.com, mai à juillet 2026.
 

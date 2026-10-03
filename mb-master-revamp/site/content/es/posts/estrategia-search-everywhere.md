@@ -1,5 +1,5 @@
 ---
-words: 1713
+words: 1844
 title: "Estrategia search everywhere para aparecer en cada buscador"
 slug: "estrategia-search-everywhere"
 locale: "es"
@@ -55,7 +55,7 @@ La IA prioriza la credibilidad. Usa tablas, listas y datos explícitos, en lengu
 
 ## Las redes sociales como buscadores verticales
 
-Si tus compradores buscan en LinkedIn o YouTube antes que en Google, tu perfil ahí es la primera impresión que les das, así que cuídalo al detalle. LinkedIn funciona como un buscador B2B de primer orden: optimiza tu perfil con palabras clave del sector para aparecer en sus búsquedas internas. TikTok y YouTube resuelven consultas de tipo «cómo hacer», también en temas complejos como el cumplimiento del reglamento europeo contra la deforestación (EUDR) o las demostraciones de software.
+Si tus compradores buscan en LinkedIn o YouTube antes que en Google, tu perfil ahí es la primera impresión que les das, así que cuídalo al detalle. Nuestra guía para [redactar tu trayectoria profesional](/es/redactar-trayectoria-profesional/) te ayuda a escribir ese perfil. LinkedIn funciona como un buscador B2B de primer orden: optimiza tu perfil con palabras clave del sector para aparecer en sus búsquedas internas. TikTok y YouTube resuelven consultas de tipo «cómo hacer», también en temas complejos como el cumplimiento del reglamento europeo contra la deforestación (EUDR) o las demostraciones de software.
 
 Los hashtags, las descripciones y el texto en pantalla funcionan como metadatos. Una presencia constante aquí construye autoridad real, una señal que los sistemas de IA usan para valorar tu credibilidad.
 
@@ -93,7 +93,7 @@ Nuestra regla de trabajo: los datos explícitos se recogen con más fiabilidad q
 
 ## Una estrategia de búsqueda unificada
 
-Gestionar todas las superficies desde un único marco reduce el coste y mantiene coherentes tus datos, y esa coherencia es la que da a los sistemas de IA la confianza para citarte. Integra SEO, GEO, redes sociales y localización en un solo plan. Reutiliza una pieza de investigación en un carrusel de LinkedIn, un short de YouTube y una sección de preguntas frecuentes en tu web, y multiplicas su retorno.
+Gestionar todas las superficies desde un único marco reduce el coste y mantiene coherentes tus datos, y esa coherencia es la que da a los sistemas de IA la confianza para citarte. Integra SEO, GEO, redes sociales y localización en un solo plan. Para que la relación con tu audiencia siga siendo tuya, mira por qué Jean Marie Cordaro defiende una [economía de los creadores más humana](/es/economia-de-los-creadores/). Reutiliza una pieza de investigación en un carrusel de LinkedIn, un short de YouTube y una sección de preguntas frecuentes en tu web, y multiplicas su retorno.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 135" role="img" aria-label="Una pieza de investigación alimenta tres superficies: un carrusel de LinkedIn, un short de YouTube y schema FAQ en tu web.">

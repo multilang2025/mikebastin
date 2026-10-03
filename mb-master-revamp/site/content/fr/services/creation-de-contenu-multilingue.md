@@ -1,5 +1,5 @@
 ---
-words: 754
+words: 741
 title: "Création de contenu multilingue"
 name: "Contenu multilingue"
 slug: "creation-de-contenu-multilingue"
@@ -39,7 +39,7 @@ Ce travail prolonge notre [référencement multilingue](/fr/services/referenceme
 
 Un ensemble de pages thématiques qui fonctionne en français reflète la manière dont les francophones découpent un sujet. Une autre langue le découpe souvent autrement : elle scinde l’un de vos thèmes en deux, ou en fusionne deux qu’elle traite comme un seul sujet.
 
-Construire l’ensemble à partir des requêtes de la langue cible donne des pages que ce marché cherche, reliées entre elles comme ses acheteurs cherchent. La démarche prend plus de temps, et c’est la version qui se positionne.
+Construire l’ensemble à partir des requêtes de la langue cible donne des pages que ce marché cherche, reliées entre elles comme ses acheteurs cherchent. La démarche prend plus de temps, et c’est la version qui se positionne. Les sept étapes d’une [stratégie de contenu ciblée](/fr/strategie-de-contenu-ciblee/) vous montrent comment partir de ce que vos acheteurs recherchent.
 
 ## Une expertise visible dans chaque langue
 

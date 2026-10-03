@@ -10,16 +10,16 @@ wpId: null
 date: "2026-10-03"
 modified: "2026-10-03"
 sourceUrl: null
-excerpt: "Presenta tu trayectoria en marketing digital para que los primeros segundos de lectura te vendan, en tu currículum, en LinkedIn o en la web de tu empresa."
+excerpt: "Redacta tu trayectoria profesional en marketing digital para que los primeros segundos de lectura te vendan, en tu currículum, LinkedIn o tu web."
 ---
 
 Un cliente que duda entre dos agencias, o una responsable de selección con cuarenta currículums sobre la mesa, le dedica unos segundos a tu trayectoria profesional. Abre esos segundos con resultados y consigues la reunión gracias a tu experiencia. En marketing digital, donde todo el mundo presume de las mismas herramientas, la forma de presentar tu experiencia decide quién recibe la llamada.
 
-Aquí tienes cómo redactar tu trayectoria para ganar esa llamada, ya esté en un currículum, en un perfil de LinkedIn o en la web de tu empresa. Cuando los ejemplos incluyen un porcentaje, aparece como [X]: sustitúyelo por tu propio resultado medido.
+Los consejos que siguen sirven para un currículum, un perfil de LinkedIn o la web de tu empresa. En los ejemplos, [X] ocupa el lugar de un porcentaje: pon ahí tu propio resultado medido.
 
-## Entender a tu lector
+## Escribir para quien decide
 
-Cada lector busca algo distinto, así que un cliente y un empleador necesitan que tu trayectoria empiece por cosas diferentes. Escribe una versión para cada uno y encajará con cada uno.
+Un cliente y un empleador necesitan que tu trayectoria empiece por cosas diferentes: escribe una versión para cada uno.
 
 ### Adaptar el contenido a cada soporte
 
@@ -58,10 +58,10 @@ Quien selecciona personal lee los currículums en diagonal, así que cada línea
 
 ### Identificar lo que busca tu lector
 
-Quien contrata en [marketing digital](/es/services/posicionamiento-multilingue/) busca cuatro cosas, y una trayectoria que muestra las cuatro en la primera pantalla se lee hasta el final:
+Quien contrata en marketing digital busca cuatro cosas, y una trayectoria que muestra las cuatro en la primera pantalla se lee hasta el final:
 
 -   **Experiencia en SEO, marketing en redes sociales y marketing de contenidos**: nombra tus especialidades y los resultados que lograste en ellas.
--   **Habilidades técnicas**: nombra las herramientas que dominas, como [Google Analytics](/es/alternativas-a-google-analytics/), HubSpot o Semrush.
+-   **Habilidades técnicas**: nombra las herramientas que dominas, como Google Analytics (o alguna de las [alternativas a Google Analytics](/es/alternativas-a-google-analytics/)), HubSpot o Semrush.
 -   **Certificaciones**: las certificaciones del sector te dan ventaja y demuestran que sigues formándote, así que colócalas donde se vean.
 -   **Resultados medibles**: el marketing digital se juzga por resultados, así que enseña los tuyos, como el crecimiento del tráfico web, las tasas de conversión o la interacción.
 
@@ -72,7 +72,7 @@ Muchos lectores se quedan en tu resumen, así que tiene que vender por sí solo.
 Empieza por tu puesto y tu punto fuerte. Cambia las fórmulas genéricas como «trabajador» o «detallista» por lo que te diferencia.
 
 Ejemplo:  
-«Estratega de marketing digital con más de 10 años de experiencia ayudando a empresas a ganar visibilidad online mediante estrategias de SEO y de [contenido](/es/crear-una-marca-global/) basadas en datos.»
+«Estratega de marketing digital con más de 10 años de experiencia ayudando a empresas a ganar visibilidad online mediante estrategias de SEO y de contenido basadas en datos.»
 
 Una frase da tu especialidad, tu nivel y el valor que aportas. Después añade un resultado, porque un número es lo que hace que el lector se crea el resto.
 
@@ -81,7 +81,7 @@ Ejemplo:
 
 ## Detallar tu experiencia laboral
 
-Tu historial laboral es donde el lector comprueba si el resumen decía la verdad. Un historial claro y orientado a resultados lo confirma.
+Tu historial laboral es donde el lector comprueba si el resumen decía la verdad.
 
 ### Estructurar tu historial
 
@@ -117,11 +117,11 @@ Ejemplo: «Certificado en Google Analytics, HubSpot Content Marketing y Semrush 
 
 ## Poner en valor tus habilidades y tu experiencia
 
-Una lista breve de habilidades alineada con el puesto se lee como encaje.
+Una lista breve de habilidades calcada del puesto demuestra de entrada que encajas en el perfil.
 
-Las [habilidades técnicas como el SEO](/es/lista-de-auditoria-seo-tecnica/), la publicidad de pago (PPC) y la analítica tienen mucha demanda. Las habilidades blandas como la creatividad, la comunicación y la gestión de proyectos cuentan igual, porque el trabajo de marketing pasa por varios equipos. Incluye una mezcla de:
+Las habilidades técnicas como el SEO (saber aplicar una [lista de auditoría de SEO técnico](/es/lista-de-auditoria-seo-tecnica/), por ejemplo), la publicidad de pago (PPC) y la analítica tienen mucha demanda. Las habilidades blandas como la creatividad, la comunicación y la gestión de proyectos cuentan igual, porque el trabajo de marketing pasa por varios equipos. Incluye una mezcla de:
 
--   **Habilidades técnicas**: SEO, Google Ads, [gestión de redes sociales](/es/services/redaccion-seo-multilingue/), email marketing y herramientas de analítica (Google Analytics, Ahrefs, Semrush).
+-   **Habilidades técnicas**: SEO, Google Ads, gestión de redes sociales, email marketing y herramientas de analítica (Google Analytics, Ahrefs, Semrush).
 -   **Habilidades blandas**: trabajo en equipo, comunicación con clientes, gestión de proyectos y pensamiento estratégico.
 
 Respalda cada habilidad blanda con un momento concreto: un equipo que dirigiste, un proyecto complejo que entregaste, una solución creativa a un problema de marketing.
@@ -143,7 +143,7 @@ El contexto convierte un número en una historia que el lector puede imaginar. C
 
 Una trayectoria escrita para un puesto convence al lector de ese puesto. Adáptala a la oferta o al cliente que tienes delante, porque el marketing digital abarca puestos muy distintos.
 
-Para un puesto de marketing de contenidos, pon delante el SEO, la creación de contenido y la analítica. Para un puesto técnico como especialista SEO, empieza por el SEO técnico, la [investigación de palabras clave](/es/services/seo-tecnico/) y las auditorías web.
+Para un puesto de marketing de contenidos, pon delante el SEO, la analítica y tu capacidad para crear una [estrategia de contenido segmentada](/es/estrategia-de-contenido-segmentada/). Para un puesto de especialista SEO, empieza por el [SEO técnico de webs multilingües](/es/services/seo-tecnico/), la investigación de palabras clave y las auditorías web.
 
 -   Para un puesto centrado en contenido: «Desarrollo estrategias de contenidos orientadas al SEO, alineadas con el mensaje de marca y las necesidades del público, con una interacción un [X] % mayor.»
 -   Para un puesto de SEO técnico: «Especialista en auditorías web, investigación de palabras clave y optimización on-page, con [X] palabras clave de alta competencia llevadas a la primera página.»
@@ -153,16 +153,16 @@ Muchas habilidades se trasladan de un puesto o de un sector a otro. La gestión 
 La misma regla vale entre idiomas. Una trayectoria, o una página de servicios, convence a un comprador en París o en Múnich cuando está escrita para ese mercado y le habla en sus propios términos.
 
 <aside class="post-cta">
-<p><strong>¿Quieres que tu web se lea igual de bien en francés, inglés o neerlandés que en español?</strong> Nuestra <a href="/es/services/traduccion-de-paginas-web/">traducción y localización de páginas web</a> adapta tus páginas al mercado que las lee, con redactores nativos. <a href="/es/contactanos/">Reserva una llamada</a>.</p>
+<p><strong>¿Quieres que tu web se lea igual de bien en francés, inglés o neerlandés que en español?</strong> Nuestra <a href="/es/services/traduccion-de-paginas-web/">traducción y localización de páginas web</a> adapta tus páginas al mercado que las lee, con redactores nativos. <a href="/es/contactanos/">Pide una evaluación gratuita de localización</a>.</p>
 </aside>
 
-## Ser breve y relevante
+## Un texto breve que conserva lo esencial
 
 Los lectores con prisa leen las primeras líneas, así que pon ahí tu punto más fuerte. Las frases cortas y las listas con viñetas hacen que tu mejor material se vea.
 
-Usa palabras que el lector entienda al momento. Transmite lo importante rápido, con toda su sustancia. Quédate con los puestos y logros que sirven a tu objetivo actual, e incluye experiencia de otros ámbitos solo cuando muestre una habilidad transferible que el marketing digital valora.
+Usa palabras que el lector entienda al momento. Quédate con los puestos y logros que sirven a tu objetivo actual, e incluye experiencia de otros ámbitos solo cuando muestre una habilidad transferible que el marketing digital valora.
 
-## Revisar y pulir
+## Una revisión que protege tu credibilidad
 
 Un texto limpio protege una buena trayectoria, porque un lector que juzga tu atención al detalle se fija primero en los detalles.
 
@@ -172,4 +172,4 @@ Pasa tu texto por LanguageTool o por el corrector de Word, y después léelo tú
 
 Tanto si te presentas a un puesto como si presentas una propuesta a un cliente o actualizas tu perfil de LinkedIn, tu trayectoria profesional es una página de venta sobre ti. Trátala como tal.
 
-Conoce a tu lector, abre con un resumen claro, respalda cada afirmación con un resultado real y quédate solo con lo que sirve al lector. Después, pide a alguien de confianza que la lea antes de enviarla.
+Conoce a tu lector, abre con un resumen claro, respalda cada afirmación con un resultado real y quédate solo con lo que sirve al lector. Después, pide a alguien de confianza que la lea antes de enviarla, y apóyate en nuestras [estrategias de networking para jóvenes profesionales](/es/arte-del-networking/) para hacerla circular.

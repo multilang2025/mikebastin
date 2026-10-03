@@ -1,5 +1,5 @@
 ---
-words: 884
+words: 932
 title: "Cómo la IA transforma la traducción y la localización"
 slug: "ia-traduccion-y-localizacion"
 locale: "es"
@@ -44,7 +44,7 @@ Los catálogos amplios y los contenidos que se actualizan a menudo son el terren
 
 ### Productividad
 
-Tus mejores traductores aportan más donde hay matices. Si automatizas las cadenas de texto rutinarias, les dejas tiempo para el trabajo creativo que decide si un mercado confía en ti. La [consultoría de inteligencia artificial](/es/services/consultoria-de-inteligencia-artificial/) te ayuda a decidir qué tareas automatizar primero.
+Tus mejores traductores aportan más donde hay matices. Si automatizas las cadenas de texto rutinarias, les dejas tiempo para el trabajo creativo que decide si un mercado confía en ti. La [consultoría de inteligencia artificial](/es/services/consultoria-de-inteligencia-artificial/) te ayuda a decidir qué tareas automatizar primero, y unas buenas [extensiones de Chrome para traductores](/es/extensiones-chrome-traductores/) les ahorran tiempo en cada borrador.
 
 ## Retos y cómo gestionarlos
 
@@ -77,7 +77,7 @@ Las empresas que consiguen el ahorro y mantienen la calidad reparten el trabajo 
 - **Dale tu terminología a la máquina.** Carga glosarios y ejemplos de tu marca en las herramientas que los admiten.
 - **Da prioridad al control de calidad.** Revisa cada página antes de publicarla.
 - **Cuida tus datos lingüísticos.** Mantén al día las memorias de traducción y los glosarios, para que cada idioma use los mismos términos.
-- **Revisa tus herramientas con regularidad.** Los modelos cambian deprisa, y lo que hoy es la mejor opción para el alemán puede cambiar en unos meses.
+- **Revisa tus herramientas con regularidad.** Los modelos cambian deprisa, y lo que hoy es la mejor opción para el alemán puede cambiar en unos meses. Nuestra guía de [LLM alternativos a ChatGPT](/es/llm-alternativos/) te ayuda a comparar opciones.
 
 ## Por dónde empezar
 

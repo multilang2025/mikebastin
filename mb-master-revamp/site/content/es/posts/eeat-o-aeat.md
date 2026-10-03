@@ -10,14 +10,12 @@ wpId: null
 date: "2026-10-03"
 modified: "2026-10-03"
 sourceUrl: null
-excerpt: "EEAT o AEAT: una letra separa la prueba de confianza de Google de Hacienda. Una anécdota real del SEO en España y la lección de precisión que deja."
+excerpt: "EEAT o AEAT: una letra separa la prueba de confianza de Google de Hacienda. Una anécdota del SEO en España y las comprobaciones que te deja."
 ---
 
 Si tu empresa factura en España y vende fuera, dos siglas separadas por una sola letra deciden cómo te va el año. EEAT decide si Google confía en tu web. AEAT decide si Hacienda confía en tus cuentas. Mantenlas bien separadas en una propuesta comercial y prometerás la auditoría correcta.
 
 La confusión llega rápido. Estábamos optimizando el E-E-A-T de un bufete de abogados de Valencia, con las directrices de calidad de Google en una mitad de la pantalla, contenido jurídico en español lleno de terminología tributaria en la otra, y la documentación de la AEAT abierta en una tercera ventana. En algún momento, el cerebro deja de ver letras y solo ve amenazas.
-
-A continuación: una chuleta en una tabla, la errata a cámara lenta y la lección seria que hay debajo del chiste.
 
 ## Dos jueces, una letra de diferencia
 
@@ -31,7 +29,7 @@ A continuación: una chuleta en una tabla, la errata a cámara lenta y la lecci�
 
 ## EEAT, el juez de Google
 
-Para un bufete, el EEAT decide si Google te muestra a un cliente potencial. El contenido jurídico es territorio YMYL (Your Money or Your Life), y Google lo trata como un arma cargada. Cada señal cuenta para la visibilidad. La confianza construye autoridad, y la autoridad construye posiciones.
+Para un bufete, el EEAT decide si Google te muestra a un cliente potencial. El contenido jurídico es territorio YMYL (Your Money or Your Life), y Google lo trata como un arma cargada. Cada señal cuenta para la visibilidad: la confianza construye autoridad, y la autoridad construye posiciones.
 
 Así que optimizas las biografías de los autores. Afinas el tono. Añades referencias. Refuerzas la coherencia de las entidades. Susurras alguna plegaria a los evaluadores de calidad.
 
@@ -69,7 +67,19 @@ La precisión importa en SEO. Cada referencia construye autoridad. Cada entidad 
 
 La precisión también importa ante Hacienda. Una numeración de facturas correcta mantiene lejos los requerimientos. Presentar a tiempo mantiene lejos los recargos. Un expediente completo mantiene lejos las cartas.
 
-Hacer SEO jurídico en España significa respetar a los dos jueces. Ambos premian la estructura. Solo uno acepta backlinks como moneda.
+Hacer SEO jurídico en España significa respetar a los dos jueces. Ambos premian la estructura. Solo uno acepta backlinks como moneda. Por eso cada propuesta pasa por una segunda lectura antes de salir: así la AEAT no se cuela donde tenía que ir el EEAT.
+
+## Las señales EEAT de una web jurídica en varios idiomas
+
+Detrás de la broma, la lista de comprobación es seria. En una web jurídica publicada en español y en inglés o francés, la confianza se construye página a página, y en cada idioma:
+
+- **Autores identificables.** Cada artículo lleva el nombre de un abogado del despacho, su especialidad y un enlace a su biografía, en el idioma de la página.
+- **Fuentes citadas.** Las leyes y las resoluciones se referencian con precisión, y la versión francesa remite a fuentes francesas.
+- **Fechas de revisión visibles.** Cada artículo jurídico muestra la fecha de su última actualización, para que el lector sepa que la norma citada sigue vigente.
+- **Una entidad coherente.** El nombre del despacho, su dirección y sus áreas de práctica son idénticos en todas las versiones de idioma y en los perfiles externos.
+- **Un vocabulario exacto.** Los términos jurídicos y fiscales son los que usa un lector de cada país. Nuestro artículo sobre [SEO para despachos de abogados](/es/seo-despachos-de-abogados/) detalla las páginas de especialidad que convencen a un cliente potencial en su idioma.
+
+En la parte técnica, cada versión tiene que estar indexada y enlazada con sus equivalentes. Una [lista de auditoría de SEO técnico](/es/lista-de-auditoria-seo-tecnica/) te permite revisar las etiquetas hreflang, las URL canónicas y las páginas bloqueadas antes de trabajar las señales de confianza. Y si gestionas varios mercados a la vez, nuestro [SEO multilingüe por mercado](/es/services/posicionamiento-multilingue/) coordina las palabras clave, las páginas y los enlaces de cada idioma.
 
 <aside class="post-cta">
 <p><strong>¿Publicas en español y en inglés y quieres que las dos versiones sumen?</strong> Nuestro <a href="/es/services/seo-tecnico/">SEO técnico para webs multilingües</a> detecta dónde compiten entre sí tus versiones de idioma y corrige la causa para que se sumen. <a href="/es/contactanos/">Reserva una primera llamada</a>.</p>
@@ -79,4 +89,4 @@ Hacer SEO jurídico en España significa respetar a los dos jueces. Ambos premia
 
 Si haces SEO en España, ya has vivido este momento, o lo vivirás. Así que revisa tus siglas, guarda tus documentos, duerme más y reserva la «optimización AEAT» para los correos a tu gestor.
 
-Si la historia te ha resultado dolorosamente familiar, nuestra guía de [buenas prácticas de SEO multilingüe](/es/buenas-practicas-seo-multilingue/) cubre el lado más tranquilo de trabajar entre idiomas. Pronto llegarán más historias de supervivencia SEO.
+Si la historia te ha resultado familiar, nuestra guía de [buenas prácticas de SEO multilingüe](/es/buenas-practicas-seo-multilingue/) cubre el lado más tranquilo de trabajar entre idiomas.

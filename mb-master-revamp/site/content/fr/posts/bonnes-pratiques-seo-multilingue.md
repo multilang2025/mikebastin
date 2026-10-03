@@ -88,7 +88,7 @@ Un lien venu de la presse locale ou d’une association professionnelle du pays 
 - des partenariats avec des entreprises locales ;
 - des relations presse ciblées.
 
-Gagnez chaque lien, un par un : des liens éditoriaux tiennent dans la durée et vous mettent à l’abri des pénalités qui accompagnent les liens achetés. Des liens locaux de qualité augmentent aussi la probabilité qu’une IA retienne vos contenus comme source dans ce marché.
+Gagnez chaque lien, un par un : des liens éditoriaux tiennent dans la durée et vous mettent à l’abri des pénalités qui accompagnent les liens achetés. Des liens locaux de qualité augmentent aussi la probabilité qu’une IA retienne vos contenus comme source dans ce marché. Pour comparer les offres du marché, notre [revue des plateformes d’achat et de vente de liens](/fr/plateformes-achat-vente-liens/) détaille les contrôles qui gardent un site en sécurité.
 
 ## Données structurées et clarté des entités
 

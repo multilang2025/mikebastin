@@ -1,5 +1,5 @@
 ---
-words: 1959
+words: 1975
 title: "Google Analytics à l’international : les chiffres fiables et ceux à vérifier"
 metaTitle: "Google Analytics à l’international : ce qui est fiable"
 slug: "google-analytics-international"
@@ -96,7 +96,7 @@ Gardez un changement de langue dans le même utilisateur et la même session, et
 
 ### La gestion des balises côté serveur
 
-Google Tag Manager côté serveur récupère une partie des données que les navigateurs, les bloqueurs de publicité et les restrictions de consentement filtrent, et donne davantage de maîtrise sur la conformité. Pour une entreprise internationale, il devient une pratique courante.
+Google Tag Manager côté serveur récupère une partie des données que les navigateurs, les bloqueurs de publicité et les restrictions de consentement filtrent, et donne davantage de maîtrise sur la conformité. Pour une entreprise internationale, il devient une pratique courante. Pour vérifier que vos balises se déclenchent, nos [extensions Chrome pour le SEO](/fr/extensions-chrome-seo/) incluent Tag Assistant.
 
 ### Filtrer le trafic interne et celui des partenaires
 

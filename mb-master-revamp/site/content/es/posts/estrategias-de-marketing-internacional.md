@@ -1,5 +1,5 @@
 ---
-words: 1628
+words: 1740
 title: "Estrategias de marketing internacional para pymes"
 slug: "estrategias-de-marketing-internacional"
 locale: "es"
@@ -112,7 +112,7 @@ El email es una de las formas más baratas de que tus clientes en el extranjero 
 
 **Segmentar las campañas.** Divide las listas por ubicación e idioma para que cada mercado reciba mensajes y promociones pertinentes.
 
-**Localizar el contenido.** Planifica en torno a las fiestas locales, los acontecimientos culturales y los hábitos de compra de cada país: el calendario comercial de Alemania o de los Países Bajos tiene sus propias fechas. Los mensajes personales y con referencias locales mejoran las tasas de apertura y de clic.
+**Localizar el contenido.** Planifica en torno a las fiestas locales, los acontecimientos culturales y los hábitos de compra de cada país: el calendario comercial de Alemania o de los Países Bajos tiene sus propias fechas. Los mensajes personales y con referencias locales mejoran las [tasas de apertura y de clic](/es/email-marketing-tasa-apertura-conversiones/).
 
 **Cumplir la normativa local.** Las reglas cambian de un país a otro. En la UE, el envío de comunicaciones comerciales por email exige por lo general un consentimiento claro, así que revisa la normativa de cada mercado antes de enviar.
 
@@ -142,7 +142,7 @@ Si es tu primera feria fuera, [ICEX](https://www.icex.es/) organiza pabellones e
 
 ## Afiliación: pagas por cada venta
 
-Con la afiliación pagas por venta: los profesionales del marketing locales cobran una comisión por las ventas que generan, una forma de entrar en mercados nuevos con poco desembolso. El afiliado local entiende las preferencias y los hábitos de compra de su público, y cada venta queda registrada, así que ves qué funciona en cada mercado y reorientas el esfuerzo.
+Con la afiliación pagas por venta: los profesionales del marketing locales cobran una comisión por las ventas que generan, una forma de entrar en mercados nuevos con poco desembolso. El afiliado local entiende las preferencias y los hábitos de compra de su público, y cada venta queda registrada, así que ves qué funciona en cada mercado y reorientas el esfuerzo. Si también publicas contenido, nuestra comparativa de [programas de afiliados con comisiones comprobadas](/es/programas-de-afiliados/) te muestra el modelo desde el lado del afiliado.
 
 ## Chatbots multilingües y atención al cliente
 

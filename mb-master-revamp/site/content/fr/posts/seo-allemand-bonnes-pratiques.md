@@ -1,5 +1,5 @@
 ---
-words: 1948
+words: 1969
 title: "SEO allemand : les bonnes pratiques qui transforment vos visiteurs en demandes"
 metaTitle: "SEO allemand : bonnes pratiques et tendances"
 slug: "seo-allemand-bonnes-pratiques"
@@ -135,7 +135,7 @@ Quand la base technique est bien réglée, chaque acheteur voit sa propre versio
 
 ### Structure des URL pour les sites allemands
 
-Des URL propres sont le point de départ du SEO technique sur le marché allemand. Rédigez-les en allemand, avec les mots-clés pertinents, et translittérez les caractères spéciaux : « ü » devient « ue », « ö » devient « oe », « ß » devient « ss ».
+Des URL propres sont le point de départ du SEO technique sur le marché allemand. Rédigez-les en allemand, avec les mots-clés pertinents, et translittérez les caractères spéciaux : « ü » devient « ue », « ö » devient « oe », « ß » devient « ss ». Notre guide du [SEO technique d’un site allemand](/fr/seo-technique-allemagne/) détaille ce réglage et les suivants.
 
 Ces adresses restent lisibles pour les utilisateurs et les moteurs, où qu’elles soient collées.
 

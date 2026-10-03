@@ -1,5 +1,5 @@
 ---
-words: 1353
+words: 1961
 title: "Agence SEO internationale : ce que l’équipe livre, de l’audit aux demandes"
 metaTitle: "Agence SEO internationale : ce que l’équipe livre"
 slug: "agence-seo-internationale"
@@ -13,7 +13,7 @@ sourceUrl: "https://mikebastin.com/fr/agence-seo-internationale/"
 excerpt: "Une agence SEO internationale livre l’audit, les mots-clés, les pages natives, les liens et le rapport de chaque marché. Voici ce que fait chaque métier."
 ---
 
-Vous vendez déjà dans plusieurs pays, et votre site les suit dans leurs langues. Pour que chaque version vous envoie ses propres demandes, plusieurs métiers doivent travailler ensemble : la recherche de mots-clés, la rédaction native, la technique, les liens et le suivi. Une agence SEO internationale réunit ces métiers dans une même équipe et un même plan.
+Vous vendez déjà dans plusieurs pays, et votre site les suit dans leurs langues. Pour que chaque version vous envoie ses propres demandes, plusieurs métiers doivent travailler ensemble : la recherche de mots-clés, la rédaction native, la technique, les liens et le suivi. Une agence SEO internationale réunit ces métiers dans une même équipe et un même plan. Quand ce plan doit aussi couvrir la publicité, les réseaux sociaux et l’e-mailing, une [agence marketing 360](/fr/agence-marketing-360/) relie tous ces canaux.
 
 Le gain pour vous : un seul interlocuteur pour tous vos marchés, une stratégie cohérente d’une langue à l’autre, et des chiffres que vous comparez pays par pays.
 
@@ -145,7 +145,7 @@ Le choix se fait donc sur quelques critères vérifiables, sous forme de questio
 - **Quand la structure du site est-elle décidée ?** Au début, une fois, avec vous.
 - **Quelles références dans vos marchés ?** Des sites nommés, que vous pouvez consulter.
 
-Si votre besoin tient davantage du conseil, notre article sur le rôle d’un [consultant en référencement international](/fr/consultant-referencement-international/) décrit la mission mois par mois, et celui sur l’[expert SEO international](/fr/expert-en-seo-international/) détaille les décisions prises pour chaque marché.
+Si votre besoin tient davantage du conseil, notre article sur le rôle d’un [consultant en référencement international](/fr/consultant-referencement-international/) décrit la mission mois par mois, et celui sur l’[expert SEO international](/fr/expert-en-seo-international/) détaille les décisions prises pour chaque marché. Pour un besoin qui couvre tout le marketing digital, notre comparaison [conseiller en marketing digital ou agence](/fr/conseiller-marketing-digital/) vous aide à trancher.
 
 Vous voulez parler de votre projet de référencement international ? Un premier échange de trente minutes nous suffit pour situer le potentiel de votre site sur les marchés francophones, anglophones ou hispanophones, et vous décidez ensuite librement de la suite.
 

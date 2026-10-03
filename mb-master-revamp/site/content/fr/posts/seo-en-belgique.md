@@ -1,5 +1,5 @@
 ---
-words: 2659
+words: 2063
 title: "SEO en Belgique : trois langues, trois marchés à gagner"
 slug: "seo-en-belgique"
 locale: "fr"
@@ -75,7 +75,7 @@ Le flamand est le néerlandais de la Flandre, la région du nord, et de la plus 
 
 ### Le français
 
-En Wallonie, la région du sud, et à Bruxelles, [le français domine](/fr/services/seo/), et le français de Belgique a ses propres termes.
+En Wallonie, la région du sud, et à Bruxelles, [le français domine](/fr/services/seo/), et le français de Belgique a ses propres termes. Pour des contenus rédigés d’abord en anglais, notre guide de la [traduction anglais-français](/fr/traduction-anglais-francais/) explique comment viser le français de Belgique.
 
 - **Un vocabulaire propre** : les Belges disent « septante » et « nonante » pour 70 et 90, là où la France dit « soixante-dix » et « quatre-vingt-dix », et un téléphone mobile est un « GSM » là où la France dit « portable ».
 - **L’effet sur le SEO** : des termes du français de Belgique dans vos contenus et vos métadonnées rapprochent la page du mot que tape le lecteur.

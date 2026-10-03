@@ -1,5 +1,5 @@
 ---
-words: 833
+words: 1623
 title: "Consultant en référencement international : la mission, mois après mois"
 metaTitle: "Consultant en référencement international, mois par mois"
 slug: "consultant-referencement-international"
@@ -119,4 +119,4 @@ Les corrections entrent dans la livraison du mois suivant, avec le reste du pér
 
 Le point de départ est le marché où vos chiffres sont déjà les plus encourageants : le pays qui vous envoie des visites, où la concurrence reste abordable et où votre offre correspond à ce qui se cherche. Trois ou quatre marchés menés en profondeur donnent plus de résultats que neuf lancés ensemble, et les suivants arrivent quand les premiers montrent leurs résultats.
 
-La mission est menée par [Mike Bastin, consultant en SEO international](https://mikebastin.com/fr/) depuis plus de deux décennies, qui travaille directement en français, en anglais, en espagnol et en néerlandais. Si vous comparez un consultant et une équipe complète, notre article sur ce qu’une [agence SEO internationale](/fr/agence-seo-internationale/) livre de bout en bout vous aidera à choisir.
+La mission est menée par [Mike Bastin, consultant en SEO international](https://mikebastin.com/fr/) depuis plus de deux décennies, qui travaille directement en français, en anglais, en espagnol et en néerlandais. Si vous comparez un consultant et une équipe complète, notre article sur ce qu’une [agence SEO internationale](/fr/agence-seo-internationale/) livre de bout en bout vous aidera à choisir. La même question se pose pour l’ensemble de votre marketing, et notre article pour [choisir entre conseiller et agence marketing](/fr/conseiller-marketing-digital/) vous en donne les critères.
