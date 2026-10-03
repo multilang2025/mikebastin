@@ -182,7 +182,7 @@ Deberías recibir informes claros, plazos realistas y una hoja de ruta basada en
 -   revisa sus métodos para conseguir enlaces entre prensa, directorios y colaboraciones
 
 <aside class="post-cta">
-<p><strong>¿Tu despacho asesora a clientes en varios idiomas?</strong> Nuestro <a href="/es/services/posicionamiento-multilingue/">SEO multilingüe</a> lleva cada mercado a la vez, con páginas escritas en el idioma de cada cliente. <a href="/es/contactanos/">Cuéntanos cómo es tu despacho</a>.</p>
+<p><strong>¿Tu despacho asesora a clientes en varios idiomas?</strong> Nuestro <a href="/es/services/posicionamiento-multilingue/">SEO multilingüe</a> gestiona todos tus mercados a la vez, con páginas escritas en el idioma de cada cliente. <a href="/es/contactanos/">Cuéntanos cómo es tu despacho</a>.</p>
 </aside>
 
 ## Preguntas frecuentes
