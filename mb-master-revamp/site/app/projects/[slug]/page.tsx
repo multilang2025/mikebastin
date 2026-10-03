@@ -159,13 +159,9 @@ export default async function ProjectPage({
                 What {project.name}&apos;s search data says
               </h2>
             </Reveal>
-            <div
-              className="grid gap-px"
-              style={{
-                background: "var(--rule)",
-                gridTemplateColumns: "repeat(auto-fit, minmax(150px, 1fr))",
-              }}
-            >
+            {/* One column on phones, three from 640px: auto-fit put two on a
+                phone and left a grey empty cell beside the third. */}
+            <div className="grid grid-cols-1 gap-px sm:grid-cols-3" style={{ background: "var(--rule)" }}>
               {[
                 { v: project.search.clicks, k: "Clicks" },
                 { v: project.search.impressions, k: "Impressions" },
