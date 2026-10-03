@@ -89,13 +89,13 @@ Le même principe que Linguee, avec d’autres sources : plus solide sur la lang
 
 Un correcteur de grammaire et de style multilingue pour le français, l’espagnol, l’allemand, le néerlandais et d’autres langues. Grammarly couvre l’anglais seul à la profondeur qu’il nous faut ; pour tout travail dans une autre langue, [LanguageTool](https://languagetool.org/chrome) est le meilleur choix.
 
-## Deux extensions de plus pour les traducteurs qui gèrent aussi des sites web
+## Deux extensions supplémentaires pour les traducteurs qui gèrent aussi des sites web
 
-Si votre travail de traduction touche des sites web, deux extensions de plus vous permettent de chiffrer en ayant une vue complète du site, et de confirmer que la source est saine avant de la localiser.
+Si votre travail de traduction touche des sites web, deux extensions supplémentaires vous permettent de chiffrer en ayant une vue complète du site, et de confirmer que la source est saine avant de la localiser.
 
 **Wappalyzer** indique le CMS, les extensions et la configuration de traduction d’un site avant même que vous ouvriez le code source. Quand un prospect nous interroge sur la traduction de son site WordPress, nous voulons savoir en deux secondes s’il tourne sous WPML, Polylang, TranslatePress ou un système maison. Notre page de [localisation de site web](/fr/services/localisation-de-site-web/) explique ce que chacun implique en pratique.
 
-**Detailed SEO Extension** donne un audit on-page rapide des titres, des métadonnées, du hreflang, des balises canoniques et du balisage schema. Avant de localiser un site dans trois langues de plus, nous voulons voir si le SEO de la langue source tient la route. Notre guide du [SEO technique d’un site multilingue](/fr/seo-technique-site-multilingue/) détaille ce que nous regardons ensuite.
+**Detailed SEO Extension** donne un audit on-page rapide des titres, des métadonnées, du hreflang, des balises canoniques et du balisage schema. Avant de localiser un site dans trois nouvelles langues, nous voulons voir si le SEO de la langue source tient la route. Notre guide du [SEO technique d’un site multilingue](/fr/seo-technique-site-multilingue/) détaille ce que nous regardons ensuite.
 
 ## Ce que nous avons retiré de la liste précédente
 
@@ -129,7 +129,7 @@ Chaque extension conservée ajoute une fenêtre, un raccourci et une autorisatio
 >
 > Source : [DeepL API documentation, Languages supported](https://developers.deepl.com/docs/getting-started/supported-languages)
 
-> Le plus grand changement de plus de deux décennies de travail multilingue : le navigateur est devenu l’établi. La traduction automatique a progressé, les LLM sont arrivés, et le vrai déplacement est là. Tout ce que nous faisions entre Trados, un dictionnaire papier et trois écrans se passe aujourd’hui dans une seule fenêtre Chrome, avec sept extensions. Le métier est le même. Les outils sont méconnaissables.
+> Le plus grand changement en plus de deux décennies de travail multilingue : le navigateur est devenu l’établi. La traduction automatique a progressé, les LLM sont arrivés, et le vrai déplacement est là. Tout ce que nous faisions entre Trados, un dictionnaire papier et trois écrans se passe aujourd’hui dans une seule fenêtre Chrome, avec sept extensions. Le métier est le même. Les outils sont méconnaissables.
 >
 > Mike Bastin, consultant en SEO multilingue et en traduction
 

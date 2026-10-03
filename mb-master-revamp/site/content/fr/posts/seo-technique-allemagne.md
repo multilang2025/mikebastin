@@ -101,7 +101,7 @@ Bien réglées, les balises envoient chaque utilisateur vers la version de votre
 
 ### Garder les versions régionales distinctes
 
-Avec hreflang, les moteurs lisent plusieurs versions allemandes presque identiques (une pour l’Allemagne et une pour l’Autriche, par exemple) comme les versions régionales d’une même page, et chacune peut se positionner ; sans balises, elles sont traitées comme des doublons. Des balises correctes font apparaître la bonne version dans le bon pays et gardent ensemble l’autorité SEO de votre site.
+Avec hreflang, les moteurs lisent plusieurs versions allemandes presque identiques (une pour l’Allemagne et une pour l’Autriche, par exemple) comme les versions régionales d’une même page, et chacune peut se positionner ; les balises leur évitent d’être traitées comme des doublons. Des balises correctes font apparaître la bonne version dans le bon pays et gardent ensemble l’autorité SEO de votre site.
 
 ### Ce qu’il faut vérifier
 
