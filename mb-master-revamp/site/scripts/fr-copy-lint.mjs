@@ -124,8 +124,12 @@ const headingsOf = (html) =>
  * proper nouns and acronyms we cannot tell apart from a capitalised common
  * noun, so the rule only fires on a heading where most words are capped.
  */
+// Product and tool names keep their own capitals; they say nothing about the
+// heading's case, so they are taken out before counting.
+const PRODUCT_NAMES = /\b(Google (Ads|Analytics|Search Console|Business Profile|Maps|Tag Manager)|Search Console|Microsoft (Advertising|Clarity)|Core Web Vitals|Link Manager|Interlinks Manager|Autolinks Manager|Screaming Frog|Link Whisper)\b/gu;
+
 function titleCase(h) {
-  const words = h.split(/\s+/).filter((w) => /^\p{L}/u.test(w)).slice(1);
+  const words = h.replace(PRODUCT_NAMES, "").split(/\s+/).filter((w) => /^\p{L}/u.test(w)).slice(1);
   if (words.length < 3) return false;
   const lower = words.filter((w) => w.length > 3 && /^\p{Ll}/u.test(w)).length;
   const upper = words.filter((w) => w.length > 3 && /^\p{Lu}\p{Ll}/u.test(w)).length;
@@ -143,7 +147,9 @@ for (const file of pages(OUT)) {
     // searcher speaking, not the site.
     const own = t.replace(/«[^»]*»/gu, "« »");
     // English proper names of a discipline keep their English spelling.
-    const named = t.replace(/(Generative Engine|Search Everywhere|Answer Engine) Optimi[sz]ation/gu, "");
+    const named = t
+      .replace(/(Generative Engine|Search Everywhere|Answer Engine) Optimi[sz]ation/gu, "")
+      .replace(/\b(Pseudolocalize|Microsoft pseudolocalization)\b/gu, "");
     for (const r of RULES) {
       const subject = r.id === "voice" || r.id === "register" || r.id === "formal" ? own : r.id === "spelling" ? named : t;
       const m = r.test ? (r.test(subject) ? { index: 0 } : null) : subject.match(r.re);

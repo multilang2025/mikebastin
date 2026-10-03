@@ -4,10 +4,10 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import ThemeToggle from "@/components/ThemeToggle";
-import type { Locale, LocaleSlugs } from "@/lib/posts";
+import LanguageMenu from "@/components/LanguageMenu";
+import type { Locale } from "@/lib/posts";
 import { FR_PAGES } from "@/lib/fr-pages-data";
 import { ES_PAGES } from "@/lib/es-pages-data";
-import { useLocaleData } from "@/components/LocaleData";
 
 const LINKS = [
   { href: "/", label: "Home" },
@@ -25,8 +25,6 @@ const FR_LINKS = FR_PAGES.filter((p) => p.nav).map((p) => ({ href: p.path, label
 
 const ES_LINKS = ES_PAGES.filter((p) => p.nav).map((p) => ({ href: p.path, label: p.label }));
 
-const LOCALE_LABEL: Record<Locale, string> = { en: "EN", fr: "FR", es: "ES" };
-
 /** The menu's own strings and destinations, per locale. */
 const UI: Record<
   Locale,
@@ -38,73 +36,6 @@ const UI: Record<
 };
 
 const localeOfPath = (pathname: string): Locale => (pathname.startsWith("/fr/") || pathname === "/fr" ? "fr" : pathname.startsWith("/es/") || pathname === "/es" ? "es" : "en");
-
-function postPath(locale: Locale, slug: string): string {
-  return locale === "en" ? `/blog/${slug}/` : `/${locale}/${slug}/`;
-}
-
-// Service pages' manifest entries (merged into getLocaleManifest() by
-// lib/services-locale.ts) use a different URL shape than posts'
-// (/services/<slug>/ vs /blog/<slug>/), so the switcher decides which
-// shape to reconstruct from whether the current page is itself a service
-// page, rather than from anything the manifest value carries.
-function servicePath(locale: Locale, slug: string): string {
-  return locale === "en"
-    ? `/services/${slug}/`
-    : `/${locale}/services/${slug}/`;
-}
-
-/**
- * Language switcher, shown only on a page whose manifest entry names
- * siblings (built from getLocaleManifest() -- groups with a single
- * published locale never get an entry). It links straight to each
- * sibling's real localized URL, never to a 404 or the homepage.
- */
-function LocaleSwitcher({
-  manifest,
-  pagePairs,
-  pathname,
-}: {
-  manifest: Record<string, LocaleSlugs>;
-  pagePairs: Record<string, Partial<Record<Locale, string>>>;
-  pathname: string;
-}) {
-  const pair = pagePairs[pathname];
-  const siblings = manifest[pathname];
-  if (!siblings && !pair) return null;
-
-  const isService = pathname.includes("/services/");
-  const buildPath = isService ? servicePath : postPath;
-
-  const locales = (Object.keys(pair ?? siblings!) as Locale[]).sort(
-    (a, b) => ["en", "fr", "es"].indexOf(a) - ["en", "fr", "es"].indexOf(b),
-  );
-
-  return (
-    <ul
-      className="flex shrink-0 items-center gap-x-3 text-[.8rem] uppercase tracking-[.06em]"
-      style={{ color: "var(--dim)" }}
-    >
-      {locales.map((locale) => {
-        const href = pair ? pair[locale]! : buildPath(locale, siblings![locale]!);
-        const active = href === pathname;
-        return (
-          <li key={locale}>
-            {active ? (
-              <span aria-current="page" style={{ color: "var(--berry)" }}>
-                {LOCALE_LABEL[locale]}
-              </span>
-            ) : (
-              <Link href={href} className="ulink">
-                {LOCALE_LABEL[locale]}
-              </Link>
-            )}
-          </li>
-        );
-      })}
-    </ul>
-  );
-}
 
 /**
  * The mobile menu.
@@ -129,7 +60,6 @@ function LocaleSwitcher({
  * them should not have to load the contact page to find an address.
  */
 export default function SiteNav() {
-  const { localeManifest, pagePairs } = useLocaleData();
   const pathname = usePathname();
   const ui = UI[localeOfPath(pathname ?? "/")];
   const links = ui.links;
@@ -246,10 +176,6 @@ export default function SiteNav() {
           })}
         </ul>
 
-        <div className="hidden lg:block">
-          <LocaleSwitcher manifest={localeManifest} pagePairs={pagePairs} pathname={pathname ?? ""} />
-        </div>
-
         {/* The two controls are one group, so `justify-between` spreads the
             logo against the pair rather than stranding the menu button in
             the middle of the row once the desktop links are hidden. */}
@@ -290,6 +216,7 @@ export default function SiteNav() {
             </svg>
           </button>
 
+          <LanguageMenu />
           <ThemeToggle />
         </div>
       </nav>
@@ -395,24 +322,6 @@ export default function SiteNav() {
             <p className="text-[.88rem]" style={{ color: "var(--dim)" }}>
               {ui.since}
             </p>
-
-            {/* LocaleSwitcher renders nothing on a page with no published
-                siblings, which is most of them. Asking the manifest here
-                too keeps the rule and its spacing from being drawn round
-                an empty element. */}
-            {(localeManifest[pathname ?? ""] || pagePairs[pathname ?? ""]) && (
-              <div
-                className="mt-2 border-t pt-4"
-                style={{ borderColor: "var(--rule)" }}
-                onClickCapture={() => setOpen(false)}
-              >
-                <LocaleSwitcher
-                  manifest={localeManifest}
-                  pagePairs={pagePairs}
-                  pathname={pathname ?? ""}
-                />
-              </div>
-            )}
           </div>
         </div>
       )}

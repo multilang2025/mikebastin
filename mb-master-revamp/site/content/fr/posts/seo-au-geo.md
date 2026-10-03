@@ -77,7 +77,7 @@ Une page qui répond à la question complète de l’acheteur a plus de chances 
 
 Les moteurs génératifs étayent leurs réponses avec des sources crédibles, et choisissent celles qui affichent des faits vérifiables. L’expérience, l’expertise, l’autorité et la fiabilité (E-E-A-T) restent donc déterminantes, et le GEO les rend visibles dans le texte même.
 
-> Dans l’étude « GEO: Generative Engine Optimization » (Princeton University, IIT Delhi et chercheurs indépendants, KDD 2024), citer ses sources, ajouter des citations et ajouter des statistiques ont amélioré la visibilité d’un contenu dans les réponses générées de 30 à 40 % sur la mesure principale de l’étude. La méthode « citer ses sources » a augmenté de 115 % la visibilité des sites classés en cinquième position.
+> Dans l’étude « GEO : Generative Engine Optimization » (Princeton University, IIT Delhi et chercheurs indépendants, KDD 2024), citer ses sources, ajouter des citations et ajouter des statistiques ont amélioré la visibilité d’un contenu dans les réponses générées de 30 à 40 % sur la mesure principale de l’étude. La méthode « citer ses sources » a augmenté de 115 % la visibilité des sites classés en cinquième position.
 > Source : [Aggarwal et al., arXiv 2311.09735](https://arxiv.org/abs/2311.09735)
 
 Le second chiffre intéresse particulièrement une entreprise qui s’attaque à un marché étranger : les pages moins bien classées sont celles qui gagnent le plus à présenter des preuves.

@@ -5,7 +5,7 @@ metaTitle: "Tendances 2026 du secteur des affaires"
 slug: "nouvelles-tendances-du-secteur-des-affaires"
 locale: "fr"
 type: "posts"
-group: "g112"
+group: "g125"
 wpId: 24853188
 date: "2025-07-15T17:45:27"
 modified: "2026-07-02T17:36:21"
@@ -101,7 +101,7 @@ Le rançongiciel reste une menace majeure, et les attaques visant la chaîne d�
 La directive CSRD a produit ses premiers rapports de durabilité audités en 2025, pour les plus grandes entreprises d’intérêt public. Le calendrier a ensuite changé deux fois : la directive « stop-the-clock » d’avril 2025 a reporté de deux ans les vagues suivantes, puis la directive Omnibus I, en vigueur depuis le 18 mars 2026, a resserré le périmètre.
 
 > À partir des exercices ouverts le 1er janvier 2027, le reporting n’est obligatoire que pour les entreprises qui dépassent à la fois 450 millions d’euros de chiffre d’affaires net et 1 000 salariés en moyenne.
-> Source : [DLA Piper, « Corporate Sustainability Reporting Directive: amendments under Omnibus I finalised », 2026](https://knowledge.dlapiper.com/dlapiperknowledge/globalemploymentlatestdevelopments/2026/corporate-sustainability-reporting-directive-amendments-under-omnibus-i-finalised)
+> Source : [DLA Piper, « Corporate Sustainability Reporting Directive : amendments under Omnibus I finalised », 2026](https://knowledge.dlapiper.com/dlapiperknowledge/globalemploymentlatestdevelopments/2026/corporate-sustainability-reporting-directive-amendments-under-omnibus-i-finalised)
 
 Pour une PME ou une ETI qui vend à de grands groupes, les demandes de données de durabilité continuent d’arriver par la chaîne de valeur. Les entreprises qui y répondent par des rapports clairs et exploitables sortent du lot : de bons chiffres gagnent en crédibilité quand le rapport les présente dans un langage précis et concret, dans la langue de l’acheteur.
 
@@ -109,7 +109,7 @@ Pour une PME ou une ETI qui vend à de grands groupes, les demandes de données 
 
 L’IA généraliste couvre les grandes paires de langues (anglais-français, anglais-espagnol, anglais-allemand) à un coût marginal très bas. La valeur se déplace vers les langues moins dotées (vietnamien, swahili, langues régionales), où les usages critiques (juridique, médical, technique) demandent encore la précision d’un traducteur spécialisé.
 
-C’est le phénomène que nous décrivons dans notre analyse des [agences de sourcing au Vietnam pour la conformité EUDR](/blog/best-vietnam-sourcing-agencies-for-eudr-supplier-scouting-and-audits/) : les entreprises qui veulent fiabiliser leurs audits multilingues s’appuient sur des traducteurs natifs spécialisés.
+C’est le phénomène que nous décrivons dans notre analyse des agences de sourcing au Vietnam pour la conformité EUDR : les entreprises qui veulent fiabiliser leurs audits multilingues s’appuient sur des traducteurs natifs spécialisés.
 
 **Notre angle.** En plus de deux décennies de SEO et de traduction internationale, ce qui nous a frappés en 2025 et 2026, c’est le retour en force de la qualité éditoriale comme différenciateur. L’IA générative a rendu le contenu moyen accessible à tous ; ce qui se vend maintenant, c’est le contenu qui porte une signature humaine : expérience de terrain, données propriétaires, prise de position assumée. Toutes les tendances ci-dessus convergent vers ce constat.
 

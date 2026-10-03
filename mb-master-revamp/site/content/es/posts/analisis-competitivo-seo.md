@@ -5,7 +5,7 @@ metaTitle: "Análisis competitivo SEO convertido en un plan de acción"
 slug: "analisis-competitivo-seo"
 locale: "es"
 type: "posts"
-group: "g033"
+group: "g024"
 wpId: 24855788
 date: "2026-01-27T15:32:32"
 modified: "2026-10-02T12:00:00"

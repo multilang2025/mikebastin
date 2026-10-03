@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   ...pageMeta({
     title: "Nous contacter, Mike Bastin",
     description:
-      "Dites-nous dans quelle langue vous voulez vendre ensuite. Quelques lignes sur votre projet SEO, de localisation ou d’IA suffisent pour recevoir une réponse claire sous un jour ouvré.",
+      "Dites-nous dans quelle langue vous voulez vendre ensuite : quelques lignes sur votre projet suffisent pour recevoir une réponse claire sous un jour ouvré.",
     path: PATH,
     languages: frLanguages(PATH),
     ogLocale: "fr_FR",

@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   ...pageMeta({
     title: "Articles sur le SEO international, Mike Bastin",
     description:
-      "Nos articles en français sur le SEO international, la visibilité dans les réponses des IA et la conquête de nouveaux marchés, pour les entreprises qui vendent à l’étranger.",
+      "Nos articles en français sur le SEO international, la visibilité dans les réponses des IA et la conquête de nouveaux marchés pour les entreprises qui exportent.",
     path: PATH,
     languages: frLanguages(PATH),
     ogLocale: "fr_FR",

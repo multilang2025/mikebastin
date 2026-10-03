@@ -24,6 +24,15 @@
  * has a real screenshot too).
  */
 
+/**
+ * The portfolio images are served with a one-week browser cache and keep
+ * their file names when design/work-shots/gen.py redraws them, so a visitor
+ * who saw the earlier set kept seeing it. Bump this whenever the images are
+ * regenerated: the query string is ignored by the server and makes the
+ * browser fetch the new file.
+ */
+const SHOT_VERSION = "20261002";
+
 export type Project = {
   slug: string;
   numeral: string;
@@ -73,7 +82,7 @@ export const PROJECTS: Project[] = [
     outcome:
    "Six regional identities still trading after two decades, each ranking on its own market's terms. ",
     services: ["Multi-TLD SEO", "Multilingual content", "Six regional markets", "Founder"],
-    shot: "/work/betranslated.webp",
+    shot: `/work/betranslated.webp?v=${SHOT_VERSION}`,
   },
   {
     slug: "globaprom",
@@ -95,7 +104,7 @@ export const PROJECTS: Project[] = [
     outcome:
       "A shipment tracking portal for TX International Freight that cut roughly three hours a day of manual status chasing, an internal reconciliation platform that saved about ten hours a week, and the multilingual site and tracking system running Century 21 Perdomo's real estate listings.",
     services: ["Custom AI software", "Multilingual from build", "Fixed scope, fixed price"],
-    shot: "/work/globaprom.webp",
+    shot: `/work/globaprom.webp?v=${SHOT_VERSION}`,
   },
   {
     slug: "tx-international-freight",
@@ -118,7 +127,7 @@ export const PROJECTS: Project[] = [
    "Local pack presence in Houston's industrial freight search.",
     services: ["Technical SEO", "Industry content", "Houston local search", "Tracking portal"],
     search: { clicks: "2,616", impressions: "764,222", position: "21.7", note: "May to July 2026" },
-    shot: "/work/tx-international-freight.webp",
+    shot: `/work/tx-international-freight.webp?v=${SHOT_VERSION}`,
   },
   {
     slug: "c21perdomo",
@@ -141,7 +150,7 @@ export const PROJECTS: Project[] = [
    "Four languages held correct against weekly-turnover inventory on a live real estate site.",
     services: ["Multilingual SEO", "Headless WordPress", "WPML and WooCommerce", "Four languages"],
     search: { clicks: "9,944", impressions: "461,231", position: "10.1", note: "May to July 2026" },
-    shot: "/work/c21perdomo.webp",
+    shot: `/work/c21perdomo.webp?v=${SHOT_VERSION}`,
   },
   {
     slug: "valenciamove",
@@ -164,7 +173,7 @@ export const PROJECTS: Project[] = [
    "1,132 URLs live across five languages.",
     services: ["Content strategy", "Five locales", "Technical SEO", "Owned property"],
     search: { clicks: "5,685", impressions: "496,316", position: "10.7", note: "May to July 2026" },
-    shot: "/work/valenciamove.webp",
+    shot: `/work/valenciamove.webp?v=${SHOT_VERSION}`,
   },
   {
     slug: "bemelman-spuiterij",
@@ -187,7 +196,7 @@ export const PROJECTS: Project[] = [
    "A Divi build and Dutch local SEO for a business that had traded on reputation alone for forty-five years.",
     services: ["Dutch local SEO", "Divi build", "B2B trade search"],
     search: { clicks: "1,436", impressions: "108,568", position: "28.1", note: "May to July 2026" },
-    shot: "/work/bemelman-spuiterij.webp",
+    shot: `/work/bemelman-spuiterij.webp?v=${SHOT_VERSION}`,
   },
   {
     slug: "delaguia-y-luzon",
@@ -210,7 +219,7 @@ export const PROJECTS: Project[] = [
    "Four languages, two jurisdictions, multiple practice areas held to a legal accuracy bar.",
     services: ["Legal SEO", "Multilingual content", "Four languages", "Two jurisdictions"],
     search: { clicks: "38,476", impressions: "2,399,567", position: "9.4", note: "May to July 2026" },
-    shot: "/work/delaguia-y-luzon.webp",
+    shot: `/work/delaguia-y-luzon.webp?v=${SHOT_VERSION}`,
   },
   {
     slug: "matosurf",
@@ -232,7 +241,7 @@ export const PROJECTS: Project[] = [
     outcome:
    "Forty-eight French spots and a hundred and twenty guides covering seven board sports, backed by a public editorial method page.",
     services: ["Editorial strategy", "Content architecture", "EEAT method page", "Owned property"],
-    shot: "/work/matosurf.webp",
+    shot: `/work/matosurf.webp?v=${SHOT_VERSION}`,
   },
 ];
 

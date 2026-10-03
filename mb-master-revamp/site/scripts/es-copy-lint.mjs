@@ -98,7 +98,7 @@ const headingsOf = (html) =>
   );
 
 // Product and platform names keep their capitals in Spanish.
-const NAMES = /Perfil de Empresa de Google|Google Analytics|Search Console|Tag Manager|Generative Engine Optimization/g;
+const NAMES = /Perfil de Empresa de Google|Google Analytics|Search Console|Tag Manager|Generative Engine Optimization|Google Ads|Microsoft Advertising|Core Web Vitals|Link Manager|Interlinks Manager|Autolinks Manager|Screaming Frog|Link Whisper/g;
 
 function titleCase(h0) {
   const h = h0.replace(NAMES, "");

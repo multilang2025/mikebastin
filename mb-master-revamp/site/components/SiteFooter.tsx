@@ -271,7 +271,7 @@ export default function SiteFooter({
                 <Link href={CONTACT_HREF[locale]} className="btn btn-primary btn-lg">
                   {t.ctaButton}
                 </Link>
-                {locale !== "fr" && (
+                {locale === "en" && (
                   <Link href="/results/" className="ulink text-[.98rem]">
                     {t.ctaSecondary}
                   </Link>

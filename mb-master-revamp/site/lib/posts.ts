@@ -26,18 +26,13 @@
 import { readFileSync } from "fs";
 import { join } from "path";
 import matter from "gray-matter";
-import { marked } from "marked";
+import { renderMarkdown } from "@/lib/render-markdown";
 
 /**
  * Markdown to post HTML. Tables get a scrolling wrapper so a wide one
  * scrolls inside the column on a phone instead of pushing the page
  * sideways (body is overflow-x: hidden, so it would otherwise be cut off).
  */
-function renderMarkdown(content: string): string {
-  return (marked.parse(content, { async: false }) as string)
-    .replace(/<table>/g, '<div class="table-wrap" tabindex="0" role="region" aria-label="Table"><table>')
-    .replace(/<\/table>/g, "</table></div>");
-}
 import { SITE_URL } from "@/lib/schema";
 import {
   REPO_ROOT,
@@ -551,7 +546,7 @@ export function getPostsForLocale(locale: Locale): LocalePost[] {
     const raw = readFileSync(join(REPO_ROOT, contentPath), "utf8");
     const { data, content } = matter(raw);
     const fm = data as PostFrontmatter;
-    posts.push({ ...fm, html: renderMarkdown(content) });
+    posts.push({ ...fm, html: renderMarkdown(content, locale) });
   }
 
   posts.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
