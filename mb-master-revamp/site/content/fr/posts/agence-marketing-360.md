@@ -15,9 +15,7 @@ excerpt: "Une agence marketing 360 vous doit un seul plan qui relie tous vos can
 
 Vous avez signé avec une **agence marketing 360** pour obtenir un plan coordonné. Ce qui arrive chaque mois ressemble parfois encore à quatre rapports de canaux agrafés ensemble ; ce que vous attendez, c’est un seul jeu d’indicateurs, une seule définition de l’audience, et une personne capable de dire quel canal finance les autres.
 
-Un travail coordonné rapporte plus que la mission ne coûte : la recherche payante dépense sur les clics que vos pages organiques n’ont pas encore gagnés, et vos versions espagnole, allemande ou néerlandaise partent d’un plan complet. Nous travaillons dans ce secteur depuis plus de deux décennies, et nous savons à quoi ressemble un travail coordonné vu de l’intérieur.
-
-Voici à quoi il ressemble, un test en trois questions pour toute agence que vous rémunérez, et les situations où un partenaire 360 est le bon choix.
+Un travail coordonné rapporte plus que la mission ne coûte : la recherche payante dépense sur les clics que vos pages organiques n’ont pas encore gagnés, et vos versions espagnole, allemande ou néerlandaise partent d’un plan complet. Nous pratiquons ce métier depuis plus de deux décennies, et nous savons à quoi ressemble un travail coordonné vu de l’intérieur.
 
 ## À quoi ressemble une intégration qui fonctionne
 
@@ -25,7 +23,7 @@ Vous payez pour des décisions prises à travers les canaux. Cinq éléments, r�
 
 -   Un document de stratégie qui nomme la vraie contrainte : qualité des prospects, visibilité en recherche dans trois langues, prospects issus des salons, quelle qu’elle soit.
 -   Un plan de mesure court que tout le monde lit chaque semaine.
--   Une voix de marque et un positionnement qui gardent leur tranchant en traduction, d’un marché à l’autre.
+-   Une voix de marque et un positionnement qui gardent leur force en traduction, d’un marché à l’autre, comme le détaille notre guide pour [construire une marque internationale](/fr/marque-internationale/).
 -   Une seule pile d’outils à laquelle toute l’équipe accède directement.
 -   Une personne responsable quand les chiffres stagnent.
 
@@ -55,13 +53,13 @@ Chacune des habitudes ci-dessous oriente le budget vers le canal où le problèm
 
 **Des équipes de canaux qui décident ensemble.** Une réunion mensuelle où chaque équipe colle ses indicateurs dans la même présentation occupe tout le monde. Un travail coordonné suppose que les équipes se recoupent et prennent des décisions communes.
 
-**Une stratégie que l’équipe relit.** Un plan oriente le travail tant que les gens l’ouvrent. Gardez-le assez court pour le relire chaque semaine, afin qu’il guide encore le travail bien après la deuxième semaine ; un document de 90 pages, aussi bien structuré soit-il, est en général lu une fois, le premier jour.
+**Une stratégie que l’équipe relit.** Un plan oriente le travail tant que l’équipe l’ouvre. Gardez-le assez court pour le relire chaque semaine ; un document de 90 pages, aussi bien structuré soit-il, est en général lu une fois, le premier jour.
 
-**Le multilingue prévu dès le départ.** Quand les versions espagnole et allemande sont planifiées en même temps que la version française, chacune part de son propre plan complet et d’une transmission nette. Un vrai marketing multilingue, comme l’expliquent nos [bonnes pratiques du SEO multilingue](/fr/bonnes-pratiques-seo-multilingue/), intègre la traduction dans la planification dès le premier jour.
+**Le multilingue prévu dès le départ.** Quand les versions espagnole et allemande sont planifiées en même temps que la version française, chacune part de son propre plan complet et d’une transmission nette. Comme le montrent nos [bonnes pratiques du SEO multilingue](/fr/bonnes-pratiques-seo-multilingue/), un marketing multilingue efficace intègre la traduction à la planification dès le premier jour.
 
 ## Le test de l’intégration
 
-Dix minutes vous montrent à quel point le travail de votre agence est coordonné. Posez trois questions sur n’importe quelle campagne active.
+En dix minutes, vous voyez à quel point le travail de votre agence est coordonné. Posez ces trois questions sur n’importe quelle campagne active.
 
 -   Quel mot-clé payant pouvons-nous arrêter parce que nous sommes désormais positionnés dessus en organique ?
 -   Quel article de blog en espagnol gagnerait le plus à recevoir un pixel de remarketing ?
@@ -73,7 +71,7 @@ Une agence qui travaille de façon coordonnée répond aux trois sur-le-champ, �
 <p><strong>Vous voulez une agence qui répond sur-le-champ à la troisième question ?</strong> Notre <a href="/fr/services/sem-multilingue/">SEM multilingue</a> suit chaque marché avec son propre budget et son propre rapport, pour juger une campagne belge sur les contacts qu’elle apporte en Belgique. <a href="/fr/nous-contacter/">Réservez une consultation gratuite</a>.</p>
 </aside>
 
-## Un exemple réel : un client du fret à Houston
+## Un exemple : les canaux d’un transitaire de Houston reliés en un mois
 
 Notre client de transit international à Houston travaille en anglais, sur un seul marché, auprès de trois types d’acheteurs (importateurs, exportateurs, transitaires), et sur LinkedIn, la recherche organique, Google Ads et les salons professionnels.
 
@@ -85,7 +83,7 @@ Une fois le tout regroupé dans un seul document de stratégie et un seul plan d
 -   **Trois articles de blog se classaient dans les trois premiers résultats, prêts pour un pixel de remarketing.** Nous l’avons ajouté. Le parcours de conversion est apparu du jour au lendemain.
 -   **La prospection LinkedIn utilisait une phrase de positionnement différente de celle du site.** Nous les avons alignées. Le taux de réponse a bougé le mois même.
 
-Chaque gain est venu de tactiques déjà en place. Relier le travail a produit la hausse.
+Chaque gain est venu de tactiques déjà en place : c’est le fait de les relier qui a produit la hausse.
 
 ## Les données derrière les campagnes coordonnées
 
@@ -96,9 +94,9 @@ La connexion entre les canaux rapporte davantage que leur nombre. L’IPA a anal
 
 Pour votre budget, trois canaux reliés l’emportent sur sept canaux isolés.
 
-## Promesses et exigences réelles
+## Ce qu’une proposition 360 doit vous montrer
 
-Lisez une proposition à l’aune de la colonne de droite ; chaque ligne correspond à un élément à demander à voir avant de signer.
+Lisez une proposition à l’aune de la colonne de droite : chaque ligne correspond à un élément à demander avant de signer.
 
 | Ce que promettent les brochures 360 | Ce que l’intégration exige réellement |
 | --- | --- |
@@ -112,18 +110,20 @@ Lisez une proposition à l’aune de la colonne de droite ; chaque ligne corres
 
 Un partenaire 360 se rentabilise dès que vous avez besoin de coordination entre les canaux. Nous conseillons en général d’en choisir un quand au moins deux des conditions suivantes sont réunies.
 
--   Vous opérez dans plus de deux langues ou marchés, par exemple la France, la Belgique et l’Espagne, et vous voulez retrouver une cohérence de marque entre eux.
+-   Vous opérez dans plus de deux langues ou marchés, par exemple la France, la Belgique et l’Espagne, et vous voulez une marque cohérente entre eux.
 -   Vous voulez que vos rapports montrent d’où doit venir le chiffre d’affaires du prochain trimestre.
 -   Votre généraliste interne couvre cinq postes, et ce qui l’aide le plus, c’est un appui stratégique.
 
-Dans les autres cas, un responsable senior à temps partagé, épaulé par deux prestataires spécialisés, obtient souvent de meilleurs résultats qu’une agence au forfait, pour un coût plus bas et avec davantage d’attention portée à la vraie contrainte.
+Dans les autres cas, un responsable senior à temps partagé, épaulé par deux prestataires spécialisés, obtient souvent de meilleurs résultats qu’une agence au forfait, pour un coût plus bas et avec davantage d’attention portée à la vraie contrainte. Notre comparatif [conseiller en marketing digital ou agence](/fr/conseiller-marketing-digital/) vous aide à trancher.
 
 ## Un regard extérieur sur votre moteur marketing
 
 Si vous comparez un forfait d’agence marketing 360 avec le maintien du travail en interne, nous passons volontiers en revue les arbitrages avec vous.
 
-Nous travaillons avec des clients B2B dans le juridique, le fret, l’immobilier et la traduction, dans plusieurs langues, depuis Valence. Découvrez [notre équipe](/fr/notre-equipe/).
+Nous travaillons avec des clients B2B dans le juridique, le fret, l’immobilier et la traduction, dans plusieurs langues, depuis Valence.
 
-Pour beaucoup d’entreprises, la réponse honnête consiste à garder l’équipe interne et à faire appel à une expertise ciblée là où se trouve la vraie contrainte. Parfois, la réponse est un partenaire 360 complet. Dans les deux cas, vous gagnez à savoir laquelle s’applique avant de signer.
+Pour beaucoup d’entreprises, la bonne réponse consiste à garder l’équipe interne et à faire appel à une expertise ciblée là où se trouve la vraie contrainte, par exemple un [référencement multilingue mené marché par marché](/fr/services/referencement-multilingue/). Parfois, c’est un partenaire 360 complet. Dans les deux cas, vous gagnez à savoir laquelle s’applique avant de signer.
 
-[Contactez-nous](/fr/nous-contacter/) ou découvrez notre façon de mener des [programmes de référencement multilingue](/fr/services/referencement-multilingue/).
+<aside class="post-cta">
+<p><strong>Vous hésitez entre un forfait 360 et votre équipe interne ?</strong> Nous passons en revue les arbitrages avec vous, canal par canal. <a href="/fr/nous-contacter/">Réservez une consultation gratuite</a>.</p>
+</aside>

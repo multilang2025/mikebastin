@@ -13,15 +13,11 @@ sourceUrl: null
 excerpt: "Las extensiones de Chrome para traductores que se ganan su sitio en 2026: borradores más rápidos, terminología más segura y documentos más limpios."
 ---
 
-Si en tu empresa se traduce en el navegador, tus extensiones deciden dos cosas: lo rápido que avanza un borrador y lo limpio que llega a un documento del cliente o a una página publicada. Un conjunto rápido ahorra tiempo en cada encargo. Uno cuidadoso mantiene la confianza del cliente, la más difícil de ganar de las dos.
+Si en tu empresa se traduce en el navegador, tus extensiones deciden dos cosas: lo rápido que avanza un borrador y lo limpio que llega a un documento del cliente o a una página publicada. Un conjunto rápido ahorra tiempo en cada encargo; uno cuidadoso mantiene la confianza del cliente. Una lista guardada en 2022 pide una actualización: esta es la que tenemos instalada tras más de dos décadas trabajando entre inglés, francés, español y neerlandés, y el orden en que la usamos.
 
-Las herramientas también han cambiado. Chrome modificó la forma de construir extensiones, varias favoritas se retiraron con el cambio, y los asistentes de IA hacen hoy buena parte de lo que antes hacían tres o cuatro herramientas de traducción. Una lista guardada en 2022 pide una actualización.
+## Manifest V3 y LLM: qué ha cambiado en el navegador
 
-Aquí tienes el conjunto que de verdad tenemos instalado en 2026, tras más de dos décadas trabajando entre inglés, francés, español y neerlandés: lo que ahorra cada extensión, lo que hemos retirado y cómo las encadenamos en un encargo real.
-
-## Qué ha cambiado desde la última versión de este artículo
-
-Dos cambios han rehecho el conjunto de herramientas, y los dos mueven tu tiempo de sitio. El primero: Chrome retiró Manifest V2 a lo largo de 2024 y 2025. Las extensiones tuvieron que migrar a Manifest V3 para seguir funcionando: varias extensiones de traducción se reconstruyeron en torno a service workers y otras salieron de la Chrome Web Store.
+Dos cambios han rehecho el conjunto de herramientas. El primero: Chrome retiró Manifest V2 a lo largo de 2024 y 2025. Las extensiones tuvieron que migrar a Manifest V3 para seguir funcionando: varias extensiones de traducción se reconstruyeron en torno a service workers y otras salieron de la Chrome Web Store.
 
 El segundo cambio pesa más. Los grandes modelos de lenguaje entraron en el navegador con extensiones propias y paneles laterales. Para la consulta diaria, la reformulación rápida y la posedición de traducción automática, una sola extensión de LLM hace hoy lo que antes hacían tres o cuatro extensiones de traducción.
 
@@ -33,17 +29,15 @@ Si el precio por palabra sigue bajando mientras el volumen se mantiene, la veloc
 
 ## Los motores de traducción que seguimos teniendo en la barra
 
-Un buen motor te lleva rápido a un primer borrador utilizable. La elección está en qué motor usar para cada tipo de trabajo.
-
 ### DeepL para Chrome
 
-La mejor calidad en bruto para lenguas europeas, según nuestra experiencia diaria. Recurrimos primero a [DeepL](https://www.deepl.com/en/chrome-extension) cuando necesitamos un borrador en francés o en alemán que suene natural. Selecciona un texto en cualquier página, pulsa un atajo y lee la traducción en una ventana emergente, justo donde estás.
+La mejor calidad en bruto para lenguas europeas, según nuestra experiencia. Recurrimos primero a [DeepL](https://www.deepl.com/en/chrome-extension) cuando necesitamos un borrador en francés o en alemán que suene natural. Selecciona un texto en cualquier página, pulsa un atajo y lee la traducción en una ventana emergente, justo donde estás.
 
 El plan gratuito cubre la mayoría de las consultas rápidas; el Pro desbloquea el modo documento y los glosarios en la aplicación principal. DeepL es dueño también de Linguee, así que un plan de pago une ejemplos en contexto y resultado del motor en un mismo flujo de trabajo.
 
 ### ImTranslator
 
-Tenemos [ImTranslator](https://chromewebstore.google.com/detail/imtranslator-translator-d/noaijdpnepcgjemiklgfkcfbkokogabh) instalado para una sola tarea: comparar, en la misma ventana, las traducciones de Google, Microsoft Bing y otros motores. Cuando un cliente cuestiona una elección de palabras, una comparación a tres bandas es la prueba más rápida que puedes poner sobre la mesa. La extensión ya funciona con Manifest V3, ronda los 900.000 usuarios y se actualizó por última vez en marzo de 2026.
+Tenemos [ImTranslator](https://chromewebstore.google.com/detail/imtranslator-translator-d/noaijdpnepcgjemiklgfkcfbkokogabh) instalado para una sola tarea: comparar, en la misma ventana, las traducciones de Google, Microsoft Bing y otros motores. Cuando un cliente cuestiona una elección de palabras, una comparación a tres bandas es la prueba más rápida que puedes poner sobre la mesa. La extensión ya funciona con Manifest V3, ronda los 900.000 usuarios y se actualizó en marzo de 2026.
 
 ### Mate Translate
 
@@ -53,21 +47,21 @@ Desde principios de 2025, las reseñas de los usuarios puntúan peor su traducci
 
 ### Google Traductor
 
-Todos los clientes lo reconocen, y esa es su principal virtud. Los clientes nos envían webs y cuentan con que las leamos rápido, y la extensión oficial de Google Traductor es la forma más limpia de captar la idea de cualquier página en segundos.
+Todos los clientes lo reconocen, y esa es su principal virtud. Cuando un cliente nos envía una web para leerla rápido, la extensión oficial de Google Traductor da la idea de cualquier página en segundos.
 
 ## Los asistentes de IA que han absorbido la mitad del conjunto
 
-Los fallos que más pesan están en el tono, el registro y la ambigüedad, más que en palabras sueltas, y para resolverlos hace falta contexto, que una extensión de LLM sabe recibir. Para frases complejas, contenido idiomático o cualquier texto jurídico o técnico, una extensión de LLM generalista supera hoy a la mayoría de las herramientas de traducción dedicadas.
+Los fallos que más pesan están en el tono, el registro y la ambigüedad, y para resolverlos hace falta contexto, que una extensión de LLM sabe recibir. Para frases complejas, idiomáticas, jurídicas o técnicas, una extensión de LLM generalista supera hoy a la mayoría de las herramientas de traducción dedicadas.
 
 ### Claude in Chrome y ChatGPT
 
 Podemos pegar un párrafo, tres líneas del contexto que lo rodea y una instrucción de una línea como «Traduce al francés formal para la clientela de un despacho de abogados belga, con trato de cortesía (vous)». Una extensión de LLM aplica la instrucción tal como está escrita; un motor por sí solo trabaja únicamente con el texto.
 
-Usamos Claude in Chrome, disponible para todos desde el 26 de agosto de 2026 en los planes de pago de Claude, para el trabajo de clientes en el que cuentan el tono y el registro, y ChatGPT para reescrituras rápidas y lluvias de ideas. Revisamos a mano cada resultado de los dos. En nuestro artículo sobre [herramientas de IA y traducción automática](/es/herramientas-ia-traduccion-automatica/) explicamos el flujo de trabajo por el que los pasamos.
+Usamos Claude in Chrome, disponible para todos desde el 26 de agosto de 2026 en los planes de pago de Claude, para el trabajo de clientes en el que cuentan el tono y el registro, y ChatGPT para reescrituras rápidas y lluvias de ideas. Revisamos a mano cada resultado de los dos. En nuestro artículo sobre [herramientas de IA y traducción automática](/es/herramientas-ia-traduccion-automatica/) explicamos el flujo de trabajo que enmarca esa revisión.
 
 ### DeepL Write
 
-A medio camino entre un traductor y un corrector gramatical, reformula tu borrador en la lengua de destino para ajustar el tono, el registro y la naturalidad. Pasamos por él nuestros propios borradores en francés y en español, y aceptamos o rechazamos cada sugerencia frase a frase. Detecta la rigidez que deja traducir palabra por palabra mentalmente.
+A medio camino entre un traductor y un corrector gramatical, reformula tu borrador en la lengua de destino para ajustar el tono, el registro y la naturalidad. Pasamos por él nuestros propios borradores en francés y en español, y aceptamos o rechazamos cada sugerencia frase a frase. Detecta la rigidez de una traducción palabra por palabra.
 
 <aside class="post-cta">
 <p><strong>¿Borradores de IA que acabarán en documentos que leerán tus clientes o un organismo regulador?</strong> Con nuestra <a href="/es/services/traduccion-profesional/">traducción profesional</a>, cada documento va a un traductor especialista de tu sector y se revisa antes de la entrega. <a href="/es/contactanos/">Reserva una primera llamada</a>.</p>
@@ -79,37 +73,27 @@ Casi todas las decisiones de traducción se reducen a elegir entre dos significa
 
 ### Linguee
 
-Un concordanciador bilingüe con frases de ejemplo reales extraídas de documentos de la Unión Europea, patentes y corpus paralelos. Cuando queremos verificar una traducción de DeepL, Linguee muestra cómo se usó el término en veinte documentos reales. Hoy forma parte de DeepL y sigue funcionando como referencia independiente.
+Un concordanciador bilingüe con frases de ejemplo extraídas de documentos de la Unión Europea, patentes y corpus paralelos. Cuando queremos verificar una traducción de DeepL, Linguee muestra cómo se usó el término en veinte documentos reales. Hoy forma parte de DeepL y sigue funcionando como referencia independiente.
 
 ### Reverso Context
 
-La misma idea que Linguee con otras fuentes: más fuerte en lengua hablada, subtítulos de películas y registro conversacional. Entre los dos, tienes ejemplos de uso para casi cualquier expresión.
+La misma idea que Linguee con otras fuentes: más fuerte en lengua hablada, subtítulos de películas y registro conversacional.
 
 ### LanguageTool
 
 Un corrector de gramática y estilo multilingüe para francés, español, alemán, neerlandés y más idiomas. Grammarly cubre a la profundidad que necesitamos solo el inglés, así que para cualquier trabajo en otra lengua [LanguageTool](https://languagetool.org/chrome) es la mejor opción.
 
-## Dos extras para traductores que también trabajan con webs
+## Dos extensiones para presupuestar y revisar una web antes de traducirla
 
-Si tu trabajo de traducción toca sitios web, dos extensiones más te permiten presupuestar con una visión completa del sitio y confirmar que el original está en buen estado antes de localizarlo.
+Si tus traducciones tocan sitios web, dos extensiones más te dan una visión completa del sitio antes del presupuesto y confirman que el original está en buen estado antes de localizarlo. Las presentamos junto a otras en nuestra selección de [extensiones de Chrome para SEO](/es/extensiones-chrome-seo/).
 
 **Wappalyzer** te dice qué CMS, qué plugins y qué sistema de traducción usa un sitio antes de abrir el código fuente. Cuando un posible cliente nos pregunta por la traducción de su web en WordPress, queremos saber en dos segundos si funciona con WPML, Polylang, TranslatePress o un sistema propio. Nuestra página de [traducción de páginas web](/es/services/traduccion-de-paginas-web/) explica lo que supone cada uno en la práctica.
 
-**Detailed SEO Extension** ofrece una auditoría on-page rápida de encabezados, metadatos, hreflang, etiquetas canónicas y marcado schema. Antes de localizar una web a tres idiomas más, queremos ver si el SEO del idioma original está bien resuelto. Nuestra guía de [SEO técnico para sitios multilingües](/es/seo-tecnico-para-sitios-multilingues/) detalla lo que revisamos después.
+**Detailed SEO Extension** ofrece una auditoría on-page rápida de encabezados, metadatos, hreflang, etiquetas canónicas y marcado schema. Antes de localizar una web a tres idiomas más, comprobamos que el SEO del idioma original está bien resuelto. Nuestra guía de [ajustes técnicos para sitios multilingües](/es/seo-tecnico-para-sitios-multilingues/) detalla lo que revisamos después.
 
-## Lo que hemos retirado de la versión anterior de la lista
+## Una lista corta: las cinco extensiones sustituidas
 
-Cada extensión que conservas es otra ventana, otro atajo y otro permiso, así que mantenemos la lista corta. Estas cinco dejaron su sitio.
-
-**Readlang Web Reader.** Útil para quien aprende idiomas, que es donde mejor encaja.
-
-**TransOver.** La calidad de su motor ha quedado por detrás de la de DeepL, y su ventana emergente choca con varias webs modernas.
-
-**Rememberry.** El trabajo con tarjetas de memoria encaja mejor en Anki.
-
-**Grammarly.** Sigue siendo excelente para quien escribe solo en inglés; para profesionales multilingües, LanguageTool cubre más idiomas en profundidad y lo sustituye aquí.
-
-**Lingvanex.** Sigue funcionando, y DeepL junto con una extensión de LLM cubre el mismo terreno con mejor resultado.
+Cada extensión que conservas es otra ventana, otro atajo y otro permiso, así que cinco dejaron su sitio. Readlang Web Reader sirve sobre todo a quien aprende idiomas. TransOver tiene un motor que ha quedado por detrás de DeepL y una ventana emergente que choca con varias webs modernas. Las tarjetas de memoria de Rememberry encajan mejor en Anki. Grammarly sigue siendo excelente para el inglés, y LanguageTool cubre más idiomas en profundidad. Lingvanex sigue funcionando, y DeepL junto con una extensión de LLM cubre el mismo terreno con mejor resultado.
 
 ## Comparativa lado a lado
 
@@ -129,11 +113,11 @@ Cada extensión que conservas es otra ventana, otro atajo y otro permiso, así q
 >
 > Fuente: [DeepL API documentation, Languages supported](https://developers.deepl.com/docs/getting-started/supported-languages)
 
-> El mayor cambio en más de dos décadas de trabajo multilingüe: el navegador se ha convertido en el banco de trabajo. La traducción automática ha mejorado, han llegado los LLM, y el gran cambio está ahí. Todo lo que hacíamos entre Trados, un diccionario de papel y tres monitores ocurre ahora en una sola ventana de Chrome con siete extensiones. El oficio es el mismo. Las herramientas son irreconocibles.
+> El mayor cambio en más de dos décadas de trabajo multilingüe: el navegador se ha convertido en el banco de trabajo. Todo lo que hacíamos entre Trados, un diccionario de papel y tres monitores ocurre ahora en una sola ventana de Chrome con siete extensiones.
 >
 > Mike Bastin, consultor de SEO multilingüe y traducción
 
-## Cómo las encadenamos en una jornada de traducción
+## El orden que más tiempo ahorra en un encargo real
 
 Las herramientas rinden en el orden correcto: primero las máquinas, para la velocidad, y al final una persona, para la precisión. Un ejemplo real: un despacho de abogados belga nos envió un extracto de contrato de 1.200 palabras en francés para traducirlo al inglés de cara a una reunión con un cliente internacional.
 
@@ -176,28 +160,20 @@ Dos horas desde el francés en bruto hasta el inglés entregado.
 <p><strong>¿Un contrato o un escrito judicial en el que cada término crea una obligación?</strong> Nuestra <a href="/es/services/traduccion-profesional/">traducción jurídica</a> va a traductores con formación en el derecho del país correspondiente, con traducción jurada o certificada cuando el organismo receptor la exige. <a href="/es/contactanos/">Cuéntanos para qué es el documento</a>.</p>
 </aside>
 
-## Hacia dónde va el conjunto de herramientas del traductor
+## Las herramientas en las que conviene invertir
 
-Saber hacia dónde van las herramientas te dice qué aprender ahora y en qué invertir. Dos previsiones para los próximos doce a dieciocho meses. Los LLM en panel lateral probablemente absorberán la mayoría de las extensiones de traducción dedicadas para la consulta palabra a palabra, mientras que los corpus bilingües como Linguee y Reverso Context ganarán peso, porque los ejemplos reales son la forma de comprobar lo que produce un LLM.
+Dos previsiones para los próximos doce a dieciocho meses. Los LLM en panel lateral probablemente absorberán la mayoría de las extensiones de traducción dedicadas para la consulta palabra a palabra, mientras que los corpus bilingües como Linguee y Reverso Context ganarán peso, porque los ejemplos reales son la forma de comprobar lo que produce un LLM.
 
 También se multiplicarán los complementos de las herramientas TAO especializadas. Smartcat, Lokalise y Phrase compiten por llevar el flujo de trabajo del traductor a Chrome, así que si trabajas dentro de un entorno TAO, cuenta con añadir uno de ellos pronto. Para una visión más amplia, lee nuestro artículo sobre [cómo la IA está cambiando la traducción y la localización](/es/ia-traduccion-y-localizacion/).
 
-El conjunto del navegador es la superficie. Debajo hay un flujo de trabajo pensado para comprobar la traducción automática y los LLM más rápido de lo que baja el precio por palabra. Si gestionas contenido multilingüe en varios mercados y quieres una segunda opinión sobre la producción que lo sostiene, mira cómo trabajamos la [traducción profesional](/es/services/traduccion-profesional/) y la [posedición de IA](/es/services/posedicion-de-ia/), o [escríbenos](/es/contactanos/) y repasamos tu conjunto actual en 20 minutos.
+El conjunto del navegador es la superficie. Debajo hay un flujo de trabajo pensado para comprobar la traducción automática y los LLM más rápido de lo que baja el precio por palabra. Si gestionas contenido multilingüe en varios mercados, nuestro servicio de [posedición de traducción automática](/es/services/posedicion-de-ia/) aplica ese flujo de trabajo a tus volúmenes.
 
 ## Preguntas frecuentes
-
-### ¿Qué extensión de Chrome da la mejor calidad de traducción en 2026?
-
-Para pares de lenguas europeas, DeepL sigue produciendo el resultado en bruto más natural. Para contenido más largo o con más matices, una extensión de LLM generalista como Claude in Chrome supera a los motores dedicados, porque acepta una indicación de tono, registro y público junto con el texto original.
 
 ### ¿Son gratuitas todas estas extensiones?
 
 Todas tienen un plan gratuito que cubre un uso ocasional, salvo Claude in Chrome, que necesita un plan de pago de Claude. Para un volumen profesional, DeepL Pro, Mate Pro y una suscripción a Claude o ChatGPT desbloquean las funciones que la mayoría de los traductores en activo acaban necesitando.
 
-### ¿Seguimos necesitando una herramienta TAO con un conjunto de navegador tan completo?
+### ¿Sigue haciendo falta una herramienta TAO con un conjunto de navegador tan completo?
 
 Sí, para cualquier proyecto con memoria de traducción, descuentos por repeticiones o glosarios del cliente. El conjunto del navegador acelera la investigación, la consulta y la revisión; la herramienta TAO sigue llevando la segmentación, la memoria y la coherencia que los clientes profesionales esperan en proyectos de varios archivos.
-
-### ¿Hará Manifest V3 que desaparezcan más extensiones de traducción?
-
-La gran ola de migración está prácticamente terminada. Las extensiones que siguen en pie en 2026 son las que tienen recursos para mantenerlas, y eso ya es un filtro útil a la hora de decidir qué instalar.
