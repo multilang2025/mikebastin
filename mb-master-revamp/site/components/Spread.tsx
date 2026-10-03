@@ -15,7 +15,7 @@ import type { ProjectCopy } from "@/lib/projects-locale";
  * `copy` replaces the English strings on the FR and ES homepages. The case
  * studies exist in English only, so a localized spread links to none.
  */
-export default function Spread({ d, flip, copy }: { d: Project; flip: boolean; copy?: ProjectCopy }) {
+export default function Spread({ d, flip, copy, numeral }: { d: Project; flip: boolean; copy?: ProjectCopy; numeral?: string }) {
   const ref = useRef<HTMLElement>(null);
   const still = useReducedMotion();
   const { scrollYProgress } = useScroll({
@@ -56,7 +56,7 @@ export default function Spread({ d, flip, copy }: { d: Project; flip: boolean; c
             className="display text-[1.3rem] font-medium tabular-nums"
             style={{ color: "var(--berry)" }}
           >
-            {d.numeral}.
+            {numeral ?? d.numeral}.
           </span>
           <span className="eyebrow">{copy?.angle ?? d.angle}</span>
         </div>

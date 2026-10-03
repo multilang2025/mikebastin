@@ -1,22 +1,22 @@
 ---
 words: 1850
-title: "Cómo optimizar tu Perfil de Empresa de Google"
+title: "Cómo optimizar tu Perfil de Empresa de Google en Valencia"
 slug: "optimizar-perfil-de-empresa-de-google"
 locale: "es"
 type: "posts"
 group: "g047"
 wpId: 24857773
 date: "2026-05-31T20:44:43"
-modified: "2026-05-31T20:44:43"
+modified: "2026-10-03"
 sourceUrl: "https://mikebastin.com/es/optimizar-perfil-de-empresa-de-google/"
-excerpt: "Cómo optimizar tu Perfil de Empresa de Google en 2026: categorías, reseñas, fotos y Gemini en Maps, para que tu ficha atraiga más llamadas y visitas."
+excerpt: "Optimiza tu Perfil de Empresa de Google en Valencia: categorías, reseñas, fotos y Gemini en Maps, para que tu ficha atraiga más llamadas y visitas."
 ---
 
 ![Cómo optimizar tu Perfil de Empresa de Google](/images/legacy/2024/10/Google-Business-Profile-1024x386.webp)
 
-Tu ficha de Google es lo primero que ve quien busca tu servicio cerca: antes que tu web, a menudo antes que tu nombre. Un perfil al día, con fotos recientes y reseñas nuevas, te mantiene entre las tres empresas que Google enseña en el mapa, y ahí se deciden las llamadas y las reservas.
+Tu ficha de Google es lo primero que ve quien busca tu servicio cerca, en Ruzafa, en El Carmen o en Benimaclet: antes que tu web, a menudo antes que tu nombre. Un perfil al día, con fotos recientes y reseñas nuevas, te mantiene entre las tres empresas que Google enseña en el mapa, y ahí se deciden las llamadas y las reservas.
 
-Tomamos como ejemplo un estudio de yoga en Valencia, pero cada paso vale para cualquier negocio con local abierto al público. Si tu negocio está en Valencia, nuestra guía de [posicionamiento web en Valencia](/es/posicionamiento-web-valencia/) completa el perfil con tu web. Aquí tienes lo que cambió en el perfil entre 2024 y 2026, cómo dejarlo completo y qué revisar cada mes.
+Tu **Perfil de Empresa de Google en Valencia** lo leen clientes que buscan en castellano, en valenciano y en inglés, y una ficha que les habla a todos recibe las llamadas de todos. Tomamos como ejemplo un estudio de yoga en Valencia, y cada paso vale para cualquier negocio con local abierto al público. Nuestra guía de [posicionamiento web en Valencia](/es/posicionamiento-web-valencia/) completa el perfil con tu web, y la de [promocionar tu negocio local en Google Maps en Valencia](/es/promocionar-negocio-local-google-maps-valencia/) suma las reseñas, las publicaciones y los anuncios. Aquí tienes lo que cambió en el perfil entre 2024 y 2026, cómo dejarlo completo y qué revisar cada mes.
 
 ## Tu perfil, fuente de respuestas para la IA
 
@@ -65,7 +65,7 @@ Las categorías secundarias sirven de apoyo: añade solo lo que de verdad enseñ
 
 Tu descripción es materia prima para las respuestas de la IA: Gemini la lee, la coteja con tu web y la usa para responder en Maps.
 
-Escríbela en lenguaje claro y empieza por lo que enseñas, dónde lo enseñas y a quién atiendes. Incluye tus estilos, las certificaciones de tus profesores, los niveles de clase, los idiomas y tus talleres o retiros.
+Escríbela en lenguaje claro y empieza por lo que enseñas, dónde lo enseñas y a quién atiendes. Incluye tus estilos, las certificaciones de tus profesores, los niveles de clase, los idiomas y tus talleres o retiros. En Valencia, decir que das clases en inglés o en valenciano te pone delante de quien busca en esos idiomas.
 
 Si partes de un texto sugerido, edítalo y añade los detalles que solo tú conoces: el linaje Ashtanga, la certificación prenatal, las clases bilingües de los martes.
 
@@ -118,7 +118,7 @@ Las métricas del panel te dicen si el perfil convierte las vistas en clientes. 
 Lee las impresiones junto a las acciones. Si tienes muchas impresiones y pocas acciones, retoca primero la descripción y las fotos.
 
 <aside class="post-cta">
-<p><strong>¿Quieres aparecer entre los primeros del mapa en cada ciudad donde vendes?</strong> Nuestro <a href="/es/services/seo-local/">SEO local</a> trabaja tu ficha, tus páginas por ciudad y tus reseñas, mercado por mercado y en el idioma de tus clientes. <a href="/es/contactanos/">Pide una auditoría gratuita de 20 minutos</a>.</p>
+<p><strong>¿Quieres aparecer entre los primeros del mapa en Valencia?</strong> Nuestro <a href="/es/services/seo-local/">SEO local en Valencia</a> trabaja tu ficha, tus páginas por barrio y tus reseñas en el idioma de tus clientes, y en cada ciudad donde tengas sede. <a href="/es/contactanos/">Pide una auditoría gratuita de 20 minutos</a>.</p>
 </aside>
 
 ## Preguntas frecuentes sobre el Perfil de Empresa de Google en 2026

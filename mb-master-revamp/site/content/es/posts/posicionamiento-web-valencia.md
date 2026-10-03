@@ -133,7 +133,7 @@ En Google Analytics, los informes geográficos muestran cuánto tráfico llega d
 
 ## Cinco primeros pasos para este mes
 
--   **Reclama tu Perfil de Empresa de Google.** Crea y mantén al día un [Perfil de Empresa de Google](https://www.google.com/business/) para aparecer en los resultados locales y en Maps; nuestra guía para [optimizar el Perfil de Empresa de Google](/es/optimizar-perfil-de-empresa-de-google/) lo explica paso a paso.
+-   **Reclama tu Perfil de Empresa de Google.** Crea y mantén al día un [Perfil de Empresa de Google](https://www.google.com/business/) para aparecer en los resultados locales y en Maps; nuestra guía para [optimizar el Perfil de Empresa de Google](/es/optimizar-perfil-de-empresa-de-google/) lo explica paso a paso. Para subir en el mapa con reseñas, publicaciones y anuncios en castellano, valenciano e inglés, sigue nuestra guía para [promocionar tu negocio local en Google Maps en Valencia](/es/promocionar-negocio-local-google-maps-valencia/).
 -   **Pide reseñas.** Anima a tus clientes satisfechos a dejar una reseña en Google, Yelp o Tripadvisor, y responde a las reseñas para generar confianza.
 -   **Escribe contenido local.** Artículos y páginas de destino sobre eventos, noticias y temas de Valencia, de las Fallas a la vida de tu barrio, atraen tráfico local y construyen autoridad.
 -   **Responde a las preguntas habladas.** Las búsquedas por voz se formulan con naturalidad, como «¿dónde se come la mejor paella de Valencia?», así que responde directamente a preguntas de ese tipo.

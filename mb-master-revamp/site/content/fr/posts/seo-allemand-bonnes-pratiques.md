@@ -193,4 +193,4 @@ Des audits SEO réguliers gardent votre site conforme aux règles allemandes et 
 
 ## Par où commencer
 
-Commencez par la recherche de mots-clés menée en allemand, pays par pays. Adaptez ensuite le contenu aux lecteurs allemands, et réglez les bases techniques (URL, hreflang, vitesse) avant d’investir dans les liens. La localisation du contenu, avec ses usages propres à chaque pays, constitue le volet langue de cette feuille de route.
+Commencez par la recherche de mots-clés menée en allemand, pays par pays. Adaptez ensuite le contenu aux lecteurs allemands, et réglez les bases techniques (URL, hreflang, vitesse) avant d’investir dans les liens. La [localisation du contenu en allemand](/fr/localiser-contenu-en-allemand/), avec ses usages propres à chaque pays, du choix entre Sie et Du à l’humour, constitue le volet langue de cette feuille de route.

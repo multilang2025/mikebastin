@@ -38,6 +38,7 @@ const TOPICS: LocaleTopic[] = [
       "expert-en-seo-international",
       "seo-en-belgique",
       "seo-allemand-bonnes-pratiques",
+      "localiser-contenu-en-allemand",
       "netlinking-en-espagne",
       "strategie-marketing-international",
       "marque-internationale",
@@ -82,6 +83,7 @@ const TOPICS: LocaleTopic[] = [
       "nouvelles-tendances-du-secteur-des-affaires",
       "strategie-search-everywhere",
       "avenir-du-seo",
+      "ia-et-strategies-seo",
       "marketing-ia",
       "chatbots-ia-entreprise",
       "llm-alternatifs",
@@ -239,7 +241,7 @@ const TOPICS: LocaleTopic[] = [
     blurb:
       "Cómo ganar visibilidad en las búsquedas de tu zona: enlaces de editores españoles y un Perfil de Empresa de Google bien cuidado.",
     service: { href: "/es/services/seo-local/", label: "SEO local" },
-    posts: ["link-building-local-en-espana", "optimizar-perfil-de-empresa-de-google", "posicionamiento-web-valencia", "seo-despachos-de-abogados"],
+    posts: ["link-building-local-en-espana", "optimizar-perfil-de-empresa-de-google", "promocionar-negocio-local-google-maps-valencia", "posicionamiento-web-valencia", "seo-despachos-de-abogados"],
   },
   {
     locale: "es",

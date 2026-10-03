@@ -130,7 +130,7 @@ CSA Research publie de longue date sur ce sujet, par exemple sur [l’avantage d
 
 ## Contenu et SEO forment une seule discipline
 
-Un contenu mérite son budget quand il répond à une intention de recherche, bâtit une autorité thématique ou soutient une conversion. Organisé en clusters (une page pilier soutenue par des pages liées), il prend de la valeur avec le temps. Mesurez le contenu en contacts qualifiés, et élaguez ou fusionnez chaque trimestre les pages les plus faibles. Notre méthode pour [créer une stratégie de contenu ciblée](/fr/strategie-de-contenu-ciblee/) organise ce travail en sept étapes.
+Un contenu mérite son budget quand il répond à une intention de recherche, bâtit une autorité thématique ou soutient une conversion. Organisé en clusters (une page pilier soutenue par des pages liées), il prend de la valeur avec le temps. Mesurez le contenu en contacts qualifiés, et élaguez ou fusionnez chaque trimestre les pages les plus faibles. Notre méthode pour [créer une stratégie de contenu ciblée](/fr/strategie-de-contenu-ciblee/) organise ce travail en sept étapes. Pour répartir ce travail entre l’IA et vos experts, de la recherche de mots-clés à la publication, voyez [la part du travail SEO à confier à l’IA](/fr/ia-et-strategies-seo/).
 
 ## Les pratiques propres protègent vos positions
 

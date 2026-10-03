@@ -97,8 +97,10 @@ const headingsOf = (html) =>
     decode(m[2].replace(/<[^>]+>/g, "")).trim()
   );
 
-// Product and platform names keep their capitals in Spanish.
-const NAMES = /Perfil de Empresa de Google|Google Analytics|Search Console|Tag Manager|Generative Engine Optimization|Google Ads|Microsoft Advertising|Core Web Vitals|Link Manager|Interlinks Manager|Autolinks Manager|Screaming Frog|Link Whisper/g;
+// Product, platform and place names keep their capitals in Spanish. Places
+// joined the list with the Valencia focus (3 Oct 2026), whose headings name
+// the city and the markets a Valencia company sells into.
+const NAMES = /Valencia|Países Bajos|Flandes|Reino Unido|Irlanda|Portugal|Brasil|Google Maps|Perfil de Empresa de Google|Google Analytics|Search Console|Tag Manager|Generative Engine Optimization|Google Ads|Microsoft Advertising|Core Web Vitals|Link Manager|Interlinks Manager|Autolinks Manager|Screaming Frog|Link Whisper/g;
 
 function titleCase(h0) {
   const h = h0.replace(NAMES, "");

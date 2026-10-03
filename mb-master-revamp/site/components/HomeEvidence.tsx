@@ -19,7 +19,7 @@ const T = {
     heading: "Des sites que nous gérons, mesurés dans Google Search Console.",
     clicks: "clics depuis Google",
     period: "de mai à juillet 2026",
-    source: "Source : la Google Search Console de chaque site, de mai à juillet 2026.",
+    source: "Source\u00a0: la Google Search Console de chaque site, de mai à juillet 2026.",
     all: null,
   },
   es: {
@@ -78,7 +78,7 @@ export default function HomeEvidence({ locale = "en", band = "b" }: { locale?: "
         </Reveal>
         <div>
           {cases.map((p, i) => (
-            <Spread key={p.domain} d={p} flip={i % 2 === 1} copy={copy ? copy[p.slug] : undefined} />
+            <Spread key={p.domain} d={p} flip={i % 2 === 1} copy={copy ? copy[p.slug] : undefined} numeral={["I", "II", "III"][i]} />
           ))}
         </div>
         {t.all && (

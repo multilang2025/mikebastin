@@ -35,6 +35,9 @@ illustrations). No PR is open.
 | Q15 | Confirm the two Globaprom pages redirect to the homepage in FR and ES |
 | Q16 | Review order for the FR and ES drafts (every page is a draft) |
 | Q17 | Sign off the FR and ES motto lines |
+| Q26 | Valencian (valenciano) copy: can we deliver pages in Valencian? The ES pages say Valencia searches in castellano, valenciano and English; the multilingual SEO excerpt implies we win clients in Valencian too. Also: meetings in person at Calle Rugat 12 - 2 (now offered on the ES homepage, contact and service pages) |
+| Q27 | Declaudify P2: names and roles of the specialists to show on the homepage, and which two testimonials (with source links) |
+| Q28 | Re-measure the Valencia terms (country `es`) when Ahrefs units reset; Ahrefs and Semrush were both out on 3 Oct 2026 |
 | Q18 | Which further EN posts get a FR or ES adaptation (8 French and 5 Spanish more were built on 30 Sep 2026 without waiting: the Spain market posts, local, AI and measurement; the French journal is at 28 posts, the Spanish at 32) |
 
 ### Site and launch
