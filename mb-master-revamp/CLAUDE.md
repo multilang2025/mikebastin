@@ -335,6 +335,18 @@ and no og:url. Rules that came out of fixing it:
   route serves many slugs pass `cardAlt` to `pageMeta()` for a per-page
   "Title. Subtitle" alt; every page also emits `og:locale:alternate` and
   `twitter:site`/`creator` @mikebastin.
+- **Core Web Vitals** (audit, 3 Oct 2026; mobile, real throttling): LCP
+  1.8 to 2.5 s on the eleven pages measured (was 2.1 to 3.8), CLS 0
+  everywhere. What fixed it and must stay: the first band of a page is
+  never held back by the scroll reveal (globals.css), the consent banner is
+  in the static HTML and hidden before paint for visitors who already
+  chose (`html.mb-consented`), the first journal picture loads eagerly,
+  Fraunces falls back to Times New Roman, Cormorant is gone, and hashed
+  assets cache for a year (`.htaccess`). Measure with gzip on: a static
+  server without compression adds about a second to every first paint.
+  Still open (P2/P3): motion/react on Testimonials, Counter and the Spread
+  parallax (39 kB), dl-art CSS loaded whole on 69 pages, and the locale
+  manifest inlined into every page.
 - **Structured data** (audit, 3 Oct 2026): a WebSite node sitewide, author
   and publisher written out in full, `inLanguage` on posts and services,
   FR and ES breadcrumbs rooted at `/fr/` and `/es/` through the blog or

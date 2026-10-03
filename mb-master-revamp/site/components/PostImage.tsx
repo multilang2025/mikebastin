@@ -29,7 +29,7 @@ export default function PostImage({
   rounded = false,
   compact = false,
   priority = false,
-  sizes = "(min-width: 1280px) 1200px, 100vw",
+  sizes = "(min-width: 1280px) 1200px, calc(100vw - 32px)",
   alt,
 }: {
   slug: string;

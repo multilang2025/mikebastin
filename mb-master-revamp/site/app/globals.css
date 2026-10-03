@@ -107,7 +107,6 @@
   --color-rule: var(--rule);
 
   --font-display: var(--font-fraunces), "Iowan Old Style", Georgia, serif;
-  --font-script: var(--font-cormorant), Georgia, serif;
   --font-sans: var(--font-inter), system-ui, sans-serif;
 }
 
@@ -791,6 +790,21 @@ html.mb-anim .reveal.is-in {
     opacity .5s ease-out min(var(--rd, 0s), .2s),
     transform .5s ease-out min(var(--rd, 0s), .2s);
 }
+
+/* The first band of every page is on screen at load, so it is never held
+   back: hiding the hero until the script reveals it made the h1, the lede
+   or the cover photo paint 0.6 to 4 s late on phones and fail LCP (CWV
+   audit, 3 Oct 2026). Reveals further down keep their fade. */
+html.mb-anim main > section:first-of-type .reveal,
+html.mb-anim main > :first-child .reveal {
+  opacity: 1;
+  transform: none;
+  transition: none;
+}
+
+/* A visitor who already answered the consent banner never sees it
+   (set before paint in app/layout.tsx). */
+html.mb-consented .mb-consent { display: none; }
 
 @media (prefers-reduced-motion: reduce) {
   html.mb-anim .reveal,

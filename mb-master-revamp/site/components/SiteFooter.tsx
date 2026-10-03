@@ -266,7 +266,7 @@ export default function SiteFooter({
             </div>
             <div className="flex flex-col items-start gap-5 sm:flex-row">
               <img
-                src="/images/mike-bastin.webp"
+                src="/images/mike-bastin-192.webp"
                 alt="Mike Bastin"
                 width={96}
                 height={96}

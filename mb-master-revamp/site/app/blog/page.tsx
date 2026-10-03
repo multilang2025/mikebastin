@@ -118,7 +118,10 @@ export default function BlogIndex() {
                         slug={group.pillar?.slug ?? (group.pillarHref ?? "").replace(/\//g, "")}
                         cluster={group.name}
                         className="aspect-[1200/630] w-full"
-                        sizes="(min-width: 640px) 50vw, 100vw"
+                        sizes="(min-width: 640px) 50vw, calc(100vw - 64px)"
+                        // The first pillar picture is the page's LCP on
+                        // phones, so it loads eagerly; the rest stay lazy.
+                        priority={gi === 0}
                       />
                     </span>
                     <div>

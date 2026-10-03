@@ -14,7 +14,7 @@ export default function FounderPortrait({ alt, caption }: { alt: string; caption
     <figure className="mx-auto mt-12 w-full max-w-[320px] lg:mx-0 lg:mt-0 lg:w-[420px] lg:max-w-none">
       <img
         src="/images/mike-bastin-portrait-760.webp"
-        srcSet="/images/mike-bastin-portrait-400.webp 400w, /images/mike-bastin-portrait-760.webp 760w"
+        srcSet="/images/mike-bastin-portrait-400.webp 400w, /images/mike-bastin-portrait-560.webp 560w, /images/mike-bastin-portrait-760.webp 760w"
         sizes="(min-width: 1024px) 420px, 320px"
         width={760}
         height={534}

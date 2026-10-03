@@ -116,6 +116,7 @@ export default function SpanishBlogIndex() {
                       title={p.title}
                       excerpt={p.excerpt}
                       date={DATE.format(new Date(p.date))}
+                      priority={gi === 0 && i === 0}
                     />
                   </li>
                 </Reveal>
