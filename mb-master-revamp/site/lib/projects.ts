@@ -61,9 +61,11 @@ export type Project = {
    * Enquiries received through the client site's own forms over the same
    * three months (owner, 3 Oct 2026: "the number of leads is more
    * important"). Counted from the form records (Formidable entries, read 3
-   * Oct 2026), drafts and obvious spam left out. Absent where the site keeps
-   * no countable record: C21 Perdomo's headless front end posts its forms
-   * elsewhere, and ValenciaMove tracks no lead events.
+   * Oct 2026), drafts and obvious spam left out. ValenciaMove's come from
+   * its own dashboard (Supabase `consultations`, form rows not typed spam),
+   * which starts on 1 July 2026, so its figure covers July alone and says
+   * so in `what`. Absent where the site keeps no countable record: C21
+   * Perdomo's headless front end posts its forms elsewhere.
    */
   leads?: { count: string; what: string };
   /** Path under /work/, omitted where no usable capture exists. */
@@ -183,6 +185,7 @@ export const PROJECTS: Project[] = [
    "1,132 URLs live across five languages.",
     services: ["Content strategy", "Five locales", "Technical SEO", "Owned property"],
     search: { clicks: "5,685", impressions: "496,316", position: "10.7", note: "May to July 2026" },
+    leads: { count: "25", what: "enquiries in July" },
     shot: `/work/valenciamove.webp?v=${SHOT_VERSION}`,
   },
   {

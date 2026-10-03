@@ -97,8 +97,8 @@ export default function ResultsPage() {
             <blockquote className="mb-12 max-w-[56ch] text-[.85rem]" style={{ color: "var(--dim)" }}>
               Sources, May to July 2026: enquiries from the {LEAD_SITES} sites
               that keep a record of their contact and quote forms, counted
-              from those records; clicks and impressions from Google Search
-              Console.
+              from those records (ValenciaMove’s record starts in July);
+              clicks and impressions from Google Search Console.
             </blockquote>
           </Reveal>
 
