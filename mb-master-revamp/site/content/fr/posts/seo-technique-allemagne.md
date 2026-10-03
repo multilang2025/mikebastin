@@ -155,7 +155,7 @@ Google explore et classe la version mobile de votre site. Vos positions suivent 
 ### Concevoir pour les utilisateurs allemands sur mobile
 
 **Design adaptatif :**  
-Une mise en page adaptative s’ajuste à l’écran, et les acheteurs ont la même expérience sur téléphone, tablette et ordinateur. C’est aujourd’hui la norme.
+Une mise en page adaptative s’ajuste à l’écran, et les acheteurs ont la même expérience sur téléphone, tablette et ordinateur. Le design adaptatif est aujourd’hui la norme.
 
 **Navigation mobile :**  
 Les utilisateurs allemands attendent une navigation intuitive sur téléphone. Rendez les menus, les boutons et les appels à l’action faciles à toucher, et gardez une mise en page épurée.
