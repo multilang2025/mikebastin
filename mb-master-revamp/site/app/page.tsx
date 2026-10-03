@@ -1,10 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Reveal from "@/components/Reveal";
-import MarketReach from "@/components/MarketReach";
+import FounderPortrait from "@/components/FounderPortrait";
 import Counter from "@/components/Counter";
-import Spread from "@/components/Spread";
-import { PROJECTS } from "@/lib/projects";
+import HomeEvidence from "@/components/HomeEvidence";
 import Testimonials from "@/components/Testimonials";
 import SiteFooter from "@/components/SiteFooter";
 import { SITE_URL } from "@/lib/schema";
@@ -136,89 +135,68 @@ export default function Home() {
   return (
     <main>
       {/* ============ HERO ============ */}
-      <section className="band band-a grain hero-glow relative overflow-hidden pb-[clamp(36px,5vw,72px)] pt-[clamp(52px,7vw,104px)]">
-        <div className="shell relative grid items-center gap-x-10 lg:grid-cols-[1fr_auto]">
+      {/* Declaudify brief (owner, 3 Oct 2026): the agency offer, the person
+          who leads it, one primary call to action. The h1 still carries the
+          primary term from lib/keywords.ts, "international SEO agency", and
+          the longer h2 under it says what the agency does. No shimmer, no
+          glow, no radar: the portrait is the hero art. */}
+      <section className="band band-a grain relative overflow-hidden pb-[clamp(48px,6vw,88px)] pt-[clamp(52px,7vw,104px)]">
+        <div className="shell relative grid items-center gap-x-14 lg:grid-cols-[1fr_auto]">
         <div>
           <Reveal>
-            <p className="eyebrow mb-5">
-              Built to sell, in every language
-            </p>
+            <p className="eyebrow mb-5">Multilingual SEO and localization agency</p>
           </Reveal>
 
           <Reveal i={1}>
-            {/* leading needs headroom: the italic descenders on "Converting"
-                collide with the lede at anything tighter than ~1.08 */}
-            {/* Owner rule, 21 Sep 2026: h1 of three to five words carrying
-                the keyword, with a longer h2 under it, set smaller,
-                echoing it. The sentence the owner approved ("that's the
-                way forward") is not lost, it moves to the h2 where its
-                length belongs. */}
-            {/* Owner, 22 Sep: two lines, and no preposition on the end.
-                "every market you sell in" became "every market you serve",
-                which keeps the owner's own phrase and loses the dangling
-                "in". Two lines is a measurement rather than a hope: the
-                measure went from 14ch to 25ch and the type down from
-                5.6rem to 4.3rem, which is what makes 50 characters break
-                once rather than three times. Checked in Chromium at 1920,
-                1440, 1366, 1280, 768, 390 and 360 wide. */}
-            <h1 className="mb-4 max-w-[25ch] pb-[.06em] text-[clamp(2.1rem,5.4vw,4.3rem)] font-semibold leading-[1.06]">
-              International SEO agency for every market you serve
+            <h1 className="mb-5 max-w-[22ch] text-[clamp(2.1rem,5.2vw,4rem)] font-semibold leading-[1.08]">
+              International SEO agency, led by Mike Bastin
             </h1>
           </Reveal>
 
           <Reveal i={2}>
-            <h2 className="mb-5 max-w-[30ch] text-[clamp(1.2rem,2.4vw,1.85rem)] font-medium leading-[1.25]">
-              Your English pages sell.{" "}
-              <span className="shimmer">Multilingual SEO makes your other languages sell too.</span>
+            <h2 className="mb-5 max-w-[34ch] text-[clamp(1.15rem,2.1vw,1.6rem)] font-medium leading-[1.3]">
+              We help companies attract customers across languages through international SEO, native content and website localization.
             </h2>
           </Reveal>
 
           <Reveal i={3}>
             <p
-              className="mb-8 max-w-[56ch] text-[clamp(1.05rem,1.5vw,1.2rem)] leading-[1.6]"
+              className="mb-8 max-w-[56ch] text-[clamp(1.02rem,1.4vw,1.14rem)] leading-[1.6]"
               style={{ color: "color-mix(in srgb, var(--dim) 65%, var(--ink))" }}
             >
-              You already sell abroad, so the demand is there. We find the
-              market with the most room to grow, write for it natively, and
-              count every enquiry it brings in.
+              Mike leads the strategy, with native specialists handling the
+              language and market details. Our reporting separates
+              performance by country and language.
             </p>
           </Reveal>
 
           <Reveal i={4}>
-            <div className="mb-7 flex flex-wrap items-center gap-x-6 gap-y-4">
+            <div className="flex flex-wrap items-center gap-x-6 gap-y-4">
               <Link href="/contact/" className="btn btn-primary btn-lg">
-                Book a free consultation
+                Discuss your project
               </Link>
               <Link href="/results/" className="ulink text-[.98rem]">
                 See client results
               </Link>
             </div>
           </Reveal>
-
-          <Reveal i={5}>
-            {/* Three things the service pages already commit to, rather than
-                the old "Ranking in EN, converting in FR" strip. That one read
-                as wordplay and did not survive reading: it handed each
-                language a single outcome, as though English only ranked and
-                French only converted, and it named four markets when six
-                language SEO services exist, quietly dropping DE, IT and PT. */}
-            <div className="flex flex-wrap items-center gap-x-3 gap-y-2 text-[.94rem]" style={{ color: "var(--dim)" }}>
-              {["Written natively, market by market", "One strategy across every language", "Enquiries counted per language"].map((t, i) => (
-                <span key={t} className="flex items-center gap-3">
-                  {i > 0 && <i className="block h-[3px] w-[3px] rounded-full" style={{ background: "var(--berry)" }} />}
-                  {t}
-                </span>
-              ))}
-            </div>
-          </Reveal>
         </div>
 
-        <MarketReach />
+        <FounderPortrait
+          alt="Mike Bastin, leader of our multilingual SEO and localization agency."
+          caption="Mike Bastin, agency lead · Valencia."
+        />
         </div>
       </section>
 
+      {/* ============ CLIENT EVIDENCE ============ */}
+      {/* Straight after the hero (brief, P1): dated Search Console figures,
+          then three cases chosen for the multilingual positioning, and a
+          link to the rest rather than all eight spreads. */}
+      <HomeEvidence />
+
       {/* ============ WHAT WE DO ============ */}
-      <section className="band band-b py-[clamp(64px,9vw,128px)]">
+      <section className="band band-a py-[clamp(64px,9vw,128px)]">
         <div className="shell">
           <Reveal>
             <p className="eyebrow mb-3">What we do</p>
@@ -255,42 +233,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ============ PULL QUOTE ============ */}
-      <section className="band band-a py-[clamp(64px,9vw,128px)]">
-        <div className="shell">
-          <Reveal>
-            <blockquote
-              className="display max-w-[22ch] text-[clamp(1.9rem,4.6vw,3.4rem)] font-medium leading-[1.14]"
-            >
-              A ranking gets you found.{" "}
-              <em style={{ color: "var(--berry)" }}>Writing in your buyer's language</em>{" "}
-              gets you the enquiry.
-            </blockquote>
-          </Reveal>
-        </div>
-      </section>
-
-      {/* ============ TESTIMONIALS ============ */}
-      <section className="band band-b py-[clamp(64px,9vw,128px)]">
-        <div className="shell">
-          <Reveal>
-            <p className="eyebrow mb-3">In their own words</p>
-            <h2 className="mb-5 max-w-[20ch] text-[clamp(1.8rem,3.6vw,2.9rem)] font-semibold leading-[1.1]">
-              Clients review us in their own language.
-            </h2>
-            <p className="mb-10 max-w-[56ch] text-[1.05rem]" style={{ color: "var(--dim)" }}>
-              Reviews arrived in Dutch, Spanish, French and English,
-              unprompted. Here are the English ones.
-            </p>
-          </Reveal>
-          <Reveal i={1}>
-            <Testimonials />
-          </Reveal>
-        </div>
-      </section>
-
       {/* ============ WHY IT WORKS ============ */}
-      <section className="band band-a py-[clamp(64px,9vw,128px)]">
+      <section className="band band-b py-[clamp(64px,9vw,128px)]">
         <div className="shell">
           <Reveal>
             <p className="eyebrow mb-3">Why it works</p>
@@ -309,24 +253,6 @@ export default function Home() {
                   {w.body}
                 </p>
               </Reveal>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ============ WORK ============ */}
-      <section id="work" className="band band-b py-[clamp(64px,9vw,128px)]">
-        <div className="shell">
-          <Reveal>
-            <p className="eyebrow mb-3">Picked from the line-up</p>
-            <h2 className="mb-4 max-w-[16ch] text-[clamp(1.8rem,3.6vw,2.9rem)] font-semibold leading-[1.1]">
-              Eight projects, all of them still live.
-            </h2>
-          </Reveal>
-
-          <div className="mt-10">
-            {PROJECTS.map((s, i) => (
-              <Spread key={s.domain} d={s} flip={i % 2 === 1} />
             ))}
           </div>
         </div>
@@ -390,8 +316,27 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ============ TESTIMONIALS ============ */}
+      <section className="band band-b py-[clamp(64px,9vw,128px)]">
+        <div className="shell">
+          <Reveal>
+            <p className="eyebrow mb-3">In their own words</p>
+            <h2 className="mb-5 max-w-[20ch] text-[clamp(1.8rem,3.6vw,2.9rem)] font-semibold leading-[1.1]">
+              Clients review us in their own language.
+            </h2>
+            <p className="mb-10 max-w-[56ch] text-[1.05rem]" style={{ color: "var(--dim)" }}>
+              Reviews arrived in Dutch, Spanish, French and English,
+              unprompted. Here are the English ones.
+            </p>
+          </Reveal>
+          <Reveal i={1}>
+            <Testimonials />
+          </Reveal>
+        </div>
+      </section>
+
       {/* ============ CREDIBILITY ============ */}
-      <section className="band band-b py-[clamp(56px,8vw,110px)]">
+      <section className="band band-a py-[clamp(56px,8vw,110px)]">
         <div className="shell">
           <div
             className="grid gap-px"
@@ -423,7 +368,7 @@ export default function Home() {
       </section>
 
       {/* ============ CONTACT ============ */}
-      <SiteFooter address />
+      <SiteFooter address band="b" />
 
     </main>
   );

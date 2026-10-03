@@ -231,6 +231,17 @@ needs.
 - IP boundary: no Marvel/superhero imagery tied to "Silver Surfer" — it is a
   prose-only nickname, visual language is original surf/wave motifs.
 
+## Declaudify brief (owner, 3 Oct 2026)
+
+[`docs/DECLAUDIFY-BRIEF.md`](docs/DECLAUDIFY-BRIEF.md) is the current design
+direction: the agency is recognised through Mike, its specialists and its real
+work. **No looping animation anywhere** (no shimmer, breathing glow or spinning
+art; entrance motion plays once). The homepages lead with Mike's portrait, the
+offer and one call to action, then dated client evidence and three cases. It
+supersedes the 2 Oct approval of the homepage market map (Q24). The brief also
+asks for "I" in Mike's founder story and personal commentary, an exception to
+the "we" rule above, for the P2 pass; services stay "we".
+
 ## Keywords are assigned, researched and enforced
 
 `site/lib/keywords.ts` holds one **primary** and several **secondary**

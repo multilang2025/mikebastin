@@ -2,10 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { pageMeta } from "@/lib/meta";
 import Reveal from "@/components/Reveal";
-import MarketReach from "@/components/MarketReach";
-import Spread from "@/components/Spread";
-import { PROJECTS } from "@/lib/projects";
-import { PROJECTS_ES } from "@/lib/projects-locale";
+import FounderPortrait from "@/components/FounderPortrait";
+import HomeEvidence from "@/components/HomeEvidence";
 import SiteFooter from "@/components/SiteFooter";
 import JsonLd from "@/components/JsonLd";
 import LocaleHtmlLang from "@/components/LocaleHtmlLang";
@@ -52,9 +50,6 @@ const SERVICES_FOR: { slug: string; name: string; line: string }[] = [
   { slug: "consultoria-de-inteligencia-artificial", name: "Consultoría de IA", line: "Procesos que se automatizan y una empresa que aparece en las respuestas de ChatGPT, Claude y Gemini." },
 ];
 
-/** Valencia clients lead the portfolio here; the rest keep the English order. */
-const VALENCIA_FIRST = ["delaguia-y-luzon", "valenciamove", "betranslated"];
-
 const STEPS = [
   "Una consulta gratuita de treinta minutos, en nuestra oficina de Valencia o por videollamada, sobre tus clientes, tus idiomas y lo que ya has probado.",
   "Un alcance por escrito para el primer trimestre: las páginas, las palabras clave y quién hace qué.",
@@ -67,11 +62,6 @@ export default function SpanishHome() {
   const live = new Set(getServicesForLocale("es").map((s) => s.slug));
   const markets = MARKETS.filter((m) => live.has(m.slug));
   const services = SERVICES_FOR.filter((s) => live.has(s.slug));
-  const rank = (slug: string) => {
-    const i = VALENCIA_FIRST.indexOf(slug);
-    return i === -1 ? VALENCIA_FIRST.length : i;
-  };
-  const projects = [...PROJECTS].sort((a, b) => rank(a.slug) - rank(b.slug));
 
   return (
     <main>
@@ -103,7 +93,7 @@ export default function SpanishHome() {
           <Reveal i={4}>
             <div className="flex flex-wrap items-center gap-6">
               <ButtonLink href="/es/contactanos/" size="lg">
-                Reserva una consulta gratuita
+                Hablemos de tu proyecto
               </ButtonLink>
               <Link href="/es/services/" className="ulink text-[.98rem]">
                 Ver nuestros servicios
@@ -111,9 +101,17 @@ export default function SpanishHome() {
             </div>
           </Reveal>
         </div>
-        <MarketReach />
+        <FounderPortrait
+          alt="Mike Bastin, director de nuestra agencia de SEO multilingüe y localización."
+          caption="Mike Bastin, director de la agencia · Valencia."
+        />
         </div>
       </section>
+
+      {/* ============ CLIENT EVIDENCE ============ */}
+      {/* Declaudify brief (owner, 3 Oct 2026): dated figures and three cases
+          straight after the hero, in place of all eight spreads. */}
+      <HomeEvidence locale="es" />
 
       {/* ============ WHAT WE DO ============ */}
       <section className="band band-b py-[clamp(56px,8vw,104px)]">
@@ -182,25 +180,8 @@ export default function SpanishHome() {
         </section>
       )}
 
-      {/* ============ WORK ============ */}
-      <section id="work" className="band band-b py-[clamp(64px,9vw,128px)]">
-        <div className="shell">
-          <Reveal>
-            <p className="eyebrow mb-3">Elegidos entre nuestros proyectos</p>
-            <h2 className="mb-4 max-w-[18ch] text-[clamp(1.8rem,3.6vw,2.9rem)] font-semibold leading-[1.1]">
-              Ocho proyectos en línea, tres de ellos en Valencia.
-            </h2>
-          </Reveal>
-          <div className="mt-10">
-            {projects.map((s, i) => (
-              <Spread key={s.domain} d={s} flip={i % 2 === 1} copy={PROJECTS_ES[s.slug]} />
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* ============ HOW WE WORK ============ */}
-      <section className="band band-a py-[clamp(56px,8vw,104px)]">
+      <section className="band band-b py-[clamp(56px,8vw,104px)]">
         <div className="shell grid gap-[clamp(32px,5vw,64px)] lg:grid-cols-[minmax(0,1fr)_minmax(0,1.2fr)]">
           <Reveal>
             <h2 className="text-[clamp(1.6rem,3vw,2.3rem)] font-semibold leading-[1.15]">Cómo trabajamos</h2>
