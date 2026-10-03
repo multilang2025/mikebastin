@@ -21,9 +21,9 @@ const PATH = "/es/contactanos/";
 
 export const metadata: Metadata = {
   ...pageMeta({
-    title: "Contáctanos, Mike Bastin",
+    title: "Contacta con tu agencia SEO en Valencia, Mike Bastin",
     description:
-      "Cuéntanos en qué idioma quieres vender ahora. Con un breve resumen de tu proyecto de SEO, localización o IA, te respondemos por lo general en un día laborable.",
+      "Contacta con nuestra agencia SEO en Valencia: cuéntanos tu proyecto de SEO, Google Ads, traducción o IA y te respondemos por lo general en un día laborable.",
     path: PATH,
     languages: esLanguages(PATH),
     ogLocale: "es_ES",
@@ -62,12 +62,12 @@ export default function SpanishContactPage() {
           </Reveal>
           <Reveal i={1}>
             <h1 className="mb-6 max-w-[18ch] text-[clamp(2.3rem,5.6vw,4rem)] font-semibold leading-[1.08]">
-              Contactar con una agencia SEO internacional
+              Contacta con nuestra agencia SEO en Valencia
             </h1>
           </Reveal>
           <Reveal i={2}>
             <h2 className="mb-6 max-w-[46ch] text-[clamp(1.2rem,2.1vw,1.7rem)] font-medium leading-[1.3]" style={{ color: "var(--ink)" }}>
-              Cuéntanos en qué idioma quieres vender ahora y empezamos con una consulta gratuita sobre tus mercados.
+              Cuéntanos qué clientes quieres ganar, en Valencia o fuera, y empezamos con una consulta gratuita, en nuestra oficina o por videollamada.
             </h2>
           </Reveal>
           <Reveal i={3}>
@@ -169,7 +169,7 @@ export default function SpanishContactPage() {
               <h2 className="mb-4 text-[1.08rem] font-semibold" style={{ color: "var(--ink)" }}>
                 Dónde encontrarnos
               </h2>
-              <p className="mb-2">Valencia, España, desde 2016.</p>
+              <p className="mb-2">Calle Rugat 12 - 2, 46021 Valencia, desde 2016. Te recibimos en la oficina con cita previa.</p>
               <p>Trabajamos directamente en español, inglés, francés y neerlandés. El alemán, el italiano, el portugués y el resto de idiomas los escriben redactores nativos que te presentamos.</p>
             </aside>
           </Reveal>

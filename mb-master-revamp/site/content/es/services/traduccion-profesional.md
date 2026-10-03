@@ -1,7 +1,7 @@
 ---
 words: 1011
-title: "Traducción profesional y jurada para tribunales, embajadas y administraciones"
-metaTitle: "Traducción profesional y jurada, Mike Bastin"
+title: "Traducción jurada en Valencia para tribunales, embajadas y extranjería"
+metaTitle: "Traducción jurada en Valencia, Mike Bastin"
 name: "Traducción profesional"
 slug: "traduccion-profesional"
 locale: "es"
@@ -9,21 +9,21 @@ type: "services"
 group: "g093"
 wpId: 24849034
 date: "2024-09-29T17:45:35"
-modified: "2026-09-30T12:00:00"
+modified: "2026-10-03T12:00:00"
 sourceUrl: "https://mikebastin.com/es/services/traduccion-profesional/"
-excerpt: "Contratos, actas y certificados traducidos por un especialista de tu sector, con traducción jurada en un plazo de uno a siete días según el documento."
+excerpt: "Traducción jurada en Valencia para juzgados, extranjería y embajadas, hecha por un especialista de tu sector en uno a siete días según el documento."
 ---
 
-## Un documento listo para el organismo que lo recibe
+## Traducción jurada en Valencia, lista para el organismo que la recibe
 
-Tienes que entregar un contrato a un socio francés, un acta de nacimiento a una administración alemana o unas cuentas anuales a inversores británicos. El documento lo leerá un tribunal, una embajada o un regulador, y cada término tiene que sostenerse ante ese lector.
+Tu empresa en Valencia tiene que presentar un contrato ante un juzgado, unas cuentas anuales a inversores británicos o unos estatutos a un socio francés. O resides aquí y la oficina de extranjería, una embajada o una administración te pide un acta de nacimiento o un título traducido al español. El documento lo leerá un tribunal, un consulado o un funcionario, y cada término tiene que sostenerse ante ese lector.
 
 Con el formato adecuado, el expediente se acepta a la primera y el plazo se mantiene. Una cláusula bien traducida en un pacto de socios y una cifra correcta en unas cuentas auditadas son también una cuestión de responsabilidad, además de un trabajo de revisión.
 
-Encargamos cada documento a un traductor especializado de la red BeTranslated, que dirigimos desde hace veinte años, y lo pasamos por una revisión antes de entregarlo.
+Encargamos cada documento a un traductor especializado de la red BeTranslated, la agencia de traducción que dirigimos en Valencia desde hace veinte años, y lo pasamos por una revisión antes de entregarlo.
 
 <aside class="post-cta">
-<p><strong>¿Tu documento tiene que ser aceptado por un tribunal, una administración o una embajada?</strong> Identificamos el tipo de traducción que exige el destinatario y la encargamos al especialista de tu sector. <a href="/es/contactanos/">Reserva una consulta gratuita</a>.</p>
+<p><strong>¿Tienes que presentar un documento traducido en un juzgado, en extranjería o en una embajada?</strong> Identificamos el tipo de traducción que exige el destinatario y la encargamos al especialista de tu sector. <a href="/es/contactanos/">Reserva una consulta gratuita</a>.</p>
 </aside>
 
 ## Plazos claros y un traductor de tu sector
@@ -39,7 +39,7 @@ Respondemos a cada solicitud, por lo general en un día laborable.
 
 ## Un despacho de abogados que trabaja en dos sistemas jurídicos
 
-Delaguía y Luzón es un despacho de abogados de Valencia cuya actividad abarca España y Francia en cuatro idiomas, entre ellos el ruso. Un mismo documento tiene que sostenerse a veces en dos sistemas jurídicos a la vez. Su web, que recoge esos contenidos jurídicos traducidos, obtuvo 38.476 clics con 2.399.567 impresiones en Google entre mayo y julio de 2026, con una posición media de 9,4.
+Delaguía y Luzón es un despacho de abogados de Valencia que trabaja en derecho civil, laboral, de extranjería y fiscal en España y Francia, en cuatro idiomas: español, francés, inglés y ruso. Un mismo documento tiene que sostenerse a veces en dos sistemas jurídicos a la vez. Su web, que recoge esos contenidos jurídicos traducidos, obtuvo 38.476 clics con 2.399.567 impresiones en Google entre mayo y julio de 2026, con una posición media de 9,4.
 
 Un abogado que presentará la traducción ante un tribunal o un cliente es exactamente el lector para el que trabaja esta red, y su sitio refleja el nivel de exigencia que aplicamos también a tus documentos.
 
@@ -48,7 +48,7 @@ Un abogado que presentará la traducción ante un tribunal o un cliente es exact
 Quien decide la fórmula correcta es el organismo que recibe el documento.
 
 - **Traducción certificada**: el traductor o la agencia firma una declaración de que la traducción es fiel.
-- **Traducción jurada**: la realiza un traductor inscrito ante un tribunal o un ministerio. En España es el traductor-intérprete jurado, nombrado por el Ministerio de Asuntos Exteriores, y es también la vía habitual en Francia y en buena parte de la Unión Europea.
+- **Traducción jurada**: la realiza un traductor inscrito ante un tribunal o un ministerio. En España es el traductor-intérprete jurado, nombrado por el Ministerio de Asuntos Exteriores, y es la traducción que suelen pedir los juzgados y la oficina de extranjería. Es también la vía habitual en Francia y en buena parte de la Unión Europea.
 - **Legalización notarial**: un notario da fe de la firma, y la traducción queda fuera de esa fe.
 - **Apostilla**: autentica el documento en sí para usarlo en el extranjero según el Convenio de La Haya, y la expiden las autoridades del país de origen del documento.
 
@@ -78,6 +78,6 @@ Un eslogan o un texto de marca que funciona en un idioma suele necesitar otra fo
 
 ## Cómo trabajamos
 
-Empezamos con una consulta gratuita en la que nos cuentas qué documento es, quién lo recibe y para cuándo. Con eso te confirmamos el tipo de traducción que hace falta y te enviamos por escrito el alcance del primer trimestre. Después trabajamos mes a mes, y cada solicitud recibe respuesta, por lo general en un día laborable.
+Empezamos con una consulta gratuita en la que nos cuentas qué documento es, quién lo recibe y para cuándo. Si te queda cerca, podemos vernos en nuestra oficina de Calle Rugat 12 - 2, 46021 Valencia; si no, por videollamada. Con esos datos te confirmamos el tipo de traducción que hace falta y te enviamos por escrito el alcance del primer trimestre. Después trabajamos mes a mes, y cada solicitud recibe respuesta, por lo general en un día laborable.
 
-La traducción de documentos se presupuesta como trabajo, y en la página de [precios](/es/precios/) tienes cómo lo planteamos. Si además vendes software en otros idiomas, mira nuestra [localización de apps](/es/services/localizacion-de-aplicaciones/).
+La traducción de documentos se presupuesta como trabajo, y en la página de [precios](/es/precios/) tienes cómo lo planteamos. Si además vendes software en otros idiomas, mira nuestra [localización de apps](/es/services/localizacion-de-aplicaciones/), y si quieres que tu empresa se encuentre en Google, nuestra guía de [posicionamiento web en Valencia](/es/posicionamiento-web-valencia/) explica por dónde empezar.

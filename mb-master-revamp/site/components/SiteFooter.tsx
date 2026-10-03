@@ -129,8 +129,9 @@ const ABOUT: Record<Locale, string> = {
  * than about the service, which is why their heading does not say "top".
  */
 const FR_FOOTER = ["seo", "referencement-multilingue", "seo-espagnol", "seo-neerlandais", "seo-allemand", "sem-multilingue"];
-// Spanish: the main page, then the destinations a Spanish exporter enters.
-const ES_FOOTER = ["optimizacion-seo", "posicionamiento-multilingue", "seo-frances", "seo-neerlandes", "seo-aleman", "publicidad-multilingue"];
+// Spanish: what a Valencia company hires us for first (owner, 3 Oct 2026),
+// then the market it most often sells into.
+const ES_FOOTER = ["optimizacion-seo", "seo-local", "publicidad-multilingue", "traduccion-profesional", "consultoria-de-inteligencia-artificial", "seo-frances"];
 
 function servicesFor(locale: Locale): { href: string; label: string }[] {
   if (locale === "en") {

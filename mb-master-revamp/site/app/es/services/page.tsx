@@ -15,15 +15,16 @@ import { leadGenPath } from "@/lib/lead-gen-hubs";
 import { SITE_URL, breadcrumbSchema } from "@/lib/schema";
 
 // Spanish services index (docs/ES-REBUILD-PLAN.md). Lists every live
-// Spanish service page, grouped for a Spanish-speaking company selling
-// abroad. Copy is a draft for the owner's review.
+// Spanish service page, grouped for a company in Valencia: the work for
+// its own city first, then the markets it sells into (owner, 3 Oct 2026:
+// "focus on Valencia + keyword"). Copy is a draft for the owner's review.
 const PATH = "/es/services/";
 
 export const metadata: Metadata = {
   ...pageMeta({
-    title: "Servicios de SEO internacional, Mike Bastin",
+    title: "Servicios de marketing digital en Valencia, Mike Bastin",
     description:
-      "SEO por mercado, traducción de páginas web y publicidad multilingüe para empresas que ya venden fuera: cada idioma de tu web te trae sus propias consultas.",
+      "Servicios de marketing digital en Valencia: SEO, Google Ads, traducción jurada y consultoría de IA, para clientes de tu ciudad y de cada mercado donde vendes.",
     path: PATH,
     languages: esLanguages(PATH),
     ogLocale: "es_ES",
@@ -31,23 +32,23 @@ export const metadata: Metadata = {
 };
 
 /**
- * Groups, in the order a Spanish exporter reads them: the market they are
- * entering, then the search work, then the localization around it. A
+ * Groups, in the order a Valencia company reads them: being found at home,
+ * then content, translation and AI, then the markets it sells into. A
  * service missing from every group lands in the last one rather than
  * disappearing, so a newly built page is never unlisted.
  */
 const GROUPS: { heading: string; slugs: string[]; scene: { src: string; alt: string; intro: string } }[] = [
   {
-    heading: "El SEO para cada mercado donde vendes", scene: { src: "/images/scenes/svc-search.webp", alt: "La misma página de servicios posicionada en los resultados en francés, alemán y español, y citada en una respuesta de IA", intro: "Presente en el idioma en el que busca cada comprador, en Google y en las respuestas de la IA." },
-    slugs: ["seo-frances", "seo-aleman", "seo-neerlandes", "seo-ingles", "seo-italiano", "seo-portugues"],
-  },
-  {
-    heading: "Posicionamiento y captación", scene: { src: "/images/scenes/svc-lead-generation.webp", alt: "Un panel de consultas por mercado, con nuevas solicitudes de presupuesto llegadas de Alemania y Francia", intro: "Consultas de cada mercado, contadas donde llegan y entregadas a tu equipo comercial." },
-    slugs: ["optimizacion-seo", "posicionamiento-multilingue", "seo-tecnico", "seo-local", "publicidad-multilingue"],
+    heading: "Clientes en Valencia y en Google", scene: { src: "/images/scenes/svc-lead-generation.webp", alt: "Un panel de consultas por mercado, con nuevas solicitudes de presupuesto llegadas de Alemania y Francia", intro: "Consultas de tu ciudad y de cada mercado, contadas donde llegan y entregadas a tu equipo comercial." },
+    slugs: ["optimizacion-seo", "seo-local", "publicidad-multilingue", "posicionamiento-multilingue", "seo-tecnico"],
   },
   {
     heading: "Contenido, traducción e IA", scene: { src: "/images/scenes/svc-ai.webp", alt: "Una respuesta de IA que cita páginas alemanas y neerlandesas, y una traducción automática corregida por un editor nativo", intro: "La IA donde ahorra tiempo, y un revisor nativo allí donde está en juego la confianza." },
     slugs: ["redaccion-seo-multilingue", "traduccion-profesional", "posedicion-de-ia", "consultoria-de-inteligencia-artificial"],
+  },
+  {
+    heading: "Desde Valencia, el SEO para cada mercado donde vendes", scene: { src: "/images/scenes/svc-search.webp", alt: "La misma página de servicios posicionada en los resultados en francés, alemán y español, y citada en una respuesta de IA", intro: "Presente en el idioma en el que busca cada comprador, en Google y en las respuestas de la IA." },
+    slugs: ["seo-frances", "seo-aleman", "seo-neerlandes", "seo-ingles", "seo-italiano", "seo-portugues"],
   },
   { heading: "Localización", scene: { src: "/images/scenes/svc-localization.webp", alt: "Una misma página de producto en Alemania y Suiza con precios y medios de pago locales, junto a una traducción jurada sellada", intro: "Webs, precios y documentos que suenan locales en cada mercado donde vendes." }, slugs: [] },
 ];
@@ -77,21 +78,21 @@ export default function SpanishServicesIndex() {
         <div className="shell relative grid items-start gap-x-12 lg:grid-cols-[1fr_auto]">
         <div>
           <Reveal>
-            <p className="eyebrow mb-8">Posicionamiento, traducción y publicidad multilingüe</p>
+            <p className="eyebrow mb-8">SEO, Google Ads, traducción e IA en Valencia</p>
           </Reveal>
           <Reveal i={1}>
             <h1 className="mb-6 max-w-[19ch] text-[clamp(2.3rem,5.6vw,4rem)] font-semibold leading-[1.08]">
-              Servicios de SEO para empresas que venden en el extranjero
+              Servicios de marketing digital en Valencia, medidos en clientes
             </h1>
           </Reveal>
           <Reveal i={2}>
             <h2 className="mb-6 max-w-[46ch] text-[clamp(1.2rem,2.1vw,1.7rem)] font-medium leading-[1.3]" style={{ color: "var(--ink)" }}>
-              Cada mercado donde ya vendes puede traerte sus propias consultas: medimos el posicionamiento país por país y sumamos la traducción y la publicidad donde ayudan.
+              Te encontramos clientes en Valencia y en cada mercado donde vendes: posicionamiento, publicidad, traducción e IA, coordinados por un mismo equipo.
             </h2>
           </Reveal>
           <Reveal i={3}>
             <p className="mb-10 max-w-[58ch] text-[clamp(1.05rem,1.5vw,1.2rem)] leading-[1.58]" style={{ color: "var(--dim)" }}>
-              Vendes en Francia, en Alemania, en el Benelux o en el Reino Unido, y quieres que cada uno de esos mercados te traiga consultas. Empieza por el mercado que más te importa: te diremos qué pide de verdad.
+              Tus clientes de Valencia buscan en castellano, en valenciano y en inglés, y los de fuera en su propio idioma. Empieza por lo que más te importa, tu ciudad o tu próximo mercado: te diremos qué pide de verdad.
             </p>
           </Reveal>
           <Reveal i={4}>

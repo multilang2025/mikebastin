@@ -5,8 +5,8 @@ import { OG_SIZE, OG_CONTENT_TYPE, renderServiceOgImage } from "@/lib/og-card";
 export const dynamic = "force-static";
 export const size = OG_SIZE;
 export const contentType = OG_CONTENT_TYPE;
-export const alt = "Carta Mike Bastin: Agencia SEO internacional para empresas que exportan";
+export const alt = "Carta Mike Bastin: Agencia SEO en Valencia que convierte búsquedas en clientes";
 
 export default async function Image() {
-  return renderServiceOgImage({ name: "Agencia SEO internacional para empresas que exportan", angle: "SEO internacional, Mike Bastin" });
+  return renderServiceOgImage({ name: "Agencia SEO en Valencia que convierte búsquedas en clientes", angle: "SEO en Valencia, Mike Bastin" });
 }

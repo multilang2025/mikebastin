@@ -5,8 +5,8 @@ import { OG_SIZE, OG_CONTENT_TYPE, renderServiceOgImage } from "@/lib/og-card";
 export const dynamic = "force-static";
 export const size = OG_SIZE;
 export const contentType = OG_CONTENT_TYPE;
-export const alt = "Carta Mike Bastin: Servicios de SEO internacional para empresas que exportan";
+export const alt = "Carta Mike Bastin: Servicios de marketing digital en Valencia, medidos en clientes";
 
 export default async function Image() {
-  return renderServiceOgImage({ name: "Servicios de SEO internacional para empresas que exportan", angle: "Servicios, Mike Bastin" });
+  return renderServiceOgImage({ name: "Servicios de marketing digital en Valencia, medidos en clientes", angle: "Servicios, Mike Bastin" });
 }

@@ -676,6 +676,7 @@ request), paired by `lib/lead-gen-hubs.ts` rather than content-map; the
 ES one is the first rebuilt Spanish page. **Spanish addresses the reader as "tú"**
 (owner, 29 Sep 2026); French keeps "vous" in a **formal** register (owner,
 30 Sep 2026), enforced by `lint:fr`.
+**The Spanish site focuses on Valencia + keyword** (owner, 3 Oct 2026): its reader is a company in Valencia, serving the city or selling from it, and each commercial ES page puts its term plus Valencia in the h1, meta title and excerpt; one page per term, map in `docs/ES-REBUILD-PLAN.md`. French keeps the exporter reader.
 **Spanish rebuild started 30 Sep 2026** ("Start Spanish"), following the
 French one: `docs/ES-REBUILD-PLAN.md` (the reader is a Spanish-speaking
 company selling abroad, assumed to mirror the French decisions),

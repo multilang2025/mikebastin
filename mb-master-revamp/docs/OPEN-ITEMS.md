@@ -32,7 +32,6 @@ illustrations). No PR is open.
 
 | ID | Item |
 |---|---|
-| Q13 | Confirm the Spanish reader: a Spanish-speaking company selling abroad |
 | Q15 | Confirm the two Globaprom pages redirect to the homepage in FR and ES |
 | Q16 | Review order for the FR and ES drafts (every page is a draft) |
 | Q17 | Sign off the FR and ES motto lines |
@@ -62,6 +61,7 @@ illustrations). No PR is open.
 
 | ID | Item | Closed |
 |---|---|---|
+| Q13 | The Spanish reader | Owner, 3 Oct 2026: "the Spanish version should focus on Valencia + keyword". The reader is a Valencia company (serving Valencia, or selling from it); every commercial ES page leads with its term plus Valencia. Term map in `docs/ES-REBUILD-PLAN.md`; volumes to measure when Ahrefs units reset |
 | Q14 | `seo-ingles` stays live | Owner, 2 Oct 2026: yes |
 | Q19 | Valencia lifestyle posts still live on the old site | Audited 2 Oct 2026: all 15 French and the one Spanish Valencia URL 301 to valenciamove.com in the new `.htaccess` (every target returns 200); they stay live only until the new site replaces WordPress. Every one of the 99 French and 89 Spanish legacy URLs in `redirects/content-map.json` is either rebuilt at its own URL or 301s, none temporary. The two unbuilt source files (`fr/posts/transport-a-valencia.md`, `es/posts/trabajar-en-remoto-desde-valencia.md`, E2 and E3) are deleted |
 | | Overlapping Spanish posts | Owner, 2 Oct 2026, "fix the overlapping pages": `analisis-de-la-competencia-seo` merged into `analisis-competitivo-seo` (507 impressions against 0) and `localizacion-de-contenido-web-multilingue` into `optimizar-contenido-web-multilingue`, both 301 via `gen-es-redirects.mjs`; `seo-multilingue-2026-presencia-total` regrouped to g014 as the Spanish best-practices sibling; the GEO posts, `competidores-seo` and the future-of-SEO pair de-duplicated |
