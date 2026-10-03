@@ -1,6 +1,7 @@
 ---
 words: 1100
-title: "SEO en Alemania para vender a compradores de habla alemana"
+title: "SEO en Alemania desde Valencia para que el comprador alemán te escriba"
+metaTitle: "SEO en Alemania desde Valencia, Mike Bastin"
 name: "SEO en Alemania"
 slug: "seo-aleman"
 locale: "es"
@@ -8,16 +9,18 @@ type: "services"
 group: "g076"
 wpId: 24849079
 date: "2024-09-24T15:50:08"
-modified: "2026-09-30T12:00:00"
+modified: "2026-10-03T12:00:00"
 sourceUrl: "https://mikebastin.com/es/services/seo-aleman/"
-excerpt: "Páginas en alemán escritas por nativos y pensadas para la búsqueda alemana: tus visitas de Alemania, Austria y Suiza piden presupuesto."
+excerpt: "SEO en Alemania para empresas de Valencia: páginas escritas por nativos para que tus visitas de Alemania, Austria y Suiza pidan presupuesto."
 ---
 
-## Tus páginas en alemán ya traen visitas: conviértelas en peticiones
+## Tu empresa de Valencia ya recibe visitas alemanas: conviértelas en peticiones
 
-Tu empresa ya vende en Alemania, Austria o la Suiza alemana, y tus páginas en alemán traen visitantes. El siguiente paso es que esas visitas se conviertan en peticiones de presupuesto. Un comprador alemán lee la página entera, la compara con otras dos o tres y busca quién hay detrás de la empresa antes de escribir. Te contacta cuando el alemán suena natural y encuentra todos los datos que espera.
+Tu empresa trabaja desde Valencia, ya vende en Alemania, Austria o la Suiza alemana, y tus páginas en alemán traen visitantes. El siguiente paso es que esas visitas se conviertan en peticiones de presupuesto. Un comprador alemán lee la página entera, la compara con otras dos o tres y busca quién hay detrás de la empresa antes de escribir. Te contacta cuando el alemán suena natural y encuentra todos los datos que espera.
 
-Alemania es la mayor economía de Europa. Un sitio alemán que gana esa comparación te abre el mercado más grande del continente, y cada página bien escrita sigue trabajando para ti los trimestres siguientes.
+Alemania es la mayor economía de Europa. Un sitio alemán que gana esa comparación abre a tu empresa valenciana el mercado más grande del continente, y cada página bien escrita sigue trabajando para ti los trimestres siguientes.
+
+Preparamos el plan contigo en español, en nuestra oficina de Calle Rugat 12 - 2, 46021 Valencia, o por vídeo, y redactores alemanes nativos escriben las páginas.
 
 <aside class="post-cta">
 <p><strong>¿Quieres que tus visitantes alemanes se conviertan en clientes?</strong> Construimos contigo un sitio alemán redactado por alemanes, que inspira confianza al comprador de habla alemana. <a href="/es/contactanos/">Reserva una consulta gratuita</a>.</p>
@@ -25,7 +28,7 @@ Alemania es la mayor economía de Europa. Un sitio alemán que gana esa comparac
 
 ## Lo que hacemos para tu mercado de habla alemana
 
-El SEO en Alemania pide dos competencias a la vez. La primera es el plan: qué páginas, qué búsquedas, qué mercado primero y cómo se organiza el sitio. La segunda es un alemán que un nativo lee como propio. La primera la hacemos contigo, directamente, en español o en inglés. La segunda la hacen redactores alemanes nativos.
+El SEO en Alemania pide dos competencias a la vez. La primera es el plan: qué páginas, qué búsquedas, qué mercado primero y cómo se organiza el sitio. La segunda es un alemán que un nativo lee como propio. La primera la hacemos contigo, directamente, en español o en inglés, en persona o por vídeo. La segunda la hacen redactores alemanes nativos.
 
 Concretamente, el trabajo incluye:
 
@@ -40,9 +43,9 @@ Tienes un único interlocutor, una única factura y un alemán escrito por alema
 
 ## Quién escribe tu alemán
 
-Te lo decimos desde el primer contacto, para que sepas quién hace qué. Nuestro alemán es suficiente para gestionar proyectos SEO en ese idioma: resultados de búsqueda, páginas de la competencia, briefs y reuniones. Tus textos comerciales en alemán los redactan alemanes nativos, porque el registro es lo que vende y tiene que ser exacto.
+Te lo decimos desde el primer contacto, para que sepas quién hace qué. Hablamos alemán lo suficiente para dirigir proyectos SEO en ese idioma: resultados de búsqueda, páginas de la competencia, briefs y reuniones. Tus textos comerciales en alemán los redactan alemanes nativos, porque el registro es lo que vende y tiene que ser exacto.
 
-Esos redactores son los traductores y redactores alemanes nativos de BeTranslated, la agencia de traducción que dirigimos desde hace veinte años y que Mike Bastin cofundó. Llevan años escribiendo para clientes que venden en Alemania, Austria y Suiza, a partir de nuestros briefs pensados para la página alemana. La estrategia se apoya en más de dos décadas de SEO.
+Esos redactores son los traductores y redactores alemanes nativos de BeTranslated, la agencia de traducción que dirigimos en Valencia desde hace veinte años y que Mike Bastin cofundó. Llevan años escribiendo para clientes que venden en Alemania, Austria y Suiza, a partir de nuestros briefs pensados para la página alemana. La estrategia se apoya en más de dos décadas de SEO.
 
 Cada página pasa por tres lecturas: la del redactor nativo, la de un segundo nativo antes de publicar y la de tu propio equipo. Comprobamos cada una frente al plan, para que se lea bien y responda a la búsqueda para la que se escribió. ¿Tienes también documentos que traducir fuera de la web? Nuestro servicio de [traducción profesional](/es/services/traduccion-profesional/) se encarga.
 
@@ -64,7 +67,7 @@ Alrededor del sitio, la reputación se construye en Alemania: directorios profes
 
 ## Cómo trabajamos contigo
 
-Todo arranca con una consulta gratuita en español sobre tus ventas en los países de habla alemana. Te proponemos un alcance por escrito para el primer trimestre: qué mercado primero, qué páginas y en qué orden. Puedes reservar una auditoría gratuita de 20 minutos, y te respondemos por lo general en un día laborable.
+Todo arranca con una consulta gratuita en español sobre tus ventas en los países de habla alemana. Te proponemos un alcance por escrito para el primer trimestre: qué mercado primero, qué páginas y en qué orden. Puedes reservar una auditoría gratuita de 20 minutos, y te respondemos por lo general en un día laborable. Si además quieres ganar clientes en tu propia ciudad, nuestra guía de [posicionamiento web en Valencia](/es/posicionamiento-web-valencia/) explica cómo.
 
 Después viene la investigación, que pone en el brief los términos alemanes que tus compradores escriben de verdad, y el redactor o traductor trabaja a partir de ese brief: la página sale bien a la primera. Si ya existe una traducción al alemán, la auditoría muestra qué páginas conviene reescribir en torno a la búsqueda alemana y cuáles se quedan como están. Suele ser un puñado de páginas.
 

@@ -56,6 +56,25 @@ Les modèles GPT, Claude ou ceux du français Mistral AI rédigent des articles,
 
 Pour une entreprise qui vend en Espagne, en Flandre ou en Allemagne, l’IA produit très vite un premier jet dans chaque langue. La phrase fluide et légèrement fausse est celle qui demande le plus d’attention : sur un marché dont votre équipe lit mal la langue, elle peut rester en ligne des mois. Faites relire par un natif chaque contenu qui engage votre entreprise, et réservez une relecture plus légère au reste.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 88" role="img" aria-label="Trois étapes, du premier jet rédigé par l’IA à la relecture par un natif, puis à la publication sur chaque marché.">
+<rect x="10" y="10" width="110" height="44" rx="6" class="fg-box"/>
+<rect x="145" y="10" width="110" height="44" rx="6" class="fg-hot"/>
+<rect x="280" y="10" width="110" height="44" rx="6" class="fg-box"/>
+<line x1="120" y1="32" x2="145" y2="32" class="fg-line"/>
+<path d="M139 27 L145 32 L139 37" class="fg-line"/>
+<line x1="255" y1="32" x2="280" y2="32" class="fg-line"/>
+<path d="M274 27 L280 32 L274 37" class="fg-line"/>
+<text x="65" y="38" text-anchor="middle" class="fg-text">Premier jet</text>
+<text x="65" y="78" text-anchor="middle" class="fg-label">par l’IA</text>
+<text x="200" y="38" text-anchor="middle" class="fg-text">Relecture</text>
+<text x="200" y="78" text-anchor="middle" class="fg-label">par un natif</text>
+<text x="335" y="38" text-anchor="middle" class="fg-text">Publication</text>
+<text x="335" y="78" text-anchor="middle" class="fg-label">par marché</text>
+</svg>
+<figcaption>L’IA fait gagner du temps sur le premier jet, et la relecture native garde les faits et le ton justes dans chaque langue avant la mise en ligne.</figcaption>
+</figure>
+
 La qualité dépend toujours du brief et de la relecture. Notre article sur l’[avenir du SEO avec l’IA](/fr/avenir-du-seo/) détaille où les textes produits par l’IA aident votre visibilité et où ils ont besoin d’une main humaine, et notre guide de l’[IA en traduction et localisation](/fr/ia-traduction-et-localisation/) montre comment organiser la relecture native.
 
 ## L’analyse prédictive pour piloter les campagnes

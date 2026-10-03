@@ -145,4 +145,26 @@ Annoncer de nouvelles fonctionnalités avec des bénéfices clairement formulés
 
 Choisissez un format par étape d’achat pour démarrer. Mesurez chacun dans Google Analytics 4 et Google Search Console, et renforcez les formats qui génèrent des contacts. Pour décider quels sujets traiter en premier et pour quel lecteur, notre méthode pour bâtir une [stratégie de contenu ciblée](/fr/strategie-de-contenu-ciblee/) complète cette liste.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 182" role="img" aria-label="Un entonnoir en quatre étapes d’achat, découverte, considération, décision et fidélisation, chacune avec des exemples de formats d’articles.">
+<rect x="10" y="10" width="220" height="36" rx="6" class="fg-box"/>
+<rect x="25" y="52" width="190" height="36" rx="6" class="fg-box"/>
+<rect x="40" y="94" width="160" height="36" rx="6" class="fg-hot"/>
+<rect x="55" y="136" width="130" height="36" rx="6" class="fg-box"/>
+<text x="120" y="33" text-anchor="middle" class="fg-text">Découverte</text>
+<text x="120" y="75" text-anchor="middle" class="fg-text">Considération</text>
+<text x="120" y="117" text-anchor="middle" class="fg-text">Décision</text>
+<text x="120" y="159" text-anchor="middle" class="fg-text">Fidélisation</text>
+<line x1="232" y1="28" x2="246" y2="28" class="fg-rule"/>
+<line x1="217" y1="70" x2="246" y2="70" class="fg-rule"/>
+<line x1="202" y1="112" x2="246" y2="112" class="fg-rule"/>
+<line x1="187" y1="154" x2="246" y2="154" class="fg-rule"/>
+<text x="252" y="33" class="fg-label">Guides, FAQ</text>
+<text x="252" y="75" class="fg-label">Interviews, quiz</text>
+<text x="252" y="117" class="fg-label">Cas, comparatifs</text>
+<text x="252" y="159" class="fg-label">Nouveautés produit</text>
+</svg>
+<figcaption>Un format par étape suffit pour démarrer. Renforcez ensuite ceux qui génèrent des contacts dans Google Analytics 4 et la Search Console.</figcaption>
+</figure>
+
 Sur vos marchés à l’export, appliquez la même grille dans chaque langue : nos [bonnes pratiques du SEO multilingue](/fr/bonnes-pratiques-seo-multilingue/) détaillent comment faire travailler chaque version, et notre [référencement multilingue marché par marché](/fr/services/referencement-multilingue/) prend en charge les mots-clés et le suivi de chaque pays.

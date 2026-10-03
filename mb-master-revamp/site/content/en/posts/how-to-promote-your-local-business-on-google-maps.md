@@ -115,3 +115,31 @@ Use the data to adjust your profile and posts. For tracking what happens once vi
 ## The short version
 
 Promoting a local business on Google Maps comes down to a verified, complete profile, consistent citations, a steady flow of reviews and replies, regular posts, and paid ads when you need visibility fast.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 218" role="img" aria-label="Five inputs, a complete profile, citations, reviews, posts and ads, all feed a place in the top three on Maps, which leads to calls.">
+<line x1="130" y1="26" x2="190" y2="109" class="fg-dim"/>
+<line x1="130" y1="68" x2="190" y2="109" class="fg-dim"/>
+<line x1="130" y1="110" x2="190" y2="109" class="fg-dim"/>
+<line x1="130" y1="152" x2="190" y2="109" class="fg-dim"/>
+<line x1="130" y1="194" x2="190" y2="109" class="fg-dim"/>
+<rect x="10" y="10" width="120" height="32" rx="6" class="fg-box"/>
+<rect x="10" y="52" width="120" height="32" rx="6" class="fg-box"/>
+<rect x="10" y="94" width="120" height="32" rx="6" class="fg-box"/>
+<rect x="10" y="136" width="120" height="32" rx="6" class="fg-box"/>
+<rect x="10" y="178" width="120" height="32" rx="6" class="fg-box"/>
+<rect x="190" y="84" width="110" height="50" rx="6" class="fg-hot"/>
+<line x1="300" y1="109" x2="318" y2="109" class="fg-line"/>
+<path d="M311 103 L318 109 L311 115" class="fg-line"/>
+<rect x="320" y="91" width="70" height="36" rx="6" class="fg-box"/>
+<text x="70" y="31" text-anchor="middle" class="fg-label">Full profile</text>
+<text x="70" y="73" text-anchor="middle" class="fg-label">Citations</text>
+<text x="70" y="115" text-anchor="middle" class="fg-label">Reviews</text>
+<text x="70" y="157" text-anchor="middle" class="fg-label">Posts</text>
+<text x="70" y="199" text-anchor="middle" class="fg-label">Ads</text>
+<text x="245" y="106" text-anchor="middle" class="fg-strong">Top three</text>
+<text x="245" y="124" text-anchor="middle" class="fg-label">on Maps</text>
+<text x="355" y="114" text-anchor="middle" class="fg-text">Calls</text>
+</svg>
+<figcaption>Each input adds to the same listing. The free four build the place over months; ads buy it on day one.</figcaption>
+</figure>

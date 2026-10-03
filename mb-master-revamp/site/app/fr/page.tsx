@@ -2,18 +2,14 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { pageMeta } from "@/lib/meta";
 import Reveal from "@/components/Reveal";
-import MarketReach from "@/components/MarketReach";
-import Spread from "@/components/Spread";
-import { PROJECTS } from "@/lib/projects";
-import { PROJECTS_FR } from "@/lib/projects-locale";
+import FounderPortrait from "@/components/FounderPortrait";
+import HomeEvidence from "@/components/HomeEvidence";
 import SiteFooter from "@/components/SiteFooter";
-import JsonLd from "@/components/JsonLd";
 import LocaleHtmlLang from "@/components/LocaleHtmlLang";
 import { ButtonLink } from "@/components/ui/Button";
 import { getServicesForLocale, servicePath } from "@/lib/services-locale";
 import { frLanguages } from "@/lib/fr-pages";
 import { leadGenPath } from "@/lib/lead-gen-hubs";
-import { SITE_URL, breadcrumbSchema } from "@/lib/schema";
 
 // The French homepage (docs/FR-REBUILD-PLAN.md). Its reader is a
 // French-speaking company, in France, Belgium (Wallonia, Brussels),
@@ -67,7 +63,6 @@ export default function FrenchHome() {
   return (
     <main>
       <LocaleHtmlLang lang="fr" />
-      <JsonLd data={breadcrumbSchema([{ name: "Accueil", url: `${SITE_URL}${PATH}` }])} />
 
       {/* ============ HERO ============ */}
       <section className="band band-a grain relative overflow-hidden pb-[clamp(56px,8vw,110px)] pt-[clamp(96px,14vw,170px)]">
@@ -78,7 +73,7 @@ export default function FrenchHome() {
           </Reveal>
           <Reveal i={1}>
             <h1 className="mb-6 max-w-[16ch] text-[clamp(2.5rem,6vw,4.4rem)] font-semibold leading-[1.05]">
-              Agence SEO internationale
+              Agence SEO internationale, dirigée par Mike Bastin
             </h1>
           </Reveal>
           <Reveal i={2}>
@@ -94,7 +89,7 @@ export default function FrenchHome() {
           <Reveal i={4}>
             <div className="flex flex-wrap items-center gap-6">
               <ButtonLink href="/fr/nous-contacter/" size="lg">
-                Réserver une consultation gratuite
+                Parlons de votre projet
               </ButtonLink>
               <Link href="/fr/services/" className="ulink text-[.98rem]">
                 Voir nos services
@@ -102,9 +97,17 @@ export default function FrenchHome() {
             </div>
           </Reveal>
         </div>
-        <MarketReach />
+        <FounderPortrait
+          alt="Mike Bastin, à la tête de notre agence de SEO multilingue et de localisation."
+          caption="Mike Bastin, directeur de l’agence · Valencia."
+        />
         </div>
       </section>
+
+      {/* ============ CLIENT EVIDENCE ============ */}
+      {/* Declaudify brief (owner, 3 Oct 2026): dated figures and three cases
+          straight after the hero, in place of all eight spreads. */}
+      <HomeEvidence locale="fr" />
 
       {/* ============ MARKETS ============ */}
       {markets.length > 0 && (
@@ -166,25 +169,8 @@ export default function FrenchHome() {
         </div>
       </section>
 
-      {/* ============ WORK ============ */}
-      <section id="work" className="band band-b py-[clamp(64px,9vw,128px)]">
-        <div className="shell">
-          <Reveal>
-            <p className="eyebrow mb-3">Choisis dans nos réalisations</p>
-            <h2 className="mb-4 max-w-[18ch] text-[clamp(1.8rem,3.6vw,2.9rem)] font-semibold leading-[1.1]">
-              Huit projets, tous encore en ligne.
-            </h2>
-          </Reveal>
-          <div className="mt-10">
-            {PROJECTS.map((s, i) => (
-              <Spread key={s.domain} d={s} flip={i % 2 === 1} copy={PROJECTS_FR[s.slug]} />
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* ============ HOW WE WORK ============ */}
-      <section className="band band-a py-[clamp(56px,8vw,104px)]">
+      <section className="band band-b py-[clamp(56px,8vw,104px)]">
         <div className="shell grid gap-[clamp(32px,5vw,64px)] lg:grid-cols-[minmax(0,1fr)_minmax(0,1.2fr)]">
           <Reveal>
             <h2 className="text-[clamp(1.6rem,3vw,2.3rem)] font-semibold leading-[1.15]">Comment nous travaillons</h2>

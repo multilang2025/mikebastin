@@ -20,9 +20,9 @@ const PATH = "/es/precios/";
 
 export const metadata: Metadata = {
   ...pageMeta({
-    title: "Precios y desarrollo de un proyecto de SEO, Mike Bastin",
+    title: "Precios SEO en Valencia, Mike Bastin",
     description:
-      "Cómo se desarrolla un proyecto de SEO internacional, localización o consultoría de IA: consulta gratuita, alcance escrito, entregas mensuales y facturación.",
+      "Precios SEO en Valencia: cómo presupuestamos y facturamos un proyecto de SEO, Google Ads, traducción o IA, desde la consulta gratuita a la entrega mensual.",
     path: PATH,
     languages: esLanguages(PATH),
     ogLocale: "es_ES",
@@ -103,16 +103,16 @@ export default function SpanishPricingPage() {
         <div className="shell relative grid items-start gap-x-12 lg:grid-cols-[1fr_auto]">
         <div>
           <Reveal>
-            <p className="eyebrow mb-8">Un método pensado para tus mercados</p>
+            <p className="eyebrow mb-8">Un método pensado para tu empresa</p>
           </Reveal>
           <Reveal i={1}>
             <h1 className="mb-6 max-w-[22ch] text-[clamp(2.3rem,5.6vw,4rem)] font-semibold leading-[1.08]">
-              Precios y desarrollo de un proyecto de SEO internacional
+              Precios SEO en Valencia y cómo se desarrolla tu proyecto
             </h1>
           </Reveal>
           <Reveal i={2}>
             <h2 className="mb-6 max-w-[46ch] text-[clamp(1.2rem,2.1vw,1.7rem)] font-medium leading-[1.3]" style={{ color: "var(--ink)" }}>
-              Cada proyecto se presupuesta a partir de tus mercados, tus idiomas y lo que ya existe. Así se desarrolla y así se factura.
+              Cada proyecto se presupuesta a partir de tus clientes, tus idiomas y lo que ya existe. Así se desarrolla y así se factura.
             </h2>
           </Reveal>
         </div>

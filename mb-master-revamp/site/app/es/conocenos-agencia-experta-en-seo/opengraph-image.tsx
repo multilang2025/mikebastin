@@ -1,12 +1,16 @@
-import { OG_SIZE, OG_CONTENT_TYPE, renderServiceOgImage } from "@/lib/og-card";
+import { OG_SIZE, OG_CONTENT_TYPE, renderOgCard, PORTRAIT } from "@/lib/og-card";
 
-// Share card for this hand-built page, in its own language. Static export
-// needs a route handler without generateStaticParams to be force-static.
+// ValenciaMove card treatment (owner, 3 Oct 2026): see lib/og-card.tsx.
 export const dynamic = "force-static";
 export const size = OG_SIZE;
 export const contentType = OG_CONTENT_TYPE;
-export const alt = "Tarjeta Mike Bastin: Conócenos, agencia experta en SEO internacional";
+export const alt = "Conócenos: el equipo SEO de Mike Bastin en Valencia.";
 
 export default async function Image() {
-  return renderServiceOgImage({ name: "Conócenos, agencia experta en SEO", angle: "Quiénes somos, Mike Bastin" });
+  return renderOgCard({
+    title: "Conócenos, tu equipo SEO en Valencia",
+    subtitle: "Mike Bastin dirige la estrategia y redactores nativos escriben cada idioma",
+    tag: "Equipo",
+    picture: PORTRAIT,
+  });
 }

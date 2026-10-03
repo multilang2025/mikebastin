@@ -5,12 +5,54 @@ rebuild ahead of the EN lock, as "continue building FR" released French on
 29 Sep. It follows `docs/FR-REBUILD-PLAN.md` step for step, so read that
 file for the reasoning; this one records what differs.
 
+## Valencia focus (owner, 3 Oct 2026)
+
+"The Spanish version should focus on Valencia + keyword." This supersedes
+assumption 1 below. **The Spanish reader is a company in Valencia**: one
+serving Valencia and its surroundings, and one selling from Valencia into
+other markets. Each commercial page leads with its keyword **plus
+Valencia** in the h1, the meta title and the excerpt, and the body says why
+a Valencia office matters (meetings in person at Calle Rugat 12 - 2, local
+clients such as the Valencia law firm and ValenciaMove, Spanish and
+English searches in one city). The export strand stays as a second
+reason to hire us, never the lead.
+
+**Valencian is not a target** (owner, 3 Oct 2026: "we could, but Valencian
+is not relevant"): the copy names castellano and English, never valenciano.
+**Meetings in person** at Calle Rugat 12 - 2 are offered (owner, same day).
+
+One page owns each term. Volumes are **not yet measured**: Ahrefs and
+Semrush were both out of API units on 3 Oct 2026, so the terms below are
+the standard "service + Valencia" shapes and get measured (country `es`)
+when the units reset.
+
+| Page | Primary term |
+|---|---|
+| `/es/` | agencia SEO Valencia |
+| `/es/services/` | servicios de marketing digital Valencia |
+| `/es/services/optimizacion-seo/` | posicionamiento SEO Valencia (consultor SEO Valencia) |
+| `/es/services/seo-local/` | SEO local Valencia |
+| `/es/posicionamiento-web-valencia/` (post) | posicionamiento web Valencia |
+| `/es/services/posicionamiento-multilingue/` | SEO multilingüe Valencia |
+| `/es/services/seo-tecnico/` | auditoría SEO Valencia (SEO técnico Valencia) |
+| `/es/services/publicidad-multilingue/` | agencia Google Ads Valencia |
+| `/es/services/generacion-de-leads/` | generación de leads Valencia |
+| `/es/services/traduccion-profesional/` | traducción jurada Valencia (traductor jurado Valencia) |
+| `/es/services/traduccion-de-paginas-web/` | traducción de páginas web Valencia |
+| `/es/services/redaccion-seo-multilingue/` | redacción SEO Valencia |
+| `/es/services/consultoria-de-inteligencia-artificial/` | consultoría de inteligencia artificial Valencia |
+| `/es/services/posedicion-de-ia/` | traducción automática y posedición Valencia |
+| `/es/services/localizacion-de-aplicaciones/` | localización de apps Valencia |
+| `/es/services/seo-frances/`, `-aleman`, `-neerlandes`, `-ingles`, `-italiano`, `-portugues` | SEO en Francia (Alemania, ...) desde Valencia |
+| `/es/conocenos-agencia-experta-en-seo/` | equipo SEO en Valencia |
+| `/es/precios/` | precios SEO Valencia |
+
 ## Decisions carried over, and the assumptions to confirm
 
 The FR decisions were the owner's. For Spanish they are **assumed to
 mirror French** until the owner says otherwise. Each is easy to reverse.
 
-1. **The Spanish reader is a Spanish-speaking company selling abroad**
+1. *Superseded 3 Oct 2026 by the Valencia focus above.* **The Spanish reader is a Spanish-speaking company selling abroad**
    (Spain, and Latin America where the business does), into France,
    Benelux, Germany or the UK. It is the reverse of the EN "Spanish SEO"
    page, which sells to foreign companies entering Spain. **The main

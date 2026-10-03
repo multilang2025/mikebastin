@@ -91,7 +91,12 @@ const T: Record<
 export default function CookieConsent() {
   const pathname = usePathname() ?? "/";
   const t = T[localeOfPath(pathname)];
-  const [open, setOpen] = useState(false);
+  // Open in the static HTML, so the banner paints with the page instead of
+  // after hydration, where it became the LCP element on mobile (CWV audit,
+  // 3 Oct 2026). A visitor who already chose never sees it: the pre-paint
+  // script in app/layout.tsx sets html.mb-consented, which hides it in CSS
+  // before the first paint, and the effect below then unmounts it.
+  const [open, setOpen] = useState(true);
   const [panel, setPanel] = useState(false);
   const [analytics, setAnalytics] = useState(false);
   const [media, setMedia] = useState(false);
@@ -99,8 +104,9 @@ export default function CookieConsent() {
   const asked = useRef(false);
 
   useEffect(() => {
-    if (!readConsent()) setOpen(true);
+    if (readConsent()) setOpen(false);
     const reopen = () => {
+      document.documentElement.classList.remove("mb-consented");
       const c = readConsent();
       setAnalytics(c?.analytics ?? false);
       setMedia(c?.media ?? false);
@@ -128,7 +134,7 @@ export default function CookieConsent() {
   if (!open) return null;
 
   return (
-    <div className="pointer-events-none fixed inset-x-0 bottom-0 z-[90] p-3 sm:p-4" style={{ paddingBottom: "max(12px, env(safe-area-inset-bottom, 0px))" }}>
+    <div className="mb-consent pointer-events-none fixed inset-x-0 bottom-0 z-[90] p-3 sm:p-4" style={{ paddingBottom: "max(12px, env(safe-area-inset-bottom, 0px))" }}>
       <div
         ref={box}
         role="dialog"

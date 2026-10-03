@@ -1,12 +1,16 @@
-import { OG_SIZE, OG_CONTENT_TYPE, renderServiceOgImage } from "@/lib/og-card";
+import { OG_SIZE, OG_CONTENT_TYPE, renderOgCard, PORTRAIT } from "@/lib/og-card";
 
-// Share card for this hand-built page, in its own language. Static export
-// needs a route handler without generateStaticParams to be force-static.
+// ValenciaMove card treatment (owner, 3 Oct 2026): see lib/og-card.tsx.
 export const dynamic = "force-static";
 export const size = OG_SIZE;
 export const contentType = OG_CONTENT_TYPE;
-export const alt = "Tarjeta Mike Bastin: Contáctanos";
+export const alt = "Contacta con Mike Bastin, agencia SEO en Valencia.";
 
 export default async function Image() {
-  return renderServiceOgImage({ name: "Contáctanos", angle: "Mike Bastin, desde Valencia" });
+  return renderOgCard({
+    title: "Contacta con nuestra agencia SEO en Valencia",
+    subtitle: "Cuéntanos tu proyecto y te respondemos en un día laborable",
+    tag: "Contacto",
+    picture: PORTRAIT,
+  });
 }

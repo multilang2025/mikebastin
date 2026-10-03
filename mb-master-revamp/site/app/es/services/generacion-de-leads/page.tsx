@@ -14,16 +14,17 @@ import HeroArtSlot from "@/components/HeroArtSlot";
 
 // Spanish sibling of /services/lead-generation/, the first page of the
 // Spanish rebuild. Same case in the same order as the English page,
-// written for a Spanish company selling abroad rather than translated.
+// written for a Valencia company selling abroad rather than translated
+// (owner, 3 Oct 2026: the Spanish site leads with keyword plus Valencia).
 // Every fact is one the English page states. There is no Spanish contact
 // page or services index yet, so the calls to action go to /contact/ and
 // say the form can be filled in in Spanish. Copy is a draft for the
 // owner's review.
 const PATH = leadGenPath("es");
 const NAME = "Generación de leads B2B";
-const TITLE = "Generación de leads B2B para empresas que exportan";
+const TITLE = "Generación de leads B2B en Valencia, Mike Bastin";
 const DESCRIPTION =
-  "Tus mercados exteriores ya te envían visitas. Las convertimos en leads cualificados, contados por mercado, y toda tu inversión publicitaria va a tus anuncios.";
+  "Generación de leads B2B en Valencia: convertimos tus visitas de cada mercado en consultas cualificadas, y toda tu inversión publicitaria va a tus anuncios.";
 
 export const metadata: Metadata = {
   ...pageMeta({
@@ -93,7 +94,8 @@ export default function SpanishLeadGenerationPage() {
         data={[
           serviceSchema({ name: NAME, description: DESCRIPTION, url }),
           breadcrumbSchema([
-            { name: "Inicio", url: `${SITE_URL}/` },
+            { name: "Inicio", url: `${SITE_URL}/es/` },
+            { name: "Servicios", url: `${SITE_URL}/es/services/` },
             { name: NAME, url },
           ]),
         ]}
@@ -107,7 +109,7 @@ export default function SpanishLeadGenerationPage() {
             </Reveal>
             <Reveal i={1}>
               <h1 className="mb-6 max-w-[22ch] text-[clamp(2.3rem,5.6vw,4rem)] font-semibold leading-[1.08]">
-                Generación de leads B2B para empresas que exportan
+                Generación de leads B2B en Valencia para empresas que venden fuera
               </h1>
             </Reveal>
             <Reveal i={2}>

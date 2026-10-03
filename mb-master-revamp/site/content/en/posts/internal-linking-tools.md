@@ -21,6 +21,28 @@ Below we compare six internal linking tools and WordPress plugins: what each doe
 
 Links between your own pages tell search engines which pages matter and tell visitors where to go next. Get them right and the page you want to rank gets the support it needs.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 168" role="img" aria-label="Four older posts each link to one new page, which is highlighted.">
+<line x1="120" y1="24" x2="248" y2="84" class="fg-line"/>
+<line x1="120" y1="64" x2="248" y2="84" class="fg-line"/>
+<line x1="120" y1="104" x2="248" y2="84" class="fg-line"/>
+<line x1="120" y1="144" x2="248" y2="84" class="fg-line"/>
+<path d="M240 78 L248 84 L240 90" class="fg-line"/>
+<rect x="20" y="10" width="100" height="28" rx="6" class="fg-box"/>
+<rect x="20" y="50" width="100" height="28" rx="6" class="fg-box"/>
+<rect x="20" y="90" width="100" height="28" rx="6" class="fg-box"/>
+<rect x="20" y="130" width="100" height="28" rx="6" class="fg-box"/>
+<rect x="250" y="56" width="130" height="56" rx="6" class="fg-hot"/>
+<text x="70" y="29" text-anchor="middle" class="fg-label">Older post</text>
+<text x="70" y="69" text-anchor="middle" class="fg-label">Older post</text>
+<text x="70" y="109" text-anchor="middle" class="fg-label">Older post</text>
+<text x="70" y="149" text-anchor="middle" class="fg-label">Older post</text>
+<text x="315" y="81" text-anchor="middle" class="fg-strong">New page</text>
+<text x="315" y="100" text-anchor="middle" class="fg-label">found and read</text>
+</svg>
+<figcaption>Every related older post that links to a new page tells search engines and readers it matters. A linking tool keeps those links current as the site grows.</figcaption>
+</figure>
+
 - It improves navigation and user experience.
 - It spreads page authority through the site.
 - It helps search engines understand your site structure.

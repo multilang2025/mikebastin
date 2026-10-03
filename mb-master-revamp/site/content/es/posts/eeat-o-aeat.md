@@ -15,6 +15,36 @@ excerpt: "EEAT o AEAT: una letra separa la prueba de confianza de Google de Haci
 
 Si tu empresa factura en España y vende fuera, dos siglas separadas por una sola letra deciden cómo te va el año. EEAT decide si Google confía en tu web. AEAT decide si Hacienda confía en tus cuentas. Mantenlas bien separadas en una propuesta comercial y prometerás la auditoría correcta.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 114" role="img" aria-label="EEAT y AEAT se distinguen por una sola letra: EEAT lleva a Google y a tu web, AEAT lleva a Hacienda y a tus cuentas.">
+<rect x="10" y="8" width="36" height="40" rx="6" class="fg-box"/>
+<text x="28" y="34" text-anchor="middle" class="fg-strong">E</text>
+<rect x="52" y="8" width="36" height="40" rx="6" class="fg-box"/>
+<text x="70" y="34" text-anchor="middle" class="fg-strong">E</text>
+<rect x="94" y="8" width="36" height="40" rx="6" class="fg-box"/>
+<text x="112" y="34" text-anchor="middle" class="fg-strong">A</text>
+<rect x="136" y="8" width="36" height="40" rx="6" class="fg-box"/>
+<text x="154" y="34" text-anchor="middle" class="fg-strong">T</text>
+<line x1="184" y1="28" x2="224" y2="28" class="fg-line"/>
+<path d="M217 22 L225 28 L217 34" fill="none" class="fg-line"/>
+<text x="238" y="24" text-anchor="start" class="fg-text">Google</text>
+<text x="238" y="42" text-anchor="start" class="fg-label">tu web</text>
+<rect x="10" y="66" width="36" height="40" rx="6" class="fg-hot"/>
+<text x="28" y="92" text-anchor="middle" class="fg-strong">A</text>
+<rect x="52" y="66" width="36" height="40" rx="6" class="fg-box"/>
+<text x="70" y="92" text-anchor="middle" class="fg-strong">E</text>
+<rect x="94" y="66" width="36" height="40" rx="6" class="fg-box"/>
+<text x="112" y="92" text-anchor="middle" class="fg-strong">A</text>
+<rect x="136" y="66" width="36" height="40" rx="6" class="fg-box"/>
+<text x="154" y="92" text-anchor="middle" class="fg-strong">T</text>
+<line x1="184" y1="86" x2="224" y2="86" class="fg-line"/>
+<path d="M217 80 L225 86 L217 92" fill="none" class="fg-line"/>
+<text x="238" y="82" text-anchor="start" class="fg-text">Hacienda</text>
+<text x="238" y="100" text-anchor="start" class="fg-label">tus cuentas</text>
+</svg>
+<figcaption>Una letra cambia de juez. Antes de enviar una propuesta comercial, revisa esa primera letra y prometerás la auditoría correcta.</figcaption>
+</figure>
+
 La confusión llega rápido. Estábamos optimizando el E-E-A-T de un bufete de abogados de Valencia, con las directrices de calidad de Google en una mitad de la pantalla, contenido jurídico en español lleno de terminología tributaria en la otra, y la documentación de la AEAT abierta en una tercera ventana. En algún momento, el cerebro deja de ver letras y solo ve amenazas.
 
 ## Dos jueces, una letra de diferencia

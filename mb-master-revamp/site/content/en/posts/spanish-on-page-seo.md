@@ -83,6 +83,28 @@ Richer listings draw more clicks than plain ones. Localized schema, such as busi
 
 More Spanish buyers now ask ChatGPT, Perplexity or Google's AI Overviews before they ever see a list of links. The answer names two or three sources, and the buyer goes to those. Making your Spanish page one of them brings the buyer to your site, alongside what your rankings bring. Generative engine optimization (GEO) is the work of making the page easy for those systems to quote.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 206" role="img" aria-label="A buyer asks an AI assistant; the answer names a few sources, one of them your Spanish page, and the buyer goes on to visit it.">
+<rect x="120" y="8" width="160" height="34" rx="6" class="fg-box"/>
+<line x1="200" y1="42" x2="200" y2="60" class="fg-line"/>
+<path d="M194 53 L200 60 L206 53" class="fg-line"/>
+<rect x="20" y="62" width="360" height="82" rx="6" class="fg-box"/>
+<rect x="36" y="96" width="100" height="34" rx="6" class="fg-box"/>
+<rect x="150" y="96" width="100" height="34" rx="6" class="fg-hot"/>
+<rect x="264" y="96" width="100" height="34" rx="6" class="fg-box"/>
+<line x1="200" y1="130" x2="200" y2="162" class="fg-accent"/>
+<path d="M194 155 L200 162 L206 155" class="fg-accent"/>
+<rect x="130" y="164" width="140" height="34" rx="6" class="fg-box"/>
+<text x="200" y="30" text-anchor="middle" class="fg-text">Buyer asks AI</text>
+<text x="36" y="85" class="fg-label">AI answer names its sources</text>
+<text x="86" y="118" text-anchor="middle" class="fg-label">Source</text>
+<text x="200" y="118" text-anchor="middle" class="fg-label">Your page</text>
+<text x="314" y="118" text-anchor="middle" class="fg-label">Source</text>
+<text x="200" y="186" text-anchor="middle" class="fg-text">Buyer visits</text>
+</svg>
+<figcaption>The buyer reads the answer and clicks one of the two or three sources it names. Being one of them brings visits that rankings alone would miss.</figcaption>
+</figure>
+
 Most of it is on-page work you are already doing, done with more discipline:
 
 - **Answer first.** Open each section with the direct answer in one or two plain Spanish sentences, then give the detail. An AI answer lifts the sentence that stands on its own.

@@ -30,6 +30,19 @@ The difference decides whether a market reads your site as local. Translation co
 
 The process draws on translation memory, a clear language strategy and [transcreation by professional translators](/services/translation-services/), so the message lands while the brand identity holds.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 140" role="img" aria-label="Translation, which changes the words, sits inside localization, which also changes imagery, layout, formats and UX.">
+<rect x="10" y="10" width="380" height="120" rx="6" class="fg-hot"/>
+<rect x="232" y="44" width="140" height="66" rx="6" class="fg-box"/>
+<text x="28" y="40" class="fg-strong">Localization</text>
+<text x="28" y="64" class="fg-label">words, imagery,</text>
+<text x="28" y="83" class="fg-label">layout, formats, UX</text>
+<text x="302" y="74" text-anchor="middle" class="fg-text">Translation</text>
+<text x="302" y="94" text-anchor="middle" class="fg-label">words</text>
+</svg>
+<figcaption>Translation is one part of localization. The rest of the box is what makes a French or Spanish visitor read the page as local.</figcaption>
+</figure>
+
 ## Localization and multilingual SEO
 
 A localized page earns once buyers find it. [On-page and technical SEO](/services/technical-seo/) across all versions improves visibility in local results.

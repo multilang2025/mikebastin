@@ -43,6 +43,27 @@ Une fiche complète et exacte se positionne mieux et attire plus de clics : son
 
 Quand votre adresse s’écrit de la même façon dans tous les annuaires, Google lui fait confiance. Une citation est une mention du nom, de l’adresse et du numéro de téléphone (NAP) de votre entreprise sur un autre site. Des citations cohérentes aident Google à se fier à vos informations, ce qui soutient votre [référencement local](/fr/services/referencement-local/).
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 170" role="img" aria-label="Le même nom, la même adresse et le même téléphone repris sur la fiche Google, votre site, les Pages Jaunes et Yelp.">
+<line x1="120" y1="28" x2="200" y2="85" class="fg-line"/>
+<line x1="280" y1="28" x2="200" y2="85" class="fg-line"/>
+<line x1="120" y1="142" x2="200" y2="85" class="fg-line"/>
+<line x1="280" y1="142" x2="200" y2="85" class="fg-line"/>
+<rect x="10" y="10" width="110" height="36" rx="6" class="fg-box"/>
+<rect x="280" y="10" width="110" height="36" rx="6" class="fg-box"/>
+<rect x="10" y="124" width="110" height="36" rx="6" class="fg-box"/>
+<rect x="280" y="124" width="110" height="36" rx="6" class="fg-box"/>
+<circle cx="200" cy="85" r="42" class="fg-hot"/>
+<text x="200" y="84" text-anchor="middle" class="fg-strong">NAP</text>
+<text x="200" y="104" text-anchor="middle" class="fg-label">identique</text>
+<text x="65" y="33" text-anchor="middle" class="fg-label">Fiche Google</text>
+<text x="335" y="33" text-anchor="middle" class="fg-label">Votre site</text>
+<text x="65" y="147" text-anchor="middle" class="fg-label">Pages Jaunes</text>
+<text x="335" y="147" text-anchor="middle" class="fg-label">Yelp</text>
+</svg>
+<figcaption>Quand chaque source affiche les mêmes informations, Google s’y fie, et votre fiche gagne en confiance dans les résultats locaux.</figcaption>
+</figure>
+
 - Inscrivez votre entreprise dans des annuaires reconnus, comme Yelp, TripAdvisor, les Pages Jaunes en France, les Pages d’Or en Belgique, local.ch en Suisse et les principaux sites de votre secteur.
 - Gardez un NAP identique partout.
 - Ajoutez le balisage LocalBusiness à votre site pour que Google y lise les mêmes informations.

@@ -31,6 +31,29 @@ El núcleo de estos sistemas es el **lead scoring predictivo**: una puntuación 
 
 Entran en juego el tiempo en las páginas clave, las páginas visitadas antes de escribir, el sector y el tamaño de la empresa, y el contenido del propio mensaje. Al ver qué contenidos consumen los compradores antes de convertirse en leads cualificados, el sistema también te indica qué páginas trabajan mejor para ventas. Puedes ver cómo encaja con el resto del marketing en [nuestros servicios](/es/services/).
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 138" role="img" aria-label="Las páginas visitadas, el sector y tamaño de la empresa y el texto del mensaje alimentan una puntuación con IA, que ordena las consultas por prioridad de llamada.">
+<rect x="10" y="8" width="150" height="34" rx="6" class="fg-box"/>
+<text x="85" y="30" text-anchor="middle" class="fg-label">Páginas visitadas</text>
+<line x1="160" y1="25" x2="176" y2="69" class="fg-line"/>
+<rect x="10" y="52" width="150" height="34" rx="6" class="fg-box"/>
+<text x="85" y="74" text-anchor="middle" class="fg-label">Sector y tamaño</text>
+<line x1="160" y1="69" x2="176" y2="69" class="fg-line"/>
+<rect x="10" y="96" width="150" height="34" rx="6" class="fg-box"/>
+<text x="85" y="118" text-anchor="middle" class="fg-label">Texto del mensaje</text>
+<line x1="160" y1="113" x2="176" y2="69" class="fg-line"/>
+<rect x="176" y="42" width="110" height="54" rx="6" class="fg-hot"/>
+<text x="231" y="66" text-anchor="middle" class="fg-text">Puntuación</text>
+<text x="231" y="86" text-anchor="middle" class="fg-label">con IA</text>
+<line x1="286" y1="69" x2="298" y2="69" class="fg-line"/>
+<path d="M292 64 L300 69 L292 74" class="fg-line"/>
+<rect x="300" y="42" width="90" height="54" rx="6" class="fg-box"/>
+<text x="345" y="66" text-anchor="middle" class="fg-text">Orden</text>
+<text x="345" y="86" text-anchor="middle" class="fg-label">de llamada</text>
+</svg>
+<figcaption>Cuantas más señales recibe el sistema, de tu web y del propio mensaje, mejor ordena la lista con la que trabaja tu equipo comercial.</figcaption>
+</figure>
+
 ### Procesamiento del lenguaje natural
 
 El procesamiento del lenguaje natural lee lo que escribe el comprador. Con el análisis de sentimiento y la extracción de entidades, la IA distingue una consulta con necesidad real de compra de una pregunta informativa.

@@ -1,3 +1,4 @@
+import { ogSubtitle } from "@/lib/og-card";
 import type { Metadata } from "next";
 import { pageMeta } from "@/lib/meta";
 import LocaleTopicPage from "@/components/LocaleTopicPage";
@@ -18,6 +19,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     description: topic.blurb,
     path: topicPath("fr", topic.slug),
     ogLocale: "fr_FR",
+    cardAlt: `${topic.heading}. ${ogSubtitle(topic.blurb)}`,
   });
 }
 

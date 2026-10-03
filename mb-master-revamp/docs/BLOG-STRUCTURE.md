@@ -20,7 +20,20 @@ rules") and `docs/STYLE-GUIDE-UK-EU.md`, which still apply in full.
 - **Tables** get a bordered, scrolling wrapper (`lib/posts.ts`,
   `renderMarkdown`), so a wide table scrolls inside the column on a phone.
 - **Figures** are styled by `figure.post-fig` and the `fg-*` classes in
-  `app/globals.css`.
+  `app/globals.css`, and **draw themselves in once** when scrolled into
+  view (owner, 3 Oct 2026): `renderMarkdown` adds the figure to the scroll
+  reveal, gives strokes `pathLength="1"` and an order index, and CSS draws
+  lines, settles shapes, fades labels and gives `fg-hot` one beat. Nothing
+  loops. So never put a `transform` on a rect, circle, ellipse or polygon
+  you want animated (it only fades), and never set `pathLength` yourself.
+- **Tables of three or more columns stack into one card per row on
+  phones** (owner, 3 Oct 2026): each cell gets its column heading as
+  `data-label`. Write a real header row, short headings, and keep the
+  first column the row's name.
+- **The market map** (the homepage hero art, recycled on 3 Oct 2026) goes
+  into a post with `<!-- figure:market-reach -->` on its own line
+  (`components/PostBody.tsx`); it is decorative, so use it at most once,
+  in a post about planning several markets.
 
 ## Too long
 

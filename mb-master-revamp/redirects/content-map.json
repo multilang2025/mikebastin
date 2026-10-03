@@ -3052,7 +3052,12 @@
     "url": "https://mikebastin.com/german-seo-content-localisation/",
     "content_path": "site/content/en/posts/german-seo-content-localisation.md"
    },
-   "fr": null,
+   "fr": {
+    "id": null,
+    "slug": "localiser-contenu-en-allemand",
+    "url": "https://mikebastin.com/fr/localiser-contenu-en-allemand/",
+    "content_path": "site/content/fr/posts/localiser-contenu-en-allemand.md"
+   },
    "es": {
     "id": null,
     "slug": "localizar-contenido-en-aleman",
@@ -3131,7 +3136,12 @@
     "url": "https://mikebastin.com/how-ai-is-revolutionising-seo-strategies/",
     "content_path": "site/content/en/posts/how-ai-is-revolutionising-seo-strategies.md"
    },
-   "fr": null,
+   "fr": {
+    "id": null,
+    "slug": "ia-et-strategies-seo",
+    "url": "https://mikebastin.com/fr/ia-et-strategies-seo/",
+    "content_path": "site/content/fr/posts/ia-et-strategies-seo.md"
+   },
    "es": {
     "id": null,
     "slug": "ia-y-estrategias-seo",
@@ -3234,7 +3244,12 @@
     "url": "https://mikebastin.com/fr/promouvoir-entreprise-locale-google-maps/",
     "content_path": "site/content/fr/posts/promouvoir-entreprise-locale-google-maps.md"
    },
-   "es": null
+   "es": {
+    "id": null,
+    "slug": "promocionar-negocio-local-google-maps-valencia",
+    "url": "https://mikebastin.com/es/promocionar-negocio-local-google-maps-valencia/",
+    "content_path": "site/content/es/posts/promocionar-negocio-local-google-maps-valencia.md"
+   }
   },
   {
    "group": "g132",

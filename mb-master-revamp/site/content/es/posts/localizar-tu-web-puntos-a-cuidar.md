@@ -99,4 +99,26 @@ Cada región tiene sus costumbres, y la fricción se nota en la tasa de rebote, 
 
 Empieza por los puntos más cercanos a la venta (pagos, formularios y normativa) y avanza después hacia la búsqueda y la cultura. Cada punto resuelto en ese orden se nota antes en los pedidos.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 188" role="img" aria-label="Orden de trabajo en tres pasos: primero pagos, formularios y normativa, después búsqueda y técnica, y por último idioma y cultura.">
+<line x1="38" y1="34" x2="38" y2="154" class="fg-rule"/>
+<rect x="10" y="8" width="380" height="52" rx="6" class="fg-box"/>
+<circle cx="38" cy="34" r="16" class="fg-hot"/>
+<text x="38" y="40" text-anchor="middle" class="fg-strong">1</text>
+<text x="70" y="30" class="fg-text">Cerca de la venta</text>
+<text x="70" y="50" class="fg-label">pagos, formularios, normativa</text>
+<rect x="10" y="68" width="380" height="52" rx="6" class="fg-box"/>
+<circle cx="38" cy="94" r="16" class="fg-box"/>
+<text x="38" y="100" text-anchor="middle" class="fg-strong">2</text>
+<text x="70" y="90" class="fg-text">Búsqueda y técnica</text>
+<text x="70" y="110" class="fg-label">palabras clave, móvil, pruebas</text>
+<rect x="10" y="128" width="380" height="52" rx="6" class="fg-box"/>
+<circle cx="38" cy="154" r="16" class="fg-box"/>
+<text x="38" y="160" text-anchor="middle" class="fg-strong">3</text>
+<text x="70" y="150" class="fg-text">Idioma y cultura</text>
+<text x="70" y="170" class="fg-label">tono, imágenes, voz de marca</text>
+</svg>
+<figcaption>Empieza por lo que está más cerca de la caja y avanza hacia la cultura. Cada punto resuelto en ese orden se nota antes en los pedidos.</figcaption>
+</figure>
+
 Con más de dos décadas en SEO, traducción y marketing, ayudamos a las empresas a construir sitios web que encajan en cada mercado y se encuentran en él. Nuestros servicios de [traducción de páginas web](/es/services/traduccion-de-paginas-web/) cubren los diez puntos, y puedes [escribirnos](/es/contactanos/) para repasar los tuyos con nosotros.

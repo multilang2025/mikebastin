@@ -1,12 +1,16 @@
-import { OG_SIZE, OG_CONTENT_TYPE, renderServiceOgImage } from "@/lib/og-card";
+import { OG_SIZE, OG_CONTENT_TYPE, renderOgCard, PORTRAIT, OG_TAG } from "@/lib/og-card";
 
-// Share card for this hand-built page, in its own language. Static export
-// needs a route handler without generateStaticParams to be force-static.
+// ValenciaMove card treatment (owner, 3 Oct 2026): see lib/og-card.tsx.
 export const dynamic = "force-static";
 export const size = OG_SIZE;
 export const contentType = OG_CONTENT_TYPE;
-export const alt = "Carta Mike Bastin: Artículos sobre SEO internacional y GEO";
+export const alt = "Artículos sobre SEO de Mike Bastin, desde Valencia.";
 
 export default async function Image() {
-  return renderServiceOgImage({ name: "Artículos sobre SEO internacional y GEO", angle: "Artículos, Mike Bastin" });
+  return renderOgCard({
+    title: "Artículos sobre SEO desde Valencia",
+    subtitle: "SEO, visibilidad en las respuestas de la IA y nuevos mercados",
+    tag: OG_TAG.es.post,
+    picture: PORTRAIT,
+  });
 }

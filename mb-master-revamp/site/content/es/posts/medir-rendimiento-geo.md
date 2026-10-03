@@ -56,6 +56,31 @@ Medir bien te dice qué páginas reescribir primero. Hoy el seguimiento combina 
 
 > **Consejo práctico:** sigue cada mes de 10 a 15 consultas clave de tu comprador ideal, en cada idioma de tus mercados. Anota si apareces, cómo te describen y si te enlazan.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 130" role="img" aria-label="Rutina mensual en tres pasos: define de 10 a 15 consultas por idioma, pregunta a Perplexity, ChatGPT y Google, y anota si apareces, el tono y el enlace; después vuelve a empezar.">
+<text x="200" y="14" text-anchor="middle" class="fg-label">Repite cada mes</text>
+<path d="M335 40 V24 H65 V36" class="fg-accent"/>
+<path d="M60 32 L65 40 L70 32" class="fg-accent"/>
+<rect x="10" y="42" width="110" height="40" rx="6" class="fg-box"/>
+<text x="65" y="67" text-anchor="middle" class="fg-text">Consultas</text>
+<text x="65" y="104" text-anchor="middle" class="fg-label">10 a 15</text>
+<text x="65" y="122" text-anchor="middle" class="fg-label">por idioma</text>
+<line x1="120" y1="62" x2="145" y2="62" class="fg-line"/>
+<path d="M137 57 L145 62 L137 67" class="fg-line"/>
+<rect x="145" y="42" width="110" height="40" rx="6" class="fg-box"/>
+<text x="200" y="67" text-anchor="middle" class="fg-text">Pregunta</text>
+<text x="200" y="104" text-anchor="middle" class="fg-label">Perplexity,</text>
+<text x="200" y="122" text-anchor="middle" class="fg-label">ChatGPT, Google</text>
+<line x1="255" y1="62" x2="280" y2="62" class="fg-line"/>
+<path d="M272 57 L280 62 L272 67" class="fg-line"/>
+<rect x="280" y="42" width="110" height="40" rx="6" class="fg-box"/>
+<text x="335" y="67" text-anchor="middle" class="fg-text">Anota</text>
+<text x="335" y="104" text-anchor="middle" class="fg-label">si apareces,</text>
+<text x="335" y="122" text-anchor="middle" class="fg-label">tono y enlace</text>
+</svg>
+<figcaption>Repetir las mismas consultas cada mes, en cada idioma, te da una serie comparable. Así ves si tu cuota de citas crece mercado por mercado.</figcaption>
+</figure>
+
 <aside class="post-cta">
 <p><strong>¿Quieres saber cómo apareces en las respuestas de IA y cómo medirlo?</strong> Nuestra <a href="/es/services/consultoria-de-inteligencia-artificial/">consultoría de inteligencia artificial</a> analiza cómo aparecen tus contenidos en ChatGPT, Claude, Gemini o Perplexity, qué cambia para que te citen y cómo medir si funciona. <a href="/es/contactanos/">Pide tu auditoría gratuita de 20 minutos</a>.</p>
 </aside>

@@ -91,4 +91,26 @@ Chaque région a ses habitudes, et la friction se lit dans le taux de rebond : 
 
 Commencez par les points les plus proches de la vente (paiements, formulaires et confiance), puis avancez vers la recherche et la culture. Ce sont les réglages qui transforment le plus vite des visites en commandes.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 156" role="img" aria-label="Ordre conseillé, d’abord le droit et les paiements, puis la recherche et la technique, enfin la langue et la culture.">
+<line x1="26" y1="30" x2="26" y2="126" class="fg-rule"/>
+<circle cx="26" cy="30" r="16" class="fg-box"/>
+<circle cx="26" cy="78" r="16" class="fg-box"/>
+<circle cx="26" cy="126" r="16" class="fg-box"/>
+<text x="26" y="36" text-anchor="middle" class="fg-strong">1</text>
+<text x="26" y="84" text-anchor="middle" class="fg-strong">2</text>
+<text x="26" y="132" text-anchor="middle" class="fg-strong">3</text>
+<rect x="56" y="10" width="334" height="40" rx="6" class="fg-hot"/>
+<rect x="56" y="58" width="334" height="40" rx="6" class="fg-box"/>
+<rect x="56" y="106" width="334" height="40" rx="6" class="fg-box"/>
+<text x="72" y="35" class="fg-text">Droit et paiements</text>
+<text x="72" y="83" class="fg-text">Recherche et technique</text>
+<text x="72" y="131" class="fg-text">Langue et culture</text>
+<text x="376" y="35" text-anchor="end" class="fg-label">3 points</text>
+<text x="376" y="83" text-anchor="end" class="fg-label">3 points</text>
+<text x="376" y="131" text-anchor="end" class="fg-label">4 points</text>
+</svg>
+<figcaption>Commencez au plus près de la vente. Les points du paiement et des formulaires transforment le plus vite des visites en commandes.</figcaption>
+</figure>
+
 Forts de plus de deux décennies dans le SEO, la traduction et le marketing, nous aidons les entreprises à bâtir des sites adaptés à chaque marché et visibles sur celui-ci. Nos services de [localisation de site web](/fr/services/localisation-de-site-web/) commencent par une évaluation gratuite de la localisation d’un marché, et vous pouvez [nous contacter](/fr/nous-contacter/) pour la demander.

@@ -84,6 +84,33 @@ Des règles soignées font la rentabilité d’un outil.
 6. **Consultez les rapports.** Corrigez les liens cassés et les contenus orphelins dès qu’ils apparaissent ; notre [checklist d’audit SEO technique](/fr/checklist-audit-seo-technique/) montre comment les repérer.
 7. **Gardez chaque langue dans sa langue.** Sur un site multilingue, faites pointer les liens internes de chaque version vers des pages de la même langue, pour que le lecteur espagnol reste en espagnol ; notre article sur le [SEO technique d’un site multilingue](/fr/seo-technique-site-multilingue/) détaille ces réglages.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 142" role="img" aria-label="Trois groupes de pages, en français, en anglais et en espagnol, dont les liens internes restent chacun dans leur langue.">
+<line x1="70" y1="26" x2="38" y2="86" class="fg-line"/>
+<line x1="38" y1="86" x2="102" y2="86" class="fg-line"/>
+<line x1="102" y1="86" x2="70" y2="26" class="fg-line"/>
+<circle cx="70" cy="26" r="14" class="fg-box"/>
+<circle cx="38" cy="86" r="14" class="fg-box"/>
+<circle cx="102" cy="86" r="14" class="fg-box"/>
+<text x="70" y="132" text-anchor="middle" class="fg-text">Français</text>
+<line x1="200" y1="26" x2="168" y2="86" class="fg-line"/>
+<line x1="168" y1="86" x2="232" y2="86" class="fg-line"/>
+<line x1="232" y1="86" x2="200" y2="26" class="fg-line"/>
+<circle cx="200" cy="26" r="14" class="fg-box"/>
+<circle cx="168" cy="86" r="14" class="fg-box"/>
+<circle cx="232" cy="86" r="14" class="fg-box"/>
+<text x="200" y="132" text-anchor="middle" class="fg-text">Anglais</text>
+<line x1="330" y1="26" x2="298" y2="86" class="fg-line"/>
+<line x1="298" y1="86" x2="362" y2="86" class="fg-line"/>
+<line x1="362" y1="86" x2="330" y2="26" class="fg-line"/>
+<circle cx="330" cy="26" r="14" class="fg-box"/>
+<circle cx="298" cy="86" r="14" class="fg-box"/>
+<circle cx="362" cy="86" r="14" class="fg-box"/>
+<text x="330" y="132" text-anchor="middle" class="fg-text">Espagnol</text>
+</svg>
+<figcaption>Le lecteur espagnol passe d’une page espagnole à une autre, et chaque version de langue concentre ses liens sur ses propres pages.</figcaption>
+</figure>
+
 <aside class="post-cta">
 <p><strong>Vous voulez que la bonne page se positionne sur chaque requête ?</strong> Sur un site multilingue, la cause habituelle est deux pages qui se partagent une même requête, et notre <a href="/fr/services/seo-technique/">SEO technique</a> oriente vos liens internes vers celle qui doit se positionner. <a href="/fr/nous-contacter/">Réservez un premier échange</a>.</p>
 </aside>

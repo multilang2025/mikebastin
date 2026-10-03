@@ -1,8 +1,10 @@
-import { getServicesForLocale, getServiceForLocale } from "@/lib/services-locale";
-import { OG_SIZE, OG_CONTENT_TYPE, renderServiceOgImage } from "@/lib/og-card";
+import { getServicesForLocale, getServiceForLocale, getServiceSiblings } from "@/lib/services-locale";
+import { getService } from "@/lib/services";
+import { OG_SIZE, OG_CONTENT_TYPE, renderOgCard, ogSubtitle, clusterPicture, OG_TAG } from "@/lib/og-card";
 
-// French service card: the page's own short name, or its h1, under a
-// French angle line. Mirrors page.tsx's generateStaticParams.
+// Service card: the page's h1 and excerpt, with the scene of its English
+// sibling's cluster (ValenciaMove treatment, lib/og-card.tsx). Mirrors
+// page.tsx's generateStaticParams.
 export function generateStaticParams() {
   return getServicesForLocale("fr").map((s) => ({ slug: s.slug }));
 }
@@ -14,8 +16,12 @@ export const alt = "Carte de service Mike Bastin";
 export default async function Image({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const service = getServiceForLocale("fr", slug);
-  return renderServiceOgImage({
-    name: service ? service.name ?? service.title : "Mike Bastin",
-    angle: "SEO international, Mike Bastin",
+  const en = service ? getServiceSiblings(service.group).en : undefined;
+  const cluster = en ? getService(en)?.cluster : undefined;
+  return renderOgCard({
+    title: service?.title ?? "Mike Bastin",
+    subtitle: ogSubtitle(service?.excerpt),
+    tag: OG_TAG.fr.service,
+    picture: clusterPicture(cluster),
   });
 }

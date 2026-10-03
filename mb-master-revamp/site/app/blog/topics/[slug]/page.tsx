@@ -1,3 +1,4 @@
+import { ogSubtitle } from "@/lib/og-card";
 import type { Metadata } from "next";
 import { pageMeta } from "@/lib/meta";
 import Link from "next/link";
@@ -44,6 +45,7 @@ export async function generateMetadata({
     title: `${topic.name}, from the Mike Bastin journal`,
     description: topicMetaDescription(topic),
     path: `/blog/topics/${topic.slug}/`,
+    cardAlt: `${topic.heading}. ${ogSubtitle(topic.blurb)}`,
   });
 }
 

@@ -9,7 +9,9 @@ CSS animations are the originals.
   extracted (CSS modules class names kept, so none collide). The original
   light-theme overrides were dropped.
 - **Build:** `node scripts/build-dl-art.mjs` (in `site/`) writes
-  `lib/dl-art-data.ts` and `app/dl-art.css` for the ones listed in `USED`.
+  `lib/dl-art-data.ts` for the ones listed in `USED`: markup plus each
+  illustration's own CSS, injected by `components/DlArt.tsx` only on a page
+  that draws it (3 Oct 2026; there is no shared dl-art stylesheet).
 - **Colour:** the originals read `--d3-*` and `--art-*` variables. `.dl-art`
   maps them to this site's band tokens: plate from `--bg` and `--ink`, lines
   and dots `--dim`, borders `--rule`, and the single accent `--berry`, so the

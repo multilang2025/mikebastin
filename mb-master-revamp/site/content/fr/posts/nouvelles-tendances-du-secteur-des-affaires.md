@@ -54,6 +54,28 @@ Le mouvement favorise les modèles SaaS rentables, les services à forte marge e
 
 Le règlement européen sur l’IA est entré en vigueur le 1er août 2024. Les pratiques interdites le sont depuis le 2 février 2025, et les obligations des modèles d’IA à usage général s’appliquent depuis le 2 août 2025. Le « Digital Omnibus » sur l’IA, publié au Journal officiel en juillet 2026, a reporté les obligations des systèmes à haut risque : au 2 décembre 2027 pour les usages de l’annexe III (recrutement, crédit, éducation, par exemple) et au 2 août 2028 pour l’IA intégrée à des produits réglementés.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 200" role="img" aria-label="Calendrier de l’EU AI Act, de l’entrée en vigueur le 1er août 2024 aux obligations des produits réglementés le 2 août 2028.">
+<line x1="22" y1="20" x2="22" y2="180" class="fg-rule"/>
+<circle cx="22" cy="20" r="8" class="fg-box"/>
+<circle cx="22" cy="60" r="8" class="fg-box"/>
+<circle cx="22" cy="100" r="8" class="fg-box"/>
+<circle cx="22" cy="140" r="8" class="fg-hot"/>
+<circle cx="22" cy="180" r="8" class="fg-box"/>
+<text x="44" y="25" class="fg-text">1er août 2024</text>
+<text x="214" y="25" class="fg-label">Entrée en vigueur</text>
+<text x="44" y="65" class="fg-text">2 février 2025</text>
+<text x="214" y="65" class="fg-label">Pratiques interdites</text>
+<text x="44" y="105" class="fg-text">2 août 2025</text>
+<text x="214" y="105" class="fg-label">IA à usage général</text>
+<text x="44" y="145" class="fg-text">2 décembre 2027</text>
+<text x="214" y="145" class="fg-label">Haut risque, annexe III</text>
+<text x="44" y="185" class="fg-text">2 août 2028</text>
+<text x="214" y="185" class="fg-label">Produits réglementés</text>
+</svg>
+<figcaption>Les deux prochaines échéances concernent les systèmes à haut risque, et le temps qui reste sert à cartographier vos usages de l’IA par niveau de risque.</figcaption>
+</figure>
+
 > Pour les pratiques interdites, les amendes peuvent atteindre 35 millions d’euros ou 7 % du chiffre d’affaires mondial annuel, le montant le plus élevé étant retenu, contre 20 millions d’euros ou 4 % au plus sous le RGPD.
 > Source : [Commission européenne, AI Act](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai) ; calendrier révisé : [Orrick, « Digital Omnibus Finalizes 8 Compliance Changes », juillet 2026](https://www.orrick.com/en/Insights/2026/07/EU-AI-Act-Update-Digital-Omnibus-Finalizes-8-Compliance-Changes)
 

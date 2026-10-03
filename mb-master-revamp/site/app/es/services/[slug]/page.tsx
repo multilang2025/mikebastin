@@ -1,3 +1,4 @@
+import { ogSubtitle } from "@/lib/og-card";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
@@ -42,6 +43,7 @@ export async function generateMetadata({
     path: `/es/services/${service.slug}/`,
     languages: serviceHreflang(service.group, "es"),
     ogLocale: "es_ES",
+    cardAlt: `${service.title}. ${ogSubtitle(service.excerpt)}`,
   });
 }
 
@@ -65,9 +67,12 @@ export default async function SpanishServicePage({
             name: service.title,
             description: service.excerpt,
             url,
+            inLanguage: "es",
+            areaServed: service.slug === "seo-local" ? { "@type": "City", name: "Valencia" } : undefined,
           }),
           breadcrumbSchema([
-            { name: "Inicio", url: `${SITE_URL}/` },
+            { name: "Inicio", url: `${SITE_URL}/es/` },
+            { name: "Servicios", url: `${SITE_URL}/es/services/` },
             { name: service.title, url },
           ]),
         ]}

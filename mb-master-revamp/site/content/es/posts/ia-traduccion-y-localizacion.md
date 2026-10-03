@@ -22,6 +22,29 @@ Las empresas que usan bien la IA llegan antes a los mercados nuevos. La traducci
 
 Para la mayoría de las empresas, la pregunta útil es en qué puntos la IA necesita a una persona al lado. Nuestra [consultoría de posicionamiento multilingüe](/es/services/posicionamiento-multilingue/) parte de ahí.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 130" role="img" aria-label="El reparto en cuatro pasos: tu glosario, el borrador de la IA, la posedición de un hablante nativo y la publicación.">
+<line x1="50" y1="32" x2="350" y2="32" class="fg-rule"/>
+<circle cx="50" cy="32" r="26" class="fg-box"/>
+<circle cx="150" cy="32" r="26" class="fg-box"/>
+<circle cx="250" cy="32" r="26" class="fg-hot"/>
+<circle cx="350" cy="32" r="26" class="fg-box"/>
+<text x="50" y="38" text-anchor="middle" class="fg-strong">1</text>
+<text x="50" y="90" text-anchor="middle" class="fg-text">Glosario</text>
+<text x="50" y="114" text-anchor="middle" class="fg-label">tus términos</text>
+<text x="150" y="38" text-anchor="middle" class="fg-strong">2</text>
+<text x="150" y="90" text-anchor="middle" class="fg-text">Borrador IA</text>
+<text x="150" y="114" text-anchor="middle" class="fg-label">la máquina</text>
+<text x="250" y="38" text-anchor="middle" class="fg-strong">3</text>
+<text x="250" y="90" text-anchor="middle" class="fg-text">Posedición</text>
+<text x="250" y="114" text-anchor="middle" class="fg-label">un nativo</text>
+<text x="350" y="38" text-anchor="middle" class="fg-strong">4</text>
+<text x="350" y="90" text-anchor="middle" class="fg-text">Publicar</text>
+<text x="350" y="114" text-anchor="middle" class="fg-label">revisado</text>
+</svg>
+<figcaption>La máquina pone la velocidad en el segundo paso; la confianza llega en el tercero, cuando un nativo comprueba que cada frase fluida es también correcta.</figcaption>
+</figure>
+
 ## Oportunidades para tu empresa
 
 ### Plazos más cortos

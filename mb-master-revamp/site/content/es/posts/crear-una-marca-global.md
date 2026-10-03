@@ -30,6 +30,34 @@ Pequeños cambios de énfasis deciden si un comprador sigue leyendo. Lo vemos en
 
 Una misma marca, cinco énfasis distintos en la página. Cada uno de estos ajustes mantiene intacta la identidad y hace que llegue.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 196" role="img" aria-label="Una misma marca en el centro, con un énfasis distinto en cada mercado: precisión en Bélgica, contexto en Francia, relación en España, cifras en los Países Bajos y un toque ligero en el Reino Unido.">
+<line x1="200" y1="98" x2="200" y2="26" class="fg-line"/>
+<line x1="200" y1="98" x2="64" y2="98" class="fg-line"/>
+<line x1="200" y1="98" x2="336" y2="98" class="fg-line"/>
+<line x1="200" y1="98" x2="98" y2="170" class="fg-line"/>
+<line x1="200" y1="98" x2="302" y2="170" class="fg-line"/>
+<rect x="142" y="4" width="116" height="44" rx="6" class="fg-box"/>
+<text x="200" y="24" text-anchor="middle" class="fg-text">Bélgica</text>
+<text x="200" y="42" text-anchor="middle" class="fg-label">precisión</text>
+<rect x="6" y="76" width="116" height="44" rx="6" class="fg-box"/>
+<text x="64" y="96" text-anchor="middle" class="fg-text">Francia</text>
+<text x="64" y="114" text-anchor="middle" class="fg-label">contexto</text>
+<rect x="278" y="76" width="116" height="44" rx="6" class="fg-box"/>
+<text x="336" y="96" text-anchor="middle" class="fg-text">España</text>
+<text x="336" y="114" text-anchor="middle" class="fg-label">relación</text>
+<rect x="40" y="148" width="116" height="44" rx="6" class="fg-box"/>
+<text x="98" y="168" text-anchor="middle" class="fg-text">Países Bajos</text>
+<text x="98" y="186" text-anchor="middle" class="fg-label">cifras</text>
+<rect x="244" y="148" width="116" height="44" rx="6" class="fg-box"/>
+<text x="302" y="168" text-anchor="middle" class="fg-text">Reino Unido</text>
+<text x="302" y="186" text-anchor="middle" class="fg-label">toque ligero</text>
+<circle cx="200" cy="98" r="46" class="fg-hot"/>
+<text x="200" y="104" text-anchor="middle" class="fg-text">Tu marca</text>
+</svg>
+<figcaption>La identidad se queda en el centro y cada mercado ajusta el énfasis de la página: ahí se gana la conversión.</figcaption>
+</figure>
+
 ## Qué viaja y qué necesita trabajo
 
 Saber distinguirlo te dice dónde invertir el presupuesto de localización y dónde ahorrarlo.

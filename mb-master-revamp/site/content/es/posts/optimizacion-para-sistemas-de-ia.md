@@ -45,6 +45,24 @@ Tus compradores preguntan con frases completas, y las palabras clave de siempre 
 
 Este análisis distingue entre lo que el modelo responde **buscando en la web** y lo que responde con su **conocimiento previo**. Así sabes qué consultas activan una búsqueda externa, donde una página bien posicionada puede entrar en la respuesta, y cuáles se resuelven con información ya integrada en el modelo, donde cuenta tu presencia acumulada en la web.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 164" role="img" aria-label="Una pregunta al modelo sigue una de dos rutas: si busca en la web, cuenta una página bien posicionada; si responde con su conocimiento previo, cuenta tu presencia en toda la web.">
+<rect x="120" y="8" width="160" height="36" rx="6" class="fg-box"/>
+<text x="200" y="31" text-anchor="middle" class="fg-text">Pregunta</text>
+<line x1="200" y1="44" x2="100" y2="76" class="fg-line"/>
+<line x1="200" y1="44" x2="300" y2="76" class="fg-line"/>
+<rect x="10" y="78" width="180" height="36" rx="6" class="fg-box"/>
+<text x="100" y="101" text-anchor="middle" class="fg-text">Búsqueda en la web</text>
+<rect x="210" y="78" width="180" height="36" rx="6" class="fg-hot"/>
+<text x="300" y="101" text-anchor="middle" class="fg-text">Conocimiento previo</text>
+<text x="100" y="138" text-anchor="middle" class="fg-label">cuenta una página</text>
+<text x="100" y="156" text-anchor="middle" class="fg-label">bien posicionada</text>
+<text x="300" y="138" text-anchor="middle" class="fg-label">cuenta tu presencia</text>
+<text x="300" y="156" text-anchor="middle" class="fg-label">en toda la web</text>
+</svg>
+<figcaption>En las consultas que activan una búsqueda, una página bien posicionada puede entrar en la respuesta. En las demás, cuenta lo que la web ha dicho de ti hasta hoy.</figcaption>
+</figure>
+
 Aquí también ves **cómo influyen la memoria y el contexto en las respuestas de la IA**, y qué supone para la visibilidad de tu marca.
 
 ## Paso 3: construir visibilidad más allá de tu sitio web

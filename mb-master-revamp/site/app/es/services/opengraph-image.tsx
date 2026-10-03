@@ -1,12 +1,16 @@
-import { OG_SIZE, OG_CONTENT_TYPE, renderServiceOgImage } from "@/lib/og-card";
+import { OG_SIZE, OG_CONTENT_TYPE, renderOgCard, PORTRAIT } from "@/lib/og-card";
 
-// Share card for this hand-built page, in its own language. Static export
-// needs a route handler without generateStaticParams to be force-static.
+// ValenciaMove card treatment (owner, 3 Oct 2026): see lib/og-card.tsx.
 export const dynamic = "force-static";
 export const size = OG_SIZE;
 export const contentType = OG_CONTENT_TYPE;
-export const alt = "Carta Mike Bastin: Servicios de SEO internacional para empresas que exportan";
+export const alt = "Servicios de marketing digital en Valencia de Mike Bastin.";
 
 export default async function Image() {
-  return renderServiceOgImage({ name: "Servicios de SEO internacional para empresas que exportan", angle: "Servicios, Mike Bastin" });
+  return renderOgCard({
+    title: "Servicios de marketing digital en Valencia, medidos en clientes",
+    subtitle: "SEO, Google Ads, traducción jurada y consultoría de IA",
+    tag: "Servicios",
+    picture: PORTRAIT,
+  });
 }

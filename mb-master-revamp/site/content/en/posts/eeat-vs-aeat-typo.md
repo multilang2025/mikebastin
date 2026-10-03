@@ -71,6 +71,22 @@ Precision matters in Spain too. Correct invoice numbers keep the requests away. 
 
 Working in legal SEO in Spain means respecting both judges. Both reward structure. Only one accepts backlinks as currency.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 162" role="img" aria-label="EEAT, judged by Google, and AEAT, the Spanish tax office, both lead to the same thing: structure.">
+<line x1="95" y1="64" x2="168" y2="112" class="fg-line"/>
+<line x1="305" y1="64" x2="232" y2="112" class="fg-line"/>
+<rect x="20" y="8" width="150" height="56" rx="6" class="fg-box"/>
+<rect x="230" y="8" width="150" height="56" rx="6" class="fg-box"/>
+<rect x="130" y="112" width="140" height="42" rx="6" class="fg-hot"/>
+<text x="95" y="32" text-anchor="middle" class="fg-strong">EEAT</text>
+<text x="95" y="52" text-anchor="middle" class="fg-label">Google</text>
+<text x="305" y="32" text-anchor="middle" class="fg-strong">AEAT</text>
+<text x="305" y="52" text-anchor="middle" class="fg-label">Tax office</text>
+<text x="200" y="139" text-anchor="middle" class="fg-strong">Structure</text>
+</svg>
+<figcaption>Two judges, one letter apart, and they reward the same habit. Only one of them accepts backlinks as currency.</figcaption>
+</figure>
+
 <aside class="post-cta">
 <p><strong>Publishing in Spanish and English, and want both versions pulling their weight?</strong> Our <a href="/services/technical-seo/">technical SEO for multilingual websites</a> finds where your language versions compete with each other, and fixes the cause so they add up. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>

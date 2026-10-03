@@ -4,11 +4,12 @@ import "./globals.css";
 import SmoothScroll from "@/components/SmoothScroll";
 import SiteNav from "@/components/SiteNav";
 import { LocaleDataProvider } from "@/components/LocaleData";
+import { encodeLocaleGroups } from "@/lib/locale-href";
 import CookieConsent from "@/components/CookieConsent";
 import Analytics from "@/components/Analytics";
 import BackToTop from "@/components/BackToTop";
 import JsonLd from "@/components/JsonLd";
-import { personSchema, professionalServiceSchema } from "@/lib/schema";
+import { personSchema, professionalServiceSchema, websiteSchema } from "@/lib/schema";
 import { getLocaleManifest } from "@/lib/posts";
 import HtmlLang from "@/components/HtmlLang";
 import { getPageLocaleManifest } from "@/lib/fr-pages";
@@ -19,14 +20,10 @@ const fraunces = localFont({
   weight: "400 700",
   display: "swap",
   preload: true,
-});
-
-const cormorant = localFont({
-  src: "./fonts/cormorant.woff2",
-  variable: "--font-cormorant",
-  weight: "300 400",
-  style: "italic",
-  display: "swap",
+  // A serif stand-in while Fraunces loads, so the swap barely moves the
+  // headings (CWV audit, 3 Oct 2026: the Arial-based default reflowed the
+  // hero h1 from 74 to 98px on phones).
+  adjustFontFallback: "Times New Roman",
 });
 
 const inter = localFont({
@@ -73,6 +70,14 @@ document.documentElement.setAttribute("data-theme",s||(d?"dark":"light"));}catch
 // which is also the only case where something is there to un-hide it. If the
 // browser has no IntersectionObserver, or the visitor asked for reduced
 // motion, .mb-anim is never added and every reveal renders plainly visible.
+// Runs before paint: a visitor who has already answered the consent banner
+// (a record under "mb-consent", lib/consent.ts, under six months old) gets
+// html.mb-consented, which hides the server-rendered banner in CSS so it
+// never flashes (components/CookieConsent.tsx).
+const consented = `(function(){try{var r=localStorage.getItem("mb-consent");if(!r)return;
+var c=JSON.parse(r);if(c&&c.v===1&&typeof c.at==="number"&&Date.now()-c.at<15552000000)
+document.documentElement.classList.add("mb-consented");}catch(e){}})();`;
+
 const reveal = `(function(){var de=document.documentElement;try{
 if(!("IntersectionObserver" in window))return;
 if(window.matchMedia("(prefers-reduced-motion: reduce)").matches)return;
@@ -102,20 +107,21 @@ export default function RootLayout({
     <html lang="en" data-scroll-behavior="smooth" suppressHydrationWarning>
       <head>
         <script dangerouslySetInnerHTML={{ __html: noFlash }} />
+        <script dangerouslySetInnerHTML={{ __html: consented }} />
         <script dangerouslySetInnerHTML={{ __html: reveal }} />
         {/* Person + ProfessionalService per HANDOFF.md §13. sameAs carries the
             real profiles recorded in docs/CONTENT-ARCHITECTURE.md §1; the
             Google Business Profile uses the stable ?cid= form, never a
             session-bearing search URL. See lib/schema.ts for the shared
             entities every other page's JSON-LD references by @id. */}
-        <JsonLd data={[personSchema, professionalServiceSchema]} />
+        <JsonLd data={[websiteSchema, personSchema, professionalServiceSchema]} />
       </head>
       <body
-        className={`${fraunces.variable} ${cormorant.variable} ${inter.variable}`}
+        className={`${fraunces.variable} ${inter.variable}`}
       >
         <SmoothScroll />
         <HtmlLang />
-        <LocaleDataProvider value={{ localeManifest: getLocaleManifest(), pagePairs: getPageLocaleManifest() }}>
+        <LocaleDataProvider groups={encodeLocaleGroups(getLocaleManifest(), getPageLocaleManifest())}>
           <SiteNav />
           {children}
           <CookieConsent />

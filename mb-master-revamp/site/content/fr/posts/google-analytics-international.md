@@ -43,6 +43,30 @@ Le consentement, lui, reste la règle pour les traceurs. Faites valider votre co
 
 Bien configuré, GA4 donne des tendances fiables pour décider où investir ensuite.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 186" role="img" aria-label="Deux colonnes. Fiable dans GA4, le pays, la langue du navigateur, l’engagement et l’attribution comme guide. À vérifier, les refus de consentement, la Chine continentale, les robots et la localisation faussée par les VPN.">
+<text x="100" y="20" text-anchor="middle" class="fg-strong">Fiable</text>
+<text x="300" y="20" text-anchor="middle" class="fg-strong">À vérifier</text>
+<rect x="10" y="32" width="180" height="30" rx="6" class="fg-box"/>
+<rect x="10" y="70" width="180" height="30" rx="6" class="fg-box"/>
+<rect x="10" y="108" width="180" height="30" rx="6" class="fg-box"/>
+<rect x="10" y="146" width="180" height="30" rx="6" class="fg-box"/>
+<rect x="210" y="32" width="180" height="30" rx="6" class="fg-hot"/>
+<rect x="210" y="70" width="180" height="30" rx="6" class="fg-box"/>
+<rect x="210" y="108" width="180" height="30" rx="6" class="fg-box"/>
+<rect x="210" y="146" width="180" height="30" rx="6" class="fg-box"/>
+<text x="100" y="52" text-anchor="middle" class="fg-label">Pays</text>
+<text x="100" y="90" text-anchor="middle" class="fg-label">Langue du navigateur</text>
+<text x="100" y="128" text-anchor="middle" class="fg-label">Engagement</text>
+<text x="100" y="166" text-anchor="middle" class="fg-label">Attribution, en guide</text>
+<text x="300" y="52" text-anchor="middle" class="fg-label">Consentement refusé</text>
+<text x="300" y="90" text-anchor="middle" class="fg-label">Chine continentale</text>
+<text x="300" y="128" text-anchor="middle" class="fg-label">Robots</text>
+<text x="300" y="166" text-anchor="middle" class="fg-label">VPN et mobile</text>
+</svg>
+<figcaption>Appuyez vos décisions sur la colonne de gauche. La colonne de droite indique où un marché peut paraître plus petit ou plus confus qu’il ne l’est, à commencer par les refus de consentement en Europe.</figcaption>
+</figure>
+
 ### La répartition géographique
 
 Les données par pays sont l’endroit le plus sûr pour repérer un marché prêt à être servi. Elles aident en particulier à trouver une demande naturelle dans des pays hors de vos campagnes : si un pays envoie régulièrement des visites qualifiées, il a mérité un budget de localisation ou de SEO ciblé.

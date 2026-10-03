@@ -70,6 +70,32 @@ Proposer les moyens de paiement auxquels chaque marché fait confiance fluidifie
 
 Un chiffre par langue montre comment chaque marché performe de son côté. Consultez régulièrement chaque version de langue dans Google Search Console, filtrée par dossier ou par pays : les données indiquent où affiner la recherche de mots-clés, ajuster les métadonnées et améliorer le contenu de chaque langue.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 166" role="img" aria-label="Un cycle en quatre étapes pour chaque version de langue, trouvée, comprise, payée puis mesurée, avant de reprendre au début.">
+<line x1="170" y1="38" x2="230" y2="38" class="fg-line"/>
+<path d="M224 33 L230 38 L224 43" class="fg-line"/>
+<line x1="310" y1="66" x2="310" y2="100" class="fg-line"/>
+<path d="M305 94 L310 100 L315 94" class="fg-line"/>
+<line x1="230" y1="128" x2="170" y2="128" class="fg-line"/>
+<path d="M176 123 L170 128 L176 133" class="fg-line"/>
+<line x1="90" y1="100" x2="90" y2="66" class="fg-line"/>
+<path d="M85 72 L90 66 L95 72" class="fg-line"/>
+<rect x="10" y="10" width="160" height="56" rx="6" class="fg-box"/>
+<text x="90" y="34" text-anchor="middle" class="fg-text">Trouvée</text>
+<text x="90" y="55" text-anchor="middle" class="fg-label">hreflang, mots-clés</text>
+<rect x="230" y="10" width="160" height="56" rx="6" class="fg-box"/>
+<text x="310" y="34" text-anchor="middle" class="fg-text">Comprise</text>
+<text x="310" y="55" text-anchor="middle" class="fg-label">localisation</text>
+<rect x="230" y="100" width="160" height="56" rx="6" class="fg-hot"/>
+<text x="310" y="124" text-anchor="middle" class="fg-text">Payée</text>
+<text x="310" y="145" text-anchor="middle" class="fg-label">Bizum, Wero</text>
+<rect x="10" y="100" width="160" height="56" rx="6" class="fg-box"/>
+<text x="90" y="124" text-anchor="middle" class="fg-text">Mesurée</text>
+<text x="90" y="145" text-anchor="middle" class="fg-label">Search Console</text>
+</svg>
+<figcaption>Chaque version de langue suit le même cycle, et le paiement local est l’étape où la localisation devient du chiffre d’affaires.</figcaption>
+</figure>
+
 Le balisage schema et les données structurées aident aussi les sites multirégionaux à obtenir des résultats enrichis, comme les avis et les événements. Associés au [marketing de contenu multilingue](/fr/services/creation-de-contenu-multilingue/), ils vous aident à toucher des publics internationaux avec un message cohérent dans chaque langue.
 
 <aside class="post-cta">

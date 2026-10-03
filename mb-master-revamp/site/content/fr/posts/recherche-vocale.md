@@ -67,6 +67,27 @@ Rédigez vos titres et vos premiers paragraphes à partir de ces questions, puis
 
 Un assistant vocal lit une seule réponse à l’utilisateur, et il la prend souvent dans un extrait optimisé de Google (la « position zéro ») ou dans la réponse rédigée par l’IA. Décrocher cette place vous donne toute la visibilité de la requête.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 156" role="img" aria-label="Une question orale passe par l’assistant, qui choisit une seule page parmi plusieurs et lit sa réponse à voix haute.">
+<rect x="6" y="60" width="110" height="36" rx="6" class="fg-box"/>
+<rect x="146" y="60" width="104" height="36" rx="6" class="fg-box"/>
+<line x1="116" y1="78" x2="146" y2="78" class="fg-line"/>
+<path d="M140 73 L146 78 L140 83" class="fg-line"/>
+<line x1="250" y1="78" x2="280" y2="28" class="fg-dim"/>
+<line x1="250" y1="78" x2="280" y2="128" class="fg-dim"/>
+<line x1="250" y1="78" x2="280" y2="78" class="fg-accent"/>
+<rect x="280" y="10" width="114" height="36" rx="6" class="fg-box"/>
+<rect x="280" y="60" width="114" height="36" rx="6" class="fg-hot"/>
+<rect x="280" y="110" width="114" height="36" rx="6" class="fg-box"/>
+<text x="61" y="84" text-anchor="middle" class="fg-text">Question</text>
+<text x="198" y="84" text-anchor="middle" class="fg-text">Assistant</text>
+<text x="337" y="33" text-anchor="middle" class="fg-label">Autre page</text>
+<text x="337" y="84" text-anchor="middle" class="fg-text">Votre page</text>
+<text x="337" y="133" text-anchor="middle" class="fg-label">Autre page</text>
+</svg>
+<figcaption>L’assistant lit une seule réponse, et la page qui la formule le plus clairement reçoit toute la visibilité de la requête.</figcaption>
+</figure>
+
 Pour augmenter vos chances d’y figurer :
 
 - rédigez des réponses concises de 40 à 60 mots, sur un ton conversationnel ;

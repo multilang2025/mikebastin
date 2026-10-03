@@ -231,6 +231,17 @@ needs.
 - IP boundary: no Marvel/superhero imagery tied to "Silver Surfer" — it is a
   prose-only nickname, visual language is original surf/wave motifs.
 
+## Declaudify brief (owner, 3 Oct 2026)
+
+[`docs/DECLAUDIFY-BRIEF.md`](docs/DECLAUDIFY-BRIEF.md) is the current design
+direction: the agency is recognised through Mike, its specialists and its real
+work. **No looping animation anywhere** (no shimmer, breathing glow or spinning
+art; entrance motion plays once). The homepages lead with Mike's portrait, the
+offer and one call to action, then dated client evidence and three cases. It
+supersedes the 2 Oct approval of the homepage market map (Q24). The brief also
+asks for "I" in Mike's founder story and personal commentary, an exception to
+the "we" rule above, for the P2 pass; services stay "we".
+
 ## Keywords are assigned, researched and enforced
 
 `site/lib/keywords.ts` holds one **primary** and several **secondary**
@@ -313,8 +324,40 @@ and no og:url. Rules that came out of fixing it:
   characters since the voice pass); `lib/seo.ts` only trims one over 160.
   A post title over 60 characters gets a `metaTitle` in frontmatter; the
   h1 keeps `title`.
-- `.htaccess` forces `image/png` on the extensionless `opengraph-image`
+- `.htaccess` forces `image/jpeg` on the extensionless `opengraph-image`
   files; without it the host sends no Content-Type.
+- **Social cards follow the ValenciaMove treatment** (owner, 3 Oct 2026):
+  `lib/og-card.tsx` `renderOgCard()` draws the page's own picture (post
+  photograph, client site, cluster scene, or Mike's portrait) behind a navy
+  gradient, the letter-spaced brand line, title, one-line subtitle, a
+  raspberry section pill and the domain. `scripts/og-to-jpeg.mjs`
+  (postbuild) re-encodes every card as JPEG (144 MB to 16 MB). Pages whose
+  route serves many slugs pass `cardAlt` to `pageMeta()` for a per-page
+  "Title. Subtitle" alt; every page also emits `og:locale:alternate` and
+  `twitter:site`/`creator` @mikebastin.
+- **Core Web Vitals** (audit, 3 Oct 2026; mobile, real throttling): LCP
+  1.8 to 2.5 s on the eleven pages measured (was 2.1 to 3.8), CLS 0
+  everywhere. What fixed it and must stay: the first band of a page is
+  never held back by the scroll reveal (globals.css), the consent banner is
+  in the static HTML and hidden before paint for visitors who already
+  chose (`html.mb-consented`), the first journal picture loads eagerly,
+  Fraunces falls back to Times New Roman, Cormorant is gone, and hashed
+  assets cache for a year (`.htaccess`). Measure with gzip on: a static
+  server without compression adds about a second to every first paint.
+  Closed the same day: the motion/react library is gone (Counter and
+  Testimonials use `lib/motion.ts`, the Spread parallax is CSS
+  `animation-timeline: view()`), each dl-art illustration ships only its
+  own CSS (`DlArt` hoists a deduped `<style>`), the language switcher reads
+  compact translation groups (`encodeLocaleGroups` in
+  `lib/locale-href.ts`) instead of a per-page manifest, the TOC rail marks
+  the current section without bold (no shift), and contact and team pages
+  carry ContactPage and AboutPage schema.
+- **Structured data** (audit, 3 Oct 2026): a WebSite node sitewide, author
+  and publisher written out in full, `inLanguage` on posts and services,
+  FR and ES breadcrumbs rooted at `/fr/` and `/es/` through the blog or
+  services index, BeTranslated as `parentOrganization` with its NIF, and
+  `areaServed` Valencia on the Spanish local SEO page. No FAQPage or
+  ItemList (not eligible for this content).
 - `<html lang>` is `en` on English pages (international English; hreflang
   already says `en`) and `fr`/`es` on French and Spanish ones, written into
   the exported HTML by `scripts/set-html-lang.mjs` (postbuild) and checked
@@ -676,6 +719,7 @@ request), paired by `lib/lead-gen-hubs.ts` rather than content-map; the
 ES one is the first rebuilt Spanish page. **Spanish addresses the reader as "tú"**
 (owner, 29 Sep 2026); French keeps "vous" in a **formal** register (owner,
 30 Sep 2026), enforced by `lint:fr`.
+**The Spanish site focuses on Valencia + keyword** (owner, 3 Oct 2026): its reader is a company in Valencia, serving the city or selling from it, and each commercial ES page puts its term plus Valencia in the h1, meta title and excerpt; one page per term, map in `docs/ES-REBUILD-PLAN.md`. French keeps the exporter reader.
 **Spanish rebuild started 30 Sep 2026** ("Start Spanish"), following the
 French one: `docs/ES-REBUILD-PLAN.md` (the reader is a Spanish-speaking
 company selling abroad, assumed to mirror the French decisions),

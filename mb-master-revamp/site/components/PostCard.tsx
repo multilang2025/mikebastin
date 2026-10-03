@@ -21,6 +21,7 @@ export default function PostCard({
   excerpt,
   date,
   alt,
+  priority = false,
 }: {
   href: string;
   imageSlug: string;
@@ -30,6 +31,8 @@ export default function PostCard({
   /** Already formatted for the page language. */
   date: string;
   alt?: string;
+  /** Load eagerly: only for the first card above the fold. */
+  priority?: boolean;
 }) {
   return (
     <Link href={href} className="group flex h-full flex-col">
@@ -41,6 +44,7 @@ export default function PostCard({
           slug={imageSlug}
           cluster={cluster}
           alt={alt}
+          priority={priority}
           className="aspect-[1200/630] w-full transition-transform duration-500 group-hover:scale-[1.03]"
           sizes="(min-width: 1024px) 400px, (min-width: 640px) 50vw, 100vw"
         />

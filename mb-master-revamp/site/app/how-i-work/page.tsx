@@ -23,7 +23,6 @@ export const metadata: Metadata = {
     description: "How a multilingual SEO, localization or AI consulting engagement runs: the free consultation, the written scope, monthly delivery and reporting per market.",
     path: "/how-i-work/",
     languages: enLanguages("/how-i-work/"),
-    fallbackImage: true,
   }),
 };
 

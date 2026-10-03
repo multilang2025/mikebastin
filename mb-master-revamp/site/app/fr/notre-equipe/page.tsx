@@ -6,7 +6,7 @@ import JsonLd from "@/components/JsonLd";
 import LocaleHtmlLang from "@/components/LocaleHtmlLang";
 import { ButtonLink } from "@/components/ui/Button";
 import { frLanguages } from "@/lib/fr-pages";
-import { SITE_URL, breadcrumbSchema } from "@/lib/schema";
+import { SITE_URL, breadcrumbSchema, pageSchema } from "@/lib/schema";
 import DlArt from "@/components/DlArt";
 import HeroArtSlot from "@/components/HeroArtSlot";
 
@@ -51,6 +51,7 @@ export default function FrenchTeamPage() {
   return (
     <main>
       <LocaleHtmlLang lang="fr" />
+      <JsonLd data={pageSchema("AboutPage", `${SITE_URL}/fr/notre-equipe/`, "Notre équipe", "fr")} />
       <JsonLd
         data={breadcrumbSchema([
           { name: "Accueil", url: `${SITE_URL}/fr/` },

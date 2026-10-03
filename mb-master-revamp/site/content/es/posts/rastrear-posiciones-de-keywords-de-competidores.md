@@ -60,6 +60,20 @@ Para tu presencia internacional, el seguimiento se configura mercado por mercado
 
 La brecha de palabras clave convierte el seguimiento en páginas nuevas: muestra dónde tu competencia capta demanda cualificada que tú todavía puedes atender.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 184" role="img" aria-label="Embudo de la brecha de palabras clave: las palabras de tus rivales, después las que tú no tienes, después solo las comerciales sin marca, y al final grupos por tema, cada uno una página.">
+<rect x="10" y="8" width="380" height="36" rx="6" class="fg-box"/>
+<text x="200" y="32" text-anchor="middle" class="fg-text">Palabras de tus rivales</text>
+<rect x="35" y="52" width="330" height="36" rx="6" class="fg-box"/>
+<text x="200" y="76" text-anchor="middle" class="fg-text">Las que tú no tienes</text>
+<rect x="60" y="96" width="280" height="36" rx="6" class="fg-box"/>
+<text x="200" y="120" text-anchor="middle" class="fg-text">Sin marca, comerciales</text>
+<rect x="85" y="140" width="230" height="36" rx="6" class="fg-hot"/>
+<text x="200" y="164" text-anchor="middle" class="fg-strong">Un grupo, una página</text>
+</svg>
+<figcaption>Cada filtro deja menos términos y más útiles. Lo que queda, agrupado por tema, es la lista de páginas que puedes escribir para captar esa demanda.</figcaption>
+</figure>
+
 1. Introduce tu dominio y los de tres a cinco rivales del mismo mercado en el informe de brecha de Semrush o de Ahrefs.
 2. Filtra las palabras clave en las que posicionan ellos y tú todavía no.
 3. Quita los términos de marca y quédate con los de intención comercial.

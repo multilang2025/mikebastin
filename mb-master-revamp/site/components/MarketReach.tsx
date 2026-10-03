@@ -81,16 +81,16 @@ export default function MarketReach() {
         </g>
 
         {MARKETS.map((m, i) => (
-          <g
-            key={i}
-            transform={`translate(${m.p.x} ${m.p.y})`}
-            className="mr-origin"
-            style={{ "--i": i } as React.CSSProperties}
-          >
-            <circle r="9" className="mr-target" />
-            <circle r="13" className="mr-target-outer" />
-            <circle r="9" className="mr-halo-pulse" style={{ "--i": i } as React.CSSProperties} />
-            <circle r="2.6" className="mr-pin" />
+          // The position lives on the outer group: the pop animation ends on
+          // `transform: none`, which on the same element would override the
+          // translate attribute and stack every pin in the top-left corner.
+          <g key={i} transform={`translate(${m.p.x} ${m.p.y})`}>
+            <g className="mr-origin" style={{ "--i": i } as React.CSSProperties}>
+              <circle r="9" className="mr-target" />
+              <circle r="13" className="mr-target-outer" />
+              <circle r="9" className="mr-halo-pulse" style={{ "--i": i } as React.CSSProperties} />
+              <circle r="2.6" className="mr-pin" />
+            </g>
           </g>
         ))}
 

@@ -29,6 +29,8 @@ Le socle, dans chaque langue :
 
 Ces mêmes signaux fondent désormais le GEO dans chaque langue : un socle solide sert donc deux fois.
 
+<!-- figure:market-reach -->
+
 ## Localiser les mots-clés : partir de la façon dont chaque marché cherche
 
 Les mots-clés localisés sont les termes que les acheteurs de chaque marché saisissent réellement, et ils diffèrent souvent de la traduction de votre liste française. La recherche part de la façon dont les internautes de chaque pays formulent leur besoin, avec des mots propres à ce pays.

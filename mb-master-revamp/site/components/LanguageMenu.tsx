@@ -24,7 +24,7 @@ const LABEL: Record<Locale, string> = { en: "Language", fr: "Langue", es: "Idiom
  */
 export default function LanguageMenu() {
   const pathname = usePathname() ?? "/";
-  const { localeManifest, pagePairs } = useLocaleData();
+  const localeIndex = useLocaleData();
   const current = localeOfPath(pathname);
   const [open, setOpen] = useState(false);
   const root = useRef<HTMLDivElement>(null);
@@ -94,7 +94,7 @@ export default function LanguageMenu() {
                 ) : (
                   <Link
                     role="menuitem"
-                    href={localeHref(pathname, localeManifest, pagePairs, locale)}
+                    href={localeHref(pathname, localeIndex, locale)}
                     hrefLang={locale}
                     lang={locale}
                     className="flex items-center justify-between gap-6 px-4 py-2.5 text-[.95rem] transition-colors duration-150 hover:bg-[var(--berry-soft)]"

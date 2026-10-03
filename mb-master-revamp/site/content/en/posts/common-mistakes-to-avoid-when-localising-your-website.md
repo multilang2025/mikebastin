@@ -77,4 +77,27 @@ Each region has its own habits, and friction shows up in the bounce rate, so wat
 
 Website localization is a strategic investment. Start with the fixes closest to the sale (payments, forms and trust), then work outwards to search and culture.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 220" role="img" aria-label="Concentric rings around the sale: payments and forms closest, then search and technical work, then language and culture on the outside.">
+<circle cx="110" cy="110" r="102" class="fg-box"/>
+<circle cx="110" cy="110" r="80" class="fg-box"/>
+<circle cx="110" cy="110" r="56" class="fg-box"/>
+<circle cx="110" cy="110" r="30" class="fg-hot"/>
+<text x="110" y="116" text-anchor="middle" class="fg-strong">Sale</text>
+<circle cx="153" cy="110" r="3" class="fg-fill-accent"/>
+<line x1="153" y1="110" x2="226" y2="110" class="fg-dim"/>
+<circle cx="142" cy="170" r="3" class="fg-fill-accent"/>
+<line x1="142" y1="170" x2="226" y2="170" class="fg-dim"/>
+<circle cx="168" cy="40" r="3" class="fg-fill-accent"/>
+<line x1="168" y1="40" x2="226" y2="40" class="fg-dim"/>
+<text x="234" y="45" class="fg-text">3 Language</text>
+<text x="234" y="64" class="fg-label">culture, imagery</text>
+<text x="234" y="115" class="fg-text">1 Payments</text>
+<text x="234" y="134" class="fg-label">forms, trust</text>
+<text x="234" y="175" class="fg-text">2 Search</text>
+<text x="234" y="194" class="fg-label">keywords, testing</text>
+</svg>
+<figcaption>Start with the fixes closest to the sale, where a visitor is already deciding, then work outwards to search and culture.</figcaption>
+</figure>
+
 With over two decades in SEO, translation and marketing, we help businesses build websites that fit each market and get found in it. Our [website localization services](/services/website-localisation/) cover all ten points, and you can [contact us](/contact/) to talk through yours.

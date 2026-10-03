@@ -37,7 +37,6 @@ export const metadata: Metadata = {
     title: "The competitor analysis and traffic checklist, Mike Bastin",
     description: DESCRIPTION,
     path: "/competitor-analysis-traffic-checklist/",
-    fallbackImage: true,
     type: "article",
   }),
 };

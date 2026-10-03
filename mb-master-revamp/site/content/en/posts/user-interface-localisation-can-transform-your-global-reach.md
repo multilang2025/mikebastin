@@ -42,6 +42,24 @@ Knowing the four layers tells you where to look first. Successful [software and 
 
 Images and symbols need [culturally adapted content](/services/multilingual-content/) as much as the text does.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 184" role="img" aria-label="Four layers of an interface to localize: text, graphics, layout and functions, each with what changes.">
+<rect x="20" y="8" width="300" height="36" rx="6" class="fg-box"/>
+<rect x="36" y="52" width="300" height="36" rx="6" class="fg-box"/>
+<rect x="52" y="96" width="300" height="36" rx="6" class="fg-box"/>
+<rect x="68" y="140" width="300" height="36" rx="6" class="fg-box"/>
+<text x="34" y="32" class="fg-text">Text</text>
+<text x="306" y="31" text-anchor="end" class="fg-label">menus, buttons</text>
+<text x="50" y="76" class="fg-text">Graphics</text>
+<text x="322" y="75" text-anchor="end" class="fg-label">icons, colours</text>
+<text x="66" y="120" class="fg-text">Layout</text>
+<text x="338" y="119" text-anchor="end" class="fg-label">space, direction</text>
+<text x="82" y="164" class="fg-text">Functions</text>
+<text x="354" y="163" text-anchor="end" class="fg-label">forms, inputs</text>
+</svg>
+<figcaption>Translation covers the top layer. The three beneath it decide whether a German label fits its button and a local address fits the form.</figcaption>
+</figure>
+
 ## Best practices
 
 Most of the cost is decided before the first string is translated. Four habits keep it low:

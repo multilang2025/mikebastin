@@ -1,6 +1,6 @@
 ---
 words: 1138
-title: "SEO en Francia para empresas españolas que venden allí"
+title: "SEO en Francia para empresas de Valencia que venden allí"
 name: "SEO en Francia"
 slug: "seo-frances"
 locale: "es"
@@ -8,15 +8,17 @@ type: "services"
 group: "g077"
 wpId: 24848927
 date: "2024-09-23T14:02:02"
-modified: "2026-09-30T12:00:00"
+modified: "2026-10-03T12:00:00"
 sourceUrl: "https://mikebastin.com/es/services/seo-frances/"
-excerpt: "Tu web en francés ya recibe visitas. Escribimos tus páginas directamente en francés, para el comprador de Francia, y convertimos esas visitas en solicitudes."
+excerpt: "SEO en Francia para tu empresa de Valencia: escribimos tus páginas en francés para el comprador francés y sus visitas se convierten en solicitudes."
 ---
-## Tu web en francés puede ser tu mercado de exportación más rentable
+## Tu empresa vende desde Valencia y Francia puede ser tu mercado más rentable
 
-Ya vendes en Francia y tu web en francés recibe visitas. Con frecuencia esas páginas siguen en su primera traducción del español. Si partes de textos en inglés, nuestra guía sobre la [traducción de inglés a francés](/es/traduccion-ingles-frances/) te dice qué pedir a tu proveedor. El siguiente paso es escribirlas para el comprador francés que compara proveedores: lee tres o cuatro sitios, se queda con dos y escribe al que suena como un proveedor de allí.
+Tu empresa está en Valencia, ya vende en Francia y tu web en francés recibe visitas. Con frecuencia esas páginas siguen en su primera traducción del español. Si partes de textos en inglés, nuestra guía sobre la [traducción de inglés a francés](/es/traduccion-ingles-frances/) te dice qué pedir a tu proveedor. El siguiente paso es escribirlas para el comprador francés que compara proveedores: lee tres o cuatro sitios, se queda con dos y escribe al que suena como un proveedor de allí.
 
-El comprador francés distingue en la primera frase si una página se pensó en Francia: la palabra que elegiría un redactor francés, el tratamiento adecuado, un ejemplo que le resulta familiar. Francia es el mayor mercado francófono de Europa, y una web que suena local llega a la mayor parte del público para el que se construyó.
+El comprador francés distingue en la primera frase si una página se pensó en Francia: la palabra que elegiría un redactor francés, el tratamiento adecuado, un ejemplo que le resulta familiar. Francia es el mayor mercado francófono de Europa y el gran vecino de una empresa valenciana, y una web que suena local llega a la mayor parte del público para el que se construyó.
+
+Preparamos el plan contigo en español, en nuestra oficina de Calle Rugat 12 - 2, 46021 Valencia, o por vídeo, y escribimos el francés directamente.
 
 <aside class="post-cta">
 <p><strong>¿Quieres que tus páginas en francés te traigan solicitudes de empresas francesas?</strong> Investigamos y escribimos directamente en francés, para el mercado al que vendes. <a href="/es/contactanos/">Reserva una consulta gratuita</a>.</p>
@@ -40,7 +42,7 @@ Matosurf es nuestro propio sitio francés de deportes de tabla: ciento veinte gu
 
 ## Ajustes técnicos para Francia
 
-La estructura de dominio se decide una vez y pronto. Un dominio .fr es la señal local más fuerte y el que más cuesta mantener. Un subdirectorio /fr/ conserva toda la autoridad que ya tiene tu web y es la opción habitual cuando una empresa española añade Francia. En un dominio .com u otro genérico, las etiquetas hreflang y un contenido pensado para Francia indican a Google el país al que te diriges.
+La estructura de dominio se decide una vez y pronto. Un dominio .fr es la señal local más fuerte y el que más cuesta mantener. Un subdirectorio /fr/ conserva toda la autoridad que ya tiene tu web y es la opción habitual cuando una empresa de Valencia añade Francia. En un dominio .com u otro genérico, las etiquetas hreflang y un contenido pensado para Francia indican a Google el país al que te diriges.
 
 Coloca etiquetas hreflang en cada página, la de inicio incluida, con el código correcto (es-ES, fr-FR y los que necesites) y un enlace de vuelta a cada versión. El visitante francés llega a la versión francesa, el español a la española, y Search Console muestra un informe limpio. Ofrece además al usuario la opción de elegir su versión, para que cada persona llegue a la que prefiere y el rastreador vea todas.
 
@@ -62,6 +64,6 @@ Una empresa belga suele necesitar francés y neerlandés a la vez, y el comprado
 
 Empezamos con una consulta gratuita sobre tu empresa, tus compradores y tus mercados francófonos, y después hacemos una auditoría de tus páginas en francés frente a lo que buscan los compradores franceses, con Ahrefs, Semrush y Search Console. Si tu traducción ya está hecha, la auditoría señala las páginas que merecen una reescritura; suele ser un puñado. La auditoría de 20 minutos es gratuita.
 
-A continuación escribimos o reescribimos las páginas que más pesan. Cada mes, un informe sigue las solicitudes que llegan desde el mercado francófono, separadas de tus otros mercados. Recibes por escrito el alcance del primer trimestre y respondemos, por lo general, en un día laborable. La colaboración continúa mes a mes.
+A continuación escribimos o reescribimos las páginas que más pesan. Cada mes, un informe sigue las solicitudes que llegan desde el mercado francófono, separadas de tus otros mercados. Recibes por escrito el alcance del primer trimestre y respondemos, por lo general, en un día laborable. La colaboración continúa mes a mes. Si también quieres clientes en la propia Valencia, nuestro [SEO local](/es/services/seo-local/) te pone en el mapa de tu ciudad.
 
 La redacción se presupuesta aparte, como un encargo. Si añades campañas con nuestra [publicidad multilingüe](/es/services/publicidad-multilingue/), todo tu presupuesto de medios se destina a anuncios y va directo a Google, Microsoft o Meta, y la gestión es una tarifa aparte. Nuestra guía de [Google Ads para Francia](/es/campanas-google-ads-francia/) muestra cómo construir esas campañas para el comprador francés. Para el conjunto de idiomas de tu programa, mira el [posicionamiento multilingüe](/es/services/posicionamiento-multilingue/).

@@ -1,3 +1,4 @@
+import { ogSubtitle } from "@/lib/og-card";
 import type { Metadata } from "next";
 import { pageMeta } from "@/lib/meta";
 import { notFound } from "next/navigation";
@@ -24,6 +25,7 @@ export async function generateMetadata({
     title: project.metaTitle ?? `${project.name}, a case study, Mike Bastin`,
     description: project.metaDescription ?? project.body,
     path: `/projects/${project.slug}/`,
+    cardAlt: `${project.name}, a case study. ${ogSubtitle(project.angle)}`,
   });
 }
 

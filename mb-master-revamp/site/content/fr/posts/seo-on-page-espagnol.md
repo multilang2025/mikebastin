@@ -96,6 +96,22 @@ L’essentiel relève du travail on-page que vous faites déjà, conduit avec pl
 
 Voyez-y un second lecteur de la même page : une page écrite clairement pour un acheteur espagnol est le plus souvent celle qu’une réponse d’IA cite.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Une même page espagnole claire sert deux lecteurs, l’acheteur espagnol qui clique et la réponse d’IA qui la cite.">
+<line x1="200" y1="50" x2="105" y2="96" class="fg-line"/>
+<line x1="200" y1="50" x2="295" y2="96" class="fg-line"/>
+<rect x="100" y="10" width="200" height="40" rx="6" class="fg-hot"/>
+<text x="200" y="36" text-anchor="middle" class="fg-strong">Une page claire</text>
+<rect x="20" y="96" width="170" height="54" rx="6" class="fg-box"/>
+<rect x="210" y="96" width="170" height="54" rx="6" class="fg-box"/>
+<text x="105" y="120" text-anchor="middle" class="fg-text">Acheteur espagnol</text>
+<text x="105" y="140" text-anchor="middle" class="fg-label">clic, demande</text>
+<text x="295" y="120" text-anchor="middle" class="fg-text">Réponse d’IA</text>
+<text x="295" y="140" text-anchor="middle" class="fg-label">citation</text>
+</svg>
+<figcaption>Le travail on-page que vous faites pour l’acheteur espagnol rend aussi la page facile à citer pour ChatGPT, Perplexity et les AI Overviews.</figcaption>
+</figure>
+
 <aside class="post-cta">
 <p><strong>Vous voulez voir vos pages espagnoles nommées dans les réponses des IA, en plus d’être bien positionnées ?</strong> Notre <a href="/fr/seo-au-geo/">guide du SEO au GEO</a> montre comment structurer les pages pour que ChatGPT, Perplexity et les AI Overviews de Google les citent. <a href="/fr/nous-contacter/">Réservez un premier échange</a>.</p>
 </aside>

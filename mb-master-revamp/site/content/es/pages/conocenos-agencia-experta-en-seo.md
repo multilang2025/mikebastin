@@ -31,7 +31,7 @@ Trabajamos directamente con cada cliente, sin intermediarios. Cada proyecto pasa
 
 Llevo el SEO multilingüe y la estrategia digital de un pequeño portafolio de clientes, en mercados regulados, multilingües o geográficamente complejos. Los nombres se quedan en privado. Los sectores y el trabajo, no.
 
-Despacho valenciano especializado en derecho de extranjería y derecho de sucesiones para clientela internacional. SEO multilingüe en español, francés e inglés, visibilidad en el local pack y autoridad de contenido sobre temas regulados.
+Despacho valenciano especializado en derecho de extranjería y derecho de sucesiones para clientela internacional. SEO multilingüe en español, francés, inglés y ruso, visibilidad en el local pack y autoridad de contenido sobre temas regulados.
 
 Transitario internacional con sede en Texas que mueve carga B2B hacia Latinoamérica, Asia y Europa. SEO técnico, schema markup y páginas de aterrizaje por corredor comercial construidas sobre las búsquedas reales del transporte.
 

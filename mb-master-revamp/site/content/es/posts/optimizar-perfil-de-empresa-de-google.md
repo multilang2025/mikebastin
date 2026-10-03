@@ -1,28 +1,53 @@
 ---
 words: 1850
-title: "Cómo optimizar tu Perfil de Empresa de Google"
+title: "Cómo optimizar tu Perfil de Empresa de Google en Valencia"
 slug: "optimizar-perfil-de-empresa-de-google"
 locale: "es"
 type: "posts"
 group: "g047"
 wpId: 24857773
 date: "2026-05-31T20:44:43"
-modified: "2026-05-31T20:44:43"
+modified: "2026-10-03"
 sourceUrl: "https://mikebastin.com/es/optimizar-perfil-de-empresa-de-google/"
-excerpt: "Cómo optimizar tu Perfil de Empresa de Google en 2026: categorías, reseñas, fotos y Gemini en Maps, para que tu ficha atraiga más llamadas y visitas."
+excerpt: "Optimiza tu Perfil de Empresa de Google en Valencia: categorías, reseñas, fotos y Gemini en Maps, para que tu ficha atraiga más llamadas y visitas."
 ---
 
 ![Cómo optimizar tu Perfil de Empresa de Google](/images/legacy/2024/10/Google-Business-Profile-1024x386.webp)
 
-Tu ficha de Google es lo primero que ve quien busca tu servicio cerca: antes que tu web, a menudo antes que tu nombre. Un perfil al día, con fotos recientes y reseñas nuevas, te mantiene entre las tres empresas que Google enseña en el mapa, y ahí se deciden las llamadas y las reservas.
+Tu ficha de Google es lo primero que ve quien busca tu servicio cerca, en Ruzafa, en El Carmen o en Benimaclet: antes que tu web, a menudo antes que tu nombre. Un perfil al día, con fotos recientes y reseñas nuevas, te mantiene entre las tres empresas que Google enseña en el mapa, y ahí se deciden las llamadas y las reservas.
 
-Tomamos como ejemplo un estudio de yoga en Valencia, pero cada paso vale para cualquier negocio con local abierto al público. Si tu negocio está en Valencia, nuestra guía de [posicionamiento web en Valencia](/es/posicionamiento-web-valencia/) completa el perfil con tu web. Aquí tienes lo que cambió en el perfil entre 2024 y 2026, cómo dejarlo completo y qué revisar cada mes.
+Tu **Perfil de Empresa de Google en Valencia** lo leen clientes que buscan en castellano y en inglés, y una ficha que les habla a todos recibe las llamadas de todos. Tomamos como ejemplo un estudio de yoga en Valencia, y cada paso vale para cualquier negocio con local abierto al público. Nuestra guía de [posicionamiento web en Valencia](/es/posicionamiento-web-valencia/) completa el perfil con tu web, y la de [promocionar tu negocio local en Google Maps en Valencia](/es/promocionar-negocio-local-google-maps-valencia/) suma las reseñas, las publicaciones y los anuncios. Aquí tienes lo que cambió en el perfil entre 2024 y 2026, cómo dejarlo completo y qué revisar cada mes.
 
 ## Tu perfil, fuente de respuestas para la IA
 
 El perfil alimenta ahora las respuestas de Gemini en Google Maps, así que lo que publicas en él decide lo que la IA dice de ti.
 
 Google empezó a retirar la sección pública de preguntas y respuestas a finales de 2025. En su lugar, Gemini responde a las preguntas sobre un sitio tirando de tu perfil, tus reseñas, tus fotos y tu web.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 166" role="img" aria-label="Tu perfil, tus reseñas, tus fotos y tu web alimentan a Gemini en Google Maps, que con ellos responde a las preguntas sobre tu negocio.">
+<rect x="10" y="8" width="100" height="32" rx="6" class="fg-box"/>
+<text x="60" y="29" text-anchor="middle" class="fg-label">Perfil</text>
+<line x1="110" y1="24" x2="150" y2="84" class="fg-line"/>
+<rect x="10" y="48" width="100" height="32" rx="6" class="fg-box"/>
+<text x="60" y="69" text-anchor="middle" class="fg-label">Reseñas</text>
+<line x1="110" y1="64" x2="150" y2="84" class="fg-line"/>
+<rect x="10" y="88" width="100" height="32" rx="6" class="fg-box"/>
+<text x="60" y="109" text-anchor="middle" class="fg-label">Fotos</text>
+<line x1="110" y1="104" x2="150" y2="84" class="fg-line"/>
+<rect x="10" y="128" width="100" height="32" rx="6" class="fg-box"/>
+<text x="60" y="149" text-anchor="middle" class="fg-label">Tu web</text>
+<line x1="110" y1="144" x2="150" y2="84" class="fg-line"/>
+<rect x="150" y="60" width="110" height="48" rx="6" class="fg-hot"/>
+<text x="205" y="81" text-anchor="middle" class="fg-strong">Gemini</text>
+<text x="205" y="99" text-anchor="middle" class="fg-label">en Maps</text>
+<line x1="260" y1="84" x2="288" y2="84" class="fg-line"/>
+<path d="M282 79 L290 84 L282 89" class="fg-line"/>
+<rect x="290" y="66" width="100" height="36" rx="6" class="fg-box"/>
+<text x="340" y="89" text-anchor="middle" class="fg-label">Respuesta</text>
+</svg>
+<figcaption>Lo que publicas en el perfil, las reseñas que recibes y lo que dice tu web es lo que Gemini usa para hablar de ti. Cuanto más reciente y exacto, mejor te describe.</figcaption>
+</figure>
 
 El chat de Google se retiró en julio de 2024; hoy el perfil enlaza a WhatsApp o a SMS para que te escriban. Un perfil que actualizas con regularidad da a Gemini y a los clientes información reciente.
 
@@ -65,7 +90,7 @@ Las categorías secundarias sirven de apoyo: añade solo lo que de verdad enseñ
 
 Tu descripción es materia prima para las respuestas de la IA: Gemini la lee, la coteja con tu web y la usa para responder en Maps.
 
-Escríbela en lenguaje claro y empieza por lo que enseñas, dónde lo enseñas y a quién atiendes. Incluye tus estilos, las certificaciones de tus profesores, los niveles de clase, los idiomas y tus talleres o retiros.
+Escríbela en lenguaje claro y empieza por lo que enseñas, dónde lo enseñas y a quién atiendes. Incluye tus estilos, las certificaciones de tus profesores, los niveles de clase, los idiomas y tus talleres o retiros. En Valencia, decir que das clases en inglés te pone delante de quien busca en ese idioma.
 
 Si partes de un texto sugerido, edítalo y añade los detalles que solo tú conoces: el linaje Ashtanga, la certificación prenatal, las clases bilingües de los martes.
 
@@ -118,7 +143,7 @@ Las métricas del panel te dicen si el perfil convierte las vistas en clientes. 
 Lee las impresiones junto a las acciones. Si tienes muchas impresiones y pocas acciones, retoca primero la descripción y las fotos.
 
 <aside class="post-cta">
-<p><strong>¿Quieres aparecer entre los primeros del mapa en cada ciudad donde vendes?</strong> Nuestro <a href="/es/services/seo-local/">SEO local</a> trabaja tu ficha, tus páginas por ciudad y tus reseñas, mercado por mercado y en el idioma de tus clientes. <a href="/es/contactanos/">Pide una auditoría gratuita de 20 minutos</a>.</p>
+<p><strong>¿Quieres aparecer entre los primeros del mapa en Valencia?</strong> Nuestro <a href="/es/services/seo-local/">SEO local en Valencia</a> trabaja tu ficha, tus páginas por barrio y tus reseñas en el idioma de tus clientes, y en cada ciudad donde tengas sede. <a href="/es/contactanos/">Pide una auditoría gratuita de 20 minutos</a>.</p>
 </aside>
 
 ## Preguntas frecuentes sobre el Perfil de Empresa de Google en 2026

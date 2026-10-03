@@ -18,9 +18,9 @@ const PATH = "/es/blog/";
 
 export const metadata: Metadata = {
   ...pageMeta({
-    title: "Artículos sobre SEO internacional y GEO, Mike Bastin",
+    title: "Artículos de SEO y GEO desde Valencia, Mike Bastin",
     description:
-      "Nuestros artículos sobre SEO internacional, visibilidad en las respuestas de la IA y conquista de nuevos mercados, para empresas que venden en el extranjero.",
+      "Artículos de nuestra agencia en Valencia sobre SEO, visibilidad en las respuestas de la IA y nuevos mercados, para empresas que quieren más clientes.",
     path: PATH,
     languages: esLanguages(PATH),
     ogLocale: "es_ES",
@@ -60,12 +60,12 @@ export default function SpanishBlogIndex() {
           </Reveal>
           <Reveal i={1}>
             <h1 className="mb-6 max-w-[19ch] text-[clamp(2.3rem,5.6vw,4rem)] font-semibold leading-[1.08]">
-              Artículos sobre SEO internacional
+              Artículos sobre SEO desde Valencia
             </h1>
           </Reveal>
           <Reveal i={2}>
             <h2 className="mb-6 max-w-[46ch] text-[clamp(1.2rem,2.1vw,1.7rem)] font-medium leading-[1.3]" style={{ color: "var(--ink)" }}>
-              Lo que hace vender a una web exportadora en cada idioma, y cómo lograr que las respuestas de la IA te citen.
+              Lo que hace vender a una web en cada idioma, en tu ciudad y fuera, y cómo lograr que las respuestas de la IA te citen.
             </h2>
           </Reveal>
           <Reveal i={3}>
@@ -116,6 +116,7 @@ export default function SpanishBlogIndex() {
                       title={p.title}
                       excerpt={p.excerpt}
                       date={DATE.format(new Date(p.date))}
+                      priority={gi === 0 && i === 0}
                     />
                   </li>
                 </Reveal>

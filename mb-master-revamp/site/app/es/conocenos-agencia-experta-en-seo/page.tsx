@@ -6,7 +6,7 @@ import JsonLd from "@/components/JsonLd";
 import LocaleHtmlLang from "@/components/LocaleHtmlLang";
 import { ButtonLink } from "@/components/ui/Button";
 import { esLanguages } from "@/lib/fr-pages";
-import { SITE_URL, breadcrumbSchema } from "@/lib/schema";
+import { SITE_URL, breadcrumbSchema, pageSchema } from "@/lib/schema";
 import DlArt from "@/components/DlArt";
 import HeroArtSlot from "@/components/HeroArtSlot";
 
@@ -20,9 +20,9 @@ const PATH = "/es/conocenos-agencia-experta-en-seo/";
 
 export const metadata: Metadata = {
   ...pageMeta({
-    title: "Conócenos, agencia experta en SEO, Mike Bastin",
+    title: "Conócenos, tu equipo SEO en Valencia, Mike Bastin",
     description:
-      "Quién dirige tu SEO internacional y quién escribe en cada idioma: Mike Bastin en Valencia y especialistas nativos de la red BeTranslated.",
+      "Tu equipo SEO en Valencia: Mike Bastin dirige la estrategia desde la calle Rugat, y redactores nativos de la red BeTranslated escriben cada idioma.",
     path: PATH,
     languages: esLanguages(PATH),
     ogLocale: "es_ES",
@@ -51,6 +51,7 @@ export default function SpanishTeamPage() {
   return (
     <main>
       <LocaleHtmlLang lang="es" />
+      <JsonLd data={pageSchema("AboutPage", `${SITE_URL}/es/conocenos-agencia-experta-en-seo/`, "Conócenos, tu equipo SEO en Valencia", "es")} />
       <JsonLd
         data={breadcrumbSchema([
           { name: "Inicio", url: `${SITE_URL}/es/` },
@@ -61,16 +62,16 @@ export default function SpanishTeamPage() {
         <div className="shell relative grid items-start gap-x-12 lg:grid-cols-[1fr_auto]">
         <div>
           <Reveal>
-            <p className="eyebrow mb-8">Quién trabaja en tu sitio web</p>
+            <p className="eyebrow mb-8">Quién trabaja en tu web, desde Valencia</p>
           </Reveal>
           <Reveal i={1}>
             <h1 className="mb-6 max-w-[24ch] text-[clamp(2.3rem,5.6vw,4rem)] font-semibold leading-[1.08]">
-              Conócenos, agencia experta en SEO internacional
+              Conócenos, tu equipo SEO en Valencia
             </h1>
           </Reveal>
           <Reveal i={2}>
             <h2 className="mb-6 max-w-[46ch] text-[clamp(1.2rem,2.1vw,1.7rem)] font-medium leading-[1.3]" style={{ color: "var(--ink)" }}>
-              Más de dos décadas de SEO multilingüe, con un redactor nativo para cada idioma en el que vendes.
+              Más de dos décadas de posicionamiento web, una oficina en Valencia y un redactor nativo para cada idioma en el que vendes.
             </h2>
           </Reveal>
           <Reveal i={3}>

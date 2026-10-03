@@ -83,3 +83,26 @@ Les entreprises qui gardent à la fois l’économie et la qualité répartissen
 ## Par où commencer
 
 Choisissez un marché et un type de contenu, lancez l’IA avec une post-édition humaine, et faites vérifier le résultat par un lecteur natif avant de passer à l’échelle. La vitesse vient de la machine, et la confiance vient des personnes. Pour vos contenus rédigés en anglais, notre guide de la [traduction anglais-français](/fr/traduction-anglais-francais/) détaille ce que votre prestataire doit vous livrer. [Contactez notre équipe](/fr/nous-contacter/) pour un conseil adapté à votre entreprise, ou reliez ce travail à votre [référencement multilingue](/fr/services/referencement-multilingue/) pour que les pages traduites soient aussi trouvées.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 122" role="img" aria-label="Quatre étapes, choisir un marché, traduire par IA, faire relire par un lecteur natif, puis passer à l’échelle.">
+<line x1="50" y1="34" x2="350" y2="34" class="fg-rule"/>
+<circle cx="50" cy="34" r="24" class="fg-box"/>
+<circle cx="150" cy="34" r="24" class="fg-box"/>
+<circle cx="250" cy="34" r="24" class="fg-hot"/>
+<circle cx="350" cy="34" r="24" class="fg-box"/>
+<text x="50" y="40" text-anchor="middle" class="fg-strong">1</text>
+<text x="150" y="40" text-anchor="middle" class="fg-strong">2</text>
+<text x="250" y="40" text-anchor="middle" class="fg-strong">3</text>
+<text x="350" y="40" text-anchor="middle" class="fg-strong">4</text>
+<text x="50" y="88" text-anchor="middle" class="fg-text">Choisir</text>
+<text x="50" y="110" text-anchor="middle" class="fg-label">un marché</text>
+<text x="150" y="88" text-anchor="middle" class="fg-text">Traduire</text>
+<text x="150" y="110" text-anchor="middle" class="fg-label">par IA</text>
+<text x="250" y="88" text-anchor="middle" class="fg-text">Relire</text>
+<text x="250" y="110" text-anchor="middle" class="fg-label">lecteur natif</text>
+<text x="350" y="88" text-anchor="middle" class="fg-text">Passer</text>
+<text x="350" y="110" text-anchor="middle" class="fg-label">à l’échelle</text>
+</svg>
+<figcaption>La vitesse vient de la machine, et la confiance des personnes. La relecture native valide le premier marché avant le passage à l’échelle.</figcaption>
+</figure>

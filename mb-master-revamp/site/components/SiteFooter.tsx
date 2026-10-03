@@ -1,3 +1,4 @@
+import BrandMark from "@/components/BrandMark";
 import FooterLanguages from "@/components/FooterLanguages";
 import CookieSettingsLink from "@/components/CookieSettingsLink";
 import Link from "next/link";
@@ -44,6 +45,7 @@ const T: Record<
     cta: string;
     ctaButton: string;
     ctaSecondary: string;
+    reply: string;
     based: string;
     top: string;
     motto: string;
@@ -59,8 +61,9 @@ const T: Record<
     more: "All services",
     eyebrow: "Straight to the point",
     cta: "Tell us which language you want selling next.",
-    ctaButton: "Book a free consultation",
+    ctaButton: "Discuss your project",
     ctaSecondary: "See client results",
+    reply: "Mike reads every message and replies, usually within a working day.",
     based: "Multilingual search, from Valencia",
     top: "Back to top",
     motto: "Automating business. Translating ideas. Connecting people.",
@@ -75,8 +78,9 @@ const T: Record<
     more: "Tous les services",
     eyebrow: "Droit au but",
     cta: "Dites-nous dans quelle langue vous voulez vendre ensuite.",
-    ctaButton: "Réserver une consultation gratuite",
+    ctaButton: "Parlons de votre projet",
     ctaSecondary: "Voir les résultats de nos clients",
+    reply: "Mike lit chaque message et vous répond, en général sous un jour ouvré.",
     based: "Référencement multilingue, depuis Valencia",
     top: "Haut de page",
     motto: "Automatiser l’entreprise. Traduire les idées. Relier les personnes.",
@@ -90,9 +94,10 @@ const T: Record<
     contact: "Contacta con nosotros",
     more: "Todos los servicios",
     eyebrow: "Directo al grano",
-    cta: "Cuéntanos en qué idioma quieres vender ahora.",
-    ctaButton: "Reserva una consulta gratuita",
+    cta: "Cuéntanos qué clientes quieres ganar, en Valencia o fuera.",
+    ctaButton: "Hablemos de tu proyecto",
     ctaSecondary: "Ver resultados de clientes",
+    reply: "Mike lee cada mensaje y te responde, por lo general en un día laborable.",
     based: "Posicionamiento multilingüe, desde Valencia",
     top: "Volver arriba",
     motto: "Automatizar negocios. Traducir ideas. Conectar personas.",
@@ -129,8 +134,9 @@ const ABOUT: Record<Locale, string> = {
  * than about the service, which is why their heading does not say "top".
  */
 const FR_FOOTER = ["seo", "referencement-multilingue", "seo-espagnol", "seo-neerlandais", "seo-allemand", "sem-multilingue"];
-// Spanish: the main page, then the destinations a Spanish exporter enters.
-const ES_FOOTER = ["optimizacion-seo", "posicionamiento-multilingue", "seo-frances", "seo-neerlandes", "seo-aleman", "publicidad-multilingue"];
+// Spanish: what a Valencia company hires us for first (owner, 3 Oct 2026),
+// then the market it most often sells into.
+const ES_FOOTER = ["optimizacion-seo", "seo-local", "publicidad-multilingue", "traduccion-profesional", "consultoria-de-inteligencia-artificial", "seo-frances"];
 
 function servicesFor(locale: Locale): { href: string; label: string }[] {
   if (locale === "en") {
@@ -173,38 +179,16 @@ function recentFor(locale: Locale) {
     }));
 }
 
+const COUNTRY: Record<Locale, string> = { en: "Spain", fr: "Espagne", es: "España" };
+
 function ColumnHeading({ children }: { children: React.ReactNode }) {
   return (
-    <h2
-      className="mb-5 text-[.72rem] font-semibold uppercase tracking-[.16em]"
-      style={{ color: "var(--berry)" }}
-    >
+    <h2 className="display mb-5 text-[1.12rem] font-semibold leading-tight" style={{ color: "var(--ink)" }}>
       {children}
     </h2>
   );
 }
 
-/** The site's own wave, drawn large and faint behind the sign-off. */
-function WaveMark({ className, width = 22 }: { className?: string; width?: number }) {
-  return (
-    <svg
-      width={width}
-      height={width}
-      viewBox="0 0 64 64"
-      className={className}
-      aria-hidden="true"
-      focusable="false"
-    >
-      <path
-        d="M8 36 C 17 26, 25 26, 33 33 S 49 46, 56 31"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="4.4"
-        strokeLinecap="round"
-      />
-    </svg>
-  );
-}
 
 /**
  * The one shared footer, on all 150 built pages including the 404.
@@ -229,10 +213,10 @@ function WaveMark({ className, width = 22 }: { className?: string; width?: numbe
  * than offering nothing.
  */
 export default function SiteFooter({
-  address = false,
   band = "a",
   locale = "en",
 }: {
+  /** Kept for existing callers; the address now shows on every footer. */
   address?: boolean;
   /** Most pages fix the footer to band-a; a page with a variable number of
    * bands above it (e.g. app/services/[slug]/) computes this instead, so
@@ -257,14 +241,16 @@ export default function SiteFooter({
     <footer id="contact" className={`band band-${band} pb-[clamp(40px,5vw,64px)] pt-[clamp(64px,9vw,120px)]`}>
       <div className="shell">
         {/* ---------- sign-off ---------- */}
+        {/* Owner, 3 Oct 2026: "the footer is too dull". The closing
+            invitation is the one contrasting surface the declaudify brief
+            keeps (a teal panel in both themes), and it is personal: Mike's
+            face, the person who answers, and the email and phone set large
+            enough to use. Static, no motion beyond the shared reveal. */}
         <Reveal>
-          <div className="relative grid items-center gap-10 lg:grid-cols-[1.35fr_1fr]">
+          <div className="footer-cta grid items-center gap-10 rounded-[10px] px-[clamp(24px,5vw,64px)] py-[clamp(32px,5vw,56px)] lg:grid-cols-[1.3fr_1fr]">
             <div>
-              <p className="eyebrow mb-4">{t.eyebrow}</p>
-              {/* leading-[1.08] pulls the descenders of "losing you money"
-                  below the heading's own box, so the gap to the button is
-                  measured from a line that is not where the ink stops. */}
-              <h2 className="mb-10 max-w-[18ch] text-[clamp(1.8rem,4.4vw,3rem)] font-semibold leading-[1.08]">
+              <p className="footer-cta-eyebrow mb-4 text-[.95rem] font-medium">{t.eyebrow}</p>
+              <h2 className="mb-8 max-w-[20ch] text-[clamp(1.7rem,4vw,2.7rem)] font-semibold leading-[1.1]">
                 {t.cta}
               </h2>
               <div className="flex flex-wrap items-center gap-x-6 gap-y-4">
@@ -272,14 +258,31 @@ export default function SiteFooter({
                   {t.ctaButton}
                 </Link>
                 {locale === "en" && (
-                  <Link href="/results/" className="ulink text-[.98rem]">
+                  <Link href="/results/" className="ulink footer-cta-link text-[.98rem]">
                     {t.ctaSecondary}
                   </Link>
                 )}
               </div>
             </div>
-            <div className="hidden justify-end lg:flex" style={{ color: "var(--rule)" }} aria-hidden="true">
-              <WaveMark width={210} />
+            <div className="flex flex-col items-start gap-5 sm:flex-row">
+              <img
+                src="/images/mike-bastin-192.webp"
+                alt="Mike Bastin"
+                width={96}
+                height={96}
+                loading="lazy"
+                decoding="async"
+                className="h-[72px] w-[72px] shrink-0 rounded-full object-cover sm:h-[96px] sm:w-[96px]"
+              />
+              <div className="min-w-0">
+                <p className="mb-3 max-w-[30ch] text-[.95rem] leading-[1.5] footer-cta-dim">{t.reply}</p>
+                <a href="mailto:hello@mikebastin.com" className="footer-cta-link display block whitespace-nowrap text-[clamp(1.15rem,2vw,1.45rem)] font-semibold">
+                  hello@mikebastin.com
+                </a>
+                <a href="tel:+34671175774" className="footer-cta-link mt-1 block text-[1.02rem]">
+                  +34 671 17 57 74
+                </a>
+              </div>
             </div>
           </div>
         </Reveal>
@@ -292,7 +295,7 @@ export default function SiteFooter({
           >
             <div>
               <div className="mb-3 flex items-center gap-2.5">
-                <WaveMark className="shrink-0" width={20} />
+                <BrandMark width={41} />
                 <span className="display text-[1.05rem] font-semibold tracking-tight">Mike Bastin</span>
               </div>
               {/* The owner's motto, 20 Sep. It sits under the wordmark, where
@@ -308,17 +311,17 @@ export default function SiteFooter({
               {locale === "en" && (
                 <ul className="mt-5 flex flex-col gap-2">
                   <li>
-                    <Link href="/how-i-work/" className="ulink">
+                    <Link href="/how-i-work/" className="ulink flink">
                       How we work
                     </Link>
                   </li>
                   <li>
-                    <Link href="/results/" className="ulink">
+                    <Link href="/results/" className="ulink flink">
                       Results
                     </Link>
                   </li>
                   <li>
-                    <Link href="/#work" className="ulink">
+                    <Link href="/#work" className="ulink flink">
                       Client work
                     </Link>
                   </li>
@@ -331,7 +334,7 @@ export default function SiteFooter({
               <ul className="flex flex-col gap-2.5">
                 {services.map((s) => (
                   <li key={s.href}>
-                    <Link href={s.href} className="ulink">
+                    <Link href={s.href} className="ulink flink">
                       {s.label}
                     </Link>
                   </li>
@@ -370,7 +373,7 @@ export default function SiteFooter({
                         />
                       </span>
                       <span className="min-w-0">
-                        <span className="ulink block text-[.88rem] leading-[1.4]">{p.label}</span>
+                        <span className="ulink flink block text-[.88rem] leading-[1.4]">{p.label}</span>
                         <span className="mt-1 block text-[.74rem]" style={{ color: "var(--dim)" }}>
                           {dateFormat.format(new Date(p.date))}
                         </span>
@@ -383,19 +386,13 @@ export default function SiteFooter({
 
             <div className={col} style={{ borderColor: "var(--rule)" }}>
               <ColumnHeading>{t.contact}</ColumnHeading>
-              <div className="flex flex-col gap-2">
-                <a href="mailto:hello@mikebastin.com" className="ulink w-fit">
-                  hello@mikebastin.com
-                </a>
-                <a href="tel:+34671175774" className="ulink w-fit">
-                  +34 671 17 57 74
-                </a>
-                {address && (
-                  <span className="leading-[1.5]" style={{ color: "var(--dim)" }}>
-                    Calle Rugat 12 - 2, 46021 Valencia, Spain
-                  </span>
-                )}
-              </div>
+              {/* Email and phone sit large in the closing panel above; this
+                  column carries where to find us. */}
+              <p className="leading-[1.5]" style={{ color: "var(--dim)" }}>
+                Calle Rugat 12 - 2
+                <br />
+                46021 Valencia, {COUNTRY[locale]}
+              </p>
               <ul className="mt-5 flex flex-wrap gap-2">
                 {SOCIALS.map((sc) => (
                   <li key={sc.href}>
@@ -427,13 +424,13 @@ export default function SiteFooter({
             {locale === "en" && (
               <nav className="flex flex-wrap gap-x-6 gap-y-2">
                 {LINKS.map((l) => (
-                  <Link key={l.href} href={l.href} className="ulink">
+                  <Link key={l.href} href={l.href} className="ulink flink">
                     {l.label}
                   </Link>
                 ))}
               </nav>
             )}
-            <Link href={PRIVACY_HREF[locale]} className="ulink">
+            <Link href={PRIVACY_HREF[locale]} className="ulink flink">
               {t.privacy}
             </Link>
             <CookieSettingsLink label={t.cookies} />
@@ -444,6 +441,15 @@ export default function SiteFooter({
             </a>
           </div>
         </Reveal>
+        {/* A static signature: the name set large and quiet, so the page
+            ends on the brand rather than on a row of small links. */}
+        <p
+          aria-hidden="true"
+          className="display mt-12 select-none whitespace-nowrap text-[clamp(3.4rem,13.5vw,12rem)] font-semibold leading-[.8] tracking-[-0.02em]"
+          style={{ color: "color-mix(in srgb, var(--ink) 10%, var(--bg))" }}
+        >
+          Mike Bastin
+        </p>
       </div>
     </footer>
   );

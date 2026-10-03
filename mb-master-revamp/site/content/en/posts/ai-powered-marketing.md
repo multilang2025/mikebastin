@@ -73,3 +73,25 @@ If you want one team to join these pieces up across channels, see what a [full-s
 ## The short version
 
 AI gives you faster content, sharper forecasts and always-on service. The businesses that gain most keep it under human direction: one use first, measured on what it brings in, then the next.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 124" role="img" aria-label="A loop of three steps: start one AI use, measure what it earns, then add the next, with people deciding at each step.">
+<rect x="10" y="10" width="112" height="52" rx="6" class="fg-box"/>
+<rect x="144" y="10" width="112" height="52" rx="6" class="fg-hot"/>
+<rect x="278" y="10" width="112" height="52" rx="6" class="fg-box"/>
+<line x1="122" y1="36" x2="142" y2="36" class="fg-line"/>
+<path d="M135 30 L142 36 L135 42" class="fg-line"/>
+<line x1="256" y1="36" x2="276" y2="36" class="fg-line"/>
+<path d="M269 30 L276 36 L269 42" class="fg-line"/>
+<path d="M334 62 V90 H66 V64" class="fg-dim"/>
+<path d="M60 71 L66 63 L72 71" class="fg-dim"/>
+<text x="66" y="33" text-anchor="middle" class="fg-text">Start</text>
+<text x="66" y="52" text-anchor="middle" class="fg-label">one use</text>
+<text x="200" y="33" text-anchor="middle" class="fg-strong">Measure</text>
+<text x="200" y="52" text-anchor="middle" class="fg-label">what it earns</text>
+<text x="334" y="33" text-anchor="middle" class="fg-text">Add</text>
+<text x="334" y="52" text-anchor="middle" class="fg-label">the next</text>
+<text x="200" y="114" text-anchor="middle" class="fg-label">People decide at every turn</text>
+</svg>
+<figcaption>The gain comes from the loop: each use earns its place on what it brings in before the next one is added.</figcaption>
+</figure>

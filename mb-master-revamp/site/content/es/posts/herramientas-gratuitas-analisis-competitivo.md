@@ -25,6 +25,38 @@ Aquí tienes las herramientas que usamos, lo que muestra la versión gratuita de
 
 Cada herramienta gratuita responde bien a una pregunta concreta. Combinadas, cubren lo esencial de un análisis competitivo.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 196" role="img" aria-label="Cuatro preguntas sobre un rival y la herramienta gratuita que responde a cada una: Similarweb para el tráfico, Ubersuggest para las palabras clave, Ahrefs para los enlaces y la Biblioteca de anuncios de Meta para los anuncios.">
+<text x="95" y="16" text-anchor="middle" class="fg-label">Qué quieres saber</text>
+<text x="305" y="16" text-anchor="middle" class="fg-label">Herramienta gratuita</text>
+<rect x="10" y="28" width="170" height="34" rx="6" class="fg-box"/>
+<text x="95" y="50" text-anchor="middle" class="fg-text">Tráfico</text>
+<line x1="182" y1="45" x2="214" y2="45" class="fg-line"/>
+<path d="M207 39 L215 45 L207 51" fill="none" class="fg-line"/>
+<rect x="220" y="28" width="170" height="34" rx="6" class="fg-box"/>
+<text x="305" y="50" text-anchor="middle" class="fg-text">Similarweb</text>
+<rect x="10" y="70" width="170" height="34" rx="6" class="fg-box"/>
+<text x="95" y="92" text-anchor="middle" class="fg-text">Palabras clave</text>
+<line x1="182" y1="87" x2="214" y2="87" class="fg-line"/>
+<path d="M207 81 L215 87 L207 93" fill="none" class="fg-line"/>
+<rect x="220" y="70" width="170" height="34" rx="6" class="fg-box"/>
+<text x="305" y="92" text-anchor="middle" class="fg-text">Ubersuggest</text>
+<rect x="10" y="112" width="170" height="34" rx="6" class="fg-box"/>
+<text x="95" y="134" text-anchor="middle" class="fg-text">Enlaces</text>
+<line x1="182" y1="129" x2="214" y2="129" class="fg-line"/>
+<path d="M207 123 L215 129 L207 135" fill="none" class="fg-line"/>
+<rect x="220" y="112" width="170" height="34" rx="6" class="fg-box"/>
+<text x="305" y="134" text-anchor="middle" class="fg-text">Ahrefs</text>
+<rect x="10" y="154" width="170" height="34" rx="6" class="fg-box"/>
+<text x="95" y="176" text-anchor="middle" class="fg-text">Anuncios</text>
+<line x1="182" y1="171" x2="214" y2="171" class="fg-line"/>
+<path d="M207 165 L215 171 L207 177" fill="none" class="fg-line"/>
+<rect x="220" y="154" width="170" height="34" rx="6" class="fg-box"/>
+<text x="305" y="176" text-anchor="middle" class="fg-text">Biblioteca de Meta</text>
+</svg>
+<figcaption>Con estas cuatro tienes la primera lectura de un mercado en una tarde. Las cifras que vayan a mover presupuesto, compruébalas con una segunda fuente.</figcaption>
+</figure>
+
 | Herramienta | Qué te muestra gratis | Para qué la usamos |
 |---|---|---|
 | Similarweb | Visitas estimadas, canales, comportamiento y palabras clave principales | Tamaño y fuentes de tráfico de un rival |

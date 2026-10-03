@@ -1,6 +1,7 @@
 ---
 words: 825
-title: "Traducción automática y posedición con nativos"
+title: "Traducción automática y posedición en Valencia, revisada por nativos"
+metaTitle: "Traducción automática y posedición en Valencia"
 name: "Traducción automática y posedición"
 slug: "posedicion-de-ia"
 locale: "es"
@@ -8,14 +9,14 @@ type: "services"
 group: "g071"
 wpId: 24847693
 date: "2024-10-10T14:15:34"
-modified: "2026-09-30T12:00:00"
+modified: "2026-10-03T12:00:00"
 sourceUrl: "https://mikebastin.com/es/services/posedicion-de-ia/"
-excerpt: "Un hablante nativo revisa tus traducciones automáticas: el texto fluido pasa a ser exacto, con terminología y palabras clave incluidas."
+excerpt: "Traducción automática y posedición en Valencia: un hablante nativo revisa los textos de tu empresa para que lo fluido sea también exacto en cada idioma."
 ---
 
-## Traducciones automáticas fluidas, revisadas para que sean exactas
+## Traducción automática para tu empresa en Valencia, revisada para que sea exacta
 
-Tus páginas en francés, alemán o neerlandés salieron de la herramienta de traducción con un texto que se lee bien. La frase claramente rota la detecta cualquier lector. La que hay que revisar es la fluida que ha movido el sentido, ha perdido un matiz o ha traducido mal un término técnico. Esa la encuentra quien conoce el tema y la lee con atención.
+Tu empresa en Valencia traduce con una herramienta automática: la web en inglés para el público internacional de la ciudad, las fichas y los catálogos en francés, alemán o neerlandés para tus mercados. El texto sale de la herramienta y se lee bien. La frase claramente rota la detecta cualquier lector. La que hay que revisar es la fluida que ha movido el sentido, ha perdido un matiz o ha traducido mal un término técnico. Esa la encuentra quien conoce el tema y la lee con atención.
 
 La importancia varía de un texto a otro. En una ficha de producto, una traducción aproximada es una molestia pequeña. En una cláusula de condiciones de venta o en una instrucción médica compromete tu responsabilidad. Y un nombre de producto traducido de una sola manera en toda tu web es el que tus clientes acaban encontrando.
 
@@ -29,7 +30,7 @@ Un hablante nativo revisa el texto de la máquina, y concentramos el esfuerzo do
 
 El sector lo llama posedición de traducción automática, o MTPE, y se resume en una regla: el esfuerzo va donde está el riesgo. Revisión a fondo en lo que compromete, más ligera en el resto.
 
-Trabajamos sobre todo para SaaS, comercio electrónico y viajes, sectores que se apoyan en la IA para producir deprisa. A ese volumen, la posedición ocupa el lugar de la redacción nativa completa, con un nivel de exigencia comercial. Las revisiones las hacen especialistas con nombre y apellidos, en su mayoría de la red BeTranslated.
+Trabajamos sobre todo para SaaS, comercio electrónico y viajes, sectores que se apoyan en la IA para producir deprisa. A ese volumen, la posedición ocupa el lugar de la redacción nativa completa, con un nivel de exigencia comercial. Las revisiones las hacen especialistas con nombre y apellidos, en su mayoría de la red BeTranslated, la agencia de traducción que dirigimos en Valencia desde hace veinte años.
 
 ## Qué corrige una pasada de posedición
 
@@ -66,4 +67,4 @@ Todo lo que lee un regulador, un tribunal o un clínico: documentación médica,
 
 ## Cómo trabajamos
 
-Empezamos con una consulta gratuita sobre tus páginas y tus idiomas; también puedes pedir una auditoría gratuita de 20 minutos. Después recibes por escrito el alcance del primer trimestre, con las páginas que pasan por revisión a fondo y las que van con revisión ligera. La colaboración es mes a mes, y respondemos a cada consulta, normalmente en un día laborable.
+Empezamos con una consulta gratuita sobre tus páginas y tus idiomas, en nuestra oficina de Calle Rugat 12 - 2, 46021 Valencia, o por videollamada; también puedes pedir una auditoría gratuita de 20 minutos. Después recibes por escrito el alcance del primer trimestre, con las páginas que pasan por revisión a fondo y las que van con revisión ligera. La colaboración es mes a mes, y respondemos a cada consulta, normalmente en un día laborable. Si tu web revisada tiene que atraer también a clientes de tu ciudad, nuestra guía de [posicionamiento web en Valencia](/es/posicionamiento-web-valencia/) explica por dónde empezar.

@@ -1,6 +1,7 @@
 ---
 words: 817
-title: "Traducción de apps y software lista para cada mercado"
+title: "Localización de apps en Valencia, lista para cada idioma y mercado"
+metaTitle: "Localización de apps en Valencia, traducción de software"
 name: "Localización de apps"
 slug: "localizacion-de-aplicaciones"
 locale: "es"
@@ -8,19 +9,19 @@ type: "services"
 group: "g064"
 wpId: 24848039
 date: "2024-10-08T10:01:51"
-modified: "2026-09-30T12:00:00"
+modified: "2026-10-03T12:00:00"
 sourceUrl: "https://mikebastin.com/es/services/localizacion-de-aplicaciones/"
-excerpt: "Tu app o tu software listos para Francia, Alemania o Benelux: una interfaz que cabe en cada idioma y una ficha de tienda que se encuentra."
+excerpt: "Localización de apps en Valencia: traducción de apps y software con una interfaz que cabe en cada idioma y una ficha de tienda que se encuentra."
 ---
 
-## Tu producto se vende fuera, ¿y tu interfaz lo acompaña?
+## Tu app hecha en Valencia, lista para cada idioma
 
-Vas a lanzar tu app o tu software en Alemania, en los Países Bajos o en Francia. El texto llega más largo en alemán, algunos mercados leen de derecha a izquierda y las reseñas aparecen en idiomas nuevos para tu equipo. Los primeros puntos que arreglar están sobre todo en la interfaz: un botón que desborda, una etiqueta cortada, una fecha leída como el mes equivocado, un código postal local rechazado.
+Desarrollas tu app o tu software en Valencia. Tus primeros usuarios están en la ciudad y la usan en castellano o en inglés, y el siguiente paso es Alemania, los Países Bajos o Francia. El texto llega más largo en alemán, algunos mercados leen de derecha a izquierda y las reseñas aparecen en idiomas nuevos para tu equipo. Los primeros puntos que arreglar están sobre todo en la interfaz: un botón que desborda, una etiqueta cortada, una fecha leída como el mes equivocado, un código postal local rechazado.
 
 Cada punto resuelto protege tus descargas y tus reseñas en un mercado en el que ya has invertido. Un producto preparado desde el principio recibe cada idioma nuevo como un trabajo de contenido, y cada mercado siguiente cuesta menos que el anterior.
 
 <aside class="post-cta">
-<p><strong>¿Quieres que tu producto funcione en cada idioma en el que lo vendes?</strong> Preparamos el software, adaptamos su contenido y lo probamos en el propio dispositivo, mercado a mercado. <a href="/es/contactanos/">Reserva una consulta gratuita</a>.</p>
+<p><strong>¿Quieres que tu app funcione en cada idioma de tus usuarios, en Valencia y fuera?</strong> Preparamos el software, adaptamos su contenido y lo probamos en el propio dispositivo, mercado a mercado. <a href="/es/contactanos/">Reserva una consulta gratuita</a>.</p>
 </aside>
 
 ## Lo que hacemos por tu producto
@@ -33,7 +34,7 @@ Cada punto resuelto protege tus descargas y tus reseñas en un mercado en el que
 - Internacionalización de la arquitectura, para que añadir un idioma sea un trabajo de traducción.
 - Tus archivos de cadenas en su formato original, por ejemplo JSON o .properties, listos para integrar.
 
-La traducción la hacen especialistas concretos, en su mayoría de la red BeTranslated, que dirigimos desde hace veinte años. Para documentos con valor legal tienes nuestra página de [traducción profesional](/es/services/traduccion-profesional/).
+La traducción de apps y software la hacen especialistas concretos, en su mayoría de la red BeTranslated, la agencia que dirigimos en Valencia desde hace veinte años. Para documentos con valor legal tienes nuestra página de [traducción profesional](/es/services/traduccion-profesional/).
 
 ## Internacionalizar primero, para que cada idioma sea trabajo de contenido
 
@@ -50,7 +51,7 @@ Para el árabe o el hebreo, el propio diseño se adapta, además del sentido del
 
 ## Tu ficha de la tienda, una superficie de búsqueda propia
 
-El título, el subtítulo, la descripción y el campo de palabras clave se indexan por tienda y por idioma. Escribir cada ficha en su idioma aprovecha todo el espacio que da: quien busca una app en español escribe sus propias palabras, y los límites de caracteres varían según la tienda.
+El título, el subtítulo, la descripción y el campo de palabras clave se indexan por tienda y por idioma. Escribir cada ficha en su idioma usa todo el espacio que da: quien busca una app en español escribe sus propias palabras, y los límites de caracteres varían según la tienda.
 
 Las capturas de pantalla cuentan también. Una ficha que muestra a un visitante alemán la interfaz en alemán le dice, antes de que lea una palabra, que la app está hecha para él. Si además quieres que tu web se encuentre en cada idioma, la [traducción de páginas web](/es/services/traduccion-de-paginas-web/) sigue el mismo criterio.
 
@@ -66,4 +67,4 @@ Subtitulado, locución o transcripción, según lo que necesite cada pieza. Los 
 
 ## Cómo trabajamos
 
-Empezamos con una consulta gratuita sobre tu producto, tus mercados y las plataformas en las que sale. Después te enviamos por escrito el alcance del primer trimestre y trabajamos mes a mes. Cada solicitud recibe respuesta, por lo general en un día laborable. La traducción se presupuesta como trabajo, y la página de [precios](/es/precios/) explica cómo lo planteamos.
+Empezamos con una consulta gratuita sobre tu producto, tus mercados y las plataformas en las que sale, en nuestra oficina de Calle Rugat 12 - 2, 46021 Valencia, o por videollamada. Si tu app atiende también a clientes de tu ciudad, nuestra guía de [posicionamiento web en Valencia](/es/posicionamiento-web-valencia/) explica cómo te encuentran en Google. Después te enviamos por escrito el alcance del primer trimestre y trabajamos mes a mes. Cada solicitud recibe respuesta, por lo general en un día laborable. La traducción se presupuesta como trabajo, y la página de [precios](/es/precios/) explica cómo lo planteamos.

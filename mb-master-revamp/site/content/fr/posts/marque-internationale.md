@@ -23,6 +23,20 @@ Voici les éléments de votre marque qui voyagent tels quels, ceux qui demandent
 
 De petits déplacements d’accent décident si un acheteur continue de lire. Nous le voyons sur nos propres sites : nous dirigeons BeTranslated sur six domaines, .be, .fr, .es, .co.uk, .nl et .com, avec la même agence, le même service et le même positionnement au niveau stratégique. L’exécution diffère, et ces différences pèsent sur la conversion.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 184" role="img" aria-label="Deux niveaux d’une même marque, une stratégie qui voyage telle quelle et une exécution qui se travaille sur chaque marché.">
+<rect x="20" y="10" width="360" height="66" rx="6" class="fg-box"/>
+<text x="200" y="38" text-anchor="middle" class="fg-strong">Voyage tel quel</text>
+<text x="200" y="62" text-anchor="middle" class="fg-label">identité, positionnement, preuves</text>
+<line x1="200" y1="76" x2="200" y2="108" class="fg-line"/>
+<path d="M195 102 L200 108 L205 102" class="fg-line"/>
+<rect x="20" y="108" width="360" height="66" rx="6" class="fg-hot"/>
+<text x="200" y="136" text-anchor="middle" class="fg-strong">Se travaille par marché</text>
+<text x="200" y="160" text-anchor="middle" class="fg-label">ton, références, signaux de confiance</text>
+</svg>
+<figcaption>Gardez le premier niveau identique partout et placez le budget de localisation sur le second, celui où l’acheteur décide s’il vous écrit.</figcaption>
+</figure>
+
 | Marché | Ce que l’acheteur B2B attend en premier | Sur la page |
 |---|---|---|
 | Belgique | Une précision fonctionnelle et des prix clairs, tôt | Les faits dès le premier paragraphe |

@@ -30,6 +30,8 @@ Small shifts in emphasis decide whether a buyer keeps reading. We see it on our 
 
 Same brand, five different on-page emphases. Every one of these adjustments keeps the identity intact and makes it land.
 
+<!-- figure:market-reach -->
+
 ## What travels and what needs work
 
 Knowing which is which tells you where to spend the localization budget and where to save it.

@@ -31,6 +31,22 @@ La confusion arrive vite. Nous optimisions l’E-E-A-T d’un cabinet d’avocat
 
 Pour un cabinet d’avocats, l’EEAT décide si Google vous montre à un futur client. Le contenu juridique relève des sujets YMYL (Your Money or Your Life), que Google manie comme une arme chargée. Chaque signal compte pour la visibilité : la confiance construit l’autorité, et l’autorité construit les positions.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 60" role="img" aria-label="La confiance construit l’autorité, et l’autorité construit les positions.">
+<rect x="10" y="10" width="110" height="40" rx="6" class="fg-box"/>
+<rect x="145" y="10" width="110" height="40" rx="6" class="fg-box"/>
+<rect x="280" y="10" width="110" height="40" rx="6" class="fg-hot"/>
+<text x="65" y="35" text-anchor="middle" class="fg-text">Confiance</text>
+<text x="200" y="35" text-anchor="middle" class="fg-text">Autorité</text>
+<text x="335" y="35" text-anchor="middle" class="fg-text">Positions</text>
+<line x1="122" y1="30" x2="142" y2="30" class="fg-line"/>
+<path d="M136 25 L142 30 L136 35" class="fg-line"/>
+<line x1="257" y1="30" x2="277" y2="30" class="fg-line"/>
+<path d="M271 25 L277 30 L271 35" class="fg-line"/>
+</svg>
+<figcaption>Sur un sujet YMYL comme le droit, chaque signal de confiance finit par compter dans les positions de votre cabinet.</figcaption>
+</figure>
+
 Alors vous optimisez les biographies d’auteurs. Vous affinez le ton. Vous ajoutez des références. Vous consolidez la cohérence des entités. Vous murmurez quelques prières à l’intention des évaluateurs de qualité.
 
 Tel est le rituel quotidien d’un SEO sérieux. Calme. Concentré. Légèrement paranoïaque.
