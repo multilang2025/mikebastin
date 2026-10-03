@@ -1,5 +1,5 @@
 ---
-words: 0
+words: 1982
 title: "Réussir votre campagne Google Ads en France"
 slug: "campagne-google-ads-france"
 locale: "fr"

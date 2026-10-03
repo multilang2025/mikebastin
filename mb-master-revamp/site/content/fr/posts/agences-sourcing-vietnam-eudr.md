@@ -1,5 +1,5 @@
 ---
-words: 0
+words: 2705
 title: "Agences de sourcing au Vietnam pour l’EUDR : repérage de fournisseurs et audits"
 metaTitle: "Agences de sourcing au Vietnam pour l’EUDR et les audits"
 slug: "agences-sourcing-vietnam-eudr"
@@ -10,7 +10,7 @@ wpId: null
 date: "2026-10-03"
 modified: "2026-10-03"
 sourceUrl: null
-excerpt: "Vous importez du Vietnam avant l’échéance EUDR de décembre ? Sept agences pour repérer et auditer vos fournisseurs, et les clés de la barrière de la langue."
+excerpt: "Vous importez du Vietnam avant l’EUDR de décembre ? Sept agences pour repérer et auditer vos fournisseurs, et les clés de la barrière de la langue."
 ---
 
 Vous achetez du caoutchouc, du café, du bois ou des meubles au Vietnam, et à partir du 30 décembre 2026, un importateur européen de grande ou de moyenne taille doit prouver où chaque matière première a été produite avant que la marchandise puisse être mise en vente. Vos fournisseurs sont solides ; le travail consiste désormais à porter leurs documents au même niveau, et une grande partie des preuves se trouve chez des petits producteurs et des transformateurs que votre équipe n’a pas encore rencontrés.

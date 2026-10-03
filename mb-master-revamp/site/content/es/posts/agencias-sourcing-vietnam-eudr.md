@@ -1,5 +1,5 @@
 ---
-words: 0
+words: 2698
 title: "Agencias de sourcing en Vietnam para el EUDR: búsqueda de proveedores y auditorías"
 metaTitle: "Agencias de sourcing en Vietnam para el EUDR y auditorías"
 slug: "agencias-sourcing-vietnam-eudr"

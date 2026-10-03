@@ -1,5 +1,5 @@
 ---
-words: 0
+words: 1732
 title: "Posicionamiento web en Valencia: cómo atraer clientes de tu barrio"
 metaTitle: "Posicionamiento web en Valencia: clientes de tu barrio"
 slug: "posicionamiento-web-valencia"

@@ -1,7 +1,7 @@
 ---
 words: 1454
 title: "Pourquoi Jean Marie Cordaro défend une économie des créateurs plus humaine"
-metaTitle: "Jean Marie Cordaro et une économie des créateurs plus humaine"
+metaTitle: "Jean Marie Cordaro : une économie des créateurs plus humaine"
 slug: "economie-des-createurs"
 locale: "fr"
 type: "posts"

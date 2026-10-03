@@ -10,7 +10,7 @@ wpId: null
 date: "2026-10-03"
 modified: "2026-10-03"
 sourceUrl: null
-excerpt: "Revisa una cadena de redirecciones o una etiqueta de seguimiento en segundos, mucho antes de la próxima auditoría: las diez extensiones de Chrome que usamos."
+excerpt: "Revisa una cadena de redirecciones o una etiqueta de seguimiento en segundos, antes de la próxima auditoría: las diez extensiones de Chrome que usamos."
 ---
 
 Tu página en francés muestra texto en español, o las consultas de un mercado caen de un día para otro. Cada caso se confirma rápido en la propia página, y confirmarlo el mismo día hace que las consultas sigan llegando.

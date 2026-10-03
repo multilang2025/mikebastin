@@ -1,5 +1,5 @@
 ---
-words: 0
+words: 1915
 title: "Référencement local à Valencia : être trouvé par vos clients du quartier"
 metaTitle: "Référencement local à Valencia : vos clients du quartier"
 slug: "referencement-local-valencia"

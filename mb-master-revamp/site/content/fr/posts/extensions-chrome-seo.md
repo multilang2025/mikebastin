@@ -10,7 +10,7 @@ wpId: null
 date: "2026-10-03"
 modified: "2026-10-03"
 sourceUrl: null
-excerpt: "Vérifiez une chaîne de redirections ou une balise de suivi en quelques secondes, bien avant le prochain audit : les dix extensions Chrome SEO que nous gardons."
+excerpt: "Vérifiez une chaîne de redirections ou une balise de suivi en quelques secondes, avant le prochain audit : les dix extensions Chrome SEO que nous gardons."
 ---
 
 Une page espagnole affiche du texte en français, ou les demandes venues d’un marché chutent du jour au lendemain. Chaque cas se vérifie vite sur la page elle-même, et le confirmer le jour même permet aux demandes de continuer d’arriver.
