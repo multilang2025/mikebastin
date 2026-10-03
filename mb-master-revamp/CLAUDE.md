@@ -76,6 +76,12 @@ Same model as valenciamove.com, which the owner already runs at larger scale
   The eight client images in `public/work/` keep their file names when
   `design/work-shots/gen.py` redraws them and the host caches images for a
   week, so bump `SHOT_VERSION` in `lib/projects.ts` whenever they change.
+  French and Spanish posts show their English sibling's photograph
+  (`imageSlugFor()` in `lib/posts.ts`); a post with no English sibling is
+  mapped by hand in `LOCALE_IMAGE_FALLBACK` to the English picture that fits
+  its subject (owner, 3 Oct 2026: no abstract wave art on FR and ES). The FR
+  and ES homepages carry `MarketReach` and the services indexes the same
+  hero art and cluster scenes as English.
 - **Redirects:** `site/public/.htaccess`, generated from `content-map.json`
   by the `scripts/gen-*-redirects.mjs` family. Never hand-maintained. Not
   `next.config` `redirects()`, which never runs under `output: "export"`;

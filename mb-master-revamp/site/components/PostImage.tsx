@@ -30,6 +30,7 @@ export default function PostImage({
   compact = false,
   priority = false,
   sizes = "(min-width: 1280px) 1200px, 100vw",
+  alt,
 }: {
   slug: string;
   cluster?: string;
@@ -42,6 +43,9 @@ export default function PostImage({
   /** How wide the slot is drawn, for picking between the 640 and 1200
    *  files. Defaults to a full-width post head. */
   sizes?: string;
+  /** Overrides the stored alt text, which is English. FR and ES pages pass
+   *  "" because the picture sits beside the title it illustrates. */
+  alt?: string;
 }) {
   const image = getBlogImage(slug);
 
@@ -66,7 +70,7 @@ export default function PostImage({
       src={src}
       srcSet={srcSet}
       sizes={srcSet ? sizes : undefined}
-      alt={image.alt}
+      alt={alt ?? image.alt}
       width={compact ? 160 : image.width}
       height={compact ? 84 : image.height}
       loading={priority ? "eager" : "lazy"}

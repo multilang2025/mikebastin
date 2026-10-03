@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { pageMeta } from "@/lib/meta";
 import Reveal from "@/components/Reveal";
+import MarketReach from "@/components/MarketReach";
 import SiteFooter from "@/components/SiteFooter";
 import JsonLd from "@/components/JsonLd";
 import LocaleHtmlLang from "@/components/LocaleHtmlLang";
@@ -64,7 +65,8 @@ export default function SpanishHome() {
 
       {/* ============ HERO ============ */}
       <section className="band band-a grain relative overflow-hidden pb-[clamp(56px,8vw,110px)] pt-[clamp(96px,14vw,170px)]">
-        <div className="shell relative">
+        <div className="shell relative grid items-center gap-x-10 lg:grid-cols-[1fr_auto]">
+        <div>
           <Reveal>
             <p className="eyebrow mb-8">Desde Valencia, para empresas que exportan</p>
           </Reveal>
@@ -93,6 +95,8 @@ export default function SpanishHome() {
               </Link>
             </div>
           </Reveal>
+        </div>
+        <MarketReach />
         </div>
       </section>
 

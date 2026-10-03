@@ -5,7 +5,8 @@ import Reveal from "@/components/Reveal";
 import SiteFooter from "@/components/SiteFooter";
 import JsonLd from "@/components/JsonLd";
 import LocaleHtmlLang from "@/components/LocaleHtmlLang";
-import { getPostsForLocale, postPath } from "@/lib/posts";
+import { getPostsForLocale, imageSlugFor, postPath } from "@/lib/posts";
+import PostImage from "@/components/PostImage";
 import { localeTopics, topicPath } from "@/lib/locale-topics";
 import { frLanguages } from "@/lib/fr-pages";
 import { SITE_URL, breadcrumbSchema } from "@/lib/schema";
@@ -76,7 +77,14 @@ export default function FrenchBlogIndex() {
             {posts.map((p, i) => (
               <Reveal key={p.slug} i={i}>
                 <li className="band h-full" style={{ background: "var(--bg)" }}>
-                  <Link href={postPath("fr", p.slug)} className="flex h-full flex-col px-7 py-8">
+                  <Link href={postPath("fr", p.slug)} className="flex h-full flex-col">
+                    <PostImage
+                      slug={imageSlugFor("fr", p.slug)}
+                      alt=""
+                      className="aspect-[1200/630] w-full"
+                      sizes="(min-width: 640px) 50vw, 100vw"
+                    />
+                    <div className="flex flex-1 flex-col px-7 py-7">
                     <span className="mb-3 text-[.82rem] uppercase tracking-[.08em]" style={{ color: "var(--dim)" }}>
                       {DATE.format(new Date(p.date))}
                     </span>
@@ -84,6 +92,7 @@ export default function FrenchBlogIndex() {
                     <p className="line-clamp-4 text-[.92rem] leading-[1.55]" style={{ color: "var(--dim)" }}>
                       {p.excerpt}
                     </p>
+                    </div>
                   </Link>
                 </li>
               </Reveal>

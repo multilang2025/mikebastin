@@ -4,7 +4,7 @@ import Link from "next/link";
 import PostImage from "@/components/PostImage";
 import Reveal from "@/components/Reveal";
 import { SERVICES } from "@/lib/services";
-import { getPostsForLocale, postPath, type Locale } from "@/lib/posts";
+import { getPostsForLocale, imageSlugFor, postPath, type Locale } from "@/lib/posts";
 import { getServicesForLocale, servicePath } from "@/lib/services-locale";
 
 /** Real profiles, recorded in docs/CONTENT-ARCHITECTURE.md section 1. */
@@ -168,7 +168,7 @@ function recentFor(locale: Locale) {
       href: postPath(locale, p.slug),
       label: p.title,
       date: p.date,
-      slug: p.slug,
+      slug: imageSlugFor(locale, p.slug),
       cluster: (p as { cluster?: string }).cluster,
     }));
 }
@@ -364,6 +364,7 @@ export default function SiteFooter({
                         <PostImage
                           slug={p.slug}
                           cluster={p.cluster}
+                          alt={locale === "en" ? undefined : ""}
                           compact
                           className="aspect-[1200/630] w-full"
                         />

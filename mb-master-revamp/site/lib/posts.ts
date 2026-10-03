@@ -27,6 +27,7 @@ import { readFileSync } from "fs";
 import { join } from "path";
 import matter from "gray-matter";
 import { renderMarkdown } from "@/lib/render-markdown";
+import { getBlogImage } from "@/lib/blog-images";
 
 /**
  * Markdown to post HTML. Tables get a scrolling wrapper so a wide one
@@ -605,6 +606,51 @@ function buildSiblingIndex(): Map<string, LocaleSlugs> {
 /** The published slug per locale for a post's translation group. */
 export function getPostSiblings(group: string): LocaleSlugs {
   return buildSiblingIndex().get(group) ?? {};
+}
+
+/**
+ * French and Spanish posts with no English sibling of their own, mapped to
+ * the English post whose picture fits their subject best, so every card
+ * shows a photograph rather than the generated wave art.
+ */
+const LOCALE_IMAGE_FALLBACK: Record<string, string> = {
+  // fr
+  "optimisation-pour-les-systemes-ia": "llms-beyond-giants-hidden-ai-models",
+  "seo-au-geo": "future-of-seo",
+  "agence-seo-internationale": "best-practices-for-multilingual-seo",
+  "consultant-referencement-international": "competitor-analysis-traffic-checklist",
+  "expert-en-seo-international": "building-a-global-brand",
+  "recherche-vocale": "how-ai-is-revolutionising-seo-strategies",
+  "visa-nomade-numerique-espagne": "optimising-your-website-for-valencia-based-searches",
+  // es
+  "analizar-backlinks-competidores": "link-selling-and-link-buying-platforms",
+  "analizar-trafico-web-competencia": "competitor-analysis-traffic-checklist",
+  "competidores-seo": "competitor-analysis",
+  "datos-estructurados-schema-optimizacion-geo": "technical-seo-for-spanish-search-engines",
+  "diferencias-culturales-sitios-web-multilingues": "spanish-seo-markets",
+  "herramientas-gratuitas-analisis-competitivo": "chrome-extensions-for-seo",
+  "link-building-local-en-espana": "link-building-in-spain",
+  "medir-rendimiento-geo": "google-analytics-international-marketing-limits",
+  "optimizacion-para-sistemas-de-ia": "llms-beyond-giants-hidden-ai-models",
+  "optimizar-para-seo-y-geo": "future-of-seo",
+  "optimizar-perfil-de-empresa-de-google": "how-to-promote-your-local-business-on-google-maps",
+  "rastrear-posiciones-de-keywords-de-competidores": "spanish-keyword-localisation",
+  "seo-tecnico-para-sitios-multilingues": "technical-seo-for-multilingual-websites",
+  "sistemas-cualificacion-leads-ia": "ai-powered-marketing",
+};
+
+/**
+ * The slug whose picture a post shows. English posts show their own; a
+ * French or Spanish post shows its English sibling's photograph, the same
+ * picture on every language version of one article.
+ */
+export function imageSlugFor(locale: Locale, slug: string): string {
+  if (locale === "en") return slug;
+  const post = getPostForLocale(locale, slug);
+  const en = post ? getPostSiblings(post.group).en : undefined;
+  if (en && getBlogImage(en)) return en;
+  const fallback = LOCALE_IMAGE_FALLBACK[slug];
+  return fallback && getBlogImage(fallback) ? fallback : slug;
 }
 
 /** Site-relative path for a published post in `locale`. EN stays at

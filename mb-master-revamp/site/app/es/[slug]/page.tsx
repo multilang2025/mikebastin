@@ -5,7 +5,8 @@ import Reveal from "@/components/Reveal";
 import SiteFooter from "@/components/SiteFooter";
 import JsonLd from "@/components/JsonLd";
 import LocaleHtmlLang from "@/components/LocaleHtmlLang";
-import { getPostsForLocale, getPostForLocale, postHreflang } from "@/lib/posts";
+import { getPostsForLocale, getPostForLocale, imageSlugFor, postHreflang } from "@/lib/posts";
+import PostImage from "@/components/PostImage";
 import { postMetaTitle } from "@/lib/seo";
 import { pageMeta } from "@/lib/meta";
 import { SITE_URL, blogPostingSchema, breadcrumbSchema } from "@/lib/schema";
@@ -103,6 +104,14 @@ export default async function SpanishBlogPostPage({
               <i className="block h-[3px] w-[3px] rounded-full" style={{ background: "var(--berry)" }} />
               <span>{formatDate(post.date)}</span>
             </p>
+          </Reveal>
+          <Reveal i={3}>
+            <div
+              className="mt-[clamp(32px,5vw,56px)] overflow-hidden rounded-[4px] border"
+              style={{ borderColor: "var(--rule)" }}
+            >
+              <PostImage slug={imageSlugFor("es", post.slug)} alt="" rounded priority className="aspect-[1200/630] w-full" />
+            </div>
           </Reveal>
         </div>
       </section>

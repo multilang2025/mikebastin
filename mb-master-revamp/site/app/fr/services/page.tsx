@@ -2,6 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { pageMeta } from "@/lib/meta";
 import Reveal from "@/components/Reveal";
+import HeroArtSlot from "@/components/HeroArtSlot";
+import DlArt from "@/components/DlArt";
+import { DL_PAGE_ART } from "@/lib/dl-art";
 import { ButtonLink } from "@/components/ui/Button";
 import SiteFooter from "@/components/SiteFooter";
 import JsonLd from "@/components/JsonLd";
@@ -34,20 +37,20 @@ export const metadata: Metadata = {
  * service missing from every group lands in the last one rather than
  * disappearing, so a newly built page is never unlisted.
  */
-const GROUPS: { heading: string; slugs: string[] }[] = [
+const GROUPS: { heading: string; slugs: string[]; scene: { src: string; alt: string; intro: string } }[] = [
   {
-    heading: "Le SEO pour chaque marché où vous vendez",
+    heading: "Le SEO pour chaque marché où vous vendez", scene: { src: "/images/scenes/svc-search.webp", alt: "La même page de services positionnée dans les résultats en français, en allemand et en espagnol, et citée dans une réponse d’IA", intro: "Trouvé dans la langue où chaque acheteur cherche, sur Google comme dans les réponses des IA." },
     slugs: ["seo-espagnol", "seo-allemand", "seo-neerlandais", "seo-anglais", "seo-italien", "seo-portugais"],
   },
   {
-    heading: "Référencement et acquisition",
+    heading: "Référencement et acquisition", scene: { src: "/images/scenes/svc-lead-generation.webp", alt: "Un tableau de bord des demandes par marché, avec de nouvelles demandes de devis venues d’Allemagne et de France", intro: "Des demandes venues de chaque marché, comptées là où elles arrivent et transmises à vos équipes commerciales." },
     slugs: ["seo", "referencement-multilingue", "seo-technique", "referencement-local", "sem-multilingue"],
   },
   {
-    heading: "Contenu, traduction et IA",
+    heading: "Contenu, traduction et IA", scene: { src: "/images/scenes/svc-ai.webp", alt: "Une réponse d’IA qui cite des pages allemandes et néerlandaises, et une traduction automatique corrigée par un relecteur natif", intro: "L’IA là où elle fait gagner du temps, et un relecteur natif partout où la confiance se joue." },
     slugs: ["creation-de-contenu-multilingue", "traduction-professionnelle", "postedition-ia", "conseil-ia"],
   },
-  { heading: "Localisation", slugs: [] },
+  { heading: "Localisation", scene: { src: "/images/scenes/svc-localization.webp", alt: "Une même page produit en Allemagne et en Suisse avec les prix et les moyens de paiement locaux, à côté d’une traduction assermentée tamponnée", intro: "Des sites, des prix et des documents qui sonnent local dans chaque marché où vous vendez." }, slugs: [] },
 ];
 
 export default function FrenchServicesIndex() {
@@ -55,6 +58,7 @@ export default function FrenchServicesIndex() {
   const listed = new Set(GROUPS.flatMap((g) => g.slugs));
   const groups = GROUPS.map((g, i) => ({
     heading: g.heading,
+    scene: g.scene,
     items:
       i === GROUPS.length - 1
         ? services.filter((s) => !listed.has(s.slug))
@@ -71,7 +75,8 @@ export default function FrenchServicesIndex() {
         ])}
       />
       <section className="band band-a grain relative overflow-hidden pb-[clamp(56px,8vw,100px)] pt-[clamp(96px,14vw,160px)]">
-        <div className="shell relative">
+        <div className="shell relative grid items-start gap-x-12 lg:grid-cols-[1fr_auto]">
+        <div>
           <Reveal>
             <p className="eyebrow mb-8">Référencement, localisation et publicité multilingue</p>
           </Reveal>
@@ -97,6 +102,10 @@ export default function FrenchServicesIndex() {
               </ButtonLink>
             </div>
           </Reveal>
+        </div>
+        <HeroArtSlot visibleOnMobile={true}>
+          <DlArt name={DL_PAGE_ART.services} />
+        </HeroArtSlot>
         </div>
       </section>
 
@@ -125,8 +134,25 @@ export default function FrenchServicesIndex() {
         <section key={g.heading} className={`band ${gi % 2 === 0 ? "band-a" : "band-b"} py-[clamp(48px,7vw,96px)]`}>
           <div className="shell">
             <Reveal>
-              <div className="mb-8 border-b pb-4" style={{ borderColor: "var(--rule)" }}>
-                <h2 className="text-[clamp(1.4rem,2.6vw,2rem)] font-semibold leading-[1.15]">{g.heading}</h2>
+              <div
+                className="mb-10 grid items-center gap-x-12 gap-y-6 border-b pb-8 lg:grid-cols-2"
+                style={{ borderColor: "var(--rule)" }}
+              >
+                <div className={gi % 2 === 1 ? "lg:order-2" : ""}>
+                  <h2 className="mb-4 text-[clamp(1.6rem,3vw,2.3rem)] font-semibold leading-[1.12]">{g.heading}</h2>
+                  <p className="max-w-[44ch] text-[1.08rem] leading-[1.55]" style={{ color: "var(--dim)" }}>
+                    {g.scene.intro}
+                  </p>
+                </div>
+                <img
+                  src={g.scene.src}
+                  alt={g.scene.alt}
+                  width={872}
+                  height={672}
+                  loading="lazy"
+                  decoding="async"
+                  className="mx-auto w-full max-w-[560px]"
+                />
               </div>
             </Reveal>
             {/* Three across only when the row fills: two or four cards in a
