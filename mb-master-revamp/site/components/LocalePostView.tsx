@@ -3,6 +3,7 @@ import Reveal from "@/components/Reveal";
 import PostImage from "@/components/PostImage";
 import PostCard, { POST_GRID } from "@/components/PostCard";
 import TableOfContents from "@/components/TableOfContents";
+import ShareLinks from "@/components/ShareLinks";
 import { addHeadingIds } from "@/lib/toc";
 import { getPostsForLocale, imageSlugFor, postPath, type LocalePost } from "@/lib/posts";
 import { topicForPost, topicPath, topicPosts } from "@/lib/locale-topics";
@@ -124,6 +125,9 @@ export default function LocalePostView({ locale, post }: { locale: "fr" | "es"; 
                 dangerouslySetInnerHTML={{ __html: bodyHtml }}
               />
             </Reveal>
+            <div className="mt-12 max-w-[68ch] border-t pt-8" style={{ borderColor: "var(--rule)" }}>
+              <ShareLinks url={`https://mikebastin.com${postPath(locale, post.slug)}`} title={post.title} locale={locale} />
+            </div>
           </div>
           {showToc && (
             <aside className="hidden lg:block">

@@ -7,6 +7,7 @@ import PostCard, { POST_GRID } from "@/components/PostCard";
 import SiteFooter from "@/components/SiteFooter";
 import JsonLd from "@/components/JsonLd";
 import TableOfContents from "@/components/TableOfContents";
+import ShareLinks from "@/components/ShareLinks";
 import { addHeadingIds } from "@/lib/toc";
 import {
   getPosts,
@@ -190,6 +191,9 @@ export default async function BlogPostPage({
                 dangerouslySetInnerHTML={{ __html: bodyHtml }}
               />
             </Reveal>
+            <div className="mt-12 max-w-[68ch] border-t pt-8" style={{ borderColor: "var(--rule)" }}>
+              <ShareLinks url={url} title={post.title} />
+            </div>
           </div>
           {showToc && (
             <aside className="hidden lg:block">
