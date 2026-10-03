@@ -838,6 +838,76 @@ html.mb-anim .reveal.is-in {
 .post-body tbody tr:last-child td { border-bottom: 0; }
 .post-body td:first-child { font-weight: 500; }
 
+/* Tables on phones (owner, 3 Oct 2026): a table of three or more columns
+   (`table-stack`, set by lib/render-markdown.ts) becomes one card per row,
+   each value under its column heading (`data-label`). The header row stays
+   in the markup for screen readers, visually hidden. */
+@media (max-width: 640px) {
+  .post-body .table-stack { overflow: visible; border: 0; border-radius: 0; }
+  .post-body .table-stack :is(table, tbody, tr, td) { display: block; width: 100%; }
+  .post-body .table-stack thead {
+    position: absolute; width: 1px; height: 1px; overflow: hidden;
+    clip-path: inset(50%); white-space: nowrap;
+  }
+  .post-body .table-stack tr {
+    margin: 0 0 .9em;
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  .post-body .table-stack td { min-width: 0; padding: .6em .95em; border-bottom: 1px solid var(--rule); }
+  .post-body .table-stack tr td:last-child { border-bottom: 0; }
+  .post-body .table-stack td:first-child { background: var(--chip); font-weight: 600; }
+  .post-body .table-stack td[data-label]::before {
+    content: attr(data-label);
+    display: block;
+    margin-bottom: .2em;
+    font-size: .72rem;
+    font-weight: 600;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    color: var(--dim);
+  }
+}
+
+/* Diagrams draw themselves in once on scroll (owner, 3 Oct 2026). Strokes
+   carry pathLength="1" and run from 0 to 1, shapes settle in, labels fade
+   in after them, and the one highlighted shape (fg-hot) gives a single
+   beat at the end. --fi is each element's order, set at render. Nothing
+   repeats; without .mb-anim (reduced motion, no JS) the figure is static. */
+html.mb-anim .post-fig.reveal [pathLength] { stroke-dasharray: 1; stroke-dashoffset: 1; }
+html.mb-anim .post-fig.reveal :is(rect, circle, ellipse, polygon, text) { opacity: 0; }
+html.mb-anim .post-fig.reveal.is-in [pathLength] {
+  animation: fg-draw .9s cubic-bezier(.4, 0, .2, 1) calc(.15s + var(--fi, 0) * .045s) forwards;
+}
+/* Shapes positioned with a transform attribute only fade: a CSS transform
+   would override the attribute and move them. */
+html.mb-anim .post-fig.reveal.is-in :is(rect, circle, ellipse, polygon)[transform] {
+  animation: fg-fade .45s ease-out calc(.1s + var(--fi, 0) * .045s) forwards;
+}
+html.mb-anim .post-fig.reveal.is-in :is(rect, circle, ellipse, polygon):not([transform]) {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: fg-pop .5s cubic-bezier(.2, .7, .3, 1) calc(.1s + var(--fi, 0) * .045s) forwards;
+}
+html.mb-anim .post-fig.reveal.is-in .fg-hot:not([transform]) {
+  animation:
+    fg-pop .5s cubic-bezier(.2, .7, .3, 1) calc(.1s + var(--fi, 0) * .045s) forwards,
+    fg-beat .7s ease-in-out calc(1.3s + var(--fi, 0) * .045s) 1;
+}
+html.mb-anim .post-fig.reveal.is-in text {
+  animation: fg-fade .45s ease-out calc(.35s + var(--fi, 0) * .045s) forwards;
+}
+@keyframes fg-draw { to { stroke-dashoffset: 0; } }
+@keyframes fg-pop { from { opacity: 0; transform: scale(.9); } to { opacity: 1; transform: none; } }
+@keyframes fg-fade { to { opacity: 1; } }
+@keyframes fg-beat { 50% { transform: scale(1.06); } }
+/* The recycled homepage map inside a post (components/PostBody.tsx): its
+   one-time draw waits until the figure is in view. */
+.post-fig-art .mr-art { max-width: 340px; margin-inline: auto; justify-self: center; }
+html.mb-anim .post-fig-art.reveal:not(.is-in) .mr-art,
+html.mb-anim .post-fig-art.reveal:not(.is-in) .mr-art * { animation-play-state: paused; }
+
 /* Inline SVG illustrations in markdown. Drawn with these classes rather
    than hard-coded colours, so a figure follows the light/dark toggle. */
 .post-body figure.post-fig {

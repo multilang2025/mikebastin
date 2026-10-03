@@ -1,3 +1,4 @@
+import PostBody from "@/components/PostBody";
 import Link from "next/link";
 import Reveal from "@/components/Reveal";
 import PostImage from "@/components/PostImage";
@@ -120,9 +121,10 @@ export default function LocalePostView({ locale, post }: { locale: "fr" | "es"; 
               </div>
             )}
             <Reveal i={showToc ? 1 : 0}>
-              <div
+              <PostBody
                 className="post-body max-w-[68ch] text-[1.05rem] leading-[1.7]"
-                dangerouslySetInnerHTML={{ __html: bodyHtml }}
+                html={bodyHtml}
+                locale={locale}
               />
             </Reveal>
             <div className="mt-12 max-w-[68ch] border-t pt-8" style={{ borderColor: "var(--rule)" }}>

@@ -31,6 +31,8 @@ La base, en cada idioma:
 
 Esas mismas señales son hoy la base de la GEO en cada idioma, así que cada una que ajustas rinde dos veces.
 
+<!-- figure:market-reach -->
+
 ## Localizar las palabras clave: empezar por cómo busca cada mercado
 
 Las palabras clave localizadas son las que escriben de verdad los compradores de cada país, y por eso son las que traen consultas. Un comprador francés describe su necesidad con otras palabras que el español: la traducción de tu lista en español encuentra una parte, y la investigación hecha en el mercado encuentra el resto.

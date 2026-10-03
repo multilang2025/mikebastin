@@ -1,3 +1,4 @@
+import PostBody from "@/components/PostBody";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
@@ -186,9 +187,10 @@ export default async function BlogPostPage({
               </div>
             )}
             <Reveal i={showToc ? 1 : 0}>
-              <div
+              <PostBody
                 className="post-body max-w-[68ch] text-[1.05rem] leading-[1.7]"
-                dangerouslySetInnerHTML={{ __html: bodyHtml }}
+                html={bodyHtml}
+                locale="en"
               />
             </Reveal>
             <div className="mt-12 max-w-[68ch] border-t pt-8" style={{ borderColor: "var(--rule)" }}>

@@ -54,6 +54,8 @@ Aquí tienes las diez estrategias de marketing internacional que más usan las p
 <figcaption>Los canales de pago compran datos tempranos sobre un mercado nuevo; el SEO tarda más en arrancar y sigue rindiendo cuando el presupuesto se detiene. La mayoría de las pymes combina uno de cada tipo.</figcaption>
 </figure>
 
+<!-- figure:market-reach -->
+
 ## Posicionamiento en buscadores (SEO)
 
 Cuando el comprador te encuentra al buscar en su propio idioma, todos los demás canales lo tienen más fácil. El SEO tarda en arrancar y sigue enviando visitas cuando el presupuesto se detiene.

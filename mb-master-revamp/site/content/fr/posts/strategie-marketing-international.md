@@ -55,6 +55,8 @@ Voici les dix leviers marketing que les PME emploient le plus à l’étranger, 
 <figcaption>Les canaux payants apportent tôt des données sur un nouveau marché ; le SEO démarre le plus lentement et continue de rapporter une fois le budget arrêté. La plupart des PME mènent un canal de chaque type.</figcaption>
 </figure>
 
+<!-- figure:market-reach -->
+
 ## Le référencement naturel (SEO)
 
 Quand vos acheteurs vous trouvent en cherchant dans leur propre langue, tous les autres canaux ont la tâche plus facile. Le SEO prend du temps à démarrer, et il continue d’envoyer des visiteurs une fois le budget arrêté.

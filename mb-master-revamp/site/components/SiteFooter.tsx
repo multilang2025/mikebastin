@@ -1,3 +1,4 @@
+import BrandMark from "@/components/BrandMark";
 import FooterLanguages from "@/components/FooterLanguages";
 import CookieSettingsLink from "@/components/CookieSettingsLink";
 import Link from "next/link";
@@ -188,27 +189,6 @@ function ColumnHeading({ children }: { children: React.ReactNode }) {
   );
 }
 
-/** The site's own wave, drawn large and faint behind the sign-off. */
-function WaveMark({ className, width = 22 }: { className?: string; width?: number }) {
-  return (
-    <svg
-      width={width}
-      height={width}
-      viewBox="0 0 64 64"
-      className={className}
-      aria-hidden="true"
-      focusable="false"
-    >
-      <path
-        d="M8 36 C 17 26, 25 26, 33 33 S 49 46, 56 31"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="4.4"
-        strokeLinecap="round"
-      />
-    </svg>
-  );
-}
 
 /**
  * The one shared footer, on all 150 built pages including the 404.
@@ -315,7 +295,7 @@ export default function SiteFooter({
           >
             <div>
               <div className="mb-3 flex items-center gap-2.5">
-                <WaveMark className="shrink-0" width={20} />
+                <BrandMark width={41} />
                 <span className="display text-[1.05rem] font-semibold tracking-tight">Mike Bastin</span>
               </div>
               {/* The owner's motto, 20 Sep. It sits under the wordmark, where

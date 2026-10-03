@@ -29,6 +29,8 @@ The groundwork, in every language:
 
 The same signals are now the foundation for GEO in each language, so a gap here costs you twice.
 
+<!-- figure:market-reach -->
+
 ## Keyword localization: start from how each market searches
 
 Localized keywords are the terms buyers in each market actually type, which a translation of your English list rarely finds. [Keyword localization](/blog/spanish-keyword-localisation/) starts from how buyers in each country search, often in words of their own.
