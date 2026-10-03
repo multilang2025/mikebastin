@@ -87,6 +87,25 @@ Tres pasos, en este orden, te dan lo esencial de un rival en una tarde.
 2. **Estudia la estacionalidad.** ¿Sube su tráfico en Navidad o en septiembre? Usa esos picos para planificar tus campañas de [marketing digital](/es/services/).
 3. **Recorre su web como cliente.** ¿Es fácil pedir presupuesto? ¿Las llamadas a la acción son claras? A veces la ventaja está en convertir mejor el tráfico que ya tiene.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 130" role="img" aria-label="Tres pasos en orden para analizar a un rival: sus páginas estrella, su estacionalidad y su web recorrida como cliente.">
+<line x1="67" y1="32" x2="333" y2="32" class="fg-rule"/>
+<circle cx="67" cy="32" r="26" class="fg-hot"/>
+<circle cx="200" cy="32" r="26" class="fg-box"/>
+<circle cx="333" cy="32" r="26" class="fg-box"/>
+<text x="67" y="38" text-anchor="middle" class="fg-strong">1</text>
+<text x="67" y="90" text-anchor="middle" class="fg-text">Páginas</text>
+<text x="67" y="114" text-anchor="middle" class="fg-label">sus estrellas</text>
+<text x="200" y="38" text-anchor="middle" class="fg-strong">2</text>
+<text x="200" y="90" text-anchor="middle" class="fg-text">Estacionalidad</text>
+<text x="200" y="114" text-anchor="middle" class="fg-label">picos del año</text>
+<text x="333" y="38" text-anchor="middle" class="fg-strong">3</text>
+<text x="333" y="90" text-anchor="middle" class="fg-text">Su web</text>
+<text x="333" y="114" text-anchor="middle" class="fg-label">como cliente</text>
+</svg>
+<figcaption>Una tarde basta para los tres: el primero te dice qué página escribir, el segundo cuándo lanzar tu campaña y el tercero dónde puedes convertir mejor que él.</figcaption>
+</figure>
+
 Este enfoque completo es la base de nuestro [análisis competitivo SEO para crecimiento digital](https://mikebastin.com/es/analisis-competitivo-seo/).
 
 ### Herramientas que valen la pena

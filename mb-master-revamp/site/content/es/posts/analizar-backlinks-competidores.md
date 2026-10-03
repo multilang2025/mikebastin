@@ -44,6 +44,27 @@ Con BeTranslated, la agencia de traducción que dirigimos, vimos que los blogs e
 
 La brecha de enlaces es la lista de sitios que enlazan a tus rivales y todavía a ti no. Es la parte del análisis que se convierte más rápido en contactos concretos, y es la otra cara de [detectar brechas en el tráfico de la competencia](https://mikebastin.com/es/analizar-trafico-web-competencia/).
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 200" role="img" aria-label="Un mismo dominio enlaza a tres competidores y todavía no enlaza a tu web: ese enlace por conseguir es la brecha.">
+<line x1="65" y1="44" x2="200" y2="84" class="fg-line"/>
+<line x1="200" y1="44" x2="200" y2="84" class="fg-line"/>
+<line x1="335" y1="44" x2="200" y2="84" class="fg-line"/>
+<rect x="10" y="8" width="110" height="36" rx="6" class="fg-box"/>
+<text x="65" y="31" text-anchor="middle" class="fg-label">Competidor 1</text>
+<rect x="145" y="8" width="110" height="36" rx="6" class="fg-box"/>
+<text x="200" y="31" text-anchor="middle" class="fg-label">Competidor 2</text>
+<rect x="280" y="8" width="110" height="36" rx="6" class="fg-box"/>
+<text x="335" y="31" text-anchor="middle" class="fg-label">Competidor 3</text>
+<rect x="120" y="84" width="160" height="40" rx="6" class="fg-hot"/>
+<text x="200" y="109" text-anchor="middle" class="fg-text">Dominio común</text>
+<line x1="200" y1="124" x2="200" y2="154" class="fg-accent" stroke-dasharray="4 4"/>
+<text x="212" y="144" text-anchor="start" class="fg-label">enlace por conseguir</text>
+<rect x="140" y="154" width="120" height="38" rx="6" class="fg-box"/>
+<text x="200" y="178" text-anchor="middle" class="fg-text">Tu web</text>
+</svg>
+<figcaption>Un dominio que ya enlaza a varios de tus rivales conoce el tema y acepta enlazar: empieza tu lista de contactos por esos dominios.</figcaption>
+</figure>
+
 Con herramientas como Ahrefs puedes filtrar y ver:
 
 - qué medios enlazan a competidores y pueden enlazar también a tu web;

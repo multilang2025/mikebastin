@@ -88,6 +88,34 @@ Comprueba que cada etiqueta se dispara, para que cada mercado muestre su fuerza 
 
 Las extensiones responden preguntas sobre una página. Para todo lo que afecta al sitio entero, un rastreador y Search Console toman el relevo, y con ellos hacemos una [auditoría técnica de toda la web](/es/services/seo-tecnico/): sitemaps por idioma, presupuesto de rastreo y redirecciones. Mantén una selección corta, porque algunas leen cada página que visitas, y respeta las condiciones de uso de cada web cuando extraigas datos.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 156" role="img" aria-label="Las extensiones de Chrome revisan una página; para todo el sitio toman el relevo un rastreador y Search Console.">
+<rect x="72" y="8" width="56" height="70" rx="6" class="fg-box"/>
+<line x1="82" y1="24" x2="118" y2="24" class="fg-rule"/>
+<line x1="82" y1="36" x2="118" y2="36" class="fg-rule"/>
+<line x1="82" y1="48" x2="118" y2="48" class="fg-rule"/>
+<line x1="82" y1="60" x2="118" y2="60" class="fg-rule"/>
+<rect x="260" y="8" width="24" height="18" rx="6" class="fg-box"/>
+<rect x="288" y="8" width="24" height="18" rx="6" class="fg-box"/>
+<rect x="316" y="8" width="24" height="18" rx="6" class="fg-box"/>
+<rect x="260" y="32" width="24" height="18" rx="6" class="fg-box"/>
+<rect x="288" y="32" width="24" height="18" rx="6" class="fg-box"/>
+<rect x="316" y="32" width="24" height="18" rx="6" class="fg-box"/>
+<rect x="260" y="56" width="24" height="18" rx="6" class="fg-box"/>
+<rect x="288" y="56" width="24" height="18" rx="6" class="fg-box"/>
+<rect x="316" y="56" width="24" height="18" rx="6" class="fg-box"/>
+<line x1="146" y1="43" x2="240" y2="43" class="fg-line"/>
+<path d="M233 37 L241 43 L233 49" fill="none" class="fg-line"/>
+<text x="100" y="104" text-anchor="middle" class="fg-text">Una página</text>
+<text x="300" y="104" text-anchor="middle" class="fg-text">Todo el sitio</text>
+<text x="100" y="126" text-anchor="middle" class="fg-label">extensiones</text>
+<text x="100" y="146" text-anchor="middle" class="fg-label">de Chrome</text>
+<text x="300" y="126" text-anchor="middle" class="fg-label">rastreador</text>
+<text x="300" y="146" text-anchor="middle" class="fg-label">y Search Console</text>
+</svg>
+<figcaption>La extensión confirma un fallo en una página en segundos; cuando el fallo se repite, el rastreador te dice en cuántas páginas está.</figcaption>
+</figure>
+
 <aside class="post-cta">
 <p><strong>¿Encuentras el mismo fallo página tras página?</strong> La causa está en todo el sitio, y nuestro <a href="/es/services/seo-tecnico/">SEO técnico para webs multilingües</a> la encuentra y la corrige. <a href="/es/contactanos/">Pide una auditoría gratuita de 20 minutos</a>.</p>
 </aside>

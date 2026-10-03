@@ -44,6 +44,33 @@ Cinco pasos te dan, en una o dos tardes por mercado, una lista de rivales que pu
 4. **Compara palabras clave:** la brecha de palabras clave muestra en qué términos posicionan tus rivales y tú todavía puedes entrar.
 5. **Mira sus enlaces y los formatos que ocupan:** [estudia los enlaces entrantes de la competencia](https://mikebastin.com/es/analizar-backlinks-competidores/) y fíjate en los fragmentos destacados y en «Otras preguntas de los usuarios». Un rival presente ahí tiene su contenido bien alineado con la intención de búsqueda.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 268" role="img" aria-label="Los cinco pasos para encontrar competidores SEO, de tus palabras clave en Search Console a sus enlaces y formatos.">
+<line x1="36" y1="26" x2="36" y2="242" class="fg-rule"/>
+<circle cx="36" cy="26" r="18" class="fg-box"/>
+<circle cx="36" cy="80" r="18" class="fg-box"/>
+<circle cx="36" cy="134" r="18" class="fg-box"/>
+<circle cx="36" cy="188" r="18" class="fg-hot"/>
+<circle cx="36" cy="242" r="18" class="fg-box"/>
+<text x="36" y="32" text-anchor="middle" class="fg-strong">1</text>
+<text x="70" y="24" text-anchor="start" class="fg-text">Tus palabras clave</text>
+<text x="70" y="43" text-anchor="start" class="fg-label">Search Console</text>
+<text x="36" y="86" text-anchor="middle" class="fg-strong">2</text>
+<text x="70" y="78" text-anchor="start" class="fg-text">Busca y anota</text>
+<text x="70" y="97" text-anchor="start" class="fg-label">en el país objetivo</text>
+<text x="36" y="140" text-anchor="middle" class="fg-strong">3</text>
+<text x="70" y="132" text-anchor="start" class="fg-text">Sigue posiciones</text>
+<text x="70" y="151" text-anchor="start" class="fg-label">quién sube y quién baja</text>
+<text x="36" y="194" text-anchor="middle" class="fg-strong">4</text>
+<text x="70" y="186" text-anchor="start" class="fg-text">Brecha de palabras</text>
+<text x="70" y="205" text-anchor="start" class="fg-label">dónde puedes entrar</text>
+<text x="36" y="248" text-anchor="middle" class="fg-strong">5</text>
+<text x="70" y="240" text-anchor="start" class="fg-text">Enlaces y formatos</text>
+<text x="70" y="259" text-anchor="start" class="fg-label">fragmentos destacados</text>
+</svg>
+<figcaption>El cuarto paso convierte la lista en trabajo: la brecha de palabras clave te dice qué páginas escribir para entrar donde ya posicionan tus rivales.</figcaption>
+</figure>
+
 <aside class="post-cta">
 <p><strong>¿Quieres saber quién gana tus búsquedas en Francia, en Bélgica o en Alemania?</strong> Nuestro programa de SEO multilingüe empieza con una auditoría que compara cada idioma de tu web con tus competidores locales. <a href="https://mikebastin.com/es/services/posicionamiento-multilingue/">Solicita tu auditoría gratuita de 20 minutos</a>.</p>
 </aside>

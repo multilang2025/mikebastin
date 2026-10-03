@@ -26,6 +26,29 @@ También comprueban funciones propias de cada lengua: el texto de derecha a izqu
 
 Las más modernas se integran en los flujos de integración continua y detectan los fallos pronto, cuando corregirlos cuesta poco. Pueden simular distintos entornos regionales y verificar que el comportamiento es coherente en todas las versiones de idioma. Ese enfoque sistemático [ayuda a acertar a nivel cultural](https://mikebastin.com/es/diferencias-culturales-sitios-web-multilingues/) y a lanzar un producto técnicamente limpio, bien recibido fuera de casa.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 214" role="img" aria-label="Cuatro momentos de prueba en orden: pseudolocalización antes de traducir, control en el TMS mientras se traduce, automatización en cada versión y revisión nativa antes de lanzar.">
+<line x1="36" y1="26" x2="36" y2="188" class="fg-rule"/>
+<circle cx="36" cy="26" r="18" class="fg-hot"/>
+<circle cx="36" cy="80" r="18" class="fg-box"/>
+<circle cx="36" cy="134" r="18" class="fg-box"/>
+<circle cx="36" cy="188" r="18" class="fg-box"/>
+<text x="36" y="32" text-anchor="middle" class="fg-strong">1</text>
+<text x="70" y="24" text-anchor="start" class="fg-text">Pseudolocalización</text>
+<text x="70" y="43" text-anchor="start" class="fg-label">antes de traducir</text>
+<text x="36" y="86" text-anchor="middle" class="fg-strong">2</text>
+<text x="70" y="78" text-anchor="start" class="fg-text">Control en el TMS</text>
+<text x="70" y="97" text-anchor="start" class="fg-label">mientras se traduce</text>
+<text x="36" y="140" text-anchor="middle" class="fg-strong">3</text>
+<text x="70" y="132" text-anchor="start" class="fg-text">Automatización</text>
+<text x="70" y="151" text-anchor="start" class="fg-label">en cada versión</text>
+<text x="36" y="194" text-anchor="middle" class="fg-strong">4</text>
+<text x="70" y="186" text-anchor="start" class="fg-text">Revisión nativa</text>
+<text x="70" y="205" text-anchor="start" class="fg-label">antes de lanzar</text>
+</svg>
+<figcaption>Cuanto antes entra una prueba, menos cuesta el arreglo: la pseudolocalización encuentra los textos cortados antes de que exista una sola traducción.</figcaption>
+</figure>
+
 ## Tipos de herramientas de pruebas de localización
 
 Cada tipo cubre una parte del trabajo, y la combinación de varios es lo que da una cobertura completa:

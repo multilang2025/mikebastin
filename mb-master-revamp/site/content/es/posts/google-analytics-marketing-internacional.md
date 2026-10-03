@@ -23,6 +23,30 @@ Bien usados, los datos de Google Analytics muestran dónde existe demanda antes 
 
 Usados con criterio, te dan una seguridad sobre la que puedes actuar. La regulación de la privacidad, la pérdida de consentimientos, los huecos de seguimiento y las restricciones regionales influyen en lo que muestra GA4. El objetivo es interpretarlo con conocimiento de causa.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 194" role="img" aria-label="Dos columnas: lo que puedes creer de GA4 (país, idioma, interacción y atribución como guía) y lo que conviene revisar (consentimiento, China, bots y VPN).">
+<text x="105" y="20" text-anchor="middle" class="fg-strong">Puedes creer</text>
+<text x="295" y="20" text-anchor="middle" class="fg-strong">Revisa antes</text>
+<rect x="20" y="34" width="170" height="32" rx="6" class="fg-box"/>
+<text x="105" y="55" text-anchor="middle" class="fg-text">Por país</text>
+<rect x="210" y="34" width="170" height="32" rx="6" class="fg-hot"/>
+<text x="295" y="55" text-anchor="middle" class="fg-text">Consentimiento</text>
+<rect x="20" y="74" width="170" height="32" rx="6" class="fg-box"/>
+<text x="105" y="95" text-anchor="middle" class="fg-text">Idioma</text>
+<rect x="210" y="74" width="170" height="32" rx="6" class="fg-box"/>
+<text x="295" y="95" text-anchor="middle" class="fg-text">China</text>
+<rect x="20" y="114" width="170" height="32" rx="6" class="fg-box"/>
+<text x="105" y="135" text-anchor="middle" class="fg-text">Interacción</text>
+<rect x="210" y="114" width="170" height="32" rx="6" class="fg-box"/>
+<text x="295" y="135" text-anchor="middle" class="fg-text">Bots</text>
+<rect x="20" y="154" width="170" height="32" rx="6" class="fg-box"/>
+<text x="105" y="175" text-anchor="middle" class="fg-text">Atribución</text>
+<rect x="210" y="154" width="170" height="32" rx="6" class="fg-box"/>
+<text x="295" y="175" text-anchor="middle" class="fg-text">VPN y móvil</text>
+</svg>
+<figcaption>Usa la columna de la izquierda para comparar mercados. El consentimiento rechazado es el punto ciego que más pesa en la UE: lee las cifras europeas como un mínimo.</figcaption>
+</figure>
+
 ## Lo que puedes creer: GA4 para entender tus mercados
 
 Bien configurado, GA4 te da datos de tendencia fiables para decidir dónde invertir a continuación.

@@ -84,6 +84,27 @@ Un bloque de JSON-LD aislado describe una página; un **grafo interno** describe
 
 Con las entidades conectadas, tu web se lee como una base de conocimiento coherente. Este trabajo une contenido y técnica, y en [nuestros servicios](/es/services/) los tratamos juntos, porque la IA lee relaciones además de texto.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 166" role="img" aria-label="Un caso de éxito conectado en el grafo con el servicio prestado, la empresa cliente y el autor, cada uno con su tipo de schema.">
+<line x1="200" y1="54" x2="70" y2="110" class="fg-line"/>
+<line x1="200" y1="54" x2="200" y2="110" class="fg-line"/>
+<line x1="200" y1="54" x2="330" y2="110" class="fg-line"/>
+<rect x="125" y="6" width="150" height="48" rx="6" class="fg-hot"/>
+<text x="200" y="27" text-anchor="middle" class="fg-text">Caso de éxito</text>
+<text x="200" y="45" text-anchor="middle" class="fg-label">Article</text>
+<rect x="10" y="110" width="120" height="48" rx="6" class="fg-box"/>
+<text x="70" y="131" text-anchor="middle" class="fg-text">Servicio</text>
+<text x="70" y="149" text-anchor="middle" class="fg-label">Service</text>
+<rect x="140" y="110" width="120" height="48" rx="6" class="fg-box"/>
+<text x="200" y="131" text-anchor="middle" class="fg-text">Cliente</text>
+<text x="200" y="149" text-anchor="middle" class="fg-label">Organization</text>
+<rect x="270" y="110" width="120" height="48" rx="6" class="fg-box"/>
+<text x="330" y="131" text-anchor="middle" class="fg-text">Autor</text>
+<text x="330" y="149" text-anchor="middle" class="fg-label">Person</text>
+</svg>
+<figcaption>Cada página que conecta así sus entidades suma a una descripción única de tu empresa, la que una respuesta de IA puede repetir con datos correctos.</figcaption>
+</figure>
+
 Nuestra forma de verlo: el GEO funciona por claridad. Cuanto más claro y coherente es lo que publicas, más fácil resulta elegirte como fuente.
 
 ### Estructura también tu HTML

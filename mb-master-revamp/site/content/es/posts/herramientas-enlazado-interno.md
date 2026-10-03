@@ -29,6 +29,30 @@ Los enlaces entre tus propias páginas les dicen a los buscadores qué páginas 
 
 Las herramientas se dividen en dos grupos: unas sugieren enlaces para que un editor los apruebe y otras los añaden de forma automática y piden reglas cuidadas. Los precios son los de cada fabricante, en dólares estadounidenses, para un solo sitio, consultados el 26 de septiembre de 2026. Varias tienen descuentos de lanzamiento, así que compruébalo antes de comprar.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 148" role="img" aria-label="Dos tipos de herramienta: unas sugieren enlaces que tú revisas antes de publicarlos; otras los añaden solas a partir de tus reglas.">
+<text x="20" y="16" text-anchor="start" class="fg-label">Sugieren enlaces</text>
+<rect x="20" y="26" width="104" height="36" rx="6" class="fg-box"/>
+<text x="72" y="49" text-anchor="middle" class="fg-text">Sugerencia</text>
+<rect x="148" y="26" width="104" height="36" rx="6" class="fg-hot"/>
+<text x="200" y="49" text-anchor="middle" class="fg-text">Tu revisión</text>
+<rect x="276" y="26" width="104" height="36" rx="6" class="fg-box"/>
+<text x="328" y="49" text-anchor="middle" class="fg-text">Enlace</text>
+<line x1="126" y1="44" x2="142" y2="44" class="fg-line"/>
+<path d="M135 38 L143 44 L135 50" fill="none" class="fg-line"/>
+<line x1="254" y1="44" x2="270" y2="44" class="fg-line"/>
+<path d="M263 38 L271 44 L263 50" fill="none" class="fg-line"/>
+<text x="20" y="94" text-anchor="start" class="fg-label">Los añaden solas</text>
+<rect x="20" y="104" width="104" height="36" rx="6" class="fg-box"/>
+<text x="72" y="127" text-anchor="middle" class="fg-text">Tus reglas</text>
+<rect x="276" y="104" width="104" height="36" rx="6" class="fg-box"/>
+<text x="328" y="127" text-anchor="middle" class="fg-text">Enlace</text>
+<line x1="126" y1="122" x2="270" y2="122" class="fg-line"/>
+<path d="M263 116 L271 122 L263 128" fill="none" class="fg-line"/>
+</svg>
+<figcaption>En el primer grupo la calidad la pone tu revisión de cada enlace; en el segundo la ponen tus reglas, así que merece la pena escribirlas con cuidado.</figcaption>
+</figure>
+
 | Herramienta | Punto fuerte | Ideal para | Precio de entrada |
 |---|---|---|---|
 | [Link Whisper](https://linkwhisper.com/) | Sugerencias de enlaces mientras escribes | Sitios medianos y grandes | Ver la web del fabricante |

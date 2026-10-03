@@ -26,6 +26,29 @@ Saber qué persigue Google te dice dónde colocar a la persona en tu flujo. La a
 
 La consecuencia práctica es sencilla: la herramienta importa poco, y la revisión importa mucho. Una página que un experto ha leído, corregido y firmado cumple la regla, la haya empezado quien la haya empezado.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 124" role="img" aria-label="Lo empiece una persona, una máquina o ambas, la página pasa por la revisión de un experto antes de publicarse con su firma.">
+<line x1="110" y1="23" x2="150" y2="62" class="fg-line"/>
+<line x1="110" y1="62" x2="150" y2="62" class="fg-line"/>
+<line x1="110" y1="101" x2="150" y2="62" class="fg-line"/>
+<rect x="10" y="8" width="100" height="30" rx="6" class="fg-box"/>
+<text x="60" y="28" text-anchor="middle" class="fg-text">Persona</text>
+<rect x="10" y="47" width="100" height="30" rx="6" class="fg-box"/>
+<text x="60" y="67" text-anchor="middle" class="fg-text">Máquina</text>
+<rect x="10" y="86" width="100" height="30" rx="6" class="fg-box"/>
+<text x="60" y="106" text-anchor="middle" class="fg-text">Ambas</text>
+<rect x="150" y="38" width="124" height="48" rx="6" class="fg-hot"/>
+<text x="212" y="58" text-anchor="middle" class="fg-text">Revisión</text>
+<text x="212" y="76" text-anchor="middle" class="fg-label">de un experto</text>
+<line x1="276" y1="62" x2="298" y2="62" class="fg-line"/>
+<path d="M291 56 L299 62 L291 68" fill="none" class="fg-line"/>
+<rect x="304" y="38" width="86" height="48" rx="6" class="fg-box"/>
+<text x="347" y="58" text-anchor="middle" class="fg-text">Publica</text>
+<text x="347" y="76" text-anchor="middle" class="fg-label">con firma</text>
+</svg>
+<figcaption>La regla de Google mira el resultado: una página revisada, corregida y firmada por un experto cumple, la haya empezado quien la haya empezado.</figcaption>
+</figure>
+
 ## Investigación de palabras clave con IA que dibuja grupos temáticos completos
 
 Cubrir el tema entero gana hoy a perseguir un único término de mucho volumen. Las herramientas de IA para la [investigación de palabras clave en cada idioma](/es/services/posicionamiento-multilingue/) dibujan grupos temáticos completos, encuentran huecos de contenido y señalan pronto la demanda emergente.

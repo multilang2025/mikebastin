@@ -18,6 +18,26 @@ Tu web ya está traducida al francés, al alemán o al neerlandés, y cada versi
 
 El idioma es la capa de arriba. Debajo están las costumbres, los colores, el humor y las expectativas de cada cultura, y ahí es donde se gana la confianza del usuario. Llevamos más de dos décadas traduciendo y posicionando webs en varios idiomas; aquí tienes lo que más pesa y cómo trabajarlo mercado a mercado.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 214" role="img" aria-label="El idioma es la capa visible; debajo están las costumbres, los colores, el humor y las expectativas, donde se gana la confianza.">
+<rect x="20" y="6" width="260" height="34" rx="6" class="fg-box"/>
+<text x="150" y="28" text-anchor="middle" class="fg-text">Idioma</text>
+<text x="296" y="28" text-anchor="start" class="fg-label">a la vista</text>
+<line x1="10" y1="50" x2="390" y2="50" class="fg-dim" stroke-dasharray="4 4"/>
+<rect x="20" y="60" width="260" height="32" rx="6" class="fg-box"/>
+<text x="150" y="81" text-anchor="middle" class="fg-text">Costumbres</text>
+<rect x="20" y="98" width="260" height="32" rx="6" class="fg-box"/>
+<text x="150" y="119" text-anchor="middle" class="fg-text">Colores</text>
+<rect x="20" y="136" width="260" height="32" rx="6" class="fg-box"/>
+<text x="150" y="157" text-anchor="middle" class="fg-text">Humor</text>
+<rect x="20" y="174" width="260" height="32" rx="6" class="fg-box"/>
+<text x="150" y="195" text-anchor="middle" class="fg-text">Expectativas</text>
+<path d="M290 60 H300 V206 H290" class="fg-accent"/>
+<text x="310" y="138" text-anchor="start" class="fg-text">confianza</text>
+</svg>
+<figcaption>La traducción resuelve la capa de arriba. Las cuatro de abajo deciden si el comprador te ve como uno de los suyos, y se trabajan mercado a mercado.</figcaption>
+</figure>
+
 > El 65 % de los consumidores prefiere contenido en su idioma, aunque sea de baja calidad. En Alemania, el 57 % compra solo en webs en su idioma, el porcentaje más alto del estudio.
 >
 > Fuente: [CSA Research, «Can't Read, Won't Buy», 2020](https://csa-research.com/l/media/Consumers-Prefer-their-Own-Language)
