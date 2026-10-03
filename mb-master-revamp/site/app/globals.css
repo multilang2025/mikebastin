@@ -347,6 +347,19 @@ h1, h2, h3, .display {
   .mb-menu, .mb-menu-row { animation: none; }
 }
 
+/* Footer (owner, 3 Oct 2026: "too dull"). Column links read in ink and
+   turn raspberry on hover, so raspberry marks actions instead of every
+   word; the closing invitation sits on the teal brand colour in both
+   themes, with cream text (#F5EFE2, the dark theme's ink). */
+.flink { color: var(--ink); }
+.flink:hover { color: var(--berry); }
+.footer-cta { background: var(--deep); color: #F5EFE2; }
+.footer-cta-eyebrow { color: #F5EFE2; opacity: .78; }
+.footer-cta-dim { color: #F5EFE2; opacity: .82; }
+.footer-cta-link { color: #F5EFE2; text-decoration: underline; text-decoration-color: rgb(245 239 226 / .4); text-underline-offset: 4px; }
+.footer-cta-link:hover { text-decoration-color: currentColor; }
+.footer-cta .ulink::after { display: none; }
+
 /* Ambient light on the hero band only. Static since 3 Oct 2026: the
    declaudify brief removed every looping effect (shimmer, breathing glow,
    spinning rings); entrance animations stay and play once. */

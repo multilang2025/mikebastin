@@ -104,6 +104,12 @@ Before delivery, check the rendered homepage on desktop and mobile in both theme
   `none`, and `scripts/build-dl-art.mjs` turns the illustrations' loops into a
   single play. Scroll reveals are a short fade with a 10px lift, no blur.
 
+**Footer, 3 Oct 2026 (owner: "the footer is too dull"):** the closing
+invitation is a teal panel (`--deep`) with Mike's photo, "Discuss your project"
+and the email and phone set large; column links read in ink and turn raspberry
+on hover; column headings are serif; the address shows on every footer; a large
+static "Mike Bastin" wordmark ends the page.
+
 **Still to do (P2):** one dominant background and dark surfaces, two font
 families, "I" in Mike's founder story, named specialists and their roles (needs
 the owner's names), two attributed testimonials with source links, BASTIN as a
