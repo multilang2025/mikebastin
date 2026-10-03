@@ -18,6 +18,8 @@ import HeroArtSlot from "@/components/HeroArtSlot";
 // properties are labelled as ours rather than passed off as clients.
 const OWNED = new Set(["valenciamove", "betranslated", "matosurf"]);
 
+const WORDS = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten"];
+
 function toNumber(s: string) {
   return Number(s.replace(/,/g, ""));
 }
@@ -29,14 +31,18 @@ const WITH_SEARCH = PROJECTS.filter((p) => p.search).sort(
 const TOTAL_CLICKS = WITH_SEARCH.reduce((n, p) => n + toNumber(p.search!.clicks), 0);
 const TOTAL_IMPRESSIONS = WITH_SEARCH.reduce((n, p) => n + toNumber(p.search!.impressions), 0);
 const CLICKS = TOTAL_CLICKS.toLocaleString("en-GB");
+// Enquiries come first (owner, 3 Oct 2026: "the number of leads is more
+// important"), counted on the sites that keep a form record (lib/projects.ts).
+const WITH_LEADS = WITH_SEARCH.filter((p) => p.leads);
+const LEADS = WITH_LEADS.reduce((n, p) => n + toNumber(p.leads!.count), 0).toLocaleString("en-GB");
+const LEAD_SITES = WORDS[WITH_LEADS.length] ?? String(WITH_LEADS.length);
 const MILLIONS = (TOTAL_IMPRESSIONS / 1_000_000).toFixed(1);
-const WORDS = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten"];
 const SITE_COUNT = WORDS[WITH_SEARCH.length] ?? String(WITH_SEARCH.length);
 
 export const metadata: Metadata = {
   ...pageMeta({
     title: "Client results you can count, Mike Bastin",
-    description: `Live Search Console figures from ${SITE_COUNT} sites we run search for: ${CLICKS} clicks from ${MILLIONS} million impressions in three months, each with its case study.`,
+    description: `${LEADS} enquiries and ${CLICKS} Google clicks in three months across the client sites we run search for, each with its case study.`,
     path: "/results/",
   }),
 };
@@ -78,17 +84,21 @@ export default function ResultsPage() {
       <section className="band band-b py-[clamp(64px,9vw,128px)]">
         <div className="shell">
           <Reveal>
-            <p className="eyebrow mb-3">Three months of Google search</p>
-            <h2 className="mb-5 max-w-[22ch] text-[clamp(1.8rem,3.6vw,2.9rem)] font-semibold leading-[1.1]">
-              {CLICKS} clicks from {MILLIONS} million impressions.
+            <p className="eyebrow mb-3">Three months of enquiries and search</p>
+            <h2 className="mb-5 max-w-[24ch] text-[clamp(1.8rem,3.6vw,2.9rem)] font-semibold leading-[1.1]">
+              {LEADS} enquiries and {CLICKS} clicks from Google.
             </h2>
             <p className="mb-4 max-w-[56ch] text-[1.05rem]" style={{ color: "var(--dim)" }}>
               Across {SITE_COUNT} sites we run search for, from a Valencia law
               firm working in four languages to a Dutch powder coating
-              specialist. Open any row for the brief, the work and the outcome.
+              specialist, with {MILLIONS} million impressions behind the
+              clicks. Open any row for the brief, the work and the outcome.
             </p>
             <blockquote className="mb-12 max-w-[56ch] text-[.85rem]" style={{ color: "var(--dim)" }}>
-              Source: Google Search Console, May to July 2026.
+              Sources, May to July 2026: enquiries from the {LEAD_SITES} sites
+              that keep a record of their contact and quote forms, counted
+              from those records; clicks and impressions from Google Search
+              Console.
             </blockquote>
           </Reveal>
 
@@ -110,18 +120,20 @@ export default function ResultsPage() {
                     </span>
                   </span>
                   {[
+                    { v: p.leads?.count ?? "", k: p.leads ? p.leads.what : "" },
                     { v: p.search!.clicks, k: "Clicks" },
                     { v: p.search!.impressions, k: "Impressions" },
-                    { v: p.search!.position, k: "Avg. position" },
-                  ].map((m) => (
+                  ].map((m, mi) => (
                     // Sized so a seven-digit figure and its label each hold
                     // one line in a third of a 360px phone (owner, 3 Oct
                     // 2026: "2,399,56 / 7" broke across lines).
-                    <span key={m.k} className="flex min-w-0 flex-col gap-1">
+                    // An empty first cell keeps the columns aligned on a site
+                    // with no form record.
+                    <span key={mi} className="flex min-w-0 flex-col gap-1" aria-hidden={m.v ? undefined : true}>
                       <span className="display whitespace-nowrap text-[clamp(.98rem,4.4vw,1.2rem)] font-semibold leading-none tabular-nums" style={{ color: "var(--berry)" }}>
                         {m.v}
                       </span>
-                      <span className="whitespace-nowrap text-[.62rem] uppercase tracking-[.06em] sm:text-[.7rem] sm:tracking-[.12em]" style={{ color: "var(--dim)" }}>
+                      <span className="text-[.62rem] leading-tight sm:whitespace-nowrap uppercase tracking-[.06em] sm:text-[.7rem] sm:tracking-[.12em]" style={{ color: "var(--dim)" }}>
                         {m.k}
                       </span>
                     </span>

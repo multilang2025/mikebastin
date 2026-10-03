@@ -57,6 +57,15 @@ export type Project = {
   services: string[];
   /** Live GSC, May to July 2026. Absent where the property has no meaningful history yet. */
   search?: { clicks: string; impressions: string; position: string; note?: string };
+  /**
+   * Enquiries received through the client site's own forms over the same
+   * three months (owner, 3 Oct 2026: "the number of leads is more
+   * important"). Counted from the form records (Formidable entries, read 3
+   * Oct 2026), drafts and obvious spam left out. Absent where the site keeps
+   * no countable record: C21 Perdomo's headless front end posts its forms
+   * elsewhere, and ValenciaMove tracks no lead events.
+   */
+  leads?: { count: string; what: string };
   /** Path under /work/, omitted where no usable capture exists. */
   shot?: string;
 };
@@ -127,6 +136,7 @@ export const PROJECTS: Project[] = [
    "Local pack presence in Houston's industrial freight search.",
     services: ["Technical SEO", "Industry content", "Houston local search", "Tracking portal"],
     search: { clicks: "2,616", impressions: "764,222", position: "21.7", note: "May to July 2026" },
+    leads: { count: "341", what: "quote requests" },
     shot: `/work/tx-international-freight.webp?v=${SHOT_VERSION}`,
   },
   {
@@ -196,6 +206,7 @@ export const PROJECTS: Project[] = [
    "A Divi build and Dutch local SEO for a business that had traded on reputation alone for forty-five years.",
     services: ["Dutch local SEO", "Divi build", "B2B trade search"],
     search: { clicks: "1,436", impressions: "108,568", position: "28.1", note: "May to July 2026" },
+    leads: { count: "6", what: "enquiries" },
     shot: `/work/bemelman-spuiterij.webp?v=${SHOT_VERSION}`,
   },
   {
@@ -219,6 +230,7 @@ export const PROJECTS: Project[] = [
    "Four languages, two jurisdictions, multiple practice areas held to a legal accuracy bar.",
     services: ["Legal SEO", "Multilingual content", "Four languages", "Two jurisdictions"],
     search: { clicks: "38,476", impressions: "2,399,567", position: "9.4", note: "May to July 2026" },
+    leads: { count: "168", what: "enquiries" },
     shot: `/work/delaguia-y-luzon.webp?v=${SHOT_VERSION}`,
   },
   {

@@ -17,6 +17,7 @@ illustrations). No PR is open.
 | ID | Item | Where it shows |
 |---|---|---|
 | Q2 | Houston freight: the "doubled" claim. Quote Request form entries on txintlfreight.com (Formidable, read 2 Oct 2026): 405 in 2021, 662 in 2022, 847 in 2023, 1,029 in 2024, 1,023 in 2025, 1,058 to 1 Oct 2026. Raw submissions, spam not separated. Owner to give the engagement start date and say whether a figure may be published | `lib/projects.ts` `tx-international-freight` |
+| Q29 | Leads on `/results/` (owner, 3 Oct 2026: "the number of leads is more important"). Shown from form records, May to July 2026, spam left out: TX 341 quote requests, Delaguía 168 enquiries, Bemelman 6. C21 Perdomo (headless front end, no form record on the WordPress side; GA4 counts 184 conversions July to September, 67 of them from Paid Video on 139 sessions, which looks inflated) and ValenciaMove (no lead events in GA4) are blank. Owner to say: estimate them, connect lead tracking, or leave blank | `lib/projects.ts` `leads` |
 | Q5 | Dropped client figures: restore any (BeTranslated 68 %, Delaguía 42/27/34 %, Smartown 19/28 %, the 1,25 % to 11 % outreach test, two Business Profile cases)? | Spanish posts (dropped 30 Sep 2026) |
 
 ### Positioning and copy

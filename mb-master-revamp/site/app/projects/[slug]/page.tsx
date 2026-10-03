@@ -154,18 +154,23 @@ export default async function ProjectPage({
         <section className={`band ${project.shot ? "band-a" : "band-a"} py-[clamp(56px,8vw,110px)]`}>
           <div className="shell">
             <Reveal>
-              <p className="eyebrow mb-3">Live Search Console, {project.search.note}</p>
+              <p className="eyebrow mb-3">{project.search.note}</p>
               <h2 className="mb-8 max-w-[22ch] text-[clamp(1.7rem,3.2vw,2.5rem)] font-semibold leading-[1.12]">
-                What {project.name}&apos;s search data says
+                What {project.name}&apos;s enquiries and search data say
               </h2>
             </Reveal>
-            {/* One column on phones, three from 640px: auto-fit put two on a
-                phone and left a grey empty cell beside the third. */}
-            <div className="grid grid-cols-1 gap-px sm:grid-cols-3" style={{ background: "var(--rule)" }}>
+            {/* Enquiries first where the site keeps a form record (owner,
+                3 Oct 2026); average position left out for now. One column
+                on phones, then as many columns as figures, so no grey empty
+                cell is ever left in the grid. */}
+            <div
+              className={`grid grid-cols-1 gap-px ${project.leads ? "sm:grid-cols-3" : "sm:grid-cols-2"}`}
+              style={{ background: "var(--rule)" }}
+            >
               {[
-                { v: project.search.clicks, k: "Clicks" },
+                ...(project.leads ? [{ v: project.leads.count, k: project.leads.what.charAt(0).toUpperCase() + project.leads.what.slice(1) }] : []),
+                { v: project.search.clicks, k: "Clicks from Google" },
                 { v: project.search.impressions, k: "Impressions" },
-                { v: project.search.position, k: "Average position" },
               ].map((m, i) => (
                 <div key={m.k} className="band px-6 py-9" style={{ background: "var(--bg)" }}>
                   <Reveal i={i}>
