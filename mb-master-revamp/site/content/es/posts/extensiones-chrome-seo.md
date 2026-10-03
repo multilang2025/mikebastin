@@ -1,5 +1,5 @@
 ---
-words: 0
+words: 929
 title: "Extensiones de Chrome que se ganan su sitio en el trabajo de SEO"
 metaTitle: "Extensiones de Chrome para SEO: las diez que usamos"
 slug: "extensiones-chrome-seo"

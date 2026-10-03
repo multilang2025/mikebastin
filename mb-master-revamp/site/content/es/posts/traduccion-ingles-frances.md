@@ -1,5 +1,5 @@
 ---
-words: 0
+words: 2326
 title: "Traducción de inglés a francés: qué pedir a tu proveedor"
 slug: "traduccion-ingles-frances"
 locale: "es"

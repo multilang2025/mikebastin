@@ -1,5 +1,5 @@
 ---
-words: 0
+words: 1953
 title: "Cómo crear una estrategia de contenido segmentada"
 slug: "estrategia-de-contenido-segmentada"
 locale: "es"

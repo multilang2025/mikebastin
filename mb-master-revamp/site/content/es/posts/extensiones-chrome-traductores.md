@@ -1,5 +1,5 @@
 ---
-words: 2454
+words: 2457
 title: "Extensiones de Chrome para traductores y lo que te ahorra cada una"
 metaTitle: "Extensiones de Chrome para traductores: tiempo ganado"
 slug: "extensiones-chrome-traductores"

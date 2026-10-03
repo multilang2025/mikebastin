@@ -1,5 +1,5 @@
 ---
-words: 2415
+words: 2457
 title: "LLM alternativos a ChatGPT: diez modelos que conviene conocer"
 metaTitle: "LLM alternativos a ChatGPT: diez modelos a conocer"
 slug: "llm-alternativos"

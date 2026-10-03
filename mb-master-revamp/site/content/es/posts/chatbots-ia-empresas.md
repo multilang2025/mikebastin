@@ -1,5 +1,5 @@
 ---
-words: 0
+words: 2330
 title: "IA conversacional y chatbots en la empresa: 10 usos prácticos"
 metaTitle: "Chatbots de IA en la empresa: 10 usos prácticos"
 slug: "chatbots-ia-empresas"

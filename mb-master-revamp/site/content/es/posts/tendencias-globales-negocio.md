@@ -1,5 +1,5 @@
 ---
-words: 2676
+words: 2851
 title: "Tendencias globales de negocio: IA, aranceles y dónde está el crecimiento"
 metaTitle: "Tendencias de negocio 2026: IA, aranceles y crecimiento"
 slug: "tendencias-globales-negocio"

@@ -101,7 +101,7 @@ Le rançongiciel reste une menace majeure, et les attaques visant la chaîne d�
 La directive CSRD a produit ses premiers rapports de durabilité audités en 2025, pour les plus grandes entreprises d’intérêt public. Le calendrier a ensuite changé deux fois : la directive « stop-the-clock » d’avril 2025 a reporté de deux ans les vagues suivantes, puis la directive Omnibus I, en vigueur depuis le 18 mars 2026, a resserré le périmètre.
 
 > À partir des exercices ouverts le 1er janvier 2027, le reporting n’est obligatoire que pour les entreprises qui dépassent à la fois 450 millions d’euros de chiffre d’affaires net et 1 000 salariés en moyenne.
-> Source : [DLA Piper, « Corporate Sustainability Reporting Directive: amendments under Omnibus I finalised », 2026](https://knowledge.dlapiper.com/dlapiperknowledge/globalemploymentlatestdevelopments/2026/corporate-sustainability-reporting-directive-amendments-under-omnibus-i-finalised)
+> Source : [DLA Piper, « Corporate Sustainability Reporting Directive : amendments under Omnibus I finalised », 2026](https://knowledge.dlapiper.com/dlapiperknowledge/globalemploymentlatestdevelopments/2026/corporate-sustainability-reporting-directive-amendments-under-omnibus-i-finalised)
 
 Pour une PME ou une ETI qui vend à de grands groupes, les demandes de données de durabilité continuent d’arriver par la chaîne de valeur. Les entreprises qui y répondent par des rapports clairs et exploitables sortent du lot : de bons chiffres gagnent en crédibilité quand le rapport les présente dans un langage précis et concret, dans la langue de l’acheteur.
 

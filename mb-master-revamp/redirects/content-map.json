@@ -110,8 +110,18 @@
     "url": "https://mikebastin.com/15-simple-blog-post-ideas-to-help-attract-more-customers-to-your-business/",
     "content_path": "site/content/en/posts/15-simple-blog-post-ideas-to-help-attract-more-customers-to-your-business.md"
    },
-   "fr": null,
-   "es": null
+   "fr": {
+    "id": null,
+    "slug": "idees-articles-de-blog",
+    "url": "https://mikebastin.com/fr/idees-articles-de-blog/",
+    "content_path": "site/content/fr/posts/idees-articles-de-blog.md"
+   },
+   "es": {
+    "id": null,
+    "slug": "ideas-para-articulos-de-blog",
+    "url": "https://mikebastin.com/es/ideas-para-articulos-de-blog/",
+    "content_path": "site/content/es/posts/ideas-para-articulos-de-blog.md"
+   }
   },
   {
    "group": "g003",
@@ -128,8 +138,18 @@
     "url": "https://mikebastin.com/360-marketing-agency/",
     "content_path": "site/content/en/posts/360-marketing-agency.md"
    },
-   "fr": null,
-   "es": null
+   "fr": {
+    "id": null,
+    "slug": "agence-marketing-360",
+    "url": "https://mikebastin.com/fr/agence-marketing-360/",
+    "content_path": "site/content/fr/posts/agence-marketing-360.md"
+   },
+   "es": {
+    "id": null,
+    "slug": "agencia-marketing-360",
+    "url": "https://mikebastin.com/es/agencia-marketing-360/",
+    "content_path": "site/content/es/posts/agencia-marketing-360.md"
+   }
   },
   {
    "group": "g004",
@@ -202,8 +222,18 @@
     "url": "https://mikebastin.com/affiliate-marketing-programs/",
     "content_path": "site/content/en/posts/affiliate-marketing-programs.md"
    },
-   "fr": null,
-   "es": null
+   "fr": {
+    "id": null,
+    "slug": "programmes-affiliation",
+    "url": "https://mikebastin.com/fr/programmes-affiliation/",
+    "content_path": "site/content/fr/posts/programmes-affiliation.md"
+   },
+   "es": {
+    "id": null,
+    "slug": "programas-de-afiliados",
+    "url": "https://mikebastin.com/es/programas-de-afiliados/",
+    "content_path": "site/content/es/posts/programas-de-afiliados.md"
+   }
   },
   {
    "group": "g007",
@@ -395,8 +425,18 @@
     "url": "https://mikebastin.com/best-vietnam-sourcing-agencies-for-eudr-supplier-scouting-and-audits/",
     "content_path": "site/content/en/posts/best-vietnam-sourcing-agencies-for-eudr-supplier-scouting-and-audits.md"
    },
-   "fr": null,
-   "es": null
+   "fr": {
+    "id": null,
+    "slug": "agences-sourcing-vietnam-eudr",
+    "url": "https://mikebastin.com/fr/agences-sourcing-vietnam-eudr/",
+    "content_path": "site/content/fr/posts/agences-sourcing-vietnam-eudr.md"
+   },
+   "es": {
+    "id": null,
+    "slug": "agencias-sourcing-vietnam-eudr",
+    "url": "https://mikebastin.com/es/agencias-sourcing-vietnam-eudr/",
+    "content_path": "site/content/es/posts/agencias-sourcing-vietnam-eudr.md"
+   }
   },
   {
    "group": "g016",
@@ -505,8 +545,18 @@
     "url": "https://mikebastin.com/chrome-extensions-for-seo/",
     "content_path": "site/content/en/posts/chrome-extensions-for-seo.md"
    },
-   "fr": null,
-   "es": null
+   "fr": {
+    "id": null,
+    "slug": "extensions-chrome-seo",
+    "url": "https://mikebastin.com/fr/extensions-chrome-seo/",
+    "content_path": "site/content/fr/posts/extensions-chrome-seo.md"
+   },
+   "es": {
+    "id": null,
+    "slug": "extensiones-chrome-seo",
+    "url": "https://mikebastin.com/es/extensiones-chrome-seo/",
+    "content_path": "site/content/es/posts/extensiones-chrome-seo.md"
+   }
   },
   {
    "group": "g021",
@@ -523,8 +573,18 @@
     "url": "https://mikebastin.com/chrome-extensions-for-translators/",
     "content_path": "site/content/en/posts/chrome-extensions-for-translators.md"
    },
-   "fr": null,
-   "es": null
+   "fr": {
+    "id": null,
+    "slug": "extensions-chrome-traducteurs",
+    "url": "https://mikebastin.com/fr/extensions-chrome-traducteurs/",
+    "content_path": "site/content/fr/posts/extensions-chrome-traducteurs.md"
+   },
+   "es": {
+    "id": null,
+    "slug": "extensiones-chrome-traductores",
+    "url": "https://mikebastin.com/es/extensiones-chrome-traductores/",
+    "content_path": "site/content/es/posts/extensiones-chrome-traductores.md"
+   }
   },
   {
    "group": "g022",
@@ -587,7 +647,12 @@
     "url": "https://mikebastin.com/competitor-analysis/",
     "content_path": "site/content/en/posts/competitor-analysis.md"
    },
-   "fr": null,
+   "fr": {
+    "id": null,
+    "slug": "analyse-concurrentielle-seo",
+    "url": "https://mikebastin.com/fr/analyse-concurrentielle-seo/",
+    "content_path": "site/content/fr/posts/analyse-concurrentielle-seo.md"
+   },
    "es": {
     "id": 24855788,
     "slug": "analisis-competitivo-seo",
@@ -656,8 +721,18 @@
     "url": "https://mikebastin.com/conversational-ai-chatbots-business/",
     "content_path": "site/content/en/posts/conversational-ai-chatbots-business.md"
    },
-   "fr": null,
-   "es": null
+   "fr": {
+    "id": null,
+    "slug": "chatbots-ia-entreprise",
+    "url": "https://mikebastin.com/fr/chatbots-ia-entreprise/",
+    "content_path": "site/content/fr/posts/chatbots-ia-entreprise.md"
+   },
+   "es": {
+    "id": null,
+    "slug": "chatbots-ia-empresas",
+    "url": "https://mikebastin.com/es/chatbots-ia-empresas/",
+    "content_path": "site/content/es/posts/chatbots-ia-empresas.md"
+   }
   },
   {
    "group": "g028",
@@ -692,8 +767,18 @@
     "url": "https://mikebastin.com/digital-marketing-advisor/",
     "content_path": "site/content/en/posts/digital-marketing-advisor.md"
    },
-   "fr": null,
-   "es": null
+   "fr": {
+    "id": null,
+    "slug": "conseiller-marketing-digital",
+    "url": "https://mikebastin.com/fr/conseiller-marketing-digital/",
+    "content_path": "site/content/fr/posts/conseiller-marketing-digital.md"
+   },
+   "es": {
+    "id": null,
+    "slug": "asesor-marketing-digital",
+    "url": "https://mikebastin.com/es/asesor-marketing-digital/",
+    "content_path": "site/content/es/posts/asesor-marketing-digital.md"
+   }
   },
   {
    "group": "g030",
@@ -710,8 +795,18 @@
     "url": "https://mikebastin.com/eeat-vs-aeat-typo/",
     "content_path": "site/content/en/posts/eeat-vs-aeat-typo.md"
    },
-   "fr": null,
-   "es": null
+   "fr": {
+    "id": null,
+    "slug": "eeat-ou-aeat",
+    "url": "https://mikebastin.com/fr/eeat-ou-aeat/",
+    "content_path": "site/content/fr/posts/eeat-ou-aeat.md"
+   },
+   "es": {
+    "id": null,
+    "slug": "eeat-o-aeat",
+    "url": "https://mikebastin.com/es/eeat-o-aeat/",
+    "content_path": "site/content/es/posts/eeat-o-aeat.md"
+   }
   },
   {
    "group": "g031",
@@ -728,8 +823,18 @@
     "url": "https://mikebastin.com/email-marketing-hacks-boosting-open-rates-and-conversions/",
     "content_path": "site/content/en/posts/email-marketing-hacks-boosting-open-rates-and-conversions.md"
    },
-   "fr": null,
-   "es": null
+   "fr": {
+    "id": null,
+    "slug": "emailing-taux-ouverture-conversions",
+    "url": "https://mikebastin.com/fr/emailing-taux-ouverture-conversions/",
+    "content_path": "site/content/fr/posts/emailing-taux-ouverture-conversions.md"
+   },
+   "es": {
+    "id": null,
+    "slug": "email-marketing-tasa-apertura-conversiones",
+    "url": "https://mikebastin.com/es/email-marketing-tasa-apertura-conversiones/",
+    "content_path": "site/content/es/posts/email-marketing-tasa-apertura-conversiones.md"
+   }
   },
   {
    "group": "g032",
@@ -746,8 +851,18 @@
     "url": "https://mikebastin.com/english-to-french-translation-services/",
     "content_path": "site/content/en/posts/english-to-french-translation-services.md"
    },
-   "fr": null,
-   "es": null
+   "fr": {
+    "id": null,
+    "slug": "traduction-anglais-francais",
+    "url": "https://mikebastin.com/fr/traduction-anglais-francais/",
+    "content_path": "site/content/fr/posts/traduction-anglais-francais.md"
+   },
+   "es": {
+    "id": null,
+    "slug": "traduccion-ingles-frances",
+    "url": "https://mikebastin.com/es/traduccion-ingles-frances/",
+    "content_path": "site/content/es/posts/traduccion-ingles-frances.md"
+   }
   },
   {
    "group": "g033",
@@ -2863,8 +2978,18 @@
     "url": "https://mikebastin.com/french-ppc-campaign/",
     "content_path": "site/content/en/posts/french-ppc-campaign.md"
    },
-   "fr": null,
-   "es": null
+   "fr": {
+    "id": null,
+    "slug": "campagne-google-ads-france",
+    "url": "https://mikebastin.com/fr/campagne-google-ads-france/",
+    "content_path": "site/content/fr/posts/campagne-google-ads-france.md"
+   },
+   "es": {
+    "id": null,
+    "slug": "campanas-google-ads-francia",
+    "url": "https://mikebastin.com/es/campanas-google-ads-francia/",
+    "content_path": "site/content/es/posts/campanas-google-ads-francia.md"
+   }
   },
   {
    "group": "g122",
@@ -2966,7 +3091,12 @@
     "url": "https://mikebastin.com/fr/nouvelles-tendances-du-secteur-des-affaires/",
     "content_path": "site/content/fr/posts/nouvelles-tendances-du-secteur-des-affaires.md"
    },
-   "es": null
+   "es": {
+    "id": null,
+    "slug": "tendencias-globales-negocio",
+    "url": "https://mikebastin.com/es/tendencias-globales-negocio/",
+    "content_path": "site/content/es/posts/tendencias-globales-negocio.md"
+   }
   },
   {
    "group": "g126",
@@ -3062,8 +3192,18 @@
     "url": "https://mikebastin.com/how-to-create-a-targeted-content-strategy/",
     "content_path": "site/content/en/posts/how-to-create-a-targeted-content-strategy.md"
    },
-   "fr": null,
-   "es": null
+   "fr": {
+    "id": null,
+    "slug": "strategie-de-contenu-ciblee",
+    "url": "https://mikebastin.com/fr/strategie-de-contenu-ciblee/",
+    "content_path": "site/content/fr/posts/strategie-de-contenu-ciblee.md"
+   },
+   "es": {
+    "id": null,
+    "slug": "estrategia-de-contenido-segmentada",
+    "url": "https://mikebastin.com/es/estrategia-de-contenido-segmentada/",
+    "content_path": "site/content/es/posts/estrategia-de-contenido-segmentada.md"
+   }
   },
   {
    "group": "g130",
@@ -3149,8 +3289,18 @@
     "url": "https://mikebastin.com/how-to-write-about-your-professional-background/",
     "content_path": "site/content/en/posts/how-to-write-about-your-professional-background.md"
    },
-   "fr": null,
-   "es": null
+   "fr": {
+    "id": null,
+    "slug": "rediger-parcours-professionnel",
+    "url": "https://mikebastin.com/fr/rediger-parcours-professionnel/",
+    "content_path": "site/content/fr/posts/rediger-parcours-professionnel.md"
+   },
+   "es": {
+    "id": null,
+    "slug": "redactar-trayectoria-profesional",
+    "url": "https://mikebastin.com/es/redactar-trayectoria-profesional/",
+    "content_path": "site/content/es/posts/redactar-trayectoria-profesional.md"
+   }
   },
   {
    "group": "g134",
@@ -3167,8 +3317,18 @@
     "url": "https://mikebastin.com/human-creator-economy/",
     "content_path": "site/content/en/posts/human-creator-economy.md"
    },
-   "fr": null,
-   "es": null
+   "fr": {
+    "id": null,
+    "slug": "economie-des-createurs",
+    "url": "https://mikebastin.com/fr/economie-des-createurs/",
+    "content_path": "site/content/fr/posts/economie-des-createurs.md"
+   },
+   "es": {
+    "id": null,
+    "slug": "economia-de-los-creadores",
+    "url": "https://mikebastin.com/es/economia-de-los-creadores/",
+    "content_path": "site/content/es/posts/economia-de-los-creadores.md"
+   }
   },
   {
    "group": "g135",
@@ -3185,8 +3345,18 @@
     "url": "https://mikebastin.com/internal-linking-tools/",
     "content_path": "site/content/en/posts/internal-linking-tools.md"
    },
-   "fr": null,
-   "es": null
+   "fr": {
+    "id": null,
+    "slug": "outils-maillage-interne",
+    "url": "https://mikebastin.com/fr/outils-maillage-interne/",
+    "content_path": "site/content/fr/posts/outils-maillage-interne.md"
+   },
+   "es": {
+    "id": null,
+    "slug": "herramientas-enlazado-interno",
+    "url": "https://mikebastin.com/es/herramientas-enlazado-interno/",
+    "content_path": "site/content/es/posts/herramientas-enlazado-interno.md"
+   }
   },
   {
    "group": "g136",
@@ -3257,8 +3427,18 @@
     "url": "https://mikebastin.com/law-firm-seo-services/",
     "content_path": "site/content/en/posts/law-firm-seo-services.md"
    },
-   "fr": null,
-   "es": null
+   "fr": {
+    "id": null,
+    "slug": "seo-cabinets-avocats",
+    "url": "https://mikebastin.com/fr/seo-cabinets-avocats/",
+    "content_path": "site/content/fr/posts/seo-cabinets-avocats.md"
+   },
+   "es": {
+    "id": null,
+    "slug": "seo-despachos-de-abogados",
+    "url": "https://mikebastin.com/es/seo-despachos-de-abogados/",
+    "content_path": "site/content/es/posts/seo-despachos-de-abogados.md"
+   }
   },
   {
    "group": "g140",
@@ -3298,8 +3478,18 @@
     "url": "https://mikebastin.com/link-selling-and-link-buying-platforms/",
     "content_path": "site/content/en/posts/link-selling-and-link-buying-platforms.md"
    },
-   "fr": null,
-   "es": null
+   "fr": {
+    "id": null,
+    "slug": "plateformes-achat-vente-liens",
+    "url": "https://mikebastin.com/fr/plateformes-achat-vente-liens/",
+    "content_path": "site/content/fr/posts/plateformes-achat-vente-liens.md"
+   },
+   "es": {
+    "id": null,
+    "slug": "plataformas-compraventa-enlaces",
+    "url": "https://mikebastin.com/es/plataformas-compraventa-enlaces/",
+    "content_path": "site/content/es/posts/plataformas-compraventa-enlaces.md"
+   }
   },
   {
    "group": "g142",
@@ -3352,8 +3542,18 @@
     "url": "https://mikebastin.com/llms-beyond-giants-hidden-ai-models/",
     "content_path": "site/content/en/posts/llms-beyond-giants-hidden-ai-models.md"
    },
-   "fr": null,
-   "es": null
+   "fr": {
+    "id": null,
+    "slug": "llm-alternatifs",
+    "url": "https://mikebastin.com/fr/llm-alternatifs/",
+    "content_path": "site/content/fr/posts/llm-alternatifs.md"
+   },
+   "es": {
+    "id": null,
+    "slug": "llm-alternativos",
+    "url": "https://mikebastin.com/es/llm-alternativos/",
+    "content_path": "site/content/es/posts/llm-alternativos.md"
+   }
   },
   {
    "group": "g145",
@@ -3370,7 +3570,12 @@
     "url": "https://mikebastin.com/localisation-testing-tools/",
     "content_path": "site/content/en/posts/localisation-testing-tools.md"
    },
-   "fr": null,
+   "fr": {
+    "id": null,
+    "slug": "outils-test-localisation",
+    "url": "https://mikebastin.com/fr/outils-test-localisation/",
+    "content_path": "site/content/fr/posts/outils-test-localisation.md"
+   },
    "es": {
     "id": 24857767,
     "slug": "herramientas-pruebas-de-localizacion",
@@ -3411,8 +3616,18 @@
     "url": "https://mikebastin.com/mastering-the-art-of-networking/",
     "content_path": "site/content/en/posts/mastering-the-art-of-networking.md"
    },
-   "fr": null,
-   "es": null
+   "fr": {
+    "id": null,
+    "slug": "art-du-networking",
+    "url": "https://mikebastin.com/fr/art-du-networking/",
+    "content_path": "site/content/fr/posts/art-du-networking.md"
+   },
+   "es": {
+    "id": null,
+    "slug": "arte-del-networking",
+    "url": "https://mikebastin.com/es/arte-del-networking/",
+    "content_path": "site/content/es/posts/arte-del-networking.md"
+   }
   },
   {
    "group": "g148",
@@ -3557,8 +3772,18 @@
     "url": "https://mikebastin.com/optimising-your-website-for-valencia-based-searches/",
     "content_path": "site/content/en/posts/optimising-your-website-for-valencia-based-searches.md"
    },
-   "fr": null,
-   "es": null
+   "fr": {
+    "id": null,
+    "slug": "referencement-local-valencia",
+    "url": "https://mikebastin.com/fr/referencement-local-valencia/",
+    "content_path": "site/content/fr/posts/referencement-local-valencia.md"
+   },
+   "es": {
+    "id": null,
+    "slug": "posicionamiento-web-valencia",
+    "url": "https://mikebastin.com/es/posicionamiento-web-valencia/",
+    "content_path": "site/content/es/posts/posicionamiento-web-valencia.md"
+   }
   },
   {
    "group": "g155",
@@ -3800,8 +4025,18 @@
     "url": "https://mikebastin.com/technical-seo-considerations-for-german-websites/",
     "content_path": "site/content/en/posts/technical-seo-considerations-for-german-websites.md"
    },
-   "fr": null,
-   "es": null
+   "fr": {
+    "id": null,
+    "slug": "seo-technique-allemagne",
+    "url": "https://mikebastin.com/fr/seo-technique-allemagne/",
+    "content_path": "site/content/fr/posts/seo-technique-allemagne.md"
+   },
+   "es": {
+    "id": null,
+    "slug": "seo-tecnico-alemania",
+    "url": "https://mikebastin.com/es/seo-tecnico-alemania/",
+    "content_path": "site/content/es/posts/seo-tecnico-alemania.md"
+   }
   },
   {
    "group": "g166",

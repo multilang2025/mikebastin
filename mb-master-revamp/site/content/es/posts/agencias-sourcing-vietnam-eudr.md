@@ -1,5 +1,5 @@
 ---
-words: 2698
+words: 2720
 title: "Agencias de sourcing en Vietnam para el EUDR: búsqueda de proveedores y auditorías"
 metaTitle: "Agencias de sourcing en Vietnam para el EUDR y auditorías"
 slug: "agencias-sourcing-vietnam-eudr"
@@ -13,7 +13,7 @@ sourceUrl: null
 excerpt: "¿Importas de Vietnam y llega el EUDR en diciembre? Siete agencias para buscar y auditar proveedores, y cómo salvar la barrera del idioma en cada auditoría."
 ---
 
-Compras caucho, café, madera o muebles en Vietnam, y a partir del 30 de diciembre de 2026 un importador grande o mediano de la UE tiene que demostrar dónde se cultivó cada materia prima antes de poner la mercancía a la venta. Tus proveedores son de confianza; el trabajo ahora es llevar su documentación al mismo nivel, y buena parte de las pruebas está en manos de pequeños productores y transformadores que tu equipo aún no conoce.
+Compras caucho, café, madera o muebles en Vietnam, y a partir del 30 de diciembre de 2026 un importador grande o mediano de la UE tiene que demostrar dónde se cultivó cada materia prima antes de poner la mercancía a la venta. Tus proveedores son de confianza; el trabajo ahora es llevar su documentación al mismo nivel, y buena parte de las pruebas está en manos de pequeños productores y procesadores que tu equipo aún no conoce.
 
 Empezar ya mantiene cada envío vendible en la UE, entre por Valencia, Barcelona o Algeciras. A continuación: qué te pide el Reglamento europeo sobre deforestación (EUDR) y cuándo, qué supone trazar una cadena de suministro vietnamita, siete agencias y asesores que pueden hacer el trabajo de campo, y el factor que decide muchas auditorías: el idioma.
 
@@ -130,7 +130,7 @@ El uso creciente en Vietnam de un sourcing certificado, como la madera FSC y el 
 
 La respuesta que decide el cumplimiento suele darse en vietnamita, así que una auditoría necesita en la sala a alguien que la entienda. El cumplimiento del EUDR se presenta como un problema de sourcing y un problema de auditoría. Ambos son reales. Tras más de dos décadas en traducción y servicios lingüísticos, nosotros añadimos un tercero: es una cuestión de idioma.
 
-Las conversaciones que deciden si un proveedor supera la diligencia debida tienen lugar entre responsables de cumplimiento europeos y gerentes de plantación, pequeños productores, transformadores y funcionarios vietnamitas. Muchos de ellos trabajan solo en vietnamita, en sus variantes regionales y a veces en lenguas minoritarias de las Tierras Altas Centrales o del delta del Mekong.
+Las conversaciones que deciden si un proveedor supera la diligencia debida tienen lugar entre responsables de cumplimiento europeos y gerentes de plantación, pequeños productores, procesadores y funcionarios vietnamitas. Muchos de ellos trabajan solo en vietnamita, en sus variantes regionales y a veces en lenguas minoritarias de las Tierras Altas Centrales o del delta del Mekong.
 
 Un intérprete cualificado permite a tu auditor hablar con la persona que sabe de dónde vienen el caucho, el café o el cacao, que suele ser alguien distinto de quien mejor habla inglés en la cadena. Las auditorías más sólidas que vemos combinan un consultor de sourcing con un intérprete de vietnamita a español o a inglés que domina la terminología de la cadena de suministro y la agricultura. El coste es pequeño frente a lo que protege: todo un expediente de diligencia debida puede depender de un término sobre la tenencia de la tierra o las fechas de cosecha.
 

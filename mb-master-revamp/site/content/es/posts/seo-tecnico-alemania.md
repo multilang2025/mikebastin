@@ -1,5 +1,5 @@
 ---
-words: 1891
+words: 1899
 title: "SEO técnico para webs en alemán: los ajustes que venden en Alemania"
 metaTitle: "SEO técnico para webs en alemán: los ajustes clave"
 slug: "seo-tecnico-alemania"
@@ -54,7 +54,7 @@ Usa cada palabra clave una vez, para tener URL ordenadas. Un `/deutschland-reise
 
 Una estructura previsible ayuda a los compradores a orientarse en una web grande, sobre todo en comercio electrónico. Los usuarios alemanes la prefieren clara y lógica: `/produkte/haushaltsgeraete/waschmaschinen` los guía al navegar y muestra a los buscadores cómo se relacionan las secciones.
 
-## Hreflang para Alemania, Austria y Suiza
+## Hreflang por país en la zona germanohablante
 
 Si vendes en Alemania, Austria y Suiza, unas etiquetas hreflang correctas muestran a cada país su versión regional: precios suizos para el comprador suizo, precios alemanes para el alemán, y cada página posicionada en su propio mercado.
 

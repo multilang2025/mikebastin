@@ -1,7 +1,7 @@
 ---
-words: 0
+words: 1075
 title: "Outils de maillage interne et extensions WordPress à installer"
-metaTitle: "Outils de maillage interne : extensions WordPress comparées"
+metaTitle: "Outils de maillage interne : extensions WordPress comparées"
 slug: "outils-maillage-interne"
 locale: "fr"
 type: "posts"
@@ -10,12 +10,12 @@ wpId: null
 date: "2026-10-03"
 modified: "2026-10-03"
 sourceUrl: null
-excerpt: "Des nouvelles pages trouvées vite : six outils de maillage interne et extensions WordPress comparés, de Link Whisper à Link Manager, prix compris."
+excerpt: "Des nouvelles pages trouvées vite : six outils de maillage interne et extensions WordPress comparés, de Link Whisper à Link Manager, prix compris."
 ---
 
 Vous publiez une nouvelle page solide, et elle est lue dès que le reste de votre site pointe vers elle. Sur un site WordPress de plusieurs centaines d’articles, souvent décliné en français, en anglais et en espagnol pour vos marchés étrangers, un outil tient ces liens à jour plus vite qu’une édition à la main, et relie les pages que vous voulez faire trouver en priorité.
 
-Voici six outils de maillage interne et extensions WordPress comparés : le point fort de chacun, son prix, et la façon de choisir entre eux.
+Voici six outils de maillage interne et extensions WordPress comparés : le point fort de chacun, son prix, et la façon de choisir entre eux.
 
 ## Pourquoi le maillage interne compte
 
@@ -28,7 +28,7 @@ Les liens entre vos propres pages indiquent aux moteurs quelles pages comptent, 
 
 ## Les outils comparés
 
-Les outils se répartissent en deux familles : les uns suggèrent des liens qu’un rédacteur valide, les autres les ajoutent automatiquement et demandent des règles soignées. Les prix sont ceux des éditeurs, en dollars américains, pour un seul site, relevés le 26 septembre 2026. Plusieurs proposent des remises de lancement : vérifiez avant d’acheter.
+Les outils se répartissent en deux familles : les uns suggèrent des liens qu’un rédacteur valide, les autres les ajoutent automatiquement et demandent des règles soignées. Les prix sont ceux des éditeurs, en dollars américains, pour un seul site, relevés le 26 septembre 2026. Plusieurs proposent des remises de lancement : vérifiez avant d’acheter.
 
 | Outil | Point fort | Idéal pour | Prix d’entrée |
 |---|---|---|---|
@@ -61,18 +61,18 @@ Les outils se répartissent en deux familles : les uns suggèrent des liens qu�
 
 ### Link Manager (anciennement Interlinks Manager et Autolinks Manager)
 
-DAEXT a réuni ses extensions [Interlinks Manager](https://wordpress.org/plugins/daext-interlinks-manager/) et [Autolinks Manager](https://daext.com/autolinks-manager/) en un seul produit, Link Manager. Il associe l’analyse des liens internes, le suivi de la répartition de l’autorité et le suivi des clics à des règles de liens automatiques souples, une configuration des mots-clés en masse et un contrôle des statuts HTTP. Réglez les règles avec soin pour garder un maillage mesuré. DAEXT vend trois licences annuelles : [Personal, un site, 59 dollars](https://daext.com/?daextcomm-action=create-checkout-session&product_id=1), [Freelance, cinq sites, 99 dollars](https://daext.com/?daextcomm-action=create-checkout-session&product_id=2) et [Agency, 25 sites, 149 dollars](https://daext.com/?daextcomm-action=create-checkout-session&product_id=6).
+DAEXT a réuni ses extensions [Interlinks Manager](https://wordpress.org/plugins/daext-interlinks-manager/) et [Autolinks Manager](https://daext.com/autolinks-manager/) en un seul produit, Link Manager. Il associe l’analyse des liens internes, le suivi de la répartition de l’autorité et le suivi des clics à des règles de liens automatiques souples, une configuration des mots-clés en masse et un contrôle des statuts HTTP. Réglez les règles avec soin pour garder un maillage mesuré. DAEXT vend trois licences annuelles : [Personal, un site, 59 dollars](https://daext.com/?daextcomm-action=create-checkout-session&product_id=1), [Freelance, cinq sites, 99 dollars](https://daext.com/?daextcomm-action=create-checkout-session&product_id=2) et [Agency, 25 sites, 149 dollars](https://daext.com/?daextcomm-action=create-checkout-session&product_id=6).
 
 ## Comment choisir
 
 Choisissez selon le problème à résoudre.
 
-- **Des suggestions pendant la rédaction :** Link Whisper ou Linkilo.
-- **L’analyse sémantique et les silos :** LinkBoss ou Linksy.
-- **Une automatisation simple et peu coûteuse :** Internal Link Juicer.
-- **Des liens d’affiliation ou de produits avec suivi des clics :** Link Manager.
+- **Des suggestions pendant la rédaction :** Link Whisper ou Linkilo.
+- **L’analyse sémantique et les silos :** LinkBoss ou Linksy.
+- **Une automatisation simple et peu coûteuse :** Internal Link Juicer.
+- **Des liens d’affiliation ou de produits avec suivi des clics :** Link Manager.
 
-La plupart de ces outils proposent une version gratuite, un essai ou une garantie de remboursement : testez-en un sur vos propres contenus avant de vous engager.
+La plupart de ces outils proposent une version gratuite, un essai ou une garantie de remboursement : testez-en un sur vos propres contenus avant de vous engager.
 
 ## Bien utiliser un outil de maillage interne
 
@@ -84,10 +84,10 @@ Des règles soignées font la rentabilité d’un outil.
 4. **Répartissez vos liens.** Pointez vers un large éventail de pages, au-delà de la page d’accueil et de quelques pages populaires.
 5. **Écrivez des ancres descriptives.** L’ancre indique au lecteur le sujet de la page liée.
 6. **Consultez les rapports.** Corrigez les liens cassés et les contenus orphelins dès qu’ils apparaissent.
-7. **Gardez chaque langue dans sa langue.** Sur un site multilingue, faites pointer les liens internes de chaque version vers des pages de la même langue, pour que le lecteur espagnol reste en espagnol ; notre article sur le [SEO technique d’un site multilingue](/fr/seo-technique-site-multilingue/) détaille ces réglages.
+7. **Gardez chaque langue dans sa langue.** Sur un site multilingue, faites pointer les liens internes de chaque version vers des pages de la même langue, pour que le lecteur espagnol reste en espagnol ; notre article sur le [SEO technique d’un site multilingue](/fr/seo-technique-site-multilingue/) détaille ces réglages.
 
 <aside class="post-cta">
-<p><strong>Vous voulez que la bonne page se positionne sur chaque requête ?</strong> Sur un site multilingue, la cause habituelle est deux pages qui se partagent une même requête, et notre <a href="/fr/services/seo-technique/">SEO technique</a> oriente vos liens internes vers celle qui doit se positionner. <a href="/fr/nous-contacter/">Réservez un premier échange</a>.</p>
+<p><strong>Vous voulez que la bonne page se positionne sur chaque requête ?</strong> Sur un site multilingue, la cause habituelle est deux pages qui se partagent une même requête, et notre <a href="/fr/services/seo-technique/">SEO technique</a> oriente vos liens internes vers celle qui doit se positionner. <a href="/fr/nous-contacter/">Réservez un premier échange</a>.</p>
 </aside>
 
 ## Par où commencer

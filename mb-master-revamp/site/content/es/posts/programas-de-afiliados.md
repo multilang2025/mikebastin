@@ -1,5 +1,5 @@
 ---
-words: 0
+words: 1743
 title: "Programas de afiliados que compensan el tiempo de configuración"
 metaTitle: "Programas de afiliados que compensan la configuración"
 slug: "programas-de-afiliados"

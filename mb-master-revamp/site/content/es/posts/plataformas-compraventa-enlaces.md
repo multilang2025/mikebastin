@@ -1,5 +1,5 @@
 ---
-words: 0
+words: 1913
 title: "Plataformas de compraventa de enlaces: la lista comentada"
 slug: "plataformas-compraventa-enlaces"
 locale: "es"

@@ -62,7 +62,7 @@ Le paiement est l’étape où la localisation se transforme directement en chif
 | France | Wero | Carte Bancaire |
 
 > Wero a remplacé Paylib à l’automne 2024 pour les virements entre particuliers, et déploie son paiement en ligne auprès des commerçants d’ici 2026 ; le paiement en magasin est prévu pour 2027.
-> Source : [Stripe, « Wero: A new payment service in France », mis à jour le 6 avril 2026](https://stripe.com/resources/more/wero-guide-france)
+> Source : [Stripe, « Wero : A new payment service in France », mis à jour le 6 avril 2026](https://stripe.com/resources/more/wero-guide-france)
 
 Proposer les moyens de paiement auxquels chaque marché fait confiance fluidifie les transactions et fait monter les taux de conversion.
 

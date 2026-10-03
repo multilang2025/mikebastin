@@ -1,5 +1,5 @@
 ---
-words: 0
+words: 1687
 title: "Cómo redactar tu trayectoria profesional en marketing digital"
 metaTitle: "Cómo redactar tu trayectoria profesional en marketing"
 slug: "redactar-trayectoria-profesional"

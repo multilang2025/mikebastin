@@ -1,5 +1,5 @@
 ---
-words: 0
+words: 2310
 title: "Asesor de marketing digital o agencia: qué necesita tu empresa"
 metaTitle: "Asesor de marketing digital o agencia: cuál elegir"
 slug: "asesor-marketing-digital"

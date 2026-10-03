@@ -1,5 +1,5 @@
 ---
-words: 0
+words: 1155
 title: "Email marketing: más aperturas y más conversiones"
 slug: "email-marketing-tasa-apertura-conversiones"
 locale: "es"

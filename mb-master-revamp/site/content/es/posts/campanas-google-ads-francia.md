@@ -1,5 +1,5 @@
 ---
-words: 1840
+words: 1857
 title: "Cómo crear la campaña de Google Ads perfecta para Francia"
 slug: "campanas-google-ads-francia"
 locale: "es"

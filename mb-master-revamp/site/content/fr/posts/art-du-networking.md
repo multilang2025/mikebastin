@@ -1,6 +1,6 @@
 ---
-words: 1301
-title: "L’art du networking : stratégies pour jeunes professionnels"
+words: 1396
+title: "L’art du networking : stratégies pour jeunes professionnels"
 slug: "art-du-networking"
 locale: "fr"
 type: "posts"
@@ -14,11 +14,11 @@ excerpt: "Les meilleurs postes et clients vont souvent à une personne déjà co
 
 Dans le marketing digital, les meilleurs postes et les meilleurs clients reviennent souvent à quelqu’un qu’un décideur connaît déjà. En début de carrière, votre CV parle pour vous, alors que les personnes qui décrochent ces postes arrivent avec une recommandation. Le meilleur moment pour commencer à réunir vos propres recommandations, c’est maintenant, surtout si votre entreprise vend déjà en Espagne, au Benelux, en Allemagne ou au Royaume-Uni et que vos interlocuteurs se trouvent dans plusieurs pays.
 
-Le networking est la façon de les obtenir : bâtir des relations qui vous apportent des apprentissages, des clients et des projets. Voici les canaux qui méritent votre temps, la façon de préparer une rencontre et d’en assurer le suivi, les outils qui gardent un réseau organisé, et la manière d’aborder les moments délicats.
+Le networking est la façon de les obtenir : bâtir des relations qui vous apportent des apprentissages, des clients et des projets. Voici les canaux qui méritent votre temps, la façon de préparer une rencontre et d’en assurer le suivi, les outils qui gardent un réseau organisé, et la manière d’aborder les moments délicats.
 
 ## Où les jeunes marketeurs trouvent des occasions de networking
 
-Votre temps est compté : choisissez les canaux qui correspondent à votre objectif. Deux ou trois suffisent à la plupart des gens.
+Votre temps est compté : choisissez les canaux qui correspondent à votre objectif. Deux ou trois suffisent à la plupart des gens.
 
 | Canal | Idéal pour | Effort | Pour bien l’utiliser |
 |---|---|---|---|
@@ -29,13 +29,13 @@ Votre temps est compté : choisissez les canaux qui correspondent à votre objec
 | **Meetup** | Petits groupes locaux autour d’un sujet | Moyen | Venez régulièrement pour que les visages deviennent familiers |
 | **Eventbrite** | Conférences et ateliers de toutes tailles | Moyen | Filtrez par sujet, essayez le présentiel et le virtuel |
 
-Conférences, webinaires et ateliers donnent l’accès le plus direct aux profils seniors. Si l’Espagne fait partie de vos marchés, notre guide des [salons B2B de Valencia](https://valenciamove.com/blog/b2b-trade-shows-valencia/) recense des événements qui valent une journée hors du bureau. Les canaux en ligne récompensent la régularité : un commentaire réfléchi sur LinkedIn peut ouvrir une conversation avec quelqu’un à Munich, et une présence régulière dans une seule communauté Slack rapporte davantage que des passages occasionnels dans dix.
+Conférences, webinaires et ateliers donnent l’accès le plus direct aux profils seniors. Si l’Espagne fait partie de vos marchés, notre guide des [salons B2B de Valencia](https://valenciamove.com/blog/b2b-trade-shows-valencia/) recense des événements qui valent une journée hors du bureau. Les canaux en ligne récompensent la régularité : un commentaire réfléchi sur LinkedIn peut ouvrir une conversation avec quelqu’un à Munich, et une présence régulière dans une seule communauté Slack rapporte davantage que des passages occasionnels dans dix.
 
-Meetup convient aux petits groupes locaux réunis autour d’un intérêt, Eventbrite aux conférences et ateliers plus importants. Une fois que vous connaissez un groupe, pensez à organiser vous-même un événement : l’organisateur rencontre tout le monde.
+Meetup convient aux petits groupes locaux réunis autour d’un intérêt, Eventbrite aux conférences et ateliers plus importants. Une fois que vous connaissez un groupe, pensez à organiser vous-même un événement : l’organisateur rencontre tout le monde.
 
 ## Construire une image personnelle dont les gens se souviennent
 
-Les gens vous cherchent en ligne avant de vous répondre. Ce qu’ils trouvent décide si la conversation a lieu : une présence en ligne réfléchie vous fait passer d’un visage parmi d’autres à une voix reconnue.
+Les gens vous cherchent en ligne avant de vous répondre. Ce qu’ils trouvent décide si la conversation a lieu : une présence en ligne réfléchie vous fait passer d’un visage parmi d’autres à une voix reconnue.
 
 ### Un profil LinkedIn qui raconte une histoire
 
@@ -43,11 +43,11 @@ Traitez votre profil LinkedIn comme le récit de votre carrière. Décrivez des 
 
 ### Un point d’ancrage que vous maîtrisez
 
-Un site personnel est le seul endroit où vous fixez les règles. Servez-vous-en pour montrer votre façon de penser autant que vos réalisations : études de cas, blog court, portfolio qui donne vie au travail.
+Un site personnel est le seul endroit où vous fixez les règles. Servez-vous-en pour montrer votre façon de penser autant que vos réalisations : études de cas, blog court, portfolio qui donne vie au travail.
 
 ### Une voix qui mérite d’être suivie
 
-Partager les contenus des autres vous rend visible ; dire quelque chose d’utile vous rend mémorable. Donnez des avis réfléchis sur ce dont votre secteur débat, partagez les enseignements de ce qui a fonctionné et de ce que vous feriez autrement, et créez des contenus qui répondent aux questions que votre réseau se pose réellement. Passer de participant à contributeur, voilà ce qui pousse les gens à venir vers vous, un thème que nous développons dans notre article sur [une économie des créateurs plus humaine](/fr/economie-des-createurs/).
+Partager les contenus des autres vous rend visible ; dire quelque chose d’utile vous rend mémorable. Donnez des avis réfléchis sur ce dont votre secteur débat, partagez les enseignements de ce qui a fonctionné et de ce que vous feriez autrement, et créez des contenus qui répondent aux questions que votre réseau se pose réellement. Passer de participant à contributeur, voilà ce qui pousse les gens à venir vers vous, un thème que nous développons dans notre article sur [une économie des créateurs plus humaine](/fr/economie-des-createurs/).
 
 ## Des stratégies de networking qui fonctionnent en personne et en ligne
 
@@ -73,7 +73,7 @@ Le networking porte ses fruits dans ce qui se passe après la première rencontr
 <text x="250" y="114" text-anchor="middle" class="fg-label">sous 24 h</text>
 <text x="350" y="114" text-anchor="middle" class="fg-label">pendant des années</text>
 </svg>
-<figcaption>La relation se construit dans les deux dernières étapes : c’est là que le networking devient un réseau.</figcaption>
+<figcaption>La relation se construit dans les deux dernières étapes : c’est là que le networking devient un réseau.</figcaption>
 </figure>
 
 ### Préparez chaque événement
@@ -82,15 +82,15 @@ La préparation transforme une conversation de politesse en échange dont l’au
 
 ### Engagez la conversation avec naturel
 
-Les gens répondent volontiers à une approche sincère. Arrivez avec quelque chose d’utile à dire : une question pertinente, une relation commune, une remarque sur l’argument de l’intervenant. Le but est un dialogue que vous avez tous deux envie de poursuivre.
+Les gens répondent volontiers à une approche sincère. Arrivez avec quelque chose d’utile à dire : une question pertinente, une relation commune, une remarque sur l’argument de l’intervenant. Le but est un dialogue que vous avez tous deux envie de poursuivre.
 
 ### Relancez dans les 24 heures
 
-Un jour plus tard, la personne se souvient encore clairement de vous : c’est le moment d’écrire. Dans les 24 heures, envoyez un message personnel qui reprend un point précis de votre conversation, et connectez-vous sur LinkedIn. Écrivez dans la langue dans laquelle vous avez échangé, en français, en anglais ou en espagnol : le message paraît alors la suite naturelle de la rencontre.
+Un jour plus tard, la personne se souvient encore clairement de vous : c’est le moment d’écrire. Dans les 24 heures, envoyez un message personnel qui reprend un point précis de votre conversation, et connectez-vous sur LinkedIn. Écrivez dans la langue dans laquelle vous avez échangé, en français, en anglais ou en espagnol : le message paraît alors la suite naturelle de la rencontre.
 
 ### Continuez à apporter de la valeur
 
-Partagez des analyses qui rejoignent ses centres d’intérêt, félicitez-la pour ses réussites, présentez-lui les personnes qu’elle devrait connaître. Les gens aident ceux qui les ont aidés en premier : soyez la personne qui apporte de la valeur avec constance, pendant les mois calmes comme pendant les mois chargés.
+Partagez des analyses qui rejoignent ses centres d’intérêt, félicitez-la pour ses réussites, présentez-lui les personnes qu’elle devrait connaître. Les gens aident ceux qui les ont aidés en premier : soyez la personne qui apporte de la valeur avec constance, pendant les mois calmes comme pendant les mois chargés.
 
 ## Les outils numériques qui gardent un réseau organisé
 
@@ -106,20 +106,20 @@ Un réseau dont vous gardez la trace continue de grandir. Quelques outils mainti
 Quel que soit le CRM choisi, cherchez l’étiquetage des contacts, l’historique des échanges et les rappels, pour voir d’un coup d’œil à qui écrire après six mois de silence. La synchronisation avec les réseaux sociaux épargne des heures de mise à jour manuelle.
 
 <aside class="post-cta">
-<p><strong>Vous voulez savoir quel marché vous envoie chaque demande reçue par votre site ?</strong> Nos <a href="/fr/services/referencement-multilingue/">programmes de référencement multilingue</a> mesurent les demandes que chaque marché et chaque langue apportent à votre équipe. <a href="/fr/nous-contacter/">Réservez un premier échange</a>.</p>
+<p><strong>Vous voulez savoir quel marché vous envoie chaque demande reçue par votre site ?</strong> Nos <a href="/fr/services/referencement-multilingue/">programmes de référencement multilingue</a> mesurent les demandes que chaque marché et chaque langue apportent à votre équipe. <a href="/fr/nous-contacter/">Réservez un premier échange</a>.</p>
 </aside>
 
 ## Aborder les moments délicats du networking
 
 ### Dépasser la timidité
 
-La plupart des participants à un événement de networking se sentent au moins un peu mal à l’aise, et cela joue en votre faveur : une question aimable est presque toujours bien accueillie. Commencez en ligne si la rencontre en face à face vous paraît difficile, fixez-vous un petit objectif comme deux conversations par événement, et gardez en tête que bien écouter compte autant que bien parler.
+La plupart des participants à un événement de networking se sentent au moins un peu mal à l’aise, et cela joue en votre faveur : une question aimable est presque toujours bien accueillie. Commencez en ligne si la rencontre en face à face vous paraît difficile, fixez-vous un petit objectif comme deux conversations par événement, et gardez en tête que bien écouter compte autant que bien parler.
 
 ### Gérer les réponses qui tardent
 
 Certains messages reçoivent une réponse et certaines connexions mènent quelque part, à leur propre rythme. Lisez un silence comme une information sur le calendrier, et passez à l’occasion suivante.
 
-## Le networking sur la durée : bâtir des relations
+## Le networking sur la durée : bâtir des relations
 
 Vingt contacts LinkedIn qui prendraient votre appel valent davantage que mille qui feraient seulement défiler votre nom. Échangez régulièrement par des commentaires, des partages et des messages. Les personnes qui vous aideront le plus dans cinq ans sont souvent celles avec qui vous êtes resté en contact simplement pour garder le lien.
 

@@ -1,5 +1,5 @@
 ---
-words: 0
+words: 757
 title: "EEAT o AEAT: la errata que convierte una auditoría SEO en una inspección fiscal"
 metaTitle: "EEAT o AEAT: cuando la auditoría SEO se vuelve fiscal"
 slug: "eeat-o-aeat"

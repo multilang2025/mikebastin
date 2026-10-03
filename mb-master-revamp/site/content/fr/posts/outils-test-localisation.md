@@ -1,5 +1,5 @@
 ---
-words: 929
+words: 1041
 title: "Outils de test de localisation, et ce que chacun repère"
 slug: "outils-test-localisation"
 locale: "fr"
@@ -9,24 +9,24 @@ wpId: null
 date: "2026-10-03"
 modified: "2026-10-03"
 sourceUrl: null
-excerpt: "Des versions localisées propres dès leur sortie : les outils de test de localisation qui repèrent les défauts de mise en page, de texte et de format."
+excerpt: "Des versions localisées propres dès leur sortie : les outils de test de localisation qui repèrent les défauts de mise en page, de texte et de format."
 ---
 
-Votre produit fonctionne parfaitement en français, et la version allemande ou néerlandaise peut en faire autant : chaque libellé tient dans son bouton, chaque date affiche le bon mois, dès le premier jour.
+Votre produit fonctionne parfaitement en français, et la version allemande ou néerlandaise peut en faire autant : chaque libellé tient dans son bouton, chaque date affiche le bon mois, dès le premier jour.
 
 Les outils de test de localisation repèrent les défauts de mise en page et de paramètres régionaux avant vos utilisateurs. Voici ce que repère chaque type d’outil, les fonctionnalités qui valent leur prix, et la façon de les combiner.
 
 ## Ce que repèrent les outils de test de localisation
 
-La plupart des défauts de localisation se trouvent dans le code et la mise en page, en dehors du texte que relit un linguiste, et les outils contrôlent précisément ces zones. Ils recherchent :
+La plupart des défauts de localisation se trouvent dans le code et la mise en page, en dehors du texte que relit un linguiste, et les outils contrôlent précisément ces zones. Ils recherchent :
 
-- **Les problèmes techniques :** encodage des caractères, formats de date, affichage des devises et sens du texte.
-- **L’ajustement de la mise en page :** éléments d’interface qui débordent ou sont tronqués quand le texte traduit s’allonge ou se raccourcit.
-- **La couverture de traduction :** chaînes non traduites et texte codé en dur.
-- **Les paramètres régionaux :** tri des caractères accentués, affichage de droite à gauche pour l’arabe et l’hébreu, coupure des lignes dans les langues asiatiques.
-- **L’adéquation culturelle :** images, couleurs et symboles qui se lisent comme prévu sur chaque marché.
+- **Les problèmes techniques :** encodage des caractères, formats de date, affichage des devises et sens du texte.
+- **L’ajustement de la mise en page :** éléments d’interface qui débordent ou sont tronqués quand le texte traduit s’allonge ou se raccourcit.
+- **La couverture de traduction :** chaînes non traduites et texte codé en dur.
+- **Les paramètres régionaux :** tri des caractères accentués, affichage de droite à gauche pour l’arabe et l’hébreu, coupure des lignes dans les langues asiatiques.
+- **L’adéquation culturelle :** images, couleurs et symboles qui se lisent comme prévu sur chaque marché.
 
-Beaucoup d’outils interviennent aussi avant qu’une version n’atteigne qui que ce soit :
+Beaucoup d’outils interviennent aussi avant qu’une version n’atteigne qui que ce soit :
 
 - Ils se branchent sur les chaînes d’intégration continue.
 - Ils simulent des environnements régionaux.
@@ -36,7 +36,7 @@ Les défauts apparaissent ainsi tôt, au moment où ils coûtent le moins à cor
 
 ## Les outils par type
 
-Chaque outil couvre une partie du travail ; le tableau montre les parties que votre configuration couvre déjà et celles à ajouter.
+Chaque outil couvre une partie du travail ; le tableau montre les parties que votre configuration couvre déjà et celles à ajouter.
 
 | Outil | Type | Ce qu’il repère ou fait |
 |---|---|---|
@@ -57,19 +57,19 @@ Chaque outil couvre une partie du travail ; le tableau montre les parties que vo
 | [PhantomJS](https://phantomjs.org/) | Automatisation | Navigateur sans interface, développement suspendu |
 | [Applitools](https://applitools.com/) | Test visuel | Différences de mise en page et de rendu entre les langues |
 | [Pseudolocalize](http://www.pseudolocalize.com/) | Pseudo-localisation | Fausses traductions qui révèlent les problèmes de mise en page |
-| [Localize](https://localizejs.com/) | Gestion de la traduction | Repère les problèmes de localisation dans les applications web |
+| [Localise](https://localizejs.com/) | Gestion de la traduction | Repère les problèmes de localisation dans les applications web |
 | [Microsoft pseudolocalization](https://learn.microsoft.com/en-us/globalization/methodology/pseudolocalization) | Pseudo-localisation | Versions de test qui révèlent le texte codé en dur et tronqué |
 
-Deux outils d’automatisation plus anciens se réservent aux suites existantes :
+Deux outils d’automatisation plus anciens se réservent aux suites existantes :
 
-- **PhantomJS :** son développement est suspendu.
-- **iMacros :** il a atteint sa fin de vie le 30 novembre 2023.
+- **PhantomJS :** son développement est suspendu.
+- **iMacros :** il a atteint sa fin de vie le 30 novembre 2023.
 
 Choisissez Selenium ou Playwright pour les nouvelles suites de tests.
 
 ## Les fonctionnalités à rechercher
 
-Le bon outil fait gagner du temps à vos testeurs à chaque version. Recherchez :
+Le bon outil fait gagner du temps à vos testeurs à chaque version. Recherchez :
 
 1. **L’intégration** à vos [flux de développement et de test existants](https://lokalise.com/blog/localization-testing/).
 2. **Des contrôles qualité** pour les problèmes de localisation courants.
@@ -106,7 +106,7 @@ La façon d’utiliser les outils décide si chaque nouveau marché coûte moins
 <figcaption>Les outils couvrent les trois premières étapes, où les corrections sont les plus rapides et les moins chères. Un locuteur natif se charge de la dernière, pour les arbitrages linguistiques et culturels.</figcaption>
 </figure>
 
-1. **Combinez les outils.** Chaque outil couvre une partie du test de localisation ; ensemble, ils couvrent tout.
+1. **Combinez les outils.** Chaque outil couvre une partie du test de localisation ; ensemble, ils couvrent tout.
 2. **Automatisez dès que possible.** Automatisez les contrôles répétitifs, et gardez des personnes sur les contrôles qui demandent du jugement.
 3. **Faites intervenir des locuteurs natifs.** Associez les outils à une [relecture par des locuteurs natifs pour la justesse linguistique et culturelle](/fr/services/localisation-de-site-web/).
 4. **Tenez les données de test à jour.** Gardez les cas de test et les données à jour dans votre outil de gestion des tests.
@@ -114,7 +114,7 @@ La façon d’utiliser les outils décide si chaque nouveau marché coûte moins
 6. **Testez en continu.** Intégrez les tests de localisation à votre chaîne d’intégration et de déploiement continus (CI/CD).
 
 <aside class="post-cta">
-<p><strong>Vous lancez une nouvelle langue et voulez la réussir dès le premier jour ?</strong> Notre <a href="/fr/services/localisation-de-site-web/">localisation de site web</a> comprend un contrôle qualité complet dans chaque langue avant la mise en ligne. <a href="/fr/nous-contacter/">Demandez votre évaluation de localisation gratuite</a>.</p>
+<p><strong>Vous lancez une nouvelle langue et voulez la réussir dès le premier jour ?</strong> Notre <a href="/fr/services/localisation-de-site-web/">localisation de site web</a> comprend un contrôle qualité complet dans chaque langue avant la mise en ligne. <a href="/fr/nous-contacter/">Demandez votre évaluation de localisation gratuite</a>.</p>
 </aside>
 
 ## L’essentiel

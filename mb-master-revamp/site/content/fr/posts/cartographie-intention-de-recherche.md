@@ -88,7 +88,7 @@ Suivez l’engagement, les taux de clic et les conversions. Les signaux d’inte
 Les systèmes de classement de Google récompensent les pages qui satisfont la personne qui cherche, et l’alignement sur l’intention a pris la place de la densité de mots-clés comme levier de positionnement. Le trafic organique qui arrive avec la bonne intention convertit aussi très bien.
 
 > Taux de conversion moyen tous secteurs confondus : SEO 2,4 %, publicité payante (PPC) 1,3 %, mesurés entre le 1er août 2022 et le 31 juillet 2024 auprès de 124 clients dans 19 secteurs.
-> Source : [First Page Sage, « SEO vs PPC statistics: conversion rates compared », mise à jour février 2026](https://firstpagesage.com/reports/seo-vs-ppc-statistics-conversion-rates-compared-fc/)
+> Source : [First Page Sage, « SEO vs PPC statistics : conversion rates compared », mise à jour février 2026](https://firstpagesage.com/reports/seo-vs-ppc-statistics-conversion-rates-compared-fc/)
 
 Le rapport détaille de grands écarts d’un secteur à l’autre : lisez cette moyenne comme une tendance, à vérifier sur vos propres données.
 
@@ -144,7 +144,7 @@ Les étapes pratiques pour aligner l’intention d’une langue à l’autre :
 Les AI Overviews apparaissent désormais aussi sur les requêtes commerciales et transactionnelles.
 
 > Sur plus de 10 millions de mots-clés suivis par Semrush, les AI Overviews se sont déclenchés pour 6,49 % des requêtes en janvier 2025, ont atteint un pic de 24,61 % en juillet et se situaient à 15,69 % en novembre. Sur la même période, la part des requêtes commerciales affichant un AI Overview est passée de 8,15 % à 18,57 %, et celle des requêtes transactionnelles de 1,98 % à 13,94 %.
-> Source : [Semrush, « Semrush AI Overviews study: what 2025 SEO data tells us », décembre 2025](https://www.semrush.com/blog/semrush-ai-overviews-study/)
+> Source : [Semrush, « Semrush AI Overviews study : what 2025 SEO data tells us », décembre 2025](https://www.semrush.com/blog/semrush-ai-overviews-study/)
 
 ## Mettre en place la cartographie de l’intention multilingue
 
@@ -178,7 +178,7 @@ La cartographie de l’intention comptait déjà ; les AI Overviews et les rech
 Quand un AI Overview s’affiche, être cité à l’intérieur regagne une part du taux de clic.
 
 > Pour les requêtes informationnelles affichant un AI Overview, le CTR organique a baissé de 61 %, de 1,76 % en juin 2024 à 0,61 % en septembre 2025. Les marques citées dans l’AI Overview ont obtenu un CTR organique supérieur de 35 % et un CTR payant supérieur de 91 % à celui des marques non citées.
-> Source : [Seer Interactive, « AIO impact on Google CTR: September 2025 update », novembre 2025](https://www.seerinteractive.com/insights/aio-impact-on-google-ctr-september-2025-update)
+> Source : [Seer Interactive, « AIO impact on Google CTR : September 2025 update », novembre 2025](https://www.seerinteractive.com/insights/aio-impact-on-google-ctr-september-2025-update)
 
 Un contenu structuré autour d’une intention claire, appuyé par des données fiables et formaté pour l’extraction, est ce qui décroche ces citations. Pour les entreprises présentes sur plusieurs marchés, l’effet se cumule, car les AI Overviews puisent à des sources différentes selon la langue : une marque qui investit dans un contenu localisé et adapté à l’intention pour l’espagnol ou l’allemand se donne de réelles chances d’être citée dans ces langues aussi. Notre page [du SEO au GEO](/fr/seo-au-geo/) détaille comment l’optimisation pour les moteurs génératifs s’articule avec le SEO.
 

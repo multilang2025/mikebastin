@@ -1,5 +1,5 @@
 ---
-words: 0
+words: 1045
 title: "Herramientas de enlazado interno y plugins para WordPress"
 slug: "herramientas-enlazado-interno"
 locale: "es"
