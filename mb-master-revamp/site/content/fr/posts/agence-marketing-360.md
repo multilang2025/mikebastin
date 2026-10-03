@@ -82,7 +82,7 @@ Pendant les six mois précédant notre arrivée, ces canaux fonctionnaient comme
 Une fois le tout regroupé dans un seul document de stratégie et un seul plan de mesure, trois constats sont apparus dès le premier mois.
 
 -   **31 % des mots-clés payants étaient déjà en première position en organique.** Nous avons arrêté ces enchères et réaffecté le budget vers des termes de haut de tunnel.
--   **Trois articles de blog en espagnol se classaient dans les trois premiers résultats, prêts pour un pixel de remarketing.** Nous l’avons ajouté. Le parcours de conversion est apparu du jour au lendemain.
+-   **Trois articles de blog se classaient dans les trois premiers résultats, prêts pour un pixel de remarketing.** Nous l’avons ajouté. Le parcours de conversion est apparu du jour au lendemain.
 -   **La prospection LinkedIn utilisait une phrase de positionnement différente de celle du site.** Nous les avons alignées. Le taux de réponse a bougé le mois même.
 
 Chaque gain est venu de tactiques déjà en place. Relier le travail a produit la hausse.
