@@ -1,5 +1,5 @@
 ---
-words: 0
+words: 2648
 title: "SEO para despachos de abogados: clientes en cada idioma"
 slug: "seo-despachos-de-abogados"
 locale: "es"

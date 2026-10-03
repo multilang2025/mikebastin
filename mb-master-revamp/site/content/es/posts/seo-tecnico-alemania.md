@@ -1,5 +1,5 @@
 ---
-words: 0
+words: 1891
 title: "SEO técnico para webs en alemán: los ajustes que venden en Alemania"
 metaTitle: "SEO técnico para webs en alemán: los ajustes clave"
 slug: "seo-tecnico-alemania"

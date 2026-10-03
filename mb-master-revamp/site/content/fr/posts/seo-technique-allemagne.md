@@ -1,5 +1,5 @@
 ---
-words: 0
+words: 1844
 title: "SEO technique d’un site allemand : les réglages qui font vendre en Allemagne"
 metaTitle: "SEO technique d’un site allemand : les réglages clés"
 slug: "seo-technique-allemagne"

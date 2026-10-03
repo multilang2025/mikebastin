@@ -1,5 +1,5 @@
 ---
-words: 0
+words: 2691
 title: "SEO pour cabinets d’avocats : des clients dans chaque langue"
 slug: "seo-cabinets-avocats"
 locale: "fr"
