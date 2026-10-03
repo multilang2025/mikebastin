@@ -324,8 +324,23 @@ and no og:url. Rules that came out of fixing it:
   characters since the voice pass); `lib/seo.ts` only trims one over 160.
   A post title over 60 characters gets a `metaTitle` in frontmatter; the
   h1 keeps `title`.
-- `.htaccess` forces `image/png` on the extensionless `opengraph-image`
+- `.htaccess` forces `image/jpeg` on the extensionless `opengraph-image`
   files; without it the host sends no Content-Type.
+- **Social cards follow the ValenciaMove treatment** (owner, 3 Oct 2026):
+  `lib/og-card.tsx` `renderOgCard()` draws the page's own picture (post
+  photograph, client site, cluster scene, or Mike's portrait) behind a navy
+  gradient, the letter-spaced brand line, title, one-line subtitle, a
+  raspberry section pill and the domain. `scripts/og-to-jpeg.mjs`
+  (postbuild) re-encodes every card as JPEG (144 MB to 16 MB). Pages whose
+  route serves many slugs pass `cardAlt` to `pageMeta()` for a per-page
+  "Title. Subtitle" alt; every page also emits `og:locale:alternate` and
+  `twitter:site`/`creator` @mikebastin.
+- **Structured data** (audit, 3 Oct 2026): a WebSite node sitewide, author
+  and publisher written out in full, `inLanguage` on posts and services,
+  FR and ES breadcrumbs rooted at `/fr/` and `/es/` through the blog or
+  services index, BeTranslated as `parentOrganization` with its NIF, and
+  `areaServed` Valencia on the Spanish local SEO page. No FAQPage or
+  ItemList (not eligible for this content).
 - `<html lang>` is `en` on English pages (international English; hreflang
   already says `en`) and `fr`/`es` on French and Spanish ones, written into
   the exported HTML by `scripts/set-html-lang.mjs` (postbuild) and checked

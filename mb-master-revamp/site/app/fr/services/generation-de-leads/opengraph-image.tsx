@@ -1,12 +1,16 @@
-import { OG_SIZE, OG_CONTENT_TYPE, renderServiceOgImage } from "@/lib/og-card";
+import { OG_SIZE, OG_CONTENT_TYPE, renderOgCard, PORTRAIT, OG_TAG } from "@/lib/og-card";
 
-// Share card for this hand-built page, in its own language. Static export
-// needs a route handler without generateStaticParams to be force-static.
+// ValenciaMove card treatment (owner, 3 Oct 2026): see lib/og-card.tsx.
 export const dynamic = "force-static";
 export const size = OG_SIZE;
 export const contentType = OG_CONTENT_TYPE;
-export const alt = "Carte Mike Bastin : Agence de génération de leads pour les entreprises qui exportent";
+export const alt = "Génération de leads B2B par Mike Bastin, pour les entreprises qui exportent.";
 
 export default async function Image() {
-  return renderServiceOgImage({ name: "Agence de génération de leads pour les entreprises qui exportent", angle: "Mesuré en demandes, Mike Bastin" });
+  return renderOgCard({
+    title: "Agence de génération de leads pour les entreprises qui exportent",
+    subtitle: "Des visiteurs de vos marchés étrangers aux leads qualifiés, comptés marché par marché",
+    tag: OG_TAG.fr.service,
+    picture: PORTRAIT,
+  });
 }

@@ -26,8 +26,17 @@ const DEFAULT_CARD = {
   url: "/opengraph-image",
   width: 1200,
   height: 630,
-  alt: "Mike Bastin, multilingual SEO and localization from Valencia",
+  type: "image/jpeg",
+  alt: "International SEO agency, led by Mike Bastin. International SEO, native content and website localization from Valencia.",
 };
+
+/** The route's own generated card, described for this page. */
+function ownCard(path: string, alt: string) {
+  return { url: `${path}opengraph-image`, width: 1200, height: 630, type: "image/jpeg", alt };
+}
+
+/** og:locale for each hreflang key, for og:locale:alternate. */
+const OG_LOCALE: Record<string, string> = { en: "en_GB", fr: "fr_FR", es: "es_ES" };
 
 export function pageMeta({
   title,
@@ -39,6 +48,7 @@ export function pageMeta({
   languages,
   fallbackImage = false,
   ogLocale = "en_GB",
+  cardAlt,
 }: {
   title: string;
   description: string;
@@ -52,8 +62,23 @@ export function pageMeta({
   fallbackImage?: boolean;
   /** og:locale; "fr_FR" on the French pages. */
   ogLocale?: string;
+  /**
+   * This page's own alt text for its card, on a route whose
+   * opengraph-image.tsx is shared by many pages (posts, services, case
+   * studies, topics) and so can only export one generic `alt`. The image
+   * entry points at that same generated file, so the card itself is
+   * unchanged (ValenciaMove treatment, 3 Oct 2026: "Title. Subtitle").
+   */
+  cardAlt?: string;
 }): Metadata {
   const url = `${SITE_URL}${path}`;
+  // The other languages this page exists in, as og:locale:alternate
+  // (ValenciaMove treatment, 3 Oct 2026).
+  const alternateLocale = languages
+    ? Object.keys(languages)
+        .map((k) => OG_LOCALE[k])
+        .filter((l): l is string => Boolean(l) && l !== ogLocale)
+    : [];
   return {
     title,
     description,
@@ -62,18 +87,23 @@ export function pageMeta({
       type,
       siteName: SITE_NAME,
       locale: ogLocale,
+      ...(alternateLocale.length ? { alternateLocale } : {}),
       url,
       title,
       description,
       ...(fallbackImage ? { images: [DEFAULT_CARD] } : {}),
+      ...(cardAlt && !fallbackImage ? { images: [ownCard(path, cardAlt)] } : {}),
       ...(type === "article"
         ? { publishedTime, modifiedTime, authors: [`${SITE_URL}/`] }
         : {}),
     },
     twitter: {
       card: "summary_large_image",
+      site: "@mikebastin",
+      creator: "@mikebastin",
       title,
       description,
+      ...(cardAlt && !fallbackImage ? { images: [ownCard(path, cardAlt)] } : {}),
       // No images here: Next fills twitter:image from the page's own
       // opengraph image, which is what keeps a post's card on X.
     },

@@ -1,19 +1,16 @@
-import { SERVICES } from "@/lib/services";
-import { OG_SIZE, OG_CONTENT_TYPE, renderServiceOgImage } from "@/lib/og-card";
+import { OG_SIZE, OG_CONTENT_TYPE, renderOgCard, PORTRAIT } from "@/lib/og-card";
 
-// Static export (output: "export") needs every route handler without
-// generateStaticParams to declare it renders to a fixed file at build time.
+// ValenciaMove card treatment (owner, 3 Oct 2026): see lib/og-card.tsx.
 export const dynamic = "force-static";
 export const size = OG_SIZE;
 export const contentType = OG_CONTENT_TYPE;
-export const alt = "Mike Bastin services: multilingual SEO, localization and AI consulting";
+export const alt = "Global SEO services for companies selling across markets, from Mike Bastin.";
 
-// The index card reuses the same per-service renderer, called with a
-// framing line rather than one service's own angle. The count is read
-// from SERVICES.length so it can never drift stale against the real list.
 export default async function Image() {
-  return renderServiceOgImage({
-    name: "Services",
-    angle: `${SERVICES.length} services, five clusters`,
+  return renderOgCard({
+    title: "Global SEO services for companies selling across markets",
+    subtitle: "Multilingual SEO, localization, paid search and AI consulting, run by one team",
+    tag: "Services",
+    picture: PORTRAIT,
   });
 }

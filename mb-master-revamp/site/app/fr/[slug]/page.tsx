@@ -1,3 +1,6 @@
+import { postPicture } from "@/lib/og-card";
+import { imageSlugFor } from "@/lib/posts";
+import { ogSubtitle } from "@/lib/og-card";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
@@ -40,6 +43,7 @@ export async function generateMetadata({
     modifiedTime: post.modified,
     languages: postHreflang(post.group),
     ogLocale: "fr_FR",
+    cardAlt: `${post.title}. ${ogSubtitle(post.excerpt)}`,
   });
 }
 
@@ -73,9 +77,15 @@ export default async function FrenchBlogPostPage({
             datePublished: post.date,
             dateModified: post.modified,
             url,
+            inLanguage: "fr",
+            // The English sibling's photograph the page shows, else the card.
+            image: postPicture(imageSlugFor("fr", post.slug))
+              ? `${SITE_URL}/images/blog/${imageSlugFor("fr", post.slug)}.webp`
+              : `${url}opengraph-image`,
           }),
           breadcrumbSchema([
-            { name: "Accueil", url: `${SITE_URL}/` },
+            { name: "Accueil", url: `${SITE_URL}/fr/` },
+            { name: "Articles", url: `${SITE_URL}/fr/blog/` },
             { name: post.title, url },
           ]),
         ]}

@@ -18,7 +18,6 @@ export const metadata: Metadata = {
     description: "Tell us which language you want selling next. A short brief on multilingual SEO, localization or AI consulting gets a straight answer within a working day.",
     path: "/contact/",
     languages: enLanguages("/contact/"),
-    fallbackImage: true,
   }),
 };
 

@@ -4,13 +4,13 @@ import { OG_SIZE, OG_CONTENT_TYPE, renderOgCard, PORTRAIT } from "@/lib/og-card"
 export const dynamic = "force-static";
 export const size = OG_SIZE;
 export const contentType = OG_CONTENT_TYPE;
-export const alt = "Tarifs et déroulement d’une mission SEO avec Mike Bastin.";
+export const alt = "Contact Mike Bastin, a multilingual SEO agency in Valencia.";
 
 export default async function Image() {
   return renderOgCard({
-    title: "Tarifs et déroulement d’une mission SEO",
-    subtitle: "Consultation gratuite, périmètre écrit, livraison mensuelle",
-    tag: "Tarifs",
+    title: "Contact a multilingual SEO agency in Valencia",
+    subtitle: "Tell us which language you want selling next",
+    tag: "Contact",
     picture: PORTRAIT,
   });
 }

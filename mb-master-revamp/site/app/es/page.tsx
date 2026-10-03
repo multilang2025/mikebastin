@@ -5,13 +5,11 @@ import Reveal from "@/components/Reveal";
 import FounderPortrait from "@/components/FounderPortrait";
 import HomeEvidence from "@/components/HomeEvidence";
 import SiteFooter from "@/components/SiteFooter";
-import JsonLd from "@/components/JsonLd";
 import LocaleHtmlLang from "@/components/LocaleHtmlLang";
 import { ButtonLink } from "@/components/ui/Button";
 import { getServicesForLocale, servicePath } from "@/lib/services-locale";
 import { esLanguages } from "@/lib/fr-pages";
 import { leadGenPath } from "@/lib/lead-gen-hubs";
-import { SITE_URL, breadcrumbSchema } from "@/lib/schema";
 
 // The Spanish homepage (docs/ES-REBUILD-PLAN.md). Its reader is a company
 // in Valencia, serving the city or selling from it (owner, 3 Oct 2026:
@@ -66,7 +64,6 @@ export default function SpanishHome() {
   return (
     <main>
       <LocaleHtmlLang lang="es" />
-      <JsonLd data={breadcrumbSchema([{ name: "Inicio", url: `${SITE_URL}${PATH}` }])} />
 
       {/* ============ HERO ============ */}
       <section className="band band-a grain relative overflow-hidden pb-[clamp(56px,8vw,110px)] pt-[clamp(96px,14vw,170px)]">

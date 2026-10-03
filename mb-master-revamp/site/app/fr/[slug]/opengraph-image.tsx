@@ -1,17 +1,24 @@
-import { getPostsForLocale, getPostForLocale } from "@/lib/posts";
-import { OG_SIZE, OG_CONTENT_TYPE, renderBlogOgImage } from "@/lib/og-card";
+import { getPostsForLocale, getPostForLocale, imageSlugFor } from "@/lib/posts";
+import { topicForPost } from "@/lib/locale-topics";
+import { OG_SIZE, OG_CONTENT_TYPE, renderOgCard, ogSubtitle, postPicture, PORTRAIT, OG_TAG } from "@/lib/og-card";
 
-// French article card. Mirrors page.tsx's generateStaticParams.
+// Article card: the English sibling's photograph (imageSlugFor), in the
+// ValenciaMove treatment (lib/og-card.tsx). Mirrors page.tsx's params.
 export function generateStaticParams() {
   return getPostsForLocale("fr").map((p) => ({ slug: p.slug }));
 }
 
 export const size = OG_SIZE;
 export const contentType = OG_CONTENT_TYPE;
-export const alt = "Carte d’article Mike Bastin";
+export const alt = "Article de Mike Bastin";
 
 export default async function Image({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const post = getPostForLocale("fr", slug);
-  return renderBlogOgImage({ title: post?.title ?? "Articles", label: "Articles" });
+  return renderOgCard({
+    title: post?.title ?? OG_TAG.fr.post,
+    subtitle: ogSubtitle(post?.excerpt),
+    tag: topicForPost("fr", slug)?.name ?? OG_TAG.fr.post,
+    picture: postPicture(imageSlugFor("fr", slug)) ?? PORTRAIT,
+  });
 }

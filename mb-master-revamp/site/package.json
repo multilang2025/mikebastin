@@ -16,7 +16,7 @@
     "lint:negative": "node scripts/negative-wording-lint.mjs",
     "lint:fr": "node scripts/fr-copy-lint.mjs",
     "lint:es": "node scripts/es-copy-lint.mjs",
-    "postbuild": "node scripts/set-html-lang.mjs",
+    "postbuild": "node scripts/set-html-lang.mjs && node scripts/og-to-jpeg.mjs",
     "lint:lang": "node scripts/set-html-lang.mjs --check",
     "fix:fr": "node scripts/fr-copy-fix.mjs",
     "lint:structure": "node scripts/post-structure-lint.mjs",

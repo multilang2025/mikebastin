@@ -5,13 +5,11 @@ import Reveal from "@/components/Reveal";
 import FounderPortrait from "@/components/FounderPortrait";
 import HomeEvidence from "@/components/HomeEvidence";
 import SiteFooter from "@/components/SiteFooter";
-import JsonLd from "@/components/JsonLd";
 import LocaleHtmlLang from "@/components/LocaleHtmlLang";
 import { ButtonLink } from "@/components/ui/Button";
 import { getServicesForLocale, servicePath } from "@/lib/services-locale";
 import { frLanguages } from "@/lib/fr-pages";
 import { leadGenPath } from "@/lib/lead-gen-hubs";
-import { SITE_URL, breadcrumbSchema } from "@/lib/schema";
 
 // The French homepage (docs/FR-REBUILD-PLAN.md). Its reader is a
 // French-speaking company, in France, Belgium (Wallonia, Brussels),
@@ -65,7 +63,6 @@ export default function FrenchHome() {
   return (
     <main>
       <LocaleHtmlLang lang="fr" />
-      <JsonLd data={breadcrumbSchema([{ name: "Accueil", url: `${SITE_URL}${PATH}` }])} />
 
       {/* ============ HERO ============ */}
       <section className="band band-a grain relative overflow-hidden pb-[clamp(56px,8vw,110px)] pt-[clamp(96px,14vw,170px)]">

@@ -38,7 +38,6 @@ export const metadata: Metadata = {
     title: "Client results you can count, Mike Bastin",
     description: `Live Search Console figures from ${SITE_COUNT} sites we run search for: ${CLICKS} clicks from ${MILLIONS} million impressions in three months, each with its case study.`,
     path: "/results/",
-    fallbackImage: true,
   }),
 };
 

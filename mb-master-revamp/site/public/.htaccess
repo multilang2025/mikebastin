@@ -15,9 +15,10 @@ ErrorDocument 404 /404.html
 # Social card images. Next exports opengraph-image and twitter-image
 # without a file extension, so the host sent them with no Content-Type at
 # all, and LinkedIn in particular will not show an image it cannot type
-# (EN meta audit, 27 Sep 2026). Name them as the PNGs they are.
+# (EN meta audit, 27 Sep 2026). Since 3 Oct 2026 scripts/og-to-jpeg.mjs
+# re-encodes every card as JPEG after the build, so name them as JPEGs.
 <FilesMatch "^(opengraph|twitter)-image$">
-  ForceType image/png
+  ForceType image/jpeg
 </FilesMatch>
 
 # Belt and braces on top of robots.txt and the noindex meta tag.

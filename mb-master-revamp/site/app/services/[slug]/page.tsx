@@ -1,3 +1,5 @@
+import { pageMeta } from "@/lib/meta";
+import { ogSubtitle } from "@/lib/og-card";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
@@ -31,36 +33,19 @@ export async function generateMetadata({
   if (!service) return {};
   const title = service.metaTitle ?? `${service.name}, Mike Bastin`;
   const description = service.metaDescription ?? service.lede;
-  const canonical = `${SITE_URL}/services/${service.slug}/`;
   // FR/ES siblings only exist for the 10 of these 21 EN service slugs that
   // have a qualifying `type: "service"` group in content-map.json (see
   // lib/services-locale.ts's file header); the rest are consolidated
   // pages with nothing to link to, so this stays undefined for them.
   const group = serviceGroupForEnSlug(service.slug);
   const languages = group ? serviceHreflang(group) : undefined;
-  return {
+  return pageMeta({
     title,
     description,
-    alternates: { canonical, ...(languages ? { languages } : {}) },
-    // The og:image/twitter:image tags themselves come from the colocated
-    // opengraph-image.tsx (Next.js's file-convention metadata, injected
-    // automatically per docs/opengraph-image.md), not from an `images`
-    // array here, so a per-service card can never drift from the file
-    // that actually renders it.
-    openGraph: {
-      type: "website",
-      siteName: "Mike Bastin",
-      locale: "en_GB",
-      url: canonical,
-      title,
-      description,
-    },
-    twitter: {
-      card: "summary_large_image",
-      title,
-      description,
-    },
-  };
+    path: `/services/${service.slug}/`,
+    languages,
+    cardAlt: `${service.cardTitle ?? service.name}. ${ogSubtitle(service.subhead)}`,
+  });
 }
 
 export default async function ServicePage({

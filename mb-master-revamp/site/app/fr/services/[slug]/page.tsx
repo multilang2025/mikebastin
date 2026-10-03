@@ -1,3 +1,4 @@
+import { ogSubtitle } from "@/lib/og-card";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
@@ -42,6 +43,7 @@ export async function generateMetadata({
     path: `/fr/services/${service.slug}/`,
     languages: serviceHreflang(service.group, LOCALE),
     ogLocale: "fr_FR",
+    cardAlt: `${service.title}. ${ogSubtitle(service.excerpt)}`,
   });
 }
 
@@ -65,9 +67,11 @@ export default async function FrenchServicePage({
             name: service.title,
             description: service.excerpt,
             url,
+            inLanguage: "fr",
           }),
           breadcrumbSchema([
-            { name: "Accueil", url: `${SITE_URL}/` },
+            { name: "Accueil", url: `${SITE_URL}/fr/` },
+            { name: "Services", url: `${SITE_URL}/fr/services/` },
             { name: service.title, url },
           ]),
         ]}

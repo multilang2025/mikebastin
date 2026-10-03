@@ -31,11 +31,11 @@ const abs = (path: string) => `${SITE_URL}${path}`;
 export const PERSON_ID = `${SITE_URL}/#person`;
 export const BUSINESS_ID = `${SITE_URL}/#business`;
 
-const SAME_AS = [
-  "https://x.com/mikebastin",
-  "https://www.linkedin.com/in/michaelbastin/",
-  "https://www.google.com/maps?cid=5084624758674071823",
-];
+/** The person's own profiles. The Business Profile describes the business,
+ *  so it sits only on the ProfessionalService (schema audit, 3 Oct 2026). */
+const PERSON_SAME_AS = ["https://x.com/mikebastin", "https://www.linkedin.com/in/michaelbastin/"];
+const SAME_AS = [...PERSON_SAME_AS, "https://www.google.com/maps?cid=5084624758674071823"];
+export const WEBSITE_ID = `${SITE_URL}/#website`;
 
 const ADDRESS = {
   "@type": "PostalAddress",
@@ -54,7 +54,7 @@ export const personSchema = {
   jobTitle: "International search consultant",
   email: "hello@mikebastin.com",
   telephone: "+34671175774",
-  url: SITE_URL,
+  url: `${SITE_URL}/`,
   address: ADDRESS,
   knowsLanguage: ["en", "fr", "es", "nl"],
   // The same photograph the reader meets on /how-i-work/, not the wave
@@ -70,7 +70,7 @@ export const personSchema = {
     name: "BeTranslated",
     url: "https://www.betranslated.com",
   },
-  sameAs: SAME_AS,
+  sameAs: PERSON_SAME_AS,
 };
 
 /**
@@ -90,11 +90,26 @@ export const professionalServiceSchema = {
   slogan: "Automating business. Translating ideas. Connecting people.",
   description:
     "Multilingual SEO, localization and AI consulting from Valencia, Spain.",
-  url: SITE_URL,
+  url: `${SITE_URL}/`,
   telephone: "+34671175774",
   email: "hello@mikebastin.com",
   address: ADDRESS,
   areaServed: "Worldwide",
+  /** The legal entity behind every brand on the site (owner, 2 Oct 2026),
+   *  as the privacy pages name it. The office shown stays `address`. */
+  parentOrganization: {
+    "@type": "Organization",
+    name: "BeTranslated",
+    url: "https://www.betranslated.com",
+    taxID: "B40654865",
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: "Calle Doctor Ferran 13",
+      postalCode: "46021",
+      addressLocality: "Valencia",
+      addressCountry: "ES",
+    },
+  },
   knowsLanguage: ["en", "fr", "es", "nl"],
   // The wave mark, 180x180, comfortably over Google's 112x112 floor for an
   // organisation logo. `image` repeats it because the business has no
@@ -104,6 +119,37 @@ export const professionalServiceSchema = {
   founder: { "@id": PERSON_ID },
   sameAs: SAME_AS,
 };
+
+/**
+ * WebSite node, for Google's site name (schema audit, 3 Oct 2026). No
+ * SearchAction: the site has no search.
+ */
+export const websiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": WEBSITE_ID,
+  name: "Mike Bastin",
+  url: `${SITE_URL}/`,
+  inLanguage: ["en", "fr", "es"],
+  publisher: { "@id": BUSINESS_ID },
+};
+
+/** The author and publisher written out in full, not only by @id, so a
+ *  parser that reads one block alone still finds a name and a url. */
+const AUTHOR = { "@type": "Person", "@id": PERSON_ID, name: "Mike Bastin", url: `${SITE_URL}/` };
+const PUBLISHER = {
+  "@type": "Organization",
+  "@id": BUSINESS_ID,
+  name: "Mike Bastin",
+  logo: { "@type": "ImageObject", url: abs("/apple-icon.png"), width: 180, height: 180 },
+};
+
+/** Cut at a word boundary, for Google's 110-character headline guidance. */
+function headline110(h: string) {
+  if (h.length <= 110) return h;
+  const cut = h.slice(0, 110);
+  return cut.slice(0, cut.lastIndexOf(" "));
+}
 
 export type BreadcrumbItem = { name: string; url: string };
 
@@ -128,6 +174,10 @@ export function serviceSchema(opts: {
   url: string;
   /** Absolute URL of a real image for this service, where one exists. */
   image?: string;
+  /** "en", "fr" or "es". */
+  inLanguage?: string;
+  /** Defaults to worldwide; a city-level service passes its city. */
+  areaServed?: string | { "@type": string; name: string };
 }) {
   return {
     "@context": "https://schema.org",
@@ -141,7 +191,8 @@ export function serviceSchema(opts: {
     // service's image is the substitution the style guide warns against.
     ...(opts.image ? { image: opts.image } : {}),
     provider: { "@id": BUSINESS_ID },
-    areaServed: "Worldwide",
+    areaServed: opts.areaServed ?? "Worldwide",
+    ...(opts.inLanguage ? { inLanguage: opts.inLanguage } : {}),
   };
 }
 
@@ -160,18 +211,21 @@ export function blogPostingSchema(opts: {
    * nothing and the property is omitted.
    */
   image?: string;
+  /** "en", "fr" or "es". */
+  inLanguage?: string;
 }) {
   return {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
-    headline: opts.headline.slice(0, 110),
+    headline: headline110(opts.headline),
     description: opts.description,
     datePublished: new Date(opts.datePublished).toISOString(),
     dateModified: new Date(opts.dateModified).toISOString(),
     ...(opts.image ? { image: opts.image } : {}),
-    author: { "@id": PERSON_ID },
-    publisher: { "@id": BUSINESS_ID },
+    author: AUTHOR,
+    publisher: PUBLISHER,
     mainEntityOfPage: opts.url,
     url: opts.url,
+    inLanguage: opts.inLanguage ?? "en",
   };
 }

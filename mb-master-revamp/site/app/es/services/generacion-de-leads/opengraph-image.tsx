@@ -1,12 +1,16 @@
-import { OG_SIZE, OG_CONTENT_TYPE, renderServiceOgImage } from "@/lib/og-card";
+import { OG_SIZE, OG_CONTENT_TYPE, renderOgCard, PORTRAIT, OG_TAG } from "@/lib/og-card";
 
-// Share card for this hand-built page, in its own language. Static export
-// needs a route handler without generateStaticParams to be force-static.
+// ValenciaMove card treatment (owner, 3 Oct 2026): see lib/og-card.tsx.
 export const dynamic = "force-static";
 export const size = OG_SIZE;
 export const contentType = OG_CONTENT_TYPE;
-export const alt = "Tarjeta de Mike Bastin: Generación de leads B2B en Valencia para empresas que venden fuera";
+export const alt = "Generación de leads B2B en Valencia, de Mike Bastin.";
 
 export default async function Image() {
-  return renderServiceOgImage({ name: "Generación de leads B2B en Valencia para empresas que venden fuera", angle: "Medido en consultas, Mike Bastin" });
+  return renderOgCard({
+    title: "Generación de leads B2B en Valencia para empresas que venden fuera",
+    subtitle: "Tus visitas de cada mercado, convertidas en consultas cualificadas",
+    tag: OG_TAG.es.service,
+    picture: PORTRAIT,
+  });
 }

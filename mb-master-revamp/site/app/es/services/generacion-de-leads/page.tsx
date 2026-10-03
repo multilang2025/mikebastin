@@ -94,7 +94,8 @@ export default function SpanishLeadGenerationPage() {
         data={[
           serviceSchema({ name: NAME, description: DESCRIPTION, url }),
           breadcrumbSchema([
-            { name: "Inicio", url: `${SITE_URL}/` },
+            { name: "Inicio", url: `${SITE_URL}/es/` },
+            { name: "Servicios", url: `${SITE_URL}/es/services/` },
             { name: NAME, url },
           ]),
         ]}

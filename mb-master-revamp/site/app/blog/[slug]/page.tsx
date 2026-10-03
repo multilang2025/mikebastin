@@ -1,3 +1,4 @@
+import { ogSubtitle } from "@/lib/og-card";
 import PostBody from "@/components/PostBody";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
@@ -50,6 +51,7 @@ export async function generateMetadata({
     publishedTime: new Date(post.date).toISOString(),
     modifiedTime: new Date(post.modified ?? post.date).toISOString(),
     languages: postHreflang(post.group),
+    cardAlt: `${post.title}. ${ogSubtitle(post.excerpt)}`,
   });
 }
 
