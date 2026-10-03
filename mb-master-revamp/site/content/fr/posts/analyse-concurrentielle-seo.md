@@ -1,5 +1,5 @@
 ---
-words: 0
+words: 1453
 title: "Analyse concurrentielle SEO : trouver les concurrents qui captent vos acheteurs"
 metaTitle: "Analyse concurrentielle SEO : vos vrais concurrents"
 slug: "analyse-concurrentielle-seo"
@@ -90,7 +90,7 @@ Pour aller plus loin, consultez nos [bonnes pratiques du SEO multilingue](/fr/bo
 
 Oui, le [GEO](/fr/seo-au-geo/) compte. Oui, les citations dans ChatGPT et Perplexity pèsent désormais dans les parcours d’achat B2B. La logique concurrentielle de fond reste pour l’essentiel la même.
 
-Ce que nous ajoutons aujourd’hui pour nos clients : une petite couche « qui est cité dans les réponses d’IA pour les questions de nos acheteurs ». Nous lançons cinq à dix requêtes qu’un vrai prospect pourrait poser, nous relevons les domaines cités, et nous vérifions leur recoupement avec les concurrents des pages de résultats classiques.
+Nous ajoutons aujourd’hui pour nos clients une petite couche « qui est cité dans les réponses d’IA pour les questions de nos acheteurs ». Nous lançons cinq à dix requêtes qu’un vrai prospect pourrait poser, nous relevons les domaines cités, et nous vérifions leur recoupement avec les concurrents des pages de résultats classiques.
 
 Le recoupement est souvent élevé. Parfois, un site de niche apparaît et rejoint la liste. Les deux constats s’appuient sur le travail mené au niveau des pages de résultats.
 

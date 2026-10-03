@@ -10,7 +10,7 @@ wpId: null
 date: "2026-10-03"
 modified: "2026-10-03"
 sourceUrl: null
-excerpt: "Votre blog est lu ; il peut maintenant générer des demandes. 15 idées d’articles classées par étape d’achat, pour que chaque article mérite sa place."
+excerpt: "Votre blog est lu ; il peut maintenant générer des demandes. 15 idées d’articles classées par étape d’achat, pour que chaque article compte."
 ---
 
 Votre blog reçoit des visites, en France comme sur vos marchés à l’export, et l’étape suivante consiste à publier des articles que votre équipe commerciale peut relier à des demandes de contact. Un article écrit pour le lecteur prêt à acheter rembourse la journée passée à le rédiger, et vous place devant ce lecteur en premier.

@@ -1,5 +1,5 @@
 ---
-words: 0
+words: 1205
 title: "Agence marketing 360 : un seul plan pour tous vos canaux et vos marchés"
 metaTitle: "Agence marketing 360 : un seul plan pour vos canaux"
 slug: "agence-marketing-360"
@@ -89,7 +89,7 @@ Chaque gain est venu de tactiques déjà en place. Relier le travail a produit l
 
 ## Les données derrière les campagnes coordonnées
 
-La connexion entre les canaux rapporte davantage que leur nombre. L’analyse par l’IPA de plus de 250 études de cas de campagnes a mis en évidence un écart mesurable entre le travail intégré sur plusieurs canaux et les campagnes sur un seul canal.
+La connexion entre les canaux rapporte davantage que leur nombre. L’IPA a analysé plus de 250 études de cas de campagnes et mis en évidence un écart mesurable entre le travail intégré sur plusieurs canaux et les campagnes sur un seul canal.
 
 > « 78 % des cas à trois canaux démontrent des effets commerciaux tangibles, contre 67 % de ceux qui n’utilisent qu’un seul canal. »
 > Source : [Smart Insights, synthèse de l’IPA Effectiveness Databank](https://www.smartinsights.com/traffic-building-strategy/integrated-marketing-communications/4-options-for-integrating-marketing-campaigns/)

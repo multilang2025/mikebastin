@@ -1,5 +1,5 @@
 ---
-words: 0
+words: 929
 title: "Outils de test de localisation, et ce que chacun repère"
 slug: "outils-test-localisation"
 locale: "fr"

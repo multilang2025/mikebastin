@@ -15,7 +15,7 @@ excerpt: "Entreprise francophone installée à Valencia ? Optimisez votre site p
 
 Quelqu’un à El Carmen cherche exactement ce que vous vendez, en espagnol, en anglais ou en français, et l’entreprise la plus facile à trouver obtient la visite. Vous avez installé votre activité à Valencia, et votre clientèle y cherche en plusieurs langues : une entreprise visible dans chacune d’elles touche chacun de ces internautes, chaque semaine.
 
-Que vous serviez des crêpes à Ruzafa ou que vous proposiez des services professionnels près du port, la recherche locale décide si les bonnes personnes vous trouvent au bon moment. Être francophone est un atout : une partie de vos clients cherche en français, et vos concurrents espagnols occupent rarement ces requêtes. Voici comment les habitants de Valencia cherchent réellement, comment structurer votre site en conséquence, les bases du mobile, la façon de mesurer les résultats et par où commencer, que vous fassiez le travail vous-même ou que vous fassiez appel à un [service de référencement local](/fr/services/referencement-local/).
+Que vous serviez des crêpes à Ruzafa ou que vous proposiez des services professionnels près du port, la recherche locale décide si les bonnes personnes vous trouvent au bon moment. Être francophone est un atout : une partie de vos clients cherche en français, et ces requêtes sont souvent peu disputées. Voici comment les habitants de Valencia cherchent réellement, comment structurer votre site en conséquence, les bases du mobile, la façon de mesurer les résultats et par où commencer, que vous fassiez le travail vous-même ou que vous fassiez appel à un [service de référencement local](/fr/services/referencement-local/).
 
 ## La recherche de mots-clés pour Valencia
 

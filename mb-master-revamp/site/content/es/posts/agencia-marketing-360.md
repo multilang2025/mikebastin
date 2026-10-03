@@ -1,5 +1,5 @@
 ---
-words: 0
+words: 1204
 title: "Agencia de marketing 360: un solo plan para todos tus canales y mercados"
 metaTitle: "Agencia de marketing 360: un solo plan para tus canales"
 slug: "agencia-marketing-360"
