@@ -175,7 +175,7 @@ Google a retiré son test d’optimisation mobile en décembre 2023. Contrôlez 
 La couverture 5G de l’Allemagne s’étend, et beaucoup d’utilisateurs naviguent encore sur des connexions irrégulières, à la campagne ou dans le train. Gardez des pages légères, qui fonctionnent sur n’importe quel réseau.
 
 <aside class="post-cta">
-<p><strong>Les réglages techniques sont faits, et vous êtes prêt pour davantage de demandes allemandes ?</strong> Notre <a href="/fr/services/seo-allemand/">agence de SEO allemand</a> audite vos pages allemandes face à trois concurrents allemands directs, puis valide avec vous un plan en français. <a href="/fr/nous-contacter/">Parlez-nous de votre site allemand</a>.</p>
+<p><strong>Les réglages techniques sont faits, et vous êtes prêts pour davantage de demandes allemandes ?</strong> Notre <a href="/fr/services/seo-allemand/">agence de SEO allemand</a> audite vos pages allemandes face à trois concurrents allemands directs, puis valide avec vous un plan en français. <a href="/fr/nous-contacter/">Parlez-nous de votre site allemand</a>.</p>
 </aside>
 
 ## Par où commencer

@@ -21,7 +21,7 @@ Si eres editor, creador de contenido o agencia y estás construyendo ingresos re
 
 Cada mes promocionando el producto adecuado es contenido que genera ingresos, y la oferta sigue creciendo:
 
-> Según Post Affiliate Pro, el mercado mundial de afiliación se sitúa entre 17.000 y 18.500 millones de dólares en 2025, se prevé que supere los 20.000 millones en 2026 y que alcance 71.740 millones en 2034. Se espera que más del 90 % de los negocios de comercio electrónico tengan programa de afiliados en 2026.
+> Según Post Affiliate Pro, el mercado mundial de afiliación se sitúa en un rango de 17.000 a 18.500 millones de dólares en 2025, se prevé que supere los 20.000 millones en 2026 y que alcance 71.740 millones en 2034. Se espera que más del 90 % de los negocios de comercio electrónico tengan programa de afiliados en 2026.
 >
 > Fuente: [Post Affiliate Pro, Affiliate Marketing Industry Size 2025-2026](https://www.postaffiliatepro.com/blog/affiliate-marketing-industry-size-2025/)
 
@@ -39,7 +39,7 @@ Para lectores que compran productos físicos o quieren venderlos.
 
 ### Amazon Associates
 
-El [programa de afiliados de Amazon](https://affiliate-program.amazon.com/) sigue siendo la referencia para quien reseña productos, con comisiones en Estados Unidos de entre el 0 y el 10 % según la categoría; la mayoría de las categorías están en el 4 %. Amazon también tiene programas nacionales, como Afiliados de Amazon para amazon.es o Amazon Partenaires para amazon.fr, con sus propias tarifas, que conviene consultar en cada uno. Los porcentajes bajos se compensan con la alta conversión de Amazon cuando el visitante llega, y con la comisión sobre todo lo que añade a su cesta en las 24 horas siguientes.
+El [programa de afiliados de Amazon](https://affiliate-program.amazon.com/) sigue siendo la referencia para quien reseña productos, con comisiones en Estados Unidos del 0 al 10 % según la categoría; la mayoría de las categorías están en el 4 %. Amazon también tiene programas nacionales, como Afiliados de Amazon para amazon.es o Amazon Partenaires para amazon.fr, con sus propias tarifas, que conviene consultar en cada uno. Los porcentajes bajos se compensan con la alta conversión de Amazon cuando el visitante llega, y con la comisión sobre todo lo que añade a su cesta en las 24 horas siguientes.
 
 Ideal para: webs de reseñas, blogs de equipamiento, canales de tutoriales con selecciones de productos.
 
@@ -67,7 +67,7 @@ Ideal para: blogs de SEO, cursos de marketing digital, redactores de casos de es
 
 ### ClickFunnels
 
-El [programa de afiliados de ClickFunnels](https://www.clickfunnels.com/blog/clickfunnels-2-0-affiliate-program/) paga un 30 % de comisión recurrente durante toda la vida del cliente, lo que ClickFunnels calcula en entre 44,10 y 89,10 dólares al mes por referido según sus tres planes. Quien construye embudos rara vez cambia de herramienta, así que las comisiones se acumulan.
+El [programa de afiliados de ClickFunnels](https://www.clickfunnels.com/blog/clickfunnels-2-0-affiliate-program/) paga un 30 % de comisión recurrente durante toda la vida del cliente, lo que ClickFunnels calcula en un rango de 44,10 a 89,10 dólares al mes por referido según sus tres planes. Quien construye embudos rara vez cambia de herramienta, así que las comisiones se acumulan.
 
 Ideal para: creadores de cursos, coaches, consultores de embudos de venta.
 
