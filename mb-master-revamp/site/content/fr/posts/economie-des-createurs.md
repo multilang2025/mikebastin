@@ -1,5 +1,5 @@
 ---
-words: 0
+words: 1454
 title: "Pourquoi Jean Marie Cordaro défend une économie des créateurs plus humaine"
 metaTitle: "Jean Marie Cordaro et une économie des créateurs plus humaine"
 slug: "economie-des-createurs"
@@ -13,7 +13,7 @@ sourceUrl: null
 excerpt: "Votre audience vit sur une plateforme ? La vision de Jean Marie Cordaro pour une économie des créateurs plus humaine, et comment posséder la relation."
 ---
 
-Si votre audience vit sur la plateforme d’un tiers, vous la louez, et l’étape suivante consiste à posséder la relation. La portée bâtie au fil des années repose alors sur des algorithmes, des prestataires de paiement et des règles de compte fixés par d’autres, et vos revenus aussi. Des millions de créateurs, de coachs et d’entreprises indépendantes vivent aujourd’hui ainsi, et la plupart ressentent ce risque. Il concerne tout autant une entreprise qui vend déjà en Espagne, en Allemagne ou au Royaume-Uni et dont la relation client passe par des canaux qu’elle ne contrôle qu’en partie.
+Si votre audience vit sur la plateforme d’un tiers, vous la louez, et l’étape suivante consiste à posséder la relation. La portée bâtie au fil des années repose alors sur des algorithmes, des prestataires de paiement et des règles de compte fixés par d’autres, et vos revenus aussi. Des millions de créateurs, de coachs et d’entreprises indépendantes vivent aujourd’hui ainsi, et la plupart ressentent ce risque. Il concerne tout autant une entreprise qui vend déjà en Espagne, en Allemagne ou au Royaume-Uni et dont la relation client passe en partie par des canaux tenus par d’autres.
 
 Jean Marie Cordaro, fondateur de Bonzai.pro, a construit son travail autour d’une conviction : la technologie doit servir les personnes. Voici pourquoi, selon lui, l’économie des créateurs a trop penché du côté des plateformes, à quoi ressemble concrètement une alternative centrée sur l’humain, et ce que cela change pour quiconque veut posséder la relation avec son audience.
 

@@ -1,5 +1,5 @@
 ---
-words: 0
+words: 2406
 title: "LLM alternatifs à ChatGPT : dix modèles à connaître"
 slug: "llm-alternatifs"
 locale: "fr"

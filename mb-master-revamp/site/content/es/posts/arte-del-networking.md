@@ -1,5 +1,5 @@
 ---
-words: 0
+words: 1289
 title: "El arte del networking: estrategias para jóvenes profesionales"
 metaTitle: "El arte del networking para jóvenes profesionales"
 slug: "arte-del-networking"
@@ -122,7 +122,7 @@ Algunos mensajes reciben respuesta y algunas conexiones llevan a algo, cada una 
 
 ## El networking a largo plazo: construir relaciones
 
-Veinte contactos de LinkedIn que te cogerían el teléfono valen más que mil que solo pasarían de largo por tu perfil. Interactúa con regularidad mediante comentarios, contenido compartido y mensajes. Las personas que más te ayuden dentro de cinco años suelen ser aquellas con las que mantuviste el contacto solo por mantenerlo.
+Veinte contactos de LinkedIn que atenderían tu llamada valen más que mil que solo pasarían de largo por tu perfil. Interactúa con regularidad mediante comentarios, contenido compartido y mensajes. Las personas que más te ayuden dentro de cinco años suelen ser aquellas con las que mantuviste el contacto solo por mantenerlo.
 
 ## Por dónde empezar esta semana
 

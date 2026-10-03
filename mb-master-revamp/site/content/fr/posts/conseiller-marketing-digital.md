@@ -32,7 +32,7 @@ Après plus de deux décennies des deux côtés de la barrière, nous savons en 
 
 ## Ce que fait réellement un conseiller en marketing digital
 
-Ce que vous achetez à un conseiller, c’est la réponse à la question « pourquoi les résultats tardent-ils », et cette réponse vient du diagnostic. Un conseiller est un partenaire stratégique qui fixe le plan que d’autres exécutent. Il dessine le plan d’ensemble, audite les fondations et vérifie que chaque décision marketing sert toujours le modèle économique qui la porte.
+Auprès d’un conseiller, vous achetez la réponse à la question « pourquoi les résultats tardent-ils », et cette réponse vient du diagnostic. Un conseiller est un partenaire stratégique qui fixe le plan que d’autres exécutent. Il dessine le plan d’ensemble, audite les fondations et vérifie que chaque décision marketing sert toujours le modèle économique qui la porte.
 
 Dans notre propre travail auprès de cabinets d’avocats, de transitaires, d’agences immobilières et de sociétés de traduction, le rôle de conseiller commence en général par un diagnostic. Que fait réellement le parcours d’achat ? Où les prospects décrochent-ils ? Quels canaux transforment l’activité des tableaux de bord en chiffre d’affaires signé ?
 
@@ -40,13 +40,13 @@ La mission se mène au plus près de la direction, semaine après semaine. Le li
 
 Quand les campagnes apportent du trafic et que les rendez-vous tardent à suivre, un conseiller fouille les données pour trouver la fuite, souvent en commençant par une analyse claire des concurrents et un [audit SEO technique](/fr/checklist-audit-seo-technique/). Une fois ce diagnostic posé, nous construisons une stratégie de contenu ciblée sur ce qu’il a révélé.
 
-> Dans nos missions avec des cabinets d’avocats, des transitaires et des sociétés de traduction, le même schéma revient sans cesse. Les entreprises qui grandissent sont celles qui confient la stratégie et l’exécution à des mains distinctes, avec une boucle de retour claire entre les deux.
+> Dans nos missions avec des cabinets d’avocats, des transitaires et des sociétés de traduction, le même schéma revient constamment. Les entreprises qui grandissent sont celles qui confient la stratégie et l’exécution à des mains distinctes, avec une boucle de retour claire entre les deux.
 >
 > [Mike Bastin](/fr/notre-equipe/), consultant en SEO et marketing multilingues
 
 ## Ce que fait une agence de marketing digital
 
-Ce que vous achetez à une agence, c’est de la capacité : un travail livré par un service tout prêt. Une agence est une machine d’exécution. Vous y trouvez des spécialistes : rédacteurs, praticiens du SEO, acheteurs média, designers UX et développeurs web, dont le métier consiste à prendre le travail en charge et à le livrer.
+Auprès d’une agence, vous achetez de la capacité : un travail livré par un service tout prêt. Une agence est une machine d’exécution. Vous y trouvez des spécialistes : rédacteurs, praticiens du SEO, acheteurs média, designers UX et développeurs web, dont le métier consiste à prendre le travail en charge et à le livrer.
 
 Les agences changent d’échelle facilement. Elles pilotent des budgets publicitaires importants sur Google, Meta, LinkedIn et TikTok, publient du contenu chaque semaine et prennent en charge des tâches techniques qui demandent plus de compétences qu’un seul recrutement interne n’en couvre. Faire appel à une agence marketing à 360 degrés revient à louer un service marketing complet pour moins cher que d’en bâtir un.
 
