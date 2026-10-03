@@ -27,7 +27,7 @@
 import { readFileSync } from "fs";
 import { join } from "path";
 import matter from "gray-matter";
-import { marked } from "marked";
+import { renderMarkdown } from "@/lib/render-markdown";
 import { SITE_URL } from "@/lib/schema";
 import { REPO_ROOT, LOCALES, qualifyingGroupsForLocale, type Locale, type LocaleSlugs } from "@/lib/content-locale";
 import { LEAD_GEN_SLUGS } from "@/lib/lead-gen-hubs";
@@ -71,7 +71,7 @@ export function getServicesForLocale(locale: FileBackedLocale): LocaleService[] 
     const raw = readFileSync(join(REPO_ROOT, contentPath), "utf8");
     const { data, content } = matter(raw);
     const fm = data as ServiceFrontmatter;
-    services.push({ ...fm, html: marked.parse(content, { async: false }) as string });
+    services.push({ ...fm, html: renderMarkdown(content, locale) });
   }
 
   services.sort((a, b) => a.title.localeCompare(b.title));
@@ -84,6 +84,22 @@ export function getServiceForLocale(locale: FileBackedLocale, slug: string): Loc
 }
 
 let serviceSiblingIndex: Map<string, LocaleSlugs> | null = null;
+
+/**
+ * English pages in lib/services.ts that content-map.json holds no published
+ * EN entry for (the group's English page was consolidated), paired by hand
+ * with the French and Spanish pages that sit in the same group. Without
+ * this the switcher sent an English reader on /services/ai-consulting/ to
+ * the French homepage while a French page on the same subject existed.
+ */
+const EN_EQUIVALENTS: Record<string, string> = {
+  g056: "ai-consulting",
+  g177: "technical-seo",
+  g064: "app-and-software-localisation",
+  g093: "translation-services",
+  g075: "multilingual-content",
+  g071: "ai-translation-and-post-editing",
+};
 
 /**
  * Maps a translation group to the slug each locale published its service
@@ -128,6 +144,11 @@ function buildServiceSiblingIndex(): Map<string, LocaleSlugs> {
     }
   }
 
+  for (const [group, en] of Object.entries(EN_EQUIVALENTS)) {
+    const entry = map.get(group);
+    if (entry && !entry.en) entry.en = en;
+  }
+
   serviceSiblingIndex = map;
   return map;
 }
@@ -146,7 +167,10 @@ export function getServiceSiblings(group: string): LocaleSlugs {
  * EN slugs that do have one.
  */
 export function serviceGroupForEnSlug(slug: string): string | undefined {
-  return qualifyingGroupsForLocale("en", "service").find((g) => g.slug === slug)?.group;
+  return (
+    qualifyingGroupsForLocale("en", "service").find((g) => g.slug === slug)?.group ??
+    Object.entries(EN_EQUIVALENTS).find(([, en]) => en === slug)?.[0]
+  );
 }
 
 /** Site-relative path for a published service page in `locale`. EN stays at

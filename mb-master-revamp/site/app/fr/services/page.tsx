@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   ...pageMeta({
     title: "Services SEO international, Mike Bastin",
     description:
-      "Référencement par marché, localisation et publicité multilingue pour les entreprises qui vendent déjà à l’étranger et veulent que chaque langue rapporte des demandes.",
+      "Référencement par marché, localisation et publicité multilingue pour les entreprises qui vendent déjà à l’étranger, afin que chaque langue rapporte des demandes.",
     path: PATH,
     languages: frLanguages(PATH),
     ogLocale: "fr_FR",

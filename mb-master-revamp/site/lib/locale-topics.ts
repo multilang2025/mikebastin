@@ -46,7 +46,7 @@ const TOPICS: LocaleTopic[] = [
     name: "SEO multilingue",
     heading: "SEO multilingue\u00a0: les réglages qui additionnent vos langues",
     blurb:
-      "Les bonnes pratiques et les réglages techniques qui font positionner chaque version de votre site sur son marché : hreflang, structure de domaine, métadonnées, données structurées.",
+      "Les réglages qui font positionner chaque version de votre site sur son marché : hreflang, structure de domaine, métadonnées et données structurées.",
     service: { href: "/fr/services/referencement-multilingue/", label: "Référencement multilingue" },
     posts: [
       "bonnes-pratiques-seo-multilingue",

@@ -15,7 +15,7 @@ excerpt: "Visa nomade numérique espagnol 2026 : seuils de revenus, documents, 
 
 * * *
 
-# Conditions, revenus minimaux et régime fiscal Beckham pour les télétravailleurs francophones
+## Conditions, revenus minimaux et régime fiscal Beckham pour les télétravailleurs francophones
 
 Vous rêvez de travailler depuis Valence tout en gardant vos clients à Paris, Bruxelles ou Montréal ? Le **visa nomade numérique espagnol** (ou _digital nomad visa_) est peut-être la solution idéale pour vous, à condition de remplir les critères. Ce guide vous explique tout : **conditions, revenus minimaux, démarches, fiscalité (régime Beckham) et points de vigilance**.
 

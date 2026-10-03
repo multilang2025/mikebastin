@@ -107,7 +107,7 @@ const EN: PrivacyCopy = {
 const FR: PrivacyCopy = {
   path: "/fr/confidentialite/",
   title: "Confidentialité et cookies",
-  metaDescription: fr("Ce que ce site collecte, pourquoi, et les choix dont vous disposez : le formulaire de contact, les deux éléments conservés dans votre navigateur et vos droits au titre du RGPD."),
+  metaDescription: fr("Ce que ce site collecte, pourquoi, et vos choix : le formulaire de contact, les deux éléments conservés dans votre navigateur et vos droits au titre du RGPD."),
   eyebrow: "Ce que nous collectons et pourquoi",
   subhead: fr("Ce que ce site collecte, pourquoi, et les choix dont vous disposez."),
   intro: fr("Nous limitons au strict nécessaire les données que ce site traite : ce que vous nous envoyez par le formulaire de contact, un petit enregistrement de vos choix dans votre navigateur et, seulement si vous l’autorisez, la façon dont les pages du site sont consultées."),
