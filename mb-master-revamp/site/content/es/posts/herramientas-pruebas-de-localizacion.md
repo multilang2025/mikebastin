@@ -4,7 +4,7 @@ title: "Herramientas de pruebas de localización"
 slug: "herramientas-pruebas-de-localizacion"
 locale: "es"
 type: "posts"
-group: "g041"
+group: "g145"
 wpId: 24857767
 date: "2026-05-31T19:52:04"
 modified: "2026-05-31T19:52:04"

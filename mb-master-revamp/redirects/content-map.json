@@ -588,7 +588,12 @@
     "content_path": "site/content/en/posts/competitor-analysis.md"
    },
    "fr": null,
-   "es": null
+   "es": {
+    "id": 24855788,
+    "slug": "analisis-competitivo-seo",
+    "url": "https://mikebastin.com/es/analisis-competitivo-seo/",
+    "content_path": "site/content/es/posts/analisis-competitivo-seo.md"
+   }
   },
   {
    "group": "g025",
@@ -755,12 +760,7 @@
    "vm_target_url": null,
    "en": null,
    "fr": null,
-   "es": {
-    "id": 24855788,
-    "slug": "analisis-competitivo-seo",
-    "url": "https://mikebastin.com/es/analisis-competitivo-seo/",
-    "content_path": "site/content/es/posts/analisis-competitivo-seo.md"
-   }
+   "es": null
   },
   {
    "group": "g034",
@@ -900,12 +900,7 @@
    "vm_target_url": null,
    "en": null,
    "fr": null,
-   "es": {
-    "id": 24857767,
-    "slug": "herramientas-pruebas-de-localizacion",
-    "url": "https://mikebastin.com/es/herramientas-pruebas-de-localizacion/",
-    "content_path": "site/content/es/posts/herramientas-pruebas-de-localizacion.md"
-   }
+   "es": null
   },
   {
    "group": "g042",
@@ -2683,12 +2678,7 @@
    "vm_action": null,
    "vm_target_url": null,
    "en": null,
-   "fr": {
-    "id": 24853188,
-    "slug": "nouvelles-tendances-du-secteur-des-affaires",
-    "url": "https://mikebastin.com/fr/nouvelles-tendances-du-secteur-des-affaires/",
-    "content_path": "site/content/fr/posts/nouvelles-tendances-du-secteur-des-affaires.md"
-   },
+   "fr": null,
    "es": null
   },
   {
@@ -2970,7 +2960,12 @@
     "url": "https://mikebastin.com/global-business-trends/",
     "content_path": "site/content/en/posts/global-business-trends.md"
    },
-   "fr": null,
+   "fr": {
+    "id": 24853188,
+    "slug": "nouvelles-tendances-du-secteur-des-affaires",
+    "url": "https://mikebastin.com/fr/nouvelles-tendances-du-secteur-des-affaires/",
+    "content_path": "site/content/fr/posts/nouvelles-tendances-du-secteur-des-affaires.md"
+   },
    "es": null
   },
   {
@@ -3376,7 +3371,12 @@
     "content_path": "site/content/en/posts/localisation-testing-tools.md"
    },
    "fr": null,
-   "es": null
+   "es": {
+    "id": 24857767,
+    "slug": "herramientas-pruebas-de-localizacion",
+    "url": "https://mikebastin.com/es/herramientas-pruebas-de-localizacion/",
+    "content_path": "site/content/es/posts/herramientas-pruebas-de-localizacion.md"
+   }
   },
   {
    "group": "g146",

@@ -5,7 +5,7 @@ metaTitle: "Tendances 2026 du secteur des affaires"
 slug: "nouvelles-tendances-du-secteur-des-affaires"
 locale: "fr"
 type: "posts"
-group: "g112"
+group: "g125"
 wpId: 24853188
 date: "2025-07-15T17:45:27"
 modified: "2026-07-02T17:36:21"
