@@ -22,7 +22,7 @@ const ARIA: Record<Locale, string> = { en: "Language versions", fr: "Versions li
  */
 export default function FooterLanguages() {
   const pathname = usePathname() ?? "/";
-  const { localeManifest, pagePairs } = useLocaleData();
+  const localeIndex = useLocaleData();
   const current = localeOfPath(pathname);
   return (
     <nav aria-label={ARIA[current]} className="flex items-center gap-x-4">
@@ -32,7 +32,7 @@ export default function FooterLanguages() {
             {code}
           </span>
         ) : (
-          <Link key={locale} href={localeHref(pathname, localeManifest, pagePairs, locale)} hrefLang={locale} lang={locale} title={name} className="ulink">
+          <Link key={locale} href={localeHref(pathname, localeIndex, locale)} hrefLang={locale} lang={locale} title={name} className="ulink">
             {code}
           </Link>
         ),

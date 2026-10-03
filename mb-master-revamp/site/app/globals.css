@@ -802,6 +802,27 @@ html.mb-anim main > :first-child .reveal {
   transition: none;
 }
 
+/* Case-study spreads (components/Spread.tsx): the screenshot drifts a little
+   slower than the page and settles its zoom as it crosses the viewport, the
+   text a little faster. Scroll-driven, so it runs on the compositor with no
+   JavaScript; it follows the scroll and never loops. */
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .spread-visual { animation: spread-visual linear both; animation-timeline: view(); }
+    .spread [data-spread-scale] { animation: spread-scale linear both; animation-timeline: view(); }
+    .spread [data-spread-text] { animation: spread-text linear both; animation-timeline: view(); }
+  }
+}
+@keyframes spread-visual { from { transform: translateY(-7%); } to { transform: translateY(7%); } }
+@keyframes spread-scale { 0% { transform: scale(1.1); } 50% { transform: scale(1.02); } 100% { transform: scale(1.1); } }
+@keyframes spread-text { from { transform: translateY(9%); } to { transform: translateY(-9%); } }
+
+/* Testimonial translation disclosure (components/Testimonials.tsx). */
+.t-expand { display: grid; grid-template-rows: 0fr; opacity: 0; transition: grid-template-rows .4s cubic-bezier(.22,.7,.28,1), opacity .4s; }
+.t-expand[data-open="true"] { grid-template-rows: 1fr; opacity: 1; }
+.t-expand > * { min-height: 0; }
+@media (prefers-reduced-motion: reduce) { .t-expand { transition: none; } }
+
 /* A visitor who already answered the consent banner never sees it
    (set before paint in app/layout.tsx). */
 html.mb-consented .mb-consent { display: none; }
@@ -963,7 +984,10 @@ html.mb-anim .post-fig-art.reveal:not(.is-in) .mr-art * { animation-play-state: 
 }
 .toc-rail ol { font-size: .88rem; }
 .toc-rail .toc-link { text-decoration: none; }
-.toc-rail .toc-link[aria-current] { color: var(--berry) !important; font-weight: 600; }
+/* Colour and an underline mark the section being read; bold widened the
+   text, rewrapped the line and shifted the rail on every scroll step
+   (CWV audit, 3 Oct 2026). */
+.toc-rail .toc-link[aria-current] { color: var(--berry) !important; text-decoration: underline; text-underline-offset: 3px; }
 
 /* In-body call to action (docs/BLOG-STRUCTURE.md, "Voice, value and CTAs").
    A short aside at a decision point in the article, distinct from a source

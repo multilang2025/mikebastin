@@ -15,17 +15,39 @@ const servicePath = (locale: Locale, slug: string) => (locale === "en" ? `/servi
 export const localeOfPath = (pathname: string): Locale =>
   pathname === "/fr" || pathname.startsWith("/fr/") ? "fr" : pathname === "/es" || pathname.startsWith("/es/") ? "es" : "en";
 
-export function localeHref(
-  pathname: string,
+export function localeHref(pathname: string, index: Map<string, string[]>, target: Locale): string {
+  const group = index.get(pathname);
+  const i = LOCALE_ORDER.indexOf(target);
+  return (group && group[i]) || HOME[target];
+}
+
+/**
+ * The translation groups the root layout sends to the browser, one line per
+ * group, "en|fr|es" full paths with an empty slot where a language has no
+ * page (CWV audit, 3 Oct 2026). The earlier per-page manifest repeated every
+ * group once per language and cost about 27 KB of HTML on every page.
+ */
+export const LOCALE_ORDER: Locale[] = ["en", "fr", "es"];
+
+export function encodeLocaleGroups(
   manifest: Record<string, LocaleSlugs>,
   pagePairs: Record<string, Partial<Record<Locale, string>>>,
-  target: Locale,
 ): string {
-  const pair = pagePairs[pathname];
-  if (pair?.[target]) return pair[target]!;
-  const siblings = manifest[pathname];
-  if (siblings?.[target]) {
-    return (pathname.includes("/services/") ? servicePath : postPath)(target, siblings[target]!);
+  const lines = new Set<string>();
+  for (const [path, siblings] of Object.entries(manifest)) {
+    const make = path.includes("/services/") ? servicePath : postPath;
+    lines.add(LOCALE_ORDER.map((l) => (siblings[l] ? make(l, siblings[l]!) : "")).join("|"));
   }
-  return HOME[target];
+  // Hand-built page pairs go last so they win over a post or service sibling.
+  for (const pair of Object.values(pagePairs)) lines.add(LOCALE_ORDER.map((l) => pair[l] ?? "").join("|"));
+  return [...lines].join("\n");
+}
+
+export function decodeLocaleGroups(encoded: string): Map<string, string[]> {
+  const index = new Map<string, string[]>();
+  for (const line of encoded.split("\n")) {
+    const group = line.split("|");
+    for (const path of group) if (path) index.set(path, group);
+  }
+  return index;
 }

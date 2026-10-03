@@ -4,6 +4,7 @@ import "./globals.css";
 import SmoothScroll from "@/components/SmoothScroll";
 import SiteNav from "@/components/SiteNav";
 import { LocaleDataProvider } from "@/components/LocaleData";
+import { encodeLocaleGroups } from "@/lib/locale-href";
 import CookieConsent from "@/components/CookieConsent";
 import Analytics from "@/components/Analytics";
 import BackToTop from "@/components/BackToTop";
@@ -120,7 +121,7 @@ export default function RootLayout({
       >
         <SmoothScroll />
         <HtmlLang />
-        <LocaleDataProvider value={{ localeManifest: getLocaleManifest(), pagePairs: getPageLocaleManifest() }}>
+        <LocaleDataProvider groups={encodeLocaleGroups(getLocaleManifest(), getPageLocaleManifest())}>
           <SiteNav />
           {children}
           <CookieConsent />

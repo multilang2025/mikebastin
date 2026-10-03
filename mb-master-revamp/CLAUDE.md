@@ -344,9 +344,14 @@ and no og:url. Rules that came out of fixing it:
   Fraunces falls back to Times New Roman, Cormorant is gone, and hashed
   assets cache for a year (`.htaccess`). Measure with gzip on: a static
   server without compression adds about a second to every first paint.
-  Still open (P2/P3): motion/react on Testimonials, Counter and the Spread
-  parallax (39 kB), dl-art CSS loaded whole on 69 pages, and the locale
-  manifest inlined into every page.
+  Closed the same day: the motion/react library is gone (Counter and
+  Testimonials use `lib/motion.ts`, the Spread parallax is CSS
+  `animation-timeline: view()`), each dl-art illustration ships only its
+  own CSS (`DlArt` hoists a deduped `<style>`), the language switcher reads
+  compact translation groups (`encodeLocaleGroups` in
+  `lib/locale-href.ts`) instead of a per-page manifest, the TOC rail marks
+  the current section without bold (no shift), and contact and team pages
+  carry ContactPage and AboutPage schema.
 - **Structured data** (audit, 3 Oct 2026): a WebSite node sitewide, author
   and publisher written out in full, `inLanguage` on posts and services,
   FR and ES breadcrumbs rooted at `/fr/` and `/es/` through the blog or

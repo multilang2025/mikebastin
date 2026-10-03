@@ -1,6 +1,5 @@
 "use client";
 
-import { motion, useReducedMotion } from "motion/react";
 import { useState } from "react";
 import { TESTIMONIALS, GBP_URL, type Testimonial } from "@/lib/testimonials";
 
@@ -85,19 +84,14 @@ function Stars() {
 }
 
 function Card({ t, i, ui }: { t: Testimonial; i: number; ui: Ui }) {
-  const still = useReducedMotion();
   const [showEn, setShowEn] = useState(false);
 
+  // Plain markup, no motion library (CWV audit, 3 Oct 2026): the cards
+  // render visible in the exported HTML, and a filter change re-renders
+  // them in place. `i` is kept for the caller's stable ordering.
+  void i;
   return (
-    <motion.figure
-      layout
-      // initial={false}: an entry fade would serialise opacity:0 into the
-      // exported HTML and the wall would read as empty without JS. The layout
-      // and exit animations below still carry the filter reflow.
-      initial={false}
-      animate={{ opacity: 1, y: 0 }}
-      exit={{ opacity: 0 }}
-      transition={{ duration: 0.55, delay: still ? 0 : (i % 3) * 0.07, ease: [0.22, 0.7, 0.28, 1] }}
+    <figure
       className="mb-5 flex break-inside-avoid flex-col gap-4 rounded-[4px] border p-6"
       style={{ borderColor: "var(--rule)", background: "var(--shade)" }}
     >
@@ -129,15 +123,13 @@ function Card({ t, i, ui }: { t: Testimonial; i: number; ui: Ui }) {
           >
             {showEn ? "Hide translation" : "Read in English"}
           </button>
-          <motion.p
-            initial={false}
-            animate={{ height: showEn ? "auto" : 0, opacity: showEn ? 1 : 0 }}
-            transition={{ duration: still ? 0 : 0.4, ease: [0.22, 0.7, 0.28, 1] }}
-            className="overflow-hidden text-[.88rem] leading-[1.55]"
-            style={{ color: "var(--dim)" }}
-          >
-            <span className="mt-3 block">{t.english}</span>
-          </motion.p>
+          {/* Height eases open with a 0fr to 1fr grid row: CSS only, and it
+              snaps under reduced motion (globals.css .t-expand). */}
+          <div className="t-expand" data-open={showEn ? "true" : "false"} aria-hidden={!showEn}>
+            <p className="overflow-hidden text-[.88rem] leading-[1.55]" style={{ color: "var(--dim)" }}>
+              <span className="mt-3 block">{t.english}</span>
+            </p>
+          </div>
         </div>
       )}
 
@@ -155,7 +147,7 @@ function Card({ t, i, ui }: { t: Testimonial; i: number; ui: Ui }) {
         )}
         <span className="ml-auto" style={{ color: "var(--dim)" }}>{ui.when(t.when)}</span>
       </figcaption>
-    </motion.figure>
+    </figure>
   );
 }
 

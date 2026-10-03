@@ -6,7 +6,7 @@ import JsonLd from "@/components/JsonLd";
 import LocaleHtmlLang from "@/components/LocaleHtmlLang";
 import { ButtonLink } from "@/components/ui/Button";
 import { esLanguages } from "@/lib/fr-pages";
-import { SITE_URL, breadcrumbSchema } from "@/lib/schema";
+import { SITE_URL, breadcrumbSchema, pageSchema } from "@/lib/schema";
 import DlArt from "@/components/DlArt";
 import HeroArtSlot from "@/components/HeroArtSlot";
 
@@ -51,6 +51,7 @@ export default function SpanishTeamPage() {
   return (
     <main>
       <LocaleHtmlLang lang="es" />
+      <JsonLd data={pageSchema("AboutPage", `${SITE_URL}/es/conocenos-agencia-experta-en-seo/`, "Conócenos, tu equipo SEO en Valencia", "es")} />
       <JsonLd
         data={breadcrumbSchema([
           { name: "Inicio", url: `${SITE_URL}/es/` },

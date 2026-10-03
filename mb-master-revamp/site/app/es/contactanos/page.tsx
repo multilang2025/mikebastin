@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/Button";
 import { Field, Input, Textarea, Select, Checkbox, describedBy } from "@/components/ui/Field";
 import { getServicesForLocale } from "@/lib/services-locale";
 import { esLanguages } from "@/lib/fr-pages";
-import { SITE_URL, breadcrumbSchema } from "@/lib/schema";
+import { SITE_URL, breadcrumbSchema, pageSchema } from "@/lib/schema";
 import DlArt from "@/components/DlArt";
 import HeroArtSlot from "@/components/HeroArtSlot";
 import Link from "next/link";
@@ -48,6 +48,7 @@ export default function SpanishContactPage() {
   return (
     <main>
       <LocaleHtmlLang lang="es" />
+      <JsonLd data={pageSchema("ContactPage", `${SITE_URL}/es/contactanos/`, "Contacta con Mike Bastin", "es")} />
       <JsonLd
         data={breadcrumbSchema([
           { name: "Inicio", url: `${SITE_URL}/es/` },

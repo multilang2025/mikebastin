@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/Button";
 import { Field, Input, Textarea, Select, Checkbox, describedBy } from "@/components/ui/Field";
 import { SERVICES } from "@/lib/services";
 import JsonLd from "@/components/JsonLd";
-import { SITE_URL, breadcrumbSchema } from "@/lib/schema";
+import { SITE_URL, breadcrumbSchema, pageSchema } from "@/lib/schema";
 import DlArt from "@/components/DlArt";
 import HeroArtSlot from "@/components/HeroArtSlot";
 import Link from "next/link";
@@ -42,6 +42,7 @@ const BUDGETS = [
 export default function ContactPage() {
   return (
     <main>
+      <JsonLd data={pageSchema("ContactPage", `${SITE_URL}/contact/`, "Contact Mike Bastin", "en")} />
       <JsonLd data={breadcrumbSchema([{ name: "Home", url: `${SITE_URL}/` }, { name: "Contact", url: `${SITE_URL}/contact/` }])} />
       <section className="band band-a grain relative overflow-hidden pb-[clamp(48px,7vw,80px)] pt-[clamp(96px,14vw,160px)]">
         <div className="shell relative grid items-start gap-x-12 lg:grid-cols-[1fr_auto]">

@@ -151,6 +151,23 @@ function headline110(h: string) {
   return cut.slice(0, cut.lastIndexOf(" "));
 }
 
+/**
+ * ContactPage or AboutPage for the contact and team pages (schema audit,
+ * 3 Oct 2026): no rich result, but it names what the page is and ties it
+ * to the business and its lead.
+ */
+export function pageSchema(type: "ContactPage" | "AboutPage", url: string, name: string, inLanguage: string) {
+  return {
+    "@context": "https://schema.org",
+    "@type": type,
+    url,
+    name,
+    inLanguage,
+    isPartOf: { "@id": WEBSITE_ID },
+    about: { "@id": type === "AboutPage" ? PERSON_ID : BUSINESS_ID },
+  };
+}
+
 export type BreadcrumbItem = { name: string; url: string };
 
 /** BreadcrumbList matching the actual nav hierarchy a template renders. */

@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { useInView, useReducedMotion } from "motion/react";
+import { useInView, useReducedMotion } from "@/lib/motion";
 
 /**
  * A number that counts up when it scrolls into view.
@@ -31,7 +31,7 @@ export default function Counter({
   duration?: number;
 }) {
   const ref = useRef<HTMLSpanElement>(null);
-  const inView = useInView(ref, { once: true, margin: "-15%" });
+  const inView = useInView(ref, "-15% 0px -15% 0px");
   const still = useReducedMotion();
   const [n, setN] = useState(to);
 

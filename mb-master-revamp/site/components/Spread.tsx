@@ -1,13 +1,4 @@
-"use client";
-
-import { useRef } from "react";
 import Link from "next/link";
-import {
-  motion,
-  useScroll,
-  useTransform,
-  useReducedMotion,
-} from "motion/react";
 import type { Project } from "@/lib/projects";
 import type { ProjectCopy } from "@/lib/projects-locale";
 
@@ -16,34 +7,13 @@ import type { ProjectCopy } from "@/lib/projects-locale";
  * studies exist in English only, so a localized spread links to none.
  */
 export default function Spread({ d, flip, copy, numeral }: { d: Project; flip: boolean; copy?: ProjectCopy; numeral?: string }) {
-  const ref = useRef<HTMLElement>(null);
-  const still = useReducedMotion();
-  const { scrollYProgress } = useScroll({
-    target: ref,
-    offset: ["start end", "end start"],
-  });
-
-  // Parallax: visual drifts slower than the page, text drifts faster
-  const yVisual = useTransform(
-    scrollYProgress,
-    [0, 1],
-    still ? ["0%", "0%"] : ["-7%", "7%"],
-  );
-  const scale = useTransform(
-    scrollYProgress,
-    [0, 0.5, 1],
-    still ? [1, 1, 1] : [1.1, 1.02, 1.1],
-  );
-  const yText = useTransform(
-    scrollYProgress,
-    [0, 1],
-    still ? ["0%", "0%"] : ["9%", "-9%"],
-  );
-
+  // The parallax is CSS scroll-driven animation (globals.css .spread-*),
+  // so this is a server component with no JavaScript: the previous library
+  // version cost a 39 kB chunk and 240 ms long tasks on phones (CWV audit,
+  // 3 Oct 2026). Browsers without animation-timeline show it still.
   return (
     <article
-      ref={ref}
-      className="border-t py-[clamp(48px,7vw,96px)]"
+      className="spread border-t py-[clamp(48px,7vw,96px)]"
       style={{ borderColor: "var(--rule)" }}
     >
       {/* Name first, then the screenshot directly beneath it. The heading runs
@@ -74,14 +44,13 @@ export default function Spread({ d, flip, copy, numeral }: { d: Project; flip: b
 
       <div className="grid items-center gap-x-14 gap-y-8 lg:grid-cols-2">
         {/* visual */}
-        <motion.div
-          style={{ y: yVisual }}
-          className={`relative aspect-[5/4] overflow-hidden rounded-[3px] ${
+        <div
+          className={`spread-visual relative aspect-[5/4] overflow-hidden rounded-[3px] ${
             flip ? "lg:order-2" : "lg:order-1"
           }`}
         >
           {d.shot ? (
-            <motion.img
+            <img
               src={d.shot}
               /* An 800px copy (written next to each file) serves phones and
                  the half-width desktop column; the 1600px original covers
@@ -93,14 +62,14 @@ export default function Spread({ d, flip, copy, numeral }: { d: Project; flip: b
               alt={copy?.alt ?? `The ${d.name} website on desktop and mobile`}
               loading="lazy"
               decoding="async"
-              style={{ scale }}
+              data-spread-scale
               className="absolute inset-0 h-full w-full object-cover object-top"
             />
           ) : (
             <>
-              <motion.div
+              <div
+                data-spread-scale
                 style={{
-                  scale,
                   background: `linear-gradient(135deg,
                   color-mix(in oklab, var(--deep) 88%, black) 0%,
                   var(--deep) 42%,
@@ -132,11 +101,11 @@ export default function Spread({ d, flip, copy, numeral }: { d: Project; flip: b
             className="absolute inset-0"
             style={{ boxShadow: "inset 0 0 90px rgb(0 0 0 / .35)" }}
           />
-        </motion.div>
+        </div>
 
         {/* text */}
-        <motion.div
-          style={{ y: yText }}
+        <div
+          data-spread-text
           className={flip ? "lg:order-1" : "lg:order-2"}
         >
           <p
@@ -186,7 +155,7 @@ export default function Spread({ d, flip, copy, numeral }: { d: Project; flip: b
               Read the case study
             </Link>
           )}
-        </motion.div>
+        </div>
       </div>
     </article>
   );
