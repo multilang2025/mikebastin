@@ -68,8 +68,10 @@ export type Project = {
    * (links, SEO, backlink and crypto pitches) left out, total divided by
    * three and rounded: TX 451, Delaguía 207, Bemelman 5. ValenciaMove's come
    * from its own dashboard (Supabase `consultations`, form rows not typed
-   * spam): 119. Absent where the site keeps no countable record: C21
-   * Perdomo's headless front end posts its forms elsewhere.
+   * spam): 119. C21 Perdomo's headless front end posts its forms outside
+   * WordPress, so it has no record to count here; its count is a range the
+   * owner gave on 3 Oct 2026 ("between TX and DL"), shown as such. A range
+   * is written "low to high", which the results page sums as a range.
    */
   leads?: { count: string; what: string };
   /** Path under /work/, omitted where no usable capture exists. */
@@ -166,6 +168,7 @@ export const PROJECTS: Project[] = [
    "Four languages held correct against weekly-turnover inventory on a live real estate site.",
     services: ["Multilingual SEO", "Headless WordPress", "WPML and WooCommerce", "Four languages"],
     search: { clicks: "9,944", impressions: "461,231", position: "10.1", note: "May to July 2026" },
+    leads: { count: "70 to 150", what: "enquiries" },
     shot: `/work/c21perdomo.webp?v=${SHOT_VERSION}`,
   },
   {

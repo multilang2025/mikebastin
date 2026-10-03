@@ -34,8 +34,19 @@ const CLICKS = TOTAL_CLICKS.toLocaleString("en-GB");
 // Enquiries come first, as a monthly average (owner, 3 Oct 2026), counted on
 // the sites that keep a form record (lib/projects.ts).
 const WITH_LEADS = WITH_SEARCH.filter((p) => p.leads);
-const LEADS = WITH_LEADS.reduce((n, p) => n + toNumber(p.leads!.count), 0).toLocaleString("en-GB");
-const LEAD_SITES = WORDS[WITH_LEADS.length] ?? String(WITH_LEADS.length);
+const [LEADS_LOW, LEADS_HIGH] = WITH_LEADS.reduce(
+  ([lo, hi], p) => {
+    const [a, b = a] = p.leads!.count.split(" to ").map(toNumber);
+    return [lo + a, hi + b];
+  },
+  [0, 0],
+);
+const LEADS =
+  LEADS_LOW === LEADS_HIGH
+    ? LEADS_LOW.toLocaleString("en-GB")
+    : `${LEADS_LOW.toLocaleString("en-GB")} to ${LEADS_HIGH.toLocaleString("en-GB")}`;
+const COUNTED = WITH_LEADS.filter((p) => !p.leads!.count.includes(" to ")).length;
+const LEAD_SITES = WORDS[COUNTED] ?? String(COUNTED);
 const MILLIONS = (TOTAL_IMPRESSIONS / 1_000_000).toFixed(1);
 const SITE_COUNT = WORDS[WITH_SEARCH.length] ?? String(WITH_SEARCH.length);
 
@@ -97,7 +108,8 @@ export default function ResultsPage() {
             <blockquote className="mb-12 max-w-[56ch] text-[.85rem]" style={{ color: "var(--dim)" }}>
               Sources: enquiries are a monthly average for {LEADS_PERIOD},
               from the {LEAD_SITES} sites that keep a record of their contact
-              and quote forms, counted from those records; clicks and
+              and quote forms, counted from those records (C21 Perdomo’s
+              forms post outside its site, so its figure is a range); clicks and
               impressions are May to July 2026, from Google Search Console.
             </blockquote>
           </Reveal>
