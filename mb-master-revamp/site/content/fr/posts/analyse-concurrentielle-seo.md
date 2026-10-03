@@ -86,7 +86,7 @@ Une entreprise française qui vend en Espagne, en Allemagne et au Royaume-Uni se
 
 ## La recherche par IA change la question, et la méthode tient
 
-Oui, le [GEO et les citations par les IA](/fr/seo-au-geo/) comptent. Oui, les citations dans ChatGPT et Perplexity pèsent désormais dans les parcours d’achat B2B. La logique concurrentielle de fond reste pour l’essentiel la même.
+Oui, le [passage du SEO au GEO](/fr/seo-au-geo/) compte. Oui, les citations dans ChatGPT et Perplexity pèsent désormais dans les parcours d’achat B2B. La logique concurrentielle de fond reste pour l’essentiel la même.
 
 Nous ajoutons aujourd’hui pour nos clients une petite couche « qui est cité dans les réponses d’IA pour les questions de nos acheteurs ». Nous lançons cinq à dix requêtes qu’un vrai prospect pourrait poser, nous relevons les domaines cités, et nous vérifions leur recoupement avec les concurrents des pages de résultats classiques.
 

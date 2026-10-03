@@ -9,7 +9,7 @@ wpId: null
 date: "2026-10-03"
 modified: "2026-10-03"
 sourceUrl: null
-excerpt: "Des versions localisées propres dès leur sortie : les outils de test de localisation qui repèrent les défauts de mise en page, de texte et de format."
+excerpt: "Outils de test de localisation : repérez les défauts de mise en page, de texte et de format avant vos utilisateurs, pour des versions propres."
 ---
 
 Votre produit fonctionne parfaitement en français, et la version allemande ou néerlandaise peut en faire autant : chaque libellé tient dans son bouton, chaque date affiche le bon mois, dès le premier jour.
