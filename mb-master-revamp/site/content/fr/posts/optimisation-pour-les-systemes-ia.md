@@ -1,5 +1,5 @@
 ---
-words: 825
+words: 1083
 title: "Optimisation pour les systèmes d’IA : auditer ce que les LLM savent de votre marque"
 metaTitle: "Optimisation pour les systèmes d’IA et les LLM"
 slug: "optimisation-pour-les-systemes-ia"
@@ -33,7 +33,7 @@ Deux acheteurs posant exactement la même question reçoivent donc des réponses
 
 ## Auditer ce que les LLM savent de votre marque
 
-Ce que Gemini, ChatGPT et les autres modèles savent de votre entreprise conditionne chacune de leurs recommandations. Un audit structuré, mené par un [expert en SEO international](https://mikebastin.com/fr/expert-en-seo-international/), mesure l’écart entre votre positionnement réel et votre représentation dans ce graphe de connaissances. Voici la méthode, en quatre étapes.
+Ce que Gemini, ChatGPT et les autres modèles savent de votre entreprise conditionne chacune de leurs recommandations. Un audit structuré, mené par un [expert en SEO international](https://mikebastin.com/fr/expert-en-seo-international/), mesure l’écart entre votre positionnement réel et votre représentation dans ce graphe de connaissances. Chaque modèle a sa propre image de vous, et notre panorama des [LLM alternatifs à ChatGPT](/fr/llm-alternatifs/) présente ceux à inclure dans l’audit. Voici la méthode, en quatre étapes.
 
 ![Optimisation pour les systèmes d’IA : extraire, analyser, construire, tester](/images/legacy/2026/01/optimisation-ia-1024x359.jpg)
 

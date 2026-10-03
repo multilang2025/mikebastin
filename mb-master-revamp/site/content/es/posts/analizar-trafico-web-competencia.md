@@ -1,5 +1,5 @@
 ---
-words: 1129
+words: 1159
 title: "Analizar el tráfico web de la competencia en tus mercados"
 metaTitle: "Analizar el tráfico web de la competencia"
 slug: "analizar-trafico-web-competencia"

@@ -1,5 +1,5 @@
 ---
-words: 1142
+words: 1154
 title: "Netlinking en Espagne : les liens éditoriaux qui comptent"
 slug: "netlinking-en-espagne"
 locale: "fr"
@@ -57,7 +57,7 @@ Chacune fait gagner des liens qu’un rédacteur espagnol a choisi de donner, de
 
 Ces trois réflexes gardent votre budget sur des liens qui comptent, et nous les cherchons dans chaque programme de liens espagnol que nous auditons.
 
-**Examinez ce que contiennent les plateformes de liens.** Publisuites et Prensalink référencent de vrais éditeurs. Avant d’acheter, regardez le trafic, le contrôle éditorial et le sujet de chaque site, pour retenir ceux dont le lecteur correspond à votre acheteur.
+**Examinez ce que contiennent les plateformes de liens.** Publisuites et Prensalink référencent de vrais éditeurs. Avant d’acheter, regardez le trafic, le contrôle éditorial et le sujet de chaque site, pour retenir ceux dont le lecteur correspond à votre acheteur. Notre [liste commentée des plateformes de liens](/fr/plateformes-achat-vente-liens/) en passe 27 en revue, avec les contrôles à faire avant d’acheter.
 
 **Écrivez aux rédacteurs espagnols en espagnol.** Confiez vos propositions à un rédacteur de langue maternelle espagnole, qui connaît le ton de chaque titre. Un message personnalisé dans la langue du journaliste montre que votre sujet a été pensé pour son public.
 

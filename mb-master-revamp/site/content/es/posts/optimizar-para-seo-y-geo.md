@@ -1,5 +1,5 @@
 ---
-words: 1461
+words: 1508
 title: "Estrategia de contenido dual: optimizar para SEO y GEO"
 slug: "optimizar-para-seo-y-geo"
 locale: "es"

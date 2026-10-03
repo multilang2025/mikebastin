@@ -1,5 +1,5 @@
 ---
-words: 1046
+words: 1088
 title: "SEO internacional para empresas que venden en el extranjero"
 name: "SEO internacional"
 slug: "optimizacion-seo"

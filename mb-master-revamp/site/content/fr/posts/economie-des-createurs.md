@@ -119,7 +119,7 @@ L’enseignement pratique pour quiconque a une audience : bâtissez sur un terr
 
 Pour Cordaro, l’avenir du monde numérique dépend de notre capacité à rester humains, et Bonzai en est l’exemple concret. Pour les créateurs qui bâtissent leur propre image personnelle, notre guide sur [l’art du networking](/fr/art-du-networking/) couvre le versant hors ligne de la même idée.
 
-## Questions fréquentes sur Jean Marie Cordaro et Bonzai
+## Questions fréquentes sur Bonzai et son fondateur
 
 ### Pourquoi Jean Marie Cordaro défend-il une économie des créateurs plus humaine ?
 

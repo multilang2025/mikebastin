@@ -1,5 +1,5 @@
 ---
-words: 1304
+words: 1265
 title: "Consultoría de inteligencia artificial para empresas que venden fuera"
 metaTitle: "Consultoría de inteligencia artificial, Mike Bastin"
 name: "Consultoría de IA"

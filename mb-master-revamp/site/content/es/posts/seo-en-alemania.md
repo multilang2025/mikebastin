@@ -1,5 +1,5 @@
 ---
-words: 1877
+words: 1986
 title: "SEO en Alemania: buenas prácticas y tendencias"
 slug: "seo-en-alemania"
 locale: "es"

@@ -70,7 +70,7 @@ Optimisez d’abord pour Google, puis consultez Bing Webmaster Tools pour des ma
 
 ## Le paysage concurrentiel
 
-Vos concurrents en Espagne diffèrent souvent de ceux que vous affrontez en France, en Belgique ou en Suisse. Des acteurs locaux et des marques déjà localisées occupent les positions que vous visez, et ils varient d’un pays à l’autre. Cartographiez-les marché par marché, en espagnol, avant de décider quoi publier.
+Vos concurrents en Espagne diffèrent souvent de ceux que vous affrontez en France, en Belgique ou en Suisse. Des acteurs locaux et des marques déjà localisées occupent les positions que vous visez, et ils varient d’un pays à l’autre. Cartographiez-les marché par marché, en espagnol, avant de décider quoi publier. Une [analyse concurrentielle SEO](/fr/analyse-concurrentielle-seo/) vous donne cette carte.
 
 <aside class="post-cta">
 <p><strong>Vous voulez savoir qui vous concurrence dans chaque marché espagnol ?</strong> Notre <a href="/fr/services/seo-espagnol/">service de SEO espagnol</a> étudie chaque marché avec des locuteurs natifs et rend compte de chacun séparément, de sorte que l’Espagne et le Mexique obtiennent chacun leur propre chiffre. <a href="/fr/nous-contacter/">Parlez-nous de vos marchés</a>.</p>

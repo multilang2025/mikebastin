@@ -1,5 +1,5 @@
 ---
-words: 1071
+words: 1318
 title: "Analizar los backlinks de tus competidores para ganar autoridad"
 metaTitle: "Analizar backlinks de competidores: guía SEO"
 slug: "analizar-backlinks-competidores"

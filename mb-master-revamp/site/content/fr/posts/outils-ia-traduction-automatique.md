@@ -1,5 +1,5 @@
 ---
-words: 951
+words: 1183
 title: "Outils d’IA et de traduction automatique : optimiser vos contenus multilingues"
 metaTitle: "IA et traduction automatique : contenus multilingues"
 slug: "outils-ia-traduction-automatique"
@@ -23,8 +23,8 @@ Voici ce que ces outils font bien, les endroits où un linguiste apporte le plus
 
 Savoir ce que les moteurs font bien indique où les laisser travailler et où placer un relecteur. Deux familles d’outils se partagent le terrain.
 
-- **Les moteurs de traduction neuronale**, comme DeepL et Google Translate, traduisent de gros volumes en quelques secondes et acceptent un glossaire qui fixe vos termes de produit.
-- **Les grands modèles de langage**, comme ChatGPT, Gemini et Claude, suivent en plus des consignes : un registre, un ton, une longueur, une liste de termes à respecter.
+- **Les moteurs de traduction neuronale**, comme DeepL et Google Translate, traduisent de gros volumes en quelques secondes et acceptent un glossaire qui fixe vos termes de produit. Côté traducteur, nos [extensions Chrome pour traducteurs](/fr/extensions-chrome-traducteurs/) placent ces outils directement dans le navigateur.
+- **Les grands modèles de langage**, comme ChatGPT, Gemini et Claude, suivent en plus des consignes : un registre, un ton, une longueur, une liste de termes à respecter. Notre panorama de [dix LLM au-delà de ChatGPT](/fr/llm-alternatifs/) indique l’usage où chacun excelle.
 
 Les deux produisent un texte bien plus fluide et plus attentif au contexte que les systèmes d’il y a dix ans. Ils excellent dans les tâches répétitives : chaînes de texte récurrentes, catalogues de produits, et mise à jour de toutes les versions de langue quand le texte source change.
 

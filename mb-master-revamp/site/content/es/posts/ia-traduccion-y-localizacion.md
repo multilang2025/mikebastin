@@ -1,5 +1,5 @@
 ---
-words: 884
+words: 932
 title: "Cómo la IA transforma la traducción y la localización"
 slug: "ia-traduccion-y-localizacion"
 locale: "es"

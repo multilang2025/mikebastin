@@ -1,5 +1,5 @@
 ---
-words: 916
+words: 936
 title: "Marketing con IA: tres usos que se amortizan primero"
 slug: "marketing-con-ia"
 locale: "es"

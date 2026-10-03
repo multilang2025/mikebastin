@@ -1,5 +1,5 @@
 ---
-words: 1064
+words: 1089
 title: "Traducción de páginas web y localización web para vender en cada idioma"
 metaTitle: "Traducción de páginas web y localización web"
 name: "Traducción y localización web"

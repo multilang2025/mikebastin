@@ -1,5 +1,5 @@
 ---
-words: 1032
+words: 1057
 title: "SEO en Allemagne pour vendre aux acheteurs germanophones"
 name: "SEO en Allemagne"
 slug: "seo-allemand"
@@ -52,7 +52,7 @@ L’Allemagne porte l’essentiel du volume de recherche et reste le point de d�
 
 La Suisse alémanique lit l’allemand standard, avec ses propres conventions : Strasse s’y écrit avec ss là où l’Allemagne écrit Straße, les prix s’affichent en CHF et les numéros de téléphone suivent le format suisse. Ce sont des détails, et justement ceux qui disent à un acheteur suisse que la page a été écrite pour lui.
 
-Couvrir les trois pays représente un vrai engagement éditorial, qui se justifie quand votre offre parle autant aux trois marchés. Nous faisons la recommandation au cadrage, à partir de ce que vous vendez. Les balises hreflang de-DE, de-AT et de-CH indiquent ensuite à Google quelle version montrer dans quel pays, avec des slugs traduits et un sitemap par variante.
+Couvrir les trois pays représente un vrai engagement éditorial, qui se justifie quand votre offre parle autant aux trois marchés. Nous faisons la recommandation au cadrage, à partir de ce que vous vendez. Les balises hreflang de-DE, de-AT et de-CH indiquent ensuite à Google quelle version montrer dans quel pays, avec des slugs traduits et un sitemap par variante. Notre article sur le [SEO technique d’un site allemand](/fr/seo-technique-allemagne/) détaille ces réglages pour les trois pays.
 
 ## Les détails qu’un acheteur allemand vérifie
 

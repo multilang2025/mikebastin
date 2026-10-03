@@ -1,5 +1,5 @@
 ---
-words: 2116
+words: 2222
 title: "Análisis competitivo SEO: cómo convertir el análisis de la competencia en un plan"
 metaTitle: "Análisis competitivo SEO convertido en un plan de acción"
 slug: "analisis-competitivo-seo"

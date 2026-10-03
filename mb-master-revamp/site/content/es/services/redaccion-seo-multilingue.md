@@ -1,5 +1,5 @@
 ---
-words: 842
+words: 855
 title: "Creación de contenido multilingüe escrito para cada mercado"
 name: "Contenido multilingüe"
 slug: "redaccion-seo-multilingue"

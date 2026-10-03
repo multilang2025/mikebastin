@@ -1,5 +1,5 @@
 ---
-words: 2080
+words: 2328
 title: "El futuro del SEO: IA, GEO y lo que sigue funcionando"
 slug: "futuro-del-seo"
 locale: "es"

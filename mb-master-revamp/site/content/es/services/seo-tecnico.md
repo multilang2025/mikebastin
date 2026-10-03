@@ -1,5 +1,5 @@
 ---
-words: 937
+words: 931
 title: "SEO técnico para que cada idioma de tu web venda"
 name: "SEO técnico"
 slug: "seo-tecnico"

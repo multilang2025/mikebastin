@@ -1,5 +1,5 @@
 ---
-words: 1070
+words: 1092
 title: "Publicidad multilingüe y Google Ads internacional, mercado por mercado"
 metaTitle: "Publicidad multilingüe y Google Ads internacional"
 name: "Publicidad multilingüe"

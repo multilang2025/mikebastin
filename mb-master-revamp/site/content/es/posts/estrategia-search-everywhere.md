@@ -1,5 +1,5 @@
 ---
-words: 1713
+words: 1844
 title: "Estrategia search everywhere para aparecer en cada buscador"
 slug: "estrategia-search-everywhere"
 locale: "es"

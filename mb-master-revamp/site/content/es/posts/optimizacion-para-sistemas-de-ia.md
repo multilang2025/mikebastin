@@ -1,5 +1,5 @@
 ---
-words: 926
+words: 955
 title: "Optimización para sistemas de IA: más allá del seguimiento de prompts"
 metaTitle: "Optimización para sistemas de IA: más allá de los prompts"
 slug: "optimizacion-para-sistemas-de-ia"

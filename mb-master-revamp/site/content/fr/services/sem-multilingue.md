@@ -1,5 +1,5 @@
 ---
-words: 1105
+words: 1088
 title: "SEM multilingue et Google Ads international, pilotés marché par marché"
 name: "SEM multilingue"
 metaTitle: "SEM multilingue et Google Ads international"
@@ -44,7 +44,7 @@ Ce principe concerne le budget média ; la rédaction et la traduction font l�
 
 Google Ads porte le budget par défaut. Microsoft Advertising trouve sa place auprès d’une audience B2B américaine restée dans l’écosystème Microsoft, Meta couvre la portée B2C, et LinkedIn le ciblage B2B dans des secteurs précis.
 
-Le français, l’anglais, l’espagnol et le néerlandais sont gérés directement par notre équipe : la recherche de mots-clés, les annonces et les rapports de termes de recherche sont lus dans la langue elle-même. L’allemand, l’italien, le portugais et les autres langues sont confiés à des locuteurs natifs de l’équipe BeTranslated, briefés et relus comme pour le contenu organique.
+Le français, l’anglais, l’espagnol et le néerlandais sont gérés directement par notre équipe : la recherche de mots-clés, les annonces et les rapports de termes de recherche sont lus dans la langue elle-même. L’allemand, l’italien, le portugais et les autres langues sont confiés à des locuteurs natifs de l’équipe BeTranslated, briefés et relus comme pour le contenu organique. Pour l’acheteur français, notre guide pour [réussir une campagne Google Ads en France](/fr/campagne-google-ads-france/) détaille les réglages qui transforment les clics en demandes de devis.
 
 ## Ce que des comptes séparés par langue ont apporté
 

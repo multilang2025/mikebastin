@@ -1,5 +1,5 @@
 ---
-words: 1524
+words: 1591
 title: "Google Analytics en el marketing internacional: qué creer y qué revisar"
 metaTitle: "Google Analytics en el marketing internacional"
 slug: "google-analytics-marketing-internacional"

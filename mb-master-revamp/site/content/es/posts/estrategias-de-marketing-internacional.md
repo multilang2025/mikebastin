@@ -1,5 +1,5 @@
 ---
-words: 1628
+words: 1740
 title: "Estrategias de marketing internacional para pymes"
 slug: "estrategias-de-marketing-internacional"
 locale: "es"

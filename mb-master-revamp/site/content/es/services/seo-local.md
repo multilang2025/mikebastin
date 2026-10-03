@@ -1,5 +1,5 @@
 ---
-words: 1220
+words: 1218
 title: "SEO local para que te encuentren en cada ciudad donde vendes"
 name: "SEO local"
 slug: "seo-local"

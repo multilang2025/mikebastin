@@ -1,5 +1,5 @@
 ---
-words: 1039
+words: 1111
 title: "Rastrear y medir rendimiento de GEO y citas de IA"
 slug: "medir-rendimiento-geo"
 locale: "es"

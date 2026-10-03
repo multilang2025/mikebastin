@@ -1,5 +1,5 @@
 ---
-words: 765
+words: 751
 title: "Localisation d’applications et de logiciels"
 name: "Localisation d’applications"
 slug: "localisation-applications"
@@ -58,7 +58,7 @@ Les captures d’écran comptent aussi. Une fiche qui montre à un visiteur alle
 
 La plupart des défauts de localisation tiennent à l’affichage : un libellé qui déborde de son bouton en allemand, une date inversée, une mise en page de droite à gauche qui retourne tout sauf une icône. Ils apparaissent sur un appareil, dans cette langue : c’est là que nous vérifions.
 
-Le premier test a lieu avant la traduction : une pseudo-localisation remplit l’interface d’un texte fictif, allongé et accentué, et montre d’emblée chaque libellé qui déborde. Après le lancement, chaque nouvelle version de l’application part dans toutes ses langues : les nouvelles chaînes sont traduites et testées avant la mise à jour du store.
+Le premier test a lieu avant la traduction : une pseudo-localisation remplit l’interface d’un texte fictif, allongé et accentué, et montre d’emblée chaque libellé qui déborde. Après le lancement, chaque nouvelle version de l’application part dans toutes ses langues : les nouvelles chaînes sont traduites et testées avant la mise à jour du store. Notre panorama des [outils de test de localisation](/fr/outils-test-localisation/) montre ce que chacun repère.
 
 ## Vos vidéos et contenus audio dans chaque langue
 

@@ -1,5 +1,5 @@
 ---
-words: 1318
+words: 1434
 title: "Crear una marca global: qué viaja y qué se adapta"
 slug: "crear-una-marca-global"
 locale: "es"

@@ -1,5 +1,5 @@
 ---
-words: 1251
+words: 1377
 title: "Herramientas gratuitas de análisis competitivo para SEO"
 metaTitle: "Herramientas gratuitas de análisis competitivo SEO"
 slug: "herramientas-gratuitas-analisis-competitivo"

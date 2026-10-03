@@ -1,5 +1,5 @@
 ---
-words: 1702
+words: 1715
 title: "Programmes d’affiliation qui valent le temps de mise en place"
 metaTitle: "Programmes d’affiliation qui valent leur mise en place"
 slug: "programmes-affiliation"
@@ -27,9 +27,9 @@ Chaque mois consacré au bon produit donne des contenus qui rapportent, et le ch
 
 Comparez le taux de commission en dernier : une commission de 50 % rapporte quand vos lecteurs veulent le produit. Trois filtres passent avant :
 
-- **L’adéquation produit :** votre audience achète-t-elle déjà quelque chose de proche, ou lui présenteriez-vous une catégorie entièrement nouvelle ?
-- **La durée du cookie :** 30 jours ou plus laissent à l’attribution le temps d’agir, et pour les produits par abonnement, les commissions récurrentes comptent davantage qu’un paiement unique.
-- **La confiance dans la marque :** un avis sur Amazon ou HubSpot demande bien moins d’efforts de conviction qu’un avis sur une marque que votre lecteur découvre.
+- **L’adéquation produit :** votre audience achète-t-elle déjà quelque chose de proche, ou lui présenteriez-vous une catégorie entièrement nouvelle ?
+- **La durée du cookie :** 30 jours ou plus laissent à l’attribution le temps d’agir, et pour les produits par abonnement, les commissions récurrentes comptent davantage qu’un paiement unique.
+- **La confiance dans la marque :** un avis sur Amazon ou HubSpot demande bien moins d’efforts de conviction qu’un avis sur une marque que votre lecteur découvre.
 
 Les programmes ci-dessous équilibrent ces trois filtres et sont regroupés selon l’audience qu’ils servent. Les conditions changent souvent : vérifiez toujours la page officielle avant de vous appuyer sur un chiffre dans un article, le nôtre compris.
 

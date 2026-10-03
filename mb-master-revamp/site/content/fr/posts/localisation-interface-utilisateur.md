@@ -1,5 +1,5 @@
 ---
-words: 923
+words: 1042
 title: "Localisation d’interface utilisateur : un produit à l’aise dans chaque langue"
 metaTitle: "Localisation d’interface utilisateur, langue par langue"
 slug: "localisation-interface-utilisateur"
@@ -53,7 +53,7 @@ L’essentiel du coût se décide avant la traduction de la première chaîne. C
 - **Planifier dès le départ.** Intégrez la localisation au processus de design, pour que les mises en page et les fonctions accueillent chaque langue à son arrivée.
 - **Tester avec une pseudo-localisation.** Avant toute traduction, un texte fictif, allongé et accentué remplit l’interface et montre d’emblée chaque libellé qui déborde.
 - **Confier l’interface à des traducteurs professionnels.** Pour les chaînes d’interface, des traducteurs humains rendent le contexte, le ton et le sens dont chaque chaîne a besoin.
-- **Tester avec des utilisateurs locaux.** Un test d’utilisabilité avec des personnes de chaque marché est la vérification fiable que l’interface localisée fonctionne.
+- **Tester avec des utilisateurs locaux.** Un test d’utilisabilité avec des personnes de chaque marché est la vérification fiable que l’interface localisée fonctionne. Notre sélection d’[outils de test de localisation](/fr/outils-test-localisation/) repère en amont les défauts de mise en page et de format.
 - **Travailler en étroite collaboration avec les développeurs.** L’équipe technique prévoit dès le départ l’expansion du texte et la lecture de droite à gauche.
 
 <aside class="post-cta">

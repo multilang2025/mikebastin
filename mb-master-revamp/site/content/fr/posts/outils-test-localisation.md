@@ -1,5 +1,5 @@
 ---
-words: 1041
+words: 1149
 title: "Outils de test de localisation, et ce que chacun repère"
 slug: "outils-test-localisation"
 locale: "fr"
@@ -59,7 +59,7 @@ Chaque outil couvre une partie du travail ; le tableau montre ce que votre conf
 | [PhantomJS](https://phantomjs.org/) | Automatisation | Navigateur sans interface, développement suspendu |
 | [Applitools](https://applitools.com/) | Test visuel | Différences de mise en page et de rendu entre les langues |
 | [Pseudolocalize](http://www.pseudolocalize.com/) | Pseudo-localisation | Fausses traductions qui révèlent les problèmes de mise en page |
-| [Localize](https://localizejs.com/) | Gestion de la traduction | Repère les problèmes de localisation dans les applications web |
+| [Localise](https://localizejs.com/) | Gestion de la traduction | Repère les problèmes de localisation dans les applications web |
 | [Microsoft pseudolocalization](https://learn.microsoft.com/en-us/globalization/methodology/pseudolocalization) | Pseudo-localisation | Versions de test qui révèlent le texte codé en dur et tronqué |
 
 Deux outils d’automatisation plus anciens se réservent aux suites existantes :

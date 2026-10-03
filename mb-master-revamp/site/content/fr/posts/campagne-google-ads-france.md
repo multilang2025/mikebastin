@@ -1,5 +1,5 @@
 ---
-words: 1998
+words: 1751
 title: "Réussir votre campagne Google Ads en France"
 slug: "campagne-google-ads-france"
 locale: "fr"
@@ -60,7 +60,7 @@ Menée dans le bon ordre, chaque vague de dépenses vous indique où placer la s
 <figcaption>Les résultats de la dernière étape décident où vont la prochaine série de mots-clés, de textes et de budget.</figcaption>
 </figure>
 
-## Recherche : les mots que tapent les acheteurs français
+## Recherche : les mots que tapent les acheteurs français
 
 La recherche vous donne les termes qu’un acheteur lyonnais tape réellement, souvent différents de ceux de votre compte d’origine, même dans la même langue. Un annonceur belge enchérit sur « GSM » quand l’acheteur français tape « smartphone » ou « portable » ; un annonceur suisse écrit « natel » et « nonante », un annonceur bruxellois « septante », là où l’acheteur français tape « portable », « quatre-vingt-dix » et « soixante-dix ». La France compte aussi plusieurs publics : les habitudes d’achat et le vocabulaire varient d’une région à l’autre.
 
@@ -93,7 +93,7 @@ Microsoft Advertising (anciennement Bing Ads) offre une portée moins chère qui
 
 ## Rédiger des annonces qui parlent à l’acheteur français
 
-Votre annonce est la première phrase qu’un acheteur français lit de vous, et il repère tout de suite un texte écrit pour un autre marché. Un français de France naturel inspire confiance : il montre au lecteur que vous servez son marché et le retient sur votre annonce.
+Votre annonce est la première phrase qu’un acheteur français lit de vous, et il repère tout de suite un texte écrit pour un autre marché. Un français de France naturel inspire confiance : il montre au lecteur que vous servez son marché et le retient sur votre annonce.
 
 Rédigez titres et descriptions autour de ce qui compte pour un acheteur français. Des références culturelles ou des [expressions locales, lorsqu’elles renforcent la pertinence](/fr/marque-internationale/), donnent le sentiment d’une annonce écrite pour lui, à condition qu’elles conviennent à votre marque. Les expressions belges, suisses ou luxembourgeoises qui font mouche chez vous gagnent à être remplacées par leurs équivalents français.
 

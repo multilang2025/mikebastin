@@ -1,5 +1,5 @@
 ---
-words: 1090
+words: 1100
 title: "SEO en Alemania para vender a compradores de habla alemana"
 name: "SEO en Alemania"
 slug: "seo-aleman"

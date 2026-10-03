@@ -1,5 +1,5 @@
 ---
-words: 1479
+words: 1577
 title: "SEO on-page et GEO en espagnol : la liste de contrôle des pages qui parlent comme vos acheteurs"
 metaTitle: "SEO on-page et GEO en espagnol : la liste de contrôle"
 slug: "seo-on-page-espagnol"
@@ -63,7 +63,7 @@ Un texte alternatif en espagnol aide les utilisateurs malvoyants comme les moteu
 
 ### Liens internes
 
-Un lecteur espagnol qui reste en espagnol du premier clic au dernier reste avec vous. Reliez les pages espagnoles entre elles, avec des ancres rédigées en espagnol naturel.
+Un lecteur espagnol qui reste en espagnol du premier clic au dernier reste avec vous. Reliez les pages espagnoles entre elles, avec des ancres rédigées en espagnol naturel. Sur WordPress, notre comparatif d’[outils de maillage interne](/fr/outils-maillage-interne/) vous aide à choisir l’extension qui accélère ce travail.
 
 <aside class="post-cta">
 <p><strong>Vous voulez des slugs espagnols, des textes alternatifs en espagnol et un seul registre sur toutes vos pages espagnoles ?</strong> Notre <a href="/fr/services/seo-espagnol/">service de SEO espagnol</a> rédige l’espagnol d’Espagne directement depuis Valence, avec une recherche de mots-clés menée par des locuteurs natifs de chaque espagnol visé. <a href="/fr/nous-contacter/">Réservez un premier échange</a>.</p>
@@ -106,7 +106,7 @@ Les chiffres par marché montrent ce qui a fonctionné. Utilisez Google Search C
 
 ## Ce qu’il faut vérifier en priorité
 
-Contrôlez avec le plus grand soin la justesse de la traduction et les différences régionales : elles construisent la confiance au moment précis où le lecteur décide de vous contacter.
+Contrôlez avec le plus grand soin la justesse de la traduction et les différences régionales : elles construisent la confiance au moment précis où le lecteur décide de vous contacter. Notre anecdote sur la [coquille entre EEAT et AEAT](/fr/eeat-ou-aeat/) montre ce qu’une seule lettre change pour un site espagnol.
 
 ## Par où commencer
 

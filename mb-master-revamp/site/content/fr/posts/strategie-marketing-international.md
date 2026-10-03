@@ -1,5 +1,5 @@
 ---
-words: 1821
+words: 1876
 title: "Stratégie marketing à l’international : les dix leviers d’une PME qui s’exporte"
 metaTitle: "Stratégie marketing à l’international pour PME"
 slug: "strategie-marketing-international"
@@ -105,11 +105,11 @@ Un nouvel arrivant peut emprunter une réputation. Un créateur de contenu local
 
 **Choisir les bons créateurs.** Associez-vous à des personnes dont l’audience correspond à votre cible. Des outils comme Upfluence ou Aspire filtrent les profils par pays, par engagement et par thématique.
 
-**Leur laisser la plume.** Laissez chaque créateur adapter la campagne à sa propre voix. L’authenticité fait porter le message auprès de ses abonnés, et elle compte le plus quand vous êtes nouveau sur un marché.
+**Leur laisser la plume.** Laissez chaque créateur adapter la campagne à sa propre voix. L’authenticité fait porter le message auprès de ses abonnés, et elle compte le plus quand vous êtes nouveau sur un marché. Pour le point de vue des créateurs eux-mêmes, lisez [la vision de Bonzai pour une économie des créateurs plus humaine](/fr/economie-des-createurs/).
 
 ## L’e-mailing localisé pour faire racheter vos clients étrangers
 
-L’e-mail compte parmi les moyens les moins coûteux de faire racheter vos clients à l’étranger, à condition d’être réellement localisé.
+L’e-mail compte parmi les moyens les moins coûteux de faire racheter vos clients à l’étranger, à condition d’être réellement localisé. Notre guide de l’[emailing qui fait monter ouvertures et conversions](/fr/emailing-taux-ouverture-conversions/) détaille les objets, la lecture sur mobile et les segments par marché.
 
 **Segmenter les campagnes.** Découpez vos listes par pays et par langue, pour que chaque marché reçoive des messages et des offres qui le concernent.
 
@@ -143,13 +143,13 @@ Un partenaire local vous prête une crédibilité et une connaissance du terrain
 
 ## Les salons professionnels à l’étranger
 
-Pour une entreprise B2B, un salon met face à face avec des distributeurs et des acheteurs, et ce contact direct installe la confiance plus vite que la plupart des canaux en ligne. Localisez les supports de votre stand et vos présentations pour le marché visé.
+Pour une entreprise B2B, un salon met face à face avec des distributeurs et des acheteurs, et ce contact direct installe la confiance plus vite que la plupart des canaux en ligne. Localisez les supports de votre stand et vos présentations pour le marché visé. Les relations nouées sur un salon se cultivent ensuite, et nos [stratégies de networking pour jeunes professionnels](/fr/art-du-networking/) montrent comment les entretenir.
 
 Les entreprises françaises peuvent exposer sur un [Pavillon France](https://www.teamfrance-export.fr/services/pavillon-france) organisé par Team France Export, avec un stand clé en main sur des salons internationaux sélectionnés. En Wallonie, la Région propose une [aide financière à la participation aux foires et salons à l’étranger](https://www.wallonie.be/fr/demarches/beneficier-dune-aide-financiere-pour-participer-des-foires-et-salons-letranger). Si l’Espagne figure sur votre liste, consultez notre guide des [salons professionnels B2B à Valencia](https://valenciamove.com/fr/blog/salons-professionnels-b2b-valencia/).
 
 ## L’affiliation, payée à la vente
 
-Avec l’affiliation, vous payez à la vente : des partenaires locaux touchent une commission sur les ventes qu’ils génèrent, une façon peu coûteuse d’entrer sur un nouveau marché. Les affiliés locaux connaissent les préférences et les habitudes d’achat de leur audience, et chaque vente est suivie : vous voyez ce qui fonctionne sur chaque marché et déplacez l’effort en conséquence.
+Avec l’affiliation, vous payez à la vente : des partenaires locaux touchent une commission sur les ventes qu’ils génèrent, une façon peu coûteuse d’entrer sur un nouveau marché. Les affiliés locaux connaissent les préférences et les habitudes d’achat de leur audience, et chaque vente est suivie : vous voyez ce qui fonctionne sur chaque marché et déplacez l’effort en conséquence. Pour comparer les commissions et les durées de cookie pratiquées, consultez notre sélection de [programmes d’affiliation qui rémunèrent bien](/fr/programmes-affiliation/).
 
 ## Les assistants multilingues et le service client
 

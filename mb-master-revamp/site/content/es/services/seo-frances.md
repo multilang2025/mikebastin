@@ -1,5 +1,5 @@
 ---
-words: 1100
+words: 1138
 title: "SEO en Francia para empresas españolas que venden allí"
 name: "SEO en Francia"
 slug: "seo-frances"

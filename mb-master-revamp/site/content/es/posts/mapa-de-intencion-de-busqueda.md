@@ -1,5 +1,5 @@
 ---
-words: 2761
+words: 2412
 title: "Mapa de intención de búsqueda: cómo crearlo por mercado"
 slug: "mapa-de-intencion-de-busqueda"
 locale: "es"

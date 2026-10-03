@@ -1,5 +1,5 @@
 ---
-words: 607
+words: 618
 title: "Traduction automatique et post-édition"
 name: "Post-édition IA"
 slug: "postedition-ia"
@@ -54,7 +54,7 @@ Avec cette passe, une page se lit en allemand jusque dans le message qui s’aff
 
 ## Une terminologie fixée une fois pour toutes
 
-Un moteur voit chaque phrase isolément, et traduit donc le même terme de plusieurs façons. La passe arrête le terme dans chaque langue et l’applique partout, en priorité sur les pages où se fait la vente, avant le blog.
+Un moteur voit chaque phrase isolément, et traduit donc le même terme de plusieurs façons. La passe arrête le terme dans chaque langue et l’applique partout, en priorité sur les pages où se fait la vente, avant le blog. Côté outillage, nos [extensions Chrome pour traducteurs](/fr/extensions-chrome-traducteurs/) aident à garder cette terminologie sûre.
 
 ## Les textes à confier d’emblée à un spécialiste
 

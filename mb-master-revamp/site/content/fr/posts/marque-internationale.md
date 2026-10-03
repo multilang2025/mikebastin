@@ -1,5 +1,5 @@
 ---
-words: 1417
+words: 1451
 title: "Construire une marque internationale : ce qui voyage tel quel et ce qui s’adapte"
 metaTitle: "Construire une marque internationale"
 slug: "marque-internationale"
@@ -113,7 +113,7 @@ Six cases cochées, et la marque est arrivée sur le marché, en plus d’avoir 
 
 ## Un regard extérieur sur votre marque internationale
 
-Si vous lancez votre marque sur deux marchés ou plus, nous regardons volontiers avec vous l’écart entre votre marque au niveau stratégique et ce que chaque marché voit réellement.
+Si vous lancez votre marque sur deux marchés ou plus, nous regardons volontiers avec vous l’écart entre votre marque au niveau stratégique et ce que chaque marché voit réellement. Pour relier tous vos canaux autour de cette marque, notre article sur l’[agence marketing 360](/fr/agence-marketing-360/) montre à quoi ressemble un plan unique.
 
 Nous travaillons directement en français, en anglais, en espagnol et en néerlandais, et nous maîtrisons assez l’allemand et l’italien pour mener des projets SEO dans ces deux langues. L’essentiel de notre travail se situe à la jonction entre la voix de la marque et la performance dans les moteurs, là où un travail juste rapporte un vrai chiffre d’affaires.
 

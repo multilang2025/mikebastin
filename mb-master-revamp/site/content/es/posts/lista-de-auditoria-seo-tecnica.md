@@ -1,5 +1,5 @@
 ---
-words: 2623
+words: 2614
 title: "Lista de auditoría de SEO técnico para sitios web"
 slug: "lista-de-auditoria-seo-tecnica"
 locale: "es"
