@@ -15,42 +15,42 @@ excerpt: "Une analyse concurrentielle SEO qui repère les sites qui gagnent vrai
 
 ## Une analyse concurrentielle qui oriente la stratégie
 
-Vous vous comparez sans doute à l’entreprise que vous croisez dans vos rendez-vous commerciaux, à Lyon, à Bruxelles ou à Madrid. Dans les résultats de recherche, votre concurrent est souvent un autre acteur, et le repérer oriente chaque mois de budget vers les bonnes pages.
+Vous vous comparez sans doute à l’entreprise que vous croisez en rendez-vous commercial, à Lyon, à Bruxelles ou à Madrid. Dans les résultats de recherche, votre concurrent est souvent un autre acteur. Le repérer oriente chaque mois de budget vers les pages qui peuvent gagner.
 
 Après plus de deux décennies dans le métier, nous avons lu un grand nombre de rapports d’« analyse concurrentielle », et ceux qui font bouger les performances en recherche partagent une habitude : ils partent des pages de résultats.
 
-Un cabinet d’avocats de Valence avec lequel nous travaillons depuis trois ans pensait que son principal rival était un cabinet réputé installé deux rues plus loin. Un après-midi passé à regarder qui apparaissait réellement sur les recherches de ses clients a fait ressortir trois avocats indépendants, avec des sites d’une douzaine de pages et des pages locales très soignées. Le cabinet réputé se classait bien en dessous de ces trois-là.
+Un cabinet d’avocats de Valence, client de notre [référencement pour cabinets d’avocats](/fr/seo-cabinets-avocats/) depuis trois ans, pensait que son principal rival était un cabinet réputé installé deux rues plus loin. Un après-midi passé à regarder qui apparaissait réellement sur les recherches de ses clients a fait ressortir trois avocats indépendants, avec des sites d’une douzaine de pages et des pages locales très soignées. Le cabinet réputé se classait bien en dessous de ces trois-là.
 
-Une bonne **analyse concurrentielle SEO** repose sur un changement de point de départ : passer de la liste des entreprises que vous supposez concurrentes à la liste des pages qui apparaissent à côté des vôtres quand vos acheteurs cherchent. Voici comment les trouver, ce qu’il faut en retenir, et à quel moment l’exercice rapporte.
+Une bonne **analyse concurrentielle SEO** repose sur un changement de point de départ : passer de la liste des entreprises que vous supposez concurrentes à la liste des pages qui apparaissent à côté des vôtres quand vos acheteurs cherchent.
 
 ## Vos concurrents en recherche sont ceux qui partagent vos pages de résultats
 
-Avec la bonne liste, chaque brief qui suit vise le bon rival. Concurrents commerciaux et concurrents SEO forment deux catégories distinctes. Les requêtes à forte intention sur lesquelles les PME et les ETI convertissent sont souvent gagnées par un autre acteur que la plus grande entreprise de la ville.
+Avec la bonne liste, chaque brief qui suit vise le bon rival. Concurrents commerciaux et concurrents en recherche forment deux catégories distinctes. Les requêtes à forte intention sur lesquelles les PME et les ETI convertissent sont souvent gagnées par un autre acteur que la plus grande entreprise de la ville.
 
-Nous relevons rapidement les pages de résultats sur les 30 à 50 requêtes qui comptent vraiment pour un client. Les pages qui reviennent d’une requête à l’autre forment la vraie liste. Il arrive qu’un fil de forum ou un message Reddit devance tous les concurrents « officiels » sur la question réelle de l’acheteur.
+Nous relevons les pages de résultats sur les 30 à 50 requêtes qui comptent vraiment pour un client. Les pages qui reviennent d’une requête à l’autre forment la vraie liste. Il arrive qu’un fil de forum ou un message Reddit devance tous les concurrents « officiels » sur la question réelle de l’acheteur.
 
-Le savoir change le brief. Vous visez les trois blogs qui captent réellement l’intention d’achat, et vous laissez le terme générique aux grands médias économiques.
+Le brief change en conséquence : vous visez les trois blogs qui captent réellement l’intention d’achat, et vous laissez le terme générique aux grands médias économiques.
 
 ## Les quatre éléments à extraire
 
-Cinq concurrents produisent des milliers de lignes de données. Quatre éléments y changent votre prochaine décision. Quand un client nous demande d’analyser cinq concurrents, voici ce que nous retenons.
+Cinq concurrents produisent des milliers de lignes de données, et quatre éléments y changent votre prochaine décision. Voici ce que nous retenons quand un client nous demande d’en analyser cinq.
 
 **Les pages principales par part de trafic.** Uniquement les 10 à 20 URL qu’Ahrefs ou Semrush signalent comme les vraies sources de trafic organique. Le modèle à étudier se trouve dans ces pages.
 
 **Le rythme d’acquisition de liens.** Un flux régulier de cinq liens par mois sur deux ans pèse plus qu’un pic de 200 liens issu d’une seule campagne de relations presse. La régularité compte davantage que les totaux.
 
-**La répartition des fonctionnalités de la page de résultats.** Vos concurrents gagnent-ils les extraits optimisés, les carrousels vidéo ou le pack local ? Chacun de ces formats indique ce que Google récompense aujourd’hui pour cette intention, et oriente le format de vos propres pages.
+**La répartition des fonctionnalités de la page de résultats.** Vos concurrents gagnent-ils les extraits optimisés, les carrousels vidéo ou le pack local ? Chacun de ces formats indique ce que Google récompense aujourd’hui pour cette intention, et oriente le format de vos propres pages. Notre [cartographie de l’intention de recherche](/fr/cartographie-intention-de-recherche/) montre comment associer une page à chaque intention.
 
 **Le recoupement réel des mots-clés.** Retirez les termes de marque des deux côtés. Filtrez les rapports de « mots-clés communs » pour garder les requêtes à intention d’achat. La liste nettoyée représente en général un dixième de l’export brut.
 
 ## D’où vient réellement le trafic de vos concurrents
 
-Une poignée de pages fait le travail sur le site d’un concurrent, et une étude ciblée vous épargne une semaine de cartographie. Un chiffre l’explique.
+Une poignée de pages fait le travail sur le site d’un concurrent, et une étude ciblée vous épargne une semaine de cartographie.
 
 > « 96,55 % des pages de notre index ne reçoivent aucun trafic de Google, et 1,94 % reçoivent entre une et dix visites par mois. »
 > Source : [Ahrefs, 14 Billion Page Search Traffic Study (2024)](https://ahrefs.com/blog/search-traffic-study/)
 
-La conséquence : le trafic d’un concurrent se concentre sur quelques pages. Repérez ses cinq à dix URL qui génèrent du trafic et étudiez-les en détail.
+Le trafic d’un concurrent se concentre donc sur quelques pages. Repérez ses cinq à dix URL qui génèrent du trafic et étudiez-les en détail.
 
 ## Notre boîte à outils, avec ses limites
 
@@ -58,7 +58,7 @@ Lisez chaque estimation comme une estimation, et le plan construit dessus tient.
 
 | Outil | Ce que nous en tirons | À garder en tête |
 |---|---|---|
-| Ahrefs | Pages principales, recoupement des mots-clés, profil de liens | Les chiffres de trafic sont des estimations fondées sur un modèle de taux de clic, et non des mesures |
+| Ahrefs | Pages principales, recoupement des mots-clés, profil de liens | Les chiffres de trafic sont des estimations issues d’un modèle de taux de clic |
 | Semrush | Suivi de positions, données payantes, écarts de contenu | Plus solide en anglais américain, plus faible sur la longue traîne en espagnol |
 | Similarweb | Répartition par canal, recoupement d’audience | Fiable surtout au-delà de 50 000 visites mensuelles |
 | Google Search Console | Les requêtes où vous apparaissez réellement à côté de vos concurrents | Gratuit et sous-utilisé, en particulier le croisement des filtres Pages et Requêtes |
@@ -72,7 +72,7 @@ Ahrefs [documente lui-même l’écart](https://help.ahrefs.com/en/articles/4313
 
 ## Une analyse concurrentielle multilingue se décline par langue
 
-Vendez dans plusieurs langues, et chaque langue apporte ses propres concurrents. Le cabinet d’avocats cité plus haut en a trois ensembles.
+Quand vous vendez dans plusieurs langues, chaque langue apporte ses propres concurrents. Le cabinet d’avocats cité plus haut en a trois ensembles.
 
 | Langue | Public | Requêtes typiques |
 |---|---|---|
@@ -80,19 +80,17 @@ Vendez dans plusieurs langues, et chaque langue apporte ses propres concurrents.
 | Français | Expatriés français sur la Costa Blanca | Affaires matrimoniales |
 | Anglais | Expatriés anglophones | Successions, démarches NIE, litiges immobiliers |
 
-Trois listes de concurrents. Trois briefs de contenu. Trois stratégies de liens.
+Cela donne trois listes de concurrents, trois briefs de contenu et trois stratégies de liens.
 
-Une entreprise française qui vend en Espagne, en Allemagne et au Royaume-Uni se retrouve dans la même situation : chaque marché a ses propres rivaux en recherche. Donnez à chaque langue sa propre analyse, pour que chaque marché reçoive un brief capable de se positionner. Si vous opérez dans plusieurs pays, prévoyez une analyse par langue.
-
-Pour aller plus loin, consultez nos [bonnes pratiques du SEO multilingue](/fr/bonnes-pratiques-seo-multilingue/).
+Une entreprise française qui vend en Espagne, en Allemagne et au Royaume-Uni se retrouve dans la même situation : chaque marché a ses propres rivaux en recherche. Donnez à chaque langue sa propre analyse, pour que chaque marché reçoive un brief capable de se positionner. Nos [bonnes pratiques du SEO multilingue](/fr/bonnes-pratiques-seo-multilingue/) détaillent la suite, marché par marché.
 
 ## La recherche par IA change la question, et la méthode tient
 
-Oui, le [GEO](/fr/seo-au-geo/) compte. Oui, les citations dans ChatGPT et Perplexity pèsent désormais dans les parcours d’achat B2B. La logique concurrentielle de fond reste pour l’essentiel la même.
+Oui, le [GEO et les citations par les IA](/fr/seo-au-geo/) comptent. Oui, les citations dans ChatGPT et Perplexity pèsent désormais dans les parcours d’achat B2B. La logique concurrentielle de fond reste pour l’essentiel la même.
 
 Nous ajoutons aujourd’hui pour nos clients une petite couche « qui est cité dans les réponses d’IA pour les questions de nos acheteurs ». Nous lançons cinq à dix requêtes qu’un vrai prospect pourrait poser, nous relevons les domaines cités, et nous vérifions leur recoupement avec les concurrents des pages de résultats classiques.
 
-Le recoupement est souvent élevé. Parfois, un site de niche apparaît et rejoint la liste. Les deux constats s’appuient sur le travail mené au niveau des pages de résultats.
+Le recoupement est souvent élevé ; parfois, un site de niche apparaît et rejoint la liste. Dans les deux cas, le travail mené sur les pages de résultats sert de base.
 
 Traitez le GEO comme une partie du même exercice : la même page de résultats, derrière une interface de conversation.
 
@@ -102,15 +100,15 @@ Traitez le GEO comme une partie du même exercice : la même page de résultats
 
 ## Trois habitudes à installer tôt
 
-**Lire les chiffres des outils comme des estimations.** Les mesures viennent de vos propres outils d’analyse. Plus vous descendez dans la longue traîne, plus l’écart se creuse entre l’estimation d’Ahrefs et la réalité de Google Analytics.
+**Lire les chiffres des outils comme des estimations.** Les mesures viennent de vos propres outils d’analyse, à condition de savoir [ce que GA4 mesure bien à l’international](/fr/google-analytics-international/). Plus vous descendez dans la longue traîne, plus l’écart se creuse entre l’estimation d’Ahrefs et la réalité de Google Analytics.
 
 **Transformer les exports d’écarts de mots-clés en briefs de contenu.** Un export de 1 200 lignes reste une liste. Un brief, c’est ce qui reste après la relecture d’un éditeur et d’un expert du sujet.
 
-**Actualiser l’analyse au fil de l’année.** Les marchés bougent, les algorithmes évoluent, de nouveaux acteurs arrivent. Pour nos clients actifs, nous actualisons le tableau chaque trimestre ; pour les niches rapides comme les outils d’IA ou la fintech, chaque mois.
+**Actualiser l’analyse au fil de l’année.** Les marchés bougent, les algorithmes évoluent et de nouveaux acteurs arrivent. Pour nos clients actifs, nous actualisons le tableau chaque trimestre ; pour les niches rapides comme les outils d’IA ou la fintech, chaque mois.
 
 ## Les moments où l’analyse concurrentielle rentabilise son budget
 
-Lancez-la quand une décision en dépend. Trois situations où elle rapporte vraiment.
+Lancez-la quand une décision en dépend. Elle rapporte dans trois situations.
 
 L’entrée sur un nouveau marché géographique ou sectoriel, quand vous devez voir à quoi ressemble la réussite avant d’engager le budget.
 
@@ -124,8 +122,10 @@ Entre ces moments, une actualisation régulière garde le tableau à jour.
 
 Si vous voulez vérifier que votre équipe se compare à la bonne liste, nous pouvons réaliser en moins d’une heure une **analyse concurrentielle** ciblée, au niveau des pages de résultats, sur l’une de vos requêtes prioritaires.
 
-Nous le faisons pour des clients dans le juridique, le fret, l’immobilier et la traduction, dans plusieurs langues, depuis Valence. Découvrez [notre équipe](/fr/notre-equipe/).
+Nous le faisons pour des clients dans le juridique, le fret, l’immobilier et la traduction, dans plusieurs langues, depuis Valence. Pour un suivi sur plusieurs pays, notre [référencement multilingue marché par marché](/fr/services/referencement-multilingue/) donne à chaque langue sa propre stratégie.
 
 La page de résultats classe des pages, quel que soit l’organigramme, et votre analyse peut faire de même.
 
-[Contactez-nous](/fr/nous-contacter/) ou découvrez [notre façon de mener des programmes de référencement multilingue](/fr/services/referencement-multilingue/).
+<aside class="post-cta">
+<p><strong>Vous voulez savoir qui gagne vraiment votre requête prioritaire ?</strong> Parlez-nous du marché et de la requête qui comptent le plus pour vous. <a href="/fr/nous-contacter/">Réservez un premier échange gratuit</a>.</p>
+</aside>
