@@ -100,6 +100,7 @@ const EN_EQUIVALENTS: Record<string, string> = {
   g075: "multilingual-content",
   g071: "ai-translation-and-post-editing",
   g178: "generative-engine-optimization",
+  g179: "conversion-tracking",
 };
 
 /**

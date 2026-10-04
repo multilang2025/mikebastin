@@ -13,7 +13,11 @@ import { leadGenPath } from "@/lib/lead-gen-hubs";
 
 // The Spanish homepage (docs/ES-REBUILD-PLAN.md). Its reader is a company
 // in Valencia, serving the city or selling from it (owner, 3 Oct 2026:
-// "focus on Valencia + keyword"), so the page owns "agencia SEO Valencia".
+// "focus on Valencia + keyword"), so the page owns "agencia SEO internacional
+// Valencia" (owner, 4 Oct 2026: retarget away from the generic "agencia SEO
+// Valencia", which okisam.com holds with a dedicated page and nothing
+// multilingual; the English homepage owns "international SEO agency" the
+// same way, and posicionamiento-multilingue keeps "SEO multilingüe Valencia").
 // Every claim is one the English site already makes (over two decades, the
 // BeTranslated network, media budget paid straight to the platform, month
 // to month, a reply within a working day). Copy is a draft for the owner's
@@ -22,9 +26,9 @@ const PATH = "/es/";
 
 export const metadata: Metadata = {
   ...pageMeta({
-    title: "Agencia SEO en Valencia, Mike Bastin",
+    title: "Agencia SEO internacional en Valencia, Mike Bastin",
     description:
-      "Agencia SEO en Valencia: te encuentran en castellano e inglés, en tu ciudad y en cada mercado donde vendes. Consulta gratuita.",
+      "Agencia SEO internacional en Valencia: te encuentran en castellano e inglés, en tu ciudad y en cada mercado donde vendes. Consulta gratuita.",
     path: PATH,
     languages: esLanguages(PATH),
     ogLocale: "es_ES",
@@ -74,7 +78,7 @@ export default function SpanishHome() {
           </Reveal>
           <Reveal i={1}>
             <h1 className="mb-6 max-w-[20ch] text-[clamp(2.5rem,6vw,4.4rem)] font-semibold leading-[1.05]">
-              Agencia SEO en Valencia que convierte búsquedas en clientes
+              Agencia SEO internacional en Valencia que convierte búsquedas en clientes
             </h1>
           </Reveal>
           <Reveal i={2}>

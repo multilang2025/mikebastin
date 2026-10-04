@@ -4316,6 +4316,23 @@
     "url": "https://mikebastin.com/es/services/seo-para-ia-geo/",
     "content_path": "site/content/es/services/seo-para-ia-geo.md"
    }
+  },
+  {
+   "group": "g179",
+   "type": "service",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "note": "Spanish conversion tracking page built 4 Oct 2026 (owner: build it after the okisam.com competitor read, docs/ES-REBUILD-PLAN.md). The EN conversion-tracking page is a consolidated page with no group of its own, so this group has no en entry; it is paired with it by hand in lib/services-locale.ts. French has no equivalent page yet. No legacy URL points here.",
+   "es": {
+    "id": null,
+    "slug": "seguimiento-de-conversiones",
+    "url": "https://mikebastin.com/es/services/seguimiento-de-conversiones/",
+    "content_path": "site/content/es/services/seguimiento-de-conversiones.md"
+   }
   }
  ]
 }

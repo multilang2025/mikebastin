@@ -108,9 +108,11 @@ export default function ResultsPage() {
             <blockquote className="mb-12 max-w-[56ch] text-[.85rem]" style={{ color: "var(--dim)" }}>
               Sources: enquiries are a monthly average for {LEADS_PERIOD},
               from the {LEAD_SITES} sites that keep a record of their contact
-              and quote forms, counted from those records (C21 Perdomo’s
-              forms post outside its site, so its figure is a range); clicks and
-              impressions are May to July 2026, from Google Search Console.
+              and quote forms, counted from those records (ValenciaMove’s
+              record starts in July, so its figure is July alone; C21
+              Perdomo’s forms post outside its site, so its figure is a
+              range); clicks and impressions cover the same three months, from
+              Google Search Console.
             </blockquote>
           </Reveal>
 
