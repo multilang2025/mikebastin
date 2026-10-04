@@ -23,7 +23,7 @@ Le moment est favorable : peu de concurrents publient des pages italiennes nati
 <p><strong>Vous voulez que vos pages italiennes vous apportent des demandes ?</strong> Nous pilotons la stratégie en français et des rédacteurs italiens natifs écrivent vos pages. <a href="/fr/nous-contacter/">Réserver une consultation gratuite</a>.</p>
 </aside>
 
-## Les informations d’entreprise que l’acheteur contrôle
+## Les informations d’entreprise que nous rendons visibles à l’acheteur italien
 
 Avant d’écrire à un fournisseur, l’acheteur italien contrôle trois éléments, que nous rendons visibles sur vos pages.
 
@@ -35,11 +35,11 @@ Avant d’écrire à un fournisseur, l’acheteur italien contrôle trois élém
 
 À cela s’ajoute le consentement aux cookies. Le Garante della Privacy, l’autorité italienne de protection des données, lit certains points du RGPD plus strictement que la base européenne, notamment la façon dont le consentement est enregistré et le niveau de détail du consentement marketing. Nous construisons la configuration technique sur cette lecture. Les données sensibles, les décisions automatisées et la surveillance des salariés relèvent d’un avocat italien spécialisé, en complément de notre mise en œuvre.
 
-## Tu ou voi : le registre se décide page par page
+## Le registre italien, fixé page par page
 
 Le choix entre tutoiement et vouvoiement, et la place de la forme de politesse, change la perception d’une page commerciale. Un rédacteur qui vit dans la langue tranche juste, et nous fixons le registre dans le brief avant la première ligne.
 
-## Chaque région d’Italie appelle sa propre approche
+## Une approche adaptée à chaque région d’Italie
 
 L’Italie est le grand marché européen le plus fragmenté par région. Milan, Rome, Naples et Palerme ne se comportent pas de la même façon sur la sensibilité au prix, les moyens de paiement et les signaux de confiance.
 
@@ -57,6 +57,13 @@ Notre italien suffit pour piloter des projets SEO dans cette langue. L’écritu
 
 Côté liens, nous visons Corriere della Sera, La Repubblica et Il Sole 24 Ore pour le B2B, ainsi que des associations professionnelles comme Confindustria et Confartigianato.
 
-## Comment nous travaillons
+## Comment nous menons votre SEO en Italie, étape par étape
 
-Nous commençons par une consultation gratuite et un audit de votre présence italienne, puis la recherche de mots-clés en italien, la stratégie, la rédaction native et un rapport mensuel en français ou en anglais. Pour l’Italie dans un programme à plusieurs marchés, voyez notre [référencement multilingue](/fr/services/referencement-multilingue/) ; pour une présence ville par ville, le [référencement local](/fr/services/referencement-local/).
+1. **Audit gratuit de 20 minutes.** Nous lisons vos pages italiennes comme les lit un acheteur en Italie et nous vous montrons où se trouvent les plus gros gains, avant tout engagement.
+2. **Périmètre écrit.** Après l’appel, vous recevez un périmètre écrit qui nomme les pages italiennes, les régions à cibler et les livrables, classés selon ce que chacun vaut.
+3. **Rédaction par des natifs italiens.** Des rédacteurs italiens natifs de BeTranslated écrivent chaque page à partir de notre brief, et un second natif la relit avant sa publication, pour qu’elle se lise comme écrite en Italie.
+4. **Informations d’entreprise et consentement.** Nous plaçons la Partita IVA, le codice fiscale et le REA là où l’acheteur italien les cherche, et nous réglons le consentement sur la lecture plus stricte du Garante della Privacy.
+5. **Rapport mensuel.** Chaque mois, un rapport en français ou en anglais sur vos positions et vos demandes italiennes, séparées de vos autres marchés, avec ce qui a bougé et la suite prévue.
+6. **Mois par mois.** Les missions se règlent au mois et se poursuivent aussi longtemps qu’elles rapportent. Le détail figure dans [nos tarifs et modalités](/fr/tarifs/).
+
+Pour l’Italie dans un programme à plusieurs marchés, voyez notre [référencement multilingue](/fr/services/referencement-multilingue/) ; pour une présence ville par ville, le [référencement local](/fr/services/referencement-local/).

@@ -25,15 +25,15 @@ El SEO multilingüe, tal como lo practicamos, consiste en dirigir esos idiomas a
 <p><strong>¿Quieres que cada uno de tus idiomas te envíe sus propias consultas?</strong> Construimos una estrategia para tu público de Valencia y para cada mercado al que exportas y encargamos los textos a redactores nativos, idioma tras idioma. <a href="/es/contactanos/">Reserva una consulta gratuita</a>.</p>
 </aside>
 
-## Una estrategia por mercado, escrita por nativos
+## Qué incluye nuestro SEO multilingüe: una estrategia por mercado, escrita por nativos
 
 Cada mercado empieza con su propia investigación, hecha en su idioma: las intenciones comerciales reales, las expresiones de cola larga, la forma en que los compradores comparan antes de elegir. Las palabras que venden en Francia difieren de las que venden en Alemania, igual que un residente británico en Valencia no busca con las palabras de un cliente valenciano, y la investigación parte de ellas.
 
 Los textos los escriben nativos. El español, el francés, el inglés y el neerlandés los trabaja directamente el equipo que diseña la estrategia. El alemán, el italiano, el portugués y el resto de idiomas pasan por redactores nativos de la red BeTranslated, con revisión de un segundo nativo antes de la entrega. Una página escrita en el idioma de su lector retiene a sus visitantes, se posiciona de forma duradera y tiene más opciones de aparecer citada en las respuestas de los motores de IA.
 
-Las decisiones que cuesta más rehacer se toman al principio: la estructura del dominio, el mapa de versiones lingüísticas y el orden de entrada de los mercados. Ahí está el valor de un acompañamiento en SEO multilingüe. Si buscas la visión de conjunto de nuestro trabajo, en tu ciudad y para quien exporta, la encuentras en nuestra página de [posicionamiento SEO](/es/services/optimizacion-seo/).
+Las decisiones que cuesta más rehacer se toman al principio: la estructura del dominio, el mapa de versiones lingüísticas y el orden de entrada de los mercados. Por eso nuestro acompañamiento en SEO multilingüe empieza por ahí. Si buscas la visión de conjunto de nuestro trabajo, en tu ciudad y para quien exporta, la encuentras en nuestra página de [posicionamiento SEO](/es/services/optimizacion-seo/).
 
-## El orden en que entran los mercados
+## El orden en que entran tus mercados
 
 Cuatro mercados trabajados a fondo reciben la profundidad que necesitan para posicionarse, y cada página tiene el contenido que su comprador busca. Para una empresa valenciana, el primero suele ser el de casa, en sus varios idiomas; los de exportación se ordenan después.
 
@@ -51,28 +51,36 @@ Century 21 Perdomo, una inmobiliaria de República Dominicana, publica sus propi
 
 Aplicamos la misma disciplina en BeTranslated, la agencia de traducción con sede en Valencia que dirigimos desde hace veinte años: un dominio por mercado, cada uno con su sitemap, su grupo hreflang y su investigación de palabras clave.
 
-## La base técnica que permite posicionarse al contenido
+## La base técnica que deja posicionarse a tu contenido
 
-Estos ajustes deciden qué página muestra Google a cada país.
+Configuramos estos ajustes porque deciden qué página muestra Google a cada país.
 
-**Las etiquetas hreflang.** Cada página lleva sus etiquetas hreflang, portada incluida, con el código de idioma correcto y un enlace de vuelta a cada una de sus versiones. Validadas mercado por mercado, envían al visitante belga a la versión belga y mantienen claros los informes de Search Console. Revisar y corregir estas etiquetas es uno de los primeros pasos de nuestras auditorías, y libera el potencial de todo lo demás.
+**Las etiquetas hreflang.** Cada página lleva sus etiquetas hreflang, portada incluida, con el código de idioma correcto y un enlace de vuelta a cada una de sus versiones. Validadas mercado por mercado, envían al visitante belga a la versión belga y mantienen claros los informes de Search Console. Revisamos y corregimos estas etiquetas en los primeros pasos de nuestras auditorías, y eso libera el potencial de todo lo demás.
 
 **Sitemap, direcciones y marcado.** Un sitemap dividido por idioma, direcciones de página traducidas a cada idioma y un marcado schema (LocalBusiness, Service, Article, FAQ) localizado por país y validado con la prueba de resultados enriquecidos de Google.
 
-**Subdirectorio, subdominio o dominio nacional.** El dominio nacional es la señal local más fuerte y la más costosa de mantener. El subdirectorio concentra la autoridad en un mismo lugar y encaja con la mayoría de las empresas que añaden mercados a una actividad existente. Lo decidimos una vez, al principio.
+**Subdirectorio, subdominio o dominio nacional.** Te damos una recomendación razonada para tu caso: el dominio nacional es la señal local más fuerte y la más costosa de mantener, y el subdirectorio concentra la autoridad en un mismo lugar y encaja con la mayoría de las empresas que añaden mercados a una actividad existente. Lo decidimos contigo una vez, al principio.
 
-**La elección de idioma en manos del visitante.** La geolocalización por dirección IP sirve para sugerir una versión; el visitante elige. Todas las versiones siguen visibles para Google y accesibles para quien viaja, algo que afecta a buena parte de una clientela profesional.
+**La elección de idioma en manos del visitante.** Usamos la geolocalización por dirección IP para sugerir una versión, y el visitante elige. Todas las versiones siguen visibles para Google y accesibles para quien viaja, algo que afecta a buena parte de una clientela profesional.
 
 **Tu CMS.** Trabajamos sobre todo con WordPress y WPML, y también con Polylang, TranslatePress o Weglot. En Shopify, Webflow o un desarrollo propio, aplicamos la estrategia junto a tu equipo técnico.
 
-## Quién dirige el trabajo, y cómo
+## Quién dirige tu SEO multilingüe
 
 Mike Bastin, cofundador de BeTranslated, se dedica al SEO y a la traducción desde hace más de dos décadas. Habla con fluidez español, francés, inglés y neerlandés, y su alemán, su italiano y su catalán son suficientes para gestionar proyectos SEO en esos idiomas. Los textos comerciales los escriben redactores nativos. Trabajamos desde nuestra oficina en Calle Rugat 12 - 2, 46021 Valencia, donde podemos reunirnos contigo en persona, y por videollamada con clientes de otras ciudades.
-
-Cada proyecto sigue el mismo ritmo: una consulta gratuita sobre tus mercados, un alcance escrito para el primer trimestre, una entrega mensual mercado por mercado y un informe mensual por idioma con posiciones, tráfico y consultas recibidas, más las recomendaciones del mes siguiente. Puedes empezar con una auditoría gratuita de 20 minutos. La redacción y la traducción se presupuestan aparte, como un encargo; el detalle está en la página de [precios](/es/precios/).
 
 ### Los entregables del proyecto
 
 - **Un informe de auditoría**: estructura técnica, etiquetas hreflang, contenidos existentes por idioma, enlaces por mercado y diferencias con tus competidores locales.
 - **Una hoja de palabras clave por mercado**: términos principales y cola larga, volúmenes, intención, dificultad y la página existente o por crear para cada uno.
 - **Un documento de estrategia**: prioridades por mercado, calendario editorial multilingüe, plan técnico y plan de enlaces por país, validado contigo antes de ejecutar.
+
+## Cómo trabajamos tu SEO multilingüe en Valencia
+
+1. **Auditoría gratuita.** Puedes empezar con una auditoría gratuita de 20 minutos, o con una consulta gratuita sobre tus mercados, y te decimos qué idiomas tienen más por dar.
+2. **Alcance escrito.** Recibes por escrito los mercados, las páginas y los entregables del primer trimestre, con el orden en que entra cada mercado.
+3. **Entrega mensual por mercado.** Cada mes publicamos las páginas de cada idioma, escritas por nativos y revisadas antes de salir.
+4. **Informe mensual por idioma.** Posiciones, tráfico y consultas recibidas, con las recomendaciones del mes siguiente.
+5. **Mes a mes.** El trabajo sigue mes a mes, mientras cada mercado lo justifique.
+
+La redacción y la traducción se presupuestan aparte, como un encargo; el detalle está en la página de [precios](/es/precios/). Respondemos a cada solicitud, por lo general en un día laborable.

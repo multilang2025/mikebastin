@@ -28,9 +28,9 @@ La localisation de site web fait ce dernier pas. Un site qui paraît local dans 
 <p><strong>Vos pages étrangères attirent du monde et vous voulez qu’elles vendent ?</strong> Nous adaptons chaque version de votre site à son marché, du texte jusqu’au paiement. <a href="/fr/nous-contacter/">Réserver une consultation gratuite</a>.</p>
 </aside>
 
-## Ce que nous adaptons, bien au-delà des mots
+## Ce que comprend notre localisation de site web, bien au-delà des mots
 
-La traduction rend le texte juste. La localisation remplace tout ce qui signale au visiteur que le site vient d’ailleurs :
+La traduction rend le texte juste. Nous remplaçons en plus tout ce qui signale au visiteur que le site vient d’ailleurs :
 
 - les dates, les devises et le format des prix tels que chaque pays les écrit ;
 - les champs de formulaire, adresses et codes postaux au format local ;
@@ -54,17 +54,17 @@ Chaque version linguistique reçoit sa propre URL, ses propres métadonnées et 
 
 Les balises hreflang relient les versions entre elles et se répondent dans les deux sens. Pour le détail de cette partie, voir notre page [SEO technique](/fr/services/seo-technique/), et pour la stratégie de mots-clés par langue, notre [référencement multilingue](/fr/services/referencement-multilingue/).
 
-### Quelle extension multilingue pour WordPress
+### Le choix de l’extension multilingue pour WordPress
 
-WPML est notre choix par défaut : le plus complet pour le SEO, le plus exigeant pour l’hébergement, avec une licence à renouveler. Polylang convient à un budget plus serré et à une structure simple. TranslatePress sert une équipe éditoriale qui préfère traduire directement sur la page, en la voyant changer. Le choix est durable, parce que le contenu est ensuite stocké à la manière de l’extension : nous le décidons avec vous, à partir de votre façon de publier. Joomla et Drupal gèrent aussi très bien le multilingue, chacun à sa manière, et récompensent de la même façon un modèle de contenu fixé avant la traduction.
+Nous choisissons avec vous l’extension qui correspond à votre façon de publier. WPML est notre choix par défaut : le plus complet pour le SEO, avec un hébergement qui doit suivre et une licence à renouveler. Nous proposons Polylang pour un budget plus serré et une structure simple, et TranslatePress à une équipe éditoriale qui préfère traduire directement sur la page, en la voyant changer. Le choix est durable, parce que le contenu est ensuite stocké à la manière de l’extension. Nous travaillons aussi sur Joomla et Drupal, qui gèrent très bien le multilingue, avec un modèle de contenu fixé avant la traduction.
 
 ### Des mises en page qui accueillent le texte plus long
 
-L’allemand prend souvent nettement plus de place qu’un texte source anglais, dans les boutons, les menus et les titres. Nous testons la mise en page avec le vrai texte là où il compte : la navigation, l’appel à l’action, le tableau de prix. Les langues qui s’écrivent de droite à gauche, comme l’arabe, inversent toute la mise en page, et l’encodage des caractères se vérifie sur les formulaires, la recherche et tout ce qui touche une base de données.
+L’allemand prend souvent nettement plus de place qu’un texte source anglais, dans les boutons, les menus et les titres. Nous ajustons la mise en page et la testons avec le vrai texte là où il compte : la navigation, l’appel à l’action, le tableau de prix. Pour les langues qui s’écrivent de droite à gauche, comme l’arabe, nous inversons toute la mise en page, et nous vérifions l’encodage des caractères sur les formulaires, la recherche et tout ce qui touche une base de données.
 
-## Une boutique se localise jusqu’à la commande
+## Une boutique localisée jusqu’à la commande
 
-Les fiches produits sont la moitié visible du travail. L’autre moitié fait monter le taux de conversion : la devise affichée, un prix écrit comme le pays l’écrit, les moyens de paiement proposés et une adresse saisie au format local. Un acheteur qui retrouve son moyen de paiement habituel au moment de payer va plus souvent jusqu’au bout.
+Les fiches produits sont la moitié visible du travail. Nous traitons aussi l’autre moitié, celle qui fait monter le taux de conversion : la devise affichée, un prix écrit comme le pays l’écrit, les moyens de paiement proposés et une adresse saisie au format local. Un acheteur qui retrouve son moyen de paiement habituel au moment de payer va plus souvent jusqu’au bout.
 
 WooCommerce, Shopify et Magento exposent chacun ces réglages différemment. Nous les configurons plateforme par plateforme, jusqu’à ce que la dernière étape paraisse aussi locale que la première.
 
@@ -72,10 +72,16 @@ WooCommerce, Shopify et Magento exposent chacun ces réglages différemment. Nou
 
 Avant le lancement, nous vérifions chaque élément d’interface, formulaire, menu, sélecteur de langue et média, dans chaque langue : l’affichage, le fonctionnement et l’adéquation culturelle. Le sélecteur de langue mène à la bonne page, le formulaire accepte chaque code postal local valide, une date se lit au bon mois. Le test couvre aussi ce que le marché demande sur le plan légal, du consentement aux cookies à l’accessibilité.
 
-Chaque point trouvé entre dans un rapport de test, au moment où il se corrige le plus vite, bien avant d’atteindre votre service client.
+Chaque point trouvé entre dans un rapport de test et se corrige au moment où il coûte le moins, bien avant d’atteindre votre service client.
 
-## Comment nous travaillons
+## Comment se déroule la localisation de votre site web
 
-Nous commençons par une évaluation gratuite de la localisation d’un marché : ce que voit un visiteur local, ce qui le rassure, ce qui le décide au moment de payer. Vous recevez ensuite un périmètre écrit. La traduction et la rédaction font l’objet d’un devis pour le travail lui-même, langue par langue ; le détail figure dans [nos tarifs](/fr/tarifs/).
+1. **Évaluation gratuite de localisation.** Nous examinons votre site dans chaque langue où vous vendez et vous montrons où le texte, les prix, le paiement et la mise en page demandent le plus d’adaptation pour chaque marché : ce que voit un visiteur local, ce qui le rassure, ce qui le décide au moment de payer.
+2. **Un périmètre écrit.** Après le premier appel, vous recevez les pages, les marchés et les livrables, pour savoir exactement ce que nous localisons et mettons en place.
+3. **Le choix et la mise en place de l’extension.** Nous retenons l’extension multilingue adaptée à votre site et à votre équipe, WPML, Polylang, TranslatePress ou Weglot, ou nous travaillons sur Shopify ou Webflow, et nous la configurons langue par langue.
+4. **Textes, prix et paiement localisés.** Nous adaptons les textes, la devise, les moyens de paiement et le parcours de commande pour chaque marché, et nous ajustons la mise en page pour que le texte plus long tienne dans les boutons, les menus et les titres.
+5. **Une passe de test avant la mise en ligne.** Nous testons chaque langue pour l’affichage, le fonctionnement et l’adéquation, regroupons chaque point dans un seul rapport et corrigeons chacun avant la mise en ligne de votre site localisé.
+
+La traduction et la rédaction font l’objet d’un devis pour le travail lui-même, langue par langue ; le détail figure dans [nos tarifs](/fr/tarifs/).
 
 Nous lisons chaque demande nous-mêmes et répondons en général sous un jour ouvré.

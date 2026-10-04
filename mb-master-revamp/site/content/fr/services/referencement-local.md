@@ -26,7 +26,7 @@ Le résultat se construit progressivement, appel après appel, et s’additionne
 <p><strong>Vous voulez apparaître en tête de la carte dans chaque ville où vous vendez ?</strong> Nous travaillons votre fiche, vos pages par ville et vos avis, marché par marché et dans la langue de vos clients. <a href="/fr/nous-contacter/">Réserver une consultation gratuite</a>.</p>
 </aside>
 
-## Ce que nous faisons pour chaque ville que vous servez
+## Ce que comprend notre référencement local, ville par ville
 
 Le travail se concentre sur ce qui fait choisir une entreprise sur la carte :
 
@@ -50,13 +50,13 @@ ValenciaMove est notre propre site consacré à l’installation à Valencia, co
 
 Agence de SEO local, nous présentons ces chiffres comme la preuve d’une méthode et comme le point de départ d’un échange sur vos villes : chaque marché a ses concurrents et son rythme.
 
-## Une fiche Google Business Profile traitée comme une vitrine
+## Une fiche Google Business Profile tenue comme une vitrine
 
-Google récompense une fiche complète et active : les bonnes catégories, la liste entière des services, des horaires exacts, beaucoup de photos et des publications récentes. Remplie entièrement et tenue à jour semaine après semaine, une fiche garde sa place face aux concurrents qui mettent la leur à jour. Menée avec constance pendant quelques mois, cette discipline rapproche l’entreprise du trio de tête de la carte.
+Google récompense une fiche complète et active. Nous renseignons les bonnes catégories, la liste entière de vos services, des horaires exacts et beaucoup de photos, puis nous publions régulièrement : la fiche garde ainsi sa place face aux concurrents qui mettent la leur à jour. Menée avec constance pendant quelques mois, cette discipline rapproche votre entreprise du trio de tête de la carte.
 
-Google attend une fiche par adresse physique. Les langues se travaillent dans la description, les publications et les réponses aux avis, puis sur le site, avec une page par langue pour chaque ville. Une entreprise qui se déplace chez ses clients déclare sa zone d’intervention dans la fiche et publie une page pour chaque ville servie.
+Google attend une fiche par adresse physique, et nous en ouvrons une par adresse. Nous travaillons les langues dans la description, les publications et les réponses aux avis, puis sur le site, avec une page par langue pour chaque ville. Pour une entreprise qui se déplace chez ses clients, nous déclarons la zone d’intervention dans la fiche et publions une page pour chaque ville servie.
 
-Une part croissante des questions « quel est le meilleur X à Lyon » passe par ChatGPT, Claude ou Perplexity avant la carte. Ces réponses s’appuient sur la même matière : des données structurées, des citations cohérentes et une réputation assez visible pour être résumée. Le travail paie donc deux fois, sur la carte et dans les réponses.
+Une part croissante des questions « quel est le meilleur X à Lyon » passe par ChatGPT, Claude ou Perplexity avant la carte. Ces réponses s’appuient sur la même matière, que nous construisons : des données structurées, des citations cohérentes et une réputation assez visible pour être résumée. Le travail paie donc deux fois, sur la carte et dans les réponses.
 
 ## Des coordonnées identiques et des pages qui parlent de chaque ville
 
@@ -64,14 +64,14 @@ Google lit vos coordonnées à des dizaines d’endroits, et quand elles concord
 
 Une page par quartier ou par ville fonctionne quand chacune dit quelque chose de vrai sur ce lieu, bien au-delà d’un nom de ville remplacé. Elle porte le balisage LocalBusiness avec le bon sous-type : LegalService pour un cabinet d’avocats, FreightForwarder pour un transitaire. Notre article sur le [SEO pour cabinets d’avocats](/fr/seo-cabinets-avocats/) applique cette méthode à un cabinet qui reçoit des clients en plusieurs langues. Des liens internes depuis les pages de service principales la rendent facile à trouver. Sur un site multilingue, les balises hreflang relient la page de Bruxelles en français à sa version néerlandaise, pour que chaque visiteur arrive dans sa langue ; notre [référencement multilingue](/fr/services/referencement-multilingue/) couvre cette structure en détail.
 
-Les avis viennent d’un processus : une demande envoyée après la prestation, par e-mail ou par un QR code sur le reçu. Chaque avis reçoit une réponse, les critiques comprises, car la réponse est lue par tous les clients suivants. Préparez la réponse à un avis critique avant qu’il arrive : bien traité, il inspire plus confiance qu’une colonne de cinq étoiles.
+Nous installons les avis comme un processus : une demande envoyée après la prestation, par e-mail ou par un QR code sur le reçu. Chaque avis reçoit une réponse de notre part, critiques comprises, car cette réponse est lue par tous les clients suivants. Nous préparons la réponse à un avis critique avant qu’il arrive : bien traité, il inspire plus confiance qu’une colonne de cinq étoiles.
 
-## Comment nous travaillons
+## Comment se déroule une mission de SEO local
 
-1. **Audit.** Votre position sur la carte pour vos principales requêtes commerciales, l’état de chaque fiche, la cohérence de vos coordonnées, le balisage et vos avis, comparés à vos trois concurrents les plus proches.
+1. **Consultation gratuite et audit.** Votre position sur la carte pour vos principales requêtes commerciales, l’état de chaque fiche, la cohérence de vos coordonnées, le balisage et vos avis, comparés à vos trois concurrents les plus proches.
 2. **Fiches et citations.** Chaque fiche complétée, les coordonnées harmonisées dans les annuaires, les doublons supprimés, les sources manquantes ajoutées.
 3. **Pages et balisage.** Les pages par ville ou par quartier rédigées dans chaque langue retenue, le balisage LocalBusiness posé, les liens internes réorganisés.
 4. **Avis.** La routine de demande installée, des modèles de réponse prêts, une veille sur les nouveaux avis.
-5. **Suivi mensuel.** Publications, photos, réponses, et un rapport sur votre visibilité locale et les demandes reçues, ville par ville, avec les ajustements recommandés.
+5. **Au mois le mois.** Publications, photos, réponses, et un rapport sur votre visibilité locale et les demandes reçues, ville par ville, avec les ajustements recommandés. L’engagement court au mois le mois.
 
 Le tarif dépend du nombre d’adresses, de langues et de pages à rédiger ; il est chiffré après la consultation gratuite, et [nos tarifs](/fr/tarifs/) expliquent comment nous facturons.

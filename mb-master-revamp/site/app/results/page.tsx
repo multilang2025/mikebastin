@@ -6,7 +6,7 @@ import Testimonials from "@/components/Testimonials";
 import SiteFooter from "@/components/SiteFooter";
 import JsonLd from "@/components/JsonLd";
 import { SITE_URL, breadcrumbSchema } from "@/lib/schema";
-import { PROJECTS } from "@/lib/projects";
+import { LEADS_PERIOD, PROJECTS } from "@/lib/projects";
 import DlArt from "@/components/DlArt";
 import HeroArtSlot from "@/components/HeroArtSlot";
 
@@ -17,6 +17,8 @@ import HeroArtSlot from "@/components/HeroArtSlot";
 // (lib/projects.ts, May to July 2026, owner-approved to name). Owned
 // properties are labelled as ours rather than passed off as clients.
 const OWNED = new Set(["valenciamove", "betranslated", "matosurf"]);
+
+const WORDS = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten"];
 
 function toNumber(s: string) {
   return Number(s.replace(/,/g, ""));
@@ -29,14 +31,29 @@ const WITH_SEARCH = PROJECTS.filter((p) => p.search).sort(
 const TOTAL_CLICKS = WITH_SEARCH.reduce((n, p) => n + toNumber(p.search!.clicks), 0);
 const TOTAL_IMPRESSIONS = WITH_SEARCH.reduce((n, p) => n + toNumber(p.search!.impressions), 0);
 const CLICKS = TOTAL_CLICKS.toLocaleString("en-GB");
+// Enquiries come first, as a monthly average (owner, 3 Oct 2026), counted on
+// the sites that keep a form record (lib/projects.ts).
+const WITH_LEADS = WITH_SEARCH.filter((p) => p.leads);
+const [LEADS_LOW, LEADS_HIGH] = WITH_LEADS.reduce(
+  ([lo, hi], p) => {
+    const [a, b = a] = p.leads!.count.split(" to ").map(toNumber);
+    return [lo + a, hi + b];
+  },
+  [0, 0],
+);
+const LEADS =
+  LEADS_LOW === LEADS_HIGH
+    ? LEADS_LOW.toLocaleString("en-GB")
+    : `${LEADS_LOW.toLocaleString("en-GB")} to ${LEADS_HIGH.toLocaleString("en-GB")}`;
+const COUNTED = WITH_LEADS.filter((p) => !p.leads!.count.includes(" to ")).length;
+const LEAD_SITES = WORDS[COUNTED] ?? String(COUNTED);
 const MILLIONS = (TOTAL_IMPRESSIONS / 1_000_000).toFixed(1);
-const WORDS = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten"];
 const SITE_COUNT = WORDS[WITH_SEARCH.length] ?? String(WITH_SEARCH.length);
 
 export const metadata: Metadata = {
   ...pageMeta({
     title: "Client results you can count, Mike Bastin",
-    description: `Live Search Console figures from ${SITE_COUNT} sites we run search for: ${CLICKS} clicks from ${MILLIONS} million impressions in three months, each with its case study.`,
+    description: `${LEADS} enquiries a month and ${CLICKS} Google clicks in three months across the client sites we run search for, each with its case study.`,
     path: "/results/",
   }),
 };
@@ -78,17 +95,22 @@ export default function ResultsPage() {
       <section className="band band-b py-[clamp(64px,9vw,128px)]">
         <div className="shell">
           <Reveal>
-            <p className="eyebrow mb-3">Three months of Google search</p>
-            <h2 className="mb-5 max-w-[22ch] text-[clamp(1.8rem,3.6vw,2.9rem)] font-semibold leading-[1.1]">
-              {CLICKS} clicks from {MILLIONS} million impressions.
+            <p className="eyebrow mb-3">Monthly enquiries and three months of search</p>
+            <h2 className="mb-5 max-w-[24ch] text-[clamp(1.8rem,3.6vw,2.9rem)] font-semibold leading-[1.1]">
+              {LEADS} enquiries a month and {CLICKS} clicks from Google.
             </h2>
             <p className="mb-4 max-w-[56ch] text-[1.05rem]" style={{ color: "var(--dim)" }}>
               Across {SITE_COUNT} sites we run search for, from a Valencia law
               firm working in four languages to a Dutch powder coating
-              specialist. Open any row for the brief, the work and the outcome.
+              specialist, with {MILLIONS} million impressions behind the
+              clicks. Open any row for the brief, the work and the outcome.
             </p>
             <blockquote className="mb-12 max-w-[56ch] text-[.85rem]" style={{ color: "var(--dim)" }}>
-              Source: Google Search Console, May to July 2026.
+              Sources: enquiries are a monthly average for {LEADS_PERIOD},
+              from the {LEAD_SITES} sites that keep a record of their contact
+              and quote forms, counted from those records (C21 Perdomo’s
+              forms post outside its site, so its figure is a range); clicks and
+              impressions are May to July 2026, from Google Search Console.
             </blockquote>
           </Reveal>
 
@@ -110,18 +132,20 @@ export default function ResultsPage() {
                     </span>
                   </span>
                   {[
+                    { v: p.leads?.count ?? "", k: p.leads ? `${p.leads.what} a month` : "" },
                     { v: p.search!.clicks, k: "Clicks" },
                     { v: p.search!.impressions, k: "Impressions" },
-                    { v: p.search!.position, k: "Avg. position" },
-                  ].map((m) => (
+                  ].map((m, mi) => (
                     // Sized so a seven-digit figure and its label each hold
                     // one line in a third of a 360px phone (owner, 3 Oct
                     // 2026: "2,399,56 / 7" broke across lines).
-                    <span key={m.k} className="flex min-w-0 flex-col gap-1">
+                    // An empty first cell keeps the columns aligned on a site
+                    // with no form record.
+                    <span key={mi} className="flex min-w-0 flex-col gap-1" aria-hidden={m.v ? undefined : true}>
                       <span className="display whitespace-nowrap text-[clamp(.98rem,4.4vw,1.2rem)] font-semibold leading-none tabular-nums" style={{ color: "var(--berry)" }}>
                         {m.v}
                       </span>
-                      <span className="whitespace-nowrap text-[.62rem] uppercase tracking-[.06em] sm:text-[.7rem] sm:tracking-[.12em]" style={{ color: "var(--dim)" }}>
+                      <span className="text-[.62rem] leading-tight sm:whitespace-nowrap uppercase tracking-[.06em] sm:text-[.7rem] sm:tracking-[.12em]" style={{ color: "var(--dim)" }}>
                         {m.k}
                       </span>
                     </span>

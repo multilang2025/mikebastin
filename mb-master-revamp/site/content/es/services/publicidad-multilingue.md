@@ -34,7 +34,7 @@ Separar las dos partidas une nuestro interés al resultado de las campañas.
 
 Esta regla se aplica a la inversión en medios; la redacción y la traducción se presupuestan aparte, por el trabajo que suponen.
 
-## Lo que hacemos en cada mercado
+## Qué incluye nuestra gestión de Google Ads en cada mercado
 
 - **Una investigación de palabras clave por mercado.** El planificador da los volúmenes; la intención sale de leer los resultados de búsqueda en el país elegido y de validar los términos con hablantes nativos, antes de la primera puja. Cada variante tiene su propia investigación: el español de España y el de México, el inglés británico y el estadounidense, el francés de Francia, de Bélgica o de Canadá. Para Francia, nuestra guía de [Google Ads en Francia](/es/campanas-google-ads-francia/) muestra cómo busca y compra allí el cliente.
 - **Campañas distintas por mercado**, con presupuestos y estrategias de puja propios, cada una construida para el mercado al que sirve.
@@ -50,19 +50,19 @@ El español, el inglés, el francés y el neerlandés los gestiona directamente 
 
 Para un despacho de abogados de Valencia, campañas de búsqueda dirigidas a consultas de intención comercial, llevadas en cuentas separadas por idioma para mantener un nivel de calidad propio en cada una, produjeron un flujo regular de consultas cualificadas en cada uno de sus idiomas, a un coste por consulta que el valor medio de un expediente del despacho absorbe.
 
-## Cuentas por mercado y el pago junto al orgánico
+## Cuentas separadas por mercado y publicidad junto al posicionamiento orgánico
 
-Google evalúa la relevancia por cuenta y por campaña: cada mercado rinde mejor con un historial propio. Dividir por idioma, y por dominio nacional cuando tienes varios, hace que el nivel de calidad de cada mercado se gane con su propio rendimiento. Los informes también ganan claridad: cada idioma muestra su propio retorno y mueves el presupuesto hacia el que lo merece.
+Dividimos tus cuentas por idioma, y por dominio nacional cuando tienes varios, porque Google evalúa la relevancia por cuenta y por campaña: así el nivel de calidad de cada mercado se gana con su propio rendimiento. Cada idioma muestra además su propio retorno, y movemos el presupuesto hacia el que lo merece.
 
-Los términos de búsqueda son el lugar donde más pesa el idioma. La lista de palabras clave negativas se construye leyendo lo que la gente ha escrito de verdad, y hay que dominar el idioma para distinguir una búsqueda prometedora de una que no viene al caso.
+Leemos los términos de búsqueda en el idioma de cada mercado y construimos la lista de palabras clave negativas a partir de lo que la gente ha escrito de verdad, para separar una búsqueda prometedora de una que no viene al caso.
 
-El pago va primero cuando necesitas consultas ya, cuando la oferta es lo bastante nueva como para merecer una señal de demanda antes de invertir en contenido, o cuando el orgánico tardará buena parte del año en madurar en ese mercado. El orgánico va primero cuando los clics de tu sector cuestan más de lo que el pago puede devolver, o cuando tus compradores se informan durante meses antes de contactarte.
+Ponemos el pago primero cuando necesitas consultas ya, cuando la oferta es lo bastante nueva como para merecer una señal de demanda antes de invertir en contenido, o cuando el orgánico tardará buena parte del año en madurar en ese mercado. Ponemos el orgánico primero cuando los clics de tu sector cuestan más de lo que el pago puede devolver, o cuando tus compradores se informan durante meses antes de contactarte.
 
 Lo más habitual es combinar ambos: el pago se queda con las búsquedas de intención comercial mientras se construye tu [posicionamiento multilingüe](/es/services/posicionamiento-multilingue/), y después el presupuesto de pago se desplaza a mercados menos disputados o a términos genéricos a medida que el orgánico los sostiene. Los dos comparten el mismo universo de palabras clave y, cuando conviene, las mismas páginas de destino. Nuestra [generación de leads](/es/services/generacion-de-leads/) reúne ambas palancas en torno a un mismo objetivo: consultas cualificadas, mercado por mercado.
 
 Para las búsquedas de tu zona, el [SEO local](/es/services/seo-local/) te sitúa en el mapa de Google mientras los anuncios captan la demanda inmediata.
 
-## Cómo trabajamos
+## Cómo llevamos tus campañas de publicidad multilingüe
 
 1. **Auditoría.** Partimos de tus cuentas de Google Ads y Microsoft Advertising existentes cuando el historial de conversiones tiene valor, o creamos otras nuevas. El entregable: nivel de calidad por grupo de anuncios, tasa de conversión por campaña, gasto por reasignar y oportunidades por mercado.
 2. **Estructura.** Una hoja de palabras clave por mercado con volúmenes, costes por clic e intención, la estructura de cuenta recomendada y la definición de las conversiones que se seguirán.

@@ -26,7 +26,7 @@ C’est notre métier depuis plus de deux décennies : le SEO international pou
 <p><strong>Vous voulez que vos pages étrangères vous apportent des clients ?</strong> Nous trouvons les mots que vos acheteurs utilisent dans chaque pays et nous écrivons les pages qui les font vous contacter. <a href="/fr/nous-contacter/">Réserver une consultation gratuite</a>.</p>
 </aside>
 
-## Ce que nous faisons pour vos marchés étrangers
+## Ce que comprend notre SEO international pour vos marchés étrangers
 
 Le référencement naturel à l’international tient en trois gestes, menés pour chaque pays où vous vendez.
 
@@ -50,27 +50,27 @@ BeTranslated, l’agence de traduction que nous dirigeons depuis vingt ans, mèn
 
 Une fois la stratégie posée, une partie du travail est technique, et c’est elle qui permet au bon contenu de se positionner.
 
-**La structure du site.** Sous-répertoire (/es/, /de/), sous-domaine ou domaine national (.es, .de) : le choix dépend de votre budget, de l’autorité que vous pouvez répartir et du poids d’une adresse locale aux yeux de vos acheteurs. Pour la plupart des entreprises qui ajoutent des marchés à une activité existante, le sous-répertoire concentre l’autorité au même endroit. Nous le décidons avec vous une fois, au début.
+**La structure du site.** Nous décidons avec vous, une fois, au début, entre un sous-répertoire (/es/, /de/), un sous-domaine et un domaine national (.es, .de), selon votre budget, l’autorité que vous pouvez répartir et le poids d’une adresse locale aux yeux de vos acheteurs. Pour la plupart des entreprises qui ajoutent des marchés à une activité existante, le sous-répertoire concentre l’autorité au même endroit.
 
-**Les balises hreflang.** Chaque page porte une balise hreflang avec le bon code de langue et un lien de retour vers ses versions sœurs, page d’accueil comprise. L’acheteur belge arrive ainsi sur la version belge, l’acheteur espagnol sur la version espagnole, et la Search Console donne un rapport propre, marché par marché.
+**Les balises hreflang.** Nous posons sur chaque page, page d’accueil comprise, une balise hreflang avec le bon code de langue et un lien de retour vers ses versions sœurs. L’acheteur belge arrive ainsi sur la version belge, l’acheteur espagnol sur la version espagnole, et la Search Console donne un rapport propre, marché par marché.
 
-**Les données structurées.** Le balisage schema (LocalBusiness, Service, Article, FAQ) est construit pour chaque langue et validé avec l’outil de test des résultats enrichis de Google.
+**Les données structurées.** Nous construisons le balisage schema (LocalBusiness, Service, Article, FAQ) pour chaque langue et nous le validons avec l’outil de test des résultats enrichis de Google.
 
 **Les réponses des moteurs d’IA.** ChatGPT, Claude, Perplexity et les AI Overviews de Google répondent dans la langue de celui qui pose la question, et chacun cite ses propres sources par pays. Des pages natives, des liens gagnés dans la presse et les annuaires de chaque pays, et une marque présente dans chaque langue vous placent dans ces réponses, marché par marché.
 
-## Par quel marché commencer
+## Le marché par lequel nous commençons
 
-Le plus souvent, par celui où les chiffres sont déjà les plus encourageants : le pays qui envoie des visites, où la concurrence reste abordable et où votre offre correspond à ce qui se cherche. Nous mesurons chaque marché candidat sur la demande, la concurrence, l’adéquation commerciale, le coût de la localisation et les contraintes réglementaires, puis nous classons.
+Le plus souvent, nous commençons par celui où les chiffres sont déjà les plus encourageants : le pays qui envoie des visites, où la concurrence reste abordable et où votre offre correspond à ce qui se cherche. Nous mesurons chaque marché candidat sur la demande, la concurrence, l’adéquation commerciale, le coût de la localisation et les contraintes réglementaires, puis nous les classons.
 
-Trois ou quatre marchés menés en profondeur donnent plus de résultats que neuf lancés ensemble. Les suivants arrivent quand les premiers montrent leurs résultats. Si vous menez déjà plusieurs langues de front, notre page sur le [référencement multilingue](/fr/services/referencement-multilingue/) détaille comment nous ordonnons et pilotons un programme sur plusieurs marchés.
+Nous menons trois ou quatre marchés en profondeur, car ils donnent plus de résultats que neuf lancés ensemble. Les suivants arrivent quand les premiers montrent leurs résultats. Si vous menez déjà plusieurs langues de front, notre page sur le [référencement multilingue](/fr/services/referencement-multilingue/) détaille comment nous ordonnons et pilotons un programme sur plusieurs marchés.
 
-## Comment nous travaillons
+## Comment se déroule une mission de référencement naturel à l’export
 
-1. **Une consultation gratuite de trente minutes** sur vos marchés, vos langues et ce que vous avez déjà mis en place.
-2. **Un périmètre écrit pour le premier trimestre** : les pages, les mots-clés, les marchés dans l’ordre, et qui fait quoi.
-3. **Une livraison mensuelle, marché par marché**, avec des textes écrits par des natifs et relus avant publication.
-4. **Un rapport mensuel par langue** : visites, positions et demandes reçues, commentés en clair, avec les priorités du mois suivant.
-5. **Un engagement au mois**, avec un préavis de part et d’autre.
+1. **Consultation gratuite de trente minutes.** Nous parlons de vos marchés, de vos langues et de ce que vous avez déjà mis en place, et vous repartez avec nos premières pistes.
+2. **Périmètre écrit pour le premier trimestre.** Les pages, les mots-clés, les marchés dans l’ordre, et qui fait quoi.
+3. **Livraison mensuelle, marché par marché.** Des textes écrits par des natifs et relus avant publication.
+4. **Rapport mensuel par langue.** Visites, positions et demandes reçues, commentés en clair, avec les priorités du mois suivant.
+5. **Au mois le mois.** L’engagement court au mois, avec un préavis de part et d’autre.
 
 La rédaction et la traduction font l’objet d’un devis pour le travail lui-même, établi après cette consultation. Le détail de notre facturation figure sur la page [nos tarifs](/fr/tarifs/).
 

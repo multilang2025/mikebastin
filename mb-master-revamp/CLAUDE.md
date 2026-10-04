@@ -393,6 +393,17 @@ are reported and never failed, because a reader who searched for
 hreflang tags arrived wanting that word in the headline. It runs on the
 built output inside `npm run verify`.
 
+**Service pages say what we deliver, not how the discipline works** (owner,
+4 Oct 2026, on technical SEO: "reads like a how to, and not services we
+provide"). Each body opens on what the client gets, in the active voice with
+"we"; expandables name work we do, never tips addressed to the reader; and
+every service carries `process` in `lib/services.ts`, the real steps of the
+engagement starting with the free offer that fits, which the engagement band
+renders in place of the bare `sections` titles. Full rule in
+`docs/STYLE-GUIDE-UK-EU.md` section 10. Applied to all nineteen template
+pages the same day; `lead-generation` is hand-built and already written that
+way.
+
 ## The UK and International Europe style guide
 
 `docs/STYLE-GUIDE-UK-EU.md` (owner, 21 Sep 2026). Its language and

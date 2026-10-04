@@ -26,9 +26,9 @@ Nuestra consultoría de inteligencia artificial te dice con precisión qué part
 <p><strong>¿Quieres saber qué parte de tus contenidos puede llevar la IA?</strong> Analizamos tus mercados y tus contenidos, y te decimos dónde rinde la automatización y dónde conviene la revisión de una persona. <a href="/es/contactanos/">Reserva una consulta gratuita</a>.</p>
 </aside>
 
-## Qué hacemos en una consultoría de IA
+## Qué incluye nuestra consultoría de inteligencia artificial en Valencia
 
-Trabajamos sobre cinco decisiones concretas, pensadas para empresas de Valencia que atienden a clientes en más de un idioma:
+Te entregamos una evaluación escrita de cinco decisiones concretas, pensada para empresas de Valencia que atienden a clientes en más de un idioma:
 
 - qué contenidos pasan por traducción automática y con qué nivel de revisión;
 - si un [asistente multilingüe con IA](/es/chatbots-ia-empresas/) puede atender a los clientes de cada mercado, y hasta dónde;
@@ -36,7 +36,7 @@ Trabajamos sobre cinco decisiones concretas, pensadas para empresas de Valencia 
 - cómo aparecen tus contenidos en las respuestas de ChatGPT, Claude, Gemini o Perplexity, y qué cambia para que te citen;
 - cómo medir si todo eso funciona.
 
-Una estrategia de IA que merezca ese nombre responde a las dos mitades de la pregunta: dónde se usa la herramienta y dónde toma el relevo una persona. Lo evaluamos contra el coste real de una respuesta equivocada en cada caso. Un texto de un blog admite más margen que una cláusula de condiciones de venta.
+En cada una señalamos dónde trabaja la herramienta y dónde toma el relevo una persona, y lo medimos contra el coste real de una respuesta equivocada en cada caso. Un texto de un blog admite más margen que una cláusula de condiciones de venta, y tú recibes ese criterio por escrito.
 
 ## Que las respuestas de la IA te citen en cada idioma
 
@@ -57,13 +57,13 @@ Este trabajo complementa al SEO, que sigue siendo la base: el SEO técnico y sem
 
 ## Traducción automática revisada por alguien que lee el idioma
 
-Los motores actuales son lo bastante buenos para encargarse del primer borrador de casi cualquier material, y lo que sale de ellos se publica tras una lectura. El montaje que funciona tiene tres piezas:
+Montamos la traducción automática para que el motor se encargue del primer borrador y una persona lo lea antes de publicarlo. El montaje tiene tres piezas:
 
-- un motor elegido y ajustado a tu sector;
+- un motor que elegimos y ajustamos a tu sector;
 - un editor nativo en los contenidos que comprometen a tu empresa;
 - una revisión más ligera en el resto.
 
-El ahorro es real y nace de decidir qué contenido es cuál. Es el principio de nuestra [posedición de IA](/es/services/posedicion-de-ia/), donde el esfuerzo se concentra allí donde está el riesgo.
+El ahorro nace de decidir qué contenido es cuál, y esa clasificación forma parte de lo que te entregamos. Es el principio de nuestra [posedición de IA](/es/services/posedicion-de-ia/), donde el esfuerzo se concentra allí donde está el riesgo.
 
 ## Atención al cliente que responde en el idioma de la pregunta
 
@@ -88,8 +88,15 @@ Para saber si la automatización funciona seguimos cuatro indicadores:
 
 Los acompañamos de cifras por mercado, para ver por separado un ahorro en alemán y un problema en español que un cuadro de mando global sumaría y taparía. Una automatización bien resuelta ahorra tiempo y conserva la confianza de cada mercado, y el recuento de consultas es donde se ve.
 
-## Cómo trabajamos
+## Cómo trabajamos tu consultoría de IA en Valencia
+
+1. **Consulta gratuita.** Repasamos contigo tus herramientas actuales y tu flujo de trabajo multilingüe, en nuestra oficina o por videollamada, y señalamos dónde la IA podría ahorrarte tiempo, antes de que te comprometas a nada.
+2. **Alcance por escrito.** Tras la llamada te enviamos el alcance del primer trimestre: los flujos de trabajo sobre los que trabajamos, lo que entregamos y cómo mediremos cada punto.
+3. **Evaluación de dónde encaja la IA.** Recorremos tu flujo multilingüe paso a paso y te decimos dónde la máquina puede hacer el primer borrador y dónde una persona que lee el idioma lo mantiene exacto.
+4. **Puesta en marcha con un lector en cada idioma.** Montamos la traducción automática, el asistente de atención al cliente o el análisis de opiniones acordados en el alcance, con alguien que lee cada idioma de destino comprobando lo que sale.
+5. **Medición de resultados.** Medimos la precisión sobre una muestra comprobada, el plazo, el coste por página publicada y los resultados por mercado, y te entregamos un informe escrito de lo que conviene conservar.
+6. **Mes a mes.** La colaboración es mes a mes, así que el trabajo continúa mientras te rinde.
 
 Llevamos más de dos décadas acompañando el posicionamiento multilingüe y los contenidos internacionales de empresas, y estamos en Valencia desde 2016, en Calle Rugat 12 - 2, 46021 Valencia. La redacción nativa y la traducción pasan por especialistas con nombre y apellidos, en su mayoría de la red BeTranslated, que dirigimos desde hace veinte años. Si tus contenidos extranjeros están por producir, mira también nuestra [redacción SEO multilingüe](/es/services/redaccion-seo-multilingue/).
 
-Empezamos con una consulta gratuita sobre tus mercados y tus contenidos, en nuestra oficina o por videollamada; también puedes pedir una auditoría gratuita de 20 minutos. Si tus clientes te buscan sobre todo en tu ciudad, nuestro [SEO local](/es/services/seo-local/) te sitúa en el mapa de Google. Después recibes por escrito el alcance del primer trimestre. La colaboración es mes a mes, y respondemos a cada consulta, normalmente en un día laborable. Si quieres ver cómo encaja con el resto, consulta [nuestros precios](/es/precios/).
+Puedes pedir también una auditoría gratuita de 20 minutos. Si tus clientes te buscan sobre todo en tu ciudad, nuestro [SEO local](/es/services/seo-local/) te sitúa en el mapa de Google. Respondemos a cada consulta, normalmente en un día laborable. Si quieres ver cómo encaja con el resto, consulta [nuestros precios](/es/precios/).

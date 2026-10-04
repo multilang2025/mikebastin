@@ -4,7 +4,7 @@ import { pageMeta } from "@/lib/meta";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import Reveal from "@/components/Reveal";
-import { PROJECTS, getProject } from "@/lib/projects";
+import { LEADS_PERIOD, PROJECTS, getProject } from "@/lib/projects";
 import SiteFooter from "@/components/SiteFooter";
 import JsonLd from "@/components/JsonLd";
 import { SITE_URL, breadcrumbSchema } from "@/lib/schema";
@@ -154,18 +154,23 @@ export default async function ProjectPage({
         <section className={`band ${project.shot ? "band-a" : "band-a"} py-[clamp(56px,8vw,110px)]`}>
           <div className="shell">
             <Reveal>
-              <p className="eyebrow mb-3">Live Search Console, {project.search.note}</p>
+              <p className="eyebrow mb-3">Measured results</p>
               <h2 className="mb-8 max-w-[22ch] text-[clamp(1.7rem,3.2vw,2.5rem)] font-semibold leading-[1.12]">
-                What {project.name}&apos;s search data says
+                What {project.name}&apos;s enquiries and search data say
               </h2>
             </Reveal>
-            {/* One column on phones, three from 640px: auto-fit put two on a
-                phone and left a grey empty cell beside the third. */}
-            <div className="grid grid-cols-1 gap-px sm:grid-cols-3" style={{ background: "var(--rule)" }}>
+            {/* Enquiries first where the site keeps a form record (owner,
+                3 Oct 2026); average position left out for now. One column
+                on phones, then as many columns as figures, so no grey empty
+                cell is ever left in the grid. */}
+            <div
+              className={`grid grid-cols-1 gap-px ${project.leads ? "sm:grid-cols-3" : "sm:grid-cols-2"}`}
+              style={{ background: "var(--rule)" }}
+            >
               {[
-                { v: project.search.clicks, k: "Clicks" },
-                { v: project.search.impressions, k: "Impressions" },
-                { v: project.search.position, k: "Average position" },
+                ...(project.leads ? [{ v: project.leads.count, k: `${project.leads.what.charAt(0).toUpperCase() + project.leads.what.slice(1)} a month, ${LEADS_PERIOD}` }] : []),
+                { v: project.search.clicks, k: project.search.note ? `Clicks from Google, ${project.search.note}` : "Clicks from Google" },
+                { v: project.search.impressions, k: project.search.note ? `Impressions, ${project.search.note}` : "Impressions" },
               ].map((m, i) => (
                 <div key={m.k} className="band px-6 py-9" style={{ background: "var(--bg)" }}>
                   <Reveal i={i}>

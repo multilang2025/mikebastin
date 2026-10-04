@@ -25,7 +25,7 @@ Preparamos el plan contigo en español, en nuestra oficina de Calle Rugat 12 - 2
 <p><strong>¿Quieres que tus páginas en neerlandés rindan tanto como las españolas?</strong> Las escribimos en neerlandés, para los Países Bajos y para Flandes, y seguimos las peticiones que generan. <a href="/es/contactanos/">Reserva una consulta gratuita</a>.</p>
 </aside>
 
-## Lo que hacemos por tu sitio en neerlandés
+## Qué incluye tu SEO en Países Bajos y Flandes
 
 Nos encargamos de tu visibilidad en neerlandés, desde la auditoría hasta el informe mensual:
 
@@ -40,7 +40,7 @@ Nos encargamos de tu visibilidad en neerlandés, desde la auditoría hasta el in
 
 Escribimos el neerlandés directamente, con un año Erasmus en Utrecht y muchos años de clientes neerlandeses y belgas. La investigación, la lectura de la competencia, los briefs y las reuniones con los equipos locales se hacen en neerlandés. Después, cada página comercial pasa por un lector nativo antes de publicarse, porque un nativo capta los matices que solo da la lengua materna.
 
-Tú hablas con nosotros en español. El neerlandés de Flandes y el de los Países Bajos se mantienen separados cuando se apuntan los dos mercados, porque las palabras y las normas cambian a cada lado de la frontera.
+Tú hablas con nosotros en español. Mantenemos separados el neerlandés de Flandes y el de los Países Bajos cuando se apuntan los dos mercados, porque las palabras y las normas cambian a cada lado de la frontera.
 
 Después vienen los elementos que hacen que un comprador neerlandés o belga confíe en un proveedor: los datos de empresa en el pie de página, los medios de pago que conoce, presencia en los directorios de tu sector y menciones en la prensa regional.
 
@@ -50,7 +50,7 @@ Bemelman Spuiterij es un especialista en pintura en polvo de Noordwijkerhout, en
 
 BeTranslated, la agencia de traducción que dirigimos en Valencia desde hace veinte años, tiene sus propios sitios en .be y .nl, cada uno construido sobre la investigación de su propio mercado.
 
-## Lo que debe llevar un sitio en neerlandés
+## Lo que ponemos en tu sitio en neerlandés
 
 ### Palabras clave pensadas en neerlandés
 
@@ -60,20 +60,25 @@ El neerlandés junta las palabras. Un neerlandés busca «tandartspraktijk» en 
 
 Una vivienda de alquiler es una «huurwoning» en los Países Bajos y a menudo un «huurappartement» en Bélgica. El seguro se dice «verzekering» en un lado y alterna con «assurantie» en el otro. Las dos formas son correctas y cada una suena local en su país. Los organismos de supervisión también difieren, la AFM en los Países Bajos y la FSMA en Bélgica para los servicios financieros, igual que las reglas del IVA. Tratados como dos mercados, cada país recibe un sitio plenamente pertinente.
 
-En lo técnico, cada versión lleva su etiqueta hreflang, nl-NL para los Países Bajos y nl-BE para Flandes, y fr-BE para tus páginas belgas en francés. Así Google enseña a cada comprador la versión escrita para él.
+En lo técnico, damos a cada versión su etiqueta hreflang, nl-NL para los Países Bajos y nl-BE para Flandes, y fr-BE para tus páginas belgas en francés. Así Google enseña a cada comprador la versión escrita para él.
 
-### El pie de página y el pago
+### El pie de página y los medios de pago
 
-El número de registro neerlandés (KvK), su equivalente belga (BCE, o KBO en neerlandés), el número de IVA y un consentimiento de cookies conforme a la ley local: el comprador los busca en el pie de página y en la página de contacto. Los sectores regulados suman a este trabajo un abogado neerlandés o belga. iDEAL en los Países Bajos y Bancontact en Bélgica son los medios de pago que el cliente espera ver. Una tienda que los ofrece lleva a más compradores hasta el final. Tienen su lugar en un plan SEO porque el tráfico de búsqueda vale lo que convierte, y el medio de pago que el cliente espera convierte más.
+Colocamos en el pie de página y en la página de contacto, donde el comprador los busca, el número de registro neerlandés (KvK), su equivalente belga (BCE, o KBO en neerlandés), el número de IVA y un consentimiento de cookies conforme a la ley local. Los sectores regulados suman a este trabajo un abogado neerlandés o belga. iDEAL en los Países Bajos y Bancontact en Bélgica son los medios de pago que el cliente espera ver. Una tienda que los ofrece lleva a más compradores hasta el final. Tienen su lugar en un plan SEO porque el tráfico de búsqueda vale lo que convierte, y el medio de pago que el cliente espera convierte más.
 
-## Países Bajos, Flandes o los dos
+## Países Bajos, Flandes o los dos: la recomendación que te damos
 
 Los Países Bajos solos son la respuesta más frecuente, con la arquitectura más sencilla. Flandes solo es menos habitual: una empresa que trabaja en neerlandés en Bélgica suele apuntar también a los Países Bajos. Los dos mercados, con nl-NL y nl-BE separados, se justifican en cuanto te contactan clientes en neerlandés a ambos lados de la frontera.
 
 La recomendación parte de tus ventas: dónde están ya tus clientes y dónde mejor responde tu oferta.
 
-## Cómo trabajamos contigo
+## Cómo trabajamos tu SEO en neerlandés para los Países Bajos y Flandes
 
-Todo empieza con una consulta gratuita en español sobre tus ventas en el Benelux. Después auditamos tus páginas en neerlandés y las de tus competidores directos, y te proponemos un alcance por escrito para el primer trimestre: qué mercado primero, qué páginas y en qué orden. Puedes reservar una auditoría gratuita de 20 minutos, y te respondemos por lo general en un día laborable. Una vez validado el plan, escribimos, hacemos revisar, publicamos y seguimos los Países Bajos y Flandes por separado en el informe mensual.
+1. **Auditoría gratuita de 20 minutos.** Empezamos con una consulta gratuita en español sobre tus ventas en el Benelux, y miramos tus páginas en neerlandés junto a las de tus competidores neerlandeses y belgas directos.
+2. **Alcance por escrito.** Recibes un alcance para el primer trimestre con las páginas y los entregables, y con la decisión de si van primero los Países Bajos, Flandes o los dos.
+3. **Investigación y redacción en neerlandés.** Investigamos y escribimos el neerlandés nosotros mismos, y cada página comercial pasa por un lector nativo antes de publicarse, para que suene local en Ámsterdam y en Amberes.
+4. **Datos de empresa y medios de pago.** Dejamos a la vista el KvK o KBO y el BTW, el consentimiento de cookies y los medios de pago iDEAL o Bancontact que buscan los compradores neerlandeses y belgas.
+5. **Informe mensual por país.** Cada mes, un informe sobre las peticiones neerlandesas y belgas, seguidas aparte de tus otros mercados, con lo que cambió y lo que sigue.
+6. **Mes a mes.** Los encargos se pagan mes a mes y el trabajo continúa mientras te aporta peticiones.
 
-El neerlandés se integra en tu [posicionamiento multilingüe](/es/services/posicionamiento-multilingue/) y sigue el mismo plan que tus otros idiomas. Para ganar también clientes en Valencia, con tu ficha de Google Business Profile, mira nuestro [SEO local](/es/services/seo-local/). Los encargos se pagan mes a mes, con un alcance por escrito tras la consulta gratuita, y la redacción se presupuesta aparte, como un encargo: nuestra [forma de facturar](/es/precios/) está detallada ahí.
+Respondemos por lo general en un día laborable. El neerlandés se integra en tu [posicionamiento multilingüe](/es/services/posicionamiento-multilingue/) y sigue el mismo plan que tus otros idiomas. Para ganar también clientes en Valencia, con tu ficha de Google Business Profile, mira nuestro [SEO local](/es/services/seo-local/). Recibes un alcance por escrito tras la consulta gratuita, y la redacción se presupuesta aparte, como un encargo: nuestra [forma de facturar](/es/precios/) está detallada ahí.
