@@ -41,11 +41,108 @@ when the units reset.
 | `/es/services/traduccion-de-paginas-web/` | traducción de páginas web Valencia |
 | `/es/services/redaccion-seo-multilingue/` | redacción SEO Valencia |
 | `/es/services/consultoria-de-inteligencia-artificial/` | consultoría de inteligencia artificial Valencia |
+| `/es/services/seo-para-ia-geo/` | SEO para IA Valencia (GEO Valencia), built 4 Oct 2026 after the okisam.com read |
 | `/es/services/posedicion-de-ia/` | traducción automática y posedición Valencia |
 | `/es/services/localizacion-de-aplicaciones/` | localización de apps Valencia |
 | `/es/services/seo-frances/`, `-aleman`, `-neerlandes`, `-ingles`, `-italiano`, `-portugues` | SEO en Francia (Alemania, ...) desde Valencia |
 | `/es/conocenos-agencia-experta-en-seo/` | equipo SEO en Valencia |
 | `/es/precios/` | precios SEO Valencia |
+
+## Legacy keyword ideas for the unmeasured terms (Q28, 4 Oct 2026)
+
+Ahrefs has 28 of 200,000 units left and resets on **18 October 2026**, so
+the Valencia terms stay unmeasured until then. What the legacy
+mikebastin.com holds instead (Rank Math focus keywords and titles read from
+the legacy database, and Search Console from 3 Jul to 1 Oct 2026):
+
+- **No Spanish-language Valencia query ever ranked.** The legacy
+  `/es/services/optimizacion-seo/` page logged 179 impressions for "seo
+  spanish" and 85 for "seo latam", all English or Latin America and US
+  Hispanic shapes (position 35 to 80). Delaguía y Luzón's Search Console is
+  French-language legal content. So the "service plus Valencia" terms are
+  untested, not disproved, and the legacy data cannot rank them.
+- **The legacy Spanish titles already used "en Valencia"** on 14 pages, which
+  is where the secondary candidates below come from. Add every term to the
+  18 October batch (`keywords-explorer-overview`, country `es`) together with
+  the controls the method note asks for.
+
+| Current page (primary) | Legacy focus keyword and title | Secondary candidates to measure |
+|---|---|---|
+| `/es/` (agencia SEO Valencia) | "marketing digital": *Expertos en SEO y marketing digital en Valencia* | marketing digital Valencia, agencia marketing digital Valencia |
+| `seo-local` (SEO local Valencia) | "SEO local": *SEO local en Valencia, consigue más leads*; post "Perfil de Empresa de Google" | posicionamiento local Valencia, perfil de empresa de Google Valencia, Google Maps Valencia |
+| `optimizacion-seo` (posicionamiento SEO Valencia) | "SEO optimización": *Servicios SEO en español para empresas multilingües* | consultor SEO Valencia, servicios SEO Valencia, SEO on page Valencia (legacy `seo-onpage`), búsqueda de palabras clave Valencia (legacy `busqueda-palabras-clave`) |
+| `posicionamiento-multilingue` (SEO multilingüe Valencia) | "posicionamiento": *Posicionamiento multilingüe, expande tu negocio globalmente*; "agencia de SEO global" | agencia SEO internacional Valencia, SEO internacional Valencia |
+| `seo-tecnico` (auditoría SEO Valencia) | "SEO técnico multilingüe" (post) | SEO técnico Valencia, analítica SEO Valencia (legacy `monitorizacion-y-analitica`: *Monitorización y analítica avanzada de SEO en Valencia*), auditoría SEO técnica |
+| `publicidad-multilingue` (agencia Google Ads Valencia) | "publicidad multilingue": *Servicios de publicidad multilingüe (SEM) en Valencia* | publicidad Google Ads Valencia, SEM Valencia, campañas Google Ads Valencia |
+| `traduccion-profesional` (traducción jurada Valencia) | six legacy pages: certificada y jurada, jurídica, médica, financiera, académica, comercial, all "en Valencia" | traducción certificada y jurada Valencia, traducción jurídica Valencia, traductor jurado Valencia, traducción médica Valencia, traducción financiera Valencia, traducción académica Valencia, traducción comercial Valencia, transcreación Valencia |
+| `traduccion-de-paginas-web` (traducción de páginas web Valencia) | "localización de páginas web" | localización web Valencia, plugin de traducción WordPress, localización de e-commerce Valencia, integración CMS multilingüe |
+| `redaccion-seo-multilingue` (redacción SEO Valencia) | "Redacción SEO multilingüe": *Redacción SEO multilingüe en Valencia, blog optimizado* | redactor SEO Valencia, copywriting SEO Valencia, gestión de redes sociales multilingüe Valencia, consultoría cultural Valencia |
+| `consultoria-de-inteligencia-artificial` | "consultoría de inteligencia artificial": same, "en Valencia" | consultoría IA Valencia, IA para empresas Valencia |
+| `posedicion-de-ia` | "posedición de IA": *con lingüistas nativos* | posedición Valencia, traducción automática Valencia |
+| `localizacion-de-aplicaciones` | "localización de aplicaciones": *en Valencia* | localización de apps Valencia, internacionalización de software Valencia |
+| `seo-aleman`, `-frances`, `-ingles`, `-italiano`, `-neerlandes`, `-portugues` | "SEO en alemán" and the same shape per language | SEO en Alemania desde Valencia stays; measure "SEO en alemán", "SEO en francés" (country `es`) as the language-word variants |
+
+One wording to adopt now, no measurement needed: **Google's Spanish name for
+the profile is "Perfil de Empresa de Google"** (a legacy ES post carries it as
+its focus keyword), so `seo-local` should say that next to "Google Business
+Profile".
+
+## Competitor read: okisam.com (owner request, 4 Oct 2026)
+
+Okisam is a Valencia B2B and ecommerce digital marketing agency, and the
+site that already owns the generic "service plus Valencia" shapes. Read
+from its 88-page sitemap (titles, meta descriptions, h1s, h2s; no volumes,
+because Ahrefs asks 50 units for even a small request and 28 remain until
+the reset on 18 Oct).
+
+**How it names things**
+
+- The head term is **"Agencia X"** on every service: agencia SEO, agencia
+  SEM, agencia Google Ads, agencia GEO, agencia IA, agencia CRO, agencia de
+  analítica web, agencia de link building. Our ES h1s lead with the
+  discipline instead ("Posicionamiento SEO en Valencia", "SEO local en
+  Valencia"). Only `publicidad-multilingue` ("Agencia de Google Ads en
+  Valencia") uses the buyer's own "agencia" word.
+- **Valencia sits on two pages only**: `/agencia-seo-valencia/` (*Agencia SEO
+  Valencia, Posicionamiento Web*) and `/agencia-sem-valencia/` (*Agencia SEM
+  en Valencia, Agencia PPC*). Its other service pages are generic Spanish,
+  with no city in the title.
+- Its SEO cluster is `agencia-seo/` with children: servicios SEO, consultoría
+  SEO, auditoría SEO ("¿Qué es y cómo realizar una auditoría SEO?"), análisis
+  SEO, estrategia SEO, SEO local ("Expertos en Google Maps y GMB"), link
+  building, and verticals (SEO sector turístico, SEO para psicólogos). GEO
+  sits at `agencia-seo/ia-chatgpt/`: *Agencia SEO para IA (GEO),
+  Posicionamiento en los LLMs*, plus an "Agencia ChatGPT Ads" page.
+- Its positioning is B2B, ecommerce, industrial and SaaS marketing.
+
+**What it does not do, and our pages can own**
+
+Nothing multilingual: no multilingual SEO, translation, localization,
+hreflang or international page in the sitemap. Every term that pairs
+Valencia with a language or a market is open against it: *SEO multilingüe
+Valencia*, *SEO internacional Valencia*, *traducción jurada Valencia*,
+*localización web Valencia*, *SEO en Alemania desde Valencia*. That fits the
+plan, and it argues for making the multilingual angle the reason to choose
+us on `/es/` and on the head terms, since "agencia SEO Valencia" alone is a
+direct fight with its dedicated page.
+
+**Gaps it shows in our Spanish set**
+
+| Okisam page | Term shape | Our Spanish set |
+|---|---|---|
+| `agencia-seo/auditoria-seo/` | auditoría SEO (no Valencia) | `seo-tecnico` already targets *auditoría SEO Valencia*: the city version is open |
+| `agencia-seo/consultoria-seo/` | consultoría SEO (no Valencia) | `optimizacion-seo` lists *consultor SEO Valencia* as secondary: open |
+| `agencia-seo/seo-local/` | SEO local, Google Maps, GMB (no Valencia) | `seo-local` targets *SEO local Valencia*: open |
+| `agencia-seo/ia-chatgpt/` | agencia GEO, SEO para IA, posicionamiento en LLMs | **Built 4 Oct 2026:** `/es/services/seo-para-ia-geo/` (French twin `/fr/services/referencement-ia-geo/`, group g178). Neither locale had a GEO service page; English has `generative-engine-optimization`. |
+| `agencia-analitica-web/`, `agencia-cro/` | analítica web, CRO | No Spanish tracking page; the legacy ES site had *Monitorización y analítica avanzada de SEO en Valencia*. Candidate for a Spanish conversion tracking page. |
+| `agencia-seo/linkbuilding/` | agencia de link building | `link-building` is absorbed into `seo-tecnico`; candidate secondary *agencia de link building Valencia* |
+| `agencia-sem-valencia/` | agencia SEM Valencia, agencia PPC | `publicidad-multilingue`: add *agencia SEM Valencia* and *agencia PPC* as secondaries |
+
+**Batch to run on 18 Oct** (country `es`, `keywords-explorer-overview`, with
+controls): every term in the two tables above, plus
+`site-explorer-organic-keywords` for `okisam.com` filtered to "valencia"
+(select keyword, volume, best_position, best_position_url) to see which of
+its Valencia terms actually rank, and what they are worth.
 
 ## Decisions carried over, and the assumptions to confirm
 

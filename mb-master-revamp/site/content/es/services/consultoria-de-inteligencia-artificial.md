@@ -53,7 +53,7 @@ Nuestra consultoría se centra en cómo los sistemas de IA leen, interpretan y r
 
 El proceso parte de un análisis técnico y semántico real. Evaluamos tu contenido, tu estructura, tus datos estructurados y las señales E-E-A-T que ya tienes; simulamos cómo interpretan los modelos tu información; localizamos las pérdidas de contexto y las entidades que faltan; y definimos acciones concretas para mejorar la comprensión, la citabilidad y la autoridad. Acompañamos a tu equipo técnico, de SEO o de marketing mientras se aplican los cambios, y medimos el efecto en la visibilidad orgánica y en la coherencia semántica a medio plazo.
 
-Este trabajo complementa al SEO, que sigue siendo la base: el SEO técnico y semántico hace que Google entienda tu web, y esa misma claridad ayuda a un modelo a citarla. La autoridad se construye de forma progresiva y se evalúa con señales indirectas, como la coherencia semántica y la evolución de la visibilidad orgánica. Lo desarrollamos en dos artículos: [SEO y GEO](/es/optimizar-para-seo-y-geo/) y [medir el rendimiento GEO](/es/medir-rendimiento-geo/).
+Este trabajo complementa al SEO, que sigue siendo la base: el SEO técnico y semántico hace que Google entienda tu web, y esa misma claridad ayuda a un modelo a citarla. La autoridad se construye de forma progresiva y se evalúa con señales indirectas, como la coherencia semántica y la evolución de la visibilidad orgánica. Es el trabajo de nuestro servicio de [SEO para IA (GEO) en Valencia](/es/services/seo-para-ia-geo/), que se contrata aparte o junto a la consultoría. Lo desarrollamos en dos artículos: [SEO y GEO](/es/optimizar-para-seo-y-geo/) y [medir el rendimiento GEO](/es/medir-rendimiento-geo/).
 
 ## Traducción automática revisada por alguien que lee el idioma
 

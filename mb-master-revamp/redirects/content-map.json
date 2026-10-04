@@ -4293,6 +4293,29 @@
     "url": "https://mikebastin.com/es/services/seo-tecnico/",
     "content_path": "site/content/es/services/seo-tecnico.md"
    }
+  },
+  {
+   "group": "g178",
+   "type": "service",
+   "tier": null,
+   "action": "migrate",
+   "destination": "mdx",
+   "absorbed_into": null,
+   "vm_action": null,
+   "vm_target_url": null,
+   "note": "French and Spanish GEO service pages built 4 Oct 2026 (owner: build GEO after the okisam.com competitor read, docs/ES-REBUILD-PLAN.md). The EN page /services/generative-engine-optimization/ is a consolidated page with no group of its own (its legacy article is g046), so this group has no en entry; it is paired with it by hand in lib/services-locale.ts. No legacy URL points here.",
+   "fr": {
+    "id": null,
+    "slug": "referencement-ia-geo",
+    "url": "https://mikebastin.com/fr/services/referencement-ia-geo/",
+    "content_path": "site/content/fr/services/referencement-ia-geo.md"
+   },
+   "es": {
+    "id": null,
+    "slug": "seo-para-ia-geo",
+    "url": "https://mikebastin.com/es/services/seo-para-ia-geo/",
+    "content_path": "site/content/es/services/seo-para-ia-geo.md"
+   }
   }
  ]
 }

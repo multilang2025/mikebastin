@@ -44,7 +44,7 @@ const GROUPS: { heading: string; slugs: string[]; scene: { src: string; alt: str
   },
   {
     heading: "Contenido, traducción e IA", scene: { src: "/images/scenes/svc-ai.webp", alt: "Una respuesta de IA que cita páginas alemanas y neerlandesas, y una traducción automática corregida por un editor nativo", intro: "La IA donde ahorra tiempo, y un revisor nativo allí donde está en juego la confianza." },
-    slugs: ["redaccion-seo-multilingue", "traduccion-profesional", "posedicion-de-ia", "consultoria-de-inteligencia-artificial"],
+    slugs: ["redaccion-seo-multilingue", "traduccion-profesional", "posedicion-de-ia", "consultoria-de-inteligencia-artificial", "seo-para-ia-geo"],
   },
   {
     heading: "Desde Valencia, el SEO para cada mercado donde vendes", scene: { src: "/images/scenes/svc-search.webp", alt: "La misma página de servicios posicionada en los resultados en francés, alemán y español, y citada en una respuesta de IA", intro: "Presente en el idioma en el que busca cada comprador, en Google y en las respuestas de la IA." },
