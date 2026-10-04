@@ -168,7 +168,7 @@ export default async function ProjectPage({
               style={{ background: "var(--rule)" }}
             >
               {[
-                ...(project.leads ? [{ v: project.leads.count, k: `${project.leads.what.charAt(0).toUpperCase() + project.leads.what.slice(1)} a month, ${project.leads.period ?? LEADS_PERIOD}` }] : []),
+                ...(project.leads ? [{ v: project.leads.count, k: `${project.leads.what.charAt(0).toUpperCase() + project.leads.what.slice(1)} a month, ${project.leads.period ?? LEADS_PERIOD}${project.leads.count.includes(" to ") ? "" : ", forms only"}` }] : []),
                 { v: project.search.clicks, k: project.search.note ? `Clicks from Google, ${project.search.note}` : "Clicks from Google" },
                 { v: project.search.impressions, k: project.search.note ? `Impressions, ${project.search.note}` : "Impressions" },
               ].map((m, i) => (

@@ -75,7 +75,9 @@ export type Project = {
    * Perdomo's headless front end posts its forms outside WordPress, so it has
    * no record to count here; its count is a range the owner gave on 3 Oct
    * 2026 ("between TX and DL"), shown as such. A range is written "low to
-   * high", which the results page sums as a range (Bemelman's is the second).
+   * high", which the results page sums as a range (Bemelman's is the second). A figure that is a count, not a range,
+   * is form submissions only (owner, 4 Oct 2026: "mention they are forms
+   * only"); phone and email enquiries are not in it, and both pages say so.
    */
   leads?: { count: string; what: string; period?: string };
   /** Path under /work/, omitted where no usable capture exists. */
