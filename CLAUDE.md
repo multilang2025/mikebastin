@@ -170,7 +170,7 @@ WordPress APIs + external clients (Gemini, Ahrefs, Perplexity, Unsplash)
 
 ## Repo settings worth noting
 
-- **Default branch on GitHub**: `main` (checked 4 Oct 2026). The plugin's real history and all 94 release tags (v2.4.0, bridge-v3.4.2) sit on `claude/sharp-mendel-e2p23s` and are unrelated to `main`'s history, whose `ai-site-assistant` is the old v1.4.0 seed beside the website in `mb-master-revamp/`; do not delete that branch (see `mb-master-revamp/docs/OPEN-ITEMS.md` Q33)
+- **Default branch on GitHub**: `main` (checked 4 Oct 2026). The plugin's real history and all 94 release tags (v2.4.0, bridge-v3.4.2) sit on `claude/sharp-mendel-e2p23s` and are unrelated to `main`'s history, whose `ai-site-assistant` is the old v1.4.0 seed beside the website in `mb-master-revamp/`; do not delete that branch
 - **GitHub Actions**: CI triggers on push to `main` + pull_request events. Release triggers on `v*` tags.
 - **CI status checks**: must pass before allowing merge (set in branch protection rules, if any)
 
