@@ -34,7 +34,7 @@
 const SHOT_VERSION = "20261002";
 
 /** The window `leads` averages over. */
-export const LEADS_PERIOD = "July to September 2026";
+export const LEADS_PERIOD = "May to July 2026";
 
 export type Project = {
   slug: string;
@@ -62,18 +62,24 @@ export type Project = {
   search?: { clicks: string; impressions: string; position: string; note?: string };
   /**
    * Average enquiries a month received through the client site's own forms,
-   * July to September 2026 (owner, 3 Oct 2026: "the number of leads is more
-   * important", then "use an average number of monthly leads, do July to
-   * September"). Formidable entries read 3 Oct 2026, drafts and obvious spam
-   * (links, SEO, backlink and crypto pitches) left out, total divided by
-   * three and rounded: TX 451, Delaguía 207, Bemelman 5. ValenciaMove's come
-   * from its own dashboard (Supabase `consultations`, form rows not typed
-   * spam): 119. C21 Perdomo's headless front end posts its forms outside
-   * WordPress, so it has no record to count here; its count is a range the
-   * owner gave on 3 Oct 2026 ("between TX and DL"), shown as such. A range
-   * is written "low to high", which the results page sums as a range.
+   * May to July 2026, the same three months as the Search Console figures
+   * (owner, 4 Oct 2026, choosing to align the windows). Counted from the
+   * form records (Formidable entries read 3 Oct 2026), drafts and obvious
+   * spam (links, SEO, backlink and crypto pitches) left out, total divided by
+   * three and rounded: TX 341 (114 a month), Delaguía 168 (56). Bemelman's
+   * forms caught 6 (2 a month), but most of its requests arrive by phone and
+   * email, so the owner's own figure is shown: 20 to 50 a month (owner,
+   * 4 Oct 2026, "between 20 and 50 leads"). ValenciaMove's come from its own dashboard (Supabase
+   * `consultations`, form rows not typed spam), which starts on 1 July, so
+   * its figure is July alone (25) and carries its own `period`. C21
+   * Perdomo's headless front end posts its forms outside WordPress, so it has
+   * no record to count here; its count is a range the owner gave on 3 Oct
+   * 2026 ("between TX and DL"), shown as such. A range is written "low to
+   * high", which the results page sums as a range (Bemelman's is the second). A figure that is a count, not a range,
+   * is form submissions only (owner, 4 Oct 2026: "mention they are forms
+   * only"); phone and email enquiries are not in it, and both pages say so.
    */
-  leads?: { count: string; what: string };
+  leads?: { count: string; what: string; period?: string };
   /** Path under /work/, omitted where no usable capture exists. */
   shot?: string;
 };
@@ -144,7 +150,7 @@ export const PROJECTS: Project[] = [
    "Local pack presence in Houston's industrial freight search.",
     services: ["Technical SEO", "Industry content", "Houston local search", "Tracking portal"],
     search: { clicks: "2,616", impressions: "764,222", position: "21.7", note: "May to July 2026" },
-    leads: { count: "150", what: "quote requests" },
+    leads: { count: "114", what: "quote requests" },
     shot: `/work/tx-international-freight.webp?v=${SHOT_VERSION}`,
   },
   {
@@ -192,7 +198,7 @@ export const PROJECTS: Project[] = [
    "1,132 URLs live across five languages.",
     services: ["Content strategy", "Five locales", "Technical SEO", "Owned property"],
     search: { clicks: "5,685", impressions: "496,316", position: "10.7", note: "May to July 2026" },
-    leads: { count: "40", what: "enquiries" },
+    leads: { count: "25", what: "enquiries", period: "July 2026" },
     shot: `/work/valenciamove.webp?v=${SHOT_VERSION}`,
   },
   {
@@ -216,7 +222,7 @@ export const PROJECTS: Project[] = [
    "A Divi build and Dutch local SEO for a business that had traded on reputation alone for forty-five years.",
     services: ["Dutch local SEO", "Divi build", "B2B trade search"],
     search: { clicks: "1,436", impressions: "108,568", position: "28.1", note: "May to July 2026" },
-    leads: { count: "2", what: "enquiries" },
+    leads: { count: "20 to 50", what: "enquiries" },
     shot: `/work/bemelman-spuiterij.webp?v=${SHOT_VERSION}`,
   },
   {
@@ -240,7 +246,7 @@ export const PROJECTS: Project[] = [
    "Four languages, two jurisdictions, multiple practice areas held to a legal accuracy bar.",
     services: ["Legal SEO", "Multilingual content", "Four languages", "Two jurisdictions"],
     search: { clicks: "38,476", impressions: "2,399,567", position: "9.4", note: "May to July 2026" },
-    leads: { count: "69", what: "enquiries" },
+    leads: { count: "56", what: "enquiries" },
     shot: `/work/delaguia-y-luzon.webp?v=${SHOT_VERSION}`,
   },
   {

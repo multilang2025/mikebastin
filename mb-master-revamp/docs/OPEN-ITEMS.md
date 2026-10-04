@@ -6,9 +6,9 @@ answer. Each owner question has an ID (Q1 to Q24) that matches the answer
 sheet published for the owner; answers given there are copied here and acted
 on in the next session.
 
-Last updated 30 Sep 2026. Merged to `main` so far: PR #117 (FR phase 3 and
-hubs), #118 (French lint, Spanish rebuild), #119 (FR and ES posts, recycled
-illustrations). No PR is open.
+Last updated 4 Oct 2026. Merged to `main` through PR #130: the Results page
+as monthly leads, every service page rewritten as a service in EN, FR and ES,
+the French and Spanish GEO pages, and the Q28 keyword research. No PR is open.
 
 ## Waiting on the owner
 
@@ -17,7 +17,6 @@ illustrations). No PR is open.
 | ID | Item | Where it shows |
 |---|---|---|
 | Q2 | Houston freight: the "doubled" claim. Quote Request form entries on txintlfreight.com (Formidable, read 2 Oct 2026): 405 in 2021, 662 in 2022, 847 in 2023, 1,029 in 2024, 1,023 in 2025, 1,058 to 1 Oct 2026. Raw submissions, spam not separated. Owner to give the engagement start date and say whether a figure may be published | `lib/projects.ts` `tx-international-freight` |
-| Q29 | Closed 3 Oct 2026. Leads on `/results/` are a monthly average, July to September 2026, from form records with spam left out: TX 150 quote requests a month (451), Delaguía 69 (207), ValenciaMove 40 (119, its own dashboard), Bemelman 2 (5). C21 Perdomo shows "70 to 150", the owner's range ("between TX and DL"), since its forms leave no record here. Still open: whether to move the search figures from May to July to July to September | `lib/projects.ts` `leads` |
 | Q5 | Dropped client figures: restore any (BeTranslated 68 %, Delaguía 42/27/34 %, Smartown 19/28 %, the 1,25 % to 11 % outreach test, two Business Profile cases)? | Spanish posts (dropped 30 Sep 2026) |
 
 ### Positioning and copy
@@ -37,14 +36,14 @@ illustrations). No PR is open.
 | Q16 | Review order for the FR and ES drafts (every page is a draft) |
 | Q17 | Sign off the FR and ES motto lines |
 | Q27 | Declaudify P2: names and roles of the specialists to show on the homepage, and which two testimonials (with source links) |
-| Q28 | Re-measure the Valencia terms (country `es`) when Ahrefs units reset on **18 Oct 2026** (28 units left on 4 Oct; Semrush also out). Legacy check done 4 Oct: no Spanish Valencia query ever ranked on the legacy site, and the secondary candidates per page are listed in `docs/ES-REBUILD-PLAN.md` "Legacy keyword ideas", plus an okisam.com competitor read (same file) and the two gaps it shows: a GEO page (built 4 Oct 2026 in Spanish and French as `seo-para-ia-geo` and `referencement-ia-geo`, measure *SEO para IA Valencia*, *GEO Valencia*, *référencement IA*, *GEO SEO* on 18 Oct) and a Spanish tracking page (still open); ready to run as one batch |
+| Q28 | Re-measure the Valencia terms (country `es`) when Ahrefs units reset on **18 Oct 2026** (28 units left on 4 Oct; Semrush also out). Legacy check done 4 Oct: no Spanish Valencia query ever ranked on the legacy site, and the secondary candidates per page are listed in `docs/ES-REBUILD-PLAN.md` "Legacy keyword ideas", plus an okisam.com competitor read (same file) and the two gaps it shows: a GEO page (built 4 Oct 2026 in Spanish and French as `seo-para-ia-geo` and `referencement-ia-geo`, measure *SEO para IA Valencia*, *GEO Valencia*, *référencement IA*, *GEO SEO* on 18 Oct) and a Spanish tracking page (built 4 Oct 2026 as `seguimiento-de-conversiones`, Q32); ready to run as one batch |
 | Q18 | Which further EN posts get a FR or ES adaptation (8 French and 5 Spanish more were built on 30 Sep 2026 without waiting: the Spain market posts, local, AI and measurement; the French journal is at 28 posts, the Spanish at 32) |
 
 ### Site and launch
 
 | ID | Item |
 |---|---|
-| Q20 | Approve and lock EN (the gate for treating English edits as costly) |
+| Q20 | Approve and lock EN (the gate for treating English edits as costly). Owner, 4 Oct 2026: will approve after reading the rewritten service pages himself; English stays open until then |
 | Q21 | X handle confirmed as x.com/mikebastin (owner, 2 Oct 2026); still needed: the three featured post URLs for the Dispatches section |
 | Q22 | Credibility strip: languages answered (owner, 2 Oct 2026: 5+3, see CLAUDE.md); still to confirm "12 domains run" against the six BeTranslated domains in `lib/projects.ts` |
 
@@ -64,6 +63,10 @@ illustrations). No PR is open.
 
 | ID | Item | Closed |
 |---|---|---|
+| Q30 | Results page windows | Owner, 4 Oct 2026: option c. Leads now cover May to July 2026, the same three months as the Search Console figures, as a monthly average: TX 114 (341 over the period), Delaguía 56 (168), ValenciaMove 25 (July alone, its record starts 1 July), C21 Perdomo 70 to 150, Bemelman 20 to 50 (owner, 4 Oct 2026: its forms caught only 6 over the period, most requests come by phone and email). Headline total 285 to 395 enquiries a month |
+| Q31 | Spanish homepage primary term | Owner, 4 Oct 2026: retarget. `/es/` now owns "agencia SEO internacional Valencia" (h1, meta title, social card), not the generic "agencia SEO Valencia" that okisam.com holds; `posicionamiento-multilingue` keeps "SEO multilingüe Valencia" |
+| Q32 | Spanish conversion tracking page | Owner, 4 Oct 2026: build now. `/es/services/seguimiento-de-conversiones/` (group g179, paired with the English `conversion-tracking`; no French equivalent yet). Measure *seguimiento de conversiones Valencia*, *analítica web Valencia* on 18 Oct |
+| Q29 | Leads on `/results/` | Owner, 3 to 4 Oct 2026: monthly average, July to September 2026, from form records with spam left out: TX 150 quote requests a month (451), Delaguía 69 (207), ValenciaMove 40 (119, its own dashboard), Bemelman 2 (5). C21 Perdomo shows "70 to 150", the owner's range ("between TX and DL"), since its forms leave no record here. Average position removed |
 | Q26 | Valencian copy, and meetings in person | Owner, 3 Oct 2026: Valencian is not relevant (removed from all ES copy); meetings at Calle Rugat 12 - 2 are offered |
 | Q13 | The Spanish reader | Owner, 3 Oct 2026: "the Spanish version should focus on Valencia + keyword". The reader is a Valencia company (serving Valencia, or selling from it); every commercial ES page leads with its term plus Valencia. Term map in `docs/ES-REBUILD-PLAN.md`; volumes to measure when Ahrefs units reset |
 | Q14 | `seo-ingles` stays live | Owner, 2 Oct 2026: yes |

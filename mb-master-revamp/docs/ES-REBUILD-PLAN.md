@@ -28,7 +28,7 @@ when the units reset.
 
 | Page | Primary term |
 |---|---|
-| `/es/` | agencia SEO Valencia |
+| `/es/` | agencia SEO internacional Valencia (owner, 4 Oct 2026: not the generic "agencia SEO Valencia", which okisam.com owns) |
 | `/es/services/` | servicios de marketing digital Valencia |
 | `/es/services/optimizacion-seo/` | posicionamiento SEO Valencia (consultor SEO Valencia) |
 | `/es/services/seo-local/` | SEO local Valencia |
@@ -68,10 +68,10 @@ the legacy database, and Search Console from 3 Jul to 1 Oct 2026):
 
 | Current page (primary) | Legacy focus keyword and title | Secondary candidates to measure |
 |---|---|---|
-| `/es/` (agencia SEO Valencia) | "marketing digital": *Expertos en SEO y marketing digital en Valencia* | marketing digital Valencia, agencia marketing digital Valencia |
+| `/es/` (agencia SEO internacional Valencia) | "marketing digital": *Expertos en SEO y marketing digital en Valencia* | marketing digital Valencia, agencia marketing digital Valencia |
 | `seo-local` (SEO local Valencia) | "SEO local": *SEO local en Valencia, consigue más leads*; post "Perfil de Empresa de Google" | posicionamiento local Valencia, perfil de empresa de Google Valencia, Google Maps Valencia |
 | `optimizacion-seo` (posicionamiento SEO Valencia) | "SEO optimización": *Servicios SEO en español para empresas multilingües* | consultor SEO Valencia, servicios SEO Valencia, SEO on page Valencia (legacy `seo-onpage`), búsqueda de palabras clave Valencia (legacy `busqueda-palabras-clave`) |
-| `posicionamiento-multilingue` (SEO multilingüe Valencia) | "posicionamiento": *Posicionamiento multilingüe, expande tu negocio globalmente*; "agencia de SEO global" | agencia SEO internacional Valencia, SEO internacional Valencia |
+| `posicionamiento-multilingue` (SEO multilingüe Valencia) | "posicionamiento": *Posicionamiento multilingüe, expande tu negocio globalmente*; "agencia de SEO global" | SEO internacional Valencia (the head term "agencia SEO internacional Valencia" moved to `/es/`) |
 | `seo-tecnico` (auditoría SEO Valencia) | "SEO técnico multilingüe" (post) | SEO técnico Valencia, analítica SEO Valencia (legacy `monitorizacion-y-analitica`: *Monitorización y analítica avanzada de SEO en Valencia*), auditoría SEO técnica |
 | `publicidad-multilingue` (agencia Google Ads Valencia) | "publicidad multilingue": *Servicios de publicidad multilingüe (SEM) en Valencia* | publicidad Google Ads Valencia, SEM Valencia, campañas Google Ads Valencia |
 | `traduccion-profesional` (traducción jurada Valencia) | six legacy pages: certificada y jurada, jurídica, médica, financiera, académica, comercial, all "en Valencia" | traducción certificada y jurada Valencia, traducción jurídica Valencia, traductor jurado Valencia, traducción médica Valencia, traducción financiera Valencia, traducción académica Valencia, traducción comercial Valencia, transcreación Valencia |
@@ -134,7 +134,7 @@ direct fight with its dedicated page.
 | `agencia-seo/consultoria-seo/` | consultoría SEO (no Valencia) | `optimizacion-seo` lists *consultor SEO Valencia* as secondary: open |
 | `agencia-seo/seo-local/` | SEO local, Google Maps, GMB (no Valencia) | `seo-local` targets *SEO local Valencia*: open |
 | `agencia-seo/ia-chatgpt/` | agencia GEO, SEO para IA, posicionamiento en LLMs | **Built 4 Oct 2026:** `/es/services/seo-para-ia-geo/` (French twin `/fr/services/referencement-ia-geo/`, group g178). Neither locale had a GEO service page; English has `generative-engine-optimization`. |
-| `agencia-analitica-web/`, `agencia-cro/` | analítica web, CRO | No Spanish tracking page; the legacy ES site had *Monitorización y analítica avanzada de SEO en Valencia*. Candidate for a Spanish conversion tracking page. |
+| `agencia-analitica-web/`, `agencia-cro/` | analítica web, CRO | **Built 4 Oct 2026:** `/es/services/seguimiento-de-conversiones/` (EN twin `conversion-tracking`, group g179). The legacy ES site had *Monitorización y analítica avanzada de SEO en Valencia*. |
 | `agencia-seo/linkbuilding/` | agencia de link building | `link-building` is absorbed into `seo-tecnico`; candidate secondary *agencia de link building Valencia* |
 | `agencia-sem-valencia/` | agencia SEM Valencia, agencia PPC | `publicidad-multilingue`: add *agencia SEM Valencia* and *agencia PPC* as secondaries |
 
