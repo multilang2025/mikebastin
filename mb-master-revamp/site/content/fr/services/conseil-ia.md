@@ -71,3 +71,5 @@ Nous accompagnons le [référencement multilingue](/fr/services/referencement-mu
 6. **Mois par mois.** L’accompagnement se renouvelle chaque mois, tant qu’il vous sert.
 
 L’accompagnement se fait au mois, et chaque demande reçoit une réponse, en général sous un jour ouvré.
+
+Pour être cité dans les réponses de ChatGPT, de Perplexity et de Google, notre service de [référencement pour l’IA (GEO)](/fr/services/referencement-ia-geo/) prend le relais.

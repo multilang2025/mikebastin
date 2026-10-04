@@ -48,7 +48,7 @@ const GROUPS: { heading: string; slugs: string[]; scene: { src: string; alt: str
   },
   {
     heading: "Contenu, traduction et IA", scene: { src: "/images/scenes/svc-ai.webp", alt: "Une réponse d’IA qui cite des pages allemandes et néerlandaises, et une traduction automatique corrigée par un relecteur natif", intro: "L’IA là où elle fait gagner du temps, et un relecteur natif partout où la confiance se joue." },
-    slugs: ["creation-de-contenu-multilingue", "traduction-professionnelle", "postedition-ia", "conseil-ia"],
+    slugs: ["creation-de-contenu-multilingue", "traduction-professionnelle", "postedition-ia", "conseil-ia", "referencement-ia-geo"],
   },
   { heading: "Localisation", scene: { src: "/images/scenes/svc-localization.webp", alt: "Une même page produit en Allemagne et en Suisse avec les prix et les moyens de paiement locaux, à côté d’une traduction assermentée tamponnée", intro: "Des sites, des prix et des documents qui sonnent local dans chaque marché où vous vendez." }, slugs: [] },
 ];

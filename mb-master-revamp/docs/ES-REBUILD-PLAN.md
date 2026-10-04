@@ -41,6 +41,7 @@ when the units reset.
 | `/es/services/traduccion-de-paginas-web/` | traducción de páginas web Valencia |
 | `/es/services/redaccion-seo-multilingue/` | redacción SEO Valencia |
 | `/es/services/consultoria-de-inteligencia-artificial/` | consultoría de inteligencia artificial Valencia |
+| `/es/services/seo-para-ia-geo/` | SEO para IA Valencia (GEO Valencia), built 4 Oct 2026 after the okisam.com read |
 | `/es/services/posedicion-de-ia/` | traducción automática y posedición Valencia |
 | `/es/services/localizacion-de-aplicaciones/` | localización de apps Valencia |
 | `/es/services/seo-frances/`, `-aleman`, `-neerlandes`, `-ingles`, `-italiano`, `-portugues` | SEO en Francia (Alemania, ...) desde Valencia |
@@ -132,7 +133,7 @@ direct fight with its dedicated page.
 | `agencia-seo/auditoria-seo/` | auditoría SEO (no Valencia) | `seo-tecnico` already targets *auditoría SEO Valencia*: the city version is open |
 | `agencia-seo/consultoria-seo/` | consultoría SEO (no Valencia) | `optimizacion-seo` lists *consultor SEO Valencia* as secondary: open |
 | `agencia-seo/seo-local/` | SEO local, Google Maps, GMB (no Valencia) | `seo-local` targets *SEO local Valencia*: open |
-| `agencia-seo/ia-chatgpt/` | agencia GEO, SEO para IA, posicionamiento en LLMs | **No Spanish GEO service page.** English has `generative-engine-optimization`; Spanish has only posts and a section of `consultoria-de-inteligencia-artificial`. A page targeting *SEO para IA Valencia* and *GEO Valencia* is the clearest new build. |
+| `agencia-seo/ia-chatgpt/` | agencia GEO, SEO para IA, posicionamiento en LLMs | **Built 4 Oct 2026:** `/es/services/seo-para-ia-geo/` (French twin `/fr/services/referencement-ia-geo/`, group g178). Neither locale had a GEO service page; English has `generative-engine-optimization`. |
 | `agencia-analitica-web/`, `agencia-cro/` | analítica web, CRO | No Spanish tracking page; the legacy ES site had *Monitorización y analítica avanzada de SEO en Valencia*. Candidate for a Spanish conversion tracking page. |
 | `agencia-seo/linkbuilding/` | agencia de link building | `link-building` is absorbed into `seo-tecnico`; candidate secondary *agencia de link building Valencia* |
 | `agencia-sem-valencia/` | agencia SEM Valencia, agencia PPC | `publicidad-multilingue`: add *agencia SEM Valencia* and *agencia PPC* as secondaries |
