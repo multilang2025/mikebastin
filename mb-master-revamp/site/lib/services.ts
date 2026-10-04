@@ -287,6 +287,32 @@ export const SERVICES: Service[] = [
         ],
       },
     ],
+    process: [
+      {
+        title: "A free 20-minute audit",
+        text: "We review your ad accounts, or your plans if you are starting out, market by market, and show where your budget would bring in enquiries soonest.",
+      },
+      {
+        title: "A written scope",
+        text: "The markets, platforms, campaigns and landing pages we will run, named in writing, with a recommended media budget for each market.",
+      },
+      {
+        title: "Accounts built per market",
+        text: "We research keywords in each language, write the ads natively, and build separate accounts or campaigns per market, each with its own budget and bidding strategy.",
+      },
+      {
+        title: "Tracking through to a qualified lead",
+        text: "Conversion tracking runs through GA4 and Google Tag Manager with CRM sync, so every lead is followed past the click to a qualified result in its own market.",
+      },
+      {
+        title: "Monthly optimization and reporting",
+        text: "We read the search-term reports in each language, refine keywords, negatives and bids, and report each market's cost per lead every month.",
+      },
+      {
+        title: "Month to month",
+        text: "Engagements run month to month. Your whole media budget goes straight to Google, Microsoft or Meta, and management is a separate fee.",
+      },
+    ],
   },
   {
     slug: "conversion-tracking",
@@ -303,51 +329,78 @@ export const SERVICES: Service[] = [
     sections: ["What a separate number per market shows", ...ENGAGEMENT],
     body: [
       {
-        heading: "What per-market reporting tells you",
+        heading: "What you get from conversion tracking per market",
         paragraphs: [
-          "The report shows at a glance which market converts and which mainly brings traffic.",
-          "Per-locale tracking works best with distinct goals, events and conversion definitions set up from the start. A form submission, a call click and a quote request are each tracked the same way in every language, so the numbers stay comparable.",
+          "GA4 and Google Tag Manager configured for each locale. We define your key events once (form submissions, downloads, calls, and cart actions for stores) and apply them the same way in every language, so a French enquiry and a German one count alike and can be compared.",
+          "Google Ads reporting that agrees with your analytics. We wire Google Ads conversion tracking to the same event definitions, so the campaign report and the analytics report agree on every enquiry.",
+          "Your CRM closing the loop. Where sales pass through a CRM, we set up offline conversion tracking that sends the closed outcome back to GA4 and Google Ads, so a lead is measured through to a qualified result and bidding runs on what a market is worth.",
+          "A report per market, reviewed on a fixed cadence, typically monthly, showing at a glance which market converts and which mainly brings traffic.",
         ],
       },
       {
-        heading: "What actually gets set up, per locale",
+        heading: "Where a figure per market pays off",
         paragraphs: [
-          "GA4 and Google Tag Manager configured per locale, with key events (form submissions, downloads, calls, cart actions for stores) defined once and applied consistently across languages. Google Ads conversion tracking is wired to the same event definitions, so the campaign report and the analytics report agree on every enquiry.",
-          "Where sales pass through a CRM, offline conversion tracking sends the closed outcome back to GA4 and Google Ads, so a lead is measured through to a qualified result. Bidding then runs on what a market is worth.",
-          "Reporting is reviewed on a fixed cadence, typically monthly. A change in any market's conversions shows up in the data months before it reaches the sales pipeline.",
+          "Budget moved to the markets that convert. A separate figure per language shows which market earns enquiries and which mainly brings visits, so you can fund each one on what it returns.",
+          "Early warning in every market. A change in any market's conversions shows up in the data months before it reaches the sales pipeline, which gives you time to act on it.",
+          "Figures your sales team recognises. With spam, test entries and job applications counted apart, and the outcome synced from the CRM, the number in the report matches the enquiries your team receives.",
         ],
       },
     ],
-    expandablesHeading: "How to make the numbers match what sales sees",
-    expandablesLede:
-      "The four settings that line up a multilingual site's conversion report with the enquiries sales actually receives.",
+    expandablesHeading: "Conversion tracking work that matches what sales sees",
+    expandablesLede: "Four settings we configure so a multilingual site's conversion report lines up with the enquiries sales actually receives.",
     expandables: [
       {
-        q: "Consent mode changes what you can measure, and it changes per market",
+        q: "Consent mode configured market by market",
         a: [
           "In the EU every visitor counts, including those who decline cookies, and what reaches your analytics from them depends on how consent mode is configured. Consent rates differ sharply by country, so two markets with identical real performance can report very differently.",
-          "So compare markets alongside each one's consent rate, and you rank your languages on what their visitors do.",
+          "We configure consent mode per market and report each market's consent rate alongside its figures, so you rank your languages on what their visitors do.",
         ],
       },
       {
-        q: "A conversion has to be the thing you actually want",
+        q: "A conversion defined as the enquiry you want",
         a: [
-          "A raw count of form submissions includes the spam, the test entries and the person who wanted a job. Filter those out and the market's figure matches what the sales team sees arrive.",
-          "The definition worth using is the one your own people recognise: an enquiry that became a conversation.",
+          "We filter the spam, the test entries and the job applications out of the raw count of form submissions, so each market's figure matches what the sales team sees arrive.",
+          "The definition we use is the one your own people recognise, agreed with you before anything is measured: usually an enquiry that became a conversation.",
         ],
       },
       {
-        q: "Attribution across languages needs its own rules",
+        q: "Attribution rules across languages",
         a: [
-          "A visitor who lands on the English page, switches to French and converts belongs to one market, and which one depends on rules somebody chooses. Set those rules deliberately and each switcher is counted once, in the right language.",
+          "A visitor who lands on the English page, switches to French and converts belongs to one market, and which one depends on the rules chosen. We set those rules with you deliberately, so each switcher is counted once, in the right language.",
         ],
       },
       {
-        q: "The CRM is where a lead becomes a customer",
+        q: "CRM sync from lead to customer",
         a: [
-          "Syncing conversion data through to the CRM is what lets a market be judged on the quality of what it sent.",
-          "It also finds the market where plenty converts and little closes, which points to a positioning question dressed as an analytics one.",
+          "We sync conversion data through to your CRM, which is what lets each market be judged on the quality of what it sent.",
+          "It also shows the market where plenty converts and little closes, which points to a positioning question dressed as an analytics one, and gives you the figures to act on it.",
         ],
+      },
+    ],
+    process: [
+      {
+        title: "A free 20-minute stack walkthrough",
+        text: "We walk through your analytics, tag manager, ad accounts and CRM with you, and show what it takes for each market's figures to match what sales sees.",
+      },
+      {
+        title: "A written scope",
+        text: "The events, markets, accounts and reports we will set up, named in writing, with the definition of a conversion agreed with your sales team.",
+      },
+      {
+        title: "Tracking set up per locale",
+        text: "We configure GA4, Google Tag Manager and Google Ads conversions with one set of event definitions in every language, and test each one before it reports.",
+      },
+      {
+        title: "Your CRM connected to the results",
+        text: "Where sales pass through a CRM, we send each lead's outcome back to GA4 and Google Ads, so every market is measured through to a qualified result.",
+      },
+      {
+        title: "A monthly report per market",
+        text: "Each market's conversions reviewed every month, with its consent rate alongside, and a short note on what changed and where the budget should move next.",
+      },
+      {
+        title: "Month to month",
+        text: "Engagements run month to month, so the work carries on for as long as it pays.",
       },
     ],
   },
@@ -445,6 +498,32 @@ export const SERVICES: Service[] = [
           "A backlink from local press, a sector association or a regional directory in the target country is worth considerably more than a generic international link, because relevance in international search is geographic as well as topical.",
           "The same now applies to AI answers. Which sources get cited varies by country and by language, and each has its own knowledge graph behind it.",
         ],
+      },
+    ],
+    process: [
+      {
+        title: "A free 20-minute audit",
+        text: "We look at your site in each language you sell in and show you which markets have the most to give, before you commit to anything.",
+      },
+      {
+        title: "A written scope",
+        text: "After the first call you get a written scope naming the markets, the pages and the deliverables, with the order the markets go in.",
+      },
+      {
+        title: "Native research per market",
+        text: "We research each target market in its own language, score the candidate markets on evidence and settle the domain structure before the first page goes live.",
+      },
+      {
+        title: "Native pages for every language",
+        text: "We write French, English, Spanish and Dutch pages directly and brief native copywriters from the BeTranslated network for German, Italian and Portuguese, with the technical setup checked per language.",
+      },
+      {
+        title: "Monthly reporting per market",
+        text: "We report rankings, AI answers and enquiries market by market each month, with what moved and what comes next.",
+      },
+      {
+        title: "Month to month",
+        text: "Engagements run month to month, so the work carries on for as long as each market pays.",
       },
     ],
     absorbs: ["global-seo-solutions", "internationalisation", "language-solutions", "multilingual-branding"],
@@ -575,6 +654,32 @@ export const SERVICES: Service[] = [
       note: "Most of it comes from outside France: 500 of the 700 monthly searches for `french seo agency` come from the UK, and Dutch and German searches for SEO in France add to it.",
       measured: "23 September 2026",
     },
+    process: [
+      {
+        title: "A free 20-minute audit",
+        text: "We look at your French pages the way a buyer in France reads them and show you where the biggest gains sit, before you commit to anything.",
+      },
+      {
+        title: "A written scope",
+        text: "After the call you get a written scope naming the French pages, the research and the deliverables, in order of what each one is worth to you.",
+      },
+      {
+        title: "Research and writing in French",
+        text: "We research French searches market by market and write or rewrite the pages that matter directly in French, so they read as written in France from the first sentence.",
+      },
+      {
+        title: "Setup and trust signals for France",
+        text: "We set up language targeting, mobile speed, a French Google Business Profile and the French directory listings your sector uses, so French buyers find you and trust what they find.",
+      },
+      {
+        title: "Monthly reporting on French enquiries",
+        text: "Each month you get a short report on French rankings and enquiries, kept apart from your other markets, with what moved and what comes next.",
+      },
+      {
+        title: "Month to month",
+        text: "Engagements run month to month, so the work carries on for as long as it pays.",
+      },
+    ],
   },
   {
     slug: "german-seo",
@@ -684,6 +789,32 @@ export const SERVICES: Service[] = [
       note: "Only 150 of the 1,000 monthly searches for `german seo` come from the UK, and Dutch searches such as `duitse seo` add 200 more of their own.",
       measured: "23 September 2026",
     },
+    process: [
+      {
+        title: "A free 20-minute audit",
+        text: "We look at your German pages next to your German competitors and show you where the biggest gains sit, before you commit to anything.",
+      },
+      {
+        title: "Strategy agreed in English or French",
+        text: "We agree the strategy and editorial calendar with you in English or French, then send a written scope naming the German pages and the deliverables.",
+      },
+      {
+        title: "Written by native German copywriters",
+        text: "Native German copywriters from BeTranslated write each page from our brief, and a second native German reads it before it goes live, so it sounds local to German buyers.",
+      },
+      {
+        title: "Company details a German buyer checks",
+        text: "We set up the Impressum, the privacy policy and opt-in consent the way a German buyer expects, so the page earns their trust as well as their visit.",
+      },
+      {
+        title: "Monthly reporting on German enquiries",
+        text: "Each month you get a short report in English or French on German rankings and enquiries, with what moved and what comes next.",
+      },
+      {
+        title: "Month to month",
+        text: "Engagements run month to month, so the work carries on for as long as it pays.",
+      },
+    ],
   },
   {
     slug: "spanish-seo",
@@ -787,6 +918,32 @@ export const SERVICES: Service[] = [
       note: "The two biggest terms both sit at difficulty 0, and the largest single share is American: 500 of the 1,100 monthly searches for `spanish seo` and 400 of the 800 for `seo in spanish` come from the US.",
       measured: "23 September 2026",
     },
+    process: [
+      {
+        title: "A free 20-minute audit",
+        text: "We look at your Spanish pages market by market and show you which Spanish to start with and where the biggest gains sit, before you commit.",
+      },
+      {
+        title: "A plan per market",
+        text: "We agree a strategy and editorial calendar per market with you in English, French or Spanish, and send a written scope naming the pages and deliverables.",
+      },
+      {
+        title: "Spain written directly from Valencia",
+        text: "We research and write the Spanish for Spain ourselves from Valencia, straight from the plan to the page, so buyers in Madrid read a supplier who sounds local.",
+      },
+      {
+        title: "Latin America from Santo Domingo",
+        text: "Native copywriters on the BeTranslated team in Santo Domingo write each Latin American variant from our briefs, and we check every page so the markets stay one plan.",
+      },
+      {
+        title: "Monthly reporting per market",
+        text: "Each month Spain and each Latin American market get their own numbers, with a short report on what moved and what comes next.",
+      },
+      {
+        title: "Month to month",
+        text: "Engagements run month to month, so the work carries on for as long as it pays.",
+      },
+    ],
   },
   {
     slug: "dutch-seo",
@@ -892,6 +1049,32 @@ export const SERVICES: Service[] = [
       note: "The market is larger than the figure: buyers name the country more often than the language, so `seo netherlands` (400) and `seo belgium` (350) each draw more than `dutch seo` (250).",
       measured: "23 September 2026",
     },
+    process: [
+      {
+        title: "A free 20-minute audit",
+        text: "We look at your Dutch pages next to your Dutch and Belgian competitors and show you where the biggest gains sit, before you commit to anything.",
+      },
+      {
+        title: "A written scope",
+        text: "After the call you get a written scope naming the Dutch pages and deliverables, and whether the Netherlands, Flanders or both come first.",
+      },
+      {
+        title: "Research and writing directly in Dutch",
+        text: "We research and write the Dutch ourselves, and every commercial page gets a native Dutch reader before it goes live, so it reads as local in Amsterdam and Antwerp.",
+      },
+      {
+        title: "Company details Dutch buyers check",
+        text: "We set out the KvK or KBO and BTW details, cookie consent and the iDEAL or Bancontact payments that Dutch and Belgian buyers look for.",
+      },
+      {
+        title: "Monthly reporting per country",
+        text: "Each month you get a short report on Dutch and Belgian enquiries, kept apart from your other markets, with what moved and what comes next.",
+      },
+      {
+        title: "Month to month",
+        text: "Engagements run month to month, so the work carries on for as long as it pays.",
+      },
+    ],
   },
   {
     slug: "italian-seo",
@@ -908,18 +1091,18 @@ export const SERVICES: Service[] = [
     sections: ["Three things Italian SEO has to get right", ...ENGAGEMENT],
     body: [
       {
-        heading: "Italy's regional differences decide the plan",
+        heading: "What we set up for an Italian site",
         paragraphs: [
-          "Italian users expect a particular register, especially the tu versus voi decision on commercial pages and where the polite form sits, and copy written by someone who lives in the language gets it right.",
-          "Italy is the most regionally fragmented major European market. Milan, Rome, Naples and Palermo behave differently on price sensitivity, payment habits and trust signals, so a single national site works for niche B2B, and regional adaptation pays off for anything closer to consumer search.",
-          "A visible Partita IVA, codice fiscale and REA or Chamber of Commerce registration, plus consent compliant with the Garante della Privacy, which runs stricter than the EU baseline on some points, are what an Italian buyer checks before trusting a site enough to convert.",
+          "Italian pages in the right register. We settle with you where a page speaks in tu and where it takes the polite form, and native Italian writers hold that register across every commercial page.",
+          "Regional targeting where it pays. Milan, Rome, Naples and Palermo behave differently on price sensitivity, payment habits and trust signals, so we run one national site for niche B2B and adapt by region for anything closer to consumer search.",
+          "The registration details an Italian buyer checks. We set out a visible Partita IVA, codice fiscale and REA or Chamber of Commerce registration, and build consent to the standard of the Garante della Privacy, which runs stricter than the EU baseline on some points.",
         ],
       },
       {
-        heading: "Managed here, written by native Italians",
+        heading: "Strategy from us, Italian from native writers",
         paragraphs: [
-          "Our Italian is enough to manage SEO projects in it, and we handle strategy and competitor reading directly. Native Italian copywriters from the BeTranslated network handle the writing itself, briefed in English or French and checked by a second native reader before anything ships.",
-          "Targeting runs per macro-region (Nord, Centro, Sud) when the offer justifies it, with local landing pages for Milan, Rome, Turin and other metropolitan areas where relevant. Outreach targets Corriere della Sera, La Repubblica and Sole 24 Ore for B2B, plus sector associations such as Confindustria and Confartigianato.",
+          "Choosing an Italian SEO company usually comes down to who writes the Italian. We handle the strategy and the competitor reading directly: our Italian is enough to manage SEO projects in it. Native Italian copywriters from the BeTranslated network write the pages, briefed by us in English or French, and a second native reader checks each one before anything ships.",
+          "Where the offer justifies it, we target per macro-region (Nord, Centro, Sud) and build local landing pages for Milan, Rome, Turin and other metropolitan areas. Our outreach targets Corriere della Sera, La Repubblica and Sole 24 Ore for B2B, plus sector associations such as Confindustria and Confartigianato.",
         ],
       },
     ],
@@ -960,6 +1143,32 @@ export const SERVICES: Service[] = [
       kd: "0 to 1",
       note: "Small but almost unguarded, with `italian seo agency` at difficulty 0.",
     },
+    process: [
+      {
+        title: "A free 20-minute audit",
+        text: "We look at your Italian pages the way a buyer in Italy reads them and show you where the biggest gains sit, before you commit to anything.",
+      },
+      {
+        title: "A written scope",
+        text: "After the call you get a written scope naming the Italian pages, the regions worth targeting and the deliverables, in order of what each one is worth.",
+      },
+      {
+        title: "Written by native Italian copywriters",
+        text: "Native Italian copywriters from BeTranslated write each page from our brief, and a second native Italian reads it before it ships, so it reads as written in Italy.",
+      },
+      {
+        title: "Registration details and consent set up",
+        text: "We put the Partita IVA, codice fiscale and REA details where Italian buyers look for them, and set up consent to the stricter reading of the Garante della Privacy.",
+      },
+      {
+        title: "Monthly reporting on Italian enquiries",
+        text: "Each month you get a short report on Italian rankings and enquiries, kept apart from your other markets, with what moved and what comes next.",
+      },
+      {
+        title: "Month to month",
+        text: "Engagements run month to month, so the work carries on for as long as it pays.",
+      },
+    ],
   },
   {
     slug: "portuguese-seo",
@@ -976,17 +1185,18 @@ export const SERVICES: Service[] = [
     sections: ["Three things Portuguese SEO has to get right", ...ENGAGEMENT],
     body: [
       {
-        heading: "Portugal and Brazil, sized correctly",
+        heading: "What we build for Portugal and for Brazil",
         paragraphs: [
-          "European Portuguese and Brazilian Portuguese diverge in vocabulary, grammar convention, currency and regulatory framework. Each side notices which variant a page was written in, so one Portuguese site reads Brazilian in Lisbon and European in São Paulo. Hreflang pt-PT and pt-BR kept distinct is the baseline.",
-          "Brazil has over 213 million people (IBGE estimate, 2025), its own ecommerce platforms and payment methods such as PIX and boleto bancário. European companies often default to Portugal, and Brazil is the far larger market.",
-          "Portugal expects a NIF or NIPC and GDPR-compliant consent. Brazil expects a CNPJ, LGPD-compliant handling and PIX or boleto as payment options for consumer stores.",
+          "Pages written for each variant. We produce European Portuguese for Portugal and Brazilian Portuguese for Brazil, each with its own vocabulary, grammar conventions, currency and keywords, so a reader in Lisbon and a reader in São Paulo each find a page written for them.",
+          "A plan sized to Brazil. Brazil has over 213 million people (IBGE estimate, 2025), its own ecommerce platforms and payment methods such as PIX and boleto bancário. Many European companies start with Portugal, and we plan for the far larger market alongside it.",
+          "The details each market checks. For Portugal we set out a NIF or NIPC and GDPR-compliant consent. For Brazil we set out a CNPJ, LGPD-compliant data handling and PIX or boleto as payment options for consumer stores.",
         ],
       },
       {
-        heading: "Native per variant, coordinated from here",
+        heading: "Native writers per variant, coordinated by us",
         paragraphs: [
-          "Research and writing run through native PT-PT copywriters for Portugal and native PT-BR copywriters for Brazil from the BeTranslated network, briefed in English or French and checked by a second native reader per variant. Outreach targets Público and Expresso in Portugal, Folha and Estadão in Brazil, with every link earned on its own market's side of the Atlantic.",
+          "Native PT-PT copywriters for Portugal and native PT-BR copywriters for Brazil from the BeTranslated network handle the research and writing, briefed by us in English or French and checked by a second native reader per variant. Our Portuguese is enough to manage SEO projects in it.",
+          "We keep pt-PT and pt-BR as distinct hreflang versions, so each ranks in its own country, and we earn every link on its own market's side of the Atlantic: Público and Expresso in Portugal, Folha and Estadão in Brazil.",
         ],
       },
     ],
@@ -1035,6 +1245,32 @@ export const SERVICES: Service[] = [
       kd: "33",
       note: "`seo portugal` sits at difficulty 33, ten times the difficulty of the German or Spanish equivalents, so it is built last.",
     },
+    process: [
+      {
+        title: "A free 20-minute audit",
+        text: "We look at your Portuguese pages for Portugal and for Brazil and show you which market to open first and where the biggest gains sit.",
+      },
+      {
+        title: "A written scope per market",
+        text: "After the call you get a written scope naming the pages and deliverables for each variant, in order of what each one is worth to you.",
+      },
+      {
+        title: "Native writers for each variant",
+        text: "Native copywriters from BeTranslated write European Portuguese for Portugal and Brazilian Portuguese for Brazil from our briefs, and a second native reader checks every page per variant.",
+      },
+      {
+        title: "Registration, consent and payments set up",
+        text: "We set out the NIF or NIPC and GDPR consent for Portugal, and the CNPJ, LGPD handling and PIX or boleto payments for Brazil, so each market finds what it checks.",
+      },
+      {
+        title: "Monthly reporting per market",
+        text: "Each month Portugal and Brazil get their own numbers, with a short report on rankings, enquiries, what moved and what comes next.",
+      },
+      {
+        title: "Month to month",
+        text: "Engagements run month to month, so the work carries on for as long as it pays.",
+      },
+    ],
   },
 
   // ---- Cluster 3: localization and translation ----
@@ -1059,22 +1295,24 @@ export const SERVICES: Service[] = [
     ],
     body: [
       {
-        heading: "What a visible profile wins a local business",
+        heading: "What you get from a local SEO engagement",
+        paragraphs: [
+          "Your Google Business Profile, set up and kept current in each language your city searches in. We choose the categories, write the full service list, keep the hours current, add photos and publish regular posts, week after week, so the profile holds its place on the map.",
+          "Your name, address and phone number made identical everywhere. We audit every directory, review site and chamber of commerce entry already listing you, correct the inconsistencies, remove the duplicates and add you to the local sources your trade actually uses.",
+          "A page for each neighbourhood you actually serve. We write each one to say something true about that district and link it from your main service pages, so people searching for a service plus a neighbourhood find you.",
+          "A review request routine that runs after every job, by email or from a code on the receipt, and a reply we write to every review, critical ones included.",
+        ],
+      },
+      {
+        heading: "Where a local presence brings in calls and visits",
         art: {
           src: "/images/sections/local-seo-visibility.webp",
           alt: "One faded, outlined shopfront beside a solid, visible shopfront marked with a map pin",
         },
         paragraphs: [
-          "Somebody searching for a service near them looks at the map and decides there: they call one of the three businesses on it, after reading the reviews of the other two.",
-          "In a city where people search in more than one language, the reward doubles. A profile in Spanish and English reaches the English speaker two streets away searching in English as well as the Spanish speaker, and the business that adds the second language takes both.",
-        ],
-      },
-      {
-        heading: "Where local visibility is won",
-        paragraphs: [
-          "Google rewards a profile that is complete and kept active: the right categories, a full service list, current hours, plenty of photos and recent posts. For a small business working from one address, the profile often brings in more enquiries than the website does.",
-          "A business name that reads exactly the same across every directory listing, review site and chamber of commerce entry, with the address written one way everywhere, gives Google confidence in all of them.",
-          "A homepage that says it serves the whole city is a start. A dedicated page for each neighbourhood you actually serve wins the neighbourhood searches too, because people search for a service plus a neighbourhood.",
+          "On the map, at the moment of decision. Somebody searching for a service near them looks at the map and decides there: they call one of the three businesses on it, after reading the reviews of the other two. For a small business working from one address, the profile often brings in more enquiries than the website does.",
+          "In both languages of a bilingual city. A profile in Spanish and English reaches the English speaker two streets away searching in English as well as the Spanish speaker, and the business that adds the second language takes both.",
+          "In the answers of AI assistants. A growing share of best-in-town questions go to ChatGPT, Claude or Perplexity before anyone opens a map, and those answers draw on the same material we build for you: structured data, consistent citations, and a reputation visible enough to be summarised.",
         ],
       },
       {
@@ -1085,39 +1323,67 @@ export const SERVICES: Service[] = [
         ],
       },
     ],
-    expandablesHeading: "What the map pack actually rewards",
+    expandablesHeading: "Local SEO work that keeps you on the map",
     expandables: [
       {
-        q: "Treat the profile like a shopfront",
+        q: "Google Business Profile setup and upkeep, per language",
         a: [
-          "Filled in fully and kept current, week after week. A profile that is kept up holds its place against competitors who update theirs, and in a city with more than one working language it carries the second one too.",
+          "We fill the profile in fully, with categories, services, hours, photos and posts, and keep it current week after week. A profile that is kept up holds its place against competitors who update theirs.",
+          "In a city with more than one working language, we run the profile in each one, so it reaches every buyer nearby in the language they search in.",
         ],
       },
       {
-        q: "Name, address and phone number, identical everywhere",
+        q: "Name, address and phone number audit and cleanup",
         a: [
-          "Google reads your details from dozens of places, and when they all match it trusts all of them. The work is an audit of what is already out there, correction of the inconsistencies, removal of duplicate listings, and additions to the high-value local sources still to list you: the chamber of commerce, the sector association, the directory your trade actually uses.",
+          "Google reads your details from dozens of places, and when they all match it trusts all of them. We audit what is already out there, correct the inconsistencies, remove duplicate listings, and add you to the high-value local sources still to list you: the chamber of commerce, the sector association, the directory your trade actually uses.",
         ],
       },
       {
-        q: "Neighbourhood pages that each say something of their own",
+        q: "Neighbourhood pages for the districts you serve",
         a: [
-          "A page per district works when each one says something true about that district, well beyond a swapped place name.",
-          "Local schema belongs on them, with the right subtype: a law firm is a LegalService, a freight forwarder is a FreightForwarder. Internal links from the main service pages make them findable.",
+          "We write a page per district that says something true about that district, well beyond a swapped place name, and link each one from your main service pages so buyers and Google find it.",
+          "Each page carries local schema with the right subtype: a law firm is a LegalService, a freight forwarder is a FreightForwarder.",
         ],
       },
       {
-        q: "Reviews come from a process",
+        q: "A review request process, with a reply to every review",
         a: [
-          "A request that goes out after the job is done, by email or from a code on the receipt, is what collects reviews. Every review gets a reply, critical ones included, because the reply is read by everyone who comes after.",
-          "A critical review handled well reads better than a wall of five stars, so write the plan for one before it arrives.",
+          "We set up a request that goes out after each job is done, by email or from a code on the receipt, which is what collects reviews steadily. Every review gets a reply, critical ones included, because the reply is read by everyone who comes after.",
+          "We also write your plan for a critical review before one arrives, since a critical review handled well reads better than a wall of five stars.",
         ],
       },
       {
-        q: "Local discovery has moved into the assistants",
+        q: "Local presence in AI assistants",
         a: [
-          "A growing share of best-in-town questions get asked of ChatGPT, Claude or Perplexity before anyone opens a map. What those answers draw on is the same material: structured data, consistent citations, and a reputation visible enough to be summarised.",
+          "A growing share of best-in-town questions get asked of ChatGPT, Claude or Perplexity before anyone opens a map. We build the material those answers draw on: structured data, consistent citations, and a reputation visible enough to be summarised, so the assistant has what it needs to name you.",
         ],
+      },
+    ],
+    expandablesLede: "Five pieces of work we run for you, in every language your city searches in.",
+    process: [
+      {
+        title: "A free 20-minute audit",
+        text: "We look at your Google Business Profile, your directory listings and your local pages in each language your city searches in, and show you where the quickest gains sit.",
+      },
+      {
+        title: "A written scope",
+        text: "The profiles, listings and neighbourhood pages we will work on, in each language, named in writing with who does what, so you know exactly what lands and when.",
+      },
+      {
+        title: "Profile and listings put right",
+        text: "We complete your Google Business Profile, make your name, address and phone number identical across every directory, and remove the duplicate listings, so Google trusts every listing it finds.",
+      },
+      {
+        title: "Neighbourhood pages and reviews",
+        text: "We write a page for each district you serve and set up the review request routine, with a reply to every review, so each neighbourhood search has a page to find.",
+      },
+      {
+        title: "Monthly upkeep and reporting",
+        text: "Posts, photos, hours and review replies kept current every month in each language, with a short report on what moved on the map and what comes next.",
+      },
+      {
+        title: "Month to month",
+        text: "Engagements run month to month, so the work carries on for as long as it pays.",
       },
     ],
     absorbs: ["local-seo"],
@@ -1143,62 +1409,87 @@ export const SERVICES: Service[] = [
     sections: ["What localization adds to translation", ...ENGAGEMENT],
     body: [
       {
-        heading: "What makes a page read as local",
+        heading: "What you get from a website localization project",
         paragraphs: [
-          "Localization adapts dates, currency, imagery, payment methods and the calls to action themselves to match what a market actually expects. A word-for-word translation keeps the original formats and trust signals; localization is the bigger job of replacing them.",
-          "Right-to-left support for Arabic, the text expansion German routinely needs against an English source, and correct character encoding across every language in scope are technical work, and they show first in the interface. Testing across WordPress, Joomla, Drupal or a custom build settles them before launch.",
+          "Copy that reads as local. We localize the page text, the calls to action, dates, imagery and trust marks for each market, so every language version reads as written for the people buying in it.",
+          "A checkout each market recognises. On WooCommerce, Shopify and Magento we set local currency, prices formatted the way each market writes them, local payment methods and checkout flows per region, since shoppers are more likely to complete when they see a payment option they know.",
+          "Layouts with room for every language. We adjust buttons, menus, headings and price tables for the text expansion German routinely needs against an English source, mirror the layout for right-to-left languages such as Arabic, and set correct character encoding across every language in scope.",
+          "A localization test pass before launch. We check every page, form, menu and language switcher in each language for display, function and fit, and put every issue in one report, where it is quickest to fix.",
         ],
       },
       {
-        heading: "What gets configured underneath the words",
+        heading: "The multilingual setup we build underneath the words",
         paragraphs: [
-          "WPML runs as the default multilingual stack for WordPress, with Polylang for tighter budgets or simpler structures and TranslatePress where a non-technical content team needs in-context, front-end translation. For stores, WooCommerce, Shopify and Magento get local currency, local payment methods and checkout flows adjusted per region, since shoppers are more likely to complete when they see a payment option they know.",
-          "A localization test pass before launch puts every issue in one report, where it is quickest to fix.",
+          "We choose and set up the multilingual plugin that fits your site and your team. WPML is our default for WordPress, Polylang suits tighter budgets or simpler structures, and TranslatePress fits a non-technical content team that translates in context on the front end. We also work with Weglot, Shopify and Webflow.",
+          "We test across WordPress, Joomla, Drupal or a custom build, so each language version launches with its own URL, its own metadata and its own place in the sitemap, ready to rank in its market.",
         ],
       },
       {
-        heading: "A build that has to stay correct while stock turns over weekly",
+        heading: "A four-language property site that stays correct as listings turn over weekly",
         paragraphs: [
           "Century 21 Perdomo sells Dominican real estate in four languages on a headless WordPress, WPML and WooCommerce stack, where a property selling, a price moving or a status flipping has to update correctly in all four locales at once. Between May and July 2026 the site drew 9,944 clicks from 461,231 Google impressions at an average position of 10.1.",
         ],
       },
     ],
-    expandablesHeading: "What localization touches beyond the copy",
+    expandablesHeading: "What we localize and set up beyond the copy",
     expandables: [
       {
-        q: "Which WordPress multilingual plugin, and what each one costs you",
+        q: "Multilingual plugin choice and setup",
         a: [
-          "WPML is the default: the most complete on SEO, the most demanding on hosting and the one with a licence to keep renewing. Polylang fits a tighter budget and a simpler structure, and suits straightforward translation workflows best. TranslatePress earns its place when a non-technical team needs to translate on the front end, seeing the page as they change it. MultilingualPress suits a multisite network. GTranslate is machine translation with a switcher, a different product from a localized site.",
-          "The choice is a lasting one, because the content ends up stored the plugin's way.",
+          "We pick the plugin from how your site is built and who will run it, then set it up. WPML is the most complete on SEO, asks the most of your hosting and carries a licence to renew. Polylang fits a tighter budget and a simpler structure, and suits straightforward translation workflows. TranslatePress suits a non-technical team that translates on the front end, seeing the page as they change it. MultilingualPress suits a multisite network. GTranslate offers machine translation with a switcher, which is a different product from a localized site.",
+          "We settle the choice at the start, because the content ends up stored the plugin's way, and the right plugin keeps every language easy to maintain for years.",
         ],
       },
       {
-        q: "Layouts designed with room for text expansion",
+        q: "Layouts built for text expansion",
         a: [
-          "German compounds and French expansion need more room in buttons, menu items and headings than an English design allots. Test the layout with that copy at exactly the places that matter: the navigation, the call to action, the price table.",
-          "Right-to-left languages mirror the whole layout, and character encoding needs checking on forms, search and anything that touches a database.",
+          "We size buttons, menu items and headings for German compounds and French expansion, and test the layout with real localized copy at the places that matter most: the navigation, the call to action and the price table.",
+          "For right-to-left languages we mirror the whole layout, and we check character encoding on forms, search and anything that touches a database, so every script displays as it should.",
         ],
       },
       {
-        q: "A store is localized at the checkout",
+        q: "Checkout localization for online stores",
         a: [
-          "Product descriptions and SKUs are the visible half. The half that moves the conversion rate is the currency shown, whether the price is formatted the way that market writes prices, the payment methods offered, and how the checkout handles an address shaped the local way.",
-          "WooCommerce, Shopify and Magento each expose that differently, so we set it up per platform until the last step feels as local as the first.",
+          "Product descriptions and SKUs are the visible half. We also localize the half that moves the conversion rate: the currency shown, prices formatted the way each market writes them, the payment methods offered and an address form shaped the local way.",
+          "WooCommerce, Shopify and Magento each expose these settings differently, so we set them up per platform until the last step of the checkout feels as local as the first.",
         ],
       },
       {
-        q: "What localization testing actually covers",
+        q: "Localization testing before launch",
         a: [
-          "Every interface element, form, menu, switcher and piece of multimedia, in each language, for display, function and fit. The language switcher landing on the right page, a form accepting every valid local postcode, a date reading as the right month: a localization test checks all of it.",
-          "The pass also covers what the market requires legally, from consent handling to accessibility.",
+          "We test every interface element, form, menu, switcher and piece of multimedia in each language for display, function and fit: the language switcher landing on the right page, a form accepting every valid local postcode, a date reading as the right month.",
+          "The pass also covers what the market requires legally, from consent handling to accessibility, and you get every issue in one report before launch.",
         ],
       },
       {
-        q: "The same applies beyond WordPress",
+        q: "Localization on Joomla, Drupal and custom builds",
         a: [
-          "Joomla and Drupal both do multilingual well and differently, and both reward deciding the content model before translating anything.",
-          "Whatever the platform, the question underneath is the same: does each language version have its own URL, its own metadata and its own place in the sitemap? Give it all three and a search engine can rank it per market.",
+          "Joomla and Drupal both handle multilingual content well, each in its own way, and we agree the content model with you before anything gets translated.",
+          "On every platform we give each language version its own URL, its own metadata and its own place in the sitemap, so a search engine can rank it per market.",
         ],
+      },
+    ],
+    expandablesLede: "Plugin choice, layout, checkout, testing and platforms beyond WordPress, each handled inside the same project.",
+    process: [
+      {
+        title: "A free localization assessment",
+        text: "We review your site in each language you sell in and show you where the copy, prices, checkout and layout most need adapting for each market.",
+      },
+      {
+        title: "A written scope",
+        text: "After the first call you get a written scope naming the pages, the markets and the deliverables, so you know exactly what we localize and set up.",
+      },
+      {
+        title: "Plugin choice and setup",
+        text: "We choose the multilingual plugin that fits your site and your team, from WPML, Polylang, TranslatePress or Weglot, or work in Shopify or Webflow, and set it up per language.",
+      },
+      {
+        title: "Copy, prices and checkout localized",
+        text: "We adapt the copy, currency, payment methods and checkout for each market, and adjust the layout so longer text sits cleanly in buttons, menus and headings.",
+      },
+      {
+        title: "A localization test pass before launch",
+        text: "We test every language for display, function and fit, put every issue in one report and fix each one before your localized site goes live.",
       },
     ],
     absorbs: [
@@ -1286,6 +1577,32 @@ export const SERVICES: Service[] = [
         ],
       },
     ],
+    process: [
+      {
+        title: "A free consultation",
+        text: "Tell us what the document is and who will receive it, and we confirm which kind of translation that body asks for: certified, sworn, notarised or apostilled.",
+      },
+      {
+        title: "A quote for your document",
+        text: "We send a quote for your document and your deadline, so you know the cost and the delivery date before the translation begins.",
+      },
+      {
+        title: "A translator matched by specialism",
+        text: "Your document goes to a certified or sworn translator from the BeTranslated network with background in its field: legal, medical, financial, academic or technical.",
+      },
+      {
+        title: "A review pass before delivery",
+        text: "Every translation goes through a review pass before delivery, so it holds up to the same scrutiny as the original document.",
+      },
+      {
+        title: "Delivery in one to seven days",
+        text: "Delivery takes one to seven days depending on the complexity of the document and your situation, with rush turnaround for time-critical personal documents such as a visa or birth certificate.",
+      },
+      {
+        title: "Notarisation or apostille where needed",
+        text: "Where the receiving institution requires it, we handle notarisation or an apostille, and we provide apostille services for US and Canadian citizens.",
+      },
+    ],
     absorbs: [
       "business-translation", "medical-translation", "academic-translation", "financial-translation",
       "legal-translation", "certified-and-sworn-translation-services", "expert-translation-services",
@@ -1307,48 +1624,76 @@ export const SERVICES: Service[] = [
     sections: ["What software needs to cross a language", ...ENGAGEMENT],
     body: [
       {
-        heading: "The technical checks localization testing runs early",
+        heading: "What you get from app and software localization",
         paragraphs: [
-          "Interface text that fits comfortably in English routinely runs longer in German, so we test the layout against that expansion to keep buttons whole, labels complete and navigation aligned. Right-to-left scripts such as Arabic and Hebrew need the layout itself adjusted, along with the text direction, to stay usable.",
-          "Character encoding handled correctly keeps accented characters and non-Latin scripts displaying as they should.",
+          "Interface text that reads as native. We translate and adapt your interface text, notifications and app store descriptions for clarity and cultural relevance, and adjust dates, currency and units of measurement per locale.",
+          "Store listings found in each market. We optimize app store keywords per target market, so each listing supports discoverability in the language people search in.",
+          "Layouts that hold in every script. Interface text that fits comfortably in English routinely runs longer in German, so we test the layout against that expansion to keep buttons whole, labels complete and navigation aligned. For right-to-left scripts such as Arabic and Hebrew we adjust the layout itself, along with the text direction, and we set character encoding so accented characters and non-Latin scripts display as they should.",
+          "Testing on the devices your users have. We test across the operating systems and devices actually used in each market.",
+          "Video and audio in every language. We provide subtitling and voice-over across standard formats, with accurate transcription supporting both localization and accessibility compliance.",
         ],
       },
       {
-        heading: "What app and software localization services cover",
+        heading: "Where localization pays off for a product sold abroad",
         paragraphs: [
-          "Interface text, notifications and app store descriptions translated and adapted for clarity and cultural relevance, dates, currency and units of measurement adjusted per locale, and app store keywords optimized per target market to support discoverability. Testing runs across the operating systems and devices actually used in each market.",
-          "For video and audio content, subtitling and voice-over work across standard formats, with accurate transcription supporting both localization and accessibility compliance.",
+          "A product ready for every next language. Once the groundwork is in place, adding a market becomes a content job and the codebase stays closed.",
+          "A store page that speaks to each market. People searching in Spanish find a listing written in their own words, with screenshots showing the interface in Spanish.",
+          "A clean launch in every language, with the overflowing label, the misread date and the rejected postcode found in testing and fixed before your users meet them.",
         ],
       },
     ],
-    expandablesHeading: "The order the work has to happen in",
+    expandablesHeading: "The work, in the order we run it",
     expandables: [
       {
-        q: "Internationalization first keeps localization affordable",
+        q: "Internationalization groundwork, done first",
         a: [
-          "Preparing the software means strings pulled out of the code, whole sentences kept whole in the string files, dates and numbers and currency formatted by locale, sorting that follows the target language's rules, and layouts with room for text arriving longer than the English.",
-          "Done first, adding a language is a content job, and every market after the first leaves the codebase closed.",
+          "We prepare the software with your developers: strings pulled out of the code, whole sentences kept whole in the string files, dates, numbers and currency formatted by locale, sorting that follows each target language's rules, and layouts with room for text arriving longer than the English.",
+          "With the groundwork done first, adding a language is a content job, and every market after the first leaves the codebase closed.",
         ],
       },
       {
-        q: "An app store listing is a search surface of its own",
+        q: "App store listings written per locale",
         a: [
-          "The title, the subtitle, the description and the keyword field are indexed per store and per locale, and a listing written for each locale uses all the room they give you. People searching for an app in Spanish type their own words, and the character limits differ by store.",
-          "Screenshots count too. A store page showing the interface in Spanish tells a Spanish browser the app is for them before they read a word.",
+          "We write the title, the subtitle, the description and the keyword field for each store and each locale, using all the room the character limits give, in the words people in that market type when they search.",
+          "We plan the screenshots per locale too, so a store page showing the interface in Spanish tells a Spanish browser the app is for them before they read a word.",
         ],
       },
       {
         q: "Testing across language, device and operating system",
         a: [
-          "Most localization defects sit outside the translation: a label that overflows its button in German, a date that reads as the wrong month, a form that rejects a valid local postcode, a right-to-left layout that mirrors everything except one icon.",
+          "We test each language on the devices and operating systems your users have, and look for the defects that sit outside the translation: a label that overflows its button in German, a date that reads as the wrong month, a form that rejects a valid local postcode, a right-to-left layout that mirrors everything except one icon.",
+          "Each one goes into a single report, ready to fix before release.",
         ],
       },
       {
-        q: "Video and audio in every language",
+        q: "Subtitling, voice-over and transcription per language",
         a: [
-          "Subtitling, voice-over and transcription per language, and a decision about which of the three each piece needs. Subtitles are cheap and carry most of the value.",
+          "We work out with you which of the three each piece of video or audio needs, then produce it per language. Subtitles carry most of the value at the lowest cost.",
           "A transcript does double duty: it makes the content accessible and it puts words on a page that search and an answer engine can read.",
         ],
+      },
+    ],
+    expandablesLede: "Internationalization, store listings, testing and media, run in the order that keeps each new market affordable.",
+    process: [
+      {
+        title: "A free localization assessment",
+        text: "We look at your app or software and its store listings, and show you what each new market needs, from interface text to layout, formats and store keywords.",
+      },
+      {
+        title: "A written scope",
+        text: "After the first call you get a written scope naming the languages, the screens, the store listings and the deliverables, so the project is clear from the start.",
+      },
+      {
+        title: "Internationalization groundwork",
+        text: "We prepare the product for new languages with your developers, from strings and locale formats to layouts with room for longer text, so each later market is a content job.",
+      },
+      {
+        title: "Translation, store listings and media",
+        text: "We translate and adapt the interface, notifications and store listings per market, and add subtitles, voice-over or transcripts where your video and audio need them.",
+      },
+      {
+        title: "Testing per language and device",
+        text: "We test each language across the operating systems and devices used in each market, and you get every layout, format and text issue in one report before launch.",
       },
     ],
     absorbs: ["app-localisation", "software-internationalisation", "multimedia-localisation"],
@@ -1371,55 +1716,74 @@ export const SERVICES: Service[] = [
     sections: ["Where AI helps, and where a person does", ...ENGAGEMENT],
     body: [
       {
-        heading: "Where AI helps",
+        heading: "What you get from an AI consulting engagement",
         paragraphs: [
-          "Neural machine translation combined with terminology-aware post-editing shortens the first draft of a multilingual page, and AI-assisted research gets through the early keyword and competitor work across languages far faster than doing it by hand.",
-          "Sentiment analysis run across several markets at once surfaces patterns in how a brand is discussed that a manual review would take weeks to find.",
+          "An assessment of where AI fits in your multilingual workflow. We look at each step, from keyword research to the published page, and tell you which ones machine output can take on and which stay with a person who reads the language.",
+          "Machine translation set up with a reader. We set up neural machine translation with terminology-aware post-editing, so the first draft of a multilingual page arrives faster and a native editor makes it right.",
+          "A review of your multilingual support assistant. We assess whether it can answer on its own, or needs a human fallback past the routine questions, against the actual cost of a wrong answer.",
+          "Sentiment analysis across your markets, surfacing patterns in how your brand is discussed that a manual review would take weeks to find.",
+          "Measurement, so you see in figures whether each piece of the setup paid for itself.",
         ],
       },
       {
-        heading: "Where it still needs a person",
+        heading: "Where AI gains you the most, with a person on the judgement calls",
         paragraphs: [
-          "Three judgement calls stay with someone who knows the market: writing commercial copy that converts in languages outside a model's native-sounding range, judging which of two culturally different approaches will land better with a specific audience, and catching the subtle, confident error that reads as fluent and is factually off.",
-        ],
-      },
-      {
-        heading: "Deciding what to trust before anything gets built",
-        paragraphs: [
-          "Whether a chatbot handling multilingual customer support can run on its own, or needs a human fallback past the routine questions, gets assessed against the actual cost of a wrong answer.",
-          "The output of any AI system in this stack gets reviewed by someone who reads the target language, because the real risk in AI-assisted multilingual work is the fluent, professional-looking sentence that is quietly wrong, and a reader of the language is who catches it.",
+          "Speed on the early work. AI-assisted research gets through the first keyword and competitor work across languages far faster than doing it by hand, and we put it to work there.",
+          "Accuracy where it counts. We keep three judgement calls with someone who knows the market: commercial copy that converts in languages outside a model's native-sounding range, choosing which of two culturally different approaches will land better with a specific audience, and catching the subtle, confident error that reads as fluent and is factually off.",
+          "A reader on every output. Someone who reads the target language reviews the output of every AI system in the stack, so the fluent, professional-looking sentence that is quietly wrong gets caught before a customer sees it.",
         ],
       },
     ],
-    expandablesHeading: "Where AI earns its place, and where a person does",
-    expandablesLede:
-      "The parts of a multilingual operation worth automating, and the part that still needs a person.",
+    expandablesHeading: "What we set up and review for you",
+    expandablesLede: "The four pieces of work an AI consulting engagement usually covers, each checked by a reader of the language.",
     expandables: [
       {
-        q: "Machine translation with somebody reading the output",
+        q: "Machine translation with a reader on the output",
         a: [
-          "Modern engines are good enough to take the first pass on most material, and published output still wants a reader. The workable setup is an engine chosen and tuned for your subject matter, with a native editor on the material that carries risk and a lighter pass on the rest.",
+          "We choose and tune an engine for your subject matter to take the first pass, then put a native editor on the material that carries risk and a lighter pass on the rest, so everything you publish has had a reader.",
         ],
       },
       {
-        q: "Support that answers in the language the question arrived in",
+        q: "Multilingual support assistant review",
         a: [
-          "A multilingual assistant on the site handles the repetitive questions in each market with one team behind it, and hands over cleanly when a question goes beyond it. Built on your own material, so it answers about your products specifically.",
-          "Confidence is the thing to watch: give every language the assistant answers in a reader who checks its answers, so an invented answer is caught early.",
+          "We review the assistant that answers your customers on the site, built on your own material so it answers about your products specifically. We check that it handles the repetitive questions in each market with one team behind it, and hands over cleanly when a question goes beyond it.",
+          "We give every language the assistant answers in a reader who checks its answers, so an invented answer is caught early.",
         ],
       },
       {
-        q: "Reading what the market is saying, at a volume beyond one person's reach",
+        q: "Sentiment analysis across markets",
         a: [
-          "Sentiment and theme analysis across reviews, support tickets and social mentions per language, which is where the gap between what a market says and what you assume it wants tends to show up first.",
-          "A complaint pattern that appears in one language alone usually points to a localization defect, and a report split by language shows it.",
+          "We run sentiment and theme analysis across reviews, support tickets and social mentions per language, which is where the gap between what a market says and what you assume it wants tends to show up first.",
+          "We split the report by language, so a complaint pattern that appears in one language alone, usually a sign of a localization defect, stands out.",
         ],
       },
       {
-        q: "How to tell whether any of it worked",
+        q: "Measuring whether it worked",
         a: [
-          "Accuracy on a sample somebody checks, turnaround time, cost per published page, and whether the people using the output would choose to keep it. Market-level numbers alongside those, so each language shows its own result on the dashboard.",
+          "We measure accuracy on a sample somebody checks, turnaround time, cost per published page, and whether the people using the output would choose to keep it. Market-level numbers sit alongside those, so each language shows its own result on the dashboard.",
         ],
+      },
+    ],
+    process: [
+      {
+        title: "A free 20-minute stack walkthrough",
+        text: "We walk through your current tools and multilingual workflow with you and point out where AI could save time, before you commit to anything.",
+      },
+      {
+        title: "A written scope",
+        text: "After the call we send a written scope naming the workflows we will work on, the deliverables and how we will measure each one.",
+      },
+      {
+        title: "An assessment of where AI fits",
+        text: "We map your multilingual workflow step by step and report where machine output can take the first pass and where a native reader keeps it right.",
+      },
+      {
+        title: "Setup with a reader on every language",
+        text: "We set up the machine translation, support assistant review or sentiment analysis agreed in the scope, with a reader of each target language checking the output.",
+      },
+      {
+        title: "Measuring whether it worked",
+        text: "We measure accuracy on a checked sample, turnaround, cost per published page and results per market, and give you a written report on what to keep.",
       },
     ],
     absorbs: ["ai-consulting-services"],
@@ -1440,49 +1804,72 @@ export const SERVICES: Service[] = [
     sections: ["Why fluent output needs an expert reader", ...ENGAGEMENT],
     body: [
       {
-        heading: "Why fluent translation still needs a native check",
+        heading: "What you get from a post-editing pass",
         paragraphs: [
-          "Machine translation and plugin-driven translation, whether through WPML, Weglot or Polylang's auto-translate, have become fluent enough that the output reads as professionally written whether or not it is accurate. Anyone catches a broken sentence; a fluent one that has shifted the meaning, dropped a qualifier or mistranslated a technical term takes someone who knows the subject reading it closely, and that is the reading we give it.",
-          "The review scales with the stakes of the content: a product description needs a light touch, while a clause in ecommerce terms or an instruction in medical or legal content carries liability.",
+          "A close read by a native speaker who knows the subject, catching the fluent sentence that has shifted the meaning, dropped a qualifier or mistranslated a technical term.",
+          "A glossary per sector and per language. We settle terminology once, correct every page against it, and standardise formatting and tone across languages so the brand voice holds.",
+          "Review depth set by the stakes. A product description gets a light touch, and a clause in ecommerce terms or an instruction in medical or legal content gets a specialist reader, because it carries liability.",
+          "Your search targets kept in place. We check each page against the SEO targets it was meant to hit, so the post-edit keeps the grammar right and the target keyword in place.",
         ],
       },
       {
-        heading: "What machine translation post-editing corrects",
+        heading: "Where post-editing pays most",
         paragraphs: [
-          "Terminology errors and unnatural phrasing corrected against a defined glossary per sector, formatting and tone standardised across languages so the brand voice holds, and consistency checked against the SEO targets the content was meant to hit in the first place, so the post-edit keeps the grammar right and the target keyword in place.",
-          "The trade calls it MTPE. Work runs across sectors that lean on AI output to scale quickly, particularly SaaS, ecommerce and travel, where the volume of content calls for machine first drafts and the accuracy bar stays commercial.",
+          "Sites translated by a plugin. Machine translation through WPML, Weglot or Polylang's auto-translate reads as professionally written, and our pass makes it accurate as well, down to the strings a reader rarely looks at.",
+          "Sectors that scale on machine first drafts. The trade calls the service MTPE, and we run it across sectors that lean on AI output to scale quickly, particularly SaaS, ecommerce and travel, where the volume of content calls for machine first drafts and the accuracy bar stays commercial.",
         ],
       },
     ],
-    expandablesHeading: "What a post-editing pass changes",
-    expandablesLede:
-      "What the pass fixes in machine output, in the order a reader meets it.",
+    expandablesHeading: "What the post-editing pass covers",
+    expandablesLede: "The four things we work on in machine output, in the order a reader meets them.",
     expandables: [
       {
-        q: "Grammar is the easy half",
+        q: "Register, idiom and rhythm",
         a: [
-          "Engines now produce sentences that are grammatically correct. The pass works on the ones that are correct and slightly off: a register too formal for the market, an idiom translated where it wanted replacing, a rhythm that reads as translated even when the cause is spread across a whole sentence.",
+          "Engines now produce grammatically correct sentences, so we work on the ones that are correct and slightly off: a register too formal for the market, an idiom translated where it wanted replacing, a rhythm that reads as translated even when the cause is spread across a whole sentence.",
         ],
       },
       {
-        q: "Plugin auto-translation and what the pass adds",
+        q: "Finishing plugin auto-translation",
         a: [
           "Weglot, WPML and Polylang fill a site with translated strings quickly, and the result is usable and ready for finishing.",
-          "So the pass covers what the plugin touched out of the reader's sight: title tags, meta descriptions, alt text, button labels, form validation messages and confirmation emails, so a page that reads beautifully in French also shows its form messages in French.",
+          "We cover what the plugin touched out of the reader's sight: title tags, meta descriptions, alt text, button labels, form validation messages and confirmation emails, so a page that reads beautifully in French also shows its form messages in French.",
         ],
       },
       {
-        q: "Terminology has to be decided once",
+        q: "One agreed term per language",
         a: [
-          "An engine can translate the same term three different ways across a site because it sees each sentence alone. For a product name, a legal term or anything a customer will search for, one agreed term is what ranks.",
-          "The pass settles the term per language and applies it everywhere, which matters most on the pages where a sale happens and least on the blog.",
+          "An engine can translate the same term three different ways across a site because it sees each sentence alone. For a product name, a legal term or anything a customer will search for, we settle one term per language and apply it everywhere, so the agreed term is the one that ranks.",
+          "We give it most attention on the pages where a sale happens.",
         ],
       },
       {
-        q: "Where machine output always gets a specialist reader",
+        q: "Specialist readers for regulated content",
         a: [
-          "Anything a regulator, a court or a clinician reads. Medical documentation, legal text, financial reporting and safety instructions all have the property that a plausible-sounding error costs more than a delay does.",
+          "We put a specialist reader on anything a regulator, a court or a clinician reads: medical documentation, legal text, financial reporting and safety instructions, where a plausible-sounding error costs more than a delay does.",
         ],
+      },
+    ],
+    process: [
+      {
+        title: "A free localization assessment",
+        text: "We read a sample of your machine-translated pages and show you what a post-editing pass would change, and which content calls for the deepest review.",
+      },
+      {
+        title: "A glossary and a written scope",
+        text: "We agree the pages, the review depth for each and a glossary of terms per language, so every key term is decided once before the pass starts.",
+      },
+      {
+        title: "The post-editing pass",
+        text: "A native speaker who knows the subject works through the machine output, correcting meaning, terminology, tone and formatting against the glossary and your brand voice.",
+      },
+      {
+        title: "SEO targets and page details checked",
+        text: "We check each page against its SEO targets and go through the titles, descriptions, image text, buttons and form messages the plugin translated.",
+      },
+      {
+        title: "Delivery, glossary included",
+        text: "You receive the edited pages ready to publish, with the agreed glossary to keep for the next batch of content in each language.",
       },
     ],
     absorbs: ["post-ai-editing"],
@@ -1501,67 +1888,46 @@ export const SERVICES: Service[] = [
     lede: "ChatGPT, Perplexity and Google's AI Overviews answer a buyer's question directly, and name two or three sources while doing it. Being one of them puts you in the buyer's consideration at the moment they ask.",
     metaTitle: "Generative engine optimization agency and AEO",
     metaDescription: "ChatGPT, Perplexity and Google AI Overviews name a small number of sources when they answer a question. See what it takes for the answer to name you.",
-    expandablesHeading: "What changes when the answer is written for you",
-    expandablesLede:
-      "Nine shifts in how buyers reach an answer, and what each one asks of your pages.",
+    expandablesHeading: "Generative engine optimization work that gets your pages cited",
+    expandablesLede: "Six pieces of work, run together, each aimed at the answers your buyers read.",
     expandables: [
       {
-        q: "Optimize for search everywhere, Google included",
+        q: "Presence across the answer engines your market uses",
         a: [
           "Buyers now ask ChatGPT, Perplexity, Bing and a voice assistant before they ask Google, and each one assembles its answer differently.",
-          "Presence across the platforms your market actually uses, with one voice and one claim everywhere, because answer engines favour sources that say the same thing wherever they appear.",
+          "We build your presence across the platforms your market actually uses, with one voice and one claim everywhere, because answer engines favour sources that say the same thing wherever they appear.",
         ],
       },
       {
-        q: "Write for the whole question",
+        q: "Content written for the whole question",
         a: [
-          "An answer engine reads a conversational question and returns a direct response, so the page matches the question as asked.",
-          "Longer, spoken-shaped phrases, and the related terms around them, so the page answers the whole question.",
+          "An answer engine reads a conversational question and returns a direct response. We shape each page to match the question as asked, with the longer, spoken-shaped phrases and the related terms around them, so the page answers the whole question.",
+          "We keep each page quick to load, with a structure a reader can scan and enough reason to stay past the first screen.",
         ],
       },
       {
-        q: "Make the experience and expertise visible",
+        q: "Expertise made visible on the page",
         a: [
-          "Experience, expertise, authoritativeness and trust still decide what gets quoted, and an answer engine reads them from what the page shows.",
-          "Named authors with a real record, claims a model can check, and dates that show the page is maintained.",
+          "Experience, expertise, authoritativeness and trust still decide what gets quoted, and an answer engine reads them from what the page shows. We add named authors with a real record, claims a model can check, and dates that show the page is maintained.",
         ],
       },
       {
-        q: "Structure the data so a machine can read it",
+        q: "Structured data a machine can read",
         a: [
-          "Schema is how a retrieval system works out what a page is about before deciding whether to cite it.",
-          "Types that match what the page really is, validated, and marked up only with claims the page makes.",
+          "Schema is how a retrieval system works out what a page is about before deciding whether to cite it. We mark up each page with types that match what it really is, validated, and carrying only claims the page makes.",
         ],
       },
       {
-        q: "Earn citations from sources a model already trusts",
+        q: "Citations earned from sources a model already trusts",
         a: [
-          "Coverage from publications in your market, and material worth referencing on its own, earned one citation at a time.",
+          "We earn coverage from publications in your market and create material worth referencing on its own, one citation at a time.",
         ],
       },
       {
-        q: "Keep the page fast and readable",
+        q: "Citation tracking and reporting per market",
         a: [
-          "Quick loads, a structure someone can scan, and enough reason to stay past the first screen.",
-        ],
-      },
-      {
-        q: "Re-test as the models change",
-        a: [
-          "The answer engines rewrite their retrieval behaviour on their own schedule, so a tactic that worked last quarter needs checking this one.",
-          "Regular checks on which platforms name you and for which questions, then adjusting the approach to match.",
-        ],
-      },
-      {
-        q: "Watch who the answers cite",
-        a: [
-          "Tracking which sources the answers in your market cite, and closing the gap between their pages and yours.",
-        ],
-      },
-      {
-        q: "Measure the enquiries that citations bring",
-        a: [
-          "Reporting that ties visibility in AI answers back to enquiries per market, so the work is judged on what it brought in.",
+          "The answer engines rewrite their retrieval behaviour on their own schedule, so we re-test regularly: which platforms name you, for which questions, and which sources the answers in your market cite. We close the gap between their pages and yours, and adjust the approach as the models change.",
+          "Our reporting ties visibility in AI answers back to enquiries per market, so the work is judged on what it brought in.",
         ],
       },
     ],
@@ -1574,17 +1940,19 @@ export const SERVICES: Service[] = [
     ],
     body: [
       {
-        heading: "Why citation is now the target alongside ranking",
+        heading: "What you get from generative engine optimization",
         paragraphs: [
-          "A user who asks ChatGPT or Perplexity a question gets a direct answer with a small number of sources named inside it. A mention inside that answer is earned separately from a page-one ranking, because the model selects a handful of sources it judges citation-worthy from all the pages that match the query.",
-          "The pages that get named tend to share a shape: a clear, quotable claim near the top, structured data that tells a crawler exactly what the page is, and a consistent way of naming the same entity, the same business name and the same service name, across every place that entity appears online.",
+          "A GEO audit of where you stand: which buyer questions in your market get answered by ChatGPT, Perplexity, Claude and Google's AI Overviews, which sources those answers name, and where your pages can join them.",
+          "Pages rewritten around answer-shaped claims. We put a clear, quotable claim near the top of each page that matters, so a model can quote it directly and accurately, and we make the expertise behind it visible with named authors and current dates.",
+          "One consistent identity everywhere you appear. We align your business name, service names and claims across your site, your profiles and the platforms your market uses, because answer engines favour sources that say the same thing wherever they appear.",
+          "Monthly citation tracking that reports which platforms name you for which questions, tied back to the enquiries each market sends.",
         ],
       },
       {
-        heading: "What being cited takes",
+        heading: "Why a citation wins buyers alongside a ranking",
         paragraphs: [
-          "Content restructured around answer-shaped claims a model can quote directly and accurately. Schema and structured data built specifically for AI retrieval as well as for a search engine crawler, alongside a consistent presence across the platforms people ask: ChatGPT, Perplexity, Claude, Google AI Overviews.",
-          "Citation tracking monitors which platforms name the site for which queries over time, and the tracking data feeds directly back into which pages get the answer-shaped treatment next.",
+          "A user who asks ChatGPT or Perplexity a question gets a direct answer with a small number of sources named inside it. A mention inside that answer is earned separately from a page-one ranking, because the model selects a handful of sources it judges citation-worthy from all the pages that match the query. We shape your pages to be among the sources it picks for the questions your buyers ask.",
+          "The pages that get named tend to share a shape: a clear, quotable claim near the top, structured data that tells a crawler exactly what the page is, and a consistent way of naming the same entity, the same business name and the same service name, across every place that entity appears online. We build that shape into your pages, then track the result.",
         ],
       },
     ],
@@ -1593,6 +1961,28 @@ export const SERVICES: Service[] = [
       kd: "39 to 70",
       note: "Sums `generative engine optimization` (26,000 worldwide, KD 70), `answer engine optimization` (13,000, KD 39) and `geo seo` (16,000, KD 63).",
     },
+    process: [
+      {
+        title: "A GEO audit",
+        text: "We check which AI answers in your market name you, which name your competitors, and what your pages need for ChatGPT, Perplexity and Google's AI Overviews to cite them.",
+      },
+      {
+        title: "A written scope",
+        text: "The pages, platforms and buyer questions we will work on, named in writing and ordered by what each is worth to your enquiries.",
+      },
+      {
+        title: "Pages reshaped for citation",
+        text: "We rewrite your key pages around clear, quotable claims and add structured data that tells AI systems what each page is, starting with the questions buyers ask most.",
+      },
+      {
+        title: "Citation tracking every month",
+        text: "We check which platforms name you for which questions, report what moved, and choose the next pages for the same treatment from that data.",
+      },
+      {
+        title: "Month to month",
+        text: "Engagements run month to month, so the work carries on for as long as it pays.",
+      },
+    ],
   },
   // ---- Cluster 5: supporting capability ----
   {
@@ -1707,57 +2097,84 @@ export const SERVICES: Service[] = [
     sections: ["Where a publishing calendar finds its thread", ...ENGAGEMENT],
     body: [
       {
-        heading: "What a content programme is made of",
+        heading: "What you get from a content marketing engagement",
         paragraphs: [
-          "Content strategy services are the half that decides whether the rest pays: which questions the business can credibly answer, which of those carry commercial intent, what already exists and can be rewritten, and the order it all gets published in.",
-          "Content creation services are the other half, and they are a writing job before they are a volume job. A page earns its place by answering one question better than the pages already ranking for it, which takes a writer who understands the subject and an editor who sends back any draft that merely covers the topic.",
-          "Measurement sits underneath both. A programme reports on what it produced, an engagement reports on what the production earned.",
+          "Demand research. We find the questions your buyers search for, check which of them carry commercial intent and how strong the pages already answering them are, and hand you the list in priority order.",
+          "A publishing calendar built from that research, naming each page, the question it answers and the order it goes out, with the pages you already have mapped against it so every subject is written once.",
+          "The writing. We write each page to answer one question better than the pages ranking for it now, and our editor sends a draft back until it does.",
+          "Rewrites of pages already ranking. Most sites have pages on the second or third page of results for a term worth having, and we lift those first because they are the quickest gain on the calendar.",
+          "Measurement. We report what each page earned in rankings, traffic and enquiries, so the calendar keeps moving towards the subjects that pay.",
         ],
       },
       {
-        heading: "What search-led content changes",
+        heading: "Where search-led content pays most",
         paragraphs: [
-          "SEO content services and content marketing are often sold as separate things, and they work best as one: the research says which subjects have demand, and the writing decides whether the page deserves the position.",
-          "Demand research also tells you what to hold back. A subject with little measurable search behind it can still be worth publishing, for a sales conversation or a newsletter, and it gets commissioned knowingly, for that purpose.",
+          "Search and sales served by one programme. We run the research and the writing as one job, so every subject has demand behind it and every page is written to hold the position it wins.",
+          "Pages with a purpose beyond search. A subject with little measurable search behind it can still earn its place, for a sales conversation or a newsletter, and we commission it knowingly, for that purpose.",
         ],
       },
       {
-        heading: "Where the multilingual page takes over",
+        heading: "Written for B2B buyers and the committees behind them",
         paragraphs: [
-          "Run the same programme in three languages and a second set of decisions appears: each language needs its own keyword set, the cluster shape differs by language, and trust signals have to exist in each one.",
-          "Most of the companies we do it for are B2B, which changes the brief more than the language does. A B2B content marketing agency is writing for a committee and a long cycle, so the page that earns the enquiry is usually the one answering the objection.",
+          "Most of the companies we write for are B2B, so we brief every page for a committee and a long buying cycle. The page that earns the enquiry is usually the one answering the objection, and we make sure the calendar carries it.",
+          "When the programme runs in several languages, each language gets its own keyword research, its own page plan and its own trust signals.",
         ],
       },
     ],
-    expandablesHeading: "The questions that come up before the first brief",
-    expandablesLede:
-      "What the research decides, what the writing decides, and how to keep the two clear.",
+    expandablesHeading: "What runs inside a content engagement",
+    expandablesLede: "Choosing the subjects, lifting the pages you have, setting the pace and writing in each language.",
     expandables: [
       {
-        q: "Volume is a starting point",
+        q: "Keyword selection checked against the results",
         a: [
-          "A term with a large number beside it is worth two checks: whether the people searching it are buyers, and whether a newcomer can displace the pages already ranking within two years. Both answers are visible before anything is commissioned, the cheapest time to find them.",
-          "The terms worth taking first are usually the ones where the demand is real and the pages currently answering it are thin. Difficulty scores are an approximation of that, and reading the results themselves is the step that settles it.",
+          "We check every term with a large number beside it twice: whether the people searching it are buyers, and whether a new page can displace the ones already ranking within two years. Both answers come before anything is commissioned, when finding them costs least.",
+          "We take first the terms where the demand is real and the pages answering it are thin. Difficulty scores approximate that, and we read the results themselves to settle it.",
         ],
       },
       {
-        q: "Rewriting usually beats publishing",
+        q: "Rewrites of pages close to the first page",
         a: [
-          "Most sites arrive with pages that already rank somewhere in the second or third page of results for a term worth having. Lifting one of those is faster and more certain than starting a new page, and it costs a fraction of the words.",
+          "We start with the pages you already have ranking on the second or third page of results for a term worth having. Lifting one of those is faster and more certain than starting a new page, and it costs a fraction of the words.",
         ],
       },
       {
-        q: "Cadence matters less than most calendars assume",
+        q: "A publishing cadence set by quality",
         a: [
-          "Publishing weekly is a production decision dressed as a strategy. What moves is whether each page is the best answer to its question, and a business that ships one strong page a month will overtake one shipping four that merely exist.",
+          "We set the cadence by how many pages we can make the best answer to their question. One strong page a month will overtake four thin ones, so the calendar carries as many pages as we can write to that standard.",
         ],
       },
       {
-        q: "What our part covers",
+        q: "Writing, research and reporting in every language we cover",
         a: [
-          "Our part is writing, research, structure and the reporting around them. Social accounts, campaign creative and media buying sit with other specialists, and links come from editorial placement only.",
-          "For languages beyond French, English, Spanish and Dutch, the writing goes to a native copywriter from the BeTranslated network and we brief and review it, which is the same arrangement the language pages describe.",
+          "Our part is the writing, research and structure, and the reporting around them. Social accounts, campaign creative and media buying sit with other specialists, and links come from editorial placement only.",
+          "For languages beyond French, English, Spanish and Dutch, a native copywriter from the BeTranslated network writes the pages, and we brief and review the work, the same arrangement the language pages describe.",
         ],
+      },
+    ],
+    process: [
+      {
+        title: "A free 20-minute audit",
+        text: "We look at what you already publish against what your buyers search for, and show you where the quickest gains sit before you commit to anything.",
+      },
+      {
+        title: "A written scope",
+        text: "After the first call we send a written scope naming the pages, the research and the deliverables, in order of what each is worth to you.",
+      },
+      {
+        title: "Research and a publishing calendar",
+        text: "We research the questions your buyers ask, check who already ranks for each one, and turn the results into a calendar you approve page by page.",
+      },
+      {
+        title: "Writing and rewrites",
+        text: "We write the new pages and rewrite the ones already ranking close to the first page, each briefed against one question and edited before it reaches you.",
+      },
+      {
+        title: "Monthly reporting on what each page earned",
+        text: "Every month we report the rankings, traffic and enquiries each page brought in, and choose the next month's calendar from those results.",
+      },
+      {
+        title: "Month to month",
+        text: "Engagements run month to month, so the programme carries on for as long as it pays for itself.",
       },
     ],
   },
@@ -1777,57 +2194,84 @@ export const SERVICES: Service[] = [
     sections: ["Why copy written per market outperforms translation", ...ENGAGEMENT],
     body: [
       {
-        heading: "Why each market needs its own keyword set",
+        heading: "What you get in each market",
         paragraphs: [
-          "The keyword set that gets searched in Spanish or French comes from research in that language, because the way people phrase a problem shifts with the language as well as the words.",
-          "E-E-A-T signals, such as expert authorship, verifiable sources and testimonials, need to exist in every language, because a reader and a search engine both judge trustworthiness locally, from what they can verify in front of them.",
+          "Keyword research in the market's own language. We research how buyers in Spain or France phrase the problem, because the phrasing shifts with the language as well as the words, and we build that market's page plan from it.",
+          "Pages written natively. We write French, English, Spanish and Dutch directly, and German, Italian and Portuguese go to native copywriters from the BeTranslated network, briefed and reviewed by us.",
+          "A cultural review before publication, checking messaging, tone and every claim against local values, so each page reads as written for its market.",
+          "Social content per market where it is in scope, on the platforms each audience uses: Facebook and Instagram cover many markets, WeChat matters more in China and VK more in Russia.",
         ],
       },
       {
-        heading: "What international content marketing covers, cluster by cluster",
+        heading: "Trust and search signals set up in every language",
         paragraphs: [
-          "Content researched and written per market with native keyword localization, hreflang and canonical setup handled at the structural level, and schema (Article, FAQPage, LocalBusiness as relevant) implemented per language to support rich results. Cultural consulting sits underneath the copy itself, checking messaging and tone against local values before publication.",
-          "Social platform choice follows the audience: Facebook and Instagram cover many markets, WeChat matters more in China and VK more in Russia, and a content plan built per market reaches the audience it was meant for.",
+          "Trust signals in each language. We give every market the E-E-A-T signals it looks for, such as expert authorship, verifiable sources and testimonials, because a reader and a search engine both judge trustworthiness locally, from what they can verify in front of them.",
+          "The structure behind each version. We handle native keyword localization, hreflang and canonical setup, and schema (Article, FAQPage, LocalBusiness as relevant) per language to support rich results.",
         ],
       },
     ],
-    expandablesHeading: "What travels between languages and what each market rewrites",
-    expandablesLede:
-      "The copywriting, the cultural fit and the social side, and how far each one travels.",
+    expandablesHeading: "What we write and check in every market",
+    expandablesLede: "The research, the writing, the checks and the social side, run separately for each language.",
     expandables: [
       {
-        q: "Topic clusters are built per language",
+        q: "Topic clusters built from each language's own queries",
         a: [
-          "A cluster that works in English is a map of how English speakers break a subject down. Another language often breaks it down differently, splitting one of your topics into two or merging two into one.",
-          "Building the cluster from that language's own queries takes longer, and it gives you the pages that market is looking for, linked in the shape local search follows.",
+          "We build each cluster from the queries searched in that language. A cluster that works in English maps how English speakers break a subject down, and another language often splits one of your topics into two or merges two into one.",
+          "You get the pages that market is looking for, linked in the shape local search follows.",
         ],
       },
       {
-        q: "Experience and expertise have to be visible in each language",
+        q: "Experience and expertise shown in each language",
         a: [
-          "Google's quality signals are built per language, alongside the copy. An author with a real name and real credentials, dates, citations to sources that market recognises, and a business identity a local reader can verify all have to exist in the language being read.",
+          "We put Google's quality signals in place per language: an author with a real name and real credentials, dates, citations to sources that market recognises, and a business identity a local reader can verify.",
         ],
       },
       {
-        q: "The parts of a page to check in the second language",
+        q: "Page details checked in every language",
         a: [
-          "Meta titles and descriptions written natively to the local character budget, internal links that point at the same-language version, schema carrying the localized values, and hreflang that resolves both ways.",
-          "A crawler reads each one closely while a reader skims past them, so getting all four right is what lets a site that reads perfectly in four languages rank in all four.",
+          "We write meta titles and descriptions natively to the local character budget, point internal links at the same-language version, carry the localized values in the schema and check that hreflang resolves both ways.",
+          "A crawler reads each of these closely, so with all four right a site that reads well in four languages can rank in all four.",
         ],
       },
       {
-        q: "Cultural fit is a risk register before it is a style choice",
+        q: "Cultural review before publication",
         a: [
-          "Most of the value is in what gets caught: a colour, a gesture, a comparison or a claim that reads as ordinary in one market and as careless in another. Before publication is the cheap time to check it.",
-          "The rest is tone. How direct a market expects a commercial page to be varies more than most companies assume, and a voice that reads as confident in one place reads as pushy in the next.",
+          "We check every page for the colour, gesture, comparison or claim that reads as ordinary in one market and as careless in another, before publication, when a fix costs least.",
+          "We also set the tone per market. How direct a market expects a commercial page to be varies widely, and we tune the voice so it reads as confident wherever it lands.",
         ],
       },
       {
-        q: "Social is a different platform mix in every market",
+        q: "Social calendars per market, where in scope",
         a: [
-          "The network that carries your audience in one country may be a minor one in another, so a calendar per market puts you on the network each audience actually uses. Timing, format and what counts as an acceptable tone all shift with it.",
-          "Platform rules and local advertising law shift too, so a campaign cleared in one jurisdiction gets checked for the next before it runs.",
+          "Where social is part of the work, we plan a calendar per market on the network each audience uses, with timing, format and tone set for that market.",
+          "We check platform rules and local advertising law per jurisdiction, so a campaign cleared in one country is cleared for the next before it runs.",
         ],
+      },
+    ],
+    process: [
+      {
+        title: "A free 20-minute audit",
+        text: "We read your pages in each language against what that market searches for, and show you which markets have the most to gain from their own content.",
+      },
+      {
+        title: "A written scope per market",
+        text: "After the first call we send a written scope naming the markets, the pages and the deliverables for each, social included where it is part of the work.",
+      },
+      {
+        title: "Research in each language",
+        text: "We research every market in its own language, build its topic clusters from its own queries, and give you a page plan per market to approve.",
+      },
+      {
+        title: "Native writing and cultural review",
+        text: "Native writers produce each page in the target language, and a cultural review checks messaging, tone and claims against that market before anything goes live.",
+      },
+      {
+        title: "Publishing and monthly reporting",
+        text: "We check each page's titles, links and language signals once it is live, then report every month on rankings and enquiries market by market.",
+      },
+      {
+        title: "Month to month",
+        text: "Engagements run month to month, so the work in each market carries on for as long as it pays.",
       },
     ],
     absorbs: ["multilingual-seo-copywriting", "cultural-consulting", "multilingual-social-media-management"],
