@@ -29,7 +29,7 @@ El resultado llega con discreción, unas cuantas llamadas más por semana, y se 
 
 El trabajo se concentra en lo que hace elegir a una empresa en el mapa:
 
-- una ficha de Google Business Profile por dirección, completa y al día, en los idiomas que hablan tus clientes en cada lugar;
+- un Perfil de Empresa de Google (Google Business Profile) por dirección, completo y al día, en los idiomas que hablan tus clientes en cada lugar;
 - tu nombre, tu dirección y tu teléfono escritos igual en cada directorio, cada web de reseñas y cada cámara de comercio;
 - una página por barrio o por ciudad que atiendes de verdad, que diga algo cierto sobre ese lugar;
 - una rutina para pedir reseñas y una respuesta a cada reseña recibida;
@@ -47,7 +47,7 @@ ValenciaMove es nuestro propio sitio sobre cómo instalarse en Valencia, constru
 
 Presentamos estas cifras como prueba de un método y como punto de partida para hablar de tus ciudades, porque cada mercado tiene sus competidores y su ritmo.
 
-## Tu ficha de Google Business Profile trabajada como un escaparate
+## Tu Perfil de Empresa de Google trabajado como un escaparate
 
 Dejamos tu ficha completa y activa: las categorías correctas, la lista entera de servicios, horarios exactos, fotos y publicaciones recientes, actualizadas semana tras semana. Esa constancia, mantenida durante unos meses, es la que acerca a una empresa a los tres primeros puestos del mapa.
 

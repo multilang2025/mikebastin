@@ -47,6 +47,45 @@ when the units reset.
 | `/es/conocenos-agencia-experta-en-seo/` | equipo SEO en Valencia |
 | `/es/precios/` | precios SEO Valencia |
 
+## Legacy keyword ideas for the unmeasured terms (Q28, 4 Oct 2026)
+
+Ahrefs has 28 of 200,000 units left and resets on **18 October 2026**, so
+the Valencia terms stay unmeasured until then. What the legacy
+mikebastin.com holds instead (Rank Math focus keywords and titles read from
+the legacy database, and Search Console from 3 Jul to 1 Oct 2026):
+
+- **No Spanish-language Valencia query ever ranked.** The legacy
+  `/es/services/optimizacion-seo/` page logged 179 impressions for "seo
+  spanish" and 85 for "seo latam", all English or Latin America and US
+  Hispanic shapes (position 35 to 80). Delaguía y Luzón's Search Console is
+  French-language legal content. So the "service plus Valencia" terms are
+  untested, not disproved, and the legacy data cannot rank them.
+- **The legacy Spanish titles already used "en Valencia"** on 14 pages, which
+  is where the secondary candidates below come from. Add every term to the
+  18 October batch (`keywords-explorer-overview`, country `es`) together with
+  the controls the method note asks for.
+
+| Current page (primary) | Legacy focus keyword and title | Secondary candidates to measure |
+|---|---|---|
+| `/es/` (agencia SEO Valencia) | "marketing digital": *Expertos en SEO y marketing digital en Valencia* | marketing digital Valencia, agencia marketing digital Valencia |
+| `seo-local` (SEO local Valencia) | "SEO local": *SEO local en Valencia, consigue más leads*; post "Perfil de Empresa de Google" | posicionamiento local Valencia, perfil de empresa de Google Valencia, Google Maps Valencia |
+| `optimizacion-seo` (posicionamiento SEO Valencia) | "SEO optimización": *Servicios SEO en español para empresas multilingües* | consultor SEO Valencia, servicios SEO Valencia, SEO on page Valencia (legacy `seo-onpage`), búsqueda de palabras clave Valencia (legacy `busqueda-palabras-clave`) |
+| `posicionamiento-multilingue` (SEO multilingüe Valencia) | "posicionamiento": *Posicionamiento multilingüe, expande tu negocio globalmente*; "agencia de SEO global" | agencia SEO internacional Valencia, SEO internacional Valencia |
+| `seo-tecnico` (auditoría SEO Valencia) | "SEO técnico multilingüe" (post) | SEO técnico Valencia, analítica SEO Valencia (legacy `monitorizacion-y-analitica`: *Monitorización y analítica avanzada de SEO en Valencia*), auditoría SEO técnica |
+| `publicidad-multilingue` (agencia Google Ads Valencia) | "publicidad multilingue": *Servicios de publicidad multilingüe (SEM) en Valencia* | publicidad Google Ads Valencia, SEM Valencia, campañas Google Ads Valencia |
+| `traduccion-profesional` (traducción jurada Valencia) | six legacy pages: certificada y jurada, jurídica, médica, financiera, académica, comercial, all "en Valencia" | traducción certificada y jurada Valencia, traducción jurídica Valencia, traductor jurado Valencia, traducción médica Valencia, traducción financiera Valencia, traducción académica Valencia, traducción comercial Valencia, transcreación Valencia |
+| `traduccion-de-paginas-web` (traducción de páginas web Valencia) | "localización de páginas web" | localización web Valencia, plugin de traducción WordPress, localización de e-commerce Valencia, integración CMS multilingüe |
+| `redaccion-seo-multilingue` (redacción SEO Valencia) | "Redacción SEO multilingüe": *Redacción SEO multilingüe en Valencia, blog optimizado* | redactor SEO Valencia, copywriting SEO Valencia, gestión de redes sociales multilingüe Valencia, consultoría cultural Valencia |
+| `consultoria-de-inteligencia-artificial` | "consultoría de inteligencia artificial": same, "en Valencia" | consultoría IA Valencia, IA para empresas Valencia |
+| `posedicion-de-ia` | "posedición de IA": *con lingüistas nativos* | posedición Valencia, traducción automática Valencia |
+| `localizacion-de-aplicaciones` | "localización de aplicaciones": *en Valencia* | localización de apps Valencia, internacionalización de software Valencia |
+| `seo-aleman`, `-frances`, `-ingles`, `-italiano`, `-neerlandes`, `-portugues` | "SEO en alemán" and the same shape per language | SEO en Alemania desde Valencia stays; measure "SEO en alemán", "SEO en francés" (country `es`) as the language-word variants |
+
+One wording to adopt now, no measurement needed: **Google's Spanish name for
+the profile is "Perfil de Empresa de Google"** (a legacy ES post carries it as
+its focus keyword), so `seo-local` should say that next to "Google Business
+Profile".
+
 ## Decisions carried over, and the assumptions to confirm
 
 The FR decisions were the owner's. For Spanish they are **assumed to
