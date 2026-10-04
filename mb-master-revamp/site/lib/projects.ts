@@ -66,14 +66,16 @@ export type Project = {
    * (owner, 4 Oct 2026, choosing to align the windows). Counted from the
    * form records (Formidable entries read 3 Oct 2026), drafts and obvious
    * spam (links, SEO, backlink and crypto pitches) left out, total divided by
-   * three and rounded: TX 341 (114 a month), Delaguía 168 (56), Bemelman 6
-   * (2). ValenciaMove's come from its own dashboard (Supabase
+   * three and rounded: TX 341 (114 a month), Delaguía 168 (56). Bemelman's
+   * forms caught 6 (2 a month), but most of its requests arrive by phone and
+   * email, so the owner's own figure is shown: 20 to 50 a month (owner,
+   * 4 Oct 2026, "between 20 and 50 leads"). ValenciaMove's come from its own dashboard (Supabase
    * `consultations`, form rows not typed spam), which starts on 1 July, so
    * its figure is July alone (25) and carries its own `period`. C21
    * Perdomo's headless front end posts its forms outside WordPress, so it has
    * no record to count here; its count is a range the owner gave on 3 Oct
    * 2026 ("between TX and DL"), shown as such. A range is written "low to
-   * high", which the results page sums as a range.
+   * high", which the results page sums as a range (Bemelman's is the second).
    */
   leads?: { count: string; what: string; period?: string };
   /** Path under /work/, omitted where no usable capture exists. */
@@ -218,7 +220,7 @@ export const PROJECTS: Project[] = [
    "A Divi build and Dutch local SEO for a business that had traded on reputation alone for forty-five years.",
     services: ["Dutch local SEO", "Divi build", "B2B trade search"],
     search: { clicks: "1,436", impressions: "108,568", position: "28.1", note: "May to July 2026" },
-    leads: { count: "2", what: "enquiries" },
+    leads: { count: "20 to 50", what: "enquiries" },
     shot: `/work/bemelman-spuiterij.webp?v=${SHOT_VERSION}`,
   },
   {

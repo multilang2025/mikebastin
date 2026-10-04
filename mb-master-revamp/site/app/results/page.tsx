@@ -109,10 +109,11 @@ export default function ResultsPage() {
               Sources: enquiries are a monthly average for {LEADS_PERIOD},
               from the {LEAD_SITES} sites that keep a record of their contact
               and quote forms, counted from those records (ValenciaMove’s
-              record starts in July, so its figure is July alone; C21
-              Perdomo’s forms post outside its site, so its figure is a
-              range); clicks and impressions cover the same three months, from
-              Google Search Console.
+              record starts in July, so its figure is July alone). Two
+              figures are ranges: C21 Perdomo’s forms post outside its site,
+              and Bemelman’s requests also arrive by phone and email. Clicks
+              and impressions cover the same three months, from Google Search
+              Console.
             </blockquote>
           </Reveal>
 
