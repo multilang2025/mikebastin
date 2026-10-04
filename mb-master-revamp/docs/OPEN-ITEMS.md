@@ -37,7 +37,7 @@ illustrations). No PR is open.
 | Q16 | Review order for the FR and ES drafts (every page is a draft) |
 | Q17 | Sign off the FR and ES motto lines |
 | Q27 | Declaudify P2: names and roles of the specialists to show on the homepage, and which two testimonials (with source links) |
-| Q28 | Re-measure the Valencia terms (country `es`) when Ahrefs units reset on **18 Oct 2026** (28 units left on 4 Oct; Semrush also out). Legacy check done 4 Oct: no Spanish Valencia query ever ranked on the legacy site, and the secondary candidates per page are listed in `docs/ES-REBUILD-PLAN.md` "Legacy keyword ideas", ready to run as one batch |
+| Q28 | Re-measure the Valencia terms (country `es`) when Ahrefs units reset on **18 Oct 2026** (28 units left on 4 Oct; Semrush also out). Legacy check done 4 Oct: no Spanish Valencia query ever ranked on the legacy site, and the secondary candidates per page are listed in `docs/ES-REBUILD-PLAN.md` "Legacy keyword ideas", plus an okisam.com competitor read (same file) with a Spanish GEO page and a Spanish tracking page as the two gaps it shows; ready to run as one batch |
 | Q18 | Which further EN posts get a FR or ES adaptation (8 French and 5 Spanish more were built on 30 Sep 2026 without waiting: the Spain market posts, local, AI and measurement; the French journal is at 28 posts, the Spanish at 32) |
 
 ### Site and launch

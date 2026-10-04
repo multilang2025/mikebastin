@@ -86,6 +86,63 @@ the profile is "Perfil de Empresa de Google"** (a legacy ES post carries it as
 its focus keyword), so `seo-local` should say that next to "Google Business
 Profile".
 
+## Competitor read: okisam.com (owner request, 4 Oct 2026)
+
+Okisam is a Valencia B2B and ecommerce digital marketing agency, and the
+site that already owns the generic "service plus Valencia" shapes. Read
+from its 88-page sitemap (titles, meta descriptions, h1s, h2s; no volumes,
+because Ahrefs asks 50 units for even a small request and 28 remain until
+the reset on 18 Oct).
+
+**How it names things**
+
+- The head term is **"Agencia X"** on every service: agencia SEO, agencia
+  SEM, agencia Google Ads, agencia GEO, agencia IA, agencia CRO, agencia de
+  analítica web, agencia de link building. Our ES h1s lead with the
+  discipline instead ("Posicionamiento SEO en Valencia", "SEO local en
+  Valencia"). Only `publicidad-multilingue` ("Agencia de Google Ads en
+  Valencia") uses the buyer's own "agencia" word.
+- **Valencia sits on two pages only**: `/agencia-seo-valencia/` (*Agencia SEO
+  Valencia, Posicionamiento Web*) and `/agencia-sem-valencia/` (*Agencia SEM
+  en Valencia, Agencia PPC*). Its other service pages are generic Spanish,
+  with no city in the title.
+- Its SEO cluster is `agencia-seo/` with children: servicios SEO, consultoría
+  SEO, auditoría SEO ("¿Qué es y cómo realizar una auditoría SEO?"), análisis
+  SEO, estrategia SEO, SEO local ("Expertos en Google Maps y GMB"), link
+  building, and verticals (SEO sector turístico, SEO para psicólogos). GEO
+  sits at `agencia-seo/ia-chatgpt/`: *Agencia SEO para IA (GEO),
+  Posicionamiento en los LLMs*, plus an "Agencia ChatGPT Ads" page.
+- Its positioning is B2B, ecommerce, industrial and SaaS marketing.
+
+**What it does not do, and our pages can own**
+
+Nothing multilingual: no multilingual SEO, translation, localization,
+hreflang or international page in the sitemap. Every term that pairs
+Valencia with a language or a market is open against it: *SEO multilingüe
+Valencia*, *SEO internacional Valencia*, *traducción jurada Valencia*,
+*localización web Valencia*, *SEO en Alemania desde Valencia*. That fits the
+plan, and it argues for making the multilingual angle the reason to choose
+us on `/es/` and on the head terms, since "agencia SEO Valencia" alone is a
+direct fight with its dedicated page.
+
+**Gaps it shows in our Spanish set**
+
+| Okisam page | Term shape | Our Spanish set |
+|---|---|---|
+| `agencia-seo/auditoria-seo/` | auditoría SEO (no Valencia) | `seo-tecnico` already targets *auditoría SEO Valencia*: the city version is open |
+| `agencia-seo/consultoria-seo/` | consultoría SEO (no Valencia) | `optimizacion-seo` lists *consultor SEO Valencia* as secondary: open |
+| `agencia-seo/seo-local/` | SEO local, Google Maps, GMB (no Valencia) | `seo-local` targets *SEO local Valencia*: open |
+| `agencia-seo/ia-chatgpt/` | agencia GEO, SEO para IA, posicionamiento en LLMs | **No Spanish GEO service page.** English has `generative-engine-optimization`; Spanish has only posts and a section of `consultoria-de-inteligencia-artificial`. A page targeting *SEO para IA Valencia* and *GEO Valencia* is the clearest new build. |
+| `agencia-analitica-web/`, `agencia-cro/` | analítica web, CRO | No Spanish tracking page; the legacy ES site had *Monitorización y analítica avanzada de SEO en Valencia*. Candidate for a Spanish conversion tracking page. |
+| `agencia-seo/linkbuilding/` | agencia de link building | `link-building` is absorbed into `seo-tecnico`; candidate secondary *agencia de link building Valencia* |
+| `agencia-sem-valencia/` | agencia SEM Valencia, agencia PPC | `publicidad-multilingue`: add *agencia SEM Valencia* and *agencia PPC* as secondaries |
+
+**Batch to run on 18 Oct** (country `es`, `keywords-explorer-overview`, with
+controls): every term in the two tables above, plus
+`site-explorer-organic-keywords` for `okisam.com` filtered to "valencia"
+(select keyword, volume, best_position, best_position_url) to see which of
+its Valencia terms actually rank, and what they are worth.
+
 ## Decisions carried over, and the assumptions to confirm
 
 The FR decisions were the owner's. For Spanish they are **assumed to
