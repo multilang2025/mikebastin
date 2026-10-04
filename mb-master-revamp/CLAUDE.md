@@ -399,9 +399,10 @@ provide"). Each body opens on what the client gets, in the active voice with
 "we"; expandables name work we do, never tips addressed to the reader; and
 every service carries `process` in `lib/services.ts`, the real steps of the
 engagement starting with the free offer that fits, which the engagement band
-renders in place of the bare `sections` titles. Applied to all nineteen
-template pages the same day; `lead-generation` is hand-built and already
-written that way.
+renders in place of the bare `sections` titles. Full rule in
+`docs/STYLE-GUIDE-UK-EU.md` section 10. Applied to all nineteen template
+pages the same day; `lead-generation` is hand-built and already written that
+way.
 
 ## The UK and International Europe style guide
 

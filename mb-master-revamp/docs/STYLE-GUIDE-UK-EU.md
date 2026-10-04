@@ -166,7 +166,39 @@ title, excerpt, `h1` to `h3`, CTA lead or service-page hero field in any
 locale, and reports body sentences per page. The `copy-editor` and
 `localization-qa` agents apply the rule to body copy.
 
-## 10. Quick Review Checklist
+## 10. Service pages describe the service
+
+Owner, 4 Oct 2026, on the technical SEO page: "the current reads like a how
+to, and not services we provide." A service page sells what the client
+receives, so it never teaches the discipline.
+
+- **Open on the deliverable.** The first body section is "What you get from
+  ...": what we audit, build, write or run, in the active voice with "we",
+  each paragraph naming one thing the client ends up with.
+- **Background becomes an outcome.** A market or platform fact stays when it
+  explains a choice we make ("so we set consent to the Garante's stricter
+  reading"); it goes when it only informs the reader.
+- **Expandables name work, not advice.** The question is a noun phrase for a
+  job ("Neighbourhood pages for the districts you serve"), the answer says
+  what we do and what it gives the client. No imperatives addressed to the
+  reader ("Treat the profile like a shopfront", "Use geo-IP for soft
+  suggestions").
+- **Every service has real steps.** `process` in `lib/services.ts` holds four
+  to six `{ title, text }` steps (title two to seven words, text one or two
+  sentences) and replaces the bare engagement titles. The first step is the
+  free offer that fits: the 20-minute audit, the 20-minute stack walkthrough,
+  the localization assessment, the GEO audit or the free consultation. The
+  last is "Month to month" for ongoing work; a project ends on delivery or
+  launch.
+- **Proof stays word for word.** Client names, Search Console figures and
+  cited statistics keep their wording and sources when a section is rewritten.
+- **Nothing is invented to fill a step.** No price, turnaround, guarantee,
+  certification, tool or outcome that is not already on the page, in
+  `lib/projects.ts` or in this guide. Sworn translation stays 1 to 7 days.
+- **Check:** read the page's h2 and h3 list. Each should name something the
+  client gets or something we do, never a lesson.
+
+## 11. Quick Review Checklist
 
 Before publishing or approving UK/EU-facing copy:
 
@@ -181,6 +213,7 @@ Before publishing or approving UK/EU-facing copy:
 - [ ] Internal link anchors are 2–4 term expressions, varied across pages
 - [ ] Links and CTAs actually go where their label promises
 - [ ] Positive framing (section 9): no sentence built on a denial, a loss or a dig at other agencies, in any locale
+- [ ] Service pages (section 10): open on what the client gets, expandables name work we do, real `process` steps, no invented facts
 
 ---
 
