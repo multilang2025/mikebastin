@@ -25,7 +25,7 @@ El resultado llega con discreción, unas cuantas llamadas más por semana, y se 
 <p><strong>¿Quieres aparecer entre los primeros del mapa en Valencia?</strong> Trabajamos tu ficha, tus páginas por barrio y tus reseñas en el idioma de tus clientes, y en cada ciudad donde tengas sede. <a href="/es/contactanos/">Reserva una consulta gratuita</a>.</p>
 </aside>
 
-## Lo que hacemos en tu ciudad y en cada lugar donde trabajas
+## Lo que incluye nuestro SEO local en tu ciudad y en cada lugar donde trabajas
 
 El trabajo se concentra en lo que hace elegir a una empresa en el mapa:
 
@@ -47,23 +47,23 @@ ValenciaMove es nuestro propio sitio sobre cómo instalarse en Valencia, constru
 
 Presentamos estas cifras como prueba de un método y como punto de partida para hablar de tus ciudades, porque cada mercado tiene sus competidores y su ritmo.
 
-## Una ficha de Google Business Profile tratada como un escaparate
+## Tu ficha de Google Business Profile trabajada como un escaparate
 
-Google recompensa una ficha completa y activa: las categorías correctas, la lista entera de servicios, horarios exactos, muchas fotos y publicaciones recientes. Completa y actualizada semana tras semana, una ficha mantiene su sitio frente a los competidores que cuidan la suya. Mantenida durante unos meses, esa constancia es la que acerca a una empresa a los tres primeros puestos del mapa.
+Dejamos tu ficha completa y activa: las categorías correctas, la lista entera de servicios, horarios exactos, fotos y publicaciones recientes, actualizadas semana tras semana. Esa constancia, mantenida durante unos meses, es la que acerca a una empresa a los tres primeros puestos del mapa.
 
-Google espera una ficha por dirección física. Los idiomas se trabajan en la descripción, las publicaciones y las respuestas a las reseñas, y después en la web, con una página por idioma para cada ciudad. Una empresa que se desplaza a casa de sus clientes declara su zona de servicio en la ficha y publica una página por cada ciudad que atiende.
+Creamos una ficha por dirección física. Los idiomas los trabajamos en la descripción, las publicaciones y las respuestas a las reseñas, y después en la web, con una página por idioma para cada ciudad. Si tu empresa se desplaza a casa de sus clientes, declaramos tu zona de servicio en la ficha y publicamos una página por cada ciudad que atiendes.
 
 Cada vez más preguntas del tipo «el mejor X en Ruzafa» pasan por ChatGPT, Claude o Perplexity antes que por el mapa. Esas respuestas se apoyan en la misma materia: datos estructurados, menciones coherentes y una reputación lo bastante visible como para resumirse. El trabajo rinde así dos veces, en el mapa y en las respuestas.
 
 ## Datos de contacto idénticos y páginas que hablan de cada ciudad
 
-Google lee tus datos de contacto en decenas de sitios, y cuando coinciden, se fía de ellos en todas partes. El trabajo empieza con una auditoría de las menciones existentes: corregimos las diferencias, eliminamos duplicados y añadimos las fuentes locales que cuentan, como la cámara de comercio, la asociación profesional y el directorio que tu sector consulta de verdad. Esa corrección, la más frecuente, es la que hace aparecer en el mapa a una empresa con buenas páginas.
+Google lee tus datos de contacto en decenas de sitios, y cuando coinciden, se fía de ellos en todas partes. Por eso el trabajo empieza con una auditoría de las menciones existentes: corregimos las diferencias, eliminamos duplicados y añadimos las fuentes locales que cuentan, como la cámara de comercio, la asociación profesional y el directorio que tu sector consulta de verdad. Esa corrección, la más frecuente, es la que hace aparecer en el mapa a una empresa con buenas páginas.
 
-Una página por barrio o por ciudad funciona cuando cada una dice algo cierto sobre ese lugar, mucho más allá de un nombre de ciudad cambiado. Lleva el marcado LocalBusiness con el subtipo adecuado: LegalService para un [despacho de abogados](/es/seo-despachos-de-abogados/), FreightForwarder para un transitario. Los enlaces internos desde las páginas de servicio principales la hacen fácil de encontrar. En una web multilingüe, las etiquetas hreflang unen la página de Bruselas en francés con su versión en neerlandés, para que cada visitante llegue en su idioma; nuestro [posicionamiento multilingüe](/es/services/posicionamiento-multilingue/) cubre esa estructura al detalle.
+Escribimos cada página por barrio o por ciudad con algo cierto sobre ese lugar, mucho más allá de un nombre de ciudad cambiado. Cada una lleva el marcado LocalBusiness con el subtipo adecuado: LegalService para un [despacho de abogados](/es/seo-despachos-de-abogados/), FreightForwarder para un transitario. Los enlaces internos desde tus páginas de servicio principales la hacen fácil de encontrar. En una web multilingüe, las etiquetas hreflang unen la página de Bruselas en francés con su versión en neerlandés, para que cada visitante llegue en su idioma; nuestro [posicionamiento multilingüe](/es/services/posicionamiento-multilingue/) cubre esa estructura al detalle.
 
-Las reseñas nacen de un proceso: una petición enviada después del servicio, por correo o con un código QR en el recibo. Cada reseña recibe respuesta, también las críticas, porque la respuesta la leen todos los clientes siguientes. Conviene tener preparada la respuesta a una reseña crítica antes de que llegue: bien gestionada, inspira más confianza que una columna de cinco estrellas.
+Montamos las reseñas como un proceso: una petición enviada después del servicio, por correo o con un código QR en el recibo. Respondemos a cada reseña, también a las críticas, porque la respuesta la leen todos los clientes siguientes. Dejamos preparados los modelos de respuesta a una reseña crítica antes de que llegue: bien gestionada, inspira más confianza que una columna de cinco estrellas.
 
-## Cómo trabajamos
+## Cómo trabajamos tu posicionamiento local en Valencia
 
 1. **Auditoría.** Tu posición en el mapa para tus principales búsquedas comerciales, el estado de cada ficha, la coherencia de tus datos, el marcado y tus reseñas, comparados con tus tres competidores más cercanos.
 2. **Fichas y menciones.** Cada ficha completada, los datos armonizados en los directorios, los duplicados eliminados y las fuentes que faltan añadidas.

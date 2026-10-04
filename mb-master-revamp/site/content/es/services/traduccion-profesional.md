@@ -43,16 +43,16 @@ Delaguía y Luzón es un despacho de abogados de Valencia que trabaja en derecho
 
 Un abogado que presentará la traducción ante un tribunal o un cliente es exactamente el lector para el que trabaja esta red, y su sitio refleja el nivel de exigencia que aplicamos también a tus documentos.
 
-## Certificada, jurada, notarial o apostillada: cuatro trámites distintos
+## Certificada, jurada, notarial o apostillada: la fórmula que pide tu organismo
 
-Quien decide la fórmula correcta es el organismo que recibe el documento.
+Quien decide la fórmula correcta es el organismo que recibe el documento, y nosotros la confirmamos contigo antes de encargar la traducción. Estas son las cuatro que tramitamos:
 
 - **Traducción certificada**: el traductor o la agencia firma una declaración de que la traducción es fiel.
 - **Traducción jurada**: la realiza un traductor inscrito ante un tribunal o un ministerio. En España es el traductor-intérprete jurado, nombrado por el Ministerio de Asuntos Exteriores, y es la traducción que suelen pedir los juzgados y la oficina de extranjería. Es también la vía habitual en Francia y en buena parte de la Unión Europea.
 - **Legalización notarial**: un notario da fe de la firma, y la traducción queda fuera de esa fe.
 - **Apostilla**: autentica el documento en sí para usarlo en el extranjero según el Convenio de La Haya, y la expiden las autoridades del país de origen del documento.
 
-Un tribunal, un registro, una universidad y un servicio de inmigración tienen cada uno su norma. Una vez fijada, el resto es sencillo. Por eso la primera pregunta es qué pide el organismo que recibirá el documento, y por eso preguntamos antes de empezar.
+Un tribunal, un registro, una universidad y un servicio de inmigración tienen cada uno su norma. Por eso nuestra primera pregunta es qué pide el organismo que recibirá el documento: con la fórmula fijada, el expediente se prepara una sola vez y se acepta a la primera.
 
 ## Cada tipo de documento tiene su especialista
 
@@ -70,14 +70,19 @@ Informes anuales, folletos, balances, cuentas de resultados, informes de auditor
 
 ### Académica
 
-Títulos, expedientes y notas, artículos de investigación, cartas de recomendación y programas de asignaturas. Un expediente lleva su propio sistema de calificaciones, y explicar cómo equivale al del país receptor mantiene la solicitud en marcha. Un artículo de investigación pide que el argumento llegue íntegro, con sus matices, de modo que una afirmación cuidadosamente matizada se queda igual de matizada.
+Títulos, expedientes y notas, artículos de investigación, cartas de recomendación y programas de asignaturas. Cada expediente lleva su propio sistema de calificaciones, y nuestros traductores indican cómo equivale al del país receptor para que la solicitud siga adelante. En un artículo de investigación el argumento llega íntegro, con sus matices, y una afirmación cuidadosamente matizada se queda igual de matizada.
 
 ### Transcreación
 
-Un eslogan o un texto de marca que funciona en un idioma suele necesitar otra forma en otro, porque lo que hace es cultural. La transcreación reescribe para lograr el mismo efecto, a partir de un briefing que describe lo que el original quiere conseguir. Es la elección para marketing, y para una web entera tenemos la [traducción de páginas web](/es/services/traduccion-de-paginas-web/). Todo lo que un regulador, un tribunal o un examinador vaya a comparar línea por línea se traduce de forma fiel.
+Un eslogan o un texto de marca que funciona en un idioma suele necesitar otra forma en otro, porque lo que hace es cultural. La transcreación reescribe para lograr el mismo efecto, a partir de un briefing que describe lo que el original quiere conseguir. La usamos para marketing, y para una web entera tenemos la [traducción de páginas web](/es/services/traduccion-de-paginas-web/). Todo lo que un regulador, un tribunal o un examinador vaya a comparar línea por línea lo traducimos de forma fiel.
 
-## Cómo trabajamos
+## Cómo gestionamos tu traducción jurada en Valencia
 
-Empezamos con una consulta gratuita en la que nos cuentas qué documento es, quién lo recibe y para cuándo. Si te queda cerca, podemos vernos en nuestra oficina de Calle Rugat 12 - 2, 46021 Valencia; si no, por videollamada. Con esos datos te confirmamos el tipo de traducción que hace falta y te enviamos por escrito el alcance del primer trimestre. Después trabajamos mes a mes, y cada solicitud recibe respuesta, por lo general en un día laborable.
+1. **Consulta gratuita.** Nos cuentas qué documento es, quién lo recibe y para cuándo, en nuestra oficina de Calle Rugat 12 - 2, 46021 Valencia o por videollamada.
+2. **Tipo de traducción confirmado.** Confirmamos si el organismo pide una traducción certificada, jurada, notarial o apostillada, para que el documento llegue en el formato que se acepta.
+3. **Presupuesto de tu documento.** Recibes el presupuesto con tu plazo antes de que empiece la traducción, y sabes el coste y la fecha de entrega desde el principio.
+4. **Traductor de tu sector.** Tu documento pasa a un traductor especializado de la red BeTranslated en su materia: jurídica, médica, financiera, académica o técnica.
+5. **Revisión antes de la entrega.** Cada traducción se revisa antes de salir, para que resista el mismo escrutinio que el documento original.
+6. **Entrega y trámites finales.** Entregamos de uno a siete días según el documento, con tramitación urgente para documentos personales, y gestionamos la legalización notarial o la apostilla cuando el organismo de destino las pide.
 
-La traducción de documentos se presupuesta como trabajo, y en la página de [precios](/es/precios/) tienes cómo lo planteamos. Si además vendes software en otros idiomas, mira nuestra [localización de apps](/es/services/localizacion-de-aplicaciones/), y si quieres que tu empresa se encuentre en Google, nuestra guía de [posicionamiento web en Valencia](/es/posicionamiento-web-valencia/) explica por dónde empezar.
+Cada solicitud recibe respuesta, por lo general en un día laborable. La traducción de documentos se presupuesta como trabajo, y en la página de [precios](/es/precios/) tienes cómo lo planteamos. Si además vendes software en otros idiomas, mira nuestra [localización de apps](/es/services/localizacion-de-aplicaciones/), y si quieres que tu empresa se encuentre en Google, nuestra guía de [posicionamiento web en Valencia](/es/posicionamiento-web-valencia/) explica por dónde empezar.

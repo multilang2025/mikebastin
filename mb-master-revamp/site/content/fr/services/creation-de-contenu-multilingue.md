@@ -13,17 +13,15 @@ sourceUrl: "https://mikebastin.com/fr/services/creation-de-contenu-multilingue/"
 excerpt: "Des pages écrites pour vos acheteurs espagnols, allemands ou néerlandais, à partir de leurs recherches, pour qu’ils vous trouvent et vous contactent."
 ---
 
-## Une page étrangère répond à la question de l’acheteur qui la lit
+## Des pages qui répondent à la question de l’acheteur de chaque marché
 
-Votre page espagnole traduit votre page française : elle répond à la question que se pose un acheteur français. Un acheteur espagnol formule son problème avec d’autres mots et d’autres priorités, et il choisit la page écrite pour lui, souvent celle d’un concurrent.
-
-Écrire pour ce lecteur vous apporte le trafic et les demandes de chaque marché, et un site qui se positionne aussi bien qu’il se lit, dans chacune de vos langues. Chaque langue a ses propres mots-clés, parce que la manière de décrire un besoin change avec la langue, en plus du vocabulaire.
+Un acheteur espagnol formule son problème avec d’autres mots et d’autres priorités qu’un acheteur français, et il choisit la page écrite pour lui. Nous écrivons donc chaque page à partir des recherches de son marché, ce qui vous apporte le trafic et les demandes de chaque marché, et un site qui se positionne aussi bien qu’il se lit, dans chacune de vos langues. Chaque langue reçoit ses propres mots-clés, parce que la manière de décrire un besoin change avec la langue, en plus du vocabulaire.
 
 <aside class="post-cta">
 <p><strong>Vous voulez des pages qui parlent comme vos acheteurs espagnols, allemands ou néerlandais ?</strong> Nous écrivons chaque version à partir des recherches de son propre marché. <a href="/fr/nous-contacter/">Réserver une consultation gratuite</a>.</p>
 </aside>
 
-## Ce que nous écrivons pour chaque marché
+## Ce que comprend notre création de contenu multilingue
 
 - Des contenus recherchés et rédigés dans la langue cible, à partir des mots-clés réellement utilisés sur place, par des rédacteurs natifs nommés, pour la plupart issus du réseau BeTranslated, l’agence de traduction que nous dirigeons depuis vingt ans.
 - Une structure multilingue propre : balises hreflang et canoniques réglées au niveau du site.
@@ -35,17 +33,13 @@ Votre page espagnole traduit votre page française : elle répond à la questio
 
 Ce travail prolonge notre [référencement multilingue](/fr/services/referencement-multilingue/) et, marché par marché, notre [SEO espagnol](/fr/services/seo-espagnol/), [SEO allemand](/fr/services/seo-allemand/) ou [SEO néerlandais](/fr/services/seo-neerlandais/).
 
-## Des thématiques construites à partir des recherches de chaque langue
+## Des ensembles thématiques construits sur les requêtes de chaque langue
 
-Un ensemble de pages thématiques qui fonctionne en français reflète la manière dont les francophones découpent un sujet. Une autre langue le découpe souvent autrement : elle scinde l’un de vos thèmes en deux, ou en fusionne deux qu’elle traite comme un seul sujet.
-
-Construire l’ensemble à partir des requêtes de la langue cible donne des pages que ce marché cherche, reliées entre elles comme ses acheteurs cherchent. La démarche prend plus de temps, et c’est la version qui se positionne. Les sept étapes d’une [stratégie de contenu ciblée](/fr/strategie-de-contenu-ciblee/) vous montrent comment partir de ce que vos acheteurs recherchent.
+Une autre langue découpe souvent un sujet autrement qu’en français : elle scinde l’un de vos thèmes en deux, ou en fusionne deux qu’elle traite comme un seul sujet. Nous construisons donc chaque ensemble de pages thématiques à partir des requêtes de la langue cible, ce qui donne des pages que ce marché cherche, reliées entre elles comme ses acheteurs cherchent. Notre [stratégie de contenu ciblée](/fr/strategie-de-contenu-ciblee/) en suit les sept étapes, en partant de ce que vos acheteurs recherchent.
 
 ## Une expertise visible dans chaque langue
 
-Les signaux de qualité de Google se construisent dans chaque langue. Un auteur identifié avec de vraies compétences, des dates, des sources que ce marché reconnaît et une entreprise qu’un lecteur local peut vérifier doivent exister dans la langue lue. Un lecteur et un moteur de recherche jugent la confiance localement, à partir de ce qu’ils peuvent vérifier.
-
-Citez à un lecteur allemand des références qu’il connaît, et il a de quoi vous croire.
+Les signaux de qualité de Google se construisent dans chaque langue, et nous les posons dans la langue lue : un auteur identifié avec de vraies compétences, des dates, des sources que ce marché reconnaît et une entreprise qu’un lecteur local peut vérifier. Nous citons à un lecteur allemand des références qu’il connaît, pour qu’il ait de quoi vous croire.
 
 ## Les détails de page qui font exister chaque langue
 
@@ -54,12 +48,21 @@ Citez à un lecteur allemand des références qu’il connaît, et il a de quoi 
 - Des données structurées qui portent les valeurs localisées.
 - Des balises hreflang qui se répondent dans les deux sens.
 
-Un robot d’exploration lit chacun de ces éléments, même quand un lecteur survole la page. Pour la partie technique, voir notre page [SEO technique](/fr/services/seo-technique/).
+Nous contrôlons chacun de ces éléments pour le robot d’exploration, même quand un lecteur ne fait que survoler la page. La partie technique relève de notre page [SEO technique](/fr/services/seo-technique/).
 
 ## Adaptation culturelle et réseaux sociaux
 
-L’essentiel de la valeur tient à ce que l’on repère avant publication : une couleur, un geste, une comparaison ou une affirmation banale sur un marché et maladroite sur un autre. Le vérifier avant coûte peu, après beaucoup plus. Le reste relève du ton : un discours commercial perçu comme assuré sur un marché peut sembler insistant sur le suivant.
+Avant publication, nous repérons une couleur, un geste, une comparaison ou une affirmation banale sur un marché et maladroite sur un autre : le vérifier avant coûte peu, après beaucoup plus. Nous ajustons aussi le ton, car un discours commercial perçu comme assuré sur un marché peut sembler insistant sur le suivant.
 
-Sur les réseaux sociaux, le réseau qui porte votre audience dans un pays peut être secondaire dans un autre, et un calendrier propre à chaque pays vous rend visible sur chacun. Les règles des plateformes et le droit local de la publicité changent aussi : une campagne s’ajuste donc avant sa diffusion. Un compte par pays donne à chaque marché son contenu, sa communauté et ses horaires de publication ; un compte unique en plusieurs langues se gère plus simplement. Nous choisissons avec vous selon vos objectifs et l’équipe qui fera vivre ces comptes.
+Sur les réseaux sociaux, nous choisissons le réseau qui porte votre audience dans chaque pays et construisons un calendrier propre à chacun. Nous tenons compte des règles des plateformes et du droit local de la publicité, et nous ajustons une campagne avant sa diffusion. Un compte par pays donne à chaque marché son contenu, sa communauté et ses horaires de publication ; un compte unique en plusieurs langues se gère plus simplement. Nous choisissons avec vous selon vos objectifs et l’équipe qui fera vivre ces comptes.
+
+## Comment se déroule la création de contenu multilingue
+
+1. **Audit gratuit de 20 minutes.** Nous lisons vos pages dans chaque langue au regard des recherches de ce marché, et nous vous montrons quels marchés ont le plus à gagner d’un contenu à eux.
+2. **Un périmètre écrit par marché.** Après le premier appel, nous envoyons les marchés, les pages et les livrables de chacun, réseaux sociaux compris lorsqu’ils font partie du travail.
+3. **Une recherche dans chaque langue.** Nous étudions chaque marché dans sa propre langue, construisons ses ensembles thématiques à partir de ses requêtes et vous soumettons un plan de pages par marché.
+4. **Rédaction native et relecture culturelle.** Des rédacteurs natifs écrivent chaque page dans la langue cible, et une relecture culturelle contrôle message, ton et affirmations avant toute mise en ligne.
+5. **Publication et rapport mensuel.** Nous contrôlons les titres, les liens et les signaux de langue de chaque page une fois en ligne, puis nous rendons compte chaque mois des positions et des demandes, marché par marché.
+6. **Mois par mois.** Les missions se renouvellent chaque mois, et le travail de chaque marché se poursuit aussi longtemps qu’il rapporte.
 
 Nous travaillons au mois, et chaque demande reçoit une réponse, en général sous un jour ouvré.

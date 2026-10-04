@@ -27,13 +27,13 @@ L’enjeu est à la hauteur du marché. L’anglais est souvent la langue au plu
 
 Nous travaillons en anglais comme en français : la recherche, les textes et la lecture du comportement de vos visiteurs anglophones sont faits en anglais par les personnes qui fixent la stratégie. Le plan arrive donc intact jusqu’à la page.
 
-La recherche part des mots que tapent vos acheteurs, et ils diffèrent souvent des vôtres. Un acheteur français cherche « référencement naturel », un acheteur britannique tape « SEO ». Un déménageur s’appelle « removalist » en Australie et « removals company » au Royaume-Uni, et Londres recherche le second terme. La traduction donne le mot correct ; la recherche donne celui que les gens tapent.
+Notre recherche part des mots que tapent vos acheteurs, et ils diffèrent souvent des vôtres. Un acheteur français cherche « référencement naturel », un acheteur britannique tape « SEO ». Un déménageur s’appelle « removalist » en Australie et « removals company » au Royaume-Uni, et Londres recherche le second terme. La traduction donne le mot correct ; la recherche donne celui que les gens tapent.
 
-Viennent ensuite les éléments qui font qu’un acheteur britannique fait confiance à un nouveau fournisseur : des prix en livres sterling quand vous vendez en livres, des références que votre lecteur connaît, des avis de clients britanniques, une présence dans les annuaires et la presse professionnelle de votre secteur au Royaume-Uni.
+Nous construisons ensuite les éléments qui font qu’un acheteur britannique fait confiance à un nouveau fournisseur : des prix en livres sterling quand vous vendez en livres, des références que votre lecteur connaît, des avis de clients britanniques, une présence dans les annuaires et la presse professionnelle de votre secteur au Royaume-Uni.
 
 ## Anglais britannique ou américain : une variante par marché
 
-L’anglais britannique et l’anglais américain diffèrent par l’orthographe, le vocabulaire et les termes réellement recherchés. Choisir une variante donne un texte qui sonne juste pour ses lecteurs : « colour » et « centre » pour Londres et Dublin, « color » et « center » pour New York. Le Royaume-Uni et l’Irlande partagent l’anglais britannique, avec leurs propres habitudes de recherche.
+L’anglais britannique et l’anglais américain diffèrent par l’orthographe, le vocabulaire et les termes réellement recherchés. Nous choisissons une variante par marché, pour un texte qui sonne juste à ses lecteurs : « colour » et « centre » pour Londres et Dublin, « color » et « center » pour New York. Le Royaume-Uni et l’Irlande partagent l’anglais britannique, avec leurs propres habitudes de recherche.
 
 Quand les États-Unis entrent dans votre projet, ils reçoivent leur propre version, écrite pour le lecteur américain. Nous commençons par le marché où les preuves sont les plus solides, puis nous ajoutons le suivant quand le premier montre des résultats.
 
@@ -47,18 +47,23 @@ Delaguía y Luzón, un cabinet d’avocats de Valencia, publie en quatre langues
 
 BeTranslated, l’agence de traduction que nous dirigeons depuis vingt ans, mène un site par pays, avec un contenu natif pour chaque marché.
 
-## Les réglages techniques sous vos pages anglaises
+## Les réglages techniques que nous faisons sous vos pages anglaises
 
-Placez une balise hreflang sur chaque page, page d’accueil comprise, avec le bon code (en-GB, en-IE, en-US selon vos marchés) et un lien de retour vers chaque version. Le visiteur britannique arrive alors sur la version anglaise, le visiteur français sur la version française, et la Search Console reste lisible. Complétez avec un sitemap par langue, des slugs traduits et des données structurées par pays.
+Nous posons une balise hreflang sur chaque page, page d’accueil comprise, avec le bon code (en-GB, en-IE, en-US selon vos marchés) et un lien de retour vers chaque version. Le visiteur britannique arrive alors sur la version anglaise, le visiteur français sur la version française, et la Search Console reste lisible. Nous complétons avec un sitemap par langue, des slugs traduits et des données structurées par pays.
 
-Pour la structure du domaine, un sous-répertoire /en/ garde toute l’autorité déjà acquise par votre site et convient à la plupart des entreprises qui ajoutent un marché. Un domaine en .co.uk est le signal local le plus fort, et le plus coûteux à entretenir. Décidez-le une fois, tôt.
+Pour la structure du domaine, nous recommandons un sous-répertoire /en/ à la plupart des entreprises qui ajoutent un marché, car il garde toute l’autorité déjà acquise par votre site. Un domaine en .co.uk est le signal local le plus fort, et le plus coûteux à entretenir. Nous posons le choix au cadrage, pour qu’il soit décidé une fois, tôt.
 
-L’anglais est plus court que le français : écrivez les balises title et les méta-descriptions directement en anglais, à la longueur anglaise, pour que la phrase entière s’affiche dans le résultat. Vérifiez aussi la vitesse sur mobile, où se fait une grande part des recherches. Côté liens, un article dans la presse professionnelle britannique ou une association sectorielle du Royaume-Uni pèse bien plus qu’un lien international générique, car la pertinence se mesure aussi par pays.
+L’anglais est plus court que le français : nous écrivons les balises title et les méta-descriptions directement en anglais, à la longueur anglaise, pour que la phrase entière s’affiche dans le résultat. Nous contrôlons aussi la vitesse sur mobile, où se fait une grande part des recherches. Côté liens, nous visons un article dans la presse professionnelle britannique ou une association sectorielle du Royaume-Uni, qui pèse bien plus qu’un lien international générique, car la pertinence se mesure aussi par pays.
 
-## Comment nous travaillons
+## Comment nous menons votre SEO anglais au Royaume-Uni et en Irlande
 
-Nous commençons par une consultation gratuite sur votre entreprise, vos acheteurs et vos marchés anglophones, puis un audit de vos pages anglaises face à ce que recherchent les acheteurs britanniques, avec Ahrefs, Semrush et la Search Console. La recherche vient avant toute traduction : elle place dans le brief les termes que vos acheteurs tapent, et la page est juste du premier coup. Quand vos pages sont déjà traduites, l’audit montre celles qui méritent une réécriture ; c’est en général une poignée.
+1. **Consultation gratuite.** Nous échangeons sur votre entreprise, vos acheteurs et vos marchés anglophones, pour cadrer ce que vos pages anglaises doivent vous rapporter.
+2. **Audit.** Nous lisons vos pages anglaises face à ce que recherchent les acheteurs britanniques, avec Ahrefs, Semrush et la Search Console. Quand vos pages sont déjà traduites, l’audit montre celles qui méritent une réécriture : en général, une poignée.
+3. **Recherche et brief.** La recherche vient avant toute rédaction : elle place dans le brief les termes que vos acheteurs tapent, et la page est juste du premier coup.
+4. **Écriture et réglages.** Nous réécrivons ou écrivons les pages qui comptent le plus, puis nous posons hreflang, sitemap et données structurées autour d’elles.
+5. **Rapport mensuel.** Un rapport suit vos demandes venues du marché anglophone, séparées de vos autres marchés, avec ce qui a bougé et la suite prévue.
+6. **Mois par mois.** La mission se poursuit au mois, aussi longtemps qu’elle rapporte.
 
-Nous réécrivons ou écrivons ensuite les pages qui comptent le plus, et chaque mois un rapport suit vos demandes venues du marché anglophone, séparées de vos autres marchés. La mission se poursuit au mois. L’écriture est chiffrée comme un travail ; si vous ajoutez des campagnes avec notre [SEM multilingue](/fr/services/sem-multilingue/), tout votre budget média va directement à Google, Microsoft ou Meta, et le pilotage fait l’objet d’honoraires à part.
+L’écriture est chiffrée comme un travail ; si vous ajoutez des campagnes avec notre [SEM multilingue](/fr/services/sem-multilingue/), tout votre budget média va directement à Google, Microsoft ou Meta, et le pilotage fait l’objet d’honoraires à part.
 
 Pour les réglages de fond, voyez notre [SEO technique](/fr/services/seo-technique/) ; pour l’anglais dans un programme à plusieurs langues, le [référencement multilingue](/fr/services/referencement-multilingue/).

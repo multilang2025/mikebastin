@@ -26,7 +26,7 @@ Preparamos el plan contigo en español, en nuestra oficina de Calle Rugat 12 - 2
 <p><strong>¿Quieres que tus visitantes alemanes se conviertan en clientes?</strong> Construimos contigo un sitio alemán redactado por alemanes, que inspira confianza al comprador de habla alemana. <a href="/es/contactanos/">Reserva una consulta gratuita</a>.</p>
 </aside>
 
-## Lo que hacemos para tu mercado de habla alemana
+## Qué incluye tu SEO en Alemania desde Valencia
 
 El SEO en Alemania pide dos competencias a la vez. La primera es el plan: qué páginas, qué búsquedas, qué mercado primero y cómo se organiza el sitio. La segunda es un alemán que un nativo lee como propio. La primera la hacemos contigo, directamente, en español o en inglés, en persona o por vídeo. La segunda la hacen redactores alemanes nativos.
 
@@ -49,28 +49,29 @@ Esos redactores son los traductores y redactores alemanes nativos de BeTranslate
 
 Cada página pasa por tres lecturas: la del redactor nativo, la de un segundo nativo antes de publicar y la de tu propio equipo. Comprobamos cada una frente al plan, para que se lea bien y responda a la búsqueda para la que se escribió. ¿Tienes también documentos que traducir fuera de la web? Nuestro servicio de [traducción profesional](/es/services/traduccion-profesional/) se encarga.
 
-## Alemania, Austria, Suiza: elegir el orden de los mercados
+## Alemania, Austria y Suiza: el orden de mercados que fijamos contigo
 
-Alemania concentra la mayor parte del volumen de búsqueda y es el punto de partida habitual: de-DE en todo el contenido, una sola arquitectura y toda la atención puesta en una variante. Una versión de-CH de las páginas comerciales se justifica en B2B de gama alta, donde el poder adquisitivo y las expectativas de precio de los compradores suizos merecen una respuesta directa.
+Empezamos por Alemania, que concentra la mayor parte del volumen de búsqueda: de-DE en todo el contenido, una sola arquitectura y toda la atención puesta en una variante. Añadimos una versión de-CH de las páginas comerciales cuando vendes B2B de gama alta, donde el poder adquisitivo y las expectativas de precio de los compradores suizos merecen una respuesta directa.
 
-La Suiza alemana lee alemán estándar con sus propias convenciones: allí se escribe Strasse con ss, donde Alemania escribe Straße, los precios se muestran en CHF y los teléfonos siguen el formato suizo. Son detalles, y justo los que indican a un comprador suizo que la página se escribió para él.
+Para la Suiza alemana escribimos en alemán estándar con sus propias convenciones: Strasse con ss, donde Alemania escribe Straße, precios en CHF y teléfonos en formato suizo. Son detalles, y justo los que indican a un comprador suizo que la página se escribió para él.
 
-Cubrir los tres países es un compromiso editorial real, que se justifica cuando tu oferta habla por igual a los tres mercados. Te damos la recomendación al definir el alcance, a partir de lo que vendes. Las etiquetas hreflang de-DE, de-AT y de-CH indican después a Google qué versión mostrar en cada país, con slugs traducidos y un sitemap por variante. Nuestra guía de [SEO técnico para webs en alemán](/es/seo-tecnico-alemania/) detalla cada uno de esos ajustes.
+Cubrir los tres países es un compromiso editorial real, que se justifica cuando tu oferta habla por igual a los tres mercados. Te damos la recomendación al definir el alcance, a partir de lo que vendes. Después configuramos las etiquetas hreflang de-DE, de-AT y de-CH, con slugs traducidos y un sitemap por variante, para que Google muestre en cada país la versión adecuada. Nuestra guía de [SEO técnico para webs en alemán](/es/seo-tecnico-alemania/) detalla cada uno de esos ajustes.
 
-## Los detalles que un comprador alemán comprueba
+## Los datos de empresa que dejamos listos para el comprador alemán
 
-Antes de confiar en un proveedor, el comprador alemán mira los datos de la empresa, y lo hace pronto. Un sitio alemán lleva un Impressum completo, con la inscripción en el registro mercantil, el número de IVA intracomunitario (USt-IdNr) y el nombre de la dirección. La política de privacidad (Datenschutzerklärung) sigue el RGPD al pie de la letra y el consentimiento de cookies es un consentimiento explícito de verdad. Un teléfono alemán, donde lo tengas, y el sello Trusted Shops en una tienda online completan el conjunto.
+Antes de confiar en un proveedor, el comprador alemán mira los datos de la empresa, y lo hace pronto. Por eso dejamos preparado un Impressum completo, con la inscripción en el registro mercantil, el número de IVA intracomunitario (USt-IdNr) y el nombre de la dirección. La política de privacidad (Datenschutzerklärung) queda alineada con el RGPD al pie de la letra y el consentimiento de cookies se configura como un consentimiento explícito de verdad. Un teléfono alemán, donde lo tengas, y el sello Trusted Shops en una tienda online completan el conjunto.
 
 Nosotros montamos la parte técnica. Las cuestiones jurídicas, como los datos sensibles, el seguimiento de empleados o la elaboración de perfiles de marketing, corresponden a un abogado alemán, y lo indicamos desde el principio.
 
-Alrededor del sitio, la reputación se construye en Alemania: directorios profesionales alemanes, la cámara de comercio local (IHK) y prensa sectorial alemana. También trabajamos tu visibilidad en las respuestas en alemán de ChatGPT, Claude, Perplexity y los AI Overviews de Google.
+Alrededor del sitio, construimos la reputación en Alemania: directorios profesionales alemanes, la cámara de comercio local (IHK) y prensa sectorial alemana. También trabajamos tu visibilidad en las respuestas en alemán de ChatGPT, Claude, Perplexity y los AI Overviews de Google.
 
-## Cómo trabajamos contigo
+## Cómo trabajamos tu SEO en Alemania mes a mes
 
-Todo arranca con una consulta gratuita en español sobre tus ventas en los países de habla alemana. Te proponemos un alcance por escrito para el primer trimestre: qué mercado primero, qué páginas y en qué orden. Puedes reservar una auditoría gratuita de 20 minutos, y te respondemos por lo general en un día laborable. Si además quieres ganar clientes en tu propia ciudad, nuestra guía de [posicionamiento web en Valencia](/es/posicionamiento-web-valencia/) explica cómo.
+1. **Auditoría gratuita de 20 minutos.** Miramos tus páginas en alemán junto a las de tus competidores alemanes y te mostramos dónde están las mayores ganancias, antes de que te comprometas a nada. Si ya existe una traducción al alemán, la auditoría señala qué páginas conviene reescribir en torno a la búsqueda alemana y cuáles se quedan como están; suele ser un puñado de páginas.
+2. **Estrategia y alcance por escrito.** Acordamos contigo en español la estrategia y el calendario editorial, y recibes un alcance por escrito para el primer trimestre: qué mercado primero, qué páginas y en qué orden.
+3. **Redacción de redactores nativos.** La investigación pone en el brief los términos alemanes que tus compradores escriben de verdad. Redactores alemanes nativos de BeTranslated escriben cada página a partir de ese brief, y un segundo nativo la lee antes de publicarla, así que la página sale bien a la primera.
+4. **Datos de empresa que el comprador alemán comprueba.** Dejamos listos el Impressum, la política de privacidad y el consentimiento explícito como los espera el comprador alemán, para que la página gane su confianza además de su visita.
+5. **Informe mensual y reunión en español.** Cada mes, una reunión estratégica: presentamos las opciones y tú decides. El informe sigue tus posiciones en Google.de, las citas en respuestas de IA en alemán y las peticiones por mercado.
+6. **Mes a mes.** El acompañamiento SEO se paga mes a mes, y el trabajo continúa mientras te aporta peticiones.
 
-Después viene la investigación, que pone en el brief los términos alemanes que tus compradores escriben de verdad, y el redactor o traductor trabaja a partir de ese brief: la página sale bien a la primera. Si ya existe una traducción al alemán, la auditoría muestra qué páginas conviene reescribir en torno a la búsqueda alemana y cuáles se quedan como están. Suele ser un puñado de páginas.
-
-Cada mes, una reunión estratégica en español: presentamos las opciones y tú decides. El informe mensual sigue las posiciones en Google.de, las citas en respuestas de IA en alemán y las peticiones por mercado.
-
-El acompañamiento SEO se paga mes a mes. La redacción y la traducción al alemán se presupuestan como un trabajo aparte. El detalle está en [nuestras tarifas](/es/precios/). Para campañas de Google Ads en alemán, nuestra [publicidad multilingüe](/es/services/publicidad-multilingue/) toma el relevo: tu presupuesto de medios va directo a Google y nuestra gestión se factura aparte.
+Respondemos por lo general en un día laborable. La redacción y la traducción al alemán se presupuestan como un trabajo aparte. El detalle está en [nuestras tarifas](/es/precios/). Si además quieres ganar clientes en tu propia ciudad, nuestra guía de [posicionamiento web en Valencia](/es/posicionamiento-web-valencia/) explica cómo. Para campañas de Google Ads en alemán, nuestra [publicidad multilingüe](/es/services/publicidad-multilingue/) toma el relevo: tu presupuesto de medios va directo a Google y nuestra gestión se factura aparte.

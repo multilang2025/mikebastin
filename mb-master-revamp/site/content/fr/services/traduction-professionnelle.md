@@ -45,9 +45,9 @@ Delaguía y Luzón est un cabinet d’avocats de Valencia dont l’activité cou
 
 Un avocat qui relit la traduction avant de la présenter à un tribunal ou à un client : c’est pour ce lecteur-là que ce réseau a été construit.
 
-## Certifiée, assermentée, notariée ou apostillée : quatre démarches distinctes
+## Certifiée, assermentée, notariée ou apostillée : le type que nous établissons
 
-C’est l’organisme destinataire qui décide de la bonne formule.
+C’est l’organisme destinataire qui décide de la bonne formule, et nous l’établissons avec vous avant de commencer.
 
 - **Traduction certifiée** : le traducteur ou l’agence signe une déclaration d’exactitude.
 - **Traduction assermentée** : elle est réalisée par un traducteur inscrit auprès d’un tribunal ou d’un ministère, la règle en Espagne, en France et dans une grande partie de l’Union européenne.
@@ -63,3 +63,14 @@ Un tribunal, un registre, une université et un service d’immigration ont chac
 - **Financier** : rapports annuels, prospectus, bilans, rapports d’audit, déclarations fiscales. Le bon terme est celui que la norme comptable emploie déjà dans la langue cible. Nos traducteurs financiers travaillent aussi bien avec les IFRS qu’avec les normes comptables nationales.
 - **Académique** : diplômes, relevés de notes, articles de recherche, lettres de recommandation. Un barème de notation se transpose mal d’un pays à l’autre, et un article doit conserver toutes ses nuances.
 - **Transcréation** : un slogan ou un texte de marque réécrit pour produire le même effet dans la langue cible. Elle convient au marketing, et pour un site entier, notre offre de [localisation de site web](/fr/services/localisation-de-site-web/) prend le relais. Pour un document comparé ligne à ligne par un régulateur ou un tribunal, la traduction fidèle reste la bonne réponse.
+
+## Comment se déroule votre traduction professionnelle
+
+1. **Consultation gratuite.** Vous nous dites quel est le document et qui le recevra, et nous confirmons le type de traduction que cet organisme exige : certifiée, assermentée, notariée ou apostillée.
+2. **Devis pour votre document.** Nous vous envoyons un devis établi pour votre document et votre échéance, pour que vous connaissiez le coût et la date de livraison avant le début de la traduction.
+3. **Un traducteur choisi par spécialité.** Votre document va à un traducteur du réseau BeTranslated formé à son domaine : juridique, médical, financier, académique ou technique.
+4. **Relecture avant livraison.** Chaque traduction est relue avant d’être livrée, pour résister au même examen que le document d’origine.
+5. **Livraison en un à sept jours.** Le délai dépend de la complexité du document et de votre situation, avec un traitement urgent possible pour les documents personnels comme un visa ou un acte de naissance.
+6. **Notarisation ou apostille si nécessaire.** Lorsque l’institution destinataire l’exige, nous prenons en charge la certification notariale ou l’apostille, et nous proposons aussi un service d’apostille pour les citoyens américains et canadiens.
+
+Le devis porte sur votre document lui-même ; [nos tarifs](/fr/tarifs/) expliquent comment nous facturons.

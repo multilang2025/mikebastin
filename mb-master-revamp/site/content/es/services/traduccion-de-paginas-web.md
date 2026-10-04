@@ -28,12 +28,14 @@ La traducción de páginas web, con la localización que la completa, da ese pas
 <p><strong>¿Quieres que tu web venda en cada idioma de tus clientes, en tu ciudad y fuera?</strong> Adaptamos cada versión de tu web a su público, del texto hasta el pago. <a href="/es/contactanos/">Reserva una consulta gratuita</a>.</p>
 </aside>
 
-## Lo que adaptamos, mucho más allá de las palabras
+## Qué incluye nuestra traducción de páginas web en Valencia
 
-La traducción deja el texto correcto. La localización cambia todo lo que le indica al visitante que la web viene de fuera:
+Traducimos el texto y lo localizamos: adaptamos todo lo que le indica al visitante que la web viene de fuera.
 
-- las fechas, las monedas y el formato de los precios tal como los escribe cada país;
-- los campos de formulario, las direcciones y los códigos postales en formato local;
+
+
+- las fechas, las monedas y el formato de los precios, tal como los escribe cada país;
+- los campos de formulario, las direcciones y los códigos postales, en formato local;
 - los medios de pago y las condiciones de envío que el mercado espera;
 - las imágenes, las señales de confianza y hasta las llamadas a la acción;
 - las palabras clave, elegidas según cómo busca la gente en cada idioma.
@@ -48,23 +50,23 @@ Entre mayo y julio de 2026, el sitio logró 9.944 clics con 461.231 impresiones 
 
 ## Lo que resolvemos bajo el texto
 
-Cada versión lingüística recibe su propia URL, sus propios metadatos y su lugar en el mapa del sitio XML. Con esos tres elementos, un buscador puede posicionarla mercado por mercado. Estructuramos las URL en subdirectorios (/fr/, /en/, /es/) para que todos los idiomas sumen la autoridad del dominio principal, con URL traducidas (/de/ueber-uns para /de/about-us), un atributo lang en el HTML y un solo idioma por página, menú incluido.
+Damos a cada versión lingüística su propia URL, sus propios metadatos y su lugar en el mapa del sitio XML, y con esos tres elementos un buscador puede posicionarla mercado por mercado. Estructuramos las URL en subdirectorios (/fr/, /en/, /es/) para que todos los idiomas sumen la autoridad del dominio principal, con URL traducidas (/de/ueber-uns para /de/about-us), un atributo lang en el HTML y un solo idioma por página, menú incluido.
 
-Las etiquetas hreflang unen las versiones entre sí y se corresponden en los dos sentidos. Para el detalle de esta parte, consulta nuestro [SEO técnico](/es/services/seo-tecnico/), y para la estrategia de palabras clave por idioma, nuestro [posicionamiento multilingüe](/es/services/posicionamiento-multilingue/).
+Colocamos las etiquetas hreflang que unen las versiones entre sí y se corresponden en los dos sentidos. Para el detalle de esta parte, consulta nuestro [SEO técnico](/es/services/seo-tecnico/), y para la estrategia de palabras clave por idioma, nuestro [posicionamiento multilingüe](/es/services/posicionamiento-multilingue/).
 
 ### Qué plugin multilingüe para WordPress
 
-WPML es nuestra opción por defecto: el más completo para el SEO, el más exigente con el alojamiento, con una licencia que hay que renovar. Polylang encaja con un presupuesto más ajustado y una estructura sencilla. TranslatePress sirve a un equipo editorial que prefiere traducir directamente en la página, viéndola cambiar. Shopify y Webflow tienen sus propias soluciones multilingües, y también trabajamos con ellas. La elección es duradera, porque el contenido queda almacenado a la manera del plugin: la decidimos contigo, a partir de cómo publicas. Joomla y Drupal también gestionan muy bien el multilingüismo, cada uno a su manera, y premian igualmente un modelo de contenido fijado antes de traducir.
+Elegimos contigo el plugin multilingüe, a partir de cómo publicas, porque el contenido queda almacenado a la manera del plugin. WPML es nuestra opción por defecto: el más completo para el SEO, el más exigente con el alojamiento, con una licencia que se renueva. Polylang encaja con un presupuesto más ajustado y una estructura sencilla. TranslatePress sirve a un equipo editorial que prefiere traducir directamente en la página, viéndola cambiar. Trabajamos también con las soluciones multilingües propias de Shopify y Webflow, y con Joomla y Drupal, que gestionan muy bien el multilingüismo y piden igualmente un modelo de contenido fijado antes de traducir.
 
 ### Diseños que acogen el texto más largo
 
-El alemán suele pedir un tercio más de espacio que un texto de origen en inglés, en botones, menús y títulos. Probamos el diseño con el texto real donde importa: la navegación, la llamada a la acción, la tabla de precios. Los idiomas que se escriben de derecha a izquierda, como el árabe, invierten todo el diseño, y la codificación de caracteres se comprueba en los formularios, el buscador y todo lo que toca una base de datos.
+El alemán suele pedir un tercio más de espacio que un texto de origen en inglés, en botones, menús y títulos, y ajustamos el diseño para acogerlo. Lo probamos con el texto real donde importa: la navegación, la llamada a la acción, la tabla de precios. Para los idiomas que se escriben de derecha a izquierda, como el árabe, invertimos todo el diseño, y comprobamos la codificación de caracteres en los formularios, el buscador y todo lo que toca una base de datos.
 
-## Una tienda se localiza hasta el pedido
+## Tu tienda localizada hasta el pedido
 
-Las fichas de producto son la mitad visible del trabajo. La otra mitad hace subir la conversión: la moneda mostrada, un precio escrito como lo escribe el país, los medios de pago ofrecidos y una dirección introducida en formato local. Un comprador que encuentra su medio de pago habitual en el momento de pagar llega más a menudo hasta el final.
+Localizamos las fichas de producto y, con ellas, lo que hace subir la conversión: la moneda mostrada, un precio escrito como lo escribe el país, los medios de pago ofrecidos y una dirección introducida en formato local. Así tu comprador encuentra su medio de pago habitual en el momento de pagar y llega más a menudo hasta el final.
 
-WooCommerce, Shopify y Magento exponen estos ajustes cada uno a su manera. Los configuramos plataforma por plataforma, hasta que el último paso parezca tan local como el primero.
+Configuramos estos ajustes en WooCommerce, Shopify y Magento, plataforma por plataforma, hasta que el último paso parezca tan local como el primero.
 
 ## Pruebas antes de la puesta en marcha
 
@@ -72,9 +74,15 @@ Antes del lanzamiento, revisamos cada elemento de interfaz, formulario, menú, s
 
 Cada punto hallado entra en un informe de pruebas, en el momento en que se corrige más rápido, mucho antes de llegar a tu servicio de atención al cliente.
 
-## Cómo trabajamos
+## Cómo trabajamos la traducción de tu web en Valencia
 
-Empezamos con una auditoría gratuita de 20 minutos de la localización de un mercado: lo que ve un visitante local, lo que le tranquiliza, lo que le decide a la hora de pagar. Después recibes un alcance escrito para el primer trimestre. La traducción y la redacción se presupuestan aparte, como un encargo, idioma por idioma, y el trabajo sigue mes a mes; el detalle figura en [nuestros precios](/es/precios/).
+1. **Auditoría gratuita de 20 minutos.** Revisamos la localización de un mercado y te mostramos dónde necesitan más adaptación el texto, los precios, el pago y el diseño: lo que ve un visitante local, lo que le tranquiliza y lo que le decide a la hora de pagar.
+2. **Alcance por escrito.** Tras la primera llamada recibes las páginas, los mercados y lo que entregamos, para que sepas exactamente qué localizamos y qué configuramos.
+3. **Elección y configuración del plugin.** Elegimos el plugin multilingüe que encaja con tu web y tu equipo, entre WPML, Polylang, TranslatePress o Weglot, o trabajamos en Shopify o Webflow, y lo configuramos idioma por idioma.
+4. **Texto, precios y pago localizados.** Adaptamos el texto, la moneda, los medios de pago y el proceso de pago en cada mercado, y ajustamos el diseño para que el texto más largo quepa en botones, menús y títulos.
+5. **Pruebas antes del lanzamiento.** Probamos cada idioma en pantalla, función y encaje, reunimos cada punto en un informe y lo corregimos antes de que tu web localizada salga en línea.
+
+La traducción y la redacción se presupuestan aparte, como un encargo, idioma por idioma; el detalle figura en [nuestros precios](/es/precios/).
 
 Si tus clientes están sobre todo en tu ciudad, la web traducida rinde más junto a nuestro [SEO local](/es/services/seo-local/), que te pone en el mapa de Google. Podemos vernos en nuestra oficina de Calle Rugat 12 - 2, 46021 Valencia, o por videollamada si estás en otra ciudad.
 

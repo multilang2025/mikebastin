@@ -34,9 +34,9 @@ Les textes sont écrits par des natifs. Le français, l’anglais, l’espagnol 
 
 Les décisions qui coûtent cher à défaire plus tard sont prises au début : la structure du domaine, la carte des versions linguistiques et l’ordre d’entrée des marchés. Elles font la valeur d’un accompagnement en SEO multilingue.
 
-## Dans quel ordre ouvrir vos marchés
+## L’ordre dans lequel nous ouvrons vos marchés
 
-Quatre marchés menés à fond rapportent davantage que neuf lancés ensemble, parce que chacun reçoit la profondeur qu’il faut pour se positionner.
+Nous menons quatre marchés à fond là où neuf lancés ensemble se dilueraient : chacun reçoit ainsi la profondeur qu’il faut pour se positionner.
 
 **Des marchés classés sur des données.** Nous partons en général de huit à douze marchés candidats, notés sur cinq critères : le volume de recherche, la difficulté concurrentielle, l’adéquation commerciale avec ce que vous vendez, le coût de la localisation et les contraintes réglementaires propres au pays. Le classement fixe l’ordre sur des éléments mesurés, et place parfois en tête un autre marché que celui que vous attendiez.
 
@@ -54,32 +54,41 @@ Nous appliquons la même discipline à BeTranslated, l’agence de traduction qu
 
 ## Le socle technique qui laisse le contenu se positionner
 
-Ces réglages décident de la page que Google montre à chaque pays.
+Nous réglons ce qui décide de la page que Google montre à chaque pays.
 
-**Les balises hreflang.** Chaque page porte ses balises hreflang, page d’accueil comprise, avec le bon code de langue et un lien de retour vers chacune de ses versions. Validées marché par marché, elles envoient le visiteur belge sur la version belge et gardent une Search Console propre. Les balises hreflang cassées ou circulaires sont ce que nos audits relèvent le plus souvent, et leur correction profite à tout le reste du travail.
+**Les balises hreflang.** Nous posons sur chaque page, page d’accueil comprise, ses balises hreflang avec le bon code de langue et un lien de retour vers chacune de ses versions. Validées marché par marché, elles envoient le visiteur belge sur la version belge et gardent une Search Console propre. Les balises hreflang cassées ou circulaires sont ce que nos audits relèvent le plus souvent, et leur correction profite à tout le reste du travail.
 
-**Sitemap, adresses et balisage.** Un sitemap découpé par langue, des adresses de pages traduites dans chaque langue et un balisage schema (LocalBusiness, Service, Article, FAQ) localisé par pays et validé avec l’outil de test des résultats enrichis de Google.
+**Sitemap, adresses et balisage.** Nous livrons un sitemap découpé par langue, des adresses de pages traduites dans chaque langue et un balisage schema (LocalBusiness, Service, Article, FAQ) localisé par pays et validé avec l’outil de test des résultats enrichis de Google.
 
-**Sous-répertoire, sous-domaine ou domaine national.** Le domaine national est le signal local le plus fort et le plus coûteux à entretenir. Le sous-répertoire garde l’autorité au même endroit et convient à la plupart des entreprises qui ajoutent des marchés à une activité existante. Nous tranchons une fois, au début.
+**Sous-répertoire, sous-domaine ou domaine national.** Nous tranchons avec vous, une fois, au début. Le domaine national est le signal local le plus fort et le plus coûteux à entretenir ; le sous-répertoire garde l’autorité au même endroit et convient à la plupart des entreprises qui ajoutent des marchés à une activité existante.
 
-**Le choix de la langue laissé au visiteur.** La géolocalisation par adresse IP sert à suggérer une version ; le visiteur choisit. Toutes les versions restent visibles pour Google et accessibles à celui qui voyage, ce qui concerne une bonne part d’une clientèle professionnelle.
+**Le choix de la langue laissé au visiteur.** Nous utilisons la géolocalisation par adresse IP pour suggérer une version, et le visiteur choisit. Toutes les versions restent visibles pour Google et accessibles à celui qui voyage, ce qui concerne une bonne part d’une clientèle professionnelle.
 
 **Votre CMS.** Nous travaillons le plus souvent sur WordPress avec WPML, et aussi avec Polylang, TranslatePress ou Weglot. Sur Shopify, Webflow ou un développement propre, nous appliquons la stratégie avec votre équipe technique.
 
 ## Des liens et des citations gagnés pays par pays
 
-Un lien venu de la presse locale, d’une association professionnelle ou d’un annuaire régional du pays cible pèse bien davantage qu’un lien international générique : en recherche internationale, la pertinence est géographique autant que thématique. Chaque version linguistique gagne donc ses propres liens dans son propre pays.
+Nous faisons gagner à chaque version linguistique ses propres liens dans son propre pays : la presse locale, une association professionnelle ou un annuaire régional du pays cible pèsent bien davantage qu’un lien international générique, car en recherche internationale la pertinence est géographique autant que thématique.
 
-La même règle vaut pour les réponses de ChatGPT, Claude, Perplexity et des AI Overviews. Les sources citées changent selon le pays et la langue, et chaque marché a sa propre place à conquérir.
+Nous suivons de la même façon les réponses de ChatGPT, Claude, Perplexity et des AI Overviews. Les sources citées changent selon le pays et la langue, et nous travaillons la place de chaque marché.
 
-## Qui pilote la mission, et comment
+## Qui pilote la mission
 
 Mike Bastin, cofondateur de BeTranslated, travaille le SEO et la traduction depuis plus de deux décennies. Il parle couramment le français, l’anglais, l’espagnol et le néerlandais, avec assez d’allemand et d’italien pour piloter des projets SEO dans ces deux langues. Les textes commerciaux restent confiés à des rédacteurs natifs.
-
-Chaque mission suit le même rythme : une consultation gratuite sur vos marchés, un périmètre écrit pour le premier trimestre, une livraison mensuelle marché par marché, puis un rapport mensuel par langue sur les positions, le trafic et les demandes reçues, avec les recommandations du mois suivant. La rédaction et la traduction font l’objet d’un devis pour le travail lui-même ; le détail figure sur la page [nos tarifs](/fr/tarifs/). Pour la vue d’ensemble de notre accompagnement à l’export, voyez notre [SEO international](/fr/services/seo/).
 
 ### Les livrables de la mission
 
 - **Un rapport d’audit** : structure technique, balises hreflang, contenus existants par langue, liens par marché et écarts face à vos concurrents locaux.
 - **Un tableur de mots-clés par marché** : termes principaux et longue traîne, volumes, intention, difficulté, et la page existante ou à créer pour chacun.
 - **Un document de stratégie** : priorités par marché, calendrier éditorial multilingue, plan technique et plan de liens par pays, validé avec vous avant l’exécution.
+
+## Comment se déroule une mission de SEO multilingue
+
+1. **Consultation gratuite.** Nous passons en revue vos marchés et vos langues, et nous vous disons ceux qui ont le plus à vous apporter, avant tout engagement.
+2. **Périmètre écrit.** Vous recevez un périmètre pour le premier trimestre : les marchés dans l’ordre, les pages et les livrables.
+3. **Recherche native par marché.** Nous menons la recherche de chaque marché dans sa langue, nous classons les marchés candidats sur des données et nous fixons la structure du domaine avant la première page.
+4. **Pages natives dans chaque langue.** Nous rédigeons directement le français, l’anglais, l’espagnol et le néerlandais, et nous briefons des rédacteurs natifs du réseau BeTranslated pour l’allemand, l’italien et le portugais, avec le socle technique vérifié langue par langue.
+5. **Rapport mensuel par langue.** Positions, trafic et demandes reçues, marché par marché, avec les recommandations du mois suivant.
+6. **Au mois le mois.** L’engagement court au mois, avec un préavis de part et d’autre, tant que chaque marché rapporte.
+
+La rédaction et la traduction font l’objet d’un devis pour le travail lui-même ; le détail figure sur la page [nos tarifs](/fr/tarifs/). Pour la vue d’ensemble de notre accompagnement à l’export, voyez notre [SEO international](/fr/services/seo/).

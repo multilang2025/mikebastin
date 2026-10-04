@@ -24,46 +24,52 @@ Lo comprobamos con una auditoría SEO de tu web y corregimos lo que lo provoca. 
 <p><strong>¿Quieres que cada versión de tu web llegue a sus propios clientes?</strong> Revisamos cómo se ve tu web en Valencia y en cada uno de tus mercados, y lo ajustamos, idioma por idioma. <a href="/es/contactanos/">Reserva una consulta gratuita</a>.</p>
 </aside>
 
-## Los ajustes que abren la visibilidad de una web multilingüe
+## Qué incluye nuestro servicio de SEO técnico en Valencia
 
-Configura las etiquetas hreflang: cada página lleva una, con el código de idioma correcto y un enlace de vuelta, para que el visitante francés llegue a la versión francesa y el visitante español a la española. Dejarlas bien desde el principio lleva menos tiempo que desenredar Search Console más tarde.
+Una auditoría escrita de cada versión de tu web, ordenada por lo que vale cada corrección: hreflang, canónicas, redirecciones, sitemaps, indexación, velocidad de página y datos estructurados, revisados mercado por mercado en Search Console y en un rastreo completo del sitio con Screaming Frog y Ahrefs.
 
-Divide el sitemap por idioma y concentra el presupuesto de rastreo en las páginas que merecen posicionarse: Google indexa entonces una parte mayor de la web. La corrección es estructural y poco vistosa, y conviene hacerla antes de que el tráfico se estanque. Las páginas casi duplicadas se reúnen en una sola, y cada idioma conserva su propia dirección y su propia etiqueta canónica.
+Las correcciones mismas. Las hacemos directamente en tu web, o las redactamos como tareas para tu equipo de desarrollo y comprobamos cada cambio cuando se publica.
+
+Un seguimiento mensual por idioma, para que las páginas nuevas y los cambios del sitio mantengan la configuración intacta, con un informe que muestra cada mercado por separado.
+
+## Dónde gana más una web multilingüe
+
+Versiones que llegan a su propio público. Colocamos las etiquetas hreflang para que cada página nombre a sus versiones hermanas con el código de idioma correcto y un enlace de vuelta, de modo que el visitante francés llega a la página francesa y el español a la española, y Search Console muestra un informe limpio.
+
+Presupuesto de rastreo gastado en las páginas que venden. Dividimos el sitemap por idioma, reunimos en una sola las páginas casi duplicadas, damos a cada idioma su propia dirección y su propia etiqueta canónica, y dirigimos a Google hacia las páginas que merecen posicionarse, para que indexe una parte mayor de lo que cada mercado debería ver.
 
 ### Un rediseño que conserva tus posiciones
 
-Un rediseño o un cambio de CMS conserva el historial de la web cuando cada dirección antigua recibe una redirección 301 hacia la página que le corresponde, y los contenidos que ya se posicionan pasan al sitio nuevo. Establecemos esa correspondencia dirección por dirección e idioma por idioma antes de la puesta en línea, y después seguimos la indexación en Search Console. La auditoría usa Screaming Frog, Ahrefs y Search Console.
+Cuando una web cambia de CMS, de dominio o de estructura de direcciones, conservamos su historial: damos a cada dirección antigua una redirección 301 hacia la página que le corresponde y pasamos al sitio nuevo los contenidos que ya se posicionan. Establecemos esa correspondencia dirección por dirección e idioma por idioma antes de la puesta en línea, y después seguimos la indexación en Search Console.
 
-## Páginas construidas para la intención de búsqueda
+## Cinco trabajos más dentro del mismo servicio
 
-Una lista de palabras clave ordenada por volumen dice qué se escribe; la intención dice quién compra. La investigación útil lee cómo formula la gente su problema, cómo compara las opciones y qué escribe cuando ya ha decidido, y ordena el trabajo por etapa de decisión. Tiene en cuenta también dónde aparece ahora la respuesta: una consulta resuelta en un resumen de IA o directamente en la página de resultados pide un contenido pensado para que lo citen. Elige los términos por intención, porque es la intención la que convierte el tráfico en ventas.
+### Investigación de palabras clave, mercado por mercado
 
-En la página, la estructura va antes que las palabras:
+Investigamos cada mercado en su propio idioma y ordenamos los términos por la etapa de decisión del comprador, desde la primera pregunta hasta la comparación de proveedores. Cada término recibe después una página que trabaja para él. La investigación recoge también dónde aparece ahora la respuesta, resúmenes de IA incluidos, para que las páginas que preparamos puedan citarse allí.
 
-- un plan de palabras clave ligado a una intención real;
-- una jerarquía de títulos que sigue el argumento;
-- HTML semántico;
-- [enlaces internos](/es/herramientas-enlazado-interno/) que apuntan a la página que debe posicionarse;
-- una página lo bastante rápida para que todo lo demás sirva.
+### Trabajo en página sobre las páginas que importan
 
-En una web multilingüe, la mayoría de los problemas vienen de una página que compite con otra por la misma consulta y en el mismo idioma. La solución pasa por la estructura, antes de reescribir cualquier página. El trabajo por mercado sigue en nuestro [posicionamiento multilingüe](/es/services/posicionamiento-multilingue/). Si tus clientes están sobre todo en tu zona, el [SEO local](/es/services/seo-local/) completa la auditoría con tu presencia en el mapa de Google.
+Ajustamos títulos, jerarquía de encabezados, HTML semántico y estructura para que cada página diga a Google y al comprador para qué sirve, y aceleramos las páginas que lo necesitan. Reorganizamos los [enlaces internos](/es/herramientas-enlazado-interno/) para que apunten a la página que debe posicionarse. En una web multilingüe, la mayor parte de la mejora viene de decidir qué página es dueña de cada consulta en cada idioma, y así dos páginas tuyas dejan de repartirse las mismas búsquedas. El trabajo por mercado sigue en nuestro [posicionamiento multilingüe](/es/services/posicionamiento-multilingue/), y si tus clientes están sobre todo en tu zona, el [SEO local](/es/services/seo-local/) completa la auditoría con tu presencia en el mapa de Google.
 
-## Analítica que separa cada mercado
+### Analítica que informa de cada mercado
 
-Configuramos GA4 y Google Tag Manager para que cada evento signifique algo, las conversiones señalen lo que de verdad quieres y el tráfico se divida por mercado. Cada idioma aparece en sus propias cifras. En una tienda online medimos también las ventas, el abandono del carrito y los ingresos por mercado, y montamos informes centrados en los indicadores que usa tu equipo.
+Configuramos GA4 y Google Tag Manager para que cada idioma recoja su propio tráfico y sus propias consultas, con las conversiones definidas como las consultas que quieres de verdad. En una tienda online medimos también las ventas, el abandono del carrito y los ingresos por mercado, y montamos informes centrados en los indicadores que usa tu equipo. Ves qué mercado convierte y cuál sigue creciendo, y el trabajo del mes siguiente se elige a partir de ahí.
 
-Configurada después, la analítica responde a preguntas sobre el mes pasado. Configurada primero, decide qué hacer el mes que viene.
+### Enlaces editoriales en cada mercado
 
-## Enlaces editoriales que aguantan con el tiempo
+Conseguimos enlaces editoriales, presencia en páginas de recursos y artículos como invitado en webs que lee un comprador de tu mercado. Partimos de una auditoría de tu perfil de enlaces y de los enlaces de tus competidores mejor posicionados en cada país, y recuperamos los enlaces rotos hacia tu web. Un enlace alemán procede de una web alemana y uno neerlandés, de una web neerlandesa, y las anclas se leen como escritas por una persona sobre dominios de tu sector, para que cada enlace conserve su valor año tras año.
 
-Enlaces editoriales, presencia en páginas de recursos y artículos como invitado en webs con tráfico real y criterio editorial real. Partimos de una auditoría de tu perfil de enlaces actual y de los enlaces que tienen tus competidores mejor posicionados en cada país, y buscamos también enlaces rotos hacia tu web que se puedan recuperar. Elegimos enlaces ganados en sitios de cada mercado en el que vendes: un enlace alemán procede de una web alemana y uno neerlandés, de una web neerlandesa. Esos enlaces ganados en tu propio mercado son los que siguen sumando con el tiempo.
+### SEO en inglés para cada mercado anglófono
 
-Lo que hace avanzar es la relevancia temática del dominio que enlaza, una diversidad de dominios de referencia construida con regularidad y anclas que se leen como escritas por una persona. Un buen enlace ganado sigue trabajando para ti año tras año.
+El inglés suele ser el mercado de mayor volumen del conjunto, y en Valencia, con su gran población internacional, es también un mercado local. Elegimos la variante que apunta cada página, británica o estadounidense, y ajustamos su ortografía y sus términos a lo que se busca de verdad. Nuestro [SEO en inglés](/es/services/seo-ingles/) parte de esa elección.
 
-## El inglés, un mercado con entidad propia
+## Cómo trabajamos tu SEO técnico en Valencia
 
-Una empresa que cuida sus versiones alemana y francesa gana también al cuidar sus páginas en inglés, que a menudo se quedaron en su primera traducción: el inglés suele ser el mercado de mayor volumen del conjunto. En Valencia, con su gran población internacional, el inglés es también un mercado local. Hay que elegir además una variante, porque el inglés británico y el estadounidense difieren en ortografía, vocabulario y términos que se buscan de verdad, y un texto escrito en una sola variante suena bien para su mercado. Nuestro [SEO en inglés](/es/services/seo-ingles/) parte de esa elección.
+1. **Auditoría gratuita de 20 minutos.** Revisamos tu web en cada uno de sus idiomas y te mostramos dónde están las mayores mejoras, antes de que te comprometas a nada.
+2. **Alcance por escrito.** Las páginas, las correcciones y quién hace cada una, tú o nosotros, ordenadas por lo que vale cada una.
+3. **Las correcciones, de mayor a menor valor.** Hacemos los cambios en tu web o redactamos las tareas para tu equipo de desarrollo, y comprobamos cada uno cuando está publicado.
+4. **Seguimiento mensual por idioma.** Rastreo, indexación y posiciones revisados mercado por mercado, con un informe breve de lo que se ha movido y de lo que viene.
+5. **Mes a mes.** La colaboración es mes a mes, así que el trabajo continúa mientras te rinde.
 
-## Cómo trabajamos
-
-Empezamos con una consulta gratuita sobre tu web y tus mercados, en nuestra oficina de Calle Rugat 12 - 2, 46021 Valencia o por videollamada; también puedes pedir una auditoría gratuita de 20 minutos. Después recibes por escrito el alcance del primer trimestre. La colaboración es mes a mes, y respondemos a cada consulta, normalmente en un día laborable. Para ver el conjunto del servicio, consulta nuestra página de [posicionamiento SEO](/es/services/optimizacion-seo/) y los [precios](/es/precios/).
+Empezamos con una consulta gratuita sobre tu web y tus mercados, en nuestra oficina de Calle Rugat 12 - 2, 46021 Valencia o por videollamada; también puedes pedir una auditoría gratuita de 20 minutos. Después recibes por escrito el alcance del primer trimestre, y respondemos a cada consulta, normalmente en un día laborable. Para ver el conjunto del servicio, consulta nuestra página de [posicionamiento SEO](/es/services/optimizacion-seo/) y los [precios](/es/precios/).

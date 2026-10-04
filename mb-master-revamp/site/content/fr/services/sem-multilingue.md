@@ -34,7 +34,7 @@ Séparer les deux lie notre intérêt au résultat des campagnes.
 
 Ce principe concerne le budget média ; la rédaction et la traduction font l’objet d’un devis pour le travail lui-même.
 
-## Ce que nous faisons pour chaque marché
+## Ce que comprend notre SEM multilingue, marché par marché
 
 - **Une recherche de mots-clés par marché.** L’outil de planification donne les volumes ; l’intention vient de la lecture des résultats de recherche dans le pays visé et de la validation des termes par des locuteurs natifs, avant la première enchère. Chaque variante a sa propre recherche : l’espagnol d’Espagne et celui du Mexique, l’anglais britannique et l’anglais américain, le français de France, de Belgique ou du Canada.
 - **Des campagnes distinctes par marché**, avec leurs propres budgets et stratégies d’enchères, chacune construite pour le marché qu’elle sert.
@@ -52,20 +52,21 @@ Pour un cabinet d’avocats de Valencia, des campagnes de recherche ciblées sur
 
 ## Des comptes par marché, et le payant aux côtés de l’organique
 
-Google évalue la pertinence par compte et par campagne : chaque marché réussit mieux avec un historique qui lui est propre. Découper par langue, et par domaine national quand vous en avez plusieurs, fait que le niveau de qualité de chaque marché se gagne sur ses propres performances. Les rapports y gagnent aussi en clarté : chaque langue affiche son propre retour, et vous déplacez le budget vers celle qui le mérite.
+Nous découpons les comptes par langue, et par domaine national quand vous en avez plusieurs, car Google évalue la pertinence par compte et par campagne : le niveau de qualité de chaque marché se gagne ainsi sur ses propres performances. Les rapports y gagnent en clarté : chaque langue affiche son propre retour, et nous déplaçons le budget vers celle qui le mérite.
 
-Les termes de recherche sont l’endroit où la langue compte le plus. La liste de mots-clés à exclure se construit en lisant ce que les gens ont réellement tapé, et il faut parler la langue couramment pour distinguer une requête prometteuse d’une requête hors sujet.
+Nous lisons les termes de recherche dans la langue elle-même, car c’est là que la langue compte le plus. Nous construisons la liste de mots-clés à exclure à partir de ce que les gens ont réellement tapé, ce qui demande de parler la langue couramment pour distinguer une requête prometteuse d’une requête hors sujet.
 
-Le payant passe en premier quand vous avez besoin de demandes tout de suite, quand l’offre est assez nouvelle pour qu’il vaille la peine de mesurer la demande avant d’investir dans du contenu, ou quand l’organique prendra une bonne partie de l’année à mûrir sur ce marché. L’organique passe en premier quand les clics de votre secteur coûtent plus que ce que le payant peut rapporter, ou quand vos acheteurs se renseignent pendant des mois avant de vous contacter.
+Nous plaçons le payant en premier quand vous avez besoin de demandes tout de suite, quand l’offre est assez nouvelle pour qu’il vaille la peine de mesurer la demande avant d’investir dans du contenu, ou quand l’organique prendra une bonne partie de l’année à mûrir sur ce marché. Nous plaçons l’organique en premier quand les clics de votre secteur coûtent plus que ce que le payant peut rapporter, ou quand vos acheteurs se renseignent pendant des mois avant de vous contacter.
 
-Les deux ensemble restent la réponse la plus courante : le payant prend les requêtes à intention commerciale pendant que le [référencement multilingue](/fr/services/referencement-multilingue/) se construit, puis le budget payant se déplace vers des marchés moins disputés ou des termes hors marque à mesure que l’organique les porte. Les deux partagent un même univers de mots-clés et, quand cela s’y prête, les mêmes pages d’arrivée. Notre [génération de leads](/fr/services/generation-de-leads/) réunit ces deux leviers autour d’un même objectif : des demandes qualifiées, marché par marché.
+Les deux ensemble restent la réponse la plus courante : le payant prend les requêtes à intention commerciale pendant que le [référencement multilingue](/fr/services/referencement-multilingue/) se construit, puis nous déplaçons le budget payant vers des marchés moins disputés ou des termes hors marque à mesure que l’organique les porte. Les deux partagent un même univers de mots-clés et, quand cela s’y prête, les mêmes pages d’arrivée. Notre [génération de leads](/fr/services/generation-de-leads/) réunit ces deux leviers autour d’un même objectif : des demandes qualifiées, marché par marché.
 
-## Comment nous travaillons
+## Comment se déroule une campagne de Google Ads international
 
-1. **Audit.** Nous partons de vos comptes Google Ads et Microsoft Advertising existants quand l’historique de conversions a de la valeur, ou nous en créons de nouveaux. Le livrable : niveau de qualité par groupe d’annonces, taux de conversion par campagne, dépenses à réallouer et opportunités par marché.
+1. **Audit gratuit de 20 minutes.** Nous passons en revue vos comptes Google Ads et Microsoft Advertising, ou vos projets si vous débutez, marché par marché, et nous vous montrons où votre budget rapporterait des demandes le plus vite : niveau de qualité par groupe d’annonces, taux de conversion par campagne, dépenses à réallouer.
 2. **Structure.** Un tableur de mots-clés par marché avec volumes, coûts par clic et intention, la structure de compte recommandée et la définition des conversions à suivre.
 3. **Lancement.** Les annonces rédigées dans chaque langue, les pages d’arrivée, la configuration de GA4 et de Google Tag Manager, et un plan de budget mensuel par marché. Les campagnes démarrent après votre validation.
 4. **Pilotage.** Lecture régulière des termes de recherche, exclusions, tests d’annonces et ajustements d’enchères par segment.
 5. **Rapport mensuel par marché.** Dépense, clics, conversions, coût par demande et recommandations d’allocation pour le mois suivant.
+6. **Au mois le mois.** L’engagement court au mois. Votre budget média va entièrement à Google, Microsoft ou Meta, et le pilotage fait l’objet d’honoraires à part.
 
 Le tarif dépend du nombre de marchés, du budget géré et du périmètre. [Nos tarifs](/fr/tarifs/) détaillent la façon dont nous facturons.

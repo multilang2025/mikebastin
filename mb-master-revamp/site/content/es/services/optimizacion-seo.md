@@ -26,7 +26,7 @@ A esto nos dedicamos desde hace más de dos décadas, medido por las consultas q
 <p><strong>¿Quieres que tu web te traiga más clientes?</strong> Encontramos las palabras que usan tus clientes, en tu ciudad y en cada país donde vendes, y escribimos las páginas que les llevan a contactarte. <a href="/es/contactanos/">Reserva una consulta gratuita</a>.</p>
 </aside>
 
-## Lo que hacemos por tu posicionamiento en cada mercado
+## Qué incluye nuestro posicionamiento SEO en Valencia y en cada mercado
 
 El posicionamiento web se resume en tres tareas, repetidas para tu mercado local y para cada país donde vendes.
 
@@ -46,31 +46,31 @@ Delaguía y Luzón, un despacho de abogados de Valencia, cubre derecho civil, la
 
 BeTranslated, la agencia de traducción con sede en Valencia que dirigimos desde hace veinte años, lleva un sitio por mercado, del .be al .co.uk pasando por el .fr, el .es y el .nl. Cada uno tiene su propia investigación de palabras clave, construida a partir de las búsquedas de su mercado, y compite con sus rivales locales. Aplicamos a nuestros clientes el método aprendido en esos dominios.
 
-## Qué hace que cada comprador llegue a la página correcta
+## Cómo hacemos que cada comprador llegue a la página correcta
 
-Una vez fijada la estrategia, una parte del trabajo es técnica, y es la que permite que el contenido adecuado se posicione.
+Una vez fijada la estrategia, nos ocupamos de la parte técnica, la que permite que el contenido adecuado se posicione.
 
-**La estructura del sitio.** Subdirectorio (/fr/, /de/), subdominio o dominio nacional (.fr, .de): la elección depende de tu presupuesto, de la autoridad que puedes repartir y del peso que tiene una dirección local para tus compradores. Para la mayoría de las empresas que añaden mercados a una actividad existente, el subdirectorio concentra la autoridad en un mismo lugar. Lo decidimos contigo una vez, al principio.
+**La estructura del sitio.** Te recomendamos subdirectorio (/fr/, /de/), subdominio o dominio nacional (.fr, .de) según tu presupuesto, la autoridad que puedes repartir y el peso que tiene una dirección local para tus compradores. Para la mayoría de las empresas que añaden mercados a una actividad existente, el subdirectorio concentra la autoridad en un mismo lugar. Lo decidimos contigo una vez, al principio.
 
 **Las etiquetas hreflang.** Cada página lleva su etiqueta hreflang con el código de idioma correcto y un enlace de vuelta a sus versiones hermanas, portada incluida. El comprador belga llega a la versión belga, el francés a la francesa, y Search Console muestra un informe claro, mercado por mercado.
 
-**Los datos estructurados.** El marcado schema (LocalBusiness, Service, Article, FAQ) se construye para cada idioma y se valida con la prueba de resultados enriquecidos de Google.
+**Los datos estructurados.** Construimos el marcado schema (LocalBusiness, Service, Article, FAQ) para cada idioma y lo validamos con la prueba de resultados enriquecidos de Google.
 
 **Las respuestas de los motores de IA.** ChatGPT, Claude, Perplexity y los AI Overviews de Google responden en el idioma de quien pregunta, y cada uno cita sus propias fuentes según el país. Páginas nativas, enlaces ganados en la prensa y los directorios de cada país y una marca presente en cada idioma te sitúan en esas respuestas, mercado por mercado. Para la parte más técnica tenemos el servicio de [SEO técnico](/es/services/seo-tecnico/).
 
-## Por qué mercado empezar
+## Con qué mercado empezamos tu proyecto
 
-Casi siempre, por el que tienes más cerca: las búsquedas de tu zona, en castellano o en inglés. Para la exportación, por el país donde las cifras ya son más alentadoras: el que envía visitas, donde la competencia resulta asequible y donde tu oferta encaja con lo que se busca. Medimos cada mercado candidato según la demanda, la competencia, el encaje comercial, el coste de la localización y las exigencias normativas, y después los ordenamos.
+Casi siempre, con el que tienes más cerca: las búsquedas de tu zona, en castellano o en inglés. Para la exportación, con el país donde las cifras ya son más alentadoras: el que envía visitas, donde la competencia resulta asequible y donde tu oferta encaja con lo que se busca. Medimos cada mercado candidato según la demanda, la competencia, el encaje comercial, el coste de la localización y las exigencias normativas, y después los ordenamos.
 
-Tres o cuatro mercados trabajados a fondo dan más resultados que nueve lanzados a la vez. Los siguientes llegan cuando los primeros muestran sus resultados. Si ya llevas varios idiomas en paralelo, nuestra página sobre el [SEO multilingüe](/es/services/posicionamiento-multilingue/) detalla cómo ordenamos y dirigimos un programa con varios mercados.
+Trabajamos tres o cuatro mercados a fondo, porque dan más resultados que nueve lanzados a la vez. Los siguientes llegan cuando los primeros muestran sus resultados. Si ya llevas varios idiomas en paralelo, nuestra página sobre el [SEO multilingüe](/es/services/posicionamiento-multilingue/) detalla cómo ordenamos y dirigimos un programa con varios mercados.
 
-## Cómo trabajamos
+## Cómo llevamos tu SEO internacional paso a paso
 
-1. **Una consulta gratuita**, en nuestra oficina o por videollamada, sobre tus mercados, tus idiomas y lo que ya has puesto en marcha. También puedes pedir una auditoría gratuita de 20 minutos.
-2. **Un alcance escrito para el primer trimestre**: las páginas, las palabras clave, los mercados por orden y quién hace qué.
-3. **Una entrega mensual, mercado por mercado**, con textos escritos por nativos y revisados antes de publicar.
-4. **Un informe mensual por idioma**: visitas, posiciones y consultas recibidas, comentados con claridad, con las prioridades del mes siguiente.
-5. **Un compromiso mes a mes**, con preaviso por ambas partes.
+1. **Consulta o auditoría gratuita.** Hablamos de tus mercados, tus idiomas y lo que ya has puesto en marcha, en nuestra oficina o por videollamada; también puedes pedir una auditoría gratuita de 20 minutos.
+2. **Alcance escrito.** Recibes por escrito las páginas, las palabras clave, los mercados por orden y quién hace qué durante el primer trimestre.
+3. **Entrega mensual por mercado.** Cada mes publicamos textos escritos por nativos y revisados antes de salir, mercado por mercado.
+4. **Informe mensual por idioma.** Visitas, posiciones y consultas recibidas, comentados con claridad, con las prioridades del mes siguiente.
+5. **Mes a mes.** El compromiso es mensual, con preaviso por ambas partes.
 
 La redacción y la traducción se presupuestan aparte, como un encargo, a partir de esa consulta. El detalle de nuestra facturación está en la página de [precios](/es/precios/).
 
