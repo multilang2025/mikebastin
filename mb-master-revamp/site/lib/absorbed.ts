@@ -66,10 +66,8 @@ export const ABSORBED_PROSE: Record<string, string[]> = {
   ],
 
   "technical-seo": [
-    "Technical SEO is the part of search that sits fully inside your own control.",
-    "Keyword research comes first, and it means reading what a market actually searches for. On-page work follows from it: titles, headings, internal links and the structure that tells a crawler what a page is for.",
-    "Links still decide a great deal, and they have to be earned per market, since a Spanish page gains most from Spanish links. English is several markets too: the UK, the United States and Ireland behave as three.",
-    "Then measurement, per language from the start, so you can see which language converts and which is collecting traffic so far.",
+    "One engagement covers the technical setup of every language version of your site, plus the keyword research, on-page work, link building, analytics and English-language search that each had a page of their own here.",
+    "Each month you get the fixes made, a report per market and the next fixes in order of what they are worth.",
   ],
 
   "multilingual-content": [

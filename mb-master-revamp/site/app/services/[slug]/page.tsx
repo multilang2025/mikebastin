@@ -230,6 +230,30 @@ export default async function ServicePage({
               How the {headingTerm} engagement runs
             </h2>
           </Reveal>
+          {service.process ? (
+            <ol className="grid gap-px cells-2 sm:grid-cols-2" style={{ background: "var(--rule)" }}>
+              {service.process.map((step, i, all) => (
+                <Reveal key={step.title} i={i}>
+                  <li
+                    className={`band flex h-full items-baseline gap-4 px-7 py-7${
+                      i === all.length - 1 && all.length % 2 === 1 ? " sm:col-span-2" : ""
+                    }`}
+                    style={{ background: "var(--bg)" }}
+                  >
+                    <span className="display shrink-0 text-[.9rem] font-semibold tabular-nums" style={{ color: "var(--berry)" }}>
+                      {String(i + 1).padStart(2, "0")}
+                    </span>
+                    <span className="flex flex-col gap-2">
+                      <span className="text-[1.05rem] font-semibold leading-[1.35]">{step.title}</span>
+                      <span className="text-[.98rem] leading-[1.55]" style={{ color: "var(--dim)" }}>
+                        {step.text}
+                      </span>
+                    </span>
+                  </li>
+                </Reveal>
+              ))}
+            </ol>
+          ) : (
           <ol className="grid gap-px cells-2 sm:grid-cols-2" style={{ background: "var(--rule)" }}>
             {service.sections.map((s, i) => (
               <Reveal key={s} i={i}>
@@ -254,6 +278,7 @@ export default async function ServicePage({
               </Reveal>
             ))}
           </ol>
+          )}
         </div>
       </section>
 

@@ -107,6 +107,13 @@ export type Service = {
   /** Section headings, from the refreshed source pages where they exist. */
   sections: string[];
   /**
+   * The engagement band as real steps, each with what happens in it. Where
+   * set, it replaces the bare `sections` list, which printed six titles with
+   * nothing under them (owner, 4 Oct 2026, on technical SEO: "reads like a
+   * how to, and not services we provide").
+   */
+  process?: { title: string; text: string }[];
+  /**
    * Real on-page prose: 2 to 4 sections, each a heading plus one to three
    * paragraphs, adapted from the harvested legacy pages this service
    * absorbs (see `absorbs`) rather than copied verbatim, for the same
@@ -1594,66 +1601,90 @@ export const SERVICES: Service[] = [
     cardTitle: "Technical SEO for multilingual websites",
     inline: "technical SEO",
     h1: "Technical SEO services for multilingual websites",
-    subhead: "The work that lets each language version win its own buyers.",
+    subhead: "We audit, fix and monitor the setup behind every language version of your site, so each one reaches the buyers searching in it.",
     cluster: "Supporting",
     angle: "The foundations every language ranks on",
-    lede: "Your French pages and your German pages should add up, each winning its own buyers. We check how they work together on your site, and set them up so each one adds to the total.",
+    lede: "We work out what each language version of your site needs to reach its buyers, put the fixes in ourselves or brief your developers, and check every month that they hold.",
     metaTitle: "Technical SEO services for multilingual websites",
-    metaDescription: "Make every language version of your site add up, each winning its own buyers. See how we check the setup on your site, and what it takes to get it right.",
+    metaDescription: "Technical SEO for multilingual websites: we audit every language version, make the fixes with your team and report per market every month.",
     sections: ["What lets a multilingual site rank in every language", ...ENGAGEMENT],
+    process: [
+      {
+        title: "A free 20-minute audit",
+        text: "We look at your site in each of its languages and show you where the biggest gains sit, before you commit to anything.",
+      },
+      {
+        title: "A written scope",
+        text: "The pages, the fixes and who makes each one, you or us, in order of what each is worth.",
+      },
+      {
+        title: "The fixes, highest value first",
+        text: "We make the changes on your site or write the tickets your developers work from, and check each one once it is live.",
+      },
+      {
+        title: "Monthly monitoring per language",
+        text: "Crawl, indexation and rankings checked market by market, with a short report on what moved and what comes next.",
+      },
+      {
+        title: "Month to month",
+        text: "Engagements run month to month, so the work carries on for as long as it pays.",
+      },
+    ],
     body: [
       {
-        heading: "What lifts a multilingual site's visibility",
+        heading: "What you get from a technical SEO engagement",
         paragraphs: [
-          "Hreflang tags present on every page, pointing back to each other and carrying the right language code, send a French visitor to the French version and a Spanish visitor to the Spanish one, and give Search Console a clean report.",
-          "A sitemap split by language, thin near-duplicate pages consolidated, and crawl budget spent on the pages actually worth ranking let Google index far more of a multilingual site.",
+          "A written audit of every language version, ranked by what each fix is worth: hreflang, canonicals, redirects, sitemaps, indexation, page speed and structured data, checked market by market in Search Console and in a full crawl of the site.",
+          "The fixes themselves. We make them directly on WordPress with WPML, Polylang, TranslatePress or Weglot, and on Shopify or Webflow, or we brief your developers and check each change once it ships.",
+          "Monitoring every month, per language, so new pages and site changes keep the setup intact, with a report that shows each market on its own.",
         ],
       },
       {
-        heading: "The unglamorous work underneath the rankings",
+        heading: "Where multilingual sites gain the most",
         paragraphs: [
-          "On-page work aligns headers, internal linking and semantic HTML with what people search for.",
-          "Links count too: a steady spread of relevant referring domains builds more over time than any single placement.",
+          "Language versions that reach their own audience. We set hreflang tags so every page names its siblings with the right language and country codes, which sends a French buyer to the French page and gives Search Console a clean report.",
+          "Index space spent on the pages that sell. We split sitemaps by language, merge thin near-duplicates and point crawlers at the pages worth ranking, so Google indexes more of what each market should see.",
+          "Site moves that keep their rankings. When a site changes platform, domain or URL structure, we map every old address to its new one and check the redirects before and after launch.",
+          "We run the same setup across four languages on a headless WordPress, WPML and WooCommerce build for Century 21 Perdomo, and across the regional domains of BeTranslated, each with its own sitemaps and hreflang groups.",
         ],
       },
     ],
-    expandablesHeading: "The five jobs technical SEO holds together",
+    expandablesHeading: "Five more jobs inside the same engagement",
     expandablesLede:
-      "Keyword research, on-page work, analytics, English-language search and link building.",
+      "Keyword research, on-page work, analytics, link building and English-language search, run alongside the technical work.",
     expandables: [
       {
-        q: "Keyword research measures demand",
+        q: "Keyword research, market by market",
         a: [
-          "A list of terms sorted by volume tells you what is typed; the useful version tells you who is buying. It reads how people phrase the problem, how they compare options and what they type once they have decided, and sorts the work by decision stage.",
-          "It also has to account for where the answer appears now. A query that resolves in an AI summary or a zero-click result needs content shaped to be quoted.",
+          "We research each market in its own language and sort the terms by the stage a buyer is at, from first question to ready to compare suppliers. Each term then gets one page working for it.",
+          "The research also covers where answers now appear, AI summaries included, so the pages we shape can be quoted there.",
         ],
       },
       {
-        q: "On-page work is structure before it is wording",
+        q: "On-page work on the pages that matter",
         a: [
-          "Keyword mapping tied to real intent, a header hierarchy that reflects the argument, semantic HTML, internal links that point at the page that should actually rank, and a page fast enough for all of the rest to count.",
-          "Most on-page fixes on a multilingual site settle which of two pages competing for the same query in the same language should rank, a structural decision that goes further than rewriting either page.",
+          "We set titles, headings, internal links and page structure so each page tells Google, and a buyer, what it is for, and we speed up the pages that need it.",
+          "On a multilingual site most of the gain comes from settling which page owns a query in each language, so two of your own pages stop splitting the same searches.",
         ],
       },
       {
-        q: "Analytics is the part that proves the rest",
+        q: "Analytics that reports each market",
         a: [
-          "GA4 and Google Tag Manager configured so events mean something, conversions defined as the thing you actually want, and traffic split by market so each language shows its own numbers.",
-          "Set up after the fact, it answers questions about last month. Set up first, it decides what to do next month.",
+          "We set up GA4 and Google Tag Manager so each language reports its own traffic and enquiries, with conversions defined as the enquiries you actually want.",
+          "You see which market converts and which is still building, and the next month's work is chosen from that.",
         ],
       },
       {
-        q: "Link building that keeps its value",
+        q: "Link building per market",
         a: [
-          "Editorial links, resource page placements and guest posts on sites with real traffic and real editorial standards. Every link is earned on its merits, from sites a buyer in your market would read, so each one keeps its value over time.",
-          "What moves the needle is the topical relevance of the linking domain, a steady spread of referring domains, and anchor text that reads like something a person wrote.",
+          "We earn editorial links, resource page placements and guest posts on sites a buyer in your market reads, per language, since a Spanish page gains most from Spanish links.",
+          "Anchor text reads like a person wrote it and the referring sites are relevant to your trade, so every link keeps its value.",
         ],
       },
       {
-        q: "English is a market too, and often the biggest one",
+        q: "English SEO for each English market",
         a: [
-          "A company running French, German and Spanish properly often has English pages due a revisit, and English is frequently the highest-volume market of the set.",
-          "It also has to pick a variant. British and American English differ in spelling, vocabulary and the terms people actually search with.",
+          "English is often your largest market, and the UK, the United States and Ireland search as three. We choose the variant each page targets and match its spelling and terms to the searches.",
         ],
       },
     ],
