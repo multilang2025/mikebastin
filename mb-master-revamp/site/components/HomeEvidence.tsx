@@ -1,6 +1,6 @@
 import Link from "next/link";
+import Image from "next/image";
 import Reveal from "@/components/Reveal";
-import Spread from "@/components/Spread";
 import { PROJECTS } from "@/lib/projects";
 import { PROJECTS_ES, PROJECTS_FR } from "@/lib/projects-locale";
 import { CASE_SLUGS, PROJECTS_EVIDENCE } from "@/lib/home-evidence";
@@ -43,7 +43,7 @@ function formatCount(raw: string, locale: "en" | "fr" | "es") {
 /**
  * The evidence block every homepage carries straight after the hero
  * (declaudify brief, owner, 3 Oct 2026): three dated Search Console figures,
- * then three full cases, instead of all eight spreads further down.
+ * then three compact case cards, instead of full spreads.
  */
 export default function HomeEvidence({ locale = "en", band = "b" }: { locale?: "en" | "fr" | "es"; band?: "a" | "b" }) {
   const t = T[locale];
@@ -76,10 +76,69 @@ export default function HomeEvidence({ locale = "en", band = "b" }: { locale?: "
             {t.source}
           </p>
         </Reveal>
-        <div>
-          {cases.map((p, i) => (
-            <Spread key={p.domain} d={p} flip={i % 2 === 1} copy={copy ? copy[p.slug] : undefined} numeral={["I", "II", "III"][i]} />
-          ))}
+        <div className="grid gap-5 md:grid-cols-3">
+          {cases.map((p, i) => {
+            const localized = copy?.[p.slug];
+            return (
+              <Reveal key={p.domain} i={i}>
+                <article
+                  className="flex h-full flex-col overflow-hidden rounded-md border"
+                  style={{ borderColor: "var(--rule)", background: "var(--shade)" }}
+                >
+                  <div className="relative aspect-[16/9] overflow-hidden">
+                    {p.shot ? (
+                      <Image
+                        src={p.shot.replace(".webp", "-800.webp")}
+                        sizes="(min-width: 768px) 33vw, 100vw"
+                        width={800}
+                        height={640}
+                        alt={localized?.alt ?? `The ${p.name} website on desktop and mobile`}
+                        loading="lazy"
+                        unoptimized
+                        className="h-full w-full object-cover object-top"
+                      />
+                    ) : (
+                      <div className="grid h-full place-items-center" style={{ background: "var(--deep)", color: "var(--bg)" }}>
+                        {p.domain}
+                      </div>
+                    )}
+                  </div>
+                  <div className="flex flex-1 flex-col p-5 sm:p-6">
+                    <p className="eyebrow mb-2">{localized?.angle ?? p.angle}</p>
+                    <h3 className="mb-3 text-[1.25rem] font-semibold leading-[1.15]" style={{ color: "var(--berry)" }}>
+                      {localized ? (
+                        p.name
+                      ) : (
+                        <Link href={`/projects/${p.slug}/`} className="transition-colors hover:opacity-75">
+                          {p.name}
+                        </Link>
+                      )}
+                    </h3>
+                    <p className="mb-5 text-[.88rem] leading-[1.55]" style={{ color: "var(--dim)" }}>
+                      {localized?.body ?? p.body}
+                    </p>
+                    <dl className="mt-auto flex flex-wrap gap-x-6 gap-y-3 border-t pt-4" style={{ borderColor: "var(--rule)" }}>
+                      {(localized?.metrics ?? p.metrics).slice(0, 2).map((metric) => (
+                        <div key={metric.k}>
+                          <dt className="display text-[1.15rem] font-semibold leading-none" style={{ color: "var(--berry)" }}>
+                            {metric.v}
+                          </dt>
+                          <dd className="mt-1 text-[.65rem] uppercase tracking-[.08em]" style={{ color: "var(--dim)" }}>
+                            {metric.k}
+                          </dd>
+                        </div>
+                      ))}
+                    </dl>
+                    {!localized && (
+                      <Link href={`/projects/${p.slug}/`} className="ulink mt-4 inline-block text-[.85rem] font-medium" style={{ color: "var(--berry)" }}>
+                        Read the case study
+                      </Link>
+                    )}
+                  </div>
+                </article>
+              </Reveal>
+            );
+          })}
         </div>
         {t.all && (
           <Reveal>
