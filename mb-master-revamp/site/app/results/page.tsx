@@ -13,8 +13,8 @@ import HeroArtSlot from "@/components/HeroArtSlot";
 // Owner, 2 Oct 2026: the page used to show this site's own rebuild (its own
 // Search Console and its own 43-to-19 service merge) under a heading that
 // promised client engagements. It now carries the sites we run search for,
-// from the same live Search Console figures the case studies already publish
-// (lib/projects.ts, May to July 2026, owner-approved to name). Owned
+// as totals from the live Search Console figures (lib/projects.ts, May to July
+// 2026), with a plain-language result per client and no client's own numbers. Owned
 // properties are labelled as ours rather than passed off as clients.
 const OWNED = new Set(["valenciamove", "betranslated", "matosurf"]);
 

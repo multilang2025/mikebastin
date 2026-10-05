@@ -27,11 +27,11 @@ export const PROJECTS_FR: Record<string, ProjectCopy> = {
   },
   globaprom: {
     angle: "Logiciels conçus avec l’IA",
-    body: "Périmètre fixe, prix fixe, livraison en quelques semaines, multilingue dès la première ligne de code. Le portail de suivi des expéditions a libéré environ trois heures par jour de relances pour un transitaire.",
+    body: "Périmètre fixe, prix fixe, livraison en quelques semaines, multilingue dès la première ligne de code. Le portail de suivi des expéditions a retiré les relances de statut du quotidien d’un transitaire.",
     services: ["Logiciel IA", "Multilingue dès la conception", "Périmètre et prix fixes"],
     metrics: [
-      { v: `3${N}h/jour`, k: "Gagnées sur le suivi" },
-      { v: `10${N}h/sem.`, k: "Sur les rapprochements" },
+      { v: "Fixe", k: "Périmètre et prix" },
+      { v: "Semaines", k: "De livraison" },
     ],
     alt: "Le site Globaprom sur ordinateur et sur mobile",
   },
@@ -110,11 +110,11 @@ export const PROJECTS_ES: Record<string, ProjectCopy> = {
   },
   globaprom: {
     angle: "Software propio con IA",
-    body: "Alcance cerrado, precio cerrado, entrega en semanas, multilingüe desde la primera línea de código. El portal de seguimiento de envíos ahorró unas tres horas diarias de llamadas de estado a un transitario.",
+    body: "Alcance cerrado, precio cerrado, entrega en semanas, multilingüe desde la primera línea de código. El portal de seguimiento de envíos quitó las llamadas de estado del día a día de un transitario.",
     services: ["Software con IA", "Multilingüe desde el diseño", "Alcance y precio cerrados"],
     metrics: [
-      { v: "3 h/día", k: "Ahorradas en seguimiento" },
-      { v: "10 h/sem.", k: "En conciliación" },
+      { v: "Cerrado", k: "Alcance y precio" },
+      { v: "Semanas", k: "De entrega" },
     ],
     alt: "La web de Globaprom en ordenador y en móvil",
   },

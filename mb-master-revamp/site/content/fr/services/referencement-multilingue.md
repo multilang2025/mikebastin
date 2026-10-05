@@ -46,7 +46,7 @@ Nous menons quatre marchés à fond là où neuf lancés ensemble se dilueraient
 
 ## Quatre langues tenues à jour chaque semaine
 
-Century 21 Perdomo, une agence immobilière en République dominicaine, publie ses biens en anglais, en français, en espagnol et en allemand, sur un WordPress headless avec WPML et WooCommerce, le site et son suivi étant construits par Globaprom. Les annonces changent chaque semaine : un bien se vend, un prix bouge, un statut change, et chaque modification doit arriver dans les quatre langues en même temps. Nous menons le SEO langue par langue, à partir des recherches propres à chaque marché. De mai à juillet 2026, le site a reçu 9 944 clics et 461 231 impressions dans Google.
+Century 21 Perdomo, une agence immobilière en République dominicaine, publie ses biens en anglais, en français, en espagnol et en allemand, sur un WordPress headless avec WPML et WooCommerce, le site et son suivi étant construits par Globaprom. Les annonces changent chaque semaine : un bien se vend, un prix bouge, un statut change, et chaque modification doit arriver dans les quatre langues en même temps. Nous menons le SEO langue par langue, à partir des recherches propres à chaque marché.
 
 > Source : Google Search Console de c21perdomo.com, mai à juillet 2026.
 

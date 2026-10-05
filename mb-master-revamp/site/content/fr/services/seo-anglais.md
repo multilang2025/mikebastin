@@ -39,7 +39,7 @@ Quand les États-Unis entrent dans votre projet, ils reçoivent leur propre vers
 
 ## Des sites en anglais que nous menons
 
-Pour TX International Freight, un transitaire de Houston, nous menons le SEO technique et le contenu anglais. Les acheteurs du fret industriel cherchent avec le vocabulaire de leur métier : la recherche de mots-clés est partie de ce vocabulaire, appris auprès de la profession. Le site est présent dans le pack local de Houston sur ces recherches, et la Search Console lui compte 764 222 impressions et 2 616 clics de mai à juillet 2026.
+Pour TX International Freight, un transitaire de Houston, nous menons le SEO technique et le contenu anglais. Les acheteurs du fret industriel cherchent avec le vocabulaire de leur métier : la recherche de mots-clés est partie de ce vocabulaire, appris auprès de la profession. Le site est présent dans le pack local de Houston sur ces recherches.
 
 > Source : Google Search Console de txintlfreight.com, mai à juillet 2026.
 

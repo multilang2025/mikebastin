@@ -39,7 +39,7 @@ Respondemos a cada solicitud, por lo general en un día laborable.
 
 ## Un despacho de abogados que trabaja en dos sistemas jurídicos
 
-Delaguía y Luzón es un despacho de abogados de Valencia que trabaja en derecho civil, laboral, de extranjería y fiscal en España y Francia, en cuatro idiomas: español, francés, inglés y ruso. Un mismo documento tiene que sostenerse a veces en dos sistemas jurídicos a la vez. Su web, que recoge esos contenidos jurídicos traducidos, obtuvo 38.476 clics con 2.399.567 impresiones en Google entre mayo y julio de 2026, con una posición media de 9,4.
+Delaguía y Luzón es un despacho de abogados de Valencia que trabaja en derecho civil, laboral, de extranjería y fiscal en España y Francia, en cuatro idiomas: español, francés, inglés y ruso. Un mismo documento tiene que sostenerse a veces en dos sistemas jurídicos a la vez. Su web recoge esos contenidos jurídicos traducidos.
 
 Un abogado que presentará la traducción ante un tribunal o un cliente es exactamente el lector para el que trabaja esta red, y su sitio refleja el nivel de exigencia que aplicamos también a tus documentos.
 

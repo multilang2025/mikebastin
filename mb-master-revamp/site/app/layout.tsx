@@ -1,3 +1,4 @@
+import { HOME_GRAPHICS } from "@/lib/home-graphics";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
@@ -104,7 +105,7 @@ export default function RootLayout({
     // set in globals.css during navigation, so every route change animated
     // from the old scroll position up to the top before the page showed.
     // The attribute restores the instant jump on navigation only.
-    <html lang="en" data-scroll-behavior="smooth" suppressHydrationWarning>
+    <html lang="en" data-scroll-behavior="smooth" data-loop={HOME_GRAPHICS.loopingMotion ? undefined : "off"} suppressHydrationWarning>
       <head>
         <script dangerouslySetInnerHTML={{ __html: noFlash }} />
         <script dangerouslySetInnerHTML={{ __html: consented }} />

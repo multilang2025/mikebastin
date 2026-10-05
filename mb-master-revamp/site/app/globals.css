@@ -1137,3 +1137,11 @@ main { overflow-wrap: break-word; }
   .cells-3 > :last-child:nth-child(3n+2),
   .cells-lg3 > :last-child:nth-child(3n+2) { grid-column: span 2; }
 }
+
+/* lib/home-graphics.ts loopingMotion: false (declaudify brief, 3 Oct 2026):
+   entrances play once, nothing moves endlessly. */
+html[data-loop="off"] .hero-portrait-bubble { animation: hero-bubble-enter .8s cubic-bezier(.22,.7,.28,1) .12s both; }
+html[data-loop="off"] .hero-chart-bubble { animation: hero-bubble-enter .8s cubic-bezier(.22,.7,.28,1) .82s both; }
+html[data-loop="off"] .market-flow-art,
+html[data-loop="off"] .market-flow-path,
+html[data-loop="off"] .market-node { animation: none; }

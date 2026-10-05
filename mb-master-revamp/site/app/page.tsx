@@ -8,6 +8,7 @@ import Testimonials from "@/components/Testimonials";
 import SiteFooter from "@/components/SiteFooter";
 import MarketFlowGraphic from "@/components/MarketFlowGraphic";
 import BastinIdeasGraphic from "@/components/BastinIdeasGraphic";
+import { HOME_GRAPHICS } from "@/lib/home-graphics";
 import { SITE_URL } from "@/lib/schema";
 import { enLanguages } from "@/lib/fr-pages";
 
@@ -297,7 +298,7 @@ export default function Home() {
               <Link href="/how-i-work/" className="ulink" style={{ color: "var(--berry)" }}>
                 See how the engagement is scoped and billed
               </Link>
-              {" "}— including what happens from the first call to monthly reporting.
+              {" "}and what happens from the first call to monthly reporting.
             </p>
           </Reveal>
         </div>
@@ -313,7 +314,7 @@ export default function Home() {
             </h2>
           </Reveal>
 
-          <div className="grid items-center gap-12 lg:grid-cols-[1fr_1fr]">
+          <div className={`grid items-center gap-12${HOME_GRAPHICS.marketFlow ? " lg:grid-cols-[1fr_1fr]" : ""}`}>
             <div className="grid max-w-[56ch] gap-8">
               {WHY_IT_WORKS.map((w, i) => (
                 <Reveal key={w.title} i={i}>
@@ -326,9 +327,11 @@ export default function Home() {
                 </Reveal>
               ))}
             </div>
-            <Reveal i={1}>
-              <MarketFlowGraphic />
-            </Reveal>
+            {HOME_GRAPHICS.marketFlow && (
+              <Reveal i={1}>
+                <MarketFlowGraphic />
+              </Reveal>
+            )}
           </div>
         </div>
       </section>
@@ -363,8 +366,8 @@ export default function Home() {
           </Reveal>
 
           <div className="relative">
-            <BastinIdeasGraphic />
-            <div className="flex flex-col pl-14 pr-20" style={{ borderTop: "1px solid var(--rule)" }}>
+            {HOME_GRAPHICS.bastinTrail && <BastinIdeasGraphic />}
+            <div className={`flex flex-col${HOME_GRAPHICS.bastinTrail ? " pl-14 pr-20" : ""}`} style={{ borderTop: "1px solid var(--rule)" }}>
               {BASTIN.map((row, i) => {
                 const body = (
                   <>

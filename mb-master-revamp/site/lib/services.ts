@@ -448,7 +448,7 @@ export const SERVICES: Service[] = [
         heading: "Three cases where the multilingual scope was the whole challenge",
         paragraphs: [
           "BeTranslated, the translation agency we have run for twenty years, runs twelve country-specific domains with WPML across all of them, cross-domain hreflang, native content per market from the in-house translator team and schema localized per country. The result has been consistent organic ranking across several European markets and AI citations in each target language for translation services queries.",
-          "Century 21 Perdomo sells Dominican real estate in English, French, Spanish and German on a headless WordPress, WPML and WooCommerce build, with every locale researched from its own market's searches. Between May and July 2026 it drew 9,944 clicks from 461,231 Google impressions.",
+          "Century 21 Perdomo sells Dominican real estate in English, French, Spanish and German on a headless WordPress, WPML and WooCommerce build, with every locale researched from its own market's searches.",
           "A Valencia law firm working in Spanish, French, English and Russian runs WPML across all four, with LegalService schema localized per language and attorney bios adapted to each audience. It now gets recurring leads on commercial-intent queries such as business law and franchise contracts, in its clients' own languages.",
         ],
       },
@@ -869,9 +869,9 @@ export const SERVICES: Service[] = [
       {
         heading: "Spanish sites we run and work on",
         paragraphs: [
-          "Delaguía y Luzón is a Valencia law firm whose site leads in Spanish. Between May and July 2026 it drew 38,476 clicks from 2,399,567 Google impressions at an average position of 9.4, across the whole site.",
-          "Century 21 Perdomo sells property in the Dominican Republic in four languages, Spanish among them. Over the same three months it drew 9,944 clicks from 461,231 impressions at an average position of 10.1.",
-          "ValenciaMove, our own relocation site for Valencia, carries Spanish alongside four other languages and drew 5,685 clicks from 496,316 impressions over the same period.",
+          "Delaguía y Luzón is a Valencia law firm whose site leads in Spanish.",
+          "Century 21 Perdomo sells property in the Dominican Republic in four languages, Spanish among them.",
+          "ValenciaMove, our own relocation site for Valencia, carries Spanish alongside four other languages.",
         ],
       },
     ],
@@ -1000,7 +1000,7 @@ export const SERVICES: Service[] = [
       {
         heading: "Dutch and Belgian sites we run and work on",
         paragraphs: [
-          "Bemelman Spuiterij is a powder-coating specialist in Noordwijkerhout, in the Bollenstreek, with forty-five years of reputation. Its site is written entirely in Dutch, with a page per service and a quote form that asks for the project type and the surface area, so requests arrive ready to price. Between May and July 2026 it drew 1,436 clicks from 108,568 Google impressions.",
+          "Bemelman Spuiterij is a powder-coating specialist in Noordwijkerhout, in the Bollenstreek, with forty-five years of reputation. Its site is written entirely in Dutch, with a page per service and a quote form that asks for the project type and the surface area, so requests arrive ready to price.",
           "BeTranslated, the translation agency we have run for twenty years, has its own .be and .nl sites, each researched for its own market.",
         ],
       },
@@ -1318,8 +1318,8 @@ export const SERVICES: Service[] = [
       {
         heading: "Local SEO we run on our own properties and for clients",
         paragraphs: [
-          "Bemelman Spuiterij is a powder-coating specialist in Noordwijkerhout, in the Bollenstreek, with forty-five years of reputation and, before we started, a web presence still to build. We built Dutch local SEO around the small number of trade buyers who search for that work, and the site drew 1,436 clicks from 108,568 Google impressions between May and July 2026.",
-          "ValenciaMove is our own relocation site for Valencia, built around neighbourhood guides in five languages. Over the same three months it drew 5,685 clicks from 496,316 impressions at an average position of 10.7.",
+          "Bemelman Spuiterij is a powder-coating specialist in Noordwijkerhout, in the Bollenstreek, with forty-five years of reputation and, before we started, a web presence still to build. We built Dutch local SEO around the small number of trade buyers who search for that work.",
+          "ValenciaMove is our own relocation site for Valencia, built around neighbourhood guides in five languages.",
         ],
       },
     ],
@@ -1427,7 +1427,7 @@ export const SERVICES: Service[] = [
       {
         heading: "A four-language property site that stays correct as listings turn over weekly",
         paragraphs: [
-          "Century 21 Perdomo sells Dominican real estate in four languages on a headless WordPress, WPML and WooCommerce stack, where a property selling, a price moving or a status flipping has to update correctly in all four locales at once. Between May and July 2026 the site drew 9,944 clicks from 461,231 Google impressions at an average position of 10.1.",
+          "Century 21 Perdomo sells Dominican real estate in four languages on a headless WordPress, WPML and WooCommerce stack, where a property selling, a price moving or a status flipping has to update correctly in all four locales at once.",
         ],
       },
     ],
@@ -1530,7 +1530,7 @@ export const SERVICES: Service[] = [
       {
         heading: "Where the accuracy standard gets tested",
         paragraphs: [
-          "Delaguía y Luzón is a Valencia law firm whose practice runs across Spain and France in four languages, including Russian, so the same document sometimes needs to hold up in two legal systems at once. Its site, which carries that translated legal content, drew 38,476 clicks from 2,399,567 Google impressions between May and July 2026, an average position of 9.4.",
+          "Delaguía y Luzón is a Valencia law firm whose practice runs across Spain and France in four languages, including Russian, so the same document sometimes needs to hold up in two legal systems at once. Its site carries that translated legal content.",
         ],
       },
     ],

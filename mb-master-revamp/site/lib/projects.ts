@@ -58,7 +58,11 @@ export type Project = {
   outcome: string;
   /** What was actually delivered for this client. */
   services: string[];
-  /** Live GSC, May to July 2026. Absent where the property has no meaningful history yet. */
+  /**
+   * Live GSC, May to July 2026. Absent where the property has no meaningful history yet.
+   * Source data for the totals in lib/results-totals.ts only: no page renders it per
+   * client (owner, 5 Oct 2026), and scripts/client-figures-lint.mjs enforces that.
+   */
   search?: { clicks: string; impressions: string; position: string; note?: string };
   /**
    * Average enquiries a month received through the client site's own forms,
@@ -113,19 +117,19 @@ export const PROJECTS: Project[] = [
     name: "Globaprom",
     domain: "globaprom.com",
     angle: "Custom AI software",
-    body: "Fixed scope, fixed price, delivered in weeks, multilingual from the first commit. Built the shipment tracking portal that took roughly three hours a day of status chasing out of a freight forwarder's week.",
+    body: "Fixed scope, fixed price, delivered in weeks, multilingual from the first commit. Built the shipment tracking portal that took the status chasing out of a freight forwarder's week.",
     metaTitle: "Globaprom, a custom AI software case study",
-    metaDescription: "Fixed scope, fixed price, delivered in weeks. See the shipment tracking portal that cut three hours a day of status chasing for a freight forwarder.",
+    metaDescription: "Fixed scope, fixed price, delivered in weeks. See the shipment tracking portal that took the status chasing out of a freight forwarder's week.",
     metrics: [
-      { v: "3 h/day", k: "Saved on tracking" },
-      { v: "10 h/wk", k: "On reconciliation" },
+      { v: "Fixed", k: "Scope and price" },
+      { v: "Weeks", k: "To deliver" },
     ],
     problem:
       "Small businesses that need custom software want a fixed scope, a price they can plan around and a tool that fits their operations exactly. A business running in more than one language from day one needs that tool to be multilingual from the start as well.",
     work:
    "AI-assisted development with a fixed scope and a fixed price, delivered in weeks, multilingual from the first commit. Built on Next.js with Payload CMS, the stack is Next.js with Payload CMS.",
     outcome:
-      "A shipment tracking portal for TX International Freight that cut roughly three hours a day of manual status chasing, an internal reconciliation platform that saved about ten hours a week, and the multilingual site and tracking system running Century 21 Perdomo's real estate listings.",
+      "A shipment tracking portal for TX International Freight that took manual status chasing out of the week, an internal reconciliation platform for the team's weekly reconciliation, and the multilingual site and tracking system running Century 21 Perdomo's real estate listings.",
     services: ["Custom AI software", "Multilingual from build", "Fixed scope, fixed price"],
     shot: `/work/globaprom.webp?v=${SHOT_VERSION}`,
   },
