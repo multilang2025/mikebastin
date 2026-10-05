@@ -11,7 +11,7 @@ wpId: 0
 date: "2026-10-04T12:00:00"
 modified: "2026-10-04T12:00:00"
 sourceUrl: "https://mikebastin.com/es/services/seguimiento-de-conversiones/"
-excerpt: "Seguimiento de conversiones en Valencia: configuramos GA4, Google Tag Manager y Google Ads para que cada idioma muestre sus consultas y tu informe coincida con lo que ve ventas."
+excerpt: "Seguimiento de conversiones en Valencia: configuramos GA4, Google Tag Manager y Google Ads para que cada idioma muestre sus consultas y tu informe coincida con ventas."
 ---
 
 ## Una cifra por mercado: qué idioma te trae consultas
