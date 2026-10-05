@@ -3,7 +3,7 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
-Stable tag: 2.4.0
+Stable tag: 2.5.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -157,6 +157,11 @@ Tips:
   gate on more precisely.
 
 == Changelog ==
+= 2.5.0 =
+* Added trash_post: moves a post/page to the trash or restores it via wp_trash_post()/wp_untrash_post() (not a raw status write), closing the gap where update_post had no status field for this on purpose.
+* Added get_post_translations: read-only listing of a post's WPML sibling translations (language, post ID, title, status) by shared trid -- the same lookup update_post's WPML warning already did internally, now callable directly instead of only surfacing as an advisory string on a write.
+* Added list_redirects + manage_redirect: list/create/update/delete Rank Math 301/302 redirects by talking directly to Rank Math's own {prefix}rank_math_redirections table, since neither Rank Math's REST API nor WP-CLI exposes a route for this even with Rank Math Pro active.
+
 = 2.4.0 =
 * Added db_write + check_approval_status: a human-in-the-loop escape hatch for mutating SQL (INSERT/UPDATE/DELETE) against a plugin's own custom table when no REST route, WP-CLI command, or registered Ability reaches it -- the same gap WPVibe's raw-SQL tool fills, discovered fixing Formidable dropdown placeholders on a client site where db_query's read-only design (correctly) refused to write directly to frm_fields. Unlike db_query, db_write never executes anything itself: it validates the statement (single INSERT/UPDATE/DELETE, no DDL, no multiple statements, string literals blanked before keyword matching, same rigor as db_query's SELECT validator) and queues it in a new "Pending Approvals" wp-admin page, where an administrator reviews the exact SQL and clicks Approve or Deny. Only that click runs the statement; nothing an MCP client sends can write to the database unattended. Decisions and outcomes are recorded to the existing audit log.
 

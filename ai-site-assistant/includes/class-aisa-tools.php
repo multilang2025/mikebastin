@@ -161,6 +161,98 @@ class AISA_Tools {
 				),
 			),
 			array(
+				'name'         => 'trash_post',
+				'description'  => 'Move a post/page to the trash, or restore one out of the trash. '
+					. 'update_post has no status field for this on purpose -- trashing goes through '
+					. 'WordPress\'s own wp_trash_post()/wp_untrash_post() so trash-related hooks run '
+					. 'normally.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'id'     => array( 'type' => 'integer' ),
+						'action' => array(
+							'type'        => 'string',
+							'enum'        => array( 'trash', 'restore' ),
+							'description' => 'trash (default) or restore.',
+						),
+					),
+					'required'             => array( 'id' ),
+					'additionalProperties' => false,
+				),
+			),
+			array(
+				'name'         => 'get_post_translations',
+				'description'  => 'List a post\'s WPML sibling translations (language code, post ID, '
+					. 'title, status) by shared trid. Use this to find the right post ID for a given '
+					. 'language before editing or translating, instead of guessing. Read-only. Returns '
+					. 'an error if WPML is not active.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'id' => array( 'type' => 'integer' ),
+					),
+					'required'             => array( 'id' ),
+					'additionalProperties' => false,
+				),
+			),
+			array(
+				'name'         => 'list_redirects',
+				'description'  => 'List existing Rank Math 301/302 redirects, optionally filtered by a '
+					. '"search" substring matched against source/destination. There is no REST route or '
+					. 'WP-CLI command for this even with Rank Math Pro active, so this reads Rank Math\'s '
+					. 'own redirections table directly. Read-only. Call this before manage_redirect so you '
+					. 'know existing IDs and avoid creating a duplicate rule.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'search' => array(
+							'type'        => 'string',
+							'description' => 'Optional filter by source/destination substring.',
+						),
+					),
+					'additionalProperties' => false,
+				),
+			),
+			array(
+				'name'         => 'manage_redirect',
+				'description'  => 'Create, update, or delete a Rank Math 301/302 redirect -- there is '
+					. 'no REST route or WP-CLI command for this even with Rank Math Pro active, so this '
+					. 'talks to Rank Math\'s own redirections table directly. Call list_redirects first. '
+					. 'action="create"/"update" need from, to, and optionally comparison (exact/contains/'
+					. 'start/end/regex, default exact) and status_code (301/302/307/410/451, default 301); '
+					. '"update" also needs id. action="delete" needs id.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'action'      => array(
+							'type' => 'string',
+							'enum' => array( 'create', 'update', 'delete' ),
+						),
+						'id'          => array(
+							'type'        => 'integer',
+							'description' => 'Redirect ID, required for update/delete.',
+						),
+						'from'        => array(
+							'type'        => 'string',
+							'description' => 'Source path to match, e.g. "old-page" (no leading slash).',
+						),
+						'to'          => array(
+							'type'        => 'string',
+							'description' => 'Destination URL or path.',
+						),
+						'comparison'  => array(
+							'type' => 'string',
+							'enum' => array( 'exact', 'contains', 'start', 'end', 'regex' ),
+						),
+						'status_code' => array(
+							'type' => 'integer',
+							'enum' => array( 301, 302, 307, 410, 451 ),
+						),
+					),
+					'additionalProperties' => false,
+				),
+			),
+			array(
 				'name'         => 'get_site_context',
 				'description'  => 'Get the active theme, registered post types, and active plugins. '
 					. 'Call this when you need to understand how the site is built.',
@@ -1231,6 +1323,8 @@ class AISA_Tools {
 			'create_post',
 			'update_post',
 			'publish_post',
+			'trash_post',
+			'manage_redirect',
 			'replace_in_post',
 			'append_to_post',
 			'bulk_replace_in_posts',
@@ -1267,6 +1361,14 @@ class AISA_Tools {
 				return self::update_post( $input );
 			case 'publish_post':
 				return self::publish_post( $input );
+			case 'trash_post':
+				return self::trash_post( $input );
+			case 'get_post_translations':
+				return self::get_post_translations( $input );
+			case 'list_redirects':
+				return self::list_redirects( $input );
+			case 'manage_redirect':
+				return self::manage_redirect( $input );
 			case 'get_site_context':
 				return self::get_site_context();
 			case 'db_query':
@@ -1705,6 +1807,252 @@ class AISA_Tools {
 		}
 		AISA_Audit_Log::record( 'publish_post', $id, $in );
 		return array( 'content' => "Published #{$id}: " . get_permalink( $id ) );
+	}
+
+	/**
+	 * Move a post/page to the trash, or restore it, via wp_trash_post()/
+	 * wp_untrash_post() -- never a raw post_status write, so WordPress's own
+	 * trash hooks (and any plugin hooked to them) run normally.
+	 *
+	 * @param array $in Tool input.
+	 * @return array Tool result confirming the change, or an error.
+	 */
+	private static function trash_post( array $in ) {
+		$id     = (int) ( $in['id'] ?? 0 );
+		$action = sanitize_key( $in['action'] ?? 'trash' );
+		if ( ! in_array( $action, array( 'trash', 'restore' ), true ) ) {
+			return self::error( 'action must be "trash" or "restore".' );
+		}
+		$p = get_post( $id );
+		if ( ! $p ) {
+			return self::error( 'Post not found.' );
+		}
+		$type_object = get_post_type_object( $p->post_type );
+		$cap         = ( $type_object && isset( $type_object->cap->delete_post ) ) ? $type_object->cap->delete_post : 'delete_post';
+		if ( ! current_user_can( $cap, $id ) ) {
+			return self::error( 'Permission denied for this post.' );
+		}
+		if ( 'trash' === $action ) {
+			if ( 'trash' === $p->post_status ) {
+				return self::error( 'Post is already in the trash.' );
+			}
+			$result = wp_trash_post( $id );
+			if ( ! $result ) {
+				return self::error( 'Failed to trash the post.' );
+			}
+			AISA_Audit_Log::record( 'trash_post', $id, $in );
+			return array( 'content' => "Moved #{$id} to the trash." );
+		}
+		if ( 'trash' !== $p->post_status ) {
+			return self::error( 'Post is not in the trash.' );
+		}
+		$result = wp_untrash_post( $id );
+		if ( ! $result ) {
+			return self::error( 'Failed to restore the post.' );
+		}
+		AISA_Audit_Log::record( 'trash_post', $id, $in );
+		return array( 'content' => "Restored #{$id} from the trash (status: " . get_post_status( $id ) . ')' );
+	}
+
+	/**
+	 * List the WPML sibling translations of a post (same trid, different
+	 * language_code), reusing the detection query from
+	 * wpml_translation_warning() but as a direct, readable result instead of
+	 * an advisory string folded into a write's response.
+	 *
+	 * @param array $in Tool input.
+	 * @return array Tool result with the translation map, or an error.
+	 */
+	private static function get_post_translations( array $in ) {
+		if ( ! defined( 'ICL_SITEPRESS_VERSION' ) ) {
+			return self::error( 'WPML is not active on this site.' );
+		}
+		$id = (int) ( $in['id'] ?? 0 );
+		$p  = get_post( $id );
+		if ( ! $p ) {
+			return self::error( 'Post not found.' );
+		}
+		global $wpdb;
+		$table = $wpdb->prefix . 'icl_translations';
+		// phpcs:ignore WordPress.DB.DirectDatabaseQuery.DirectQuery, WordPress.DB.DirectDatabaseQuery.NoCaching
+		$trid = $wpdb->get_var(
+			$wpdb->prepare(
+				"SELECT trid FROM {$table} WHERE element_id = %d AND element_type LIKE %s LIMIT 1", // phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared
+				$id,
+				'post_%'
+			)
+		);
+		if ( ! $trid ) {
+			return array( 'content' => "Post #{$id} is not WPML-managed (no trid found)." );
+		}
+		// phpcs:ignore WordPress.DB.DirectDatabaseQuery.DirectQuery, WordPress.DB.DirectDatabaseQuery.NoCaching
+		$rows = $wpdb->get_results(
+			$wpdb->prepare(
+				"SELECT language_code, element_id FROM {$table} WHERE trid = %d", // phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared
+				$trid
+			)
+		);
+		$map = array();
+		foreach ( $rows as $row ) {
+			$eid           = (int) $row->element_id;
+			$sibling       = get_post( $eid );
+			$map[]         = array(
+				'language' => $row->language_code,
+				'post_id'  => $eid,
+				'is_this'  => $eid === $id,
+				'title'    => $sibling ? $sibling->post_title : null,
+				'status'   => $sibling ? $sibling->post_status : null,
+			);
+		}
+		return array( 'content' => wp_json_encode( array( 'trid' => (int) $trid, 'translations' => $map ) ) );
+	}
+
+	/**
+	 * CRUD against Rank Math's own redirections table
+	 * ({prefix}rank_math_redirections). No REST route or WP-CLI command
+	 * exposes this (even with Rank Math PRO active), and the PHP class names
+	 * backing Rank Math's own admin UI are not public API -- hitting the
+	 * documented table schema directly, like db_write's escape hatch for
+	 * other plugins' custom tables, is the stable integration point. "sources"
+	 * is Rank Math's own serialized format: an array of
+	 * [pattern, comparison, ignore] rules; comparison is one of exact,
+	 * contains, start, end, regex.
+	 *
+	 * @param array $in Tool input.
+	 * @return array Tool result, or an error.
+	 */
+	private static function list_redirects( array $in ) {
+		if ( ! current_user_can( 'manage_options' ) ) {
+			return self::error( 'Permission denied.' );
+		}
+		global $wpdb;
+		$table  = $wpdb->prefix . 'rank_math_redirections';
+		$search = isset( $in['search'] ) ? '%' . $wpdb->esc_like( $in['search'] ) . '%' : null;
+		if ( $search ) {
+			// phpcs:ignore WordPress.DB.DirectDatabaseQuery.DirectQuery, WordPress.DB.DirectDatabaseQuery.NoCaching, WordPress.DB.PreparedSQL.NotPrepared
+			$rows = $wpdb->get_results( $wpdb->prepare( "SELECT * FROM {$table} WHERE sources LIKE %s OR url_to LIKE %s ORDER BY id DESC LIMIT 100", $search, $search ) ); // phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared
+		} else {
+			// phpcs:ignore WordPress.DB.DirectDatabaseQuery.DirectQuery, WordPress.DB.DirectDatabaseQuery.NoCaching
+			$rows = $wpdb->get_results( "SELECT * FROM {$table} ORDER BY id DESC LIMIT 100" ); // phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared
+		}
+		$out = array();
+		foreach ( $rows as $row ) {
+			$sources = maybe_unserialize( $row->sources );
+			$out[]   = array(
+				'id'          => (int) $row->id,
+				'from'        => is_array( $sources ) ? wp_list_pluck( $sources, 'pattern' ) : array(),
+				'comparison'  => is_array( $sources ) && isset( $sources[0]['comparison'] ) ? $sources[0]['comparison'] : null,
+				'to'          => $row->url_to,
+				'status_code' => (int) $row->header_code,
+				'status'      => $row->status,
+				'hits'        => (int) $row->hits,
+			);
+		}
+		return array( 'content' => wp_json_encode( $out ) );
+	}
+
+	/**
+	 * Create, update, or delete a Rank Math redirect. See list_redirects()
+	 * for the read path and manage_redirect's tool description for the
+	 * design rationale (no REST/WP-CLI path exists for this table).
+	 *
+	 * @param array $in Tool input.
+	 * @return array Tool result, or an error.
+	 */
+	private static function manage_redirect( array $in ) {
+		if ( ! current_user_can( 'manage_options' ) ) {
+			return self::error( 'Permission denied.' );
+		}
+		global $wpdb;
+		$table  = $wpdb->prefix . 'rank_math_redirections';
+		$action = sanitize_key( $in['action'] ?? '' );
+
+		if ( 'delete' === $action ) {
+			$id = (int) ( $in['id'] ?? 0 );
+			if ( ! $id ) {
+				return self::error( 'id is required for delete.' );
+			}
+			// phpcs:ignore WordPress.DB.DirectDatabaseQuery.DirectQuery, WordPress.DB.DirectDatabaseQuery.NoCaching
+			$deleted = $wpdb->delete( $table, array( 'id' => $id ), array( '%d' ) );
+			if ( ! $deleted ) {
+				return self::error( "Redirect #{$id} not found." );
+			}
+			self::purge_rank_math_redirection_cache();
+			AISA_Audit_Log::record( 'manage_redirect', $id, $in );
+			return array( 'content' => "Deleted redirect #{$id}." );
+		}
+
+		if ( ! in_array( $action, array( 'create', 'update' ), true ) ) {
+			return self::error( 'action must be list, create, update, or delete.' );
+		}
+
+		$from = trim( (string) ( $in['from'] ?? '' ) );
+		$to   = trim( (string) ( $in['to'] ?? '' ) );
+		if ( '' === $from || '' === $to ) {
+			return self::error( 'from and to are required.' );
+		}
+		$comparison = sanitize_key( $in['comparison'] ?? 'exact' );
+		if ( ! in_array( $comparison, array( 'exact', 'contains', 'start', 'end', 'regex' ), true ) ) {
+			return self::error( 'comparison must be one of exact, contains, start, end, regex.' );
+		}
+		$code = (int) ( $in['status_code'] ?? 301 );
+		if ( ! in_array( $code, array( 301, 302, 307, 410, 451 ), true ) ) {
+			return self::error( 'status_code must be one of 301, 302, 307, 410, 451.' );
+		}
+		$sources = maybe_serialize(
+			array(
+				array(
+					'pattern'    => ltrim( $from, '/' ),
+					'comparison' => $comparison,
+					'ignore'     => '',
+				),
+			)
+		);
+		$data = array(
+			'sources'     => $sources,
+			'url_to'      => $to,
+			'header_code' => $code,
+			'status'      => 'active',
+			'updated'     => current_time( 'mysql' ),
+		);
+
+		if ( 'create' === $action ) {
+			$data['created'] = current_time( 'mysql' );
+			// phpcs:ignore WordPress.DB.DirectDatabaseQuery.DirectQuery, WordPress.DB.DirectDatabaseQuery.NoCaching
+			$ok = $wpdb->insert( $table, $data );
+			if ( ! $ok ) {
+				return self::error( 'Failed to create redirect.' );
+			}
+			self::purge_rank_math_redirection_cache();
+			AISA_Audit_Log::record( 'manage_redirect', $wpdb->insert_id, $in );
+			return array( 'content' => "Created redirect #{$wpdb->insert_id}: /{$sources} -> {$to} ({$code})" );
+		}
+
+		$id = (int) ( $in['id'] ?? 0 );
+		if ( ! $id ) {
+			return self::error( 'id is required for update.' );
+		}
+		// phpcs:ignore WordPress.DB.DirectDatabaseQuery.DirectQuery, WordPress.DB.DirectDatabaseQuery.NoCaching
+		$ok = $wpdb->update( $table, $data, array( 'id' => $id ) );
+		if ( false === $ok ) {
+			return self::error( "Failed to update redirect #{$id}." );
+		}
+		self::purge_rank_math_redirection_cache();
+		AISA_Audit_Log::record( 'manage_redirect', $id, $in );
+		return array( 'content' => "Updated redirect #{$id}." );
+	}
+
+	/**
+	 * Clear Rank Math's redirection cache table so an edit takes effect
+	 * immediately instead of waiting for the next request that misses it.
+	 * Table existing-or-not both no-op cleanly; this is best-effort, never
+	 * fatal to the surrounding create/update/delete.
+	 */
+	private static function purge_rank_math_redirection_cache() {
+		global $wpdb;
+		$cache_table = $wpdb->prefix . 'rank_math_redirections_cache';
+		// phpcs:ignore WordPress.DB.DirectDatabaseQuery.DirectQuery, WordPress.DB.DirectDatabaseQuery.NoCaching, WordPress.DB.PreparedSQL.NotPrepared
+		$wpdb->query( "TRUNCATE TABLE {$cache_table}" ); // phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared
 	}
 
 	/**
