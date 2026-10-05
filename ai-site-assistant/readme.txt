@@ -3,7 +3,7 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
-Stable tag: 2.5.0
+Stable tag: 2.6.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -157,6 +157,10 @@ Tips:
   gate on more precisely.
 
 == Changelog ==
+= 2.6.0 =
+* Added get_elementor_data, replace_in_elementor, set_elementor_data: AISA can now read and edit Elementor page layouts directly via the _elementor_data postmeta JSON, instead of only warning that an edit to post_content won't show up live. replace_in_elementor is a targeted find/replace with the same match-exactly-once safety model as replace_in_post; set_elementor_data overwrites the whole element tree for structural changes. Both purge Elementor's CSS/element cache afterward so the change renders immediately.
+* Expanded set_seo/get_seo with pillar_content (cornerstone flag), robots_noindex, and primary_category (Rank Math only) -- fields the AI previously couldn't read or set, which left SEO configuration incomplete and pushed users back into wp-admin to finish it manually. Documented that the visible Rank Math/Yoast SEO score bar is computed client-side and can't be read or written via meta.
+* Fixed manage_redirect's create confirmation message printing the raw serialized sources array instead of the plain "from" path.
 = 2.5.0 =
 * Added trash_post: moves a post/page to the trash or restores it via wp_trash_post()/wp_untrash_post() (not a raw status write), closing the gap where update_post had no status field for this on purpose.
 * Added get_post_translations: read-only listing of a post's WPML sibling translations (language, post ID, title, status) by shared trid -- the same lookup update_post's WPML warning already did internally, now callable directly instead of only surfacing as an advisory string on a write.
