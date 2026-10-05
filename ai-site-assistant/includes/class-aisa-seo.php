@@ -86,6 +86,8 @@ class AISA_SEO {
 				'og_description'      => '_yoast_wpseo_opengraph-description',
 				'twitter_title'       => '_yoast_wpseo_twitter-title',
 				'twitter_description' => '_yoast_wpseo_twitter-description',
+				'cornerstone'         => '_yoast_wpseo_is_cornerstone',
+				'robots_noindex'      => '_yoast_wpseo_meta-robots-noindex',
 			);
 		}
 		return array(
@@ -97,6 +99,22 @@ class AISA_SEO {
 			'og_description'      => 'rank_math_facebook_description',
 			'twitter_title'       => 'rank_math_twitter_title',
 			'twitter_description' => 'rank_math_twitter_description',
+			'pillar_content'      => 'rank_math_pillar_content',
+			'robots_noindex'      => 'rank_math_robots',
+			'primary_category'    => 'rank_math_primary_category',
+		);
+	}
+
+	/**
+	 * Fields that aren't plain strings -- write_fields sanitizes/casts these
+	 * specially instead of running sanitize_text_field/esc_url_raw on them.
+	 *
+	 * @return array<string,string> friendly name => type ('bool' or 'robots').
+	 */
+	private static function special_field_types() {
+		return array(
+			'pillar_content' => 'bool',
+			'robots_noindex' => 'robots',
 		);
 	}
 
@@ -107,9 +125,20 @@ class AISA_SEO {
 	 * @return array engine + friendly field values + excerpt.
 	 */
 	public static function read_fields( $id ) {
-		$out = array( 'engine' => self::engine() );
+		$out    = array( 'engine' => self::engine() );
+		$types  = self::special_field_types();
+		$engine = self::engine();
 		foreach ( self::field_map() as $friendly => $key ) {
-			$out[ $friendly ] = (string) get_post_meta( (int) $id, $key, true );
+			$raw = get_post_meta( (int) $id, $key, true );
+			if ( 'bool' === ( $types[ $friendly ] ?? null ) ) {
+				$out[ $friendly ] = ! empty( $raw ) && 'off' !== $raw;
+			} elseif ( 'robots' === ( $types[ $friendly ] ?? null ) ) {
+				$out[ $friendly ] = ( 'rankmath' === $engine )
+					? in_array( 'noindex', (array) $raw, true )
+					: ( '1' === (string) $raw );
+			} else {
+				$out[ $friendly ] = (string) $raw;
+			}
 		}
 		$out['excerpt'] = get_post_field( 'post_excerpt', (int) $id );
 		return $out;
@@ -124,6 +153,8 @@ class AISA_SEO {
 	 */
 	public static function write_fields( $id, array $meta ) {
 		$map      = self::field_map();
+		$types    = self::special_field_types();
+		$engine   = self::engine();
 		$applied  = array();
 		$rejected = array();
 		foreach ( $meta as $friendly => $value ) {
@@ -131,9 +162,21 @@ class AISA_SEO {
 				$rejected[] = $friendly;
 				continue;
 			}
-			$clean = ( 'canonical' === $friendly )
-				? esc_url_raw( (string) $value )
-				: sanitize_text_field( (string) $value );
+			$type = $types[ $friendly ] ?? null;
+			if ( 'bool' === $type ) {
+				$clean = ! empty( $value ) && 'false' !== $value ? 'on' : 'off';
+			} elseif ( 'robots' === $type ) {
+				$noindex = ! empty( $value ) && 'false' !== $value;
+				$clean   = ( 'rankmath' === $engine )
+					? ( $noindex ? array( 'noindex' ) : array() )
+					: ( $noindex ? '1' : '2' );
+			} elseif ( 'canonical' === $friendly ) {
+				$clean = esc_url_raw( (string) $value );
+			} elseif ( 'primary_category' === $friendly ) {
+				$clean = (int) $value;
+			} else {
+				$clean = sanitize_text_field( (string) $value );
+			}
 			update_post_meta( (int) $id, $map[ $friendly ], $clean );
 			$applied[] = $friendly;
 		}

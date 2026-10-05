@@ -253,6 +253,85 @@ class AISA_Tools {
 				),
 			),
 			array(
+				'name'         => 'get_elementor_data',
+				'description'  => 'Read a post/page\'s Elementor layout (the "_elementor_data" postmeta '
+					. 'JSON tree of sections/widgets, pretty-printed). Elementor pages render from this '
+					. 'JSON, not post_content, so update_post/replace_in_post/get_post text edits on an '
+					. 'Elementor page never show up live -- use this + replace_in_elementor/'
+					. 'set_elementor_data instead. Read-only. Returns an error if the post has no '
+					. 'Elementor data.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'id' => array( 'type' => 'integer' ),
+					),
+					'required'             => array( 'id' ),
+					'additionalProperties' => false,
+				),
+			),
+			array(
+				'name'         => 'replace_in_elementor',
+				'description'  => 'Make a TARGETED text edit inside an Elementor page\'s layout JSON '
+					. '(a widget\'s heading/text/button-label value, etc). Prefer this over '
+					. 'set_elementor_data for small changes -- same safety model as replace_in_post: '
+					. '"find" must match the stored _elementor_data JSON exactly once (pass '
+					. 'replace_all:true or occurrence:N if it matches more than once). Read with '
+					. 'get_elementor_data first to copy the exact text, including JSON escaping (e.g. '
+					. '\\" for a literal quote inside a value). Automatically purges Elementor\'s CSS/'
+					. 'element cache afterward so the change shows live immediately.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'id'          => array( 'type' => 'integer' ),
+						'find'        => array(
+							'type'        => 'string',
+							'description' => 'Exact text to find in the raw _elementor_data JSON string.',
+						),
+						'replace'     => array(
+							'type'        => 'string',
+							'description' => 'Replacement text.',
+						),
+						'replace_all' => array(
+							'type'        => 'boolean',
+							'description' => 'When "find" matches more than once, replace every '
+								. 'occurrence instead of failing. Default false. Ignored if '
+								. '"occurrence" is also set.',
+						),
+						'occurrence'  => array(
+							'type'        => 'integer',
+							'description' => 'When "find" matches more than once, replace only the Nth '
+								. '(1-based) occurrence instead of failing or replacing all of them. '
+								. 'Takes priority over replace_all.',
+						),
+					),
+					'required'             => array( 'id', 'find', 'replace' ),
+					'additionalProperties' => false,
+				),
+			),
+			array(
+				'name'         => 'set_elementor_data',
+				'description'  => 'Overwrite a post/page\'s entire Elementor layout with a new element '
+					. 'tree -- for adding/removing/reordering whole sections or widgets, which '
+					. 'replace_in_elementor (text-only) can\'t do. Pass the full element array in '
+					. 'Elementor\'s own JSON structure (the same shape get_elementor_data returns), not '
+					. 'a diff. HIGH RISK of visually breaking the page if the structure is malformed or '
+					. 'a required widget setting is dropped -- read the current data with '
+					. 'get_elementor_data first, change only what\'s needed, and keep everything else '
+					. 'byte-identical. Automatically purges Elementor\'s CSS/element cache afterward.',
+				'input_schema' => array(
+					'type'                 => 'object',
+					'properties'           => array(
+						'id'   => array( 'type' => 'integer' ),
+						'data' => array(
+							'description' => 'The full Elementor element tree, as a JSON array (or a '
+								. 'JSON-encoded string of one).',
+						),
+					),
+					'required'             => array( 'id', 'data' ),
+					'additionalProperties' => false,
+				),
+			),
+			array(
 				'name'         => 'get_site_context',
 				'description'  => 'Get the active theme, registered post types, and active plugins. '
 					. 'Call this when you need to understand how the site is built.',
@@ -542,7 +621,11 @@ class AISA_Tools {
 			array(
 				'name'         => 'get_seo',
 				'description'  => 'Read a post\'s SEO meta tags (title, description, focus keyword, '
-					. 'canonical, Open Graph, Twitter) and excerpt. Read-only.',
+					. 'canonical, Open Graph, Twitter, pillar/cornerstone flag, noindex, primary category) '
+					. 'and excerpt. Read-only. Note: the visible Rank Math/Yoast SEO score (the colored '
+					. 'traffic-light bar in wp-admin) is computed client-side in the editor from live '
+					. 'content analysis -- it is not a stored meta value this tool can read or set, so '
+					. 'the score itself only updates when someone opens the post in wp-admin.',
 				'input_schema' => array(
 					'type'                 => 'object',
 					'properties'           => array( 'id' => array( 'type' => 'integer' ) ),
@@ -554,7 +637,11 @@ class AISA_Tools {
 				'name'         => 'set_seo',
 				'description'  => 'Update a post\'s SEO meta tags (Rank Math or Yoast). Pass any of '
 					. 'meta_title, meta_description, focus_keyword, canonical, og_title, '
-					. 'og_description, twitter_title, twitter_description. Fast — no content rewrite.',
+					. 'og_description, twitter_title, twitter_description, pillar_content (cornerstone '
+					. 'flag, Rank Math/Yoast only -- boolean), robots_noindex (boolean, true hides the '
+					. 'post from search), primary_category (Rank Math only -- category term ID used for '
+					. 'the SEO title/breadcrumb variable). Fast — no content rewrite. Does NOT set the '
+					. 'visible SEO score bar in wp-admin -- that is computed client-side, not stored meta.',
 				'input_schema' => array(
 					'type'                 => 'object',
 					'properties'           => array(
@@ -567,6 +654,9 @@ class AISA_Tools {
 						'og_description'      => array( 'type' => 'string' ),
 						'twitter_title'       => array( 'type' => 'string' ),
 						'twitter_description' => array( 'type' => 'string' ),
+						'pillar_content'      => array( 'type' => 'boolean' ),
+						'robots_noindex'      => array( 'type' => 'boolean' ),
+						'primary_category'    => array( 'type' => 'integer' ),
 					),
 					'required'             => array( 'id' ),
 					'additionalProperties' => false,
@@ -1325,6 +1415,8 @@ class AISA_Tools {
 			'publish_post',
 			'trash_post',
 			'manage_redirect',
+			'replace_in_elementor',
+			'set_elementor_data',
 			'replace_in_post',
 			'append_to_post',
 			'bulk_replace_in_posts',
@@ -1369,6 +1461,12 @@ class AISA_Tools {
 				return self::list_redirects( $input );
 			case 'manage_redirect':
 				return self::manage_redirect( $input );
+			case 'get_elementor_data':
+				return self::get_elementor_data( $input );
+			case 'replace_in_elementor':
+				return self::replace_in_elementor( $input );
+			case 'set_elementor_data':
+				return self::set_elementor_data( $input );
 			case 'get_site_context':
 				return self::get_site_context();
 			case 'db_query':
@@ -2025,7 +2123,7 @@ class AISA_Tools {
 			}
 			self::purge_rank_math_redirection_cache();
 			AISA_Audit_Log::record( 'manage_redirect', $wpdb->insert_id, $in );
-			return array( 'content' => "Created redirect #{$wpdb->insert_id}: /{$sources} -> {$to} ({$code})" );
+			return array( 'content' => "Created redirect #{$wpdb->insert_id}: /{$from} -> {$to} ({$code})" );
 		}
 
 		$id = (int) ( $in['id'] ?? 0 );
@@ -2053,6 +2151,139 @@ class AISA_Tools {
 		$cache_table = $wpdb->prefix . 'rank_math_redirections_cache';
 		// phpcs:ignore WordPress.DB.DirectDatabaseQuery.DirectQuery, WordPress.DB.DirectDatabaseQuery.NoCaching, WordPress.DB.PreparedSQL.NotPrepared
 		$wpdb->query( "TRUNCATE TABLE {$cache_table}" ); // phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared
+	}
+
+	/**
+	 * Purge Elementor's cached CSS/element cache for a post so a direct
+	 * _elementor_data write shows up live immediately instead of waiting for
+	 * Elementor's own save routine (which never runs here).
+	 *
+	 * @param int $post_id Post ID.
+	 */
+	private static function invalidate_elementor_caches( $post_id ) {
+		delete_post_meta( $post_id, '_elementor_css' );
+		delete_post_meta( $post_id, '_elementor_element_cache' );
+		if ( class_exists( '\\Elementor\\Core\\Files\\CSS\\Post' ) ) {
+			try {
+				\Elementor\Core\Files\CSS\Post::create( $post_id )->delete();
+			} catch ( \Throwable $e ) {
+				// Cache purge is best-effort; the content write already succeeded.
+				unset( $e );
+			}
+		}
+	}
+
+	/**
+	 * Read a post/page's Elementor layout JSON.
+	 *
+	 * @param array $in Tool input.
+	 * @return array Tool result with the pretty-printed JSON, or an error.
+	 */
+	private static function get_elementor_data( array $in ) {
+		$id = (int) ( $in['id'] ?? 0 );
+		if ( ! current_user_can( 'edit_post', $id ) ) {
+			return self::error( 'Permission denied for this post.' );
+		}
+		$raw = get_post_meta( $id, '_elementor_data', true );
+		if ( '' === (string) $raw ) {
+			return self::error( "Post #{$id} has no Elementor data (_elementor_data postmeta is empty). It is not built with Elementor, or uses a different builder." );
+		}
+		$decoded = json_decode( (string) $raw, true );
+		if ( null === $decoded && 'null' !== trim( (string) $raw ) ) {
+			return self::error( "Post #{$id}'s _elementor_data is not valid JSON -- inspect it with db_query instead." );
+		}
+		return array( 'content' => wp_json_encode( $decoded, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES ) );
+	}
+
+	/**
+	 * Replace an exact text snippet inside a post's Elementor layout JSON
+	 * (targeted edit). Same find-must-match-exactly-once safety model as
+	 * replace_in_post, applied to the raw _elementor_data string instead of
+	 * post_content, since that's what Elementor actually renders from.
+	 *
+	 * @param array $in Tool input.
+	 * @return array Tool result confirming the replacement, or an error.
+	 */
+	private static function replace_in_elementor( array $in ) {
+		$id = (int) ( $in['id'] ?? 0 );
+		if ( ! current_user_can( 'edit_post', $id ) ) {
+			return self::error( 'Permission denied for this post.' );
+		}
+		$current = get_post_meta( $id, '_elementor_data', true );
+		if ( '' === (string) $current ) {
+			return self::error( "Post #{$id} has no Elementor data (_elementor_data postmeta is empty)." );
+		}
+
+		$find = (string) ( $in['find'] ?? '' );
+		if ( '' === $find ) {
+			return self::error( 'The "find" text is empty.' );
+		}
+		$replace     = (string) ( $in['replace'] ?? '' );
+		$replace_all = ! empty( $in['replace_all'] );
+		$occurrence  = isset( $in['occurrence'] ) ? (int) $in['occurrence'] : 0;
+		$count       = substr_count( $current, $find );
+
+		if ( 1 === $count ) {
+			$new_data = str_replace( $find, $replace, $current );
+		} elseif ( $count > 1 ) {
+			if ( $occurrence > 0 ) {
+				if ( $occurrence > $count ) {
+					return self::error( "The \"find\" text only appears {$count} times; occurrence {$occurrence} doesn't exist." );
+				}
+				$new_data = self::replace_nth( $current, $find, $replace, $occurrence );
+			} elseif ( $replace_all ) {
+				$new_data = str_replace( $find, $replace, $current );
+			} else {
+				return self::error( "The \"find\" text appears {$count} times; pass replace_all:true to replace every occurrence, occurrence:N (1-based) to fix one match at a time, or make \"find\" longer/unique so exactly one match is replaced." );
+			}
+		} else {
+			return self::error( 'The "find" text was not found in _elementor_data. Read get_elementor_data again and copy an exact snippet, including JSON escaping (e.g. \\" for a literal quote).' );
+		}
+
+		if ( null === json_decode( $new_data, true ) ) {
+			return self::error( 'That replacement would make _elementor_data invalid JSON -- nothing was changed. Check for unescaped quotes/backslashes in "replace".' );
+		}
+
+		update_post_meta( $id, '_elementor_data', wp_slash( $new_data ) );
+		self::invalidate_elementor_caches( $id );
+		AISA_Audit_Log::record( 'replace_in_elementor', $id, array( 'find' => $find ) );
+
+		$message = $occurrence > 0 && $count > 1
+			? "Replaced occurrence {$occurrence} of {$count} in #{$id}'s Elementor data."
+			: ( $count > 1 ? "Replaced {$count} occurrences in #{$id}'s Elementor data." : "Replaced one snippet in #{$id}'s Elementor data." );
+		return array( 'content' => $message );
+	}
+
+	/**
+	 * Overwrite a post/page's entire Elementor layout.
+	 *
+	 * @param array $in Tool input.
+	 * @return array Tool result confirming the write, or an error.
+	 */
+	private static function set_elementor_data( array $in ) {
+		$id = (int) ( $in['id'] ?? 0 );
+		if ( ! current_user_can( 'edit_post', $id ) ) {
+			return self::error( 'Permission denied for this post.' );
+		}
+		$data = $in['data'] ?? null;
+		if ( is_string( $data ) ) {
+			$decoded = json_decode( $data, true );
+			if ( null === $decoded ) {
+				return self::error( '"data" is not valid JSON.' );
+			}
+			$data = $decoded;
+		}
+		if ( ! is_array( $data ) ) {
+			return self::error( '"data" must be a JSON array of Elementor elements.' );
+		}
+		$encoded = wp_json_encode( $data );
+		if ( false === $encoded ) {
+			return self::error( 'Failed to encode "data" as JSON.' );
+		}
+		update_post_meta( $id, '_elementor_data', wp_slash( $encoded ) );
+		self::invalidate_elementor_caches( $id );
+		AISA_Audit_Log::record( 'set_elementor_data', $id, array() );
+		return array( 'content' => "Overwrote #{$id}'s Elementor data (" . count( $data ) . ' top-level element(s)).' );
 	}
 
 	/**
@@ -2993,6 +3224,14 @@ class AISA_Tools {
 			if ( isset( $in[ $field ] ) ) {
 				$fields[ $field ] = (string) $in[ $field ];
 			}
+		}
+		foreach ( array( 'pillar_content', 'robots_noindex' ) as $field ) {
+			if ( isset( $in[ $field ] ) ) {
+				$fields[ $field ] = $in[ $field ] ? 'true' : 'false';
+			}
+		}
+		if ( isset( $in['primary_category'] ) ) {
+			$fields['primary_category'] = (int) $in['primary_category'];
 		}
 		if ( empty( $fields ) ) {
 			return self::error( 'No SEO fields provided. Pass at least one of meta_title, meta_description, etc.' );
