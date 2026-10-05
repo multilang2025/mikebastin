@@ -6,6 +6,8 @@ import Counter from "@/components/Counter";
 import HomeEvidence from "@/components/HomeEvidence";
 import Testimonials from "@/components/Testimonials";
 import SiteFooter from "@/components/SiteFooter";
+import MarketFlowGraphic from "@/components/MarketFlowGraphic";
+import BastinIdeasGraphic from "@/components/BastinIdeasGraphic";
 import { SITE_URL } from "@/lib/schema";
 import { enLanguages } from "@/lib/fr-pages";
 
@@ -119,6 +121,21 @@ const WHAT_WE_DO = [
   },
 ];
 
+const HOW_IT_WORKS = [
+  {
+    title: "Audit where you are",
+    body: "We review your site, search visibility and existing language versions to find the technical and content work with the clearest path to more enquiries.",
+  },
+  {
+    title: "Plan each market",
+    body: "You get a written scope for the markets you want to grow, with priorities, deliverables and responsibilities agreed before work begins.",
+  },
+  {
+    title: "Report monthly by language",
+    body: "Work moves forward market by market, with a monthly report showing traffic and enquiries for each language so you can see what is paying back.",
+  },
+];
+
 const WHY_IT_WORKS = [
   {
     title: "One strategist across your languages",
@@ -143,7 +160,7 @@ export default function Home() {
           primary term from lib/keywords.ts, "international SEO agency", and
           the longer h2 under it says what the agency does. No shimmer, no
           glow, no radar: the portrait is the hero art. */}
-      <section className="band band-a grain relative overflow-hidden pb-[clamp(48px,6vw,88px)] pt-[clamp(52px,7vw,104px)]">
+      <section className="band band-b grain relative overflow-hidden pb-[clamp(48px,6vw,88px)] pt-[clamp(52px,7vw,104px)]">
         <div className="shell relative grid items-center gap-x-14 lg:grid-cols-[1fr_auto]">
         <div>
           <Reveal>
@@ -176,12 +193,30 @@ export default function Home() {
           <Reveal i={4}>
             <div className="flex flex-wrap items-center gap-x-6 gap-y-4">
               <Link href="/contact/" className="btn btn-primary btn-lg">
-                Discuss your project
+                Book a free consultation
               </Link>
               <Link href="/results/" className="ulink text-[.98rem]">
                 See client results
               </Link>
             </div>
+          </Reveal>
+
+          <Reveal i={5}>
+            <Link
+              href="#testimonials"
+              aria-label="Read client testimonials"
+              className="mt-6 inline-flex flex-wrap items-center gap-x-3 gap-y-1 text-[.88rem]"
+              style={{ color: "var(--dim)" }}
+            >
+              <span className="flex gap-1" aria-hidden="true" style={{ color: "var(--berry)" }}>
+                {Array.from({ length: 5 }, (_, i) => (
+                  <svg key={i} width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2.5l2.9 6.06 6.6.86-4.83 4.6 1.22 6.55L12 17.5l-5.89 3.07 1.22-6.55L2.5 9.42l6.6-.86z" />
+                  </svg>
+                ))}
+              </span>
+              <span className="ulink">Google Business Profile reviews</span>
+            </Link>
           </Reveal>
         </div>
 
@@ -196,48 +231,80 @@ export default function Home() {
       {/* Straight after the hero (brief, P1): dated Search Console figures,
           then three cases chosen for the multilingual positioning, and a
           link to the rest rather than all eight spreads. */}
-      <HomeEvidence />
+      <HomeEvidence band="a" />
 
-      {/* ============ WHAT WE DO ============ */}
-      <section className="band band-a py-[clamp(64px,9vw,128px)]">
+      {/* ============ WHAT WE DO AND HOW IT WORKS ============ */}
+      <section className="band band-b py-[clamp(64px,9vw,128px)]">
         <div className="shell">
           <Reveal>
             <p className="eyebrow mb-3">What we do</p>
             <h2 className="mb-5 max-w-[26ch] text-[clamp(1.8rem,3.6vw,2.9rem)] font-semibold leading-[1.1]">
-              Enquiries from every market where you already sell.
+              From market audit to monthly reporting.
             </h2>
-            <p className="mb-12 max-w-[56ch] text-[1.05rem]" style={{ color: "var(--dim)" }}>
-              You already sell abroad, so the product is proven. Ongoing
-              multilingual SEO is the core of a global SEO programme, with
-              localization, paid search and AI consulting around it. Every
-              enquiry is counted by market, so you see which language earns
-              its keep.
+            <p className="mb-10 max-w-[62ch] text-[1.05rem] leading-[1.65]" style={{ color: "var(--dim)" }}>
+              We audit your current reach, agree a plan for each market, then
+              report progress by language every month. Depending on your goals,
+              choose the services that fit your growth plans.
             </p>
           </Reveal>
 
-          <div className="flex flex-col" style={{ borderTop: "1px solid var(--rule)" }}>
+          <div className="mb-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {WHAT_WE_DO.map((row, i) => (
               <Reveal key={row.cluster} i={i}>
+                <article
+                  className="h-full rounded-md border p-5 sm:p-6"
+                  style={{ borderColor: "var(--rule)", background: "var(--shade)" }}
+                >
                 <Link
                   href={row.href}
-                  className="group flex flex-wrap items-baseline gap-x-4 gap-y-1 py-6"
-                  style={{ borderBottom: "1px solid var(--rule)" }}
+                  className="mb-3 inline-flex rounded-full px-3 py-1 text-[.78rem] font-semibold uppercase tracking-[.07em] transition-colors hover:bg-[var(--berry)] hover:text-[var(--bg)]"
+                  style={{ color: "var(--berry)", background: "var(--berry-soft)" }}
                 >
-                  <span className="display text-[1.15rem] font-semibold transition-colors duration-300 group-hover:text-[var(--berry)]">
-                    {row.cluster}
-                  </span>
-                  <span className="max-w-[48ch] text-[.92rem]" style={{ color: "var(--dim)" }}>
-                    {row.desc}
-                  </span>
+                  {row.cluster}
                 </Link>
+                <p className="text-[.92rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
+                  {row.desc}
+                </p>
+                </article>
               </Reveal>
             ))}
           </div>
+
+          <Reveal>
+            <p className="eyebrow mb-3">How it works</p>
+          </Reveal>
+
+          <ol className="grid gap-px md:grid-cols-3" style={{ background: "var(--rule)" }}>
+            {HOW_IT_WORKS.map((step, i) => (
+              <Reveal key={step.title} i={i}>
+                <li className="band h-full px-7 py-7" style={{ background: "var(--bg)" }}>
+                  <p className="display mb-5 text-[.9rem] font-semibold tabular-nums" style={{ color: "var(--berry)" }}>
+                    {String(i + 1).padStart(2, "0")}
+                  </p>
+                  <h3 className="display mb-3 text-[1.15rem] font-semibold leading-[1.25]">
+                    {step.title}
+                  </h3>
+                  <p className="text-[.92rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
+                    {step.body}
+                  </p>
+                </li>
+              </Reveal>
+            ))}
+          </ol>
+
+          <Reveal i={3}>
+            <p className="mt-8 text-[.95rem]" style={{ color: "var(--dim)" }}>
+              <Link href="/how-i-work/" className="ulink" style={{ color: "var(--berry)" }}>
+                See how the engagement is scoped and billed
+              </Link>
+              {" "}— including what happens from the first call to monthly reporting.
+            </p>
+          </Reveal>
         </div>
       </section>
 
       {/* ============ WHY IT WORKS ============ */}
-      <section className="band band-b py-[clamp(64px,9vw,128px)]">
+      <section className="band band-a py-[clamp(64px,9vw,128px)]">
         <div className="shell">
           <Reveal>
             <p className="eyebrow mb-3">Why it works</p>
@@ -246,81 +313,28 @@ export default function Home() {
             </h2>
           </Reveal>
 
-          <div className="grid max-w-[56ch] gap-8">
-            {WHY_IT_WORKS.map((w, i) => (
-              <Reveal key={w.title} i={i}>
-                <p className="display mb-2 text-[1.08rem] font-semibold leading-[1.25]">
-                  {w.title}
-                </p>
-                <p className="text-[.92rem] leading-[1.55]" style={{ color: "var(--dim)" }}>
-                  {w.body}
-                </p>
-              </Reveal>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ============ BASTIN, THE ACRONYM ============ */}
-      <section className="band band-a py-[clamp(64px,9vw,128px)]">
-        <div className="shell">
-          <Reveal>
-            <p className="eyebrow mb-3">What the name stands for</p>
-            <h2 className="mb-4 max-w-[18ch] text-[clamp(1.8rem,3.6vw,2.9rem)] font-semibold leading-[1.1]">
-              BASTIN was there the whole time.
-            </h2>
-            <p className="mb-12 max-w-[56ch] text-[1.05rem]" style={{ color: "var(--dim)" }}>
-              Six letters, six things we do for you.
-            </p>
-          </Reveal>
-
-          <div className="flex flex-col" style={{ borderTop: "1px solid var(--rule)" }}>
-            {BASTIN.map((row, i) => {
-              const body = (
-                <>
-                  <span
-                    className="display shrink-0 text-[clamp(2.4rem,5vw,3.4rem)] font-semibold leading-none"
-                    style={{ color: "var(--berry)" }}
-                  >
-                    {row.letter}
-                  </span>
-                  <span className="flex flex-col gap-1 pt-1">
-                    <span
-                      className={`display text-[1.3rem] font-semibold leading-none${
-                        row.href ? " transition-colors duration-300 group-hover:text-[var(--berry)]" : ""
-                      }`}
-                    >
-                      {row.word}
-                    </span>
-                    <span className="text-[.92rem] leading-[1.55]" style={{ color: "var(--dim)" }}>
-                      {row.desc}
-                    </span>
-                  </span>
-                </>
-              );
-              const rowClass =
-                "flex items-start gap-5 py-6 sm:gap-7";
-              const rowStyle = { borderBottom: "1px solid var(--rule)" };
-              return (
-                <Reveal key={row.letter} i={i}>
-                  {row.href ? (
-                    <Link href={row.href} className={`${rowClass} group`} style={rowStyle}>
-                      {body}
-                    </Link>
-                  ) : (
-                    <div className={rowClass} style={rowStyle}>
-                      {body}
-                    </div>
-                  )}
+          <div className="grid items-center gap-12 lg:grid-cols-[1fr_1fr]">
+            <div className="grid max-w-[56ch] gap-8">
+              {WHY_IT_WORKS.map((w, i) => (
+                <Reveal key={w.title} i={i}>
+                  <p className="display mb-2 text-[1.08rem] font-semibold leading-[1.25]">
+                    {w.title}
+                  </p>
+                  <p className="text-[.92rem] leading-[1.55]" style={{ color: "var(--dim)" }}>
+                    {w.body}
+                  </p>
                 </Reveal>
-              );
-            })}
+              ))}
+            </div>
+            <Reveal i={1}>
+              <MarketFlowGraphic />
+            </Reveal>
           </div>
         </div>
       </section>
 
       {/* ============ TESTIMONIALS ============ */}
-      <section className="band band-b py-[clamp(64px,9vw,128px)]">
+      <section id="testimonials" className="band band-b py-[clamp(64px,9vw,128px)]">
         <div className="shell">
           <Reveal>
             <p className="eyebrow mb-3">In their own words</p>
@@ -338,8 +352,66 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ============ BASTIN, THE ACRONYM ============ */}
+      <section className="band band-a py-[clamp(48px,6vw,80px)]">
+        <div className="shell">
+          <Reveal>
+            <p className="eyebrow mb-2">What the name stands for</p>
+            <h2 className="mb-8 max-w-[24ch] text-[clamp(1.45rem,2.8vw,2.1rem)] font-semibold leading-[1.15]">
+              BASTIN, in six ideas.
+            </h2>
+          </Reveal>
+
+          <div className="relative">
+            <BastinIdeasGraphic />
+            <div className="flex flex-col pl-14 pr-20" style={{ borderTop: "1px solid var(--rule)" }}>
+              {BASTIN.map((row, i) => {
+                const body = (
+                  <>
+                    <span
+                      data-bastin-letter
+                      className="display shrink-0 text-[clamp(2.4rem,5vw,3.4rem)] font-semibold leading-none"
+                      style={{ color: "var(--berry)" }}
+                    >
+                      {row.letter}
+                    </span>
+                    <span className="flex min-w-0 flex-col gap-1 pt-1">
+                      <span
+                        className={`display text-[1.3rem] font-semibold leading-none${
+                          row.href ? " transition-colors duration-300 group-hover:text-[var(--berry)]" : ""
+                        }`}
+                      >
+                        {row.word}
+                      </span>
+                      <span data-bastin-copy className="text-[.92rem] leading-[1.55]" style={{ color: "var(--dim)" }}>
+                        {row.desc}
+                      </span>
+                    </span>
+                  </>
+                );
+                const rowClass = "flex items-start gap-5 py-6 sm:gap-7";
+                const rowStyle = { borderBottom: "1px solid var(--rule)" };
+                return (
+                  <Reveal key={row.letter} i={i}>
+                    {row.href ? (
+                      <Link href={row.href} className={`${rowClass} group`} style={rowStyle}>
+                        {body}
+                      </Link>
+                    ) : (
+                      <div className={rowClass} style={rowStyle}>
+                        {body}
+                      </div>
+                    )}
+                  </Reveal>
+                );
+              })}
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* ============ CREDIBILITY ============ */}
-      <section className="band band-a py-[clamp(56px,8vw,110px)]">
+      <section className="band band-b py-[clamp(56px,8vw,110px)]">
         <div className="shell">
           {/* Two by two, then four across: auto-fit made a row of three
               and a lone fourth with grey empty cells at tablet width. */}
@@ -367,7 +439,7 @@ export default function Home() {
       </section>
 
       {/* ============ CONTACT ============ */}
-      <SiteFooter address band="b" />
+      <SiteFooter address band="a" />
 
     </main>
   );
