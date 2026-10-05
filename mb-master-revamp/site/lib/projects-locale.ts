@@ -104,7 +104,7 @@ export const PROJECTS_ES: Record<string, ProjectCopy> = {
     services: ["SEO multidominio", "Contenido multilingüe", "Seis mercados regionales"],
     metrics: [
       { v: "6", k: "Dominios regionales" },
-      { v: "20 años", k: "De actividad" },
+      { v: "Dos décadas", k: "De actividad" },
     ],
     alt: "La web de BeTranslated en ordenador y en móvil",
   },

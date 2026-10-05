@@ -21,6 +21,8 @@ export type Testimonial = {
   quote: string;
   /** English rendering, shown as secondary. Null when already English. */
   english: string | null;
+  /** Spanish rendering for the Spanish homepage, when the original is not Spanish. */
+  spanish: string | null;
   when: string;
   /** what the review is actually about, used for filtering and honesty */
   theme: "training" | "delivery" | "expertise";
@@ -37,6 +39,7 @@ export const TESTIMONIALS: Testimonial[] = [
     quote:
       "I needed some help with my website, and thank God I found Mike and his team! They identified what was missing and started working on it from day one. Their improvements showed results and still do! That's why I continue to work with them. If you feel lost with your website, SEO and marketing in general, contact them, they'll make your life easier. Thanks guys!",
     english: null,
+    spanish: "Necesitaba ayuda con mi web y, ¡menos mal que encontré a Mike y a su equipo! Detectaron lo que faltaba y se pusieron manos a la obra desde el primer día. Sus mejoras dieron resultados y siguen dándolos. Por eso sigo trabajando con ellos. Si te sientes perdido con tu web, el SEO o el marketing en general, ponte en contacto con ellos: te lo pondrán más fácil. ¡Gracias, equipo!",
     when: "One month ago",
     theme: "delivery",
     localGuide: true,
@@ -49,6 +52,8 @@ export const TESTIMONIALS: Testimonial[] = [
       "Sinds de nieuwe opmaak is doorgevoerd, is het aantal bezoekers merkbaar toegenomen. Deze combinatie van design en resultaat maakt de vernieuwing zeer geslaagd. Dank aan Michael en zijn team!",
     english:
       "Since the new design went live, visitor numbers have noticeably increased. That combination of design and results makes the redesign a real success. Thanks to Michael and his team!",
+    spanish:
+      "Desde que se implantó el nuevo diseño, el número de visitantes ha aumentado notablemente. Esta combinación de diseño y resultados hace que la renovación haya sido todo un éxito. ¡Gracias a Michael y a su equipo!",
     when: "Ten months ago",
     theme: "delivery",
   },
@@ -60,6 +65,8 @@ export const TESTIMONIALS: Testimonial[] = [
       "Michael m'a formé aux bases du référencement international avec beaucoup de pédagogie et de clarté. Sa méthode m'a permis de comprendre rapidement les enjeux du SEO à l'échelle mondiale et d'appliquer les bonnes pratiques à mon propre projet. Je recommande vivement ses formations pour toute personne souhaitant s'initier au référencement international.",
     english:
       "Michael trained me in the fundamentals of international SEO with real teaching skill and clarity. His method let me grasp the stakes of SEO at a global scale quickly, and apply good practice to my own project. I recommend his training warmly to anyone wanting to get started in international search.",
+    spanish:
+      "Michael me formó en los fundamentos del SEO internacional con mucha pedagogía y claridad. Su método me permitió comprender rápidamente los retos del SEO a escala mundial y aplicar buenas prácticas a mi propio proyecto. Recomiendo encarecidamente su formación a cualquiera que quiera iniciarse en el posicionamiento internacional.",
     when: "One year ago",
     theme: "training",
   },
@@ -71,6 +78,7 @@ export const TESTIMONIALS: Testimonial[] = [
       "Mike es un excelente mentor y gran profesional. Gracias a su forma clara de enseñar, aprendí muchísimo sobre SEO y marketing digital. Explica conceptos complejos de manera sencilla y práctica, lo que me permitió aplicar lo aprendido rápidamente. Muy recomendable para cualquiera que quiera crecer en este campo.",
     english:
       "Mike is an excellent mentor and a fine professional. Thanks to his clear way of teaching, I learned a great deal about SEO and digital marketing. He explains complex concepts simply and practically, which let me apply what I had learned quickly. Highly recommended for anyone wanting to grow in this field.",
+    spanish: null,
     when: "Ten months ago",
     theme: "training",
   },
@@ -82,6 +90,8 @@ export const TESTIMONIALS: Testimonial[] = [
       "Ik heb fijn samengewerkt met Mike. Hij heeft veel kennis van AI en SEO en denkt goed mee. Hij heeft me goed geholpen en de samenwerking verliep prettig. Ik heb er veel van geleerd.",
     english:
       "Working with Mike was a pleasure. He knows a great deal about AI and SEO and thinks with you rather than at you. He helped me properly, the collaboration ran smoothly, and I learned a lot from it.",
+    spanish:
+      "Ha sido un placer trabajar con Mike. Sabe mucho de IA y SEO, y aporta ideas contando contigo. Me ayudó mucho, la colaboración fue muy agradable y aprendí un montón.",
     when: "Six months ago",
     theme: "training",
   },
@@ -92,6 +102,8 @@ export const TESTIMONIALS: Testimonial[] = [
     quote:
       "Mike is a highly skilled professional in SEO and digital marketing and I've learned a great deal from his practical, results-focused approach. He's reliable, detail-oriented, and consistently ensures client needs are met. Highly recommend!!",
     english: null,
+    spanish:
+      "Mike es un profesional muy competente en SEO y marketing digital, y he aprendido mucho con su enfoque práctico y orientado a resultados. Es fiable, atento a los detalles y siempre se asegura de satisfacer las necesidades de sus clientes. ¡Lo recomiendo muchísimo!",
     when: "One year ago",
     theme: "training",
   },
@@ -103,6 +115,8 @@ export const TESTIMONIALS: Testimonial[] = [
       "Ik werk al samen met Mike al meer dan 1 jaar nu. Hij zorgt voor mijn website, vertalingen enz. Ik kan hem ten zeerste aanbevelen. Fantastisch team, top werk van hoog niveau! Bedankt Mike",
     english:
       "I have been working with Mike for more than a year now. He looks after my website, translations and so on. I can recommend him most warmly. Fantastic team, top work of a high standard. Thanks Mike.",
+    spanish:
+      "Llevo más de un año trabajando con Mike. Se ocupa de mi web, las traducciones y demás. Lo recomiendo muchísimo. ¡Un equipo fantástico y un trabajo de primera calidad! Gracias, Mike.",
     when: "One year ago",
     theme: "delivery",
     localGuide: true,
@@ -114,6 +128,8 @@ export const TESTIMONIALS: Testimonial[] = [
     quote:
       "I have worked with Mike and his team on a variety of projects over the years. He is always friendly, quick to respond and offers valuable expertise in digital marketing and SEO.",
     english: null,
+    spanish:
+      "He trabajado con Mike y su equipo en distintos proyectos a lo largo de los años. Siempre es amable, responde rápido y aporta una valiosa experiencia en marketing digital y SEO.",
     when: "One year ago",
     theme: "delivery",
   },
@@ -125,6 +141,8 @@ export const TESTIMONIALS: Testimonial[] = [
       "Michael maitrise parfaitement les différentes stratégies SEO. Il a une très longue et riche expérience en la matière. Je n'ai aucun doute sur la qualité de ses conseils. Il peut également mettre en place tout le contenu et plugins qui vous permettront d'optimizer rapidement votre site sur les moteurs de recherche. Comme moi, c'est un \"Boomer\" (presque!), qui a su prendre le tournant de l'IA et qui l'utilise à bon escient. Et pour tout ce qui concerne la mise en place et le suivi des conversions, il pourra sans aucun doute vous aiguiller vers le bon partenaire.",
     english:
       "Michael has a complete command of the different SEO strategies. He has very long and rich experience in the field. I have no doubt about the quality of his advice. He can also put in place all the content and plugins that let you optimize your site for search engines quickly. Like me he is almost a Boomer, one who took the AI turn and uses it sensibly. And for anything to do with setting up and tracking conversions, he can point you to the right partner without hesitation.",
+    spanish:
+      "Michael domina a la perfección las distintas estrategias de SEO y tiene una experiencia muy amplia y sólida en este campo. No dudo de la calidad de sus consejos. También puede implementar todo el contenido y los plugins que te permitirán optimizar rápidamente tu web para los motores de búsqueda. Como yo, es casi un «boomer», pero supo adaptarse a la IA y utilizarla con criterio. Y para configurar y hacer seguimiento de las conversiones, sin duda puede orientarte hacia el colaborador adecuado.",
     when: "One year ago",
     theme: "expertise",
   },
@@ -135,6 +153,8 @@ export const TESTIMONIALS: Testimonial[] = [
     quote:
       "Mike is very driven and extremely professional in every aspect of his work. He takes a great deal of care with each task and always puts his client first, ensuring their needs are met during each stage of the process. Mike's professionalism and vast experience makes him a reliable choice and one you can count on time and time again.",
     english: null,
+    spanish:
+      "Mike es muy dedicado y extremadamente profesional en todos los aspectos de su trabajo. Cuida mucho cada tarea y siempre pone al cliente en primer lugar, asegurándose de que sus necesidades estén cubiertas en cada etapa del proceso. Su profesionalidad y amplia experiencia hacen de Mike una persona de confianza con la que siempre puedes contar.",
     when: "One year ago",
     theme: "expertise",
   },

@@ -24,7 +24,7 @@ const T = {
   },
   es: {
     eyebrow: "Resultados de clientes",
-    heading: "Webs que llevamos, medidas en Google Search Console.",
+    heading: "Webs que gestionamos, medidas en Google Search Console.",
     clicks: "clics desde Google",
     period: "de mayo a julio de 2026",
     source: "Fuente: la Google Search Console de cada web, de mayo a julio de 2026.",
