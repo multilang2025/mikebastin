@@ -202,14 +202,14 @@ export const SERVICES: Service[] = [
     cardTitle: "Lead generation services for companies selling abroad",
     inline: "multilingual lead generation",
     h1: "B2B lead generation services for companies selling abroad",
-    subhead: "Your other markets already send you visitors. We turn them into enquiries worth a sales call, and show which market each one came from.",
+    subhead: "Your other markets already send you visitors. We turn them into enquiries your sales team wants, in each buyer's language, and show you which market sent every one.",
     cluster: "Lead generation",
     pillar: true,
     angle: "Counted in enquiries",
-    lede: "Traffic arrives in French, German and Spanish, and the enquiries still arrive in English. Our own site showed forty thousand impressions in ninety days and six clicks, until we rebuilt it around enquiries.",
+    lede: "Mike Bastin and his team run it from Valencia, with over two decades in multilingual search and a translation agency of our own behind every market. One market at a time, each one judged on the enquiries it sends.",
     metaTitle: "B2B lead generation services across every market",
     metaDescription: "Your other markets already send visitors. We turn them into leads worth a sales call, counted per market. Book a free consultation.",
-    sections: ["What a report per market shows you", "What we do in each market", "How it is billed", "The evidence", ...ENGAGEMENT.slice(3)],
+    sections: ["What it brings in", "What you get in each market", "Who does the work", "How it is billed", "The evidence", "How an engagement runs"],
     // No `body` or `expandables` here on purpose: lead-generation has its own
     // hand-built route at app/services/lead-generation/page.tsx rather than
     // rendering through services/[slug]. Its prose and its questions live in
