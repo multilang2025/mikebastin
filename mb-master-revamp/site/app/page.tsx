@@ -367,32 +367,32 @@ export default function Home() {
 
           <div className="relative">
             {HOME_GRAPHICS.bastinTrail && <BastinIdeasGraphic />}
-            <div className={`flex flex-col${HOME_GRAPHICS.bastinTrail ? " pl-14 pr-20" : ""}`} style={{ borderTop: "1px solid var(--rule)" }}>
+            <div className={`flex flex-col${HOME_GRAPHICS.bastinTrail ? " pr-14 sm:pl-14 sm:pr-20" : ""}`} style={{ borderTop: "1px solid var(--rule)" }}>
               {BASTIN.map((row, i) => {
+                // The initial is the word's own first letter, set in cherry
+                // (owner, 5 Oct 2026: "merge the initials with the rest of
+                // the expression but leave the first letter in cherry").
+                // It keeps data-bastin-letter, which is what the trail
+                // graphic measures to place its arrow. One fluid size for
+                // every word, picked so Internationalization fits a phone.
                 const body = (
-                  <>
+                  <span className="flex min-w-0 flex-col gap-2">
                     <span
-                      data-bastin-letter
-                      className="display shrink-0 text-[clamp(2.4rem,5vw,3.4rem)] font-semibold leading-none"
-                      style={{ color: "var(--berry)" }}
+                      className={`display text-[clamp(1.15rem,5.8vw,2.1rem)] font-semibold leading-none${
+                        row.href ? " transition-colors duration-300 group-hover:text-[var(--berry)]" : ""
+                      }`}
                     >
-                      {row.letter}
-                    </span>
-                    <span className="flex min-w-0 flex-col gap-1 pt-1">
-                      <span
-                        className={`display text-[1.3rem] font-semibold leading-none${
-                          row.href ? " transition-colors duration-300 group-hover:text-[var(--berry)]" : ""
-                        }`}
-                      >
-                        {row.word}
+                      <span data-bastin-letter style={{ color: "var(--berry)" }}>
+                        {row.word.charAt(0)}
                       </span>
-                      <span data-bastin-copy className="text-[.92rem] leading-[1.55]" style={{ color: "var(--dim)" }}>
-                        {row.desc}
-                      </span>
+                      {row.word.slice(1)}
                     </span>
-                  </>
+                    <span data-bastin-copy className="max-w-[56ch] text-[.95rem] leading-[1.55]" style={{ color: "var(--dim)" }}>
+                      {row.desc}
+                    </span>
+                  </span>
                 );
-                const rowClass = "flex items-start gap-5 py-6 sm:gap-7";
+                const rowClass = "block py-6";
                 const rowStyle = { borderBottom: "1px solid var(--rule)" };
                 return (
                   <Reveal key={row.letter} i={i}>
