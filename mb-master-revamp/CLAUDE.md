@@ -401,9 +401,18 @@ provide"). Each body opens on what the client gets, in the active voice with
 every service carries `process` in `lib/services.ts`, the real steps of the
 engagement starting with the free offer that fits, which the engagement band
 renders in place of the bare `sections` titles. Full rule in
-`docs/STYLE-GUIDE-UK-EU.md` section 10. Applied to all nineteen template
-pages the same day; `lead-generation` is hand-built and already written that
-way.
+`docs/STYLE-GUIDE-UK-EU.md` section 10. A first pass covered the nineteen
+template pages on 4 Oct, but several still carried lessons in their
+expandables; on 6 Oct `lead-generation` was rebuilt around Mike and the
+enquiry totals, and `multilingual-seo`, `french-seo` and
+`translation-services` were rewritten as worked examples.
+
+**Víctoria, Mike's intern, carries the rewrite through the remaining pages**
+(owner, 6 Oct 2026). Her method and queue are in
+[`docs/HANDOFF-VICTORIA.md`](docs/HANDOFF-VICTORIA.md); open questions for
+Mike and the page tracker are in [`docs/VICTORIA-LOG.md`](docs/VICTORIA-LOG.md).
+Add to the log in the turn a question opens or is settled, and update the
+tracker when a page is rewritten or signed off.
 
 ## The UK and International Europe style guide
 
