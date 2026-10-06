@@ -541,7 +541,7 @@ export const SERVICES: Service[] = [
     h1: "French SEO and GEO agency for companies selling into France",
     subhead: "Researched and written in French from the first word, so buyers in France, Belgium and Switzerland read a supplier they can trust with the enquiry.",
     cluster: "Search",
-    angle: "SEO France, from the outside in",
+    angle: "French SEO for companies selling into France",
     lede: "You have French pages and French visitors, and the market has more enquiries to send you. A French buyer compares suppliers before contacting any of them, and the shortlist goes to sites that read as written in French.",
     metaTitle: "French SEO agency for companies selling into France",
     metaDescription: "French buyers know in one sentence whether a page was written in French. We research and write your French pages natively, so French visits become enquiries.",
@@ -574,7 +574,7 @@ export const SERVICES: Service[] = [
         heading: "French SEO written in French from the start",
         paragraphs: [
           "We research what French buyers actually type, in French and market by market. Their words are often different from yours: a British buyer searches for SEO, while a French one often types “référencement naturel”, so a site that uses both reaches them.",
-          "French runs directly here. The research, the page copy and the reading of what French visitors do are all handled in French by the people setting the strategy.",
+          "We work in French directly. The research, the page copy and the reading of what French visitors do are all handled in French by the people setting the strategy.",
           "Then the things that make a French buyer trust a new supplier: a Google Business Profile in French, listings in the French directories your sector uses, reviews from French customers, and mentions in the French trade press.",
         ],
       },
@@ -588,7 +588,7 @@ export const SERVICES: Service[] = [
       {
         heading: "French sites we run for ourselves and for clients",
         paragraphs: [
-          "BeTranslated, the translation agency we have run for twenty years, has its French site on its own .fr domain, with keyword research done specifically for France.",
+          "BeTranslated is our translation agency, and we have run it for over two decades. Its French site is on its own .fr domain, with keyword research done specifically for France.",
           "Matosurf is our own French board sports site: a hundred and twenty guides to forty-eight French spots, written in French for French riders.",
           "For Delaguía y Luzón, a Valencia law firm working across Spain and France, the French pages are held to the standard a French lawyer would apply when reading them, because in legal content precise terms matter for liability first and for rankings second.",
         ],
