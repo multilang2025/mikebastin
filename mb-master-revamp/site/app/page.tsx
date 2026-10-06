@@ -196,7 +196,7 @@ export default function Home() {
               <Link href="/contact/" className="btn btn-primary btn-lg">
                 Book a free consultation
               </Link>
-              <Link href="/results/" className="btn btn-secondary btn-lg">
+              <Link href="/results/" className="ulink text-[.98rem]">
                 See client results
               </Link>
             </div>

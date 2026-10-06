@@ -239,7 +239,7 @@ direction: the agency is recognised through Mike, its specialists and its real
 work. **No looping animation anywhere** (no shimmer, breathing glow or spinning
 art; entrance motion plays once). The homepages lead with Mike's portrait, the
 offer and one call to action, then dated client evidence and three cases. It
-supersedes the 2 Oct approval of the homepage market map (Q24). The brief also
+supersedes the 2 Oct approval of the homepage market map (Q24). One owner exception (6 Oct 2026, "let's loop forever"): the services hero art floats endlessly (`.services-hero-art` in globals.css); `loopingMotion` in `lib/home-graphics.ts` does not switch it off. The brief also
 asks for "I" in Mike's founder story and personal commentary, an exception to
 the "we" rule above, for the P2 pass; services stay "we".
 

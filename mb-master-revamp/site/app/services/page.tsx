@@ -40,7 +40,7 @@ const QUESTIONS = [
   {
     q: "How long does it take to see results?",
     a: [
-      "Most clients see a first measurable change within the first three months. Broader ranking shifts across several languages usually take two to three quarters, as new content and technical changes need time to be crawled and trusted.",
+      "In our experience, the first measurable change arrives within about three months. Broader ranking shifts across several languages take two to three quarters, as new content and technical changes need time to be crawled and trusted. Every market moves at its own pace.",
     ],
   },
   {
@@ -246,7 +246,7 @@ export default function ServicesIndex() {
                             className="mb-3 w-fit rounded-full px-3 py-1 text-[.78rem] font-semibold"
                             style={{ background: "var(--berry-soft)", color: "var(--berry)" }}
                           >
-                            Most clients start here
+                            Our core service
                           </span>
                         )}
                         <span className="ulink mb-2 text-[1.08rem] font-semibold">{s.cardTitle ?? s.name}</span>
