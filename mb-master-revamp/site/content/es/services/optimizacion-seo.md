@@ -40,7 +40,7 @@ Estas tareas forman parte de tu marketing: el SEO trabaja de forma constante mie
 
 ## Sitios que llevamos en varios idiomas
 
-Delaguía y Luzón, un despacho de abogados de Valencia, cubre derecho civil, laboral, inmigración y fiscalidad en España y Francia, en español, francés, inglés y ruso. Cada término jurídico se mantiene al nivel que exigiría un abogado al leerlo, en cada idioma. De mayo a julio de 2026, el sitio recibió 38.476 clics desde Google, con una posición media de 9,4.
+Delaguía y Luzón, un despacho de abogados de Valencia, cubre derecho civil, laboral, inmigración y fiscalidad en España y Francia, en español, francés, inglés y ruso. Cada término jurídico se mantiene al nivel que exigiría un abogado al leerlo, en cada idioma.
 
 > Fuente: Google Search Console de delaguialuzon.com, de mayo a julio de 2026.
 

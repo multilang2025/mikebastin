@@ -40,7 +40,7 @@ Chaque marché a aussi sa propre page de service : le [SEO en espagnol](/fr/ser
 
 ## Des sites que nous menons dans plusieurs langues
 
-Delaguía y Luzón, un cabinet d’avocats de Valencia, en Espagne, couvre le droit des affaires, le droit du travail, l’immigration et la fiscalité entre l’Espagne et la France, en espagnol, en français, en anglais et en russe. Chaque terme juridique doit résister à la lecture d’un avocat, dans chaque langue. De mai à juillet 2026, le site a reçu 38 476 clics depuis Google, pour une position moyenne de 9,4.
+Delaguía y Luzón, un cabinet d’avocats de Valencia, en Espagne, couvre le droit des affaires, le droit du travail, l’immigration et la fiscalité entre l’Espagne et la France, en espagnol, en français, en anglais et en russe. Chaque terme juridique doit résister à la lecture d’un avocat, dans chaque langue.
 
 > Source : Google Search Console de delaguialuzon.com, mai à juillet 2026.
 

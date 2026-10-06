@@ -61,7 +61,7 @@ const T: Record<
     more: "All services",
     eyebrow: "Straight to the point",
     cta: "Tell us which language you want selling next.",
-    ctaButton: "Discuss your project",
+    ctaButton: "Book a free consultation",
     ctaSecondary: "See client results",
     reply: "Mike reads every message and replies, usually within a working day.",
     based: "Multilingual search, from Valencia",
@@ -441,15 +441,12 @@ export default function SiteFooter({
             </a>
           </div>
         </Reveal>
-        {/* A static signature: the name set large and quiet, so the page
-            ends on the brand rather than on a row of small links. */}
-        <p
-          aria-hidden="true"
-          className="display mt-12 select-none whitespace-nowrap text-[clamp(3.4rem,13.5vw,12rem)] font-semibold leading-[.8] tracking-[-0.02em]"
-          style={{ color: "color-mix(in srgb, var(--ink) 10%, var(--bg))" }}
-        >
-          Mike Bastin
-        </p>
+        <div className="mt-12 flex justify-center" aria-hidden="true">
+          <BrandMark
+            width={360}
+            className="h-auto w-[min(76vw,360px)] opacity-[.14]"
+          />
+        </div>
       </div>
     </footer>
   );

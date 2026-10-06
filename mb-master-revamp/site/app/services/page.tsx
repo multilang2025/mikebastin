@@ -10,6 +10,7 @@ import HeroArtSlot from "@/components/HeroArtSlot";
 import DlArt from "@/components/DlArt";
 import { DL_PAGE_ART } from "@/lib/dl-art";
 import { enLanguages } from "@/lib/fr-pages";
+import { pageMeta } from "@/lib/meta";
 
 const DESCRIPTION =
   "Global SEO services for companies selling abroad: multilingual SEO, localization, paid search and AI consulting, with every enquiry counted per market.";
@@ -49,26 +50,13 @@ const CLUSTER_SCENE: Record<string, { src: string; alt: string; intro: string }>
   },
 };
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: HERO_TITLE,
   description: DESCRIPTION,
-  alternates: { canonical: CANONICAL, languages: enLanguages("/services/") },
-  // og:image/twitter:image come from the colocated opengraph-image.tsx
-  // (Next.js file-convention metadata), not an `images` array here.
-  openGraph: {
-    type: "website",
-    siteName: "Mike Bastin",
-    locale: "en_GB",
-    url: CANONICAL,
-    title: HERO_TITLE,
-    description: DESCRIPTION,
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: HERO_TITLE,
-    description: DESCRIPTION,
-  },
-};
+  path: "/services/",
+  languages: enLanguages("/services/"),
+  cardAlt: `${HERO_TITLE}. ${DESCRIPTION}`,
+});
 
 export default function ServicesIndex() {
   return (

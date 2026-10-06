@@ -39,7 +39,7 @@ Nous répondons à chaque demande, généralement sous un jour ouvré.
 
 ## Un cabinet d’avocats qui travaille dans deux systèmes juridiques
 
-Delaguía y Luzón est un cabinet d’avocats de Valencia dont l’activité couvre l’Espagne et la France en quatre langues, dont le russe. Un même document doit parfois tenir dans deux systèmes juridiques à la fois. Son site, qui porte ces contenus juridiques traduits, a obtenu 38 476 clics pour 2 399 567 impressions Google entre mai et juillet 2026, avec une position moyenne de 9,4.
+Delaguía y Luzón est un cabinet d’avocats de Valencia dont l’activité couvre l’Espagne et la France en quatre langues, dont le russe. Un même document doit parfois tenir dans deux systèmes juridiques à la fois. Son site porte ces contenus juridiques traduits.
 
 > Source : Google Search Console de delaguialuzon.com, mai à juillet 2026.
 

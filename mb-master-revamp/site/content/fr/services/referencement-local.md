@@ -42,9 +42,9 @@ Les pages en français, en anglais, en espagnol et en néerlandais sont rédigé
 
 ## Nos résultats en référencement local
 
-Bemelman Spuiterij est un spécialiste du thermolaquage installé à Noordwijkerhout, dans la Bollenstreek néerlandaise, fort de quarante-cinq ans de réputation et dont la présence en ligne restait à construire. Nous avons bâti un référencement local en néerlandais autour du petit nombre d’acheteurs professionnels qui recherchent ce travail, et le site a obtenu 1 436 clics pour 108 568 impressions Google entre mai et juillet 2026. Pour les entreprises qui vendent aux Pays-Bas ou en Flandre, notre [SEO néerlandais](/fr/services/seo-neerlandais/) prolonge ce travail.
+Bemelman Spuiterij est un spécialiste du thermolaquage installé à Noordwijkerhout, dans la Bollenstreek néerlandaise, fort de quarante-cinq ans de réputation et dont la présence en ligne restait à construire. Nous avons bâti un référencement local en néerlandais autour du petit nombre d’acheteurs professionnels qui recherchent ce travail. Pour les entreprises qui vendent aux Pays-Bas ou en Flandre, notre [SEO néerlandais](/fr/services/seo-neerlandais/) prolonge ce travail.
 
-ValenciaMove est notre propre site consacré à l’installation à Valencia, construit autour de guides de quartier en cinq langues. Sur les mêmes trois mois, il a obtenu 5 685 clics pour 496 316 impressions, avec une position moyenne de 10,7. Voilà ce que donne une ville recherchée en plusieurs langues quand chacune d’elles a ses propres pages.
+ValenciaMove est notre propre site consacré à l’installation à Valencia, construit autour de guides de quartier en cinq langues. Voilà comment se travaille une ville recherchée en plusieurs langues : chaque langue a ses propres pages.
 
 > Source : Google Search Console de bemelmanspuiterij.nl et de valenciamove.com, mai à juillet 2026.
 

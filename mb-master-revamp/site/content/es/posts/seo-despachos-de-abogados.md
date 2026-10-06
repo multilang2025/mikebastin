@@ -79,7 +79,7 @@ Ayudamos a Delaguía y Luzón, un despacho de abogados de Valencia que atiende e
 -   contenido en la lengua materna de cada público, escrito desde cero en cada idioma
 -   campañas de notas de prensa en Bélgica, Francia, Suiza, Canadá, Estados Unidos y el Reino Unido
 
-Hoy la web del despacho recibe 38.476 clics desde Google en tres meses, en sus cuatro idiomas: el SEO con criterio jurídico da resultados medibles.
+Hoy la web del despacho trabaja en sus cuatro idiomas: el SEO con criterio jurídico da resultados medibles.
 
 > Fuente: Google Search Console de delaguialuzon.com, de mayo a julio de 2026.
 

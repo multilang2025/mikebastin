@@ -119,11 +119,6 @@ Des secteurs très différents nous amènent à adapter l’approche à chaque f
 - **Cabinet d’avocats.** Delaguía y Luzón, à Valencia, couvre le droit des affaires, le droit du travail, l’immigration et la fiscalité entre l’Espagne et la France, en espagnol, en français, en anglais et en russe, avec un vocabulaire juridique tenu au niveau qu’un avocat exige.
 - **Immobilier caribéen.** Century 21 Perdomo, en République dominicaine, publie ses biens en anglais, en français, en espagnol et en allemand, et chaque annonce modifiée doit arriver dans les quatre langues en même temps.
 
-Les résultats de ce cabinet d’avocats, sur trois mois :
-
-> De mai à juillet 2026, delaguialuzon.com a reçu 38 476 clics depuis Google, pour une position moyenne de 9,4.
->
-> Source : Google Search Console de delaguialuzon.com, mai à juillet 2026.
 
 Ce que nous apprenons sur un site sert les autres : les principes de contenu et d’autorité qui fonctionnent dans le fret nourrissent la stratégie de maillage dans l’immobilier, et inversement.
 

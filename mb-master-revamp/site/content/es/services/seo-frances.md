@@ -36,7 +36,7 @@ Después llegan los elementos que hacen que un comprador francés confíe en un 
 
 BeTranslated, la agencia de traducción que dirigimos desde hace veinte años y que Mike cofundó, tiene su sitio francés en su propio dominio .fr, con una investigación de palabras clave hecha específicamente para Francia.
 
-Delaguía y Luzón es un despacho de abogados de Valencia que trabaja entre España y Francia. Sus páginas en francés se mantienen al nivel que exigiría un abogado francés al leerlas, porque en contenido jurídico la precisión de cada término importa primero por la responsabilidad y después por el posicionamiento. De mayo a julio de 2026, Search Console cuenta para el sitio, en todos sus idiomas, 2.399.567 impresiones y 38.476 clics, con una posición media de 9,4.
+Delaguía y Luzón es un despacho de abogados de Valencia que trabaja entre España y Francia. Sus páginas en francés se mantienen al nivel que exigiría un abogado francés al leerlas, porque en contenido jurídico la precisión de cada término importa primero por la responsabilidad y después por el posicionamiento.
 
 Matosurf es nuestro propio sitio francés de deportes de tabla: ciento veinte guías sobre cuarenta y ocho spots franceses, escritas en francés para aficionados franceses.
 

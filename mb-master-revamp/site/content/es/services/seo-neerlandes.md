@@ -46,7 +46,7 @@ Después vienen los elementos que hacen que un comprador neerlandés o belga con
 
 ## Un sitio en neerlandés que llevamos
 
-Bemelman Spuiterij es un especialista en pintura en polvo de Noordwijkerhout, en la Bollenstreek, con cuarenta y cinco años de reputación. Su web está escrita íntegramente en neerlandés, con una página por servicio y un formulario de presupuesto que pide el tipo de proyecto y la superficie a tratar: las peticiones llegan listas para presupuestar. Entre mayo y julio de 2026 recibió 1.436 clics con 108.568 impresiones en Google.
+Bemelman Spuiterij es un especialista en pintura en polvo de Noordwijkerhout, en la Bollenstreek, con cuarenta y cinco años de reputación. Su web está escrita íntegramente en neerlandés, con una página por servicio y un formulario de presupuesto que pide el tipo de proyecto y la superficie a tratar: las peticiones llegan listas para presupuestar.
 
 BeTranslated, la agencia de traducción que dirigimos en Valencia desde hace veinte años, tiene sus propios sitios en .be y .nl, cada uno construido sobre la investigación de su propio mercado.
 

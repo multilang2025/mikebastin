@@ -46,11 +46,11 @@ Nous ajoutons les éléments qui font qu’un acheteur local fait confiance à u
 
 ## Des sites espagnols que nous menons
 
-Delaguía y Luzón est un cabinet d’avocats de Valencia dont le site met l’espagnol en tête. Entre mai et juillet 2026, il a reçu 38 476 clics pour 2 399 567 impressions Google, à une position moyenne de 9,4, sur l’ensemble du site.
+Delaguía y Luzón est un cabinet d’avocats de Valencia dont le site met l’espagnol en tête.
 
-Century 21 Perdomo vend de l’immobilier en République dominicaine en quatre langues, dont l’espagnol. Sur les trois mêmes mois, le site a reçu 9 944 clics pour 461 231 impressions, à une position moyenne de 10,1.
+Century 21 Perdomo vend de l’immobilier en République dominicaine en quatre langues, dont l’espagnol.
 
-ValenciaMove, notre propre site consacré à l’installation à Valencia, publie en espagnol et en quatre autres langues. Il a reçu 5 685 clics pour 496 316 impressions sur la même période.
+ValenciaMove, notre propre site consacré à l’installation à Valencia, publie en espagnol et en quatre autres langues.
 
 > Source : Google Search Console de chacun des trois sites, mai à juillet 2026.
 

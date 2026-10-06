@@ -27,7 +27,11 @@ export default function Reveal({ children, i = 0, y = 26, x = 0, className }: Pr
   } as CSSProperties;
 
   return (
-    <div className={className ? `reveal ${className}` : "reveal"} style={style}>
+    <div
+      suppressHydrationWarning
+      className={className ? `reveal ${className}` : "reveal"}
+      style={style}
+    >
       {children}
     </div>
   );

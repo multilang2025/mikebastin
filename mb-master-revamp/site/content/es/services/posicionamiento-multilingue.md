@@ -45,7 +45,7 @@ Cuatro mercados trabajados a fondo reciben la profundidad que necesitan para pos
 
 ## Sitios que llevamos en varios idiomas a la vez
 
-Century 21 Perdomo, una inmobiliaria de República Dominicana, publica sus propiedades en inglés, francés, español y alemán, sobre un WordPress headless con WPML y WooCommerce; el sitio y su seguimiento los construyó Globaprom. Los anuncios cambian cada semana: se vende una propiedad, se mueve un precio, cambia un estado, y cada modificación debe llegar a los cuatro idiomas a la vez. Llevamos el SEO idioma por idioma, a partir de las búsquedas propias de cada mercado. De mayo a julio de 2026, el sitio recibió 9.944 clics y 461.231 impresiones en Google.
+Century 21 Perdomo, una inmobiliaria de República Dominicana, publica sus propiedades en inglés, francés, español y alemán, sobre un WordPress headless con WPML y WooCommerce; el sitio y su seguimiento los construyó Globaprom. Los anuncios cambian cada semana: se vende una propiedad, se mueve un precio, cambia un estado, y cada modificación debe llegar a los cuatro idiomas a la vez. Llevamos el SEO idioma por idioma, a partir de las búsquedas propias de cada mercado.
 
 > Fuente: Google Search Console de c21perdomo.com, de mayo a julio de 2026.
 

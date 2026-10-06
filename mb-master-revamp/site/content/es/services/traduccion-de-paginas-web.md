@@ -46,7 +46,7 @@ Trabajamos para el público internacional de Valencia y para los mercados donde 
 
 Century 21 Perdomo vende inmuebles en la República Dominicana, en cuatro idiomas, sobre un WordPress headless con WPML y WooCommerce. Cuando se vende un inmueble, cambia un precio o se modifica un estado, la actualización debe aparecer correctamente en las cuatro versiones a la vez.
 
-Entre mayo y julio de 2026, el sitio logró 9.944 clics con 461.231 impresiones en Google, con una posición media de 10,1. La localización está construida para ese caso: cuatro idiomas correctos frente a un catálogo que cambia cada semana. Más cerca, ValenciaMove, la web para mudarse a Valencia, mantiene más de mil páginas en cinco idiomas.
+La localización está construida para ese caso: cuatro idiomas correctos frente a un catálogo que cambia cada semana. Más cerca, ValenciaMove, la web para mudarse a Valencia, mantiene más de mil páginas en cinco idiomas.
 
 ## Lo que resolvemos bajo el texto
 

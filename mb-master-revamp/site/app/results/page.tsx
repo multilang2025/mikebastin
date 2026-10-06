@@ -13,8 +13,8 @@ import HeroArtSlot from "@/components/HeroArtSlot";
 // Owner, 2 Oct 2026: the page used to show this site's own rebuild (its own
 // Search Console and its own 43-to-19 service merge) under a heading that
 // promised client engagements. It now carries the sites we run search for,
-// from the same live Search Console figures the case studies already publish
-// (lib/projects.ts, May to July 2026, owner-approved to name). Owned
+// as totals from the live Search Console figures (lib/projects.ts, May to July
+// 2026), with a plain-language result per client and no client's own numbers. Owned
 // properties are labelled as ours rather than passed off as clients.
 const OWNED = new Set(["valenciamove", "betranslated", "matosurf"]);
 
@@ -24,9 +24,25 @@ function toNumber(s: string) {
   return Number(s.replace(/,/g, ""));
 }
 
-const WITH_SEARCH = PROJECTS.filter((p) => p.search).sort(
-  (a, b) => toNumber(b.search!.clicks) - toNumber(a.search!.clicks),
-);
+// Owner, 5 Oct 2026: show the results achieved, not each client's own figures.
+// The page keeps the totals across all the sites (they name no one client) and
+// gives each row a plain-language result, drawn from the case study's own
+// outcome. Per-client numbers stay out of the rows, in the page order of the
+// portfolio rather than ranked by clicks, which would leak the same thing.
+const WITH_SEARCH = PROJECTS.filter((p) => p.search);
+
+const RESULT: Record<string, string> = {
+  "delaguia-y-luzon":
+    "Four languages and two jurisdictions held to a legal accuracy bar, with enquiries arriving through the site's own forms.",
+  c21perdomo:
+    "Four languages kept accurate against inventory that changes every week, with enquiries arriving through the listings site.",
+  valenciamove:
+    "Five languages live, every page written from first-hand experience of the move, and enquiries counted from the first month.",
+  "tx-international-freight":
+    "Present in the local pack for industrial freight search in Houston, with quote requests counted from the site's forms.",
+  "bemelman-spuiterij":
+    "Dutch local search built for a business that had traded on reputation alone for forty-five years, with requests now arriving by form, phone and email.",
+};
 
 const TOTAL_CLICKS = WITH_SEARCH.reduce((n, p) => n + toNumber(p.search!.clicks), 0);
 const TOTAL_IMPRESSIONS = WITH_SEARCH.reduce((n, p) => n + toNumber(p.search!.impressions), 0);
@@ -45,8 +61,6 @@ const LEADS =
   LEADS_LOW === LEADS_HIGH
     ? LEADS_LOW.toLocaleString("en-GB")
     : `${LEADS_LOW.toLocaleString("en-GB")} to ${LEADS_HIGH.toLocaleString("en-GB")}`;
-const COUNTED = WITH_LEADS.filter((p) => !p.leads!.count.includes(" to ")).length;
-const LEAD_SITES = WORDS[COUNTED] ?? String(COUNTED);
 const MILLIONS = (TOTAL_IMPRESSIONS / 1_000_000).toFixed(1);
 const SITE_COUNT = WORDS[WITH_SEARCH.length] ?? String(WITH_SEARCH.length);
 
@@ -107,14 +121,13 @@ export default function ResultsPage() {
             </p>
             <blockquote className="mb-12 max-w-[56ch] text-[.85rem]" style={{ color: "var(--dim)" }}>
               Sources: enquiries are a monthly average for {LEADS_PERIOD},
-              from the {LEAD_SITES} sites that keep a record of their contact
-              and quote forms, counted from those records. The counts are
-              form submissions only, so enquiries by phone and email are not
-              in them (ValenciaMove’s record starts in July, so its figure is
-              July alone). Two figures are ranges: C21 Perdomo’s forms post
-              outside its site, and Bemelman’s requests also arrive by phone
-              and email. Clicks and impressions cover the same three months,
-              from Google Search Console.
+              from the sites that keep a record of their contact and quote
+              forms, counted from those records. The counts are form
+              submissions only, so enquiries by phone and email are not in
+              them, and a range stands where a site’s forms post outside it or
+              its requests also arrive by phone and email. Clicks and
+              impressions cover the same three months, from Google Search
+              Console.
             </blockquote>
           </Reveal>
 
@@ -123,10 +136,10 @@ export default function ResultsPage() {
               <Reveal key={p.slug} i={i}>
                 <Link
                   href={`/projects/${p.slug}/`}
-                  className="group grid grid-cols-3 gap-x-3 gap-y-4 py-6 sm:gap-x-6 md:grid-cols-[minmax(0,1.4fr)_repeat(3,minmax(0,1fr))] md:items-baseline"
+                  className="group grid gap-x-8 gap-y-2 py-6 md:grid-cols-[minmax(0,1fr)_minmax(0,1.6fr)] md:items-baseline"
                   style={{ borderBottom: "1px solid var(--rule)" }}
                 >
-                  <span className="col-span-3 flex flex-col gap-1 md:col-span-1">
+                  <span className="flex flex-col gap-1">
                     <span className="display text-[1.15rem] font-semibold transition-colors duration-300 group-hover:text-[var(--berry)]">
                       {p.name}
                     </span>
@@ -135,25 +148,7 @@ export default function ResultsPage() {
                       {OWNED.has(p.slug) ? ", our own site" : ""}
                     </span>
                   </span>
-                  {[
-                    { v: p.leads?.count ?? "", k: p.leads ? `${p.leads.what} a month` : "" },
-                    { v: p.search!.clicks, k: "Clicks" },
-                    { v: p.search!.impressions, k: "Impressions" },
-                  ].map((m, mi) => (
-                    // Sized so a seven-digit figure and its label each hold
-                    // one line in a third of a 360px phone (owner, 3 Oct
-                    // 2026: "2,399,56 / 7" broke across lines).
-                    // An empty first cell keeps the columns aligned on a site
-                    // with no form record.
-                    <span key={mi} className="flex min-w-0 flex-col gap-1" aria-hidden={m.v ? undefined : true}>
-                      <span className="display whitespace-nowrap text-[clamp(.98rem,4.4vw,1.2rem)] font-semibold leading-none tabular-nums" style={{ color: "var(--berry)" }}>
-                        {m.v}
-                      </span>
-                      <span className="text-[.62rem] leading-tight sm:whitespace-nowrap uppercase tracking-[.06em] sm:text-[.7rem] sm:tracking-[.12em]" style={{ color: "var(--dim)" }}>
-                        {m.k}
-                      </span>
-                    </span>
-                  ))}
+                  <span className="text-[1rem] leading-[1.5]">{RESULT[p.slug] ?? p.outcome}</span>
                 </Link>
               </Reveal>
             ))}

@@ -9,6 +9,7 @@ import { getService } from "@/lib/services";
 import { SITE_URL, breadcrumbSchema, serviceSchema } from "@/lib/schema";
 import ServiceHeroArt from "@/components/ServiceHeroArt";
 import { leadGenLanguages } from "@/lib/lead-gen-hubs";
+import { pageMeta } from "@/lib/meta";
 import HeroArtSlot from "@/components/HeroArtSlot";
 import { hasDlArt } from "@/lib/dl-art";
 
@@ -20,26 +21,13 @@ import { hasDlArt } from "@/lib/dl-art";
 const service = getService("lead-generation")!;
 const url = `${SITE_URL}/services/lead-generation/`;
 
-export const metadata: Metadata = {
-  title: service.metaTitle,
-  description: service.metaDescription,
-  alternates: { canonical: url, languages: leadGenLanguages() },
-  // og:image/twitter:image come from the colocated opengraph-image.tsx
-  // (Next.js file-convention metadata), not an `images` array here.
-  openGraph: {
-    type: "website",
-    siteName: "Mike Bastin",
-    locale: "en_GB",
-    url,
-    title: service.metaTitle,
-    description: service.metaDescription,
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: service.metaTitle,
-    description: service.metaDescription,
-  },
-};
+export const metadata: Metadata = pageMeta({
+  title: service.metaTitle ?? service.name,
+  description: service.metaDescription ?? service.subhead,
+  path: "/services/lead-generation/",
+  languages: leadGenLanguages(),
+  cardAlt: `${service.cardTitle ?? service.name}. ${service.metaDescription ?? service.subhead}`,
+});
 
 /**
  * The three parts of the work, each linking to the page that covers it in

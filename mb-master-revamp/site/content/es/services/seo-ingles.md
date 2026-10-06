@@ -39,7 +39,7 @@ Cuando Estados Unidos entra en tu proyecto, recibe su propia versión, escrita p
 
 ## Sitios en inglés que llevamos
 
-Para TX International Freight, un transitario de Houston, llevamos el SEO técnico y el contenido en inglés. Los compradores de flete industrial buscan con el vocabulario de su oficio: la investigación de palabras clave partió de ese vocabulario, aprendido del propio sector. El sitio aparece en los resultados locales de Google en Houston para esas búsquedas, y Search Console le cuenta 764.222 impresiones y 2.616 clics de mayo a julio de 2026.
+Para TX International Freight, un transitario de Houston, llevamos el SEO técnico y el contenido en inglés. Los compradores de flete industrial buscan con el vocabulario de su oficio: la investigación de palabras clave partió de ese vocabulario, aprendido del propio sector. El sitio aparece en los resultados locales de Google en Houston para esas búsquedas.
 
 Delaguía y Luzón, un despacho de abogados de Valencia, publica en cuatro idiomas, entre ellos el inglés, sobre derecho español y francés. Cada término se mantiene al nivel de precisión que un abogado exige al leerlo, en la traducción y en el SEO.
 

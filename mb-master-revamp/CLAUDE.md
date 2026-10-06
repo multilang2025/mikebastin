@@ -228,6 +228,7 @@ needs.
   `url` kept in `redirects/content-map.json`, redirects regenerated):
   `/es/seo-multilingue-2026-presencia-total/` became
   `/es/buenas-practicas-seo-multilingue/` that way.
+- **No per-client results figures**, in any locale (owner, 5 Oct 2026: "remove per-client numbers everywhere"). The site publishes results as totals across every site we run search for (`lib/results-totals.ts`) and as plain-language outcomes per client, never one client's clicks, impressions, average position, enquiries or hours saved. `search` and `leads` in `lib/projects.ts` are source data for the totals only. `npm run lint:figures` fails the build if a built page prints one. Identity facts (languages, TLDs, years trading) are not results and stay.
 - IP boundary: no Marvel/superhero imagery tied to "Silver Surfer" — it is a
   prose-only nickname, visual language is original surf/wave motifs.
 

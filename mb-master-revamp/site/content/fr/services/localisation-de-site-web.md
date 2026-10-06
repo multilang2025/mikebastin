@@ -44,7 +44,7 @@ Nous travaillons pour les marchés où nos clients vendent déjà : l’Espagne
 
 Century 21 Perdomo vend de l’immobilier en République dominicaine, en quatre langues, sur un WordPress headless avec WPML et WooCommerce. Quand un bien se vend, qu’un prix change ou qu’un statut bascule, la mise à jour doit apparaître correctement dans les quatre versions en même temps.
 
-Entre mai et juillet 2026, le site a obtenu 9 944 clics pour 461 231 impressions Google, avec une position moyenne de 10,1. La localisation est construite pour ce cas : quatre langues exactes face à un catalogue qui change chaque semaine.
+La localisation est construite pour ce cas : quatre langues exactes face à un catalogue qui change chaque semaine.
 
 > Source : Google Search Console de c21perdomo.com, mai à juillet 2026.
 

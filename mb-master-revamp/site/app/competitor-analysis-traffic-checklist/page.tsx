@@ -32,12 +32,20 @@ import { getPostMetaDescription } from "@/lib/seo";
 const DESCRIPTION =
   "Run a competitor traffic audit the way we do: the real rival list, what traffic tools tell you and how far to trust them, AI citations and six actions.";
 
+const RECORD = getPostRecord("competitor-analysis-traffic-checklist");
+
 export const metadata: Metadata = {
   ...pageMeta({
     title: "The competitor analysis and traffic checklist, Mike Bastin",
     description: DESCRIPTION,
     path: "/competitor-analysis-traffic-checklist/",
     type: "article",
+    ...(RECORD
+      ? {
+          publishedTime: new Date(RECORD.date).toISOString(),
+          modifiedTime: new Date(RECORD.modified ?? RECORD.date).toISOString(),
+        }
+      : {}),
   }),
 };
 
