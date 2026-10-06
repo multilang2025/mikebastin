@@ -206,7 +206,7 @@ export const SERVICES: Service[] = [
     cluster: "Lead generation",
     pillar: true,
     angle: "Counted in enquiries",
-    lede: "Traffic arrives in French, German and Spanish, and the enquiries still arrive in English. Our own site showed forty thousand impressions in ninety days and six clicks, until we rebuilt it around enquiries.",
+    lede: "Traffic arrives in French, German and Spanish, and the enquiries still arrive in English. We rebuild the journey around the enquiry.",
     metaTitle: "B2B lead generation services across every market",
     metaDescription: "Your other markets already send visitors. We turn them into leads worth a sales call, counted per market. Book a free consultation.",
     sections: ["What a report per market shows you", "What we do in each market", "How it is billed", "The evidence", ...ENGAGEMENT.slice(3)],

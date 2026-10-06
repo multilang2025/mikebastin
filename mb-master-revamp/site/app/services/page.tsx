@@ -6,7 +6,8 @@ import ServiceIcon from "@/components/ServiceIcon";
 import SiteFooter from "@/components/SiteFooter";
 import Expandables from "@/components/Expandables";
 import { SERVICES, CLUSTERS, CLUSTER_HEADING } from "@/lib/services";
-import { GBP_URL } from "@/lib/testimonials";
+import { GBP_URL, TESTIMONIALS } from "@/lib/testimonials";
+import ReviewText from "@/components/ReviewText";
 import { SITE_URL, breadcrumbSchema } from "@/lib/schema";
 import JsonLd from "@/components/JsonLd";
 import HeroArtSlot from "@/components/HeroArtSlot";
@@ -272,8 +273,8 @@ export default function ServicesIndex() {
               Common questions about our services
             </h2>
           </Reveal>
-          <p className="mb-8 max-w-[72ch] text-[.95rem] leading-[1.55]" style={{ color: "var(--dim)" }}>
-            “He takes a great deal of care with each task and always puts his client first.”
+          <p className="review-q mb-8 max-w-[72ch] text-[.95rem] leading-[1.55]" style={{ color: "var(--dim)" }}>
+            “<ReviewText text={TESTIMONIALS.find((r) => r.name === "Sammy Cooil")!.quote} />”
             {" · Sammy C. · "}
             <a href={GBP_URL} className="ulink" target="_blank" rel="noopener noreferrer">
               Google review

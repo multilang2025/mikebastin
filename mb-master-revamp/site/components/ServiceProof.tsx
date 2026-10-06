@@ -1,4 +1,5 @@
 import { TESTIMONIALS, GBP_URL, type Testimonial } from "@/lib/testimonials";
+import ReviewText from "@/components/ReviewText";
 
 /**
  * One review, on a service page.
@@ -73,8 +74,8 @@ export default function ServiceProof({ slug }: { slug: string }) {
         </span>
       </div>
 
-      <blockquote lang={t.lang} className="text-[.97rem] leading-[1.6]" style={{ color: "var(--ink)" }}>
-        {t.quote}
+      <blockquote lang={t.lang} className="review-q text-[.97rem] leading-[1.6]" style={{ color: "var(--ink)" }}>
+        <ReviewText text={t.quote} />
       </blockquote>
 
       {t.english && (

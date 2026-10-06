@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { TESTIMONIALS, GBP_URL, type Testimonial } from "@/lib/testimonials";
+import ReviewText from "@/components/ReviewText";
 
 /**
  * Deliberately renders no Review or AggregateRating schema. See the header
@@ -107,10 +108,10 @@ function Card({ t, i, ui }: { t: Testimonial; i: number; ui: Ui }) {
 
       <blockquote
         lang={t.lang}
-        className="text-[.95rem] leading-[1.6]"
+        className="review-q text-[.95rem] leading-[1.6]"
         style={{ color: "var(--ink)" }}
       >
-        {t.quote}
+        <ReviewText text={t.quote} />
       </blockquote>
 
       {ui.translate && t.english && (

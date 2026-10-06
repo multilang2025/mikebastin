@@ -229,6 +229,7 @@ needs.
   `/es/seo-multilingue-2026-presencia-total/` became
   `/es/buenas-practicas-seo-multilingue/` that way.
 - **No per-client results figures**, in any locale (owner, 5 Oct 2026: "remove per-client numbers everywhere"). The site publishes results as totals across every site we run search for (`lib/results-totals.ts`) and as plain-language outcomes per client, never one client's clicks, impressions, average position, enquiries or hours saved. `search` and `leads` in `lib/projects.ts` are source data for the totals only. `npm run lint:figures` fails the build if a built page prints one. Identity facts (languages, TLDs, years trading) are not results and stay.
+- **Reviews show at a uniform length** (owner, 6 Oct 2026): `components/ReviewText.tsx` cuts a review longer than 200 characters at the last word, and the ellipsis shows the rest as a tooltip on hover, focus or touch. Quotes stay verbatim and screen readers read them whole. Use it for any review quote on any page. The "forty thousand impressions, six clicks" line about our own site is not to appear on the website (owner, 6 Oct 2026).
 - IP boundary: no Marvel/superhero imagery tied to "Silver Surfer" — it is a
   prose-only nickname, visual language is original surf/wave motifs.
 
