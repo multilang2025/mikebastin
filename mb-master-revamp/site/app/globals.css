@@ -430,10 +430,18 @@ h1, h2, h3, .display {
   animation: hero-chart-rise 1.5s cubic-bezier(.22,.7,.28,1) .25s forwards;
 }
 @keyframes hero-chart-rise { to { stroke-dashoffset: 0; } }
+.services-hero-art {
+  animation: services-hero-art-float 6s ease-in-out infinite;
+}
+@keyframes services-hero-art-float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-7px); }
+}
 @media (prefers-reduced-motion: reduce) {
   .market-flow-art, .market-flow-path, .market-node { animation: none; }
   .hero-portrait-bubble, .hero-chart-bubble { animation: none; }
   .hero-chart-line { animation: none; stroke-dashoffset: 0; }
+  .services-hero-art { animation: none; }
 }
 
 .flink { color: var(--ink); }
