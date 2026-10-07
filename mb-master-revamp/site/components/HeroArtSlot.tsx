@@ -7,12 +7,22 @@ import type { ReactNode } from "react";
  * to the right from lg up; the generic hero motifs stay desktop only, as
  * before, because on a phone they would push the lede off screen.
  */
-export default function HeroArtSlot({ children, visibleOnMobile }: { children: ReactNode; visibleOnMobile: boolean }) {
+export default function HeroArtSlot({
+  children,
+  visibleOnMobile,
+  compactOnMobile = false,
+}: {
+  children: ReactNode;
+  visibleOnMobile: boolean;
+  compactOnMobile?: boolean;
+}) {
   return (
     <div
       className={
         visibleOnMobile
-          ? "mx-auto mt-12 w-full max-w-[320px] lg:mx-0 lg:mt-24 lg:w-[min(360px,30vw)] lg:max-w-none"
+          ? compactOnMobile
+            ? "order-first mx-auto mb-5 w-[88px] lg:order-none lg:mx-0 lg:mb-0 lg:mt-24 lg:w-[min(360px,30vw)] lg:max-w-none"
+            : "mx-auto mt-12 w-full max-w-[320px] lg:mx-0 lg:mt-24 lg:w-[min(360px,30vw)] lg:max-w-none"
           : "hidden w-[min(360px,30vw)] lg:mt-24 lg:block"
       }
     >

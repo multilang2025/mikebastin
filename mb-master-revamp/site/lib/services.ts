@@ -112,7 +112,14 @@ export type Service = {
    * nothing under them (owner, 4 Oct 2026, on technical SEO: "reads like a
    * how to, and not services we provide").
    */
-  process?: { title: string; text: string }[];
+  process?: {
+    title: string;
+    text: string;
+    icon?: "search" | "map" | "plan" | "write" | "globe" | "report";
+    deliverable?: string;
+  }[];
+  /** Ongoing engagement terms shown separately from the delivery steps. */
+  engagementNote?: { title: string; text: string };
   /**
    * Real on-page prose: 2 to 4 sections, each a heading plus one to three
    * paragraphs, adapted from the harvested legacy pages this service
@@ -126,6 +133,8 @@ export type Service = {
   body?: {
     heading: string;
     paragraphs: string[];
+    examples?: { label: string; sentence: string }[];
+    stats?: { value: string; label: string; source: string }[];
     /**
      * An optional branded illustration for this section, shown beside the
      * text at desktop width and above it on mobile. Files live in
@@ -823,11 +832,11 @@ export const SERVICES: Service[] = [
     name: "Spanish SEO",
     cardTitle: "Spanish SEO and GEO for Spain and Latin America",
     inline: "Spanish SEO",
-    h1: "Spanish SEO and GEO agency for companies selling in Spanish",
-    subhead: "Spain run directly from Valencia, Latin America by native copywriters in Santo Domingo, so every Spanish-speaking buyer reads a page written for their own country.",
+    h1: "Spanish SEO that converts",
+    subhead: "Reach more buyers in Spain and Latin America with search strategies and content tailored to each market.",
     cluster: "Search",
     angle: "SEO Spain and Latin America, one market at a time",
-    lede: "Your Spanish pages are read in Madrid, Mexico City and Bogotá, and a buyer in each of them is convinced by Spanish written for their own country.",
+    lede: "From Madrid to Mexico City and Bogotá, your pages speak each buyer's Spanish and earn their trust.",
     metaTitle: "Spanish SEO agency for Spain and Latin America",
     metaDescription: "Buyers in Madrid and Mexico City each trust Spanish written for them. Spanish SEO run from Valencia for Spain and by native writers for Latin America.",
     // Research, 23 Sep 2026 (Ahrefs US, GB and worldwide, plus this page's
@@ -847,10 +856,14 @@ export const SERVICES: Service[] = [
     ],
     body: [
       {
-        heading: "What a Spanish site per market wins you",
+        heading: "Spanish SEO that earns trust in every market",
         paragraphs: [
-          "Spanish from Spain reads as distant and formal in Mexico City. Latin American Spanish reads as casual in unexpected places in Madrid. A page run through machine translation reads as translated English everywhere. Each buyer trusts the supplier who sounds like one of them, and sends the enquiry there.",
-          "The company details count just as much. A buyer in Spain expects to see a CIF or NIF, a buyer in Mexico an RFC, and prices in their own currency.",
+          "Spanish SEO is not one-size-fits-all. Buyers in Spain and Latin America search differently, and the Spanish that feels natural in Madrid may not persuade someone in Mexico City or Bogotá. We research each target market, then shape your keywords and content to help the right customers find you and feel confident getting in touch.",
+          "Planning to enter Spain, grow across Latin America, or compare opportunities in both? We can help you choose where to focus, prioritize the pages with the strongest potential, and adapt the details buyers expect, from local terminology to company information and currency. Tell us which markets matter to you, and we’ll map out a practical next step.",
+        ],
+        examples: [
+          { label: "Spain", sentence: "Alquila un coche en el aeropuerto." },
+          { label: "Mexico", sentence: "Renta un auto en el aeropuerto." },
         ],
       },
       {
@@ -864,8 +877,20 @@ export const SERVICES: Service[] = [
       {
         heading: "Spanish SEO is searched for from two directions",
         paragraphs: [
-          "The largest single share of searches comes from the United States: 500 of the 1,100 monthly searches worldwide for Spanish SEO, and 400 of the 800 for SEO in Spanish (Ahrefs, September 2026). From the other direction, companies elsewhere in Europe look for help in Spain in French, German and Dutch.",
+          "The United States is the largest single source of searches for both Spanish SEO and SEO in Spanish. European companies are looking the other way too, searching in French, German and Dutch for SEO support in Spain.",
           "Whichever one you are, the first decision is the same: which Spanish, for which buyers.",
+        ],
+        stats: [
+          {
+            value: "500 of 1,100",
+            label: "Worldwide monthly searches for “Spanish SEO” from the US",
+            source: "Ahrefs · September 2026",
+          },
+          {
+            value: "400 of 800",
+            label: "Worldwide monthly searches for “SEO in Spanish” from the US",
+            source: "Ahrefs · September 2026",
+          },
         ],
       },
       {
@@ -924,28 +949,44 @@ export const SERVICES: Service[] = [
       {
         title: "A free 20-minute audit",
         text: "We look at your Spanish pages market by market and show you which Spanish to start with and where the biggest gains sit, before you commit.",
+        icon: "search",
+        deliverable: "Priority markets and quick wins",
       },
       {
-        title: "A plan per market",
-        text: "We agree a strategy and editorial calendar per market with you in English, French or Spanish, and send a written scope naming the pages and deliverables.",
+        title: "Research each market",
+        text: "We research what buyers search for in Spain and each Latin American market you want to reach.",
+        icon: "map",
+        deliverable: "A keyword map for each market",
       },
       {
-        title: "Spain written directly from Valencia",
+        title: "Agree the plan",
+        text: "We agree the strategy and editorial calendar with you in English, French or Spanish, then set out the pages and deliverables in writing.",
+        icon: "plan",
+        deliverable: "A written scope and editorial calendar",
+      },
+      {
+        title: "Write for Spain",
         text: "We research and write the Spanish for Spain ourselves from Valencia, straight from the plan to the page, so buyers in Madrid read a supplier who sounds local.",
+        icon: "write",
+        deliverable: "Spanish pages written in Valencia",
       },
       {
-        title: "Latin America from Santo Domingo",
-        text: "Native copywriters on the BeTranslated team in Santo Domingo write each Latin American variant from our briefs, and we check every page so the markets stay one plan.",
+        title: "Adapt for Latin America",
+        text: "Native copywriters on the BeTranslated team in Santo Domingo write each local variant from our briefs, and we check every page so the markets stay one plan.",
+        icon: "globe",
+        deliverable: "Copy shaped for each target market",
       },
       {
-        title: "Monthly reporting per market",
-        text: "Each month Spain and each Latin American market get their own numbers, with a short report on what moved and what comes next.",
-      },
-      {
-        title: "Month to month",
-        text: "Engagements run month to month, so the work carries on for as long as it pays.",
+        title: "Measure and refine",
+        text: "We report on rankings and enquiries separately for Spain and each Latin American market, then agree what to improve next.",
+        icon: "report",
+        deliverable: "Monthly results and next steps",
       },
     ],
+    engagementNote: {
+      title: "Flexible monthly support",
+      text: "Work together one month at a time, and continue for as long as it delivers value.",
+    },
   },
   {
     slug: "dutch-seo",
