@@ -65,7 +65,7 @@ const CLUSTER_SCENE: Record<string, { src: string; alt: string; intro: string }>
   Search: {
     src: "/images/scenes/svc-search.webp",
     alt: "The same service page ranking in French, German and Spanish search results, and cited in an AI answer",
-    intro: "Found in the language each buyer searches in, on Google and in AI answers.",
+    intro: "One strategy across your markets, then pages for each language, researched from that market's own searches and written by a native speaker. French, German, Spanish, Dutch, Italian and Portuguese each have their own service below, so buyers find a supplier that sounds local on Google and in AI answers.",
   },
   Localization: {
     src: "/images/scenes/svc-localization.webp",
@@ -212,7 +212,7 @@ export default function ServicesIndex() {
                       {CLUSTER_HEADING[cluster] ?? cluster}
                     </h2>
                     {CLUSTER_SCENE[cluster] && (
-                      <p className="max-w-[44ch] text-[1.08rem] leading-[1.55]" style={{ color: "var(--dim)" }}>
+                      <p className="max-w-[54ch] text-[1.08rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
                         {CLUSTER_SCENE[cluster].intro}
                       </p>
                     )}
