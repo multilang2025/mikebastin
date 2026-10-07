@@ -112,7 +112,12 @@ export type Service = {
    * nothing under them (owner, 4 Oct 2026, on technical SEO: "reads like a
    * how to, and not services we provide").
    */
-  process?: { title: string; text: string }[];
+  process?: {
+    title: string;
+    text: string;
+    detail?: string;
+    icon?: "consultation" | "scope" | "research" | "setup" | "report";
+  }[];
   /**
    * Real on-page prose: 2 to 4 sections, each a heading plus one to three
    * paragraphs, adapted from the harvested legacy pages this service
@@ -658,26 +663,32 @@ export const SERVICES: Service[] = [
       {
         title: "A free 30-minute consultation",
         text: "We review your French pages through a buyer's eyes and show you where the biggest opportunities lie, before you commit to anything.",
+        detail: "30 minutes",
+        icon: "consultation",
       },
       {
         title: "A written scope",
         text: "After the call you get a written scope naming the French pages, the research and the deliverables, in order of what each one is worth to you.",
+        detail: "Pages and deliverables",
+        icon: "scope",
       },
       {
         title: "Research and writing in French",
         text: "We research French searches market by market and write or rewrite the pages that matter directly in French, so they read as written in France from the first sentence.",
+        detail: "French research and copy",
+        icon: "research",
       },
       {
         title: "Setup and trust signals for France",
         text: "We set up language targeting, mobile speed, a French Google Business Profile and the French directory listings your sector uses, so French buyers find you and trust what they find.",
+        detail: "Targeting and local signals",
+        icon: "setup",
       },
       {
         title: "Monthly reporting on French enquiries",
         text: "Each month you get a short report on French rankings and enquiries, kept apart from your other markets, with what moved and what comes next.",
-      },
-      {
-        title: "Flexible monthly terms",
-        text: "Engagements continue one month at a time, so the work carries on for as long as it pays.",
+        detail: "A report every month",
+        icon: "report",
       },
     ],
   },
