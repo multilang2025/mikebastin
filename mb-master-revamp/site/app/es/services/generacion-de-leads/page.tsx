@@ -119,7 +119,7 @@ export default function SpanishLeadGenerationPage() {
             </Reveal>
             <Reveal i={3}>
               <p className="mb-10 max-w-[58ch] text-[clamp(1.05rem,1.5vw,1.2rem)] leading-[1.58]" style={{ color: "var(--dim)" }}>
-                El tráfico llega en francés, alemán y neerlandés, y las consultas siguen llegando en español. Nuestra propia web mostraba cuarenta mil impresiones en noventa días y seis clics, hasta que la reconstruimos pensando en las consultas. Los compradores ya buscaban: el siguiente paso era convertir esa búsqueda en una conversación.
+                El tráfico llega en francés, alemán y neerlandés, y las consultas siguen llegando en español. Los compradores ya buscaban: el siguiente paso era convertir esa búsqueda en una conversación.
               </p>
             </Reveal>
             <Reveal i={4}>

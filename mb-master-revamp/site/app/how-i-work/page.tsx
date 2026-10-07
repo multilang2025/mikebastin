@@ -74,7 +74,7 @@ const QUESTIONS = [
   },
   {
     q: "Who does the work?",
-    a: "We scope and run the strategy directly. Native-language writing and translation go through named specialists, most through the BeTranslated network run for twenty years.",
+    a: "We scope and run the strategy directly. Native-language writing and translation go through named specialists, most through the BeTranslated network run for over two decades.",
   },
   {
     q: "How is it billed?",

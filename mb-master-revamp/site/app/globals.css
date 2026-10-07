@@ -430,10 +430,18 @@ h1, h2, h3, .display {
   animation: hero-chart-rise 1.5s cubic-bezier(.22,.7,.28,1) .25s forwards;
 }
 @keyframes hero-chart-rise { to { stroke-dashoffset: 0; } }
+.services-hero-art {
+  animation: services-hero-art-float 6s ease-in-out infinite;
+}
+@keyframes services-hero-art-float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-7px); }
+}
 @media (prefers-reduced-motion: reduce) {
   .market-flow-art, .market-flow-path, .market-node { animation: none; }
   .hero-portrait-bubble, .hero-chart-bubble { animation: none; }
   .hero-chart-line { animation: none; stroke-dashoffset: 0; }
+  .services-hero-art { animation: none; }
 }
 
 .flink { color: var(--ink); }
@@ -1145,6 +1153,33 @@ html[data-loop="off"] .hero-chart-bubble { animation: hero-bubble-enter .8s cubi
 html[data-loop="off"] .market-flow-art,
 html[data-loop="off"] .market-flow-path,
 html[data-loop="off"] .market-node { animation: none; }
+
+/* Reviews at a uniform length (components/ReviewText.tsx): the ellipsis opens
+   the rest of the review on hover, keyboard focus or touch. The tip sits
+   against the nearest .review-q, so it spans the card on any screen. */
+.review-q { position: relative; }
+.review-more { cursor: help; color: var(--berry); border-radius: 2px; }
+.review-more:focus-visible { outline: 2px solid var(--berry); outline-offset: 2px; }
+.review-more-tip {
+  display: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: calc(100% + 6px);
+  z-index: 30;
+  padding: 12px 14px;
+  background: var(--bg);
+  color: var(--ink);
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  box-shadow: 0 10px 28px rgba(12, 18, 28, .16);
+  font-size: .85rem;
+  line-height: 1.55;
+  font-style: normal;
+  cursor: auto;
+}
+.review-more:hover .review-more-tip,
+.review-more:focus .review-more-tip { display: block; }
 
 /* BeTranslated country flags (components/CountryFlags.tsx). Plays once, when
    the Reveal wrapper scrolls into view (declaudify brief: no loops). */

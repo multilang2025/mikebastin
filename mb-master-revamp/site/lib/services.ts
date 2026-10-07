@@ -448,7 +448,7 @@ export const SERVICES: Service[] = [
       {
         heading: "Three cases where the multilingual scope was the whole challenge",
         paragraphs: [
-          "BeTranslated, the translation agency we have run for twenty years, runs ten country-specific domains with WPML across all of them, cross-domain hreflang, native content per market from the in-house translator team and schema localized per country. The result has been consistent organic ranking across several European markets and AI citations in each target language for translation services queries.",
+          "BeTranslated, the translation agency we have run for over two decades, runs ten country-specific domains with WPML across all of them, cross-domain hreflang, native content per market from the in-house translator team and schema localized per country. The result has been consistent organic ranking across several European markets and AI citations in each target language for translation services queries.",
           "Century 21 Perdomo sells Dominican real estate in English, French, Spanish and German on a headless WordPress, WPML and WooCommerce build, with every locale researched from its own market's searches.",
           "A Valencia law firm working in Spanish, French, English and Russian runs WPML across all four, with LegalService schema localized per language and attorney bios adapted to each audience. It now gets recurring leads on commercial-intent queries such as business law and franchise contracts, in its clients' own languages.",
         ],
@@ -590,7 +590,7 @@ export const SERVICES: Service[] = [
       {
         heading: "French sites we run for ourselves and for clients",
         paragraphs: [
-          "BeTranslated, the translation agency we have run for twenty years, has its French site on its own .fr domain, with keyword research done specifically for France.",
+          "BeTranslated, the translation agency we have run for over two decades, has its French site on its own .fr domain, with keyword research done specifically for France.",
           "Matosurf is our own French board sports site: a hundred and twenty guides to forty-eight French spots, written in French for French riders.",
           "For Delaguía y Luzón, a Valencia law firm working across Spain and France, the French pages are held to the standard a French lawyer would apply when reading them, because in legal content precise terms matter for liability first and for rankings second.",
         ],
@@ -737,7 +737,7 @@ export const SERVICES: Service[] = [
       {
         heading: "Where the German writing comes from",
         paragraphs: [
-          "The German is written by the native German translators and copywriters of BeTranslated, the translation agency we have run for twenty years. They have written German for clients selling into Germany, Austria and Switzerland for years, and they work from our briefs, written for the German page.",
+          "The German is written by the native German translators and copywriters of BeTranslated, the translation agency we have run for over two decades. They have written German for clients selling into Germany, Austria and Switzerland for years, and they work from our briefs, written for the German page.",
           "Every page is read by a second native German before it goes live, and by your own team after that.",
         ],
       },
@@ -1003,7 +1003,7 @@ export const SERVICES: Service[] = [
         heading: "Dutch and Belgian sites we run and work on",
         paragraphs: [
           "Bemelman Spuiterij is a powder-coating specialist in Noordwijkerhout, in the Bollenstreek, with forty-five years of reputation. Its site is written entirely in Dutch, with a page per service and a quote form that asks for the project type and the surface area, so requests arrive ready to price.",
-          "BeTranslated, the translation agency we have run for twenty years, has its own .be and .nl sites, each researched for its own market.",
+          "BeTranslated, the translation agency we have run for over two decades, has its own .be and .nl sites, each researched for its own market.",
         ],
       },
     ],
@@ -1509,7 +1509,7 @@ export const SERVICES: Service[] = [
     cluster: "Localization",
     pillar: true,
     angle: "Where accuracy is a liability question",
-    lede: "You have a contract, a patient record or a birth certificate that a court, a regulator or an embassy has to accept, with every term right the first time. Work goes through the BeTranslated network, which we have run for twenty years.",
+    lede: "You have a contract, a patient record or a birth certificate that a court, a regulator or an embassy has to accept, with every term right the first time. Work goes through the BeTranslated network, which we have run for over two decades.",
     metaTitle: "Certified and sworn translation services, Mike Bastin",
     metaDescription: "A contract, a patient record or a certificate a court or an embassy has to accept. Certified and sworn translation services through the BeTranslated network.",
     sections: ["Where translation accuracy carries the most weight", ...ENGAGEMENT],
@@ -2280,7 +2280,7 @@ export const SERVICES: Service[] = [
   },
 ];
 
-export const CLUSTERS = ["Lead generation", "Search", "Localization", "AI", "Supporting"] as const;
+export const CLUSTERS = ["Search", "Lead generation", "Localization", "AI", "Supporting"] as const;
 
 /**
  * Heading form of each cluster, for the `h2` on /services/.
