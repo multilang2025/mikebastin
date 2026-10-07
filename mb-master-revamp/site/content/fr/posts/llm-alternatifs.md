@@ -12,6 +12,8 @@ sourceUrl: null
 excerpt: "Dix LLM alternatifs à ChatGPT, l’usage où chacun excelle et la licence à vérifier, pour payer le juste prix vos tâches d’IA courantes."
 ---
 
+## Un LLM adapté à chaque tâche et à chaque langue
+
 Votre équipe paie peut-être le tarif d’un modèle de pointe pour des tâches qu’un modèle plus petit accomplirait très bien. Dans certaines de vos langues, un modèle moins connu traduit parfois mieux que celui que vous utilisez aujourd’hui. Pour une entreprise qui vend en Espagne, au Benelux, en Allemagne ou au Royaume-Uni, regarder au-delà de ChatGPT, Claude, Gemini et Llama réduit la facture des tâches courantes et peut relever la qualité sur les marchés que les modèles pensés pour l’anglais servent le moins bien.
 
 Voici dix modèles regroupés selon leur intérêt, avec les conditions de licence à vérifier avant de construire dessus.

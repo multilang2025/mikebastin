@@ -13,6 +13,8 @@ sourceUrl: null
 excerpt: "Extensions Chrome SEO : les dix que nous gardons pour vérifier en quelques secondes une redirection, un hreflang ou une balise de suivi."
 ---
 
+## Pourquoi une extension Chrome SEO accélère vos contrôles
+
 Une page espagnole affiche du texte en français, ou les demandes venues d’un marché chutent du jour au lendemain. Chaque cas se vérifie vite sur la page elle-même, et le confirmer le jour même permet aux demandes de continuer d’arriver. Les dix extensions Chrome ci-dessous sont celles que nous gardons installées pour ces moments, regroupées par usage.
 
 ## Les dix extensions en un coup d’œil

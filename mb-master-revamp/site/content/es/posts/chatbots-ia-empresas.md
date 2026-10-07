@@ -13,6 +13,8 @@ sourceUrl: null
 excerpt: "Un chatbot de IA atiende a tus clientes en cada mercado, de día y de noche: diez usos rentables, cómo medirlos y cuándo pasar el relevo a una persona."
 ---
 
+## Chatbots con IA que atienden a tus clientes día y noche
+
 Tus clientes en Francia, Alemania y los Países Bajos hacen preguntas mientras tu equipo duerme, a menudo en idiomas que tu equipo apenas lee. Cada respuesta bien dada durante la noche mantiene en marcha una venta o una renovación. Un chatbot de IA toma ese relevo cuando tiene una tarea clara y sabe en qué momento pasar la conversación a una persona.
 
 ## Las piezas de la IA conversacional que conviene conocer antes de comprar

@@ -13,6 +13,8 @@ sourceUrl: "https://mikebastin.com/internal-linking-tools/"
 excerpt: "Well-linked new pages get found fast. Internal linking tools and WordPress plugins compared, from Link Whisper to Link Manager, with prices."
 ---
 
+## What an internal linking tool does for a large site
+
 You publish a strong new page, and it gets read once the rest of your site points to it. On a WordPress site with hundreds of posts, a tool keeps those links current faster than hand editing can, and connects the pages you most want found.
 
 Below we compare six internal linking tools and WordPress plugins: what each does best, what it costs, and how to choose between them.

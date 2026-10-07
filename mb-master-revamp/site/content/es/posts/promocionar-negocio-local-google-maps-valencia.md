@@ -13,6 +13,8 @@ sourceUrl: null
 excerpt: "Promociona tu negocio local en Google Maps en Valencia: ficha, reseñas y publicaciones en castellano e inglés para que tu barrio te encuentre."
 ---
 
+## Cómo te encuentran en Google Maps los vecinos de Valencia
+
 Alguien a dos calles de tu local, en Ruzafa, en Benimaclet o en Campanar, busca justo lo que ofreces y llama a una de las tres empresas que Google Maps enseña primero. El objetivo es que la tuya sea una de ellas, para que el teléfono suene tanto como puede sonar.
 
 En Valencia esa búsqueda llega en dos idiomas. Un vecino escribe «peluquería Ruzafa» y un residente extranjero «hairdresser Ruzafa». La empresa que aparece en las dos búsquedas recibe a los dos clientes, y eso está al alcance de cualquier negocio de barrio que cuide su ficha.

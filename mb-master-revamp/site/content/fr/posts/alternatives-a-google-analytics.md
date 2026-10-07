@@ -13,6 +13,8 @@ sourceUrl: null
 excerpt: "Comparez cinq alternatives à Google Analytics selon la confidentialité, le prix et la prise en main, et retenez celle qui mesure bien vos marchés."
 ---
 
+## Ce qu’une alternative à Google Analytics doit apporter
+
 Votre outil de mesure devrait vous dire quel marché mérite le prochain budget : des chiffres européens complets, les visiteurs qui refusent le bandeau de consentement pris en compte, et des rapports que toute l’équipe sait lire.
 
 Voici cinq alternatives à Google Analytics, leur coût d’entrée et le type d’entreprise auquel chacune convient. Les prix sont ceux que chaque éditeur publie pour son offre d’entrée, relevés le 2 octobre 2026, dans la devise affichée par l’éditeur. Ils changent souvent : confirmez-les avant de vous engager.

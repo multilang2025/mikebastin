@@ -12,6 +12,8 @@ sourceUrl: "https://mikebastin.com/future-of-seo/"
 excerpt: "SEO still pays as Google sends fewer clicks. Where the future of SEO is heading, AI answers included, and where next quarter's effort goes."
 ---
 
+## What fewer Google clicks mean for SEO
+
 Your business is probably doing better than your organic traffic report suggests. Fewer people click through from Google now, because more questions get answered on the results page, or inside ChatGPT, before anyone visits a site. Judge search on what it brings in, and you keep the channel that still sends your best leads while spending on the tactics the new results pages reward.
 
 Below: what earns visibility now, which measures have taken over from the old ones, and where to put next quarter's effort, trend by trend, with a priority table at the end.

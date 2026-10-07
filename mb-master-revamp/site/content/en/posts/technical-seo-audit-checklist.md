@@ -12,6 +12,8 @@ sourceUrl: "https://mikebastin.com/technical-seo-audit-checklist/"
 excerpt: "Good content, ready to rank higher? A technical SEO audit checklist: what to check, how to spot each issue and how to fix it, from structure to speed."
 ---
 
+## What a technical SEO audit should cover
+
 Your content is good, the pages look fine, and the next ranking gains sit underneath: pages search engines can reach, one clear version of each page, a site fast enough on a phone to keep the visitor. Get those right and every euro spent on content and links earns its full value.
 
 The checklist below is written for [web agencies](/services/) auditing client sites, and works just as well for your own. Each section covers what to check, how to find the issue and how to fix it, with the tools we use and short code examples.

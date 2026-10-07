@@ -13,6 +13,8 @@ sourceUrl: null
 excerpt: "EEAT o AEAT: una letra separa la prueba de confianza de Google de Hacienda. Una anécdota del SEO en España y las comprobaciones que te deja."
 ---
 
+## EEAT y AEAT: qué decide cada sigla en tu empresa
+
 Si tu empresa factura en España y vende fuera, dos siglas separadas por una sola letra deciden cómo te va el año. EEAT decide si Google confía en tu web. AEAT decide si Hacienda confía en tus cuentas. Mantenlas bien separadas en una propuesta comercial y prometerás la auditoría correcta.
 
 <figure class="post-fig">

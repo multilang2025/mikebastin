@@ -77,7 +77,7 @@ export default function ResultsPage() {
     <main>
       <JsonLd data={breadcrumbSchema([{ name: "Home", url: `${SITE_URL}/` }, { name: "Results", url: `${SITE_URL}/results/` }])} />
       {/* ============ HERO ============ */}
-      <section className="band band-a grain relative overflow-hidden pb-[clamp(56px,8vw,100px)] pt-[clamp(96px,14vw,160px)]">
+      <section className="band band-a grain relative overflow-hidden pb-[clamp(32px,4vw,56px)] pt-[clamp(88px,9vw,112px)]">
         <div className="shell relative grid items-start gap-x-12 lg:grid-cols-[1fr_auto]">
         <div>
           <Reveal>
@@ -122,10 +122,10 @@ export default function ResultsPage() {
             <blockquote className="mb-12 max-w-[56ch] text-[.85rem]" style={{ color: "var(--dim)" }}>
               Sources: enquiries are a monthly average for {LEADS_PERIOD},
               from the sites that keep a record of their contact and quote
-              forms, counted from those records. The counts are form
-              submissions only, so enquiries by phone and email are not in
-              them, and a range stands where a site’s forms post outside it or
-              its requests also arrive by phone and email. Clicks and
+              forms, counted from those records. A count is form submissions
+              only; where a site’s forms post outside it or its requests also
+              arrive by phone and email, the site owner’s own figure or range
+              stands instead. Clicks and
               impressions cover the same three months, from Google Search
               Console.
             </blockquote>

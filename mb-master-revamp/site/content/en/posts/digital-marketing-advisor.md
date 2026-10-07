@@ -13,6 +13,8 @@ sourceUrl: "https://mikebastin.com/digital-marketing-advisor/"
 excerpt: "Marketing spend is up and you want enquiries to follow. Here is how to tell whether you need a digital marketing advisor or an agency first."
 ---
 
+## Hiring a digital marketing advisor or an agency
+
 Your marketing spend has gone up, and the next step is enquiries that rise with it. The answer sits either in the plan or in the people doing it, and you are about to hire someone for one of them.
 
 Pick the right one and a year of budget goes to the right outcome. An advisor sets direction. An agency does the work. Below: how to tell which your business needs, what each really costs, and when the answer is both.

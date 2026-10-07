@@ -13,6 +13,8 @@ sourceUrl: "https://mikebastin.com/360-marketing-agency/"
 excerpt: "One 360 marketing agency should give you one plan that joins every channel up. Here is what joined-up work looks like, and how to test for it."
 ---
 
+## What a 360 marketing agency should deliver
+
 You signed with a **360 marketing agency** to get one joined-up plan. What arrives each month may still be four channel reports stapled together; what you want is one set of KPIs, one audience definition, and one person who can say which channel is paying for the rest.
 
 Joined-up work pays back more than the retainer: paid search spends on the clicks your organic pages have yet to win, and your other languages start from a complete plan. We have spent more than two decades in this industry, and we know what joined-up work looks like from the inside.

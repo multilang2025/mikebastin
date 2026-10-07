@@ -21,7 +21,7 @@ export default function SpanishThanksPage() {
   return (
     <main>
       <LocaleHtmlLang lang="es" />
-      <section className="band band-a grain relative overflow-hidden pb-[clamp(64px,9vw,120px)] pt-[clamp(96px,14vw,180px)]">
+      <section className="band band-a grain relative overflow-hidden pb-[clamp(32px,4vw,56px)] pt-[clamp(88px,9vw,112px)]">
         <div className="shell relative">
           <Reveal>
             <p className="eyebrow mb-8">Ahora nos toca a nosotros</p>
@@ -33,7 +33,7 @@ export default function SpanishThanksPage() {
           </Reveal>
           <Reveal i={2}>
             <p className="mb-10 max-w-[58ch] text-[clamp(1.05rem,1.65vw,1.24rem)]" style={{ color: "var(--dim)" }}>
-              Una persona del equipo lo lee. Te respondemos por lo general en un día laborable, con una opinión sincera sobre si somos las personas adecuadas para tu proyecto.
+              Una persona del equipo lo lee. Te respondemos normalmente en un día laborable, con una opinión sincera sobre si somos las personas adecuadas para tu proyecto.
             </p>
           </Reveal>
           <Reveal i={3}>

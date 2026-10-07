@@ -12,6 +12,8 @@ sourceUrl: null
 excerpt: "Compara cinco alternativas a Google Analytics por privacidad, precio y facilidad de uso, y elige la que mide mejor los mercados donde vendes."
 ---
 
+## Qué debe darte tu herramienta de analítica web
+
 Tu analítica tiene que decirte qué mercado merece el próximo presupuesto: cifras completas de Francia, los Países Bajos o Alemania, e informes que todo el equipo sepa leer.
 
 Aquí tienes cinco alternativas a Google Analytics, lo que cuesta empezar con cada una y qué tipo de empresa encaja con ella. Los precios son los de entrada que publica cada proveedor, comprobados el 2 de octubre de 2026 en la moneda en que los cotiza. Cambian a menudo, así que confírmalos antes de decidir.

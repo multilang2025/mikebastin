@@ -12,6 +12,8 @@ sourceUrl: null
 excerpt: "Stratégies de networking pour jeunes professionnels : où rencontrer les bonnes personnes, comment relancer et quels outils font vivre votre réseau."
 ---
 
+## Le networking, un atout pour démarrer en marketing digital
+
 Dans le marketing digital, les meilleurs postes et les meilleurs clients reviennent souvent à quelqu’un qu’un décideur connaît déjà. En début de carrière, votre CV parle pour vous, alors que les personnes qui décrochent ces postes arrivent avec une recommandation. Commencer dès maintenant à réunir les vôtres vous place sur ces listes, surtout si vos interlocuteurs se trouvent en Espagne, au Benelux, en Allemagne ou au Royaume-Uni.
 
 Voici les canaux qui méritent votre temps, la façon de préparer une rencontre et d’en assurer le suivi, les outils qui gardent un réseau organisé, et la manière d’aborder les moments délicats.

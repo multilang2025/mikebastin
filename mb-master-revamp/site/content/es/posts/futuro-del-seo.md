@@ -12,6 +12,8 @@ sourceUrl: null
 excerpt: "El SEO sigue dando resultados aunque Google envíe menos clics. Qué esperar de la IA, el GEO y las nuevas métricas, y dónde invertir el próximo trimestre."
 ---
 
+## Qué ocurre con el SEO cuando la IA responde primero
+
 Tu negocio probablemente va mejor de lo que indica tu informe de tráfico orgánico. Hoy hacen clic menos personas desde Google, porque más preguntas se resuelven en la propia página de resultados o dentro de ChatGPT. Si mides la búsqueda por lo que aporta al negocio, conservas el canal que sigue enviando tus mejores contactos comerciales y llevas el presupuesto a lo que premian los resultados de ahora.
 
 Aquí verás hacia dónde va la búsqueda: qué ocupan ya las respuestas de IA, cómo trabajar con el cero clics, qué medidas han tomado el relevo de las antiguas y dónde poner el esfuerzo del próximo trimestre. Al final tienes una tabla de prioridades pensada para empresas que ya venden en Francia, el Benelux, Alemania o el Reino Unido.

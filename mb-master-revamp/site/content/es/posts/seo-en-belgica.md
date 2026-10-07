@@ -12,6 +12,8 @@ sourceUrl: null
 excerpt: "Una web belga en un solo idioma llega a la mitad del país. Conquista Flandes, Valonia y Bruselas, cada una en su idioma, con este plan de SEO."
 ---
 
+## El SEO en Bélgica empieza por los tres idiomas
+
 Vendes en Bélgica y tu web belga funciona en un solo idioma, lo que te deja a la vista de más o menos la mitad del país. El neerlandés llega a Flandes, la mayor de las tres comunidades lingüísticas; el francés llega a Valonia y a buena parte de Bruselas. Con el segundo idioma hablas a todo el país, y el comprador elige al proveedor que le habla a él.
 
 El mercado también es mayor de lo que dicen las herramientas de palabras clave, porque infravaloran las búsquedas belgas.

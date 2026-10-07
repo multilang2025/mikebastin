@@ -13,6 +13,8 @@ sourceUrl: "https://mikebastin.com/mastering-the-art-of-networking/"
 excerpt: "The best roles and clients often go to someone already known. Networking strategies for young professionals that turn contacts into real opportunities."
 ---
 
+## Why networking wins digital marketing roles
+
 The best roles and the best clients in digital marketing often go to someone a decision-maker already knows. Early in a career, your CV does most of the talking, while the people who win those roles arrive with an introduction. The best time to start collecting introductions of your own is now.
 
 Networking is how you get them: building relationships that bring you learning, clients and projects. Below: the channels worth your time, how to prepare and follow up, the tools that keep a network organised, and how to handle the awkward parts.

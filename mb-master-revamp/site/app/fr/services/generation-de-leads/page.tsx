@@ -100,7 +100,7 @@ export default function FrenchLeadGenerationPage() {
         ]}
       />
 
-      <section className="band band-a grain relative overflow-hidden pb-[clamp(56px,8vw,100px)] pt-[clamp(96px,14vw,160px)]">
+      <section className="band band-a grain relative overflow-hidden pb-[clamp(32px,4vw,56px)] pt-[clamp(88px,9vw,112px)]">
         <div className="shell relative grid items-start gap-x-12 lg:grid-cols-[1fr_auto]">
           <div>
             <Reveal>
@@ -118,7 +118,7 @@ export default function FrenchLeadGenerationPage() {
             </Reveal>
             <Reveal i={3}>
               <p className="mb-10 max-w-[58ch] text-[clamp(1.05rem,1.5vw,1.2rem)] leading-[1.58]" style={{ color: "var(--dim)" }}>
-                Le trafic arrive en espagnol, en allemand et en néerlandais, et les demandes arrivent toujours en français. Notre propre site affichait quarante mille impressions en quatre-vingt-dix jours, pour six clics, avant que nous le reconstruisions autour des demandes. Les acheteurs cherchaient ; il restait à transformer cette recherche en conversation.
+                Le trafic arrive en espagnol, en allemand et en néerlandais, et les demandes arrivent toujours en français. Les acheteurs cherchaient ; il restait à transformer cette recherche en conversation.
               </p>
             </Reveal>
             <Reveal i={4}>

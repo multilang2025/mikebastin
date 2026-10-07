@@ -13,6 +13,8 @@ sourceUrl: "https://mikebastin.com/how-to-use-ai-and-machine-translation-tools/"
 excerpt: "More languages on the same budget, checked by people. How to use AI and machine translation tools, and where a human editor protects each market."
 ---
 
+## Reaching more languages with AI translation tools
+
 You need your product pages in five languages, and the translation quote says you can afford two. AI and machine translation tools make five possible. Put a person over their output before it goes live, and each fluent sentence is also a correct one, which is what earns those markets' trust.
 
 Below: what the tools do well, where they need a human hand, and a workflow with a person accountable for every language.

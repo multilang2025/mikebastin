@@ -74,7 +74,7 @@ const QUESTIONS = [
   },
   {
     q: "Who does the work?",
-    a: "We scope and run the strategy directly. Native-language writing and translation go through named specialists, most through the BeTranslated network run for twenty years.",
+    a: "We scope and run the strategy directly. Native-language writing and translation go through named specialists, most through the BeTranslated network run for over two decades.",
   },
   {
     q: "How is it billed?",
@@ -99,7 +99,7 @@ export default function HowIWorkPage() {
         ]}
       />
       {/* ============ HERO ============ */}
-      <section className="band band-a grain relative overflow-hidden pb-[clamp(48px,7vw,80px)] pt-[clamp(96px,14vw,160px)]">
+      <section className="band band-a grain relative overflow-hidden pb-[clamp(32px,4vw,56px)] pt-[clamp(88px,9vw,112px)]">
         <div className="shell relative grid items-start gap-x-12 lg:grid-cols-[1fr_auto]">
         <div>
           <Reveal>

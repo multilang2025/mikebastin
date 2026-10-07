@@ -58,10 +58,11 @@ export default function LocalePostView({ locale, post }: { locale: "fr" | "es"; 
   return (
     <>
       {/* ============ HERO ============ */}
-      <section className="band band-a grain relative overflow-hidden pb-[clamp(48px,7vw,84px)] pt-[clamp(96px,14vw,160px)]">
-        <div className="shell relative">
+      <section className="band band-a grain relative overflow-hidden pb-[clamp(32px,4vw,56px)] pt-[clamp(88px,9vw,112px)]">
+        <div className={`shell relative${opensOnImage ? "" : " lg:grid lg:grid-cols-[minmax(0,1fr)_minmax(0,480px)] lg:items-center lg:gap-x-14"}`}>
+          <div>
           <Reveal>
-            <Link href={t.blog} className="ulink mb-8 inline-block text-[.9rem]" style={{ color: "var(--dim)" }}>
+            <Link href={t.blog} className="ulink mb-5 inline-block text-[.9rem]" style={{ color: "var(--dim)" }}>
               {t.journal}
             </Link>
           </Reveal>
@@ -94,10 +95,11 @@ export default function LocalePostView({ locale, post }: { locale: "fr" | "es"; 
               <span>{fmt(post.date)}</span>
             </p>
           </Reveal>
+          </div>
           {!opensOnImage && (
             <Reveal i={5}>
               <div
-                className="mt-[clamp(32px,5vw,56px)] overflow-hidden rounded-[6px] border"
+                className="mt-[clamp(32px,5vw,56px)] overflow-hidden rounded-[6px] border lg:mt-0"
                 style={{ borderColor: "var(--rule)" }}
               >
                 <PostImage slug={imageSlugFor(locale, post.slug)} alt="" priority className="aspect-[1200/630] w-full" />

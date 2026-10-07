@@ -12,6 +12,8 @@ sourceUrl: null
 excerpt: "Localización de interfaz para cada mercado donde vendes: textos, formularios y diseño que tus usuarios sienten como propios desde el primer clic."
 ---
 
+## Qué mejora al localizar la interfaz de tu producto
+
 Tu producto ya vende en Francia, Alemania o el Reino Unido y la traducción está bien hecha. El siguiente paso es mejorar las cifras: más registros completados, más compras terminadas y etiquetas que suenan naturales a quien las lee.
 
 Esas mejoras llegan cuando adaptas la interfaz alrededor de la traducción: el texto, las imágenes, el diseño y el comportamiento de cada pantalla. Aquí tienes qué aporta a tu negocio, qué capas hay que trabajar y cómo planificarlo para que cada idioma nuevo encaje en el diseño que ya tienes.

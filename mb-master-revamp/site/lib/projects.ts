@@ -36,6 +36,20 @@ const SHOT_VERSION = "20261002";
 /** The window `leads` averages over. */
 export const LEADS_PERIOD = "May to July 2026";
 
+/**
+ * A screenshot the owner supplied (Search Console, Ahrefs) shown on a case
+ * study, with the figures it shows said in the text.
+ */
+export type Evidence = {
+  src: string;
+  width: number;
+  height: number;
+  alt: string;
+  caption: string;
+  heading: string;
+  text: string;
+};
+
 export type Project = {
   slug: string;
   numeral: string;
@@ -73,9 +87,9 @@ export type Project = {
    * three and rounded: TX 341 (114 a month), Delaguía 168 (56). Bemelman's
    * forms caught 6 (2 a month), but most of its requests arrive by phone and
    * email, so the owner's own figure is shown: 20 to 50 a month (owner,
-   * 4 Oct 2026, "between 20 and 50 leads"). ValenciaMove's come from its own dashboard (Supabase
-   * `consultations`, form rows not typed spam), which starts on 1 July, so
-   * its figure is July alone (25) and carries its own `period`. C21
+   * 4 Oct 2026, "between 20 and 50 leads"). ValenciaMove's is the owner's own figure (owner, 7 Oct 2026: "over 50
+   * leads for Valenciamove each month"), counted as 50; its dashboard alone
+   * caught 25 form enquiries in July. C21
    * Perdomo's headless front end posts its forms outside WordPress, so it has
    * no record to count here; its count is a range the owner gave on 3 Oct
    * 2026 ("between TX and DL"), shown as such. A range is written "low to
@@ -84,6 +98,16 @@ export type Project = {
    * only"); phone and email enquiries are not in it, and both pages say so.
    */
   leads?: { count: string; what: string; period?: string };
+  /**
+   * Search Console or Ahrefs evidence shown on the case study, from screenshots
+   * the owner supplied (owner, 7 Oct 2026: ValenciaMove, "use the screenshot to
+   * show the traffic increase in 6 months", then "Bemelmanspuiterij.nl
+   * traffic evolution", "Delaguía y Luzón Ai Citations + overview"). An exception to the no-per-client-figures rule, for
+   * the sites the owner names and on their own case study only.
+   */
+  evidence?: Evidence[];
+  /** Country sites shown with the flags animation (components/CountryFlags.tsx). */
+  countries?: { domain: string; country: string }[];
   /** Path under /work/, omitted where no usable capture exists. */
   shot?: string;
 };
@@ -95,20 +119,32 @@ export const PROJECTS: Project[] = [
     name: "BeTranslated",
     domain: "betranslated.com",
     angle: "Founded it, still run it",
-  body: "A translation agency with six regional identities and a multi-TLD setup that has to rank separately in every one of them. ",
+  body: "A translation agency with ten country sites, from the United States to Italy, each one ranking separately in its own market.",
     metaTitle: "BeTranslated, a multi-TLD case study",
-    metaDescription: "Twenty years running a translation agency across six regional TLDs, each ranking separately in its own market. See what that discipline required.",
+    metaDescription: "Twenty years running a translation agency across ten country domains, each ranking separately in its own market. See what that discipline required.",
     metrics: [
-      { v: "6", k: "Regional TLDs" },
+      { v: "10", k: "Country domains" },
       { v: "20 yr", k: "Running it" },
     ],
     problem:
-      "A translation agency selling into six markets needs six SEO campaigns, each one built for its own market. The regional TLDs (.com, .be, .fr, .es, .co.uk, .nl) each carry their own competitors, their own search habits and their own trust signals, so each one is run as a site of its own, built to hold its ground against local competitors.",
+      "A translation agency selling into ten markets needs ten SEO campaigns, each one built for its own market. The country domains (.com, .us, .ca, .co.uk, .be, .fr, .es, .de, .nl, .it) each carry their own competitors, their own search habits and their own trust signals, so each one is run as a site of its own, built to hold its ground against local competitors.",
     work:
    "Founded the agency and has run it for twenty years, Each regional TLD gets its own technical SEO treatment: separate sitemaps, separate hreflang groups, and separate keyword research per market, built from that market's own searches.",
     outcome:
-   "Six regional identities still trading after two decades, each ranking on its own market's terms. ",
-    services: ["Multi-TLD SEO", "Multilingual content", "Six regional markets", "Founder"],
+   "Ten country sites, each ranking on its own market's terms, under an agency still trading after two decades.",
+    services: ["Multi-TLD SEO", "Multilingual content", "Ten country markets", "Founder"],
+    countries: [
+      { domain: "betranslated.com", country: "International" },
+      { domain: "betranslated.us", country: "United States" },
+      { domain: "betranslated.ca", country: "Canada" },
+      { domain: "betranslated.co.uk", country: "United Kingdom" },
+      { domain: "betranslated.be", country: "Belgium" },
+      { domain: "betranslated.fr", country: "France" },
+      { domain: "betranslated.es", country: "Spain" },
+      { domain: "betranslated.de", country: "Germany" },
+      { domain: "betranslated.nl", country: "Netherlands" },
+      { domain: "betranslated.it", country: "Italy" },
+    ],
     shot: `/work/betranslated.webp?v=${SHOT_VERSION}`,
   },
   {
@@ -151,7 +187,7 @@ export const PROJECTS: Project[] = [
     work:
    "Technical SEO and content built around the vocabulary Houston's industrial freight buyers actually use, learned from the industry itself. ",
     outcome:
-   "Local pack presence in Houston's industrial freight search.",
+   "Local pack presence in Houston's industrial freight search, for a client we have worked with for nearly fifteen years.",
     services: ["Technical SEO", "Industry content", "Houston local search", "Tracking portal"],
     search: { clicks: "2,616", impressions: "764,222", position: "21.7", note: "May to July 2026" },
     leads: { count: "114", what: "quote requests" },
@@ -193,17 +229,29 @@ export const PROJECTS: Project[] = [
     metrics: [
       { v: "1,132", k: "URLs" },
       { v: "5", k: "Locales" },
+      { v: "50+", k: "Enquiries a month" },
     ],
     problem:
    "Mikebastin.com used to carry Valencia relocation content alongside its SEO consultancy content under one domain, and each subject deserved a site of its own. ",
     work:
    "Over a thousand pages across five locales (EN, FR, ES, NL, IT), built from having made the move personally. ",
     outcome:
-   "1,132 URLs live across five languages.",
+   "1,132 URLs live across five languages. In six months the site went from almost no search traffic to around 200 clicks a day: 17,400 clicks and 1.63 million impressions from April to October 2026, and over fifty enquiries a month.",
     services: ["Content strategy", "Five locales", "Technical SEO", "Owned property"],
     search: { clicks: "5,685", impressions: "496,316", position: "10.7", note: "May to July 2026" },
-    leads: { count: "25", what: "enquiries", period: "July 2026" },
+    leads: { count: "50", what: "enquiries" },
     shot: `/work/valenciamove.webp?v=${SHOT_VERSION}`,
+    evidence: [
+      {
+        src: "/images/evidence/valenciamove-search-console-6-months.webp",
+        width: 656,
+        height: 800,
+        alt: "Google Search Console for valenciamove.com over six months: 17.4K clicks and 1.63M impressions, daily clicks rising from near zero in April 2026 to around 200 by September",
+        caption: "Google Search Console, valenciamove.com, April to October 2026.",
+        heading: "The ValenciaMove search traffic, from launch to around 200 clicks a day",
+        text: "17,400 clicks and 1.63 million impressions in six months, from almost nothing in April. ValenciaMove is our own site, run the way we run a client's.",
+      },
+    ],
   },
   {
     slug: "bemelman-spuiterij",
@@ -227,6 +275,17 @@ export const PROJECTS: Project[] = [
     services: ["Dutch local SEO", "Divi build", "B2B trade search"],
     search: { clicks: "1,436", impressions: "108,568", position: "28.1", note: "May to July 2026" },
     leads: { count: "20 to 50", what: "enquiries" },
+    evidence: [
+      {
+        src: "/images/evidence/bemelman-spuiterij-search-console-16-months.webp",
+        width: 656,
+        height: 800,
+        alt: "Google Search Console for bemelmanspuiterij.nl over sixteen months: 5.32K clicks and 448K impressions, daily clicks rising from around 5 in mid 2025 to around 15 by autumn 2026",
+        caption: "Google Search Console, bemelmanspuiterij.nl, June 2025 to October 2026.",
+        heading: "The Bemelman Spuiterij search traffic, roughly tripled in a year",
+        text: "5,320 clicks and 448,000 impressions over sixteen months. Daily clicks sat around five through 2025 and climbed to around fifteen from early 2026, in a niche where every search is a business buyer.",
+      },
+    ],
     shot: `/work/bemelman-spuiterij.webp?v=${SHOT_VERSION}`,
   },
   {
@@ -251,6 +310,26 @@ export const PROJECTS: Project[] = [
     services: ["Legal SEO", "Multilingual content", "Four languages", "Two jurisdictions"],
     search: { clicks: "38,476", impressions: "2,399,567", position: "9.4", note: "May to July 2026" },
     leads: { count: "56", what: "enquiries" },
+    evidence: [
+      {
+        src: "/images/evidence/delaguia-y-luzon-ahrefs-ai-responses.webp",
+        width: 1320,
+        height: 425,
+        alt: "Ahrefs AI responses for delaguialuzon.com: 309 across all platforms from 87 pages, 182 in AI Overviews, 92 in AI Mode, 14 in Perplexity, 6 in Gemini and 2 in ChatGPT",
+        caption: "Ahrefs Site Explorer, AI responses for delaguialuzon.com, 7 October 2026.",
+        heading: "Delaguía y Luzón cited in 309 AI answers, from 87 of its pages",
+        text: "Ahrefs counts 309 AI responses citing the firm's site, up 269 on the previous period: 182 in Google's AI Overviews, 92 in AI Mode, 14 in Perplexity, 6 in Gemini and 2 in ChatGPT. Legal content held to a lawyer's standard is the content answer engines quote.",
+      },
+      {
+        src: "/images/evidence/delaguia-y-luzon-ahrefs-overview.webp",
+        width: 688,
+        height: 775,
+        alt: "Ahrefs overview for delaguialuzon.com: Domain Rating 33, 1.4K backlinks from 368 referring domains, 928 organic keywords with 200 in the top three, 5.1K organic traffic",
+        caption: "Ahrefs Site Explorer, overview for delaguialuzon.com, 7 October 2026.",
+        heading: "928 keywords in Google, 200 of them in the top three",
+        text: "Ahrefs shows 928 organic keywords, up 727, with 200 in the top three, and an estimated 5,100 visits a month from search, up 4,400. Behind them sit a Domain Rating of 33 and 368 referring domains.",
+      },
+    ],
     shot: `/work/delaguia-y-luzon.webp?v=${SHOT_VERSION}`,
   },
   {
@@ -273,6 +352,17 @@ export const PROJECTS: Project[] = [
     outcome:
    "Forty-eight French spots and a hundred and twenty guides covering seven board sports, backed by a public editorial method page.",
     services: ["Editorial strategy", "Content architecture", "EEAT method page", "Owned property"],
+    evidence: [
+      {
+        src: "/images/evidence/matosurf-search-console-3-months.webp",
+        width: 656,
+        height: 520,
+        alt: "Google Search Console for matosurf.com from July to early October 2026: 1,008 web search clicks, daily clicks rising from zero to around 20",
+        caption: "Google Search Console, matosurf.com, July to October 2026.",
+        heading: "The Matosurf search traffic, from zero to around 20 clicks a day",
+        text: "A six-month-old site with 1,008 clicks from Google in its last three months, climbing from nothing in early July. Matosurf is our own site, run the way we run a client's.",
+      },
+    ],
     shot: `/work/matosurf.webp?v=${SHOT_VERSION}`,
   },
 ];

@@ -12,6 +12,8 @@ sourceUrl: "https://mikebastin.com/building-a-global-brand/"
 excerpt: "Launched abroad with a translated brand? Building a global brand means knowing what travels as it is and what each market must rework."
 ---
 
+## From a translated brand to a global brand
+
 You launched in Spain, France and the Netherlands with the same brand, carefully translated. Six months later your in-market teams are rewriting the copy so it sounds right to local buyers, and the localized sites have room to catch up with the English one.
 
 Most “global brand” projects we see start as translation projects. The step from “translated” to “genuinely global” is where **building a global brand** actually lives, and where your other markets gain revenue.
@@ -20,7 +22,7 @@ Below: which parts of your brand travel as they are, which need work in each mar
 
 ## What changes between markets, even when the brand stays the same
 
-Small shifts in emphasis decide whether a buyer keeps reading. We see it on our own sites: we run BeTranslated across .be, .fr, .es, .co.uk, .nl, and .com properties, same agency, same service, same positioning at the strategic level. The execution differs in ways that matter to conversion.
+Small shifts in emphasis decide whether a buyer keeps reading. We see it on our own sites: we run BeTranslated across ten country domains, .com, .us, .ca, .co.uk, .be, .fr, .es, .de, .nl and .it, same agency, same service, same positioning at the strategic level. The execution differs in ways that matter to conversion.
 
 -   **Belgian B2B audiences want functional precision and pricing clarity early.** Put the facts in the first paragraph.
 -   **French B2B audiences expect a more formal register and more context** before any commercial ask. Vouvoyer is non-negotiable.

@@ -12,6 +12,8 @@ sourceUrl: null
 excerpt: "Traducción de inglés a francés: la variante correcta, el nivel de servicio y el SEO para páginas que venden en Francia, Bélgica, Suiza y Quebec."
 ---
 
+## Qué decidir antes de traducir tu web al francés
+
 Tu web ya funciona en inglés para tus mercados de exportación, y ese inglés suele ser el texto de partida más práctico para que los compradores franceses y belgas te escriban. Las páginas que los convencen se leen como escritas en francés, usan el francés del país correcto y posicionan con lo que esos compradores buscan de verdad.
 
 Casi todo se decide antes de que el traductor escriba una palabra: la variante de francés, el brief y el lugar que le das al SEO desde el principio.

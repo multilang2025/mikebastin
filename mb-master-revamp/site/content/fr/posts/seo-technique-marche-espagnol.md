@@ -13,6 +13,8 @@ sourceUrl: null
 excerpt: "Vos pages en espagnol sont en ligne : le SEO technique qui les fait trouver, comprendre et charger vite en Espagne, dans l’ordre où il rapporte."
 ---
 
+## SEO technique pour placer vos pages devant les acheteurs espagnols
+
 Vos pages en espagnol sont rédigées, traduites et en ligne. L’étape suivante consiste à les placer devant les acheteurs espagnols au moment où ils cherchent. Les textes sont souvent prêts : c’est la couche technique située dessous qui décide si Google trouve vos pages, comprend à qui elles s’adressent et les affiche vite sur un téléphone à Madrid.
 
 Bien réglée, cette couche rentabilise chaque page que vous avez fait traduire. Voici le SEO technique dont un site a besoin pour réussir en Espagne, dans l’ordre où il rapporte, pour repérer ce que votre site possède déjà et ce qu’il reste à ajouter.

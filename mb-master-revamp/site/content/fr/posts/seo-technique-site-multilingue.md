@@ -13,6 +13,8 @@ sourceUrl: null
 excerpt: "Hreflang, hébergement, pages proches, structure de domaine : les réglages techniques qui font positionner chaque version de votre site sur son marché."
 ---
 
+## Montrer à chaque pays la bonne version de votre site
+
 Vos pages en anglais, en allemand et en espagnol peuvent s’additionner, chacune se positionnant sur son propre marché. Quand les réglages sont justes, Google montre la bonne version à chaque pays, l’acheteur arrive dans sa langue, et chaque traduction que vous avez payée devient visible.
 
 Sur un [site multilingue](/fr/bonnes-pratiques-seo-multilingue/), cette addition tient en quatre réglages techniques : l’étiquetage de chaque version de langue, l’endroit d’où le site est servi, la gestion des pages proches et la structure du domaine. Voici ce que fait chacun, les corrections que nous apportons le plus souvent, et la façon de les régler pour qu’ils portent votre [référencement multilingue](/fr/services/referencement-multilingue/).

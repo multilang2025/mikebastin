@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 export default function ThanksPage() {
   return (
     <main>
-      <section className="band band-a grain relative overflow-hidden pb-[clamp(64px,9vw,120px)] pt-[clamp(96px,14vw,180px)]">
+      <section className="band band-a grain relative overflow-hidden pb-[clamp(32px,4vw,56px)] pt-[clamp(88px,9vw,112px)]">
         <div className="shell relative">
           <Reveal>
             <p className="eyebrow mb-8">Now it is our turn</p>

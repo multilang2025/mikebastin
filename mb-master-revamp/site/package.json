@@ -11,7 +11,7 @@
     "lint:copy": "node scripts/copy-lint.mjs",
     "lint:code": "node scripts/copy-lint-code.mjs",
     "check:launch": "node scripts/launch-check.mjs",
-    "verify": "npm run typecheck && npm run lint:copy && npm run lint:code && node scripts/post-structure-lint.mjs --errors && npm run build && npm run lint:jargon && npm run lint:negative && npm run lint:fr && npm run lint:es && npm run lint:lang && npm run lint:headings && npm run lint:keywords && npm run lint:redirects && npm run lint:urls && npm run lint:figures && npm run audit:sources && npm run check:launch",
+    "verify": "npm run typecheck && npm run lint:copy && npm run lint:code && node scripts/post-structure-lint.mjs --errors && npm run build && npm run lint:jargon && npm run lint:negative && npm run lint:fr && npm run lint:es && npm run lint:lang && npm run lint:headings && npm run lint:keywords && npm run lint:redirects && npm run lint:urls && npm run lint:figures && npm run lint:h2 && npm run audit:sources && npm run check:launch",
     "lint:jargon": "node scripts/copy-jargon-lint.mjs",
     "lint:negative": "node scripts/negative-wording-lint.mjs",
     "lint:fr": "node scripts/fr-copy-lint.mjs",
@@ -27,6 +27,7 @@
     "lint:redirects": "node scripts/redirect-coverage-lint.mjs",
     "lint:urls": "node scripts/url-date-lint.mjs",
     "lint:figures": "node scripts/client-figures-lint.mjs",
+    "lint:h2": "node scripts/post-opens-h2-lint.mjs",
     "images:blog": "node --experimental-strip-types scripts/fetch-legacy-images.mjs && node --experimental-strip-types scripts/fetch-commons-images.mjs && node --experimental-strip-types scripts/optimize-blog-images.mjs",
     "images:legacy": "node scripts/optimize-legacy-images.mjs"
   },

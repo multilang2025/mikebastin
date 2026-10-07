@@ -12,6 +12,8 @@ sourceUrl: null
 excerpt: "Tus compradores preseleccionan proveedores en ChatGPT, LinkedIn y G2 antes que en Google. Te mostramos cómo aparecer en cada uno, en cada idioma."
 ---
 
+## Dónde buscan hoy tus compradores extranjeros
+
 Si vendes en Francia, el Benelux, Alemania o el Reino Unido, tus compradores preseleccionan proveedores antes de llegar a tu web. Piden opciones a ChatGPT o Perplexity, miran de quién se habla en LinkedIn, leen reseñas en G2 o Capterra y después buscan en Google, a menudo el nombre que ya eligieron. Estar visible en cada una de esas superficies te pone en la lista donde se decide.
 
 Una estrategia search everywhere lleva tu empresa a esos compradores en cada superficie, en cada uno de tus idiomas y con los mismos datos en todas. Aquí verás qué superficies cuentan, qué premia cada una y cómo gestionarlas como un solo sistema.

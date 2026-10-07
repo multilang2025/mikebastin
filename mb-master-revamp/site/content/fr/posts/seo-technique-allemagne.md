@@ -13,6 +13,8 @@ sourceUrl: null
 excerpt: "SEO technique d’un site allemand : URL propres, versions pour l’Allemagne, l’Autriche et la Suisse, pages rapides sur mobile qui retiennent vos acheteurs."
 ---
 
+## Le SEO technique, base de vos ventes en Allemagne
+
 Vous vendez déjà en Allemagne, et vos pages allemandes sont bien écrites. La couche technique qui se trouve dessous décide du nombre d’acheteurs allemands qui les liront. Quand elle est bien réglée, la version allemande apparaît en Allemagne et la version suisse en Suisse, un lien transmis par e-mail reste propre, et la page se charge vite sur un téléphone, dans le train entre Cologne et Francfort.
 
 Les corrections sont en général modestes, et elles sont propres au marché germanophone. Pour la stratégie d’ensemble (moteurs utilisés, recherche de mots-clés, contenu et netlinking), notre guide des [bonnes pratiques du SEO allemand](/fr/seo-allemand-bonnes-pratiques/) couvre le marché. Ici, nous entrons dans les réglages : la structure des URL, les versions régionales pour l’Allemagne, l’Autriche et la Suisse, la vitesse, le mobile, et l’ordre dans lequel les traiter pour un [référencement en Allemagne qui rapporte](/fr/services/seo-allemand/).

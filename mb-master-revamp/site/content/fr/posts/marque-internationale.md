@@ -13,6 +13,8 @@ sourceUrl: null
 excerpt: "Votre marque est traduite pour chaque marché. Construire une marque internationale, c’est savoir ce qui voyage tel quel et ce que chaque pays réécrit."
 ---
 
+## De la marque traduite à la marque internationale
+
 Vous avez lancé votre marque en Espagne, aux Pays-Bas et en Allemagne, soigneusement traduite depuis le français. Six mois plus tard, vos équipes sur place réécrivent les textes pour qu’ils sonnent juste auprès des acheteurs locaux, et vos sites étrangers ont encore du chemin à faire pour rattraper la version française.
 
 La plupart des projets de « marque internationale » que nous voyons commencent comme des projets de traduction. Le passage de « traduite » à « réellement internationale » est l’endroit où se construit une marque internationale, et celui où vos autres marchés gagnent du chiffre d’affaires.
@@ -21,7 +23,7 @@ Voici les éléments de votre marque qui voyagent tels quels, ceux qui demandent
 
 ## Ce qui change d’un marché à l’autre, même quand la marque reste la même
 
-De petits déplacements d’accent décident si un acheteur continue de lire. Nous le voyons sur nos propres sites : nous dirigeons BeTranslated sur six domaines, .be, .fr, .es, .co.uk, .nl et .com, avec la même agence, le même service et le même positionnement au niveau stratégique. L’exécution diffère, et ces différences pèsent sur la conversion.
+De petits déplacements d’accent décident si un acheteur continue de lire. Nous le voyons sur nos propres sites : nous dirigeons BeTranslated sur dix domaines, .com, .us, .ca, .co.uk, .be, .fr, .es, .de, .nl et .it, avec la même agence, le même service et le même positionnement au niveau stratégique. L’exécution diffère, et ces différences pèsent sur la conversion.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 184" role="img" aria-label="Deux niveaux d’une même marque, une stratégie qui voyage telle quelle et une exécution qui se travaille sur chaque marché.">

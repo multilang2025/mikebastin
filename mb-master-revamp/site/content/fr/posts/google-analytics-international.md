@@ -13,6 +13,8 @@ sourceUrl: null
 excerpt: "Google Analytics sous-estime certains marchés et en gonfle d’autres. Ce que GA4 mesure bien à l’international, ce qu’il faut vérifier, et quoi décider."
 ---
 
+## Lire Google Analytics sur plusieurs marchés avec méthode
+
 Votre outil d’analyse indique que l’Allemagne est votre deuxième marché, et vos demandes allemandes racontent une autre histoire. Les deux peuvent être vrais : GA4 voit une partie seulement de votre trafic international, et il en voit le moins sur les marchés où les règles de protection des données sont les plus strictes, à commencer par la France et le reste de l’Union européenne.
 
 Lus avec méthode, ces chiffres orientent votre budget vers les marchés qui vendent. Voici ce que GA4 vous dit de façon fiable sur chaque marché, ce qu’il estime, et comment décider où va le prochain budget de localisation.

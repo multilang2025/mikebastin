@@ -13,6 +13,8 @@ sourceUrl: "https://mikebastin.com/human-creator-economy/"
 excerpt: "Renting your audience from a platform? Why Jean Marie Cordaro wants a more human creator economy, and how to own the relationship with your audience."
 ---
 
+## Why creators need to own their audience
+
 If your audience lives on someone else's platform, you are renting it, and the next step is owning the relationship. Reach built over years then rests on algorithms, payment providers and account policies set by someone else, and so does your income. Millions of creators, coaches and independent businesses now earn a living this way, and most of them feel that risk.
 
 Jean Marie Cordaro, founder of Bonzai.pro, has built his work around one belief: technology should serve people. Below: why he thinks the creator economy has tilted too far towards the platforms, what a human-first alternative looks like in practice, and what it means for anyone who wants to own the relationship with their audience.

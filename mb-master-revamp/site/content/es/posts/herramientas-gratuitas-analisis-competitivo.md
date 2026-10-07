@@ -15,6 +15,8 @@ excerpt: "Herramientas gratuitas de análisis competitivo para estudiar a tus ri
 
 ![Imagen de cabecera del artículo](/images/legacy/2026/01/herramientasgratuitasanalisisc-1024x585.webp)
 
+## Qué sabrás de tus rivales con herramientas gratuitas
+
 Antes de pagar una suscripción, puedes saber mucho de tus rivales en Francia, en Bélgica o en Alemania con herramientas gratuitas: de dónde sacan su tráfico, qué palabras clave les funcionan, quién les enlaza y qué anuncios publican.
 
 Con una tarde y estas herramientas tienes una primera lectura de cada mercado, suficiente para decidir dónde empezar y qué datos de pago merecen la inversión. Esa lectura es la base de un [análisis competitivo SEO sólido](https://mikebastin.com/es/analisis-competitivo-seo/).

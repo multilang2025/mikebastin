@@ -21,7 +21,7 @@ export default function FrenchProblemPage() {
   return (
     <main>
       <LocaleHtmlLang lang="fr" />
-      <section className="band band-a grain relative overflow-hidden pb-[clamp(64px,9vw,120px)] pt-[clamp(96px,14vw,180px)]">
+      <section className="band band-a grain relative overflow-hidden pb-[clamp(32px,4vw,56px)] pt-[clamp(88px,9vw,112px)]">
         <div className="shell relative">
           <Reveal>
             <p className="eyebrow mb-8">Le souci vient de chez nous</p>

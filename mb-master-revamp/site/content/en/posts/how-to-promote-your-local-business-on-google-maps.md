@@ -12,6 +12,8 @@ sourceUrl: "https://mikebastin.com/how-to-promote-your-local-business-on-google-
 excerpt: "Nearby customers call one of the first three businesses on the map. How to promote your local business on Google Maps and be one of those three."
 ---
 
+## Getting your business into the Google Maps top three
+
 Somebody a few streets away searches for exactly what you sell and calls one of the three businesses Google Maps shows first. The aim is for yours to be one of them, so the phone rings as often as it could.
 
 Below: how to get listed, what wins a place on the map, where reviews, posts, ads and AI answers fit in, and how to see what brings calls.

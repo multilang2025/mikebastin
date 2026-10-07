@@ -228,7 +228,8 @@ needs.
   `url` kept in `redirects/content-map.json`, redirects regenerated):
   `/es/seo-multilingue-2026-presencia-total/` became
   `/es/buenas-practicas-seo-multilingue/` that way.
-- **No per-client results figures**, in any locale (owner, 5 Oct 2026: "remove per-client numbers everywhere"). The site publishes results as totals across every site we run search for (`lib/results-totals.ts`) and as plain-language outcomes per client, never one client's clicks, impressions, average position, enquiries or hours saved. `search` and `leads` in `lib/projects.ts` are source data for the totals only. `npm run lint:figures` fails the build if a built page prints one. Identity facts (languages, TLDs, years trading) are not results and stay.
+- **No per-client results figures**, in any locale (owner, 5 Oct 2026: "remove per-client numbers everywhere"). The site publishes results as totals across every site we run search for (`lib/results-totals.ts`) and as plain-language outcomes per client, never one client's clicks, impressions, average position, enquiries or hours saved. `search` and `leads` in `lib/projects.ts` are source data for the totals only. `npm run lint:figures` fails the build if a built page prints one. Identity facts (languages, TLDs, years trading) are not results and stay. **One exception** (owner, 7 Oct 2026): a Search Console screenshot the owner supplies for a named site goes on that site's own case study through `evidence` in `lib/projects.ts` (Search Console for ValenciaMove, Bemelman Spuiterij and Matosurf; Ahrefs AI responses and overview for Delaguía y Luzón).
+- **Reviews show at a uniform length** (owner, 6 Oct 2026): `components/ReviewText.tsx` cuts a review longer than 200 characters at the last word, and the ellipsis shows the rest as a tooltip on hover, focus or touch. Quotes stay verbatim and screen readers read them whole. Use it for any review quote on any page. The "forty thousand impressions, six clicks" line about our own site is not to appear on the website (owner, 6 Oct 2026).
 - IP boundary: no Marvel/superhero imagery tied to "Silver Surfer" — it is a
   prose-only nickname, visual language is original surf/wave motifs.
 
@@ -239,9 +240,20 @@ direction: the agency is recognised through Mike, its specialists and its real
 work. **No looping animation anywhere** (no shimmer, breathing glow or spinning
 art; entrance motion plays once). The homepages lead with Mike's portrait, the
 offer and one call to action, then dated client evidence and three cases. It
-supersedes the 2 Oct approval of the homepage market map (Q24). The brief also
+supersedes the 2 Oct approval of the homepage market map (Q24). Owner exceptions: 6 Oct 2026, "let's loop forever" (the services hero art floats endlessly, `.services-hero-art` in globals.css; `loopingMotion` in `lib/home-graphics.ts` does not switch it off), and 7 Oct 2026, "keep the SVG animations looping" (`loopingMotion` stays `true`). Every page hero heading also carries a thin blinking text caret before its first letter (owner, 7 Oct 2026, option A); it stills under reduced motion. The brief also
 asks for "I" in Mike's founder story and personal commentary, an exception to
 the "we" rule above, for the P2 pass; services stay "we".
+
+**The French and Spanish homepages follow the English design and wording** (owner,
+7 Oct 2026: "replicate the English design and wording on FR and ES, no erase what's
+bespoke"). Hero, evidence, what we do with the three steps, Why it works with the
+market diagram, reviews, BASTIN and the credibility strip are shared in structure; the
+FR markets and the five-step list, and the ES Valencia markets and graphic, stay as the
+bespoke sections. The shared FR and ES sections are `components/HomeWhy.tsx` and
+`components/HomeBastin.tsx`; a new section on the English page needs its FR and ES
+counterpart there. Note for `lint:code`: French words such as "même", "deuxième" and
+"utilise" trip the English first-person and forbidden-word checks in a component, so
+reword them (the same cause as the privacy page on 2 Oct).
 
 ## Keywords are assigned, researched and enforced
 
@@ -307,6 +319,18 @@ that promise only what the linked service page states (owner, 26 Sep
 `npm run lint:structure` reports the editorial side; `verify` fails only
 on a figure that would break the page (blank line inside, hex colour,
 missing aria-label).
+
+**Every post opens on an H2** (owner hard rule, 7 Oct 2026: "all Blog posts need to
+start with an H2"). After any picture the post opens on, the first block of the body is an
+H2, in EN, FR and ES. `npm run lint:h2` (`scripts/post-opens-h2-lint.mjs`, in `verify`)
+checks the built pages from the post sitemaps, so only published posts count. A new post
+is written with its H2 first. Also from 7 Oct 2026: lists in `.post-body` show their
+bullets and numbers (the reset had removed the markers), a table's first column keeps its
+word whole, the post hero on desktop puts the title on the left and the picture on the
+right, and every hero on the site shares one compact padding (`pt-[clamp(88px,9vw,112px)]`,
+`pb-[clamp(32px,4vw,56px)]`; the homepages keep their own). The homepage heroes carry no
+star-review link, because reviews sit further down the page (owner, 7 Oct 2026: "don't
+put review so high up").
 
 ## Page metadata goes through `lib/meta.ts`
 
@@ -401,9 +425,18 @@ provide"). Each body opens on what the client gets, in the active voice with
 every service carries `process` in `lib/services.ts`, the real steps of the
 engagement starting with the free offer that fits, which the engagement band
 renders in place of the bare `sections` titles. Full rule in
-`docs/STYLE-GUIDE-UK-EU.md` section 10. Applied to all nineteen template
-pages the same day; `lead-generation` is hand-built and already written that
-way.
+`docs/STYLE-GUIDE-UK-EU.md` section 10. A first pass covered the nineteen
+template pages on 4 Oct, but several still carried lessons in their
+expandables; on 6 Oct `lead-generation` was rebuilt around Mike and the
+enquiry totals, and `multilingual-seo`, `french-seo` and
+`translation-services` were rewritten as worked examples.
+
+**Víctoria, Mike's intern, carries the rewrite through the remaining pages**
+(owner, 6 Oct 2026). Her method and queue are in
+[`docs/HANDOFF-VICTORIA.md`](docs/HANDOFF-VICTORIA.md); open questions for
+Mike and the page tracker are in [`docs/VICTORIA-LOG.md`](docs/VICTORIA-LOG.md).
+Add to the log in the turn a question opens or is settled, and update the
+tracker when a page is rewritten or signed off.
 
 ## The UK and International Europe style guide
 
@@ -463,7 +496,9 @@ is in the rest, which the Master Content Protocol never covered:
   and Ahrefs (`components/Analytics.tsx`), loaded only after consent and only
   on the production domain.
 - **TX International Freight is English only** (owner, 2 Oct 2026): one
-  market, Houston. Never "English and Spanish" or a Spanish campaign.
+  market, Houston. Never "English and Spanish" or a Spanish campaign. The
+  owner has worked with TX for nearly fifteen years (7 Oct 2026), the proof
+  point to use in place of the dropped "doubled" claim.
 - **Bemelman Spuiterij is in Noordwijkerhout** (owner, 2 Oct 2026), in the
   Bollenstreek. Never Hillegom.
 - **The Valencia law firm works in four languages**, Spanish, French,
@@ -472,6 +507,12 @@ is in the rest, which the Master Content Protocol never covered:
   Spanish and Italian, and a native Portuguese speaker sits on the in-house
   IT team (owner, 2 Oct 2026). Same vague-level rule as German and Italian:
   never "working level" or a described reading level.
+- **BeTranslated runs ten country domains** (checked on the betranslated.com
+  footer, 7 Oct 2026): .com, .us, .ca, .co.uk, .be, .fr, .es, .de, .nl and
+  .it. Never "six" or "twelve".
+- **ValenciaMove brings in over 50 leads a month** (owner, 7 Oct 2026),
+  shown as 50+. **Mike leads the team on every engagement** and clients deal
+  with him (owner, 7 Oct 2026).
 - **"Agency" is fine everywhere** (owner, 2 Oct 2026), including generative
   engine optimization.
 - **Experience is "over two decades"** (owner, 27 Sep 2026: "I started in

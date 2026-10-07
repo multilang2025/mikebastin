@@ -12,6 +12,8 @@ sourceUrl: "https://mikebastin.com/technical-seo-for-multilingual-websites/"
 excerpt: "Want every language version adding to your rankings? Technical SEO for multilingual websites: the fixes that get each market ranking with its own pages."
 ---
 
+## The technical layer behind multilingual SEO
+
 Your French and German pages can add up, each ranking in its own market. Set up well, the right version ranks, buyers land in the language they asked for, and every market you paid to translate is in plain sight.
 
 On [multilingual websites](/blog/optimising-multilingual-website-content/) what makes them add up is technical, and it comes down to four things: how each language version is labelled, where the site is served from, near-identical pages, and domain structure. Below: what each one does, the fixes we make most often, and how to set them up so they carry your [multilingual SEO](/services/multilingual-seo/).

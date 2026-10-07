@@ -15,6 +15,8 @@ excerpt: "Datos estructurados y schema que describen tu empresa igual en cada id
 
 ![Imagen de cabecera del artículo](/images/legacy/2026/01/datosestructuradosschemaoptimi-1024x585.webp)
 
+## Datos estructurados para que Google y la IA te entiendan
+
 Google sigue mostrando enlaces y, cada vez más, responde con IA: AI Overviews, AI Mode, y fuera de Google, ChatGPT, Perplexity o Claude. Tu web tiene que describir tu empresa con tanta claridad que cualquiera de esos sistemas la entienda igual en cada idioma, y te cite con los datos correctos.
 
 Los datos estructurados son una de las piezas de esa claridad. Aquí verás qué tipos de schema importan, qué dice Google de verdad sobre su papel en las funciones de IA y cómo implantarlos paso a paso.

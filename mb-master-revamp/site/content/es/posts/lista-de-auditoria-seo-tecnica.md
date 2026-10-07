@@ -12,6 +12,8 @@ sourceUrl: null
 excerpt: "Lista de auditoría de SEO técnico: qué revisar, cómo detectar cada problema y cómo resolverlo, de la estructura a la velocidad, para vender mejor."
 ---
 
+## Qué revisar en una auditoría de SEO técnico
+
 Tu contenido es bueno, las páginas se ven bien y las próximas mejoras de posición están debajo: páginas a las que los buscadores llegan, una versión clara de cada página y un sitio lo bastante rápido en el móvil para retener al visitante. Con esas tres piezas en orden, cada euro invertido en contenido y enlaces rinde todo lo que puede, también en los mercados a los que vendes fuera, como Francia, el Benelux, Alemania o el Reino Unido.
 
 La lista de abajo sirve para auditar tu propio sitio o revisar el trabajo de la [agencia de SEO](/es/services/optimizacion-seo/) que lo mantiene. Cada sección recoge qué revisar, cómo encontrar el problema y cómo resolverlo, con las herramientas que usamos nosotros y ejemplos cortos de código.

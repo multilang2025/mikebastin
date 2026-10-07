@@ -1,9 +1,13 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { Fragment } from "react";
 import Reveal from "@/components/Reveal";
 import ServiceIcon from "@/components/ServiceIcon";
 import SiteFooter from "@/components/SiteFooter";
+import Expandables from "@/components/Expandables";
 import { SERVICES, CLUSTERS, CLUSTER_HEADING } from "@/lib/services";
+import { GBP_URL, TESTIMONIALS } from "@/lib/testimonials";
+import ReviewText from "@/components/ReviewText";
 import { SITE_URL, breadcrumbSchema } from "@/lib/schema";
 import JsonLd from "@/components/JsonLd";
 import HeroArtSlot from "@/components/HeroArtSlot";
@@ -18,6 +22,36 @@ const CANONICAL = `${SITE_URL}/services/`;
 
 const HERO_TITLE = "Global SEO services and localization, Mike Bastin";
 
+const MARKET_LINKS = [
+  { name: "France", slug: "french-seo" },
+  { name: "Germany", slug: "german-seo" },
+  { name: "Spain", slug: "spanish-seo" },
+  { name: "the Netherlands", slug: "dutch-seo" },
+  { name: "Italy", slug: "italian-seo" },
+  { name: "Portugal", slug: "portuguese-seo" },
+];
+
+const QUESTIONS = [
+  {
+    q: "How much does multilingual SEO cost?",
+    a: [
+      "It depends on the markets, languages, pages and writing or localization involved. After a free consultation, you get a written scope and a fee for the work. If paid search is included, its media budget is separate.",
+    ],
+  },
+  {
+    q: "How long does it take to see results?",
+    a: [
+      "In our experience, the first measurable change arrives within about three months. Broader ranking shifts across several languages take two to three quarters, as new content and technical changes need time to be crawled and trusted. Every market moves at its own pace.",
+    ],
+  },
+  {
+    q: "Which languages do you work in?",
+    a: [
+      "Our SEO services cover French, German, Spanish, Dutch, Italian and Portuguese. Tell us which markets and languages matter to your business, and we’ll recommend where to start.",
+    ],
+  },
+];
+
 // Scene illustrations (design/scenes, skill: scene-illustration): one per
 // cluster, so the index reads as five pictures of the work rather than five
 // walls of cards. Transparent WebP, so each sits on either band in either
@@ -26,29 +60,63 @@ const CLUSTER_SCENE: Record<string, { src: string; alt: string; intro: string }>
   "Lead generation": {
     src: "/images/scenes/svc-lead-generation.webp",
     alt: "A dashboard of enquiries by market, with new quote requests arriving from Germany and France",
-    intro: "Enquiries from each market, counted where they happen and handed to your sales team.",
+    intro: "One enquiry count per market, so you see which language pays back. We set up the tracking, run paid search where it helps, and hand your sales team enquiries worth a call, each one labelled with the market it came from.",
   },
   Search: {
     src: "/images/scenes/svc-search.webp",
     alt: "The same service page ranking in French, German and Spanish search results, and cited in an AI answer",
-    intro: "Found in the language each buyer searches in, on Google and in AI answers.",
+    intro: "One strategy across your markets, then pages for each language, researched from that market's own searches and written by a native speaker. French, German, Spanish, Dutch, Italian and Portuguese each have their own service below, so buyers find a supplier that sounds local on Google and in AI answers.",
   },
   Localization: {
     src: "/images/scenes/svc-localization.webp",
     alt: "One product page in Germany and Switzerland with local prices and payment methods, beside a stamped sworn translation",
-    intro: "Sites, prices and documents that read as local in every market you sell to.",
+    intro: "Websites, apps and documents adapted for each market: prices, form fields, trust marks and certified translation, done by native specialists through the BeTranslated network we have run for over two decades, so everything reads as local.",
   },
   AI: {
     src: "/images/scenes/svc-ai.webp",
     alt: "An AI answer citing German and Dutch pages, and a machine translation corrected by a native editor",
-    intro: "AI where it saves time, and a native reader wherever trust is on the line.",
+    intro: "AI used where it saves time, and a native specialist reading wherever trust is decided. We sort your multilingual content into what a machine can draft and what needs a person, and build pages that ChatGPT, Perplexity and Google's AI Overviews can cite.",
   },
   Supporting: {
     src: "/images/scenes/svc-technical.webp",
     alt: "A site structure with linked language versions, page speed results and a publishing plan per language",
-    intro: "The structure, speed and content plan that every language version ranks on.",
+    intro: "The foundations under every language version: a site structure each market can find, fast pages, and a content plan built from what buyers search for. We put the fixes in ourselves or brief your developers, and check every month that they hold.",
   },
 };
+
+function ConsultationCta({
+  band,
+  showHeading = true,
+}: {
+  band: "band-a" | "band-b";
+  showHeading?: boolean;
+}) {
+  return (
+    <section className={`band ${band} py-[clamp(48px,7vw,80px)]`}>
+      <div className="shell">
+        <div className="mx-auto max-w-[58ch] text-center">
+          {showHeading && (
+            <Reveal>
+              <h2 className="mb-4 text-[clamp(1.6rem,3vw,2.3rem)] font-semibold leading-[1.12]">
+                Find the right service to start with
+              </h2>
+            </Reveal>
+          )}
+          <Reveal i={showHeading ? 1 : 0}>
+            <p className="mb-8 text-[1.08rem] leading-[1.55]" style={{ color: "var(--dim)" }}>
+              Tell us the markets you sell in and we&apos;ll recommend where to start.
+            </p>
+          </Reveal>
+          <Reveal i={showHeading ? 2 : 1}>
+            <Link href="/contact/" className="btn btn-primary btn-lg">
+              Book a free consultation
+            </Link>
+          </Reveal>
+        </div>
+      </div>
+    </section>
+  );
+}
 
 export const metadata: Metadata = pageMeta({
   title: HERO_TITLE,
@@ -63,11 +131,11 @@ export default function ServicesIndex() {
     <main>
       <JsonLd data={breadcrumbSchema([{ name: "Home", url: `${SITE_URL}/` }, { name: "Services", url: `${SITE_URL}/services/` }])} />
       {/* ============ HERO ============ */}
-      <section className="band band-a grain relative overflow-hidden pb-[clamp(56px,8vw,100px)] pt-[clamp(96px,14vw,160px)]">
+      <section className="band band-a grain relative overflow-hidden pb-[clamp(32px,4vw,56px)] pt-[clamp(88px,9vw,112px)]">
         <div className="shell relative grid items-start gap-x-12 lg:grid-cols-[1fr_auto]">
         <div>
           <Reveal>
-            <p className="eyebrow mb-8">Multilingual SEO, localization, paid search and AI</p>
+            <p className="eyebrow mb-8">For businesses ready to grow beyond their home market</p>
           </Reveal>
           <Reveal i={1}>
             <h1 className="mb-6 max-w-[19ch] text-[clamp(2.3rem,5.6vw,4rem)] font-semibold leading-[1.08]">
@@ -86,25 +154,45 @@ export default function ServicesIndex() {
             </p>
           </Reveal>
           <Reveal i={4}>
-            <Link href="/contact/" className="btn btn-primary btn-lg">
-              Book a free consultation
-            </Link>
+            <div className="flex flex-wrap items-center gap-x-6 gap-y-4">
+              <Link href="/contact/" className="btn btn-primary btn-lg">
+                Book a free consultation
+              </Link>
+              <Link href="/how-i-work/" className="btn btn-secondary btn-lg">
+                How it works
+              </Link>
+            </div>
           </Reveal>
         </div>
         {/* Heroes carry animated SVG art (owner, 2 Oct 2026); the static scenes
             sit in the cluster bands below. */}
-        <HeroArtSlot visibleOnMobile={true}>
-          <DlArt name={DL_PAGE_ART.services} />
-        </HeroArtSlot>
+        <div className="services-hero-art">
+          <HeroArtSlot visibleOnMobile={true}>
+            <DlArt name={DL_PAGE_ART.services} />
+          </HeroArtSlot>
         </div>
+        </div>
+        <nav aria-label="Find SEO services by market" className="shell mt-10">
+          <p className="flex flex-wrap items-center gap-x-2 gap-y-2 text-[.98rem] leading-[1.5]">
+            <span style={{ color: "var(--dim)" }}>More enquiries from</span>
+            {MARKET_LINKS.map((market, index) => (
+              <Fragment key={market.slug}>
+                {index > 0 && <span aria-hidden="true" style={{ color: "var(--dim)" }}>/</span>}
+                <Link href={`/services/${market.slug}/`} className="ulink font-medium">
+                  {market.name}
+                </Link>
+              </Fragment>
+            ))}
+          </p>
+        </nav>
       </section>
 
       {/* ============ CLUSTERS ============ */}
       {CLUSTERS.map((cluster, ci) => {
         const inCluster = SERVICES.filter((s) => s.cluster === cluster);
         return (
+          <Fragment key={cluster}>
           <section
-            key={cluster}
             className={`band ${ci % 2 === 0 ? "band-b" : "band-a"} py-[clamp(48px,7vw,96px)]`}
           >
             <div className="shell">
@@ -124,7 +212,7 @@ export default function ServicesIndex() {
                       {CLUSTER_HEADING[cluster] ?? cluster}
                     </h2>
                     {CLUSTER_SCENE[cluster] && (
-                      <p className="max-w-[44ch] text-[1.08rem] leading-[1.55]" style={{ color: "var(--dim)" }}>
+                      <p className="max-w-[54ch] text-[1.08rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
                         {CLUSTER_SCENE[cluster].intro}
                       </p>
                     )}
@@ -154,6 +242,14 @@ export default function ServicesIndex() {
                         >
                           <ServiceIcon slug={s.slug} />
                         </span>
+                        {s.slug === "multilingual-seo" && (
+                          <span
+                            className="mb-3 w-fit rounded-full px-3 py-1 text-[.78rem] font-semibold"
+                            style={{ background: "var(--berry-soft)", color: "var(--berry)" }}
+                          >
+                            Our core service
+                          </span>
+                        )}
                         <span className="ulink mb-2 text-[1.08rem] font-semibold">{s.cardTitle ?? s.name}</span>
                         <p className="text-[.9rem] leading-[1.5]" style={{ color: "var(--dim)" }}>
                           {s.lede}
@@ -165,9 +261,28 @@ export default function ServicesIndex() {
               </ul>
             </div>
           </section>
+          {cluster === "Search" && <ConsultationCta band="band-b" />}
+          </Fragment>
         );
       })}
 
+      <section className="band band-b py-[clamp(48px,7vw,96px)]">
+        <div className="shell">
+          <Reveal>
+            <h2 className="mb-4 text-[clamp(1.6rem,3vw,2.3rem)] font-semibold leading-[1.12]">
+              Common questions about our services
+            </h2>
+          </Reveal>
+          <p className="review-q mb-8 max-w-[72ch] text-[.95rem] leading-[1.55]" style={{ color: "var(--dim)" }}>
+            “<ReviewText text={TESTIMONIALS.find((r) => r.name === "Sammy Cooil")!.quote} />”
+            {" · Sammy C. · "}
+            <a href={GBP_URL} className="ulink" target="_blank" rel="noopener noreferrer">
+              Google review
+            </a>
+          </p>
+          <Expandables items={QUESTIONS} />
+        </div>
+      </section>
       <SiteFooter />
     </main>
   );

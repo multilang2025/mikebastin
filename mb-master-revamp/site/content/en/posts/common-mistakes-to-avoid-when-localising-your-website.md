@@ -13,6 +13,8 @@ sourceUrl: "https://mikebastin.com/common-mistakes-to-avoid-when-localising-your
 excerpt: "Traffic from your new market, and ready for the sales? Ten website localization fixes that make a translated site read as local, one by one."
 ---
 
+## Making a translated site read as local
+
 Your translated site is live and visitors from the new market arrive; the next step is turning them into buyers. Usually the site works fine technically. What it needs is to read as local: a tone that fits, prices in the format buyers expect and a form that takes a local address, so the visitor stays with you.
 
 Below are ten website localization fixes that get you there, grouped by where they apply.

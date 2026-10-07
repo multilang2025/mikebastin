@@ -13,6 +13,8 @@ sourceUrl: null
 excerpt: "Vos acheteurs présélectionnent leurs fournisseurs sur ChatGPT, LinkedIn et G2 avant Google : une stratégie search everywhere vous place partout."
 ---
 
+## Atteindre les acheteurs qui présélectionnent leurs fournisseurs
+
 Vos acheteurs à l’étranger présélectionnent leurs fournisseurs avant d’arriver sur votre site. Un responsable achats à Madrid, à Anvers ou à Munich demande des pistes à ChatGPT ou à Perplexity, repère les noms cités sur LinkedIn, lit les avis sur G2 ou Capterra, puis ouvre Google, souvent pour chercher un nom déjà retenu. Être visible sur chacune de ces surfaces vous place sur la liste courte, à l’endroit même où elle se dresse.
 
 Une stratégie search everywhere met votre entreprise devant ces acheteurs sur chaque surface, dans chacune de vos langues, à partir d’un seul socle de faits cohérents. Voici les surfaces qui comptent, ce que chacune récompense et comment les piloter ensemble.
@@ -72,7 +74,7 @@ Hashtags, légendes et texte à l’écran y jouent le rôle de métadonnées. U
 
 Vos acheteurs allemands cherchent à leur manière, et la page qu’ils trouvent est celle écrite pour la recherche allemande. En Europe même, les internautes néerlandais, espagnols et allemands ont chacun leurs habitudes de recherche : appliquez les [bonnes pratiques du SEO multilingue](/fr/bonnes-pratiques-seo-multilingue/) pour vous aligner sur l’intention locale.
 
-L’exécution technique compte : les balises hreflang et des domaines nationaux (.de, .es) signalent une présence locale. Le [réseau BeTranslated](https://www.betranslated.com), l’agence de traduction que nous avons fondée, repose sur cette approche : six domaines régionaux (.com, .be, .fr, .es, .co.uk, .nl), chacun travaillé comme un site à part entière, avec sa propre recherche de mots-clés et ses propres concurrents.
+L’exécution technique compte : les balises hreflang et des domaines nationaux (.de, .es) signalent une présence locale. Le [réseau BeTranslated](https://www.betranslated.com), l’agence de traduction que nous avons fondée, repose sur cette approche : dix domaines nationaux (.com, .us, .ca, .co.uk, .be, .fr, .es, .de, .nl, .it), chacun travaillé comme un site à part entière, avec sa propre recherche de mots-clés et ses propres concurrents.
 
 Pour les IA, l’exactitude locale fait la différence. Le cabinet [Delaguía y Luzón](https://delaguialuzon.com), à Valence, publie en quatre langues (espagnol, français, anglais et russe) sur le droit espagnol et français, avec un contenu où chaque terme doit tenir à la lecture d’un juriste.
 

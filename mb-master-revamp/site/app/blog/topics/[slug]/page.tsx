@@ -66,7 +66,7 @@ export default async function TopicPage({
     <main id="main">
       <JsonLd data={breadcrumbSchema([{ name: "Home", url: `${SITE_URL}/` }, { name: "Journal", url: `${SITE_URL}/blog/` }, { name: topic.name, url: `${SITE_URL}/blog/topics/${topic.slug}/` }])} />
       {/* ============ HERO ============ */}
-      <section className="band band-a grain relative overflow-hidden pb-[clamp(48px,7vw,90px)] pt-[clamp(88px,13vw,150px)]">
+      <section className="band band-a grain relative overflow-hidden pb-[clamp(32px,4vw,56px)] pt-[clamp(88px,9vw,112px)]">
         <div className="shell">
           <Reveal>
             <p className="eyebrow mb-4">

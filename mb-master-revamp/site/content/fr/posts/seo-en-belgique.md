@@ -12,6 +12,8 @@ sourceUrl: null
 excerpt: "SEO en Belgique : gagnez la Flandre, la Wallonie et Bruxelles en parlant à chaque communauté dans sa langue, avec un plan de mots-clés pour chacune."
 ---
 
+## Le SEO en Belgique pour atteindre l’ensemble du pays
+
 Vous vendez en Belgique, que votre entreprise soit française, luxembourgeoise, suisse ou belge, et votre site belge parle une seule langue : il touche environ la moitié du pays. Le néerlandais atteint la Flandre, la plus grande des communautés linguistiques ; le français atteint la Wallonie et une grande partie de Bruxelles. Ajoutez l’autre langue et vous parlez à tout le pays, car l’acheteur choisit le fournisseur qui s’adresse à lui dans sa langue.
 
 Le potentiel belge se lit mieux en croisant plusieurs sources, car les outils de mots-clés affichent des volumes belges minces.

@@ -13,6 +13,8 @@ sourceUrl: null
 excerpt: "Les extensions Chrome pour traducteurs qui méritent leur place en 2026 : premiers jets plus rapides, terminologie plus sûre, documents clients plus nets."
 ---
 
+## Des extensions Chrome qui accélèrent le premier jet
+
 Si votre équipe traduit dans le navigateur, vos extensions décident de deux choses : la vitesse à laquelle avance un premier jet, et sa netteté quand il arrive dans un document client ou sur une page en ligne. Une boîte à outils rapide fait gagner du temps sur chaque dossier ; une boîte à outils soignée garde la confiance du client. Une liste mise en favori en 2022 mérite une mise à jour : voici celle que nous gardons installée après plus de deux décennies de travail entre l’anglais, le français, l’espagnol et le néerlandais, et l’ordre dans lequel nous l’utilisons.
 
 ## Manifest V3 et LLM : ce qui a changé dans le navigateur

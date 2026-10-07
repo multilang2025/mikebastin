@@ -15,6 +15,8 @@ excerpt: "Optimización para sistemas de IA: descubre qué sabe ChatGPT de tu ma
 
 ![Optimización para sistemas de IA](/images/legacy/2026/01/Optimizacion-para-sistemas-de-IA-e1769595525365-1024x657.webp)
 
+## Qué dicen de tu empresa los sistemas de IA
+
 Tus compradores ya preguntan a ChatGPT qué proveedores considerar, y la respuesta describe a tu empresa con lo que el modelo ha leído sobre ella. Cuando esa descripción coincide con lo que vendes, en cada idioma, entras en la lista corta antes incluso de la primera visita a tu web.
 
 Aquí tienes un método en cuatro pasos para saber qué dicen los sistemas de IA de tu marca y ponerlo de tu lado.

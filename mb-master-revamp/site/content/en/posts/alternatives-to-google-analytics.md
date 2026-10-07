@@ -13,6 +13,8 @@ sourceUrl: "https://mikebastin.com/alternatives-to-google-analytics/"
 excerpt: "Weighing Google Analytics alternatives? Compare five by privacy, price and ease of use, and pick the one that fits how your business measures its markets."
 ---
 
+## What a Google Analytics alternative should show you
+
 Your analytics should tell you which market deserves the next budget: full European numbers, visitors who decline the consent banner accounted for, and reports everyone on the team can find their way around.
 
 Below: five Google Analytics alternatives, what each costs to start, and which business each suits. Prices are each vendor’s published entry price when we checked on 26 September 2026, in the currency the vendor quotes; they change often, so confirm before you commit.
