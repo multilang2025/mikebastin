@@ -539,10 +539,10 @@ export const SERVICES: Service[] = [
     cardTitle: "French SEO and GEO for buyers in France",
     inline: "French SEO",
     h1: "French SEO and GEO agency for companies selling into France",
-    subhead: "Researched and written in French from the first word, so buyers in France, Belgium and Switzerland read a supplier they can trust with the enquiry.",
+    subhead: "Researched and written in French from the first word, so buyers in France, Belgium, Switzerland and Canada read a supplier they can trust with the enquiry.",
     cluster: "Search",
     angle: "French SEO for companies selling into France",
-    lede: "You have French pages and French visitors, and the market has more enquiries to send you. A French buyer compares suppliers before contacting any of them, and the shortlist goes to sites that read as written in French.",
+    lede: "French SEO services help turn your French pages and visitors into more enquiries. French buyers compare suppliers before contacting anyone, and they shortlist sites that read as if they were written in French.",
     metaTitle: "French SEO agency for companies selling into France",
     metaDescription: "French buyers know in one sentence whether a page was written in French. We research and write your French pages natively, so French visits become enquiries.",
     // Research, 23 Sep 2026 (Ahrefs GB and worldwide, plus this page's own
@@ -581,15 +581,15 @@ export const SERVICES: Service[] = [
       {
         heading: "Most searches for French SEO come from companies outside France",
         paragraphs: [
-          "500 of the 700 monthly searches worldwide for a French SEO agency come from the UK (Ahrefs, September 2026), and Dutch and German companies search for SEO in France in their own languages.",
-          "So the typical buyer is a company outside France selling into it. You write the brief in English, Dutch or French, and the work is done in French.",
+          "Many companies looking for a French SEO consultant are selling into France from abroad. Of the 700 monthly searches worldwide for a French SEO agency, 500 come from the UK (Ahrefs, September 2026); Dutch and German companies also search for SEO in France in their own languages.",
+          "Searching for SEO in France from the Netherlands or Germany? We work with you in English, Dutch or French, while the research and SEO work are done in French.",
         ],
       },
       {
         heading: "French sites we run for ourselves and for clients",
         paragraphs: [
           "BeTranslated is our translation agency, and we have run it for over two decades. Its French site is on its own .fr domain, with keyword research done specifically for France.",
-          "Matosurf is our own French board sports site: a hundred and twenty guides to forty-eight French spots, written in French for French riders.",
+          "Matosurf is our own French-language board sports site, with guides to spots across France, written for French riders.",
           "For Delaguía y Luzón, a Valencia law firm working across Spain and France, the French pages are held to the standard a French lawyer would apply when reading them, because in legal content precise terms matter for liability first and for rankings second.",
         ],
       },

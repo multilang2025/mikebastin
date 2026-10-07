@@ -604,6 +604,71 @@ h1, h2, h3, .display {
   100% { transform: translateY(180px); opacity: 0; }
 }
 
+/* Long-form French SEO journey, components/FrenchSeoJourneyArt.tsx. */
+.fseo-journey-art {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  opacity: .82;
+}
+.fseo-journey-art svg { display: block; overflow: visible; }
+.fseo-route-base {
+  stroke: var(--rule);
+  stroke-width: 1.5;
+  stroke-dasharray: 2 7;
+}
+.fseo-route-signal {
+  stroke: var(--berry);
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-dasharray: .025 .975;
+  animation: fseo-signal-travel 12s linear infinite;
+}
+@keyframes fseo-signal-travel {
+  from { stroke-dashoffset: 1; }
+  to { stroke-dashoffset: 0; }
+}
+.fseo-branch {
+  stroke: var(--rule);
+  stroke-width: 1.2;
+}
+.fseo-branch-dotted { stroke-dasharray: 2 5; }
+.fseo-orbit {
+  stroke: var(--rule);
+  stroke-width: 1;
+  stroke-dasharray: 2 7;
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: fseo-orbit-turn 24s linear infinite;
+}
+@keyframes fseo-orbit-turn { to { transform: rotate(1turn); } }
+.fseo-stop {
+  fill: var(--bg);
+  stroke: var(--dim);
+  stroke-width: 1.2;
+}
+.fseo-stop-pulse {
+  fill: none;
+  stroke: var(--berry);
+  stroke-width: 1;
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: fseo-node-pulse 3.2s ease-out infinite;
+  animation-delay: calc(var(--stop) * .65s);
+}
+@keyframes fseo-node-pulse {
+  0%, 10% { opacity: .55; transform: scale(.75); }
+  75%, 100% { opacity: 0; transform: scale(1.5); }
+}
+.fseo-glyph {
+  stroke: var(--ink);
+  stroke-width: 1.4;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.fseo-core { fill: var(--berry); }
+.fseo-satellite { fill: var(--berry); opacity: .55; }
+
 /* ===========================================================
    Reduced motion — hard stop on everything decorative
    =========================================================== */

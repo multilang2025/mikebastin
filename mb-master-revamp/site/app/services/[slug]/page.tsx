@@ -14,6 +14,7 @@ import { SERVICES, getService, CLUSTER_INLINE } from "@/lib/services";
 import { SITE_URL, breadcrumbSchema, serviceSchema } from "@/lib/schema";
 import { serviceGroupForEnSlug, serviceHreflang } from "@/lib/services-locale";
 import HeroArtSlot from "@/components/HeroArtSlot";
+import FrenchSeoJourneyArt from "@/components/FrenchSeoJourneyArt";
 import { hasDlArt } from "@/lib/dl-art";
 
 // lead-generation has its own hand-built route at app/services/lead-generation/,
@@ -134,6 +135,13 @@ export default async function ServicePage({
             <p className="max-w-[60ch] text-[clamp(1.05rem,1.5vw,1.2rem)] leading-[1.58]" style={{ color: "var(--dim)" }}>
               {service.lede}
             </p>
+            {service.slug === "french-seo" && (
+              <p className="mt-6">
+                <Link href="/contact/" className="btn btn-primary btn-lg">
+                  Book a free consultation
+                </Link>
+              </p>
+            )}
           </Reveal>
           {/* Proof in the hero, not at the foot of the page. A visitor who
               has never heard of us is deciding whether to keep reading on
@@ -159,7 +167,7 @@ export default async function ServicePage({
       {/* ============ BODY (real prose, migrated + adapted from the legacy pages this service absorbs) ============ */}
       {service.body && service.body.length > 0 && (
         <section className={`band band-${bodyBand} py-[clamp(56px,8vw,110px)]`}>
-          <div className="shell space-y-14">
+          <div className={service.slug === "french-seo" ? "shell relative space-y-14" : "shell space-y-14"}>
             {service.body.map((section, i) => (
               <Reveal key={section.heading} i={i}>
                 {/* A section with `art` runs two columns from md up: the
@@ -196,6 +204,11 @@ export default async function ServicePage({
                 </div>
               </Reveal>
             ))}
+            {service.slug === "french-seo" && (
+              <aside className="pointer-events-none absolute inset-y-0 right-0 hidden w-[260px] xl:block" aria-hidden="true">
+                <FrenchSeoJourneyArt />
+              </aside>
+            )}
           </div>
         </section>
       )}
