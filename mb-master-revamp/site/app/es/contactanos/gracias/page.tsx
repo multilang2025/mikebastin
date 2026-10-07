@@ -33,7 +33,7 @@ export default function SpanishThanksPage() {
           </Reveal>
           <Reveal i={2}>
             <p className="mb-10 max-w-[58ch] text-[clamp(1.05rem,1.65vw,1.24rem)]" style={{ color: "var(--dim)" }}>
-              Una persona del equipo lo lee. Te respondemos por lo general en un día laborable, con una opinión sincera sobre si somos las personas adecuadas para tu proyecto.
+              Una persona del equipo lo lee. Te respondemos normalmente en un día laborable, con una opinión sincera sobre si somos las personas adecuadas para tu proyecto.
             </p>
           </Reveal>
           <Reveal i={3}>

@@ -9,7 +9,7 @@ export const alt = "Generación de leads B2B en Valencia, de Mike Bastin.";
 export default async function Image() {
   return renderOgCard({
     title: "Generación de leads B2B en Valencia para empresas que venden fuera",
-    subtitle: "Tus visitas de cada mercado, convertidas en consultas cualificadas",
+    subtitle: "Tus visitas de cada mercado, convertidas en contactos cualificados",
     tag: OG_TAG.es.service,
     picture: PORTRAIT,
   });
