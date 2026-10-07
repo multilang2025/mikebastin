@@ -308,7 +308,7 @@ export default async function ServicePage({
             <p className="mb-9 max-w-[58ch] text-[1.05rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
               Thirty minutes on which markets matter, what already ranks, and
               what has been tried before. A written scope naming pages and
-              deliverables follows. Engagements run month to month.
+              deliverables follows. Engagements continue one month at a time.
             </p>
           </Reveal>
           <Reveal i={2}>

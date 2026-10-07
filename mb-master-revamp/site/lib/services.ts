@@ -188,7 +188,7 @@ export type Service = {
  */
 const ENGAGEMENT = [
   "What the engagement covers",
-  "How the work runs, month to month",
+  "How the work continues each month",
   "What lands, and when",
   "Where our work stops",
   "Questions we get asked first",
@@ -309,8 +309,8 @@ export const SERVICES: Service[] = [
         text: "We read the search-term reports in each language, refine keywords, negatives and bids, and report each market's cost per lead every month.",
       },
       {
-        title: "Month to month",
-        text: "Engagements run month to month. Your whole media budget goes straight to Google, Microsoft or Meta, and management is a separate fee.",
+        title: "Flexible monthly terms",
+        text: "Engagements continue one month at a time. Your whole media budget goes straight to Google, Microsoft or Meta, and management is a separate fee.",
       },
     ],
   },
@@ -399,8 +399,8 @@ export const SERVICES: Service[] = [
         text: "Each market's conversions reviewed every month, with its consent rate alongside, and a short note on what changed and where the budget should move next.",
       },
       {
-        title: "Month to month",
-        text: "Engagements run month to month, so the work carries on for as long as it pays.",
+        title: "Flexible monthly terms",
+        text: "Engagements continue one month at a time, so the work carries on for as long as it pays.",
       },
     ],
   },
@@ -522,8 +522,8 @@ export const SERVICES: Service[] = [
         text: "We report rankings, AI answers and enquiries market by market each month, with what moved and what comes next.",
       },
       {
-        title: "Month to month",
-        text: "Engagements run month to month, so the work carries on for as long as each market pays.",
+        title: "Flexible monthly terms",
+        text: "Engagements continue one month at a time, so the work carries on for as long as each market pays.",
       },
     ],
     absorbs: ["global-seo-solutions", "internationalisation", "language-solutions", "multilingual-branding"],
@@ -538,11 +538,11 @@ export const SERVICES: Service[] = [
     name: "French SEO",
     cardTitle: "French SEO and GEO for buyers in France",
     inline: "French SEO",
-    h1: "French SEO and GEO agency for companies selling into France",
-    subhead: "Researched and written in French from the first word, so buyers in France, Belgium, Switzerland and Canada read a supplier they can trust with the enquiry.",
+    h1: "French SEO agency that converts",
+    subhead: "Expert French SEO services for France, Belgium, Switzerland and Canada.",
     cluster: "Search",
     angle: "French SEO for companies selling into France",
-    lede: "French SEO services help turn your French pages and visitors into more enquiries. French buyers compare suppliers before contacting anyone, and they shortlist sites that read as if they were written in French.",
+    lede: "Work directly with a French SEO consultant to turn local searches into qualified leads.",
     metaTitle: "French SEO agency for companies selling into France",
     metaDescription: "French buyers know in one sentence whether a page was written in French. We research and write your French pages natively, so French visits become enquiries.",
     // Research, 23 Sep 2026 (Ahrefs GB and worldwide, plus this page's own
@@ -565,32 +565,31 @@ export const SERVICES: Service[] = [
       {
         heading: "What a site written in French wins you",
         paragraphs: [
-          "A French buyer shortlists the way yours do: read a few sites, compare them, contact one or two. Within the first sentence they know whether a page was written in France: the word a French writer would choose, the right register, an example that makes sense to them.",
-          "Your reports show the French traffic arriving; the enquiry itself is decided on the page, often in favour of a French competitor with a weaker product and better French.",
-          
+          "French buyers compare a handful of suppliers before they enquire. Native phrasing, the right tone and familiar examples help your page earn a place on that shortlist—and give the buyer a reason to choose you.",
+          "Traffic is only the first win. French SEO turns the right visit into a sales conversation by making every page feel relevant, credible and easy to act on.",
         ],
       },
       {
         heading: "French SEO written in French from the start",
         paragraphs: [
-          "We research what French buyers actually type, in French and market by market. Their words are often different from yours: a British buyer searches for SEO, while a French one often types “référencement naturel”, so a site that uses both reaches them.",
-          "We work in French directly. The research, the page copy and the reading of what French visitors do are all handled in French by the people setting the strategy.",
-          "Then the things that make a French buyer trust a new supplier: a Google Business Profile in French, listings in the French directories your sector uses, reviews from French customers, and mentions in the French trade press.",
+          "French SEO services start with the phrases buyers use in France—not English keywords translated word for word. A British buyer might search for SEO; a French buyer often types “référencement naturel”. Use the language they search in, and your pages can meet demand already there.",
+          "We work in French directly, from keyword research and page copy to understanding how French visitors respond. One joined-up strategy makes each step feel natural to the people you want to reach.",
+          "Then we strengthen the signals that help a new supplier earn local trust: a French Google Business Profile, relevant French directories, customer reviews and mentions in the trade press.",
         ],
       },
       {
         heading: "Most searches for French SEO come from companies outside France",
         paragraphs: [
-          "Many companies looking for a French SEO consultant are selling into France from abroad. Of the 700 monthly searches worldwide for a French SEO agency, 500 come from the UK (Ahrefs, September 2026); Dutch and German companies also search for SEO in France in their own languages.",
-          "Searching for SEO in France from the Netherlands or Germany? We work with you in English, Dutch or French, while the research and SEO work are done in French.",
+          "Looking for a French SEO consultant to help you enter the market? You are in good company: 500 of the 700 monthly searches worldwide for a French SEO agency come from the UK (Ahrefs, September 2026). Dutch and German businesses search for SEO France in their own languages, too.",
+          "Searching for SEO in France from the Netherlands or Germany? Bring us the brief in English, Dutch or French. We’ll handle the research and SEO work in French, so your offer reaches buyers in the language they use.",
         ],
       },
       {
         heading: "French sites we run for ourselves and for clients",
         paragraphs: [
-          "BeTranslated is our translation agency, and we have run it for over two decades. Its French site is on its own .fr domain, with keyword research done specifically for France.",
-          "Matosurf is our own French-language board sports site, with guides to spots across France, written for French riders.",
-          "For Delaguía y Luzón, a Valencia law firm working across Spain and France, the French pages are held to the standard a French lawyer would apply when reading them, because in legal content precise terms matter for liability first and for rankings second.",
+          "We put the same market-first thinking to work on our own sites. BeTranslated, our translation agency, has its own .fr domain and French keyword research built specifically around the French market. We have run the agency for over two decades.",
+          "Matosurf is our French-language board sports site, with guides to spots across France, written for French riders.",
+          "For Delaguía y Luzón, a Valencia law firm working across Spain and France, we shape each French page to meet the standards of French legal readers. In legal content, the right term protects meaning as well as search visibility.",
         ],
       },
     ],
@@ -676,8 +675,8 @@ export const SERVICES: Service[] = [
         text: "Each month you get a short report on French rankings and enquiries, kept apart from your other markets, with what moved and what comes next.",
       },
       {
-        title: "Month to month",
-        text: "Engagements run month to month, so the work carries on for as long as it pays.",
+        title: "Flexible monthly terms",
+        text: "Engagements continue one month at a time, so the work carries on for as long as it pays.",
       },
     ],
   },
@@ -811,8 +810,8 @@ export const SERVICES: Service[] = [
         text: "Each month you get a short report in English or French on German rankings and enquiries, with what moved and what comes next.",
       },
       {
-        title: "Month to month",
-        text: "Engagements run month to month, so the work carries on for as long as it pays.",
+        title: "Flexible monthly terms",
+        text: "Engagements continue one month at a time, so the work carries on for as long as it pays.",
       },
     ],
   },
@@ -940,8 +939,8 @@ export const SERVICES: Service[] = [
         text: "Each month Spain and each Latin American market get their own numbers, with a short report on what moved and what comes next.",
       },
       {
-        title: "Month to month",
-        text: "Engagements run month to month, so the work carries on for as long as it pays.",
+        title: "Flexible monthly terms",
+        text: "Engagements continue one month at a time, so the work carries on for as long as it pays.",
       },
     ],
   },
@@ -1071,8 +1070,8 @@ export const SERVICES: Service[] = [
         text: "Each month you get a short report on Dutch and Belgian enquiries, kept apart from your other markets, with what moved and what comes next.",
       },
       {
-        title: "Month to month",
-        text: "Engagements run month to month, so the work carries on for as long as it pays.",
+        title: "Flexible monthly terms",
+        text: "Engagements continue one month at a time, so the work carries on for as long as it pays.",
       },
     ],
   },
@@ -1165,8 +1164,8 @@ export const SERVICES: Service[] = [
         text: "Each month you get a short report on Italian rankings and enquiries, kept apart from your other markets, with what moved and what comes next.",
       },
       {
-        title: "Month to month",
-        text: "Engagements run month to month, so the work carries on for as long as it pays.",
+        title: "Flexible monthly terms",
+        text: "Engagements continue one month at a time, so the work carries on for as long as it pays.",
       },
     ],
   },
@@ -1267,8 +1266,8 @@ export const SERVICES: Service[] = [
         text: "Each month Portugal and Brazil get their own numbers, with a short report on rankings, enquiries, what moved and what comes next.",
       },
       {
-        title: "Month to month",
-        text: "Engagements run month to month, so the work carries on for as long as it pays.",
+        title: "Flexible monthly terms",
+        text: "Engagements continue one month at a time, so the work carries on for as long as it pays.",
       },
     ],
   },
@@ -1382,8 +1381,8 @@ export const SERVICES: Service[] = [
         text: "Posts, photos, hours and review replies kept current every month in each language, with a short report on what moved on the map and what comes next.",
       },
       {
-        title: "Month to month",
-        text: "Engagements run month to month, so the work carries on for as long as it pays.",
+        title: "Flexible monthly terms",
+        text: "Engagements continue one month at a time, so the work carries on for as long as it pays.",
       },
     ],
     absorbs: ["local-seo"],
@@ -1979,8 +1978,8 @@ export const SERVICES: Service[] = [
         text: "We check which platforms name you for which questions, report what moved, and choose the next pages for the same treatment from that data.",
       },
       {
-        title: "Month to month",
-        text: "Engagements run month to month, so the work carries on for as long as it pays.",
+        title: "Flexible monthly terms",
+        text: "Engagements continue one month at a time, so the work carries on for as long as it pays.",
       },
     ],
   },
@@ -2016,8 +2015,8 @@ export const SERVICES: Service[] = [
         text: "Crawl, indexation and rankings checked market by market, with a short report on what moved and what comes next.",
       },
       {
-        title: "Month to month",
-        text: "Engagements run month to month, so the work carries on for as long as it pays.",
+        title: "Flexible monthly terms",
+        text: "Engagements continue one month at a time, so the work carries on for as long as it pays.",
       },
     ],
     body: [
@@ -2173,8 +2172,8 @@ export const SERVICES: Service[] = [
         text: "Every month we report the rankings, traffic and enquiries each page brought in, and choose the next month's calendar from those results.",
       },
       {
-        title: "Month to month",
-        text: "Engagements run month to month, so the programme carries on for as long as it pays for itself.",
+        title: "Flexible monthly terms",
+        text: "Engagements continue one month at a time, so the programme carries on for as long as it pays for itself.",
       },
     ],
   },
@@ -2270,8 +2269,8 @@ export const SERVICES: Service[] = [
         text: "We check each page's titles, links and language signals once it is live, then report every month on rankings and enquiries market by market.",
       },
       {
-        title: "Month to month",
-        text: "Engagements run month to month, so the work in each market carries on for as long as it pays.",
+        title: "Flexible monthly terms",
+        text: "Engagements continue one month at a time, so the work in each market carries on for as long as it pays.",
       },
     ],
     absorbs: ["multilingual-seo-copywriting", "cultural-consulting", "multilingual-social-media-management"],

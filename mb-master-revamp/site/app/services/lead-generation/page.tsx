@@ -60,7 +60,7 @@ const PARTS = [
  * Objections a buyer raises before booking, answered only with what the
  * rest of the site already commits to. Nothing here is new: the sequencing
  * is the multilingual SEO page's, the writing arrangement is the language
- * pages', and month-to-month terms are on every service page's closing section.
+ * pages', and flexible monthly terms are on every service page's closing section.
  */
 const QUESTIONS = [
   {
@@ -85,7 +85,7 @@ const QUESTIONS = [
   {
     q: "How long do we commit for?",
     a: [
-      "Month to month. The first call produces a written scope naming the pages and the deliverables, and you decide from there.",
+      "Flexible monthly terms. The first call produces a written scope naming the pages and the deliverables, and you decide from there.",
     ],
   },
 ];
@@ -294,7 +294,7 @@ export default function LeadGenerationPage() {
             <p className="mb-9 max-w-[58ch] text-[1.05rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
               Thirty minutes on which markets matter, what already ranks, and
               what has been tried before. A written scope naming pages and
-              deliverables follows. Engagements run month to month.
+              deliverables follows. Engagements continue one month at a time.
             </p>
           </Reveal>
           <Reveal i={2}>
