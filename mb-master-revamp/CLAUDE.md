@@ -244,6 +244,17 @@ supersedes the 2 Oct approval of the homepage market map (Q24). Owner exceptions
 asks for "I" in Mike's founder story and personal commentary, an exception to
 the "we" rule above, for the P2 pass; services stay "we".
 
+**The French and Spanish homepages follow the English design and wording** (owner,
+7 Oct 2026: "replicate the English design and wording on FR and ES, no erase what's
+bespoke"). Hero, evidence, what we do with the three steps, Why it works with the
+market diagram, reviews, BASTIN and the credibility strip are shared in structure; the
+FR markets and the five-step list, and the ES Valencia markets and graphic, stay as the
+bespoke sections. The shared FR and ES sections are `components/HomeWhy.tsx` and
+`components/HomeBastin.tsx`; a new section on the English page needs its FR and ES
+counterpart there. Note for `lint:code`: French words such as "même", "deuxième" and
+"utilise" trip the English first-person and forbidden-word checks in a component, so
+reword them (the same cause as the privacy page on 2 Oct).
+
 ## Keywords are assigned, researched and enforced
 
 `site/lib/keywords.ts` holds one **primary** and several **secondary**

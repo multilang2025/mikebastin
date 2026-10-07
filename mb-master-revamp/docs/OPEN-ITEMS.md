@@ -8,8 +8,10 @@ on in the next session.
 
 Last updated 7 Oct 2026. Merged to `main` through PR #139: the service rewrites,
 Víctoria's homepage and services PRs (#134, #137), no per-client results figures,
-review tooltips, and the owner's screenshots on the case studies. Open: Víctoria's
-#135 (Spanish homepage) and #140 (French SEO page), both conflicting with `main`.
+review tooltips, and the owner's screenshots on the case studies. Víctoria's #135
+(Spanish homepage) merged on 7 Oct with the shared files reconciled, and the French and Spanish
+homepages now follow the English design and wording. Open: Víctoria's #140 (French SEO
+page), conflicting with `main`, waiting on her update after the owner's answers (Q33).
 
 ## Waiting on the owner
 
