@@ -16,7 +16,7 @@ import { LEADS_HIGH, LEADS_LOW } from "@/lib/results-totals";
 import { LEADS_PERIOD, PROJECTS } from "@/lib/projects";
 
 const PROJECTS_WITH_LEADS = PROJECTS.filter((p) => p.leads).length;
-const VM_GROWTH = PROJECTS.find((p) => p.slug === "valenciamove")!.growth!;
+const VM_GROWTH = PROJECTS.find((p) => p.slug === "valenciamove")!.evidence![0];
 
 // The Service entry for this slug lives in lib/services.ts, and this route
 // reads its h1, subhead, lede and meta fields from there rather than

@@ -43,6 +43,11 @@ How to use it:
    case study with a linked list of the sites (`components/CountryFlags.tsx`).
 8. **Matosurf traffic** (Mike sent the screenshot): a six-month-old site with
    1,008 Google clicks in its last three months, now on its case study.
+9. **Delaguía y Luzón AI citations and Ahrefs overview** (Mike sent both
+   screenshots): 309 AI responses from 87 pages (182 AI Overviews, 92 AI Mode,
+   14 Perplexity, 6 Gemini, 2 ChatGPT) and 928 organic keywords with 200 in
+   the top three, DR 33, on its case study. Idea for Víctoria: the GEO service
+   page could link to this case study as its proof.
 
 ---
 
