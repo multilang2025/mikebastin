@@ -836,7 +836,7 @@ export const SERVICES: Service[] = [
     subhead: "Reach more buyers in Spain and Latin America with search strategies and content tailored to each market.",
     cluster: "Search",
     angle: "SEO Spain and Latin America, one market at a time",
-    lede: "From Madrid to Mexico City and Bogotá, your pages speak each buyer's Spanish and earn their trust.",
+    lede: "From Madrid to Mexico City and Bogotá, we help buyers searching for your services find your business.",
     metaTitle: "Spanish SEO agency for Spain and Latin America",
     metaDescription: "Buyers in Madrid and Mexico City each trust Spanish written for them. Spanish SEO run from Valencia for Spain and by native writers for Latin America.",
     // Research, 23 Sep 2026 (Ahrefs US, GB and worldwide, plus this page's
@@ -867,9 +867,9 @@ export const SERVICES: Service[] = [
         ],
       },
       {
-        heading: "Spain from Valencia, Latin America from Santo Domingo",
+        heading: "We run Spain from Valencia, Latin America from Santo Domingo",
         paragraphs: [
-          "Spain runs directly from Valencia, where we have been based since 2016. The research, the writing, the reading of competitors and the meetings all happen in Spanish, straight from the plan to the page.",
+          "We run Spain directly from Valencia. Our research, writing, competitor analysis and client meetings are all in Spanish, from the first plan to the finished page.",
           "Mexico, Colombia, Argentina and the Dominican Republic go to native copywriters on the BeTranslated team in Santo Domingo, briefed and checked here so the markets stay one coherent plan.",
           "We also earn mentions in the press each market reads, which buyers there check before they get in touch.",
         ],
@@ -947,7 +947,7 @@ export const SERVICES: Service[] = [
     },
     process: [
       {
-        title: "A free 20-minute audit",
+        title: "A free 30-minute consultation",
         text: "We look at your Spanish pages market by market and show you which Spanish to start with and where the biggest gains sit, before you commit.",
         icon: "search",
         deliverable: "Priority markets and quick wins",
