@@ -100,6 +100,8 @@ export type Project = {
     heading: string;
     text: string;
   };
+  /** Country sites shown with the flags animation (components/CountryFlags.tsx). */
+  countries?: { domain: string; country: string }[];
   /** Path under /work/, omitted where no usable capture exists. */
   shot?: string;
 };
@@ -125,6 +127,18 @@ export const PROJECTS: Project[] = [
     outcome:
    "Ten country sites, each ranking on its own market's terms, under an agency still trading after two decades.",
     services: ["Multi-TLD SEO", "Multilingual content", "Ten country markets", "Founder"],
+    countries: [
+      { domain: "betranslated.com", country: "International" },
+      { domain: "betranslated.us", country: "United States" },
+      { domain: "betranslated.ca", country: "Canada" },
+      { domain: "betranslated.co.uk", country: "United Kingdom" },
+      { domain: "betranslated.be", country: "Belgium" },
+      { domain: "betranslated.fr", country: "France" },
+      { domain: "betranslated.es", country: "Spain" },
+      { domain: "betranslated.de", country: "Germany" },
+      { domain: "betranslated.nl", country: "Netherlands" },
+      { domain: "betranslated.it", country: "Italy" },
+    ],
     shot: `/work/betranslated.webp?v=${SHOT_VERSION}`,
   },
   {
@@ -308,6 +322,15 @@ export const PROJECTS: Project[] = [
     outcome:
    "Forty-eight French spots and a hundred and twenty guides covering seven board sports, backed by a public editorial method page.",
     services: ["Editorial strategy", "Content architecture", "EEAT method page", "Owned property"],
+    growth: {
+      src: "/images/evidence/matosurf-search-console-3-months.webp",
+      width: 656,
+      height: 520,
+      alt: "Google Search Console for matosurf.com from July to early October 2026: 1,008 web search clicks, daily clicks rising from zero to around 20",
+      caption: "Google Search Console, matosurf.com, July to October 2026.",
+      heading: "The Matosurf search traffic, from zero to around 20 clicks a day",
+      text: "A six-month-old site with 1,008 clicks from Google in its last three months, climbing from nothing in early July. Matosurf is our own site, run the way we run a client's.",
+    },
     shot: `/work/matosurf.webp?v=${SHOT_VERSION}`,
   },
 ];

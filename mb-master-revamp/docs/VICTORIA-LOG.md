@@ -38,6 +38,12 @@ How to use it:
    roughly tripled from early 2026. Shown on the Bemelman case study only. An
    exception to the no-per-client-figures rule, for the sites Mike names.
 
+7. **Flags animation for BeTranslated** (Mike asked): the ten domains as flags
+   around a .com globe, drawn once when scrolled into view, on the BeTranslated
+   case study with a linked list of the sites (`components/CountryFlags.tsx`).
+8. **Matosurf traffic** (Mike sent the screenshot): a six-month-old site with
+   1,008 Google clicks in its last three months, now on its case study.
+
 ---
 
 ## 6 October 2026
