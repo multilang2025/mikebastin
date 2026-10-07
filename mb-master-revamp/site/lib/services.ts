@@ -589,7 +589,7 @@ export const SERVICES: Service[] = [
         heading: "French sites we run for ourselves and for clients",
         paragraphs: [
           "We put the same market-first thinking to work on our own sites. BeTranslated, our translation agency, has its own .fr domain and French keyword research built specifically around the French market. We have run the agency for over two decades.",
-          "Matosurf is our French-language board sports site, with guides to spots across France, written for French riders.",
+          "Matosurf is our own French-language board sports site: a hundred and twenty guides to forty-eight French spots, written for French riders.",
           "For Delaguía y Luzón, a Valencia law firm working across Spain and France, we shape each French page to meet the standards of French legal readers. In legal content, the right term protects meaning as well as search visibility.",
         ],
       },
@@ -620,9 +620,9 @@ export const SERVICES: Service[] = [
         ],
       },
       {
-        q: "Versions for France, Belgium, Switzerland and Quebec",
+        q: "Versions for France, Belgium, Switzerland and Canada",
         a: [
-          "France, Belgium, Switzerland and Quebec share the language, and each has its own habits. A Swiss buyer reads prices in CHF, search habits differ, and the register that sounds right in Paris sounds imported in Montreal.",
+          "France, Belgium, Switzerland and Canada share the language, and each has its own habits. A Swiss buyer reads prices in CHF, search habits differ, and the register that sounds right in Paris sounds imported in Montreal.",
           "Where more than one is in scope, we set up fr-FR, fr-BE, fr-CH and fr-CA versions, so each one ranks in its own country. Where only France is in scope, we build one French version targeted at France.",
         ],
       },
@@ -656,8 +656,8 @@ export const SERVICES: Service[] = [
     },
     process: [
       {
-        title: "A free 20-minute audit",
-        text: "We look at your French pages the way a buyer in France reads them and show you where the biggest gains sit, before you commit to anything.",
+        title: "A free 30-minute consultation",
+        text: "We review your French pages through a buyer's eyes and show you where the biggest opportunities lie, before you commit to anything.",
       },
       {
         title: "A written scope",
