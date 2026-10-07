@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import Reveal from "@/components/Reveal";
-import { PROJECTS } from "@/lib/projects";
+import { PROJECTS, SHOT_VERSION } from "@/lib/projects";
 import { PROJECTS_ES, PROJECTS_FR } from "@/lib/projects-locale";
 import { CASE_SLUGS } from "@/lib/home-evidence";
 import { BT_SITES } from "@/lib/betranslated-sites";
@@ -19,7 +19,7 @@ const T = {
     all: { href: "/results/", label: "See the results across our client sites" },
     sitesEyebrow: "BeTranslated country sites",
     sitesHeading: "BeTranslated, in every market it serves.",
-    sitesLede: "Ten country sites, each written for its own market and language.",
+    sitesLede: "Nine country sites, each written for its own market and language.",
     siteAlt: (market: string, domain: string) => `The BeTranslated site for ${market}, ${domain}, on desktop and mobile`,
   },
   fr: {
@@ -33,7 +33,7 @@ const T = {
     all: null,
     sitesEyebrow: "Sites pays de BeTranslated",
     sitesHeading: "BeTranslated, dans chaque marché où l’agence travaille.",
-    sitesLede: "Dix sites pays, chacun écrit pour son marché et sa langue.",
+    sitesLede: "Neuf sites pays, chacun écrit pour son marché et sa langue.",
     siteAlt: (market: string, domain: string) => `Le site BeTranslated pour ${market}, ${domain}, sur ordinateur et sur mobile`,
   },
   es: {
@@ -47,7 +47,7 @@ const T = {
     all: null,
     sitesEyebrow: "Sitios nacionales de BeTranslated",
     sitesHeading: "BeTranslated, en cada mercado donde trabaja la agencia.",
-    sitesLede: "Diez sitios nacionales, cada uno escrito para su mercado y su idioma.",
+    sitesLede: "Nueve sitios nacionales, cada uno escrito para su mercado y su idioma.",
     siteAlt: (market: string, domain: string) => `El sitio de BeTranslated para ${market}, ${domain}, en ordenador y en móvil`,
   },
 } as const;
@@ -169,7 +169,7 @@ export default function HomeEvidence({ locale = "en", band = "b" }: { locale?: "
             {t.sitesLede}
           </p>
         </Reveal>
-        <ul className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-5">
+        <ul className="grid grid-cols-2 gap-4 sm:grid-cols-3">
           {BT_SITES.map((s, i) => {
             const domain = `betranslated.${s.tld}`;
             return (
@@ -183,7 +183,7 @@ export default function HomeEvidence({ locale = "en", band = "b" }: { locale?: "
                     style={{ borderColor: "var(--rule)", background: "var(--shade)" }}
                   >
                     <Image
-                      src={`/work/${s.image}-800.webp`}
+                      src={`/work/${s.image}-800.webp?v=${SHOT_VERSION}`}
                       width={800}
                       height={640}
                       alt={t.siteAlt(s.market[locale], domain)}

@@ -326,10 +326,13 @@ body sections of `multilingual-seo`, `website-localisation`, `technical-seo` and
 `lib/services.ts`, files in `public/images/scenes/`, drawn with the scene-illustration
 skill); the service template shows a scene borderless and alternates its side. The
 homepage work section shows five cases (Delaguía, C21 Perdomo, BeTranslated, Bemelman, TX
-International Freight) and a tile for each of BeTranslated's ten country sites
+International Freight) and a tile for each of BeTranslated's country sites
 (`lib/betranslated-sites.ts`, images `public/work/betranslated-<tld>.webp` from
-`design/work-shots/gen.py`). `betranslated.it` does not resolve, so the Italian tile links
-to `betranslated.com/it/`. `design/scenes/render.py` now stops Edge itself once the
+`design/work-shots/gen.py`). `betranslated.it` does not resolve and is gone from the
+site (owner, 7 Oct 2026), so the homepage shows nine tiles in a 3 by 3 grid and counts
+nine sites in EN, FR and ES. Its tile image is deleted and the `.it` chip was painted out
+of the seven country pictures that carried it (fresh renders here lost the brand fonts,
+so the existing pictures were patched instead); tile URLs carry `?v=SHOT_VERSION`. `design/scenes/render.py` now stops Edge itself once the
 screenshot exists (it used to hang).
 
 **Every post opens on an H2** (owner hard rule, 7 Oct 2026: "all Blog posts need to
@@ -519,9 +522,11 @@ is in the rest, which the Master Content Protocol never covered:
   Spanish and Italian, and a native Portuguese speaker sits on the in-house
   IT team (owner, 2 Oct 2026). Same vague-level rule as German and Italian:
   never "working level" or a described reading level.
-- **BeTranslated runs ten country domains** (checked on the betranslated.com
-  footer, 7 Oct 2026): .com, .us, .ca, .co.uk, .be, .fr, .es, .de, .nl and
-  .it. Never "six" or "twelve".
+- **BeTranslated shows nine country domains** (owner, 7 Oct 2026): .com, .us,
+  .ca, .co.uk, .be, .fr, .es, .de and .nl. The footer of betranslated.com also
+  links .it, but that domain does not resolve, so the owner had it removed from
+  the homepage, the case study, the flags animation, the scene and the country
+  pictures. Never "six", "ten" or "twelve".
 - **ValenciaMove brings in over 50 leads a month** (owner, 7 Oct 2026),
   shown as 50+. **Mike leads the team on every engagement** and clients deal
   with him (owner, 7 Oct 2026).

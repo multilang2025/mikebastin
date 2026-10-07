@@ -449,9 +449,9 @@ export const SERVICES: Service[] = [
       },
       {
         heading: "Three cases where the multilingual scope was the whole challenge",
-        art: { src: "/images/scenes/multilingual-seo-3-cases.webp", alt: "Three multilingual sites side by side: ten country domains, four languages on a property site, and four languages across two legal systems." },
+        art: { src: "/images/scenes/multilingual-seo-3-cases.webp", alt: "Three multilingual sites side by side: nine country domains, four languages on a property site, and four languages across two legal systems." },
         paragraphs: [
-          "BeTranslated, the translation agency we have run for over two decades, runs ten country-specific domains with WPML across all of them, cross-domain hreflang, native content per market from the in-house translator team and schema localized per country. The result has been consistent organic ranking across several European markets and AI citations in each target language for translation services queries.",
+          "BeTranslated, the translation agency we have run for over two decades, runs nine country-specific domains with WPML across all of them, cross-domain hreflang, native content per market from the in-house translator team and schema localized per country. The result has been consistent organic ranking across several European markets and AI citations in each target language for translation services queries.",
           "Century 21 Perdomo sells Dominican real estate in English, French, Spanish and German on a headless WordPress, WPML and WooCommerce build, with every locale researched from its own market's searches.",
           "A Valencia law firm working in Spanish, French, English and Russian runs WPML across all four, with LegalService schema localized per language and attorney bios adapted to each audience. It now gets recurring leads on commercial-intent queries such as business law and franchise contracts, in its clients' own languages.",
         ],
