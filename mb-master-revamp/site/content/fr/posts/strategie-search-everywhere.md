@@ -72,7 +72,7 @@ Hashtags, légendes et texte à l’écran y jouent le rôle de métadonnées. U
 
 Vos acheteurs allemands cherchent à leur manière, et la page qu’ils trouvent est celle écrite pour la recherche allemande. En Europe même, les internautes néerlandais, espagnols et allemands ont chacun leurs habitudes de recherche : appliquez les [bonnes pratiques du SEO multilingue](/fr/bonnes-pratiques-seo-multilingue/) pour vous aligner sur l’intention locale.
 
-L’exécution technique compte : les balises hreflang et des domaines nationaux (.de, .es) signalent une présence locale. Le [réseau BeTranslated](https://www.betranslated.com), l’agence de traduction que nous avons fondée, repose sur cette approche : six domaines régionaux (.com, .be, .fr, .es, .co.uk, .nl), chacun travaillé comme un site à part entière, avec sa propre recherche de mots-clés et ses propres concurrents.
+L’exécution technique compte : les balises hreflang et des domaines nationaux (.de, .es) signalent une présence locale. Le [réseau BeTranslated](https://www.betranslated.com), l’agence de traduction que nous avons fondée, repose sur cette approche : dix domaines nationaux (.com, .us, .ca, .co.uk, .be, .fr, .es, .de, .nl, .it), chacun travaillé comme un site à part entière, avec sa propre recherche de mots-clés et ses propres concurrents.
 
 Pour les IA, l’exactitude locale fait la différence. Le cabinet [Delaguía y Luzón](https://delaguialuzon.com), à Valence, publie en quatre langues (espagnol, français, anglais et russe) sur le droit espagnol et français, avec un contenu où chaque terme doit tenir à la lecture d’un juriste.
 

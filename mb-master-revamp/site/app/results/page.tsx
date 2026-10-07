@@ -122,10 +122,10 @@ export default function ResultsPage() {
             <blockquote className="mb-12 max-w-[56ch] text-[.85rem]" style={{ color: "var(--dim)" }}>
               Sources: enquiries are a monthly average for {LEADS_PERIOD},
               from the sites that keep a record of their contact and quote
-              forms, counted from those records. The counts are form
-              submissions only, so enquiries by phone and email are not in
-              them, and a range stands where a site’s forms post outside it or
-              its requests also arrive by phone and email. Clicks and
+              forms, counted from those records. A count is form submissions
+              only; where a site’s forms post outside it or its requests also
+              arrive by phone and email, the site owner’s own figure or range
+              stands instead. Clicks and
               impressions cover the same three months, from Google Search
               Console.
             </blockquote>

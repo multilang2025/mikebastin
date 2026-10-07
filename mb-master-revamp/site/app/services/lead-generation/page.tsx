@@ -16,6 +16,7 @@ import { LEADS_HIGH, LEADS_LOW } from "@/lib/results-totals";
 import { LEADS_PERIOD, PROJECTS } from "@/lib/projects";
 
 const PROJECTS_WITH_LEADS = PROJECTS.filter((p) => p.leads).length;
+const VM_GROWTH = PROJECTS.find((p) => p.slug === "valenciamove")!.growth!;
 
 // The Service entry for this slug lives in lib/services.ts, and this route
 // reads its h1, subhead, lede and meta fields from there rather than
@@ -221,10 +222,10 @@ export default function LeadGenerationPage() {
               market, so you always know which language paid for itself.
             </p>
             <blockquote className="max-w-[62ch] text-[.85rem] leading-[1.55]" style={{ color: "var(--dim)" }}>
-              Source: monthly average for {LEADS_PERIOD} (ValenciaMove: July
-              2026) across {SITE_COUNT} sites, counted from their contact and
-              quote form records. Two sites give a range, because their
-              enquiries also arrive by phone and email.{" "}
+              Source: monthly average for {LEADS_PERIOD} across {SITE_COUNT}
+              sites, counted from their contact and quote form records. Where
+              enquiries also arrive by phone and email, the figure is the site
+              owner&apos;s own.{" "}
               <Link href="/results/" className="ulink">
                 Full breakdown on the results page
               </Link>
@@ -287,8 +288,9 @@ export default function LeadGenerationPage() {
             </h2>
             <p className="mb-5 max-w-[62ch] text-[1.05rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
               Mike has worked in multilingual search for over two decades and
-              founded BeTranslated, the translation agency whose six regional
-              sites have each competed in their own market for twenty years.
+              founded BeTranslated, the translation agency he has run for
+              twenty years, whose ten country sites each compete in their own
+              market, from the United States to Italy.
               He works natively in French, fluently in English, Spanish and
               Dutch, and well enough in German, Italian and Portuguese to run
               SEO projects in them.
@@ -298,10 +300,29 @@ export default function LeadGenerationPage() {
               <Link href="/projects/valenciamove/" className="ulink">
                 ValenciaMove
               </Link>{" "}
-              carries over a thousand pages in five languages and sends us
-              enquiries every month, and the BeTranslated sites win clients in
-              six markets. What we recommend to you is what already works with
-              our own budget.
+              carries over a thousand pages in five languages. In six months it
+              went from almost no search traffic to around 200 clicks a day,
+              and it now brings in over fifty enquiries a month. What we
+              recommend to you is what already works with our own budget.
+            </p>
+            <figure className="mt-8 max-w-[420px]">
+              <img
+                src={VM_GROWTH.src}
+                width={VM_GROWTH.width}
+                height={VM_GROWTH.height}
+                alt={VM_GROWTH.alt}
+                loading="lazy"
+                decoding="async"
+                className="block h-auto w-full rounded-[4px] border"
+                style={{ borderColor: "var(--rule)" }}
+              />
+              <figcaption className="mt-3 text-[.82rem]" style={{ color: "var(--dim)" }}>
+                {VM_GROWTH.caption}
+              </figcaption>
+            </figure>
+            <p className="mt-8 max-w-[62ch] text-[1.05rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
+              Mike leads the team on every engagement, so you deal with him
+              from the first call to the monthly report.
             </p>
           </Reveal>
         </div>

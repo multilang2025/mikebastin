@@ -94,13 +94,17 @@ Before and after, so you can see the pattern at a glance:
 
 **Usable** (all confirmed by Mike, details in `mb-master-revamp/CLAUDE.md`):
 - Over two decades in multilingual search (never a year count or a start year).
-- BeTranslated: the translation agency Mike founded and has run for twenty years.
+- BeTranslated: the translation agency Mike founded and has run for twenty
+  years, with ten country domains (.com, .us, .ca, .co.uk, .be, .fr, .es, .de,
+  .nl, .it).
+- Mike leads the team on every engagement; clients deal with him.
 - Languages: French native; English, Spanish and Dutch fluent; German,
   Italian and Portuguese "enough to manage SEO projects" (never a level).
   Native writers from the BeTranslated network write German, Italian and
   Portuguese commercial copy.
 - Based in Valencia. Key markets: Benelux, France and Spain, then Germany.
-- Own sites: ValenciaMove (1,132 URLs, five languages), BeTranslated, Matosurf.
+- Own sites: ValenciaMove (1,132 URLs, five languages, over 50 enquiries a
+  month, 17,400 clicks in its first six months), BeTranslated, Matosurf.
 - Clients: Delaguía y Luzón (Valencia law firm, four languages), TX
   International Freight (Houston, English only), Century 21 Perdomo
   (Dominican real estate, four languages), Bemelman Spuiterij
@@ -113,6 +117,9 @@ Before and after, so you can see the pattern at a glance:
 **Never invent:** a price, a turnaround, a guarantee, a certification, a
 result, or a quote from a client. **No per-client figures** (one client's
 clicks, enquiries, positions): only the totals in `lib/results-totals.ts`.
+The one exception is a Search Console chart Mike supplies himself for a case
+study (ValenciaMove and Bemelman Spuiterij so far), held in the `growth`
+field in `lib/projects.ts`.
 
 ## 7. Checks before you push
 
@@ -173,23 +180,23 @@ any stray lesson): GEO, conversion tracking, technical SEO, local SEO, website
 localization, app localization, AI consulting, AI post-editing, content
 marketing, multilingual content.
 
-## 10. Doubts (open, for Mike)
+## 10. Doubts
 
-Also in the log, numbered, so you can tick them off together.
-- **BeTranslated: six or twelve domains?** Pages disagree. Do not touch either
-  number until Mike answers.
-- **"ValenciaMove sends us enquiries every month"** and **"what we recommend
-  is what already works with our own budget"** on the lead generation page:
-  need Mike's yes.
-- **Whether to promise "you deal with Mike directly"** on service pages.
-- **When the FR and ES service pages follow** the English rewrite.
+Mike answered the first round on 7 October (see the log): ten BeTranslated
+domains, ValenciaMove over 50 leads a month, Mike as team leader, FR and ES
+after the English lock, no template band for now. Still open:
+- **"What we recommend to you is what already works with our own budget"** on
+  the lead generation page went out with the merge; confirm Mike is happy with
+  it when he reads the page.
+- **Other clients' traffic charts.** Mike sent ValenciaMove and Bemelman
+  screenshots. Ask whether he wants the same for Delaguía y Luzón, TX
+  International Freight and Century 21 Perdomo.
 
 ## 11. Ideas
 
-- **A "who does the work" band on every template page.** One change to
-  `app/services/[slug]/page.tsx` would give all 19 pages Mike's portrait and
-  two lines on who runs the work, the way the lead generation page now does.
-  It needs Mike's yes and a developer (Claude can do it).
+- **A bespoke "who does the work" section per page, later.** Mike declined a
+  shared band on 7 Oct ("maybe another bespoke section later"), so collect
+  ideas per page in the log instead.
 - **Testimonials on the template pages.** Only lead generation shows the
   Google reviews. Matching one review to each service would add proof where
   18 of 19 pages have none.

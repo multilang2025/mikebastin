@@ -20,7 +20,7 @@ Aquí tienes qué partes de tu marca viajan tal cual, cuáles piden trabajo en c
 
 ## Lo que cambia entre mercados aunque la marca sea la misma
 
-Pequeños cambios de énfasis deciden si un comprador sigue leyendo. Lo vemos en nuestros propios sitios: llevamos BeTranslated en seis dominios, .com, .be, .fr, .es, .co.uk y .nl, con la misma agencia, el mismo servicio y el mismo posicionamiento estratégico. La ejecución cambia, y esos cambios pesan en la conversión.
+Pequeños cambios de énfasis deciden si un comprador sigue leyendo. Lo vemos en nuestros propios sitios: llevamos BeTranslated en diez dominios, .com, .us, .ca, .co.uk, .be, .fr, .es, .de, .nl y .it, con la misma agencia, el mismo servicio y el mismo posicionamiento estratégico. La ejecución cambia, y esos cambios pesan en la conversión.
 
 -   **El comprador B2B belga quiere precisión funcional y precios claros desde el principio.** Pon los datos en el primer párrafo.
 -   **El comprador B2B francés espera un registro más formal y más contexto** antes de cualquier propuesta comercial. El trato de «vous» es obligado.

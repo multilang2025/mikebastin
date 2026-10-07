@@ -228,7 +228,7 @@ needs.
   `url` kept in `redirects/content-map.json`, redirects regenerated):
   `/es/seo-multilingue-2026-presencia-total/` became
   `/es/buenas-practicas-seo-multilingue/` that way.
-- **No per-client results figures**, in any locale (owner, 5 Oct 2026: "remove per-client numbers everywhere"). The site publishes results as totals across every site we run search for (`lib/results-totals.ts`) and as plain-language outcomes per client, never one client's clicks, impressions, average position, enquiries or hours saved. `search` and `leads` in `lib/projects.ts` are source data for the totals only. `npm run lint:figures` fails the build if a built page prints one. Identity facts (languages, TLDs, years trading) are not results and stay.
+- **No per-client results figures**, in any locale (owner, 5 Oct 2026: "remove per-client numbers everywhere"). The site publishes results as totals across every site we run search for (`lib/results-totals.ts`) and as plain-language outcomes per client, never one client's clicks, impressions, average position, enquiries or hours saved. `search` and `leads` in `lib/projects.ts` are source data for the totals only. `npm run lint:figures` fails the build if a built page prints one. Identity facts (languages, TLDs, years trading) are not results and stay. **One exception** (owner, 7 Oct 2026): a Search Console screenshot the owner supplies for a named site goes on that site's own case study through `growth` in `lib/projects.ts` (ValenciaMove, Bemelman Spuiterij).
 - IP boundary: no Marvel/superhero imagery tied to "Silver Surfer" — it is a
   prose-only nickname, visual language is original surf/wave motifs.
 
@@ -481,6 +481,12 @@ is in the rest, which the Master Content Protocol never covered:
   Spanish and Italian, and a native Portuguese speaker sits on the in-house
   IT team (owner, 2 Oct 2026). Same vague-level rule as German and Italian:
   never "working level" or a described reading level.
+- **BeTranslated runs ten country domains** (checked on the betranslated.com
+  footer, 7 Oct 2026): .com, .us, .ca, .co.uk, .be, .fr, .es, .de, .nl and
+  .it. Never "six" or "twelve".
+- **ValenciaMove brings in over 50 leads a month** (owner, 7 Oct 2026),
+  shown as 50+. **Mike leads the team on every engagement** and clients deal
+  with him (owner, 7 Oct 2026).
 - **"Agency" is fine everywhere** (owner, 2 Oct 2026), including generative
   engine optimization.
 - **Experience is "over two decades"** (owner, 27 Sep 2026: "I started in

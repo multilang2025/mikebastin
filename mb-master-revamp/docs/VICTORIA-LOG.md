@@ -13,6 +13,33 @@ How to use it:
 
 ---
 
+## 7 October 2026
+
+### Decided (Mike's answers to the 6 October questions)
+1. **BeTranslated runs ten country domains**: .com, .us, .ca, .co.uk, .be,
+   .fr, .es, .de, .nl and .it (checked against the betranslated.com footer,
+   7 Oct). Neither six nor twelve. Fixed on the case study, the homepage
+   cards (EN, FR, ES), lead generation, international SEO and five posts.
+   The harvested legacy texts in `content/en/services/`, `content/en/pages/`
+   and two unbuilt FR and ES service files still say twelve; they are not
+   published.
+2. **ValenciaMove brings in over 50 leads a month** (Mike). Shown as 50+, and
+   the enquiry total is now 310 to 420 a month. Mike also sent a Search
+   Console screenshot: 17,400 clicks and 1.63 million impressions from April to
+   October 2026, now on the ValenciaMove case study and the lead generation
+   page.
+3. **Clients deal with Mike as team leader** (Mike). The lead generation page
+   says so.
+4. **FR and ES wait for the English to be approved and locked** (Mike).
+5. **No "who does the work" band on the template pages for now** (Mike:
+   "maybe another bespoke section later").
+6. **Bemelman Spuiterij traffic evolution** (Mike sent the 16-month Search
+   Console screenshot): 5,320 clicks and 448,000 impressions, daily clicks
+   roughly tripled from early 2026. Shown on the Bemelman case study only. An
+   exception to the no-per-client-figures rule, for the sites Mike names.
+
+---
+
 ## 6 October 2026
 
 ### Context
