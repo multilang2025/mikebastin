@@ -15,6 +15,11 @@ How to use it:
 
 ## 7 October 2026
 
+### Decided later the same day
+- **betranslated.it is off the site** (Mike): the domain does not resolve. BeTranslated
+  now shows nine country domains everywhere: homepage tiles and counts, case study,
+  flags animation, the multilingual SEO scene, and five posts in EN, FR and ES.
+
 ### Handoff for Víctoria: the 7 October deploy, and what to double check
 
 Written by Claude for Mike, 7 Oct 2026. There are two deploys to preview.mikebastin.com

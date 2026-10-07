@@ -29,6 +29,7 @@ W, H = 1600, 1280
 BROWSERS = [
     r"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe",
     r"C:\Program Files\Google\Chrome\Application\chrome.exe",
+    "/opt/pw-browsers/chromium", "/usr/bin/chromium",
 ]
 
 WHITE = "brightness(0) invert(1)"
@@ -167,7 +168,6 @@ BRANDS = [
     # The nine other BeTranslated country sites (owner, 7 Oct 2026), each read from its
     # live homepage that day. Photo heroes (.us, .ca) and the language portal (.be) sit on
     # the dark backdrop; the light heroes (.co.uk, .fr, .es, .de, .nl) use the light one.
-    # .it is not a live site: betranslated.com/it/ is its Italian homepage.
     {
         "slug": "betranslated-us",
         "domain": "betranslated.us",
@@ -183,7 +183,7 @@ BRANDS = [
         "subColor": "rgba(255,255,255,.92)",
         "btn": {"t": "Get a Quote", "bg": "#7ebec5", "fg": "#fff", "r": "999px"},
         "phoneImg": "btl-us-hero.jpg",
-        "chips": [".com", ".us", ".ca", ".co.uk", ".be", ".fr", ".es", ".de", ".nl", ".it"], "chipBg": "rgba(246,118,24,.16)", "chipFg": "#ffd2b0",
+        "chips": [".com", ".us", ".ca", ".co.uk", ".be", ".fr", ".es", ".de", ".nl"], "chipBg": "rgba(246,118,24,.16)", "chipFg": "#ffd2b0",
     },
     {
         "slug": "betranslated-ca",
@@ -200,7 +200,7 @@ BRANDS = [
         "subColor": "rgba(255,255,255,.92)",
         "btn": {"t": "Get a Quote", "bg": "#7ebec5", "fg": "#fff", "r": "999px"},
         "phoneImg": "btl-ca-hero.jpg",
-        "chips": [".com", ".us", ".ca", ".co.uk", ".be", ".fr", ".es", ".de", ".nl", ".it"], "chipBg": "rgba(246,118,24,.16)", "chipFg": "#ffd2b0",
+        "chips": [".com", ".us", ".ca", ".co.uk", ".be", ".fr", ".es", ".de", ".nl"], "chipBg": "rgba(246,118,24,.16)", "chipFg": "#ffd2b0",
     },
     {
         "slug": "betranslated-co-uk",
@@ -216,7 +216,7 @@ BRANDS = [
         "sub": "Efficient, high quality, and accurate – the world is your oyster with BeTranslated!", "subColor": "#1d2327",
         "btn": {"t": "Get a Quote", "bg": "#2f3143", "fg": "#fff", "r": "999px"},
         "phoneImg": "btl-light-phone.webp",
-        "chips": [".com", ".us", ".ca", ".co.uk", ".be", ".fr", ".es", ".de", ".nl", ".it"], "chipBg": "rgba(47,49,67,.09)", "chipFg": "#2f3143",
+        "chips": [".com", ".us", ".ca", ".co.uk", ".be", ".fr", ".es", ".de", ".nl"], "chipBg": "rgba(47,49,67,.09)", "chipFg": "#2f3143",
     },
     {
         "slug": "betranslated-be",
@@ -248,7 +248,7 @@ BRANDS = [
         "sub": "Traduction professionnelle, interprétation, SEO multilingue, sous-titrage et bien d’autres encore.", "subColor": "#1d2327",
         "btn": {"t": "Devis de traduction", "bg": "#2f3143", "fg": "#fff", "r": "999px"},
         "phoneImg": "btl-light-phone.webp",
-        "chips": [".com", ".us", ".ca", ".co.uk", ".be", ".fr", ".es", ".de", ".nl", ".it"], "chipBg": "rgba(47,49,67,.09)", "chipFg": "#2f3143",
+        "chips": [".com", ".us", ".ca", ".co.uk", ".be", ".fr", ".es", ".de", ".nl"], "chipBg": "rgba(47,49,67,.09)", "chipFg": "#2f3143",
     },
     {
         "slug": "betranslated-es",
@@ -264,7 +264,7 @@ BRANDS = [
         "sub": "Nuestra agencia de traducción profesional cuenta con más de 20 años de experiencia y oficinas en Francia, Bélgica y España.", "subColor": "#1d2327",
         "btn": {"t": "Presupuesto", "bg": "#2f3143", "fg": "#fff", "r": "999px"},
         "phoneImg": "btl-light-phone.webp",
-        "chips": [".com", ".us", ".ca", ".co.uk", ".be", ".fr", ".es", ".de", ".nl", ".it"], "chipBg": "rgba(47,49,67,.09)", "chipFg": "#2f3143",
+        "chips": [".com", ".us", ".ca", ".co.uk", ".be", ".fr", ".es", ".de", ".nl"], "chipBg": "rgba(47,49,67,.09)", "chipFg": "#2f3143",
     },
     {
         "slug": "betranslated-de",
@@ -280,7 +280,7 @@ BRANDS = [
         "sub": "Wir sind darauf spezialisiert, umfassende Übersetzungsdienste in einer Vielzahl europäischer und asiatischer Sprachen anzubieten.", "subColor": "#1d2327",
         "btn": {"t": "Angebot anfordern", "bg": "#2f3143", "fg": "#fff", "r": "999px"},
         "phoneImg": "btl-light-phone.webp",
-        "chips": [".com", ".us", ".ca", ".co.uk", ".be", ".fr", ".es", ".de", ".nl", ".it"], "chipBg": "rgba(47,49,67,.09)", "chipFg": "#2f3143",
+        "chips": [".com", ".us", ".ca", ".co.uk", ".be", ".fr", ".es", ".de", ".nl"], "chipBg": "rgba(47,49,67,.09)", "chipFg": "#2f3143",
     },
     {
         "slug": "betranslated-nl",
@@ -296,23 +296,7 @@ BRANDS = [
         "sub": "Ons internationale vertaalbureau helpt Nederlandse bedrijven en organisaties met professionele vertaling, tolkdiensten, meertalige communicatie en SEO.", "subColor": "#1d2327",
         "btn": None,
         "phoneImg": "btl-light-phone.webp",
-        "chips": [".com", ".us", ".ca", ".co.uk", ".be", ".fr", ".es", ".de", ".nl", ".it"], "chipBg": "rgba(47,49,67,.09)", "chipFg": "#2f3143",
-    },
-    {
-        "slug": "betranslated-it",
-        "domain": "betranslated.it",
-        "fonts": "Fraunces:opsz,wght@9..144,500;9..144,600&family=Poppins:wght@400;500;600",
-        "head": "Fraunces", "body": "Poppins", "h1w": 600,
-        "page": ["#1f2030", "#2f3143"], "glow": ["#f67618", "#5b5e86"],
-        "header": "rgba(255,255,255,.96)", "logo": "bt-logo.avif", "logoFilter": "none", "logoH": 40,
-        "nav": ["Servizi linguistici", "Traduzioni certificate", "Referenze", "Blog", "Contatti"], "navColor": "#2f3143",
-        "cta": {"t": "Preventivo", "bg": "#f67618", "fg": "#fff", "r": "999px"},
-        "hero": None, "heroBg": "#2f3143", "split": "bt-hero.webp",
-        "align": "left", "h1": "Traduzione, interpretariato e SEO multilingue dal 2002.", "h1Color": "#ffffff",
-        "sub": "Traduzioni certificate e giurate per consolati, tribunali e anagrafi, e interpreti per udienze, appuntamenti notarili e cliniche.", "subColor": "rgba(255,255,255,.82)",
-        "btn": {"t": "Richiedi un preventivo gratuito", "bg": "#f67618", "fg": "#fff", "r": "999px"},
-        "phoneImg": "bt-hero.webp",
-        "chips": [".com", ".us", ".ca", ".co.uk", ".be", ".fr", ".es", ".de", ".nl", ".it"], "chipBg": "rgba(246,118,24,.16)", "chipFg": "#ffd2b0",
+        "chips": [".com", ".us", ".ca", ".co.uk", ".be", ".fr", ".es", ".de", ".nl"], "chipBg": "rgba(47,49,67,.09)", "chipFg": "#2f3143",
     },
 ]
 

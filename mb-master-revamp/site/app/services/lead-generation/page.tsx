@@ -289,7 +289,7 @@ export default function LeadGenerationPage() {
             <p className="mb-5 max-w-[62ch] text-[1.05rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
               Mike has worked in multilingual search for over two decades and
               founded BeTranslated, the translation agency he has run for
-              twenty years, whose ten country sites each compete in their own
+              twenty years, whose nine country sites each compete in their own
               market, from the United States to Italy.
               He works natively in French, fluently in English, Spanish and
               Dutch, and well enough in German, Italian and Portuguese to run
