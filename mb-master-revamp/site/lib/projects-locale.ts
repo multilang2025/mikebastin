@@ -17,10 +17,10 @@ const N = " ";
 export const PROJECTS_FR: Record<string, ProjectCopy> = {
   betranslated: {
     angle: "Notre agence, depuis le premier jour",
-    body: "Une agence de traduction avec six identités régionales et une architecture multi-domaines qui doit se positionner séparément sur chacune.",
-    services: ["SEO multi-domaines", "Contenu multilingue", "Six marchés régionaux"],
+    body: "Une agence de traduction avec dix sites nationaux, des États-Unis à l’Italie, chacun positionné séparément sur son marché.",
+    services: ["SEO multi-domaines", "Contenu multilingue", "Dix marchés nationaux"],
     metrics: [
-      { v: "6", k: "Domaines régionaux" },
+      { v: "10", k: "Domaines nationaux" },
       { v: `20${N}ans`, k: "D’activité" },
     ],
     alt: "Le site BeTranslated sur ordinateur et sur mobile",
@@ -62,6 +62,7 @@ export const PROJECTS_FR: Record<string, ProjectCopy> = {
     metrics: [
       { v: `1${N}132`, k: "URL" },
       { v: "5", k: "Langues" },
+      { v: "50+", k: "Demandes par mois" },
     ],
     alt: "Le site ValenciaMove sur ordinateur et sur mobile",
   },
@@ -100,10 +101,10 @@ export const PROJECTS_FR: Record<string, ProjectCopy> = {
 export const PROJECTS_ES: Record<string, ProjectCopy> = {
   betranslated: {
     angle: "Nuestra agencia, desde el primer día",
-    body: "Una agencia de traducción con seis identidades regionales y una arquitectura multidominio que tiene que posicionarse por separado en cada una.",
-    services: ["SEO multidominio", "Contenido multilingüe", "Seis mercados regionales"],
+    body: "Una agencia de traducción con diez webs nacionales, de Estados Unidos a Italia, cada una posicionada por separado en su mercado.",
+    services: ["SEO multidominio", "Contenido multilingüe", "Diez mercados nacionales"],
     metrics: [
-      { v: "6", k: "Dominios regionales" },
+      { v: "10", k: "Dominios nacionales" },
       { v: "20 años", k: "De actividad" },
     ],
     alt: "La web de BeTranslated en ordenador y en móvil",
@@ -145,6 +146,7 @@ export const PROJECTS_ES: Record<string, ProjectCopy> = {
     metrics: [
       { v: "1.132", k: "URL" },
       { v: "5", k: "Idiomas" },
+      { v: "50+", k: "Consultas al mes" },
     ],
     alt: "La web de ValenciaMove en ordenador y en móvil",
   },

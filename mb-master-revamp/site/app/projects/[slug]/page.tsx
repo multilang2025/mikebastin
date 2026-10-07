@@ -4,6 +4,7 @@ import { pageMeta } from "@/lib/meta";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import Reveal from "@/components/Reveal";
+import CountryFlags from "@/components/CountryFlags";
 import { PROJECTS, getProject } from "@/lib/projects";
 import SiteFooter from "@/components/SiteFooter";
 import JsonLd from "@/components/JsonLd";
@@ -170,6 +171,67 @@ export default async function ProjectPage({
           </div>
         </section>
       ))}
+
+      {project.growth && (
+        <section className="band band-b py-[clamp(56px,8vw,110px)]">
+          <div className="shell grid items-start gap-10 lg:grid-cols-[1fr_auto]">
+            <Reveal>
+              <p className="eyebrow mb-3">Search traffic over time</p>
+              <h2 className="mb-6 max-w-[26ch] text-[clamp(1.7rem,3.2vw,2.5rem)] font-semibold leading-[1.12]">
+                {project.growth.heading}
+              </h2>
+              <p className="mb-4 max-w-[56ch] text-[1.05rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
+                {project.growth.text}
+              </p>
+              <p className="max-w-[56ch] text-[.85rem]" style={{ color: "var(--dim)" }}>
+                {project.growth.caption}
+              </p>
+            </Reveal>
+            <Reveal i={1}>
+              <img
+                src={project.growth.src}
+                width={project.growth.width}
+                height={project.growth.height}
+                alt={project.growth.alt}
+                loading="lazy"
+                decoding="async"
+                className="block h-auto w-full max-w-[420px] rounded-[4px] border"
+                style={{ borderColor: "var(--rule)" }}
+              />
+            </Reveal>
+          </div>
+        </section>
+      )}
+
+      {project.countries && (
+        <section className="band band-b py-[clamp(56px,8vw,110px)]">
+          <div className="shell">
+            <Reveal>
+              <p className="eyebrow mb-3">One agency, {project.countries.length} domains</p>
+              <h2 className="mb-6 max-w-[26ch] text-[clamp(1.7rem,3.2vw,2.5rem)] font-semibold leading-[1.12]">
+                {project.name} across {project.countries.length} domains, each site ranking in its own market
+              </h2>
+            </Reveal>
+            <Reveal i={1} className="mx-auto max-w-[760px]">
+              <CountryFlags />
+            </Reveal>
+            <Reveal i={2}>
+              <ul className="mt-10 grid grid-cols-2 gap-x-6 gap-y-3 text-[.95rem] lg:grid-cols-5">
+                {project.countries.map((c) => (
+                  <li key={c.domain}>
+                    <a href={`https://www.${c.domain}/`} className="ulink" target="_blank" rel="noopener">
+                      {c.domain}
+                    </a>
+                    <span className="block text-[.82rem]" style={{ color: "var(--dim)" }}>
+                      {c.country}
+                    </span>
+                  </li>
+                ))}
+              </ul>
+            </Reveal>
+          </div>
+        </section>
+      )}
 
       {/* ============ NEXT / PREV ============ */}
       <section className="band band-a py-[clamp(56px,8vw,110px)]">

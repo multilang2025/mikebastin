@@ -14,7 +14,7 @@ const T = {
     clicks: "clicks from Google",
     impressions: "million Google impressions",
     range: "to",
-    source: "Totals across the sites we run search for, May to July 2026: enquiries are form submissions only, counted from each site’s records; clicks and impressions come from Google Search Console.",
+    source: "Totals across the sites we run search for, May to July 2026: enquiries are counted from each site’s form records, or given by the site owner where they also arrive by phone and email; clicks and impressions come from Google Search Console.",
     all: { href: "/results/", label: "See the results across our client sites" },
   },
   fr: {
@@ -24,7 +24,7 @@ const T = {
     clicks: "clics depuis Google",
     impressions: "millions d’impressions Google",
     range: "à",
-    source: "Totaux sur les sites dont nous gérons le référencement, de mai à juillet 2026\u00a0: les demandes sont des envois de formulaire uniquement, comptés d’après les enregistrements de chaque site\u00a0; les clics et les impressions viennent de Google Search Console.",
+    source: "Totaux sur les sites dont nous gérons le référencement, de mai à juillet 2026\u00a0: les demandes sont comptées d’après les formulaires de chaque site, ou données par son propriétaire quand elles arrivent aussi par téléphone et par e-mail\u00a0; les clics et les impressions viennent de Google Search Console.",
     all: null,
   },
   es: {
@@ -34,7 +34,7 @@ const T = {
     clicks: "clics desde Google",
     impressions: "millones de impresiones en Google",
     range: "a",
-    source: "Totales de las webs cuyo posicionamiento llevamos, de mayo a julio de 2026: las consultas son solo envíos de formulario, contados a partir de los registros de cada web; los clics y las impresiones vienen de Google Search Console.",
+    source: "Totales de las webs cuyo posicionamiento llevamos, de mayo a julio de 2026: las consultas se cuentan a partir de los formularios de cada web, o las da su propietario cuando también llegan por teléfono y correo; los clics y las impresiones vienen de Google Search Console.",
     all: null,
   },
 } as const;

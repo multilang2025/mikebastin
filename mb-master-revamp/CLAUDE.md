@@ -228,6 +228,7 @@ needs.
   `url` kept in `redirects/content-map.json`, redirects regenerated):
   `/es/seo-multilingue-2026-presencia-total/` became
   `/es/buenas-practicas-seo-multilingue/` that way.
+- **No per-client results figures**, in any locale (owner, 5 Oct 2026: "remove per-client numbers everywhere"). The site publishes results as totals across every site we run search for (`lib/results-totals.ts`) and as plain-language outcomes per client, never one client's clicks, impressions, average position, enquiries or hours saved. `search` and `leads` in `lib/projects.ts` are source data for the totals only. `npm run lint:figures` fails the build if a built page prints one. Identity facts (languages, TLDs, years trading) are not results and stay. **One exception** (owner, 7 Oct 2026): a Search Console screenshot the owner supplies for a named site goes on that site's own case study through `growth` in `lib/projects.ts` (ValenciaMove, Bemelman Spuiterij).
 - **No per-client results figures**, in any locale (owner, 5 Oct 2026: "remove per-client numbers everywhere"). The site publishes results as totals across every site we run search for (`lib/results-totals.ts`) and as plain-language outcomes per client, never one client's clicks, impressions, average position, enquiries or hours saved. `search` and `leads` in `lib/projects.ts` are source data for the totals only. `npm run lint:figures` fails the build if a built page prints one. Identity facts (languages, TLDs, years trading) are not results and stay.
 - **Reviews show at a uniform length** (owner, 6 Oct 2026): `components/ReviewText.tsx` cuts a review longer than 200 characters at the last word, and the ellipsis shows the rest as a tooltip on hover, focus or touch. Quotes stay verbatim and screen readers read them whole. Use it for any review quote on any page. The "forty thousand impressions, six clicks" line about our own site is not to appear on the website (owner, 6 Oct 2026).
 - IP boundary: no Marvel/superhero imagery tied to "Silver Surfer" — it is a
@@ -402,9 +403,18 @@ provide"). Each body opens on what the client gets, in the active voice with
 every service carries `process` in `lib/services.ts`, the real steps of the
 engagement starting with the free offer that fits, which the engagement band
 renders in place of the bare `sections` titles. Full rule in
-`docs/STYLE-GUIDE-UK-EU.md` section 10. Applied to all nineteen template
-pages the same day; `lead-generation` is hand-built and already written that
-way.
+`docs/STYLE-GUIDE-UK-EU.md` section 10. A first pass covered the nineteen
+template pages on 4 Oct, but several still carried lessons in their
+expandables; on 6 Oct `lead-generation` was rebuilt around Mike and the
+enquiry totals, and `multilingual-seo`, `french-seo` and
+`translation-services` were rewritten as worked examples.
+
+**Víctoria, Mike's intern, carries the rewrite through the remaining pages**
+(owner, 6 Oct 2026). Her method and queue are in
+[`docs/HANDOFF-VICTORIA.md`](docs/HANDOFF-VICTORIA.md); open questions for
+Mike and the page tracker are in [`docs/VICTORIA-LOG.md`](docs/VICTORIA-LOG.md).
+Add to the log in the turn a question opens or is settled, and update the
+tracker when a page is rewritten or signed off.
 
 ## The UK and International Europe style guide
 
@@ -473,6 +483,12 @@ is in the rest, which the Master Content Protocol never covered:
   Spanish and Italian, and a native Portuguese speaker sits on the in-house
   IT team (owner, 2 Oct 2026). Same vague-level rule as German and Italian:
   never "working level" or a described reading level.
+- **BeTranslated runs ten country domains** (checked on the betranslated.com
+  footer, 7 Oct 2026): .com, .us, .ca, .co.uk, .be, .fr, .es, .de, .nl and
+  .it. Never "six" or "twelve".
+- **ValenciaMove brings in over 50 leads a month** (owner, 7 Oct 2026),
+  shown as 50+. **Mike leads the team on every engagement** and clients deal
+  with him (owner, 7 Oct 2026).
 - **"Agency" is fine everywhere** (owner, 2 Oct 2026), including generative
   engine optimization.
 - **Experience is "over two decades"** (owner, 27 Sep 2026: "I started in
