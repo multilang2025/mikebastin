@@ -431,6 +431,7 @@ export const SERVICES: Service[] = [
     body: [
       {
         heading: "What you get from a multilingual SEO engagement",
+        art: { src: "/images/scenes/multilingual-seo-1-engagement.webp", alt: "A list of markets ranked on evidence, a page written natively in French beside German, Spanish and Dutch, one address structure per language, and a monthly report per market." },
         paragraphs: [
           "A ranked list of your markets, scored on evidence, so the first one we open is the one most likely to send enquiries soon.",
           "Pages written natively in each language. Search engines treat them as original content, AI engines tend to cite them ahead of machine translation, and native readers stay to read them.",
@@ -440,6 +441,7 @@ export const SERVICES: Service[] = [
       },
       {
         heading: "The research, writing and setup we run per language",
+        art: { src: "/images/scenes/multilingual-seo-2-per-language.webp", alt: "Keyword research per market, a native writer for each language, and the structure and sitemap set up for every language version." },
         paragraphs: [
           "Every global SEO programme we run starts with native research in each target language, covering real commercial intent and long-tail phrasing per market. Subdirectory, subdomain or ccTLD gets a reasoned recommendation for your case, with hreflang and per-language sitemaps configured from the start.",
           "We settle early the decisions that are expensive to undo later: the domain structure, the hreflang map and the order the markets go in. We check that hreflang sits on every page, the homepage included, so each visitor lands on the version for their country. Writing runs fluent and direct for French, English, Spanish and Dutch, and through native copywriters from the BeTranslated network for German, Italian, Portuguese and other languages. LocalBusiness, Service, Article and FAQ schema is built per language and validated on Google's Rich Results tool, and the same work extends to how ChatGPT, Claude, Perplexity and AI Overviews answer in each language.",
@@ -447,6 +449,7 @@ export const SERVICES: Service[] = [
       },
       {
         heading: "Three cases where the multilingual scope was the whole challenge",
+        art: { src: "/images/scenes/multilingual-seo-3-cases.webp", alt: "Three multilingual sites side by side: ten country domains, four languages on a property site, and four languages across two legal systems." },
         paragraphs: [
           "BeTranslated, the translation agency we have run for over two decades, runs ten country-specific domains with WPML across all of them, cross-domain hreflang, native content per market from the in-house translator team and schema localized per country. The result has been consistent organic ranking across several European markets and AI citations in each target language for translation services queries.",
           "Century 21 Perdomo sells Dominican real estate in English, French, Spanish and German on a headless WordPress, WPML and WooCommerce build, with every locale researched from its own market's searches.",
@@ -1412,6 +1415,7 @@ export const SERVICES: Service[] = [
     body: [
       {
         heading: "What you get from a website localization project",
+        art: { src: "/images/scenes/website-localisation-1-project.webp", alt: "A product page shown in the UK and in Germany, with the price format, form fields, payment methods and trust mark each adapted to the market, beyond the translated words." },
         paragraphs: [
           "Copy that reads as local. We localize the page text, the calls to action, dates, imagery and trust marks for each market, so every language version reads as written for the people buying in it.",
           "A checkout each market recognises. On WooCommerce, Shopify and Magento we set local currency, prices formatted the way each market writes them, local payment methods and checkout flows per region, since shoppers are more likely to complete when they see a payment option they know.",
@@ -1421,6 +1425,7 @@ export const SERVICES: Service[] = [
       },
       {
         heading: "The multilingual setup we build underneath the words",
+        art: { src: "/images/scenes/website-localisation-2-setup.webp", alt: "A language switcher leading to one clear web address per language, each routed to the buyers of its own market, with its own metadata and sitemap entry." },
         paragraphs: [
           "We choose and set up the multilingual plugin that fits your site and your team. WPML is our default for WordPress, Polylang suits tighter budgets or simpler structures, and TranslatePress fits a non-technical content team that translates in context on the front end. We also work with Weglot, Shopify and Webflow.",
           "We test across WordPress, Joomla, Drupal or a custom build, so each language version launches with its own URL, its own metadata and its own place in the sitemap, ready to rank in its market.",
@@ -1428,6 +1433,7 @@ export const SERVICES: Service[] = [
       },
       {
         heading: "A four-language property site that stays correct as listings turn over weekly",
+        art: { src: "/images/scenes/website-localisation-3-listings.webp", alt: "One property listing update, a status change and a new price, spreading to the English, French, Spanish and German versions of the page at once, with each market's price format." },
         paragraphs: [
           "Century 21 Perdomo sells Dominican real estate in four languages on a headless WordPress, WPML and WooCommerce stack, where a property selling, a price moving or a status flipping has to update correctly in all four locales at once.",
         ],
@@ -1943,6 +1949,7 @@ export const SERVICES: Service[] = [
     body: [
       {
         heading: "What you get from generative engine optimization",
+        art: { src: "/images/scenes/generative-engine-optimization-1-engagement.webp", alt: "A page written around a quotable claim with a named author and update date, an AI answer card quoting and citing that page, and a tracker showing where it is cited in each language." },
         paragraphs: [
           "A GEO audit of where you stand: which buyer questions in your market get answered by ChatGPT, Perplexity, Claude and Google's AI Overviews, which sources those answers name, and where your pages can join them.",
           "Pages rewritten around answer-shaped claims. We put a clear, quotable claim near the top of each page that matters, so a model can quote it directly and accurately, and we make the expertise behind it visible with named authors and current dates.",
@@ -1952,6 +1959,7 @@ export const SERVICES: Service[] = [
       },
       {
         heading: "Why a citation wins buyers alongside a ranking",
+        art: { src: "/images/scenes/generative-engine-optimization-2-citation.webp", alt: "A search ranking with the business in position two beside an AI answer that names the same business, highlighted, among its sources." },
         paragraphs: [
           "A user who asks ChatGPT or Perplexity a question gets a direct answer with a small number of sources named inside it. A mention inside that answer is earned separately from a page-one ranking, because the model selects a handful of sources it judges citation-worthy from all the pages that match the query. We shape your pages to be among the sources it picks for the questions your buyers ask.",
           "The pages that get named tend to share a shape: a clear, quotable claim near the top, structured data that tells a crawler exactly what the page is, and a consistent way of naming the same entity, the same business name and the same service name, across every place that entity appears online. We build that shape into your pages, then track the result.",
@@ -2025,6 +2033,7 @@ export const SERVICES: Service[] = [
     body: [
       {
         heading: "What you get from a technical SEO engagement",
+        art: { src: "/images/scenes/technical-seo-1-engagement.webp", alt: "A map of each language version of a site, a page speed check at the good threshold, and a fix list checked every month." },
         paragraphs: [
           "A written audit of every language version, ranked by what each fix is worth: hreflang, canonicals, redirects, sitemaps, indexation, page speed and structured data, checked market by market in Search Console and in a full crawl of the site.",
           "The fixes themselves. We make them directly on WordPress with WPML, Polylang, TranslatePress or Weglot, and on Shopify or Webflow, or we brief your developers and check each change once it ships.",
@@ -2033,6 +2042,7 @@ export const SERVICES: Service[] = [
       },
       {
         heading: "Where multilingual sites gain the most",
+        art: { src: "/images/scenes/technical-seo-2-multilingual.webp", alt: "Language versions of a site linked to each other, each with its own address and sitemap so it reaches its own buyers." },
         paragraphs: [
           "Language versions that reach their own audience. We set hreflang tags so every page names its siblings with the right language and country codes, which sends a French buyer to the French page and gives Search Console a clean report.",
           "Index space spent on the pages that sell. We split sitemaps by language, merge thin near-duplicates and point crawlers at the pages worth ranking, so Google indexes more of what each market should see.",

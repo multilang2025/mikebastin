@@ -320,6 +320,18 @@ that promise only what the linked service page states (owner, 26 Sep
 on a figure that would break the page (blank line inside, hex colour,
 missing aria-label).
 
+**Service pages and the homepage work section carry pictures** (owner, 7 Oct 2026). The
+body sections of `multilingual-seo`, `website-localisation`, `technical-seo` and
+`generative-engine-optimization` each have a scene illustration (`art` on the section in
+`lib/services.ts`, files in `public/images/scenes/`, drawn with the scene-illustration
+skill); the service template shows a scene borderless and alternates its side. The
+homepage work section shows five cases (Delaguía, C21 Perdomo, BeTranslated, Bemelman, TX
+International Freight) and a tile for each of BeTranslated's ten country sites
+(`lib/betranslated-sites.ts`, images `public/work/betranslated-<tld>.webp` from
+`design/work-shots/gen.py`). `betranslated.it` does not resolve, so the Italian tile links
+to `betranslated.com/it/`. `design/scenes/render.py` now stops Edge itself once the
+screenshot exists (it used to hang).
+
 **Every post opens on an H2** (owner hard rule, 7 Oct 2026: "all Blog posts need to
 start with an H2"). After any picture the post opens on, the first block of the body is an
 H2, in EN, FR and ES. `npm run lint:h2` (`scripts/post-opens-h2-lint.mjs`, in `verify`)
@@ -701,7 +713,10 @@ is the tie-breaker whenever a page has to decide what to lead with.
 **Germany to a much lesser extent**. Italian and Portuguese SEO are **low
 priority**: their pages stay live (never 404) but get no rebuild effort
 until the key markets are done. When choosing the next page, an example
-or a proof point, draw from the key markets first. The French, German and
+or a proof point, draw from the key markets first. **Where markets are listed in copy or in an illustration the order is
+EN (the US and UK), FR, ES, DE, NL, then IT and PT** (owner, 7 Oct 2026: "the
+international US/UK market is more important than the German"); the scene
+illustrations were redone to it. The French, German and
 Spanish SEO pages were rebuilt on 23 Sep (PR #104) around the buyer
 entering each market; Dutch SEO is next.
 

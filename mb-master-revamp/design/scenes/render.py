@@ -17,9 +17,11 @@ then sharp from site/node_modules for the WebP. Nothing to install.
 """
 import os
 import re
+import shutil
 import subprocess
 import sys
 import tempfile
+import time
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 SCENES = os.path.join(HERE, "scenes")
@@ -38,6 +40,45 @@ def size_of(html):
     return (int(m.group(1)), int(m.group(2))) if m else (800, 600)
 
 
+def shoot(browser, w, h, path, png):
+    """Headless Edge writes the screenshot and may never exit, so poll for the
+    file, wait until its size is stable, then kill the process tree."""
+    if os.path.exists(png):
+        os.remove(png)
+    profile = tempfile.mkdtemp(prefix="scene-")
+    proc = subprocess.Popen([browser, "--headless=new", "--disable-gpu", "--hide-scrollbars", "--force-device-scale-factor=2",
+                             "--default-background-color=00000000", f"--user-data-dir={profile}", f"--window-size={w + 72},{h + 72}", "--virtual-time-budget=4000",
+                             f"--screenshot={png}", "file:///" + path.replace("\\", "/")], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+    try:
+        deadline = time.time() + 60
+        last, stable_since = -1, None
+        while time.time() < deadline:
+            size = os.path.getsize(png) if os.path.exists(png) else -1
+            if size > 0 and size == last:
+                if stable_since is None:
+                    stable_since = time.time()
+                elif time.time() - stable_since >= 1:
+                    return
+            else:
+                stable_since = None
+            last = size
+            if proc.poll() is not None and size > 0:
+                return
+            time.sleep(0.25)
+        raise RuntimeError("no screenshot written for " + path)
+    finally:
+        if proc.poll() is None:
+            if os.name == "nt":
+                subprocess.run(["taskkill", "/F", "/T", "/PID", str(proc.pid)], capture_output=True)
+            else:
+                proc.kill()
+        try:
+            proc.wait(timeout=10)
+        except subprocess.TimeoutExpired:
+            pass
+        shutil.rmtree(profile, ignore_errors=True)
+
+
 def main(names):
     os.makedirs(PNG, exist_ok=True)
     os.makedirs(OUT, exist_ok=True)
@@ -47,9 +88,7 @@ def main(names):
         path = os.path.join(SCENES, n + ".html")
         w, h = size_of(open(path, encoding="utf-8").read())
         png = os.path.join(PNG, n + ".png")
-        subprocess.run([browser, "--headless=new", "--disable-gpu", "--hide-scrollbars", "--force-device-scale-factor=2",
-                        "--default-background-color=00000000", f"--user-data-dir={tempfile.mkdtemp(prefix='scene-')}", f"--window-size={w + 72},{h + 72}", "--virtual-time-budget=4000",
-                        f"--screenshot={png}", "file:///" + path.replace("\\", "/")], check=True, capture_output=True, timeout=120)
+        shoot(browser, w, h, path, png)
         conv = ("require('sharp')(process.argv[1]).webp({quality:88,alphaQuality:100}).toFile(process.argv[2])"
                 ".then(i=>console.log(process.argv[3], i.width+'x'+i.height, i.size))")
         subprocess.run(["node", "-e", conv, png, os.path.join(OUT, n + ".webp"), n], check=True, cwd=SITE)

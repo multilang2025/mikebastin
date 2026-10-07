@@ -169,19 +169,43 @@ export default async function ServicePage({
                     width. A section with no `art` is unchanged: full width,
                     max-w-[68ch], the plain single-column read every other
                     body section already uses. */}
-                <div className={section.art ? "flex flex-col gap-8 md:flex-row md:items-start" : undefined}>
-                  {section.art && (
-                    <img
-                      src={section.art.src}
-                      alt={section.art.alt}
-                      width={700}
-                      height={516}
-                      loading="lazy"
-                      className="w-full shrink-0 rounded-[4px] border md:w-[340px]"
-                      style={{ borderColor: "var(--rule)" }}
-                    />
-                  )}
-                  <div className={section.art ? "flex-1" : undefined}>
+                <div
+                  className={
+                    section.art
+                      ? `flex flex-col gap-8 md:gap-12 ${
+                          section.art.src.startsWith("/images/scenes/")
+                            ? `md:items-center ${i % 2 ? "md:flex-row-reverse" : "md:flex-row"}`
+                            : "md:flex-row md:items-start"
+                        }`
+                      : undefined
+                  }
+                >
+                  {section.art &&
+                    (section.art.src.startsWith("/images/scenes/") ? (
+                      /* A scene illustration (design/scenes): transparent, so no frame,
+                         wider than a screenshot, and the sides alternate section by
+                         section like the cluster scenes on /services/. */
+                      <img
+                        src={section.art.src}
+                        alt={section.art.alt}
+                        width={872}
+                        height={672}
+                        loading="lazy"
+                        decoding="async"
+                        className="mx-auto w-full max-w-[460px] shrink-0 md:w-[420px]"
+                      />
+                    ) : (
+                      <img
+                        src={section.art.src}
+                        alt={section.art.alt}
+                        width={700}
+                        height={516}
+                        loading="lazy"
+                        className="w-full shrink-0 rounded-[4px] border md:w-[340px]"
+                        style={{ borderColor: "var(--rule)" }}
+                      />
+                    ))}
+                  <div className={section.art ? "min-w-0 flex-1" : undefined}>
                     <h2 className="mb-5 max-w-[28ch] text-[clamp(1.4rem,2.6vw,2rem)] font-semibold leading-[1.18]">
                       {section.heading}
                     </h2>
