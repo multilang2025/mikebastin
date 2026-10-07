@@ -52,7 +52,7 @@ const STATS = [
   { n: 20, s: "+", k: "Years in search" },
   { n: 5, s: "+3", k: "Languages spoken" },
   { n: 8, s: "", k: "Projects in the line-up" },
-  { n: 12, s: "", k: "Domains run" },
+  { n: 10, s: "", k: "BeTranslated country sites" },
 ];
 
 const BASTIN = [
@@ -345,8 +345,7 @@ export default function Home() {
               Clients review us in their own language.
             </h2>
             <p className="mb-10 max-w-[56ch] text-[1.05rem]" style={{ color: "var(--dim)" }}>
-              Reviews arrived in Dutch, Spanish, French and English,
-              unprompted. Here are the English ones.
+              Reviews in Dutch, Spanish, French and English. Here are the English ones.
             </p>
           </Reveal>
           <Reveal i={1}>

@@ -473,7 +473,9 @@ is in the rest, which the Master Content Protocol never covered:
   and Ahrefs (`components/Analytics.tsx`), loaded only after consent and only
   on the production domain.
 - **TX International Freight is English only** (owner, 2 Oct 2026): one
-  market, Houston. Never "English and Spanish" or a Spanish campaign.
+  market, Houston. Never "English and Spanish" or a Spanish campaign. The
+  owner has worked with TX for nearly fifteen years (7 Oct 2026), the proof
+  point to use in place of the dropped "doubled" claim.
 - **Bemelman Spuiterij is in Noordwijkerhout** (owner, 2 Oct 2026), in the
   Bollenstreek. Never Hillegom.
 - **The Valencia law firm works in four languages**, Spanish, French,

@@ -302,8 +302,8 @@ export default function LeadGenerationPage() {
               </Link>{" "}
               carries over a thousand pages in five languages. In six months it
               went from almost no search traffic to around 200 clicks a day,
-              and it now brings in over fifty enquiries a month. What we
-              recommend to you is what already works with our own budget.
+              and it now brings in over fifty enquiries a month. The chart below is its own
+              Search Console data, and the case study sets out what we did.
             </p>
             <figure className="mt-8 max-w-[420px]">
               <img

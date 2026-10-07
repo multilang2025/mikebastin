@@ -187,7 +187,7 @@ export const PROJECTS: Project[] = [
     work:
    "Technical SEO and content built around the vocabulary Houston's industrial freight buyers actually use, learned from the industry itself. ",
     outcome:
-   "Local pack presence in Houston's industrial freight search.",
+   "Local pack presence in Houston's industrial freight search, for a client we have worked with for nearly fifteen years.",
     services: ["Technical SEO", "Industry content", "Houston local search", "Tracking portal"],
     search: { clicks: "2,616", impressions: "764,222", position: "21.7", note: "May to July 2026" },
     leads: { count: "114", what: "quote requests" },

@@ -60,7 +60,7 @@ const CLUSTER_SCENE: Record<string, { src: string; alt: string; intro: string }>
   "Lead generation": {
     src: "/images/scenes/svc-lead-generation.webp",
     alt: "A dashboard of enquiries by market, with new quote requests arriving from Germany and France",
-    intro: "Enquiries from each market, counted where they happen and handed to your sales team.",
+    intro: "One enquiry count per market, so you see which language pays back. We set up the tracking, run paid search where it helps, and hand your sales team enquiries worth a call, each one labelled with the market it came from.",
   },
   Search: {
     src: "/images/scenes/svc-search.webp",
@@ -70,17 +70,17 @@ const CLUSTER_SCENE: Record<string, { src: string; alt: string; intro: string }>
   Localization: {
     src: "/images/scenes/svc-localization.webp",
     alt: "One product page in Germany and Switzerland with local prices and payment methods, beside a stamped sworn translation",
-    intro: "Sites, prices and documents that read as local in every market you sell to.",
+    intro: "Websites, apps and documents adapted for each market: prices, form fields, trust marks and certified translation, done by native specialists through the BeTranslated network we have run for over two decades, so everything reads as local.",
   },
   AI: {
     src: "/images/scenes/svc-ai.webp",
     alt: "An AI answer citing German and Dutch pages, and a machine translation corrected by a native editor",
-    intro: "AI where it saves time, and a native reader wherever trust is on the line.",
+    intro: "AI used where it saves time, and a native specialist reading wherever trust is decided. We sort your multilingual content into what a machine can draft and what needs a person, and build pages that ChatGPT, Perplexity and Google's AI Overviews can cite.",
   },
   Supporting: {
     src: "/images/scenes/svc-technical.webp",
     alt: "A site structure with linked language versions, page speed results and a publishing plan per language",
-    intro: "The structure, speed and content plan that every language version ranks on.",
+    intro: "The foundations under every language version: a site structure each market can find, fast pages, and a content plan built from what buyers search for. We put the fixes in ourselves or brief your developers, and check every month that they hold.",
   },
 };
 
