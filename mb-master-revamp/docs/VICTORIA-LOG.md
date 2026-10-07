@@ -49,6 +49,11 @@ How to use it:
    the top three, DR 33, on its case study. Idea for Víctoria: the GEO service
    page could link to this case study as its proof.
 
+### To discuss
+1. **PR #140, French SEO page: six questions from Víctoria** (opened 7 Oct 2026; **answered by Mike, 7 Oct**: 30 minutes, no French-specific review, leave out the 21,421 impressions, the Matosurf line is accurate, name Canada, the Dutch and German line is ours to word). Consultation length (20 or 30 minutes), a French-specific review or client result, quoting the page's 21,421 impressions over 450 days, whether the Matosurf line is still accurate, whether to name Canada, and the wording of the Dutch and German visitor line. Full text in the PR description; tracked as Q33 in `OPEN-ITEMS.md`.
+2. **From 6 October:** the "own budget" sentence on the lead generation page is being reworded into a checkable claim (Mike, 7 Oct). Still open: the satisfaction bar for a signed-off service page (item 7).
+3. **Mike's interview.** Mike asked Víctoria to interview him for the open assets and older decisions (Q21, Q27, Q5, Q7, Q9, Q10, Q12, Q15 to Q18 in `OPEN-ITEMS.md`) and to write his answers into that log.
+
 ---
 
 ## 6 October 2026
