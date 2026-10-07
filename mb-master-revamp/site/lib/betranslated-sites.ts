@@ -1,9 +1,11 @@
 /**
- * BeTranslated's ten country domains (owner, 7 Oct 2026, checked on the
+ * BeTranslated's country domains (owner, 7 Oct 2026, checked on the
  * betranslated.com footer), for the tiles in the homepage work section
  * (components/HomeEvidence.tsx). Each image is a recreation of that site's
  * hero in the client's own branding, from design/work-shots/gen.py, like the
- * other client images in public/work/. The .com is the original
+ * other client images in public/work/. betranslated.it is left out (owner,
+ * 7 Oct 2026: "Remove betranslated.it from homepage"; the domain does not
+ * resolve), so the homepage shows nine. The .com is the original
  * betranslated.webp; the nine country sites have their own files.
  *
  * Market names are shown per locale. No language is claimed here: a site
@@ -28,5 +30,4 @@ export const BT_SITES: BtSite[] = [
   { tld: "es", image: "betranslated-es", market: { en: "Spain", fr: "Espagne", es: "España" } },
   { tld: "de", image: "betranslated-de", market: { en: "Germany", fr: "Allemagne", es: "Alemania" } },
   { tld: "nl", image: "betranslated-nl", market: { en: "Netherlands", fr: "Pays-Bas", es: "Países Bajos" } },
-  { tld: "it", image: "betranslated-it", href: "https://betranslated.com/it/", market: { en: "Italy", fr: "Italie", es: "Italia" } },
 ];

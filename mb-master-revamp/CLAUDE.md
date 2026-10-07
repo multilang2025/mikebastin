@@ -326,10 +326,11 @@ body sections of `multilingual-seo`, `website-localisation`, `technical-seo` and
 `lib/services.ts`, files in `public/images/scenes/`, drawn with the scene-illustration
 skill); the service template shows a scene borderless and alternates its side. The
 homepage work section shows five cases (Delaguía, C21 Perdomo, BeTranslated, Bemelman, TX
-International Freight) and a tile for each of BeTranslated's ten country sites
+International Freight) and a tile for each of BeTranslated's country sites
 (`lib/betranslated-sites.ts`, images `public/work/betranslated-<tld>.webp` from
-`design/work-shots/gen.py`). `betranslated.it` does not resolve, so the Italian tile links
-to `betranslated.com/it/`. `design/scenes/render.py` now stops Edge itself once the
+`design/work-shots/gen.py`). `betranslated.it` does not resolve and is off the homepage
+(owner, 7 Oct 2026), so it shows nine tiles in a 3 by 3 grid and counts nine sites in
+EN, FR and ES. `design/scenes/render.py` now stops Edge itself once the
 screenshot exists (it used to hang).
 
 **Every post opens on an H2** (owner hard rule, 7 Oct 2026: "all Blog posts need to
