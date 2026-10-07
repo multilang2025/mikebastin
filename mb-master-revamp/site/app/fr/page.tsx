@@ -4,6 +4,9 @@ import { pageMeta } from "@/lib/meta";
 import Reveal from "@/components/Reveal";
 import FounderPortrait from "@/components/FounderPortrait";
 import HomeEvidence from "@/components/HomeEvidence";
+import Testimonials from "@/components/Testimonials";
+import HomeWhy from "@/components/HomeWhy";
+import { HomeBastin, HomeCredibility } from "@/components/HomeBastin";
 import SiteFooter from "@/components/SiteFooter";
 import LocaleHtmlLang from "@/components/LocaleHtmlLang";
 import { ButtonLink } from "@/components/ui/Button";
@@ -47,6 +50,21 @@ const SERVICES_FOR: { slug: string; name: string; line: string }[] = [
   { slug: "sem-multilingue", name: "Publicité multilingue", line: "Votre budget média va entièrement à vos annonces, versé directement à Google, Microsoft ou Meta ; le pilotage fait l’objet d’honoraires à part." },
 ];
 
+const HOW_IT_WORKS = [
+  {
+    title: "Un audit de votre situation",
+    body: "Nous passons en revue votre site, votre visibilité dans les moteurs de recherche et vos versions linguistiques existantes pour repérer le travail technique et éditorial qui mène le plus sûrement à davantage de demandes.",
+  },
+  {
+    title: "Un plan par marché",
+    body: "Vous recevez un périmètre écrit pour les marchés que vous voulez développer, avec les priorités, les livrables et les responsabilités convenus avant le début du travail.",
+  },
+  {
+    title: "Un rapport mensuel par langue",
+    body: "Le travail avance marché par marché, avec un rapport mensuel du trafic et des demandes de chaque langue pour que vous voyiez ce qui rapporte.",
+  },
+];
+
 const STEPS = [
   "Une consultation gratuite de trente minutes sur vos marchés, vos langues et ce que vous avez déjà essayé.",
   "Un périmètre écrit pour le premier trimestre : les pages, les mots-clés et qui fait quoi.",
@@ -65,19 +83,22 @@ export default function FrenchHome() {
       <LocaleHtmlLang lang="fr" />
 
       {/* ============ HERO ============ */}
-      <section className="band band-a grain relative overflow-hidden pb-[clamp(56px,8vw,110px)] pt-[clamp(96px,14vw,170px)]">
-        <div className="shell relative grid items-center gap-x-10 lg:grid-cols-[1fr_auto]">
+      {/* Same design as the English homepage (owner, 7 Oct 2026): the agency
+          offer, the person who leads it, one call to action. The wording is
+          ours for a French-speaking exporter. */}
+      <section className="band band-b grain relative overflow-hidden pb-[clamp(48px,6vw,88px)] pt-[clamp(52px,7vw,104px)]">
+        <div className="shell relative grid items-center gap-x-14 lg:grid-cols-[1fr_auto]">
         <div>
           <Reveal>
-            <p className="eyebrow mb-8">Depuis Valencia, pour les entreprises qui exportent</p>
+            <p className="eyebrow mb-5">Depuis Valencia, pour les entreprises qui exportent</p>
           </Reveal>
           <Reveal i={1}>
-            <h1 className="mb-6 max-w-[16ch] text-[clamp(2.5rem,6vw,4.4rem)] font-semibold leading-[1.05]">
+            <h1 className="mb-5 max-w-[22ch] text-[clamp(2.1rem,5.2vw,4rem)] font-semibold leading-[1.08]">
               Agence SEO internationale, dirigée par Mike Bastin
             </h1>
           </Reveal>
           <Reveal i={2}>
-            <h2 className="mb-6 max-w-[40ch] text-[clamp(1.25rem,2.2vw,1.8rem)] font-medium leading-[1.3]" style={{ color: "var(--ink)" }}>
+            <h2 className="mb-5 max-w-[34ch] text-[clamp(1.15rem,2.1vw,1.6rem)] font-medium leading-[1.3]">
               Vos pages en français vous apportent des clients. Vos autres langues peuvent en faire autant.
             </h2>
           </Reveal>
@@ -87,14 +108,32 @@ export default function FrenchHome() {
             </p>
           </Reveal>
           <Reveal i={4}>
-            <div className="flex flex-wrap items-center gap-6">
+            <div className="flex flex-wrap items-center gap-x-6 gap-y-4">
               <ButtonLink href="/fr/nous-contacter/" size="lg">
-                Parlons de votre projet
+                Réserver une consultation gratuite
               </ButtonLink>
               <Link href="/fr/services/" className="ulink text-[.98rem]">
                 Voir nos services
               </Link>
             </div>
+          </Reveal>
+
+          <Reveal i={5}>
+            <Link
+              href="#testimonials"
+              aria-label="Lire les avis de nos clients"
+              className="mt-6 inline-flex flex-wrap items-center gap-x-3 gap-y-1 text-[.88rem]"
+              style={{ color: "var(--dim)" }}
+            >
+              <span className="flex gap-1" aria-hidden="true" style={{ color: "var(--berry)" }}>
+                {Array.from({ length: 5 }, (_, i) => (
+                  <svg key={i} width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2.5l2.9 6.06 6.6.86-4.83 4.6 1.22 6.55L12 17.5l-5.89 3.07 1.22-6.55L2.5 9.42l6.6-.86z" />
+                  </svg>
+                ))}
+              </span>
+              <span className="ulink">Avis sur notre fiche Google</span>
+            </Link>
           </Reveal>
         </div>
         <FounderPortrait
@@ -107,38 +146,10 @@ export default function FrenchHome() {
       {/* ============ CLIENT EVIDENCE ============ */}
       {/* Declaudify brief (owner, 3 Oct 2026): dated figures and three cases
           straight after the hero, in place of all eight spreads. */}
-      <HomeEvidence locale="fr" />
-
-      {/* ============ MARKETS ============ */}
-      {markets.length > 0 && (
-        <section className="band band-b py-[clamp(56px,8vw,104px)]">
-          <div className="shell">
-            <Reveal>
-              <h2 className="mb-3 text-[clamp(1.6rem,3vw,2.3rem)] font-semibold leading-[1.15]">Le marché où vous voulez vendre ensuite</h2>
-              <p className="mb-10 max-w-[58ch]" style={{ color: "var(--dim)" }}>
-                Chaque pays cherche avec ses propres mots, et vos pages sont écrites à partir de ces mots-là.
-              </p>
-            </Reveal>
-            <ul className="grid gap-px cells-2 sm:grid-cols-2" style={{ background: "var(--rule)" }}>
-              {markets.map((m, i) => (
-                <Reveal key={m.slug} i={i}>
-                  <li className="band h-full" style={{ background: "var(--bg)" }}>
-                    <Link href={servicePath("fr", m.slug)} className="flex h-full flex-col px-7 py-8">
-                      <span className="ulink mb-2 text-[1.12rem] font-semibold">{m.market}</span>
-                      <p className="text-[.94rem] leading-[1.55]" style={{ color: "var(--dim)" }}>
-                        {m.line}
-                      </p>
-                    </Link>
-                  </li>
-                </Reveal>
-              ))}
-            </ul>
-          </div>
-        </section>
-      )}
+      <HomeEvidence locale="fr" band="a" />
 
       {/* ============ WHAT WE DO ============ */}
-      <section className="band band-a py-[clamp(56px,8vw,104px)]">
+      <section className="band band-b py-[clamp(56px,8vw,104px)]">
         <div className="shell">
           <Reveal>
             <h2 className="mb-10 text-[clamp(1.6rem,3vw,2.3rem)] font-semibold leading-[1.15]">Ce que nous faisons pour chaque marché</h2>
@@ -166,8 +177,64 @@ export default function FrenchHome() {
               .
             </p>
           </Reveal>
+          <Reveal>
+            <p className="eyebrow mb-3 mt-12">Comment nous procédons</p>
+          </Reveal>
+
+          <ol className="grid gap-px md:grid-cols-3" style={{ background: "var(--rule)" }}>
+            {HOW_IT_WORKS.map((step, i) => (
+              <Reveal key={step.title} i={i}>
+                <li className="band h-full px-7 py-7" style={{ background: "var(--bg)" }}>
+                  <p className="display mb-5 text-[.9rem] font-semibold tabular-nums" style={{ color: "var(--berry)" }}>
+                    {String(i + 1).padStart(2, "0")}
+                  </p>
+                  <h3 className="display mb-3 text-[1.15rem] font-semibold leading-[1.25]">{step.title}</h3>
+                  <p className="text-[.92rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
+                    {step.body}
+                  </p>
+                </li>
+              </Reveal>
+            ))}
+          </ol>
+
+          <Reveal i={3}>
+            <p className="mt-8 text-[.95rem]" style={{ color: "var(--dim)" }}>
+              <Link href="/fr/tarifs/" className="ulink" style={{ color: "var(--berry)" }}>
+                Découvrir comment nous cadrons la mission et les honoraires
+              </Link>
+              {", et ce qui se passe du premier appel aux rapports mensuels."}
+            </p>
+          </Reveal>
         </div>
       </section>
+
+      {/* ============ MARKETS ============ */}
+      {markets.length > 0 && (
+        <section className="band band-a py-[clamp(56px,8vw,104px)]">
+          <div className="shell">
+            <Reveal>
+              <h2 className="mb-3 text-[clamp(1.6rem,3vw,2.3rem)] font-semibold leading-[1.15]">Le marché où vous voulez vendre ensuite</h2>
+              <p className="mb-10 max-w-[58ch]" style={{ color: "var(--dim)" }}>
+                Chaque pays cherche avec ses propres mots, et vos pages sont écrites à partir de ces mots-là.
+              </p>
+            </Reveal>
+            <ul className="grid gap-px cells-2 sm:grid-cols-2" style={{ background: "var(--rule)" }}>
+              {markets.map((m, i) => (
+                <Reveal key={m.slug} i={i}>
+                  <li className="band h-full" style={{ background: "var(--bg)" }}>
+                    <Link href={servicePath("fr", m.slug)} className="flex h-full flex-col px-7 py-8">
+                      <span className="ulink mb-2 text-[1.12rem] font-semibold">{m.market}</span>
+                      <p className="text-[.94rem] leading-[1.55]" style={{ color: "var(--dim)" }}>
+                        {m.line}
+                      </p>
+                    </Link>
+                  </li>
+                </Reveal>
+              ))}
+            </ul>
+          </div>
+        </section>
+      )}
 
       {/* ============ HOW WE WORK ============ */}
       <section className="band band-b py-[clamp(56px,8vw,104px)]">
@@ -193,7 +260,31 @@ export default function FrenchHome() {
         </div>
       </section>
 
-      <SiteFooter locale="fr" />
+      <HomeWhy locale="fr" band="a" />
+
+      {/* ============ TESTIMONIALS ============ */}
+      <section id="testimonials" className="band band-b py-[clamp(64px,9vw,128px)]">
+        <div className="shell">
+          <Reveal>
+            <p className="eyebrow mb-3">Dans leurs propres mots</p>
+            <h2 className="mb-5 max-w-[20ch] text-[clamp(1.8rem,3.6vw,2.9rem)] font-semibold leading-[1.1]">
+              Nos clients nous recommandent dans leur langue.
+            </h2>
+            <p className="mb-10 max-w-[56ch] text-[1.05rem]" style={{ color: "var(--dim)" }}>
+              Des avis en néerlandais, en espagnol, en français et en anglais. Voici ceux rédigés en français.
+            </p>
+          </Reveal>
+          <Reveal i={1}>
+            <Testimonials locale="fr" initialCount={4} />
+          </Reveal>
+        </div>
+      </section>
+
+      <HomeBastin locale="fr" band="a" />
+
+      <HomeCredibility locale="fr" band="b" />
+
+      <SiteFooter locale="fr" band="a" />
     </main>
   );
 }

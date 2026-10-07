@@ -5,6 +5,8 @@ import Reveal from "@/components/Reveal";
 import FounderPortrait from "@/components/FounderPortrait";
 import HomeEvidence from "@/components/HomeEvidence";
 import Testimonials from "@/components/Testimonials";
+import HomeWhy from "@/components/HomeWhy";
+import { HomeBastin, HomeCredibility } from "@/components/HomeBastin";
 import ValenciaMarketGraphic from "@/components/ValenciaMarketGraphic";
 import SiteFooter from "@/components/SiteFooter";
 import LocaleHtmlLang from "@/components/LocaleHtmlLang";
@@ -51,6 +53,14 @@ const SERVICES_FOR: { slug: string; name: string; line: string }[] = [
   { slug: "posicionamiento-multilingue", name: "SEO multilingüe", line: "Castellano, inglés y tus idiomas de exportación, cada uno con sus propias palabras clave." },
   { slug: "traduccion-profesional", name: "Traducción jurada", line: "Documentos para tribunales, embajadas y extranjería, entre uno y siete días según el documento." },
   { slug: "consultoria-de-inteligencia-artificial", name: "Consultoría de IA", line: "Procesos automatizados y una empresa que aparece en las respuestas de ChatGPT, Claude y Gemini." },
+];
+
+const STEPS = [
+  "Una consulta gratuita de treinta minutos, en nuestra oficina de Valencia o por videollamada, sobre tus clientes, tus idiomas y lo que ya has probado.",
+  "Un alcance por escrito para el primer trimestre: las páginas, las palabras clave y quién hace qué.",
+  "Una entrega mensual, mercado por mercado, a cargo de redactores nativos de la red BeTranslated, con la que trabajamos desde hace veinte años.",
+  "Consultas contadas idioma por idioma, para saber qué mercado da resultados.",
+  "Un compromiso mes a mes, que cualquiera de las dos partes puede terminar con un aviso previo.",
 ];
 
 const HOW_IT_WORKS = [
@@ -116,15 +126,15 @@ export default function SpanishHome() {
                 Reserva una consulta gratuita
               </ButtonLink>
               <Link href="/es/services/" className="ulink text-[.98rem]">
-                Ver resultados
+                Ver nuestros servicios
               </Link>
             </div>
           </Reveal>
 
           <Reveal i={5}>
             <Link
-              href="/es/services/"
-              aria-label="Más información sobre nuestros servicios"
+              href="#testimonials"
+              aria-label="Leer las reseñas de clientes"
               className="mt-6 inline-flex flex-wrap items-center gap-x-3 gap-y-1 text-[.88rem]"
               style={{ color: "var(--dim)" }}
             >
@@ -135,7 +145,7 @@ export default function SpanishHome() {
                   </svg>
                 ))}
               </span>
-              <span className="ulink">Más sobre cómo trabajamos</span>
+              <span className="ulink">Reseñas en el perfil de Google</span>
             </Link>
           </Reveal>
         </div>
@@ -208,7 +218,7 @@ export default function SpanishHome() {
               <Link href="/es/precios/" className="ulink" style={{ color: "var(--berry)" }}>
                 Descubre cómo definimos el plan de trabajo y los honorarios
               </Link>
-              {" "}— y qué ocurre desde la primera llamada hasta los informes mensuales.
+              {", y qué ocurre desde la primera llamada hasta los informes mensuales."}
             </p>
           </Reveal>
         </div>
@@ -247,6 +257,32 @@ export default function SpanishHome() {
         </section>
       )}
 
+      {/* ============ HOW WE WORK ============ */}
+      <section className="band band-b py-[clamp(56px,8vw,104px)]">
+        <div className="shell grid gap-[clamp(32px,5vw,64px)] lg:grid-cols-[minmax(0,1fr)_minmax(0,1.2fr)]">
+          <Reveal>
+            <h2 className="text-[clamp(1.6rem,3vw,2.3rem)] font-semibold leading-[1.15]">Cómo trabajamos</h2>
+            <p className="mt-4 max-w-[40ch]" style={{ color: "var(--dim)" }}>
+              Dirigimos la estrategia nosotros mismos y respondemos a cada mensaje, por lo general en un día laborable.
+            </p>
+          </Reveal>
+          <ol className="grid gap-5">
+            {STEPS.map((s, i) => (
+              <Reveal key={i} i={i}>
+                <li className="flex items-start gap-4 text-[1rem] leading-[1.6]">
+                  <span className="display shrink-0 text-[.9rem] font-semibold tabular-nums" style={{ color: "var(--berry)" }}>
+                    {String(i + 1).padStart(2, "0")}
+                  </span>
+                  <span>{s}</span>
+                </li>
+              </Reveal>
+            ))}
+          </ol>
+        </div>
+      </section>
+
+      <HomeWhy locale="es" band="a" />
+
       {/* ============ TESTIMONIALS ============ */}
       <section id="testimonials" className="band band-b py-[clamp(64px,9vw,128px)]">
         <div className="shell">
@@ -256,8 +292,7 @@ export default function SpanishHome() {
               Nuestros clientes nos recomiendan en su idioma.
             </h2>
             <p className="mb-10 max-w-[56ch] text-[1.05rem]" style={{ color: "var(--dim)" }}>
-              Hemos recibido reseñas espontáneas en neerlandés, español,
-              francés e inglés. Aquí puedes leerlas en español o consultar
+              Reseñas en neerlandés, español, francés e inglés. Aquí puedes leerlas en español o consultar
               cada reseña en su idioma original.
             </p>
           </Reveal>
@@ -267,7 +302,11 @@ export default function SpanishHome() {
         </div>
       </section>
 
-      <SiteFooter locale="es" />
+      <HomeBastin locale="es" band="a" />
+
+      <HomeCredibility locale="es" band="b" />
+
+      <SiteFooter locale="es" band="a" />
     </main>
   );
 }
