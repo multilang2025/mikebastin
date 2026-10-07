@@ -12,6 +12,8 @@ sourceUrl: null
 excerpt: "¿Vendes en Alemania? Las buenas prácticas de SEO en Alemania que ganan la confianza del comprador alemán, y el orden en que conviene aplicarlas."
 ---
 
+## SEO en Alemania que convierte visitas en presupuestos
+
 Tu empresa ya vende en Alemania y tus páginas en alemán reciben visitas. El siguiente paso es que esas visitas se conviertan en peticiones de presupuesto. Un comprador alemán compara tres o cuatro proveedores, lee cada página con atención y escribe a aquel cuyo alemán suena nativo y cuyos datos de empresa están completos. Supera esa lectura y la consulta llega a ti.
 
 Alemania es la mayor economía de Europa, así que acertar allí rinde más que en casi cualquier otro mercado al que exporte una empresa española.

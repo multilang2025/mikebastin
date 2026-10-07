@@ -12,6 +12,8 @@ sourceUrl: null
 excerpt: "Asuntos que invitan a abrir, emails cómodos en el móvil y segmentos por mercado: así haces que cada campaña de email marketing venda en cada país."
 ---
 
+## Las cuatro palancas del email marketing que venden
+
 Tu lista de suscriptores crece en varios mercados y tus campañas salen puntuales: en francés para Francia y Bélgica, en inglés para el Reino Unido, en alemán para Alemania. Falta que traigan ventas. Cada envío que merece la lectura enseña a tus suscriptores a abrir el siguiente.
 
 Cuentan cuatro palancas: asuntos que se ganan la apertura, emails con los que tu lector puede actuar desde el móvil, segmentos que hacen relevante cada envío y las cifras que muestran si el email marketing es rentable.

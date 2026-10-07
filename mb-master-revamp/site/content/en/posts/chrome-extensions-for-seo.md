@@ -12,6 +12,8 @@ sourceUrl: "https://mikebastin.com/chrome-extensions-for-seo/"
 excerpt: "Check a redirect chain or a tracking tag in seconds, well before the next audit. Here are the ten Chrome extensions for SEO we keep installed."
 ---
 
+## Quick SEO checks with Chrome extensions
+
 A French page shows English copy, or enquiries from one market drop overnight. Each is quick to confirm on the page itself, and confirming it the same day keeps the enquiries coming.
 
 Below are the ten Chrome extensions we keep installed for those moments, grouped by job, and the point where a site-wide check takes over.

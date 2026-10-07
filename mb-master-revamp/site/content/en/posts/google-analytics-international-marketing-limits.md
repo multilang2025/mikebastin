@@ -13,6 +13,8 @@ sourceUrl: "https://mikebastin.com/google-analytics-international-marketing-limi
 excerpt: "Google Analytics undercounts some markets and overstates others. What GA4 gets right for international marketing, what to check, and what to do next."
 ---
 
+## Why GA4 numbers and real market results differ
+
 Your analytics say Germany is your second-biggest market, and your German enquiries tell a different story. Both can be true, because GA4 sees less of your international traffic than its dashboards suggest, and it sees least in the markets where privacy rules are strictest.
 
 Read those numbers with care and your budget flows to the markets that sell. Below: what GA4 tells you reliably about each market, what it estimates, and how to decide where the next localization budget goes.

@@ -13,6 +13,8 @@ sourceUrl: null
 excerpt: "Stratégie marketing à l’international : les dix leviers d’une PME qui s’exporte, leur délai de retour, et les deux à lancer en premier sur votre marché."
 ---
 
+## Choisir par où commencer votre marketing à l’international
+
 Votre premier marché étranger rapporte le plus vite quand une petite équipe concentre son budget sur deux ou trois canaux, donne à chacun de quoi travailler, et voit en moins d’un an lesquels méritent d’être gardés. Pour une PME française, belge, suisse ou luxembourgeoise qui vend déjà hors de ses frontières, le choix du point de départ est la décision qui compte.
 
 Voici les dix leviers marketing que les PME emploient le plus à l’étranger, ce que chacun demande et le délai dans lequel il rapporte, pour choisir par où commencer en Espagne, au Benelux, en Allemagne ou au Royaume-Uni.

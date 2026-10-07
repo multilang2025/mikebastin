@@ -13,6 +13,8 @@ sourceUrl: null
 excerpt: "Économie des créateurs plus humaine : la vision de Jean Marie Cordaro et la marche à suivre pour posséder la relation avec votre audience."
 ---
 
+## Une audience hébergée sur la plateforme d’un tiers
+
 Si votre audience vit sur la plateforme d’un tiers, vous la louez : votre portée et vos revenus dépendent d’algorithmes, de prestataires de paiement et de règles de compte fixés par d’autres. Il en va de même pour une entreprise qui vend en Espagne, en Allemagne ou au Royaume-Uni et dont la relation client passe en partie par ces canaux. Posséder cette relation protège ce que vous avez mis des années à bâtir.
 
 Jean Marie Cordaro, fondateur de Bonzai.pro, a construit son travail autour d’une conviction : la technologie doit servir les personnes. Voici pourquoi, selon lui, l’économie des créateurs a trop penché du côté des plateformes, à quoi ressemble concrètement une alternative centrée sur l’humain, et ce que cela change pour quiconque veut posséder la relation avec son audience.

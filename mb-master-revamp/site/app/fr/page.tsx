@@ -118,23 +118,6 @@ export default function FrenchHome() {
             </div>
           </Reveal>
 
-          <Reveal i={5}>
-            <Link
-              href="#testimonials"
-              aria-label="Lire les avis de nos clients"
-              className="mt-6 inline-flex flex-wrap items-center gap-x-3 gap-y-1 text-[.88rem]"
-              style={{ color: "var(--dim)" }}
-            >
-              <span className="flex gap-1" aria-hidden="true" style={{ color: "var(--berry)" }}>
-                {Array.from({ length: 5 }, (_, i) => (
-                  <svg key={i} width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M12 2.5l2.9 6.06 6.6.86-4.83 4.6 1.22 6.55L12 17.5l-5.89 3.07 1.22-6.55L2.5 9.42l6.6-.86z" />
-                  </svg>
-                ))}
-              </span>
-              <span className="ulink">Avis sur notre fiche Google</span>
-            </Link>
-          </Reveal>
         </div>
         <FounderPortrait
           alt="Mike Bastin, à la tête de notre agence de SEO multilingue et de localisation."

@@ -13,6 +13,8 @@ sourceUrl: null
 excerpt: "Estrategias de networking para jóvenes profesionales: dónde conocer a las personas adecuadas, cómo hacer el seguimiento y qué herramientas usar."
 ---
 
+## Networking que abre puertas en marketing digital
+
 En marketing digital, los mejores puestos y los mejores clientes suelen ir a parar a alguien que quien decide ya conoce. Al principio de tu carrera, tu currículum habla por ti, mientras que quienes consiguen esos puestos llegan con una recomendación. Empezar ahora a reunir las tuyas te pone en esas listas, sobre todo si tus interlocutores están en Francia, el Benelux, Alemania o el Reino Unido.
 
 Aquí tienes los canales que merecen tu tiempo, cómo preparar un encuentro y hacer el seguimiento, las herramientas que mantienen ordenada una red de contactos y cómo llevar los momentos incómodos.

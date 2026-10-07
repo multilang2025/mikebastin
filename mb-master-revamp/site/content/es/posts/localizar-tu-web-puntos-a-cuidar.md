@@ -12,6 +12,8 @@ sourceUrl: null
 excerpt: "¿Tu web traducida ya recibe visitas de Francia, Benelux o Alemania? Diez puntos de localización web para convertirlas en ventas, uno a uno."
 ---
 
+## Qué hace que tu web traducida suene local
+
 Tu web traducida está publicada y ya llegan visitantes de tu nuevo mercado. El siguiente paso es convertirlos en clientes, y casi siempre la base técnica ya está lista para ello.
 
 Lo que convierte es sonar local: un tono que encaja, precios en el formato que el comprador espera y un formulario que acepta una dirección de su país. Aquí tienes diez puntos de localización web que te llevan hasta ahí, agrupados según dónde se aplican, pensados para una empresa que vende desde España o Latinoamérica a Francia, Países Bajos, Alemania o Reino Unido.

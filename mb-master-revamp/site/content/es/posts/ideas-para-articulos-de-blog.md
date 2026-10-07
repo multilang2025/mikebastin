@@ -13,6 +13,8 @@ sourceUrl: null
 excerpt: "Ideas para artículos de blog ordenadas por etapa de compra: 15 formatos, cada uno con un ejemplo, para convertir a tus lectores en solicitudes."
 ---
 
+## Ideas de artículos de blog que apoyan la venta
+
 Tu blog recibe visitas, en España y en los mercados donde ya vendes, y el siguiente paso es publicar artículos que tu equipo comercial pueda relacionar con solicitudes de contacto. Un artículo escrito para el lector que está listo para comprar recupera el día que costó redactarlo y te pone delante de ese lector antes que nadie.
 
 Aquí tienes 15 ideas para artículos de blog ordenadas según el papel que cumplen en la venta, cada una con un ejemplo que puedes adaptar a tu sector. Para vincular cada formato a una búsqueda real, parte de un [mapa de intención de búsqueda](/es/mapa-de-intencion-de-busqueda/) de tu mercado.

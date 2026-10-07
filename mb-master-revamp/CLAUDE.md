@@ -320,6 +320,18 @@ that promise only what the linked service page states (owner, 26 Sep
 on a figure that would break the page (blank line inside, hex colour,
 missing aria-label).
 
+**Every post opens on an H2** (owner hard rule, 7 Oct 2026: "all Blog posts need to
+start with an H2"). After any picture the post opens on, the first block of the body is an
+H2, in EN, FR and ES. `npm run lint:h2` (`scripts/post-opens-h2-lint.mjs`, in `verify`)
+checks the built pages from the post sitemaps, so only published posts count. A new post
+is written with its H2 first. Also from 7 Oct 2026: lists in `.post-body` show their
+bullets and numbers (the reset had removed the markers), a table's first column keeps its
+word whole, the post hero on desktop puts the title on the left and the picture on the
+right, and every hero on the site shares one compact padding (`pt-[clamp(88px,9vw,112px)]`,
+`pb-[clamp(32px,4vw,56px)]`; the homepages keep their own). The homepage heroes carry no
+star-review link, because reviews sit further down the page (owner, 7 Oct 2026: "don't
+put review so high up").
+
 ## Page metadata goes through `lib/meta.ts`
 
 Every EN route builds its metadata with `pageMeta()` (EN meta audit, 27

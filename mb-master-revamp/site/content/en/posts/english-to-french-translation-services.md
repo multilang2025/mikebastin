@@ -12,6 +12,8 @@ sourceUrl: "https://mikebastin.com/english-to-french-translation-services/"
 excerpt: "Want French pages that sell and rank? What to look for in English to French translation services for France, Belgium, Switzerland and Québec."
 ---
 
+## What French buyers expect from translated pages
+
 You paid for a French version of your site, and the next step is French buyers getting in touch. Pages that win them read as written in French, use the French of the right country, and rank because someone checked what French buyers actually search for.
 
 Most of that is decided before a translator types a word: by the variant of French you choose, the brief, and whether search is planned in.

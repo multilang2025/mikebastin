@@ -13,6 +13,8 @@ sourceUrl: "https://mikebastin.com/fr/expert-en-seo-international/"
 excerpt: "Un expert SEO international tranche pour chaque pays : ordre d’entrée, mots-clés locaux, structure du site, liens et refonte. Voici comment il décide."
 ---
 
+## Un expert SEO international qui tranche à partir des données
+
 Votre site existe en plusieurs langues et vos marchés étrangers vous envoient des visites. Leur rendement se joue sur quelques choix faits pour chaque pays : par quel marché commencer, quels mots viser, comment organiser le site, où gagner sa crédibilité. Bien tranchés au début, ces choix s’additionnent pendant des années.
 
 Un expert SEO international est la personne qui prend ces décisions avec vous, à partir des données de chaque marché. Nous les prenons pour nos clients depuis plus de deux décennies, en Europe, aux États-Unis et dans les Caraïbes.

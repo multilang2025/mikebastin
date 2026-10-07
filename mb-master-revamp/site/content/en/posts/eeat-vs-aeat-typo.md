@@ -13,6 +13,8 @@ sourceUrl: "https://mikebastin.com/eeat-vs-aeat-typo/"
 excerpt: "EEAT vs AEAT: one letter separates Google's trust test from Spain's tax office. A true-to-life slip for anyone doing SEO in Spain, and its lesson."
 ---
 
+## Why EEAT and AEAT get mixed up in Spain
+
 If you do business in Spain, two acronyms one letter apart decide how your year goes. EEAT decides whether Google trusts your website. AEAT decides whether the tax office trusts your books. Keep them straight in a client proposal and you promise the right audit.
 
 It happens easily. We were optimizing E-E-A-T for a Spanish law firm, with Google's quality guidelines on one half of the screen, Spanish legal content full of tax terminology on the other, and AEAT documentation open in a third window. At some point the brain stops seeing letters and only sees threats.

@@ -12,6 +12,8 @@ sourceUrl: null
 excerpt: "Outils de test de localisation : repérez les défauts de mise en page, de texte et de format avant vos utilisateurs, pour des versions propres."
 ---
 
+## Des défauts de localisation corrigés avant vos utilisateurs
+
 Votre produit fonctionne parfaitement en français, et la version allemande ou néerlandaise peut en faire autant : chaque libellé tient dans son bouton, chaque date affiche le bon mois, dès le premier jour.
 
 Les outils de test de localisation repèrent les défauts de mise en page et de paramètres régionaux avant vos utilisateurs, au moment où leur correction coûte le moins.

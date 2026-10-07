@@ -15,6 +15,8 @@ excerpt: "Sistemas de cualificación de leads con IA: puntúan cada consulta, en
 
 ![Article header image](/images/legacy/2026/01/sistemascualificacionleadsia-1024x585.webp)
 
+## Cómo la IA ordena tus leads por probabilidad de compra
+
 Tus mercados extranjeros envían consultas en francés, alemán, neerlandés o inglés, y tu equipo comercial decide a mano a cuáles llamar primero. Un sistema de cualificación de leads con IA ordena esa lista por probabilidad de compra, de modo que tus comerciales dedican su tiempo a las conversaciones que pueden cerrarse.
 
 Aquí tienes cómo funcionan estos sistemas, qué necesitan para acertar, cómo encajan con tu SEO en cada idioma y por dónde empezar.

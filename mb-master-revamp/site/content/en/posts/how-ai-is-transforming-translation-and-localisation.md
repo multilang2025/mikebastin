@@ -12,6 +12,8 @@ sourceUrl: "https://mikebastin.com/how-ai-is-transforming-translation-and-locali
 excerpt: "AI is transforming translation and localization: more markets on the same budget, with native review for accuracy. Where it helps, and where people decide."
 ---
 
+## Covering more markets with AI translation
+
 Your translation budget covers two markets and your sales team wants six. AI translation can close much of that gap, and a native reviewer makes sure every fluent sentence on your German product page is also a correct one.
 
 Below: where AI earns its place, where a native speaker adds the most, and how to get the speed with the accuracy.

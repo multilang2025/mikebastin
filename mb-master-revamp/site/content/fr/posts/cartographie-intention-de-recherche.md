@@ -13,6 +13,8 @@ sourceUrl: null
 excerpt: "Cartographie de l’intention de recherche : donnez à chaque marché la page qu’il attend, dans sa langue, et transformez votre trafic étranger en demandes."
 ---
 
+## De l’intention de recherche aux demandes de contact
+
 Vos pages en allemand, en espagnol ou en néerlandais se positionnent et le trafic arrive ; l’étape suivante, ce sont les demandes de contact. Elles viennent d’une page qui répond à la question posée : un tarif quand le visiteur veut un tarif, un guide quand il veut d’abord comprendre son problème. La cartographie de l’intention de recherche associe chaque page à l’objectif qui se cache derrière la requête, et c’est elle qui transforme des visites en conversations commerciales.
 
 Vous trouverez ci-dessous les quatre types d’intention, la méthode pour les cartographier, leurs variations d’une langue à l’autre et ce que la recherche par IA change. Sur plusieurs marchés, la cartographie demande un soin particulier : chaque région a sa façon de chercher, ses attentes et sa manière de décider, et une même requête peut signaler un achat imminent dans un pays et une simple prise d’information dans un autre. Adapter le contenu à ces écarts, c’est ce qui le rend réellement localisé.

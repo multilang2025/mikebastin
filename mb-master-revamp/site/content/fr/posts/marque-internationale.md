@@ -13,6 +13,8 @@ sourceUrl: null
 excerpt: "Votre marque est traduite pour chaque marché. Construire une marque internationale, c’est savoir ce qui voyage tel quel et ce que chaque pays réécrit."
 ---
 
+## De la marque traduite à la marque internationale
+
 Vous avez lancé votre marque en Espagne, aux Pays-Bas et en Allemagne, soigneusement traduite depuis le français. Six mois plus tard, vos équipes sur place réécrivent les textes pour qu’ils sonnent juste auprès des acheteurs locaux, et vos sites étrangers ont encore du chemin à faire pour rattraper la version française.
 
 La plupart des projets de « marque internationale » que nous voyons commencent comme des projets de traduction. Le passage de « traduite » à « réellement internationale » est l’endroit où se construit une marque internationale, et celui où vos autres marchés gagnent du chiffre d’affaires.

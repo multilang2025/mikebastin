@@ -13,6 +13,8 @@ sourceUrl: null
 excerpt: "Vos acheteurs présélectionnent leurs fournisseurs sur ChatGPT, LinkedIn et G2 avant Google : une stratégie search everywhere vous place partout."
 ---
 
+## Atteindre les acheteurs qui présélectionnent leurs fournisseurs
+
 Vos acheteurs à l’étranger présélectionnent leurs fournisseurs avant d’arriver sur votre site. Un responsable achats à Madrid, à Anvers ou à Munich demande des pistes à ChatGPT ou à Perplexity, repère les noms cités sur LinkedIn, lit les avis sur G2 ou Capterra, puis ouvre Google, souvent pour chercher un nom déjà retenu. Être visible sur chacune de ces surfaces vous place sur la liste courte, à l’endroit même où elle se dresse.
 
 Une stratégie search everywhere met votre entreprise devant ces acheteurs sur chaque surface, dans chacune de vos langues, à partir d’un seul socle de faits cohérents. Voici les surfaces qui comptent, ce que chacune récompense et comment les piloter ensemble.

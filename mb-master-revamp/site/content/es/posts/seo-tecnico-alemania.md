@@ -13,6 +13,8 @@ sourceUrl: null
 excerpt: "SEO técnico para tu web en alemán: URL limpias, versiones para Alemania, Austria y Suiza, y páginas rápidas en el móvil que retienen al comprador."
 ---
 
+## Los ajustes técnicos que necesita tu web en alemán
+
 Ya vendes en Alemania y tus páginas en alemán están bien escritas. La capa técnica que hay debajo decide cuántos compradores alemanes llegan a leerlas. Cuando está bien ajustada, la versión alemana aparece en Alemania y la suiza en Suiza, un enlace reenviado por correo se ve limpio y la página carga rápido en un móvil, en el tren entre Colonia y Fráncfort.
 
 Los ajustes suelen ser pequeños, y son propios del mercado de habla alemana. Para la estrategia completa (buscadores, palabras clave, contenido y enlaces), nuestra guía de [SEO en Alemania](/es/seo-en-alemania/) cubre el mercado. Aquí entramos en los ajustes: la estructura de las URL, las versiones regionales para Alemania, Austria y Suiza, la velocidad, el móvil y el orden en que conviene abordarlos para un [posicionamiento en Alemania que dé resultados](/es/services/seo-aleman/).

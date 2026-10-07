@@ -13,6 +13,8 @@ sourceUrl: null
 excerpt: "Les bonnes pratiques du SEO multilingue qui placent chaque version de votre site dans les résultats et dans les réponses des IA, marché par marché."
 ---
 
+## Des pages multilingues qui se positionnent et se font citer
+
 Que votre entreprise soit française, belge, suisse ou luxembourgeoise, vos pages en anglais et en allemand se positionnent déjà sur une partie de vos requêtes, et vous voulez qu’elles vous apportent des demandes. De plus en plus d’acheteurs obtiennent leur réponse dans un résumé d’IA ou dans un assistant avant de cliquer, et la marque citée dans leur langue est celle qu’ils contactent.
 
 Le positionnement reste la base, et la première moitié du travail. La seconde moitié est le [GEO, l’optimisation pour les moteurs génératifs](/fr/seo-au-geo/), qui rend vos contenus citables par les IA. Voici les bonnes pratiques du SEO multilingue qui font trouver chaque version de votre site, puis citer.

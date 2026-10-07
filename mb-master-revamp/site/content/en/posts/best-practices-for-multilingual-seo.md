@@ -13,6 +13,8 @@ sourceUrl: "https://mikebastin.com/best-practices-for-multilingual-seo/"
 excerpt: "Multilingual SEO best practices that get each language version found in search and quoted in AI answers, so every market brings in enquiries."
 ---
 
+## From ranking to being quoted in each language
+
 Your French and German pages may rank and still bring in few enquiries. More buyers now get their answer from an AI summary or a chatbot before they click, and the brand quoted in their language is the one they contact.
 
 Ranking is still the foundation, and now the first half of the job. The work that gets you quoted is [generative engine optimization](/services/generative-engine-optimization/) (GEO). Below: the multilingual SEO best practices that get each language version found, and cited too.

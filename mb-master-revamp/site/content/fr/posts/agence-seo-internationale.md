@@ -13,6 +13,8 @@ sourceUrl: "https://mikebastin.com/fr/agence-seo-internationale/"
 excerpt: "Une agence SEO internationale livre l’audit, les mots-clés, les pages natives, les liens et le rapport de chaque marché. Voici ce que fait chaque métier."
 ---
 
+## Une agence SEO internationale pour tous vos marchés
+
 Vous vendez déjà dans plusieurs pays, et votre site les suit dans leurs langues. Pour que chaque version vous envoie ses propres demandes, plusieurs métiers doivent travailler ensemble : la recherche de mots-clés, la rédaction native, la technique, les liens et le suivi. Une agence SEO internationale réunit ces métiers dans une même équipe et un même plan. Quand ce plan doit aussi couvrir la publicité, les réseaux sociaux et l’e-mailing, une [agence marketing 360](/fr/agence-marketing-360/) relie tous ces canaux.
 
 Le gain pour vous : un seul interlocuteur pour tous vos marchés, une stratégie cohérente d’une langue à l’autre, et des chiffres que vous comparez pays par pays.

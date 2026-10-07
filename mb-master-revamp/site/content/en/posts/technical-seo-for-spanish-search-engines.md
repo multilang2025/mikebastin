@@ -12,6 +12,8 @@ sourceUrl: "https://mikebastin.com/technical-seo-for-spanish-search-engines/"
 excerpt: "Spanish pages ready to rank in Spain? The technical SEO for Spanish search engines that gets them found, understood and fast, in the order it pays."
 ---
 
+## Getting your Spanish pages found in Spain
+
 Your Spanish pages are written, translated and live, and the next step is getting them in front of buyers in Spain when they search. Often the words are ready already. The layer underneath decides whether Google finds the pages, understands who they are for and loads them fast on a phone in Madrid, and that is what gives the best Spanish copy on the site its chance.
 
 Get it right and the market you are paying to serve finds you. Below: the technical SEO a site needs to perform in Spain, in the order it pays back, so you can see which parts your site already has and which to add next.

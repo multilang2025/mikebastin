@@ -13,6 +13,8 @@ sourceUrl: "https://mikebastin.com/fr/visa-nomade-numerique-espagne/"
 excerpt: "Visa nomade numérique espagnol 2026 : seuils de revenus, documents, régime Beckham, installation à Valence et points clés d’un dossier accepté."
 ---
 
+## Le visa pour travailler depuis l’Espagne en bref
+
 * * *
 
 ## Conditions, revenus minimaux et régime fiscal Beckham pour les télétravailleurs francophones

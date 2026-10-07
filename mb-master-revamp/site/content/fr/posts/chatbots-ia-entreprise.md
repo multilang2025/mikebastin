@@ -13,6 +13,8 @@ sourceUrl: null
 excerpt: "Un chatbot IA répond à vos clients sur chaque marché, jour et nuit : dix usages rentables, les indicateurs à suivre et le bon moment pour passer la main."
 ---
 
+## Un chatbot IA qui répond à vos clients à toute heure
+
 Vos clients en Allemagne, en Espagne et au Royaume-Uni posent leurs questions pendant que votre équipe dort, souvent dans des langues qu’elle lit peu. Chaque réponse juste donnée dans la nuit fait avancer une vente ou un renouvellement. Un chatbot IA prend ce relais quand il a une mission claire et qu’il sait passer la main à une personne au bon moment.
 
 ## Les briques de l’IA conversationnelle à connaître avant d’acheter

@@ -12,6 +12,8 @@ sourceUrl: null
 excerpt: "Crea un mapa de intención de búsqueda que dé a cada mercado la página que busca: los cuatro tipos de intención, el método y las diferencias entre idiomas."
 ---
 
+## Para qué sirve un mapa de intención de búsqueda
+
 Tus páginas en alemán o en francés ya posicionan y el tráfico llega; el siguiente paso es convertirlo en consultas de clientes. Esas consultas llegan cuando cada página responde a la pregunta que se hizo el comprador: un precio cuando quiere un precio, una guía cuando primero necesita entender el problema.
 
 Un mapa de intención de búsqueda asigna a cada página ese objetivo, mercado por mercado, porque la misma frase puede anunciar una compra en un país y una simple consulta en otro. Aquí tienes los cuatro tipos de intención, el método para construir el mapa, cómo cambia la intención entre idiomas y lo que cambian las respuestas de IA.

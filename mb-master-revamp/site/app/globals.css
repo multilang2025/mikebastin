@@ -818,8 +818,14 @@ select.control {
 .post-body p { margin: 1.1em 0; }
 .post-body ul,
 .post-body ol { margin: 1.1em 0; padding-inline-start: 1.4em; }
+/* The reset strips list markers, so bullets and numbers have to be put back
+   (owner, 7 Oct 2026: "I can't see them when they clearly should be there"). */
+.post-body ul { list-style: disc; }
+.post-body ol { list-style: decimal; }
+.post-body ul ul,
+.post-body ol ul { list-style: circle; }
 .post-body li { margin: .4em 0; }
-.post-body li::marker { color: var(--dim); }
+.post-body li::marker { color: var(--berry); }
 .post-body a { color: var(--berry); text-decoration: underline; text-underline-offset: 2px; }
 .post-body a:hover { color: var(--berry-deep); }
 .post-body blockquote {
@@ -958,7 +964,10 @@ html.mb-consented .mb-consent { display: none; }
    its wrapper rather than squeezing every cell to a word per line. */
 .post-body th,
 .post-body td { min-width: 8rem; }
-.post-body :is(th, td):first-child { min-width: 5rem; }
+/* A first column such as "Switzerland" holds its word whole (owner, 7 Oct
+   2026: it broke as "Switzerl / and"). */
+.post-body :is(th, td) { overflow-wrap: normal; word-break: normal; hyphens: manual; }
+.post-body :is(th, td):first-child { min-width: 7.5rem; }
 .post-body th {
   background: var(--chip);
   font-weight: 600;
@@ -1206,3 +1215,33 @@ main h1::before {
 }
 @keyframes caret-blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
 @media (prefers-reduced-motion: reduce) { main h1::before { animation: none; } }
+
+/* FAQ rows (components/Expandables.tsx): a question-mark chip in place of the
+   numbers, and a tinted background when the row is hovered or has focus
+   (owner, 7 Oct 2026). */
+details.faq-item {
+  background: var(--bg);
+  transition: background-color .2s ease;
+}
+details.faq-item:hover,
+details.faq-item:focus-within {
+  background: color-mix(in srgb, var(--berry) 9%, var(--bg));
+}
+.faq-icon {
+  background: var(--berry-soft);
+  color: var(--berry);
+  transition: background-color .2s ease, color .2s ease;
+}
+details.faq-item:hover .faq-icon,
+details.faq-item[open] .faq-icon {
+  background: var(--berry);
+  color: var(--bg);
+}
+details.faq-item > summary:focus-visible {
+  outline: 2px solid var(--berry);
+  outline-offset: 4px;
+  border-radius: 2px;
+}
+@media (prefers-reduced-motion: reduce) {
+  details.faq-item, .faq-icon { transition: none; }
+}

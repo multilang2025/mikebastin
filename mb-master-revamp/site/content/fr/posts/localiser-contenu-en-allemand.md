@@ -13,6 +13,8 @@ sourceUrl: null
 excerpt: "Vos pages allemandes sont traduites : faites-en des pages que l’acheteur allemand lit comme les siennes, avec le bon ton, Sie ou Du et des exemples locaux."
 ---
 
+## Ce que l’acheteur allemand attend d’un contenu localisé
+
 Vos pages en allemand existent, et leur grammaire est correcte. L’étape suivante consiste à ce que l’acheteur allemand les lise comme des pages allemandes. Trois choses l’y amènent : le ton, des exemples tirés de son propre marché et une même forme d’adresse sur chaque page. Un acheteur de Munich ou de Hambourg qui compare trois fournisseurs le remarque, et il contacte celui qui semble avoir écrit pour lui.
 
 La traduction fait passer les mots. La [localisation de site web](/fr/services/localisation-de-site-web/) adapte la langue, le ton et les références au lecteur, et sur un marché aussi grand et aussi exigeant que l’Allemagne, elle décide si une page se positionne, puis si la visite devient une demande de devis.

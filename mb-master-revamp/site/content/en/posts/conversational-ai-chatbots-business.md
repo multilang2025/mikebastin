@@ -13,6 +13,8 @@ sourceUrl: "https://mikebastin.com/conversational-ai-chatbots-business/"
 excerpt: "Conversational AI and chatbots can answer customers in every market, day and night: ten uses, how to measure them, and when to hand over to a person."
 ---
 
+## Why conversational AI answers customers around the clock
+
 Your customers in Germany, Spain and Japan ask questions while your team sleeps, often in languages beyond the ones your team reads. Each one answered well overnight keeps a sale or a renewal moving, and the quality of the answer matters as much as its speed.
 
 Conversational AI closes that gap when it has one clear job and knows when to hand over. Below: ten uses that pay back, how to build and measure one, and where a person still has to take over.

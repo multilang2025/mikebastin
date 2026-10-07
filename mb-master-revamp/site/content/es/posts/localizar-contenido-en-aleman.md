@@ -12,6 +12,8 @@ sourceUrl: null
 excerpt: "Tus páginas ya están en alemán; ahora haz que convenzan al comprador alemán. Tono, Sie o Du, humor, ejemplos locales y enlaces para el SEO en Alemania."
 ---
 
+## Contenido en alemán que suena local para el comprador
+
 Tus páginas en alemán existen y su gramática es correcta. El siguiente paso es que el comprador alemán las lea como alemanas. Lo consiguen el tono, los ejemplos sacados de su propio mercado y una misma forma de tratamiento en todas las páginas. Un comprador alemán que compara tres proveedores lo nota, y elige al que parece haber escrito para él.
 
 La traducción traslada las palabras. La [localización de contenido](/es/services/traduccion-de-paginas-web/) adapta el idioma, el tono y las referencias al lector, y en un mercado tan grande y exigente como el alemán decide si una página se posiciona y si después convierte la visita en una consulta.

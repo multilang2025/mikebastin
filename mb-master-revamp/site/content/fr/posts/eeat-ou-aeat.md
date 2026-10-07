@@ -13,6 +13,8 @@ sourceUrl: null
 excerpt: "EEAT ou AEAT : une lettre sépare le test de confiance de Google du fisc espagnol. Une anecdote du SEO en Espagne et les vérifications qui en découlent."
 ---
 
+## Distinguer EEAT et AEAT dès le début d’un audit
+
 Si vous vendez en Espagne, deux sigles séparés par une seule lettre décident de votre année. EEAT décide si Google fait confiance à votre site. AEAT décide si l’administration fiscale espagnole fait confiance à vos comptes. Gardez-les bien distincts dans une proposition commerciale, et vous promettez le bon audit.
 
 La confusion arrive vite. Nous optimisions l’E-E-A-T d’un cabinet d’avocats de Valencia, avec les consignes qualité de Google sur une moitié de l’écran, des contenus juridiques espagnols remplis de vocabulaire fiscal sur l’autre, et la documentation de l’AEAT ouverte dans une troisième fenêtre. À un moment, le cerveau cesse de voir des lettres et ne voit plus que des menaces.

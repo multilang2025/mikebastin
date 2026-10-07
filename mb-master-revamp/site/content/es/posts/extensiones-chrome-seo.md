@@ -13,6 +13,8 @@ sourceUrl: null
 excerpt: "Extensiones de Chrome para SEO: las diez que usamos para revisar en segundos una redirección, un hreflang o una etiqueta de seguimiento."
 ---
 
+## Extensiones de Chrome para revisar tu SEO en segundos
+
 Tu página en francés muestra texto en español, o las consultas de un mercado caen de un día para otro. Cada caso se confirma rápido en la propia página, y confirmarlo el mismo día hace que las consultas sigan llegando. Las diez extensiones de Chrome de abajo son las que tenemos siempre instaladas para esos momentos, agrupadas por tarea.
 
 ## Las diez extensiones de un vistazo

@@ -12,6 +12,8 @@ sourceUrl: "https://mikebastin.com/law-firm-seo-services/"
 excerpt: "Your next client compares three firms online before calling any. Law firm SEO services that make yours one of the three, in every language you serve."
 ---
 
+## How law firm SEO wins clients searching online
+
 Your next client is comparing three firms on their phone before they call any of them. The aim is for yours to be one of the three, with practice pages that make it the easiest to find and the easiest to trust. For a firm with international clients, that comparison runs once per language.
 
 > A growing majority of consumers say they would look for their next lawyer online, increasing the importance of strong digital presence and client-facing technology.

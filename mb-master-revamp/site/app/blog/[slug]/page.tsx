@@ -118,10 +118,11 @@ export default async function BlogPostPage({
         ]}
       />
       {/* ============ HERO ============ */}
-      <section className="band band-a grain relative overflow-hidden pb-[clamp(48px,7vw,84px)] pt-[clamp(96px,14vw,160px)]">
-        <div className="shell relative">
+      <section className="band band-a grain relative overflow-hidden pb-[clamp(32px,4vw,56px)] pt-[clamp(88px,9vw,112px)]">
+        <div className="shell relative lg:grid lg:grid-cols-[minmax(0,1fr)_minmax(0,480px)] lg:items-center lg:gap-x-14">
+          <div>
           <Reveal>
-            <Link href="/blog/" className="ulink mb-8 inline-block text-[.9rem]" style={{ color: "var(--dim)" }}>
+            <Link href="/blog/" className="ulink mb-5 inline-block text-[.9rem]" style={{ color: "var(--dim)" }}>
               Journal
             </Link>
           </Reveal>
@@ -152,13 +153,14 @@ export default async function BlogPostPage({
               <span>{formatDate(post.date)}</span>
             </p>
           </Reveal>
+          </div>
           {/* The cover sits inside the hero, on the hero's own surface. As
               a band of its own it was flush to the band's top edge with a
               strip of the other surface left empty beneath it, which read
               as an image that did not fit its space. */}
           <Reveal i={5}>
             <div
-              className="mt-[clamp(32px,5vw,56px)] overflow-hidden rounded-[4px] border"
+              className="mt-[clamp(32px,5vw,56px)] overflow-hidden rounded-[4px] border lg:mt-0"
               style={{ borderColor: "var(--rule)" }}
             >
               <PostImage

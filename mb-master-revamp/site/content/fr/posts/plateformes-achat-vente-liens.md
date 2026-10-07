@@ -12,6 +12,8 @@ sourceUrl: null
 excerpt: "27 plateformes d’achat et de vente de liens passées en revue, et les cinq contrôles qui gardent votre budget netlinking sur des liens que Google compte."
 ---
 
+## Les plateformes d’achat de liens qui méritent votre budget
+
 Votre entreprise achète des liens, ou une agence vous conseille de le faire, et vous voulez savoir lesquels compteront encore après la prochaine mise à jour de Google. Google neutralise désormais la plupart des liens faibles : les liens qui méritent votre budget sont ceux qui font bouger une position, sur votre marché français comme sur vos marchés en Espagne, au Benelux ou en Allemagne.
 
 Nous travaillons autour du marché des liens depuis plus de deux décennies. La liste ci-dessous réunit les plateformes que nous avons utilisées ou vu utiliser par des clients, avec les compromis observés : certaines sont excellentes, d’autres utiles pour des niches précises, et quelques-unes sont à laisser de côté pour qui vise des positions durables.

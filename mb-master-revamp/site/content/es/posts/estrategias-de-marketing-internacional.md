@@ -12,6 +12,8 @@ sourceUrl: null
 excerpt: "¿Exportas con un presupuesto ajustado? Las estrategias de marketing internacional que más usan las pymes, cuándo rinde cada una y por cuáles empezar."
 ---
 
+## Cómo elegir tu estrategia de marketing internacional
+
 Tu primer mercado exterior se amortiza antes cuando un equipo pequeño concentra el presupuesto en dos o tres canales, da a cada uno lo suficiente para funcionar y, en menos de un año, ve cuáles se ganan su sitio. Para una pyme que ya vende en España y abre Francia, Bélgica, Alemania o el Reino Unido, elegir por dónde empezar es la decisión que cuenta.
 
 Aquí tienes las diez estrategias de marketing internacional que más usan las pymes, qué supone cada una y en cuánto tiempo se amortiza, para que elijas tu punto de partida.

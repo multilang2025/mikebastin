@@ -14,6 +14,8 @@ excerpt: "SEO técnico para sitios multilingües: hreflang, servidor, contenido 
 
 ![SEO técnico para sitios web multilingües](/images/legacy/2024/12/Technical-SEO-for-Multilingual-Websites-1024x457.webp)
 
+## SEO técnico: los ajustes que sitúan cada idioma en su mercado
+
 Tu web ya existe en varios idiomas y cada versión recibe visitas. Con unos ajustes técnicos, cada una puede ocupar su propio mercado en Google: el comprador francés llega a la página en francés, el alemán a la alemana, y cada traducción que pagaste trabaja para ti.
 
 Los compradores lo agradecen, porque leen y compran en su idioma:

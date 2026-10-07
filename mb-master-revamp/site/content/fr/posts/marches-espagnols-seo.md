@@ -12,6 +12,8 @@ sourceUrl: null
 excerpt: "Votre site en espagnol attire des visites d’Espagne et du Mexique : le SEO espagnol en fait des demandes quand chaque marché reçoit son approche."
 ---
 
+## Le SEO espagnol qui fait payer un marché prometteur
+
 Votre site en espagnol reçoit des visites, et vos pages en français produisent encore l’essentiel de vos demandes. Chaque page espagnole paraît correcte ; l’étape suivante consiste à lui donner un ton local, car un acheteur contacte le fournisseur qui parle comme lui.
 
 Bien fait, un marché « prometteur » devient un marché qui paie. Et l’espagnol recouvre plusieurs marchés : une page écrite pour Madrid parle à Madrid, et les acheteurs de Mexico veulent la leur.

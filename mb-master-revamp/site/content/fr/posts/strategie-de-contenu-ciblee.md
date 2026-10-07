@@ -12,6 +12,8 @@ sourceUrl: null
 excerpt: "Stratégie de contenu ciblée en sept étapes : partez de ce que vos acheteurs recherchent et transformez vos publications en demandes de contact."
 ---
 
+## Transformer votre production de contenu en demandes de contact
+
 Vous publiez régulièrement, en français et dans les langues de vos marchés à l’export, et le blog paraît actif ; l’étape suivante consiste à transformer cette production en demandes de contact. Un calendrier éditorial construit à partir de ce que recherchent vos acheteurs y parvient, et fait travailler chaque semaine de vos rédacteurs.
 
 Une stratégie de contenu ciblée fixe l’ordre : pour qui vous écrivez, ce que ces lecteurs recherchent, ce que vous possédez déjà, et comment vous saurez que cela a fonctionné. Voici les sept étapes que nous suivons, des personas acheteurs à la mesure, et ce que chacune vous fait gagner.

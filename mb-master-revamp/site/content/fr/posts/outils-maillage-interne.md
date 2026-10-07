@@ -13,6 +13,8 @@ sourceUrl: null
 excerpt: "Outils de maillage interne : six extensions WordPress comparées, de Link Whisper à Link Manager, prix compris, pour faire trouver vite vos pages."
 ---
 
+## Pourquoi automatiser le maillage interne d’un site WordPress
+
 Vous publiez une nouvelle page solide, et elle est lue dès que le reste de votre site pointe vers elle. Sur un site WordPress de plusieurs centaines d’articles, souvent décliné en français, en anglais et en espagnol pour vos marchés étrangers, un outil tient ces liens à jour plus vite qu’une édition à la main, et relie les pages que vous voulez faire trouver en priorité.
 
 Ci-dessous, six outils de maillage interne et extensions WordPress : le point fort de chacun, son prix, et la façon de choisir entre eux.

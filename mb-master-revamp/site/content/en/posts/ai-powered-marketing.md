@@ -12,6 +12,8 @@ sourceUrl: "https://mikebastin.com/ai-powered-marketing/"
 excerpt: "AI-powered marketing promises faster content, sharper forecasts and round-the-clock support. See which pays back first, and where a person still decides."
 ---
 
+## Where AI-powered marketing earns its place
+
 Your competitors publish more often, answer customers faster and adjust campaigns weekly, and some of that pace comes from AI. Where your team works by hand today, AI can fill out the content in your smaller markets and keep the support inbox answering after six.
 
 The harder question is which AI-powered marketing tools earn their place. Below: the three uses that pay back most reliably, and where a person still has to make the call.

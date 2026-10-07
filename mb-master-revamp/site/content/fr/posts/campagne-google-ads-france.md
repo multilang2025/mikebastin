@@ -12,6 +12,8 @@ sourceUrl: null
 excerpt: "Votre campagne Google Ads en France attire des clics ? Construite pour l’acheteur français, elle transforme le même budget en demandes de devis."
 ---
 
+## Le compte, clé d’une campagne Google Ads en France
+
 Votre campagne en France est en ligne et les clics arrivent ; l’étape suivante consiste à les transformer en demandes. La clé se trouve le plus souvent dans la construction du compte. Une campagne reprise de votre marché belge, suisse ou luxembourgeois enchérit sur les mots de ce marché, affiche des annonces pensées pour un autre lecteur et envoie les visiteurs vers une page conçue pour une autre clientèle. Reconstruite pour la France, la campagne paie avec la même enveloppe des clics venus de personnes prêtes à acheter.
 
 Le constat vaut aussi pour une entreprise française qui s’attaque à une nouvelle région : un compte bâti pour l’Île-de-France se transpose mal tel quel à la Nouvelle-Aquitaine ou à l’Auvergne-Rhône-Alpes.

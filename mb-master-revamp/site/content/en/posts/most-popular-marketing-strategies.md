@@ -13,6 +13,8 @@ sourceUrl: "https://mikebastin.com/most-popular-marketing-strategies/"
 excerpt: "Going international on a small budget? The most popular marketing strategies for SMBs, how fast each pays back, and the two to run first."
 ---
 
+## Choosing marketing strategies for your first foreign market
+
 Your first foreign market pays back fastest when a small team puts its budget behind two or three channels, gives each enough to work, and within a year can see which ones earn their keep. For a small or medium-sized business (SMB), choosing the starting point is the decision that counts.
 
 Below: the ten marketing strategies SMBs use most abroad, what each involves and how quickly it pays back, so you can choose where to start.
