@@ -42,6 +42,8 @@ export default async function ProjectPage({
   const index = PROJECTS.findIndex((p) => p.slug === project.slug);
   const prev = PROJECTS[(index - 1 + PROJECTS.length) % PROJECTS.length];
   const next = PROJECTS[(index + 1) % PROJECTS.length];
+  // Bands added after the outcome sections, so the next one keeps alternating.
+  const extraBands = (project.evidence?.length ?? 0) + (project.countries ? 1 : 0);
 
   return (
     <main>
@@ -172,39 +174,42 @@ export default async function ProjectPage({
         </section>
       ))}
 
-      {project.growth && (
-        <section className="band band-b py-[clamp(56px,8vw,110px)]">
-          <div className="shell grid items-start gap-10 lg:grid-cols-[1fr_auto]">
-            <Reveal>
-              <p className="eyebrow mb-3">Search traffic over time</p>
-              <h2 className="mb-6 max-w-[26ch] text-[clamp(1.7rem,3.2vw,2.5rem)] font-semibold leading-[1.12]">
-                {project.growth.heading}
-              </h2>
-              <p className="mb-4 max-w-[56ch] text-[1.05rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
-                {project.growth.text}
-              </p>
-              <p className="max-w-[56ch] text-[.85rem]" style={{ color: "var(--dim)" }}>
-                {project.growth.caption}
-              </p>
-            </Reveal>
-            <Reveal i={1}>
-              <img
-                src={project.growth.src}
-                width={project.growth.width}
-                height={project.growth.height}
-                alt={project.growth.alt}
-                loading="lazy"
-                decoding="async"
-                className="block h-auto w-full max-w-[420px] rounded-[4px] border"
-                style={{ borderColor: "var(--rule)" }}
-              />
-            </Reveal>
-          </div>
-        </section>
-      )}
+      {project.evidence?.map((e, n) => {
+        const wide = e.width > e.height * 1.4;
+        return (
+          <section key={e.src} className={`band ${n % 2 === 0 ? "band-b" : "band-a"} py-[clamp(56px,8vw,110px)]`}>
+            <div className={`shell grid items-start gap-10${wide ? "" : " lg:grid-cols-[1fr_auto]"}`}>
+              <Reveal>
+                <p className="eyebrow mb-3">In the data</p>
+                <h2 className="mb-6 max-w-[26ch] text-[clamp(1.7rem,3.2vw,2.5rem)] font-semibold leading-[1.12]">
+                  {e.heading}
+                </h2>
+                <p className="mb-4 max-w-[60ch] text-[1.05rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
+                  {e.text}
+                </p>
+                <p className="max-w-[60ch] text-[.85rem]" style={{ color: "var(--dim)" }}>
+                  {e.caption}
+                </p>
+              </Reveal>
+              <Reveal i={1}>
+                <img
+                  src={e.src}
+                  width={e.width}
+                  height={e.height}
+                  alt={e.alt}
+                  loading="lazy"
+                  decoding="async"
+                  className={`block h-auto w-full rounded-[4px] border ${wide ? "max-w-[900px]" : "max-w-[420px]"}`}
+                  style={{ borderColor: "var(--rule)" }}
+                />
+              </Reveal>
+            </div>
+          </section>
+        );
+      })}
 
       {project.countries && (
-        <section className="band band-b py-[clamp(56px,8vw,110px)]">
+        <section className={`band ${(project.evidence?.length ?? 0) % 2 === 0 ? "band-b" : "band-a"} py-[clamp(56px,8vw,110px)]`}>
           <div className="shell">
             <Reveal>
               <p className="eyebrow mb-3">One agency, {project.countries.length} domains</p>
@@ -234,7 +239,7 @@ export default async function ProjectPage({
       )}
 
       {/* ============ NEXT / PREV ============ */}
-      <section className="band band-a py-[clamp(56px,8vw,110px)]">
+      <section className={`band ${extraBands > 0 && extraBands % 2 === 0 ? "band-b" : "band-a"} py-[clamp(56px,8vw,110px)]`}>
         <div className="shell">
           <div className="grid gap-px cells-2 sm:grid-cols-2" style={{ background: "var(--rule)" }}>
             <Link

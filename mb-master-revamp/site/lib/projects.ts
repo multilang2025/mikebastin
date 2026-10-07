@@ -36,6 +36,20 @@ const SHOT_VERSION = "20261002";
 /** The window `leads` averages over. */
 export const LEADS_PERIOD = "May to July 2026";
 
+/**
+ * A screenshot the owner supplied (Search Console, Ahrefs) shown on a case
+ * study, with the figures it shows said in the text.
+ */
+export type Evidence = {
+  src: string;
+  width: number;
+  height: number;
+  alt: string;
+  caption: string;
+  heading: string;
+  text: string;
+};
+
 export type Project = {
   slug: string;
   numeral: string;
@@ -85,21 +99,13 @@ export type Project = {
    */
   leads?: { count: string; what: string; period?: string };
   /**
-   * Search Console growth shown on the case study, from a screenshot the
-   * owner supplied (owner, 7 Oct 2026: ValenciaMove, "use the screenshot to
+   * Search Console or Ahrefs evidence shown on the case study, from screenshots
+   * the owner supplied (owner, 7 Oct 2026: ValenciaMove, "use the screenshot to
    * show the traffic increase in 6 months", then "Bemelmanspuiterij.nl
-   * traffic evolution"). An exception to the no-per-client-figures rule, for
+   * traffic evolution", "Delaguía y Luzón Ai Citations + overview"). An exception to the no-per-client-figures rule, for
    * the sites the owner names and on their own case study only.
    */
-  growth?: {
-    src: string;
-    width: number;
-    height: number;
-    alt: string;
-    caption: string;
-    heading: string;
-    text: string;
-  };
+  evidence?: Evidence[];
   /** Country sites shown with the flags animation (components/CountryFlags.tsx). */
   countries?: { domain: string; country: string }[];
   /** Path under /work/, omitted where no usable capture exists. */
@@ -235,15 +241,17 @@ export const PROJECTS: Project[] = [
     search: { clicks: "5,685", impressions: "496,316", position: "10.7", note: "May to July 2026" },
     leads: { count: "50", what: "enquiries" },
     shot: `/work/valenciamove.webp?v=${SHOT_VERSION}`,
-    growth: {
-      src: "/images/evidence/valenciamove-search-console-6-months.webp",
-      width: 656,
-      height: 800,
-      alt: "Google Search Console for valenciamove.com over six months: 17.4K clicks and 1.63M impressions, daily clicks rising from near zero in April 2026 to around 200 by September",
-      caption: "Google Search Console, valenciamove.com, April to October 2026.",
-      heading: "The ValenciaMove search traffic, from launch to around 200 clicks a day",
-      text: "17,400 clicks and 1.63 million impressions in six months, from almost nothing in April. ValenciaMove is our own site, run the way we run a client's.",
-    },
+    evidence: [
+      {
+        src: "/images/evidence/valenciamove-search-console-6-months.webp",
+        width: 656,
+        height: 800,
+        alt: "Google Search Console for valenciamove.com over six months: 17.4K clicks and 1.63M impressions, daily clicks rising from near zero in April 2026 to around 200 by September",
+        caption: "Google Search Console, valenciamove.com, April to October 2026.",
+        heading: "The ValenciaMove search traffic, from launch to around 200 clicks a day",
+        text: "17,400 clicks and 1.63 million impressions in six months, from almost nothing in April. ValenciaMove is our own site, run the way we run a client's.",
+      },
+    ],
   },
   {
     slug: "bemelman-spuiterij",
@@ -267,15 +275,17 @@ export const PROJECTS: Project[] = [
     services: ["Dutch local SEO", "Divi build", "B2B trade search"],
     search: { clicks: "1,436", impressions: "108,568", position: "28.1", note: "May to July 2026" },
     leads: { count: "20 to 50", what: "enquiries" },
-    growth: {
-      src: "/images/evidence/bemelman-spuiterij-search-console-16-months.webp",
-      width: 656,
-      height: 800,
-      alt: "Google Search Console for bemelmanspuiterij.nl over sixteen months: 5.32K clicks and 448K impressions, daily clicks rising from around 5 in mid 2025 to around 15 by autumn 2026",
-      caption: "Google Search Console, bemelmanspuiterij.nl, June 2025 to October 2026.",
-      heading: "The Bemelman Spuiterij search traffic, roughly tripled in a year",
-      text: "5,320 clicks and 448,000 impressions over sixteen months. Daily clicks sat around five through 2025 and climbed to around fifteen from early 2026, in a niche where every search is a business buyer.",
-    },
+    evidence: [
+      {
+        src: "/images/evidence/bemelman-spuiterij-search-console-16-months.webp",
+        width: 656,
+        height: 800,
+        alt: "Google Search Console for bemelmanspuiterij.nl over sixteen months: 5.32K clicks and 448K impressions, daily clicks rising from around 5 in mid 2025 to around 15 by autumn 2026",
+        caption: "Google Search Console, bemelmanspuiterij.nl, June 2025 to October 2026.",
+        heading: "The Bemelman Spuiterij search traffic, roughly tripled in a year",
+        text: "5,320 clicks and 448,000 impressions over sixteen months. Daily clicks sat around five through 2025 and climbed to around fifteen from early 2026, in a niche where every search is a business buyer.",
+      },
+    ],
     shot: `/work/bemelman-spuiterij.webp?v=${SHOT_VERSION}`,
   },
   {
@@ -300,6 +310,26 @@ export const PROJECTS: Project[] = [
     services: ["Legal SEO", "Multilingual content", "Four languages", "Two jurisdictions"],
     search: { clicks: "38,476", impressions: "2,399,567", position: "9.4", note: "May to July 2026" },
     leads: { count: "56", what: "enquiries" },
+    evidence: [
+      {
+        src: "/images/evidence/delaguia-y-luzon-ahrefs-ai-responses.webp",
+        width: 1320,
+        height: 425,
+        alt: "Ahrefs AI responses for delaguialuzon.com: 309 across all platforms from 87 pages, 182 in AI Overviews, 92 in AI Mode, 14 in Perplexity, 6 in Gemini and 2 in ChatGPT",
+        caption: "Ahrefs Site Explorer, AI responses for delaguialuzon.com, 7 October 2026.",
+        heading: "Delaguía y Luzón cited in 309 AI answers, from 87 of its pages",
+        text: "Ahrefs counts 309 AI responses citing the firm's site, up 269 on the previous period: 182 in Google's AI Overviews, 92 in AI Mode, 14 in Perplexity, 6 in Gemini and 2 in ChatGPT. Legal content held to a lawyer's standard is the content answer engines quote.",
+      },
+      {
+        src: "/images/evidence/delaguia-y-luzon-ahrefs-overview.webp",
+        width: 688,
+        height: 775,
+        alt: "Ahrefs overview for delaguialuzon.com: Domain Rating 33, 1.4K backlinks from 368 referring domains, 928 organic keywords with 200 in the top three, 5.1K organic traffic",
+        caption: "Ahrefs Site Explorer, overview for delaguialuzon.com, 7 October 2026.",
+        heading: "928 keywords in Google, 200 of them in the top three",
+        text: "Ahrefs shows 928 organic keywords, up 727, with 200 in the top three, and an estimated 5,100 visits a month from search, up 4,400. Behind them sit a Domain Rating of 33 and 368 referring domains.",
+      },
+    ],
     shot: `/work/delaguia-y-luzon.webp?v=${SHOT_VERSION}`,
   },
   {
@@ -322,15 +352,17 @@ export const PROJECTS: Project[] = [
     outcome:
    "Forty-eight French spots and a hundred and twenty guides covering seven board sports, backed by a public editorial method page.",
     services: ["Editorial strategy", "Content architecture", "EEAT method page", "Owned property"],
-    growth: {
-      src: "/images/evidence/matosurf-search-console-3-months.webp",
-      width: 656,
-      height: 520,
-      alt: "Google Search Console for matosurf.com from July to early October 2026: 1,008 web search clicks, daily clicks rising from zero to around 20",
-      caption: "Google Search Console, matosurf.com, July to October 2026.",
-      heading: "The Matosurf search traffic, from zero to around 20 clicks a day",
-      text: "A six-month-old site with 1,008 clicks from Google in its last three months, climbing from nothing in early July. Matosurf is our own site, run the way we run a client's.",
-    },
+    evidence: [
+      {
+        src: "/images/evidence/matosurf-search-console-3-months.webp",
+        width: 656,
+        height: 520,
+        alt: "Google Search Console for matosurf.com from July to early October 2026: 1,008 web search clicks, daily clicks rising from zero to around 20",
+        caption: "Google Search Console, matosurf.com, July to October 2026.",
+        heading: "The Matosurf search traffic, from zero to around 20 clicks a day",
+        text: "A six-month-old site with 1,008 clicks from Google in its last three months, climbing from nothing in early July. Matosurf is our own site, run the way we run a client's.",
+      },
+    ],
     shot: `/work/matosurf.webp?v=${SHOT_VERSION}`,
   },
 ];
