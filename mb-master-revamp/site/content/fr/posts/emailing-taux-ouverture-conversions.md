@@ -12,6 +12,8 @@ sourceUrl: null
 excerpt: "Objets qui donnent envie d’ouvrir, e-mails lisibles sur mobile, segments par marché : nos leviers pour que chaque campagne d’emailing fasse vendre."
 ---
 
+## Quatre réglages pour un emailing qui convertit
+
 Votre liste d’abonnés grandit sur plusieurs marchés et vos campagnes partent à l’heure : en français pour la Belgique et la Suisse, en anglais pour le Royaume-Uni, en espagnol pour l’Espagne. Reste à leur faire apporter des ventes. Chaque envoi qui mérite d’être lu apprend à vos abonnés à ouvrir le suivant.
 
 Quatre leviers comptent : des objets qui gagnent l’ouverture, des e-mails sur lesquels vos lecteurs agissent depuis leur téléphone, des segments qui rendent chaque envoi pertinent, et les indicateurs qui montrent si l’emailing rapporte.

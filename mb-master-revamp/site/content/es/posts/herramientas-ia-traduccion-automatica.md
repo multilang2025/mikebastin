@@ -13,6 +13,8 @@ sourceUrl: null
 excerpt: "Herramientas de IA y traducción automática para cubrir más idiomas con el mismo presupuesto, con un editor nativo que responde de cada mercado."
 ---
 
+## IA y traducción automática para vender en cinco idiomas
+
 Necesitas las fichas de producto en francés, alemán, neerlandés, inglés e italiano, y el presupuesto de traducción da para dos idiomas. Las herramientas de IA y de traducción automática hacen posibles los cinco.
 
 Si una persona revisa el resultado antes de publicarlo, cada frase fluida es además correcta, y eso es lo que gana la confianza de esos mercados. Aquí verás qué hace bien cada tipo de herramienta, dónde necesita una mano humana y un flujo de trabajo en el que una persona responde de cada idioma.

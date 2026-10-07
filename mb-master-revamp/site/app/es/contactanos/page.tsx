@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   ...pageMeta({
     title: "Contacta con tu agencia SEO en Valencia, Mike Bastin",
     description:
-      "Contacta con nuestra agencia SEO en Valencia: cuéntanos tu proyecto de SEO, Google Ads, traducción o IA y te respondemos por lo general en un día laborable.",
+      "Contacta con nuestra agencia SEO en Valencia: cuéntanos tu proyecto de SEO, Google Ads, traducción o IA y te respondemos normalmente en un día laborable.",
     path: PATH,
     languages: esLanguages(PATH),
     ogLocale: "es_ES",
@@ -55,7 +55,7 @@ export default function SpanishContactPage() {
           { name: "Contáctanos", url: `${SITE_URL}${PATH}` },
         ])}
       />
-      <section className="band band-a grain relative overflow-hidden pb-[clamp(48px,7vw,80px)] pt-[clamp(96px,14vw,160px)]">
+      <section className="band band-a grain relative overflow-hidden pb-[clamp(32px,4vw,56px)] pt-[clamp(88px,9vw,112px)]">
         <div className="shell relative grid items-start gap-x-12 lg:grid-cols-[1fr_auto]">
         <div>
           <Reveal>
@@ -170,7 +170,7 @@ export default function SpanishContactPage() {
               <h2 className="mb-4 text-[1.08rem] font-semibold" style={{ color: "var(--ink)" }}>
                 Dónde encontrarnos
               </h2>
-              <p className="mb-2">Calle Rugat 12 - 2, 46021 Valencia, desde 2016. Te recibimos en la oficina con cita previa.</p>
+              <p className="mb-2">Calle Rugat, 12, 2.º, 46021 Valencia, desde 2016. Te recibimos en la oficina con cita previa.</p>
               <p>Trabajamos directamente en español, inglés, francés y neerlandés. El alemán, el italiano, el portugués y el resto de idiomas los escriben redactores nativos que te presentamos.</p>
             </aside>
           </Reveal>

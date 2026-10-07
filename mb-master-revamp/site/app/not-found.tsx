@@ -33,7 +33,7 @@ const ELSEWHERE = [
 export default function NotFound() {
   return (
     <main id="main">
-      <section className="band band-a grain relative overflow-hidden pb-[clamp(48px,7vw,90px)] pt-[clamp(88px,13vw,150px)]">
+      <section className="band band-a grain relative overflow-hidden pb-[clamp(32px,4vw,56px)] pt-[clamp(88px,9vw,112px)]">
         <div className="shell">
           <Reveal>
             <p className="eyebrow mb-4">Error 404</p>

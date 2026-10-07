@@ -49,7 +49,7 @@ export default async function ProjectPage({
     <main>
       <JsonLd data={breadcrumbSchema([{ name: "Home", url: `${SITE_URL}/` }, { name: project.name, url: `${SITE_URL}/projects/${project.slug}/` }])} />
       {/* ============ HERO ============ */}
-      <section className="band band-a grain relative overflow-hidden pb-[clamp(56px,8vw,100px)] pt-[clamp(96px,14vw,160px)]">
+      <section className="band band-a grain relative overflow-hidden pb-[clamp(32px,4vw,56px)] pt-[clamp(88px,9vw,112px)]">
         <div className="shell relative">
           <Reveal>
             <Link href="/" className="ulink mb-8 inline-block text-[.9rem]" style={{ color: "var(--dim)" }}>

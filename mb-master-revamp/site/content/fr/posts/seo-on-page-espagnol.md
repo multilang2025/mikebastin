@@ -13,6 +13,8 @@ sourceUrl: null
 excerpt: "Une liste de contrôle SEO on-page et GEO pour vos pages espagnoles : un ton local, plus de demandes de contact et des pages citées par les IA."
 ---
 
+## Le SEO on-page qui garde l’acheteur espagnol sur la page
+
 Vos pages en espagnol sont déjà trouvées, et l’étape suivante consiste à garder le lecteur sur la page. La traduction est souvent correcte ; ce qui retient un acheteur, c’est une page écrite pour son marché de bout en bout : une adresse web en espagnol, des titres que taperait un acheteur à Madrid, un seul registre du début à la fin. Les acheteurs espagnols le remarquent, sur Google.es comme sur Bing, et choisissent le fournisseur qui parle comme eux.
 
 Chaque détail bien réglé rapporte des clics et des demandes de contact. Voici ce qu’il faut régler sur chaque page espagnole, avec une liste de contrôle que vous pouvez confier à la personne qui édite votre site.

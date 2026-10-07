@@ -78,7 +78,7 @@ export default async function SpanishServicePage({
         ]}
       />
       {/* ============ HERO ============ */}
-      <section className="band band-a grain relative overflow-hidden pb-[clamp(48px,7vw,84px)] pt-[clamp(96px,14vw,160px)]">
+      <section className="band band-a grain relative overflow-hidden pb-[clamp(32px,4vw,56px)] pt-[clamp(88px,9vw,112px)]">
         <div className="shell relative grid items-start gap-x-12 lg:grid-cols-[1fr_auto]">
         <div>
           <Reveal>

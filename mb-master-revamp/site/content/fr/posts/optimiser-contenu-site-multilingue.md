@@ -13,6 +13,8 @@ sourceUrl: null
 excerpt: "Des pages traduites qui se positionnent et qui vendent : comment la localisation optimise le contenu de votre site multilingue, marché par marché."
 ---
 
+## Un site multilingue qui vend dans chaque langue
+
 Votre site multilingue propose chaque page dans chaque langue, et vous voulez que les versions espagnole, néerlandaise et allemande vendent comme la version française. Vos visiteurs de Madrid, d’Amsterdam ou de Munich la trouvent alors juste, familière et digne d’une demande de devis, et chaque marché dans lequel vous investissez vous renvoie des contacts.
 
 Ce résultat vient de la [traduction et de l’adaptation culturelle](/fr/services/localisation-de-site-web/) menées ensemble. Voici où la localisation rapporte, comment elle travaille avec le référencement, où l’IA aide et comment mesurer ce qu’elle produit.

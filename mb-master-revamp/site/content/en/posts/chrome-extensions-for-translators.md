@@ -12,6 +12,8 @@ sourceUrl: "https://mikebastin.com/chrome-extensions-for-translators/"
 excerpt: "Which Chrome extensions for translators earn their place in 2026: faster drafts, surer terminology, cleaner client documents, and the lean set we keep."
 ---
 
+## How browser extensions speed up translation work
+
 If you or your team translate in the browser, your extensions decide two things: how fast a draft moves, and how clean it is when it reaches a client document or a live page. A fast stack saves time on every job. A careful one keeps a client’s trust, the harder of the two to earn.
 
 The stack most people rely on has also moved on. Chrome changed how extensions are built, several favourites were retired with the change, and AI assistants now do much of what three or four translation tools used to do. A list bookmarked in 2022 is due a refresh.

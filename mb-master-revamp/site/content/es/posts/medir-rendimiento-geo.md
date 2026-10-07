@@ -14,6 +14,8 @@ excerpt: "Mide cómo ChatGPT, Perplexity y Google AI Overviews citan tu marca: K
 
 ![Article header image](/images/legacy/2026/01/medirrendimientogeoseguimiento-1024x585.webp)
 
+## Cómo medir el rendimiento GEO de tu empresa
+
 Tus compradores en Francia, Alemania o el Benelux preguntan ya a ChatGPT, Perplexity o los AI Overviews de Google qué proveedores considerar. Si sabes cuántas veces te nombran esas respuestas, cómo te describen y en qué idioma, puedes invertir en las páginas que te llevan a la lista corta.
 
 Aquí tienes los indicadores que conviene seguir, las herramientas que los miden hoy y una rutina mensual que tu equipo puede mantener. Cómo preparar el contenido para que lo citen lo explicamos en nuestra guía de [estrategia de contenido dual para SEO y GEO](/es/optimizar-para-seo-y-geo/); aquí nos centramos en medirlo.

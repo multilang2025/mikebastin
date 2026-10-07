@@ -12,6 +12,8 @@ sourceUrl: null
 excerpt: "Checklist d’audit SEO technique : ce qu’il faut vérifier, comment repérer chaque problème et comment le corriger, de l’exploration à la vitesse."
 ---
 
+## Ce que l’audit SEO technique doit vérifier
+
 Votre contenu est solide, vos pages sont soignées, et les prochains gains de positions se trouvent en dessous : des pages que les moteurs atteignent, une seule version claire de chaque page, un site assez rapide sur mobile pour retenir le visiteur. Une fois ces points réglés, chaque euro investi dans le contenu et les liens rapporte toute sa valeur, sur votre marché d’origine comme sur ceux où vous vendez à l’étranger.
 
 La checklist ci-dessous sert aux équipes marketing qui auditent leur site. Chaque section indique quoi vérifier, comment repérer le problème et comment le corriger, avec les outils que nous utilisons et de courts exemples de code.

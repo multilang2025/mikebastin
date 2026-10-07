@@ -12,6 +12,8 @@ sourceUrl: null
 excerpt: "SEO pour cabinets d’avocats : figurez parmi les trois cabinets que votre prochain client compare en ligne, dans chaque langue de votre clientèle."
 ---
 
+## Le SEO d’un cabinet d’avocats, de la recherche au rendez-vous
+
 Votre prochain client compare trois cabinets sur son téléphone avant d’en appeler un. L’objectif est que le vôtre fasse partie des trois, avec des pages d’expertise qui en font le plus facile à trouver et le plus facile à croire. Pour un cabinet de Paris, de Bruxelles, de Genève ou de Luxembourg qui conseille une clientèle internationale, cette comparaison se joue une fois par langue.
 
 > « Une majorité croissante de consommateurs disent qu’ils chercheraient leur prochain avocat en ligne, ce qui renforce l’importance d’une présence numérique solide et de technologies tournées vers le client. »

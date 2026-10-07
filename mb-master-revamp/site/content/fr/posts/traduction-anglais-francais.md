@@ -12,6 +12,8 @@ sourceUrl: null
 excerpt: "Traduction anglais-français : la bonne variante, le bon niveau de service et le SEO pour des pages qui vendent en France, en Belgique et en Suisse."
 ---
 
+## Ce qui décide la qualité d’une traduction anglais-français
+
 Votre entreprise produit souvent ses contenus en anglais d’abord : site export, fiches produits rédigées par le groupe, documentation technique, campagnes conçues pour le Royaume-Uni. Bien traduits, ils font venir des acheteurs francophones de France, de Belgique, de Suisse ou du Québec. Les pages qui les convainquent se lisent comme écrites en français, emploient le français du bon pays et se positionnent sur ce que ces acheteurs recherchent réellement.
 
 L’essentiel se décide avant que le traducteur écrive un mot : la variante de français, le brief et la place prévue pour le référencement.

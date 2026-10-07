@@ -168,7 +168,7 @@ export default function LeadGenerationPage() {
       />
 
       {/* ============ HERO: their situation ============ */}
-      <section className="band band-a grain relative overflow-hidden pb-[clamp(56px,8vw,100px)] pt-[clamp(96px,14vw,160px)]">
+      <section className="band band-a grain relative overflow-hidden pb-[clamp(32px,4vw,56px)] pt-[clamp(88px,9vw,112px)]">
         <div className="shell relative grid items-start gap-x-12 lg:grid-cols-[1fr_auto]">
         <div>
           <Reveal>
@@ -302,8 +302,8 @@ export default function LeadGenerationPage() {
               </Link>{" "}
               carries over a thousand pages in five languages. In six months it
               went from almost no search traffic to around 200 clicks a day,
-              and it now brings in over fifty enquiries a month. What we
-              recommend to you is what already works with our own budget.
+              and it now brings in over fifty enquiries a month. The chart below is its own
+              Search Console data, and the case study sets out what we did.
             </p>
             <figure className="mt-8 max-w-[420px]">
               <img

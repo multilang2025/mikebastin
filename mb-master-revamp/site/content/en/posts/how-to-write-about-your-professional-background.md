@@ -13,6 +13,8 @@ sourceUrl: "https://mikebastin.com/how-to-write-about-your-professional-backgrou
 excerpt: "Want your experience to win the client or the role? Write about your professional background in digital marketing so the first few seconds sell you."
 ---
 
+## Leading your professional background with results
+
 A client weighing two agencies, or a hiring manager with forty CVs, gives your professional background a few seconds. Lead those seconds with results and you win the meeting on the strength of your experience. In digital marketing, where everyone claims the same tools, how you present your experience decides who gets the call.
 
 Below: how to write your background so it wins that call, whether it sits on a CV, a LinkedIn profile or your company website. Where the examples include a percentage, it is shown as [X]: replace it with your own measured result.

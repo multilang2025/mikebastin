@@ -13,6 +13,8 @@ sourceUrl: "https://mikebastin.com/fr/optimisation-pour-les-systemes-ia/"
 excerpt: "Optimisation pour les systèmes d’IA : découvrez ce que ChatGPT, Gemini et Perplexity savent de votre marque, et faites évoluer cette image."
 ---
 
+## Ce que ChatGPT et Gemini disent de votre marque
+
 Quand un acheteur demande à ChatGPT ou à Gemini quels fournisseurs considérer dans votre secteur, la réponse s’appuie sur l’idée que l’assistant se fait de votre entreprise : votre activité, votre taille, vos marchés, votre réputation. Une image juste vous place dans la présélection, dans chaque langue où vos clients posent la question.
 
 Cette image se travaille. En connaissant précisément ce que les assistants d’IA retiennent de votre marque, vous savez quelles informations publier, et où, pour qu’ils vous recommandent pour ce que vous vendez réellement.

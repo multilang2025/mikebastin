@@ -15,6 +15,112 @@ How to use it:
 
 ## 7 October 2026
 
+### Handoff for Víctoria: the 7 October deploy, and what to double check
+
+Written by Claude for Mike, 7 Oct 2026. There are two deploys to preview.mikebastin.com
+today. **Deploy 1** (commit `351a69c`, finished green) carries everything under "What
+shipped". **Deploy 2** follows the same day and carries the changes under "Second
+deploy". Check each "Deploy preview" run is green in the GitHub Actions tab before you
+start; a half-uploaded preview shows a mix of old and new pages, and an upload takes
+about 20 minutes. A new push to `main` cancels a deploy still running, so the second
+one restarts the clock.
+
+**What shipped**
+- **Your PRs.** #134 (English homepage), #137 (services page) and #135 (Spanish
+  homepage) are all merged. #135 needed its shared files reconciled with `main`;
+  your translated review quotes with the "view original" toggle are kept and now
+  also use the review length cut-off.
+- **French and Spanish homepages follow the English design and wording.** Both now
+  have the hero with the reviews link, evidence, "what we do" with the three steps,
+  the bespoke markets section, the bespoke five-step list ("Comment nous
+  travaillons" and "Cómo trabajamos", restored in Spanish), "Why it works" with the
+  market diagram, reviews, BASTIN and the credibility strip. The shared FR and ES
+  sections are `components/HomeWhy.tsx` and `components/HomeBastin.tsx`.
+- **Services page.** Seventeen service ledes rewritten to sell (none opens on "You"
+  or "Your"), the Search intro and the four other group intros as paragraphs, the
+  "Our core service" badge, your FAQ with the timeline said as "in our experience".
+- **English homepage.** Strip now reads 10 "BeTranslated country sites"; the reviews
+  line is "Reviews in Dutch, Spanish, French and English."
+- **Every page heading** has a thin blinking text caret before its first letter
+  (Mike's option A). It stills under reduced motion. It is one rule in `globals.css`
+  (`main h1::before`).
+- **Reviews** over 200 characters are cut at a word and the ellipsis shows the rest
+  as a tooltip on hover, focus or touch (`components/ReviewText.tsx`).
+- **No client's own figures anywhere.** `npm run lint:figures` fails the build if
+  a page prints one. Totals only.
+
+**Please double check (in this order)**
+1. **French homepage, all of it.** Every new French line is Claude's draft: the
+   hero reviews link, the three steps, "Pourquoi cela fonctionne" and its three
+   points, BASTIN, the credibility labels, the diagram labels. Read it as a
+   French-speaking exporter would. Check the formal register (vous), the spaces
+   before `: ; ? !`, and that nothing reads as translated.
+2. **Spanish homepage, the parts you did not write.** The restored "Cómo
+   trabajamos", "Por qué funciona", BASTIN, the credibility labels ("Sitios
+   nacionales de BeTranslated") and the diagram labels are Claude's. Check the
+   "tú" register and naturalness.
+3. **Every page in light and dark, on a phone width (360px) and a laptop.** Look for
+   two bands of the same colour touching, a caret that jumps or overlaps the first
+   letter, the BASTIN arrow (its text column is narrow at 360px), the hero portrait
+   bubble, and the diagram.
+4. **Reviews.** Hover and tap the pink "…". On the Spanish page, check it still
+   works together with your translation toggle.
+5. **Services page.** Read the 17 new ledes and the five group intros for tone, and
+   check each against the service page it sits on: the card text is also the first
+   line of that page, so a claim that does not match the page below it is a bug.
+6. **Facts.** "Nearly fifteen years" with TX International Freight (Mike's words),
+   ten BeTranslated domains, and "Projects in the line-up: 8", which Mike has not
+   yet answered.
+
+**Second deploy (Mike's later instructions, same day)**
+- **Every journal post opens on an H2** (Mike's hard rule). Claude added one opening H2
+  to 145 posts: 32 English, 56 French, 57 Spanish. A new check, `npm run lint:h2`, fails
+  the build for any post that opens on a paragraph, list, table or H3 (a picture the post
+  opens on does not count). A new post must be written with its H2 first.
+- **Bullets and numbers show again** in posts and on service pages. They had been hidden by
+  the style reset.
+- **A table's first column keeps its word whole** ("Switzerland" was breaking into
+  "Switzerl / and").
+- **Compact hero on every page**: less space above and below, and on desktop a post's
+  title sits on the left with its picture on the right, so more is visible before scrolling.
+- **No star-review link in the homepage heroes** (EN, FR, ES): reviews sit further down.
+
+**Please double check for the second deploy**
+1. **The 145 new headings, in French and Spanish especially.** They were drafted by agents
+   from each post's opening, not by a native writer. Skim the first heading of every post
+   on `/fr/blog/` and `/es/blog/`: does it read naturally, say what the opening covers, and
+   keep the formal "vous" or the "tú"? Rewrite any that are clumsy; keep the H2 first.
+2. **English headings** the same way: specific, sentence case, not repeating the title.
+3. **One post that is off topic** and flagged before: `visa-nomade-numerique-espagne` (French).
+   Mike has not decided whether it moves to valenciamove.com.
+4. **Look at a few posts on a laptop and a phone**: the title and picture side by side on
+   desktop, a table with a long first word, a list with bullets, and a post that opens on
+   its own picture (the heading comes after it).
+5. **A few other pages' heroes** (services, contact, results, a service page) for crowding.
+   The padding is now the same on 36 pages and may be tight on some.
+
+**Not checked by Claude**
+- The French and Spanish pages were built and linted, not looked at in a browser.
+- Core Web Vitals were not re-measured after the new sections (the BASTIN arrow
+  listens to scroll). Worth a quick mobile run.
+- Reduced-motion behaviour of the caret and the diagram.
+
+**Still open for you**
+- **PR #140 (French SEO page)** conflicts with `main`. Merge `main` into your branch,
+  apply Mike's six answers (in Slack and in `OPEN-ITEMS.md` Q33), and check your text
+  against the new service ledes.
+- **Interview Mike** for Q21, Q27 and the backlog (Q5, Q7, Q9, Q10, Q12, Q15 to Q18),
+  and write his answers into `OPEN-ITEMS.md`.
+- English stays open (Q20). French and Spanish lead generation keep the old structure
+  until it is approved.
+
+**How to preview before you push.** `git pull`, then in `mb-master-revamp/site`:
+`npm ci`, `npm run build`, serve the `out/` folder (for example
+`python -m http.server 4173` from inside it). Run `npm run verify` before every push;
+it is the gate. If a French or Spanish string fails `lint:code`, words like "même",
+"deuxième" and "utilise" are the usual cause (English first-person and forbidden-word
+checks); reword them.
+
 ### Decided (Mike's answers to the 6 October questions)
 1. **BeTranslated runs ten country domains**: .com, .us, .ca, .co.uk, .be,
    .fr, .es, .de, .nl and .it (checked against the betranslated.com footer,
@@ -48,6 +154,11 @@ How to use it:
    14 Perplexity, 6 Gemini, 2 ChatGPT) and 928 organic keywords with 200 in
    the top three, DR 33, on its case study. Idea for Víctoria: the GEO service
    page could link to this case study as its proof.
+
+### To discuss
+1. **PR #140, French SEO page: six questions from Víctoria** (opened 7 Oct 2026; **answered by Mike, 7 Oct**: 30 minutes, no French-specific review, leave out the 21,421 impressions, the Matosurf line is accurate, name Canada, the Dutch and German line is ours to word). Consultation length (20 or 30 minutes), a French-specific review or client result, quoting the page's 21,421 impressions over 450 days, whether the Matosurf line is still accurate, whether to name Canada, and the wording of the Dutch and German visitor line. Full text in the PR description; tracked as Q33 in `OPEN-ITEMS.md`.
+2. **From 6 October:** the "own budget" sentence on the lead generation page is being reworded into a checkable claim (Mike, 7 Oct). Still open: the satisfaction bar for a signed-off service page (item 7).
+3. **Mike's interview.** Mike asked Víctoria to interview him for the open assets and older decisions (Q21, Q27, Q5, Q7, Q9, Q10, Q12, Q15 to Q18 in `OPEN-ITEMS.md`) and to write his answers into that log.
 
 ---
 

@@ -40,12 +40,12 @@ export default function FounderPortrait({ alt, caption }: { alt: string; caption
   return (
     <figure className="mx-auto mt-12 w-full max-w-[420px] lg:mx-0 lg:mt-0">
       <div
-        className={`relative flex w-full items-start justify-start ${
+        className={`relative flex w-full items-start justify-center lg:justify-start ${
           HOME_GRAPHICS.heroChartBadge ? "pb-[clamp(100px,15vw,132px)]" : "pb-8"
         }`}
       >
         <div
-          className="hero-portrait-bubble relative -top-16 -translate-x-3 overflow-hidden rounded-full border-[4px] border-[var(--bg)] bg-[var(--chip)] shadow-[0_20px_40px_rgba(12,18,28,0.15)]"
+          className="hero-portrait-bubble relative overflow-hidden lg:-top-16 lg:-translate-x-3 rounded-full border-[4px] border-[var(--bg)] bg-[var(--chip)] shadow-[0_20px_40px_rgba(12,18,28,0.15)]"
           style={{ width: "min(72vw, 320px)", aspectRatio: "1" }}
         >
           <Image

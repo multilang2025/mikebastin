@@ -12,6 +12,8 @@ sourceUrl: "https://mikebastin.com/affiliate-marketing-programs/"
 excerpt: "These 10 affiliate marketing programs pay enough to justify the content, with rates and cookie windows checked on each official page."
 ---
 
+## Turning readers into affiliate income
+
 You already have readers. The right affiliate programme turns their attention into income, so choose it before the next six months of reviews go in.
 
 If you are a content creator, publisher or agency building recurring revenue, the programmes below are the ones we have seen actually pay out for clients and for our own sites. We checked every rate against the official programme page on 26 September 2026.

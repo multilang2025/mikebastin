@@ -13,6 +13,8 @@ sourceUrl: null
 excerpt: "Diez LLM alternativos a ChatGPT, para qué sirve cada uno y qué licencia revisar, para pagar el precio justo por tus tareas de IA rutinarias."
 ---
 
+## Modelos de lenguaje que puedes usar además de ChatGPT
+
 Puede que tu equipo esté pagando tarifas de modelo puntero por trabajo que un modelo más pequeño haría igual de bien. En algunos de tus idiomas, un modelo menos conocido quizá traduzca mejor que el que usas hoy. Si tu empresa vende en Francia, el Benelux, Alemania o el Reino Unido, mirar más allá de ChatGPT, Claude, Gemini y Llama abarata el trabajo rutinario y puede subir la calidad en los mercados que peor atienden los modelos pensados primero para el inglés.
 
 Aquí tienes diez modelos agrupados según su interés, con las condiciones de licencia que debes revisar antes de construir sobre ellos.

@@ -13,6 +13,8 @@ sourceUrl: "https://mikebastin.com/optimising-multilingual-website-content/"
 excerpt: "Want translated pages that rank and sell? How localization makes multilingual website content feel native, get found and convert in every market."
 ---
 
+## Making every language version sell as well as English
+
 Your multilingual website has every page in every language, and the next step is making the other versions sell like the English one. Visitors from Paris or Madrid should find it accurate, familiar and worth an enquiry, so every market you invest in has a reason to buy.
 
 What closes the gap is [translation and cultural adaptation](/services/website-localisation/) together. Below: where localization pays off, how it works with search, where AI helps, and how to tell whether it is working.

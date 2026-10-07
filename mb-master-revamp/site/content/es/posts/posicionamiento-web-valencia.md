@@ -13,6 +13,8 @@ sourceUrl: null
 excerpt: "Posicionamiento web en Valencia: optimiza tu web para que los clientes de tu barrio te encuentren en castellano o inglés."
 ---
 
+## Cómo se posiciona un negocio local de Valencia
+
 Alguien en El Carmen busca justo lo que vendes, en español o en inglés, y la empresa más fácil de encontrar se lleva la visita. En Valencia se busca en más de un idioma, así que un negocio visible en cada uno de ellos llega a todas esas personas, semana tras semana.
 
 Tanto si sirves horchata en Ruzafa como si ofreces servicios profesionales cerca del puerto, la búsqueda local decide si las personas adecuadas te encuentran en el momento justo. Tanto si haces este trabajo tú mismo como si cuentas con un [servicio de SEO local](/es/services/seo-local/), empieza por las palabras que escriben tus clientes.

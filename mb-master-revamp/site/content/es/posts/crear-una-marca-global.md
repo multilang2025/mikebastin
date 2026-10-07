@@ -12,6 +12,8 @@ sourceUrl: null
 excerpt: "¿Tu marca ya vende fuera, traducida con cuidado? Crear una marca global es saber qué viaja tal cual y qué conviene rehacer en cada mercado."
 ---
 
+## De una marca traducida a una marca global
+
 Lanzaste tu marca en Francia, los Países Bajos y Alemania con la misma identidad, traducida con cuidado. Seis meses después, tus equipos o tus distribuidores en cada país reescriben los textos para que suenen bien a los compradores locales, y las versiones extranjeras de tu web tienen margen para alcanzar a la española.
 
 La mayoría de los proyectos de «marca global» que vemos empiezan como proyectos de traducción. El paso de «traducida» a «global de verdad» es donde se construye una marca global, y donde tus otros mercados ganan ingresos.

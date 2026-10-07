@@ -13,6 +13,8 @@ sourceUrl: null
 excerpt: "Las extensiones de Chrome para traductores que se ganan su sitio en 2026: borradores más rápidos, terminología más segura y documentos más limpios."
 ---
 
+## Las extensiones de Chrome que aceleran tus traducciones
+
 Si en tu empresa se traduce en el navegador, tus extensiones deciden dos cosas: lo rápido que avanza un borrador y lo limpio que llega a un documento del cliente o a una página publicada. Un conjunto rápido ahorra tiempo en cada encargo; uno cuidadoso mantiene la confianza del cliente. Una lista guardada en 2022 pide una actualización: esta es la que tenemos instalada tras más de dos décadas trabajando entre inglés, francés, español y neerlandés, y el orden en que la usamos.
 
 ## Manifest V3 y LLM: qué ha cambiado en el navegador

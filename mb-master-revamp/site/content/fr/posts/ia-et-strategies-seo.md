@@ -12,6 +12,8 @@ sourceUrl: null
 excerpt: "IA et stratégies SEO : confiez à l’IA la recherche de mots-clés, les briefs et la veille concurrentielle, et gardez un expert qui décide ce qui se publie."
 ---
 
+## Où l’IA rapporte dans un flux de travail SEO
+
 Vous publiez en français et dans les langues de vos marchés étrangers, en allemand, en néerlandais ou en espagnol, et la semaine de votre équipe est déjà pleine. L’IA peut en prendre une bonne part : la recherche de mots-clés, la préparation des briefs, les premiers jets et la veille concurrentielle. Bien réparti, ce travail envoie votre budget de contenu vers les pages qui rapportent, et vos experts consacrent leur temps à ce qu’eux seuls apportent.
 
 Voici où l’IA rapporte dans un flux de travail SEO, quels outils employer à chaque étape, où une personne décide, et comment préparer vos pages pour qu’une réponse d’IA les cite. Pour l’évolution de la recherche elle-même, avec les réponses d’IA et le zéro clic, consultez notre article sur [l’avenir du SEO](/fr/avenir-du-seo/).

@@ -117,7 +117,7 @@ const SERVICES_INDEX: Record<Locale, string | null> = { en: "/services/", fr: "/
 const ABOUT: Record<Locale, string> = {
   en: "We are a multilingual SEO and localization practice in Valencia, working across European markets. Enquiries are what we count, market by market.",
   fr: "Nous sommes un cabinet de référencement multilingue et de localisation basé à Valencia, actif sur les marchés européens. Nous mesurons notre travail aux demandes reçues, marché par marché.",
-  es: "Somos un equipo de posicionamiento multilingüe y localización con sede en Valencia, que trabaja en los mercados europeos. Medimos nuestro trabajo por las consultas recibidas, mercado a mercado.",
+  es: "Somos un equipo de posicionamiento multilingüe y localización con sede en Valencia, que trabaja en los mercados europeos. Medimos nuestro trabajo por los contactos recibidos, mercado a mercado.",
 };
 
 /**

@@ -12,6 +12,8 @@ sourceUrl: "https://mikebastin.com/building-a-global-brand/"
 excerpt: "Launched abroad with a translated brand? Building a global brand means knowing what travels as it is and what each market must rework."
 ---
 
+## From a translated brand to a global brand
+
 You launched in Spain, France and the Netherlands with the same brand, carefully translated. Six months later your in-market teams are rewriting the copy so it sounds right to local buyers, and the localized sites have room to catch up with the English one.
 
 Most “global brand” projects we see start as translation projects. The step from “translated” to “genuinely global” is where **building a global brand** actually lives, and where your other markets gain revenue.

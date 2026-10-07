@@ -12,6 +12,8 @@ sourceUrl: null
 excerpt: "La IA en la traducción y la localización te lleva a más mercados con el mismo presupuesto, y la revisión nativa asegura la precisión de cada uno."
 ---
 
+## Traducción con IA para llegar a seis mercados
+
 Tu presupuesto de traducción cubre dos mercados y tu equipo comercial quiere seis: Francia, Bélgica, Países Bajos, Alemania, Reino Unido y uno más por decidir. La traducción con IA cierra buena parte de esa distancia.
 
 Un revisor nativo hace el resto: garantiza que cada frase fluida de tu ficha de producto en alemán o en francés sea además una frase correcta. A continuación verás dónde la IA se gana su sitio, dónde un hablante nativo aporta más y cómo organizar el trabajo para tener la velocidad y la precisión a la vez.

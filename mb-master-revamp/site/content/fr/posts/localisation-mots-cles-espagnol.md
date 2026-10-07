@@ -12,6 +12,8 @@ sourceUrl: null
 excerpt: "Localisez vos mots-clés pour l’Espagne : chaque page se construit autour des termes que vos acheteurs espagnols tapent réellement dans Google."
 ---
 
+## Des mots-clés espagnols qui captent les bonnes recherches
+
 Vos pages en espagnol sont en ligne, la traduction est soignée, et la prochaine étape consiste à faire venir plus de trafic depuis l’Espagne. Le levier se trouve dans les mots autour desquels les pages sont construites : recherchés en espagnol, ils correspondent à ce que tape dans Google un acheteur à Madrid, à Valence ou à Séville.
 
 Chaque mois où vos pages visent les bons termes, elles captent des recherches qu’elles sont faites pour gagner. Et l’Espagne réunit plusieurs publics : le vocabulaire régional, les langues co-officielles et l’écart avec l’Amérique latine changent ce que vos acheteurs tapent.

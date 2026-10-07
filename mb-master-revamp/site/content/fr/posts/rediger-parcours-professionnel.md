@@ -12,6 +12,8 @@ sourceUrl: null
 excerpt: "Rédigez votre parcours professionnel en marketing digital pour que les premières secondes de lecture vous vendent, sur un CV, LinkedIn ou votre site."
 ---
 
+## Un parcours professionnel qui ouvre sur des résultats
+
 Un client qui hésite entre deux agences, ou un recruteur face à quarante CV, accorde quelques secondes à votre parcours professionnel. Ouvrez ces secondes sur des résultats et vous décrochez le rendez-vous grâce à votre expérience. En marketing digital, où tout le monde revendique les mêmes outils, la façon de présenter votre expérience décide de qui reçoit l’appel.
 
 Les conseils qui suivent valent pour un CV, un profil LinkedIn ou le site de votre entreprise. Dans les exemples, [X] remplace un pourcentage : mettez-y votre propre résultat mesuré.

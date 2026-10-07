@@ -29,7 +29,7 @@ const T = {
   },
   es: {
     eyebrow: "Resultados de clientes",
-    heading: "Webs que llevamos, medidas en Google Search Console.",
+    heading: "Webs que gestionamos, medidas en Google Search Console.",
     leads: "consultas al mes, de media",
     clicks: "clics desde Google",
     impressions: "millones de impresiones en Google",

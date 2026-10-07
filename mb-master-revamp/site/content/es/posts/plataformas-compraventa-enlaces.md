@@ -12,6 +12,8 @@ sourceUrl: null
 excerpt: "Repasamos 27 plataformas de compraventa de enlaces y los cinco controles que dirigen tu presupuesto de linkbuilding a enlaces que Google sí cuenta."
 ---
 
+## Qué plataformas de enlaces merecen tu presupuesto
+
 Tu empresa compra enlaces, o una agencia te recomienda hacerlo, y quieres saber cuáles seguirán contando tras la próxima actualización de Google. Google neutraliza hoy la mayoría de los enlaces débiles, así que los que merecen tu presupuesto son los que mueven una posición, tanto en tu mercado nacional como en Francia, el Benelux o Alemania.
 
 Llevamos más de dos décadas trabajando alrededor del mercado de enlaces. La lista que sigue reúne las plataformas que hemos usado o visto usar a clientes, con sus pros y contras: algunas son excelentes, otras sirven para nichos concretos, y unas pocas conviene dejarlas de lado si buscas posiciones duraderas.

@@ -14,6 +14,8 @@ excerpt: "Las diferencias culturales deciden si tu sitio web multilingüe vende 
 
 ![Diferencias culturales en sitios web multilingües](/images/legacy/2024/10/cultural-differences-in-multilingual-websites-1024x363.webp)
 
+## Qué espera cada cultura de tu web traducida
+
 Tu web ya está traducida al francés, al alemán o al neerlandés, y cada versión recibe visitas. El siguiente salto en ventas llega cuando cada versión, además de estar en el idioma del comprador, encaja con sus costumbres: el trato que espera, los formatos que reconoce y las imágenes que le resultan cercanas.
 
 El idioma es la capa de arriba. Debajo están las costumbres, los colores, el humor y las expectativas de cada cultura, y ahí es donde se gana la confianza del usuario. Llevamos más de dos décadas traduciendo y posicionando webs en varios idiomas; aquí tienes lo que más pesa y cómo trabajarlo mercado a mercado.

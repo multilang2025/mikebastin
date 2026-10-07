@@ -13,6 +13,8 @@ sourceUrl: "https://mikebastin.com/fr/nouvelles-tendances-du-secteur-des-affaire
 excerpt: "Tendances 2026 du secteur des affaires : IA, taux, règles européennes, nearshoring. Ce qu’elles changent pour une entreprise qui vend à l’étranger."
 ---
 
+## Les tendances 2026 qui pèsent sur vos arbitrages
+
 Vous vendez déjà sur plusieurs marchés, et vos arbitrages de l’année (où investir, quels pays pousser, quels outils adopter) dépendent de mouvements qui dépassent le marketing : l’IA qui entre en production, des taux d’intérêt qui remontent, des règles européennes qui s’appliquent par étapes. Les lire à temps vous permet de placer le budget là où il rapporte dès ce trimestre.
 
 Voici les dix tendances qui pèsent sur les décisions stratégiques en 2026, chacune avec ses chiffres vérifiés à la source et ce qu’elle change pour une entreprise qui vend à l’étranger.

@@ -13,6 +13,8 @@ sourceUrl: null
 excerpt: "Estrategia de contenido segmentada en siete pasos: parte de lo que buscan tus compradores y convierte tus publicaciones en solicitudes de contacto."
 ---
 
+## Una estrategia de contenido que llega a cada mercado
+
 Publicas con constancia, en español y en los idiomas de los mercados donde vendes, y el blog parece activo; el siguiente paso es convertir esa producción en solicitudes de contacto. Un calendario editorial construido a partir de lo que buscan tus compradores lo consigue, y hace que cada semana de trabajo de tus redactores cuente.
 
 Una estrategia de contenido segmentada fija el orden: para quién escribes, qué buscan esos lectores, qué tienes ya y cómo sabrás que ha funcionado. Aquí tienes los siete pasos que seguimos, de los perfiles de comprador a la medición, y lo que cada uno te ahorra.

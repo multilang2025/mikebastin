@@ -13,6 +13,8 @@ sourceUrl: "https://mikebastin.com/best-vietnam-sourcing-agencies-for-eudr-suppl
 excerpt: "Sourcing from Vietnam and facing the EUDR in December? Seven sourcing agencies for supplier scouting and audits, and how to bridge the language gap."
 ---
 
+## Why the EUDR changes how you source from Vietnam
+
 You buy rubber, coffee, wood or furniture from Vietnam, and from 30 December 2026 a large or medium EU importer has to prove where each raw material was grown before the goods can go on sale. Your suppliers are sound; the work now is bringing their paperwork up to the same standard, and much of the evidence sits with smallholders and processors your team has yet to meet.
 
 Starting now keeps every shipment saleable in the EU. Below: what the EU Deforestation Regulation (EUDR) asks of you and when, what tracing a Vietnamese supply chain involves, seven agencies and advisers that can do the groundwork, and the part that decides many audits, which is language.

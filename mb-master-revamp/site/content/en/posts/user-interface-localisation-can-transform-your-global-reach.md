@@ -13,6 +13,8 @@ sourceUrl: "https://mikebastin.com/user-interface-localisation-can-transform-you
 excerpt: "Want users abroad to feel at home in your product? User interface localization adapts the labels, layouts and forms for each market, and grows its reach."
 ---
 
+## What UI localization changes for your product
+
 Your product launched in a new market, the translation is fine, and the next step is lifting the numbers. Completed sign-ups and labels that read naturally come from adapting the interface around the translation.
 
 User interface (UI) localization adapts the text, images, layout and behaviour to each market's language, culture and legal requirements. Below: what it involves, what it does for your business, and how to plan and test it so each new language fits the design you already have.

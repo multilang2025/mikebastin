@@ -13,6 +13,8 @@ sourceUrl: "https://mikebastin.com/fr/consultant-referencement-international/"
 excerpt: "Un consultant en référencement international vous livre chaque mois des pages natives, des positions suivies et des demandes comptées, pays par pays."
 ---
 
+## Ce qu’un consultant en référencement international prend en charge
+
 Vos pages en anglais, en espagnol ou en néerlandais sont en ligne, elles reçoivent des visites, et la plupart de vos demandes arrivent encore par le site français. Amener ces langues au même niveau est souvent le gain le plus proche : vos marchés sont ouverts, votre offre y a fait ses preuves, et chaque langue peut vous envoyer ses propres acheteurs.
 
 Un consultant en référencement international prend ce chantier en main, marché par marché. Avant de vous engager, vous voulez savoir à quoi ressemble la mission au quotidien : ce qui se passe le premier mois, ce que vous recevez ensuite chaque mois, et comment lire les chiffres.

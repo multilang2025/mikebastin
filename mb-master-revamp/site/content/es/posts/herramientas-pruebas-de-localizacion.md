@@ -14,6 +14,8 @@ excerpt: "Herramientas de pruebas de localización para lanzar cada idioma de tu
 
 ![Herramientas de pruebas de localización](/images/legacy/2024/10/testing-tools-1024x364.webp)
 
+## Pruebas de localización antes de lanzar en otro idioma
+
 Vas a lanzar tu web o tu app en francés, alemán o neerlandés, y la traducción ya está encargada. Lo que decide la primera impresión del comprador está alrededor del texto: que quepa en su botón, que la fecha salga en el formato de su país y que una palabra con acento se ordene donde él espera.
 
 Las herramientas de pruebas de localización revisan justo esos puntos, y lo hacen antes del lanzamiento, cuando corregir es rápido y barato. Aquí tienes los tipos de herramienta que conviene combinar, ejemplos actuales de cada uno y cómo encajarlos en tu proceso.

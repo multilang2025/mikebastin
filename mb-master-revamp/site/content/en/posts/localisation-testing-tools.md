@@ -12,6 +12,8 @@ sourceUrl: "https://mikebastin.com/localisation-testing-tools/"
 excerpt: "Want every localized release to ship clean? The localization testing tools that find layout, text and locale faults before your users see them."
 ---
 
+## Getting a localized release right on day one
+
 Your product works perfectly in English, and the German release should too: every label inside its button, every date reading as the right month, on day one.
 
 Localization testing tools find layout and locale faults before your users do. Below: what each type catches, the features worth paying for, and how to combine them.

@@ -12,6 +12,8 @@ sourceUrl: "https://mikebastin.com/seo-in-belgium/"
 excerpt: "A Belgian site in one language reaches half the country. SEO in Belgium means winning Flanders, Wallonia and Brussels, each in its own language."
 ---
 
+## How Belgium's language communities shape your SEO
+
 You sell into Belgium, and your Belgian site works in one language, which reaches roughly half the country. Dutch reaches Flanders, the largest of the three language communities; French reaches Wallonia and much of Brussels. Add the other language and you speak to the whole country, and buyers choose the supplier who speaks to them.
 
 The market is also bigger than the keyword tools suggest, because they undercount Belgian searches.

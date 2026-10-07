@@ -13,6 +13,8 @@ sourceUrl: null
 excerpt: "Economía de los creadores más humana: la visión de Jean Marie Cordaro y los pasos para ser dueño de la relación con tu audiencia."
 ---
 
+## Una audiencia propia en la economía de los creadores
+
 Si tu audiencia vive en la plataforma de otro, la tienes alquilada: tu alcance y tus ingresos dependen de algoritmos, proveedores de pago y normas de cuenta que fija otra empresa. Lo mismo vale para una empresa que vende en Francia, Alemania o el Reino Unido y cuya relación con el cliente pasa en parte por esos canales. Ser dueño de esa relación protege lo que has tardado años en construir.
 
 Jean Marie Cordaro, fundador de Bonzai.pro, ha construido su trabajo en torno a una convicción: la tecnología debe estar al servicio de las personas. A continuación verás por qué cree que la economía de los creadores se ha inclinado demasiado hacia las plataformas, cómo es en la práctica una alternativa centrada en las personas y qué significa para cualquiera que quiera ser dueño de la relación con su audiencia.

@@ -12,6 +12,8 @@ sourceUrl: null
 excerpt: "Dix points à soigner pour qu’un site traduit se lise comme un site local : ton, prix, formulaires, paiements et recherche, expliqués un à un."
 ---
 
+## Localiser votre site pour convertir chaque visiteur
+
 Votre site traduit est en ligne et les premiers visiteurs du Royaume-Uni, d’Allemagne ou des Pays-Bas arrivent : reste à en faire des acheteurs. Le site fonctionne ; l’étape qui reste est de lui donner l’allure d’un site local, avec un ton adapté, des prix au format attendu et un formulaire qui accepte une adresse du pays.
 
 Chacun de ces réglages garde chez vous un visiteur qui compare avec les concurrents installés sur place. Voici dix points de localisation de site web qui y mènent, regroupés selon l’endroit où ils s’appliquent.

@@ -12,6 +12,8 @@ sourceUrl: null
 excerpt: "Netlinking en Espagne : où se trouve l’autorité éditoriale, quelles tactiques retenir et comment planifier des liens .es qui font monter vos positions."
 ---
 
+## Un netlinking espagnol qui fait monter vos positions
+
 Votre site vise déjà le marché espagnol, et la prochaine étape est de voir vos positions sur google.es monter avec vos liens. Ceux qui y contribuent sont les liens qu’un rédacteur espagnol a choisi de donner, et Google les compte.
 
 Nous travaillons depuis Valence, en espagnol, en français et en anglais. Notre expérience couvre des missions SEO pour un cabinet d’avocats de Valence et [notre propre agence de traduction](https://betranslated.com/), présente sur des sites en .es, .fr, .be, .nl et .com. Pour une entreprise francophone, le netlinking en Espagne se construit comme un travail de relations presse à rythme lent : des propositions écrites en espagnol, des placements éditoriaux, des contacts suivis dans la durée.

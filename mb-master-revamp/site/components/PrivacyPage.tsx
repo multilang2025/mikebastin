@@ -20,7 +20,7 @@ export default function PrivacyPage({ locale }: { locale: Locale }) {
           { name: c.title, url: `${SITE_URL}${c.path}` },
         ])}
       />
-      <section className="band band-a grain relative overflow-hidden pb-[clamp(40px,6vw,72px)] pt-[clamp(96px,14vw,160px)]">
+      <section className="band band-a grain relative overflow-hidden pb-[clamp(32px,4vw,56px)] pt-[clamp(88px,9vw,112px)]">
         <div className="shell relative">
           <Reveal>
             <p className="eyebrow mb-8">{c.eyebrow}</p>

@@ -33,12 +33,12 @@ const STAGES = [
   {
     name: "Una consulta gratuita",
     detail:
-      "Treinta minutos sobre los mercados y los idiomas que cuentan, lo que ya posiciona, lo que ya se ha probado y lo que supone un buen resultado en consultas de clientes. Primero hacemos nuestras preguntas y después recomendamos.",
+      "Treinta minutos sobre los mercados y los idiomas que cuentan, lo que ya posiciona, lo que ya se ha probado y lo que supone un buen resultado en contactos de clientes. Primero hacemos nuestras preguntas y después recomendamos.",
   },
   {
-    name: "Un alcance por escrito para tus mercados",
+    name: "Un plan de trabajo por escrito para tus mercados",
     detail:
-      "Un documento breve que nombra las páginas, las palabras clave y los entregables del primer trimestre, y quién hace cada cosa. Un sitio en cinco idiomas y uno en dos son proyectos distintos, por eso construimos el alcance para tu caso.",
+      "Un documento breve que nombra las páginas, las palabras clave y los entregables del primer trimestre, y quién hace cada cosa. Un sitio en cinco idiomas y uno en dos son proyectos distintos, por eso adaptamos el plan de trabajo a tu caso.",
   },
   {
     name: "Primero la investigación, después la redacción",
@@ -65,7 +65,7 @@ const STAGES = [
 const QUESTIONS = [
   {
     q: "¿Cuándo veremos los primeros resultados?",
-    a: "La mayoría de los clientes ve un primer cambio medible en los tres primeros meses: una palabra clave que entra entre las veinte primeras, una consulta llegada de un mercado nuevo. Un cambio real de posiciones en varios idiomas suele tardar de dos a tres trimestres, el tiempo que necesitan las páginas nuevas para ser rastreadas y ganarse la confianza de los buscadores.",
+    a: "La mayoría de los clientes ve un primer cambio medible en los tres primeros meses: una palabra clave que entra entre las veinte primeras, un contacto llegado de un mercado nuevo. Un cambio real de posiciones en varios idiomas suele tardar de dos a tres trimestres, el tiempo que necesitan las páginas nuevas para ser rastreadas y ganarse la confianza de los buscadores.",
   },
   {
     q: "¿Hay que firmar un contrato?",
@@ -81,7 +81,7 @@ const QUESTIONS = [
   },
   {
     q: "¿Cómo se factura?",
-    a: "La gestión lleva unos honorarios aparte. Cuando un proyecto incluye publicidad online, toda tu inversión en medios compra anuncios: se abona directamente a Google, Microsoft o Meta. El presupuesto que recomendamos es, por tanto, el que trae consultas. Esta regla se aplica a la inversión en medios; la redacción y la traducción que hacemos con la red BeTranslated se presupuestan como trabajo.",
+    a: "La gestión lleva unos honorarios aparte. Cuando un proyecto incluye publicidad online, toda tu inversión en medios compra anuncios: se abona directamente a Google, Microsoft o Meta. El presupuesto que recomendamos es, por tanto, el que trae contactos. Esta regla se aplica a la inversión en medios; la redacción y la traducción que hacemos con la red BeTranslated se presupuestan como trabajo.",
   },
   {
     q: "¿Cómo empezar?",
@@ -99,7 +99,7 @@ export default function SpanishPricingPage() {
           { name: "Precios", url: `${SITE_URL}${PATH}` },
         ])}
       />
-      <section className="band band-a grain relative overflow-hidden pb-[clamp(48px,7vw,80px)] pt-[clamp(96px,14vw,160px)]">
+      <section className="band band-a grain relative overflow-hidden pb-[clamp(32px,4vw,56px)] pt-[clamp(88px,9vw,112px)]">
         <div className="shell relative grid items-start gap-x-12 lg:grid-cols-[1fr_auto]">
         <div>
           <Reveal>
