@@ -14,7 +14,7 @@ excerpt: "Una misma página puede posicionar en Google y aparecer citada en Chat
 
 ![Article header image](/images/legacy/2026/01/estrategiacontenidodualseogeos-1024x585.webp)
 
-## Cómo servir al SEO y al GEO con una misma página
+## Una misma página que funcione para SEO y GEO
 
 Tus compradores en Francia, Alemania o el Benelux buscan en Google y también preguntan a ChatGPT, Claude o Perplexity, que les responden con dos o tres fuentes. Cada página que escribes puede servir a los dos canales a la vez: posicionar en los resultados y aparecer citada en la respuesta.
 

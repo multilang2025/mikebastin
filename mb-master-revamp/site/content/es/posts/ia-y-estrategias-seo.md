@@ -12,7 +12,7 @@ sourceUrl: null
 excerpt: "Cómo usar la IA en tu trabajo de SEO, de la investigación de palabras clave a los borradores y la competencia, con un experto que decide qué se publica."
 ---
 
-## Dónde ayuda la IA a tu flujo de trabajo SEO
+## Dónde ayuda la IA en tu flujo de trabajo SEO
 
 Publicas con regularidad en español y en los idiomas de los mercados a los que vendes, y tu equipo tiene más trabajo del que cabe en la semana. La IA puede quitarle una buena parte: investigar palabras clave, preparar briefs, redactar primeros borradores y vigilar a la competencia. Bien repartido el trabajo, tu presupuesto de contenidos va a las páginas que rinden y tus expertos dedican su tiempo a lo que solo ellos pueden aportar.
 
