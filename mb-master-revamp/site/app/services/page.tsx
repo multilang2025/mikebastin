@@ -215,13 +215,8 @@ export default function ServicesIndex() {
           services.map((s, i) => (
             <Reveal key={s.slug} i={i}>
               <li
-                className="band group h-full"
-                style={{
-                  background:
-                    s.slug === "multilingual-seo"
-                      ? "color-mix(in srgb, var(--berry-soft) 55%, var(--bg))"
-                      : "var(--bg)",
-                }}
+                className={`band group h-full${s.slug === "multilingual-seo" ? " card-navy" : ""}`}
+                style={s.slug === "multilingual-seo" ? undefined : { background: "var(--bg)" }}
               >
                 <Link href={`/services/${s.slug}/`} className="flex h-full flex-col px-7 py-8">
                   <span

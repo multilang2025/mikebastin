@@ -1438,3 +1438,25 @@ details.faq-item > summary:focus-visible {
 @media (prefers-reduced-motion: reduce) {
   details.faq-item, .faq-icon { transition: none; }
 }
+
+/* The highlighted card in a grid (services index, core service): navy in
+   both themes, with the dark palette's text colours scoped to the card. */
+.card-navy {
+  --bg: #0f2837;
+  --ink: #f5efe2;
+  --dim: #afc0cc;
+  --berry: #f2556a;
+  --berry-deep: #c9304a;
+  --berry-soft: rgb(242 85 106 / 0.16);
+  background: #0f2837 !important;
+}
+:root[data-theme="dark"] .card-navy {
+  --bg: #16384d;
+  background: #16384d !important;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .card-navy {
+    --bg: #16384d;
+    background: #16384d !important;
+  }
+}
