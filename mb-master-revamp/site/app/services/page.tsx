@@ -31,6 +31,14 @@ const MARKET_LINKS = [
   { name: "Portugal", slug: "portuguese-seo" },
 ];
 
+const FEATURED_SEARCH_SERVICES = [
+  "multilingual-seo",
+  "french-seo",
+  "spanish-seo",
+  "dutch-seo",
+  "local-seo",
+];
+
 const QUESTIONS = [
   {
     q: "How much does multilingual SEO cost?",
@@ -190,6 +198,43 @@ export default function ServicesIndex() {
       {/* ============ CLUSTERS ============ */}
       {CLUSTERS.map((cluster, ci) => {
         const inCluster = SERVICES.filter((s) => s.cluster === cluster);
+        const featured =
+          cluster === "Search"
+            ? FEATURED_SEARCH_SERVICES.map((slug) => inCluster.find((s) => s.slug === slug)).filter(
+                (service) => service !== undefined,
+              )
+            : inCluster;
+        const moreOptions =
+          cluster === "Search"
+            ? inCluster.filter((service) => !FEATURED_SEARCH_SERVICES.includes(service.slug))
+            : [];
+        const renderCards = (services: typeof inCluster) =>
+          services.map((s, i) => (
+            <Reveal key={s.slug} i={i}>
+              <li className="band group h-full" style={{ background: "var(--bg)" }}>
+                <Link href={`/services/${s.slug}/`} className="flex h-full flex-col px-7 py-8">
+                  <span
+                    className="mb-5 flex h-11 w-11 items-center justify-center rounded-full transition-colors duration-300"
+                    style={{ background: "var(--berry-soft)", color: "var(--berry)" }}
+                  >
+                    <ServiceIcon slug={s.slug} />
+                  </span>
+                  {s.slug === "multilingual-seo" && (
+                    <span
+                      className="mb-3 w-fit rounded-full px-3 py-1 text-[.78rem] font-semibold"
+                      style={{ background: "var(--berry-soft)", color: "var(--berry)" }}
+                    >
+                      Our core service
+                    </span>
+                  )}
+                  <span className="ulink mb-2 text-[1.08rem] font-semibold">{s.cardTitle ?? s.name}</span>
+                  <p className="text-[.9rem] leading-[1.5]" style={{ color: "var(--dim)" }}>
+                    {s.lede}
+                  </p>
+                </Link>
+              </li>
+            </Reveal>
+          ));
         return (
           <Fragment key={cluster}>
           <section
@@ -232,33 +277,28 @@ export default function ServicesIndex() {
               </Reveal>
 
               <ul className="grid gap-px cells-3 sm:grid-cols-2 lg:grid-cols-3" style={{ background: "var(--rule)" }}>
-                {inCluster.map((s, i) => (
-                  <Reveal key={s.slug} i={i}>
-                    <li className="band group h-full" style={{ background: "var(--bg)" }}>
-                      <Link href={`/services/${s.slug}/`} className="flex h-full flex-col px-7 py-8">
-                        <span
-                          className="mb-5 flex h-11 w-11 items-center justify-center rounded-full transition-colors duration-300"
-                          style={{ background: "var(--berry-soft)", color: "var(--berry)" }}
-                        >
-                          <ServiceIcon slug={s.slug} />
-                        </span>
-                        {s.slug === "multilingual-seo" && (
-                          <span
-                            className="mb-3 w-fit rounded-full px-3 py-1 text-[.78rem] font-semibold"
-                            style={{ background: "var(--berry-soft)", color: "var(--berry)" }}
-                          >
-                            Our core service
-                          </span>
-                        )}
-                        <span className="ulink mb-2 text-[1.08rem] font-semibold">{s.cardTitle ?? s.name}</span>
-                        <p className="text-[.9rem] leading-[1.5]" style={{ color: "var(--dim)" }}>
-                          {s.lede}
-                        </p>
-                      </Link>
-                    </li>
-                  </Reveal>
-                ))}
+                {renderCards(featured)}
               </ul>
+              {moreOptions.length > 0 && (
+                <details className="group mt-6">
+                  <summary className="btn btn-secondary inline-flex cursor-pointer list-none items-center gap-3">
+                    Find more options
+                    <svg
+                      viewBox="0 0 20 20"
+                      className="h-4 w-4 transition-transform duration-200 group-open:rotate-180"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="1.8"
+                      aria-hidden="true"
+                    >
+                      <path d="m4 7 6 6 6-6" />
+                    </svg>
+                  </summary>
+                  <ul className="mt-6 grid gap-px cells-3 sm:grid-cols-2 lg:grid-cols-3" style={{ background: "var(--rule)" }}>
+                    {renderCards(moreOptions)}
+                  </ul>
+                </details>
+              )}
             </div>
           </section>
           {cluster === "Search" && <ConsultationCta band="band-b" />}
