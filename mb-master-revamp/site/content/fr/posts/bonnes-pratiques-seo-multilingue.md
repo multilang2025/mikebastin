@@ -176,7 +176,7 @@ Le GEO rend un contenu citable par les IA en plus d’être indexable. Pour un s
 Les marques qui donnent à chaque langue le même soin qu’à la langue principale, grâce à une [localisation complète des contenus](/fr/services/localisation-de-site-web/), gagnent du terrain sur chaque marché. Pour décider quelle part de ces contenus l’IA peut produire dans chaque langue, et laquelle confier à un rédacteur, notre [conseil en IA](/fr/services/conseil-ia/) fait le tri.
 
 <figure class="post-fig">
-<svg viewBox="0 0 400 172" role="img" aria-label="Trois couches superposées : le SEO multilingue à la base, le GEO au-dessus, puis la présence partout au sommet.">
+<svg viewBox="0 0 400 172" role="img" aria-label="Trois couches superposées : le SEO multilingue à la base, le GEO au-dessus, puis la présence partout au sommet.">
 <rect x="100" y="10" width="200" height="44" rx="6" class="fg-hot"/>
 <rect x="55" y="64" width="290" height="44" rx="6" class="fg-box"/>
 <rect x="10" y="118" width="380" height="44" rx="6" class="fg-fill"/>

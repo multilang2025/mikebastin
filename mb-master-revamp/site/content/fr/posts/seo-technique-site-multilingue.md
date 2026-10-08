@@ -39,8 +39,8 @@ Chaque annotation est réciproque : si la page A désigne la page B, la page B 
 > Source : [Google Search Central, « Signaler les versions localisées de votre page à Google »](https://developers.google.com/search/docs/specialty/international/localized-versions)
 
 <figure class="post-fig">
-<svg viewBox="0 0 400 184" role="img" aria-label="Trois versions de langue d’une page se désignent par hreflang, et toutes pointent vers la même page x-default.">
-<path d="M70 34 Q200 0 330 34" fill="none" class="fg-line"/>
+<svg viewBox="0 0 400 184" role="img" aria-label="Trois versions de langue d’une page se désignent par hreflang, et toutes pointent vers la même page x-default.">
+<path d="M70 34 Q200 0 330 34" fill="none" class="fg-line"/>
 <line x1="120" y1="58" x2="150" y2="58" class="fg-line"/>
 <line x1="250" y1="58" x2="280" y2="58" class="fg-line"/>
 <rect x="20" y="34" width="100" height="48" rx="6" class="fg-box"/>

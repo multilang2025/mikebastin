@@ -21,7 +21,7 @@ La checklist ci-dessous sert aux équipes marketing qui auditent leur site. Chaq
 Si vous préférez confier le travail, notre [service de SEO technique](/fr/services/seo-technique/) réalise le même audit et livre les corrections.
 
 <figure class="post-fig">
-<svg viewBox="0 0 400 130" role="img" aria-label="L’audit se déroule en quatre étapes, chacune dépendant de la précédente : exploration, indexation, affichage, positionnement.">
+<svg viewBox="0 0 400 130" role="img" aria-label="L’audit se déroule en quatre étapes, chacune dépendant de la précédente : exploration, indexation, affichage, positionnement.">
 <line x1="50" y1="32" x2="350" y2="32" class="fg-rule"/>
 <circle cx="50" cy="32" r="26" class="fg-box"/>
 <circle cx="150" cy="32" r="26" class="fg-box"/>
@@ -98,7 +98,7 @@ Les pages proches de la page d’accueil reçoivent plus de visites, des moteurs
 Les liens internes répartissent l’autorité et montrent aux robots ce qui compte. Reliez chaque page orpheline repérée par l’outil d’audit depuis des pages pertinentes, avec un texte d’ancre qui décrit la cible, et gardez les pages importantes à trois clics au plus de l’accueil. Notre comparatif des [outils de maillage interne](/fr/outils-maillage-interne/) vous aide à relier ces pages plus vite.
 
 <figure class="post-fig">
-<svg viewBox="0 0 400 200" role="img" aria-label="Une hiérarchie de site peu profonde : la page d’accueil renvoie vers les catégories, les catégories vers les pages, et chaque page se trouve à trois clics au plus.">
+<svg viewBox="0 0 400 200" role="img" aria-label="Une hiérarchie de site peu profonde : la page d’accueil renvoie vers les catégories, les catégories vers les pages, et chaque page se trouve à trois clics au plus.">
 <rect x="150" y="10" width="100" height="36" rx="6" class="fg-hot"/>
 <text x="200" y="34" text-anchor="middle" class="fg-text">Accueil</text>
 <line x1="200" y1="46" x2="110" y2="80" class="fg-line"/>

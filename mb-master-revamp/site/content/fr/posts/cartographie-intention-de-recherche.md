@@ -44,7 +44,7 @@ Chaque recherche répond à un but sous-jacent, et le secteur du SEO les range e
 <text x="160" y="96" text-anchor="middle" class="fg-text">Commerciale</text>
 <text x="160" y="154" text-anchor="middle" class="fg-text">Transactionnelle</text>
 <line x1="340" y1="14" x2="340" y2="166" class="fg-dim"/>
-<text x="362" y="90" text-anchor="middle" transform="rotate(90 362 90)" class="fg-label">Navigationnelle</text>
+<text x="362" y="90" text-anchor="middle" transform="rotate(90 362 90)" class="fg-label">Navigationnelle</text>
 <text x="200" y="192" text-anchor="middle" class="fg-label">guides, comparatifs, pages d’atterrissage</text>
 </svg>
 <figcaption>La plupart des recherches se situent en haut de l’entonnoir, là où il est le plus large. Associez chaque étape à son propre type de page, et laissez les requêtes navigationnelles mener directement à la marque, à n’importe quel moment.</figcaption>
