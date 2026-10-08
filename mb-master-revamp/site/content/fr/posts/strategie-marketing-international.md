@@ -75,6 +75,26 @@ Une page localisée dit à l’acheteur qu’elle a été écrite pour lui. Le c
 
 Bien réglées, vos versions linguistiques s’additionnent. Les balises hreflang indiquent aux moteurs quelle version de la page montrer à quel internaute, selon sa langue et son pays. Une stratégie de domaines par pays, avec des extensions nationales comme .es ou .de, peut renforcer vos positions sur les marchés visés. Notre guide du [SEO technique d’un site multilingue](/fr/seo-technique-site-multilingue/) détaille la mise en place.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Les balises hreflang indiquent aux moteurs quelle version linguistique d’une page montrer à chaque internaute : anglaise, française ou espagnole.">
+<path d="M200 50 L70 102" class="fg-line"/>
+<path d="M200 50 L200 102" class="fg-line"/>
+<path d="M200 50 L330 102" class="fg-line"/>
+<rect x="120" y="10" width="160" height="40" rx="6" class="fg-hot"/>
+<rect x="8" y="102" width="124" height="46" rx="6" class="fg-box"/>
+<rect x="138" y="102" width="124" height="46" rx="6" class="fg-box"/>
+<rect x="268" y="102" width="124" height="46" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-strong">hreflang</text>
+<text x="70" y="122" text-anchor="middle" class="fg-text">Anglais</text>
+<text x="70" y="140" text-anchor="middle" class="fg-label">en</text>
+<text x="200" y="122" text-anchor="middle" class="fg-text">Français</text>
+<text x="200" y="140" text-anchor="middle" class="fg-label">fr</text>
+<text x="330" y="122" text-anchor="middle" class="fg-text">Espagnol</text>
+<text x="330" y="140" text-anchor="middle" class="fg-label">es</text>
+</svg>
+<figcaption>Les balises hreflang envoient chaque internaute vers la version écrite dans sa langue, et vos versions linguistiques s’additionnent.</figcaption>
+</figure>
+
 ## Les annonces payantes pour tester la demande d’un nouveau marché
 
 Les annonces payantes montrent vite si un nouveau marché veut ce que vous vendez, en touchant les acheteurs par pays, par langue et par profil dès le premier jour.
@@ -91,6 +111,24 @@ Une annonce fonctionne quand elle sonne local. Faites adapter le texte par des [
 
 Lancez de petites campagnes de test sur chaque nouveau marché, puis suivez le taux de clics, le taux de conversion et le retour sur investissement avant d’augmenter les budgets.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Trois mesures issues d’une petite campagne de test, le taux de clics, le taux de conversion et le retour sur investissement, décident du moment où augmenter le budget sur un nouveau marché.">
+<path d="M160 35 L280 72" class="fg-line"/>
+<path d="M160 80 L280 80" class="fg-line"/>
+<path d="M160 125 L280 88" class="fg-line"/>
+<rect x="10" y="20" width="150" height="30" rx="6" class="fg-box"/>
+<rect x="10" y="65" width="150" height="30" rx="6" class="fg-box"/>
+<rect x="10" y="110" width="150" height="30" rx="6" class="fg-box"/>
+<circle cx="330" cy="80" r="50" class="fg-hot"/>
+<text x="85" y="40" text-anchor="middle" class="fg-text">Taux de clics</text>
+<text x="85" y="85" text-anchor="middle" class="fg-text">Conversion</text>
+<text x="85" y="130" text-anchor="middle" class="fg-text">Rentabilité</text>
+<text x="330" y="78" text-anchor="middle" class="fg-strong">Augmenter</text>
+<text x="330" y="98" text-anchor="middle" class="fg-label">le budget</text>
+</svg>
+<figcaption>Chaque nouveau marché commence par un petit test, et ses taux de clics et de conversion et son retour sur investissement décident du moment où augmenter le budget.</figcaption>
+</figure>
+
 <aside class="post-cta">
 <p><strong>Vous testez un nouveau marché et voulez savoir de quel pays vient chaque demande ?</strong> Notre <a href="/fr/services/sem-multilingue/">SEM multilingue</a> construit vos annonces dans la langue de chaque pays et suit chaque marché avec son propre budget et son propre rapport. <a href="/fr/nous-contacter/">Réserver une consultation gratuite</a>.</p>
 </aside>
@@ -98,6 +136,27 @@ Lancez de petites campagnes de test sur chaque nouveau marché, puis suivez le t
 ## Les réseaux sociaux utilisés dans chaque pays
 
 Les réseaux sociaux touchent vite une nouvelle audience, à condition d’être présent sur les plateformes de ce marché, et elles changent beaucoup d’un pays à l’autre. Facebook, Instagram et LinkedIn dominent sur les marchés occidentaux ; WeChat est indispensable en Chine, et WhatsApp est très utilisé pour les échanges commerciaux en Amérique latine. Vérifiez les plateformes de chaque pays avant d’ouvrir un compte.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Les réseaux sociaux par marché : Facebook et Instagram sur les marchés occidentaux, WeChat en Chine et WhatsApp pour les échanges commerciaux en Amérique latine.">
+<path d="M160 28 L200 28" class="fg-line"/>
+<path d="M160 80 L200 80" class="fg-line"/>
+<path d="M160 132 L200 132" class="fg-line"/>
+<rect x="10" y="10" width="150" height="36" rx="6" class="fg-box"/>
+<rect x="10" y="62" width="150" height="36" rx="6" class="fg-box"/>
+<rect x="10" y="114" width="150" height="36" rx="6" class="fg-box"/>
+<rect x="200" y="10" width="190" height="36" rx="6" class="fg-box"/>
+<rect x="200" y="62" width="190" height="36" rx="6" class="fg-box"/>
+<rect x="200" y="114" width="190" height="36" rx="6" class="fg-box"/>
+<text x="85" y="33" text-anchor="middle" class="fg-text">Occident</text>
+<text x="295" y="33" text-anchor="middle" class="fg-text">Facebook, Instagram</text>
+<text x="85" y="85" text-anchor="middle" class="fg-text">Chine</text>
+<text x="295" y="85" text-anchor="middle" class="fg-text">WeChat</text>
+<text x="85" y="137" text-anchor="middle" class="fg-text">Amérique latine</text>
+<text x="295" y="137" text-anchor="middle" class="fg-text">WhatsApp</text>
+</svg>
+<figcaption>Chaque marché a ses propres plateformes, et la vérification passe avant l’ouverture du compte.</figcaption>
+</figure>
 
 **Un échange dans la langue locale.** Répondez aux abonnés de chaque pays dans leur langue, traitez leurs questions propres et ajustez le ton à leurs habitudes.
 

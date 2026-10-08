@@ -24,6 +24,26 @@ Las herramientas de pruebas de localización revisan justo esos puntos, y lo hac
 
 Una prueba de localización bien hecha te ahorra las incidencias que llegarían después al servicio de atención al cliente, en un idioma que tu equipo quizá no habla. Las herramientas revisan la codificación de caracteres, los formatos de fecha y de moneda, la dirección del texto y las cadenas pendientes de traducir.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Las herramientas de pruebas de localización revisan tres puntos alrededor del texto: los formatos de fecha y moneda, la dirección del texto y las cadenas por traducir.">
+<path d="M200 50 L70 102" class="fg-line"/>
+<path d="M200 50 L200 102" class="fg-line"/>
+<path d="M200 50 L330 102" class="fg-line"/>
+<rect x="120" y="10" width="160" height="40" rx="6" class="fg-hot"/>
+<rect x="8" y="102" width="124" height="46" rx="6" class="fg-box"/>
+<rect x="138" y="102" width="124" height="46" rx="6" class="fg-box"/>
+<rect x="268" y="102" width="124" height="46" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-strong">Herramientas</text>
+<text x="70" y="122" text-anchor="middle" class="fg-text">Formatos</text>
+<text x="70" y="140" text-anchor="middle" class="fg-label">fecha, moneda</text>
+<text x="200" y="122" text-anchor="middle" class="fg-text">Dirección</text>
+<text x="200" y="140" text-anchor="middle" class="fg-label">del texto</text>
+<text x="330" y="122" text-anchor="middle" class="fg-text">Cadenas</text>
+<text x="330" y="140" text-anchor="middle" class="fg-label">por traducir</text>
+</svg>
+<figcaption>Las herramientas revisan todo lo que rodea al texto traducido: formatos, dirección y cadenas pendientes.</figcaption>
+</figure>
+
 También comprueban funciones propias de cada lengua: el texto de derecha a izquierda en árabe y hebreo, el salto de línea correcto en idiomas asiáticos y la ordenación de caracteres acentuados en lenguas europeas. Algunas señalan además imágenes, colores o símbolos que conviene adaptar a un mercado concreto, algo que cubrimos con más detalle en nuestras [pruebas de localización](/es/services/traduccion-de-paginas-web/).
 
 Las más modernas se integran en los flujos de integración continua y detectan los fallos pronto, cuando corregirlos cuesta poco. Pueden simular distintos entornos regionales y verificar que el comportamiento es coherente en todas las versiones de idioma. Ese enfoque sistemático [ayuda a acertar a nivel cultural](https://mikebastin.com/es/diferencias-culturales-sitios-web-multilingues/) y a lanzar un producto técnicamente limpio, bien recibido fuera de casa.
@@ -99,6 +119,22 @@ La automatización repite las mismas comprobaciones en cada versión nueva, en t
 - [Playwright](https://playwright.dev/docs/emulation): automatización del navegador que emula el idioma y la zona horaria de cada mercado en las pruebas.
 - [Applitools](https://applitools.com/): revisa el aspecto visual del contenido localizado.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="La automatización de pruebas en dos frentes: Selenium y Playwright prueban el navegador en cada idioma, y Applitools revisa el aspecto visual del contenido localizado.">
+<path d="M160 75 L210 35" class="fg-line"/>
+<path d="M160 75 L210 115" class="fg-line"/>
+<rect x="10" y="55" width="150" height="40" rx="6" class="fg-box"/>
+<rect x="210" y="12" width="180" height="46" rx="6" class="fg-box"/>
+<rect x="210" y="92" width="180" height="46" rx="6" class="fg-box"/>
+<text x="85" y="81" text-anchor="middle" class="fg-strong">Automatización</text>
+<text x="300" y="32" text-anchor="middle" class="fg-text">Navegador</text>
+<text x="300" y="50" text-anchor="middle" class="fg-label">Selenium, Playwright</text>
+<text x="300" y="112" text-anchor="middle" class="fg-text">Aspecto visual</text>
+<text x="300" y="130" text-anchor="middle" class="fg-label">Applitools</text>
+</svg>
+<figcaption>Las mismas comprobaciones se repiten en cada versión nueva y en todos los idiomas, en el navegador y en el aspecto visual.</figcaption>
+</figure>
+
 <aside class="post-cta">
 <p><strong>¿Quieres que cada versión de tu web esté revisada antes de que la vea un comprador?</strong> Con nuestra <a href="/es/services/traduccion-de-paginas-web/">traducción y localización web</a>, revisamos cada formulario, menú y selector de idioma en cada idioma antes del lanzamiento, y cada punto hallado entra en un informe de pruebas. <a href="/es/contactanos/">Pide la auditoría gratuita de 20 minutos</a>.</p>
 </aside>
@@ -143,6 +179,27 @@ Elegir bien te ahorra cambiar de herramienta a mitad de proyecto. Al comparar, f
 5. Automatización de las tareas repetitivas.
 6. Informes claros para seguir incidencias y progreso.
 7. Soporte para varios dispositivos y sistemas operativos.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Cuatro puntos para elegir una herramienta que te acompañe todo el proyecto: encaje con tu flujo, controles de calidad, contexto para quien prueba y automatización.">
+<path d="M150 23 L280 72" class="fg-line"/>
+<path d="M150 61 L280 78" class="fg-line"/>
+<path d="M150 99 L280 84" class="fg-line"/>
+<path d="M150 137 L280 90" class="fg-line"/>
+<rect x="10" y="8" width="140" height="30" rx="6" class="fg-box"/>
+<rect x="10" y="46" width="140" height="30" rx="6" class="fg-box"/>
+<rect x="10" y="84" width="140" height="30" rx="6" class="fg-box"/>
+<rect x="10" y="122" width="140" height="30" rx="6" class="fg-box"/>
+<circle cx="330" cy="80" r="50" class="fg-hot"/>
+<text x="80" y="28" text-anchor="middle" class="fg-text">Tu flujo</text>
+<text x="80" y="66" text-anchor="middle" class="fg-text">Controles</text>
+<text x="80" y="104" text-anchor="middle" class="fg-text">Contexto</text>
+<text x="80" y="142" text-anchor="middle" class="fg-text">Automatización</text>
+<text x="330" y="78" text-anchor="middle" class="fg-strong">Proyecto</text>
+<text x="330" y="98" text-anchor="middle" class="fg-label">completo</text>
+</svg>
+<figcaption>Con estos cuatro puntos cubiertos, la misma herramienta te sirve de principio a fin del proyecto.</figcaption>
+</figure>
 
 ## Integra las pruebas desde el principio
 
