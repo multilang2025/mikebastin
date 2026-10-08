@@ -12,7 +12,7 @@ sourceUrl: "https://mikebastin.com/how-to-promote-your-local-business-on-google-
 excerpt: "Nearby customers call one of the first three businesses on the map. How to promote your local business on Google Maps and be one of those three."
 ---
 
-## Getting your business into the Google Maps top three
+## Get your business into the Google Maps top three
 
 Somebody a few streets away searches for exactly what you sell and calls one of the three businesses Google Maps shows first. The aim is for yours to be one of them, so the phone rings as often as it could.
 
@@ -32,7 +32,7 @@ A verified profile is your place on the map. Your Maps listing comes from a Goog
 
 Once verified, your business appears on Google Maps. Our [local SEO service](/services/local-seo/) can handle the setup and verification for you.
 
-## Optimize your listing with complete, accurate profile details
+## Complete every field of your profile, accurately
 
 Upkeep wins here as much as the product does. A complete, accurate profile ranks better and earns more clicks.
 
@@ -53,14 +53,14 @@ When your address reads the same in every directory, Google trusts it. A citatio
 <p><strong>Want your details to match everywhere they appear?</strong> Our <a href="/services/local-seo/">local SEO service</a> makes your name, address and phone number identical across every directory. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
-## Encourage customer reviews
+## Ask for reviews, and reply to every one
 
 Reviews are the first thing a nearby customer reads before calling, and they count towards your ranking in local results.
 
 - **Ask for reviews.** Invite satisfied customers in follow-up emails, on receipts or on social media.
 - **Respond to every review.** Replying to positive and negative reviews alike shows you value feedback and builds trust with people reading them.
 
-## Use Google posts
+## Post offers, news and events on your profile
 
 An active profile looks like an open business. A Business Profile lets you publish updates, offers and events directly on your listing, which appear when people find you on Search and Maps. Post about:
 
@@ -84,7 +84,7 @@ Keep your information accurate and specific, answer common questions in your des
 <p><strong>Does your city search in more than one language?</strong> Our <a href="/services/local-seo/">local SEO for multilingual cities</a> covers every language your customers search in, with a review routine and a reply to every review. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
-## Consider paid ads
+## Buy visibility on day one with paid ads
 
 Organic visibility builds over months; ads buy it on day one. Google Ads can put your business at the top of Maps and local results. Google has retired its old Local campaigns in favour of Performance Max for store goals:
 
@@ -104,7 +104,7 @@ Organic visibility builds over months; ads buy it on day one. Google Ads can put
 | Google posts | Free | Engagement on your listing |
 | Performance Max for store goals | Paid, you set the budget | Immediate visibility |
 
-## Track your results
+## Track the calls and visits your listing brings
 
 The numbers tell you which change brought the calls. The Performance report in your Business Profile shows:
 
@@ -114,7 +114,7 @@ The numbers tell you which change brought the calls. The Performance report in y
 
 Use the data to adjust your profile and posts. For tracking what happens once visitors reach your website, see our guide to [alternatives to Google Analytics](/blog/alternatives-to-google-analytics/).
 
-## The short version
+## Five inputs that build a top-three listing
 
 Promoting a local business on Google Maps comes down to a verified, complete profile, consistent citations, a steady flow of reviews and replies, regular posts, and paid ads when you need visibility fast.
 

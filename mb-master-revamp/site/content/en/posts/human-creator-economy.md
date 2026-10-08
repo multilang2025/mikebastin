@@ -87,7 +87,7 @@ Trust is what turns a one-off buyer into a long-term customer, and a transparent
 
 Bonzai applies these principles daily. Every transaction is clear, every rule understandable, and every creator keeps ownership of their information, which turns users into long-term partners.
 
-## Humanity at the heart of the system
+## Keeping the creator at the centre as AI grows
 
 The fear many creators share is simple: that AI will make them replaceable. Cordaro answers it with a phrase he often repeats:
 
@@ -117,7 +117,7 @@ Tomorrow's creator, as Jean Marie Cordaro sees it, is a small business in their 
 
 He envisions an economy where creators own their data and revenue, transparency is a standard, and technology supports creativity while the creator directs it. Performance attracts attention and algorithms amplify reach; loyalty and trust come from the relationship.
 
-## Reconciling humanity and technology
+## Build on ground you own
 
 The practical takeaway for anyone with an audience: build on ground you own, measure what the audience means to you, and use automation to save time while you keep the relationship.
 

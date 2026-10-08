@@ -55,19 +55,19 @@ const HOW_IT_WORKS: HowCard[] = [
   {
     theme: "Connaissance du marché",
     icon: "search",
-    title: "Une vision claire de chaque marché",
+    title: "Voyez où en est chaque marché",
     body: "Nous repérons où votre site touche déjà des acheteurs, et où des améliorations techniques ou éditoriales peuvent créer davantage de demandes.",
   },
   {
     theme: "Stratégie ciblée",
     icon: "target",
-    title: "Un plan ciblé, à valider ensemble",
+    title: "Validez ensemble un plan ciblé",
     body: "Vous recevez un périmètre écrit pour les marchés que vous voulez développer, avec les priorités, les livrables et les responsabilités convenus avant le début du travail.",
   },
   {
     theme: "Progrès mesurés",
     icon: "chart",
-    title: "Des progrès sur lesquels agir",
+    title: "Agissez sur ce que montrent les chiffres",
     body: "Vous suivez le trafic et les demandes de chaque langue dans un rapport mensuel, pour savoir quels marchés rapportent et où concentrer vos efforts.",
   },
 ];
@@ -134,7 +134,7 @@ export default function FrenchHome() {
                 Parlons de votre projet
               </ButtonLink>
               <Link href="/fr/services/" className="ulink text-[.98rem]">
-                Découvrir nos services
+                Trouver le service qu’il vous faut
               </Link>
             </div>
           </Reveal>
@@ -157,7 +157,7 @@ export default function FrenchHome() {
               Un plan clair pour chaque marché, et des progrès que vous pouvez mesurer.
             </h2>
             <p className="mb-10 max-w-[62ch] text-[1.05rem] leading-[1.65]" style={{ color: "var(--dim)" }}>
-              Nous transformons vos opportunités de marché en un travail ciblé et une croissance mesurable. Découvrez les services adaptés à vos objectifs.
+              Nous transformons vos opportunités de marché en un travail ciblé et une croissance mesurable. Choisissez les services adaptés à vos objectifs.
             </p>
           </Reveal>
           <ul className="grid gap-8 md:grid-cols-3">
@@ -182,7 +182,7 @@ export default function FrenchHome() {
             <p className="mt-10 max-w-[62ch] text-[1.02rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
               Les trois sont menés ensemble et jugés sur les demandes que chaque marché vous envoie.{" "}
               <Link href={leadGenPath("fr")} className="ulink">
-                Découvrir notre offre de génération de leads B2B
+                Voir comment nous générons des leads B2B
               </Link>
               .
             </p>
@@ -196,7 +196,7 @@ export default function FrenchHome() {
           <Reveal i={3}>
             <p className="mt-8 text-[.95rem]" style={{ color: "var(--dim)" }}>
               <Link href="/fr/tarifs/" className="ulink" style={{ color: "var(--berry)" }}>
-                Découvrir comment nous cadrons chaque mission et ses honoraires
+                Voir comment nous cadrons et facturons chaque mission
               </Link>
               {", et ce qui se passe du premier appel aux rapports mensuels."}
             </p>

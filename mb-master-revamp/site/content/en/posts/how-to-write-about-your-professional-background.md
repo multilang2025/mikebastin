@@ -13,17 +13,17 @@ sourceUrl: "https://mikebastin.com/how-to-write-about-your-professional-backgrou
 excerpt: "Want your experience to win the client or the role? Write about your professional background in digital marketing so the first few seconds sell you."
 ---
 
-## Leading your professional background with results
+## Lead your professional background with results
 
 A client weighing two agencies, or a hiring manager with forty CVs, gives your professional background a few seconds. Lead those seconds with results and you win the meeting on the strength of your experience. In digital marketing, where everyone claims the same tools, how you present your experience decides who gets the call.
 
 Below: how to write your background so it wins that call, whether it sits on a CV, a LinkedIn profile or your company website. Where the examples include a percentage, it is shown as [X]: replace it with your own measured result.
 
-## Understanding your audience
+## Know who is reading
 
 Each reader is looking for something different, so a client and an employer need your background to lead with different things. Write a version for each reader and it fits each one.
 
-### Adapting your content for different contexts
+### Adjust the content for each context
 
 Where your background appears decides how long it should be, what tone it takes and what it leads with:
 
@@ -58,7 +58,7 @@ Hiring managers skim CVs, so every line there has to earn its place. LinkedIn gi
 <figcaption>The summary does the most work, because for many readers it is the whole profile. Everything after it backs up what the summary claimed.</figcaption>
 </figure>
 
-### Identifying key information your audience is looking for
+### Give readers the details they look for first
 
 Anyone hiring for [digital marketing](/services/multilingual-seo/) is scanning for four things, and a background that shows all four in the first screen gets read further:
 
@@ -67,7 +67,7 @@ Anyone hiring for [digital marketing](/services/multilingual-seo/) is scanning f
 -   **Certifications**: industry certifications give you an edge and show you keep learning, so place them where they are seen.
 -   **Quantifiable results**: digital marketing is judged on outcomes, so show yours, such as growth in website traffic, [conversion rates](/blog/email-marketing-hacks-boosting-open-rates-and-conversions/) or engagement.
 
-## Building a compelling professional summary
+## Write a summary people remember
 
 Many readers stop at your summary, so it has to do the selling on its own. A good one tells the reader in two sentences what you do, for whom, and what changed because of it.
 
@@ -81,11 +81,11 @@ One sentence gives your specialism, your level and the value you bring. Then add
 Example:  
 "Campaigns that have consistently grown organic traffic by [X]% within six months, specialising in using SEO to turn search engines into conversion machines for clients."
 
-## Detailing your work experience
+## Describe your work experience
 
 Your work history is where a reader checks whether the summary was true. A clear, results-led history confirms it.
 
-### Structuring your work history
+### Order your work history
 
 List positions in reverse chronological order, most recent first. For each one, include:
 
@@ -95,19 +95,19 @@ List positions in reverse chronological order, most recent first. For each one, 
 -   A brief description of your responsibilities
 -   Key achievements
 
-### Using action verbs and quantifiable achievements
+### Use action verbs and numbers
 
 "Responsible for" tells a reader what you were meant to do. A verb and a result tell them what you did. Use verbs like "led", "developed", "increased" or "optimized", and pair each with a measured outcome.
 
 Turn "Responsible for managing SEO" into "Led SEO initiatives that increased organic traffic by [X]% within six months."
 
-### Addressing employment gaps (if applicable)
+### Explain any employment gaps
 
 A gap explained in one line answers the reader's question before they ask it. Address it briefly and positively, with the skills you built during it through freelancing, personal projects or study.
 
 For example: "Career break in 2021: completed certifications in Google Analytics and HubSpot to strengthen technical marketing skills."
 
-## Showcasing your education and certifications
+## Education and certifications worth listing
 
 In digital marketing, a current certification often says more about what you can do on Monday morning than a degree does, because it proves hands-on skill with the tools a client or employer uses.
 
@@ -117,7 +117,7 @@ Place certifications such as Google Ads, Google Analytics, HubSpot and Semrush p
 
 Example: "Certified in Google Analytics, HubSpot Content Marketing, and Semrush SEO Toolkit."
 
-## Highlighting skills and expertise
+## Name the skills you can prove
 
 A short skills list matched to the role reads as a fit.
 
@@ -128,7 +128,7 @@ A short skills list matched to the role reads as a fit.
 
 Back the soft skills with a moment: a team you led, a complex project you delivered, a creative fix to a marketing problem.
 
-## Incorporating professional accomplishments
+## Add the accomplishments that set you apart
 
 Accomplishments are what a reader remembers after closing the page, so choose the ones that prove you can deliver what they need, with results and context.
 
@@ -141,7 +141,7 @@ Context turns a number into a story the reader can picture. Turn "Increased traf
 <p><strong>Your team's results are strong; want the website to bring enquiries from your other markets too?</strong> Our <a href="/services/lead-generation/">B2B lead generation services</a> turn visitors from those markets into enquiries worth a sales call, and show which market each one came from. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
-## Adapting your background to specific opportunities
+## Rework your background for each opportunity
 
 A background written for one role convinces that reader. Adapt it to the job or the client in front of you, because digital marketing covers very different roles.
 
@@ -158,19 +158,19 @@ The same rule applies across languages. A background, or a service page, persuad
 <p><strong>Does your company website read as well in French or Spanish as it does in English?</strong> We write pages for the market reading them, from that market's own research, and count the enquiries each market sends. See how our <a href="/services/lead-generation/">lead generation services</a> work, or <a href="/contact/">book a call</a>.</p>
 </aside>
 
-## Keeping it concise and relevant
+## Keep it short and relevant
 
 Busy readers read the opening lines, so put your strongest point there. Short sentences and bullet points get your strongest material seen.
 
 Use words a reader understands at once. Convey the important information fast, with its substance intact. Keep the roles and accomplishments that serve your current goal, and include unrelated experience only where it shows a transferable skill digital marketing values.
 
-## Proofreading and refining
+## Proofread before it goes out
 
 Clean copy protects a strong background, because a reader judging your attention to detail notices the details first.
 
 Run your text through Grammarly or Hemingway, then read it several times yourself. Ask a trusted colleague or mentor to review it: a second reader sees the text fresh and spots where the argument needs more.
 
-## The short version
+## Treat your background like a sales page
 
 Whether you are applying for a role, pitching a client or updating your LinkedIn profile, your professional background is a sales page for you. Treat it like one.
 

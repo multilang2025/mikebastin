@@ -36,7 +36,7 @@ Conferences, webinars and workshops give you the most direct access to senior pe
 
 Meetup suits small local groups around one interest, and Eventbrite larger conferences and workshops. Once you know a group, consider hosting an event yourself: organisers meet everyone.
 
-## Building a personal brand people remember
+## Build a personal brand people remember
 
 People look you up before they reply to you. What they find decides whether the conversation happens, so a deliberate online presence is what turns you from another face in the crowd into a voice people recognise.
 
@@ -112,17 +112,17 @@ Whichever CRM you choose, look for contact tagging, interaction history and remi
 <p><strong>Want your CRM to show which market each website enquiry comes from?</strong> Our <a href="/services/lead-generation/">lead generation services</a> trace every enquiry to the market and language that earned it, then follow it into your CRM. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
-## Handling networking challenges
+## Work through the awkward moments
 
-### Overcoming shyness
+### Start small when you feel shy
 
 Most people at a networking event feel at least slightly awkward, which works in your favour: a friendly question is usually welcome. Start online if face-to-face feels hard, set a small target such as two conversations per event, and remember that listening well counts as much as talking.
 
-### Handling quiet replies
+### Move on when replies go quiet
 
 Some messages get a reply and some connections lead somewhere, on their own timing. Treat silence as information about timing, and move on to the next opportunity.
 
-## Long-term networking: building relationships
+## Build relationships that last for years
 
 Twenty LinkedIn connections who would take your call are worth more than a thousand who would only scroll past. Engage regularly through comments, shares and messages. The people who help you most in five years are often the ones you kept in touch with just to stay in touch.
 
@@ -130,4 +130,4 @@ Twenty LinkedIn connections who would take your call are worth more than a thous
 
 Networking is a habit that rewards patience and genuine effort. Pick one channel from the table, prepare for one event or conversation, and follow up within a day. Then do it again next week.
 
-If you are building a career in multilingual digital marketing and want to see how we work with clients and collaborators, read about [how we work](/how-i-work/) or [get in touch](/contact/).
+If you are building a career in multilingual digital marketing and want to see how we work with clients and collaborators, read about [how we work](/how-i-work/) or [tell us what you are working on](/contact/).

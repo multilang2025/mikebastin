@@ -1,6 +1,6 @@
 ---
 words: 2127
-title: "Law firm SEO services"
+title: "Law firm SEO services that put your firm on the shortlist"
 slug: "law-firm-seo-services"
 locale: "en"
 type: "posts"
@@ -22,7 +22,7 @@ Your next client is comparing three firms on their phone before they call any of
 
 Below is how we approach SEO for law firms: the searches that matter, pages that earn trust, local and international visibility, and how to measure what it produces. For the fundamentals, our journal covers the [practical steps that help your firm](/blog/) win and keep top positions.
 
-## Why law firms need specialist SEO
+## Win the client at the comparison stage
 
 A specialist site wins the client at the comparison stage, where legal clients spend longest. Today’s legal clients are savvy researchers. They read reviews, compare detailed service pages and assess several solicitors before making contact, so your website has to give a full, current picture of the firm.
 
@@ -86,7 +86,7 @@ We helped a [Valencia law firm reach foreign entrepreneurs](/services/spanish-se
 
 Within six months, international enquiries had risen sharply, from entrepreneurs seeking formation services and families needing residency help. Despite larger rivals, the firm now ranks for key terms across languages.
 
-## Keyword research across English-speaking markets
+## Research keywords for every English-speaking market
 
 A British expat searches for a solicitor, an American for an attorney. Write for both and each one finds you. Americans, Brits, Australians and non-native speakers all search differently. We plan content that covers these variations naturally, with each term sitting where a reader expects it.
 
@@ -103,7 +103,7 @@ Meta titles might lead with “International business lawyer Valencia”, while 
 <p><strong>Writing for solicitors when your clients search for attorneys?</strong> The keyword research in our <a href="/services/technical-seo/">technical SEO service</a> reads how people phrase the problem in each market, and treats English as a market in its own right, British and American alike. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
-## On-page optimization for practice pages
+## Build practice pages that persuade and rank
 
 A practice page earns its ranking when it persuades as well as ranks. We structure practice pages with clear titles, scannable sections and plain-English explanations, answer pressing questions directly and guide visitors to act, whether that means booking a consultation or requesting a quote.
 
@@ -129,7 +129,7 @@ Links from credible legal and business sources tell search engines a firm is an 
 
 We also built relationships with legal directories and business associations in priority countries. The approach positioned the firm as a trusted voice and generated qualified referral traffic. Our [360 marketing approach](/blog/360-marketing-agency/) explains how PR, search and paid media reinforce each other.
 
-## Technical audits and page speed
+## Fix technical debt and page speed
 
 A fast, tidy site lets every other piece of work pay off: rankings move, and the client on a phone books. Many sites we take on carry technical debt: bloated URLs, inconsistent trailing slashes and duplicate paths that split authority. We standardise URL formats, add 301 redirects, align slugs with intent keywords, fix indexing problems and improve internal linking so Google understands the site architecture.
 
@@ -141,7 +141,7 @@ Speed supports rankings and conversions, and persuasive design does too. We bala
 -   keep trust-building design, clear forms and prominent credentials
 -   keep booking flows simple on mobile
 
-Learn more in our guide to [technical SEO for multilingual websites](/blog/technical-seo-for-multilingual-websites/).
+Our guide to [technical SEO for multilingual websites](/blog/technical-seo-for-multilingual-websites/) walks through the full set of checks.
 
 <aside class="post-cta">
 <p><strong>Inherited a site from a previous agency?</strong> Our <a href="/services/technical-seo/">technical SEO for multilingual websites</a> makes sure your language versions add up, each one supporting the others. <a href="/contact/">Book the discovery call</a>.</p>
@@ -166,7 +166,7 @@ Read our [best practices for multilingual SEO](/blog/best-practices-for-multilin
 
 We align PPC with SEO to cover more of the high-intent results. Separate campaigns by language and service improve Quality Score and conversions, and targeting phrases that signal action puts the spend where clients are ready to act.
 
-## Measuring results
+## Report against the objectives you set
 
 Every campaign starts with objectives tied to growth, and we report against those objectives.
 
@@ -179,13 +179,13 @@ Every campaign starts with objectives tied to growth, and we report against thos
 
 For Valencia, focused terms like “NIE application Valencia” and “English-speaking business lawyer Spain” lifted qualified leads across all four languages. We review metrics quarterly and adjust the strategy to keep momentum.
 
-## Trends and good practice in legal SEO
+## Where legal search is heading, and what works now
 
 AI search is changing how people ask legal questions. Google’s AI Overviews and chat assistants answer conversational queries directly, so clear, citable answers and FAQs matter more than ever. Short explainer videos with transcripts help too, and guidance must be updated promptly when legislation or case law changes, because current advice protects both trust and visibility.
 
 What works is familiar too: natural language over keyword stuffing, local intent alongside broad terms, and a site kept fresh through major updates. Success comes from sustainable, evidence-led work that balances local and international demand.
 
-## Choosing a law firm SEO agency
+## Questions to ask any agency before you sign
 
 A reputable agency blends proven marketing methods with sector experience. You should receive clear reports, realistic timelines and a roadmap grounded in metrics. When you compare providers:
 
@@ -201,7 +201,7 @@ The right partner understands both technical marketing and the realities of lega
 
 Your website is often the first point of contact, so make it work like your best intake team. Our multilingual legal work shows that smaller firms can outrank bigger competitors with the right strategy: we’ve helped law firms grow international enquiries, rank in multiple languages and turn visibility into consultations.
 
-[Let’s discuss your challenges and objectives](/contact/).
+[Book a call about your firm’s goals](/contact/).
 
 -   Email: contact@mikebastin.com
 -   Phone: +34 671 17 57 74
@@ -213,7 +213,7 @@ Your website is often the first point of contact, so make it work like your best
 
 Timelines vary with competition, site health and content quality. Incremental gains can appear within a couple of months; competitive terms may take six months or more.
 
-### Is law firm SEO agency support expensive?
+### What does law firm SEO cost?
 
 Costs depend on scope and expertise. Many firms recover the investment through a steady flow of better-qualified leads from organic search.
 

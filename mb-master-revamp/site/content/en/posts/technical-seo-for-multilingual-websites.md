@@ -18,11 +18,11 @@ Your French and German pages can add up, each ranking in its own market. Set up 
 
 On [multilingual websites](/blog/optimising-multilingual-website-content/) what makes them add up is technical, and it comes down to four things: how each language version is labelled, where the site is served from, near-identical pages, and domain structure. Below: what each one does, the fixes we make most often, and how to set them up so they carry your [multilingual SEO](/services/multilingual-seo/).
 
-## Why hreflang tags matter
+## Point each visitor to their language with hreflang
 
 Get these right and your language versions add up, and visitors land on a page in their language. Hreflang tags tell search engines which language and regional version of a page to show each user. Our [best practices for multilingual SEO](/blog/best-practices-for-multilingual-seo/) cover the wider strategy.
 
-### How to implement hreflang tags correctly
+### Implement hreflang tags correctly
 
 Each page carries annotations pointing to itself and to every other language or regional version. You can declare them in three places, and one is enough:
 
@@ -76,7 +76,7 @@ Hosting decides how fast your pages load in each market; where you rank comes fr
 
 If your site targets several countries, a content delivery network (CDN) serves pages from locations close to each user, which keeps load times low everywhere. Pair it with hreflang and a clear domain structure.
 
-## Managing duplicate content across languages
+## Keep each language version distinct
 
 Distinct pages let search engines show the version you sell from in each market. Multilingual sites often have near-identical pages, for example English versions for the UK and Ireland, or pages still partly in the source language. Google treats localized versions as duplicates only when the main content stays untranslated, so the work is mostly making each version distinct and clearly labelled.
 
@@ -84,7 +84,7 @@ Distinct pages let search engines show the version you sell from in each market.
 - Give each version its own URL, [meta tags and headings](/services/technical-seo/).
 - Give each version a self-referencing canonical. Point each canonical at its own page, because a canonical from the French page to the English one tells Google to drop the French page.
 
-## Getting automated translation right
+## Edit machine translation before it goes live
 
 [Post-editing by a professional linguist](/services/ai-translation-and-post-editing/) turns raw machine translation into text that reads naturally, keeps the context and carries the intent of the original. Search engines may treat thin, machine-generated text as low quality, so edited text protects organic rankings and keeps users reading.
 
@@ -97,7 +97,7 @@ Proper localization adapts content to the language, culture and expectations of 
 
 Work with professional [translation services](/services/translation-services/) or native-speaking SEO specialists, who also research the keywords people use in each market. Clear, localized content is more relevant to local searchers and builds the trust an international brand needs.
 
-## Choosing a domain structure
+## Pick a domain structure once, early
 
 Your domain structure is the foundation content is built on, so decide it once, early. There are three common ways to organise a multilingual site, and the right choice depends on your markets, budget and team.
 
@@ -109,7 +109,7 @@ Your domain structure is the foundation content is built on, so decide it once, 
 
 Google recommends a distinct URL for each language version, in place of URL parameters such as `?lang=fr`.
 
-### Choosing a domain structure that scales
+### Plan a structure that scales
 
 Keep one structure across the whole site: one pattern for every language keeps the site easy to manage and sends strong, consistent signals. Make sure users can switch language from any page, and that the switcher links to the equivalent page in the other language.
 
@@ -117,13 +117,13 @@ Keep one structure across the whole site: one pattern for every language keeps t
 <p><strong>Adding markets and choosing a structure to commit to?</strong> In our <a href="/services/multilingual-seo/">multilingual SEO programmes</a>, subdirectory, subdomain or ccTLD gets a reasoned recommendation for your markets. <a href="/contact/">Talk to us about your markets</a>.</p>
 </aside>
 
-## Translating and optimizing metadata
+## Write titles and descriptions for each market
 
 Your title and description are the first thing a searcher in each market reads. Translated and optimized titles, descriptions and alt text help each version rank in its own market.
 
 Write fresh metadata for each language version, for the local audience, with the keywords people there search for; our [multilingual SEO copywriting services](/services/multilingual-content/) handle exactly that. Translated alt text also improves accessibility and image search visibility.
 
-## Keeping the setup healthy
+## Check the setup after every update
 
 Multilingual setups need regular checks, because a plugin update or a migration can change a language cluster. Follow [emerging trends and tools](/blog/future-of-seo/), and schedule [regular technical audits](/services/technical-seo/) that check:
 
@@ -134,6 +134,6 @@ Multilingual setups need regular checks, because a plugin update or a migration 
 
 Document your international architecture so anyone on the team can see which URL serves which market. When search engines change their requirements, a documented setup is quicker to adjust. Our [technical SEO audit checklist](/blog/technical-seo-audit-checklist/) covers the wider audit.
 
-## The short version
+## The four foundations of multilingual rankings
 
 Strong rankings across several markets rest on a sound technical base: complete hreflang clusters, fast delivery in every region, distinct and self-canonical language versions, and one consistent domain structure. When these work together, search engines understand which page to show to whom, and more of the right visitors reach your multilingual site.

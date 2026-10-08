@@ -229,7 +229,7 @@ export default function LeadGenerationPage() {
               enquiries also arrive by phone and email, the figure is the site
               owner&apos;s own.{" "}
               <Link href="/results/" className="ulink">
-                Full breakdown on the results page
+                See the full breakdown on the results page
               </Link>
               .
             </blockquote>
@@ -441,7 +441,7 @@ export default function LeadGenerationPage() {
           <Reveal i={2}>
             <div className="flex flex-wrap items-center gap-x-6 gap-y-4">
               <Link href="/contact/" className="btn btn-primary btn-lg">
-                Book your free consultation
+                Book a free consultation
               </Link>
               <Link href="/how-i-work/" className="ulink text-[.98rem]">
                 See how an engagement runs

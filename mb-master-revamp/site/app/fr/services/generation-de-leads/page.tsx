@@ -248,7 +248,7 @@ export default function FrenchLeadGenerationPage() {
           <Reveal>
             <p className="eyebrow mb-3">La prochaine étape</p>
             <h2 className="mb-5 max-w-[24ch] text-[clamp(1.7rem,3.2vw,2.5rem)] font-semibold leading-[1.12]">
-              Découvrez ce que vos autres marchés pourraient vous envoyer
+              Estimez ce que vos autres marchés pourraient vous envoyer
             </h2>
           </Reveal>
           <Reveal i={1}>

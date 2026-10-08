@@ -12,7 +12,7 @@ sourceUrl: "https://mikebastin.com/link-selling-and-link-buying-platforms/"
 excerpt: "Want links that Google counts? Link buying and selling platforms in 2026: 27 marketplaces listed, and how to check one before you pay."
 ---
 
-## Link buying and selling platforms in 2026: an honest working list
+## Which paid links keep their value after Google’s next update
 
 You are paying for links, or being told you should, and you want to know which of them will still count after Google’s next update. Google now mostly neutralises weak links, so the links worth paying for are the ones that move a ranking.
 
@@ -54,7 +54,7 @@ If you bought links before 2022, it is worth checking which of them still count.
 
 Google’s later spam updates have continued in the same direction. Sites keep ranking, and the value of low-quality links is discounted to zero, as set out in [Google Search Essentials, spam policies](https://developers.google.com/search/docs/essentials/spam-policies).
 
-## How to evaluate a platform before you pay
+## Check a platform before you pay
 
 An hour of checks before you pay protects a year of placement budget. The same checks apply across every marketplace, and the platform name matters less than the inventory behind it.
 
@@ -90,7 +90,7 @@ An hour of checks before you pay protects a year of placement budget. The same c
 <p><strong>Want every placement to be one you can check?</strong> Link building in our <a href="/services/technical-seo/">technical SEO service</a> stays white hat: editorial links, resource page placements and guest posts on sites with real traffic and real editorial standards. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
-## Link buying and selling platforms: the working list
+## The working list of 27 platforms
 
 27 platforms, alphabetically. Click through to inspect each one. The descriptions reflect what the platforms claim to offer, not endorsements, and every inventory size or price below is the platform’s own figure as stated on its website when we checked on 26 September 2026. These numbers move quickly.
 
@@ -126,13 +126,13 @@ An hour of checks before you pay protects a year of placement budget. The same c
 
 Every figure in the last column is the vendor’s own claim, taken from the linked website on 26 September 2026; none is independently audited.
 
-## Want a link strategy built around your markets?
+## Build a link strategy around your markets
 
 We help clients build link portfolios that hold up through algorithm updates. The platforms above are tools, and whether they work for you depends on what you actually need: niche relevance, language coverage, anchor text distribution, or genuine editorial reach. Over two decades of SEO experience, put to work on your specific situation.
 
-[Get in touch](/contact/)
+[Book a call about your link plan](/contact/)
 
-## Bottom line on link platforms in 2026
+## Spend on editorial placements first
 
 The link economy continues to operate and marketplaces are bigger than ever, but the cost-benefit equation has shifted. Editorial placements still work, and they are where the budget earns its keep. Spend on the middle ground only after the checks above.
 

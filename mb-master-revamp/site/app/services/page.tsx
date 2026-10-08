@@ -159,7 +159,7 @@ export default function ServicesIndex() {
                 Book a free consultation
               </Link>
               <Link href="/how-i-work/" className="btn btn-secondary btn-lg">
-                How it works
+                See how an engagement runs
               </Link>
             </div>
           </Reveal>
@@ -270,7 +270,7 @@ export default function ServicesIndex() {
         <div className="shell">
           <Reveal>
             <h2 className="mb-4 text-[clamp(1.6rem,3vw,2.3rem)] font-semibold leading-[1.12]">
-              Common questions about our services
+              What clients ask before choosing a service
             </h2>
           </Reveal>
           <p className="review-q mb-8 max-w-[72ch] text-[.95rem] leading-[1.55]" style={{ color: "var(--dim)" }}>

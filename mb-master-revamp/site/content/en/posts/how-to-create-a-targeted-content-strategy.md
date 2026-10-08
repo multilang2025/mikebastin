@@ -12,13 +12,13 @@ sourceUrl: "https://mikebastin.com/how-to-create-a-targeted-content-strategy/"
 excerpt: "Publishing steadily and want enquiries to follow? How to create a targeted content strategy in seven steps, built on what your buyers search."
 ---
 
-## Build a strategy that aligns with your audience and goals
+## Build a content strategy around your audience and goals
 
 You publish steadily and the blog looks busy; the next step is turning that output into enquiries. A calendar built from what buyers are looking for does it, and puts every writer's week to work.
 
 A targeted content strategy fixes the order: who you write for, what they are searching for, what you already own, and how you will know it worked. Below are the seven steps we use, from buyer personas to measurement, and what each one saves you.
 
-## Why your content needs a strategy (and why you should care)
+## What a strategy adds to the content you already write
 
 Content with a strategy behind it costs the same to write and usually earns more. In a busy international market you would learn the language, read the room and pitch with precision.
 
@@ -32,7 +32,7 @@ Here’s why strategy matters:
 -   It aligns with buyer intent at every stage of their journey.
 -   It saves time, energy, and budget in the long run.
 
-## Step 1: know your audience (who’s this for?)
+## Step 1: know exactly who you are writing for
 
 Write for one buyer and they recognise themselves in every line. Knowing exactly who you are addressing is what makes a page read as if it were written for them, and it is the groundwork for any [global SEO strategy](/services/multilingual-seo/).
 
@@ -42,13 +42,13 @@ Write for one buyer and they recognise themselves in every line. Knowing exactly
 -   Include their goals, challenges (pain points), online habits, and what motivates them.
 -   Give them names, assign them to industries, and note their typical technology stack.
 
-### Analyse behaviour
+### Study where and how they search
 
 -   Which platforms do they frequent? Instagram, LinkedIn, TikTok, or others?
 -   What content formats do they engage with most?
 -   What keywords and, more importantly, what semantically related concepts are they searching for? Understanding this helps you grasp their search intent.
 
-### Identify needs and goals
+### Pin down their needs and goals
 
 -   What problems keep them awake at night?
 -   What specific outcome do they desire?
@@ -58,7 +58,7 @@ Write for one buyer and they recognise themselves in every line. Knowing exactly
 
 Most sites already own pages sitting on page two for a term worth having. Lifting one of those is faster and cheaper than writing something new, so the audit comes before the calendar.
 
-### What’s a content audit?
+### Run a content audit
 
 -   Crawl all your existing content (articles, pages, etc.).
 -   Catalogue its performance: gather data on page views, bounce rates, conversions, and [user engagement](/blog/law-firm-seo-services/).
@@ -70,7 +70,7 @@ Most sites already own pages sitting on page two for a term worth having. Liftin
 -   Look for neglected keyword clusters and the broader entities they represent.
 -   Notice any buyer personas that are currently under-served by your content.
 
-### Analyse the data
+### Choose the numbers to watch
 
 Track metrics such as:
 
@@ -96,14 +96,14 @@ A clear target shows whether the content budget worked, so the next budget is de
 
 ‘Increase organic leads from our [multilingual SEO](/services/multilingual-seo/) efforts by 25% within three months by publishing two in-depth guides per week, each optimized for target entities and user intent.’
 
-### Define your key performance indicators (KPIs)
+### Pick the KPIs that show it worked
 
 -   Organic traffic growth
 -   SERP rankings for target keywords and topics
 -   Conversion rate (e.g., leads, sales)
 -   Social shares and engagement
 
-## Step 4: perfect your SEO
+## Step 4: build each page to be found
 
 A page that answers the question well reaches buyers once it is built to be found. Search engines understand content through keywords, entities and context, so write around topics and related terms. Google has said it does not use “LSI keywords”, so treat related terms as a way to cover a topic properly.
 
@@ -111,7 +111,7 @@ A page that answers the question well reaches buyers once it is built to be foun
 >
 > Source: [Search Engine Roundtable, “Google: LSI keywords have no effect again and again”, 2023](https://www.seroundtable.com/google-lsi-keywords-have-no-effect-34668.html)
 
-### Keyword and entity discovery
+### Find the keywords and entities buyers use
 
 -   Use tools such as Google Keyword Planner, SEMrush, or Ahrefs for initial research.
 -   Prioritise long-tail keywords, which often reveal specific user intent.
@@ -124,7 +124,7 @@ A page that answers the question well reaches buyers once it is built to be foun
 -   Use a logical header structure (H1, H2, H3) to organise content and highlight subtopics.
 -   Implement a strong internal linking strategy to distribute authority and guide users. For example, link to your main service pages like ‘[global SEO services](/services/multilingual-seo/)’ from relevant blog posts.
 
-### Topic cluster strategy
+### Group your pages into topic clusters
 
 -   Develop pillar pages for broad topics and create supporting cluster content that looks into specific subtopics. Pillar pages act as authoritative hubs, like a detailed guide on ‘[website localization services](/services/website-localisation/)’.
 -   Interlink pillar pages and cluster content effectively to improve SEO and user experience (UX).
@@ -134,13 +134,13 @@ A page that answers the question well reaches buyers once it is built to be foun
 <p><strong>Want to know which subjects your buyers actually search for?</strong> Our <a href="/services/content-marketing/">content marketing</a> does the research first, so each page answers a question buyers already ask. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
-## Step 5: create with purpose
+## Step 5: write each page for one stage
 
 The strongest content plans serve the buyer who is ready to decide as well as the reader who is browsing. Give each page one audience at one stage.
 
 Blog posts, videos, social media posts, whitepapers and guides, and webinars all have a place. Which performs best depends on your audience, so benchmark engagement time and conversion rate per format in your own analytics before moving budget.
 
-### Mix and match for the buyer’s journey
+### Match the format to the buyer’s stage
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 144" role="img" aria-label="A funnel of three stages: awareness served by how-to guides, consideration by case studies, and decision by demos.">
@@ -158,14 +158,14 @@ Blog posts, videos, social media posts, whitepapers and guides, and webinars all
 -   **Consideration:** Offer case studies, in-depth webinars, and detailed whitepapers.
 -   **Decision:** Provide product pages, demonstrations, and client testimonials. Effective content adaptation is key here to resonate locally.
 
-### Repurpose like a professional
+### Turn one piece into several
 
 -   Transform a webinar into a series of blog posts or short video clips.
 -   Convert a detailed whitepaper into an engaging infographic or a LinkedIn carousel post.
 -   Clip longer videos for use on Instagram Reels, TikTok, or YouTube Shorts.
 -   Use AI tools to scale repurposing, with a human editor checking the output.
 
-## Step 6: distribute everywhere
+## Step 6: put each piece in front of buyers
 
 A good page repays its writing once people see it. Distribution is how the same piece keeps earning after launch day.
 
@@ -173,7 +173,7 @@ A good page repays its writing once people see it. Distribution is how the same 
 -   **Earned media:** press coverage, guest posts in industry publications, and collaborations with influencers and thought leaders. Earned media is especially powerful for a specific region, for example features in UK publications to support your **visibility in the UK market**.
 -   **Paid promotion:** Meta (Facebook and Instagram) ads, Google Display Network ads and LinkedIn Sponsored Content.
 
-### Repurposing examples for distribution
+### What each asset can become
 
 | Source asset | Repurpose into |
 | --- | --- |
@@ -183,11 +183,11 @@ A good page repays its writing once people see it. Distribution is how the same 
 
 Consider how a multilingual branding approach impacts your distribution channels in different markets.
 
-## Step 7: measure and iterate
+## Step 7: measure, then improve the next version
 
 The first version of any strategy is a well-informed guess. Measuring what each page earns as well as what it attracts is how the second version gets better.
 
-### Track everything diligently
+### Choose your tracking tools
 
 Employ tools such as:
 
@@ -195,14 +195,14 @@ Employ tools such as:
 -   Hotjar or Microsoft Clarity for heatmaps and session recordings.
 -   Ahrefs or SEMrush for keyword tracking, backlink analysis, and competitive research.
 
-### Test and optimize relentlessly
+### Test headlines, formats and calls to action
 
 -   A/B test headlines, calls-to-action (CTAs), and page layouts.
 -   Experiment with different content formats (e.g., text versus video, long-form versus short-form).
 -   Run surveys and gather user feedback to understand their preferences and pain points.
 -   Regularly review how well each page covers its topic and related terms to ensure content remains relevant.
 
-## The short version
+## The seven steps on one page
 
 -   Thoroughly understand your buyer personas and their journey.
 -   Audit existing content and identify gaps and opportunities.
@@ -215,8 +215,8 @@ Employ tools such as:
 
 Your audience is searching for solutions you provide. A strong content strategy, potentially enhanced by expert multilingual web consulting services, will help them find you.
 
-Book a free consultation with our global team of SEO and content specialists to discuss how we can strengthen your brand:
+Want a content plan built from what your buyers search for? Bring your current pages to a call and we will look at them together:
 
-[Contact us here](/contact/)
+[Book the discovery call](/contact/)
 
-Let’s help your ideal customers connect with your business.
+We will show you which pages to lift first and which subjects to add.
