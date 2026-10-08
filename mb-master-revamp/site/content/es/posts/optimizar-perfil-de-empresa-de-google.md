@@ -76,6 +76,27 @@ Tras la verificación, trata el perfil como la sala del estudio: cuidado constan
 
 Unos datos idénticos en todas partes le confirman a Google que todas esas menciones son tu negocio. Tu NAP (nombre, dirección y teléfono) tiene que coincidir al detalle entre tu web, tu perfil, los directorios y las redes sociales.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Tu NAP, es decir, nombre, dirección y teléfono, idéntico en tu web, en tu perfil, en los directorios y en las redes sociales.">
+<path d="M150 30 L200 80" class="fg-line"/>
+<path d="M250 30 L200 80" class="fg-line"/>
+<path d="M150 130 L200 80" class="fg-line"/>
+<path d="M250 130 L200 80" class="fg-line"/>
+<rect x="10" y="12" width="140" height="36" rx="6" class="fg-box"/>
+<rect x="250" y="12" width="140" height="36" rx="6" class="fg-box"/>
+<rect x="10" y="112" width="140" height="36" rx="6" class="fg-box"/>
+<rect x="250" y="112" width="140" height="36" rx="6" class="fg-box"/>
+<circle cx="200" cy="80" r="42" class="fg-hot"/>
+<text x="200" y="78" text-anchor="middle" class="fg-strong">Tu NAP</text>
+<text x="200" y="96" text-anchor="middle" class="fg-label">idéntico</text>
+<text x="80" y="36" text-anchor="middle" class="fg-text">Tu web</text>
+<text x="320" y="36" text-anchor="middle" class="fg-text">Tu perfil</text>
+<text x="80" y="136" text-anchor="middle" class="fg-text">Directorios</text>
+<text x="320" y="136" text-anchor="middle" class="fg-text">Redes sociales</text>
+</svg>
+<figcaption>Unos datos idénticos en todas partes le confirman a Google que todas esas menciones son tu negocio. Hasta el número de local cuenta.</figcaption>
+</figure>
+
 Escribe el número de local igual en tu web, en MindBody y en ClassPass: ese detalle basta a menudo para mantener la señal firme.
 
 Haz una auditoría de citaciones cada trimestre con Moz Local, BrightLocal o la gestión de fichas de Semrush, y corrige primero las incoherencias en los directorios de más peso.
@@ -85,6 +106,22 @@ Haz una auditoría de citaciones cada trimestre con Moz Local, BrightLocal o la 
 La categoría principal es el cambio del perfil que más mueve tu posición en el mapa.
 
 Un estudio de yoga en caliente elige «Estudio de yoga en caliente», más concreto que «Centro de fitness». Un estudio de pilates con reformer elige «Estudio de pilates», más concreto que «Gimnasio».
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Para un estudio de yoga en caliente, la categoría «Estudio de yoga en caliente» es más concreta que «Centro de fitness», y es la que mueve su posición en el mapa.">
+<path d="M145 75 L215 35" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M145 75 L215 115" class="fg-accent"/>
+<rect x="15" y="55" width="130" height="40" rx="6" class="fg-box"/>
+<rect x="215" y="12" width="175" height="46" rx="6" class="fg-box"/>
+<rect x="215" y="92" width="175" height="46" rx="6" class="fg-hot"/>
+<text x="80" y="81" text-anchor="middle" class="fg-strong">Tu estudio</text>
+<text x="302" y="32" text-anchor="middle" class="fg-text">Centro de fitness</text>
+<text x="302" y="50" text-anchor="middle" class="fg-label">más genérica</text>
+<text x="302" y="112" text-anchor="middle" class="fg-strong">Yoga en caliente</text>
+<text x="302" y="130" text-anchor="middle" class="fg-label">más concreta</text>
+</svg>
+<figcaption>La categoría principal es el cambio del perfil que más mueve tu posición en el mapa. Elige la más concreta que sea cierta para tu negocio.</figcaption>
+</figure>
 
 Las categorías secundarias sirven de apoyo: añade solo lo que de verdad enseñas u ofreces, porque Google penaliza el abuso de categorías. Revisa la lista cada tres meses, ya que Google sigue añadiendo opciones más concretas.
 
@@ -143,6 +180,18 @@ Las métricas del panel te dicen si el perfil convierte las vistas en clientes. 
 -   La evolución de las vistas mes a mes.
 
 Lee las impresiones junto a las acciones. Si tienes muchas impresiones y pocas acciones, retoca primero la descripción y las fotos.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 154" role="img" aria-label="Del total de búsquedas que muestran tu perfil salen las vistas, y de las vistas, las acciones: llamadas, rutas, clics a la web y reservas.">
+<rect x="30" y="10" width="340" height="38" rx="6" class="fg-box"/>
+<rect x="75" y="58" width="250" height="38" rx="6" class="fg-box"/>
+<rect x="120" y="106" width="160" height="38" rx="6" class="fg-hot"/>
+<text x="200" y="34" text-anchor="middle" class="fg-text">Búsquedas</text>
+<text x="200" y="82" text-anchor="middle" class="fg-text">Vistas</text>
+<text x="200" y="131" text-anchor="middle" class="fg-strong">Acciones</text>
+</svg>
+<figcaption>Lee las vistas junto a las acciones. Con muchas impresiones y pocas acciones, retoca primero la descripción y las fotos.</figcaption>
+</figure>
 
 <aside class="post-cta">
 <p><strong>¿Quieres aparecer entre los primeros del mapa en Valencia?</strong> Nuestro <a href="/es/services/seo-local/">SEO local en Valencia</a> trabaja tu ficha, tus páginas por barrio y tus reseñas en el idioma de tus clientes, y en cada ciudad donde tengas sede. <a href="/es/contactanos/">Pide una auditoría gratuita de 20 minutos</a>.</p>

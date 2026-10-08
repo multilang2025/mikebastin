@@ -34,6 +34,26 @@ Una cita vale tanto como lo que dice de ti, así que conviene medir algo más qu
 
 Estos indicadores se apoyan en un [análisis competitivo SEO actualizado](/es/analisis-competitivo-seo/), centrado en la autoridad temática y en cómo se describe tu empresa en la web.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Cuatro indicadores alrededor de cada cita: la cuota de citas, el tono, la atribución de fuente y la precisión de los datos.">
+<path d="M140 30 L200 80" class="fg-line"/>
+<path d="M260 30 L200 80" class="fg-line"/>
+<path d="M140 130 L200 80" class="fg-line"/>
+<path d="M260 130 L200 80" class="fg-line"/>
+<rect x="10" y="12" width="130" height="36" rx="6" class="fg-box"/>
+<rect x="260" y="12" width="130" height="36" rx="6" class="fg-box"/>
+<rect x="10" y="112" width="130" height="36" rx="6" class="fg-box"/>
+<rect x="260" y="112" width="130" height="36" rx="6" class="fg-box"/>
+<circle cx="200" cy="80" r="42" class="fg-hot"/>
+<text x="200" y="86" text-anchor="middle" class="fg-strong">Tu cita</text>
+<text x="75" y="36" text-anchor="middle" class="fg-text">Cuota</text>
+<text x="325" y="36" text-anchor="middle" class="fg-text">Tono</text>
+<text x="75" y="136" text-anchor="middle" class="fg-text">Atribución</text>
+<text x="325" y="136" text-anchor="middle" class="fg-text">Precisión</text>
+</svg>
+<figcaption>Una cita vale tanto como lo que dice de ti. Junto a la cuota, mide el tono, si la respuesta te enlaza y si repite datos correctos.</figcaption>
+</figure>
+
 ## Métricas SEO y métricas GEO, lado a lado
 
 Cada métrica clásica tiene su equivalente en las respuestas de IA, y leerlas juntas evita juzgar un canal con la vara del otro.
@@ -94,9 +114,42 @@ La precisión es el indicador que más se corrige desde tu lado. Cuando una resp
 
 Dos sitios lo concentran casi siempre: los datos estructurados, que describen tu empresa en JSON-LD y que explicamos en nuestra guía de [datos estructurados y schema para GEO](/es/datos-estructurados-schema-optimizacion-geo/), y los perfiles de tus autores, como el de [LinkedIn](https://www.linkedin.com/in/michaelbastin/), que tienen que decir lo mismo que tu web. Nuestra guía para [redactar tu trayectoria profesional](/es/redactar-trayectoria-profesional/) te ayuda a escribir esas biografías.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 146" role="img" aria-label="Los datos estructurados de tu web y los perfiles de tus autores alimentan lo que la IA repite sobre tu empresa, así que los dos tienen que decir lo mismo.">
+<path d="M195 32 L255 73" class="fg-accent"/>
+<path d="M195 114 L255 73" class="fg-accent"/>
+<rect x="10" y="12" width="185" height="40" rx="6" class="fg-box"/>
+<rect x="10" y="94" width="185" height="40" rx="6" class="fg-box"/>
+<rect x="255" y="50" width="135" height="46" rx="6" class="fg-hot"/>
+<text x="102" y="37" text-anchor="middle" class="fg-text">Datos estructurados</text>
+<text x="102" y="119" text-anchor="middle" class="fg-text">Perfiles de autor</text>
+<text x="322" y="70" text-anchor="middle" class="fg-strong">Respuesta</text>
+<text x="322" y="88" text-anchor="middle" class="fg-label">de la IA</text>
+</svg>
+<figcaption>Cuando la IA repite un dato erróneo, la fuente suele estar en estos dos sitios. Corrige el dato ahí y alinea tus perfiles con tu web.</figcaption>
+</figure>
+
 ## Medir cada idioma por separado
 
 Los modelos de lenguaje son multilingües y responden en el idioma de quien pregunta, así que cada mercado tiene sus propias citas. Una versión francesa citada y una alemana ausente se compensan en una media global y quedan a la vista en un informe por mercado.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 140" role="img" aria-label="En una media global, una versión francesa citada y una alemana ausente se compensan; en un informe por mercado, cada una queda a la vista.">
+<path d="M150 77 L207 77" class="fg-line"/>
+<path d="M199 72 L207 77 L199 82" class="fg-line"/>
+<path d="M221 84 H384 Q390 84 390 90 V124 Q390 130 384 130 H221 Q215 130 215 124 V90 Q215 84 221 84 Z" class="fg-dim" stroke-dasharray="4 4"/>
+<rect x="10" y="54" width="140" height="46" rx="6" class="fg-box"/>
+<rect x="215" y="24" width="175" height="46" rx="6" class="fg-hot"/>
+<text x="80" y="74" text-anchor="middle" class="fg-text">Media global</text>
+<text x="80" y="92" text-anchor="middle" class="fg-label">todo se compensa</text>
+<text x="302" y="14" text-anchor="middle" class="fg-label">Por mercado</text>
+<text x="302" y="44" text-anchor="middle" class="fg-text">Francés</text>
+<text x="302" y="62" text-anchor="middle" class="fg-label">citada</text>
+<text x="302" y="104" text-anchor="middle" class="fg-text">Alemán</text>
+<text x="302" y="122" text-anchor="middle" class="fg-label">ausente</text>
+</svg>
+<figcaption>Medir cada idioma por separado enseña dónde te citan y dónde queda trabajo. El informe por mercado te dice qué versión reforzar primero.</figcaption>
+</figure>
 
 Lanza tus consultas en cada idioma, con las palabras que usa el comprador de ese país, y combina el seguimiento con el [SEO multilingüe](/es/services/posicionamiento-multilingue/) que trabaja cada versión. Las consultas conversacionales son preguntas largas («¿cuál es la mejor agencia de SEO en Valencia para empresas B2B?»), y conviene seguirlas tal como se formulan.
 
