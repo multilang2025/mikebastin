@@ -56,6 +56,23 @@ Voici pourquoi la stratégie compte :
 
 La plupart des sites possèdent déjà des pages en deuxième page de Google sur un terme intéressant. En faire monter une est plus rapide et moins coûteux que d’écrire une nouvelle page, et c’est pourquoi l’audit vient avant le calendrier.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Deux chemins vers un terme intéressant : écrire une nouvelle page, ou faire monter une page existante depuis la deuxième page, plus rapide et moins coûteux.">
+<path d="M160 75 L220 35" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M160 75 L220 115" class="fg-accent"/>
+<rect x="10" y="52" width="150" height="46" rx="6" class="fg-box"/>
+<rect x="220" y="12" width="170" height="46" rx="6" class="fg-box"/>
+<rect x="220" y="92" width="170" height="46" rx="6" class="fg-hot"/>
+<text x="85" y="72" text-anchor="middle" class="fg-strong">Un terme</text>
+<text x="85" y="90" text-anchor="middle" class="fg-label">intéressant</text>
+<text x="305" y="32" text-anchor="middle" class="fg-text">Nouvelle page</text>
+<text x="305" y="50" text-anchor="middle" class="fg-label">à écrire</text>
+<text x="305" y="112" text-anchor="middle" class="fg-strong">Page existante</text>
+<text x="305" y="130" text-anchor="middle" class="fg-label">en deuxième page</text>
+</svg>
+<figcaption>L’audit passe avant le calendrier, car faire monter une page que vous possédez déjà est plus rapide et moins coûteux que d’en écrire une nouvelle.</figcaption>
+</figure>
+
 ### Qu’est-ce qu’un audit de contenu ?
 
 -   Explorez l’ensemble de vos contenus existants (articles, pages, etc.).
@@ -167,6 +184,24 @@ Articles de blog, vidéos, publications sur les réseaux sociaux, livres blancs 
 
 Une bonne page rembourse sa rédaction dès que les gens la voient. La diffusion permet au même contenu de continuer à rapporter après le jour de sa publication.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Un même contenu atteint les acheteurs par trois canaux : médias détenus, médias acquis et promotion payante.">
+<path d="M170 80 L220 28" class="fg-line"/>
+<path d="M170 80 L220 80" class="fg-line"/>
+<path d="M170 80 L220 132" class="fg-line"/>
+<rect x="10" y="55" width="160" height="50" rx="6" class="fg-hot"/>
+<rect x="220" y="10" width="170" height="36" rx="6" class="fg-box"/>
+<rect x="220" y="62" width="170" height="36" rx="6" class="fg-box"/>
+<rect x="220" y="114" width="170" height="36" rx="6" class="fg-box"/>
+<text x="90" y="78" text-anchor="middle" class="fg-strong">Un contenu</text>
+<text x="90" y="96" text-anchor="middle" class="fg-label">rapporte encore</text>
+<text x="305" y="33" text-anchor="middle" class="fg-text">Médias détenus</text>
+<text x="305" y="85" text-anchor="middle" class="fg-text">Médias acquis</text>
+<text x="305" y="137" text-anchor="middle" class="fg-text">Promotion payante</text>
+</svg>
+<figcaption>La diffusion permet au même contenu de continuer à rapporter après sa publication, par vos canaux, ceux des autres et la promotion payante.</figcaption>
+</figure>
+
 -   **Médias détenus :** le blog de votre entreprise, vos newsletters et vos podcasts.
 -   **Médias acquis :** retombées presse, articles invités dans des publications professionnelles, collaborations avec des influenceurs et des leaders d’opinion. Les médias acquis ont un poids particulier sur une région donnée, par exemple des articles dans la presse professionnelle britannique pour soutenir un [SEO anglais au Royaume-Uni](/fr/services/seo-anglais/).
 -   **Promotion payante :** publicités Meta (Facebook et Instagram), Réseau Display de Google et contenus sponsorisés LinkedIn.
@@ -184,6 +219,25 @@ Réfléchissez aussi à la façon dont une [marque internationale](/fr/marque-in
 ## Étape 7 : mesurer et ajuster
 
 La première version d’une stratégie est une hypothèse bien informée. Mesurer ce que chaque page rapporte, en plus de ce qu’elle attire, permet d’améliorer la deuxième version.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 125" role="img" aria-label="Trois étapes : publier une première version, mesurer ce que rapporte chaque page, puis ajuster la deuxième version.">
+<line x1="70" y1="34" x2="330" y2="34" class="fg-rule"/>
+<circle cx="70" cy="34" r="26" class="fg-box"/>
+<circle cx="200" cy="34" r="26" class="fg-hot"/>
+<circle cx="330" cy="34" r="26" class="fg-box"/>
+<text x="70" y="40" text-anchor="middle" class="fg-strong">1</text>
+<text x="200" y="40" text-anchor="middle" class="fg-strong">2</text>
+<text x="330" y="40" text-anchor="middle" class="fg-strong">3</text>
+<text x="70" y="90" text-anchor="middle" class="fg-text">Publier</text>
+<text x="70" y="112" text-anchor="middle" class="fg-label">première version</text>
+<text x="200" y="90" text-anchor="middle" class="fg-text">Mesurer</text>
+<text x="200" y="112" text-anchor="middle" class="fg-label">ce qui rapporte</text>
+<text x="330" y="90" text-anchor="middle" class="fg-text">Ajuster</text>
+<text x="330" y="112" text-anchor="middle" class="fg-label">deuxième version</text>
+</svg>
+<figcaption>La première version est une hypothèse bien informée ; mesurer ce que chaque page rapporte, en plus de ce qu’elle attire, améliore la suivante.</figcaption>
+</figure>
 
 ### Tout suivre avec rigueur
 

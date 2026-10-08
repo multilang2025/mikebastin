@@ -58,6 +58,23 @@ Write for one buyer and they recognise themselves in every line. Knowing exactly
 
 Most sites already own pages sitting on page two for a term worth having. Lifting one of those is faster and cheaper than writing something new, so the audit comes before the calendar.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Two routes to a term worth having: write a new page, or lift an existing page from page two, the faster and cheaper of the two.">
+<path d="M160 75 L220 35" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M160 75 L220 115" class="fg-accent"/>
+<rect x="10" y="52" width="150" height="46" rx="6" class="fg-box"/>
+<rect x="220" y="12" width="170" height="46" rx="6" class="fg-box"/>
+<rect x="220" y="92" width="170" height="46" rx="6" class="fg-hot"/>
+<text x="85" y="72" text-anchor="middle" class="fg-strong">A term</text>
+<text x="85" y="90" text-anchor="middle" class="fg-label">worth having</text>
+<text x="305" y="32" text-anchor="middle" class="fg-text">New page</text>
+<text x="305" y="50" text-anchor="middle" class="fg-label">written from scratch</text>
+<text x="305" y="112" text-anchor="middle" class="fg-strong">Existing page</text>
+<text x="305" y="130" text-anchor="middle" class="fg-label">lifted from page two</text>
+</svg>
+<figcaption>The audit comes before the calendar because lifting a page you already own is faster and cheaper than writing a new one.</figcaption>
+</figure>
+
 ### Run a content audit
 
 -   Crawl all your existing content (articles, pages, etc.).
@@ -169,6 +186,24 @@ Blog posts, videos, social media posts, whitepapers and guides, and webinars all
 
 A good page repays its writing once people see it. Distribution is how the same piece keeps earning after launch day.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="One piece of content reaches buyers through three channels: owned media, earned media and paid promotion.">
+<path d="M170 80 L220 28" class="fg-line"/>
+<path d="M170 80 L220 80" class="fg-line"/>
+<path d="M170 80 L220 132" class="fg-line"/>
+<rect x="10" y="55" width="160" height="50" rx="6" class="fg-hot"/>
+<rect x="220" y="10" width="170" height="36" rx="6" class="fg-box"/>
+<rect x="220" y="62" width="170" height="36" rx="6" class="fg-box"/>
+<rect x="220" y="114" width="170" height="36" rx="6" class="fg-box"/>
+<text x="90" y="78" text-anchor="middle" class="fg-strong">One piece</text>
+<text x="90" y="96" text-anchor="middle" class="fg-label">keeps earning</text>
+<text x="305" y="33" text-anchor="middle" class="fg-text">Owned media</text>
+<text x="305" y="85" text-anchor="middle" class="fg-text">Earned media</text>
+<text x="305" y="137" text-anchor="middle" class="fg-text">Paid promotion</text>
+</svg>
+<figcaption>Distribution is how the same piece keeps earning after launch day, through your own channels, other people's and paid placements.</figcaption>
+</figure>
+
 -   **Owned media:** your company blog, email newsletters and podcasts.
 -   **Earned media:** press coverage, guest posts in industry publications, and collaborations with influencers and thought leaders. Earned media is especially powerful for a specific region, for example features in UK publications to support your **visibility in the UK market**.
 -   **Paid promotion:** Meta (Facebook and Instagram) ads, Google Display Network ads and LinkedIn Sponsored Content.
@@ -186,6 +221,25 @@ Consider how a multilingual branding approach impacts your distribution channels
 ## Step 7: measure, then improve the next version
 
 The first version of any strategy is a well-informed guess. Measuring what each page earns as well as what it attracts is how the second version gets better.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 125" role="img" aria-label="Three steps: publish a first version, measure what each page earns, then improve the second version.">
+<line x1="70" y1="34" x2="330" y2="34" class="fg-rule"/>
+<circle cx="70" cy="34" r="26" class="fg-box"/>
+<circle cx="200" cy="34" r="26" class="fg-hot"/>
+<circle cx="330" cy="34" r="26" class="fg-box"/>
+<text x="70" y="40" text-anchor="middle" class="fg-strong">1</text>
+<text x="200" y="40" text-anchor="middle" class="fg-strong">2</text>
+<text x="330" y="40" text-anchor="middle" class="fg-strong">3</text>
+<text x="70" y="90" text-anchor="middle" class="fg-text">Publish</text>
+<text x="70" y="112" text-anchor="middle" class="fg-label">first version</text>
+<text x="200" y="90" text-anchor="middle" class="fg-text">Measure</text>
+<text x="200" y="112" text-anchor="middle" class="fg-label">what it earns</text>
+<text x="330" y="90" text-anchor="middle" class="fg-text">Improve</text>
+<text x="330" y="112" text-anchor="middle" class="fg-label">second version</text>
+</svg>
+<figcaption>The first version is a well-informed guess; measuring what each page earns as well as what it attracts is what makes the next one better.</figcaption>
+</figure>
 
 ### Choose your tracking tools
 

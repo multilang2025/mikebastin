@@ -22,6 +22,24 @@ Below: where AI earns its place, where a native speaker adds the most, and how t
 
 Businesses that use AI well now reach new markets faster. Neural machine translation (NMT), natural language processing (NLP) and, more recently, large language models have sharply improved the quality and speed of automated translation. For many content types, a machine draft is now the normal starting point.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Neural machine translation, natural language processing and large language models now combine into a machine first draft.">
+<path d="M160 31 L266 62" class="fg-line"/>
+<path d="M160 75 L264 75" class="fg-line"/>
+<path d="M160 119 L266 88" class="fg-line"/>
+<rect x="10" y="14" width="150" height="34" rx="6" class="fg-box"/>
+<rect x="10" y="58" width="150" height="34" rx="6" class="fg-box"/>
+<rect x="10" y="102" width="150" height="34" rx="6" class="fg-box"/>
+<circle cx="320" cy="75" r="56" class="fg-hot"/>
+<text x="85" y="36" text-anchor="middle" class="fg-text">NMT</text>
+<text x="85" y="80" text-anchor="middle" class="fg-text">NLP</text>
+<text x="85" y="124" text-anchor="middle" class="fg-text">Language models</text>
+<text x="320" y="72" text-anchor="middle" class="fg-strong">Machine</text>
+<text x="320" y="94" text-anchor="middle" class="fg-label">first draft</text>
+</svg>
+<figcaption>For many content types, the machine draft is now the normal starting point, and the question becomes where a person works alongside it.</figcaption>
+</figure>
+
 For most businesses the question now is where AI needs a human alongside it. Our [multilingual SEO consulting](/services/multilingual-seo/) starts there.
 
 ## What AI translation gives your business
@@ -47,6 +65,26 @@ Big catalogues and frequently updated content are where AI's pace shows. AI hand
 
 Your best translators do their best work on nuance. Automating routine strings frees them for the nuanced and creative work that decides whether a market trusts you. [AI consulting](/services/ai-consulting/) helps decide which tasks to automate first.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 130" role="img" aria-label="Four gains from AI translation: speed, lower cost, scale with consistent terms, and more time for translators to work on nuance.">
+<line x1="200" y1="10" x2="200" y2="120" class="fg-rule"/>
+<line x1="10" y1="65" x2="390" y2="65" class="fg-rule"/>
+<rect x="10" y="10" width="186" height="50" rx="6" class="fg-box"/>
+<rect x="204" y="10" width="186" height="50" rx="6" class="fg-box"/>
+<rect x="10" y="70" width="186" height="50" rx="6" class="fg-box"/>
+<rect x="204" y="70" width="186" height="50" rx="6" class="fg-hot"/>
+<text x="103" y="32" text-anchor="middle" class="fg-strong">Speed</text>
+<text x="103" y="50" text-anchor="middle" class="fg-label">words in minutes</text>
+<text x="297" y="32" text-anchor="middle" class="fg-strong">Lower cost</text>
+<text x="297" y="50" text-anchor="middle" class="fg-label">funds the marketing</text>
+<text x="103" y="92" text-anchor="middle" class="fg-strong">Scale</text>
+<text x="103" y="110" text-anchor="middle" class="fg-label">consistent terms</text>
+<text x="297" y="92" text-anchor="middle" class="fg-strong">Productivity</text>
+<text x="297" y="110" text-anchor="middle" class="fg-label">time for nuance</text>
+</svg>
+<figcaption>The machine takes the volume, and the time it frees goes to the nuanced work that decides whether a market trusts you.</figcaption>
+</figure>
+
 ## Handle the risks before you publish
 
 Each of these is cheapest to handle before publication.
@@ -64,6 +102,23 @@ Cloud-based language tools need the same security care as any system holding you
 > Source: [Citizen Lab, "The Not-So-Silent Type", 23 April 2024](https://citizenlab.ca/2024/04/vulnerabilities-across-keyboard-apps-reveal-keystrokes-to-network-eavesdroppers/)
 
 For confidential material, work with [professional translation services](/services/translation-services/) that control where your text goes.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Confidential text sent through a cloud tool can be exposed in transit; with a vetted provider, you control where it goes.">
+<path d="M150 75 L220 35" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M150 75 L220 115" class="fg-accent"/>
+<rect x="10" y="52" width="140" height="46" rx="6" class="fg-box"/>
+<rect x="220" y="12" width="170" height="46" rx="6" class="fg-box"/>
+<rect x="220" y="92" width="170" height="46" rx="6" class="fg-hot"/>
+<text x="80" y="72" text-anchor="middle" class="fg-strong">Your text</text>
+<text x="80" y="90" text-anchor="middle" class="fg-label">confidential</text>
+<text x="305" y="32" text-anchor="middle" class="fg-text">Cloud tool</text>
+<text x="305" y="50" text-anchor="middle" class="fg-label">exposed in transit</text>
+<text x="305" y="112" text-anchor="middle" class="fg-strong">Vetted provider</text>
+<text x="305" y="130" text-anchor="middle" class="fg-label">controls your text</text>
+</svg>
+<figcaption>Where your text travels matters as much as how it is translated: a vetted, GDPR-compliant provider keeps confidential material under control.</figcaption>
+</figure>
 
 <aside class="post-cta">
 <p><strong>Want your machine-translated pages to say exactly the right thing?</strong> Our <a href="/services/ai-translation-and-post-editing/">AI translation and post-editing</a> puts a native speaker over the machine output, with review effort scaled to what each page puts at risk. <a href="/contact/">Book the discovery call</a>.</p>

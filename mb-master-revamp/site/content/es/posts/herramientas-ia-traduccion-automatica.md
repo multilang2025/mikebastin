@@ -31,9 +31,9 @@ También rinden en el trabajo repetitivo: cadenas de texto que se repiten, catá
 <path d="M200 50 L200 102" class="fg-line"/>
 <path d="M200 50 L330 102" class="fg-line"/>
 <rect x="115" y="10" width="170" height="40" rx="6" class="fg-hot"/>
-<rect x="8" y="102" width="124" height="46" rx="6" class="fg-box"/>
-<rect x="138" y="102" width="124" height="46" rx="6" class="fg-box"/>
-<rect x="268" y="102" width="124" height="46" rx="6" class="fg-box"/>
+<rect x="7" y="102" width="126" height="46" rx="6" class="fg-box"/>
+<rect x="137" y="102" width="126" height="46" rx="6" class="fg-box"/>
+<rect x="267" y="102" width="126" height="46" rx="6" class="fg-box"/>
 <text x="200" y="36" text-anchor="middle" class="fg-strong">Motores de IA</text>
 <text x="70" y="122" text-anchor="middle" class="fg-text">Cadenas</text>
 <text x="70" y="140" text-anchor="middle" class="fg-label">repetidas</text>

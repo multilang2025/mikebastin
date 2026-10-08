@@ -57,6 +57,24 @@ Cubrir el tema entero gana hoy a perseguir un único término de mucho volumen. 
 
 Semrush, Ahrefs y herramientas como Surfer y Clearscope analizan miles de páginas posicionadas para descubrir los subtemas y la profundidad que espera cada consulta. Un sitio que trata un asunto a fondo suele superar a otro que optimiza páginas sueltas para términos sueltos.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Un tema entero convertido en un solo grupo: sus subtemas, los huecos de contenido por cubrir y las consultas de cola larga con intención de compra.">
+<path d="M160 80 L230 28" class="fg-line"/>
+<path d="M160 80 L230 80" class="fg-line"/>
+<path d="M160 80 L230 132" class="fg-line"/>
+<rect x="10" y="55" width="150" height="50" rx="6" class="fg-hot"/>
+<rect x="230" y="10" width="160" height="36" rx="6" class="fg-box"/>
+<rect x="230" y="62" width="160" height="36" rx="6" class="fg-box"/>
+<rect x="230" y="114" width="160" height="36" rx="6" class="fg-box"/>
+<text x="85" y="78" text-anchor="middle" class="fg-strong">Tema entero</text>
+<text x="85" y="96" text-anchor="middle" class="fg-label">un solo grupo</text>
+<text x="310" y="33" text-anchor="middle" class="fg-text">Subtemas</text>
+<text x="310" y="85" text-anchor="middle" class="fg-text">Huecos temáticos</text>
+<text x="310" y="137" text-anchor="middle" class="fg-text">Cola larga</text>
+</svg>
+<figcaption>Las herramientas de IA dibujan el tema entero de una vez: los subtemas que espera la consulta, los huecos de tu cobertura y la cola larga de quien está cerca de decidir.</figcaption>
+</figure>
+
 La IA también saca a la luz palabras clave de cola larga con intención de compra. Son consultas de menor volumen y más concretas, así que los visitantes que traen suelen estar más cerca de decidir.
 
 ## Redacta con la IA y deja la firma a tus expertos
@@ -89,6 +107,23 @@ Las herramientas de IA siguen los cambios de posición, el contenido nuevo, los 
 
 Las alertas automáticas señalan las oportunidades en cuestión de horas.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="El mismo movimiento de un competidor te llega de dos formas: en un informe mensual o en una alerta de IA en pocas horas.">
+<path d="M160 75 L222 35" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M160 75 L222 115" class="fg-accent"/>
+<rect x="10" y="52" width="150" height="46" rx="6" class="fg-box"/>
+<rect x="222" y="12" width="168" height="46" rx="6" class="fg-box"/>
+<rect x="222" y="92" width="168" height="46" rx="6" class="fg-hot"/>
+<text x="85" y="72" text-anchor="middle" class="fg-strong">Competidor</text>
+<text x="85" y="90" text-anchor="middle" class="fg-label">mueve ficha</text>
+<text x="306" y="32" text-anchor="middle" class="fg-text">Informe mensual</text>
+<text x="306" y="50" text-anchor="middle" class="fg-label">una vez al mes</text>
+<text x="306" y="112" text-anchor="middle" class="fg-strong">Alerta de IA</text>
+<text x="306" y="130" text-anchor="middle" class="fg-label">en pocas horas</text>
+</svg>
+<figcaption>La monitorización casi en tiempo real señala el movimiento de un competidor en cuestión de horas, mucho antes que el informe mensual.</figcaption>
+</figure>
+
 ## Multiplica con IA lo que tu equipo cubre en cada idioma
 
 Si vendes en Francia, Alemania o los Países Bajos, la IA multiplica lo que tu equipo puede cubrir en cada idioma. Los sistemas de Google, como MUM, procesan información entre idiomas y formatos, y cada versión de tu sitio compite con sus propios resúmenes de IA, en el idioma de ese comprador.
@@ -115,6 +150,27 @@ Investigadores de Princeton, Georgia Tech, el Allen Institute for AI y el IIT De
 > Fuente: [Aggarwal et al., GEO: Generative Engine Optimization, KDD 2024](https://arxiv.org/abs/2311.09735)
 
 Las menciones de marca en la web influyen en que la IA te cite. Las relaciones públicas digitales, los comentarios de expertos y la participación en el sector construyen las señales de autoridad a las que recurren estos sistemas.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Cuatro señales que ayudan a un sistema de IA a citar una página: respuestas directas, fuentes creíbles, autoría clara y datos coherentes en todas partes.">
+<path d="M180 23 L275 71" class="fg-line"/>
+<path d="M180 61 L275 77" class="fg-line"/>
+<path d="M180 99 L275 83" class="fg-line"/>
+<path d="M180 137 L275 89" class="fg-line"/>
+<rect x="10" y="8" width="170" height="30" rx="6" class="fg-box"/>
+<rect x="10" y="46" width="170" height="30" rx="6" class="fg-box"/>
+<rect x="10" y="84" width="170" height="30" rx="6" class="fg-box"/>
+<rect x="10" y="122" width="170" height="30" rx="6" class="fg-box"/>
+<circle cx="330" cy="80" r="56" class="fg-hot"/>
+<text x="95" y="28" text-anchor="middle" class="fg-text">Respuesta directa</text>
+<text x="95" y="66" text-anchor="middle" class="fg-text">Fuentes creíbles</text>
+<text x="95" y="104" text-anchor="middle" class="fg-text">Autoría clara</text>
+<text x="95" y="142" text-anchor="middle" class="fg-text">Datos coherentes</text>
+<text x="330" y="76" text-anchor="middle" class="fg-strong">Citado</text>
+<text x="330" y="98" text-anchor="middle" class="fg-label">por la IA</text>
+</svg>
+<figcaption>Los sistemas de IA eligen las páginas que responden directamente, se apoyan en fuentes, muestran quién las firma y describen la empresa igual en todas partes.</figcaption>
+</figure>
 
 ## Qué cambiar en tu flujo de trabajo
 

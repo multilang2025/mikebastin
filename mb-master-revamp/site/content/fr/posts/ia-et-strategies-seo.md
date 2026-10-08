@@ -34,6 +34,24 @@ Couvrir un sujet en entier rapporte davantage aujourd’hui que viser un seul te
 
 Semrush, Ahrefs, Surfer et Clearscope analysent des milliers de pages bien classées pour dégager les sous-thèmes et la profondeur qu’attend chaque requête. Un site qui traite un sujet à fond devance généralement un site qui optimise des pages isolées pour des termes isolés.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Un sujet entier cartographié en un seul groupe : ses sous-thèmes, les sujets qui manquent à votre contenu et les requêtes de longue traîne qui signalent une intention d’achat.">
+<path d="M160 80 L230 28" class="fg-line"/>
+<path d="M160 80 L230 80" class="fg-line"/>
+<path d="M160 80 L230 132" class="fg-line"/>
+<rect x="10" y="55" width="150" height="50" rx="6" class="fg-hot"/>
+<rect x="230" y="10" width="160" height="36" rx="6" class="fg-box"/>
+<rect x="230" y="62" width="160" height="36" rx="6" class="fg-box"/>
+<rect x="230" y="114" width="160" height="36" rx="6" class="fg-box"/>
+<text x="85" y="78" text-anchor="middle" class="fg-strong">Sujet entier</text>
+<text x="85" y="96" text-anchor="middle" class="fg-label">un seul groupe</text>
+<text x="310" y="33" text-anchor="middle" class="fg-text">Sous-thèmes</text>
+<text x="310" y="85" text-anchor="middle" class="fg-text">Sujets manquants</text>
+<text x="310" y="137" text-anchor="middle" class="fg-text">Longue traîne</text>
+</svg>
+<figcaption>Les outils d’IA dessinent le sujet entier d’un coup : les sous-thèmes qu’attend la requête, les manques de votre couverture et la longue traîne des acheteurs proches de la décision.</figcaption>
+</figure>
+
 L’IA fait aussi remonter les requêtes de longue traîne qui signalent une intention d’achat. Elles ont moins de volume et plus de précision : les visiteurs qu’elles amènent sont souvent plus proches de la décision.
 
 ## Rédigez avec l’IA, publiez avec un expert
@@ -65,6 +83,23 @@ Les outils d’IA suivent les changements de position, les nouveaux contenus, le
 -   les avantages techniques de chaque concurrent
 
 Des alertes automatiques signalent les occasions en quelques heures.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Le même mouvement d’un concurrent vous parvient de deux façons : dans un rapport mensuel, ou par une alerte d’IA en quelques heures.">
+<path d="M160 75 L222 35" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M160 75 L222 115" class="fg-accent"/>
+<rect x="10" y="52" width="150" height="46" rx="6" class="fg-box"/>
+<rect x="222" y="12" width="168" height="46" rx="6" class="fg-box"/>
+<rect x="222" y="92" width="168" height="46" rx="6" class="fg-hot"/>
+<text x="85" y="72" text-anchor="middle" class="fg-strong">Concurrent</text>
+<text x="85" y="90" text-anchor="middle" class="fg-label">fait un mouvement</text>
+<text x="306" y="32" text-anchor="middle" class="fg-text">Rapport mensuel</text>
+<text x="306" y="50" text-anchor="middle" class="fg-label">une fois par mois</text>
+<text x="306" y="112" text-anchor="middle" class="fg-strong">Alerte IA</text>
+<text x="306" y="130" text-anchor="middle" class="fg-label">en quelques heures</text>
+</svg>
+<figcaption>Une veille presque en temps réel signale le mouvement d’un concurrent en quelques heures, bien avant le rapport mensuel.</figcaption>
+</figure>
 
 ## L’IA dans un flux de travail multilingue
 
@@ -117,6 +152,27 @@ Si une réponse d’IA nomme trois fournisseurs de votre catégorie, ces trois-l
 -   décrit l’entreprise, ses services et ses auteurs avec les mêmes informations partout
 
 Les mentions de votre marque sur le web comptent elles aussi. Les relations presse numériques, les commentaires d’experts et la participation à la vie du secteur construisent les signaux d’autorité auxquels ces systèmes se fient. Les neuf leviers concrets, avec leurs sources, sont détaillés dans notre guide [du SEO au GEO](/fr/seo-au-geo/).
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Quatre signaux qui aident un système d’IA à citer une page : des réponses directes, des sources crédibles, une signature claire et des informations cohérentes partout.">
+<path d="M180 23 L275 71" class="fg-line"/>
+<path d="M180 61 L275 77" class="fg-line"/>
+<path d="M180 99 L275 83" class="fg-line"/>
+<path d="M180 137 L275 89" class="fg-line"/>
+<rect x="10" y="8" width="170" height="30" rx="6" class="fg-box"/>
+<rect x="10" y="46" width="170" height="30" rx="6" class="fg-box"/>
+<rect x="10" y="84" width="170" height="30" rx="6" class="fg-box"/>
+<rect x="10" y="122" width="170" height="30" rx="6" class="fg-box"/>
+<circle cx="330" cy="80" r="56" class="fg-hot"/>
+<text x="95" y="28" text-anchor="middle" class="fg-text">Réponses directes</text>
+<text x="95" y="66" text-anchor="middle" class="fg-text">Sources crédibles</text>
+<text x="95" y="104" text-anchor="middle" class="fg-text">Signature claire</text>
+<text x="95" y="142" text-anchor="middle" class="fg-text">Infos cohérentes</text>
+<text x="330" y="76" text-anchor="middle" class="fg-strong">Cité</text>
+<text x="330" y="98" text-anchor="middle" class="fg-label">par l’IA</text>
+</svg>
+<figcaption>Les systèmes d’IA citent les pages qui répondent directement, sourcent leurs données, affichent leur auteur et décrivent l’entreprise de la même façon partout.</figcaption>
+</figure>
 
 ## Ce qui change dans votre flux de travail
 

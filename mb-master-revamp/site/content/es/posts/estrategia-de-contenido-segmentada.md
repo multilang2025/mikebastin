@@ -57,6 +57,23 @@ Escribe para un comprador concreto y se reconocerá en cada línea. Saber exacta
 
 La mayoría de las webs ya tienen páginas en la segunda página de Google para un término que merece la pena. Subir una de ellas es más rápido y más barato que escribir algo nuevo, por eso la auditoría va antes que el calendario.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Dos caminos hacia un término que merece la pena: escribir una página nueva o subir una página que ya tienes en la segunda página de Google, el más rápido y barato.">
+<path d="M160 75 L220 35" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M160 75 L220 115" class="fg-accent"/>
+<rect x="10" y="52" width="150" height="46" rx="6" class="fg-box"/>
+<rect x="220" y="12" width="170" height="46" rx="6" class="fg-box"/>
+<rect x="220" y="92" width="170" height="46" rx="6" class="fg-hot"/>
+<text x="85" y="72" text-anchor="middle" class="fg-strong">Un término</text>
+<text x="85" y="90" text-anchor="middle" class="fg-label">que vale la pena</text>
+<text x="305" y="32" text-anchor="middle" class="fg-text">Página nueva</text>
+<text x="305" y="50" text-anchor="middle" class="fg-label">por escribir</text>
+<text x="305" y="112" text-anchor="middle" class="fg-strong">Página actual</text>
+<text x="305" y="130" text-anchor="middle" class="fg-label">en segunda página</text>
+</svg>
+<figcaption>La auditoría va antes que el calendario porque subir una página que ya tienes es más rápido y más barato que escribir una nueva.</figcaption>
+</figure>
+
 ### Haz una auditoría de contenido
 
 -   Rastrea todo tu contenido existente (artículos, páginas, etc.).
@@ -168,6 +185,24 @@ Artículos de blog, vídeos, publicaciones en redes sociales, documentos técnic
 
 Una buena página amortiza su redacción en cuanto la gente la ve. La distribución hace que la misma pieza siga rindiendo después del día de su publicación.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Una misma pieza llega a los compradores por tres canales: medios propios, medios ganados y promoción de pago.">
+<path d="M170 80 L220 28" class="fg-line"/>
+<path d="M170 80 L220 80" class="fg-line"/>
+<path d="M170 80 L220 132" class="fg-line"/>
+<rect x="10" y="55" width="160" height="50" rx="6" class="fg-hot"/>
+<rect x="220" y="10" width="170" height="36" rx="6" class="fg-box"/>
+<rect x="220" y="62" width="170" height="36" rx="6" class="fg-box"/>
+<rect x="220" y="114" width="170" height="36" rx="6" class="fg-box"/>
+<text x="90" y="78" text-anchor="middle" class="fg-strong">Una pieza</text>
+<text x="90" y="96" text-anchor="middle" class="fg-label">sigue rindiendo</text>
+<text x="305" y="33" text-anchor="middle" class="fg-text">Medios propios</text>
+<text x="305" y="85" text-anchor="middle" class="fg-text">Medios ganados</text>
+<text x="305" y="137" text-anchor="middle" class="fg-text">Promoción de pago</text>
+</svg>
+<figcaption>La distribución hace que la misma pieza siga rindiendo después de su publicación, en tus canales, en los de otros y con promoción de pago.</figcaption>
+</figure>
+
 -   **Medios propios:** el blog de tu empresa, las newsletters y los pódcast.
 -   **Medios ganados:** cobertura en prensa, artículos invitados en publicaciones del sector y colaboraciones con influencers y líderes de opinión. Los medios ganados tienen un peso especial en una región concreta, por ejemplo reportajes en medios franceses para reforzar tu [SEO en Francia](/es/services/seo-frances/).
 -   **Promoción de pago:** anuncios en Meta (Facebook e Instagram), Red de Display de Google y contenido patrocinado de LinkedIn.
@@ -185,6 +220,25 @@ Piensa también en cómo una [marca global](/es/crear-una-marca-global/) coheren
 ## Paso 7: mide y ajusta
 
 La primera versión de cualquier estrategia es una hipótesis bien informada. Medir lo que cada página genera, además de lo que atrae, es lo que mejora la segunda versión.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 125" role="img" aria-label="Tres pasos: publicar una primera versión, medir lo que genera cada página y ajustar la segunda versión.">
+<line x1="70" y1="34" x2="330" y2="34" class="fg-rule"/>
+<circle cx="70" cy="34" r="26" class="fg-box"/>
+<circle cx="200" cy="34" r="26" class="fg-hot"/>
+<circle cx="330" cy="34" r="26" class="fg-box"/>
+<text x="70" y="40" text-anchor="middle" class="fg-strong">1</text>
+<text x="200" y="40" text-anchor="middle" class="fg-strong">2</text>
+<text x="330" y="40" text-anchor="middle" class="fg-strong">3</text>
+<text x="70" y="90" text-anchor="middle" class="fg-text">Publicar</text>
+<text x="70" y="112" text-anchor="middle" class="fg-label">primera versión</text>
+<text x="200" y="90" text-anchor="middle" class="fg-text">Medir</text>
+<text x="200" y="112" text-anchor="middle" class="fg-label">lo que genera</text>
+<text x="330" y="90" text-anchor="middle" class="fg-text">Ajustar</text>
+<text x="330" y="112" text-anchor="middle" class="fg-label">segunda versión</text>
+</svg>
+<figcaption>La primera versión es una hipótesis bien informada; medir lo que genera cada página, además de lo que atrae, es lo que mejora la siguiente.</figcaption>
+</figure>
 
 ### Haz un seguimiento riguroso
 
