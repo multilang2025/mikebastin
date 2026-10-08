@@ -264,7 +264,7 @@ export default function SiteFooter({
                 )}
               </div>
             </div>
-            <div className="flex flex-col items-start gap-5 sm:flex-row">
+            <div className="grid grid-cols-[56px_minmax(0,1fr)] items-center gap-x-4 gap-y-3 sm:flex sm:flex-row sm:items-start sm:gap-5">
               <img
                 src="/images/mike-bastin-192.webp"
                 alt="Mike Bastin"
@@ -272,14 +272,14 @@ export default function SiteFooter({
                 height={96}
                 loading="lazy"
                 decoding="async"
-                className="h-[72px] w-[72px] shrink-0 rounded-full object-cover sm:h-[96px] sm:w-[96px]"
+                className="h-[56px] w-[56px] shrink-0 rounded-full object-cover sm:h-[96px] sm:w-[96px]"
               />
-              <div className="min-w-0">
-                <p className="mb-3 max-w-[30ch] text-[.95rem] leading-[1.5] footer-cta-dim">{t.reply}</p>
-                <a href="mailto:hello@mikebastin.com" className="footer-cta-link display block whitespace-nowrap text-[clamp(1.15rem,2vw,1.45rem)] font-semibold">
+              <div className="contents sm:block sm:min-w-0">
+                <p className="mb-3 max-w-[30ch] max-sm:mb-0 text-[.95rem] leading-[1.5] footer-cta-dim">{t.reply}</p>
+                <a href="mailto:hello@mikebastin.com" className="footer-cta-link display col-span-2 block whitespace-nowrap text-[clamp(1.15rem,2vw,1.45rem)] font-semibold">
                   hello@mikebastin.com
                 </a>
-                <a href="tel:+34671175774" className="footer-cta-link mt-1 block text-[1.02rem]">
+                <a href="tel:+34671175774" className="footer-cta-link col-span-2 mt-1 block text-[1.02rem] max-sm:mt-0">
                   +34 671 17 57 74
                 </a>
               </div>
