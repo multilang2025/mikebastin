@@ -157,8 +157,10 @@ export default function ServicesIndex() {
           </Reveal>
           <Reveal i={3}>
             <p className="mb-8 max-w-[58ch] text-[clamp(1.05rem,1.5vw,1.2rem)] leading-[1.58]" style={{ color: "var(--dim)" }}>
-              Pick the market you want selling next and the service that gets
-              it there. Every engagement starts with a free consultation.
+              A global SEO company for businesses already selling abroad. Pick
+              the market you want selling next and the service that gets it
+              there. Every engagement starts with a free consultation and runs
+              month to month.
             </p>
           </Reveal>
           <Reveal i={4}>

@@ -551,7 +551,7 @@ export const SERVICES: Service[] = [
     subhead: "Expert French SEO services for France, Belgium, Switzerland and Canada.",
     cluster: "Search",
     angle: "French SEO for companies selling into France",
-    lede: "Work directly with a French SEO consultant to turn local searches into qualified leads.",
+    lede: "French pages that read as written in France, for buyers in France, Belgium, Switzerland and Canada. We research how each market searches, write natively in French, and count the enquiries that follow.",
     metaTitle: "French SEO agency for companies selling into France",
     metaDescription: "French buyers know in one sentence whether a page was written in French. We research and write your French pages natively, so French visits become enquiries.",
     // Research, 23 Sep 2026 (Ahrefs GB and worldwide, plus this page's own
@@ -968,7 +968,7 @@ export const SERVICES: Service[] = [
     subhead: "Dutch and French handled directly, with a native reader on every commercial page, so buyers in Amsterdam, Antwerp and Brussels read a supplier who speaks their language properly.",
     cluster: "Search",
     angle: "SEO Netherlands and Belgium, written in Dutch from the start",
-    lede: "Dutch SEO handled directly, with a native reader on every commercial page, for buyers in the Netherlands and Flanders. Short, concrete answers and the company details up front, because Dutch buyers decide quickly.",
+    lede: "Dutch pages with a native reader on every commercial page, for buyers in the Netherlands and Flanders. Short, concrete answers and the company details up front, because Dutch buyers decide quickly.",
     metaTitle: "Dutch SEO agency for the Netherlands and Belgium",
     metaDescription: "Dutch buyers decide fast and trust pages written in Dutch. Dutch SEO for the Netherlands and Belgium, researched and written directly in Dutch.",
     // Research, 23 Sep 2026 (Ahrefs GB and BE, plus this page's own Search
