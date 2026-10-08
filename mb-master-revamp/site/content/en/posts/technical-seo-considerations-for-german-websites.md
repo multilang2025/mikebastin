@@ -39,6 +39,22 @@ German contains umlauts (ä, ö, ü) and the ß, which appear percent-encoded wh
 
 Most German sites therefore transliterate them: ä becomes ae, ö becomes oe, ü becomes ue and ß becomes ss. “Küche” (kitchen) becomes “kueche” in the URL, which keeps links clean wherever they are pasted.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="The word Küche in a URL: shared as is, it turns into K%C3%BCche; transliterated, it reads kueche.">
+<path d="M150 75 L230 35" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M150 75 L230 115" class="fg-accent"/>
+<rect x="20" y="55" width="130" height="40" rx="6" class="fg-box"/>
+<rect x="230" y="12" width="150" height="46" rx="6" class="fg-box"/>
+<rect x="230" y="92" width="150" height="46" rx="6" class="fg-hot"/>
+<text x="85" y="81" text-anchor="middle" class="fg-strong">Küche</text>
+<text x="305" y="32" text-anchor="middle" class="fg-text">K%C3%BCche</text>
+<text x="305" y="50" text-anchor="middle" class="fg-label">percent-encoded</text>
+<text x="305" y="112" text-anchor="middle" class="fg-strong">kueche</text>
+<text x="305" y="130" text-anchor="middle" class="fg-label">transliterated</text>
+</svg>
+<figcaption>Writing ü as ue keeps the URL readable wherever it is pasted, from an email to a spreadsheet.</figcaption>
+</figure>
+
 ### Keywords in URLs, used sparingly
 
 **German keywords** in the URL help both users and search engines. Google treats words in the URL as a light signal, and a descriptive URL also earns more clicks in results and shared links.
@@ -139,6 +155,23 @@ Strip extra whitespace, comments and redundant code from your JavaScript, CSS an
 **Content Delivery Network (CDN):**  
 A CDN serves your pages from a server closer to the user. It helps most when your German site has buyers across Germany, Austria, Switzerland and the rest of Europe.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 120" role="img" aria-label="Three ways to speed up a German site, in order: compress and lazy-load images, minify the code, then serve pages from a CDN closer to the buyer.">
+<path d="M126 60 L142 60" class="fg-dim"/>
+<path d="M258 60 L274 60" class="fg-dim"/>
+<rect x="10" y="30" width="116" height="60" rx="6" class="fg-box"/>
+<rect x="142" y="30" width="116" height="60" rx="6" class="fg-box"/>
+<rect x="274" y="30" width="116" height="60" rx="6" class="fg-hot"/>
+<text x="68" y="56" text-anchor="middle" class="fg-strong">Images</text>
+<text x="68" y="76" text-anchor="middle" class="fg-label">compress</text>
+<text x="200" y="56" text-anchor="middle" class="fg-strong">Code</text>
+<text x="200" y="76" text-anchor="middle" class="fg-label">minify</text>
+<text x="332" y="56" text-anchor="middle" class="fg-strong">CDN</text>
+<text x="332" y="76" text-anchor="middle" class="fg-label">serve closer</text>
+</svg>
+<figcaption>Images come first, then code, then a CDN for buyers spread across Germany, Austria, Switzerland and the rest of Europe.</figcaption>
+</figure>
+
 ## Win German buyers on their phones
 
 Most searches now happen on a phone, German ones included, so a strong mobile site wins buyers and rankings at the same time. **Mobile optimization** is a core part of technical SEO.
@@ -160,6 +193,22 @@ German users expect intuitive navigation on a phone. Make menus, buttons and cal
 AMP pages are a stripped-down version of your content, designed to load quickly on mobile. Google dropped the AMP requirement for every search feature, including Top Stories, so most German websites do best making their standard pages fast.
 
 AMP can still suit news publishers with an existing AMP setup. For everyone else, meeting the Core Web Vitals thresholds above delivers the same benefit from one version of every page.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Two versions of a page, a standard page and an AMP copy, compared with one fast page that meets the Core Web Vitals thresholds.">
+<line x1="200" y1="10" x2="200" y2="140" class="fg-rule"/>
+<rect x="30" y="36" width="140" height="40" rx="6" class="fg-box"/>
+<rect x="30" y="88" width="140" height="40" rx="6" class="fg-box"/>
+<rect x="220" y="36" width="160" height="92" rx="6" class="fg-hot"/>
+<text x="100" y="22" text-anchor="middle" class="fg-label">Two versions</text>
+<text x="300" y="22" text-anchor="middle" class="fg-label">One version</text>
+<text x="100" y="61" text-anchor="middle" class="fg-text">Standard page</text>
+<text x="100" y="113" text-anchor="middle" class="fg-text">AMP copy</text>
+<text x="300" y="80" text-anchor="middle" class="fg-strong">Fast page</text>
+<text x="300" y="100" text-anchor="middle" class="fg-label">Core Web Vitals</text>
+</svg>
+<figcaption>Meeting the Core Web Vitals thresholds brings the same benefit as AMP, from one version of every page.</figcaption>
+</figure>
 
 ### Test mobile performance regularly
 

@@ -223,6 +223,24 @@ Une page par recherche donne à cette page toute sa force. Quand le même conten
 
 Si `votredomaine.com/page` et `votredomaine.com/page?ref=twitter` affichent le même contenu, les deux déclarent `votredomaine.com/page` comme canonique.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Trois URL au même contenu, avec www, avec une barre oblique finale et avec un paramètre de suivi, qui déclarent toutes la même version canonique.">
+<path d="M170 27 L235 80" class="fg-line"/>
+<path d="M170 80 L235 80" class="fg-line"/>
+<path d="M170 133 L235 80" class="fg-line"/>
+<rect x="10" y="10" width="160" height="34" rx="6" class="fg-box"/>
+<rect x="10" y="63" width="160" height="34" rx="6" class="fg-box"/>
+<rect x="10" y="116" width="160" height="34" rx="6" class="fg-box"/>
+<rect x="235" y="56" width="150" height="48" rx="6" class="fg-hot"/>
+<text x="90" y="33" text-anchor="middle" class="fg-text">www.site/page</text>
+<text x="90" y="86" text-anchor="middle" class="fg-text">site/page/</text>
+<text x="90" y="139" text-anchor="middle" class="fg-text">site/page?ref=</text>
+<text x="310" y="76" text-anchor="middle" class="fg-strong">Canonique</text>
+<text x="310" y="95" text-anchor="middle" class="fg-label">site/page</text>
+</svg>
+<figcaption>Chaque variante désigne la même canonique, et la page indexée reçoit toute la force des trois.</figcaption>
+</figure>
+
 Google a supprimé l’outil Paramètres d’URL de la Search Console en avril 2022 : la gestion des paramètres se fait sur le site lui-même, avec des balises canoniques, des liens internes cohérents et des règles robots.txt pour les paramètres à tenir hors de l’exploration, comme les identifiants de session :
 
 ```
@@ -250,6 +268,22 @@ Chaque lien qui fonctionne garde un visiteur déjà intéressé.
 | Erreur serveur 5xx | Mauvaise configuration ou surcharge du serveur | Consulter les journaux, corriger l’erreur, changer d’hébergement si elle revient |
 
 Screaming Frog, le rapport d’indexation des pages de la Search Console et Dead Link Checker couvrent ces contrôles. Une page 404 personnalisée, avec une recherche et des liens populaires, garde le visiteur sur le site.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Une page 404 qui a encore des liens ou du trafic reçoit une redirection 301 vers la page pertinente la plus proche ; une page 404 de faible valeur peut rester telle quelle ou renvoyer une 410.">
+<path d="M150 75 L230 35" class="fg-accent"/>
+<path d="M150 75 L230 115" class="fg-dim" stroke-dasharray="4 4"/>
+<rect x="15" y="55" width="135" height="40" rx="6" class="fg-box"/>
+<rect x="230" y="12" width="150" height="46" rx="6" class="fg-hot"/>
+<rect x="230" y="92" width="150" height="46" rx="6" class="fg-box"/>
+<text x="82" y="81" text-anchor="middle" class="fg-strong">Page 404</text>
+<text x="305" y="32" text-anchor="middle" class="fg-strong">Avec liens</text>
+<text x="305" y="50" text-anchor="middle" class="fg-label">redirection 301</text>
+<text x="305" y="112" text-anchor="middle" class="fg-text">Faible valeur</text>
+<text x="305" y="130" text-anchor="middle" class="fg-label">laisser ou 410</text>
+</svg>
+<figcaption>Une URL morte qui garde des liens ou du trafic transmet ses visiteurs, par une 301, à la page pertinente la plus proche.</figcaption>
+</figure>
 
 ## Métadonnées et SEO des images
 
@@ -285,6 +319,26 @@ Avec les bonnes balises, un acheteur allemand arrive sur votre page allemande, u
 ```
 
 Le rapport Ciblage international de la Search Console et son réglage de pays ont été retirés en 2022. Le ciblage par pays repose désormais sur hreflang, sur un domaine de code pays comme `.co.uk` quand il convient à l’activité, et sur les signaux locaux présents dans le contenu. Notre guide du [SEO technique d’un site multilingue](/fr/seo-technique-site-multilingue/) détaille la mise en place.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Une page avec trois versions hreflang : en-us pour les États-Unis, en-gb pour le Royaume-Uni et x-default pour tous les autres visiteurs.">
+<path d="M200 50 L70 102" class="fg-line"/>
+<path d="M200 50 L200 102" class="fg-line"/>
+<path d="M200 50 L330 102" class="fg-line"/>
+<rect x="135" y="10" width="130" height="40" rx="6" class="fg-hot"/>
+<rect x="15" y="102" width="110" height="46" rx="6" class="fg-box"/>
+<rect x="145" y="102" width="110" height="46" rx="6" class="fg-box"/>
+<rect x="275" y="102" width="110" height="46" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-strong">Une page</text>
+<text x="70" y="122" text-anchor="middle" class="fg-text">en-us</text>
+<text x="70" y="140" text-anchor="middle" class="fg-label">États-Unis</text>
+<text x="200" y="122" text-anchor="middle" class="fg-text">en-gb</text>
+<text x="200" y="140" text-anchor="middle" class="fg-label">Royaume-Uni</text>
+<text x="330" y="122" text-anchor="middle" class="fg-text">x-default</text>
+<text x="330" y="140" text-anchor="middle" class="fg-label">les autres</text>
+</svg>
+<figcaption>Chaque version cite les autres et elle-même : Google sert la page américaine aux États-Unis et la page britannique au Royaume-Uni.</figcaption>
+</figure>
 
 <aside class="post-cta">
 <p><strong>Des acheteurs qui arrivent sur la page écrite dans leur langue ?</strong> Notre <a href="/fr/services/seo-technique/">SEO technique pour sites multilingues</a> vérifie si vos versions linguistiques se font concurrence et corrige ce qui le provoque, pour que chacune gagne ses propres acheteurs. <a href="/fr/nous-contacter/">Réservez un premier échange</a>.</p>

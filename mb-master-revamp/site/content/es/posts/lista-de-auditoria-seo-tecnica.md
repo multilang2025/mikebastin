@@ -233,6 +233,24 @@ Una página por búsqueda le da a esa página toda su fuerza. Cuando el mismo co
 
 Si `tudominio.com/pagina` y `tudominio.com/pagina?ref=twitter` muestran el mismo contenido, ambas declaran `tudominio.com/pagina` como canonical.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Tres URL con el mismo contenido, con www, con barra final y con un parámetro de seguimiento, que declaran la misma versión canonical.">
+<path d="M170 27 L235 80" class="fg-line"/>
+<path d="M170 80 L235 80" class="fg-line"/>
+<path d="M170 133 L235 80" class="fg-line"/>
+<rect x="10" y="10" width="160" height="34" rx="6" class="fg-box"/>
+<rect x="10" y="63" width="160" height="34" rx="6" class="fg-box"/>
+<rect x="10" y="116" width="160" height="34" rx="6" class="fg-box"/>
+<rect x="235" y="56" width="150" height="48" rx="6" class="fg-hot"/>
+<text x="90" y="33" text-anchor="middle" class="fg-text">www.web/pagina</text>
+<text x="90" y="86" text-anchor="middle" class="fg-text">web/pagina/</text>
+<text x="90" y="139" text-anchor="middle" class="fg-text">web/pagina?ref=</text>
+<text x="310" y="76" text-anchor="middle" class="fg-strong">Canonical</text>
+<text x="310" y="95" text-anchor="middle" class="fg-label">web/pagina</text>
+</svg>
+<figcaption>Cada variante declara el mismo canonical, y la única página indexada recibe toda la fuerza de las tres.</figcaption>
+</figure>
+
 Los parámetros se gestionan en el propio sitio: canonicals en las URL con parámetros, enlaces internos coherentes y reglas de robots.txt para los parámetros que deben quedar fuera del rastreo, como los identificadores de sesión:
 
 ```
@@ -261,6 +279,22 @@ Cada enlace que funciona retiene a un visitante que ya estaba interesado.
 | Error de servidor 5xx | Mala configuración o sobrecarga del servidor | Revisa los registros, corrige el error y mejora el alojamiento si se repite |
 
 Rastrea con Screaming Frog, consulta el informe de indexación de páginas en Search Console y usa un verificador como Dead Link Checker para los enlaces externos. Una página 404 personalizada, con buscador y enlaces populares, mantiene a los visitantes en movimiento.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Una página 404 que aún tiene enlaces o tráfico recibe una redirección 301 a la página relevante más cercana; una página 404 de poco valor puede quedarse así o devolver 410.">
+<path d="M150 75 L230 35" class="fg-accent"/>
+<path d="M150 75 L230 115" class="fg-dim" stroke-dasharray="4 4"/>
+<rect x="15" y="55" width="135" height="40" rx="6" class="fg-box"/>
+<rect x="230" y="12" width="150" height="46" rx="6" class="fg-hot"/>
+<rect x="230" y="92" width="150" height="46" rx="6" class="fg-box"/>
+<text x="82" y="81" text-anchor="middle" class="fg-strong">Página 404</text>
+<text x="305" y="32" text-anchor="middle" class="fg-strong">Con enlaces</text>
+<text x="305" y="50" text-anchor="middle" class="fg-label">redirección 301</text>
+<text x="305" y="112" text-anchor="middle" class="fg-text">Poco valor</text>
+<text x="305" y="130" text-anchor="middle" class="fg-label">dejar o 410</text>
+</svg>
+<figcaption>Una URL rota que conserva enlaces o tráfico pasa sus visitas, con una 301, a la página relevante más cercana.</figcaption>
+</figure>
 
 ## Escribe títulos únicos y cuida el SEO de las imágenes
 
@@ -297,6 +331,26 @@ Con las etiquetas correctas, un visitante francés aterriza en tu página en fra
 ```
 
 Search Console eliminó en 2022 su informe de segmentación internacional y su ajuste de país. La segmentación por país procede ahora de hreflang, de un dominio de código de país como `.fr` o `.nl` cuando encaja con el negocio, y de las señales locales del propio contenido.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Una página con tres versiones hreflang: fr-fr para Francia, es-es para España y x-default para el resto de visitantes.">
+<path d="M200 50 L70 102" class="fg-line"/>
+<path d="M200 50 L200 102" class="fg-line"/>
+<path d="M200 50 L330 102" class="fg-line"/>
+<rect x="135" y="10" width="130" height="40" rx="6" class="fg-hot"/>
+<rect x="15" y="102" width="110" height="46" rx="6" class="fg-box"/>
+<rect x="145" y="102" width="110" height="46" rx="6" class="fg-box"/>
+<rect x="275" y="102" width="110" height="46" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-strong">Una página</text>
+<text x="70" y="122" text-anchor="middle" class="fg-text">fr-fr</text>
+<text x="70" y="140" text-anchor="middle" class="fg-label">Francia</text>
+<text x="200" y="122" text-anchor="middle" class="fg-text">es-es</text>
+<text x="200" y="140" text-anchor="middle" class="fg-label">España</text>
+<text x="330" y="122" text-anchor="middle" class="fg-text">x-default</text>
+<text x="330" y="140" text-anchor="middle" class="fg-label">el resto</text>
+</svg>
+<figcaption>Cada versión cita a las demás y a sí misma, así Google sirve la página francesa en Francia y la española en España.</figcaption>
+</figure>
 
 <aside class="post-cta">
 <p><strong>¿Quieres que los visitantes franceses aterricen en tus páginas en francés?</strong> Nuestro <a href="/es/services/seo-tecnico/">SEO técnico para sitios multilingües</a> comprueba si tus versiones de idioma encajan entre sí y corrige lo que las mantiene separadas. <a href="/es/contactanos/">Pide una auditoría gratuita de 20 minutos</a>.</p>
