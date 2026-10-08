@@ -59,6 +59,26 @@ Las respuestas cortas y directas ganan fragmentos destacados y cuadros de «Otra
 
 **Ejemplo:** una gestoría responde a «¿Qué gastos puede deducirse un autónomo?» para captar el volumen de búsqueda de la campaña de la renta.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 156" role="img" aria-label="Una respuesta corta y directa puede aparecer en tres sitios: el fragmento destacado, el cuadro de «Otras preguntas de los usuarios» y las respuestas de IA que la citan.">
+<path d="M200 50 L62 100" class="fg-line"/>
+<path d="M200 50 L200 100" class="fg-line"/>
+<path d="M200 50 L338 100" class="fg-line"/>
+<rect x="115" y="10" width="170" height="40" rx="6" class="fg-hot"/>
+<rect x="4" y="100" width="116" height="46" rx="6" class="fg-box"/>
+<rect x="125" y="100" width="150" height="46" rx="6" class="fg-box"/>
+<rect x="280" y="100" width="116" height="46" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-strong">Respuesta corta</text>
+<text x="62" y="120" text-anchor="middle" class="fg-text">Fragmento</text>
+<text x="62" y="138" text-anchor="middle" class="fg-label">destacado</text>
+<text x="200" y="120" text-anchor="middle" class="fg-text">Otras preguntas</text>
+<text x="200" y="138" text-anchor="middle" class="fg-label">de los usuarios</text>
+<text x="338" y="120" text-anchor="middle" class="fg-text">Respuestas</text>
+<text x="338" y="138" text-anchor="middle" class="fg-label">de IA</text>
+</svg>
+<figcaption>Escribe la respuesta una vez, corta y directa, y puede ganar el fragmento destacado, el cuadro de «Otras preguntas de los usuarios» y una cita en las respuestas de IA.</figcaption>
+</figure>
+
 ### Guías para resolver problemas
 
 Un lector con un problema concreto está más cerca de comprar que uno que se informa en general. Escribe sobre los problemas que tu producto o servicio elimina.
@@ -92,6 +112,23 @@ Los compradores confían en un proceso que pueden ver, y tu equipo comercial con
 Un caso de éxito es la pieza que tu interlocutor reenvía al resto del comité de compra, lo que lo convierte en uno de los contenidos más útiles que lee un comprador B2B en la etapa de decisión.
 
 **Ejemplo:** una empresa de logística publica «Cómo redujimos los plazos de entrega de un distribuidor del Benelux», con resultados medibles.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 120" role="img" aria-label="Un caso de éxito pasa de ti a tu interlocutor, que lo reenvía al comité de compra que decide.">
+<path d="M137 44 L143 52 L137 60" class="fg-line"/>
+<path d="M279 44 L285 52 L279 60" class="fg-accent"/>
+<rect x="4" y="30" width="130" height="44" rx="6" class="fg-box"/>
+<rect x="146" y="30" width="130" height="44" rx="6" class="fg-box"/>
+<rect x="288" y="30" width="108" height="44" rx="6" class="fg-hot"/>
+<text x="69" y="57" text-anchor="middle" class="fg-text">Caso de éxito</text>
+<text x="211" y="57" text-anchor="middle" class="fg-text">Interlocutor</text>
+<text x="342" y="57" text-anchor="middle" class="fg-strong">Comité</text>
+<text x="69" y="100" text-anchor="middle" class="fg-label">publicas</text>
+<text x="211" y="100" text-anchor="middle" class="fg-label">lo reenvía</text>
+<text x="342" y="100" text-anchor="middle" class="fg-label">decide</text>
+</svg>
+<figcaption>Escribe el caso de éxito para todo el comité de compra: tu interlocutor lo reenvía y el comité lo lee en la etapa de decisión.</figcaption>
+</figure>
 
 ### Perfiles de empleados
 
@@ -130,6 +167,22 @@ Una pregunta a tu público te da datos propios y resultados originales, que atra
 Los visitantes dejan su correo con más facilidad cuando reciben algo personal a cambio, y un cuestionario con resultados reservados lo consigue.
 
 **Ejemplo:** una agencia de marketing ofrece «¿Cuál es tu nivel de madurez en contenidos?» para segmentar contactos según lo preparados que estén.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 130" role="img" aria-label="Un cuestionario como intercambio: el visitante deja su correo electrónico y recibe a cambio un resultado personal.">
+<path d="M140 58 L258 58" class="fg-accent"/>
+<path d="M250 51 L258 58 L250 65" class="fg-accent"/>
+<path d="M260 82 L142 82" class="fg-line"/>
+<path d="M150 75 L142 82 L150 89" class="fg-line"/>
+<rect x="10" y="45" width="130" height="50" rx="6" class="fg-box"/>
+<rect x="260" y="45" width="130" height="50" rx="6" class="fg-hot"/>
+<text x="75" y="76" text-anchor="middle" class="fg-text">Visitante</text>
+<text x="325" y="76" text-anchor="middle" class="fg-strong">Cuestionario</text>
+<text x="200" y="32" text-anchor="middle" class="fg-label">correo electrónico</text>
+<text x="200" y="118" text-anchor="middle" class="fg-label">resultado personal</text>
+</svg>
+<figcaption>Un cuestionario con resultados reservados es un intercambio justo: el visitante recibe algo personal y tú consigues un correo para hacer seguimiento.</figcaption>
+</figure>
 
 ### Comparativas
 

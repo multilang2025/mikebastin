@@ -45,6 +45,22 @@ Chaque marché demande sa propre recherche, qui couvre :
 
 Google Keyword Planner, Semrush et Ahrefs aident à la mener, et la connaissance d’un locuteur natif distingue les vraies requêtes des hypothèses transposées du français. Une formulation locale précise aide aussi les modèles d’IA à associer votre marque aux bons sujets dans chaque langue.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Une liste de mots-clés français traduite donne des requêtes supposées ; une étude menée sur le marché trouve les requêtes que les acheteurs saisissent vraiment.">
+<path d="M160 75 L225 35" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M160 75 L225 115" class="fg-accent"/>
+<rect x="10" y="55" width="150" height="40" rx="6" class="fg-box"/>
+<rect x="225" y="12" width="165" height="46" rx="6" class="fg-box"/>
+<rect x="225" y="92" width="165" height="46" rx="6" class="fg-hot"/>
+<text x="85" y="81" text-anchor="middle" class="fg-text">Liste française</text>
+<text x="307" y="32" text-anchor="middle" class="fg-text">Traduite</text>
+<text x="307" y="50" text-anchor="middle" class="fg-label">requêtes supposées</text>
+<text x="307" y="112" text-anchor="middle" class="fg-strong">Étude locale</text>
+<text x="307" y="130" text-anchor="middle" class="fg-label">vraies requêtes</text>
+</svg>
+<figcaption>La recherche propre à chaque marché trouve les mots de ses acheteurs, et un locuteur natif les confirme.</figcaption>
+</figure>
+
 ## Rédigez des balises méta pour chaque langue
 
 Votre titre et votre description sont le premier texte commercial que lit un internaute de chaque marché, souvent avant de connaître votre nom. Chaque version de langue demande ses propres :
@@ -80,6 +96,27 @@ Des balises correctes envoient un acheteur allemand vers votre page allemande, e
 
 Des balises hreflang cassées ou circulaires sont la constatation la plus fréquente de nos audits : vérifiez-les après chaque mise à jour d’extension ou ajout de langue.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 166" role="img" aria-label="Hreflang entre deux pages : la page A en français désigne la page B en allemand, la page B désigne la page A, et un x-default accueille tous les autres utilisateurs.">
+<path d="M200 110 L80 70" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M200 110 L320 70" class="fg-dim" stroke-dasharray="4 4"/>
+<line x1="150" y1="38" x2="248" y2="38" class="fg-accent"/>
+<path d="M241 33 L248 38 L241 43" class="fg-accent"/>
+<line x1="152" y1="52" x2="250" y2="52" class="fg-accent"/>
+<path d="M159 47 L152 52 L159 57" class="fg-accent"/>
+<rect x="10" y="20" width="140" height="50" rx="6" class="fg-box"/>
+<rect x="250" y="20" width="140" height="50" rx="6" class="fg-box"/>
+<rect x="130" y="110" width="140" height="46" rx="6" class="fg-fill"/>
+<text x="80" y="42" text-anchor="middle" class="fg-strong">Page A</text>
+<text x="80" y="60" text-anchor="middle" class="fg-label">en français</text>
+<text x="320" y="42" text-anchor="middle" class="fg-strong">Page B</text>
+<text x="320" y="60" text-anchor="middle" class="fg-label">en allemand</text>
+<text x="200" y="130" text-anchor="middle" class="fg-text">x-default</text>
+<text x="200" y="147" text-anchor="middle" class="fg-label">tous les autres</text>
+</svg>
+<figcaption>Chaque balise fonctionne dans les deux sens, et le x-default accueille les visiteurs des autres langues et régions.</figcaption>
+</figure>
+
 <aside class="post-cta">
 <p><strong>Vous voulez que chaque marché arrive sur la bonne version de votre site ?</strong> Nos <a href="/fr/services/referencement-multilingue/">programmes de référencement multilingue</a> valident les balises hreflang de chaque page, marché par marché, page d’accueil comprise. <a href="/fr/nous-contacter/">Réservez un premier échange</a>.</p>
 </aside>
@@ -93,6 +130,26 @@ Un lien venu de la presse locale ou d’une association professionnelle du pays 
 - des relations presse ciblées.
 
 Gagnez chaque lien, un par un : des liens éditoriaux tiennent dans la durée et vous mettent à l’abri des pénalités qui accompagnent les liens achetés. Des liens locaux de qualité augmentent aussi la probabilité qu’une IA retienne vos contenus comme source dans ce marché. Pour comparer les offres du marché, notre [revue des plateformes d’achat et de vente de liens](/fr/plateformes-achat-vente-liens/) détaille les contrôles qui gardent un site en sécurité.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Trois façons d’obtenir des liens régionaux : des articles invités localisés, des partenariats avec des entreprises locales et des relations presse ciblées.">
+<path d="M200 50 L70 102" class="fg-line"/>
+<path d="M200 50 L200 102" class="fg-line"/>
+<path d="M200 50 L330 102" class="fg-line"/>
+<rect x="115" y="10" width="170" height="40" rx="6" class="fg-hot"/>
+<rect x="8" y="102" width="124" height="46" rx="6" class="fg-box"/>
+<rect x="138" y="102" width="124" height="46" rx="6" class="fg-box"/>
+<rect x="268" y="102" width="124" height="46" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-strong">Liens régionaux</text>
+<text x="70" y="122" text-anchor="middle" class="fg-text">Articles</text>
+<text x="70" y="140" text-anchor="middle" class="fg-label">en invité</text>
+<text x="200" y="122" text-anchor="middle" class="fg-text">Partenariats</text>
+<text x="200" y="140" text-anchor="middle" class="fg-label">acteurs locaux</text>
+<text x="330" y="122" text-anchor="middle" class="fg-text">Presse</text>
+<text x="330" y="140" text-anchor="middle" class="fg-label">RP ciblées</text>
+</svg>
+<figcaption>Chaque piste apporte un lien du pays visé, là où la pertinence est géographique autant que thématique.</figcaption>
+</figure>
 
 ## Clarifiez vos entités avec les données structurées
 

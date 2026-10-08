@@ -38,6 +38,26 @@ Publishing often keeps you visible in every market you sell into, and writing ca
 
 GPT models draft articles, product descriptions and email campaigns, and tools like [Copy.ai](https://www.copy.ai) and [Jasper](https://www.jasper.ai/) automate parts of the content workflow. Quality still depends on the brief and the editor: our guide to [how AI is changing SEO strategy](/blog/how-ai-is-revolutionising-seo-strategies/) covers where AI drafts help rankings and where they need a human edit.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="AI drafting feeds three gains at once: a steady pace in every market, timely topics, and copy that adapts to each segment.">
+<path d="M200 50 L70 102" class="fg-line"/>
+<path d="M200 50 L200 102" class="fg-line"/>
+<path d="M200 50 L330 102" class="fg-line"/>
+<rect x="120" y="10" width="160" height="40" rx="6" class="fg-hot"/>
+<rect x="8" y="102" width="124" height="46" rx="6" class="fg-box"/>
+<rect x="138" y="102" width="124" height="46" rx="6" class="fg-box"/>
+<rect x="268" y="102" width="124" height="46" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-strong">AI drafting</text>
+<text x="70" y="122" text-anchor="middle" class="fg-text">Pace</text>
+<text x="70" y="140" text-anchor="middle" class="fg-label">every market</text>
+<text x="200" y="122" text-anchor="middle" class="fg-text">Relevance</text>
+<text x="200" y="140" text-anchor="middle" class="fg-label">timely topics</text>
+<text x="330" y="122" text-anchor="middle" class="fg-text">Segments</text>
+<text x="330" y="140" text-anchor="middle" class="fg-label">copy adapts</text>
+</svg>
+<figcaption>One faster draft pays back three ways, with the team you already have.</figcaption>
+</figure>
+
 ## Put budget on the segments most likely to buy
 
 Budget works hardest on the segments most likely to buy, and predictive analytics finds them. Machine learning reads your historical data (customer behaviour, purchase history, engagement) and forecasts which tactics and audiences are most likely to respond, so money moves to where it earns.
@@ -48,6 +68,24 @@ Budget works hardest on the segments most likely to buy, and predictive analytic
 
 Netflix and Amazon are the best-known examples, using predictive models to personalise recommendations. For smaller teams, Google Analytics' predictive metrics, such as purchase and churn probability, bring a version of the same idea within reach.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Predictive analytics weights the budget towards the segments most likely to buy, with less going to segments showing some or low interest.">
+<path d="M140 75 L240 29" class="fg-accent"/>
+<path d="M140 75 L240 75" class="fg-dim"/>
+<path d="M140 75 L240 121" class="fg-dim" stroke-dasharray="4 4"/>
+<rect x="10" y="47" width="130" height="56" rx="6" class="fg-box"/>
+<rect x="240" y="12" width="150" height="34" rx="6" class="fg-hot"/>
+<rect x="240" y="58" width="150" height="34" rx="6" class="fg-box"/>
+<rect x="240" y="104" width="150" height="34" rx="6" class="fg-box"/>
+<text x="75" y="71" text-anchor="middle" class="fg-strong">Budget</text>
+<text x="75" y="90" text-anchor="middle" class="fg-label">by forecast</text>
+<text x="315" y="35" text-anchor="middle" class="fg-text">Likely buyers</text>
+<text x="315" y="81" text-anchor="middle" class="fg-text">Some interest</text>
+<text x="315" y="127" text-anchor="middle" class="fg-text">Low interest</text>
+</svg>
+<figcaption>The forecast points spend at the segments most likely to respond, so money moves to where it earns.</figcaption>
+</figure>
+
 ## Answer customers overnight with AI chatbots
 
 A question answered overnight keeps the buyer with you, and when you sell across time zones, overnight is most of the day somewhere. AI chatbots answer many enquiries at once, instantly, at any hour.
@@ -57,6 +95,22 @@ A question answered overnight keeps the buyer with you, and when you sell across
 - **Scale:** replies stay fast through peaks in enquiries.
 
 Zendesk, HubSpot and Intercom offer AI chat for support and sales, and e-commerce sites use it to guide product choice and answer order questions. Our guide to [conversational AI in business](/blog/conversational-ai-chatbots-business/) covers ten practical uses and how to measure them. Plan who checks the bot's answers in each language it speaks, and how it hands over to a person; the handover matters as much as the bot.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="An AI chatbot answers routine queries instantly at any hour and hands complaints and exceptions over to a person.">
+<path d="M150 75 L230 35" class="fg-dim"/>
+<path d="M150 75 L230 115" class="fg-accent"/>
+<rect x="15" y="55" width="135" height="40" rx="6" class="fg-box"/>
+<rect x="230" y="12" width="160" height="46" rx="6" class="fg-box"/>
+<rect x="230" y="92" width="160" height="46" rx="6" class="fg-hot"/>
+<text x="82" y="81" text-anchor="middle" class="fg-strong">AI chatbot</text>
+<text x="310" y="32" text-anchor="middle" class="fg-text">Routine queries</text>
+<text x="310" y="50" text-anchor="middle" class="fg-label">answered instantly</text>
+<text x="310" y="112" text-anchor="middle" class="fg-strong">Exceptions</text>
+<text x="310" y="130" text-anchor="middle" class="fg-label">handed to a person</text>
+</svg>
+<figcaption>The bot carries the volume at every hour, and a planned handover keeps the exceptions with a person.</figcaption>
+</figure>
 
 ## Buy AI tools as part of one marketing plan
 

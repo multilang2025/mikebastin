@@ -28,6 +28,26 @@ Une alternative se justifie quand elle répond à un besoin précis de l’entre
 - **Performance :** le script de suivi de Google peut ralentir vos pages.
 - **Propriété des données :** certaines entreprises veulent garder la maîtrise complète de leurs données d’analyse.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Quatre raisons de quitter GA4 : la confidentialité, la complexité, la vitesse des pages et la propriété de vos données.">
+<path d="M200 80 L69 30" class="fg-line"/>
+<path d="M200 80 L331 30" class="fg-line"/>
+<path d="M200 80 L69 130" class="fg-line"/>
+<path d="M200 80 L331 130" class="fg-line"/>
+<rect x="10" y="10" width="118" height="40" rx="6" class="fg-box"/>
+<rect x="272" y="10" width="118" height="40" rx="6" class="fg-box"/>
+<rect x="10" y="110" width="118" height="40" rx="6" class="fg-box"/>
+<rect x="272" y="110" width="118" height="40" rx="6" class="fg-box"/>
+<rect x="138" y="58" width="124" height="44" rx="6" class="fg-hot"/>
+<text x="200" y="86" text-anchor="middle" class="fg-strong">Vos raisons</text>
+<text x="69" y="36" text-anchor="middle" class="fg-text">Vie privée</text>
+<text x="331" y="36" text-anchor="middle" class="fg-text">Complexité</text>
+<text x="69" y="136" text-anchor="middle" class="fg-text">Vitesse</text>
+<text x="331" y="136" text-anchor="middle" class="fg-text">Vos données</text>
+</svg>
+<figcaption>Un changement d’outil rapporte quand il répond à l’un de ces quatre besoins : partez de celui que vit votre entreprise.</figcaption>
+</figure>
+
 <aside class="post-cta">
 <p><strong>Vous voulez savoir quel marché rapporte réellement ?</strong> La configuration compte autant que l’outil. Notre service d’<a href="/fr/services/seo-technique/">analyse et de suivi</a> configure votre mesure, définit les indicateurs qui comptent pour vous (conversions, téléchargements, autres actions clés) et livre des rapports centrés sur ces chiffres. <a href="/fr/nous-contacter/">Faites vérifier votre configuration</a>.</p>
 </aside>
@@ -47,6 +67,22 @@ Cinq outils, chacun le plus fort sur une tâche différente :
 **Idéal pour :** la propriété des données.
 
 [Matomo](https://matomo.org) convient si vous voulez des rapports dans le style de Google Analytics avec des données sous votre contrôle. Il est open source, auto-hébergé ou en version cloud.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Matomo fonctionne de deux façons, auto-hébergé sur vos serveurs ou dans le cloud hébergé par Matomo, avec les mêmes rapports dans le style de Google Analytics.">
+<path d="M150 75 L230 35" class="fg-line"/>
+<path d="M150 75 L230 115" class="fg-line"/>
+<rect x="15" y="55" width="135" height="40" rx="6" class="fg-hot"/>
+<rect x="230" y="12" width="160" height="46" rx="6" class="fg-box"/>
+<rect x="230" y="92" width="160" height="46" rx="6" class="fg-box"/>
+<text x="82" y="81" text-anchor="middle" class="fg-strong">Matomo</text>
+<text x="310" y="32" text-anchor="middle" class="fg-text">Auto-hébergé</text>
+<text x="310" y="50" text-anchor="middle" class="fg-label">vos serveurs</text>
+<text x="310" y="112" text-anchor="middle" class="fg-text">Cloud</text>
+<text x="310" y="130" text-anchor="middle" class="fg-label">hébergé par Matomo</text>
+</svg>
+<figcaption>Les deux options donnent des rapports dans le style de Google Analytics, avec des données sous votre contrôle.</figcaption>
+</figure>
 
 **Fonctionnalités clés :**
 
@@ -146,6 +182,23 @@ Cinq outils, chacun le plus fort sur une tâche différente :
 | Mixpanel | Analyse de produit | Cloud | Configurable | Gratuit jusqu’à 1 million d’événements par mois |
 
 Les prix proviennent de la page tarifaire de chaque éditeur au 2 octobre 2026 et sont sourcés sous chaque outil ci-dessus.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Plausible et Fathom se passent de cookies ; Matomo, Piwik PRO et Mixpanel laissent les cookies configurables.">
+<path d="M30 52 H170" class="fg-rule"/>
+<path d="M230 52 H370" class="fg-rule"/>
+<rect x="10" y="10" width="180" height="130" rx="6" class="fg-hot"/>
+<rect x="210" y="10" width="180" height="130" rx="6" class="fg-box"/>
+<text x="100" y="38" text-anchor="middle" class="fg-strong">Zéro cookie</text>
+<text x="100" y="84" text-anchor="middle" class="fg-text">Plausible</text>
+<text x="100" y="110" text-anchor="middle" class="fg-text">Fathom</text>
+<text x="300" y="38" text-anchor="middle" class="fg-strong">Configurable</text>
+<text x="300" y="78" text-anchor="middle" class="fg-text">Matomo</text>
+<text x="300" y="102" text-anchor="middle" class="fg-text">Piwik PRO</text>
+<text x="300" y="126" text-anchor="middle" class="fg-text">Mixpanel</text>
+</svg>
+<figcaption>Deux des cinq outils se passent de cookies dès le départ, et les trois autres laissent votre configuration en décider.</figcaption>
+</figure>
 
 ## Choisissez l’outil selon votre question principale
 

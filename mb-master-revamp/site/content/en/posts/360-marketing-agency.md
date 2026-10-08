@@ -59,6 +59,20 @@ Each habit below sends budget to the channel where the problem is still open.
 
 **A strategy the team re-reads.** A plan shapes the work for as long as people open it. Keep it short enough to reread every week, so it still shapes the work long after week two; a 90-page document, beautifully structured, tends to be read once, on day one.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 120" role="img" aria-label="A 90-page plan is read once, on day one; a short plan is reread every week and keeps shaping the work.">
+<path d="M178 60 L220 60" class="fg-accent"/>
+<path d="M212 53 L220 60 L212 67" class="fg-accent"/>
+<rect x="10" y="30" width="168" height="60" rx="6" class="fg-box"/>
+<rect x="222" y="30" width="168" height="60" rx="6" class="fg-hot"/>
+<text x="94" y="56" text-anchor="middle" class="fg-text">90-page plan</text>
+<text x="94" y="76" text-anchor="middle" class="fg-label">read once</text>
+<text x="306" y="56" text-anchor="middle" class="fg-strong">Short plan</text>
+<text x="306" y="76" text-anchor="middle" class="fg-label">reread weekly</text>
+</svg>
+<figcaption>Keep the plan short enough to reread weekly, and it shapes the work long after week two.</figcaption>
+</figure>
+
 **Multilingual planned from the start.** When the Spanish and French versions are planned alongside the English one, each starts from its own complete plan and a clean handover. Real multilingual marketing, as our [multilingual SEO best practices](/blog/best-practices-for-multilingual-seo/) explain, is a planning input from day one.
 
 ## Test your agency's integration in ten minutes
@@ -89,6 +103,23 @@ After we consolidated into one strategy document and one measurement plan, three
 
 Every gain came from tactics already in place. Joining the work up drove the lift.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 120" role="img" aria-label="Four separate engagements consolidated into one strategy and one measurement plan, which surfaced findings in the first month.">
+<path d="M130 44 L136 52 L130 60" class="fg-line"/>
+<path d="M263 44 L269 52 L263 60" class="fg-accent"/>
+<rect x="7" y="30" width="120" height="44" rx="6" class="fg-box"/>
+<rect x="140" y="30" width="120" height="44" rx="6" class="fg-box"/>
+<rect x="273" y="30" width="120" height="44" rx="6" class="fg-hot"/>
+<text x="67" y="57" text-anchor="middle" class="fg-text">Engagements</text>
+<text x="200" y="57" text-anchor="middle" class="fg-text">One plan</text>
+<text x="333" y="57" text-anchor="middle" class="fg-strong">Findings</text>
+<text x="67" y="100" text-anchor="middle" class="fg-label">four, separate</text>
+<text x="200" y="100" text-anchor="middle" class="fg-label">one strategy</text>
+<text x="333" y="100" text-anchor="middle" class="fg-label">first month</text>
+</svg>
+<figcaption>Joining the existing tactics into one plan produced the lift: every finding came from work already in place.</figcaption>
+</figure>
+
 ## The data behind joined-up campaigns
 
 Connection pays more than channel count. The IPA’s analysis of more than 250 campaign case studies found a measurable gap between integrated multi-channel work and single-channel campaigns.
@@ -98,6 +129,26 @@ Connection pays more than channel count. The IPA’s analysis of more than 250 c
 > Source: [Smart Insights, summarising the IPA Effectiveness Databank](https://www.smartinsights.com/traffic-building-strategy/integrated-marketing-communications/4-options-for-integrating-marketing-campaigns/)
 
 For your budget, that means three connected channels beat seven disconnected ones.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Seven isolated channels on one side and three channels connected to each other on the other, with the connected three highlighted.">
+<line x1="200" y1="20" x2="200" y2="115" class="fg-rule"/>
+<path d="M260 95 L340 95 L300 35 Z" class="fg-accent"/>
+<circle cx="45" cy="40" r="10" class="fg-box"/>
+<circle cx="100" cy="28" r="10" class="fg-box"/>
+<circle cx="155" cy="44" r="10" class="fg-box"/>
+<circle cx="60" cy="80" r="10" class="fg-box"/>
+<circle cx="120" cy="72" r="10" class="fg-box"/>
+<circle cx="160" cy="100" r="10" class="fg-box"/>
+<circle cx="90" cy="108" r="10" class="fg-box"/>
+<circle cx="300" cy="35" r="14" class="fg-hot"/>
+<circle cx="260" cy="95" r="14" class="fg-hot"/>
+<circle cx="340" cy="95" r="14" class="fg-hot"/>
+<text x="100" y="142" text-anchor="middle" class="fg-label">seven isolated</text>
+<text x="300" y="142" text-anchor="middle" class="fg-strong">three connected</text>
+</svg>
+<figcaption>Connection pays more than channel count: three channels that share one plan beat seven that run apart.</figcaption>
+</figure>
 
 ## Ask to see each promise before you sign
 

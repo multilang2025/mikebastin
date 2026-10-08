@@ -59,6 +59,26 @@ Des réponses courtes et directes gagnent les extraits optimisés et les encadr�
 
 **Exemple :** une fiduciaire belge répond à « Quels frais professionnels un indépendant peut-il déduire ? » pour capter le volume de recherche de la période des déclarations.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 156" role="img" aria-label="Une réponse courte et directe peut apparaître à trois endroits : l’extrait optimisé, l’encadré « Autres questions posées » et les réponses des IA qui la citent.">
+<path d="M200 50 L62 100" class="fg-line"/>
+<path d="M200 50 L200 100" class="fg-line"/>
+<path d="M200 50 L338 100" class="fg-line"/>
+<rect x="115" y="10" width="170" height="40" rx="6" class="fg-hot"/>
+<rect x="4" y="100" width="116" height="46" rx="6" class="fg-box"/>
+<rect x="125" y="100" width="150" height="46" rx="6" class="fg-box"/>
+<rect x="280" y="100" width="116" height="46" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-strong">Réponse courte</text>
+<text x="62" y="120" text-anchor="middle" class="fg-text">Extrait</text>
+<text x="62" y="138" text-anchor="middle" class="fg-label">optimisé</text>
+<text x="200" y="120" text-anchor="middle" class="fg-text">Autres</text>
+<text x="200" y="138" text-anchor="middle" class="fg-label">questions posées</text>
+<text x="338" y="120" text-anchor="middle" class="fg-text">Réponses</text>
+<text x="338" y="138" text-anchor="middle" class="fg-label">des IA</text>
+</svg>
+<figcaption>Rédigez la réponse une fois, courte et directe : elle peut gagner l’extrait optimisé, l’encadré « Autres questions posées » et une citation dans les réponses des IA.</figcaption>
+</figure>
+
 ### Guides de résolution de problèmes
 
 Un lecteur qui a un problème précis est plus près de l’achat qu’un lecteur qui se renseigne en général. Écrivez sur les difficultés que votre produit ou votre service fait disparaître.
@@ -92,6 +112,23 @@ Les acheteurs font confiance à un processus qu’ils peuvent voir, et votre éq
 Une étude de cas est le document que votre interlocuteur transmet au reste du comité d’achat, ce qui en fait l’un des contenus les plus utiles qu’un acheteur B2B lit à l’étape de la décision.
 
 **Exemple :** une entreprise de logistique publie « Comment nous avons réduit les délais de livraison d’un distributeur du Benelux », avec des résultats mesurables.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 120" role="img" aria-label="Une étude de cas passe de vous à votre interlocuteur, qui la transmet au comité d’achat qui décide.">
+<path d="M137 44 L143 52 L137 60" class="fg-line"/>
+<path d="M279 44 L285 52 L279 60" class="fg-accent"/>
+<rect x="4" y="30" width="130" height="44" rx="6" class="fg-box"/>
+<rect x="146" y="30" width="130" height="44" rx="6" class="fg-box"/>
+<rect x="288" y="30" width="108" height="44" rx="6" class="fg-hot"/>
+<text x="69" y="57" text-anchor="middle" class="fg-text">Étude de cas</text>
+<text x="211" y="57" text-anchor="middle" class="fg-text">Interlocuteur</text>
+<text x="342" y="57" text-anchor="middle" class="fg-strong">Comité</text>
+<text x="69" y="100" text-anchor="middle" class="fg-label">vous publiez</text>
+<text x="211" y="100" text-anchor="middle" class="fg-label">la transmet</text>
+<text x="342" y="100" text-anchor="middle" class="fg-label">décide</text>
+</svg>
+<figcaption>Rédigez l’étude de cas pour tout le comité d’achat : votre interlocuteur la transmet, et le comité la lit au moment de décider.</figcaption>
+</figure>
 
 ### Portraits de collaborateurs
 
@@ -130,6 +167,22 @@ Une question posée à votre public vous donne des données propriétaires et de
 Les visiteurs laissent plus volontiers leur adresse e-mail quand ils reçoivent quelque chose de personnel en retour, ce que permet un quiz aux résultats réservés.
 
 **Exemple :** une agence marketing propose « Quel est votre score de maturité éditoriale ? » pour segmenter ses contacts selon leur degré de préparation.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 130" role="img" aria-label="Un quiz comme un échange : le visiteur donne son adresse e-mail et reçoit en retour un résultat personnel.">
+<path d="M140 58 L258 58" class="fg-accent"/>
+<path d="M250 51 L258 58 L250 65" class="fg-accent"/>
+<path d="M260 82 L142 82" class="fg-line"/>
+<path d="M150 75 L142 82 L150 89" class="fg-line"/>
+<rect x="10" y="45" width="130" height="50" rx="6" class="fg-box"/>
+<rect x="260" y="45" width="130" height="50" rx="6" class="fg-hot"/>
+<text x="75" y="76" text-anchor="middle" class="fg-text">Visiteur</text>
+<text x="325" y="76" text-anchor="middle" class="fg-strong">Votre quiz</text>
+<text x="200" y="32" text-anchor="middle" class="fg-label">adresse e-mail</text>
+<text x="200" y="118" text-anchor="middle" class="fg-label">résultat personnel</text>
+</svg>
+<figcaption>Un quiz aux résultats réservés est un échange équitable : le visiteur reçoit quelque chose de personnel, et vous obtenez une adresse e-mail pour le relancer.</figcaption>
+</figure>
 
 ### Articles comparatifs
 
