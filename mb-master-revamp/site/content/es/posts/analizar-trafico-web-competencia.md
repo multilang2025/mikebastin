@@ -30,7 +30,7 @@ A continuación: qué métricas mirar, cómo leer las estimaciones, qué herrami
 - **Herramientas:** plataformas gratuitas, de pago y análisis asistido por IA.
 - **Más allá de Google:** las respuestas de motores de IA como Perplexity (GEO).
 
-## Por qué analizar el tráfico de la competencia
+## Detecta a tiempo los cambios de tus rivales
 
 Ver a tiempo un cambio en el tráfico de un rival te da semanas de ventaja para responder. Si su tráfico sube de golpe, puede ser por un producto nuevo, una campaña de pago o un artículo que ha funcionado.
 
@@ -38,7 +38,7 @@ También te sirve para calibrar tu propio rendimiento. Si tú creces un 5 % y tu
 
 Lo que más información da es la intención detrás de las visitas. ¿Buscan información o quieren contratar ya? Esa diferencia decide si apuestas por guías o por páginas de servicio que conviertan. Nuestra [consultoría de IA](https://mikebastin.com/es/services/consultoria-de-inteligencia-artificial/) ayuda a leer esos patrones a gran escala.
 
-## Las métricas que importan
+## Qué métricas mirar en cada rival
 
 La cantidad de tráfico te dice el tamaño del rival; la calidad te dice qué contenido funciona. Mira, en las estimaciones de Similarweb:
 
@@ -132,9 +132,9 @@ Sí. Semrush muestra sus anuncios y palabras clave en Google Ads, con historial.
 
 Mucho. Analizar competidores en Francia, Alemania o los Países Bajos te enseña cómo cambia la intención de búsqueda de un mercado a otro, y el [SEO multilingüe](https://mikebastin.com/es/services/posicionamiento-multilingue/) se construye sobre esas diferencias.
 
-## Convierte los datos de tu competencia en tu ventaja
+## Dedica una tarde a dos rivales
 
 Elige un mercado y dos rivales, y dedica una tarde a este flujo. Saldrás con una lista de páginas y canales para el próximo trimestre.
 
-[Solicitar auditoría estratégica](/es/services/)  
-[Explorar consultoría de IA](https://mikebastin.com/es/services/consultoria-de-inteligencia-artificial/)
+[Pide tu auditoría estratégica](/es/services/)  
+[Mira cómo trabajamos tu visibilidad en la IA](https://mikebastin.com/es/services/consultoria-de-inteligencia-artificial/)

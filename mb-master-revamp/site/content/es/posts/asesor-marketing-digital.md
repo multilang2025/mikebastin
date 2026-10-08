@@ -19,7 +19,7 @@ Tu empresa trabaja desde Valencia, tu inversión en marketing ha subido, y el si
 
 Un **asesor de marketing digital en Valencia** marca la dirección, sentado a la mesa con tu equipo; una agencia hace el trabajo. Elegir bien pone un año de presupuesto al servicio del resultado correcto; a veces, la respuesta es ambos.
 
-## Asesor de marketing digital o agencia: la comparación de un vistazo
+## Asesor o agencia: la comparación de un vistazo
 
 Tras más de dos décadas a ambos lados de la valla, solemos saber en una llamada de 20 minutos qué necesita una empresa. Dónde está el cuello de botella nos dice mucho más que el presupuesto.
 
@@ -32,7 +32,7 @@ Tras más de dos décadas a ambos lados de la valla, solemos saber en una llamad
 | **Precio habitual** | Cuota fija mensual o precio por proyecto | Cuota mensual más inversión en medios |
 | **Riesgo de sesgo** | Menor (cobra solo por su tiempo) | Mayor (cobra por mantener un contrato en marcha) |
 
-## Qué hace realmente un asesor de marketing digital
+## Qué compras al contratar un asesor de marketing digital
 
 A un asesor le compras la respuesta a la pregunta «por qué los resultados no llegan», y esa respuesta sale del diagnóstico. El asesor traza el plano, audita los cimientos y comprueba que cada decisión de marketing sigue al servicio del modelo de negocio que hay debajo.
 
@@ -46,7 +46,7 @@ Cuando las campañas traen tráfico y las reuniones todavía no llegan, un aseso
 >
 > Mike Bastin, consultor de SEO y marketing multilingüe
 
-## Qué hace una agencia de marketing digital
+## Qué compras al contratar una agencia
 
 A una agencia le compras capacidad: trabajo entregado por un departamento ya montado. Dentro encuentras especialistas: redactores, profesionales del SEO, compradores de medios, diseñadores UX y desarrolladores web, cuyo trabajo es quitarte tareas de encima y entregarlas.
 
@@ -72,7 +72,7 @@ Un asesor se sitúa entre ambos: menos estructura que una agencia y menos compro
 
 Un asesor trabaja a menudo como un miembro temporal del comité de dirección o un director de marketing a tiempo parcial: asiste a las reuniones de dirección y asume los objetivos financieros además del briefing de marketing. Las agencias funcionan como proveedores externos, con una comunicación que pasa por un gestor de cuenta. Cuando las decisiones de marketing tocan el producto, las ventas y los precios en la misma semana, esa cercanía compensa. Para una empresa de Valencia, un asesor de la misma ciudad se sienta en esas reuniones en persona.
 
-## Cuándo tu empresa necesita un asesor
+## Cuándo necesita tu empresa un asesor
 
 Elige un asesor cuando el cuello de botella es la estrategia: cuando el trabajo se hace y los números piden una nueva dirección.
 
@@ -85,7 +85,7 @@ Elige un asesor cuando el cuello de botella es la estrategia: cuando el trabajo 
 <p><strong>¿Tu tráfico llega en varios idiomas y quieres consultas en cada uno?</strong> Nuestro <a href="/es/services/posicionamiento-multilingue/">posicionamiento multilingüe</a> hace que cada versión de idioma de tu web trabaje en su propio mercado. <a href="/es/contactanos/">Reserva una primera llamada</a>.</p>
 </aside>
 
-## Cuándo tu empresa necesita una agencia
+## Cuándo necesita tu empresa una agencia
 
 Elige una agencia cuando el cuello de botella es la ejecución: cuando sabes qué tiene que pasar y necesitas las horas para que pase.
 
@@ -94,7 +94,7 @@ Elige una agencia cuando el cuello de botella es la ejecución: cuando sabes qu�
 - **Necesitas lanzar rápido.** Las campañas salen en cuestión de semanas en Google Ads, Meta Business Suite o LinkedIn Campaign Manager, mientras que formar un equipo interno lleva meses de selección.
 - **Tienes grandes volúmenes de contenido.** Publicaciones diarias en redes sociales, artículos largos cada semana y pruebas constantes de creatividades publicitarias exigen la capacidad de producción de una agencia.
 
-## Los costes completos que conviene preguntar antes de firmar
+## Pregunta por todos los costes antes de firmar
 
 **Coste oculto del asesor: alguien que haga el trabajo.** Acompaña al asesor con personal propio o freelance que ejecute la estrategia, para que las ideas se conviertan en trabajo entregado.
 
@@ -135,7 +135,7 @@ Para la mayoría de las empresas en crecimiento, la respuesta es ambos: las medi
 
 El modelo híbrido crea un sistema de control mutuo. El asesor mantiene a la agencia responsable de sus resultados, la agencia aporta la fuerza, y el trabajo de cada parte lo evalúa la otra.
 
-## Un marco rápido para decidir
+## Decide con tres preguntas
 
 Responde a estas tres preguntas antes de comprometerte.
 

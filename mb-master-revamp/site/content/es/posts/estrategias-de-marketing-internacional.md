@@ -86,7 +86,7 @@ Google Ads y Microsoft Ads te permiten centrarte en países, ciudades o regiones
 
 Un anuncio funciona cuando suena local. Traduce el texto y adáptalo con [redacción SEO multilingüe](/es/services/redaccion-seo-multilingue/), y elige imágenes que encajen con los gustos de cada región.
 
-### Probar y optimizar las campañas
+### Prueba en pequeño antes de escalar
 
 Empieza con campañas de prueba pequeñas en cada mercado nuevo, y vigila el porcentaje de clics (CTR), la tasa de conversión y el retorno de la inversión antes de escalar.
 
@@ -130,7 +130,7 @@ El contenido es lo que permite a un comprador que te descubre decidir que conoce
 
 **Liderazgo de opinión.** Informes, libros blancos y estudios sobre las tendencias de cada mercado te posicionan como referencia en regiones nuevas. Nuestro artículo sobre [cómo crear una marca global](/es/crear-una-marca-global/) muestra cómo encajan las piezas.
 
-## Alianzas locales
+## Alianzas locales que te prestan credibilidad
 
 Un socio local te presta una credibilidad y un conocimiento que tardarías años en construir por tu cuenta, desde acuerdos de distribución hasta campañas con marca compartida.
 
@@ -148,7 +148,7 @@ Si es tu primera feria fuera, [ICEX](https://www.icex.es/) organiza pabellones e
 
 Con la afiliación pagas por venta: los profesionales del marketing locales cobran una comisión por las ventas que generan, una forma de entrar en mercados nuevos con poco desembolso. El afiliado local entiende las preferencias y los hábitos de compra de su público, y cada venta queda registrada, así que ves qué funciona en cada mercado y reorientas el esfuerzo. Si también publicas contenido, nuestra comparativa de [programas de afiliados con comisiones comprobadas](/es/programas-de-afiliados/) te muestra el modelo desde el lado del afiliado.
 
-## Chatbots multilingües y atención al cliente
+## Chatbots multilingües que responden a su hora
 
 Un comprador en otra zona horaria quiere una respuesta a su hora, en su idioma. Los chatbots multilingües responden a las preguntas frecuentes, resuelven incidencias y acompañan al cliente en la compra en su propio idioma, a cualquier hora. También captan contactos con preguntas de cualificación y recomiendan el producto o el servicio adecuado. Nuestras guías sobre [marketing con IA](/es/marketing-con-ia/) y sobre [sistemas de cualificación de leads con IA](/es/sistemas-cualificacion-leads-ia/) explican cómo montarlos y medirlos.
 

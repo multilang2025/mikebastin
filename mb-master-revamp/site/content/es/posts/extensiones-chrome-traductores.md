@@ -93,11 +93,11 @@ Si tus traducciones tocan sitios web, dos extensiones más te dan una visión co
 
 **Detailed SEO Extension** ofrece una auditoría on-page rápida de encabezados, metadatos, hreflang, etiquetas canónicas y marcado schema. Antes de localizar una web a tres idiomas más, comprobamos que el SEO del idioma original está bien resuelto. Nuestra guía de [ajustes técnicos para sitios multilingües](/es/seo-tecnico-para-sitios-multilingues/) detalla lo que revisamos después.
 
-## Una lista corta: las cinco extensiones sustituidas
+## Las cinco extensiones que hemos retirado
 
 Cada extensión que conservas es otra ventana, otro atajo y otro permiso, así que cinco dejaron su sitio. Readlang Web Reader sirve sobre todo a quien aprende idiomas. TransOver tiene un motor que ha quedado por detrás de DeepL y una ventana emergente que choca con varias webs modernas. Las tarjetas de memoria de Rememberry encajan mejor en Anki. Grammarly sigue siendo excelente para el inglés, y LanguageTool cubre más idiomas en profundidad. Lingvanex sigue funcionando, y DeepL junto con una extensión de LLM cubre el mismo terreno con mejor resultado.
 
-## Comparativa lado a lado
+## Las extensiones, comparadas
 
 | Extensión | Ideal para | Plan gratuito | Idiomas | Nuestro uso |
 | --- | --- | --- | --- | --- |

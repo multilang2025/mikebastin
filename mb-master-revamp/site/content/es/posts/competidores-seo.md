@@ -36,7 +36,7 @@ Clasificar a los rivales te dice contra quién merece la pena competir en cada b
 
 Usa [herramientas gratuitas de análisis competitivo](https://mikebastin.com/es/herramientas-gratuitas-analisis-competitivo/) para mapearlos. Luego decide: ¿vale la pena disputar esa palabra clave o conviene atacar antes un nicho de cola larga con menos competencia?
 
-## Método paso a paso para encontrar competidores SEO
+## Encuentra a tus rivales SEO en cinco pasos
 
 Cinco pasos te dan, en una o dos tardes por mercado, una lista de rivales que puedes defender ante tu dirección.
 
@@ -111,7 +111,7 @@ Google premia a la web que carga rápido y se navega bien en el móvil. [Revisa 
 
 Cuando un rival posiciona con una lista de diez consejos, la página que gana es la que responde mejor a la misma pregunta: más precisa, mejor ordenada y con ejemplos de tu mercado.
 
-## Cómo convertir la lista de rivales en crecimiento
+## Qué hacer con la lista de rivales
 
 Identificar rivales es el comienzo; el valor está en lo que haces después.
 

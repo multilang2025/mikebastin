@@ -57,7 +57,7 @@ Escribe para un comprador concreto y se reconocerá en cada línea. Saber exacta
 
 La mayoría de las webs ya tienen páginas en la segunda página de Google para un término que merece la pena. Subir una de ellas es más rápido y más barato que escribir algo nuevo, por eso la auditoría va antes que el calendario.
 
-### ¿Qué es una auditoría de contenido?
+### Haz una auditoría de contenido
 
 -   Rastrea todo tu contenido existente (artículos, páginas, etc.).
 -   Cataloga su rendimiento: reúne datos de visitas, tasa de rebote, conversiones e interacción de los usuarios.
@@ -117,13 +117,13 @@ Una página que responde bien a la pregunta llega a los compradores en cuanto es
 -   Apunta a frases y preguntas de baja competencia y alta intención.
 -   Identifica las entidades principales (personas, lugares, conceptos) relacionadas con tus temas.
 
-### Lo esencial del SEO on-page: títulos, encabezados y enlaces internos
+### Cuida títulos, encabezados y enlaces internos
 
 -   Escribe etiquetas title y meta descripciones atractivas que incluyan las palabras clave principales y reflejen con fidelidad el contenido de la página.
 -   Usa una estructura de encabezados lógica (H1, H2, H3) para organizar el contenido y destacar los subtemas.
 -   Aplica una estrategia sólida de enlazado interno para repartir autoridad y guiar a los usuarios. Por ejemplo, enlaza tus páginas de servicio principales desde los artículos del blog que tengan relación. Nuestra selección de [herramientas de enlazado interno para WordPress](/es/herramientas-enlazado-interno/) facilita ese trabajo en una web de cientos de páginas.
 
-### Estrategia de clústeres temáticos
+### Organiza el contenido en clústeres temáticos
 
 -   Desarrolla páginas pilar para los temas amplios y contenido satélite que profundice en subtemas concretos. Las páginas pilar actúan como centros de referencia, como una guía detallada sobre la traducción de páginas web.
 -   Enlaza bien las páginas pilar con su contenido satélite para mejorar el SEO y la experiencia de usuario (UX).
@@ -201,7 +201,7 @@ Apóyate en herramientas como:
 -   Haz encuestas y recoge opiniones de los usuarios para entender sus preferencias y sus problemas.
 -   Revisa con regularidad lo bien que cada página cubre su tema y sus términos relacionados, para que el contenido siga siendo relevante.
 
-## En resumen
+## Los siete pasos, en resumen
 
 -   Entiende a fondo tus perfiles de comprador y su recorrido.
 -   Audita el contenido existente e identifica huecos y oportunidades.

@@ -39,7 +39,7 @@ Las dos familias se complementan, y cada una pide un tipo de preparación distin
 >
 > Fuente: [DeepL, «Terms and Conditions: DeepL Pro»](https://www.deepl.com/en/pro-license) y [Google Cloud, «Creating and using glossaries (Advanced)»](https://cloud.google.com/translate/docs/advanced/glossary)
 
-## Ventajas de las herramientas de traducción con IA
+## Más idiomas con el mismo presupuesto
 
 El argumento es de presupuesto: más idiomas, antes, con el mismo gasto.
 
@@ -106,7 +106,7 @@ En la MTPE, un lingüista profesional edita el resultado de la máquina hasta qu
 <p><strong>¿Ya usas traducción automática y quieres saber dónde necesita un editor?</strong> Nuestra <a href="/es/services/posedicion-de-ia/">posedición de IA</a> fija tu terminología una vez por idioma y concentra la revisión a fondo en las páginas donde está el riesgo, con una pasada más ligera en el resto. <a href="/es/contactanos/">Pide la auditoría gratuita de 20 minutos</a>.</p>
 </aside>
 
-## Privacidad de datos y transparencia
+## Protege tus archivos confidenciales
 
 Los archivos confidenciales quedan bajo tu control cuando solo entran en herramientas que has validado.
 
@@ -120,7 +120,7 @@ Los modelos de traducción siguen ganando en precisión, contexto y matiz cultur
 
 Lo que se mantiene es el reparto de papeles: la herramienta cambia cada pocos meses, y el glosario, la guía de estilo y el revisor nativo siguen siendo tuyos. Revisa tus herramientas con regularidad y conserva esos tres activos. Para el día a día de tu revisor, nuestras [extensiones de Chrome para traductores](/es/extensiones-chrome-traductores/) agilizan los borradores y la consulta de terminología.
 
-## Dónde se encuentran la IA y la experiencia humana
+## Empieza por un idioma y mide la revisión
 
 Las herramientas de traducción con IA aportan velocidad y escala; la experiencia humana aporta relevancia cultural y calidad. Juntas dan el equilibrio entre eficiencia y precisión que necesita una empresa que vende en varios mercados.
 

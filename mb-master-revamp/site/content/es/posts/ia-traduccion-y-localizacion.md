@@ -47,7 +47,7 @@ Para la mayoría de las empresas, la pregunta útil es en qué puntos la IA nece
 <figcaption>La máquina pone la velocidad en el segundo paso; la confianza llega en el tercero, cuando un nativo comprueba que cada frase fluida es también correcta.</figcaption>
 </figure>
 
-## Oportunidades para tu empresa
+## Lo que gana tu empresa
 
 ### Plazos más cortos
 
@@ -67,11 +67,11 @@ La traducción con IA suele costar menos que la humana, sobre todo en proyectos 
 
 Los catálogos amplios y los contenidos que se actualizan a menudo son el terreno donde la IA marca el ritmo. Gestiona grandes volúmenes en muchos idiomas a la vez, con una terminología coherente, y eso se nota sobre todo en las tiendas que funcionan sobre plataformas como Shopify.
 
-### Productividad
+### Más tiempo para tus mejores traductores
 
 Tus mejores traductores aportan más donde hay matices. Si automatizas las cadenas de texto rutinarias, les dejas tiempo para el trabajo creativo que decide si un mercado confía en ti. La [consultoría de inteligencia artificial](/es/services/consultoria-de-inteligencia-artificial/) te ayuda a decidir qué tareas automatizar primero, y unas buenas [extensiones de Chrome para traductores](/es/extensiones-chrome-traductores/) les ahorran tiempo en cada borrador.
 
-## Retos y cómo gestionarlos
+## Los retos, y cómo resolverlos antes de publicar
 
 Cada uno de estos puntos cuesta menos resolverlo antes de publicar que después.
 
@@ -94,7 +94,7 @@ Para el material confidencial, trabaja con [servicios de traducción profesional
 <p><strong>¿Quieres que tus páginas traducidas con máquina digan exactamente lo que deben?</strong> Nuestra <a href="/es/services/posedicion-de-ia/">posedición de IA</a> pone a un hablante nativo sobre el texto de la máquina y concentra el esfuerzo donde está el riesgo. <a href="/es/contactanos/">Reserva una primera conversación</a>.</p>
 </aside>
 
-## Cómo usar la IA con eficacia en la localización
+## Reparte el trabajo entre la IA y las personas
 
 Las empresas que consiguen el ahorro y mantienen la calidad reparten el trabajo de la misma manera:
 
@@ -106,4 +106,4 @@ Las empresas que consiguen el ahorro y mantienen la calidad reparten el trabajo 
 
 ## Por dónde empezar
 
-Elige un mercado y un tipo de contenido, aplica la IA con posedición humana y pide a un lector nativo que revise el resultado antes de ampliar. La velocidad la pone la máquina y la confianza la ponen las personas. [Habla con nuestro equipo](/es/contactanos/) y te orientamos según tu empresa.
+Elige un mercado y un tipo de contenido, aplica la IA con posedición humana y pide a un lector nativo que revise el resultado antes de ampliar. La velocidad la pone la máquina y la confianza la ponen las personas. [Cuéntanos qué mercado quieres abrir](/es/contactanos/) y te orientamos según tu empresa.

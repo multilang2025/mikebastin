@@ -19,7 +19,7 @@ En marketing digital, los mejores puestos y los mejores clientes suelen ir a par
 
 Aquí tienes los canales que merecen tu tiempo, cómo preparar un encuentro y hacer el seguimiento, las herramientas que mantienen ordenada una red de contactos y cómo llevar los momentos incómodos.
 
-## Dónde encuentran los jóvenes profesionales del marketing oportunidades de networking
+## Dónde buscar oportunidades de networking
 
 Tu tiempo es limitado, así que elige los canales que encajan con tu objetivo. Con dos o tres basta para la mayoría.
 
@@ -52,7 +52,7 @@ Una web personal es el único lugar donde tú pones las reglas. Úsala para most
 
 Compartir contenido ajeno te hace visible; decir algo útil te hace memorable. Aporta opiniones meditadas sobre lo que debate tu sector, comparte lo aprendido de lo que funcionó y de lo que harías de otra manera, y crea material que responda a las preguntas que tu red se hace de verdad. Pasar de participante a quien aporta es lo que hace que la gente te busque, un tema que tratamos en nuestro artículo sobre [una economía de los creadores más humana](/es/economia-de-los-creadores/).
 
-## Estrategias de networking que funcionan en persona y online
+## Cuatro pasos que funcionan en persona y online
 
 El networking da fruto después del primer encuentro. Los cuatro pasos siguientes sirven tanto si el primer contacto es un apretón de manos como si es un mensaje de LinkedIn.
 
@@ -122,7 +122,7 @@ Casi todo el mundo se siente al menos un poco incómodo en un evento de networki
 
 Algunos mensajes reciben respuesta y algunas conexiones llevan a algo, cada una a su ritmo. Toma el silencio como una pista sobre el momento y pasa a la siguiente oportunidad.
 
-## El networking a largo plazo: construir relaciones
+## Cuida tus relaciones a largo plazo
 
 Veinte contactos de LinkedIn que atenderían tu llamada valen más que mil que solo pasarían de largo por tu perfil. Interactúa con regularidad mediante comentarios, contenido compartido y mensajes. Las personas que más te ayuden dentro de cinco años suelen ser aquellas con las que mantuviste el contacto solo por mantenerlo.
 
@@ -131,5 +131,5 @@ Veinte contactos de LinkedIn que atenderían tu llamada valen más que mil que s
 Elige un canal de la tabla, prepara un evento o una conversación y haz el seguimiento en un día. Luego repítelo la semana siguiente.
 
 <aside class="post-cta">
-<p><strong>¿Construyes tu carrera en marketing digital multilingüe?</strong> Nos gusta hablar con perfiles que trabajan en varios mercados y varios idiomas. <a href="/es/contactanos/">Escríbenos</a>.</p>
+<p><strong>¿Construyes tu carrera en marketing digital multilingüe?</strong> Nos gusta hablar con perfiles que trabajan en varios mercados y varios idiomas. <a href="/es/contactanos/">Cuéntanos en qué mercados trabajas</a>.</p>
 </aside>

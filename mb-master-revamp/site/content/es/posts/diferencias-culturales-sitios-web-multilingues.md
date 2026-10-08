@@ -63,7 +63,7 @@ Conocer las diferencias concretas te permite decidirlas desde el primer día. Es
 
 Bélgica merece una nota aparte: tiene tres lenguas oficiales, neerlandés, francés y alemán, y una web belga necesita como mínimo sus versiones en francés y en neerlandés, cada una escrita para su comunidad.
 
-## Estrategias que funcionan
+## Cinco prácticas para conectar en cada mercado
 
 Las marcas que conectan en varios mercados siguen un método parecido. Estas cinco prácticas lo resumen.
 
@@ -105,7 +105,7 @@ Cuando ese trabajo se traslada al contenido, lo vemos en nuestro servicio de [re
 <p><strong>¿Quieres que tu mensaje convenza igual en Lyon que en Colonia?</strong> Nuestro <a href="/es/services/redaccion-seo-multilingue/">contenido multilingüe</a> se escribe a partir de lo que busca cada mercado e incluye una revisión cultural del mensaje y del tono antes de publicar. <a href="/es/contactanos/">Reserva una primera conversación</a>.</p>
 </aside>
 
-## Cuando la cultura y la creatividad se juntan
+## Adaptar la oferta: el ejemplo de McDonald’s
 
 Cuando aciertas, la recompensa se ve en la caja. McDonald’s adapta su carta y su publicidad país por país: el McAloo Tikki, una hamburguesa vegetariana de patata, en la India, y el Teriyaki McBurger en Japón.
 

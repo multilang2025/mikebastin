@@ -57,7 +57,7 @@ Cuando los usuarios escriben, hablan con una persona real que entiende su recorr
 
 Durante años, la economía de los creadores se vendió como independencia total, y para muchos todavía depende de algoritmos para la visibilidad, de terceros para los pagos y de plataformas para el acceso a la audiencia. Cordaro propone una economía basada en el sentido, la confianza y la responsabilidad, donde el valor se define por la profundidad de la conexión que logran los creadores.
 
-## La confianza como base de una economía de los creadores humana
+## Gana la confianza con transparencia
 
 La confianza convierte a un comprador puntual en un cliente duradero, y una plataforma transparente se la gana. Para Cordaro, los creadores deben poder confiar en sus herramientas, en sus datos y en sí mismos.
 
@@ -109,13 +109,13 @@ En muchas regiones emergentes, los creadores crecen más rápido en cuanto caen 
 <p><strong>Consultas en francés, neerlandés o alemán, con páginas escritas para cada mercado.</strong> Escribimos las páginas de cada mercado a partir de su propia investigación, para que el visitante adecuado llegue a una página escrita para él. <a href="/es/services/redaccion-seo-multilingue/">Conoce nuestro contenido multilingüe</a>.</p>
 </aside>
 
-## El papel del creador en la economía de mañana
+## El creador de mañana, una pequeña empresa
 
 El creador de mañana, tal como lo ve Jean Marie Cordaro, es una pequeña empresa en sí mismo: un medio independiente, un educador, un conector y un propietario con propósito. Para cumplir ese papel, los creadores necesitan herramientas éticas, transparentes y que les den poder.
 
 Imagina una economía en la que los creadores son dueños de sus datos y sus ingresos, la transparencia es la norma y la tecnología apoya la creatividad mientras el creador la dirige. El rendimiento atrae la atención y los algoritmos amplían el alcance; la fidelidad y la confianza nacen de la relación.
 
-## Reconciliar lo humano y la tecnología
+## Construye sobre un terreno propio
 
 La lección práctica para cualquiera con una audiencia: construye sobre un terreno que sea tuyo, mide lo que tu audiencia significa para ti y usa la automatización para ganar tiempo mientras conservas la relación. Para una empresa, ese terreno es ante todo su web, visible mercado a mercado gracias al [SEO internacional](/es/services/optimizacion-seo/), y su lista de suscriptores, que nuestros consejos para [mejorar la tasa de apertura de tus emails](/es/email-marketing-tasa-apertura-conversiones/) ayudan a mantener activa.
 

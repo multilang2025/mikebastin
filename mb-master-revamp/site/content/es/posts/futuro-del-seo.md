@@ -70,7 +70,7 @@ El GEO funciona junto al SEO. La misma página sirve a los dos canales cuando fo
 <p><strong>¿Quieres aparecer en las respuestas de IA de cada mercado donde vendes?</strong> Nuestro <a href="/es/services/optimizacion-seo/">SEO internacional</a> trabaja tu presencia en ChatGPT, Claude, Perplexity y los AI Overviews de Google con páginas nativas, enlaces ganados en cada país y una marca presente en cada idioma. <a href="/es/contactanos/">Reserva una consulta gratuita</a>.</p>
 </aside>
 
-## Trabajar con el cero clics como norma
+## Mide el valor de las búsquedas sin clic
 
 Un informe que cuenta funcionalidades, impresiones y búsquedas de marca junto a los clics muestra el valor completo de la búsqueda. La mayoría de las búsquedas en Google ya se resuelven en la propia página de resultados.
 
@@ -145,7 +145,7 @@ Una [auditoría de SEO técnico](/es/services/seo-tecnico/) detecta estos puntos
 
 Quien busca cerca está cerca de comprar, y Google sigue afinando los resultados hiperlocales; [BrightLocal](https://www.brightlocal.com/resources/local-seo-statistics/) publica cada año sus datos sobre cómo se buscan negocios locales. El [SEO local](/es/services/seo-local/) favorece a los negocios con presencia real: una ficha de Google Business Profile al día, reseñas respondidas y el mismo nombre, dirección y teléfono en todas las citas. Si vendes en el extranjero, la regla se traslada a cada mercado: una ficha y una página de zona en francés para tus clientes de Lyon, o en neerlandés para los de Róterdam.
 
-## El SEO multilingüe como palanca de crecimiento
+## Haz que tus versiones en otros idiomas vendan
 
 Si tus páginas en español venden y quieres que tus versiones en francés, neerlandés o alemán hagan lo mismo, la respuesta suele estar en cómo están construidas esas versiones. La demanda existe, y la redacción nativa sigue leyéndose mejor que la traducción automática, por mucho que esta haya mejorado.
 
