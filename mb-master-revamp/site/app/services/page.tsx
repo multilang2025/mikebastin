@@ -144,7 +144,7 @@ export default function ServicesIndex() {
         <div className="shell relative grid items-start gap-x-12 lg:grid-cols-[1fr_auto]">
         <div>
           <Reveal>
-            <p className="eyebrow mb-8">For businesses ready to grow beyond their home market</p>
+            <p className="eyebrow mb-4 sm:mb-8">For businesses ready to grow beyond their home market</p>
           </Reveal>
           <Reveal i={1}>
             <h1 className="mb-6 max-w-[19ch] text-[clamp(2.3rem,5.6vw,4rem)] font-semibold leading-[1.08]">
@@ -158,10 +158,9 @@ export default function ServicesIndex() {
           </Reveal>
           <Reveal i={3}>
             <p className="mb-8 max-w-[58ch] text-[clamp(1.05rem,1.5vw,1.2rem)] leading-[1.58]" style={{ color: "var(--dim)" }}>
-              A global SEO company for businesses already selling abroad. Pick
-              the market you want selling next and the service that gets it
-              there. Every engagement starts with a free consultation and runs
-              month to month.
+              A global SEO company for businesses already selling abroad. Every
+              engagement starts with a free consultation and runs month to
+              month.
             </p>
           </Reveal>
           <Reveal i={4}>
@@ -177,8 +176,8 @@ export default function ServicesIndex() {
         </div>
         {/* Heroes carry animated SVG art (owner, 2 Oct 2026); the static scenes
             sit in the cluster bands below. */}
-        <div className="services-hero-art">
-          <HeroArtSlot visibleOnMobile={true}>
+        <div className="services-hero-art order-first lg:order-none">
+          <HeroArtSlot visibleOnMobile={true} compactMobile={true}>
             <DlArt name={DL_PAGE_ART.services} />
           </HeroArtSlot>
         </div>
