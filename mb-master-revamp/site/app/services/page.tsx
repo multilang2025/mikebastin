@@ -36,6 +36,7 @@ const FEATURED_SEARCH_SERVICES = [
   "french-seo",
   "spanish-seo",
   "dutch-seo",
+  "german-seo",
   "local-seo",
 ];
 
