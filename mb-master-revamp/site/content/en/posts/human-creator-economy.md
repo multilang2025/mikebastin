@@ -31,6 +31,22 @@ Count success in loyalty as well as views and clicks, and the audience grows wit
 
 Everything is measured in views, clicks, conversion rates and retention, and Cordaro wants success read as a story too. The emotional bond is what made creators' work valuable in the first place, and it deserves as much care as efficiency.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Success read two ways: the numbers, such as views and clicks, and the story, the loyalty and emotional bond behind them.">
+<path d="M150 75 L220 35" class="fg-dim"/>
+<path d="M150 75 L220 115" class="fg-accent"/>
+<rect x="20" y="55" width="130" height="40" rx="6" class="fg-box"/>
+<rect x="220" y="12" width="165" height="46" rx="6" class="fg-box"/>
+<rect x="220" y="92" width="165" height="46" rx="6" class="fg-hot"/>
+<text x="85" y="81" text-anchor="middle" class="fg-strong">Success</text>
+<text x="302" y="32" text-anchor="middle" class="fg-text">Numbers</text>
+<text x="302" y="50" text-anchor="middle" class="fg-label">views and clicks</text>
+<text x="302" y="112" text-anchor="middle" class="fg-strong">Story</text>
+<text x="302" y="130" text-anchor="middle" class="fg-label">loyalty and bond</text>
+</svg>
+<figcaption>Cordaro keeps the numbers and adds the story: loyalty and the emotional bond are what gave creators’ work its value from the start.</figcaption>
+</figure>
+
 Cordaro embraces technology and redefines its purpose: tools should amplify relationships.
 
 | | Platform-first creator economy | Human-first creator economy |
@@ -48,6 +64,26 @@ Cordaro embraces technology and redefines its purpose: tools should amplify rela
 ## Bonzai: a more human vision of technology
 
 Cordaro set out to build a platform creators stay on by choice: an environment that serves them.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Bonzai at the centre, gathering a creator’s content, products, subscribers and audience in one place.">
+<path d="M200 80 L75 30" class="fg-line"/>
+<path d="M200 80 L325 30" class="fg-line"/>
+<path d="M200 80 L75 130" class="fg-line"/>
+<path d="M200 80 L325 130" class="fg-line"/>
+<rect x="10" y="10" width="130" height="40" rx="6" class="fg-box"/>
+<rect x="260" y="10" width="130" height="40" rx="6" class="fg-box"/>
+<rect x="10" y="110" width="130" height="40" rx="6" class="fg-box"/>
+<rect x="260" y="110" width="130" height="40" rx="6" class="fg-box"/>
+<rect x="140" y="60" width="120" height="40" rx="6" class="fg-hot"/>
+<text x="200" y="86" text-anchor="middle" class="fg-strong">Bonzai</text>
+<text x="75" y="36" text-anchor="middle" class="fg-text">Content</text>
+<text x="325" y="36" text-anchor="middle" class="fg-text">Products</text>
+<text x="75" y="136" text-anchor="middle" class="fg-text">Subscribers</text>
+<text x="325" y="136" text-anchor="middle" class="fg-text">Audience</text>
+</svg>
+<figcaption>One home for the whole creative business: content, products, subscribers and audience sit together, on open terms the creator understands.</figcaption>
+</figure>
 
 Bonzai centralises a creator's content, products, subscribers and audience in one place, on open terms. Users own their data, understand their earnings and are free to leave whenever they choose. The vision rests on three principles:
 
@@ -116,6 +152,24 @@ In many emerging regions, creators grow fastest once structural barriers come do
 Tomorrow's creator, as Jean Marie Cordaro sees it, is a small business in their own right: an independent media outlet, an educator, a connector and an owner with purpose. To fill that role, creators need tools that are ethical, transparent and empowering.
 
 He envisions an economy where creators own their data and revenue, transparency is a standard, and technology supports creativity while the creator directs it. Performance attracts attention and algorithms amplify reach; loyalty and trust come from the relationship.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 170" role="img" aria-label="Tomorrow’s creator as a small business with four roles: independent media outlet, educator, connector and owner with purpose.">
+<rect x="10" y="10" width="185" height="70" rx="6" class="fg-box"/>
+<rect x="205" y="10" width="185" height="70" rx="6" class="fg-box"/>
+<rect x="10" y="90" width="185" height="70" rx="6" class="fg-box"/>
+<rect x="205" y="90" width="185" height="70" rx="6" class="fg-hot"/>
+<text x="102.5" y="40" text-anchor="middle" class="fg-text">Media outlet</text>
+<text x="102.5" y="60" text-anchor="middle" class="fg-label">independent</text>
+<text x="297.5" y="40" text-anchor="middle" class="fg-text">Educator</text>
+<text x="297.5" y="60" text-anchor="middle" class="fg-label">shares knowledge</text>
+<text x="102.5" y="120" text-anchor="middle" class="fg-text">Connector</text>
+<text x="102.5" y="140" text-anchor="middle" class="fg-label">links people</text>
+<text x="297.5" y="120" text-anchor="middle" class="fg-text">Owner</text>
+<text x="297.5" y="140" text-anchor="middle" class="fg-label">with purpose</text>
+</svg>
+<figcaption>Tomorrow’s creator is a small business in their own right, filling four roles at once, with ownership at its core.</figcaption>
+</figure>
 
 ## Build on ground you own
 

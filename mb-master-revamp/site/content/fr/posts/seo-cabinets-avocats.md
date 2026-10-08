@@ -86,6 +86,22 @@ En six mois, les demandes internationales avaient nettement augmenté, venant d�
 
 Un expatrié britannique cherche un « solicitor », un Américain un « attorney ». Écrivez pour les deux, et chacun vous trouve. Nous planifions des contenus qui couvrent ces variantes, chaque terme placé là où le lecteur l’attend.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Une même recherche d’avocat, deux mots pour la dire : l’expatrié britannique tape solicitor, l’Américain tape attorney.">
+<path d="M150 75 L220 35" class="fg-line"/>
+<path d="M150 75 L220 115" class="fg-line"/>
+<rect x="20" y="55" width="130" height="40" rx="6" class="fg-hot"/>
+<rect x="220" y="12" width="165" height="46" rx="6" class="fg-box"/>
+<rect x="220" y="92" width="165" height="46" rx="6" class="fg-box"/>
+<text x="85" y="81" text-anchor="middle" class="fg-strong">Un avocat</text>
+<text x="302" y="32" text-anchor="middle" class="fg-text">Britannique</text>
+<text x="302" y="50" text-anchor="middle" class="fg-label">« solicitor »</text>
+<text x="302" y="112" text-anchor="middle" class="fg-text">Américain</text>
+<text x="302" y="130" text-anchor="middle" class="fg-label">« attorney »</text>
+</svg>
+<figcaption>Écrivez pour les deux mots et chaque lecteur trouve le cabinet, chaque terme placé là où ce lecteur l’attend.</figcaption>
+</figure>
+
 | Public | Ce qu’il cherche | Exemples de requêtes |
 | --- | --- | --- |
 | Royaume-Uni | solicitor, legal practitioner | « solicitors in Valencia », « legal practitioner Spain » |
@@ -114,6 +130,23 @@ La meta description est votre argumentaire d’ascenseur. Nous plaçons la valeu
 ## Le SEO local qui fait sonner le téléphone
 
 Quand un client cherche un avocat près de chez lui, la fiche sur la carte décide souvent de qui reçoit l’appel. Créez et affinez votre Profil d’établissement Google avec des informations exactes, des avis et vos services, dans le cadre d’un [référencement local par ville](/fr/services/referencement-local/). Intégrez des signaux de localisation dans vos contenus et vos métadonnées pour refléter les zones que vous servez.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Trois éléments nourrissent le pack local : des informations de fiche exactes, des avis et des signaux locaux dans les contenus du site.">
+<path d="M180 28 L310 80" class="fg-line"/>
+<path d="M180 80 L310 80" class="fg-line"/>
+<path d="M180 132 L310 80" class="fg-line"/>
+<rect x="10" y="10" width="170" height="36" rx="6" class="fg-box"/>
+<rect x="10" y="62" width="170" height="36" rx="6" class="fg-box"/>
+<rect x="10" y="114" width="170" height="36" rx="6" class="fg-box"/>
+<circle cx="310" cy="80" r="72" class="fg-hot"/>
+<text x="95" y="33" text-anchor="middle" class="fg-text">Infos exactes</text>
+<text x="95" y="85" text-anchor="middle" class="fg-text">Avis</text>
+<text x="95" y="137" text-anchor="middle" class="fg-text">Signaux locaux</text>
+<text x="310" y="86" text-anchor="middle" class="fg-strong">Pack local</text>
+</svg>
+<figcaption>La fiche sur la carte puise dans les trois à la fois : un Profil d’établissement Google complet, des avis réguliers et des signaux de localisation dans tout le site.</figcaption>
+</figure>
 
 Encouragez les avis sur Google et sur des plateformes juridiques reconnues. Les avis positifs sont des signaux de confiance pour les personnes comme pour les algorithmes, et ils améliorent la visibilité dans le pack local.
 
@@ -144,6 +177,18 @@ Nous équilibrons les Core Web Vitals avec les éléments de design qui converti
 Nous étudions les concurrents avec des outils comme Ahrefs et SEMrush pour repérer les ouvertures qu’ils laissent. Beaucoup de cabinets visent des termes larges, ce qui vous laisse les services à forte intention comme le NIE, la création de société ou l’accompagnement en traduction assermentée, et des contenus détaillés, propres à chaque marché et écrits en langue maternelle, permettent à des cabinets plus petits de rivaliser avec des acteurs internationaux.
 
 Un spécialiste équilibre visibilité et conformité. Nous gardons chaque affirmation vérifiable, montrons l’expertise avec les mentions appropriées et respectons les règles de chaque pays sur les témoignages, les annonces de résultats et le langage publicitaire.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 156" role="img" aria-label="Les contenus juridiques en entonnoir de trois étapes : recherche, réflexion et décision.">
+<rect x="20" y="10" width="360" height="40" rx="6" class="fg-box"/>
+<rect x="70" y="58" width="260" height="40" rx="6" class="fg-box"/>
+<rect x="120" y="106" width="160" height="40" rx="6" class="fg-hot"/>
+<text x="200" y="36" text-anchor="middle" class="fg-text">Recherche</text>
+<text x="200" y="84" text-anchor="middle" class="fg-text">Réflexion</text>
+<text x="200" y="132" text-anchor="middle" class="fg-strong">Décision</text>
+</svg>
+<figcaption>Chaque contenu sert une étape, de la première recherche à la décision, en passant par la réflexion.</figcaption>
+</figure>
 
 Les contenus fonctionnent le mieux au sein d’un système qui couvre la recherche, la réflexion et la décision :
 

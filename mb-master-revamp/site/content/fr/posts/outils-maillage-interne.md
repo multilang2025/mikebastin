@@ -65,6 +65,22 @@ Les outils se répartissent en deux familles : les uns suggèrent des liens qu�
 
 DAEXT a réuni ses extensions [Interlinks Manager](https://wordpress.org/plugins/daext-interlinks-manager/) et [Autolinks Manager](https://daext.com/autolinks-manager/) en un seul produit, Link Manager. Il associe l’analyse des liens internes, le suivi de la répartition de l’autorité et le suivi des clics à des règles de liens automatiques souples, une configuration des mots-clés en masse et un contrôle des statuts HTTP. Réglez les règles avec soin pour garder un maillage mesuré. DAEXT vend trois licences annuelles : [Personal, un site, 59 dollars](https://daext.com/?daextcomm-action=create-checkout-session&product_id=1), [Freelance, cinq sites, 99 dollars](https://daext.com/?daextcomm-action=create-checkout-session&product_id=2) et [Agency, 25 sites, 149 dollars](https://daext.com/?daextcomm-action=create-checkout-session&product_id=6).
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Interlinks Manager, pour l’analyse des liens, et Autolinks Manager, pour les liens automatiques, réunis par DAEXT en un seul produit, Link Manager.">
+<path d="M190 33 L250 75" class="fg-accent"/>
+<path d="M190 117 L250 75" class="fg-accent"/>
+<rect x="10" y="10" width="180" height="46" rx="6" class="fg-box"/>
+<rect x="10" y="94" width="180" height="46" rx="6" class="fg-box"/>
+<rect x="250" y="52" width="140" height="46" rx="6" class="fg-hot"/>
+<text x="100" y="30" text-anchor="middle" class="fg-text">Interlinks Manager</text>
+<text x="100" y="48" text-anchor="middle" class="fg-label">analyse des liens</text>
+<text x="100" y="114" text-anchor="middle" class="fg-text">Autolinks Manager</text>
+<text x="100" y="132" text-anchor="middle" class="fg-label">liens automatiques</text>
+<text x="320" y="81" text-anchor="middle" class="fg-strong">Link Manager</text>
+</svg>
+<figcaption>Une seule extension couvre désormais les deux tâches : Link Manager analyse vos liens et en ajoute de nouveaux selon vos règles.</figcaption>
+</figure>
+
 ## Choisissez l’outil selon le problème à résoudre
 
 - **Des suggestions pendant la rédaction :** Link Whisper ou Linkilo.
@@ -74,9 +90,43 @@ DAEXT a réuni ses extensions [Interlinks Manager](https://wordpress.org/plugins
 
 La plupart de ces outils proposent une version gratuite, un essai ou une garantie de remboursement : testez-en un sur vos propres contenus avant de vous engager.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 170" role="img" aria-label="Quatre besoins associés à leurs outils : suggestions pendant la rédaction avec Link Whisper ou Linkilo, silos sémantiques avec LinkBoss ou Linksy, automatisation simple avec Internal Link Juicer, suivi des clics avec Link Manager.">
+<rect x="10" y="10" width="185" height="70" rx="6" class="fg-box"/>
+<rect x="205" y="10" width="185" height="70" rx="6" class="fg-box"/>
+<rect x="10" y="90" width="185" height="70" rx="6" class="fg-box"/>
+<rect x="205" y="90" width="185" height="70" rx="6" class="fg-box"/>
+<text x="102.5" y="40" text-anchor="middle" class="fg-text">Suggestions</text>
+<text x="102.5" y="60" text-anchor="middle" class="fg-label">Link Whisper, Linkilo</text>
+<text x="297.5" y="40" text-anchor="middle" class="fg-text">Silos sémantiques</text>
+<text x="297.5" y="60" text-anchor="middle" class="fg-label">LinkBoss, Linksy</text>
+<text x="102.5" y="120" text-anchor="middle" class="fg-text">Automatisation</text>
+<text x="102.5" y="140" text-anchor="middle" class="fg-label">Internal Link Juicer</text>
+<text x="297.5" y="120" text-anchor="middle" class="fg-text">Suivi des clics</text>
+<text x="297.5" y="140" text-anchor="middle" class="fg-label">Link Manager</text>
+</svg>
+<figcaption>Partez du besoin de votre site, et la liste courte suit d’elle-même : chaque besoin mène à un ou deux outils.</figcaption>
+</figure>
+
 ## Posez des règles avant d’automatiser
 
 Des règles soignées font la rentabilité d’un outil.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 120" role="img" aria-label="Le maillage automatique en trois étapes : fixer d’abord vos règles, puis automatiser, puis consulter les rapports.">
+<line x1="70" y1="32" x2="330" y2="32" class="fg-rule"/>
+<circle cx="70" cy="32" r="26" class="fg-hot"/>
+<circle cx="200" cy="32" r="26" class="fg-box"/>
+<circle cx="330" cy="32" r="26" class="fg-box"/>
+<text x="70" y="38" text-anchor="middle" class="fg-strong">1</text>
+<text x="200" y="38" text-anchor="middle" class="fg-strong">2</text>
+<text x="330" y="38" text-anchor="middle" class="fg-strong">3</text>
+<text x="70" y="94" text-anchor="middle" class="fg-text">Vos règles</text>
+<text x="200" y="94" text-anchor="middle" class="fg-text">Automatiser</text>
+<text x="330" y="94" text-anchor="middle" class="fg-text">Rapports</text>
+</svg>
+<figcaption>Des règles soignées d’abord, une automatisation qui les suit, puis des rapports qui montrent les liens cassés et les pages orphelines à corriger.</figcaption>
+</figure>
 
 1. **Choisissez vos mots-clés de liaison avec soin.** Chacun doit décrire fidèlement la page cible.
 2. **Gardez des liens en proportion.** Un nombre mesuré de liens automatiques se lit naturellement, pour les utilisateurs comme pour les moteurs.

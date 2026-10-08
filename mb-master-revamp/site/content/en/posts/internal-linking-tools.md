@@ -87,6 +87,22 @@ The tools split into two camps: some suggest links for an editor to approve, oth
 
 DAEXT has folded its [Interlinks Manager](https://wordpress.org/plugins/daext-interlinks-manager/) and [Autolinks Manager](https://daext.com/autolinks-manager/) plugins into one product, Link Manager. It combines internal link analysis, link equity reporting and click tracking with flexible auto-linking rules, bulk keyword setup and an HTTP status checker. Set the rules carefully to keep linking measured. DAEXT sells three annual licences: [Personal, one site, $59](https://daext.com/?daextcomm-action=create-checkout-session&product_id=1), [Freelance, five sites, $99](https://daext.com/?daextcomm-action=create-checkout-session&product_id=2) and [Agency, 25 sites, $149](https://daext.com/?daextcomm-action=create-checkout-session&product_id=6).
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="DAEXT’s Interlinks Manager, for link analysis, and Autolinks Manager, for auto-linking, combined into one product, Link Manager.">
+<path d="M190 33 L250 75" class="fg-accent"/>
+<path d="M190 117 L250 75" class="fg-accent"/>
+<rect x="10" y="10" width="180" height="46" rx="6" class="fg-box"/>
+<rect x="10" y="94" width="180" height="46" rx="6" class="fg-box"/>
+<rect x="250" y="52" width="140" height="46" rx="6" class="fg-hot"/>
+<text x="100" y="30" text-anchor="middle" class="fg-text">Interlinks Manager</text>
+<text x="100" y="48" text-anchor="middle" class="fg-label">link analysis</text>
+<text x="100" y="114" text-anchor="middle" class="fg-text">Autolinks Manager</text>
+<text x="100" y="132" text-anchor="middle" class="fg-label">auto-linking</text>
+<text x="320" y="81" text-anchor="middle" class="fg-strong">Link Manager</text>
+</svg>
+<figcaption>One plugin now covers both jobs: Link Manager reports on your links and adds new ones by rule.</figcaption>
+</figure>
+
 ## Choose by the problem you want to solve
 
 Pick by the problem you want to solve.
@@ -98,9 +114,43 @@ Pick by the problem you want to solve.
 
 Most of these tools offer a free version, a trial or a money-back guarantee, so test one on your own content before committing.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 170" role="img" aria-label="Four problems matched to tools: suggestions while you write to Link Whisper or Linkilo, semantic silos to LinkBoss or Linksy, simple automation to Internal Link Juicer, and click tracking to Link Manager.">
+<rect x="10" y="10" width="185" height="70" rx="6" class="fg-box"/>
+<rect x="205" y="10" width="185" height="70" rx="6" class="fg-box"/>
+<rect x="10" y="90" width="185" height="70" rx="6" class="fg-box"/>
+<rect x="205" y="90" width="185" height="70" rx="6" class="fg-box"/>
+<text x="102.5" y="40" text-anchor="middle" class="fg-text">Suggestions</text>
+<text x="102.5" y="60" text-anchor="middle" class="fg-label">Link Whisper, Linkilo</text>
+<text x="297.5" y="40" text-anchor="middle" class="fg-text">Semantic silos</text>
+<text x="297.5" y="60" text-anchor="middle" class="fg-label">LinkBoss, Linksy</text>
+<text x="102.5" y="120" text-anchor="middle" class="fg-text">Simple automation</text>
+<text x="102.5" y="140" text-anchor="middle" class="fg-label">Internal Link Juicer</text>
+<text x="297.5" y="120" text-anchor="middle" class="fg-text">Click tracking</text>
+<text x="297.5" y="140" text-anchor="middle" class="fg-label">Link Manager</text>
+</svg>
+<figcaption>Start from the problem on your site and the shortlist follows: each need points to one or two tools.</figcaption>
+</figure>
+
 ## Set careful rules before you automate
 
 Careful rules are what make a tool pay off.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 120" role="img" aria-label="Automated internal linking in three steps: set your rules first, then automate, then check the reports.">
+<line x1="70" y1="32" x2="330" y2="32" class="fg-rule"/>
+<circle cx="70" cy="32" r="26" class="fg-hot"/>
+<circle cx="200" cy="32" r="26" class="fg-box"/>
+<circle cx="330" cy="32" r="26" class="fg-box"/>
+<text x="70" y="38" text-anchor="middle" class="fg-strong">1</text>
+<text x="200" y="38" text-anchor="middle" class="fg-strong">2</text>
+<text x="330" y="38" text-anchor="middle" class="fg-strong">3</text>
+<text x="70" y="94" text-anchor="middle" class="fg-text">Your rules</text>
+<text x="200" y="94" text-anchor="middle" class="fg-text">Automate</text>
+<text x="330" y="94" text-anchor="middle" class="fg-text">Reports</text>
+</svg>
+<figcaption>Careful rules come first, the automation follows them, and the reports show which broken links and orphaned pages to fix.</figcaption>
+</figure>
 
 1. **Pick linking keywords carefully.** Each one should describe the target page accurately.
 2. **Keep links in proportion.** A measured number of automatic links reads naturally to users and search engines alike.
