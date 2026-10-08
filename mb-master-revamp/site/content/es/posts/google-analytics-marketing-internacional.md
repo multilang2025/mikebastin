@@ -98,6 +98,23 @@ Un visitante que pasa de tus páginas en español a las francesas tiene que cont
 
 Mantén el cambio de idioma dentro del mismo usuario y la misma sesión, y tus datos de atribución e interacción seguirán siendo fiables. Acertar depende de una buena configuración de la analítica y de un sólido [SEO técnico para sitios multilingües](/es/seo-tecnico-para-sitios-multilingues/).
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 156" role="img" aria-label="Un visitante que pasa de las páginas en español a las francesas, seguido por GA4 como un solo usuario y una sola sesión, que cuenta una vez en su mercado.">
+<path d="M170 43 L230 43" class="fg-line"/>
+<path d="M220 35 L230 43 L220 51" class="fg-line"/>
+<path d="M20 84 L20 96 L380 96 L380 84" class="fg-accent"/>
+<rect x="20" y="20" width="150" height="46" rx="6" class="fg-box"/>
+<rect x="230" y="20" width="150" height="46" rx="6" class="fg-box"/>
+<text x="95" y="40" text-anchor="middle" class="fg-text">Español</text>
+<text x="95" y="58" text-anchor="middle" class="fg-label">páginas</text>
+<text x="305" y="40" text-anchor="middle" class="fg-text">Francés</text>
+<text x="305" y="58" text-anchor="middle" class="fg-label">páginas</text>
+<text x="200" y="124" text-anchor="middle" class="fg-strong">Un usuario, una sesión</text>
+<text x="200" y="146" text-anchor="middle" class="fg-label">cuenta una vez, en su mercado</text>
+</svg>
+<figcaption>Mantén el cambio de idioma dentro del mismo usuario y la misma sesión, y tus datos de atribución e interacción seguirán siendo fiables en cada mercado.</figcaption>
+</figure>
+
 ### Gestión de etiquetas del lado del servidor
 
 Google Tag Manager del lado del servidor recupera parte de los datos que filtran los navegadores, los bloqueadores de anuncios y las restricciones de consentimiento, y te da más control sobre el cumplimiento normativo. Para una empresa internacional se está convirtiendo en lo habitual.
@@ -122,6 +139,24 @@ Las dimensiones personalizadas te permiten comparar el idioma de la página, el 
 
 Compara cada mercado internacional con tu mercado de origen, España. Las grandes diferencias de conversión suelen venir de los medios de pago, la lógica de precios, las condiciones de entrega o las señales de confianza: un comprador neerlandés que busca iDEAL o un alemán que busca el Impressum. GA4 muestra dónde se produce la caída. La solución pasa por decisiones de negocio y de experiencia de usuario.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Una diferencia de conversión entre un mercado internacional y el de origen, con cuatro causas habituales: medios de pago, lógica de precios, entrega y señales de confianza.">
+<path d="M105 46 L105 58" class="fg-dim"/>
+<path d="M295 46 L295 58" class="fg-dim"/>
+<rect x="15" y="10" width="370" height="36" rx="6" class="fg-hot"/>
+<rect x="15" y="58" width="180" height="36" rx="6" class="fg-box"/>
+<rect x="205" y="58" width="180" height="36" rx="6" class="fg-box"/>
+<rect x="15" y="104" width="180" height="36" rx="6" class="fg-box"/>
+<rect x="205" y="104" width="180" height="36" rx="6" class="fg-box"/>
+<text x="200" y="34" text-anchor="middle" class="fg-strong">Diferencia con tu mercado de origen</text>
+<text x="105" y="82" text-anchor="middle" class="fg-text">Medios de pago</text>
+<text x="295" y="82" text-anchor="middle" class="fg-text">Lógica de precios</text>
+<text x="105" y="128" text-anchor="middle" class="fg-text">Entrega</text>
+<text x="295" y="128" text-anchor="middle" class="fg-text">Confianza</text>
+</svg>
+<figcaption>GA4 muestra dónde se produce la caída; la solución suele estar en una de estas cuatro decisiones de negocio.</figcaption>
+</figure>
+
 <aside class="post-cta">
 <p><strong>¿Quieres juzgar cada mercado por las consultas que abre?</strong> Con nuestra <a href="/es/services/generacion-de-leads/">generación de leads</a>, cada consulta se atribuye al mercado y al idioma que la trajeron y se sigue hasta tu CRM. <a href="/es/contactanos/">Reserva una consulta gratuita</a>.</p>
 </aside>
@@ -139,6 +174,27 @@ Con lo básico en orden, las preguntas ganan valor: qué mercado es rentable, ad
 ### Integración con BigQuery
 
 La exportación de GA4 a BigQuery te permite combinar los datos de analítica con los del CRM, la logística y los costes, para juzgar cada mercado por su rentabilidad.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Los datos de GA4, del CRM, de la logística y de los costes combinados en BigQuery para juzgar cada mercado por su rentabilidad.">
+<path d="M160 23 L238 70" class="fg-line"/>
+<path d="M160 61 L238 76" class="fg-line"/>
+<path d="M160 99 L238 84" class="fg-line"/>
+<path d="M160 137 L238 90" class="fg-line"/>
+<rect x="10" y="8" width="150" height="30" rx="6" class="fg-box"/>
+<rect x="10" y="46" width="150" height="30" rx="6" class="fg-box"/>
+<rect x="10" y="84" width="150" height="30" rx="6" class="fg-box"/>
+<rect x="10" y="122" width="150" height="30" rx="6" class="fg-box"/>
+<rect x="238" y="52" width="150" height="56" rx="6" class="fg-hot"/>
+<text x="85" y="28" text-anchor="middle" class="fg-text">Datos de GA4</text>
+<text x="85" y="66" text-anchor="middle" class="fg-text">CRM</text>
+<text x="85" y="104" text-anchor="middle" class="fg-text">Logística</text>
+<text x="85" y="142" text-anchor="middle" class="fg-text">Costes</text>
+<text x="313" y="77" text-anchor="middle" class="fg-strong">Rentabilidad</text>
+<text x="313" y="97" text-anchor="middle" class="fg-label">por mercado</text>
+</svg>
+<figcaption>Combinados con el CRM, la logística y los costes, los datos de analítica muestran qué mercado es rentable, además de activo.</figcaption>
+</figure>
 
 ### Audiencias predictivas
 

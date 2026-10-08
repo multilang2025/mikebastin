@@ -84,6 +84,23 @@ A visitor who switches from your English pages to your French ones should count 
 
 Keep a language switch inside the same user and session, and your attribution and engagement data stay reliable. Getting it right depends on proper analytics setup and sound [technical SEO for multilingual websites](/blog/technical-seo-for-multilingual-websites/).
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 156" role="img" aria-label="A visitor moving from English pages to French pages, tracked by GA4 as one user and one session and counted once, in the right market.">
+<path d="M170 43 L230 43" class="fg-line"/>
+<path d="M220 35 L230 43 L220 51" class="fg-line"/>
+<path d="M20 84 L20 96 L380 96 L380 84" class="fg-accent"/>
+<rect x="20" y="20" width="150" height="46" rx="6" class="fg-box"/>
+<rect x="230" y="20" width="150" height="46" rx="6" class="fg-box"/>
+<text x="95" y="40" text-anchor="middle" class="fg-text">English</text>
+<text x="95" y="58" text-anchor="middle" class="fg-label">pages</text>
+<text x="305" y="40" text-anchor="middle" class="fg-text">French</text>
+<text x="305" y="58" text-anchor="middle" class="fg-label">pages</text>
+<text x="200" y="124" text-anchor="middle" class="fg-strong">One user, one session</text>
+<text x="200" y="146" text-anchor="middle" class="fg-label">counted once, in the right market</text>
+</svg>
+<figcaption>Keep a language switch inside one user and one session, and attribution and engagement data stay reliable across your markets.</figcaption>
+</figure>
+
 ### Server-side tag management
 
 Server-side Google Tag Manager recovers some of the data that browsers, ad blockers and consent restrictions filter out, and gives you more control over compliance. For international businesses it is increasingly standard.
@@ -108,6 +125,24 @@ Custom dimensions let you compare page language, browser language and user routi
 
 Benchmark each international market against your home market. Large conversion gaps usually come from payment options, pricing logic, delivery constraints or trust signals. GA4 shows where the drop occurs. The fix takes business and UX decisions.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="A conversion gap between an international market and the home market, traced to four usual causes: payment options, pricing logic, delivery and trust signals.">
+<path d="M105 46 L105 58" class="fg-dim"/>
+<path d="M295 46 L295 58" class="fg-dim"/>
+<rect x="15" y="10" width="370" height="36" rx="6" class="fg-hot"/>
+<rect x="15" y="58" width="180" height="36" rx="6" class="fg-box"/>
+<rect x="205" y="58" width="180" height="36" rx="6" class="fg-box"/>
+<rect x="15" y="104" width="180" height="36" rx="6" class="fg-box"/>
+<rect x="205" y="104" width="180" height="36" rx="6" class="fg-box"/>
+<text x="200" y="34" text-anchor="middle" class="fg-strong">Conversion gap vs home market</text>
+<text x="105" y="82" text-anchor="middle" class="fg-text">Payment options</text>
+<text x="295" y="82" text-anchor="middle" class="fg-text">Pricing logic</text>
+<text x="105" y="128" text-anchor="middle" class="fg-text">Delivery</text>
+<text x="295" y="128" text-anchor="middle" class="fg-text">Trust signals</text>
+</svg>
+<figcaption>GA4 shows where the drop occurs; the fix usually sits in one of these four business decisions.</figcaption>
+</figure>
+
 <aside class="post-cta">
 <p><strong>Want one language's traffic turned into enquiries?</strong> Every <a href="/services/multilingual-seo/">multilingual SEO programme</a> we run starts with native research in each target language, done in that language from the first keyword. <a href="/contact/">Talk to us about your markets</a>.</p>
 </aside>
@@ -125,6 +160,27 @@ Once the basics are clean, the questions get more valuable: which market is prof
 ### BigQuery integration
 
 GA4’s BigQuery export lets you combine analytics data with CRM, logistics and cost data, so you can judge each market on profitability.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="GA4 data, CRM, logistics and cost data combined in BigQuery to judge each market on profitability.">
+<path d="M160 23 L238 70" class="fg-line"/>
+<path d="M160 61 L238 76" class="fg-line"/>
+<path d="M160 99 L238 84" class="fg-line"/>
+<path d="M160 137 L238 90" class="fg-line"/>
+<rect x="10" y="8" width="150" height="30" rx="6" class="fg-box"/>
+<rect x="10" y="46" width="150" height="30" rx="6" class="fg-box"/>
+<rect x="10" y="84" width="150" height="30" rx="6" class="fg-box"/>
+<rect x="10" y="122" width="150" height="30" rx="6" class="fg-box"/>
+<rect x="238" y="52" width="150" height="56" rx="6" class="fg-hot"/>
+<text x="85" y="28" text-anchor="middle" class="fg-text">GA4 data</text>
+<text x="85" y="66" text-anchor="middle" class="fg-text">CRM</text>
+<text x="85" y="104" text-anchor="middle" class="fg-text">Logistics</text>
+<text x="85" y="142" text-anchor="middle" class="fg-text">Costs</text>
+<text x="313" y="77" text-anchor="middle" class="fg-strong">Profitability</text>
+<text x="313" y="97" text-anchor="middle" class="fg-label">per market</text>
+</svg>
+<figcaption>Combined with CRM, logistics and cost data, analytics shows which market is profitable as well as busy.</figcaption>
+</figure>
 
 ### Predictive audiences
 

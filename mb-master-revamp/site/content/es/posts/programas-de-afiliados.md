@@ -217,7 +217,7 @@ El tercero es invertir en email. El estudio de Authority Hacker muestra que [el 
 <text x="50" y="114" text-anchor="middle" class="fg-label">solo uno</text>
 <text x="150" y="114" text-anchor="middle" class="fg-label">cinco piezas</text>
 <text x="250" y="114" text-anchor="middle" class="fg-label">3 métricas</text>
-<text x="350" y="114" text-anchor="middle" class="fg-label">escalar, cambiar</text>
+<text x="350" y="114" text-anchor="middle" class="fg-label">escalar o no</text>
 </svg>
 <figcaption>Un programa, cinco contenidos y tres cifras te dan pruebas suficientes para decidir. Prueba un programa cada vez y los números se leerán con claridad.</figcaption>
 </figure>

@@ -73,6 +73,10 @@ Chacune des habitudes ci-dessous oriente le budget vers le canal où le problèm
 
 **Le multilingue prévu dès le départ.** Quand les versions espagnole et allemande sont planifiées en même temps que la version française, chacune part de son propre plan complet et d’une transmission nette. Comme le montrent nos [bonnes pratiques du SEO multilingue](/fr/bonnes-pratiques-seo-multilingue/), un marketing multilingue efficace intègre la traduction à la planification dès le premier jour.
 
+> 76 % des acheteurs en ligne préfèrent acheter un produit présenté dans leur langue maternelle, et 40 % n’achètent jamais sur un site dans une autre langue.
+>
+> Source : [CSA Research, « Can’t Read, Won’t Buy », enquête auprès de 8 709 consommateurs dans 29 pays, juillet 2020](https://csa-research.com/l/media/Consumers-Prefer-their-Own-Language)
+
 ## Testez l’intégration en dix minutes
 
 En dix minutes, vous voyez à quel point le travail de votre agence est coordonné. Posez ces trois questions sur n’importe quelle campagne active.

@@ -111,6 +111,10 @@ Los compradores confían en un proceso que pueden ver, y tu equipo comercial con
 
 Un caso de éxito es la pieza que tu interlocutor reenvía al resto del comité de compra, lo que lo convierte en uno de los contenidos más útiles que lee un comprador B2B en la etapa de decisión.
 
+> Los profesionales del marketing B2B sitúan los casos de éxito y testimonios de clientes como el segundo tipo de contenido más eficaz, citado por el 53 %, por detrás de los vídeos (58 %).
+>
+> Fuente: [Content Marketing Institute y MarketingProfs, «B2B Content Marketing Benchmarks, Budgets, and Trends: Outlook for 2025», encuesta a 980 profesionales del marketing B2B, de junio a agosto de 2024](https://contentmarketinginstitute.com/b2b-research/b2b-content-marketing-trends-research-2025)
+
 **Ejemplo:** una empresa de logística publica «Cómo redujimos los plazos de entrega de un distribuidor del Benelux», con resultados medibles.
 
 <figure class="post-fig">
@@ -142,6 +146,10 @@ Una entrevista toma prestada la autoridad de un nombre reconocido en tu campo y 
 
 **Ejemplo:** una agencia de marketing entrevista a un responsable de producto de Google Ads sobre los próximos cambios de Performance Max.
 
+> Los profesionales del marketing de contenidos que colaboran con influencers obtienen buenos resultados 2,6 veces más a menudo que la media, pero solo el 7 % lo hace, frente al 25 % en 2017.
+>
+> Fuente: [Orbit Media Studios, «Blogging Statistics 2026: What 1,042 Content Marketers Told Us About What Works», encuesta anual a 1.042 profesionales del marketing de contenidos, septiembre de 2026](https://www.orbitmedia.com/blog/blogging-statistics/)
+
 ### Predicciones
 
 Periodistas y publicaciones del sector citan los comentarios de expertos. Vincula cada predicción a una fuente con nombre y citable, para que el artículo gane confianza además de atención.
@@ -161,6 +169,10 @@ Aquí el lector empieza a elegir. Estos formatos convierten ese momento en un no
 Una pregunta a tu público te da datos propios y resultados originales, que atraen más enlaces que una opinión.
 
 **Ejemplo:** una agencia de selección pregunta «¿Cuál es tu mayor reto de contratación en 2027?» y publica los resultados en un informe posterior.
+
+> Publicar estudios originales aumenta en un 50 % la probabilidad de que un blog dé resultados, y aun así cada vez menos profesionales del marketing de contenidos los publican.
+>
+> Fuente: [Orbit Media Studios, «Blogging Statistics 2026: What 1,042 Content Marketers Told Us About What Works», encuesta anual a 1.042 profesionales del marketing de contenidos, septiembre de 2026](https://www.orbitmedia.com/blog/blogging-statistics/)
 
 ### Cuestionarios
 

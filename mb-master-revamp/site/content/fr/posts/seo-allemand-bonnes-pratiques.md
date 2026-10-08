@@ -44,6 +44,24 @@ Vos acheteurs allemands sont sur Google, qui détenait 87,8 % du marché allema
 
 Un détail propre à l’Allemagne : Ecosia, un moteur basé à Berlin qui finance des plantations d’arbres avec ses bénéfices. Sa part est modeste, et avec Bing elle offre à un plan qui dépasse Google des audiences réelles, quoique plus petites.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Les acheteurs en Allemagne passent surtout par Google, loin devant Bing, et Ecosia réunit une petite audience sensible à l’écologie.">
+<path d="M162 80 L250 30" class="fg-accent"/>
+<path d="M162 80 L250 80" class="fg-dim"/>
+<path d="M162 80 L250 130" class="fg-dim" stroke-dasharray="4 4"/>
+<rect x="12" y="55" width="150" height="50" rx="6" class="fg-box"/>
+<rect x="250" y="12" width="138" height="36" rx="6" class="fg-hot"/>
+<rect x="250" y="62" width="138" height="36" rx="6" class="fg-box"/>
+<rect x="250" y="112" width="138" height="36" rx="6" class="fg-box"/>
+<text x="87" y="77" text-anchor="middle" class="fg-strong">Acheteurs</text>
+<text x="87" y="95" text-anchor="middle" class="fg-label">en Allemagne</text>
+<text x="319" y="36" text-anchor="middle" class="fg-text">Google</text>
+<text x="319" y="86" text-anchor="middle" class="fg-text">Bing</text>
+<text x="319" y="136" text-anchor="middle" class="fg-text">Ecosia</text>
+</svg>
+<figcaption>Google capte presque toutes les recherches allemandes, et Bing comme Ecosia ajoutent des audiences réelles, quoique plus petites.</figcaption>
+</figure>
+
 Si votre marque vend sur l’engagement écologique, apparaître sur Ecosia vous place devant les acheteurs allemands sensibles à ce sujet.
 
 ### Vie privée et protection des données
@@ -111,6 +129,22 @@ Menez la recherche pays par pays, en vous appuyant sur l’intention de recherch
 
 L’allemand compte deux formes d’adresse, la forme formelle (« Sie ») et la forme informelle (« Du »), comme notre « vous » et notre « tu », et la bonne forme indique à l’acheteur que la page a été écrite pour lui.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Deux formes d’adresse en allemand : « Sie », la forme formelle pour les acheteurs professionnels et B2B, et « Du », la forme informelle pour les marques décontractées et B2C.">
+<path d="M182 75 L230 35" class="fg-line"/>
+<path d="M182 75 L230 115" class="fg-line"/>
+<rect x="12" y="55" width="170" height="40" rx="6" class="fg-hot"/>
+<rect x="230" y="12" width="158" height="46" rx="6" class="fg-box"/>
+<rect x="230" y="92" width="158" height="46" rx="6" class="fg-box"/>
+<text x="97" y="81" text-anchor="middle" class="fg-strong">Vos acheteurs</text>
+<text x="309" y="32" text-anchor="middle" class="fg-strong">Sie</text>
+<text x="309" y="50" text-anchor="middle" class="fg-label">formel, B2B</text>
+<text x="309" y="112" text-anchor="middle" class="fg-strong">Du</text>
+<text x="309" y="130" text-anchor="middle" class="fg-label">informel, B2C</text>
+</svg>
+<figcaption>Choisissez la forme qu’attendent vos acheteurs et tenez-la sur tout le site.</figcaption>
+</figure>
+
 Le registre formel domine dans les contextes professionnels et B2B, tandis que le registre informel convient aux marques décontractées et B2C. Choisissez celui qu’attendent vos acheteurs et tenez-le sur tout le site.
 
 <aside class="post-cta">
@@ -148,21 +182,21 @@ Si vous vendez en Allemagne, en Autriche et en Suisse, les balises hreflang déc
 Grâce à elles, les trois versions restent distinctes et chaque utilisateur reçoit la version de sa région et de sa langue. Nos [services de SEO technique](/fr/services/seo-technique/) incluent leur mise en place pour l’Allemagne, l’Autriche et la Suisse.
 
 <figure class="post-fig">
-<svg viewBox="0 0 400 150" role="img" aria-label="Un même contenu allemand diffusé en trois versions régionales, de-DE pour l’Allemagne, de-AT pour l’Autriche et de-CH pour la Suisse, reliées par des balises hreflang.">
-<rect x="130" y="10" width="140" height="36" rx="6" class="fg-hot"/>
-<text x="200" y="34" text-anchor="middle" class="fg-text">Contenu allemand</text>
-<line x1="200" y1="46" x2="70" y2="84" class="fg-line"/>
-<line x1="200" y1="46" x2="200" y2="84" class="fg-line"/>
-<line x1="200" y1="46" x2="330" y2="84" class="fg-line"/>
-<rect x="20" y="84" width="100" height="36" rx="6" class="fg-box"/>
-<rect x="150" y="84" width="100" height="36" rx="6" class="fg-box"/>
-<rect x="280" y="84" width="100" height="36" rx="6" class="fg-box"/>
-<text x="70" y="108" text-anchor="middle" class="fg-text">de-DE</text>
-<text x="200" y="108" text-anchor="middle" class="fg-text">de-AT</text>
-<text x="330" y="108" text-anchor="middle" class="fg-text">de-CH</text>
-<text x="70" y="140" text-anchor="middle" class="fg-label">Allemagne</text>
-<text x="200" y="140" text-anchor="middle" class="fg-label">Autriche</text>
-<text x="330" y="140" text-anchor="middle" class="fg-label">Suisse</text>
+<svg viewBox="0 0 400 170" role="img" aria-label="Un même contenu allemand diffusé en trois versions régionales, de-DE pour l’Allemagne, de-AT pour l’Autriche et de-CH pour la Suisse, reliées par des balises hreflang.">
+<rect x="105" y="12" width="190" height="38" rx="6" class="fg-hot"/>
+<text x="200" y="37" text-anchor="middle" class="fg-text">Contenu allemand</text>
+<line x1="200" y1="50" x2="75" y2="90" class="fg-line"/>
+<line x1="200" y1="50" x2="200" y2="90" class="fg-line"/>
+<line x1="200" y1="50" x2="325" y2="90" class="fg-line"/>
+<rect x="25" y="90" width="100" height="36" rx="6" class="fg-box"/>
+<rect x="150" y="90" width="100" height="36" rx="6" class="fg-box"/>
+<rect x="275" y="90" width="100" height="36" rx="6" class="fg-box"/>
+<text x="75" y="114" text-anchor="middle" class="fg-text">de-DE</text>
+<text x="200" y="114" text-anchor="middle" class="fg-text">de-AT</text>
+<text x="325" y="114" text-anchor="middle" class="fg-text">de-CH</text>
+<text x="75" y="148" text-anchor="middle" class="fg-label">Allemagne</text>
+<text x="200" y="148" text-anchor="middle" class="fg-label">Autriche</text>
+<text x="325" y="148" text-anchor="middle" class="fg-label">Suisse</text>
 </svg>
 <figcaption>Chaque version régionale liste les deux autres dans ses balises hreflang, ce qui permet à Google de montrer la bonne page allemande dans chacun des trois pays.</figcaption>
 </figure>
@@ -186,6 +220,19 @@ Les avis sur des plateformes comme Google Business Profile et sur les annuaires 
 Isolez vos chiffres allemands du reste, et vous voyez une évolution des demandes allemandes au moment où elle se produit.
 
 Utilisez Google Analytics, Google Search Console et des outils de SEO local pour suivre la performance allemande à part et choisir le chantier suivant. Notre service d’[analyse et de suivi](/fr/services/seo-technique/) met ces indicateurs en place.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 120" role="img" aria-label="Tous les marchés réunis en un seul total, face aux chiffres allemands suivis à part, où chaque évolution des demandes allemandes apparaît aussitôt.">
+<path d="M192 58 L208 58" class="fg-accent"/>
+<rect x="12" y="30" width="180" height="56" rx="6" class="fg-box"/>
+<rect x="208" y="30" width="180" height="56" rx="6" class="fg-hot"/>
+<text x="102" y="55" text-anchor="middle" class="fg-text">Tous les marchés</text>
+<text x="102" y="74" text-anchor="middle" class="fg-label">un seul total</text>
+<text x="298" y="55" text-anchor="middle" class="fg-strong">Allemagne seule</text>
+<text x="298" y="74" text-anchor="middle" class="fg-label">demandes allemandes</text>
+</svg>
+<figcaption>Isolés du reste, vos chiffres allemands montrent une évolution des demandes au moment où elle se produit.</figcaption>
+</figure>
 
 Des audits SEO réguliers gardent votre site conforme aux règles allemandes et performant. La recherche, le comportement des acheteurs et le droit de la vie privée évoluent, et votre plan évolue avec eux.
 

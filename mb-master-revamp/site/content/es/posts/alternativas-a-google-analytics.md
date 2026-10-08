@@ -205,31 +205,31 @@ La elección se hace una sola vez: una migración y unos informes que puedes com
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 244" role="img" aria-label="Cuatro preguntas, cada una con su herramienta: datos en tus propios servidores lleva a Matomo, un sector regulado a Piwik PRO, el comportamiento dentro del producto a Mixpanel, y una pantalla sencilla a Plausible o Fathom.">
-<rect x="10" y="10" width="220" height="44" rx="6" class="fg-box"/>
-<rect x="10" y="70" width="220" height="44" rx="6" class="fg-box"/>
-<rect x="10" y="130" width="220" height="44" rx="6" class="fg-box"/>
-<rect x="10" y="190" width="220" height="44" rx="6" class="fg-box"/>
-<rect x="262" y="10" width="128" height="44" rx="6" class="fg-fill"/>
-<rect x="262" y="70" width="128" height="44" rx="6" class="fg-fill"/>
-<rect x="262" y="130" width="128" height="44" rx="6" class="fg-fill"/>
-<rect x="262" y="190" width="128" height="44" rx="6" class="fg-fill"/>
-<line x1="230" y1="32" x2="258" y2="32" class="fg-line"/>
-<line x1="230" y1="92" x2="258" y2="92" class="fg-line"/>
-<line x1="230" y1="152" x2="258" y2="152" class="fg-line"/>
-<line x1="230" y1="212" x2="258" y2="212" class="fg-line"/>
-<path d="M252 27 L260 32 L252 37" fill="none" class="fg-line"/>
-<path d="M252 87 L260 92 L252 97" fill="none" class="fg-line"/>
-<path d="M252 147 L260 152 L252 157" fill="none" class="fg-line"/>
-<path d="M252 207 L260 212 L252 217" fill="none" class="fg-line"/>
-<text x="120" y="38" text-anchor="middle" class="fg-text">¿Datos en servidores propios?</text>
-<text x="120" y="98" text-anchor="middle" class="fg-text">¿Sector regulado?</text>
-<text x="120" y="158" text-anchor="middle" class="fg-text">¿Comportamiento en producto?</text>
-<text x="120" y="218" text-anchor="middle" class="fg-text">¿Una pantalla sencilla?</text>
-<text x="326" y="38" text-anchor="middle" class="fg-strong">Matomo</text>
-<text x="326" y="98" text-anchor="middle" class="fg-strong">Piwik PRO</text>
-<text x="326" y="158" text-anchor="middle" class="fg-strong">Mixpanel</text>
-<text x="326" y="208" text-anchor="middle" class="fg-strong">Plausible</text>
-<text x="326" y="227" text-anchor="middle" class="fg-strong">o Fathom</text>
+<rect x="6" y="10" width="250" height="44" rx="6" class="fg-box"/>
+<rect x="6" y="70" width="250" height="44" rx="6" class="fg-box"/>
+<rect x="6" y="130" width="250" height="44" rx="6" class="fg-box"/>
+<rect x="6" y="190" width="250" height="44" rx="6" class="fg-box"/>
+<rect x="280" y="10" width="114" height="44" rx="6" class="fg-fill"/>
+<rect x="280" y="70" width="114" height="44" rx="6" class="fg-fill"/>
+<rect x="280" y="130" width="114" height="44" rx="6" class="fg-fill"/>
+<rect x="280" y="190" width="114" height="44" rx="6" class="fg-fill"/>
+<line x1="256" y1="32" x2="276" y2="32" class="fg-line"/>
+<line x1="256" y1="92" x2="276" y2="92" class="fg-line"/>
+<line x1="256" y1="152" x2="276" y2="152" class="fg-line"/>
+<line x1="256" y1="212" x2="276" y2="212" class="fg-line"/>
+<path d="M270 27 L278 32 L270 37" fill="none" class="fg-line"/>
+<path d="M270 87 L278 92 L270 97" fill="none" class="fg-line"/>
+<path d="M270 147 L278 152 L270 157" fill="none" class="fg-line"/>
+<path d="M270 207 L278 212 L270 217" fill="none" class="fg-line"/>
+<text x="131" y="38" text-anchor="middle" class="fg-text">¿Datos en tus servidores?</text>
+<text x="131" y="98" text-anchor="middle" class="fg-text">¿Sector regulado?</text>
+<text x="131" y="158" text-anchor="middle" class="fg-text">¿Uso dentro del producto?</text>
+<text x="131" y="218" text-anchor="middle" class="fg-text">¿Una pantalla sencilla?</text>
+<text x="337" y="38" text-anchor="middle" class="fg-strong">Matomo</text>
+<text x="337" y="98" text-anchor="middle" class="fg-strong">Piwik PRO</text>
+<text x="337" y="158" text-anchor="middle" class="fg-strong">Mixpanel</text>
+<text x="337" y="208" text-anchor="middle" class="fg-strong">Plausible</text>
+<text x="337" y="227" text-anchor="middle" class="fg-strong">o Fathom</text>
 </svg>
 <figcaption>Elige la herramienta según la pregunta que más se hace tu equipo. Si una configuración más limpia de GA4 ya la responde, mantener GA4 es la opción más económica.</figcaption>
 </figure>

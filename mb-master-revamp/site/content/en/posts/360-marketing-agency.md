@@ -75,6 +75,10 @@ Each habit below sends budget to the channel where the problem is still open.
 
 **Multilingual planned from the start.** When the Spanish and French versions are planned alongside the English one, each starts from its own complete plan and a clean handover. Real multilingual marketing, as our [multilingual SEO best practices](/blog/best-practices-for-multilingual-seo/) explain, is a planning input from day one.
 
+> 76% of online shoppers prefer to buy products with information in their native language, and 40% will never buy from websites in other languages.
+>
+> Source: [CSA Research, "Can't Read, Won't Buy", survey of 8,709 consumers in 29 countries, July 2020](https://csa-research.com/l/media/Consumers-Prefer-their-Own-Language)
+
 ## Test your agency's integration in ten minutes
 
 Ten minutes shows you how joined up your agency’s work is. Ask three questions about any active campaign.

@@ -40,6 +40,23 @@ Dans notre propre travail auprès de cabinets d’avocats, de transitaires, d’
 
 La mission se mène au plus près de la direction, semaine après semaine. Le livrable est une direction, appuyée par une recommandation d’outils marketing, un cadre d’indicateurs clés et les bons recrutements internes pour les 12 mois suivants.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Un conseiller livre une direction, appuyée par une recommandation d’outils marketing, un cadre d’indicateurs clés et un plan de recrutement.">
+<path d="M172 80 L200 30" class="fg-accent"/>
+<path d="M172 80 L200 80" class="fg-accent"/>
+<path d="M172 80 L200 130" class="fg-accent"/>
+<rect x="12" y="55" width="160" height="50" rx="6" class="fg-hot"/>
+<rect x="200" y="10" width="188" height="40" rx="6" class="fg-box"/>
+<rect x="200" y="60" width="188" height="40" rx="6" class="fg-box"/>
+<rect x="200" y="110" width="188" height="40" rx="6" class="fg-box"/>
+<text x="92" y="86" text-anchor="middle" class="fg-strong">Direction</text>
+<text x="294" y="36" text-anchor="middle" class="fg-text">Outils marketing</text>
+<text x="294" y="86" text-anchor="middle" class="fg-text">Indicateurs clés</text>
+<text x="294" y="136" text-anchor="middle" class="fg-text">Recrutements</text>
+</svg>
+<figcaption>Le conseiller remet une direction pour l’entreprise, et trois documents de travail la rendent utilisable par l’équipe.</figcaption>
+</figure>
+
 Quand les campagnes apportent du trafic et que les rendez-vous tardent à suivre, un conseiller fouille les données pour trouver la fuite, souvent en commençant par une analyse claire des concurrents et un [audit SEO technique](/fr/checklist-audit-seo-technique/). Une fois ce diagnostic posé, nous construisons une stratégie de contenu ciblée sur ce qu’il a révélé.
 
 > Dans nos missions avec des cabinets d’avocats, des transitaires et des sociétés de traduction, le même schéma revient constamment. Les entreprises qui grandissent sont celles qui confient la stratégie et l’exécution à des mains distinctes, avec une boucle de retour claire entre les deux.
@@ -61,6 +78,22 @@ Les agences changent d’échelle facilement. Elles pilotent des budgets publici
 ### Stratégie ou exécution
 
 Un conseiller consacre l’essentiel de son temps à la stratégie et le reste au suivi du travail. Une agence inverse la proportion. Si vous avez déjà un plan clair et besoin de personnes pour le mettre en œuvre, l’agence l’emporte. Si vous produisez beaucoup et voulez que les chiffres bougent, le conseiller l’emporte.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 145" role="img" aria-label="Un conseiller consacre l’essentiel de son temps à la stratégie et une petite part à l’exécution ; une agence inverse la proportion.">
+<rect x="130" y="20" width="196" height="36" rx="6" class="fg-hot"/>
+<rect x="332" y="20" width="56" height="36" rx="6" class="fg-box"/>
+<rect x="130" y="70" width="56" height="36" rx="6" class="fg-hot"/>
+<rect x="192" y="70" width="196" height="36" rx="6" class="fg-box"/>
+<rect x="130" y="118" width="14" height="14" rx="3" class="fg-hot"/>
+<rect x="262" y="118" width="14" height="14" rx="3" class="fg-box"/>
+<text x="12" y="44" class="fg-strong">Conseiller</text>
+<text x="12" y="94" class="fg-strong">Agence</text>
+<text x="152" y="130" class="fg-label">Stratégie</text>
+<text x="284" y="130" class="fg-label">Exécution</text>
+</svg>
+<figcaption>Les deux modèles portent les deux mêmes métiers dans des proportions inverses. Choisissez celui dont la plus grande part correspond à votre besoin.</figcaption>
+</figure>
 
 ### Structure de coûts
 
@@ -99,6 +132,22 @@ Choisissez une agence quand l’exécution est le goulet d’étranglement : qu
 **Coût caché du conseiller : quelqu’un pour faire le travail.** Associez le conseiller à des salariés ou à des freelances qui exécutent la stratégie, pour que les idées deviennent du travail livré.
 
 **Coût caché de l’agence : le temps de pilotage.** Quelqu’un chez vous doit encore lire les rapports dans Looker Studio, valider les créations et garder l’agence alignée sur le ton de la marque. Demandez qui réalisera le travail au quotidien, au-delà des seniors présents lors de la présentation commerciale.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Chaque modèle comporte un coût à prévoir, une équipe d’exécution pour le conseiller et du temps de pilotage de votre côté pour l’agence.">
+<path d="M104 52 L104 95" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M296 52 L296 95" class="fg-dim" stroke-dasharray="4 4"/>
+<rect x="12" y="12" width="184" height="40" rx="6" class="fg-box"/>
+<rect x="204" y="12" width="184" height="40" rx="6" class="fg-box"/>
+<rect x="12" y="95" width="184" height="44" rx="6" class="fg-hot"/>
+<rect x="204" y="95" width="184" height="44" rx="6" class="fg-hot"/>
+<text x="104" y="38" text-anchor="middle" class="fg-strong">Conseiller</text>
+<text x="296" y="38" text-anchor="middle" class="fg-strong">Agence</text>
+<text x="104" y="122" text-anchor="middle" class="fg-text">Équipe d’exécution</text>
+<text x="296" y="122" text-anchor="middle" class="fg-text">Temps de pilotage</text>
+</svg>
+<figcaption>Les deux modèles s’accompagnent d’un second coût. Prévoyez-le dès le départ et la mission se déroule comme prévu.</figcaption>
+</figure>
 
 <aside class="post-cta">
 <p><strong>Vous voulez que tout votre budget publicitaire achète de la publicité ?</strong> Quand notre <a href="/fr/services/sem-multilingue/">SEA multilingue</a> comprend du référencement payant, tout votre budget média achète des annonces : il va directement à Google, Microsoft ou Meta, et la gestion fait l’objet d’honoraires distincts. Le principe couvre les dépenses média ; la rédaction et la traduction sont chiffrées comme un prix pour le travail. <a href="/fr/nous-contacter/">Demandez-nous comment la facturation fonctionne</a>.</p>

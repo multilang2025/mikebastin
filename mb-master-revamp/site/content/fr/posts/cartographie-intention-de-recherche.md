@@ -37,14 +37,14 @@ Chaque recherche répond à un but sous-jacent, et le secteur du SEO les range e
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 200" role="img" aria-label="Intention de recherche placée sur l’entonnoir : informationnelle en haut, là où il est le plus large, commerciale au milieu, transactionnelle en bas, là où il est le plus étroit, et navigationnelle qui court le long de l’ensemble.">
-<rect x="20" y="10" width="280" height="44" rx="6" class="fg-box"/>
-<rect x="60" y="68" width="200" height="44" rx="6" class="fg-box"/>
-<rect x="100" y="126" width="120" height="44" rx="6" class="fg-hot"/>
+<rect x="10" y="10" width="300" height="44" rx="6" class="fg-box"/>
+<rect x="45" y="68" width="230" height="44" rx="6" class="fg-box"/>
+<rect x="80" y="126" width="160" height="44" rx="6" class="fg-hot"/>
 <text x="160" y="38" text-anchor="middle" class="fg-text">Informationnelle</text>
 <text x="160" y="96" text-anchor="middle" class="fg-text">Commerciale</text>
 <text x="160" y="154" text-anchor="middle" class="fg-text">Transactionnelle</text>
 <line x1="340" y1="14" x2="340" y2="166" class="fg-dim"/>
-<text x="362" y="90" text-anchor="middle" transform="rotate(90 362 90)" class="fg-label">Navigationnelle</text>
+<text x="362" y="90" text-anchor="middle" writing-mode="vertical-rl" class="fg-label">Navigationnelle</text>
 <text x="200" y="192" text-anchor="middle" class="fg-label">guides, comparatifs, pages d’atterrissage</text>
 </svg>
 <figcaption>La plupart des recherches se situent en haut de l’entonnoir, là où il est le plus large. Associez chaque étape à son propre type de page, et laissez les requêtes navigationnelles mener directement à la marque, à n’importe quel moment.</figcaption>

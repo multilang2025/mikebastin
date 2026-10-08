@@ -73,7 +73,7 @@ Le networking porte ses fruits après la première rencontre. Les quatre étapes
 <text x="50" y="114" text-anchor="middle" class="fg-label">avant</text>
 <text x="150" y="114" text-anchor="middle" class="fg-label">écouter d’abord</text>
 <text x="250" y="114" text-anchor="middle" class="fg-label">sous 24 h</text>
-<text x="350" y="114" text-anchor="middle" class="fg-label">pendant des années</text>
+<text x="350" y="114" text-anchor="middle" class="fg-label">sur la durée</text>
 </svg>
 <figcaption>La relation se construit dans les deux dernières étapes : c’est là que le networking devient un réseau.</figcaption>
 </figure>

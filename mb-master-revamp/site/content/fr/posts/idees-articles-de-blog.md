@@ -111,6 +111,10 @@ Les acheteurs font confiance à un processus qu’ils peuvent voir, et votre éq
 
 Une étude de cas est le document que votre interlocuteur transmet au reste du comité d’achat, ce qui en fait l’un des contenus les plus utiles qu’un acheteur B2B lit à l’étape de la décision.
 
+> Les marketeurs B2B classent les études de cas et témoignages clients au deuxième rang des contenus les plus efficaces, cités par 53 %, derrière les vidéos (58 %).
+>
+> Source : [Content Marketing Institute et MarketingProfs, « B2B Content Marketing Benchmarks, Budgets, and Trends: Outlook for 2025 », enquête auprès de 980 marketeurs B2B, juin à août 2024](https://contentmarketinginstitute.com/b2b-research/b2b-content-marketing-trends-research-2025)
+
 **Exemple :** une entreprise de logistique publie « Comment nous avons réduit les délais de livraison d’un distributeur du Benelux », avec des résultats mesurables.
 
 <figure class="post-fig">
@@ -142,6 +146,10 @@ Une interview emprunte l’autorité d’un nom reconnu dans votre domaine, et g
 
 **Exemple :** une agence marketing interroge un chef de produit Google Ads sur les prochaines évolutions de Performance Max.
 
+> Les marketeurs de contenu qui collaborent avec des influenceurs obtiennent de bons résultats 2,6 fois plus souvent que la moyenne, et seuls 7 % le font, contre 25 % en 2017.
+>
+> Source : [Orbit Media Studios, « Blogging Statistics 2026: What 1,042 Content Marketers Told Us About What Works », enquête annuelle auprès de 1 042 marketeurs de contenu, septembre 2026](https://www.orbitmedia.com/blog/blogging-statistics/)
+
 ### Prévisions
 
 Les journalistes et les publications professionnelles citent les commentaires d’experts. Rattachez chaque prévision à une source nommée et citable, pour que l’article gagne la confiance autant que l’attention.
@@ -161,6 +169,10 @@ Ici, le lecteur commence à choisir. Ces formats transforment ce moment en un no
 Une question posée à votre public vous donne des données propriétaires et des résultats originaux, qui attirent plus de liens qu’une opinion.
 
 **Exemple :** un cabinet de recrutement demande « Quel est votre plus grand défi de recrutement en 2027 ? » et publie les résultats dans un rapport de suivi.
+
+> Publier des études originales augmente de 50 % la probabilité qu’un blog obtienne des résultats, et pourtant moins de marketeurs de contenu en publient aujourd’hui.
+>
+> Source : [Orbit Media Studios, « Blogging Statistics 2026: What 1,042 Content Marketers Told Us About What Works », enquête annuelle auprès de 1 042 marketeurs de contenu, septembre 2026](https://www.orbitmedia.com/blog/blogging-statistics/)
 
 ### Quiz
 

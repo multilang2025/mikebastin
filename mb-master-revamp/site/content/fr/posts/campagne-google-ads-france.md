@@ -41,23 +41,23 @@ Menée dans le bon ordre, chaque vague de dépenses vous indique où placer la s
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 130" role="img" aria-label="Une campagne Google Ads en France se déroule en quatre étapes : recherche, construction, lancement et optimisation, l’optimisation alimentant la vague suivante.">
-<line x1="50" y1="32" x2="350" y2="32" class="fg-rule"/>
-<circle cx="50" cy="32" r="26" class="fg-box"/>
-<circle cx="150" cy="32" r="26" class="fg-box"/>
-<circle cx="250" cy="32" r="26" class="fg-box"/>
-<circle cx="350" cy="32" r="26" class="fg-hot"/>
-<text x="50" y="38" text-anchor="middle" class="fg-strong">1</text>
-<text x="150" y="38" text-anchor="middle" class="fg-strong">2</text>
-<text x="250" y="38" text-anchor="middle" class="fg-strong">3</text>
-<text x="350" y="38" text-anchor="middle" class="fg-strong">4</text>
-<text x="50" y="90" text-anchor="middle" class="fg-text">Recherche</text>
-<text x="150" y="90" text-anchor="middle" class="fg-text">Construction</text>
-<text x="250" y="90" text-anchor="middle" class="fg-text">Lancement</text>
-<text x="350" y="90" text-anchor="middle" class="fg-text">Optimisation</text>
-<text x="50" y="114" text-anchor="middle" class="fg-label">mots-clés</text>
-<text x="150" y="114" text-anchor="middle" class="fg-label">annonces, pages</text>
-<text x="250" y="114" text-anchor="middle" class="fg-label">enchères</text>
-<text x="350" y="114" text-anchor="middle" class="fg-label">tests A/B</text>
+<line x1="56" y1="32" x2="344" y2="32" class="fg-rule"/>
+<circle cx="56" cy="32" r="26" class="fg-box"/>
+<circle cx="152" cy="32" r="26" class="fg-box"/>
+<circle cx="248" cy="32" r="26" class="fg-box"/>
+<circle cx="344" cy="32" r="26" class="fg-hot"/>
+<text x="56" y="38" text-anchor="middle" class="fg-strong">1</text>
+<text x="152" y="38" text-anchor="middle" class="fg-strong">2</text>
+<text x="248" y="38" text-anchor="middle" class="fg-strong">3</text>
+<text x="344" y="38" text-anchor="middle" class="fg-strong">4</text>
+<text x="56" y="90" text-anchor="middle" class="fg-text">Recherche</text>
+<text x="152" y="90" text-anchor="middle" class="fg-text">Construction</text>
+<text x="248" y="90" text-anchor="middle" class="fg-text">Lancement</text>
+<text x="344" y="90" text-anchor="middle" class="fg-text">Optimisation</text>
+<text x="56" y="114" text-anchor="middle" class="fg-label">mots-clés</text>
+<text x="152" y="114" text-anchor="middle" class="fg-label">annonces, pages</text>
+<text x="248" y="114" text-anchor="middle" class="fg-label">enchères</text>
+<text x="344" y="114" text-anchor="middle" class="fg-label">tests A/B</text>
 </svg>
 <figcaption>Les résultats de la dernière étape décident où vont la prochaine série de mots-clés, de textes et de budget.</figcaption>
 </figure>
@@ -77,6 +77,22 @@ Pour la recherche de mots-clés, partez des termes propres à la France et des e
 La structure du compte détermine si vous pourrez savoir, plus tard, quelle région et quelle offre se financent elles-mêmes. Des campagnes séparées par région vous donnent cette réponse.
 
 Sur Google Ads, ciblez la France par pays et par langue, et utilisez le ciblage géographique pour les régions qui comptent pour vous. Si votre compte sert déjà la Belgique, la Suisse romande ou le Luxembourg, créez des campagnes françaises distinctes : chaque pays reçoit alors ses propres mots-clés, ses propres annonces et son propre budget. Une campagne parisienne demande généralement d’autres mots-clés et d’autres messages qu’une campagne visant le sud de la France, et une campagne séparée permet à chacune de mériter son budget.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Un compte Google Ads divisé en campagnes régionales distinctes, l’une pour Paris, l’autre pour le sud de la France, chacune avec son propre budget.">
+<path d="M200 50 L105 100" class="fg-line"/>
+<path d="M200 50 L295 100" class="fg-line"/>
+<rect x="130" y="10" width="140" height="40" rx="6" class="fg-hot"/>
+<rect x="20" y="100" width="170" height="48" rx="6" class="fg-box"/>
+<rect x="210" y="100" width="170" height="48" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-strong">Google Ads</text>
+<text x="105" y="120" text-anchor="middle" class="fg-text">Paris</text>
+<text x="105" y="138" text-anchor="middle" class="fg-label">son budget</text>
+<text x="295" y="120" text-anchor="middle" class="fg-text">Sud de la France</text>
+<text x="295" y="138" text-anchor="middle" class="fg-label">son budget</text>
+</svg>
+<figcaption>Des campagnes séparées par région montrent quelle partie de la France se finance elle-même, et chacune mérite son propre budget.</figcaption>
+</figure>
 
 Fixez les budgets français à partir des coûts par clic réels de votre secteur en France. Les clics coûtent généralement plus cher dans les zones concurrentielles comme Paris, et le budget doit donc refléter l’emplacement autant que la concurrence. Les contenus visuels fonctionnent souvent bien en France, et la vidéo mérite un test.
 
@@ -101,6 +117,22 @@ Rédigez titres et descriptions autour de ce qui compte pour un acheteur frança
 
 Testez vos appels à l’action et laissez les résultats choisir. « Achetez maintenant » fonctionne auprès de certains publics ; « En savoir plus » l’emporte souvent lorsque l’achat est réfléchi. Les données vous disent à quelle formule vos acheteurs répondent.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Un test A/B entre deux appels à l’action : « Achetez maintenant » fonctionne auprès de certains publics, « En savoir plus » l’emporte souvent lorsque l’achat est réfléchi.">
+<path d="M125 75 L200 35" class="fg-line"/>
+<path d="M125 75 L200 115" class="fg-accent"/>
+<rect x="15" y="55" width="110" height="40" rx="6" class="fg-box"/>
+<rect x="200" y="12" width="188" height="46" rx="6" class="fg-box"/>
+<rect x="200" y="92" width="188" height="46" rx="6" class="fg-hot"/>
+<text x="70" y="81" text-anchor="middle" class="fg-strong">Test A/B</text>
+<text x="294" y="32" text-anchor="middle" class="fg-text">Achetez maintenant</text>
+<text x="294" y="50" text-anchor="middle" class="fg-label">certains publics</text>
+<text x="294" y="112" text-anchor="middle" class="fg-strong">En savoir plus</text>
+<text x="294" y="130" text-anchor="middle" class="fg-label">achat réfléchi</text>
+</svg>
+<figcaption>Testez les deux appels à l’action et gardez celui auquel vos acheteurs français répondent.</figcaption>
+</figure>
+
 ## Des pages de destination qui concluent la vente en France
 
 En publicité payante, l’annonce et sa page de destination travaillent en duo : l’annonce obtient le clic et la page conclut la vente. La page de destination doit achever ce que l’annonce a commencé, dans un français impeccable et dans un contexte qu’un acheteur français reconnaît : prix en euros, conditions de livraison en France, coordonnées joignables depuis la France.
@@ -122,6 +154,19 @@ Utilisez les éléments (anciennement extensions d’annonce). Liens annexes, ac
 ## Un suivi qui montre si la France est rentable
 
 Un suivi par marché vous dit si la France est rentable par elle-même ou financée par votre marché d’origine. Configurez le [suivi des conversions dans Google Analytics](/fr/google-analytics-international/) pour vos campagnes françaises, et suivez pour la France seule le taux de clics (CTR), le coût par clic (CPC), le taux de conversion et le retour sur dépenses publicitaires (ROAS).
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 120" role="img" aria-label="Un reporting qui mélange tous les marchés en un seul total, face à un suivi de la France seule, avec son propre retour sur dépenses publicitaires.">
+<path d="M192 58 L208 58" class="fg-accent"/>
+<rect x="12" y="30" width="180" height="56" rx="6" class="fg-box"/>
+<rect x="208" y="30" width="180" height="56" rx="6" class="fg-hot"/>
+<text x="102" y="55" text-anchor="middle" class="fg-text">Tous les marchés</text>
+<text x="102" y="74" text-anchor="middle" class="fg-label">un total confondu</text>
+<text x="298" y="55" text-anchor="middle" class="fg-strong">La France seule</text>
+<text x="298" y="74" text-anchor="middle" class="fg-label">son propre ROAS</text>
+</svg>
+<figcaption>Suivie à part, la France montre si elle est rentable par elle-même ou financée par votre marché d’origine.</figcaption>
+</figure>
 
 Menez des tests A/B sur les annonces et les pages de destination pour trouver ce à quoi les acheteurs français répondent : d’autres textes, d’autres appels à l’action, d’autres mises en page. Gardez les gagnants, déplacez le budget vers les annonces et les mots-clés qui convertissent, puis étendez la campagne à d’autres régions de France à mesure que les résultats le justifient.
 

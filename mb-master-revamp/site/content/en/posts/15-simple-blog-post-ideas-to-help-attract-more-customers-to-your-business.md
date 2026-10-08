@@ -110,6 +110,10 @@ Buyers trust a process they can see, and your sales team gets something useful t
 
 A case study is the piece your champion forwards to the rest of the buying committee, which makes it among the most useful content a B2B buyer reads at the decision stage.
 
+> B2B marketers rate case studies and customer stories their second most effective content type, cited by 53%, behind videos at 58%.
+>
+> Source: [Content Marketing Institute and MarketingProfs, "B2B Content Marketing Benchmarks, Budgets, and Trends: Outlook for 2025", survey of 980 B2B marketers, June to August 2024](https://contentmarketinginstitute.com/b2b-research/b2b-content-marketing-trends-research-2025)
+
 **Example:** A logistics company publishes “How we cut delivery times for a Benelux retailer” with measurable outcomes.
 
 <figure class="post-fig">
@@ -141,6 +145,10 @@ An interview borrows authority from an established name in your field, and it ea
 
 **Example:** A [marketing agency](/blog/360-marketing-agency/) interviews a Google Ads product manager on upcoming Performance Max changes.
 
+> Content marketers who collaborate with influencers report strong results 2.6 times as often as the benchmark, yet only 7% do it, down from 25% in 2017.
+>
+> Source: [Orbit Media Studios, "Blogging Statistics 2026: What 1,042 Content Marketers Told Us About What Works", annual survey of 1,042 content marketers, September 2026](https://www.orbitmedia.com/blog/blogging-statistics/)
+
 ### Future predictions
 
 Journalists and industry publications link to expert commentary. Tie each prediction to a named, citable source so the piece earns trust as well as attention.
@@ -160,6 +168,10 @@ Here the reader starts choosing. These formats turn that moment into a name, an 
 A question to your audience gives you first-party data and original findings, which are more linkable than opinion.
 
 **Example:** A recruitment agency asks “What’s your biggest hiring challenge in 2027?” and publishes findings as a follow-up report.
+
+> Publishing original research studies improves a blog's likelihood of performing by 50%, yet fewer content marketers now publish them.
+>
+> Source: [Orbit Media Studios, "Blogging Statistics 2026: What 1,042 Content Marketers Told Us About What Works", annual survey of 1,042 content marketers, September 2026](https://www.orbitmedia.com/blog/blogging-statistics/)
 
 ### Quizzes
 

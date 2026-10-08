@@ -37,6 +37,22 @@ For a law firm, EEAT decides whether Google shows you to a client. Legal content
 
 So you optimize author bios. You refine the tone. You add references. You build entity consistency. You whisper gentle prayers to the quality raters.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 130" role="img" aria-label="EEAT work on a law firm site in four parts: author bios, tone, references and entity consistency.">
+<rect x="10" y="10" width="154" height="46" rx="6" class="fg-box"/>
+<rect x="236" y="10" width="154" height="46" rx="6" class="fg-box"/>
+<rect x="10" y="74" width="154" height="46" rx="6" class="fg-box"/>
+<rect x="236" y="74" width="154" height="46" rx="6" class="fg-box"/>
+<circle cx="200" cy="65" r="32" class="fg-hot"/>
+<text x="87" y="38" text-anchor="middle" class="fg-text">Author bios</text>
+<text x="313" y="38" text-anchor="middle" class="fg-text">Tone</text>
+<text x="87" y="102" text-anchor="middle" class="fg-text">References</text>
+<text x="313" y="102" text-anchor="middle" class="fg-text">Entities</text>
+<text x="200" y="71" text-anchor="middle" class="fg-strong">EEAT</text>
+</svg>
+<figcaption>The daily ritual of a serious SEO: four signals, each one counting toward the firm’s visibility in Google.</figcaption>
+</figure>
+
 Such is the daily ritual of a serious SEO. Quiet. Focused. Slightly paranoid.
 
 ## AEAT, the Spanish judge
@@ -48,6 +64,23 @@ Both send messages. One arrives in Search Console. The other arrives in your mai
 ## Life as an international SEO in Spain
 
 You work in English. Your clients work in Spanish. Your projects mix legal language, tax references and administrative acronyms, and you translate mental contexts all day.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="One project mixes three vocabularies: legal language, tax references and administrative acronyms.">
+<path d="M148 80 L176 28" class="fg-line"/>
+<path d="M148 80 L176 80" class="fg-line"/>
+<path d="M148 80 L176 132" class="fg-accent"/>
+<rect x="8" y="60" width="140" height="40" rx="6" class="fg-box"/>
+<rect x="176" y="8" width="216" height="40" rx="6" class="fg-box"/>
+<rect x="176" y="60" width="216" height="40" rx="6" class="fg-box"/>
+<rect x="176" y="112" width="216" height="40" rx="6" class="fg-hot"/>
+<text x="78" y="86" text-anchor="middle" class="fg-strong">One project</text>
+<text x="284" y="33" text-anchor="middle" class="fg-text">Legal language</text>
+<text x="284" y="85" text-anchor="middle" class="fg-text">Tax references</text>
+<text x="284" y="137" text-anchor="middle" class="fg-text">Admin acronyms</text>
+</svg>
+<figcaption>Three vocabularies share every project, and the acronyms are where the letters start to blend.</figcaption>
+</figure>
 
 Eventually the acronyms start to blend. EEAT. AEAT. EAT. AET. ETA. Your brain runs an uncontrolled A/B test on your sanity.
 
@@ -62,6 +95,27 @@ A presentation slide: "Optimizing AEAT for legal credibility." The client raises
 A proposal draft: "Full AEAT audit included." Now the finance department is interested.
 
 Late nights raise the odds. Coffee lowers the resistance. Suddenly your SEO document reads like a tax compliance report.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 158" role="img" aria-label="One slip, three readers: in a Slack message it reaches a colleague, on a slide the client, and in a proposal draft the finance team.">
+<path d="M180 29 L216 29" class="fg-dim"/>
+<path d="M180 79 L216 79" class="fg-dim"/>
+<path d="M180 129 L216 129" class="fg-accent"/>
+<rect x="8" y="8" width="172" height="42" rx="6" class="fg-box"/>
+<rect x="8" y="58" width="172" height="42" rx="6" class="fg-box"/>
+<rect x="8" y="108" width="172" height="42" rx="6" class="fg-box"/>
+<rect x="216" y="8" width="176" height="42" rx="6" class="fg-box"/>
+<rect x="216" y="58" width="176" height="42" rx="6" class="fg-box"/>
+<rect x="216" y="108" width="176" height="42" rx="6" class="fg-hot"/>
+<text x="94" y="35" text-anchor="middle" class="fg-text">Slack message</text>
+<text x="94" y="85" text-anchor="middle" class="fg-text">Slide</text>
+<text x="94" y="135" text-anchor="middle" class="fg-text">Proposal draft</text>
+<text x="304" y="35" text-anchor="middle" class="fg-text">Colleague</text>
+<text x="304" y="85" text-anchor="middle" class="fg-text">Client</text>
+<text x="304" y="135" text-anchor="middle" class="fg-text">Finance team</text>
+</svg>
+<figcaption>The same typo travels further with each document, until the finance team takes an interest.</figcaption>
+</figure>
 
 ## The professional moral
 

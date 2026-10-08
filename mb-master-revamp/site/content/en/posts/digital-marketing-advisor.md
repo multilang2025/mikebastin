@@ -40,6 +40,23 @@ In our own work across legal, logistics, real estate and translation, the adviso
 
 The engagement is hands on with leadership, week by week. The output is direction, supported by a martech stack recommendation, a KPI framework and the right internal hires for the next 12 months.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="An advisor delivers direction, supported by a martech stack recommendation, a KPI framework and a hiring plan.">
+<path d="M172 80 L200 30" class="fg-accent"/>
+<path d="M172 80 L200 80" class="fg-accent"/>
+<path d="M172 80 L200 130" class="fg-accent"/>
+<rect x="12" y="55" width="160" height="50" rx="6" class="fg-hot"/>
+<rect x="200" y="10" width="188" height="40" rx="6" class="fg-box"/>
+<rect x="200" y="60" width="188" height="40" rx="6" class="fg-box"/>
+<rect x="200" y="110" width="188" height="40" rx="6" class="fg-box"/>
+<text x="92" y="86" text-anchor="middle" class="fg-strong">Direction</text>
+<text x="294" y="36" text-anchor="middle" class="fg-text">Martech stack</text>
+<text x="294" y="86" text-anchor="middle" class="fg-text">KPI framework</text>
+<text x="294" y="136" text-anchor="middle" class="fg-text">Hiring plan</text>
+</svg>
+<figcaption>The advisor hands over a direction for the business, and three working documents make it usable by the team.</figcaption>
+</figure>
+
 When campaigns produce traffic and the booked calls have yet to follow, an advisor digs into the data to find the leak, often starting with a clean [competitor analysis](/blog/competitor-analysis/) and a [technical SEO audit](/blog/technical-seo-audit-checklist/). You can see how we shape a [targeted content strategy](/blog/how-to-create-a-targeted-content-strategy/) once that diagnostic is complete.
 
 > In our engagements with law firms, freight forwarders, and translation companies, the same pattern keeps showing up. The companies that grow are the ones that keep strategy and execution in separate hands, with a clear feedback loop between them.
@@ -65,6 +82,22 @@ Each model is good value where it fits.
 ### Strategy versus execution
 
 Advisors spend roughly 80% of their time on strategy and 20% overseeing the work. Agencies invert the ratio. If you already have a clear plan and need people to act on it, an agency wins. If you push out a lot of work and want the numbers to move, an advisor wins.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 145" role="img" aria-label="An advisor spends most of the time on strategy and a little on execution; an agency inverts the ratio.">
+<rect x="130" y="20" width="196" height="36" rx="6" class="fg-hot"/>
+<rect x="332" y="20" width="56" height="36" rx="6" class="fg-box"/>
+<rect x="130" y="70" width="56" height="36" rx="6" class="fg-hot"/>
+<rect x="192" y="70" width="196" height="36" rx="6" class="fg-box"/>
+<rect x="130" y="118" width="14" height="14" rx="3" class="fg-hot"/>
+<rect x="262" y="118" width="14" height="14" rx="3" class="fg-box"/>
+<text x="12" y="44" class="fg-strong">Advisor</text>
+<text x="12" y="94" class="fg-strong">Agency</text>
+<text x="152" y="130" class="fg-label">Strategy</text>
+<text x="284" y="130" class="fg-label">Execution</text>
+</svg>
+<figcaption>The two models carry the same two jobs in opposite proportions. Pick the one whose larger share matches your gap.</figcaption>
+</figure>
 
 ### Cost structure
 
@@ -105,6 +138,22 @@ Both models carry a cost worth budgeting for before you sign.
 **Advisor hidden cost: someone to do the work.** Pair the advisor with staff or freelancers who execute the strategy, so the ideas turn into work. Budget for execution before the engagement starts.
 
 **Agency hidden cost: management overhead.** Someone on your side still has to review reports in Looker Studio, approve creative and keep the agency aligned with brand voice. Ask who will deliver the work day to day: a gap between the senior people in the pitch and the team on delivery is the single biggest reason companies churn out of agency relationships in year two.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Each model carries a cost to budget for: an advisor needs a delivery team, an agency needs management time on your side.">
+<path d="M104 52 L104 95" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M296 52 L296 95" class="fg-dim" stroke-dasharray="4 4"/>
+<rect x="12" y="12" width="184" height="40" rx="6" class="fg-box"/>
+<rect x="204" y="12" width="184" height="40" rx="6" class="fg-box"/>
+<rect x="12" y="95" width="184" height="44" rx="6" class="fg-hot"/>
+<rect x="204" y="95" width="184" height="44" rx="6" class="fg-hot"/>
+<text x="104" y="38" text-anchor="middle" class="fg-strong">Advisor</text>
+<text x="296" y="38" text-anchor="middle" class="fg-strong">Agency</text>
+<text x="104" y="122" text-anchor="middle" class="fg-text">Delivery team</text>
+<text x="296" y="122" text-anchor="middle" class="fg-text">Management time</text>
+</svg>
+<figcaption>Both models come with a second cost. Budget for it at the start and the engagement runs as planned.</figcaption>
+</figure>
 
 <aside class="post-cta">
 <p><strong>Want your whole ad budget buying ads?</strong> Where our <a href="/services/lead-generation/">lead generation work</a> includes paid search, your whole media budget buys ads: it goes straight to Google, Microsoft or Meta, and management is a separate fee. So the budget we recommend is the one that brings in enquiries. The principle covers media spend; writing and translation are quoted as a price for the work. <a href="/contact/">Ask us how it is billed</a>.</p>

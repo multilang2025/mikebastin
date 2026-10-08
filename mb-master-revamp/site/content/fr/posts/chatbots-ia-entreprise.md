@@ -28,6 +28,21 @@ Connaître ces briques vous dit quoi demander à un fournisseur. L’IA conversa
 
 Les grands modèles de langage (LLM) comme GPT, Claude et Gemini produisent une réponse adaptée à chaque demande. La génération augmentée par récupération (RAG) associe un LLM à une base de connaissances structurée, ce qui réduit les hallucinations et améliore l’exactitude des faits.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 162" role="img" aria-label="La génération augmentée par récupération associe un grand modèle de langage à une base de connaissances structurée pour donner une réponse exacte.">
+<path d="M72 52 L200 110" class="fg-line"/>
+<path d="M278 52 L200 110" class="fg-line"/>
+<rect x="12" y="12" width="120" height="40" rx="6" class="fg-box"/>
+<rect x="168" y="12" width="220" height="40" rx="6" class="fg-box"/>
+<rect x="100" y="110" width="200" height="40" rx="6" class="fg-hot"/>
+<text x="72" y="38" text-anchor="middle" class="fg-text">LLM</text>
+<text x="278" y="38" text-anchor="middle" class="fg-text">Base de connaissances</text>
+<text x="200" y="86" text-anchor="middle" class="fg-label">RAG</text>
+<text x="200" y="136" text-anchor="middle" class="fg-strong">Réponse exacte</text>
+</svg>
+<figcaption>Le modèle apporte la langue, la base de connaissances apporte les faits. Ensemble, ils donnent des réponses sur lesquelles vos clients peuvent compter.</figcaption>
+</figure>
+
 ## Choisir entre règles, IA et modèle hybride
 
 La bonne architecture comprend les formulations inattendues et suit le script partout où votre service conformité l’exige. Les chatbots à base de règles suivent des arbres de décision et répondent à des mots-clés selon des parcours prédéfinis ; les bots de FAQ simples entrent dans cette catégorie. Les plateformes pilotées par l’IA s’appuient sur le TALN et l’apprentissage automatique pour interpréter l’intention, même quand l’utilisateur formule sa question de façon imprévue.
@@ -81,6 +96,23 @@ En B2B, la qualification des prospects donne le meilleur d’elle-même avec un 
 ## Un chatbot qui parle comme vos clients dans chaque langue
 
 Un chatbot aussi naturel en espagnol qu’en anglais britannique montre à vos clients espagnols qu’ils comptent pour vous. Les modèles de reconnaissance d’intention entraînés sur le français demandent leur propre entraînement en allemand, en espagnol ou en néerlandais, car chaque langue a sa syntaxe, ses expressions et ses attentes culturelles.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 152" role="img" aria-label="Un modèle de reconnaissance d’intention entraîné sur le français reçoit son propre entraînement en allemand, en espagnol et en néerlandais.">
+<path d="M200 50 L72 100" class="fg-accent"/>
+<path d="M200 50 L200 100" class="fg-accent"/>
+<path d="M200 50 L328 100" class="fg-accent"/>
+<rect x="95" y="10" width="210" height="40" rx="6" class="fg-hot"/>
+<rect x="12" y="100" width="120" height="40" rx="6" class="fg-box"/>
+<rect x="140" y="100" width="120" height="40" rx="6" class="fg-box"/>
+<rect x="268" y="100" width="120" height="40" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-strong">Modèle d’intention</text>
+<text x="72" y="126" text-anchor="middle" class="fg-text">Allemand</text>
+<text x="200" y="126" text-anchor="middle" class="fg-text">Espagnol</text>
+<text x="328" y="126" text-anchor="middle" class="fg-text">Néerlandais</text>
+</svg>
+<figcaption>Chaque langue a sa syntaxe et ses expressions, et le modèle d’intention apprend chacune séparément.</figcaption>
+</figure>
 
 L’adaptation que nous appliquons aux textes marketing vaut aussi pour l’IA conversationnelle. Un client allemand attend de la franchise, un client britannique une politesse plus mesurée, et un bot qui respecte ces usages locaux est celui que vos clients utilisent.
 
@@ -136,6 +168,22 @@ Lus ensemble, ces cinq indicateurs montrent ce que le bot apporte réellement, c
 ## Des réponses de chatbot qui servent aussi votre visibilité
 
 Les réponses que vous rédigez pour votre chatbot peuvent aussi décider si la recherche IA cite votre entreprise. Les AI Overviews et le mode IA de Google, ainsi que Copilot de Microsoft, puisent leurs informations dans tout le web, et un contenu de FAQ structuré pour un chatbot peut aussi alimenter ces moteurs de réponse.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Les réponses rédigées pour un chatbot servent deux fois, pour répondre aux clients dans la conversation et pour aider la recherche IA à citer l’entreprise.">
+<path d="M166 75 L206 35" class="fg-accent"/>
+<path d="M166 75 L206 115" class="fg-accent"/>
+<rect x="8" y="52" width="158" height="46" rx="6" class="fg-hot"/>
+<rect x="206" y="12" width="184" height="46" rx="6" class="fg-box"/>
+<rect x="206" y="92" width="184" height="46" rx="6" class="fg-box"/>
+<text x="87" y="81" text-anchor="middle" class="fg-strong">Vos réponses</text>
+<text x="298" y="32" text-anchor="middle" class="fg-text">Votre chatbot</text>
+<text x="298" y="50" text-anchor="middle" class="fg-label">répond aux clients</text>
+<text x="298" y="112" text-anchor="middle" class="fg-text">Recherche IA</text>
+<text x="298" y="130" text-anchor="middle" class="fg-label">cite votre entreprise</text>
+</svg>
+<figcaption>Un contenu rédigé une fois pour le chatbot alimente aussi les moteurs de réponse IA, et le même travail gagne en visibilité.</figcaption>
+</figure>
 
 L’optimisation pour les moteurs génératifs, détaillée dans notre article [passer du SEO au GEO](/fr/seo-au-geo/), place votre entreprise dans ces réponses. Si vous investissez dans les deux, notre article sur [l’avenir du SEO avec l’IA](/fr/avenir-du-seo/) montre où ils se rejoignent.
 

@@ -73,6 +73,10 @@ Cada hábito de esta lista lleva el presupuesto al canal donde el problema sigue
 
 **El multilingüe, planificado desde el inicio.** Cuando las versiones en francés y en neerlandés se planifican a la vez que la española, cada una parte de su propio plan completo y de un traspaso limpio. Como muestran nuestras [buenas prácticas de SEO multilingüe](/es/buenas-practicas-seo-multilingue/), el marketing multilingüe que funciona incorpora la traducción a la planificación desde el primer día.
 
+> El 76 % de los compradores en línea prefiere comprar productos con información en su lengua materna, y el 40 % nunca compra en webs en otros idiomas.
+>
+> Fuente: [CSA Research, «Can’t Read, Won’t Buy», encuesta a 8.709 consumidores de 29 países, julio de 2020](https://csa-research.com/l/media/Consumers-Prefer-their-Own-Language)
+
 ## Comprueba en diez minutos si tu agencia coordina
 
 En diez minutos ves hasta qué punto está coordinado el trabajo de tu agencia. Haz estas tres preguntas sobre cualquier campaña activa.

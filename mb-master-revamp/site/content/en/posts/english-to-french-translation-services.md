@@ -30,9 +30,50 @@ The second is human review of machine translation before it goes live. DeepL is 
 
 The third is the one least discussed: SEO. Adapt the keyword research to how French speakers actually search Google.fr, Qwant or Ecosia, and the French page ranks.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Three things decide English to French translation: the right variant, human review of machine output and SEO in French, and together they bring enquiries.">
+<path d="M180 28 L280 62" class="fg-line"/>
+<path d="M180 80 L274 80" class="fg-line"/>
+<path d="M180 132 L280 98" class="fg-line"/>
+<rect x="8" y="8" width="172" height="40" rx="6" class="fg-box"/>
+<rect x="8" y="60" width="172" height="40" rx="6" class="fg-box"/>
+<rect x="8" y="112" width="172" height="40" rx="6" class="fg-box"/>
+<circle cx="330" cy="80" r="56" class="fg-hot"/>
+<text x="94" y="33" text-anchor="middle" class="fg-text">Right variant</text>
+<text x="94" y="85" text-anchor="middle" class="fg-text">Human review</text>
+<text x="94" y="137" text-anchor="middle" class="fg-text">French SEO</text>
+<text x="330" y="86" text-anchor="middle" class="fg-strong">Enquiries</text>
+</svg>
+<figcaption>Variant, review and search, each settled before launch, and the French copy earns enquiries from day one.</figcaption>
+</figure>
+
 ## The French markets and what each one wants
 
 Pick the right French and your copy lands as local. Hexagonal, Belgian, Swiss and Québécois French each have their own vocabulary, register and commercial expectations, so the first question we ask before quoting is which French audience you are writing for.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="One language, four markets: French for France, Belgium, Switzerland and Québec, each with its own words, such as vous, septante and courriel.">
+<path d="M118 80 L160 23" class="fg-line"/>
+<path d="M118 80 L160 61" class="fg-line"/>
+<path d="M118 80 L160 99" class="fg-line"/>
+<path d="M118 80 L160 137" class="fg-line"/>
+<rect x="8" y="60" width="110" height="40" rx="6" class="fg-hot"/>
+<rect x="160" y="8" width="232" height="30" rx="6" class="fg-box"/>
+<rect x="160" y="46" width="232" height="30" rx="6" class="fg-box"/>
+<rect x="160" y="84" width="232" height="30" rx="6" class="fg-box"/>
+<rect x="160" y="122" width="232" height="30" rx="6" class="fg-box"/>
+<text x="63" y="86" text-anchor="middle" class="fg-strong">French</text>
+<text x="174" y="28" text-anchor="start" class="fg-text">France</text>
+<text x="378" y="28" text-anchor="end" class="fg-label">vous</text>
+<text x="174" y="66" text-anchor="start" class="fg-text">Belgium</text>
+<text x="378" y="66" text-anchor="end" class="fg-label">septante</text>
+<text x="174" y="104" text-anchor="start" class="fg-text">Switzerland</text>
+<text x="378" y="104" text-anchor="end" class="fg-label">local terms</text>
+<text x="174" y="142" text-anchor="start" class="fg-text">Québec</text>
+<text x="378" y="142" text-anchor="end" class="fg-label">courriel</text>
+</svg>
+<figcaption>Each French market has its own vocabulary and register, so the first question before a quote is which French audience the copy is for.</figcaption>
+</figure>
 
 | Market | Default register | Distinctive features | Watch for |
 |---|---|---|---|
@@ -87,6 +128,22 @@ Rankings come from the live page. For website translation we push the French con
 ## Where translation needs localization alongside it
 
 Localization turns a faithful translation of a sales page into a page written for French buyers.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="One sales page, two outcomes: translation gives a faithful version, localization gives a page written for French buyers.">
+<path d="M168 75 L226 35" class="fg-dim"/>
+<path d="M168 75 L226 115" class="fg-accent"/>
+<rect x="8" y="55" width="160" height="40" rx="6" class="fg-box"/>
+<rect x="226" y="12" width="166" height="46" rx="6" class="fg-box"/>
+<rect x="226" y="92" width="166" height="46" rx="6" class="fg-hot"/>
+<text x="88" y="80" text-anchor="middle" class="fg-text">Sales page</text>
+<text x="309" y="32" text-anchor="middle" class="fg-text">Translation</text>
+<text x="309" y="50" text-anchor="middle" class="fg-label">faithful</text>
+<text x="309" y="112" text-anchor="middle" class="fg-strong">Localization</text>
+<text x="309" y="130" text-anchor="middle" class="fg-label">for French buyers</text>
+</svg>
+<figcaption>A faithful translation carries the meaning; localization carries the sale, with a page written for French buyers.</figcaption>
+</figure>
 
 ### Multilingual SEO copywriting around the French keyword cluster
 

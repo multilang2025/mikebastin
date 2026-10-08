@@ -217,7 +217,7 @@ La troisième consiste à investir dans l’e-mail. L’étude d’Authority Hac
 <text x="50" y="114" text-anchor="middle" class="fg-label">un seul</text>
 <text x="150" y="114" text-anchor="middle" class="fg-label">cinq contenus</text>
 <text x="250" y="114" text-anchor="middle" class="fg-label">3 indicateurs</text>
-<text x="350" y="114" text-anchor="middle" class="fg-label">amplifier, changer</text>
+<text x="350" y="114" text-anchor="middle" class="fg-label">miser ou non</text>
 </svg>
 <figcaption>Un programme, cinq contenus et trois chiffres vous donnent assez d’éléments pour décider. Testez un programme à la fois, et les chiffres se lisent clairement.</figcaption>
 </figure>

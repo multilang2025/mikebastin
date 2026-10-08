@@ -120,6 +120,23 @@ Un visiteur qui passe de vos pages françaises à vos pages néerlandaises doit 
 
 Gardez un changement de langue dans le même utilisateur et la même session, et vos données d’attribution et d’engagement restent fiables. Le résultat dépend d’une configuration d’analyse soignée et d’un [SEO technique de site multilingue](/fr/seo-technique-site-multilingue/) solide.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 156" role="img" aria-label="Un visiteur qui passe des pages françaises aux pages néerlandaises, suivi par GA4 comme un seul visiteur et une seule session, et compté une fois, sur le bon marché.">
+<path d="M170 43 L230 43" class="fg-line"/>
+<path d="M220 35 L230 43 L220 51" class="fg-line"/>
+<path d="M20 84 L20 96 L380 96 L380 84" class="fg-accent"/>
+<rect x="20" y="20" width="150" height="46" rx="6" class="fg-box"/>
+<rect x="230" y="20" width="150" height="46" rx="6" class="fg-box"/>
+<text x="95" y="40" text-anchor="middle" class="fg-text">Français</text>
+<text x="95" y="58" text-anchor="middle" class="fg-label">pages</text>
+<text x="305" y="40" text-anchor="middle" class="fg-text">Néerlandais</text>
+<text x="305" y="58" text-anchor="middle" class="fg-label">pages</text>
+<text x="200" y="124" text-anchor="middle" class="fg-strong">Un visiteur, une session</text>
+<text x="200" y="146" text-anchor="middle" class="fg-label">compté une fois, sur le bon marché</text>
+</svg>
+<figcaption>Gardez le changement de langue dans le même visiteur et la même session, et vos données d’attribution et d’engagement restent fiables d’un marché à l’autre.</figcaption>
+</figure>
+
 ### La gestion des balises côté serveur
 
 Google Tag Manager côté serveur récupère une partie des données que les navigateurs, les bloqueurs de publicité et les restrictions de consentement filtrent, et donne davantage de maîtrise sur la conformité. Pour une entreprise internationale, il devient une pratique courante. Pour vérifier que vos balises se déclenchent, nos [extensions Chrome pour le SEO](/fr/extensions-chrome-seo/) incluent Tag Assistant.
@@ -143,6 +160,24 @@ Les dimensions personnalisées comparent la langue de la page, la langue du navi
 ### Comparer chaque marché à votre marché domestique
 
 Mesurez chaque marché étranger par rapport à votre marché d’origine. Les grands écarts de conversion viennent en général des moyens de paiement, de la logique de prix, des contraintes de livraison ou des signaux de confiance. GA4 montre où le parcours décroche. La solution relève de décisions commerciales et d’ergonomie.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Un écart de conversion entre un marché étranger et le marché d’origine, rattaché à quatre causes fréquentes : moyens de paiement, logique de prix, livraison et signaux de confiance.">
+<path d="M105 46 L105 58" class="fg-dim"/>
+<path d="M295 46 L295 58" class="fg-dim"/>
+<rect x="15" y="10" width="370" height="36" rx="6" class="fg-hot"/>
+<rect x="15" y="58" width="180" height="36" rx="6" class="fg-box"/>
+<rect x="205" y="58" width="180" height="36" rx="6" class="fg-box"/>
+<rect x="15" y="104" width="180" height="36" rx="6" class="fg-box"/>
+<rect x="205" y="104" width="180" height="36" rx="6" class="fg-box"/>
+<text x="200" y="34" text-anchor="middle" class="fg-strong">Écart avec le marché d’origine</text>
+<text x="105" y="82" text-anchor="middle" class="fg-text">Moyens de paiement</text>
+<text x="295" y="82" text-anchor="middle" class="fg-text">Logique de prix</text>
+<text x="105" y="128" text-anchor="middle" class="fg-text">Livraison</text>
+<text x="295" y="128" text-anchor="middle" class="fg-text">Confiance</text>
+</svg>
+<figcaption>GA4 montre où le parcours décroche ; la solution se trouve en général dans l’une de ces quatre décisions commerciales.</figcaption>
+</figure>
 
 | Écart observé dans GA4 | Cause fréquente | Qui tranche |
 |---|---|---|
@@ -168,6 +203,27 @@ Une fois les bases propres, les questions gagnent en valeur : quel marché est 
 ### L’export vers BigQuery
 
 L’export de GA4 vers BigQuery permet de croiser les données d’analyse avec celles du CRM, de la logistique et des coûts, pour juger chaque marché sur sa rentabilité.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Les données de GA4, du CRM, de la logistique et des coûts réunies dans BigQuery pour juger chaque marché sur sa rentabilité.">
+<path d="M160 23 L238 70" class="fg-line"/>
+<path d="M160 61 L238 76" class="fg-line"/>
+<path d="M160 99 L238 84" class="fg-line"/>
+<path d="M160 137 L238 90" class="fg-line"/>
+<rect x="10" y="8" width="150" height="30" rx="6" class="fg-box"/>
+<rect x="10" y="46" width="150" height="30" rx="6" class="fg-box"/>
+<rect x="10" y="84" width="150" height="30" rx="6" class="fg-box"/>
+<rect x="10" y="122" width="150" height="30" rx="6" class="fg-box"/>
+<rect x="238" y="52" width="150" height="56" rx="6" class="fg-hot"/>
+<text x="85" y="28" text-anchor="middle" class="fg-text">Données GA4</text>
+<text x="85" y="66" text-anchor="middle" class="fg-text">CRM</text>
+<text x="85" y="104" text-anchor="middle" class="fg-text">Logistique</text>
+<text x="85" y="142" text-anchor="middle" class="fg-text">Coûts</text>
+<text x="313" y="77" text-anchor="middle" class="fg-strong">Rentabilité</text>
+<text x="313" y="97" text-anchor="middle" class="fg-label">par marché</text>
+</svg>
+<figcaption>Croisées avec le CRM, la logistique et les coûts, les données d’analyse montrent quel marché est rentable, en plus d’être actif.</figcaption>
+</figure>
 
 ### Les audiences prédictives
 

@@ -34,6 +34,22 @@ La cobertura cambia mucho según el sector y el estudio; [Search Engine Land](ht
 
 El listón del contenido sube con ellas. Si un competidor publica diez páginas escritas con IA por cada una tuya, tu página con contenido de verdad tiene más peso ante Google que la mayoría de las suyas. Desde marzo de 2024, las [políticas contra el spam de Google](https://developers.google.com/search/docs/essentials/spam-policies) cubren de forma explícita el abuso de contenido a escala, el abuso de la reputación de un sitio (el llamado parasite SEO) y los esquemas de enlaces, y Google resume lo que sí premia en su guía sobre [contenido útil y fiable](https://developers.google.com/search/docs/fundamentals/creating-helpful-content): investigación original, experiencia de primera mano y especialización real. Cómo usar la IA dentro de tu propio flujo de trabajo, con un experto que decide qué se publica, lo contamos en [cómo la IA renueva las estrategias SEO](/es/ia-y-estrategias-seo/).
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Una página con contenido de verdad pesa más ante Google que diez páginas escritas con IA para ganar volumen.">
+<path d="M200 39 L276 80" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M200 121 L276 80" class="fg-accent"/>
+<rect x="10" y="14" width="190" height="50" rx="6" class="fg-box"/>
+<rect x="10" y="96" width="190" height="50" rx="6" class="fg-hot"/>
+<rect x="276" y="60" width="112" height="40" rx="6" class="fg-box"/>
+<text x="105" y="36" text-anchor="middle" class="fg-text">Diez páginas con IA</text>
+<text x="105" y="54" text-anchor="middle" class="fg-label">volumen</text>
+<text x="105" y="118" text-anchor="middle" class="fg-strong">Tu página</text>
+<text x="105" y="136" text-anchor="middle" class="fg-label">contenido de verdad</text>
+<text x="332" y="86" text-anchor="middle" class="fg-strong">Google</text>
+</svg>
+<figcaption>Google premia la investigación original, la experiencia de primera mano y la especialización real por encima del volumen.</figcaption>
+</figure>
+
 ## La optimización para motores generativos (GEO) acompaña al SEO
 
 Cuando un comprador pregunta a un asistente de IA a qué proveedores incluir en su lista corta, la respuesta nombra a dos o tres empresas, y el objetivo es que la tuya sea una de ellas. ChatGPT, Gemini, Perplexity y Microsoft Copilot se apoyan en contenido web para redactar esas respuestas. El GEO (generative engine optimization) trabaja esa presencia, y lo hacemos dentro de nuestra [optimización SEO](/es/services/optimizacion-seo/).
@@ -52,15 +68,15 @@ El GEO funciona junto al SEO. La misma página sirve a los dos canales cuando fo
 <text x="200" y="35" text-anchor="middle" class="fg-text">Tu página</text>
 <line x1="170" y1="48" x2="100" y2="84" class="fg-line"/>
 <line x1="230" y1="48" x2="300" y2="84" class="fg-line"/>
-<rect x="30" y="84" width="140" height="38" rx="6" class="fg-fill"/>
-<rect x="230" y="84" width="140" height="38" rx="6" class="fg-fill"/>
+<rect x="20" y="84" width="160" height="38" rx="6" class="fg-fill"/>
+<rect x="220" y="84" width="160" height="38" rx="6" class="fg-fill"/>
 <text x="100" y="109" text-anchor="middle" class="fg-text">Resultados</text>
 <text x="300" y="109" text-anchor="middle" class="fg-text">Respuestas de IA</text>
 <text x="100" y="146" text-anchor="middle" class="fg-label">clics</text>
 <text x="300" y="146" text-anchor="middle" class="fg-label">citas</text>
 <line x1="100" y1="156" x2="170" y2="182" class="fg-line"/>
 <line x1="300" y1="156" x2="230" y2="182" class="fg-line"/>
-<rect x="130" y="182" width="140" height="38" rx="6" class="fg-hot"/>
+<rect x="105" y="182" width="190" height="38" rx="6" class="fg-hot"/>
 <text x="200" y="207" text-anchor="middle" class="fg-text">Demanda de marca</text>
 </svg>
 <figcaption>SEO y GEO son dos caminos desde el mismo contenido. Las afirmaciones claras y las fuentes nombradas sirven a los dos, y los dos terminan en personas que te buscan por tu nombre.</figcaption>
@@ -87,12 +103,12 @@ Los resúmenes de IA acentúan el efecto en las consultas informativas. Pew Rese
 <figure class="post-fig">
 <svg viewBox="0 0 400 170" role="img" aria-label="Comparación de barras: los usuarios hicieron clic en un resultado tradicional en el 15 por ciento de las visitas cuando no había resumen de IA y en el 8 por ciento cuando lo había.">
 <text x="10" y="40" class="fg-label">Sin resumen de IA</text>
-<rect x="130" y="22" width="225" height="28" rx="6" class="fg-fill"/>
-<text x="365" y="42" class="fg-text">15 %</text>
+<rect x="150" y="22" width="180" height="28" rx="6" class="fg-fill"/>
+<text x="340" y="42" class="fg-text">15 %</text>
 <text x="10" y="92" class="fg-label">Con resumen de IA</text>
-<rect x="130" y="74" width="120" height="28" rx="6" class="fg-hot"/>
-<text x="260" y="94" class="fg-text">8 %</text>
-<line x1="130" y1="120" x2="385" y2="120" class="fg-rule"/>
+<rect x="150" y="74" width="96" height="28" rx="6" class="fg-hot"/>
+<text x="256" y="94" class="fg-text">8 %</text>
+<line x1="150" y1="120" x2="385" y2="120" class="fg-rule"/>
 <text x="10" y="150" class="fg-label">Visitas con clic en un resultado clásico</text>
 </svg>
 <figcaption>Un resultado tradicional recibió un clic en el 15 % de las visitas a una página de resultados sin resumen y en el 8 % cuando un resumen de IA aparecía encima. Pew Research, navegación de 900 adultos de Estados Unidos en marzo de 2025.</figcaption>
@@ -127,6 +143,23 @@ Una página firmada por un experto con nombre y apellidos gana hoy a una anónim
 
 Google lee el E-E-A-T a través de señales indirectas: reputación del dominio, autoría clara, calidad de las fuentes y marcado de autor. Los sitios con biografías de autor detalladas, casos prácticos publicados y fuentes recientes ganan terreno. La anécdota de [la errata entre EEAT y AEAT](/es/eeat-o-aeat/) cuenta cómo se trabajan estas señales en una web jurídica multilingüe.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Tres señales alimentan el E-E-A-T: biografías de autor detalladas, casos prácticos publicados y fuentes recientes.">
+<path d="M122 80 L170 30" class="fg-line"/>
+<path d="M122 80 L170 80" class="fg-line"/>
+<path d="M122 80 L170 130" class="fg-line"/>
+<rect x="12" y="60" width="110" height="40" rx="6" class="fg-hot"/>
+<rect x="170" y="12" width="218" height="36" rx="6" class="fg-box"/>
+<rect x="170" y="62" width="218" height="36" rx="6" class="fg-box"/>
+<rect x="170" y="112" width="218" height="36" rx="6" class="fg-box"/>
+<text x="67" y="86" text-anchor="middle" class="fg-strong">E-E-A-T</text>
+<text x="279" y="36" text-anchor="middle" class="fg-text">Biografías de autor</text>
+<text x="279" y="86" text-anchor="middle" class="fg-text">Casos prácticos</text>
+<text x="279" y="136" text-anchor="middle" class="fg-text">Fuentes recientes</text>
+</svg>
+<figcaption>Google lee el E-E-A-T a través de señales indirectas, y estas tres ponen a un autor con nombre y credibilidad detrás de la página.</figcaption>
+</figure>
+
 ## Voz, velocidad y búsqueda local: lo que sigue sumando
 
 Las consultas por voz son más largas, más locales y las responde casi siempre quien ocupa la respuesta destacada. La voz se ha asentado sobre todo en las consultas locales y conversacionales, a un ritmo más pausado que el de las primeras previsiones; [DemandSage](https://www.demandsage.com/voice-search-statistics/) e [Invoca](https://www.invoca.com/blog/voice-search-stats-marketers) recopilan los datos de uso, casi todos de Estados Unidos. Redacta las preguntas frecuentes tal como habla la gente, en el idioma de cada mercado.
@@ -158,6 +191,22 @@ Si tus páginas en español venden y quieres que tus versiones en francés, neer
 > Fuente: [Weglot, Does AI favor translated content?, 2025](https://www.weglot.com/blog/multilingual-seo-ai-visibility)
 
 Posicionar en los mercados de habla francesa, alemana, neerlandesa o inglesa pide un [SEO multilingüe](/es/services/posicionamiento-multilingue/) con investigación de palabras clave hecha de forma nativa en cada idioma, adaptación cultural y normativa, y conocimiento de cómo busca cada región.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 120" role="img" aria-label="Posicionar en otro idioma se apoya en tres cosas: palabras clave investigadas de forma nativa en cada idioma, adaptación cultural y normativa, y los hábitos de búsqueda de cada región.">
+<line x1="72" y1="30" x2="328" y2="30" class="fg-rule"/>
+<circle cx="72" cy="30" r="12" class="fg-hot"/>
+<circle cx="200" cy="30" r="12" class="fg-box"/>
+<circle cx="328" cy="30" r="12" class="fg-box"/>
+<text x="72" y="72" text-anchor="middle" class="fg-text">Palabras clave</text>
+<text x="72" y="94" text-anchor="middle" class="fg-label">en cada idioma</text>
+<text x="200" y="72" text-anchor="middle" class="fg-text">Adaptación</text>
+<text x="200" y="94" text-anchor="middle" class="fg-label">cultura, normas</text>
+<text x="328" y="72" text-anchor="middle" class="fg-text">Hábitos</text>
+<text x="328" y="94" text-anchor="middle" class="fg-label">de cada región</text>
+</svg>
+<figcaption>Cada versión en otro idioma gana sus posiciones con investigación nativa de palabras clave, adaptación local y la forma de buscar de cada región.</figcaption>
+</figure>
 
 ## Dónde poner primero el esfuerzo
 

@@ -38,7 +38,7 @@ Si vous préférez confier le travail, notre [service de SEO technique](/fr/serv
 <text x="50" y="114" text-anchor="middle" class="fg-label">robots.txt</text>
 <text x="150" y="114" text-anchor="middle" class="fg-label">canoniques</text>
 <text x="250" y="114" text-anchor="middle" class="fg-label">vitesse, mobile</text>
-<text x="350" y="114" text-anchor="middle" class="fg-label">métadonnées</text>
+<text x="350" y="114" text-anchor="middle" class="fg-label">balises title</text>
 </svg>
 <figcaption>Chaque étape dépend de la précédente. Google juge une balise title une fois la page explorée : l’audit suit donc les étapes dans cet ordre.</figcaption>
 </figure>
