@@ -66,7 +66,7 @@ Animated self-drawing gold SVG line in the hero (stroke-dashoffset animation, ~3
 
 ### Theme toggle
 - `data-theme` attribute on `<html>`, CSS custom properties per theme.
-- Concept file has NO persistence (localStorage unavailable in claude.ai artifacts). **Production must add persistence**: localStorage or cookie + respect `prefers-color-scheme` on first visit. Avoid FOUC with an inline head script.
+- Concept file has NO persistence (localStorage unavailable in claude.ai artifacts). Production uses localStorage, defaults to Night Swell on first visit, and avoids FOUC with an inline head script.
 
 ---
 
@@ -321,7 +321,7 @@ how-to-use-twitter-for-beginners, how-to-make-money-on-youtube, top-instagram-to
 - Redirect map: generated from §11 matrix, committed as `redirects.json`, enforced at edge (Vercel) — never in WP.
 - Meta: re-emitted by front end; source of truth migrates from RankMath fields via one-time export (POST/read paths documented §8/Tools).
 - Hreflang: EN↔FR↔ES triplets emitted at build time from Payload locale relations (one document = one hreflang cluster, structurally impossible to orphan); x-default = EN.
-- Theme system: per §2 tokens; persistence + prefers-color-scheme + no-FOUC inline script; X embeds re-render on toggle (§5b).
+- Theme system: per §2 tokens; persisted choice with Night Swell as the first-visit default, no-FOUC inline script; X embeds re-render on toggle (§5b).
 - Performance budget: LCP < 2.0s, CLS < 0.05, zero third-party JS on first paint (X facade pattern). perf-auditor enforces in CI.
 - CI: every PR runs copy-editor (forbidden words, dashes, "Michael" check), design-guardian (token drift), seo-preservation (redirect coverage vs sitemap-MB-EN.txt, meta presence, hreflang pairs), Lighthouse CI.
 

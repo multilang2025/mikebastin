@@ -257,12 +257,12 @@ export const PROJECTS: Project[] = [
     numeral: "VI",
     name: "Bemelman Spuiterij",
     domain: "bemelmanspuiterij.nl",
-    angle: "Dutch powder coating, 45 years",
+    angle: "Dutch powder coating",
     body: "A specialist in Noordwijkerhout whose reputation had outgrown its web presence. Dutch local SEO for a trade where the buyers are other businesses and the search volume is small but decisive.",
     metaTitle: "Bemelman Spuiterij, a case study",
     metaDescription: "A Dutch powder coating specialist with forty five years of reputation and a web presence to build. See the local SEO made for its decisive market.",
     metrics: [
-      { v: "45 yr", k: "Trading" },
+      { v: "B2B", k: "Trade buyers" },
       { v: "NL", k: "Local search" },
     ],
     problem:

@@ -31,9 +31,22 @@ import ReviewText from "@/components/ReviewText";
  * risk a manual action. The value here is the reader believing us.
  */
 
-const ELIGIBLE: Testimonial[] = TESTIMONIALS.filter(
-  (t) => t.lang === "en" && (t.theme === "delivery" || t.theme === "expertise")
-);
+const eligible = (lang: "en" | "fr"): Testimonial[] =>
+  TESTIMONIALS.filter((t) => t.lang === lang && (t.theme === "delivery" || t.theme === "expertise"));
+
+/**
+ * French service pages show French reviews only, by the same rule as the
+ * English ones (owner, 30 Sep 2026), with the caption in French.
+ */
+const UI = {
+  en: { stars: "Five out of five", on: "on", when: (w: string) => w },
+  fr: {
+    stars: "Cinq sur cinq",
+    on: "sur",
+    when: (w: string) =>
+      ({ "One month ago": "Il y a un mois", "Six months ago": "Il y a six mois", "Ten months ago": "Il y a dix mois", "One year ago": "Il y a un an" })[w] ?? "",
+  },
+};
 
 /** First name plus last initial, matching components/Testimonials.tsx. */
 function displayName(full: string): string {
@@ -42,15 +55,17 @@ function displayName(full: string): string {
   return `${parts[0]} ${parts[parts.length - 1][0]}.`;
 }
 
-function pick(slug: string): Testimonial | undefined {
+function pick(slug: string, lang: "en" | "fr"): Testimonial | undefined {
+  const ELIGIBLE = eligible(lang);
   if (ELIGIBLE.length === 0) return undefined;
   let hash = 0;
   for (let i = 0; i < slug.length; i++) hash = (hash * 31 + slug.charCodeAt(i)) >>> 0;
   return ELIGIBLE[hash % ELIGIBLE.length];
 }
 
-export default function ServiceProof({ slug }: { slug: string }) {
-  const t = pick(slug);
+export default function ServiceProof({ slug, locale = "en" }: { slug: string; locale?: "en" | "fr" }) {
+  const t = pick(slug, locale);
+  const ui = UI[locale];
   if (!t) return null;
 
   return (
@@ -59,7 +74,7 @@ export default function ServiceProof({ slug }: { slug: string }) {
       style={{ borderColor: "var(--rule)", background: "var(--shade)" }}
     >
       <div className="flex items-center justify-between gap-3">
-        <span className="flex gap-[2px]" aria-label="Five out of five">
+        <span className="flex gap-[2px]" aria-label={ui.stars}>
           {Array.from({ length: 5 }, (_, i) => (
             <svg key={i} width="12" height="12" viewBox="0 0 24 24" aria-hidden style={{ fill: "var(--berry)" }}>
               <path d="M12 2.5l2.9 6.06 6.6.86-4.83 4.6 1.22 6.55L12 17.5l-5.89 3.07 1.22-6.55L2.5 9.42l6.6-.86z" />
@@ -78,7 +93,7 @@ export default function ServiceProof({ slug }: { slug: string }) {
         <ReviewText text={t.quote} />
       </blockquote>
 
-      {t.english && (
+      {locale === "en" && t.english && (
         <p className="text-[.9rem] leading-[1.55]" style={{ color: "var(--dim)" }}>
           {t.english}
         </p>
@@ -90,13 +105,13 @@ export default function ServiceProof({ slug }: { slug: string }) {
           same one the nav and post bylines use. */}
       <figcaption className="flex flex-wrap items-center gap-x-3 gap-y-1 text-[.84rem]" style={{ color: "var(--dim)" }}>
         <span>
-          {displayName(t.name)}, on{" "}
+          {displayName(t.name)}, {ui.on}{" "}
           <a href={GBP_URL} className="ulink" target="_blank" rel="noopener noreferrer">
             Google
           </a>
         </span>
         <i aria-hidden="true" className="block h-[3px] w-[3px] rounded-full" style={{ background: "var(--berry)" }} />
-        <span>{t.when}</span>
+        <span>{ui.when(t.when)}</span>
       </figcaption>
     </figure>
   );

@@ -14,8 +14,8 @@ const T = {
     heading: "Une seule personne lit chaque langue de vos acheteurs.",
     items: [
       {
-        title: "Un seul stratège pour toutes vos langues",
-        body: "La personne qui pilote votre référencement en espagnol lit aussi vos pages en allemand et en néerlandais : chaque marché suit un plan unique, et les résultats se comparent à armes égales.",
+        title: "Votre expert en SEO international, dans toutes vos langues",
+        body: "Mike pilote une stratégie unique pour vos pages en espagnol, en allemand et en néerlandais : chaque marché s’appuie sur un plan commun, et vous comparez les résultats en toute clarté.",
       },
       {
         title: "Des textes écrits par des natifs du marché",
@@ -32,8 +32,8 @@ const T = {
     heading: "La misma persona lee cada idioma de tus compradores.",
     items: [
       {
-        title: "Un solo estratega para todos tus idiomas",
-        body: "La persona que planifica tu SEO en francés también lee tus páginas en alemán y neerlandés, así que cada mercado sigue un único plan y los resultados se comparan en igualdad de condiciones.",
+        title: "Tu experto en SEO internacional, en todos tus idiomas",
+        body: "Mike dirige una estrategia única para tus páginas en francés, alemán y neerlandés, así que cada mercado se apoya en el mismo plan y comparas los resultados con claridad.",
       },
       {
         title: "Textos escritos por nativos del mercado",

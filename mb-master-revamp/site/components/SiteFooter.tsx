@@ -61,8 +61,8 @@ const T: Record<
     more: "All services",
     eyebrow: "Straight to the point",
     cta: "Tell us which language you want selling next.",
-    ctaButton: "Book a free consultation",
-    ctaSecondary: "See client results",
+    ctaButton: "Discuss your project",
+    ctaSecondary: "Explore client results",
     reply: "Mike reads every message and replies, usually within a working day.",
     based: "Multilingual search, from Valencia",
     top: "Back to top",
@@ -134,6 +134,14 @@ const ABOUT: Record<Locale, string> = {
  * than about the service, which is why their heading does not say "top".
  */
 const FR_FOOTER = ["seo", "referencement-multilingue", "seo-espagnol", "seo-neerlandais", "seo-allemand", "sem-multilingue"];
+// One pattern down the column (owner, 8 Oct 2026: "Harmonise les
+// formulations"): the page names mix "Référencement" with "SEO" and an
+// adjective ("néerlandais") with a place ("en Espagne"), which reads as a
+// list typed by different hands. The pages keep their own names.
+const FR_FOOTER_LABEL: Record<string, string> = {
+  "referencement-multilingue": "SEO multilingue",
+  "seo-neerlandais": "SEO aux Pays-Bas",
+};
 // Spanish: what a Valencia company hires us for first (owner, 3 Oct 2026),
 // then the market it most often sells into.
 const ES_FOOTER = ["optimizacion-seo", "seo-local", "publicidad-multilingue", "traduccion-profesional", "consultoria-de-inteligencia-artificial", "seo-frances"];
@@ -154,7 +162,10 @@ function servicesFor(locale: Locale): { href: string; label: string }[] {
     locale === "fr" || locale === "es"
       ? (locale === "fr" ? FR_FOOTER : ES_FOOTER).map((slug) => all.find((s) => s.slug === slug)).filter((s) => s !== undefined)
       : [...all].sort((a, b) => b.words - a.words).slice(0, 6);
-  return picked.map((s) => ({ href: servicePath(locale, s.slug), label: s.name ?? s.title }));
+  return picked.map((s) => ({
+    href: servicePath(locale, s.slug),
+    label: (locale === "fr" ? FR_FOOTER_LABEL[s.slug] : undefined) ?? s.name ?? s.title,
+  }));
 }
 
 /**

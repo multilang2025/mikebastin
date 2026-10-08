@@ -25,6 +25,8 @@ import { pageMeta } from "@/lib/meta";
 import ServiceHeroArt from "@/components/ServiceHeroArt";
 import HeroArtSlot from "@/components/HeroArtSlot";
 import { hasDlArt } from "@/lib/dl-art";
+import ServicePageView from "@/components/ServicePageView";
+import { FR_SERVICE_LAYOUTS } from "@/lib/services-fr";
 
 export async function generateMetadata({
   params,
@@ -57,25 +59,52 @@ export default async function FrenchServicePage({
   if (!service) notFound();
 
   const url = `${SITE_URL}/fr/services/${service.slug}/`;
+  const jsonLd = (
+    <JsonLd
+      data={[
+        serviceSchema({
+          name: service.title,
+          description: service.excerpt,
+          url,
+          inLanguage: "fr",
+        }),
+        breadcrumbSchema([
+          { name: "Accueil", url: `${SITE_URL}/fr/` },
+          { name: "Services", url: `${SITE_URL}/fr/services/` },
+          { name: service.title, url },
+        ]),
+      ]}
+    />
+  );
+
+  // A page with a structured entry takes the English service layout
+  // (lib/services-fr.ts); the others render their markdown body below.
+  const layout = FR_SERVICE_LAYOUTS[service.slug];
+  if (layout) {
+    const all = getServicesForLocale(LOCALE);
+    const siblings = layout.siblings
+      .map((s) => all.find((x) => x.slug === s))
+      .filter((s) => s !== undefined)
+      .map((s) => ({ href: `/fr/services/${s.slug}/`, name: s.name ?? s.title }));
+    return (
+      <main>
+        <LocaleHtmlLang lang="fr" />
+        {jsonLd}
+        <ServicePageView
+          service={layout}
+          locale="fr"
+          absorbed={layout.absorbed}
+          siblings={siblings}
+          siblingsEyebrow={layout.siblingsEyebrow}
+        />
+      </main>
+    );
+  }
 
   return (
     <main>
       <LocaleHtmlLang lang="fr" />
-      <JsonLd
-        data={[
-          serviceSchema({
-            name: service.title,
-            description: service.excerpt,
-            url,
-            inLanguage: "fr",
-          }),
-          breadcrumbSchema([
-            { name: "Accueil", url: `${SITE_URL}/fr/` },
-            { name: "Services", url: `${SITE_URL}/fr/services/` },
-            { name: service.title, url },
-          ]),
-        ]}
-      />
+      {jsonLd}
       {/* ============ HERO ============ */}
       <section className="band band-a grain relative overflow-hidden pb-[clamp(32px,4vw,56px)] pt-[clamp(88px,9vw,112px)]">
         <div className="shell relative grid items-start gap-x-12 lg:grid-cols-[1fr_auto]">

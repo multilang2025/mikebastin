@@ -10,6 +10,7 @@ import { HomeBastin, HomeCredibility } from "@/components/HomeBastin";
 import SiteFooter from "@/components/SiteFooter";
 import LocaleHtmlLang from "@/components/LocaleHtmlLang";
 import { ButtonLink } from "@/components/ui/Button";
+import HomeHowCards, { type HowCard } from "@/components/HomeHowCards";
 import { getServicesForLocale, servicePath } from "@/lib/services-locale";
 import { frLanguages } from "@/lib/fr-pages";
 import { leadGenPath } from "@/lib/lead-gen-hubs";
@@ -29,7 +30,7 @@ export const metadata: Metadata = {
   ...pageMeta({
     title: "Agence SEO internationale, Mike Bastin",
     description:
-      "Vos pages en français vous apportent des clients. Vos autres langues peuvent en faire autant, avec des pages écrites par des natifs. Consultation gratuite.",
+      "Vos pages en français vous apportent des clients. Vos autres langues peuvent en faire autant, avec des pages écrites par des natifs. Parlez de votre projet avec Mike.",
     path: PATH,
     languages: frLanguages(PATH),
     ogLocale: "fr_FR",
@@ -45,31 +46,40 @@ const MARKETS: { slug: string; market: string; line: string }[] = [
 ];
 
 const SERVICES_FOR: { slug: string; name: string; line: string }[] = [
-  { slug: "referencement-multilingue", name: "Référencement multilingue", line: "La stratégie par marché, et des rédacteurs natifs pour chaque langue." },
-  { slug: "localisation-de-site-web", name: "Localisation de site web", line: "Des prix, des formulaires et des pages qui paraissent locaux dans chaque pays." },
-  { slug: "sem-multilingue", name: "Publicité multilingue", line: "Votre budget média va entièrement à vos annonces, versé directement à Google, Microsoft ou Meta ; le pilotage fait l’objet d’honoraires à part." },
+  { slug: "referencement-multilingue", name: "Développer votre SEO international", line: "La stratégie par marché, et des rédacteurs natifs pour chaque langue." },
+  { slug: "localisation-de-site-web", name: "Localiser votre site web", line: "Des prix, des formulaires et des pages qui paraissent locaux dans chaque pays." },
+  { slug: "sem-multilingue", name: "Lancer vos campagnes multilingues", line: "Votre budget média va entièrement à vos annonces, versé directement à Google, Microsoft ou Meta ; le pilotage fait l’objet d’honoraires à part." },
 ];
 
-const HOW_IT_WORKS = [
+const HOW_IT_WORKS: HowCard[] = [
   {
-    title: "Un audit de votre situation",
-    body: "Nous passons en revue votre site, votre visibilité dans les moteurs de recherche et vos versions linguistiques existantes pour repérer le travail technique et éditorial qui mène le plus sûrement à davantage de demandes.",
+    theme: "Connaissance du marché",
+    icon: "search",
+    title: "Une vision claire de chaque marché",
+    body: "Nous repérons où votre site touche déjà des acheteurs, et où des améliorations techniques ou éditoriales peuvent créer davantage de demandes.",
   },
   {
-    title: "Un plan par marché",
+    theme: "Stratégie ciblée",
+    icon: "target",
+    title: "Un plan ciblé, à valider ensemble",
     body: "Vous recevez un périmètre écrit pour les marchés que vous voulez développer, avec les priorités, les livrables et les responsabilités convenus avant le début du travail.",
   },
   {
-    title: "Un rapport mensuel par langue",
-    body: "Le travail avance marché par marché, avec un rapport mensuel du trafic et des demandes de chaque langue pour que vous voyiez ce qui rapporte.",
+    theme: "Progrès mesurés",
+    icon: "chart",
+    title: "Des progrès sur lesquels agir",
+    body: "Vous suivez le trafic et les demandes de chaque langue dans un rapport mensuel, pour savoir quels marchés rapportent et où concentrer vos efforts.",
   },
 ];
 
+// Engagement terms only (owner, 8 Oct 2026: "Diversify or remove one if
+// it doesnt add value"). The written scope and the enquiries counted by
+// language were already the second and third HOW_IT_WORKS cards above, so
+// they left this list for what the cards do not say.
 const STEPS = [
   "Une consultation gratuite de trente minutes sur vos marchés, vos langues et ce que vous avez déjà essayé.",
-  "Un périmètre écrit pour le premier trimestre : les pages, les mots-clés et qui fait quoi.",
-  "Une livraison mensuelle, marché par marché, par des rédacteurs natifs du réseau BeTranslated, l’agence de traduction que nous dirigeons depuis plus de deux décennies.",
-  "Des demandes comptées langue par langue, pour savoir quel marché rapporte.",
+  "Mike pilote chaque mission et reste votre interlocuteur du premier appel au rapport mensuel.",
+  "Chaque marché est écrit par des rédacteurs natifs du réseau BeTranslated, l’agence de traduction que nous dirigeons depuis plus de 20 ans.",
   "Un engagement au mois, que chacun peut arrêter avec un préavis.",
 ];
 
@@ -86,9 +96,9 @@ export default function FrenchHome() {
       {/* Same design as the English homepage (owner, 7 Oct 2026): the agency
           offer, the person who leads it, one call to action. The wording is
           ours for a French-speaking exporter. */}
-      <section className="band band-b grain relative overflow-hidden pb-[clamp(48px,6vw,88px)] pt-[clamp(52px,7vw,104px)]">
-        <div className="shell relative grid items-center gap-x-14 lg:grid-cols-[1fr_auto]">
-        <div>
+      <section className="band band-a grain relative overflow-hidden pb-[clamp(48px,6vw,88px)] pt-[clamp(52px,7vw,104px)]">
+        <div className="shell home-hero-shell">
+        <div className="home-hero-copy">
           <Reveal>
             <p className="eyebrow mb-5">Depuis Valencia, pour les entreprises qui exportent</p>
           </Reveal>
@@ -97,51 +107,68 @@ export default function FrenchHome() {
               Agence SEO internationale, dirigée par Mike Bastin
             </h1>
           </Reveal>
+
+          <FounderPortrait
+            alt="Mike Bastin, à la tête de notre agence de SEO multilingue et de localisation."
+            caption="Mike Bastin, directeur de l’agence · Valencia."
+            className="home-hero-portrait"
+            mobileOptimized
+          />
+
           <Reveal i={2}>
             <h2 className="mb-5 max-w-[34ch] text-[clamp(1.15rem,2.1vw,1.6rem)] font-medium leading-[1.3]">
-              Vos pages en français vous apportent des clients. Vos autres langues peuvent en faire autant.
+              Gagnez des clients sur de nouveaux marchés grâce au SEO international, à des contenus natifs et à la localisation de votre site.
             </h2>
           </Reveal>
           <Reveal i={3}>
-            <p className="mb-10 max-w-[58ch] text-[clamp(1.05rem,1.65vw,1.24rem)]" style={{ color: "var(--dim)" }}>
-              Vous dirigez une entreprise française, belge, suisse ou luxembourgeoise : vos autres langues attirent déjà des visiteurs. Nous les transformons en demandes, marché par marché, depuis plus de deux décennies{" "}: les mots que vos acheteurs tapent dans chaque pays, des pages écrites par des natifs et des résultats comptés en demandes reçues.
+            <p
+              className="mb-8 max-w-[56ch] text-[clamp(1.02rem,1.4vw,1.14rem)] leading-[1.6]"
+              style={{ color: "color-mix(in srgb, var(--dim) 65%, var(--ink))" }}
+            >
+              Entreprise française, belge, suisse ou luxembourgeoise, travaillez directement avec Mike, votre consultant en SEO international. Il pilote la stratégie, des spécialistes natifs adaptent chaque marché, et nos rapports montrent quelles langues vous apportent des demandes.
             </p>
           </Reveal>
           <Reveal i={4}>
             <div className="flex flex-wrap items-center gap-x-6 gap-y-4">
               <ButtonLink href="/fr/nous-contacter/" size="lg">
-                Réserver une consultation gratuite
+                Parlons de votre projet
               </ButtonLink>
               <Link href="/fr/services/" className="ulink text-[.98rem]">
-                Voir nos services
+                Découvrir nos services
               </Link>
             </div>
           </Reveal>
 
         </div>
-        <FounderPortrait
-          alt="Mike Bastin, à la tête de notre agence de SEO multilingue et de localisation."
-          caption="Mike Bastin, directeur de l’agence · Valencia."
-        />
         </div>
       </section>
 
       {/* ============ CLIENT EVIDENCE ============ */}
       {/* Declaudify brief (owner, 3 Oct 2026): dated figures and three cases
           straight after the hero, in place of all eight spreads. */}
-      <HomeEvidence locale="fr" band="a" />
+      <HomeEvidence locale="fr" band="b" />
 
       {/* ============ WHAT WE DO ============ */}
-      <section className="band band-b py-[clamp(56px,8vw,104px)]">
+      <section className="band band-a py-[clamp(64px,9vw,128px)]">
         <div className="shell">
           <Reveal>
-            <h2 className="mb-10 text-[clamp(1.6rem,3vw,2.3rem)] font-semibold leading-[1.15]">Ce que nous faisons pour chaque marché</h2>
+            <p className="eyebrow mb-3">Ce que nous faisons</p>
+            <h2 className="mb-5 max-w-[26ch] text-[clamp(1.8rem,3.6vw,2.9rem)] font-semibold leading-[1.1]">
+              Un plan clair pour chaque marché, et des progrès que vous pouvez mesurer.
+            </h2>
+            <p className="mb-10 max-w-[62ch] text-[1.05rem] leading-[1.65]" style={{ color: "var(--dim)" }}>
+              Nous transformons vos opportunités de marché en un travail ciblé et une croissance mesurable. Découvrez les services adaptés à vos objectifs.
+            </p>
           </Reveal>
           <ul className="grid gap-8 md:grid-cols-3">
             {services.map((s, i) => (
               <Reveal key={s.slug} i={i}>
                 <li>
-                  <Link href={servicePath("fr", s.slug)} className="ulink mb-2 inline-block text-[1.12rem] font-semibold">
+                  <Link
+                    href={servicePath("fr", s.slug)}
+                    className="mb-3 inline-flex rounded-full px-3 py-1 text-[.78rem] font-semibold uppercase tracking-[.07em] transition-colors hover:bg-[var(--berry)] hover:text-[var(--bg)]"
+                    style={{ color: "var(--berry)", background: "var(--berry-soft)" }}
+                  >
                     {s.name}
                   </Link>
                   <p className="text-[.96rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
@@ -161,29 +188,15 @@ export default function FrenchHome() {
             </p>
           </Reveal>
           <Reveal>
-            <p className="eyebrow mb-3 mt-12">Comment nous procédons</p>
+            <p className="eyebrow mb-3 mt-12">Un partenariat construit autour de votre croissance</p>
           </Reveal>
 
-          <ol className="grid gap-px md:grid-cols-3" style={{ background: "var(--rule)" }}>
-            {HOW_IT_WORKS.map((step, i) => (
-              <Reveal key={step.title} i={i}>
-                <li className="band h-full px-7 py-7" style={{ background: "var(--bg)" }}>
-                  <p className="display mb-5 text-[.9rem] font-semibold tabular-nums" style={{ color: "var(--berry)" }}>
-                    {String(i + 1).padStart(2, "0")}
-                  </p>
-                  <h3 className="display mb-3 text-[1.15rem] font-semibold leading-[1.25]">{step.title}</h3>
-                  <p className="text-[.92rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
-                    {step.body}
-                  </p>
-                </li>
-              </Reveal>
-            ))}
-          </ol>
+          <HomeHowCards items={HOW_IT_WORKS} />
 
           <Reveal i={3}>
             <p className="mt-8 text-[.95rem]" style={{ color: "var(--dim)" }}>
               <Link href="/fr/tarifs/" className="ulink" style={{ color: "var(--berry)" }}>
-                Découvrir comment nous cadrons la mission et les honoraires
+                Découvrir comment nous cadrons chaque mission et ses honoraires
               </Link>
               {", et ce qui se passe du premier appel aux rapports mensuels."}
             </p>
@@ -193,7 +206,7 @@ export default function FrenchHome() {
 
       {/* ============ MARKETS ============ */}
       {markets.length > 0 && (
-        <section className="band band-a py-[clamp(56px,8vw,104px)]">
+        <section className="band band-b py-[clamp(56px,8vw,104px)]">
           <div className="shell">
             <Reveal>
               <h2 className="mb-3 text-[clamp(1.6rem,3vw,2.3rem)] font-semibold leading-[1.15]">Le marché où vous voulez vendre ensuite</h2>
@@ -220,10 +233,10 @@ export default function FrenchHome() {
       )}
 
       {/* ============ HOW WE WORK ============ */}
-      <section className="band band-b py-[clamp(56px,8vw,104px)]">
+      <section className="band band-a py-[clamp(56px,8vw,104px)]">
         <div className="shell grid gap-[clamp(32px,5vw,64px)] lg:grid-cols-[minmax(0,1fr)_minmax(0,1.2fr)]">
           <Reveal>
-            <h2 className="text-[clamp(1.6rem,3vw,2.3rem)] font-semibold leading-[1.15]">Comment nous travaillons</h2>
+            <h2 className="text-[clamp(1.6rem,3vw,2.3rem)] font-semibold leading-[1.15]">Travailler avec nous</h2>
             <p className="mt-4 max-w-[40ch]" style={{ color: "var(--dim)" }}>
               Nous pilotons la stratégie nous-mêmes et répondons à chaque message, en général sous un jour ouvré.
             </p>
@@ -243,10 +256,10 @@ export default function FrenchHome() {
         </div>
       </section>
 
-      <HomeWhy locale="fr" band="a" />
+      <HomeWhy locale="fr" band="b" />
 
       {/* ============ TESTIMONIALS ============ */}
-      <section id="testimonials" className="band band-b py-[clamp(64px,9vw,128px)]">
+      <section id="testimonials" className="band band-a py-[clamp(64px,9vw,128px)]">
         <div className="shell">
           <Reveal>
             <p className="eyebrow mb-3">Dans leurs propres mots</p>
@@ -258,14 +271,14 @@ export default function FrenchHome() {
             </p>
           </Reveal>
           <Reveal i={1}>
-            <Testimonials locale="fr" initialCount={4} />
+            <Testimonials locale="fr" initialCount={4} mobileInitialCount={2} />
           </Reveal>
         </div>
       </section>
 
-      <HomeBastin locale="fr" band="a" />
+      <HomeBastin locale="fr" band="b" />
 
-      <HomeCredibility locale="fr" band="b" />
+      <HomeCredibility locale="fr" band="a" />
 
       <SiteFooter locale="fr" band="a" />
     </main>
