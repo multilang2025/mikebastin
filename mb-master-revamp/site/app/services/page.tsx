@@ -101,7 +101,7 @@ function ConsultationCta({
   showHeading?: boolean;
 }) {
   return (
-    <section className={`band ${band} py-[clamp(48px,7vw,80px)]`}>
+    <section className={`band ${band} pt-[clamp(28px,3.5vw,44px)] pb-[clamp(48px,7vw,80px)]`}>
       <div className="shell">
         <div className="mx-auto max-w-[58ch] text-center">
           {showHeading && (
@@ -266,7 +266,7 @@ export default function ServicesIndex() {
         return (
           <Fragment key={cluster}>
           <section
-            className={`band ${ci % 2 === 0 ? "band-b" : "band-a"} py-[clamp(48px,7vw,96px)]`}
+            className={`band ${ci % 2 === 0 ? "band-b" : "band-a"} ${cluster === "Search" ? "pt-[clamp(48px,7vw,96px)] pb-[clamp(24px,3vw,40px)]" : "py-[clamp(48px,7vw,96px)]"}`}
           >
             <div className="shell">
               <Reveal>
