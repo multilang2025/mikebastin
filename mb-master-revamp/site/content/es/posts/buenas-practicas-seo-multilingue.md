@@ -47,6 +47,22 @@ Cada mercado necesita su propia [investigación de palabras clave](/es/services/
 
 Semrush y Ahrefs ayudan a encontrar los términos locales; un hablante nativo confirma cuáles usa de verdad la gente. Nuestra guía para [localizar contenido en alemán](/es/localizar-contenido-en-aleman/) muestra el trabajo en un mercado concreto. Una redacción local precisa ayuda también a que los modelos de IA asocien tu marca con los temas correctos en cada idioma.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Una lista de palabras clave en español traducida da búsquedas supuestas; la investigación en el mercado encuentra las que los compradores escriben de verdad.">
+<path d="M160 75 L225 35" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M160 75 L225 115" class="fg-accent"/>
+<rect x="10" y="55" width="150" height="40" rx="6" class="fg-box"/>
+<rect x="225" y="12" width="165" height="46" rx="6" class="fg-box"/>
+<rect x="225" y="92" width="165" height="46" rx="6" class="fg-hot"/>
+<text x="85" y="81" text-anchor="middle" class="fg-text">Lista española</text>
+<text x="307" y="32" text-anchor="middle" class="fg-text">Traducida</text>
+<text x="307" y="50" text-anchor="middle" class="fg-label">búsquedas supuestas</text>
+<text x="307" y="112" text-anchor="middle" class="fg-strong">Estudio local</text>
+<text x="307" y="130" text-anchor="middle" class="fg-label">búsquedas reales</text>
+</svg>
+<figcaption>La investigación propia de cada mercado encuentra las palabras de sus compradores, y un hablante nativo confirma cuáles se usan.</figcaption>
+</figure>
+
 ## Escribe títulos y descripciones para cada idioma
 
 El título y la descripción son el primer texto comercial que lee un comprador de cada mercado, a menudo antes de conocer tu nombre. Cada versión de idioma necesita los suyos:
@@ -67,7 +83,32 @@ Una estructura clara le dice al buscador, desde la propia dirección, a qué idi
 
 Con hreflang, el buscador envía al comprador francés a tu página en francés. Tres reglas bastan para empezar: las etiquetas van en la cabecera HTML o en el sitemap XML, cada etiqueta es bidireccional, y una etiqueta x-default recoge a los usuarios de idiomas y regiones que quedan fuera de los que defines.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 166" role="img" aria-label="Hreflang entre dos páginas: la página A en español enlaza la página B en francés, la B enlaza la A, y una etiqueta x-default recoge al resto de usuarios.">
+<path d="M200 110 L80 70" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M200 110 L320 70" class="fg-dim" stroke-dasharray="4 4"/>
+<line x1="150" y1="38" x2="248" y2="38" class="fg-accent"/>
+<path d="M241 33 L248 38 L241 43" class="fg-accent"/>
+<line x1="152" y1="52" x2="250" y2="52" class="fg-accent"/>
+<path d="M159 47 L152 52 L159 57" class="fg-accent"/>
+<rect x="10" y="20" width="140" height="50" rx="6" class="fg-box"/>
+<rect x="250" y="20" width="140" height="50" rx="6" class="fg-box"/>
+<rect x="130" y="110" width="140" height="46" rx="6" class="fg-fill"/>
+<text x="80" y="42" text-anchor="middle" class="fg-strong">Página A</text>
+<text x="80" y="60" text-anchor="middle" class="fg-label">en español</text>
+<text x="320" y="42" text-anchor="middle" class="fg-strong">Página B</text>
+<text x="320" y="60" text-anchor="middle" class="fg-label">en francés</text>
+<text x="200" y="130" text-anchor="middle" class="fg-text">x-default</text>
+<text x="200" y="147" text-anchor="middle" class="fg-label">resto de usuarios</text>
+</svg>
+<figcaption>Cada etiqueta funciona en los dos sentidos, y x-default recoge a quien llega desde otros idiomas y regiones.</figcaption>
+</figure>
+
 El detalle de ambas decisiones, con el contenido duplicado entre idiomas y la elección del servidor, está en nuestra guía de [SEO técnico para sitios multilingües](/es/seo-tecnico-para-sitios-multilingues/).
+
+> En un estudio de 2023 sobre 374.756 dominios que usan hreflang, el 67 % tenía al menos un error de hreflang. El más frecuente, la falta de x-default, afectaba al 56,3 % de los dominios.
+>
+> Fuente: [Ahrefs, «Over 67% of Domains Using Hreflang Have Issues (Study of 374,756 Domains)», Patrick Stox, 10 de agosto de 2023](https://ahrefs.com/blog/hreflang-study/)
 
 ## Consigue enlaces del país al que vendes
 
@@ -80,6 +121,26 @@ Tres maneras de ganar enlaces regionales:
 - Relaciones públicas dirigidas a la prensa de cada país.
 
 La calidad pesa más que la cantidad, así que construye tu [link building](/es/services/seo-tecnico/) con enlaces editoriales ganados: son los que duran y los que respetan las directrices de Google. En tu mercado de origen, el mismo trabajo lo explicamos en nuestra guía de [link building local en España](/es/link-building-local-en-espana/). Los enlaces con autoridad en un mercado suben también la probabilidad de que los modelos de IA traten tu contenido como una fuente fiable allí.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Tres maneras de ganar enlaces regionales: artículos invitados localizados, colaboraciones con empresas locales y relaciones públicas con la prensa de cada país.">
+<path d="M200 50 L70 102" class="fg-line"/>
+<path d="M200 50 L200 102" class="fg-line"/>
+<path d="M200 50 L330 102" class="fg-line"/>
+<rect x="115" y="10" width="170" height="40" rx="6" class="fg-hot"/>
+<rect x="8" y="102" width="124" height="46" rx="6" class="fg-box"/>
+<rect x="138" y="102" width="124" height="46" rx="6" class="fg-box"/>
+<rect x="268" y="102" width="124" height="46" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-strong">Enlaces locales</text>
+<text x="70" y="122" text-anchor="middle" class="fg-text">Artículos</text>
+<text x="70" y="140" text-anchor="middle" class="fg-label">invitados</text>
+<text x="200" y="122" text-anchor="middle" class="fg-text">Alianzas</text>
+<text x="200" y="140" text-anchor="middle" class="fg-label">con empresas</text>
+<text x="330" y="122" text-anchor="middle" class="fg-text">Prensa</text>
+<text x="330" y="140" text-anchor="middle" class="fg-label">en cada país</text>
+</svg>
+<figcaption>Cada vía trae un enlace del país al que vendes, donde la relevancia es geográfica además de temática.</figcaption>
+</figure>
 
 ## Datos estructurados para que la IA identifique tu mercado
 

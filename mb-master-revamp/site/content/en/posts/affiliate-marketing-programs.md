@@ -20,11 +20,7 @@ If you are a content creator, publisher or agency building recurring revenue, th
 
 ## Pick the right affiliate programme first time
 
-Every month promoting the right product is content that earns, and the choice keeps widening:
-
-> Per Post Affiliate Pro, the global affiliate market sits at 17 to 18.5 billion dollars in 2025, is projected above 20 billion in 2026, and is expected to reach 71.74 billion by 2034. Over 90 percent of ecommerce businesses are expected to run affiliate programmes by 2026.
->
-> Source: [Post Affiliate Pro, Affiliate Marketing Industry Size 2025-2026](https://www.postaffiliatepro.com/blog/affiliate-marketing-industry-size-2025/)
+Every month promoting the right product is content that earns, and the choice keeps widening.
 
 Compare the commission rate last: a 50 percent commission pays when your readers want the product. Three filters matter more:
 
@@ -33,6 +29,27 @@ Compare the commission rate last: a 50 percent commission pays when your readers
 - **Brand trust:** a review of Amazon or HubSpot needs far less convincing than one for a brand your reader is meeting for the first time.
 
 The programmes below balance those three factors, grouped by the audience they suit. Terms change often, so always check the official page before you rely on a number in any article, ours included.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Product fit, cookie window and brand trust carry the most weight in choosing a programme, and the commission rate counts least.">
+<path d="M156 23 L276 72" class="fg-accent"/>
+<path d="M156 61 L276 78" class="fg-accent"/>
+<path d="M156 99 L276 84" class="fg-accent"/>
+<path d="M156 137 L276 90" class="fg-dim" stroke-dasharray="4 4"/>
+<rect x="6" y="8" width="150" height="30" rx="6" class="fg-box"/>
+<rect x="6" y="46" width="150" height="30" rx="6" class="fg-box"/>
+<rect x="6" y="84" width="150" height="30" rx="6" class="fg-box"/>
+<rect x="6" y="122" width="150" height="30" rx="6" class="fg-box"/>
+<circle cx="322" cy="80" r="46" class="fg-hot"/>
+<text x="81" y="28" text-anchor="middle" class="fg-text">Product fit</text>
+<text x="81" y="66" text-anchor="middle" class="fg-text">Cookie window</text>
+<text x="81" y="104" text-anchor="middle" class="fg-text">Brand trust</text>
+<text x="81" y="142" text-anchor="middle" class="fg-label">Commission rate</text>
+<text x="322" y="78" text-anchor="middle" class="fg-strong">Right</text>
+<text x="322" y="98" text-anchor="middle" class="fg-label">programme</text>
+</svg>
+<figcaption>Choose on fit, cookie window and brand trust first, then compare commission: a high rate pays when your readers already want the product.</figcaption>
+</figure>
 
 ## Retail and ecommerce programmes
 
@@ -71,6 +88,24 @@ Good for: SEO blogs, digital marketing courses, agency case-study writers.
 The [ClickFunnels affiliate programme](https://www.clickfunnels.com/blog/clickfunnels-2-0-affiliate-program/) pays 30 percent recurring commission for the life of the customer, which ClickFunnels works out at $44.10 to $89.10 a month per referral across its three plans. Users who build funnels rarely migrate away, so commissions compound.
 
 Good for: course creators, coaches, sales-funnel consultants.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 156" role="img" aria-label="A one-off commission pays once; a recurring commission pays again every month the customer stays.">
+<line x1="130" y1="128" x2="390" y2="128" class="fg-rule"/>
+<rect x="130" y="30" width="34" height="34" rx="4" class="fg-box"/>
+<rect x="130" y="80" width="34" height="34" rx="4" class="fg-hot"/>
+<rect x="174" y="80" width="34" height="34" rx="4" class="fg-hot"/>
+<rect x="218" y="80" width="34" height="34" rx="4" class="fg-hot"/>
+<rect x="262" y="80" width="34" height="34" rx="4" class="fg-hot"/>
+<rect x="306" y="80" width="34" height="34" rx="4" class="fg-hot"/>
+<rect x="350" y="80" width="34" height="34" rx="4" class="fg-hot"/>
+<text x="10" y="53" text-anchor="start" class="fg-text">One-off</text>
+<text x="10" y="103" text-anchor="start" class="fg-strong">Recurring</text>
+<text x="390" y="53" text-anchor="end" class="fg-label">paid once</text>
+<text x="390" y="148" text-anchor="end" class="fg-label">each month the customer stays</text>
+</svg>
+<figcaption>Recurring commissions compound: a customer who stays keeps paying you, month after month.</figcaption>
+</figure>
 
 ### Kit (formerly ConvertKit)
 
@@ -139,7 +174,23 @@ The first is writing reviews from direct experience. Google's helpful content sy
 
 The second is matching search intent. A "best of" article targets comparison intent; a single-product review targets decision intent. Give each its own article, which is why we map intent before writing, as described in our guide to [search intent mapping](/blog/what-is-search-intent-mapping/).
 
-The third is investing in email. Authority Hacker's research shows that [78.3 percent of affiliates rely on SEO as their main traffic channel](https://www.authorityhacker.com/affiliate-marketing-statistics/), and the ones earning above 10,000 dollars a month almost all have a mailing list capturing visitors before they click out.
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Search intent splits two ways: a best-of article serves comparison intent, and a single-product review serves decision intent.">
+<path d="M150 75 L230 35" class="fg-line"/>
+<path d="M150 75 L230 115" class="fg-line"/>
+<rect x="10" y="55" width="140" height="40" rx="6" class="fg-hot"/>
+<rect x="230" y="12" width="160" height="46" rx="6" class="fg-box"/>
+<rect x="230" y="92" width="160" height="46" rx="6" class="fg-box"/>
+<text x="80" y="81" text-anchor="middle" class="fg-strong">Search intent</text>
+<text x="310" y="32" text-anchor="middle" class="fg-text">“Best of”</text>
+<text x="310" y="50" text-anchor="middle" class="fg-label">comparison intent</text>
+<text x="310" y="112" text-anchor="middle" class="fg-text">Single review</text>
+<text x="310" y="130" text-anchor="middle" class="fg-label">decision intent</text>
+</svg>
+<figcaption>Give each intent its own article: the best-of piece meets readers comparing options, the single review meets readers ready to decide.</figcaption>
+</figure>
+
+The third is investing in email. A mailing list captures visitors before they click out, so a reader who arrived from search comes back to your next recommendation.
 
 <aside class="post-cta">
 <p><strong>Getting the traffic, and want readers buying from you directly?</strong> Our <a href="/services/lead-generation/">B2B lead generation service</a> turns visitors in each of your markets into enquiries worth a sales call, counted per market. <a href="/contact/">Book the discovery call</a>.</p>

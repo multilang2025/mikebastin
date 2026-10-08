@@ -21,11 +21,7 @@ Si vous êtes éditeur, créateur de contenu ou agence et que vous construisez u
 
 ## Choisissez le bon programme du premier coup
 
-Chaque mois consacré au bon produit donne des contenus qui rapportent, et le choix s’élargit :
-
-> Selon Post Affiliate Pro, le marché mondial de l’affiliation se situe de 17 à 18,5 milliards de dollars en 2025, devrait dépasser 20 milliards en 2026 et atteindre 71,74 milliards d’ici 2034. Plus de 90 % des entreprises d’e-commerce devraient gérer un programme d’affiliation d’ici 2026.
->
-> Source : [Post Affiliate Pro, Affiliate Marketing Industry Size 2025-2026](https://www.postaffiliatepro.com/blog/affiliate-marketing-industry-size-2025/)
+Chaque mois consacré au bon produit donne des contenus qui rapportent, et le choix s’élargit.
 
 Comparez le taux de commission en dernier : une commission de 50 % rapporte quand vos lecteurs veulent le produit. Trois filtres passent avant :
 
@@ -34,6 +30,27 @@ Comparez le taux de commission en dernier : une commission de 50 % rapporte qua
 - **La confiance dans la marque :** un avis sur Amazon ou HubSpot demande bien moins d’efforts de conviction qu’un avis sur une marque que votre lecteur découvre.
 
 Les programmes ci-dessous équilibrent ces trois filtres et sont regroupés selon l’audience qu’ils servent. Les conditions changent souvent : vérifiez toujours la page officielle avant de vous appuyer sur un chiffre dans un article, le nôtre compris.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="L’adéquation produit, la durée du cookie et la confiance dans la marque pèsent le plus dans le choix d’un programme ; le taux de commission compte le moins.">
+<path d="M156 23 L276 72" class="fg-accent"/>
+<path d="M156 61 L276 78" class="fg-accent"/>
+<path d="M156 99 L276 84" class="fg-accent"/>
+<path d="M156 137 L276 90" class="fg-dim" stroke-dasharray="4 4"/>
+<rect x="6" y="8" width="150" height="30" rx="6" class="fg-box"/>
+<rect x="6" y="46" width="150" height="30" rx="6" class="fg-box"/>
+<rect x="6" y="84" width="150" height="30" rx="6" class="fg-box"/>
+<rect x="6" y="122" width="150" height="30" rx="6" class="fg-box"/>
+<circle cx="322" cy="80" r="46" class="fg-hot"/>
+<text x="81" y="28" text-anchor="middle" class="fg-text">Adéquation</text>
+<text x="81" y="66" text-anchor="middle" class="fg-text">Durée du cookie</text>
+<text x="81" y="104" text-anchor="middle" class="fg-text">Confiance</text>
+<text x="81" y="142" text-anchor="middle" class="fg-label">Taux de commission</text>
+<text x="322" y="78" text-anchor="middle" class="fg-strong">Bon</text>
+<text x="322" y="98" text-anchor="middle" class="fg-label">programme</text>
+</svg>
+<figcaption>Choisissez d’abord sur l’adéquation, le cookie et la confiance, puis comparez la commission : un taux élevé rapporte quand vos lecteurs veulent déjà le produit.</figcaption>
+</figure>
 
 ## Programmes pour le commerce et l’e-commerce
 
@@ -70,6 +87,24 @@ Idéal pour : blogs SEO, formations au marketing digital, rédacteurs d’étud
 Le [programme d’affiliation de ClickFunnels](https://www.clickfunnels.com/blog/clickfunnels-2-0-affiliate-program/) verse 30 % de commission récurrente pendant toute la durée de vie du client, ce que ClickFunnels chiffre de 44,10 à 89,10 dollars par mois et par recommandation selon ses trois formules. Un utilisateur qui a construit ses tunnels de vente change rarement d’outil, et les commissions s’additionnent mois après mois.
 
 Idéal pour : créateurs de formations, coachs, consultants en tunnels de vente.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 156" role="img" aria-label="Une commission unique est versée une fois ; une commission récurrente est versée à nouveau chaque mois où le client reste.">
+<line x1="130" y1="128" x2="390" y2="128" class="fg-rule"/>
+<rect x="130" y="30" width="34" height="34" rx="4" class="fg-box"/>
+<rect x="130" y="80" width="34" height="34" rx="4" class="fg-hot"/>
+<rect x="174" y="80" width="34" height="34" rx="4" class="fg-hot"/>
+<rect x="218" y="80" width="34" height="34" rx="4" class="fg-hot"/>
+<rect x="262" y="80" width="34" height="34" rx="4" class="fg-hot"/>
+<rect x="306" y="80" width="34" height="34" rx="4" class="fg-hot"/>
+<rect x="350" y="80" width="34" height="34" rx="4" class="fg-hot"/>
+<text x="10" y="53" text-anchor="start" class="fg-text">Unique</text>
+<text x="10" y="103" text-anchor="start" class="fg-strong">Récurrente</text>
+<text x="390" y="53" text-anchor="end" class="fg-label">versée une fois</text>
+<text x="390" y="148" text-anchor="end" class="fg-label">chaque mois où le client reste</text>
+</svg>
+<figcaption>Les commissions récurrentes s’additionnent : un client qui reste continue de vous rapporter, mois après mois.</figcaption>
+</figure>
 
 ### Kit (anciennement ConvertKit)
 
@@ -136,7 +171,23 @@ La première consiste à rédiger des avis fondés sur l’expérience directe. 
 
 La deuxième consiste à répondre à l’intention de recherche. Un article « meilleurs outils » vise une intention de comparaison ; un avis sur un seul produit vise une intention de décision. Donnez à chacune son propre article : c’est pourquoi nous cartographions l’intention avant d’écrire, comme l’explique notre guide de [cartographie de l’intention de recherche](/fr/cartographie-intention-de-recherche/).
 
-La troisième consiste à investir dans l’e-mail. L’étude d’Authority Hacker montre que [78,3 % des affiliés s’appuient sur le SEO comme principal canal de trafic](https://www.authorityhacker.com/affiliate-marketing-statistics/), et ceux qui gagnent plus de 10 000 dollars par mois ont presque tous une liste d’e-mails qui capte les visiteurs avant leur clic sortant. Pour que cette liste rapporte, notre article sur les [taux d’ouverture et conversions en emailing](/fr/emailing-taux-ouverture-conversions/) détaille les objets, la lecture sur mobile et la segmentation par marché.
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="L’intention de recherche se partage en deux : un article « meilleurs outils » vise la comparaison, un avis sur un seul produit vise la décision.">
+<path d="M150 75 L230 35" class="fg-line"/>
+<path d="M150 75 L230 115" class="fg-line"/>
+<rect x="10" y="55" width="140" height="40" rx="6" class="fg-hot"/>
+<rect x="230" y="12" width="160" height="46" rx="6" class="fg-box"/>
+<rect x="230" y="92" width="160" height="46" rx="6" class="fg-box"/>
+<text x="80" y="81" text-anchor="middle" class="fg-strong">Intention</text>
+<text x="310" y="32" text-anchor="middle" class="fg-text">Comparatif</text>
+<text x="310" y="50" text-anchor="middle" class="fg-label">comparaison</text>
+<text x="310" y="112" text-anchor="middle" class="fg-text">Avis produit</text>
+<text x="310" y="130" text-anchor="middle" class="fg-label">décision</text>
+</svg>
+<figcaption>Donnez à chaque intention son propre article : le comparatif accompagne les lecteurs qui comparent, l’avis produit ceux qui sont prêts à décider.</figcaption>
+</figure>
+
+La troisième consiste à investir dans l’e-mail. Une liste d’e-mails capte les visiteurs avant leur clic sortant, et le lecteur venu de la recherche revient vers votre recommandation suivante. Pour que cette liste rapporte, notre article sur les [taux d’ouverture et conversions en emailing](/fr/emailing-taux-ouverture-conversions/) détaille les objets, la lecture sur mobile et la segmentation par marché.
 
 <aside class="post-cta">
 <p><strong>Vous avez le trafic et voulez que vos lecteurs achètent directement chez vous ?</strong> Notre <a href="/fr/services/referencement-multilingue/">référencement multilingue</a> attire sur chacun de vos marchés les visiteurs qui cherchent ce que vous vendez, page par page et langue par langue. <a href="/fr/nous-contacter/">Réservez un premier échange</a>.</p>
@@ -162,7 +213,7 @@ La troisième consiste à investir dans l’e-mail. L’étude d’Authority Hac
 <text x="50" y="114" text-anchor="middle" class="fg-label">un seul</text>
 <text x="150" y="114" text-anchor="middle" class="fg-label">cinq contenus</text>
 <text x="250" y="114" text-anchor="middle" class="fg-label">3 indicateurs</text>
-<text x="350" y="114" text-anchor="middle" class="fg-label">amplifier, changer</text>
+<text x="350" y="114" text-anchor="middle" class="fg-label">miser ou non</text>
 </svg>
 <figcaption>Un programme, cinq contenus et trois chiffres vous donnent assez d’éléments pour décider. Testez un programme à la fois, et les chiffres se lisent clairement.</figcaption>
 </figure>

@@ -21,11 +21,7 @@ Si eres editor, creador de contenido o agencia y estás construyendo ingresos re
 
 ## Cómo acertar con el programa de afiliados a la primera
 
-Cada mes dedicado al producto adecuado deja contenido que genera ingresos, y la oferta sigue creciendo:
-
-> Según Post Affiliate Pro, el mercado mundial de afiliación se sitúa en un rango de 17.000 a 18.500 millones de dólares en 2025, se prevé que supere los 20.000 millones en 2026 y que alcance 71.740 millones en 2034. Se espera que más del 90 % de los negocios de comercio electrónico tengan programa de afiliados en 2026.
->
-> Fuente: [Post Affiliate Pro, Affiliate Marketing Industry Size 2025-2026](https://www.postaffiliatepro.com/blog/affiliate-marketing-industry-size-2025/)
+Cada mes dedicado al producto adecuado deja contenido que genera ingresos, y la oferta sigue creciendo.
 
 Compara la comisión al final: un 50 % de comisión rinde cuando tus lectores quieren el producto. Hay tres filtros que pesan más:
 
@@ -34,6 +30,27 @@ Compara la comisión al final: un 50 % de comisión rinde cuando tus lectores qu
 - **Confianza en la marca:** una reseña de Amazon o HubSpot necesita mucho menos esfuerzo de convencimiento que una de una marca que tu lector descubre por primera vez.
 
 Los programas de abajo equilibran esos tres filtros y están agrupados según la audiencia a la que sirven. Las condiciones cambian a menudo, así que revisa siempre la página oficial antes de fiarte de una cifra en cualquier artículo, incluido el nuestro.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="El encaje con el producto, la duración de la cookie y la confianza en la marca pesan más al elegir un programa, y la comisión es lo que menos cuenta.">
+<path d="M156 23 L276 72" class="fg-accent"/>
+<path d="M156 61 L276 78" class="fg-accent"/>
+<path d="M156 99 L276 84" class="fg-accent"/>
+<path d="M156 137 L276 90" class="fg-dim" stroke-dasharray="4 4"/>
+<rect x="6" y="8" width="150" height="30" rx="6" class="fg-box"/>
+<rect x="6" y="46" width="150" height="30" rx="6" class="fg-box"/>
+<rect x="6" y="84" width="150" height="30" rx="6" class="fg-box"/>
+<rect x="6" y="122" width="150" height="30" rx="6" class="fg-box"/>
+<circle cx="322" cy="80" r="46" class="fg-hot"/>
+<text x="81" y="28" text-anchor="middle" class="fg-text">Encaje</text>
+<text x="81" y="66" text-anchor="middle" class="fg-text">Cookie</text>
+<text x="81" y="104" text-anchor="middle" class="fg-text">Confianza</text>
+<text x="81" y="142" text-anchor="middle" class="fg-label">Comisión</text>
+<text x="322" y="78" text-anchor="middle" class="fg-strong">Buen</text>
+<text x="322" y="98" text-anchor="middle" class="fg-label">programa</text>
+</svg>
+<figcaption>Elige primero por encaje, cookie y confianza, y compara la comisión al final: un porcentaje alto rinde cuando tus lectores ya quieren el producto.</figcaption>
+</figure>
 
 ## Programas de tiendas y comercio electrónico
 
@@ -70,6 +87,24 @@ Ideal para: blogs de SEO, cursos de marketing digital, redactores de casos de es
 El [programa de afiliados de ClickFunnels](https://www.clickfunnels.com/blog/clickfunnels-2-0-affiliate-program/) paga un 30 % de comisión recurrente durante toda la vida del cliente, lo que ClickFunnels calcula en un rango de 44,10 a 89,10 dólares al mes por referido según sus tres planes. Quien ha montado sus embudos de venta rara vez cambia de herramienta, así que las comisiones se acumulan mes a mes.
 
 Ideal para: creadores de cursos, coaches, consultores de embudos de venta.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 156" role="img" aria-label="Una comisión única se paga una vez; una comisión recurrente se vuelve a pagar cada mes que el cliente sigue.">
+<line x1="130" y1="128" x2="390" y2="128" class="fg-rule"/>
+<rect x="130" y="30" width="34" height="34" rx="4" class="fg-box"/>
+<rect x="130" y="80" width="34" height="34" rx="4" class="fg-hot"/>
+<rect x="174" y="80" width="34" height="34" rx="4" class="fg-hot"/>
+<rect x="218" y="80" width="34" height="34" rx="4" class="fg-hot"/>
+<rect x="262" y="80" width="34" height="34" rx="4" class="fg-hot"/>
+<rect x="306" y="80" width="34" height="34" rx="4" class="fg-hot"/>
+<rect x="350" y="80" width="34" height="34" rx="4" class="fg-hot"/>
+<text x="10" y="53" text-anchor="start" class="fg-text">Única</text>
+<text x="10" y="103" text-anchor="start" class="fg-strong">Recurrente</text>
+<text x="390" y="53" text-anchor="end" class="fg-label">pagada una vez</text>
+<text x="390" y="148" text-anchor="end" class="fg-label">cada mes que el cliente sigue</text>
+</svg>
+<figcaption>Las comisiones recurrentes se acumulan: un cliente que se queda te sigue generando ingresos mes a mes.</figcaption>
+</figure>
 
 ### Kit (antes ConvertKit)
 
@@ -136,7 +171,23 @@ El primero es escribir reseñas desde la experiencia directa. El sistema de cont
 
 El segundo es responder a la intención de búsqueda. Un artículo de «las mejores herramientas» apunta a una intención de comparación; una reseña de un solo producto apunta a una intención de decisión. Dale a cada una su propio artículo: por eso mapeamos la intención antes de escribir, como explicamos en nuestra guía sobre el [mapa de intención de búsqueda](/es/mapa-de-intencion-de-busqueda/).
 
-El tercero es invertir en email. El estudio de Authority Hacker muestra que [el 78,3 % de los afiliados depende del SEO como principal canal de tráfico](https://www.authorityhacker.com/affiliate-marketing-statistics/), y los que ganan más de 10.000 dólares al mes casi siempre tienen una lista de correo que capta a los visitantes antes de que hagan clic hacia fuera. Para que esa lista rinda, nuestro artículo sobre [más aperturas y conversiones en email marketing](/es/email-marketing-tasa-apertura-conversiones/) explica los asuntos que invitan a abrir y la segmentación por mercado.
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="La intención de búsqueda se divide en dos: un artículo de «las mejores herramientas» apunta a la comparación y una reseña de un solo producto, a la decisión.">
+<path d="M150 75 L230 35" class="fg-line"/>
+<path d="M150 75 L230 115" class="fg-line"/>
+<rect x="10" y="55" width="140" height="40" rx="6" class="fg-hot"/>
+<rect x="230" y="12" width="160" height="46" rx="6" class="fg-box"/>
+<rect x="230" y="92" width="160" height="46" rx="6" class="fg-box"/>
+<text x="80" y="81" text-anchor="middle" class="fg-strong">Intención</text>
+<text x="310" y="32" text-anchor="middle" class="fg-text">«Las mejores»</text>
+<text x="310" y="50" text-anchor="middle" class="fg-label">comparación</text>
+<text x="310" y="112" text-anchor="middle" class="fg-text">Reseña única</text>
+<text x="310" y="130" text-anchor="middle" class="fg-label">decisión</text>
+</svg>
+<figcaption>Dale a cada intención su propio artículo: el de «las mejores» acompaña a quien compara opciones y la reseña única, a quien ya va a decidir.</figcaption>
+</figure>
+
+El tercero es invertir en email. Una lista de correo capta a los visitantes antes de que hagan clic hacia fuera, y el lector que llegó desde el buscador vuelve a tu siguiente recomendación. Para que esa lista rinda, nuestro artículo sobre [más aperturas y conversiones en email marketing](/es/email-marketing-tasa-apertura-conversiones/) explica los asuntos que invitan a abrir y la segmentación por mercado.
 
 <aside class="post-cta">
 <p><strong>¿Ya tienes tráfico y quieres que tus lectores te compren directamente a ti?</strong> Nuestro <a href="/es/services/posicionamiento-multilingue/">posicionamiento multilingüe</a> atrae en cada uno de tus mercados a los visitantes que buscan lo que vendes, página a página e idioma a idioma. <a href="/es/contactanos/">Reserva una consulta gratuita</a>.</p>
@@ -162,7 +213,7 @@ El tercero es invertir en email. El estudio de Authority Hacker muestra que [el 
 <text x="50" y="114" text-anchor="middle" class="fg-label">solo uno</text>
 <text x="150" y="114" text-anchor="middle" class="fg-label">cinco piezas</text>
 <text x="250" y="114" text-anchor="middle" class="fg-label">3 métricas</text>
-<text x="350" y="114" text-anchor="middle" class="fg-label">escalar, cambiar</text>
+<text x="350" y="114" text-anchor="middle" class="fg-label">escalar o no</text>
 </svg>
 <figcaption>Un programa, cinco contenidos y tres cifras te dan pruebas suficientes para decidir. Prueba un programa cada vez y los números se leerán con claridad.</figcaption>
 </figure>

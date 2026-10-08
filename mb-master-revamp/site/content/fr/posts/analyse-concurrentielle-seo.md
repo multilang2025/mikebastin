@@ -75,6 +75,22 @@ Une poignée de pages fait le travail sur le site d’un concurrent, et une étu
 
 Le trafic d’un concurrent se concentre donc sur quelques pages. Repérez ses cinq à dix URL qui génèrent du trafic et étudiez-les en détail.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Le trafic d’un concurrent se concentre sur une poignée de pages phares ; le reste du site en apporte peu.">
+<path d="M160 43 L270 70" class="fg-accent"/>
+<path d="M160 107 L270 80" class="fg-dim" stroke-dasharray="4 4"/>
+<rect x="10" y="20" width="150" height="46" rx="6" class="fg-hot"/>
+<rect x="10" y="84" width="150" height="46" rx="6" class="fg-box"/>
+<circle cx="320" cy="75" r="50" class="fg-box"/>
+<text x="85" y="40" text-anchor="middle" class="fg-strong">Pages phares</text>
+<text x="85" y="58" text-anchor="middle" class="fg-label">font le travail</text>
+<text x="85" y="104" text-anchor="middle" class="fg-text">Le reste</text>
+<text x="85" y="122" text-anchor="middle" class="fg-label">peu de trafic</text>
+<text x="320" y="81" text-anchor="middle" class="fg-strong">Trafic</text>
+</svg>
+<figcaption>Le trafic d’un concurrent tient dans quelques pages : étudier ces cinq à dix URL montre comment le site gagne ses visites.</figcaption>
+</figure>
+
 ## Notre boîte à outils, avec ses limites
 
 Lisez chaque estimation comme une estimation, et le plan construit dessus tient.
@@ -105,15 +121,55 @@ Quand vous vendez dans plusieurs langues, chaque langue apporte ses propres conc
 
 Cela donne trois listes de concurrents, trois briefs de contenu et trois stratégies de liens.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Un cabinet, des concurrents différents dans chaque langue : l’espagnol pour le droit de la famille, le français pour les affaires matrimoniales, l’anglais pour les successions.">
+<path d="M200 50 L70 102" class="fg-line"/>
+<path d="M200 50 L200 102" class="fg-line"/>
+<path d="M200 50 L330 102" class="fg-line"/>
+<rect x="135" y="10" width="130" height="40" rx="6" class="fg-hot"/>
+<rect x="15" y="102" width="110" height="46" rx="6" class="fg-box"/>
+<rect x="145" y="102" width="110" height="46" rx="6" class="fg-box"/>
+<rect x="275" y="102" width="110" height="46" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-strong">Un cabinet</text>
+<text x="70" y="122" text-anchor="middle" class="fg-text">Espagnol</text>
+<text x="70" y="140" text-anchor="middle" class="fg-label">famille</text>
+<text x="200" y="122" text-anchor="middle" class="fg-text">Français</text>
+<text x="200" y="140" text-anchor="middle" class="fg-label">matrimonial</text>
+<text x="330" y="122" text-anchor="middle" class="fg-text">Anglais</text>
+<text x="330" y="140" text-anchor="middle" class="fg-label">successions</text>
+</svg>
+<figcaption>Chaque langue apporte sa liste de concurrents, son brief de contenu et sa stratégie de liens.</figcaption>
+</figure>
+
 Une entreprise française qui vend en Espagne, en Allemagne et au Royaume-Uni se retrouve dans la même situation : chaque marché a ses propres rivaux en recherche. Donnez à chaque langue sa propre analyse, pour que chaque marché reçoive un brief capable de se positionner. Nos [bonnes pratiques du SEO multilingue](/fr/bonnes-pratiques-seo-multilingue/) détaillent la suite, marché par marché.
 
 ## Recherche par IA : la question change, la méthode reste
 
 Oui, le [passage du SEO au GEO](/fr/seo-au-geo/) compte. Oui, les citations dans ChatGPT et Perplexity pèsent désormais dans les parcours d’achat B2B. La logique concurrentielle de fond reste pour l’essentiel la même.
 
+> 71 % des acheteurs B2B de logiciels s’appuient sur des chatbots d’IA à un moment de leurs recherches, et 51 % commencent désormais leurs recherches plus souvent par un chatbot d’IA que par Google.
+>
+> Source : [G2, « In the Answer Economy, Don't Win the Click, Win the Answer », enquête auprès de 1 076 acheteurs et décideurs B2B de logiciels, mars 2026](https://company.g2.com/news/g2-research-the-answer-economy)
+
 Nous ajoutons aujourd’hui pour nos clients une petite couche « qui est cité dans les réponses d’IA pour les questions de nos acheteurs ». Nous lançons cinq à dix requêtes qu’un vrai prospect pourrait poser, nous relevons les domaines cités, et nous vérifions leur recoupement avec les concurrents des pages de résultats classiques.
 
 Le recoupement est souvent élevé ; parfois, un site de niche apparaît et rejoint la liste. Dans les deux cas, le travail mené sur les pages de résultats sert de base.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Les domaines cités dans les réponses d’IA, comparés aux concurrents des pages de résultats : souvent les mêmes, parfois un site de niche qui rejoint la liste.">
+<path d="M150 75 L225 35" class="fg-accent"/>
+<path d="M150 75 L225 115" class="fg-dim" stroke-dasharray="4 4"/>
+<rect x="15" y="55" width="135" height="40" rx="6" class="fg-box"/>
+<rect x="225" y="12" width="160" height="46" rx="6" class="fg-hot"/>
+<rect x="225" y="92" width="160" height="46" rx="6" class="fg-box"/>
+<text x="82" y="81" text-anchor="middle" class="fg-strong">Citations IA</text>
+<text x="305" y="32" text-anchor="middle" class="fg-strong">Mêmes rivaux</text>
+<text x="305" y="50" text-anchor="middle" class="fg-label">souvent</text>
+<text x="305" y="112" text-anchor="middle" class="fg-text">Site de niche</text>
+<text x="305" y="130" text-anchor="middle" class="fg-label">parfois nouveau</text>
+</svg>
+<figcaption>La couche IA s’appuie sur le travail des pages de résultats : les domaines cités recoupent souvent la liste, et un site de niche la rejoint quand il apparaît.</figcaption>
+</figure>
 
 Traitez le GEO comme une partie du même exercice : la même page de résultats, derrière une interface de conversation.
 

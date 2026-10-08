@@ -71,6 +71,22 @@ Para el comprador alemán, el foco puede pasar a los materiales, la durabilidad,
 
 Un cambio así de pequeño hace que la misma colección parezca elegida para él.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="La misma colección presentada de dos formas: moda y diseño para el comprador español, durabilidad para el comprador alemán.">
+<path d="M178 75 L222 35" class="fg-dim"/>
+<path d="M178 75 L222 115" class="fg-accent"/>
+<rect x="8" y="55" width="170" height="40" rx="6" class="fg-box"/>
+<rect x="222" y="12" width="170" height="46" rx="6" class="fg-box"/>
+<rect x="222" y="92" width="170" height="46" rx="6" class="fg-hot"/>
+<text x="93" y="81" text-anchor="middle" class="fg-strong">Misma colección</text>
+<text x="307" y="32" text-anchor="middle" class="fg-text">España</text>
+<text x="307" y="50" text-anchor="middle" class="fg-label">moda y diseño</text>
+<text x="307" y="112" text-anchor="middle" class="fg-strong">Alemania</text>
+<text x="307" y="130" text-anchor="middle" class="fg-label">durabilidad</text>
+</svg>
+<figcaption>El producto es el mismo; cambia el enfoque. Al comprador alemán le convencen los materiales y la durabilidad, así que las páginas alemanas empiezan por ahí.</figcaption>
+</figure>
+
 ## Elige entre Sie y du antes de escribir
 
 Elige la forma de tratamiento que espera tu comprador y sonarás exactamente tan formal o tan cercano como él quiere, lo que le mantiene leyendo.
@@ -137,6 +153,22 @@ Las expresiones hechas son lo que más cuidado pide en la traducción. Algunas v
 
 Usa una expresión alemana con el mismo sentido, o dilo de forma directa. Un redactor nativo sabe cuál de las dos opciones suena natural en cada caso.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Una expresión española traducida palabra por palabra suena a traducción; con una expresión alemana del mismo sentido, suena alemana.">
+<path d="M188 75 L222 35" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M188 75 L222 115" class="fg-accent"/>
+<rect x="8" y="55" width="180" height="40" rx="6" class="fg-box"/>
+<rect x="222" y="12" width="170" height="46" rx="6" class="fg-box"/>
+<rect x="222" y="92" width="170" height="46" rx="6" class="fg-hot"/>
+<text x="98" y="80" text-anchor="middle" class="fg-text">«ser pan comido»</text>
+<text x="307" y="32" text-anchor="middle" class="fg-text">Literal</text>
+<text x="307" y="50" text-anchor="middle" class="fg-label">suena a traducido</text>
+<text x="307" y="112" text-anchor="middle" class="fg-strong">Mismo sentido</text>
+<text x="307" y="130" text-anchor="middle" class="fg-label">un giro alemán</text>
+</svg>
+<figcaption>Traduce el sentido y busca la forma alemana de decirlo, o dilo de forma llana.</figcaption>
+</figure>
+
 ## Escribe contenido original con referencias alemanas
 
 El contenido escrito para el comprador alemán gana más atención y más posiciones, porque responde a preguntas que de verdad se hace.
@@ -165,6 +197,26 @@ Alemania, Austria y Suiza comparten idioma, y sus preferencias y su forma de bus
 
 Usa referencias regionales siempre que puedas. Un artículo para lectores suizos puede citar leyes o costumbres locales; uno para lectores austriacos, destinos regionales.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Un idioma, tres mercados: contenido en alemán para Alemania, Austria y Suiza, cada uno con sus búsquedas y sus referencias.">
+<path d="M200 50 L70 102" class="fg-line"/>
+<path d="M200 50 L200 102" class="fg-line"/>
+<path d="M200 50 L330 102" class="fg-line"/>
+<rect x="135" y="10" width="130" height="40" rx="6" class="fg-hot"/>
+<rect x="15" y="102" width="110" height="46" rx="6" class="fg-box"/>
+<rect x="145" y="102" width="110" height="46" rx="6" class="fg-box"/>
+<rect x="275" y="102" width="110" height="46" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-strong">Alemán</text>
+<text x="70" y="122" text-anchor="middle" class="fg-text">Alemania</text>
+<text x="70" y="140" text-anchor="middle" class="fg-label">.de</text>
+<text x="200" y="122" text-anchor="middle" class="fg-text">Austria</text>
+<text x="200" y="140" text-anchor="middle" class="fg-label">.at</text>
+<text x="330" y="122" text-anchor="middle" class="fg-text">Suiza</text>
+<text x="330" y="140" text-anchor="middle" class="fg-label">.ch</text>
+</svg>
+<figcaption>Un idioma, tres mercados. Cada país busca a su manera, así que cada versión lleva sus propias palabras clave y referencias locales.</figcaption>
+</figure>
+
 ### Datos y tendencias alemanes
 
 Las estadísticas, los estudios y los acontecimientos alemanes hacen que el contenido se sienta actual y local.
@@ -186,6 +238,26 @@ Igual que el contenido, la estrategia de enlaces tiene que localizarse para func
 Los backlinks desde sitios alemanes de prestigio construyen tu autoridad e indican que tu sitio es de fiar.
 
 Para el SEO en Alemania, los enlaces desde webs alemanas valen más que los de fuentes internacionales, porque reflejan relevancia y autoridad locales. Funciona como el [link building local en España](/es/link-building-local-en-espana/), aplicado a editores alemanes.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Los enlaces de blogs alemanes, de la prensa alemana y de directorios alemanes como Gelbe Seiten pesan más para el SEO en Alemania que los de webs internacionales.">
+<path d="M186 23 L270 68" class="fg-accent"/>
+<path d="M186 61 L268 76" class="fg-accent"/>
+<path d="M186 99 L268 84" class="fg-accent"/>
+<path d="M186 137 L270 92" class="fg-dim" stroke-dasharray="4 4"/>
+<rect x="8" y="8" width="178" height="30" rx="6" class="fg-box"/>
+<rect x="8" y="46" width="178" height="30" rx="6" class="fg-box"/>
+<rect x="8" y="84" width="178" height="30" rx="6" class="fg-box"/>
+<rect x="8" y="122" width="178" height="30" rx="6" class="fg-box"/>
+<circle cx="328" cy="80" r="60" class="fg-hot"/>
+<text x="97" y="28" text-anchor="middle" class="fg-text">Blogs alemanes</text>
+<text x="97" y="66" text-anchor="middle" class="fg-text">Prensa alemana</text>
+<text x="97" y="104" text-anchor="middle" class="fg-text">Gelbe Seiten</text>
+<text x="97" y="142" text-anchor="middle" class="fg-label">Webs internacionales</text>
+<text x="328" y="86" text-anchor="middle" class="fg-strong">Tu sitio</text>
+</svg>
+<figcaption>Para el SEO en Alemania, un enlace desde un sitio alemán respetado cuenta más que uno internacional, porque demuestra relevancia local.</figcaption>
+</figure>
 
 ### Contactar con sitios alemanes
 

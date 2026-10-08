@@ -7,7 +7,9 @@ import { getServicesForLocale, servicePath } from "@/lib/services-locale";
 import { leadGenPath } from "@/lib/lead-gen-hubs";
 
 /**
- * The BASTIN section and the credibility strip for the French and Spanish
+ * The BASTIN section, now on the About pages in all three languages (owner,
+ * 8 Oct 2026: "Move this section from the homepage to the About us as it
+ * fits better there"), and the credibility strip for the French and Spanish
  * homepages (owner, 7 Oct 2026: replicate the English design and wording on
  * FR and ES). Same six letters and the same stats as app/page.tsx, adapted
  * rather than translated word for word. A letter links to the service page
@@ -54,11 +56,37 @@ const T = {
   },
 } as const;
 
-export function HomeBastin({ locale, band }: { locale: "fr" | "es"; band: "a" | "b" }) {
+/** English rows link straight to their service page. */
+const EN = {
+  eyebrow: "What the name stands for",
+  heading: "BASTIN, in six ideas.",
+  rows: [
+    { letter: "B", word: "Business", desc: "Every search project starts from your business case, so it gets the budget it needs.", href: "/services/lead-generation/" },
+    { letter: "A", word: "Automation", desc: "AI drafts, tests and reports, so the work keeps moving.", href: "/services/ai-consulting/" },
+    { letter: "S", word: "SEO", desc: "Multilingual search, built to rank in the language a buyer actually searches in.", href: "/services/multilingual-seo/" },
+    { letter: "T", word: "Translation", desc: "Copy adapted for the market reading it.", href: "/services/translation-services/" },
+    { letter: "I", word: "Internationalization", desc: "The groundwork done before launch, so a product can take a second language on the build it already has.", href: "/services/app-and-software-localisation/" },
+    { letter: "N", word: "Networking", desc: "Over two decades of referrals, in four languages, still the channel that works.", href: null },
+  ],
+};
+
+export function HomeBastin({ locale, band }: { locale: "en" | "fr" | "es"; band: "a" | "b" }) {
+  if (locale === "en") return <BastinBand t={{ eyebrow: EN.eyebrow, heading: EN.heading, rows: EN.rows }} band={band} />;
   const t = T[locale];
   const live = new Set(getServicesForLocale(locale).map((s) => s.slug));
   const hrefFor = (slug: Row["slug"]) =>
     slug === "lead" ? leadGenPath(locale) : slug && live.has(slug) ? servicePath(locale, slug) : null;
+  const rows = t.rows.map((r) => ({ letter: r.letter, word: r.word, desc: r.desc, href: hrefFor(r.slug) }));
+  return <BastinBand t={{ eyebrow: t.eyebrow, heading: t.heading, rows }} band={band} />;
+}
+
+function BastinBand({
+  t,
+  band,
+}: {
+  t: { eyebrow: string; heading: string; rows: { letter: string; word: string; desc: string; href: string | null }[] };
+  band: "a" | "b";
+}) {
   const trail = HOME_GRAPHICS.bastinTrail;
   return (
     <section className={`band band-${band} py-[clamp(48px,6vw,80px)]`}>
@@ -71,33 +99,32 @@ export function HomeBastin({ locale, band }: { locale: "fr" | "es"; band: "a" | 
         </Reveal>
         <div className="relative">
           {trail && <BastinIdeasGraphic />}
-          <div className={`flex flex-col${trail ? " pl-14 pr-20" : ""}`} style={{ borderTop: "1px solid var(--rule)" }}>
+          <div className={`flex flex-col${trail ? " pr-14 sm:pl-14 sm:pr-20" : ""}`} style={{ borderTop: "1px solid var(--rule)" }}>
             {t.rows.map((row, i) => {
-              const href = hrefFor(row.slug);
+              const href = row.href;
+              // Same row as the English homepage (owner, 8 Oct 2026:
+              // "Reproduis le design du site EN"): the initial is the word's
+              // own first letter in cherry, one fluid size for every word, so
+              // the six words line up instead of shifting with each letter's
+              // width. data-bastin-letter is what the trail graphic measures.
               const body = (
-                <>
+                <span className="flex min-w-0 flex-col gap-2">
                   <span
-                    data-bastin-letter
-                    className="display shrink-0 text-[clamp(2.4rem,5vw,3.4rem)] font-semibold leading-none"
-                    style={{ color: "var(--berry)" }}
+                    className={`display text-[clamp(1.15rem,5.8vw,2.1rem)] font-semibold leading-none${
+                      href ? " transition-colors duration-300 group-hover:text-[var(--berry)]" : ""
+                    }`}
                   >
-                    {row.letter}
-                  </span>
-                  <span className="flex min-w-0 flex-col gap-1 pt-1">
-                    <span
-                      className={`display text-[1.3rem] font-semibold leading-none${
-                        href ? " transition-colors duration-300 group-hover:text-[var(--berry)]" : ""
-                      }`}
-                    >
-                      {row.word}
+                    <span data-bastin-letter style={{ color: "var(--berry)" }}>
+                      {row.word.charAt(0)}
                     </span>
-                    <span data-bastin-copy className="text-[.92rem] leading-[1.55]" style={{ color: "var(--dim)" }}>
-                      {row.desc}
-                    </span>
+                    {row.word.slice(1)}
                   </span>
-                </>
+                  <span data-bastin-copy className="max-w-[56ch] text-[.95rem] leading-[1.55]" style={{ color: "var(--dim)" }}>
+                    {row.desc}
+                  </span>
+                </span>
               );
-              const rowClass = "flex items-start gap-5 py-6 sm:gap-7";
+              const rowClass = "block py-6";
               const rowStyle = { borderBottom: "1px solid var(--rule)" };
               return (
                 <Reveal key={row.letter} i={i}>

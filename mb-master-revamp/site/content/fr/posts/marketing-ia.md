@@ -54,6 +54,26 @@ Publier régulièrement vous garde visible sur chaque marché où vous vendez, e
 
 Les modèles GPT, Claude ou ceux du français Mistral AI rédigent des articles, des fiches produits et des [campagnes d’e-mails](/fr/emailing-taux-ouverture-conversions/), et des outils comme [Copy.ai](https://www.copy.ai) et [Jasper](https://www.jasper.ai/) automatisent une partie de la chaîne de production.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="La rédaction assistée par l’IA apporte trois gains à la fois : un rythme régulier sur chaque marché, des sujets d’actualité et un texte adapté à chaque segment.">
+<path d="M200 50 L70 102" class="fg-line"/>
+<path d="M200 50 L200 102" class="fg-line"/>
+<path d="M200 50 L330 102" class="fg-line"/>
+<rect x="120" y="10" width="160" height="40" rx="6" class="fg-hot"/>
+<rect x="8" y="102" width="124" height="46" rx="6" class="fg-box"/>
+<rect x="138" y="102" width="124" height="46" rx="6" class="fg-box"/>
+<rect x="268" y="102" width="124" height="46" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-strong">Rédaction IA</text>
+<text x="70" y="122" text-anchor="middle" class="fg-text">Rythme</text>
+<text x="70" y="140" text-anchor="middle" class="fg-label">chaque marché</text>
+<text x="200" y="122" text-anchor="middle" class="fg-text">Pertinence</text>
+<text x="200" y="140" text-anchor="middle" class="fg-label">sujets actuels</text>
+<text x="330" y="122" text-anchor="middle" class="fg-text">Segments</text>
+<text x="330" y="140" text-anchor="middle" class="fg-label">texte adapté</text>
+</svg>
+<figcaption>Un premier jet plus rapide rapporte sur trois plans, avec l’équipe que vous avez déjà.</figcaption>
+</figure>
+
 ### Une relecture native pour chaque langue ajoutée
 
 Pour une entreprise qui vend en Espagne, en Flandre ou en Allemagne, l’IA produit très vite un premier jet dans chaque langue. La phrase fluide et légèrement fausse est celle qui demande le plus d’attention : sur un marché dont votre équipe lit mal la langue, elle peut rester en ligne des mois. Faites relire par un natif chaque contenu qui engage votre entreprise, et réservez une relecture plus légère au reste.
@@ -89,6 +109,24 @@ Un budget travaille le mieux sur les segments les plus susceptibles d’acheter,
 
 Netflix et Amazon en sont les exemples les plus connus, avec des recommandations personnalisées par des modèles prédictifs. Pour une équipe plus petite, les métriques prédictives de Google Analytics, comme la probabilité d’achat ou la probabilité de départ d’un client, mettent une version de la même idée à portée de main.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="L’analyse prédictive oriente le budget vers les segments les plus susceptibles d’acheter, et en laisse moins aux segments assez ou peu réceptifs.">
+<path d="M140 75 L240 29" class="fg-accent"/>
+<path d="M140 75 L240 75" class="fg-dim"/>
+<path d="M140 75 L240 121" class="fg-dim" stroke-dasharray="4 4"/>
+<rect x="10" y="47" width="130" height="56" rx="6" class="fg-box"/>
+<rect x="240" y="12" width="150" height="34" rx="6" class="fg-hot"/>
+<rect x="240" y="58" width="150" height="34" rx="6" class="fg-box"/>
+<rect x="240" y="104" width="150" height="34" rx="6" class="fg-box"/>
+<text x="75" y="71" text-anchor="middle" class="fg-strong">Budget</text>
+<text x="75" y="90" text-anchor="middle" class="fg-label">par prévision</text>
+<text x="315" y="35" text-anchor="middle" class="fg-text">Très réceptifs</text>
+<text x="315" y="81" text-anchor="middle" class="fg-text">Assez réceptifs</text>
+<text x="315" y="127" text-anchor="middle" class="fg-text">Peu réceptifs</text>
+</svg>
+<figcaption>La prévision dirige le budget vers les segments les plus réceptifs, et l’argent va là où il rapporte.</figcaption>
+</figure>
+
 ### Lire chaque marché séparément
 
 Une prévision calculée sur l’ensemble de vos marchés mélange des comportements très différents : un acheteur belge, un acheteur allemand et un acheteur espagnol suivent chacun leur propre parcours. Découpez vos données par pays et par langue avant de leur demander une prévision, et chaque marché reçoit le budget que ses propres chiffres justifient. Notre article sur [ce que Google Analytics mesure à l’international](/fr/google-analytics-international/) détaille les données fiables par marché et celles à vérifier.
@@ -107,9 +145,29 @@ Une question qui reçoit sa réponse pendant la nuit garde l’acheteur chez vou
 
 Zendesk, HubSpot et Intercom proposent des fonctions de conversation par IA pour le support et la vente, et les sites marchands s’en servent pour guider le choix d’un produit ou répondre aux questions de commande. Nos [dix usages concrets des chatbots IA](/fr/chatbots-ia-entreprise/) montrent ceux qui rapportent le plus vite.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Un assistant d’IA répond tout de suite aux questions courantes, à toute heure, et transmet les réclamations et les exceptions à une personne.">
+<path d="M150 75 L230 35" class="fg-dim"/>
+<path d="M150 75 L230 115" class="fg-accent"/>
+<rect x="15" y="55" width="135" height="40" rx="6" class="fg-box"/>
+<rect x="230" y="12" width="160" height="46" rx="6" class="fg-box"/>
+<rect x="230" y="92" width="160" height="46" rx="6" class="fg-hot"/>
+<text x="82" y="81" text-anchor="middle" class="fg-strong">Assistant IA</text>
+<text x="310" y="32" text-anchor="middle" class="fg-text">Cas courants</text>
+<text x="310" y="50" text-anchor="middle" class="fg-label">réponse immédiate</text>
+<text x="310" y="112" text-anchor="middle" class="fg-strong">Cas délicats</text>
+<text x="310" y="130" text-anchor="middle" class="fg-label">vers une personne</text>
+</svg>
+<figcaption>L’assistant absorbe le volume à toute heure, et un passage de relais prévu confie les cas délicats à une personne.</figcaption>
+</figure>
+
 ### Une réponse juste dans chaque langue
 
 Un assistant multilingue répond dans la langue de la question, et c’est précisément là que la vigilance compte : une réponse inventée en néerlandais peut rester en ligne des mois quand votre équipe lit peu cette langue. Prévoyez qui vérifie les réponses dans chaque langue, appuyez l’assistant sur vos propres contenus pour qu’il parle de vos produits, et organisez le passage vers une personne quand la question dépasse ce qu’il connaît. Le passage de relais compte autant que l’assistant lui-même.
+
+> 87 % des clients jugent indispensable qu’une entreprise qui utilise l’IA générative dans son service client offre la possibilité de joindre une personne, et 50 % trouvent ces échanges plus simples.
+>
+> Source : [Gartner, « Gartner Survey Finds 87% of Customers Say Companies Using GenAI for Customer Service Must Provide Access to a Human Agent », enquête auprès de 3 566 clients B2B et B2C, février et mars 2026](https://www.gartner.com/en/newsroom/press-releases/2026-08-04-gartner-survey-finds-87-percent-of-customers-say-companies-using-genai-for-customer-service-must-provide-access-to-a-human-agent0)
 
 | Langue de l’assistant | Qui relit les réponses | Passage à une personne |
 |---|---|---|

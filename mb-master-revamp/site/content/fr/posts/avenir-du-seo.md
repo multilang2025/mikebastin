@@ -22,6 +22,22 @@ Voici ce qui donne de la visibilité en 2026, les mesures qui complètent les an
 
 Vos concurrents publient davantage grâce à l’IA, et la page qui apporte une expertise réelle reste celle que Google et vos acheteurs retiennent. La mise à jour de fond de Google de mars 2025 l’a confirmé : les règles anti-spam visent l’abus de contenu produit à grande échelle, et les systèmes valorisent la recherche originale, l’expérience de première main et l’expertise démontrée.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Une page qui apporte une expertise réelle pèse davantage auprès de Google qu’un contenu produit en masse avec l’IA.">
+<path d="M200 39 L276 80" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M200 121 L276 80" class="fg-accent"/>
+<rect x="10" y="14" width="190" height="50" rx="6" class="fg-box"/>
+<rect x="10" y="96" width="190" height="50" rx="6" class="fg-hot"/>
+<rect x="276" y="60" width="112" height="40" rx="6" class="fg-box"/>
+<text x="105" y="36" text-anchor="middle" class="fg-text">Contenu en masse</text>
+<text x="105" y="54" text-anchor="middle" class="fg-label">volume</text>
+<text x="105" y="118" text-anchor="middle" class="fg-strong">Une page experte</text>
+<text x="105" y="136" text-anchor="middle" class="fg-label">expertise réelle</text>
+<text x="332" y="86" text-anchor="middle" class="fg-strong">Google</text>
+</svg>
+<figcaption>Google valorise la recherche originale, l’expérience de première main et l’expertise démontrée, davantage que le volume.</figcaption>
+</figure>
+
 Les AI Overviews, qui rédigent une réponse en haut de la page de résultats, sont désormais la norme sur une grande partie des requêtes.
 
 > Les AI Overviews s’affichaient sur environ 48 % des requêtes suivies par BrightEdge en février 2026, contre environ 31 % un an plus tôt.
@@ -50,15 +66,15 @@ D’autres chiffres de ce type sont réunis dans la [compilation de statistiques
 <text x="200" y="35" text-anchor="middle" class="fg-text">Votre page</text>
 <line x1="170" y1="48" x2="100" y2="84" class="fg-line"/>
 <line x1="230" y1="48" x2="300" y2="84" class="fg-line"/>
-<rect x="30" y="84" width="140" height="38" rx="6" class="fg-fill"/>
-<rect x="230" y="84" width="140" height="38" rx="6" class="fg-fill"/>
-<text x="100" y="109" text-anchor="middle" class="fg-text">Résultats de recherche</text>
+<rect x="20" y="84" width="160" height="38" rx="6" class="fg-fill"/>
+<rect x="220" y="84" width="160" height="38" rx="6" class="fg-fill"/>
+<text x="100" y="109" text-anchor="middle" class="fg-text">Résultats Google</text>
 <text x="300" y="109" text-anchor="middle" class="fg-text">Réponses d’IA</text>
 <text x="100" y="146" text-anchor="middle" class="fg-label">clics</text>
 <text x="300" y="146" text-anchor="middle" class="fg-label">citations</text>
 <line x1="100" y1="156" x2="170" y2="182" class="fg-line"/>
 <line x1="300" y1="156" x2="230" y2="182" class="fg-line"/>
-<rect x="130" y="182" width="140" height="38" rx="6" class="fg-hot"/>
+<rect x="105" y="182" width="190" height="38" rx="6" class="fg-hot"/>
 <text x="200" y="207" text-anchor="middle" class="fg-text">Demande de marque</text>
 </svg>
 <figcaption>Le SEO et le GEO sont deux routes depuis le même contenu. Des affirmations claires, des sources nommées et des données structurées servent les deux, et les deux mènent à des internautes qui vous cherchent par votre nom.</figcaption>
@@ -76,6 +92,23 @@ Une page signée par un expert identifié inspire davantage confiance à Google 
 > Source : [Search Engine Land, septembre 2025](https://searchengineland.com/google-updates-search-quality-raters-guidelines-adding-ai-overview-examples-ymyl-definitions-461908)
 
 Google évalue l’E-E-A-T par des signaux indirects : réputation du domaine, paternité clairement indiquée, qualité des sources et balisage des auteurs. Les sites qui présentent des biographies d’auteurs détaillées, des études de cas publiées, des sources récentes et un balisage Person et Organization gagnent du terrain. Notre retour d’expérience [EEAT ou AEAT](/fr/eeat-ou-aeat/) applique ces signaux au site d’un cabinet d’avocats espagnol.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Trois signaux nourrissent l’E-E-A-T : des biographies d’auteurs détaillées, des études de cas publiées et des sources récentes.">
+<path d="M122 80 L170 30" class="fg-line"/>
+<path d="M122 80 L170 80" class="fg-line"/>
+<path d="M122 80 L170 130" class="fg-line"/>
+<rect x="12" y="60" width="110" height="40" rx="6" class="fg-hot"/>
+<rect x="170" y="12" width="218" height="36" rx="6" class="fg-box"/>
+<rect x="170" y="62" width="218" height="36" rx="6" class="fg-box"/>
+<rect x="170" y="112" width="218" height="36" rx="6" class="fg-box"/>
+<text x="67" y="86" text-anchor="middle" class="fg-strong">E-E-A-T</text>
+<text x="279" y="36" text-anchor="middle" class="fg-text">Biographies d’auteurs</text>
+<text x="279" y="86" text-anchor="middle" class="fg-text">Études de cas publiées</text>
+<text x="279" y="136" text-anchor="middle" class="fg-text">Sources récentes</text>
+</svg>
+<figcaption>Google évalue l’E-E-A-T par des signaux indirects, et ces trois-là placent un auteur identifié et crédible derrière la page.</figcaption>
+</figure>
 
 ## Comptez votre visibilité au-delà du clic
 
@@ -129,6 +162,22 @@ Si vos pages en français vendent et que vous voulez que vos pages en espagnol, 
 > Source : [Weglot, étude portant sur 1,3 million de citations d’IA, 2025](https://www.weglot.com/blog/ai-search-and-language)
 
 CSA Research publie de longue date sur ce sujet, par exemple sur [l’avantage du contenu multilingue pour les marques mondiales](https://csa-research.com/Blogs-Events/CSA-in-the-Media/Press-Releases/Multilingual-Content-Gives-Global-Brands-Competitive-Edge). Se positionner sur les marchés espagnol, allemand, néerlandais ou britannique demande un [référencement multilingue](/fr/services/referencement-multilingue/) construit pour chaque marché : recherche de mots-clés menée en natif dans chaque langue, adaptation culturelle et réglementaire, et prise en compte du [comportement de recherche propre à chaque région](/fr/bonnes-pratiques-seo-multilingue/). Un hreflang correct indique aux moteurs quelle version servir à qui, et des backlinks propres à chaque pays ainsi qu’un suivi des résultats locaux complètent le tableau.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 120" role="img" aria-label="Se positionner dans une autre langue repose sur trois éléments : une recherche de mots-clés menée en natif, une adaptation culturelle et réglementaire, et les habitudes de recherche de chaque région.">
+<line x1="72" y1="30" x2="328" y2="30" class="fg-rule"/>
+<circle cx="72" cy="30" r="12" class="fg-hot"/>
+<circle cx="200" cy="30" r="12" class="fg-box"/>
+<circle cx="328" cy="30" r="12" class="fg-box"/>
+<text x="72" y="72" text-anchor="middle" class="fg-text">Mots-clés</text>
+<text x="72" y="94" text-anchor="middle" class="fg-label">recherche native</text>
+<text x="200" y="72" text-anchor="middle" class="fg-text">Adaptation</text>
+<text x="200" y="94" text-anchor="middle" class="fg-label">culture, règles</text>
+<text x="328" y="72" text-anchor="middle" class="fg-text">Habitudes</text>
+<text x="328" y="94" text-anchor="middle" class="fg-label">par région</text>
+</svg>
+<figcaption>Chaque version linguistique gagne ses positions grâce à une recherche de mots-clés native, une adaptation locale et la façon dont chaque région cherche.</figcaption>
+</figure>
 
 ## Contenu et SEO forment une seule discipline
 

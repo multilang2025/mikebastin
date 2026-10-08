@@ -57,7 +57,25 @@ Chacune des habitudes ci-dessous oriente le budget vers le canal où le problèm
 
 **Une stratégie que l’équipe relit.** Un plan oriente le travail tant que l’équipe l’ouvre. Gardez-le assez court pour le relire chaque semaine ; un document de 90 pages, aussi bien structuré soit-il, est en général lu une fois, le premier jour.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 120" role="img" aria-label="Un plan de 90 pages est lu une fois, le premier jour ; un plan court est relu chaque semaine et continue d’orienter le travail.">
+<path d="M178 60 L220 60" class="fg-accent"/>
+<path d="M212 53 L220 60 L212 67" class="fg-accent"/>
+<rect x="10" y="30" width="168" height="60" rx="6" class="fg-box"/>
+<rect x="222" y="30" width="168" height="60" rx="6" class="fg-hot"/>
+<text x="94" y="56" text-anchor="middle" class="fg-text">Plan de 90 pages</text>
+<text x="94" y="76" text-anchor="middle" class="fg-label">lu une fois</text>
+<text x="306" y="56" text-anchor="middle" class="fg-strong">Plan court</text>
+<text x="306" y="76" text-anchor="middle" class="fg-label">relu chaque semaine</text>
+</svg>
+<figcaption>Un plan assez court pour être relu chaque semaine oriente le travail tant que l’équipe l’ouvre.</figcaption>
+</figure>
+
 **Le multilingue prévu dès le départ.** Quand les versions espagnole et allemande sont planifiées en même temps que la version française, chacune part de son propre plan complet et d’une transmission nette. Comme le montrent nos [bonnes pratiques du SEO multilingue](/fr/bonnes-pratiques-seo-multilingue/), un marketing multilingue efficace intègre la traduction à la planification dès le premier jour.
+
+> 76 % des acheteurs en ligne préfèrent acheter un produit présenté dans leur langue maternelle, et 40 % n’achètent jamais sur un site dans une autre langue.
+>
+> Source : [CSA Research, « Can’t Read, Won’t Buy », enquête auprès de 8 709 consommateurs dans 29 pays, juillet 2020](https://csa-research.com/l/media/Consumers-Prefer-their-Own-Language)
 
 ## Testez l’intégration en dix minutes
 
@@ -87,6 +105,23 @@ Une fois le tout regroupé dans un seul document de stratégie et un seul plan d
 
 Chaque gain est venu de tactiques déjà en place : c’est le fait de les relier qui a produit la hausse.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 120" role="img" aria-label="Quatre missions séparées regroupées dans une seule stratégie et un seul plan de mesure, qui a fait apparaître des constats dès le premier mois.">
+<path d="M130 44 L136 52 L130 60" class="fg-line"/>
+<path d="M263 44 L269 52 L263 60" class="fg-accent"/>
+<rect x="7" y="30" width="120" height="44" rx="6" class="fg-box"/>
+<rect x="140" y="30" width="120" height="44" rx="6" class="fg-box"/>
+<rect x="273" y="30" width="120" height="44" rx="6" class="fg-hot"/>
+<text x="67" y="57" text-anchor="middle" class="fg-text">Missions</text>
+<text x="200" y="57" text-anchor="middle" class="fg-text">Un plan</text>
+<text x="333" y="57" text-anchor="middle" class="fg-strong">Constats</text>
+<text x="67" y="100" text-anchor="middle" class="fg-label">quatre, séparées</text>
+<text x="200" y="100" text-anchor="middle" class="fg-label">une stratégie</text>
+<text x="333" y="100" text-anchor="middle" class="fg-label">premier mois</text>
+</svg>
+<figcaption>Relier les tactiques existantes dans un seul plan a produit la hausse : chaque constat est venu d’un travail déjà en place.</figcaption>
+</figure>
+
 ## Les données derrière les campagnes coordonnées
 
 La connexion entre les canaux rapporte davantage que leur nombre. L’IPA a analysé plus de 250 études de cas de campagnes et mis en évidence un écart mesurable entre le travail intégré sur plusieurs canaux et les campagnes sur un seul canal.
@@ -95,6 +130,26 @@ La connexion entre les canaux rapporte davantage que leur nombre. L’IPA a anal
 > Source : [Smart Insights, synthèse de l’IPA Effectiveness Databank](https://www.smartinsights.com/traffic-building-strategy/integrated-marketing-communications/4-options-for-integrating-marketing-campaigns/)
 
 Pour votre budget, trois canaux reliés l’emportent sur sept canaux isolés.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Sept canaux isolés d’un côté, trois canaux reliés entre eux de l’autre, les trois canaux reliés mis en avant.">
+<line x1="200" y1="20" x2="200" y2="115" class="fg-rule"/>
+<path d="M260 95 L340 95 L300 35 Z" class="fg-accent"/>
+<circle cx="45" cy="40" r="10" class="fg-box"/>
+<circle cx="100" cy="28" r="10" class="fg-box"/>
+<circle cx="155" cy="44" r="10" class="fg-box"/>
+<circle cx="60" cy="80" r="10" class="fg-box"/>
+<circle cx="120" cy="72" r="10" class="fg-box"/>
+<circle cx="160" cy="100" r="10" class="fg-box"/>
+<circle cx="90" cy="108" r="10" class="fg-box"/>
+<circle cx="300" cy="35" r="14" class="fg-hot"/>
+<circle cx="260" cy="95" r="14" class="fg-hot"/>
+<circle cx="340" cy="95" r="14" class="fg-hot"/>
+<text x="100" y="142" text-anchor="middle" class="fg-label">sept isolés</text>
+<text x="300" y="142" text-anchor="middle" class="fg-strong">trois reliés</text>
+</svg>
+<figcaption>La connexion rapporte davantage que le nombre de canaux : trois canaux reliés à un même plan l’emportent sur sept canaux isolés.</figcaption>
+</figure>
 
 ## Ce qu’une proposition 360 doit vous montrer
 

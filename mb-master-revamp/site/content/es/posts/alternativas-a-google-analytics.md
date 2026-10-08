@@ -27,6 +27,26 @@ Cambiar de herramienta lleva trabajo, así que liga la decisión a una necesidad
 - **Rendimiento:** un script de seguimiento más ligero aligera tus páginas.
 - **Propiedad de los datos:** algunas empresas quieren controlar por completo sus datos de analítica.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Cuatro motivos para dejar GA4: privacidad, complejidad, velocidad de las páginas y propiedad de tus datos.">
+<path d="M200 80 L69 30" class="fg-line"/>
+<path d="M200 80 L331 30" class="fg-line"/>
+<path d="M200 80 L69 130" class="fg-line"/>
+<path d="M200 80 L331 130" class="fg-line"/>
+<rect x="10" y="10" width="118" height="40" rx="6" class="fg-box"/>
+<rect x="272" y="10" width="118" height="40" rx="6" class="fg-box"/>
+<rect x="10" y="110" width="118" height="40" rx="6" class="fg-box"/>
+<rect x="272" y="110" width="118" height="40" rx="6" class="fg-box"/>
+<rect x="138" y="58" width="124" height="44" rx="6" class="fg-hot"/>
+<text x="200" y="86" text-anchor="middle" class="fg-strong">Tus motivos</text>
+<text x="69" y="36" text-anchor="middle" class="fg-text">Privacidad</text>
+<text x="331" y="36" text-anchor="middle" class="fg-text">Complejidad</text>
+<text x="69" y="136" text-anchor="middle" class="fg-text">Velocidad</text>
+<text x="331" y="136" text-anchor="middle" class="fg-text">Tus datos</text>
+</svg>
+<figcaption>Cambiar compensa cuando responde a una de estas cuatro necesidades: parte de la que tiene tu empresa.</figcaption>
+</figure>
+
 <aside class="post-cta">
 <p><strong>¿Quieres ver qué mercado rinde de verdad?</strong> Con nuestro <a href="/es/services/seo-tecnico/">SEO técnico</a> configuramos GA4 y Google Tag Manager para que el tráfico se divida por mercado y cada idioma aparezca en sus propias cifras. <a href="/es/contactanos/">Reserva una primera conversación</a>.</p>
 </aside>
@@ -46,6 +66,22 @@ Cinco herramientas, cada una más fuerte en una tarea distinta:
 **Ideal para:** la propiedad de los datos.
 
 [Matomo](https://matomo.org) te encaja si quieres informes al estilo de Google Analytics con los datos bajo tu control. Es de código abierto, y puedes alojarlo tú o usarlo en su nube, que guarda los datos en Fráncfort (Alemania).
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Matomo funciona de dos formas, autoalojado en tus servidores o en la nube de Matomo, con los mismos informes al estilo de Google Analytics.">
+<path d="M150 75 L230 35" class="fg-line"/>
+<path d="M150 75 L230 115" class="fg-line"/>
+<rect x="15" y="55" width="135" height="40" rx="6" class="fg-hot"/>
+<rect x="230" y="12" width="160" height="46" rx="6" class="fg-box"/>
+<rect x="230" y="92" width="160" height="46" rx="6" class="fg-box"/>
+<text x="82" y="81" text-anchor="middle" class="fg-strong">Matomo</text>
+<text x="310" y="32" text-anchor="middle" class="fg-text">Autoalojado</text>
+<text x="310" y="50" text-anchor="middle" class="fg-label">tus servidores</text>
+<text x="310" y="112" text-anchor="middle" class="fg-text">Nube</text>
+<text x="310" y="130" text-anchor="middle" class="fg-label">alojado por Matomo</text>
+</svg>
+<figcaption>Las dos opciones dan informes al estilo de Google Analytics con los datos bajo tu control.</figcaption>
+</figure>
 
 **Características principales:**
 
@@ -146,37 +182,54 @@ Cinco herramientas, cada una más fuerte en una tarea distinta:
 
 Los precios proceden de la página de precios de cada proveedor a 2 de octubre de 2026 y llevan su fuente bajo cada herramienta.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Plausible y Fathom funcionan libres de cookies; Matomo, Piwik PRO y Mixpanel dejan las cookies configurables.">
+<path d="M30 52 H170" class="fg-rule"/>
+<path d="M230 52 H370" class="fg-rule"/>
+<rect x="10" y="10" width="180" height="130" rx="6" class="fg-hot"/>
+<rect x="210" y="10" width="180" height="130" rx="6" class="fg-box"/>
+<text x="100" y="38" text-anchor="middle" class="fg-strong">Libre de cookies</text>
+<text x="100" y="84" text-anchor="middle" class="fg-text">Plausible</text>
+<text x="100" y="110" text-anchor="middle" class="fg-text">Fathom</text>
+<text x="300" y="38" text-anchor="middle" class="fg-strong">Configurable</text>
+<text x="300" y="78" text-anchor="middle" class="fg-text">Matomo</text>
+<text x="300" y="102" text-anchor="middle" class="fg-text">Piwik PRO</text>
+<text x="300" y="126" text-anchor="middle" class="fg-text">Mixpanel</text>
+</svg>
+<figcaption>Dos de las cinco son libres de cookies desde el principio, y las otras tres dejan la decisión a tu configuración.</figcaption>
+</figure>
+
 ## Elige según la pregunta que más necesitas responder
 
 La elección se hace una sola vez: una migración y unos informes que puedes comparar desde el primer mes. Parte de la pregunta que más necesita responder tu equipo:
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 244" role="img" aria-label="Cuatro preguntas, cada una con su herramienta: datos en tus propios servidores lleva a Matomo, un sector regulado a Piwik PRO, el comportamiento dentro del producto a Mixpanel, y una pantalla sencilla a Plausible o Fathom.">
-<rect x="10" y="10" width="220" height="44" rx="6" class="fg-box"/>
-<rect x="10" y="70" width="220" height="44" rx="6" class="fg-box"/>
-<rect x="10" y="130" width="220" height="44" rx="6" class="fg-box"/>
-<rect x="10" y="190" width="220" height="44" rx="6" class="fg-box"/>
-<rect x="262" y="10" width="128" height="44" rx="6" class="fg-fill"/>
-<rect x="262" y="70" width="128" height="44" rx="6" class="fg-fill"/>
-<rect x="262" y="130" width="128" height="44" rx="6" class="fg-fill"/>
-<rect x="262" y="190" width="128" height="44" rx="6" class="fg-fill"/>
-<line x1="230" y1="32" x2="258" y2="32" class="fg-line"/>
-<line x1="230" y1="92" x2="258" y2="92" class="fg-line"/>
-<line x1="230" y1="152" x2="258" y2="152" class="fg-line"/>
-<line x1="230" y1="212" x2="258" y2="212" class="fg-line"/>
-<path d="M252 27 L260 32 L252 37" fill="none" class="fg-line"/>
-<path d="M252 87 L260 92 L252 97" fill="none" class="fg-line"/>
-<path d="M252 147 L260 152 L252 157" fill="none" class="fg-line"/>
-<path d="M252 207 L260 212 L252 217" fill="none" class="fg-line"/>
-<text x="120" y="38" text-anchor="middle" class="fg-text">¿Datos en servidores propios?</text>
-<text x="120" y="98" text-anchor="middle" class="fg-text">¿Sector regulado?</text>
-<text x="120" y="158" text-anchor="middle" class="fg-text">¿Comportamiento en producto?</text>
-<text x="120" y="218" text-anchor="middle" class="fg-text">¿Una pantalla sencilla?</text>
-<text x="326" y="38" text-anchor="middle" class="fg-strong">Matomo</text>
-<text x="326" y="98" text-anchor="middle" class="fg-strong">Piwik PRO</text>
-<text x="326" y="158" text-anchor="middle" class="fg-strong">Mixpanel</text>
-<text x="326" y="208" text-anchor="middle" class="fg-strong">Plausible</text>
-<text x="326" y="227" text-anchor="middle" class="fg-strong">o Fathom</text>
+<rect x="6" y="10" width="250" height="44" rx="6" class="fg-box"/>
+<rect x="6" y="70" width="250" height="44" rx="6" class="fg-box"/>
+<rect x="6" y="130" width="250" height="44" rx="6" class="fg-box"/>
+<rect x="6" y="190" width="250" height="44" rx="6" class="fg-box"/>
+<rect x="280" y="10" width="114" height="44" rx="6" class="fg-fill"/>
+<rect x="280" y="70" width="114" height="44" rx="6" class="fg-fill"/>
+<rect x="280" y="130" width="114" height="44" rx="6" class="fg-fill"/>
+<rect x="280" y="190" width="114" height="44" rx="6" class="fg-fill"/>
+<line x1="256" y1="32" x2="276" y2="32" class="fg-line"/>
+<line x1="256" y1="92" x2="276" y2="92" class="fg-line"/>
+<line x1="256" y1="152" x2="276" y2="152" class="fg-line"/>
+<line x1="256" y1="212" x2="276" y2="212" class="fg-line"/>
+<path d="M270 27 L278 32 L270 37" fill="none" class="fg-line"/>
+<path d="M270 87 L278 92 L270 97" fill="none" class="fg-line"/>
+<path d="M270 147 L278 152 L270 157" fill="none" class="fg-line"/>
+<path d="M270 207 L278 212 L270 217" fill="none" class="fg-line"/>
+<text x="131" y="38" text-anchor="middle" class="fg-text">¿Datos en tus servidores?</text>
+<text x="131" y="98" text-anchor="middle" class="fg-text">¿Sector regulado?</text>
+<text x="131" y="158" text-anchor="middle" class="fg-text">¿Uso dentro del producto?</text>
+<text x="131" y="218" text-anchor="middle" class="fg-text">¿Una pantalla sencilla?</text>
+<text x="337" y="38" text-anchor="middle" class="fg-strong">Matomo</text>
+<text x="337" y="98" text-anchor="middle" class="fg-strong">Piwik PRO</text>
+<text x="337" y="158" text-anchor="middle" class="fg-strong">Mixpanel</text>
+<text x="337" y="208" text-anchor="middle" class="fg-strong">Plausible</text>
+<text x="337" y="227" text-anchor="middle" class="fg-strong">o Fathom</text>
 </svg>
 <figcaption>Elige la herramienta según la pregunta que más se hace tu equipo. Si una configuración más limpia de GA4 ya la responde, mantener GA4 es la opción más económica.</figcaption>
 </figure>

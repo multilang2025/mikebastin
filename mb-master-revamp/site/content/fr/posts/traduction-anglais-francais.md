@@ -28,9 +28,50 @@ Le deuxième est la relecture humaine de la traduction automatique avant la mise
 
 Le troisième est le moins discuté : le SEO. Adaptez la recherche de mots-clés à la façon dont les francophones cherchent vraiment sur Google.fr, Qwant ou Ecosia, et la page française se positionne.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Trois points décident d’une traduction anglais-français : la bonne variante, la relecture humaine de la traduction automatique et le SEO en français, qui ensemble font venir les demandes.">
+<path d="M180 28 L280 62" class="fg-line"/>
+<path d="M180 80 L274 80" class="fg-line"/>
+<path d="M180 132 L280 98" class="fg-line"/>
+<rect x="8" y="8" width="172" height="40" rx="6" class="fg-box"/>
+<rect x="8" y="60" width="172" height="40" rx="6" class="fg-box"/>
+<rect x="8" y="112" width="172" height="40" rx="6" class="fg-box"/>
+<circle cx="330" cy="80" r="56" class="fg-hot"/>
+<text x="94" y="33" text-anchor="middle" class="fg-text">Bonne variante</text>
+<text x="94" y="85" text-anchor="middle" class="fg-text">Relecture humaine</text>
+<text x="94" y="137" text-anchor="middle" class="fg-text">SEO en français</text>
+<text x="330" y="86" text-anchor="middle" class="fg-strong">Demandes</text>
+</svg>
+<figcaption>La variante, la relecture et le référencement, réglés avant la mise en ligne : la page française travaille dès le premier jour.</figcaption>
+</figure>
+
 ## Les marchés francophones et les attentes de chacun
 
 Le français de France, de Belgique, de Suisse et du Québec a chacun son vocabulaire, son registre et ses attentes commerciales : la première question que nous posons avant un devis porte donc sur le public francophone visé.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Une langue, quatre marchés : le français de France, de Belgique, de Suisse et du Québec, chacun avec ses propres mots, comme vous, septante ou courriel.">
+<path d="M118 80 L160 23" class="fg-line"/>
+<path d="M118 80 L160 61" class="fg-line"/>
+<path d="M118 80 L160 99" class="fg-line"/>
+<path d="M118 80 L160 137" class="fg-line"/>
+<rect x="8" y="60" width="110" height="40" rx="6" class="fg-hot"/>
+<rect x="160" y="8" width="232" height="30" rx="6" class="fg-box"/>
+<rect x="160" y="46" width="232" height="30" rx="6" class="fg-box"/>
+<rect x="160" y="84" width="232" height="30" rx="6" class="fg-box"/>
+<rect x="160" y="122" width="232" height="30" rx="6" class="fg-box"/>
+<text x="63" y="86" text-anchor="middle" class="fg-strong">Français</text>
+<text x="174" y="28" text-anchor="start" class="fg-text">France</text>
+<text x="378" y="28" text-anchor="end" class="fg-label">vous</text>
+<text x="174" y="66" text-anchor="start" class="fg-text">Belgique</text>
+<text x="378" y="66" text-anchor="end" class="fg-label">septante</text>
+<text x="174" y="104" text-anchor="start" class="fg-text">Suisse</text>
+<text x="378" y="104" text-anchor="end" class="fg-label">termes locaux</text>
+<text x="174" y="142" text-anchor="start" class="fg-text">Québec</text>
+<text x="378" y="142" text-anchor="end" class="fg-label">courriel</text>
+</svg>
+<figcaption>Chaque marché francophone a son vocabulaire et son registre, et la première question avant un devis porte sur le public visé.</figcaption>
+</figure>
 
 | Marché | Registre par défaut | Particularités | Points d’attention |
 |---|---|---|---|
@@ -85,6 +126,22 @@ Pour la traduction d’un site, nous intégrons le contenu français dans WPML, 
 ## Quand la traduction s’accompagne de localisation
 
 La localisation transforme la traduction fidèle d’une page de vente en une page écrite pour des acheteurs francophones, avec les [dix points à soigner pour localiser un site](/fr/localiser-son-site-points-a-soigner/), du ton aux formulaires.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Une page de vente, deux résultats : la traduction donne une version fidèle, la localisation une page écrite pour des acheteurs francophones.">
+<path d="M168 75 L226 35" class="fg-dim"/>
+<path d="M168 75 L226 115" class="fg-accent"/>
+<rect x="8" y="55" width="160" height="40" rx="6" class="fg-box"/>
+<rect x="226" y="12" width="166" height="46" rx="6" class="fg-box"/>
+<rect x="226" y="92" width="166" height="46" rx="6" class="fg-hot"/>
+<text x="88" y="80" text-anchor="middle" class="fg-text">Page de vente</text>
+<text x="309" y="32" text-anchor="middle" class="fg-text">Traduction</text>
+<text x="309" y="50" text-anchor="middle" class="fg-label">fidèle</text>
+<text x="309" y="112" text-anchor="middle" class="fg-strong">Localisation</text>
+<text x="309" y="130" text-anchor="middle" class="fg-label">pour vos acheteurs</text>
+</svg>
+<figcaption>Une traduction fidèle transmet le sens ; la localisation porte la vente, avec une page écrite pour vos acheteurs francophones.</figcaption>
+</figure>
 
 ### Rédaction SEO multilingue autour des mots-clés français
 

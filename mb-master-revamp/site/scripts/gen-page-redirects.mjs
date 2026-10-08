@@ -57,7 +57,6 @@ const LEGACY_EN_SLUG = { g048: "pricing" };
  */
 const RETIRED_PAGES = [
   { from: "contact-us", to: "contact", why: "/contact/ is the live contact page" },
-  { from: "about-us", to: "how-i-work", why: "no about page; how-i-work carries the same ground" },
   { from: "our-services", to: "services", why: "the services index replaced it" },
   { from: "404-2", to: "", why: "a stray WordPress 404 page, sent to the homepage" },
   {

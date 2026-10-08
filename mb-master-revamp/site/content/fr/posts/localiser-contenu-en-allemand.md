@@ -72,6 +72,22 @@ Pour l’acheteur allemand, l’accent peut passer aux matériaux, à la durée 
 
 Un changement de cette taille suffit pour que la même collection semble choisie pour lui.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="La même collection présentée de deux façons : l’art de vivre pour l’acheteur belge ou français, la durée de vie pour l’acheteur allemand.">
+<path d="M178 75 L222 35" class="fg-dim"/>
+<path d="M178 75 L222 115" class="fg-accent"/>
+<rect x="8" y="55" width="170" height="40" rx="6" class="fg-box"/>
+<rect x="222" y="12" width="170" height="46" rx="6" class="fg-box"/>
+<rect x="222" y="92" width="170" height="46" rx="6" class="fg-hot"/>
+<text x="93" y="81" text-anchor="middle" class="fg-strong">Même collection</text>
+<text x="307" y="32" text-anchor="middle" class="fg-text">Belgique, France</text>
+<text x="307" y="50" text-anchor="middle" class="fg-label">art de vivre</text>
+<text x="307" y="112" text-anchor="middle" class="fg-strong">Allemagne</text>
+<text x="307" y="130" text-anchor="middle" class="fg-label">durée de vie</text>
+</svg>
+<figcaption>Le produit reste le même, l’angle change. L’acheteur allemand est sensible aux matériaux et à la durée de vie, alors les pages allemandes commencent par là.</figcaption>
+</figure>
+
 ## Sie ou Du : choisir la forme d’adresse en allemand
 
 Choisissez la forme d’adresse qu’attendent vos acheteurs, et vous sonnez exactement aussi formel ou aussi proche qu’ils le souhaitent, ce qui les garde dans la lecture.
@@ -137,6 +153,22 @@ Les expressions toutes faites demandent le plus d’attention en traduction. Cer
 
 Employez une expression allemande de même sens, ou dites la chose directement. Un rédacteur natif sait laquelle des deux options sonne juste dans chaque cas.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Une expression française traduite mot à mot sonne comme une traduction ; rendue par une tournure allemande de même sens, elle sonne allemand.">
+<path d="M188 75 L222 35" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M188 75 L222 115" class="fg-accent"/>
+<rect x="8" y="55" width="180" height="40" rx="6" class="fg-box"/>
+<rect x="222" y="12" width="170" height="46" rx="6" class="fg-box"/>
+<rect x="222" y="92" width="170" height="46" rx="6" class="fg-hot"/>
+<text x="98" y="80" text-anchor="middle" class="fg-text">« poser un lapin »</text>
+<text x="307" y="32" text-anchor="middle" class="fg-text">Mot à mot</text>
+<text x="307" y="50" text-anchor="middle" class="fg-label">sonne traduit</text>
+<text x="307" y="112" text-anchor="middle" class="fg-strong">Même sens</text>
+<text x="307" y="130" text-anchor="middle" class="fg-label">tournure allemande</text>
+</svg>
+<figcaption>Traduisez le sens, puis trouvez la manière allemande de le dire, ou dites-le simplement.</figcaption>
+</figure>
+
 ## Créer un contenu original et ancré localement
 
 Un contenu écrit pour l’acheteur allemand gagne plus d’attention et plus de positions, parce qu’il répond aux questions que cet acheteur se pose réellement.
@@ -163,6 +195,26 @@ L’Allemagne, l’Autriche et la Suisse partagent une langue, et leurs préfér
 
 Employez des références régionales chaque fois que possible. Un article pour des lecteurs suisses peut citer une règle ou un usage local ; un article pour des lecteurs autrichiens, des destinations régionales. Une entreprise de Genève ou de Luxembourg connaît bien cette logique : une même langue se décline d’un pays à l’autre.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Une langue, trois marchés : un contenu en allemand pour l’Allemagne, l’Autriche et la Suisse, chacun avec ses recherches et ses références.">
+<path d="M200 50 L70 102" class="fg-line"/>
+<path d="M200 50 L200 102" class="fg-line"/>
+<path d="M200 50 L330 102" class="fg-line"/>
+<rect x="135" y="10" width="130" height="40" rx="6" class="fg-hot"/>
+<rect x="15" y="102" width="110" height="46" rx="6" class="fg-box"/>
+<rect x="145" y="102" width="110" height="46" rx="6" class="fg-box"/>
+<rect x="275" y="102" width="110" height="46" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-strong">Allemand</text>
+<text x="70" y="122" text-anchor="middle" class="fg-text">Allemagne</text>
+<text x="70" y="140" text-anchor="middle" class="fg-label">.de</text>
+<text x="200" y="122" text-anchor="middle" class="fg-text">Autriche</text>
+<text x="200" y="140" text-anchor="middle" class="fg-label">.at</text>
+<text x="330" y="122" text-anchor="middle" class="fg-text">Suisse</text>
+<text x="330" y="140" text-anchor="middle" class="fg-label">.ch</text>
+</svg>
+<figcaption>Une langue, trois marchés. Chaque pays cherche à sa manière, alors chaque version reçoit ses propres mots-clés et ses références locales.</figcaption>
+</figure>
+
 ### Des données et des tendances allemandes
 
 Les statistiques, les études et les événements allemands rendent le contenu actuel et local.
@@ -182,6 +234,26 @@ Les liens suivent plus facilement un contenu conçu pour le marché allemand. Le
 Une entreprise française de matériel de randonnée, par exemple, peut proposer à des blogs de voyage allemands un guide des sentiers des Alpes bavaroises rédigé par un natif. Plus votre contenu est utile et local, plus les sites allemands de référence ont de chances de le relayer.
 
 Les annuaires professionnels régionaux comptent eux aussi pour le référencement local en Allemagne : inscrivez votre entreprise dans des annuaires établis comme **Gelbe Seiten** (les pages jaunes allemandes) ou **11880.com**. La stratégie de netlinking complète, des médias aux influenceurs, figure dans nos bonnes pratiques du SEO allemand.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Les liens de blogs allemands, de médias allemands et d’annuaires allemands comme Gelbe Seiten pèsent davantage pour le SEO en Allemagne que les liens de sites internationaux.">
+<path d="M186 23 L270 68" class="fg-accent"/>
+<path d="M186 61 L268 76" class="fg-accent"/>
+<path d="M186 99 L268 84" class="fg-accent"/>
+<path d="M186 137 L270 92" class="fg-dim" stroke-dasharray="4 4"/>
+<rect x="8" y="8" width="178" height="30" rx="6" class="fg-box"/>
+<rect x="8" y="46" width="178" height="30" rx="6" class="fg-box"/>
+<rect x="8" y="84" width="178" height="30" rx="6" class="fg-box"/>
+<rect x="8" y="122" width="178" height="30" rx="6" class="fg-box"/>
+<circle cx="328" cy="80" r="60" class="fg-hot"/>
+<text x="97" y="28" text-anchor="middle" class="fg-text">Blogs allemands</text>
+<text x="97" y="66" text-anchor="middle" class="fg-text">Médias allemands</text>
+<text x="97" y="104" text-anchor="middle" class="fg-text">Gelbe Seiten</text>
+<text x="97" y="142" text-anchor="middle" class="fg-label">Sites internationaux</text>
+<text x="328" y="86" text-anchor="middle" class="fg-strong">Votre site</text>
+</svg>
+<figcaption>Pour le SEO en Allemagne, le lien d’un site allemand respecté compte davantage que celui d’une source internationale, parce qu’il montre une pertinence locale.</figcaption>
+</figure>
 
 ## Par où commencer sur le marché allemand
 

@@ -58,6 +58,26 @@ Short, direct answers win featured snippets and People Also Ask boxes, and they 
 
 **Example:** An accountancy firm answers “What expenses can UK sole traders claim?” to capture tax-season search volume.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 156" role="img" aria-label="One short, direct answer can appear in three places: the featured snippet, a People Also Ask box and AI answers that quote it.">
+<path d="M200 50 L62 100" class="fg-line"/>
+<path d="M200 50 L200 100" class="fg-line"/>
+<path d="M200 50 L338 100" class="fg-line"/>
+<rect x="115" y="10" width="170" height="40" rx="6" class="fg-hot"/>
+<rect x="4" y="100" width="116" height="46" rx="6" class="fg-box"/>
+<rect x="125" y="100" width="150" height="46" rx="6" class="fg-box"/>
+<rect x="280" y="100" width="116" height="46" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-strong">Short answer</text>
+<text x="62" y="120" text-anchor="middle" class="fg-text">Featured</text>
+<text x="62" y="138" text-anchor="middle" class="fg-label">snippet</text>
+<text x="200" y="120" text-anchor="middle" class="fg-text">People Also Ask</text>
+<text x="200" y="138" text-anchor="middle" class="fg-label">box</text>
+<text x="338" y="120" text-anchor="middle" class="fg-text">AI answers</text>
+<text x="338" y="138" text-anchor="middle" class="fg-label">quoted</text>
+</svg>
+<figcaption>Write the answer once, short and direct, and it can win the featured snippet, a People Also Ask box and a quote in AI answers.</figcaption>
+</figure>
+
 ### Problem-solving guides
 
 A reader with a specific problem is closer to buying than one browsing for general awareness. Write about the pain points your product or service removes.
@@ -90,7 +110,28 @@ Buyers trust a process they can see, and your sales team gets something useful t
 
 A case study is the piece your champion forwards to the rest of the buying committee, which makes it among the most useful content a B2B buyer reads at the decision stage.
 
+> B2B marketers rate case studies and customer stories their second most effective content type, cited by 53%, behind videos at 58%.
+>
+> Source: [Content Marketing Institute and MarketingProfs, "B2B Content Marketing Benchmarks, Budgets, and Trends: Outlook for 2025", survey of 980 B2B marketers, June to August 2024](https://contentmarketinginstitute.com/b2b-research/b2b-content-marketing-trends-research-2025)
+
 **Example:** A logistics company publishes “How we cut delivery times for a Benelux retailer” with measurable outcomes.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 120" role="img" aria-label="A case study passes from you to your champion, who forwards it to the buying committee that decides.">
+<path d="M137 44 L143 52 L137 60" class="fg-line"/>
+<path d="M279 44 L285 52 L279 60" class="fg-accent"/>
+<rect x="4" y="30" width="130" height="44" rx="6" class="fg-box"/>
+<rect x="146" y="30" width="130" height="44" rx="6" class="fg-box"/>
+<rect x="288" y="30" width="108" height="44" rx="6" class="fg-hot"/>
+<text x="69" y="57" text-anchor="middle" class="fg-text">Case study</text>
+<text x="211" y="57" text-anchor="middle" class="fg-text">Champion</text>
+<text x="342" y="57" text-anchor="middle" class="fg-strong">Committee</text>
+<text x="69" y="100" text-anchor="middle" class="fg-label">you publish</text>
+<text x="211" y="100" text-anchor="middle" class="fg-label">forwards it</text>
+<text x="342" y="100" text-anchor="middle" class="fg-label">decides</text>
+</svg>
+<figcaption>Write the case study for the whole buying committee: your champion forwards it, and the committee reads it at the decision stage.</figcaption>
+</figure>
 
 ### Employee spotlights
 
@@ -103,6 +144,10 @@ A named expert often travels further on LinkedIn than a brand-only post, and bui
 An interview borrows authority from an established name in your field, and it earns backlinks when the interviewee shares it with their audience.
 
 **Example:** A [marketing agency](/blog/360-marketing-agency/) interviews a Google Ads product manager on upcoming Performance Max changes.
+
+> Content marketers who collaborate with influencers report strong results 2.6 times as often as the benchmark, yet only 7% do it, down from 25% in 2017.
+>
+> Source: [Orbit Media Studios, "Blogging Statistics 2026: What 1,042 Content Marketers Told Us About What Works", annual survey of 1,042 content marketers, September 2026](https://www.orbitmedia.com/blog/blogging-statistics/)
 
 ### Future predictions
 
@@ -124,11 +169,31 @@ A question to your audience gives you first-party data and original findings, wh
 
 **Example:** A recruitment agency asks “What’s your biggest hiring challenge in 2027?” and publishes findings as a follow-up report.
 
+> Publishing original research studies improves a blog's likelihood of performing by 50%, yet fewer content marketers now publish them.
+>
+> Source: [Orbit Media Studios, "Blogging Statistics 2026: What 1,042 Content Marketers Told Us About What Works", annual survey of 1,042 content marketers, September 2026](https://www.orbitmedia.com/blog/blogging-statistics/)
+
 ### Quizzes
 
 Visitors hand over an email address more readily when they get something personal back, which a quiz with gated results does.
 
 **Example:** A marketing agency offers “What’s your content maturity score?” to segment leads by readiness.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 130" role="img" aria-label="A quiz as an exchange: the visitor gives an email address and receives a personal result in return.">
+<path d="M140 58 L258 58" class="fg-accent"/>
+<path d="M250 51 L258 58 L250 65" class="fg-accent"/>
+<path d="M260 82 L142 82" class="fg-line"/>
+<path d="M150 75 L142 82 L150 89" class="fg-line"/>
+<rect x="10" y="45" width="130" height="50" rx="6" class="fg-box"/>
+<rect x="260" y="45" width="130" height="50" rx="6" class="fg-hot"/>
+<text x="75" y="76" text-anchor="middle" class="fg-text">Visitor</text>
+<text x="325" y="76" text-anchor="middle" class="fg-strong">Your quiz</text>
+<text x="200" y="32" text-anchor="middle" class="fg-label">email address</text>
+<text x="200" y="118" text-anchor="middle" class="fg-label">personal result</text>
+</svg>
+<figcaption>A quiz with gated results is a fair trade: the visitor gets something personal, and you get an email address to follow up.</figcaption>
+</figure>
 
 ### Comparison posts
 

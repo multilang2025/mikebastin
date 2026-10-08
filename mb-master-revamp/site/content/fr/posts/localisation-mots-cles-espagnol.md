@@ -51,9 +51,9 @@ Allez au-delà de la [traduction directe](/fr/services/traduction-professionnell
 <text x="150" y="90" text-anchor="middle" class="fg-text">Recherche</text>
 <text x="250" y="90" text-anchor="middle" class="fg-text">Intention</text>
 <text x="350" y="90" text-anchor="middle" class="fg-text">Attribution</text>
-<text x="50" y="114" text-anchor="middle" class="fg-label">termes français</text>
+<text x="50" y="114" text-anchor="middle" class="fg-label">en français</text>
 <text x="150" y="114" text-anchor="middle" class="fg-label">outils locaux</text>
-<text x="250" y="114" text-anchor="middle" class="fg-label">contrôle des SERP</text>
+<text x="250" y="114" text-anchor="middle" class="fg-label">lire les SERP</text>
 <text x="350" y="114" text-anchor="middle" class="fg-label">une par page</text>
 </svg>
 <figcaption>La traduction d’un terme de départ sert de point d’appui. Le mot-clé que vous gardez est celui que la recherche locale et les résultats réels confirment, et chacun reçoit une seule page à positionner.</figcaption>

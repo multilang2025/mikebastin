@@ -43,6 +43,10 @@ Most faults that affect a page's traffic are visible on the page itself. These f
 
 [SEO Minion](https://chromewebstore.google.com/detail/seo-minion/giihipjfimkajhlcilipnjeohabimjhi?hl=en) covers most on-page analysis for free. It shows meta tags, headings and other on-page elements, broken links, and nofollow, sponsored and UGC links, previews the search result, and checks hreflang, the check multilingual sites need most often.
 
+> 67% of the 374,756 domains using hreflang that Ahrefs studied in 2023 had at least one hreflang issue.
+>
+> Source: [Ahrefs, "Over 67% of Domains Using Hreflang Have Issues (Study of 374,756 Domains)", August 2023](https://ahrefs.com/blog/hreflang-study/)
+
 ### Ahrefs SEO Toolbar
 
 The [Ahrefs SEO Toolbar](https://ahrefs.com/seo-toolbar) flags missing or incorrect elements, robots.txt and meta robots settings, and Open Graph tags. The free version is useful on its own.
@@ -55,9 +59,29 @@ The [Detailed SEO Extension](https://chromewebstore.google.com/detail/detailed-s
 
 The [Web Developer extension](https://chromewebstore.google.com/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm?hl=en-US) answers one question that matters to rankings: what does search see from the HTML alone, before any JavaScript runs? It also outlines headings, links and images and validates HTML and CSS.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="One page seen two ways: with JavaScript, as visitors see it, and from the HTML alone, as search sees it before any script runs.">
+<path d="M150 75 L220 35" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M150 75 L220 115" class="fg-accent"/>
+<rect x="15" y="55" width="135" height="40" rx="6" class="fg-box"/>
+<rect x="220" y="12" width="170" height="46" rx="6" class="fg-box"/>
+<rect x="220" y="92" width="170" height="46" rx="6" class="fg-hot"/>
+<text x="82.5" y="80" text-anchor="middle" class="fg-text">Your page</text>
+<text x="305" y="32" text-anchor="middle" class="fg-text">With JavaScript</text>
+<text x="305" y="50" text-anchor="middle" class="fg-label">what visitors see</text>
+<text x="305" y="112" text-anchor="middle" class="fg-strong">HTML alone</text>
+<text x="305" y="130" text-anchor="middle" class="fg-label">what search sees</text>
+</svg>
+<figcaption>Web Developer switches JavaScript off, so you see the page as search reads it from the HTML alone.</figcaption>
+</figure>
+
 ### Redirect Path
 
 [Redirect Path](https://chromewebstore.google.com/detail/redirect-path/aomidfkchockcldhbkggjokdkkebmdll?hl=en) shows every hop a URL takes, with the HTTP status code at each step. Spot chains and loops at a glance and cut them to a single hop, which keeps the page fast and passes link value in full. Our [technical SEO audit checklist](/blog/technical-seo-audit-checklist/) explains what to do with what it finds.
+
+> By default, Google's crawlers follow up to 10 redirect hops.
+>
+> Source: [Google Search Central, "How HTTP status codes affect Google's crawlers", last updated 4 February 2026](https://developers.google.com/search/docs/crawling-indexing/http-network-errors)
 
 ## Size up a market's keywords and competitors
 
@@ -79,6 +103,26 @@ A broader market research tool, Similarweb shows you how a competitor gets its v
 
 [Wappalyzer](https://chromewebstore.google.com/detail/wappalyzer-technology-pro/gppongmhjkpfnbhagpmjfkannfbllamg) identifies the technology behind a site: CMS, ecommerce platform, analytics tools, JavaScript frameworks and server software. Handy for competitor research and audits.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 170" role="img" aria-label="A competitor’s site read from four angles: keywords with Keywords Everywhere, authority with MozBar, traffic with Similarweb and technology with Wappalyzer.">
+<path d="M200 85 L80 26" class="fg-line"/>
+<path d="M200 85 L320 26" class="fg-line"/>
+<path d="M200 85 L80 144" class="fg-line"/>
+<path d="M200 85 L320 144" class="fg-line"/>
+<rect x="5" y="8" width="150" height="36" rx="6" class="fg-box"/>
+<rect x="245" y="8" width="150" height="36" rx="6" class="fg-box"/>
+<rect x="5" y="126" width="150" height="36" rx="6" class="fg-box"/>
+<rect x="245" y="126" width="150" height="36" rx="6" class="fg-box"/>
+<rect x="135" y="63" width="130" height="44" rx="6" class="fg-hot"/>
+<text x="80" y="31" text-anchor="middle" class="fg-text">Keywords</text>
+<text x="320" y="31" text-anchor="middle" class="fg-text">Authority</text>
+<text x="80" y="149" text-anchor="middle" class="fg-text">Traffic</text>
+<text x="320" y="149" text-anchor="middle" class="fg-text">Technology</text>
+<text x="200" y="91" text-anchor="middle" class="fg-strong">Competitor</text>
+</svg>
+<figcaption>Four extensions, four views of the same competitor. Together they show what a market is worth before you commit the budget.</figcaption>
+</figure>
+
 ## Check that every tracking tag fires
 
 Check that every tag fires, so each market shows its real strength and the next budget decision follows the right number.
@@ -86,6 +130,22 @@ Check that every tag fires, so each market shows its real strength and the next 
 ### Tag Assistant
 
 Google's [Tag Assistant](https://chromewebstore.google.com/detail/tag-assistant/kejbdjndbnbjgmefkgdddjlbokphdefk?hl=en) checks that Google Analytics, Google Tag Manager and Google Ads conversion tags fire correctly, with tagassistant.google.com for in-page debugging. It replaces the older Legacy and Companion extensions, so install this one. Checking the tags is the usual way to find SEO results that are stronger than the reports show.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 124" role="img" aria-label="Three steps: tags fire correctly, each market shows its real strength, and the next budget decision follows the right number.">
+<line x1="70" y1="36" x2="330" y2="36" class="fg-rule"/>
+<circle cx="70" cy="36" r="24" class="fg-box"/>
+<circle cx="200" cy="36" r="24" class="fg-box"/>
+<circle cx="330" cy="36" r="24" class="fg-hot"/>
+<text x="70" y="90" text-anchor="middle" class="fg-text">Tags</text>
+<text x="70" y="110" text-anchor="middle" class="fg-label">fire correctly</text>
+<text x="200" y="90" text-anchor="middle" class="fg-text">Each market</text>
+<text x="200" y="110" text-anchor="middle" class="fg-label">real strength</text>
+<text x="330" y="90" text-anchor="middle" class="fg-text">Budget</text>
+<text x="330" y="110" text-anchor="middle" class="fg-label">right number</text>
+</svg>
+<figcaption>Tag Assistant confirms the tags fire, so each market’s figures show its real strength when the budget is set.</figcaption>
+</figure>
 
 ## Keep the set small and crawl for site-wide faults
 

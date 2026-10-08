@@ -56,6 +56,20 @@ McKinsey's global survey and Deloitte's enterprise report point to the same gap 
 
 AI is now an operating cost. The businesses pulling ahead are building it into workflows, customer service and [marketing strategy](/blog/how-ai-is-revolutionising-seo-strategies/).
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 120" role="img" aria-label="Generative AI moving from an experiment under test to an operating cost built into daily workflows.">
+<path d="M170 60 L210 60" class="fg-accent"/>
+<path d="M200 52 L210 60 L200 68" class="fg-accent"/>
+<rect x="20" y="35" width="150" height="50" rx="6" class="fg-box"/>
+<rect x="210" y="35" width="170" height="50" rx="6" class="fg-hot"/>
+<text x="95" y="57" text-anchor="middle" class="fg-text">Experiment</text>
+<text x="95" y="75" text-anchor="middle" class="fg-label">under test</text>
+<text x="295" y="57" text-anchor="middle" class="fg-strong">Operating cost</text>
+<text x="295" y="75" text-anchor="middle" class="fg-label">in workflows</text>
+</svg>
+<figcaption>AI now sits in the budget as a running cost, and the businesses pulling ahead build it into workflows, customer service and marketing.</figcaption>
+</figure>
+
 ### What to do now
 
 -   Allocate budget for [AI integration](/services/ai-consulting/) across customer service, content production and data analysis
@@ -72,6 +86,26 @@ AI agents could answer your customers in their own language at any hour. Most co
 > Source: [McKinsey, The state of AI in 2025: agents, innovation and transformation, November 2025](https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai)
 
 Across borders, agents open options in multilingual customer service, compliance checking and supply chains, while most regulators are still writing the governance and privacy rules for them.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="AI agents at the centre of three cross-border uses: multilingual customer service, compliance checks and supply chains.">
+<path d="M200 50 L70 102" class="fg-line"/>
+<path d="M200 50 L200 102" class="fg-line"/>
+<path d="M200 50 L330 102" class="fg-line"/>
+<rect x="120" y="10" width="160" height="40" rx="6" class="fg-hot"/>
+<rect x="10" y="102" width="120" height="46" rx="6" class="fg-box"/>
+<rect x="140" y="102" width="120" height="46" rx="6" class="fg-box"/>
+<rect x="270" y="102" width="120" height="46" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-strong">AI agents</text>
+<text x="70" y="122" text-anchor="middle" class="fg-text">Service</text>
+<text x="70" y="140" text-anchor="middle" class="fg-label">multilingual</text>
+<text x="200" y="122" text-anchor="middle" class="fg-text">Compliance</text>
+<text x="200" y="140" text-anchor="middle" class="fg-label">checks</text>
+<text x="330" y="122" text-anchor="middle" class="fg-text">Supply</text>
+<text x="330" y="140" text-anchor="middle" class="fg-label">chains</text>
+</svg>
+<figcaption>Agents open options in service, compliance and supply chains, and bounded, repeatable tasks are the place to start.</figcaption>
+</figure>
 
 ### What to do now
 
@@ -162,6 +196,18 @@ A durable ceasefire would open one of the largest reconstruction programmes in m
 Sustainability is now a condition of selling into the EU, and meeting each deadline keeps goods moving across the border. The EU scaled back some rules in 2026, and the obligations that remain have firm dates.
 
 The Corporate Sustainability Reporting Directive (CSRD) was narrowed by the Sustainability Omnibus Directive, published in the Official Journal on 26 February 2026, and now applies to much larger companies than first planned.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="The CSRD scope narrowing in three steps, from the companies first planned, through the Omnibus thresholds, to the largest groups.">
+<rect x="20" y="10" width="360" height="40" rx="6" class="fg-box"/>
+<rect x="60" y="60" width="280" height="40" rx="6" class="fg-box"/>
+<rect x="90" y="110" width="220" height="40" rx="6" class="fg-hot"/>
+<text x="200" y="36" text-anchor="middle" class="fg-text">Scope first planned</text>
+<text x="200" y="86" text-anchor="middle" class="fg-text">Omnibus thresholds</text>
+<text x="200" y="136" text-anchor="middle" class="fg-strong">Largest groups</text>
+</svg>
+<figcaption>The Omnibus Directive narrowed CSRD to the largest groups, so the first check is whether you, or your large customers, are still in scope.</figcaption>
+</figure>
 
 > CSRD now applies to EU undertakings or groups with more than 1,000 employees and net annual turnover above €450 million, replacing the earlier thresholds of 250 employees, €25 million balance sheet or €50 million turnover.
 >

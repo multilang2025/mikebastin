@@ -51,6 +51,22 @@ Pour un cabinet d’avocats, l’EEAT décide si Google vous montre à un futur 
 
 Alors vous optimisez les biographies d’auteurs. Vous affinez le ton. Vous ajoutez des références. Vous consolidez la cohérence des entités. Vous murmurez quelques prières à l’intention des évaluateurs de qualité.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 130" role="img" aria-label="Le travail EEAT sur le site d’un cabinet d’avocats en quatre volets : biographies d’auteurs, ton, références et cohérence des entités.">
+<rect x="10" y="10" width="154" height="46" rx="6" class="fg-box"/>
+<rect x="236" y="10" width="154" height="46" rx="6" class="fg-box"/>
+<rect x="10" y="74" width="154" height="46" rx="6" class="fg-box"/>
+<rect x="236" y="74" width="154" height="46" rx="6" class="fg-box"/>
+<circle cx="200" cy="65" r="32" class="fg-hot"/>
+<text x="87" y="38" text-anchor="middle" class="fg-text">Biographies</text>
+<text x="313" y="38" text-anchor="middle" class="fg-text">Ton</text>
+<text x="87" y="102" text-anchor="middle" class="fg-text">Références</text>
+<text x="313" y="102" text-anchor="middle" class="fg-text">Entités</text>
+<text x="200" y="71" text-anchor="middle" class="fg-strong">EEAT</text>
+</svg>
+<figcaption>Le rituel quotidien d’un SEO sérieux : quatre signaux, et chacun compte pour la visibilité du cabinet dans Google.</figcaption>
+</figure>
+
 Tel est le rituel quotidien d’un SEO sérieux. Calme. Concentré. Légèrement paranoïaque.
 
 ## AEAT, le juge espagnol
@@ -62,6 +78,23 @@ Les deux envoient des messages. L’un arrive dans Search Console. L’autre arr
 ## La vie d’un SEO international en Espagne
 
 Vous travaillez en français ou en anglais. Vos clients espagnols travaillent en espagnol. Vos projets mêlent langage juridique, références fiscales et sigles administratifs, et vous traduisez des contextes mentaux toute la journée.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Vos projets mêlent trois vocabulaires : langage juridique, références fiscales et sigles administratifs.">
+<path d="M148 80 L176 28" class="fg-line"/>
+<path d="M148 80 L176 80" class="fg-line"/>
+<path d="M148 80 L176 132" class="fg-accent"/>
+<rect x="8" y="60" width="140" height="40" rx="6" class="fg-box"/>
+<rect x="176" y="8" width="216" height="40" rx="6" class="fg-box"/>
+<rect x="176" y="60" width="216" height="40" rx="6" class="fg-box"/>
+<rect x="176" y="112" width="216" height="40" rx="6" class="fg-hot"/>
+<text x="78" y="86" text-anchor="middle" class="fg-strong">Un projet</text>
+<text x="284" y="33" text-anchor="middle" class="fg-text">Langage juridique</text>
+<text x="284" y="85" text-anchor="middle" class="fg-text">Références fiscales</text>
+<text x="284" y="137" text-anchor="middle" class="fg-text">Sigles administratifs</text>
+</svg>
+<figcaption>Trois vocabulaires se partagent chaque projet, et c’est dans les sigles que les lettres commencent à se mélanger.</figcaption>
+</figure>
 
 À force, les sigles se mélangent. EEAT. AEAT. EAT. AET. ETA. Votre cerveau lance un test A/B incontrôlé sur votre santé mentale.
 
@@ -76,6 +109,27 @@ Une diapositive de présentation : « Optimiser l’AEAT pour la crédibilité
 Un projet de proposition : « Audit AEAT complet inclus. » Le service financier, tout à coup, s’y intéresse de très près.
 
 Les soirées tardives augmentent les risques. Le café abaisse les défenses. Et soudain, votre document SEO se lit comme un rapport de conformité fiscale.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 158" role="img" aria-label="Une coquille, trois lecteurs : dans un message Slack, elle atteint un collègue, sur une diapositive le client, et dans un projet de proposition le service financier.">
+<path d="M180 29 L216 29" class="fg-dim"/>
+<path d="M180 79 L216 79" class="fg-dim"/>
+<path d="M180 129 L216 129" class="fg-accent"/>
+<rect x="8" y="8" width="172" height="42" rx="6" class="fg-box"/>
+<rect x="8" y="58" width="172" height="42" rx="6" class="fg-box"/>
+<rect x="8" y="108" width="172" height="42" rx="6" class="fg-box"/>
+<rect x="216" y="8" width="176" height="42" rx="6" class="fg-box"/>
+<rect x="216" y="58" width="176" height="42" rx="6" class="fg-box"/>
+<rect x="216" y="108" width="176" height="42" rx="6" class="fg-hot"/>
+<text x="94" y="35" text-anchor="middle" class="fg-text">Message Slack</text>
+<text x="94" y="85" text-anchor="middle" class="fg-text">Diapositive</text>
+<text x="94" y="135" text-anchor="middle" class="fg-text">Proposition</text>
+<text x="304" y="35" text-anchor="middle" class="fg-text">Collègue</text>
+<text x="304" y="85" text-anchor="middle" class="fg-text">Client</text>
+<text x="304" y="135" text-anchor="middle" class="fg-text">Service financier</text>
+</svg>
+<figcaption>La même coquille va plus loin à chaque document, jusqu’à éveiller l’intérêt du service financier.</figcaption>
+</figure>
 
 ## La morale de l’histoire : la précision paie
 

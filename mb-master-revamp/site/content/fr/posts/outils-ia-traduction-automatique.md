@@ -65,7 +65,7 @@ La relecture corrige les écarts de grammaire, de ton et de terminologie que l�
 Les circuits qui conservent à la fois l’économie et la qualité associent la rapidité de l’IA au jugement d’un linguiste. L’IA traduit le gros du volume, puis les traducteurs affinent et localisent pour chaque marché.
 
 <figure class="post-fig">
-<svg viewBox="0 0 400 130" role="img" aria-label="Un circuit de post-édition en quatre étapes : préparer, traduire par machine, post-éditer par un linguiste, puis relire et publier.">
+<svg viewBox="0 0 400 130" role="img" aria-label="Un circuit de post-édition en quatre étapes : préparer, traduire par machine, post-éditer par un linguiste, puis relire et publier.">
 <line x1="50" y1="32" x2="350" y2="32" class="fg-rule"/>
 <circle cx="50" cy="32" r="26" class="fg-box"/>
 <circle cx="150" cy="32" r="26" class="fg-box"/>

@@ -45,6 +45,22 @@ Each market needs its own research, covering:
 
 Google Keyword Planner, Semrush and Ahrefs all support it, but native-level knowledge is what separates real queries from assumptions carried over from English. Precise local wording also helps AI models associate your brand with the right topics in each language.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="An English keyword list translated into another language gives assumed queries; research in the market finds the queries buyers really type.">
+<path d="M160 75 L225 35" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M160 75 L225 115" class="fg-accent"/>
+<rect x="10" y="55" width="150" height="40" rx="6" class="fg-box"/>
+<rect x="225" y="12" width="165" height="46" rx="6" class="fg-box"/>
+<rect x="225" y="92" width="165" height="46" rx="6" class="fg-hot"/>
+<text x="85" y="81" text-anchor="middle" class="fg-text">English list</text>
+<text x="307" y="32" text-anchor="middle" class="fg-text">Translated</text>
+<text x="307" y="50" text-anchor="middle" class="fg-label">assumed queries</text>
+<text x="307" y="112" text-anchor="middle" class="fg-strong">Local research</text>
+<text x="307" y="130" text-anchor="middle" class="fg-label">real queries</text>
+</svg>
+<figcaption>Research in each market finds the words its buyers type, and a native speaker confirms them.</figcaption>
+</figure>
+
 ## Write meta tags for each language
 
 Your title and description are the first sales copy a searcher in each market reads, often before they know your name. Every language version needs its own:
@@ -78,7 +94,32 @@ Correct tags send a buyer in France to your French page. Hreflang tags tell sear
 - Make every tag bidirectional: if page A lists page B as an alternate, page B must list page A.
 - Include an x-default for users outside your defined languages and regions.
 
+> In a 2023 study of 374,756 domains using hreflang, 67% had at least one hreflang issue. The most common, pages missing an x-default, affected 56.3% of the domains.
+>
+> Source: [Ahrefs, "Over 67% of Domains Using Hreflang Have Issues (Study of 374,756 Domains)", Patrick Stox, 10 August 2023](https://ahrefs.com/blog/hreflang-study/)
+
 Hreflang is among the most common [technical SEO issues](/blog/technical-seo-audit-checklist/) to check on multilingual sites, so audit the tags regularly.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 166" role="img" aria-label="Hreflang between two pages: page A in English lists page B in French, page B lists page A, and an x-default page serves all other users.">
+<path d="M200 110 L80 70" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M200 110 L320 70" class="fg-dim" stroke-dasharray="4 4"/>
+<line x1="150" y1="38" x2="248" y2="38" class="fg-accent"/>
+<path d="M241 33 L248 38 L241 43" class="fg-accent"/>
+<line x1="152" y1="52" x2="250" y2="52" class="fg-accent"/>
+<path d="M159 47 L152 52 L159 57" class="fg-accent"/>
+<rect x="10" y="20" width="140" height="50" rx="6" class="fg-box"/>
+<rect x="250" y="20" width="140" height="50" rx="6" class="fg-box"/>
+<rect x="130" y="110" width="140" height="46" rx="6" class="fg-fill"/>
+<text x="80" y="42" text-anchor="middle" class="fg-strong">Page A</text>
+<text x="80" y="60" text-anchor="middle" class="fg-label">in English</text>
+<text x="320" y="42" text-anchor="middle" class="fg-strong">Page B</text>
+<text x="320" y="60" text-anchor="middle" class="fg-label">in French</text>
+<text x="200" y="130" text-anchor="middle" class="fg-text">x-default</text>
+<text x="200" y="147" text-anchor="middle" class="fg-label">all other users</text>
+</svg>
+<figcaption>Every tag works in both directions, and the x-default catches visitors from every other language and region.</figcaption>
+</figure>
 
 <aside class="post-cta">
 <p><strong>Want every market to land on the right version of your site?</strong> Our <a href="/services/multilingual-seo/">multilingual SEO programmes</a> validate the language signals for each market. <a href="/contact/">Book the discovery call</a>.</p>
@@ -96,6 +137,26 @@ Quality outweighs quantity, so earn every link: that keeps you clear of the pena
 
 Authoritative local links also make it more likely that AI models treat your content as a source worth citing in that market.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Three ways to earn regional links: localized guest posts, partnerships with local businesses and targeted PR.">
+<path d="M200 50 L70 102" class="fg-line"/>
+<path d="M200 50 L200 102" class="fg-line"/>
+<path d="M200 50 L330 102" class="fg-line"/>
+<rect x="115" y="10" width="170" height="40" rx="6" class="fg-hot"/>
+<rect x="8" y="102" width="124" height="46" rx="6" class="fg-box"/>
+<rect x="138" y="102" width="124" height="46" rx="6" class="fg-box"/>
+<rect x="268" y="102" width="124" height="46" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-strong">Regional links</text>
+<text x="70" y="122" text-anchor="middle" class="fg-text">Guest posts</text>
+<text x="70" y="140" text-anchor="middle" class="fg-label">localized</text>
+<text x="200" y="122" text-anchor="middle" class="fg-text">Partnerships</text>
+<text x="200" y="140" text-anchor="middle" class="fg-label">local firms</text>
+<text x="330" y="122" text-anchor="middle" class="fg-text">Targeted PR</text>
+<text x="330" y="140" text-anchor="middle" class="fg-label">local press</text>
+</svg>
+<figcaption>Each route earns a link from the country you sell to, where search relevance is geographic as well as topical.</figcaption>
+</figure>
+
 ## Make each market clear with structured data
 
 An AI system quotes the page whose market it can identify with confidence. Structured data now shapes how AI systems interpret your content as well as how it ranks. Every language version should carry accurate schema markup:
@@ -110,6 +171,10 @@ Entity clarity matters even more on multilingual sites. AI models need unambiguo
 ## Get cited in AI answers with GEO
 
 A growing share of your buyers now compare suppliers inside Google’s AI Overviews and AI Mode, ChatGPT, Perplexity and Gemini, which all draw on structured, authoritative, entity-rich content. Content written for AI answers as well as classic results reaches that part of the decision.
+
+> In March 2025, 18% of the Google searches made by 900 US adults produced an AI summary. Users who saw one clicked a traditional search result link in 8% of visits, against 15% for those who did not.
+>
+> Source: [Pew Research, "Google users are less likely to click on links when an AI summary appears in the results", browsing data of 900 US adults, 22 July 2025](https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/)
 
 GEO makes content citable by AI as well as indexable. For multilingual sites it asks for the same four things in every language you sell in:
 

@@ -63,9 +63,33 @@ These decide whether the brand lands, so the budget goes here.
 
 **Tone of voice.** Directness that suits Dutch needs softening for French. Warmth that suits Spanish needs toning down for German. Voice is the most expensive part of [multilingual brand work](/blog/best-practices-for-multilingual-seo/), and the part most worth budgeting for properly.
 
+> 66% of business users said they would pay up to 30% more for a localized product, in CSA Research's survey of 1,116 B2B buyers of technology products.
+>
+> Source: [CSA Research, "Do B2B Buyers Value Localized Experiences?", "Can't Read, Won't Buy" survey of 1,116 B2B respondents, 2 March 2022](https://csa-research.com/Blogs-Events/Blog/do-b2b-buyers-value-localization)
+
 **Cultural references and humour.** A British-flavoured tagline needs a Spanish equivalent for Madrid, and French wordplay needs a Flemish one for Antwerp. Brief a writer in each market on the brand, and each version keeps its spark.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="A British-flavoured tagline carried into Spanish word for word still reads British; rewritten as a local version for Madrid, it keeps its spark.">
+<path d="M150 75 L230 35" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M150 75 L230 115" class="fg-accent"/>
+<rect x="15" y="55" width="135" height="40" rx="6" class="fg-box"/>
+<rect x="230" y="12" width="155" height="46" rx="6" class="fg-box"/>
+<rect x="230" y="92" width="155" height="46" rx="6" class="fg-hot"/>
+<text x="82.5" y="80" text-anchor="middle" class="fg-text">UK tagline</text>
+<text x="307.5" y="32" text-anchor="middle" class="fg-text">Word for word</text>
+<text x="307.5" y="50" text-anchor="middle" class="fg-label">reads British</text>
+<text x="307.5" y="112" text-anchor="middle" class="fg-strong">Local version</text>
+<text x="307.5" y="130" text-anchor="middle" class="fg-label">written for Madrid</text>
+</svg>
+<figcaption>A writer in each market, briefed on the brand, finds the local equivalent, and the tagline keeps its spark in Madrid.</figcaption>
+</figure>
+
 **Trust signals.** Reviews from local clients, local phone numbers, local addresses, payment methods buyers recognise. [Cultural differences in multilingual websites](/services/multilingual-content/) show up most sharply in this layer.
+
+> 73% of consumers want product reviews in their own language, if nothing else, according to a 2020 survey in 29 countries.
+>
+> Source: [CSA Research, "Can't Read, Won't Buy", survey of 8,709 consumers in 29 countries, 7 July 2020](https://csa-research.com/Blogs-Events/CSA-in-the-Media/Press-Releases/Consumers-Prefer-their-Own-Language)
 
 ## A pattern we keep seeing in global launches
 
@@ -76,6 +100,22 @@ A few weeks later someone calls us and asks why “the SEO is not working”.
 The SEO is fine. What the brand needs is to land: translation moved the words, and the brand has to move with them.
 
 Fixing it takes a transcreation pass plus on-page tweaks per market. Eight to twelve weeks for the full set, depending on language count.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 124" role="img" aria-label="Three passes in order: translation moves the words, transcreation moves the brand, then on-page tweaks adjust each market.">
+<line x1="70" y1="36" x2="330" y2="36" class="fg-rule"/>
+<circle cx="70" cy="36" r="24" class="fg-box"/>
+<circle cx="200" cy="36" r="24" class="fg-box"/>
+<circle cx="330" cy="36" r="24" class="fg-hot"/>
+<text x="70" y="90" text-anchor="middle" class="fg-text">Translation</text>
+<text x="70" y="110" text-anchor="middle" class="fg-label">moves the words</text>
+<text x="200" y="90" text-anchor="middle" class="fg-text">Transcreation</text>
+<text x="200" y="110" text-anchor="middle" class="fg-label">moves the brand</text>
+<text x="330" y="90" text-anchor="middle" class="fg-text">Page tweaks</text>
+<text x="330" y="110" text-anchor="middle" class="fg-label">per market</text>
+</svg>
+<figcaption>Translation moves the words. A transcreation pass and on-page tweaks per market move the brand with them.</figcaption>
+</figure>
 
 <aside class="post-cta">
 <p><strong>Recognise the pattern in your own markets?</strong> Our <a href="/services/multilingual-seo/">multilingual SEO programmes</a> brief native writers per market, so each language is written for its own buyers and earns enquiries as well as traffic. <a href="/contact/">Book the discovery call</a>.</p>
@@ -93,6 +133,29 @@ Every item below is cheaper to fix before launch than after. Answer these before
 -   Have you checked the page on a Spanish, French, German keyboard layout?
 
 Tick all six and the brand has arrived, as well as crossed the border.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 176" role="img" aria-label="Six checks before launch, headline, local contact, testimonials, payments, meta title and keyboard layouts, all leading to a market ready for launch.">
+<path d="M70 84 L160 124" class="fg-line"/>
+<path d="M200 84 L200 124" class="fg-line"/>
+<path d="M330 84 L240 124" class="fg-line"/>
+<rect x="8" y="8" width="124" height="34" rx="6" class="fg-box"/>
+<rect x="138" y="8" width="124" height="34" rx="6" class="fg-box"/>
+<rect x="268" y="8" width="124" height="34" rx="6" class="fg-box"/>
+<rect x="8" y="50" width="124" height="34" rx="6" class="fg-box"/>
+<rect x="138" y="50" width="124" height="34" rx="6" class="fg-box"/>
+<rect x="268" y="50" width="124" height="34" rx="6" class="fg-box"/>
+<rect x="100" y="124" width="200" height="42" rx="6" class="fg-hot"/>
+<text x="70" y="30" text-anchor="middle" class="fg-label">Headline</text>
+<text x="200" y="30" text-anchor="middle" class="fg-label">Local contact</text>
+<text x="330" y="30" text-anchor="middle" class="fg-label">Testimonials</text>
+<text x="70" y="72" text-anchor="middle" class="fg-label">Payments</text>
+<text x="200" y="72" text-anchor="middle" class="fg-label">Meta title</text>
+<text x="330" y="72" text-anchor="middle" class="fg-label">Keyboards</text>
+<text x="200" y="151" text-anchor="middle" class="fg-strong">Ready to launch</text>
+</svg>
+<figcaption>Each check is cheaper before launch than after. With all six ticked, the brand arrives in the market ready to sell.</figcaption>
+</figure>
 
 ## A second pair of eyes on your global brand work
 

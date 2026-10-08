@@ -102,9 +102,9 @@ La façon d’utiliser les outils décide si chaque nouveau marché coûte moins
 <text x="150" y="90" text-anchor="middle" class="fg-text">Traduire</text>
 <text x="250" y="90" text-anchor="middle" class="fg-text">Automatiser</text>
 <text x="350" y="90" text-anchor="middle" class="fg-text">Relire</text>
-<text x="50" y="114" text-anchor="middle" class="fg-label">fausses chaînes</text>
+<text x="50" y="114" text-anchor="middle" class="fg-label">faux textes</text>
 <text x="150" y="114" text-anchor="middle" class="fg-label">contrôles</text>
-<text x="250" y="114" text-anchor="middle" class="fg-label">chaque langue</text>
+<text x="250" y="114" text-anchor="middle" class="fg-label">par langue</text>
 <text x="350" y="114" text-anchor="middle" class="fg-label">locuteur natif</text>
 </svg>
 <figcaption>Les outils couvrent les trois premières étapes, où les corrections sont les plus rapides et les moins chères. Un locuteur natif se charge de la dernière, pour les arbitrages linguistiques et culturels.</figcaption>

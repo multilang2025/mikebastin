@@ -43,14 +43,14 @@ Serve the page type the searcher wants and they stay to read it. Every search ca
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 200" role="img" aria-label="Search intent mapped to the funnel: informational at the wide top, commercial in the middle, transactional at the narrow bottom, with navigational running alongside.">
-<rect x="20" y="10" width="280" height="44" rx="6" class="fg-box"/>
-<rect x="60" y="68" width="200" height="44" rx="6" class="fg-box"/>
-<rect x="100" y="126" width="120" height="44" rx="6" class="fg-hot"/>
+<rect x="10" y="10" width="300" height="44" rx="6" class="fg-box"/>
+<rect x="45" y="68" width="230" height="44" rx="6" class="fg-box"/>
+<rect x="80" y="126" width="160" height="44" rx="6" class="fg-hot"/>
 <text x="160" y="38" text-anchor="middle" class="fg-text">Informational</text>
 <text x="160" y="96" text-anchor="middle" class="fg-text">Commercial</text>
 <text x="160" y="154" text-anchor="middle" class="fg-text">Transactional</text>
 <line x1="340" y1="14" x2="340" y2="166" class="fg-dim"/>
-<text x="362" y="90" text-anchor="middle" transform="rotate(90 362 90)" class="fg-label">Navigational</text>
+<text x="362" y="90" text-anchor="middle" writing-mode="vertical-rl" class="fg-label">Navigational</text>
 <text x="200" y="192" text-anchor="middle" class="fg-label">guides, comparisons, landing pages</text>
 </svg>
 <figcaption>Most searches sit at the wide top of the funnel. Map each stage to its own page type, and let navigational queries lead straight to the brand at any point.</figcaption>

@@ -24,7 +24,29 @@ Below is the toolkit we actually keep installed in 2026, after working between E
 
 Two shifts reshaped the old toolkit, and both change where your time goes. First, Chrome retired Manifest V2 during 2024 and 2025. Extensions had to migrate to Manifest V3 to keep working: several translation extensions rebuilt themselves around service workers, and others left the Chrome Web Store.
 
+> In May 2024, as Google announced the start of the Manifest V2 phase-out, over 85% of actively maintained extensions in the Chrome Web Store were running Manifest V3.
+>
+> Source: [Google, "Manifest V2 phase-out begins", The Keyword, 30 May 2024](https://blog.google/chromium/manifest-v2-phase-out-begins/)
+
 The second shift is bigger. Large language models moved into the browser through dedicated extensions and sidebar panels. For everyday lookup, quick rephrasing and post-editing of machine output, one LLM extension now does what three or four translation extensions used to do.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Everyday lookup, quick rephrasing and post-editing of machine output, jobs that once took three or four translation extensions, now handled by one LLM extension.">
+<path d="M160 29 L240 70" class="fg-accent"/>
+<path d="M160 80 L240 80" class="fg-accent"/>
+<path d="M160 131 L240 90" class="fg-accent"/>
+<rect x="10" y="12" width="150" height="34" rx="6" class="fg-box"/>
+<rect x="10" y="63" width="150" height="34" rx="6" class="fg-box"/>
+<rect x="10" y="114" width="150" height="34" rx="6" class="fg-box"/>
+<rect x="240" y="50" width="150" height="60" rx="6" class="fg-hot"/>
+<text x="85" y="35" text-anchor="middle" class="fg-text">Lookup</text>
+<text x="85" y="86" text-anchor="middle" class="fg-text">Rephrasing</text>
+<text x="85" y="137" text-anchor="middle" class="fg-text">Post-editing</text>
+<text x="315" y="77" text-anchor="middle" class="fg-strong">LLM extension</text>
+<text x="315" y="97" text-anchor="middle" class="fg-label">one tool</text>
+</svg>
+<figcaption>One LLM extension in the browser now covers the lookup, rephrasing and post-editing that used to take three or four separate tools.</figcaption>
+</figure>
 
 > The global language services and technology industry generated $49.68 billion in 2023, a 4.5% drop from $52.01 billion in 2022, driven by enterprise adoption of neural machine translation and large language models.
 >
@@ -64,6 +86,22 @@ The errors that matter most sit in tone, register and ambiguity more than in sin
 
 We can paste a paragraph plus three lines of surrounding context and a one-line instruction such as "translate to formal French for a Belgian law firm audience, keep the second-person plural form". An LLM extension takes that instruction as written; a standalone engine works from the text alone.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="The same source text sent two ways: a standalone engine works from the text alone, while an LLM extension also follows a one-line brief on tone and audience.">
+<path d="M150 75 L230 35" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M150 75 L230 115" class="fg-accent"/>
+<rect x="15" y="55" width="135" height="40" rx="6" class="fg-box"/>
+<rect x="230" y="12" width="155" height="46" rx="6" class="fg-box"/>
+<rect x="230" y="92" width="155" height="46" rx="6" class="fg-hot"/>
+<text x="82" y="81" text-anchor="middle" class="fg-strong">Source text</text>
+<text x="307" y="32" text-anchor="middle" class="fg-text">Engine</text>
+<text x="307" y="50" text-anchor="middle" class="fg-label">text alone</text>
+<text x="307" y="112" text-anchor="middle" class="fg-strong">LLM extension</text>
+<text x="307" y="130" text-anchor="middle" class="fg-label">follows the brief</text>
+</svg>
+<figcaption>Tone, register and audience travel in the brief, and an LLM extension reads that brief alongside the text.</figcaption>
+</figure>
+
 We use Claude in Chrome, generally available since 26 August 2026 on paid Claude plans, for client work where tone and register matter, and ChatGPT for quick rewrites and brainstorming. We proof every output from both by hand. See our deeper view on [how to use AI and machine translation tools](/blog/how-to-use-ai-and-machine-translation-tools/) for the workflow we run them through.
 
 ### DeepL Write
@@ -95,6 +133,26 @@ A multilingual grammar and style checker for French, Spanish, German, Dutch and 
 If your translation work touches websites, two more extensions let you quote with a full view of the site and confirm the source is sound before you localize it.
 
 **Wappalyzer** tells you what CMS, plugins and translation setup a site runs before you open the source code. When a prospect asks about translating their WordPress site, we want to know in two seconds whether it runs WPML, Polylang, TranslatePress or a custom system. Our [website localization service](/services/website-localisation/) page explains what each one means in practice.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Wappalyzer shows in seconds whether a WordPress site runs WPML, Polylang, TranslatePress or a custom translation system.">
+<path d="M140 80 L240 23" class="fg-line"/>
+<path d="M140 80 L240 61" class="fg-line"/>
+<path d="M140 80 L240 99" class="fg-line"/>
+<path d="M140 80 L240 137" class="fg-line"/>
+<rect x="10" y="58" width="130" height="44" rx="6" class="fg-hot"/>
+<rect x="240" y="8" width="150" height="30" rx="6" class="fg-box"/>
+<rect x="240" y="46" width="150" height="30" rx="6" class="fg-box"/>
+<rect x="240" y="84" width="150" height="30" rx="6" class="fg-box"/>
+<rect x="240" y="122" width="150" height="30" rx="6" class="fg-box"/>
+<text x="75" y="86" text-anchor="middle" class="fg-strong">Wappalyzer</text>
+<text x="315" y="28" text-anchor="middle" class="fg-text">WPML</text>
+<text x="315" y="66" text-anchor="middle" class="fg-text">Polylang</text>
+<text x="315" y="104" text-anchor="middle" class="fg-text">TranslatePress</text>
+<text x="315" y="142" text-anchor="middle" class="fg-text">Custom system</text>
+</svg>
+<figcaption>Knowing the translation setup before opening the source code lets the quote match the work the site actually needs.</figcaption>
+</figure>
 
 **Detailed SEO Extension** gives a fast on-page audit of headings, metas, hreflang, canonical tags and schema markup. Before we localize a site into three more languages, we want to see whether the source-language SEO is competent. Our round-up of [Chrome extensions for SEO](/blog/chrome-extensions-for-seo/) covers the wider audit toolkit.
 
@@ -201,4 +259,4 @@ Yes, for any project with translation memory, repetition discounts or client-sup
 
 ### Will Manifest V3 cause more translation extensions to disappear?
 
-The big migration wave is largely finished. Around 85% of actively maintained Chrome extensions had moved to Manifest V3 by early 2025 according to Google. The extensions still standing in 2026 are the ones with the resources to keep maintaining them, which is itself a useful filter when you decide what to install.
+The big migration wave is largely finished. Over 85% of actively maintained Chrome extensions were already running Manifest V3 by May 2024, according to Google. The extensions still standing in 2026 are the ones with the resources to keep maintaining them, which is itself a useful filter when you decide what to install.

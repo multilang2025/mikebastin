@@ -21,7 +21,29 @@ Si en tu empresa se traduce en el navegador, tus extensiones deciden dos cosas: 
 
 Dos cambios han rehecho el conjunto de herramientas. El primero: Chrome retiró Manifest V2 a lo largo de 2024 y 2025. Las extensiones tuvieron que migrar a Manifest V3 para seguir funcionando: varias extensiones de traducción se reconstruyeron en torno a service workers y otras salieron de la Chrome Web Store.
 
+> En mayo de 2024, cuando Google anunció el inicio de la retirada de Manifest V2, más del 85 % de las extensiones con mantenimiento activo de la Chrome Web Store ya funcionaba con Manifest V3.
+>
+> Fuente: [Google, «Manifest V2 phase-out begins», The Keyword, 30 de mayo de 2024](https://blog.google/chromium/manifest-v2-phase-out-begins/)
+
 El segundo cambio pesa más. Los grandes modelos de lenguaje entraron en el navegador con extensiones propias y paneles laterales. Para la consulta diaria, la reformulación rápida y la posedición de traducción automática, una sola extensión de LLM hace hoy lo que antes hacían tres o cuatro extensiones de traducción.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="La consulta diaria, la reformulación rápida y la posedición de traducción automática, antes repartidas entre tres o cuatro extensiones, reunidas en una sola extensión de LLM.">
+<path d="M160 29 L240 70" class="fg-accent"/>
+<path d="M160 80 L240 80" class="fg-accent"/>
+<path d="M160 131 L240 90" class="fg-accent"/>
+<rect x="10" y="12" width="150" height="34" rx="6" class="fg-box"/>
+<rect x="10" y="63" width="150" height="34" rx="6" class="fg-box"/>
+<rect x="10" y="114" width="150" height="34" rx="6" class="fg-box"/>
+<rect x="240" y="50" width="150" height="60" rx="6" class="fg-hot"/>
+<text x="85" y="35" text-anchor="middle" class="fg-text">Consulta</text>
+<text x="85" y="86" text-anchor="middle" class="fg-text">Reformulación</text>
+<text x="85" y="137" text-anchor="middle" class="fg-text">Posedición</text>
+<text x="315" y="77" text-anchor="middle" class="fg-strong">Extensión LLM</text>
+<text x="315" y="97" text-anchor="middle" class="fg-label">una herramienta</text>
+</svg>
+<figcaption>Una sola extensión de LLM cubre hoy, en el navegador, la consulta, la reformulación y la posedición que antes pedían tres o cuatro herramientas.</figcaption>
+</figure>
 
 > La industria mundial de servicios y tecnología lingüística generó 49.680 millones de dólares en 2023, un 4,5 % menos que los 52.010 millones de dólares de 2022, impulsada por la adopción empresarial de la traducción automática neuronal y de los grandes modelos de lenguaje.
 >
@@ -59,6 +81,22 @@ Los fallos que más pesan están en el tono, el registro y la ambigüedad, y par
 
 Podemos pegar un párrafo, tres líneas del contexto que lo rodea y una instrucción de una línea como «Traduce al francés formal para la clientela de un despacho de abogados belga, con trato de cortesía (vous)». Una extensión de LLM aplica la instrucción tal como está escrita; un motor por sí solo trabaja únicamente con el texto.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="El mismo texto, dos tratamientos: un motor trabaja solo con el texto, mientras que una extensión de LLM sigue además una instrucción de una línea sobre el tono y el público.">
+<path d="M150 75 L230 35" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M150 75 L230 115" class="fg-accent"/>
+<rect x="15" y="55" width="135" height="40" rx="6" class="fg-box"/>
+<rect x="230" y="12" width="155" height="46" rx="6" class="fg-box"/>
+<rect x="230" y="92" width="155" height="46" rx="6" class="fg-hot"/>
+<text x="82" y="81" text-anchor="middle" class="fg-strong">El original</text>
+<text x="307" y="32" text-anchor="middle" class="fg-text">Motor</text>
+<text x="307" y="50" text-anchor="middle" class="fg-label">solo el texto</text>
+<text x="307" y="112" text-anchor="middle" class="fg-strong">Extensión LLM</text>
+<text x="307" y="130" text-anchor="middle" class="fg-label">sigue la consigna</text>
+</svg>
+<figcaption>El tono, el registro y el público viajan en la instrucción, y una extensión de LLM la lee junto con el texto.</figcaption>
+</figure>
+
 Usamos Claude in Chrome, disponible para todos desde el 26 de agosto de 2026 en los planes de pago de Claude, para el trabajo de clientes en el que cuentan el tono y el registro, y ChatGPT para reescrituras rápidas y lluvias de ideas. Revisamos a mano cada resultado de los dos. En nuestro artículo sobre [herramientas de IA y traducción automática](/es/herramientas-ia-traduccion-automatica/) explicamos el flujo de trabajo que enmarca esa revisión.
 
 ### DeepL Write
@@ -90,6 +128,26 @@ Un corrector de gramática y estilo multilingüe para francés, español, alemá
 Si tus traducciones tocan sitios web, dos extensiones más te dan una visión completa del sitio antes del presupuesto y confirman que el original está en buen estado antes de localizarlo. Las presentamos junto a otras en nuestra selección de [extensiones de Chrome para SEO](/es/extensiones-chrome-seo/).
 
 **Wappalyzer** te dice qué CMS, qué plugins y qué sistema de traducción usa un sitio antes de abrir el código fuente. Cuando un posible cliente nos pregunta por la traducción de su web en WordPress, queremos saber en dos segundos si funciona con WPML, Polylang, TranslatePress o un sistema propio. Nuestra página de [traducción de páginas web](/es/services/traduccion-de-paginas-web/) explica lo que supone cada uno en la práctica.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Wappalyzer indica en segundos si una web en WordPress funciona con WPML, Polylang, TranslatePress o un sistema propio.">
+<path d="M140 80 L240 23" class="fg-line"/>
+<path d="M140 80 L240 61" class="fg-line"/>
+<path d="M140 80 L240 99" class="fg-line"/>
+<path d="M140 80 L240 137" class="fg-line"/>
+<rect x="10" y="58" width="130" height="44" rx="6" class="fg-hot"/>
+<rect x="240" y="8" width="150" height="30" rx="6" class="fg-box"/>
+<rect x="240" y="46" width="150" height="30" rx="6" class="fg-box"/>
+<rect x="240" y="84" width="150" height="30" rx="6" class="fg-box"/>
+<rect x="240" y="122" width="150" height="30" rx="6" class="fg-box"/>
+<text x="75" y="86" text-anchor="middle" class="fg-strong">Wappalyzer</text>
+<text x="315" y="28" text-anchor="middle" class="fg-text">WPML</text>
+<text x="315" y="66" text-anchor="middle" class="fg-text">Polylang</text>
+<text x="315" y="104" text-anchor="middle" class="fg-text">TranslatePress</text>
+<text x="315" y="142" text-anchor="middle" class="fg-text">Sistema propio</text>
+</svg>
+<figcaption>Conocer el sistema de traducción antes de abrir el código fuente permite un presupuesto ajustado al trabajo real de la web.</figcaption>
+</figure>
 
 **Detailed SEO Extension** ofrece una auditoría on-page rápida de encabezados, metadatos, hreflang, etiquetas canónicas y marcado schema. Antes de localizar una web a tres idiomas más, comprobamos que el SEO del idioma original está bien resuelto. Nuestra guía de [ajustes técnicos para sitios multilingües](/es/seo-tecnico-para-sitios-multilingues/) detalla lo que revisamos después.
 

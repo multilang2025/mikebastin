@@ -15,8 +15,8 @@ export const ES_PAGES: LocalePage[] = [
   { path: "/es/", en: "/", label: "Inicio", route: "app/es/page.tsx", nav: true },
   { path: "/es/services/", en: "/services/", label: "Servicios", route: "app/es/services/page.tsx", nav: true },
   { path: "/es/blog/", en: "/blog/", label: "Artículos", route: "app/es/blog/page.tsx", nav: true },
+  { path: "/es/conocenos-agencia-experta-en-seo/", en: "/about-us/", label: "Quiénes somos", route: "app/es/conocenos-agencia-experta-en-seo/page.tsx", nav: true },
   { path: "/es/contactanos/", en: "/contact/", label: "Contacto", route: "app/es/contactanos/page.tsx", nav: true },
-  { path: "/es/conocenos-agencia-experta-en-seo/", en: null, label: "Quiénes somos", route: "app/es/conocenos-agencia-experta-en-seo/page.tsx" },
   { path: "/es/precios/", en: "/how-i-work/", label: "Precios", route: "app/es/precios/page.tsx" },
   { path: "/es/privacidad/", en: "/privacy/", label: "Privacidad y cookies", route: "app/es/privacidad/page.tsx" },
 ];

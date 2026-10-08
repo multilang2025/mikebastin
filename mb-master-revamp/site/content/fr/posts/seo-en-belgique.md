@@ -43,11 +43,11 @@ La Belgique ne tient aucun recensement linguistique. La mesure usuelle est l’a
 Bruxelles est officiellement bilingue, et ses habitants cherchent en français comme en néerlandais.
 
 <figure class="post-fig">
-<svg viewBox="0 0 400 200" role="img" aria-label="Les zones linguistiques de la Belgique : la Flandre néerlandophone au nord, Bruxelles bilingue en son sein, la Wallonie francophone au sud et l’est germanophone.">
+<svg viewBox="0 0 400 200" role="img" aria-label="Les zones linguistiques de la Belgique : la Flandre néerlandophone au nord, Bruxelles bilingue en son sein, la Wallonie francophone au sud et l’est germanophone.">
 <rect x="20" y="10" width="360" height="70" rx="6" class="fg-box"/>
-<text x="110" y="50" text-anchor="middle" class="fg-text">Flandre : néerlandais</text>
-<rect x="240" y="26" width="120" height="40" rx="6" class="fg-hot"/>
-<text x="300" y="51" text-anchor="middle" class="fg-label">Bruxelles : les deux</text>
+<text x="112" y="50" text-anchor="middle" class="fg-text">Flandre : néerlandais</text>
+<rect x="216" y="26" width="156" height="40" rx="6" class="fg-hot"/>
+<text x="294" y="51" text-anchor="middle" class="fg-label">Bruxelles : les deux</text>
 <rect x="20" y="96" width="260" height="70" rx="6" class="fg-fill"/>
 <text x="150" y="136" text-anchor="middle" class="fg-text">Wallonie : français</text>
 <rect x="292" y="96" width="88" height="70" rx="6" class="fg-box"/>

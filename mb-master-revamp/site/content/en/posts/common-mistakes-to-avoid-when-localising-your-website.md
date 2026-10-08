@@ -25,9 +25,33 @@ Below are ten website localization fixes that get you there, grouped by where th
 
 Each country reads content through its own culture, so check what sells in one for anything that could feel off, or offend, before it runs in the next. Culture shapes tone, colours, imagery, humour and buying behaviour. [Cultural adaptation services](/services/multilingual-content/) fit the content to each audience's expectations before it goes live.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Culture shapes how each market reads a page: its tone, colours, imagery and humour.">
+<path d="M200 50 L52 102" class="fg-line"/>
+<path d="M200 50 L151 102" class="fg-line"/>
+<path d="M200 50 L250 102" class="fg-line"/>
+<path d="M200 50 L349 102" class="fg-line"/>
+<rect x="135" y="10" width="130" height="40" rx="6" class="fg-hot"/>
+<rect x="8" y="102" width="88" height="38" rx="6" class="fg-box"/>
+<rect x="107" y="102" width="88" height="38" rx="6" class="fg-box"/>
+<rect x="206" y="102" width="88" height="38" rx="6" class="fg-box"/>
+<rect x="305" y="102" width="88" height="38" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-strong">Culture</text>
+<text x="52" y="127" text-anchor="middle" class="fg-text">Tone</text>
+<text x="151" y="127" text-anchor="middle" class="fg-text">Colours</text>
+<text x="250" y="127" text-anchor="middle" class="fg-text">Imagery</text>
+<text x="349" y="127" text-anchor="middle" class="fg-text">Humour</text>
+</svg>
+<figcaption>Each of these reads differently from one country to the next, so each one gets a check before content moves to a new market.</figcaption>
+</figure>
+
 ### Transcreate the message
 
 A literal translation is grammatically correct; [transcreation](/services/translation-services/) adapts voice, style and message to the local culture, carrying the tone, intent and local relevance that sell, and keeping the brand at full strength.
+
+> In a 2020 survey, 76% of online shoppers preferred to buy products with information in their native language, and 40% would never buy from websites in other languages.
+>
+> Source: [CSA Research, "Consumers Prefer their Own Language", survey of 8,709 consumers in 29 countries, July 2020](https://csa-research.com/Blogs-Events/CSA-in-the-Media/Press-Releases/Consumers-Prefer-their-Own-Language)
 
 ### Adjust the imagery
 
@@ -42,6 +66,22 @@ Localize the message and keep the personality. A style guide every translator fo
 ### Research local SEO and keywords in each language
 
 A translated page ranks once it is built for local search. Each market has its own search behaviour, phrasing and sometimes its own preferred search engine. [Multilingual SEO](/services/multilingual-seo/) starts with keyword research done in the target language.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="The same page built two ways: on source keywords translated as they are, or on keyword research done in each language.">
+<path d="M150 75 L225 35" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M150 75 L225 115" class="fg-accent"/>
+<rect x="15" y="55" width="135" height="40" rx="6" class="fg-box"/>
+<rect x="225" y="12" width="160" height="46" rx="6" class="fg-box"/>
+<rect x="225" y="92" width="160" height="46" rx="6" class="fg-hot"/>
+<text x="82" y="81" text-anchor="middle" class="fg-strong">Your page</text>
+<text x="305" y="32" text-anchor="middle" class="fg-text">Source keywords</text>
+<text x="305" y="50" text-anchor="middle" class="fg-label">translated</text>
+<text x="305" y="112" text-anchor="middle" class="fg-strong">Local research</text>
+<text x="305" y="130" text-anchor="middle" class="fg-label">in each language</text>
+</svg>
+<figcaption>A translated page ranks once its keywords come from research in the target language, matched to how local buyers search.</figcaption>
+</figure>
 
 ### Build for mobile
 
@@ -61,9 +101,30 @@ Testing finds each defect before a customer does. [Test every localized version]
 
 Compliance keeps you clear of fines and keeps buyers' trust. Each market has its own rules on data protection, cookie consent and ecommerce, so make sure the privacy policy, terms and checkout follow local requirements.
 
+> In 2025 the CNIL, France's data protection authority, issued 83 sanctions totalling €486,839,500 in fines, with cookies among its three main subjects alongside employee monitoring and data security.
+>
+> Source: [CNIL, "Sanctions et mesures correctrices : la CNIL présente le bilan 2025", 9 February 2026](https://cnil.fr/fr/bilan-sanctions-2025)
+
 ### Adapt payment methods and formats
 
 People complete the purchase when they can pay the way they prefer, and the same goes for dates, numbers and currency shown in the format they know.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 120" role="img" aria-label="Prices shown in the local format and a payment method buyers prefer lead to a completed purchase.">
+<path d="M126 60 L140 60" class="fg-line"/>
+<path d="M260 60 L274 60" class="fg-line"/>
+<rect x="6" y="35" width="120" height="50" rx="6" class="fg-box"/>
+<rect x="140" y="35" width="120" height="50" rx="6" class="fg-box"/>
+<rect x="274" y="35" width="120" height="50" rx="6" class="fg-hot"/>
+<text x="66" y="57" text-anchor="middle" class="fg-text">Prices</text>
+<text x="66" y="75" text-anchor="middle" class="fg-label">local format</text>
+<text x="200" y="57" text-anchor="middle" class="fg-text">Payment</text>
+<text x="200" y="75" text-anchor="middle" class="fg-label">preferred way</text>
+<text x="334" y="57" text-anchor="middle" class="fg-strong">Purchase</text>
+<text x="334" y="75" text-anchor="middle" class="fg-label">completed</text>
+</svg>
+<figcaption>Buyers finish the purchase when the price looks familiar and they can pay the way they prefer.</figcaption>
+</figure>
 
 | Element | UK | Germany | Netherlands |
 | --- | --- | --- | --- |

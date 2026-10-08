@@ -40,6 +40,23 @@ En nuestro propio trabajo con despachos de abogados, transitarios, inmobiliarias
 
 El trabajo se hace codo con codo con la dirección, semana a semana. El resultado es una dirección, respaldada por una recomendación de herramientas de marketing, un marco de indicadores clave y las contrataciones internas adecuadas para los 12 meses siguientes.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Un asesor entrega una dirección, respaldada por una recomendación de herramientas de marketing, un marco de indicadores clave y un plan de contrataciones.">
+<path d="M172 80 L200 30" class="fg-accent"/>
+<path d="M172 80 L200 80" class="fg-accent"/>
+<path d="M172 80 L200 130" class="fg-accent"/>
+<rect x="12" y="55" width="160" height="50" rx="6" class="fg-hot"/>
+<rect x="200" y="10" width="188" height="40" rx="6" class="fg-box"/>
+<rect x="200" y="60" width="188" height="40" rx="6" class="fg-box"/>
+<rect x="200" y="110" width="188" height="40" rx="6" class="fg-box"/>
+<text x="92" y="86" text-anchor="middle" class="fg-strong">Dirección</text>
+<text x="294" y="36" text-anchor="middle" class="fg-text">Herramientas</text>
+<text x="294" y="86" text-anchor="middle" class="fg-text">Indicadores clave</text>
+<text x="294" y="136" text-anchor="middle" class="fg-text">Contrataciones</text>
+</svg>
+<figcaption>El asesor entrega una dirección para la empresa, y tres documentos de trabajo hacen que tu equipo pueda aplicarla.</figcaption>
+</figure>
+
 Cuando las campañas traen tráfico y las reuniones todavía no llegan, un asesor analiza los datos para encontrar la fuga, empezando a menudo por un análisis limpio de la competencia y una [auditoría SEO técnica](/es/lista-de-auditoria-seo-tecnica/). Con ese diagnóstico hecho, construimos una estrategia de contenidos orientada a lo que ha revelado.
 
 > En nuestros proyectos con despachos de abogados, transitarios y empresas de traducción, se repite el mismo patrón. Las empresas que crecen son las que ponen la estrategia y la ejecución en manos distintas, con un circuito de retroalimentación claro entre ambas.
@@ -61,6 +78,22 @@ Las agencias escalan. Gestionan presupuestos publicitarios importantes en Google
 ### Estrategia o ejecución
 
 Un asesor dedica la mayor parte de su tiempo a la estrategia y el resto a supervisar el trabajo. Una agencia invierte la proporción. Si ya tienes un plan claro y necesitas personas que lo pongan en marcha, gana la agencia. Si produces mucho y quieres que los números se muevan, gana el asesor.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 145" role="img" aria-label="Un asesor dedica la mayor parte de su tiempo a la estrategia y una parte pequeña a la ejecución; una agencia invierte la proporción.">
+<rect x="130" y="20" width="196" height="36" rx="6" class="fg-hot"/>
+<rect x="332" y="20" width="56" height="36" rx="6" class="fg-box"/>
+<rect x="130" y="70" width="56" height="36" rx="6" class="fg-hot"/>
+<rect x="192" y="70" width="196" height="36" rx="6" class="fg-box"/>
+<rect x="130" y="118" width="14" height="14" rx="3" class="fg-hot"/>
+<rect x="262" y="118" width="14" height="14" rx="3" class="fg-box"/>
+<text x="12" y="44" class="fg-strong">Asesor</text>
+<text x="12" y="94" class="fg-strong">Agencia</text>
+<text x="152" y="130" class="fg-label">Estrategia</text>
+<text x="284" y="130" class="fg-label">Ejecución</text>
+</svg>
+<figcaption>Los dos modelos reparten los mismos dos trabajos en proporciones inversas. Elige el que dedica la parte mayor a lo que te falta.</figcaption>
+</figure>
 
 ### Estructura de costes
 
@@ -99,6 +132,22 @@ Elige una agencia cuando el cuello de botella es la ejecución: cuando sabes qu�
 **Coste oculto del asesor: alguien que haga el trabajo.** Acompaña al asesor con personal propio o freelance que ejecute la estrategia, para que las ideas se conviertan en trabajo entregado.
 
 **Coste oculto de la agencia: el tiempo de gestión.** Alguien de tu lado tiene que revisar los informes en Looker Studio, aprobar las creatividades y mantener a la agencia alineada con el tono de la marca. Pregunta quién hará el trabajo en el día a día, más allá de los perfiles sénior de la presentación comercial.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Cada modelo tiene un coste que presupuestar: el asesor necesita un equipo que ejecute y la agencia necesita tiempo de gestión por tu parte.">
+<path d="M104 52 L104 95" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M296 52 L296 95" class="fg-dim" stroke-dasharray="4 4"/>
+<rect x="12" y="12" width="184" height="40" rx="6" class="fg-box"/>
+<rect x="204" y="12" width="184" height="40" rx="6" class="fg-box"/>
+<rect x="12" y="95" width="184" height="44" rx="6" class="fg-hot"/>
+<rect x="204" y="95" width="184" height="44" rx="6" class="fg-hot"/>
+<text x="104" y="38" text-anchor="middle" class="fg-strong">Asesor</text>
+<text x="296" y="38" text-anchor="middle" class="fg-strong">Agencia</text>
+<text x="104" y="122" text-anchor="middle" class="fg-text">Equipo ejecutor</text>
+<text x="296" y="122" text-anchor="middle" class="fg-text">Tiempo de gestión</text>
+</svg>
+<figcaption>Los dos modelos traen un segundo coste. Presupuéstalo desde el principio y el proyecto avanza según lo previsto.</figcaption>
+</figure>
 
 <aside class="post-cta">
 <p><strong>¿Quieres que todo tu presupuesto publicitario compre publicidad?</strong> Cuando nuestra <a href="/es/services/publicidad-multilingue/">publicidad multilingüe</a> incluye búsqueda de pago, todo tu presupuesto de medios compra anuncios: va directo a Google, Microsoft o Meta, y la gestión se factura aparte. El principio cubre la inversión en medios; la redacción y la traducción se presupuestan como un precio por el trabajo. <a href="/es/contactanos/">Pregúntanos cómo se factura</a>.</p>

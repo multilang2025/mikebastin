@@ -37,11 +37,45 @@ L’IA générative quitte le stade du projet piloté par la DSI pour devenir un
 
 Ce que cela change pour vous : intégrer l’IA dans le marketing, le service client ou la production de contenu fait baisser le coût unitaire de production. La question porte désormais sur l’endroit où l’intégrer et sur la façon de garder la qualité.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 120" role="img" aria-label="L’IA générative passe d’un pilote à l’essai à la production, intégrée aux outils du quotidien.">
+<path d="M170 60 L210 60" class="fg-accent"/>
+<path d="M200 52 L210 60 L200 68" class="fg-accent"/>
+<rect x="20" y="35" width="150" height="50" rx="6" class="fg-box"/>
+<rect x="210" y="35" width="170" height="50" rx="6" class="fg-hot"/>
+<text x="95" y="57" text-anchor="middle" class="fg-text">Pilote</text>
+<text x="95" y="75" text-anchor="middle" class="fg-label">à l’essai</text>
+<text x="295" y="57" text-anchor="middle" class="fg-strong">Production</text>
+<text x="295" y="75" text-anchor="middle" class="fg-label">outils du quotidien</text>
+</svg>
+<figcaption>L’IA entre au budget comme un poste courant : la question devient l’endroit où l’intégrer et la façon de garder la qualité.</figcaption>
+</figure>
+
 ## Les agents d’IA prennent en charge des tâches complètes
 
 Au-delà du chatbot, les agents d’IA capables d’enchaîner plusieurs actions (rechercher, comparer, exécuter) deviennent la nouvelle frontière. Salesforce, Microsoft, Anthropic et OpenAI ont lancé leurs offres d’agents pour les entreprises entre fin 2024 et 2025.
 
 Pour le marketing et la traduction, cela se traduit concrètement par des chaînes de production de contenu multilingue automatisées, des agents de SEO technique qui explorent un site, repèrent les problèmes et proposent les corrections, et des assistants commerciaux qui qualifient les prospects et planifient les rendez-vous.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Les agents d’IA au centre de trois usages : la production de contenu multilingue, le SEO technique et la qualification des prospects.">
+<path d="M200 50 L70 102" class="fg-line"/>
+<path d="M200 50 L200 102" class="fg-line"/>
+<path d="M200 50 L330 102" class="fg-line"/>
+<rect x="120" y="10" width="160" height="40" rx="6" class="fg-hot"/>
+<rect x="10" y="102" width="120" height="46" rx="6" class="fg-box"/>
+<rect x="140" y="102" width="120" height="46" rx="6" class="fg-box"/>
+<rect x="270" y="102" width="120" height="46" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-strong">Agents d’IA</text>
+<text x="70" y="122" text-anchor="middle" class="fg-text">Contenu</text>
+<text x="70" y="140" text-anchor="middle" class="fg-label">multilingue</text>
+<text x="200" y="122" text-anchor="middle" class="fg-text">SEO</text>
+<text x="200" y="140" text-anchor="middle" class="fg-label">technique</text>
+<text x="330" y="122" text-anchor="middle" class="fg-text">Ventes</text>
+<text x="330" y="140" text-anchor="middle" class="fg-label">prospects</text>
+</svg>
+<figcaption>Un agent enchaîne plusieurs actions jusqu’au bout d’une tâche, de la production de contenu multilingue au suivi des prospects.</figcaption>
+</figure>
 
 ## Un capital plus cher, une croissance financée par les marges
 
@@ -123,6 +157,18 @@ Le rançongiciel reste une menace majeure, et les attaques visant la chaîne d�
 ## La CSRD recentre le reporting de durabilité sur les plus grands groupes
 
 La directive CSRD a produit ses premiers rapports de durabilité audités en 2025, pour les plus grandes entreprises d’intérêt public. Le calendrier a ensuite changé deux fois : la directive « stop-the-clock » d’avril 2025 a reporté de deux ans les vagues suivantes, puis la directive Omnibus I, en vigueur depuis le 18 mars 2026, a resserré le périmètre.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Le périmètre de la CSRD se resserre en trois temps, du périmètre prévu au départ aux seuils de l’Omnibus I, puis aux plus grands groupes.">
+<rect x="20" y="10" width="360" height="40" rx="6" class="fg-box"/>
+<rect x="60" y="60" width="280" height="40" rx="6" class="fg-box"/>
+<rect x="90" y="110" width="220" height="40" rx="6" class="fg-hot"/>
+<text x="200" y="36" text-anchor="middle" class="fg-text">Périmètre prévu au départ</text>
+<text x="200" y="86" text-anchor="middle" class="fg-text">Seuils de l’Omnibus I</text>
+<text x="200" y="136" text-anchor="middle" class="fg-strong">Plus grands groupes</text>
+</svg>
+<figcaption>La directive Omnibus I réserve la CSRD aux plus grands groupes, et leurs fournisseurs reçoivent toujours des demandes de données par la chaîne de valeur.</figcaption>
+</figure>
 
 > À partir des exercices ouverts le 1er janvier 2027, le reporting n’est obligatoire que pour les entreprises qui dépassent à la fois 450 millions d’euros de chiffre d’affaires net et 1 000 salariés en moyenne.
 > Source : [DLA Piper, « Corporate Sustainability Reporting Directive : amendments under Omnibus I finalised », 2026](https://knowledge.dlapiper.com/dlapiperknowledge/globalemploymentlatestdevelopments/2026/corporate-sustainability-reporting-directive-amendments-under-omnibus-i-finalised)

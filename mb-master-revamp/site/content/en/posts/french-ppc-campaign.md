@@ -41,23 +41,23 @@ Get the order right and each round of spend teaches you where the next one shoul
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 130" role="img" aria-label="A French PPC campaign runs in four stages: research, build, launch and optimize, with optimization feeding back into the next round.">
-<line x1="50" y1="32" x2="350" y2="32" class="fg-rule"/>
-<circle cx="50" cy="32" r="26" class="fg-box"/>
-<circle cx="150" cy="32" r="26" class="fg-box"/>
-<circle cx="250" cy="32" r="26" class="fg-box"/>
-<circle cx="350" cy="32" r="26" class="fg-hot"/>
-<text x="50" y="38" text-anchor="middle" class="fg-strong">1</text>
-<text x="150" y="38" text-anchor="middle" class="fg-strong">2</text>
-<text x="250" y="38" text-anchor="middle" class="fg-strong">3</text>
-<text x="350" y="38" text-anchor="middle" class="fg-strong">4</text>
-<text x="50" y="90" text-anchor="middle" class="fg-text">Research</text>
-<text x="150" y="90" text-anchor="middle" class="fg-text">Build</text>
-<text x="250" y="90" text-anchor="middle" class="fg-text">Launch</text>
-<text x="350" y="90" text-anchor="middle" class="fg-text">Optimize</text>
-<text x="50" y="114" text-anchor="middle" class="fg-label">keywords</text>
-<text x="150" y="114" text-anchor="middle" class="fg-label">ads, pages</text>
-<text x="250" y="114" text-anchor="middle" class="fg-label">bids</text>
-<text x="350" y="114" text-anchor="middle" class="fg-label">A/B tests</text>
+<line x1="56" y1="32" x2="344" y2="32" class="fg-rule"/>
+<circle cx="56" cy="32" r="26" class="fg-box"/>
+<circle cx="152" cy="32" r="26" class="fg-box"/>
+<circle cx="248" cy="32" r="26" class="fg-box"/>
+<circle cx="344" cy="32" r="26" class="fg-hot"/>
+<text x="56" y="38" text-anchor="middle" class="fg-strong">1</text>
+<text x="152" y="38" text-anchor="middle" class="fg-strong">2</text>
+<text x="248" y="38" text-anchor="middle" class="fg-strong">3</text>
+<text x="344" y="38" text-anchor="middle" class="fg-strong">4</text>
+<text x="56" y="90" text-anchor="middle" class="fg-text">Research</text>
+<text x="152" y="90" text-anchor="middle" class="fg-text">Build</text>
+<text x="248" y="90" text-anchor="middle" class="fg-text">Launch</text>
+<text x="344" y="90" text-anchor="middle" class="fg-text">Optimize</text>
+<text x="56" y="114" text-anchor="middle" class="fg-label">keywords</text>
+<text x="152" y="114" text-anchor="middle" class="fg-label">ads, pages</text>
+<text x="248" y="114" text-anchor="middle" class="fg-label">bids</text>
+<text x="344" y="114" text-anchor="middle" class="fg-label">A/B tests</text>
 </svg>
 <figcaption>The sections below follow this order. Results from the last stage decide where the next round of keywords, copy and budget goes.</figcaption>
 </figure>
@@ -79,6 +79,22 @@ Done well, research leaves you with the terms your buyers really use and the gap
 How you structure the account decides whether you can later tell which region and which offer is paying for itself. Separate campaigns per region give you that answer.
 
 On Google Ads, target French-speaking audiences and use geo-targeting for the regions that matter to you. A Paris campaign usually needs different keywords and messaging from one aimed at southern France, and a separate campaign lets each earn its own budget.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="One Google Ads account split into separate regional campaigns for Paris and for southern France, each with its own budget.">
+<path d="M200 50 L105 100" class="fg-line"/>
+<path d="M200 50 L295 100" class="fg-line"/>
+<rect x="130" y="10" width="140" height="40" rx="6" class="fg-hot"/>
+<rect x="20" y="100" width="170" height="48" rx="6" class="fg-box"/>
+<rect x="210" y="100" width="170" height="48" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-strong">Google Ads</text>
+<text x="105" y="120" text-anchor="middle" class="fg-text">Paris</text>
+<text x="105" y="138" text-anchor="middle" class="fg-label">own budget</text>
+<text x="295" y="120" text-anchor="middle" class="fg-text">Southern France</text>
+<text x="295" y="138" text-anchor="middle" class="fg-label">own budget</text>
+</svg>
+<figcaption>Separate campaigns per region show which part of France pays for itself, and each one earns its own budget.</figcaption>
+</figure>
 
 Set French budgets from real click costs in your sector within France. Clicks tend to cost more in competitive areas like Paris, so the budget has to reflect location as well as competition. Visual content often performs well in France, so video is worth a test.
 
@@ -103,6 +119,22 @@ Write headlines and descriptions for what a French buyer cares about. Cultural r
 
 Test your calls to action and let the results choose. "Achetez maintenant" (Buy now) works for some audiences; "En savoir plus" (Find out more) often wins where the purchase is considered. The data tells you which one your buyers answer.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="An A/B test of two French calls to action: Achetez maintenant works for some audiences, and En savoir plus often wins where the purchase is considered.">
+<path d="M125 75 L200 35" class="fg-line"/>
+<path d="M125 75 L200 115" class="fg-accent"/>
+<rect x="15" y="55" width="110" height="40" rx="6" class="fg-box"/>
+<rect x="200" y="12" width="188" height="46" rx="6" class="fg-box"/>
+<rect x="200" y="92" width="188" height="46" rx="6" class="fg-hot"/>
+<text x="70" y="81" text-anchor="middle" class="fg-strong">A/B test</text>
+<text x="294" y="32" text-anchor="middle" class="fg-text">Achetez maintenant</text>
+<text x="294" y="50" text-anchor="middle" class="fg-label">some audiences</text>
+<text x="294" y="112" text-anchor="middle" class="fg-strong">En savoir plus</text>
+<text x="294" y="130" text-anchor="middle" class="fg-label">considered purchases</text>
+</svg>
+<figcaption>Run both calls to action and keep the one your French buyers answer.</figcaption>
+</figure>
+
 ## Build landing pages that finish what the ad started
 
 An ad and its landing page work as a pair in PPC: the ad earns the click and the page wins the sale. The landing page has to finish what the ad started, in flawless French and in a context a French buyer recognises.
@@ -124,6 +156,19 @@ Use ad assets (formerly extensions). Sitelinks, callouts and location assets mak
 ## Track whether France pays for itself
 
 Market-level tracking tells you whether France is profitable in its own right or subsidised by another market. Set up conversion tracking in Google Analytics for your French campaigns, and watch click-through rate (CTR), cost per click (CPC), conversion rate and return on ad spend (ROAS) for France on its own.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 120" role="img" aria-label="Reporting all markets as one blended total, compared with reporting France on its own with its own return on ad spend.">
+<path d="M192 58 L208 58" class="fg-accent"/>
+<rect x="12" y="30" width="180" height="56" rx="6" class="fg-box"/>
+<rect x="208" y="30" width="180" height="56" rx="6" class="fg-hot"/>
+<text x="102" y="55" text-anchor="middle" class="fg-text">All markets</text>
+<text x="102" y="74" text-anchor="middle" class="fg-label">one blended total</text>
+<text x="298" y="55" text-anchor="middle" class="fg-strong">France alone</text>
+<text x="298" y="74" text-anchor="middle" class="fg-label">its own ROAS</text>
+</svg>
+<figcaption>Tracked on its own, France shows whether it pays for itself or leans on another market.</figcaption>
+</figure>
 
 Run A/B tests on ads and landing pages to find what French buyers respond to: different copy, different calls to action, different page layouts. Keep the winners and move budget towards the ads and keywords that convert, then extend to other regions of France as the results justify it.
 

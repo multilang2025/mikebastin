@@ -6,7 +6,7 @@ import FounderPortrait from "@/components/FounderPortrait";
 import HomeEvidence from "@/components/HomeEvidence";
 import Testimonials from "@/components/Testimonials";
 import HomeWhy from "@/components/HomeWhy";
-import { HomeBastin, HomeCredibility } from "@/components/HomeBastin";
+import { HomeCredibility } from "@/components/HomeBastin";
 import ValenciaMarketGraphic from "@/components/ValenciaMarketGraphic";
 import SiteFooter from "@/components/SiteFooter";
 import LocaleHtmlLang from "@/components/LocaleHtmlLang";
@@ -286,9 +286,7 @@ export default function SpanishHome() {
         </div>
       </section>
 
-      <HomeBastin locale="es" band="b" />
-
-      <HomeCredibility locale="es" band="a" />
+      <HomeCredibility locale="es" band="b" />
 
       <SiteFooter locale="es" band="a" />
     </main>

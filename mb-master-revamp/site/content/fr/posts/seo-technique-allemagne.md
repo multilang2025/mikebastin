@@ -77,7 +77,7 @@ Décidez d’abord des variantes allemandes dont vous avez réellement besoin, p
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 130" role="img" aria-label="Un ensemble de pages allemandes avec trois versions régionales pour l’Allemagne, l’Autriche et la Suisse, plus une version de repli par langue seule.">
-<rect x="140" y="8" width="120" height="36" rx="6" class="fg-hot"/>
+<rect x="120" y="8" width="160" height="36" rx="6" class="fg-hot"/>
 <text x="200" y="32" text-anchor="middle" class="fg-text">Page allemande</text>
 <line x1="200" y1="44" x2="50" y2="80" class="fg-line"/>
 <line x1="200" y1="44" x2="150" y2="80" class="fg-line"/>

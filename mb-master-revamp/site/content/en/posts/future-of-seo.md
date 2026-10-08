@@ -22,6 +22,22 @@ Below: what earns visibility now, which measures have taken over from the old on
 
 If a competitor publishes ten AI-written pages for every one of yours, your one page with real substance carries more weight with Google than most of theirs. AI tools can produce content at scale, and every competitor is using them. Google's March 2025 core update showed what it rewards: substance over volume. The spam policies target scaled content abuse, and the systems reward original research, first-hand experience and real expertise.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="One page with real substance carries more weight with Google than ten AI-written pages produced for volume.">
+<path d="M200 39 L276 80" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M200 121 L276 80" class="fg-accent"/>
+<rect x="10" y="14" width="190" height="50" rx="6" class="fg-box"/>
+<rect x="10" y="96" width="190" height="50" rx="6" class="fg-hot"/>
+<rect x="276" y="60" width="112" height="40" rx="6" class="fg-box"/>
+<text x="105" y="36" text-anchor="middle" class="fg-text">Ten AI pages</text>
+<text x="105" y="54" text-anchor="middle" class="fg-label">volume</text>
+<text x="105" y="118" text-anchor="middle" class="fg-strong">One real page</text>
+<text x="105" y="136" text-anchor="middle" class="fg-label">substance</text>
+<text x="332" y="86" text-anchor="middle" class="fg-strong">Google</text>
+</svg>
+<figcaption>Google rewards substance over volume: original research, first-hand experience and real expertise.</figcaption>
+</figure>
+
 > According to BrightEdge, AI Overviews reached 48% of tracked queries by February 2026, up from roughly 13% in early 2025 (Semrush). Healthcare, education, and B2B technology sectors see AI Overview rates above 80%. Source: [Search Engine Land](https://searchengineland.com/google-ai-overviews-surge-pullback-data-466314), [Semrush](https://www.semrush.com/blog/generative-engine-optimization/)
 
 AI Overviews (the successor to Search Generative Experience) write the answer in the results page, so the content that gets seen is the content with real depth. Winning [AI-driven SEO strategies](/blog/how-ai-is-revolutionising-seo-strategies/) use machine learning for research, pattern spotting and faster workflows, with people deciding what gets published. Use AI for ideas and analysis, attach real authors and case studies to what you publish, and measure engagement quality. Where you need a plan for doing that across a team, our [AI consulting](/services/ai-consulting/) work starts there.
@@ -40,15 +56,15 @@ GEO works alongside SEO. The same page serves both channels when it makes clear,
 <text x="200" y="35" text-anchor="middle" class="fg-text">Your page</text>
 <line x1="170" y1="48" x2="100" y2="84" class="fg-line"/>
 <line x1="230" y1="48" x2="300" y2="84" class="fg-line"/>
-<rect x="30" y="84" width="140" height="38" rx="6" class="fg-fill"/>
-<rect x="230" y="84" width="140" height="38" rx="6" class="fg-fill"/>
+<rect x="20" y="84" width="160" height="38" rx="6" class="fg-fill"/>
+<rect x="220" y="84" width="160" height="38" rx="6" class="fg-fill"/>
 <text x="100" y="109" text-anchor="middle" class="fg-text">Search results</text>
 <text x="300" y="109" text-anchor="middle" class="fg-text">AI answers</text>
 <text x="100" y="146" text-anchor="middle" class="fg-label">clicks</text>
 <text x="300" y="146" text-anchor="middle" class="fg-label">citations</text>
 <line x1="100" y1="156" x2="170" y2="182" class="fg-line"/>
 <line x1="300" y1="156" x2="230" y2="182" class="fg-line"/>
-<rect x="130" y="182" width="140" height="38" rx="6" class="fg-hot"/>
+<rect x="105" y="182" width="190" height="38" rx="6" class="fg-hot"/>
 <text x="200" y="207" text-anchor="middle" class="fg-text">Brand demand</text>
 </svg>
 <figcaption>SEO and GEO are two routes from the same content. Clear claims, named sources and structured data serve both, and both end in people searching for you by name.</figcaption>
@@ -65,6 +81,23 @@ A page with a named expert behind it now wins over an anonymous one, and on heal
 > Google’s September 2025 Search Quality Rater Guidelines update broadened the YMYL definition to include Government, Civics and Society, now covering election information and content impacting trust in public institutions. Google’s systems give even more weight to content aligned with strong E-E-A-T for topics that could significantly impact health, financial stability, or safety. Source: [Search Engine Land](https://searchengineland.com/google-updates-search-quality-raters-guidelines-adding-ai-overview-examples-ymyl-definitions-461908)
 
 Google assesses E-E-A-T through indirect signals: domain reputation, clear authorship, source quality and author markup. Sites with detailed author bios, published case studies, recent sources and Person and Organization schema gain ground on anonymous ones.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Three signals feed E-E-A-T: detailed author bios, published case studies and recent sources.">
+<path d="M122 80 L170 30" class="fg-line"/>
+<path d="M122 80 L170 80" class="fg-line"/>
+<path d="M122 80 L170 130" class="fg-line"/>
+<rect x="12" y="60" width="110" height="40" rx="6" class="fg-hot"/>
+<rect x="170" y="12" width="218" height="36" rx="6" class="fg-box"/>
+<rect x="170" y="62" width="218" height="36" rx="6" class="fg-box"/>
+<rect x="170" y="112" width="218" height="36" rx="6" class="fg-box"/>
+<text x="67" y="86" text-anchor="middle" class="fg-strong">E-E-A-T</text>
+<text x="279" y="36" text-anchor="middle" class="fg-text">Author bios</text>
+<text x="279" y="86" text-anchor="middle" class="fg-text">Case studies</text>
+<text x="279" y="136" text-anchor="middle" class="fg-text">Recent sources</text>
+</svg>
+<figcaption>Google reads E-E-A-T through indirect signals, and these three put a named, credible author behind the page.</figcaption>
+</figure>
 
 ## Report on zero-click visibility alongside clicks
 
@@ -109,6 +142,22 @@ If your English pages sell and you want your other languages to do the same, the
 > According to CSA Research (formerly Common Sense Advisory), 76% of consumers prefer to buy products with information in their own language, and 40% will never buy from websites in other languages. 70% of global search queries are non-English. A 2025 Weglot study found that translated websites achieved up to 327% more visibility in Google’s AI Overviews. Source: [CSA Research](https://csa-research.com/Blogs-Events/CSA-in-the-Media/Press-Releases/Multilingual-Content-Gives-Global-Brands-Competitive-Edge)
 
 Ranking in Spanish, German, French or Dutch markets takes [multilingual SEO](/services/multilingual-seo/) that goes beyond word-for-word conversion: keyword research done natively in each language, cultural and regulatory adaptation, and awareness of [region-specific search behaviour](/blog/best-practices-for-multilingual-seo/). Correct hreflang tells search engines which version to serve to whom, and country-specific backlinks and local SERP tracking complete the picture.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 120" role="img" aria-label="Ranking in another language rests on three things: keyword research done natively, cultural and regulatory adaptation, and each region's search habits.">
+<line x1="72" y1="30" x2="328" y2="30" class="fg-rule"/>
+<circle cx="72" cy="30" r="12" class="fg-hot"/>
+<circle cx="200" cy="30" r="12" class="fg-box"/>
+<circle cx="328" cy="30" r="12" class="fg-box"/>
+<text x="72" y="72" text-anchor="middle" class="fg-text">Keywords</text>
+<text x="72" y="94" text-anchor="middle" class="fg-label">native research</text>
+<text x="200" y="72" text-anchor="middle" class="fg-text">Adaptation</text>
+<text x="200" y="94" text-anchor="middle" class="fg-label">culture, rules</text>
+<text x="328" y="72" text-anchor="middle" class="fg-text">Search habits</text>
+<text x="328" y="94" text-anchor="middle" class="fg-label">per region</text>
+</svg>
+<figcaption>Each language version earns its rankings from native keyword research, local adaptation and the way each region searches.</figcaption>
+</figure>
 
 ## Content and SEO are one discipline
 

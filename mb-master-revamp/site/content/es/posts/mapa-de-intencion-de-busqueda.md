@@ -37,14 +37,14 @@ Toda búsqueda lleva un propósito detrás, y el sector del SEO lo reparte en cu
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 200" role="img" aria-label="Intención de búsqueda en el embudo: informativa en la parte ancha superior, comercial en el centro, transaccional en la parte estrecha inferior, con la navegacional a un lado.">
-<rect x="20" y="10" width="280" height="44" rx="6" class="fg-box"/>
-<rect x="60" y="68" width="200" height="44" rx="6" class="fg-box"/>
-<rect x="100" y="126" width="120" height="44" rx="6" class="fg-hot"/>
+<rect x="10" y="10" width="300" height="44" rx="6" class="fg-box"/>
+<rect x="45" y="68" width="230" height="44" rx="6" class="fg-box"/>
+<rect x="80" y="126" width="160" height="44" rx="6" class="fg-hot"/>
 <text x="160" y="38" text-anchor="middle" class="fg-text">Informativa</text>
 <text x="160" y="96" text-anchor="middle" class="fg-text">Comercial</text>
 <text x="160" y="154" text-anchor="middle" class="fg-text">Transaccional</text>
 <line x1="340" y1="14" x2="340" y2="166" class="fg-dim"/>
-<text x="362" y="90" text-anchor="middle" transform="rotate(90 362 90)" class="fg-label">Navegacional</text>
+<text x="362" y="90" text-anchor="middle" writing-mode="vertical-rl" class="fg-label">Navegacional</text>
 <text x="200" y="192" text-anchor="middle" class="fg-label">guías, comparativas, páginas de destino</text>
 </svg>
 <figcaption>La mayoría de las búsquedas está en la parte ancha del embudo. Asigna a cada fase su propio tipo de página y deja que las consultas navegacionales lleven directas a la marca en cualquier momento.</figcaption>

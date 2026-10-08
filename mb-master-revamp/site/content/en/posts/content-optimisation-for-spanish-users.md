@@ -67,6 +67,23 @@ A keyword that performs in Madrid can take a different form in Bilbao, so add re
 
 Seasonal and regional events shift search behaviour too, from Sevilla's Feria de Abril to Barcelona's Mobile World Congress. Build keyword matrices that cover standard Castellano and the regional variations, and watch regional trends in Google Trends.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="A Spanish keyword matrix covers three layers: standard Castellano, regional terms and seasonal events.">
+<path d="M172 80 L200 30" class="fg-accent"/>
+<path d="M172 80 L200 80" class="fg-accent"/>
+<path d="M172 80 L200 130" class="fg-accent"/>
+<rect x="12" y="55" width="160" height="50" rx="6" class="fg-hot"/>
+<rect x="200" y="10" width="188" height="40" rx="6" class="fg-box"/>
+<rect x="200" y="60" width="188" height="40" rx="6" class="fg-box"/>
+<rect x="200" y="110" width="188" height="40" rx="6" class="fg-box"/>
+<text x="92" y="86" text-anchor="middle" class="fg-strong">Keyword matrix</text>
+<text x="294" y="36" text-anchor="middle" class="fg-text">Standard Castellano</text>
+<text x="294" y="86" text-anchor="middle" class="fg-text">Regional terms</text>
+<text x="294" y="136" text-anchor="middle" class="fg-text">Seasonal events</text>
+</svg>
+<figcaption>One matrix holds all three layers, so a page can reach buyers in Madrid, Bilbao and Sevilla with the words each of them types.</figcaption>
+</figure>
+
 ### Keyword tools for Spanish markets
 
 Each tool answers a different commercial question, so pick by what you need to decide.
@@ -94,6 +111,22 @@ The choice between tú and usted tells the reader who you think they are, so pic
 | Risk | Can feel presumptuous to older or traditional readers | Can feel stiff to younger readers |
 
 Younger Spanish audiences generally expect informal address, while older or more traditional sectors expect usted. Whichever you choose, stay consistent: one form throughout keeps readers oriented and your brand voice strong. Our guide to [Spanish on-page SEO](/blog/spanish-on-page-seo/) goes further.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="The reader decides the form of address: tú for younger audiences, usted for traditional sectors.">
+<path d="M166 75 L206 35" class="fg-line"/>
+<path d="M166 75 L206 115" class="fg-line"/>
+<rect x="8" y="52" width="158" height="46" rx="6" class="fg-hot"/>
+<rect x="206" y="12" width="184" height="46" rx="6" class="fg-box"/>
+<rect x="206" y="92" width="184" height="46" rx="6" class="fg-box"/>
+<text x="87" y="81" text-anchor="middle" class="fg-strong">Your reader</text>
+<text x="298" y="32" text-anchor="middle" class="fg-text">Tú</text>
+<text x="298" y="50" text-anchor="middle" class="fg-label">younger audiences</text>
+<text x="298" y="112" text-anchor="middle" class="fg-text">Usted</text>
+<text x="298" y="130" text-anchor="middle" class="fg-label">traditional sectors</text>
+</svg>
+<figcaption>The audience sets the choice between tú and usted. Once chosen, the same form runs through every page.</figcaption>
+</figure>
 
 ### Regional nuances in tone
 
@@ -123,6 +156,19 @@ When building bullet points in Spanish:
 -   Follow Spanish punctuation rules
 
 Use Spanish number formatting, with a comma for decimals and a point or space for thousands (1.234,56, where English writes 1,234.56). Spanish sentences also run longer than English ones, so a translated text grows; test section length with Spanish readers.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="The same figure written in English format as 1,234.56 and in Spanish format as 1.234,56.">
+<path d="M160 75 L240 75" class="fg-accent"/>
+<rect x="20" y="40" width="140" height="70" rx="6" class="fg-box"/>
+<rect x="240" y="40" width="140" height="70" rx="6" class="fg-hot"/>
+<text x="90" y="66" text-anchor="middle" class="fg-label">English</text>
+<text x="90" y="92" text-anchor="middle" class="fg-strong">1,234.56</text>
+<text x="310" y="66" text-anchor="middle" class="fg-label">Spanish</text>
+<text x="310" y="92" text-anchor="middle" class="fg-strong">1.234,56</text>
+</svg>
+<figcaption>Spanish swaps the two separators, with a comma for decimals and a point for thousands. A figure in the local format reads as written for Spain.</figcaption>
+</figure>
 
 ## Visuals that read as local
 

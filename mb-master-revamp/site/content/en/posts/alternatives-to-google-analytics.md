@@ -28,6 +28,26 @@ Switching takes effort, so match it to a need you actually have:
 - **Performance:** Google’s tracking script can slow your pages.
 - **Data ownership:** some businesses want full control over their analytics data.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Four reasons to switch from GA4 around one decision: privacy, complexity, page speed and ownership of your data.">
+<path d="M200 80 L69 30" class="fg-line"/>
+<path d="M200 80 L331 30" class="fg-line"/>
+<path d="M200 80 L69 130" class="fg-line"/>
+<path d="M200 80 L331 130" class="fg-line"/>
+<rect x="10" y="10" width="118" height="40" rx="6" class="fg-box"/>
+<rect x="272" y="10" width="118" height="40" rx="6" class="fg-box"/>
+<rect x="10" y="110" width="118" height="40" rx="6" class="fg-box"/>
+<rect x="272" y="110" width="118" height="40" rx="6" class="fg-box"/>
+<rect x="138" y="58" width="124" height="44" rx="6" class="fg-hot"/>
+<text x="200" y="86" text-anchor="middle" class="fg-strong">Why switch</text>
+<text x="69" y="36" text-anchor="middle" class="fg-text">Privacy</text>
+<text x="331" y="36" text-anchor="middle" class="fg-text">Complexity</text>
+<text x="69" y="136" text-anchor="middle" class="fg-text">Page speed</text>
+<text x="331" y="136" text-anchor="middle" class="fg-text">Ownership</text>
+</svg>
+<figcaption>A switch pays back when it answers one of these four needs, so start from the one your business actually has.</figcaption>
+</figure>
+
 <aside class="post-cta">
 <p><strong>Want to see which market is actually performing?</strong> The tool matters less than the setup. Our <a href="/services/conversion-tracking/">conversion tracking per market</a> shows which language earns the enquiry, with consent mode accounted for. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
@@ -47,6 +67,22 @@ Five tools, each strongest at a different job:
 **Best for:** data ownership.
 
 [Matomo](https://matomo.org) suits you if you want Google Analytics-style reporting with the data under your control. It is open source, self-hosted or cloud.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Matomo runs two ways, self-hosted on your own servers or in the cloud hosted by Matomo, with the same Google Analytics-style reports.">
+<path d="M150 75 L230 35" class="fg-line"/>
+<path d="M150 75 L230 115" class="fg-line"/>
+<rect x="15" y="55" width="135" height="40" rx="6" class="fg-hot"/>
+<rect x="230" y="12" width="160" height="46" rx="6" class="fg-box"/>
+<rect x="230" y="92" width="160" height="46" rx="6" class="fg-box"/>
+<text x="82" y="81" text-anchor="middle" class="fg-strong">Matomo</text>
+<text x="310" y="32" text-anchor="middle" class="fg-text">Self-hosted</text>
+<text x="310" y="50" text-anchor="middle" class="fg-label">your own servers</text>
+<text x="310" y="112" text-anchor="middle" class="fg-text">Cloud</text>
+<text x="310" y="130" text-anchor="middle" class="fg-label">hosted by Matomo</text>
+</svg>
+<figcaption>Either setup gives Google Analytics-style reports with the data under your control.</figcaption>
+</figure>
 
 **Key features:**
 
@@ -146,6 +182,23 @@ Five tools, each strongest at a different job:
 | Mixpanel | Product analytics | Cloud | Configurable | Free up to 1M events a month |
 
 Prices are taken from each vendor’s pricing page on 26 September 2026 and sourced under each tool above.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Plausible and Fathom are cookie-free; Matomo, Piwik PRO and Mixpanel leave cookies configurable.">
+<path d="M30 52 H170" class="fg-rule"/>
+<path d="M230 52 H370" class="fg-rule"/>
+<rect x="10" y="10" width="180" height="130" rx="6" class="fg-hot"/>
+<rect x="210" y="10" width="180" height="130" rx="6" class="fg-box"/>
+<text x="100" y="38" text-anchor="middle" class="fg-strong">Cookie-free</text>
+<text x="100" y="84" text-anchor="middle" class="fg-text">Plausible</text>
+<text x="100" y="110" text-anchor="middle" class="fg-text">Fathom</text>
+<text x="300" y="38" text-anchor="middle" class="fg-strong">Configurable</text>
+<text x="300" y="78" text-anchor="middle" class="fg-text">Matomo</text>
+<text x="300" y="102" text-anchor="middle" class="fg-text">Piwik PRO</text>
+<text x="300" y="126" text-anchor="middle" class="fg-text">Mixpanel</text>
+</svg>
+<figcaption>Two of the five are cookie-free from the start, and the other three let your setup decide.</figcaption>
+</figure>
 
 ## Start from the question your team needs answered
 

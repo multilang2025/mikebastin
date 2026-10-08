@@ -7,7 +7,6 @@ import HomeEvidence from "@/components/HomeEvidence";
 import Testimonials from "@/components/Testimonials";
 import SiteFooter from "@/components/SiteFooter";
 import MarketFlowGraphic from "@/components/MarketFlowGraphic";
-import BastinIdeasGraphic from "@/components/BastinIdeasGraphic";
 import { HOME_GRAPHICS } from "@/lib/home-graphics";
 import { SITE_URL } from "@/lib/schema";
 import { enLanguages } from "@/lib/fr-pages";
@@ -53,45 +52,6 @@ const STATS = [
   { n: 5, s: "+3", k: "Languages spoken" },
   { n: 8, s: "", k: "Projects in the line-up" },
   { n: 9, s: "", k: "BeTranslated country sites" },
-];
-
-const BASTIN = [
-  {
-    letter: "B",
-    word: "Business",
-    desc: "Every search project starts from your business case, so it gets the budget it needs.",
-    href: "/services/lead-generation/",
-  },
-  {
-    letter: "A",
-    word: "Automation",
-    desc: "AI drafts, tests and reports, so the work keeps moving.",
-    href: "/services/ai-consulting/",
-  },
-  {
-    letter: "S",
-    word: "SEO",
-    desc: "Multilingual search, built to rank in the language a buyer actually searches in.",
-    href: "/services/multilingual-seo/",
-  },
-  {
-    letter: "T",
-    word: "Translation",
-    desc: "Copy adapted for the market reading it.",
-    href: "/services/translation-services/",
-  },
-  {
-    letter: "I",
-    word: "Internationalization",
-    desc: "The groundwork done before launch, so a product can take a second language on the build it already has.",
-    href: "/services/app-and-software-localisation/",
-  },
-  {
-    letter: "N",
-    word: "Networking",
-    desc: "Over two decades of referrals, in four languages, still the channel that works.",
-    href: null,
-  },
 ];
 
 const WHAT_WE_DO = [
@@ -387,66 +347,10 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ============ BASTIN, THE ACRONYM ============ */}
-      <section className="band band-b py-[clamp(48px,6vw,80px)]">
-        <div className="shell">
-          <Reveal>
-            <p className="eyebrow mb-2">What the name stands for</p>
-            <h2 className="mb-8 max-w-[24ch] text-[clamp(1.45rem,2.8vw,2.1rem)] font-semibold leading-[1.15]">
-              BASTIN, in six ideas.
-            </h2>
-          </Reveal>
-
-          <div className="relative">
-            {HOME_GRAPHICS.bastinTrail && <BastinIdeasGraphic />}
-            <div className={`flex flex-col${HOME_GRAPHICS.bastinTrail ? " pr-14 sm:pl-14 sm:pr-20" : ""}`} style={{ borderTop: "1px solid var(--rule)" }}>
-              {BASTIN.map((row, i) => {
-                // The initial is the word's own first letter, set in cherry
-                // (owner, 5 Oct 2026: "merge the initials with the rest of
-                // the expression but leave the first letter in cherry").
-                // It keeps data-bastin-letter, which is what the trail
-                // graphic measures to place its arrow. One fluid size for
-                // every word, picked so Internationalization fits a phone.
-                const body = (
-                  <span className="flex min-w-0 flex-col gap-2">
-                    <span
-                      className={`display text-[clamp(1.15rem,5.8vw,2.1rem)] font-semibold leading-none${
-                        row.href ? " transition-colors duration-300 group-hover:text-[var(--berry)]" : ""
-                      }`}
-                    >
-                      <span data-bastin-letter style={{ color: "var(--berry)" }}>
-                        {row.word.charAt(0)}
-                      </span>
-                      {row.word.slice(1)}
-                    </span>
-                    <span data-bastin-copy className="max-w-[56ch] text-[.95rem] leading-[1.55]" style={{ color: "var(--dim)" }}>
-                      {row.desc}
-                    </span>
-                  </span>
-                );
-                const rowClass = "block py-6";
-                const rowStyle = { borderBottom: "1px solid var(--rule)" };
-                return (
-                  <Reveal key={row.letter} i={i}>
-                    {row.href ? (
-                      <Link href={row.href} className={`${rowClass} group`} style={rowStyle}>
-                        {body}
-                      </Link>
-                    ) : (
-                      <div className={rowClass} style={rowStyle}>
-                        {body}
-                      </div>
-                    )}
-                  </Reveal>
-                );
-              })}
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* ============ CREDIBILITY ============ */}
-      <section className="band band-a py-[clamp(56px,8vw,110px)]">
+      {/* BASTIN moved to /about-us/ (owner, 8 Oct 2026), so this band flips to
+          B to keep the A/B alternation after the testimonials. */}
+      <section className="band band-b py-[clamp(56px,8vw,110px)]">
         <div className="shell">
           {/* Two by two, then four across: auto-fit made a row of three
               and a lone fourth with grey empty cells at tablet width. */}

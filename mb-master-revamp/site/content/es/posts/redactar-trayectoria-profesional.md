@@ -50,9 +50,9 @@ Quien selecciona personal lee los currículums en diagonal, así que cada línea
 <text x="150" y="90" text-anchor="middle" class="fg-text">Experiencia</text>
 <text x="250" y="90" text-anchor="middle" class="fg-text">Habilidades</text>
 <text x="350" y="90" text-anchor="middle" class="fg-text">Pruebas</text>
-<text x="50" y="114" text-anchor="middle" class="fg-label">quién, para quién</text>
-<text x="150" y="114" text-anchor="middle" class="fg-label">puestos, logros</text>
-<text x="250" y="114" text-anchor="middle" class="fg-label">herramientas, blandas</text>
+<text x="50" y="114" text-anchor="middle" class="fg-label">tu propuesta</text>
+<text x="150" y="114" text-anchor="middle" class="fg-label">roles, logros</text>
+<text x="250" y="114" text-anchor="middle" class="fg-label">duras, blandas</text>
 <text x="350" y="114" text-anchor="middle" class="fg-label">cifras reales</text>
 </svg>
 <figcaption>El resumen hace la mayor parte del trabajo, porque para muchos lectores es todo el perfil. Todo lo que viene después respalda lo que el resumen promete.</figcaption>

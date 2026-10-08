@@ -28,9 +28,50 @@ El segundo es la revisión humana de la traducción automática antes de publica
 
 El tercero es el que menos se comenta: el SEO. Adapta la investigación de palabras clave a cómo buscan de verdad los francófonos en Google.fr, Qwant o Ecosia, y la página en francés posiciona.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Tres puntos deciden una traducción de inglés a francés: la variante correcta, la revisión humana de la traducción automática y el SEO en francés, que juntos traen consultas.">
+<path d="M180 28 L280 62" class="fg-line"/>
+<path d="M180 80 L274 80" class="fg-line"/>
+<path d="M180 132 L280 98" class="fg-line"/>
+<rect x="8" y="8" width="172" height="40" rx="6" class="fg-box"/>
+<rect x="8" y="60" width="172" height="40" rx="6" class="fg-box"/>
+<rect x="8" y="112" width="172" height="40" rx="6" class="fg-box"/>
+<circle cx="330" cy="80" r="56" class="fg-hot"/>
+<text x="94" y="33" text-anchor="middle" class="fg-text">Variante correcta</text>
+<text x="94" y="85" text-anchor="middle" class="fg-text">Revisión humana</text>
+<text x="94" y="137" text-anchor="middle" class="fg-text">SEO en francés</text>
+<text x="330" y="86" text-anchor="middle" class="fg-strong">Consultas</text>
+</svg>
+<figcaption>La variante, la revisión y el SEO, resueltos antes de publicar: la página en francés trabaja desde el primer día.</figcaption>
+</figure>
+
 ## Los mercados francófonos y lo que espera cada uno
 
 El francés de Francia, de Bélgica, de Suiza y de Quebec tiene cada uno su vocabulario, su registro y sus expectativas comerciales, así que lo primero que preguntamos antes de presupuestar es a qué público francófono te diriges.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Un idioma, cuatro mercados: el francés de Francia, Bélgica, Suiza y Quebec, cada uno con sus propias palabras, como vous, septante o courriel.">
+<path d="M118 80 L160 23" class="fg-line"/>
+<path d="M118 80 L160 61" class="fg-line"/>
+<path d="M118 80 L160 99" class="fg-line"/>
+<path d="M118 80 L160 137" class="fg-line"/>
+<rect x="8" y="60" width="110" height="40" rx="6" class="fg-hot"/>
+<rect x="160" y="8" width="232" height="30" rx="6" class="fg-box"/>
+<rect x="160" y="46" width="232" height="30" rx="6" class="fg-box"/>
+<rect x="160" y="84" width="232" height="30" rx="6" class="fg-box"/>
+<rect x="160" y="122" width="232" height="30" rx="6" class="fg-box"/>
+<text x="63" y="86" text-anchor="middle" class="fg-strong">Francés</text>
+<text x="174" y="28" text-anchor="start" class="fg-text">Francia</text>
+<text x="378" y="28" text-anchor="end" class="fg-label">vous</text>
+<text x="174" y="66" text-anchor="start" class="fg-text">Bélgica</text>
+<text x="378" y="66" text-anchor="end" class="fg-label">septante</text>
+<text x="174" y="104" text-anchor="start" class="fg-text">Suiza</text>
+<text x="378" y="104" text-anchor="end" class="fg-label">términos propios</text>
+<text x="174" y="142" text-anchor="start" class="fg-text">Quebec</text>
+<text x="378" y="142" text-anchor="end" class="fg-label">courriel</text>
+</svg>
+<figcaption>Cada mercado francófono tiene su vocabulario y su registro, así que lo primero antes de presupuestar es saber a qué público te diriges.</figcaption>
+</figure>
 
 | Mercado | Registro por defecto | Rasgos propios | Puntos de atención |
 |---|---|---|---|
@@ -85,6 +126,22 @@ En la traducción de webs, cargamos el contenido en francés en WPML, Polylang o
 ## Cuándo la traducción va acompañada de localización
 
 La localización convierte la traducción fiel de una página de venta en una página escrita para compradores franceses, cuidando los [diez puntos de la localización web](/es/localizar-tu-web-puntos-a-cuidar/), del tono a los formularios.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Una página de venta, dos resultados: la traducción da una versión fiel, la localización una página escrita para compradores franceses.">
+<path d="M168 75 L226 35" class="fg-dim"/>
+<path d="M168 75 L226 115" class="fg-accent"/>
+<rect x="8" y="55" width="160" height="40" rx="6" class="fg-box"/>
+<rect x="226" y="12" width="166" height="46" rx="6" class="fg-box"/>
+<rect x="226" y="92" width="166" height="46" rx="6" class="fg-hot"/>
+<text x="88" y="80" text-anchor="middle" class="fg-text">Página de venta</text>
+<text x="309" y="32" text-anchor="middle" class="fg-text">Traducción</text>
+<text x="309" y="50" text-anchor="middle" class="fg-label">fiel</text>
+<text x="309" y="112" text-anchor="middle" class="fg-strong">Localización</text>
+<text x="309" y="130" text-anchor="middle" class="fg-label">para tu comprador</text>
+</svg>
+<figcaption>Una traducción fiel transmite el sentido; la localización sostiene la venta, con una página escrita para compradores franceses.</figcaption>
+</figure>
 
 ### Redacción SEO multilingüe en torno a las palabras clave francesas
 

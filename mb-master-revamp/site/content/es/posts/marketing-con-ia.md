@@ -46,11 +46,35 @@ Si puedes probar una sola cosa este trimestre, esto es lo que aporta cada uso y 
 
 Publicar con frecuencia te mantiene visible en cada mercado al que vendes, y la capacidad de redacción suele marcar el ritmo. El borrador con IA libera buena parte de esa capacidad: una entrada de blog o una semana de publicaciones sociales llega en minutos.
 
+> El 92,4 % de los profesionales del marketing de contenidos ya usa la IA para su blog, y de media dedican 50 horas menos a redactar que en 2022, unos 50 minutos menos por artículo.
+>
+> Fuente: [Orbit Media Studios, «Blogging Statistics 2026: What 1,042 Content Marketers Told Us About What Works», encuesta anual a 1.042 profesionales del marketing de contenidos, septiembre de 2026](https://www.orbitmedia.com/blog/blogging-statistics/)
+
 - **Ritmo:** mantienes una presencia constante en cada mercado con el equipo que ya tienes.
 - **Relevancia:** las herramientas leen tendencias y comportamiento de búsqueda y sugieren temas oportunos.
 - **Personalización:** el texto se adapta a cada segmento, lo que mejora la interacción y la conversión.
 
 Los modelos GPT redactan artículos, fichas de producto y [campañas de correo](/es/email-marketing-tasa-apertura-conversiones/), y herramientas como [Copy.ai](https://www.copy.ai) y [Jasper](https://www.jasper.ai/) automatizan partes del flujo de contenido. La calidad depende del briefing y de quien edita. Si vendes en varios idiomas, cada versión necesita a alguien que lea ese idioma y revise el borrador antes de publicarlo, y ahí encaja nuestra [redacción SEO multilingüe](/es/services/redaccion-seo-multilingue/).
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="El borrador con IA aporta tres ventajas a la vez: ritmo constante en cada mercado, temas oportunos y un texto que se adapta a cada segmento.">
+<path d="M200 50 L70 102" class="fg-line"/>
+<path d="M200 50 L200 102" class="fg-line"/>
+<path d="M200 50 L330 102" class="fg-line"/>
+<rect x="120" y="10" width="160" height="40" rx="6" class="fg-hot"/>
+<rect x="8" y="102" width="124" height="46" rx="6" class="fg-box"/>
+<rect x="138" y="102" width="124" height="46" rx="6" class="fg-box"/>
+<rect x="268" y="102" width="124" height="46" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-strong">Borrador IA</text>
+<text x="70" y="122" text-anchor="middle" class="fg-text">Ritmo</text>
+<text x="70" y="140" text-anchor="middle" class="fg-label">cada mercado</text>
+<text x="200" y="122" text-anchor="middle" class="fg-text">Relevancia</text>
+<text x="200" y="140" text-anchor="middle" class="fg-label">temas actuales</text>
+<text x="330" y="122" text-anchor="middle" class="fg-text">Segmentos</text>
+<text x="330" y="140" text-anchor="middle" class="fg-label">texto adaptado</text>
+</svg>
+<figcaption>Un borrador más rápido rinde por tres lados, con el equipo que ya tienes.</figcaption>
+</figure>
 
 ## Encuentra a tus mejores compradores con analítica predictiva
 
@@ -62,6 +86,24 @@ El presupuesto rinde más en los segmentos con más probabilidad de comprar, y l
 
 Netflix y Amazon son los ejemplos más conocidos, con modelos predictivos que personalizan sus recomendaciones. Para equipos más pequeños, las métricas predictivas de Google Analytics, como la probabilidad de compra y la de abandono, acercan una versión de la misma idea. Si quieres medir qué mercado rinde más antes de mover presupuesto, nuestro servicio de [monitorización y analítica](/es/services/seo-tecnico/) te ayuda a ponerlo en marcha.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="La analítica predictiva concentra el presupuesto en los segmentos con más probabilidad de comprar y deja menos para los algo o poco receptivos.">
+<path d="M140 75 L240 29" class="fg-accent"/>
+<path d="M140 75 L240 75" class="fg-dim"/>
+<path d="M140 75 L240 121" class="fg-dim" stroke-dasharray="4 4"/>
+<rect x="10" y="47" width="130" height="56" rx="6" class="fg-box"/>
+<rect x="240" y="12" width="150" height="34" rx="6" class="fg-hot"/>
+<rect x="240" y="58" width="150" height="34" rx="6" class="fg-box"/>
+<rect x="240" y="104" width="150" height="34" rx="6" class="fg-box"/>
+<text x="75" y="71" text-anchor="middle" class="fg-strong">Presupuesto</text>
+<text x="75" y="90" text-anchor="middle" class="fg-label">según previsión</text>
+<text x="315" y="35" text-anchor="middle" class="fg-text">Muy receptivos</text>
+<text x="315" y="81" text-anchor="middle" class="fg-text">Algo receptivos</text>
+<text x="315" y="127" text-anchor="middle" class="fg-text">Poco receptivos</text>
+</svg>
+<figcaption>La previsión dirige el gasto a los segmentos con más probabilidad de responder, y el dinero va hacia donde produce resultados.</figcaption>
+</figure>
+
 ## Atiende a tus clientes a cualquier hora con un chatbot
 
 Una pregunta respondida de madrugada mantiene al comprador contigo, y cuando vendes en varios husos horarios, la madrugada es buena parte del día en algún sitio. Los [chatbots con IA](/es/chatbots-ia-empresas/) atienden muchas consultas a la vez, al instante y a cualquier hora.
@@ -70,7 +112,27 @@ Una pregunta respondida de madrugada mantiene al comprador contigo, y cuando ven
 - **Respuestas personalizadas:** el bot puede usar datos del cliente para recomendar el producto o la respuesta adecuados.
 - **Escala:** las respuestas siguen siendo rápidas en los picos de consultas.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Un chatbot con IA resuelve al instante las dudas comunes a cualquier hora y pasa las reclamaciones y excepciones a una persona.">
+<path d="M150 75 L230 35" class="fg-dim"/>
+<path d="M150 75 L230 115" class="fg-accent"/>
+<rect x="15" y="55" width="135" height="40" rx="6" class="fg-box"/>
+<rect x="230" y="12" width="160" height="46" rx="6" class="fg-box"/>
+<rect x="230" y="92" width="160" height="46" rx="6" class="fg-hot"/>
+<text x="82" y="81" text-anchor="middle" class="fg-strong">Chatbot IA</text>
+<text x="310" y="32" text-anchor="middle" class="fg-text">Dudas comunes</text>
+<text x="310" y="50" text-anchor="middle" class="fg-label">al instante</text>
+<text x="310" y="112" text-anchor="middle" class="fg-strong">Excepciones</text>
+<text x="310" y="130" text-anchor="middle" class="fg-label">a una persona</text>
+</svg>
+<figcaption>El bot asume el volumen a cualquier hora, y un traspaso previsto deja las excepciones en manos de una persona.</figcaption>
+</figure>
+
 Zendesk, HubSpot e Intercom ofrecen chat con IA para soporte y ventas, y las tiendas online lo usan para orientar la elección de producto y resolver dudas sobre pedidos. Decide quién revisa las respuestas del bot en cada idioma en el que habla, y cómo pasa la conversación a una persona: el traspaso cuenta tanto como el bot.
+
+> El 87 % de los clientes considera imprescindible que las empresas que usan IA generativa en la atención al cliente ofrezcan la opción de hablar con una persona, y el 50 % dice que esas interacciones le resultan más fáciles.
+>
+> Fuente: [Gartner, «Gartner Survey Finds 87% of Customers Say Companies Using GenAI for Customer Service Must Provide Access to a Human Agent», encuesta a 3.566 clientes B2B y B2C, febrero y marzo de 2026](https://www.gartner.com/en/newsroom/press-releases/2026-08-04-gartner-survey-finds-87-percent-of-customers-say-companies-using-genai-for-customer-service-must-provide-access-to-a-human-agent0)
 
 <aside class="post-cta">
 <p><strong>¿Puede un asistente con IA atender a tus clientes en cada idioma?</strong> Nuestra <a href="/es/services/consultoria-de-inteligencia-artificial/">consultoría de inteligencia artificial</a> te dice qué parte de tu contenido y de tu atención al cliente multilingües conviene automatizar, y cuál sigue necesitando a una persona que lea el idioma. <a href="/es/contactanos/">Reserva una primera conversación</a>.</p>

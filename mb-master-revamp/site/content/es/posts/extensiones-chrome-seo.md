@@ -42,6 +42,10 @@ La mayoría de los fallos que afectan al tráfico de una página se ven en la pr
 
 [SEO Minion](https://chromewebstore.google.com/detail/seo-minion/giihipjfimkajhlcilipnjeohabimjhi?hl=en) cubre gratis la mayor parte del análisis on-page. Muestra las metaetiquetas, los encabezados y otros elementos de la página, los enlaces rotos y los enlaces nofollow, sponsored y UGC, previsualiza el resultado de búsqueda y revisa hreflang, la comprobación que más a menudo necesita una web multilingüe. Para corregir lo que encuentre, nuestro artículo sobre [SEO técnico para sitios multilingües](/es/seo-tecnico-para-sitios-multilingues/) reúne los ajustes que hacen trabajar juntos a tus idiomas.
 
+> El 67 % de los 374.756 dominios con hreflang que Ahrefs estudió en 2023 tenía al menos un error de hreflang.
+>
+> Fuente: [Ahrefs, «Over 67% of Domains Using Hreflang Have Issues (Study of 374,756 Domains)», agosto de 2023](https://ahrefs.com/blog/hreflang-study/)
+
 ### Ahrefs SEO Toolbar
 
 La [Ahrefs SEO Toolbar](https://ahrefs.com/seo-toolbar) señala los elementos que faltan o están mal, la configuración del robots.txt y de las metaetiquetas robots, y las etiquetas Open Graph. La versión gratuita ya resulta útil por sí sola.
@@ -54,9 +58,29 @@ La [Detailed SEO Extension](https://chromewebstore.google.com/detail/detailed-se
 
 La [extensión Web Developer](https://chromewebstore.google.com/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm?hl=en-US) responde a una pregunta que importa para el posicionamiento: ¿qué ve el buscador solo con el HTML, antes de que se ejecute el JavaScript? También resalta encabezados, enlaces e imágenes, y valida el HTML y el CSS.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Una página vista de dos formas: con JavaScript, como la ve el visitante, y solo con el HTML, como la lee el buscador antes de que se ejecute ningún script.">
+<path d="M150 75 L220 35" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M150 75 L220 115" class="fg-accent"/>
+<rect x="15" y="55" width="135" height="40" rx="6" class="fg-box"/>
+<rect x="220" y="12" width="170" height="46" rx="6" class="fg-box"/>
+<rect x="220" y="92" width="170" height="46" rx="6" class="fg-hot"/>
+<text x="82.5" y="80" text-anchor="middle" class="fg-text">Tu página</text>
+<text x="305" y="32" text-anchor="middle" class="fg-text">Con JavaScript</text>
+<text x="305" y="50" text-anchor="middle" class="fg-label">vista del visitante</text>
+<text x="305" y="112" text-anchor="middle" class="fg-strong">Solo el HTML</text>
+<text x="305" y="130" text-anchor="middle" class="fg-label">vista del buscador</text>
+</svg>
+<figcaption>Web Developer desactiva el JavaScript y te muestra la página tal como la lee el buscador solo con el HTML.</figcaption>
+</figure>
+
 ### Redirect Path
 
 [Redirect Path](https://chromewebstore.google.com/detail/redirect-path/aomidfkchockcldhbkggjokdkkebmdll?hl=en) muestra cada salto que da una URL, con el código de estado HTTP en cada paso. Detecta de un vistazo las cadenas y los bucles y redúcelos a un solo salto: la página se mantiene rápida y transmite todo el valor de sus enlaces. Nuestra [lista de auditoría de SEO técnico](/es/lista-de-auditoria-seo-tecnica/) explica qué hacer con lo que encuentra.
+
+> Por defecto, los rastreadores de Google siguen como máximo 10 saltos de redirección.
+>
+> Fuente: [Google Search Central, «How HTTP status codes affect Google's crawlers», actualizado el 4 de febrero de 2026](https://developers.google.com/search/docs/crawling-indexing/http-network-errors)
 
 ## Medir un mercado por sus palabras clave y su competencia
 
@@ -78,6 +102,26 @@ Como herramienta de estudio de mercado más amplia, Similarweb te muestra cómo 
 
 [Wappalyzer](https://chromewebstore.google.com/detail/wappalyzer-technology-pro/gppongmhjkpfnbhagpmjfkannfbllamg) identifica la tecnología que hay detrás de una web: CMS, plataforma de comercio electrónico, herramientas de analítica, frameworks de JavaScript y software de servidor. Sirve tanto para analizar a la competencia como para las auditorías.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 170" role="img" aria-label="El sitio de un competidor visto desde cuatro ángulos: las palabras clave con Keywords Everywhere, la autoridad con MozBar, el tráfico con Similarweb y la tecnología con Wappalyzer.">
+<path d="M200 85 L80 26" class="fg-line"/>
+<path d="M200 85 L320 26" class="fg-line"/>
+<path d="M200 85 L80 144" class="fg-line"/>
+<path d="M200 85 L320 144" class="fg-line"/>
+<rect x="5" y="8" width="150" height="36" rx="6" class="fg-box"/>
+<rect x="245" y="8" width="150" height="36" rx="6" class="fg-box"/>
+<rect x="5" y="126" width="150" height="36" rx="6" class="fg-box"/>
+<rect x="245" y="126" width="150" height="36" rx="6" class="fg-box"/>
+<rect x="135" y="63" width="130" height="44" rx="6" class="fg-hot"/>
+<text x="80" y="31" text-anchor="middle" class="fg-text">Palabras clave</text>
+<text x="320" y="31" text-anchor="middle" class="fg-text">Autoridad</text>
+<text x="80" y="149" text-anchor="middle" class="fg-text">Tráfico</text>
+<text x="320" y="149" text-anchor="middle" class="fg-text">Tecnología</text>
+<text x="200" y="91" text-anchor="middle" class="fg-strong">Competidor</text>
+</svg>
+<figcaption>Cuatro extensiones, cuatro miradas al mismo competidor. Juntas te dicen cuánto vale un mercado antes de comprometer el presupuesto.</figcaption>
+</figure>
+
 ## Comprobar que tus etiquetas de conversión se disparan
 
 Comprueba que cada etiqueta se dispara, para que cada mercado muestre su fuerza real y la próxima decisión de presupuesto siga la cifra correcta.
@@ -85,6 +129,22 @@ Comprueba que cada etiqueta se dispara, para que cada mercado muestre su fuerza 
 ### Tag Assistant
 
 [Tag Assistant](https://chromewebstore.google.com/detail/tag-assistant/kejbdjndbnbjgmefkgdddjlbokphdefk?hl=en), la extensión de Google, comprueba que las etiquetas de Google Analytics, Google Tag Manager y de conversión de Google Ads se disparan correctamente, con tagassistant.google.com para depurar dentro de la página. Sustituye a las antiguas extensiones Legacy y Companion, así que instala esta. Revisar las etiquetas suele descubrir resultados de SEO mejores de lo que muestran los informes. Nuestro artículo sobre [Google Analytics en el marketing internacional](/es/google-analytics-marketing-internacional/) te ayuda después a decidir qué cifras creer en cada mercado.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 124" role="img" aria-label="Tres pasos: las etiquetas se disparan, cada mercado muestra su fuerza real y la próxima decisión de presupuesto sigue la cifra correcta.">
+<line x1="70" y1="36" x2="330" y2="36" class="fg-rule"/>
+<circle cx="70" cy="36" r="24" class="fg-box"/>
+<circle cx="200" cy="36" r="24" class="fg-box"/>
+<circle cx="330" cy="36" r="24" class="fg-hot"/>
+<text x="70" y="90" text-anchor="middle" class="fg-text">Etiquetas</text>
+<text x="70" y="110" text-anchor="middle" class="fg-label">se disparan</text>
+<text x="200" y="90" text-anchor="middle" class="fg-text">Cada mercado</text>
+<text x="200" y="110" text-anchor="middle" class="fg-label">su fuerza real</text>
+<text x="330" y="90" text-anchor="middle" class="fg-text">Presupuesto</text>
+<text x="330" y="110" text-anchor="middle" class="fg-label">cifra correcta</text>
+</svg>
+<figcaption>Tag Assistant confirma que las etiquetas se disparan: así las cifras de cada mercado reflejan su fuerza real cuando decides el presupuesto.</figcaption>
+</figure>
 
 ## La página para las extensiones, el sitio para el rastreador
 
