@@ -99,6 +99,22 @@ List positions in reverse chronological order, most recent first. For each one, 
 
 "Responsible for" tells a reader what you were meant to do. A verb and a result tell them what you did. Use verbs like "led", "developed", "increased" or "optimized", and pair each with a measured outcome.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 130" role="img" aria-label="Before and after: “Responsible for” lists duties; a verb paired with a result shows what you did.">
+<path d="M192 65 L206 65" class="fg-line"/>
+<path d="M201 60 L206 65 L201 70" class="fg-line"/>
+<rect x="10" y="30" width="180" height="70" rx="6" class="fg-box"/>
+<rect x="210" y="30" width="180" height="70" rx="6" class="fg-hot"/>
+<text x="100" y="20" text-anchor="middle" class="fg-label">Before</text>
+<text x="300" y="20" text-anchor="middle" class="fg-label">After</text>
+<text x="100" y="62" text-anchor="middle" class="fg-text">Responsible for</text>
+<text x="100" y="84" text-anchor="middle" class="fg-label">duties listed</text>
+<text x="300" y="62" text-anchor="middle" class="fg-strong">Verb and result</text>
+<text x="300" y="84" text-anchor="middle" class="fg-label">what you did</text>
+</svg>
+<figcaption>Swap the duty for the deed: a verb with a measured result shows the reader what you actually did.</figcaption>
+</figure>
+
 Turn "Responsible for managing SEO" into "Led SEO initiatives that increased organic traffic by [X]% within six months."
 
 ### Explain any employment gaps
@@ -147,6 +163,26 @@ A background written for one role convinces that reader. Adapt it to the job or 
 
 For a content marketing role, lead with SEO, content creation and analytics. For a technical role such as SEO specialist, lead with technical SEO, [keyword research](/services/technical-seo/) and site audits.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="One background adapted three ways: for a content role, for a technical role and for a client.">
+<path d="M200 50 L70 102" class="fg-line"/>
+<path d="M200 50 L200 102" class="fg-line"/>
+<path d="M200 50 L330 102" class="fg-line"/>
+<rect x="115" y="10" width="170" height="40" rx="6" class="fg-hot"/>
+<rect x="8" y="102" width="124" height="46" rx="6" class="fg-box"/>
+<rect x="138" y="102" width="124" height="46" rx="6" class="fg-box"/>
+<rect x="268" y="102" width="124" height="46" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-strong">Your background</text>
+<text x="70" y="122" text-anchor="middle" class="fg-text">Content</text>
+<text x="70" y="140" text-anchor="middle" class="fg-label">SEO, analytics</text>
+<text x="200" y="122" text-anchor="middle" class="fg-text">Technical</text>
+<text x="200" y="140" text-anchor="middle" class="fg-label">site audits</text>
+<text x="330" y="122" text-anchor="middle" class="fg-text">Client</text>
+<text x="330" y="140" text-anchor="middle" class="fg-label">their problem</text>
+</svg>
+<figcaption>The same experience, led differently for each reader: SEO and analytics for content, site audits for technical work, their problem for a client.</figcaption>
+</figure>
+
 -   For a content-focused role: "Skilled in developing SEO-driven [content strategies](/blog/how-to-create-a-targeted-content-strategy/) that align with brand messaging and audience needs, lifting engagement by [X]%."
 -   For a technical SEO role: "Expert in site audits, keyword research, and on-page optimization, moving [X] high-competition keywords onto page one."
 
@@ -169,6 +205,25 @@ Use words a reader understands at once. Convey the important information fast, w
 Clean copy protects a strong background, because a reader judging your attention to detail notices the details first.
 
 Run your text through Grammarly or Hemingway, then read it several times yourself. Ask a trusted colleague or mentor to review it: a second reader sees the text fresh and spots where the argument needs more.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 120" role="img" aria-label="Three proofreading passes: a checker such as Grammarly, several reads of your own, then a colleague with fresh eyes.">
+<path d="M125 60 L138 60" class="fg-line"/>
+<path d="M133 55 L138 60 L133 65" class="fg-line"/>
+<path d="M260 60 L273 60" class="fg-line"/>
+<path d="M268 55 L273 60 L268 65" class="fg-line"/>
+<rect x="5" y="35" width="120" height="50" rx="6" class="fg-box"/>
+<rect x="140" y="35" width="120" height="50" rx="6" class="fg-box"/>
+<rect x="275" y="35" width="120" height="50" rx="6" class="fg-hot"/>
+<text x="65" y="57" text-anchor="middle" class="fg-strong">Checker</text>
+<text x="65" y="76" text-anchor="middle" class="fg-label">Grammarly</text>
+<text x="200" y="57" text-anchor="middle" class="fg-strong">You</text>
+<text x="200" y="76" text-anchor="middle" class="fg-label">several reads</text>
+<text x="335" y="57" text-anchor="middle" class="fg-strong">Colleague</text>
+<text x="335" y="76" text-anchor="middle" class="fg-label">fresh eyes</text>
+</svg>
+<figcaption>Three passes, each with fresher eyes: the checker, then you, then a colleague who spots where the argument needs more.</figcaption>
+</figure>
 
 ## Treat your background like a sales page
 

@@ -26,6 +26,23 @@ Comprendre pourquoi les éditeurs vendent vous indique quels emplacements valent
 
 Les acheteurs veulent des backlinks pour le SEO, la visibilité de marque ou le trafic référent, les éditeurs veulent un revenu, et les plateformes font l’intermédiaire.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 120" role="img" aria-label="Les acheteurs, qui veulent des liens, et les éditeurs, qui veulent un revenu, se rencontrent par une plateforme qui fait l’intermédiaire.">
+<path d="M120 60 L140 60" class="fg-accent"/>
+<path d="M260 60 L280 60" class="fg-accent"/>
+<rect x="5" y="35" width="115" height="50" rx="6" class="fg-box"/>
+<rect x="140" y="35" width="120" height="50" rx="6" class="fg-hot"/>
+<rect x="280" y="35" width="115" height="50" rx="6" class="fg-box"/>
+<text x="63" y="57" text-anchor="middle" class="fg-text">Acheteurs</text>
+<text x="63" y="75" text-anchor="middle" class="fg-label">des liens</text>
+<text x="200" y="57" text-anchor="middle" class="fg-strong">Plateforme</text>
+<text x="200" y="75" text-anchor="middle" class="fg-label">intermédiaire</text>
+<text x="338" y="57" text-anchor="middle" class="fg-text">Éditeurs</text>
+<text x="338" y="75" text-anchor="middle" class="fg-label">un revenu</text>
+</svg>
+<figcaption>La demande des deux côtés fait vivre les plateformes, et savoir pourquoi un éditeur vend vous indique quels emplacements valent l’achat.</figcaption>
+</figure>
+
 Google utilise toujours les liens comme signal de classement. La question porte sur la provenance : les liens que vous obtenez viennent-ils de sites que les algorithmes de Google jugent faisant autorité, pertinents sur votre thématique et éditorialement indépendants ?
 
 ## Ce que les places de marché font gagner aux acheteurs
@@ -40,6 +57,24 @@ Multipliez ce taux par le volume dont une agence ou une équipe SEO interne a be
 
 Les places de marché ramènent la recherche, la négociation et la publication à quelques clics. Le prix est affiché, l’éditeur a déjà accepté le principe des publications, et la plateforme gère la facturation, le séquestre et les litiges. Le gain porte sur la rapidité des opérations ; la valeur SEO dépend toujours du site.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="La prospection à froid enchaîne recherche, négociation et publication ; une place de marché ramène les trois étapes à quelques clics.">
+<path d="M125 43 L142 43" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M257 43 L275 43" class="fg-dim" stroke-dasharray="4 4"/>
+<rect x="10" y="26" width="115" height="34" rx="6" class="fg-box"/>
+<rect x="142" y="26" width="115" height="34" rx="6" class="fg-box"/>
+<rect x="275" y="26" width="115" height="34" rx="6" class="fg-box"/>
+<rect x="10" y="100" width="380" height="36" rx="6" class="fg-hot"/>
+<text x="10" y="18" class="fg-label">Prospection à froid</text>
+<text x="68" y="48" text-anchor="middle" class="fg-label">Recherche</text>
+<text x="200" y="48" text-anchor="middle" class="fg-label">Négociation</text>
+<text x="333" y="48" text-anchor="middle" class="fg-label">Publication</text>
+<text x="10" y="92" class="fg-label">Place de marché</text>
+<text x="200" y="124" text-anchor="middle" class="fg-strong">Quelques clics</text>
+</svg>
+<figcaption>Les places de marché accélèrent les opérations, et la valeur SEO de chaque publication dépend toujours du site.</figcaption>
+</figure>
+
 ## Les liens qui comptent encore depuis SpamBrain
 
 Si vous avez acheté des liens avant 2022, vérifiez lesquels comptent encore. Jusque-là, la détection du spam de liens par Google restait inégale : réseaux de blogs privés (PBN), liens d’annuaires bon marché et réseaux d’articles invités en masse fonctionnaient tous. [La mise à jour de Google contre le spam de liens de décembre 2022](https://developers.google.com/search/blog/2022/12/december-22-link-spam-update) a changé la donne.
@@ -49,6 +84,21 @@ Si vous avez acheté des liens avant 2022, vérifiez lesquels comptent encore. J
 > Source : [Google Search Central Blog, « December 2022 link spam update », 14 décembre 2022](https://developers.google.com/search/blog/2022/12/december-22-link-spam-update)
 
 **SpamBrain** est le système de prévention du spam de Google fondé sur l’IA, et il repère les schémas de liens artificiels à grande échelle. Les liens bon marché sont toujours plus souvent ignorés par l’algorithme. Pour un acheteur, les contrôles de qualité passent donc en premier, car un emplacement neutralisé n’a aucun effet sur le classement.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="SpamBrain laisse un lien de qualité compter pour la position et neutralise un lien bon marché, dont l’effet sur le classement tombe à zéro.">
+<path d="M175 40 L272 52" class="fg-accent"/>
+<path d="M175 120 L245 120" class="fg-dim" stroke-dasharray="4 4"/>
+<rect x="10" y="20" width="165" height="40" rx="6" class="fg-box"/>
+<rect x="10" y="100" width="165" height="40" rx="6" class="fg-box"/>
+<circle cx="320" cy="55" r="50" class="fg-hot"/>
+<text x="93" y="46" text-anchor="middle" class="fg-text">Lien de qualité</text>
+<text x="93" y="126" text-anchor="middle" class="fg-text">Lien bon marché</text>
+<text x="320" y="61" text-anchor="middle" class="fg-strong">Position</text>
+<text x="252" y="125" class="fg-label">neutralisé</text>
+</svg>
+<figcaption>Un emplacement neutralisé a un effet nul sur le classement : pour un acheteur, les contrôles de qualité passent donc en premier.</figcaption>
+</figure>
 
 Les mises à jour suivantes de Google contre le spam vont dans le même sens. Les sites continuent de se positionner, et la valeur des liens de faible qualité est ramenée à zéro, comme l’expliquent les [règles de Google Search Essentials relatives au spam](https://developers.google.com/search/docs/essentials/spam-policies).
 

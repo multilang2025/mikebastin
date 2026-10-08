@@ -99,6 +99,22 @@ Ordena los puestos en orden cronológico inverso, del más reciente al más anti
 
 «Responsable de» le dice al lector lo que se suponía que hacías. Un verbo y un resultado le dicen lo que hiciste. Usa verbos como «lideré», «desarrollé», «aumenté» u «optimicé», y acompaña cada uno con un resultado medido.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 130" role="img" aria-label="Antes y después: «Responsable de» enumera tareas; un verbo con un resultado muestra lo que hiciste.">
+<path d="M192 65 L206 65" class="fg-line"/>
+<path d="M201 60 L206 65 L201 70" class="fg-line"/>
+<rect x="10" y="30" width="180" height="70" rx="6" class="fg-box"/>
+<rect x="210" y="30" width="180" height="70" rx="6" class="fg-hot"/>
+<text x="100" y="20" text-anchor="middle" class="fg-label">Antes</text>
+<text x="300" y="20" text-anchor="middle" class="fg-label">Después</text>
+<text x="100" y="62" text-anchor="middle" class="fg-text">Responsable de</text>
+<text x="100" y="84" text-anchor="middle" class="fg-label">tareas previstas</text>
+<text x="300" y="62" text-anchor="middle" class="fg-strong">Verbo, resultado</text>
+<text x="300" y="84" text-anchor="middle" class="fg-label">lo que hiciste</text>
+</svg>
+<figcaption>Cambia la tarea por el hecho: un verbo con un resultado medido le enseña al lector lo que hiciste.</figcaption>
+</figure>
+
 Convierte «Responsable de la gestión SEO» en «Lideré iniciativas SEO que aumentaron el tráfico orgánico un [X] % en seis meses».
 
 ### Explica una pausa profesional en una línea
@@ -147,6 +163,26 @@ Una trayectoria escrita para un puesto convence al lector de ese puesto. Adápta
 
 Para un puesto de marketing de contenidos, pon delante el SEO, la analítica y tu capacidad para crear una [estrategia de contenido segmentada](/es/estrategia-de-contenido-segmentada/). Para un puesto de especialista SEO, empieza por el [SEO técnico de webs multilingües](/es/services/seo-tecnico/), la investigación de palabras clave y las auditorías web.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Una misma trayectoria adaptada de tres maneras: para un puesto de contenido, para un puesto técnico y para un cliente.">
+<path d="M200 50 L70 102" class="fg-line"/>
+<path d="M200 50 L200 102" class="fg-line"/>
+<path d="M200 50 L330 102" class="fg-line"/>
+<rect x="115" y="10" width="170" height="40" rx="6" class="fg-hot"/>
+<rect x="8" y="102" width="124" height="46" rx="6" class="fg-box"/>
+<rect x="138" y="102" width="124" height="46" rx="6" class="fg-box"/>
+<rect x="268" y="102" width="124" height="46" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-strong">Tu trayectoria</text>
+<text x="70" y="122" text-anchor="middle" class="fg-text">Contenido</text>
+<text x="70" y="140" text-anchor="middle" class="fg-label">SEO, analítica</text>
+<text x="200" y="122" text-anchor="middle" class="fg-text">Técnico</text>
+<text x="200" y="140" text-anchor="middle" class="fg-label">auditorías</text>
+<text x="330" y="122" text-anchor="middle" class="fg-text">Cliente</text>
+<text x="330" y="140" text-anchor="middle" class="fg-label">su problema</text>
+</svg>
+<figcaption>La misma experiencia, presentada de otra forma para cada lector: SEO y analítica para contenido, auditorías para el puesto técnico, su problema para un cliente.</figcaption>
+</figure>
+
 -   Para un puesto centrado en contenido: «Desarrollo estrategias de contenidos orientadas al SEO, alineadas con el mensaje de marca y las necesidades del público, con una interacción un [X] % mayor.»
 -   Para un puesto de SEO técnico: «Especialista en auditorías web, investigación de palabras clave y optimización on-page, con [X] palabras clave de alta competencia llevadas a la primera página.»
 
@@ -169,6 +205,25 @@ Usa palabras que el lector entienda al momento. Quédate con los puestos y logro
 Un texto limpio protege una buena trayectoria, porque un lector que juzga tu atención al detalle se fija primero en los detalles.
 
 Pasa tu texto por LanguageTool o por el corrector de Word, y después léelo tú varias veces. Pide a un compañero o a un mentor de confianza que lo revise: un segundo lector ve el texto con ojos nuevos y detecta dónde el argumento necesita más.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 120" role="img" aria-label="Tres revisiones: un corrector como LanguageTool, varias lecturas tuyas y un compañero con ojos nuevos.">
+<path d="M125 60 L138 60" class="fg-line"/>
+<path d="M133 55 L138 60 L133 65" class="fg-line"/>
+<path d="M260 60 L273 60" class="fg-line"/>
+<path d="M268 55 L273 60 L268 65" class="fg-line"/>
+<rect x="5" y="35" width="120" height="50" rx="6" class="fg-box"/>
+<rect x="140" y="35" width="120" height="50" rx="6" class="fg-box"/>
+<rect x="275" y="35" width="120" height="50" rx="6" class="fg-hot"/>
+<text x="65" y="57" text-anchor="middle" class="fg-strong">Corrector</text>
+<text x="65" y="76" text-anchor="middle" class="fg-label">LanguageTool</text>
+<text x="200" y="57" text-anchor="middle" class="fg-strong">Tú</text>
+<text x="200" y="76" text-anchor="middle" class="fg-label">varias veces</text>
+<text x="335" y="57" text-anchor="middle" class="fg-strong">Compañero</text>
+<text x="335" y="76" text-anchor="middle" class="fg-label">ojos nuevos</text>
+</svg>
+<figcaption>Tres revisiones, cada una con ojos más nuevos: el corrector, tú y un compañero que detecta dónde el argumento pide más.</figcaption>
+</figure>
 
 ## Trata tu trayectoria como una página de venta
 

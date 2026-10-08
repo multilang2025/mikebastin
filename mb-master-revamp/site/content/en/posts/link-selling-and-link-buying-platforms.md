@@ -28,6 +28,23 @@ Knowing why publishers sell tells you which placements are worth buying, because
 
 The platforms below exist because there is genuine commercial demand on both sides. Buyers want backlinks for SEO, brand visibility, or referral traffic, publishers want revenue from their content investment, and the platforms are the matchmakers.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 120" role="img" aria-label="Buyers who want links and publishers who want revenue meet through a platform that acts as matchmaker.">
+<path d="M120 60 L140 60" class="fg-accent"/>
+<path d="M260 60 L280 60" class="fg-accent"/>
+<rect x="5" y="35" width="115" height="50" rx="6" class="fg-box"/>
+<rect x="140" y="35" width="120" height="50" rx="6" class="fg-hot"/>
+<rect x="280" y="35" width="115" height="50" rx="6" class="fg-box"/>
+<text x="63" y="57" text-anchor="middle" class="fg-text">Buyers</text>
+<text x="63" y="75" text-anchor="middle" class="fg-label">want links</text>
+<text x="200" y="57" text-anchor="middle" class="fg-strong">Platform</text>
+<text x="200" y="75" text-anchor="middle" class="fg-label">matchmaker</text>
+<text x="338" y="57" text-anchor="middle" class="fg-text">Publishers</text>
+<text x="338" y="75" text-anchor="middle" class="fg-label">want revenue</text>
+</svg>
+<figcaption>Demand on both sides keeps the platforms in business, and knowing why a publisher sells tells you which placements are worth buying.</figcaption>
+</figure>
+
 In 2026, Google still uses links as a ranking signal. The question is whether the links you acquire come from sites Google’s algorithms judge as authoritative, topically relevant, and editorially independent.
 
 ## Why buyers prefer marketplaces to manual outreach
@@ -42,6 +59,24 @@ Multiply that across the volume any agency or in-house SEO team needs, and marke
 
 Marketplaces compress the discovery, negotiation, and placement steps into a few clicks. Pricing is upfront, the publisher has already agreed to placements in principle, and the marketplace handles invoicing, escrow, and dispute resolution. The gain is speed of operations; the SEO value still depends on the site.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Cold outreach takes discovery, negotiation and placement as separate steps; a marketplace compresses all three into a few clicks.">
+<path d="M125 43 L142 43" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M257 43 L275 43" class="fg-dim" stroke-dasharray="4 4"/>
+<rect x="10" y="26" width="115" height="34" rx="6" class="fg-box"/>
+<rect x="142" y="26" width="115" height="34" rx="6" class="fg-box"/>
+<rect x="275" y="26" width="115" height="34" rx="6" class="fg-box"/>
+<rect x="10" y="100" width="380" height="36" rx="6" class="fg-hot"/>
+<text x="10" y="18" class="fg-label">Cold outreach</text>
+<text x="68" y="48" text-anchor="middle" class="fg-label">Discovery</text>
+<text x="200" y="48" text-anchor="middle" class="fg-label">Negotiation</text>
+<text x="333" y="48" text-anchor="middle" class="fg-label">Placement</text>
+<text x="10" y="92" class="fg-label">Marketplace</text>
+<text x="200" y="124" text-anchor="middle" class="fg-strong">A few clicks</text>
+</svg>
+<figcaption>Marketplaces speed up the operations, and the SEO value of each placement still depends on the site.</figcaption>
+</figure>
+
 ## What SpamBrain changed for cheap links
 
 If you bought links before 2022, it is worth checking which of them still count. Until then, Google’s link spam detection was patchy: PBNs, cheap directory links and mass guest post networks all worked. [Google’s December 2022 link spam update](https://developers.google.com/search/blog/2022/12/december-22-link-spam-update) changed that.
@@ -51,6 +86,21 @@ If you bought links before 2022, it is worth checking which of them still count.
 > Source: [Google Search Central Blog, "December 2022 link spam update", 14 December 2022](https://developers.google.com/search/blog/2022/12/december-22-link-spam-update)
 
 **SpamBrain** is Google’s AI-based spam-prevention system, and it identifies unnatural link patterns at scale. Cheap links increasingly get nullified rather than penalised: the algorithm simply ignores them. For a buyer, that makes quality checks the priority, because a neutralised placement carries zero ranking impact.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="SpamBrain lets a quality link count towards ranking and neutralises a cheap link, which then carries zero ranking impact.">
+<path d="M175 40 L272 52" class="fg-accent"/>
+<path d="M175 120 L245 120" class="fg-dim" stroke-dasharray="4 4"/>
+<rect x="10" y="20" width="165" height="40" rx="6" class="fg-box"/>
+<rect x="10" y="100" width="165" height="40" rx="6" class="fg-box"/>
+<circle cx="320" cy="55" r="50" class="fg-hot"/>
+<text x="93" y="46" text-anchor="middle" class="fg-text">Quality link</text>
+<text x="93" y="126" text-anchor="middle" class="fg-text">Cheap link</text>
+<text x="320" y="61" text-anchor="middle" class="fg-strong">Ranking</text>
+<text x="252" y="125" class="fg-label">neutralised</text>
+</svg>
+<figcaption>A neutralised placement carries zero ranking impact, so quality checks come first for any buyer.</figcaption>
+</figure>
 
 Google’s later spam updates have continued in the same direction. Sites keep ranking, and the value of low-quality links is discounted to zero, as set out in [Google Search Essentials, spam policies](https://developers.google.com/search/docs/essentials/spam-policies).
 

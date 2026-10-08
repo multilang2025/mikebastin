@@ -25,6 +25,26 @@ Knowing what the engines are good at tells you where to let them run and where t
 
 They are also good at the dull work: repetitive strings, product catalogues and keeping several language versions in step when the source changes.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="AI engines handle the repetitive work well: repeated strings, product catalogues and keeping language versions in step.">
+<path d="M200 50 L70 102" class="fg-line"/>
+<path d="M200 50 L200 102" class="fg-line"/>
+<path d="M200 50 L330 102" class="fg-line"/>
+<rect x="115" y="10" width="170" height="40" rx="6" class="fg-hot"/>
+<rect x="8" y="102" width="124" height="46" rx="6" class="fg-box"/>
+<rect x="138" y="102" width="124" height="46" rx="6" class="fg-box"/>
+<rect x="268" y="102" width="124" height="46" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-strong">AI engines</text>
+<text x="70" y="122" text-anchor="middle" class="fg-text">Strings</text>
+<text x="70" y="140" text-anchor="middle" class="fg-label">repeated</text>
+<text x="200" y="122" text-anchor="middle" class="fg-text">Catalogues</text>
+<text x="200" y="140" text-anchor="middle" class="fg-label">product ranges</text>
+<text x="330" y="122" text-anchor="middle" class="fg-text">Versions</text>
+<text x="330" y="140" text-anchor="middle" class="fg-label">kept in step</text>
+</svg>
+<figcaption>Repetitive work is where to let the engines run, from recurring strings to catalogues and updates across every language.</figcaption>
+</figure>
+
 ## What AI translation tools save you
 
 The case is budget: more languages, sooner, for the same spend.
@@ -35,9 +55,43 @@ The case is budget: more languages, sooner, for the same spend.
 
 [AI-powered translation tools](/blog/how-ai-is-transforming-translation-and-localisation/) improve efficiency while holding most of the quality, provided a human stays in the process.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="The same budget spent two ways: human translation alone covers fewer languages, AI with a human editor covers more.">
+<path d="M150 75 L220 35" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M150 75 L220 115" class="fg-accent"/>
+<rect x="20" y="55" width="130" height="40" rx="6" class="fg-box"/>
+<rect x="220" y="12" width="170" height="46" rx="6" class="fg-box"/>
+<rect x="220" y="92" width="170" height="46" rx="6" class="fg-hot"/>
+<text x="85" y="81" text-anchor="middle" class="fg-strong">Same budget</text>
+<text x="305" y="32" text-anchor="middle" class="fg-text">Human only</text>
+<text x="305" y="50" text-anchor="middle" class="fg-label">fewer languages</text>
+<text x="305" y="112" text-anchor="middle" class="fg-strong">AI and editor</text>
+<text x="305" y="130" text-anchor="middle" class="fg-label">more languages</text>
+</svg>
+<figcaption>With the same spend, AI plus a human editor reaches more languages than human translation alone.</figcaption>
+</figure>
+
 ## Where AI needs a human hand
 
 The errors worth catching are the subtle ones: sentences that read well and mean something else.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 180" role="img" aria-label="A grid of machine output by how it reads and what it means: fluent and accurate is ready, awkward output is obvious, and fluent output with the wrong meaning is the subtle error worth catching.">
+<rect x="120" y="40" width="130" height="60" rx="6" class="fg-box"/>
+<rect x="260" y="40" width="130" height="60" rx="6" class="fg-box"/>
+<rect x="120" y="110" width="130" height="60" rx="6" class="fg-hot"/>
+<rect x="260" y="110" width="130" height="60" rx="6" class="fg-box"/>
+<text x="185" y="28" text-anchor="middle" class="fg-label">Reads well</text>
+<text x="325" y="28" text-anchor="middle" class="fg-label">Reads oddly</text>
+<text x="110" y="75" text-anchor="end" class="fg-label">Right meaning</text>
+<text x="110" y="145" text-anchor="end" class="fg-label">Wrong meaning</text>
+<text x="185" y="75" text-anchor="middle" class="fg-text">Ready</text>
+<text x="325" y="75" text-anchor="middle" class="fg-text">Obvious</text>
+<text x="185" y="146" text-anchor="middle" class="fg-strong">Subtle</text>
+<text x="325" y="145" text-anchor="middle" class="fg-text">Obvious</text>
+</svg>
+<figcaption>The error worth a reviewer’s time sits bottom left: a fluent sentence that says something else.</figcaption>
+</figure>
 
 ### Cultural context and nuance
 
