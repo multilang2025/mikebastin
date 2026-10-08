@@ -1,6 +1,6 @@
 ---
 words: 944
-title: "Localización de interfaz para ampliar tu alcance global"
+title: "Localización de interfaz: un producto que se siente local en cada mercado"
 slug: "localizacion-de-interfaz-de-usuario"
 locale: "es"
 type: "posts"

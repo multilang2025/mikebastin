@@ -1,7 +1,7 @@
 ---
 words: 1475
-title: "German SEO content localization: beyond translation for German SEO"
-metaTitle: "German SEO content localization, beyond translation"
+title: "Localizing German content: tone, Sie or du, and what builds trust"
+metaTitle: "Localizing German content for SEO: tone, Sie or du"
 slug: "german-seo-content-localisation"
 locale: "en"
 type: "posts"

@@ -1,6 +1,6 @@
 ---
 words: 1183
-title: "Outils d’IA et de traduction automatique : optimiser vos contenus multilingues"
+title: "Outils d’IA et de traduction automatique pour vos contenus multilingues"
 metaTitle: "IA et traduction automatique : contenus multilingues"
 slug: "outils-ia-traduction-automatique"
 locale: "fr"

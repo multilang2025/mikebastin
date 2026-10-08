@@ -1,6 +1,6 @@
 ---
 words: 1682
-title: "Localizar contenido en alemán para el SEO en Alemania"
+title: "Localizar contenido en alemán: tono, Sie o du y lo que genera confianza"
 slug: "localizar-contenido-en-aleman"
 locale: "es"
 type: "posts"

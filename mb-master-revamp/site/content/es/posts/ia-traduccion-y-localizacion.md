@@ -1,6 +1,6 @@
 ---
 words: 932
-title: "Cómo la IA transforma la traducción y la localización"
+title: "Qué cambia la IA en la traducción y la localización"
 slug: "ia-traduccion-y-localizacion"
 locale: "es"
 type: "posts"

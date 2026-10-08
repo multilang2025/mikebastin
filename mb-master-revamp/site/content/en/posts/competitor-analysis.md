@@ -1,6 +1,6 @@
 ---
 words: 1297
-title: "Competitor analysis for SEO and digital growth"
+title: "SEO competitor analysis: what to look at and what to act on"
 slug: "competitor-analysis"
 locale: "en"
 type: "posts"

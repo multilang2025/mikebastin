@@ -1,6 +1,7 @@
 ---
 words: 1292
-title: "How AI is revolutionising SEO strategies"
+title: "AI in SEO: where it saves time and where judgement still matters"
+metaTitle: "AI in SEO: where it saves time, where judgement matters"
 slug: "how-ai-is-revolutionising-seo-strategies"
 locale: "en"
 type: "posts"

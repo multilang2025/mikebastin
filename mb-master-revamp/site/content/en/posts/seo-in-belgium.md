@@ -1,6 +1,7 @@
 ---
 words: 2109
-title: "The unique challenges of SEO in Belgium"
+title: "SEO in Belgium: one country, three languages, three search markets"
+metaTitle: "SEO in Belgium: three languages, three search markets"
 slug: "seo-in-belgium"
 locale: "en"
 type: "posts"

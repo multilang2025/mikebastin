@@ -1,7 +1,7 @@
 ---
 words: 694
-title: "How user interface localization can transform your global reach"
-metaTitle: "How user interface localization grows your global reach"
+title: "User interface localization: a product that feels local in every market"
+metaTitle: "User interface localization for every market"
 slug: "user-interface-localisation-can-transform-your-global-reach"
 locale: "en"
 type: "posts"

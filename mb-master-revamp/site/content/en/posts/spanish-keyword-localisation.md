@@ -1,6 +1,6 @@
 ---
 words: 1213
-title: "Mastering the art of Spanish keyword localization"
+title: "Spanish keyword localization: the words buyers actually type"
 slug: "spanish-keyword-localisation"
 locale: "en"
 type: "posts"

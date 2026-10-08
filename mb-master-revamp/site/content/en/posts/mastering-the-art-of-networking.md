@@ -1,7 +1,7 @@
 ---
 words: 1169
-title: "Mastering the art of networking: effective strategies for young professionals"
-metaTitle: "The art of networking: strategies for young professionals"
+title: "Networking for young professionals: how to build contacts that last"
+metaTitle: "Networking for young professionals: contacts that last"
 slug: "mastering-the-art-of-networking"
 locale: "en"
 type: "posts"

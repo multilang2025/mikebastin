@@ -1,7 +1,7 @@
 ---
 words: 1286
-title: "El papel de la localización en la optimización de contenido web multilingüe"
-metaTitle: "Optimización de contenido web multilingüe con localización"
+title: "Contenido web multilingüe que suena local en cada mercado"
+metaTitle: "Contenido web multilingüe que suena local"
 slug: "optimizar-contenido-web-multilingue"
 locale: "es"
 type: "posts"

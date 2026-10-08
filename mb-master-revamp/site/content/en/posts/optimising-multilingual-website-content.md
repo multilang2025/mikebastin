@@ -1,7 +1,7 @@
 ---
 words: 1001
-title: "The role of localization in optimizing multilingual website content"
-metaTitle: "Optimizing multilingual website content with localization"
+title: "Multilingual website content that reads as local in every market"
+metaTitle: "Multilingual website content that reads local"
 slug: "optimising-multilingual-website-content"
 locale: "en"
 type: "posts"

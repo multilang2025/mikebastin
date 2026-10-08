@@ -1,6 +1,6 @@
 ---
 words: 1416
-title: "Cómo la IA renueva las estrategias SEO en 2026"
+title: "IA en el SEO: dónde ahorra tiempo y dónde sigue mandando tu criterio"
 slug: "ia-y-estrategias-seo"
 locale: "es"
 type: "posts"

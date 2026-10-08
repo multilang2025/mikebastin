@@ -1,6 +1,6 @@
 ---
 words: 769
-title: "Email marketing hacks: boosting open rates and conversions"
+title: "Email marketing tips that lift open rates and conversions"
 slug: "email-marketing-hacks-boosting-open-rates-and-conversions"
 locale: "en"
 type: "posts"

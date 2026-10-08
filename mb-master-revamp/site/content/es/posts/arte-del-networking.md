@@ -1,7 +1,7 @@
 ---
 words: 1368
-title: "El arte del networking: estrategias para jóvenes profesionales"
-metaTitle: "El arte del networking para jóvenes profesionales"
+title: "Networking para jóvenes profesionales: contactos que duran"
+metaTitle: "Networking para jóvenes profesionales: contactos que duran"
 slug: "arte-del-networking"
 locale: "es"
 type: "posts"

@@ -1,6 +1,6 @@
 ---
 words: 1396
-title: "L’art du networking : stratégies pour jeunes professionnels"
+title: "Networking pour jeunes professionnels : des contacts qui durent"
 slug: "art-du-networking"
 locale: "fr"
 type: "posts"

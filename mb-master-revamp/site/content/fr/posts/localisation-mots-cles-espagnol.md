@@ -1,6 +1,6 @@
 ---
 words: 1375
-title: "Localiser vos mots-clés en espagnol pour le marché espagnol"
+title: "Localiser vos mots-clés en espagnol : les mots que vos acheteurs tapent vraiment"
 slug: "localisation-mots-cles-espagnol"
 locale: "fr"
 type: "posts"

@@ -1,7 +1,7 @@
 ---
 words: 1228
-title: "Optimiser le contenu d’un site multilingue grâce à la localisation"
-metaTitle: "Optimiser un site multilingue grâce à la localisation"
+title: "Un site multilingue dont chaque version sonne locale"
+metaTitle: "Un contenu de site multilingue qui sonne local"
 slug: "optimiser-contenu-site-multilingue"
 locale: "fr"
 type: "posts"
