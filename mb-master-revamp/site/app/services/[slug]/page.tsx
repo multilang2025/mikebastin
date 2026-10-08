@@ -14,7 +14,35 @@ import { SERVICES, getService, CLUSTER_INLINE } from "@/lib/services";
 import { SITE_URL, breadcrumbSchema, serviceSchema } from "@/lib/schema";
 import { serviceGroupForEnSlug, serviceHreflang } from "@/lib/services-locale";
 import HeroArtSlot from "@/components/HeroArtSlot";
+import FrenchSeoJourneyArt from "@/components/FrenchSeoJourneyArt";
 import { hasDlArt } from "@/lib/dl-art";
+
+function ProcessIcon({
+  name,
+}: {
+  name: "consultation" | "scope" | "research" | "setup" | "report" | undefined;
+}) {
+  const shared = {
+    fill: "none",
+    stroke: "currentColor",
+    strokeWidth: 1.7,
+    strokeLinecap: "round" as const,
+    strokeLinejoin: "round" as const,
+  };
+  const paths = {
+    consultation: <><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3h11A2.5 2.5 0 0 1 20 5.5v8a2.5 2.5 0 0 1-2.5 2.5H11l-5 4v-4.2a2.5 2.5 0 0 1-2-2.3z" /><path d="M8 8h8m-8 4h5" /></>,
+    scope: <><rect x="5" y="4" width="14" height="17" rx="2" /><path d="M9 4.5h6M8.5 10h7m-7 4h7m-7 4h4" /></>,
+    research: <><circle cx="10.5" cy="10.5" r="6.5" /><path d="m15.5 15.5 5 5" /></>,
+    setup: <><circle cx="12" cy="12" r="9" /><path d="M3 12h18M12 3a15 15 0 0 1 0 18m0-18a15 15 0 0 0 0 18" /></>,
+    report: <><path d="M4 20V5m0 15h17" /><path d="m7 15 4-4 3 2 5-6" /></>,
+  };
+
+  return (
+    <svg viewBox="0 0 24 24" className="h-6 w-6" aria-hidden="true" {...shared}>
+      {paths[name ?? "consultation"]}
+    </svg>
+  );
+}
 
 // lead-generation has its own hand-built route at app/services/lead-generation/,
 // with the testimonial wall this template does not carry. Excluded here so the
@@ -134,6 +162,13 @@ export default async function ServicePage({
             <p className="max-w-[60ch] text-[clamp(1.05rem,1.5vw,1.2rem)] leading-[1.58]" style={{ color: "var(--dim)" }}>
               {service.lede}
             </p>
+            {service.slug === "french-seo" && (
+              <p className="mt-6">
+                <Link href="/contact/" className="btn btn-primary btn-lg">
+                  Book a free consultation
+                </Link>
+              </p>
+            )}
           </Reveal>
           {/* Proof in the hero, not at the foot of the page. A visitor who
               has never heard of us is deciding whether to keep reading on
@@ -159,7 +194,7 @@ export default async function ServicePage({
       {/* ============ BODY (real prose, migrated + adapted from the legacy pages this service absorbs) ============ */}
       {service.body && service.body.length > 0 && (
         <section className={`band band-${bodyBand} py-[clamp(56px,8vw,110px)]`}>
-          <div className="shell space-y-14">
+          <div className={service.slug === "french-seo" ? "shell relative space-y-14" : "shell space-y-14"}>
             {service.body.map((section, i) => (
               <Reveal key={section.heading} i={i}>
                 {/* A section with `art` runs two columns from md up: the
@@ -220,6 +255,11 @@ export default async function ServicePage({
                 </div>
               </Reveal>
             ))}
+            {service.slug === "french-seo" && (
+              <aside className="pointer-events-none absolute inset-y-0 right-0 hidden w-[260px] xl:block" aria-hidden="true">
+                <FrenchSeoJourneyArt />
+              </aside>
+            )}
           </div>
         </section>
       )}
@@ -255,28 +295,52 @@ export default async function ServicePage({
             </h2>
           </Reveal>
           {service.process ? (
-            <ol className="grid gap-px cells-2 sm:grid-cols-2" style={{ background: "var(--rule)" }}>
-              {service.process.map((step, i, all) => (
-                <Reveal key={step.title} i={i}>
-                  <li
-                    className={`band flex h-full items-baseline gap-4 px-7 py-7${
-                      i === all.length - 1 && all.length % 2 === 1 ? " sm:col-span-2" : ""
-                    }`}
-                    style={{ background: "var(--bg)" }}
-                  >
-                    <span className="display shrink-0 text-[.9rem] font-semibold tabular-nums" style={{ color: "var(--berry)" }}>
-                      {String(i + 1).padStart(2, "0")}
-                    </span>
-                    <span className="flex flex-col gap-2">
-                      <span className="text-[1.05rem] font-semibold leading-[1.35]">{step.title}</span>
-                      <span className="text-[.98rem] leading-[1.55]" style={{ color: "var(--dim)" }}>
-                        {step.text}
+            service.slug === "french-seo" ? (
+              <>
+                <ol className="fseo-process">
+                  {service.process.map((step, i) => (
+                    <Reveal key={step.title} i={i}>
+                      <li className="fseo-process-step">
+                        <span className="fseo-process-marker">
+                          <ProcessIcon name={step.icon} />
+                        </span>
+                        <span className="fseo-process-number">{String(i + 1).padStart(2, "0")}</span>
+                        <h3 className="fseo-process-title">{step.title}</h3>
+                        {step.detail && <span className="fseo-process-detail">{step.detail}</span>}
+                        <p className="fseo-process-copy">{step.text}</p>
+                      </li>
+                    </Reveal>
+                  ))}
+                </ol>
+                <p className="fseo-terms-badge">
+                  <span aria-hidden="true">↻</span>
+                  <span><strong>Flexible monthly terms</strong> · Continue one month at a time.</span>
+                </p>
+              </>
+            ) : (
+              <ol className="grid gap-px cells-2 sm:grid-cols-2" style={{ background: "var(--rule)" }}>
+                {service.process.map((step, i, all) => (
+                  <Reveal key={step.title} i={i}>
+                    <li
+                      className={`band flex h-full items-baseline gap-4 px-7 py-7${
+                        i === all.length - 1 && all.length % 2 === 1 ? " sm:col-span-2" : ""
+                      }`}
+                      style={{ background: "var(--bg)" }}
+                    >
+                      <span className="display shrink-0 text-[.9rem] font-semibold tabular-nums" style={{ color: "var(--berry)" }}>
+                        {String(i + 1).padStart(2, "0")}
                       </span>
-                    </span>
-                  </li>
-                </Reveal>
-              ))}
-            </ol>
+                      <span className="flex flex-col gap-2">
+                        <span className="text-[1.05rem] font-semibold leading-[1.35]">{step.title}</span>
+                        <span className="text-[.98rem] leading-[1.55]" style={{ color: "var(--dim)" }}>
+                          {step.text}
+                        </span>
+                      </span>
+                    </li>
+                  </Reveal>
+                ))}
+              </ol>
+            )
           ) : (
           <ol className="grid gap-px cells-2 sm:grid-cols-2" style={{ background: "var(--rule)" }}>
             {service.sections.map((s, i) => (
@@ -319,7 +383,7 @@ export default async function ServicePage({
             <p className="mb-9 max-w-[58ch] text-[1.05rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
               Thirty minutes on which markets matter, what already ranks, and
               what has been tried before. A written scope naming pages and
-              deliverables follows. Engagements run month to month.
+              deliverables follows. Engagements continue one month at a time.
             </p>
           </Reveal>
           <Reveal i={2}>
