@@ -47,6 +47,10 @@ export type Service = {
    * 27 Sep 2026).
    */
   cardTitle?: string;
+  /** Short card copy for the /services/ index only: a keyword title, one action line and a link label. */
+  indexTitle?: string;
+  indexLine?: string;
+  indexAction?: string;
   /**
    * Mid-sentence form of `name`, for headings that drop it inside a
    * sentence ("How the international SEO engagement runs"). Written out
@@ -415,6 +419,9 @@ export const SERVICES: Service[] = [
     slug: "multilingual-seo",
     name: "International SEO",
     cardTitle: "Multilingual SEO and GEO across every market you sell in",
+    indexTitle: "Multilingual SEO agency",
+    indexLine: "Rank in every market you sell in, and turn each language into enquiries.",
+    indexAction: "Grow every market",
     inline: "international SEO",
     headingTerm: "multilingual SEO",
     h1: "Multilingual SEO and GEO agency for companies already selling abroad",
@@ -546,6 +553,9 @@ export const SERVICES: Service[] = [
     slug: "french-seo",
     name: "French SEO",
     cardTitle: "French SEO and GEO for buyers in France",
+    indexTitle: "French SEO services",
+    indexLine: "Win French buyers searching in French.",
+    indexAction: "Win French buyers",
     inline: "French SEO",
     h1: "French SEO agency that converts",
     subhead: "Expert French SEO services for France, Belgium, Switzerland and Canada.",
@@ -699,6 +709,9 @@ export const SERVICES: Service[] = [
     slug: "german-seo",
     name: "German SEO",
     cardTitle: "German SEO and GEO for the German market",
+    indexTitle: "German SEO services",
+    indexLine: "Earn the trust of German buyers who read every line.",
+    indexAction: "Earn German trust",
     inline: "German SEO",
     h1: "German SEO and GEO agency for companies expanding into Germany",
     subhead: "Strategy agreed with you in English or French, every German page written by native German copywriters, so buyers in Germany, Austria and Switzerland read a supplier that sounds local.",
@@ -834,6 +847,9 @@ export const SERVICES: Service[] = [
     slug: "spanish-seo",
     name: "Spanish SEO",
     cardTitle: "Spanish SEO and GEO for Spain and Latin America",
+    indexTitle: "Spanish SEO services",
+    indexLine: "Reach Spain and Latin America with a page written for each country.",
+    indexAction: "Reach Spanish buyers",
     inline: "Spanish SEO",
     h1: "Spanish SEO and GEO agency for companies selling in Spanish",
     subhead: "Spain run directly from Valencia, Latin America by native copywriters in Santo Domingo, so every Spanish-speaking buyer reads a page written for their own country.",
@@ -963,6 +979,9 @@ export const SERVICES: Service[] = [
     slug: "dutch-seo",
     name: "Dutch SEO",
     cardTitle: "Dutch SEO and GEO for the Netherlands and Belgium",
+    indexTitle: "Dutch SEO services",
+    indexLine: "Convert fast-deciding Dutch and Flemish searchers into enquiries.",
+    indexAction: "Convert Dutch buyers",
     inline: "Dutch SEO",
     h1: "Dutch SEO and GEO agency for the Netherlands and Belgium",
     subhead: "Dutch and French handled directly, with a native reader on every commercial page, so buyers in Amsterdam, Antwerp and Brussels read a supplier who speaks their language properly.",
@@ -1094,6 +1113,9 @@ export const SERVICES: Service[] = [
     slug: "italian-seo",
     name: "Italian SEO",
     cardTitle: "Italian SEO and GEO for the Italian market",
+    indexTitle: "Italian SEO services",
+    indexLine: "Win Italian buyers who check your company details first.",
+    indexAction: "Win Italian buyers",
     inline: "Italian SEO",
     h1: "Italian SEO and GEO agency for companies selling into Italy",
     subhead: "Few competitors write native Italian pages for the terms your buyers search, so well-written Italian pages get seen early and turn visits into enquiries.",
@@ -1188,6 +1210,9 @@ export const SERVICES: Service[] = [
     slug: "portuguese-seo",
     name: "Portuguese SEO",
     cardTitle: "Portuguese SEO and GEO for Portugal and Brazil",
+    indexTitle: "Portuguese SEO services",
+    indexLine: "Capture Portugal and Brazil with a page for each.",
+    indexAction: "Capture both markets",
     inline: "Portuguese SEO",
     h1: "Portuguese SEO and GEO agency for Portugal and Brazil",
     subhead: "Portugal and Brazil each get their own pages, keywords and native writers, so buyers on both sides of the Atlantic read Portuguese written for them.",
@@ -1292,6 +1317,9 @@ export const SERVICES: Service[] = [
     slug: "local-seo",
     name: "Local SEO",
     cardTitle: "Local SEO for cities that search in several languages",
+    indexTitle: "Local SEO services",
+    indexLine: "Get found on the map in every language your city searches in.",
+    indexAction: "Get found locally",
     inline: "local SEO",
     h1: "Local SEO services for multilingual cities",
     subhead: "Be the business nearby buyers find first on the map, in every language your city searches in, and turn the profile into calls and visits.",

@@ -214,7 +214,15 @@ export default function ServicesIndex() {
         const renderCards = (services: typeof inCluster) =>
           services.map((s, i) => (
             <Reveal key={s.slug} i={i}>
-              <li className="band group h-full" style={{ background: "var(--bg)" }}>
+              <li
+                className="band group h-full"
+                style={{
+                  background:
+                    s.slug === "multilingual-seo"
+                      ? "color-mix(in srgb, var(--berry-soft) 55%, var(--bg))"
+                      : "var(--bg)",
+                }}
+              >
                 <Link href={`/services/${s.slug}/`} className="flex h-full flex-col px-7 py-8">
                   <span
                     className="mb-5 flex h-11 w-11 items-center justify-center rounded-full transition-colors duration-300"
@@ -230,10 +238,26 @@ export default function ServicesIndex() {
                       Our core service
                     </span>
                   )}
-                  <span className="ulink mb-2 text-[1.08rem] font-semibold">{s.cardTitle ?? s.name}</span>
+                  <span className="ulink mb-2 text-[1.08rem] font-semibold">
+                    {s.indexTitle ?? s.cardTitle ?? s.name}
+                  </span>
                   <p className="text-[.9rem] leading-[1.5]" style={{ color: "var(--dim)" }}>
-                    {s.lede}
+                    {s.indexLine ?? s.lede}
                   </p>
+                  {s.indexAction && (
+                    <span
+                      className="mt-auto pt-5 text-[.92rem] font-semibold"
+                      style={{ color: "var(--berry)" }}
+                    >
+                      {s.indexAction}{" "}
+                      <span
+                        aria-hidden="true"
+                        className="inline-block transition-transform duration-200 group-hover:translate-x-1"
+                      >
+                        →
+                      </span>
+                    </span>
+                  )}
                 </Link>
               </li>
             </Reveal>
@@ -297,7 +321,8 @@ export default function ServicesIndex() {
                       <path d="m4 7 6 6 6-6" />
                     </svg>
                   </summary>
-                  <ul className="mt-6 grid gap-px cells-3 sm:grid-cols-2 lg:grid-cols-3" style={{ background: "var(--rule)" }}>
+                  <ul
+                    className={`mt-6 grid gap-px cells-3 sm:grid-cols-2 ${moreOptions.length % 3 === 2 ? "" : "lg:grid-cols-3"}`} style={{ background: "var(--rule)" }}>
                     {renderCards(moreOptions)}
                   </ul>
                 </details>
