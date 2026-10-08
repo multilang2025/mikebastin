@@ -109,6 +109,24 @@ Les moteurs génératifs étayent leurs réponses avec des sources crédibles, e
 
 Le second chiffre intéresse particulièrement une entreprise qui s’attaque à un marché étranger : les pages moins bien classées sont celles qui gagnent le plus à présenter des preuves.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Les quatre critères E-E-A-T en grille : l’expérience par vos projets, l’expertise par un auteur signé, l’autorité par les liens reçus et la fiabilité par des chiffres sourcés.">
+<rect x="10" y="8" width="185" height="68" rx="6" class="fg-box"/>
+<rect x="205" y="8" width="185" height="68" rx="6" class="fg-box"/>
+<rect x="10" y="84" width="185" height="68" rx="6" class="fg-box"/>
+<rect x="205" y="84" width="185" height="68" rx="6" class="fg-hot"/>
+<text x="102" y="38" text-anchor="middle" class="fg-strong">Expérience</text>
+<text x="102" y="60" text-anchor="middle" class="fg-label">vos projets</text>
+<text x="297" y="38" text-anchor="middle" class="fg-strong">Expertise</text>
+<text x="297" y="60" text-anchor="middle" class="fg-label">un auteur signé</text>
+<text x="102" y="114" text-anchor="middle" class="fg-strong">Autorité</text>
+<text x="102" y="136" text-anchor="middle" class="fg-label">liens reçus</text>
+<text x="297" y="114" text-anchor="middle" class="fg-strong">Fiabilité</text>
+<text x="297" y="136" text-anchor="middle" class="fg-label">chiffres sourcés</text>
+</svg>
+<figcaption>Le GEO rend chaque critère E-E-A-T visible dans la page : des projets réels, un auteur identifiable, des liens reçus et des chiffres sourcés.</figcaption>
+</figure>
+
 - Illustrez vos pages par des exemples concrets tirés de vos projets.
 - Chiffrez vos affirmations et nommez la source de chaque chiffre.
 - Signez vos contenus avec un auteur identifiable, doté d’une page auteur et d’une présence externe vérifiable.
@@ -116,6 +134,24 @@ Le second chiffre intéresse particulièrement une entreprise qui s’attaque à
 ## Structurez vos données pour qu’une machine les lise
 
 Une IA décide de citer une page après avoir compris ce qu’elle contient. Le balisage Schema.org lui donne ce contexte : qui publie, sur quel sujet, pour quel produit ou quel service.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Le balisage Schema.org, au centre, décrit trois choses à une IA : qui publie la page, quelle offre elle présente et qui la signe.">
+<path d="M200 60 L68 112" class="fg-line"/>
+<path d="M200 60 L200 112" class="fg-line"/>
+<path d="M200 60 L332 112" class="fg-line"/>
+<rect x="140" y="10" width="120" height="50" rx="6" class="fg-hot"/>
+<rect x="4" y="112" width="128" height="40" rx="6" class="fg-box"/>
+<rect x="136" y="112" width="128" height="40" rx="6" class="fg-box"/>
+<rect x="268" y="112" width="128" height="40" rx="6" class="fg-box"/>
+<text x="200" y="34" text-anchor="middle" class="fg-strong">Balisage</text>
+<text x="200" y="52" text-anchor="middle" class="fg-label">Schema.org</text>
+<text x="68" y="137" text-anchor="middle" class="fg-text">Qui publie</text>
+<text x="200" y="137" text-anchor="middle" class="fg-text">Quelle offre</text>
+<text x="332" y="137" text-anchor="middle" class="fg-text">Qui signe</text>
+</svg>
+<figcaption>Le balisage donne à l’IA le contexte de la page, et il décrit exactement ce que la page affiche.</figcaption>
+</figure>
 
 Le paysage des résultats enrichis a changé. Google a retiré les résultats enrichis HowTo en septembre 2023, puis les résultats enrichis FAQ le 7 mai 2026, selon sa [documentation sur les données structurées FAQ](https://developers.google.com/search/docs/appearance/structured-data/faqpage). Le balisage FAQPage reste valide : sa valeur tient désormais à la clarté qu’il apporte aux moteurs et aux IA qui lisent la page.
 
@@ -157,6 +193,22 @@ Chaque clic venu de la recherche vaut davantage qu’hier. Le visiteur qui arriv
 ## Mettez à jour vos contenus phares chaque trimestre
 
 La présence dans les réponses d’IA se renouvelle en permanence : une page tenue à jour garde sa place, et une marque régulière la conserve d’une réponse à l’autre.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Deux pages face à une réponse d’IA : la page mise à jour chaque trimestre y garde sa place, la page à la date dépassée s’en éloigne.">
+<path d="M170 35 L236 75" class="fg-accent"/>
+<path d="M170 115 L236 75" class="fg-dim" stroke-dasharray="4 4"/>
+<rect x="10" y="12" width="160" height="46" rx="6" class="fg-hot"/>
+<rect x="10" y="92" width="160" height="46" rx="6" class="fg-box"/>
+<rect x="236" y="52" width="154" height="46" rx="6" class="fg-box"/>
+<text x="90" y="32" text-anchor="middle" class="fg-strong">Page à jour</text>
+<text x="90" y="50" text-anchor="middle" class="fg-label">chaque trimestre</text>
+<text x="90" y="112" text-anchor="middle" class="fg-text">Page ancienne</text>
+<text x="90" y="130" text-anchor="middle" class="fg-label">date dépassée</text>
+<text x="313" y="80" text-anchor="middle" class="fg-text">Réponse d’IA</text>
+</svg>
+<figcaption>Une page tenue à jour garde sa place dans les réponses d’IA, d’un trimestre à l’autre.</figcaption>
+</figure>
 
 > Seules 30 % des marques restent visibles d’une réponse d’IA à la suivante, et 20 % sur cinq réponses consécutives. Les pages actualisées moins d’une fois par trimestre ont trois fois plus de risques de perdre leurs citations.
 > Source : [AirOps, « The 2026 State of AI Search », décembre 2025](https://www.airops.com/report/the-2026-state-of-ai-search)

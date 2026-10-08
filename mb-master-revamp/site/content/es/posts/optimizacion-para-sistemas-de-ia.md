@@ -41,9 +41,38 @@ Contrasta esa información con el posicionamiento real de tu empresa mediante un
 
 Cuando el modelo asocia tu marca a atributos que ya no son tuyos, el primer trabajo es **corregir el relato** en las fuentes que lee. Este análisis muestra la distancia entre la identidad que comunicas y la que los sistemas de IA han construido a partir de señales externas.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 136" role="img" aria-label="Lo que el modelo asocia a tu marca, como datos antiguos, frente a tu realidad, lo que vendes hoy: la distancia entre ambos es lo primero que corregir.">
+<path d="M160 68 L240 68" class="fg-accent"/>
+<rect x="10" y="40" width="150" height="56" rx="6" class="fg-box"/>
+<rect x="240" y="40" width="150" height="56" rx="6" class="fg-hot"/>
+<text x="200" y="58" text-anchor="middle" class="fg-label">distancia</text>
+<text x="85" y="64" text-anchor="middle" class="fg-strong">El modelo</text>
+<text x="85" y="84" text-anchor="middle" class="fg-label">datos antiguos</text>
+<text x="315" y="64" text-anchor="middle" class="fg-strong">Tu realidad</text>
+<text x="315" y="84" text-anchor="middle" class="fg-label">lo que vendes</text>
+<text x="200" y="124" text-anchor="middle" class="fg-text">Corrige primero esa distancia</text>
+</svg>
+<figcaption>La auditoría de huella semántica muestra la distancia entre la identidad que comunicas y la que la IA ha construido, y corregir ese relato es el primer trabajo.</figcaption>
+</figure>
+
 ## Paso 2: analiza las conversaciones reales de tus compradores
 
 Tus compradores preguntan con frases completas, y las palabras clave de siempre describen solo una parte de esas conversaciones. Complétalas con datos de audiencia y perfiles de comprador para reflejar cómo se formulan las consultas reales, en cada idioma.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 166" role="img" aria-label="Una palabra clave, completada con un perfil de comprador, se convierte en una frase completa como las que tus compradores formulan en cada idioma.">
+<path d="M200 48 L200 62" class="fg-dim"/>
+<path d="M200 102 L200 116" class="fg-accent"/>
+<rect x="120" y="8" width="160" height="40" rx="6" class="fg-box"/>
+<rect x="60" y="62" width="280" height="40" rx="6" class="fg-box"/>
+<rect x="30" y="116" width="340" height="40" rx="6" class="fg-hot"/>
+<text x="200" y="34" text-anchor="middle" class="fg-text">palabra clave</text>
+<text x="200" y="88" text-anchor="middle" class="fg-text">+ perfil de comprador</text>
+<text x="200" y="142" text-anchor="middle" class="fg-strong">Una frase completa</text>
+</svg>
+<figcaption>Los datos de audiencia y los perfiles de comprador convierten la palabra clave de siempre en la pregunta que de verdad se hace.</figcaption>
+</figure>
 
 Este análisis distingue entre lo que el modelo responde **buscando en la web** y lo que responde con su **conocimiento previo**. Así sabes qué consultas activan una búsqueda externa, donde una página bien posicionada puede entrar en la respuesta, y cuáles se resuelven con información ya integrada en el modelo, donde cuenta tu presencia acumulada en la web.
 
@@ -74,6 +103,27 @@ Los modelos de lenguaje toman sus referencias de toda la web, así que tu presen
 Entender **cómo aparecer en las fuentes de referencia de ChatGPT** implica trabajar una presencia coherente en todos esos entornos, y [nuestros servicios](/es/services/) cubren esa presencia mercado por mercado. Las plataformas profesionales y los contenidos republicados influyen en esta percepción, y un dominio con mucha autoridad en un tema, como LinkedIn, puede dar visibilidad a un contenido que en un sitio pequeño pasaría desapercibido.
 
 La mención repetida de tu marca, en contexto y en fuentes relevantes, refuerza su lugar en la información que consultan los sistemas de IA.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Una respuesta de IA se apoya en medios del sector, directorios profesionales, LinkedIn y publicaciones de terceros.">
+<path d="M170 28 L200 80" class="fg-line"/>
+<path d="M230 28 L200 80" class="fg-line"/>
+<path d="M170 132 L200 80" class="fg-line"/>
+<path d="M230 132 L200 80" class="fg-line"/>
+<rect x="10" y="10" width="160" height="36" rx="6" class="fg-box"/>
+<rect x="230" y="10" width="160" height="36" rx="6" class="fg-box"/>
+<rect x="10" y="114" width="160" height="36" rx="6" class="fg-box"/>
+<rect x="230" y="114" width="160" height="36" rx="6" class="fg-box"/>
+<circle cx="200" cy="80" r="44" class="fg-hot"/>
+<text x="90" y="33" text-anchor="middle" class="fg-text">Medios</text>
+<text x="310" y="33" text-anchor="middle" class="fg-text">Directorios</text>
+<text x="90" y="137" text-anchor="middle" class="fg-text">LinkedIn</text>
+<text x="310" y="137" text-anchor="middle" class="fg-text">Publicaciones</text>
+<text x="200" y="77" text-anchor="middle" class="fg-text">Respuesta</text>
+<text x="200" y="96" text-anchor="middle" class="fg-text">de la IA</text>
+</svg>
+<figcaption>Tu presencia en las fuentes que consultan los modelos pesa tanto como tus propias páginas.</figcaption>
+</figure>
 
 <aside class="post-cta">
 <p><strong>¿Quieres saber qué dicen de tu empresa ChatGPT, Gemini o Perplexity en cada idioma?</strong> Nuestra <a href="/es/services/consultoria-de-inteligencia-artificial/">consultoría de inteligencia artificial</a> analiza cómo interpretan los modelos tu web, tu marca y tus contenidos, y qué cambia para que te citen. <a href="/es/contactanos/">Pide tu auditoría gratuita de 20 minutos</a>.</p>
