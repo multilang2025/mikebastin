@@ -165,6 +165,10 @@ Zendesk, HubSpot et Intercom proposent des fonctions de conversation par IA pour
 
 Un assistant multilingue répond dans la langue de la question, et c’est précisément là que la vigilance compte : une réponse inventée en néerlandais peut rester en ligne des mois quand votre équipe lit peu cette langue. Prévoyez qui vérifie les réponses dans chaque langue, appuyez l’assistant sur vos propres contenus pour qu’il parle de vos produits, et organisez le passage vers une personne quand la question dépasse ce qu’il connaît. Le passage de relais compte autant que l’assistant lui-même.
 
+> 87 % des clients jugent indispensable qu’une entreprise qui utilise l’IA générative dans son service client offre la possibilité de joindre une personne, et 50 % trouvent ces échanges plus simples.
+>
+> Source : [Gartner, « Gartner Survey Finds 87% of Customers Say Companies Using GenAI for Customer Service Must Provide Access to a Human Agent », enquête auprès de 3 566 clients B2B et B2C, février et mars 2026](https://www.gartner.com/en/newsroom/press-releases/2026-08-04-gartner-survey-finds-87-percent-of-customers-say-companies-using-genai-for-customer-service-must-provide-access-to-a-human-agent0)
+
 | Langue de l’assistant | Qui relit les réponses | Passage à une personne |
 |---|---|---|
 | Langue de votre équipe | Votre équipe support | Directement dans la conversation |

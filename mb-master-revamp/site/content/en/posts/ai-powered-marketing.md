@@ -32,6 +32,10 @@ If you can try one thing this quarter, here is what each use buys and what it st
 
 Publishing often keeps you visible in every market you sell into, and writing capacity is usually what sets the pace. AI drafting opens up most of that capacity: a blog post or a week of social updates arrives in minutes.
 
+> 92.4% of content marketers now use AI for blogging, and the average content marketer spends 50 fewer hours writing than in 2022, about 50 minutes less per post.
+>
+> Source: [Orbit Media Studios, "Blogging Statistics 2026: What 1,042 Content Marketers Told Us About What Works", annual survey of 1,042 content marketers, September 2026](https://www.orbitmedia.com/blog/blogging-statistics/)
+
 - **Pace:** you keep a consistent presence in each market with the team you already have.
 - **Relevance:** the tools read trends and search behaviour and suggest timely subjects.
 - **Personalisation:** copy adapts to different segments, which lifts engagement and conversion.
@@ -94,8 +98,6 @@ A question answered overnight keeps the buyer with you, and when you sell across
 - **Personalised interactions:** the bot can use customer data to recommend the right product or answer.
 - **Scale:** replies stay fast through peaks in enquiries.
 
-Zendesk, HubSpot and Intercom offer AI chat for support and sales, and e-commerce sites use it to guide product choice and answer order questions. Our guide to [conversational AI in business](/blog/conversational-ai-chatbots-business/) covers ten practical uses and how to measure them. Plan who checks the bot's answers in each language it speaks, and how it hands over to a person; the handover matters as much as the bot.
-
 <figure class="post-fig">
 <svg viewBox="0 0 400 150" role="img" aria-label="An AI chatbot answers routine queries instantly at any hour and hands complaints and exceptions over to a person.">
 <path d="M150 75 L230 35" class="fg-dim"/>
@@ -111,6 +113,12 @@ Zendesk, HubSpot and Intercom offer AI chat for support and sales, and e-commerc
 </svg>
 <figcaption>The bot carries the volume at every hour, and a planned handover keeps the exceptions with a person.</figcaption>
 </figure>
+
+Zendesk, HubSpot and Intercom offer AI chat for support and sales, and e-commerce sites use it to guide product choice and answer order questions. Our guide to [conversational AI in business](/blog/conversational-ai-chatbots-business/) covers ten practical uses and how to measure them. Plan who checks the bot's answers in each language it speaks, and how it hands over to a person; the handover matters as much as the bot.
+
+> 87% of customers say it is essential for companies using generative AI in customer service to offer a way to reach a human agent, while 50% say those interactions are easier.
+>
+> Source: [Gartner, "Gartner Survey Finds 87% of Customers Say Companies Using GenAI for Customer Service Must Provide Access to a Human Agent", survey of 3,566 B2B and B2C customers, February and March 2026](https://www.gartner.com/en/newsroom/press-releases/2026-08-04-gartner-survey-finds-87-percent-of-customers-say-companies-using-genai-for-customer-service-must-provide-access-to-a-human-agent0)
 
 ## Buy AI tools as part of one marketing plan
 

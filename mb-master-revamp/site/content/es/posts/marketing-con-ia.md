@@ -46,6 +46,10 @@ Si puedes probar una sola cosa este trimestre, esto es lo que aporta cada uso y 
 
 Publicar con frecuencia te mantiene visible en cada mercado al que vendes, y la capacidad de redacción suele marcar el ritmo. El borrador con IA libera buena parte de esa capacidad: una entrada de blog o una semana de publicaciones sociales llega en minutos.
 
+> El 92,4 % de los profesionales del marketing de contenidos ya usa la IA para su blog, y de media dedican 50 horas menos a redactar que en 2022, unos 50 minutos menos por artículo.
+>
+> Fuente: [Orbit Media Studios, «Blogging Statistics 2026: What 1,042 Content Marketers Told Us About What Works», encuesta anual a 1.042 profesionales del marketing de contenidos, septiembre de 2026](https://www.orbitmedia.com/blog/blogging-statistics/)
+
 - **Ritmo:** mantienes una presencia constante en cada mercado con el equipo que ya tienes.
 - **Relevancia:** las herramientas leen tendencias y comportamiento de búsqueda y sugieren temas oportunos.
 - **Personalización:** el texto se adapta a cada segmento, lo que mejora la interacción y la conversión.
@@ -108,8 +112,6 @@ Una pregunta respondida de madrugada mantiene al comprador contigo, y cuando ven
 - **Respuestas personalizadas:** el bot puede usar datos del cliente para recomendar el producto o la respuesta adecuados.
 - **Escala:** las respuestas siguen siendo rápidas en los picos de consultas.
 
-Zendesk, HubSpot e Intercom ofrecen chat con IA para soporte y ventas, y las tiendas online lo usan para orientar la elección de producto y resolver dudas sobre pedidos. Decide quién revisa las respuestas del bot en cada idioma en el que habla, y cómo pasa la conversación a una persona: el traspaso cuenta tanto como el bot.
-
 <figure class="post-fig">
 <svg viewBox="0 0 400 150" role="img" aria-label="Un chatbot con IA resuelve al instante las dudas comunes a cualquier hora y pasa las reclamaciones y excepciones a una persona.">
 <path d="M150 75 L230 35" class="fg-dim"/>
@@ -125,6 +127,12 @@ Zendesk, HubSpot e Intercom ofrecen chat con IA para soporte y ventas, y las tie
 </svg>
 <figcaption>El bot asume el volumen a cualquier hora, y un traspaso previsto deja las excepciones en manos de una persona.</figcaption>
 </figure>
+
+Zendesk, HubSpot e Intercom ofrecen chat con IA para soporte y ventas, y las tiendas online lo usan para orientar la elección de producto y resolver dudas sobre pedidos. Decide quién revisa las respuestas del bot en cada idioma en el que habla, y cómo pasa la conversación a una persona: el traspaso cuenta tanto como el bot.
+
+> El 87 % de los clientes considera imprescindible que las empresas que usan IA generativa en la atención al cliente ofrezcan la opción de hablar con una persona, y el 50 % dice que esas interacciones le resultan más fáciles.
+>
+> Fuente: [Gartner, «Gartner Survey Finds 87% of Customers Say Companies Using GenAI for Customer Service Must Provide Access to a Human Agent», encuesta a 3.566 clientes B2B y B2C, febrero y marzo de 2026](https://www.gartner.com/en/newsroom/press-releases/2026-08-04-gartner-survey-finds-87-percent-of-customers-say-companies-using-genai-for-customer-service-must-provide-access-to-a-human-agent0)
 
 <aside class="post-cta">
 <p><strong>¿Puede un asistente con IA atender a tus clientes en cada idioma?</strong> Nuestra <a href="/es/services/consultoria-de-inteligencia-artificial/">consultoría de inteligencia artificial</a> te dice qué parte de tu contenido y de tu atención al cliente multilingües conviene automatizar, y cuál sigue necesitando a una persona que lea el idioma. <a href="/es/contactanos/">Reserva una primera conversación</a>.</p>
