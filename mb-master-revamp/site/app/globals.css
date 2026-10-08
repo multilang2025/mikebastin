@@ -612,6 +612,184 @@ h1, h2, h3, .display {
   100% { transform: translateY(180px); opacity: 0; }
 }
 
+/* Long-form French SEO journey, components/FrenchSeoJourneyArt.tsx. */
+.fseo-journey-art {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  opacity: .82;
+}
+.fseo-journey-art svg { display: block; overflow: visible; }
+.fseo-route-base {
+  stroke: var(--rule);
+  stroke-width: 1.5;
+  stroke-dasharray: 2 7;
+}
+.fseo-route-signal {
+  stroke: var(--berry);
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-dasharray: .025 .975;
+  animation: fseo-signal-travel 12s linear infinite;
+}
+@keyframes fseo-signal-travel {
+  from { stroke-dashoffset: 1; }
+  to { stroke-dashoffset: 0; }
+}
+.fseo-branch {
+  stroke: var(--rule);
+  stroke-width: 1.2;
+}
+.fseo-branch-dotted { stroke-dasharray: 2 5; }
+.fseo-orbit {
+  stroke: var(--rule);
+  stroke-width: 1;
+  stroke-dasharray: 2 7;
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: fseo-orbit-turn 24s linear infinite;
+}
+@keyframes fseo-orbit-turn { to { transform: rotate(1turn); } }
+.fseo-stop {
+  fill: var(--bg);
+  stroke: var(--dim);
+  stroke-width: 1.2;
+}
+.fseo-stop-pulse {
+  fill: none;
+  stroke: var(--berry);
+  stroke-width: 1;
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: fseo-node-pulse 3.2s ease-out infinite;
+  animation-delay: calc(var(--stop) * .65s);
+}
+@keyframes fseo-node-pulse {
+  0%, 10% { opacity: .55; transform: scale(.75); }
+  75%, 100% { opacity: 0; transform: scale(1.5); }
+}
+.fseo-glyph {
+  stroke: var(--ink);
+  stroke-width: 1.4;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.fseo-core { fill: var(--berry); }
+.fseo-satellite { fill: var(--berry); opacity: .55; }
+
+/* French SEO process timeline. */
+.fseo-process {
+  position: relative;
+  display: grid;
+  gap: 28px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.fseo-process::before {
+  position: absolute;
+  top: 22px;
+  bottom: 22px;
+  left: 21px;
+  width: 1px;
+  background: var(--rule);
+  content: "";
+}
+.fseo-process > .reveal { position: relative; }
+.fseo-process-step {
+  position: relative;
+  display: grid;
+  grid-template-columns: 44px minmax(0, 1fr);
+  align-items: start;
+  column-gap: 16px;
+}
+.fseo-process-marker {
+  z-index: 1;
+  display: grid;
+  grid-row: 1 / span 4;
+  width: 44px;
+  height: 44px;
+  place-items: center;
+  border: 1px solid var(--rule);
+  border-radius: 50%;
+  background: var(--bg);
+  color: var(--berry);
+}
+.fseo-process-number {
+  margin: 1px 0 6px;
+  color: var(--berry);
+  font-size: .76rem;
+  font-weight: 700;
+  letter-spacing: .08em;
+}
+.fseo-process-title {
+  margin: 0 0 8px;
+  color: var(--ink);
+  font-size: 1.08rem;
+  font-weight: 650;
+  line-height: 1.3;
+}
+.fseo-process-detail {
+  justify-self: start;
+  margin-bottom: 10px;
+  padding: 4px 9px;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  color: var(--berry);
+  font-size: .75rem;
+  font-weight: 600;
+  line-height: 1.25;
+}
+.fseo-process-copy {
+  grid-column: 2;
+  margin: 0;
+  color: var(--dim);
+  font-size: .94rem;
+  line-height: 1.55;
+}
+.fseo-terms-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin: 30px 0 0;
+  padding: 12px 18px;
+  border: 1px solid var(--berry);
+  border-radius: 999px;
+  background: var(--berry-soft);
+  color: var(--ink);
+  font-size: .92rem;
+}
+.fseo-terms-badge > span:first-child {
+  color: var(--berry);
+  font-size: 1.25rem;
+  line-height: 1;
+}
+.fseo-terms-badge strong { color: var(--berry); }
+
+@media (min-width: 768px) {
+  .fseo-process {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 20px;
+  }
+  .fseo-process::before {
+    top: 22px;
+    right: 10%;
+    bottom: auto;
+    left: 10%;
+    width: auto;
+    height: 1px;
+  }
+  .fseo-process-step {
+    display: flex;
+    min-height: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .fseo-process-marker { margin-bottom: 18px; }
+  .fseo-process-number { margin-bottom: 8px; }
+  .fseo-process-copy { margin-top: 0; }
+}
+
 /* ===========================================================
    Reduced motion — hard stop on everything decorative
    =========================================================== */

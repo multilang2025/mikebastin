@@ -1,0 +1,48 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="size" content="800x600">
+<link rel="stylesheet" href="../kit.css"><style>:root{--w:800px;--h:600px}
+.img{height:84px;background:var(--chip);border-radius:12px;margin:14px 14px 0;display:flex;align-items:center;justify-content:center}
+.mk{font:500 14px 'Inter';color:var(--dim);display:flex;align-items:center;gap:8px}
+.name{font:600 18px/1.3 'Inter';margin:6px 0 2px}
+.adapt{background:var(--soft);border-radius:8px;padding:6px 10px;margin-top:8px}
+.adapt .tag{font:700 12px 'Inter';letter-spacing:.6px;color:var(--berry);text-transform:uppercase;margin-bottom:3px;display:block}
+.price{font:700 28px 'Fraunces';color:var(--ink);line-height:1.1}
+.flds{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.fld{border:1px solid var(--rule);background:var(--cream);border-radius:7px;padding:7px 10px;font:500 14px 'Inter';color:var(--dim)}
+.pay{display:flex;gap:6px;flex-wrap:wrap}.pay span{font:600 13px 'Inter';padding:5px 9px;border-radius:6px;border:1px solid var(--rule);background:var(--cream);color:var(--ink)}
+.trust{display:flex;align-items:center;gap:10px;font:600 14px 'Inter';color:var(--ink)}
+</style></head><body>
+<!-- Website localization project: one page shown in two markets; the price
+     format, form fields, payment methods and trust marks are adapted. -->
+<div class="card browser abs" style="left:4px;top:14px;width:366px">
+  <div class="bar"><i></i><i></i><i></i><span class="url">yoursite.com/en-gb/</span></div>
+  <div class="img"><svg width="56" height="56" viewBox="0 0 90 90"><rect x="15" y="25" width="60" height="45" rx="8" fill="var(--deep)" opacity=".85"/><circle cx="45" cy="47" r="12" fill="var(--cream)"/></svg></div>
+  <div style="padding:10px 16px 16px">
+    <div class="mk"><span class="lang">EN</span>United Kingdom</div>
+    <div class="name">Precision gauge</div>
+    <div class="adapt"><span class="tag">Price</span><div class="price">£199.00</div></div>
+    <div class="adapt"><span class="tag">Form fields</span><div class="flds"><div class="fld">Postcode</div><div class="fld">Town</div></div></div>
+    <div class="adapt"><span class="tag">Payment</span><div class="pay"><span>Card</span><span>PayPal</span></div></div>
+    <div class="adapt"><span class="tag">Trust mark</span><div class="trust"><svg width="22" height="22" viewBox="0 0 24 24"><path d="M12 2 L21 5.5 V12 C21 17 17 21 12 22.5 C7 21 3 17 3 12 V5.5 Z" fill="var(--deep)"/><path d="M8 12.2 l3 3 5-6" fill="none" stroke="var(--cream)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>Secure checkout</div></div>
+  </div>
+</div>
+
+<svg class="abs" style="left:0;top:0" width="800" height="600"><path class="link" d="M376 250 L424 250"/><path d="M416 242 L426 250 L416 258" fill="none" stroke="var(--berry)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+
+<div class="card browser abs" style="left:430px;top:14px;width:366px">
+  <div class="bar"><i></i><i></i><i></i><span class="url">yoursite.com/de/</span></div>
+  <div class="img"><svg width="56" height="56" viewBox="0 0 90 90"><rect x="15" y="25" width="60" height="45" rx="8" fill="var(--deep)" opacity=".85"/><circle cx="45" cy="47" r="12" fill="var(--cream)"/></svg></div>
+  <div style="padding:10px 16px 16px">
+    <div class="mk"><span class="lang">DE</span>Deutschland</div>
+    <div class="name">Präzisionsmessgerät</div>
+    <div class="adapt"><span class="tag">Preis</span><div class="price">229,00 €</div></div>
+    <div class="adapt"><span class="tag">Formularfelder</span><div class="flds"><div class="fld">Postleitzahl</div><div class="fld">Ort</div></div></div>
+    <div class="adapt"><span class="tag">Zahlung</span><div class="pay"><span>Rechnung</span><span>SEPA</span><span>PayPal</span></div></div>
+    <div class="adapt"><span class="tag">Gütesiegel</span><div class="trust"><svg width="22" height="22" viewBox="0 0 24 24"><path d="M12 2 L21 5.5 V12 C21 17 17 21 12 22.5 C7 21 3 17 3 12 V5.5 Z" fill="var(--deep)"/><path d="M8 12.2 l3 3 5-6" fill="none" stroke="var(--cream)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>Geprüfter Shop</div></div>
+  </div>
+</div>
+
+<div class="pill deep abs" style="left:60px;top:530px">Local prices</div>
+<div class="pill abs" style="left:222px;top:530px">Local form fields</div>
+<div class="pill berry abs" style="left:424px;top:530px">Local trust marks</div>
+<div class="pill abs" style="left:608px;top:530px">Local payments</div>
+</body></html>

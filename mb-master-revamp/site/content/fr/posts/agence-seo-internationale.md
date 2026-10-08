@@ -116,7 +116,7 @@ Chaque marché a aussi sa page de service, comme notre [référencement en néer
 
 Des secteurs très différents nous amènent à adapter l’approche à chaque fois, et les enseignements circulent d’un site à l’autre.
 
-- **Agence de traduction.** BeTranslated, l’agence que nous faisons tourner depuis vingt ans, mène dix domaines nationaux (.com, .us, .ca, .co.uk, .be, .fr, .es, .de, .nl, .it). Chacun a son sitemap, son groupe hreflang et sa propre recherche de mots-clés, et se positionne face à ses concurrents locaux.
+- **Agence de traduction.** BeTranslated, l’agence que nous faisons tourner depuis vingt ans, mène neuf domaines nationaux (.com, .us, .ca, .co.uk, .be, .fr, .es, .de, .nl). Chacun a son sitemap, son groupe hreflang et sa propre recherche de mots-clés, et se positionne face à ses concurrents locaux.
 - **Fret industriel.** Pour TX International Freight, à Houston, le SEO technique et le contenu en anglais sont bâtis sur le vocabulaire que les acheteurs du fret industriel emploient réellement, et le site est présent dans le pack local de Houston sur ces recherches.
 - **Cabinet d’avocats.** Delaguía y Luzón, à Valencia, couvre le droit des affaires, le droit du travail, l’immigration et la fiscalité entre l’Espagne et la France, en espagnol, en français, en anglais et en russe, avec un vocabulaire juridique tenu au niveau qu’un avocat exige.
 - **Immobilier caribéen.** Century 21 Perdomo, en République dominicaine, publie ses biens en anglais, en français, en espagnol et en allemand, et chaque annonce modifiée doit arriver dans les quatre langues en même temps.
