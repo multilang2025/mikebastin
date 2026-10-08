@@ -13,13 +13,13 @@ sourceUrl: null
 excerpt: "Outils de maillage interne : six extensions WordPress comparées, de Link Whisper à Link Manager, prix compris, pour faire trouver vite vos pages."
 ---
 
-## Pourquoi automatiser le maillage interne d’un site WordPress
+## Automatisez le maillage interne de votre site WordPress
 
 Vous publiez une nouvelle page solide, et elle est lue dès que le reste de votre site pointe vers elle. Sur un site WordPress de plusieurs centaines d’articles, souvent décliné en français, en anglais et en espagnol pour vos marchés étrangers, un outil tient ces liens à jour plus vite qu’une édition à la main, et relie les pages que vous voulez faire trouver en priorité.
 
 Ci-dessous, six outils de maillage interne et extensions WordPress : le point fort de chacun, son prix, et la façon de choisir entre eux.
 
-## Ce que le maillage interne apporte à vos pages
+## Ce que les liens internes apportent à vos pages
 
 Les liens entre vos propres pages indiquent aux moteurs quelles pages comptent, et aux visiteurs où aller ensuite. Bien posés, ils donnent à la page que vous voulez positionner le soutien dont elle a besoin, à condition que chaque requête ait sa page, comme le montre une [cartographie de l’intention de recherche](/fr/cartographie-intention-de-recherche/).
 
@@ -65,7 +65,7 @@ Les outils se répartissent en deux familles : les uns suggèrent des liens qu�
 
 DAEXT a réuni ses extensions [Interlinks Manager](https://wordpress.org/plugins/daext-interlinks-manager/) et [Autolinks Manager](https://daext.com/autolinks-manager/) en un seul produit, Link Manager. Il associe l’analyse des liens internes, le suivi de la répartition de l’autorité et le suivi des clics à des règles de liens automatiques souples, une configuration des mots-clés en masse et un contrôle des statuts HTTP. Réglez les règles avec soin pour garder un maillage mesuré. DAEXT vend trois licences annuelles : [Personal, un site, 59 dollars](https://daext.com/?daextcomm-action=create-checkout-session&product_id=1), [Freelance, cinq sites, 99 dollars](https://daext.com/?daextcomm-action=create-checkout-session&product_id=2) et [Agency, 25 sites, 149 dollars](https://daext.com/?daextcomm-action=create-checkout-session&product_id=6).
 
-## Choisir l’outil selon le problème à résoudre
+## Choisissez l’outil selon le problème à résoudre
 
 - **Des suggestions pendant la rédaction :** Link Whisper ou Linkilo.
 - **L’analyse sémantique et les silos :** LinkBoss ou Linksy.
@@ -74,7 +74,7 @@ DAEXT a réuni ses extensions [Interlinks Manager](https://wordpress.org/plugins
 
 La plupart de ces outils proposent une version gratuite, un essai ou une garantie de remboursement : testez-en un sur vos propres contenus avant de vous engager.
 
-## Bien utiliser un outil de maillage interne
+## Posez des règles avant d’automatiser
 
 Des règles soignées font la rentabilité d’un outil.
 
@@ -117,6 +117,6 @@ Des règles soignées font la rentabilité d’un outil.
 <p><strong>Vous voulez que la bonne page se positionne sur chaque requête ?</strong> Sur un site multilingue, la cause habituelle est deux pages qui se partagent une même requête, et notre <a href="/fr/services/seo-technique/">SEO technique</a> oriente vos liens internes vers celle qui doit se positionner. <a href="/fr/nous-contacter/">Réservez un premier échange</a>.</p>
 </aside>
 
-## Par où commencer
+## Choisissez selon la taille de votre site
 
 Partez de la taille de votre site, de votre budget et du degré de contrôle souhaité. Quel que soit l’outil retenu, il donne le meilleur de lui-même au sein d’une stratégie SEO plus large, appuyée par un [conseil en IA appliqué au SEO](/fr/services/conseil-ia/), avec une personne qui vérifie ce qu’il fait.

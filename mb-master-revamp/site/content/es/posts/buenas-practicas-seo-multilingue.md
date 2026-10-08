@@ -21,7 +21,7 @@ Tu empresa vende desde España, y tus páginas en francés, en alemán o en ingl
 
 Posicionar sigue siendo la base, y hoy es la primera mitad del trabajo. La segunda es la [optimización para motores generativos](/es/optimizar-para-seo-y-geo/) (GEO), que hace citable tu contenido. Aquí tienes las buenas prácticas de SEO multilingüe que hacen que cada versión de idioma se encuentre y, además, se cite.
 
-## Por qué el SEO multilingüe sigue siendo la base
+## Dile al buscador a qué mercado va cada versión
 
 Cuando el buscador sabe a qué mercado va cada versión de tu web, una buena traducción llega a su público. Un [SEO multilingüe](/es/services/posicionamiento-multilingue/) bien localizado pone cada versión delante de quien la busca, y en cada idioma se gana por separado.
 
@@ -35,7 +35,7 @@ Esas mismas señales son hoy la base de la GEO en cada idioma, así que cada una
 
 <!-- figure:market-reach -->
 
-## Localizar las palabras clave: empezar por cómo busca cada mercado
+## Localiza las palabras clave según cómo busca cada mercado
 
 Las palabras clave localizadas son las que escriben de verdad los compradores de cada país, y por eso son las que traen consultas. Un comprador francés describe su necesidad con otras palabras que el español: la traducción de tu lista en español encuentra una parte, y la investigación hecha en el mercado encuentra el resto.
 
@@ -47,7 +47,7 @@ Cada mercado necesita su propia [investigación de palabras clave](/es/services/
 
 Semrush y Ahrefs ayudan a encontrar los términos locales; un hablante nativo confirma cuáles usa de verdad la gente. Nuestra guía para [localizar contenido en alemán](/es/localizar-contenido-en-aleman/) muestra el trabajo en un mercado concreto. Una redacción local precisa ayuda también a que los modelos de IA asocien tu marca con los temas correctos en cada idioma.
 
-## Metadatos localizados en cada idioma
+## Escribe títulos y descripciones para cada idioma
 
 El título y la descripción son el primer texto comercial que lee un comprador de cada mercado, a menudo antes de conocer tu nombre. Cada versión de idioma necesita los suyos:
 
@@ -69,7 +69,7 @@ Con hreflang, el buscador envía al comprador francés a tu página en francés.
 
 El detalle de ambas decisiones, con el contenido duplicado entre idiomas y la elección del servidor, está en nuestra guía de [SEO técnico para sitios multilingües](/es/seo-tecnico-para-sitios-multilingues/).
 
-## Enlaces locales y autoridad regional
+## Consigue enlaces del país al que vendes
 
 Un enlace desde la prensa local o una asociación sectorial del país al que vendes vale más que un enlace internacional genérico, porque la relevancia en búsqueda es geográfica además de temática. Para una empresa española que vende en Francia, eso significa enlaces de webs francesas; en Alemania, de webs alemanas.
 
@@ -81,13 +81,13 @@ Tres maneras de ganar enlaces regionales:
 
 La calidad pesa más que la cantidad, así que construye tu [link building](/es/services/seo-tecnico/) con enlaces editoriales ganados: son los que duran y los que respetan las directrices de Google. En tu mercado de origen, el mismo trabajo lo explicamos en nuestra guía de [link building local en España](/es/link-building-local-en-espana/). Los enlaces con autoridad en un mercado suben también la probabilidad de que los modelos de IA traten tu contenido como una fuente fiable allí.
 
-## Datos estructurados y claridad de entidades
+## Datos estructurados para que la IA identifique tu mercado
 
 Un sistema de IA cita la página cuyo mercado identifica con confianza. Cada versión de idioma lleva su marcado de esquema: WebPage, Organization, BreadcrumbList y los esquemas de producto o servicio que correspondan.
 
 En un sitio multilingüe, la claridad de entidades pesa aún más, porque los modelos necesitan señales inequívocas para saber qué versión corresponde a cada mercado, idioma y público. Los tipos que más cuentan y cómo implantarlos están en nuestra guía de [datos estructurados y schema para GEO](/es/datos-estructurados-schema-optimizacion-geo/).
 
-## La GEO y la presencia en cada idioma
+## Aparece en las respuestas de IA de cada idioma
 
 Una parte creciente de tus compradores compara proveedores dentro de los AI Overviews y AI Mode de Google, ChatGPT, Perplexity y Gemini, que se nutren de contenido estructurado, con autoridad y rico en entidades. Un contenido escrito para las respuestas de IA, además de para los resultados clásicos, llega a esa parte de la decisión.
 

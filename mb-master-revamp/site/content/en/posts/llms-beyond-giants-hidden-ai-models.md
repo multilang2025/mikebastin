@@ -183,7 +183,7 @@ Build on a model whose licence covers your use, and the work lasts. Check the ro
 
 The other licences come from each project’s own pages, linked in its section above.
 
-## What this list means for your AI strategy
+## Match each task to the right model
 
 Matching each task to the right model often saves money over sending everything to the latest frontier model. The “best” LLM is the one that fits your use case at a sensible cost.
 
@@ -207,8 +207,8 @@ If you are picking an LLM in 2026, ask three questions. Does the licence allow w
 
 For more on how AI is reshaping search and content work, see our pieces on [how AI is revolutionising SEO](/blog/how-ai-is-revolutionising-seo-strategies/) and [how AI is transforming translation and localization](/blog/how-ai-is-transforming-translation-and-localisation/).
 
-## Need help picking the right AI stack for your business?
+## Pick the right AI stack for your business
 
 The right model choice keeps paying off for months: a licence that covers your use, a bill that stays in proportion as usage grows, and language your customers read as natural. We help businesses get all three, from picking the right LLM for multilingual content to fitting AI into existing SEO and translation workflows, with advice grounded in production reality.
 
-[Get in touch](/contact/)
+[Talk through your AI stack with us](/contact/)

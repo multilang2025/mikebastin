@@ -115,4 +115,4 @@ Commencez par les points les plus proches de la vente (paiements, formulaires et
 <figcaption>Commencez au plus près de la vente. Les points du paiement et des formulaires transforment le plus vite des visites en commandes.</figcaption>
 </figure>
 
-Forts de plus de deux décennies dans le SEO, la traduction et le marketing, nous aidons les entreprises à bâtir des sites adaptés à chaque marché et visibles sur celui-ci. Nos services de [localisation de site web](/fr/services/localisation-de-site-web/) commencent par une évaluation gratuite de la localisation d’un marché, et vous pouvez [nous contacter](/fr/nous-contacter/) pour la demander.
+Forts de plus de deux décennies dans le SEO, la traduction et le marketing, nous aidons les entreprises à bâtir des sites adaptés à chaque marché et visibles sur celui-ci. Nos services de [localisation de site web](/fr/services/localisation-de-site-web/) commencent par une évaluation gratuite de la localisation d’un marché : [demandez la vôtre](/fr/nous-contacter/) pour votre premier marché.

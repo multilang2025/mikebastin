@@ -1,6 +1,7 @@
 ---
 words: 1508
-title: "Estrategia de contenido dual: optimizar para SEO y GEO"
+title: "Optimizar para SEO y GEO: una sola página para Google y para la IA"
+metaTitle: "Optimizar para SEO y GEO con una sola estrategia"
 slug: "optimizar-para-seo-y-geo"
 locale: "es"
 type: "posts"
@@ -22,7 +23,7 @@ Aquí tienes en qué se diferencian el SEO y el GEO, qué hace citable una pági
 
 **En síntesis:** el SEO busca clics desde los resultados de búsqueda. El GEO (generative engine optimization) busca que la IA cite tu marca como fuente, y para eso conviene saber [medir el rendimiento GEO](https://mikebastin.com/es/medir-rendimiento-geo/). Los dos se apoyan en el mismo contenido, y nuestra [consultoría de inteligencia artificial](/es/services/consultoria-de-inteligencia-artificial/) trabaja esa parte de la IA para empresas que venden en varios mercados.
 
-## SEO y GEO: diferencias clave
+## Lo que premia el SEO y lo que premia el GEO
 
 Saber qué premia cada canal te evita escribir dos veces la misma página. El SEO pone el acento en la velocidad, las palabras clave y la autoridad del dominio. El GEO lo pone en la claridad de cada afirmación, la coherencia de tus datos y lo fácil que resulta citarte.
 
@@ -34,7 +35,7 @@ Saber qué premia cada canal te evita escribir dos veces la misma página. El SE
 
 Un [análisis competitivo SEO](https://mikebastin.com/es/analisis-competitivo-seo/) muestra qué contenidos de tu sector eligen ya los modelos de lenguaje como fuente, y por dónde puedes entrar tú. Puedes ver todo lo que hacemos en [nuestros servicios](/es/services/).
 
-## Cómo optimizar contenido para motores generativos
+## Escribe para que los motores generativos te citen
 
 Una página citada coloca tu marca dentro de la respuesta, en el momento en que el comprador decide. Los modelos de lenguaje citan con más facilidad el contenido estructurado, verificable y preciso.
 
@@ -52,7 +53,7 @@ El mismo nombre, dirección y teléfono (NAP) en todas las plataformas da confia
 <p><strong>¿Quieres saber cómo te leen ChatGPT, Claude o Perplexity?</strong> Nuestra <a href="/es/services/consultoria-de-inteligencia-artificial/">consultoría de inteligencia artificial</a> analiza cómo interpretan los modelos tu web y tu marca, qué páginas pueden citar y qué cambia para que te citen. <a href="/es/contactanos/">Pide tu auditoría gratuita de 20 minutos</a>.</p>
 </aside>
 
-## Integrar SEO y GEO en tu estrategia de contenidos
+## Usa un solo proceso de redacción para los dos canales
 
 Un solo proceso de redacción para los dos canales cuesta menos y mantiene tu mensaje igual en todas partes. Pasa de pensar en palabras clave sueltas a pensar en entidades y temas: tu empresa, tus servicios, tus expertos y las preguntas que resuelven. Cada artículo responde a la persona que busca y ofrece una estructura que la IA puede recorrer. Para elegir esos temas según lo que buscan tus clientes, sigue nuestra guía de [estrategia de contenido segmentada](/es/estrategia-de-contenido-segmentada/). Nuestro [SEO multilingüe](/es/services/posicionamiento-multilingue/) mantiene ese equilibrio en cada idioma.
 
@@ -82,7 +83,7 @@ El GEO mantiene las exigencias del SEO: la velocidad de carga y una navegación 
 
 Una jerarquía visual con H2, H3 y listas permite a los motores generativos dividir y resumir la información. Para [comparar tu sitio con el de tus competidores](https://mikebastin.com/es/analizar-trafico-web-competencia/), revisa también cómo se ven los dos en móvil y en ordenador.
 
-## Medir y reforzar tu autoridad en GEO
+## Mide y refuerza tu autoridad en GEO
 
 Lo que mides decide dónde va el presupuesto, así que el GEO necesita sus propios indicadores: con qué frecuencia aparece tu marca en las respuestas de Perplexity, Claude o ChatGPT para las preguntas de tu sector, y cómo te describen. Los indicadores, las herramientas y una rutina mensual están en nuestra guía para [medir el rendimiento GEO y las citas de IA](/es/medir-rendimiento-geo/). Varias [herramientas gratuitas de análisis competitivo](https://mikebastin.com/es/herramientas-gratuitas-analisis-competitivo/) dan una primera lectura.
 
@@ -132,5 +133,5 @@ Depende de su calidad. Google actúa contra el contenido genérico y de baja cal
 
 Empieza por las preguntas que tus compradores hacen en cada mercado, comprueba qué fuentes citan hoy las respuestas de IA y reescribe primero las páginas que deberían ser esas fuentes.
 
-[Ver nuestro trabajo en SEO internacional](/es/)  
-[Ver el SEO multilingüe por mercado](/es/services/posicionamiento-multilingue/)
+[Mira cómo trabajamos el SEO internacional](/es/)  
+[Consulta nuestro SEO multilingüe mercado a mercado](/es/services/posicionamiento-multilingue/)

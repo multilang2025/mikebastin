@@ -1,7 +1,7 @@
 ---
 words: 2222
-title: "Análisis competitivo SEO: cómo convertir el análisis de la competencia en un plan"
-metaTitle: "Análisis competitivo SEO convertido en un plan de acción"
+title: "Análisis competitivo SEO: de lo que hace tu competencia a tu plan"
+metaTitle: "Análisis competitivo SEO: de tu competencia a tu plan"
 slug: "analisis-competitivo-seo"
 locale: "es"
 type: "posts"
@@ -23,7 +23,7 @@ Un análisis competitivo SEO bien llevado termina en una lista corta de acciones
 
 Aquí tienes el método que seguimos: cómo dar con tus rivales reales, las cuatro cosas que conviene extraer de ellos, las herramientas y cómo leer sus cifras, y cómo repetirlo en cada idioma y en las respuestas de IA.
 
-## Qué decide un análisis competitivo SEO
+## Fija las decisiones antes de abrir una herramienta
 
 Antes de abrir una herramienta, conviene saber qué decisiones debe alimentar el análisis. Así cada hora de trabajo termina en una prioridad.
 
@@ -40,7 +40,7 @@ Un despacho de abogados de Valencia con el que trabajamos tenía claro que su gr
 
 Nosotros revisamos los resultados de las 30 a 50 búsquedas que de verdad le importan a un cliente. Las páginas que salen una y otra vez forman la lista real: rivales directos, indirectos y de contenido, y a veces un hilo de foro que posiciona por encima de cualquier competidor «oficial». Saber eso cambia el encargo: tu objetivo pasa a ser superar a los tres blogs que captan la intención de compra, y el término genérico queda para más adelante. El método paso a paso lo tienes en nuestra guía para [encontrar tus verdaderos competidores SEO](/es/competidores-seo/).
 
-## Análisis de la competencia SEO: las cuatro cosas que extraer de cada rival
+## Las cuatro cosas que extraer de cada rival
 
 Con la lista hecha, el trabajo útil es extraer de cada rival lo que explica su posición. Cuando un cliente nos pide analizar cinco competidores, esto es lo que sacamos de cada uno.
 
@@ -75,7 +75,7 @@ Con la lista hecha, el trabajo útil es extraer de cada rival lo que explica su 
 <figcaption>Las tres primeras extracciones explican por qué gana el rival; la cuarta te dice qué páginas escribir primero.</figcaption>
 </figure>
 
-## Por qué conviene centrarse en las pocas páginas que traen tráfico
+## Céntrate en las pocas páginas que traen tráfico
 
 Antes de pasarte una semana mapeando cada página del sitio de un competidor, ten en cuenta cómo se reparte el tráfico en la web.
 
@@ -119,7 +119,7 @@ Las cifras de tráfico de terceros son estimaciones: trátalas como rangos y com
 
 Para la parte técnica, Screaming Frog compara la arquitectura de los sitios, y LibreCrawl es una alternativa gratuita y de código abierto con funciones parecidas. Surfer SEO y Frase ayudan con la optimización on-page a partir de las páginas que lideran los resultados, y [Search Engine Land](https://searchengineland.com/) sigue los cambios del algoritmo.
 
-## Un análisis de la competencia por idioma, porque cada mercado tiene sus rivales
+## Haz un análisis por idioma, porque cada mercado tiene sus rivales
 
 Cada mercado al que vendes tiene su propio conjunto de competidores, y por eso el análisis se repite una vez por idioma. Hacerlo así te da un encargo de contenido y un plan de enlaces que funcionan en ese país.
 
@@ -171,4 +171,4 @@ Sí, un análisis básico es posible con Google Search Console, la observación 
 
 Elige un mercado, cinco rivales y las veinte búsquedas que más te importan. Con eso tienes el primer plan del trimestre.
 
-Si quieres comprobar que tu equipo se compara con la lista correcta, empezamos por una de tus búsquedas prioritarias en el mercado que más te importa. [Escríbenos](/es/contactanos/) o mira [cómo llevamos los programas de SEO multilingüe](/es/services/posicionamiento-multilingue/).
+Si quieres comprobar que tu equipo se compara con la lista correcta, empezamos por una de tus búsquedas prioritarias en el mercado que más te importa. [Pide una revisión de tu lista de rivales](/es/contactanos/) o mira [cómo llevamos los programas de SEO multilingüe](/es/services/posicionamiento-multilingue/).

@@ -552,8 +552,8 @@ export const SERVICES: Service[] = [
     name: "French SEO",
     cardTitle: "French SEO and GEO for buyers in France",
     inline: "French SEO",
-    h1: "French SEO agency that converts",
-    subhead: "Expert French SEO services for France, Belgium, Switzerland and Canada.",
+    h1: "French SEO and GEO agency for companies selling into France",
+    subhead: "Reach buyers in France, Belgium, Switzerland and Canada with research, pages and reporting done in French.",
     cluster: "Search",
     angle: "French SEO for companies selling into France",
     lede: "Work directly with a French SEO consultant to turn local searches into qualified leads.",
@@ -840,7 +840,7 @@ export const SERVICES: Service[] = [
     name: "Spanish SEO",
     cardTitle: "Spanish SEO and GEO for Spain and Latin America",
     inline: "Spanish SEO",
-    h1: "Spanish SEO that converts",
+    h1: "Spanish SEO and GEO agency for Spain and Latin America",
     subhead: "Reach more buyers in Spain and Latin America with search strategies and content built for each market.",
     cluster: "Search",
     angle: "SEO Spain and Latin America, one market at a time",
@@ -2361,11 +2361,11 @@ export const CLUSTERS = ["Search", "Lead generation", "Localization", "AI", "Sup
  * pages rather than competing with them.
  */
 export const CLUSTER_HEADING: Record<string, string> = {
-  "Lead generation": "Lead generation services",
+  "Lead generation": "Lead generation services that turn visits into enquiries",
   Search: "SEO services per language and market",
-  Localization: "Localization and translation services",
+  Localization: "Localization and translation services, from web copy to sworn documents",
   AI: "AI services for search and language",
-  Supporting: "Technical and content services",
+  Supporting: "Technical and content services that keep every language ranking",
 };
 
 /** Mid-sentence form of each cluster, for the same reason as Service.inline. */

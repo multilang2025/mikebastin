@@ -163,7 +163,7 @@ Microsoft
 <p><strong>El reparto justo entre modelo abierto y API de pago para tu contenido multilingüe.</strong> Nuestra consultoría de inteligencia artificial te dice qué partes de tu flujo de trabajo puede asumir un modelo en cada idioma, y cuáles siguen pidiendo una persona que lea ese idioma. <a href="/es/services/consultoria-de-inteligencia-artificial/">Conoce nuestra consultoría de IA</a> o <a href="/es/contactanos/">reserva la primera llamada</a>.</p>
 </aside>
 
-## Las licencias de un vistazo
+## Compara las licencias de un vistazo
 
 Revisa la fila de la tabla antes de lanzar la prueba de rendimiento: un modelo cuya licencia cubre tu uso te ahorra reconstruirlo todo más adelante.
 
@@ -186,7 +186,7 @@ Revisa la fila de la tabla antes de lanzar la prueba de rendimiento: un modelo c
 
 Las demás licencias proceden de las páginas de cada proyecto, enlazadas en su sección más arriba.
 
-## El modelo adecuado para cada tarea
+## Elige el modelo adecuado para cada tarea
 
 Asignar a cada tarea el modelo adecuado suele costar menos que enviarlo todo al último modelo puntero.
 
@@ -209,5 +209,5 @@ Para elegir un LLM, hazte tres preguntas. ¿La licencia permite lo que de verdad
 La elección del modelo también pesa en tu visibilidad: nuestros artículos sobre [cómo la IA renueva las estrategias SEO](/es/ia-y-estrategias-seo/) y sobre [la IA en traducción y localización](/es/ia-traduccion-y-localizacion/) muestran cómo la IA cambia la búsqueda y la producción de contenido.
 
 <aside class="post-cta">
-<p><strong>Un modelo adaptado a tus idiomas, una licencia que cubre tu uso y una factura proporcionada.</strong> Ayudamos a las empresas a elegir el LLM adecuado para su contenido multilingüe y a integrarlo en sus flujos de SEO y traducción. <a href="/es/contactanos/">Cuéntanos tu proyecto</a>.</p>
+<p><strong>Un modelo adaptado a tus idiomas, una licencia que cubre tu uso y una factura proporcionada.</strong> Ayudamos a las empresas a elegir el LLM adecuado para su contenido multilingüe y a integrarlo en sus flujos de SEO y traducción. <a href="/es/contactanos/">Cuéntanos qué tareas quieres pasar a un LLM</a>.</p>
 </aside>

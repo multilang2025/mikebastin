@@ -2,6 +2,7 @@ import type React from "react";
 import Link from "next/link";
 import Reveal from "@/components/Reveal";
 import ServiceProof from "@/components/ServiceProof";
+import ServiceTeamBand from "@/components/ServiceTeamBand";
 import SiteFooter from "@/components/SiteFooter";
 import Expandables from "@/components/Expandables";
 import ServiceHeroArt from "@/components/ServiceHeroArt";
@@ -51,17 +52,17 @@ export const SERVICE_UI: Record<"en" | "fr", ServiceUi> = {
     expandHeading: (term) => `What ${term} involves in practice`,
     expandLede: (n) => `${n} answers to the questions that come up first.`,
     engagementEyebrow: "From the brief to the reporting",
-    engagementHeading: (term) => `How the ${term} engagement runs`,
+    engagementHeading: () => "What happens after your first message",
     ctaEyebrow: "The next step",
     ctaHeading: (term) => `Find out what ${term} could be worth in your markets`,
     ctaText:
       "Thirty minutes on which markets matter, what already ranks, and what has been tried before. A written scope naming pages and deliverables follows. Engagements continue one month at a time.",
-    ctaButton: "Book your free consultation",
+    ctaButton: "Book a free consultation",
     contactHref: "/contact/",
     howHref: "/how-i-work/",
     howLabel: "See how an engagement runs",
     absorbsEyebrow: "The whole scope",
-    absorbsHeading: (term) => `What we take on under ${term}`,
+    absorbsHeading: () => "What else we take on for you",
   },
   fr: {
     servicesHref: "/fr/services/",
@@ -70,17 +71,17 @@ export const SERVICE_UI: Record<"en" | "fr", ServiceUi> = {
     expandHeading: (term) => `Ce que le ${term} recouvre en pratique`,
     expandLede: (n) => `${n} réponses aux questions qui viennent en premier.`,
     engagementEyebrow: "Du premier échange au rapport mensuel",
-    engagementHeading: (term) => `Comment se déroule une mission de ${term}`,
+    engagementHeading: () => "Ce qui se passe après votre premier message",
     ctaEyebrow: "L’étape suivante",
-    ctaHeading: (term) => `Ce que le ${term} peut vous rapporter sur vos marchés`,
+    ctaHeading: (term) => `Estimez ce que le ${term} peut vous rapporter sur vos marchés`,
     ctaText:
       "Trente minutes sur les marchés qui comptent, ce qui se positionne déjà et ce qui a été tenté jusqu’ici. Un périmètre écrit, avec les pages et les livrables, suit l’échange. L’engagement se poursuit au mois le mois.",
-    ctaButton: "Réserver votre consultation gratuite",
+    ctaButton: "Réserver une consultation gratuite",
     contactHref: "/fr/nous-contacter/",
     howHref: "/fr/tarifs/",
     howLabel: "Voir comment se déroule une mission",
     absorbsEyebrow: "Tout le périmètre",
-    absorbsHeading: (term) => `Ce que nous prenons en charge en ${term}`,
+    absorbsHeading: () => "Ce que nous prenons aussi en charge pour vous",
   },
 };
 
@@ -171,6 +172,7 @@ export default function ServicePageView({
   const expandablesBand =
     service.expandables && service.expandables.length > 0 ? nextBand() : undefined;
   const engagementBand = nextBand();
+  const teamBand = nextBand();
   const ctaBand = nextBand();
   const absorbsBand = absorbed.length > 0 ? nextBand() : undefined;
   const siblingsBand = siblings.length > 0 ? nextBand() : undefined;
@@ -520,6 +522,8 @@ export default function ServicePageView({
           )}
         </div>
       </section>
+
+      <ServiceTeamBand slug={service.slug} locale={locale} band={teamBand} />
 
       {/* ============ CTA ============ */}
       <section className={`band band-${ctaBand} py-[clamp(64px,9vw,120px)]`}>

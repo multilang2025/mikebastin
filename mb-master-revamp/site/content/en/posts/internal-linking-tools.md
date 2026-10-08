@@ -19,7 +19,7 @@ You publish a strong new page, and it gets read once the rest of your site point
 
 Below we compare six internal linking tools and WordPress plugins: what each does best, what it costs, and how to choose between them.
 
-## Why internal linking matters
+## What internal links tell search engines and visitors
 
 Links between your own pages tell search engines which pages matter and tell visitors where to go next. Get them right and the page you want to rank gets the support it needs.
 
@@ -87,7 +87,7 @@ The tools split into two camps: some suggest links for an editor to approve, oth
 
 DAEXT has folded its [Interlinks Manager](https://wordpress.org/plugins/daext-interlinks-manager/) and [Autolinks Manager](https://daext.com/autolinks-manager/) plugins into one product, Link Manager. It combines internal link analysis, link equity reporting and click tracking with flexible auto-linking rules, bulk keyword setup and an HTTP status checker. Set the rules carefully to keep linking measured. DAEXT sells three annual licences: [Personal, one site, $59](https://daext.com/?daextcomm-action=create-checkout-session&product_id=1), [Freelance, five sites, $99](https://daext.com/?daextcomm-action=create-checkout-session&product_id=2) and [Agency, 25 sites, $149](https://daext.com/?daextcomm-action=create-checkout-session&product_id=6).
 
-## How to choose
+## Choose by the problem you want to solve
 
 Pick by the problem you want to solve.
 
@@ -98,7 +98,7 @@ Pick by the problem you want to solve.
 
 Most of these tools offer a free version, a trial or a money-back guarantee, so test one on your own content before committing.
 
-## Tips for using internal linking tools well
+## Set careful rules before you automate
 
 Careful rules are what make a tool pay off.
 

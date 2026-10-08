@@ -53,7 +53,7 @@ export default async function ProjectPage({
         <div className="shell relative">
           <Reveal>
             <Link href="/" className="ulink mb-8 inline-block text-[.9rem]" style={{ color: "var(--dim)" }}>
-              Back to the line-up
+              See more client work
             </Link>
           </Reveal>
 
@@ -155,9 +155,9 @@ export default async function ProjectPage({
 
       {/* ============ PROBLEM / WORK / OUTCOME ============ */}
       {[
-        { label: `The ${project.name} brief`, eyebrow: "Where it started", text: project.problem },
-        { label: `The ${project.name} work, ${project.services[0] ?? "the engagement"}`, eyebrow: "What we did", text: project.work },
-        { label: `The ${project.name} outcome`, eyebrow: "Where it landed", text: project.outcome },
+        { label: `What ${project.name} needed`, eyebrow: "Where it started", text: project.problem },
+        { label: "How we went about it", eyebrow: "What we did", text: project.work },
+        { label: `What changed for ${project.name}`, eyebrow: "Where it landed", text: project.outcome },
       ].map((section, i) => (
         <section key={section.label} className={`band ${i % 2 === 0 ? "band-a" : "band-b"} py-[clamp(56px,8vw,110px)]`}>
           <div className="shell">
@@ -225,7 +225,7 @@ export default async function ProjectPage({
                 {project.countries.map((c) => (
                   <li key={c.domain}>
                     <a href={`https://www.${c.domain}/`} className="ulink" target="_blank" rel="noopener">
-                      {c.domain}
+                      www.{c.domain}
                     </a>
                     <span className="block text-[.82rem]" style={{ color: "var(--dim)" }}>
                       {c.country}

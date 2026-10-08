@@ -18,11 +18,11 @@ Un client qui hésite entre deux agences, ou un recruteur face à quarante CV, a
 
 Les conseils qui suivent valent pour un CV, un profil LinkedIn ou le site de votre entreprise. Dans les exemples, [X] remplace un pourcentage : mettez-y votre propre résultat mesuré.
 
-## Écrire pour le lecteur qui décide
+## Écrivez pour le lecteur qui décide
 
 Un client et un employeur ont besoin que votre parcours commence par des éléments différents : rédigez une version pour chacun.
 
-### Adapter le contenu au support
+### Adaptez le contenu au support
 
 L’endroit où paraît votre parcours décide de sa longueur, de son ton et de ce qu’il met en avant :
 
@@ -57,7 +57,7 @@ Les recruteurs parcourent les CV en diagonale : chaque ligne doit y mériter sa
 <figcaption>Le résumé fait le plus gros du travail, car pour beaucoup de lecteurs il constitue tout le profil. Tout ce qui suit confirme ce que le résumé annonce.</figcaption>
 </figure>
 
-### Repérer ce que votre lecteur cherche
+### Repérez ce que votre lecteur cherche
 
 Quiconque recrute en marketing digital cherche quatre éléments, et un parcours qui les montre tous dès le premier écran est lu plus loin :
 
@@ -66,7 +66,7 @@ Quiconque recrute en marketing digital cherche quatre éléments, et un parcours
 -   **Des certifications** : les certifications du secteur vous donnent un avantage et montrent que vous continuez à vous former ; placez-les là où elles se voient.
 -   **Des résultats chiffrés** : le marketing digital se juge sur les résultats, alors montrez les vôtres, comme la hausse du trafic du site, des taux de conversion ou de l’engagement.
 
-## Construire un résumé professionnel convaincant
+## Ouvrez sur un résumé qui vend à lui seul
 
 Beaucoup de lecteurs s’arrêtent à votre résumé : il doit vendre à lui seul. Un bon résumé dit au lecteur, en deux phrases, ce que vous faites, pour qui, et ce qui a changé grâce à vous.
 
@@ -80,11 +80,11 @@ Une phrase donne votre spécialité, votre niveau et la valeur que vous apportez
 Exemple :  
 « Des campagnes qui ont fait progresser le trafic organique de [X] % en six mois, de façon régulière, avec une spécialité : faire des moteurs de recherche une source de conversions pour les clients. »
 
-## Détailler votre expérience professionnelle
+## Détaillez votre expérience professionnelle
 
 Votre historique professionnel est l’endroit où le lecteur vérifie que le résumé disait vrai.
 
-### Structurer votre historique
+### Structurez votre historique
 
 Listez les postes dans l’ordre antichronologique, le plus récent en premier. Pour chacun, indiquez :
 
@@ -94,19 +94,19 @@ Listez les postes dans l’ordre antichronologique, le plus récent en premier. 
 -   Une courte description de vos responsabilités
 -   Les réalisations clés
 
-### Employer des verbes d’action et des résultats mesurables
+### Employez des verbes d’action et des résultats mesurables
 
 « Chargé de » dit au lecteur ce que vous deviez faire. Un verbe et un résultat lui disent ce que vous avez fait. Employez des verbes comme « piloté », « développé », « augmenté » ou « optimisé », et associez chacun à un résultat mesuré.
 
 Transformez « Chargé du SEO » en « Pilotage des actions SEO qui ont augmenté le trafic organique de [X] % en six mois ».
 
-### Expliquer une interruption de carrière (le cas échéant)
+### Expliquez une interruption de carrière (le cas échéant)
 
 Une interruption expliquée en une ligne répond à la question du lecteur avant qu’il ne la pose. Présentez-la brièvement et positivement, avec les compétences acquises pendant cette période en freelance, sur des projets personnels ou en formation.
 
 Par exemple : « Pause de carrière en 2021 : certifications obtenues en Google Analytics et HubSpot pour renforcer les compétences techniques en marketing. »
 
-## Mettre en valeur formation et certifications
+## Mettez en avant vos certifications à jour
 
 En marketing digital, une certification à jour en dit souvent plus qu’un diplôme sur ce que vous savez faire dès le lundi matin, car elle prouve une maîtrise pratique des outils qu’utilise un client ou un employeur.
 
@@ -116,7 +116,7 @@ Placez en évidence les certifications comme Google Ads, Google Analytics, HubSp
 
 Exemple : « Certifié Google Analytics, HubSpot Content Marketing et Semrush SEO Toolkit. »
 
-## Mettre en avant compétences et expertise
+## Listez les compétences que demande le poste
 
 Une courte liste de compétences calquée sur le poste montre d’emblée que vous correspondez au profil.
 
@@ -127,7 +127,7 @@ Les compétences techniques comme le SEO (savoir dérouler une [checklist d’au
 
 Appuyez chaque savoir-être sur un moment précis : une équipe que vous avez dirigée, un projet complexe que vous avez livré, une solution créative à un problème marketing.
 
-## Intégrer vos réalisations professionnelles
+## Choisissez les réalisations qui prouvent vos résultats
 
 Les réalisations sont ce dont le lecteur se souvient une fois la page fermée : choisissez celles qui prouvent que vous savez livrer ce dont il a besoin, avec résultats et contexte.
 
@@ -140,7 +140,7 @@ Le contexte transforme un chiffre en une histoire que le lecteur peut se représ
 <p><strong>Vos équipes obtiennent de bons résultats ; vous voulez que votre site attire aussi des demandes depuis vos autres marchés ?</strong> Notre <a href="/fr/services/seo/">SEO international</a> positionne vos pages sur chaque marché où vous vendez, de l’Espagne au Benelux et à l’Allemagne. <a href="/fr/nous-contacter/">Réservez un premier échange</a>.</p>
 </aside>
 
-## Adapter votre parcours à chaque opportunité
+## Adaptez votre parcours à chaque offre
 
 Un parcours rédigé pour un poste convainc le lecteur de ce poste. Adaptez-le à l’offre ou au client que vous avez en face de vous, car le marketing digital recouvre des métiers très différents.
 
@@ -169,7 +169,7 @@ Un texte soigné protège un parcours solide, car un lecteur qui juge votre souc
 
 Passez votre texte dans Antidote ou LanguageTool, puis relisez-le vous-même plusieurs fois. Demandez à un collègue ou à un mentor de confiance de le relire : un second lecteur découvre le texte d’un œil neuf et repère où l’argument demande à être étoffé.
 
-## L’essentiel en bref
+## Traitez votre parcours comme une page de vente
 
 Que vous postuliez à un poste, présentiez une offre à un client ou mettiez à jour votre profil LinkedIn, votre parcours professionnel est une page de vente à votre nom. Traitez-le comme tel.
 

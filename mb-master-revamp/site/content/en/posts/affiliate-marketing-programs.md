@@ -12,13 +12,13 @@ sourceUrl: "https://mikebastin.com/affiliate-marketing-programs/"
 excerpt: "These 10 affiliate marketing programs pay enough to justify the content, with rates and cookie windows checked on each official page."
 ---
 
-## Turning readers into affiliate income
+## Turn your readers into affiliate income
 
 You already have readers. The right affiliate programme turns their attention into income, so choose it before the next six months of reviews go in.
 
 If you are a content creator, publisher or agency building recurring revenue, the programmes below are the ones we have seen actually pay out for clients and for our own sites. We checked every rate against the official programme page on 26 September 2026.
 
-## How to pick the right affiliate programme first time
+## Pick the right affiliate programme first time
 
 Every month promoting the right product is content that earns, and the choice keeps widening:
 
@@ -110,7 +110,7 @@ Good for: WordPress developers, agency owners, performance bloggers.
 
 Good for: beginner blogging guides, WordPress tutorials, small-business starters.
 
-## Quick comparison of the 10 programmes
+## Compare the 10 programmes on commission and cookie length
 
 Shortlist on the two numbers that decide what a referral is worth: commission and cookie length.
 
@@ -145,7 +145,7 @@ The third is investing in email. Authority Hacker's research shows that [78.3 pe
 <p><strong>Getting the traffic, and want readers buying from you directly?</strong> Our <a href="/services/lead-generation/">B2B lead generation service</a> turns visitors in each of your markets into enquiries worth a sales call, counted per market. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
-## Where to go from here
+## Test one programme before you scale
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 130" role="img" aria-label="Four steps: pick one programme, build five pieces of content, track results, then scale or switch.">
@@ -172,4 +172,4 @@ The third is investing in email. Authority Hacker's research shows that [78.3 pe
 
 The next step is small on purpose. Pick the one programme that best matches your existing audience. Build five pieces of useful content around it. Track clicks, commission and churn. Then decide whether to scale or switch.
 
-If you want help building an [affiliate content strategy](/blog/how-to-create-a-targeted-content-strategy/) or designing a [360 marketing plan](/blog/360-marketing-agency/) around it, [get in touch](/contact/). You can also read more about [how we work with clients](/how-i-work/).
+If you want help building an [affiliate content strategy](/blog/how-to-create-a-targeted-content-strategy/) or designing a [360 marketing plan](/blog/360-marketing-agency/) around it, [book a discovery call](/contact/). You can also read more about [how we work with clients](/how-i-work/).

@@ -18,7 +18,7 @@ Votre entreprise produit souvent ses contenus en anglais d’abord : site expor
 
 L’essentiel se décide avant que le traducteur écrive un mot : la variante de français, le brief et la place prévue pour le référencement.
 
-## Trois points à réussir dans une traduction anglais-français
+## Les trois points que nous corrigeons le plus souvent
 
 La plupart des corrections que nous sommes appelés à faire reviennent aux trois mêmes points.
 
@@ -98,7 +98,7 @@ Pour les slogans, les annonces, les textes d’en-tête et les campagnes créati
 
 Les campagnes Google Ads et Meta sur les marchés francophones ont leurs propres contraintes : la longueur des titres, les usages des appels à l’action et la stratégie d’enchères changent entre la France et le Québec. Nous gérons ces campagnes marché par marché.
 
-## Les niveaux de service et ce que couvre chacun
+## Choisissez le niveau de service selon la page
 
 Placez la transcréation sur votre page d’accueil et la traduction automatique sur un manuel produit : le budget va là où il rapporte.
 

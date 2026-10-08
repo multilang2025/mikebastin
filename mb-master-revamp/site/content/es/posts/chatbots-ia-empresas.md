@@ -94,7 +94,7 @@ Planifica la [traducción y localización de tu web](/es/services/traduccion-de-
 
 Un chatbot rentabiliza su coste cuando todos están de acuerdo en para qué sirve antes de comprarlo. Toma estas decisiones en este orden.
 
-### Empieza con objetivos claros
+### Dale una sola tarea
 
 Un bot rinde mejor con una sola tarea: soporte, generación de leads, operaciones internas o ventas. Elige una y define qué significa el éxito antes de elegir la tecnología.
 

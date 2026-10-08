@@ -117,7 +117,7 @@ La plupart des recherches locales se font sur téléphone, et le site doit donc 
 -   [Dimensions](https://chromewebstore.google.com/detail/dimensions/baocaagndhipibgklemoalmkljaimfdj?hl=en) : mesurez les éléments pour contrôler rapidement la mise en page.
 -   [Responsive Tester](https://chromewebstore.google.com/detail/responsive-tester/ppbjpbekhmnekpphljbmeafemfiolbki) : une simulation d’appareils simple depuis une liste déroulante.
 
-## Mesurer ce que la recherche locale vous apporte
+## Mesurez ce que la recherche locale vous apporte
 
 Les chiffres locaux montrent si le travail vous amène des clients de Valencia en plus des visiteurs venus d’ailleurs.
 

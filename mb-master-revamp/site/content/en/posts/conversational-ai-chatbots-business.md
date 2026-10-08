@@ -92,7 +92,7 @@ Businesses expanding internationally should plan [website localization](/service
 <p><strong>Planning a chatbot that has to answer in several languages?</strong> Our <a href="/services/ai-consulting/">AI consulting</a> assesses where a multilingual assistant can run on its own and where it needs a human fallback, judged by the stakes of each answer in each market. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
-## Building a chatbot that works
+## Make five decisions before you buy a chatbot
 
 A chatbot earns its cost when everyone agrees what it is for before it is bought. Five decisions, made in this order, get you there.
 
@@ -116,7 +116,7 @@ A frustrated user who reaches a human quickly stays a customer. Design clear esc
 
 Connected to your CRM, ERP and order management, a bot can check inventory, update orders and read customer history, which is where the value sits and how it pays back its cost.
 
-## What to watch for
+## Four checks that protect the saving
 
 These four keep a support saving a saving.
 
@@ -125,7 +125,7 @@ These four keep a support saving a saving.
 - **Give it personality.** Keep the brand's own warm tone in every language.
 - **Test before launch.** Beta test with real customers, in every language you launch in, before full deployment.
 
-## Measuring chatbot performance
+## Track five numbers and read them together
 
 With numbers, a chatbot gets judged on its whole record, beyond any single email forwarded to the board. Track these five and read them together, since each shows a different side of it.
 
@@ -147,7 +147,7 @@ The answers you write for your chatbot can also decide whether AI search names y
 <p><strong>Already answering your customers' questions well in chat?</strong> Our <a href="/services/generative-engine-optimization/">generative engine optimization</a> work reshapes those answers into claims ChatGPT, Perplexity and Google's AI Overviews can quote, then tracks which platforms name you. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
-## Choosing a technology stack
+## Choose a platform that fits the stack you already run
 
 The platform decides how far you can customise, what it costs to run and how hard it is to leave. Start from the stack you already use, then compare features.
 
@@ -170,7 +170,7 @@ Knowing the limits protects your most valuable customers. Emotional intelligence
 
 The direction of travel is clear enough. Speech-to-text accuracy has reached near-human levels in major languages, and multimodal AI lets a customer show a product photo and ask about it in the same conversation. Autonomous agents are the next step: today's chatbots answer questions, while agents book appointments, process claims and manage accounts on their own.
 
-## Making the case and getting started
+## Build the business case, then run a pilot
 
 Your finance team will ask what the bot saves, so answer before they do. Cost falls as queries are deflected from human agents, revenue grows with faster lead response, and retention improves when support availability matches expectations. Calculate your cost per support interaction, estimate the deflection rate, and project savings over one, three and five years net of set-up, platform and maintenance costs.
 

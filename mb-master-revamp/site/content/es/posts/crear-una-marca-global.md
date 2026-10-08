@@ -123,7 +123,7 @@ Ponerlo a punto lleva una pasada de transcreación y ajustes en la página de ca
 <p><strong>¿Reconoces el patrón en tus propios mercados?</strong> Nuestra <a href="/es/services/redaccion-seo-multilingue/">redacción SEO multilingüe</a> escribe cada versión con redactores nativos y revisa el mensaje y el tono desde el punto de vista cultural antes de publicar, para que cada idioma traiga consultas además de visitas. <a href="/es/contactanos/">Reserva una consulta gratuita</a>.</p>
 </aside>
 
-## Una lista de comprobación práctica
+## Repasa esta lista antes de lanzar
 
 Cada punto de la lista cuesta menos de resolver antes del lanzamiento que después. Respóndelos antes de publicar.
 
@@ -136,7 +136,7 @@ Cada punto de la lista cuesta menos de resolver antes del lanzamiento que despu�
 
 Con las seis casillas marcadas, la marca ha llegado al mercado, además de cruzar la frontera.
 
-## Una segunda mirada sobre tu marca global
+## Compara tu marca con lo que ve cada mercado
 
 Si lanzas en dos mercados o más, revisamos contigo la distancia entre tu marca estratégica y lo que ve cada mercado. Cuando la marca necesita además un plan que conecte todos sus canales, una [agencia de marketing 360](/es/agencia-marketing-360/) lo coordina mercado por mercado.
 

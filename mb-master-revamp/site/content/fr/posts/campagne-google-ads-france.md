@@ -126,9 +126,9 @@ Un suivi par marché vous dit si la France est rentable par elle-même ou financ
 Menez des tests A/B sur les annonces et les pages de destination pour trouver ce à quoi les acheteurs français répondent : d’autres textes, d’autres appels à l’action, d’autres mises en page. Gardez les gagnants, déplacez le budget vers les annonces et les mots-clés qui convertissent, puis étendez la campagne à d’autres régions de France à mesure que les résultats le justifient.
 
 <aside class="post-cta">
-<p><strong>Voyez ce que vous coûte un prospect français, séparément de vos autres marchés.</strong> Notre <a href="/fr/services/sem-multilingue/">SEA international</a> gère chaque marché avec son propre suivi, synchronisé avec votre CRM, pour que chaque prospect soit suivi au-delà du clic. <a href="/fr/nous-contacter/">Parlons de votre compte français</a>.</p>
+<p><strong>Voyez ce que vous coûte un prospect français, séparément de vos autres marchés.</strong> Notre <a href="/fr/services/sem-multilingue/">SEA international</a> gère chaque marché avec son propre suivi, synchronisé avec votre CRM, pour que chaque prospect soit suivi au-delà du clic. <a href="/fr/nous-contacter/">Réservez un échange sur votre compte français</a>.</p>
 </aside>
 
-## L’essentiel
+## Construisez pour la France, laissez les données décider
 
 Une campagne en France est rentable lorsqu’elle est construite pour la France : une recherche de mots-clés en français de France, des annonces rédigées par des natifs, des pages de destination auxquelles un acheteur français fait confiance, et un suivi qui montre la France à part. Menez-la sur Google Ads et sur Microsoft Advertising, puis laissez les données réelles décider où va le budget.

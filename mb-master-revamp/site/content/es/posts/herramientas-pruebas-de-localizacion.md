@@ -1,6 +1,6 @@
 ---
 words: 803
-title: "Herramientas de pruebas de localización"
+title: "Herramientas de pruebas de localización: qué revisar antes de lanzar"
 slug: "herramientas-pruebas-de-localizacion"
 locale: "es"
 type: "posts"
@@ -132,7 +132,7 @@ Estas herramientas generan ese texto de prueba:
 <p><strong>¿Vas a lanzar tu app en otro idioma y quieres ver cada etiqueta en su sitio?</strong> Nuestra <a href="/es/services/localizacion-de-aplicaciones/">localización de aplicaciones</a> empieza con una pseudolocalización antes de traducir y prueba la app en el propio dispositivo, mercado a mercado. <a href="/es/contactanos/">Reserva una primera conversación</a>.</p>
 </aside>
 
-## Qué hace buena a una herramienta de pruebas
+## Cómo elegir tu herramienta de pruebas
 
 Elegir bien te ahorra cambiar de herramienta a mitad de proyecto. Al comparar, fíjate en estos puntos:
 
@@ -144,7 +144,7 @@ Elegir bien te ahorra cambiar de herramienta a mitad de proyecto. Al comparar, f
 6. Informes claros para seguir incidencias y progreso.
 7. Soporte para varios dispositivos y sistemas operativos.
 
-## Buenas prácticas con estas herramientas
+## Integra las pruebas desde el principio
 
 Las herramientas rinden cuando forman parte del proceso desde el principio:
 

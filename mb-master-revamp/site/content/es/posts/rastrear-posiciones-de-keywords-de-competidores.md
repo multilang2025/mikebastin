@@ -90,7 +90,7 @@ En sectores regulados, como el jurídico, cada idioma pide su propia brecha. En 
 <p><strong>¿Quieres ver tus posiciones y las de tus rivales en cada idioma, cada mes?</strong> En nuestro SEO internacional recibes un informe mensual por idioma con visitas, posiciones y consultas recibidas, y las prioridades del mes siguiente. <a href="/es/services/optimizacion-seo/">Empieza con una auditoría gratuita de 20 minutos</a>.</p>
 </aside>
 
-## Formatos y respuestas de IA: más allá de la posición
+## Sigue también los formatos y las respuestas de IA
 
 La posición número uno vale menos si encima aparece un resumen de IA o un bloque de preguntas. Por eso el seguimiento moderno registra también qué formato ocupa cada búsqueda y quién aparece en él.
 

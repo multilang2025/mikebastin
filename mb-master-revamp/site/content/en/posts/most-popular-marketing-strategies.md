@@ -1,6 +1,6 @@
 ---
 words: 1381
-title: "Most popular marketing strategies for SMBs going international"
+title: "Marketing strategies that work for SMBs going international"
 metaTitle: "Marketing strategies for SMBs going international"
 slug: "most-popular-marketing-strategies"
 locale: "en"
@@ -13,7 +13,7 @@ sourceUrl: "https://mikebastin.com/most-popular-marketing-strategies/"
 excerpt: "Going international on a small budget? The most popular marketing strategies for SMBs, how fast each pays back, and the two to run first."
 ---
 
-## Choosing marketing strategies for your first foreign market
+## Choose strategies for your first foreign market
 
 Your first foreign market pays back fastest when a small team puts its budget behind two or three channels, gives each enough to work, and within a year can see which ones earn their keep. For a small or medium-sized business (SMB), choosing the starting point is the decision that counts.
 
@@ -59,15 +59,15 @@ Below: the ten marketing strategies SMBs use most abroad, what each involves and
 
 If you would rather hand the whole mix to one team, a [full-service marketing agency](/blog/360-marketing-agency/) covers most of these channels under one roof.
 
-## Search engine optimization (SEO)
+## Search engine optimization (SEO) that compounds in every market
 
 When buyers find you as they search in their own language, every other channel has an easier job. SEO takes time to start, and keeps sending visitors after the budget stops.
 
-### Localizing keywords for each region
+### Localize keywords for each region
 
 Localized keywords bring the traffic, because search terms vary between regions even within one language. Run [multilingual keyword research](/services/multilingual-seo/) with local tools, and use [search intent mapping](/blog/what-is-search-intent-mapping/) to match each term to what the searcher actually wants.
 
-### Content localization for each region's language and culture
+### Adapt content to each region's language and culture
 
 A localized page tells a buyer you wrote for them. Localized content fits the audience's language, tone and cultural references, so write blog posts, product descriptions and landing pages for each region.
 
@@ -87,7 +87,7 @@ Google Ads and Microsoft Ads let you focus on specific countries, cities or regi
 
 Ads work when they sound local. Translate the copy and adapt it with [multilingual content writing](/services/multilingual-content/), and choose visuals that suit regional tastes.
 
-### Testing and optimizing campaigns
+### Test, measure and adjust campaigns
 
 Start with small test campaigns in each new market, then watch click-through rate (CTR), conversion rate and return on investment (ROI) before scaling. Our guide to [running a French PPC campaign](/blog/french-ppc-campaign/) walks through one market in detail.
 
@@ -131,7 +131,7 @@ Content is how a buyer meeting you for the first time decides you know their mar
 
 **Thought leadership.** White papers, ebooks and reports on local market trends position your brand as an authority in new regions. Our piece on [building a global brand](/blog/building-a-global-brand/) shows how the pieces fit together.
 
-## Local partnerships
+## Local partnerships that lend you credibility
 
 A local partner lends you credibility and know-how that would take years to build alone, from distribution agreements to co-branded marketing.
 
@@ -139,7 +139,7 @@ A local partner lends you credibility and know-how that would take years to buil
 
 **Local expertise.** Partners know customer behaviour, regional regulation and cultural nuance, which saves time and smooths market entry. Local partnerships also earn links from trusted local sites, as our guide to [link building in Spain](/blog/link-building-in-spain/) explains, and support a local presence you can then [promote on Google Maps](/blog/how-to-promote-your-local-business-on-google-maps/).
 
-## International trade shows and events
+## International trade shows that put you in front of buyers
 
 For B2B sellers, trade shows put you face to face with distributors and buyers, and face-to-face contact builds trust faster than most online channels. Localize your stand materials and presentations for the market you are targeting. If Spain is on your list, see our guide to [B2B trade shows in Valencia](https://valenciamove.com/blog/b2b-trade-shows-valencia/).
 
@@ -147,7 +147,7 @@ For B2B sellers, trade shows put you face to face with distributors and buyers, 
 
 With affiliate marketing you pay per sale: local marketers earn a commission on the sales they generate, a low-outlay way into new markets. Local affiliates understand their audience's preferences and shopping habits, and every sale is tracked, so you can see what works in each market and shift effort accordingly. Our overview of [affiliate marketing programs](/blog/affiliate-marketing-programs/) explains the main models.
 
-## Multilingual chatbots and customer support
+## Multilingual chatbots and support at the buyer's hour
 
 A buyer in another time zone wants an answer at their hour, in their language. Multilingual chatbots answer common questions, resolve issues and guide customers through a purchase in their own language, around the clock. They also capture leads by asking qualifying questions and recommending the right product or service. Our guide to [conversational AI in business](/blog/conversational-ai-chatbots-business/) covers set-up and measurement.
 
@@ -155,6 +155,6 @@ A buyer in another time zone wants an answer at their hour, in their language. M
 <p><strong>Visitors arrive from your other markets and you want enquiries from them too?</strong> We turn those visits into <a href="/services/lead-generation/">enquiries worth a sales call</a>, starting with your strongest market. <a href="/contact/">Talk to us about your markets</a>.</p>
 </aside>
 
-## Where to start
+## Start with two strategies
 
 Start with two of the ten strategies. A sensible first mix is one fast channel to test demand, usually PPC, and one slow channel that compounds, usually SEO with localized content. Add partnerships, email and events once you know which market responds, and judge each market on the enquiries it sends.

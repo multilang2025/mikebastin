@@ -1,6 +1,6 @@
 ---
 words: 1058
-title: "Transform your marketing strategy with a 360 marketing agency"
+title: "What a 360 marketing agency does, and when you need one"
 metaTitle: "360 marketing agency: what joined-up marketing looks like"
 slug: "360-marketing-agency"
 locale: "en"
@@ -61,7 +61,7 @@ Each habit below sends budget to the channel where the problem is still open.
 
 **Multilingual planned from the start.** When the Spanish and French versions are planned alongside the English one, each starts from its own complete plan and a clean handover. Real multilingual marketing, as our [multilingual SEO best practices](/blog/best-practices-for-multilingual-seo/) explain, is a planning input from day one.
 
-## The integration test
+## Test your agency's integration in ten minutes
 
 Ten minutes shows you how joined up your agency’s work is. Ask three questions about any active campaign.
 
@@ -75,7 +75,7 @@ A joined-up agency answers all three on the spot, from one shared plan.
 <p><strong>Want an agency that answers the third question on the spot?</strong> Our <a href="/services/lead-generation/">lead generation work</a> counts every enquiry against the market and the language that earned it, so a French campaign is judged on French conversations. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
-## A real example: a Houston freight client
+## How a Houston freight client turned four engagements into one plan
 
 Our freight forwarding client in Houston works in English across three buyer types (importers, exporters, freight forwarders), and across LinkedIn, organic search, Google Ads, and trade events.
 
@@ -99,7 +99,7 @@ Connection pays more than channel count. The IPA’s analysis of more than 250 c
 
 For your budget, that means three connected channels beat seven disconnected ones.
 
-## Promise versus reality
+## Ask to see each promise before you sign
 
 Read a proposal against the right-hand column; each line is something to ask to see before you sign.
 
@@ -111,7 +111,7 @@ Read a proposal against the right-hand column; each line is something to ask to 
 | “Multilingual ready” | Translation as a planning input from the start |
 | “Always-on social” | Social tied to the same conversion goals as paid and SEO |
 
-## Deciding whether a 360 partner is the right hire
+## Hire a 360 partner when two of these are true
 
 A 360 partner pays off once you need coordination across channels. We usually tell clients to hire one when at least two of the following are true.
 
@@ -129,4 +129,4 @@ We work with B2B clients in legal, freight, real estate, and translation across 
 
 The honest answer for many companies is to keep the in-house team and bring in narrow expertise where the constraint actually lives. Sometimes the answer is a full 360 partner. Either way you should know which it is before signing.
 
-[Get in touch](/contact/) or look at how we run [multilingual SEO programmes](/services/multilingual-seo/).
+[Book a discovery call](/contact/) or see how we run [multilingual SEO programmes](/services/multilingual-seo/).

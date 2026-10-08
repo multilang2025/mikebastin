@@ -34,6 +34,18 @@ generate, download the PNG as `<slug>.png` into an empty folder, run
 `node --experimental-strip-types scripts/brand-blog-images.mjs <folder>`
 from `site/`, and add the entry to `lib/blog-images.ts`.
 
+### In-post illustrations
+
+Owner, 8 Oct 2026: "Add 2-3 similar illustrations on each post". Every
+article has two more pictures in the same style (142 in all, 71
+translation groups), placed at the end of a section at about a third and
+two thirds of the way down. They live in `site/lib/post-figures.ts`, keyed
+by translation group so EN, FR and ES show the same pictures with an alt
+in each language, and `site/lib/post-figure-insert.ts` puts them into the
+rendered HTML before the chosen h2. The scene for each is the second
+field of its entry's prompt; files are `site/public/images/posts/`, stamped
+by `scripts/brand-blog-images.mjs <dir> posts`.
+
 | Post | Scene |
 |---|---|
 | `15-simple-blog-post-ideas-to-help-attract-more-customers-to-your-business` | a woman's hands in a cream knit sleeve fanning out blank cream index cards on a table, lifting one card edged in berry red, a navy pencil nearby |

@@ -108,7 +108,7 @@ Las directrices de Google piden que las fotos representen el negocio tal como es
 
 Para los negocios de bienestar, las fotos en acción son las que más trabajan: un profesor a mitad de secuencia, una terapeuta preparando la sala, un estudio recibiendo a sus habituales de la mañana. Los vídeos verticales cortos, como un avance de clase o un recorrido por el estudio, completan la galería.
 
-## Las reseñas en la era del seudónimo
+## Pide reseñas todo el año y responde con datos concretos
 
 Las reseñas son lo que el cliente lee antes de llamarte, y su ritmo le dice a Google que el negocio sigue vivo.
 
@@ -118,7 +118,7 @@ Google revisa ahora las respuestas del propietario antes de publicarlas, normalm
 
 Busca un flujo constante de reseñas a lo largo del año, pidiéndolas después de cada clase o servicio. Una media alta con reseñas detalladas y recientes convence más que una nota perfecta hecha de elogios genéricos.
 
-## Publicaciones, productos y las superficies con más margen
+## Usa publicaciones y productos para ganar clics en el perfil
 
 Las publicaciones suben el porcentaje de clics dentro del perfil y alimentan las respuestas de la IA en Maps, aunque su efecto sobre la posición sea indirecto.
 
@@ -128,13 +128,13 @@ La pestaña de Productos es la superficie con más margen del perfil, incluso en
 
 Cada ficha de producto da a la IA de Maps algo concreto que citar cuando alguien pregunta quién hace cerca yoga prenatal, baños de sonido o pilates con reformer.
 
-## Mensajería, reservas y el último tramo
+## Facilita el mensaje y la reserva desde el perfil
 
 Cada paso que quitas entre la búsqueda y la reserva es un cliente más que llega. Añade un enlace de WhatsApp para que te escriban desde el perfil.
 
 Si vives de las clases, conecta tu sistema de reservas (MindBody, Momoyoga, Arketa, Bsport) al perfil, de modo que la reserva se haga en el mismo sitio donde te encontraron.
 
-## Métricas que vale la pena seguir
+## Sigue las tres métricas que cuentan
 
 Las métricas del panel te dicen si el perfil convierte las vistas en clientes. Céntrate en tres cosas:
 
@@ -188,6 +188,6 @@ Con esas cinco al día, el perfil vuelve a trabajar para ti. En 2026 la constanc
 
 Llevamos más de dos décadas haciendo SEO y traducción. Entre nuestros clientes, un transitario de Houston está presente en el pack local de su sector, y llevamos también el SEO de un despacho de abogados de Valencia y de una inmobiliaria en la República Dominicana.
 
-¿Quieres una revisión directa de tu Perfil de Empresa de Google, de tu posición en el mapa o del SEO que lo rodea? [Escríbenos aquí](/es/contactanos/) o conoce cómo trabajamos en la [página sobre nosotros](https://mikebastin.com/es/conocenos-agencia-experta-en-seo/).
+¿Quieres una revisión directa de tu Perfil de Empresa de Google, de tu posición en el mapa o del SEO que lo rodea? [Pide tu revisión](/es/contactanos/) o conoce cómo trabajamos en la [página sobre nosotros](https://mikebastin.com/es/conocenos-agencia-experta-en-seo/).
 
 También puedes ver todo lo que cubrimos en la página de [servicios de SEO local](/es/services/seo-local/).

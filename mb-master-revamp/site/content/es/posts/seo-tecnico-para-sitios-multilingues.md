@@ -1,6 +1,7 @@
 ---
 words: 1237
-title: "SEO técnico para sitios web multilingües"
+title: "SEO técnico para sitios web multilingües: cada idioma en su mercado"
+metaTitle: "SEO técnico para sitios web multilingües"
 slug: "seo-tecnico-para-sitios-multilingues"
 locale: "es"
 type: "posts"
@@ -30,7 +31,7 @@ Aquí tienes los puntos que más ajustamos cuando auditamos una web en varios id
 
 Las etiquetas hreflang le dicen a Google qué versión de una página, por idioma y por región, debe mostrar a cada usuario. Bien puestas, el usuario aterriza en la versión de su idioma y su país, y cada versión se reconoce como propia.
 
-### Cómo implementar hreflang correctamente
+### Implementa hreflang en cada versión
 
 Cada página necesita anotaciones hreflang que apunten a todas sus versiones por idioma y por región.
 
@@ -60,7 +61,7 @@ Comprueba que cada anotación enlaza a la URL correcta y usa un código de idiom
 
 Antes de tocar el código, construye un mapa claro de qué página equivale a cuál en cada idioma. Con ese mapa, cualquier plugin aplica el hreflang correctamente, y la [localización de contenido](/es/services/traduccion-de-paginas-web/) rinde todo lo que puede.
 
-## La ubicación del servidor y su efecto real
+## Lo que cambia la ubicación del servidor
 
 El alojamiento influye sobre todo en la velocidad, y la velocidad en la experiencia del visitante extranjero. Tener servidores cerca de tu público reduce la latencia y mejora los tiempos de carga.
 
@@ -72,7 +73,7 @@ Si tu sitio multilingüe apunta a varios países, una red de distribución de co
 
 Para geolocalizar, combina hreflang, la estructura de dominios y el contenido local, de modo que todas las señales apunten al mismo mercado.
 
-## Contenido duplicado entre idiomas
+## Deja claro a Google qué versión va a cada mercado
 
 Textos parecidos en distintos idiomas o regiones (el francés de Francia y el de Bélgica, por ejemplo) pueden repartirse la fuerza de posicionamiento. Tu trabajo es dejarle claro a Google qué distingue a cada página.
 
@@ -94,7 +95,7 @@ Para producción real, trabaja con [traductores profesionales](/es/services/trad
 <p><strong>¿Quieres que cada versión de tu web encuentre a sus propios compradores?</strong> Nuestro <a href="/es/services/seo-tecnico/">SEO técnico</a> comprueba si tus versiones de idioma compiten entre sí y corrige lo que lo provoca, idioma por idioma. <a href="/es/contactanos/">Pide una auditoría gratuita de 20 minutos</a>.</p>
 </aside>
 
-## Estructura de dominios para sitios multilingües
+## Elige la estructura de dominios
 
 La estructura de dominios decide cuánto trabajo cuesta posicionar cada mercado. Tienes tres caminos: dominios de nivel superior por país (ccTLD), subdirectorios y subdominios. La mejor opción depende de tus objetivos y de tu público.
 
@@ -110,15 +111,15 @@ La estructura de dominios decide cuánto trabajo cuesta posicionar cada mercado.
 
 Mantén una sola estructura en todo el sitio y haz que sea fácil de recorrer, tanto para los usuarios como para los buscadores. Usa el mismo modelo para todos los idiomas (todo ccTLD o todo subdirectorios, por ejemplo): la coherencia envía señales geográficas limpias a Google.
 
-## El papel de los metadatos en el SEO multilingüe
+## Localiza títulos y descripciones para cada idioma
 
 El título y la descripción son lo que el comprador lee en el resultado, en su idioma, antes de decidir el clic. Unos títulos, descripciones y textos alternativos bien localizados suben tu visibilidad en cada lengua y multiplican el alcance del trabajo previo.
 
-### Traducir y ajustar los metadatos
+### Escribe metadatos propios para cada versión
 
 Escribe metadatos propios para cada versión, con las palabras clave de cada idioma y adaptados a cómo busca de verdad esa audiencia. El texto alternativo traducido ayuda además en accesibilidad y en la búsqueda de imágenes. Si quieres delegarlo, consulta nuestros servicios de [redacción SEO multilingüe](/es/services/redaccion-seo-multilingue/).
 
-## Mantente al día con el SEO multilingüe
+## Revisa la configuración con regularidad
 
 Un mantenimiento sistemático protege el rendimiento de tu sitio y te deja detectar los fallos cuando aún son pequeños.
 
@@ -128,6 +129,6 @@ Programa [auditorías técnicas](/es/services/seo-tecnico/) periódicas para rev
 
 El SEO técnico es el cimiento de cualquier web multilingüe que funcione. Empieza por el mapa de equivalencias entre idiomas y el hreflang, sigue con el contenido duplicado y la estructura de dominios, y termina con los metadatos. Cuando esas piezas encajan, Google entiende, indexa y posiciona tu contenido para el público de cada mercado.
 
-¿Quieres que tu web multilingüe rinda al máximo en cada país? [Escríbenos y revisamos juntos tu configuración técnica](/es/contactanos/), con la experiencia de más de dos décadas en SEO y traducción de nuestro lado.
+¿Quieres que tu web multilingüe rinda al máximo en cada país? [Pide una revisión de tu configuración técnica](/es/contactanos/), con la experiencia de más de dos décadas en SEO y traducción de nuestro lado.
 
 ![Pasos de implementación técnica para varias versiones de idioma](/images/legacy/2024/12/image.webp)

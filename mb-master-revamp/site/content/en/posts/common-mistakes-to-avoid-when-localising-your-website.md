@@ -13,7 +13,7 @@ sourceUrl: "https://mikebastin.com/common-mistakes-to-avoid-when-localising-your
 excerpt: "Traffic from your new market, and ready for the sales? Ten website localization fixes that make a translated site read as local, one by one."
 ---
 
-## Making a translated site read as local
+## Make your translated site read as local
 
 Your translated site is live and visitors from the new market arrive; the next step is turning them into buyers. Usually the site works fine technically. What it needs is to read as local: a tone that fits, prices in the format buyers expect and a form that takes a local address, so the visitor stays with you.
 
@@ -75,7 +75,7 @@ People complete the purchase when they can pay the way they prefer, and the same
 
 Each region has its own habits, and friction shows up in the bounce rate, so watch it as closely as complaints. Localize navigation, calls to action and form fields (postcode and address formats differ too).
 
-## Where to start
+## Start with the fixes closest to the sale
 
 Website localization is a strategic investment. Start with the fixes closest to the sale (payments, forms and trust), then work outwards to search and culture.
 
@@ -102,4 +102,4 @@ Website localization is a strategic investment. Start with the fixes closest to 
 <figcaption>Start with the fixes closest to the sale, where a visitor is already deciding, then work outwards to search and culture.</figcaption>
 </figure>
 
-With over two decades in SEO, translation and marketing, we help businesses build websites that fit each market and get found in it. Our [website localization services](/services/website-localisation/) cover all ten points, and you can [contact us](/contact/) to talk through yours.
+With over two decades in SEO, translation and marketing, we help businesses build websites that fit each market and get found in it. Our [website localization services](/services/website-localisation/) cover all ten points, and you can [book a call](/contact/) to talk through yours.

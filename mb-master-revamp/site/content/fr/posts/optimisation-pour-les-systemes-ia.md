@@ -50,7 +50,7 @@ Deux acheteurs posant exactement la même question reçoivent donc des réponses
 <figcaption>Comme la réponse change d’un acheteur à l’autre, l’image que le modèle se fait de votre marque vous en apprend davantage qu’une liste de prompts suivis.</figcaption>
 </figure>
 
-## Auditer ce que les LLM savent de votre marque
+## Auditez ce que les LLM savent de votre marque
 
 Ce que Gemini, ChatGPT et les autres modèles savent de votre entreprise conditionne chacune de leurs recommandations. Un audit structuré, mené par un [expert en SEO international](https://mikebastin.com/fr/expert-en-seo-international/), mesure l’écart entre votre positionnement réel et votre représentation dans ce graphe de connaissances. Chaque modèle a sa propre image de vous, et notre panorama des [LLM alternatifs à ChatGPT](/fr/llm-alternatifs/) présente ceux à inclure dans l’audit. Voici la méthode, en quatre étapes.
 
@@ -99,7 +99,7 @@ Publiez sur des plateformes tierces à forte autorité, puis mesurez l’effet s
 
 Ajustez ensuite votre plan de publication et de diffusion selon les résultats observés.
 
-## L’empreinte sémantique, marché par marché
+## Gardez la même empreinte sémantique sur chaque marché
 
 En 2026, la visibilité d’une marque dans les réponses d’IA tient à la cohérence de son empreinte sémantique sur l’ensemble du web : le même nom, la même activité, les mêmes arguments, partout où l’on parle de vous.
 

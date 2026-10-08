@@ -77,7 +77,7 @@ Un projet de proposition : « Audit AEAT complet inclus. » Le service financ
 
 Les soirées tardives augmentent les risques. Le café abaisse les défenses. Et soudain, votre document SEO se lit comme un rapport de conformité fiscale.
 
-## La morale professionnelle
+## La morale de l’histoire : la précision paie
 
 Ce qui précède est une satire, et aussi la réalité.
 

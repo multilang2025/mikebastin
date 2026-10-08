@@ -66,7 +66,7 @@ A page with a named expert behind it now wins over an anonymous one, and on heal
 
 Google assesses E-E-A-T through indirect signals: domain reputation, clear authorship, source quality and author markup. Sites with detailed author bios, published case studies, recent sources and Person and Organization schema gain ground on anonymous ones.
 
-## Working with zero-click as the default
+## Report on zero-click visibility alongside clicks
 
 Reporting that counts features, impressions and branded searches alongside clicks shows the full value of search. Most Google searches now end on Google's own results page.
 
@@ -102,7 +102,7 @@ Somebody searching nearby is close to buying, so a specific area page reaches th
 
 Pages built around specific districts or service areas outperform generic "near us" pages. [Local SEO](/services/local-seo/) favours businesses that show a real presence: an up-to-date Google Business Profile, reviews answered consistently, local backlinks, LocalBusiness schema and the same name, address and phone number across every citation.
 
-## Multilingual SEO as a growth lever
+## Grow through multilingual SEO
 
 If your English pages sell and you want your other languages to do the same, the answer usually lies in how those versions are built, and the market is there for them. International markets are open ground for the businesses that work them, and native writing still reads better than even much-improved machine translation.
 
@@ -122,7 +122,7 @@ Clean practice keeps years of rankings safe through every update. Google's spam 
 
 Link building still matters, and it now means earning editorial links through original research, digital PR and useful content. Audit your backlink profile, clear out bought links, PBNs and guest post schemes, and be open about how your content is made.
 
-## Where SEO goes from here
+## Measure what the new results pages reward
 
 SEO is growing broader and more demanding. Visibility now needs technical precision, real authority and content that works whether or not anyone clicks. The businesses pulling ahead are the ones measuring what the new results pages reward.
 

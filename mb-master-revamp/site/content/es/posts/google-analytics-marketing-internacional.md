@@ -19,7 +19,7 @@ Tu analítica dice que Alemania es tu segundo mercado, y tus consultas alemanas 
 
 Lee esas cifras con cuidado y tu presupuesto irá a los mercados que venden. Aquí tienes qué te dice GA4 con fiabilidad sobre cada mercado, qué estima y cómo decidir adónde va el próximo presupuesto de localización.
 
-## El papel de Google Analytics en el marketing internacional
+## Encuentra la demanda antes de invertir
 
 Bien usados, los datos de Google Analytics muestran dónde existe demanda antes de que gastes dinero en perseguirla: cómo se comportan los usuarios de distintos países, idiomas y dispositivos, y dónde necesita trabajo el recorrido hasta la conversión. Apoyan la elección de mercados, las decisiones de localización y el reparto entre canales.
 
@@ -106,7 +106,7 @@ Google Tag Manager del lado del servidor recupera parte de los datos que filtran
 
 Tus propios equipos, tus agencias y tus colaboradores de pruebas pueden convertirse en uno de tus «mercados» más activos. Excluye el tráfico interno en la configuración de la propiedad.
 
-## Evaluar el rendimiento del contenido en cada mercado
+## Mide cómo rinde tu contenido en cada mercado
 
 Cuando un mercado va por detrás, el instinto es mirar el SEO. Más a menudo, la respuesta está en ajustar el contenido a lo que espera el comprador de ese país.
 
@@ -126,13 +126,13 @@ Compara cada mercado internacional con tu mercado de origen, España. Las grande
 <p><strong>¿Quieres juzgar cada mercado por las consultas que abre?</strong> Con nuestra <a href="/es/services/generacion-de-leads/">generación de leads</a>, cada consulta se atribuye al mercado y al idioma que la trajeron y se sigue hasta tu CRM. <a href="/es/contactanos/">Reserva una consulta gratuita</a>.</p>
 </aside>
 
-## Los datos necesitan conocimiento del mercado
+## Completa los datos con conocimiento local
 
 La analítica muestra el comportamiento; el conocimiento local explica la motivación. La estacionalidad, los hábitos culturales, los límites de infraestructura y las expectativas locales influyen en el rendimiento, y quedan fuera de los paneles.
 
 Combina los datos de GA4 con conocimiento local, pruebas y opiniones de clientes. Antes de actuar sobre una métrica floja, comprueba cómo se comporta el sitio desde la región objetivo: lo que parece un problema de marketing es a menudo un problema de rendimiento regional o un fallo de localización.
 
-## Usos avanzados de GA4 para crecer fuera
+## Juzga cada mercado por su rentabilidad
 
 Con lo básico en orden, las preguntas ganan valor: qué mercado es rentable, además de activo.
 
@@ -148,7 +148,7 @@ Las audiencias predictivas de GA4 ayudan a identificar a los usuarios con más p
 
 En muchos mercados la venta se cierra en una llamada, una visita o un seguimiento posterior, fuera del alcance de un informe por clics. El Measurement Protocol lleva esas interacciones a GA4, para que cada mercado reciba el mérito de los negocios que cierra.
 
-## Leer la analítica con seguridad
+## Confía en las tendencias, cuestiona los absolutos
 
 Google Analytics es esencial en el marketing internacional, y rinde más acompañado del contexto local. Si te planteas cambiar de herramienta, compara antes las [alternativas a Google Analytics](/es/alternativas-a-google-analytics/).
 

@@ -85,7 +85,7 @@ export default function ResultsPage() {
           </Reveal>
           <Reveal i={1}>
             <h1 className="mb-6 max-w-[18ch] text-[clamp(2.3rem,5.6vw,4rem)] font-semibold leading-[1.08]">
-              Client results and numbers
+              Client results you can check against the source
             </h1>
           </Reveal>
           <Reveal i={2}>

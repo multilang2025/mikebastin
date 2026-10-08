@@ -18,7 +18,7 @@ Somebody in El Carmen searches for exactly what you sell, in Spanish or in Engli
 
 Whether you serve horchata in Ruzafa or offer professional services near the port, local search decides whether the right people find you at the right moment. Below: how people in Valencia actually search, how to structure your site for it, the mobile basics, how to measure it, and where to start, whether you do the work yourself or bring in a [local SEO service](/services/local-seo/).
 
-## Keyword research for Valencia
+## Find the keywords Valencia customers type
 
 Research the words and you rank for the searches people in Valencia actually make. Keyword research tells you how people actually search for businesses like yours, whether they are in Benimaclet or El Cabanyal. Each barrio has its own character, and so do the searches its residents type.
 
@@ -71,7 +71,7 @@ Add Valencia-specific phrases wherever they are relevant: "restaurants in Valenc
 <p><strong>Want customers searching in English to land on English pages?</strong> Our <a href="/services/local-seo/">local SEO for multilingual cities</a> makes you the business nearby buyers find first on the map, in every language your city searches in. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
-## Site structure and metadata
+## Keep every Valencia page a click or two away
 
 A visitor who reaches your Valencia page in a click or two stays with you. Think of your site as a well-organised Valencian mercado, where every sign leads customers straight to what they need. For local searches, those signs need Valencia terms and location references.
 
@@ -102,7 +102,7 @@ A sitemap helps search engines crawl and index your pages. Include every Valenci
 
 To check links, [Xenu's Link Sleuth](https://xenus-link-sleuth.en.softonic.com/) is a free Windows tool by Tilman Hausherr that checks every link, image and script on a site and exports a report to Excel.
 
-## Mobile-friendliness
+## Build for the phone first
 
 Most local searches happen on phones, so the site must work well on them: responsive design, compressed images and browser caching for speed, and menus and buttons easy to tap on a small screen. Google retired the Search Console Mobile Usability report and the Mobile-Friendly Test in December 2023, so test with Lighthouse in Chrome or with an extension:
 
@@ -112,7 +112,7 @@ Most local searches happen on phones, so the site must work well on them: respon
 -   [Dimensions](https://chromewebstore.google.com/detail/dimensions/baocaagndhipibgklemoalmkljaimfdj?hl=en): measure elements for quick layout checks.
 -   [Responsive Tester](https://chromewebstore.google.com/detail/responsive-tester/ppbjpbekhmnekpphljbmeafemfiolbki): simple device simulation from a drop-down.
 
-## Measuring local search performance
+## Measure the customers Valencia searches bring
 
 Local numbers show whether the work brings Valencia customers as well as visitors from elsewhere.
 
@@ -130,7 +130,7 @@ In Google Analytics, geographic reports show how much traffic comes from Valenci
 
 [BrightLocal](https://www.brightlocal.com/) tracks rankings for Valencia keywords, checks that your business details match across local directories and helps manage reviews. [Moz Local](https://moz.com/products/local) distributes your business information to directories and reports on local visibility.
 
-## Practical steps to start with
+## Five things to do this month
 
 If you do five things this month, make them these.
 

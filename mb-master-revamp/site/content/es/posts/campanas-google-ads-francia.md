@@ -61,7 +61,7 @@ Con el orden correcto, cada ronda de inversión te indica dónde colocar la sigu
 <figcaption>Los resultados de la última etapa deciden adónde van la siguiente ronda de palabras clave, textos y presupuesto.</figcaption>
 </figure>
 
-## Investigación: las palabras que usa el comprador francés
+## Busca las palabras que usa el comprador francés
 
 La investigación te da los términos que un comprador de Lyon escribe de verdad, que suelen diferir de la traducción literal de tus palabras clave en español. Francia, además, son varios públicos: los hábitos de compra y el vocabulario cambian de una región a otra, igual que entre Sevilla y Bilbao.
 
@@ -92,7 +92,7 @@ Microsoft Advertising (antes Bing Ads) te da un alcance más barato que merece u
 <p><strong>¿Listo para llevar Francia como una campaña propia?</strong> Montamos <a href="/es/services/publicidad-multilingue/">publicidad en buscadores por mercado</a> a partir de una investigación de palabras clave nativa en francés, con su propio presupuesto. Toda tu inversión en medios va directamente a Google o a Microsoft, y nuestra gestión se factura aparte. <a href="/es/contactanos/">Reserva una primera llamada</a>.</p>
 </aside>
 
-## Redactar anuncios que convencen al comprador francés
+## Escribe anuncios que convenzan al comprador francés
 
 Tu anuncio es la primera frase que un comprador francés lee de ti, y detecta una traducción al instante. Un francés de nivel nativo genera confianza: le dice al lector que atiendes su mercado y lo mantiene en tu anuncio.
 
@@ -128,6 +128,6 @@ Haz tests A/B de anuncios y páginas de destino para descubrir a qué responde e
 <p><strong>Descubre cuánto te cuesta un contacto francés, separado de tus otros mercados.</strong> Nuestra <a href="/es/services/publicidad-multilingue/">publicidad internacional en buscadores</a> lleva cada mercado con su propio seguimiento, sincronizado con tu CRM, para que sigas cada contacto más allá del clic. <a href="/es/contactanos/">Háblanos de tu cuenta francesa</a>.</p>
 </aside>
 
-## En resumen
+## Construye la campaña para Francia
 
 Una campaña en Francia es rentable cuando está construida para Francia: investigación de palabras clave nativa, textos nativos, páginas de destino en las que confía el comprador francés y un seguimiento que muestra Francia por separado. Llévala en Google Ads y en Microsoft Advertising, y deja que los datos reales decidan adónde va el presupuesto.

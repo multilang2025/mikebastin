@@ -70,7 +70,7 @@ Cada herramienta gratuita responde bien a una pregunta concreta. Combinadas, cub
 
 Las versiones gratuitas cambian con frecuencia y limitan el número de consultas, así que úsalas para una primera lectura y comprueba las cifras importantes con una segunda fuente. Para comprobaciones rápidas desde el navegador, nuestras [extensiones de Chrome para SEO](/es/extensiones-chrome-seo/) tienen todas versión gratuita.
 
-### Por qué analizar a la competencia genera ideas nuevas
+### Entiende su lógica y encuentra tu ángulo
 
 Ver lo que hace un rival te ahorra probar a ciegas lo que otros ya han probado. Se trata de entender su lógica para encontrar tu propio ángulo.
 
@@ -108,7 +108,7 @@ Compara hasta cinco términos, por ejemplo tu marca y las de tus rivales, y sigu
 <p><strong>¿Has llegado al límite de lo que enseñan las versiones gratuitas?</strong> En nuestro SEO internacional analizamos cada mercado donde vendes con las palabras que usan tus compradores. <a href="/es/services/optimizacion-seo/">Pide tu auditoría gratuita de 20 minutos</a>.</p>
 </aside>
 
-## La IA amplía el terreno de juego
+## Mira cómo te citan las herramientas de IA
 
 En 2026 la competencia está en Google y también en Perplexity, Claude o la búsqueda de ChatGPT. Saber cómo citan estas herramientas a tu marca, o a tus rivales, es parte del análisis.
 
@@ -156,5 +156,5 @@ Cuando necesitas historial, varios mercados a la vez o el seguimiento continuo d
 
 Las herramientas gratuitas son el punto de partida. El paso siguiente es una estrategia por mercado, con IA donde aporta y con textos escritos para cada país.
 
-- **Visibilidad internacional:** [SEO multilingüe](https://mikebastin.com/es/services/posicionamiento-multilingue/)
-- **Visibilidad en la IA:** [consultoría de IA](https://mikebastin.com/es/services/consultoria-de-inteligencia-artificial/)
+- **Visibilidad internacional:** [mira cómo trabajamos el SEO multilingüe](https://mikebastin.com/es/services/posicionamiento-multilingue/)
+- **Visibilidad en la IA:** [mira cómo te ayudamos a aparecer en la IA](https://mikebastin.com/es/services/consultoria-de-inteligencia-artificial/)

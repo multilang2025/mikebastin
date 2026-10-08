@@ -95,7 +95,7 @@ Con esos datos, el sistema construye perfiles de cliente ideal (ICP) precisos y 
 
 Como resume [Outbounders](https://outbounders.es/inteligencia-artificial-para-ventas-b2b-estado/), la IA asume la carga pesada de los datos y da «superpoderes» a los equipos comerciales, que conservan la empatía, la negociación y la consultoría.
 
-## Análisis competitivo para afinar la captación
+## Estudia cómo captan clientes tus competidores
 
 Conocer cómo captan tus competidores te dice dónde están los compradores que todavía buscan proveedor. Identifica a tus competidores SEO reales y mira más allá de los líderes del sector: empresas más pequeñas ganan cuota con sistemas automatizados.
 
@@ -139,7 +139,7 @@ La IA se encarga de las tareas repetitivas, como el filtrado inicial de consulta
 
 Un sistema de cualificación de leads con IA es una inversión en la productividad de tu equipo comercial: hace que tus mejores vendedores hablen primero con los mejores compradores, en cada mercado.
 
-Empieza por acordar con ventas qué cuenta como un lead, mide de qué mercado llega cada uno y conecta después la puntuación. Si quieres diseñar ese sistema con nosotros, [cuéntanos tu situación](/es/contactanos/).
+Empieza por acordar con ventas qué cuenta como un lead, mide de qué mercado llega cada uno y conecta después la puntuación. Si quieres diseñar ese sistema con nosotros, [cuéntanos cómo te llegan hoy los leads](/es/contactanos/).
 
 <aside class="post-cta">
 <p><strong>¿Qué parte de tu captación multilingüe puede llevar la IA?</strong> Nuestra <a href="/es/services/consultoria-de-inteligencia-artificial/">consultoría de inteligencia artificial</a> te dice qué conviene automatizar y dónde sigue haciendo falta una persona que lea el idioma, y cómo medir si funciona. <a href="/es/contactanos/">Pide tu auditoría gratuita de 20 minutos</a>.</p>

@@ -100,7 +100,7 @@ Estos tres puntos aparecen casi siempre que auditamos un programa de enlaces esp
 >
 > [Mike Bastin](https://mikebastin.com/es/conocenos-agencia-experta-en-seo/)
 
-## Plazos realistas
+## Planifica con plazos realistas
 
 Planificar con plazos reales evita presionar a los editores y te permite repartir el trabajo a lo largo del año. Del primer contacto a un enlace editorial publicado en España, cuenta con varias semanas para las menciones genuinas.
 
@@ -108,14 +108,14 @@ Va más rápido cuando la relación ya existe, y más despacio si agosto o el fi
 
 Un ritmo constante de enlaces editoriales, mes a mes, es la señal de un programa sano. Un salto repentino de decenas de enlaces .es en pocas semanas merece una revisión de su origen.
 
-## Dónde encaja esto en un programa de SEO más amplio
+## Suma los enlaces a tu contenido y a tus palabras clave
 
 Los enlaces rinden más cuando la página que los recibe está bien escrita para su mercado. El trabajo de enlaces en España va junto a una buena investigación de palabras clave en español, contenido pensado para el usuario español y un plan que respete las diferencias regionales.
 
 Un enlace de El Español rinde de verdad en una página de destino bien escrita en español, y una página bien escrita despega cuando crecen sus dominios de referencia. Las dos mitades funcionan juntas, en España y en cada mercado extranjero.
 
-## Una segunda opinión sobre tu plan de enlaces
+## Pide una segunda opinión sobre tu plan de enlaces
 
 Si estás valorando un plan de link building en España o en otro de tus mercados, repasamos contigo cada paso. Trabajamos desde Valencia, en español, francés, inglés y neerlandés, y cada plan se construye enlace a enlace.
 
-[Escríbenos aquí](/es/contactanos/) o conoce más sobre [cómo llevamos las campañas de link building](/es/services/seo-tecnico/).
+[Cuéntanos tu plan de enlaces](/es/contactanos/) o mira [cómo llevamos las campañas de link building](/es/services/seo-tecnico/).

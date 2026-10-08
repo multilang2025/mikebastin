@@ -1,6 +1,7 @@
 ---
 words: 2614
-title: "Lista de auditoría de SEO técnico para sitios web"
+title: "Lista de auditoría de SEO técnico: qué revisar y en qué orden"
+metaTitle: "Auditoría de SEO técnico: qué revisar y en qué orden"
 slug: "lista-de-auditoria-seo-tecnica"
 locale: "es"
 type: "posts"
@@ -20,7 +21,7 @@ La lista de abajo sirve para auditar tu propio sitio o revisar el trabajo de la 
 
 Si prefieres delegar el trabajo, nuestro [servicio de SEO técnico](/es/services/seo-tecnico/) hace la misma auditoría y aplica las correcciones.
 
-## Rastreo e indexación
+## Comprueba que Google rastrea e indexa tus páginas
 
 Todo lo demás de la lista empieza cuando los buscadores llegan a la página, así que la auditoría recorre las fases en este orden:
 
@@ -92,7 +93,7 @@ Encuentra cadenas y bucles con Screaming Frog, Ahrefs o la extensión Redirect P
 Redirect 301 /pagina-antigua /pagina-nueva
 ```
 
-## Arquitectura del sitio y navegación
+## Ordena la arquitectura y la navegación
 
 Las páginas cercanas a la portada reciben más visitas, tanto de buscadores como de compradores.
 
@@ -153,7 +154,7 @@ Las migas de pan muestran a usuarios y buscadores dónde está una página. Añ�
 
 Google dejó de usar `rel="next"` y `rel="prev"` como señal de indexación en 2019, así que una serie paginada se posiciona por sus URL y sus enlaces. Da a cada página de la serie su propia URL y un canonical autorreferenciado, enlázalas con enlaces `<a href>` normales y ofrece una página «ver todo» solo donde cargue rápido.
 
-## Velocidad y Core Web Vitals
+## Mide la velocidad con las Core Web Vitals
 
 Una página rápida retiene primero al visitante y gana la posición después. Core Web Vitals mide la carga, la capacidad de respuesta y la estabilidad visual a partir de usuarios reales de Chrome; Interaction to Next Paint (INP) sustituyó a First Input Delay (FID) el 12 de marzo de 2024, así que actualiza cualquier plantilla de auditoría que aún pregunte por FID. Consulta el informe de Core Web Vitals en Search Console y diagnostica cada URL en PageSpeed Insights o Lighthouse.
 
@@ -186,7 +187,7 @@ Una página rápida retiene primero al visitante y gana la posición después. C
 >
 > Fuente: [Search Engine Land, «Google officially drops Mobile Usability report, Mobile-Friendly Test tool and Mobile-Friendly Test API»](https://searchengineland.com/google-officially-drops-mobile-usability-report-mobile-friendly-test-tool-and-mobile-friendly-test-api-435377)
 
-## Seguridad
+## Sirve todo el sitio por HTTPS
 
 Un candado limpio deja que la visita empiece con confianza. Todas las páginas y todos sus recursos deben cargar por HTTPS, para que el navegador las muestre libres de avisos de contenido mixto. Compruébalo con Why No Padlock o con la consola del navegador, redirige todo el tráfico HTTP a HTTPS con una 301 y actualiza los enlaces y recursos internos a `https://`:
 
@@ -198,7 +199,7 @@ RewriteRule ^(.*)$ https://tudominio.com/$1 [R=301,L]
 
 Mantén el certificado al día: comprueba su validez con el [SSL Server Test](https://www.ssllabs.com/ssltest//index.html) de Qualys SSL Labs y automatiza la renovación (Certbot para los certificados de Let's Encrypt).
 
-## Datos estructurados que pueden lograr resultados enriquecidos
+## Añade datos estructurados para optar a resultados enriquecidos
 
 Los datos estructurados ayudan a los buscadores a entender la página y pueden conseguir resultados enriquecidos. Añade los tipos que correspondan al contenido (`Article`, `Product`, `BreadcrumbList`, `Organization`), preferiblemente en JSON-LD, y valida con la prueba de resultados enriquecidos de Google y el Schema Markup Validator. Elige un formato y úsalo en todo el sitio.
 
@@ -222,7 +223,7 @@ Las etiquetas Open Graph controlan el aspecto de una página compartida en redes
 
 Revisa las vistas previas con el Sharing Debugger de Facebook y el Post Inspector de LinkedIn.
 
-## Contenido duplicado y páginas con poco contenido
+## Une el contenido duplicado y refuerza las páginas flojas
 
 Una página por búsqueda le da a esa página toda su fuerza. Cuando el mismo contenido vive en varias URL (con y sin `www`, con barra final o con un parámetro de seguimiento), una etiqueta canonical indica la versión que hay que indexar. Comprueba que cada plantilla emite un canonical, que apunta a una URL activa e indexable y que los enlaces internos usan el mismo formato:
 
@@ -248,7 +249,7 @@ Siteliner y Copyscape encuentran texto duplicado dentro de un sitio. Fusiona las
 <p><strong>¿Quieres una página fuerte para cada búsqueda?</strong> Nuestro <a href="/es/services/seo-tecnico/">trabajo de SEO técnico</a> identifica qué página debe posicionarse y dirige tus enlaces internos hacia ella. <a href="/es/contactanos/">Reserva una primera conversación</a>.</p>
 </aside>
 
-## Enlaces y códigos de estado
+## Repara los enlaces rotos y revisa los códigos de estado
 
 Cada enlace que funciona retiene a un visitante que ya estaba interesado.
 
@@ -261,7 +262,7 @@ Cada enlace que funciona retiene a un visitante que ya estaba interesado.
 
 Rastrea con Screaming Frog, consulta el informe de indexación de páginas en Search Console y usa un verificador como Dead Link Checker para los enlaces externos. Una página 404 personalizada, con buscador y enlaces populares, mantiene a los visitantes en movimiento.
 
-## Metadatos y SEO de imágenes
+## Escribe títulos únicos y cuida el SEO de las imágenes
 
 El título es lo primero que lee quien busca y, a menudo, lo que decide el clic. Cada página indexable necesita un título único que empiece por su palabra clave principal y se mantenga en unos 60 caracteres, por ejemplo «Zapatos azules: calidad artesanal y envío rápido». Las meta descripciones deben ser únicas, describir la página con precisión y dar una razón para hacer clic.
 
@@ -284,7 +285,7 @@ Toda imagen con significado necesita un texto alternativo natural: `alt="Zapato 
 </url>
 ```
 
-## Comprobaciones de SEO internacional con hreflang y versiones regionales
+## Comprueba el hreflang y las versiones regionales
 
 Con las etiquetas correctas, un visitante francés aterriza en tu página en francés. Comprueba que los códigos de idioma y región son válidos (el Reino Unido usa `en-gb`, donde mucha gente escribe `en-uk`), que cada versión lleva sus etiquetas de retorno y que cada una se referencia a sí misma:
 
@@ -301,7 +302,7 @@ Search Console eliminó en 2022 su informe de segmentación internacional y su a
 <p><strong>¿Quieres que los visitantes franceses aterricen en tus páginas en francés?</strong> Nuestro <a href="/es/services/seo-tecnico/">SEO técnico para sitios multilingües</a> comprueba si tus versiones de idioma encajan entre sí y corrige lo que las mantiene separadas. <a href="/es/contactanos/">Pide una auditoría gratuita de 20 minutos</a>.</p>
 </aside>
 
-## Seguimiento y monitorización
+## Mide cada corrección en Analytics y Search Console
 
 Las cifras fiables te dicen qué corrección ha funcionado. Confirma que Google Analytics 4 (o la alternativa que elijas) se activa en todas las páginas, idealmente mediante Google Tag Manager, y verifícalo con Tag Assistant; si queda alguna etiqueta `UA-` de Universal Analytics, que dejó de procesar datos en julio de 2023, retírala. Configura después la [analítica y el seguimiento de conversiones](/es/services/seo-tecnico/) para las acciones que importan: envíos de formularios, descargas, llamadas y clics en los botones clave.
 

@@ -131,19 +131,19 @@ const HOW_IT_WORKS = [
   {
     theme: "Market insight",
     icon: "search",
-    title: "A clear view of each market",
+    title: "See where each market stands",
     body: "We uncover where your site is already reaching buyers and where technical or content improvements can create more enquiries.",
   },
   {
     theme: "Focused strategy",
     icon: "target",
-    title: "A focused plan you can approve",
+    title: "Approve one focused plan",
     body: "Get a written scope for the markets you want to grow, with priorities, deliverables and responsibilities agreed before work begins.",
   },
   {
     theme: "Measured progress",
     icon: "chart",
-    title: "Progress you can act on",
+    title: "Act on what the figures show",
     body: "See traffic and enquiries by language in a monthly report, so you know which markets are paying back and where to focus next.",
   },
 ];
@@ -215,7 +215,7 @@ export default function Home() {
                 Discuss your project
               </Link>
               <Link href="/results/" className="ulink text-[.98rem]">
-                Explore client results
+                See client results
               </Link>
             </div>
           </Reveal>
@@ -240,7 +240,7 @@ export default function Home() {
             </h2>
             <p className="mb-10 max-w-[62ch] text-[1.05rem] leading-[1.65]" style={{ color: "var(--dim)" }}>
               We turn your market opportunities into focused work and measurable
-              growth. Explore the services that best fit your goals.
+              growth. Pick the services that best fit your goals.
             </p>
           </Reveal>
 
@@ -329,7 +329,7 @@ export default function Home() {
           <Reveal i={3}>
             <p className="mt-8 text-[.95rem]" style={{ color: "var(--dim)" }}>
               <Link href="/how-i-work/" className="ulink" style={{ color: "var(--berry)" }}>
-                Explore how we scope and bill each engagement
+                See how we scope and bill each engagement
               </Link>
               {" "}and what happens from the first call to monthly reporting.
             </p>

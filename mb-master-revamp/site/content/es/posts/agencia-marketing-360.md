@@ -59,7 +59,7 @@ Cada hábito de esta lista lleva el presupuesto al canal donde el problema sigue
 
 **El multilingüe, planificado desde el inicio.** Cuando las versiones en francés y en neerlandés se planifican a la vez que la española, cada una parte de su propio plan completo y de un traspaso limpio. Como muestran nuestras [buenas prácticas de SEO multilingüe](/es/buenas-practicas-seo-multilingue/), el marketing multilingüe que funciona incorpora la traducción a la planificación desde el primer día.
 
-## La prueba de la integración
+## Comprueba en diez minutos si tu agencia coordina
 
 En diez minutos ves hasta qué punto está coordinado el trabajo de tu agencia. Haz estas tres preguntas sobre cualquier campaña activa.
 
@@ -87,7 +87,7 @@ Al reunirlo todo en un solo documento de estrategia y un solo plan de medición,
 
 Cada mejora salió de tácticas que ya estaban en marcha: conectarlas produjo la subida.
 
-## Los datos detrás de las campañas coordinadas
+## Lo que dicen los datos sobre las campañas coordinadas
 
 La conexión entre canales rinde más que su número. El análisis del IPA de más de 250 casos de campañas encontró una diferencia medible entre el trabajo integrado en varios canales y las campañas de un solo canal.
 
@@ -97,7 +97,7 @@ La conexión entre canales rinde más que su número. El análisis del IPA de m�
 
 Para tu presupuesto, tres canales conectados rinden más que siete aislados.
 
-## Lo que una propuesta 360 debe enseñarte
+## Qué pedir en una propuesta 360 antes de firmar
 
 Lee cada propuesta con la columna de la derecha delante: cada línea es algo que conviene pedir antes de firmar.
 
@@ -109,7 +109,7 @@ Lee cada propuesta con la columna de la derecha delante: cada línea es algo que
 | «Preparados para el multilingüe» | La traducción como parte de la planificación desde el inicio |
 | «Redes sociales siempre activas» | Redes sociales ligadas a los mismos objetivos de conversión que el pago y el SEO |
 
-## Cómo saber si un socio 360 es la contratación adecuada
+## Cuándo te conviene contratar un socio 360
 
 Un socio 360 compensa en cuanto necesitas coordinación entre canales. Solemos recomendar contratarlo cuando se cumplen al menos dos de estas condiciones.
 
@@ -119,7 +119,7 @@ Un socio 360 compensa en cuanto necesitas coordinación entre canales. Solemos r
 
 En los demás casos, un responsable sénior a tiempo parcial con dos especialistas externos suele dar mejores resultados que una agencia con cuota fija, con menos coste y más atención puesta en la restricción real. Nuestra comparación entre [asesor de marketing digital o agencia](/es/asesor-marketing-digital/) te ayuda a decidir.
 
-## Una segunda mirada sobre tu motor de marketing
+## Compara la cuota 360 con tu equipo interno
 
 Si estás comparando la cuota de una agencia de marketing 360 en Valencia con mantener el trabajo en casa, revisamos contigo las ventajas de cada opción, en persona en nuestra oficina de Valencia o por videollamada.
 

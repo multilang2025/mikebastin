@@ -19,7 +19,7 @@ Votre budget marketing a augmenté, et l’étape suivante, ce sont des demandes
 
 Un conseiller fixe la direction, une agence réalise le travail. Bien choisir, c’est mettre une année de budget au service du bon résultat ; parfois, la réponse est les deux.
 
-## Conseiller en marketing digital ou agence : la comparaison en un coup d’œil
+## Les deux modèles comparés en un coup d’œil
 
 Après plus de deux décennies des deux côtés de la barrière, nous savons en général en un échange de 20 minutes ce dont une entreprise a besoin. L’endroit où se trouve le goulet d’étranglement nous en dit bien plus que le budget.
 
@@ -32,7 +32,7 @@ Après plus de deux décennies des deux côtés de la barrière, nous savons en 
 | **Tarification habituelle** | Forfait mensuel ou prix au projet | Forfait mensuel plus budget média |
 | **Risque de parti pris** | Plus faible (rémunéré pour son temps seul) | Plus élevé (rémunéré pour faire durer un contrat) |
 
-## Le rôle réel d’un conseiller en marketing digital
+## Ce que fait réellement un conseiller en marketing digital
 
 Auprès d’un conseiller, vous achetez la réponse à la question « pourquoi les résultats tardent-ils », et cette réponse vient du diagnostic. Le conseiller dessine le plan d’ensemble, audite les fondations et vérifie que chaque décision marketing sert toujours le modèle économique qui la porte.
 
@@ -46,7 +46,7 @@ Quand les campagnes apportent du trafic et que les rendez-vous tardent à suivre
 >
 > Mike Bastin, consultant en SEO et marketing multilingues
 
-## Le rôle d’une agence de marketing digital
+## Ce que prend en charge une agence de marketing digital
 
 Auprès d’une agence, vous achetez de la capacité : un travail livré par un service tout prêt. Vous y trouvez des spécialistes : rédacteurs, praticiens du SEO, acheteurs média, designers UX et développeurs web, dont le métier consiste à prendre le travail en charge et à le livrer.
 

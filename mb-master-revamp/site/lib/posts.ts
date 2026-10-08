@@ -27,6 +27,7 @@ import { readFileSync } from "fs";
 import { join } from "path";
 import matter from "gray-matter";
 import { renderMarkdown } from "@/lib/render-markdown";
+import { insertPostFigures } from "@/lib/post-figure-insert";
 import { getBlogImage } from "@/lib/blog-images";
 
 /**
@@ -275,7 +276,7 @@ export function getPosts(): Post[] {
 
     posts.push({
       ...fm,
-      html: renderMarkdown(content),
+      html: insertPostFigures(renderMarkdown(content), fm.group, "en"),
       cluster: assignment?.cluster ?? UNCATEGORISED,
       relatedService: assignment?.service,
     });
@@ -316,7 +317,7 @@ export function getPostRecord(slug: string): Post | undefined {
 
   return {
     ...(data as PostFrontmatter),
-    html: renderMarkdown(content),
+    html: insertPostFigures(renderMarkdown(content), (data as PostFrontmatter).group, "en"),
     cluster: assignment?.cluster ?? UNCATEGORISED,
     relatedService: assignment?.service,
   };
@@ -568,7 +569,7 @@ export function getPostsForLocale(locale: Locale): LocalePost[] {
     const raw = readFileSync(join(REPO_ROOT, contentPath), "utf8");
     const { data, content } = matter(raw);
     const fm = data as PostFrontmatter;
-    posts.push({ ...fm, html: renderMarkdown(content, locale) });
+    posts.push({ ...fm, html: insertPostFigures(renderMarkdown(content, locale), fm.group, locale) });
   }
 
   posts.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());

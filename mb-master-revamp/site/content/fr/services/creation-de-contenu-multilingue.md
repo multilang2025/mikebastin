@@ -1,7 +1,8 @@
 ---
 words: 741
-title: "Création de contenu multilingue"
+title: "Création de contenu multilingue, écrit pour les acheteurs de chaque marché"
 name: "Contenu multilingue"
+metaTitle: "Création de contenu multilingue"
 slug: "creation-de-contenu-multilingue"
 locale: "fr"
 type: "services"

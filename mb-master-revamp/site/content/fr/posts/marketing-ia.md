@@ -117,7 +117,7 @@ Un assistant multilingue répond dans la langue de la question, et c’est préc
 | Langue d’un marché clé | Un relecteur natif, sur échantillon | Vers un interlocuteur qui parle la langue |
 | Langue d’un marché secondaire | Un relecteur natif, plus ponctuellement | Vers un formulaire suivi dans la langue du client |
 
-## Intégrer l’IA à votre stratégie marketing
+## Intégrez l’IA à votre plan marketing, un usage à la fois
 
 L’IA rapporte quand elle relie plusieurs fonctions : achetez les outils dans le cadre d’un même plan, commencez là où la vitesse vous rapporterait le plus, puis :
 
@@ -132,6 +132,6 @@ Pour situer ces outils dans l’ensemble de vos canaux d’acquisition à l’é
 <p><strong>Vous publiez déjà avec l’IA dans plusieurs langues et voulez des textes justes dans chacune ?</strong> Avec notre <a href="/fr/services/postedition-ia/">post-édition IA</a>, un locuteur natif reprend le texte produit par la machine, et l’effort se concentre là où se trouve le risque. <a href="/fr/nous-contacter/">Réserver une consultation gratuite</a>.</p>
 </aside>
 
-## L’essentiel
+## Commencez par un usage, mesurez-le, puis passez au suivant
 
 L’IA vous apporte des contenus plus rapides, des prévisions plus fines et un service disponible à toute heure. Les entreprises qui en tirent le plus la gardent sous direction humaine : un premier usage, mesuré sur ce qu’il rapporte marché par marché, puis le suivant.

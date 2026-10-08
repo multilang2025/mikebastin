@@ -112,7 +112,7 @@ Every extension you keep is another popup, shortcut and permission, so we keep t
 
 **Lingvanex.** Still works, but DeepL plus an LLM extension covers the same ground with better output.
 
-## Side-by-side comparison
+## Compare the extensions side by side
 
 | Extension | Best for | Free tier | Languages | Our usage |
 | --- | --- | --- | --- | --- |

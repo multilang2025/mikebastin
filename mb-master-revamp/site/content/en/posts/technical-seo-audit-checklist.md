@@ -91,7 +91,7 @@ Find chains and loops with Screaming Frog, Ahrefs or the Redirect Path extension
 Redirect 301 /old-page /new-page
 ```
 
-## Site architecture and navigation
+## Bring key pages close to the homepage
 
 Pages close to the homepage get visited more, by search engines and buyers alike.
 
@@ -183,7 +183,7 @@ A fast page keeps the visitor first and earns the ranking later. Core Web Vitals
 > Google retired the Mobile Usability report, the Mobile-Friendly Test tool and its API from 1 December 2023, pointing site owners to Lighthouse.
 > Source: [Search Engine Land, "Google officially drops Mobile Usability report, Mobile-Friendly Test tool and Mobile-Friendly Test API"](https://searchengineland.com/google-officially-drops-mobile-usability-report-mobile-friendly-test-tool-and-mobile-friendly-test-api-435377)
 
-## Security
+## Serve every page over HTTPS
 
 A clean padlock lets the visit start with trust. Every page should load over HTTPS, with every resource on HTTPS too, so the browser shows it free of mixed-content warnings. Check with Why No Padlock or the browser console, redirect all HTTP traffic to HTTPS with a 301, and update internal links and resources to `https://`:
 
@@ -224,7 +224,7 @@ Open Graph tags control how a page looks when shared on social platforms. Every 
 
 Check previews with Facebook's Sharing Debugger and LinkedIn's Post Inspector.
 
-## Duplicate and thin content
+## Give each search one strong page
 
 One page per search gives that page the full strength. When the same content lives at several URLs (with and without `www`, with a trailing slash or a tracking parameter), a canonical tag names the version to index. Check every template outputs a canonical, that it points at a live, indexable URL, and that internal links use the same format:
 
@@ -251,7 +251,7 @@ Refresh outdated content on a schedule.
 <p><strong>Want one strong page for each search?</strong> Our <a href="/services/technical-seo/">technical SEO work</a> finds which page should rank and points your internal links at it. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
-## Link and status code checks
+## Fix broken links and status codes
 
 Every working link keeps a visitor who is already interested.
 
@@ -303,7 +303,7 @@ Search Console's International Targeting report and its country setting were rem
 <p><strong>Want French visitors landing on your French pages?</strong> Our <a href="/services/technical-seo/">technical SEO for multilingual websites</a> finds out whether your language versions add up, and fixes whatever keeps them apart. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
-## Tracking and monitoring
+## Check analytics and Search Console reports
 
 Universal Analytics stopped processing data in July 2023, so check that every site has moved from its `UA-` tag to Google Analytics 4. Confirm Google Analytics 4 (or your chosen alternative) fires on every page, ideally through Google Tag Manager, and verify it with Tag Assistant. Then set up [analytics and conversion tracking](/services/conversion-tracking/) for the actions that matter: form submissions, downloads, calls and key button clicks.
 

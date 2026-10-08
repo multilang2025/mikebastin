@@ -28,7 +28,7 @@ If you can try one thing this quarter, here is what each use buys and what it st
 | **Predictive analytics** | Forecasts which tactics, segments and budgets will perform | Google Analytics predictive metrics | Deciding what to test and why |
 | **Chatbots** | Answers questions and guides buyers around the clock | Zendesk, HubSpot, Intercom | Complaints, exceptions, judgement calls |
 
-## AI-driven content creation
+## Publish more often with AI drafting
 
 Publishing often keeps you visible in every market you sell into, and writing capacity is usually what sets the pace. AI drafting opens up most of that capacity: a blog post or a week of social updates arrives in minutes.
 
@@ -38,7 +38,7 @@ Publishing often keeps you visible in every market you sell into, and writing ca
 
 GPT models draft articles, product descriptions and email campaigns, and tools like [Copy.ai](https://www.copy.ai) and [Jasper](https://www.jasper.ai/) automate parts of the content workflow. Quality still depends on the brief and the editor: our guide to [how AI is changing SEO strategy](/blog/how-ai-is-revolutionising-seo-strategies/) covers where AI drafts help rankings and where they need a human edit.
 
-## Predictive analytics for campaign optimization
+## Put budget on the segments most likely to buy
 
 Budget works hardest on the segments most likely to buy, and predictive analytics finds them. Machine learning reads your historical data (customer behaviour, purchase history, engagement) and forecasts which tactics and audiences are most likely to respond, so money moves to where it earns.
 
@@ -48,7 +48,7 @@ Budget works hardest on the segments most likely to buy, and predictive analytic
 
 Netflix and Amazon are the best-known examples, using predictive models to personalise recommendations. For smaller teams, Google Analytics' predictive metrics, such as purchase and churn probability, bring a version of the same idea within reach.
 
-## AI-powered chatbots for customer service
+## Answer customers overnight with AI chatbots
 
 A question answered overnight keeps the buyer with you, and when you sell across time zones, overnight is most of the day somewhere. AI chatbots answer many enquiries at once, instantly, at any hour.
 
@@ -58,7 +58,7 @@ A question answered overnight keeps the buyer with you, and when you sell across
 
 Zendesk, HubSpot and Intercom offer AI chat for support and sales, and e-commerce sites use it to guide product choice and answer order questions. Our guide to [conversational AI in business](/blog/conversational-ai-chatbots-business/) covers ten practical uses and how to measure them. Plan who checks the bot's answers in each language it speaks, and how it hands over to a person; the handover matters as much as the bot.
 
-## Bringing AI into your marketing strategy
+## Buy AI tools as part of one marketing plan
 
 AI pays back when it connects several functions, so buy tools as part of one plan and start where speed would earn you most, then:
 
@@ -72,7 +72,7 @@ If you want one team to join these pieces up across channels, see what a [full-s
 <p><strong>Want to know which of these to try first in your markets?</strong> Our <a href="/services/ai-consulting/">AI consulting</a> starts by saying where AI helps your multilingual content and support, and where it still needs a person who reads the language. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
-## The short version
+## Start with one use and measure what it earns
 
 AI gives you faster content, sharper forecasts and always-on service. The businesses that gain most keep it under human direction: one use first, measured on what it brings in, then the next.
 

@@ -13,13 +13,13 @@ sourceUrl: null
 excerpt: "Hreflang, hébergement, pages proches, structure de domaine : les réglages techniques qui font positionner chaque version de votre site sur son marché."
 ---
 
-## Montrer à chaque pays la bonne version de votre site
+## Montrez à chaque pays la bonne version de votre site
 
 Vos pages en anglais, en allemand et en espagnol peuvent s’additionner, chacune se positionnant sur son propre marché. Quand les réglages sont justes, Google montre la bonne version à chaque pays, l’acheteur arrive dans sa langue, et chaque traduction que vous avez payée devient visible.
 
 Sur un [site multilingue](/fr/bonnes-pratiques-seo-multilingue/), cette addition tient en quatre réglages techniques : l’étiquetage de chaque version de langue, l’endroit d’où le site est servi, la gestion des pages proches et la structure du domaine. Voici ce que fait chacun, les corrections que nous apportons le plus souvent, et la façon de les régler pour qu’ils portent votre [référencement multilingue](/fr/services/referencement-multilingue/).
 
-## Pourquoi les balises hreflang comptent
+## Faites travailler vos versions ensemble avec hreflang
 
 Bien posées, elles font travailler vos versions de langue ensemble, et chaque visiteur arrive sur une page dans sa langue. Les balises hreflang indiquent aux moteurs quelle version de langue et de région montrer à chaque utilisateur. Nos [bonnes pratiques du SEO multilingue](/fr/bonnes-pratiques-seo-multilingue/) couvrent la stratégie d’ensemble.
 
@@ -77,7 +77,7 @@ L’hébergement détermine la vitesse de chargement de vos pages sur chaque mar
 
 Si votre site vise plusieurs pays, un réseau de diffusion de contenu (CDN) sert les pages depuis des emplacements proches de chaque utilisateur, ce qui maintient des temps de chargement bas partout. Associez-le à hreflang et à une structure de domaine claire.
 
-## Gérer les contenus proches d’une langue à l’autre
+## Distinguez les contenus proches d’une langue à l’autre
 
 Des pages distinctes permettent aux moteurs de montrer, sur chaque marché, la version depuis laquelle vous vendez. Google traite des versions localisées comme des doublons quand seul le modèle de page est traduit (navigation, pied de page) et que le contenu principal reste dans la langue source : le travail consiste donc à traduire le contenu principal et à étiqueter chaque version.
 
@@ -87,7 +87,7 @@ Les versions d’une même langue pour deux pays, par exemple l’anglais pour l
 - Donnez à chaque version ses propres URL, balises méta et titres.
 - Donnez à chaque version une balise canonical qui la désigne elle-même. Une canonical de la page allemande vers la page française demande à Google de retenir la page française à la place de l’allemande.
 
-## Bien utiliser la traduction automatique
+## Faites relire la traduction automatique
 
 La [post-édition par un linguiste professionnel](/fr/services/postedition-ia/) transforme une traduction automatique brute en un texte qui se lit naturellement, garde le contexte et porte l’intention de l’original. Les [règles de Google contre le spam](https://developers.google.com/search/docs/essentials/spam-policies) visent les pages produites en masse par des outils automatiques sans valeur ajoutée pour le lecteur : un texte relu et édité protège donc le trafic organique et garde les lecteurs.
 
@@ -100,7 +100,7 @@ Une vraie localisation adapte le contenu à la langue, à la culture et aux atte
 
 Travaillez avec des [services de traduction](/fr/services/traduction-professionnelle/) professionnels ou des spécialistes SEO de langue maternelle, qui recherchent aussi les mots-clés employés sur chaque marché. Un contenu clair et localisé est plus pertinent pour les internautes locaux et construit la confiance dont une marque internationale a besoin.
 
-## Choisir une structure de domaine
+## Choisissez une structure de domaine
 
 La structure de domaine est le socle sur lequel repose le contenu : décidez-la une fois, tôt. Trois organisations courantes existent, et le bon choix dépend de vos marchés, de votre budget et de votre équipe.
 
@@ -120,13 +120,13 @@ Gardez une seule structure pour l’ensemble du site : un modèle unique pour t
 <p><strong>Vous ajoutez des marchés et choisissez une structure à laquelle vous engager ?</strong> Dans nos <a href="/fr/services/referencement-multilingue/">programmes de référencement multilingue</a>, nous tranchons entre sous-répertoire, sous-domaine et domaine national dès le début, à partir de vos marchés. <a href="/fr/nous-contacter/">Parlons de votre structure</a>.</p>
 </aside>
 
-## Traduire et optimiser les métadonnées
+## Traduisez titres et descriptions pour chaque marché
 
 Votre titre et votre description sont la première chose que lit un internaute de chaque marché. Des titres, descriptions et textes alternatifs traduits et optimisés aident chaque version à se positionner sur son propre marché.
 
 Rédigez des métadonnées neuves pour chaque version de langue, à destination du public local, avec les mots-clés que ce marché recherche ; nos [services de rédaction SEO multilingue](/fr/services/creation-de-contenu-multilingue/) s’en chargent. Des textes alternatifs traduits améliorent aussi l’accessibilité et la visibilité dans la recherche d’images.
 
-## Garder une configuration en bonne santé
+## Vérifiez votre configuration à chaque mise à jour
 
 Une configuration multilingue saine se vérifie régulièrement, car une mise à jour d’extension ou une migration peut modifier un groupe de langues. Planifiez des [audits techniques réguliers](/fr/services/seo-technique/) qui vérifient :
 
@@ -137,6 +137,6 @@ Une configuration multilingue saine se vérifie régulièrement, car une mise à
 
 Documentez votre architecture internationale pour que chacun dans l’équipe voie quelle URL sert quel marché. Quand les moteurs changent leurs exigences, une configuration documentée s’ajuste plus vite.
 
-## L’essentiel
+## Ce qui fait tenir vos positions sur chaque marché
 
 De solides positions sur plusieurs marchés reposent sur une base technique saine : des groupes hreflang complets, une diffusion rapide dans chaque région, des versions de langue distinctes et auto-canoniques, et une structure de domaine unique. Quand ces éléments travaillent ensemble, les moteurs comprennent quelle page montrer à qui, et davantage de bons visiteurs atteignent votre site multilingue.

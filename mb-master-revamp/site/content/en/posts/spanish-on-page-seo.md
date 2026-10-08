@@ -13,7 +13,7 @@ sourceUrl: "https://mikebastin.com/spanish-on-page-seo/"
 excerpt: "Want Spanish pages that get found and read? A Spanish on-page SEO and GEO checklist for pages that read local, win enquiries and get cited in AI answers."
 ---
 
-## On-page SEO for Spanish-speaking audiences
+## Keep Spanish readers on the page
 
 Your Spanish pages get found, and the next step is keeping readers on them. The translation is often fine already; what holds a reader is a page that reads local throughout: a Spanish web address, headings a buyer in Madrid would type, one register from top to bottom. Spanish buyers notice, on Google.es and Bing alike, and choose the supplier who sounds local.
 
@@ -23,7 +23,7 @@ Each detail you get right earns clicks and enquiries. Below: what to set on each
 
 A page built for a known reader lands. Before any [Spanish SEO](/services/spanish-seo/) work on the page itself, settle who you are writing for: Spain has distinct regional preferences, and Spanish-speaking audiences vary widely between countries.
 
-## Keyword research in Spanish
+## Research keywords in Spanish, country by country
 
 Researched Spanish keywords bring the right visitors. Use the words Spanish searchers actually type, allow for Spain against Latin America, and decide on formality before anyone writes a line.
 
@@ -35,7 +35,7 @@ Researched Spanish keywords bring the right visitors. Use the words Spanish sear
 
 [Long-tail keywords](/services/multilingual-seo/) in Spanish, built from everyday expressions, match search intent more closely and make the content read naturally.
 
-## Content, headings and meta descriptions
+## Write titles, headings and descriptions a native would
 
 Your title and meta description are all a searcher sees before deciding to click. Write H1s and H2s with the phrasing a native would use, and treat the meta description as the invitation: a reason to choose you.
 
@@ -71,7 +71,7 @@ A Spanish reader who stays in Spanish all the way through stays with you. Link S
 <p><strong>Want Spanish slugs, Spanish alt text and one register across your Spanish pages?</strong> Our <a href="/services/spanish-seo/">Spanish SEO service</a> writes Spanish for Spain directly from Valencia, with keyword research by native speakers of each Spanish you target. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
-## User experience and mobile
+## Build for Spanish phones first
 
 A large share of Spanish users browse on phones, so mobile optimization comes first: fast pages, clear navigation and a layout that holds together on a small screen.
 
@@ -118,7 +118,7 @@ Treat it as a second reader of the same page: a page written clearly for a Spani
 <p><strong>Want your Spanish pages named in AI answers as well as ranked?</strong> Our <a href="/services/generative-engine-optimization/">generative engine optimization service</a> structures pages for ChatGPT, Perplexity and Google's AI Overviews to cite. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
-## Measuring results
+## Measure results per market
 
 Numbers per market show what worked. Use Google Search Console filtered to Spain, your analytics and [local SEO](/services/local-seo/) tools, and track engagement and click-through rates.
 
@@ -130,7 +130,7 @@ Check translation accuracy and regional differences most carefully, because they
 
 Know the market, choose culturally relevant keywords, localize content and media, and connect it all with internal links. Our guides to [Spanish SEO markets](/blog/spanish-seo-markets/) and [Spanish keyword localization](/blog/spanish-keyword-localisation/) cover the next steps.
 
-Want your Spanish pages to bring in enquiries as well as visits? [Contact us](/contact/) to review your on-page SEO.
+Want your Spanish pages to bring in enquiries as well as visits? [Book a call](/contact/) and we will review your on-page SEO with you.
 
 ## FAQ
 

@@ -42,7 +42,7 @@ Si puedes probar una sola cosa este trimestre, esto es lo que aporta cada uso y 
 <figcaption>Un uso a la vez, juzgado por lo que aporta antes de añadir el siguiente: así cada herramienta se gana su presupuesto.</figcaption>
 </figure>
 
-## Creación de contenido con IA
+## Publica más a menudo con borradores de IA
 
 Publicar con frecuencia te mantiene visible en cada mercado al que vendes, y la capacidad de redacción suele marcar el ritmo. El borrador con IA libera buena parte de esa capacidad: una entrada de blog o una semana de publicaciones sociales llega en minutos.
 
@@ -52,7 +52,7 @@ Publicar con frecuencia te mantiene visible en cada mercado al que vendes, y la 
 
 Los modelos GPT redactan artículos, fichas de producto y [campañas de correo](/es/email-marketing-tasa-apertura-conversiones/), y herramientas como [Copy.ai](https://www.copy.ai) y [Jasper](https://www.jasper.ai/) automatizan partes del flujo de contenido. La calidad depende del briefing y de quien edita. Si vendes en varios idiomas, cada versión necesita a alguien que lea ese idioma y revise el borrador antes de publicarlo, y ahí encaja nuestra [redacción SEO multilingüe](/es/services/redaccion-seo-multilingue/).
 
-## Analítica predictiva para optimizar campañas
+## Encuentra a tus mejores compradores con analítica predictiva
 
 El presupuesto rinde más en los segmentos con más probabilidad de comprar, y la analítica predictiva los encuentra. El aprendizaje automático lee tus datos históricos (comportamiento de clientes, historial de compras, interacción) y prevé qué tácticas y audiencias responderán mejor, de modo que el dinero va hacia donde produce resultados.
 
@@ -62,7 +62,7 @@ El presupuesto rinde más en los segmentos con más probabilidad de comprar, y l
 
 Netflix y Amazon son los ejemplos más conocidos, con modelos predictivos que personalizan sus recomendaciones. Para equipos más pequeños, las métricas predictivas de Google Analytics, como la probabilidad de compra y la de abandono, acercan una versión de la misma idea. Si quieres medir qué mercado rinde más antes de mover presupuesto, nuestro servicio de [monitorización y analítica](/es/services/seo-tecnico/) te ayuda a ponerlo en marcha.
 
-## Chatbots con IA para atención al cliente
+## Atiende a tus clientes a cualquier hora con un chatbot
 
 Una pregunta respondida de madrugada mantiene al comprador contigo, y cuando vendes en varios husos horarios, la madrugada es buena parte del día en algún sitio. Los [chatbots con IA](/es/chatbots-ia-empresas/) atienden muchas consultas a la vez, al instante y a cualquier hora.
 
@@ -76,7 +76,7 @@ Zendesk, HubSpot e Intercom ofrecen chat con IA para soporte y ventas, y las tie
 <p><strong>¿Puede un asistente con IA atender a tus clientes en cada idioma?</strong> Nuestra <a href="/es/services/consultoria-de-inteligencia-artificial/">consultoría de inteligencia artificial</a> te dice qué parte de tu contenido y de tu atención al cliente multilingües conviene automatizar, y cuál sigue necesitando a una persona que lea el idioma. <a href="/es/contactanos/">Reserva una primera conversación</a>.</p>
 </aside>
 
-## Cómo incorporar la IA a tu estrategia de marketing
+## Incorpora la IA con un único plan
 
 La IA se amortiza cuando conecta varias funciones, así que conviene elegir las herramientas dentro de un único plan y empezar por donde la rapidez te aporte más. Después:
 
@@ -86,6 +86,6 @@ La IA se amortiza cuando conecta varias funciones, así que conviene elegir las 
 
 Si el siguiente paso es llevar campañas de pago a varios mercados, nuestra [publicidad multilingüe](/es/services/publicidad-multilingue/) es un buen punto de partida.
 
-## Resumen
+## Un uso cada vez, medido por lo que aporta
 
 La IA te da contenido más rápido, previsiones más precisas y atención siempre activa. Las empresas que más ganan la mantienen bajo dirección humana: un uso primero, medido por lo que aporta, y después el siguiente.

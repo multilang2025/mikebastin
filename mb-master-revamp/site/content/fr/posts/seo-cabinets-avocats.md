@@ -22,7 +22,7 @@ Votre prochain client compare trois cabinets sur son téléphone avant d’en ap
 
 Pour les fondamentaux, nos [bonnes pratiques du SEO multilingue](/fr/bonnes-pratiques-seo-multilingue/) détaillent les étapes qui aident votre cabinet à gagner puis à garder les premières positions.
 
-## Pourquoi un cabinet d’avocats gagne à un SEO spécialisé
+## Gagnez le client au moment où il compare
 
 Un site spécialisé gagne le client à l’étape de la comparaison, celle où il passe le plus de temps. Il lit les avis, compare des pages d’expertise détaillées et évalue plusieurs avocats avant de prendre contact : votre site doit donc donner une image complète et à jour du cabinet, et le mener vite au bon domaine de pratique.
 
@@ -51,7 +51,7 @@ Le travail juridique a aussi ses propres contraintes. La confidentialité, la co
 <figcaption>Chaque étape nourrit la suivante. La mesure finale décide des recherches et des pages qui reçoivent la prochaine série de travaux.</figcaption>
 </figure>
 
-## Partir de ce que fait réellement votre cabinet
+## Partez de ce que fait réellement votre cabinet
 
 Un SEO construit sur une image précise du cabinet attire les demandes que vous voulez. Un cabinet se concentre sur les litiges immobiliers ; un autre donne la priorité à la gestion de patrimoine. Avant de lancer le SEO, assurez-vous de pouvoir expliquer clairement ce qui distingue votre cabinet :
 
@@ -139,7 +139,7 @@ Nous équilibrons les Core Web Vitals avec les éléments de design qui converti
 <p><strong>Vous avez repris un site qui a grandi par couches successives ?</strong> Notre <a href="/fr/services/seo-technique/">SEO technique pour sites multilingues</a> fait en sorte que vos versions de langue s’additionnent, chacune soutenant les autres. <a href="/fr/nous-contacter/">Réservez un premier échange</a>.</p>
 </aside>
 
-## Contenus, concurrents et conformité
+## Étudiez vos concurrents et restez conforme
 
 Nous étudions les concurrents avec des outils comme Ahrefs et SEMrush pour repérer les ouvertures qu’ils laissent. Beaucoup de cabinets visent des termes larges, ce qui vous laisse les services à forte intention comme le NIE, la création de société ou l’accompagnement en traduction assermentée, et des contenus détaillés, propres à chaque marché et écrits en langue maternelle, permettent à des cabinets plus petits de rivaliser avec des acteurs internationaux.
 

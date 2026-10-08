@@ -97,7 +97,7 @@ DAEXT ha unido sus plugins [Interlinks Manager](https://wordpress.org/plugins/da
 
 La mayoría de estas herramientas ofrece una versión gratuita, una prueba o garantía de devolución, así que prueba una con tu propio contenido antes de comprometerte.
 
-## Cómo sacar partido a una herramienta de enlazado interno
+## Fija las reglas antes de automatizar
 
 Unas reglas cuidadas son lo que hace rentable una herramienta.
 

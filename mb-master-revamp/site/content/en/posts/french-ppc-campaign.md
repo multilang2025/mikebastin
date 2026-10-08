@@ -1,6 +1,6 @@
 ---
 words: 1585
-title: "How to create the perfect French PPC campaign"
+title: "How to build a French PPC campaign that converts"
 slug: "french-ppc-campaign"
 locale: "en"
 type: "posts"
@@ -12,7 +12,7 @@ sourceUrl: "https://mikebastin.com/french-ppc-campaign/"
 excerpt: "French PPC campaign drawing clicks? Build it for how French buyers search, read and buy, so your budget reaches the buyers ready to enquire."
 ---
 
-## Strategic approaches to French market pay-per-click advertising
+## Build the campaign for France from the start
 
 Your French campaign is live and the clicks are coming in; the next step is turning them into enquiries. The answer usually sits in the build. A campaign translated from an English one bids on the words English buyers use, shows ads that read like a translation, and lands people on a page built for another market. Rebuilt for France, the same budget pays for clicks from people likely to buy.
 
@@ -62,7 +62,7 @@ Get the order right and each round of spend teaches you where the next one shoul
 <figcaption>The sections below follow this order. Results from the last stage decide where the next round of keywords, copy and budget goes.</figcaption>
 </figure>
 
-## Research: understanding the French market
+## Research the terms French buyers type
 
 Research is where a French campaign finds its buyers. It gives you the terms a buyer in Lyon actually types, which usually differ from your English campaign's terms in translation. France is also several audiences: buying habits and vocabulary shift from region to region.
 
@@ -74,7 +74,7 @@ For [keyword research](/services/technical-seo/), work from French-specific term
 
 Done well, research leaves you with the terms your buyers really use and the gaps your competitors leave.
 
-## Setting up campaigns on Google Ads and Microsoft Advertising
+## Structure campaigns by region on Google Ads and Microsoft Advertising
 
 How you structure the account decides whether you can later tell which region and which offer is paying for itself. Separate campaigns per region give you that answer.
 
@@ -95,7 +95,7 @@ Microsoft Advertising (formerly Bing Ads) is cheaper reach well worth adding to 
 <p><strong>Ready to run France as a campaign of its own?</strong> We build <a href="/services/multilingual-sem/">paid search per market</a> from native French keyword research, with its own budget. Your whole media spend goes straight to Google or Microsoft, and our management is a separate fee. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
-## Building the perfect French ad copy
+## Write ad copy in native French
 
 Your ad copy is the first sentence a French buyer reads from you, and they notice a translation at once. Native-level French builds trust: it tells the reader you serve their market, and it keeps them on your ad.
 
@@ -103,7 +103,7 @@ Write headlines and descriptions for what a French buyer cares about. Cultural r
 
 Test your calls to action and let the results choose. "Achetez maintenant" (Buy now) works for some audiences; "En savoir plus" (Find out more) often wins where the purchase is considered. The data tells you which one your buyers answer.
 
-## Creating high-quality landing pages for French users
+## Build landing pages that finish what the ad started
 
 An ad and its landing page work as a pair in PPC: the ad earns the click and the page wins the sale. The landing page has to finish what the ad started, in flawless French and in a context a French buyer recognises.
 
@@ -111,7 +111,7 @@ French buyers look for clear pricing and local testimonials, and a page that sho
 
 Align your SEO and PPC work too, so one set of landing pages can rank organically and serve paid traffic, earning twice.
 
-## Bidding strategies and budgeting for the French market
+## Set bids and budgets for France
 
 Bidding decides how much each enquiry costs you, which makes it the lever most worth getting right in a competitive market like France.
 
@@ -121,7 +121,7 @@ Microsoft Advertising typically offers lower CPCs than Google, which makes it a 
 
 Use ad assets (formerly extensions). Sitelinks, callouts and location assets make your ad bigger and more clickable for the same cost per click, and writing them in French keeps the experience consistent.
 
-## Tracking and optimization to show whether France is profitable
+## Track whether France pays for itself
 
 Market-level tracking tells you whether France is profitable in its own right or subsidised by another market. Set up conversion tracking in Google Analytics for your French campaigns, and watch click-through rate (CTR), cost per click (CPC), conversion rate and return on ad spend (ROAS) for France on its own.
 
@@ -143,7 +143,7 @@ The second is native French. Work with native French writers so your ads and lan
 
 The third is Microsoft Advertising. Its user base is smaller than Google's, and lower competition in France can deliver a strong return on investment.
 
-## The short version
+## Build for France and let the data decide
 
 A French PPC campaign pays when it is built for France: native keyword research, native copy, landing pages a French buyer trusts, and tracking that shows France on its own. Run it on both Google Ads and Microsoft Advertising, then let real data decide where the budget goes.
 

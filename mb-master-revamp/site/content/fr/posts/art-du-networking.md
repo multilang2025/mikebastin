@@ -1,6 +1,6 @@
 ---
 words: 1396
-title: "L’art du networking : stratégies pour jeunes professionnels"
+title: "Networking pour jeunes professionnels : des contacts qui durent"
 slug: "art-du-networking"
 locale: "fr"
 type: "posts"
@@ -51,7 +51,7 @@ Un site personnel est le seul endroit où vous fixez les règles. Servez-vous-en
 
 Partager les contenus des autres vous rend visible ; dire quelque chose d’utile vous rend mémorable. Donnez des avis réfléchis sur ce dont votre secteur débat, partagez les enseignements de ce qui a fonctionné et de ce que vous feriez autrement, et créez des contenus qui répondent aux questions que votre réseau se pose réellement. Passer de participant à contributeur, voilà ce qui pousse les gens à venir vers vous, un thème que nous développons dans notre article sur [une économie des créateurs plus humaine](/fr/economie-des-createurs/).
 
-## Des stratégies de networking qui fonctionnent en personne et en ligne
+## Créez des liens en personne et en ligne
 
 Le networking porte ses fruits après la première rencontre. Les quatre étapes ci-dessous fonctionnent, que le premier contact soit une poignée de main ou un message LinkedIn.
 
@@ -94,7 +94,7 @@ Un jour plus tard, la personne se souvient encore clairement de vous : c’est 
 
 Partagez des analyses qui rejoignent ses centres d’intérêt, félicitez-la pour ses réussites, présentez-lui les personnes qu’elle devrait connaître. Les gens aident ceux qui les ont aidés en premier : soyez la personne qui apporte de la valeur avec constance, pendant les mois calmes comme pendant les mois chargés.
 
-## Les outils numériques qui gardent un réseau organisé
+## Organisez votre réseau avec les bons outils
 
 Un réseau dont vous gardez la trace continue de grandir. Quelques outils consignent chaque contact et chaque conversation.
 
@@ -111,7 +111,7 @@ Quel que soit le CRM choisi, cherchez l’étiquetage des contacts, l’historiq
 <p><strong>Sachez quel marché vous envoie chaque demande reçue par votre site.</strong> Nos programmes de référencement multilingue mesurent les demandes que chaque marché et chaque langue apportent à votre équipe. <a href="/fr/services/referencement-multilingue/">Découvrir le référencement multilingue</a> ou <a href="/fr/nous-contacter/">réserver un premier échange</a>.</p>
 </aside>
 
-## Aborder les moments délicats du networking
+## Gérez les moments délicats
 
 ### Dépasser la timidité
 
@@ -121,7 +121,7 @@ La plupart des participants à un événement de networking se sentent au moins 
 
 Certains messages reçoivent une réponse et certaines connexions mènent quelque part, à leur propre rythme. Lisez un silence comme une information sur le calendrier, et passez à l’occasion suivante.
 
-## Le networking sur la durée : bâtir des relations
+## Entretenez vos relations sur la durée
 
 Vingt contacts LinkedIn qui prendraient votre appel valent davantage que mille qui feraient seulement défiler votre nom. Échangez régulièrement par des commentaires, des partages et des messages. Les personnes qui vous aideront le plus dans cinq ans sont souvent celles avec qui vous êtes resté en contact simplement pour garder le lien.
 
@@ -130,5 +130,5 @@ Vingt contacts LinkedIn qui prendraient votre appel valent davantage que mille q
 Choisissez un canal dans le tableau, préparez un événement ou une conversation, et relancez dans la journée. Puis recommencez la semaine suivante.
 
 <aside class="post-cta">
-<p><strong>Vous construisez une carrière dans le marketing digital multilingue ?</strong> Nous aimons échanger avec les profils qui travaillent sur plusieurs marchés et plusieurs langues. <a href="/fr/nous-contacter/">Écrivez-nous</a>.</p>
+<p><strong>Vous construisez une carrière dans le marketing digital multilingue ?</strong> Nous aimons échanger avec les profils qui travaillent sur plusieurs marchés et plusieurs langues. <a href="/fr/nous-contacter/">Échangeons sur votre parcours</a>.</p>
 </aside>

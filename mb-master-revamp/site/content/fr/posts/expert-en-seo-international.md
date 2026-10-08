@@ -105,7 +105,7 @@ Une stratégie de netlinking internationale repose sur trois piliers :
 
 Chaque version linguistique gagne ainsi ses propres liens, dans son propre pays.
 
-## La localisation, au-delà de la traduction
+## Localiser le message pour chaque pays
 
 La confiance d’un acheteur se joue en quelques secondes, et une langue cohérente la gagne. La localisation est souvent le premier point que nous vérifions sur un site, avant même la technique.
 

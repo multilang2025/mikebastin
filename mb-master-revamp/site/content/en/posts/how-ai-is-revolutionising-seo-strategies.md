@@ -1,6 +1,7 @@
 ---
 words: 1292
-title: "How AI is revolutionising SEO strategies"
+title: "AI in SEO: where it saves time and where judgement still matters"
+metaTitle: "AI in SEO: where it saves time, where judgement matters"
 slug: "how-ai-is-revolutionising-seo-strategies"
 locale: "en"
 type: "posts"
@@ -12,7 +13,7 @@ sourceUrl: "https://mikebastin.com/how-ai-is-revolutionising-seo-strategies/"
 excerpt: "Publishing plenty and want the visits to match? How AI is revolutionising SEO strategies, and which parts of yours to change first so content earns."
 ---
 
-## How AI is reshaping SEO strategy in 2026
+## What AI changed in SEO in 2026
 
 You are publishing as much as ever, and the aim now is getting the visits to match. Google now writes its own answer above many results, and AI lets every competitor publish at volume. Update the playbook and your content budget goes to pages that earn.
 
@@ -30,7 +31,7 @@ Then came generative results. Search Generative Experience (SGE) became AI Overv
 >
 > Source: [Google, AI Overviews expansion update, 20 May 2025](https://blog.google/products-and-platforms/products/search/ai-overview-expansion-may-2025-update/)
 
-## AI-powered keyword research that maps whole topic clusters
+## Map whole topic clusters with AI keyword research
 
 Covering the whole topic now wins over chasing single high-volume terms. AI tools for [keyword research in each language](/services/multilingual-seo/) map entire topic clusters, find content gaps and flag emerging demand early.
 
@@ -40,7 +41,7 @@ A site that covers a subject thoroughly tends to outrank one optimizing single p
 
 AI tools also help surface [long-tail keywords that signal purchase intent](/blog/what-is-search-intent-mapping/). These lower-volume queries are more specific, so the visitors they bring are usually further along in their decision.
 
-## Content creation and AI assistance
+## Draft with AI, publish with expert review
 
 Reviewed, expert-led content is where your budget earns rankings. Content quality decides ranking success more than ever, which is why [multilingual content](/services/multilingual-content/) is written for each market. Google's helpful content system, folded into its core ranking systems in March 2024, rewards people-first content and targets pages created primarily for search engines.
 
@@ -52,7 +53,7 @@ Tools like Surfer, MarketMuse and Frase analyse top-ranking content to identify 
 
 The scaled content abuse policy targets unreviewed content published in bulk: the clearest argument for keeping an expert in the loop.
 
-## AI-enhanced competitor analysis
+## Spot a competitor's move the week it happens
 
 Near real-time monitoring shows a competitor's move the week it happens, well ahead of a monthly report. Competitor intelligence has moved there, and the fundamentals still matter. Our [competitor analysis checklist](/competitor-analysis-traffic-checklist/) walks through the manual audit that AI now accelerates.
 
@@ -118,7 +119,7 @@ Brand mentions across the web influence AI citation. Digital PR, expert commenta
 <p><strong>Is your content shaped for an AI answer to quote?</strong> Our <a href="/services/generative-engine-optimization/">generative engine optimization</a> work restructures key pages around claims ChatGPT, Perplexity and Google's AI Overviews can quote directly, with structured data built for AI retrieval. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
-## Practical implications for 2026
+## Five shifts to make in 2026
 
 Most of the change comes down to what you publish and what you measure. Teams that adapt, in [technical SEO](/services/technical-seo/) as much as in content, make five shifts:
 
@@ -136,7 +137,7 @@ Most of the change comes down to what you publish and what you measure. Teams th
 <p><strong>Want reporting that follows your buyers into ChatGPT?</strong> Our <a href="/services/generative-engine-optimization/">generative engine optimization</a> reporting checks which platforms name you, for which questions, and ties that visibility back to enquiries per market. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
-## The short version
+## Treat AI as a tool and as an audience
 
 AI has moved SEO from keyword matching to intent, and tools like Semrush, Ahrefs, Surfer and MarketMuse make research faster.
 

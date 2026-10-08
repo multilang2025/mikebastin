@@ -19,14 +19,20 @@
  *   <slug>-thumb.webp  160x84, unmarked: at footer size the mark is a dot
  *
  *   node --experimental-strip-types scripts/brand-blog-images.mjs <dir>
+ *
+ * The in-post illustrations (lib/post-figures.ts) go through the same
+ * stamp, into public/images/posts/ and without a thumbnail:
+ *
+ *   node --experimental-strip-types scripts/brand-blog-images.mjs <dir> posts
  */
-import { readdir, writeFile } from "node:fs/promises";
+import { mkdir, readdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import sharp from "sharp";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const OUT = path.join(ROOT, "public/images/blog");
+const POSTS = process.argv[3] === "posts";
+const OUT = path.join(ROOT, POSTS ? "public/images/posts" : "public/images/blog");
 const W = 1200;
 const H = 630;
 const MARK = 52;
@@ -47,6 +53,7 @@ const mark = Buffer.from(`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6
 async function main() {
   const dir = process.argv[2];
   if (!dir) throw new Error("usage: brand-blog-images.mjs <dir of <slug>.png>");
+  await mkdir(OUT, { recursive: true });
   const files = (await readdir(dir)).filter((f) => f.endsWith(".png"));
   for (const file of files) {
     const slug = file.slice(0, -4);
@@ -56,7 +63,7 @@ async function main() {
       .toBuffer();
     await writeFile(path.join(OUT, `${slug}.webp`), await sharp(marked).webp({ quality: 78, effort: 6 }).toBuffer());
     await writeFile(path.join(OUT, `${slug}-640.webp`), await sharp(marked).resize(640, 336).webp({ quality: 76, effort: 6 }).toBuffer());
-    await writeFile(path.join(OUT, `${slug}-thumb.webp`), await sharp(cut).resize(160, 84).webp({ quality: 72 }).toBuffer());
+    if (!POSTS) await writeFile(path.join(OUT, `${slug}-thumb.webp`), await sharp(cut).resize(160, 84).webp({ quality: 72 }).toBuffer());
   }
   console.log(`wrote ${files.length} images`);
 }

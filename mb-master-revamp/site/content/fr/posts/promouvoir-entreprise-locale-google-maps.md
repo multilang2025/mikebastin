@@ -18,7 +18,7 @@ Quelqu’un, à quelques rues de votre boutique, de votre agence ou de votre sho
 
 Voici comment être référencé, ce qui donne une place sur la carte, où se placent les avis, les publications, les annonces et les réponses de l’IA, et comment voir ce qui fait sonner le téléphone.
 
-## Ajouter votre entreprise à Google Maps
+## Ajoutez votre entreprise à Google Maps
 
 Une fiche validée est votre place sur la carte. Votre présence sur Maps passe par une fiche d’établissement Google, appelée Google Business Profile.
 
@@ -32,7 +32,7 @@ Une fiche validée est votre place sur la carte. Votre présence sur Maps passe 
 
 Une fois la validation faite, votre entreprise apparaît sur Google Maps. Si vous avez une adresse dans plusieurs pays, prévoyez une fiche par adresse, rédigée dans la langue de vos clients sur place. Notre [service de référencement local](/fr/services/referencement-local/) peut prendre en charge la création et la validation de vos fiches.
 
-## Optimiser votre fiche avec des informations complètes et exactes
+## Complétez votre fiche avec des informations exactes
 
 Une fiche complète et exacte se positionne mieux et attire plus de clics : son entretien compte autant que sa création.
 
@@ -41,7 +41,7 @@ Une fiche complète et exacte se positionne mieux et attire plus de clics : son
 - **Photos et vidéos.** Présentez vos locaux, votre équipe, vos produits ou vos services.
 - **Catégories.** Choisissez une catégorie principale et ajoutez chaque catégorie secondaire pertinente.
 
-## Construire des citations identiques dans chaque annuaire
+## Harmonisez vos citations dans chaque annuaire
 
 Quand votre adresse s’écrit de la même façon dans tous les annuaires, Google lui fait confiance. Une citation est une mention du nom, de l’adresse et du numéro de téléphone (NAP) de votre entreprise sur un autre site. Des citations cohérentes aident Google à se fier à vos informations, ce qui soutient votre [référencement local](/fr/services/referencement-local/).
 
@@ -74,14 +74,14 @@ Quand votre adresse s’écrit de la même façon dans tous les annuaires, Googl
 <p><strong>Vous voulez des informations identiques partout où elles apparaissent ?</strong> Notre <a href="/fr/services/referencement-local/">service de référencement local</a> aligne votre nom, votre adresse et votre numéro de téléphone dans chaque annuaire. <a href="/fr/nous-contacter/">Réservez l’appel de découverte</a>.</p>
 </aside>
 
-## Encourager les avis clients
+## Demandez des avis à vos clients
 
 Les avis sont la première chose qu’un client proche lit avant d’appeler, et ils comptent dans votre classement dans les résultats locaux.
 
 - **Demandez des avis.** Invitez vos clients satisfaits à en laisser un dans vos e-mails de suivi, sur vos tickets de caisse ou sur les réseaux sociaux.
 - **Répondez à chaque avis.** Répondre aux avis positifs comme aux avis négatifs montre que vous tenez compte des retours et inspire confiance à ceux qui les lisent.
 
-## Utiliser les publications Google
+## Publiez des actualités sur votre fiche
 
 Une fiche active ressemble à une entreprise ouverte. Google Business Profile vous permet de publier des actualités, des offres et des événements directement sur votre fiche, où ils apparaissent lorsque les clients vous trouvent dans la recherche et sur Maps. Publiez sur :
 
@@ -92,7 +92,7 @@ Une fiche active ressemble à une entreprise ouverte. Google Business Profile vo
 
 Pour trouver des sujets, puisez dans vos articles de blog : beaucoup fonctionnent aussi comme publications Google. Pour en écrire de nouveaux, nos [idées d’articles qui attirent des clients](/fr/idees-articles-de-blog/) vous donnent quinze points de départ.
 
-## Se préparer à la recherche par IA dans Maps
+## Préparez-vous à la recherche par IA dans Maps
 
 Google a intégré ses modèles Gemini à Maps : les utilisateurs posent des questions complètes, avec leurs propres mots, et les réponses s’appuient sur les informations des établissements et sur les avis. Une fiche complète et un flux régulier d’avis comptent désormais double.
 
@@ -105,7 +105,7 @@ Gardez vos informations exactes et précises, répondez aux questions courantes 
 <p><strong>Votre ville cherche-t-elle en plusieurs langues ?</strong> Notre <a href="/fr/services/referencement-local/">référencement local pour les villes multilingues</a> couvre chaque langue de vos clients, avec une routine d’avis et une réponse à chaque avis. <a href="/fr/nous-contacter/">Réservez l’appel de découverte</a>.</p>
 </aside>
 
-## Envisager la publicité payante
+## Achetez une visibilité immédiate avec Google Ads
 
 La visibilité naturelle se construit sur plusieurs mois ; les annonces l’apportent dès le premier jour. Google Ads peut placer votre entreprise en tête de Maps et des résultats locaux. Google a retiré ses anciennes campagnes Local au profit de Performance Max pour les objectifs en magasin :
 
@@ -127,7 +127,7 @@ Votre budget média entier achète de la publicité : il va directement à Goog
 | Publications Google | Gratuit | Engagement sur votre fiche |
 | Performance Max pour les objectifs en magasin | Payant, vous fixez le budget | Visibilité immédiate |
 
-## Suivre vos résultats
+## Suivez ce qui fait sonner le téléphone
 
 Les chiffres disent quel changement a fait sonner le téléphone. Le rapport Performances de votre Google Business Profile montre :
 
@@ -137,6 +137,6 @@ Les chiffres disent quel changement a fait sonner le téléphone. Le rapport Per
 
 Utilisez ces données pour ajuster votre fiche et vos publications. Pour suivre ce que font les visiteurs une fois sur votre site, comparez les [alternatives à Google Analytics](/fr/alternatives-a-google-analytics/).
 
-## L’essentiel en bref
+## Cinq leviers pour être choisi sur Maps
 
 Promouvoir une entreprise locale sur Google Maps repose sur une fiche validée et complète, des citations cohérentes, un flux régulier d’avis avec leurs réponses, des publications fréquentes et, quand vous voulez de la visibilité rapidement, de la publicité payante.

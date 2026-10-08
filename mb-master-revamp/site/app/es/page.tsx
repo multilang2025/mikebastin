@@ -71,19 +71,19 @@ const HOW_IT_WORKS: HowCard[] = [
   {
     theme: "Visión de mercado",
     icon: "search",
-    title: "Una visión clara de cada mercado",
+    title: "Ve dónde está cada mercado",
     body: "Descubrimos dónde tu web ya llega a compradores y dónde las mejoras técnicas o de contenido pueden generar más consultas.",
   },
   {
     theme: "Estrategia enfocada",
     icon: "target",
-    title: "Un plan enfocado que puedes aprobar",
+    title: "Aprueba un plan enfocado",
     body: "Recibes un plan de trabajo por escrito para los mercados que quieres desarrollar, con las prioridades, las entregas y las responsabilidades acordadas antes de empezar.",
   },
   {
     theme: "Progreso medible",
     icon: "chart",
-    title: "Avances sobre los que actuar",
+    title: "Actúa según lo que muestran las cifras",
     body: "Ves el tráfico y las consultas de cada idioma en un informe mensual, para saber qué mercados dan resultados y dónde centrarte.",
   },
 ];
@@ -143,7 +143,7 @@ export default function SpanishHome() {
                 Hablemos de tu proyecto
               </ButtonLink>
               <Link href="/es/services/" className="ulink text-[.98rem]">
-                Descubre nuestros servicios
+                Encuentra el servicio que necesitas
               </Link>
             </div>
           </Reveal>
@@ -167,7 +167,7 @@ export default function SpanishHome() {
             </h2>
             <p className="mb-10 max-w-[62ch] text-[1.05rem] leading-[1.65]" style={{ color: "var(--dim)" }}>
               Convertimos tus oportunidades de mercado en trabajo enfocado y
-              crecimiento medible. Descubre los servicios que mejor encajan con
+              crecimiento medible. Elige los servicios que mejor encajan con
               tus objetivos.
             </p>
           </Reveal>
@@ -200,7 +200,7 @@ export default function SpanishHome() {
           <Reveal i={3}>
             <p className="mt-8 text-[.95rem]" style={{ color: "var(--dim)" }}>
               <Link href="/es/precios/" className="ulink" style={{ color: "var(--berry)" }}>
-                Descubre cómo definimos cada proyecto y sus honorarios
+                Mira cómo definimos y facturamos cada proyecto
               </Link>
               {", y qué ocurre desde la primera llamada hasta los informes mensuales."}
             </p>

@@ -1,7 +1,7 @@
 ---
 words: 694
-title: "How user interface localization can transform your global reach"
-metaTitle: "How user interface localization grows your global reach"
+title: "User interface localization: a product that feels local in every market"
+metaTitle: "User interface localization for every market"
 slug: "user-interface-localisation-can-transform-your-global-reach"
 locale: "en"
 type: "posts"
@@ -19,7 +19,7 @@ Your product launched in a new market, the translation is fine, and the next ste
 
 User interface (UI) localization adapts the text, images, layout and behaviour to each market's language, culture and legal requirements. Below: what it involves, what it does for your business, and how to plan and test it so each new language fits the design you already have.
 
-## Why UI localization matters
+## Where users decide the product is for them
 
 For [businesses targeting global markets](/blog/global-business-trends/), the interface is where users decide whether the product is for them. A localized one reflects their language and conventions, so it is easier to use, and users credit the brand for it.
 
@@ -31,7 +31,7 @@ The benefits come down to three things:
 - **Conversion.** A familiar interface makes buying, signing up or completing any key action easier.
 - **Brand trust.** Adapting to users' language and culture shows respect, which builds loyalty.
 
-## Core elements of UI localization
+## The four layers to localize
 
 Knowing the four layers tells you where to look first. Successful [software and app localization](/services/app-and-software-localisation/) touches each of them:
 
@@ -62,7 +62,7 @@ Images and symbols need [culturally adapted content](/services/multilingual-cont
 <figcaption>Translation covers the top layer. The three beneath it decide whether a German label fits its button and a local address fits the form.</figcaption>
 </figure>
 
-## Best practices
+## Four habits that keep costs low
 
 Most of the cost is decided before the first string is translated. Four habits keep it low:
 
@@ -83,7 +83,7 @@ The right tools keep every language in step. Most UI localization runs through t
 - **Computer-assisted translation (CAT) tools** give translators translation memory, terminology databases and machine suggestions, which keeps terminology consistent.
 - **Machine-assisted suggestions** speed up routine strings, with a human translator reviewing the output.
 
-## Common challenges and how to solve them
+## Three common challenges, and their fixes
 
 Three challenges come up again and again, and each has a known fix:
 
@@ -97,4 +97,4 @@ Three challenges come up again and again, and each has a known fix:
 
 A product that speaks its users' language, literally and culturally, is easier to use, earns more engagement and builds trust with international users. Professional UI localization is a core part of [building a global brand](/blog/building-a-global-brand/).
 
-Ready to localize your interface? We offer a free assessment of your localization needs and a plan to match. [Contact us to get started](/contact/).
+Ready to localize your interface? We offer a free assessment of your localization needs and a plan to match. [Ask for your free assessment](/contact/).

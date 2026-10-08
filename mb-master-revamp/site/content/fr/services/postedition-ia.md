@@ -1,6 +1,6 @@
 ---
 words: 618
-title: "Traduction automatique et post-édition"
+title: "Traduction automatique et post-édition par un relecteur natif"
 name: "Post-édition IA"
 slug: "postedition-ia"
 locale: "fr"

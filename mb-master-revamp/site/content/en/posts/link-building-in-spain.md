@@ -69,7 +69,7 @@ Checking for these three keeps your budget on links that count, and we look for 
 <p><strong>Want Spanish links that move your rankings?</strong> Our <a href="/services/spanish-seo/">Spanish SEO service</a> works on the things that make a Spanish buyer trust a supplier, mentions in the press that market actually reads among them, run in Spanish from Valencia. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
-## Realistic timing
+## Plan for four to eight weeks per link
 
 Knowing the real timeline lets you plan with confidence. From first contact to a live editorial link in Spain, expect four to eight weeks for genuine placements. It runs faster where the relationship already exists, and slower when August or late December fall in the window: Spain takes a proper break twice a year, so plan around both.
 
@@ -101,4 +101,4 @@ A link from El Español pays off on a strong landing page written properly in Sp
 
 If you are weighing a Spanish link building plan, we are happy to look at it with you. We work from Valencia, in Spanish, French and English, and we build every link plan placement by placement.
 
-[Get in touch here](/contact/), read [how we work with clients](/how-i-work/), or see what our [Spanish SEO service](/services/spanish-seo/) covers.
+[Send us your Spanish link plan](/contact/), read [how we work with clients](/how-i-work/), or see what our [Spanish SEO service](/services/spanish-seo/) covers.

@@ -12,7 +12,7 @@ sourceUrl: null
 excerpt: "Compara cinco alternativas a Google Analytics por privacidad, precio y facilidad de uso, y elige la que mide mejor los mercados donde vendes."
 ---
 
-## Qué debe ofrecerte una alternativa a Google Analytics
+## Qué debe decirte tu herramienta de analítica
 
 Tu analítica tiene que decirte qué mercado merece el próximo presupuesto: cifras completas de Francia, los Países Bajos o Alemania, e informes que todo el equipo sepa leer.
 
@@ -146,7 +146,7 @@ Cinco herramientas, cada una más fuerte en una tarea distinta:
 
 Los precios proceden de la página de precios de cada proveedor a 2 de octubre de 2026 y llevan su fuente bajo cada herramienta.
 
-## Cómo elegir la alternativa adecuada
+## Elige según la pregunta que más necesitas responder
 
 La elección se hace una sola vez: una migración y unos informes que puedes comparar desde el primer mes. Parte de la pregunta que más necesita responder tu equipo:
 

@@ -12,7 +12,7 @@ sourceUrl: "https://mikebastin.com/localisation-testing-tools/"
 excerpt: "Want every localized release to ship clean? The localization testing tools that find layout, text and locale faults before your users see them."
 ---
 
-## Getting a localized release right on day one
+## Get a localized release right on day one
 
 Your product works perfectly in English, and the German release should too: every label inside its button, every date reading as the right month, on day one.
 
@@ -69,7 +69,7 @@ Two older automation tools are best left to existing suites:
 
 Choose Selenium or Playwright for new test suites.
 
-## Features to look for
+## Features that save your testers time
 
 The right tool saves your testers time on every release. Look for:
 
@@ -81,7 +81,7 @@ The right tool saves your testers time on every release. Look for:
 6. **Reporting** to track issues and progress.
 7. **Multi-platform support** across devices and operating systems.
 
-## Best practices
+## Make each new market cheaper to launch
 
 How you use the tools decides whether each new market costs less to launch than the last.
 
@@ -119,6 +119,6 @@ How you use the tools decides whether each new market costs less to launch than 
 <p><strong>Launching a new language and want it right from day one?</strong> Our <a href="/services/website-localisation/">website localization</a> includes full QA in every language before launch. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
-## The short version
+## Automate the checks, keep native speakers on judgement
 
 The right mix of tools and practices lets your team ship every market with the confidence of the first. Automate the repetitive checks, and keep native speakers on the judgement calls.

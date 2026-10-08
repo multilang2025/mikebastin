@@ -123,4 +123,4 @@ Empieza por los puntos más cercanos a la venta (pagos, formularios y normativa)
 <figcaption>Empieza por lo que está más cerca de la caja y avanza hacia la cultura. Cada punto resuelto en ese orden se nota antes en los pedidos.</figcaption>
 </figure>
 
-Con más de dos décadas en SEO, traducción y marketing, ayudamos a las empresas a construir sitios web que encajan en cada mercado y se encuentran en él. Nuestros servicios de [traducción de páginas web](/es/services/traduccion-de-paginas-web/) cubren los diez puntos, y puedes [escribirnos](/es/contactanos/) para repasar los tuyos con nosotros.
+Con más de dos décadas en SEO, traducción y marketing, ayudamos a las empresas a construir sitios web que encajan en cada mercado y se encuentran en él. Nuestros servicios de [traducción de páginas web](/es/services/traduccion-de-paginas-web/) cubren los diez puntos, y puedes [reservar una revisión de tus diez puntos](/es/contactanos/) con nosotros.
