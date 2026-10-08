@@ -103,6 +103,22 @@ Offrez aux visiteurs un sélecteur de langue clair. Une détection automatique p
 
 Un habitant de **Watermael-Boitsfort** ou de **Wemmel** peut chercher « banque en ligne Belgique » en français comme « online bank België » en néerlandais. Optimiser pour les deux variantes atteint les deux publics, et **Google Search Console** et **Semrush** suivent les tendances par langue pour ajuster votre plan.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Un même besoin, deux recherches à Bruxelles : « banque en ligne » en français et « online bank » en néerlandais.">
+<path d="M150 75 L230 35" class="fg-line"/>
+<path d="M150 75 L230 115" class="fg-line"/>
+<rect x="20" y="55" width="130" height="40" rx="6" class="fg-hot"/>
+<rect x="230" y="12" width="150" height="46" rx="6" class="fg-box"/>
+<rect x="230" y="92" width="150" height="46" rx="6" class="fg-box"/>
+<text x="85" y="81" text-anchor="middle" class="fg-strong">Bruxelles</text>
+<text x="305" y="32" text-anchor="middle" class="fg-text">En français</text>
+<text x="305" y="50" text-anchor="middle" class="fg-label">banque en ligne</text>
+<text x="305" y="112" text-anchor="middle" class="fg-text">En néerlandais</text>
+<text x="305" y="130" text-anchor="middle" class="fg-label">online bank</text>
+</svg>
+<figcaption>Bruxelles cherche la même chose en français et en néerlandais : une page dans chaque langue atteint les deux publics.</figcaption>
+</figure>
+
 ## Croisez plusieurs sources pour estimer le marché
 
 Planifiez la Belgique à partir de plusieurs sources de données, car un seul outil en donne une image partielle. **Ahrefs** et **Semrush** ont souvent des estimations de volume minces et des données de backlinks partielles sur le marché belge, en particulier côté francophone.
@@ -117,6 +133,27 @@ Planifiez la Belgique à partir de plusieurs sources de données, car un seul ou
 
 Croisés avec les **rapports de performances de Google Search Console**, ces outils donnent une vue plus juste de ce que la Belgique peut vous apporter. Les faibles volumes de certains termes belges rendent la [recherche de mots-clés](/fr/services/seo-technique/) plus délicate à interpréter : associez les données à la connaissance du terrain, et aux données du marché français ajustées aux spécificités belges.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="La demande de recherche belge lue dans plusieurs sources à la fois : Search Console, Google Trends, SE Ranking et la connaissance du terrain.">
+<path d="M160 23 L276 70" class="fg-line"/>
+<path d="M160 61 L271 76" class="fg-line"/>
+<path d="M160 99 L271 84" class="fg-line"/>
+<path d="M160 137 L276 90" class="fg-line"/>
+<rect x="10" y="8" width="150" height="30" rx="6" class="fg-box"/>
+<rect x="10" y="46" width="150" height="30" rx="6" class="fg-box"/>
+<rect x="10" y="84" width="150" height="30" rx="6" class="fg-box"/>
+<rect x="10" y="122" width="150" height="30" rx="6" class="fg-box"/>
+<circle cx="320" cy="80" r="50" class="fg-hot"/>
+<text x="85" y="28" text-anchor="middle" class="fg-text">Search Console</text>
+<text x="85" y="66" text-anchor="middle" class="fg-text">Google Trends</text>
+<text x="85" y="104" text-anchor="middle" class="fg-text">SE Ranking</text>
+<text x="85" y="142" text-anchor="middle" class="fg-text">Le terrain</text>
+<text x="320" y="78" text-anchor="middle" class="fg-strong">Demande</text>
+<text x="320" y="98" text-anchor="middle" class="fg-label">belge</text>
+</svg>
+<figcaption>Chaque source montre une partie de la demande belge ; lues ensemble, elles donnent une image plus juste de ce que le marché peut vous apporter.</figcaption>
+</figure>
+
 <aside class="post-cta">
 <p><strong>Vous voulez une image juste de la demande de recherche belge ?</strong> Notre <a href="/fr/services/seo-technique/">recherche de mots-clés</a> se mène langue par langue et marché par marché : le français de Belgique est étudié comme du français de Belgique. <a href="/fr/nous-contacter/">Parlons de la Belgique</a>.</p>
 </aside>
@@ -124,6 +161,21 @@ Croisés avec les **rapports de performances de Google Search Console**, ces out
 ## Les enjeux propres à chaque secteur
 
 Votre secteur change l’endroit où la frontière linguistique belge compte le plus.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 140" role="img" aria-label="Le même produit s’appelle « serviette de bain » en France et « essuie de bain » en Belgique, et la page belge emploie le mot belge.">
+<path d="M175 70 L223 70" class="fg-accent"/>
+<path d="M215 62 L223 70 L215 78" class="fg-accent"/>
+<rect x="15" y="40" width="160" height="60" rx="6" class="fg-box"/>
+<rect x="225" y="40" width="160" height="60" rx="6" class="fg-hot"/>
+<text x="95" y="64" text-anchor="middle" class="fg-text">France</text>
+<text x="95" y="86" text-anchor="middle" class="fg-label">serviette de bain</text>
+<text x="305" y="64" text-anchor="middle" class="fg-strong">Belgique</text>
+<text x="305" y="86" text-anchor="middle" class="fg-label">essuie de bain</text>
+<text x="200" y="128" text-anchor="middle" class="fg-label">le même produit</text>
+</svg>
+<figcaption>Des fiches produits rédigées avec le mot belge correspondent à ce que l’acheteur belge tape dans le moteur de recherche.</figcaption>
+</figure>
 
 - **Le luxe** : des pages par marché qui gardent l’image de la marque mondiale et portent son ton dans chaque langue.
 - **La grande consommation** : des promotions par région et une veille sur les concurrents locaux de chaque marché linguistique.

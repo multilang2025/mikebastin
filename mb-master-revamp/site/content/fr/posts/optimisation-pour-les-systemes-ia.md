@@ -64,6 +64,21 @@ Comparez ensuite ces données à votre positionnement réel. L’écart constitu
 
 Faites l’exercice dans chaque langue où vous vendez. Un modèle peut connaître votre activité en français dans le détail et disposer d’informations plus anciennes ou plus minces en allemand ou en néerlandais.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 136" role="img" aria-label="Ce que le modèle retient de votre marque, par exemple un éditeur de logiciels B2B, comparé à votre réalité, un cabinet de conseil : l’écart entre les deux se corrige en premier.">
+<path d="M160 68 L240 68" class="fg-accent"/>
+<rect x="10" y="40" width="150" height="56" rx="6" class="fg-box"/>
+<rect x="240" y="40" width="150" height="56" rx="6" class="fg-hot"/>
+<text x="200" y="58" text-anchor="middle" class="fg-label">écart</text>
+<text x="85" y="64" text-anchor="middle" class="fg-strong">Vue du modèle</text>
+<text x="85" y="84" text-anchor="middle" class="fg-label">« logiciel B2B »</text>
+<text x="315" y="64" text-anchor="middle" class="fg-strong">Votre réalité</text>
+<text x="315" y="84" text-anchor="middle" class="fg-label">« conseil »</text>
+<text x="200" y="124" text-anchor="middle" class="fg-text">Corrigez cet écart en premier</text>
+</svg>
+<figcaption>L’écart entre l’image du modèle et votre positionnement réel constitue votre point de départ, car toutes les autres optimisations en dépendent.</figcaption>
+</figure>
+
 ### Analysez les parcours conversationnels
 
 Vos acheteurs interrogent les LLM avec des phrases complètes, en précisant leur profil et leur besoin. Pour refléter ces échanges, enrichissez vos mots-clés traditionnels avec :
@@ -73,9 +88,44 @@ Vos acheteurs interrogent les LLM avec des phrases complètes, en précisant leu
 
 Des outils comme Perplexity indiquent quelles questions déclenchent une recherche web en temps réel. Ciblez ces questions en priorité : ce sont elles qui ouvrent la réponse à des sources récentes, et c’est sur elles qu’une [agence SEO internationale](https://mikebastin.com/fr/agence-seo-internationale/) peut faire progresser votre visibilité le plus vite.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 166" role="img" aria-label="Un mot-clé comme agence SEO, enrichi d’un persona, une PME industrielle qui exporte, devient une question complète telle que vos acheteurs la posent aux LLM.">
+<path d="M200 48 L200 62" class="fg-dim"/>
+<path d="M200 102 L200 116" class="fg-accent"/>
+<rect x="120" y="8" width="160" height="40" rx="6" class="fg-box"/>
+<rect x="60" y="62" width="280" height="40" rx="6" class="fg-box"/>
+<rect x="30" y="116" width="340" height="40" rx="6" class="fg-hot"/>
+<text x="200" y="34" text-anchor="middle" class="fg-text">agence SEO</text>
+<text x="200" y="88" text-anchor="middle" class="fg-text">+ PME industrielle qui exporte</text>
+<text x="200" y="142" text-anchor="middle" class="fg-strong">Une question complète</text>
+</svg>
+<figcaption>Les personas et les intentions conversationnelles transforment un mot-clé en question complète, plus proche de ce que vos acheteurs demandent réellement.</figcaption>
+</figure>
+
 ### Construisez une visibilité sur plusieurs sites
 
 Votre visibilité dans les réponses d’IA repose sur votre présence dans les sources que ces systèmes citent lorsqu’ils rédigent une réponse, en plus du classement de votre propre site.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Une réponse d’IA s’appuie sur plusieurs sources : votre site, les articles comparatifs, la presse professionnelle et LinkedIn.">
+<path d="M170 28 L200 80" class="fg-line"/>
+<path d="M230 28 L200 80" class="fg-line"/>
+<path d="M170 132 L200 80" class="fg-line"/>
+<path d="M230 132 L200 80" class="fg-line"/>
+<rect x="10" y="10" width="160" height="36" rx="6" class="fg-box"/>
+<rect x="230" y="10" width="160" height="36" rx="6" class="fg-box"/>
+<rect x="10" y="114" width="160" height="36" rx="6" class="fg-box"/>
+<rect x="230" y="114" width="160" height="36" rx="6" class="fg-box"/>
+<circle cx="200" cy="80" r="44" class="fg-hot"/>
+<text x="90" y="33" text-anchor="middle" class="fg-text">Votre site</text>
+<text x="310" y="33" text-anchor="middle" class="fg-text">Comparatifs</text>
+<text x="90" y="137" text-anchor="middle" class="fg-text">Presse pro</text>
+<text x="310" y="137" text-anchor="middle" class="fg-text">LinkedIn</text>
+<text x="200" y="77" text-anchor="middle" class="fg-text">Réponse</text>
+<text x="200" y="96" text-anchor="middle" class="fg-text">de l’IA</text>
+</svg>
+<figcaption>Votre visibilité dans les réponses d’IA dépend de votre présence dans les sources que ces systèmes citent, en plus de votre propre site.</figcaption>
+</figure>
 
 - Visez plusieurs apparitions dans les dix à vingt premiers résultats pour vos requêtes stratégiques : votre site, mais aussi les pages qui parlent de vous.
 - Ciblez les articles comparatifs et les sélections de fournisseurs, les publications sectorielles et des plateformes comme LinkedIn.

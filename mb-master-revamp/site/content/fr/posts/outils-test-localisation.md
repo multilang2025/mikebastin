@@ -38,6 +38,26 @@ Beaucoup d’outils interviennent aussi avant qu’une version n’atteigne qui 
 
 Les défauts apparaissent ainsi tôt. Associés à une relecture humaine et à des [contenus écrits pour chaque marché](/fr/services/creation-de-contenu-multilingue/), ces outils gardent le produit juste sur le plan culturel et solide sur le plan technique.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Les outils de test de localisation contrôlent trois zones autour du texte traduit : les formats de date et de devise, l’ajustement de la mise en page et les chaînes non traduites.">
+<path d="M200 50 L70 102" class="fg-line"/>
+<path d="M200 50 L200 102" class="fg-line"/>
+<path d="M200 50 L330 102" class="fg-line"/>
+<rect x="120" y="10" width="160" height="40" rx="6" class="fg-hot"/>
+<rect x="8" y="102" width="124" height="46" rx="6" class="fg-box"/>
+<rect x="138" y="102" width="124" height="46" rx="6" class="fg-box"/>
+<rect x="268" y="102" width="124" height="46" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-strong">Outils de test</text>
+<text x="70" y="122" text-anchor="middle" class="fg-text">Formats</text>
+<text x="70" y="140" text-anchor="middle" class="fg-label">dates, devises</text>
+<text x="200" y="122" text-anchor="middle" class="fg-text">Mise en page</text>
+<text x="200" y="140" text-anchor="middle" class="fg-label">débordements</text>
+<text x="330" y="122" text-anchor="middle" class="fg-text">Couverture</text>
+<text x="330" y="140" text-anchor="middle" class="fg-label">non traduit</text>
+</svg>
+<figcaption>Les outils contrôlent le code et la mise en page autour des mots, et le linguiste se concentre sur le texte lui-même.</figcaption>
+</figure>
+
 ## Comparez les outils par type
 
 Chaque outil couvre une partie du travail ; le tableau montre ce que votre configuration couvre déjà et ce qu’il reste à ajouter.
@@ -71,6 +91,22 @@ Deux outils d’automatisation plus anciens se réservent aux suites existantes�
 
 Choisissez Selenium ou Playwright pour les nouvelles suites de tests.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Pour les tests de localisation automatisés, PhantomJS et iMacros restent dans les suites existantes, et les nouvelles suites démarrent sur Selenium ou Playwright.">
+<path d="M160 75 L210 35" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M160 75 L210 115" class="fg-accent"/>
+<rect x="10" y="55" width="150" height="40" rx="6" class="fg-box"/>
+<rect x="210" y="12" width="180" height="46" rx="6" class="fg-box"/>
+<rect x="210" y="92" width="180" height="46" rx="6" class="fg-hot"/>
+<text x="85" y="81" text-anchor="middle" class="fg-strong">Automatisation</text>
+<text x="300" y="32" text-anchor="middle" class="fg-text">Suites existantes</text>
+<text x="300" y="50" text-anchor="middle" class="fg-label">PhantomJS, iMacros</text>
+<text x="300" y="112" text-anchor="middle" class="fg-strong">Nouvelles suites</text>
+<text x="300" y="130" text-anchor="middle" class="fg-label">Selenium, Playwright</text>
+</svg>
+<figcaption>Les deux anciens outils d’automatisation restent dans les suites qui les utilisent déjà ; les nouvelles suites démarrent sur Selenium ou Playwright.</figcaption>
+</figure>
+
 ## Les fonctionnalités qui font gagner du temps à vos testeurs
 
 Le bon outil fait gagner du temps à chaque version. Recherchez :
@@ -82,6 +118,27 @@ Le bon outil fait gagner du temps à chaque version. Recherchez :
 5. **L’automatisation** des contrôles répétitifs.
 6. **Des rapports** pour suivre les problèmes et l’avancement.
 7. **La prise en charge multiplateforme** sur les différents appareils et systèmes d’exploitation.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Quatre fonctionnalités qui font gagner du temps à vos testeurs à chaque version : l’adéquation à vos flux existants, les contrôles qualité, le contexte pour les testeurs et l’automatisation.">
+<path d="M150 23 L280 72" class="fg-line"/>
+<path d="M150 61 L280 78" class="fg-line"/>
+<path d="M150 99 L280 84" class="fg-line"/>
+<path d="M150 137 L280 90" class="fg-line"/>
+<rect x="10" y="8" width="140" height="30" rx="6" class="fg-box"/>
+<rect x="10" y="46" width="140" height="30" rx="6" class="fg-box"/>
+<rect x="10" y="84" width="140" height="30" rx="6" class="fg-box"/>
+<rect x="10" y="122" width="140" height="30" rx="6" class="fg-box"/>
+<circle cx="330" cy="80" r="50" class="fg-hot"/>
+<text x="80" y="28" text-anchor="middle" class="fg-text">Vos flux</text>
+<text x="80" y="66" text-anchor="middle" class="fg-text">Contrôles</text>
+<text x="80" y="104" text-anchor="middle" class="fg-text">Contexte</text>
+<text x="80" y="142" text-anchor="middle" class="fg-text">Automatisation</text>
+<text x="330" y="78" text-anchor="middle" class="fg-strong">Temps</text>
+<text x="330" y="98" text-anchor="middle" class="fg-label">par version</text>
+</svg>
+<figcaption>Chaque fonctionnalité retire une étape manuelle du test, et le temps gagné revient à chaque version.</figcaption>
+</figure>
 
 ## Six pratiques pour lancer chaque marché plus sereinement
 

@@ -74,6 +74,26 @@ Una página localizada le dice al comprador que escribiste para él. El contenid
 
 Bien configuradas, las versiones de idioma se suman. Las etiquetas hreflang indican a los buscadores qué versión de idioma y país mostrar a cada usuario. Una estrategia de dominios por país, como los dominios nacionales (ccTLD), puede reforzar tus posiciones en los mercados objetivo. Nuestra guía de [SEO técnico para sitios multilingües](/es/seo-tecnico-para-sitios-multilingues/) explica la configuración.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Las etiquetas hreflang indican a los buscadores qué versión de idioma de una página mostrar a cada usuario: inglés, francés o español.">
+<path d="M200 50 L70 102" class="fg-line"/>
+<path d="M200 50 L200 102" class="fg-line"/>
+<path d="M200 50 L330 102" class="fg-line"/>
+<rect x="120" y="10" width="160" height="40" rx="6" class="fg-hot"/>
+<rect x="8" y="102" width="124" height="46" rx="6" class="fg-box"/>
+<rect x="138" y="102" width="124" height="46" rx="6" class="fg-box"/>
+<rect x="268" y="102" width="124" height="46" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-strong">hreflang</text>
+<text x="70" y="122" text-anchor="middle" class="fg-text">Inglés</text>
+<text x="70" y="140" text-anchor="middle" class="fg-label">en</text>
+<text x="200" y="122" text-anchor="middle" class="fg-text">Francés</text>
+<text x="200" y="140" text-anchor="middle" class="fg-label">fr</text>
+<text x="330" y="122" text-anchor="middle" class="fg-text">Español</text>
+<text x="330" y="140" text-anchor="middle" class="fg-label">es</text>
+</svg>
+<figcaption>Hreflang lleva a cada usuario a la versión escrita en su idioma, y así las versiones de idioma se suman.</figcaption>
+</figure>
+
 ## Publicidad de pago para probar la demanda en un mercado nuevo
 
 La publicidad de pago (PPC) muestra pronto si un mercado nuevo quiere lo que vendes, porque llega al comprador por ubicación, idioma y perfil desde el primer día.
@@ -90,6 +110,24 @@ Un anuncio funciona cuando suena local. Traduce el texto y adáptalo con [redacc
 
 Empieza con campañas de prueba pequeñas en cada mercado nuevo, y vigila el porcentaje de clics (CTR), la tasa de conversión y el retorno de la inversión antes de escalar.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Tres medidas de una campaña de prueba pequeña, el porcentaje de clics, la tasa de conversión y el retorno de la inversión, deciden cuándo escalar en un mercado nuevo.">
+<path d="M160 35 L280 72" class="fg-line"/>
+<path d="M160 80 L280 80" class="fg-line"/>
+<path d="M160 125 L280 88" class="fg-line"/>
+<rect x="10" y="20" width="150" height="30" rx="6" class="fg-box"/>
+<rect x="10" y="65" width="150" height="30" rx="6" class="fg-box"/>
+<rect x="10" y="110" width="150" height="30" rx="6" class="fg-box"/>
+<circle cx="330" cy="80" r="50" class="fg-hot"/>
+<text x="85" y="40" text-anchor="middle" class="fg-text">CTR</text>
+<text x="85" y="85" text-anchor="middle" class="fg-text">Conversión</text>
+<text x="85" y="130" text-anchor="middle" class="fg-text">Retorno</text>
+<text x="330" y="78" text-anchor="middle" class="fg-strong">Escalar</text>
+<text x="330" y="98" text-anchor="middle" class="fg-label">la campaña</text>
+</svg>
+<figcaption>Cada mercado nuevo empieza con una prueba pequeña, y su CTR, su conversión y su retorno deciden cuándo escalar.</figcaption>
+</figure>
+
 <aside class="post-cta">
 <p><strong>¿Pruebas un mercado nuevo y quieres saber de qué país llega cada contacto?</strong> Nuestra <a href="/es/services/publicidad-multilingue/">publicidad multilingüe</a> construye los anuncios en el idioma de cada país y sigue cada mercado con su propio presupuesto y su propio informe. <a href="/es/contactanos/">Reserva una consulta gratuita</a>.</p>
 </aside>
@@ -97,6 +135,27 @@ Empieza con campañas de prueba pequeñas en cada mercado nuevo, y vigila el por
 ## Redes sociales en las plataformas de cada país
 
 Las redes sociales llegan rápido a un público nuevo si estás en las plataformas que usa ese mercado, y cambian mucho de un país a otro. Facebook, Instagram y LinkedIn dominan en los mercados occidentales; WeChat es imprescindible en China, y WhatsApp se usa mucho para hacer negocios en España y en Latinoamérica. Estudia primero las plataformas de cada país.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Redes sociales por mercado: Facebook e Instagram en los mercados occidentales, WeChat en China y WhatsApp para hacer negocios en España y en Latinoamérica.">
+<path d="M160 28 L200 28" class="fg-line"/>
+<path d="M160 80 L200 80" class="fg-line"/>
+<path d="M160 132 L200 132" class="fg-line"/>
+<rect x="10" y="10" width="150" height="36" rx="6" class="fg-box"/>
+<rect x="10" y="62" width="150" height="36" rx="6" class="fg-box"/>
+<rect x="10" y="114" width="150" height="36" rx="6" class="fg-box"/>
+<rect x="200" y="10" width="190" height="36" rx="6" class="fg-box"/>
+<rect x="200" y="62" width="190" height="36" rx="6" class="fg-box"/>
+<rect x="200" y="114" width="190" height="36" rx="6" class="fg-box"/>
+<text x="85" y="33" text-anchor="middle" class="fg-text">Occidente</text>
+<text x="295" y="33" text-anchor="middle" class="fg-text">Facebook, Instagram</text>
+<text x="85" y="85" text-anchor="middle" class="fg-text">China</text>
+<text x="295" y="85" text-anchor="middle" class="fg-text">WeChat</text>
+<text x="85" y="137" text-anchor="middle" class="fg-text">Latinoamérica</text>
+<text x="295" y="137" text-anchor="middle" class="fg-text">WhatsApp</text>
+</svg>
+<figcaption>Cada mercado tiene sus propias plataformas, así que el estudio va antes de la primera publicación.</figcaption>
+</figure>
 
 **Interacción localizada.** Responde a tus seguidores locales en su idioma, atiende las cuestiones propias de su región y adapta el tono a sus preferencias culturales.
 

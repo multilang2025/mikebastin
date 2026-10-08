@@ -78,6 +78,25 @@ Quand votre adresse s’écrit de la même façon dans tous les annuaires, Googl
 
 Les avis sont la première chose qu’un client proche lit avant d’appeler, et ils comptent dans votre classement dans les résultats locaux.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 120" role="img" aria-label="Trois étapes pour les avis : demander aux clients, l’avis est publié, puis répondre à chacun.">
+<path d="M125 60 L138 60" class="fg-line"/>
+<path d="M133 55 L138 60 L133 65" class="fg-line"/>
+<path d="M260 60 L273 60" class="fg-line"/>
+<path d="M268 55 L273 60 L268 65" class="fg-line"/>
+<rect x="5" y="35" width="120" height="50" rx="6" class="fg-box"/>
+<rect x="140" y="35" width="120" height="50" rx="6" class="fg-box"/>
+<rect x="275" y="35" width="120" height="50" rx="6" class="fg-hot"/>
+<text x="65" y="57" text-anchor="middle" class="fg-strong">Demander</text>
+<text x="65" y="76" text-anchor="middle" class="fg-label">par e-mail</text>
+<text x="200" y="57" text-anchor="middle" class="fg-strong">Avis</text>
+<text x="200" y="76" text-anchor="middle" class="fg-label">publié</text>
+<text x="335" y="57" text-anchor="middle" class="fg-strong">Répondre</text>
+<text x="335" y="76" text-anchor="middle" class="fg-label">à chacun</text>
+</svg>
+<figcaption>Demander fait venir les avis, et répondre à chacun montre aux lecteurs que vous tenez compte des retours.</figcaption>
+</figure>
+
 - **Demandez des avis.** Invitez vos clients satisfaits à en laisser un dans vos e-mails de suivi, sur vos tickets de caisse ou sur les réseaux sociaux.
 - **Répondez à chaque avis.** Répondre aux avis positifs comme aux avis négatifs montre que vous tenez compte des retours et inspire confiance à ceux qui les lisent.
 
@@ -95,6 +114,23 @@ Pour trouver des sujets, puisez dans vos articles de blog : beaucoup fonctionne
 ## Préparez-vous à la recherche par IA dans Maps
 
 Google a intégré ses modèles Gemini à Maps : les utilisateurs posent des questions complètes, avec leurs propres mots, et les réponses s’appuient sur les informations des établissements et sur les avis. Une fiche complète et un flux régulier d’avis comptent désormais double.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 170" role="img" aria-label="Une question complète posée dans Maps reçoit une réponse qui s’appuie sur deux sources : votre fiche et vos avis.">
+<path d="M200 46 L200 66" class="fg-dim"/>
+<path d="M110 124 L170 106" class="fg-accent"/>
+<path d="M290 124 L230 106" class="fg-accent"/>
+<rect x="115" y="10" width="170" height="36" rx="6" class="fg-box"/>
+<rect x="120" y="66" width="160" height="40" rx="6" class="fg-hot"/>
+<rect x="30" y="124" width="160" height="36" rx="6" class="fg-box"/>
+<rect x="210" y="124" width="160" height="36" rx="6" class="fg-box"/>
+<text x="200" y="33" text-anchor="middle" class="fg-text">Question complète</text>
+<text x="200" y="92" text-anchor="middle" class="fg-strong">Réponse</text>
+<text x="110" y="147" text-anchor="middle" class="fg-text">Votre fiche</text>
+<text x="290" y="147" text-anchor="middle" class="fg-text">Vos avis</text>
+</svg>
+<figcaption>La réponse repose sur ce que disent votre fiche et vos avis : les deux comptent désormais double.</figcaption>
+</figure>
 
 > « Ask Maps, une nouvelle expérience conversationnelle qui répond à des questions complexes du monde réel auxquelles une carte ne pouvait pas répondre auparavant. » Google l’a lancé le 12 mars 2026 aux États-Unis et en Inde, sur Android et iOS, puis l’a étendu le 6 août 2026 à plus de 150 pays et territoires, en anglais.
 > Source : [Google, « Ask Maps and Immersive Navigation », 12 mars 2026](https://blog.google/products-and-platforms/products/maps/ask-maps-immersive-navigation/) ; [Google, « Ask Maps gets more helpful with food ordering and more », 6 août 2026](https://blog.google/products-and-platforms/products/maps/order-food-in-ask-maps/)
@@ -136,6 +172,20 @@ Les chiffres disent quel changement a fait sonner le téléphone. Le rapport Per
 - les appels, les clics vers votre site et les demandes d’itinéraire
 
 Utilisez ces données pour ajuster votre fiche et vos publications. Pour suivre ce que font les visiteurs une fois sur votre site, comparez les [alternatives à Google Analytics](/fr/alternatives-a-google-analytics/).
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Le rapport Performances suit les clients depuis la recherche et Maps, en passant par les termes utilisés, jusqu’aux appels, aux clics et aux itinéraires.">
+<path d="M200 50 L200 60" class="fg-dim"/>
+<path d="M200 100 L200 110" class="fg-dim"/>
+<rect x="20" y="10" width="360" height="40" rx="6" class="fg-box"/>
+<rect x="40" y="60" width="320" height="40" rx="6" class="fg-box"/>
+<rect x="55" y="110" width="290" height="40" rx="6" class="fg-hot"/>
+<text x="200" y="36" text-anchor="middle" class="fg-text">Vu dans la recherche et sur Maps</text>
+<text x="200" y="86" text-anchor="middle" class="fg-text">Termes recherchés</text>
+<text x="200" y="136" text-anchor="middle" class="fg-strong">Appels, clics, itinéraires</text>
+</svg>
+<figcaption>Le rapport relie chaque changement à ce qu’il a apporté, de la première recherche jusqu’à l’appel.</figcaption>
+</figure>
 
 ## Cinq leviers pour être choisi sur Maps
 

@@ -38,6 +38,22 @@ También te sirve para calibrar tu propio rendimiento. Si tú creces un 5 % y tu
 
 Lo que más información da es la intención detrás de las visitas. ¿Buscan información o quieren contratar ya? Esa diferencia decide si apuestas por guías o por páginas de servicio que conviertan. Nuestra [consultoría de IA](https://mikebastin.com/es/services/consultoria-de-inteligencia-artificial/) ayuda a leer esos patrones a gran escala.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Las visitas de un rival según su intención: quien busca informarse pide guías y quien quiere contratar ya pide páginas de servicio que conviertan.">
+<path d="M155 75 L215 35" class="fg-dim"/>
+<path d="M155 75 L215 115" class="fg-accent"/>
+<rect x="15" y="55" width="140" height="40" rx="6" class="fg-box"/>
+<rect x="215" y="12" width="170" height="46" rx="6" class="fg-box"/>
+<rect x="215" y="92" width="170" height="46" rx="6" class="fg-hot"/>
+<text x="85" y="80" text-anchor="middle" class="fg-strong">Sus visitas</text>
+<text x="300" y="32" text-anchor="middle" class="fg-text">Informarse</text>
+<text x="300" y="50" text-anchor="middle" class="fg-label">guías</text>
+<text x="300" y="112" text-anchor="middle" class="fg-strong">Contratar ya</text>
+<text x="300" y="130" text-anchor="middle" class="fg-label">páginas de servicio</text>
+</svg>
+<figcaption>La intención decide el formato: guías para quien se informa y páginas de servicio para quien está listo para contratar.</figcaption>
+</figure>
+
 ## Qué métricas mirar en cada rival
 
 La cantidad de tráfico te dice el tamaño del rival; la calidad te dice qué contenido funciona. Mira, en las estimaciones de Similarweb:
@@ -47,6 +63,24 @@ La cantidad de tráfico te dice el tamaño del rival; la calidad te dice qué co
 - las páginas por visita.
 
 Revisa también el reparto por canales: orgánico, pago, redes sociales, referencias y directo. Un rival con tráfico orgánico sólido tiene un activo más duradero que uno que depende sobre todo de la publicidad. Parte de las referencias suele venir de afiliados, y nuestra comparativa de [programas de afiliados](/es/programas-de-afiliados/) muestra cómo funcionan esas comisiones. Para empezar, usa [herramientas gratuitas de análisis competitivo](https://mikebastin.com/es/herramientas-gratuitas-analisis-competitivo/) antes de invertir en soluciones de pago.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 140" role="img" aria-label="Dos rivales comparados por su reparto de canales: el tráfico orgánico sólido es un activo duradero y el que llega sobre todo por publicidad depende del pago.">
+<path d="M165 35 L220 35" class="fg-accent"/>
+<path d="M165 105 L220 105" class="fg-dim" stroke-dasharray="4 4"/>
+<rect x="15" y="12" width="150" height="46" rx="6" class="fg-box"/>
+<rect x="15" y="82" width="150" height="46" rx="6" class="fg-box"/>
+<rect x="220" y="12" width="165" height="46" rx="6" class="fg-hot"/>
+<rect x="220" y="82" width="165" height="46" rx="6" class="fg-box"/>
+<text x="90" y="32" text-anchor="middle" class="fg-text">Orgánico</text>
+<text x="90" y="50" text-anchor="middle" class="fg-label">tráfico sólido</text>
+<text x="90" y="102" text-anchor="middle" class="fg-text">Publicidad</text>
+<text x="90" y="120" text-anchor="middle" class="fg-label">sobre todo pago</text>
+<text x="302" y="41" text-anchor="middle" class="fg-strong">Activo duradero</text>
+<text x="302" y="111" text-anchor="middle" class="fg-text">Depende del pago</text>
+</svg>
+<figcaption>En el reparto por canales, el tráfico orgánico sólido de un rival es su activo más duradero.</figcaption>
+</figure>
 
 ### Tráfico orgánico y palabras clave
 
@@ -70,6 +104,26 @@ Si tu competencia gana terreno en ciertas búsquedas, ha detectado una necesidad
 Los enlaces explican buena parte del tráfico orgánico de un rival. Al analizar el tráfico web de la competencia, mira también quién le enlaza: esos enlaces revelan relaciones públicas, colaboraciones o contenido que otros comparten.
 
 Si vendes en varios países, necesitas enlaces de cada mercado: para posicionarte en Alemania, enlaces de webs alemanas. Por eso el [SEO multilingüe](https://mikebastin.com/es/services/posicionamiento-multilingue/) incluye un plan de enlaces por país.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Un plan de enlaces por país: webs francesas para Francia, alemanas para Alemania y neerlandesas para los Países Bajos.">
+<path d="M200 50 L68 102" class="fg-line"/>
+<path d="M200 50 L200 102" class="fg-line"/>
+<path d="M200 50 L332 102" class="fg-line"/>
+<rect x="118" y="10" width="164" height="40" rx="6" class="fg-hot"/>
+<rect x="6" y="102" width="124" height="46" rx="6" class="fg-box"/>
+<rect x="138" y="102" width="124" height="46" rx="6" class="fg-box"/>
+<rect x="270" y="102" width="124" height="46" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-strong">Plan de enlaces</text>
+<text x="68" y="122" text-anchor="middle" class="fg-text">Francia</text>
+<text x="68" y="140" text-anchor="middle" class="fg-label">webs .fr</text>
+<text x="200" y="122" text-anchor="middle" class="fg-text">Alemania</text>
+<text x="200" y="140" text-anchor="middle" class="fg-label">webs .de</text>
+<text x="332" y="122" text-anchor="middle" class="fg-text">Países Bajos</text>
+<text x="332" y="140" text-anchor="middle" class="fg-label">webs .nl</text>
+</svg>
+<figcaption>Cada mercado se gana con enlaces de sus propias webs, y el plan de SEO multilingüe los busca país por país.</figcaption>
+</figure>
 
 ¿Tu rival aparece en [Forbes](https://www.forbes.com/)? Estudia cómo lo logró y qué ángulo usó. Para el método completo, consulta cómo [analizar backlinks de competidores](https://mikebastin.com/es/analizar-backlinks-competidores/) y encontrar oportunidades para ti.
 

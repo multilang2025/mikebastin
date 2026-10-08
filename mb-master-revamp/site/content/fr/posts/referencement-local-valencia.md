@@ -37,6 +37,23 @@ Pour une entreprise francophone, ce travail se mène dans chaque langue de votre
 
 Les mots-clés de longue traîne sont un itinéraire détaillé jusqu’à votre porte. Un internaute commence parfois par « masaje Valencia », mais ceux qui sont proches de la réservation tapent des expressions comme « [traditional Thai massage near Ruzafa Valencia](https://www.ro-ki.net/treatments/thai-yoga-massage/) », « masaje tailandés deep tissue Ciutat Vella » ou « [English-speaking Thai massage therapist Valencia](https://www.ro-ki.net/treatments/thai-yoga-massage/) ». Plus l’expression est précise, plus l’intention de réserver est forte.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 156" role="img" aria-label="Trois recherches à Valencia pesées selon l’intention de réserver : la requête large « masaje Valencia » y mène de loin, les requêtes précises « Thai massage Ruzafa » et « deep tissue Ciutat Vella » y mènent droit.">
+<path d="M234 30 L292 62" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M234 78 L288 78" class="fg-accent"/>
+<path d="M234 126 L292 94" class="fg-accent"/>
+<rect x="8" y="14" width="226" height="32" rx="6" class="fg-box"/>
+<rect x="8" y="62" width="226" height="32" rx="6" class="fg-box"/>
+<rect x="8" y="110" width="226" height="32" rx="6" class="fg-box"/>
+<circle cx="334" cy="78" r="46" class="fg-hot"/>
+<text x="121" y="35" text-anchor="middle" class="fg-text">masaje Valencia</text>
+<text x="121" y="83" text-anchor="middle" class="fg-text">Thai massage Ruzafa</text>
+<text x="121" y="131" text-anchor="middle" class="fg-text">deep tissue Ciutat Vella</text>
+<text x="334" y="84" text-anchor="middle" class="fg-strong">Réserver</text>
+</svg>
+<figcaption>Plus l’expression est précise, plus l’intention de réserver est forte : un quartier ou une prestation dans la requête signale un client proche de votre porte.</figcaption>
+</figure>
+
 Ajoutez des expressions propres à Valencia partout où elles sont pertinentes, dans chaque langue : « restaurantes en Valencia », « pisos en Valencia », « eventos Valencia », « abogado en Valencia », et leurs équivalents en anglais et en français.
 
 ### L’intention de recherche, de la découverte à la réservation
@@ -90,6 +107,22 @@ Rédigez ces éléments dans chaque langue de votre site, avec les mots-clés pr
 
 Les liens internes aident les moteurs à comprendre votre structure et les visiteurs à circuler, et des [outils de maillage interne pour WordPress](/fr/outils-maillage-interne/) facilitent ce travail. Reliez entre elles vos pages consacrées à Valencia, dans le texte (un article sur les restaurants de Valencia qui renvoie vers votre guide gastronomique), et donnez à vos services ou à vos adresses à Valencia leur propre place dans la navigation principale.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Le menu principal mène directement à vos services et à vos adresses à Valencia, chacun à un clic.">
+<path d="M200 50 L105 96" class="fg-line"/>
+<path d="M200 50 L295 96" class="fg-line"/>
+<rect x="120" y="10" width="160" height="40" rx="6" class="fg-hot"/>
+<rect x="15" y="96" width="180" height="46" rx="6" class="fg-box"/>
+<rect x="205" y="96" width="180" height="46" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-strong">Menu principal</text>
+<text x="105" y="116" text-anchor="middle" class="fg-text">Services</text>
+<text x="105" y="134" text-anchor="middle" class="fg-label">à Valencia, un clic</text>
+<text x="295" y="116" text-anchor="middle" class="fg-text">Adresses</text>
+<text x="295" y="134" text-anchor="middle" class="fg-label">à Valencia, un clic</text>
+</svg>
+<figcaption>Donnez à vos services et à vos adresses à Valencia leur propre place dans la navigation principale : chaque visiteur les atteint en un clic.</figcaption>
+</figure>
+
 ### Les sitemaps
 
 Un sitemap aide les moteurs à explorer et à indexer vos pages. Incluez chaque page consacrée à Valencia, soumettez le sitemap XML dans Google Search Console et envisagez un sitemap HTML pour les visiteurs. WordPress génère seul un sitemap XML de base depuis sa version 5.5 : une extension ne sert qu’à obtenir davantage de contrôle.
@@ -124,6 +157,21 @@ Les chiffres locaux montrent si le travail vous amène des clients de Valencia e
 ### Google Analytics et Search Console
 
 Dans Google Analytics, les rapports géographiques montrent la part du trafic venue de Valencia, le taux d’engagement et le temps passé sur la page indiquent si les visiteurs locaux trouvent ce qu’ils cherchaient, et le suivi des conversions montre combien deviennent des prospects ou des ventes. Dans Search Console, le rapport sur les performances donne les clics, les impressions et la position moyenne de vos mots-clés liés à Valencia, et le rapport d’indexation des pages confirme que vos pages Valencia sont indexées. Filtrez aussi par langue de page, pour voir ce que chaque version rapporte.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Un entonnoir de trois indicateurs locaux : le taux de clics, puis le taux d’engagement, puis le taux de conversion, la part des visiteurs de Valencia qui deviennent clients ou prospects.">
+<rect x="30" y="8" width="340" height="44" rx="6" class="fg-box"/>
+<rect x="70" y="58" width="260" height="44" rx="6" class="fg-box"/>
+<rect x="100" y="108" width="200" height="44" rx="6" class="fg-hot"/>
+<text x="200" y="28" text-anchor="middle" class="fg-text">Taux de clics</text>
+<text x="200" y="45" text-anchor="middle" class="fg-label">titres et descriptions</text>
+<text x="200" y="78" text-anchor="middle" class="fg-text">Taux d’engagement</text>
+<text x="200" y="95" text-anchor="middle" class="fg-label">attentes locales comblées</text>
+<text x="200" y="128" text-anchor="middle" class="fg-text">Taux de conversion</text>
+<text x="200" y="145" text-anchor="middle" class="fg-label">clients et prospects</text>
+</svg>
+<figcaption>Lisez les trois taux dans l’ordre : le titre gagne le clic, la page retient le visiteur, l’offre en fait un client.</figcaption>
+</figure>
 
 ### Les indicateurs à suivre
 

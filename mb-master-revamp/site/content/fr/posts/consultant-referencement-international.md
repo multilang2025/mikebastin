@@ -93,6 +93,22 @@ Le taux d’engagement a pris la place du taux de rebond dans Google Analytics 4
 
 Une hausse du trafic organique dans une langue montre que les mots-clés visés sont les bons. Une hausse des demandes montre que les pages convainquent. Le rapport met les deux côte à côte, pour que vous jugiez chaque marché sur ce qu’il vous envoie.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Une hausse du trafic organique montre que les mots-clés visés sont les bons, une hausse des demandes montre que les pages convainquent, et le rapport met les deux côte à côte.">
+<path d="M102 80 L170 112" class="fg-line"/>
+<path d="M297 80 L230 112" class="fg-line"/>
+<rect x="15" y="10" width="175" height="40" rx="6" class="fg-box"/>
+<rect x="210" y="10" width="175" height="40" rx="6" class="fg-box"/>
+<rect x="125" y="112" width="150" height="40" rx="6" class="fg-hot"/>
+<text x="102" y="35" text-anchor="middle" class="fg-text">Trafic en hausse</text>
+<text x="297" y="35" text-anchor="middle" class="fg-text">Demandes en hausse</text>
+<text x="102" y="70" text-anchor="middle" class="fg-label">bons mots-clés</text>
+<text x="297" y="70" text-anchor="middle" class="fg-label">pages convaincantes</text>
+<text x="200" y="137" text-anchor="middle" class="fg-strong">Côte à côte</text>
+</svg>
+<figcaption>Le trafic valide les mots-clés, les demandes valident les pages, et chaque marché se juge sur les deux à la fois.</figcaption>
+</figure>
+
 ### Les outils derrière les chiffres
 
 | Outil | Ce que nous en tirons |
@@ -116,6 +132,22 @@ La structure du site décide de la façon dont chaque pays reçoit la bonne vers
 
 Pour la plupart des entreprises qui ajoutent des marchés à une activité existante, le sous-répertoire concentre l’autorité au même endroit et reste le plus simple à faire vivre.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Trois structures possibles, domaine national, sous-domaine et sous-répertoire, avec le sous-répertoire qui concentre l’autorité au même endroit.">
+<line x1="200" y1="12" x2="200" y2="148" class="fg-rule"/>
+<rect x="15" y="12" width="170" height="36" rx="6" class="fg-box"/>
+<rect x="15" y="62" width="170" height="36" rx="6" class="fg-box"/>
+<rect x="15" y="112" width="170" height="36" rx="6" class="fg-hot"/>
+<text x="100" y="35" text-anchor="middle" class="fg-text">exemple.de</text>
+<text x="100" y="85" text-anchor="middle" class="fg-text">de.exemple.com</text>
+<text x="100" y="135" text-anchor="middle" class="fg-text">exemple.com/de/</text>
+<text x="215" y="35" class="fg-label">domaine national</text>
+<text x="215" y="85" class="fg-label">sous-domaine</text>
+<text x="215" y="135" class="fg-strong">sous-répertoire</text>
+</svg>
+<figcaption>Pour une activité qui ajoute des marchés, le sous-répertoire garde toute l’autorité sur un seul domaine ; nous fixons ce choix avec vous dès le premier mois.</figcaption>
+</figure>
+
 Viennent ensuite les balises hreflang. Elles indiquent à Google la langue et le pays de chaque page, avec un lien de retour vers chacune de ses versions, page d’accueil comprise. L’acheteur belge arrive ainsi sur la version belge, l’acheteur espagnol sur la version espagnole, et la Search Console donne un rapport propre, marché par marché.
 
 ## Le travail de fond de chaque mois : contenu, liens et réponses des IA
@@ -125,6 +157,26 @@ Une fois la structure posée, la progression vient de trois chantiers menés en 
 **Des pages écrites pour leur marché.** Le vocabulaire de recherche change d’un pays à l’autre, même dans une langue commune : un acheteur belge et un acheteur français décrivent souvent le même besoin avec des mots différents. Chaque page part des recherches de son pays et parle comme un fournisseur local, du ton aux formats de date et de prix.
 
 **Des liens gagnés dans chaque pays.** Un lien venu de la presse locale, d’une association professionnelle ou d’un annuaire régional du pays ciblé pèse davantage qu’un lien international générique. Chaque version linguistique gagne donc ses propres liens dans son propre pays.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Les liens de la presse locale, d’une association professionnelle et d’un annuaire régional pèsent davantage pour une page qu’un lien international générique.">
+<path d="M165 23 L270 74" class="fg-accent"/>
+<path d="M165 61 L270 78" class="fg-accent"/>
+<path d="M165 99 L270 82" class="fg-accent"/>
+<path d="M165 137 L270 88" class="fg-dim" stroke-dasharray="4 4"/>
+<rect x="15" y="8" width="150" height="30" rx="6" class="fg-box"/>
+<rect x="15" y="46" width="150" height="30" rx="6" class="fg-box"/>
+<rect x="15" y="84" width="150" height="30" rx="6" class="fg-box"/>
+<rect x="15" y="122" width="150" height="30" rx="6" class="fg-box"/>
+<rect x="270" y="60" width="115" height="40" rx="6" class="fg-hot"/>
+<text x="90" y="28" text-anchor="middle" class="fg-label">Presse locale</text>
+<text x="90" y="66" text-anchor="middle" class="fg-label">Association pro</text>
+<text x="90" y="104" text-anchor="middle" class="fg-label">Annuaire régional</text>
+<text x="90" y="142" text-anchor="middle" class="fg-label">Lien international</text>
+<text x="327" y="85" text-anchor="middle" class="fg-strong">Votre page</text>
+</svg>
+<figcaption>Chaque version linguistique gagne ses liens dans son propre pays, là où ils pèsent le plus.</figcaption>
+</figure>
 
 **Une place dans les réponses des moteurs d’IA.** ChatGPT, Claude, Perplexity et les AI Overviews de Google répondent dans la langue de celui qui pose la question, et citent leurs sources pays par pays. Des pages natives et des liens locaux vous placent dans ces réponses, marché par marché.
 

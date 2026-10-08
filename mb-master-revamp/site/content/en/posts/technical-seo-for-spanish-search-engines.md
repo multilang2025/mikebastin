@@ -53,6 +53,22 @@ A technically sound site ranks for the searches that matter when it targets the 
 
 Google Keyword Planner, SISTRIX or Semrush can surface high-impact [keywords matched to both national and regional Spanish](/blog/spanish-keyword-localisation/) audiences. Read them alongside user intent and local terminology as well as volume.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Keyword research for Spanish splits two ways: the Spanish of Spain, with its local keywords, and the Latin American variants.">
+<path d="M150 75 L230 35" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M150 75 L230 115" class="fg-accent"/>
+<rect x="15" y="55" width="135" height="40" rx="6" class="fg-box"/>
+<rect x="230" y="12" width="150" height="46" rx="6" class="fg-box"/>
+<rect x="230" y="92" width="150" height="46" rx="6" class="fg-hot"/>
+<text x="82.5" y="81" text-anchor="middle" class="fg-strong">Spanish</text>
+<text x="305" y="32" text-anchor="middle" class="fg-text">Latin America</text>
+<text x="305" y="50" text-anchor="middle" class="fg-label">other variants</text>
+<text x="305" y="112" text-anchor="middle" class="fg-strong">Spain</text>
+<text x="305" y="130" text-anchor="middle" class="fg-label">local keywords</text>
+</svg>
+<figcaption>For buyers in Spain, research the keywords of Spain’s own Spanish; the Latin American variants call for research of their own.</figcaption>
+</figure>
+
 | Tool | Features | Pricing | Best use case | Suitability for Spanish market |
 |---|---|---|---|---|
 | **Google Keyword Planner** | [Keyword research](/blog/what-is-search-intent-mapping/), search volume data, trend insights, limited audience targeting | Free with a Google Ads account | Basic keyword research and planning, ideal for [PPC campaigns](/blog/french-ppc-campaign/) | Moderate: limited localization for Spain-specific keywords |
@@ -106,6 +122,23 @@ Every second you take off a Spanish page's load time keeps the buyer on it, and 
 
 Get targeting right and Google shows your Spanish page to a buyer in Madrid and your Mexican page to a buyer in Mexico City. A geo-targeted setup, such as an .es domain, helps in Spain, and correct hreflang tags make sure search engines serve the right language version to the right audience.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 140" role="img" aria-label="Hreflang sends a buyer in Madrid to the Spanish page and a buyer in Mexico City to the Mexican page.">
+<path d="M140 40 L236 40" class="fg-accent"/>
+<path d="M140 100 L236 100" class="fg-accent"/>
+<rect x="10" y="20" width="130" height="40" rx="6" class="fg-box"/>
+<rect x="10" y="80" width="130" height="40" rx="6" class="fg-box"/>
+<rect x="236" y="20" width="154" height="40" rx="6" class="fg-hot"/>
+<rect x="236" y="80" width="154" height="40" rx="6" class="fg-hot"/>
+<text x="75" y="46" text-anchor="middle" class="fg-text">Madrid</text>
+<text x="75" y="106" text-anchor="middle" class="fg-text">Mexico City</text>
+<text x="313" y="46" text-anchor="middle" class="fg-strong">Spanish page</text>
+<text x="313" y="106" text-anchor="middle" class="fg-strong">Mexican page</text>
+<text x="188" y="76" text-anchor="middle" class="fg-label">hreflang</text>
+</svg>
+<figcaption>Correct hreflang tags, and an .es domain for Spain, let Google match each Spanish-speaking market to its own page.</figcaption>
+</figure>
+
 Build URL structures that reflect the language and culture of [Spanish users](/blog/spanish-keyword-localisation/), so each one keeps its context and relevance.
 
 <aside class="post-cta">
@@ -134,6 +167,18 @@ A richer listing in the results takes more space and draws more clicks than a pl
 ## Crawling, indexing and Core Web Vitals
 
 A page ranks once Google has crawled and indexed it, and a page that loads smoothly and stays steady keeps the reader who arrives.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 142" role="img" aria-label="A page is crawled first, then indexed, and only then can it rank.">
+<rect x="50" y="10" width="300" height="36" rx="6" class="fg-box"/>
+<rect x="90" y="54" width="220" height="36" rx="6" class="fg-box"/>
+<rect x="130" y="98" width="140" height="36" rx="6" class="fg-hot"/>
+<text x="200" y="34" text-anchor="middle" class="fg-text">Crawled</text>
+<text x="200" y="78" text-anchor="middle" class="fg-text">Indexed</text>
+<text x="200" y="122" text-anchor="middle" class="fg-strong">Ranks</text>
+</svg>
+<figcaption>Each stage depends on the one above: current XML sitemaps and a well-configured robots.txt get pages crawled and indexed, so they can rank.</figcaption>
+</figure>
 
 **XML sitemaps and robots.txt:** keep XML sitemaps current and robots.txt configured so Google.es and Bing crawl and index the pages you want found.
 

@@ -47,6 +47,24 @@ La citabilidad funciona en GEO como el backlink en SEO. Incluye datos propios, c
 
 Los datos estructurados de Schema.org describen quién eres, qué ofreces y quién escribe, y su valor en GEO está en la coherencia: el marcado repite lo que dice la página, y la página dice lo mismo en cada idioma. Los tipos que importan y cómo implantarlos están en nuestra guía de [datos estructurados y schema para GEO](/es/datos-estructurados-schema-optimizacion-geo/).
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="El marcado Schema.org, en el centro, describe tres cosas a una IA: quién eres, qué ofreces y quién firma el contenido.">
+<path d="M200 60 L68 112" class="fg-line"/>
+<path d="M200 60 L200 112" class="fg-line"/>
+<path d="M200 60 L332 112" class="fg-line"/>
+<rect x="140" y="10" width="120" height="50" rx="6" class="fg-hot"/>
+<rect x="4" y="112" width="128" height="40" rx="6" class="fg-box"/>
+<rect x="136" y="112" width="128" height="40" rx="6" class="fg-box"/>
+<rect x="268" y="112" width="128" height="40" rx="6" class="fg-box"/>
+<text x="200" y="34" text-anchor="middle" class="fg-strong">Marcado</text>
+<text x="200" y="52" text-anchor="middle" class="fg-label">Schema.org</text>
+<text x="68" y="137" text-anchor="middle" class="fg-text">Quién eres</text>
+<text x="200" y="137" text-anchor="middle" class="fg-text">Qué ofreces</text>
+<text x="332" y="137" text-anchor="middle" class="fg-text">Quién firma</text>
+</svg>
+<figcaption>El marcado da a la IA el contexto de la página y repite exactamente lo que la página dice.</figcaption>
+</figure>
+
 El mismo nombre, dirección y teléfono (NAP) en todas las plataformas da confianza a los buscadores y a los asistentes. Sigue también tus posiciones y tus menciones de marca en los directorios profesionales de cada país. BeTranslated, por ejemplo, lleva un sitio por mercado, del .be al .co.uk, y cada uno presenta la misma empresa con los mismos datos.
 
 <aside class="post-cta">
@@ -91,6 +109,24 @@ Lo que mides decide dónde va el presupuesto, así que el GEO necesita sus propi
 
 Experiencia, especialización, autoridad y fiabilidad (E-E-A-T) son los criterios que Google describe para valorar la calidad, y los asistentes de IA tienden a citar fuentes que los cumplen. Firma los artículos con autores reales y reconocidos en su campo.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Los cuatro criterios E-E-A-T en una cuadrícula: la experiencia con tus proyectos, la especialización con un autor que firma, la autoridad con enlaces de calidad y la fiabilidad con datos verificables.">
+<rect x="10" y="8" width="185" height="68" rx="6" class="fg-box"/>
+<rect x="205" y="8" width="185" height="68" rx="6" class="fg-box"/>
+<rect x="10" y="84" width="185" height="68" rx="6" class="fg-box"/>
+<rect x="205" y="84" width="185" height="68" rx="6" class="fg-hot"/>
+<text x="102" y="38" text-anchor="middle" class="fg-strong">Experiencia</text>
+<text x="102" y="60" text-anchor="middle" class="fg-label">tus proyectos</text>
+<text x="297" y="38" text-anchor="middle" class="fg-strong">Especialización</text>
+<text x="297" y="60" text-anchor="middle" class="fg-label">autor que firma</text>
+<text x="102" y="114" text-anchor="middle" class="fg-strong">Autoridad</text>
+<text x="102" y="136" text-anchor="middle" class="fg-label">enlaces de calidad</text>
+<text x="297" y="114" text-anchor="middle" class="fg-strong">Fiabilidad</text>
+<text x="297" y="136" text-anchor="middle" class="fg-label">datos verificables</text>
+</svg>
+<figcaption>Cada criterio E-E-A-T se demuestra en la propia página: proyectos reales, autores reconocidos, enlaces de calidad y datos verificables.</figcaption>
+</figure>
+
 Puedes seguir cómo evolucionan estas señales en [Search Engine Journal](https://www.searchenginejournal.com/).
 
 Los enlaces de calidad siguen siendo señales de confianza, y una forma de encontrarlos es [analizar los backlinks de tus competidores](https://mikebastin.com/es/analizar-backlinks-competidores/). Nuestro [SEO multilingüe](/es/services/posicionamiento-multilingue/) incluye un plan de enlaces por país para respaldar tu autoridad en cada región.
@@ -102,6 +138,22 @@ Como explica el blog de [Google Search](https://blog.google/products/search/), l
 El contenido de marketing y los datos de tu empresa se leen ya como un solo conjunto. Nuestra [página de inicio](/es/) explica cómo ordenamos esa información para cada mercado donde vendes.
 
 Los modelos cambian de versión con frecuencia, y las empresas que publican contenido claro, sólido y actualizado se adaptan a cada cambio con menos esfuerzo. Para negocios que buscan leads cualificados, como [C21 Perdomo](https://c21perdomo.com/es/), el foco está en crear activos digitales técnicos y duraderos.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Dos páginas frente a una respuesta de IA: la página revisada a menudo mantiene su sitio, la página con fecha pasada se queda atrás.">
+<path d="M170 35 L236 75" class="fg-accent"/>
+<path d="M170 115 L236 75" class="fg-dim" stroke-dasharray="4 4"/>
+<rect x="10" y="12" width="160" height="46" rx="6" class="fg-hot"/>
+<rect x="10" y="92" width="160" height="46" rx="6" class="fg-box"/>
+<rect x="236" y="52" width="154" height="46" rx="6" class="fg-box"/>
+<text x="90" y="32" text-anchor="middle" class="fg-strong">Página al día</text>
+<text x="90" y="50" text-anchor="middle" class="fg-label">revisada a menudo</text>
+<text x="90" y="112" text-anchor="middle" class="fg-text">Página antigua</text>
+<text x="90" y="130" text-anchor="middle" class="fg-label">fecha pasada</text>
+<text x="313" y="80" text-anchor="middle" class="fg-text">Respuesta de IA</text>
+</svg>
+<figcaption>El contenido claro y actualizado se adapta a cada nueva versión de los modelos y mantiene su sitio en la respuesta.</figcaption>
+</figure>
 
 Combinar varios de [nuestros servicios](/es/services/) permite que cada contenido atraiga tráfico hoy y siga siendo relevante mañana. Revisa tu análisis de la competencia con regularidad para ajustar las tácticas a cómo responden los motores generativos y descubrir las preguntas en las que tu marca puede convertirse en la respuesta.
 

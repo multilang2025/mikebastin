@@ -24,6 +24,22 @@ Vous voulez localiser vos mots-clés pour le marché espagnol ? Voici comment t
 
 Un mot-clé localisé amène des visiteurs parce que c’est l’expression que les internautes tapent réellement. Localiser des mots-clés pour l’Espagne revient à trouver la formule qu’emploie un public précis, souvent différente de celle que donne un dictionnaire bilingue.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Un terme source, deux résultats : le dictionnaire donne le mot correct, la recherche locale trouve l’expression que tapent réellement les acheteurs en Espagne.">
+<path d="M150 75 L230 35" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M150 75 L230 115" class="fg-accent"/>
+<rect x="14" y="55" width="136" height="40" rx="6" class="fg-box"/>
+<rect x="230" y="12" width="150" height="46" rx="6" class="fg-box"/>
+<rect x="230" y="92" width="150" height="46" rx="6" class="fg-hot"/>
+<text x="82" y="81" text-anchor="middle" class="fg-strong">Terme source</text>
+<text x="305" y="32" text-anchor="middle" class="fg-text">Dictionnaire</text>
+<text x="305" y="50" text-anchor="middle" class="fg-label">le mot correct</text>
+<text x="305" y="112" text-anchor="middle" class="fg-strong">Terme local</text>
+<text x="305" y="130" text-anchor="middle" class="fg-label">la requête réelle</text>
+</svg>
+<figcaption>Le mot-clé qui mérite une page est l’expression que tape un public précis, trouvée par une recherche menée en espagnol.</figcaption>
+</figure>
+
 Chaque marché répond à ses propres mots-clés, et l’Espagne elle-même réunit plusieurs langues et plusieurs cultures. Quand vous étudiez les différences régionales, vous écrivez pour les vrais lecteurs, qui vous trouvent alors. Comprendre le contexte local vous permet de bâtir votre [stratégie SEO multilingue](/fr/bonnes-pratiques-seo-multilingue/) autour du public que vous voulez atteindre.
 
 ## Rechercher les mots-clés par région
@@ -82,6 +98,26 @@ Ces détails décident si votre contenu parle la langue du pays, sur le plan cul
 
 Le bon mot-clé sur la bonne page, dans une phrase qu’écrirait un Espagnol, fait gagner le clic. Placez les mots-clés là où l’internaute regarde d’abord : titres, intertitres et méta descriptions, rédigés pour séduire un lecteur local autant que pour se positionner.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Un mot-clé local placé là où l’internaute regarde d’abord : la balise title, les intertitres H1 et H2, et la méta description.">
+<path d="M200 50 L70 102" class="fg-line"/>
+<path d="M200 50 L200 102" class="fg-line"/>
+<path d="M200 50 L330 102" class="fg-line"/>
+<rect x="125" y="10" width="150" height="40" rx="6" class="fg-hot"/>
+<rect x="12" y="102" width="116" height="46" rx="6" class="fg-box"/>
+<rect x="142" y="102" width="116" height="46" rx="6" class="fg-box"/>
+<rect x="272" y="102" width="116" height="46" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-strong">Mot-clé local</text>
+<text x="70" y="122" text-anchor="middle" class="fg-text">Titre</text>
+<text x="70" y="140" text-anchor="middle" class="fg-label">balise title</text>
+<text x="200" y="122" text-anchor="middle" class="fg-text">Intertitres</text>
+<text x="200" y="140" text-anchor="middle" class="fg-label">H1 et H2</text>
+<text x="330" y="122" text-anchor="middle" class="fg-text">Méta</text>
+<text x="330" y="140" text-anchor="middle" class="fg-label">description</text>
+</svg>
+<figcaption>L’internaute voit d’abord le titre, les intertitres et la méta description : le mot-clé local y prend place, dans une phrase qu’écrirait un Espagnol.</figcaption>
+</figure>
+
 Accordez le ton aux attentes locales, formel ou conversationnel. Sur un site qui repose sur un [SEO technique](/fr/services/seo-technique/) solide, les mots-clés localisés donnent leur meilleur effet quand ils servent le lecteur. Vous visez une page qui se lit comme native, pour que l’acheteur poursuive sa lecture.
 
 ## Faites relire chaque page par un lecteur natif
@@ -95,6 +131,25 @@ Un jeu de mots-clés pour chaque public hispanophone parle à chaque partie de v
 ## Testez et écoutez le marché local
 
 Vos premiers choix de mots-clés forment une hypothèse, et le test vous dit lesquels amènent des acheteurs. Une fois les mots-clés en ligne, lancez des tests A/B pour mesurer l’effet de différentes variantes, et recueillez les retours des publics locaux sur la lecture des pages, une étape que prévoit toute [localisation de site web](/fr/services/localisation-de-site-web/) bien menée.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Le test des mots-clés en boucle : les mots-clés passent en ligne, les tests A/B comparent les variantes, et les retours des publics locaux affinent la liste pour le tour suivant.">
+<path d="M120 45 L143 45" class="fg-line"/>
+<path d="M136 39 L143 45 L136 51" class="fg-line"/>
+<path d="M255 45 L278 45" class="fg-line"/>
+<path d="M271 39 L278 45 L271 51" class="fg-line"/>
+<path d="M335 70 L335 108 L65 108 L65 72" class="fg-accent"/>
+<path d="M59 79 L65 72 L71 79" class="fg-accent"/>
+<rect x="10" y="20" width="110" height="50" rx="6" class="fg-box"/>
+<rect x="145" y="20" width="110" height="50" rx="6" class="fg-box"/>
+<rect x="280" y="20" width="110" height="50" rx="6" class="fg-hot"/>
+<text x="65" y="51" text-anchor="middle" class="fg-text">En ligne</text>
+<text x="200" y="51" text-anchor="middle" class="fg-text">Test A/B</text>
+<text x="335" y="51" text-anchor="middle" class="fg-strong">Affiner</text>
+<text x="200" y="134" text-anchor="middle" class="fg-label">retours des publics locaux</text>
+</svg>
+<figcaption>Chaque série de tests et de retours locaux affine la liste de mots-clés, jusqu’à ce que les pages se lisent comme locales sur chaque marché visé.</figcaption>
+</figure>
 
 Réinjectez ce que vous apprenez dans votre [stratégie de référencement multilingue](/fr/services/referencement-multilingue/) et affinez-la jusqu’à ce que les pages se lisent comme locales sur chaque marché visé.
 

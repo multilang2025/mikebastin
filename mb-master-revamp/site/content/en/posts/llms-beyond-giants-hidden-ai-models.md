@@ -64,6 +64,23 @@ Microsoft Research
 
 **Why it matters:** Orca popularised “explanation tuning”, where a model learns to reason step by step from teacher demonstrations. The same distillation idea runs through many of the small open models that followed.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 120" role="img" aria-label="Orca’s explanation tuning: a large teacher model explains its reasoning step by step, and a small student model learns to reason from those explanations.">
+<path d="M125 55 L145 55" class="fg-line"/>
+<path d="M255 55 L275 55" class="fg-accent"/>
+<rect x="5" y="30" width="120" height="50" rx="6" class="fg-box"/>
+<rect x="145" y="30" width="110" height="50" rx="6" class="fg-box"/>
+<rect x="275" y="30" width="120" height="50" rx="6" class="fg-hot"/>
+<text x="65" y="52" text-anchor="middle" class="fg-text">Teacher</text>
+<text x="65" y="70" text-anchor="middle" class="fg-label">large model</text>
+<text x="200" y="52" text-anchor="middle" class="fg-text">Explains</text>
+<text x="200" y="70" text-anchor="middle" class="fg-label">step by step</text>
+<text x="335" y="52" text-anchor="middle" class="fg-strong">Student</text>
+<text x="335" y="70" text-anchor="middle" class="fg-label">small model</text>
+</svg>
+<figcaption>Explanation tuning passes a large model’s step-by-step reasoning to a small one, the distillation idea many later open models share.</figcaption>
+</figure>
+
 [Microsoft Research Orca 2](https://www.microsoft.com/en-us/research/blog/orca-2-teaching-small-language-models-how-to-reason/)
 
 ## Early commercially usable open models
@@ -77,6 +94,26 @@ Technology Innovation Institute (TII), Abu Dhabi
 **What it is:** A family of LLMs that started with Falcon-7B, Falcon-40B, and Falcon-180B, trained on the RefinedWeb dataset, and has since grown into Falcon 2, Falcon 3, Falcon Mamba, and the hybrid Falcon-H1 series.
 
 **Why it matters:** Falcon-7B and Falcon-40B were among the first strong open models released under Apache 2.0, including commercial use. The licences have since diverged: Falcon-180B ships under the Falcon-180B TII License and acceptable use policy, and the newer releases use TII’s own Falcon licence, so read the terms for the exact model you plan to deploy.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="One Falcon family, three sets of licence terms: Apache 2.0 for Falcon-7B and Falcon-40B, the Falcon-180B TII License for 180B, and TII’s own Falcon licence for newer releases.">
+<path d="M200 50 L70 102" class="fg-line"/>
+<path d="M200 50 L200 102" class="fg-line"/>
+<path d="M200 50 L330 102" class="fg-line"/>
+<rect x="135" y="10" width="130" height="40" rx="6" class="fg-hot"/>
+<rect x="6" y="102" width="128" height="46" rx="6" class="fg-box"/>
+<rect x="136" y="102" width="128" height="46" rx="6" class="fg-box"/>
+<rect x="266" y="102" width="128" height="46" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-strong">Falcon</text>
+<text x="70" y="122" text-anchor="middle" class="fg-text">7B and 40B</text>
+<text x="70" y="140" text-anchor="middle" class="fg-label">Apache 2.0</text>
+<text x="200" y="122" text-anchor="middle" class="fg-text">180B</text>
+<text x="200" y="140" text-anchor="middle" class="fg-label">180B licence</text>
+<text x="330" y="122" text-anchor="middle" class="fg-text">Newer models</text>
+<text x="330" y="140" text-anchor="middle" class="fg-label">Falcon licence</text>
+</svg>
+<figcaption>Read the licence of the exact model you plan to deploy, because terms differ within one family.</figcaption>
+</figure>
 
 [Falcon LLM official site](https://falconllm.tii.ae/)
 
@@ -141,6 +178,22 @@ Alibaba Cloud, Qwen team
 Mistral AI (Paris)
 
 **What it is:** Mistral 7B was a dense 7-billion-parameter model that outperformed Llama 2 13B at release. Mixtral 8x7B followed as a sparse mixture-of-experts (MoE) model with about 47B total parameters but only 13B active per token.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="In Mixtral’s mixture-of-experts design, each token goes to a small share of active experts while most of the model stays idle for that token.">
+<path d="M145 75 L215 35" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M145 75 L215 115" class="fg-accent"/>
+<rect x="15" y="55" width="130" height="40" rx="6" class="fg-box"/>
+<rect x="215" y="12" width="180" height="46" rx="6" class="fg-box"/>
+<rect x="215" y="92" width="180" height="46" rx="6" class="fg-hot"/>
+<text x="80" y="81" text-anchor="middle" class="fg-strong">One token</text>
+<text x="305" y="32" text-anchor="middle" class="fg-text">Idle experts</text>
+<text x="305" y="50" text-anchor="middle" class="fg-label">most of the model</text>
+<text x="305" y="112" text-anchor="middle" class="fg-strong">Active experts</text>
+<text x="305" y="130" text-anchor="middle" class="fg-label">a small share</text>
+</svg>
+<figcaption>Mixtral holds many parameters in total and puts only a small share of them to work on each token.</figcaption>
+</figure>
 
 **Why it matters:** Mistral changed what European AI looks like, and Mixtral helped bring the MoE architecture into the open-weight mainstream. For anyone building production systems in Europe, Mistral offers an EU-based provider. Its current line-up mixes open-weight models (Mistral Large 3, Mistral Small 4 and the Ministral 3 series under Apache 2.0) with Mistral Medium 3.5 under a modified MIT licence.
 

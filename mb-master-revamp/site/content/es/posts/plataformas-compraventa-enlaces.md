@@ -28,6 +28,23 @@ Entender por qué venden los editores te dice qué espacios merecen la compra, p
 
 Los compradores quieren backlinks para el SEO, la visibilidad de marca o el tráfico de referencia, los editores quieren ingresos, y las plataformas hacen de intermediarias.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 120" role="img" aria-label="Los compradores, que quieren enlaces, y los editores, que quieren ingresos, se encuentran a través de una plataforma que hace de intermediaria.">
+<path d="M120 60 L140 60" class="fg-accent"/>
+<path d="M260 60 L280 60" class="fg-accent"/>
+<rect x="5" y="35" width="115" height="50" rx="6" class="fg-box"/>
+<rect x="140" y="35" width="120" height="50" rx="6" class="fg-hot"/>
+<rect x="280" y="35" width="115" height="50" rx="6" class="fg-box"/>
+<text x="63" y="57" text-anchor="middle" class="fg-text">Compradores</text>
+<text x="63" y="75" text-anchor="middle" class="fg-label">enlaces</text>
+<text x="200" y="57" text-anchor="middle" class="fg-strong">Plataforma</text>
+<text x="200" y="75" text-anchor="middle" class="fg-label">intermediaria</text>
+<text x="338" y="57" text-anchor="middle" class="fg-text">Editores</text>
+<text x="338" y="75" text-anchor="middle" class="fg-label">ingresos</text>
+</svg>
+<figcaption>La demanda de ambos lados sostiene las plataformas, y saber por qué vende un editor te dice qué espacios merecen la compra.</figcaption>
+</figure>
+
 Google sigue usando los enlaces como señal de posicionamiento. La cuestión está en el origen: ¿los enlaces que consigues vienen de webs que los algoritmos de Google consideran autorizadas, relevantes para tu temática y editorialmente independientes?
 
 ## Lo que los marketplaces ahorran a quien compra
@@ -42,6 +59,24 @@ Multiplica esa tasa por el volumen que necesita una agencia o un equipo SEO inte
 
 Los marketplaces reducen la búsqueda, la negociación y la publicación a unos pocos clics. El precio está a la vista, el editor ya ha aceptado publicar en principio, y la plataforma gestiona la facturación, el depósito en garantía y las disputas. Ganas velocidad en las operaciones; el valor SEO sigue dependiendo de la web.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="La prospección en frío encadena búsqueda, negociación y publicación; un marketplace reduce los tres pasos a unos pocos clics.">
+<path d="M125 43 L142 43" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M257 43 L275 43" class="fg-dim" stroke-dasharray="4 4"/>
+<rect x="10" y="26" width="115" height="34" rx="6" class="fg-box"/>
+<rect x="142" y="26" width="115" height="34" rx="6" class="fg-box"/>
+<rect x="275" y="26" width="115" height="34" rx="6" class="fg-box"/>
+<rect x="10" y="100" width="380" height="36" rx="6" class="fg-hot"/>
+<text x="10" y="18" class="fg-label">Prospección en frío</text>
+<text x="68" y="48" text-anchor="middle" class="fg-label">Búsqueda</text>
+<text x="200" y="48" text-anchor="middle" class="fg-label">Negociación</text>
+<text x="333" y="48" text-anchor="middle" class="fg-label">Publicación</text>
+<text x="10" y="92" class="fg-label">Marketplace</text>
+<text x="200" y="124" text-anchor="middle" class="fg-strong">Unos pocos clics</text>
+</svg>
+<figcaption>Los marketplaces aceleran las operaciones, y el valor SEO de cada publicación sigue dependiendo de la web.</figcaption>
+</figure>
+
 ## Los enlaces que siguen contando desde SpamBrain
 
 Si compraste enlaces antes de 2022, conviene comprobar cuáles siguen contando. Hasta entonces, la detección de spam de enlaces de Google era irregular: las redes privadas de blogs (PBN), los enlaces de directorios baratos y las redes masivas de artículos invitados funcionaban. [La actualización de Google contra el spam de enlaces de diciembre de 2022](https://developers.google.com/search/blog/2022/12/december-22-link-spam-update) cambió las reglas.
@@ -51,6 +86,21 @@ Si compraste enlaces antes de 2022, conviene comprobar cuáles siguen contando. 
 > Fuente: [Google Search Central Blog, «December 2022 link spam update», 14 de diciembre de 2022](https://developers.google.com/search/blog/2022/12/december-22-link-spam-update)
 
 **SpamBrain** es el sistema de prevención de spam de Google basado en IA, y detecta patrones de enlaces artificiales a gran escala. El algoritmo ignora cada vez más a menudo los enlaces baratos. Para quien compra, los controles de calidad pasan a ser la prioridad, porque un espacio neutralizado tiene un impacto nulo en el posicionamiento.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="SpamBrain deja que un enlace de calidad cuente para la posición y neutraliza un enlace barato, cuyo impacto en el posicionamiento queda en cero.">
+<path d="M175 40 L272 52" class="fg-accent"/>
+<path d="M175 120 L245 120" class="fg-dim" stroke-dasharray="4 4"/>
+<rect x="10" y="20" width="165" height="40" rx="6" class="fg-box"/>
+<rect x="10" y="100" width="165" height="40" rx="6" class="fg-box"/>
+<circle cx="320" cy="55" r="50" class="fg-hot"/>
+<text x="93" y="46" text-anchor="middle" class="fg-text">Enlace de calidad</text>
+<text x="93" y="126" text-anchor="middle" class="fg-text">Enlace barato</text>
+<text x="320" y="61" text-anchor="middle" class="fg-strong">Posición</text>
+<text x="252" y="125" class="fg-label">neutralizado</text>
+</svg>
+<figcaption>Un espacio neutralizado tiene un impacto nulo en el posicionamiento, así que para quien compra los controles de calidad van primero.</figcaption>
+</figure>
 
 Las actualizaciones de spam posteriores de Google siguen la misma dirección. Las webs siguen posicionando, y el valor de los enlaces de baja calidad queda reducido a cero, tal como recogen las [políticas de spam de Google Search Essentials](https://developers.google.com/search/docs/essentials/spam-policies).
 

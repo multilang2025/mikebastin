@@ -22,6 +22,24 @@ Un revisor nativo hace el resto: garantiza que cada frase fluida de tu ficha de 
 
 Las empresas que usan bien la IA llegan antes a los mercados nuevos. La traducción automática neuronal (NMT), el procesamiento del lenguaje natural (NLP) y, más recientemente, los grandes modelos de lenguaje han mejorado mucho la calidad y la rapidez de la traducción automatizada. Para muchos tipos de contenido, un borrador automático es ya el punto de partida habitual.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="La traducción automática neuronal, el procesamiento del lenguaje natural y los grandes modelos de lenguaje confluyen hoy en un borrador automático.">
+<path d="M160 31 L266 62" class="fg-line"/>
+<path d="M160 75 L264 75" class="fg-line"/>
+<path d="M160 119 L266 88" class="fg-line"/>
+<rect x="10" y="14" width="150" height="34" rx="6" class="fg-box"/>
+<rect x="10" y="58" width="150" height="34" rx="6" class="fg-box"/>
+<rect x="10" y="102" width="150" height="34" rx="6" class="fg-box"/>
+<circle cx="320" cy="75" r="56" class="fg-hot"/>
+<text x="85" y="36" text-anchor="middle" class="fg-text">NMT</text>
+<text x="85" y="80" text-anchor="middle" class="fg-text">NLP</text>
+<text x="85" y="124" text-anchor="middle" class="fg-text">Grandes modelos</text>
+<text x="320" y="72" text-anchor="middle" class="fg-strong">Borrador</text>
+<text x="320" y="94" text-anchor="middle" class="fg-label">automático</text>
+</svg>
+<figcaption>Para muchos tipos de contenido, el borrador automático es ya el punto de partida, y la pregunta pasa a ser dónde trabaja una persona a su lado.</figcaption>
+</figure>
+
 Para la mayoría de las empresas, la pregunta útil es en qué puntos la IA necesita a una persona al lado. Nuestra [consultoría de posicionamiento multilingüe](/es/services/posicionamiento-multilingue/) parte de ahí.
 
 <figure class="post-fig">
@@ -71,6 +89,26 @@ Los catálogos amplios y los contenidos que se actualizan a menudo son el terren
 
 Tus mejores traductores aportan más donde hay matices. Si automatizas las cadenas de texto rutinarias, les dejas tiempo para el trabajo creativo que decide si un mercado confía en ti. La [consultoría de inteligencia artificial](/es/services/consultoria-de-inteligencia-artificial/) te ayuda a decidir qué tareas automatizar primero, y unas buenas [extensiones de Chrome para traductores](/es/extensiones-chrome-traductores/) les ahorran tiempo en cada borrador.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 130" role="img" aria-label="Cuatro ventajas de la traducción con IA: plazos cortos, menor coste, escala con términos coherentes y más tiempo de tus traductores para los matices.">
+<line x1="200" y1="10" x2="200" y2="120" class="fg-rule"/>
+<line x1="10" y1="65" x2="390" y2="65" class="fg-rule"/>
+<rect x="10" y="10" width="186" height="50" rx="6" class="fg-box"/>
+<rect x="204" y="10" width="186" height="50" rx="6" class="fg-box"/>
+<rect x="10" y="70" width="186" height="50" rx="6" class="fg-box"/>
+<rect x="204" y="70" width="186" height="50" rx="6" class="fg-hot"/>
+<text x="103" y="32" text-anchor="middle" class="fg-strong">Plazos cortos</text>
+<text x="103" y="50" text-anchor="middle" class="fg-label">palabras en minutos</text>
+<text x="297" y="32" text-anchor="middle" class="fg-strong">Menor coste</text>
+<text x="297" y="50" text-anchor="middle" class="fg-label">financia el marketing</text>
+<text x="103" y="92" text-anchor="middle" class="fg-strong">Escala</text>
+<text x="103" y="110" text-anchor="middle" class="fg-label">términos coherentes</text>
+<text x="297" y="92" text-anchor="middle" class="fg-strong">Traductores</text>
+<text x="297" y="110" text-anchor="middle" class="fg-label">tiempo para matices</text>
+</svg>
+<figcaption>La máquina se encarga del volumen, y el tiempo que libera va al trabajo con matices que decide si un mercado confía en ti.</figcaption>
+</figure>
+
 ## Los retos, y cómo resolverlos antes de publicar
 
 Cada uno de estos puntos cuesta menos resolverlo antes de publicar que después.
@@ -89,6 +127,23 @@ Las herramientas lingüísticas en la nube piden el mismo cuidado de seguridad q
 > Fuente: [Citizen Lab, «The Not-So-Silent Type», 23 de abril de 2024](https://citizenlab.ca/2024/04/vulnerabilities-across-keyboard-apps-reveal-keystrokes-to-network-eavesdroppers/)
 
 Para el material confidencial, trabaja con [servicios de traducción profesional](/es/services/traduccion-profesional/) que controlan adónde va tu texto.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Un texto confidencial enviado a través de una herramienta en la nube puede quedar expuesto en tránsito; con un proveedor verificado, controlas adónde va.">
+<path d="M150 75 L220 35" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M150 75 L220 115" class="fg-accent"/>
+<rect x="10" y="52" width="140" height="46" rx="6" class="fg-box"/>
+<rect x="220" y="12" width="170" height="46" rx="6" class="fg-box"/>
+<rect x="220" y="92" width="170" height="46" rx="6" class="fg-hot"/>
+<text x="80" y="72" text-anchor="middle" class="fg-strong">Tu texto</text>
+<text x="80" y="90" text-anchor="middle" class="fg-label">confidencial</text>
+<text x="305" y="32" text-anchor="middle" class="fg-text">En la nube</text>
+<text x="305" y="50" text-anchor="middle" class="fg-label">expuesto en tránsito</text>
+<text x="305" y="112" text-anchor="middle" class="fg-strong">Proveedor</text>
+<text x="305" y="130" text-anchor="middle" class="fg-label">controla tu texto</text>
+</svg>
+<figcaption>Adónde viaja tu texto importa tanto como su traducción: un proveedor verificado y conforme con el RGPD mantiene el material confidencial bajo control.</figcaption>
+</figure>
 
 <aside class="post-cta">
 <p><strong>¿Quieres que tus páginas traducidas con máquina digan exactamente lo que deben?</strong> Nuestra <a href="/es/services/posedicion-de-ia/">posedición de IA</a> pone a un hablante nativo sobre el texto de la máquina y concentra el esfuerzo donde está el riesgo. <a href="/es/contactanos/">Reserva una primera conversación</a>.</p>

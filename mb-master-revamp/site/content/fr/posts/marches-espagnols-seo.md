@@ -34,6 +34,26 @@ Un acheteur qui reconnaît des références locales continue sa lecture en achet
 
 Les fêtes, les saisons de vente et les habitudes d’achat diffèrent entre Madrid, Mexico et Buenos Aires. Un contenu construit autour d’elles paraît local, en plus de la qualité de l’espagnol.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Une langue, trois publics : les acheteurs hispanophones de Madrid, Mexico et Buenos Aires, chacun avec ses fêtes, ses saisons de vente et ses habitudes d’achat.">
+<path d="M200 50 L70 102" class="fg-line"/>
+<path d="M200 50 L200 102" class="fg-line"/>
+<path d="M200 50 L330 102" class="fg-line"/>
+<rect x="135" y="10" width="130" height="40" rx="6" class="fg-hot"/>
+<rect x="8" y="102" width="124" height="46" rx="6" class="fg-box"/>
+<rect x="138" y="102" width="124" height="46" rx="6" class="fg-box"/>
+<rect x="268" y="102" width="124" height="46" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-strong">Espagnol</text>
+<text x="70" y="122" text-anchor="middle" class="fg-text">Madrid</text>
+<text x="70" y="140" text-anchor="middle" class="fg-label">ses fêtes</text>
+<text x="200" y="122" text-anchor="middle" class="fg-text">Mexico</text>
+<text x="200" y="140" text-anchor="middle" class="fg-label">ses saisons</text>
+<text x="330" y="122" text-anchor="middle" class="fg-text">Buenos Aires</text>
+<text x="330" y="140" text-anchor="middle" class="fg-label">ses habitudes</text>
+</svg>
+<figcaption>Une langue, trois calendriers. Un contenu construit autour des fêtes et des habitudes d’achat de chaque ville paraît local.</figcaption>
+</figure>
+
 <aside class="post-cta">
 <p><strong>Vous voulez savoir pour quel espagnol votre site est réellement écrit ?</strong> Chaque <a href="/fr/services/seo-espagnol/">mission de SEO espagnol</a> que nous menons commence par choisir l’espagnol prioritaire : l’Espagne, un pays d’Amérique latine, ou les deux. <a href="/fr/nous-contacter/">Réservez un premier échange</a>.</p>
 </aside>
@@ -68,6 +88,24 @@ Avec un paramétrage technique exact, Google présente votre page mexicaine à u
 
 Un contenu localisé répond aux questions des acheteurs espagnols, qui diffèrent de celles de vos acheteurs francophones. Un SEO espagnol efficace adapte le ton, le style et jusqu’aux sujets eux-mêmes pour [convenir aux préférences locales](/fr/services/localisation-de-site-web/) et à l’intention de recherche.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Le ton, le style et les sujets, tous adaptés vers un même but : répondre aux questions des acheteurs espagnols.">
+<path d="M125 27 L235 75" class="fg-line"/>
+<path d="M125 75 L235 75" class="fg-line"/>
+<path d="M125 123 L235 75" class="fg-line"/>
+<rect x="15" y="10" width="110" height="34" rx="6" class="fg-box"/>
+<rect x="15" y="58" width="110" height="34" rx="6" class="fg-box"/>
+<rect x="15" y="106" width="110" height="34" rx="6" class="fg-box"/>
+<rect x="235" y="52" width="150" height="46" rx="6" class="fg-hot"/>
+<text x="70" y="33" text-anchor="middle" class="fg-text">Ton</text>
+<text x="70" y="81" text-anchor="middle" class="fg-text">Style</text>
+<text x="70" y="129" text-anchor="middle" class="fg-text">Sujets</text>
+<text x="310" y="72" text-anchor="middle" class="fg-strong">Acheteurs</text>
+<text x="310" y="90" text-anchor="middle" class="fg-label">leurs questions</text>
+</svg>
+<figcaption>Ton, style et sujets s’adaptent à l’acheteur. Un contenu localisé répond aux questions que posent les acheteurs de ce marché.</figcaption>
+</figure>
+
 ## L’ampleur de l’audience fait la valeur du marché
 
 La taille de l’audience explique pourquoi soigner l’espagnol rapporte plus que dans presque toute autre langue.
@@ -91,6 +129,22 @@ Le lieu où vos acheteurs cherchent décide où va votre effort. Google domine d
 > Source : [StatCounter Global Stats, Search Engine Market Share, Espagne, Argentine, Colombie et Mexique, septembre 2026](https://gs.statcounter.com/search-engine-market-share)
 
 Optimisez d’abord pour Google, puis consultez Bing Webmaster Tools pour des marchés comme le Mexique, où le second moteur est assez important pour justifier une heure de travail supplémentaire. Bing alimente aussi Microsoft Copilot, ce qui renforce son poids.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Un effort orienté d’abord vers Google sur chaque marché hispanophone, puis une vérification de Bing pour des marchés comme le Mexique.">
+<path d="M150 75 L230 35" class="fg-accent"/>
+<path d="M150 75 L230 115" class="fg-dim" stroke-dasharray="4 4"/>
+<rect x="10" y="55" width="140" height="40" rx="6" class="fg-box"/>
+<rect x="230" y="12" width="150" height="46" rx="6" class="fg-hot"/>
+<rect x="230" y="92" width="150" height="46" rx="6" class="fg-box"/>
+<text x="80" y="81" text-anchor="middle" class="fg-strong">Votre effort</text>
+<text x="305" y="32" text-anchor="middle" class="fg-strong">Google</text>
+<text x="305" y="50" text-anchor="middle" class="fg-label">chaque marché</text>
+<text x="305" y="112" text-anchor="middle" class="fg-text">Bing</text>
+<text x="305" y="130" text-anchor="middle" class="fg-label">pour le Mexique</text>
+</svg>
+<figcaption>Google d’abord sur chaque marché. Bing mérite une seconde vérification là où sa part est plus forte, comme au Mexique.</figcaption>
+</figure>
 
 ## Cartographiez vos concurrents pays par pays
 

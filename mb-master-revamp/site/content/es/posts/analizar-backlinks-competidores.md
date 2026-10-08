@@ -42,6 +42,22 @@ Analizar los enlaces del rival equivocado te da una lista de sitios que poco apo
 
 Con BeTranslated, la agencia de traducción que dirigimos, vimos que los blogs especializados ocupaban buena parte de las primeras posiciones en búsquedas de traducción. Ese dato cambió el foco del contacto con editores: empezamos a escribir a editores de contenido lingüístico.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Para una misma búsqueda, tus rivales de negocio venden lo mismo que tú y tus rivales en Google son quienes salen arriba, blogs y medios incluidos.">
+<path d="M145 75 L205 35" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M145 75 L205 115" class="fg-accent"/>
+<rect x="10" y="55" width="135" height="40" rx="6" class="fg-box"/>
+<rect x="205" y="12" width="185" height="46" rx="6" class="fg-box"/>
+<rect x="205" y="92" width="185" height="46" rx="6" class="fg-hot"/>
+<text x="77" y="81" text-anchor="middle" class="fg-strong">Tu búsqueda</text>
+<text x="297" y="32" text-anchor="middle" class="fg-text">Rivales de negocio</text>
+<text x="297" y="50" text-anchor="middle" class="fg-label">venden lo mismo</text>
+<text x="297" y="112" text-anchor="middle" class="fg-strong">Rivales en Google</text>
+<text x="297" y="130" text-anchor="middle" class="fg-label">quien sale arriba</text>
+</svg>
+<figcaption>Analiza los enlaces de quien sale arriba en cada país: son los rivales que compiten por tus búsquedas.</figcaption>
+</figure>
+
 ### Brecha de enlaces: detecta los sitios que ya enlazan a tus rivales
 
 La brecha de enlaces es la lista de sitios que enlazan a tus rivales y todavía a ti no. Es la parte del análisis que se convierte más rápido en contactos concretos, y es la otra cara de [detectar brechas en el tráfico de la competencia](https://mikebastin.com/es/analizar-trafico-web-competencia/).
@@ -90,6 +106,25 @@ Las [herramientas gratuitas](https://mikebastin.com/es/herramientas-gratuitas-an
 
 Un agente de IA ahorra horas en la parte repetitiva: lee el export, agrupa los dominios por tema y marca los que parecen de baja calidad. La decisión de a quién escribir sigue siendo de una persona que conoce el mercado.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 120" role="img" aria-label="Tres pasos: el export de enlaces, un agente de IA que agrupa los dominios y marca los dudosos, y una persona que decide a quién escribir.">
+<line x1="126" y1="60" x2="139" y2="60" class="fg-line"/>
+<path d="M133 55 L139 60 L133 65" class="fg-line"/>
+<line x1="261" y1="60" x2="274" y2="60" class="fg-line"/>
+<path d="M268 55 L274 60 L268 65" class="fg-line"/>
+<rect x="4" y="32" width="122" height="56" rx="6" class="fg-box"/>
+<rect x="139" y="32" width="122" height="56" rx="6" class="fg-box"/>
+<rect x="274" y="32" width="122" height="56" rx="6" class="fg-hot"/>
+<text x="65" y="56" text-anchor="middle" class="fg-text">Export</text>
+<text x="65" y="76" text-anchor="middle" class="fg-label">de enlaces</text>
+<text x="200" y="56" text-anchor="middle" class="fg-text">Agente de IA</text>
+<text x="200" y="76" text-anchor="middle" class="fg-label">agrupa y marca</text>
+<text x="335" y="56" text-anchor="middle" class="fg-strong">Persona</text>
+<text x="335" y="76" text-anchor="middle" class="fg-label">decide a quién</text>
+</svg>
+<figcaption>El agente de IA se encarga de la parte repetitiva, y la persona que conoce el mercado elige a quién escribir.</figcaption>
+</figure>
+
 ## Calidad antes que cantidad: lo que Google valora en un enlace
 
 Un enlace relevante de tu sector y de tu país pesa más que muchos enlaces genéricos, y por eso la calidad decide dónde poner el esfuerzo. Google valora la experiencia, la pericia, la autoridad y la confianza, y tu perfil de enlaces puede reflejar las cuatro:
@@ -100,6 +135,23 @@ Un enlace relevante de tu sector y de tu país pesa más que muchos enlaces gen�
 - **Confianza:** enlaces de webs con un historial limpio.
 
 Para posicionar en España, un enlace de un medio nacional como _El País_ vale más que muchos enlaces de blogs internacionales poco conocidos aquí. Lo mismo vale para Francia o Alemania con sus propios medios.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Un enlace de un medio nacional como El País pesa mucho en tu autoridad en España, y los blogs internacionales poco conocidos aquí pesan poco.">
+<path d="M170 35 L236 75" class="fg-accent"/>
+<path d="M170 115 L236 75" class="fg-dim" stroke-dasharray="4 4"/>
+<rect x="10" y="12" width="160" height="46" rx="6" class="fg-hot"/>
+<rect x="10" y="92" width="160" height="46" rx="6" class="fg-box"/>
+<rect x="236" y="52" width="154" height="46" rx="6" class="fg-box"/>
+<text x="90" y="32" text-anchor="middle" class="fg-strong">Medio nacional</text>
+<text x="90" y="50" text-anchor="middle" class="fg-label">como El País</text>
+<text x="90" y="112" text-anchor="middle" class="fg-text">Blogs extranjeros</text>
+<text x="90" y="130" text-anchor="middle" class="fg-label">poco conocidos aquí</text>
+<text x="313" y="72" text-anchor="middle" class="fg-strong">Tu autoridad</text>
+<text x="313" y="90" text-anchor="middle" class="fg-label">en España</text>
+</svg>
+<figcaption>Para posicionar en un país, la autoridad llega de los medios que la gente de ese país conoce y lee.</figcaption>
+</figure>
 
 Por eso en nuestro [SEO local](https://mikebastin.com/es/services/seo-local/) incluimos siempre un análisis de enlaces regionales: son los que construyen autoridad en ese mercado.
 

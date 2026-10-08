@@ -76,9 +76,42 @@ Hosting decides how fast your pages load in each market; where you rank comes fr
 
 If your site targets several countries, a content delivery network (CDN) serves pages from locations close to each user, which keeps load times low everywhere. Pair it with hreflang and a clear domain structure.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Hreflang and domain structure carry the strongest geotargeting signals, while server location is at most a hint about the intended market.">
+<path d="M170 29 L254 68" class="fg-accent"/>
+<path d="M170 75 L254 75" class="fg-accent"/>
+<path d="M170 121 L254 82" class="fg-dim" stroke-dasharray="4 4"/>
+<rect x="10" y="12" width="160" height="34" rx="6" class="fg-box"/>
+<rect x="10" y="58" width="160" height="34" rx="6" class="fg-box"/>
+<rect x="10" y="104" width="160" height="34" rx="6" class="fg-box"/>
+<rect x="254" y="50" width="136" height="50" rx="6" class="fg-hot"/>
+<text x="90" y="35" text-anchor="middle" class="fg-text">hreflang</text>
+<text x="90" y="81" text-anchor="middle" class="fg-text">Domain structure</text>
+<text x="90" y="127" text-anchor="middle" class="fg-text">Server location</text>
+<text x="322" y="81" text-anchor="middle" class="fg-strong">Right market</text>
+</svg>
+<figcaption>Hreflang and domain structure tell Google which market a page is for; server location adds a hint at most.</figcaption>
+</figure>
+
 ## Keep each language version distinct
 
 Distinct pages let search engines show the version you sell from in each market. Multilingual sites often have near-identical pages, for example English versions for the UK and Ireland, or pages still partly in the source language. Google treats localized versions as duplicates only when the main content stays untranslated, so the work is mostly making each version distinct and clearly labelled.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="A French page whose canonical points to the English page is dropped by Google; a French page whose canonical points to itself is the version Google can show in France.">
+<path d="M158 75 L220 35" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M158 75 L220 115" class="fg-accent"/>
+<rect x="8" y="55" width="150" height="40" rx="6" class="fg-box"/>
+<rect x="220" y="12" width="170" height="46" rx="6" class="fg-box"/>
+<rect x="220" y="92" width="170" height="46" rx="6" class="fg-hot"/>
+<text x="83" y="81" text-anchor="middle" class="fg-text">French page</text>
+<text x="305" y="32" text-anchor="middle" class="fg-text">Canonical to EN</text>
+<text x="305" y="50" text-anchor="middle" class="fg-label">French page dropped</text>
+<text x="305" y="112" text-anchor="middle" class="fg-strong">Self-canonical</text>
+<text x="305" y="130" text-anchor="middle" class="fg-label">French page shown</text>
+</svg>
+<figcaption>Each language version names itself as canonical; a canonical from the French page to the English one tells Google to drop the French page.</figcaption>
+</figure>
 
 - Use hreflang to tie language and regional variants together.
 - Give each version its own URL, [meta tags and headings](/services/technical-seo/).
@@ -87,6 +120,23 @@ Distinct pages let search engines show the version you sell from in each market.
 ## Edit machine translation before it goes live
 
 [Post-editing by a professional linguist](/services/ai-translation-and-post-editing/) turns raw machine translation into text that reads naturally, keeps the context and carries the intent of the original. Search engines may treat thin, machine-generated text as low quality, so edited text protects organic rankings and keeps users reading.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 120" role="img" aria-label="Machine translation reaches a live page in three steps: a raw machine draft, post-editing by a professional linguist, then a page that reads naturally.">
+<path d="M115 60 L145 60" class="fg-line"/>
+<path d="M255 60 L285 60" class="fg-accent"/>
+<rect x="5" y="30" width="110" height="60" rx="6" class="fg-box"/>
+<rect x="145" y="30" width="110" height="60" rx="6" class="fg-box"/>
+<rect x="285" y="30" width="110" height="60" rx="6" class="fg-hot"/>
+<text x="60" y="56" text-anchor="middle" class="fg-strong">Machine</text>
+<text x="60" y="78" text-anchor="middle" class="fg-label">raw draft</text>
+<text x="200" y="56" text-anchor="middle" class="fg-strong">Linguist</text>
+<text x="200" y="78" text-anchor="middle" class="fg-label">post-edits</text>
+<text x="340" y="56" text-anchor="middle" class="fg-strong">Live page</text>
+<text x="340" y="78" text-anchor="middle" class="fg-label">reads well</text>
+</svg>
+<figcaption>A professional linguist edits the raw machine draft before it goes live, so the page reads naturally and carries the original’s intent.</figcaption>
+</figure>
 
 Proper localization adapts content to the language, culture and expectations of each market. Translate and localize:
 

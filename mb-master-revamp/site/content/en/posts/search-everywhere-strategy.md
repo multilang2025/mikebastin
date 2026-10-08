@@ -32,6 +32,25 @@ If your other languages lag behind English, our [multilingual SEO services](/ser
 
 “Zero-click” searches and AI overviews have reshaped the SERP. Today’s buyers start journeys on LinkedIn, refine queries in Perplexity, and validate vendors on G2. Visibility across all three puts you where a B2B shortlist now gets made.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 120" role="img" aria-label="A B2B buying journey across three surfaces: it starts on LinkedIn, is refined in Perplexity and is validated on G2.">
+<line x1="115" y1="60" x2="145" y2="60" class="fg-line"/>
+<path d="M137 55 L145 60 L137 65" class="fg-line"/>
+<line x1="255" y1="60" x2="285" y2="60" class="fg-line"/>
+<path d="M277 55 L285 60 L277 65" class="fg-line"/>
+<rect x="5" y="24" width="110" height="72" rx="6" class="fg-box"/>
+<rect x="145" y="24" width="110" height="72" rx="6" class="fg-box"/>
+<rect x="285" y="24" width="110" height="72" rx="6" class="fg-hot"/>
+<text x="60" y="56" text-anchor="middle" class="fg-text">LinkedIn</text>
+<text x="60" y="78" text-anchor="middle" class="fg-label">start</text>
+<text x="200" y="56" text-anchor="middle" class="fg-text">Perplexity</text>
+<text x="200" y="78" text-anchor="middle" class="fg-label">refine</text>
+<text x="340" y="56" text-anchor="middle" class="fg-text">G2</text>
+<text x="340" y="78" text-anchor="middle" class="fg-label">validate</text>
+</svg>
+<figcaption>One buying journey crosses three surfaces, and visibility on each one puts you where the shortlist gets made.</figcaption>
+</figure>
+
 Modern search delivers answers. Success now depends on becoming the “source of truth” behind those answers. Build **entity-based content clusters** that demonstrate deep topical authority across all digital surfaces.
 
 ### Where buyers search in 2026
@@ -46,6 +65,18 @@ Modern search delivers answers. Success now depends on becoming the “source of
 ## Get recommended by AI assistants with GEO
 
 When an AI assistant recommends three suppliers, the buyer usually picks from those three. GEO shapes your content for AI models that synthesise answers.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="A funnel from every supplier in the market, to the three an AI assistant recommends, to the one the buyer picks from those three.">
+<rect x="30" y="8" width="340" height="44" rx="6" class="fg-box"/>
+<rect x="70" y="58" width="260" height="44" rx="6" class="fg-box"/>
+<rect x="100" y="108" width="200" height="44" rx="6" class="fg-hot"/>
+<text x="200" y="35" text-anchor="middle" class="fg-text">Every supplier</text>
+<text x="200" y="85" text-anchor="middle" class="fg-text">AI shortlist of three</text>
+<text x="200" y="135" text-anchor="middle" class="fg-strong">Buyer’s choice</text>
+</svg>
+<figcaption>The shortlist forms inside the AI answer, so GEO aims for a place among the three names it recommends.</figcaption>
+</figure>
 
 To be cited by ChatGPT or Perplexity, your content must be machine-readable, fact-dense, and structured for easy extraction. See our [GEO framework](/services/generative-engine-optimization/) for implementation guidance.
 
@@ -88,6 +119,22 @@ Implement FAQPage, Organization, and Product schema so AI models like Gemini can
 As [Go Fish Digital](https://gofishdigital.com/blog/generative-engine-optimization-agencies/) argues, structured data is the backbone of modern search.
 
 Format affects extraction: tables and bullet points outperform dense paragraphs, with AI and human readers alike.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="The same facts in two formats: buried in a dense paragraph, or laid out in tables and lists that AI and human readers quote cleanly.">
+<path d="M150 75 L230 35" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M150 75 L230 115" class="fg-accent"/>
+<rect x="20" y="55" width="130" height="40" rx="6" class="fg-box"/>
+<rect x="230" y="12" width="150" height="46" rx="6" class="fg-box"/>
+<rect x="230" y="92" width="150" height="46" rx="6" class="fg-hot"/>
+<text x="85" y="81" text-anchor="middle" class="fg-strong">Same facts</text>
+<text x="305" y="32" text-anchor="middle" class="fg-text">Dense paragraph</text>
+<text x="305" y="50" text-anchor="middle" class="fg-label">facts buried</text>
+<text x="305" y="112" text-anchor="middle" class="fg-strong">Tables and lists</text>
+<text x="305" y="130" text-anchor="middle" class="fg-label">quoted cleanly</text>
+</svg>
+<figcaption>Lay the facts out in tables and lists, and AI models and human readers both pick them up as written.</figcaption>
+</figure>
 
 Our working rule: explicit data points get picked up more reliably than statistics inside narrative, and schema earns its place when it validates, because valid schema tells a machine the page describes itself accurately.
 

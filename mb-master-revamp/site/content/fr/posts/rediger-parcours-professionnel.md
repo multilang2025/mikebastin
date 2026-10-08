@@ -98,6 +98,22 @@ Listez les postes dans l’ordre antichronologique, le plus récent en premier. 
 
 « Chargé de » dit au lecteur ce que vous deviez faire. Un verbe et un résultat lui disent ce que vous avez fait. Employez des verbes comme « piloté », « développé », « augmenté » ou « optimisé », et associez chacun à un résultat mesuré.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 130" role="img" aria-label="Avant et après : « Chargé de » énumère des missions ; un verbe associé à un résultat montre ce que vous avez fait.">
+<path d="M192 65 L206 65" class="fg-line"/>
+<path d="M201 60 L206 65 L201 70" class="fg-line"/>
+<rect x="10" y="30" width="180" height="70" rx="6" class="fg-box"/>
+<rect x="210" y="30" width="180" height="70" rx="6" class="fg-hot"/>
+<text x="100" y="20" text-anchor="middle" class="fg-label">Avant</text>
+<text x="300" y="20" text-anchor="middle" class="fg-label">Après</text>
+<text x="100" y="62" text-anchor="middle" class="fg-text">Chargé de</text>
+<text x="100" y="84" text-anchor="middle" class="fg-label">missions listées</text>
+<text x="300" y="62" text-anchor="middle" class="fg-strong">Verbe, résultat</text>
+<text x="300" y="84" text-anchor="middle" class="fg-label">ce que vous avez fait</text>
+</svg>
+<figcaption>Remplacez la mission par l’action : un verbe et un résultat mesuré montrent au lecteur ce que vous avez fait.</figcaption>
+</figure>
+
 Transformez « Chargé du SEO » en « Pilotage des actions SEO qui ont augmenté le trafic organique de [X] % en six mois ».
 
 ### Expliquez une interruption de carrière (le cas échéant)
@@ -146,6 +162,26 @@ Un parcours rédigé pour un poste convainc le lecteur de ce poste. Adaptez-le �
 
 Pour un poste en marketing de contenu, mettez en avant le SEO, l’analyse et votre capacité à bâtir une [stratégie de contenu ciblée](/fr/strategie-de-contenu-ciblee/). Pour un poste de spécialiste SEO, commencez par le [SEO technique des sites multilingues](/fr/services/seo-technique/), la recherche de mots-clés et les audits de site.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Un même parcours adapté de trois façons : pour un poste en contenu, pour un poste technique et pour un client.">
+<path d="M200 50 L70 102" class="fg-line"/>
+<path d="M200 50 L200 102" class="fg-line"/>
+<path d="M200 50 L330 102" class="fg-line"/>
+<rect x="115" y="10" width="170" height="40" rx="6" class="fg-hot"/>
+<rect x="7" y="102" width="126" height="46" rx="6" class="fg-box"/>
+<rect x="137" y="102" width="126" height="46" rx="6" class="fg-box"/>
+<rect x="267" y="102" width="126" height="46" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-strong">Votre parcours</text>
+<text x="70" y="122" text-anchor="middle" class="fg-text">Contenu</text>
+<text x="70" y="140" text-anchor="middle" class="fg-label">SEO, analyse</text>
+<text x="200" y="122" text-anchor="middle" class="fg-text">Technique</text>
+<text x="200" y="140" text-anchor="middle" class="fg-label">audits de site</text>
+<text x="330" y="122" text-anchor="middle" class="fg-text">Client</text>
+<text x="330" y="140" text-anchor="middle" class="fg-label">son problème</text>
+</svg>
+<figcaption>La même expérience, présentée autrement pour chaque lecteur : SEO et analyse pour le contenu, audits de site pour le technique, son problème pour un client.</figcaption>
+</figure>
+
 -   Pour un poste orienté contenu : « Conception de stratégies de contenu pilotées par le SEO, alignées sur le message de la marque et les attentes du public, avec un engagement en hausse de [X] %. »
 -   Pour un poste en SEO technique : « Spécialiste des audits de site, de la recherche de mots-clés et de l’optimisation on-page, avec [X] mots-clés très concurrentiels amenés en première page. »
 
@@ -168,6 +204,25 @@ Employez des mots que le lecteur comprend tout de suite. Gardez les postes et le
 Un texte soigné protège un parcours solide, car un lecteur qui juge votre souci du détail remarque d’abord les détails.
 
 Passez votre texte dans Antidote ou LanguageTool, puis relisez-le vous-même plusieurs fois. Demandez à un collègue ou à un mentor de confiance de le relire : un second lecteur découvre le texte d’un œil neuf et repère où l’argument demande à être étoffé.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 120" role="img" aria-label="Trois relectures : un correcteur comme Antidote, plusieurs lectures par vous-même, puis un collègue d’un œil neuf.">
+<path d="M125 60 L138 60" class="fg-line"/>
+<path d="M133 55 L138 60 L133 65" class="fg-line"/>
+<path d="M260 60 L273 60" class="fg-line"/>
+<path d="M268 55 L273 60 L268 65" class="fg-line"/>
+<rect x="5" y="35" width="120" height="50" rx="6" class="fg-box"/>
+<rect x="140" y="35" width="120" height="50" rx="6" class="fg-box"/>
+<rect x="275" y="35" width="120" height="50" rx="6" class="fg-hot"/>
+<text x="65" y="57" text-anchor="middle" class="fg-strong">Correcteur</text>
+<text x="65" y="76" text-anchor="middle" class="fg-label">Antidote</text>
+<text x="200" y="57" text-anchor="middle" class="fg-strong">Vous</text>
+<text x="200" y="76" text-anchor="middle" class="fg-label">relectures</text>
+<text x="335" y="57" text-anchor="middle" class="fg-strong">Collègue</text>
+<text x="335" y="76" text-anchor="middle" class="fg-label">œil neuf</text>
+</svg>
+<figcaption>Trois relectures, chacune d’un œil plus neuf : le correcteur, vous, puis un collègue qui repère où l’argument demande plus.</figcaption>
+</figure>
 
 ## Traitez votre parcours comme une page de vente
 

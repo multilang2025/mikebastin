@@ -46,6 +46,22 @@ El reparto regional pesa mucho en un plan de enlaces. Un enlace de un medio regi
 
 La relevancia local gana al DR puro en búsquedas como _abogado herencia Valencia_ o _agencia inmobiliaria Costa Blanca_.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Para una búsqueda local en Valencia, un enlace de un medio valenciano pesa más que uno de un medio de Madrid con un Domain Rating parecido.">
+<path d="M165 75 L220 35" class="fg-accent"/>
+<path d="M165 75 L220 115" class="fg-dim" stroke-dasharray="4 4"/>
+<rect x="10" y="55" width="155" height="40" rx="6" class="fg-box"/>
+<rect x="220" y="12" width="170" height="46" rx="6" class="fg-hot"/>
+<rect x="220" y="92" width="170" height="46" rx="6" class="fg-box"/>
+<text x="87" y="81" text-anchor="middle" class="fg-strong">Búsqueda local</text>
+<text x="305" y="32" text-anchor="middle" class="fg-text">Medio de Valencia</text>
+<text x="305" y="50" text-anchor="middle" class="fg-label">relevancia local</text>
+<text x="305" y="112" text-anchor="middle" class="fg-text">Medio de Madrid</text>
+<text x="305" y="130" text-anchor="middle" class="fg-label">DR parecido</text>
+</svg>
+<figcaption>Con un DR parecido, la relevancia local decide. En búsquedas como «abogado herencia Valencia», el enlace del medio valenciano es el que más empuja.</figcaption>
+</figure>
+
 ### Las cuatro tácticas a las que siempre volvemos
 
 Casi todo lo que nos funciona en proyectos españoles cabe en cuatro bloques, y cada uno aporta un tipo de enlace distinto.
@@ -108,11 +124,50 @@ Va más rápido cuando la relación ya existe, y más despacio si agosto o el fi
 
 Un ritmo constante de enlaces editoriales, mes a mes, es la señal de un programa sano. Un salto repentino de decenas de enlaces .es en pocas semanas merece una revisión de su origen.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 162" role="img" aria-label="Dos ritmos de enlaces: uno constante, mes a mes, propio de un programa sano, y un salto repentino en pocas semanas que merece revisar su origen.">
+<line x1="20" y1="110" x2="180" y2="110" class="fg-rule"/>
+<line x1="220" y1="110" x2="380" y2="110" class="fg-rule"/>
+<rect x="28" y="70" width="16" height="40" class="fg-fill-accent"/>
+<rect x="52" y="70" width="16" height="40" class="fg-fill-accent"/>
+<rect x="76" y="70" width="16" height="40" class="fg-fill-accent"/>
+<rect x="100" y="70" width="16" height="40" class="fg-fill-accent"/>
+<rect x="124" y="70" width="16" height="40" class="fg-fill-accent"/>
+<rect x="148" y="70" width="16" height="40" class="fg-fill-accent"/>
+<rect x="228" y="102" width="16" height="8" class="fg-fill"/>
+<rect x="252" y="102" width="16" height="8" class="fg-fill"/>
+<rect x="276" y="102" width="16" height="8" class="fg-fill"/>
+<rect x="300" y="102" width="16" height="8" class="fg-fill"/>
+<rect x="324" y="102" width="16" height="8" class="fg-fill"/>
+<rect x="348" y="22" width="16" height="88" class="fg-fill"/>
+<text x="100" y="134" text-anchor="middle" class="fg-strong">Ritmo constante</text>
+<text x="100" y="154" text-anchor="middle" class="fg-label">programa sano</text>
+<text x="300" y="134" text-anchor="middle" class="fg-text">Salto repentino</text>
+<text x="300" y="154" text-anchor="middle" class="fg-label">revisa su origen</text>
+</svg>
+<figcaption>Un ritmo constante de enlaces editoriales, mes a mes, es la señal de un programa sano. Ante un salto repentino, revisa de dónde vienen esos enlaces.</figcaption>
+</figure>
+
 ## Suma los enlaces a tu contenido y a tus palabras clave
 
 Los enlaces rinden más cuando la página que los recibe está bien escrita para su mercado. El trabajo de enlaces en España va junto a una buena investigación de palabras clave en español, contenido pensado para el usuario español y un plan que respete las diferencias regionales.
 
 Un enlace de El Español rinde de verdad en una página de destino bien escrita en español, y una página bien escrita despega cuando crecen sus dominios de referencia. Las dos mitades funcionan juntas, en España y en cada mercado extranjero.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Los enlaces de medios españoles y una página bien escrita en español se refuerzan entre sí: las dos mitades rinden juntas en cada mercado.">
+<path d="M180 34 L240 75" class="fg-accent"/>
+<path d="M180 116 L240 75" class="fg-accent"/>
+<rect x="10" y="14" width="170" height="40" rx="6" class="fg-box"/>
+<rect x="10" y="96" width="170" height="40" rx="6" class="fg-box"/>
+<rect x="240" y="52" width="150" height="46" rx="6" class="fg-hot"/>
+<text x="95" y="39" text-anchor="middle" class="fg-text">Enlaces .es</text>
+<text x="95" y="121" text-anchor="middle" class="fg-text">Página en español</text>
+<text x="315" y="72" text-anchor="middle" class="fg-strong">Rinden juntas</text>
+<text x="315" y="90" text-anchor="middle" class="fg-label">en cada mercado</text>
+</svg>
+<figcaption>Un enlace de El Español rinde de verdad en una página bien escrita en español, y esa página despega cuando crecen sus dominios de referencia.</figcaption>
+</figure>
 
 ## Pide una segunda opinión sobre tu plan de enlaces
 

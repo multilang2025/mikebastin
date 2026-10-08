@@ -81,6 +81,23 @@ Auditez les pages existantes au regard de la carte. Là où une page manque, cr�
 **Suivre et ajuster.**  
 Suivez l’engagement, les taux de clic et les conversions. Les signaux d’intention évoluent, en particulier depuis que les AI Overviews changent ce qui s’affiche en haut des résultats.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="La cartographie en quatre étapes : rechercher, analyser ce qui se positionne, classer par intention et aligner le contenu, avec une boucle de retour pour suivre et ajuster.">
+<path d="M350 92 L350 118 L50 118 L50 92" class="fg-dim" stroke-dasharray="4 4"/>
+<line x1="50" y1="32" x2="350" y2="32" class="fg-rule"/>
+<circle cx="50" cy="32" r="16" class="fg-box"/>
+<circle cx="150" cy="32" r="16" class="fg-box"/>
+<circle cx="250" cy="32" r="16" class="fg-box"/>
+<circle cx="350" cy="32" r="16" class="fg-hot"/>
+<text x="50" y="72" text-anchor="middle" class="fg-text">Recherche</text>
+<text x="150" y="72" text-anchor="middle" class="fg-text">Analyse</text>
+<text x="250" y="72" text-anchor="middle" class="fg-text">Classement</text>
+<text x="350" y="72" text-anchor="middle" class="fg-text">Alignement</text>
+<text x="200" y="140" text-anchor="middle" class="fg-label">suivre et ajuster</text>
+</svg>
+<figcaption>Le suivi boucle la démarche : quand les signaux d’intention évoluent, la carte repart de la recherche et les pages suivent.</figcaption>
+</figure>
+
 <aside class="post-cta">
 <p><strong>Du trafic qui arrive et des demandes de contact à en tirer ?</strong> La <a href="/fr/services/seo-technique/">recherche de mots-clés</a> que nous menons lit la façon dont vos acheteurs décrivent leur problème, comparent les solutions et signalent leur intention d’achat, puis classe le travail par étape de décision. <a href="/fr/nous-contacter/">Réservez un premier échange gratuit</a>.</p>
 </aside>
@@ -115,6 +132,24 @@ Là où les personnes gardent la main :
 
 Servez-vous de l’IA pour faire ressortir des schémas, produire de premiers jets et valider la classification de l’intention, puis appliquez le jugement humain à la qualité éditoriale, au positionnement et aux nuances culturelles. Notre page sur le [passage du SEO au GEO](/fr/seo-au-geo/) détaille la place de l’IA dans un flux de travail SEO.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="L’IA fait ressortir les schémas, classe l’intention et produit les premiers jets, puis les personnes prennent le relais pour la voix de marque, l’expérience de première main et la justesse culturelle.">
+<path d="M185 75 L215 75" class="fg-accent"/>
+<path d="M208 70 L215 75 L208 80" class="fg-accent"/>
+<rect x="15" y="15" width="170" height="120" rx="6" class="fg-box"/>
+<rect x="215" y="15" width="170" height="120" rx="6" class="fg-hot"/>
+<text x="100" y="45" text-anchor="middle" class="fg-strong">IA</text>
+<text x="100" y="75" text-anchor="middle" class="fg-label">schémas</text>
+<text x="100" y="97" text-anchor="middle" class="fg-label">classification</text>
+<text x="100" y="119" text-anchor="middle" class="fg-label">premiers jets</text>
+<text x="300" y="45" text-anchor="middle" class="fg-strong">Personnes</text>
+<text x="300" y="75" text-anchor="middle" class="fg-label">voix de marque</text>
+<text x="300" y="97" text-anchor="middle" class="fg-label">expérience</text>
+<text x="300" y="119" text-anchor="middle" class="fg-label">justesse culturelle</text>
+</svg>
+<figcaption>L’IA fait ressortir les tendances rapidement ; le jugement humain en tire des pages qui parlent avec la voix de votre marque.</figcaption>
+</figure>
+
 ## Cherchez l’intention dans chaque marché
 
 Faites la recherche de mots-clés dans le marché lui-même et vous trouvez l’expression que les gens emploient pour acheter : la page se positionne et les ventes suivent. Une traduction littérale du mot-clé français donne un point de départ ; la page de résultats de chaque marché dit quelle intention il porte réellement.
@@ -126,6 +161,22 @@ Trois vérifications à faire marché par marché :
 -   **« Nachhaltig » et « umweltfreundlich » :** deux termes allemands liés à la durabilité, qui peuvent déclencher des pages très différentes ; le terme qui fait apparaître des fiches produits porte l’intention commerciale
 
 La recherche menée par des locuteurs natifs relève ces différences, et nos [bonnes pratiques du SEO multilingue](/fr/bonnes-pratiques-seo-multilingue/) montrent comment les traduire en pages. Une [recherche de mots-clés multilingue](/fr/services/seo-technique/) efficace s’appuie sur des locuteurs natifs, une analyse des pages de résultats région par région et une compréhension des comportements d’achat locaux.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="La même requête, « meilleur smartphone », fait ressortir des comparatifs marchands dans un pays et des tests éditoriaux détaillés dans un autre.">
+<path d="M150 75 L225 35" class="fg-line"/>
+<path d="M150 75 L225 115" class="fg-accent"/>
+<rect x="15" y="55" width="135" height="40" rx="6" class="fg-box"/>
+<rect x="225" y="12" width="165" height="46" rx="6" class="fg-box"/>
+<rect x="225" y="92" width="165" height="46" rx="6" class="fg-hot"/>
+<text x="82" y="81" text-anchor="middle" class="fg-strong">Même requête</text>
+<text x="307" y="32" text-anchor="middle" class="fg-text">Un pays</text>
+<text x="307" y="50" text-anchor="middle" class="fg-label">comparatifs</text>
+<text x="307" y="112" text-anchor="middle" class="fg-strong">Un autre pays</text>
+<text x="307" y="130" text-anchor="middle" class="fg-label">tests éditoriaux</text>
+</svg>
+<figcaption>Une requête, deux marchés, deux types de page : la page de résultats de chaque pays indique le format à produire.</figcaption>
+</figure>
 
 <aside class="post-cta">
 <p><strong>Des mots-clés recherchés dans chaque langue ?</strong> Notre <a href="/fr/services/referencement-multilingue/">référencement multilingue</a> donne à chaque langue sa propre stratégie, ses mots-clés et des textes écrits par des natifs, avec un rapport mensuel des demandes reçues par marché. <a href="/fr/nous-contacter/">Réservez une consultation gratuite</a>.</p>

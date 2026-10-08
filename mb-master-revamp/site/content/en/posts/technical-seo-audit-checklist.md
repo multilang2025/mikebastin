@@ -234,6 +234,24 @@ One page per search gives that page the full strength. When the same content liv
 
 If `yourdomain.com/page` and `yourdomain.com/page?ref=twitter` show the same content, both should declare `yourdomain.com/page` as canonical.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Three URLs with the same content, one with www, one with a trailing slash and one with a tracking parameter, all declaring one canonical version.">
+<path d="M170 27 L235 80" class="fg-line"/>
+<path d="M170 80 L235 80" class="fg-line"/>
+<path d="M170 133 L235 80" class="fg-line"/>
+<rect x="10" y="10" width="160" height="34" rx="6" class="fg-box"/>
+<rect x="10" y="63" width="160" height="34" rx="6" class="fg-box"/>
+<rect x="10" y="116" width="160" height="34" rx="6" class="fg-box"/>
+<rect x="235" y="56" width="150" height="48" rx="6" class="fg-hot"/>
+<text x="90" y="33" text-anchor="middle" class="fg-text">www.site/page</text>
+<text x="90" y="86" text-anchor="middle" class="fg-text">site/page/</text>
+<text x="90" y="139" text-anchor="middle" class="fg-text">site/page?ref=</text>
+<text x="310" y="76" text-anchor="middle" class="fg-strong">Canonical</text>
+<text x="310" y="95" text-anchor="middle" class="fg-label">site/page</text>
+</svg>
+<figcaption>Every variant names the same canonical, so the one indexed page gets the full strength of all three.</figcaption>
+</figure>
+
 Google removed the URL Parameters tool from Search Console in April 2022, so parameter handling now happens on the site itself: canonical tags on parameter URLs, consistent internal links, and robots.txt rules for parameters to keep out of the crawl, such as session IDs:
 
 ```
@@ -263,6 +281,22 @@ Every working link keeps a visitor who is already interested.
 | 5xx server error | Server misconfiguration or overload | Check server logs, fix the error, upgrade hosting if it recurs |
 
 Crawl with Screaming Frog, check the Page indexing report in Search Console, and use a link checker such as Dead Link Checker for outbound links. A custom 404 page with search and popular links keeps visitors moving when a URL has gone.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="A 404 page that still has links or traffic gets a 301 redirect to the closest relevant page; a 404 page of little value can stay gone or return 410.">
+<path d="M150 75 L230 35" class="fg-accent"/>
+<path d="M150 75 L230 115" class="fg-dim" stroke-dasharray="4 4"/>
+<rect x="15" y="55" width="135" height="40" rx="6" class="fg-box"/>
+<rect x="230" y="12" width="150" height="46" rx="6" class="fg-hot"/>
+<rect x="230" y="92" width="150" height="46" rx="6" class="fg-box"/>
+<text x="82" y="81" text-anchor="middle" class="fg-strong">404 page</text>
+<text x="305" y="32" text-anchor="middle" class="fg-strong">Has links</text>
+<text x="305" y="50" text-anchor="middle" class="fg-label">301 redirect</text>
+<text x="305" y="112" text-anchor="middle" class="fg-text">Little value</text>
+<text x="305" y="130" text-anchor="middle" class="fg-label">leave or 410</text>
+</svg>
+<figcaption>A dead URL that still earns links or traffic passes its visitors on through a 301 to the closest relevant page.</figcaption>
+</figure>
 
 ## Metadata and image SEO
 
@@ -298,6 +332,26 @@ With the right tags, a French visitor lands on your French page. Multilingual an
 ```
 
 Search Console's International Targeting report and its country setting were removed in 2022. Country targeting now comes from hreflang, a country-code domain such as `.co.uk` where that suits the business, and local signals in the content itself. Our guide to [technical SEO for multilingual websites](/blog/technical-seo-for-multilingual-websites/) covers the setup in detail.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="One page with three hreflang versions: en-us for the US, en-gb for the UK and x-default for every other visitor.">
+<path d="M200 50 L70 102" class="fg-line"/>
+<path d="M200 50 L200 102" class="fg-line"/>
+<path d="M200 50 L330 102" class="fg-line"/>
+<rect x="135" y="10" width="130" height="40" rx="6" class="fg-hot"/>
+<rect x="15" y="102" width="110" height="46" rx="6" class="fg-box"/>
+<rect x="145" y="102" width="110" height="46" rx="6" class="fg-box"/>
+<rect x="275" y="102" width="110" height="46" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-strong">One page</text>
+<text x="70" y="122" text-anchor="middle" class="fg-text">en-us</text>
+<text x="70" y="140" text-anchor="middle" class="fg-label">US</text>
+<text x="200" y="122" text-anchor="middle" class="fg-text">en-gb</text>
+<text x="200" y="140" text-anchor="middle" class="fg-label">UK</text>
+<text x="330" y="122" text-anchor="middle" class="fg-text">x-default</text>
+<text x="330" y="140" text-anchor="middle" class="fg-label">all others</text>
+</svg>
+<figcaption>Each version lists the others and itself, so Google serves the US page in the US and the UK page in the UK.</figcaption>
+</figure>
 
 <aside class="post-cta">
 <p><strong>Want French visitors landing on your French pages?</strong> Our <a href="/services/technical-seo/">technical SEO for multilingual websites</a> finds out whether your language versions add up, and fixes whatever keeps them apart. <a href="/contact/">Book the discovery call</a>.</p>

@@ -31,6 +31,22 @@ Mesurez la réussite à la fidélité autant qu’aux vues et aux clics, et l’
 
 Tout se mesure en vues, en clics, en taux de conversion et en rétention. Cordaro veut que la réussite se lise aussi dans le lien émotionnel, qui a donné de la valeur au travail des créateurs dès le départ : pour lui, les outils doivent amplifier les relations.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="La réussite lue de deux façons : les chiffres, comme les vues et les clics, et le récit, la fidélité et le lien émotionnel qui les portent.">
+<path d="M150 75 L220 35" class="fg-dim"/>
+<path d="M150 75 L220 115" class="fg-accent"/>
+<rect x="20" y="55" width="130" height="40" rx="6" class="fg-box"/>
+<rect x="220" y="12" width="165" height="46" rx="6" class="fg-box"/>
+<rect x="220" y="92" width="165" height="46" rx="6" class="fg-hot"/>
+<text x="85" y="81" text-anchor="middle" class="fg-strong">Réussite</text>
+<text x="302" y="32" text-anchor="middle" class="fg-text">Chiffres</text>
+<text x="302" y="50" text-anchor="middle" class="fg-label">vues et clics</text>
+<text x="302" y="112" text-anchor="middle" class="fg-strong">Récit</text>
+<text x="302" y="130" text-anchor="middle" class="fg-label">fidélité et lien</text>
+</svg>
+<figcaption>Cordaro garde les chiffres et y ajoute le récit : la fidélité et le lien émotionnel ont donné sa valeur au travail des créateurs dès le départ.</figcaption>
+</figure>
+
 | | Économie des créateurs centrée sur la plateforme | Économie des créateurs centrée sur l’humain |
 |---|---|---|
 | **Mesure de la réussite** | Indicateurs de vanité, portée | Fidélité, stabilité |
@@ -46,6 +62,26 @@ Tout se mesure en vues, en clics, en taux de conversion et en rétention. Cordar
 ## Bonzai : une vision plus humaine de la technologie
 
 Cordaro a voulu bâtir une plateforme sur laquelle les créateurs restent par choix : un environnement à leur service.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Bonzai au centre, qui réunit en un seul endroit les contenus, les produits, les abonnés et l’audience d’un créateur.">
+<path d="M200 80 L75 30" class="fg-line"/>
+<path d="M200 80 L325 30" class="fg-line"/>
+<path d="M200 80 L75 130" class="fg-line"/>
+<path d="M200 80 L325 130" class="fg-line"/>
+<rect x="10" y="10" width="130" height="40" rx="6" class="fg-box"/>
+<rect x="260" y="10" width="130" height="40" rx="6" class="fg-box"/>
+<rect x="10" y="110" width="130" height="40" rx="6" class="fg-box"/>
+<rect x="260" y="110" width="130" height="40" rx="6" class="fg-box"/>
+<rect x="140" y="60" width="120" height="40" rx="6" class="fg-hot"/>
+<text x="200" y="86" text-anchor="middle" class="fg-strong">Bonzai</text>
+<text x="75" y="36" text-anchor="middle" class="fg-text">Contenus</text>
+<text x="325" y="36" text-anchor="middle" class="fg-text">Produits</text>
+<text x="75" y="136" text-anchor="middle" class="fg-text">Abonnés</text>
+<text x="325" y="136" text-anchor="middle" class="fg-text">Audience</text>
+</svg>
+<figcaption>Un seul lieu pour toute l’activité créative : contenus, produits, abonnés et audience y vivent ensemble, à des conditions ouvertes et claires pour le créateur.</figcaption>
+</figure>
 
 Bonzai réunit en un seul endroit les contenus, les produits, les abonnés et l’audience d’un créateur, à des conditions ouvertes. Les utilisateurs possèdent leurs données, comprennent leurs revenus et restent libres de partir quand ils le souhaitent. La vision repose sur trois principes :
 
@@ -114,6 +150,24 @@ Dans beaucoup de régions émergentes, les créateurs grandissent plus vite dès
 Le créateur de demain, tel que le voit Jean Marie Cordaro, est une petite entreprise à part entière : un média indépendant, un pédagogue, un passeur et un propriétaire animé d’un objectif. Pour tenir ce rôle, les créateurs ont besoin d’outils éthiques, transparents et qui leur donnent du pouvoir.
 
 Il imagine une économie où les créateurs possèdent leurs données et leurs revenus, où la transparence est la norme, et où la technologie soutient la créativité pendant que le créateur la dirige. La performance attire l’attention et les algorithmes amplifient la portée ; la fidélité et la confiance naissent de la relation.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 170" role="img" aria-label="Le créateur de demain, une petite entreprise aux quatre rôles : média indépendant, pédagogue, passeur et propriétaire animé d’un objectif.">
+<rect x="10" y="10" width="185" height="70" rx="6" class="fg-box"/>
+<rect x="205" y="10" width="185" height="70" rx="6" class="fg-box"/>
+<rect x="10" y="90" width="185" height="70" rx="6" class="fg-box"/>
+<rect x="205" y="90" width="185" height="70" rx="6" class="fg-hot"/>
+<text x="102.5" y="40" text-anchor="middle" class="fg-text">Média</text>
+<text x="102.5" y="60" text-anchor="middle" class="fg-label">indépendant</text>
+<text x="297.5" y="40" text-anchor="middle" class="fg-text">Pédagogue</text>
+<text x="297.5" y="60" text-anchor="middle" class="fg-label">transmet un savoir</text>
+<text x="102.5" y="120" text-anchor="middle" class="fg-text">Passeur</text>
+<text x="102.5" y="140" text-anchor="middle" class="fg-label">relie les gens</text>
+<text x="297.5" y="120" text-anchor="middle" class="fg-text">Propriétaire</text>
+<text x="297.5" y="140" text-anchor="middle" class="fg-label">animé d’un objectif</text>
+</svg>
+<figcaption>Le créateur de demain est une petite entreprise à part entière, qui tient quatre rôles à la fois, avec la propriété en son cœur.</figcaption>
+</figure>
 
 ## Concilier l’humain et la technologie
 

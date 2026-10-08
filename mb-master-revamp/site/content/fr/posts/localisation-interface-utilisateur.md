@@ -25,6 +25,26 @@ Pour une entreprise française, belge, suisse ou luxembourgeoise qui vend en All
 
 La localisation de l’interface adapte les textes, les images, la mise en page et le comportement à la langue, à la culture et aux exigences légales de chaque marché. Elle couvre donc aussi les formats de date, les champs de devise et les mentions réglementaires, là où un réglage juste protège l’entreprise.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Une interface localisée apporte trois bénéfices : la portée dans de nouveaux pays, des actions clés plus faciles pour la conversion, et une confiance qui fidélise.">
+<path d="M200 50 L67 102" class="fg-line"/>
+<path d="M200 50 L200 102" class="fg-line"/>
+<path d="M200 50 L333 102" class="fg-line"/>
+<rect x="105" y="10" width="190" height="40" rx="6" class="fg-hot"/>
+<rect x="4" y="102" width="126" height="46" rx="6" class="fg-box"/>
+<rect x="137" y="102" width="126" height="46" rx="6" class="fg-box"/>
+<rect x="270" y="102" width="126" height="46" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-text">Interface localisée</text>
+<text x="67" y="122" text-anchor="middle" class="fg-text">Portée</text>
+<text x="67" y="140" text-anchor="middle" class="fg-label">nouveaux pays</text>
+<text x="200" y="122" text-anchor="middle" class="fg-text">Conversion</text>
+<text x="200" y="140" text-anchor="middle" class="fg-label">actions clés</text>
+<text x="333" y="122" text-anchor="middle" class="fg-text">Confiance</text>
+<text x="333" y="140" text-anchor="middle" class="fg-label">fidélité</text>
+</svg>
+<figcaption>Portée, conversion et confiance se jouent toutes dans l’interface, là où l’utilisateur décide si le produit est fait pour lui.</figcaption>
+</figure>
+
 Les bénéfices tiennent en trois points :
 
 - **Portée de marché.** Les utilisateurs des nouvelles régions se servent du produit dans leur langue, de l’inscription au support.
@@ -68,7 +88,24 @@ Les dates suivent la même logique : le 2 octobre 2026 s’écrit 02/10/2026 en
 
 ## Cinq habitudes qui maintiennent le coût bas
 
-L’essentiel du coût se décide avant la traduction de la première chaîne. Cinq habitudes le maintiennent bas :
+L’essentiel du coût se décide avant la traduction de la première chaîne. Cinq habitudes le maintiennent bas.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 120" role="img" aria-label="Trois des habitudes, dans l’ordre : planifier la localisation dès le design, confier la traduction à des professionnels, puis tester avec des utilisateurs locaux.">
+<path d="M125 60 L140 60" class="fg-line"/>
+<path d="M260 60 L275 60" class="fg-accent"/>
+<rect x="5" y="30" width="120" height="60" rx="6" class="fg-box"/>
+<rect x="140" y="30" width="120" height="60" rx="6" class="fg-box"/>
+<rect x="275" y="30" width="120" height="60" rx="6" class="fg-hot"/>
+<text x="65" y="56" text-anchor="middle" class="fg-strong">Planifier</text>
+<text x="65" y="78" text-anchor="middle" class="fg-label">dès le départ</text>
+<text x="200" y="56" text-anchor="middle" class="fg-strong">Traduire</text>
+<text x="200" y="78" text-anchor="middle" class="fg-label">par un humain</text>
+<text x="335" y="56" text-anchor="middle" class="fg-strong">Tester</text>
+<text x="335" y="78" text-anchor="middle" class="fg-label">sur le marché</text>
+</svg>
+<figcaption>La planification en amont et le test avec des utilisateurs locaux encadrent la traduction, ce qui maintient bas le coût de chaque nouveau marché.</figcaption>
+</figure>
 
 - **Planifier dès le départ.** Intégrez la localisation au processus de design, pour que les mises en page et les fonctions accueillent chaque langue à son arrivée.
 - **Tester avec une pseudo-localisation.** Avant toute traduction, un texte fictif, allongé et accentué remplit l’interface et montre d’emblée chaque libellé qui déborde.
@@ -90,7 +127,23 @@ Les bons outils gardent toutes les langues au même rythme, y compris quand le p
 
 ## Trois défis fréquents et leur solution
 
-Trois défis reviennent régulièrement, et chacun a sa solution connue :
+Trois défis reviennent régulièrement, et chacun a sa solution connue.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Une même chaîne d’interface arrive au traducteur de deux façons : seule, avec une fonction floue, ou accompagnée de captures d’écran et de notes qui montrent le contexte.">
+<path d="M150 75 L230 35" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M150 75 L230 115" class="fg-accent"/>
+<rect x="15" y="55" width="135" height="40" rx="6" class="fg-box"/>
+<rect x="230" y="12" width="150" height="46" rx="6" class="fg-box"/>
+<rect x="230" y="92" width="150" height="46" rx="6" class="fg-hot"/>
+<text x="82.5" y="81" text-anchor="middle" class="fg-strong">Une chaîne</text>
+<text x="305" y="32" text-anchor="middle" class="fg-text">Chaîne seule</text>
+<text x="305" y="50" text-anchor="middle" class="fg-label">fonction floue</text>
+<text x="305" y="112" text-anchor="middle" class="fg-strong">En contexte</text>
+<text x="305" y="130" text-anchor="middle" class="fg-label">captures, notes</text>
+</svg>
+<figcaption>Consignes, captures d’écran et notes pour chaque élément d’interface montrent au traducteur le rôle de chaque chaîne, ce qui évite les contresens.</figcaption>
+</figure>
 
 | Défi | Cause | Solution |
 |---|---|---|

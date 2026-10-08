@@ -25,6 +25,23 @@ Vous trouverez ci-dessous ce qui a changé côté assistants en 2026, la façon 
 
 Les assistants vocaux reposent désormais sur les mêmes modèles d’IA que les réponses écrites. Un contenu optimisé pour la voix sert donc aussi ChatGPT, Gemini et les AI Overviews de Google, ce qui double la valeur du travail.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Un même contenu optimisé pour la voix sert les assistants vocaux, ChatGPT et les AI Overviews de Google, car tous reposent sur les mêmes modèles d’IA.">
+<path d="M200 50 L68 100" class="fg-line"/>
+<path d="M200 50 L200 100" class="fg-line"/>
+<path d="M200 50 L332 100" class="fg-line"/>
+<rect x="125" y="10" width="150" height="40" rx="6" class="fg-hot"/>
+<rect x="6" y="100" width="124" height="40" rx="6" class="fg-box"/>
+<rect x="138" y="100" width="124" height="40" rx="6" class="fg-box"/>
+<rect x="270" y="100" width="124" height="40" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-strong">Votre contenu</text>
+<text x="68" y="126" text-anchor="middle" class="fg-text">Assistants</text>
+<text x="200" y="126" text-anchor="middle" class="fg-text">ChatGPT</text>
+<text x="332" y="126" text-anchor="middle" class="fg-text">AI Overviews</text>
+</svg>
+<figcaption>Les assistants vocaux et les réponses écrites puisent dans les mêmes modèles : le travail fait pour la voix sert aussi l’écrit.</figcaption>
+</figure>
+
 - **Google** : sur les téléphones Android, Gemini a remplacé Google Assistant à partir du 4 septembre 2026 ; les enceintes Nest conservent Assistant pour l’instant ([Android Headlines, septembre 2026](https://www.androidheadlines.com/2026/09/google-assistant-killed-android-gemini.html)).
 - **Apple** : Apple a confirmé en janvier 2026 que les modèles Gemini de Google alimenteraient la prochaine génération de Siri ([MacRumors, 12 janvier 2026](https://www.macrumors.com/2026/01/12/google-gemini-next-generation-siri/)).
 - **Amazon** : Alexa+, la version d’Alexa fondée sur l’IA générative, est arrivée en France en accès anticipé le 26 mai 2026, avec des modèles de Mistral AI pour le français ([Journal du Geek, 26 mai 2026](https://www.journaldugeek.com/2026/05/26/amazon-lance-alexa-en-france-prix-date-ce-que-lia-change-vraiment-pour-vous/)).
@@ -60,6 +77,25 @@ D’autres exemples, tels que les assistants les reçoivent chaque jour :
 - « Quelles sont les règles du tri sélectif à Marseille ? »
 
 Rédigez vos titres et vos premiers paragraphes à partir de ces questions, puis répondez-y dans la phrase qui suit. L’agence [Natural-Net](https://www.natural-net.fr/blog-agence-web/2024/11/13/la-recherche-vocale-en-2025-maitrisez-les-nouvelles-interactions-avec-l-internet-de-demain.html) détaille ces nouvelles interactions pour le marché français.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 112" role="img" aria-label="Une question posée à l’oral devient le titre de la page, et la réponse arrive dans la phrase qui suit.">
+<line x1="118" y1="40" x2="145" y2="40" class="fg-line"/>
+<path d="M139 35 L145 40 L139 45" class="fg-line"/>
+<line x1="255" y1="40" x2="282" y2="40" class="fg-line"/>
+<path d="M276 35 L282 40 L276 45" class="fg-line"/>
+<rect x="8" y="18" width="110" height="44" rx="6" class="fg-box"/>
+<rect x="145" y="18" width="110" height="44" rx="6" class="fg-box"/>
+<rect x="282" y="18" width="110" height="44" rx="6" class="fg-hot"/>
+<text x="63" y="46" text-anchor="middle" class="fg-text">Question</text>
+<text x="200" y="46" text-anchor="middle" class="fg-text">Titre</text>
+<text x="337" y="46" text-anchor="middle" class="fg-strong">Réponse</text>
+<text x="63" y="92" text-anchor="middle" class="fg-label">posée à l’oral</text>
+<text x="200" y="92" text-anchor="middle" class="fg-label">qui la reprend</text>
+<text x="337" y="92" text-anchor="middle" class="fg-label">phrase suivante</text>
+</svg>
+<figcaption>Le titre reprend la question telle qu’elle se prononce, et la phrase suivante y répond : l’assistant peut alors lire la page telle quelle.</figcaption>
+</figure>
 
 <aside class="post-cta">
 <p><strong>Vous voulez être la réponse que l’assistant lit dans chaque ville où vous vendez ?</strong> Notre <a href="/fr/services/referencement-local/">référencement local</a> travaille votre fiche Google Business Profile, vos pages par ville et vos avis, dans la langue de vos clients. <a href="/fr/nous-contacter/">Réserver un premier échange</a>.</p>
@@ -132,6 +168,20 @@ Google a retiré les résultats enrichis FAQ de ses pages de résultats le 7 mai
 ## Réglez vos pages pour qu’un assistant les lise d’un trait
 
 Ces réglages transforment un contenu bien écrit en réponse que l’assistant peut lire d’un trait.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 164" role="img" aria-label="Un contenu bien écrit, réglé avec les balises Schema, une mise en page mobile et des coordonnées identiques partout, devient une réponse que l’assistant lit d’un trait.">
+<path d="M200 48 L200 62" class="fg-dim"/>
+<path d="M200 102 L200 116" class="fg-accent"/>
+<rect x="90" y="8" width="220" height="40" rx="6" class="fg-box"/>
+<rect x="40" y="62" width="320" height="40" rx="6" class="fg-box"/>
+<rect x="60" y="116" width="280" height="40" rx="6" class="fg-hot"/>
+<text x="200" y="34" text-anchor="middle" class="fg-text">Contenu bien écrit</text>
+<text x="200" y="88" text-anchor="middle" class="fg-text">Schema, mobile, coordonnées</text>
+<text x="200" y="142" text-anchor="middle" class="fg-strong">Lu d’un trait</text>
+</svg>
+<figcaption>Les réglages techniques transforment un bon texte en réponse prête à être lue à voix haute.</figcaption>
+</figure>
 
 - Travaillez des mots-clés de longue traîne formulés en langage conversationnel, sur une base technique saine : c’est le rôle de notre [SEO technique pour sites multilingues](/fr/services/seo-technique/).
 - Adoptez une approche mobile d’abord, avec des mises en page adaptatives et une [localisation de site web](/fr/services/localisation-de-site-web/) qui respecte les formats de chaque marché.

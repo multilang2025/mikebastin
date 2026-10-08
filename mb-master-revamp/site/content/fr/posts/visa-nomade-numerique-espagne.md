@@ -83,6 +83,26 @@ Pour être éligible, vous devez remplir **trois conditions clés** :
 > **Source** :  
 > [UGE, Télétravailleurs internationaux (conditions détaillées)](https://www.inclusion.gob.es/web/unidadgrandesempresas/teletrabajadores)
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 170" role="img" aria-label="Trois conditions d’éligibilité au visa : une qualification par diplôme ou expérience, une entreprise active depuis un an et une relation professionnelle établie trois mois avant la demande.">
+<path d="M140 85 L190 29" class="fg-line"/>
+<path d="M140 85 L190 85" class="fg-line"/>
+<path d="M140 85 L190 141" class="fg-line"/>
+<rect x="10" y="60" width="130" height="50" rx="6" class="fg-hot"/>
+<rect x="190" y="6" width="200" height="46" rx="6" class="fg-box"/>
+<rect x="190" y="62" width="200" height="46" rx="6" class="fg-box"/>
+<rect x="190" y="118" width="200" height="46" rx="6" class="fg-box"/>
+<text x="75" y="91" text-anchor="middle" class="fg-strong">Éligibilité</text>
+<text x="290" y="26" text-anchor="middle" class="fg-text">Qualification</text>
+<text x="290" y="44" text-anchor="middle" class="fg-label">diplôme ou expérience</text>
+<text x="290" y="82" text-anchor="middle" class="fg-text">Entreprise</text>
+<text x="290" y="100" text-anchor="middle" class="fg-label">active depuis un an</text>
+<text x="290" y="138" text-anchor="middle" class="fg-text">Relation</text>
+<text x="290" y="156" text-anchor="middle" class="fg-label">trois mois avant</text>
+</svg>
+<figcaption>Les trois conditions se cumulent : votre dossier les démontre toutes, pièces à l’appui.</figcaption>
+</figure>
+
 * * *
 
 ## 4\. Rassemblez les documents à fournir
@@ -135,6 +155,22 @@ Deux options s’offrent à vous :
 > **Source** :  
 > [Procédures UGE pour télétravailleurs](https://www.inclusion.gob.es/web/unidadgrandesempresas/teletrabajadores)
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Deux voies pour déposer la demande : au consulat espagnol si vous êtes à l’étranger, ou auprès de l’UGE si vous résidez déjà en Espagne.">
+<path d="M140 75 L180 33" class="fg-line"/>
+<path d="M140 75 L180 117" class="fg-line"/>
+<rect x="10" y="55" width="130" height="40" rx="6" class="fg-hot"/>
+<rect x="180" y="10" width="210" height="46" rx="6" class="fg-box"/>
+<rect x="180" y="94" width="210" height="46" rx="6" class="fg-box"/>
+<text x="75" y="80" text-anchor="middle" class="fg-text">Votre dossier</text>
+<text x="285" y="30" text-anchor="middle" class="fg-strong">Consulat</text>
+<text x="285" y="48" text-anchor="middle" class="fg-label">si vous êtes à l’étranger</text>
+<text x="285" y="114" text-anchor="middle" class="fg-strong">UGE</text>
+<text x="285" y="132" text-anchor="middle" class="fg-label">si vous êtes en Espagne</text>
+</svg>
+<figcaption>Le lieu où vous vous trouvez au moment du dépôt fixe la voie : un visa au consulat, ou une autorisation de résidence auprès de l’UGE.</figcaption>
+</figure>
+
 * * *
 
 ## 6\. Régime fiscal Beckham : pour qui et comment ?
@@ -148,6 +184,22 @@ Le **régime fiscal impatrié** (ou _Beckham law_) permet de bénéficier d’un
 > 
 > -   [Agencia Tributaria, Régime spécial impatriés](https://sede.agenciatributaria.gob.es/Sede/irpf/tengo-que-presentar-declaracion/regimen-fiscal-aplicable-trabajadores-desplazados/regimen-especial.html)
 > -   [Modelo 149 (option Beckham law)](https://sede.agenciatributaria.gob.es/Sede/procedimientoini/G606.shtml)
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 120" role="img" aria-label="Le régime Beckham en trois étapes : votre arrivée en Espagne, l’option déposée via le Modelo 149, puis l’imposition au taux réduit du régime.">
+<line x1="70" y1="36" x2="330" y2="36" class="fg-rule"/>
+<circle cx="70" cy="36" r="26" class="fg-box"/>
+<circle cx="200" cy="36" r="26" class="fg-box"/>
+<circle cx="330" cy="36" r="26" class="fg-hot"/>
+<text x="70" y="42" text-anchor="middle" class="fg-strong">1</text>
+<text x="200" y="42" text-anchor="middle" class="fg-strong">2</text>
+<text x="330" y="42" text-anchor="middle" class="fg-strong">3</text>
+<text x="70" y="94" text-anchor="middle" class="fg-text">Arrivée</text>
+<text x="200" y="94" text-anchor="middle" class="fg-text">Modelo 149</text>
+<text x="330" y="94" text-anchor="middle" class="fg-text">Taux réduit</text>
+</svg>
+<figcaption>Le régime Beckham s’active par une démarche distincte du visa : l’option Modelo 149, déposée après votre arrivée.</figcaption>
+</figure>
 
 * * *
 

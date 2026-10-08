@@ -31,6 +31,22 @@ Mide el éxito por la fidelidad además de por las visualizaciones y los clics, 
 
 Todo se mide en visualizaciones, clics, tasas de conversión y retención. Cordaro quiere que el éxito se lea también en el vínculo emocional, que dio valor al trabajo de los creadores desde el principio: para él, las herramientas deben amplificar las relaciones.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="El éxito leído de dos maneras: las cifras, como las vistas y los clics, y el relato, la fidelidad y el vínculo emocional que hay detrás.">
+<path d="M150 75 L220 35" class="fg-dim"/>
+<path d="M150 75 L220 115" class="fg-accent"/>
+<rect x="20" y="55" width="130" height="40" rx="6" class="fg-box"/>
+<rect x="220" y="12" width="165" height="46" rx="6" class="fg-box"/>
+<rect x="220" y="92" width="165" height="46" rx="6" class="fg-hot"/>
+<text x="85" y="81" text-anchor="middle" class="fg-strong">Éxito</text>
+<text x="302" y="32" text-anchor="middle" class="fg-text">Cifras</text>
+<text x="302" y="50" text-anchor="middle" class="fg-label">vistas y clics</text>
+<text x="302" y="112" text-anchor="middle" class="fg-strong">Relato</text>
+<text x="302" y="130" text-anchor="middle" class="fg-label">fidelidad y vínculo</text>
+</svg>
+<figcaption>Cordaro conserva las cifras y suma el relato: la fidelidad y el vínculo emocional dieron valor al trabajo de los creadores desde el principio.</figcaption>
+</figure>
+
 | | Economía de los creadores centrada en la plataforma | Economía de los creadores centrada en las personas |
 |---|---|---|
 | **Medida del éxito** | Métricas de vanidad, alcance | Fidelidad, estabilidad |
@@ -46,6 +62,26 @@ Todo se mide en visualizaciones, clics, tasas de conversión y retención. Corda
 ## Bonzai: una visión más humana de la tecnología
 
 Cordaro se propuso crear una plataforma en la que los creadores se quedan porque quieren: un entorno a su servicio.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Bonzai en el centro, reuniendo en un solo lugar el contenido, los productos, los suscriptores y la audiencia de un creador.">
+<path d="M200 80 L75 30" class="fg-line"/>
+<path d="M200 80 L325 30" class="fg-line"/>
+<path d="M200 80 L75 130" class="fg-line"/>
+<path d="M200 80 L325 130" class="fg-line"/>
+<rect x="10" y="10" width="130" height="40" rx="6" class="fg-box"/>
+<rect x="260" y="10" width="130" height="40" rx="6" class="fg-box"/>
+<rect x="10" y="110" width="130" height="40" rx="6" class="fg-box"/>
+<rect x="260" y="110" width="130" height="40" rx="6" class="fg-box"/>
+<rect x="140" y="60" width="120" height="40" rx="6" class="fg-hot"/>
+<text x="200" y="86" text-anchor="middle" class="fg-strong">Bonzai</text>
+<text x="75" y="36" text-anchor="middle" class="fg-text">Contenido</text>
+<text x="325" y="36" text-anchor="middle" class="fg-text">Productos</text>
+<text x="75" y="136" text-anchor="middle" class="fg-text">Suscriptores</text>
+<text x="325" y="136" text-anchor="middle" class="fg-text">Audiencia</text>
+</svg>
+<figcaption>Un solo lugar para todo el negocio creativo: contenido, productos, suscriptores y audiencia conviven en condiciones abiertas que el creador entiende.</figcaption>
+</figure>
 
 Bonzai reúne en un solo lugar el contenido, los productos, los suscriptores y la audiencia de un creador, en condiciones abiertas. Los usuarios son dueños de sus datos, entienden sus ingresos y son libres de irse cuando quieran. La visión se apoya en tres principios:
 
@@ -114,6 +150,24 @@ En muchas regiones emergentes, los creadores crecen más rápido en cuanto caen 
 El creador de mañana, tal como lo ve Jean Marie Cordaro, es una pequeña empresa en sí mismo: un medio independiente, un educador, un conector y un propietario con propósito. Para cumplir ese papel, los creadores necesitan herramientas éticas, transparentes y que les den poder.
 
 Imagina una economía en la que los creadores son dueños de sus datos y sus ingresos, la transparencia es la norma y la tecnología apoya la creatividad mientras el creador la dirige. El rendimiento atrae la atención y los algoritmos amplían el alcance; la fidelidad y la confianza nacen de la relación.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 170" role="img" aria-label="El creador de mañana como pequeña empresa con cuatro papeles: medio independiente, educador, conector y propietario con propósito.">
+<rect x="10" y="10" width="185" height="70" rx="6" class="fg-box"/>
+<rect x="205" y="10" width="185" height="70" rx="6" class="fg-box"/>
+<rect x="10" y="90" width="185" height="70" rx="6" class="fg-box"/>
+<rect x="205" y="90" width="185" height="70" rx="6" class="fg-hot"/>
+<text x="102.5" y="40" text-anchor="middle" class="fg-text">Medio</text>
+<text x="102.5" y="60" text-anchor="middle" class="fg-label">independiente</text>
+<text x="297.5" y="40" text-anchor="middle" class="fg-text">Educador</text>
+<text x="297.5" y="60" text-anchor="middle" class="fg-label">comparte conocimiento</text>
+<text x="102.5" y="120" text-anchor="middle" class="fg-text">Conector</text>
+<text x="102.5" y="140" text-anchor="middle" class="fg-label">une a las personas</text>
+<text x="297.5" y="120" text-anchor="middle" class="fg-text">Propietario</text>
+<text x="297.5" y="140" text-anchor="middle" class="fg-label">con propósito</text>
+</svg>
+<figcaption>El creador de mañana es una pequeña empresa en sí mismo, con cuatro papeles a la vez y la propiedad en el centro.</figcaption>
+</figure>
 
 ## Construye sobre un terreno propio
 

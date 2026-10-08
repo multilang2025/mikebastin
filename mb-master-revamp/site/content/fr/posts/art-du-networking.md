@@ -33,11 +33,47 @@ Votre temps est compté : choisissez les canaux qui correspondent à votre obje
 
 Conférences, webinaires et ateliers donnent l’accès le plus direct aux profils seniors. Si l’Espagne fait partie de vos marchés, notre guide des [salons B2B de Valencia](https://valenciamove.com/blog/b2b-trade-shows-valencia/) recense des événements qui valent une journée hors du bureau. Les canaux en ligne récompensent la régularité : un commentaire réfléchi sur LinkedIn peut ouvrir une conversation avec quelqu’un à Munich, et une présence régulière dans une seule communauté Slack rapporte davantage que des passages occasionnels dans dix.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Le temps passé en ligne, de deux façons : des passages occasionnels dans dix communautés, ou une présence régulière dans une seule, celle qui rapporte.">
+<path d="M140 75 L210 35" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M140 75 L210 115" class="fg-accent"/>
+<rect x="10" y="55" width="130" height="40" rx="6" class="fg-box"/>
+<rect x="210" y="12" width="180" height="46" rx="6" class="fg-box"/>
+<rect x="210" y="92" width="180" height="46" rx="6" class="fg-hot"/>
+<text x="75" y="81" text-anchor="middle" class="fg-strong">En ligne</text>
+<text x="300" y="32" text-anchor="middle" class="fg-text">Dix communautés</text>
+<text x="300" y="50" text-anchor="middle" class="fg-label">passages occasionnels</text>
+<text x="300" y="112" text-anchor="middle" class="fg-strong">Une communauté</text>
+<text x="300" y="130" text-anchor="middle" class="fg-label">présence régulière</text>
+</svg>
+<figcaption>Les canaux en ligne récompensent la régularité : une présence régulière dans une seule communauté rapporte davantage que des passages occasionnels dans dix.</figcaption>
+</figure>
+
 Meetup convient aux petits groupes locaux réunis autour d’un intérêt, Eventbrite aux conférences et ateliers plus importants. Une fois que vous connaissez un groupe, pensez à organiser vous-même un événement : l’organisateur rencontre tout le monde.
 
 ## Construire une image personnelle dont les gens se souviennent
 
 Les gens vous cherchent en ligne avant de vous répondre, et ce qu’ils trouvent décide si la conversation a lieu.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Trois éléments d’une image personnelle façonnent ce que les gens trouvent en vous cherchant : un profil LinkedIn qui raconte votre parcours, un site personnel où vous fixez les règles et une voix qui partage des avis utiles.">
+<path d="M200 50 L70 102" class="fg-line"/>
+<path d="M200 50 L200 102" class="fg-line"/>
+<path d="M200 50 L330 102" class="fg-line"/>
+<rect x="120" y="10" width="160" height="40" rx="6" class="fg-hot"/>
+<rect x="8" y="102" width="124" height="46" rx="6" class="fg-box"/>
+<rect x="138" y="102" width="124" height="46" rx="6" class="fg-box"/>
+<rect x="268" y="102" width="124" height="46" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-strong">Votre image</text>
+<text x="70" y="122" text-anchor="middle" class="fg-text">LinkedIn</text>
+<text x="70" y="140" text-anchor="middle" class="fg-label">votre récit</text>
+<text x="200" y="122" text-anchor="middle" class="fg-text">Site</text>
+<text x="200" y="140" text-anchor="middle" class="fg-label">vos règles</text>
+<text x="330" y="122" text-anchor="middle" class="fg-text">Voix</text>
+<text x="330" y="140" text-anchor="middle" class="fg-label">vos avis</text>
+</svg>
+<figcaption>Les gens vous cherchent avant de répondre, et trois éléments façonnent ce qu’ils trouvent.</figcaption>
+</figure>
 
 ### Un profil LinkedIn qui raconte une histoire
 
@@ -124,6 +160,18 @@ Certains messages reçoivent une réponse et certaines connexions mènent quelqu
 ## Entretenez vos relations sur la durée
 
 Vingt contacts LinkedIn qui prendraient votre appel valent davantage que mille qui feraient seulement défiler votre nom. Échangez régulièrement par des commentaires, des partages et des messages. Les personnes qui vous aideront le plus dans cinq ans sont souvent celles avec qui vous êtes resté en contact simplement pour garder le lien.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Un entonnoir qui va de tous vos contacts à ceux avec qui vous gardez le lien, puis aux personnes qui vous aideront le plus dans cinq ans.">
+<rect x="30" y="10" width="340" height="36" rx="6" class="fg-box"/>
+<rect x="70" y="56" width="260" height="36" rx="6" class="fg-box"/>
+<rect x="110" y="102" width="180" height="36" rx="6" class="fg-hot"/>
+<text x="200" y="34" text-anchor="middle" class="fg-text">Tous vos contacts</text>
+<text x="200" y="80" text-anchor="middle" class="fg-text">Liens entretenus</text>
+<text x="200" y="126" text-anchor="middle" class="fg-strong">Ceux qui aident</text>
+</svg>
+<figcaption>Des échanges réguliers transforment une longue liste de contacts en quelques personnes qui vous aideront le plus, souvent des années plus tard.</figcaption>
+</figure>
 
 ## Par où commencer cette semaine
 

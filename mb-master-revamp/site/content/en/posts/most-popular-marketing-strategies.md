@@ -75,6 +75,26 @@ A localized page tells a buyer you wrote for them. Localized content fits the au
 
 Set up well, language versions add up. Hreflang tags tell search engines which language and country version of a page to show to which user. A region-specific domain strategy, such as country-code top-level domains (ccTLDs), can strengthen rankings in target markets. Our guide to [technical SEO for multilingual websites](/blog/technical-seo-for-multilingual-websites/) covers the setup.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Hreflang tags tell search engines which language version of a page to show to each user: English, French or Spanish.">
+<path d="M200 50 L70 102" class="fg-line"/>
+<path d="M200 50 L200 102" class="fg-line"/>
+<path d="M200 50 L330 102" class="fg-line"/>
+<rect x="120" y="10" width="160" height="40" rx="6" class="fg-hot"/>
+<rect x="8" y="102" width="124" height="46" rx="6" class="fg-box"/>
+<rect x="138" y="102" width="124" height="46" rx="6" class="fg-box"/>
+<rect x="268" y="102" width="124" height="46" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-strong">hreflang</text>
+<text x="70" y="122" text-anchor="middle" class="fg-text">English</text>
+<text x="70" y="140" text-anchor="middle" class="fg-label">en</text>
+<text x="200" y="122" text-anchor="middle" class="fg-text">French</text>
+<text x="200" y="140" text-anchor="middle" class="fg-label">fr</text>
+<text x="330" y="122" text-anchor="middle" class="fg-text">Spanish</text>
+<text x="330" y="140" text-anchor="middle" class="fg-label">es</text>
+</svg>
+<figcaption>Hreflang sends each searcher to the version written in their language, so the language versions add up.</figcaption>
+</figure>
+
 ## Pay-per-click advertising (PPC) to test demand in a new market
 
 PPC shows quickly whether a new market wants what you sell, reaching buyers by location, language and demographic from day one.
@@ -91,6 +111,24 @@ Ads work when they sound local. Translate the copy and adapt it with [multilingu
 
 Start with small test campaigns in each new market, then watch click-through rate (CTR), conversion rate and return on investment (ROI) before scaling. Our guide to [running a French PPC campaign](/blog/french-ppc-campaign/) walks through one market in detail.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Three measures from a small test campaign, click-through rate, conversion rate and return on investment, decide when to scale the budget in a new market.">
+<path d="M160 35 L280 72" class="fg-line"/>
+<path d="M160 80 L280 80" class="fg-line"/>
+<path d="M160 125 L280 88" class="fg-line"/>
+<rect x="10" y="20" width="150" height="30" rx="6" class="fg-box"/>
+<rect x="10" y="65" width="150" height="30" rx="6" class="fg-box"/>
+<rect x="10" y="110" width="150" height="30" rx="6" class="fg-box"/>
+<circle cx="330" cy="80" r="50" class="fg-hot"/>
+<text x="85" y="40" text-anchor="middle" class="fg-text">CTR</text>
+<text x="85" y="85" text-anchor="middle" class="fg-text">Conversion rate</text>
+<text x="85" y="130" text-anchor="middle" class="fg-text">ROI</text>
+<text x="330" y="78" text-anchor="middle" class="fg-strong">Scale</text>
+<text x="330" y="98" text-anchor="middle" class="fg-label">the budget</text>
+</svg>
+<figcaption>Each new market starts with a small test, and its CTR, conversion rate and ROI decide when to scale.</figcaption>
+</figure>
+
 <aside class="post-cta">
 <p><strong>Testing a new market and want to see which country each lead comes from?</strong> Our <a href="/services/lead-generation/">B2B lead generation services</a> run search per market and count every enquiry against the market that earned it. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
@@ -98,6 +136,27 @@ Start with small test campaigns in each new market, then watch click-through rat
 ## Social media marketing on the platforms each country uses
 
 Social media reaches a new audience quickly, if you are on the platforms that market uses, and those vary widely by country. Facebook, Instagram and LinkedIn dominate in Western markets; WeChat is essential in China, and WhatsApp is widely used for business in Latin America. Research the platforms first.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Social platforms by market: Facebook and Instagram in Western markets, WeChat in China and WhatsApp for business in Latin America.">
+<path d="M160 28 L200 28" class="fg-line"/>
+<path d="M160 80 L200 80" class="fg-line"/>
+<path d="M160 132 L200 132" class="fg-line"/>
+<rect x="10" y="10" width="150" height="36" rx="6" class="fg-box"/>
+<rect x="10" y="62" width="150" height="36" rx="6" class="fg-box"/>
+<rect x="10" y="114" width="150" height="36" rx="6" class="fg-box"/>
+<rect x="200" y="10" width="190" height="36" rx="6" class="fg-box"/>
+<rect x="200" y="62" width="190" height="36" rx="6" class="fg-box"/>
+<rect x="200" y="114" width="190" height="36" rx="6" class="fg-box"/>
+<text x="85" y="33" text-anchor="middle" class="fg-text">Western markets</text>
+<text x="295" y="33" text-anchor="middle" class="fg-text">Facebook, Instagram</text>
+<text x="85" y="85" text-anchor="middle" class="fg-text">China</text>
+<text x="295" y="85" text-anchor="middle" class="fg-text">WeChat</text>
+<text x="85" y="137" text-anchor="middle" class="fg-text">Latin America</text>
+<text x="295" y="137" text-anchor="middle" class="fg-text">WhatsApp</text>
+</svg>
+<figcaption>Each market has its own platforms, so the research comes before the first post.</figcaption>
+</figure>
 
 **Localized engagement.** Reply to local followers in their language, address region-specific concerns, and adapt tone to cultural preferences.
 

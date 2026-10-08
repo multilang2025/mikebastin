@@ -50,6 +50,26 @@ A buyer who recognises local references keeps reading as a buyer. As Vera Conten
 
 Holidays, shopping seasons and buying habits differ between Madrid, Mexico City and Buenos Aires, and content built around them reads as local, on top of the quality of the Spanish.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="One language, three audiences: Spanish-speaking buyers in Madrid, Mexico City and Buenos Aires, each with their own holidays, shopping seasons and buying habits.">
+<path d="M200 50 L70 102" class="fg-line"/>
+<path d="M200 50 L200 102" class="fg-line"/>
+<path d="M200 50 L330 102" class="fg-line"/>
+<rect x="135" y="10" width="130" height="40" rx="6" class="fg-hot"/>
+<rect x="8" y="102" width="124" height="46" rx="6" class="fg-box"/>
+<rect x="138" y="102" width="124" height="46" rx="6" class="fg-box"/>
+<rect x="268" y="102" width="124" height="46" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-strong">Spanish</text>
+<text x="70" y="122" text-anchor="middle" class="fg-text">Madrid</text>
+<text x="70" y="140" text-anchor="middle" class="fg-label">own holidays</text>
+<text x="200" y="122" text-anchor="middle" class="fg-text">Mexico City</text>
+<text x="200" y="140" text-anchor="middle" class="fg-label">own seasons</text>
+<text x="330" y="122" text-anchor="middle" class="fg-text">Buenos Aires</text>
+<text x="330" y="140" text-anchor="middle" class="fg-label">own habits</text>
+</svg>
+<figcaption>One language, three calendars. Content built around each city's holidays and buying habits reads as local.</figcaption>
+</figure>
+
 <aside class="post-cta">
 <p><strong>Want to know which Spanish your site is actually written for?</strong> Every <a href="/services/spanish-seo/">Spanish SEO engagement</a> we run starts by deciding which Spanish comes first: Spain, one Latin American country, or both. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
@@ -61,6 +81,24 @@ Get the technical set-up right and Google shows your Mexican page to a searcher 
 ## Answer the questions Spanish buyers ask
 
 Localized content answers the questions Spanish buyers ask, which differ from your English buyers' questions. Effective Spanish SEO adapts tone, style and even the topics themselves to [suit local preferences](/services/website-localisation/) and search intent.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Tone, style and topics all adapted toward one goal: answering the questions local Spanish buyers ask.">
+<path d="M125 27 L235 75" class="fg-line"/>
+<path d="M125 75 L235 75" class="fg-line"/>
+<path d="M125 123 L235 75" class="fg-line"/>
+<rect x="15" y="10" width="110" height="34" rx="6" class="fg-box"/>
+<rect x="15" y="58" width="110" height="34" rx="6" class="fg-box"/>
+<rect x="15" y="106" width="110" height="34" rx="6" class="fg-box"/>
+<rect x="235" y="52" width="150" height="46" rx="6" class="fg-hot"/>
+<text x="70" y="33" text-anchor="middle" class="fg-text">Tone</text>
+<text x="70" y="81" text-anchor="middle" class="fg-text">Style</text>
+<text x="70" y="129" text-anchor="middle" class="fg-text">Topics</text>
+<text x="310" y="72" text-anchor="middle" class="fg-strong">Local buyers</text>
+<text x="310" y="90" text-anchor="middle" class="fg-label">their questions</text>
+</svg>
+<figcaption>Tone, style and topics each move toward the buyer. Localized content answers the questions buyers in that market ask.</figcaption>
+</figure>
 
 ## Start with the size of the audience
 
@@ -85,6 +123,22 @@ Where your buyers search decides where your effort goes. Google dominates across
 > Source: [StatCounter Global Stats, search engine market share for Spain, Argentina, Colombia and Mexico, August 2026](https://gs.statcounter.com/search-engine-market-share)
 
 Optimize for Google first, then check Bing Webmaster Tools for markets such as Mexico, where the second engine is big enough to be worth the extra hour. Bing also powers Microsoft Copilot, which adds to its weight.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Effort weighted toward Google in every Spanish-speaking market, with a second check of Bing for markets such as Mexico.">
+<path d="M150 75 L230 35" class="fg-accent"/>
+<path d="M150 75 L230 115" class="fg-dim" stroke-dasharray="4 4"/>
+<rect x="10" y="55" width="140" height="40" rx="6" class="fg-box"/>
+<rect x="230" y="12" width="150" height="46" rx="6" class="fg-hot"/>
+<rect x="230" y="92" width="150" height="46" rx="6" class="fg-box"/>
+<text x="80" y="81" text-anchor="middle" class="fg-strong">Your effort</text>
+<text x="305" y="32" text-anchor="middle" class="fg-strong">Google</text>
+<text x="305" y="50" text-anchor="middle" class="fg-label">every market</text>
+<text x="305" y="112" text-anchor="middle" class="fg-text">Bing</text>
+<text x="305" y="130" text-anchor="middle" class="fg-label">for Mexico</text>
+</svg>
+<figcaption>Google comes first in every market. Bing earns a second check where its share is larger, as in Mexico.</figcaption>
+</figure>
 
 ## Know who you compete with in each market
 

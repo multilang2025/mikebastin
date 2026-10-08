@@ -89,6 +89,22 @@ Hoy la web del despacho trabaja en sus cuatro idiomas: el SEO con criterio jurí
 
 Un expatriado británico busca un «solicitor»; un estadounidense, un «attorney». Escribe para los dos y cada uno te encontrará. Planificamos contenido que cubre esas variantes, con cada término donde el lector lo espera.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Una misma búsqueda de abogado, dos palabras para decirlo: el expatriado británico teclea solicitor y el estadounidense, attorney.">
+<path d="M150 75 L220 35" class="fg-line"/>
+<path d="M150 75 L220 115" class="fg-line"/>
+<rect x="20" y="55" width="130" height="40" rx="6" class="fg-hot"/>
+<rect x="220" y="12" width="165" height="46" rx="6" class="fg-box"/>
+<rect x="220" y="92" width="165" height="46" rx="6" class="fg-box"/>
+<text x="85" y="81" text-anchor="middle" class="fg-strong">Un abogado</text>
+<text x="302" y="32" text-anchor="middle" class="fg-text">Británico</text>
+<text x="302" y="50" text-anchor="middle" class="fg-label">«solicitor»</text>
+<text x="302" y="112" text-anchor="middle" class="fg-text">Estadounidense</text>
+<text x="302" y="130" text-anchor="middle" class="fg-label">«attorney»</text>
+</svg>
+<figcaption>Escribe para las dos palabras y cada lector encuentra el despacho, con cada término donde ese lector lo espera.</figcaption>
+</figure>
+
 | Público | Qué busca | Ejemplos de búsquedas |
 | --- | --- | --- |
 | Reino Unido | solicitor, legal practitioner | «solicitors in Valencia», «legal practitioner Spain» |
@@ -117,6 +133,23 @@ La metadescripción es tu discurso de ascensor. Ponemos delante el valor y la ll
 ## SEO local que hace sonar el teléfono
 
 Cuando un cliente busca un abogado cerca, la ficha del mapa suele decidir quién recibe la llamada. Configura y afina tu Perfil de Empresa de Google con datos exactos, reseñas y servicios, dentro de un [SEO local para cada ciudad](/es/services/seo-local/). Incluye señales de ubicación en tus contenidos y metadatos para reflejar las zonas que atiendes. En Valencia, la ficha de un despacho recibe búsquedas en castellano y en inglés, así que la descripción y las respuestas a las reseñas rinden más escritas en cada uno de esos idiomas.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Tres elementos alimentan el paquete local: datos exactos en la ficha, reseñas y señales locales en el contenido de la web.">
+<path d="M180 28 L310 80" class="fg-line"/>
+<path d="M180 80 L310 80" class="fg-line"/>
+<path d="M180 132 L310 80" class="fg-line"/>
+<rect x="10" y="10" width="170" height="36" rx="6" class="fg-box"/>
+<rect x="10" y="62" width="170" height="36" rx="6" class="fg-box"/>
+<rect x="10" y="114" width="170" height="36" rx="6" class="fg-box"/>
+<circle cx="310" cy="80" r="72" class="fg-hot"/>
+<text x="95" y="33" text-anchor="middle" class="fg-text">Datos exactos</text>
+<text x="95" y="85" text-anchor="middle" class="fg-text">Reseñas</text>
+<text x="95" y="137" text-anchor="middle" class="fg-text">Señales locales</text>
+<text x="310" y="86" text-anchor="middle" class="fg-strong">Paquete local</text>
+</svg>
+<figcaption>La ficha del mapa se nutre de los tres a la vez: un Perfil de Empresa de Google completo, reseñas constantes y señales de ubicación en toda la web.</figcaption>
+</figure>
 
 Anima a tus clientes a dejar reseñas en Google y en plataformas jurídicas de prestigio. Las reseñas positivas son señales de confianza para las personas y para los algoritmos, y mejoran la visibilidad en el paquete local.
 
@@ -147,6 +180,18 @@ Equilibramos las Core Web Vitals con los elementos de diseño que convierten:
 Analizamos a la competencia con herramientas como Ahrefs y SEMrush para encontrar los huecos que deja. Muchos despachos apuntan a términos amplios, lo que te deja libres servicios de alta intención como el NIE, la constitución de sociedades o el apoyo con traducciones juradas, y un contenido detallado, propio de cada mercado y escrito en lengua materna es lo que permite a despachos pequeños competir de tú a tú con actores internacionales.
 
 Un especialista equilibra visibilidad y cumplimiento. Mantenemos cada afirmación verificable, mostramos la experiencia con los avisos adecuados y respetamos las normas de cada país sobre testimonios, anuncios de resultados y lenguaje publicitario.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 156" role="img" aria-label="El contenido jurídico como un embudo de tres fases: investigación, valoración y decisión.">
+<rect x="20" y="10" width="360" height="40" rx="6" class="fg-box"/>
+<rect x="70" y="58" width="260" height="40" rx="6" class="fg-box"/>
+<rect x="120" y="106" width="160" height="40" rx="6" class="fg-hot"/>
+<text x="200" y="36" text-anchor="middle" class="fg-text">Investigación</text>
+<text x="200" y="84" text-anchor="middle" class="fg-text">Valoración</text>
+<text x="200" y="132" text-anchor="middle" class="fg-strong">Decisión</text>
+</svg>
+<figcaption>Cada contenido sirve a una fase, desde la primera investigación hasta la decisión, pasando por la valoración.</figcaption>
+</figure>
 
 El contenido funciona mejor dentro de un sistema que cubre la investigación, la valoración y la decisión:
 

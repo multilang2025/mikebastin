@@ -33,6 +33,25 @@ Pour que chacune de vos versions étrangères pèse autant que votre site princi
 
 Les recherches sans clic et les AI Overviews ont remodelé la page de résultats, et le parcours d’achat B2B s’étend sur plusieurs plateformes : il commence sur LinkedIn, se précise dans Perplexity et se valide sur G2. Une visibilité sur ces trois surfaces vous place là où se constitue désormais une liste courte.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 120" role="img" aria-label="Un parcours d’achat B2B sur trois surfaces : il commence sur LinkedIn, se précise dans Perplexity et se valide sur G2.">
+<line x1="115" y1="60" x2="145" y2="60" class="fg-line"/>
+<path d="M137 55 L145 60 L137 65" class="fg-line"/>
+<line x1="255" y1="60" x2="285" y2="60" class="fg-line"/>
+<path d="M277 55 L285 60 L277 65" class="fg-line"/>
+<rect x="5" y="24" width="110" height="72" rx="6" class="fg-box"/>
+<rect x="145" y="24" width="110" height="72" rx="6" class="fg-box"/>
+<rect x="285" y="24" width="110" height="72" rx="6" class="fg-hot"/>
+<text x="60" y="56" text-anchor="middle" class="fg-text">LinkedIn</text>
+<text x="60" y="78" text-anchor="middle" class="fg-label">départ</text>
+<text x="200" y="56" text-anchor="middle" class="fg-text">Perplexity</text>
+<text x="200" y="78" text-anchor="middle" class="fg-label">précision</text>
+<text x="340" y="56" text-anchor="middle" class="fg-text">G2</text>
+<text x="340" y="78" text-anchor="middle" class="fg-label">validation</text>
+</svg>
+<figcaption>Un même parcours d’achat traverse trois surfaces, et une visibilité sur chacune vous place là où se constitue la liste courte.</figcaption>
+</figure>
+
 Les moteurs d’aujourd’hui livrent des réponses, et l’objectif est que votre entreprise soit la source sur laquelle ces réponses s’appuient. Construisez des **clusters de contenu fondés sur les entités** (votre entreprise, vos produits, vos marchés, vos experts), qui démontrent une autorité thématique solide sur toutes vos surfaces numériques.
 
 ### Les surfaces de recherche clés en 2026
@@ -47,6 +66,18 @@ Les moteurs d’aujourd’hui livrent des réponses, et l’objectif est que vot
 ## Faites-vous recommander par les moteurs génératifs (GEO)
 
 Quand un assistant d’IA recommande trois fournisseurs, l’acheteur choisit généralement parmi ces trois. Le GEO façonne votre contenu pour les modèles d’IA qui rédigent ces réponses.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Un entonnoir qui va de tous les fournisseurs du marché aux trois que recommande un assistant d’IA, puis à celui que l’acheteur choisit parmi eux.">
+<rect x="30" y="8" width="340" height="44" rx="6" class="fg-box"/>
+<rect x="70" y="58" width="260" height="44" rx="6" class="fg-box"/>
+<rect x="100" y="108" width="200" height="44" rx="6" class="fg-hot"/>
+<text x="200" y="35" text-anchor="middle" class="fg-text">Tous les fournisseurs</text>
+<text x="200" y="85" text-anchor="middle" class="fg-text">Trois recommandés par l’IA</text>
+<text x="200" y="135" text-anchor="middle" class="fg-strong">Choix de l’acheteur</text>
+</svg>
+<figcaption>La liste courte se forme dans la réponse de l’IA : le GEO vise une place parmi les trois noms qu’elle recommande.</figcaption>
+</figure>
 
 Pour être cité par ChatGPT ou Perplexity, votre contenu gagne à être lisible par une machine, dense en faits et structuré pour une extraction facile. Notre page [du SEO au GEO](/fr/seo-au-geo/) détaille la mise en œuvre.
 
@@ -87,6 +118,22 @@ Une page qu’un modèle d’IA lit proprement est une page qu’il peut citer. 
 Mettez en place les schémas Organization et Product, et FAQPage là où la page répond à des questions : Google a retiré les résultats enrichis FAQ en mai 2026, mais ce balisage aide encore les modèles d’IA comme Gemini à relier votre expertise aux bonnes entités. [Go Fish Digital](https://gofishdigital.com/blog/generative-engine-optimization-agencies/), dans son guide des agences GEO, range d’ailleurs le balisage schema et le HTML sémantique parmi les compétences de base du GEO.
 
 Le format influence l’extraction : les tableaux et les listes à puces se lisent mieux que les paragraphes denses, pour les IA comme pour les lecteurs.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Les mêmes faits sous deux formes : noyés dans un paragraphe dense, ou présentés en tableaux et en listes que l’IA et les lecteurs reprennent proprement.">
+<path d="M150 75 L230 35" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M150 75 L230 115" class="fg-accent"/>
+<rect x="20" y="55" width="130" height="40" rx="6" class="fg-box"/>
+<rect x="230" y="12" width="150" height="46" rx="6" class="fg-box"/>
+<rect x="230" y="92" width="150" height="46" rx="6" class="fg-hot"/>
+<text x="85" y="81" text-anchor="middle" class="fg-strong">Mêmes faits</text>
+<text x="305" y="32" text-anchor="middle" class="fg-text">Paragraphe dense</text>
+<text x="305" y="50" text-anchor="middle" class="fg-label">faits noyés</text>
+<text x="305" y="112" text-anchor="middle" class="fg-strong">Tableaux, listes</text>
+<text x="305" y="130" text-anchor="middle" class="fg-label">cités proprement</text>
+</svg>
+<figcaption>Présentez vos faits en tableaux et en listes : les modèles d’IA comme les lecteurs les reprennent tels que vous les avez écrits.</figcaption>
+</figure>
 
 Notre règle de travail : des données explicites sont reprises plus fidèlement que des statistiques noyées dans un récit, et le schema mérite sa place quand il est valide, car un schema valide indique à une machine que la page se décrit avec exactitude.
 

@@ -90,6 +90,25 @@ Las menciones en medios y asociaciones de Valencia también suman. Nuestra guía
 
 Las reseñas son lo primero que lee un cliente cercano antes de llamar, y cuentan para tu posición en los resultados locales.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 120" role="img" aria-label="Tres pasos para las reseñas: pedirlas a los clientes, la reseña se publica y respondes a cada una.">
+<path d="M125 60 L138 60" class="fg-line"/>
+<path d="M133 55 L138 60 L133 65" class="fg-line"/>
+<path d="M260 60 L273 60" class="fg-line"/>
+<path d="M268 55 L273 60 L268 65" class="fg-line"/>
+<rect x="5" y="35" width="120" height="50" rx="6" class="fg-box"/>
+<rect x="140" y="35" width="120" height="50" rx="6" class="fg-box"/>
+<rect x="275" y="35" width="120" height="50" rx="6" class="fg-hot"/>
+<text x="65" y="57" text-anchor="middle" class="fg-strong">Pedir</text>
+<text x="65" y="76" text-anchor="middle" class="fg-label">por correo</text>
+<text x="200" y="57" text-anchor="middle" class="fg-strong">Reseña</text>
+<text x="200" y="76" text-anchor="middle" class="fg-label">publicada</text>
+<text x="335" y="57" text-anchor="middle" class="fg-strong">Responder</text>
+<text x="335" y="76" text-anchor="middle" class="fg-label">a cada una</text>
+</svg>
+<figcaption>Pedir trae reseñas, y responder a cada una, en el idioma del cliente, demuestra a quien las lee que escuchas.</figcaption>
+</figure>
+
 - **Pide reseñas.** Invita a tus clientes satisfechos en tus correos de seguimiento, en el ticket o en tus redes sociales.
 - **Responde a cada reseña.** Contestar a las positivas y a las negativas demuestra que escuchas, y genera confianza en quien las lee.
 - **Responde en su idioma.** Una reseña en inglés recibe la respuesta en inglés, y una en castellano, en castellano. Quien lee esas respuestas ve que en tu negocio le van a entender.
@@ -108,6 +127,23 @@ Cada publicación necesita una llamada a la acción clara: reserva, llama, ven a
 ## Prepara tu ficha para las preguntas a Gemini en Maps
 
 Google añade sus modelos Gemini a Maps, así que la gente hace preguntas completas con sus propias palabras, y las respuestas se apoyan en tu ficha y en tus reseñas. Una ficha completa y un flujo constante de reseñas cuentan ahora el doble.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 170" role="img" aria-label="Una pregunta completa hecha en Maps recibe una respuesta que se apoya en dos fuentes: tu ficha y tus reseñas.">
+<path d="M200 46 L200 66" class="fg-dim"/>
+<path d="M110 124 L170 106" class="fg-accent"/>
+<path d="M290 124 L230 106" class="fg-accent"/>
+<rect x="115" y="10" width="170" height="36" rx="6" class="fg-box"/>
+<rect x="120" y="66" width="160" height="40" rx="6" class="fg-hot"/>
+<rect x="30" y="124" width="160" height="36" rx="6" class="fg-box"/>
+<rect x="210" y="124" width="160" height="36" rx="6" class="fg-box"/>
+<text x="200" y="33" text-anchor="middle" class="fg-text">Pregunta completa</text>
+<text x="200" y="92" text-anchor="middle" class="fg-strong">Respuesta</text>
+<text x="110" y="147" text-anchor="middle" class="fg-text">Tu ficha</text>
+<text x="290" y="147" text-anchor="middle" class="fg-text">Tus reseñas</text>
+</svg>
+<figcaption>La respuesta se apoya en lo que dicen tu ficha y tus reseñas, así que las dos cuentan ahora el doble.</figcaption>
+</figure>
 
 > «Ask Maps, una nueva experiencia conversacional que responde a preguntas complejas del mundo real que un mapa nunca había podido responder.» Google empezó a desplegarla en Estados Unidos y en la India el 12 de marzo de 2026, y el 6 de agosto de 2026 la amplió a más de 150 países y territorios, en inglés.
 > Fuente: [Google, «Ask Maps and Immersive Navigation», 12 de marzo de 2026](https://blog.google/products-and-platforms/products/maps/ask-maps-immersive-navigation/); [Google, «Ask Maps gets more helpful with food ordering and more», 6 de agosto de 2026](https://blog.google/products-and-platforms/products/maps/order-food-in-ask-maps/)
@@ -149,6 +185,20 @@ Las cifras te dicen qué cambio trajo las llamadas. El informe de rendimiento de
 - las llamadas, los clics a tu web y las solicitudes de ruta
 
 Usa esos datos para ajustar tu ficha y tus publicaciones. Si una búsqueda en inglés trae llamadas, dale más espacio en tu descripción y en tu web.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="El informe de rendimiento sigue a la gente desde que te encuentra en la búsqueda y en Maps, pasando por los términos que usó, hasta las llamadas, los clics y las rutas.">
+<path d="M200 50 L200 60" class="fg-dim"/>
+<path d="M200 100 L200 110" class="fg-dim"/>
+<rect x="20" y="10" width="360" height="40" rx="6" class="fg-box"/>
+<rect x="40" y="60" width="320" height="40" rx="6" class="fg-box"/>
+<rect x="55" y="110" width="290" height="40" rx="6" class="fg-hot"/>
+<text x="200" y="36" text-anchor="middle" class="fg-text">Te encuentran en búsqueda y Maps</text>
+<text x="200" y="86" text-anchor="middle" class="fg-text">Términos que usaron</text>
+<text x="200" y="136" text-anchor="middle" class="fg-strong">Llamadas, clics, rutas</text>
+</svg>
+<figcaption>El informe une cada cambio con lo que trajo, desde la primera búsqueda hasta la llamada.</figcaption>
+</figure>
 
 ## Cinco hábitos que te ponen en el mapa de Valencia
 

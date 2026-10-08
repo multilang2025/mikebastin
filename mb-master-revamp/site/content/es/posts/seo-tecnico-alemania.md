@@ -46,6 +46,22 @@ Por eso la mayoría de las webs alemanas las transcriben:
 
 Así los enlaces se mantienen limpios dondequiera que se peguen. En Suiza, el alemán estándar escribe además «ss» en lugar de «ß» en el propio texto, de modo que la regla resulta natural para una versión suiza.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="La palabra Küche en una URL: compartida tal cual, se convierte en K%C3%BCche; transcrita, se lee kueche.">
+<path d="M150 75 L230 35" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M150 75 L230 115" class="fg-accent"/>
+<rect x="20" y="55" width="130" height="40" rx="6" class="fg-box"/>
+<rect x="230" y="12" width="150" height="46" rx="6" class="fg-box"/>
+<rect x="230" y="92" width="150" height="46" rx="6" class="fg-hot"/>
+<text x="85" y="81" text-anchor="middle" class="fg-strong">Küche</text>
+<text x="305" y="32" text-anchor="middle" class="fg-text">K%C3%BCche</text>
+<text x="305" y="50" text-anchor="middle" class="fg-label">codificada</text>
+<text x="305" y="112" text-anchor="middle" class="fg-strong">kueche</text>
+<text x="305" y="130" text-anchor="middle" class="fg-label">transcrita</text>
+</svg>
+<figcaption>Escribir ü como ue mantiene la URL legible dondequiera que se pegue, de un correo a una hoja de cálculo.</figcaption>
+</figure>
+
 ### Palabras clave en la URL, con medida
 
 Las **palabras clave en alemán** dentro de la URL ayudan a los usuarios y a los buscadores. Google trata las palabras de la URL como una señal ligera, y una URL descriptiva consigue también más clics en los resultados y en los enlaces compartidos.
@@ -140,6 +156,23 @@ Elimina los espacios sobrantes, los comentarios y el código redundante de tus a
 **Red de distribución de contenidos (CDN):**  
 Una CDN sirve tus páginas desde un servidor cercano al usuario. Aporta más cuando tu web en alemán tiene compradores en Alemania, Austria, Suiza y el resto de Europa, y cuando la web está alojada en España o en Latinoamérica.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 120" role="img" aria-label="Tres palancas para acelerar una web en alemán, por orden: comprimir y diferir las imágenes, minificar el código y servir las páginas desde una CDN cercana al comprador.">
+<path d="M126 60 L142 60" class="fg-dim"/>
+<path d="M258 60 L274 60" class="fg-dim"/>
+<rect x="10" y="30" width="116" height="60" rx="6" class="fg-box"/>
+<rect x="142" y="30" width="116" height="60" rx="6" class="fg-box"/>
+<rect x="274" y="30" width="116" height="60" rx="6" class="fg-hot"/>
+<text x="68" y="56" text-anchor="middle" class="fg-strong">Imágenes</text>
+<text x="68" y="76" text-anchor="middle" class="fg-label">comprimir</text>
+<text x="200" y="56" text-anchor="middle" class="fg-strong">Código</text>
+<text x="200" y="76" text-anchor="middle" class="fg-label">minificar</text>
+<text x="332" y="56" text-anchor="middle" class="fg-strong">CDN</text>
+<text x="332" y="76" text-anchor="middle" class="fg-label">más cerca</text>
+</svg>
+<figcaption>Primero las imágenes, después el código y luego una CDN para compradores repartidos entre Alemania, Austria, Suiza y el resto de Europa.</figcaption>
+</figure>
+
 ## Una versión móvil a la altura de la de escritorio
 
 La mayoría de las búsquedas se hacen ya desde el móvil, también en alemán, así que una web móvil sólida gana compradores y posiciones a la vez.
@@ -161,6 +194,22 @@ El usuario alemán espera una navegación intuitiva en el móvil. Haz que menús
 Las páginas AMP son una versión reducida de tu contenido, pensada para cargar rápido en el móvil. Google dejó de exigir AMP para todas sus funciones de búsqueda, Top Stories incluida, así que a la mayoría de las webs en alemán les rinde más hacer rápidas sus páginas normales.
 
 AMP puede seguir encajando en medios de noticias que ya tienen una configuración AMP. Para todos los demás, alcanzar los umbrales de las Core Web Vitals de arriba da el mismo beneficio con una sola versión de cada página.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Dos versiones de una página, una normal y una copia AMP, frente a una sola página rápida que alcanza los umbrales de las Core Web Vitals.">
+<line x1="200" y1="10" x2="200" y2="140" class="fg-rule"/>
+<rect x="30" y="36" width="140" height="40" rx="6" class="fg-box"/>
+<rect x="30" y="88" width="140" height="40" rx="6" class="fg-box"/>
+<rect x="220" y="36" width="160" height="92" rx="6" class="fg-hot"/>
+<text x="100" y="22" text-anchor="middle" class="fg-label">Dos versiones</text>
+<text x="300" y="22" text-anchor="middle" class="fg-label">Una versión</text>
+<text x="100" y="61" text-anchor="middle" class="fg-text">Página normal</text>
+<text x="100" y="113" text-anchor="middle" class="fg-text">Copia AMP</text>
+<text x="300" y="80" text-anchor="middle" class="fg-strong">Página rápida</text>
+<text x="300" y="100" text-anchor="middle" class="fg-label">Core Web Vitals</text>
+</svg>
+<figcaption>Alcanzar los umbrales de las Core Web Vitals da el mismo beneficio que AMP, con una sola versión de cada página.</figcaption>
+</figure>
 
 ### Probar y seguir el rendimiento móvil
 

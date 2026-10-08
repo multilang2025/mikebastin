@@ -25,6 +25,26 @@ For [businesses targeting global markets](/blog/global-business-trends/), the in
 
 Localization also covers date formats, currency fields and regulatory symbols, where getting it right protects the business.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="A localized interface brings three benefits: reach in new regions, easier key actions for conversion, and trust that builds loyalty.">
+<path d="M200 50 L67 102" class="fg-line"/>
+<path d="M200 50 L200 102" class="fg-line"/>
+<path d="M200 50 L333 102" class="fg-line"/>
+<rect x="125" y="10" width="150" height="40" rx="6" class="fg-hot"/>
+<rect x="4" y="102" width="126" height="46" rx="6" class="fg-box"/>
+<rect x="137" y="102" width="126" height="46" rx="6" class="fg-box"/>
+<rect x="270" y="102" width="126" height="46" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-strong">Localized UI</text>
+<text x="67" y="122" text-anchor="middle" class="fg-text">Reach</text>
+<text x="67" y="140" text-anchor="middle" class="fg-label">new regions</text>
+<text x="200" y="122" text-anchor="middle" class="fg-text">Conversion</text>
+<text x="200" y="140" text-anchor="middle" class="fg-label">key actions</text>
+<text x="333" y="122" text-anchor="middle" class="fg-text">Trust</text>
+<text x="333" y="140" text-anchor="middle" class="fg-label">loyalty</text>
+</svg>
+<figcaption>Reach, conversion and trust all start in the interface, where users decide whether the product is for them.</figcaption>
+</figure>
+
 The benefits come down to three things:
 
 - **Market reach.** Users in new regions can use the product.
@@ -64,7 +84,24 @@ Images and symbols need [culturally adapted content](/services/multilingual-cont
 
 ## Four habits that keep costs low
 
-Most of the cost is decided before the first string is translated. Four habits keep it low:
+Most of the cost is decided before the first string is translated. Four habits keep it low.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 120" role="img" aria-label="Three of the habits in order: plan localization into the design, have professionals translate the strings, then test with local users.">
+<path d="M125 60 L140 60" class="fg-line"/>
+<path d="M260 60 L275 60" class="fg-accent"/>
+<rect x="5" y="30" width="120" height="60" rx="6" class="fg-box"/>
+<rect x="140" y="30" width="120" height="60" rx="6" class="fg-box"/>
+<rect x="275" y="30" width="120" height="60" rx="6" class="fg-hot"/>
+<text x="65" y="56" text-anchor="middle" class="fg-strong">Plan</text>
+<text x="65" y="78" text-anchor="middle" class="fg-label">in the design</text>
+<text x="200" y="56" text-anchor="middle" class="fg-strong">Translate</text>
+<text x="200" y="78" text-anchor="middle" class="fg-label">professionals</text>
+<text x="335" y="56" text-anchor="middle" class="fg-strong">Test</text>
+<text x="335" y="78" text-anchor="middle" class="fg-label">local users</text>
+</svg>
+<figcaption>Planning from the start and testing with local users frame the translation, which keeps the cost of each new market low.</figcaption>
+</figure>
 
 - **Plan from the start.** Build localization into the design process, so layouts and functions can take any language as it comes.
 - **Use professional translators.** For interface strings, human translators convey the context, tone and meaning each string needs.
@@ -85,7 +122,23 @@ The right tools keep every language in step. Most UI localization runs through t
 
 ## Three common challenges, and their fixes
 
-Three challenges come up again and again, and each has a known fix:
+Three challenges come up again and again, and each has a known fix.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="The same interface string reaches a translator two ways: alone, with its function unclear, or with screenshots and notes that show the context.">
+<path d="M150 75 L230 35" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M150 75 L230 115" class="fg-accent"/>
+<rect x="15" y="55" width="135" height="40" rx="6" class="fg-box"/>
+<rect x="230" y="12" width="150" height="46" rx="6" class="fg-box"/>
+<rect x="230" y="92" width="150" height="46" rx="6" class="fg-hot"/>
+<text x="82.5" y="81" text-anchor="middle" class="fg-strong">One string</text>
+<text x="305" y="32" text-anchor="middle" class="fg-text">String alone</text>
+<text x="305" y="50" text-anchor="middle" class="fg-label">function unclear</text>
+<text x="305" y="112" text-anchor="middle" class="fg-strong">With context</text>
+<text x="305" y="130" text-anchor="middle" class="fg-label">screenshot, notes</text>
+</svg>
+<figcaption>Guidelines, screenshots and notes for each interface element show translators what every string does, which heads off contextual errors.</figcaption>
+</figure>
 
 | Challenge | Cause | Fix |
 |---|---|---|

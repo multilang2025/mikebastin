@@ -34,11 +34,47 @@ Tu tiempo es limitado, así que elige los canales que encajan con tu objetivo. C
 
 Las conferencias, los webinars y los talleres te dan el acceso más directo a perfiles sénior. Si estás en España, nuestra guía de [ferias B2B en Valencia](https://valenciamove.com/blog/b2b-trade-shows-valencia/) recoge eventos que merecen un día fuera de la oficina. Los canales online premian la constancia: un comentario bien pensado en LinkedIn puede abrir una conversación con alguien en Ámsterdam, y una presencia regular en una sola comunidad de Slack rinde más que visitas ocasionales a diez.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="El tiempo online, repartido de dos maneras: visitas ocasionales a diez comunidades o una presencia regular en una sola, la que rinde.">
+<path d="M140 75 L210 35" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M140 75 L210 115" class="fg-accent"/>
+<rect x="10" y="55" width="130" height="40" rx="6" class="fg-box"/>
+<rect x="210" y="12" width="180" height="46" rx="6" class="fg-box"/>
+<rect x="210" y="92" width="180" height="46" rx="6" class="fg-hot"/>
+<text x="75" y="81" text-anchor="middle" class="fg-strong">Online</text>
+<text x="300" y="32" text-anchor="middle" class="fg-text">Diez comunidades</text>
+<text x="300" y="50" text-anchor="middle" class="fg-label">visitas ocasionales</text>
+<text x="300" y="112" text-anchor="middle" class="fg-strong">Una comunidad</text>
+<text x="300" y="130" text-anchor="middle" class="fg-label">presencia regular</text>
+</svg>
+<figcaption>Los canales online premian la constancia: una presencia regular en una sola comunidad rinde más que visitas ocasionales a diez.</figcaption>
+</figure>
+
 Meetup encaja con grupos locales pequeños en torno a un interés, y Eventbrite con conferencias y talleres más grandes. Cuando ya conozcas un grupo, plantéate organizar tú un evento: quien organiza conoce a todo el mundo.
 
 ## Construye una marca personal que se recuerde
 
 La gente te busca antes de responderte, y lo que encuentra decide si la conversación llega a producirse.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Tres elementos de la marca personal dan forma a lo que la gente encuentra cuando te busca: un perfil de LinkedIn que cuenta tu historia, una web propia con tus reglas y una voz que comparte opiniones útiles.">
+<path d="M200 50 L70 102" class="fg-line"/>
+<path d="M200 50 L200 102" class="fg-line"/>
+<path d="M200 50 L330 102" class="fg-line"/>
+<rect x="120" y="10" width="160" height="40" rx="6" class="fg-hot"/>
+<rect x="8" y="102" width="124" height="46" rx="6" class="fg-box"/>
+<rect x="138" y="102" width="124" height="46" rx="6" class="fg-box"/>
+<rect x="268" y="102" width="124" height="46" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-strong">Tu marca</text>
+<text x="70" y="122" text-anchor="middle" class="fg-text">LinkedIn</text>
+<text x="70" y="140" text-anchor="middle" class="fg-label">tu historia</text>
+<text x="200" y="122" text-anchor="middle" class="fg-text">Web</text>
+<text x="200" y="140" text-anchor="middle" class="fg-label">tus reglas</text>
+<text x="330" y="122" text-anchor="middle" class="fg-text">Voz</text>
+<text x="330" y="140" text-anchor="middle" class="fg-label">tus opiniones</text>
+</svg>
+<figcaption>La gente te busca antes de responderte, y tres elementos dan forma a lo que encuentra.</figcaption>
+</figure>
 
 ### Un perfil de LinkedIn que cuenta una historia
 
@@ -125,6 +161,18 @@ Algunos mensajes reciben respuesta y algunas conexiones llevan a algo, cada una 
 ## Cuida tus relaciones a largo plazo
 
 Veinte contactos de LinkedIn que atenderían tu llamada valen más que mil que solo pasarían de largo por tu perfil. Interactúa con regularidad mediante comentarios, contenido compartido y mensajes. Las personas que más te ayuden dentro de cinco años suelen ser aquellas con las que mantuviste el contacto solo por mantenerlo.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Un embudo que va de todos tus contactos a aquellos con los que mantienes el contacto y, de ahí, a las personas que más te ayudarán dentro de cinco años.">
+<rect x="30" y="10" width="340" height="36" rx="6" class="fg-box"/>
+<rect x="70" y="56" width="260" height="36" rx="6" class="fg-box"/>
+<rect x="110" y="102" width="180" height="36" rx="6" class="fg-hot"/>
+<text x="200" y="34" text-anchor="middle" class="fg-text">Todos tus contactos</text>
+<text x="200" y="80" text-anchor="middle" class="fg-text">Contacto mantenido</text>
+<text x="200" y="126" text-anchor="middle" class="fg-strong">Quien más ayuda</text>
+</svg>
+<figcaption>Interactuar con regularidad convierte una larga lista de contactos en las pocas personas que más te ayudarán, a menudo años después.</figcaption>
+</figure>
 
 ## Por dónde empezar esta semana
 

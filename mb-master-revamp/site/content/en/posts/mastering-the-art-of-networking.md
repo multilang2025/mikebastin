@@ -34,11 +34,47 @@ Your time is limited, so pick the channels that match your goal. Two or three ar
 
 Conferences, webinars and workshops give you the most direct access to senior people. If you are based in Spain, our guide to [B2B trade shows in Valencia](https://valenciamove.com/blog/b2b-trade-shows-valencia/) lists events worth a day out of the office. Online channels reward consistency: a thoughtful LinkedIn comment can start a conversation with someone in Tokyo, and a regular presence in one Slack community beats occasional visits to ten.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Time spent online, split two ways: occasional visits to ten communities, or a regular presence in one, which is the one that pays off.">
+<path d="M140 75 L210 35" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M140 75 L210 115" class="fg-accent"/>
+<rect x="10" y="55" width="130" height="40" rx="6" class="fg-box"/>
+<rect x="210" y="12" width="180" height="46" rx="6" class="fg-box"/>
+<rect x="210" y="92" width="180" height="46" rx="6" class="fg-hot"/>
+<text x="75" y="81" text-anchor="middle" class="fg-strong">Online time</text>
+<text x="300" y="32" text-anchor="middle" class="fg-text">Ten communities</text>
+<text x="300" y="50" text-anchor="middle" class="fg-label">occasional visits</text>
+<text x="300" y="112" text-anchor="middle" class="fg-strong">One community</text>
+<text x="300" y="130" text-anchor="middle" class="fg-label">regular presence</text>
+</svg>
+<figcaption>Online channels reward consistency: a regular presence in one community outweighs occasional visits to ten.</figcaption>
+</figure>
+
 Meetup suits small local groups around one interest, and Eventbrite larger conferences and workshops. Once you know a group, consider hosting an event yourself: organisers meet everyone.
 
 ## Build a personal brand people remember
 
 People look you up before they reply to you. What they find decides whether the conversation happens, so a deliberate online presence is what turns you from another face in the crowd into a voice people recognise.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Three parts of a personal brand shape what people find when they look you up: a LinkedIn profile that tells your story, a personal website on your terms and a voice that shares useful views.">
+<path d="M200 50 L70 102" class="fg-line"/>
+<path d="M200 50 L200 102" class="fg-line"/>
+<path d="M200 50 L330 102" class="fg-line"/>
+<rect x="120" y="10" width="160" height="40" rx="6" class="fg-hot"/>
+<rect x="8" y="102" width="124" height="46" rx="6" class="fg-box"/>
+<rect x="138" y="102" width="124" height="46" rx="6" class="fg-box"/>
+<rect x="268" y="102" width="124" height="46" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-strong">What they find</text>
+<text x="70" y="122" text-anchor="middle" class="fg-text">LinkedIn</text>
+<text x="70" y="140" text-anchor="middle" class="fg-label">your story</text>
+<text x="200" y="122" text-anchor="middle" class="fg-text">Website</text>
+<text x="200" y="140" text-anchor="middle" class="fg-label">your terms</text>
+<text x="330" y="122" text-anchor="middle" class="fg-text">Voice</text>
+<text x="330" y="140" text-anchor="middle" class="fg-label">your views</text>
+</svg>
+<figcaption>People look you up before they reply, and three channels shape what they find.</figcaption>
+</figure>
 
 ### A LinkedIn profile that tells a story
 
@@ -125,6 +161,18 @@ Some messages get a reply and some connections lead somewhere, on their own timi
 ## Build relationships that last for years
 
 Twenty LinkedIn connections who would take your call are worth more than a thousand who would only scroll past. Engage regularly through comments, shares and messages. The people who help you most in five years are often the ones you kept in touch with just to stay in touch.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="A funnel narrowing from every connection, to the contacts you keep in touch with, to the people who help you most in five years.">
+<rect x="30" y="10" width="340" height="36" rx="6" class="fg-box"/>
+<rect x="70" y="56" width="260" height="36" rx="6" class="fg-box"/>
+<rect x="110" y="102" width="180" height="36" rx="6" class="fg-hot"/>
+<text x="200" y="34" text-anchor="middle" class="fg-text">Every connection</text>
+<text x="200" y="80" text-anchor="middle" class="fg-text">Kept in touch</text>
+<text x="200" y="126" text-anchor="middle" class="fg-strong">Help you most</text>
+</svg>
+<figcaption>Regular engagement turns a long list of connections into the few people who help you most, often years later.</figcaption>
+</figure>
 
 ## Where to start this week
 

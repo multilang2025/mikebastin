@@ -90,6 +90,22 @@ Within six months, international enquiries had risen sharply, from entrepreneurs
 
 A British expat searches for a solicitor, an American for an attorney. Write for both and each one finds you. Americans, Brits, Australians and non-native speakers all search differently. We plan content that covers these variations naturally, with each term sitting where a reader expects it.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="One search for a lawyer, two words for it: a British expat types solicitor, an American types attorney.">
+<path d="M150 75 L220 35" class="fg-line"/>
+<path d="M150 75 L220 115" class="fg-line"/>
+<rect x="20" y="55" width="130" height="40" rx="6" class="fg-hot"/>
+<rect x="220" y="12" width="165" height="46" rx="6" class="fg-box"/>
+<rect x="220" y="92" width="165" height="46" rx="6" class="fg-box"/>
+<text x="85" y="81" text-anchor="middle" class="fg-strong">A lawyer</text>
+<text x="302" y="32" text-anchor="middle" class="fg-text">British expat</text>
+<text x="302" y="50" text-anchor="middle" class="fg-label">“solicitor”</text>
+<text x="302" y="112" text-anchor="middle" class="fg-text">American</text>
+<text x="302" y="130" text-anchor="middle" class="fg-label">“attorney”</text>
+</svg>
+<figcaption>Write for both words and each reader finds the firm, with every term sitting where that reader expects it.</figcaption>
+</figure>
+
 | Audience | What they search | Example queries |
 | --- | --- | --- |
 | UK | solicitor, legal practitioner | “solicitors in Valencia”, “legal practitioner Spain” |
@@ -118,6 +134,23 @@ Meta descriptions act as your lift pitch. We front-load value and a call to acti
 ## Local SEO for law firms
 
 When a client searches for a lawyer near them, the map listing often decides who gets the call. Law firm local SEO covers map listings, location keywords and region-specific content.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Three inputs feed the local pack: accurate profile details, reviews and local signals in the site content.">
+<path d="M180 28 L310 80" class="fg-line"/>
+<path d="M180 80 L310 80" class="fg-line"/>
+<path d="M180 132 L310 80" class="fg-line"/>
+<rect x="10" y="10" width="170" height="36" rx="6" class="fg-box"/>
+<rect x="10" y="62" width="170" height="36" rx="6" class="fg-box"/>
+<rect x="10" y="114" width="170" height="36" rx="6" class="fg-box"/>
+<circle cx="310" cy="80" r="72" class="fg-hot"/>
+<text x="95" y="33" text-anchor="middle" class="fg-text">Accurate details</text>
+<text x="95" y="85" text-anchor="middle" class="fg-text">Reviews</text>
+<text x="95" y="137" text-anchor="middle" class="fg-text">Local signals</text>
+<text x="310" y="86" text-anchor="middle" class="fg-strong">Local pack</text>
+</svg>
+<figcaption>The map listing draws on all three at once: a complete Google Business Profile, a steady flow of reviews and location signals across the site.</figcaption>
+</figure>
 
 Set up and refine your [Google Business Profile](/services/local-seo/) with accurate details, reviews and services. Embed location signals in your [multilingual site content](/blog/optimising-multilingual-website-content/) and metadata to reflect the areas you serve, and use local references in guides to increase relevance.
 
@@ -152,6 +185,18 @@ Our guide to [technical SEO for multilingual websites](/blog/technical-seo-for-m
 We benchmark rivals with tools like Ahrefs and SEMrush to find the openings they leave. Many firms target broad terms, which leaves high-intent services like NIE, company formation or sworn translation support open to you, and detailed, market-specific content in native languages is how smaller firms compete head-to-head with international players. Our guide to a [targeted content strategy](/blog/how-to-create-a-targeted-content-strategy/) covers the method for professional services.
 
 A specialist balances visibility with compliance. We keep every claim verifiable, show expertise with appropriate disclaimers and respect regional rules on testimonials, success claims and advertising language.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 156" role="img" aria-label="Legal content as a funnel of three stages: research, consideration and decision.">
+<rect x="20" y="10" width="360" height="40" rx="6" class="fg-box"/>
+<rect x="70" y="58" width="260" height="40" rx="6" class="fg-box"/>
+<rect x="120" y="106" width="160" height="40" rx="6" class="fg-hot"/>
+<text x="200" y="36" text-anchor="middle" class="fg-text">Research</text>
+<text x="200" y="84" text-anchor="middle" class="fg-text">Consideration</text>
+<text x="200" y="132" text-anchor="middle" class="fg-strong">Decision</text>
+</svg>
+<figcaption>Each piece of content serves a stage, from the first research through consideration to the decision.</figcaption>
+</figure>
 
 Content works best as part of a system that covers research, consideration and decision:
 

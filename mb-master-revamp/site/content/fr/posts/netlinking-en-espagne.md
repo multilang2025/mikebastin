@@ -36,6 +36,22 @@ Une mention dans La Vanguardia, El País, ABC, El Confidencial, El Español ou 2
 
 La dimension régionale a sa place dans chaque plan de netlinking. Un lien d’un éditeur régional de Valence ou de Bilbao apporte une pertinence locale précieuse pour des requêtes comme _abogado herencia Valencia_ ou _agencia inmobiliaria Costa Blanca_, et nous la pesons à côté de la force du domaine.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Un lien .es peut venir d’un média national, qui apporte la force de son domaine, ou d’un éditeur régional, qui apporte la pertinence locale utile aux requêtes locales.">
+<path d="M155 75 L210 35" class="fg-dim"/>
+<path d="M155 75 L210 115" class="fg-accent"/>
+<rect x="15" y="55" width="140" height="40" rx="6" class="fg-box"/>
+<rect x="210" y="12" width="180" height="46" rx="6" class="fg-box"/>
+<rect x="210" y="92" width="180" height="46" rx="6" class="fg-hot"/>
+<text x="85" y="81" text-anchor="middle" class="fg-strong">Un lien .es</text>
+<text x="300" y="32" text-anchor="middle" class="fg-text">Média national</text>
+<text x="300" y="50" text-anchor="middle" class="fg-label">force du domaine</text>
+<text x="300" y="112" text-anchor="middle" class="fg-strong">Presse régionale</text>
+<text x="300" y="130" text-anchor="middle" class="fg-label">pertinence locale</text>
+</svg>
+<figcaption>Pour une requête comme abogado herencia Valencia, un lien d’un éditeur régional apporte une pertinence locale, que nous pesons à côté de la force du domaine.</figcaption>
+</figure>
+
 ## Les quatre tactiques que nous retenons
 
 Chacune fait gagner des liens qu’un rédacteur espagnol a choisi de donner, des liens qui gardent leur valeur.
@@ -64,6 +80,23 @@ Ces trois réflexes gardent votre budget sur des liens qui comptent, et nous les
 **Écrivez aux rédacteurs espagnols en espagnol.** Confiez vos propositions à un rédacteur de langue maternelle espagnole, qui connaît le ton de chaque titre. Un message personnalisé dans la langue du journaliste montre que votre sujet a été pensé pour son public.
 
 **Planifiez les ancres comme les rédacteurs espagnols les écrivent.** Les rédacteurs reformulent souvent les ancres à correspondance exacte : _abogado matrimonialista Valencia_ devient facilement _este despacho_ ou le nom de la marque. Construisez le plan autour de ces formes naturelles.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 90" role="img" aria-label="Une ancre à correspondance exacte comme abogado matrimonialista Valencia passe par un rédacteur espagnol, qui la reformule en este despacho ou en nom de marque.">
+<path d="M125 45 L145 45" class="fg-line"/>
+<path d="M245 45 L265 45" class="fg-accent"/>
+<rect x="5" y="20" width="120" height="50" rx="6" class="fg-box"/>
+<rect x="145" y="20" width="100" height="50" rx="6" class="fg-box"/>
+<rect x="265" y="20" width="130" height="50" rx="6" class="fg-hot"/>
+<text x="65" y="42" text-anchor="middle" class="fg-text">Ancre exacte</text>
+<text x="65" y="60" text-anchor="middle" class="fg-label">au départ</text>
+<text x="195" y="42" text-anchor="middle" class="fg-text">Rédacteur</text>
+<text x="195" y="60" text-anchor="middle" class="fg-label">reformule</text>
+<text x="330" y="42" text-anchor="middle" class="fg-text">este despacho</text>
+<text x="330" y="60" text-anchor="middle" class="fg-label">ou votre marque</text>
+</svg>
+<figcaption>Les rédacteurs espagnols reformulent les ancres exactes en formes naturelles : construisez votre plan d’ancres autour de ces formes.</figcaption>
+</figure>
 
 <aside class="post-cta">
 <p><strong>Vous voulez des liens espagnols qui font monter vos positions ?</strong> Notre <a href="/fr/services/seo-technique/">service de netlinking</a> obtient des liens éditoriaux, des placements sur des pages ressources et des articles invités sur des sites de votre marché qui ont un vrai lectorat. <a href="/fr/nous-contacter/">Réservez un premier échange</a>.</p>
@@ -103,6 +136,23 @@ Pour juger une offre, comparez-la à ce rythme : les placements éditoriaux s�
 Les liens multiplient la valeur de vos pages, alors des pages solides passent en premier. Le travail de liens en Espagne porte le plus loin à côté d’une [recherche de mots-clés adaptée à l’espagnol](/fr/services/seo-technique/), de [contenus rédigés pour les internautes espagnols](/fr/services/creation-de-contenu-multilingue/) et d’un plan de marché clair qui respecte les différences régionales.
 
 Un lien d’El Español rapporte sur une page d’atterrissage solide, rédigée correctement en espagnol, et une page bien localisée monte quand des domaines référents pointent vers elle. Les deux moitiés travaillent ensemble.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Une page solide rédigée en espagnol et des liens venus de domaines référents espagnols font monter ensemble vos positions sur google.es.">
+<path d="M180 38 L264 70" class="fg-accent"/>
+<path d="M180 112 L264 80" class="fg-accent"/>
+<rect x="15" y="15" width="165" height="46" rx="6" class="fg-box"/>
+<rect x="15" y="89" width="165" height="46" rx="6" class="fg-box"/>
+<circle cx="320" cy="75" r="56" class="fg-hot"/>
+<text x="98" y="35" text-anchor="middle" class="fg-text">Page solide</text>
+<text x="98" y="53" text-anchor="middle" class="fg-label">rédigée en espagnol</text>
+<text x="98" y="109" text-anchor="middle" class="fg-text">Liens espagnols</text>
+<text x="98" y="127" text-anchor="middle" class="fg-label">domaines référents</text>
+<text x="320" y="73" text-anchor="middle" class="fg-strong">Positions</text>
+<text x="320" y="95" text-anchor="middle" class="fg-label">sur google.es</text>
+</svg>
+<figcaption>Les liens multiplient la valeur d’une page : une page bien rédigée en espagnol et des liens éditoriaux montent ensemble.</figcaption>
+</figure>
 
 ## Faites relire votre plan de liens espagnol
 

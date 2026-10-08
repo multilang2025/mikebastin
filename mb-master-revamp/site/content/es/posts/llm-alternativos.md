@@ -67,6 +67,23 @@ Microsoft Research
 
 **Por qué importa:** Orca popularizó el «explanation tuning», en el que un modelo aprende a razonar paso a paso con demostraciones de un maestro. La misma idea de destilación recorre muchos de los modelos abiertos pequeños que llegaron después.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 120" role="img" aria-label="El explanation tuning de Orca: un modelo maestro grande explica su razonamiento paso a paso, y un modelo alumno pequeño aprende a razonar con esas explicaciones.">
+<path d="M125 55 L145 55" class="fg-line"/>
+<path d="M255 55 L275 55" class="fg-accent"/>
+<rect x="5" y="30" width="120" height="50" rx="6" class="fg-box"/>
+<rect x="145" y="30" width="110" height="50" rx="6" class="fg-box"/>
+<rect x="275" y="30" width="120" height="50" rx="6" class="fg-hot"/>
+<text x="65" y="52" text-anchor="middle" class="fg-text">Maestro</text>
+<text x="65" y="70" text-anchor="middle" class="fg-label">modelo grande</text>
+<text x="200" y="52" text-anchor="middle" class="fg-text">Explica</text>
+<text x="200" y="70" text-anchor="middle" class="fg-label">paso a paso</text>
+<text x="335" y="52" text-anchor="middle" class="fg-strong">Alumno</text>
+<text x="335" y="70" text-anchor="middle" class="fg-label">modelo pequeño</text>
+</svg>
+<figcaption>El explanation tuning traslada el razonamiento paso a paso de un modelo grande a uno pequeño, la misma idea de destilación que recorre muchos modelos abiertos posteriores.</figcaption>
+</figure>
+
 [Orca 2 en Microsoft Research](https://www.microsoft.com/en-us/research/blog/orca-2-teaching-small-language-models-how-to-reason/)
 
 ## Primeros modelos abiertos con uso comercial
@@ -80,6 +97,26 @@ Technology Innovation Institute (TII), Abu Dabi
 **Qué es:** una familia de LLM que empezó con Falcon-7B, Falcon-40B y Falcon-180B, entrenados con el conjunto de datos RefinedWeb, y que desde entonces ha sumado Falcon 2, Falcon 3, Falcon Mamba y la serie híbrida Falcon-H1.
 
 **Por qué importa:** Falcon-7B y Falcon-40B estuvieron entre los primeros modelos abiertos potentes publicados con Apache 2.0, con uso comercial incluido. Las licencias se han separado desde entonces: Falcon-180B se distribuye con la Falcon-180B TII License y su política de uso aceptable, y las versiones nuevas usan la licencia Falcon propia de TII. Lee las condiciones del modelo exacto que piensas desplegar.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Una sola familia Falcon, tres regímenes de licencia: Apache 2.0 para Falcon-7B y Falcon-40B, la Falcon-180B TII License para 180B y la licencia Falcon propia de TII para las versiones recientes.">
+<path d="M200 50 L70 102" class="fg-line"/>
+<path d="M200 50 L200 102" class="fg-line"/>
+<path d="M200 50 L330 102" class="fg-line"/>
+<rect x="135" y="10" width="130" height="40" rx="6" class="fg-hot"/>
+<rect x="6" y="102" width="128" height="46" rx="6" class="fg-box"/>
+<rect x="136" y="102" width="128" height="46" rx="6" class="fg-box"/>
+<rect x="266" y="102" width="128" height="46" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-strong">Falcon</text>
+<text x="70" y="122" text-anchor="middle" class="fg-text">7B y 40B</text>
+<text x="70" y="140" text-anchor="middle" class="fg-label">Apache 2.0</text>
+<text x="200" y="122" text-anchor="middle" class="fg-text">180B</text>
+<text x="200" y="140" text-anchor="middle" class="fg-label">licencia 180B</text>
+<text x="330" y="122" text-anchor="middle" class="fg-text">Recientes</text>
+<text x="330" y="140" text-anchor="middle" class="fg-label">licencia Falcon</text>
+</svg>
+<figcaption>Lee la licencia del modelo exacto que piensas desplegar, porque las condiciones cambian dentro de una misma familia.</figcaption>
+</figure>
 
 [Web oficial de Falcon LLM](https://falconllm.tii.ae/)
 
@@ -144,6 +181,22 @@ Alibaba Cloud, equipo Qwen
 Mistral AI (París)
 
 **Qué es:** Mistral 7B era un modelo denso de 7.000 millones de parámetros que superaba a Llama 2 13B en su lanzamiento. Después llegó Mixtral 8x7B, un modelo disperso de mezcla de expertos (MoE) con unos 47.000 millones de parámetros en total, pero solo 13.000 millones activos por token.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="En la mezcla de expertos de Mixtral, cada token pasa por una pequeña parte de expertos activos, y la mayor parte del modelo queda en reposo para ese token.">
+<path d="M145 75 L215 35" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M145 75 L215 115" class="fg-accent"/>
+<rect x="15" y="55" width="130" height="40" rx="6" class="fg-box"/>
+<rect x="215" y="12" width="180" height="46" rx="6" class="fg-box"/>
+<rect x="215" y="92" width="180" height="46" rx="6" class="fg-hot"/>
+<text x="80" y="81" text-anchor="middle" class="fg-strong">Un token</text>
+<text x="305" y="32" text-anchor="middle" class="fg-text">Expertos inactivos</text>
+<text x="305" y="50" text-anchor="middle" class="fg-label">la mayor parte</text>
+<text x="305" y="112" text-anchor="middle" class="fg-strong">Expertos activos</text>
+<text x="305" y="130" text-anchor="middle" class="fg-label">una pequeña parte</text>
+</svg>
+<figcaption>Mixtral reúne muchos parámetros en total y pone a trabajar una pequeña parte de ellos en cada token.</figcaption>
+</figure>
 
 **Por qué importa:** Mixtral ayudó a llevar la arquitectura MoE al centro de los modelos de pesos abiertos. Si tu empresa pone sistemas en producción en España o en otro país de la UE, Mistral te ofrece un proveedor con sede en la Unión Europea, en París. Su gama actual combina modelos de pesos abiertos (Mistral Large 3, Mistral Small 4 y la serie Ministral 3 con Apache 2.0) con Mistral Medium 3.5, con una licencia MIT modificada.
 
