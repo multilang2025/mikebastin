@@ -72,6 +72,22 @@ For German buyers, you might shift the focus to sustainability and how well the 
 
 A small shift like that makes the same range feel as if it was chosen for them.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="The same product range pitched two ways: adventure for buyers in the US and UK, lasting quality for buyers in Germany.">
+<path d="M150 75 L230 35" class="fg-dim"/>
+<path d="M150 75 L230 115" class="fg-accent"/>
+<rect x="20" y="55" width="130" height="40" rx="6" class="fg-box"/>
+<rect x="230" y="12" width="150" height="46" rx="6" class="fg-box"/>
+<rect x="230" y="92" width="150" height="46" rx="6" class="fg-hot"/>
+<text x="85" y="81" text-anchor="middle" class="fg-strong">Same range</text>
+<text x="305" y="32" text-anchor="middle" class="fg-text">US and UK</text>
+<text x="305" y="50" text-anchor="middle" class="fg-label">adventure</text>
+<text x="305" y="112" text-anchor="middle" class="fg-strong">Germany</text>
+<text x="305" y="130" text-anchor="middle" class="fg-label">lasting quality</text>
+</svg>
+<figcaption>The product stays the same; the angle changes. German buyers respond to sustainability and durability, so the German pages lead with those.</figcaption>
+</figure>
+
 ## Choose Sie or du before you write
 
 Choose the form of address your buyers expect, and you sound exactly as formal or as friendly as they want, which keeps them reading.
@@ -134,6 +150,22 @@ Phrases like “barking up the wrong tree” or “a piece of cake” need a Ger
 
 Use a German phrase with the same meaning, or say it plainly. “Start a conversation”, for example, carries the message of “break the ice”.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="An English idiom translated word for word reads as foreign; rendered with a German phrase of the same meaning, it reads as German.">
+<path d="M150 75 L230 35" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M150 75 L230 115" class="fg-accent"/>
+<rect x="15" y="55" width="135" height="40" rx="6" class="fg-box"/>
+<rect x="230" y="12" width="150" height="46" rx="6" class="fg-box"/>
+<rect x="230" y="92" width="150" height="46" rx="6" class="fg-hot"/>
+<text x="82" y="80" text-anchor="middle" class="fg-text">“break the ice”</text>
+<text x="305" y="32" text-anchor="middle" class="fg-text">Word for word</text>
+<text x="305" y="50" text-anchor="middle" class="fg-label">reads translated</text>
+<text x="305" y="112" text-anchor="middle" class="fg-strong">Same meaning</text>
+<text x="305" y="130" text-anchor="middle" class="fg-label">a German phrase</text>
+</svg>
+<figcaption>Translate the meaning, then find the German way to say it, or say it plainly.</figcaption>
+</figure>
+
 ## Create content that answers German buyers' questions
 
 Content written for German buyers wins more attention and more rankings, because it answers questions they are actually asking.
@@ -162,6 +194,26 @@ Germany, Austria and Switzerland share a language, but their preferences and sea
 
 Use region-specific references where you can. An article for Swiss readers might cite local laws or customs; one for Austrian readers might feature regional destinations.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="One language, three markets: German content for Germany, Austria and Switzerland, each with its own searches and references.">
+<path d="M200 50 L70 102" class="fg-line"/>
+<path d="M200 50 L200 102" class="fg-line"/>
+<path d="M200 50 L330 102" class="fg-line"/>
+<rect x="135" y="10" width="130" height="40" rx="6" class="fg-hot"/>
+<rect x="15" y="102" width="110" height="46" rx="6" class="fg-box"/>
+<rect x="145" y="102" width="110" height="46" rx="6" class="fg-box"/>
+<rect x="275" y="102" width="110" height="46" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-strong">German</text>
+<text x="70" y="122" text-anchor="middle" class="fg-text">Germany</text>
+<text x="70" y="140" text-anchor="middle" class="fg-label">.de</text>
+<text x="200" y="122" text-anchor="middle" class="fg-text">Austria</text>
+<text x="200" y="140" text-anchor="middle" class="fg-label">.at</text>
+<text x="330" y="122" text-anchor="middle" class="fg-text">Switzerland</text>
+<text x="330" y="140" text-anchor="middle" class="fg-label">.ch</text>
+</svg>
+<figcaption>One language, three markets. Each country searches in its own way, so each version needs its own keywords and local references.</figcaption>
+</figure>
+
 ### Cite German trends and data
 
 German statistics, studies and events make content feel current and local.
@@ -179,6 +231,26 @@ Like the content, the link building has to be localized to work.
 Backlinks from reputable German websites build your authority and signal that your site can be trusted.
 
 For [German SEO](/blog/technical-seo-considerations-for-german-websites/), links from German websites are worth more than links from international sources, because they reflect local relevance and authority.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Links from German blogs, the German press and German directories such as Gelbe Seiten carry more weight for German SEO than links from international sites.">
+<path d="M150 23 L274 72" class="fg-accent"/>
+<path d="M150 61 L274 78" class="fg-accent"/>
+<path d="M150 99 L274 84" class="fg-accent"/>
+<path d="M150 137 L274 90" class="fg-dim" stroke-dasharray="4 4"/>
+<rect x="10" y="8" width="140" height="30" rx="6" class="fg-box"/>
+<rect x="10" y="46" width="140" height="30" rx="6" class="fg-box"/>
+<rect x="10" y="84" width="140" height="30" rx="6" class="fg-box"/>
+<rect x="10" y="122" width="140" height="30" rx="6" class="fg-box"/>
+<circle cx="320" cy="80" r="46" class="fg-hot"/>
+<text x="80" y="28" text-anchor="middle" class="fg-text">German blogs</text>
+<text x="80" y="66" text-anchor="middle" class="fg-text">German press</text>
+<text x="80" y="104" text-anchor="middle" class="fg-text">Gelbe Seiten</text>
+<text x="80" y="142" text-anchor="middle" class="fg-label">International sites</text>
+<text x="320" y="86" text-anchor="middle" class="fg-strong">Your site</text>
+</svg>
+<figcaption>For German SEO, a link from a respected German site counts for more than one from an international source, because it shows local relevance.</figcaption>
+</figure>
 
 ### Outreach to German-specific websites
 
