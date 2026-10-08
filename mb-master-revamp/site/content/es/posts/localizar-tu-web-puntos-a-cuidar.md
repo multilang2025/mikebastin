@@ -28,6 +28,26 @@ Cada país lee el contenido a través de su propia cultura. Antes de publicar en
 
 La cultura marca el tono, los colores, las imágenes, el humor y la forma de comprar, y un comprador francés y uno neerlandés reaccionan de manera distinta al mismo mensaje. Nuestro servicio de [redacción SEO multilingüe](/es/services/redaccion-seo-multilingue/) ajusta el contenido a lo que espera cada público antes de publicarlo.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="La cultura marca cómo se lee una página en cada mercado: su tono, sus colores, sus imágenes y su humor.">
+<path d="M200 50 L52 102" class="fg-line"/>
+<path d="M200 50 L151 102" class="fg-line"/>
+<path d="M200 50 L250 102" class="fg-line"/>
+<path d="M200 50 L349 102" class="fg-line"/>
+<rect x="135" y="10" width="130" height="40" rx="6" class="fg-hot"/>
+<rect x="8" y="102" width="88" height="38" rx="6" class="fg-box"/>
+<rect x="107" y="102" width="88" height="38" rx="6" class="fg-box"/>
+<rect x="206" y="102" width="88" height="38" rx="6" class="fg-box"/>
+<rect x="305" y="102" width="88" height="38" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-strong">Cultura</text>
+<text x="52" y="127" text-anchor="middle" class="fg-text">Tono</text>
+<text x="151" y="127" text-anchor="middle" class="fg-text">Colores</text>
+<text x="250" y="127" text-anchor="middle" class="fg-text">Imágenes</text>
+<text x="349" y="127" text-anchor="middle" class="fg-text">Humor</text>
+</svg>
+<figcaption>Cada uno de estos elementos se lee de forma distinta en cada país; revísalos antes de publicar en un mercado nuevo.</figcaption>
+</figure>
+
 ### Transcrea el mensaje
 
 Una traducción literal deja el texto correcto. La [transcreación](/es/services/traduccion-profesional/) adapta la voz, el estilo y el mensaje a la cultura local, y transmite el tono, la intención y la relevancia que venden, con la marca intacta.
@@ -47,6 +67,22 @@ Una página localizada vende cuando el comprador la encuentra y carga bien en su
 ### Investiga el SEO local y las palabras clave en cada idioma
 
 Una página traducida posiciona cuando está construida para la búsqueda local. Cada mercado tiene su propio comportamiento de búsqueda, sus propias formulaciones y, en ocasiones, su buscador preferido. El [posicionamiento multilingüe](/es/services/posicionamiento-multilingue/) empieza con una investigación de palabras clave hecha en el idioma de destino.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="La misma página construida de dos formas: con las palabras clave del original traducidas tal cual, o con un estudio de palabras clave hecho en cada idioma.">
+<path d="M150 75 L225 35" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M150 75 L225 115" class="fg-accent"/>
+<rect x="15" y="55" width="135" height="40" rx="6" class="fg-box"/>
+<rect x="225" y="12" width="160" height="46" rx="6" class="fg-box"/>
+<rect x="225" y="92" width="160" height="46" rx="6" class="fg-hot"/>
+<text x="82" y="81" text-anchor="middle" class="fg-strong">Tu página</text>
+<text x="305" y="32" text-anchor="middle" class="fg-text">Palabras clave</text>
+<text x="305" y="50" text-anchor="middle" class="fg-label">traducidas</text>
+<text x="305" y="112" text-anchor="middle" class="fg-strong">Estudio local</text>
+<text x="305" y="130" text-anchor="middle" class="fg-label">en cada idioma</text>
+</svg>
+<figcaption>Una página traducida posiciona cuando sus palabras clave salen de un estudio en el idioma de destino, ajustado a cómo busca cada mercado.</figcaption>
+</figure>
 
 ### Construye para móvil
 
@@ -79,6 +115,23 @@ Para tu tienda en Francia, eso significa fichas, condiciones y facturas en franc
 ### Adapta los métodos de pago y los formatos
 
 La gente completa la compra cuando puede pagar como prefiere. Lo mismo ocurre con las fechas, los números y las divisas, que conviene mostrar en el formato que cada comprador conoce.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 120" role="img" aria-label="Precios en el formato local y el método de pago que prefiere el comprador llevan a una compra completada.">
+<path d="M126 60 L140 60" class="fg-line"/>
+<path d="M260 60 L274 60" class="fg-line"/>
+<rect x="6" y="35" width="120" height="50" rx="6" class="fg-box"/>
+<rect x="140" y="35" width="120" height="50" rx="6" class="fg-box"/>
+<rect x="274" y="35" width="120" height="50" rx="6" class="fg-hot"/>
+<text x="66" y="57" text-anchor="middle" class="fg-text">Precios</text>
+<text x="66" y="75" text-anchor="middle" class="fg-label">formato local</text>
+<text x="200" y="57" text-anchor="middle" class="fg-text">Pago</text>
+<text x="200" y="75" text-anchor="middle" class="fg-label">como prefiere</text>
+<text x="334" y="57" text-anchor="middle" class="fg-strong">Compra</text>
+<text x="334" y="75" text-anchor="middle" class="fg-label">completada</text>
+</svg>
+<figcaption>El comprador completa la compra cuando el precio le resulta familiar y puede pagar como prefiere.</figcaption>
+</figure>
 
 | Elemento | Reino Unido | Francia | Alemania | Países Bajos |
 | --- | --- | --- | --- | --- |

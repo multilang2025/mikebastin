@@ -85,6 +85,22 @@ Antes de pasarte una semana mapeando cada página del sitio de un competidor, te
 
 La conclusión es práctica: el tráfico de tus rivales se concentra en unas pocas páginas. Encuentra sus cinco a diez direcciones que traen visitas y estúdialas a fondo. Un pico de tráfico en una de ellas suele coincidir con un lanzamiento o con un cambio en su [estrategia de marketing digital](/es/services/), y merece una mirada.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="El tráfico de un rival se concentra en unas pocas páginas top; el resto del sitio aporta poco.">
+<path d="M160 43 L270 70" class="fg-accent"/>
+<path d="M160 107 L270 80" class="fg-dim" stroke-dasharray="4 4"/>
+<rect x="10" y="20" width="150" height="46" rx="6" class="fg-hot"/>
+<rect x="10" y="84" width="150" height="46" rx="6" class="fg-box"/>
+<circle cx="320" cy="75" r="50" class="fg-box"/>
+<text x="85" y="40" text-anchor="middle" class="fg-strong">Páginas top</text>
+<text x="85" y="58" text-anchor="middle" class="fg-label">hacen el trabajo</text>
+<text x="85" y="104" text-anchor="middle" class="fg-text">El resto</text>
+<text x="85" y="122" text-anchor="middle" class="fg-label">poco tráfico</text>
+<text x="320" y="81" text-anchor="middle" class="fg-strong">Tráfico</text>
+</svg>
+<figcaption>El tráfico de un rival vive en unas pocas páginas: estudiar esas cinco a diez direcciones muestra cómo gana sus visitas el sitio.</figcaption>
+</figure>
+
 ## Brecha de palabras clave: qué términos puedes ganar primero
 
 La brecha de palabras clave es la parte del análisis que más directamente se convierte en páginas nuevas. Compara las palabras clave en las que tus rivales ya posicionan con las tuyas, y quédate con las que puedes ganar este trimestre: términos de cola larga con intención de compra, donde una página bien escrita entra pronto. Los términos muy disputados, donde un rival lleva años de ventaja, quedan para una segunda ronda.
@@ -125,6 +141,26 @@ Cada mercado al que vendes tiene su propio conjunto de competidores, y por eso e
 
 El despacho de Valencia que mencionamos trabaja en cuatro idiomas: español, francés, inglés y ruso. En español compite con despachos nacionales de familia y herencias. En francés, con quienes atienden a los franceses residentes en la Costa Blanca. En inglés, con quienes atienden a la comunidad anglófona en herencias, NIE y compraventas. El ruso tiene su propio conjunto. Nuestra guía de [SEO para despachos de abogados](/es/seo-despachos-de-abogados/) cuenta cómo un despacho así atrae clientes en cada idioma.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Un despacho, cuatro idiomas: español, francés, inglés y ruso, cada uno con su propio conjunto de rivales.">
+<path d="M200 50 L52 102" class="fg-line"/>
+<path d="M200 50 L151 102" class="fg-line"/>
+<path d="M200 50 L250 102" class="fg-line"/>
+<path d="M200 50 L349 102" class="fg-line"/>
+<rect x="135" y="10" width="130" height="40" rx="6" class="fg-hot"/>
+<rect x="8" y="102" width="88" height="38" rx="6" class="fg-box"/>
+<rect x="107" y="102" width="88" height="38" rx="6" class="fg-box"/>
+<rect x="206" y="102" width="88" height="38" rx="6" class="fg-box"/>
+<rect x="305" y="102" width="88" height="38" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-strong">Un despacho</text>
+<text x="52" y="127" text-anchor="middle" class="fg-text">Español</text>
+<text x="151" y="127" text-anchor="middle" class="fg-text">Francés</text>
+<text x="250" y="127" text-anchor="middle" class="fg-text">Inglés</text>
+<text x="349" y="127" text-anchor="middle" class="fg-text">Ruso</text>
+</svg>
+<figcaption>Cada idioma trae su propia lista de competidores, su propio encargo de contenido y su propia estrategia de enlaces.</figcaption>
+</figure>
+
 Cuatro listas de competidores, cuatro encargos de contenido y cuatro estrategias de enlaces. Para tu empresa ocurre lo mismo con Francia, Bélgica o Alemania: el rival que te supera en París puede ser desconocido en Amberes. Y en mercados locales, como el de [Bemelman](https://bemelmanspuiterij.nl/), un especialista neerlandés en pintura en polvo, los rivales que cuentan son los de su zona. Para la visión completa, mira nuestras [buenas prácticas de SEO multilingüe](/es/buenas-practicas-seo-multilingue/).
 
 ## Cómo aparecen tus rivales en las respuestas de IA
@@ -132,6 +168,22 @@ Cuatro listas de competidores, cuatro encargos de contenido y cuatro estrategias
 Tus compradores ya preguntan a ChatGPT, Claude, Gemini o Perplexity, y cada respuesta cita a muy pocas fuentes. La [GEO](/es/optimizar-para-seo-y-geo/) es la forma de aparecer en ellas, y la lógica del análisis de competencia sigue siendo la misma.
 
 Lo que añadimos ahora para los clientes es una capa pequeña. Lanzamos de cinco a diez preguntas que un cliente real haría, anotamos los dominios citados y los cruzamos con los rivales de los resultados clásicos. A menudo coinciden; a veces aparece un sitio de nicho nuevo. Después revisamos cómo están escritas las páginas citadas: respuestas directas a preguntas concretas, autores identificables y fuentes externas sólidas.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Los dominios citados en las respuestas de IA, cruzados con los rivales de los resultados clásicos: a menudo los mismos, a veces un sitio de nicho nuevo.">
+<path d="M150 75 L225 35" class="fg-accent"/>
+<path d="M150 75 L225 115" class="fg-dim" stroke-dasharray="4 4"/>
+<rect x="15" y="55" width="135" height="40" rx="6" class="fg-box"/>
+<rect x="225" y="12" width="160" height="46" rx="6" class="fg-hot"/>
+<rect x="225" y="92" width="160" height="46" rx="6" class="fg-box"/>
+<text x="82" y="81" text-anchor="middle" class="fg-strong">Citas de IA</text>
+<text x="305" y="32" text-anchor="middle" class="fg-strong">Mismos rivales</text>
+<text x="305" y="50" text-anchor="middle" class="fg-label">a menudo</text>
+<text x="305" y="112" text-anchor="middle" class="fg-text">Sitio de nicho</text>
+<text x="305" y="130" text-anchor="middle" class="fg-label">a veces nuevo</text>
+</svg>
+<figcaption>La capa de IA se apoya en el trabajo sobre los resultados: los dominios citados suelen coincidir con la lista, y un sitio de nicho nuevo se suma cuando aparece.</figcaption>
+</figure>
 
 Una [consultoría de IA para SEO](/es/services/consultoria-de-inteligencia-artificial/) permite seguir estos patrones de citación de forma sistemática, mercado por mercado.
 

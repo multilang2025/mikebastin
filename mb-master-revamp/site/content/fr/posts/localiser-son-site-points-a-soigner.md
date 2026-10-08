@@ -26,6 +26,26 @@ Le visiteur juge en quelques secondes si la page a été écrite pour lui. Ces q
 
 Chaque pays lit un contenu à travers sa propre culture. Ce qui se vend bien en France appelle donc une relecture avant de passer sur un autre marché, pour repérer ce qui pourrait surprendre ou froisser. La culture façonne le ton, les couleurs, les images, l’humour et les comportements d’achat. Notre [création de contenu multilingue](/fr/services/creation-de-contenu-multilingue/) ajuste le contenu aux attentes de chaque public avant sa mise en ligne.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="La culture façonne la lecture d’une page dans chaque marché : son ton, ses couleurs, ses images et son humour.">
+<path d="M200 50 L52 102" class="fg-line"/>
+<path d="M200 50 L151 102" class="fg-line"/>
+<path d="M200 50 L250 102" class="fg-line"/>
+<path d="M200 50 L349 102" class="fg-line"/>
+<rect x="135" y="10" width="130" height="40" rx="6" class="fg-hot"/>
+<rect x="8" y="102" width="88" height="38" rx="6" class="fg-box"/>
+<rect x="107" y="102" width="88" height="38" rx="6" class="fg-box"/>
+<rect x="206" y="102" width="88" height="38" rx="6" class="fg-box"/>
+<rect x="305" y="102" width="88" height="38" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-strong">Culture</text>
+<text x="52" y="127" text-anchor="middle" class="fg-text">Ton</text>
+<text x="151" y="127" text-anchor="middle" class="fg-text">Couleurs</text>
+<text x="250" y="127" text-anchor="middle" class="fg-text">Images</text>
+<text x="349" y="127" text-anchor="middle" class="fg-text">Humour</text>
+</svg>
+<figcaption>Chacun de ces éléments se lit différemment d’un pays à l’autre ; relisez-les avant de passer sur un nouveau marché.</figcaption>
+</figure>
+
 ### Transcréer le message
 
 Une traduction littérale est correcte sur le plan grammatical. La transcréation, que nous pratiquons avec notre [traduction professionnelle](/fr/services/traduction-professionnelle/), adapte la voix, le style et le message à la culture locale : elle porte le ton, l’intention et la pertinence locale qui font vendre, et garde toute sa force à la marque. Un slogan, un titre de page d’accueil ou un appel à l’action se réécrivent ; une notice technique se traduit.
@@ -45,6 +65,22 @@ Une page juste rapporte quand elle est trouvée, et quand elle s’affiche bien 
 ### Travailler le SEO local et les mots-clés dans chaque langue
 
 Une page traduite se positionne quand elle est construite pour la recherche locale. Chaque marché a ses habitudes de recherche, ses formulations et parfois son moteur de prédilection. Le [référencement multilingue](/fr/services/referencement-multilingue/) commence par une recherche de mots-clés menée dans la langue cible.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="La même page construite de deux façons : sur des mots-clés source traduits tels quels, ou sur une recherche de mots-clés menée dans chaque langue.">
+<path d="M150 75 L225 35" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M150 75 L225 115" class="fg-accent"/>
+<rect x="15" y="55" width="135" height="40" rx="6" class="fg-box"/>
+<rect x="225" y="12" width="160" height="46" rx="6" class="fg-box"/>
+<rect x="225" y="92" width="160" height="46" rx="6" class="fg-hot"/>
+<text x="82" y="81" text-anchor="middle" class="fg-strong">Votre page</text>
+<text x="305" y="32" text-anchor="middle" class="fg-text">Mots-clés source</text>
+<text x="305" y="50" text-anchor="middle" class="fg-label">traduits</text>
+<text x="305" y="112" text-anchor="middle" class="fg-strong">Étude locale</text>
+<text x="305" y="130" text-anchor="middle" class="fg-label">dans chaque langue</text>
+</svg>
+<figcaption>Une page traduite se positionne quand ses mots-clés viennent d’une recherche menée dans la langue cible, au plus près des habitudes de recherche locales.</figcaption>
+</figure>
 
 ### Concevoir pour le mobile
 
@@ -75,6 +111,23 @@ Quelques exemples concrets :
 ### Adapter les moyens de paiement et les formats
 
 Les clients finalisent leur achat quand ils paient à leur façon, et quand les dates, les nombres et les devises s’affichent dans le format qu’ils connaissent.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 120" role="img" aria-label="Des prix au format local et le moyen de paiement préféré de l’acheteur mènent à un achat finalisé.">
+<path d="M126 60 L140 60" class="fg-line"/>
+<path d="M260 60 L274 60" class="fg-line"/>
+<rect x="6" y="35" width="120" height="50" rx="6" class="fg-box"/>
+<rect x="140" y="35" width="120" height="50" rx="6" class="fg-box"/>
+<rect x="274" y="35" width="120" height="50" rx="6" class="fg-hot"/>
+<text x="66" y="57" text-anchor="middle" class="fg-text">Prix</text>
+<text x="66" y="75" text-anchor="middle" class="fg-label">format local</text>
+<text x="200" y="57" text-anchor="middle" class="fg-text">Paiement</text>
+<text x="200" y="75" text-anchor="middle" class="fg-label">mode préféré</text>
+<text x="334" y="57" text-anchor="middle" class="fg-strong">Achat</text>
+<text x="334" y="75" text-anchor="middle" class="fg-label">finalisé</text>
+</svg>
+<figcaption>L’acheteur finalise son achat quand le prix lui est familier et qu’il paie à sa façon.</figcaption>
+</figure>
 
 | Élément | Royaume-Uni | Allemagne | Pays-Bas |
 | --- | --- | --- | --- |
