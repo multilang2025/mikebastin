@@ -169,7 +169,7 @@ export default function HomeEvidence({ locale = "en", band = "b" }: { locale?: "
             {t.sitesLede}
           </p>
         </Reveal>
-        <ul className="grid grid-cols-2 gap-4 sm:grid-cols-3">
+        <ul className="grid grid-cols-1 gap-4 min-[360px]:grid-cols-2 sm:grid-cols-3">
           {BT_SITES.map((s, i) => {
             const domain = `betranslated.${s.tld}`;
             return (
@@ -191,8 +191,8 @@ export default function HomeEvidence({ locale = "en", band = "b" }: { locale?: "
                       unoptimized
                       className="aspect-[5/4] w-full object-cover object-top"
                     />
-                    <span className="flex items-baseline justify-between gap-2 px-3 py-2.5">
-                      <span className="text-[.88rem] font-semibold transition-colors duration-200 group-hover:text-[var(--berry)]">{domain}</span>
+                    <span className="flex flex-col gap-0.5 px-3 py-2.5 lg:flex-row lg:items-baseline lg:justify-between lg:gap-2">
+                      <span className="text-[.8rem] font-semibold transition-colors duration-200 group-hover:text-[var(--berry)] sm:text-[.88rem]">{domain}</span>
                       <span className="text-[.76rem]" style={{ color: "var(--dim)" }}>{s.market[locale]}</span>
                     </span>
                   </a>
