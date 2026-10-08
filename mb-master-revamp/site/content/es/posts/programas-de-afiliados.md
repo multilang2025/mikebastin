@@ -1,7 +1,7 @@
 ---
 words: 1743
-title: "Programas de afiliados que compensan el tiempo de configuración"
-metaTitle: "Programas de afiliados que compensan la configuración"
+title: "Programas de afiliados que de verdad compensan: diez comparados"
+metaTitle: "Programas de afiliados que compensan: diez comparados"
 slug: "programas-de-afiliados"
 locale: "es"
 type: "posts"
@@ -35,7 +35,7 @@ Compara la comisión al final: un 50 % de comisión rinde cuando tus lectores qu
 
 Los programas de abajo equilibran esos tres filtros y están agrupados según la audiencia a la que sirven. Las condiciones cambian a menudo, así que revisa siempre la página oficial antes de fiarte de una cifra en cualquier artículo, incluido el nuestro.
 
-## Programas de comercio y comercio electrónico
+## Programas de tiendas y comercio electrónico
 
 ### Amazon Associates
 

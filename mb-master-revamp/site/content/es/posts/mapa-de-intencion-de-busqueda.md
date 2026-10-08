@@ -52,7 +52,7 @@ Toda búsqueda lleva un propósito detrás, y el sector del SEO lo reparte en cu
 
 Los desgloses publicados sobre el reparto de las búsquedas entre estos cuatro tipos varían mucho según la herramienta y el método (como ejemplo de recopilación, consulta las [estadísticas de intención de búsqueda de Amra y Elma](https://www.amraandelma.com/search-intent-statistics/)). Todos coinciden en que la mayoría de las búsquedas son informativas y solo una minoría está lista para comprar, así que una estrategia que cubre ambos extremos llega a la mayor parte de tu audiencia.
 
-## Cómo funciona el mapa de intención en la práctica
+## Construye el mapa en cinco pasos
 
 Bien hecho, el mapa te dice qué páginas escribir, cuáles reescribir y cuáles dejar como están. El proceso tiene cinco pasos.
 
@@ -99,7 +99,7 @@ La propia First Page Sage advierte de que las tasas varían mucho entre sectores
 
 El contenido alineado retiene además la atención, y las buenas posiciones acompañan a las páginas que responden a la pregunta correcta.
 
-## La IA como herramienta para crear contenido guiado por la intención
+## Acelera la investigación con IA y edita con criterio humano
 
 La IA acelera la investigación que hay detrás del mapa, y la edición humana mantiene las páginas con tu sello. Muchos equipos de marketing la usan ya en la planificación y el SEO de página, y el resultado se ve en los resultados de búsqueda:
 
@@ -123,7 +123,7 @@ Donde lideran las personas:
 
 Usa la IA para sacar patrones a la luz, generar primeros borradores y validar la clasificación, y aplica después el criterio humano a la calidad editorial y al matiz cultural.
 
-## Intención de búsqueda entre idiomas y culturas
+## Una misma frase, otra intención en cada país
 
 Investiga cada palabra clave en el mercado de destino y encontrarás la frase que usa la gente para comprar, de modo que la página posiciona y las ventas llegan. Una frase que indica intención de compra en un país puede indicar intención de investigar en otro.
 
@@ -135,7 +135,7 @@ Si tu empresa vende desde España o Latinoamérica a Francia, Alemania o el Rein
 
 La investigación con hablantes nativos detecta estas diferencias. Una [búsqueda de palabras clave multilingüe](/es/services/seo-tecnico/) eficaz combina la aportación de nativos, el análisis de los resultados de cada región y el conocimiento del comportamiento de compra local. La IA identifica a escala las diferencias entre variantes de idioma; la validación humana garantiza la precisión.
 
-## Cómo adaptar el contenido a la intención multilingüe
+## Adapta cada página a la pregunta de su mercado
 
 Una página localizada responde a la pregunta que se hace tu comprador francés, que puede diferir de la del buscador en español o en inglés. Pasos prácticos:
 
@@ -157,7 +157,7 @@ Dar al contenido un formato pensado para la extracción por IA es ya práctica h
 <p><strong>¿Quieres las palabras clave investigadas en cada idioma?</strong> Nuestro <a href="/es/services/posicionamiento-multilingue/">SEO multilingüe</a> da a cada idioma su propia estrategia, con sus palabras clave y sus textos escritos por nativos. <a href="/es/contactanos/">Reserva una primera conversación</a>.</p>
 </aside>
 
-## Cómo aplicar el mapa de intención en varios idiomas
+## Lleva el mapa a cada idioma
 
 Con estos cinco pasos, cada mercado recibe la página que busca.
 
@@ -176,7 +176,7 @@ Las etiquetas hreflang, las estructuras de URL y las etiquetas canónicas respal
 **Sigue el rendimiento en cada mercado.**  
 Usa Google Search Console y tu plataforma de analítica para seguir impresiones, porcentaje de clics y conversiones por idioma y región, y ajusta el contenido según los datos.
 
-## Intención de búsqueda en la era del cero clics
+## Haz que te citen en las búsquedas de cero clics
 
 Las vistas generales de IA y las búsquedas de cero clics han hecho del mapa de intención una prioridad. Buena parte de las búsquedas ya terminaba en la propia página de resultados:
 
@@ -206,4 +206,4 @@ El mapa de intención de búsqueda está en la base de toda estrategia de SEO ef
 
 La IA acelera la investigación y la clasificación; la experiencia humana asegura la precisión y el encaje cultural. Las empresas que combinan ambas y estructuran su contenido para la extracción por IA y para el lector mantienen su visibilidad, cambien como cambien los resultados de búsqueda.
 
-[Habla con nosotros sobre tu estrategia de SEO multilingüe](/es/contactanos/) para alinear el contenido con la intención de búsqueda real en cada mercado de destino.
+[Reserva una revisión de tu mapa de intención](/es/contactanos/) y alineamos tu contenido con lo que se busca de verdad en cada mercado de destino.

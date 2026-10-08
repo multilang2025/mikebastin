@@ -19,11 +19,11 @@ Un cliente que duda entre dos agencias, o una responsable de selección con cuar
 
 Los consejos que siguen sirven para un currículum, un perfil de LinkedIn o la web de tu empresa. En los ejemplos, [X] ocupa el lugar de un porcentaje: pon ahí tu propio resultado medido.
 
-## Escribir para quien decide
+## Escribe para quien decide
 
 Un cliente y un empleador necesitan que tu trayectoria empiece por cosas diferentes: escribe una versión para cada uno.
 
-### Adaptar el contenido a cada soporte
+### Adapta el contenido a cada soporte
 
 El lugar donde aparece tu trayectoria decide su extensión, su tono y lo que pone delante:
 
@@ -58,7 +58,7 @@ Quien selecciona personal lee los currículums en diagonal, así que cada línea
 <figcaption>El resumen hace la mayor parte del trabajo, porque para muchos lectores es todo el perfil. Todo lo que viene después respalda lo que el resumen promete.</figcaption>
 </figure>
 
-### Identificar lo que busca tu lector
+### Identifica lo que busca tu lector
 
 Quien contrata en marketing digital busca cuatro cosas, y una trayectoria que muestra las cuatro en la primera pantalla se lee hasta el final:
 
@@ -67,7 +67,7 @@ Quien contrata en marketing digital busca cuatro cosas, y una trayectoria que mu
 -   **Certificaciones**: las certificaciones del sector te dan ventaja y demuestran que sigues formándote, así que colócalas donde se vean.
 -   **Resultados medibles**: el marketing digital se juzga por resultados, así que enseña los tuyos, como el crecimiento del tráfico web, las tasas de conversión o la interacción.
 
-## Construir un resumen profesional convincente
+## Resume en dos frases qué haces y para quién
 
 Muchos lectores se quedan en tu resumen, así que tiene que vender por sí solo. Un buen resumen le cuenta al lector en dos frases qué haces, para quién y qué cambió gracias a ti.
 
@@ -81,11 +81,11 @@ Una frase da tu especialidad, tu nivel y el valor que aportas. Después añade u
 Ejemplo:  
 «Campañas que han aumentado de forma constante el tráfico orgánico un [X] % en seis meses, con especialización en convertir los buscadores en una fuente de conversiones para los clientes.»
 
-## Detallar tu experiencia laboral
+## Detalla tu experiencia laboral
 
 Tu historial laboral es donde el lector comprueba si el resumen decía la verdad.
 
-### Estructurar tu historial
+### Ordena tu historial
 
 Ordena los puestos en orden cronológico inverso, del más reciente al más antiguo. En cada uno, incluye:
 
@@ -95,19 +95,19 @@ Ordena los puestos en orden cronológico inverso, del más reciente al más anti
 -   Una breve descripción de tus responsabilidades
 -   Los logros clave
 
-### Usar verbos de acción y logros medibles
+### Usa verbos de acción y logros medibles
 
 «Responsable de» le dice al lector lo que se suponía que hacías. Un verbo y un resultado le dicen lo que hiciste. Usa verbos como «lideré», «desarrollé», «aumenté» u «optimicé», y acompaña cada uno con un resultado medido.
 
 Convierte «Responsable de la gestión SEO» en «Lideré iniciativas SEO que aumentaron el tráfico orgánico un [X] % en seis meses».
 
-### Explicar una pausa profesional (si la hay)
+### Explica una pausa profesional en una línea
 
 Un paréntesis explicado en una línea responde a la pregunta del lector antes de que la haga. Trátalo de forma breve y positiva, con las habilidades que desarrollaste en ese tiempo como freelance, en proyectos personales o estudiando.
 
 Por ejemplo: «Pausa profesional en 2021: certificaciones en Google Analytics y HubSpot para reforzar las habilidades técnicas de marketing.»
 
-## Destacar tu formación y tus certificaciones
+## Destaca tu formación y tus certificaciones
 
 En marketing digital, una certificación al día suele decir más que un título sobre lo que sabes hacer el lunes por la mañana, porque demuestra dominio práctico de las herramientas que usa un cliente o un empleador.
 
@@ -117,7 +117,7 @@ Coloca en un lugar visible certificaciones como Google Ads, Google Analytics, Hu
 
 Ejemplo: «Certificado en Google Analytics, HubSpot Content Marketing y Semrush SEO Toolkit.»
 
-## Poner en valor tus habilidades y tu experiencia
+## Muestra las habilidades que pide el puesto
 
 Una lista breve de habilidades calcada del puesto demuestra de entrada que encajas en el perfil.
 
@@ -128,7 +128,7 @@ Las habilidades técnicas como el SEO (saber aplicar una [lista de auditoría de
 
 Respalda cada habilidad blanda con un momento concreto: un equipo que dirigiste, un proyecto complejo que entregaste, una solución creativa a un problema de marketing.
 
-## Incorporar tus logros profesionales
+## Elige los logros que demuestran lo que sabes hacer
 
 Los logros son lo que el lector recuerda después de cerrar la página, así que elige los que demuestran que puedes entregar lo que necesita, con resultados y contexto.
 
@@ -141,7 +141,7 @@ El contexto convierte un número en una historia que el lector puede imaginar. C
 <p><strong>Tu equipo consigue buenos resultados; ¿quieres que tu web traiga también consultas de tus otros mercados?</strong> Nuestro <a href="/es/services/optimizacion-seo/">SEO internacional</a> posiciona tus páginas en cada mercado donde vendes, de Francia al Benelux y Alemania. <a href="/es/contactanos/">Reserva una primera llamada</a>.</p>
 </aside>
 
-## Adaptar tu trayectoria a cada oportunidad
+## Adapta tu trayectoria a cada oportunidad
 
 Una trayectoria escrita para un puesto convence al lector de ese puesto. Adáptala a la oferta o al cliente que tienes delante, porque el marketing digital abarca puestos muy distintos.
 
@@ -164,13 +164,13 @@ Los lectores con prisa leen las primeras líneas, así que pon ahí tu punto má
 
 Usa palabras que el lector entienda al momento. Quédate con los puestos y logros que sirven a tu objetivo actual, e incluye experiencia de otros ámbitos solo cuando muestre una habilidad transferible que el marketing digital valora.
 
-## Una revisión que protege tu credibilidad
+## Revisa el texto antes de enviarlo
 
 Un texto limpio protege una buena trayectoria, porque un lector que juzga tu atención al detalle se fija primero en los detalles.
 
 Pasa tu texto por LanguageTool o por el corrector de Word, y después léelo tú varias veces. Pide a un compañero o a un mentor de confianza que lo revise: un segundo lector ve el texto con ojos nuevos y detecta dónde el argumento necesita más.
 
-## En resumen
+## Trata tu trayectoria como una página de venta
 
 Tanto si te presentas a un puesto como si presentas una propuesta a un cliente o actualizas tu perfil de LinkedIn, tu trayectoria profesional es una página de venta sobre ti. Trátala como tal.
 

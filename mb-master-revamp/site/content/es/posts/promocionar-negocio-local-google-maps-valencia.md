@@ -21,7 +21,7 @@ En Valencia esa búsqueda llega en dos idiomas. Un vecino escribe «peluquería 
 
 Aquí tienes cómo aparecer en el mapa de Valencia, qué te da un buen puesto, dónde encajan las reseñas, las publicaciones, los anuncios y las respuestas de la IA, y cómo ver qué trae las llamadas. El detalle de cada campo de la ficha, de las categorías a las fotos, está en nuestra guía para [optimizar tu Perfil de Empresa de Google](/es/optimizar-perfil-de-empresa-de-google/).
 
-## Aparecer en Google Maps en Valencia
+## Verifica tu ficha para aparecer en el mapa
 
 Una ficha verificada es tu sitio en el mapa. Tu presencia en Maps sale de un Perfil de Empresa de Google (Google Business Profile).
 
@@ -63,7 +63,7 @@ Google espera una sola ficha por dirección. Los idiomas se trabajan en la descr
 <figcaption>Una sola ficha por dirección puede aparecer en las búsquedas en castellano y en inglés. La descripción, las publicaciones y las respuestas a las reseñas le dan las palabras de cada idioma.</figcaption>
 </figure>
 
-## Una ficha completa y exacta
+## Completa tu ficha campo a campo
 
 El cuidado de la ficha cuenta tanto como el producto. Una ficha completa y exacta posiciona mejor y recibe más clics.
 
@@ -105,7 +105,7 @@ Una ficha activa parece un negocio abierto. El Perfil de Empresa te deja publica
 
 Cada publicación necesita una llamada a la acción clara: reserva, llama, ven a vernos.
 
-## Prepararte para la búsqueda con IA en Maps
+## Prepara tu ficha para las preguntas a Gemini en Maps
 
 Google añade sus modelos Gemini a Maps, así que la gente hace preguntas completas con sus propias palabras, y las respuestas se apoyan en tu ficha y en tus reseñas. Una ficha completa y un flujo constante de reseñas cuentan ahora el doble.
 
@@ -118,7 +118,7 @@ En una ciudad con tantos residentes que buscan en inglés, esas preguntas llegan
 <p><strong>¿Tus clientes de Valencia buscan en más de un idioma?</strong> Nuestro <a href="/es/services/seo-local/">SEO local en Valencia</a> trabaja tu ficha, tus páginas por barrio y tus reseñas en el idioma de tus clientes, con una rutina para pedir reseñas y una respuesta a cada una. <a href="/es/contactanos/">Reserva una consulta gratuita</a>.</p>
 </aside>
 
-## Anuncios en Google Maps
+## Gana visibilidad desde el primer día con anuncios en Maps
 
 La visibilidad orgánica se construye en meses; los anuncios la consiguen desde el primer día. Google Ads puede poner tu negocio en lo alto de Maps y de los resultados locales. Google ha retirado sus antiguas campañas locales y las ha sustituido por Performance Max con objetivos de tienda física:
 
@@ -140,7 +140,7 @@ Todo tu presupuesto de medios compra anuncios: va directo a Google, y la gestió
 | Publicaciones de Google | Gratis | Interacción con tu ficha |
 | Performance Max para tienda física | De pago, tú fijas el presupuesto | Visibilidad inmediata |
 
-## Medir lo que trae las llamadas
+## Mide qué cambio trae las llamadas
 
 Las cifras te dicen qué cambio trajo las llamadas. El informe de rendimiento de tu Perfil de Empresa muestra:
 
@@ -150,8 +150,8 @@ Las cifras te dicen qué cambio trajo las llamadas. El informe de rendimiento de
 
 Usa esos datos para ajustar tu ficha y tus publicaciones. Si una búsqueda en inglés trae llamadas, dale más espacio en tu descripción y en tu web.
 
-## Lo esencial
+## Cinco hábitos que te ponen en el mapa de Valencia
 
 Promocionar un negocio local en Google Maps en Valencia se reduce a una ficha verificada y completa, citas coherentes, un flujo constante de reseñas con sus respuestas, publicaciones al ritmo del calendario de la ciudad y, cuando quieres visibilidad rápida, anuncios. Hazlo en castellano y en inglés, y llegarás a todos los vecinos que te buscan.
 
-Trabajamos desde nuestra oficina de Valencia, en la Calle Rugat 12 - 2, y llevamos, entre otros, el SEO de Delaguía y Luzón, un despacho de abogados de Valencia que atiende en cuatro idiomas. Si quieres que revisemos tu ficha en persona, [escríbenos](/es/contactanos/).
+Trabajamos desde nuestra oficina de Valencia, en la Calle Rugat 12 - 2, y llevamos, entre otros, el SEO de Delaguía y Luzón, un despacho de abogados de Valencia que atiende en cuatro idiomas. Si quieres que revisemos tu ficha en persona, [reserva una cita con nosotros](/es/contactanos/).

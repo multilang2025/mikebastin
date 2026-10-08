@@ -1,6 +1,7 @@
 ---
 words: 1111
-title: "Rastrear y medir rendimiento de GEO y citas de IA"
+title: "Medir el rendimiento GEO: cómo seguir tus citas en las respuestas de IA"
+metaTitle: "Medir el rendimiento GEO y tus citas en la IA"
 slug: "medir-rendimiento-geo"
 locale: "es"
 type: "posts"
@@ -44,7 +45,7 @@ Cada métrica clásica tiene su equivalente en las respuestas de IA, y leerlas j
 | Autoridad de dominio | Frecuencia con que te eligen como fuente | Autoridad temática |
 | Volumen de backlinks | Coherencia de los datos de tu empresa | Fiabilidad ante la IA |
 
-## Herramientas para rastrear tu presencia en motores generativos
+## Sigue tu presencia en los motores generativos
 
 Medir bien te dice qué páginas reescribir primero. Hoy el seguimiento combina varias fuentes:
 
@@ -132,4 +133,4 @@ En **Mike Bastin** combinamos:
 
 …para que tu marca aparezca en las respuestas de cada mercado.
 
-[Solicitar una auditoría GEO](/es/services/)
+[Pide tu auditoría GEO](/es/services/)

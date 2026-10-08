@@ -90,7 +90,7 @@ Una hora de controles antes de pagar protege un año de presupuesto en publicaci
 <p><strong>¿Quieres que cada enlace sea uno que puedas comprobar?</strong> El linkbuilding de nuestro <a href="/es/services/seo-tecnico/">servicio de SEO técnico</a> es white hat: enlaces editoriales, páginas de recursos y artículos invitados en webs con tráfico real y línea editorial real. <a href="/es/contactanos/">Reserva una primera llamada</a>.</p>
 </aside>
 
-## Plataformas de compraventa de enlaces: la lista de trabajo
+## Las 27 plataformas, por orden alfabético
 
 27 plataformas, por orden alfabético. Las descripciones recogen lo que las plataformas dicen ofrecer y no son recomendaciones; cada tamaño de inventario o precio de abajo es la cifra de la propia plataforma, tal como aparecía en su web cuando lo comprobamos el 26 de septiembre de 2026. Estas cifras cambian rápido.
 
@@ -128,7 +128,7 @@ Para una empresa hispanohablante, destacan tres grupos: las plataformas español
 
 Cada cifra de la última columna es lo que declara el propio proveedor, tomado de la web enlazada el 26 de septiembre de 2026; ninguna está auditada de forma independiente.
 
-## Lo esencial sobre las plataformas de enlaces
+## Invierte donde el enlace sigue contando
 
 La ecuación coste beneficio de los enlaces ha cambiado. Las publicaciones editoriales siguen funcionando, y es ahí donde el presupuesto rinde. Invierte en la zona intermedia solo después de los controles de arriba, y elige cada plataforma según lo que de verdad necesitas: relevancia de nicho, cobertura de idiomas, distribución de anclas o alcance editorial.
 

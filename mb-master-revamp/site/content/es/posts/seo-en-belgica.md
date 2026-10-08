@@ -20,7 +20,7 @@ El mercado también es mayor de lo que dicen las herramientas de palabras clave,
 
 Aquí tienes cómo busca cada comunidad lingüística de Bélgica, dónde las diferencias con Francia y con los Países Bajos mueven tus posiciones y qué hacer primero para ganar las tres.
 
-## El mercado digital belga
+## Cómo busca Bélgica
 
 Bélgica es un país pequeño con tres mercados de búsqueda. Si planificas para los tres, el país entero queda a tu alcance.
 
@@ -138,7 +138,7 @@ Combinadas con los **informes de rendimiento de Google Search Console**, estas f
 <p><strong>¿Quieres ver la demanda real de búsquedas en Bélgica?</strong> Nuestro trabajo de <a href="/es/services/seo-frances/">SEO en francés</a> arranca con una búsqueda de palabras clave hecha en francés, mercado a mercado, de modo que el francés belga se investiga como francés belga. <a href="/es/contactanos/">Habla con nosotros sobre Bélgica</a>.</p>
 </aside>
 
-## Retos por sector
+## Dónde pesa el idioma según tu sector
 
 El sector en el que vendes cambia dónde pesa más la división lingüística de Bélgica.
 
@@ -156,7 +156,7 @@ Estos sectores combinan normas lingüísticas propias y diferencias regionales d
 -   **Cumplimiento multilingüe**: la información al consumidor tiene a menudo que ir en el idioma de la región; confirma con tu asesor qué te exige la ley, y la [traducción profesional](/es/services/traduccion-profesional/) lo cubre.
 -   **Estrategias de palabras clave**: las regiones pueden usar términos distintos para los mismos [servicios](/es/services/optimizacion-seo/), así que el plan de palabras clave tiene que recoger cada uno.
 
-## Variantes del idioma y su impacto
+## Usa las palabras del francés belga
 
 Un término del francés belga hace que la página belga suene local, y coincide con la palabra que el comprador belga busca de verdad.
 
@@ -192,14 +192,14 @@ El comprador belga reparte su navegación casi a partes iguales entre el teléfo
 -   **Optimización mobile-first**: las páginas tienen que ser adaptables y rápidas en el móvil.
 -   **Comportamiento de búsqueda local**: los usuarios de móvil suelen buscar por ubicación, lo que pide un [SEO local](/es/services/seo-local/) preciso.
 
-## El paralelo de Luxemburgo
+## Luxemburgo, un caso parecido
 
 Luxemburgo, al lado, tiene retos multilingües parecidos: el luxemburgués, el francés y el alemán son oficiales, y el inglés se usa mucho además.
 
 -   **Mercado más pequeño**: Luxemburgo premia la eficiencia al dirigirse a audiencias de nicho.
 -   **Varios idiomas a la vez**: lo que funciona en Luxemburgo puede orientar tu [SEO multilingüe](/es/services/posicionamiento-multilingue/) en Bélgica.
 
-## Soluciones y buenas prácticas
+## Completa los datos y ajusta la técnica
 
 ### Métodos de investigación alternativos
 
@@ -215,7 +215,7 @@ Luxemburgo, al lado, tiene retos multilingües parecidos: el luxemburgués, el f
 <p><strong>¿Quieres que cada página belga posicione en Bélgica?</strong> En un proyecto belga mantenemos las versiones fr-BE y nl-BE aparte de las webs en <a href="/es/services/seo-frances/">francés</a> y en <a href="/es/services/seo-neerlandes/">neerlandés</a> dirigidas a Francia y a los Países Bajos, y cada versión posiciona en su propio país. <a href="/es/contactanos/">Habla con nosotros de tu proyecto belga</a>.</p>
 </aside>
 
-## Recomendaciones para tu empresa
+## Cuatro decisiones para tu web belga
 
 -   **Invierte en investigación local**: entiende qué hace distinto al mercado belga antes de construir.
 -   **Contenido por región**: planifica el contenido en torno a la cultura y el idioma de cada comunidad.
@@ -228,4 +228,4 @@ Bélgica premia a las empresas que la tratan como tres mercados. Empieza por com
 
 Mike Bastin ayuda a las empresas a ganar compradores en toda Bélgica. Trabajamos directamente en neerlandés y en francés, y las páginas en alemán las escriben redactores nativos alemanes, de modo que tu mensaje llega a las tres comunidades lingüísticas.
 
-[Contáctanos](/es/contactanos/) y revisamos juntos en qué punto está tu web belga.
+[Pide una revisión de tu web belga](/es/contactanos/) y vemos juntos en qué punto está.

@@ -142,7 +142,7 @@ Equilibramos las Core Web Vitals con los elementos de diseño que convierten:
 <p><strong>¿Te has hecho cargo de una web que ha crecido por capas?</strong> Nuestro <a href="/es/services/seo-tecnico/">SEO técnico para sitios multilingües</a> hace que tus versiones de idioma sumen, cada una apoyando a las demás. <a href="/es/contactanos/">Reserva una primera llamada</a>.</p>
 </aside>
 
-## Contenido, competencia y cumplimiento
+## Ocupa los huecos de la competencia y cumple las normas
 
 Analizamos a la competencia con herramientas como Ahrefs y SEMrush para encontrar los huecos que deja. Muchos despachos apuntan a términos amplios, lo que te deja libres servicios de alta intención como el NIE, la constitución de sociedades o el apoyo con traducciones juradas, y un contenido detallado, propio de cada mercado y escrito en lengua materna es lo que permite a despachos pequeños competir de tú a tú con actores internacionales.
 

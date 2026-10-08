@@ -1,6 +1,6 @@
 ---
 words: 944
-title: "Localización de interfaz: un producto que se siente local en cada mercado"
+title: "Localización de interfaz: cómo hacer que tu producto suene local"
 slug: "localizacion-de-interfaz-de-usuario"
 locale: "es"
 type: "posts"
@@ -18,7 +18,7 @@ Tu producto ya vende en Francia, Alemania o el Reino Unido y la traducción est�
 
 Esas mejoras llegan cuando adaptas la interfaz alrededor de la traducción: el texto, las imágenes, el diseño y el comportamiento de cada pantalla. Aquí tienes qué aporta a tu negocio, qué capas hay que trabajar y cómo planificarlo para que cada idioma nuevo encaje en el diseño que ya tienes.
 
-## Por qué la localización de la interfaz marca la diferencia
+## La interfaz, donde el usuario decide si el producto es para él
 
 Para una empresa que vende en varios mercados, la interfaz es donde el usuario decide si el producto es para él. Una interfaz localizada refleja su idioma y sus costumbres, resulta más fácil de usar, y el usuario le atribuye ese mérito a tu marca.
 
@@ -30,7 +30,7 @@ Los beneficios se resumen en tres:
 - **Conversión.** Una interfaz familiar facilita comprar, registrarse o completar cualquier acción clave.
 - **Confianza en la marca.** Adaptarte al idioma y a la cultura de tus usuarios demuestra respeto, y el respeto genera fidelidad.
 
-## Elementos básicos de la localización de la interfaz
+## Las cuatro capas que hay que localizar
 
 Conocer las cuatro capas te indica por dónde empezar. Una buena [localización de aplicaciones y software](/es/services/localizacion-de-aplicaciones/) trabaja cada una de ellas:
 
@@ -49,7 +49,7 @@ El formulario de dirección muestra bien lo que cambia de un mercado a otro. Un 
 
 En otros países cambian el orden de los campos, el formato del código postal o la forma de escribir el teléfono. El formulario que respeta esas costumbres se completa con menos fricción y entrega más pedidos.
 
-## Buenas prácticas
+## Cuatro hábitos que abaratan la localización
 
 Casi todo el coste se decide antes de traducir la primera cadena de texto. Cuatro hábitos lo mantienen bajo:
 
@@ -62,7 +62,7 @@ Casi todo el coste se decide antes de traducir la primera cadena de texto. Cuatr
 <p><strong>¿Vas a abrir un mercado nuevo y quieres que salga bien a la primera?</strong> Nuestra <a href="/es/services/localizacion-de-aplicaciones/">localización de aplicaciones y software</a> prepara primero la arquitectura, para que añadir un idioma sea un trabajo de traducción. <a href="/es/contactanos/">Reserva una primera conversación</a>.</p>
 </aside>
 
-## Herramientas que ayudan
+## Herramientas que mantienen todos los idiomas al día
 
 Las herramientas adecuadas mantienen todos los idiomas al mismo ritmo. La mayor parte de la localización de interfaces se apoya en tres tipos, que a menudo se combinan en una misma plataforma como Smartcat:
 
@@ -70,7 +70,7 @@ Las herramientas adecuadas mantienen todos los idiomas al mismo ritmo. La mayor 
 - **Las herramientas de traducción asistida por ordenador (TAO)** ofrecen a los traductores memoria de traducción, bases terminológicas y sugerencias automáticas, y así la terminología se mantiene uniforme.
 - **Las sugerencias de traducción automática** aceleran las cadenas rutinarias, y un traductor humano revisa el resultado.
 
-## Retos frecuentes y cómo resolverlos
+## Resuelve los tres retos más frecuentes
 
 Tres retos aparecen una y otra vez, y cada uno tiene una solución conocida:
 
@@ -111,4 +111,4 @@ Diseña los botones con margen y prueba la interfaz con el texto real del idioma
 
 Un producto que habla el idioma de sus usuarios, en sentido literal y cultural, resulta más fácil de usar, consigue más interacción y genera confianza entre los usuarios internacionales. Empieza por las pantallas que deciden la venta: el registro, el formulario de pedido y el pago.
 
-¿Quieres saber qué necesita tu interfaz para el próximo mercado? Te ofrecemos una evaluación gratuita de localización. [Escríbenos para empezar](/es/contactanos/).
+¿Quieres saber qué necesita tu interfaz para el próximo mercado? Te ofrecemos una evaluación gratuita de localización. [Pide la tuya](/es/contactanos/).
