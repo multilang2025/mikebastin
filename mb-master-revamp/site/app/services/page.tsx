@@ -219,24 +219,26 @@ export default function ServicesIndex() {
                 style={s.slug === "multilingual-seo" ? undefined : { background: "var(--bg)" }}
               >
                 <Link href={`/services/${s.slug}/`} className="flex h-full flex-col px-7 py-8">
-                  <span
-                    className="mb-5 flex h-11 w-11 items-center justify-center rounded-full transition-colors duration-300"
-                    style={{
-                      background: "var(--card-accent-soft, var(--berry-soft))",
-                      color: "var(--card-accent, var(--berry))",
-                    }}
-                  >
-                    <ServiceIcon slug={s.slug} />
-                  </span>
-                  {s.slug === "multilingual-seo" && (
+                  <span className="mb-5 flex items-center gap-3">
                     <span
-                      className="mb-4 inline-flex w-fit items-center gap-2 rounded-full px-4 py-1.5 text-[.76rem] font-bold uppercase tracking-[.1em]"
-                      style={{ background: "var(--berry)", color: "#0f2837" }}
+                      className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full transition-colors duration-300"
+                      style={{
+                        background: "var(--card-accent-soft, var(--berry-soft))",
+                        color: "var(--card-accent, var(--berry))",
+                      }}
                     >
-                      <span aria-hidden="true">★</span>
-                      Our core service
+                      <ServiceIcon slug={s.slug} />
                     </span>
-                  )}
+                    {s.slug === "multilingual-seo" && (
+                      <span
+                        className="inline-flex items-center gap-1.5 rounded-full px-3.5 py-1.5 text-[.8rem] font-semibold"
+                        style={{ background: "var(--berry)", color: "#0f2837" }}
+                      >
+                        <span aria-hidden="true">★</span>
+                        Our core service
+                      </span>
+                    )}
+                  </span>
                   <span className="ulink mb-2 text-[1.08rem] font-semibold">
                     {s.indexTitle ?? s.cardTitle ?? s.name}
                   </span>

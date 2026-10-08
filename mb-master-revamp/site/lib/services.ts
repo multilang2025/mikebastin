@@ -554,7 +554,7 @@ export const SERVICES: Service[] = [
     name: "French SEO",
     cardTitle: "French SEO and GEO for buyers in France",
     indexTitle: "French SEO for French buyers",
-    indexLine: "Win the French buyers who compare suppliers before they enquire: pages researched in French, written by natives, and counted in enquiries from France, Belgium, Switzerland and Canada.",
+    indexLine: "Rank in French. Win enquiries from France, Belgium, Switzerland and Canada.",
     indexAction: "Win French buyers",
     inline: "French SEO",
     h1: "French SEO agency that converts",
