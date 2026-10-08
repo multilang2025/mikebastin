@@ -51,6 +51,26 @@ A localized page earns once buyers find it. [On-page and technical SEO](/service
 
 Hreflang, geotargeting signals and structured data tell search engines which version to show each user. Combined with [multilingual SEO](/services/multilingual-seo/) techniques, they lift rankings in Spain and across the wider European market.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Hreflang tells search engines which language version to show each user: the English, French or Spanish page.">
+<path d="M200 50 L70 102" class="fg-line"/>
+<path d="M200 50 L200 102" class="fg-line"/>
+<path d="M200 50 L330 102" class="fg-line"/>
+<rect x="135" y="10" width="130" height="40" rx="6" class="fg-hot"/>
+<rect x="15" y="102" width="110" height="46" rx="6" class="fg-box"/>
+<rect x="145" y="102" width="110" height="46" rx="6" class="fg-box"/>
+<rect x="275" y="102" width="110" height="46" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-strong">Hreflang</text>
+<text x="70" y="122" text-anchor="middle" class="fg-text">English</text>
+<text x="70" y="140" text-anchor="middle" class="fg-label">en</text>
+<text x="200" y="122" text-anchor="middle" class="fg-text">French</text>
+<text x="200" y="140" text-anchor="middle" class="fg-label">fr</text>
+<text x="330" y="122" text-anchor="middle" class="fg-text">Spanish</text>
+<text x="330" y="140" text-anchor="middle" class="fg-label">es</text>
+</svg>
+<figcaption>One page, three language versions. Hreflang points each searcher to the version written in their language.</figcaption>
+</figure>
+
 <aside class="post-cta">
 <p><strong>Want translated pages ranking in the markets that buy?</strong> Our <a href="/services/multilingual-seo/">multilingual SEO programmes</a> brief native writers per market, so each language earns enquiries as well as traffic. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
@@ -67,6 +87,21 @@ Good groundwork makes your next market a content job. Most multilingual websites
 
 Internationalisation (i18n) and localization (l10n) must be part of the architecture. A [software internationalisation](/services/app-and-software-localisation/) process makes sure every component, from content management to forms and databases, supports local currencies, units and regulations.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 168" role="img" aria-label="Three layers: an i18n architecture for currencies, units and regulations, a multilingual CMS with its plugins above it, and the next market as a content job at the top.">
+<rect x="100" y="8" width="200" height="46" rx="6" class="fg-hot"/>
+<rect x="60" y="62" width="280" height="46" rx="6" class="fg-box"/>
+<rect x="20" y="116" width="360" height="46" rx="6" class="fg-box"/>
+<text x="200" y="28" text-anchor="middle" class="fg-text">Content job</text>
+<text x="200" y="46" text-anchor="middle" class="fg-label">next market</text>
+<text x="200" y="82" text-anchor="middle" class="fg-text">CMS and plugins</text>
+<text x="200" y="100" text-anchor="middle" class="fg-label">WordPress, WooCommerce</text>
+<text x="200" y="136" text-anchor="middle" class="fg-text">i18n architecture</text>
+<text x="200" y="154" text-anchor="middle" class="fg-label">currencies, units, regulations</text>
+</svg>
+<figcaption>Build the foundation once. With i18n in the architecture and a multilingual CMS above it, each new market becomes a content job.</figcaption>
+</figure>
+
 ## Localize checkout and payment methods
 
 Checkout is where localization turns straight into revenue. Localized design, from layout to icons and payment methods, affects conversion everywhere, and most at the last step:
@@ -80,6 +115,22 @@ Checkout is where localization turns straight into revenue. Localized design, fr
 > Source: [Stripe, "Wero guide for businesses in France", updated 6 April 2026](https://stripe.com/resources/more/wero-guide-france)
 
 Offering the methods each market trusts makes transactions smoother and lifts conversion rates.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="One checkout, localized per market: buyers in Spain pay with Bizum, buyers in France with Wero.">
+<path d="M150 75 L230 35" class="fg-line"/>
+<path d="M150 75 L230 115" class="fg-line"/>
+<rect x="20" y="55" width="130" height="40" rx="6" class="fg-hot"/>
+<rect x="230" y="12" width="150" height="46" rx="6" class="fg-box"/>
+<rect x="230" y="92" width="150" height="46" rx="6" class="fg-box"/>
+<text x="85" y="81" text-anchor="middle" class="fg-strong">Checkout</text>
+<text x="305" y="32" text-anchor="middle" class="fg-text">Spain</text>
+<text x="305" y="50" text-anchor="middle" class="fg-label">Bizum</text>
+<text x="305" y="112" text-anchor="middle" class="fg-text">France</text>
+<text x="305" y="130" text-anchor="middle" class="fg-label">Wero</text>
+</svg>
+<figcaption>The basket stays the same and the payment step changes, so each market finds the method it already trusts.</figcaption>
+</figure>
 
 ## Track each language version on its own
 

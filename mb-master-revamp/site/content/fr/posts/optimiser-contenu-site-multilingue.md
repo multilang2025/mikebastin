@@ -38,6 +38,26 @@ Une page localisée rapporte dès que les acheteurs la trouvent. Le [SEO on-page
 
 Les balises hreflang indiquent aux moteurs quelle version montrer à chaque utilisateur, et les données structurées les aident à comprendre de quoi parle chaque page. Le reste tient aux mots : des termes recherchés sur chaque marché, dans des titres et des textes écrits pour lui. Associés aux techniques de [référencement multilingue](/fr/services/referencement-multilingue/), ces réglages font progresser vos positions en Espagne comme sur le reste de vos marchés européens.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Les balises hreflang indiquent aux moteurs quelle version montrer à chaque utilisateur : la page française, espagnole ou allemande.">
+<path d="M200 50 L70 102" class="fg-line"/>
+<path d="M200 50 L200 102" class="fg-line"/>
+<path d="M200 50 L330 102" class="fg-line"/>
+<rect x="135" y="10" width="130" height="40" rx="6" class="fg-hot"/>
+<rect x="15" y="102" width="110" height="46" rx="6" class="fg-box"/>
+<rect x="145" y="102" width="110" height="46" rx="6" class="fg-box"/>
+<rect x="275" y="102" width="110" height="46" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-strong">Hreflang</text>
+<text x="70" y="122" text-anchor="middle" class="fg-text">Français</text>
+<text x="70" y="140" text-anchor="middle" class="fg-label">fr</text>
+<text x="200" y="122" text-anchor="middle" class="fg-text">Espagnol</text>
+<text x="200" y="140" text-anchor="middle" class="fg-label">es</text>
+<text x="330" y="122" text-anchor="middle" class="fg-text">Allemand</text>
+<text x="330" y="140" text-anchor="middle" class="fg-label">de</text>
+</svg>
+<figcaption>Une page, trois versions de langue. Les balises hreflang orientent chaque internaute vers la version écrite dans sa langue.</figcaption>
+</figure>
+
 <aside class="post-cta">
 <p><strong>Vous voulez que vos pages traduites se positionnent sur les marchés qui achètent ?</strong> Nos <a href="/fr/services/referencement-multilingue/">programmes de référencement multilingue</a> bâtissent une stratégie par marché, écrite par des rédacteurs de langue maternelle, pour que chaque langue vous envoie ses propres demandes. <a href="/fr/nous-contacter/">Présentez-nous vos marchés</a>.</p>
 </aside>
@@ -54,6 +74,21 @@ De bonnes bases transforment votre prochain marché en simple travail de contenu
 
 L’internationalisation (i18n) et la localisation (l10n) font partie de l’architecture. Un processus d’[internationalisation logicielle](/fr/services/localisation-applications/) prépare chaque composant, de la gestion de contenu aux formulaires et aux bases de données, aux devises, aux unités et aux réglementations locales.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 168" role="img" aria-label="Trois couches : une architecture i18n pour les devises, les unités et les réglementations, un CMS multilingue et ses extensions au-dessus, et au sommet le prochain marché, devenu un travail de contenu.">
+<rect x="100" y="8" width="200" height="46" rx="6" class="fg-hot"/>
+<rect x="60" y="62" width="280" height="46" rx="6" class="fg-box"/>
+<rect x="20" y="116" width="360" height="46" rx="6" class="fg-box"/>
+<text x="200" y="28" text-anchor="middle" class="fg-text">Travail de contenu</text>
+<text x="200" y="46" text-anchor="middle" class="fg-label">prochain marché</text>
+<text x="200" y="82" text-anchor="middle" class="fg-text">CMS et extensions</text>
+<text x="200" y="100" text-anchor="middle" class="fg-label">WordPress, WooCommerce</text>
+<text x="200" y="136" text-anchor="middle" class="fg-text">Architecture i18n</text>
+<text x="200" y="154" text-anchor="middle" class="fg-label">devises, unités, réglementations</text>
+</svg>
+<figcaption>Posez les fondations une fois : avec l’i18n dans l’architecture et un CMS multilingue par-dessus, chaque nouveau marché devient un travail de contenu.</figcaption>
+</figure>
+
 ## Proposez les moyens de paiement que chaque marché attend
 
 Le paiement est l’étape où la localisation se transforme directement en chiffre d’affaires. Un design localisé, de la mise en page aux icônes et aux moyens de paiement, influence la conversion sur tous les marchés, et surtout à la dernière étape :
@@ -67,6 +102,22 @@ Le paiement est l’étape où la localisation se transforme directement en chif
 > Source : [Stripe, « Wero : A new payment service in France », mis à jour le 6 avril 2026](https://stripe.com/resources/more/wero-guide-france)
 
 Proposer les moyens de paiement auxquels chaque marché fait confiance fluidifie les transactions et fait monter les taux de conversion.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Un même tunnel de paiement, localisé par marché : Bizum pour les acheteurs en Espagne, Wero pour les acheteurs en France.">
+<path d="M150 75 L230 35" class="fg-line"/>
+<path d="M150 75 L230 115" class="fg-line"/>
+<rect x="20" y="55" width="130" height="40" rx="6" class="fg-hot"/>
+<rect x="230" y="12" width="150" height="46" rx="6" class="fg-box"/>
+<rect x="230" y="92" width="150" height="46" rx="6" class="fg-box"/>
+<text x="85" y="81" text-anchor="middle" class="fg-strong">Paiement</text>
+<text x="305" y="32" text-anchor="middle" class="fg-text">Espagne</text>
+<text x="305" y="50" text-anchor="middle" class="fg-label">Bizum</text>
+<text x="305" y="112" text-anchor="middle" class="fg-text">France</text>
+<text x="305" y="130" text-anchor="middle" class="fg-label">Wero</text>
+</svg>
+<figcaption>Le panier reste le même et l’étape de paiement change : chaque marché y retrouve le moyen auquel il fait déjà confiance.</figcaption>
+</figure>
 
 ## Suivez chaque langue dans Search Console
 
