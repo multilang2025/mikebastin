@@ -292,7 +292,7 @@ export default function LeadGenerationPage() {
               Mike has worked in multilingual search for over two decades and
               founded BeTranslated, the translation agency he has run for
               twenty years, whose nine country sites each compete in their own
-              market, from the United States to Italy.
+              market, from the United States to the Netherlands.
               He works natively in French, fluently in English, Spanish and
               Dutch, and well enough in German, Italian and Portuguese to run
               SEO projects in them.

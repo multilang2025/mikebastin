@@ -13,6 +13,41 @@ How to use it:
 
 ---
 
+## 8 October 2026
+
+### Decided (Mike's answers to Víctoria's open items)
+1. **French SEO page H1** is "French SEO and GEO agency for companies selling into
+   France", with the subhead "Reach buyers in France, Belgium, Switzerland and Canada
+   with research, pages and reporting done in French" (PR #151). "That converts"
+   promised something the page cannot show.
+2. **Spanish SEO page H1** is "Spanish SEO and GEO agency for Spain and Latin
+   America" (PR #151).
+3. **Víctoria skims `/fr/blog/` and `/es/blog/` in a browser** once PR #151 is on
+   preview: every title and heading was rewritten on 8 Oct (humanised, more action
+   verbs). Flag anything that reads translated.
+4. **The GEO service page links to the Delaguía y Luzón case study** as its proof,
+   from the "who does the work" band.
+5. **"Who does the work" band on every templated service page**
+   (`components/ServiceTeamBand.tsx`): portrait, Mike's languages, BeTranslated,
+   ValenciaMove as our own site, and "Mike leads the team on every engagement". In
+   EN on all 19 service pages and in FR on `/fr/services/referencement-multilingue/`.
+6. **The "own budget" sentence** (6 Oct item 3) is reworded into a checkable claim:
+   "We run our own sites the way we run yours", followed by ValenciaMove and its
+   Search Console chart on the lead generation page.
+7. **Satisfaction bar for a service page** (6 Oct item 7): read only the h2 and h3
+   list aloud; every line names something the client gets or something we do.
+8. **Mike's interview** (Q5, Q7, Q9, Q10, Q12, Q15 to Q18, Q21, Q27 in
+   `OPEN-ITEMS.md`): to schedule with Víctoria.
+
+### Also on 8 Oct
+- Every heading and CTA on the site was reviewed for machine-written phrasing,
+  keyword stuffing and limp CTAs (about 860 changes, PR #151). Same consultation CTA
+  wording in each locale: "Book a free consultation", "Réserver une consultation
+  gratuite", "Reserva una consulta gratuita".
+- French homepage step 3 says "plus de 20 ans" (Mike).
+
+---
+
 ## 7 October 2026
 
 ### Decided later the same day

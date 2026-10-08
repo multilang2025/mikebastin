@@ -2,6 +2,7 @@ import type React from "react";
 import Link from "next/link";
 import Reveal from "@/components/Reveal";
 import ServiceProof from "@/components/ServiceProof";
+import ServiceTeamBand from "@/components/ServiceTeamBand";
 import SiteFooter from "@/components/SiteFooter";
 import Expandables from "@/components/Expandables";
 import ServiceHeroArt from "@/components/ServiceHeroArt";
@@ -171,6 +172,7 @@ export default function ServicePageView({
   const expandablesBand =
     service.expandables && service.expandables.length > 0 ? nextBand() : undefined;
   const engagementBand = nextBand();
+  const teamBand = nextBand();
   const ctaBand = nextBand();
   const absorbsBand = absorbed.length > 0 ? nextBand() : undefined;
   const siblingsBand = siblings.length > 0 ? nextBand() : undefined;
@@ -520,6 +522,8 @@ export default function ServicePageView({
           )}
         </div>
       </section>
+
+      <ServiceTeamBand slug={service.slug} locale={locale} band={teamBand} />
 
       {/* ============ CTA ============ */}
       <section className={`band band-${ctaBand} py-[clamp(64px,9vw,120px)]`}>
