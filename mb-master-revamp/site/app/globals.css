@@ -1448,10 +1448,15 @@ details.faq-item > summary:focus-visible {
   --berry: #f2556a;
   --berry-deep: #c9304a;
   --berry-soft: rgb(242 85 106 / 0.16);
+  --card-accent: #ffffff;
+  --card-accent-soft: rgb(255 255 255 / 0.14);
   background: color-mix(in oklab, #0f2837 86%, transparent) !important;
   -webkit-backdrop-filter: blur(12px);
   backdrop-filter: blur(12px);
   box-shadow: inset 0 4px 0 var(--berry);
+}
+.card-navy .ulink {
+  color: var(--card-accent);
 }
 :root[data-theme="dark"] .card-navy {
   --bg: #16384d;

@@ -221,7 +221,10 @@ export default function ServicesIndex() {
                 <Link href={`/services/${s.slug}/`} className="flex h-full flex-col px-7 py-8">
                   <span
                     className="mb-5 flex h-11 w-11 items-center justify-center rounded-full transition-colors duration-300"
-                    style={{ background: "var(--berry-soft)", color: "var(--berry)" }}
+                    style={{
+                      background: "var(--card-accent-soft, var(--berry-soft))",
+                      color: "var(--card-accent, var(--berry))",
+                    }}
                   >
                     <ServiceIcon slug={s.slug} />
                   </span>
@@ -243,7 +246,7 @@ export default function ServicesIndex() {
                   {s.indexAction && (
                     <span
                       className="mt-auto pt-5 text-[.92rem] font-semibold"
-                      style={{ color: "var(--berry)" }}
+                      style={{ color: "var(--card-accent, var(--berry))" }}
                     >
                       {s.indexAction}{" "}
                       <span
