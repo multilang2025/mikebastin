@@ -72,11 +72,14 @@ const HOW_IT_WORKS: HowCard[] = [
   },
 ];
 
+// Engagement terms only (owner, 8 Oct 2026: "Diversify or remove one if
+// it doesnt add value"). The written scope and the enquiries counted by
+// language were already the second and third HOW_IT_WORKS cards above, so
+// they left this list for what the cards do not say.
 const STEPS = [
   "Une consultation gratuite de trente minutes sur vos marchés, vos langues et ce que vous avez déjà essayé.",
-  "Un périmètre écrit pour le premier trimestre : les pages, les mots-clés et qui fait quoi.",
-  "Une livraison mensuelle, marché par marché, par des rédacteurs natifs du réseau BeTranslated, l’agence de traduction que nous dirigeons depuis vingt ans.",
-  "Des demandes comptées langue par langue, pour savoir quel marché rapporte.",
+  "Mike pilote chaque mission et reste votre interlocuteur du premier appel au rapport mensuel.",
+  "Chaque marché est écrit par des rédacteurs natifs du réseau BeTranslated, l’agence de traduction que nous dirigeons depuis plus de 20 ans.",
   "Un engagement au mois, que chacun peut arrêter avec un préavis.",
 ];
 
@@ -233,7 +236,7 @@ export default function FrenchHome() {
       <section className="band band-a py-[clamp(56px,8vw,104px)]">
         <div className="shell grid gap-[clamp(32px,5vw,64px)] lg:grid-cols-[minmax(0,1fr)_minmax(0,1.2fr)]">
           <Reveal>
-            <h2 className="text-[clamp(1.6rem,3vw,2.3rem)] font-semibold leading-[1.15]">Comment nous travaillons</h2>
+            <h2 className="text-[clamp(1.6rem,3vw,2.3rem)] font-semibold leading-[1.15]">Travailler avec nous</h2>
             <p className="mt-4 max-w-[40ch]" style={{ color: "var(--dim)" }}>
               Nous pilotons la stratégie nous-mêmes et répondons à chaque message, en général sous un jour ouvré.
             </p>
