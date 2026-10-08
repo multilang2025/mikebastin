@@ -83,6 +83,23 @@ Audita las páginas existentes con el mapa en la mano. Donde hay huecos, crea co
 **Supervisa y ajusta.**  
 Sigue la interacción, el porcentaje de clics y las conversiones. Las señales de intención cambian con el tiempo, sobre todo a medida que las vistas generales de IA redefinen lo que aparece arriba en los resultados.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="El mapa en cuatro pasos: investigar, analizar lo que posiciona, clasificar por intención y ajustar el contenido, con un bucle de vuelta para supervisar y ajustar.">
+<path d="M350 92 L350 118 L50 118 L50 92" class="fg-dim" stroke-dasharray="4 4"/>
+<line x1="50" y1="32" x2="350" y2="32" class="fg-rule"/>
+<circle cx="50" cy="32" r="16" class="fg-box"/>
+<circle cx="150" cy="32" r="16" class="fg-box"/>
+<circle cx="250" cy="32" r="16" class="fg-box"/>
+<circle cx="350" cy="32" r="16" class="fg-hot"/>
+<text x="50" y="72" text-anchor="middle" class="fg-text">Investiga</text>
+<text x="150" y="72" text-anchor="middle" class="fg-text">Analiza</text>
+<text x="250" y="72" text-anchor="middle" class="fg-text">Clasifica</text>
+<text x="350" y="72" text-anchor="middle" class="fg-text">Ajusta</text>
+<text x="200" y="140" text-anchor="middle" class="fg-label">supervisa y ajusta</text>
+</svg>
+<figcaption>La supervisión cierra el ciclo: cuando cambian las señales de intención, el mapa vuelve a la investigación y las páginas lo siguen.</figcaption>
+</figure>
+
 <aside class="post-cta">
 <p><strong>¿Llega tráfico y quieres convertirlo en consultas?</strong> Nuestro <a href="/es/services/seo-tecnico/">SEO técnico</a> lee cómo formula la gente su problema, cómo compara las opciones y qué escribe cuando ya ha decidido, y ordena el trabajo por etapa de decisión. <a href="/es/contactanos/">Reserva una primera conversación</a>.</p>
 </aside>
@@ -123,6 +140,24 @@ Donde lideran las personas:
 
 Usa la IA para sacar patrones a la luz, generar primeros borradores y validar la clasificación, y aplica después el criterio humano a la calidad editorial y al matiz cultural.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="La IA saca patrones, clasifica la intención y genera primeros borradores; después las personas aportan la voz de marca, la experiencia de primera mano y el matiz cultural.">
+<path d="M185 75 L215 75" class="fg-accent"/>
+<path d="M208 70 L215 75 L208 80" class="fg-accent"/>
+<rect x="15" y="15" width="170" height="120" rx="6" class="fg-box"/>
+<rect x="215" y="15" width="170" height="120" rx="6" class="fg-hot"/>
+<text x="100" y="45" text-anchor="middle" class="fg-strong">IA</text>
+<text x="100" y="75" text-anchor="middle" class="fg-label">patrones</text>
+<text x="100" y="97" text-anchor="middle" class="fg-label">clasificación</text>
+<text x="100" y="119" text-anchor="middle" class="fg-label">primeros borradores</text>
+<text x="300" y="45" text-anchor="middle" class="fg-strong">Personas</text>
+<text x="300" y="75" text-anchor="middle" class="fg-label">voz de marca</text>
+<text x="300" y="97" text-anchor="middle" class="fg-label">experiencia</text>
+<text x="300" y="119" text-anchor="middle" class="fg-label">matiz cultural</text>
+</svg>
+<figcaption>La IA saca los patrones a la luz con rapidez, y el criterio humano los convierte en páginas con la voz de tu marca.</figcaption>
+</figure>
+
 ## Una misma frase, otra intención en cada país
 
 Investiga cada palabra clave en el mercado de destino y encontrarás la frase que usa la gente para comprar, de modo que la página posiciona y las ventas llegan. Una frase que indica intención de compra en un país puede indicar intención de investigar en otro.
@@ -134,6 +169,22 @@ Si tu empresa vende desde España o Latinoamérica a Francia, Alemania o el Rein
 -   **«Nachhaltig» y «umweltfreundlich»:** dos traducciones de «sostenible» cuyos resultados pueden inclinarse uno hacia lo comercial y otro hacia lo informativo
 
 La investigación con hablantes nativos detecta estas diferencias. Una [búsqueda de palabras clave multilingüe](/es/services/seo-tecnico/) eficaz combina la aportación de nativos, el análisis de los resultados de cada región y el conocimiento del comportamiento de compra local. La IA identifica a escala las diferencias entre variantes de idioma; la validación humana garantiza la precisión.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="La misma consulta, «best smartphone» o «meilleur smartphone», puede llevar a comparativas listas para comprar en un mercado y a reseñas editoriales en otro.">
+<path d="M150 75 L225 35" class="fg-line"/>
+<path d="M150 75 L225 115" class="fg-accent"/>
+<rect x="15" y="55" width="135" height="40" rx="6" class="fg-box"/>
+<rect x="225" y="12" width="165" height="46" rx="6" class="fg-box"/>
+<rect x="225" y="92" width="165" height="46" rx="6" class="fg-hot"/>
+<text x="82" y="81" text-anchor="middle" class="fg-strong">Misma frase</text>
+<text x="307" y="32" text-anchor="middle" class="fg-text">Un mercado</text>
+<text x="307" y="50" text-anchor="middle" class="fg-label">comparativas</text>
+<text x="307" y="112" text-anchor="middle" class="fg-strong">Otro mercado</text>
+<text x="307" y="130" text-anchor="middle" class="fg-label">reseñas editoriales</text>
+</svg>
+<figcaption>Una frase, dos mercados, dos tipos de página: los resultados de cada país te dicen qué formato premia.</figcaption>
+</figure>
 
 ## Adapta cada página a la pregunta de su mercado
 

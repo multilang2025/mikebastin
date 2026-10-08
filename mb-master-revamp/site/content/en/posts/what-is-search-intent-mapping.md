@@ -89,6 +89,23 @@ Audit existing pages against the intent map. Where gaps exist, build new content
 **Monitor and adjust.**  
 Track engagement metrics, click-through rates, and conversions. Intent signals shift over time, particularly as AI Overviews reshape what appears at the top of search results.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Intent mapping in four steps, research, analyse what ranks, classify by intent and align the content, with a loop back to the start to monitor and adjust.">
+<path d="M350 92 L350 118 L50 118 L50 92" class="fg-dim" stroke-dasharray="4 4"/>
+<line x1="50" y1="32" x2="350" y2="32" class="fg-rule"/>
+<circle cx="50" cy="32" r="16" class="fg-box"/>
+<circle cx="150" cy="32" r="16" class="fg-box"/>
+<circle cx="250" cy="32" r="16" class="fg-box"/>
+<circle cx="350" cy="32" r="16" class="fg-hot"/>
+<text x="50" y="72" text-anchor="middle" class="fg-text">Research</text>
+<text x="150" y="72" text-anchor="middle" class="fg-text">Analyse</text>
+<text x="250" y="72" text-anchor="middle" class="fg-text">Classify</text>
+<text x="350" y="72" text-anchor="middle" class="fg-text">Align</text>
+<text x="200" y="140" text-anchor="middle" class="fg-label">monitor and adjust</text>
+</svg>
+<figcaption>Monitoring closes the loop: as intent signals shift, the map goes back to research and the pages follow.</figcaption>
+</figure>
+
 <aside class="post-cta">
 <p><strong>Traffic arriving and ready to turn into enquiries?</strong> The keyword research in our <a href="/services/technical-seo/">technical SEO service</a> reads how people phrase the problem, compare options and search once they have decided, and sorts the work by decision stage. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
@@ -131,6 +148,24 @@ Where people lead:
 
 AI works best as an accelerator. Use it to surface patterns, generate first drafts, and validate intent classification, then apply human judgement for editorial quality, strategic positioning, and cultural nuance.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="AI handles SERP patterns, intent classification and first drafts, then people take over for brand voice, first-hand experience and cultural fit.">
+<path d="M185 75 L215 75" class="fg-accent"/>
+<path d="M208 70 L215 75 L208 80" class="fg-accent"/>
+<rect x="15" y="15" width="170" height="120" rx="6" class="fg-box"/>
+<rect x="215" y="15" width="170" height="120" rx="6" class="fg-hot"/>
+<text x="100" y="45" text-anchor="middle" class="fg-strong">AI</text>
+<text x="100" y="75" text-anchor="middle" class="fg-label">SERP patterns</text>
+<text x="100" y="97" text-anchor="middle" class="fg-label">intent classes</text>
+<text x="100" y="119" text-anchor="middle" class="fg-label">first drafts</text>
+<text x="300" y="45" text-anchor="middle" class="fg-strong">People</text>
+<text x="300" y="75" text-anchor="middle" class="fg-label">brand voice</text>
+<text x="300" y="97" text-anchor="middle" class="fg-label">experience</text>
+<text x="300" y="119" text-anchor="middle" class="fg-label">cultural fit</text>
+</svg>
+<figcaption>AI surfaces the patterns at speed, and human judgement turns them into pages that sound like your brand.</figcaption>
+</figure>
+
 For a deeper look at AI’s role in SEO workflows, see the [AI and SEO strategies](/blog/how-ai-is-revolutionising-seo-strategies/) guide.
 
 ## Search intent across languages and cultures
@@ -146,6 +181,22 @@ Consider these examples:
 Native-speaker research catches these differences. Effective [multilingual keyword research](/services/multilingual-seo/) requires native-speaker input, regional SERP analysis, and an understanding of local buying behaviour.
 
 AI tools can accelerate this process by identifying intent differences across language variants at scale, but human validation remains essential for accuracy.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="The same smartphone query surfaces purchase-ready comparison pages in the US and editorial reviews in France.">
+<path d="M150 75 L225 35" class="fg-line"/>
+<path d="M150 75 L225 115" class="fg-accent"/>
+<rect x="15" y="55" width="135" height="40" rx="6" class="fg-box"/>
+<rect x="225" y="12" width="165" height="46" rx="6" class="fg-box"/>
+<rect x="225" y="92" width="165" height="46" rx="6" class="fg-hot"/>
+<text x="82" y="81" text-anchor="middle" class="fg-strong">Same query</text>
+<text x="307" y="32" text-anchor="middle" class="fg-text">US</text>
+<text x="307" y="50" text-anchor="middle" class="fg-label">comparison pages</text>
+<text x="307" y="112" text-anchor="middle" class="fg-strong">France</text>
+<text x="307" y="130" text-anchor="middle" class="fg-label">editorial reviews</text>
+</svg>
+<figcaption>One query, two markets, two page types: regional SERP analysis shows which format each market rewards.</figcaption>
+</figure>
 
 <aside class="post-cta">
 <p><strong>Want keywords researched in each language?</strong> Our <a href="/services/technical-seo/">technical SEO for multilingual websites</a> measures real demand and decision-stage language, so each language version wins its own buyers. <a href="/contact/">Book the discovery call</a>.</p>
