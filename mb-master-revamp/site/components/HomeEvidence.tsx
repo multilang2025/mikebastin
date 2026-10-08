@@ -5,15 +5,16 @@ import { PROJECTS, SHOT_VERSION } from "@/lib/projects";
 import { PROJECTS_ES, PROJECTS_FR } from "@/lib/projects-locale";
 import { CASE_SLUGS } from "@/lib/home-evidence";
 import { BT_SITES } from "@/lib/betranslated-sites";
-import { LEADS_HIGH, LEADS_LOW, MILLIONS, TOTAL_CLICKS } from "@/lib/results-totals";
+import { LEADS_HIGH, LEADS_LOW, MILLIONS, SITE_COUNT, TOTAL_CLICKS } from "@/lib/results-totals";
 
 const T = {
   en: {
     eyebrow: "Client results",
     heading: "Sites we run, measured in Google Search Console.",
-    leads: "enquiries a month, on average",
-    clicks: "clicks from Google",
-    impressions: "million Google impressions",
+    leads: "enquiries/mo",
+    clicks: "Google clicks",
+    impressions: "m Google impressions",
+    sites: "sites tracked",
     range: "to",
     source: "Totals across the sites we run search for, May to July 2026: enquiries are counted from each site’s form records, or given by the site owner where they also arrive by phone and email; clicks and impressions come from Google Search Console.",
     all: { href: "/results/", label: "See the results across our client sites" },
@@ -25,9 +26,10 @@ const T = {
   fr: {
     eyebrow: "Résultats clients",
     heading: "Des sites que nous gérons, mesurés dans Google Search Console.",
-    leads: "demandes par mois, en moyenne",
-    clicks: "clics depuis Google",
-    impressions: "millions d’impressions Google",
+    leads: "demandes/mois",
+    clicks: "clics Google",
+    impressions: "M d’impressions Google",
+    sites: "sites suivis",
     range: "à",
     source: "Totaux sur les sites dont nous gérons le référencement, de mai à juillet 2026\u00a0: les demandes sont comptées d’après les formulaires de chaque site, ou données par son propriétaire quand elles arrivent aussi par téléphone et par e-mail\u00a0; les clics et les impressions viennent de Google Search Console.",
     all: null,
@@ -39,9 +41,10 @@ const T = {
   es: {
     eyebrow: "Resultados de clientes",
     heading: "Webs que gestionamos, medidas en Google Search Console.",
-    leads: "consultas al mes, de media",
-    clicks: "clics desde Google",
-    impressions: "millones de impresiones en Google",
+    leads: "consultas/mes",
+    clicks: "clics de Google",
+    impressions: "M de impresiones Google",
+    sites: "sitios medidos",
     range: "a",
     source: "Totales de las webs cuyo posicionamiento llevamos, de mayo a julio de 2026: las consultas se cuentan a partir de los formularios de cada web, o las da su propietario cuando también llegan por teléfono y correo; los clics y las impresiones vienen de Google Search Console.",
     all: null,
@@ -62,7 +65,7 @@ function formatCount(n: number, locale: "en" | "fr" | "es", digits = 0) {
 
 /**
  * The evidence block every homepage carries straight after the hero
- * (declaudify brief, owner, 3 Oct 2026): three dated Search Console figures,
+ * (declaudify brief, owner, 3 Oct 2026): dated, site-wide performance figures,
  * then three compact case cards, instead of full spreads.
  */
 export default function HomeEvidence({ locale = "en", band = "b" }: { locale?: "en" | "fr" | "es"; band?: "a" | "b" }) {
@@ -72,6 +75,7 @@ export default function HomeEvidence({ locale = "en", band = "b" }: { locale?: "
     { v: `${formatCount(LEADS_LOW, locale)} ${t.range} ${formatCount(LEADS_HIGH, locale)}`, k: t.leads },
     { v: formatCount(TOTAL_CLICKS, locale), k: t.clicks },
     { v: formatCount(MILLIONS, locale, 1), k: t.impressions },
+    { v: formatCount(SITE_COUNT, locale), k: t.sites },
   ];
   const cases = CASE_SLUGS.map((slug) => PROJECTS.find((p) => p.slug === slug)).filter((p) => p !== undefined);
   return (
@@ -82,15 +86,17 @@ export default function HomeEvidence({ locale = "en", band = "b" }: { locale?: "
           <h2 className="mb-8 max-w-[26ch] text-[clamp(1.8rem,3.6vw,2.7rem)] font-semibold leading-[1.1]">{t.heading}</h2>
         </Reveal>
         <Reveal i={1}>
-          <dl className="mb-4 grid gap-6 sm:grid-cols-3">
+          <dl className="mb-4 grid grid-cols-2 gap-4 sm:gap-6 xl:grid-cols-4">
             {totals.map((e) => (
               <div key={e.k} className="border-t pt-4" style={{ borderColor: "var(--rule)" }}>
-                <dd className="display text-[clamp(1.8rem,3.2vw,2.4rem)] font-semibold leading-none" style={{ color: "var(--ink)" }}>
-                  {e.v}
-                </dd>
-                <dt className="mt-2 text-[.85rem]" style={{ color: "var(--dim)" }}>
-                  {e.k}
-                </dt>
+                <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
+                  <dd className="display text-[clamp(1.5rem,2vw,1.8rem)] font-semibold leading-none" style={{ color: "var(--ink)" }}>
+                    {e.v}
+                  </dd>
+                  <dt className="text-[.85rem]" style={{ color: "var(--dim)" }}>
+                    {e.k}
+                  </dt>
+                </div>
               </div>
             ))}
           </dl>

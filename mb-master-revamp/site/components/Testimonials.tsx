@@ -62,7 +62,7 @@ const UI: Partial<Record<Testimonial["lang"], Ui>> = {
     source: ["Every one of these is public on ", "the Google Business Profile", ", where you can check them against the source."],
     secondaryLabel: () => "Read in English",
     hideSecondary: "Hide translation",
-    showMore: "Show more reviews",
+    showMore: "Read more reviews",
     showLess: "Show fewer reviews",
     when: (en) => en,
   },
@@ -101,7 +101,19 @@ function Stars({ locale }: { locale: Testimonial["lang"] }) {
   );
 }
 
-function Card({ t, i, ui, locale }: { t: Testimonial; i: number; ui: Ui; locale: Testimonial["lang"] }) {
+function Card({
+  t,
+  i,
+  ui,
+  locale,
+  className = "",
+}: {
+  t: Testimonial;
+  i: number;
+  ui: Ui;
+  locale: Testimonial["lang"];
+  className?: string;
+}) {
   const [showSecondary, setShowSecondary] = useState(false);
   const translatedQuote = locale === "es" ? t.spanish : locale === "en" ? t.english : null;
   const hasOriginalToggle =
@@ -114,7 +126,7 @@ function Card({ t, i, ui, locale }: { t: Testimonial; i: number; ui: Ui; locale:
   void i;
   return (
     <figure
-      className="mb-5 flex break-inside-avoid flex-col gap-4 rounded-[4px] border p-6"
+      className={`mb-5 flex break-inside-avoid flex-col gap-4 rounded-[4px] border p-6 ${className}`}
       style={{ borderColor: "var(--rule)", background: "var(--shade)" }}
     >
       <div className="flex items-center justify-between gap-3">
@@ -182,9 +194,11 @@ function Card({ t, i, ui, locale }: { t: Testimonial; i: number; ui: Ui; locale:
 export default function Testimonials({
   locale = "en",
   initialCount,
+  mobileInitialCount,
 }: {
   locale?: Testimonial["lang"];
   initialCount?: number;
+  mobileInitialCount?: number;
 }) {
   const [filter, setFilter] = useState<(typeof FILTERS)[number]["id"]>("all");
   const [showAll, setShowAll] = useState(false);
@@ -193,7 +207,7 @@ export default function Testimonials({
   const inLocale = TESTIMONIALS.filter((t) => locale === "es" || t.lang === locale);
   const shown =
     filter === "all" ? inLocale : inLocale.filter((t) => t.theme === filter);
-  const visible = showAll || initialCount === undefined ? shown : shown.slice(0, initialCount);
+  const visible = initialCount === undefined ? shown : showAll ? shown : shown.slice(0, initialCount);
 
   // Only offer a theme filter that would actually return something.
   const available = FILTERS.filter(
@@ -232,7 +246,18 @@ export default function Testimonials({
 
       <div className="columns-1 gap-5 md:columns-2">
         {visible.map((t, i) => (
-          <Card key={t.name} t={t} i={i} ui={ui} locale={locale} />
+          <Card
+            key={t.name}
+            t={t}
+            i={i}
+            ui={ui}
+            locale={locale}
+            className={
+              mobileInitialCount !== undefined && i >= mobileInitialCount && !showAll
+                ? "hidden sm:flex"
+                : ""
+            }
+          />
         ))}
       </div>
 
@@ -241,6 +266,16 @@ export default function Testimonials({
           onClick={() => setShowAll((value) => !value)}
           aria-expanded={showAll}
           className="ulink mt-3 text-[.88rem]"
+          style={{ color: "var(--berry)" }}
+        >
+          {showAll ? ui.showLess : ui.showMore}
+        </button>
+      )}
+      {mobileInitialCount !== undefined && shown.length > mobileInitialCount && (
+        <button
+          onClick={() => setShowAll((value) => !value)}
+          aria-expanded={showAll}
+          className="ulink mt-3 text-[.88rem] sm:hidden"
           style={{ color: "var(--berry)" }}
         >
           {showAll ? ui.showLess : ui.showMore}
