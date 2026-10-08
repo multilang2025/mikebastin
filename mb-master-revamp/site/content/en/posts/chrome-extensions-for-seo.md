@@ -12,7 +12,7 @@ sourceUrl: "https://mikebastin.com/chrome-extensions-for-seo/"
 excerpt: "Check a redirect chain or a tracking tag in seconds, well before the next audit. Here are the ten Chrome extensions for SEO we keep installed."
 ---
 
-## Quick SEO checks with Chrome extensions
+## Confirm SEO faults the same day, from the browser
 
 A French page shows English copy, or enquiries from one market drop overnight. Each is quick to confirm on the page itself, and confirming it the same day keeps the enquiries coming.
 
@@ -59,7 +59,7 @@ The [Web Developer extension](https://chromewebstore.google.com/detail/web-devel
 
 [Redirect Path](https://chromewebstore.google.com/detail/redirect-path/aomidfkchockcldhbkggjokdkkebmdll?hl=en) shows every hop a URL takes, with the HTTP status code at each step. Spot chains and loops at a glance and cut them to a single hop, which keeps the page fast and passes link value in full. Our [technical SEO audit checklist](/blog/technical-seo-audit-checklist/) explains what to do with what it finds.
 
-## Keywords and competitors: extensions for sizing up a market
+## Size up a market's keywords and competitors
 
 What a competitor ranks for, and what it earns them, tells you whether a market is worth the budget before you commit it.
 
@@ -79,7 +79,7 @@ A broader market research tool, Similarweb shows you how a competitor gets its v
 
 [Wappalyzer](https://chromewebstore.google.com/detail/wappalyzer-technology-pro/gppongmhjkpfnbhagpmjfkannfbllamg) identifies the technology behind a site: CMS, ecommerce platform, analytics tools, JavaScript frameworks and server software. Handy for competitor research and audits.
 
-## Tracking
+## Check that every tracking tag fires
 
 Check that every tag fires, so each market shows its real strength and the next budget decision follows the right number.
 
@@ -87,7 +87,7 @@ Check that every tag fires, so each market shows its real strength and the next 
 
 Google's [Tag Assistant](https://chromewebstore.google.com/detail/tag-assistant/kejbdjndbnbjgmefkgdddjlbokphdefk?hl=en) checks that Google Analytics, Google Tag Manager and Google Ads conversion tags fire correctly, with tagassistant.google.com for in-page debugging. It replaces the older Legacy and Companion extensions, so install this one. Checking the tags is the usual way to find SEO results that are stronger than the reports show.
 
-## Using them well
+## Keep the set small and crawl for site-wide faults
 
 Extensions answer questions about one page. For anything site-wide, a crawler and Search Console are still the source of truth. Keep the set small, since some read every page you visit, and respect each site's terms of service when pulling data.
 

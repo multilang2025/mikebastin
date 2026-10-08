@@ -1,6 +1,6 @@
 ---
 words: 816
-title: "Visa nomade numérique en Espagne 2026 : guide complet pour les francophones"
+title: "Visa nomade numérique en Espagne 2026 : conditions, revenus et démarches pour les francophones"
 metaTitle: "Visa nomade numérique en Espagne : guide 2026"
 slug: "visa-nomade-numerique-espagne"
 locale: "fr"
@@ -25,7 +25,7 @@ Vous rêvez de travailler depuis Valence tout en gardant vos clients à Paris, B
 
 * * *
 
-## **1\. Qu’est-ce que le visa télétravail espagnol ?**
+## 1\. Qu’est-ce que le visa télétravail espagnol ?
 
 Le _visado para teletrabajo de carácter internacional_ permet de résider en Espagne tout en exerçant une activité professionnelle à distance pour des entreprises ou clients situés **hors d’Espagne**. Deux configurations principales existent :
 
@@ -38,7 +38,7 @@ Le _visado para teletrabajo de carácter internacional_ permet de résider en Es
 
 * * *
 
-## **2\. Revenus minimaux : combien faut-il gagner ?**
+## 2\. Revenus minimaux : combien faut-il gagner ?
 
 Les seuils sont calculés en fonction du **SMI (Salario Mínimo Interprofesional)**. En 2026, le SMI est fixé à **1 221 €/mois** (Real Decreto 126/2026). Voici les exigences :
 
@@ -72,7 +72,7 @@ Par personne supplémentaire
 
 * * *
 
-## **3\. Qui peut postuler ?**
+## 3\. Qui peut postuler ?
 
 Pour être éligible, vous devez remplir **trois conditions clés** :
 
@@ -85,7 +85,7 @@ Pour être éligible, vous devez remplir **trois conditions clés** :
 
 * * *
 
-## **4\. Checklist des documents à fournir**
+## 4\. Rassemblez les documents à fournir
 
 Préparez les pièces suivantes (vérifiez les exigences de votre consulat) :
 
@@ -125,7 +125,7 @@ Préparez les pièces suivantes (vérifiez les exigences de votre consulat) :
 
 * * *
 
-## **5\. Démarches : consulat ou UGE ?**
+## 5\. Déposez votre demande au consulat ou à l’UGE
 
 Deux options s’offrent à vous :
 
@@ -137,7 +137,7 @@ Deux options s’offrent à vous :
 
 * * *
 
-## **6\. Régime fiscal Beckham : pour qui et comment ?**
+## 6\. Régime fiscal Beckham : pour qui et comment ?
 
 Le **régime fiscal impatrié** (ou _Beckham law_) permet de bénéficier d’un taux d’imposition réduit (**24 % jusqu’à 600 000 €**) pendant **6 ans**, sous conditions :
 
@@ -151,29 +151,29 @@ Le **régime fiscal impatrié** (ou _Beckham law_) permet de bénéficier d’un
 
 * * *
 
-## **7\. Questions fréquentes**
+## 7\. Questions fréquentes
 
-### **Délai pour obtenir le visa ?**
+### Quel délai pour obtenir le visa ?
 
 La loi prévoit **10 jours ouvrables** pour les visas (consulat) et **20 jours** pour les autorisations de résidence (UGE). En pratique, comptez **plusieurs semaines** pour la collecte des documents et la prise de rendez-vous.
 
-### **Le régime Beckham est-il automatique avec le visa ?**
+### Le régime Beckham est-il automatique avec le visa ?
 
 C’est une **option fiscale** à activer séparément via le **Modelo 149**.
 
-### **Quand faut-il une traduction assermentée ?**
+### Quand faut-il une traduction assermentée ?
 
 Dès qu’un document étranger doit être présenté aux autorités espagnoles, une **traduction jurée** est obligatoire.
 
 * * *
 
-## **Besoin d’aide pour votre dossier ?**
+## Faites-vous accompagner pour votre dossier
 
 Entre casier judiciaire, assurances et traductions, un dossier de visa peut vite devenir complexe. Pour un accompagnement adapté à votre situation :
 
 -   [Demander un devis pour une traduction assermentée](/fr/nous-contacter/)
--   [Nous contacter pour un dossier « prêt à déposer »](/fr/nous-contacter/)
+-   [Faire préparer un dossier « prêt à déposer »](/fr/nous-contacter/)
 
 * * *
 
-**Ce guide est-il clair pour vous ?** Si vous avez des questions spécifiques sur votre situation, écrivez-nous.
+**Une question précise sur votre situation ?** Écrivez-nous en quelques lignes, et nous vous répondons sur votre cas.

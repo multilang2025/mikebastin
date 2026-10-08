@@ -19,7 +19,7 @@ Vous avez déjà des lecteurs, en France, en Belgique ou sur vos marchés à l�
 
 Si vous êtes éditeur, créateur de contenu ou agence et que vous construisez un revenu récurrent, les programmes ci-dessous sont ceux que nous avons vus rémunérer réellement, pour nos clients comme pour nos propres sites. Nous avons vérifié chaque taux sur la page officielle du programme le 26 septembre 2026. Ces programmes, pour la plupart américains, paient en dollars : nous reprenons leurs montants tels qu’ils les publient.
 
-## Choisir le bon programme d’affiliation du premier coup
+## Choisissez le bon programme du premier coup
 
 Chaque mois consacré au bon produit donne des contenus qui rapportent, et le choix s’élargit :
 
@@ -142,7 +142,7 @@ La troisième consiste à investir dans l’e-mail. L’étude d’Authority Hac
 <p><strong>Vous avez le trafic et voulez que vos lecteurs achètent directement chez vous ?</strong> Notre <a href="/fr/services/referencement-multilingue/">référencement multilingue</a> attire sur chacun de vos marchés les visiteurs qui cherchent ce que vous vendez, page par page et langue par langue. <a href="/fr/nous-contacter/">Réservez un premier échange</a>.</p>
 </aside>
 
-## Tester un programme en quatre étapes
+## Testez un programme en quatre étapes
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 130" role="img" aria-label="Quatre étapes : choisir un programme, produire cinq contenus, suivre les résultats, puis développer ou changer.">

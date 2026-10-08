@@ -19,7 +19,7 @@ Vos pages en espagnol sont rédigées, traduites et en ligne. L’étape suivant
 
 Bien réglée, cette couche rentabilise chaque page que vous avez fait traduire. Voici le SEO technique dont un site a besoin pour réussir en Espagne, dans l’ordre où il rapporte, pour repérer ce que votre site possède déjà et ce qu’il reste à ajouter.
 
-## Les fondations : la structure du site
+## Posez une structure de site claire
 
 Un acheteur qui trouve la bonne page en deux clics reste avec vous, et les moteurs de recherche lisent tout aussi facilement une structure claire. La structure du site porte tout le reste : elle se règle en premier.
 
@@ -48,7 +48,7 @@ Un acheteur qui trouve la bonne page en deux clics reste avec vous, et les moteu
 
 Donnez aux internautes espagnols une arborescence logique et facile à parcourir, et concevez la hiérarchie du site en tenant compte des [nuances culturelles](/fr/services/creation-de-contenu-multilingue/). Que votre public soit à Madrid ou à Valence, les habitudes locales influencent la façon de naviguer.
 
-## Recherche de mots-clés pour les moteurs espagnols
+## Ciblez les mots que cherchent les Espagnols
 
 Un site techniquement solide se positionne sur les recherches qui comptent quand il cible les bons mots. La [recherche de mots-clés](/fr/services/seo-technique/) distingue l’espagnol d’Espagne des variantes d’Amérique latine, et ce sont les mots-clés localisés qui amènent le trafic qui achète. Pour une entreprise francophone, le terme traduit depuis le français diffère souvent de ce que tape l’acheteur espagnol : la requête se vérifie donc dans les données du marché.
 
@@ -84,7 +84,7 @@ Presque toute la population en âge de travailler est en ligne.
 
 Les [données de Business of Apps sur le marché espagnol des applications](https://www.businessofapps.com/data/spain-app-market/) détaillent l’usage des smartphones et des applications. La répartition varie aussi selon le secteur : vérifiez dans vos propres statistiques la part mobile de votre public, car les sites B2B comptent souvent bien plus de visites sur ordinateur que la moyenne nationale.
 
-## Vitesse du site et performance
+## Gagnez des secondes sur chaque page
 
 Chaque seconde gagnée sur le chargement d’une page espagnole garde l’acheteur sur elle, et les pages rapides se positionnent aussi mieux. PageSpeed Insights et GTmetrix montrent où part le temps ; le tableau ci-dessous reprend les corrections habituelles.
 
@@ -99,7 +99,7 @@ Chaque seconde gagnée sur le chargement d’une page espagnole garde l’achete
 | Cache du navigateur | Définir des en-têtes de cache sur les ressources statiques pour accélérer les visites suivantes |
 | Polices | Passer au format WOFF2, précharger les polices principales |
 
-## Structure des URL et ciblage international
+## Montrez la bonne page à Madrid et à Mexico
 
 Un ciblage bien réglé permet à Google de montrer votre page espagnole à un acheteur de Madrid et votre page mexicaine à un acheteur de Mexico. Un domaine .es aide en Espagne, et des balises hreflang correctes font servir la bonne version linguistique au bon public. Pour un site qui tourne déjà en .fr, .be ou .ch, la version espagnole trouve sa place sur un domaine .es ou dans un sous-répertoire dédié, avec son propre jeu de balises hreflang.
 
@@ -109,7 +109,7 @@ Construisez des structures d’URL qui reflètent la langue et la culture des [i
 <p><strong>Vos pages espagnoles sont en ligne et vous voulez les voir apparaître en Espagne ?</strong> Apportez la question à un <a href="/fr/nous-contacter/">premier échange</a> : nous l’examinons avec vous, marché par marché, depuis Valence.</p>
 </aside>
 
-## Données structurées et résultats enrichis
+## Obtenez des résultats enrichis avec les données structurées
 
 Un résultat enrichi prend plus de place et attire plus de clics qu’un simple lien bleu : c’est pourquoi le balisage vaut l’effort une fois les fondations solides. Les données structurées d’entreprise locale, d’organisation et d’événement renforcent la visibilité locale dans les résultats espagnols.
 
@@ -144,7 +144,7 @@ Les points propres à l’Espagne demandent un audit propre à l’Espagne, et c
 
 **Comportement des internautes :** l’engagement varie d’une région à l’autre, et le ciblage fonctionne mieux quand vous savez comment.
 
-## Suivi et audit
+## Auditez votre site à intervalles réguliers
 
 Les sites évoluent : des extensions se mettent à jour, des pages s’ajoutent, des redirections s’accumulent. Des audits réguliers gardent votre site techniquement solide au fil du temps.
 
@@ -154,7 +154,7 @@ Google Search Console, SISTRIX et Oncrawl suivent la performance et la visibilit
 <p><strong>Vous voulez que votre site espagnol soit suivi entre deux refontes ?</strong> Notre <a href="/fr/services/seo-espagnol/">service de SEO espagnol</a> comprend un rapport mensuel par marché : l’Espagne et le Mexique ont chacun leurs chiffres, et chaque changement apparaît sur le marché où il se produit. <a href="/fr/nous-contacter/">Parlez-nous de votre site espagnol</a>.</p>
 </aside>
 
-## Construire un site qui performe en Espagne
+## Construisez un site trouvé, compris et rapide en Espagne
 
 Un site espagnol trouvé, compris et rapide donne à votre contenu la chance de convaincre des acheteurs. De la recherche de mots-clés aux Core Web Vitals, chaque élément du [SEO technique d’un site multilingue](/fr/seo-technique-site-multilingue/) compte, et l’ordre dans lequel vous les traitez décide de la rapidité du retour.
 

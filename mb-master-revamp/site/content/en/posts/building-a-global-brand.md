@@ -1,6 +1,6 @@
 ---
 words: 915
-title: "Building a global brand"
+title: "Building a global brand: what travels and what to adapt"
 slug: "building-a-global-brand"
 locale: "en"
 type: "posts"
@@ -81,7 +81,7 @@ Fixing it takes a transcreation pass plus on-page tweaks per market. Eight to tw
 <p><strong>Recognise the pattern in your own markets?</strong> Our <a href="/services/multilingual-seo/">multilingual SEO programmes</a> brief native writers per market, so each language is written for its own buyers and earns enquiries as well as traffic. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
-## A practical checklist
+## Answer these before you launch in a new market
 
 Every item below is cheaper to fix before launch than after. Answer these before you ship.
 
@@ -100,4 +100,4 @@ If you are launching across two or more markets, we are happy to look at the gap
 
 We work in French, English, Spanish, and Dutch fluently, and know enough German and Italian to manage SEO projects in both. Most of what we do for clients sits on the seam between brand voice and SEO performance, where getting it right earns real revenue.
 
-[Get in touch](/contact/) or read more about [how we run multilingual branding work](/services/multilingual-seo/).
+[Book a discovery call](/contact/) or read more about [how we run multilingual branding work](/services/multilingual-seo/).

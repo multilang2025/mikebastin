@@ -12,13 +12,13 @@ sourceUrl: "https://mikebastin.com/email-marketing-hacks-boosting-open-rates-and
 excerpt: "Your emails get opened; now make them sell. These email marketing hacks lift open rates and conversions: sharper subject lines, mobile layouts, segments."
 ---
 
-## Proven strategies to increase email performance and drive results
+## Earn the open, then the sale
 
 Your list is growing, your emails go out on time, and the next step is the sales they should bring in. Every send that earns a read trains your subscribers to open the next one.
 
 Below: subject lines that earn the open, emails people can act on from a phone, segments that make each send relevant, and the numbers that show whether email pays.
 
-## Writing compelling subject lines
+## Write subject lines that earn the open
 
 The subject line earns the chance for everything else in the email.
 
@@ -31,14 +31,14 @@ Emotionally charged words trigger curiosity or urgency. Use them where they are 
 -   “Breaking”
 -   “Insider”
 
-### Employ the curiosity gap
+### Open a curiosity gap
 
 Hint at something valuable and keep the full reveal for the email. For example:
 
 -   “The workout trick that’s changing lives”
 -   “You won’t believe what we’ve discovered about productivity”
 
-### Personalisation beyond first names
+### Personalise beyond the first name
 
 A first name is expected. A detail the reader recognises as theirs gets noticed:
 
@@ -49,7 +49,7 @@ A first name is expected. A detail the reader recognises as theirs gets noticed:
 
 Your audience decides what works. Test subject line styles, lengths and elements on every send and keep what wins.
 
-## Optimizing email content for mobile devices
+## Design every email for the phone first
 
 An email that reads easily on a phone carries most of its readers through to your offer, so mobile optimization comes first.
 
@@ -57,17 +57,17 @@ An email that reads easily on a phone carries most of its readers through to you
 >
 > Source: [Litmus, email client market share, July 2026 data](https://www.litmus.com/email-client-market-share)
 
-### Embrace responsive design
+### Build with responsive design
 
 Emails should adapt to every screen size. A single-column layout keeps scrolling easy.
 
-### Optimize for quick scanning
+### Write for a quick scan
 
 -   Use short paragraphs and bullet points
 -   Leave plenty of white space
 -   Make CTAs large and easily tappable (minimum 44×44 pixels)
 
-### Optimize images so emails load and still make sense
+### Make images load fast and read well when switched off
 
 -   Give every image alt text, so the email reads well with images switched off
 -   Compress images to reduce load times
@@ -77,7 +77,7 @@ Emails should adapt to every screen size. A single-column layout keeps scrolling
 
 Preview every email on various platforms with tools like Litmus or Email on Acid before it goes to your whole list.
 
-## Using personalisation and segmentation
+## Segment your list and personalise each send
 
 A message written for one segment persuades that segment. Segments let each subscriber get the email that fits.
 
@@ -108,7 +108,7 @@ Match campaigns to the customer’s journey:
 -   Re-engagement campaigns for inactive users
 -   Loyalty rewards for frequent customers
 
-## Advanced analytics and optimization
+## Read the numbers behind each send
 
 Judge email on the right number and you improve the right thing.
 
@@ -156,7 +156,7 @@ AI and machine learning can predict:
 -   Which products a customer is most likely to buy next
 -   When a customer is at risk of churning
 
-### Automated optimization of subject lines, send times and content
+### Let automation test subject lines, send times and content
 
 AI-powered tools can automatically:
 
@@ -164,6 +164,6 @@ AI-powered tools can automatically:
 -   Optimize send times
 -   Personalise content for each recipient
 
-## Where to start
+## Fix your weakest link on the next send
 
 Pick the one weakest link, whether subject lines, mobile layout or segments, and test a fix on your next send. Judge it on clicks and conversions, keep what wins, and move to the next.

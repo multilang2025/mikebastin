@@ -12,7 +12,7 @@ sourceUrl: "https://mikebastin.com/15-simple-blog-post-ideas-to-help-attract-mor
 excerpt: "Your blog gets read; next it should bring enquiries. These 15 blog post ideas are sorted by the buying stage they win, so each post earns its place."
 ---
 
-## Content strategies that convert readers into customers
+## Write for the reader who is ready to buy
 
 Your blog gets visits, and the next step is posts your sales team can trace to enquiries. A post written for the reader who is ready to buy earns back the day it took to write, and puts you in front of that reader first.
 
@@ -142,7 +142,7 @@ Announcing new features with clear benefit statements brings existing customers 
 
 **Example:** A project management tool announces “New Gantt chart view now available in Asana integration” to retain users.
 
-## Where to start
+## Pick one format per buying stage
 
 Pick one format per buying stage to start with. Measure each in Google Analytics 4 and Google Search Console, and double down on the formats that generate leads.
 

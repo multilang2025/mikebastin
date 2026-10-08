@@ -18,13 +18,13 @@ Your translation budget covers two markets and your sales team wants six. AI tra
 
 Below: where AI earns its place, where a native speaker adds the most, and how to get the speed with the accuracy.
 
-## The rise of AI in translation and localization
+## What changed in machine translation
 
 Businesses that use AI well now reach new markets faster. Neural machine translation (NMT), natural language processing (NLP) and, more recently, large language models have sharply improved the quality and speed of automated translation. For many content types, a machine draft is now the normal starting point.
 
 For most businesses the question now is where AI needs a human alongside it. Our [multilingual SEO consulting](/services/multilingual-seo/) starts there.
 
-## Opportunities for businesses
+## What AI translation gives your business
 
 ### Faster turnaround
 
@@ -47,7 +47,7 @@ Big catalogues and frequently updated content are where AI's pace shows. AI hand
 
 Your best translators do their best work on nuance. Automating routine strings frees them for the nuanced and creative work that decides whether a market trusts you. [AI consulting](/services/ai-consulting/) helps decide which tasks to automate first.
 
-## Challenges and how to manage them
+## Handle the risks before you publish
 
 Each of these is cheapest to handle before publication.
 
@@ -69,7 +69,7 @@ For confidential material, work with [professional translation services](/servic
 <p><strong>Want your machine-translated pages to say exactly the right thing?</strong> Our <a href="/services/ai-translation-and-post-editing/">AI translation and post-editing</a> puts a native speaker over the machine output, with review effort scaled to what each page puts at risk. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
-## Using AI effectively in localization
+## Split the work between machine and people
 
 The businesses that get the saving and keep the quality split the work the same way:
 
@@ -79,9 +79,9 @@ The businesses that get the saving and keep the quality split the work the same 
 - **Manage your language data.** Keep translation memories and glossaries up to date for consistency across languages.
 - **Stay informed.** Models change quickly, so review your tools regularly.
 
-## Where to start
+## Start with one market and one content type
 
-Pick one market and one content type, run AI with human post-editing, and have a native reader check the result before you scale. The speed comes from the machine; the trust still comes from people. [Contact our team](/contact/) for advice matched to your business.
+Pick one market and one content type, run AI with human post-editing, and have a native reader check the result before you scale. The speed comes from the machine; the trust still comes from people. [Book a call with our team](/contact/) for advice matched to your business.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 112" role="img" aria-label="Four steps: an AI draft for one market, post-editing by a person, a native reader's check, then scaling to the next market.">

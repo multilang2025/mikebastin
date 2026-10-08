@@ -13,7 +13,7 @@ sourceUrl: null
 excerpt: "Stratégie marketing à l’international : les dix leviers d’une PME qui s’exporte, leur délai de retour, et les deux à lancer en premier sur votre marché."
 ---
 
-## Choisir par où commencer votre marketing à l’international
+## Choisissez par où commencer votre marketing à l’international
 
 Votre premier marché étranger rapporte le plus vite quand une petite équipe concentre son budget sur deux ou trois canaux, donne à chacun de quoi travailler, et voit en moins d’un an lesquels méritent d’être gardés. Pour une PME française, belge, suisse ou luxembourgeoise qui vend déjà hors de ses frontières, le choix du point de départ est la décision qui compte.
 
@@ -155,7 +155,7 @@ Les entreprises françaises peuvent exposer sur un [Pavillon France](https://www
 
 Avec l’affiliation, vous payez à la vente : des partenaires locaux touchent une commission sur les ventes qu’ils génèrent, une façon peu coûteuse d’entrer sur un nouveau marché. Les affiliés locaux connaissent les préférences et les habitudes d’achat de leur audience, et chaque vente est suivie : vous voyez ce qui fonctionne sur chaque marché et déplacez l’effort en conséquence. Pour comparer les commissions et les durées de cookie pratiquées, consultez notre sélection de [programmes d’affiliation qui rémunèrent bien](/fr/programmes-affiliation/).
 
-## Les assistants multilingues et le service client
+## Les assistants multilingues pour répondre à toute heure
 
 Un acheteur situé sur un autre fuseau horaire attend une réponse à son heure, dans sa langue. Les assistants multilingues répondent aux questions courantes, règlent les problèmes simples et guident le client jusqu’à l’achat dans sa propre langue, à toute heure. Ils captent aussi des demandes en posant des questions de qualification et en recommandant le bon produit ou le bon service. Notre article sur le [marketing et l’IA](/fr/marketing-ia/) détaille la mise en place et la relecture dans chaque langue.
 

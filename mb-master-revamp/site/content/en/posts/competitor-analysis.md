@@ -12,7 +12,7 @@ sourceUrl: "https://mikebastin.com/competitor-analysis/"
 excerpt: "Benchmarking against the rival you meet in sales? In search it is often another. Competitor analysis that finds who actually wins your buyers."
 ---
 
-## Competitor analysis that drives strategy
+## Find the rivals your buyers really meet in search
 
 You are probably benchmarking against the company you meet in sales pitches. In search your rival is often someone else, and finding them points every month’s budget at the right pages.
 
@@ -53,7 +53,7 @@ Knowing that changes the brief. You aim at the three blogs that actually capture
 <figcaption>Your rival list comes out of the search results. The pages that keep turning up across your buyer queries are the ones your brief should aim at.</figcaption>
 </figure>
 
-## The four things worth extracting
+## Pull these four things from your rivals' data
 
 Five rivals produce thousands of rows. Four things in them change what you do next. When a client asks us to analyse five rivals, this is what we pull.
 
@@ -95,7 +95,7 @@ Ahrefs themselves [document the gap](https://help.ahrefs.com/en/articles/431381-
 <p><strong>Want measured numbers behind your plans, alongside tool estimates?</strong> Our <a href="/services/technical-seo/">technical SEO work</a> sets up GA4 with traffic split by market, so you can check the estimates against measured figures. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
-## Multilingual competitor analysis is plural by default
+## Map a separate set of rivals for each language
 
 Sell in more than one language and each language brings its own rivals. The law firm we mentioned earlier has three sets.
 
@@ -153,4 +153,4 @@ We do this for clients in legal, freight, real estate, and translation across si
 
 The SERP ranks pages, whatever the org chart says, and your analysis can do the same.
 
-[Get in touch](/contact/) or look at [how we run multilingual SEO programmes](/services/multilingual-seo/).
+[Book a discovery call](/contact/) or look at [how we run multilingual SEO programmes](/services/multilingual-seo/).

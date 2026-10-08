@@ -114,7 +114,7 @@ La solution passe par une transcréation des messages clés et des ajustements d
 <p><strong>Vous reconnaissez ce scénario sur vos propres marchés ?</strong> Notre <a href="/fr/services/referencement-multilingue/">référencement multilingue</a> donne à chaque langue sa propre stratégie, écrite par des rédacteurs natifs, pour que chaque marché vous envoie ses propres demandes en plus de son trafic. <a href="/fr/nous-contacter/">Réserver une consultation gratuite</a>.</p>
 </aside>
 
-## Une liste de contrôle avant le lancement
+## Vérifiez ces points avant le lancement
 
 Chaque point ci-dessous coûte moins cher à régler avant le lancement qu’après. Passez-les en revue avant la mise en ligne.
 
@@ -127,10 +127,10 @@ Chaque point ci-dessous coûte moins cher à régler avant le lancement qu’apr
 
 Six cases cochées, et la marque est arrivée sur le marché, en plus d’avoir passé la frontière. Notre panorama des [stratégies marketing à l’international](/fr/strategie-marketing-international/) vous aide ensuite à choisir les canaux qui la feront connaître.
 
-## Un regard extérieur sur votre marque internationale
+## Comparez votre marque à ce que voit chaque marché
 
 Si vous lancez votre marque sur deux marchés ou plus, nous regardons volontiers avec vous l’écart entre votre marque au niveau stratégique et ce que chaque marché voit réellement. Pour relier tous vos canaux autour de cette marque, notre article sur l’[agence marketing 360](/fr/agence-marketing-360/) montre à quoi ressemble un plan unique.
 
 Nous travaillons directement en français, en anglais, en espagnol et en néerlandais, et nous maîtrisons assez l’allemand et l’italien pour mener des projets SEO dans ces deux langues. L’essentiel de notre travail se situe à la jonction entre la voix de la marque et la performance dans les moteurs, là où un travail juste rapporte un vrai chiffre d’affaires.
 
-[Contactez-nous](/fr/nous-contacter/) ou découvrez [notre approche du référencement multilingue](/fr/services/referencement-multilingue/).
+[Parlez-nous de vos marchés de lancement](/fr/nous-contacter/) ou lisez [notre approche du référencement multilingue](/fr/services/referencement-multilingue/).

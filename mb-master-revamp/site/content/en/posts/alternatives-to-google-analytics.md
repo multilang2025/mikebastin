@@ -19,7 +19,7 @@ Your analytics should tell you which market deserves the next budget: full Europ
 
 Below: five Google Analytics alternatives, what each costs to start, and which business each suits. Prices are each vendor’s published entry price when we checked on 26 September 2026, in the currency the vendor quotes; they change often, so confirm before you commit.
 
-## Why consider an alternative?
+## When a switch from GA4 is worth the effort
 
 Switching takes effort, so match it to a need you actually have:
 
@@ -32,7 +32,7 @@ Switching takes effort, so match it to a need you actually have:
 <p><strong>Want to see which market is actually performing?</strong> The tool matters less than the setup. Our <a href="/services/conversion-tracking/">conversion tracking per market</a> shows which language earns the enquiry, with consent mode accounted for. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
-## Top Google Analytics alternatives
+## Five Google Analytics alternatives and what each does best
 
 Five tools, each strongest at a different job:
 
@@ -147,7 +147,7 @@ Five tools, each strongest at a different job:
 
 Prices are taken from each vendor’s pricing page on 26 September 2026 and sourced under each tool above.
 
-## Choosing the right alternative
+## Start from the question your team needs answered
 
 The right choice is made once: one migration, and reports you can compare from the first month. Start from the question your team most needs answered:
 
@@ -196,7 +196,7 @@ Then check the shortlist against:
 <p><strong>Selling in several languages and reading one blended report?</strong> Our <a href="/services/multilingual-seo/">multilingual SEO programmes</a> give each market its own strategy, its own native writing and a number of its own. <a href="/contact/">Talk to us about your markets</a>.</p>
 </aside>
 
-## Where to start
+## Keep GA4 or switch: decide in three steps
 
 Google Analytics is still capable, and for many businesses a cleaner setup solves more than a switch:
 

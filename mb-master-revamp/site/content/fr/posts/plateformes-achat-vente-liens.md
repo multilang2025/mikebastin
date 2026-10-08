@@ -52,7 +52,7 @@ Si vous avez acheté des liens avant 2022, vérifiez lesquels comptent encore. J
 
 Les mises à jour suivantes de Google contre le spam vont dans le même sens. Les sites continuent de se positionner, et la valeur des liens de faible qualité est ramenée à zéro, comme l’expliquent les [règles de Google Search Essentials relatives au spam](https://developers.google.com/search/docs/essentials/spam-policies).
 
-## Évaluer une plateforme avant de payer
+## Évaluez une plateforme avant de payer
 
 Une heure de contrôles avant de payer protège une année de budget de publication. Le nom de la plateforme compte moins que l’inventaire qui se trouve derrière.
 
@@ -126,7 +126,7 @@ Pour une entreprise francophone, trois familles ressortent : les places de marc
 
 Chaque chiffre de la dernière colonne est l’affirmation du fournisseur lui-même, relevée sur le site lié le 26 septembre 2026 ; aucun n’a fait l’objet d’un audit indépendant.
 
-## L’essentiel sur les plateformes de liens
+## Investissez d’abord dans les publications éditoriales
 
 L’équation coût-bénéfice des liens a changé. Les publications éditoriales fonctionnent toujours, et c’est là que le budget se rentabilise. Investissez dans l’entre-deux seulement après les contrôles ci-dessus, et choisissez chaque plateforme selon votre besoin réel : pertinence de niche, couverture linguistique, répartition des ancres ou portée éditoriale.
 

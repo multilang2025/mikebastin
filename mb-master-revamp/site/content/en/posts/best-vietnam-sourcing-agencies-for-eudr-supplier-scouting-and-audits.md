@@ -115,7 +115,7 @@ FVSource sits between sourcing consultancy and operational execution, supporting
 
 [KPMG](https://kpmg.com/xx/en/our-insights/esg/the-eu-deforestation-free-regulation.html) helps organisations put sourcing and procurement inside a solid risk and compliance framework, building supplier assessment models, compliance workflows and performance indicators. Its focus sits above daily factory work: making sure your supplier data will stand up to external audit.
 
-## How to prepare for EUDR compliance
+## Prepare for EUDR compliance step by step
 
 Every step below costs least when done before the deadline. In order:
 
@@ -152,7 +152,7 @@ The same applies to Khmer, Lao, Malay, Tagalog, Burmese, Bahasa Indonesia and th
 <p><strong>Compliance files in Vietnamese that an auditor has to accept?</strong> Our <a href="/services/translation-services/">translation services</a> run through the BeTranslated network, with certified and sworn translators per language and per specialism. <a href="/contact/">Tell us the language pair and the documents</a>.</p>
 </aside>
 
-## Where to start
+## Four decisions to make before December
 
 Four decisions to make now, while there is still time before the December deadline:
 

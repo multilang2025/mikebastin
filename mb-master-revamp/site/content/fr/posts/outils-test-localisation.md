@@ -12,7 +12,7 @@ sourceUrl: null
 excerpt: "Outils de test de localisation : repérez les défauts de mise en page, de texte et de format avant vos utilisateurs, pour des versions propres."
 ---
 
-## Des défauts de localisation corrigés avant vos utilisateurs
+## Corrigez les défauts de localisation avant vos utilisateurs
 
 Votre produit fonctionne parfaitement en français, et la version allemande ou néerlandaise peut en faire autant : chaque libellé tient dans son bouton, chaque date affiche le bon mois, dès le premier jour.
 
@@ -38,7 +38,7 @@ Beaucoup d’outils interviennent aussi avant qu’une version n’atteigne qui 
 
 Les défauts apparaissent ainsi tôt. Associés à une relecture humaine et à des [contenus écrits pour chaque marché](/fr/services/creation-de-contenu-multilingue/), ces outils gardent le produit juste sur le plan culturel et solide sur le plan technique.
 
-## Les outils par type, et ce que chacun repère
+## Comparez les outils par type
 
 Chaque outil couvre une partie du travail ; le tableau montre ce que votre configuration couvre déjà et ce qu’il reste à ajouter.
 
@@ -121,6 +121,6 @@ La façon d’utiliser les outils décide si chaque nouveau marché coûte moins
 <p><strong>Vous lancez une nouvelle langue et voulez la réussir dès le premier jour ?</strong> Notre <a href="/fr/services/localisation-de-site-web/">localisation de site web</a> comprend un contrôle qualité complet dans chaque langue avant la mise en ligne. <a href="/fr/nous-contacter/">Demandez votre évaluation de localisation gratuite</a>.</p>
 </aside>
 
-## Lancer chaque marché avec l’assurance du premier
+## Lancez chaque marché avec l’assurance du premier
 
 La bonne combinaison d’outils et de pratiques permet à votre équipe d’aborder chaque nouveau marché avec la même assurance que le premier. Automatisez les contrôles répétitifs, et confiez à des locuteurs natifs les décisions qui demandent du jugement.

@@ -120,7 +120,7 @@ Put transcreation on your homepage and machine translation on a product manual, 
 <p><strong>Need a French contract or certificate that a court or embassy will accept?</strong> Our <a href="/services/translation-services/">translation services</a> run through the BeTranslated network, with certified and sworn translators per language and specialism. <a href="/contact/">Tell us what the document is for</a>.</p>
 </aside>
 
-## A real example from a recent project
+## How we translated a Spanish retailer's catalogue for France and Belgium
 
 A Spanish e-commerce client wanted their full product catalogue translated for the French and Belgian markets: eight thousand SKUs, six hundred category descriptions and a hundred-page corporate site, around 180,000 words in all. Three decisions kept the budget realistic, each matching the service tier to the risk of the content.
 
@@ -145,7 +145,7 @@ A Spanish e-commerce client wanted their full product catalogue translated for t
 
 Total turnaround was 11 weeks. French organic traffic moved from negligible to a meaningful share of the brand's overall sessions within two quarters of launch.
 
-## How to brief us for an English to French project
+## Send us four things for an accurate quote
 
 A complete brief gets you an accurate quote. Send us four things:
 
@@ -156,11 +156,11 @@ A complete brief gets you an accurate quote. Send us four things:
 
 From there we quote a fixed price for the whole project, so you know the cost up front.
 
-## Where to start
+## Start with an audit of your French pages
 
 French pays back well when the work is done properly: rankings that hold, a clean regulatory record in Québec, and brand copy that draws French readers in.
 
-For a free 20-minute audit of your current French-language content, [get in touch](/contact/) and we will walk through what we see. For other language pairs, see our [expert translation services](/services/translation-services/). For why translation and SEO need planning together, read [how we work](/how-i-work/).
+[Book a free 20-minute audit](/contact/) of your current French-language content, and we will walk you through what we see. For other language pairs, see our [expert translation services](/services/translation-services/). For why translation and SEO need planning together, read [how we work](/how-i-work/).
 
 ## Frequently asked questions
 

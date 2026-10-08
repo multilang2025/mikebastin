@@ -242,7 +242,7 @@ New regulations in Brazil (LGPD), India (DPDP Act 2023) and across Southeast Asi
 -   Encrypt customer data at rest and in transit
 -   Communicate privacy practices clearly on all customer-facing platforms
 
-## What comes next
+## Plan AI, localization and compliance together
 
 The markets with the most growth potential demand genuine [localization](/services/website-localisation/). Businesses that build adaptable operations, diversified supply chains and market-specific [digital strategies](/services/multilingual-seo/) will pull ahead, because the change is here to stay.
 

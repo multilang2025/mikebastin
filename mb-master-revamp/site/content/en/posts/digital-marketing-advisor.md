@@ -13,13 +13,13 @@ sourceUrl: "https://mikebastin.com/digital-marketing-advisor/"
 excerpt: "Marketing spend is up and you want enquiries to follow. Here is how to tell whether you need a digital marketing advisor or an agency first."
 ---
 
-## Hiring a digital marketing advisor or an agency
+## Decide whether the plan or the people need fixing
 
 Your marketing spend has gone up, and the next step is enquiries that rise with it. The answer sits either in the plan or in the people doing it, and you are about to hire someone for one of them.
 
 Pick the right one and a year of budget goes to the right outcome. An advisor sets direction. An agency does the work. Below: how to tell which your business needs, what each really costs, and when the answer is both.
 
-## Digital marketing advisor vs agency at a glance
+## Advisor or agency at a glance
 
 After more than two decades on both sides of this fence, we can usually tell within a 20 minute call which one a business needs. Where the bottleneck sits tells us far more than the budget does.
 
@@ -46,7 +46,7 @@ When campaigns produce traffic and the booked calls have yet to follow, an advis
 >
 > [Mike Bastin](/how-i-work/), multilingual SEO and marketing consultant
 
-## What a digital marketing agency does
+## What an agency does
 
 What you buy from an agency is capacity: work shipped by a ready-made department. An agency is an execution machine. Inside it you find specialists: copywriters, SEO practitioners, paid media buyers, UX designers and web developers, whose job is to take the work off your plate and ship it.
 
@@ -76,7 +76,7 @@ An advisor sits between the two: lower overhead than an agency, less commitment 
 
 An advisor often works like a temporary C-suite member or fractional CMO, attending leadership meetings and absorbing the financial goals as well as the marketing brief. Agencies operate as external vendors, with communication funnelled through an account manager. Where marketing decisions touch product, sales and pricing in the same week, that closeness pays.
 
-## When your business needs an advisor
+## Choose an advisor when strategy is the bottleneck
 
 Choose an advisor when strategy is the bottleneck: when the work gets done and the numbers need a new direction.
 
@@ -89,7 +89,7 @@ Choose an advisor when strategy is the bottleneck: when the work gets done and t
 <p><strong>Traffic arriving in several languages, and ready for enquiries in each of them?</strong> Our <a href="/services/lead-generation/">B2B lead generation service</a> turns visitors in each market into enquiries worth a sales call, and the first call produces a written scope naming the pages and deliverables. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
-## When your business needs an agency
+## Choose an agency when execution is the bottleneck
 
 Choose an agency when execution is the bottleneck: when you know what should happen and need the hours to make it happen.
 
@@ -141,7 +141,7 @@ For most growing companies the answer is both: mid-market and enterprise compani
 
 The hybrid creates checks and balances. The advisor keeps the agency accountable, the agency provides the muscle, and each party’s work is graded by the other.
 
-## A quick framework for deciding
+## Answer three questions before you sign
 
 Answer three questions before you commit, and sign a contract you will want to keep.
 
@@ -151,7 +151,7 @@ Answer three questions before you commit, and sign a contract you will want to k
 | **What is your 12 month budget?** | Tight, and needs more value from existing resources | Larger, earmarked for growth across several channels |
 | **What does your team look like?** | Two or three stretched marketers | A marketing team still to build |
 
-## Where this is heading
+## Where advisors and agencies are heading
 
 The line between advisor and agency keeps blurring. Some advisors now build small execution teams; some agencies offer strategy-first consulting as an entry point. The core distinction still holds: advisors partner on thinking, agencies partner on doing.
 
@@ -163,13 +163,13 @@ As generative AI tools like ChatGPT, Jasper and Claude make content production f
 
 For a deeper view on the shift, see how [AI is rewriting SEO strategy](/blog/how-ai-is-revolutionising-seo-strategies/) and what a [search everywhere strategy](/blog/search-everywhere-strategy/) looks like in practice.
 
-## Where to start with the right partner
+## Pick your next step: a strategy or a team
 
 If you have read this far, you are likely in one of two seats: a team in need of a strategy, or a strategy in need of a team. Both have a clear next step.
 
 Across Belgium, France, Spain, the Netherlands, the UK and the US, working with law firms, freight forwarders, real estate agencies and translation companies, the businesses that grow keep strategy and execution cleanly separate and give each hat to a different person.
 
-For sector-specific examples, see how we approach [SEO for law firms](/blog/law-firm-seo-services/) or build a campaign around [multilingual SEO best practices](/blog/best-practices-for-multilingual-seo/). For a second opinion on your current setup, [get in touch](/contact/) and we can run through it in 20 minutes. You can also read more [about how we work](/how-i-work/) before that call.
+For sector-specific examples, see how we approach [SEO for law firms](/blog/law-firm-seo-services/) or build a campaign around [multilingual SEO best practices](/blog/best-practices-for-multilingual-seo/). For a second opinion on your current setup, [book a 20-minute call](/contact/) and we can run through it together. You can also read more [about how we work](/how-i-work/) before that call.
 
 ## Frequently asked questions
 

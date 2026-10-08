@@ -30,7 +30,7 @@ Savoir ce que les moteurs font bien indique où les laisser travailler et où pl
 
 Les deux produisent un texte bien plus fluide et plus attentif au contexte que les systèmes d’il y a dix ans. Ils excellent dans les tâches répétitives : chaînes de texte récurrentes, catalogues de produits, et mise à jour de toutes les versions de langue quand le texte source change.
 
-## Les atouts des outils de traduction par IA
+## Ce que vous gagnez avec la traduction par IA
 
 L’argument tient au budget : plus de langues, plus vite, pour la même dépense.
 
@@ -60,7 +60,7 @@ La relecture corrige les écarts de grammaire, de ton et de terminologie que l�
 | Humain seul | La plus lente | Le plus élevé | Les plus solides |
 | IA avec post-édition humaine | Rapide | Modéré | Solides, avec validation humaine |
 
-## Associer l’IA et l’expertise humaine
+## Associez l’IA au jugement d’un linguiste
 
 Les circuits qui conservent à la fois l’économie et la qualité associent la rapidité de l’IA au jugement d’un linguiste. L’IA traduit le gros du volume, puis les traducteurs affinent et localisent pour chaque marché.
 
@@ -99,7 +99,7 @@ La norme ISO 18587 distingue deux niveaux. La post-édition légère vise un tex
 <p><strong>Vous utilisez déjà la traduction automatique et voulez savoir où un éditeur doit intervenir ?</strong> Notre service de <a href="/fr/services/postedition-ia/">post-édition IA</a> fixe une fois par langue vos termes clés, place un éditeur natif sur les pages qui engagent votre entreprise et prévoit une relecture plus légère sur les autres. <a href="/fr/nous-contacter/">Parlons de vos langues</a>.</p>
 </aside>
 
-## Confidentialité des données et transparence
+## Protégez vos données confidentielles
 
 Vos fichiers confidentiels restent sous votre contrôle quand ils passent uniquement par des outils que vous avez validés.
 
@@ -107,7 +107,7 @@ Vos fichiers confidentiels restent sous votre contrôle quand ils passent unique
 - **Garanties.** Signez avec chaque prestataire un contrat de sous-traitance au sens de l’article 28 du RGPD, et réglez les accès avant que des outils d’IA ne manipulent des données clients ou d’entreprise.
 - **Transparence.** Indiquez aux lecteurs quand un contenu a été traduit par machine, en particulier là où l’exactitude compte pour eux.
 
-## Un circuit pour démarrer
+## Démarrez avec un circuit en quatre étapes
 
 Les modèles de traduction progressent vite en exactitude et en finesse culturelle, et la répartition du travail reste la même : la machine produit, une personne décide. Pour la mettre en place :
 

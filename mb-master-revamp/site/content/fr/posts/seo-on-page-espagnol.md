@@ -19,11 +19,11 @@ Vos pages en espagnol sont déjà trouvées, et l’étape suivante consiste à 
 
 Chaque détail bien réglé rapporte des clics et des demandes de contact. Voici ce qu’il faut régler sur chaque page espagnole, avec une liste de contrôle que vous pouvez confier à la personne qui édite votre site.
 
-## Connaître le marché espagnol avant de toucher aux pages
+## Choisissez votre lecteur avant de toucher aux pages
 
 Une page construite pour un lecteur précis atteint son but. Avant tout travail de [SEO espagnol](/fr/services/seo-espagnol/) sur la page elle-même, décidez pour qui vous écrivez : l’Espagne présente des préférences régionales bien distinctes, et les publics hispanophones varient beaucoup d’un pays à l’autre. Une entreprise française, belge ou suisse qui vend en Espagne choisit le plus souvent l’espagnol d’Espagne, puis décide si la Catalogne, le Pays basque ou la Galice méritent leurs propres pages.
 
-## La recherche de mots-clés en espagnol
+## Partez des mots que tapent les Espagnols
 
 Des mots-clés espagnols recherchés apportent les bons visiteurs. Partez des mots que les internautes espagnols tapent réellement, distinguez l’Espagne de l’Amérique latine et fixez le niveau de formalité avant que quelqu’un écrive la moindre ligne. Pour un francophone, le choix entre *tú* et *usted* suit des usages propres à chaque pays et à chaque secteur, et il mérite une décision écrite.
 
@@ -35,7 +35,7 @@ Des mots-clés espagnols recherchés apportent les bons visiteurs. Partez des mo
 
 Des [mots-clés de longue traîne](/fr/services/referencement-multilingue/) en espagnol, construits à partir d’expressions du quotidien, correspondent plus finement à l’intention de recherche et donnent un texte qui se lit naturellement.
 
-## Contenu, titres et méta descriptions
+## Rédigez titres et méta descriptions comme un natif
 
 Votre titre et votre méta description sont tout ce que voit un internaute avant de décider de cliquer. Rédigez les H1 et H2 avec la formulation qu’emploierait un locuteur natif, et traitez la méta description comme une invitation : une raison de vous choisir.
 
@@ -71,7 +71,7 @@ Un lecteur espagnol qui reste en espagnol du premier clic au dernier reste avec 
 <p><strong>Vous voulez des slugs espagnols, des textes alternatifs en espagnol et un seul registre sur toutes vos pages espagnoles ?</strong> Notre <a href="/fr/services/seo-espagnol/">service de SEO espagnol</a> rédige l’espagnol d’Espagne directement depuis Valence, avec une recherche de mots-clés menée par des locuteurs natifs de chaque espagnol visé. <a href="/fr/nous-contacter/">Réservez un premier échange</a>.</p>
 </aside>
 
-## Expérience utilisateur et mobile
+## Gardez l’acheteur jusqu’au formulaire sur mobile
 
 Une page agréable sur téléphone garde l’acheteur espagnol jusqu’au formulaire de contact, car c’est sur mobile que se consulte la plus grande part des pages en Espagne.
 
@@ -118,7 +118,7 @@ Voyez-y un second lecteur de la même page : une page écrite clairement pour u
 <p><strong>Vous voulez voir vos pages espagnoles nommées dans les réponses des IA, en plus d’être bien positionnées ?</strong> Notre <a href="/fr/seo-au-geo/">guide du SEO au GEO</a> montre comment structurer les pages pour que ChatGPT, Perplexity et les AI Overviews de Google les citent. <a href="/fr/nous-contacter/">Réservez un premier échange</a>.</p>
 </aside>
 
-## Mesurer les résultats
+## Mesurez les résultats marché par marché
 
 Les chiffres par marché montrent ce qui a fonctionné. Utilisez Google Search Console filtré sur l’Espagne, votre outil d’analyse et vos outils de [référencement local](/fr/services/referencement-local/), puis suivez l’engagement et les taux de clic.
 
@@ -132,7 +132,7 @@ Connaissez le marché, choisissez des mots-clés culturellement pertinents, loca
 
 Vous voulez que vos pages espagnoles rapportent des demandes de contact en plus des visites ? [Contactez-nous](/fr/nous-contacter/) pour un premier échange sur votre SEO on-page.
 
-## FAQ
+## Questions fréquentes
 
 ### Pourquoi localiser les mots-clés pour les moteurs de recherche espagnols ?
 

@@ -19,7 +19,7 @@ Your analytics say Germany is your second-biggest market, and your German enquir
 
 Read those numbers with care and your budget flows to the markets that sell. Below: what GA4 tells you reliably about each market, what it estimates, and how to decide where the next localization budget goes.
 
-## The role of Google Analytics in international marketing
+## See where demand exists before you spend
 
 Used well, **Google Analytics international marketing** data shows where demand exists before you spend money chasing it: how users from different countries, languages and devices behave, and where the conversion path needs work. It supports market prioritisation, localization decisions and channel allocation.
 
@@ -74,7 +74,7 @@ Each blind spot below makes a market look smaller or noisier than it is, so allo
 <p><strong>Want to see each market's real share of your enquiries?</strong> Our <a href="/services/conversion-tracking/">conversion tracking per market</a> shows which language earns the enquiry, with consent mode accounted for, so markets are compared on what they sell. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
-## Optimizing GA4 for international accuracy
+## Configure GA4 to keep your markets apart
 
 Configure GA4 to separate your markets and keep the journeys that cross between them whole.
 
@@ -92,7 +92,7 @@ Server-side Google Tag Manager recovers some of the data that browsers, ad block
 
 Your own teams, agencies and QA partners can become one of your busiest "markets". Exclude internal traffic at the property level.
 
-## Evaluating content performance across markets
+## Compare content performance across markets
 
 When a market is behind, the instinct is to look at SEO. More often the answer is matching the content to what buyers there expect.
 
@@ -118,7 +118,7 @@ Analytics shows behaviour; local knowledge explains motivation. Seasonality, cul
 
 Combine GA4 data with local knowledge, testing and qualitative feedback. Before acting on weak metrics, check how the site performs from the target region: what looks like a marketing issue is often a regional performance issue or a localization bug.
 
-## Advanced GA4 use for international growth
+## Find which market is profitable as well as busy
 
 Once the basics are clean, the questions get more valuable: which market is profitable as well as busy.
 
@@ -134,7 +134,7 @@ GA4’s predictive audiences help identify users likely to convert in new market
 
 In many regions the sale happens on a call, a visit or a follow-up, beyond the reach of a click-level report. The Measurement Protocol brings those interactions into GA4, so each market is credited with the business it closes.
 
-## Reading analytics with confidence
+## Trust the trends and check the absolutes
 
 Google Analytics is essential for international marketing, and it works best alongside local context.
 

@@ -19,7 +19,7 @@ Your French and German pages may rank and still bring in few enquiries. More buy
 
 Ranking is still the foundation, and now the first half of the job. The work that gets you quoted is [generative engine optimization](/services/generative-engine-optimization/) (GEO). Below: the multilingual SEO best practices that get each language version found, and cited too.
 
-## Why multilingual SEO remains the foundation
+## Show search engines which version serves which market
 
 When search engines can tell which version of your site is meant for which market, an excellent translation gets seen. Localized [multilingual SEO](/services/multilingual-seo/) puts each version in front of the people looking for it.
 
@@ -45,7 +45,7 @@ Each market needs its own research, covering:
 
 Google Keyword Planner, Semrush and Ahrefs all support it, but native-level knowledge is what separates real queries from assumptions carried over from English. Precise local wording also helps AI models associate your brand with the right topics in each language.
 
-## Localized meta tags for each language
+## Write meta tags for each language
 
 Your title and description are the first sales copy a searcher in each market reads, often before they know your name. Every language version needs its own:
 
@@ -55,7 +55,7 @@ Your title and description are the first sales copy a searcher in each market re
 
 Good metadata lifts click-through in classic results and makes it more likely an AI system picks your page as a reference.
 
-## URL structures for multilingual sites
+## Choose your multilingual URL structure once
 
 Your URL structure is expensive to undo later. It is a core [technical element of multilingual SEO](/blog/technical-seo-for-multilingual-websites/), because search engines use it to identify language and regional targeting.
 
@@ -70,7 +70,7 @@ They differ in crawl management, authority consolidation and hosting complexity.
 - Keep URLs clean, descriptive and consistent.
 - Use the same structure for every language.
 
-## Implementing hreflang: three rules for correct tags
+## Get hreflang right with three rules
 
 Correct tags send a buyer in France to your French page. Hreflang tags tell search engines which language and region each page targets. Three rules:
 
@@ -84,7 +84,7 @@ Hreflang is among the most common [technical SEO issues](/blog/technical-seo-aud
 <p><strong>Want every market to land on the right version of your site?</strong> Our <a href="/services/multilingual-seo/">multilingual SEO programmes</a> validate the language signals for each market. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
-## Local backlinks and regional authority
+## Earn links from local press and sector bodies
 
 A link from the local press or a sector association in your target country is worth more than a generic international link, because search relevance is geographic as well as topical. Three ways to earn regional links:
 
@@ -96,7 +96,7 @@ Quality outweighs quantity, so earn every link: that keeps you clear of the pena
 
 Authoritative local links also make it more likely that AI models treat your content as a source worth citing in that market.
 
-## Structured data and entity clarity
+## Make each market clear with structured data
 
 An AI system quotes the page whose market it can identify with confidence. Structured data now shapes how AI systems interpret your content as well as how it ranks. Every language version should carry accurate schema markup:
 
@@ -107,7 +107,7 @@ An AI system quotes the page whose market it can identify with confidence. Struc
 
 Entity clarity matters even more on multilingual sites. AI models need unambiguous signals about which version applies to which market, language and audience. With them, your content competes in AI answers on the same footing as it does in rankings.
 
-## GEO and presence everywhere
+## Get cited in AI answers with GEO
 
 A growing share of your buyers now compare suppliers inside Google’s AI Overviews and AI Mode, ChatGPT, Perplexity and Gemini, which all draw on structured, authoritative, entity-rich content. Content written for AI answers as well as classic results reaches that part of the decision.
 
@@ -136,7 +136,7 @@ Brands that give every language the same care as the primary one, through full [
 <p><strong>Is a competitor the one being quoted when buyers ask in your other languages?</strong> Our <a href="/services/multilingual-seo/">multilingual SEO work</a> extends to how ChatGPT, Claude, Perplexity and AI Overviews answer in each language. <a href="/contact/">Talk to us about your markets</a>.</p>
 </aside>
 
-## Bringing multilingual SEO and GEO together
+## Run multilingual SEO and GEO together
 
 | Layer | What it covers | What it wins |
 |---|---|---|

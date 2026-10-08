@@ -163,10 +163,10 @@ Le SEO classique vise à classer une page dans une liste de résultats. Le GEO v
 
 Priorisez les projets dont le retour est mesurable en moins de 18 mois, ou ceux qui consolident un avantage concurrentiel durable (produit propriétaire, marque, conformité). Concentrez le budget sur les expérimentations qui ont une hypothèse claire et des indicateurs. Les coûts d’opportunité sont aujourd’hui bien plus visibles qu’entre 2010 et 2021.
 
-## Aligner votre stratégie sur les tendances 2026
+## Alignez votre stratégie sur les tendances 2026
 
 Nous accompagnons des PME et des ETI internationales sur le SEO, la traduction et la stratégie numérique, avec des recommandations concrètes, en langage clair. Le premier échange est gratuit : nous regardons ensemble vos marchés et les priorités du trimestre.
 
-[Discuter de votre stratégie](https://mikebastin.com/fr/nous-contacter/)
+[Réserver votre premier échange gratuit](https://mikebastin.com/fr/nous-contacter/)
 
 Pour aller plus loin : [stratégie SEO et GEO en 2026](https://mikebastin.com/fr/seo-au-geo/), [optimiser pour la recherche vocale et les assistants d’IA](https://mikebastin.com/fr/recherche-vocale/), [SEO multilingue à l’échelle internationale](https://mikebastin.com/fr/expert-en-seo-international/).
