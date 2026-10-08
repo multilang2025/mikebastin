@@ -35,9 +35,39 @@ Des mots-clés espagnols recherchés apportent les bons visiteurs. Partez des mo
 
 Des [mots-clés de longue traîne](/fr/services/referencement-multilingue/) en espagnol, construits à partir d’expressions du quotidien, correspondent plus finement à l’intention de recherche et donnent un texte qui se lit naturellement.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Un seul registre choisi avant d’écrire : tú pour les marques grand public, ou usted pour le B2B et la finance.">
+<path d="M150 75 L230 35" class="fg-line"/>
+<path d="M150 75 L230 115" class="fg-line"/>
+<rect x="14" y="55" width="136" height="40" rx="6" class="fg-hot"/>
+<rect x="230" y="12" width="150" height="46" rx="6" class="fg-box"/>
+<rect x="230" y="92" width="150" height="46" rx="6" class="fg-box"/>
+<text x="82" y="81" text-anchor="middle" class="fg-strong">Un registre</text>
+<text x="305" y="32" text-anchor="middle" class="fg-text">Tú</text>
+<text x="305" y="50" text-anchor="middle" class="fg-label">grand public</text>
+<text x="305" y="112" text-anchor="middle" class="fg-text">Usted</text>
+<text x="305" y="130" text-anchor="middle" class="fg-label">B2B, finance</text>
+</svg>
+<figcaption>Le registre se décide une fois, avant l’écriture, pour que chaque page et chaque méta description parlent au lecteur d’une même voix.</figcaption>
+</figure>
+
 ## Rédigez titres et méta descriptions comme un natif
 
 Votre titre et votre méta description sont tout ce que voit un internaute avant de décider de cliquer. Rédigez les H1 et H2 avec la formulation qu’emploierait un locuteur natif, et traitez la méta description comme une invitation : une raison de vous choisir.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Ce que voit l’internaute avant de cliquer : un titre formulé comme le ferait un natif, puis la méta description en guise d’invitation, puis le clic.">
+<path d="M200 46 L200 56" class="fg-dim"/>
+<path d="M200 92 L200 102" class="fg-dim"/>
+<rect x="50" y="10" width="300" height="36" rx="6" class="fg-box"/>
+<rect x="80" y="56" width="240" height="36" rx="6" class="fg-box"/>
+<rect x="120" y="102" width="160" height="36" rx="6" class="fg-hot"/>
+<text x="200" y="33" text-anchor="middle" class="fg-text">Titre d’un natif</text>
+<text x="200" y="79" text-anchor="middle" class="fg-text">Méta description</text>
+<text x="200" y="125" text-anchor="middle" class="fg-strong">Clic</text>
+</svg>
+<figcaption>Le titre et la méta description font la vente sur la page de résultats : tous deux s’écrivent comme parle un acheteur espagnol.</figcaption>
+</figure>
 
 Dans la page, les traditions locales, les jours fériés et les expressions courantes gardent les lecteurs avec vous, lorsque le public s’y prête.
 
@@ -121,6 +151,24 @@ Voyez-y un second lecteur de la même page : une page écrite clairement pour u
 ## Mesurez les résultats marché par marché
 
 Les chiffres par marché montrent ce qui a fonctionné. Utilisez Google Search Console filtré sur l’Espagne, votre outil d’analyse et vos outils de [référencement local](/fr/services/referencement-local/), puis suivez l’engagement et les taux de clic.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Google Search Console filtré sur l’Espagne, l’outil d’analyse et les outils de référencement local montrent ensemble les performances des pages espagnoles.">
+<path d="M170 30 L278 64" class="fg-line"/>
+<path d="M170 75 L272 75" class="fg-line"/>
+<path d="M170 120 L278 86" class="fg-line"/>
+<rect x="10" y="12" width="160" height="36" rx="6" class="fg-box"/>
+<rect x="10" y="57" width="160" height="36" rx="6" class="fg-box"/>
+<rect x="10" y="102" width="160" height="36" rx="6" class="fg-box"/>
+<circle cx="322" cy="75" r="50" class="fg-hot"/>
+<text x="90" y="35" text-anchor="middle" class="fg-text">Search Console</text>
+<text x="90" y="80" text-anchor="middle" class="fg-text">Analyse</text>
+<text x="90" y="125" text-anchor="middle" class="fg-text">SEO local</text>
+<text x="322" y="73" text-anchor="middle" class="fg-strong">Espagne</text>
+<text x="322" y="93" text-anchor="middle" class="fg-label">par marché</text>
+</svg>
+<figcaption>Filtrées sur l’Espagne, les trois sources montrent l’engagement et les taux de clic du seul marché espagnol.</figcaption>
+</figure>
 
 ## Ce qu’il faut vérifier en priorité
 

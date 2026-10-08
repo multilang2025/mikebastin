@@ -24,6 +24,22 @@ Ready to localize your keywords for the [Spanish market](/blog/spanish-seo-marke
 
 A localized keyword brings visitors because it is the phrase searchers actually type. Localizing keywords for Spain is about finding the phrase a specific audience uses, which often differs from the one a dictionary gives you.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="One source term, two outcomes: the dictionary gives the correct word, local research finds the phrase buyers in Spain actually type.">
+<path d="M150 75 L230 35" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M150 75 L230 115" class="fg-accent"/>
+<rect x="14" y="55" width="136" height="40" rx="6" class="fg-box"/>
+<rect x="230" y="12" width="150" height="46" rx="6" class="fg-box"/>
+<rect x="230" y="92" width="150" height="46" rx="6" class="fg-hot"/>
+<text x="82" y="81" text-anchor="middle" class="fg-strong">Source term</text>
+<text x="305" y="32" text-anchor="middle" class="fg-text">Dictionary</text>
+<text x="305" y="50" text-anchor="middle" class="fg-label">the correct word</text>
+<text x="305" y="112" text-anchor="middle" class="fg-strong">Local phrase</text>
+<text x="305" y="130" text-anchor="middle" class="fg-label">what buyers type</text>
+</svg>
+<figcaption>The keyword worth building a page around is the phrase a specific audience types, found by research in Spanish.</figcaption>
+</figure>
+
 Each market connects with its own keywords, and Spain itself is made up of a range of languages and cultures. Research the regional differences and you write for the real readers, who then find you. Understanding the local context lets you shape your [SEO strategy](/blog/best-practices-for-multilingual-seo/) around the audience you actually want.
 
 ## Research keywords region by region
@@ -82,6 +98,26 @@ Details like these decide whether the [content speaks the local](/blog/building-
 
 The right keyword on the right page, in a sentence a Spaniard would write, wins the click. Put the keywords where a searcher sees them first: titles, headers and meta descriptions, written to appeal to a local reader as well as to rank.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="One local keyword placed where a searcher looks first: the title tag, the H1 and H2 headings, and the meta description.">
+<path d="M200 50 L70 102" class="fg-line"/>
+<path d="M200 50 L200 102" class="fg-line"/>
+<path d="M200 50 L330 102" class="fg-line"/>
+<rect x="125" y="10" width="150" height="40" rx="6" class="fg-hot"/>
+<rect x="12" y="102" width="116" height="46" rx="6" class="fg-box"/>
+<rect x="142" y="102" width="116" height="46" rx="6" class="fg-box"/>
+<rect x="272" y="102" width="116" height="46" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-strong">Local keyword</text>
+<text x="70" y="122" text-anchor="middle" class="fg-text">Title</text>
+<text x="70" y="140" text-anchor="middle" class="fg-label">title tag</text>
+<text x="200" y="122" text-anchor="middle" class="fg-text">Headers</text>
+<text x="200" y="140" text-anchor="middle" class="fg-label">H1 and H2</text>
+<text x="330" y="122" text-anchor="middle" class="fg-text">Meta</text>
+<text x="330" y="140" text-anchor="middle" class="fg-label">description</text>
+</svg>
+<figcaption>The searcher sees the title, the headings and the meta description first, so the local keyword goes there, in a sentence a Spaniard would write.</figcaption>
+</figure>
+
 Match the tone to local expectations, formal or conversational. On a site with sound [technical SEO](/services/technical-seo/), localized keywords work best used where they help the reader. What you want is a page that reads as native, so the buyer keeps reading.
 
 ## What to check
@@ -95,6 +131,25 @@ A keyword set for each Spanish-speaking audience shows cultural sensitivity and 
 ## Test your keyword choices with real buyers
 
 Your first keyword choices are a hypothesis, and testing is how you find out which ones bring buyers. Once the keywords are live, run A/B tests to [measure the impact](/services/website-localisation/) of different variations, and gather feedback from local audiences on how the pages read.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Keyword testing as a loop: the keywords go live, A/B tests compare variations, and feedback from local audiences refines the list for the next round.">
+<path d="M120 45 L143 45" class="fg-line"/>
+<path d="M136 39 L143 45 L136 51" class="fg-line"/>
+<path d="M255 45 L278 45" class="fg-line"/>
+<path d="M271 39 L278 45 L271 51" class="fg-line"/>
+<path d="M335 70 L335 108 L65 108 L65 72" class="fg-accent"/>
+<path d="M59 79 L65 72 L71 79" class="fg-accent"/>
+<rect x="10" y="20" width="110" height="50" rx="6" class="fg-box"/>
+<rect x="145" y="20" width="110" height="50" rx="6" class="fg-box"/>
+<rect x="280" y="20" width="110" height="50" rx="6" class="fg-hot"/>
+<text x="65" y="51" text-anchor="middle" class="fg-text">Go live</text>
+<text x="200" y="51" text-anchor="middle" class="fg-text">A/B test</text>
+<text x="335" y="51" text-anchor="middle" class="fg-strong">Refine</text>
+<text x="200" y="134" text-anchor="middle" class="fg-label">feedback from local buyers</text>
+</svg>
+<figcaption>Each round of tests and local feedback sharpens the keyword list, until the pages read as local in every market you target.</figcaption>
+</figure>
 
 Feed what you learn back into your [keyword strategy](/services/multilingual-seo/) and keep refining it until the pages read as local in every market you target.
 
