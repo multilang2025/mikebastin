@@ -1,4 +1,94 @@
-# Branded blog images, from the owner's illustrator
+# Branded blog images
+
+## The current set: Higgsfield paper still lifes (8 Oct 2026)
+
+Owner, 8 Oct 2026: "I need relevant images, with some branding effect on
+them so they are in harmony with the website, and between each other."
+All 53 journal images were replaced in one pass, so the whole index reads
+as one series. Everything below this section describes the September
+illustrator pass, which this replaces; it is kept for the history.
+
+**Model:** Higgsfield `gpt_image_2_5`, 16:9, 0.25 credits per image.
+**Branding:** `site/scripts/brand-blog-images.mjs` cuts each PNG to
+1200x630 and stamps the MB mark (the favicon's berry disc) bottom left,
+where every prompt leaves room. The job id of each image is the
+`higgsfield:` value in `site/lib/blog-images.ts`.
+
+Every prompt is `Minimal editorial still-life photograph, wide 16:9.
+Subject: <subject>.` followed by this style block, unchanged:
+
+> House style: warm cream paper backdrop (#F5F0E4) filling the frame,
+> objects only in deep navy (#0F2837), cream and one berry red (#C42640)
+> accent, soft diffused daylight from the upper left, gentle long shadows,
+> matte paper textures, calm and premium editorial look. The subject is
+> large and fills the centre-right two thirds of the frame, with breathing
+> room on the left. No text, no letters, no numbers, no logos, no people.
+
+For a new post: write one subject line (a physical metaphor for the post,
+navy objects with one berry element), generate, download the PNG as
+`<slug>.png` into an empty folder, run
+`node --experimental-strip-types scripts/brand-blog-images.mjs <folder>`
+from `site/`, and add the entry to `lib/blog-images.ts`.
+
+| Post | Subject |
+|---|---|
+| `15-simple-blog-post-ideas-to-help-attract-more-customers-to-your-business` | a fan of fifteen small blank cream index cards spread in an arc, one card lifted and edged in berry red, with a navy pencil beside them |
+| `360-marketing-agency` | a navy paper compass rose lying flat with a full circle of small cream paper tiles around it, one tile berry red |
+| `affiliate-marketing-programs` | two navy paper hands-shaped cut-outs passing a small berry red paper coin between them along a chain of linked navy paper rings |
+| `ai-powered-marketing` | a small navy geometric robot figurine made of folded card holding a berry red paper megaphone |
+| `alternatives-to-google-analytics` | three different navy paper bar-chart sculptures standing side by side, the middle one with a berry red top bar, a navy magnifying glass leaning against them |
+| `best-practices-for-multilingual-seo` | a navy paper globe on a stand with three small cream speech-bubble cut-outs floating around it, one bubble berry red |
+| `best-vietnam-sourcing-agencies-for-eudr-supplier-scouting-and-audits` | a small wooden crate of coffee beans with a navy paper leaf and a cream paper inspection tag tied with berry red string, beside a navy magnifying glass |
+| `building-a-global-brand` | a stack of navy paper building blocks rising into a tower, the top block berry red, a small navy paper globe beside the base |
+| `chrome-extensions-for-seo` | a navy paper browser window frame with a row of small puzzle-piece cut-outs clicking into its top bar, one puzzle piece berry red |
+| `chrome-extensions-for-translators` | a navy paper browser window frame with two puzzle-piece cut-outs on its top bar, one berry red, and two small speech-bubble cut-outs beside it |
+| `common-mistakes-to-avoid-when-localising-your-website` | a navy paper website frame with one cream puzzle piece placed upside down and sticking out awkwardly, edged in berry red, a navy pencil eraser nearby |
+| `competitor-analysis-traffic-checklist` | two navy paper line-chart cut-outs overlapping, one line berry red rising above the other, beside a cream checklist card with a few navy ticks |
+| `content-optimisation-for-spanish-users` | a navy paper hand fan (abanico) half open, with small cream paper text-line strips arranged neatly next to it and one berry red strip |
+| `conversational-ai-chatbots-business` | two cream paper speech bubbles in conversation, one navy outlined and one berry red, with a tiny folded navy paper robot head beside them |
+| `digital-marketing-advisor` | a navy paper chess knight standing on an open cream notebook with a berry red bookmark ribbon, a navy pen beside it |
+| `eeat-vs-aeat-typo` | four navy wooden letter-free blocks in a row with one block swapped for a berry red block slightly out of line, a navy magnifying glass leaning on them |
+| `email-marketing-hacks-boosting-open-rates-and-conversions` | a cream paper envelope opening with a berry red paper heart rising out of it, two smaller navy envelopes behind |
+| `english-to-french-translation-services` | two cream paper speech bubbles linked by a navy paper bridge, one bubble with a small navy-white-berry striped ribbon, a fountain pen beside them |
+| `french-ppc-campaign` | a navy paper cursor arrow clicking a berry red paper button on a cream card, a small navy paper Eiffel-tower silhouette in the background |
+| `future-of-seo` | a large rolled navy card telescope on a small tripod pointing up toward a berry red paper star hanging on a thread, filling the right half of the frame |
+| `german-seo-best-practices` | a neat stack of precise navy paper gears interlocking on a cream card, one gear berry red, a navy ruler beside them |
+| `german-seo-content-localisation` | a navy paper map outline of Germany with small cream text-line strips laid on it, one strip berry red, a navy pencil beside |
+| `global-business-trends` | a navy paper globe with a berry red paper arrow curving upward around it like an orbit |
+| `google-analytics-international-marketing-limits` | a navy paper bar chart whose tallest bar is cut off by a cream paper wall, a berry red paper flag planted at the wall |
+| `how-ai-is-revolutionising-seo-strategies` | a navy paper magnifying glass whose lens holds a small berry red folded paper spark, resting on a cream card with navy line patterns like circuitry |
+| `how-ai-is-transforming-translation-and-localisation` | two cream speech bubbles joined by a thin navy circuit-line path with a small berry red node in the middle |
+| `how-to-create-a-targeted-content-strategy` | a navy paper archery target with a berry red paper arrow in the bullseye, cream content cards fanned below it |
+| `how-to-promote-your-local-business-on-google-maps` | a folded cream paper street map with navy streets and one large berry red paper map pin standing upright on a small shopfront cut-out |
+| `how-to-use-ai-and-machine-translation-tools` | a navy paper toolbox open with a fountain pen and a small folded paper robot hand inside, a berry red speech bubble on top |
+| `how-to-write-about-your-professional-background` | an open cream notebook with neat navy lines, a navy fountain pen and a small berry red paper ribbon bookmark, a pair of reading glasses beside it |
+| `human-creator-economy` | a navy paper camera, a small microphone cut-out and a berry red paper heart arranged around a cream paper easel |
+| `internal-linking-tools` | several cream paper cards joined by navy thread in a network, one card berry red at the centre |
+| `law-firm-seo-services` | a navy paper balance scale with a berry red paper magnifying glass on one pan and cream documents on the other |
+| `link-building-in-spain` | a chain of navy paper links curving across the frame, one link berry red, with a small navy paper Spanish fan beside it |
+| `link-selling-and-link-buying-platforms` | a navy paper chain link resting on a small cream price tag tied with berry red string, beside a navy balance scale |
+| `llms-beyond-giants-hidden-ai-models` | a row of large navy paper monoliths with one small berry red folded paper cube standing in front of them, lit by a soft beam |
+| `localisation-testing-tools` | a navy paper phone outline with cream interface strips, a berry red paper checkmark beside a small navy magnifying glass and a toolbox |
+| `mastering-the-art-of-networking` | cream paper figures cut-outs standing in a loose circle connected by navy thread, one figure berry red |
+| `most-popular-marketing-strategies` | a navy paper podium with three steps, a berry red paper megaphone on the top step and cream cards on the others |
+| `optimising-multilingual-website-content` | a navy paper website frame split into three panels each with cream text strips, one panel accent berry red, a navy paper globe beside |
+| `optimising-your-website-for-valencia-based-searches` | a navy paper map pin standing on a cream paper map of a coastal city with a small berry red paper orange beside it |
+| `search-everywhere-strategy` | a navy paper magnifying glass at the centre with several small cream paper device and app cut-outs around it, one berry red |
+| `seo-in-belgium` | a large folded cream paper map of Belgium with navy regions and one berry red region, a brass magnifying glass resting on it, filling most of the frame |
+| `spanish-keyword-localisation` | cream paper key-shaped cut-outs on a navy key ring, one key berry red, beside a small navy paper Spanish fan |
+| `spanish-on-page-seo` | a navy paper web page outline with neatly arranged cream content strips and a berry red heading strip, a navy pencil beside it |
+| `spanish-seo-markets` | a navy paper map of Spain and Latin America outlines side by side with small berry red paper pins on a few cities |
+| `technical-seo-considerations-for-german-websites` | a navy paper gear assembly in the shape of a website frame, one gear berry red, a precise navy ruler and screwdriver beside it |
+| `technical-seo-for-multilingual-websites` | three navy paper website frames stacked in perspective connected by navy wires to a berry red paper gear |
+| `technical-seo-for-spanish-search-engines` | a navy paper magnifying glass over a cream web page outline with a berry red wrench crossing it |
+| `user-interface-localisation-can-transform-your-global-reach` | a navy paper smartphone outline with cream interface tiles, one tile berry red, a small navy paper globe beside it |
+| `what-is-search-intent-mapping` | a cream paper map with navy dotted routes from a navy magnifying glass to a berry red destination pin |
+| `competitor-analysis` | a chess board corner with three navy chess pawns facing one berry red pawn that stands slightly ahead |
+| `technical-seo-audit-checklist` | a clipboard with a blank paper checklist of short navy lines and small empty squares, three squares ticked in berry red, a navy fountain pen lying across it |
+
+---
+
+## Earlier: the September illustrator pass (superseded)
 
 > 23 September 2026. Prompts for the owner's tool at
 > `blog-illustrator-29324474740.us-west1.run.app`, written for the sixteen
