@@ -57,10 +57,10 @@ const SERVICES_FOR: { slug: string; name: string; line: string }[] = [
 
 const STEPS = [
   "Una consulta gratuita de treinta minutos, en nuestra oficina de Valencia o por videollamada, sobre tus clientes, tus idiomas y lo que ya has probado.",
-  "Un alcance por escrito para el primer trimestre: las páginas, las palabras clave y quién hace qué.",
-  "Una entrega mensual, mercado por mercado, a cargo de redactores nativos de la red BeTranslated, con la que trabajamos desde hace veinte años.",
-  "Consultas contadas idioma por idioma, para saber qué mercado da resultados.",
-  "Un compromiso mes a mes, que cualquiera de las dos partes puede terminar con un aviso previo.",
+  "Un plan de trabajo por escrito para el primer trimestre: las páginas, las palabras clave y quién hace qué.",
+  "Una entrega mensual, mercado por mercado, a cargo de redactores nativos de la red BeTranslated, con la que trabajamos desde hace más de dos décadas.",
+  "Contactos contados idioma por idioma, para saber qué mercado da resultados.",
+  "Sin permanencia: contrato mes a mes que cualquiera de las dos partes puede cancelar con preaviso.",
 ];
 
 const HOW_IT_WORKS = [

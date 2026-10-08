@@ -68,7 +68,7 @@ const HOW_IT_WORKS = [
 const STEPS = [
   "Une consultation gratuite de trente minutes sur vos marchés, vos langues et ce que vous avez déjà essayé.",
   "Un périmètre écrit pour le premier trimestre : les pages, les mots-clés et qui fait quoi.",
-  "Une livraison mensuelle, marché par marché, par des rédacteurs natifs du réseau BeTranslated, l’agence de traduction que nous dirigeons depuis vingt ans.",
+  "Une livraison mensuelle, marché par marché, par des rédacteurs natifs du réseau BeTranslated, l’agence de traduction que nous dirigeons depuis plus de deux décennies.",
   "Des demandes comptées langue par langue, pour savoir quel marché rapporte.",
   "Un engagement au mois, que chacun peut arrêter avec un préavis.",
 ];
@@ -104,7 +104,7 @@ export default function FrenchHome() {
           </Reveal>
           <Reveal i={3}>
             <p className="mb-10 max-w-[58ch] text-[clamp(1.05rem,1.65vw,1.24rem)]" style={{ color: "var(--dim)" }}>
-              Entreprise française, belge, suisse ou luxembourgeoise, vos autres langues attirent déjà des visiteurs. Nous les transformons en demandes, marché par marché, depuis plus de deux décennies{" "}: les mots que vos acheteurs tapent dans chaque pays, des pages écrites par des natifs et des résultats comptés en demandes reçues.
+              Vous dirigez une entreprise française, belge, suisse ou luxembourgeoise : vos autres langues attirent déjà des visiteurs. Nous les transformons en demandes, marché par marché, depuis plus de deux décennies{" "}: les mots que vos acheteurs tapent dans chaque pays, des pages écrites par des natifs et des résultats comptés en demandes reçues.
             </p>
           </Reveal>
           <Reveal i={4}>
