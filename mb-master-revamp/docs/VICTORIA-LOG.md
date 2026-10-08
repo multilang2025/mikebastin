@@ -37,7 +37,7 @@ How to use it:
 7. **Satisfaction bar for a service page** (6 Oct item 7): read only the h2 and h3
    list aloud; every line names something the client gets or something we do.
 8. **Mike's interview** (Q5, Q7, Q9, Q10, Q12, Q15 to Q18, Q21, Q27 in
-   `OPEN-ITEMS.md`): to schedule with Víctoria.
+   `OPEN-ITEMS.md`): scheduled for Tuesday 13 October, 12:00 to 13:00 (Madrid).
 
 ### Also on 8 Oct
 - Every heading and CTA on the site was reviewed for machine-written phrasing,
