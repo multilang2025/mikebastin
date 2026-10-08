@@ -127,7 +127,7 @@ export default function SiteNav() {
           </span>
         </Link>
         <ul
-          className="hidden items-center gap-x-6 text-[.86rem] lg:flex"
+          className="display hidden items-center gap-x-7 text-[1rem] font-medium tracking-normal lg:flex"
           style={{ color: "var(--dim)" }}
         >
           {links.map((l) => {
