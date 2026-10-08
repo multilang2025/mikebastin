@@ -13,7 +13,7 @@ sourceUrl: null
 excerpt: "Campañas de Google Ads en Francia pensadas para cómo busca y compra el cliente francés, para que el mismo presupuesto te traiga más solicitudes."
 ---
 
-## Google Ads en Francia: de los clics a las solicitudes
+## Google Ads en Francia: de los clics a las solicitudes de contacto
 
 Tu campaña en Francia está activa y los clics llegan; el siguiente paso es convertirlos en solicitudes. La clave suele estar en cómo está construida. Una campaña traducida de la que funciona en España puja por las palabras que usa el comprador español, muestra anuncios que suenan a traducción y lleva al visitante a una página pensada para otro mercado. Si la reconstruyes para Francia, el mismo presupuesto paga clics de personas con intención real de compra.
 

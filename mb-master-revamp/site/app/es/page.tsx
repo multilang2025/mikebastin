@@ -56,12 +56,15 @@ const SERVICES_FOR: { slug: string; name: string; line: string }[] = [
   { slug: "consultoria-de-inteligencia-artificial", name: "Aplica la IA", line: "Procesos automatizados y una empresa que aparece en las respuestas de ChatGPT, Claude y Gemini." },
 ];
 
+// Engagement terms only (owner, 8 Oct 2026: "Diversify or remove one if
+// it doesnt add value"). The written plan and the contacts counted by
+// language were already the second and third HOW_IT_WORKS cards above, so
+// they left this list for what the cards do not say.
 const STEPS = [
   "Una consulta gratuita de treinta minutos, en nuestra oficina de Valencia o por videollamada, sobre tus clientes, tus idiomas y lo que ya has probado.",
-  "Un alcance por escrito para el primer trimestre: las páginas, las palabras clave y quién hace qué.",
-  "Una entrega mensual, mercado por mercado, a cargo de redactores nativos de la red BeTranslated, con la que trabajamos desde hace veinte años.",
-  "Consultas contadas idioma por idioma, para saber qué mercado da resultados.",
-  "Un compromiso mes a mes, que cualquiera de las dos partes puede terminar con un aviso previo.",
+  "Mike dirige cada proyecto y es tu interlocutor desde la primera llamada hasta el informe mensual.",
+  "Cada mercado lo escriben redactores nativos de la red BeTranslated, con la que trabajamos desde hace más de 20 años.",
+  "Sin permanencia: contrato mes a mes que cualquiera de las dos partes puede cancelar con preaviso.",
 ];
 
 const HOW_IT_WORKS: HowCard[] = [
@@ -242,7 +245,7 @@ export default function SpanishHome() {
       <section className="band band-a py-[clamp(56px,8vw,104px)]">
         <div className="shell grid gap-[clamp(32px,5vw,64px)] lg:grid-cols-[minmax(0,1fr)_minmax(0,1.2fr)]">
           <Reveal>
-            <h2 className="text-[clamp(1.6rem,3vw,2.3rem)] font-semibold leading-[1.15]">Cómo trabajamos</h2>
+            <h2 className="text-[clamp(1.6rem,3vw,2.3rem)] font-semibold leading-[1.15]">Trabajar con nosotros</h2>
             <p className="mt-4 max-w-[40ch]" style={{ color: "var(--dim)" }}>
               Dirigimos la estrategia nosotros mismos y respondemos a cada mensaje, por lo general en un día laborable.
             </p>

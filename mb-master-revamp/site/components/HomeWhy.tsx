@@ -40,8 +40,8 @@ const T = {
         body: "Las páginas comerciales de cada idioma las escribe un hablante nativo, con los precios, las señales de confianza y los hábitos de búsqueda de ese mercado.",
       },
       {
-        title: "Consultas contadas por idioma",
-        body: "Ves qué mercado da resultados, y el presupuesto sigue a las pruebas.",
+        title: "Contactos contados por idioma",
+        body: "Ves qué mercado da resultados, y el presupuesto sigue a los datos.",
       },
     ],
   },
