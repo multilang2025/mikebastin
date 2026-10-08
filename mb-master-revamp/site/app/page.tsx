@@ -19,7 +19,7 @@ import { enLanguages } from "@/lib/fr-pages";
 // head term, which sits at KD 34.
 const TITLE = "International SEO agency and localization, Mike Bastin";
 const DESCRIPTION =
-  "International SEO agency for companies selling abroad: native multilingual SEO and localization, with enquiries counted per market. Free consultation.";
+  "International SEO agency helping companies win customers abroad with global SEO, native content and localization. Discuss your project with Mike.";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -97,26 +97,31 @@ const BASTIN = [
 const WHAT_WE_DO = [
   {
     cluster: "Lead generation",
+    linkLabel: "Generate more leads",
     desc: "More enquiries from your non-English markets, each one traced back to its language.",
     href: "/services/lead-generation/",
   },
   {
     cluster: "Search",
-    desc: "Native writing for each language, researched against what buyers in that market search for.",
+    linkLabel: "Grow with global SEO",
+    desc: "Reach more buyers in every market with native content shaped around what they search for.",
     href: "/services/multilingual-seo/",
   },
   {
     cluster: "Localization",
+    linkLabel: "Localize your website",
     desc: "Your site ready for each market: the language, the prices and the trust signals buyers there expect.",
     href: "/services/website-localisation/",
   },
   {
     cluster: "AI",
+    linkLabel: "Improve AI visibility",
     desc: "Pages that ChatGPT, Perplexity and Google's AI Overviews can cite, as well as pages Google ranks.",
     href: "/services/generative-engine-optimization/",
   },
   {
     cluster: "Technical",
+    linkLabel: "Strengthen technical SEO",
     desc: "Each language version reaches its own buyers, with the hreflang, crawl and index work done right.",
     href: "/services/technical-seo/",
   },
@@ -124,23 +129,29 @@ const WHAT_WE_DO = [
 
 const HOW_IT_WORKS = [
   {
-    title: "Audit where you are",
-    body: "We review your site, search visibility and existing language versions to find the technical and content work with the clearest path to more enquiries.",
+    theme: "Market insight",
+    icon: "search",
+    title: "A clear view of each market",
+    body: "We uncover where your site is already reaching buyers and where technical or content improvements can create more enquiries.",
   },
   {
-    title: "Plan each market",
-    body: "You get a written scope for the markets you want to grow, with priorities, deliverables and responsibilities agreed before work begins.",
+    theme: "Focused strategy",
+    icon: "target",
+    title: "A focused plan you can approve",
+    body: "Get a written scope for the markets you want to grow, with priorities, deliverables and responsibilities agreed before work begins.",
   },
   {
-    title: "Report monthly by language",
-    body: "Work moves forward market by market, with a monthly report showing traffic and enquiries for each language so you can see what is paying back.",
+    theme: "Measured progress",
+    icon: "chart",
+    title: "Progress you can act on",
+    body: "See traffic and enquiries by language in a monthly report, so you know which markets are paying back and where to focus next.",
   },
 ];
 
 const WHY_IT_WORKS = [
   {
-    title: "One strategist across your languages",
-    body: "The person planning your French SEO also reads your Spanish and Dutch pages, so every market runs on one plan and the results compare like for like.",
+    title: "Your international SEO expert, across languages",
+    body: "Mike leads one joined-up strategy across your French, Spanish and Dutch pages, so each market builds on the same plan and you can compare results clearly.",
   },
   {
     title: "Copy written by natives of the market",
@@ -161,9 +172,9 @@ export default function Home() {
           primary term from lib/keywords.ts, "international SEO agency", and
           the longer h2 under it says what the agency does. No shimmer, no
           glow, no radar: the portrait is the hero art. */}
-      <section className="band band-b grain relative overflow-hidden pb-[clamp(48px,6vw,88px)] pt-[clamp(52px,7vw,104px)]">
-        <div className="shell relative grid items-center gap-x-14 lg:grid-cols-[1fr_auto]">
-        <div>
+      <section className="band band-a grain relative overflow-hidden pb-[clamp(48px,6vw,88px)] pt-[clamp(52px,7vw,104px)]">
+        <div className="shell home-hero-shell">
+        <div className="home-hero-copy">
           <Reveal>
             <p className="eyebrow mb-5">Multilingual SEO and localization agency</p>
           </Reveal>
@@ -174,9 +185,16 @@ export default function Home() {
             </h1>
           </Reveal>
 
+          <FounderPortrait
+            alt="Mike Bastin, leader of our multilingual SEO and localization agency."
+            caption="Mike Bastin, agency lead · Valencia."
+            className="home-hero-portrait"
+            mobileOptimized
+          />
+
           <Reveal i={2}>
             <h2 className="mb-5 max-w-[34ch] text-[clamp(1.15rem,2.1vw,1.6rem)] font-medium leading-[1.3]">
-              We help companies attract customers across languages through international SEO, native content and website localization.
+              Win customers in new markets with international SEO services, native content and website localization.
             </h2>
           </Reveal>
 
@@ -185,29 +203,24 @@ export default function Home() {
               className="mb-8 max-w-[56ch] text-[clamp(1.02rem,1.4vw,1.14rem)] leading-[1.6]"
               style={{ color: "color-mix(in srgb, var(--dim) 65%, var(--ink))" }}
             >
-              Mike leads the strategy, with native specialists handling the
-              language and market details. Our reporting separates
-              performance by country and language.
+              Work directly with Mike, your international SEO consultant. He
+              leads the strategy while native specialists adapt each market.
+              Reporting shows which languages bring enquiries.
             </p>
           </Reveal>
 
           <Reveal i={4}>
             <div className="flex flex-wrap items-center gap-x-6 gap-y-4">
               <Link href="/contact/" className="btn btn-primary btn-lg">
-                Book a free consultation
+                Discuss your project
               </Link>
               <Link href="/results/" className="ulink text-[.98rem]">
-                See client results
+                Explore client results
               </Link>
             </div>
           </Reveal>
 
         </div>
-
-        <FounderPortrait
-          alt="Mike Bastin, leader of our multilingual SEO and localization agency."
-          caption="Mike Bastin, agency lead · Valencia."
-        />
         </div>
       </section>
 
@@ -215,20 +228,19 @@ export default function Home() {
       {/* Straight after the hero (brief, P1): dated Search Console figures,
           then three cases chosen for the multilingual positioning, and a
           link to the rest rather than all eight spreads. */}
-      <HomeEvidence band="a" />
+      <HomeEvidence band="b" />
 
       {/* ============ WHAT WE DO AND HOW IT WORKS ============ */}
-      <section className="band band-b py-[clamp(64px,9vw,128px)]">
+      <section className="band band-a py-[clamp(64px,9vw,128px)]">
         <div className="shell">
           <Reveal>
             <p className="eyebrow mb-3">What we do</p>
             <h2 className="mb-5 max-w-[26ch] text-[clamp(1.8rem,3.6vw,2.9rem)] font-semibold leading-[1.1]">
-              From market audit to monthly reporting.
+              A clear plan for each market, with progress you can measure.
             </h2>
             <p className="mb-10 max-w-[62ch] text-[1.05rem] leading-[1.65]" style={{ color: "var(--dim)" }}>
-              We audit your current reach, agree a plan for each market, then
-              report progress by language every month. Depending on your goals,
-              choose the services that fit your growth plans.
+              We turn your market opportunities into focused work and measurable
+              growth. Explore the services that best fit your goals.
             </p>
           </Reveal>
 
@@ -244,7 +256,7 @@ export default function Home() {
                   className="mb-3 inline-flex rounded-full px-3 py-1 text-[.78rem] font-semibold uppercase tracking-[.07em] transition-colors hover:bg-[var(--berry)] hover:text-[var(--bg)]"
                   style={{ color: "var(--berry)", background: "var(--berry-soft)" }}
                 >
-                  {row.cluster}
+                  {row.linkLabel}
                 </Link>
                 <p className="text-[.92rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
                   {row.desc}
@@ -255,20 +267,58 @@ export default function Home() {
           </div>
 
           <Reveal>
-            <p className="eyebrow mb-3">How it works</p>
+            <p className="eyebrow mb-3">A partnership built around your growth</p>
           </Reveal>
 
-          <ol className="grid gap-px md:grid-cols-3" style={{ background: "var(--rule)" }}>
+          <ol className="grid gap-4 lg:grid-cols-3">
             {HOW_IT_WORKS.map((step, i) => (
               <Reveal key={step.title} i={i}>
-                <li className="band h-full px-7 py-7" style={{ background: "var(--bg)" }}>
-                  <p className="display mb-5 text-[.9rem] font-semibold tabular-nums" style={{ color: "var(--berry)" }}>
-                    {String(i + 1).padStart(2, "0")}
-                  </p>
-                  <h3 className="display mb-3 text-[1.15rem] font-semibold leading-[1.25]">
+                <li
+                  className="relative h-full overflow-hidden rounded-lg border p-6 sm:p-7"
+                  style={{ borderColor: "var(--rule)", background: "var(--shade)" }}
+                >
+                  <div
+                    className="mb-8 grid h-14 w-14 place-items-center rounded-full"
+                    style={{ color: "var(--berry)", background: "var(--berry-soft)" }}
+                  >
+                    <svg
+                      viewBox="0 0 32 32"
+                      className="h-7 w-7"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="1.8"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      aria-hidden="true"
+                    >
+                      {step.icon === "search" && (
+                        <>
+                          <circle cx="14" cy="14" r="8" />
+                          <path d="m20 20 6 6M10 14h8M14 10v8" />
+                        </>
+                      )}
+                      {step.icon === "target" && (
+                        <>
+                          <circle cx="16" cy="16" r="11" />
+                          <circle cx="16" cy="16" r="6" />
+                          <circle cx="16" cy="16" r="1.5" />
+                          <path d="m21 11 6-6M22 5h5v5" />
+                        </>
+                      )}
+                      {step.icon === "chart" && (
+                        <>
+                          <path d="M5 26V7M5 26h23" />
+                          <path d="m9 20 6-6 4 3 8-9" />
+                          <path d="M22 8h5v5" />
+                        </>
+                      )}
+                    </svg>
+                  </div>
+                  <p className="eyebrow mb-2 text-[.72rem]">{step.theme}</p>
+                  <h3 className="display mb-3 text-[1.25rem] font-semibold leading-[1.25]">
                     {step.title}
                   </h3>
-                  <p className="text-[.92rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
+                  <p className="text-[.92rem] leading-[1.65]" style={{ color: "var(--dim)" }}>
                     {step.body}
                   </p>
                 </li>
@@ -279,7 +329,7 @@ export default function Home() {
           <Reveal i={3}>
             <p className="mt-8 text-[.95rem]" style={{ color: "var(--dim)" }}>
               <Link href="/how-i-work/" className="ulink" style={{ color: "var(--berry)" }}>
-                See how the engagement is scoped and billed
+                Explore how we scope and bill each engagement
               </Link>
               {" "}and what happens from the first call to monthly reporting.
             </p>
@@ -288,7 +338,7 @@ export default function Home() {
       </section>
 
       {/* ============ WHY IT WORKS ============ */}
-      <section className="band band-a py-[clamp(64px,9vw,128px)]">
+      <section className="band band-b py-[clamp(64px,9vw,128px)]">
         <div className="shell">
           <Reveal>
             <p className="eyebrow mb-3">Why it works</p>
@@ -320,7 +370,7 @@ export default function Home() {
       </section>
 
       {/* ============ TESTIMONIALS ============ */}
-      <section id="testimonials" className="band band-b py-[clamp(64px,9vw,128px)]">
+      <section id="testimonials" className="band band-a py-[clamp(64px,9vw,128px)]">
         <div className="shell">
           <Reveal>
             <p className="eyebrow mb-3">In their own words</p>
@@ -332,13 +382,13 @@ export default function Home() {
             </p>
           </Reveal>
           <Reveal i={1}>
-            <Testimonials />
+            <Testimonials mobileInitialCount={2} />
           </Reveal>
         </div>
       </section>
 
       {/* ============ BASTIN, THE ACRONYM ============ */}
-      <section className="band band-a py-[clamp(48px,6vw,80px)]">
+      <section className="band band-b py-[clamp(48px,6vw,80px)]">
         <div className="shell">
           <Reveal>
             <p className="eyebrow mb-2">What the name stands for</p>
@@ -396,7 +446,7 @@ export default function Home() {
       </section>
 
       {/* ============ CREDIBILITY ============ */}
-      <section className="band band-b py-[clamp(56px,8vw,110px)]">
+      <section className="band band-a py-[clamp(56px,8vw,110px)]">
         <div className="shell">
           {/* Two by two, then four across: auto-fit made a row of three
               and a lone fourth with grey empty cells at tablet width. */}

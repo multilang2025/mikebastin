@@ -43,8 +43,8 @@ markup, and it does not touch component CSS. Anything you design has to work
 on both grounds without knowing which one it is on. A component that hardcodes
 a colour breaks the toggle silently, which is why the rule is variables only.
 
-Under `prefers-color-scheme: dark` the mapping inverts by default, and an
-explicit user choice overrides it.
+Night Swell is the first-visit default. A saved choice overrides it; the
+theme toggle remains available on every page.
 
 ### Full token set
 

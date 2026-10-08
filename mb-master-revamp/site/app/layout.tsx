@@ -59,10 +59,9 @@ export const metadata: Metadata = {
   },
 };
 
-// Runs before paint. Stops the flash of the wrong theme.
+// Runs before paint. Night Swell is the first-visit default; a saved choice wins.
 const noFlash = `(function(){try{var s=localStorage.getItem("mb-theme");
-var d=window.matchMedia("(prefers-color-scheme: dark)").matches;
-document.documentElement.setAttribute("data-theme",s||(d?"dark":"light"));}catch(e){}})();`;
+document.documentElement.setAttribute("data-theme",s||"dark");}catch(e){}})();`;
 
 // Runs before paint, and owns the scroll reveal end to end: it opts the page
 // into the hidden state (html.mb-anim, see globals.css) and drives the
