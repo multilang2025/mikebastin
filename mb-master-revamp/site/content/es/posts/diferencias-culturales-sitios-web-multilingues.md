@@ -50,6 +50,22 @@ Tu contenido viaja más rápido que tú, y en cada mercado lo lee alguien que lo
 
 Cuando hablas el idioma cultural de tu público, pasas a ser «uno de los nuestros», y eso se nota en las consultas y en los pedidos. Un juego de palabras, un tuteo o una foto pueden acercarte al comprador o alejarte de él antes de que lea la oferta.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="El mismo mensaje en dos versiones: tal cual, suena de fuera; adaptado a la cultura del comprador, te convierte en «uno de los nuestros».">
+<path d="M155 75 L207 35" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M155 75 L207 115" class="fg-accent"/>
+<rect x="15" y="55" width="140" height="40" rx="6" class="fg-box"/>
+<rect x="207" y="12" width="186" height="46" rx="6" class="fg-box"/>
+<rect x="207" y="92" width="186" height="46" rx="6" class="fg-hot"/>
+<text x="85" y="80" text-anchor="middle" class="fg-strong">Tu mensaje</text>
+<text x="300" y="32" text-anchor="middle" class="fg-text">Tal cual</text>
+<text x="300" y="50" text-anchor="middle" class="fg-label">suena de fuera</text>
+<text x="300" y="112" text-anchor="middle" class="fg-strong">Adaptado</text>
+<text x="300" y="130" text-anchor="middle" class="fg-label">«uno de los nuestros»</text>
+</svg>
+<figcaption>Hablar el idioma cultural del comprador te sitúa entre los suyos, y eso se nota en las consultas y en los pedidos.</figcaption>
+</figure>
+
 ## Lo que cambia de un mercado a otro
 
 Conocer las diferencias concretas te permite decidirlas desde el primer día. Estas son algunas de las que más se notan en los mercados donde suelen vender nuestros clientes:
@@ -62,6 +78,26 @@ Conocer las diferencias concretas te permite decidirlas desde el primer día. Es
 | Pago habitual | Carte Bancaire | PayPal y compra con factura | iDEAL y Wero | Tarjeta |
 
 Bélgica merece una nota aparte: tiene tres lenguas oficiales, neerlandés, francés y alemán, y una web belga necesita como mínimo sus versiones en francés y en neerlandés, cada una escrita para su comunidad.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Bélgica tiene tres lenguas oficiales; una web belga necesita como mínimo su versión en francés y su versión en neerlandés.">
+<path d="M200 50 L68 102" class="fg-accent"/>
+<path d="M200 50 L200 102" class="fg-accent"/>
+<path d="M200 50 L332 102" class="fg-dim" stroke-dasharray="4 4"/>
+<rect x="135" y="10" width="130" height="40" rx="6" class="fg-hot"/>
+<rect x="5" y="102" width="126" height="46" rx="6" class="fg-box"/>
+<rect x="137" y="102" width="126" height="46" rx="6" class="fg-box"/>
+<rect x="269" y="102" width="126" height="46" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-strong">Bélgica</text>
+<text x="68" y="122" text-anchor="middle" class="fg-text">Francés</text>
+<text x="68" y="140" text-anchor="middle" class="fg-label">versión propia</text>
+<text x="200" y="122" text-anchor="middle" class="fg-text">Neerlandés</text>
+<text x="200" y="140" text-anchor="middle" class="fg-label">versión propia</text>
+<text x="332" y="122" text-anchor="middle" class="fg-text">Alemán</text>
+<text x="332" y="140" text-anchor="middle" class="fg-label">lengua oficial</text>
+</svg>
+<figcaption>Cada versión belga se escribe para su comunidad: francés y neerlandés son el mínimo, y el alemán completa las tres lenguas oficiales.</figcaption>
+</figure>
 
 ## Cinco prácticas para conectar en cada mercado
 
@@ -90,6 +126,22 @@ Elige las imágenes con cuidado y, ante la duda, consulta con alguien del lugar.
 El momento también comunica. Ten en cuenta las festividades locales, los eventos culturales y las zonas horarias al planificar tus campañas.
 
 En Alemania, muchos festivos cambian de un estado federado a otro; en los Países Bajos, el Día del Rey (Koningsdag), a finales de abril, es una fecha comercial propia. Programa las grandes campañas con el calendario de cada país delante.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="El calendario de campañas parte del de cada país: en Alemania, los festivos de cada estado federado; en los Países Bajos, el Koningsdag.">
+<path d="M100 58 L200 108" class="fg-line"/>
+<path d="M300 58 L200 108" class="fg-line"/>
+<rect x="15" y="10" width="170" height="48" rx="6" class="fg-box"/>
+<rect x="215" y="10" width="170" height="48" rx="6" class="fg-box"/>
+<rect x="115" y="108" width="170" height="44" rx="6" class="fg-hot"/>
+<text x="100" y="30" text-anchor="middle" class="fg-text">Alemania</text>
+<text x="100" y="48" text-anchor="middle" class="fg-label">festivos por estado</text>
+<text x="300" y="30" text-anchor="middle" class="fg-text">Países Bajos</text>
+<text x="300" y="48" text-anchor="middle" class="fg-label">Koningsdag</text>
+<text x="200" y="136" text-anchor="middle" class="fg-strong">Tu calendario</text>
+</svg>
+<figcaption>Programa las grandes campañas con las fechas locales delante, país por país.</figcaption>
+</figure>
 
 ### Rodéate de gente local
 
