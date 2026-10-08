@@ -45,7 +45,7 @@ Chaque marché demande sa propre recherche, qui couvre :
 
 Google Keyword Planner, Semrush et Ahrefs aident à la mener, et la connaissance d’un locuteur natif distingue les vraies requêtes des hypothèses transposées du français. Une formulation locale précise aide aussi les modèles d’IA à associer votre marque aux bons sujets dans chaque langue.
 
-## Des balises méta propres à chaque langue
+## Rédigez des balises méta pour chaque langue
 
 Votre titre et votre description sont le premier texte commercial que lit un internaute de chaque marché, souvent avant de connaître votre nom. Chaque version de langue demande ses propres :
 
@@ -55,7 +55,7 @@ Votre titre et votre description sont le premier texte commercial que lit un int
 
 De bonnes métadonnées augmentent le taux de clic dans les résultats classiques et donnent plus de chances à une IA de retenir votre page comme référence.
 
-## Structure d’URL d’un site multilingue
+## Choisissez votre structure d’URL une fois pour toutes
 
 Votre structure d’URL coûte cher à modifier plus tard : mieux vaut la choisir une fois. C’est un élément central du [SEO technique d’un site multilingue](/fr/seo-technique-site-multilingue/), car les moteurs s’en servent pour identifier la langue et le ciblage régional.
 
@@ -84,7 +84,7 @@ Des balises hreflang cassées ou circulaires sont la constatation la plus fréqu
 <p><strong>Vous voulez que chaque marché arrive sur la bonne version de votre site ?</strong> Nos <a href="/fr/services/referencement-multilingue/">programmes de référencement multilingue</a> valident les balises hreflang de chaque page, marché par marché, page d’accueil comprise. <a href="/fr/nous-contacter/">Réservez un premier échange</a>.</p>
 </aside>
 
-## Backlinks locaux et autorité régionale
+## Gagnez des liens locaux dans chaque pays
 
 Un lien venu de la presse locale ou d’une association professionnelle du pays visé vaut davantage qu’un lien international générique, car la pertinence est géographique autant que thématique. Trois façons d’obtenir des liens régionaux :
 
@@ -94,7 +94,7 @@ Un lien venu de la presse locale ou d’une association professionnelle du pays 
 
 Gagnez chaque lien, un par un : des liens éditoriaux tiennent dans la durée et vous mettent à l’abri des pénalités qui accompagnent les liens achetés. Des liens locaux de qualité augmentent aussi la probabilité qu’une IA retienne vos contenus comme source dans ce marché. Pour comparer les offres du marché, notre [revue des plateformes d’achat et de vente de liens](/fr/plateformes-achat-vente-liens/) détaille les contrôles qui gardent un site en sécurité.
 
-## Données structurées et clarté des entités
+## Clarifiez vos entités avec les données structurées
 
 Une IA cite plus volontiers la page dont elle identifie clairement le marché et l’auteur. Les données structurées aident les moteurs à comprendre de quoi parle une page, qui la publie et à qui elle s’adresse. Chaque version de langue porte un balisage schema exact :
 
@@ -105,7 +105,7 @@ Une IA cite plus volontiers la page dont elle identifie clairement le marché et
 
 La clarté des entités compte davantage encore sur un site multilingue. Les moteurs et les modèles d’IA ont besoin de signaux précis sur la version qui s’applique à chaque marché, langue et public. Avec eux, vos contenus concourent dans les réponses des IA au même niveau que dans les classements.
 
-## Le GEO et la présence partout
+## Le GEO : être cité là où l’acheteur compare
 
 Une part croissante de vos acheteurs compare désormais les fournisseurs dans les AI Overviews et le mode IA de Google, dans ChatGPT, Perplexity et Gemini, qui s’appuient sur des contenus structurés, faisant autorité et riches en entités. Un contenu écrit pour les réponses des IA comme pour les résultats classiques atteint cette partie de la décision.
 
@@ -134,7 +134,7 @@ Les marques qui donnent à chaque langue le même soin qu’à la langue princip
 <p><strong>Quand vos acheteurs posent leur question en allemand, quelle marque l’IA leur cite-t-elle ?</strong> Notre <a href="/fr/services/referencement-multilingue/">travail de référencement multilingue</a> gagne des liens et des citations pays par pays, sur les sources que ChatGPT, Claude, Perplexity et les AI Overviews retiennent dans chaque langue. <a href="/fr/nous-contacter/">Parlons de vos marchés</a>.</p>
 </aside>
 
-## Réunir SEO multilingue et GEO
+## Travaillez SEO multilingue et GEO ensemble
 
 | Couche | Ce qu’elle couvre | Ce qu’elle apporte |
 |---|---|---|

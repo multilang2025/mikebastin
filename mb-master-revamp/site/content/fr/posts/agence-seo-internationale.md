@@ -112,11 +112,11 @@ Une agence qui connaît déjà votre marché démarre plus vite. Voici ceux où 
 
 Chaque marché a aussi sa page de service, comme notre [référencement en néerlandais](https://mikebastin.com/fr/services/seo-neerlandais/) pour les Pays-Bas et la Flandre, ou notre [référencement en allemand](https://mikebastin.com/fr/services/seo-allemand/) pour l’Allemagne, l’Autriche et la Suisse alémanique, où des rédacteurs allemands natifs écrivent les pages.
 
-## Ce que le portfolio montre
+## Ce que montrent les sites que nous menons
 
 Des secteurs très différents nous amènent à adapter l’approche à chaque fois, et les enseignements circulent d’un site à l’autre.
 
-- **Agence de traduction.** BeTranslated, l’agence que nous faisons tourner depuis vingt ans, mène neuf domaines nationaux (.com, .us, .ca, .co.uk, .be, .fr, .es, .de, .nl). Chacun a son sitemap, son groupe hreflang et sa propre recherche de mots-clés, et se positionne face à ses concurrents locaux.
+- **Agence de traduction.** BeTranslated, l’agence que nous faisons tourner depuis plus de 20 ans, mène neuf domaines nationaux (.com, .us, .ca, .co.uk, .be, .fr, .es, .de, .nl). Chacun a son sitemap, son groupe hreflang et sa propre recherche de mots-clés, et se positionne face à ses concurrents locaux.
 - **Fret industriel.** Pour TX International Freight, à Houston, le SEO technique et le contenu en anglais sont bâtis sur le vocabulaire que les acheteurs du fret industriel emploient réellement, et le site est présent dans le pack local de Houston sur ces recherches.
 - **Cabinet d’avocats.** Delaguía y Luzón, à Valencia, couvre le droit des affaires, le droit du travail, l’immigration et la fiscalité entre l’Espagne et la France, en espagnol, en français, en anglais et en russe, avec un vocabulaire juridique tenu au niveau qu’un avocat exige.
 - **Immobilier caribéen.** Century 21 Perdomo, en République dominicaine, publie ses biens en anglais, en français, en espagnol et en allemand, et chaque annonce modifiée doit arriver dans les quatre langues en même temps.
@@ -146,7 +146,7 @@ La recherche elle-même se renouvelle en continu, ce qui fait du suivi mensuel u
 
 Pour une vue d’ensemble des chiffres du secteur, les compilations d’[Emmanuelle Wiesemes](https://emmanuelle-wiesemes.com/statistiques-seo/) et d’[Incremys](https://www.incremys.com/en/resources/blog/seo-statistics) rassemblent les études récentes ; nous citons ici leurs sources primaires.
 
-## Comment choisir votre agence SEO internationale
+## Choisissez l’agence qui connaît vos marchés
 
 Le marché des prestataires est vaste :
 
@@ -164,7 +164,7 @@ Le choix se fait donc sur quelques critères vérifiables, sous forme de questio
 
 Si votre besoin tient davantage du conseil, notre article sur le rôle d’un [consultant en référencement international](/fr/consultant-referencement-international/) décrit la mission mois par mois, et celui sur l’[expert SEO international](/fr/expert-en-seo-international/) détaille les décisions prises pour chaque marché. Pour un besoin qui couvre tout le marketing digital, notre comparaison [conseiller en marketing digital ou agence](/fr/conseiller-marketing-digital/) vous aide à trancher.
 
-Vous voulez parler de votre projet de référencement international ? Un premier échange de trente minutes nous suffit pour situer le potentiel de votre site sur les marchés francophones, anglophones ou hispanophones, et vous décidez ensuite librement de la suite.
+Réservez un premier échange de trente minutes sur votre projet de référencement international : nous situons ensemble le potentiel de votre site sur les marchés francophones, anglophones ou hispanophones, et vous décidez ensuite librement de la suite.
 
 - Email : [mike@mikebastin.com](mailto:mike@mikebastin.com)
 - [Formulaire de contact](/fr/nous-contacter/)

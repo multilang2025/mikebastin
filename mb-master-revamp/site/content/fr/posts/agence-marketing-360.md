@@ -19,7 +19,7 @@ Vous avez signé avec une **agence marketing 360** pour obtenir un plan coordonn
 
 Un travail coordonné rapporte plus que la mission ne coûte : la recherche payante dépense sur les clics que vos pages organiques n’ont pas encore gagnés, et vos versions espagnole, allemande ou néerlandaise partent d’un plan complet. Nous pratiquons ce métier depuis plus de deux décennies, et nous savons à quoi ressemble un travail coordonné vu de l’intérieur.
 
-## À quoi ressemble une intégration qui fonctionne
+## Reconnaître une intégration qui fonctionne
 
 Vous payez pour des décisions prises à travers les canaux. Cinq éléments, réellement reliés, les rendent possibles.
 
@@ -59,7 +59,7 @@ Chacune des habitudes ci-dessous oriente le budget vers le canal où le problèm
 
 **Le multilingue prévu dès le départ.** Quand les versions espagnole et allemande sont planifiées en même temps que la version française, chacune part de son propre plan complet et d’une transmission nette. Comme le montrent nos [bonnes pratiques du SEO multilingue](/fr/bonnes-pratiques-seo-multilingue/), un marketing multilingue efficace intègre la traduction à la planification dès le premier jour.
 
-## Le test de l’intégration
+## Testez l’intégration en dix minutes
 
 En dix minutes, vous voyez à quel point le travail de votre agence est coordonné. Posez ces trois questions sur n’importe quelle campagne active.
 
@@ -108,7 +108,7 @@ Lisez une proposition à l’aune de la colonne de droite : chaque ligne corres
 | « Prêt pour le multilingue » | La traduction intégrée à la planification dès le départ |
 | « Réseaux sociaux en continu » | Des réseaux sociaux reliés aux mêmes objectifs de conversion que le payant et le SEO |
 
-## Savoir si un partenaire 360 est le bon choix
+## Choisissez un partenaire 360 au bon moment
 
 Un partenaire 360 se rentabilise dès que vous avez besoin de coordination entre les canaux. Nous conseillons en général d’en choisir un quand au moins deux des conditions suivantes sont réunies.
 
@@ -118,7 +118,7 @@ Un partenaire 360 se rentabilise dès que vous avez besoin de coordination entre
 
 Dans les autres cas, un responsable senior à temps partagé, épaulé par deux prestataires spécialisés, obtient souvent de meilleurs résultats qu’une agence au forfait, pour un coût plus bas et avec davantage d’attention portée à la vraie contrainte. Notre comparatif [conseiller en marketing digital ou agence](/fr/conseiller-marketing-digital/) vous aide à trancher.
 
-## Un regard extérieur sur votre moteur marketing
+## Comparez forfait 360 et équipe interne avec un regard extérieur
 
 Si vous comparez un forfait d’agence marketing 360 avec le maintien du travail en interne, nous passons volontiers en revue les arbitrages avec vous.
 

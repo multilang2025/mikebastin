@@ -85,7 +85,7 @@ La confiance transforme un acheteur ponctuel en client fidèle, et une plateform
 
 Chez Bonzai, chaque transaction est claire, chaque règle compréhensible, et chaque créateur reste propriétaire de ses informations, ce qui fait des utilisateurs des partenaires de long terme.
 
-## L’humain au cœur du système
+## L’humain aux commandes de la technologie
 
 La crainte que partagent beaucoup de créateurs est simple : que l’IA les rende remplaçables. Cordaro y répond par une phrase qu’il répète souvent :
 
@@ -109,7 +109,7 @@ Dans beaucoup de régions émergentes, les créateurs grandissent plus vite dès
 <p><strong>Des demandes en espagnol, en néerlandais ou en allemand, sur des pages écrites pour chaque marché.</strong> Nous rédigeons les pages de chaque marché à partir de ses propres recherches, pour que le bon visiteur arrive sur une page écrite pour lui. <a href="/fr/services/creation-de-contenu-multilingue/">Découvrir la création de contenu multilingue</a>.</p>
 </aside>
 
-## Le rôle du créateur dans l’économie de demain
+## Le créateur de demain, une petite entreprise à part entière
 
 Le créateur de demain, tel que le voit Jean Marie Cordaro, est une petite entreprise à part entière : un média indépendant, un pédagogue, un passeur et un propriétaire animé d’un objectif. Pour tenir ce rôle, les créateurs ont besoin d’outils éthiques, transparents et qui leur donnent du pouvoir.
 

@@ -93,7 +93,7 @@ Segmentez votre liste selon ce que font réellement vos abonnés :
 
 Pour une entreprise qui vend à l’étranger, le pays et la langue forment le premier niveau de segmentation : chaque marché reçoit son e-mail, écrit dans sa langue, dans le prolongement d’une [stratégie de contenu ciblée](/fr/strategie-de-contenu-ciblee/) sur ce que chaque marché recherche.
 
-### Contenu dynamique
+### Adapter le contenu à chaque abonné
 
 Les blocs de contenu dynamique changent selon les données de l’abonné :
 

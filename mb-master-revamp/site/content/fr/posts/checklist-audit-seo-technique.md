@@ -290,7 +290,7 @@ Le rapport Ciblage international de la Search Console et son réglage de pays on
 <p><strong>Des acheteurs qui arrivent sur la page écrite dans leur langue ?</strong> Notre <a href="/fr/services/seo-technique/">SEO technique pour sites multilingues</a> vérifie si vos versions linguistiques se font concurrence et corrige ce qui le provoque, pour que chacune gagne ses propres acheteurs. <a href="/fr/nous-contacter/">Réservez un premier échange</a>.</p>
 </aside>
 
-## Suivi et surveillance
+## Mesurez ce que chaque correction rapporte
 
 Une mesure fiable vous dit quelles corrections ont rapporté. Universal Analytics a cessé de traiter les données en juillet 2023 : vérifiez que GA4 (ou l’alternative de votre choix) a remplacé toute balise `UA-` et se déclenche sur chaque page, idéalement via Google Tag Manager, avec Tag Assistant pour contrôler. Mettez ensuite en place l’[analyse et le suivi des conversions](/fr/services/seo-technique/) pour les actions qui comptent : envois de formulaires, téléchargements, appels et clics sur les boutons clés.
 

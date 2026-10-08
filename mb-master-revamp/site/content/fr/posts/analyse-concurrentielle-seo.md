@@ -93,7 +93,7 @@ Ahrefs [documente lui-même l’écart](https://help.ahrefs.com/en/articles/4313
 <p><strong>Vous voulez des chiffres mesurés à côté des estimations des outils ?</strong> Notre <a href="/fr/services/seo-technique/">SEO technique</a> configure GA4 avec un trafic ventilé par marché, pour confronter les estimations aux chiffres mesurés. <a href="/fr/nous-contacter/">Réservez un premier échange gratuit</a>.</p>
 </aside>
 
-## Une analyse concurrentielle multilingue se décline par langue
+## Menez l’analyse langue par langue
 
 Quand vous vendez dans plusieurs langues, chaque langue apporte ses propres concurrents. Le cabinet d’avocats cité plus haut en a trois ensembles.
 
@@ -107,7 +107,7 @@ Cela donne trois listes de concurrents, trois briefs de contenu et trois straté
 
 Une entreprise française qui vend en Espagne, en Allemagne et au Royaume-Uni se retrouve dans la même situation : chaque marché a ses propres rivaux en recherche. Donnez à chaque langue sa propre analyse, pour que chaque marché reçoive un brief capable de se positionner. Nos [bonnes pratiques du SEO multilingue](/fr/bonnes-pratiques-seo-multilingue/) détaillent la suite, marché par marché.
 
-## La recherche par IA change la question, et la méthode tient
+## Recherche par IA : la question change, la méthode reste
 
 Oui, le [passage du SEO au GEO](/fr/seo-au-geo/) compte. Oui, les citations dans ChatGPT et Perplexity pèsent désormais dans les parcours d’achat B2B. La logique concurrentielle de fond reste pour l’essentiel la même.
 
@@ -129,7 +129,7 @@ Traitez le GEO comme une partie du même exercice : la même page de résultats
 
 **Actualiser l’analyse au fil de l’année.** Les marchés bougent, les algorithmes évoluent et de nouveaux acteurs arrivent. Pour nos clients actifs, nous actualisons le tableau chaque trimestre ; pour les niches rapides comme les outils d’IA ou la fintech, chaque mois.
 
-## Les moments où l’analyse concurrentielle rentabilise son budget
+## Trois moments où l’analyse rentabilise son budget
 
 Lancez-la quand une décision en dépend. Elle rapporte dans trois situations.
 
@@ -141,7 +141,7 @@ Les décisions de prix ou de positionnement de services, quand vous envisagez un
 
 Entre ces moments, une actualisation régulière garde le tableau à jour.
 
-## Un regard extérieur sur vos vrais concurrents
+## Faites vérifier votre liste de concurrents
 
 Si vous voulez vérifier que votre équipe se compare à la bonne liste, nous pouvons réaliser en moins d’une heure une **analyse concurrentielle** ciblée, au niveau des pages de résultats, sur l’une de vos requêtes prioritaires.
 

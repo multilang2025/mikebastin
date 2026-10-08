@@ -78,7 +78,7 @@ Choisissez la forme d’adresse qu’attendent vos acheteurs, et vous sonnez exa
 
 L’allemand s’adresse aux personnes de façon formelle (« Sie ») ou familière (« Du »), et le choix traverse chaque page. Un lecteur francophone connaît le principe, puisque le français distingue lui aussi le vouvoiement et le tutoiement. La logique est proche, et le registre formel reste la norme dans l’entreprise allemande, comme le vouvoiement dans une relation d’affaires en France ou en Belgique.
 
-### Le rôle de la formalité en allemand
+### Ce que la formalité signale en allemand
 
 Dans les contextes professionnels, le registre formel est la règle.
 
@@ -187,4 +187,4 @@ Les annuaires professionnels régionaux comptent eux aussi pour le référenceme
 
 La localisation est ce qui gagne l’acheteur allemand. Le bon ton, un humour adapté et un contenu réellement local font lire chaque page comme une page allemande, et les liens de sites allemands respectés ajoutent visibilité et crédibilité.
 
-Commencez par les pages qui reçoivent le plus de visites allemandes et le moins de demandes : c’est là que la localisation se rentabilise en premier. Écrivez-nous depuis la [page de contact](/fr/nous-contacter/), et nous examinons avec vous votre site en allemand.
+Commencez par les pages qui reçoivent le plus de visites allemandes et le moins de demandes : c’est là que la localisation se rentabilise en premier. [Demandez l’examen de votre site en allemand](/fr/nous-contacter/) : nous le passons en revue avec vous.

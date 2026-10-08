@@ -50,7 +50,7 @@ Les grands catalogues et les contenus mis à jour souvent sont le terrain où le
 
 Vos meilleurs traducteurs donnent le meilleur d’eux-mêmes sur la nuance. Quand l’IA prend en charge les segments courants, ils se consacrent au travail créatif qui décide si un marché vous fait confiance. Le [conseil en IA](/fr/services/conseil-ia/) aide à choisir les tâches à automatiser en premier.
 
-## Points d’attention et façons de les gérer
+## Réglez chaque point sensible avant publication
 
 Chacun se règle au moindre coût avant la publication, et chacun protège la confiance que vos pages doivent gagner.
 
@@ -72,7 +72,7 @@ Pour le matériel confidentiel, travaillez avec des [services de traduction prof
 <p><strong>Votre extension de traduction a rempli le site, et vous voulez que chaque ligne sonne juste ?</strong> Notre <a href="/fr/services/postedition-ia/">traduction IA et post-édition</a> fait reprendre le texte machine par un locuteur natif, jusqu’aux balises title, aux textes alternatifs, aux libellés de boutons et aux messages d’erreur des formulaires. <a href="/fr/nous-contacter/">Réservez un premier échange</a>.</p>
 </aside>
 
-## Utiliser l’IA efficacement en localisation
+## Répartissez le travail entre la machine et le relecteur
 
 Les entreprises qui gardent à la fois l’économie et la qualité répartissent le travail de la même façon :
 
@@ -84,7 +84,7 @@ Les entreprises qui gardent à la fois l’économie et la qualité répartissen
 
 ## Par où commencer
 
-Choisissez un marché et un type de contenu, lancez l’IA avec une post-édition humaine, et faites vérifier le résultat par un lecteur natif avant de passer à l’échelle. La vitesse vient de la machine, et la confiance vient des personnes. Pour vos contenus rédigés en anglais, notre guide de la [traduction anglais-français](/fr/traduction-anglais-francais/) détaille ce que votre prestataire doit vous livrer. [Contactez notre équipe](/fr/nous-contacter/) pour un conseil adapté à votre entreprise, ou reliez ce travail à votre [référencement multilingue](/fr/services/referencement-multilingue/) pour que les pages traduites soient aussi trouvées.
+Choisissez un marché et un type de contenu, lancez l’IA avec une post-édition humaine, et faites vérifier le résultat par un lecteur natif avant de passer à l’échelle. La vitesse vient de la machine, et la confiance vient des personnes. Pour vos contenus rédigés en anglais, notre guide de la [traduction anglais-français](/fr/traduction-anglais-francais/) détaille ce que votre prestataire doit vous livrer. [Demandez un conseil adapté à votre entreprise](/fr/nous-contacter/), ou reliez ce travail à votre [référencement multilingue](/fr/services/referencement-multilingue/) pour que les pages traduites soient aussi trouvées.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 122" role="img" aria-label="Quatre étapes, choisir un marché, traduire par IA, faire relire par un lecteur natif, puis passer à l’échelle.">

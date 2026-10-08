@@ -160,13 +160,13 @@ Des LLM comme GPT, Claude et Gemini fonctionnent sous plusieurs de ces outils, o
 
 Pour une entreprise dotée d’une petite équipe technique, notre [conseil en IA pour l’export](/fr/services/conseil-ia/) accélère le choix de la plateforme et le déploiement.
 
-## Ce que les personnes apportent, et la suite pour les chatbots
+## Réservez l’empathie aux conseillers et préparez la suite
 
 Savoir où le bot s’arrête protège vos clients les plus précieux, et l’intelligence émotionnelle reste le premier de ces domaines. Un chatbot détecte le sentiment ; l’empathie revient aux personnes, et un client en deuil, un client mécontent ou un utilisateur vulnérable a souvent besoin d’un interlocuteur humain. Négociations, litiges et exceptions demandent la souplesse qu’une personne applique avec constance.
 
 La reconnaissance vocale atteint un niveau proche de l’humain dans les grandes langues, et l’IA multimodale permet à un client de montrer la photo d’un produit et de poser sa question dans la même conversation. Les agents autonomes sont l’étape suivante : les chatbots actuels répondent aux questions, les agents prennent des rendez-vous, traitent des sinistres et gèrent des comptes par eux-mêmes.
 
-## Chiffrer le projet et lancer un pilote
+## Chiffrez le projet, puis lancez un pilote
 
 Votre direction financière demandera ce que le bot fait économiser. Les coûts baissent à mesure que des demandes quittent les conseillers humains, le chiffre d’affaires progresse avec une réponse plus rapide aux prospects, et la fidélisation s’améliore quand la disponibilité du support répond aux attentes. Calculez votre coût par interaction de support, estimez le taux de désengorgement, et projetez les économies sur un, trois et cinq ans, nettes des coûts de mise en place, de plateforme et de maintenance.
 

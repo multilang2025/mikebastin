@@ -208,5 +208,5 @@ Pour choisir un LLM, posez trois questions. La licence permet-elle ce que nous v
 Le choix du modèle pèse aussi sur votre visibilité : nos articles sur [le passage du SEO au GEO](/fr/seo-au-geo/) et sur [l’IA en traduction et localisation](/fr/ia-traduction-et-localisation/) montrent comment l’IA change la recherche et la production de contenus.
 
 <aside class="post-cta">
-<p><strong>Un modèle adapté à vos langues, une licence qui couvre votre usage et une facture proportionnée.</strong> Nous aidons les entreprises à choisir le LLM adapté à leurs contenus multilingues et à l’intégrer dans leurs flux de SEO et de traduction existants. <a href="/fr/nous-contacter/">Parlez-nous de votre projet</a>.</p>
+<p><strong>Un modèle adapté à vos langues, une licence qui couvre votre usage et une facture proportionnée.</strong> Nous aidons les entreprises à choisir le LLM adapté à leurs contenus multilingues et à l’intégrer dans leurs flux de SEO et de traduction existants. <a href="/fr/nous-contacter/">Décrivez-nous vos contenus et vos langues</a>.</p>
 </aside>
