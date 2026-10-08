@@ -102,8 +102,8 @@ export default function SiteNav() {
         background: "color-mix(in oklab, var(--bg) 82%, transparent)",
       }}
     >
-      <nav className="shell flex h-[62px] items-center justify-between gap-4 sm:gap-6">
-        <Link href={ui.home} className="flex shrink-0 items-center gap-2.5">
+      <nav className="shell flex h-[62px] items-center justify-between gap-2 min-[360px]:gap-4 sm:gap-6">
+        <Link href={ui.home} className="flex shrink-0 items-center gap-2.5 max-[359px]:gap-2 max-[359px]:[&>svg]:h-auto max-[359px]:[&>svg]:w-[41px]">
           {/* The MB monogram, rebuilt as vector from the owner's concept
               sheet (22 Sep 2026), where it exists only as a 122x60 area of
               a JPEG. Nothing was traced: the two ribbons follow stroke
@@ -122,7 +122,7 @@ export default function SiteNav() {
               stays: a second globe-less file would be a second thing to
               keep in step. */}
           <BrandMark width={49} />
-          <span className="display text-[1.05rem] font-semibold tracking-tight">
+          <span className="display text-[1.05rem] font-semibold tracking-tight max-[359px]:text-[.95rem]">
             Mike Bastin
           </span>
         </Link>
@@ -152,7 +152,7 @@ export default function SiteNav() {
         {/* The two controls are one group, so `justify-between` spreads the
             logo against the pair rather than stranding the menu button in
             the middle of the row once the desktop links are hidden. */}
-        <div className="flex shrink-0 items-center gap-1">
+        <div className="flex shrink-0 items-center gap-0 min-[360px]:gap-1">
           <button
             type="button"
             onClick={() => setOpen((v) => !v)}

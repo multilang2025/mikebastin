@@ -31,7 +31,7 @@
  * regenerated: the query string is ignored by the server and makes the
  * browser fetch the new file.
  */
-const SHOT_VERSION = "20261002";
+export const SHOT_VERSION = "20261007";
 
 /** The window `leads` averages over. */
 export const LEADS_PERIOD = "May to July 2026";
@@ -119,20 +119,20 @@ export const PROJECTS: Project[] = [
     name: "BeTranslated",
     domain: "betranslated.com",
     angle: "Founded it, still run it",
-  body: "A translation agency with ten country sites, from the United States to Italy, each one ranking separately in its own market.",
+  body: "A translation agency with nine country sites, from the United States to the Netherlands, each one ranking separately in its own market.",
     metaTitle: "BeTranslated, a multi-TLD case study",
-    metaDescription: "Twenty years running a translation agency across ten country domains, each ranking separately in its own market. See what that discipline required.",
+    metaDescription: "Twenty years running a translation agency across nine country domains, each ranking separately in its own market. See what that discipline required.",
     metrics: [
-      { v: "10", k: "Country domains" },
+      { v: "9", k: "Country domains" },
       { v: "20 yr", k: "Running it" },
     ],
     problem:
-      "A translation agency selling into ten markets needs ten SEO campaigns, each one built for its own market. The country domains (.com, .us, .ca, .co.uk, .be, .fr, .es, .de, .nl, .it) each carry their own competitors, their own search habits and their own trust signals, so each one is run as a site of its own, built to hold its ground against local competitors.",
+      "A translation agency selling into nine markets needs nine SEO campaigns, each one built for its own market. The country domains (.com, .us, .ca, .co.uk, .be, .fr, .es, .de, .nl) each carry their own competitors, their own search habits and their own trust signals, so each one is run as a site of its own, built to hold its ground against local competitors.",
     work:
    "Founded the agency and has run it for twenty years, Each regional TLD gets its own technical SEO treatment: separate sitemaps, separate hreflang groups, and separate keyword research per market, built from that market's own searches.",
     outcome:
-   "Ten country sites, each ranking on its own market's terms, under an agency still trading after two decades.",
-    services: ["Multi-TLD SEO", "Multilingual content", "Ten country markets", "Founder"],
+   "Nine country sites, each ranking on its own market's terms, under an agency still trading after two decades.",
+    services: ["Multi-TLD SEO", "Multilingual content", "Nine country markets", "Founder"],
     countries: [
       { domain: "betranslated.com", country: "International" },
       { domain: "betranslated.us", country: "United States" },
@@ -143,7 +143,6 @@ export const PROJECTS: Project[] = [
       { domain: "betranslated.es", country: "Spain" },
       { domain: "betranslated.de", country: "Germany" },
       { domain: "betranslated.nl", country: "Netherlands" },
-      { domain: "betranslated.it", country: "Italy" },
     ],
     shot: `/work/betranslated.webp?v=${SHOT_VERSION}`,
   },

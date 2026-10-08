@@ -1,9 +1,9 @@
 import type { CSSProperties, ReactNode } from "react";
 
 /**
- * BeTranslated's ten country domains (owner, 7 Oct 2026: "an svg animation
- * with the flags of all my ccTLDs"), drawn as a hub (.com) with the nine
- * country sites around it. Owner-requested exception to the svg-animation
+ * BeTranslated's nine country domains (owner, 7 Oct 2026: "an svg animation
+ * with the flags of all my ccTLDs"), drawn as a hub (.com) with the eight
+ * country sites around it (.it removed, owner, 7 Oct 2026). Owner-requested exception to the svg-animation
  * skill's abstract-only rule: real flags, each drawn here from plain shapes,
  * nothing copied from an icon set. Flag colours are the flags' own, which is
  * why this one component carries literal colours instead of theme tokens.
@@ -34,8 +34,6 @@ const C = {
   deGold: "#FFCE00",
   nlRed: "#AE1C28",
   nlBlue: "#21468B",
-  itGreen: "#009246",
-  itRed: "#CE2B37",
 };
 
 const vertical = (a: string, b: string, c: string) => (
@@ -99,11 +97,10 @@ const FLAGS: Record<string, ReactNode> = {
   es: horizontal(C.esRed, C.esYellow, C.esRed, 1 / 2),
   de: horizontal(C.black, C.deRed, C.deGold),
   nl: horizontal(C.nlRed, C.white, C.nlBlue),
-  it: vertical(C.itGreen, C.white, C.itRed),
 };
 
 /** Clockwise from the top: the English-speaking markets, then Europe. */
-const ORDER = ["uk", "nl", "de", "it", "es", "fr", "be", "us", "ca"];
+const ORDER = ["uk", "nl", "de", "es", "fr", "be", "us", "ca"];
 
 const CX = 360;
 const CY = 200;
@@ -113,7 +110,7 @@ const HUB = 36;
 
 export default function CountryFlags() {
   const points = ORDER.map((code, i) => {
-    const a = ((-90 + i * 40) * Math.PI) / 180;
+    const a = ((-90 + (i * 360) / ORDER.length) * Math.PI) / 180;
     return { code, i, x: CX + RX * Math.cos(a), y: CY + RY * Math.sin(a), a };
   });
 

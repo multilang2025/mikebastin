@@ -38,7 +38,7 @@ BeTranslated, la agencia de traducción que dirigimos desde hace veinte años y 
 
 Delaguía y Luzón es un despacho de abogados de Valencia que trabaja entre España y Francia. Sus páginas en francés se mantienen al nivel que exigiría un abogado francés al leerlas, porque en contenido jurídico la precisión de cada término importa primero por la responsabilidad y después por el posicionamiento.
 
-Matosurf es nuestro propio sitio francés de deportes de tabla: ciento veinte guías sobre cuarenta y ocho spots franceses, escritas en francés para aficionados franceses.
+Matosurf es nuestro propio sitio de deportes de tabla en francés, con guías sobre spots de toda Francia, escritas para riders franceses.
 
 ## Los ajustes técnicos que dejamos listos para Francia
 

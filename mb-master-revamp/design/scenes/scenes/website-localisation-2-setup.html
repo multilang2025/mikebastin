@@ -1,0 +1,41 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="size" content="800x600">
+<link rel="stylesheet" href="../kit.css"><style>:root{--w:800px;--h:600px}
+.sw{position:absolute;left:14px;right:14px;height:44px;display:flex;align-items:center;gap:10px;padding:0 14px;border-radius:10px;font:600 16px 'Inter';border:1px solid var(--rule);background:var(--cream)}
+.sw.on{background:var(--deep);color:var(--cream);border-color:transparent}
+.row{height:76px;padding:0 16px;display:flex;flex-direction:column;justify-content:center;gap:8px;width:244px}
+.row .u{display:flex;align-items:center;gap:8px;font:600 15px 'Inter';color:var(--ink)}
+.row .m{display:flex;gap:6px}.row .m i{display:block;height:8px;border-radius:5px;background:var(--rule)}
+.buy{height:76px;width:200px;padding:0 16px;display:flex;flex-direction:column;justify-content:center;gap:8px}
+.buy b{font:600 15px 'Inter'}
+.ppl{display:flex;gap:5px}.ppl i{display:block;width:16px;height:16px;border-radius:50%;background:var(--deep);opacity:.8}
+</style></head><body>
+<!-- Multilingual setup: a language switcher, one clear address per language,
+     each version routed to the buyers of its market. -->
+<div class="card abs" style="left:4px;top:14px;width:236px;height:432px">
+  <div class="h serif" style="position:absolute;left:16px;top:16px;font-size:19px">Language switcher</div>
+  <div class="sw on" style="top:48px;height:38px">Choose a language<svg width="14" height="14" viewBox="0 0 14 14" style="margin-left:auto"><path d="M2 4.5 L7 9.5 L12 4.5" fill="none" stroke="var(--cream)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+  <div class="sw" style="top:96px"><span class="lang">EN</span>English</div>
+  <div class="sw" style="top:188px"><span class="lang">FR</span>Français</div>
+  <div class="sw" style="top:280px"><span class="lang">ES</span>Español</div>
+  <div class="sw" style="top:372px"><span class="lang">DE</span>Deutsch</div>
+</div>
+
+<div class="pill deep abs" style="left:288px;top:30px">One address per language</div>
+<div class="pill berry abs" style="left:590px;top:30px">The right buyers</div>
+
+<svg class="abs" style="left:0;top:0" width="800" height="600">
+  <path class="link" d="M240 132 L288 132 M240 224 L288 224 M240 316 L288 316 M240 408 L288 408"/>
+  <path class="solid" d="M532 132 L590 132 M532 224 L590 224 M532 316 L590 316 M532 408 L590 408"/>
+</svg>
+<div class="card row abs" style="left:288px;top:94px"><div class="u"><span class="lang">EN</span>yoursite.com/en/</div><div class="m"><i style="width:90px"></i><i style="width:60px"></i></div></div>
+<div class="card row abs" style="left:288px;top:186px"><div class="u"><span class="lang">FR</span>yoursite.com/fr/</div><div class="m"><i style="width:90px"></i><i style="width:60px"></i></div></div>
+<div class="card row abs" style="left:288px;top:278px"><div class="u"><span class="lang">ES</span>yoursite.com/es/</div><div class="m"><i style="width:90px"></i><i style="width:60px"></i></div></div>
+<div class="card row abs" style="left:288px;top:370px"><div class="u"><span class="lang">DE</span>yoursite.com/de/</div><div class="m"><i style="width:90px"></i><i style="width:60px"></i></div></div>
+<div class="card buy abs" style="left:590px;top:94px"><b>Buyers in the UK</b><div class="ppl"><i></i><i></i><i></i><i></i></div></div>
+<div class="card buy abs" style="left:590px;top:186px"><b>Buyers in France</b><div class="ppl"><i></i><i></i><i></i><i></i></div></div>
+<div class="card buy abs" style="left:590px;top:278px"><b>Buyers in Spain</b><div class="ppl"><i></i><i></i><i></i><i></i></div></div>
+<div class="card buy abs" style="left:590px;top:370px"><b>Buyers in Germany</b><div class="ppl"><i></i><i></i><i></i><i></i></div></div>
+
+<div class="pill abs" style="left:288px;top:492px">Own metadata</div>
+<div class="pill berry abs" style="left:458px;top:492px">Own sitemap entry</div>
+</body></html>

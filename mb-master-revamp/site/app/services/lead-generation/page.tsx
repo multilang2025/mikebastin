@@ -110,9 +110,11 @@ const STEPS = [
 
 /**
  * Objections a buyer raises before booking, answered only with what the
- * rest of the site already commits to. The mechanism (GA4, Tag Manager,
- * consent mode, offline conversions) lives here, deep in the page, where a
- * reader still going wants it.
+ * rest of the site already commits to. Nothing here is new: the sequencing
+ * is the multilingual SEO page's, the writing arrangement is the language
+ * pages', and flexible monthly terms are on every service page's closing section.
+ * The mechanism (GA4, Tag Manager, consent mode, offline conversions) lives
+ * here, deep in the page, where a reader still going wants it.
  */
 const QUESTIONS = [
   {
@@ -144,7 +146,7 @@ const QUESTIONS = [
   {
     q: "How long do we commit for?",
     a: [
-      "Month to month. The first call produces a written scope naming the pages and the deliverables, and you decide from there.",
+      "Flexible monthly terms. The first call produces a written scope naming the pages and the deliverables, and you decide from there.",
     ],
   },
 ];
@@ -289,7 +291,7 @@ export default function LeadGenerationPage() {
             <p className="mb-5 max-w-[62ch] text-[1.05rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
               Mike has worked in multilingual search for over two decades and
               founded BeTranslated, the translation agency he has run for
-              twenty years, whose ten country sites each compete in their own
+              twenty years, whose nine country sites each compete in their own
               market, from the United States to Italy.
               He works natively in French, fluently in English, Spanish and
               Dutch, and well enough in German, Italian and Portuguese to run
@@ -432,7 +434,8 @@ export default function LeadGenerationPage() {
             <p className="mb-9 max-w-[58ch] text-[1.05rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
               Thirty minutes with Mike on which markets matter, what already
               ranks and where the first enquiries are likely to come from. A
-              written scope follows, and engagements run month to month.
+              written scope naming pages and deliverables follows. Engagements
+              continue one month at a time.
             </p>
           </Reveal>
           <Reveal i={2}>

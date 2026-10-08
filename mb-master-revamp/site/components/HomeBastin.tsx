@@ -31,7 +31,7 @@ const T = {
       { n: 20, s: "+", k: "Ans dans la recherche" },
       { n: 5, s: "+3", k: "Langues parlées" },
       { n: 8, s: "", k: "Projets au portefeuille" },
-      { n: 10, s: "", k: "Sites pays de BeTranslated" },
+      { n: 9, s: "", k: "Sites pays de BeTranslated" },
     ],
   },
   es: {
@@ -49,7 +49,7 @@ const T = {
       { n: 20, s: "+", k: "Años en buscadores" },
       { n: 5, s: "+3", k: "Idiomas hablados" },
       { n: 8, s: "", k: "Proyectos en cartera" },
-      { n: 10, s: "", k: "Sitios nacionales de BeTranslated" },
+      { n: 9, s: "", k: "Sitios nacionales de BeTranslated" },
     ],
   },
 } as const;

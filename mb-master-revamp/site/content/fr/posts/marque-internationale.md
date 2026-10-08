@@ -23,7 +23,7 @@ Voici les éléments de votre marque qui voyagent tels quels, ceux qui demandent
 
 ## Ce qui change d’un marché à l’autre, même quand la marque reste la même
 
-De petits déplacements d’accent décident si un acheteur continue de lire. Nous le voyons sur nos propres sites : nous dirigeons BeTranslated sur dix domaines, .com, .us, .ca, .co.uk, .be, .fr, .es, .de, .nl et .it, avec la même agence, le même service et le même positionnement au niveau stratégique. L’exécution diffère, et ces différences pèsent sur la conversion.
+De petits déplacements d’accent décident si un acheteur continue de lire. Nous le voyons sur nos propres sites : nous dirigeons BeTranslated sur neuf domaines, .com, .us, .ca, .co.uk, .be, .fr, .es, .de et .nl, avec la même agence, le même service et le même positionnement au niveau stratégique. L’exécution diffère, et ces différences pèsent sur la conversion.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 184" role="img" aria-label="Deux niveaux d’une même marque, une stratégie qui voyage telle quelle et une exécution qui se travaille sur chaque marché.">

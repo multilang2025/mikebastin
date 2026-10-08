@@ -66,7 +66,7 @@ const QUESTIONS = [
   },
   {
     q: "Do we need a contract?",
-  a: "Engagements run month to month, and either side can end one with notice.",
+  a: "Engagements continue one month at a time, and either side can end one with notice.",
   },
   {
     q: "What if we only need one market fixed?",
