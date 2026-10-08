@@ -246,7 +246,7 @@ export default function ServicesIndex() {
                   {s.indexAction && (
                     <span
                       className="mt-auto pt-5 text-[.92rem] font-semibold"
-                      style={{ color: "var(--card-accent, var(--berry))" }}
+                      style={{ color: "var(--berry)" }}
                     >
                       {s.indexAction}{" "}
                       <span
