@@ -24,6 +24,10 @@ Below is the toolkit we actually keep installed in 2026, after working between E
 
 Two shifts reshaped the old toolkit, and both change where your time goes. First, Chrome retired Manifest V2 during 2024 and 2025. Extensions had to migrate to Manifest V3 to keep working: several translation extensions rebuilt themselves around service workers, and others left the Chrome Web Store.
 
+> In May 2024, as Google announced the start of the Manifest V2 phase-out, over 85% of actively maintained extensions in the Chrome Web Store were running Manifest V3.
+>
+> Source: [Google, "Manifest V2 phase-out begins", The Keyword, 30 May 2024](https://blog.google/chromium/manifest-v2-phase-out-begins/)
+
 The second shift is bigger. Large language models moved into the browser through dedicated extensions and sidebar panels. For everyday lookup, quick rephrasing and post-editing of machine output, one LLM extension now does what three or four translation extensions used to do.
 
 <figure class="post-fig">
@@ -255,4 +259,4 @@ Yes, for any project with translation memory, repetition discounts or client-sup
 
 ### Will Manifest V3 cause more translation extensions to disappear?
 
-The big migration wave is largely finished. Around 85% of actively maintained Chrome extensions had moved to Manifest V3 by early 2025 according to Google. The extensions still standing in 2026 are the ones with the resources to keep maintaining them, which is itself a useful filter when you decide what to install.
+The big migration wave is largely finished. Over 85% of actively maintained Chrome extensions were already running Manifest V3 by May 2024, according to Google. The extensions still standing in 2026 are the ones with the resources to keep maintaining them, which is itself a useful filter when you decide what to install.

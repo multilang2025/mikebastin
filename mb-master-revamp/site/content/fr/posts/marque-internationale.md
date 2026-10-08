@@ -82,6 +82,10 @@ Ce sont eux qui décident si la marque s’installe, et le budget va là.
 
 Le registre formel et argumenté qui rassure un acheteur français paraît distant à un acheteur néerlandais, qui attend de la franchise. La chaleur qui convient à l’Espagne se tempère pour l’Allemagne. Le ton est la partie la plus coûteuse du travail de marque multilingue, et celle qui mérite le plus un vrai budget. Nos [bonnes pratiques du SEO multilingue](/fr/bonnes-pratiques-seo-multilingue/) montrent comment ce travail s’articule avec la visibilité de chaque langue.
 
+> 66 % des utilisateurs professionnels se disent prêts à payer jusqu’à 30 % de plus pour un produit localisé, selon une enquête de CSA Research auprès de 1 116 acheteurs B2B de produits technologiques.
+>
+> Source : [CSA Research, « Do B2B Buyers Value Localized Experiences? », enquête « Can’t Read, Won’t Buy » auprès de 1 116 acheteurs B2B, 2 mars 2022](https://csa-research.com/Blogs-Events/Blog/do-b2b-buyers-value-localization)
+
 ### Les références culturelles et l’humour
 
 Un jeu de mots qui fait sourire à Lyon demande un équivalent flamand pour Anvers, et une référence très française un équivalent espagnol pour Madrid. Donnez à un rédacteur de chaque marché un brief complet sur la marque, et chaque version garde son étincelle. C’est le cœur de la [création de contenu multilingue](/fr/services/creation-de-contenu-multilingue/) : une relecture culturelle du message et du ton avant publication.

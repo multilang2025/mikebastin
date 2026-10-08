@@ -42,6 +42,10 @@ La mayoría de los fallos que afectan al tráfico de una página se ven en la pr
 
 [SEO Minion](https://chromewebstore.google.com/detail/seo-minion/giihipjfimkajhlcilipnjeohabimjhi?hl=en) cubre gratis la mayor parte del análisis on-page. Muestra las metaetiquetas, los encabezados y otros elementos de la página, los enlaces rotos y los enlaces nofollow, sponsored y UGC, previsualiza el resultado de búsqueda y revisa hreflang, la comprobación que más a menudo necesita una web multilingüe. Para corregir lo que encuentre, nuestro artículo sobre [SEO técnico para sitios multilingües](/es/seo-tecnico-para-sitios-multilingues/) reúne los ajustes que hacen trabajar juntos a tus idiomas.
 
+> El 67 % de los 374.756 dominios con hreflang que Ahrefs estudió en 2023 tenía al menos un error de hreflang.
+>
+> Fuente: [Ahrefs, «Over 67% of Domains Using Hreflang Have Issues (Study of 374,756 Domains)», agosto de 2023](https://ahrefs.com/blog/hreflang-study/)
+
 ### Ahrefs SEO Toolbar
 
 La [Ahrefs SEO Toolbar](https://ahrefs.com/seo-toolbar) señala los elementos que faltan o están mal, la configuración del robots.txt y de las metaetiquetas robots, y las etiquetas Open Graph. La versión gratuita ya resulta útil por sí sola.
@@ -73,6 +77,10 @@ La [extensión Web Developer](https://chromewebstore.google.com/detail/web-devel
 ### Redirect Path
 
 [Redirect Path](https://chromewebstore.google.com/detail/redirect-path/aomidfkchockcldhbkggjokdkkebmdll?hl=en) muestra cada salto que da una URL, con el código de estado HTTP en cada paso. Detecta de un vistazo las cadenas y los bucles y redúcelos a un solo salto: la página se mantiene rápida y transmite todo el valor de sus enlaces. Nuestra [lista de auditoría de SEO técnico](/es/lista-de-auditoria-seo-tecnica/) explica qué hacer con lo que encuentra.
+
+> Por defecto, los rastreadores de Google siguen como máximo 10 saltos de redirección.
+>
+> Fuente: [Google Search Central, «How HTTP status codes affect Google's crawlers», actualizado el 4 de febrero de 2026](https://developers.google.com/search/docs/crawling-indexing/http-network-errors)
 
 ## Medir un mercado por sus palabras clave y su competencia
 

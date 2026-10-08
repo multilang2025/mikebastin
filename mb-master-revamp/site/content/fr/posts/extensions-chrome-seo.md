@@ -42,6 +42,10 @@ La plupart des défauts qui pèsent sur le trafic d’une page se voient sur la 
 
 [SEO Minion](https://chromewebstore.google.com/detail/seo-minion/giihipjfimkajhlcilipnjeohabimjhi?hl=en) couvre gratuitement l’essentiel de l’analyse on-page. Elle affiche les balises meta, les titres et les autres éléments de la page, les liens cassés et les liens nofollow, sponsored et UGC, prévisualise le résultat de recherche et contrôle hreflang, la vérification dont un site multilingue a le plus souvent besoin. Pour corriger ce que ce contrôle révèle, notre article sur le [SEO technique d’un site multilingue](/fr/seo-technique-site-multilingue/) détaille les réglages qui font travailler vos langues ensemble.
 
+> 67 % des 374 756 domaines utilisant hreflang étudiés par Ahrefs en 2023 présentaient au moins une erreur hreflang.
+>
+> Source : [Ahrefs, « Over 67% of Domains Using Hreflang Have Issues (Study of 374,756 Domains) », août 2023](https://ahrefs.com/blog/hreflang-study/)
+
 ### Ahrefs SEO Toolbar
 
 L’[Ahrefs SEO Toolbar](https://ahrefs.com/seo-toolbar) signale les éléments manquants ou incorrects, les réglages du robots.txt et des balises meta robots, et les balises Open Graph. La version gratuite est utile à elle seule.
@@ -102,6 +106,12 @@ L’[extension Web Developer](https://chromewebstore.google.com/detail/web-devel
 </svg>
 <figcaption>Redirect Path montre chaque étape de la chaîne. Ramenée à une seule redirection, l’URL reste rapide et transmet toute la valeur de ses liens.</figcaption>
 </figure>
+
+Chaque étape de trop compte, car Google ne suit pas une chaîne indéfiniment.
+
+> Par défaut, les robots d’exploration de Google suivent au maximum 10 redirections successives.
+>
+> Source : [Google Search Central, « How HTTP status codes affect Google's crawlers », mis à jour le 4 février 2026](https://developers.google.com/search/docs/crawling-indexing/http-network-errors)
 
 ## Évaluer un marché par ses mots-clés et ses concurrents
 

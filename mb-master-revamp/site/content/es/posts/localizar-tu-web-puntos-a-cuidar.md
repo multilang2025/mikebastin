@@ -52,6 +52,10 @@ La cultura marca el tono, los colores, las imágenes, el humor y la forma de com
 
 Una traducción literal deja el texto correcto. La [transcreación](/es/services/traduccion-profesional/) adapta la voz, el estilo y el mensaje a la cultura local, y transmite el tono, la intención y la relevancia que venden, con la marca intacta.
 
+> En una encuesta de 2020, el 76 % de los compradores en línea prefería comprar productos con información en su idioma, y el 40 % no compraba nunca en webs en otros idiomas.
+>
+> Fuente: [CSA Research, «Consumers Prefer their Own Language», encuesta a 8.709 consumidores de 29 países, julio de 2020](https://csa-research.com/Blogs-Events/CSA-in-the-Media/Press-Releases/Consumers-Prefer-their-Own-Language)
+
 ### Ajusta las imágenes
 
 La foto adecuada le dice al visitante que la página se hizo para él. Los iconos, los gestos, el código de vestimenta y la forma de representar a las familias varían mucho de una cultura a otra.
@@ -103,6 +107,10 @@ Los tres últimos puntos son los más cercanos a la caja, y por eso conviene emp
 ### Cumple la normativa local
 
 Cumplir la normativa te protege de sanciones y refuerza la confianza de los compradores. Cada mercado tiene sus propias reglas de protección de datos, consentimiento de cookies y comercio electrónico, así que comprueba que la política de privacidad, las condiciones y el proceso de compra siguen los requisitos de cada país en el que vendes.
+
+> En 2025, la CNIL, la autoridad francesa de protección de datos, impuso 83 sanciones por un total de 486.839.500 euros en multas; las cookies figuran entre sus tres temas principales, junto con la vigilancia de los empleados y la seguridad de los datos.
+>
+> Fuente: [CNIL, «Sanctions et mesures correctrices : la CNIL présente le bilan 2025», 9 de febrero de 2026](https://cnil.fr/fr/bilan-sanctions-2025)
 
 Francia añade una obligación lingüística propia, la llamada Ley Toubon:
 

@@ -167,6 +167,10 @@ Cuatro listas de competidores, cuatro encargos de contenido y cuatro estrategias
 
 Tus compradores ya preguntan a ChatGPT, Claude, Gemini o Perplexity, y cada respuesta cita a muy pocas fuentes. La [GEO](/es/optimizar-para-seo-y-geo/) es la forma de aparecer en ellas, y la lógica del análisis de competencia sigue siendo la misma.
 
+> El 71 % de los compradores B2B de software recurre a chatbots de IA en algún momento de su búsqueda, y el 51 % ya empieza a buscar con un chatbot de IA más a menudo que con Google.
+>
+> Fuente: [G2, «In the Answer Economy, Don't Win the Click, Win the Answer», encuesta a 1.076 compradores y responsables de compra B2B de software, marzo de 2026](https://company.g2.com/news/g2-research-the-answer-economy)
+
 Lo que añadimos ahora para los clientes es una capa pequeña. Lanzamos de cinco a diez preguntas que un cliente real haría, anotamos los dominios citados y los cruzamos con los rivales de los resultados clásicos. A menudo coinciden; a veces aparece un sitio de nicho nuevo. Después revisamos cómo están escritas las páginas citadas: respuestas directas a preguntas concretas, autores identificables y fuentes externas sólidas.
 
 <figure class="post-fig">

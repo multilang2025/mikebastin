@@ -49,6 +49,10 @@ Each country reads content through its own culture, so check what sells in one f
 
 A literal translation is grammatically correct; [transcreation](/services/translation-services/) adapts voice, style and message to the local culture, carrying the tone, intent and local relevance that sell, and keeping the brand at full strength.
 
+> In a 2020 survey, 76% of online shoppers preferred to buy products with information in their native language, and 40% would never buy from websites in other languages.
+>
+> Source: [CSA Research, "Consumers Prefer their Own Language", survey of 8,709 consumers in 29 countries, July 2020](https://csa-research.com/Blogs-Events/CSA-in-the-Media/Press-Releases/Consumers-Prefer-their-Own-Language)
+
 ### Adjust the imagery
 
 The right photo tells a visitor the page was made for them. Icons, gestures, dress codes and family representations vary widely between cultures.
@@ -96,6 +100,10 @@ Testing finds each defect before a customer does. [Test every localized version]
 ### Follow local laws
 
 Compliance keeps you clear of fines and keeps buyers' trust. Each market has its own rules on data protection, cookie consent and ecommerce, so make sure the privacy policy, terms and checkout follow local requirements.
+
+> In 2025 the CNIL, France's data protection authority, issued 83 sanctions totalling €486,839,500 in fines, with cookies among its three main subjects alongside employee monitoring and data security.
+>
+> Source: [CNIL, "Sanctions et mesures correctrices : la CNIL présente le bilan 2025", 9 February 2026](https://cnil.fr/fr/bilan-sanctions-2025)
 
 ### Adapt payment methods and formats
 

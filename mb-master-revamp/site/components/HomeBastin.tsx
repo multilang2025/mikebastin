@@ -7,7 +7,9 @@ import { getServicesForLocale, servicePath } from "@/lib/services-locale";
 import { leadGenPath } from "@/lib/lead-gen-hubs";
 
 /**
- * The BASTIN section and the credibility strip for the French and Spanish
+ * The BASTIN section, now on the About pages in all three languages (owner,
+ * 8 Oct 2026: "Move this section from the homepage to the About us as it
+ * fits better there"), and the credibility strip for the French and Spanish
  * homepages (owner, 7 Oct 2026: replicate the English design and wording on
  * FR and ES). Same six letters and the same stats as app/page.tsx, adapted
  * rather than translated word for word. A letter links to the service page
@@ -54,11 +56,37 @@ const T = {
   },
 } as const;
 
-export function HomeBastin({ locale, band }: { locale: "fr" | "es"; band: "a" | "b" }) {
+/** English rows link straight to their service page. */
+const EN = {
+  eyebrow: "What the name stands for",
+  heading: "BASTIN, in six ideas.",
+  rows: [
+    { letter: "B", word: "Business", desc: "Every search project starts from your business case, so it gets the budget it needs.", href: "/services/lead-generation/" },
+    { letter: "A", word: "Automation", desc: "AI drafts, tests and reports, so the work keeps moving.", href: "/services/ai-consulting/" },
+    { letter: "S", word: "SEO", desc: "Multilingual search, built to rank in the language a buyer actually searches in.", href: "/services/multilingual-seo/" },
+    { letter: "T", word: "Translation", desc: "Copy adapted for the market reading it.", href: "/services/translation-services/" },
+    { letter: "I", word: "Internationalization", desc: "The groundwork done before launch, so a product can take a second language on the build it already has.", href: "/services/app-and-software-localisation/" },
+    { letter: "N", word: "Networking", desc: "Over two decades of referrals, in four languages, still the channel that works.", href: null },
+  ],
+};
+
+export function HomeBastin({ locale, band }: { locale: "en" | "fr" | "es"; band: "a" | "b" }) {
+  if (locale === "en") return <BastinBand t={{ eyebrow: EN.eyebrow, heading: EN.heading, rows: EN.rows }} band={band} />;
   const t = T[locale];
   const live = new Set(getServicesForLocale(locale).map((s) => s.slug));
   const hrefFor = (slug: Row["slug"]) =>
     slug === "lead" ? leadGenPath(locale) : slug && live.has(slug) ? servicePath(locale, slug) : null;
+  const rows = t.rows.map((r) => ({ letter: r.letter, word: r.word, desc: r.desc, href: hrefFor(r.slug) }));
+  return <BastinBand t={{ eyebrow: t.eyebrow, heading: t.heading, rows }} band={band} />;
+}
+
+function BastinBand({
+  t,
+  band,
+}: {
+  t: { eyebrow: string; heading: string; rows: { letter: string; word: string; desc: string; href: string | null }[] };
+  band: "a" | "b";
+}) {
   const trail = HOME_GRAPHICS.bastinTrail;
   return (
     <section className={`band band-${band} py-[clamp(48px,6vw,80px)]`}>
@@ -73,7 +101,7 @@ export function HomeBastin({ locale, band }: { locale: "fr" | "es"; band: "a" | 
           {trail && <BastinIdeasGraphic />}
           <div className={`flex flex-col${trail ? " pr-14 sm:pl-14 sm:pr-20" : ""}`} style={{ borderTop: "1px solid var(--rule)" }}>
             {t.rows.map((row, i) => {
-              const href = hrefFor(row.slug);
+              const href = row.href;
               // Same row as the English homepage (owner, 8 Oct 2026:
               // "Reproduis le design du site EN"): the initial is the word's
               // own first letter in cherry, one fluid size for every word, so

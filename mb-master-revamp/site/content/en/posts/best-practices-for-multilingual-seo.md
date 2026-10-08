@@ -94,6 +94,10 @@ Correct tags send a buyer in France to your French page. Hreflang tags tell sear
 - Make every tag bidirectional: if page A lists page B as an alternate, page B must list page A.
 - Include an x-default for users outside your defined languages and regions.
 
+> In a 2023 study of 374,756 domains using hreflang, 67% had at least one hreflang issue. The most common, pages missing an x-default, affected 56.3% of the domains.
+>
+> Source: [Ahrefs, "Over 67% of Domains Using Hreflang Have Issues (Study of 374,756 Domains)", Patrick Stox, 10 August 2023](https://ahrefs.com/blog/hreflang-study/)
+
 Hreflang is among the most common [technical SEO issues](/blog/technical-seo-audit-checklist/) to check on multilingual sites, so audit the tags regularly.
 
 <figure class="post-fig">
@@ -167,6 +171,10 @@ Entity clarity matters even more on multilingual sites. AI models need unambiguo
 ## Get cited in AI answers with GEO
 
 A growing share of your buyers now compare suppliers inside Google’s AI Overviews and AI Mode, ChatGPT, Perplexity and Gemini, which all draw on structured, authoritative, entity-rich content. Content written for AI answers as well as classic results reaches that part of the decision.
+
+> In March 2025, 18% of the Google searches made by 900 US adults produced an AI summary. Users who saw one clicked a traditional search result link in 8% of visits, against 15% for those who did not.
+>
+> Source: [Pew Research, "Google users are less likely to click on links when an AI summary appears in the results", browsing data of 900 US adults, 22 July 2025](https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/)
 
 GEO makes content citable by AI as well as indexable. For multilingual sites it asks for the same four things in every language you sell in:
 

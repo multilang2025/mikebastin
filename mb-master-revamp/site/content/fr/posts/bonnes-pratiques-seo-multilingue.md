@@ -94,6 +94,10 @@ Des balises correctes envoient un acheteur allemand vers votre page allemande, e
 - rendez chaque balise réciproque : si la page A désigne la page B comme alternative, la page B désigne la page A ;
 - ajoutez un x-default pour les utilisateurs situés hors des langues et régions définies.
 
+> Dans une étude de 2023 portant sur 374 756 domaines qui utilisent hreflang, 67 % présentaient au moins une erreur hreflang. La plus fréquente, l’absence de x-default, touchait 56,3 % des domaines.
+>
+> Source : [Ahrefs, « Over 67% of Domains Using Hreflang Have Issues (Study of 374,756 Domains) », Patrick Stox, 10 août 2023](https://ahrefs.com/blog/hreflang-study/)
+
 Des balises hreflang cassées ou circulaires sont la constatation la plus fréquente de nos audits : vérifiez-les après chaque mise à jour d’extension ou ajout de langue.
 
 <figure class="post-fig">
@@ -165,6 +169,10 @@ La clarté des entités compte davantage encore sur un site multilingue. Les mot
 ## Le GEO : être cité là où l’acheteur compare
 
 Une part croissante de vos acheteurs compare désormais les fournisseurs dans les AI Overviews et le mode IA de Google, dans ChatGPT, Perplexity et Gemini, qui s’appuient sur des contenus structurés, faisant autorité et riches en entités. Un contenu écrit pour les réponses des IA comme pour les résultats classiques atteint cette partie de la décision.
+
+> En mars 2025, 18 % des recherches Google effectuées par 900 adultes américains affichaient un résumé d’IA. Les utilisateurs qui en voyaient un cliquaient sur un lien de résultat classique lors de 8 % des visites, contre 15 % sans résumé.
+>
+> Source : [Pew Research, « Google users are less likely to click on links when an AI summary appears in the results », données de navigation de 900 adultes américains, 22 juillet 2025](https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/)
 
 Le GEO rend un contenu citable par les IA en plus d’être indexable. Pour un site multilingue, il demande les mêmes quatre éléments dans chaque langue de vente :
 

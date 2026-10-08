@@ -43,6 +43,10 @@ Most faults that affect a page's traffic are visible on the page itself. These f
 
 [SEO Minion](https://chromewebstore.google.com/detail/seo-minion/giihipjfimkajhlcilipnjeohabimjhi?hl=en) covers most on-page analysis for free. It shows meta tags, headings and other on-page elements, broken links, and nofollow, sponsored and UGC links, previews the search result, and checks hreflang, the check multilingual sites need most often.
 
+> 67% of the 374,756 domains using hreflang that Ahrefs studied in 2023 had at least one hreflang issue.
+>
+> Source: [Ahrefs, "Over 67% of Domains Using Hreflang Have Issues (Study of 374,756 Domains)", August 2023](https://ahrefs.com/blog/hreflang-study/)
+
 ### Ahrefs SEO Toolbar
 
 The [Ahrefs SEO Toolbar](https://ahrefs.com/seo-toolbar) flags missing or incorrect elements, robots.txt and meta robots settings, and Open Graph tags. The free version is useful on its own.
@@ -74,6 +78,10 @@ The [Web Developer extension](https://chromewebstore.google.com/detail/web-devel
 ### Redirect Path
 
 [Redirect Path](https://chromewebstore.google.com/detail/redirect-path/aomidfkchockcldhbkggjokdkkebmdll?hl=en) shows every hop a URL takes, with the HTTP status code at each step. Spot chains and loops at a glance and cut them to a single hop, which keeps the page fast and passes link value in full. Our [technical SEO audit checklist](/blog/technical-seo-audit-checklist/) explains what to do with what it finds.
+
+> By default, Google's crawlers follow up to 10 redirect hops.
+>
+> Source: [Google Search Central, "How HTTP status codes affect Google's crawlers", last updated 4 February 2026](https://developers.google.com/search/docs/crawling-indexing/http-network-errors)
 
 ## Size up a market's keywords and competitors
 

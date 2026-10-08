@@ -6,7 +6,7 @@ import FounderPortrait from "@/components/FounderPortrait";
 import HomeEvidence from "@/components/HomeEvidence";
 import Testimonials from "@/components/Testimonials";
 import HomeWhy from "@/components/HomeWhy";
-import { HomeBastin, HomeCredibility } from "@/components/HomeBastin";
+import { HomeCredibility } from "@/components/HomeBastin";
 import SiteFooter from "@/components/SiteFooter";
 import LocaleHtmlLang from "@/components/LocaleHtmlLang";
 import { ButtonLink } from "@/components/ui/Button";
@@ -276,9 +276,7 @@ export default function FrenchHome() {
         </div>
       </section>
 
-      <HomeBastin locale="fr" band="b" />
-
-      <HomeCredibility locale="fr" band="a" />
+      <HomeCredibility locale="fr" band="b" />
 
       <SiteFooter locale="fr" band="a" />
     </main>

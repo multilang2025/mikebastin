@@ -89,6 +89,10 @@ Estas deciden si la marca llega, así que el presupuesto va aquí.
 
 **El tono de voz.** La franqueza que encaja en los Países Bajos se suaviza para Francia. La cercanía que funciona en España se modera para Alemania. La voz es la parte más cara del [trabajo de marca multilingüe](/es/buenas-practicas-seo-multilingue/), y la que más merece un presupuesto bien pensado. La [transcreación](/es/services/traduccion-profesional/) reescribe el mensaje para que produzca el mismo efecto en el otro idioma.
 
+> El 66 % de los usuarios profesionales afirma que pagaría hasta un 30 % más por un producto localizado, según una encuesta de CSA Research a 1.116 compradores B2B de productos tecnológicos.
+>
+> Fuente: [CSA Research, «Do B2B Buyers Value Localized Experiences?», encuesta «Can’t Read, Won’t Buy» a 1.116 compradores B2B, 2 de marzo de 2022](https://csa-research.com/Blogs-Events/Blog/do-b2b-buyers-value-localization)
+
 **Las referencias culturales y el humor.** Un eslogan con un juego de palabras en español necesita su equivalente francés para Lyon, y una referencia francesa su versión flamenca para Amberes. Explica la marca a un redactor de cada mercado y cada versión conserva su chispa.
 
 <figure class="post-fig">
@@ -108,6 +112,10 @@ Estas deciden si la marca llega, así que el presupuesto va aquí.
 </figure>
 
 **Las señales de confianza.** Reseñas de clientes locales, teléfonos y direcciones locales, medios de pago que el comprador reconoce. Las [diferencias culturales en los sitios web multilingües](/es/diferencias-culturales-sitios-web-multilingues/) se notan sobre todo en esta capa.
+
+> El 73 % de los consumidores quiere leer al menos las reseñas de producto en su idioma, según una encuesta de 2020 en 29 países.
+>
+> Fuente: [CSA Research, «Can’t Read, Won’t Buy», encuesta a 8.709 consumidores de 29 países, 7 de julio de 2020](https://csa-research.com/Blogs-Events/CSA-in-the-Media/Press-Releases/Consumers-Prefer-their-Own-Language)
 
 Los medios de pago son el ejemplo más claro. Bizum convence a tu comprador español; en los Países Bajos el comprador busca iDEAL, en Bélgica Bancontact, y en Alemania mucha gente espera poder pagar contra factura («Kauf auf Rechnung»). Ver el medio de pago habitual de su país le dice al comprador que la tienda está pensada para él, y le ahorra una duda en el último paso de la compra. Lo mismo vale para el formato de los teléfonos, las direcciones y los precios con el IVA incluido o aparte: cada detalle local resta una pregunta antes de pagar.
 

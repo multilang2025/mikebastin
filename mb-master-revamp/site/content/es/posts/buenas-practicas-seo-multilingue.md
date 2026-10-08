@@ -106,6 +106,10 @@ Con hreflang, el buscador envía al comprador francés a tu página en francés.
 
 El detalle de ambas decisiones, con el contenido duplicado entre idiomas y la elección del servidor, está en nuestra guía de [SEO técnico para sitios multilingües](/es/seo-tecnico-para-sitios-multilingues/).
 
+> En un estudio de 2023 sobre 374.756 dominios que usan hreflang, el 67 % tenía al menos un error de hreflang. El más frecuente, la falta de x-default, afectaba al 56,3 % de los dominios.
+>
+> Fuente: [Ahrefs, «Over 67% of Domains Using Hreflang Have Issues (Study of 374,756 Domains)», Patrick Stox, 10 de agosto de 2023](https://ahrefs.com/blog/hreflang-study/)
+
 ## Consigue enlaces del país al que vendes
 
 Un enlace desde la prensa local o una asociación sectorial del país al que vendes vale más que un enlace internacional genérico, porque la relevancia en búsqueda es geográfica además de temática. Para una empresa española que vende en Francia, eso significa enlaces de webs francesas; en Alemania, de webs alemanas.

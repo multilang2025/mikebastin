@@ -161,6 +161,10 @@ Every step below costs least when done before the deadline. In order:
 
 Vietnam's growing use of certified sourcing, such as FSC timber and sustainable rubber, makes it a lower-risk option for importers who do this groundwork.
 
+> 41% of Vietnam's coffee exports go to the European Union. To support EUDR compliance, Vietnam's agriculture ministry is establishing regional monitoring systems that already collect data from 136,000 hectares of coffee land.
+>
+> Source: [USDA Foreign Agricultural Service, "Coffee Annual: Vietnam", GAIN report VM2025-0018, 19 May 2025](https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=Coffee%20Annual_Hanoi_Vietnam_VM2025-0018)
+
 ## The language gap in EUDR audits
 
 The answer that decides compliance is often given in Vietnamese, so an audit needs someone in the room who understands it. EUDR compliance is presented as a sourcing problem and an audit problem. Both are real. After over two decades in translation and language services, we would add a third: it is a language problem.
@@ -193,6 +197,10 @@ The line between _rừng tự nhiên_ (natural forest) and _rừng trồng_ (pla
 ### Why less-resourced languages gain value as AI spreads
 
 The languages your suppliers speak are the ones where AI has the least to learn from, which makes the human specialist more valuable as AI spreads. Large language models learn from web text, which is overwhelmingly English. They perform well on English to French, Spanish or German, where training data is plentiful, and less well where good bilingual data is scarce. Vietnamese sits in the middle: many speakers and plenty of everyday content, but little high-quality bilingual material in regulatory or agricultural fields. AI handles tourist Vietnamese well and needs a human for the Central Highlands, where much of the country's coffee and rubber is grown.
+
+> The Central Highlands account for 92% of Vietnam's coffee cultivation area and 90% of its national coffee output.
+>
+> Source: [USDA Foreign Agricultural Service, "Coffee Annual: Vietnam", GAIN report VM2025-0018, 19 May 2025](https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=Coffee%20Annual_Hanoi_Vietnam_VM2025-0018)
 
 The same applies to Khmer, Lao, Malay, Tagalog, Burmese, Bahasa Indonesia and the many indigenous languages that matter for sourcing across South-East Asia. As AI takes over routine translation, what is left for people is the high-stakes specialist work, and that is where compliance sits. Our article on [how AI is transforming translation and localization](/blog/how-ai-is-transforming-translation-and-localisation/) covers the wider shift.
 

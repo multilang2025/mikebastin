@@ -63,6 +63,10 @@ These decide whether the brand lands, so the budget goes here.
 
 **Tone of voice.** Directness that suits Dutch needs softening for French. Warmth that suits Spanish needs toning down for German. Voice is the most expensive part of [multilingual brand work](/blog/best-practices-for-multilingual-seo/), and the part most worth budgeting for properly.
 
+> 66% of business users said they would pay up to 30% more for a localized product, in CSA Research's survey of 1,116 B2B buyers of technology products.
+>
+> Source: [CSA Research, "Do B2B Buyers Value Localized Experiences?", "Can't Read, Won't Buy" survey of 1,116 B2B respondents, 2 March 2022](https://csa-research.com/Blogs-Events/Blog/do-b2b-buyers-value-localization)
+
 **Cultural references and humour.** A British-flavoured tagline needs a Spanish equivalent for Madrid, and French wordplay needs a Flemish one for Antwerp. Brief a writer in each market on the brand, and each version keeps its spark.
 
 <figure class="post-fig">
@@ -82,6 +86,10 @@ These decide whether the brand lands, so the budget goes here.
 </figure>
 
 **Trust signals.** Reviews from local clients, local phone numbers, local addresses, payment methods buyers recognise. [Cultural differences in multilingual websites](/services/multilingual-content/) show up most sharply in this layer.
+
+> 73% of consumers want product reviews in their own language, if nothing else, according to a 2020 survey in 29 countries.
+>
+> Source: [CSA Research, "Can't Read, Won't Buy", survey of 8,709 consumers in 29 countries, 7 July 2020](https://csa-research.com/Blogs-Events/CSA-in-the-Media/Press-Releases/Consumers-Prefer-their-Own-Language)
 
 ## A pattern we keep seeing in global launches
 

@@ -151,6 +151,10 @@ For the deeper view, see [best practices for multilingual SEO](/blog/best-practi
 
 Yes, [GEO](/services/generative-engine-optimization/) matters. Yes, ChatGPT and Perplexity citations now factor into B2B buyer journeys. The underlying competitor logic stays much the same.
 
+> 71% of B2B software buyers rely on AI chatbots at some point in their research, and 51% now start their research with an AI chatbot more often than with Google.
+>
+> Source: [G2, "In the Answer Economy, Don't Win the Click, Win the Answer", survey of 1,076 B2B software buyers and decision-makers, March 2026](https://company.g2.com/news/g2-research-the-answer-economy)
+
 What we add for clients now: a small layer of “who gets cited in AI answers for our buyer prompts”. We run five to ten prompts a real prospect might genuinely use, log the cited domains, and check overlap with the traditional SERP rivals.
 
 Often the overlap is high. Sometimes a niche site turns up that is new to the list. Both findings build on the SERP-level work.

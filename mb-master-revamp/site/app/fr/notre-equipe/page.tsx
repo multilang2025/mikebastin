@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { pageMeta } from "@/lib/meta";
 import Reveal from "@/components/Reveal";
 import SiteFooter from "@/components/SiteFooter";
+import { HomeBastin } from "@/components/HomeBastin";
 import JsonLd from "@/components/JsonLd";
 import LocaleHtmlLang from "@/components/LocaleHtmlLang";
 import { ButtonLink } from "@/components/ui/Button";
@@ -135,7 +136,9 @@ export default function FrenchTeamPage() {
         </div>
       </section>
 
-      <SiteFooter locale="fr" />
+      <HomeBastin locale="fr" band="a" />
+
+      <SiteFooter locale="fr" band="b" />
     </main>
   );
 }

@@ -50,6 +50,10 @@ Chaque pays lit un contenu à travers sa propre culture. Ce qui se vend bien en 
 
 Une traduction littérale est correcte sur le plan grammatical. La transcréation, que nous pratiquons avec notre [traduction professionnelle](/fr/services/traduction-professionnelle/), adapte la voix, le style et le message à la culture locale : elle porte le ton, l’intention et la pertinence locale qui font vendre, et garde toute sa force à la marque. Un slogan, un titre de page d’accueil ou un appel à l’action se réécrivent ; une notice technique se traduit.
 
+> Dans une enquête de 2020, 76 % des acheteurs en ligne préféraient acheter un produit présenté dans leur langue, et 40 % n’achetaient jamais sur un site rédigé dans une autre langue.
+>
+> Source : [CSA Research, « Consumers Prefer their Own Language », enquête auprès de 8 709 consommateurs dans 29 pays, juillet 2020](https://csa-research.com/Blogs-Events/CSA-in-the-Media/Press-Releases/Consumers-Prefer-their-Own-Language)
+
 ### Adapter les visuels
 
 La bonne photo dit au visiteur que la page a été pensée pour lui. Les icônes, les gestes, les codes vestimentaires, les intérieurs et la représentation des familles varient beaucoup d’une culture à l’autre.
@@ -107,6 +111,10 @@ Quelques exemples concrets :
 - en Allemagne, les mentions légales (Impressum) relèvent du § 5 de la loi sur les services numériques (DDG), en vigueur depuis mai 2024 ;
 - au Royaume-Uni, le UK GDPR et les règles PECR encadrent les données personnelles et les cookies, en parallèle du RGPD européen ;
 - dans l’Union européenne, l’Acte européen sur l’accessibilité s’applique depuis le 28 juin 2025 à la plupart des services de commerce en ligne.
+
+> En 2025, la CNIL a prononcé 83 sanctions, pour 486 839 500 euros d’amendes cumulées ; les cookies figurent parmi ses trois principaux sujets, avec la surveillance des salariés et la sécurité des données.
+>
+> Source : [CNIL, « Sanctions et mesures correctrices : la CNIL présente le bilan 2025 », 9 février 2026](https://cnil.fr/fr/bilan-sanctions-2025)
 
 ### Adapter les moyens de paiement et les formats
 

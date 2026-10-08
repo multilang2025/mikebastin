@@ -21,6 +21,10 @@ Si votre équipe traduit dans le navigateur, vos extensions décident de deux ch
 
 Deux évolutions ont redessiné l’ancienne boîte à outils. D’abord, Chrome a retiré Manifest V2 au cours de 2024 et 2025. Les extensions ont dû migrer vers Manifest V3 pour continuer à fonctionner : plusieurs extensions de traduction se sont reconstruites autour de service workers, d’autres ont quitté le Chrome Web Store.
 
+> En mai 2024, quand Google a annoncé le début du retrait de Manifest V2, plus de 85 % des extensions activement maintenues du Chrome Web Store fonctionnaient déjà sous Manifest V3.
+>
+> Source : [Google, « Manifest V2 phase-out begins », The Keyword, 30 mai 2024](https://blog.google/chromium/manifest-v2-phase-out-begins/)
+
 La seconde évolution pèse davantage. Les grands modèles de langage sont entrés dans le navigateur par des extensions dédiées et des panneaux latéraux. Pour la recherche courante, la reformulation rapide et la post-édition d’une traduction automatique, une seule extension de LLM fait désormais le travail de trois ou quatre extensions de traduction.
 
 <figure class="post-fig">
