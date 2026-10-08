@@ -91,6 +91,22 @@ Estas deciden si la marca llega, así que el presupuesto va aquí.
 
 **Las referencias culturales y el humor.** Un eslogan con un juego de palabras en español necesita su equivalente francés para Lyon, y una referencia francesa su versión flamenca para Amberes. Explica la marca a un redactor de cada mercado y cada versión conserva su chispa.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Un eslogan con juego de palabras en español, traducido de forma literal, sigue sonando a España; reescrito como versión local para Lyon, conserva su chispa.">
+<path d="M150 75 L230 35" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M150 75 L230 115" class="fg-accent"/>
+<rect x="15" y="55" width="135" height="40" rx="6" class="fg-box"/>
+<rect x="230" y="12" width="155" height="46" rx="6" class="fg-box"/>
+<rect x="230" y="92" width="155" height="46" rx="6" class="fg-hot"/>
+<text x="82.5" y="80" text-anchor="middle" class="fg-text">Eslogan</text>
+<text x="307.5" y="32" text-anchor="middle" class="fg-text">Literal</text>
+<text x="307.5" y="50" text-anchor="middle" class="fg-label">suena a España</text>
+<text x="307.5" y="112" text-anchor="middle" class="fg-strong">Versión local</text>
+<text x="307.5" y="130" text-anchor="middle" class="fg-label">escrita para Lyon</text>
+</svg>
+<figcaption>Un redactor de cada mercado que conoce la marca encuentra el equivalente local, y el eslogan conserva su chispa en Lyon.</figcaption>
+</figure>
+
 **Las señales de confianza.** Reseñas de clientes locales, teléfonos y direcciones locales, medios de pago que el comprador reconoce. Las [diferencias culturales en los sitios web multilingües](/es/diferencias-culturales-sitios-web-multilingues/) se notan sobre todo en esta capa.
 
 Los medios de pago son el ejemplo más claro. Bizum convence a tu comprador español; en los Países Bajos el comprador busca iDEAL, en Bélgica Bancontact, y en Alemania mucha gente espera poder pagar contra factura («Kauf auf Rechnung»). Ver el medio de pago habitual de su país le dice al comprador que la tienda está pensada para él, y le ahorra una duda en el último paso de la compra. Lo mismo vale para el formato de los teléfonos, las direcciones y los precios con el IVA incluido o aparte: cada detalle local resta una pregunta antes de pagar.
@@ -119,6 +135,22 @@ El SEO está bien. Lo que la marca necesita es llegar: la traducción movió las
 
 Ponerlo a punto lleva una pasada de transcreación y ajustes en la página de cada mercado. De ocho a doce semanas para el conjunto, según el número de idiomas.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 124" role="img" aria-label="Tres pasadas en orden: la traducción mueve las palabras, la transcreación mueve la marca y los ajustes de página afinan cada mercado.">
+<line x1="70" y1="36" x2="330" y2="36" class="fg-rule"/>
+<circle cx="70" cy="36" r="24" class="fg-box"/>
+<circle cx="200" cy="36" r="24" class="fg-box"/>
+<circle cx="330" cy="36" r="24" class="fg-hot"/>
+<text x="70" y="90" text-anchor="middle" class="fg-text">Traducción</text>
+<text x="70" y="110" text-anchor="middle" class="fg-label">las palabras</text>
+<text x="200" y="90" text-anchor="middle" class="fg-text">Transcreación</text>
+<text x="200" y="110" text-anchor="middle" class="fg-label">la marca</text>
+<text x="330" y="90" text-anchor="middle" class="fg-text">Ajustes</text>
+<text x="330" y="110" text-anchor="middle" class="fg-label">por mercado</text>
+</svg>
+<figcaption>La traducción mueve las palabras. La transcreación y los ajustes en la página de cada mercado mueven la marca con ellas.</figcaption>
+</figure>
+
 <aside class="post-cta">
 <p><strong>¿Reconoces el patrón en tus propios mercados?</strong> Nuestra <a href="/es/services/redaccion-seo-multilingue/">redacción SEO multilingüe</a> escribe cada versión con redactores nativos y revisa el mensaje y el tono desde el punto de vista cultural antes de publicar, para que cada idioma traiga consultas además de visitas. <a href="/es/contactanos/">Reserva una consulta gratuita</a>.</p>
 </aside>
@@ -135,6 +167,29 @@ Cada punto de la lista cuesta menos de resolver antes del lanzamiento que despu�
 -   ¿Has probado los formularios con un teclado francés (AZERTY) o alemán (QWERTZ)?
 
 Con las seis casillas marcadas, la marca ha llegado al mercado, además de cruzar la frontera.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 176" role="img" aria-label="Seis comprobaciones antes de lanzar, titular, contacto local, testimonios, pago, título y teclados, que llevan a un mercado listo para el lanzamiento.">
+<path d="M70 84 L160 124" class="fg-line"/>
+<path d="M200 84 L200 124" class="fg-line"/>
+<path d="M330 84 L240 124" class="fg-line"/>
+<rect x="8" y="8" width="124" height="34" rx="6" class="fg-box"/>
+<rect x="138" y="8" width="124" height="34" rx="6" class="fg-box"/>
+<rect x="268" y="8" width="124" height="34" rx="6" class="fg-box"/>
+<rect x="8" y="50" width="124" height="34" rx="6" class="fg-box"/>
+<rect x="138" y="50" width="124" height="34" rx="6" class="fg-box"/>
+<rect x="268" y="50" width="124" height="34" rx="6" class="fg-box"/>
+<rect x="100" y="124" width="200" height="42" rx="6" class="fg-hot"/>
+<text x="70" y="30" text-anchor="middle" class="fg-label">Titular</text>
+<text x="200" y="30" text-anchor="middle" class="fg-label">Contacto local</text>
+<text x="330" y="30" text-anchor="middle" class="fg-label">Testimonios</text>
+<text x="70" y="72" text-anchor="middle" class="fg-label">Pago</text>
+<text x="200" y="72" text-anchor="middle" class="fg-label">Título</text>
+<text x="330" y="72" text-anchor="middle" class="fg-label">Teclados</text>
+<text x="200" y="151" text-anchor="middle" class="fg-strong">Listo para lanzar</text>
+</svg>
+<figcaption>Cada punto cuesta menos antes del lanzamiento que después. Con las seis casillas marcadas, tu marca llega al mercado lista para vender.</figcaption>
+</figure>
 
 ## Compara tu marca con lo que ve cada mercado
 

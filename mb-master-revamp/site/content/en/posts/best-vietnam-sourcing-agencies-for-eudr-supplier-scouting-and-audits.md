@@ -73,6 +73,22 @@ In Vietnam, the task is proof. Its forests are a minor source of deforestation f
 
 Traceability systems, producer training and audits all add cost. Companies that build them early also end up with a supply chain they can defend to a customs authority.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 130" role="img" aria-label="A Vietnamese supply chain in four tiers, smallholder, processor, exporter and EU importer, with records passing along each tier.">
+<line x1="60" y1="40" x2="340" y2="40" class="fg-line"/>
+<circle cx="60" cy="40" r="14" class="fg-box"/>
+<circle cx="153" cy="40" r="14" class="fg-box"/>
+<circle cx="247" cy="40" r="14" class="fg-box"/>
+<circle cx="340" cy="40" r="14" class="fg-hot"/>
+<text x="60" y="86" text-anchor="middle" class="fg-text">Smallholder</text>
+<text x="153" y="86" text-anchor="middle" class="fg-text">Processor</text>
+<text x="247" y="86" text-anchor="middle" class="fg-text">Exporter</text>
+<text x="340" y="86" text-anchor="middle" class="fg-text">EU importer</text>
+<text x="200" y="118" text-anchor="middle" class="fg-label">records pass along each tier</text>
+</svg>
+<figcaption>Each tier passes its records on to the next, so the proof an EU importer files starts at the smallholder’s plot.</figcaption>
+</figure>
+
 ## Seven Vietnam sourcing agencies with EUDR capabilities
 
 A partner who builds compliance in from the first step finds the gaps before customs does. The agencies and advisers below come up repeatedly when EU companies look for sourcing and compliance partners in Vietnam. We selected them by cross-checking public case studies, client feedback and industry references for one thing in particular: building EUDR checks into supplier scouting, factory audits and production monitoring from the first step.
@@ -111,6 +127,23 @@ FVSource sits between sourcing consultancy and operational execution, supporting
 
 [Deloitte](https://www.deloitte.com/nl/en/issues/climate/eudr-eu-deforestation-free-regulation.html) is usually engaged by multinationals that need formal governance and audit-ready processes. For the EUDR it designs due diligence systems end to end: supplier risk classification, documentation standards, internal controls, audit trails, and alignment between procurement, sustainability and legal teams. It is often paired with a local sourcing operator for the work on the ground.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="A local sourcing operator working on the ground and an advisory firm designing governance combine into audit-ready EUDR due diligence.">
+<path d="M160 35 L240 75" class="fg-line"/>
+<path d="M160 115 L240 75" class="fg-line"/>
+<rect x="10" y="12" width="150" height="46" rx="6" class="fg-box"/>
+<rect x="10" y="92" width="150" height="46" rx="6" class="fg-box"/>
+<rect x="240" y="52" width="150" height="46" rx="6" class="fg-hot"/>
+<text x="85" y="32" text-anchor="middle" class="fg-text">Local agency</text>
+<text x="85" y="50" text-anchor="middle" class="fg-label">on the ground</text>
+<text x="85" y="112" text-anchor="middle" class="fg-text">Advisory firm</text>
+<text x="85" y="130" text-anchor="middle" class="fg-label">governance</text>
+<text x="315" y="72" text-anchor="middle" class="fg-strong">Audit-ready</text>
+<text x="315" y="90" text-anchor="middle" class="fg-label">due diligence</text>
+</svg>
+<figcaption>An advisory firm such as Deloitte designs the system and a local operator gathers the evidence on site. Paired, they give a due diligence file ready for audit.</figcaption>
+</figure>
+
 ### KPMG
 
 [KPMG](https://kpmg.com/xx/en/our-insights/esg/the-eu-deforestation-free-regulation.html) helps organisations put sourcing and procurement inside a solid risk and compliance framework, building supplier assessment models, compliance workflows and performance indicators. Its focus sits above daily factory work: making sure your supplier data will stand up to external audit.
@@ -135,6 +168,21 @@ The answer that decides compliance is often given in Vietnamese, so an audit nee
 The conversations that decide whether a supplier passes due diligence happen between EU compliance officers and Vietnamese plantation managers, smallholders, processors and officials. Many of them work only in Vietnamese, regional varieties, and sometimes minority languages from the Central Highlands or the Mekong Delta.
 
 A qualified interpreter lets your auditor talk to the person who knows where the rubber, coffee or cocoa came from, who is usually someone other than the best English speaker in the chain. The strongest audits we see pair a sourcing consultant with a Vietnamese-English interpreter who knows supply chain and agricultural terminology. The cost is small next to what it protects: a whole batch of due diligence can turn on one term about land tenure or harvest dates.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 140" role="img" aria-label="An EU auditor working in English and a producer working in Vietnamese, connected through a qualified interpreter in the middle.">
+<path d="M126 70 L274 70" class="fg-accent"/>
+<rect x="10" y="44" width="116" height="52" rx="6" class="fg-box"/>
+<rect x="136" y="44" width="128" height="52" rx="6" class="fg-hot"/>
+<rect x="274" y="44" width="116" height="52" rx="6" class="fg-box"/>
+<text x="68" y="66" text-anchor="middle" class="fg-text">EU auditor</text>
+<text x="68" y="86" text-anchor="middle" class="fg-label">English</text>
+<text x="200" y="76" text-anchor="middle" class="fg-strong">Interpreter</text>
+<text x="332" y="66" text-anchor="middle" class="fg-text">Producer</text>
+<text x="332" y="86" text-anchor="middle" class="fg-label">Vietnamese</text>
+</svg>
+<figcaption>The interpreter lets the auditor question the person who knows where the rubber, coffee or cocoa came from, in that person’s own language.</figcaption>
+</figure>
 
 ### Why machine translation needs a human editor
 

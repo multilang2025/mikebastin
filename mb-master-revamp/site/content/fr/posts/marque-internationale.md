@@ -86,6 +86,22 @@ Le registre formel et argumenté qui rassure un acheteur français paraît dista
 
 Un jeu de mots qui fait sourire à Lyon demande un équivalent flamand pour Anvers, et une référence très française un équivalent espagnol pour Madrid. Donnez à un rédacteur de chaque marché un brief complet sur la marque, et chaque version garde son étincelle. C’est le cœur de la [création de contenu multilingue](/fr/services/creation-de-contenu-multilingue/) : une relecture culturelle du message et du ton avant publication.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Un jeu de mots traduit mot à mot reste drôle à Lyon ; réécrit en version locale pour Anvers, il garde son étincelle.">
+<path d="M150 75 L230 35" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M150 75 L230 115" class="fg-accent"/>
+<rect x="15" y="55" width="135" height="40" rx="6" class="fg-box"/>
+<rect x="230" y="12" width="155" height="46" rx="6" class="fg-box"/>
+<rect x="230" y="92" width="155" height="46" rx="6" class="fg-hot"/>
+<text x="82.5" y="80" text-anchor="middle" class="fg-text">Jeu de mots</text>
+<text x="307.5" y="32" text-anchor="middle" class="fg-text">Mot à mot</text>
+<text x="307.5" y="50" text-anchor="middle" class="fg-label">drôle à Lyon</text>
+<text x="307.5" y="112" text-anchor="middle" class="fg-strong">Version locale</text>
+<text x="307.5" y="130" text-anchor="middle" class="fg-label">écrite pour Anvers</text>
+</svg>
+<figcaption>Un rédacteur de chaque marché, qui connaît la marque, trouve l’équivalent local, et le jeu de mots garde son étincelle à Anvers.</figcaption>
+</figure>
+
 ### Les signaux de confiance
 
 Avis de clients locaux, numéro de téléphone local, adresse sur place, moyens de paiement que l’acheteur connaît : Bancontact en Belgique, iDEAL aux Pays-Bas, Bizum en Espagne. Les différences culturelles entre vos marchés se voient le plus nettement à ce niveau, et c’est aussi le niveau où un acheteur décide s’il vous écrit.
@@ -110,6 +126,22 @@ Le SEO va bien. Ce dont la marque a besoin, c’est de s’installer sur chaque 
 
 La solution passe par une transcréation des messages clés et des ajustements de page, marché par marché, en commençant par celui qui reçoit déjà le plus de visites. Comptez huit à douze semaines pour l’ensemble, selon le nombre de langues. Notre article sur la [localisation de site, point par point](/fr/localiser-son-site-points-a-soigner/) liste les éléments à reprendre.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 124" role="img" aria-label="Trois passes dans l’ordre : la traduction fait passer les mots, la transcréation fait passer le message, puis des ajustements de page s’appliquent à chaque marché.">
+<line x1="70" y1="36" x2="330" y2="36" class="fg-rule"/>
+<circle cx="70" cy="36" r="24" class="fg-box"/>
+<circle cx="200" cy="36" r="24" class="fg-box"/>
+<circle cx="330" cy="36" r="24" class="fg-hot"/>
+<text x="70" y="90" text-anchor="middle" class="fg-text">Traduction</text>
+<text x="70" y="110" text-anchor="middle" class="fg-label">les mots</text>
+<text x="200" y="90" text-anchor="middle" class="fg-text">Transcréation</text>
+<text x="200" y="110" text-anchor="middle" class="fg-label">le message</text>
+<text x="330" y="90" text-anchor="middle" class="fg-text">Ajustements</text>
+<text x="330" y="110" text-anchor="middle" class="fg-label">par marché</text>
+</svg>
+<figcaption>La traduction fait passer les mots. La transcréation et les ajustements de page, marché par marché, font passer la marque avec eux.</figcaption>
+</figure>
+
 <aside class="post-cta">
 <p><strong>Vous reconnaissez ce scénario sur vos propres marchés ?</strong> Notre <a href="/fr/services/referencement-multilingue/">référencement multilingue</a> donne à chaque langue sa propre stratégie, écrite par des rédacteurs natifs, pour que chaque marché vous envoie ses propres demandes en plus de son trafic. <a href="/fr/nous-contacter/">Réserver une consultation gratuite</a>.</p>
 </aside>
@@ -126,6 +158,29 @@ Chaque point ci-dessous coûte moins cher à régler avant le lancement qu’apr
 - Les caractères propres à la langue (ñ, ß, ë, accents) s’affichent-ils correctement dans les formulaires, les e-mails et les factures ?
 
 Six cases cochées, et la marque est arrivée sur le marché, en plus d’avoir passé la frontière. Notre panorama des [stratégies marketing à l’international](/fr/strategie-marketing-international/) vous aide ensuite à choisir les canaux qui la feront connaître.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 176" role="img" aria-label="Six vérifications avant le lancement, titre, contact local, témoignages, paiement, titre meta et caractères propres à la langue, qui mènent à un marché prêt pour le lancement.">
+<path d="M70 84 L160 124" class="fg-line"/>
+<path d="M200 84 L200 124" class="fg-line"/>
+<path d="M330 84 L240 124" class="fg-line"/>
+<rect x="8" y="8" width="124" height="34" rx="6" class="fg-box"/>
+<rect x="138" y="8" width="124" height="34" rx="6" class="fg-box"/>
+<rect x="268" y="8" width="124" height="34" rx="6" class="fg-box"/>
+<rect x="8" y="50" width="124" height="34" rx="6" class="fg-box"/>
+<rect x="138" y="50" width="124" height="34" rx="6" class="fg-box"/>
+<rect x="268" y="50" width="124" height="34" rx="6" class="fg-box"/>
+<rect x="100" y="124" width="200" height="42" rx="6" class="fg-hot"/>
+<text x="70" y="30" text-anchor="middle" class="fg-label">Titre</text>
+<text x="200" y="30" text-anchor="middle" class="fg-label">Contact local</text>
+<text x="330" y="30" text-anchor="middle" class="fg-label">Témoignages</text>
+<text x="70" y="72" text-anchor="middle" class="fg-label">Paiement</text>
+<text x="200" y="72" text-anchor="middle" class="fg-label">Titre meta</text>
+<text x="330" y="72" text-anchor="middle" class="fg-label">Caractères</text>
+<text x="200" y="151" text-anchor="middle" class="fg-strong">Prêt à lancer</text>
+</svg>
+<figcaption>Chaque point coûte moins cher avant le lancement qu’après. Les six cases cochées, la marque arrive sur le marché prête à vendre.</figcaption>
+</figure>
 
 ## Comparez votre marque à ce que voit chaque marché
 
