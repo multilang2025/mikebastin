@@ -54,6 +54,22 @@ Un site techniquement solide se positionne sur les recherches qui comptent quand
 
 Google Keyword Planner, SISTRIX ou Semrush font ressortir les mots-clés à fort impact pour les publics espagnols, nationaux comme régionaux. Lisez-les à la lumière de l’intention de recherche et de la terminologie locale, en plus du volume.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="La recherche de mots-clés en espagnol se divise en deux : l’espagnol d’Espagne, avec ses mots-clés locaux, et les variantes d’Amérique latine.">
+<path d="M150 75 L230 35" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M150 75 L230 115" class="fg-accent"/>
+<rect x="15" y="55" width="135" height="40" rx="6" class="fg-box"/>
+<rect x="230" y="12" width="150" height="46" rx="6" class="fg-box"/>
+<rect x="230" y="92" width="150" height="46" rx="6" class="fg-hot"/>
+<text x="82.5" y="81" text-anchor="middle" class="fg-strong">Espagnol</text>
+<text x="305" y="32" text-anchor="middle" class="fg-text">Amérique latine</text>
+<text x="305" y="50" text-anchor="middle" class="fg-label">autres variantes</text>
+<text x="305" y="112" text-anchor="middle" class="fg-strong">Espagne</text>
+<text x="305" y="130" text-anchor="middle" class="fg-label">mots-clés locaux</text>
+</svg>
+<figcaption>Pour les acheteurs en Espagne, recherchez les mots-clés de l’espagnol d’Espagne ; les variantes d’Amérique latine demandent leur propre recherche.</figcaption>
+</figure>
+
 | Outil | Fonctionnalités | Tarif | Meilleur usage | Adéquation au marché espagnol |
 |---|---|---|---|---|
 | **Google Keyword Planner** | Volumes de recherche, tendances, idées de mots-clés | Gratuit avec un compte Google Ads | Planification de base, idéal pour les [campagnes payantes](/fr/services/sem-multilingue/) | Moyenne : peu de finesse sur les termes propres à l’Espagne |
@@ -103,6 +119,23 @@ Chaque seconde gagnée sur le chargement d’une page espagnole garde l’achete
 
 Un ciblage bien réglé permet à Google de montrer votre page espagnole à un acheteur de Madrid et votre page mexicaine à un acheteur de Mexico. Un domaine .es aide en Espagne, et des balises hreflang correctes font servir la bonne version linguistique au bon public. Pour un site qui tourne déjà en .fr, .be ou .ch, la version espagnole trouve sa place sur un domaine .es ou dans un sous-répertoire dédié, avec son propre jeu de balises hreflang.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 140" role="img" aria-label="Hreflang envoie l’acheteur de Madrid vers la page espagnole et celui de Mexico vers la page mexicaine.">
+<path d="M140 40 L236 40" class="fg-accent"/>
+<path d="M140 100 L236 100" class="fg-accent"/>
+<rect x="10" y="20" width="130" height="40" rx="6" class="fg-box"/>
+<rect x="10" y="80" width="130" height="40" rx="6" class="fg-box"/>
+<rect x="236" y="20" width="154" height="40" rx="6" class="fg-hot"/>
+<rect x="236" y="80" width="154" height="40" rx="6" class="fg-hot"/>
+<text x="75" y="46" text-anchor="middle" class="fg-text">Madrid</text>
+<text x="75" y="106" text-anchor="middle" class="fg-text">Mexico</text>
+<text x="313" y="46" text-anchor="middle" class="fg-strong">Page espagnole</text>
+<text x="313" y="106" text-anchor="middle" class="fg-strong">Page mexicaine</text>
+<text x="188" y="76" text-anchor="middle" class="fg-label">hreflang</text>
+</svg>
+<figcaption>Des balises hreflang correctes, et un domaine .es pour l’Espagne, permettent à Google de montrer à chaque marché hispanophone sa propre page.</figcaption>
+</figure>
+
 Construisez des structures d’URL qui reflètent la langue et la culture des [internautes espagnols](/fr/services/seo-espagnol/), pour que chaque page garde son contexte et sa pertinence.
 
 <aside class="post-cta">
@@ -131,6 +164,18 @@ Un résultat enrichi prend plus de place et attire plus de clics qu’un simple 
 ## Exploration, indexation et Core Web Vitals
 
 Une page se positionne une fois que Google l’a explorée et indexée, et une page qui charge sans à-coups retient le lecteur qui arrive.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 142" role="img" aria-label="Une page est d’abord explorée, puis indexée, et alors seulement elle peut se positionner.">
+<rect x="50" y="10" width="300" height="36" rx="6" class="fg-box"/>
+<rect x="90" y="54" width="220" height="36" rx="6" class="fg-box"/>
+<rect x="130" y="98" width="140" height="36" rx="6" class="fg-hot"/>
+<text x="200" y="34" text-anchor="middle" class="fg-text">Explorée</text>
+<text x="200" y="78" text-anchor="middle" class="fg-text">Indexée</text>
+<text x="200" y="122" text-anchor="middle" class="fg-strong">Positionnée</text>
+</svg>
+<figcaption>Chaque étape dépend de la précédente : des sitemaps XML à jour et un robots.txt bien configuré font explorer et indexer les pages, qui peuvent alors se positionner.</figcaption>
+</figure>
 
 **Sitemaps XML et robots.txt :** tenez les sitemaps XML à jour et le fichier robots.txt bien configuré, pour que Google.es et Bing explorent et indexent les pages que vous voulez faire trouver.
 

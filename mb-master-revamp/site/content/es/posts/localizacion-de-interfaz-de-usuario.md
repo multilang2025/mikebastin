@@ -24,6 +24,26 @@ Para una empresa que vende en varios mercados, la interfaz es donde el usuario d
 
 La localización abarca también los formatos de fecha, los campos de moneda y los símbolos normativos, y acertar en ellos protege al negocio. Un comprador alemán espera ver «1.234,50 €» y una fecha escrita en el orden día, mes y año; uno británico espera libras y su propio formato de dirección.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Una interfaz localizada aporta tres beneficios: alcance en nuevos países, acciones clave más fáciles para la conversión y una confianza que genera fidelidad.">
+<path d="M200 50 L67 102" class="fg-line"/>
+<path d="M200 50 L200 102" class="fg-line"/>
+<path d="M200 50 L333 102" class="fg-line"/>
+<rect x="105" y="10" width="190" height="40" rx="6" class="fg-hot"/>
+<rect x="4" y="102" width="126" height="46" rx="6" class="fg-box"/>
+<rect x="137" y="102" width="126" height="46" rx="6" class="fg-box"/>
+<rect x="270" y="102" width="126" height="46" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-text">Interfaz localizada</text>
+<text x="67" y="122" text-anchor="middle" class="fg-text">Alcance</text>
+<text x="67" y="140" text-anchor="middle" class="fg-label">nuevos países</text>
+<text x="200" y="122" text-anchor="middle" class="fg-text">Conversión</text>
+<text x="200" y="140" text-anchor="middle" class="fg-label">acciones clave</text>
+<text x="333" y="122" text-anchor="middle" class="fg-text">Confianza</text>
+<text x="333" y="140" text-anchor="middle" class="fg-label">fidelidad</text>
+</svg>
+<figcaption>Alcance, conversión y confianza nacen en la interfaz, donde el usuario decide si el producto es para él.</figcaption>
+</figure>
+
 Los beneficios se resumen en tres:
 
 - **Alcance de mercado.** Los usuarios de regiones nuevas pueden usar tu producto desde el primer día.
@@ -51,7 +71,24 @@ En otros países cambian el orden de los campos, el formato del código postal o
 
 ## Cuatro hábitos que abaratan la localización
 
-Casi todo el coste se decide antes de traducir la primera cadena de texto. Cuatro hábitos lo mantienen bajo:
+Casi todo el coste se decide antes de traducir la primera cadena de texto. Cuatro hábitos lo mantienen bajo.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 120" role="img" aria-label="Tres de los hábitos, en orden: planifica la localización en el diseño, encarga la traducción a profesionales y prueba con usuarios locales.">
+<path d="M125 60 L140 60" class="fg-line"/>
+<path d="M260 60 L275 60" class="fg-accent"/>
+<rect x="5" y="30" width="120" height="60" rx="6" class="fg-box"/>
+<rect x="140" y="30" width="120" height="60" rx="6" class="fg-box"/>
+<rect x="275" y="30" width="120" height="60" rx="6" class="fg-hot"/>
+<text x="65" y="56" text-anchor="middle" class="fg-strong">Planificar</text>
+<text x="65" y="78" text-anchor="middle" class="fg-label">en el diseño</text>
+<text x="200" y="56" text-anchor="middle" class="fg-strong">Traducir</text>
+<text x="200" y="78" text-anchor="middle" class="fg-label">profesionales</text>
+<text x="335" y="56" text-anchor="middle" class="fg-strong">Probar</text>
+<text x="335" y="78" text-anchor="middle" class="fg-label">en el mercado</text>
+</svg>
+<figcaption>Planificar desde el principio y probar con usuarios locales enmarcan la traducción, y así cada mercado nuevo cuesta menos.</figcaption>
+</figure>
 
 - **Planifica desde el principio.** Integra la localización en el proceso de diseño, de modo que los diseños y las funciones admitan cualquier idioma a medida que llegue.
 - **Trabaja con traductores profesionales.** En las cadenas de la interfaz, los traductores humanos transmiten el contexto, el tono y el significado que cada una necesita.
@@ -72,7 +109,23 @@ Las herramientas adecuadas mantienen todos los idiomas al mismo ritmo. La mayor 
 
 ## Resuelve los tres retos más frecuentes
 
-Tres retos aparecen una y otra vez, y cada uno tiene una solución conocida:
+Tres retos aparecen una y otra vez, y cada uno tiene una solución conocida.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Una misma cadena de la interfaz llega al traductor de dos formas: sola, con una función incierta, o con capturas y notas que muestran el contexto.">
+<path d="M150 75 L230 35" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M150 75 L230 115" class="fg-accent"/>
+<rect x="15" y="55" width="135" height="40" rx="6" class="fg-box"/>
+<rect x="230" y="12" width="150" height="46" rx="6" class="fg-box"/>
+<rect x="230" y="92" width="150" height="46" rx="6" class="fg-hot"/>
+<text x="82.5" y="81" text-anchor="middle" class="fg-strong">Una cadena</text>
+<text x="305" y="32" text-anchor="middle" class="fg-text">Cadena sola</text>
+<text x="305" y="50" text-anchor="middle" class="fg-label">función incierta</text>
+<text x="305" y="112" text-anchor="middle" class="fg-strong">Con contexto</text>
+<text x="305" y="130" text-anchor="middle" class="fg-label">capturas, notas</text>
+</svg>
+<figcaption>Las guías, capturas de pantalla y notas de cada elemento muestran al traductor qué hace cada cadena, y así se evitan los errores de contexto.</figcaption>
+</figure>
 
 | Reto | Causa | Solución |
 |---|---|---|
