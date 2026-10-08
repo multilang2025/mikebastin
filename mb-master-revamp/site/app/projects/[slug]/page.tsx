@@ -225,7 +225,7 @@ export default async function ProjectPage({
                 {project.countries.map((c) => (
                   <li key={c.domain}>
                     <a href={`https://www.${c.domain}/`} className="ulink" target="_blank" rel="noopener">
-                      {c.domain}
+                      www.{c.domain}
                     </a>
                     <span className="block text-[.82rem]" style={{ color: "var(--dim)" }}>
                       {c.country}

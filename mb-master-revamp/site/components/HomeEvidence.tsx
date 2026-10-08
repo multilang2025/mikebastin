@@ -178,11 +178,14 @@ export default function HomeEvidence({ locale = "en", band = "b" }: { locale?: "
         <ul className="grid grid-cols-1 gap-4 min-[360px]:grid-cols-2 sm:grid-cols-3">
           {BT_SITES.map((s, i) => {
             const domain = `betranslated.${s.tld}`;
+            // The country sites are linked and shown with www. (owner, 8 Oct
+            // 2026); betranslated.com stays bare.
+            const host = s.tld === "com" ? domain : `www.${domain}`;
             return (
               <Reveal key={s.tld} i={i}>
                 <li className="h-full">
                   <a
-                    href={s.href ?? `https://${domain}/`}
+                    href={s.href ?? `https://${host}/`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="group flex h-full flex-col overflow-hidden rounded-md border transition-colors duration-200 hover:border-[var(--berry)]"
@@ -198,7 +201,7 @@ export default function HomeEvidence({ locale = "en", band = "b" }: { locale?: "
                       className="aspect-[5/4] w-full object-cover object-top"
                     />
                     <span className="flex flex-col gap-0.5 px-3 py-2.5 lg:flex-row lg:items-baseline lg:justify-between lg:gap-2">
-                      <span className="text-[.8rem] font-semibold transition-colors duration-200 group-hover:text-[var(--berry)] sm:text-[.88rem]">{domain}</span>
+                      <span className="text-[.8rem] font-semibold transition-colors duration-200 group-hover:text-[var(--berry)] sm:text-[.88rem]">{host}</span>
                       <span className="text-[.76rem]" style={{ color: "var(--dim)" }}>{s.market[locale]}</span>
                     </span>
                   </a>
