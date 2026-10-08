@@ -1,0 +1,49 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="size" content="800x600">
+<link rel="stylesheet" href="../kit.css"><style>:root{--w:800px;--h:600px}
+.q{font:500 16px/1.45 'Inter';background:var(--chip);border-radius:14px 14px 4px 14px;padding:10px 14px;margin-left:auto;width:fit-content;max-width:90%}
+.claim{border-left:4px solid var(--berry);background:var(--soft);border-radius:4px 10px 10px 4px;padding:10px 12px;margin-top:12px}
+.claim .line{margin:7px 0}
+.by{display:flex;align-items:center;gap:10px;margin-top:16px;font:600 14px 'Inter';color:var(--ink)}
+.av{width:28px;height:28px;border-radius:50%;background:var(--deep);flex:none}
+.chip{font:600 13px 'Inter';padding:4px 9px;border-radius:6px;background:var(--chip);color:var(--dim)}
+.tr{display:grid;grid-template-columns:44px 1fr auto;gap:12px;align-items:center;margin-top:13px}
+.tr .line{margin:0}
+.ok{display:inline-flex;align-items:center;gap:6px;font:600 13px 'Inter';color:var(--deep)}
+</style></head><body>
+<!-- GEO engagement: a page written with a quotable claim, an AI answer card
+     citing it, and citation tracking per market. Generic, no assistant brand. -->
+<div class="card browser abs" style="left:4px;top:14px;width:340px">
+  <div class="bar"><i></i><i></i><i></i><span class="url">yoursite.com/guide/</span></div>
+  <div style="padding:18px 20px 22px">
+    <div class="line ink" style="width:82%;margin-top:0"></div>
+    <span class="pill berry" style="height:28px;font-size:13px;margin-top:10px;box-shadow:none">Quotable claim</span>
+    <div class="claim"><div class="line ink" style="width:96%"></div><div class="line ink" style="width:78%"></div></div>
+    <div class="line" style="width:94%;margin-top:16px"></div><div class="line" style="width:88%"></div><div class="line" style="width:60%"></div>
+    <div class="by"><span class="av"></span>Named author<span class="chip" style="margin-left:auto">Updated</span></div>
+    <div style="display:flex;gap:8px;margin-top:14px"><span class="chip">Structured data</span><span class="chip">Checkable facts</span></div>
+  </div>
+</div>
+
+<div class="card pad abs" style="left:392px;top:14px;width:402px">
+  <div style="display:flex;align-items:center;gap:10px"><svg width="24" height="24" viewBox="0 0 26 26"><path d="M13 2 L15.5 10.5 L24 13 L15.5 15.5 L13 24 L10.5 15.5 L2 13 L10.5 10.5 Z" fill="var(--berry)"/></svg><div class="h">AI answer</div></div>
+  <div class="q" style="margin-top:14px">Who can help us sell in France and Germany?</div>
+  <div class="claim" style="margin-top:14px"><div class="line ink" style="width:96%"></div><div class="line ink" style="width:70%"></div></div>
+  <div class="line" style="width:92%"></div>
+  <div style="display:flex;gap:8px;align-items:center;margin-top:10px"><span class="h" style="font-size:14px">Source</span><span class="pill berry" style="height:30px;font-size:14px;box-shadow:none">yoursite.com/guide/</span></div>
+</div>
+
+<svg class="abs" style="left:0;top:0" width="800" height="600">
+  <path class="link" d="M326 178 C 362 178, 380 190, 414 190"/>
+</svg>
+
+<div class="card pad abs" style="left:392px;top:322px;width:402px">
+  <div class="h serif">Where you are cited</div>
+  <div class="tr"><span class="lang">EN</span><div class="line ink" style="width:84%"></div><span class="ok"><span class="dot ok"></span>Cited</span></div>
+  <div class="tr"><span class="lang">FR</span><div class="line" style="width:70%"></div><span class="ok"><span class="dot ok"></span>Cited</span></div>
+  <div class="tr"><span class="lang">ES</span><div class="line" style="width:62%"></div><span class="ok"><span class="dot ok"></span>Cited</span></div>
+  <div class="tr"><span class="lang">DE</span><div class="line" style="width:56%"></div><span class="ok" style="color:var(--berry)"><span class="dot"></span>Next page</span></div>
+</div>
+
+<div class="pill deep abs" style="left:20px;top:430px">Written to be quoted</div>
+<div class="pill abs" style="left:20px;top:482px">Cited, then tracked</div>
+</body></html>

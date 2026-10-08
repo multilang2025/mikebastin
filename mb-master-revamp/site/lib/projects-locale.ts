@@ -17,10 +17,10 @@ const N = " ";
 export const PROJECTS_FR: Record<string, ProjectCopy> = {
   betranslated: {
     angle: "Notre agence, depuis le premier jour",
-    body: "Une agence de traduction avec dix sites nationaux, des États-Unis à l’Italie, chacun positionné séparément sur son marché.",
-    services: ["SEO multi-domaines", "Contenu multilingue", "Dix marchés nationaux"],
+    body: "Une agence de traduction avec neuf sites nationaux, des États-Unis aux Pays-Bas, chacun positionné séparément sur son marché.",
+    services: ["SEO multi-domaines", "Contenu multilingue", "Neuf marchés nationaux"],
     metrics: [
-      { v: "10", k: "Domaines nationaux" },
+      { v: "9", k: "Domaines nationaux" },
       { v: `20${N}ans`, k: "D’activité" },
     ],
     alt: "Le site BeTranslated sur ordinateur et sur mobile",
@@ -101,10 +101,10 @@ export const PROJECTS_FR: Record<string, ProjectCopy> = {
 export const PROJECTS_ES: Record<string, ProjectCopy> = {
   betranslated: {
     angle: "Nuestra agencia, desde el primer día",
-    body: "Una agencia de traducción con diez webs nacionales, de Estados Unidos a Italia, cada una posicionada por separado en su mercado.",
-    services: ["SEO multidominio", "Contenido multilingüe", "Diez mercados nacionales"],
+    body: "Una agencia de traducción con nueve webs nacionales, de Estados Unidos a los Países Bajos, cada una posicionada por separado en su mercado.",
+    services: ["SEO multidominio", "Contenido multilingüe", "Nueve mercados nacionales"],
     metrics: [
-      { v: "10", k: "Dominios nacionales" },
+      { v: "9", k: "Dominios nacionales" },
       { v: "20 años", k: "De actividad" },
     ],
     alt: "La web de BeTranslated en ordenador y en móvil",

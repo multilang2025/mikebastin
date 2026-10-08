@@ -52,7 +52,7 @@ const STATS = [
   { n: 20, s: "+", k: "Years in search" },
   { n: 5, s: "+3", k: "Languages spoken" },
   { n: 8, s: "", k: "Projects in the line-up" },
-  { n: 10, s: "", k: "BeTranslated country sites" },
+  { n: 9, s: "", k: "BeTranslated country sites" },
 ];
 
 const BASTIN = [

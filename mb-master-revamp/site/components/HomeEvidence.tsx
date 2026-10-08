@@ -1,9 +1,10 @@
 import Link from "next/link";
 import Image from "next/image";
 import Reveal from "@/components/Reveal";
-import { PROJECTS } from "@/lib/projects";
+import { PROJECTS, SHOT_VERSION } from "@/lib/projects";
 import { PROJECTS_ES, PROJECTS_FR } from "@/lib/projects-locale";
 import { CASE_SLUGS } from "@/lib/home-evidence";
+import { BT_SITES } from "@/lib/betranslated-sites";
 import { LEADS_HIGH, LEADS_LOW, MILLIONS, TOTAL_CLICKS } from "@/lib/results-totals";
 
 const T = {
@@ -16,6 +17,10 @@ const T = {
     range: "to",
     source: "Totals across the sites we run search for, May to July 2026: enquiries are counted from each site’s form records, or given by the site owner where they also arrive by phone and email; clicks and impressions come from Google Search Console.",
     all: { href: "/results/", label: "See the results across our client sites" },
+    sitesEyebrow: "BeTranslated country sites",
+    sitesHeading: "BeTranslated, in every market it serves.",
+    sitesLede: "Nine country sites, each written for its own market and language.",
+    siteAlt: (market: string, domain: string) => `The BeTranslated site for ${market}, ${domain}, on desktop and mobile`,
   },
   fr: {
     eyebrow: "Résultats clients",
@@ -26,6 +31,10 @@ const T = {
     range: "à",
     source: "Totaux sur les sites dont nous gérons le référencement, de mai à juillet 2026\u00a0: les demandes sont comptées d’après les formulaires de chaque site, ou données par son propriétaire quand elles arrivent aussi par téléphone et par e-mail\u00a0; les clics et les impressions viennent de Google Search Console.",
     all: null,
+    sitesEyebrow: "Sites pays de BeTranslated",
+    sitesHeading: "BeTranslated, dans chaque marché où l’agence travaille.",
+    sitesLede: "Neuf sites pays, chacun écrit pour son marché et sa langue.",
+    siteAlt: (market: string, domain: string) => `Le site BeTranslated pour ${market}, ${domain}, sur ordinateur et sur mobile`,
   },
   es: {
     eyebrow: "Resultados de clientes",
@@ -36,6 +45,10 @@ const T = {
     range: "a",
     source: "Totales de las webs cuyo posicionamiento llevamos, de mayo a julio de 2026: las consultas se cuentan a partir de los formularios de cada web, o las da su propietario cuando también llegan por teléfono y correo; los clics y las impresiones vienen de Google Search Console.",
     all: null,
+    sitesEyebrow: "Sitios nacionales de BeTranslated",
+    sitesHeading: "BeTranslated, en cada mercado donde trabaja la agencia.",
+    sitesLede: "Nueve sitios nacionales, cada uno escrito para su mercado y su idioma.",
+    siteAlt: (market: string, domain: string) => `El sitio de BeTranslated para ${market}, ${domain}, en ordenador y en móvil`,
   },
 } as const;
 
@@ -85,11 +98,11 @@ export default function HomeEvidence({ locale = "en", band = "b" }: { locale?: "
             {t.source}
           </p>
         </Reveal>
-        <div className="grid gap-5 md:grid-cols-3">
+        <div className="grid gap-5 md:grid-cols-6">
           {cases.map((p, i) => {
             const localized = copy?.[p.slug];
             return (
-              <Reveal key={p.domain} i={i}>
+              <Reveal key={p.domain} i={i} className={i < 3 ? "md:col-span-2" : "md:col-span-3"}>
                 <article
                   className="flex h-full flex-col overflow-hidden rounded-md border"
                   style={{ borderColor: "var(--rule)", background: "var(--shade)" }}
@@ -149,6 +162,45 @@ export default function HomeEvidence({ locale = "en", band = "b" }: { locale?: "
             );
           })}
         </div>
+        <Reveal>
+          <p className="eyebrow mb-3 mt-16">{t.sitesEyebrow}</p>
+          <h3 className="mb-3 max-w-[30ch] text-[clamp(1.4rem,2.6vw,2rem)] font-semibold leading-[1.15]">{t.sitesHeading}</h3>
+          <p className="mb-8 max-w-[56ch] text-[1.02rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
+            {t.sitesLede}
+          </p>
+        </Reveal>
+        <ul className="grid grid-cols-1 gap-4 min-[360px]:grid-cols-2 sm:grid-cols-3">
+          {BT_SITES.map((s, i) => {
+            const domain = `betranslated.${s.tld}`;
+            return (
+              <Reveal key={s.tld} i={i}>
+                <li className="h-full">
+                  <a
+                    href={s.href ?? `https://${domain}/`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="group flex h-full flex-col overflow-hidden rounded-md border transition-colors duration-200 hover:border-[var(--berry)]"
+                    style={{ borderColor: "var(--rule)", background: "var(--shade)" }}
+                  >
+                    <Image
+                      src={`/work/${s.image}-800.webp?v=${SHOT_VERSION}`}
+                      width={800}
+                      height={640}
+                      alt={t.siteAlt(s.market[locale], domain)}
+                      loading="lazy"
+                      unoptimized
+                      className="aspect-[5/4] w-full object-cover object-top"
+                    />
+                    <span className="flex flex-col gap-0.5 px-3 py-2.5 lg:flex-row lg:items-baseline lg:justify-between lg:gap-2">
+                      <span className="text-[.8rem] font-semibold transition-colors duration-200 group-hover:text-[var(--berry)] sm:text-[.88rem]">{domain}</span>
+                      <span className="text-[.76rem]" style={{ color: "var(--dim)" }}>{s.market[locale]}</span>
+                    </span>
+                  </a>
+                </li>
+              </Reveal>
+            );
+          })}
+        </ul>
         {t.all && (
           <Reveal>
             <Link href={t.all.href} className="ulink mt-10 inline-block text-[1rem]">
