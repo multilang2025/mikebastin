@@ -1449,6 +1449,7 @@ details.faq-item > summary:focus-visible {
   --berry-deep: #c9304a;
   --berry-soft: rgb(242 85 106 / 0.16);
   background: #0f2837 !important;
+  box-shadow: inset 0 4px 0 var(--berry);
 }
 :root[data-theme="dark"] .card-navy {
   --bg: #16384d;

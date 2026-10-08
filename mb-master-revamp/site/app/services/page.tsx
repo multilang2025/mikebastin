@@ -227,9 +227,10 @@ export default function ServicesIndex() {
                   </span>
                   {s.slug === "multilingual-seo" && (
                     <span
-                      className="mb-3 w-fit rounded-full px-3 py-1 text-[.78rem] font-semibold"
-                      style={{ background: "var(--berry-soft)", color: "var(--berry)" }}
+                      className="mb-4 inline-flex w-fit items-center gap-2 rounded-full px-4 py-1.5 text-[.76rem] font-bold uppercase tracking-[.1em]"
+                      style={{ background: "var(--berry)", color: "#0f2837" }}
                     >
+                      <span aria-hidden="true">★</span>
                       Our core service
                     </span>
                   )}
