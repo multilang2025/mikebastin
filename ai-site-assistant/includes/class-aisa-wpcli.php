@@ -40,6 +40,25 @@ class AISA_WPCLI {
 		'default_category',
 		'posts_per_page',
 		'permalink_structure',
+		'category_base',
+		'tag_base',
+	);
+
+	/**
+	 * Options that change what a URL routes to. Writing one of these without
+	 * also regenerating `rewrite_rules` leaves the site serving 404s for
+	 * content that otherwise saved correctly -- e.g. a `category_base` that
+	 * collides with the post permalink base. WordPress core only does this
+	 * regeneration itself when the change comes through wp-admin's
+	 * Settings -> Permalinks screen, not through a raw update_option() call,
+	 * so wp_cli_set does it explicitly here.
+	 *
+	 * @var string[]
+	 */
+	const REWRITE_AFFECTING_OPTIONS = array(
+		'permalink_structure',
+		'category_base',
+		'tag_base',
 	);
 
 	/**
@@ -253,11 +272,19 @@ class AISA_WPCLI {
 				}
 				$value = sanitize_text_field( (string) ( $in['value'] ?? '' ) );
 				update_option( $name, $value );
+
+				$flushed = false;
+				if ( in_array( $name, self::REWRITE_AFFECTING_OPTIONS, true ) ) {
+					flush_rewrite_rules();
+					$flushed = true;
+				}
+
 				AISA_Audit_Log::record( 'wp_cli_option_update', null, array( 'name' => $name ) );
 				return self::ok(
 					array(
-						'name'  => $name,
-						'value' => $value,
+						'name'            => $name,
+						'value'           => $value,
+						'rewrite_flushed' => $flushed,
 					)
 				);
 
