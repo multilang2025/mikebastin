@@ -251,7 +251,13 @@ market diagram, reviews, BASTIN and the credibility strip are shared in structur
 FR markets and the five-step list, and the ES Valencia markets and graphic, stay as the
 bespoke sections. The shared FR and ES sections are `components/HomeWhy.tsx` and
 `components/HomeBastin.tsx`; a new section on the English page needs its FR and ES
-counterpart there. Note for `lint:code`: French words such as "même", "deuxième" and
+counterpart there. PR #144 (Víctoria, 8 Oct 2026) changed the English homepage: "Discuss
+your project" as the main CTA, dark mode for first visits, shortened metric labels, the
+portrait inside the hero copy, action labels on the service chips, three icon cards under
+"A partnership built around your growth" and two reviews on phones. The owner approved it
+and asked for FR and ES to follow the same day: "Parlons de votre projet" / "Hablemos de tu
+proyecto", the same hero, chips, cards (`components/HomeHowCards.tsx`), first "why" card and
+band order, with the FR and ES market sections kept. Note for `lint:code`: French words such as "même", "deuxième" and
 "utilise" trip the English first-person and forbidden-word checks in a component, so
 reword them (the same cause as the privacy page on 2 Oct).
 

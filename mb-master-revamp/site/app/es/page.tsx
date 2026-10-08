@@ -11,6 +11,7 @@ import ValenciaMarketGraphic from "@/components/ValenciaMarketGraphic";
 import SiteFooter from "@/components/SiteFooter";
 import LocaleHtmlLang from "@/components/LocaleHtmlLang";
 import { ButtonLink } from "@/components/ui/Button";
+import HomeHowCards, { type HowCard } from "@/components/HomeHowCards";
 import { getServicesForLocale, servicePath } from "@/lib/services-locale";
 import { esLanguages } from "@/lib/fr-pages";
 
@@ -31,7 +32,7 @@ export const metadata: Metadata = {
   ...pageMeta({
     title: "Agencia SEO internacional en Valencia, Mike Bastin",
     description:
-      "Agencia SEO internacional en Valencia: te encuentran en castellano e inglés, en tu ciudad y en cada mercado donde vendes. Consulta gratuita.",
+      "Agencia SEO internacional en Valencia: te encuentran en castellano e inglés, en tu ciudad y en cada mercado donde vendes. Habla de tu proyecto con Mike.",
     path: PATH,
     languages: esLanguages(PATH),
     ogLocale: "es_ES",
@@ -47,12 +48,12 @@ const MARKETS: { slug: string; market: string; line: string }[] = [
 ];
 
 const SERVICES_FOR: { slug: string; name: string; line: string }[] = [
-  { slug: "optimizacion-seo", name: "Optimización SEO", line: "Las búsquedas de tus clientes, investigadas una a una, y páginas que responden a cada una." },
-  { slug: "seo-local", name: "SEO local", line: "Tu ficha de Google, tus reseñas y tus páginas por barrio, para aparecer entre los primeros resultados del mapa." },
-  { slug: "publicidad-multilingue", name: "Publicidad online", line: "Tu presupuesto de medios va íntegro a tus anuncios, pagado directamente a Google, Microsoft o Meta; la gestión tiene una tarifa aparte." },
-  { slug: "posicionamiento-multilingue", name: "SEO multilingüe", line: "Castellano, inglés y tus idiomas de exportación, cada uno con sus propias palabras clave." },
-  { slug: "traduccion-profesional", name: "Traducción jurada", line: "Documentos para tribunales, embajadas y extranjería, entre uno y siete días según el documento." },
-  { slug: "consultoria-de-inteligencia-artificial", name: "Consultoría de IA", line: "Procesos automatizados y una empresa que aparece en las respuestas de ChatGPT, Claude y Gemini." },
+  { slug: "optimizacion-seo", name: "Mejora tu SEO", line: "Las búsquedas de tus clientes, investigadas una a una, y páginas que responden a cada una." },
+  { slug: "seo-local", name: "Destaca en tu ciudad", line: "Tu ficha de Google, tus reseñas y tus páginas por barrio, para aparecer entre los primeros resultados del mapa." },
+  { slug: "publicidad-multilingue", name: "Lanza tus campañas", line: "Tu presupuesto de medios va íntegro a tus anuncios, pagado directamente a Google, Microsoft o Meta; la gestión tiene una tarifa aparte." },
+  { slug: "posicionamiento-multilingue", name: "Crece con SEO global", line: "Castellano, inglés y tus idiomas de exportación, cada uno con sus propias palabras clave." },
+  { slug: "traduccion-profesional", name: "Traduce tus documentos", line: "Documentos para tribunales, embajadas y extranjería, entre uno y siete días según el documento." },
+  { slug: "consultoria-de-inteligencia-artificial", name: "Aplica la IA", line: "Procesos automatizados y una empresa que aparece en las respuestas de ChatGPT, Claude y Gemini." },
 ];
 
 const STEPS = [
@@ -63,18 +64,24 @@ const STEPS = [
   "Un compromiso mes a mes, que cualquiera de las dos partes puede terminar con un aviso previo.",
 ];
 
-const HOW_IT_WORKS = [
+const HOW_IT_WORKS: HowCard[] = [
   {
-    title: "Auditamos tu situación",
-    body: "Revisamos tu web, tu visibilidad en buscadores y las versiones que ya tienes en otros idiomas para identificar el trabajo técnico y de contenido que puede generar más contactos.",
+    theme: "Visión de mercado",
+    icon: "search",
+    title: "Una visión clara de cada mercado",
+    body: "Descubrimos dónde tu web ya llega a compradores y dónde las mejoras técnicas o de contenido pueden generar más consultas.",
   },
   {
-    title: "Planificamos cada mercado",
+    theme: "Estrategia enfocada",
+    icon: "target",
+    title: "Un plan enfocado que puedes aprobar",
     body: "Recibes un plan de trabajo por escrito para los mercados que quieres desarrollar, con las prioridades, las entregas y las responsabilidades acordadas antes de empezar.",
   },
   {
-    title: "Informamos cada mes, idioma por idioma",
-    body: "Avanzamos mercado por mercado y cada mes informamos del tráfico y los contactos de cada idioma para que veas qué está dando resultados.",
+    theme: "Progreso medible",
+    icon: "chart",
+    title: "Avances sobre los que actuar",
+    body: "Ves el tráfico y las consultas de cada idioma en un informe mensual, para saber qué mercados dan resultados y dónde centrarte.",
   },
 ];
 
@@ -90,9 +97,9 @@ export default function SpanishHome() {
       {/* ============ HERO ============ */}
       {/* Igual que en la homepage en inglés: mensaje claro, persona que lidera la
           estrategia y un único CTA principal. */}
-      <section className="band band-b grain relative overflow-hidden pb-[clamp(48px,6vw,88px)] pt-[clamp(52px,7vw,104px)]">
-        <div className="shell relative grid items-center gap-x-14 lg:grid-cols-[1fr_auto]">
-        <div>
+      <section className="band band-a grain relative overflow-hidden pb-[clamp(48px,6vw,88px)] pt-[clamp(52px,7vw,104px)]">
+        <div className="shell home-hero-shell">
+        <div className="home-hero-copy">
           <Reveal>
             <p className="eyebrow mb-5">Agencia de SEO y localización multilingüe</p>
           </Reveal>
@@ -103,9 +110,16 @@ export default function SpanishHome() {
             </h1>
           </Reveal>
 
+          <FounderPortrait
+            alt="Mike Bastin, director de nuestra agencia de SEO multilingüe y localización."
+            caption="Mike Bastin, director de la agencia · Valencia."
+            className="home-hero-portrait"
+            mobileOptimized
+          />
+
           <Reveal i={2}>
             <h2 className="mb-5 max-w-[34ch] text-[clamp(1.15rem,2.1vw,1.6rem)] font-medium leading-[1.3]">
-              Ayudamos a empresas a captar clientes en varios idiomas con SEO internacional, contenido nativo y localización web.
+              Gana clientes en nuevos mercados con servicios de SEO internacional, contenido nativo y localización web.
             </h2>
           </Reveal>
 
@@ -114,48 +128,44 @@ export default function SpanishHome() {
               className="mb-8 max-w-[56ch] text-[clamp(1.02rem,1.4vw,1.14rem)] leading-[1.6]"
               style={{ color: "color-mix(in srgb, var(--dim) 65%, var(--ink))" }}
             >
-              Mike dirige la estrategia y un equipo de especialistas nativos cuida
-              los detalles de cada mercado y cada idioma. Nuestros informes separan
-              el rendimiento por país e idioma.
+              Trabaja directamente con Mike, tu consultor de SEO internacional.
+              Él dirige la estrategia mientras especialistas nativos adaptan cada
+              mercado, y los informes muestran qué idiomas traen consultas.
             </p>
           </Reveal>
 
           <Reveal i={4}>
             <div className="flex flex-wrap items-center gap-x-6 gap-y-4">
               <ButtonLink href="/es/contactanos/" size="lg">
-                Reserva una consulta gratuita
+                Hablemos de tu proyecto
               </ButtonLink>
               <Link href="/es/services/" className="ulink text-[.98rem]">
-                Ver nuestros servicios
+                Descubre nuestros servicios
               </Link>
             </div>
           </Reveal>
 
         </div>
-        <FounderPortrait
-          alt="Mike Bastin, director de nuestra agencia de SEO multilingüe y localización."
-          caption="Mike Bastin, director de la agencia · Valencia."
-        />
         </div>
       </section>
 
       {/* ============ CLIENT EVIDENCE ============ */}
       {/* Declaudify brief (owner, 3 Oct 2026): dated figures and three cases
           straight after the hero, in place of all eight spreads. */}
-      <HomeEvidence locale="es" band="a" />
+      <HomeEvidence locale="es" band="b" />
 
       {/* ============ WHAT WE DO ============ */}
-      <section className="band band-b py-[clamp(64px,9vw,128px)]">
+      <section className="band band-a py-[clamp(64px,9vw,128px)]">
         <div className="shell">
           <Reveal>
             <p className="eyebrow mb-3">Lo que hacemos</p>
             <h2 className="mb-5 max-w-[26ch] text-[clamp(1.8rem,3.6vw,2.9rem)] font-semibold leading-[1.1]">
-              Desde la auditoría de mercado hasta el informe mensual.
+              Un plan claro para cada mercado, con avances que puedes medir.
             </h2>
             <p className="mb-10 max-w-[62ch] text-[1.05rem] leading-[1.65]" style={{ color: "var(--dim)" }}>
-              Auditamos tu presencia actual, acordamos un plan para cada mercado y
-              luego informamos del progreso por idioma cada mes. Según
-              tus objetivos, elige los servicios que encajan con tus planes de crecimiento.
+              Convertimos tus oportunidades de mercado en trabajo enfocado y
+              crecimiento medible. Descubre los servicios que mejor encajan con
+              tus objetivos.
             </p>
           </Reveal>
 
@@ -163,7 +173,11 @@ export default function SpanishHome() {
             {services.map((s, i) => (
               <Reveal key={s.slug} i={i}>
                 <li>
-                  <Link href={servicePath("es", s.slug)} className="ulink mb-2 inline-block text-[1.12rem] font-semibold">
+                  <Link
+                    href={servicePath("es", s.slug)}
+                    className="mb-3 inline-flex rounded-full px-3 py-1 text-[.78rem] font-semibold uppercase tracking-[.07em] transition-colors hover:bg-[var(--berry)] hover:text-[var(--bg)]"
+                    style={{ color: "var(--berry)", background: "var(--berry-soft)" }}
+                  >
                     {s.name}
                   </Link>
                   <p className="text-[.96rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
@@ -175,31 +189,15 @@ export default function SpanishHome() {
           </ul>
 
           <Reveal>
-            <p className="eyebrow mb-3 mt-12">Cómo lo hacemos</p>
+            <p className="eyebrow mb-3 mt-12">Una colaboración pensada para tu crecimiento</p>
           </Reveal>
 
-          <ol className="grid gap-px md:grid-cols-3" style={{ background: "var(--rule)" }}>
-            {HOW_IT_WORKS.map((step, i) => (
-              <Reveal key={step.title} i={i}>
-                <li className="band h-full px-7 py-7" style={{ background: "var(--bg)" }}>
-                  <p className="display mb-5 text-[.9rem] font-semibold tabular-nums" style={{ color: "var(--berry)" }}>
-                    {String(i + 1).padStart(2, "0")}
-                  </p>
-                  <h3 className="display mb-3 text-[1.15rem] font-semibold leading-[1.25]">
-                    {step.title}
-                  </h3>
-                  <p className="text-[.92rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
-                    {step.body}
-                  </p>
-                </li>
-              </Reveal>
-            ))}
-          </ol>
+          <HomeHowCards items={HOW_IT_WORKS} />
 
           <Reveal i={3}>
             <p className="mt-8 text-[.95rem]" style={{ color: "var(--dim)" }}>
               <Link href="/es/precios/" className="ulink" style={{ color: "var(--berry)" }}>
-                Descubre cómo definimos el plan de trabajo y los honorarios
+                Descubre cómo definimos cada proyecto y sus honorarios
               </Link>
               {", y qué ocurre desde la primera llamada hasta los informes mensuales."}
             </p>
@@ -209,7 +207,7 @@ export default function SpanishHome() {
 
       {/* ============ MARKETS ============ */}
       {markets.length > 0 && (
-        <section className="band band-a py-[clamp(56px,8vw,104px)]">
+        <section className="band band-b py-[clamp(56px,8vw,104px)]">
           <div className="shell grid items-center gap-8 lg:grid-cols-[minmax(0,1.2fr)_minmax(300px,.8fr)]">
             <div>
               <Reveal>
@@ -241,7 +239,7 @@ export default function SpanishHome() {
       )}
 
       {/* ============ HOW WE WORK ============ */}
-      <section className="band band-b py-[clamp(56px,8vw,104px)]">
+      <section className="band band-a py-[clamp(56px,8vw,104px)]">
         <div className="shell grid gap-[clamp(32px,5vw,64px)] lg:grid-cols-[minmax(0,1fr)_minmax(0,1.2fr)]">
           <Reveal>
             <h2 className="text-[clamp(1.6rem,3vw,2.3rem)] font-semibold leading-[1.15]">Cómo trabajamos</h2>
@@ -264,10 +262,10 @@ export default function SpanishHome() {
         </div>
       </section>
 
-      <HomeWhy locale="es" band="a" />
+      <HomeWhy locale="es" band="b" />
 
       {/* ============ TESTIMONIALS ============ */}
-      <section id="testimonials" className="band band-b py-[clamp(64px,9vw,128px)]">
+      <section id="testimonials" className="band band-a py-[clamp(64px,9vw,128px)]">
         <div className="shell">
           <Reveal>
             <p className="eyebrow mb-3">En sus propias palabras</p>
@@ -280,14 +278,14 @@ export default function SpanishHome() {
             </p>
           </Reveal>
           <Reveal i={1}>
-            <Testimonials locale="es" initialCount={4} />
+            <Testimonials locale="es" initialCount={4} mobileInitialCount={2} />
           </Reveal>
         </div>
       </section>
 
-      <HomeBastin locale="es" band="a" />
+      <HomeBastin locale="es" band="b" />
 
-      <HomeCredibility locale="es" band="b" />
+      <HomeCredibility locale="es" band="a" />
 
       <SiteFooter locale="es" band="a" />
     </main>
