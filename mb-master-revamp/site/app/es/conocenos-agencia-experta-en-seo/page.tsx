@@ -128,7 +128,7 @@ export default function SpanishTeamPage() {
                 Reserva una consulta gratuita
               </ButtonLink>
               <ButtonLink href="/es/precios/" size="lg" variant="ghost">
-                Cómo se desarrolla un proyecto
+                Ver cómo se desarrolla un proyecto
               </ButtonLink>
             </div>
           </Reveal>

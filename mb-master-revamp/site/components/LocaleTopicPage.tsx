@@ -15,7 +15,7 @@ const UI = {
     blog: "/fr/blog/",
     count: (n: number) => `${n} ${n === 1 ? "article" : "articles"}`,
     service: "Le service associé",
-    all: "Tous les articles",
+    all: "Parcourir tous les articles",
   },
   es: {
     home: "Inicio",
@@ -23,7 +23,7 @@ const UI = {
     blog: "/es/blog/",
     count: (n: number) => `${n} ${n === 1 ? "artículo" : "artículos"}`,
     service: "El servicio relacionado",
-    all: "Todos los artículos",
+    all: "Explorar todos los artículos",
   },
 } as const;
 

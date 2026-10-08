@@ -1,7 +1,8 @@
 ---
 words: 751
-title: "Localisation d’applications et de logiciels"
+title: "Localisation d’applications et de logiciels, prêts pour chaque langue"
 name: "Localisation d’applications"
+metaTitle: "Localisation d’applications et de logiciels"
 slug: "localisation-applications"
 locale: "fr"
 type: "services"

@@ -275,7 +275,7 @@ export default async function BlogPostPage({
               </Link>
               {service ? (
                 <Link href={`/services/${service.slug}/`} className="ulink text-[.98rem]">
-                  View {service.name}
+                  See what&apos;s included in {service.inline}
                 </Link>
               ) : (
                 <Link href="/services/" className="ulink text-[.98rem]">

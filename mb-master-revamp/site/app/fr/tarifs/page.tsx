@@ -125,7 +125,7 @@ export default function FrenchTarifsPage() {
       <section className="band band-b py-[clamp(56px,8vw,104px)]">
         <div className="shell">
           <Reveal>
-            <h2 className="mb-10 text-[clamp(1.6rem,3vw,2.3rem)] font-semibold leading-[1.15]">Les étapes d&apos;une mission</h2>
+            <h2 className="mb-10 text-[clamp(1.6rem,3vw,2.3rem)] font-semibold leading-[1.15]">Du premier appel au rapport mensuel</h2>
           </Reveal>
           <ol className="grid gap-8 md:grid-cols-2">
             {STAGES.map((s, i) => (
@@ -150,7 +150,7 @@ export default function FrenchTarifsPage() {
       <section className="band band-a py-[clamp(56px,8vw,104px)]">
         <div className="shell">
           <Reveal>
-            <h2 className="mb-10 text-[clamp(1.6rem,3vw,2.3rem)] font-semibold leading-[1.15]">Vos questions</h2>
+            <h2 className="mb-10 text-[clamp(1.6rem,3vw,2.3rem)] font-semibold leading-[1.15]">Les questions que l&apos;on nous pose avant un premier appel</h2>
           </Reveal>
           <dl className="grid max-w-[72ch] gap-8">
             {QUESTIONS.map((x, i) => (

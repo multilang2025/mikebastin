@@ -66,7 +66,7 @@ export default function FrenchTeamPage() {
           </Reveal>
           <Reveal i={1}>
             <h1 className="mb-6 max-w-[20ch] text-[clamp(2.3rem,5.6vw,4rem)] font-semibold leading-[1.08]">
-              Notre équipe
+              Notre équipe SEO, de Valencia à chaque marché où vous vendez
             </h1>
           </Reveal>
           <Reveal i={2}>
@@ -128,7 +128,7 @@ export default function FrenchTeamPage() {
                 Réserver une consultation gratuite
               </ButtonLink>
               <ButtonLink href="/fr/tarifs/" size="lg" variant="ghost">
-                Le déroulement d&apos;une mission
+                Voir le déroulement d&apos;une mission
               </ButtonLink>
             </div>
           </Reveal>
