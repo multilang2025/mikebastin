@@ -13,7 +13,7 @@ sourceUrl: null
 excerpt: "La localisation d’interface utilisateur adapte libellés, mises en page et formulaires à chaque marché, pour que vos utilisateurs s’y sentent chez eux."
 ---
 
-## Une interface localisée qui retire chaque hésitation
+## Une interface localisée qui lève chaque hésitation
 
 Votre produit est arrivé sur un nouveau marché avec une traduction correcte, et vous voulez maintenant que les inscriptions y suivent le rythme de la France. Le gain se joue dans l’interface : un bouton qui garde sa ligne en allemand, un formulaire qui accepte une adresse néerlandaise, un libellé qui sonne comme s’il avait été écrit sur place.
 

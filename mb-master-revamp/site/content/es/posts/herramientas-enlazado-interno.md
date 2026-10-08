@@ -12,7 +12,7 @@ sourceUrl: null
 excerpt: "Herramientas de enlazado interno: seis plugins de WordPress comparados, de Link Whisper a Link Manager, con precios, para que tus páginas se encuentren."
 ---
 
-## Enlazado interno que ayuda a tus páginas nuevas a posicionar
+## Enlazado interno que ayuda a tus páginas nuevas a posicionarse
 
 Publicas una página nueva y sólida, y empieza a leerse en cuanto el resto de tu web apunta hacia ella. En un sitio WordPress con cientos de entradas, a menudo en español, inglés y francés para tus mercados de exportación, una herramienta mantiene esos enlaces al día más rápido que la edición a mano y conecta las páginas que más te interesa que se encuentren.
 

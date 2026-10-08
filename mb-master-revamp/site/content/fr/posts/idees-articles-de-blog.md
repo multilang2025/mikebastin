@@ -13,7 +13,7 @@ sourceUrl: null
 excerpt: "Idées d’articles de blog classées par étape d’achat : 15 formats, chacun avec un exemple, pour transformer vos lecteurs en demandes de contact."
 ---
 
-## Quinze idées d’articles de blog classées par rôle commercial
+## Quinze idées d’articles de blog classées selon leur objectif commercial
 
 Votre blog reçoit des visites, en France comme sur vos marchés à l’export, et l’étape suivante consiste à publier des articles que votre équipe commerciale peut relier à des demandes de contact. Un article écrit pour le lecteur prêt à acheter rembourse la journée passée à le rédiger, et vous place devant ce lecteur en premier.
 

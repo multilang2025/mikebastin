@@ -13,7 +13,7 @@ sourceUrl: null
 excerpt: "GA4 ve menos de unos mercados y exagera otros. Qué datos de Google Analytics creer en tu marketing internacional, qué revisar y cómo decidir después."
 ---
 
-## Qué cuenta GA4 sobre tus mercados internacionales
+## Qué te dice GA4 sobre tus mercados internacionales
 
 Tu analítica dice que Alemania es tu segundo mercado, y tus consultas alemanas cuentan otra historia. Las dos cosas pueden ser ciertas, porque GA4 ve menos de tu tráfico internacional de lo que sugieren sus paneles, y ve menos todavía en los mercados donde las normas de privacidad son más estrictas.
 

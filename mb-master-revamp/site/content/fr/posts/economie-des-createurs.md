@@ -13,7 +13,7 @@ sourceUrl: null
 excerpt: "Économie des créateurs plus humaine : la vision de Jean Marie Cordaro et la marche à suivre pour posséder la relation avec votre audience."
 ---
 
-## Une audience hébergée sur la plateforme d’un tiers
+## Faire de votre audience un actif qui vous appartient
 
 Si votre audience vit sur la plateforme d’un tiers, vous la louez : votre portée et vos revenus dépendent d’algorithmes, de prestataires de paiement et de règles de compte fixés par d’autres. Il en va de même pour une entreprise qui vend en Espagne, en Allemagne ou au Royaume-Uni et dont la relation client passe en partie par ces canaux. Posséder cette relation protège ce que vous avez mis des années à bâtir.
 
