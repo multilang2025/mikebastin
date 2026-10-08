@@ -61,7 +61,7 @@ Le mobile domine désormais les pages vues en Allemagne, et l’ordinateur en re
 
 Construisez un site qui fonctionne aussi bien sur grand écran que sur téléphone : il retient l’acheteur qui découvre votre offre sur mobile et la compare plus tard au bureau.
 
-## Quatre tendances qui changent la façon dont on vous trouve en Allemagne
+## Quatre tendances qui changent la façon dont les acheteurs allemands vous trouvent
 
 Une tendance compte quand elle change qui vous trouve. Quatre le font en Allemagne.
 

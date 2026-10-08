@@ -28,7 +28,7 @@ Les baskets sont des « zapatillas » en Espagne et des « tenis » au Mexiq
 
 Choisir les bons mots-clés suppose donc une recherche par pays, et une [recherche de mots-clés](/fr/services/seo-technique/) menée région par région dès le départ est le moyen le plus économique de bâtir des pages qui durent.
 
-## Écrivez pour Madrid, Mexico ou Buenos Aires
+## Adaptez votre espagnol à chaque pays
 
 Un acheteur qui reconnaît des références locales continue sa lecture en acheteur. Comme le formule [Vera Content](https://veracontent.com/mix/spanish-seo/), « le SEO espagnol exige une connaissance de l’intérieur du marché hispanophone que vous visez », qu’il soit hispano-américain ou européen.
 

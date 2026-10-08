@@ -70,7 +70,7 @@ El GEO funciona junto al SEO. La misma página sirve a los dos canales cuando fo
 <p><strong>¿Quieres aparecer en las respuestas de IA de cada mercado donde vendes?</strong> Nuestro <a href="/es/services/optimizacion-seo/">SEO internacional</a> trabaja tu presencia en ChatGPT, Claude, Perplexity y los AI Overviews de Google con páginas nativas, enlaces ganados en cada país y una marca presente en cada idioma. <a href="/es/contactanos/">Reserva una consulta gratuita</a>.</p>
 </aside>
 
-## Mide el valor de las búsquedas sin clic
+## Mide el valor de las búsquedas que se resuelven en Google
 
 Un informe que cuenta funcionalidades, impresiones y búsquedas de marca junto a los clics muestra el valor completo de la búsqueda. La mayoría de las búsquedas en Google ya se resuelven en la propia página de resultados.
 
