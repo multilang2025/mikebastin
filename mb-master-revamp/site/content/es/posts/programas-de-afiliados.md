@@ -21,11 +21,7 @@ Si eres editor, creador de contenido o agencia y estás construyendo ingresos re
 
 ## Cómo acertar con el programa de afiliados a la primera
 
-Cada mes dedicado al producto adecuado deja contenido que genera ingresos, y la oferta sigue creciendo:
-
-> Según Post Affiliate Pro, el mercado mundial de afiliación se sitúa en un rango de 17.000 a 18.500 millones de dólares en 2025, se prevé que supere los 20.000 millones en 2026 y que alcance 71.740 millones en 2034. Se espera que más del 90 % de los negocios de comercio electrónico tengan programa de afiliados en 2026.
->
-> Fuente: [Post Affiliate Pro, Affiliate Marketing Industry Size 2025-2026](https://www.postaffiliatepro.com/blog/affiliate-marketing-industry-size-2025/)
+Cada mes dedicado al producto adecuado deja contenido que genera ingresos, y la oferta sigue creciendo.
 
 Compara la comisión al final: un 50 % de comisión rinde cuando tus lectores quieren el producto. Hay tres filtros que pesan más:
 
@@ -191,7 +187,7 @@ El segundo es responder a la intención de búsqueda. Un artículo de «las mejo
 <figcaption>Dale a cada intención su propio artículo: el de «las mejores» acompaña a quien compara opciones y la reseña única, a quien ya va a decidir.</figcaption>
 </figure>
 
-El tercero es invertir en email. El estudio de Authority Hacker muestra que [el 78,3 % de los afiliados depende del SEO como principal canal de tráfico](https://www.authorityhacker.com/affiliate-marketing-statistics/), y los que ganan más de 10.000 dólares al mes casi siempre tienen una lista de correo que capta a los visitantes antes de que hagan clic hacia fuera. Para que esa lista rinda, nuestro artículo sobre [más aperturas y conversiones en email marketing](/es/email-marketing-tasa-apertura-conversiones/) explica los asuntos que invitan a abrir y la segmentación por mercado.
+El tercero es invertir en email. Una lista de correo capta a los visitantes antes de que hagan clic hacia fuera, y el lector que llegó desde el buscador vuelve a tu siguiente recomendación. Para que esa lista rinda, nuestro artículo sobre [más aperturas y conversiones en email marketing](/es/email-marketing-tasa-apertura-conversiones/) explica los asuntos que invitan a abrir y la segmentación por mercado.
 
 <aside class="post-cta">
 <p><strong>¿Ya tienes tráfico y quieres que tus lectores te compren directamente a ti?</strong> Nuestro <a href="/es/services/posicionamiento-multilingue/">posicionamiento multilingüe</a> atrae en cada uno de tus mercados a los visitantes que buscan lo que vendes, página a página e idioma a idioma. <a href="/es/contactanos/">Reserva una consulta gratuita</a>.</p>

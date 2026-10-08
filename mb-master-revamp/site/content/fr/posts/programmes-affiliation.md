@@ -21,11 +21,7 @@ Si vous êtes éditeur, créateur de contenu ou agence et que vous construisez u
 
 ## Choisissez le bon programme du premier coup
 
-Chaque mois consacré au bon produit donne des contenus qui rapportent, et le choix s’élargit :
-
-> Selon Post Affiliate Pro, le marché mondial de l’affiliation se situe de 17 à 18,5 milliards de dollars en 2025, devrait dépasser 20 milliards en 2026 et atteindre 71,74 milliards d’ici 2034. Plus de 90 % des entreprises d’e-commerce devraient gérer un programme d’affiliation d’ici 2026.
->
-> Source : [Post Affiliate Pro, Affiliate Marketing Industry Size 2025-2026](https://www.postaffiliatepro.com/blog/affiliate-marketing-industry-size-2025/)
+Chaque mois consacré au bon produit donne des contenus qui rapportent, et le choix s’élargit.
 
 Comparez le taux de commission en dernier : une commission de 50 % rapporte quand vos lecteurs veulent le produit. Trois filtres passent avant :
 
@@ -191,7 +187,7 @@ La deuxième consiste à répondre à l’intention de recherche. Un article «�
 <figcaption>Donnez à chaque intention son propre article : le comparatif accompagne les lecteurs qui comparent, l’avis produit ceux qui sont prêts à décider.</figcaption>
 </figure>
 
-La troisième consiste à investir dans l’e-mail. L’étude d’Authority Hacker montre que [78,3 % des affiliés s’appuient sur le SEO comme principal canal de trafic](https://www.authorityhacker.com/affiliate-marketing-statistics/), et ceux qui gagnent plus de 10 000 dollars par mois ont presque tous une liste d’e-mails qui capte les visiteurs avant leur clic sortant. Pour que cette liste rapporte, notre article sur les [taux d’ouverture et conversions en emailing](/fr/emailing-taux-ouverture-conversions/) détaille les objets, la lecture sur mobile et la segmentation par marché.
+La troisième consiste à investir dans l’e-mail. Une liste d’e-mails capte les visiteurs avant leur clic sortant, et le lecteur venu de la recherche revient vers votre recommandation suivante. Pour que cette liste rapporte, notre article sur les [taux d’ouverture et conversions en emailing](/fr/emailing-taux-ouverture-conversions/) détaille les objets, la lecture sur mobile et la segmentation par marché.
 
 <aside class="post-cta">
 <p><strong>Vous avez le trafic et voulez que vos lecteurs achètent directement chez vous ?</strong> Notre <a href="/fr/services/referencement-multilingue/">référencement multilingue</a> attire sur chacun de vos marchés les visiteurs qui cherchent ce que vous vendez, page par page et langue par langue. <a href="/fr/nous-contacter/">Réservez un premier échange</a>.</p>

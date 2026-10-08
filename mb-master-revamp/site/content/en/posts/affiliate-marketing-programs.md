@@ -20,11 +20,7 @@ If you are a content creator, publisher or agency building recurring revenue, th
 
 ## Pick the right affiliate programme first time
 
-Every month promoting the right product is content that earns, and the choice keeps widening:
-
-> Per Post Affiliate Pro, the global affiliate market sits at 17 to 18.5 billion dollars in 2025, is projected above 20 billion in 2026, and is expected to reach 71.74 billion by 2034. Over 90 percent of ecommerce businesses are expected to run affiliate programmes by 2026.
->
-> Source: [Post Affiliate Pro, Affiliate Marketing Industry Size 2025-2026](https://www.postaffiliatepro.com/blog/affiliate-marketing-industry-size-2025/)
+Every month promoting the right product is content that earns, and the choice keeps widening.
 
 Compare the commission rate last: a 50 percent commission pays when your readers want the product. Three filters matter more:
 
@@ -194,7 +190,7 @@ The second is matching search intent. A "best of" article targets comparison int
 <figcaption>Give each intent its own article: the best-of piece meets readers comparing options, the single review meets readers ready to decide.</figcaption>
 </figure>
 
-The third is investing in email. Authority Hacker's research shows that [78.3 percent of affiliates rely on SEO as their main traffic channel](https://www.authorityhacker.com/affiliate-marketing-statistics/), and the ones earning above 10,000 dollars a month almost all have a mailing list capturing visitors before they click out.
+The third is investing in email. A mailing list captures visitors before they click out, so a reader who arrived from search comes back to your next recommendation.
 
 <aside class="post-cta">
 <p><strong>Getting the traffic, and want readers buying from you directly?</strong> Our <a href="/services/lead-generation/">B2B lead generation service</a> turns visitors in each of your markets into enquiries worth a sales call, counted per market. <a href="/contact/">Book the discovery call</a>.</p>
