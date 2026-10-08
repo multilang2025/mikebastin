@@ -107,6 +107,12 @@ function copyStrings(src) {
   // figure. The conflict itself is recorded in that file's `note` fields
   // for the owner to decide, which is a decision, not a typo.
   src = src.replace(/\bterm:\s*(["'`])(?:[^\\]|\\.)*?\1/g, "x: \"\"");
+  // An `fr:` or `es:` value is French or Spanish copy sitting in a data
+  // file (the per-locale alts in lib/post-figures.ts). Every rule here is
+  // an English rule and `\b` reads the "è" in "crème" as a boundary, so
+  // the first-person check fired on it, the same misfire that keeps
+  // app/fr/ and app/es/ out of this lint below.
+  src = src.replace(/\b(?:fr|es):\s*(["'`])(?:[^\\]|\\.)*?\1/g, "x: \"\"");
   // Double- and single-quoted string literals, and template literals.
   for (const m of src.matchAll(/"((?:[^"\\\n]|\\.)*)"|'((?:[^'\\\n]|\\.)*)'|`((?:[^`\\]|\\.)*)`/g)) {
     out.push(m[1] ?? m[2] ?? m[3] ?? "");
