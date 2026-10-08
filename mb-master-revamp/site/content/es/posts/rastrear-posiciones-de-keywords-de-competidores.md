@@ -29,6 +29,24 @@ Una posición aislada dice poco; la tendencia de un rival frente a la tuya dice 
 
 El seguimiento te da tres cosas: las búsquedas donde un rival está ganando terreno, las que está perdiendo y las que nadie ocupa bien todavía. Las tres alimentan tu calendario de contenido.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 138" role="img" aria-label="Las búsquedas donde un rival gana terreno, las que pierde y las que nadie ocupa bien todavía van a parar a tu calendario de contenido.">
+<path d="M170 25 L276 60" class="fg-line"/>
+<path d="M170 69 L274 69" class="fg-line"/>
+<path d="M170 113 L276 78" class="fg-line"/>
+<rect x="10" y="8" width="160" height="34" rx="6" class="fg-box"/>
+<rect x="10" y="52" width="160" height="34" rx="6" class="fg-box"/>
+<rect x="10" y="96" width="160" height="34" rx="6" class="fg-box"/>
+<circle cx="330" cy="69" r="56" class="fg-hot"/>
+<text x="90" y="30" text-anchor="middle" class="fg-text">Rival que gana</text>
+<text x="90" y="74" text-anchor="middle" class="fg-text">Rival que pierde</text>
+<text x="90" y="118" text-anchor="middle" class="fg-text">Búsquedas libres</text>
+<text x="330" y="70" text-anchor="middle" class="fg-strong">Calendario</text>
+<text x="330" y="90" text-anchor="middle" class="fg-label">de contenido</text>
+</svg>
+<figcaption>Las tres señales del seguimiento, rivales que suben, rivales que bajan y búsquedas libres, alimentan el mismo calendario de contenido.</figcaption>
+</figure>
+
 Es la pieza continua de un [análisis competitivo SEO](https://mikebastin.com/es/analisis-competitivo-seo/): el análisis te da la foto, el seguimiento te da la película.
 
 ## Elige a quién y qué seguir
@@ -46,6 +64,22 @@ Un seguimiento útil empieza por una lista corta y bien elegida, que se lee ráp
 La posición que ves desde Valencia es distinta de la que ve tu comprador en Lyon o en Amberes. Configura cada proyecto en el buscador y el idioma del mercado: google.fr en francés, google.de en alemán, google.co.uk en inglés y google.be en francés y en neerlandés.
 
 Separa también móvil y escritorio, porque los resultados cambian entre uno y otro, y añade la ciudad cuando vendes con presencia local.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="La misma búsqueda da posiciones distintas vista desde Valencia y en google.fr en francés, que es lo que ve tu comprador de Lyon.">
+<path d="M160 75 L230 35" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M160 75 L230 115" class="fg-accent"/>
+<rect x="10" y="55" width="150" height="40" rx="6" class="fg-box"/>
+<rect x="230" y="12" width="160" height="46" rx="6" class="fg-box"/>
+<rect x="230" y="92" width="160" height="46" rx="6" class="fg-hot"/>
+<text x="85" y="81" text-anchor="middle" class="fg-strong">Misma búsqueda</text>
+<text x="310" y="32" text-anchor="middle" class="fg-text">Desde Valencia</text>
+<text x="310" y="50" text-anchor="middle" class="fg-label">tu vista</text>
+<text x="310" y="112" text-anchor="middle" class="fg-strong">google.fr</text>
+<text x="310" y="130" text-anchor="middle" class="fg-label">lo que ve Lyon</text>
+</svg>
+<figcaption>Configura cada proyecto en el buscador y el idioma del mercado, y verás las mismas posiciones que tu comprador en Lyon.</figcaption>
+</figure>
 
 | Herramienta | Qué ofrece para seguir a la competencia | Cuándo usarla |
 |---|---|---|
@@ -109,6 +143,22 @@ Una subida de un competidor es una pista: algo le funciona, y puedes averiguar q
 **Comprueba si es un cambio general.** Si varios rivales se mueven a la vez, puede ser una actualización del algoritmo. [Search Engine Journal](https://www.searchenginejournal.com/) es una buena fuente para confirmarlo.
 
 Las herramientas con IA detectan estas anomalías de forma automática y te avisan, lo que deja tu tiempo para decidir qué responder.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 120" role="img" aria-label="Tres comprobaciones cuando un rival sube: la página que sube, sus enlaces nuevos y si se trata de un cambio general del algoritmo.">
+<line x1="70" y1="34" x2="330" y2="34" class="fg-rule"/>
+<circle cx="70" cy="34" r="26" class="fg-box"/>
+<circle cx="200" cy="34" r="26" class="fg-box"/>
+<circle cx="330" cy="34" r="26" class="fg-hot"/>
+<text x="70" y="40" text-anchor="middle" class="fg-strong">1</text>
+<text x="200" y="40" text-anchor="middle" class="fg-strong">2</text>
+<text x="330" y="40" text-anchor="middle" class="fg-strong">3</text>
+<text x="70" y="96" text-anchor="middle" class="fg-text">La página</text>
+<text x="200" y="96" text-anchor="middle" class="fg-text">Sus enlaces</text>
+<text x="330" y="96" text-anchor="middle" class="fg-text">¿Cambio general?</text>
+</svg>
+<figcaption>En este orden, en una hora sabes qué le funciona a tu rival y qué te conviene responder.</figcaption>
+</figure>
 
 ## Un cuadro de mando que se lee en diez minutos
 

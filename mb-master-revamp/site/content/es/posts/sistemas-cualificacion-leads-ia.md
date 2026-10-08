@@ -66,6 +66,26 @@ Esta capacidad pesa mucho cuando las consultas llegan en varios idiomas. Un sist
 
 Una cualificación rápida y coherente convierte más consultas en reuniones y lleva a tu equipo a decidir con datos. Cada prospecto se evalúa con los mismos criterios, sea cual sea el comercial que lo recibe o el idioma en que escribe.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Los mismos criterios de puntuación para cada consulta, llegue en francés, en alemán, en neerlandés o en inglés.">
+<path d="M200 50 L53 100" class="fg-line"/>
+<path d="M200 50 L151 100" class="fg-line"/>
+<path d="M200 50 L249 100" class="fg-line"/>
+<path d="M200 50 L347 100" class="fg-line"/>
+<rect x="110" y="10" width="180" height="40" rx="6" class="fg-hot"/>
+<rect x="6" y="100" width="94" height="40" rx="6" class="fg-box"/>
+<rect x="104" y="100" width="94" height="40" rx="6" class="fg-box"/>
+<rect x="202" y="100" width="94" height="40" rx="6" class="fg-box"/>
+<rect x="300" y="100" width="94" height="40" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-strong">Mismos criterios</text>
+<text x="53" y="125" text-anchor="middle" class="fg-label">Francés</text>
+<text x="151" y="125" text-anchor="middle" class="fg-label">Alemán</text>
+<text x="249" y="125" text-anchor="middle" class="fg-label">Neerlandés</text>
+<text x="347" y="125" text-anchor="middle" class="fg-label">Inglés</text>
+</svg>
+<figcaption>Cada prospecto se mide igual, sea cual sea el idioma en que escribe o el comercial que lo recibe.</figcaption>
+</figure>
+
 ### Comparativa: modelo tradicional y modelo con IA
 
 | Característica | Cualificación tradicional | Cualificación con IA |
@@ -82,6 +102,25 @@ Un análisis competitivo te muestra qué tecnologías adoptan ya otras empresas 
 Un sistema de cualificación rinde más cuando está conectado al CRM y a las fuentes de tráfico. El SEO aporta los clics y, sobre todo, atrae a compradores cuya intención coincide con tus criterios de cualificación.
 
 Al alinear las palabras clave con las etapas de decisión del comprador, el sistema recibe datos más limpios y la puntuación acierta desde el primer contacto. Analizar el tráfico web de la competencia te ayuda a ver qué canales generan los mejores leads en tu nicho, y a menudo el tráfico que parece secundario trae a los prospectos más valiosos.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 120" role="img" aria-label="El SEO atrae compradores con la intención correcta, el sistema recibe datos más limpios y la puntuación acierta desde el primer contacto.">
+<line x1="126" y1="58" x2="138" y2="58" class="fg-line"/>
+<path d="M132 53 L140 58 L132 63" class="fg-line"/>
+<line x1="260" y1="58" x2="272" y2="58" class="fg-line"/>
+<path d="M266 53 L274 58 L266 63" class="fg-line"/>
+<rect x="6" y="30" width="120" height="56" rx="6" class="fg-box"/>
+<rect x="140" y="30" width="120" height="56" rx="6" class="fg-box"/>
+<rect x="274" y="30" width="120" height="56" rx="6" class="fg-hot"/>
+<text x="66" y="54" text-anchor="middle" class="fg-text">Intención</text>
+<text x="66" y="74" text-anchor="middle" class="fg-label">de la búsqueda</text>
+<text x="200" y="54" text-anchor="middle" class="fg-text">Datos</text>
+<text x="200" y="74" text-anchor="middle" class="fg-label">más limpios</text>
+<text x="334" y="54" text-anchor="middle" class="fg-strong">Puntuación</text>
+<text x="334" y="74" text-anchor="middle" class="fg-label">más certera</text>
+</svg>
+<figcaption>Cuando la búsqueda ya atrae a compradores con la intención correcta, el sistema de cualificación trabaja con mejores datos desde la primera consulta.</figcaption>
+</figure>
 
 ### Datos propios de calidad
 
@@ -108,6 +147,22 @@ Sigue también las posiciones de tus rivales en las palabras clave con más inte
 Tus compradores ya piden recomendaciones de proveedores a ChatGPT o Perplexity además de buscar en Google, y la optimización para motores generativos (GEO) trabaja esa presencia. Los sistemas de cualificación seguirán esa misma evolución: medirán las visitas a tu web y también las menciones y el tono de tu marca en estas plataformas.
 
 Un sistema de cualificación bien configurado ya puede decirte si un lead llega desde una plataforma de IA, porque esas visitas aparecen como referencias de chatgpt.com o perplexity.ai en tu analítica. Es una señal útil: ese comprador ha leído una recomendación antes de escribirte.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Un lead nuevo puede llegar desde la búsqueda en Google o desde una plataforma de IA como ChatGPT o Perplexity; en el segundo caso, el comprador ya ha leído una recomendación antes de escribirte.">
+<path d="M150 75 L205 35" class="fg-dim"/>
+<path d="M150 75 L205 115" class="fg-accent"/>
+<rect x="10" y="55" width="140" height="40" rx="6" class="fg-box"/>
+<rect x="205" y="12" width="185" height="46" rx="6" class="fg-box"/>
+<rect x="205" y="92" width="185" height="46" rx="6" class="fg-hot"/>
+<text x="80" y="81" text-anchor="middle" class="fg-strong">Lead nuevo</text>
+<text x="297" y="32" text-anchor="middle" class="fg-text">Búsqueda</text>
+<text x="297" y="50" text-anchor="middle" class="fg-label">en Google</text>
+<text x="297" y="112" text-anchor="middle" class="fg-strong">Plataforma de IA</text>
+<text x="297" y="130" text-anchor="middle" class="fg-label">viene recomendado</text>
+</svg>
+<figcaption>Las visitas de chatgpt.com o perplexity.ai aparecen como referencias en tu analítica: ese comprador llega con una recomendación ya leída.</figcaption>
+</figure>
 
 ## Preguntas frecuentes
 

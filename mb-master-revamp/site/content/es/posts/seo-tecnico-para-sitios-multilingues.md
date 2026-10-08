@@ -73,6 +73,27 @@ Si tu sitio multilingüe apunta a varios países, una red de distribución de co
 
 Para geolocalizar, combina hreflang, la estructura de dominios y el contenido local, de modo que todas las señales apunten al mismo mercado.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Hreflang, la estructura de dominios y el contenido local apuntan con fuerza al mismo mercado; la ubicación del servidor aporta una señal menor.">
+<path d="M170 23 L276 68" class="fg-accent"/>
+<path d="M170 61 L274 76" class="fg-accent"/>
+<path d="M170 99 L274 84" class="fg-accent"/>
+<path d="M170 137 L276 92" class="fg-dim" stroke-dasharray="4 4"/>
+<rect x="10" y="8" width="160" height="30" rx="6" class="fg-box"/>
+<rect x="10" y="46" width="160" height="30" rx="6" class="fg-box"/>
+<rect x="10" y="84" width="160" height="30" rx="6" class="fg-box"/>
+<rect x="10" y="122" width="160" height="30" rx="6" class="fg-box"/>
+<circle cx="320" cy="80" r="46" class="fg-hot"/>
+<text x="90" y="28" text-anchor="middle" class="fg-text">Hreflang</text>
+<text x="90" y="66" text-anchor="middle" class="fg-text">Dominios</text>
+<text x="90" y="104" text-anchor="middle" class="fg-text">Contenido local</text>
+<text x="90" y="142" text-anchor="middle" class="fg-label">Servidor</text>
+<text x="320" y="76" text-anchor="middle" class="fg-strong">Mismo</text>
+<text x="320" y="96" text-anchor="middle" class="fg-strong">mercado</text>
+</svg>
+<figcaption>Hreflang, los dominios y el contenido local, juntos, le dicen a Google a qué mercado va cada versión. La ubicación del servidor suma poco a esa señal.</figcaption>
+</figure>
+
 ## Deja claro a Google qué versión va a cada mercado
 
 Textos parecidos en distintos idiomas o regiones (el francés de Francia y el de Bélgica, por ejemplo) pueden repartirse la fuerza de posicionamiento. Tu trabajo es dejarle claro a Google qué distingue a cada página.
@@ -88,6 +109,22 @@ Da a cada versión de idioma un canonical que apunte a sí misma, para que Googl
 La [posedición humana](/es/services/posedicion-de-ia/) devuelve a la traducción automática la naturalidad, el contexto y la intención del mensaje original. Google premia el contenido útil para quien lo lee, y un texto revisado por una persona lo es.
 
 Una buena [localización de páginas web](/es/services/traduccion-de-paginas-web/) adapta el contenido al idioma, la cultura y las expectativas de cada mercado. Traduce también los títulos y descripciones meta, los slugs de las URL, el texto alternativo y los datos estructurados cuando tenga sentido.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 120" role="img" aria-label="Tres pasos para el contenido de cada mercado: traducción automática, posedición humana y localización al idioma, la cultura y las expectativas del mercado.">
+<line x1="70" y1="34" x2="330" y2="34" class="fg-rule"/>
+<circle cx="70" cy="34" r="26" class="fg-box"/>
+<circle cx="200" cy="34" r="26" class="fg-box"/>
+<circle cx="330" cy="34" r="26" class="fg-hot"/>
+<text x="70" y="40" text-anchor="middle" class="fg-strong">1</text>
+<text x="200" y="40" text-anchor="middle" class="fg-strong">2</text>
+<text x="330" y="40" text-anchor="middle" class="fg-strong">3</text>
+<text x="70" y="96" text-anchor="middle" class="fg-text">Automática</text>
+<text x="200" y="96" text-anchor="middle" class="fg-text">Posedición</text>
+<text x="330" y="96" text-anchor="middle" class="fg-text">Localización</text>
+</svg>
+<figcaption>La posedición devuelve la naturalidad al texto automático, y la localización lo adapta a cada mercado, con títulos, slugs y texto alternativo incluidos.</figcaption>
+</figure>
 
 Para producción real, trabaja con [traductores profesionales](/es/services/traduccion-profesional/) o especialistas SEO nativos: cuidan la precisión y la voz de tu marca e integran la [investigación de palabras clave](/es/services/seo-tecnico/) local.
 
@@ -110,6 +147,26 @@ La estructura de dominios decide cuánto trabajo cuesta posicionar cada mercado.
 ### Una estructura coherente
 
 Mantén una sola estructura en todo el sitio y haz que sea fácil de recorrer, tanto para los usuarios como para los buscadores. Usa el mismo modelo para todos los idiomas (todo ccTLD o todo subdirectorios, por ejemplo): la coherencia envía señales geográficas limpias a Google.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Una sola estructura para todos los idiomas: subdirectorios en el mismo dominio, /fr/ para el francés, /de/ para el alemán y /es/ para el español.">
+<path d="M200 50 L70 102" class="fg-line"/>
+<path d="M200 50 L200 102" class="fg-line"/>
+<path d="M200 50 L330 102" class="fg-line"/>
+<rect x="120" y="10" width="160" height="40" rx="6" class="fg-hot"/>
+<rect x="15" y="102" width="110" height="46" rx="6" class="fg-box"/>
+<rect x="145" y="102" width="110" height="46" rx="6" class="fg-box"/>
+<rect x="275" y="102" width="110" height="46" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-strong">Subdirectorios</text>
+<text x="70" y="122" text-anchor="middle" class="fg-text">/fr/</text>
+<text x="70" y="140" text-anchor="middle" class="fg-label">francés</text>
+<text x="200" y="122" text-anchor="middle" class="fg-text">/de/</text>
+<text x="200" y="140" text-anchor="middle" class="fg-label">alemán</text>
+<text x="330" y="122" text-anchor="middle" class="fg-text">/es/</text>
+<text x="330" y="140" text-anchor="middle" class="fg-label">español</text>
+</svg>
+<figcaption>El mismo modelo en todos los idiomas envía a Google señales geográficas limpias y hace el sitio fácil de recorrer.</figcaption>
+</figure>
 
 ## Localiza títulos y descripciones para cada idioma
 
