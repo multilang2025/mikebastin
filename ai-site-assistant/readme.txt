@@ -3,7 +3,7 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
-Stable tag: 2.6.0
+Stable tag: 2.7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -157,6 +157,8 @@ Tips:
   gate on more precisely.
 
 == Changelog ==
+= 2.7.0 =
+* wp_cli_get/wp_cli_set now support category_base and tag_base (previously read/write-locked), and wp_cli_set automatically calls flush_rewrite_rules() whenever permalink_structure, category_base, or tag_base change -- fixes a class of "post publishes fine but the URL 404s" bugs caused by a rewrite-affecting option being written without WordPress regenerating its compiled rewrite rules (core only does that regeneration itself when the change is submitted through wp-admin's Settings -> Permalinks screen).
 = 2.6.0 =
 * Added get_elementor_data, replace_in_elementor, set_elementor_data: AISA can now read and edit Elementor page layouts directly via the _elementor_data postmeta JSON, instead of only warning that an edit to post_content won't show up live. replace_in_elementor is a targeted find/replace with the same match-exactly-once safety model as replace_in_post; set_elementor_data overwrites the whole element tree for structural changes. Both purge Elementor's CSS/element cache afterward so the change renders immediately.
 * Expanded set_seo/get_seo with pillar_content (cornerstone flag), robots_noindex, and primary_category (Rank Math only) -- fields the AI previously couldn't read or set, which left SEO configuration incomplete and pushed users back into wp-admin to finish it manually. Documented that the visible Rank Math/Yoast SEO score bar is computed client-side and can't be read or written via meta.
