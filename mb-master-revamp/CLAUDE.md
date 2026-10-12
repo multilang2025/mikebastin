@@ -837,7 +837,11 @@ opens. Flagged rather than forgotten, so they are known and deliberate:
   and `lib/case-studies-locale.ts` (the rest), paired through
   `lib/fr-pages-data.ts` / `lib/es-pages-data.ts`, so hreflang, the
   switcher and both sitemaps follow. A new project needs its FR and ES copy
-  in both files. `/results/` and the competitor checklist are still EN only.
+  in both files. The results page (`/fr/resultats/`, `/es/resultados/`,
+  `components/ResultsView.tsx`) and the competitor checklist
+  (`/fr/checklist-analyse-concurrentielle/`,
+  `/es/checklist-analisis-de-competencia/`, copy in `lib/checklist-copy.ts`)
+  followed the same day, so every English page now has a FR and ES sibling.
 - **The FR and ES motto renderings are unreviewed.** They ship in
   `SiteFooter`'s string table and are a first pass, not signed off.
 - **FR and ES headings are reported, not failed, by the heading lint.**

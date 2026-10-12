@@ -31,6 +31,8 @@ export const FR_PAGES: LocalePage[] = [
   { path: "/fr/blog/", en: "/blog/", label: "Articles", route: "app/fr/blog/page.tsx", nav: true },
   { path: "/fr/notre-equipe/", en: "/about-us/", label: "À propos", route: "app/fr/notre-equipe/page.tsx", nav: true },
   { path: "/fr/nous-contacter/", en: "/contact/", label: "Contact", route: "app/fr/nous-contacter/page.tsx", nav: true },
+  { path: "/fr/resultats/", en: "/results/", label: "Résultats", route: "app/fr/resultats/page.tsx" },
+  { path: "/fr/checklist-analyse-concurrentielle/", en: "/competitor-analysis-traffic-checklist/", label: "Checklist d’analyse concurrentielle", route: "app/fr/checklist-analyse-concurrentielle/page.tsx" },
   { path: "/fr/tarifs/", en: "/how-i-work/", label: "Tarifs", route: "app/fr/tarifs/page.tsx" },
   { path: "/fr/confidentialite/", en: "/privacy/", label: "Confidentialité et cookies", route: "app/fr/confidentialite/page.tsx" },
   // Case studies, one per client, paired with /projects/<slug>/ (12 Oct 2026).

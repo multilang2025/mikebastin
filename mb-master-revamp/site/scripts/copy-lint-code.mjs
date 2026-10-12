@@ -197,7 +197,10 @@ for (const path of files) {
     for (const w of US_SPELLINGS) {
       if (new RegExp(`\\b${w}\\b`, "i").test(line)) issues.push([`US spelling: ${w.split("(")[0]}`, line]);
     }
-    if (/\b(I|my|me|mine|myself)\b/.test(line)) issues.push(["first-person singular", line]);
+    // Letter-aware edges rather than \b, which reads the "ê" in "même" or the
+    // "è" in "deuxième" as a boundary and so found "me" inside French words
+    // in the shared copy files (lib/checklist-copy.ts, lib/case-studies-locale.ts).
+    if (/(?<![\p{L}\p{N}])(I|my|me|mine|myself)(?![\p{L}\p{N}])/u.test(line)) issues.push(["first-person singular", line]);
     if (/^(This|That)\s/.test(line)) issues.push(["This or That opener", line]);
   }
   if (issues.length) {

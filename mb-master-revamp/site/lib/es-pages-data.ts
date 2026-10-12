@@ -18,6 +18,8 @@ export const ES_PAGES: LocalePage[] = [
   { path: "/es/blog/", en: "/blog/", label: "Artículos", route: "app/es/blog/page.tsx", nav: true },
   { path: "/es/conocenos-agencia-experta-en-seo/", en: "/about-us/", label: "Quiénes somos", route: "app/es/conocenos-agencia-experta-en-seo/page.tsx", nav: true },
   { path: "/es/contactanos/", en: "/contact/", label: "Contacto", route: "app/es/contactanos/page.tsx", nav: true },
+  { path: "/es/resultados/", en: "/results/", label: "Resultados", route: "app/es/resultados/page.tsx" },
+  { path: "/es/checklist-analisis-de-competencia/", en: "/competitor-analysis-traffic-checklist/", label: "Checklist de análisis de competencia", route: "app/es/checklist-analisis-de-competencia/page.tsx" },
   { path: "/es/precios/", en: "/how-i-work/", label: "Precios", route: "app/es/precios/page.tsx" },
   { path: "/es/privacidad/", en: "/privacy/", label: "Privacidad y cookies", route: "app/es/privacidad/page.tsx" },
   // Case studies, one per client, paired with /projects/<slug>/ (12 Oct 2026).
