@@ -163,6 +163,7 @@ export function getSiteUrls(): UrlEntry[] {
       kind: "page",
       section: "Work",
       label: pr.name,
+      languages: enLanguages(`/projects/${pr.slug}/`),
     });
   }
 

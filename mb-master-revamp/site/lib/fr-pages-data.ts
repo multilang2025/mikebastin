@@ -7,6 +7,8 @@
  * page on 8 Oct 2026 (it had redirected to /how-i-work/, which pairs with
  * `/fr/tarifs/`).
  */
+import { CASE_STUDIES, caseStudyPath } from "@/lib/case-studies";
+
 export type LocalePage = {
   /** This locale's URL path, leading and trailing slash. */
   path: string;
@@ -31,4 +33,6 @@ export const FR_PAGES: LocalePage[] = [
   { path: "/fr/nous-contacter/", en: "/contact/", label: "Contact", route: "app/fr/nous-contacter/page.tsx", nav: true },
   { path: "/fr/tarifs/", en: "/how-i-work/", label: "Tarifs", route: "app/fr/tarifs/page.tsx" },
   { path: "/fr/confidentialite/", en: "/privacy/", label: "Confidentialité et cookies", route: "app/fr/confidentialite/page.tsx" },
+  // Case studies, one per client, paired with /projects/<slug>/ (12 Oct 2026).
+  ...CASE_STUDIES.map((c) => ({ path: caseStudyPath("fr", c.slug), en: caseStudyPath("en", c.slug), label: `${c.name}, étude de cas`, route: "app/fr/etudes-de-cas/[slug]/page.tsx" })),
 ];

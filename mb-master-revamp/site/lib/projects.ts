@@ -129,7 +129,7 @@ export const PROJECTS: Project[] = [
     problem:
       "A translation agency selling into nine markets needs nine SEO campaigns, each one built for its own market. The country domains (.com, .us, .ca, .co.uk, .be, .fr, .es, .de, .nl) each carry their own competitors, their own search habits and their own trust signals, so each one is run as a site of its own, built to hold its ground against local competitors.",
     work:
-   "Founded the agency and has run it for twenty years, Each regional TLD gets its own technical SEO treatment: separate sitemaps, separate hreflang groups, and separate keyword research per market, built from that market's own searches.",
+   "Founded the agency and has run it for twenty years. Each regional TLD gets its own technical SEO treatment: separate sitemaps, separate hreflang groups, and separate keyword research per market, built from that market's own searches.",
     outcome:
    "Nine country sites, each ranking on its own market's terms, under an agency still trading after two decades.",
     services: ["Multi-TLD SEO", "Multilingual content", "Nine country markets", "Founder"],
@@ -162,7 +162,7 @@ export const PROJECTS: Project[] = [
     problem:
       "Small businesses that need custom software want a fixed scope, a price they can plan around and a tool that fits their operations exactly. A business running in more than one language from day one needs that tool to be multilingual from the start as well.",
     work:
-   "AI-assisted development with a fixed scope and a fixed price, delivered in weeks, multilingual from the first commit. Built on Next.js with Payload CMS, the stack is Next.js with Payload CMS.",
+   "AI-assisted development with a fixed scope and a fixed price, delivered in weeks, multilingual from the first commit, built on Next.js with Payload CMS.",
     outcome:
       "A shipment tracking portal for TX International Freight that took manual status chasing out of the week, an internal reconciliation platform for the team's weekly reconciliation, and the multilingual site and tracking system running Century 21 Perdomo's real estate listings.",
     services: ["Custom AI software", "Multilingual from build", "Fixed scope, fixed price"],
