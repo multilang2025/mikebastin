@@ -221,6 +221,17 @@ needs.
   fails on a URL that 404s, a redirect whose target is redirected again,
   and a rule pointing at a page that is not built.
   Never 404 on launch.
+- **Every new page goes into the sitemaps in the same change** (owner, 12 Oct
+  2026, a hard rule: "update html sitemaps as we add new content"). The XML
+  sitemaps and the HTML sitemap at `/sitemap/` both read `lib/site-urls.ts`,
+  so posts, services, projects, topics and the FR/ES pages listed in
+  `lib/fr-pages-data.ts` / `lib/es-pages-data.ts` arrive by existing. A
+  hand-built English route does not: add it to `STATIC` in
+  `lib/site-urls.ts` (`/about-us/` shipped on 8 Oct without it). `npm run
+  lint:sitemap` (`scripts/sitemap-coverage-lint.mjs`, in `verify`) fails the
+  build when a built, indexable page is missing from either sitemap, or a
+  sitemap lists a page that is not built. Only a page with its own noindex
+  (404, the post-submit contact pages) is exempt.
 - **No dates in URLs**, in any locale (owner, 2 Oct 2026, a hard rule). A
   year in a slug ages the page and costs a redirect to fix. `npm run
   lint:urls` fails the build on any published URL carrying a year. A page
