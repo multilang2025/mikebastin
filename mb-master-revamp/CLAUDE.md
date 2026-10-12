@@ -258,7 +258,8 @@ the "we" rule above, for the P2 pass; services stay "we".
 **The French and Spanish homepages follow the English design and wording** (owner,
 7 Oct 2026: "replicate the English design and wording on FR and ES, no erase what's
 bespoke"). Hero, evidence, what we do with the three steps, Why it works with the
-market diagram, reviews, BASTIN and the credibility strip are shared in structure; the
+market diagram, reviews and the credibility strip are shared in structure (BASTIN moved
+to the About pages in all three languages on 8 Oct 2026, owner: "it fits better there"); the
 FR markets and the five-step list, and the ES Valencia markets and graphic, stay as the
 bespoke sections. The shared FR and ES sections are `components/HomeWhy.tsx` and
 `components/HomeBastin.tsx`; a new section on the English page needs its FR and ES
