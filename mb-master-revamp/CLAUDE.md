@@ -830,6 +830,14 @@ opens. Flagged rather than forgotten, so they are known and deliberate:
   groups each journal's posts (FR: `/fr/blog/sujets/`, two topics; ES:
   `/es/blog/temas/`, four), with no hreflang since each locale groups its
   own posts. `/blog/topics/` stays the English set.
+- **The eight case studies are in all three languages** (owner, 12 Oct
+  2026: "translate the case studies"): `/projects/<slug>/`,
+  `/fr/etudes-de-cas/<slug>/` and `/es/casos-de-exito/<slug>/`, one view
+  (`components/CaseStudyView.tsx`), copy in `lib/projects-locale.ts` (hero)
+  and `lib/case-studies-locale.ts` (the rest), paired through
+  `lib/fr-pages-data.ts` / `lib/es-pages-data.ts`, so hreflang, the
+  switcher and both sitemaps follow. A new project needs its FR and ES copy
+  in both files. `/results/` and the competitor checklist are still EN only.
 - **The FR and ES motto renderings are unreviewed.** They ship in
   `SiteFooter`'s string table and are a first pass, not signed off.
 - **FR and ES headings are reported, not failed, by the heading lint.**

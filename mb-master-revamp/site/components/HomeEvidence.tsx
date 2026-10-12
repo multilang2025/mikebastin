@@ -4,6 +4,7 @@ import Reveal from "@/components/Reveal";
 import { PROJECTS, SHOT_VERSION } from "@/lib/projects";
 import { PROJECTS_ES, PROJECTS_FR } from "@/lib/projects-locale";
 import { CASE_SLUGS } from "@/lib/home-evidence";
+import { caseStudyPath } from "@/lib/case-studies";
 import { BT_SITES } from "@/lib/betranslated-sites";
 import { LEADS_HIGH, LEADS_LOW, MILLIONS, SITE_COUNT, TOTAL_CLICKS } from "@/lib/results-totals";
 
@@ -18,6 +19,7 @@ const T = {
     range: "to",
     source: "Totals across the sites we run search for, May to July 2026: enquiries are counted from each site’s form records, or given by the site owner where they also arrive by phone and email; clicks and impressions come from Google Search Console.",
     all: { href: "/results/", label: "See the results across our client sites" },
+    read: "Read the case study",
     sitesEyebrow: "BeTranslated country sites",
     sitesHeading: "BeTranslated, in every market it serves.",
     sitesLede: "Nine country sites, each written for its own market and language.",
@@ -33,6 +35,7 @@ const T = {
     range: "à",
     source: "Totaux sur les sites dont nous gérons le référencement, de mai à juillet 2026\u00a0: les demandes sont comptées d’après les formulaires de chaque site, ou données par son propriétaire quand elles arrivent aussi par téléphone et par e-mail\u00a0; les clics et les impressions viennent de Google Search Console.",
     all: null,
+    read: "Lire l’étude de cas",
     sitesEyebrow: "Sites nationaux de BeTranslated",
     sitesHeading: "BeTranslated, dans chaque marché où l’agence travaille.",
     sitesLede: "Neuf sites pays, chacun écrit pour son marché et sa langue.",
@@ -48,6 +51,7 @@ const T = {
     range: "a",
     source: "Totales de las webs cuyo posicionamiento llevamos, de mayo a julio de 2026: las consultas se cuentan a partir de los formularios de cada web, o las da su propietario cuando también llegan por teléfono y correo; los clics y las impresiones vienen de Google Search Console.",
     all: null,
+    read: "Leer el caso de éxito",
     sitesEyebrow: "Sitios nacionales de BeTranslated",
     sitesHeading: "BeTranslated, en cada mercado donde trabaja la agencia.",
     sitesLede: "Nueve sitios nacionales, cada uno escrito para su mercado y su idioma.",
@@ -134,13 +138,9 @@ export default function HomeEvidence({ locale = "en", band = "b" }: { locale?: "
                   <div className="flex flex-1 flex-col p-5 sm:p-6">
                     <p className="eyebrow mb-2">{localized?.angle ?? p.angle}</p>
                     <h3 className="mb-3 text-[1.25rem] font-semibold leading-[1.15]" style={{ color: "var(--berry)" }}>
-                      {localized ? (
-                        p.name
-                      ) : (
-                        <Link href={`/projects/${p.slug}/`} className="transition-colors hover:opacity-75">
-                          {p.name}
-                        </Link>
-                      )}
+                      <Link href={caseStudyPath(locale, p.slug)} className="transition-colors hover:opacity-75">
+                        {p.name}
+                      </Link>
                     </h3>
                     <p className="mb-5 text-[.88rem] leading-[1.55]" style={{ color: "var(--dim)" }}>
                       {localized?.body ?? p.body}
@@ -157,11 +157,9 @@ export default function HomeEvidence({ locale = "en", band = "b" }: { locale?: "
                         </div>
                       ))}
                     </dl>
-                    {!localized && (
-                      <Link href={`/projects/${p.slug}/`} className="ulink mt-4 inline-block text-[.85rem] font-medium" style={{ color: "var(--berry)" }}>
-                        Read the case study
-                      </Link>
-                    )}
+                    <Link href={caseStudyPath(locale, p.slug)} className="ulink mt-4 inline-block text-[.85rem] font-medium" style={{ color: "var(--berry)" }}>
+                      {t.read}
+                    </Link>
                   </div>
                 </article>
               </Reveal>

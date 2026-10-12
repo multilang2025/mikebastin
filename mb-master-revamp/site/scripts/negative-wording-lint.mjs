@@ -45,6 +45,9 @@ const GLUE = {
   es: /\bno solo\b|\bno sólo\b/gi,
 };
 
+/** Client names that contain a negative stem ("perd" in Perdomo). Removed before matching. */
+const BRANDS = /perdomo/gi;
+
 const allowPath = join(SITE, "scripts/negative-wording-allow.json");
 const ALLOW = new Set(
   existsSync(allowPath) ? JSON.parse(readFileSync(allowPath, "utf8")).map((a) => a.text) : []
@@ -87,7 +90,7 @@ const sentences = (t) => t.split(/(?<=[.!?])\s+/).map((s) => s.trim()).filter(Bo
 
 function negated(locale, text) {
   if (ALLOW.has(text)) return null;
-  const m = text.replace(GLUE[locale], " ").match(NEG[locale]);
+  const m = text.replace(BRANDS, " ").replace(GLUE[locale], " ").match(NEG[locale]);
   return m ? m[0] : null;
 }
 

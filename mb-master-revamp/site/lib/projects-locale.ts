@@ -1,8 +1,9 @@
 /**
- * French and Spanish copy for the portfolio spreads on the FR and ES
- * homepages. Facts are the English ones in lib/projects.ts, said for a
- * French- or Spanish-speaking reader; the case study pages stay English, so
- * these spreads do not link to them. Draft for the owner's review.
+ * French and Spanish copy for the portfolio cards on the FR and ES
+ * homepages and the hero of each FR and ES case study page (the rest of the
+ * page is in lib/case-studies-locale.ts). Facts are the English ones in
+ * lib/projects.ts, said for a French- or Spanish-speaking reader. Draft for
+ * the owner's review.
  */
 export type ProjectCopy = {
   angle: string;
@@ -105,7 +106,7 @@ export const PROJECTS_ES: Record<string, ProjectCopy> = {
     services: ["SEO multidominio", "Contenido multilingüe", "Nueve mercados nacionales"],
     metrics: [
       { v: "9", k: "Dominios nacionales" },
-      { v: "20 años", k: "De actividad" },
+      { v: `20${N}años`, k: "De actividad" },
     ],
     alt: "La web de BeTranslated en ordenador y en móvil",
   },
