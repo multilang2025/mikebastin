@@ -24,8 +24,8 @@ const HERO_TITLE = "Global SEO services and localization, Mike Bastin";
 
 const MARKET_LINKS = [
   { name: "France", slug: "french-seo" },
-  { name: "Germany", slug: "german-seo" },
   { name: "Spain", slug: "spanish-seo" },
+  { name: "Germany", slug: "german-seo" },
   { name: "the Netherlands", slug: "dutch-seo" },
   { name: "Italy", slug: "italian-seo" },
   { name: "Portugal", slug: "portuguese-seo" },
@@ -35,8 +35,8 @@ const FEATURED_SEARCH_SERVICES = [
   "multilingual-seo",
   "french-seo",
   "spanish-seo",
-  "dutch-seo",
   "german-seo",
+  "dutch-seo",
   "local-seo",
 ];
 
