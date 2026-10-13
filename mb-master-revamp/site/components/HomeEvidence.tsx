@@ -22,7 +22,7 @@ const T = {
     read: "Read the case study",
     sitesEyebrow: "BeTranslated country sites",
     sitesHeading: "BeTranslated, in every market it serves.",
-    sitesLede: "Nine country sites, each written for its own market and language.",
+    sitesLede: "Ten country sites, each written for its own market and language.",
     siteAlt: (market: string, domain: string) => `The BeTranslated site for ${market}, ${domain}, on desktop and mobile`,
   },
   fr: {
@@ -38,7 +38,7 @@ const T = {
     read: "Lire l’étude de cas",
     sitesEyebrow: "Sites nationaux de BeTranslated",
     sitesHeading: "BeTranslated, dans chaque marché où l’agence travaille.",
-    sitesLede: "Neuf sites pays, chacun écrit pour son marché et sa langue.",
+    sitesLede: "Dix sites pays, chacun écrit pour son marché et sa langue.",
     siteAlt: (market: string, domain: string) => `Le site BeTranslated pour ${market}, ${domain}, sur ordinateur et sur mobile`,
   },
   es: {
@@ -54,7 +54,7 @@ const T = {
     read: "Leer el caso de éxito",
     sitesEyebrow: "Sitios nacionales de BeTranslated",
     sitesHeading: "BeTranslated, en cada mercado donde trabaja la agencia.",
-    sitesLede: "Nueve sitios nacionales, cada uno escrito para su mercado y su idioma.",
+    sitesLede: "Diez sitios nacionales, cada uno escrito para su mercado y su idioma.",
     siteAlt: (market: string, domain: string) => `El sitio de BeTranslated para ${market}, ${domain}, en ordenador y en móvil`,
   },
 } as const;
@@ -173,7 +173,7 @@ export default function HomeEvidence({ locale = "en", band = "b" }: { locale?: "
             {t.sitesLede}
           </p>
         </Reveal>
-        <ul className="grid grid-cols-1 gap-4 min-[360px]:grid-cols-2 sm:grid-cols-3">
+        <ul className="grid grid-cols-1 gap-4 min-[360px]:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
           {BT_SITES.map((s, i) => {
             const domain = `betranslated.${s.tld}`;
             // The country sites are linked and shown with www. (owner, 8 Oct
