@@ -160,7 +160,7 @@ export default function ServicesIndex() {
             <p className="mb-8 max-w-[58ch] text-[clamp(1.05rem,1.5vw,1.2rem)] leading-[1.58]" style={{ color: "var(--dim)" }}>
               A global SEO company for businesses already selling abroad. Every
               engagement starts with a free consultation and runs month to
-              month.
+              month, and a longer contract gives the work time to compound.
             </p>
           </Reveal>
           <Reveal i={4}>
