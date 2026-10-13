@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import Reveal from "@/components/Reveal";
-import { PROJECTS, SHOT_VERSION } from "@/lib/projects";
+import { PROJECTS } from "@/lib/projects";
 import { PROJECTS_ES, PROJECTS_FR } from "@/lib/projects-locale";
 import { CASE_SLUGS } from "@/lib/home-evidence";
 import { caseStudyPath } from "@/lib/case-studies";
@@ -190,7 +190,7 @@ export default function HomeEvidence({ locale = "en", band = "b" }: { locale?: "
                     style={{ borderColor: "var(--rule)", background: "var(--shade)" }}
                   >
                     <Image
-                      src={`/work/${s.image}-800.webp?v=${SHOT_VERSION}`}
+                      src={`/work/${s.image}-800.webp`}
                       width={800}
                       height={640}
                       alt={t.siteAlt(s.market[locale], domain)}
