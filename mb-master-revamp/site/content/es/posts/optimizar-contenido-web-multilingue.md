@@ -1,7 +1,7 @@
 ---
 words: 1286
-title: "El papel de la localización en la optimización de contenido web multilingüe"
-metaTitle: "Optimización de contenido web multilingüe con localización"
+title: "Contenido web multilingüe que suena local en cada mercado"
+metaTitle: "Contenido web multilingüe que suena local"
 slug: "optimizar-contenido-web-multilingue"
 locale: "es"
 type: "posts"
@@ -15,7 +15,7 @@ excerpt: "Optimiza tu contenido web multilingüe con localización: páginas tra
 
 ![El papel de la localización en el contenido web multilingüe](/images/legacy/2024/10/optimising-multilingual-website-content-1024x366.webp)
 
-## Cómo optimizar tu contenido web multilingüe para cada mercado
+## Haz que cada versión de tu web rinda como la española
 
 Tu web ya vende en español, y las versiones para Francia, Bélgica, Países Bajos o Alemania reciben visitas. El objetivo es que rindan igual: que un comprador de París, de Ámsterdam o de Múnich las encuentre precisas, familiares y dignas de una consulta.
 
@@ -38,17 +38,37 @@ La diferencia decide si un mercado lee tu web como local. La traducción convier
 
 Un diseño localizado muestra a un usuario francés los colores y la disposición de formularios que le resultan familiares, y a un usuario neerlandés las llamadas a la acción propias de su mercado. El proceso se apoya en memorias de traducción, una estrategia de idiomas clara y la [transcreación de traductores profesionales](/es/services/traduccion-profesional/), de modo que el mensaje llega y la identidad de marca se mantiene.
 
-## Localización y SEO multilingüe
+## Escribe para las personas y para los buscadores a la vez
 
 Una página localizada rinde cuando los compradores la encuentran, así que tu web tiene que estar pensada para las personas y para los buscadores a la vez. El [SEO técnico y on-page](/es/services/seo-tecnico/) aplicado a todas las versiones mejora la visibilidad en los resultados locales.
 
 Las etiquetas hreflang, una estructura de URL clara por idioma y los datos estructurados indican a los buscadores qué versión mostrar a cada usuario. Combinados con el [SEO multilingüe](/es/services/posicionamiento-multilingue/), mejoran tus posiciones en Francia, el Benelux, Alemania y el resto de Europa.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Las etiquetas hreflang indican a los buscadores qué versión mostrar a cada usuario: la página en español, en francés o en alemán.">
+<path d="M200 50 L70 102" class="fg-line"/>
+<path d="M200 50 L200 102" class="fg-line"/>
+<path d="M200 50 L330 102" class="fg-line"/>
+<rect x="135" y="10" width="130" height="40" rx="6" class="fg-hot"/>
+<rect x="15" y="102" width="110" height="46" rx="6" class="fg-box"/>
+<rect x="145" y="102" width="110" height="46" rx="6" class="fg-box"/>
+<rect x="275" y="102" width="110" height="46" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-strong">Hreflang</text>
+<text x="70" y="122" text-anchor="middle" class="fg-text">Español</text>
+<text x="70" y="140" text-anchor="middle" class="fg-label">es</text>
+<text x="200" y="122" text-anchor="middle" class="fg-text">Francés</text>
+<text x="200" y="140" text-anchor="middle" class="fg-label">fr</text>
+<text x="330" y="122" text-anchor="middle" class="fg-text">Alemán</text>
+<text x="330" y="140" text-anchor="middle" class="fg-label">de</text>
+</svg>
+<figcaption>Una página, tres versiones de idioma. Las etiquetas hreflang llevan a cada persona a la versión escrita en su idioma.</figcaption>
+</figure>
+
 <aside class="post-cta">
 <p><strong>¿Quieres que tus páginas traducidas posicionen en los mercados que compran?</strong> Nuestro <a href="/es/services/posicionamiento-multilingue/">posicionamiento multilingüe</a> da a cada idioma su propia estrategia y sus redactores nativos, para que cada mercado te envíe sus propias consultas. <a href="/es/contactanos/">Reserva una consulta gratuita</a>.</p>
 </aside>
 
-## IA y automatización en la localización
+## Usa la IA donde ahorra y a las personas donde deciden
 
 La IA reduce el coste de localizar cuando sabes en qué puntos intervienen las personas. Las herramientas de traducción con IA y la traducción automática neuronal ya se ocupan de las tareas repetitivas y aceleran los flujos de trabajo.
 
@@ -75,13 +95,28 @@ Las empresas que sacan más valor trabajan con flujos híbridos: la máquina pro
 <figcaption>La máquina aporta velocidad en las tareas repetitivas, y la persona nativa responde del tono y del contexto cultural antes de publicar.</figcaption>
 </figure>
 
-## Base técnica: CMS e internacionalización
+## Prepara el CMS para el próximo mercado
 
 Una buena base convierte tu próximo mercado en una tarea de contenido. La mayoría de las webs multilingües funcionan sobre WordPress u otro CMS multilingüe, donde plugins como WPML, Polylang o TranslatePress, junto con WooCommerce para las tiendas, facilitan la gestión de las variantes de idioma y permiten actualizar cada región con fluidez. Puedes ver todo lo que cubrimos en [nuestros servicios](/es/services/).
 
 La internacionalización (i18n) y la localización (l10n) forman parte de la arquitectura desde el principio. Un proceso de [internacionalización de software](/es/services/localizacion-de-aplicaciones/) asegura que cada componente, del gestor de contenidos a los formularios y las bases de datos, admita monedas, unidades y normativas locales.
 
-## Experiencia de usuario y pagos locales
+<figure class="post-fig">
+<svg viewBox="0 0 400 168" role="img" aria-label="Tres capas: una arquitectura i18n para monedas, unidades y normativas, un CMS multilingüe con sus plugins encima y, arriba, el próximo mercado convertido en una tarea de contenido.">
+<rect x="100" y="8" width="200" height="46" rx="6" class="fg-hot"/>
+<rect x="60" y="62" width="280" height="46" rx="6" class="fg-box"/>
+<rect x="20" y="116" width="360" height="46" rx="6" class="fg-box"/>
+<text x="200" y="28" text-anchor="middle" class="fg-text">Tarea de contenido</text>
+<text x="200" y="46" text-anchor="middle" class="fg-label">próximo mercado</text>
+<text x="200" y="82" text-anchor="middle" class="fg-text">CMS y plugins</text>
+<text x="200" y="100" text-anchor="middle" class="fg-label">WordPress, WooCommerce</text>
+<text x="200" y="136" text-anchor="middle" class="fg-text">Arquitectura i18n</text>
+<text x="200" y="154" text-anchor="middle" class="fg-label">monedas, unidades, normativas</text>
+</svg>
+<figcaption>Construye la base una vez: con la i18n en la arquitectura y un CMS multilingüe encima, cada mercado nuevo se convierte en una tarea de contenido.</figcaption>
+</figure>
+
+## Ofrece los pagos que usa cada mercado
 
 El pago es el punto donde la localización se convierte directamente en ingresos. El diseño localizado, de la maquetación a los iconos y los medios de pago, influye en la conversión en todos los mercados, y sobre todo en el último paso:
 
@@ -96,7 +131,23 @@ El pago es el punto donde la localización se convierte directamente en ingresos
 
 Ofrecer los métodos en los que confía cada mercado hace las transacciones más fluidas y sube la tasa de conversión.
 
-## Medir y mejorar
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Un mismo pago, localizado por mercado: Bizum para los compradores en España y Wero para los de Francia.">
+<path d="M150 75 L230 35" class="fg-line"/>
+<path d="M150 75 L230 115" class="fg-line"/>
+<rect x="20" y="55" width="130" height="40" rx="6" class="fg-hot"/>
+<rect x="230" y="12" width="150" height="46" rx="6" class="fg-box"/>
+<rect x="230" y="92" width="150" height="46" rx="6" class="fg-box"/>
+<text x="85" y="81" text-anchor="middle" class="fg-strong">Pago</text>
+<text x="305" y="32" text-anchor="middle" class="fg-text">España</text>
+<text x="305" y="50" text-anchor="middle" class="fg-label">Bizum</text>
+<text x="305" y="112" text-anchor="middle" class="fg-text">Francia</text>
+<text x="305" y="130" text-anchor="middle" class="fg-label">Wero</text>
+</svg>
+<figcaption>La cesta es la misma y el paso de pago cambia, así cada mercado encuentra el método en el que ya confía.</figcaption>
+</figure>
+
+## Mide cada idioma por separado
 
 Una cifra por idioma muestra cómo rinde cada mercado por separado, y te dice dónde invertir el mes siguiente. Revisa cada versión de idioma con regularidad en Google Search Console: los datos indican dónde afinar la investigación de palabras clave, ajustar los metadatos y mejorar el contenido de cada idioma.
 
@@ -106,7 +157,7 @@ El marcado schema y los datos estructurados ayudan a que los sitios multirregion
 <p><strong>¿Tu página en francés responde a la pregunta que se hace un comprador francés?</strong> Nuestro <a href="/es/services/redaccion-seo-multilingue/">contenido multilingüe</a> se investiga y se escribe para el mercado que lo lee. <a href="/es/contactanos/">Habla con nosotros sobre tu contenido</a>.</p>
 </aside>
 
-## La localización como estrategia de crecimiento
+## Trata la localización como una inversión en crecimiento
 
 Tratada como estrategia de crecimiento, la localización mejora la visibilidad, genera confianza y lleva más visitas hasta la compra, porque alinea tu presencia digital con lo que cada región espera.
 

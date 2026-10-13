@@ -13,13 +13,13 @@ sourceUrl: null
 excerpt: "GA4 ve menos de unos mercados y exagera otros. Qué datos de Google Analytics creer en tu marketing internacional, qué revisar y cómo decidir después."
 ---
 
-## Qué cuenta GA4 sobre tus mercados internacionales
+## Qué te dice GA4 sobre tus mercados internacionales
 
 Tu analítica dice que Alemania es tu segundo mercado, y tus consultas alemanas cuentan otra historia. Las dos cosas pueden ser ciertas, porque GA4 ve menos de tu tráfico internacional de lo que sugieren sus paneles, y ve menos todavía en los mercados donde las normas de privacidad son más estrictas.
 
 Lee esas cifras con cuidado y tu presupuesto irá a los mercados que venden. Aquí tienes qué te dice GA4 con fiabilidad sobre cada mercado, qué estima y cómo decidir adónde va el próximo presupuesto de localización.
 
-## El papel de Google Analytics en el marketing internacional
+## Encuentra la demanda antes de invertir
 
 Bien usados, los datos de Google Analytics muestran dónde existe demanda antes de que gastes dinero en perseguirla: cómo se comportan los usuarios de distintos países, idiomas y dispositivos, y dónde necesita trabajo el recorrido hasta la conversión. Apoyan la elección de mercados, las decisiones de localización y el reparto entre canales.
 
@@ -98,6 +98,23 @@ Un visitante que pasa de tus páginas en español a las francesas tiene que cont
 
 Mantén el cambio de idioma dentro del mismo usuario y la misma sesión, y tus datos de atribución e interacción seguirán siendo fiables. Acertar depende de una buena configuración de la analítica y de un sólido [SEO técnico para sitios multilingües](/es/seo-tecnico-para-sitios-multilingues/).
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 156" role="img" aria-label="Un visitante que pasa de las páginas en español a las francesas, seguido por GA4 como un solo usuario y una sola sesión, que cuenta una vez en su mercado.">
+<path d="M170 43 L230 43" class="fg-line"/>
+<path d="M220 35 L230 43 L220 51" class="fg-line"/>
+<path d="M20 84 L20 96 L380 96 L380 84" class="fg-accent"/>
+<rect x="20" y="20" width="150" height="46" rx="6" class="fg-box"/>
+<rect x="230" y="20" width="150" height="46" rx="6" class="fg-box"/>
+<text x="95" y="40" text-anchor="middle" class="fg-text">Español</text>
+<text x="95" y="58" text-anchor="middle" class="fg-label">páginas</text>
+<text x="305" y="40" text-anchor="middle" class="fg-text">Francés</text>
+<text x="305" y="58" text-anchor="middle" class="fg-label">páginas</text>
+<text x="200" y="124" text-anchor="middle" class="fg-strong">Un usuario, una sesión</text>
+<text x="200" y="146" text-anchor="middle" class="fg-label">cuenta una vez, en su mercado</text>
+</svg>
+<figcaption>Mantén el cambio de idioma dentro del mismo usuario y la misma sesión, y tus datos de atribución e interacción seguirán siendo fiables en cada mercado.</figcaption>
+</figure>
+
 ### Gestión de etiquetas del lado del servidor
 
 Google Tag Manager del lado del servidor recupera parte de los datos que filtran los navegadores, los bloqueadores de anuncios y las restricciones de consentimiento, y te da más control sobre el cumplimiento normativo. Para una empresa internacional se está convirtiendo en lo habitual.
@@ -106,7 +123,7 @@ Google Tag Manager del lado del servidor recupera parte de los datos que filtran
 
 Tus propios equipos, tus agencias y tus colaboradores de pruebas pueden convertirse en uno de tus «mercados» más activos. Excluye el tráfico interno en la configuración de la propiedad.
 
-## Evaluar el rendimiento del contenido en cada mercado
+## Mide cómo rinde tu contenido en cada mercado
 
 Cuando un mercado va por detrás, el instinto es mirar el SEO. Más a menudo, la respuesta está en ajustar el contenido a lo que espera el comprador de ese país.
 
@@ -122,23 +139,62 @@ Las dimensiones personalizadas te permiten comparar el idioma de la página, el 
 
 Compara cada mercado internacional con tu mercado de origen, España. Las grandes diferencias de conversión suelen venir de los medios de pago, la lógica de precios, las condiciones de entrega o las señales de confianza: un comprador neerlandés que busca iDEAL o un alemán que busca el Impressum. GA4 muestra dónde se produce la caída. La solución pasa por decisiones de negocio y de experiencia de usuario.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Una diferencia de conversión entre un mercado internacional y el de origen, con cuatro causas habituales: medios de pago, lógica de precios, entrega y señales de confianza.">
+<path d="M105 46 L105 58" class="fg-dim"/>
+<path d="M295 46 L295 58" class="fg-dim"/>
+<rect x="15" y="10" width="370" height="36" rx="6" class="fg-hot"/>
+<rect x="15" y="58" width="180" height="36" rx="6" class="fg-box"/>
+<rect x="205" y="58" width="180" height="36" rx="6" class="fg-box"/>
+<rect x="15" y="104" width="180" height="36" rx="6" class="fg-box"/>
+<rect x="205" y="104" width="180" height="36" rx="6" class="fg-box"/>
+<text x="200" y="34" text-anchor="middle" class="fg-strong">Diferencia con tu mercado de origen</text>
+<text x="105" y="82" text-anchor="middle" class="fg-text">Medios de pago</text>
+<text x="295" y="82" text-anchor="middle" class="fg-text">Lógica de precios</text>
+<text x="105" y="128" text-anchor="middle" class="fg-text">Entrega</text>
+<text x="295" y="128" text-anchor="middle" class="fg-text">Confianza</text>
+</svg>
+<figcaption>GA4 muestra dónde se produce la caída; la solución suele estar en una de estas cuatro decisiones de negocio.</figcaption>
+</figure>
+
 <aside class="post-cta">
 <p><strong>¿Quieres juzgar cada mercado por las consultas que abre?</strong> Con nuestra <a href="/es/services/generacion-de-leads/">generación de leads</a>, cada consulta se atribuye al mercado y al idioma que la trajeron y se sigue hasta tu CRM. <a href="/es/contactanos/">Reserva una consulta gratuita</a>.</p>
 </aside>
 
-## Los datos necesitan conocimiento del mercado
+## Completa los datos con conocimiento local
 
 La analítica muestra el comportamiento; el conocimiento local explica la motivación. La estacionalidad, los hábitos culturales, los límites de infraestructura y las expectativas locales influyen en el rendimiento, y quedan fuera de los paneles.
 
 Combina los datos de GA4 con conocimiento local, pruebas y opiniones de clientes. Antes de actuar sobre una métrica floja, comprueba cómo se comporta el sitio desde la región objetivo: lo que parece un problema de marketing es a menudo un problema de rendimiento regional o un fallo de localización.
 
-## Usos avanzados de GA4 para crecer fuera
+## Juzga cada mercado por su rentabilidad
 
 Con lo básico en orden, las preguntas ganan valor: qué mercado es rentable, además de activo.
 
 ### Integración con BigQuery
 
 La exportación de GA4 a BigQuery te permite combinar los datos de analítica con los del CRM, la logística y los costes, para juzgar cada mercado por su rentabilidad.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Los datos de GA4, del CRM, de la logística y de los costes combinados en BigQuery para juzgar cada mercado por su rentabilidad.">
+<path d="M160 23 L238 70" class="fg-line"/>
+<path d="M160 61 L238 76" class="fg-line"/>
+<path d="M160 99 L238 84" class="fg-line"/>
+<path d="M160 137 L238 90" class="fg-line"/>
+<rect x="10" y="8" width="150" height="30" rx="6" class="fg-box"/>
+<rect x="10" y="46" width="150" height="30" rx="6" class="fg-box"/>
+<rect x="10" y="84" width="150" height="30" rx="6" class="fg-box"/>
+<rect x="10" y="122" width="150" height="30" rx="6" class="fg-box"/>
+<rect x="238" y="52" width="150" height="56" rx="6" class="fg-hot"/>
+<text x="85" y="28" text-anchor="middle" class="fg-text">Datos de GA4</text>
+<text x="85" y="66" text-anchor="middle" class="fg-text">CRM</text>
+<text x="85" y="104" text-anchor="middle" class="fg-text">Logística</text>
+<text x="85" y="142" text-anchor="middle" class="fg-text">Costes</text>
+<text x="313" y="77" text-anchor="middle" class="fg-strong">Rentabilidad</text>
+<text x="313" y="97" text-anchor="middle" class="fg-label">por mercado</text>
+</svg>
+<figcaption>Combinados con el CRM, la logística y los costes, los datos de analítica muestran qué mercado es rentable, además de activo.</figcaption>
+</figure>
 
 ### Audiencias predictivas
 
@@ -148,7 +204,7 @@ Las audiencias predictivas de GA4 ayudan a identificar a los usuarios con más p
 
 En muchos mercados la venta se cierra en una llamada, una visita o un seguimiento posterior, fuera del alcance de un informe por clics. El Measurement Protocol lleva esas interacciones a GA4, para que cada mercado reciba el mérito de los negocios que cierra.
 
-## Leer la analítica con seguridad
+## Confía en las tendencias, cuestiona los absolutos
 
 Google Analytics es esencial en el marketing internacional, y rinde más acompañado del contexto local. Si te planteas cambiar de herramienta, compara antes las [alternativas a Google Analytics](/es/alternativas-a-google-analytics/).
 

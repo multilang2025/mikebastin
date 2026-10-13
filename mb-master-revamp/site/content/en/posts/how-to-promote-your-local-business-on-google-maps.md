@@ -12,7 +12,7 @@ sourceUrl: "https://mikebastin.com/how-to-promote-your-local-business-on-google-
 excerpt: "Nearby customers call one of the first three businesses on the map. How to promote your local business on Google Maps and be one of those three."
 ---
 
-## Getting your business into the Google Maps top three
+## Get your business into the Google Maps top three
 
 Somebody a few streets away searches for exactly what you sell and calls one of the three businesses Google Maps shows first. The aim is for yours to be one of them, so the phone rings as often as it could.
 
@@ -32,7 +32,7 @@ A verified profile is your place on the map. Your Maps listing comes from a Goog
 
 Once verified, your business appears on Google Maps. Our [local SEO service](/services/local-seo/) can handle the setup and verification for you.
 
-## Optimize your listing with complete, accurate profile details
+## Complete every field of your profile, accurately
 
 Upkeep wins here as much as the product does. A complete, accurate profile ranks better and earns more clicks.
 
@@ -53,14 +53,33 @@ When your address reads the same in every directory, Google trusts it. A citatio
 <p><strong>Want your details to match everywhere they appear?</strong> Our <a href="/services/local-seo/">local SEO service</a> makes your name, address and phone number identical across every directory. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
-## Encourage customer reviews
+## Ask for reviews, and reply to every one
 
 Reviews are the first thing a nearby customer reads before calling, and they count towards your ranking in local results.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 120" role="img" aria-label="Three steps for reviews: ask customers, the review is posted, then reply to every one.">
+<path d="M125 60 L138 60" class="fg-line"/>
+<path d="M133 55 L138 60 L133 65" class="fg-line"/>
+<path d="M260 60 L273 60" class="fg-line"/>
+<path d="M268 55 L273 60 L268 65" class="fg-line"/>
+<rect x="5" y="35" width="120" height="50" rx="6" class="fg-box"/>
+<rect x="140" y="35" width="120" height="50" rx="6" class="fg-box"/>
+<rect x="275" y="35" width="120" height="50" rx="6" class="fg-hot"/>
+<text x="65" y="57" text-anchor="middle" class="fg-strong">Ask</text>
+<text x="65" y="76" text-anchor="middle" class="fg-label">by email</text>
+<text x="200" y="57" text-anchor="middle" class="fg-strong">Review</text>
+<text x="200" y="76" text-anchor="middle" class="fg-label">posted</text>
+<text x="335" y="57" text-anchor="middle" class="fg-strong">Reply</text>
+<text x="335" y="76" text-anchor="middle" class="fg-label">to every one</text>
+</svg>
+<figcaption>Asking brings reviews in, and a reply to each one shows readers you value their feedback.</figcaption>
+</figure>
 
 - **Ask for reviews.** Invite satisfied customers in follow-up emails, on receipts or on social media.
 - **Respond to every review.** Replying to positive and negative reviews alike shows you value feedback and builds trust with people reading them.
 
-## Use Google posts
+## Post offers, news and events on your profile
 
 An active profile looks like an open business. A Business Profile lets you publish updates, offers and events directly on your listing, which appear when people find you on Search and Maps. Post about:
 
@@ -75,6 +94,23 @@ Short on ideas? Many of our [blog post ideas for small businesses](/blog/15-simp
 
 Google is adding its Gemini models to Maps, so people ask full questions in their own words, and the answers draw on your profile and your reviews. A complete profile and a steady flow of reviews now count twice.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 170" role="img" aria-label="A full question asked in Maps gets an answer that draws on two sources: your profile and your reviews.">
+<path d="M200 46 L200 66" class="fg-dim"/>
+<path d="M110 124 L170 106" class="fg-accent"/>
+<path d="M290 124 L230 106" class="fg-accent"/>
+<rect x="115" y="10" width="170" height="36" rx="6" class="fg-box"/>
+<rect x="120" y="66" width="160" height="40" rx="6" class="fg-hot"/>
+<rect x="30" y="124" width="160" height="36" rx="6" class="fg-box"/>
+<rect x="210" y="124" width="160" height="36" rx="6" class="fg-box"/>
+<text x="200" y="33" text-anchor="middle" class="fg-text">Full question</text>
+<text x="200" y="92" text-anchor="middle" class="fg-strong">Answer</text>
+<text x="110" y="147" text-anchor="middle" class="fg-text">Your profile</text>
+<text x="290" y="147" text-anchor="middle" class="fg-text">Your reviews</text>
+</svg>
+<figcaption>The answer rests on what your profile and your reviews say, so both now count twice.</figcaption>
+</figure>
+
 > "Ask Maps, a new conversational experience that answers complex, real-world questions a map could never answer before." Google began rolling it out in the US and India on 12 March 2026.
 > Source: [Google, "Ask Maps and Immersive Navigation", 12 March 2026](https://blog.google/products-and-platforms/products/maps/ask-maps-immersive-navigation/)
 
@@ -84,7 +120,7 @@ Keep your information accurate and specific, answer common questions in your des
 <p><strong>Does your city search in more than one language?</strong> Our <a href="/services/local-seo/">local SEO for multilingual cities</a> covers every language your customers search in, with a review routine and a reply to every review. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
-## Consider paid ads
+## Buy visibility on day one with paid ads
 
 Organic visibility builds over months; ads buy it on day one. Google Ads can put your business at the top of Maps and local results. Google has retired its old Local campaigns in favour of Performance Max for store goals:
 
@@ -104,7 +140,7 @@ Organic visibility builds over months; ads buy it on day one. Google Ads can put
 | Google posts | Free | Engagement on your listing |
 | Performance Max for store goals | Paid, you set the budget | Immediate visibility |
 
-## Track your results
+## Track the calls and visits your listing brings
 
 The numbers tell you which change brought the calls. The Performance report in your Business Profile shows:
 
@@ -114,7 +150,21 @@ The numbers tell you which change brought the calls. The Performance report in y
 
 Use the data to adjust your profile and posts. For tracking what happens once visitors reach your website, see our guide to [alternatives to Google Analytics](/blog/alternatives-to-google-analytics/).
 
-## The short version
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="The Performance report follows people from finding you on Search and Maps, through the terms they used, to calls, clicks and directions.">
+<path d="M200 50 L200 60" class="fg-dim"/>
+<path d="M200 100 L200 110" class="fg-dim"/>
+<rect x="20" y="10" width="360" height="40" rx="6" class="fg-box"/>
+<rect x="40" y="60" width="320" height="40" rx="6" class="fg-box"/>
+<rect x="55" y="110" width="290" height="40" rx="6" class="fg-hot"/>
+<text x="200" y="36" text-anchor="middle" class="fg-text">Found on Search and Maps</text>
+<text x="200" y="86" text-anchor="middle" class="fg-text">Search terms they used</text>
+<text x="200" y="136" text-anchor="middle" class="fg-strong">Calls, clicks, directions</text>
+</svg>
+<figcaption>The report links each change to what it brought, from the first search to the call.</figcaption>
+</figure>
+
+## Five inputs that build a top-three listing
 
 Promoting a local business on Google Maps comes down to a verified, complete profile, consistent citations, a steady flow of reviews and replies, regular posts, and paid ads when you need visibility fast.
 

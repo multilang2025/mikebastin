@@ -1,7 +1,7 @@
 ---
 words: 694
-title: "How user interface localization can transform your global reach"
-metaTitle: "How user interface localization grows your global reach"
+title: "User interface localization: a product that feels local in every market"
+metaTitle: "User interface localization for every market"
 slug: "user-interface-localisation-can-transform-your-global-reach"
 locale: "en"
 type: "posts"
@@ -19,11 +19,31 @@ Your product launched in a new market, the translation is fine, and the next ste
 
 User interface (UI) localization adapts the text, images, layout and behaviour to each market's language, culture and legal requirements. Below: what it involves, what it does for your business, and how to plan and test it so each new language fits the design you already have.
 
-## Why UI localization matters
+## Where users decide the product is for them
 
 For [businesses targeting global markets](/blog/global-business-trends/), the interface is where users decide whether the product is for them. A localized one reflects their language and conventions, so it is easier to use, and users credit the brand for it.
 
 Localization also covers date formats, currency fields and regulatory symbols, where getting it right protects the business.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="A localized interface brings three benefits: reach in new regions, easier key actions for conversion, and trust that builds loyalty.">
+<path d="M200 50 L67 102" class="fg-line"/>
+<path d="M200 50 L200 102" class="fg-line"/>
+<path d="M200 50 L333 102" class="fg-line"/>
+<rect x="125" y="10" width="150" height="40" rx="6" class="fg-hot"/>
+<rect x="4" y="102" width="126" height="46" rx="6" class="fg-box"/>
+<rect x="137" y="102" width="126" height="46" rx="6" class="fg-box"/>
+<rect x="270" y="102" width="126" height="46" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-strong">Localized UI</text>
+<text x="67" y="122" text-anchor="middle" class="fg-text">Reach</text>
+<text x="67" y="140" text-anchor="middle" class="fg-label">new regions</text>
+<text x="200" y="122" text-anchor="middle" class="fg-text">Conversion</text>
+<text x="200" y="140" text-anchor="middle" class="fg-label">key actions</text>
+<text x="333" y="122" text-anchor="middle" class="fg-text">Trust</text>
+<text x="333" y="140" text-anchor="middle" class="fg-label">loyalty</text>
+</svg>
+<figcaption>Reach, conversion and trust all start in the interface, where users decide whether the product is for them.</figcaption>
+</figure>
 
 The benefits come down to three things:
 
@@ -31,7 +51,7 @@ The benefits come down to three things:
 - **Conversion.** A familiar interface makes buying, signing up or completing any key action easier.
 - **Brand trust.** Adapting to users' language and culture shows respect, which builds loyalty.
 
-## Core elements of UI localization
+## The four layers to localize
 
 Knowing the four layers tells you where to look first. Successful [software and app localization](/services/app-and-software-localisation/) touches each of them:
 
@@ -62,9 +82,26 @@ Images and symbols need [culturally adapted content](/services/multilingual-cont
 <figcaption>Translation covers the top layer. The three beneath it decide whether a German label fits its button and a local address fits the form.</figcaption>
 </figure>
 
-## Best practices
+## Four habits that keep costs low
 
-Most of the cost is decided before the first string is translated. Four habits keep it low:
+Most of the cost is decided before the first string is translated. Four habits keep it low.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 120" role="img" aria-label="Three of the habits in order: plan localization into the design, have professionals translate the strings, then test with local users.">
+<path d="M125 60 L140 60" class="fg-line"/>
+<path d="M260 60 L275 60" class="fg-accent"/>
+<rect x="5" y="30" width="120" height="60" rx="6" class="fg-box"/>
+<rect x="140" y="30" width="120" height="60" rx="6" class="fg-box"/>
+<rect x="275" y="30" width="120" height="60" rx="6" class="fg-hot"/>
+<text x="65" y="56" text-anchor="middle" class="fg-strong">Plan</text>
+<text x="65" y="78" text-anchor="middle" class="fg-label">in the design</text>
+<text x="200" y="56" text-anchor="middle" class="fg-strong">Translate</text>
+<text x="200" y="78" text-anchor="middle" class="fg-label">professionals</text>
+<text x="335" y="56" text-anchor="middle" class="fg-strong">Test</text>
+<text x="335" y="78" text-anchor="middle" class="fg-label">local users</text>
+</svg>
+<figcaption>Planning from the start and testing with local users frame the translation, which keeps the cost of each new market low.</figcaption>
+</figure>
 
 - **Plan from the start.** Build localization into the design process, so layouts and functions can take any language as it comes.
 - **Use professional translators.** For interface strings, human translators convey the context, tone and meaning each string needs.
@@ -83,9 +120,25 @@ The right tools keep every language in step. Most UI localization runs through t
 - **Computer-assisted translation (CAT) tools** give translators translation memory, terminology databases and machine suggestions, which keeps terminology consistent.
 - **Machine-assisted suggestions** speed up routine strings, with a human translator reviewing the output.
 
-## Common challenges and how to solve them
+## Three common challenges, and their fixes
 
-Three challenges come up again and again, and each has a known fix:
+Three challenges come up again and again, and each has a known fix.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="The same interface string reaches a translator two ways: alone, with its function unclear, or with screenshots and notes that show the context.">
+<path d="M150 75 L230 35" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M150 75 L230 115" class="fg-accent"/>
+<rect x="15" y="55" width="135" height="40" rx="6" class="fg-box"/>
+<rect x="230" y="12" width="150" height="46" rx="6" class="fg-box"/>
+<rect x="230" y="92" width="150" height="46" rx="6" class="fg-hot"/>
+<text x="82.5" y="81" text-anchor="middle" class="fg-strong">One string</text>
+<text x="305" y="32" text-anchor="middle" class="fg-text">String alone</text>
+<text x="305" y="50" text-anchor="middle" class="fg-label">function unclear</text>
+<text x="305" y="112" text-anchor="middle" class="fg-strong">With context</text>
+<text x="305" y="130" text-anchor="middle" class="fg-label">screenshot, notes</text>
+</svg>
+<figcaption>Guidelines, screenshots and notes for each interface element show translators what every string does, which heads off contextual errors.</figcaption>
+</figure>
 
 | Challenge | Cause | Fix |
 |---|---|---|
@@ -97,4 +150,4 @@ Three challenges come up again and again, and each has a known fix:
 
 A product that speaks its users' language, literally and culturally, is easier to use, earns more engagement and builds trust with international users. Professional UI localization is a core part of [building a global brand](/blog/building-a-global-brand/).
 
-Ready to localize your interface? We offer a free assessment of your localization needs and a plan to match. [Contact us to get started](/contact/).
+Ready to localize your interface? We offer a free assessment of your localization needs and a plan to match. [Ask for your free assessment](/contact/).

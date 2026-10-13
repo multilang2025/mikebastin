@@ -50,7 +50,7 @@ const GROUPS: { heading: string; slugs: string[]; scene: { src: string; alt: str
     heading: "Desde Valencia, el SEO para cada mercado donde vendes", scene: { src: "/images/scenes/svc-search.webp", alt: "La misma página de servicios posicionada en los resultados en francés, alemán y español, y citada en una respuesta de IA", intro: "Presente en el idioma en el que busca cada comprador, en Google y en las respuestas de la IA." },
     slugs: ["seo-frances", "seo-aleman", "seo-neerlandes", "seo-ingles", "seo-italiano", "seo-portugues"],
   },
-  { heading: "Localización", scene: { src: "/images/scenes/svc-localization.webp", alt: "Una misma página de producto en Alemania y Suiza con precios y medios de pago locales, junto a una traducción jurada sellada", intro: "Webs, precios y documentos que suenan locales en cada mercado donde vendes." }, slugs: [] },
+  { heading: "Localización de webs, precios y documentos", scene: { src: "/images/scenes/svc-localization.webp", alt: "Una misma página de producto en Alemania y Suiza con precios y medios de pago locales, junto a una traducción jurada sellada", intro: "Webs, precios y documentos que suenan locales en cada mercado donde vendes." }, slugs: [] },
 ];
 
 export default function SpanishServicesIndex() {

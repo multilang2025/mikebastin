@@ -42,6 +42,10 @@ La plupart des défauts qui pèsent sur le trafic d’une page se voient sur la 
 
 [SEO Minion](https://chromewebstore.google.com/detail/seo-minion/giihipjfimkajhlcilipnjeohabimjhi?hl=en) couvre gratuitement l’essentiel de l’analyse on-page. Elle affiche les balises meta, les titres et les autres éléments de la page, les liens cassés et les liens nofollow, sponsored et UGC, prévisualise le résultat de recherche et contrôle hreflang, la vérification dont un site multilingue a le plus souvent besoin. Pour corriger ce que ce contrôle révèle, notre article sur le [SEO technique d’un site multilingue](/fr/seo-technique-site-multilingue/) détaille les réglages qui font travailler vos langues ensemble.
 
+> 67 % des 374 756 domaines utilisant hreflang étudiés par Ahrefs en 2023 présentaient au moins une erreur hreflang.
+>
+> Source : [Ahrefs, « Over 67% of Domains Using Hreflang Have Issues (Study of 374,756 Domains) », août 2023](https://ahrefs.com/blog/hreflang-study/)
+
 ### Ahrefs SEO Toolbar
 
 L’[Ahrefs SEO Toolbar](https://ahrefs.com/seo-toolbar) signale les éléments manquants ou incorrects, les réglages du robots.txt et des balises meta robots, et les balises Open Graph. La version gratuite est utile à elle seule.
@@ -53,6 +57,22 @@ La [Detailed SEO Extension](https://chromewebstore.google.com/detail/detailed-se
 ### Web Developer
 
 L’[extension Web Developer](https://chromewebstore.google.com/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm?hl=en-US) répond à une question qui compte pour le positionnement : que voit le moteur à partir du seul HTML, avant l’exécution du JavaScript ? Elle met aussi en évidence les titres, les liens et les images, et valide le HTML et le CSS.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Une page vue de deux façons : avec JavaScript, comme le visiteur la voit, et à partir du seul HTML, comme le moteur la lit avant l’exécution des scripts.">
+<path d="M150 75 L220 35" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M150 75 L220 115" class="fg-accent"/>
+<rect x="15" y="55" width="135" height="40" rx="6" class="fg-box"/>
+<rect x="220" y="12" width="170" height="46" rx="6" class="fg-box"/>
+<rect x="220" y="92" width="170" height="46" rx="6" class="fg-hot"/>
+<text x="82.5" y="80" text-anchor="middle" class="fg-text">Votre page</text>
+<text x="305" y="32" text-anchor="middle" class="fg-text">Avec JavaScript</text>
+<text x="305" y="50" text-anchor="middle" class="fg-label">vue du visiteur</text>
+<text x="305" y="112" text-anchor="middle" class="fg-strong">HTML seul</text>
+<text x="305" y="130" text-anchor="middle" class="fg-label">vue du moteur</text>
+</svg>
+<figcaption>Web Developer désactive le JavaScript : vous voyez la page telle que le moteur la lit à partir du seul HTML.</figcaption>
+</figure>
 
 ### Redirect Path
 
@@ -87,6 +107,12 @@ L’[extension Web Developer](https://chromewebstore.google.com/detail/web-devel
 <figcaption>Redirect Path montre chaque étape de la chaîne. Ramenée à une seule redirection, l’URL reste rapide et transmet toute la valeur de ses liens.</figcaption>
 </figure>
 
+Chaque étape de trop compte, car Google ne suit pas une chaîne indéfiniment.
+
+> Par défaut, les robots d’exploration de Google suivent au maximum 10 redirections successives.
+>
+> Source : [Google Search Central, « How HTTP status codes affect Google's crawlers », mis à jour le 4 février 2026](https://developers.google.com/search/docs/crawling-indexing/http-network-errors)
+
 ## Évaluer un marché par ses mots-clés et ses concurrents
 
 Les requêtes sur lesquelles un concurrent se positionne, et ce qu’elles lui rapportent, vous disent si un marché vaut le budget avant de l’engager.
@@ -107,6 +133,26 @@ Outil d’étude de marché plus large, Similarweb vous montre comment un concur
 
 [Wappalyzer](https://chromewebstore.google.com/detail/wappalyzer-technology-pro/gppongmhjkpfnbhagpmjfkannfbllamg) identifie la technologie derrière un site : CMS, plateforme e-commerce, outils d’analyse, frameworks JavaScript et logiciels serveur. Elle sert autant aux audits qu’à l’analyse concurrentielle. Pour transformer ces observations en plan, notre guide d’[analyse concurrentielle SEO par marché](/fr/analyse-concurrentielle-seo/) montre comment repérer les sites qui captent vos acheteurs et les pages à étudier en priorité.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 170" role="img" aria-label="Le site d’un concurrent vu sous quatre angles : les mots-clés avec Keywords Everywhere, l’autorité avec MozBar, le trafic avec Similarweb et la technologie avec Wappalyzer.">
+<path d="M200 85 L80 26" class="fg-line"/>
+<path d="M200 85 L320 26" class="fg-line"/>
+<path d="M200 85 L80 144" class="fg-line"/>
+<path d="M200 85 L320 144" class="fg-line"/>
+<rect x="5" y="8" width="150" height="36" rx="6" class="fg-box"/>
+<rect x="245" y="8" width="150" height="36" rx="6" class="fg-box"/>
+<rect x="5" y="126" width="150" height="36" rx="6" class="fg-box"/>
+<rect x="245" y="126" width="150" height="36" rx="6" class="fg-box"/>
+<rect x="135" y="63" width="130" height="44" rx="6" class="fg-hot"/>
+<text x="80" y="31" text-anchor="middle" class="fg-text">Mots-clés</text>
+<text x="320" y="31" text-anchor="middle" class="fg-text">Autorité</text>
+<text x="80" y="149" text-anchor="middle" class="fg-text">Trafic</text>
+<text x="320" y="149" text-anchor="middle" class="fg-text">Technologie</text>
+<text x="200" y="91" text-anchor="middle" class="fg-strong">Concurrent</text>
+</svg>
+<figcaption>Quatre extensions, quatre regards sur le même concurrent. Ensemble, elles vous disent ce que vaut un marché avant d’engager le budget.</figcaption>
+</figure>
+
 ## Vérifier que vos balises de conversion se déclenchent
 
 Vérifiez que chaque balise se déclenche : chaque marché montre alors sa vraie force, et la prochaine décision budgétaire suit le bon chiffre.
@@ -114,6 +160,22 @@ Vérifiez que chaque balise se déclenche : chaque marché montre alors sa vrai
 ### Tag Assistant
 
 [Tag Assistant](https://chromewebstore.google.com/detail/tag-assistant/kejbdjndbnbjgmefkgdddjlbokphdefk?hl=en), l’extension de Google, vérifie que les balises Google Analytics, Google Tag Manager et de conversion Google Ads se déclenchent correctement, avec tagassistant.google.com pour le débogage dans la page. Elle remplace les anciennes extensions Legacy et Companion : installez donc celle-ci. Le contrôle des balises révèle souvent des résultats SEO plus solides que ce qu’affichent les rapports. Notre article sur [Google Analytics à l’international](/fr/google-analytics-international/) précise ensuite quels chiffres croire marché par marché.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 124" role="img" aria-label="Trois étapes : les balises se déclenchent, chaque marché montre sa vraie force, et la décision budgétaire suit le bon chiffre.">
+<line x1="70" y1="36" x2="330" y2="36" class="fg-rule"/>
+<circle cx="70" cy="36" r="24" class="fg-box"/>
+<circle cx="200" cy="36" r="24" class="fg-box"/>
+<circle cx="330" cy="36" r="24" class="fg-hot"/>
+<text x="70" y="90" text-anchor="middle" class="fg-text">Balises</text>
+<text x="70" y="110" text-anchor="middle" class="fg-label">bien déclenchées</text>
+<text x="200" y="90" text-anchor="middle" class="fg-text">Chaque marché</text>
+<text x="200" y="110" text-anchor="middle" class="fg-label">sa vraie force</text>
+<text x="330" y="90" text-anchor="middle" class="fg-text">Budget</text>
+<text x="330" y="110" text-anchor="middle" class="fg-label">le bon chiffre</text>
+</svg>
+<figcaption>Tag Assistant confirme le déclenchement des balises : les chiffres de chaque marché reflètent sa vraie force au moment de fixer le budget.</figcaption>
+</figure>
 
 ## La page pour les extensions, le site pour le crawler
 

@@ -13,7 +13,7 @@ sourceUrl: "https://mikebastin.com/spanish-on-page-seo/"
 excerpt: "Want Spanish pages that get found and read? A Spanish on-page SEO and GEO checklist for pages that read local, win enquiries and get cited in AI answers."
 ---
 
-## On-page SEO for Spanish-speaking audiences
+## Keep Spanish readers on the page
 
 Your Spanish pages get found, and the next step is keeping readers on them. The translation is often fine already; what holds a reader is a page that reads local throughout: a Spanish web address, headings a buyer in Madrid would type, one register from top to bottom. Spanish buyers notice, on Google.es and Bing alike, and choose the supplier who sounds local.
 
@@ -23,7 +23,7 @@ Each detail you get right earns clicks and enquiries. Below: what to set on each
 
 A page built for a known reader lands. Before any [Spanish SEO](/services/spanish-seo/) work on the page itself, settle who you are writing for: Spain has distinct regional preferences, and Spanish-speaking audiences vary widely between countries.
 
-## Keyword research in Spanish
+## Research keywords in Spanish, country by country
 
 Researched Spanish keywords bring the right visitors. Use the words Spanish searchers actually type, allow for Spain against Latin America, and decide on formality before anyone writes a line.
 
@@ -35,9 +35,39 @@ Researched Spanish keywords bring the right visitors. Use the words Spanish sear
 
 [Long-tail keywords](/services/multilingual-seo/) in Spanish, built from everyday expressions, match search intent more closely and make the content read naturally.
 
-## Content, headings and meta descriptions
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="One register chosen before writing: tú for consumer brands, or usted for B2B and finance.">
+<path d="M150 75 L230 35" class="fg-line"/>
+<path d="M150 75 L230 115" class="fg-line"/>
+<rect x="14" y="55" width="136" height="40" rx="6" class="fg-hot"/>
+<rect x="230" y="12" width="150" height="46" rx="6" class="fg-box"/>
+<rect x="230" y="92" width="150" height="46" rx="6" class="fg-box"/>
+<text x="82" y="81" text-anchor="middle" class="fg-strong">One register</text>
+<text x="305" y="32" text-anchor="middle" class="fg-text">Tú</text>
+<text x="305" y="50" text-anchor="middle" class="fg-label">consumer brands</text>
+<text x="305" y="112" text-anchor="middle" class="fg-text">Usted</text>
+<text x="305" y="130" text-anchor="middle" class="fg-label">B2B, finance</text>
+</svg>
+<figcaption>The register is a decision made once, before writing, so every page and meta description speaks to the reader in the same voice.</figcaption>
+</figure>
+
+## Write titles, headings and descriptions a native would
 
 Your title and meta description are all a searcher sees before deciding to click. Write H1s and H2s with the phrasing a native would use, and treat the meta description as the invitation: a reason to choose you.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="What a searcher sees before clicking: a title phrased the way a native would, then the meta description as the invitation, then the click.">
+<path d="M200 46 L200 56" class="fg-dim"/>
+<path d="M200 92 L200 102" class="fg-dim"/>
+<rect x="50" y="10" width="300" height="36" rx="6" class="fg-box"/>
+<rect x="80" y="56" width="240" height="36" rx="6" class="fg-box"/>
+<rect x="120" y="102" width="160" height="36" rx="6" class="fg-hot"/>
+<text x="200" y="33" text-anchor="middle" class="fg-text">Native title</text>
+<text x="200" y="79" text-anchor="middle" class="fg-text">Meta description</text>
+<text x="200" y="125" text-anchor="middle" class="fg-strong">Click</text>
+</svg>
+<figcaption>The title and the meta description do the selling on the results page, so both are written the way a Spanish buyer speaks.</figcaption>
+</figure>
 
 Inside the page, local traditions, holidays and expressions keep readers with you, where the audience suits them.
 
@@ -71,7 +101,7 @@ A Spanish reader who stays in Spanish all the way through stays with you. Link S
 <p><strong>Want Spanish slugs, Spanish alt text and one register across your Spanish pages?</strong> Our <a href="/services/spanish-seo/">Spanish SEO service</a> writes Spanish for Spain directly from Valencia, with keyword research by native speakers of each Spanish you target. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
-## User experience and mobile
+## Build for Spanish phones first
 
 A large share of Spanish users browse on phones, so mobile optimization comes first: fast pages, clear navigation and a layout that holds together on a small screen.
 
@@ -118,9 +148,27 @@ Treat it as a second reader of the same page: a page written clearly for a Spani
 <p><strong>Want your Spanish pages named in AI answers as well as ranked?</strong> Our <a href="/services/generative-engine-optimization/">generative engine optimization service</a> structures pages for ChatGPT, Perplexity and Google's AI Overviews to cite. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
-## Measuring results
+## Measure results per market
 
 Numbers per market show what worked. Use Google Search Console filtered to Spain, your analytics and [local SEO](/services/local-seo/) tools, and track engagement and click-through rates.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Google Search Console filtered to Spain, analytics and local SEO tools together show how the Spanish pages perform.">
+<path d="M170 30 L278 64" class="fg-line"/>
+<path d="M170 75 L272 75" class="fg-line"/>
+<path d="M170 120 L278 86" class="fg-line"/>
+<rect x="10" y="12" width="160" height="36" rx="6" class="fg-box"/>
+<rect x="10" y="57" width="160" height="36" rx="6" class="fg-box"/>
+<rect x="10" y="102" width="160" height="36" rx="6" class="fg-box"/>
+<circle cx="322" cy="75" r="50" class="fg-hot"/>
+<text x="90" y="35" text-anchor="middle" class="fg-text">Search Console</text>
+<text x="90" y="80" text-anchor="middle" class="fg-text">Analytics</text>
+<text x="90" y="125" text-anchor="middle" class="fg-text">Local SEO tools</text>
+<text x="322" y="73" text-anchor="middle" class="fg-strong">Spain</text>
+<text x="322" y="93" text-anchor="middle" class="fg-label">per market</text>
+</svg>
+<figcaption>Filtered to Spain, the three sources show engagement and click-through for the Spanish market on its own.</figcaption>
+</figure>
 
 ## What to check
 
@@ -130,7 +178,7 @@ Check translation accuracy and regional differences most carefully, because they
 
 Know the market, choose culturally relevant keywords, localize content and media, and connect it all with internal links. Our guides to [Spanish SEO markets](/blog/spanish-seo-markets/) and [Spanish keyword localization](/blog/spanish-keyword-localisation/) cover the next steps.
 
-Want your Spanish pages to bring in enquiries as well as visits? [Contact us](/contact/) to review your on-page SEO.
+Want your Spanish pages to bring in enquiries as well as visits? [Book a call](/contact/) and we will review your on-page SEO with you.
 
 ## FAQ
 

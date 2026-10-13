@@ -1,6 +1,6 @@
 ---
 words: 2003
-title: "Content optimization for Spanish users"
+title: "Content optimization for Spanish users: pages that read as local"
 slug: "content-optimisation-for-spanish-users"
 locale: "en"
 type: "posts"
@@ -59,13 +59,30 @@ Almost every adult in Spain is online, so your buyers are there; the question is
 
 Combine analytics, qualitative research and cultural insight to build [data-driven content strategies](/blog/how-to-create-a-targeted-content-strategy/). Social listening, demographic analysis, behaviour tracking and direct community engagement together show you who is reading and what would make them act.
 
-## Keyword research for Spanish users
+## Research keywords the way Spain searches
 
 ### National vs. regional keywords
 
 A keyword that performs in Madrid can take a different form in Bilbao, so add regional terms to the national list to reach regional buyers. Search patterns in Madrid, Barcelona, Valencia and Bilbao differ, and keywords that resonate in Andalucía may need their own form in País Vasco.
 
 Seasonal and regional events shift search behaviour too, from Sevilla's Feria de Abril to Barcelona's Mobile World Congress. Build keyword matrices that cover standard Castellano and the regional variations, and watch regional trends in Google Trends.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="A Spanish keyword matrix covers three layers: standard Castellano, regional terms and seasonal events.">
+<path d="M172 80 L200 30" class="fg-accent"/>
+<path d="M172 80 L200 80" class="fg-accent"/>
+<path d="M172 80 L200 130" class="fg-accent"/>
+<rect x="12" y="55" width="160" height="50" rx="6" class="fg-hot"/>
+<rect x="200" y="10" width="188" height="40" rx="6" class="fg-box"/>
+<rect x="200" y="60" width="188" height="40" rx="6" class="fg-box"/>
+<rect x="200" y="110" width="188" height="40" rx="6" class="fg-box"/>
+<text x="92" y="86" text-anchor="middle" class="fg-strong">Keyword matrix</text>
+<text x="294" y="36" text-anchor="middle" class="fg-text">Standard Castellano</text>
+<text x="294" y="86" text-anchor="middle" class="fg-text">Regional terms</text>
+<text x="294" y="136" text-anchor="middle" class="fg-text">Seasonal events</text>
+</svg>
+<figcaption>One matrix holds all three layers, so a page can reach buyers in Madrid, Bilbao and Sevilla with the words each of them types.</figcaption>
+</figure>
 
 ### Keyword tools for Spanish markets
 
@@ -81,7 +98,7 @@ Each tool answers a different commercial question, so pick by what you need to d
 
 Focus on the metrics that matter in Spain, such as mobile search volume, and compare volumes across Spanish-speaking countries to find openings your competitors have yet to take. Conversational queries are phrased differently in Spanish than in English, which matters for voice and AI search too; read more about [generative engine optimization](/services/generative-engine-optimization/).
 
-## Tone and style for Spanish readers
+## Choose tú or usted, and a tone to match
 
 ### Formal vs. informal language
 
@@ -95,6 +112,22 @@ The choice between tú and usted tells the reader who you think they are, so pic
 
 Younger Spanish audiences generally expect informal address, while older or more traditional sectors expect usted. Whichever you choose, stay consistent: one form throughout keeps readers oriented and your brand voice strong. Our guide to [Spanish on-page SEO](/blog/spanish-on-page-seo/) goes further.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="The reader decides the form of address: tú for younger audiences, usted for traditional sectors.">
+<path d="M166 75 L206 35" class="fg-line"/>
+<path d="M166 75 L206 115" class="fg-line"/>
+<rect x="8" y="52" width="158" height="46" rx="6" class="fg-hot"/>
+<rect x="206" y="12" width="184" height="46" rx="6" class="fg-box"/>
+<rect x="206" y="92" width="184" height="46" rx="6" class="fg-box"/>
+<text x="87" y="81" text-anchor="middle" class="fg-strong">Your reader</text>
+<text x="298" y="32" text-anchor="middle" class="fg-text">Tú</text>
+<text x="298" y="50" text-anchor="middle" class="fg-label">younger audiences</text>
+<text x="298" y="112" text-anchor="middle" class="fg-text">Usted</text>
+<text x="298" y="130" text-anchor="middle" class="fg-label">traditional sectors</text>
+</svg>
+<figcaption>The audience sets the choice between tú and usted. Once chosen, the same form runs through every page.</figcaption>
+</figure>
+
 ### Regional nuances in tone
 
 A traditional business audience in Asturias wants a different tone from Barcelona's startup scene. The Basque Country's industrial and entrepreneurial focus rewards content rich in sector insight, and Mediterranean coastal regions often respond to content that reflects their international outlook and tourism expertise. Madrid's metropolitan audience expects quick, trend-aware content, while rural regions value content that recognises local industries.
@@ -105,7 +138,7 @@ Business hours, seasonal patterns and local festivals all influence when people 
 <p><strong>Is your Spanish content written for Madrid, for Mexico City, or for neither?</strong> Our <a href="/services/spanish-seo/">Spanish SEO service</a> writes Spanish for Spain directly from Valencia and Latin American variants with native copywriters in Santo Domingo. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
-## Structuring content for Spanish readers
+## Structure each page so readers reach your offer
 
 Readers who follow the thread reach your offer, so structure is where content turns into enquiries. Each paragraph should lead into the next and keep the reader moving through the argument.
 
@@ -123,6 +156,19 @@ When building bullet points in Spanish:
 -   Follow Spanish punctuation rules
 
 Use Spanish number formatting, with a comma for decimals and a point or space for thousands (1.234,56, where English writes 1,234.56). Spanish sentences also run longer than English ones, so a translated text grows; test section length with Spanish readers.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="The same figure written in English format as 1,234.56 and in Spanish format as 1.234,56.">
+<path d="M160 75 L240 75" class="fg-accent"/>
+<rect x="20" y="40" width="140" height="70" rx="6" class="fg-box"/>
+<rect x="240" y="40" width="140" height="70" rx="6" class="fg-hot"/>
+<text x="90" y="66" text-anchor="middle" class="fg-label">English</text>
+<text x="90" y="92" text-anchor="middle" class="fg-strong">1,234.56</text>
+<text x="310" y="66" text-anchor="middle" class="fg-label">Spanish</text>
+<text x="310" y="92" text-anchor="middle" class="fg-strong">1.234,56</text>
+</svg>
+<figcaption>Spanish swaps the two separators, with a comma for decimals and a point for thousands. A figure in the local format reads as written for Spain.</figcaption>
+</figure>
 
 ## Visuals that read as local
 
@@ -145,7 +191,7 @@ Structure video content to fit Spanish viewing habits:
 
 Voice-over should use appropriate regional accents and terminology, and location-specific B-roll beats generic corporate footage. Test video length with your own Spanish audience data.
 
-## Storytelling that connects
+## Tell stories with Spanish references
 
 ### Cultural references
 
@@ -165,7 +211,7 @@ Spanish brands that get it right are worth studying, because they compete for th
 -   **Mercadona** matches social content to local produce and seasonal celebrations.
 -   **El Corte Inglés** is a strong example of seasonal content adaptation, adjusting its messaging for regional celebrations while keeping its premium positioning.
 
-## SEO and localization: swapping English examples for Spanish ones
+## Swap English examples for Spanish ones
 
 A Spanish example tells the reader the page was written for them. Localization adapts meaning as well as words; see how we do it through our [content localization services](/services/website-localisation/).
 
@@ -178,9 +224,9 @@ A Spanish example tells the reader the page was written for them. Localization a
 -   **Education:** replace A-levels or SATs with Selectividad.
 -   **Transport:** high-speed rail analogies fit better than motorway ones.
 
-## Measuring success in Spain
+## Measure what Spanish content brings in
 
-### Key metrics to monitor
+### Track these metrics
 
 Judge your Spanish pages against a Spanish benchmark, so you fix the right things. Compare time on page and bounce rate with your own Spanish baseline.
 
@@ -217,9 +263,9 @@ Content that performs in Spain combines data with genuine cultural knowledge, fr
 -   [Multilingual content optimization](/services/multilingual-content/)
 -   Performance measurement frameworks
 
-[Contact our team](/contact/) to build Spanish content that fits your business objectives and turns readers into enquiries.
+[Book a call with our team](/contact/) to build Spanish content that fits your business objectives and turns readers into enquiries.
 
-## Content optimization for Spanish users: FAQ
+## Your questions about Spanish content, answered
 
 **Why is content localization important for Spanish audiences?**
 

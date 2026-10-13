@@ -46,6 +46,26 @@ Sur le volet technique, le guide officiel de France Num va dans le même sens :
 
 Pour le fonctionnement détaillé, l’article de Referencement-seo.com sur [la version de Google servie à chaque pays](https://www.referencement-seo.com/seo-international-google-version/) explique comment le moteur choisit la page à afficher selon la langue et la localisation de l’internaute.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Quatre dimensions propres à chaque marché : le vocabulaire de recherche, les balises hreflang, les signaux de confiance locaux et les habitudes d’achat.">
+<line x1="200" y1="10" x2="200" y2="140" class="fg-rule"/>
+<line x1="15" y1="75" x2="385" y2="75" class="fg-rule"/>
+<rect x="15" y="10" width="175" height="55" rx="6" class="fg-hot"/>
+<rect x="210" y="10" width="175" height="55" rx="6" class="fg-box"/>
+<rect x="15" y="85" width="175" height="55" rx="6" class="fg-box"/>
+<rect x="210" y="85" width="175" height="55" rx="6" class="fg-box"/>
+<text x="102" y="34" text-anchor="middle" class="fg-strong">Vocabulaire</text>
+<text x="102" y="54" text-anchor="middle" class="fg-label">de recherche</text>
+<text x="297" y="34" text-anchor="middle" class="fg-text">Hreflang</text>
+<text x="297" y="54" text-anchor="middle" class="fg-label">version par pays</text>
+<text x="102" y="109" text-anchor="middle" class="fg-text">Confiance</text>
+<text x="102" y="129" text-anchor="middle" class="fg-label">liens, citations</text>
+<text x="297" y="109" text-anchor="middle" class="fg-text">Achat</text>
+<text x="297" y="129" text-anchor="middle" class="fg-label">déclencheurs locaux</text>
+</svg>
+<figcaption>Chaque pays se travaille sur ces quatre dimensions, en commençant par les mots que ses acheteurs tapent réellement.</figcaption>
+</figure>
+
 ## Ce que l’équipe livre, étape par étape
 
 Une agence se juge sur ses livrables. Voici ceux que vous recevez, dans l’ordre où ils arrivent.
@@ -62,6 +82,24 @@ Une agence se juge sur ses livrables. Voici ceux que vous recevez, dans l’ordr
 **La recherche de mots-clés se refait pour chaque marché.** Le vocabulaire change d’un pays à l’autre, et une liste construite dans chaque pays capte les termes que les acheteurs locaux emploient réellement ; le guide de [CD Services sur le SEO multilingue](https://www.cdservices-digital.com/post/seo-multilingue-les-bonnes-pratiques-pour-un-site-international) l’illustre bien. Nous visons en priorité les requêtes précises : « chaussures » reste vague, alors que « chaussures de randonnée imperméables femme » traduit un besoin et une intention d’achat. Ces formulations changent d’une langue à l’autre, et c’est là que se trouvent les demandes.
 
 **La production avance avec la technique.** Rédaction, mise en place technique et suivi des performances font partie de la même prestation : l’audit, la rédaction et la technique avancent ensemble, sur le même calendrier.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="La rédaction, la technique et le suivi avancent en parallèle, sur un même calendrier.">
+<path d="M130 35 L270 35" class="fg-accent"/>
+<path d="M130 75 L270 75" class="fg-accent"/>
+<path d="M130 115 L270 115" class="fg-accent"/>
+<rect x="15" y="20" width="115" height="30" rx="6" class="fg-box"/>
+<rect x="15" y="60" width="115" height="30" rx="6" class="fg-box"/>
+<rect x="15" y="100" width="115" height="30" rx="6" class="fg-box"/>
+<rect x="270" y="20" width="115" height="110" rx="6" class="fg-hot"/>
+<text x="72" y="40" text-anchor="middle" class="fg-text">Rédaction</text>
+<text x="72" y="80" text-anchor="middle" class="fg-text">Technique</text>
+<text x="72" y="120" text-anchor="middle" class="fg-text">Suivi</text>
+<text x="327" y="70" text-anchor="middle" class="fg-label">un même</text>
+<text x="327" y="92" text-anchor="middle" class="fg-strong">calendrier</text>
+</svg>
+<figcaption>Les trois métiers avancent ensemble : chaque page publiée arrive avec sa mise en place technique et son suivi.</figcaption>
+</figure>
 
 ## Qui fait quoi dans l’équipe
 
@@ -112,11 +150,11 @@ Une agence qui connaît déjà votre marché démarre plus vite. Voici ceux où 
 
 Chaque marché a aussi sa page de service, comme notre [référencement en néerlandais](https://mikebastin.com/fr/services/seo-neerlandais/) pour les Pays-Bas et la Flandre, ou notre [référencement en allemand](https://mikebastin.com/fr/services/seo-allemand/) pour l’Allemagne, l’Autriche et la Suisse alémanique, où des rédacteurs allemands natifs écrivent les pages.
 
-## Ce que le portfolio montre
+## Ce que montrent les sites que nous menons
 
 Des secteurs très différents nous amènent à adapter l’approche à chaque fois, et les enseignements circulent d’un site à l’autre.
 
-- **Agence de traduction.** BeTranslated, l’agence que nous faisons tourner depuis vingt ans, mène neuf domaines nationaux (.com, .us, .ca, .co.uk, .be, .fr, .es, .de, .nl). Chacun a son sitemap, son groupe hreflang et sa propre recherche de mots-clés, et se positionne face à ses concurrents locaux.
+- **Agence de traduction.** BeTranslated, l’agence que nous faisons tourner depuis plus de 20 ans, mène neuf domaines nationaux (.com, .us, .ca, .co.uk, .be, .fr, .es, .de, .nl). Chacun a son sitemap, son groupe hreflang et sa propre recherche de mots-clés, et se positionne face à ses concurrents locaux.
 - **Fret industriel.** Pour TX International Freight, à Houston, le SEO technique et le contenu en anglais sont bâtis sur le vocabulaire que les acheteurs du fret industriel emploient réellement, et le site est présent dans le pack local de Houston sur ces recherches.
 - **Cabinet d’avocats.** Delaguía y Luzón, à Valencia, couvre le droit des affaires, le droit du travail, l’immigration et la fiscalité entre l’Espagne et la France, en espagnol, en français, en anglais et en russe, avec un vocabulaire juridique tenu au niveau qu’un avocat exige.
 - **Immobilier caribéen.** Century 21 Perdomo, en République dominicaine, publie ses biens en anglais, en français, en espagnol et en allemand, et chaque annonce modifiée doit arriver dans les quatre langues en même temps.
@@ -134,6 +172,24 @@ Une grande part des recherches se conclut sur la page de Google elle-même, entr
 
 ChatGPT, Claude, Perplexity et les AI Overviews répondent dans la langue de celui qui pose la question, et citent leurs sources pays par pays. Des pages natives, des liens gagnés dans la presse et les annuaires de chaque pays, et une marque présente dans chaque langue vous placent dans ces réponses, marché par marché.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Des pages natives, des liens locaux et une marque présente dans chaque langue placent votre site dans les réponses des IA, marché par marché.">
+<path d="M185 30 L245 74" class="fg-accent"/>
+<path d="M185 80 L245 80" class="fg-accent"/>
+<path d="M185 130 L245 86" class="fg-accent"/>
+<rect x="15" y="12" width="170" height="36" rx="6" class="fg-box"/>
+<rect x="15" y="62" width="170" height="36" rx="6" class="fg-box"/>
+<rect x="15" y="112" width="170" height="36" rx="6" class="fg-box"/>
+<rect x="245" y="55" width="140" height="50" rx="6" class="fg-hot"/>
+<text x="100" y="35" text-anchor="middle" class="fg-text">Pages natives</text>
+<text x="100" y="85" text-anchor="middle" class="fg-text">Liens locaux</text>
+<text x="100" y="135" text-anchor="middle" class="fg-text">Marque par langue</text>
+<text x="315" y="78" text-anchor="middle" class="fg-strong">Réponses IA</text>
+<text x="315" y="97" text-anchor="middle" class="fg-label">chaque marché</text>
+</svg>
+<figcaption>Chaque langue réunit ses pages, ses liens et sa marque, et les IA citent ce qu’elles trouvent dans la langue de la question.</figcaption>
+</figure>
+
 La recherche elle-même se renouvelle en continu, ce qui fait du suivi mensuel une partie du métier :
 
 > Chaque jour, 15 % des requêtes que Google reçoit sont nouvelles.
@@ -146,7 +202,7 @@ La recherche elle-même se renouvelle en continu, ce qui fait du suivi mensuel u
 
 Pour une vue d’ensemble des chiffres du secteur, les compilations d’[Emmanuelle Wiesemes](https://emmanuelle-wiesemes.com/statistiques-seo/) et d’[Incremys](https://www.incremys.com/en/resources/blog/seo-statistics) rassemblent les études récentes ; nous citons ici leurs sources primaires.
 
-## Comment choisir votre agence SEO internationale
+## Choisissez l’agence qui connaît vos marchés
 
 Le marché des prestataires est vaste :
 
@@ -164,7 +220,7 @@ Le choix se fait donc sur quelques critères vérifiables, sous forme de questio
 
 Si votre besoin tient davantage du conseil, notre article sur le rôle d’un [consultant en référencement international](/fr/consultant-referencement-international/) décrit la mission mois par mois, et celui sur l’[expert SEO international](/fr/expert-en-seo-international/) détaille les décisions prises pour chaque marché. Pour un besoin qui couvre tout le marketing digital, notre comparaison [conseiller en marketing digital ou agence](/fr/conseiller-marketing-digital/) vous aide à trancher.
 
-Vous voulez parler de votre projet de référencement international ? Un premier échange de trente minutes nous suffit pour situer le potentiel de votre site sur les marchés francophones, anglophones ou hispanophones, et vous décidez ensuite librement de la suite.
+Réservez un premier échange de trente minutes sur votre projet de référencement international : nous situons ensemble le potentiel de votre site sur les marchés francophones, anglophones ou hispanophones, et vous décidez ensuite librement de la suite.
 
 - Email : [mike@mikebastin.com](mailto:mike@mikebastin.com)
 - [Formulaire de contact](/fr/nous-contacter/)

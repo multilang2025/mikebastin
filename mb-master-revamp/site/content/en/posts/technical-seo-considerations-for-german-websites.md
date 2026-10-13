@@ -1,6 +1,7 @@
 ---
 words: 1494
-title: "Technical SEO considerations for German websites"
+title: "Technical SEO for German websites: URLs, hreflang, speed and mobile"
+metaTitle: "Technical SEO for German websites"
 slug: "technical-seo-considerations-for-german-websites"
 locale: "en"
 type: "posts"
@@ -20,13 +21,13 @@ The fixes are usually small, and they are specific to the German-speaking market
 
 Below: the technical checks that matter most for [SEO for German websites](/services/german-seo/), from URL structure and regional versions for Germany, Austria and Switzerland to site speed and mobile, and where to start.
 
-## Proper URL structure for German websites
+## Build clean URLs for German pages
 
 A URL is often the first thing a buyer sees in the results or in a forwarded link, so a clean German one earns clicks and trust, and shows the page was built for German readers.
 
 URL structure is one of the foundations of [technical SEO](/services/technical-seo/), and German brings a few language-specific rules.
 
-### Best practices for SEO-friendly URLs
+### Write URLs in German, umlauts transliterated
 
 **Using German in URLs:**  
 Write URLs in German when you target Germany. They reflect the content in the reader's own language and reinforce the page's relevance for German searches.
@@ -38,6 +39,22 @@ German contains umlauts (ä, ö, ü) and the ß, which appear percent-encoded wh
 
 Most German sites therefore transliterate them: ä becomes ae, ö becomes oe, ü becomes ue and ß becomes ss. “Küche” (kitchen) becomes “kueche” in the URL, which keeps links clean wherever they are pasted.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="The word Küche in a URL: shared as is, it turns into K%C3%BCche; transliterated, it reads kueche.">
+<path d="M150 75 L230 35" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M150 75 L230 115" class="fg-accent"/>
+<rect x="20" y="55" width="130" height="40" rx="6" class="fg-box"/>
+<rect x="230" y="12" width="150" height="46" rx="6" class="fg-box"/>
+<rect x="230" y="92" width="150" height="46" rx="6" class="fg-hot"/>
+<text x="85" y="81" text-anchor="middle" class="fg-strong">Küche</text>
+<text x="305" y="32" text-anchor="middle" class="fg-text">K%C3%BCche</text>
+<text x="305" y="50" text-anchor="middle" class="fg-label">percent-encoded</text>
+<text x="305" y="112" text-anchor="middle" class="fg-strong">kueche</text>
+<text x="305" y="130" text-anchor="middle" class="fg-label">transliterated</text>
+</svg>
+<figcaption>Writing ü as ue keeps the URL readable wherever it is pasted, from an email to a spreadsheet.</figcaption>
+</figure>
+
 ### Keywords in URLs, used sparingly
 
 **German keywords** in the URL help both users and search engines. Google treats words in the URL as a light signal, and a descriptive URL also earns more clicks in results and shared links.
@@ -48,7 +65,7 @@ Use each keyword once, which keeps URLs tidy. A clean `/deutschland-reiseangebot
 
 A predictable structure helps buyers find their way around a large site, especially in e-commerce. German users prefer it clean and logical: `/produkte/haushaltsgeraete/waschmaschinen` helps them navigate and shows search engines how the sections relate.
 
-## hreflang tag implementation for multilingual sites
+## Show each German-speaking country its own version with hreflang
 
 If you sell into Germany, Austria and Switzerland, correct hreflang tags show each country its own regional version: Swiss prices to Swiss buyers, German prices to German buyers, and each page ranking in its own market.
 
@@ -56,7 +73,7 @@ If you sell into Germany, Austria and Switzerland, correct hreflang tags show ea
 
 Hreflang tags tell search engines which language and regional version of a page to serve, based on the user's language or location. With them in place, a buyer in Austria or Switzerland sees the version written for them.
 
-### Implementing hreflang for German-specific pages
+### Set up hreflang for German, Austrian and Swiss pages
 
 Plan which German variants you actually need first, then tag them.
 
@@ -105,15 +122,15 @@ Check that tags are consistent across versions, that references are reciprocal a
 <p><strong>Want your Austrian, Swiss and German pages each ranking in their own country?</strong> Our <a href="/services/technical-seo/">technical SEO services</a> find out whether your language versions add up, and fix whatever keeps them apart. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
-## Site speed optimization for the German market
+## Speed up pages for German buyers
 
 German users expect fast, reliable sites, and a fast page keeps them through to the enquiry. Page experience has been part of Google's ranking for years, measured through **Core Web Vitals**: loading, interactivity and visual stability.
 
-### Importance of fast load times in Germany
+### What fast load times earn in Germany
 
 A fast page keeps visitors who are ready to read your offer. Speed is a technical SEO factor, and it also affects user satisfaction and revenue directly.
 
-### Optimizing Core Web Vitals
+### Improve your Core Web Vitals
 
 Google sets a threshold for each of the three **Core Web Vitals**. Interaction to Next Paint (INP) replaced First Input Delay (FID) in 2024.
 
@@ -127,7 +144,7 @@ Google sets a threshold for each of the three **Core Web Vitals**. Interaction t
 >
 > Source: [web.dev (Google), Web Vitals](https://web.dev/articles/vitals)
 
-### Practical tips for boosting site speed
+### Quick ways to speed up a site
 
 **Image Compression and Lazy Loading:**  
 Images are the usual place to start. Compress them with a tool like TinyPNG to cut file size while they look the same, and lazy-load them so each image loads as it is about to scroll into view.
@@ -138,7 +155,24 @@ Strip extra whitespace, comments and redundant code from your JavaScript, CSS an
 **Content Delivery Network (CDN):**  
 A CDN serves your pages from a server closer to the user. It helps most when your German site has buyers across Germany, Austria, Switzerland and the rest of Europe.
 
-## Mobile optimization strategies for German users
+<figure class="post-fig">
+<svg viewBox="0 0 400 120" role="img" aria-label="Three ways to speed up a German site, in order: compress and lazy-load images, minify the code, then serve pages from a CDN closer to the buyer.">
+<path d="M126 60 L142 60" class="fg-dim"/>
+<path d="M258 60 L274 60" class="fg-dim"/>
+<rect x="10" y="30" width="116" height="60" rx="6" class="fg-box"/>
+<rect x="142" y="30" width="116" height="60" rx="6" class="fg-box"/>
+<rect x="274" y="30" width="116" height="60" rx="6" class="fg-hot"/>
+<text x="68" y="56" text-anchor="middle" class="fg-strong">Images</text>
+<text x="68" y="76" text-anchor="middle" class="fg-label">compress</text>
+<text x="200" y="56" text-anchor="middle" class="fg-strong">Code</text>
+<text x="200" y="76" text-anchor="middle" class="fg-label">minify</text>
+<text x="332" y="56" text-anchor="middle" class="fg-strong">CDN</text>
+<text x="332" y="76" text-anchor="middle" class="fg-label">serve closer</text>
+</svg>
+<figcaption>Images come first, then code, then a CDN for buyers spread across Germany, Austria, Switzerland and the rest of Europe.</figcaption>
+</figure>
+
+## Win German buyers on their phones
 
 Most searches now happen on a phone, German ones included, so a strong mobile site wins buyers and rankings at the same time. **Mobile optimization** is a core part of technical SEO.
 
@@ -146,7 +180,7 @@ Most searches now happen on a phone, German ones included, so a strong mobile si
 
 Google crawls and ranks the mobile version of your site. Rankings follow the mobile experience, so make it as good as the desktop version.
 
-### Design considerations for German mobile users
+### Design for German phone users
 
 **Responsive design:**  
 A responsive layout adjusts to the screen, so buyers get the same experience on phone, tablet and desktop. It is now standard.
@@ -160,7 +194,23 @@ AMP pages are a stripped-down version of your content, designed to load quickly 
 
 AMP can still suit news publishers with an existing AMP setup. For everyone else, meeting the Core Web Vitals thresholds above delivers the same benefit from one version of every page.
 
-### Testing and monitoring mobile performance
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Two versions of a page, a standard page and an AMP copy, compared with one fast page that meets the Core Web Vitals thresholds.">
+<line x1="200" y1="10" x2="200" y2="140" class="fg-rule"/>
+<rect x="30" y="36" width="140" height="40" rx="6" class="fg-box"/>
+<rect x="30" y="88" width="140" height="40" rx="6" class="fg-box"/>
+<rect x="220" y="36" width="160" height="92" rx="6" class="fg-hot"/>
+<text x="100" y="22" text-anchor="middle" class="fg-label">Two versions</text>
+<text x="300" y="22" text-anchor="middle" class="fg-label">One version</text>
+<text x="100" y="61" text-anchor="middle" class="fg-text">Standard page</text>
+<text x="100" y="113" text-anchor="middle" class="fg-text">AMP copy</text>
+<text x="300" y="80" text-anchor="middle" class="fg-strong">Fast page</text>
+<text x="300" y="100" text-anchor="middle" class="fg-label">Core Web Vitals</text>
+</svg>
+<figcaption>Meeting the Core Web Vitals thresholds brings the same benefit as AMP, from one version of every page.</figcaption>
+</figure>
+
+### Test mobile performance regularly
 
 **Mobile testing:**  
 Google retired its Mobile-Friendly Test in December 2023. Check mobile performance with Lighthouse in Chrome, PageSpeed Insights and the Core Web Vitals report in Search Console instead.

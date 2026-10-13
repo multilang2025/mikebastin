@@ -85,7 +85,7 @@ export default async function TopicPage({
                 </Link>
               )}
               <Link href="/blog/" className="ulink">
-                Every topic
+                Browse every topic
               </Link>
             </div>
           </Reveal>

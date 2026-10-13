@@ -54,7 +54,7 @@ Damos a cada versión lingüística su propia URL, sus propios metadatos y su lu
 
 Colocamos las etiquetas hreflang que unen las versiones entre sí y se corresponden en los dos sentidos. Para el detalle de esta parte, consulta nuestro [SEO técnico](/es/services/seo-tecnico/), y para la estrategia de palabras clave por idioma, nuestro [posicionamiento multilingüe](/es/services/posicionamiento-multilingue/).
 
-### Qué plugin multilingüe para WordPress
+### Elegimos contigo el plugin multilingüe para WordPress
 
 Elegimos contigo el plugin multilingüe, a partir de cómo publicas, porque el contenido queda almacenado a la manera del plugin. WPML es nuestra opción por defecto: el más completo para el SEO, el más exigente con el alojamiento, con una licencia que se renueva. Polylang encaja con un presupuesto más ajustado y una estructura sencilla. TranslatePress sirve a un equipo editorial que prefiere traducir directamente en la página, viéndola cambiar. Trabajamos también con las soluciones multilingües propias de Shopify y Webflow, y con Joomla y Drupal, que gestionan muy bien el multilingüismo y piden igualmente un modelo de contenido fijado antes de traducir.
 

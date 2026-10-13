@@ -20,7 +20,7 @@ export const DL_SERVICE_ART: Record<"en" | "fr" | "es", Record<string, string>> 
   fr: {
     seo: "convergence-europe",
     "seo-espagnol": "convergence",
-    "referencement-multilingue": "constellation",
+    "referencement-multilingue": "convergence-world",
     "seo-technique": "audit",
     "referencement-local": "gbp",
     "conseil-ia": "gears",

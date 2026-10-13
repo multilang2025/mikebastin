@@ -1,7 +1,7 @@
 ---
 words: 2529
 title: "Cartographie de l’intention de recherche : une page pour chaque demande"
-metaTitle: "Cartographie de l’intention de recherche : le guide"
+metaTitle: "Cartographie de l’intention de recherche, page par page"
 slug: "cartographie-intention-de-recherche"
 locale: "fr"
 type: "posts"
@@ -37,14 +37,14 @@ Chaque recherche répond à un but sous-jacent, et le secteur du SEO les range e
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 200" role="img" aria-label="Intention de recherche placée sur l’entonnoir : informationnelle en haut, là où il est le plus large, commerciale au milieu, transactionnelle en bas, là où il est le plus étroit, et navigationnelle qui court le long de l’ensemble.">
-<rect x="20" y="10" width="280" height="44" rx="6" class="fg-box"/>
-<rect x="60" y="68" width="200" height="44" rx="6" class="fg-box"/>
-<rect x="100" y="126" width="120" height="44" rx="6" class="fg-hot"/>
+<rect x="10" y="10" width="300" height="44" rx="6" class="fg-box"/>
+<rect x="45" y="68" width="230" height="44" rx="6" class="fg-box"/>
+<rect x="80" y="126" width="160" height="44" rx="6" class="fg-hot"/>
 <text x="160" y="38" text-anchor="middle" class="fg-text">Informationnelle</text>
 <text x="160" y="96" text-anchor="middle" class="fg-text">Commerciale</text>
 <text x="160" y="154" text-anchor="middle" class="fg-text">Transactionnelle</text>
 <line x1="340" y1="14" x2="340" y2="166" class="fg-dim"/>
-<text x="362" y="90" text-anchor="middle" transform="rotate(90 362 90)" class="fg-label">Navigationnelle</text>
+<text x="362" y="90" text-anchor="middle" writing-mode="vertical-rl" class="fg-label">Navigationnelle</text>
 <text x="200" y="192" text-anchor="middle" class="fg-label">guides, comparatifs, pages d’atterrissage</text>
 </svg>
 <figcaption>La plupart des recherches se situent en haut de l’entonnoir, là où il est le plus large. Associez chaque étape à son propre type de page, et laissez les requêtes navigationnelles mener directement à la marque, à n’importe quel moment.</figcaption>
@@ -52,7 +52,7 @@ Chaque recherche répond à un but sous-jacent, et le secteur du SEO les range e
 
 Les répartitions publiées entre ces quatre types varient beaucoup selon l’outil et la méthode (pour une compilation, voir les [statistiques d’intention de recherche d’Amra et Elma](https://www.amraandelma.com/search-intent-statistics/)), et toutes s’accordent sur un point : la plupart des recherches sont informationnelles, et une petite minorité seulement est prête à l’achat. Une stratégie de contenu qui couvre les mots-clés informationnels comme les transactionnels atteint l’essentiel de l’audience.
 
-## La cartographie de l’intention de recherche en pratique
+## Associez chaque requête à une page
 
 Bien menée, elle vous dit quelles pages écrire, lesquelles réécrire et lesquelles garder telles quelles. Le processus :
 
@@ -81,11 +81,28 @@ Auditez les pages existantes au regard de la carte. Là où une page manque, cr�
 **Suivre et ajuster.**  
 Suivez l’engagement, les taux de clic et les conversions. Les signaux d’intention évoluent, en particulier depuis que les AI Overviews changent ce qui s’affiche en haut des résultats.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="La cartographie en quatre étapes : rechercher, analyser ce qui se positionne, classer par intention et aligner le contenu, avec une boucle de retour pour suivre et ajuster.">
+<path d="M350 92 L350 118 L50 118 L50 92" class="fg-dim" stroke-dasharray="4 4"/>
+<line x1="50" y1="32" x2="350" y2="32" class="fg-rule"/>
+<circle cx="50" cy="32" r="16" class="fg-box"/>
+<circle cx="150" cy="32" r="16" class="fg-box"/>
+<circle cx="250" cy="32" r="16" class="fg-box"/>
+<circle cx="350" cy="32" r="16" class="fg-hot"/>
+<text x="50" y="72" text-anchor="middle" class="fg-text">Recherche</text>
+<text x="150" y="72" text-anchor="middle" class="fg-text">Analyse</text>
+<text x="250" y="72" text-anchor="middle" class="fg-text">Classement</text>
+<text x="350" y="72" text-anchor="middle" class="fg-text">Alignement</text>
+<text x="200" y="140" text-anchor="middle" class="fg-label">suivre et ajuster</text>
+</svg>
+<figcaption>Le suivi boucle la démarche : quand les signaux d’intention évoluent, la carte repart de la recherche et les pages suivent.</figcaption>
+</figure>
+
 <aside class="post-cta">
 <p><strong>Du trafic qui arrive et des demandes de contact à en tirer ?</strong> La <a href="/fr/services/seo-technique/">recherche de mots-clés</a> que nous menons lit la façon dont vos acheteurs décrivent leur problème, comparent les solutions et signalent leur intention d’achat, puis classe le travail par étape de décision. <a href="/fr/nous-contacter/">Réservez un premier échange gratuit</a>.</p>
 </aside>
 
-## Pourquoi l’alignement sur l’intention fait progresser positions et chiffre d’affaires
+## Ce que l’alignement sur l’intention rapporte
 
 Les systèmes de classement de Google récompensent les pages qui satisfont la personne qui cherche, et l’alignement sur l’intention a pris la place de la densité de mots-clés comme levier de positionnement. Le trafic organique qui arrive avec la bonne intention convertit aussi très bien.
 
@@ -94,7 +111,7 @@ Les systèmes de classement de Google récompensent les pages qui satisfont la p
 
 Le rapport détaille de grands écarts d’un secteur à l’autre : lisez cette moyenne comme une tendance, à vérifier sur vos propres données.
 
-## L’IA comme outil de création de contenu guidée par l’intention
+## Confiez la recherche à l’IA, gardez la relecture humaine
 
 L’IA accélère la recherche qui nourrit la cartographie, et la relecture humaine garde vos pages bien à vous. De nombreuses équipes marketing utilisent désormais l’IA à un moment de la création de contenu, de la planification éditoriale au SEO on-page, et le résultat se voit déjà dans les pages de résultats.
 
@@ -115,7 +132,25 @@ Là où les personnes gardent la main :
 
 Servez-vous de l’IA pour faire ressortir des schémas, produire de premiers jets et valider la classification de l’intention, puis appliquez le jugement humain à la qualité éditoriale, au positionnement et aux nuances culturelles. Notre page sur le [passage du SEO au GEO](/fr/seo-au-geo/) détaille la place de l’IA dans un flux de travail SEO.
 
-## L’intention de recherche selon les langues et les cultures
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="L’IA fait ressortir les schémas, classe l’intention et produit les premiers jets, puis les personnes prennent le relais pour la voix de marque, l’expérience de première main et la justesse culturelle.">
+<path d="M185 75 L215 75" class="fg-accent"/>
+<path d="M208 70 L215 75 L208 80" class="fg-accent"/>
+<rect x="15" y="15" width="170" height="120" rx="6" class="fg-box"/>
+<rect x="215" y="15" width="170" height="120" rx="6" class="fg-hot"/>
+<text x="100" y="45" text-anchor="middle" class="fg-strong">IA</text>
+<text x="100" y="75" text-anchor="middle" class="fg-label">schémas</text>
+<text x="100" y="97" text-anchor="middle" class="fg-label">classification</text>
+<text x="100" y="119" text-anchor="middle" class="fg-label">premiers jets</text>
+<text x="300" y="45" text-anchor="middle" class="fg-strong">Personnes</text>
+<text x="300" y="75" text-anchor="middle" class="fg-label">voix de marque</text>
+<text x="300" y="97" text-anchor="middle" class="fg-label">expérience</text>
+<text x="300" y="119" text-anchor="middle" class="fg-label">justesse culturelle</text>
+</svg>
+<figcaption>L’IA fait ressortir les tendances rapidement ; le jugement humain en tire des pages qui parlent avec la voix de votre marque.</figcaption>
+</figure>
+
+## Cherchez l’intention dans chaque marché
 
 Faites la recherche de mots-clés dans le marché lui-même et vous trouvez l’expression que les gens emploient pour acheter : la page se positionne et les ventes suivent. Une traduction littérale du mot-clé français donne un point de départ ; la page de résultats de chaque marché dit quelle intention il porte réellement.
 
@@ -127,11 +162,27 @@ Trois vérifications à faire marché par marché :
 
 La recherche menée par des locuteurs natifs relève ces différences, et nos [bonnes pratiques du SEO multilingue](/fr/bonnes-pratiques-seo-multilingue/) montrent comment les traduire en pages. Une [recherche de mots-clés multilingue](/fr/services/seo-technique/) efficace s’appuie sur des locuteurs natifs, une analyse des pages de résultats région par région et une compréhension des comportements d’achat locaux.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="La même requête, « meilleur smartphone », fait ressortir des comparatifs marchands dans un pays et des tests éditoriaux détaillés dans un autre.">
+<path d="M150 75 L225 35" class="fg-line"/>
+<path d="M150 75 L225 115" class="fg-accent"/>
+<rect x="15" y="55" width="135" height="40" rx="6" class="fg-box"/>
+<rect x="225" y="12" width="165" height="46" rx="6" class="fg-box"/>
+<rect x="225" y="92" width="165" height="46" rx="6" class="fg-hot"/>
+<text x="82" y="81" text-anchor="middle" class="fg-strong">Même requête</text>
+<text x="307" y="32" text-anchor="middle" class="fg-text">Un pays</text>
+<text x="307" y="50" text-anchor="middle" class="fg-label">comparatifs</text>
+<text x="307" y="112" text-anchor="middle" class="fg-strong">Un autre pays</text>
+<text x="307" y="130" text-anchor="middle" class="fg-label">tests éditoriaux</text>
+</svg>
+<figcaption>Une requête, deux marchés, deux types de page : la page de résultats de chaque pays indique le format à produire.</figcaption>
+</figure>
+
 <aside class="post-cta">
 <p><strong>Des mots-clés recherchés dans chaque langue ?</strong> Notre <a href="/fr/services/referencement-multilingue/">référencement multilingue</a> donne à chaque langue sa propre stratégie, ses mots-clés et des textes écrits par des natifs, avec un rapport mensuel des demandes reçues par marché. <a href="/fr/nous-contacter/">Réservez une consultation gratuite</a>.</p>
 </aside>
 
-## Adapter le contenu à l’intention de recherche multilingue
+## Adaptez chaque page à la question de son marché
 
 Une page localisée répond à la question que se pose votre acheteur espagnol ou allemand, qui peut différer de celle de l’acheteur francophone. Localiser pour l’intention va au-delà de la langue.
 
@@ -148,7 +199,7 @@ Les AI Overviews apparaissent désormais aussi sur les requêtes commerciales et
 > Sur plus de 10 millions de mots-clés suivis par Semrush, les AI Overviews se sont déclenchés pour 6,49 % des requêtes en janvier 2025, ont atteint un pic de 24,61 % en juillet et se situaient à 15,69 % en novembre. Sur la même période, la part des requêtes commerciales affichant un AI Overview est passée de 8,15 % à 18,57 %, et celle des requêtes transactionnelles de 1,98 % à 13,94 %.
 > Source : [Semrush, « Semrush AI Overviews study : what 2025 SEO data tells us », décembre 2025](https://www.semrush.com/blog/semrush-ai-overviews-study/)
 
-## Mettre en place la cartographie de l’intention multilingue
+## Construisez votre cartographie multilingue étape par étape
 
 Chacune des étapes suivantes donne à chaque marché la page qu’il attend.
 
@@ -167,7 +218,7 @@ Les balises hreflang, les structures d’URL et les balises canoniques soutienne
 **Suivre la performance par marché.**  
 Suivez dans Google Search Console et vos outils d’analyse les impressions, les taux de clic et les conversions par langue et par région, et ajustez le contenu d’après ces données.
 
-## L’intention de recherche à l’ère du zéro clic
+## Zéro clic : l’intention devient une priorité
 
 La cartographie de l’intention comptait déjà ; les AI Overviews et les recherches sans clic en ont fait une priorité, car une grande part des recherches se termine sur la page de résultats elle-même.
 
@@ -184,10 +235,10 @@ Quand un AI Overview s’affiche, être cité à l’intérieur regagne une part
 
 Un contenu structuré autour d’une intention claire, appuyé par des données fiables et formaté pour l’extraction, est ce qui décroche ces citations. Pour les entreprises présentes sur plusieurs marchés, l’effet se cumule, car les AI Overviews puisent à des sources différentes selon la langue : une marque qui investit dans un contenu localisé et adapté à l’intention pour l’espagnol ou l’allemand se donne de réelles chances d’être citée dans ces langues aussi. Notre page [du SEO au GEO](/fr/seo-au-geo/) détaille comment l’optimisation pour les moteurs génératifs s’articule avec le SEO.
 
-## Avancer avec une stratégie guidée par l’intention
+## Alignez vos pages sur ce que chaque marché cherche
 
 La cartographie de l’intention de recherche est la base de toute stratégie SEO efficace, et de tout [référencement multilingue](/fr/services/referencement-multilingue/). Les outils d’IA accélèrent la recherche, la classification et la création de contenu ; l’expertise humaine assure l’exactitude, l’adéquation culturelle et la cohérence stratégique.
 
 Les entreprises qui combinent les deux, et structurent leur contenu pour l’extraction par l’IA autant que pour leurs lecteurs, gardent leur visibilité à mesure que les résultats évoluent.
 
-[Parlons de votre stratégie SEO multilingue](/fr/nous-contacter/) pour aligner votre contenu sur l’intention de recherche réelle dans chacun de vos marchés cibles.
+[Réservez un échange sur votre stratégie SEO multilingue](/fr/nous-contacter/) pour aligner votre contenu sur l’intention de recherche réelle dans chacun de vos marchés cibles.

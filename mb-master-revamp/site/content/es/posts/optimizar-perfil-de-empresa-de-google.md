@@ -14,7 +14,7 @@ excerpt: "Optimiza tu Perfil de Empresa de Google en Valencia: categorías, rese
 
 ![Cómo optimizar tu Perfil de Empresa de Google](/images/legacy/2024/10/Google-Business-Profile-1024x386.webp)
 
-## Tu Perfil de Empresa de Google es la primera impresión
+## Tu Perfil de Empresa de Google, la primera impresión de tu negocio
 
 Tu ficha de Google es lo primero que ve quien busca tu servicio cerca, en Ruzafa, en El Carmen o en Benimaclet: antes que tu web, a menudo antes que tu nombre. Un perfil al día, con fotos recientes y reseñas nuevas, te mantiene entre las tres empresas que Google enseña en el mapa, y ahí se deciden las llamadas y las reservas.
 
@@ -76,6 +76,27 @@ Tras la verificación, trata el perfil como la sala del estudio: cuidado constan
 
 Unos datos idénticos en todas partes le confirman a Google que todas esas menciones son tu negocio. Tu NAP (nombre, dirección y teléfono) tiene que coincidir al detalle entre tu web, tu perfil, los directorios y las redes sociales.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Tu NAP, es decir, nombre, dirección y teléfono, idéntico en tu web, en tu perfil, en los directorios y en las redes sociales.">
+<path d="M150 30 L200 80" class="fg-line"/>
+<path d="M250 30 L200 80" class="fg-line"/>
+<path d="M150 130 L200 80" class="fg-line"/>
+<path d="M250 130 L200 80" class="fg-line"/>
+<rect x="10" y="12" width="140" height="36" rx="6" class="fg-box"/>
+<rect x="250" y="12" width="140" height="36" rx="6" class="fg-box"/>
+<rect x="10" y="112" width="140" height="36" rx="6" class="fg-box"/>
+<rect x="250" y="112" width="140" height="36" rx="6" class="fg-box"/>
+<circle cx="200" cy="80" r="42" class="fg-hot"/>
+<text x="200" y="78" text-anchor="middle" class="fg-strong">Tu NAP</text>
+<text x="200" y="96" text-anchor="middle" class="fg-label">idéntico</text>
+<text x="80" y="36" text-anchor="middle" class="fg-text">Tu web</text>
+<text x="320" y="36" text-anchor="middle" class="fg-text">Tu perfil</text>
+<text x="80" y="136" text-anchor="middle" class="fg-text">Directorios</text>
+<text x="320" y="136" text-anchor="middle" class="fg-text">Redes sociales</text>
+</svg>
+<figcaption>Unos datos idénticos en todas partes le confirman a Google que todas esas menciones son tu negocio. Hasta el número de local cuenta.</figcaption>
+</figure>
+
 Escribe el número de local igual en tu web, en MindBody y en ClassPass: ese detalle basta a menudo para mantener la señal firme.
 
 Haz una auditoría de citaciones cada trimestre con Moz Local, BrightLocal o la gestión de fichas de Semrush, y corrige primero las incoherencias en los directorios de más peso.
@@ -85,6 +106,22 @@ Haz una auditoría de citaciones cada trimestre con Moz Local, BrightLocal o la 
 La categoría principal es el cambio del perfil que más mueve tu posición en el mapa.
 
 Un estudio de yoga en caliente elige «Estudio de yoga en caliente», más concreto que «Centro de fitness». Un estudio de pilates con reformer elige «Estudio de pilates», más concreto que «Gimnasio».
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Para un estudio de yoga en caliente, la categoría «Estudio de yoga en caliente» es más concreta que «Centro de fitness», y es la que mueve su posición en el mapa.">
+<path d="M145 75 L215 35" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M145 75 L215 115" class="fg-accent"/>
+<rect x="15" y="55" width="130" height="40" rx="6" class="fg-box"/>
+<rect x="215" y="12" width="175" height="46" rx="6" class="fg-box"/>
+<rect x="215" y="92" width="175" height="46" rx="6" class="fg-hot"/>
+<text x="80" y="81" text-anchor="middle" class="fg-strong">Tu estudio</text>
+<text x="302" y="32" text-anchor="middle" class="fg-text">Centro de fitness</text>
+<text x="302" y="50" text-anchor="middle" class="fg-label">más genérica</text>
+<text x="302" y="112" text-anchor="middle" class="fg-strong">Yoga en caliente</text>
+<text x="302" y="130" text-anchor="middle" class="fg-label">más concreta</text>
+</svg>
+<figcaption>La categoría principal es el cambio del perfil que más mueve tu posición en el mapa. Elige la más concreta que sea cierta para tu negocio.</figcaption>
+</figure>
 
 Las categorías secundarias sirven de apoyo: añade solo lo que de verdad enseñas u ofreces, porque Google penaliza el abuso de categorías. Revisa la lista cada tres meses, ya que Google sigue añadiendo opciones más concretas.
 
@@ -108,7 +145,7 @@ Las directrices de Google piden que las fotos representen el negocio tal como es
 
 Para los negocios de bienestar, las fotos en acción son las que más trabajan: un profesor a mitad de secuencia, una terapeuta preparando la sala, un estudio recibiendo a sus habituales de la mañana. Los vídeos verticales cortos, como un avance de clase o un recorrido por el estudio, completan la galería.
 
-## Las reseñas en la era del seudónimo
+## Pide reseñas todo el año y responde con datos concretos
 
 Las reseñas son lo que el cliente lee antes de llamarte, y su ritmo le dice a Google que el negocio sigue vivo.
 
@@ -118,7 +155,7 @@ Google revisa ahora las respuestas del propietario antes de publicarlas, normalm
 
 Busca un flujo constante de reseñas a lo largo del año, pidiéndolas después de cada clase o servicio. Una media alta con reseñas detalladas y recientes convence más que una nota perfecta hecha de elogios genéricos.
 
-## Publicaciones, productos y las superficies con más margen
+## Usa publicaciones y productos para ganar clics en el perfil
 
 Las publicaciones suben el porcentaje de clics dentro del perfil y alimentan las respuestas de la IA en Maps, aunque su efecto sobre la posición sea indirecto.
 
@@ -128,13 +165,13 @@ La pestaña de Productos es la superficie con más margen del perfil, incluso en
 
 Cada ficha de producto da a la IA de Maps algo concreto que citar cuando alguien pregunta quién hace cerca yoga prenatal, baños de sonido o pilates con reformer.
 
-## Mensajería, reservas y el último tramo
+## Facilita el mensaje y la reserva desde el perfil
 
 Cada paso que quitas entre la búsqueda y la reserva es un cliente más que llega. Añade un enlace de WhatsApp para que te escriban desde el perfil.
 
 Si vives de las clases, conecta tu sistema de reservas (MindBody, Momoyoga, Arketa, Bsport) al perfil, de modo que la reserva se haga en el mismo sitio donde te encontraron.
 
-## Métricas que vale la pena seguir
+## Sigue las tres métricas que cuentan
 
 Las métricas del panel te dicen si el perfil convierte las vistas en clientes. Céntrate en tres cosas:
 
@@ -143,6 +180,18 @@ Las métricas del panel te dicen si el perfil convierte las vistas en clientes. 
 -   La evolución de las vistas mes a mes.
 
 Lee las impresiones junto a las acciones. Si tienes muchas impresiones y pocas acciones, retoca primero la descripción y las fotos.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 154" role="img" aria-label="Del total de búsquedas que muestran tu perfil salen las vistas, y de las vistas, las acciones: llamadas, rutas, clics a la web y reservas.">
+<rect x="30" y="10" width="340" height="38" rx="6" class="fg-box"/>
+<rect x="75" y="58" width="250" height="38" rx="6" class="fg-box"/>
+<rect x="120" y="106" width="160" height="38" rx="6" class="fg-hot"/>
+<text x="200" y="34" text-anchor="middle" class="fg-text">Búsquedas</text>
+<text x="200" y="82" text-anchor="middle" class="fg-text">Vistas</text>
+<text x="200" y="131" text-anchor="middle" class="fg-strong">Acciones</text>
+</svg>
+<figcaption>Lee las vistas junto a las acciones. Con muchas impresiones y pocas acciones, retoca primero la descripción y las fotos.</figcaption>
+</figure>
 
 <aside class="post-cta">
 <p><strong>¿Quieres aparecer entre los primeros del mapa en Valencia?</strong> Nuestro <a href="/es/services/seo-local/">SEO local en Valencia</a> trabaja tu ficha, tus páginas por barrio y tus reseñas en el idioma de tus clientes, y en cada ciudad donde tengas sede. <a href="/es/contactanos/">Pide una auditoría gratuita de 20 minutos</a>.</p>
@@ -188,6 +237,6 @@ Con esas cinco al día, el perfil vuelve a trabajar para ti. En 2026 la constanc
 
 Llevamos más de dos décadas haciendo SEO y traducción. Entre nuestros clientes, un transitario de Houston está presente en el pack local de su sector, y llevamos también el SEO de un despacho de abogados de Valencia y de una inmobiliaria en la República Dominicana.
 
-¿Quieres una revisión directa de tu Perfil de Empresa de Google, de tu posición en el mapa o del SEO que lo rodea? [Escríbenos aquí](/es/contactanos/) o conoce cómo trabajamos en la [página sobre nosotros](https://mikebastin.com/es/conocenos-agencia-experta-en-seo/).
+¿Quieres una revisión directa de tu Perfil de Empresa de Google, de tu posición en el mapa o del SEO que lo rodea? [Pide tu revisión](/es/contactanos/) o conoce cómo trabajamos en la [página sobre nosotros](https://mikebastin.com/es/conocenos-agencia-experta-en-seo/).
 
 También puedes ver todo lo que cubrimos en la página de [servicios de SEO local](/es/services/seo-local/).

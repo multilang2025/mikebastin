@@ -57,9 +57,27 @@ Cada hábito de esta lista lleva el presupuesto al canal donde el problema sigue
 
 **Una estrategia que el equipo relee.** Un plan guía el trabajo mientras el equipo lo abre. Mantenlo lo bastante corto para releerlo cada semana; un documento de 90 páginas, por bien estructurado que esté, suele leerse una vez, el primer día.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 120" role="img" aria-label="Un plan de 90 páginas se lee una vez, el primer día; un plan corto se relee cada semana y sigue guiando el trabajo.">
+<path d="M178 60 L220 60" class="fg-accent"/>
+<path d="M212 53 L220 60 L212 67" class="fg-accent"/>
+<rect x="10" y="30" width="168" height="60" rx="6" class="fg-box"/>
+<rect x="222" y="30" width="168" height="60" rx="6" class="fg-hot"/>
+<text x="94" y="56" text-anchor="middle" class="fg-text">Plan de 90 páginas</text>
+<text x="94" y="76" text-anchor="middle" class="fg-label">leído una vez</text>
+<text x="306" y="56" text-anchor="middle" class="fg-strong">Plan corto</text>
+<text x="306" y="76" text-anchor="middle" class="fg-label">releído cada semana</text>
+</svg>
+<figcaption>Un plan lo bastante corto para releerlo cada semana guía el trabajo mientras el equipo lo abre.</figcaption>
+</figure>
+
 **El multilingüe, planificado desde el inicio.** Cuando las versiones en francés y en neerlandés se planifican a la vez que la española, cada una parte de su propio plan completo y de un traspaso limpio. Como muestran nuestras [buenas prácticas de SEO multilingüe](/es/buenas-practicas-seo-multilingue/), el marketing multilingüe que funciona incorpora la traducción a la planificación desde el primer día.
 
-## La prueba de la integración
+> El 76 % de los compradores en línea prefiere comprar productos con información en su lengua materna, y el 40 % nunca compra en webs en otros idiomas.
+>
+> Fuente: [CSA Research, «Can’t Read, Won’t Buy», encuesta a 8.709 consumidores de 29 países, julio de 2020](https://csa-research.com/l/media/Consumers-Prefer-their-Own-Language)
+
+## Comprueba en diez minutos si tu agencia coordina
 
 En diez minutos ves hasta qué punto está coordinado el trabajo de tu agencia. Haz estas tres preguntas sobre cualquier campaña activa.
 
@@ -87,7 +105,24 @@ Al reunirlo todo en un solo documento de estrategia y un solo plan de medición,
 
 Cada mejora salió de tácticas que ya estaban en marcha: conectarlas produjo la subida.
 
-## Los datos detrás de las campañas coordinadas
+<figure class="post-fig">
+<svg viewBox="0 0 400 120" role="img" aria-label="Cuatro encargos separados reunidos en una sola estrategia y un solo plan de medición, que sacó hallazgos a la luz en el primer mes.">
+<path d="M130 44 L136 52 L130 60" class="fg-line"/>
+<path d="M263 44 L269 52 L263 60" class="fg-accent"/>
+<rect x="7" y="30" width="120" height="44" rx="6" class="fg-box"/>
+<rect x="140" y="30" width="120" height="44" rx="6" class="fg-box"/>
+<rect x="273" y="30" width="120" height="44" rx="6" class="fg-hot"/>
+<text x="67" y="57" text-anchor="middle" class="fg-text">Encargos</text>
+<text x="200" y="57" text-anchor="middle" class="fg-text">Un plan</text>
+<text x="333" y="57" text-anchor="middle" class="fg-strong">Hallazgos</text>
+<text x="67" y="100" text-anchor="middle" class="fg-label">cuatro, separados</text>
+<text x="200" y="100" text-anchor="middle" class="fg-label">una estrategia</text>
+<text x="333" y="100" text-anchor="middle" class="fg-label">primer mes</text>
+</svg>
+<figcaption>Conectar las tácticas existentes en un solo plan produjo la subida: cada hallazgo salió de un trabajo que ya estaba en marcha.</figcaption>
+</figure>
+
+## Lo que dicen los datos sobre las campañas coordinadas
 
 La conexión entre canales rinde más que su número. El análisis del IPA de más de 250 casos de campañas encontró una diferencia medible entre el trabajo integrado en varios canales y las campañas de un solo canal.
 
@@ -97,7 +132,27 @@ La conexión entre canales rinde más que su número. El análisis del IPA de m�
 
 Para tu presupuesto, tres canales conectados rinden más que siete aislados.
 
-## Lo que una propuesta 360 debe enseñarte
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Siete canales aislados a un lado y tres canales conectados entre sí al otro, con los tres conectados destacados.">
+<line x1="200" y1="20" x2="200" y2="115" class="fg-rule"/>
+<path d="M260 95 L340 95 L300 35 Z" class="fg-accent"/>
+<circle cx="45" cy="40" r="10" class="fg-box"/>
+<circle cx="100" cy="28" r="10" class="fg-box"/>
+<circle cx="155" cy="44" r="10" class="fg-box"/>
+<circle cx="60" cy="80" r="10" class="fg-box"/>
+<circle cx="120" cy="72" r="10" class="fg-box"/>
+<circle cx="160" cy="100" r="10" class="fg-box"/>
+<circle cx="90" cy="108" r="10" class="fg-box"/>
+<circle cx="300" cy="35" r="14" class="fg-hot"/>
+<circle cx="260" cy="95" r="14" class="fg-hot"/>
+<circle cx="340" cy="95" r="14" class="fg-hot"/>
+<text x="100" y="142" text-anchor="middle" class="fg-label">siete aislados</text>
+<text x="300" y="142" text-anchor="middle" class="fg-strong">tres conectados</text>
+</svg>
+<figcaption>La conexión rinde más que el número de canales: tres canales que comparten un plan superan a siete que funcionan por separado.</figcaption>
+</figure>
+
+## Qué pedir en una propuesta 360 antes de firmar
 
 Lee cada propuesta con la columna de la derecha delante: cada línea es algo que conviene pedir antes de firmar.
 
@@ -109,7 +164,7 @@ Lee cada propuesta con la columna de la derecha delante: cada línea es algo que
 | «Preparados para el multilingüe» | La traducción como parte de la planificación desde el inicio |
 | «Redes sociales siempre activas» | Redes sociales ligadas a los mismos objetivos de conversión que el pago y el SEO |
 
-## Cómo saber si un socio 360 es la contratación adecuada
+## Cuándo te conviene contratar un socio 360
 
 Un socio 360 compensa en cuanto necesitas coordinación entre canales. Solemos recomendar contratarlo cuando se cumplen al menos dos de estas condiciones.
 
@@ -119,7 +174,7 @@ Un socio 360 compensa en cuanto necesitas coordinación entre canales. Solemos r
 
 En los demás casos, un responsable sénior a tiempo parcial con dos especialistas externos suele dar mejores resultados que una agencia con cuota fija, con menos coste y más atención puesta en la restricción real. Nuestra comparación entre [asesor de marketing digital o agencia](/es/asesor-marketing-digital/) te ayuda a decidir.
 
-## Una segunda mirada sobre tu motor de marketing
+## Compara la cuota 360 con tu equipo interno
 
 Si estás comparando la cuota de una agencia de marketing 360 en Valencia con mantener el trabajo en casa, revisamos contigo las ventajas de cada opción, en persona en nuestra oficina de Valencia o por videollamada.
 

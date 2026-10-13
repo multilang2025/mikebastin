@@ -12,17 +12,17 @@ sourceUrl: null
 excerpt: "Rédigez votre parcours professionnel en marketing digital pour que les premières secondes de lecture vous vendent, sur un CV, LinkedIn ou votre site."
 ---
 
-## Un parcours professionnel qui ouvre sur des résultats
+## Un parcours professionnel qui met vos résultats en avant
 
 Un client qui hésite entre deux agences, ou un recruteur face à quarante CV, accorde quelques secondes à votre parcours professionnel. Ouvrez ces secondes sur des résultats et vous décrochez le rendez-vous grâce à votre expérience. En marketing digital, où tout le monde revendique les mêmes outils, la façon de présenter votre expérience décide de qui reçoit l’appel.
 
 Les conseils qui suivent valent pour un CV, un profil LinkedIn ou le site de votre entreprise. Dans les exemples, [X] remplace un pourcentage : mettez-y votre propre résultat mesuré.
 
-## Écrire pour le lecteur qui décide
+## Écrivez pour le lecteur qui décide
 
 Un client et un employeur ont besoin que votre parcours commence par des éléments différents : rédigez une version pour chacun.
 
-### Adapter le contenu au support
+### Adaptez le contenu au support
 
 L’endroit où paraît votre parcours décide de sa longueur, de son ton et de ce qu’il met en avant :
 
@@ -57,7 +57,7 @@ Les recruteurs parcourent les CV en diagonale : chaque ligne doit y mériter sa
 <figcaption>Le résumé fait le plus gros du travail, car pour beaucoup de lecteurs il constitue tout le profil. Tout ce qui suit confirme ce que le résumé annonce.</figcaption>
 </figure>
 
-### Repérer ce que votre lecteur cherche
+### Repérez ce que votre lecteur cherche
 
 Quiconque recrute en marketing digital cherche quatre éléments, et un parcours qui les montre tous dès le premier écran est lu plus loin :
 
@@ -66,7 +66,7 @@ Quiconque recrute en marketing digital cherche quatre éléments, et un parcours
 -   **Des certifications** : les certifications du secteur vous donnent un avantage et montrent que vous continuez à vous former ; placez-les là où elles se voient.
 -   **Des résultats chiffrés** : le marketing digital se juge sur les résultats, alors montrez les vôtres, comme la hausse du trafic du site, des taux de conversion ou de l’engagement.
 
-## Construire un résumé professionnel convaincant
+## Ouvrez sur un résumé qui vend à lui seul
 
 Beaucoup de lecteurs s’arrêtent à votre résumé : il doit vendre à lui seul. Un bon résumé dit au lecteur, en deux phrases, ce que vous faites, pour qui, et ce qui a changé grâce à vous.
 
@@ -80,11 +80,11 @@ Une phrase donne votre spécialité, votre niveau et la valeur que vous apportez
 Exemple :  
 « Des campagnes qui ont fait progresser le trafic organique de [X] % en six mois, de façon régulière, avec une spécialité : faire des moteurs de recherche une source de conversions pour les clients. »
 
-## Détailler votre expérience professionnelle
+## Détaillez votre expérience professionnelle
 
 Votre historique professionnel est l’endroit où le lecteur vérifie que le résumé disait vrai.
 
-### Structurer votre historique
+### Structurez votre historique
 
 Listez les postes dans l’ordre antichronologique, le plus récent en premier. Pour chacun, indiquez :
 
@@ -94,19 +94,35 @@ Listez les postes dans l’ordre antichronologique, le plus récent en premier. 
 -   Une courte description de vos responsabilités
 -   Les réalisations clés
 
-### Employer des verbes d’action et des résultats mesurables
+### Employez des verbes d’action et des résultats mesurables
 
 « Chargé de » dit au lecteur ce que vous deviez faire. Un verbe et un résultat lui disent ce que vous avez fait. Employez des verbes comme « piloté », « développé », « augmenté » ou « optimisé », et associez chacun à un résultat mesuré.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 130" role="img" aria-label="Avant et après : « Chargé de » énumère des missions ; un verbe associé à un résultat montre ce que vous avez fait.">
+<path d="M192 65 L206 65" class="fg-line"/>
+<path d="M201 60 L206 65 L201 70" class="fg-line"/>
+<rect x="10" y="30" width="180" height="70" rx="6" class="fg-box"/>
+<rect x="210" y="30" width="180" height="70" rx="6" class="fg-hot"/>
+<text x="100" y="20" text-anchor="middle" class="fg-label">Avant</text>
+<text x="300" y="20" text-anchor="middle" class="fg-label">Après</text>
+<text x="100" y="62" text-anchor="middle" class="fg-text">Chargé de</text>
+<text x="100" y="84" text-anchor="middle" class="fg-label">missions listées</text>
+<text x="300" y="62" text-anchor="middle" class="fg-strong">Verbe, résultat</text>
+<text x="300" y="84" text-anchor="middle" class="fg-label">ce que vous avez fait</text>
+</svg>
+<figcaption>Remplacez la mission par l’action : un verbe et un résultat mesuré montrent au lecteur ce que vous avez fait.</figcaption>
+</figure>
+
 Transformez « Chargé du SEO » en « Pilotage des actions SEO qui ont augmenté le trafic organique de [X] % en six mois ».
 
-### Expliquer une interruption de carrière (le cas échéant)
+### Expliquez une interruption de carrière (le cas échéant)
 
 Une interruption expliquée en une ligne répond à la question du lecteur avant qu’il ne la pose. Présentez-la brièvement et positivement, avec les compétences acquises pendant cette période en freelance, sur des projets personnels ou en formation.
 
 Par exemple : « Pause de carrière en 2021 : certifications obtenues en Google Analytics et HubSpot pour renforcer les compétences techniques en marketing. »
 
-## Mettre en valeur formation et certifications
+## Mettez en avant vos certifications à jour
 
 En marketing digital, une certification à jour en dit souvent plus qu’un diplôme sur ce que vous savez faire dès le lundi matin, car elle prouve une maîtrise pratique des outils qu’utilise un client ou un employeur.
 
@@ -116,7 +132,7 @@ Placez en évidence les certifications comme Google Ads, Google Analytics, HubSp
 
 Exemple : « Certifié Google Analytics, HubSpot Content Marketing et Semrush SEO Toolkit. »
 
-## Mettre en avant compétences et expertise
+## Listez les compétences que demande le poste
 
 Une courte liste de compétences calquée sur le poste montre d’emblée que vous correspondez au profil.
 
@@ -127,7 +143,7 @@ Les compétences techniques comme le SEO (savoir dérouler une [checklist d’au
 
 Appuyez chaque savoir-être sur un moment précis : une équipe que vous avez dirigée, un projet complexe que vous avez livré, une solution créative à un problème marketing.
 
-## Intégrer vos réalisations professionnelles
+## Choisissez les réalisations qui prouvent vos résultats
 
 Les réalisations sont ce dont le lecteur se souvient une fois la page fermée : choisissez celles qui prouvent que vous savez livrer ce dont il a besoin, avec résultats et contexte.
 
@@ -140,11 +156,31 @@ Le contexte transforme un chiffre en une histoire que le lecteur peut se représ
 <p><strong>Vos équipes obtiennent de bons résultats ; vous voulez que votre site attire aussi des demandes depuis vos autres marchés ?</strong> Notre <a href="/fr/services/seo/">SEO international</a> positionne vos pages sur chaque marché où vous vendez, de l’Espagne au Benelux et à l’Allemagne. <a href="/fr/nous-contacter/">Réservez un premier échange</a>.</p>
 </aside>
 
-## Adapter votre parcours à chaque opportunité
+## Adaptez votre parcours à chaque offre
 
 Un parcours rédigé pour un poste convainc le lecteur de ce poste. Adaptez-le à l’offre ou au client que vous avez en face de vous, car le marketing digital recouvre des métiers très différents.
 
 Pour un poste en marketing de contenu, mettez en avant le SEO, l’analyse et votre capacité à bâtir une [stratégie de contenu ciblée](/fr/strategie-de-contenu-ciblee/). Pour un poste de spécialiste SEO, commencez par le [SEO technique des sites multilingues](/fr/services/seo-technique/), la recherche de mots-clés et les audits de site.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Un même parcours adapté de trois façons : pour un poste en contenu, pour un poste technique et pour un client.">
+<path d="M200 50 L70 102" class="fg-line"/>
+<path d="M200 50 L200 102" class="fg-line"/>
+<path d="M200 50 L330 102" class="fg-line"/>
+<rect x="115" y="10" width="170" height="40" rx="6" class="fg-hot"/>
+<rect x="7" y="102" width="126" height="46" rx="6" class="fg-box"/>
+<rect x="137" y="102" width="126" height="46" rx="6" class="fg-box"/>
+<rect x="267" y="102" width="126" height="46" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-strong">Votre parcours</text>
+<text x="70" y="122" text-anchor="middle" class="fg-text">Contenu</text>
+<text x="70" y="140" text-anchor="middle" class="fg-label">SEO, analyse</text>
+<text x="200" y="122" text-anchor="middle" class="fg-text">Technique</text>
+<text x="200" y="140" text-anchor="middle" class="fg-label">audits de site</text>
+<text x="330" y="122" text-anchor="middle" class="fg-text">Client</text>
+<text x="330" y="140" text-anchor="middle" class="fg-label">son problème</text>
+</svg>
+<figcaption>La même expérience, présentée autrement pour chaque lecteur : SEO et analyse pour le contenu, audits de site pour le technique, son problème pour un client.</figcaption>
+</figure>
 
 -   Pour un poste orienté contenu : « Conception de stratégies de contenu pilotées par le SEO, alignées sur le message de la marque et les attentes du public, avec un engagement en hausse de [X] %. »
 -   Pour un poste en SEO technique : « Spécialiste des audits de site, de la recherche de mots-clés et de l’optimisation on-page, avec [X] mots-clés très concurrentiels amenés en première page. »
@@ -169,7 +205,26 @@ Un texte soigné protège un parcours solide, car un lecteur qui juge votre souc
 
 Passez votre texte dans Antidote ou LanguageTool, puis relisez-le vous-même plusieurs fois. Demandez à un collègue ou à un mentor de confiance de le relire : un second lecteur découvre le texte d’un œil neuf et repère où l’argument demande à être étoffé.
 
-## L’essentiel en bref
+<figure class="post-fig">
+<svg viewBox="0 0 400 120" role="img" aria-label="Trois relectures : un correcteur comme Antidote, plusieurs lectures par vous-même, puis un collègue d’un œil neuf.">
+<path d="M125 60 L138 60" class="fg-line"/>
+<path d="M133 55 L138 60 L133 65" class="fg-line"/>
+<path d="M260 60 L273 60" class="fg-line"/>
+<path d="M268 55 L273 60 L268 65" class="fg-line"/>
+<rect x="5" y="35" width="120" height="50" rx="6" class="fg-box"/>
+<rect x="140" y="35" width="120" height="50" rx="6" class="fg-box"/>
+<rect x="275" y="35" width="120" height="50" rx="6" class="fg-hot"/>
+<text x="65" y="57" text-anchor="middle" class="fg-strong">Correcteur</text>
+<text x="65" y="76" text-anchor="middle" class="fg-label">Antidote</text>
+<text x="200" y="57" text-anchor="middle" class="fg-strong">Vous</text>
+<text x="200" y="76" text-anchor="middle" class="fg-label">relectures</text>
+<text x="335" y="57" text-anchor="middle" class="fg-strong">Collègue</text>
+<text x="335" y="76" text-anchor="middle" class="fg-label">œil neuf</text>
+</svg>
+<figcaption>Trois relectures, chacune d’un œil plus neuf : le correcteur, vous, puis un collègue qui repère où l’argument demande plus.</figcaption>
+</figure>
+
+## Traitez votre parcours comme une page de vente
 
 Que vous postuliez à un poste, présentiez une offre à un client ou mettiez à jour votre profil LinkedIn, votre parcours professionnel est une page de vente à votre nom. Traitez-le comme tel.
 

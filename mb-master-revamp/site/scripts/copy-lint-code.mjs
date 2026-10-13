@@ -107,6 +107,12 @@ function copyStrings(src) {
   // figure. The conflict itself is recorded in that file's `note` fields
   // for the owner to decide, which is a decision, not a typo.
   src = src.replace(/\bterm:\s*(["'`])(?:[^\\]|\\.)*?\1/g, "x: \"\"");
+  // An `fr:` or `es:` value is French or Spanish copy sitting in a data
+  // file (the per-locale alts in lib/post-figures.ts). Every rule here is
+  // an English rule and `\b` reads the "è" in "crème" as a boundary, so
+  // the first-person check fired on it, the same misfire that keeps
+  // app/fr/ and app/es/ out of this lint below.
+  src = src.replace(/\b(?:fr|es):\s*(["'`])(?:[^\\]|\\.)*?\1/g, "x: \"\"");
   // Double- and single-quoted string literals, and template literals.
   for (const m of src.matchAll(/"((?:[^"\\\n]|\\.)*)"|'((?:[^'\\\n]|\\.)*)'|`((?:[^`\\]|\\.)*)`/g)) {
     out.push(m[1] ?? m[2] ?? m[3] ?? "");
@@ -191,7 +197,10 @@ for (const path of files) {
     for (const w of US_SPELLINGS) {
       if (new RegExp(`\\b${w}\\b`, "i").test(line)) issues.push([`US spelling: ${w.split("(")[0]}`, line]);
     }
-    if (/\b(I|my|me|mine|myself)\b/.test(line)) issues.push(["first-person singular", line]);
+    // Letter-aware edges rather than \b, which reads the "ê" in "même" or the
+    // "è" in "deuxième" as a boundary and so found "me" inside French words
+    // in the shared copy files (lib/checklist-copy.ts, lib/case-studies-locale.ts).
+    if (/(?<![\p{L}\p{N}])(I|my|me|mine|myself)(?![\p{L}\p{N}])/u.test(line)) issues.push(["first-person singular", line]);
     if (/^(This|That)\s/.test(line)) issues.push(["This or That opener", line]);
   }
   if (issues.length) {

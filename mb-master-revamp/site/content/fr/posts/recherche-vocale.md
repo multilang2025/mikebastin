@@ -25,6 +25,23 @@ Vous trouverez ci-dessous ce qui a changé côté assistants en 2026, la façon 
 
 Les assistants vocaux reposent désormais sur les mêmes modèles d’IA que les réponses écrites. Un contenu optimisé pour la voix sert donc aussi ChatGPT, Gemini et les AI Overviews de Google, ce qui double la valeur du travail.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Un même contenu optimisé pour la voix sert les assistants vocaux, ChatGPT et les AI Overviews de Google, car tous reposent sur les mêmes modèles d’IA.">
+<path d="M200 50 L68 100" class="fg-line"/>
+<path d="M200 50 L200 100" class="fg-line"/>
+<path d="M200 50 L332 100" class="fg-line"/>
+<rect x="125" y="10" width="150" height="40" rx="6" class="fg-hot"/>
+<rect x="6" y="100" width="124" height="40" rx="6" class="fg-box"/>
+<rect x="138" y="100" width="124" height="40" rx="6" class="fg-box"/>
+<rect x="270" y="100" width="124" height="40" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-strong">Votre contenu</text>
+<text x="68" y="126" text-anchor="middle" class="fg-text">Assistants</text>
+<text x="200" y="126" text-anchor="middle" class="fg-text">ChatGPT</text>
+<text x="332" y="126" text-anchor="middle" class="fg-text">AI Overviews</text>
+</svg>
+<figcaption>Les assistants vocaux et les réponses écrites puisent dans les mêmes modèles : le travail fait pour la voix sert aussi l’écrit.</figcaption>
+</figure>
+
 - **Google** : sur les téléphones Android, Gemini a remplacé Google Assistant à partir du 4 septembre 2026 ; les enceintes Nest conservent Assistant pour l’instant ([Android Headlines, septembre 2026](https://www.androidheadlines.com/2026/09/google-assistant-killed-android-gemini.html)).
 - **Apple** : Apple a confirmé en janvier 2026 que les modèles Gemini de Google alimenteraient la prochaine génération de Siri ([MacRumors, 12 janvier 2026](https://www.macrumors.com/2026/01/12/google-gemini-next-generation-siri/)).
 - **Amazon** : Alexa+, la version d’Alexa fondée sur l’IA générative, est arrivée en France en accès anticipé le 26 mai 2026, avec des modèles de Mistral AI pour le français ([Journal du Geek, 26 mai 2026](https://www.journaldugeek.com/2026/05/26/amazon-lance-alexa-en-france-prix-date-ce-que-lia-change-vraiment-pour-vous/)).
@@ -41,7 +58,7 @@ L’usage de la voix était déjà bien installé en France avant cette vague.
 
 Pour suivre l’évolution de ces usages en France, l’analyse de [Datta sur les nouveaux comportements liés à la recherche vocale](https://www.datta.fr/recherche-vocale-emergence-de-nouveaux-comportements-digitaux-en-2025/) et celle d’[Epixelic sur les sites vitrines face aux assistants IA](https://www.epixelic.com/articles/votre-site-vitrine-est-il-pret-pour-la-nouvelle-vague-de-recherche-vocale-des-ia-en-2026) complètent ce panorama.
 
-## Écrire comme vos clients parlent
+## Écrivez comme vos clients parlent
 
 Une page rédigée dans les mots que vos clients prononcent correspond directement à leur question, et l’assistant peut la lire telle quelle. À l’oral, les internautes formulent des phrases complètes, souvent des questions, avec un lieu ou un moment précis.
 
@@ -61,11 +78,30 @@ D’autres exemples, tels que les assistants les reçoivent chaque jour :
 
 Rédigez vos titres et vos premiers paragraphes à partir de ces questions, puis répondez-y dans la phrase qui suit. L’agence [Natural-Net](https://www.natural-net.fr/blog-agence-web/2024/11/13/la-recherche-vocale-en-2025-maitrisez-les-nouvelles-interactions-avec-l-internet-de-demain.html) détaille ces nouvelles interactions pour le marché français.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 112" role="img" aria-label="Une question posée à l’oral devient le titre de la page, et la réponse arrive dans la phrase qui suit.">
+<line x1="118" y1="40" x2="145" y2="40" class="fg-line"/>
+<path d="M139 35 L145 40 L139 45" class="fg-line"/>
+<line x1="255" y1="40" x2="282" y2="40" class="fg-line"/>
+<path d="M276 35 L282 40 L276 45" class="fg-line"/>
+<rect x="8" y="18" width="110" height="44" rx="6" class="fg-box"/>
+<rect x="145" y="18" width="110" height="44" rx="6" class="fg-box"/>
+<rect x="282" y="18" width="110" height="44" rx="6" class="fg-hot"/>
+<text x="63" y="46" text-anchor="middle" class="fg-text">Question</text>
+<text x="200" y="46" text-anchor="middle" class="fg-text">Titre</text>
+<text x="337" y="46" text-anchor="middle" class="fg-strong">Réponse</text>
+<text x="63" y="92" text-anchor="middle" class="fg-label">posée à l’oral</text>
+<text x="200" y="92" text-anchor="middle" class="fg-label">qui la reprend</text>
+<text x="337" y="92" text-anchor="middle" class="fg-label">phrase suivante</text>
+</svg>
+<figcaption>Le titre reprend la question telle qu’elle se prononce, et la phrase suivante y répond : l’assistant peut alors lire la page telle quelle.</figcaption>
+</figure>
+
 <aside class="post-cta">
 <p><strong>Vous voulez être la réponse que l’assistant lit dans chaque ville où vous vendez ?</strong> Notre <a href="/fr/services/referencement-local/">référencement local</a> travaille votre fiche Google Business Profile, vos pages par ville et vos avis, dans la langue de vos clients. <a href="/fr/nous-contacter/">Réserver un premier échange</a>.</p>
 </aside>
 
-## Viser la réponse unique : extraits optimisés et réponses directes
+## Visez la réponse unique que lit l’assistant
 
 Un assistant vocal lit une seule réponse à l’utilisateur, et il la prend souvent dans un extrait optimisé de Google (la « position zéro ») ou dans la réponse rédigée par l’IA. Décrocher cette place vous donne toute la visibilité de la requête.
 
@@ -105,7 +141,7 @@ Le cabinet [Transtec](https://www.transtec.fr/recherche-vocale-definition-et-usa
 3. Validez votre établissement selon la méthode proposée par Google : vidéo, téléphone, e-mail ou courrier.
 4. Tenez vos informations à jour : horaires, photos, réponses aux avis.
 
-## Adapter la stratégie au type de requête
+## Adaptez votre contenu à chaque type de question
 
 Chaque type de question appelle un contenu différent, et c’est ce contenu qui fait de votre page la réponse lue.
 
@@ -129,9 +165,23 @@ Certains formats se prêtent naturellement à la lecture à voix haute. Les priv
 
 Google a retiré les résultats enrichis FAQ de ses pages de résultats le 7 mai 2026, et les résultats HowTo dès septembre 2023. Les pages de questions fréquentes gardent toute leur valeur : elles répondent aux questions telles qu’elles se posent, et les assistants comme les moteurs d’IA les lisent.
 
-## Bonnes pratiques pour un impact maximal
+## Réglez vos pages pour qu’un assistant les lise d’un trait
 
 Ces réglages transforment un contenu bien écrit en réponse que l’assistant peut lire d’un trait.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 164" role="img" aria-label="Un contenu bien écrit, réglé avec les balises Schema, une mise en page mobile et des coordonnées identiques partout, devient une réponse que l’assistant lit d’un trait.">
+<path d="M200 48 L200 62" class="fg-dim"/>
+<path d="M200 102 L200 116" class="fg-accent"/>
+<rect x="90" y="8" width="220" height="40" rx="6" class="fg-box"/>
+<rect x="40" y="62" width="320" height="40" rx="6" class="fg-box"/>
+<rect x="60" y="116" width="280" height="40" rx="6" class="fg-hot"/>
+<text x="200" y="34" text-anchor="middle" class="fg-text">Contenu bien écrit</text>
+<text x="200" y="88" text-anchor="middle" class="fg-text">Schema, mobile, coordonnées</text>
+<text x="200" y="142" text-anchor="middle" class="fg-strong">Lu d’un trait</text>
+</svg>
+<figcaption>Les réglages techniques transforment un bon texte en réponse prête à être lue à voix haute.</figcaption>
+</figure>
 
 - Travaillez des mots-clés de longue traîne formulés en langage conversationnel, sur une base technique saine : c’est le rôle de notre [SEO technique pour sites multilingues](/fr/services/seo-technique/).
 - Adoptez une approche mobile d’abord, avec des mises en page adaptatives et une [localisation de site web](/fr/services/localisation-de-site-web/) qui respecte les formats de chaque marché.
@@ -146,7 +196,7 @@ Pour le commerce local, les requêtes vocales ressemblent à celles-ci :
 - « Itinéraire vers la bibliothèque la plus proche »
 - « Quelle pharmacie de Lyon est ouverte le dimanche ? »
 
-## Mesurer et améliorer vos résultats
+## Mesurez les questions qui vous apportent des visites
 
 Mesurer vous indique quelles questions vous rapportent déjà des visites et lesquelles travailler ensuite.
 
@@ -176,7 +226,7 @@ Vous pouvez aussi nous écrire à info@mikebastin.com ou passer par [mikebastin.
 
 La recherche vocale transforme une question orale en requête textuelle grâce à la reconnaissance vocale. L’assistant, aujourd’hui un modèle d’IA comme Gemini, analyse ensuite cette requête et lit une réponse rapide, tirée du web ou de ses propres sources.
 
-### Quel impact sur le SEO ?
+### Quel impact la recherche vocale a-t-elle sur le SEO ?
 
 La recherche vocale favorise les contenus structurés, les réponses directes et les requêtes de longue traîne. Elle renforce aussi l’intérêt des extraits optimisés et de la position zéro.
 
@@ -184,7 +234,7 @@ La recherche vocale favorise les contenus structurés, les réponses directes et
 
 À l’oral, les utilisateurs parlent naturellement, avec des phrases complètes. Leurs recherches sont donc plus longues et plus précises que les requêtes tapées.
 
-### Faut-il adapter son contenu pour Gemini, Siri et Alexa ?
+### Faut-il adapter votre contenu pour Gemini, Siri et Alexa ?
 
 Oui. Ces assistants retiennent les contenus clairs, bien structurés et qui répondent à une question précise. Un contenu bien formaté augmente vos chances d’être choisi comme réponse vocale.
 

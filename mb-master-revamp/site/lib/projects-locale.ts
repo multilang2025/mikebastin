@@ -1,8 +1,9 @@
 /**
- * French and Spanish copy for the portfolio spreads on the FR and ES
- * homepages. Facts are the English ones in lib/projects.ts, said for a
- * French- or Spanish-speaking reader; the case study pages stay English, so
- * these spreads do not link to them. Draft for the owner's review.
+ * French and Spanish copy for the portfolio cards on the FR and ES
+ * homepages and the hero of each FR and ES case study page (the rest of the
+ * page is in lib/case-studies-locale.ts). Facts are the English ones in
+ * lib/projects.ts, said for a French- or Spanish-speaking reader. Draft for
+ * the owner's review.
  */
 export type ProjectCopy = {
   angle: string;
@@ -67,11 +68,11 @@ export const PROJECTS_FR: Record<string, ProjectCopy> = {
     alt: "Le site ValenciaMove sur ordinateur et sur mobile",
   },
   "bemelman-spuiterij": {
-    angle: `Thermolaquage aux Pays-Bas, 45${N}ans`,
+    angle: "Thermolaquage aux Pays-Bas",
     body: "Un spécialiste de Noordwijkerhout dont la réputation dépassait sa présence en ligne. Du SEO local néerlandais pour un métier où les acheteurs sont des entreprises et où peu de recherches suffisent à décider.",
     services: ["SEO local néerlandais", "Site sous Divi", "Recherche B2B"],
     metrics: [
-      { v: `45${N}ans`, k: "D’activité" },
+      { v: "B2B", k: "Acheteurs professionnels" },
       { v: "NL", k: "Recherche locale" },
     ],
     alt: "Le site Bemelman Spuiterij sur ordinateur et sur mobile",
@@ -105,7 +106,7 @@ export const PROJECTS_ES: Record<string, ProjectCopy> = {
     services: ["SEO multidominio", "Contenido multilingüe", "Nueve mercados nacionales"],
     metrics: [
       { v: "9", k: "Dominios nacionales" },
-      { v: "20 años", k: "De actividad" },
+      { v: `20${N}años`, k: "De actividad" },
     ],
     alt: "La web de BeTranslated en ordenador y en móvil",
   },
@@ -151,11 +152,11 @@ export const PROJECTS_ES: Record<string, ProjectCopy> = {
     alt: "La web de ValenciaMove en ordenador y en móvil",
   },
   "bemelman-spuiterij": {
-    angle: "Pintura en polvo en los Países Bajos, 45 años",
+    angle: "Pintura en polvo en los Países Bajos",
     body: "Un especialista de Noordwijkerhout cuya reputación iba por delante de su presencia en internet. SEO local neerlandés para un oficio en el que los compradores son empresas y pocas búsquedas bastan para decidir.",
     services: ["SEO local neerlandés", "Web en Divi", "Búsqueda B2B"],
     metrics: [
-      { v: "45 años", k: "De actividad" },
+      { v: "B2B", k: "Compradores profesionales" },
       { v: "NL", k: "Búsqueda local" },
     ],
     alt: "La web de Bemelman Spuiterij en ordenador y en móvil",

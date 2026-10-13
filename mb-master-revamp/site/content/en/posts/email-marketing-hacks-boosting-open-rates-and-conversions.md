@@ -1,6 +1,6 @@
 ---
 words: 769
-title: "Email marketing hacks: boosting open rates and conversions"
+title: "Email marketing tips that lift open rates and conversions"
 slug: "email-marketing-hacks-boosting-open-rates-and-conversions"
 locale: "en"
 type: "posts"
@@ -12,13 +12,13 @@ sourceUrl: "https://mikebastin.com/email-marketing-hacks-boosting-open-rates-and
 excerpt: "Your emails get opened; now make them sell. These email marketing hacks lift open rates and conversions: sharper subject lines, mobile layouts, segments."
 ---
 
-## Proven strategies to increase email performance and drive results
+## Earn the open, then the sale
 
 Your list is growing, your emails go out on time, and the next step is the sales they should bring in. Every send that earns a read trains your subscribers to open the next one.
 
 Below: subject lines that earn the open, emails people can act on from a phone, segments that make each send relevant, and the numbers that show whether email pays.
 
-## Writing compelling subject lines
+## Write subject lines that earn the open
 
 The subject line earns the chance for everything else in the email.
 
@@ -31,14 +31,14 @@ Emotionally charged words trigger curiosity or urgency. Use them where they are 
 -   “Breaking”
 -   “Insider”
 
-### Employ the curiosity gap
+### Open a curiosity gap
 
 Hint at something valuable and keep the full reveal for the email. For example:
 
 -   “The workout trick that’s changing lives”
 -   “You won’t believe what we’ve discovered about productivity”
 
-### Personalisation beyond first names
+### Personalise beyond the first name
 
 A first name is expected. A detail the reader recognises as theirs gets noticed:
 
@@ -49,7 +49,23 @@ A first name is expected. A detail the reader recognises as theirs gets noticed:
 
 Your audience decides what works. Test subject line styles, lengths and elements on every send and keep what wins.
 
-## Optimizing email content for mobile devices
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Each send tests two subject lines, A and B, and the winning one is kept for the next send.">
+<path d="M155 75 L225 35" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M155 75 L225 115" class="fg-accent"/>
+<rect x="10" y="55" width="145" height="40" rx="6" class="fg-box"/>
+<rect x="225" y="12" width="165" height="46" rx="6" class="fg-box"/>
+<rect x="225" y="92" width="165" height="46" rx="6" class="fg-hot"/>
+<text x="82.5" y="81" text-anchor="middle" class="fg-strong">Each send</text>
+<text x="307.5" y="32" text-anchor="middle" class="fg-text">Subject A</text>
+<text x="307.5" y="50" text-anchor="middle" class="fg-label">tested</text>
+<text x="307.5" y="112" text-anchor="middle" class="fg-strong">Subject B</text>
+<text x="307.5" y="130" text-anchor="middle" class="fg-label">winner kept</text>
+</svg>
+<figcaption>Test on every send and keep what wins, so each campaign starts from the subject line your audience chose.</figcaption>
+</figure>
+
+## Design every email for the phone first
 
 An email that reads easily on a phone carries most of its readers through to your offer, so mobile optimization comes first.
 
@@ -57,17 +73,35 @@ An email that reads easily on a phone carries most of its readers through to you
 >
 > Source: [Litmus, email client market share, July 2026 data](https://www.litmus.com/email-client-market-share)
 
-### Embrace responsive design
+### Build with responsive design
 
 Emails should adapt to every screen size. A single-column layout keeps scrolling easy.
 
-### Optimize for quick scanning
+<figure class="post-fig">
+<svg viewBox="0 0 400 170" role="img" aria-label="A phone-first email: a single column, short paragraphs and large, easily tappable buttons.">
+<path d="M160 40 L198 40" class="fg-dim"/>
+<path d="M160 80 L198 80" class="fg-dim"/>
+<path d="M160 122 L198 122" class="fg-accent"/>
+<rect x="60" y="8" width="100" height="154" rx="14" class="fg-box"/>
+<rect x="74" y="26" width="72" height="28" rx="4" class="fg-fill"/>
+<rect x="74" y="66" width="72" height="6" rx="3" class="fg-fill"/>
+<rect x="74" y="78" width="72" height="6" rx="3" class="fg-fill"/>
+<rect x="74" y="90" width="48" height="6" rx="3" class="fg-fill"/>
+<rect x="74" y="110" width="72" height="24" rx="6" class="fg-hot"/>
+<text x="206" y="45" text-anchor="start" class="fg-text">Single column</text>
+<text x="206" y="85" text-anchor="start" class="fg-text">Short paragraphs</text>
+<text x="206" y="127" text-anchor="start" class="fg-strong">Large buttons</text>
+</svg>
+<figcaption>One column, short paragraphs and a large button carry a reader on a phone through to your offer.</figcaption>
+</figure>
+
+### Write for a quick scan
 
 -   Use short paragraphs and bullet points
 -   Leave plenty of white space
 -   Make CTAs large and easily tappable (minimum 44×44 pixels)
 
-### Optimize images so emails load and still make sense
+### Make images load fast and read well when switched off
 
 -   Give every image alt text, so the email reads well with images switched off
 -   Compress images to reduce load times
@@ -77,9 +111,26 @@ Emails should adapt to every screen size. A single-column layout keeps scrolling
 
 Preview every email on various platforms with tools like Litmus or Email on Acid before it goes to your whole list.
 
-## Using personalisation and segmentation
+## Segment your list and personalise each send
 
 A message written for one segment persuades that segment. Segments let each subscriber get the email that fits.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="One list split by behaviour into three segments: purchase history, email engagement and browsing patterns.">
+<path d="M200 50 L68 100" class="fg-line"/>
+<path d="M200 50 L200 100" class="fg-line"/>
+<path d="M200 50 L332 100" class="fg-line"/>
+<rect x="125" y="10" width="150" height="40" rx="6" class="fg-hot"/>
+<rect x="8" y="100" width="120" height="40" rx="6" class="fg-box"/>
+<rect x="140" y="100" width="120" height="40" rx="6" class="fg-box"/>
+<rect x="272" y="100" width="120" height="40" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-strong">Your list</text>
+<text x="68" y="126" text-anchor="middle" class="fg-text">Purchases</text>
+<text x="200" y="126" text-anchor="middle" class="fg-text">Engagement</text>
+<text x="332" y="126" text-anchor="middle" class="fg-text">Browsing</text>
+</svg>
+<figcaption>Each segment gets the email written for it, so every send stays relevant to the people who receive it.</figcaption>
+</figure>
 
 ### Behavioural segmentation
 
@@ -108,7 +159,7 @@ Match campaigns to the customer’s journey:
 -   Re-engagement campaigns for inactive users
 -   Loyalty rewards for frequent customers
 
-## Advanced analytics and optimization
+## Read the numbers behind each send
 
 Judge email on the right number and you improve the right thing.
 
@@ -156,7 +207,7 @@ AI and machine learning can predict:
 -   Which products a customer is most likely to buy next
 -   When a customer is at risk of churning
 
-### Automated optimization of subject lines, send times and content
+### Let automation test subject lines, send times and content
 
 AI-powered tools can automatically:
 
@@ -164,6 +215,6 @@ AI-powered tools can automatically:
 -   Optimize send times
 -   Personalise content for each recipient
 
-## Where to start
+## Fix your weakest link on the next send
 
 Pick the one weakest link, whether subject lines, mobile layout or segments, and test a fix on your next send. Judge it on clicks and conversions, keep what wins, and move to the next.

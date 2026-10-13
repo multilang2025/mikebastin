@@ -1,6 +1,6 @@
 ---
 words: 1193
-title: "Herramientas de IA y traducción automática para optimizar contenido multilingüe"
+title: "Herramientas de IA y traducción automática para tu contenido multilingüe"
 metaTitle: "Herramientas de IA y traducción automática multilingüe"
 slug: "herramientas-ia-traduccion-automatica"
 locale: "es"
@@ -25,6 +25,26 @@ Saber en qué destacan los motores te indica dónde dejarlos trabajar y dónde p
 
 También rinden en el trabajo repetitivo: cadenas de texto que se repiten, catálogos de producto y varias versiones de idioma que hay que actualizar cada vez que cambia el original.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Los motores de IA rinden en el trabajo repetitivo: cadenas que se repiten, catálogos de producto y versiones de idioma al día.">
+<path d="M200 50 L70 102" class="fg-line"/>
+<path d="M200 50 L200 102" class="fg-line"/>
+<path d="M200 50 L330 102" class="fg-line"/>
+<rect x="115" y="10" width="170" height="40" rx="6" class="fg-hot"/>
+<rect x="7" y="102" width="126" height="46" rx="6" class="fg-box"/>
+<rect x="137" y="102" width="126" height="46" rx="6" class="fg-box"/>
+<rect x="267" y="102" width="126" height="46" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-strong">Motores de IA</text>
+<text x="70" y="122" text-anchor="middle" class="fg-text">Cadenas</text>
+<text x="70" y="140" text-anchor="middle" class="fg-label">repetidas</text>
+<text x="200" y="122" text-anchor="middle" class="fg-text">Catálogos</text>
+<text x="200" y="140" text-anchor="middle" class="fg-label">de producto</text>
+<text x="330" y="122" text-anchor="middle" class="fg-text">Versiones</text>
+<text x="330" y="140" text-anchor="middle" class="fg-label">al día</text>
+</svg>
+<figcaption>El trabajo repetitivo es donde conviene dejar trabajar a los motores: cadenas, catálogos y actualizaciones en cada idioma.</figcaption>
+</figure>
+
 ### Dos familias de herramientas
 
 Las dos familias se complementan, y cada una pide un tipo de preparación distinto.
@@ -39,7 +59,7 @@ Las dos familias se complementan, y cada una pide un tipo de preparación distin
 >
 > Fuente: [DeepL, «Terms and Conditions: DeepL Pro»](https://www.deepl.com/en/pro-license) y [Google Cloud, «Creating and using glossaries (Advanced)»](https://cloud.google.com/translate/docs/advanced/glossary)
 
-## Ventajas de las herramientas de traducción con IA
+## Más idiomas con el mismo presupuesto
 
 El argumento es de presupuesto: más idiomas, antes, con el mismo gasto.
 
@@ -49,9 +69,43 @@ El argumento es de presupuesto: más idiomas, antes, con el mismo gasto.
 
 Las herramientas de traducción con IA ganan en eficiencia y conservan la mayor parte de la calidad cuando una persona sigue dentro del proceso.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="El mismo gasto de dos maneras: la traducción humana sola cubre menos idiomas; la IA con un revisor cubre más.">
+<path d="M150 75 L220 35" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M150 75 L220 115" class="fg-accent"/>
+<rect x="20" y="55" width="130" height="40" rx="6" class="fg-box"/>
+<rect x="220" y="12" width="170" height="46" rx="6" class="fg-box"/>
+<rect x="220" y="92" width="170" height="46" rx="6" class="fg-hot"/>
+<text x="85" y="81" text-anchor="middle" class="fg-strong">Mismo gasto</text>
+<text x="305" y="32" text-anchor="middle" class="fg-text">Solo humano</text>
+<text x="305" y="50" text-anchor="middle" class="fg-label">menos idiomas</text>
+<text x="305" y="112" text-anchor="middle" class="fg-strong">IA y revisor</text>
+<text x="305" y="130" text-anchor="middle" class="fg-label">más idiomas</text>
+</svg>
+<figcaption>Con el mismo gasto, la IA con un revisor cubre más idiomas que la traducción humana sola.</figcaption>
+</figure>
+
 ## Dónde la IA necesita una mano humana
 
 Los fallos que merece la pena cazar son los sutiles: frases que se leen bien y significan otra cosa. Una persona que conoce el mercado los detecta antes de que lleguen a un cliente.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 180" role="img" aria-label="Una cuadrícula del texto de la máquina según cómo suena y qué significa: fluido y fiel está listo, lo que suena raro se ve enseguida, y lo fluido con otro sentido es el error sutil que hay que cazar.">
+<rect x="120" y="40" width="130" height="60" rx="6" class="fg-box"/>
+<rect x="260" y="40" width="130" height="60" rx="6" class="fg-box"/>
+<rect x="120" y="110" width="130" height="60" rx="6" class="fg-hot"/>
+<rect x="260" y="110" width="130" height="60" rx="6" class="fg-box"/>
+<text x="185" y="28" text-anchor="middle" class="fg-label">Suena bien</text>
+<text x="325" y="28" text-anchor="middle" class="fg-label">Suena raro</text>
+<text x="110" y="75" text-anchor="end" class="fg-label">Sentido fiel</text>
+<text x="110" y="145" text-anchor="end" class="fg-label">Otro sentido</text>
+<text x="185" y="75" text-anchor="middle" class="fg-text">Lista</text>
+<text x="325" y="75" text-anchor="middle" class="fg-text">Evidente</text>
+<text x="185" y="146" text-anchor="middle" class="fg-strong">Sutil</text>
+<text x="325" y="145" text-anchor="middle" class="fg-text">Evidente</text>
+</svg>
+<figcaption>El error que merece el tiempo de un revisor está abajo a la izquierda: una frase fluida que dice otra cosa.</figcaption>
+</figure>
 
 ### Contexto cultural y matices
 
@@ -106,7 +160,7 @@ En la MTPE, un lingüista profesional edita el resultado de la máquina hasta qu
 <p><strong>¿Ya usas traducción automática y quieres saber dónde necesita un editor?</strong> Nuestra <a href="/es/services/posedicion-de-ia/">posedición de IA</a> fija tu terminología una vez por idioma y concentra la revisión a fondo en las páginas donde está el riesgo, con una pasada más ligera en el resto. <a href="/es/contactanos/">Pide la auditoría gratuita de 20 minutos</a>.</p>
 </aside>
 
-## Privacidad de datos y transparencia
+## Protege tus archivos confidenciales
 
 Los archivos confidenciales quedan bajo tu control cuando solo entran en herramientas que has validado.
 
@@ -120,7 +174,7 @@ Los modelos de traducción siguen ganando en precisión, contexto y matiz cultur
 
 Lo que se mantiene es el reparto de papeles: la herramienta cambia cada pocos meses, y el glosario, la guía de estilo y el revisor nativo siguen siendo tuyos. Revisa tus herramientas con regularidad y conserva esos tres activos. Para el día a día de tu revisor, nuestras [extensiones de Chrome para traductores](/es/extensiones-chrome-traductores/) agilizan los borradores y la consulta de terminología.
 
-## Dónde se encuentran la IA y la experiencia humana
+## Empieza por un idioma y mide la revisión
 
 Las herramientas de traducción con IA aportan velocidad y escala; la experiencia humana aporta relevancia cultural y calidad. Juntas dan el equilibrio entre eficiencia y precisión que necesita una empresa que vende en varios mercados.
 

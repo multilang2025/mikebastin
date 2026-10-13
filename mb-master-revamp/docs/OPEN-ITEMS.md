@@ -6,12 +6,13 @@ answer. Each owner question has an ID (Q1 to Q24) that matches the answer
 sheet published for the owner; answers given there are copied here and acted
 on in the next session.
 
-Last updated 7 Oct 2026. Merged to `main` through PR #139: the service rewrites,
+Last updated 12 Oct 2026. Merged to `main` through PR #139: the service rewrites,
 Víctoria's homepage and services PRs (#134, #137), no per-client results figures,
 review tooltips, and the owner's screenshots on the case studies. Víctoria's #135
 (Spanish homepage) merged on 7 Oct with the shared files reconciled, and the French and Spanish
-homepages now follow the English design and wording. Open: Víctoria's #140 (French SEO
-page), conflicting with `main`, waiting on her update after the owner's answers (Q33).
+homepages now follow the English design and wording. Víctoria's #140 (French SEO page)
+merged on 8 Oct 2026. Still open: her #145 (services grid), green and mergeable on 12 Oct.
+The owner interview for the backlog below is Tuesday 13 Oct 2026, 12:00 to 13:00 (Madrid).
 
 ## Waiting on the owner
 
@@ -66,6 +67,8 @@ page), conflicting with `main`, waiting on her update after the owner's answers 
 
 | ID | Item | Closed |
 |---|---|---|
+| | Stale statistics in the affiliate programmes post (g006) | Owner, 8 Oct 2026: links to pages or statistics that no longer exist can be removed. The Post Affiliate Pro market figures and the Authority Hacker 78.3 % stat were removed in EN, FR and ES (PR #152) |
+| | Sitemaps kept current | Owner, 12 Oct 2026, hard rule: update the sitemaps as content is added. `/about-us/` added; `npm run lint:sitemap` fails the build on any gap (PR #154) |
 | Q2 | Houston freight: the "doubled" claim | Owner, 7 Oct 2026: drop "doubled" and keep the facts we can source. The owner has worked with TX International Freight for nearly fifteen years, which is the proof point to use instead |
 | Q22 | Credibility strip on the homepage | Owner, 7 Oct 2026: "Domains run" becomes 10, relabelled as BeTranslated's country sites (ten domains, checked on the betranslated.com footer); "Reviews arrived unprompted" becomes "Reviews in Dutch, Spanish, French and English" |
 | Q33 | PR #140 (French SEO page), Víctoria's six questions | Owner, 7 Oct 2026: the consultation is 30 minutes; no French-specific review (the page ships without one); leave the 21,421 impressions out; the Matosurf line (a hundred and twenty guides, forty-eight French spots) is still accurate; name Canada alongside France, Belgium and Switzerland; the Dutch and German visitor line is ours to word |

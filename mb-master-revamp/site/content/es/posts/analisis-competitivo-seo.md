@@ -1,7 +1,7 @@
 ---
 words: 2222
-title: "Análisis competitivo SEO: cómo convertir el análisis de la competencia en un plan"
-metaTitle: "Análisis competitivo SEO convertido en un plan de acción"
+title: "Análisis competitivo SEO: de lo que hace tu competencia a tu plan"
+metaTitle: "Análisis competitivo SEO: de tu competencia a tu plan"
 slug: "analisis-competitivo-seo"
 locale: "es"
 type: "posts"
@@ -23,7 +23,7 @@ Un análisis competitivo SEO bien llevado termina en una lista corta de acciones
 
 Aquí tienes el método que seguimos: cómo dar con tus rivales reales, las cuatro cosas que conviene extraer de ellos, las herramientas y cómo leer sus cifras, y cómo repetirlo en cada idioma y en las respuestas de IA.
 
-## Qué decide un análisis competitivo SEO
+## Fija las decisiones antes de abrir una herramienta
 
 Antes de abrir una herramienta, conviene saber qué decisiones debe alimentar el análisis. Así cada hora de trabajo termina en una prioridad.
 
@@ -40,7 +40,7 @@ Un despacho de abogados de Valencia con el que trabajamos tenía claro que su gr
 
 Nosotros revisamos los resultados de las 30 a 50 búsquedas que de verdad le importan a un cliente. Las páginas que salen una y otra vez forman la lista real: rivales directos, indirectos y de contenido, y a veces un hilo de foro que posiciona por encima de cualquier competidor «oficial». Saber eso cambia el encargo: tu objetivo pasa a ser superar a los tres blogs que captan la intención de compra, y el término genérico queda para más adelante. El método paso a paso lo tienes en nuestra guía para [encontrar tus verdaderos competidores SEO](/es/competidores-seo/).
 
-## Análisis de la competencia SEO: las cuatro cosas que extraer de cada rival
+## Las cuatro cosas que extraer de cada rival
 
 Con la lista hecha, el trabajo útil es extraer de cada rival lo que explica su posición. Cuando un cliente nos pide analizar cinco competidores, esto es lo que sacamos de cada uno.
 
@@ -75,7 +75,7 @@ Con la lista hecha, el trabajo útil es extraer de cada rival lo que explica su 
 <figcaption>Las tres primeras extracciones explican por qué gana el rival; la cuarta te dice qué páginas escribir primero.</figcaption>
 </figure>
 
-## Por qué conviene centrarse en las pocas páginas que traen tráfico
+## Céntrate en las pocas páginas que traen tráfico
 
 Antes de pasarte una semana mapeando cada página del sitio de un competidor, ten en cuenta cómo se reparte el tráfico en la web.
 
@@ -84,6 +84,22 @@ Antes de pasarte una semana mapeando cada página del sitio de un competidor, te
 > Fuente: [Ahrefs, estudio de tráfico sobre unos 14.000 millones de páginas, actualizado en diciembre de 2023](https://ahrefs.com/blog/search-traffic-study/)
 
 La conclusión es práctica: el tráfico de tus rivales se concentra en unas pocas páginas. Encuentra sus cinco a diez direcciones que traen visitas y estúdialas a fondo. Un pico de tráfico en una de ellas suele coincidir con un lanzamiento o con un cambio en su [estrategia de marketing digital](/es/services/), y merece una mirada.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="El tráfico de un rival se concentra en unas pocas páginas top; el resto del sitio aporta poco.">
+<path d="M160 43 L270 70" class="fg-accent"/>
+<path d="M160 107 L270 80" class="fg-dim" stroke-dasharray="4 4"/>
+<rect x="10" y="20" width="150" height="46" rx="6" class="fg-hot"/>
+<rect x="10" y="84" width="150" height="46" rx="6" class="fg-box"/>
+<circle cx="320" cy="75" r="50" class="fg-box"/>
+<text x="85" y="40" text-anchor="middle" class="fg-strong">Páginas top</text>
+<text x="85" y="58" text-anchor="middle" class="fg-label">hacen el trabajo</text>
+<text x="85" y="104" text-anchor="middle" class="fg-text">El resto</text>
+<text x="85" y="122" text-anchor="middle" class="fg-label">poco tráfico</text>
+<text x="320" y="81" text-anchor="middle" class="fg-strong">Tráfico</text>
+</svg>
+<figcaption>El tráfico de un rival vive en unas pocas páginas: estudiar esas cinco a diez direcciones muestra cómo gana sus visitas el sitio.</figcaption>
+</figure>
 
 ## Brecha de palabras clave: qué términos puedes ganar primero
 
@@ -119,11 +135,31 @@ Las cifras de tráfico de terceros son estimaciones: trátalas como rangos y com
 
 Para la parte técnica, Screaming Frog compara la arquitectura de los sitios, y LibreCrawl es una alternativa gratuita y de código abierto con funciones parecidas. Surfer SEO y Frase ayudan con la optimización on-page a partir de las páginas que lideran los resultados, y [Search Engine Land](https://searchengineland.com/) sigue los cambios del algoritmo.
 
-## Un análisis de la competencia por idioma, porque cada mercado tiene sus rivales
+## Haz un análisis por idioma, porque cada mercado tiene sus rivales
 
 Cada mercado al que vendes tiene su propio conjunto de competidores, y por eso el análisis se repite una vez por idioma. Hacerlo así te da un encargo de contenido y un plan de enlaces que funcionan en ese país.
 
 El despacho de Valencia que mencionamos trabaja en cuatro idiomas: español, francés, inglés y ruso. En español compite con despachos nacionales de familia y herencias. En francés, con quienes atienden a los franceses residentes en la Costa Blanca. En inglés, con quienes atienden a la comunidad anglófona en herencias, NIE y compraventas. El ruso tiene su propio conjunto. Nuestra guía de [SEO para despachos de abogados](/es/seo-despachos-de-abogados/) cuenta cómo un despacho así atrae clientes en cada idioma.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Un despacho, cuatro idiomas: español, francés, inglés y ruso, cada uno con su propio conjunto de rivales.">
+<path d="M200 50 L52 102" class="fg-line"/>
+<path d="M200 50 L151 102" class="fg-line"/>
+<path d="M200 50 L250 102" class="fg-line"/>
+<path d="M200 50 L349 102" class="fg-line"/>
+<rect x="135" y="10" width="130" height="40" rx="6" class="fg-hot"/>
+<rect x="8" y="102" width="88" height="38" rx="6" class="fg-box"/>
+<rect x="107" y="102" width="88" height="38" rx="6" class="fg-box"/>
+<rect x="206" y="102" width="88" height="38" rx="6" class="fg-box"/>
+<rect x="305" y="102" width="88" height="38" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-strong">Un despacho</text>
+<text x="52" y="127" text-anchor="middle" class="fg-text">Español</text>
+<text x="151" y="127" text-anchor="middle" class="fg-text">Francés</text>
+<text x="250" y="127" text-anchor="middle" class="fg-text">Inglés</text>
+<text x="349" y="127" text-anchor="middle" class="fg-text">Ruso</text>
+</svg>
+<figcaption>Cada idioma trae su propia lista de competidores, su propio encargo de contenido y su propia estrategia de enlaces.</figcaption>
+</figure>
 
 Cuatro listas de competidores, cuatro encargos de contenido y cuatro estrategias de enlaces. Para tu empresa ocurre lo mismo con Francia, Bélgica o Alemania: el rival que te supera en París puede ser desconocido en Amberes. Y en mercados locales, como el de [Bemelman](https://bemelmanspuiterij.nl/), un especialista neerlandés en pintura en polvo, los rivales que cuentan son los de su zona. Para la visión completa, mira nuestras [buenas prácticas de SEO multilingüe](/es/buenas-practicas-seo-multilingue/).
 
@@ -131,7 +167,27 @@ Cuatro listas de competidores, cuatro encargos de contenido y cuatro estrategias
 
 Tus compradores ya preguntan a ChatGPT, Claude, Gemini o Perplexity, y cada respuesta cita a muy pocas fuentes. La [GEO](/es/optimizar-para-seo-y-geo/) es la forma de aparecer en ellas, y la lógica del análisis de competencia sigue siendo la misma.
 
+> El 71 % de los compradores B2B de software recurre a chatbots de IA en algún momento de su búsqueda, y el 51 % ya empieza a buscar con un chatbot de IA más a menudo que con Google.
+>
+> Fuente: [G2, «In the Answer Economy, Don't Win the Click, Win the Answer», encuesta a 1.076 compradores y responsables de compra B2B de software, marzo de 2026](https://company.g2.com/news/g2-research-the-answer-economy)
+
 Lo que añadimos ahora para los clientes es una capa pequeña. Lanzamos de cinco a diez preguntas que un cliente real haría, anotamos los dominios citados y los cruzamos con los rivales de los resultados clásicos. A menudo coinciden; a veces aparece un sitio de nicho nuevo. Después revisamos cómo están escritas las páginas citadas: respuestas directas a preguntas concretas, autores identificables y fuentes externas sólidas.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Los dominios citados en las respuestas de IA, cruzados con los rivales de los resultados clásicos: a menudo los mismos, a veces un sitio de nicho nuevo.">
+<path d="M150 75 L225 35" class="fg-accent"/>
+<path d="M150 75 L225 115" class="fg-dim" stroke-dasharray="4 4"/>
+<rect x="15" y="55" width="135" height="40" rx="6" class="fg-box"/>
+<rect x="225" y="12" width="160" height="46" rx="6" class="fg-hot"/>
+<rect x="225" y="92" width="160" height="46" rx="6" class="fg-box"/>
+<text x="82" y="81" text-anchor="middle" class="fg-strong">Citas de IA</text>
+<text x="305" y="32" text-anchor="middle" class="fg-strong">Mismos rivales</text>
+<text x="305" y="50" text-anchor="middle" class="fg-label">a menudo</text>
+<text x="305" y="112" text-anchor="middle" class="fg-text">Sitio de nicho</text>
+<text x="305" y="130" text-anchor="middle" class="fg-label">a veces nuevo</text>
+</svg>
+<figcaption>La capa de IA se apoya en el trabajo sobre los resultados: los dominios citados suelen coincidir con la lista, y un sitio de nicho nuevo se suma cuando aparece.</figcaption>
+</figure>
 
 Una [consultoría de IA para SEO](/es/services/consultoria-de-inteligencia-artificial/) permite seguir estos patrones de citación de forma sistemática, mercado por mercado.
 
@@ -171,4 +227,4 @@ Sí, un análisis básico es posible con Google Search Console, la observación 
 
 Elige un mercado, cinco rivales y las veinte búsquedas que más te importan. Con eso tienes el primer plan del trimestre.
 
-Si quieres comprobar que tu equipo se compara con la lista correcta, empezamos por una de tus búsquedas prioritarias en el mercado que más te importa. [Escríbenos](/es/contactanos/) o mira [cómo llevamos los programas de SEO multilingüe](/es/services/posicionamiento-multilingue/).
+Si quieres comprobar que tu equipo se compara con la lista correcta, empezamos por una de tus búsquedas prioritarias en el mercado que más te importa. [Pide una revisión de tu lista de rivales](/es/contactanos/) o mira [cómo llevamos los programas de SEO multilingüe](/es/services/posicionamiento-multilingue/).

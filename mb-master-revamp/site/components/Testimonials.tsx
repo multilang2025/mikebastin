@@ -265,7 +265,7 @@ export default function Testimonials({
         <button
           onClick={() => setShowAll((value) => !value)}
           aria-expanded={showAll}
-          className="ulink mt-3 text-[.88rem]"
+          className={`ulink mt-3 text-[.88rem]${mobileInitialCount !== undefined ? " hidden sm:inline" : ""}`}
           style={{ color: "var(--berry)" }}
         >
           {showAll ? ui.showLess : ui.showMore}

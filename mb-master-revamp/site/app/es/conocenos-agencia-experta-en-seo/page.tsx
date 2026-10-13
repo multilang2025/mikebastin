@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { pageMeta } from "@/lib/meta";
 import Reveal from "@/components/Reveal";
 import SiteFooter from "@/components/SiteFooter";
+import { HomeBastin } from "@/components/HomeBastin";
 import JsonLd from "@/components/JsonLd";
 import LocaleHtmlLang from "@/components/LocaleHtmlLang";
 import { ButtonLink } from "@/components/ui/Button";
@@ -128,14 +129,16 @@ export default function SpanishTeamPage() {
                 Reserva una consulta gratuita
               </ButtonLink>
               <ButtonLink href="/es/precios/" size="lg" variant="ghost">
-                Cómo se desarrolla un proyecto
+                Ver cómo se desarrolla un proyecto
               </ButtonLink>
             </div>
           </Reveal>
         </div>
       </section>
 
-      <SiteFooter locale="es" />
+      <HomeBastin locale="es" band="a" />
+
+      <SiteFooter locale="es" band="b" />
     </main>
   );
 }

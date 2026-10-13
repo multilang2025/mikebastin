@@ -70,6 +70,7 @@ const STATIC: { path: string; section: string; label: string }[] = [
   { path: "/blog/", section: "Main pages", label: "Journal" },
   { path: "/results/", section: "Main pages", label: "Results" },
   { path: "/how-i-work/", section: "Main pages", label: "How we work" },
+  { path: "/about-us/", section: "Main pages", label: "About us" },
   { path: "/contact/", section: "Main pages", label: "Contact" },
   { path: "/sitemap/", section: "Main pages", label: "Sitemap" },
   { path: "/privacy/", section: "Main pages", label: "Privacy and cookies" },
@@ -162,6 +163,7 @@ export function getSiteUrls(): UrlEntry[] {
       kind: "page",
       section: "Work",
       label: pr.name,
+      languages: enLanguages(`/projects/${pr.slug}/`),
     });
   }
 

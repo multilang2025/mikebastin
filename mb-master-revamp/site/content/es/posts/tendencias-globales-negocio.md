@@ -56,6 +56,20 @@ La encuesta global de McKinsey y el informe empresarial de Deloitte señalan la 
 
 Las empresas que toman ventaja integran la IA en sus flujos de trabajo, en la atención al cliente y en su [estrategia SEO apoyada en IA](/es/ia-y-estrategias-seo/).
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 120" role="img" aria-label="La IA generativa pasa de un experimento en pruebas a un coste operativo integrado en el trabajo diario.">
+<path d="M170 60 L210 60" class="fg-accent"/>
+<path d="M200 52 L210 60 L200 68" class="fg-accent"/>
+<rect x="20" y="35" width="150" height="50" rx="6" class="fg-box"/>
+<rect x="210" y="35" width="170" height="50" rx="6" class="fg-hot"/>
+<text x="95" y="57" text-anchor="middle" class="fg-text">Experimento</text>
+<text x="95" y="75" text-anchor="middle" class="fg-label">en pruebas</text>
+<text x="295" y="57" text-anchor="middle" class="fg-strong">Coste operativo</text>
+<text x="295" y="75" text-anchor="middle" class="fg-label">en el día a día</text>
+</svg>
+<figcaption>La IA ya figura en el presupuesto como un coste operativo, y las empresas que toman ventaja la integran en sus flujos de trabajo, su atención al cliente y su SEO.</figcaption>
+</figure>
+
 ### Qué hacer ahora
 
 -   Reserva presupuesto para [integrar la IA con una consultoría](/es/services/consultoria-de-inteligencia-artificial/) en atención al cliente, producción de contenido y análisis de datos
@@ -70,6 +84,26 @@ Un agente de IA puede atender a tus clientes franceses, belgas o alemanes en su 
 > Fuente: [McKinsey, The state of AI in 2025: agents, innovation and transformation, noviembre de 2025](https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai)
 
 Para quien vende fuera, los agentes sirven en la atención al cliente multilingüe, la comprobación normativa y la cadena de suministro, mientras la mayoría de los reguladores aún redacta sus normas.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Los agentes de IA en el centro de tres usos para quien vende fuera: atención al cliente multilingüe, comprobación normativa y cadena de suministro.">
+<path d="M200 50 L70 102" class="fg-line"/>
+<path d="M200 50 L200 102" class="fg-line"/>
+<path d="M200 50 L330 102" class="fg-line"/>
+<rect x="120" y="10" width="160" height="40" rx="6" class="fg-hot"/>
+<rect x="10" y="102" width="120" height="46" rx="6" class="fg-box"/>
+<rect x="140" y="102" width="120" height="46" rx="6" class="fg-box"/>
+<rect x="270" y="102" width="120" height="46" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-strong">Agentes de IA</text>
+<text x="70" y="122" text-anchor="middle" class="fg-text">Atención</text>
+<text x="70" y="140" text-anchor="middle" class="fg-label">multilingüe</text>
+<text x="200" y="122" text-anchor="middle" class="fg-text">Normativa</text>
+<text x="200" y="140" text-anchor="middle" class="fg-label">comprobación</text>
+<text x="330" y="122" text-anchor="middle" class="fg-text">Suministro</text>
+<text x="330" y="140" text-anchor="middle" class="fg-label">cadena</text>
+</svg>
+<figcaption>Los agentes asumen tareas completas en atención, normativa y suministro; las tareas acotadas y repetitivas son el mejor punto de partida.</figcaption>
+</figure>
 
 ### Qué hacer ahora
 
@@ -159,6 +193,18 @@ Un alto el fuego duradero abriría uno de los mayores programas de reconstrucci�
 La sostenibilidad es hoy una condición para vender en la UE, y cumplir cada plazo mantiene tus mercancías en movimiento. La UE rebajó algunas normas en 2026; las obligaciones que quedan tienen fechas firmes.
 
 La Directiva sobre información corporativa en materia de sostenibilidad (CSRD) quedó acotada por la Directiva Ómnibus de sostenibilidad, publicada en el Diario Oficial el 26 de febrero de 2026, y ahora se aplica a empresas mucho más grandes de lo previsto.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="El ámbito de la CSRD se reduce en tres pasos, del previsto al inicio a los umbrales Ómnibus y, al final, a los grandes grupos.">
+<rect x="20" y="10" width="360" height="40" rx="6" class="fg-box"/>
+<rect x="60" y="60" width="280" height="40" rx="6" class="fg-box"/>
+<rect x="90" y="110" width="220" height="40" rx="6" class="fg-hot"/>
+<text x="200" y="36" text-anchor="middle" class="fg-text">Ámbito previsto al inicio</text>
+<text x="200" y="86" text-anchor="middle" class="fg-text">Umbrales Ómnibus</text>
+<text x="200" y="136" text-anchor="middle" class="fg-strong">Grandes grupos</text>
+</svg>
+<figcaption>La Directiva Ómnibus limita la CSRD a los grandes grupos, y sus peticiones de datos de sostenibilidad te siguen llegando por la cadena de valor.</figcaption>
+</figure>
 
 > La CSRD se aplica ahora a empresas o grupos de la UE con más de 1.000 empleados y una cifra de negocio neta anual superior a 450 millones de euros, que sustituyen a los umbrales anteriores de 250 empleados, 25 millones de euros de balance o 50 millones de euros de cifra de negocio.
 >

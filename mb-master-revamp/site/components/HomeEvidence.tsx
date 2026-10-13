@@ -4,6 +4,7 @@ import Reveal from "@/components/Reveal";
 import { PROJECTS, SHOT_VERSION } from "@/lib/projects";
 import { PROJECTS_ES, PROJECTS_FR } from "@/lib/projects-locale";
 import { CASE_SLUGS } from "@/lib/home-evidence";
+import { caseStudyPath } from "@/lib/case-studies";
 import { BT_SITES } from "@/lib/betranslated-sites";
 import { LEADS_HIGH, LEADS_LOW, MILLIONS, SITE_COUNT, TOTAL_CLICKS } from "@/lib/results-totals";
 
@@ -18,6 +19,7 @@ const T = {
     range: "to",
     source: "Totals across the sites we run search for, May to July 2026: enquiries are counted from each site’s form records, or given by the site owner where they also arrive by phone and email; clicks and impressions come from Google Search Console.",
     all: { href: "/results/", label: "See the results across our client sites" },
+    read: "Read the case study",
     sitesEyebrow: "BeTranslated country sites",
     sitesHeading: "BeTranslated, in every market it serves.",
     sitesLede: "Nine country sites, each written for its own market and language.",
@@ -32,8 +34,9 @@ const T = {
     sites: "sites suivis",
     range: "à",
     source: "Totaux sur les sites dont nous gérons le référencement, de mai à juillet 2026\u00a0: les demandes sont comptées d’après les formulaires de chaque site, ou données par son propriétaire quand elles arrivent aussi par téléphone et par e-mail\u00a0; les clics et les impressions viennent de Google Search Console.",
-    all: null,
-    sitesEyebrow: "Sites pays de BeTranslated",
+    all: { href: "/fr/resultats/", label: "Voir les résultats sur l’ensemble de nos sites clients" },
+    read: "Lire l’étude de cas",
+    sitesEyebrow: "Sites nationaux de BeTranslated",
     sitesHeading: "BeTranslated, dans chaque marché où l’agence travaille.",
     sitesLede: "Neuf sites pays, chacun écrit pour son marché et sa langue.",
     siteAlt: (market: string, domain: string) => `Le site BeTranslated pour ${market}, ${domain}, sur ordinateur et sur mobile`,
@@ -47,7 +50,8 @@ const T = {
     sites: "sitios medidos",
     range: "a",
     source: "Totales de las webs cuyo posicionamiento llevamos, de mayo a julio de 2026: las consultas se cuentan a partir de los formularios de cada web, o las da su propietario cuando también llegan por teléfono y correo; los clics y las impresiones vienen de Google Search Console.",
-    all: null,
+    all: { href: "/es/resultados/", label: "Ver los resultados de todas nuestras webs de clientes" },
+    read: "Leer el caso de éxito",
     sitesEyebrow: "Sitios nacionales de BeTranslated",
     sitesHeading: "BeTranslated, en cada mercado donde trabaja la agencia.",
     sitesLede: "Nueve sitios nacionales, cada uno escrito para su mercado y su idioma.",
@@ -134,13 +138,9 @@ export default function HomeEvidence({ locale = "en", band = "b" }: { locale?: "
                   <div className="flex flex-1 flex-col p-5 sm:p-6">
                     <p className="eyebrow mb-2">{localized?.angle ?? p.angle}</p>
                     <h3 className="mb-3 text-[1.25rem] font-semibold leading-[1.15]" style={{ color: "var(--berry)" }}>
-                      {localized ? (
-                        p.name
-                      ) : (
-                        <Link href={`/projects/${p.slug}/`} className="transition-colors hover:opacity-75">
-                          {p.name}
-                        </Link>
-                      )}
+                      <Link href={caseStudyPath(locale, p.slug)} className="transition-colors hover:opacity-75">
+                        {p.name}
+                      </Link>
                     </h3>
                     <p className="mb-5 text-[.88rem] leading-[1.55]" style={{ color: "var(--dim)" }}>
                       {localized?.body ?? p.body}
@@ -157,11 +157,9 @@ export default function HomeEvidence({ locale = "en", band = "b" }: { locale?: "
                         </div>
                       ))}
                     </dl>
-                    {!localized && (
-                      <Link href={`/projects/${p.slug}/`} className="ulink mt-4 inline-block text-[.85rem] font-medium" style={{ color: "var(--berry)" }}>
-                        Read the case study
-                      </Link>
-                    )}
+                    <Link href={caseStudyPath(locale, p.slug)} className="ulink mt-4 inline-block text-[.85rem] font-medium" style={{ color: "var(--berry)" }}>
+                      {t.read}
+                    </Link>
                   </div>
                 </article>
               </Reveal>
@@ -178,11 +176,14 @@ export default function HomeEvidence({ locale = "en", band = "b" }: { locale?: "
         <ul className="grid grid-cols-1 gap-4 min-[360px]:grid-cols-2 sm:grid-cols-3">
           {BT_SITES.map((s, i) => {
             const domain = `betranslated.${s.tld}`;
+            // The country sites are linked and shown with www. (owner, 8 Oct
+            // 2026); betranslated.com stays bare.
+            const host = s.tld === "com" ? domain : `www.${domain}`;
             return (
               <Reveal key={s.tld} i={i}>
                 <li className="h-full">
                   <a
-                    href={s.href ?? `https://${domain}/`}
+                    href={s.href ?? `https://${host}/`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="group flex h-full flex-col overflow-hidden rounded-md border transition-colors duration-200 hover:border-[var(--berry)]"
@@ -198,7 +199,7 @@ export default function HomeEvidence({ locale = "en", band = "b" }: { locale?: "
                       className="aspect-[5/4] w-full object-cover object-top"
                     />
                     <span className="flex flex-col gap-0.5 px-3 py-2.5 lg:flex-row lg:items-baseline lg:justify-between lg:gap-2">
-                      <span className="text-[.8rem] font-semibold transition-colors duration-200 group-hover:text-[var(--berry)] sm:text-[.88rem]">{domain}</span>
+                      <span className="text-[.8rem] font-semibold transition-colors duration-200 group-hover:text-[var(--berry)] sm:text-[.88rem]">{host}</span>
                       <span className="text-[.76rem]" style={{ color: "var(--dim)" }}>{s.market[locale]}</span>
                     </span>
                   </a>

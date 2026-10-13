@@ -1,6 +1,6 @@
 ---
 words: 1297
-title: "Competitor analysis for SEO and digital growth"
+title: "SEO competitor analysis: what to look at and what to act on"
 slug: "competitor-analysis"
 locale: "en"
 type: "posts"
@@ -12,7 +12,7 @@ sourceUrl: "https://mikebastin.com/competitor-analysis/"
 excerpt: "Benchmarking against the rival you meet in sales? In search it is often another. Competitor analysis that finds who actually wins your buyers."
 ---
 
-## Competitor analysis that drives strategy
+## Find the rivals your buyers really meet in search
 
 You are probably benchmarking against the company you meet in sales pitches. In search your rival is often someone else, and finding them points every month’s budget at the right pages.
 
@@ -53,7 +53,7 @@ Knowing that changes the brief. You aim at the three blogs that actually capture
 <figcaption>Your rival list comes out of the search results. The pages that keep turning up across your buyer queries are the ones your brief should aim at.</figcaption>
 </figure>
 
-## The four things worth extracting
+## Pull these four things from your rivals' data
 
 Five rivals produce thousands of rows. Four things in them change what you do next. When a client asks us to analyse five rivals, this is what we pull.
 
@@ -77,6 +77,22 @@ A handful of pages on a rival’s site do the work, so a focused study saves you
 
 The implication: a rival’s traffic sits in a few pages. Find their five to ten traffic-driving URLs and study those properly.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="A rival’s traffic concentrates in a handful of top pages, while the rest of the site brings in little.">
+<path d="M160 43 L270 70" class="fg-accent"/>
+<path d="M160 107 L270 80" class="fg-dim" stroke-dasharray="4 4"/>
+<rect x="10" y="20" width="150" height="46" rx="6" class="fg-hot"/>
+<rect x="10" y="84" width="150" height="46" rx="6" class="fg-box"/>
+<circle cx="320" cy="75" r="50" class="fg-box"/>
+<text x="85" y="40" text-anchor="middle" class="fg-strong">Top pages</text>
+<text x="85" y="58" text-anchor="middle" class="fg-label">do the work</text>
+<text x="85" y="104" text-anchor="middle" class="fg-text">The rest</text>
+<text x="85" y="122" text-anchor="middle" class="fg-label">little traffic</text>
+<text x="320" y="81" text-anchor="middle" class="fg-strong">Traffic</text>
+</svg>
+<figcaption>A rival’s traffic sits in a few pages, so a close study of those five to ten URLs shows how the site earns its visits.</figcaption>
+</figure>
+
 ## The toolkit we use, with honest caveats
 
 Read each estimate as an estimate, and the plan built on it holds.
@@ -95,7 +111,7 @@ Ahrefs themselves [document the gap](https://help.ahrefs.com/en/articles/431381-
 <p><strong>Want measured numbers behind your plans, alongside tool estimates?</strong> Our <a href="/services/technical-seo/">technical SEO work</a> sets up GA4 with traffic split by market, so you can check the estimates against measured figures. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
-## Multilingual competitor analysis is plural by default
+## Map a separate set of rivals for each language
 
 Sell in more than one language and each language brings its own rivals. The law firm we mentioned earlier has three sets.
 
@@ -107,6 +123,26 @@ Sell in more than one language and each language brings its own rivals. The law 
 
 Three competitor lists. Three different content briefs. Three different link strategies.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="One law firm, a separate set of rivals in each language: Spanish for family law, French for matrimonial cases, English for probate.">
+<path d="M200 50 L70 102" class="fg-line"/>
+<path d="M200 50 L200 102" class="fg-line"/>
+<path d="M200 50 L330 102" class="fg-line"/>
+<rect x="135" y="10" width="130" height="40" rx="6" class="fg-hot"/>
+<rect x="15" y="102" width="110" height="46" rx="6" class="fg-box"/>
+<rect x="145" y="102" width="110" height="46" rx="6" class="fg-box"/>
+<rect x="275" y="102" width="110" height="46" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-strong">One firm</text>
+<text x="70" y="122" text-anchor="middle" class="fg-text">Spanish</text>
+<text x="70" y="140" text-anchor="middle" class="fg-label">family law</text>
+<text x="200" y="122" text-anchor="middle" class="fg-text">French</text>
+<text x="200" y="140" text-anchor="middle" class="fg-label">matrimonial</text>
+<text x="330" y="122" text-anchor="middle" class="fg-text">English</text>
+<text x="330" y="140" text-anchor="middle" class="fg-label">probate</text>
+</svg>
+<figcaption>Each language brings its own competitor list, its own content brief and its own link strategy.</figcaption>
+</figure>
+
 Give each language its own analysis, so each market gets a brief it can rank with. If you operate across countries, plan for one analysis per language.
 
 For the deeper view, see [best practices for multilingual SEO](/blog/best-practices-for-multilingual-seo/).
@@ -115,9 +151,29 @@ For the deeper view, see [best practices for multilingual SEO](/blog/best-practi
 
 Yes, [GEO](/services/generative-engine-optimization/) matters. Yes, ChatGPT and Perplexity citations now factor into B2B buyer journeys. The underlying competitor logic stays much the same.
 
+> 71% of B2B software buyers rely on AI chatbots at some point in their research, and 51% now start their research with an AI chatbot more often than with Google.
+>
+> Source: [G2, "In the Answer Economy, Don't Win the Click, Win the Answer", survey of 1,076 B2B software buyers and decision-makers, March 2026](https://company.g2.com/news/g2-research-the-answer-economy)
+
 What we add for clients now: a small layer of “who gets cited in AI answers for our buyer prompts”. We run five to ten prompts a real prospect might genuinely use, log the cited domains, and check overlap with the traditional SERP rivals.
 
 Often the overlap is high. Sometimes a niche site turns up that is new to the list. Both findings build on the SERP-level work.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Domains cited in AI answers for buyer prompts, checked against the SERP rivals: often the same sites, sometimes a niche site new to the list.">
+<path d="M150 75 L225 35" class="fg-accent"/>
+<path d="M150 75 L225 115" class="fg-dim" stroke-dasharray="4 4"/>
+<rect x="15" y="55" width="135" height="40" rx="6" class="fg-box"/>
+<rect x="225" y="12" width="160" height="46" rx="6" class="fg-hot"/>
+<rect x="225" y="92" width="160" height="46" rx="6" class="fg-box"/>
+<text x="82" y="81" text-anchor="middle" class="fg-strong">AI citations</text>
+<text x="305" y="32" text-anchor="middle" class="fg-strong">Same rivals</text>
+<text x="305" y="50" text-anchor="middle" class="fg-label">often</text>
+<text x="305" y="112" text-anchor="middle" class="fg-text">Niche site</text>
+<text x="305" y="130" text-anchor="middle" class="fg-label">sometimes new</text>
+</svg>
+<figcaption>The AI layer builds on the SERP work: cited domains often match the rivals already listed, and a new niche site joins the list when one turns up.</figcaption>
+</figure>
 
 Treat GEO as part of the same exercise: it is the same SERP behind a chat layer.
 
@@ -153,4 +209,4 @@ We do this for clients in legal, freight, real estate, and translation across si
 
 The SERP ranks pages, whatever the org chart says, and your analysis can do the same.
 
-[Get in touch](/contact/) or look at [how we run multilingual SEO programmes](/services/multilingual-seo/).
+[Book a discovery call](/contact/) or look at [how we run multilingual SEO programmes](/services/multilingual-seo/).

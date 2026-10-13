@@ -1,5 +1,5 @@
 import PostArt from "@/components/PostArt";
-import { getBlogImage } from "@/lib/blog-images";
+import { BLOG_IMAGE_VERSION, getBlogImage } from "@/lib/blog-images";
 
 /**
  * The picture at the head of a post and on a post card.
@@ -55,15 +55,16 @@ export default function PostImage({
     );
   }
 
+  const v = `?v=${BLOG_IMAGE_VERSION}`;
   const src = compact
-    ? `/images/blog/${slug}-thumb.webp`
-    : `/images/blog/${slug}.webp`;
+    ? `/images/blog/${slug}-thumb.webp${v}`
+    : `/images/blog/${slug}.webp${v}`;
   // Every file is cut to the 1200:630 slot (scripts/optimize-blog-images.mjs),
   // with a 640-wide sibling for cards and phones. A source no wider than
   // 640 has nothing smaller to offer, so it gets a plain src.
   const srcSet = compact || image.width <= 640
     ? undefined
-    : `/images/blog/${slug}-640.webp 640w, ${src} ${image.width}w`;
+    : `/images/blog/${slug}-640.webp${v} 640w, ${src} ${image.width}w`;
 
   return (
     <img

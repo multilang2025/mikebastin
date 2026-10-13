@@ -37,14 +37,14 @@ Toda búsqueda lleva un propósito detrás, y el sector del SEO lo reparte en cu
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 200" role="img" aria-label="Intención de búsqueda en el embudo: informativa en la parte ancha superior, comercial en el centro, transaccional en la parte estrecha inferior, con la navegacional a un lado.">
-<rect x="20" y="10" width="280" height="44" rx="6" class="fg-box"/>
-<rect x="60" y="68" width="200" height="44" rx="6" class="fg-box"/>
-<rect x="100" y="126" width="120" height="44" rx="6" class="fg-hot"/>
+<rect x="10" y="10" width="300" height="44" rx="6" class="fg-box"/>
+<rect x="45" y="68" width="230" height="44" rx="6" class="fg-box"/>
+<rect x="80" y="126" width="160" height="44" rx="6" class="fg-hot"/>
 <text x="160" y="38" text-anchor="middle" class="fg-text">Informativa</text>
 <text x="160" y="96" text-anchor="middle" class="fg-text">Comercial</text>
 <text x="160" y="154" text-anchor="middle" class="fg-text">Transaccional</text>
 <line x1="340" y1="14" x2="340" y2="166" class="fg-dim"/>
-<text x="362" y="90" text-anchor="middle" transform="rotate(90 362 90)" class="fg-label">Navegacional</text>
+<text x="362" y="90" text-anchor="middle" writing-mode="vertical-rl" class="fg-label">Navegacional</text>
 <text x="200" y="192" text-anchor="middle" class="fg-label">guías, comparativas, páginas de destino</text>
 </svg>
 <figcaption>La mayoría de las búsquedas está en la parte ancha del embudo. Asigna a cada fase su propio tipo de página y deja que las consultas navegacionales lleven directas a la marca en cualquier momento.</figcaption>
@@ -52,7 +52,7 @@ Toda búsqueda lleva un propósito detrás, y el sector del SEO lo reparte en cu
 
 Los desgloses publicados sobre el reparto de las búsquedas entre estos cuatro tipos varían mucho según la herramienta y el método (como ejemplo de recopilación, consulta las [estadísticas de intención de búsqueda de Amra y Elma](https://www.amraandelma.com/search-intent-statistics/)). Todos coinciden en que la mayoría de las búsquedas son informativas y solo una minoría está lista para comprar, así que una estrategia que cubre ambos extremos llega a la mayor parte de tu audiencia.
 
-## Cómo funciona el mapa de intención en la práctica
+## Construye el mapa en cinco pasos
 
 Bien hecho, el mapa te dice qué páginas escribir, cuáles reescribir y cuáles dejar como están. El proceso tiene cinco pasos.
 
@@ -83,6 +83,23 @@ Audita las páginas existentes con el mapa en la mano. Donde hay huecos, crea co
 **Supervisa y ajusta.**  
 Sigue la interacción, el porcentaje de clics y las conversiones. Las señales de intención cambian con el tiempo, sobre todo a medida que las vistas generales de IA redefinen lo que aparece arriba en los resultados.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="El mapa en cuatro pasos: investigar, analizar lo que posiciona, clasificar por intención y ajustar el contenido, con un bucle de vuelta para supervisar y ajustar.">
+<path d="M350 92 L350 118 L50 118 L50 92" class="fg-dim" stroke-dasharray="4 4"/>
+<line x1="50" y1="32" x2="350" y2="32" class="fg-rule"/>
+<circle cx="50" cy="32" r="16" class="fg-box"/>
+<circle cx="150" cy="32" r="16" class="fg-box"/>
+<circle cx="250" cy="32" r="16" class="fg-box"/>
+<circle cx="350" cy="32" r="16" class="fg-hot"/>
+<text x="50" y="72" text-anchor="middle" class="fg-text">Investiga</text>
+<text x="150" y="72" text-anchor="middle" class="fg-text">Analiza</text>
+<text x="250" y="72" text-anchor="middle" class="fg-text">Clasifica</text>
+<text x="350" y="72" text-anchor="middle" class="fg-text">Ajusta</text>
+<text x="200" y="140" text-anchor="middle" class="fg-label">supervisa y ajusta</text>
+</svg>
+<figcaption>La supervisión cierra el ciclo: cuando cambian las señales de intención, el mapa vuelve a la investigación y las páginas lo siguen.</figcaption>
+</figure>
+
 <aside class="post-cta">
 <p><strong>¿Llega tráfico y quieres convertirlo en consultas?</strong> Nuestro <a href="/es/services/seo-tecnico/">SEO técnico</a> lee cómo formula la gente su problema, cómo compara las opciones y qué escribe cuando ya ha decidido, y ordena el trabajo por etapa de decisión. <a href="/es/contactanos/">Reserva una primera conversación</a>.</p>
 </aside>
@@ -99,7 +116,7 @@ La propia First Page Sage advierte de que las tasas varían mucho entre sectores
 
 El contenido alineado retiene además la atención, y las buenas posiciones acompañan a las páginas que responden a la pregunta correcta.
 
-## La IA como herramienta para crear contenido guiado por la intención
+## Acelera la investigación con IA y edita con criterio humano
 
 La IA acelera la investigación que hay detrás del mapa, y la edición humana mantiene las páginas con tu sello. Muchos equipos de marketing la usan ya en la planificación y el SEO de página, y el resultado se ve en los resultados de búsqueda:
 
@@ -123,7 +140,25 @@ Donde lideran las personas:
 
 Usa la IA para sacar patrones a la luz, generar primeros borradores y validar la clasificación, y aplica después el criterio humano a la calidad editorial y al matiz cultural.
 
-## Intención de búsqueda entre idiomas y culturas
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="La IA saca patrones, clasifica la intención y genera primeros borradores; después las personas aportan la voz de marca, la experiencia de primera mano y el matiz cultural.">
+<path d="M185 75 L215 75" class="fg-accent"/>
+<path d="M208 70 L215 75 L208 80" class="fg-accent"/>
+<rect x="15" y="15" width="170" height="120" rx="6" class="fg-box"/>
+<rect x="215" y="15" width="170" height="120" rx="6" class="fg-hot"/>
+<text x="100" y="45" text-anchor="middle" class="fg-strong">IA</text>
+<text x="100" y="75" text-anchor="middle" class="fg-label">patrones</text>
+<text x="100" y="97" text-anchor="middle" class="fg-label">clasificación</text>
+<text x="100" y="119" text-anchor="middle" class="fg-label">primeros borradores</text>
+<text x="300" y="45" text-anchor="middle" class="fg-strong">Personas</text>
+<text x="300" y="75" text-anchor="middle" class="fg-label">voz de marca</text>
+<text x="300" y="97" text-anchor="middle" class="fg-label">experiencia</text>
+<text x="300" y="119" text-anchor="middle" class="fg-label">matiz cultural</text>
+</svg>
+<figcaption>La IA saca los patrones a la luz con rapidez, y el criterio humano los convierte en páginas con la voz de tu marca.</figcaption>
+</figure>
+
+## Una misma frase, otra intención en cada país
 
 Investiga cada palabra clave en el mercado de destino y encontrarás la frase que usa la gente para comprar, de modo que la página posiciona y las ventas llegan. Una frase que indica intención de compra en un país puede indicar intención de investigar en otro.
 
@@ -135,7 +170,23 @@ Si tu empresa vende desde España o Latinoamérica a Francia, Alemania o el Rein
 
 La investigación con hablantes nativos detecta estas diferencias. Una [búsqueda de palabras clave multilingüe](/es/services/seo-tecnico/) eficaz combina la aportación de nativos, el análisis de los resultados de cada región y el conocimiento del comportamiento de compra local. La IA identifica a escala las diferencias entre variantes de idioma; la validación humana garantiza la precisión.
 
-## Cómo adaptar el contenido a la intención multilingüe
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="La misma consulta, «best smartphone» o «meilleur smartphone», puede llevar a comparativas listas para comprar en un mercado y a reseñas editoriales en otro.">
+<path d="M150 75 L225 35" class="fg-line"/>
+<path d="M150 75 L225 115" class="fg-accent"/>
+<rect x="15" y="55" width="135" height="40" rx="6" class="fg-box"/>
+<rect x="225" y="12" width="165" height="46" rx="6" class="fg-box"/>
+<rect x="225" y="92" width="165" height="46" rx="6" class="fg-hot"/>
+<text x="82" y="81" text-anchor="middle" class="fg-strong">Misma frase</text>
+<text x="307" y="32" text-anchor="middle" class="fg-text">Un mercado</text>
+<text x="307" y="50" text-anchor="middle" class="fg-label">comparativas</text>
+<text x="307" y="112" text-anchor="middle" class="fg-strong">Otro mercado</text>
+<text x="307" y="130" text-anchor="middle" class="fg-label">reseñas editoriales</text>
+</svg>
+<figcaption>Una frase, dos mercados, dos tipos de página: los resultados de cada país te dicen qué formato premia.</figcaption>
+</figure>
+
+## Adapta cada página a la pregunta de su mercado
 
 Una página localizada responde a la pregunta que se hace tu comprador francés, que puede diferir de la del buscador en español o en inglés. Pasos prácticos:
 
@@ -157,7 +208,7 @@ Dar al contenido un formato pensado para la extracción por IA es ya práctica h
 <p><strong>¿Quieres las palabras clave investigadas en cada idioma?</strong> Nuestro <a href="/es/services/posicionamiento-multilingue/">SEO multilingüe</a> da a cada idioma su propia estrategia, con sus palabras clave y sus textos escritos por nativos. <a href="/es/contactanos/">Reserva una primera conversación</a>.</p>
 </aside>
 
-## Cómo aplicar el mapa de intención en varios idiomas
+## Lleva el mapa a cada idioma
 
 Con estos cinco pasos, cada mercado recibe la página que busca.
 
@@ -176,7 +227,7 @@ Las etiquetas hreflang, las estructuras de URL y las etiquetas canónicas respal
 **Sigue el rendimiento en cada mercado.**  
 Usa Google Search Console y tu plataforma de analítica para seguir impresiones, porcentaje de clics y conversiones por idioma y región, y ajusta el contenido según los datos.
 
-## Intención de búsqueda en la era del cero clics
+## Haz que te citen en las búsquedas de cero clics
 
 Las vistas generales de IA y las búsquedas de cero clics han hecho del mapa de intención una prioridad. Buena parte de las búsquedas ya terminaba en la propia página de resultados:
 
@@ -206,4 +257,4 @@ El mapa de intención de búsqueda está en la base de toda estrategia de SEO ef
 
 La IA acelera la investigación y la clasificación; la experiencia humana asegura la precisión y el encaje cultural. Las empresas que combinan ambas y estructuran su contenido para la extracción por IA y para el lector mantienen su visibilidad, cambien como cambien los resultados de búsqueda.
 
-[Habla con nosotros sobre tu estrategia de SEO multilingüe](/es/contactanos/) para alinear el contenido con la intención de búsqueda real en cada mercado de destino.
+[Reserva una revisión de tu mapa de intención](/es/contactanos/) y alineamos tu contenido con lo que se busca de verdad en cada mercado de destino.

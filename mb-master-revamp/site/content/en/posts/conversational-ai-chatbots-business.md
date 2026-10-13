@@ -30,6 +30,21 @@ Knowing the parts tells you what to ask a vendor, and what makes a bot understan
 
 Large language models (LLMs) such as GPT, Claude and Gemini generate a fitting response to each query. Retrieval-augmented generation (RAG) combines an LLM with a structured knowledge base, reducing hallucination and improving factual accuracy.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 162" role="img" aria-label="Retrieval-augmented generation combines a large language model with a structured knowledge base to give a factual answer.">
+<path d="M72 52 L200 110" class="fg-line"/>
+<path d="M278 52 L200 110" class="fg-line"/>
+<rect x="12" y="12" width="120" height="40" rx="6" class="fg-box"/>
+<rect x="168" y="12" width="220" height="40" rx="6" class="fg-box"/>
+<rect x="100" y="110" width="200" height="40" rx="6" class="fg-hot"/>
+<text x="72" y="38" text-anchor="middle" class="fg-text">LLM</text>
+<text x="278" y="38" text-anchor="middle" class="fg-text">Knowledge base</text>
+<text x="200" y="86" text-anchor="middle" class="fg-label">RAG</text>
+<text x="200" y="136" text-anchor="middle" class="fg-strong">Factual answer</text>
+</svg>
+<figcaption>The model supplies the language and the knowledge base supplies the facts. Together they give answers a customer can rely on.</figcaption>
+</figure>
+
 ## Rule-based, AI-driven or hybrid
 
 Pick the architecture that fits your queries: one that copes with unexpected phrasing, and keeps to the script wherever your compliance team needs it to. Rule-based chatbots follow decision trees, responding to keywords along predefined paths; simple FAQ bots fall into this category. AI-driven platforms use NLP and machine learning to interpret intent even when users phrase questions in unexpected ways.
@@ -84,6 +99,23 @@ For B2B, lead qualification works best alongside a [targeted content strategy](/
 
 A chatbot that sounds as natural in Latin American Spanish as in British English tells your Spanish-speaking customers they matter. Intent recognition models trained on English need their own training in German, Spanish or Japanese, because each language has its own syntax, idioms and cultural expectations.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 152" role="img" aria-label="An intent recognition model trained on English gets its own training in German, Spanish and Japanese.">
+<path d="M200 50 L72 100" class="fg-accent"/>
+<path d="M200 50 L200 100" class="fg-accent"/>
+<path d="M200 50 L328 100" class="fg-accent"/>
+<rect x="95" y="10" width="210" height="40" rx="6" class="fg-hot"/>
+<rect x="12" y="100" width="120" height="40" rx="6" class="fg-box"/>
+<rect x="140" y="100" width="120" height="40" rx="6" class="fg-box"/>
+<rect x="268" y="100" width="120" height="40" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-strong">Intent model</text>
+<text x="72" y="126" text-anchor="middle" class="fg-text">German</text>
+<text x="200" y="126" text-anchor="middle" class="fg-text">Spanish</text>
+<text x="328" y="126" text-anchor="middle" class="fg-text">Japanese</text>
+</svg>
+<figcaption>Each language brings its own syntax and idioms, so the intent model learns each one separately.</figcaption>
+</figure>
+
 [Transcreation in our translation services](/services/translation-services/) applies to conversational AI just as it does to marketing copy. A German customer expects directness, a Japanese customer expects formality, and a bot that adapts to local norms gets used.
 
 Businesses expanding internationally should plan [website localization](/services/website-localisation/) alongside the chatbot, and a [multilingual SEO](/services/multilingual-seo/) strategy so customers find the right language version in the first place. Consistency between web content and conversational interface builds trust.
@@ -92,7 +124,7 @@ Businesses expanding internationally should plan [website localization](/service
 <p><strong>Planning a chatbot that has to answer in several languages?</strong> Our <a href="/services/ai-consulting/">AI consulting</a> assesses where a multilingual assistant can run on its own and where it needs a human fallback, judged by the stakes of each answer in each market. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
-## Building a chatbot that works
+## Make five decisions before you buy a chatbot
 
 A chatbot earns its cost when everyone agrees what it is for before it is bought. Five decisions, made in this order, get you there.
 
@@ -116,7 +148,7 @@ A frustrated user who reaches a human quickly stays a customer. Design clear esc
 
 Connected to your CRM, ERP and order management, a bot can check inventory, update orders and read customer history, which is where the value sits and how it pays back its cost.
 
-## What to watch for
+## Four checks that protect the saving
 
 These four keep a support saving a saving.
 
@@ -125,7 +157,7 @@ These four keep a support saving a saving.
 - **Give it personality.** Keep the brand's own warm tone in every language.
 - **Test before launch.** Beta test with real customers, in every language you launch in, before full deployment.
 
-## Measuring chatbot performance
+## Track five numbers and read them together
 
 With numbers, a chatbot gets judged on its whole record, beyond any single email forwarded to the board. Track these five and read them together, since each shows a different side of it.
 
@@ -141,13 +173,29 @@ With numbers, a chatbot gets judged on its whole record, beyond any single email
 
 The answers you write for your chatbot can also decide whether AI search names your business. As search moves toward AI-generated answers, the content behind your chatbot shapes discoverability too. Google's AI Overviews and AI Mode and Microsoft's Copilot pull information from across the web, and FAQ content structured for a chatbot can feed those answer engines too.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="The answers written for a chatbot serve twice: they answer customers in the chat and they help AI search name the business.">
+<path d="M166 75 L206 35" class="fg-accent"/>
+<path d="M166 75 L206 115" class="fg-accent"/>
+<rect x="8" y="52" width="158" height="46" rx="6" class="fg-hot"/>
+<rect x="206" y="12" width="184" height="46" rx="6" class="fg-box"/>
+<rect x="206" y="92" width="184" height="46" rx="6" class="fg-box"/>
+<text x="87" y="81" text-anchor="middle" class="fg-strong">Your answers</text>
+<text x="298" y="32" text-anchor="middle" class="fg-text">Your chatbot</text>
+<text x="298" y="50" text-anchor="middle" class="fg-label">answers customers</text>
+<text x="298" y="112" text-anchor="middle" class="fg-text">AI search</text>
+<text x="298" y="130" text-anchor="middle" class="fg-label">names your business</text>
+</svg>
+<figcaption>Content written once for the chatbot also feeds AI answer engines, so the same work earns visibility.</figcaption>
+</figure>
+
 [Generative engine optimization](/services/generative-engine-optimization/) is how a business positions itself in those answers, and the overlap between conversational AI and [the future of SEO](/blog/future-of-seo/) deserves attention from anyone investing in both.
 
 <aside class="post-cta">
 <p><strong>Already answering your customers' questions well in chat?</strong> Our <a href="/services/generative-engine-optimization/">generative engine optimization</a> work reshapes those answers into claims ChatGPT, Perplexity and Google's AI Overviews can quote, then tracks which platforms name you. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
-## Choosing a technology stack
+## Choose a platform that fits the stack you already run
 
 The platform decides how far you can customise, what it costs to run and how hard it is to leave. Start from the stack you already use, then compare features.
 
@@ -170,7 +218,7 @@ Knowing the limits protects your most valuable customers. Emotional intelligence
 
 The direction of travel is clear enough. Speech-to-text accuracy has reached near-human levels in major languages, and multimodal AI lets a customer show a product photo and ask about it in the same conversation. Autonomous agents are the next step: today's chatbots answer questions, while agents book appointments, process claims and manage accounts on their own.
 
-## Making the case and getting started
+## Build the business case, then run a pilot
 
 Your finance team will ask what the bot saves, so answer before they do. Cost falls as queries are deflected from human agents, revenue grows with faster lead response, and retention improves when support availability matches expectations. Calculate your cost per support interaction, estimate the deflection rate, and project savings over one, three and five years net of set-up, platform and maintenance costs.
 

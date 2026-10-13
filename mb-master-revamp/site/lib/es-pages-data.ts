@@ -10,13 +10,18 @@
  * /es/services/ takes the old servicios-consultoria-web index.
  */
 import type { LocalePage } from "@/lib/fr-pages-data";
+import { CASE_STUDIES, caseStudyPath } from "@/lib/case-studies";
 
 export const ES_PAGES: LocalePage[] = [
   { path: "/es/", en: "/", label: "Inicio", route: "app/es/page.tsx", nav: true },
   { path: "/es/services/", en: "/services/", label: "Servicios", route: "app/es/services/page.tsx", nav: true },
   { path: "/es/blog/", en: "/blog/", label: "Artículos", route: "app/es/blog/page.tsx", nav: true },
+  { path: "/es/conocenos-agencia-experta-en-seo/", en: "/about-us/", label: "Quiénes somos", route: "app/es/conocenos-agencia-experta-en-seo/page.tsx", nav: true },
   { path: "/es/contactanos/", en: "/contact/", label: "Contacto", route: "app/es/contactanos/page.tsx", nav: true },
-  { path: "/es/conocenos-agencia-experta-en-seo/", en: null, label: "Quiénes somos", route: "app/es/conocenos-agencia-experta-en-seo/page.tsx" },
+  { path: "/es/resultados/", en: "/results/", label: "Resultados", route: "app/es/resultados/page.tsx" },
+  { path: "/es/checklist-analisis-de-competencia/", en: "/competitor-analysis-traffic-checklist/", label: "Checklist de análisis de competencia", route: "app/es/checklist-analisis-de-competencia/page.tsx" },
   { path: "/es/precios/", en: "/how-i-work/", label: "Precios", route: "app/es/precios/page.tsx" },
   { path: "/es/privacidad/", en: "/privacy/", label: "Privacidad y cookies", route: "app/es/privacidad/page.tsx" },
+  // Case studies, one per client, paired with /projects/<slug>/ (12 Oct 2026).
+  ...CASE_STUDIES.map((c) => ({ path: caseStudyPath("es", c.slug), en: caseStudyPath("en", c.slug), label: `${c.name}, caso de éxito`, route: "app/es/casos-de-exito/[slug]/page.tsx" })),
 ];

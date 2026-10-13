@@ -1,6 +1,6 @@
 ---
 words: 2764
-title: "Competitor Traffic Analysis Checklist: A Two-Decade SEO View"
+title: "Competitor traffic analysis checklist, from two decades of SEO"
 slug: "competitor-analysis-traffic-checklist"
 locale: "en"
 type: "posts"

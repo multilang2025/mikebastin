@@ -251,7 +251,7 @@ export default function SpanishLeadGenerationPage() {
           <Reveal>
             <p className="eyebrow mb-3">El siguiente paso</p>
             <h2 className="mb-5 max-w-[24ch] text-[clamp(1.7rem,3.2vw,2.5rem)] font-semibold leading-[1.12]">
-              Descubre lo que tus otros mercados podrían enviarte
+              Calcula lo que tus otros mercados podrían enviarte
             </h2>
           </Reveal>
           <Reveal i={1}>

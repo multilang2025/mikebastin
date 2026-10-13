@@ -1,6 +1,6 @@
 ---
 words: 2127
-title: "Law firm SEO services"
+title: "Law firm SEO services that put your firm on the shortlist"
 slug: "law-firm-seo-services"
 locale: "en"
 type: "posts"
@@ -22,7 +22,7 @@ Your next client is comparing three firms on their phone before they call any of
 
 Below is how we approach SEO for law firms: the searches that matter, pages that earn trust, local and international visibility, and how to measure what it produces. For the fundamentals, our journal covers the [practical steps that help your firm](/blog/) win and keep top positions.
 
-## Why law firms need specialist SEO
+## Win the client at the comparison stage
 
 A specialist site wins the client at the comparison stage, where legal clients spend longest. Today’s legal clients are savvy researchers. They read reviews, compare detailed service pages and assess several solicitors before making contact, so your website has to give a full, current picture of the firm.
 
@@ -86,9 +86,25 @@ We helped a [Valencia law firm reach foreign entrepreneurs](/services/spanish-se
 
 Within six months, international enquiries had risen sharply, from entrepreneurs seeking formation services and families needing residency help. Despite larger rivals, the firm now ranks for key terms across languages.
 
-## Keyword research across English-speaking markets
+## Research keywords for every English-speaking market
 
 A British expat searches for a solicitor, an American for an attorney. Write for both and each one finds you. Americans, Brits, Australians and non-native speakers all search differently. We plan content that covers these variations naturally, with each term sitting where a reader expects it.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="One search for a lawyer, two words for it: a British expat types solicitor, an American types attorney.">
+<path d="M150 75 L220 35" class="fg-line"/>
+<path d="M150 75 L220 115" class="fg-line"/>
+<rect x="20" y="55" width="130" height="40" rx="6" class="fg-hot"/>
+<rect x="220" y="12" width="165" height="46" rx="6" class="fg-box"/>
+<rect x="220" y="92" width="165" height="46" rx="6" class="fg-box"/>
+<text x="85" y="81" text-anchor="middle" class="fg-strong">A lawyer</text>
+<text x="302" y="32" text-anchor="middle" class="fg-text">British expat</text>
+<text x="302" y="50" text-anchor="middle" class="fg-label">“solicitor”</text>
+<text x="302" y="112" text-anchor="middle" class="fg-text">American</text>
+<text x="302" y="130" text-anchor="middle" class="fg-label">“attorney”</text>
+</svg>
+<figcaption>Write for both words and each reader finds the firm, with every term sitting where that reader expects it.</figcaption>
+</figure>
 
 | Audience | What they search | Example queries |
 | --- | --- | --- |
@@ -103,7 +119,7 @@ Meta titles might lead with “International business lawyer Valencia”, while 
 <p><strong>Writing for solicitors when your clients search for attorneys?</strong> The keyword research in our <a href="/services/technical-seo/">technical SEO service</a> reads how people phrase the problem in each market, and treats English as a market in its own right, British and American alike. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
-## On-page optimization for practice pages
+## Build practice pages that persuade and rank
 
 A practice page earns its ranking when it persuades as well as ranks. We structure practice pages with clear titles, scannable sections and plain-English explanations, answer pressing questions directly and guide visitors to act, whether that means booking a consultation or requesting a quote.
 
@@ -119,6 +135,23 @@ Meta descriptions act as your lift pitch. We front-load value and a call to acti
 
 When a client searches for a lawyer near them, the map listing often decides who gets the call. Law firm local SEO covers map listings, location keywords and region-specific content.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Three inputs feed the local pack: accurate profile details, reviews and local signals in the site content.">
+<path d="M180 28 L310 80" class="fg-line"/>
+<path d="M180 80 L310 80" class="fg-line"/>
+<path d="M180 132 L310 80" class="fg-line"/>
+<rect x="10" y="10" width="170" height="36" rx="6" class="fg-box"/>
+<rect x="10" y="62" width="170" height="36" rx="6" class="fg-box"/>
+<rect x="10" y="114" width="170" height="36" rx="6" class="fg-box"/>
+<circle cx="310" cy="80" r="72" class="fg-hot"/>
+<text x="95" y="33" text-anchor="middle" class="fg-text">Accurate details</text>
+<text x="95" y="85" text-anchor="middle" class="fg-text">Reviews</text>
+<text x="95" y="137" text-anchor="middle" class="fg-text">Local signals</text>
+<text x="310" y="86" text-anchor="middle" class="fg-strong">Local pack</text>
+</svg>
+<figcaption>The map listing draws on all three at once: a complete Google Business Profile, a steady flow of reviews and location signals across the site.</figcaption>
+</figure>
+
 Set up and refine your [Google Business Profile](/services/local-seo/) with accurate details, reviews and services. Embed location signals in your [multilingual site content](/blog/optimising-multilingual-website-content/) and metadata to reflect the areas you serve, and use local references in guides to increase relevance.
 
 Encourage reviews on Google and reputable legal platforms. Positive reviews act as trust signals for both people and algorithms, and they lift local pack visibility.
@@ -129,7 +162,7 @@ Links from credible legal and business sources tell search engines a firm is an 
 
 We also built relationships with legal directories and business associations in priority countries. The approach positioned the firm as a trusted voice and generated qualified referral traffic. Our [360 marketing approach](/blog/360-marketing-agency/) explains how PR, search and paid media reinforce each other.
 
-## Technical audits and page speed
+## Fix technical debt and page speed
 
 A fast, tidy site lets every other piece of work pay off: rankings move, and the client on a phone books. Many sites we take on carry technical debt: bloated URLs, inconsistent trailing slashes and duplicate paths that split authority. We standardise URL formats, add 301 redirects, align slugs with intent keywords, fix indexing problems and improve internal linking so Google understands the site architecture.
 
@@ -141,7 +174,7 @@ Speed supports rankings and conversions, and persuasive design does too. We bala
 -   keep trust-building design, clear forms and prominent credentials
 -   keep booking flows simple on mobile
 
-Learn more in our guide to [technical SEO for multilingual websites](/blog/technical-seo-for-multilingual-websites/).
+Our guide to [technical SEO for multilingual websites](/blog/technical-seo-for-multilingual-websites/) walks through the full set of checks.
 
 <aside class="post-cta">
 <p><strong>Inherited a site from a previous agency?</strong> Our <a href="/services/technical-seo/">technical SEO for multilingual websites</a> makes sure your language versions add up, each one supporting the others. <a href="/contact/">Book the discovery call</a>.</p>
@@ -152,6 +185,18 @@ Learn more in our guide to [technical SEO for multilingual websites](/blog/techn
 We benchmark rivals with tools like Ahrefs and SEMrush to find the openings they leave. Many firms target broad terms, which leaves high-intent services like NIE, company formation or sworn translation support open to you, and detailed, market-specific content in native languages is how smaller firms compete head-to-head with international players. Our guide to a [targeted content strategy](/blog/how-to-create-a-targeted-content-strategy/) covers the method for professional services.
 
 A specialist balances visibility with compliance. We keep every claim verifiable, show expertise with appropriate disclaimers and respect regional rules on testimonials, success claims and advertising language.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 156" role="img" aria-label="Legal content as a funnel of three stages: research, consideration and decision.">
+<rect x="20" y="10" width="360" height="40" rx="6" class="fg-box"/>
+<rect x="70" y="58" width="260" height="40" rx="6" class="fg-box"/>
+<rect x="120" y="106" width="160" height="40" rx="6" class="fg-hot"/>
+<text x="200" y="36" text-anchor="middle" class="fg-text">Research</text>
+<text x="200" y="84" text-anchor="middle" class="fg-text">Consideration</text>
+<text x="200" y="132" text-anchor="middle" class="fg-strong">Decision</text>
+</svg>
+<figcaption>Each piece of content serves a stage, from the first research through consideration to the decision.</figcaption>
+</figure>
 
 Content works best as part of a system that covers research, consideration and decision:
 
@@ -166,7 +211,7 @@ Read our [best practices for multilingual SEO](/blog/best-practices-for-multilin
 
 We align PPC with SEO to cover more of the high-intent results. Separate campaigns by language and service improve Quality Score and conversions, and targeting phrases that signal action puts the spend where clients are ready to act.
 
-## Measuring results
+## Report against the objectives you set
 
 Every campaign starts with objectives tied to growth, and we report against those objectives.
 
@@ -179,13 +224,13 @@ Every campaign starts with objectives tied to growth, and we report against thos
 
 For Valencia, focused terms like “NIE application Valencia” and “English-speaking business lawyer Spain” lifted qualified leads across all four languages. We review metrics quarterly and adjust the strategy to keep momentum.
 
-## Trends and good practice in legal SEO
+## Where legal search is heading, and what works now
 
 AI search is changing how people ask legal questions. Google’s AI Overviews and chat assistants answer conversational queries directly, so clear, citable answers and FAQs matter more than ever. Short explainer videos with transcripts help too, and guidance must be updated promptly when legislation or case law changes, because current advice protects both trust and visibility.
 
 What works is familiar too: natural language over keyword stuffing, local intent alongside broad terms, and a site kept fresh through major updates. Success comes from sustainable, evidence-led work that balances local and international demand.
 
-## Choosing a law firm SEO agency
+## Questions to ask any agency before you sign
 
 A reputable agency blends proven marketing methods with sector experience. You should receive clear reports, realistic timelines and a roadmap grounded in metrics. When you compare providers:
 
@@ -201,7 +246,7 @@ The right partner understands both technical marketing and the realities of lega
 
 Your website is often the first point of contact, so make it work like your best intake team. Our multilingual legal work shows that smaller firms can outrank bigger competitors with the right strategy: we’ve helped law firms grow international enquiries, rank in multiple languages and turn visibility into consultations.
 
-[Let’s discuss your challenges and objectives](/contact/).
+[Book a call about your firm’s goals](/contact/).
 
 -   Email: contact@mikebastin.com
 -   Phone: +34 671 17 57 74
@@ -213,7 +258,7 @@ Your website is often the first point of contact, so make it work like your best
 
 Timelines vary with competition, site health and content quality. Incremental gains can appear within a couple of months; competitive terms may take six months or more.
 
-### Is law firm SEO agency support expensive?
+### What does law firm SEO cost?
 
 Costs depend on scope and expertise. Many firms recover the investment through a steady flow of better-qualified leads from organic search.
 

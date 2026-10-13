@@ -1,7 +1,7 @@
 ---
 words: 1001
-title: "The role of localization in optimizing multilingual website content"
-metaTitle: "Optimizing multilingual website content with localization"
+title: "Multilingual website content that reads as local in every market"
+metaTitle: "Multilingual website content that reads local"
 slug: "optimising-multilingual-website-content"
 locale: "en"
 type: "posts"
@@ -13,7 +13,7 @@ sourceUrl: "https://mikebastin.com/optimising-multilingual-website-content/"
 excerpt: "Want translated pages that rank and sell? How localization makes multilingual website content feel native, get found and convert in every market."
 ---
 
-## Making every language version sell as well as English
+## Make every language version sell as well as English
 
 Your multilingual website has every page in every language, and the next step is making the other versions sell like the English one. Visitors from Paris or Madrid should find it accurate, familiar and worth an enquiry, so every market you invest in has a reason to buy.
 
@@ -45,17 +45,37 @@ The process draws on translation memory, a clear language strategy and [transcre
 <figcaption>Translation is one part of localization. The rest of the box is what makes a French or Spanish visitor read the page as local.</figcaption>
 </figure>
 
-## Localization and multilingual SEO
+## Help buyers find each localized page
 
 A localized page earns once buyers find it. [On-page and technical SEO](/services/technical-seo/) across all versions improves visibility in local results.
 
 Hreflang, geotargeting signals and structured data tell search engines which version to show each user. Combined with [multilingual SEO](/services/multilingual-seo/) techniques, they lift rankings in Spain and across the wider European market.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Hreflang tells search engines which language version to show each user: the English, French or Spanish page.">
+<path d="M200 50 L70 102" class="fg-line"/>
+<path d="M200 50 L200 102" class="fg-line"/>
+<path d="M200 50 L330 102" class="fg-line"/>
+<rect x="135" y="10" width="130" height="40" rx="6" class="fg-hot"/>
+<rect x="15" y="102" width="110" height="46" rx="6" class="fg-box"/>
+<rect x="145" y="102" width="110" height="46" rx="6" class="fg-box"/>
+<rect x="275" y="102" width="110" height="46" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-strong">Hreflang</text>
+<text x="70" y="122" text-anchor="middle" class="fg-text">English</text>
+<text x="70" y="140" text-anchor="middle" class="fg-label">en</text>
+<text x="200" y="122" text-anchor="middle" class="fg-text">French</text>
+<text x="200" y="140" text-anchor="middle" class="fg-label">fr</text>
+<text x="330" y="122" text-anchor="middle" class="fg-text">Spanish</text>
+<text x="330" y="140" text-anchor="middle" class="fg-label">es</text>
+</svg>
+<figcaption>One page, three language versions. Hreflang points each searcher to the version written in their language.</figcaption>
+</figure>
+
 <aside class="post-cta">
 <p><strong>Want translated pages ranking in the markets that buy?</strong> Our <a href="/services/multilingual-seo/">multilingual SEO programmes</a> brief native writers per market, so each language earns enquiries as well as traffic. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
-## AI and automation in localization
+## Use AI where it cuts the cost of localizing
 
 AI cuts the cost of localizing when you know where people take over. [AI translation tools](/blog/how-ai-is-transforming-translation-and-localisation/) and neural machine translation now handle repetitive tasks and speed up workflows.
 
@@ -67,7 +87,22 @@ Good groundwork makes your next market a content job. Most multilingual websites
 
 Internationalisation (i18n) and localization (l10n) must be part of the architecture. A [software internationalisation](/services/app-and-software-localisation/) process makes sure every component, from content management to forms and databases, supports local currencies, units and regulations.
 
-## User experience and local payments
+<figure class="post-fig">
+<svg viewBox="0 0 400 168" role="img" aria-label="Three layers: an i18n architecture for currencies, units and regulations, a multilingual CMS with its plugins above it, and the next market as a content job at the top.">
+<rect x="100" y="8" width="200" height="46" rx="6" class="fg-hot"/>
+<rect x="60" y="62" width="280" height="46" rx="6" class="fg-box"/>
+<rect x="20" y="116" width="360" height="46" rx="6" class="fg-box"/>
+<text x="200" y="28" text-anchor="middle" class="fg-text">Content job</text>
+<text x="200" y="46" text-anchor="middle" class="fg-label">next market</text>
+<text x="200" y="82" text-anchor="middle" class="fg-text">CMS and plugins</text>
+<text x="200" y="100" text-anchor="middle" class="fg-label">WordPress, WooCommerce</text>
+<text x="200" y="136" text-anchor="middle" class="fg-text">i18n architecture</text>
+<text x="200" y="154" text-anchor="middle" class="fg-label">currencies, units, regulations</text>
+</svg>
+<figcaption>Build the foundation once. With i18n in the architecture and a multilingual CMS above it, each new market becomes a content job.</figcaption>
+</figure>
+
+## Localize checkout and payment methods
 
 Checkout is where localization turns straight into revenue. Localized design, from layout to icons and payment methods, affects conversion everywhere, and most at the last step:
 
@@ -81,7 +116,23 @@ Checkout is where localization turns straight into revenue. Localized design, fr
 
 Offering the methods each market trusts makes transactions smoother and lifts conversion rates.
 
-## Measuring and improving
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="One checkout, localized per market: buyers in Spain pay with Bizum, buyers in France with Wero.">
+<path d="M150 75 L230 35" class="fg-line"/>
+<path d="M150 75 L230 115" class="fg-line"/>
+<rect x="20" y="55" width="130" height="40" rx="6" class="fg-hot"/>
+<rect x="230" y="12" width="150" height="46" rx="6" class="fg-box"/>
+<rect x="230" y="92" width="150" height="46" rx="6" class="fg-box"/>
+<text x="85" y="81" text-anchor="middle" class="fg-strong">Checkout</text>
+<text x="305" y="32" text-anchor="middle" class="fg-text">Spain</text>
+<text x="305" y="50" text-anchor="middle" class="fg-label">Bizum</text>
+<text x="305" y="112" text-anchor="middle" class="fg-text">France</text>
+<text x="305" y="130" text-anchor="middle" class="fg-label">Wero</text>
+</svg>
+<figcaption>The basket stays the same and the payment step changes, so each market finds the method it already trusts.</figcaption>
+</figure>
+
+## Track each language version on its own
 
 A number per language shows how each market performs on its own. Review each language version regularly in Google Search Console: the data shows where to refine keyword research, adjust metadata and improve content in each language.
 
@@ -95,7 +146,7 @@ Schema markup and structured data also help multiregional sites earn rich result
 
 The businesses getting value run hybrid workflows, human expertise plus AI automation. Neural models are getting better at tone and cultural context, and human quality assurance keeps the result authentic. [AI consulting](/services/ai-consulting/) helps businesses decide where automation pays and where people must stay in the loop.
 
-## Localization as a growth strategy
+## Treat localization as growth
 
 Treated as growth, localization improves visibility, builds trust and drives conversions.
 
@@ -103,7 +154,7 @@ From our base in Valencia, Spain, we work with European businesses expanding int
 
 ## FAQ about multilingual SEO
 
-### What is multilingual SEO and why is it important?
+### What is multilingual SEO and what does it do?
 
 Multilingual SEO optimizes a website for several languages and regions. It helps search engines understand your translated content and show each user the right version, which is essential for visibility and rankings in every target market.
 

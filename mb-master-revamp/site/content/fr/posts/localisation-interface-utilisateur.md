@@ -13,17 +13,37 @@ sourceUrl: null
 excerpt: "La localisation d’interface utilisateur adapte libellés, mises en page et formulaires à chaque marché, pour que vos utilisateurs s’y sentent chez eux."
 ---
 
-## Une interface localisée qui retire chaque hésitation
+## Une interface localisée qui lève chaque hésitation
 
 Votre produit est arrivé sur un nouveau marché avec une traduction correcte, et vous voulez maintenant que les inscriptions y suivent le rythme de la France. Le gain se joue dans l’interface : un bouton qui garde sa ligne en allemand, un formulaire qui accepte une adresse néerlandaise, un libellé qui sonne comme s’il avait été écrit sur place.
 
 Chacun de ces détails retire une hésitation au moment où l’utilisateur s’inscrit, paie ou s’engage. Voici ce que couvre la localisation d’une interface, ce qu’elle apporte à votre entreprise, et comment la planifier et la tester pour que chaque nouvelle langue trouve sa place dans le design que vous avez déjà.
 
-## Pourquoi la localisation d’interface compte
+## L’interface, là où l’utilisateur décide
 
 Pour une entreprise française, belge, suisse ou luxembourgeoise qui vend en Allemagne, en Espagne ou aux Pays-Bas, l’interface est l’endroit où l’utilisateur décide si le produit est fait pour lui. Une interface localisée reflète sa langue et ses usages : elle est plus facile à utiliser, et l’utilisateur en attribue le mérite à la marque.
 
 La localisation de l’interface adapte les textes, les images, la mise en page et le comportement à la langue, à la culture et aux exigences légales de chaque marché. Elle couvre donc aussi les formats de date, les champs de devise et les mentions réglementaires, là où un réglage juste protège l’entreprise.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Une interface localisée apporte trois bénéfices : la portée dans de nouveaux pays, des actions clés plus faciles pour la conversion, et une confiance qui fidélise.">
+<path d="M200 50 L67 102" class="fg-line"/>
+<path d="M200 50 L200 102" class="fg-line"/>
+<path d="M200 50 L333 102" class="fg-line"/>
+<rect x="105" y="10" width="190" height="40" rx="6" class="fg-hot"/>
+<rect x="4" y="102" width="126" height="46" rx="6" class="fg-box"/>
+<rect x="137" y="102" width="126" height="46" rx="6" class="fg-box"/>
+<rect x="270" y="102" width="126" height="46" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-text">Interface localisée</text>
+<text x="67" y="122" text-anchor="middle" class="fg-text">Portée</text>
+<text x="67" y="140" text-anchor="middle" class="fg-label">nouveaux pays</text>
+<text x="200" y="122" text-anchor="middle" class="fg-text">Conversion</text>
+<text x="200" y="140" text-anchor="middle" class="fg-label">actions clés</text>
+<text x="333" y="122" text-anchor="middle" class="fg-text">Confiance</text>
+<text x="333" y="140" text-anchor="middle" class="fg-label">fidélité</text>
+</svg>
+<figcaption>Portée, conversion et confiance se jouent toutes dans l’interface, là où l’utilisateur décide si le produit est fait pour lui.</figcaption>
+</figure>
 
 Les bénéfices tiennent en trois points :
 
@@ -31,7 +51,7 @@ Les bénéfices tiennent en trois points :
 - **Conversion.** Une interface familière facilite l’achat, l’inscription ou toute action clé.
 - **Confiance dans la marque.** S’adapter à la langue et à la culture des utilisateurs témoigne du respect, et ce respect fidélise.
 
-## Les éléments de base de la localisation d’interface
+## Ce qu’il faut localiser dans une interface
 
 Connaître les quatre couches indique par où commencer. Une [localisation d’applications et de logiciels](/fr/services/localisation-applications/) réussie touche chacune d’elles :
 
@@ -66,9 +86,26 @@ Les dates suivent la même logique : le 2 octobre 2026 s’écrit 02/10/2026 en
 <figcaption>Un même jour, trois écritures. Affichée au format de chaque marché, une date de rendez-vous se lit au bon mois.</figcaption>
 </figure>
 
-## Les bonnes pratiques
+## Cinq habitudes qui maintiennent le coût bas
 
-L’essentiel du coût se décide avant la traduction de la première chaîne. Cinq habitudes le maintiennent bas :
+L’essentiel du coût se décide avant la traduction de la première chaîne. Cinq habitudes le maintiennent bas.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 120" role="img" aria-label="Trois des habitudes, dans l’ordre : planifier la localisation dès le design, confier la traduction à des professionnels, puis tester avec des utilisateurs locaux.">
+<path d="M125 60 L140 60" class="fg-line"/>
+<path d="M260 60 L275 60" class="fg-accent"/>
+<rect x="5" y="30" width="120" height="60" rx="6" class="fg-box"/>
+<rect x="140" y="30" width="120" height="60" rx="6" class="fg-box"/>
+<rect x="275" y="30" width="120" height="60" rx="6" class="fg-hot"/>
+<text x="65" y="56" text-anchor="middle" class="fg-strong">Planifier</text>
+<text x="65" y="78" text-anchor="middle" class="fg-label">dès le départ</text>
+<text x="200" y="56" text-anchor="middle" class="fg-strong">Traduire</text>
+<text x="200" y="78" text-anchor="middle" class="fg-label">par un humain</text>
+<text x="335" y="56" text-anchor="middle" class="fg-strong">Tester</text>
+<text x="335" y="78" text-anchor="middle" class="fg-label">sur le marché</text>
+</svg>
+<figcaption>La planification en amont et le test avec des utilisateurs locaux encadrent la traduction, ce qui maintient bas le coût de chaque nouveau marché.</figcaption>
+</figure>
 
 - **Planifier dès le départ.** Intégrez la localisation au processus de design, pour que les mises en page et les fonctions accueillent chaque langue à son arrivée.
 - **Tester avec une pseudo-localisation.** Avant toute traduction, un texte fictif, allongé et accentué remplit l’interface et montre d’emblée chaque libellé qui déborde.
@@ -80,7 +117,7 @@ L’essentiel du coût se décide avant la traduction de la première chaîne. C
 <p><strong>Vous ajoutez une langue à votre application ou à votre logiciel ?</strong> Notre <a href="/fr/services/localisation-applications/">localisation d’applications et de logiciels</a> internationalise d’abord l’architecture, pour qu’une nouvelle langue devienne un travail de traduction, puis teste l’interface sur les appareils utilisés dans chaque marché. <a href="/fr/nous-contacter/">Réservez l’appel de découverte</a>.</p>
 </aside>
 
-## Les outils qui aident
+## Gardez toutes les langues au même rythme
 
 Les bons outils gardent toutes les langues au même rythme, y compris quand le produit sort une nouvelle version chaque mois. L’essentiel de la localisation d’interface passe par trois types d’outils, souvent réunis dans une même plateforme comme Smartcat :
 
@@ -88,9 +125,25 @@ Les bons outils gardent toutes les langues au même rythme, y compris quand le p
 - **Les outils de traduction assistée par ordinateur (TAO)** donnent aux traducteurs la mémoire de traduction, les bases terminologiques et des suggestions automatiques, ce qui maintient une terminologie cohérente.
 - **Les suggestions assistées par machine** accélèrent les chaînes courantes, avec un traducteur humain qui relit le résultat.
 
-## Les défis courants et leurs solutions
+## Trois défis fréquents et leur solution
 
-Trois défis reviennent régulièrement, et chacun a sa solution connue :
+Trois défis reviennent régulièrement, et chacun a sa solution connue.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Une même chaîne d’interface arrive au traducteur de deux façons : seule, avec une fonction floue, ou accompagnée de captures d’écran et de notes qui montrent le contexte.">
+<path d="M150 75 L230 35" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M150 75 L230 115" class="fg-accent"/>
+<rect x="15" y="55" width="135" height="40" rx="6" class="fg-box"/>
+<rect x="230" y="12" width="150" height="46" rx="6" class="fg-box"/>
+<rect x="230" y="92" width="150" height="46" rx="6" class="fg-hot"/>
+<text x="82.5" y="81" text-anchor="middle" class="fg-strong">Une chaîne</text>
+<text x="305" y="32" text-anchor="middle" class="fg-text">Chaîne seule</text>
+<text x="305" y="50" text-anchor="middle" class="fg-label">fonction floue</text>
+<text x="305" y="112" text-anchor="middle" class="fg-strong">En contexte</text>
+<text x="305" y="130" text-anchor="middle" class="fg-label">captures, notes</text>
+</svg>
+<figcaption>Consignes, captures d’écran et notes pour chaque élément d’interface montrent au traducteur le rôle de chaque chaîne, ce qui évite les contresens.</figcaption>
+</figure>
 
 | Défi | Cause | Solution |
 |---|---|---|
@@ -98,7 +151,7 @@ Trois défis reviennent régulièrement, et chacun a sa solution connue :
 | Contresens liés au contexte | Les traducteurs voient les chaînes hors de leur fonction | Consignes, captures d’écran et notes pour chaque élément d’interface |
 | Références culturelles | Images, couleurs ou symboles portent d’autres significations | Faire relire les visuels par des locuteurs natifs de chaque marché |
 
-## La première étape
+## Commencez par un marché
 
 Un produit qui parle la langue de ses utilisateurs, au sens propre comme au sens culturel, est plus facile à utiliser, obtient plus d’engagement et gagne la confiance de ses utilisateurs internationaux.
 

@@ -65,6 +65,22 @@ Para un bufete, el EEAT decide si Google te muestra a un cliente potencial. El c
 
 Así que optimizas las biografías de los autores. Afinas el tono. Añades referencias. Refuerzas la coherencia de las entidades. Susurras alguna plegaria a los evaluadores de calidad.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 130" role="img" aria-label="El trabajo EEAT en la web de un bufete en cuatro frentes: biografías de autores, tono, referencias y coherencia de las entidades.">
+<rect x="10" y="10" width="154" height="46" rx="6" class="fg-box"/>
+<rect x="236" y="10" width="154" height="46" rx="6" class="fg-box"/>
+<rect x="10" y="74" width="154" height="46" rx="6" class="fg-box"/>
+<rect x="236" y="74" width="154" height="46" rx="6" class="fg-box"/>
+<circle cx="200" cy="65" r="32" class="fg-hot"/>
+<text x="87" y="38" text-anchor="middle" class="fg-text">Biografías</text>
+<text x="313" y="38" text-anchor="middle" class="fg-text">Tono</text>
+<text x="87" y="102" text-anchor="middle" class="fg-text">Referencias</text>
+<text x="313" y="102" text-anchor="middle" class="fg-text">Entidades</text>
+<text x="200" y="71" text-anchor="middle" class="fg-strong">EEAT</text>
+</svg>
+<figcaption>El ritual diario de un SEO serio: cuatro señales, y cada una cuenta para la visibilidad del bufete en Google.</figcaption>
+</figure>
+
 Así es el ritual diario de un SEO serio. Tranquilo. Concentrado. Ligeramente paranoico.
 
 ## AEAT, el juez español
@@ -76,6 +92,23 @@ Los dos envían mensajes. Uno llega a Search Console. El otro llega a tu buzón,
 ## La vida de un SEO internacional en España
 
 Tú trabajas en español. Tus clientes de Francia, Bélgica o Reino Unido trabajan en francés o en inglés. Tus proyectos mezclan lenguaje jurídico, referencias fiscales y siglas administrativas, y te pasas el día traduciendo contextos mentales.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Tus proyectos mezclan tres vocabularios: lenguaje jurídico, referencias fiscales y siglas administrativas.">
+<path d="M148 80 L176 28" class="fg-line"/>
+<path d="M148 80 L176 80" class="fg-line"/>
+<path d="M148 80 L176 132" class="fg-accent"/>
+<rect x="8" y="60" width="140" height="40" rx="6" class="fg-box"/>
+<rect x="176" y="8" width="216" height="40" rx="6" class="fg-box"/>
+<rect x="176" y="60" width="216" height="40" rx="6" class="fg-box"/>
+<rect x="176" y="112" width="216" height="40" rx="6" class="fg-hot"/>
+<text x="78" y="86" text-anchor="middle" class="fg-strong">Un proyecto</text>
+<text x="284" y="33" text-anchor="middle" class="fg-text">Lenguaje jurídico</text>
+<text x="284" y="85" text-anchor="middle" class="fg-text">Referencias fiscales</text>
+<text x="284" y="137" text-anchor="middle" class="fg-text">Siglas administrativas</text>
+</svg>
+<figcaption>Tres vocabularios comparten cada proyecto, y es en las siglas donde las letras empiezan a mezclarse.</figcaption>
+</figure>
 
 Con el tiempo, las siglas se mezclan. EEAT. AEAT. EAT. AET. ETA. Tu cerebro lanza un test A/B descontrolado sobre tu salud mental.
 
@@ -90,6 +123,27 @@ Una diapositiva de presentación: «Optimización de la AEAT para la credibilida
 Un borrador de propuesta: «Incluye auditoría AEAT completa». Ahora el departamento financiero está muy interesado.
 
 Las noches largas suben las probabilidades. El café baja las defensas. Y de pronto tu documento SEO se lee como un informe de cumplimiento tributario.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 158" role="img" aria-label="Una errata, tres lectores: en un mensaje de Slack llega a un compañero, en una diapositiva al cliente y en un borrador de propuesta al departamento financiero.">
+<path d="M180 29 L216 29" class="fg-dim"/>
+<path d="M180 79 L216 79" class="fg-dim"/>
+<path d="M180 129 L216 129" class="fg-accent"/>
+<rect x="8" y="8" width="172" height="42" rx="6" class="fg-box"/>
+<rect x="8" y="58" width="172" height="42" rx="6" class="fg-box"/>
+<rect x="8" y="108" width="172" height="42" rx="6" class="fg-box"/>
+<rect x="216" y="8" width="176" height="42" rx="6" class="fg-box"/>
+<rect x="216" y="58" width="176" height="42" rx="6" class="fg-box"/>
+<rect x="216" y="108" width="176" height="42" rx="6" class="fg-hot"/>
+<text x="94" y="35" text-anchor="middle" class="fg-text">Mensaje de Slack</text>
+<text x="94" y="85" text-anchor="middle" class="fg-text">Diapositiva</text>
+<text x="94" y="135" text-anchor="middle" class="fg-text">Propuesta</text>
+<text x="304" y="35" text-anchor="middle" class="fg-text">Compañero</text>
+<text x="304" y="85" text-anchor="middle" class="fg-text">Cliente</text>
+<text x="304" y="135" text-anchor="middle" class="fg-text">Finanzas</text>
+</svg>
+<figcaption>La misma errata llega más lejos con cada documento, hasta que el departamento financiero se interesa.</figcaption>
+</figure>
 
 ## La moraleja profesional
 

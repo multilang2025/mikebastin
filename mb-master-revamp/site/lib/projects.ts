@@ -129,7 +129,7 @@ export const PROJECTS: Project[] = [
     problem:
       "A translation agency selling into nine markets needs nine SEO campaigns, each one built for its own market. The country domains (.com, .us, .ca, .co.uk, .be, .fr, .es, .de, .nl) each carry their own competitors, their own search habits and their own trust signals, so each one is run as a site of its own, built to hold its ground against local competitors.",
     work:
-   "Founded the agency and has run it for twenty years, Each regional TLD gets its own technical SEO treatment: separate sitemaps, separate hreflang groups, and separate keyword research per market, built from that market's own searches.",
+   "Founded the agency and has run it for twenty years. Each regional TLD gets its own technical SEO treatment: separate sitemaps, separate hreflang groups, and separate keyword research per market, built from that market's own searches.",
     outcome:
    "Nine country sites, each ranking on its own market's terms, under an agency still trading after two decades.",
     services: ["Multi-TLD SEO", "Multilingual content", "Nine country markets", "Founder"],
@@ -162,7 +162,7 @@ export const PROJECTS: Project[] = [
     problem:
       "Small businesses that need custom software want a fixed scope, a price they can plan around and a tool that fits their operations exactly. A business running in more than one language from day one needs that tool to be multilingual from the start as well.",
     work:
-   "AI-assisted development with a fixed scope and a fixed price, delivered in weeks, multilingual from the first commit. Built on Next.js with Payload CMS, the stack is Next.js with Payload CMS.",
+   "AI-assisted development with a fixed scope and a fixed price, delivered in weeks, multilingual from the first commit, built on Next.js with Payload CMS.",
     outcome:
       "A shipment tracking portal for TX International Freight that took manual status chasing out of the week, an internal reconciliation platform for the team's weekly reconciliation, and the multilingual site and tracking system running Century 21 Perdomo's real estate listings.",
     services: ["Custom AI software", "Multilingual from build", "Fixed scope, fixed price"],
@@ -247,7 +247,7 @@ export const PROJECTS: Project[] = [
         height: 800,
         alt: "Google Search Console for valenciamove.com over six months: 17.4K clicks and 1.63M impressions, daily clicks rising from near zero in April 2026 to around 200 by September",
         caption: "Google Search Console, valenciamove.com, April to October 2026.",
-        heading: "The ValenciaMove search traffic, from launch to around 200 clicks a day",
+        heading: "ValenciaMove grew from launch to around 200 clicks a day",
         text: "17,400 clicks and 1.63 million impressions in six months, from almost nothing in April. ValenciaMove is our own site, run the way we run a client's.",
       },
     ],
@@ -257,12 +257,12 @@ export const PROJECTS: Project[] = [
     numeral: "VI",
     name: "Bemelman Spuiterij",
     domain: "bemelmanspuiterij.nl",
-    angle: "Dutch powder coating, 45 years",
+    angle: "Dutch powder coating",
     body: "A specialist in Noordwijkerhout whose reputation had outgrown its web presence. Dutch local SEO for a trade where the buyers are other businesses and the search volume is small but decisive.",
     metaTitle: "Bemelman Spuiterij, a case study",
     metaDescription: "A Dutch powder coating specialist with forty five years of reputation and a web presence to build. See the local SEO made for its decisive market.",
     metrics: [
-      { v: "45 yr", k: "Trading" },
+      { v: "B2B", k: "Trade buyers" },
       { v: "NL", k: "Local search" },
     ],
     problem:
@@ -281,7 +281,7 @@ export const PROJECTS: Project[] = [
         height: 800,
         alt: "Google Search Console for bemelmanspuiterij.nl over sixteen months: 5.32K clicks and 448K impressions, daily clicks rising from around 5 in mid 2025 to around 15 by autumn 2026",
         caption: "Google Search Console, bemelmanspuiterij.nl, June 2025 to October 2026.",
-        heading: "The Bemelman Spuiterij search traffic, roughly tripled in a year",
+        heading: "Bemelman Spuiterij roughly tripled its search traffic in a year",
         text: "5,320 clicks and 448,000 impressions over sixteen months. Daily clicks sat around five through 2025 and climbed to around fifteen from early 2026, in a niche where every search is a business buyer.",
       },
     ],
@@ -358,7 +358,7 @@ export const PROJECTS: Project[] = [
         height: 520,
         alt: "Google Search Console for matosurf.com from July to early October 2026: 1,008 web search clicks, daily clicks rising from zero to around 20",
         caption: "Google Search Console, matosurf.com, July to October 2026.",
-        heading: "The Matosurf search traffic, from zero to around 20 clicks a day",
+        heading: "Matosurf grew from zero to around 20 clicks a day",
         text: "A six-month-old site with 1,008 clicks from Google in its last three months, climbing from nothing in early July. Matosurf is our own site, run the way we run a client's.",
       },
     ],

@@ -48,7 +48,7 @@ Cuando una web cambia de CMS, de dominio o de estructura de direcciones, conserv
 
 Investigamos cada mercado en su propio idioma y ordenamos los términos por la etapa de decisión del comprador, desde la primera pregunta hasta la comparación de proveedores. Cada término recibe después una página que trabaja para él. La investigación recoge también dónde aparece ahora la respuesta, resúmenes de IA incluidos, para que las páginas que preparamos puedan citarse allí.
 
-### Trabajo en página sobre las páginas que importan
+### Ajustes en las páginas que más venden
 
 Ajustamos títulos, jerarquía de encabezados, HTML semántico y estructura para que cada página diga a Google y al comprador para qué sirve, y aceleramos las páginas que lo necesitan. Reorganizamos los [enlaces internos](/es/herramientas-enlazado-interno/) para que apunten a la página que debe posicionarse. En una web multilingüe, la mayor parte de la mejora viene de decidir qué página es dueña de cada consulta en cada idioma, y así dos páginas tuyas dejan de repartirse las mismas búsquedas. El trabajo por mercado sigue en nuestro [posicionamiento multilingüe](/es/services/posicionamiento-multilingue/), y si tus clientes están sobre todo en tu zona, el [SEO local](/es/services/seo-local/) completa la auditoría con tu presencia en el mapa de Google.
 

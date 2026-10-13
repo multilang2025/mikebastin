@@ -13,7 +13,7 @@ sourceUrl: "https://mikebastin.com/fr/expert-en-seo-international/"
 excerpt: "Un expert SEO international tranche pour chaque pays : ordre d’entrée, mots-clés locaux, structure du site, liens et refonte. Voici comment il décide."
 ---
 
-## Un expert SEO international qui tranche à partir des données
+## Un expert SEO international qui décide à partir des données
 
 Votre site existe en plusieurs langues et vos marchés étrangers vous envoient des visites. Leur rendement se joue sur quelques choix faits pour chaque pays : par quel marché commencer, quels mots viser, comment organiser le site, où gagner sa crédibilité. Bien tranchés au début, ces choix s’additionnent pendant des années.
 
@@ -42,6 +42,25 @@ Le premier marché ouvert finance souvent les suivants. Le choisir sur des donn�
 Nous notons chaque marché candidat sur la demande de recherche, la concurrence, l’adéquation avec ce que vous vendez, le coût de la localisation et les contraintes réglementaires du pays. Le classement place parfois en tête un autre pays que celui qu’on attendait. Trois ou quatre marchés menés en profondeur donnent plus de résultats que neuf lancés ensemble. Une [analyse concurrentielle SEO](/fr/analyse-concurrentielle-seo/) repère, pour chaque marché, les sites qui captent déjà vos acheteurs.
 
 Sur un marché nouveau, une campagne payante sert de banc d’essai. Le [référencement naturel](https://mikebastin.com/fr/services/seo/) et le [marketing payant sur les moteurs de recherche](https://mikebastin.com/fr/services/sem-multilingue/) se complètent : quelques semaines de Google Ads montrent quels mots-clés convertissent, et la stratégie organique s’appuie ensuite sur ces chiffres. Pour la France, notre guide de la [campagne Google Ads en France](/fr/campagne-google-ads-france/) montre comment construire ce banc d’essai. Pour un marché anglophone, notre [SEO en anglais](https://mikebastin.com/fr/services/seo-anglais/) prend le relais, et la [création de contenu multilingue](/fr/services/creation-de-contenu-multilingue/) alimente les réseaux sociaux de chaque pays pendant la montée en puissance.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 112" role="img" aria-label="Un nouveau marché se teste en trois temps : quelques semaines de Google Ads, les mots-clés qui convertissent, puis une stratégie de SEO naturel fondée sur ces chiffres.">
+<line x1="122" y1="40" x2="142" y2="40" class="fg-line"/>
+<path d="M136 35 L142 40 L136 45" class="fg-line"/>
+<line x1="258" y1="40" x2="278" y2="40" class="fg-line"/>
+<path d="M272 35 L278 40 L272 45" class="fg-line"/>
+<rect x="6" y="18" width="116" height="44" rx="6" class="fg-box"/>
+<rect x="142" y="18" width="116" height="44" rx="6" class="fg-box"/>
+<rect x="278" y="18" width="116" height="44" rx="6" class="fg-hot"/>
+<text x="64" y="46" text-anchor="middle" class="fg-text">Google Ads</text>
+<text x="200" y="46" text-anchor="middle" class="fg-text">Mots-clés</text>
+<text x="336" y="46" text-anchor="middle" class="fg-text">SEO naturel</text>
+<text x="64" y="92" text-anchor="middle" class="fg-label">banc d’essai</text>
+<text x="200" y="92" text-anchor="middle" class="fg-label">qui convertissent</text>
+<text x="336" y="92" text-anchor="middle" class="fg-label">sur ces chiffres</text>
+</svg>
+<figcaption>La campagne payante sert de banc d’essai, et le référencement naturel part ensuite des mots-clés qui ont déjà converti.</figcaption>
+</figure>
 
 ## Les mots-clés de chaque pays, langue commune comprise
 
@@ -87,6 +106,20 @@ Prenons un client de l’immobilier aux Caraïbes, dont le site existait en quat
 
 Nous avons recréé la stratégie, refait le maillage interne et restructuré les URL, langue par langue. La leçon vaut pour toute refonte : chaque ancienne URL redirige vers sa nouvelle équivalente, et le contenu qui se positionnait est repris, pour que le nouveau site parte des acquis de l’ancien.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 126" role="img" aria-label="Lors d’une refonte, chaque ancienne URL redirige vers sa nouvelle équivalente, et le nouveau site part des acquis de l’ancien.">
+<path d="M160 53 L240 53" class="fg-accent"/>
+<path d="M232 47 L240 53 L232 59" class="fg-accent"/>
+<rect x="10" y="30" width="150" height="46" rx="6" class="fg-box"/>
+<rect x="240" y="30" width="150" height="46" rx="6" class="fg-hot"/>
+<text x="200" y="42" text-anchor="middle" class="fg-label">redirige</text>
+<text x="85" y="59" text-anchor="middle" class="fg-strong">Ancienne URL</text>
+<text x="315" y="59" text-anchor="middle" class="fg-strong">Nouvelle URL</text>
+<text x="200" y="112" text-anchor="middle" class="fg-text">Le nouveau site part des acquis</text>
+</svg>
+<figcaption>Une redirection par URL et le contenu qui se positionnait repris : la refonte conserve les positions gagnées.</figcaption>
+</figure>
+
 Le choix entre ces options vous est présenté avec ses arguments ; notre article sur le rôle d’un [consultant en référencement international](https://mikebastin.com/fr/consultant-referencement-international/) montre comment cette décision s’inscrit dans le premier mois de mission.
 
 <aside class="post-cta">
@@ -105,11 +138,31 @@ Une stratégie de netlinking internationale repose sur trois piliers :
 
 Chaque version linguistique gagne ainsi ses propres liens, dans son propre pays.
 
-## La localisation, au-delà de la traduction
+## Localiser le message pour chaque pays
 
 La confiance d’un acheteur se joue en quelques secondes, et une langue cohérente la gagne. La localisation est souvent le premier point que nous vérifions sur un site, avant même la technique.
 
 Reprenons notre client de l’immobilier caribéen. Sa version française mélangeait des tournures du Canada, de Suisse, de France et de Belgique dans un même texte. Les titres portaient une majuscule à chaque mot, calquée sur l’anglais, et un appel à l’action traduisait « Book now » par « Réservé maintenant », avec une faute d’accord en prime. Une seule variante de français, des titres à la française et des boutons écrits pour leur lecteur ont rendu au site le ton d’un fournisseur local.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 138" role="img" aria-label="Un texte qui mêle le français du Canada, de Suisse, de France et de Belgique, ramené à une seule variante de français.">
+<path d="M120 21 L210 69" class="fg-dim"/>
+<path d="M120 53 L210 69" class="fg-dim"/>
+<path d="M120 85 L210 69" class="fg-dim"/>
+<path d="M120 117 L210 69" class="fg-dim"/>
+<rect x="10" y="8" width="110" height="26" rx="6" class="fg-box"/>
+<rect x="10" y="40" width="110" height="26" rx="6" class="fg-box"/>
+<rect x="10" y="72" width="110" height="26" rx="6" class="fg-box"/>
+<rect x="10" y="104" width="110" height="26" rx="6" class="fg-box"/>
+<rect x="210" y="46" width="180" height="46" rx="6" class="fg-hot"/>
+<text x="65" y="26" text-anchor="middle" class="fg-label">Canada</text>
+<text x="65" y="58" text-anchor="middle" class="fg-label">Suisse</text>
+<text x="65" y="90" text-anchor="middle" class="fg-label">France</text>
+<text x="65" y="122" text-anchor="middle" class="fg-label">Belgique</text>
+<text x="300" y="74" text-anchor="middle" class="fg-text">Une seule variante</text>
+</svg>
+<figcaption>Une seule variante de français, des titres à la française et des boutons écrits pour leur lecteur donnent au site le ton d’un fournisseur local.</figcaption>
+</figure>
 
 La [localisation de site web](https://mikebastin.com/fr/services/localisation-de-site-web/) adapte le ton, les références culturelles, les formats de date, les devises et même la longueur des textes aux habitudes de lecture de chaque pays. Elle part de la différence entre traduction et [localisation de contenu](/fr/services/localisation-de-site-web/), et c’est elle qui fait d’un site traduit un site qui vend.
 

@@ -32,9 +32,28 @@ Si tus versiones en otros idiomas van por detrás de la española, nuestro [posi
 
 Las búsquedas que se resuelven sin clic y las respuestas de IA han cambiado la página de resultados. Muchos compradores empiezan el recorrido en LinkedIn, afinan la consulta en Perplexity y validan proveedores en G2. Con visibilidad en las tres, estás donde se forma hoy una preselección B2B.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 120" role="img" aria-label="Un recorrido de compra B2B en tres superficies: empieza en LinkedIn, se afina en Perplexity y se valida en G2.">
+<line x1="115" y1="60" x2="145" y2="60" class="fg-line"/>
+<path d="M137 55 L145 60 L137 65" class="fg-line"/>
+<line x1="255" y1="60" x2="285" y2="60" class="fg-line"/>
+<path d="M277 55 L285 60 L277 65" class="fg-line"/>
+<rect x="5" y="24" width="110" height="72" rx="6" class="fg-box"/>
+<rect x="145" y="24" width="110" height="72" rx="6" class="fg-box"/>
+<rect x="285" y="24" width="110" height="72" rx="6" class="fg-hot"/>
+<text x="60" y="56" text-anchor="middle" class="fg-text">LinkedIn</text>
+<text x="60" y="78" text-anchor="middle" class="fg-label">empezar</text>
+<text x="200" y="56" text-anchor="middle" class="fg-text">Perplexity</text>
+<text x="200" y="78" text-anchor="middle" class="fg-label">afinar</text>
+<text x="340" y="56" text-anchor="middle" class="fg-text">G2</text>
+<text x="340" y="78" text-anchor="middle" class="fg-label">validar</text>
+</svg>
+<figcaption>Un mismo recorrido de compra cruza tres superficies, y la visibilidad en cada una te sitúa donde se forma la preselección.</figcaption>
+</figure>
+
 Los buscadores actuales entregan respuestas, y el éxito depende de convertirte en la fuente de esas respuestas. Construye **clústeres de contenido basados en entidades** (tu empresa, tus servicios, tus expertos) que demuestren autoridad temática en todas las superficies.
 
-### Superficies de búsqueda clave en 2026
+### Dónde se busca en 2026
 
 | Superficie de búsqueda | Intención del usuario | Foco de optimización |
 |---|---|---|
@@ -43,9 +62,21 @@ Los buscadores actuales entregan respuestas, y el éxito depende de convertirte 
 | Buscadores verticales (G2, Amazon) | Comparación de productos | Gestión de reseñas y atributos |
 | Búsqueda tradicional (Google, Bing) | Consultas de navegación | E-E-A-T y SEO técnico |
 
-## Domina la optimización para motores generativos (GEO)
+## Optimiza para los motores generativos (GEO)
 
 Cuando un asistente de IA recomienda tres proveedores, el comprador suele elegir entre esos tres. El GEO da forma a tu contenido para los sistemas de IA que sintetizan respuestas.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Un embudo que va de todos los proveedores del mercado a los tres que recomienda un asistente de IA, y de ahí al que elige el comprador entre esos tres.">
+<rect x="30" y="8" width="340" height="44" rx="6" class="fg-box"/>
+<rect x="70" y="58" width="260" height="44" rx="6" class="fg-box"/>
+<rect x="100" y="108" width="200" height="44" rx="6" class="fg-hot"/>
+<text x="200" y="35" text-anchor="middle" class="fg-text">Todos los proveedores</text>
+<text x="200" y="85" text-anchor="middle" class="fg-text">Tres recomendados por la IA</text>
+<text x="200" y="135" text-anchor="middle" class="fg-strong">Elección final</text>
+</svg>
+<figcaption>La preselección se forma dentro de la respuesta de la IA, así que el GEO busca un sitio entre los tres nombres que recomienda.</figcaption>
+</figure>
 
 Para que ChatGPT o Perplexity te citen, tu contenido tiene que ser fácil de leer para una máquina, rico en datos y estructurado para que la extracción sea sencilla. Nuestra [optimización SEO internacional](/es/services/optimizacion-seo/) incluye esa capa desde el principio.
 
@@ -61,7 +92,7 @@ Si tus compradores buscan en LinkedIn o YouTube antes que en Google, tu perfil a
 
 Los hashtags, las descripciones y el texto en pantalla funcionan como metadatos. Una presencia constante aquí construye autoridad real, una señal que los sistemas de IA usan para valorar tu credibilidad.
 
-### Optimización para plataformas B2B verticales
+### Ajusta tus perfiles en las plataformas B2B
 
 -   **LinkedIn:** incluye palabras clave en el titular y en la sección «Acerca de», en el idioma de cada mercado.
 -   **G2 y Capterra:** pide reseñas que mencionen funciones o casos de uso concretos.
@@ -79,7 +110,7 @@ Para la IA, la especialización local cuenta. [Delaguía y Luzón](https://delag
 
 Si quieres que tus versiones en otros idiomas rindan al nivel de la española, cuéntanos tu situación y preparamos tu [estrategia de SEO multilingüe](/es/services/posicionamiento-multilingue/).
 
-## Contenido legible por máquinas
+## Escribe contenido que la IA pueda leer y citar
 
 Una página que un sistema de IA lee con claridad es una página que puede citar. Usa encabezados claros, datos explícitos y un marcado que coincida con el texto visible. Una [auditoría de SEO técnico](/es/services/seo-tecnico/) comprueba que la infraestructura sostiene el GEO.
 
@@ -91,9 +122,25 @@ Google indica que AI Overviews y AI Mode funcionan con las mismas bases que la b
 
 [Go Fish Digital](https://gofishdigital.com/blog/generative-engine-optimization-agencies/), entre otras agencias de GEO, trata los datos estructurados como una base de la búsqueda actual. El formato también influye en la extracción: las tablas y las viñetas rinden más que los párrafos densos, para la IA y para tus lectores.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Los mismos datos en dos formatos: perdidos en un párrafo denso, o en tablas y viñetas que la IA y los lectores citan con fidelidad.">
+<path d="M150 75 L230 35" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M150 75 L230 115" class="fg-accent"/>
+<rect x="20" y="55" width="130" height="40" rx="6" class="fg-box"/>
+<rect x="230" y="12" width="150" height="46" rx="6" class="fg-box"/>
+<rect x="230" y="92" width="150" height="46" rx="6" class="fg-hot"/>
+<text x="85" y="81" text-anchor="middle" class="fg-strong">Mismos datos</text>
+<text x="305" y="32" text-anchor="middle" class="fg-text">Párrafo denso</text>
+<text x="305" y="50" text-anchor="middle" class="fg-label">datos perdidos</text>
+<text x="305" y="112" text-anchor="middle" class="fg-strong">Tablas y viñetas</text>
+<text x="305" y="130" text-anchor="middle" class="fg-label">citados fielmente</text>
+</svg>
+<figcaption>Presenta los datos en tablas y viñetas, y tanto la IA como tus lectores los recogen tal como los escribiste.</figcaption>
+</figure>
+
 Nuestra regla de trabajo: los datos explícitos se recogen con más fiabilidad que las cifras perdidas en una narración, y el marcado se gana su sitio cuando valida y coincide con lo que se lee en la página.
 
-## Una estrategia de búsqueda unificada
+## Gestiona todas las superficies desde un solo plan
 
 Gestionar todas las superficies desde un único marco reduce el coste y mantiene coherentes tus datos, y esa coherencia es la que da a los sistemas de IA la confianza para citarte. Integra SEO, GEO, redes sociales y localización en un solo plan. Para que la relación con tu audiencia siga siendo tuya, mira por qué Jean Marie Cordaro defiende una [economía de los creadores más humana](/es/economia-de-los-creadores/). Reutiliza una pieza de investigación en un carrusel de LinkedIn, un short de YouTube y una sección de preguntas frecuentes en tu web, y multiplicas su retorno.
 
@@ -154,6 +201,6 @@ Que ChatGPT te cite en 2026 pide visibilidad en cada superficie donde buscan tus
 
 Solicita una auditoría GEO para ver cómo te describe hoy la IA y qué hace falta para que te recomiende. Combinamos precisión técnica y alcance multilingüe para generar leads B2B en cada mercado.
 
-[Descubre cómo funciona nuestra consultoría de IA](/es/services/consultoria-de-inteligencia-artificial/)
+[Pide tu auditoría GEO](/es/services/consultoria-de-inteligencia-artificial/)
 
 ¿Sigues explorando? Consulta nuestra página de [optimización SEO](/es/services/optimizacion-seo/) para ver cómo encaja todo.

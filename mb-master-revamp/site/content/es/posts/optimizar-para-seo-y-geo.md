@@ -1,6 +1,7 @@
 ---
 words: 1508
-title: "Estrategia de contenido dual: optimizar para SEO y GEO"
+title: "Optimizar para SEO y GEO: una sola página para Google y para la IA"
+metaTitle: "Optimizar para SEO y GEO con una sola estrategia"
 slug: "optimizar-para-seo-y-geo"
 locale: "es"
 type: "posts"
@@ -14,7 +15,7 @@ excerpt: "Una misma página puede posicionar en Google y aparecer citada en Chat
 
 ![Article header image](/images/legacy/2026/01/estrategiacontenidodualseogeos-1024x585.webp)
 
-## Cómo servir al SEO y al GEO con una misma página
+## Una misma página que funcione para SEO y GEO
 
 Tus compradores en Francia, Alemania o el Benelux buscan en Google y también preguntan a ChatGPT, Claude o Perplexity, que les responden con dos o tres fuentes. Cada página que escribes puede servir a los dos canales a la vez: posicionar en los resultados y aparecer citada en la respuesta.
 
@@ -22,7 +23,7 @@ Aquí tienes en qué se diferencian el SEO y el GEO, qué hace citable una pági
 
 **En síntesis:** el SEO busca clics desde los resultados de búsqueda. El GEO (generative engine optimization) busca que la IA cite tu marca como fuente, y para eso conviene saber [medir el rendimiento GEO](https://mikebastin.com/es/medir-rendimiento-geo/). Los dos se apoyan en el mismo contenido, y nuestra [consultoría de inteligencia artificial](/es/services/consultoria-de-inteligencia-artificial/) trabaja esa parte de la IA para empresas que venden en varios mercados.
 
-## SEO y GEO: diferencias clave
+## Lo que premia el SEO y lo que premia el GEO
 
 Saber qué premia cada canal te evita escribir dos veces la misma página. El SEO pone el acento en la velocidad, las palabras clave y la autoridad del dominio. El GEO lo pone en la claridad de cada afirmación, la coherencia de tus datos y lo fácil que resulta citarte.
 
@@ -34,7 +35,7 @@ Saber qué premia cada canal te evita escribir dos veces la misma página. El SE
 
 Un [análisis competitivo SEO](https://mikebastin.com/es/analisis-competitivo-seo/) muestra qué contenidos de tu sector eligen ya los modelos de lenguaje como fuente, y por dónde puedes entrar tú. Puedes ver todo lo que hacemos en [nuestros servicios](/es/services/).
 
-## Cómo optimizar contenido para motores generativos
+## Escribe para que los motores generativos te citen
 
 Una página citada coloca tu marca dentro de la respuesta, en el momento en que el comprador decide. Los modelos de lenguaje citan con más facilidad el contenido estructurado, verificable y preciso.
 
@@ -46,13 +47,31 @@ La citabilidad funciona en GEO como el backlink en SEO. Incluye datos propios, c
 
 Los datos estructurados de Schema.org describen quién eres, qué ofreces y quién escribe, y su valor en GEO está en la coherencia: el marcado repite lo que dice la página, y la página dice lo mismo en cada idioma. Los tipos que importan y cómo implantarlos están en nuestra guía de [datos estructurados y schema para GEO](/es/datos-estructurados-schema-optimizacion-geo/).
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="El marcado Schema.org, en el centro, describe tres cosas a una IA: quién eres, qué ofreces y quién firma el contenido.">
+<path d="M200 60 L68 112" class="fg-line"/>
+<path d="M200 60 L200 112" class="fg-line"/>
+<path d="M200 60 L332 112" class="fg-line"/>
+<rect x="140" y="10" width="120" height="50" rx="6" class="fg-hot"/>
+<rect x="4" y="112" width="128" height="40" rx="6" class="fg-box"/>
+<rect x="136" y="112" width="128" height="40" rx="6" class="fg-box"/>
+<rect x="268" y="112" width="128" height="40" rx="6" class="fg-box"/>
+<text x="200" y="34" text-anchor="middle" class="fg-strong">Marcado</text>
+<text x="200" y="52" text-anchor="middle" class="fg-label">Schema.org</text>
+<text x="68" y="137" text-anchor="middle" class="fg-text">Quién eres</text>
+<text x="200" y="137" text-anchor="middle" class="fg-text">Qué ofreces</text>
+<text x="332" y="137" text-anchor="middle" class="fg-text">Quién firma</text>
+</svg>
+<figcaption>El marcado da a la IA el contexto de la página y repite exactamente lo que la página dice.</figcaption>
+</figure>
+
 El mismo nombre, dirección y teléfono (NAP) en todas las plataformas da confianza a los buscadores y a los asistentes. Sigue también tus posiciones y tus menciones de marca en los directorios profesionales de cada país. BeTranslated, por ejemplo, lleva un sitio por mercado, del .be al .co.uk, y cada uno presenta la misma empresa con los mismos datos.
 
 <aside class="post-cta">
 <p><strong>¿Quieres saber cómo te leen ChatGPT, Claude o Perplexity?</strong> Nuestra <a href="/es/services/consultoria-de-inteligencia-artificial/">consultoría de inteligencia artificial</a> analiza cómo interpretan los modelos tu web y tu marca, qué páginas pueden citar y qué cambia para que te citen. <a href="/es/contactanos/">Pide tu auditoría gratuita de 20 minutos</a>.</p>
 </aside>
 
-## Integrar SEO y GEO en tu estrategia de contenidos
+## Usa un solo proceso de redacción para los dos canales
 
 Un solo proceso de redacción para los dos canales cuesta menos y mantiene tu mensaje igual en todas partes. Pasa de pensar en palabras clave sueltas a pensar en entidades y temas: tu empresa, tus servicios, tus expertos y las preguntas que resuelven. Cada artículo responde a la persona que busca y ofrece una estructura que la IA puede recorrer. Para elegir esos temas según lo que buscan tus clientes, sigue nuestra guía de [estrategia de contenido segmentada](/es/estrategia-de-contenido-segmentada/). Nuestro [SEO multilingüe](/es/services/posicionamiento-multilingue/) mantiene ese equilibrio en cada idioma.
 
@@ -82,13 +101,31 @@ El GEO mantiene las exigencias del SEO: la velocidad de carga y una navegación 
 
 Una jerarquía visual con H2, H3 y listas permite a los motores generativos dividir y resumir la información. Para [comparar tu sitio con el de tus competidores](https://mikebastin.com/es/analizar-trafico-web-competencia/), revisa también cómo se ven los dos en móvil y en ordenador.
 
-## Medir y reforzar tu autoridad en GEO
+## Mide y refuerza tu autoridad en GEO
 
 Lo que mides decide dónde va el presupuesto, así que el GEO necesita sus propios indicadores: con qué frecuencia aparece tu marca en las respuestas de Perplexity, Claude o ChatGPT para las preguntas de tu sector, y cómo te describen. Los indicadores, las herramientas y una rutina mensual están en nuestra guía para [medir el rendimiento GEO y las citas de IA](/es/medir-rendimiento-geo/). Varias [herramientas gratuitas de análisis competitivo](https://mikebastin.com/es/herramientas-gratuitas-analisis-competitivo/) dan una primera lectura.
 
 ### E-E-A-T en los motores generativos
 
 Experiencia, especialización, autoridad y fiabilidad (E-E-A-T) son los criterios que Google describe para valorar la calidad, y los asistentes de IA tienden a citar fuentes que los cumplen. Firma los artículos con autores reales y reconocidos en su campo.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Los cuatro criterios E-E-A-T en una cuadrícula: la experiencia con tus proyectos, la especialización con un autor que firma, la autoridad con enlaces de calidad y la fiabilidad con datos verificables.">
+<rect x="10" y="8" width="185" height="68" rx="6" class="fg-box"/>
+<rect x="205" y="8" width="185" height="68" rx="6" class="fg-box"/>
+<rect x="10" y="84" width="185" height="68" rx="6" class="fg-box"/>
+<rect x="205" y="84" width="185" height="68" rx="6" class="fg-hot"/>
+<text x="102" y="38" text-anchor="middle" class="fg-strong">Experiencia</text>
+<text x="102" y="60" text-anchor="middle" class="fg-label">tus proyectos</text>
+<text x="297" y="38" text-anchor="middle" class="fg-strong">Especialización</text>
+<text x="297" y="60" text-anchor="middle" class="fg-label">autor que firma</text>
+<text x="102" y="114" text-anchor="middle" class="fg-strong">Autoridad</text>
+<text x="102" y="136" text-anchor="middle" class="fg-label">enlaces de calidad</text>
+<text x="297" y="114" text-anchor="middle" class="fg-strong">Fiabilidad</text>
+<text x="297" y="136" text-anchor="middle" class="fg-label">datos verificables</text>
+</svg>
+<figcaption>Cada criterio E-E-A-T se demuestra en la propia página: proyectos reales, autores reconocidos, enlaces de calidad y datos verificables.</figcaption>
+</figure>
 
 Puedes seguir cómo evolucionan estas señales en [Search Engine Journal](https://www.searchenginejournal.com/).
 
@@ -101,6 +138,22 @@ Como explica el blog de [Google Search](https://blog.google/products/search/), l
 El contenido de marketing y los datos de tu empresa se leen ya como un solo conjunto. Nuestra [página de inicio](/es/) explica cómo ordenamos esa información para cada mercado donde vendes.
 
 Los modelos cambian de versión con frecuencia, y las empresas que publican contenido claro, sólido y actualizado se adaptan a cada cambio con menos esfuerzo. Para negocios que buscan leads cualificados, como [C21 Perdomo](https://c21perdomo.com/es/), el foco está en crear activos digitales técnicos y duraderos.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Dos páginas frente a una respuesta de IA: la página revisada a menudo mantiene su sitio, la página con fecha pasada se queda atrás.">
+<path d="M170 35 L236 75" class="fg-accent"/>
+<path d="M170 115 L236 75" class="fg-dim" stroke-dasharray="4 4"/>
+<rect x="10" y="12" width="160" height="46" rx="6" class="fg-hot"/>
+<rect x="10" y="92" width="160" height="46" rx="6" class="fg-box"/>
+<rect x="236" y="52" width="154" height="46" rx="6" class="fg-box"/>
+<text x="90" y="32" text-anchor="middle" class="fg-strong">Página al día</text>
+<text x="90" y="50" text-anchor="middle" class="fg-label">revisada a menudo</text>
+<text x="90" y="112" text-anchor="middle" class="fg-text">Página antigua</text>
+<text x="90" y="130" text-anchor="middle" class="fg-label">fecha pasada</text>
+<text x="313" y="80" text-anchor="middle" class="fg-text">Respuesta de IA</text>
+</svg>
+<figcaption>El contenido claro y actualizado se adapta a cada nueva versión de los modelos y mantiene su sitio en la respuesta.</figcaption>
+</figure>
 
 Combinar varios de [nuestros servicios](/es/services/) permite que cada contenido atraiga tráfico hoy y siga siendo relevante mañana. Revisa tu análisis de la competencia con regularidad para ajustar las tácticas a cómo responden los motores generativos y descubrir las preguntas en las que tu marca puede convertirse en la respuesta.
 
@@ -132,5 +185,5 @@ Depende de su calidad. Google actúa contra el contenido genérico y de baja cal
 
 Empieza por las preguntas que tus compradores hacen en cada mercado, comprueba qué fuentes citan hoy las respuestas de IA y reescribe primero las páginas que deberían ser esas fuentes.
 
-[Ver nuestro trabajo en SEO internacional](/es/)  
-[Ver el SEO multilingüe por mercado](/es/services/posicionamiento-multilingue/)
+[Mira cómo trabajamos el SEO internacional](/es/)  
+[Consulta nuestro SEO multilingüe mercado a mercado](/es/services/posicionamiento-multilingue/)

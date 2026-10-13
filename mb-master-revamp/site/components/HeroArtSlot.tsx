@@ -10,20 +10,19 @@ import type { ReactNode } from "react";
 export default function HeroArtSlot({
   children,
   visibleOnMobile,
-  compactMobile = false,
+  compactOnMobile = false,
 }: {
   children: ReactNode;
   visibleOnMobile: boolean;
-  /** A small illustration above the hero text on phones, so it shows with the call to action on the first screen. */
-  compactMobile?: boolean;
+  compactOnMobile?: boolean;
 }) {
   return (
     <div
       className={
-        visibleOnMobile && compactMobile
-          ? "mx-auto mb-6 w-full max-w-[120px] lg:mx-0 lg:mb-0 lg:mt-24 lg:w-[min(360px,30vw)] lg:max-w-none"
-          : visibleOnMobile
-          ? "mx-auto mt-12 w-full max-w-[320px] lg:mx-0 lg:mt-24 lg:w-[min(360px,30vw)] lg:max-w-none"
+        visibleOnMobile
+          ? compactOnMobile
+            ? "order-first mx-auto mb-5 w-[88px] lg:order-none lg:mx-0 lg:mb-0 lg:mt-24 lg:w-[min(360px,30vw)] lg:max-w-none"
+            : "mx-auto mt-12 w-full max-w-[320px] lg:mx-0 lg:mt-24 lg:w-[min(360px,30vw)] lg:max-w-none"
           : "hidden w-[min(360px,30vw)] lg:mt-24 lg:block"
       }
     >

@@ -1,6 +1,6 @@
 ---
 words: 1385
-title: "Datos estructurados y schema para optimización de motores generativos"
+title: "Datos estructurados y schema: prepara tu web para los motores generativos"
 metaTitle: "Datos estructurados y schema para GEO"
 slug: "datos-estructurados-schema-optimizacion-geo"
 locale: "es"
@@ -49,7 +49,27 @@ Los buscadores y los motores generativos ya leen entidades y hechos, además de 
 
 …tu empresa queda descrita sin ambigüedad, y una respuesta que te cite repite datos correctos.
 
-## Schema que importa para la IA
+<figure class="post-fig">
+<svg viewBox="0 0 400 180" role="img" aria-label="Además de palabras clave, tu web describe entidades: quién eres con Organization, qué ofreces con Service y quién escribe con Person.">
+<path d="M155 90 L210 30" class="fg-accent"/>
+<path d="M155 90 L210 90" class="fg-accent"/>
+<path d="M155 90 L210 150" class="fg-accent"/>
+<rect x="15" y="68" width="140" height="44" rx="6" class="fg-box"/>
+<rect x="210" y="8" width="175" height="44" rx="6" class="fg-hot"/>
+<rect x="210" y="68" width="175" height="44" rx="6" class="fg-hot"/>
+<rect x="210" y="128" width="175" height="44" rx="6" class="fg-hot"/>
+<text x="85" y="95" text-anchor="middle" class="fg-text">Palabras clave</text>
+<text x="297" y="27" text-anchor="middle" class="fg-text">Quién eres</text>
+<text x="297" y="44" text-anchor="middle" class="fg-label">Organization</text>
+<text x="297" y="87" text-anchor="middle" class="fg-text">Qué ofreces</text>
+<text x="297" y="104" text-anchor="middle" class="fg-label">Service</text>
+<text x="297" y="147" text-anchor="middle" class="fg-text">Quién escribe</text>
+<text x="297" y="164" text-anchor="middle" class="fg-label">Person</text>
+</svg>
+<figcaption>Con las tres entidades definidas, una respuesta que te cite repite datos correctos sobre tu empresa.</figcaption>
+</figure>
+
+## Los tipos de schema que más cuentan para la IA
 
 Unos pocos tipos de schema hacen casi todo el trabajo de describir tu empresa. Estos son los que más cuentan:
 
@@ -66,7 +86,7 @@ Los resultados enriquecidos también cambian. Google dejó de mostrar los de FAQ
 
 > Fuente: [Google Search Central, actualizaciones de la documentación](https://developers.google.com/search/updates)
 
-### La clave: la propiedad `sameAs`
+### Une tus perfiles con la propiedad `sameAs`
 
 Esta propiedad une tu web con tus perfiles en LinkedIn, Google Business Profile, Wikidata o directorios profesionales, y dice «esta es la misma entidad en todas partes». Cuantas más fuentes fiables coinciden contigo, más fiel es lo que se dice de tu empresa.
 
@@ -76,7 +96,7 @@ Ejemplo: tu [perfil de LinkedIn](https://www.linkedin.com/in/michaelbastin/) y t
 <p><strong>¿Quieres que tus datos estructurados digan lo mismo en cada idioma?</strong> En nuestra <a href="/es/services/consultoria-de-inteligencia-artificial/">consultoría de inteligencia artificial</a> aplicamos datos estructurados que dicen quién eres, qué ofreces y en qué te has especializado, y reforzamos las señales que reutilizan los modelos. <a href="/es/contactanos/">Pide tu auditoría gratuita de 20 minutos</a>.</p>
 </aside>
 
-## Cómo ayudar a que la IA te cite
+## Conecta tus entidades para que la IA te cite
 
 Un bloque de JSON-LD aislado describe una página; un **grafo interno** describe tu empresa entera. Si publicas un caso de éxito, por ejemplo, conecta:
 
@@ -119,6 +139,24 @@ Además de analizar palabras clave, conviene ver qué entidades dominan las resp
 
 Tus rivales en GEO pueden ser otros que los que imaginas: un blog o un medio de noticias puede competir por la misma cita que tú. Aprende [cómo identificar a esos competidores ocultos](https://mikebastin.com/es/competidores-seo/).
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Tu empresa, un blog y un medio de noticias compiten por la misma cita en una respuesta de IA.">
+<path d="M150 30 L240 80" class="fg-accent"/>
+<path d="M150 80 L240 80" class="fg-line"/>
+<path d="M150 130 L240 80" class="fg-line"/>
+<rect x="10" y="10" width="140" height="40" rx="6" class="fg-box"/>
+<rect x="10" y="60" width="140" height="40" rx="6" class="fg-box"/>
+<rect x="10" y="110" width="140" height="40" rx="6" class="fg-box"/>
+<rect x="240" y="56" width="150" height="48" rx="6" class="fg-hot"/>
+<text x="80" y="35" text-anchor="middle" class="fg-text">Tu empresa</text>
+<text x="80" y="85" text-anchor="middle" class="fg-text">Un blog</text>
+<text x="80" y="135" text-anchor="middle" class="fg-text">Un medio</text>
+<text x="315" y="77" text-anchor="middle" class="fg-strong">La misma cita</text>
+<text x="315" y="95" text-anchor="middle" class="fg-label">en la respuesta</text>
+</svg>
+<figcaption>En GEO, tu rival es cualquiera que aspira a la misma cita: añade blogs y medios a tu lista de competidores.</figcaption>
+</figure>
+
 ### Herramientas útiles
 
 Empieza con:
@@ -128,7 +166,7 @@ Empieza con:
 
 Y compleméntalas con [herramientas gratuitas de análisis competitivo](https://mikebastin.com/es/herramientas-gratuitas-analisis-competitivo/) para ver cómo están estructurados tus rivales.
 
-## Pasos para implementar los datos estructurados en 2026
+## Implanta los datos estructurados en este orden
 
 Un orden claro evita rehacer el marcado cuando añades un idioma:
 
@@ -138,11 +176,27 @@ Un orden claro evita rehacer el marcado cuando añades un idioma:
 4.  **Intégralo en tu CMS:** que se inserte de forma automática en cada página relevante y en cada idioma.
 5.  **Haz seguimiento:** sigue tus posiciones, tus resultados enriquecidos y tus apariciones en respuestas de IA.
 
-## El futuro es semántico
+## La web ya se lee como una base de datos
 
 La web se lee cada vez más como una base de datos. Define tu contenido con entidades claras y facilitas que las respuestas de IA te incluyan con datos correctos.
 
 Los datos estructurados son una pieza de una estrategia más amplia, la que trabaja a la vez el SEO y el GEO: la tienes completa en nuestra guía de [estrategia de contenido dual para SEO y GEO](/es/optimizar-para-seo-y-geo/).
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="El mismo schema sirve a dos fines: en SEO alimenta los resultados enriquecidos y en GEO da una descripción coherente de tu empresa.">
+<path d="M160 75 L195 35" class="fg-line"/>
+<path d="M160 75 L195 115" class="fg-line"/>
+<rect x="15" y="55" width="145" height="40" rx="6" class="fg-hot"/>
+<rect x="195" y="12" width="195" height="46" rx="6" class="fg-box"/>
+<rect x="195" y="92" width="195" height="46" rx="6" class="fg-box"/>
+<text x="87" y="80" text-anchor="middle" class="fg-strong">Tu schema</text>
+<text x="292" y="32" text-anchor="middle" class="fg-text">SEO</text>
+<text x="292" y="50" text-anchor="middle" class="fg-label">resultados enriquecidos</text>
+<text x="292" y="112" text-anchor="middle" class="fg-text">GEO</text>
+<text x="292" y="130" text-anchor="middle" class="fg-label">descripción coherente</text>
+</svg>
+<figcaption>Un único marcado trabaja a la vez para el SEO y para el GEO, como parte de una estrategia de contenido dual.</figcaption>
+</figure>
 
 Documentación útil:
 

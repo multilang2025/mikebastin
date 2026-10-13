@@ -67,7 +67,8 @@ async function main() {
     if (
       image.legacy.startsWith("unsplash:") ||
       image.legacy.startsWith("commons:") ||
-      image.legacy.startsWith("owner:")
+      image.legacy.startsWith("owner:") ||
+      image.legacy.startsWith("higgsfield:")
     ) {
       skipped++;
       continue;

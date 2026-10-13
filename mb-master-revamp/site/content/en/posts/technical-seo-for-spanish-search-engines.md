@@ -12,13 +12,13 @@ sourceUrl: "https://mikebastin.com/technical-seo-for-spanish-search-engines/"
 excerpt: "Spanish pages ready to rank in Spain? The technical SEO for Spanish search engines that gets them found, understood and fast, in the order it pays."
 ---
 
-## Getting your Spanish pages found in Spain
+## Get your Spanish pages found in Spain
 
 Your Spanish pages are written, translated and live, and the next step is getting them in front of buyers in Spain when they search. Often the words are ready already. The layer underneath decides whether Google finds the pages, understands who they are for and loads them fast on a phone in Madrid, and that is what gives the best Spanish copy on the site its chance.
 
 Get it right and the market you are paying to serve finds you. Below: the technical SEO a site needs to perform in Spain, in the order it pays back, so you can see which parts your site already has and which to add next.
 
-## Foundations: site structure
+## Start with a clear site structure
 
 A buyer who finds the right page in two clicks stays with you, and search engines read the same clear structure just as easily. Site structure is the base everything else sits on, so fix it first.
 
@@ -53,6 +53,22 @@ A technically sound site ranks for the searches that matter when it targets the 
 
 Google Keyword Planner, SISTRIX or Semrush can surface high-impact [keywords matched to both national and regional Spanish](/blog/spanish-keyword-localisation/) audiences. Read them alongside user intent and local terminology as well as volume.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Keyword research for Spanish splits two ways: the Spanish of Spain, with its local keywords, and the Latin American variants.">
+<path d="M150 75 L230 35" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M150 75 L230 115" class="fg-accent"/>
+<rect x="15" y="55" width="135" height="40" rx="6" class="fg-box"/>
+<rect x="230" y="12" width="150" height="46" rx="6" class="fg-box"/>
+<rect x="230" y="92" width="150" height="46" rx="6" class="fg-hot"/>
+<text x="82.5" y="81" text-anchor="middle" class="fg-strong">Spanish</text>
+<text x="305" y="32" text-anchor="middle" class="fg-text">Latin America</text>
+<text x="305" y="50" text-anchor="middle" class="fg-label">other variants</text>
+<text x="305" y="112" text-anchor="middle" class="fg-strong">Spain</text>
+<text x="305" y="130" text-anchor="middle" class="fg-label">local keywords</text>
+</svg>
+<figcaption>For buyers in Spain, research the keywords of Spain’s own Spanish; the Latin American variants call for research of their own.</figcaption>
+</figure>
+
 | Tool | Features | Pricing | Best use case | Suitability for Spanish market |
 |---|---|---|---|---|
 | **Google Keyword Planner** | [Keyword research](/blog/what-is-search-intent-mapping/), search volume data, trend insights, limited audience targeting | Free with a Google Ads account | Basic keyword research and planning, ideal for [PPC campaigns](/blog/french-ppc-campaign/) | Moderate: limited localization for Spain-specific keywords |
@@ -67,7 +83,7 @@ Tool prices change often, so check before you budget. At the time of writing, th
 >
 > Source: [SISTRIX, prices page, 2026](https://www.sistrix.com/prices/) and [Screaming Frog, SEO Spider pricing, 2026](https://www.screamingfrog.co.uk/seo-spider/pricing/)
 
-## Mobile optimization when most Spanish page views come from phones
+## Build for phones, where most Spanish page views happen
 
 More than half of web page views in Spain come from phones, so a page that works well on mobile serves the majority of your visitors from the first word. Mobile-friendly pages and quick load times are the baseline for reaching this audience.
 
@@ -87,7 +103,7 @@ Almost everyone in the working-age population is online.
 
 [Business of Apps’ Spain app market data](https://www.businessofapps.com/data/spain-app-market/) tracks smartphone and app use in more detail. The mix also varies by sector, so check your own analytics to confirm how mobile-first your audience is: B2B and research-heavy sites often see far more desktop traffic than the national average.
 
-## Site speed and performance
+## Cut load times on Spanish pages
 
 Every second you take off a Spanish page's load time keeps the buyer on it, and fast pages also rank better. PageSpeed Insights and GTmetrix show where the time goes, and the checklist below covers the usual fixes.
 
@@ -105,6 +121,23 @@ Every second you take off a Spanish page's load time keeps the buyer on it, and 
 ## URL structure and international targeting
 
 Get targeting right and Google shows your Spanish page to a buyer in Madrid and your Mexican page to a buyer in Mexico City. A geo-targeted setup, such as an .es domain, helps in Spain, and correct hreflang tags make sure search engines serve the right language version to the right audience.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 140" role="img" aria-label="Hreflang sends a buyer in Madrid to the Spanish page and a buyer in Mexico City to the Mexican page.">
+<path d="M140 40 L236 40" class="fg-accent"/>
+<path d="M140 100 L236 100" class="fg-accent"/>
+<rect x="10" y="20" width="130" height="40" rx="6" class="fg-box"/>
+<rect x="10" y="80" width="130" height="40" rx="6" class="fg-box"/>
+<rect x="236" y="20" width="154" height="40" rx="6" class="fg-hot"/>
+<rect x="236" y="80" width="154" height="40" rx="6" class="fg-hot"/>
+<text x="75" y="46" text-anchor="middle" class="fg-text">Madrid</text>
+<text x="75" y="106" text-anchor="middle" class="fg-text">Mexico City</text>
+<text x="313" y="46" text-anchor="middle" class="fg-strong">Spanish page</text>
+<text x="313" y="106" text-anchor="middle" class="fg-strong">Mexican page</text>
+<text x="188" y="76" text-anchor="middle" class="fg-label">hreflang</text>
+</svg>
+<figcaption>Correct hreflang tags, and an .es domain for Spain, let Google match each Spanish-speaking market to its own page.</figcaption>
+</figure>
 
 Build URL structures that reflect the language and culture of [Spanish users](/blog/spanish-keyword-localisation/), so each one keeps its context and relevance.
 
@@ -135,11 +168,23 @@ A richer listing in the results takes more space and draws more clicks than a pl
 
 A page ranks once Google has crawled and indexed it, and a page that loads smoothly and stays steady keeps the reader who arrives.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 142" role="img" aria-label="A page is crawled first, then indexed, and only then can it rank.">
+<rect x="50" y="10" width="300" height="36" rx="6" class="fg-box"/>
+<rect x="90" y="54" width="220" height="36" rx="6" class="fg-box"/>
+<rect x="130" y="98" width="140" height="36" rx="6" class="fg-hot"/>
+<text x="200" y="34" text-anchor="middle" class="fg-text">Crawled</text>
+<text x="200" y="78" text-anchor="middle" class="fg-text">Indexed</text>
+<text x="200" y="122" text-anchor="middle" class="fg-strong">Ranks</text>
+</svg>
+<figcaption>Each stage depends on the one above: current XML sitemaps and a well-configured robots.txt get pages crawled and indexed, so they can rank.</figcaption>
+</figure>
+
 **XML sitemaps and robots.txt:** keep XML sitemaps current and robots.txt configured so Google.es and Bing crawl and index the pages you want found.
 
 **Core Web Vitals:** meet Google's thresholds for LCP (Largest Contentful Paint), INP (Interaction to Next Paint), which replaced First Input Delay as a Core Web Vital in March 2024, and CLS (Cumulative Layout Shift), because they measure what Spanish users actually experience.
 
-## Common challenges in Spanish markets
+## Audit the points specific to Spain
 
 The points specific to Spain need a Spain-specific audit, and they are where the most room to stand out lies.
 
@@ -149,7 +194,7 @@ The points specific to Spain need a Spain-specific audit, and they are where the
 
 **Keyword differences across Spanish regions:** usage differs between Castilian Spanish, Catalan, Galician and Basque speaking regions, which is why localized keyword research has to go region by region.
 
-## Monitoring and auditing
+## Audit regularly as the site changes
 
 Sites change: plugins update, pages get added, redirects accumulate. Regular audits keep your site technically sound as the market changes.
 
@@ -159,11 +204,11 @@ Google Search Console, SISTRIX and Oncrawl cover performance monitoring and Span
 <p><strong>Want your Spanish site watched between redesigns?</strong> Our <a href="/services/spanish-seo/">Spanish SEO service</a> includes monthly reporting per market, so Spain and Mexico each get their own number and every change shows up in the market where it happens. <a href="/contact/">Talk to us about your Spanish site</a>.</p>
 </aside>
 
-## Building a site that performs in Spain
+## Give your Spanish content its chance to win buyers
 
 A Spanish site that is found, understood and fast gives your content the chance to win buyers. From keyword research to Core Web Vitals, every element of [technical SEO requires careful attention to build a website](/blog/technical-seo-for-multilingual-websites/) that stands out in the Spanish market, and the order you tackle them in decides how soon it pays back.
 
-Want to know what will move your Spanish pages forward? [Contact us](/contact/) to start optimizing your website for Spanish search engines. Reach us by email, phone or the online form.
+Want to know what will move your Spanish pages forward? [Book a call](/contact/) and we will look at your site for Spanish search engines with you. Reach us by email, phone or the online form.
 
 ## Frequently asked questions
 

@@ -18,7 +18,7 @@ Somebody in El Carmen searches for exactly what you sell, in Spanish or in Engli
 
 Whether you serve horchata in Ruzafa or offer professional services near the port, local search decides whether the right people find you at the right moment. Below: how people in Valencia actually search, how to structure your site for it, the mobile basics, how to measure it, and where to start, whether you do the work yourself or bring in a [local SEO service](/services/local-seo/).
 
-## Keyword research for Valencia
+## Find the keywords Valencia customers type
 
 Research the words and you rank for the searches people in Valencia actually make. Keyword research tells you how people actually search for businesses like yours, whether they are in Benimaclet or El Cabanyal. Each barrio has its own character, and so do the searches its residents type.
 
@@ -33,6 +33,23 @@ Research the words and you rank for the searches people in Valencia actually mak
 ### Long-tail keywords that catch Valencia searchers closer to booking
 
 Long-tail keywords are detailed directions to your door. Someone might start with "massage Valencia", but people closer to booking use phrases such as "[traditional Thai massage near Ruzafa Valencia](https://www.ro-ki.net/treatments/thai-yoga-massage/)", "deep tissue Thai massage Ciutat Vella" or "[English-speaking Thai massage therapist Valencia](https://www.ro-ki.net/treatments/thai-yoga-massage/)". The more specific the phrase, the higher the intent to book.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 156" role="img" aria-label="Three Valencia searches weighted by intent to book: the broad massage Valencia leads loosely to a booking, while the specific Thai massage Ruzafa and deep tissue Ciutat Vella lead straight to one.">
+<path d="M234 30 L292 62" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M234 78 L288 78" class="fg-accent"/>
+<path d="M234 126 L292 94" class="fg-accent"/>
+<rect x="8" y="14" width="226" height="32" rx="6" class="fg-box"/>
+<rect x="8" y="62" width="226" height="32" rx="6" class="fg-box"/>
+<rect x="8" y="110" width="226" height="32" rx="6" class="fg-box"/>
+<circle cx="334" cy="78" r="46" class="fg-hot"/>
+<text x="121" y="35" text-anchor="middle" class="fg-text">massage Valencia</text>
+<text x="121" y="83" text-anchor="middle" class="fg-text">Thai massage Ruzafa</text>
+<text x="121" y="131" text-anchor="middle" class="fg-text">deep tissue Ciutat Vella</text>
+<text x="334" y="84" text-anchor="middle" class="fg-strong">Booking</text>
+</svg>
+<figcaption>The more specific the phrase, the stronger the intent to book. A barrio or a treatment in the search marks a customer close to your door.</figcaption>
+</figure>
 
 Add Valencia-specific phrases wherever they are relevant: "restaurants in Valencia", "apartments in Valencia", "Valencia events", "lawyer in Valencia".
 
@@ -71,7 +88,7 @@ Add Valencia-specific phrases wherever they are relevant: "restaurants in Valenc
 <p><strong>Want customers searching in English to land on English pages?</strong> Our <a href="/services/local-seo/">local SEO for multilingual cities</a> makes you the business nearby buyers find first on the map, in every language your city searches in. <a href="/contact/">Book the discovery call</a>.</p>
 </aside>
 
-## Site structure and metadata
+## Keep every Valencia page a click or two away
 
 A visitor who reaches your Valencia page in a click or two stays with you. Think of your site as a well-organised Valencian mercado, where every sign leads customers straight to what they need. For local searches, those signs need Valencia terms and location references.
 
@@ -84,6 +101,22 @@ A visitor who reaches your Valencia page in a click or two stays with you. Think
 ### Internal links
 
 Internal links help search engines understand your structure and help visitors move around. Link related Valencia pages to each other in context (a post about Valencia restaurants linking to your dining guide) and give Valencia services or locations their own place in the main navigation.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="The main menu leads straight to the Valencia services and the Valencia locations, each one click away.">
+<path d="M200 50 L105 96" class="fg-line"/>
+<path d="M200 50 L295 96" class="fg-line"/>
+<rect x="120" y="10" width="160" height="40" rx="6" class="fg-hot"/>
+<rect x="15" y="96" width="180" height="46" rx="6" class="fg-box"/>
+<rect x="205" y="96" width="180" height="46" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-strong">Main menu</text>
+<text x="105" y="116" text-anchor="middle" class="fg-text">Services</text>
+<text x="105" y="134" text-anchor="middle" class="fg-label">in Valencia, one click</text>
+<text x="295" y="116" text-anchor="middle" class="fg-text">Locations</text>
+<text x="295" y="134" text-anchor="middle" class="fg-label">in Valencia, one click</text>
+</svg>
+<figcaption>Give Valencia services and locations their own place in the main navigation, and every visitor reaches them in one click.</figcaption>
+</figure>
 
 ### Sitemaps
 
@@ -102,7 +135,7 @@ A sitemap helps search engines crawl and index your pages. Include every Valenci
 
 To check links, [Xenu's Link Sleuth](https://xenus-link-sleuth.en.softonic.com/) is a free Windows tool by Tilman Hausherr that checks every link, image and script on a site and exports a report to Excel.
 
-## Mobile-friendliness
+## Build for the phone first
 
 Most local searches happen on phones, so the site must work well on them: responsive design, compressed images and browser caching for speed, and menus and buttons easy to tap on a small screen. Google retired the Search Console Mobile Usability report and the Mobile-Friendly Test in December 2023, so test with Lighthouse in Chrome or with an extension:
 
@@ -112,13 +145,28 @@ Most local searches happen on phones, so the site must work well on them: respon
 -   [Dimensions](https://chromewebstore.google.com/detail/dimensions/baocaagndhipibgklemoalmkljaimfdj?hl=en): measure elements for quick layout checks.
 -   [Responsive Tester](https://chromewebstore.google.com/detail/responsive-tester/ppbjpbekhmnekpphljbmeafemfiolbki): simple device simulation from a drop-down.
 
-## Measuring local search performance
+## Measure the customers Valencia searches bring
 
 Local numbers show whether the work brings Valencia customers as well as visitors from elsewhere.
 
 ### Google Analytics and Search Console
 
 In Google Analytics, geographic reports show how much traffic comes from Valencia, engagement rate and time on page show whether local visitors find what they came for, and conversion tracking shows how many become leads or sales. In Search Console, the performance report gives clicks, impressions and average position for Valencia keywords, and the page indexing report confirms your Valencia pages are indexed.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="A funnel of three local metrics: click-through rate, then engagement rate, then conversion rate, the share of Valencia visitors who become customers or leads.">
+<rect x="30" y="8" width="340" height="44" rx="6" class="fg-box"/>
+<rect x="70" y="58" width="260" height="44" rx="6" class="fg-box"/>
+<rect x="100" y="108" width="200" height="44" rx="6" class="fg-hot"/>
+<text x="200" y="28" text-anchor="middle" class="fg-text">Click-through rate</text>
+<text x="200" y="45" text-anchor="middle" class="fg-label">titles and descriptions</text>
+<text x="200" y="78" text-anchor="middle" class="fg-text">Engagement rate</text>
+<text x="200" y="95" text-anchor="middle" class="fg-label">local expectations met</text>
+<text x="200" y="128" text-anchor="middle" class="fg-text">Conversion rate</text>
+<text x="200" y="145" text-anchor="middle" class="fg-label">customers and leads</text>
+</svg>
+<figcaption>Read the three rates in order: titles earn the click, the page earns the visit, and the offer earns the customer.</figcaption>
+</figure>
 
 ### Metrics worth watching
 
@@ -130,7 +178,7 @@ In Google Analytics, geographic reports show how much traffic comes from Valenci
 
 [BrightLocal](https://www.brightlocal.com/) tracks rankings for Valencia keywords, checks that your business details match across local directories and helps manage reviews. [Moz Local](https://moz.com/products/local) distributes your business information to directories and reports on local visibility.
 
-## Practical steps to start with
+## Five things to do this month
 
 If you do five things this month, make them these.
 

@@ -221,6 +221,17 @@ needs.
   fails on a URL that 404s, a redirect whose target is redirected again,
   and a rule pointing at a page that is not built.
   Never 404 on launch.
+- **Every new page goes into the sitemaps in the same change** (owner, 12 Oct
+  2026, a hard rule: "update html sitemaps as we add new content"). The XML
+  sitemaps and the HTML sitemap at `/sitemap/` both read `lib/site-urls.ts`,
+  so posts, services, projects, topics and the FR/ES pages listed in
+  `lib/fr-pages-data.ts` / `lib/es-pages-data.ts` arrive by existing. A
+  hand-built English route does not: add it to `STATIC` in
+  `lib/site-urls.ts` (`/about-us/` shipped on 8 Oct without it). `npm run
+  lint:sitemap` (`scripts/sitemap-coverage-lint.mjs`, in `verify`) fails the
+  build when a built, indexable page is missing from either sitemap, or a
+  sitemap lists a page that is not built. Only a page with its own noindex
+  (404, the post-submit contact pages) is exempt.
 - **No dates in URLs**, in any locale (owner, 2 Oct 2026, a hard rule). A
   year in a slug ages the page and costs a redirect to fix. `npm run
   lint:urls` fails the build on any published URL carrying a year. A page
@@ -247,11 +258,18 @@ the "we" rule above, for the P2 pass; services stay "we".
 **The French and Spanish homepages follow the English design and wording** (owner,
 7 Oct 2026: "replicate the English design and wording on FR and ES, no erase what's
 bespoke"). Hero, evidence, what we do with the three steps, Why it works with the
-market diagram, reviews, BASTIN and the credibility strip are shared in structure; the
+market diagram, reviews and the credibility strip are shared in structure (BASTIN moved
+to the About pages in all three languages on 8 Oct 2026, owner: "it fits better there"); the
 FR markets and the five-step list, and the ES Valencia markets and graphic, stay as the
 bespoke sections. The shared FR and ES sections are `components/HomeWhy.tsx` and
 `components/HomeBastin.tsx`; a new section on the English page needs its FR and ES
-counterpart there. Note for `lint:code`: French words such as "même", "deuxième" and
+counterpart there. PR #144 (Víctoria, 8 Oct 2026) changed the English homepage: "Discuss
+your project" as the main CTA, dark mode for first visits, shortened metric labels, the
+portrait inside the hero copy, action labels on the service chips, three icon cards under
+"A partnership built around your growth" and two reviews on phones. The owner approved it
+and asked for FR and ES to follow the same day: "Parlons de votre projet" / "Hablemos de tu
+proyecto", the same hero, chips, cards (`components/HomeHowCards.tsx`), first "why" card and
+band order, with the FR and ES market sections kept. Note for `lint:code`: French words such as "même", "deuxième" and
 "utilise" trip the English first-person and forbidden-word checks in a component, so
 reword them (the same cause as the privacy page on 2 Oct).
 
@@ -812,6 +830,18 @@ opens. Flagged rather than forgotten, so they are known and deliberate:
   groups each journal's posts (FR: `/fr/blog/sujets/`, two topics; ES:
   `/es/blog/temas/`, four), with no hreflang since each locale groups its
   own posts. `/blog/topics/` stays the English set.
+- **The eight case studies are in all three languages** (owner, 12 Oct
+  2026: "translate the case studies"): `/projects/<slug>/`,
+  `/fr/etudes-de-cas/<slug>/` and `/es/casos-de-exito/<slug>/`, one view
+  (`components/CaseStudyView.tsx`), copy in `lib/projects-locale.ts` (hero)
+  and `lib/case-studies-locale.ts` (the rest), paired through
+  `lib/fr-pages-data.ts` / `lib/es-pages-data.ts`, so hreflang, the
+  switcher and both sitemaps follow. A new project needs its FR and ES copy
+  in both files. The results page (`/fr/resultats/`, `/es/resultados/`,
+  `components/ResultsView.tsx`) and the competitor checklist
+  (`/fr/checklist-analyse-concurrentielle/`,
+  `/es/checklist-analisis-de-competencia/`, copy in `lib/checklist-copy.ts`)
+  followed the same day, so every English page now has a FR and ES sibling.
 - **The FR and ES motto renderings are unreviewed.** They ship in
   `SiteFooter`'s string table and are a first pass, not signed off.
 - **FR and ES headings are reported, not failed, by the heading lint.**

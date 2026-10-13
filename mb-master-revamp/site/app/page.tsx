@@ -7,7 +7,6 @@ import HomeEvidence from "@/components/HomeEvidence";
 import Testimonials from "@/components/Testimonials";
 import SiteFooter from "@/components/SiteFooter";
 import MarketFlowGraphic from "@/components/MarketFlowGraphic";
-import BastinIdeasGraphic from "@/components/BastinIdeasGraphic";
 import { HOME_GRAPHICS } from "@/lib/home-graphics";
 import { SITE_URL } from "@/lib/schema";
 import { enLanguages } from "@/lib/fr-pages";
@@ -55,45 +54,6 @@ const STATS = [
   { n: 9, s: "", k: "BeTranslated country sites" },
 ];
 
-const BASTIN = [
-  {
-    letter: "B",
-    word: "Business",
-    desc: "Every search project starts from your business case, so it gets the budget it needs.",
-    href: "/services/lead-generation/",
-  },
-  {
-    letter: "A",
-    word: "Automation",
-    desc: "AI drafts, tests and reports, so the work keeps moving.",
-    href: "/services/ai-consulting/",
-  },
-  {
-    letter: "S",
-    word: "SEO",
-    desc: "Multilingual search, built to rank in the language a buyer actually searches in.",
-    href: "/services/multilingual-seo/",
-  },
-  {
-    letter: "T",
-    word: "Translation",
-    desc: "Copy adapted for the market reading it.",
-    href: "/services/translation-services/",
-  },
-  {
-    letter: "I",
-    word: "Internationalization",
-    desc: "The groundwork done before launch, so a product can take a second language on the build it already has.",
-    href: "/services/app-and-software-localisation/",
-  },
-  {
-    letter: "N",
-    word: "Networking",
-    desc: "Over two decades of referrals, in four languages, still the channel that works.",
-    href: null,
-  },
-];
-
 const WHAT_WE_DO = [
   {
     cluster: "Lead generation",
@@ -131,19 +91,19 @@ const HOW_IT_WORKS = [
   {
     theme: "Market insight",
     icon: "search",
-    title: "A clear view of each market",
+    title: "See where each market stands",
     body: "We uncover where your site is already reaching buyers and where technical or content improvements can create more enquiries.",
   },
   {
     theme: "Focused strategy",
     icon: "target",
-    title: "A focused plan you can approve",
+    title: "Approve one focused plan",
     body: "Get a written scope for the markets you want to grow, with priorities, deliverables and responsibilities agreed before work begins.",
   },
   {
     theme: "Measured progress",
     icon: "chart",
-    title: "Progress you can act on",
+    title: "Act on what the figures show",
     body: "See traffic and enquiries by language in a monthly report, so you know which markets are paying back and where to focus next.",
   },
 ];
@@ -215,7 +175,7 @@ export default function Home() {
                 Discuss your project
               </Link>
               <Link href="/results/" className="ulink text-[.98rem]">
-                Explore client results
+                See client results
               </Link>
             </div>
           </Reveal>
@@ -240,7 +200,7 @@ export default function Home() {
             </h2>
             <p className="mb-10 max-w-[62ch] text-[1.05rem] leading-[1.65]" style={{ color: "var(--dim)" }}>
               We turn your market opportunities into focused work and measurable
-              growth. Explore the services that best fit your goals.
+              growth. Pick the services that best fit your goals.
             </p>
           </Reveal>
 
@@ -329,7 +289,7 @@ export default function Home() {
           <Reveal i={3}>
             <p className="mt-8 text-[.95rem]" style={{ color: "var(--dim)" }}>
               <Link href="/how-i-work/" className="ulink" style={{ color: "var(--berry)" }}>
-                Explore how we scope and bill each engagement
+                See how we scope and bill each engagement
               </Link>
               {" "}and what happens from the first call to monthly reporting.
             </p>
@@ -387,66 +347,10 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ============ BASTIN, THE ACRONYM ============ */}
-      <section className="band band-b py-[clamp(48px,6vw,80px)]">
-        <div className="shell">
-          <Reveal>
-            <p className="eyebrow mb-2">What the name stands for</p>
-            <h2 className="mb-8 max-w-[24ch] text-[clamp(1.45rem,2.8vw,2.1rem)] font-semibold leading-[1.15]">
-              BASTIN, in six ideas.
-            </h2>
-          </Reveal>
-
-          <div className="relative">
-            {HOME_GRAPHICS.bastinTrail && <BastinIdeasGraphic />}
-            <div className={`flex flex-col${HOME_GRAPHICS.bastinTrail ? " pr-14 sm:pl-14 sm:pr-20" : ""}`} style={{ borderTop: "1px solid var(--rule)" }}>
-              {BASTIN.map((row, i) => {
-                // The initial is the word's own first letter, set in cherry
-                // (owner, 5 Oct 2026: "merge the initials with the rest of
-                // the expression but leave the first letter in cherry").
-                // It keeps data-bastin-letter, which is what the trail
-                // graphic measures to place its arrow. One fluid size for
-                // every word, picked so Internationalization fits a phone.
-                const body = (
-                  <span className="flex min-w-0 flex-col gap-2">
-                    <span
-                      className={`display text-[clamp(1.15rem,5.8vw,2.1rem)] font-semibold leading-none${
-                        row.href ? " transition-colors duration-300 group-hover:text-[var(--berry)]" : ""
-                      }`}
-                    >
-                      <span data-bastin-letter style={{ color: "var(--berry)" }}>
-                        {row.word.charAt(0)}
-                      </span>
-                      {row.word.slice(1)}
-                    </span>
-                    <span data-bastin-copy className="max-w-[56ch] text-[.95rem] leading-[1.55]" style={{ color: "var(--dim)" }}>
-                      {row.desc}
-                    </span>
-                  </span>
-                );
-                const rowClass = "block py-6";
-                const rowStyle = { borderBottom: "1px solid var(--rule)" };
-                return (
-                  <Reveal key={row.letter} i={i}>
-                    {row.href ? (
-                      <Link href={row.href} className={`${rowClass} group`} style={rowStyle}>
-                        {body}
-                      </Link>
-                    ) : (
-                      <div className={rowClass} style={rowStyle}>
-                        {body}
-                      </div>
-                    )}
-                  </Reveal>
-                );
-              })}
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* ============ CREDIBILITY ============ */}
-      <section className="band band-a py-[clamp(56px,8vw,110px)]">
+      {/* BASTIN moved to /about-us/ (owner, 8 Oct 2026), so this band flips to
+          B to keep the A/B alternation after the testimonials. */}
+      <section className="band band-b py-[clamp(56px,8vw,110px)]">
         <div className="shell">
           {/* Two by two, then four across: auto-fit made a row of three
               and a lone fourth with grey empty cells at tablet width. */}

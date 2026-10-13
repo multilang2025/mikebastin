@@ -20,7 +20,7 @@ El mercado también es mayor de lo que dicen las herramientas de palabras clave,
 
 Aquí tienes cómo busca cada comunidad lingüística de Bélgica, dónde las diferencias con Francia y con los Países Bajos mueven tus posiciones y qué hacer primero para ganar las tres.
 
-## El mercado digital belga
+## Cómo busca Bélgica
 
 Bélgica es un país pequeño con tres mercados de búsqueda. Si planificas para los tres, el país entero queda a tu alcance.
 
@@ -120,6 +120,22 @@ Ofrece a los visitantes un selector de idioma claro y fácil de usar para que el
 
 Optimizar para las dos variantes llega a las dos audiencias. **Google Search Console** y **Semrush** pueden seguir las tendencias de búsqueda por idioma para que ajustes sobre la marcha.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Una misma necesidad, dos búsquedas en Bruselas: «banque en ligne» en francés y «online bank» en neerlandés.">
+<path d="M150 75 L230 35" class="fg-line"/>
+<path d="M150 75 L230 115" class="fg-line"/>
+<rect x="20" y="55" width="130" height="40" rx="6" class="fg-hot"/>
+<rect x="230" y="12" width="150" height="46" rx="6" class="fg-box"/>
+<rect x="230" y="92" width="150" height="46" rx="6" class="fg-box"/>
+<text x="85" y="81" text-anchor="middle" class="fg-strong">Bruselas</text>
+<text x="305" y="32" text-anchor="middle" class="fg-text">En francés</text>
+<text x="305" y="50" text-anchor="middle" class="fg-label">banque en ligne</text>
+<text x="305" y="112" text-anchor="middle" class="fg-text">En neerlandés</text>
+<text x="305" y="130" text-anchor="middle" class="fg-label">online bank</text>
+</svg>
+<figcaption>Bruselas busca lo mismo en francés y en neerlandés, así que una página en cada idioma llega a las dos audiencias.</figcaption>
+</figure>
+
 ## Datos de demanda en Bélgica: herramientas y fuentes
 
 Planifica Bélgica con varias fuentes de datos, porque las herramientas de palabras clave muestran menos demanda de la que existe. **Ahrefs** y **Semrush** cubren el mercado belga con menos detalle que el francés o el neerlandés, sobre todo en los volúmenes de los términos francófonos belgas.
@@ -134,11 +150,32 @@ Planifica Bélgica con varias fuentes de datos, porque las herramientas de palab
 
 Combinadas con los **informes de rendimiento de Google Search Console**, estas fuentes muestran lo que Bélgica puede aportarte. Los volúmenes bajos de los términos belgas concretos complican la [búsqueda de palabras clave](/es/services/seo-tecnico/), así que completa los datos de las herramientas con conocimiento del mercado.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="La demanda de búsqueda belga leída en varias fuentes a la vez: Search Console, Google Trends, SE Ranking y el conocimiento del mercado.">
+<path d="M160 23 L276 70" class="fg-line"/>
+<path d="M160 61 L271 76" class="fg-line"/>
+<path d="M160 99 L271 84" class="fg-line"/>
+<path d="M160 137 L276 90" class="fg-line"/>
+<rect x="10" y="8" width="150" height="30" rx="6" class="fg-box"/>
+<rect x="10" y="46" width="150" height="30" rx="6" class="fg-box"/>
+<rect x="10" y="84" width="150" height="30" rx="6" class="fg-box"/>
+<rect x="10" y="122" width="150" height="30" rx="6" class="fg-box"/>
+<circle cx="320" cy="80" r="50" class="fg-hot"/>
+<text x="85" y="28" text-anchor="middle" class="fg-text">Search Console</text>
+<text x="85" y="66" text-anchor="middle" class="fg-text">Google Trends</text>
+<text x="85" y="104" text-anchor="middle" class="fg-text">SE Ranking</text>
+<text x="85" y="142" text-anchor="middle" class="fg-text">Mercado local</text>
+<text x="320" y="78" text-anchor="middle" class="fg-strong">Demanda</text>
+<text x="320" y="98" text-anchor="middle" class="fg-label">belga</text>
+</svg>
+<figcaption>Cada fuente muestra una parte de la demanda belga; leídas juntas, dan una imagen más fiel de lo que el mercado puede aportarte.</figcaption>
+</figure>
+
 <aside class="post-cta">
 <p><strong>¿Quieres ver la demanda real de búsquedas en Bélgica?</strong> Nuestro trabajo de <a href="/es/services/seo-frances/">SEO en francés</a> arranca con una búsqueda de palabras clave hecha en francés, mercado a mercado, de modo que el francés belga se investiga como francés belga. <a href="/es/contactanos/">Habla con nosotros sobre Bélgica</a>.</p>
 </aside>
 
-## Retos por sector
+## Dónde pesa el idioma según tu sector
 
 El sector en el que vendes cambia dónde pesa más la división lingüística de Bélgica.
 
@@ -156,7 +193,7 @@ Estos sectores combinan normas lingüísticas propias y diferencias regionales d
 -   **Cumplimiento multilingüe**: la información al consumidor tiene a menudo que ir en el idioma de la región; confirma con tu asesor qué te exige la ley, y la [traducción profesional](/es/services/traduccion-profesional/) lo cubre.
 -   **Estrategias de palabras clave**: las regiones pueden usar términos distintos para los mismos [servicios](/es/services/optimizacion-seo/), así que el plan de palabras clave tiene que recoger cada uno.
 
-## Variantes del idioma y su impacto
+## Usa las palabras del francés belga
 
 Un término del francés belga hace que la página belga suene local, y coincide con la palabra que el comprador belga busca de verdad.
 
@@ -170,6 +207,21 @@ El vocabulario sanitario del francés belga sigue a las instituciones belgas.
 ### Preferencias regionales del idioma
 
 Las palabras de los objetos cotidianos varían, y eso importa en el comercio electrónico y en las descripciones de producto.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 140" role="img" aria-label="Una toalla de baño es una «serviette de bain» en Francia y una «essuie de bain» en Bélgica, y la página belga usa la palabra belga.">
+<path d="M175 70 L223 70" class="fg-accent"/>
+<path d="M215 62 L223 70 L215 78" class="fg-accent"/>
+<rect x="15" y="40" width="160" height="60" rx="6" class="fg-box"/>
+<rect x="225" y="40" width="160" height="60" rx="6" class="fg-hot"/>
+<text x="95" y="64" text-anchor="middle" class="fg-text">Francia</text>
+<text x="95" y="86" text-anchor="middle" class="fg-label">serviette de bain</text>
+<text x="305" y="64" text-anchor="middle" class="fg-strong">Bélgica</text>
+<text x="305" y="86" text-anchor="middle" class="fg-label">essuie de bain</text>
+<text x="200" y="128" text-anchor="middle" class="fg-label">la misma toalla</text>
+</svg>
+<figcaption>Las fichas de producto escritas con la palabra belga coinciden con lo que el comprador belga escribe en el buscador.</figcaption>
+</figure>
 
 -   **Ejemplo**: «essuie de bain» (Bélgica) frente a «serviette de bain» (Francia) para «toalla de baño».
 -   **Optimización del contenido**: los términos propios de cada región mejoran las posiciones y la conexión con el lector.
@@ -192,14 +244,14 @@ El comprador belga reparte su navegación casi a partes iguales entre el teléfo
 -   **Optimización mobile-first**: las páginas tienen que ser adaptables y rápidas en el móvil.
 -   **Comportamiento de búsqueda local**: los usuarios de móvil suelen buscar por ubicación, lo que pide un [SEO local](/es/services/seo-local/) preciso.
 
-## El paralelo de Luxemburgo
+## Luxemburgo, un caso parecido
 
 Luxemburgo, al lado, tiene retos multilingües parecidos: el luxemburgués, el francés y el alemán son oficiales, y el inglés se usa mucho además.
 
 -   **Mercado más pequeño**: Luxemburgo premia la eficiencia al dirigirse a audiencias de nicho.
 -   **Varios idiomas a la vez**: lo que funciona en Luxemburgo puede orientar tu [SEO multilingüe](/es/services/posicionamiento-multilingue/) en Bélgica.
 
-## Soluciones y buenas prácticas
+## Completa los datos y ajusta la técnica
 
 ### Métodos de investigación alternativos
 
@@ -215,7 +267,7 @@ Luxemburgo, al lado, tiene retos multilingües parecidos: el luxemburgués, el f
 <p><strong>¿Quieres que cada página belga posicione en Bélgica?</strong> En un proyecto belga mantenemos las versiones fr-BE y nl-BE aparte de las webs en <a href="/es/services/seo-frances/">francés</a> y en <a href="/es/services/seo-neerlandes/">neerlandés</a> dirigidas a Francia y a los Países Bajos, y cada versión posiciona en su propio país. <a href="/es/contactanos/">Habla con nosotros de tu proyecto belga</a>.</p>
 </aside>
 
-## Recomendaciones para tu empresa
+## Cuatro decisiones para tu web belga
 
 -   **Invierte en investigación local**: entiende qué hace distinto al mercado belga antes de construir.
 -   **Contenido por región**: planifica el contenido en torno a la cultura y el idioma de cada comunidad.
@@ -228,4 +280,4 @@ Bélgica premia a las empresas que la tratan como tres mercados. Empieza por com
 
 Mike Bastin ayuda a las empresas a ganar compradores en toda Bélgica. Trabajamos directamente en neerlandés y en francés, y las páginas en alemán las escriben redactores nativos alemanes, de modo que tu mensaje llega a las tres comunidades lingüísticas.
 
-[Contáctanos](/es/contactanos/) y revisamos juntos en qué punto está tu web belga.
+[Pide una revisión de tu web belga](/es/contactanos/) y vemos juntos en qué punto está.

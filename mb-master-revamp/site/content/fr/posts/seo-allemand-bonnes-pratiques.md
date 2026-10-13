@@ -44,6 +44,24 @@ Vos acheteurs allemands sont sur Google, qui détenait 87,8 % du marché allema
 
 Un détail propre à l’Allemagne : Ecosia, un moteur basé à Berlin qui finance des plantations d’arbres avec ses bénéfices. Sa part est modeste, et avec Bing elle offre à un plan qui dépasse Google des audiences réelles, quoique plus petites.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Les acheteurs en Allemagne passent surtout par Google, loin devant Bing, et Ecosia réunit une petite audience sensible à l’écologie.">
+<path d="M162 80 L250 30" class="fg-accent"/>
+<path d="M162 80 L250 80" class="fg-dim"/>
+<path d="M162 80 L250 130" class="fg-dim" stroke-dasharray="4 4"/>
+<rect x="12" y="55" width="150" height="50" rx="6" class="fg-box"/>
+<rect x="250" y="12" width="138" height="36" rx="6" class="fg-hot"/>
+<rect x="250" y="62" width="138" height="36" rx="6" class="fg-box"/>
+<rect x="250" y="112" width="138" height="36" rx="6" class="fg-box"/>
+<text x="87" y="77" text-anchor="middle" class="fg-strong">Acheteurs</text>
+<text x="87" y="95" text-anchor="middle" class="fg-label">en Allemagne</text>
+<text x="319" y="36" text-anchor="middle" class="fg-text">Google</text>
+<text x="319" y="86" text-anchor="middle" class="fg-text">Bing</text>
+<text x="319" y="136" text-anchor="middle" class="fg-text">Ecosia</text>
+</svg>
+<figcaption>Google capte presque toutes les recherches allemandes, et Bing comme Ecosia ajoutent des audiences réelles, quoique plus petites.</figcaption>
+</figure>
+
 Si votre marque vend sur l’engagement écologique, apparaître sur Ecosia vous place devant les acheteurs allemands sensibles à ce sujet.
 
 ### Vie privée et protection des données
@@ -61,7 +79,7 @@ Le mobile domine désormais les pages vues en Allemagne, et l’ordinateur en re
 
 Construisez un site qui fonctionne aussi bien sur grand écran que sur téléphone : il retient l’acheteur qui découvre votre offre sur mobile et la compare plus tard au bureau.
 
-## Les grandes tendances SEO en Allemagne
+## Quatre tendances qui changent la façon dont les acheteurs allemands vous trouvent
 
 Une tendance compte quand elle change qui vous trouve. Quatre le font en Allemagne.
 
@@ -91,7 +109,7 @@ Des pages rapides et stables retiennent des visiteurs allemands qui attendent de
 
 Ils couvrent la vitesse de chargement, la réactivité (mesurée par Interaction to Next Paint depuis mars 2024) et la stabilité visuelle.
 
-## La recherche de mots-clés pour le marché allemand
+## Cherchez vos mots-clés en allemand, pays par pays
 
 Une recherche menée en allemand vous positionne sur les mots que tapent les acheteurs allemands. Commencez par là, car le comportement de recherche allemand diffère nettement de celui des marchés francophones ou anglophones. Notre service de [recherche de mots-clés](/fr/services/seo-technique/) part de cette base.
 
@@ -111,19 +129,35 @@ Menez la recherche pays par pays, en vous appuyant sur l’intention de recherch
 
 L’allemand compte deux formes d’adresse, la forme formelle (« Sie ») et la forme informelle (« Du »), comme notre « vous » et notre « tu », et la bonne forme indique à l’acheteur que la page a été écrite pour lui.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Deux formes d’adresse en allemand : « Sie », la forme formelle pour les acheteurs professionnels et B2B, et « Du », la forme informelle pour les marques décontractées et B2C.">
+<path d="M182 75 L230 35" class="fg-line"/>
+<path d="M182 75 L230 115" class="fg-line"/>
+<rect x="12" y="55" width="170" height="40" rx="6" class="fg-hot"/>
+<rect x="230" y="12" width="158" height="46" rx="6" class="fg-box"/>
+<rect x="230" y="92" width="158" height="46" rx="6" class="fg-box"/>
+<text x="97" y="81" text-anchor="middle" class="fg-strong">Vos acheteurs</text>
+<text x="309" y="32" text-anchor="middle" class="fg-strong">Sie</text>
+<text x="309" y="50" text-anchor="middle" class="fg-label">formel, B2B</text>
+<text x="309" y="112" text-anchor="middle" class="fg-strong">Du</text>
+<text x="309" y="130" text-anchor="middle" class="fg-label">informel, B2C</text>
+</svg>
+<figcaption>Choisissez la forme qu’attendent vos acheteurs et tenez-la sur tout le site.</figcaption>
+</figure>
+
 Le registre formel domine dans les contextes professionnels et B2B, tandis que le registre informel convient aux marques décontractées et B2C. Choisissez celui qu’attendent vos acheteurs et tenez-le sur tout le site.
 
 <aside class="post-cta">
 <p><strong>Vous voulez que vos pages allemandes visent les mots que tapent les acheteurs allemands ?</strong> Notre <a href="/fr/services/seo-allemand/">service de SEO allemand</a> commence par un audit de vos pages allemandes face à trois concurrents allemands directs, avec une recherche de mots-clés menée en allemand par des locuteurs natifs, marché par marché. <a href="/fr/nous-contacter/">Réservez un premier échange</a>.</p>
 </aside>
 
-## Localiser le contenu pour le marché allemand
+## Écrivez pour des lecteurs allemands
 
 Une page écrite pour des acheteurs allemands les retient dès le premier paragraphe. Le contenu qui gagne en Allemagne reflète les usages, les préférences et les attentes allemands.
 
 L’humour, les expressions idiomatiques et les [références culturelles demandent une adaptation soignée](/fr/services/creation-de-contenu-multilingue/) pour garder leur effet en allemand. Un jeu de mots français ou une référence à un événement national parle à vos clients en France : pour un lecteur de Munich ou de Zurich, remplacez-le par un exemple de son quotidien.
 
-## Les bonnes pratiques SEO on-page pour l’Allemagne
+## Rédigez titres et descriptions en allemand
 
 Votre titre et votre description sont le premier allemand qu’un acheteur lit dans les résultats. Rédigés en allemand, ils remportent le clic.
 
@@ -131,7 +165,7 @@ Votre titre et votre description sont le premier allemand qu’un acheteur lit d
 
 La structure du site compte autant. Les utilisateurs allemands apprécient un site bien organisé, et les moteurs récompensent celui qui se parcourt facilement : un maillage interne propre et une architecture logique mènent les uns comme les autres jusqu’à votre contenu.
 
-## SEO technique pour les marchés germanophones
+## Montrez à chaque pays germanophone sa version
 
 Quand la base technique est bien réglée, chaque acheteur voit sa propre version : la page autrichienne en Autriche, la page allemande en Allemagne, et des liens qui restent propres quand un acheteur les transmet à un collègue. Notre guide du [SEO technique d’un site multilingue](/fr/seo-technique-site-multilingue/) détaille les réglages de fond.
 
@@ -148,26 +182,26 @@ Si vous vendez en Allemagne, en Autriche et en Suisse, les balises hreflang déc
 Grâce à elles, les trois versions restent distinctes et chaque utilisateur reçoit la version de sa région et de sa langue. Nos [services de SEO technique](/fr/services/seo-technique/) incluent leur mise en place pour l’Allemagne, l’Autriche et la Suisse.
 
 <figure class="post-fig">
-<svg viewBox="0 0 400 150" role="img" aria-label="Un même contenu allemand diffusé en trois versions régionales, de-DE pour l’Allemagne, de-AT pour l’Autriche et de-CH pour la Suisse, reliées par des balises hreflang.">
-<rect x="130" y="10" width="140" height="36" rx="6" class="fg-hot"/>
-<text x="200" y="34" text-anchor="middle" class="fg-text">Contenu allemand</text>
-<line x1="200" y1="46" x2="70" y2="84" class="fg-line"/>
-<line x1="200" y1="46" x2="200" y2="84" class="fg-line"/>
-<line x1="200" y1="46" x2="330" y2="84" class="fg-line"/>
-<rect x="20" y="84" width="100" height="36" rx="6" class="fg-box"/>
-<rect x="150" y="84" width="100" height="36" rx="6" class="fg-box"/>
-<rect x="280" y="84" width="100" height="36" rx="6" class="fg-box"/>
-<text x="70" y="108" text-anchor="middle" class="fg-text">de-DE</text>
-<text x="200" y="108" text-anchor="middle" class="fg-text">de-AT</text>
-<text x="330" y="108" text-anchor="middle" class="fg-text">de-CH</text>
-<text x="70" y="140" text-anchor="middle" class="fg-label">Allemagne</text>
-<text x="200" y="140" text-anchor="middle" class="fg-label">Autriche</text>
-<text x="330" y="140" text-anchor="middle" class="fg-label">Suisse</text>
+<svg viewBox="0 0 400 170" role="img" aria-label="Un même contenu allemand diffusé en trois versions régionales, de-DE pour l’Allemagne, de-AT pour l’Autriche et de-CH pour la Suisse, reliées par des balises hreflang.">
+<rect x="105" y="12" width="190" height="38" rx="6" class="fg-hot"/>
+<text x="200" y="37" text-anchor="middle" class="fg-text">Contenu allemand</text>
+<line x1="200" y1="50" x2="75" y2="90" class="fg-line"/>
+<line x1="200" y1="50" x2="200" y2="90" class="fg-line"/>
+<line x1="200" y1="50" x2="325" y2="90" class="fg-line"/>
+<rect x="25" y="90" width="100" height="36" rx="6" class="fg-box"/>
+<rect x="150" y="90" width="100" height="36" rx="6" class="fg-box"/>
+<rect x="275" y="90" width="100" height="36" rx="6" class="fg-box"/>
+<text x="75" y="114" text-anchor="middle" class="fg-text">de-DE</text>
+<text x="200" y="114" text-anchor="middle" class="fg-text">de-AT</text>
+<text x="325" y="114" text-anchor="middle" class="fg-text">de-CH</text>
+<text x="75" y="148" text-anchor="middle" class="fg-label">Allemagne</text>
+<text x="200" y="148" text-anchor="middle" class="fg-label">Autriche</text>
+<text x="325" y="148" text-anchor="middle" class="fg-label">Suisse</text>
 </svg>
 <figcaption>Chaque version régionale liste les deux autres dans ses balises hreflang, ce qui permet à Google de montrer la bonne page allemande dans chacun des trois pays.</figcaption>
 </figure>
 
-## Stratégies de netlinking en Allemagne
+## Gagnez des liens sur des sites allemands respectés
 
 Un lien venu d’un site allemand respecté indique à Google, et à vos acheteurs, que vous êtes connu en Allemagne. Les liens allemands pèsent le plus lourd pour vos positions allemandes. Notre service de [netlinking](/fr/services/seo-technique/) s’appuie sur ce principe.
 
@@ -181,11 +215,24 @@ Les médias professionnels, blogueurs et influenceurs allemands placent votre no
 
 Les avis sur des plateformes comme Google Business Profile et sur les annuaires allemands renforcent encore vos résultats locaux.
 
-## Suivre et ajuster votre stratégie SEO
+## Suivez vos demandes allemandes à part
 
 Isolez vos chiffres allemands du reste, et vous voyez une évolution des demandes allemandes au moment où elle se produit.
 
 Utilisez Google Analytics, Google Search Console et des outils de SEO local pour suivre la performance allemande à part et choisir le chantier suivant. Notre service d’[analyse et de suivi](/fr/services/seo-technique/) met ces indicateurs en place.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 120" role="img" aria-label="Tous les marchés réunis en un seul total, face aux chiffres allemands suivis à part, où chaque évolution des demandes allemandes apparaît aussitôt.">
+<path d="M192 58 L208 58" class="fg-accent"/>
+<rect x="12" y="30" width="180" height="56" rx="6" class="fg-box"/>
+<rect x="208" y="30" width="180" height="56" rx="6" class="fg-hot"/>
+<text x="102" y="55" text-anchor="middle" class="fg-text">Tous les marchés</text>
+<text x="102" y="74" text-anchor="middle" class="fg-label">un seul total</text>
+<text x="298" y="55" text-anchor="middle" class="fg-strong">Allemagne seule</text>
+<text x="298" y="74" text-anchor="middle" class="fg-label">demandes allemandes</text>
+</svg>
+<figcaption>Isolés du reste, vos chiffres allemands montrent une évolution des demandes au moment où elle se produit.</figcaption>
+</figure>
 
 Des audits SEO réguliers gardent votre site conforme aux règles allemandes et performant. La recherche, le comportement des acheteurs et le droit de la vie privée évoluent, et votre plan évolue avec eux.
 

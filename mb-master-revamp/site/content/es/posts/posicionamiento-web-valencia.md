@@ -37,6 +37,23 @@ En una ciudad con miles de residentes extranjeros y visitantes durante todo el a
 
 Las palabras clave de cola larga son indicaciones detalladas hasta tu puerta. Alguien puede empezar con «masaje Valencia», pero quien está cerca de reservar usa frases como «[traditional Thai massage near Ruzafa Valencia](https://www.ro-ki.net/treatments/thai-yoga-massage/)», «masaje tailandés deep tissue Ciutat Vella» o «[English-speaking Thai massage therapist Valencia](https://www.ro-ki.net/treatments/thai-yoga-massage/)». Cuanto más concreta es la frase, mayor es la intención de reservar.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 156" role="img" aria-label="Tres búsquedas en Valencia según su intención de reservar: la búsqueda amplia «masaje Valencia» lleva de lejos a la reserva, y las concretas «Thai massage Ruzafa» y «deep tissue Ciutat Vella» llevan directo a ella.">
+<path d="M234 30 L292 62" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M234 78 L288 78" class="fg-accent"/>
+<path d="M234 126 L292 94" class="fg-accent"/>
+<rect x="8" y="14" width="226" height="32" rx="6" class="fg-box"/>
+<rect x="8" y="62" width="226" height="32" rx="6" class="fg-box"/>
+<rect x="8" y="110" width="226" height="32" rx="6" class="fg-box"/>
+<circle cx="334" cy="78" r="46" class="fg-hot"/>
+<text x="121" y="35" text-anchor="middle" class="fg-text">masaje Valencia</text>
+<text x="121" y="83" text-anchor="middle" class="fg-text">Thai massage Ruzafa</text>
+<text x="121" y="131" text-anchor="middle" class="fg-text">deep tissue Ciutat Vella</text>
+<text x="334" y="84" text-anchor="middle" class="fg-strong">Reservar</text>
+</svg>
+<figcaption>Cuanto más concreta es la frase, mayor es la intención de reservar: un barrio o un tratamiento en la búsqueda señala a un cliente cerca de tu puerta.</figcaption>
+</figure>
+
 Añade frases propias de Valencia allí donde sean pertinentes: «restaurantes en Valencia», «pisos en Valencia», «eventos en Valencia», «abogado en Valencia».
 
 ### La intención de búsqueda, de la consulta a la reserva
@@ -88,6 +105,22 @@ Un visitante que llega a tu página de Valencia en uno o dos clics se queda cont
 
 Los enlaces internos ayudan a los buscadores a entender tu estructura y a los visitantes a moverse por la web, y unas buenas [herramientas de enlazado interno para WordPress](/es/herramientas-enlazado-interno/) agilizan el trabajo. Enlaza entre sí, dentro del texto, las páginas relacionadas con Valencia (un artículo sobre restaurantes de Valencia que enlaza a tu guía gastronómica) y da a tus servicios o ubicaciones en Valencia su propio sitio en la navegación principal.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="El menú principal lleva directamente a tus servicios y a tus ubicaciones en Valencia, cada uno a un clic.">
+<path d="M200 50 L105 96" class="fg-line"/>
+<path d="M200 50 L295 96" class="fg-line"/>
+<rect x="120" y="10" width="160" height="40" rx="6" class="fg-hot"/>
+<rect x="15" y="96" width="180" height="46" rx="6" class="fg-box"/>
+<rect x="205" y="96" width="180" height="46" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-strong">Menú principal</text>
+<text x="105" y="116" text-anchor="middle" class="fg-text">Servicios</text>
+<text x="105" y="134" text-anchor="middle" class="fg-label">en Valencia, a un clic</text>
+<text x="295" y="116" text-anchor="middle" class="fg-text">Ubicaciones</text>
+<text x="295" y="134" text-anchor="middle" class="fg-label">en Valencia, a un clic</text>
+</svg>
+<figcaption>Da a tus servicios y ubicaciones en Valencia su propio sitio en la navegación principal, y cada visitante llega a ellos en un clic.</figcaption>
+</figure>
+
 ### Sitemaps
 
 Un sitemap ayuda a los buscadores a rastrear e indexar tus páginas. Incluye todas tus páginas de Valencia, envía el sitemap XML en Google Search Console y plantéate un sitemap HTML para los visitantes. WordPress genera por sí solo un sitemap XML básico desde la versión 5.5, así que un plugin solo hace falta para tener más control.
@@ -122,6 +155,21 @@ Los datos locales te muestran si el trabajo trae clientes de Valencia, además d
 ### Google Analytics y Search Console
 
 En Google Analytics, los informes geográficos muestran cuánto tráfico llega desde Valencia, el porcentaje de interacciones y el tiempo en la página indican si los visitantes locales encuentran lo que buscaban, y el seguimiento de conversiones muestra cuántos se convierten en contactos o ventas. En Search Console, el informe de rendimiento te da clics, impresiones y posición media de tus palabras clave de Valencia, y el informe de indexación de páginas confirma que tus páginas de Valencia están indexadas.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="Un embudo de tres métricas locales: el porcentaje de clics, después el porcentaje de interacciones y, al final, la tasa de conversión, los visitantes de Valencia que se convierten en clientes o contactos.">
+<rect x="30" y="8" width="340" height="44" rx="6" class="fg-box"/>
+<rect x="70" y="58" width="260" height="44" rx="6" class="fg-box"/>
+<rect x="100" y="108" width="200" height="44" rx="6" class="fg-hot"/>
+<text x="200" y="28" text-anchor="middle" class="fg-text">Porcentaje de clics</text>
+<text x="200" y="45" text-anchor="middle" class="fg-label">títulos y descripciones</text>
+<text x="200" y="78" text-anchor="middle" class="fg-text">Porcentaje de interacciones</text>
+<text x="200" y="95" text-anchor="middle" class="fg-label">lo que espera el público</text>
+<text x="200" y="128" text-anchor="middle" class="fg-text">Tasa de conversión</text>
+<text x="200" y="145" text-anchor="middle" class="fg-label">clientes y contactos</text>
+</svg>
+<figcaption>Lee las tres tasas en orden: el título gana el clic, la página retiene la visita y la oferta consigue el cliente.</figcaption>
+</figure>
 
 ### Métricas que conviene seguir
 

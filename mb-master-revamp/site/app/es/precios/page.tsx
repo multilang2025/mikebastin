@@ -125,7 +125,7 @@ export default function SpanishPricingPage() {
       <section className="band band-b py-[clamp(56px,8vw,104px)]">
         <div className="shell">
           <Reveal>
-            <h2 className="mb-10 text-[clamp(1.6rem,3vw,2.3rem)] font-semibold leading-[1.15]">Las etapas de un proyecto</h2>
+            <h2 className="mb-10 text-[clamp(1.6rem,3vw,2.3rem)] font-semibold leading-[1.15]">De la primera llamada al informe mensual</h2>
           </Reveal>
           <ol className="grid gap-8 md:grid-cols-2">
             {STAGES.map((s, i) => (
@@ -150,7 +150,7 @@ export default function SpanishPricingPage() {
       <section className="band band-a py-[clamp(56px,8vw,104px)]">
         <div className="shell">
           <Reveal>
-            <h2 className="mb-10 text-[clamp(1.6rem,3vw,2.3rem)] font-semibold leading-[1.15]">Tus preguntas</h2>
+            <h2 className="mb-10 text-[clamp(1.6rem,3vw,2.3rem)] font-semibold leading-[1.15]">Lo que nos preguntan antes de una primera llamada</h2>
           </Reveal>
           <dl className="grid max-w-[72ch] gap-8">
             {QUESTIONS.map((x, i) => (

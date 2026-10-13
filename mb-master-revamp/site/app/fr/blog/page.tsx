@@ -100,7 +100,7 @@ export default function FrenchBlogIndex() {
                 </div>
                 {g.href && (
                   <Link href={g.href} className="ulink shrink-0 text-[.92rem]" style={{ color: "var(--berry)" }}>
-                    Voir tout le sujet
+                    Lire tous les articles du sujet
                   </Link>
                 )}
               </div>

@@ -51,6 +51,22 @@ El nombre ya se da por hecho. Un detalle que el lector reconoce como suyo llama 
 
 Tu público decide qué funciona. Prueba estilos, longitudes y elementos del asunto en cada envío y quédate con lo que gana. Si escribes en varios idiomas, prueba cada versión por separado: el asunto ganador en Francia y el ganador en Alemania pueden ser distintos.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Cada envío prueba dos asuntos, A y B, y el ganador se queda para el siguiente envío.">
+<path d="M155 75 L225 35" class="fg-dim" stroke-dasharray="4 4"/>
+<path d="M155 75 L225 115" class="fg-accent"/>
+<rect x="10" y="55" width="145" height="40" rx="6" class="fg-box"/>
+<rect x="225" y="12" width="165" height="46" rx="6" class="fg-box"/>
+<rect x="225" y="92" width="165" height="46" rx="6" class="fg-hot"/>
+<text x="82.5" y="81" text-anchor="middle" class="fg-strong">Cada envío</text>
+<text x="307.5" y="32" text-anchor="middle" class="fg-text">Asunto A</text>
+<text x="307.5" y="50" text-anchor="middle" class="fg-label">probado</text>
+<text x="307.5" y="112" text-anchor="middle" class="fg-strong">Asunto B</text>
+<text x="307.5" y="130" text-anchor="middle" class="fg-label">ganador, se queda</text>
+</svg>
+<figcaption>Prueba en cada envío y quédate con lo que gana: cada campaña parte del asunto que eligió tu público.</figcaption>
+</figure>
+
 ## Emails pensados para el móvil
 
 Un email que se lee con comodidad en el teléfono lleva a la mayoría de sus lectores hasta tu oferta, así que el móvil va primero.
@@ -62,6 +78,24 @@ Un email que se lee con comodidad en el teléfono lleva a la mayoría de sus lec
 ### Apuesta por el diseño responsive
 
 Tus emails se adaptan a cualquier tamaño de pantalla. Un diseño a una sola columna mantiene el desplazamiento sencillo.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 170" role="img" aria-label="Un email pensado para el móvil: una sola columna, párrafos cortos y botones grandes fáciles de pulsar.">
+<path d="M160 40 L198 40" class="fg-dim"/>
+<path d="M160 80 L198 80" class="fg-dim"/>
+<path d="M160 122 L198 122" class="fg-accent"/>
+<rect x="60" y="8" width="100" height="154" rx="14" class="fg-box"/>
+<rect x="74" y="26" width="72" height="28" rx="4" class="fg-fill"/>
+<rect x="74" y="66" width="72" height="6" rx="3" class="fg-fill"/>
+<rect x="74" y="78" width="72" height="6" rx="3" class="fg-fill"/>
+<rect x="74" y="90" width="48" height="6" rx="3" class="fg-fill"/>
+<rect x="74" y="110" width="72" height="24" rx="6" class="fg-hot"/>
+<text x="206" y="45" text-anchor="start" class="fg-text">Una sola columna</text>
+<text x="206" y="85" text-anchor="start" class="fg-text">Párrafos cortos</text>
+<text x="206" y="127" text-anchor="start" class="fg-strong">Botones grandes</text>
+</svg>
+<figcaption>Una columna, párrafos cortos y un botón grande llevan al lector del móvil hasta tu oferta.</figcaption>
+</figure>
 
 ### Facilita la lectura rápida
 
@@ -82,6 +116,23 @@ Previsualiza cada email en distintas plataformas con herramientas como Litmus o 
 ## Segmentos que hacen relevante cada envío
 
 Un mensaje escrito para un segmento convence a ese segmento: cada suscriptor recibe el email que le encaja.
+
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Una lista segmentada por comportamiento en tres grupos: historial de compras, interacción con tus emails y navegación por tu web.">
+<path d="M200 50 L68 100" class="fg-line"/>
+<path d="M200 50 L200 100" class="fg-line"/>
+<path d="M200 50 L332 100" class="fg-line"/>
+<rect x="125" y="10" width="150" height="40" rx="6" class="fg-hot"/>
+<rect x="8" y="100" width="120" height="40" rx="6" class="fg-box"/>
+<rect x="140" y="100" width="120" height="40" rx="6" class="fg-box"/>
+<rect x="272" y="100" width="120" height="40" rx="6" class="fg-box"/>
+<text x="200" y="36" text-anchor="middle" class="fg-strong">Tu lista</text>
+<text x="68" y="126" text-anchor="middle" class="fg-text">Compras</text>
+<text x="200" y="126" text-anchor="middle" class="fg-text">Interacción</text>
+<text x="332" y="126" text-anchor="middle" class="fg-text">Navegación</text>
+</svg>
+<figcaption>Cada segmento recibe el email escrito para él, y cada envío sigue siendo relevante para quien lo recibe.</figcaption>
+</figure>
 
 ### Segmentación por comportamiento
 

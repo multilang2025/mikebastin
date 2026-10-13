@@ -20,7 +20,7 @@ Le potentiel belge se lit mieux en croisant plusieurs sources, car les outils de
 
 Voici comment cherchent les communautés linguistiques de Belgique, où les écarts avec la France et les Pays-Bas font bouger vos positions, et par quoi commencer pour gagner les trois.
 
-## Le marché numérique belge
+## Un petit pays, trois marchés de recherche
 
 La Belgique est un petit pays qui compte trois marchés de recherche. Planifiez les trois et le pays entier est à gagner.
 
@@ -43,11 +43,11 @@ La Belgique ne tient aucun recensement linguistique. La mesure usuelle est l’a
 Bruxelles est officiellement bilingue, et ses habitants cherchent en français comme en néerlandais.
 
 <figure class="post-fig">
-<svg viewBox="0 0 400 200" role="img" aria-label="Les zones linguistiques de la Belgique : la Flandre néerlandophone au nord, Bruxelles bilingue en son sein, la Wallonie francophone au sud et l’est germanophone.">
+<svg viewBox="0 0 400 200" role="img" aria-label="Les zones linguistiques de la Belgique : la Flandre néerlandophone au nord, Bruxelles bilingue en son sein, la Wallonie francophone au sud et l’est germanophone.">
 <rect x="20" y="10" width="360" height="70" rx="6" class="fg-box"/>
-<text x="110" y="50" text-anchor="middle" class="fg-text">Flandre : néerlandais</text>
-<rect x="240" y="26" width="120" height="40" rx="6" class="fg-hot"/>
-<text x="300" y="51" text-anchor="middle" class="fg-label">Bruxelles : les deux</text>
+<text x="112" y="50" text-anchor="middle" class="fg-text">Flandre : néerlandais</text>
+<rect x="216" y="26" width="156" height="40" rx="6" class="fg-hot"/>
+<text x="294" y="51" text-anchor="middle" class="fg-label">Bruxelles : les deux</text>
 <rect x="20" y="96" width="260" height="70" rx="6" class="fg-fill"/>
 <text x="150" y="136" text-anchor="middle" class="fg-text">Wallonie : français</text>
 <rect x="292" y="96" width="88" height="70" rx="6" class="fg-box"/>
@@ -64,7 +64,7 @@ Les internautes belges préfèrent le contenu local : des mots-clés propres à
 
 L’anglais est largement compris, surtout en Flandre et à Bruxelles, et l’acheteur choisit pourtant le fournisseur qui parle sa langue. Gagner le [marché numérique belge](/fr/services/referencement-multilingue/) demande donc une traduction fidèle, une compréhension culturelle, une pratique du SEO local et une [stratégie de référencement multilingue](/fr/bonnes-pratiques-seo-multilingue/) pensée pour chaque communauté.
 
-## Le défi des trois langues
+## Écrivez chaque langue dans sa version belge
 
 Chacune des langues de la Belgique a sa version belge : un contenu écrit pour la Belgique se lit comme local aux yeux d’un acheteur belge.
 
@@ -103,7 +103,23 @@ Offrez aux visiteurs un sélecteur de langue clair. Une détection automatique p
 
 Un habitant de **Watermael-Boitsfort** ou de **Wemmel** peut chercher « banque en ligne Belgique » en français comme « online bank België » en néerlandais. Optimiser pour les deux variantes atteint les deux publics, et **Google Search Console** et **Semrush** suivent les tendances par langue pour ajuster votre plan.
 
-## La taille du marché et les limites des outils
+<figure class="post-fig">
+<svg viewBox="0 0 400 150" role="img" aria-label="Un même besoin, deux recherches à Bruxelles : « banque en ligne » en français et « online bank » en néerlandais.">
+<path d="M150 75 L230 35" class="fg-line"/>
+<path d="M150 75 L230 115" class="fg-line"/>
+<rect x="20" y="55" width="130" height="40" rx="6" class="fg-hot"/>
+<rect x="230" y="12" width="150" height="46" rx="6" class="fg-box"/>
+<rect x="230" y="92" width="150" height="46" rx="6" class="fg-box"/>
+<text x="85" y="81" text-anchor="middle" class="fg-strong">Bruxelles</text>
+<text x="305" y="32" text-anchor="middle" class="fg-text">En français</text>
+<text x="305" y="50" text-anchor="middle" class="fg-label">banque en ligne</text>
+<text x="305" y="112" text-anchor="middle" class="fg-text">En néerlandais</text>
+<text x="305" y="130" text-anchor="middle" class="fg-label">online bank</text>
+</svg>
+<figcaption>Bruxelles cherche la même chose en français et en néerlandais : une page dans chaque langue atteint les deux publics.</figcaption>
+</figure>
+
+## Croisez plusieurs sources pour estimer le marché
 
 Planifiez la Belgique à partir de plusieurs sources de données, car un seul outil en donne une image partielle. **Ahrefs** et **Semrush** ont souvent des estimations de volume minces et des données de backlinks partielles sur le marché belge, en particulier côté francophone.
 
@@ -117,6 +133,27 @@ Planifiez la Belgique à partir de plusieurs sources de données, car un seul ou
 
 Croisés avec les **rapports de performances de Google Search Console**, ces outils donnent une vue plus juste de ce que la Belgique peut vous apporter. Les faibles volumes de certains termes belges rendent la [recherche de mots-clés](/fr/services/seo-technique/) plus délicate à interpréter : associez les données à la connaissance du terrain, et aux données du marché français ajustées aux spécificités belges.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 160" role="img" aria-label="La demande de recherche belge lue dans plusieurs sources à la fois : Search Console, Google Trends, SE Ranking et la connaissance du terrain.">
+<path d="M160 23 L276 70" class="fg-line"/>
+<path d="M160 61 L271 76" class="fg-line"/>
+<path d="M160 99 L271 84" class="fg-line"/>
+<path d="M160 137 L276 90" class="fg-line"/>
+<rect x="10" y="8" width="150" height="30" rx="6" class="fg-box"/>
+<rect x="10" y="46" width="150" height="30" rx="6" class="fg-box"/>
+<rect x="10" y="84" width="150" height="30" rx="6" class="fg-box"/>
+<rect x="10" y="122" width="150" height="30" rx="6" class="fg-box"/>
+<circle cx="320" cy="80" r="50" class="fg-hot"/>
+<text x="85" y="28" text-anchor="middle" class="fg-text">Search Console</text>
+<text x="85" y="66" text-anchor="middle" class="fg-text">Google Trends</text>
+<text x="85" y="104" text-anchor="middle" class="fg-text">SE Ranking</text>
+<text x="85" y="142" text-anchor="middle" class="fg-text">Le terrain</text>
+<text x="320" y="78" text-anchor="middle" class="fg-strong">Demande</text>
+<text x="320" y="98" text-anchor="middle" class="fg-label">belge</text>
+</svg>
+<figcaption>Chaque source montre une partie de la demande belge ; lues ensemble, elles donnent une image plus juste de ce que le marché peut vous apporter.</figcaption>
+</figure>
+
 <aside class="post-cta">
 <p><strong>Vous voulez une image juste de la demande de recherche belge ?</strong> Notre <a href="/fr/services/seo-technique/">recherche de mots-clés</a> se mène langue par langue et marché par marché : le français de Belgique est étudié comme du français de Belgique. <a href="/fr/nous-contacter/">Parlons de la Belgique</a>.</p>
 </aside>
@@ -125,20 +162,35 @@ Croisés avec les **rapports de performances de Google Search Console**, ces out
 
 Votre secteur change l’endroit où la frontière linguistique belge compte le plus.
 
+<figure class="post-fig">
+<svg viewBox="0 0 400 140" role="img" aria-label="Le même produit s’appelle « serviette de bain » en France et « essuie de bain » en Belgique, et la page belge emploie le mot belge.">
+<path d="M175 70 L223 70" class="fg-accent"/>
+<path d="M215 62 L223 70 L215 78" class="fg-accent"/>
+<rect x="15" y="40" width="160" height="60" rx="6" class="fg-box"/>
+<rect x="225" y="40" width="160" height="60" rx="6" class="fg-hot"/>
+<text x="95" y="64" text-anchor="middle" class="fg-text">France</text>
+<text x="95" y="86" text-anchor="middle" class="fg-label">serviette de bain</text>
+<text x="305" y="64" text-anchor="middle" class="fg-strong">Belgique</text>
+<text x="305" y="86" text-anchor="middle" class="fg-label">essuie de bain</text>
+<text x="200" y="128" text-anchor="middle" class="fg-label">le même produit</text>
+</svg>
+<figcaption>Des fiches produits rédigées avec le mot belge correspondent à ce que l’acheteur belge tape dans le moteur de recherche.</figcaption>
+</figure>
+
 - **Le luxe** : des pages par marché qui gardent l’image de la marque mondiale et portent son ton dans chaque langue.
 - **La grande consommation** : des promotions par région et une veille sur les concurrents locaux de chaque marché linguistique.
 - **L’assurance et l’immobilier** : des règles de contenu multilingue et des [tarifications](/fr/tarifs/) qui varient d’une région à l’autre, et des termes différents pour les mêmes [services](/fr/services/seo/) ; le plan de mots-clés couvre chaque région.
 - **La santé** : les Belges ont affaire à leur « mutualité » ou « mutuelle » et à l’INAMI, là où les patients français parlent de « Sécurité sociale » et d’« Assurance Maladie » ; les pages d’un prestataire de santé reprennent ces termes.
 - **Le commerce en ligne** : les mots du quotidien varient, comme « essuie de bain » en Belgique et « serviette de bain » en France ; vos fiches produits suivent l’usage belge.
 
-## La recherche locale et votre fiche d’établissement Google
+## Gérez votre fiche Google en plusieurs langues
 
 Si vous avez un établissement en Belgique, votre fiche est souvent la première chose que voit un acheteur local, et la gérer en plusieurs langues fait partie du [référencement local](/fr/services/referencement-local/).
 
 - **Des fiches exactes** : des informations correctes dans chaque langue utile disent clairement à chaque acheteur qui vous êtes.
 - **Une langue par région** : une description, des publications et des réponses aux avis dans la langue de vos clients sur place.
 
-## Mobile et ordinateur en Belgique
+## Servez le mobile autant que l’ordinateur
 
 Les acheteurs belges se partagent presque à égalité entre téléphone et ordinateur : un site qui fonctionne bien sur les deux sert chaque visite.
 
@@ -152,7 +204,7 @@ Les acheteurs belges se partagent presque à égalité entre téléphone et ordi
 
 Le Luxembourg voisin vit une situation multilingue proche : le luxembourgeois, le français et l’allemand y sont tous trois officiels, et l’anglais y est largement employé. Ce qui fonctionne au Luxembourg guide votre approche en Belgique, surtout pour gérer plusieurs langues sur un petit marché. Nos [bonnes pratiques du SEO multilingue](/fr/bonnes-pratiques-seo-multilingue/) en donnent le cadre.
 
-## Les réglages techniques d’un site belge
+## Signalez chaque version belge à Google
 
 Le rapport de ciblage international de Google Search Console a été retiré en 2022 : chaque version belge se signale donc par hreflang, par une structure d’URL claire (un domaine .be ou des dossiers /nl-be/ et /fr-be/), et par des contenus et des liens locaux. Un site multilingue bien organisé sert à la fois l’utilisateur et vos positions.
 
@@ -172,4 +224,4 @@ La Belgique récompense les entreprises qui la traitent comme trois marchés. Co
 
 Le néerlandais et le français se travaillent directement chez nous, et les pages en allemand sont rédigées par des rédacteurs allemands de langue maternelle : votre message atteint ainsi les trois communautés linguistiques.
 
-[Contactez-nous dès aujourd’hui](/fr/nous-contacter/) pour faire le point sur votre site belge.
+[Demandez un bilan de votre site belge](/fr/nous-contacter/) : nous vérifions avec vous quelles communautés il atteint déjà.
