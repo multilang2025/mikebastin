@@ -198,8 +198,11 @@ export default function HomeEvidence({ locale = "en", band = "b" }: { locale?: "
                       unoptimized
                       className="aspect-[5/4] w-full object-cover object-top"
                     />
-                    <span className="flex flex-col gap-0.5 px-3 py-2.5 lg:flex-row lg:items-baseline lg:justify-between lg:gap-2">
-                      <span className="text-[.8rem] font-semibold transition-colors duration-200 group-hover:text-[var(--berry)] sm:text-[.88rem]">{host}</span>
+                    <span className="flex flex-col gap-0.5 px-2.5 py-2.5 sm:px-3 xl:flex-row xl:items-baseline xl:justify-between xl:gap-2">
+                      {/* One line on every width (owner, 13 Oct 2026: "URL overflow to
+                          the next line"): the address shrinks a little on narrow
+                          phones instead of breaking after its last dot. */}
+                      <span className="whitespace-nowrap text-[clamp(.68rem,3vw,.8rem)] font-semibold transition-colors duration-200 group-hover:text-[var(--berry)] sm:text-[.88rem] lg:text-[.8rem] xl:text-[.88rem]">{host}</span>
                       <span className="text-[.76rem]" style={{ color: "var(--dim)" }}>{s.market[locale]}</span>
                     </span>
                   </a>
