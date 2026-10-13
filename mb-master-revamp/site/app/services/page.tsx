@@ -36,6 +36,7 @@ const FEATURED_SEARCH_SERVICES = [
   "french-seo",
   "spanish-seo",
   "dutch-seo",
+  "german-seo",
   "local-seo",
 ];
 
@@ -100,7 +101,7 @@ function ConsultationCta({
   showHeading?: boolean;
 }) {
   return (
-    <section className={`band ${band} py-[clamp(48px,7vw,80px)]`}>
+    <section className={`band ${band} pt-[clamp(28px,3.5vw,44px)] pb-[clamp(48px,7vw,80px)]`}>
       <div className="shell">
         <div className="mx-auto max-w-[58ch] text-center">
           {showHeading && (
@@ -143,7 +144,7 @@ export default function ServicesIndex() {
         <div className="shell relative grid items-start gap-x-12 lg:grid-cols-[1fr_auto]">
         <div>
           <Reveal>
-            <p className="eyebrow mb-8">For businesses ready to grow beyond their home market</p>
+            <p className="eyebrow mb-4 sm:mb-8">For businesses ready to grow beyond their home market</p>
           </Reveal>
           <Reveal i={1}>
             <h1 className="mb-6 max-w-[19ch] text-[clamp(2.3rem,5.6vw,4rem)] font-semibold leading-[1.08]">
@@ -157,8 +158,9 @@ export default function ServicesIndex() {
           </Reveal>
           <Reveal i={3}>
             <p className="mb-8 max-w-[58ch] text-[clamp(1.05rem,1.5vw,1.2rem)] leading-[1.58]" style={{ color: "var(--dim)" }}>
-              Pick the market you want selling next and the service that gets
-              it there. Every engagement starts with a free consultation.
+              A global SEO company for businesses already selling abroad. Every
+              engagement starts with a free consultation and runs month to
+              month.
             </p>
           </Reveal>
           <Reveal i={4}>
@@ -174,8 +176,8 @@ export default function ServicesIndex() {
         </div>
         {/* Heroes carry animated SVG art (owner, 2 Oct 2026); the static scenes
             sit in the cluster bands below. */}
-        <div className="services-hero-art">
-          <HeroArtSlot visibleOnMobile={true}>
+        <div className="services-hero-art order-first lg:order-none">
+          <HeroArtSlot visibleOnMobile={true} compactOnMobile={true}>
             <DlArt name={DL_PAGE_ART.services} />
           </HeroArtSlot>
         </div>
@@ -211,26 +213,51 @@ export default function ServicesIndex() {
         const renderCards = (services: typeof inCluster) =>
           services.map((s, i) => (
             <Reveal key={s.slug} i={i}>
-              <li className="band group h-full" style={{ background: "var(--bg)" }}>
+              <li
+                className={`band group h-full${s.slug === "multilingual-seo" ? " card-navy" : ""}`}
+                style={s.slug === "multilingual-seo" ? undefined : { background: "var(--bg)" }}
+              >
                 <Link href={`/services/${s.slug}/`} className="flex h-full flex-col px-7 py-8">
-                  <span
-                    className="mb-5 flex h-11 w-11 items-center justify-center rounded-full transition-colors duration-300"
-                    style={{ background: "var(--berry-soft)", color: "var(--berry)" }}
-                  >
-                    <ServiceIcon slug={s.slug} />
-                  </span>
-                  {s.slug === "multilingual-seo" && (
+                  <span className="mb-5 flex items-center gap-3">
                     <span
-                      className="mb-3 w-fit rounded-full px-3 py-1 text-[.78rem] font-semibold"
-                      style={{ background: "var(--berry-soft)", color: "var(--berry)" }}
+                      className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full transition-colors duration-300"
+                      style={{
+                        background: "var(--card-accent-soft, var(--berry-soft))",
+                        color: "var(--card-accent, var(--berry))",
+                      }}
                     >
-                      Our core service
+                      <ServiceIcon slug={s.slug} />
+                    </span>
+                    {s.slug === "multilingual-seo" && (
+                      <span
+                        className="inline-flex items-center gap-1.5 rounded-full px-3.5 py-1.5 text-[.8rem] font-semibold"
+                        style={{ background: "var(--berry)", color: "#0f2837" }}
+                      >
+                        <span aria-hidden="true">★</span>
+                        Our core service
+                      </span>
+                    )}
+                  </span>
+                  <span className="ulink mb-2 text-[1.08rem] font-semibold">
+                    {s.indexTitle ?? s.cardTitle ?? s.name}
+                  </span>
+                  <p className="text-[.9rem] leading-[1.5]" style={{ color: "var(--dim)" }}>
+                    {s.indexLine ?? s.lede}
+                  </p>
+                  {s.indexAction && (
+                    <span
+                      className="mt-auto pt-5 text-[.92rem] font-semibold"
+                      style={{ color: "var(--berry)" }}
+                    >
+                      {s.indexAction}{" "}
+                      <span
+                        aria-hidden="true"
+                        className="inline-block transition-transform duration-200 group-hover:translate-x-1"
+                      >
+                        →
+                      </span>
                     </span>
                   )}
-                  <span className="ulink mb-2 text-[1.08rem] font-semibold">{s.cardTitle ?? s.name}</span>
-                  <p className="text-[.9rem] leading-[1.5]" style={{ color: "var(--dim)" }}>
-                    {s.lede}
-                  </p>
                 </Link>
               </li>
             </Reveal>
@@ -238,7 +265,7 @@ export default function ServicesIndex() {
         return (
           <Fragment key={cluster}>
           <section
-            className={`band ${ci % 2 === 0 ? "band-b" : "band-a"} py-[clamp(48px,7vw,96px)]`}
+            className={`band ${ci % 2 === 0 ? "band-b" : "band-a"} ${cluster === "Search" ? "pt-[clamp(48px,7vw,96px)] pb-[clamp(24px,3vw,40px)]" : "py-[clamp(48px,7vw,96px)]"}`}
           >
             <div className="shell">
               <Reveal>
@@ -294,7 +321,8 @@ export default function ServicesIndex() {
                       <path d="m4 7 6 6 6-6" />
                     </svg>
                   </summary>
-                  <ul className="mt-6 grid gap-px cells-3 sm:grid-cols-2 lg:grid-cols-3" style={{ background: "var(--rule)" }}>
+                  <ul
+                    className={`mt-6 grid gap-px cells-3 sm:grid-cols-2 ${moreOptions.length % 3 === 2 ? "" : "lg:grid-cols-3"}`} style={{ background: "var(--rule)" }}>
                     {renderCards(moreOptions)}
                   </ul>
                 </details>

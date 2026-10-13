@@ -47,6 +47,10 @@ export type Service = {
    * 27 Sep 2026).
    */
   cardTitle?: string;
+  /** Short card copy for the /services/ index only: a keyword title, one action line and a link label. */
+  indexTitle?: string;
+  indexLine?: string;
+  indexAction?: string;
   /**
    * Mid-sentence form of `name`, for headings that drop it inside a
    * sentence ("How the international SEO engagement runs"). Written out
@@ -420,6 +424,9 @@ export const SERVICES: Service[] = [
     slug: "multilingual-seo",
     name: "International SEO",
     cardTitle: "Multilingual SEO and GEO across every market you sell in",
+    indexTitle: "Multilingual SEO for every market you sell in",
+    indexLine: "Rank on Google and win GEO citations in every market you sell in, turning each language into enquiries.",
+    indexAction: "Grow every market",
     inline: "international SEO",
     headingTerm: "multilingual SEO",
     h1: "Multilingual SEO and GEO agency for companies already selling abroad",
@@ -551,12 +558,15 @@ export const SERVICES: Service[] = [
     slug: "french-seo",
     name: "French SEO",
     cardTitle: "French SEO and GEO for buyers in France",
+    indexTitle: "French SEO for French buyers",
+    indexLine: "Rank in French, earn GEO citations and win enquiries from France, Belgium, Switzerland and Canada.",
+    indexAction: "Win French buyers",
     inline: "French SEO",
     h1: "French SEO and GEO agency for companies selling into France",
     subhead: "Reach buyers in France, Belgium, Switzerland and Canada with research, pages and reporting done in French.",
     cluster: "Search",
     angle: "French SEO for companies selling into France",
-    lede: "Work directly with a French SEO consultant to turn local searches into qualified leads.",
+    lede: "French pages that read as written in France, for buyers in France, Belgium, Switzerland and Canada. We research how each market searches, write natively in French, and count the enquiries that follow.",
     metaTitle: "French SEO agency for companies selling into France",
     metaDescription: "French buyers know in one sentence whether a page was written in French. We research and write your French pages natively, so French visits become enquiries.",
     // Research, 23 Sep 2026 (Ahrefs GB and worldwide, plus this page's own
@@ -704,6 +714,9 @@ export const SERVICES: Service[] = [
     slug: "german-seo",
     name: "German SEO",
     cardTitle: "German SEO and GEO for the German market",
+    indexTitle: "German SEO for German buyers",
+    indexLine: "Earn the trust of German buyers who read every line, with SEO pages that rank and convince.",
+    indexAction: "Earn German trust",
     inline: "German SEO",
     h1: "German SEO and GEO agency for companies expanding into Germany",
     subhead: "Strategy agreed with you in English or French, every German page written by native German copywriters, so buyers in Germany, Austria and Switzerland read a supplier that sounds local.",
@@ -839,6 +852,9 @@ export const SERVICES: Service[] = [
     slug: "spanish-seo",
     name: "Spanish SEO",
     cardTitle: "Spanish SEO and GEO for Spain and Latin America",
+    indexTitle: "Spanish SEO for Spanish-speaking buyers",
+    indexLine: "Own Spanish search and GEO answers across Spain and Latin America, with a page written for each country.",
+    indexAction: "Reach Spanish buyers",
     inline: "Spanish SEO",
     h1: "Spanish SEO and GEO agency for Spain and Latin America",
     subhead: "Reach more buyers in Spain and Latin America with search strategies and content built for each market.",
@@ -1000,12 +1016,15 @@ export const SERVICES: Service[] = [
     slug: "dutch-seo",
     name: "Dutch SEO",
     cardTitle: "Dutch SEO and GEO for the Netherlands and Belgium",
+    indexTitle: "Dutch SEO for Dutch and Flemish buyers",
+    indexLine: "Turn fast-deciding Dutch and Flemish searchers into enquiries, with SEO built around short, concrete answers.",
+    indexAction: "Convert Dutch buyers",
     inline: "Dutch SEO",
     h1: "Dutch SEO and GEO agency for the Netherlands and Belgium",
     subhead: "Dutch and French handled directly, with a native reader on every commercial page, so buyers in Amsterdam, Antwerp and Brussels read a supplier who speaks their language properly.",
     cluster: "Search",
     angle: "SEO Netherlands and Belgium, written in Dutch from the start",
-    lede: "Dutch SEO handled directly, with a native reader on every commercial page, for buyers in the Netherlands and Flanders. Short, concrete answers and the company details up front, because Dutch buyers decide quickly.",
+    lede: "Dutch pages with a native reader on every commercial page, for buyers in the Netherlands and Flanders. Short, concrete answers and the company details up front, because Dutch buyers decide quickly.",
     metaTitle: "Dutch SEO agency for the Netherlands and Belgium",
     metaDescription: "Dutch buyers decide fast and trust pages written in Dutch. Dutch SEO for the Netherlands and Belgium, researched and written directly in Dutch.",
     // Research, 23 Sep 2026 (Ahrefs GB and BE, plus this page's own Search
@@ -1131,6 +1150,9 @@ export const SERVICES: Service[] = [
     slug: "italian-seo",
     name: "Italian SEO",
     cardTitle: "Italian SEO and GEO for the Italian market",
+    indexTitle: "Italian SEO for Italian buyers",
+    indexLine: "Win Italian buyers who check your company details first, with SEO pages that rank and reassure.",
+    indexAction: "Win Italian buyers",
     inline: "Italian SEO",
     h1: "Italian SEO and GEO agency for companies selling into Italy",
     subhead: "Few competitors write native Italian pages for the terms your buyers search, so well-written Italian pages get seen early and turn visits into enquiries.",
@@ -1225,6 +1247,9 @@ export const SERVICES: Service[] = [
     slug: "portuguese-seo",
     name: "Portuguese SEO",
     cardTitle: "Portuguese SEO and GEO for Portugal and Brazil",
+    indexTitle: "Portuguese SEO for Portuguese and Brazilian buyers",
+    indexLine: "Capture Portugal and Brazil with SEO that gives each market its own page and keywords.",
+    indexAction: "Capture both markets",
     inline: "Portuguese SEO",
     h1: "Portuguese SEO and GEO agency for Portugal and Brazil",
     subhead: "Portugal and Brazil each get their own pages, keywords and native writers, so buyers on both sides of the Atlantic read Portuguese written for them.",
@@ -1329,6 +1354,9 @@ export const SERVICES: Service[] = [
     slug: "local-seo",
     name: "Local SEO",
     cardTitle: "Local SEO for cities that search in several languages",
+    indexTitle: "Local SEO for multilingual cities",
+    indexLine: "Get found on the map and in GEO answers, in every language your city searches in.",
+    indexAction: "Get found locally",
     inline: "local SEO",
     h1: "Local SEO services for multilingual cities",
     subhead: "Be the business nearby buyers find first on the map, in every language your city searches in, and turn the profile into calls and visits.",
