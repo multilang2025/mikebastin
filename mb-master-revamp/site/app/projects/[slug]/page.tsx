@@ -2,19 +2,19 @@ import { ogSubtitle } from "@/lib/og-card";
 import type { Metadata } from "next";
 import { pageMeta } from "@/lib/meta";
 import { notFound } from "next/navigation";
-import { PROJECTS, getProject } from "@/lib/projects";
-import { caseStudyPath } from "@/lib/case-studies";
+import { getProject } from "@/lib/projects";
+import { caseStudyId, caseStudyPath, caseStudySlugs } from "@/lib/case-studies";
 import { enLanguages } from "@/lib/fr-pages";
 import CaseStudyView, { localizedProject } from "@/components/CaseStudyView";
 
 // The English case study; the French and Spanish ones render the same view (components/CaseStudyView.tsx).
 export function generateStaticParams() {
-  return PROJECTS.map((p) => ({ slug: p.slug }));
+  return caseStudySlugs("en").map((slug) => ({ slug }));
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
-  const source = getProject(slug);
+  const source = getProject(caseStudyId("en", slug) ?? "");
   if (!source) return {};
   const project = localizedProject(source, "en");
   const path = caseStudyPath("en", project.slug);
@@ -29,7 +29,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
 export default async function ProjectPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
-  const project = getProject(slug);
+  const project = getProject(caseStudyId("en", slug) ?? "");
   if (!project) notFound();
   return <CaseStudyView project={project} locale="en" />;
 }

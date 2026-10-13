@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { caseStudyPath } from "@/lib/case-studies";
 import Link from "next/link";
 import Reveal from "@/components/Reveal";
 import Testimonials from "@/components/Testimonials";
@@ -299,7 +300,7 @@ export default function LeadGenerationPage() {
             </p>
             <p className="max-w-[62ch] text-[1.05rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
               We run our own sites the way we run yours.{" "}
-              <Link href="/projects/valenciamove/" className="ulink">
+              <Link href={caseStudyPath("en", "valenciamove")} className="ulink">
                 ValenciaMove
               </Link>{" "}
               carries over a thousand pages in five languages. In six months it
@@ -362,19 +363,19 @@ export default function LeadGenerationPage() {
             </h2>
             <p className="mb-10 max-w-[58ch] text-[1.05rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
               Read how it ran for{" "}
-              <Link href="/projects/delaguia-y-luzon/" className="ulink">
+              <Link href={caseStudyPath("en", "delaguia-y-luzon")} className="ulink">
                 a law firm working in four languages
               </Link>
               ,{" "}
-              <Link href="/projects/tx-international-freight/" className="ulink">
+              <Link href={caseStudyPath("en", "tx-international-freight")} className="ulink">
                 a Houston freight forwarder
               </Link>
               ,{" "}
-              <Link href="/projects/c21perdomo/" className="ulink">
+              <Link href={caseStudyPath("en", "c21perdomo")} className="ulink">
                 a Dominican real estate agency
               </Link>{" "}
               and{" "}
-              <Link href="/projects/bemelman-spuiterij/" className="ulink">
+              <Link href={caseStudyPath("en", "bemelman-spuiterij")} className="ulink">
                 a Dutch trade specialist
               </Link>
               .

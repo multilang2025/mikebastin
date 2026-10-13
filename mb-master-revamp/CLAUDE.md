@@ -829,8 +829,12 @@ opens. Flagged rather than forgotten, so they are known and deliberate:
   `/es/blog/temas/`, four), with no hreflang since each locale groups its
   own posts. `/blog/topics/` stays the English set.
 - **The eight case studies are in all three languages** (owner, 12 Oct
-  2026: "translate the case studies"): `/projects/<slug>/`,
-  `/fr/etudes-de-cas/<slug>/` and `/es/casos-de-exito/<slug>/`, one view
+  2026: "translate the case studies"): `/projects/<sector>/`,
+  `/fr/etudes-de-cas/<secteur>/` and `/es/casos-de-exito/<sector>/`. **URLs
+  name the sector, never the client** (owner, 13 Oct 2026: "I don't want to
+  name them in the slug"), e.g. `/projects/law-firm-valencia/`; the per-language
+  slugs live in `lib/case-studies.ts`, and every link goes through
+  `caseStudyPath(locale, id)` rather than a typed URL. One view
   (`components/CaseStudyView.tsx`), copy in `lib/projects-locale.ts` (hero)
   and `lib/case-studies-locale.ts` (the rest), paired through
   `lib/fr-pages-data.ts` / `lib/es-pages-data.ts`, so hreflang, the
