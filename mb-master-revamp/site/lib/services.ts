@@ -562,12 +562,12 @@ export const SERVICES: Service[] = [
     indexLine: "Rank in French, earn GEO citations and win enquiries from France, Belgium, Switzerland and Canada.",
     indexAction: "Win French buyers",
     inline: "French SEO",
-    h1: "French SEO and GEO agency for companies selling into France",
+    h1: "French SEO and GEO agency for companies selling into French-speaking markets",
     subhead: "Reach buyers in France, Belgium, Switzerland and Canada with research, pages and reporting done in French.",
     cluster: "Search",
-    angle: "French SEO for companies selling into France",
+    angle: "French SEO for French-speaking markets",
     lede: "French pages that read as written in France, for buyers in France, Belgium, Switzerland and Canada. We research how each market searches, write natively in French, and count the enquiries that follow.",
-    metaTitle: "French SEO agency for companies selling into France",
+    metaTitle: "French SEO agency for French-speaking markets",
     metaDescription: "French buyers know in one sentence whether a page was written in French. We research and write your French pages natively, so French visits become enquiries.",
     // Research, 23 Sep 2026 (Ahrefs GB and worldwide, plus this page's own
     // Search Console for 24 Mar to 20 Sep 2026): the people searching for
