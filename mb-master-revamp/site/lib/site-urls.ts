@@ -14,6 +14,7 @@ import {
   servicePath,
 } from "@/lib/services-locale";
 import { SITE_URL } from "@/lib/schema";
+import { caseStudyPath } from "@/lib/case-studies";
 import { builtFrPages, builtEsPages, enLanguages, frLanguages, esLanguages } from "@/lib/fr-pages";
 import { localeTopics, topicPath } from "@/lib/locale-topics";
 import { leadGenLanguages, leadGenPath } from "@/lib/lead-gen-hubs";
@@ -158,12 +159,12 @@ export function getSiteUrls(): UrlEntry[] {
 
   for (const pr of PROJECTS) {
     out.push({
-      path: `/projects/${pr.slug}/`,
+      path: caseStudyPath("en", pr.slug),
       locale: "en",
       kind: "page",
       section: "Work",
       label: pr.name,
-      languages: enLanguages(`/projects/${pr.slug}/`),
+      languages: enLanguages(caseStudyPath("en", pr.slug)),
     });
   }
 

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { caseStudyPath } from "@/lib/case-studies";
 import Reveal from "@/components/Reveal";
 
 /**
@@ -37,7 +38,7 @@ const COPY = {
 
 const PROOF: Record<string, { href: string; en: string }> = {
   "generative-engine-optimization": {
-    href: "/projects/delaguia-y-luzon/",
+    href: caseStudyPath("en", "delaguia-y-luzon"),
     en: "See how a Valencia law firm gets cited in Google’s AI Overviews, AI Mode and Perplexity",
   },
 };
@@ -75,7 +76,7 @@ export default function ServiceTeamBand({
           </p>
           <p className="mb-5 max-w-[62ch] text-[1.05rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
             {t.ownLead}{" "}
-            <Link href="/projects/valenciamove/" className="ulink">
+            <Link href={caseStudyPath("en", "valenciamove")} className="ulink">
               ValenciaMove
             </Link>
             {t.ownTail}
