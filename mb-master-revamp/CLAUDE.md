@@ -98,6 +98,13 @@ Same model as valenciamove.com, which the owner already runs at larger scale
   production goes the way the pipeline already goes, as valenciamove.com
   does. Do not propose Vercel again, and do not reach for a feature that
   assumes it.
+  **A merge means visible on the web** (owner, 13 Oct 2026: "for
+  front-end only websites like mikebastin.com, a merge means visible").
+  Every merge to `main` deploys; until launch that is
+  preview.mikebastin.com, and after launch it must be mikebastin.com
+  itself, so the production deploy runs on merge as the preview does
+  today. Report a merge as done once its deploy has finished and the
+  change shows on the site, not when GitHub says merged.
 
 Nothing in this directory contains real credentials. Secrets go in `.env`
 (gitignored, see below), never in a committed file, never in an agent's
