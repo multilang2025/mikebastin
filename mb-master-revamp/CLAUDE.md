@@ -346,8 +346,11 @@ skill); the service template shows a scene borderless and alternates its side. T
 homepage work section shows five cases (Delaguía, C21 Perdomo, BeTranslated, Bemelman, TX
 International Freight) and a tile for each of BeTranslated's ten country sites
 (`lib/betranslated-sites.ts`, images `public/work/betranslated-<tld>.webp` from
-`design/work-shots/gen.py`). `betranslated.it` does not resolve, so the Italian tile links
-to `betranslated.com/it/`. `design/scenes/render.py` now stops Edge itself once the
+`design/work-shots/gen.py`). `betranslated.it` was off the site from 7 to 13 Oct 2026 because it did not resolve; the
+owner registered it on 13 Oct 2026 and asked for it back, so it is restored everywhere (ten
+tiles, ten flags, ten sites in EN, FR and ES). Until a site is live there the Italian tile
+links to `betranslated.com/it/`; point it at `https://betranslated.it/` in
+`lib/betranslated-sites.ts` (drop `href`) once it serves a page. `design/scenes/render.py` now stops Edge itself once the
 screenshot exists (it used to hang).
 
 **Every post opens on an H2** (owner hard rule, 7 Oct 2026: "all Blog posts need to
@@ -539,7 +542,7 @@ is in the rest, which the Master Content Protocol never covered:
   never "working level" or a described reading level.
 - **BeTranslated runs ten country domains** (checked on the betranslated.com
   footer, 7 Oct 2026): .com, .us, .ca, .co.uk, .be, .fr, .es, .de, .nl and
-  .it. Never "six" or "twelve".
+  .it (the owner registered `.it` on 13 Oct 2026). Never "six", "nine" or "twelve".
 - **ValenciaMove brings in over 50 leads a month** (owner, 7 Oct 2026),
   shown as 50+. **Mike leads the team on every engagement** and clients deal
   with him (owner, 7 Oct 2026).

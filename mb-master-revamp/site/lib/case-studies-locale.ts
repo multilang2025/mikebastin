@@ -29,10 +29,10 @@ const N = " ";
 export const CASES_FR: Record<string, CaseStudyCopy> = {
   betranslated: {
     metaTitle: "BeTranslated, étude de cas multi-domaines",
-    metaDescription: "Vingt ans à diriger une agence de traduction sur neuf domaines nationaux, chacun positionné sur son propre marché. Voyez ce que cette rigueur demande.",
-    problem: `Une agence de traduction qui vend sur neuf marchés a besoin de neuf campagnes SEO, chacune construite pour son marché. Chaque domaine national (.com, .us, .ca, .co.uk, .be, .fr, .es, .de, .nl) a ses propres concurrents, ses propres habitudes de recherche et ses propres signaux de confiance${N}: chacun est donc géré comme un site à part entière, construit pour tenir sa place face aux concurrents locaux.`,
+    metaDescription: "Vingt ans à diriger une agence de traduction sur dix domaines nationaux, chacun positionné sur son propre marché. Voyez ce que cette rigueur demande.",
+    problem: `Une agence de traduction qui vend sur dix marchés a besoin de dix campagnes SEO, chacune construite pour son marché. Chaque domaine national (.com, .us, .ca, .co.uk, .be, .fr, .es, .de, .nl, .it) a ses propres concurrents, ses propres habitudes de recherche et ses propres signaux de confiance${N}: chacun est donc géré comme un site à part entière, construit pour tenir sa place face aux concurrents locaux.`,
     work: `Mike a fondé l’agence et la dirige depuis vingt ans. Chaque domaine régional reçoit son propre travail de SEO technique${N}: des sitemaps distincts, des groupes hreflang distincts et une recherche de mots-clés propre à chaque marché, construite à partir des recherches de ce marché.`,
-    outcome: "Neuf sites nationaux, chacun positionné sur les termes de son marché, pour une agence toujours en activité après deux décennies.",
+    outcome: "Dix sites nationaux, chacun positionné sur les termes de son marché, pour une agence toujours en activité après deux décennies.",
     countries: ["International", "États-Unis", "Canada", "Royaume-Uni", "Belgique", "France", "Espagne", "Allemagne", "Pays-Bas"],
   },
   globaprom: {
@@ -127,10 +127,10 @@ export const CASES_FR: Record<string, CaseStudyCopy> = {
 export const CASES_ES: Record<string, CaseStudyCopy> = {
   betranslated: {
     metaTitle: "BeTranslated, un caso de éxito multidominio",
-    metaDescription: "Veinte años al frente de una agencia de traducción con nueve dominios nacionales, cada uno posicionado en su mercado. Descubre lo que exige ese método.",
-    problem: "Una agencia de traducción que vende en nueve mercados necesita nueve campañas SEO, cada una construida para su mercado. Cada dominio nacional (.com, .us, .ca, .co.uk, .be, .fr, .es, .de, .nl) tiene sus propios competidores, sus propios hábitos de búsqueda y sus propias señales de confianza, así que cada uno se gestiona como una web independiente, preparada para competir con los rivales locales.",
+    metaDescription: "Veinte años al frente de una agencia de traducción con diez dominios nacionales, cada uno posicionado en su mercado. Descubre lo que exige ese método.",
+    problem: "Una agencia de traducción que vende en diez mercados necesita diez campañas SEO, cada una construida para su mercado. Cada dominio nacional (.com, .us, .ca, .co.uk, .be, .fr, .es, .de, .nl, .it) tiene sus propios competidores, sus propios hábitos de búsqueda y sus propias señales de confianza, así que cada uno se gestiona como una web independiente, preparada para competir con los rivales locales.",
     work: "Mike fundó la agencia y la dirige desde hace veinte años. Cada dominio regional recibe su propio trabajo de SEO técnico: sitemaps separados, grupos hreflang separados e investigación de palabras clave propia de cada mercado, a partir de lo que busca ese mercado.",
-    outcome: "Nueve webs nacionales, cada una posicionada con los términos de su mercado, para una agencia que sigue en activo después de dos décadas.",
+    outcome: "Diez webs nacionales, cada una posicionada con los términos de su mercado, para una agencia que sigue en activo después de dos décadas.",
     countries: ["Internacional", "Estados Unidos", "Canadá", "Reino Unido", "Bélgica", "Francia", "España", "Alemania", "Países Bajos"],
   },
   globaprom: {
