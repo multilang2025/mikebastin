@@ -19,7 +19,7 @@ Decisión de arquitectura (ccTLD, subdirectorio, subdominio) razonada. Segmentac
 
 12 ccTLDs
 
-red BeTranslated gestionada en 12 dominios por país: experiencia práctica real con múltiples dominios
+red BeTranslated operada en 12 dominios por país: experiencia práctica multidominio real
 
 Arquitectura
 
@@ -35,41 +35,41 @@ visibilidad por país en SERP de Google y citaciones IA por mercado objetivo
 
 ## Tres errores que arruinan la expansión internacional
 
-Patrones recurrentes en los proyectos internacionales que auditamos:
+Patrones recurrentes en los proyectos internacionales que audito:
 
-«Siempre ccTLD» o «siempre subdirectorio» son recetas de blog, no estrategias. El ccTLD da la máxima señal local, pero diluye la autoridad si el presupuesto no permite tener dominios separados. El subdirectorio consolida la autoridad, pero envía una señal de pertenencia menos clara. El subdominio rara vez es la mejor opción en 2026. La decisión depende del país, del presupuesto, del estado actual del sitio principal y del horizonte temporal. Una recomendación honesta requiere 30 minutos de conversación, no se vende como un paquete cerrado.
+«Siempre ccTLD» o «siempre subdirectorio» son recetas de blog, no estrategias. ccTLD da máxima señal local pero diluye autoridad si el presupuesto no soporta dominios separados. Subdirectorio consolida autoridad pero envía señal de pertenencia menos clara. Subdominio rara vez es la mejor opción en 2026. La decisión depende del país, del presupuesto, del estado actual del sitio principal y del horizonte temporal. Una recomendación honesta tarda 30 minutos de conversación, no se vende como paquete.
 
-Hreflang configurado en el lanzamiento, validado una vez y luego ignorado. Seis meses después: páginas nuevas sin hreflang, redirecciones rotas, códigos de país equivocados, x-default ausente o mal apuntado. Search Console muestra errores que nadie revisa. Google acaba mostrando la versión equivocada al país equivocado y las conversiones se evaporan sin causa aparente. El hreflang necesita una auditoría periódica, no solo una configuración inicial.
+Hreflang configurado al lanzar, validado una vez, luego ignorado. Seis meses después: páginas nuevas sin hreflang, redirecciones rotas, códigos de país equivocados, x-default ausente o mal apuntado. Search Console reporta errores que nadie revisa. Google acaba mostrando la versión equivocada al país equivocado y las conversiones se evaporan sin causa aparente. El hreflang necesita auditoría periódica, no solo una configuración inicial.
 
-Política de privacidad RGPD traducida al inglés para EE. UU. (donde rige la CCPA), banner de cookies europeo en sitios mexicanos (donde rige la LFPDPPP), términos legales franceses en sitios alemanes. Los marcadores de confianza por país no son intercambiables. Los usuarios locales detectan de inmediato cuando una página legal viene de otro mercado. La conversión cae aunque el tráfico se mantenga.
+Política de privacidad RGPD traducida al inglés para EE. UU. (donde aplica CCPA), banner de cookies europeo en sitios mexicanos (donde aplica LFPDPPP), términos legales franceses en sitios alemanes. Los marcadores de confianza por país no son intercambiables. Los usuarios locales detectan inmediatamente cuando una página legal viene de otro mercado. La conversión cae aunque el tráfico se mantenga.
 
-El SEO internacional bien hecho exige decisiones contextuales por país, no plantillas. Arquitectura razonada, hreflang auditado periódicamente, cumplimiento legal por mercado y contenido nativo donde cambia el idioma (consulta [SEO multilingüe](https://mikebastin.com/es/services/posicionamiento-multilingue/) para el componente lingüístico).
+El SEO internacional bien hecho exige decisiones contextuales por país, no plantillas. Arquitectura razonada, hreflang auditado periódicamente, cumplimiento legal por mercado, contenido nativo donde el idioma cambia (ver [SEO multilingüe](https://mikebastin.com/es/services/posicionamiento-multilingue/) para el componente lingüístico).
 
 ## Qué incluye una intervención de SEO internacional
 
-ccTLD, subdirectorio o subdominio decididos país por país. Migración planificada si el sitio actual está en la arquitectura equivocada. Sin doctrinas rígidas ni plantillas.
+ccTLD vs subdirectorio vs subdominio decidido país por país. Migración planificada si el sitio actual está en la arquitectura equivocada. Sin doctrina rígida, sin plantilla.
 
-Etiquetas hreflang por idioma y país, x-default configurado y validadas con herramientas específicas (Sitebulb, Screaming Frog, Search Console). Auditoría periódica para evitar desviaciones.
+Etiquetas hreflang por idioma y país, x-default configurado, validado con herramientas dedicadas (Sitebulb, Screaming Frog, Search Console). Auditoría periódica para evitar derivas.
 
-UE: RGPD + ePrivacy. España: LSSI-CE + AEPD. EE. UU.: CCPA + privacidad estatal. México: LFPDPPP. Brasil: LGPD. Reino Unido: UK GDPR + ICO. Todo configurado por mercado, sin copiar y pegar.
+UE: RGPD + ePrivacy. España: LSSI-CE + AEPD. EE. UU.: CCPA + privacidad estatal. México: LFPDPPP. Brasil: LGPD. Reino Unido: UK GDPR + ICO. Configurado por mercado, no copiado.
 
 Propiedades separadas por país o por idioma, segmentación geográfica configurada donde Google la permite, sitemaps por mercado, sumisión y monitoreo por variante.
 
-Estrategia local de backlinks por país: prensa nacional, asociaciones sectoriales locales y directorios oficiales. Cada mercado tiene sus propias fuentes de autoridad.
+Estrategia de backlinks local por país: prensa nacional, asociaciones sectoriales locales, directorios oficiales. Cada mercado tiene sus fuentes de autoridad propias.
 
-Optimización para ChatGPT, Claude, Perplexity y Google AI Overviews por país. Los LLM ajustan las respuestas según la geolocalización detectada del usuario.
+Optimización para ChatGPT, Claude, Perplexity y Google AI Overviews por país. Los LLMs ajustan respuestas según geolocalización detectada del usuario.
 
 ## Mi proceso en 5 pasos, con entregables nombrados
 
 Auditoría, decisión de arquitectura, configuración técnica, lanzamiento controlado, mantenimiento periódico.
 
-**Entregable:** diagnóstico del estado por país: arquitectura actual, hreflang, cumplimiento legal, Search Console por propiedad, backlinks por mercado y competencia local. Análisis comparativo frente a 3 competidores directos por país objetivo.
+**Entregable:** diagnóstico del estado por país: arquitectura actual, hreflang, cumplimiento legal, Search Console por propiedad, backlinks por mercado, competencia local. Benchmark contra 3 competidores directos por país objetivo.
 
-**Entregable:** recomendación razonada sobre ccTLD, subdirectorio o subdominio por país. Plan de migración si el sitio actual está mal estructurado. Estimación del impacto en la autoridad consolidada y plan de redirecciones.
+**Entregable:** recomendación razonada ccTLD vs subdirectorio vs subdominio por país. Plan de migración si el sitio actual está mal estructurado. Estimación de impacto en autoridad consolidada y plan de redirecciones.
 
-**Entregable:** hreflang configurado y validado, marcado schema localizado por país, segmentación en Search Console y cumplimiento legal por mercado (cookies, privacidad, términos). Documentación de gestión para el equipo interno.
+**Entregable:** hreflang configurado y validado, schema markup localizado por país, segmentación en Search Console, cumplimiento legal por mercado (cookies, privacidad, términos). Documentación de gobernanza para el equipo interno.
 
-**Entregable:** activación por país en secuencia (no todo a la vez), monitorización de Search Console por propiedad, backlinks locales por mercado y contenido específico por país. Reuniones quincenales durante el lanzamiento.
+**Entregable:** activación por país en secuencia (no todo a la vez), monitoreo de Search Console por propiedad, backlinks locales por mercado, contenido específico por país. Reuniones quincenales durante el lanzamiento.
 
 **Entregable:** informe mensual con posiciones por país, tráfico, conversiones, citaciones IA. Auditoría hreflang trimestral. Puntos de decisión sobre qué país recibe inversión acelerada o cuál se contrae.
 
@@ -77,15 +77,15 @@ Auditoría, decisión de arquitectura, configuración técnica, lanzamiento cont
 
 Tres intervenciones donde la expansión por país era el reto central.
 
-**Contexto:** la agencia de traducción multilingüe que cofundamos opera con 12 dominios por país (.be, .fr, .es, .co.uk, .nl, .com y otros), cada uno dirigido a un mercado específico con su idioma principal y particularidades regulatorias.
+**Contexto:** la agencia de traducción multilingüe que co-fundé opera con 12 dominios por país (.be, .fr, .es, .co.uk, .nl, .com y otros), cada uno dirigido a un mercado específico con su idioma principal y particularidades regulatorias.
 
-**Solución:** arquitectura ccTLD para lograr la máxima señal local, hreflang entre dominios configurado y auditado, marcado schema localizado por país, contenido nativo redactado por traductores locales y backlinks por mercado.
+**Solución:** arquitectura ccTLD para señal local máxima, hreflang cross-domain configurado y auditado, schema localizado por país, contenido nativo redactado por traductores locales, backlinks por mercado.
 
 **Resultado:** visibilidad orgánica consistente en cada mercado europeo, pipeline comercial mantenido por país a lo largo de los años, citaciones IA en cada idioma objetivo sobre consultas de servicios de traducción.
 
 **Contexto:** transitario con sede en Houston dirigido tanto a cargadores estadounidenses como a socios latinoamericanos (México, Colombia, República Dominicana). Mercados con regulaciones de privacidad distintas (CCPA vs LFPDPPP vs LGPD-RD).
 
-**Solución:** WordPress + WPML en un solo dominio con arquitectura por subdirectorio (/es/, /en/), hreflang en-US y es-MX/es-CO/es-DO, marcado schema FreightForwarder localizado, cumplimiento de privacidad por mercado y formularios con preselección de país.
+**Solución:** WordPress + WPML en un solo dominio con arquitectura por subdirectorio (/es/, /en/), hreflang en-US y es-MX/es-CO/es-DO, schema FreightForwarder localizado, cumplimiento de privacidad por mercado, formularios con preselección de país.
 
 **Resultado:** solicitudes diarias de presupuesto duplicadas en 18 meses en ambos idiomas, citaciones IA en EN y ES sobre consultas de transitario internacional, pipeline comercial transfronterizo.
 
@@ -93,7 +93,7 @@ Tres intervenciones donde la expansión por país era el reto central.
 
 **Solución:** WordPress + WPML con subdirectorios por idioma, hreflang es-ES / fr-FR / en-GB, schema LegalService localizado, política de privacidad RGPD + LSSI-CE para ES y FR, política UK GDPR para EN, banners de cookies adaptados por mercado, biografías de abogados con credenciales locales (ICAV).
 
-**Resultado:** leads recurrentes desde tres mercados en sus idiomas y marcos legales respectivos, menciones en IA por idioma sobre consultas de derecho mercantil y franquicia en Valencia.
+**Resultado:** leads recurrentes desde tres mercados en sus idiomas y marcos legales respectivos, citaciones IA por idioma sobre consultas de derecho mercantil y franquicia en Valencia.
 
 ## Qué se incluye, qué no
 
@@ -119,7 +119,7 @@ Configuración hreflang completa y validada
 
 ✓
 
-Marcado schema adaptado por país
+Schema markup localizado por país
 
 ✓
 
@@ -163,11 +163,11 @@ El diferenciador: he vivido cada decisión de arquitectura (ccTLD vs subdirector
 
 ### ccTLD, subdirectorio o subdominio: cómo decido
 
-Tres preguntas para definir el alcance.
+Tres preguntas que oriento en el alcance.
 
 **¿Cuántos países objetivo y con qué presupuesto?** Pocos países + presupuesto medio favorece subdirectorios (consolidación de autoridad). Muchos países + presupuesto fuerte permite ccTLDs (máxima señal local).
 
-**¿Qué autoridad tiene el dominio principal hoy?** Dominio joven o con poca autoridad: consolidar en subdirectorios. Dominio establecido: puedes permitirte ccTLD separados sin diluir lo construido.
+**¿Qué autoridad tiene el dominio principal hoy?** Dominio joven o con poca autoridad: consolidar en subdirectorios. Dominio establecido: se puede permitir ccTLDs separados sin diluir lo construido.
 
 **¿Qué señales locales necesita el mercado objetivo?** Sectores donde la confianza local es crítica (legal, sanitario, financiero): ccTLDs ayudan. Sectores donde la marca global pesa más (tech, SaaS): subdirectorios suelen bastar.
 
@@ -181,7 +181,7 @@ El SEO multilingüe se centra en el idioma del contenido (atender hispanohablant
 
 ¿Cómo elijo entre ccTLD, subdirectorio y subdominio?
 
-El ccTLD por defecto si el presupuesto permite dominios separados y la señal local es crítica (legal, sanitario, sectores regulados). El subdirectorio por defecto si quieres consolidar autoridad y el dominio principal ya tiene tracción. El subdominio rara vez es la mejor opción en 2026, salvo limitación técnica (CMS antiguo, alojamiento separado). La recomendación viene tras ver tu sitio, presupuesto y horizonte temporal.
+ccTLD por defecto si el presupuesto permite dominios separados y la señal local es crítica (legal, sanitario, sectores regulados). Subdirectorio por defecto si quieres consolidar autoridad y el dominio principal ya tiene tracción. Subdominio rara vez es la mejor opción en 2026, salvo limitación técnica (CMS heredado, hosting separado). La recomendación viene tras ver tu sitio, presupuesto y horizonte temporal.
 
 ¿Qué pasa si Google muestra la versión equivocada al país equivocado?
 
@@ -189,22 +189,22 @@ Síntoma típico de hreflang mal configurado o ausente. Diagnóstico en Search C
 
 ¿Necesito una propiedad de Search Console por país?
 
-Sí. Una propiedad por dominio en caso de ccTLD, una propiedad por carpeta (subdirectorio) o por subdominio en caso de arquitectura consolidada. La segmentación geográfica se configura donde Google la permite (no se aplica a ccTLDs porque ya tienen la señal de país inherente). Informes separados por propiedad para ver el rendimiento real por mercado.
+Sí. Una propiedad por dominio en caso de ccTLD, una propiedad por carpeta (subdirectorio) o por subdominio en caso de arquitectura consolidada. La segmentación geográfica se configura donde Google la permite (no aplica a ccTLDs porque ya tienen señal de país inherente). Reporting separado por propiedad para ver rendimiento real por mercado.
 
-¿Cómo gestionáis el cumplimiento legal por país?
+¿Cómo gestionas el cumplimiento legal por país?
 
-Configuración técnica base por mercado: banner de cookies según el marco aplicable (RGPD + ePrivacy para UE, CCPA para California, LFPDPPP para México, LGPD para Brasil), política de privacidad localizada, términos legales adaptados. Para sectores regulados específicos (sanitario, financiero, juego) recomendamos un abogado local especializado por encima de nuestra implementación técnica.
+Configuración técnica base por mercado: banner de cookies según el marco aplicable (RGPD + ePrivacy para UE, CCPA para California, LFPDPPP para México, LGPD para Brasil), política de privacidad localizada, términos legales adaptados. Para sectores regulados específicos (sanitario, financiero, juego) recomiendo un abogado local especializado por encima de mi implementación técnica.
 
 ¿Cuánto tarda una expansión internacional en mostrar resultados?
 
-Primeras señales: 8 a 12 semanas tras la activación por país. Tracción significativa: 6 a 14 meses según mercado y competencia local. Recomendamos lanzar países en secuencia (no todo a la vez) para concentrar la inversión inicial en el mercado más rentable y luego escalar a los siguientes con los aprendizajes acumulados.
+Primeras señales: 8 a 12 semanas tras la activación por país. Tracción significativa: 6 a 14 meses según mercado y competencia local. Recomiendo lanzar países en secuencia (no todo a la vez) para concentrar la inversión inicial en el mercado más rentable y luego escalar a los siguientes con aprendizajes acumulados.
 
 ¿Cuánto cuesta una intervención de SEO internacional?
 
-Preparamos un presupuesto. Depende del número de países, el estado actual del sitio y la complejidad de la migración si la arquitectura debe cambiar. Primera llamada gratuita: 30 minutos para entender tu contexto y darte un rango honesto. No enviamos propuestas genéricas sin conversación previa.
+Bajo presupuesto. Depende del número de países, estado actual del sitio, complejidad de migración si la arquitectura debe cambiar. Primera llamada gratuita: 30 minutos para entender tu contexto y dar un rango honesto. No envío propuesta genérica sin conversación previa.
 
 ## ¿Listo para expandir tu visibilidad por país?
 
-Empezamos con una auditoría honesta del estado por país y una recomendación razonada de arquitectura. Primera llamada gratuita, sin compromiso.
+Empiezo con una auditoría honesta del estado por país y una recomendación razonada de arquitectura. Primera llamada gratuita, sin compromiso.
 
 Servicios relacionados: [SEO multilingüe](https://mikebastin.com/es/services/posicionamiento-multilingue/) · [SEM multilingüe](https://mikebastin.com/es/services/publicidad-multilingue/) · [SEO local](https://mikebastin.com/es/services/seo-local/)

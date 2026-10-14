@@ -91,9 +91,9 @@ Three projects where multilingual + SEO + design were planned together from the 
 
 **Context:** Valencia-based law firm specialised in business law and franchising, targeting Spanish, French and English-speaking clients. Trust signals and clear practice area pages are critical for legal SEO.
 
-**Desarrollo:** WordPress + Divi + WPML en ES / FR / EN, schema LegalService por área de práctica, páginas de práctica estructuradas con biografías de abogados, formulario de contacto seguro (con teléfono y correo protegidos contra el rastreo), elementos de confianza (mención al ICAV, asociación del sector).
+**Build:** WordPress + Divi + WPML across ES / FR / EN, LegalService schema per practice area, structured practice pages with attorney bios, secure contact form (no public phone, no scrape-friendly mail), trust elements (ICAV mention, sector association).
 
-**Resultado:** contactos recurrentes de hispanohablantes, francófonos y angloparlantes que buscan asesoramiento en derecho de los negocios en Valencia, visibilidad basada en palabras clave con intención comercial en tres idiomas.
+**Outcome:** recurring leads from Spanish, French and English speakers seeking business law counsel in Valencia, visibility built on commercial intent keywords across three languages.
 
 ## What is included, what is not
 
@@ -103,19 +103,19 @@ Included
 
 Not included
 
-Estructura y arquitectura orientadas al SEO
+SEO-led wireframing and architecture
 
 ✓
 
-Estudio de palabras clave por idioma y mercado
+Keyword research per language and per market
 
 ✓
 
-Sistema de diseño y prototipos de alta fidelidad
+High-fidelity design system and mockups
 
 ✓
 
-Integración en WordPress (Divi, Gutenberg, Elementor o Bricks a tu elección) + WPML
+WordPress integration (Divi, Gutenberg, Elementor or Bricks of your choice) + WPML
 
 ✓
 
@@ -123,7 +123,7 @@ Schema markup, hreflang, SEO plugin setup
 
 ✓
 
-GA4 + GTM + formulario de contacto con lógica condicional
+GA4 + GTM + lead form with conditional logic
 
 ✓
 
@@ -131,72 +131,72 @@ Core Web Vitals optimization at launch
 
 ✓
 
-Documentación de entrega y formación
+Handover documentation and training
 
 ✓
 
-Redacción multilingüe nativa
+Native multilingual copywriting
 
-⨯ incluido en la [redacción SEO multilingüe](https://mikebastin.com/es/services/redaccion-seo-multilingue/)
+⨯ covered by [multilingual SEO copywriting](https://mikebastin.com/es/services/redaccion-seo-multilingue/)
 
-SEO continuo y link building tras el lanzamiento
+Ongoing SEO and link building post-launch
 
-⨯ incluido en el [posicionamiento SEO multilingüe](https://mikebastin.com/es/services/posicionamiento-multilingue/)
+⨯ covered by [multilingual SEO](https://mikebastin.com/es/services/posicionamiento-multilingue/)
 
-Alojamiento, registro de dominio y mantenimiento continuo
+Hosting, domain registration, ongoing maintenance
 
-⨯ proveedores recomendados, contrato a tu nombre
+⨯ recommended providers, your contract
 
 ## Why this team for multilingual web design
 
 **Mike Bastin:** Over two decades in SEO and translation, based in Valencia (Spain) since 2016. Multilingual builds across Europe (BE, FR, ES, NL, UK, DE, IT, PT) and the Americas (US, Dominican Republic, Costa Rica, Mexico). Fluent in French, English, Spanish and Dutch, with enough German and Italian to manage SEO projects.
 
-Dominio técnico completo de principio a fin: WordPress (Divi, Gutenberg, Elementor o Bricks según el caso), WPML / Polylang, Rank Math / Yoast, GA4, GTM, Cloudflare, LiteSpeed y alojamiento gestionado. Webflow y Shopify para contextos específicos. Contamos con una red de redactores y traductores nativos para cualquier otro idioma a través de BeTranslated.
+Full stack mastery end to end: WordPress (Divi, Gutenberg, Elementor, Bricks depending on the case), WPML / Polylang, Rank Math / Yoast, GA4, GTM, Cloudflare, LiteSpeed, managed hosting. Webflow and Shopify for specific contexts. Plus a native copywriter and translator network for any other language via BeTranslated.
 
-Tienes un único interlocutor, una sola factura y un equipo responsable, para evitar que la información se pierda entre tres capas de gestores de proyectos.
+One interlocutor, one invoice, one accountable consultant rather than an agency where briefs get diluted across three layers of project managers.
 
-[Más sobre el equipo →](https://mikebastin.com/es/conocenos-agencia-experta-en-seo/)
+[More about the team →](https://mikebastin.com/es/conocenos-agencia-experta-en-seo/)
 
 ### Which CMS, which builder, which stack?
 
-**WordPress por defecto.** El 80 % de los proyectos multilingües que entregamos funcionan con WordPress porque su ecosistema (WPML, Rank Math, Yoast, Polylang, plugins de schema, alojamiento gestionado) no tiene rival para posicionar una web en varios idiomas. Dentro de WordPress, elegimos el maquetador según tu contexto: Gutenberg / FSE para webs editoriales, Divi para dar flexibilidad a tu negocio, Elementor para equipos que ya lo conocen y Bricks para lograr el mejor rendimiento.
+**WordPress by default.** 80% of the multilingual builds I deliver run on WordPress because the ecosystem (WPML, Rank Math, Yoast, Polylang, schema plugins, managed hosting) has no real rival for ranking a site in multiple languages. Within WordPress the builder is chosen for your context: Gutenberg / FSE for editorial sites, Divi for business flexibility, Elementor for teams already trained on it, Bricks for performance.
 
 **Other CMSes when justified.** Shopify for heavy ecommerce. Webflow for marketing-first sites with strong visual demand and no heavy multilingual constraints. Astro or Next.js headless when raw performance and developer experience are critical. Not WordPress by dogma.
 
-Si ya tienes un sistema que funciona, lo mantenemos y lo mejoramos. Evitamos las migraciones innecesarias.
+If you already have a stack that holds up, we keep it and improve it. No forced migration for the sake of it.
 
 ## Frequently asked questions
 
-¿Cuánto tarda un proyecto de diseño web multilingüe?
+How long does a multilingual web design project take?
 
-Plazo habitual: de 10 a 14 semanas desde el inicio hasta el lanzamiento para una web de 15 a 30 páginas en 2 o 3 idiomas. La fase de descubrimiento y el alcance SEO llevan 3 semanas. El diseño y los prototipos requieren 4 semanas. La integración del CMS y la configuración multilingüe ocupan de 3 a 4 semanas. El lanzamiento, las redirecciones y el envío a Search Console toman la última semana. Podemos ir más rápido si el alcance es reducido, o tardar más si hay que crear el contenido en tres idiomas desde cero.
+Typical timeline: 10 to 14 weeks from kick-off to launch for a 15-30 page site in 2-3 languages. Discovery and SEO scope take 3 weeks. Design and prototyping take 4 weeks. CMS integration and multilingual configuration take 3 to 4 weeks. Launch, redirects and Search Console submission take the final week. Faster is possible if scope is tight. Slower if content has to be produced in three languages from scratch.
 
 Do you work with my existing hosting provider, or do you impose one?
 
-Ambas opciones son válidas. Los alojamientos recomendados para WordPress multilingüe son WP Engine, Cloudways, Kinsta o un VPS gestionado en Hetzner u OVH con LiteSpeed. Para proyectos en Webflow o Shopify, el alojamiento viene incluido en la plataforma. El alojamiento compartido barato suele dar problemas en WordPress: PHP lento, caché mal configurada y falta de entorno de pruebas. Si tu alojamiento actual funciona bien, lo mantenemos. Si no, te recomendamos una migración justificada.
+Both work. Recommended hosts for multilingual WordPress: WP Engine, Cloudways, Kinsta, or a managed VPS at Hetzner or OVH with LiteSpeed stack. For a Webflow or Shopify build, hosting is part of the platform. Cheap shared hosting often causes problems on WordPress: slow PHP, badly configured caching, no staging environment. If your current host works well, we keep it. If not, I recommend a justified migration.
 
-¿Podemos mantener nuestra identidad de marca actual o la rediseñáis?
+Can we keep our existing brand identity, or do you redesign it?
 
-Ambas opciones. Si ya tienes una identidad de marca (logotipo, colores, tipografía, tono), trabajamos con ella y aportamos la estructura SEO y multilingüe al proyecto. Si tu marca no está clara o parece genérica, podemos incluir una actualización de marca en la fase de descubrimiento. La web tiene que reflejar tu empresa y alejarse de las plantillas genéricas de Divi.
+Both options. If you have an existing brand identity (logo, colours, typography, voice), I work within it and bring SEO and multilingual structure to the build. If your brand is unclear or feels generic, a brand refresh can be part of the discovery phase. The site has to look like your business, not like a generic Divi template.
 
-¿Cómo gestionáis la traducción del contenido durante el desarrollo?
+How do you handle content translation during the build?
 
 Three options depending on your situation: (1) you provide content in all required languages, I handle integration; (2) you provide content in one language, I coordinate translation through the BeTranslated network of native copywriters; (3) full multilingual content production from scratch, briefed in your strategic language (FR or EN typically), translated and adapted by natives for each market. The lift differs in budget but the outcome is always native-quality copy, not machine translation.
 
 What happens to my existing SEO during a redesign?
 
-El mayor riesgo de un rediseño es hundir el tráfico orgánico de 6 a 12 meses porque no se han redirigido las URL antiguas y la nueva estructura confunde a Google. Nuestro proceso incluye: inventario completo de las URL actuales por tráfico antes del lanzamiento, mapa de redirecciones (301) para cada URL que cambie, control en Search Console durante 90 días tras el lanzamiento y respuesta inmediata si alguna página con mucho tráfico pierde posiciones. El rediseño protege el tráfico que ya tienes, suma nuevas oportunidades y aprovecha todo el trabajo anterior.
+The biggest risk in a redesign is killing organic traffic for 6-12 months because old URLs were not redirected and the new site architecture confused Google. My process includes: full inventory of current URLs by traffic before launch, redirect map (301) for every URL that moves, monitoring of Search Console for 90 days post-launch, immediate response if any high-traffic page loses ranking. The redesign protects existing traffic and adds new opportunities, it does not reset everything.
 
-¿Ofrecéis mantenimiento continuo tras el lanzamiento?
+Do you offer ongoing maintenance after launch?
 
 Maintenance contracts on request for the sites I build. Includes WordPress core, theme and plugin updates, security monitoring, daily backups, uptime monitoring, performance audits quarterly. Separate from SEO retainers (which are covered under multilingual SEO). Pricing on quote, based on site complexity and update frequency.
 
-¿Cuánto cuesta un proyecto de diseño web multilingüe?
+How much does a multilingual web design project cost?
 
-Va bajo presupuesto. El precio depende del número de páginas, los idiomas, la complejidad de configurar el CMS, el acabado del diseño y si incluye la creación de contenidos. Primera llamada gratuita: 30 minutos para entender tu contexto y darte una horquilla realista. Hablamos siempre antes de enviar una propuesta por correo.
+Quoted. The price depends on number of pages, number of languages, complexity of CMS configuration, level of design polish, and whether content production is included. Free first call: 30 minutes to understand your context and give an honest range. No generic proposal sent by email without a conversation first.
 
 ## Ready to scope your multilingual build?
 
-Empezamos por entender a tu público, tus prioridades comerciales y tu contexto técnico. Primera llamada gratuita y sin compromiso.
+I start by understanding your audience, your commercial priorities and your technical context. Free first call, no commitment.
 
-Servicios relacionados: [SEO multilingüe](https://mikebastin.com/es/services/posicionamiento-multilingue/) · [SEO global](https://mikebastin.com/es/services/agencia-de-seo-global/) · [redacción SEO multilingüe](https://mikebastin.com/es/services/redaccion-seo-multilingue/) · [SEO local](https://mikebastin.com/es/services/seo-local/)
+Related services: [multilingual SEO](https://mikebastin.com/es/services/posicionamiento-multilingue/) · [global SEO](https://mikebastin.com/es/services/agencia-de-seo-global/) · [multilingual copywriting](https://mikebastin.com/es/services/redaccion-seo-multilingue/) · [local SEO](https://mikebastin.com/es/services/seo-local/)

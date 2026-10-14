@@ -19,7 +19,7 @@ Tu empresa trabaja desde Valencia, vende en Portugal o se prepara para ello, y t
 
 > Fuente: [IBGE, estimaciones de población, julio de 2025](https://www.ibge.gov.br/estatisticas/sociais/populacao/9103-estimativas-de-populacao.html)
 
-Para una empresa de Valencia, Portugal es un mercado europeo maduro, en euros y bajo el RGPD, y cercano. Brasil tiene su propia ley de datos, sus propios medios de pago y su propia moneda.
+Para una empresa de Valencia, Portugal es un mercado europeo maduro, cercano, en euros y bajo el RGPD. Brasil tiene su propia ley de datos, sus propios medios de pago y su propia moneda.
 
 <aside class="post-cta">
 <p><strong>¿Quieres que tus visitantes portugueses se conviertan en clientes?</strong> Preparamos contigo páginas en portugués escritas por nativos para el mercado que las lee. <a href="/es/contactanos/">Reserva una consulta gratuita</a>.</p>
@@ -27,7 +27,7 @@ Para una empresa de Valencia, Portugal es un mercado europeo maduro, en euros y 
 
 ## Qué incluye tu SEO en Portugal y Brasil: dos mercados, cada uno con lo suyo
 
-El portugués europeo y el brasileño se separan en vocabulario, gramática, moneda y marco normativo. Por eso mantenemos aparte las dos versiones: hreflang pt-PT y pt-BR, palabras clave propias, páginas propias y redactores nativos propios.
+El portugués europeo y el brasileño se diferencian en vocabulario, gramática, moneda y marco normativo. Por eso separamos las dos versiones: hreflang pt-PT y pt-BR, palabras clave propias, páginas propias y redactores nativos propios.
 
 | | Portugal | Brasil |
 | --- | --- | --- |
@@ -38,13 +38,13 @@ El portugués europeo y el brasileño se separan en vocabulario, gramática, mon
 
 ## Brasil: LGPD y PIX
 
-La Lei Geral de Proteção de Dados cubre un terreno parecido al del RGPD y la aplica su propia autoridad, la ANPD. Configuramos el consentimiento, los derechos de los interesados y la política de privacidad según la lectura brasileña. Los datos sensibles, las transferencias internacionales y las decisiones automatizadas piden además un abogado brasileño de privacidad.
+La Lei Geral de Proteção de Dados regula aspectos similares a los del RGPD y la aplica su propia autoridad, la ANPD. Configuramos el consentimiento, los derechos de los interesados y la política de privacidad según la normativa brasileña. Los datos sensibles, las transferencias internacionales y las decisiones automatizadas requieren además un abogado brasileño de privacidad.
 
-PIX, el sistema de pago instantáneo que el banco central lanzó en 2020, es hoy la forma de pago de una gran parte de los brasileños. El boleto bancário sigue contando para algunos públicos y para el B2B. Los incluimos en el plan SEO porque el tráfico de búsqueda vale lo que convierte, y un proceso de compra con los medios de pago que espera el comprador brasileño convierte más.
+PIX, el sistema de pago instantáneo que el banco central lanzó en 2020, es hoy la forma de pago de una gran parte de los brasileños. El boleto bancário sigue siendo relevante para algunos públicos y para el B2B. Los incluimos en el plan SEO porque el tráfico de búsqueda vale por las conversiones que genera, y un proceso de compra con los medios de pago que espera el comprador brasileño convierte más.
 
 ## Con qué mercado empezamos
 
-Portugal es un mercado europeo en euros, bajo el RGPD y amable con una empresa extranjera con cercanía europea. Brasil es mucho mayor, con su propio comportamiento de pago, su propia ley de datos y una moneda que trae riesgo de cambio. La respuesta depende del encaje de tu oferta y de dónde están ya tus clientes. Una pyme europea que vende servicios suele funcionar mejor en Portugal, el mercado que puede atender bien. Lo planteamos contigo al definir el alcance.
+Portugal es un mercado europeo en euros, bajo el RGPD y accesible para una empresa extranjera por su cercanía. Brasil es mucho mayor, con su propio comportamiento de pago, su propia ley de datos y una moneda que conlleva riesgo de cambio. La respuesta depende del encaje de tu oferta y de dónde están ya tus clientes. Una pyme europea que vende servicios suele funcionar mejor en Portugal, el mercado que puede atender bien. Lo planteamos contigo al definir el alcance.
 
 Dentro de un plan de varios idiomas, Portugal suele entrar después de los mercados principales, y se construye con paciencia.
 
@@ -52,16 +52,16 @@ Dentro de un plan de varios idiomas, Portugal suele entrar después de los merca
 
 Nuestro portugués es suficiente para gestionar proyectos SEO, apoyado en el francés, el español y el italiano, y un hablante nativo de portugués de nuestro equipo informático interno revisa con nosotros la configuración y los detalles. Con eso auditamos una página de resultados, seguimos las páginas de un competidor, comprobamos la configuración técnica de cada variante y tomamos notas en una reunión con el equipo nativo.
 
-Escriben redactores nativos del mercado elegido, de la red de BeTranslated: un redactor portugués para pt-PT y uno brasileño para pt-BR, cada uno en su variante, con un brief en español o en inglés y un segundo lector nativo por variante. Conseguimos los enlaces en la prensa de cada mercado, a su lado del Atlántico.
+Escriben redactores nativos del mercado elegido, de la red de BeTranslated: un redactor portugués para pt-PT y uno brasileño para pt-BR, cada uno en su variante, con unas instrucciones en español o en inglés y un segundo lector nativo por variante. Conseguimos los enlaces en la prensa de cada mercado, a su lado del Atlántico.
 
 ## Cómo trabajamos tu SEO en portugués para Portugal y Brasil
 
-1. **Consulta gratuita y auditoría de 20 minutos.** Hablamos en español de tus ventas en Portugal o Brasil y miramos tus páginas en portugués para decidir qué mercado abrimos primero y dónde están las mayores ganancias.
-2. **Alcance por escrito y calendario.** Recibes un alcance para el primer trimestre con las páginas y los entregables de cada variante, por orden de valor para ti, y fijamos contigo en español la investigación de palabras clave por mercado y el calendario editorial.
-3. **Redactores nativos para cada variante.** Redactores nativos de BeTranslated escriben el portugués europeo para Portugal y el brasileño para Brasil a partir de nuestros briefs, y un segundo lector nativo revisa cada página por variante.
+1. **Consulta gratuita y auditoría de 20 minutos.** Hablamos en español de tus ventas en Portugal o Brasil y miramos tus páginas en portugués para decidir qué mercado abrimos primero y dónde están los mejores resultados.
+2. **Alcance por escrito y calendario.** Recibes el alcance para el primer trimestre con las páginas y los entregables de cada variante, ordenados según el valor que te aportan, y fijamos contigo en español la investigación de palabras clave por mercado y el calendario editorial.
+3. **Redactores nativos para cada variante.** Redactores nativos de BeTranslated escriben el portugués europeo para Portugal y el brasileño para Brasil a partir de nuestras instrucciones, y un segundo lector nativo revisa cada página por variante.
 4. **Datos de empresa, consentimiento y pagos.** Dejamos listos el NIF o NIPC y el consentimiento RGPD para Portugal, y el CNPJ, el tratamiento LGPD y los pagos PIX o boleto para Brasil.
-5. **Informe mensual por mercado.** Portugal y Brasil reciben sus propias cifras en un informe en español, con posiciones, consultas, lo que cambió y lo que sigue.
-6. **Mes a mes.** El acompañamiento se paga mes a mes y el trabajo continúa mientras te aporta consultas.
+5. **Informe mensual por mercado.** Portugal y Brasil reciben sus propias cifras en un informe en español, con posiciones, consultas, los cambios realizados y los próximos pasos.
+6. **Mes a mes.** El acompañamiento se paga mes a mes y el trabajo continúa mientras te aporte consultas.
 
 La redacción se presupuesta aparte; el detalle está en [nuestras tarifas](/es/precios/).
 

@@ -15,35 +15,35 @@ excerpt: "Expande tu presencia digital a nivel internacional con nuestros servic
 
 # Branding multilingüe
 
-Adapta tu mensaje sin perder los valores de tu marca.
+Localize your message while staying true to your brand values
 
 ## Lleva más lejos tu éxito global con el branding multilingüe
 
-Tu marca debe hablar el idioma de cada mercado.
+Your brand should speak the language of every market.
 
-Ofrecemos [servicios de branding multilingüe](https://mikebastin.com/es/services/branding-multilingue/) para ayudarte a generar confianza y reconocimiento en diferentes culturas.
+We offer [multilingual branding services](https://mikebastin.com/es/services/branding-multilingue/) that help you build trust and recognition across cultures.
 
 From localization to content creation, we adapt your message to match regional expectations and communication styles.
 
 Every detail, from tone to visuals, is aligned with local preferences to maximise engagement.
 
-¿Todo listo para aumentar tu presencia global con una marca coherente y bien adaptada? [Contacta con nosotros](https://mikebastin.com/es/contactanos/) hoy mismo.
+Ready to grow your global presence with a consistent, localized brand? [Contact us](https://mikebastin.com/es/contactanos/) today.
 
 Nuestros clientes
 
 ## Alcance global,  
 Impacto local
 
-En un mercado global, tu marca debe hacer algo más que traducir: debe conectar.
+In a global market, your brand must do more than translate, it must connect.
 
-Nuestros [servicios de branding multilingüe](https://mikebastin.com/es/services/branding-multilingue/) combinan inteligencia cultural y diseño estratégico para ayudar a tu empresa a [llegar y conectar con públicos de todo el mundo](https://mikebastin.com/es/services/internacionalizacion/).
+Our [multilingual branding services](https://mikebastin.com/es/services/branding-multilingue/) blend cultural intelligence with strategic design to help your business [reach and resonate with global audiences](https://mikebastin.com/es/services/internacionalizacion/).
 
-Adaptamos cada elemento de tu identidad, desde los logotipos y eslóganes hasta la voz y la imagen de la marca, para lograr coherencia, claridad y autenticidad en cualquier idioma.
+We adapt every element of your identity, from logos and slogans to brand voice and visuals, for consistency, clarity and authenticity in every language.
 
-¿Quieres una marca que funcione en otros países sin perder su esencia? [Hablemos](https://mikebastin.com/es/contactanos/).
+Want a brand that works across borders without losing its soul? [Let’s talk](https://mikebastin.com/es/contactanos/).
 
 ### Our Multilingual Branding Expertise
 
-La clave del éxito global de tu marca es su capacidad para conectar con públicos de diferentes idiomas y culturas. Con más de dos décadas de experiencia en servicios multilingües, entendemos las complejidades del branding internacional. Ya sea para adaptar tu logotipo a los gustos locales, crear contenido multilingüe atractivo o planificar la expansión global de tu marca, nuestra experiencia garantiza que tu negocio triunfe en cualquier mercado.
+At the core of your brand’s global success is its ability to resonate with audiences across different languages and cultures. With over two decades of experience in multilingual services, we understand the complexities of international branding. Whether it’s adapting your logo to local tastes, creating engaging multilingual content, or strategising your brand’s global expansion, our expertise ensures your brand thrives in any market.
 
 Ready to make your brand go global? Contact us today to start building a brand that truly speaks to the world.

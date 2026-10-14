@@ -21,13 +21,13 @@ Jean Marie Cordaro, fondateur de Bonzai.pro, a construit son travail autour d’
 
 ## Un parcours bâti sur le lien humain
 
-La position de Jean Marie Cordaro vient de l’expérience. Créateur lui-même, il a mesuré la valeur de l’indépendance numérique en voyant des créateurs perdre du jour au lendemain l’accès à leur travail, dans des systèmes qui placent les algorithmes en premier.
+La position de Jean Marie Cordaro vient de l’expérience. Créateur lui-même, il a mesuré la valeur de l’indépendance numérique en voyant des créateurs perdre du jour au lendemain l’accès à leur travail, dans des systèmes qui donnent la priorité aux algorithmes.
 
 Il en a conclu que la réussite d’un créateur repose sur les relations qu’il construit avec son audience, et ce principe guide désormais sa manière d’entreprendre. Pour toute entreprise, la leçon est la même : la relation est l’actif que vous possédez, quel que soit le canal.
 
 ## Rééquilibrer une économie devenue très technologique
 
-Mesurez la réussite à la fidélité autant qu’aux vues et aux clics, et l’audience grandit avec les chiffres. Les outils numériques ont rendu la création plus accessible que jamais : chacun peut partager un savoir, vendre un produit ou bâtir une communauté mondiale depuis un ordinateur portable. Le même progrès tire aussi la création vers le mécanique, et c’est cet équilibre que Cordaro veut rétablir.
+Mesurez la réussite autant à la fidélité qu’aux vues et aux clics, et l’audience grandit avec les chiffres. Les outils numériques ont rendu la création plus accessible que jamais : chacun peut partager un savoir, vendre un produit ou bâtir une communauté mondiale depuis un ordinateur portable. Le même progrès entraîne aussi la création vers le mécanique, et c’est cet équilibre que Cordaro veut rétablir.
 
 Tout se mesure en vues, en clics, en taux de conversion et en rétention. Cordaro veut que la réussite se lise aussi dans le lien émotionnel, qui a donné de la valeur au travail des créateurs dès le départ : pour lui, les outils doivent amplifier les relations.
 
@@ -119,7 +119,7 @@ La confiance transforme un acheteur ponctuel en client fidèle, et une plateform
 2. **Cohérence :** des processus clairs, des systèmes ouverts et un langage simple.
 3. **Respect :** traiter les créateurs en partenaires.
 
-Chez Bonzai, chaque transaction est claire, chaque règle compréhensible, et chaque créateur reste propriétaire de ses informations, ce qui fait des utilisateurs des partenaires de long terme.
+Chez Bonzai, chaque transaction est claire, chaque règle compréhensible, et chaque créateur reste propriétaire de ses informations, ce qui transforme les utilisateurs en partenaires de long terme.
 
 ## L’humain aux commandes de la technologie
 
