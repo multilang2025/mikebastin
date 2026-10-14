@@ -15,7 +15,7 @@ excerpt: "Les extensions Chrome pour traducteurs qui méritent leur place en 202
 
 ## Des extensions Chrome qui accélèrent le premier jet
 
-Si votre équipe traduit dans le navigateur, vos extensions décident de deux choses : la vitesse à laquelle avance un premier jet, et sa netteté quand il arrive dans un document client ou sur une page en ligne. Une boîte à outils rapide fait gagner du temps sur chaque dossier ; une boîte à outils soignée garde la confiance du client. Une liste mise en favori en 2022 mérite une mise à jour : voici celle que nous gardons installée après plus de deux décennies de travail entre l’anglais, le français, l’espagnol et le néerlandais, et l’ordre dans lequel nous l’utilisons.
+Si votre équipe traduit dans le navigateur, vos extensions décident de deux choses : la vitesse à laquelle avance un premier jet, et sa netteté quand il arrive dans un document client ou sur une page en ligne. Une boîte à outils rapide fait gagner du temps sur chaque dossier ; une boîte à outils soignée garde la confiance du client. Une liste ajoutée aux favoris en 2022 mérite une mise à jour : voici celle que nous gardons installée après plus de deux décennies de travail entre l’anglais, le français, l’espagnol et le néerlandais, et l’ordre dans lequel nous l’utilisons.
 
 ## Manifest V3 et LLM : ce qui a changé dans le navigateur
 
@@ -49,7 +49,7 @@ La seconde évolution pèse davantage. Les grands modèles de langage sont entr�
 >
 > Source : [CSA Research, 2024 Market Sizing Update](https://csa-research.com/Blogs-Events/CSA-in-the-Media/Press-Releases/Language-Services-and-Technology-Industry-Faces-Revenue-Decline-but-Remains-Poised-for-Transformation)
 
-Si le prix au mot continue de baisser alors que les volumes se maintiennent, c’est la vitesse qui garde un traducteur rentable, et cette vitesse vient de la boîte à outils du navigateur.
+Si le prix au mot continue de baisser alors que les volumes se maintiennent, c’est la vitesse qui rend un traducteur rentable, et cette vitesse vient de la boîte à outils du navigateur.
 
 ## Les moteurs de traduction que nous gardons dans la barre d’outils
 
@@ -61,13 +61,13 @@ La version gratuite couvre la plupart des recherches rapides ; la version Pro o
 
 ### ImTranslator
 
-Nous gardons [ImTranslator](https://chromewebstore.google.com/detail/imtranslator-translator-d/noaijdpnepcgjemiklgfkcfbkokogabh) installé pour une seule tâche : comparer côte à côte, dans la même fenêtre, les traductions de Google, de Microsoft Bing et d’autres moteurs. Quand un client interroge un choix de formulation, une comparaison à trois est la preuve la plus rapide à poser sur la table. L’extension est passée à Manifest V3, compte environ 900 000 utilisateurs et a été mise à jour en mars 2026.
+Nous gardons [ImTranslator](https://chromewebstore.google.com/detail/imtranslator-translator-d/noaijdpnepcgjemiklgfkcfbkokogabh) installé pour une seule tâche : comparer côte à côte, dans la même fenêtre, les traductions de Google, de Microsoft Bing et d’autres moteurs. Quand un client questionne un choix de formulation, une comparaison à trois est la preuve la plus rapide à présenter. L’extension est passée à Manifest V3, compte environ 900 000 utilisateurs et a été mise à jour en mars 2026.
 
 ### Mate Translate
 
 Le traducteur en bulle que nous utilisons par défaut pour la lecture courante. Sélectionnez un mot, obtenez sa définition et sa traduction, puis enregistrez-le dans un recueil d’expressions synchronisé entre vos appareils. La version Pro ajoute la traduction des sous-titres Netflix, utile pour vérifier comment une plateforme de streaming a rendu une expression familière.
 
-Depuis début 2025, les avis des utilisateurs notent moins bien sa traduction de pages entières. Nous utilisons donc [Mate](https://chromewebstore.google.com/detail/mate-translate-%E2%80%93-translat/ihmgiclibbndffejedjimfjmfoabpcke) comme aide pour les mots et les expressions, et confions les documents entiers à d’autres outils.
+Depuis début 2025, les avis des utilisateurs sur sa traduction de pages entières sont moins bons. Nous utilisons donc [Mate](https://chromewebstore.google.com/detail/mate-translate-%E2%80%93-translat/ihmgiclibbndffejedjimfjmfoabpcke) comme aide pour les mots et les expressions, et confions les documents entiers à d’autres outils.
 
 ### Google Traduction
 
@@ -75,7 +75,7 @@ Tous les clients le connaissent, et c’est sa principale force. Quand un client
 
 ## Les assistants d’IA qui ont repris la moitié de l’ancienne boîte à outils
 
-Les écarts qui comptent le plus se logent dans le ton, le registre et l’ambiguïté, et ils demandent du contexte, qu’une extension de LLM sait recevoir. Pour les phrases complexes, idiomatiques, juridiques ou techniques, une extension de LLM généraliste dépasse aujourd’hui la plupart des outils de traduction dédiés.
+Les écarts qui comptent le plus se logent dans le ton, le registre et l’ambiguïté, et ils demandent du contexte, que prend en compte une extension de LLM. Pour les phrases complexes, idiomatiques, juridiques ou techniques, une extension de LLM généraliste dépasse aujourd’hui la plupart des outils de traduction dédiés.
 
 ### Claude in Chrome et ChatGPT
 
@@ -224,16 +224,16 @@ Deux heures entre le français brut et l’anglais livré.
 
 Deux prévisions pour les douze à dix-huit prochains mois. Les LLM en panneau latéral absorberont probablement la plupart des extensions de traduction dédiées pour la recherche au niveau du mot, tandis que les corpus bilingues comme Linguee et Reverso Context prendront plus d’importance, car des exemples réels sont la façon de vérifier ce que produit un LLM.
 
-Les compagnons d’outils de TAO spécialisés vont aussi se multiplier. Smartcat, Lokalise et Phrase s’emploient tous à intégrer le travail du traducteur dans Chrome : si vous vivez dans un environnement de TAO, attendez-vous à ajouter l’un d’eux bientôt. Pour une vue plus large, lisez notre article sur [ce que l’IA change dans la traduction et la localisation](/fr/ia-traduction-et-localisation/).
+Les extensions d’outils de TAO spécialisées vont aussi se multiplier. Smartcat, Lokalise et Phrase travaillent tous à intégrer le travail du traducteur dans Chrome : si vous travaillez dans un environnement de TAO, attendez-vous à ajouter l’un d’eux bientôt. Pour une vue d’ensemble, lisez notre article sur [ce que l’IA change dans la traduction et la localisation](/fr/ia-traduction-et-localisation/).
 
-La boîte à outils du navigateur est la surface. Dessous se trouve un flux de travail construit pour vérifier la traduction automatique et les LLM plus vite que le prix au mot ne baisse. Si vous gérez des contenus multilingues sur plusieurs marchés, notre service de [post-édition de traduction automatique](/fr/services/postedition-ia/) applique ce flux de travail à vos volumes.
+La barre d’outils du navigateur n’est que la partie visible. Derrière se trouve un processus de travail conçu pour vérifier la traduction automatique et les LLM plus vite que le prix au mot ne baisse. Si vous gérez des contenus multilingues sur plusieurs marchés, notre service de [post-édition de traduction automatique](/fr/services/postedition-ia/) applique ce processus à vos volumes.
 
 ## Questions fréquentes
 
 ### Ces extensions sont-elles toutes gratuites ?
 
-Toutes ont une version gratuite qui couvre un usage occasionnel, à l’exception de Claude in Chrome, qui demande une offre Claude payante. Pour un volume professionnel, DeepL Pro, Mate Pro et un abonnement Claude ou ChatGPT ouvrent les fonctions dont la plupart des traducteurs en activité finissent par avoir besoin.
+Toutes proposent une version gratuite suffisante pour un usage occasionnel, à l’exception de Claude in Chrome, qui nécessite un abonnement Claude payant. Pour un volume professionnel, DeepL Pro, Mate Pro et un abonnement Claude ou ChatGPT donnent accès aux fonctions dont la plupart des traducteurs en activité finissent par avoir besoin.
 
 ### Faut-il encore un outil de TAO avec une boîte à outils aussi solide ?
 
-Oui, pour tout projet avec mémoire de traduction, remises sur les répétitions ou glossaires fournis par le client. La boîte à outils du navigateur accélère la recherche, la vérification et la relecture ; l’outil de TAO garde la segmentation, la mémoire et la cohérence que les clients professionnels attendent sur un projet à plusieurs fichiers.
+Oui, pour tout projet avec mémoire de traduction, remises sur les répétitions ou glossaires fournis par le client. La barre d’outils du navigateur accélère la recherche, la vérification et la relecture ; l’outil de TAO conserve la segmentation, la mémoire et la cohérence que les clients professionnels attendent sur un projet à plusieurs fichiers.

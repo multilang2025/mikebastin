@@ -19,11 +19,11 @@ Votre site existe en plusieurs langues et vos marchés étrangers vous envoient 
 
 Un expert SEO international est la personne qui prend ces décisions avec vous, à partir des données de chaque marché. Nous les prenons pour nos clients depuis plus de deux décennies, en Europe, aux États-Unis et dans les Caraïbes.
 
-Voici les arbitrages qui reviennent sur chaque mission, ce que nous regardons pour trancher chacun, et la manière dont ils se traduisent sur un site réel.
+Voici les arbitrages qui reviennent sur chaque mission, ce que nous regardons pour trancher chacun, et la manière dont ils se traduisent dans un site réel.
 
 ## Les cinq décisions qui reviennent sur chaque marché
 
-Chacune de ces décisions engage du budget pour plusieurs trimestres. Les poser dans l’ordre, avec les bons critères, est ce qui distingue un site multilingue d’un site qui vend dans chaque langue.
+Chacune de ces décisions engage du budget pour plusieurs trimestres. Les prendre dans l’ordre, avec les bons critères, est ce qui distingue un site multilingue d’un site qui vend dans chaque langue.
 
 | Décision | La question tranchée | Ce que l’expert regarde |
 |---|---|---|
@@ -39,7 +39,7 @@ Ce travail dépasse le cadre du SEO technique : il demande de comprendre la cul
 
 Le premier marché ouvert finance souvent les suivants. Le choisir sur des données mesurées concentre votre budget là où il rapporte le plus vite.
 
-Nous notons chaque marché candidat sur la demande de recherche, la concurrence, l’adéquation avec ce que vous vendez, le coût de la localisation et les contraintes réglementaires du pays. Le classement place parfois en tête un autre pays que celui qu’on attendait. Trois ou quatre marchés menés en profondeur donnent plus de résultats que neuf lancés ensemble. Une [analyse concurrentielle SEO](/fr/analyse-concurrentielle-seo/) repère, pour chaque marché, les sites qui captent déjà vos acheteurs.
+Nous notons chaque marché candidat sur la demande de recherche, la concurrence, l’adéquation avec ce que vous vendez, le coût de la localisation et les contraintes réglementaires du pays. Le classement place parfois en tête un autre pays que celui escompté. Trois ou quatre marchés menés en profondeur donnent plus de résultats que neuf lancés ensemble. Une [analyse concurrentielle SEO](/fr/analyse-concurrentielle-seo/) repère, pour chaque marché, les sites qui captent déjà vos acheteurs.
 
 Sur un marché nouveau, une campagne payante sert de banc d’essai. Le [référencement naturel](https://mikebastin.com/fr/services/seo/) et le [marketing payant sur les moteurs de recherche](https://mikebastin.com/fr/services/sem-multilingue/) se complètent : quelques semaines de Google Ads montrent quels mots-clés convertissent, et la stratégie organique s’appuie ensuite sur ces chiffres. Pour la France, notre guide de la [campagne Google Ads en France](/fr/campagne-google-ads-france/) montre comment construire ce banc d’essai. Pour un marché anglophone, notre [SEO en anglais](https://mikebastin.com/fr/services/seo-anglais/) prend le relais, et la [création de contenu multilingue](/fr/services/creation-de-contenu-multilingue/) alimente les réseaux sociaux de chaque pays pendant la montée en puissance.
 
@@ -88,7 +88,7 @@ Un mot-clé qui génère 1 000 recherches mensuelles en France peut être quasi 
 <figcaption>Une même langue, trois façons de chercher le même produit. Chaque pays reçoit donc sa propre recherche de mots-clés.</figcaption>
 </figure>
 
-Nous cartographions les opportunités marché par marché avec Ahrefs et Screaming Frog, puis suivons les positions avec SEO PowerSuite. Les LLM comme Claude et ChatGPT accélèrent l’analyse des données et la préparation de briefs de contenu adaptés à chaque audience ; le choix final des termes reste une décision humaine, prise avec vous. L’[audit SEO technique](/fr/services/seo-technique/) vient compléter cette recherche, page par page.
+Nous cartographions les opportunités marché par marché avec Ahrefs et Screaming Frog, puis suivons les positions avec SEO PowerSuite. Les LLM comme Claude et ChatGPT accélèrent l’analyse des données et la préparation de briefs de contenu adaptés à chaque public ; le choix final des termes reste une décision humaine, prise avec vous. L’[audit SEO technique](/fr/services/seo-technique/) vient compléter cette recherche, page par page.
 
 ## La structure du site, décidée une fois
 
@@ -102,7 +102,7 @@ Les balises hreflang complètent ce choix. Elles indiquent à Google quelle vers
 
 ### Une refonte qui garde ses positions
 
-Prenons un client de l’immobilier aux Caraïbes, dont le site existait en quatre langues : anglais, français, espagnol et allemand. Lors d’une refonte, le site avait été reconstruit à partir d’une page blanche : nouveau contenu, nouvelles URL, et le travail de référencement accumulé était reparti de zéro, avec les positions qu’il portait.
+Prenons un client de l’immobilier aux Caraïbes, dont le site existait en quatre langues : anglais, français, espagnol et allemand. Lors d’une refonte, le site avait été reconstruit à partir d’une page blanche : nouveau contenu, nouvelles URL, et le travail de référencement accumulé était reparti de zéro, emportant les positions qu’il portait.
 
 Nous avons recréé la stratégie, refait le maillage interne et restructuré les URL, langue par langue. La leçon vaut pour toute refonte : chaque ancienne URL redirige vers sa nouvelle équivalente, et le contenu qui se positionnait est repris, pour que le nouveau site parte des acquis de l’ancien.
 
@@ -128,7 +128,7 @@ Le choix entre ces options vous est présenté avec ses arguments ; notre artic
 
 ## La crédibilité locale : des liens gagnés dans chaque pays
 
-Pour se positionner sur Google.de ou Google.es, un site a besoin de la confiance du web allemand ou espagnol. Les moteurs de recherche valorisent les liens venus de sites dans la langue et la région que vous ciblez.
+Pour se positionner sur Google.de ou Google.es, un site a besoin de la confiance des sites allemands ou espagnols. Les moteurs de recherche valorisent les liens venus de sites dans la langue et la région que vous ciblez.
 
 Une stratégie de netlinking internationale repose sur trois piliers :
 
@@ -184,12 +184,12 @@ Avant de lancer une campagne, nous :
 
 ## Le budget d’un accompagnement
 
-Le budget dépend du nombre de marchés, du volume de pages à produire et de la part de rédaction et de traduction. Nous le chiffrons sur devis, à partir d’un premier échange, et la rédaction comme la traduction sont chiffrées comme un travail. Le détail de notre facturation figure sur la page [nos tarifs](/fr/tarifs/).
+Le budget dépend du nombre de marchés, du volume de pages à produire et de la part de rédaction et de traduction. Nous établissons un devis à partir d’un premier échange, et la rédaction comme la traduction sont facturées en tant que prestation. Le détail de notre facturation figure sur la page [nos tarifs](/fr/tarifs/).
 
-L’investissement se mesure en demandes : une première page obtenue sur un marché étranger apporte un flux durable de prospects, qui s’ajoute à ce que la publicité apporte.
+L’investissement se mesure en demandes : une première page obtenue sur un marché étranger apporte un flux durable de prospects, qui s’ajoute à celui de la publicité.
 
 ## Où commencer
 
-Plus de deux décennies de SEO sur plusieurs marchés nous ont appris une chose : le SEO international se prépare marché par marché. Un site [bien conçu](/fr/) gagne sa visibilité par le référencement, un contenu traduit prend toute sa valeur avec une [optimisation on-page](/fr/services/seo-technique/), et une refonte accompagnée préserve des années de travail.
+Plus de deux décennies de SEO sur plusieurs marchés nous ont appris une chose : le SEO international se prépare marché par marché. Un site [bien conçu](/fr/) gagne en visibilité par le référencement, un contenu traduit prend toute sa valeur avec une [optimisation on-page](/fr/services/seo-technique/), et une refonte accompagnée préserve des années de travail.
 
 Pour évaluer votre positionnement international ou ouvrir un nouveau marché, écrivez-nous via le [formulaire de contact](/fr/nous-contacter/) ou retrouvez nos coordonnées sur [notre site](https://mikebastin.com/fr/). Pour voir comment une équipe complète prend en charge ces décisions, de l’audit au rapport mensuel, lisez notre article sur l’[agence SEO internationale](https://mikebastin.com/fr/agence-seo-internationale/).

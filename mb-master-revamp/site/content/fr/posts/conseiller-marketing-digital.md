@@ -210,7 +210,7 @@ Pour approfondir ce basculement, voyez comment l’IA réécrit la stratégie SE
 
 Vous êtes probablement dans l’une de deux situations : une équipe qui a besoin d’une stratégie, ou une stratégie qui a besoin d’une équipe.
 
-En Belgique, en France, en Espagne, aux Pays-Bas, au Royaume-Uni et aux États-Unis, auprès de cabinets d’avocats, de transitaires, d’agences immobilières et de sociétés de traduction, les entreprises qui grandissent séparent nettement la stratégie et l’exécution et confient chaque casquette à une personne différente. Pour un exemple sectoriel, voyez notre approche du [SEO pour cabinets d’avocats multilingues](/fr/seo-cabinets-avocats/).
+En Belgique, en France, en Espagne, aux Pays-Bas, au Royaume-Uni et aux États-Unis, auprès de cabinets d’avocats, de transitaires, d’agences immobilières et de sociétés de traduction, les entreprises en croissance séparent nettement la stratégie et l’exécution et confient chaque casquette à une personne différente. Pour un exemple sectoriel, voyez notre approche du [SEO pour cabinets d’avocats multilingues](/fr/seo-cabinets-avocats/).
 
 Pour un second avis sur votre organisation actuelle, nous la passons en revue lors d’un audit gratuit de 20 minutes.
 
@@ -218,7 +218,7 @@ Pour un second avis sur votre organisation actuelle, nous la passons en revue lo
 
 ### Un conseiller en marketing digital coûte-t-il plus cher qu’une agence ?
 
-En général, il coûte moins cher. Un conseiller a des frais de structure plus légers et facture son temps et son expertise senior ; une agence facture une équipe plus le travail de production. Faire appel à un conseiller demande tout de même un budget pour la personne qui exécute la stratégie, salarié ou freelance.
+En général, il coûte moins cher. Un conseiller a des frais de structure plus légers et facture son temps et son expertise de niveau senior ; une agence facture les services d'une équipe complète, plus le travail de production. Faire appel à un conseiller demande tout de même un budget pour la personne qui exécute la stratégie, salarié ou freelance.
 
 ### Un conseiller peut-il nous aider à évaluer ou à remplacer une agence qui déçoit ?
 
@@ -226,7 +226,7 @@ Oui, et l’audit compte parmi les missions de conseil les plus utiles. Un bon c
 
 ### Combien de temps dure une mission de conseil type ?
 
-Les missions au projet durent en général de trois à six mois, pour résoudre un problème précis ou fixer une stratégie. Beaucoup d’entreprises gardent leur conseiller à temps partagé pendant des années, à raison de quelques jours par mois pour garder la stratégie alignée sur l’entreprise.
+Les missions ponctuelles durent en général de trois à six mois, pour résoudre un problème précis ou définir une stratégie. Beaucoup d’entreprises gardent leur conseiller à temps partagé pendant des années, à raison de quelques jours par mois pour garder la stratégie en phase avec l’entreprise.
 
 ### À quels signes reconnaître une agence qui sous-performe ?
 

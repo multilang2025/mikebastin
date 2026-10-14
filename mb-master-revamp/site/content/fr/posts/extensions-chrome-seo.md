@@ -40,7 +40,7 @@ La plupart des défauts qui pèsent sur le trafic d’une page se voient sur la 
 
 ### SEO Minion
 
-[SEO Minion](https://chromewebstore.google.com/detail/seo-minion/giihipjfimkajhlcilipnjeohabimjhi?hl=en) couvre gratuitement l’essentiel de l’analyse on-page. Elle affiche les balises meta, les titres et les autres éléments de la page, les liens cassés et les liens nofollow, sponsored et UGC, prévisualise le résultat de recherche et contrôle hreflang, la vérification dont un site multilingue a le plus souvent besoin. Pour corriger ce que ce contrôle révèle, notre article sur le [SEO technique d’un site multilingue](/fr/seo-technique-site-multilingue/) détaille les réglages qui font travailler vos langues ensemble.
+[SEO Minion](https://chromewebstore.google.com/detail/seo-minion/giihipjfimkajhlcilipnjeohabimjhi?hl=en) couvre gratuitement l’essentiel de l’analyse on-page. Elle affiche les balises meta, les titres et les autres éléments de la page, les liens cassés et les liens nofollow, sponsored et UGC, prévisualise le résultat de recherche et contrôle hreflang, la vérification dont un site multilingue a le plus souvent besoin. Pour corriger ce que ce contrôle révèle, notre article sur le [SEO technique d’un site multilingue](/fr/seo-technique-site-multilingue/) détaille les réglages qui font fonctionner vos langues ensemble.
 
 > 67 % des 374 756 domaines utilisant hreflang étudiés par Ahrefs en 2023 présentaient au moins une erreur hreflang.
 >
@@ -115,7 +115,7 @@ Chaque étape de trop compte, car Google ne suit pas une chaîne indéfiniment.
 
 ## Évaluer un marché par ses mots-clés et ses concurrents
 
-Les requêtes sur lesquelles un concurrent se positionne, et ce qu’elles lui rapportent, vous disent si un marché vaut le budget avant de l’engager.
+Les requêtes sur lesquelles un concurrent se positionne, et ce qu’elles lui rapportent, vous disent si un marché mérite le budget avant de l’engager.
 
 ### Keywords Everywhere
 
@@ -131,7 +131,7 @@ Outil d’étude de marché plus large, Similarweb vous montre comment un concur
 
 ### Wappalyzer
 
-[Wappalyzer](https://chromewebstore.google.com/detail/wappalyzer-technology-pro/gppongmhjkpfnbhagpmjfkannfbllamg) identifie la technologie derrière un site : CMS, plateforme e-commerce, outils d’analyse, frameworks JavaScript et logiciels serveur. Elle sert autant aux audits qu’à l’analyse concurrentielle. Pour transformer ces observations en plan, notre guide d’[analyse concurrentielle SEO par marché](/fr/analyse-concurrentielle-seo/) montre comment repérer les sites qui captent vos acheteurs et les pages à étudier en priorité.
+[Wappalyzer](https://chromewebstore.google.com/detail/wappalyzer-technology-pro/gppongmhjkpfnbhagpmjfkannfbllamg) identifie la technologie derrière un site : CMS, plateforme e-commerce, outils d’analyse, frameworks JavaScript et logiciels serveur. Elle sert autant aux audits qu’à l’analyse concurrentielle. Pour transformer ces observations en plan d’action, notre guide d’[analyse concurrentielle SEO par marché](/fr/analyse-concurrentielle-seo/) montre comment repérer les sites qui captent vos acheteurs et les pages à étudier en priorité.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 170" role="img" aria-label="Le site d’un concurrent vu sous quatre angles : les mots-clés avec Keywords Everywhere, l’autorité avec MozBar, le trafic avec Similarweb et la technologie avec Wappalyzer.">
@@ -155,11 +155,11 @@ Outil d’étude de marché plus large, Similarweb vous montre comment un concur
 
 ## Vérifier que vos balises de conversion se déclenchent
 
-Vérifiez que chaque balise se déclenche : chaque marché montre alors sa vraie force, et la prochaine décision budgétaire suit le bon chiffre.
+Vérifiez que chaque balise se déclenche : chaque marché montre alors sa vraie force, et la prochaine décision budgétaire s’appuie sur le bon chiffre.
 
 ### Tag Assistant
 
-[Tag Assistant](https://chromewebstore.google.com/detail/tag-assistant/kejbdjndbnbjgmefkgdddjlbokphdefk?hl=en), l’extension de Google, vérifie que les balises Google Analytics, Google Tag Manager et de conversion Google Ads se déclenchent correctement, avec tagassistant.google.com pour le débogage dans la page. Elle remplace les anciennes extensions Legacy et Companion : installez donc celle-ci. Le contrôle des balises révèle souvent des résultats SEO plus solides que ce qu’affichent les rapports. Notre article sur [Google Analytics à l’international](/fr/google-analytics-international/) précise ensuite quels chiffres croire marché par marché.
+[Tag Assistant](https://chromewebstore.google.com/detail/tag-assistant/kejbdjndbnbjgmefkgdddjlbokphdefk?hl=en), l’extension de Google, vérifie que les balises Google Analytics, Google Tag Manager et de conversion Google Ads se déclenchent correctement, avec tagassistant.google.com pour le débogage dans la page. Elle remplace les anciennes extensions Legacy et Companion : installez donc celle-ci. Le contrôle des balises révèle souvent un SEO plus solide que ce qu’affichent les rapports. Notre article sur [Google Analytics à l’international](/fr/google-analytics-international/) précise ensuite quels chiffres croire marché par marché.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 124" role="img" aria-label="Trois étapes : les balises se déclenchent, chaque marché montre sa vraie force, et la décision budgétaire suit le bon chiffre.">
