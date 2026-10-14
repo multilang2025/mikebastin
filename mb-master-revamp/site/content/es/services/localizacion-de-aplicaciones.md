@@ -34,7 +34,7 @@ Cada punto resuelto protege tus descargas y tus reseñas en un mercado en el que
 - Internacionalización de la arquitectura, para que añadir un idioma sea un trabajo de traducción.
 - Tus archivos de cadenas en su formato original, por ejemplo JSON o .properties, listos para integrar.
 
-La traducción de aplicaciones y software la hacen especialistas concretos, en su mayoría de la red BeTranslated, la agencia que dirigimos en Valencia desde hace más de dos décadas. Para documentos con valor legal tienes nuestra página de [traducción profesional](/es/services/traduccion-profesional/).
+La traducción de aplicaciones y software la hacen especialistas concretos, en su mayoría de la red BeTranslated, la agencia que dirigimos en Valencia desde hace veinte años. Para documentos con valor legal tienes nuestra página de [traducción profesional](/es/services/traduccion-profesional/).
 
 ## Internacionalización del producto, para que cada idioma sea trabajo de contenido
 

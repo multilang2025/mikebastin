@@ -78,7 +78,7 @@ const QUESTIONS = [
   },
   {
     q: "¿Quién hace el trabajo?",
-    a: "Definimos y dirigimos la estrategia nosotros mismos. La redacción y la traducción en cada idioma pasan por especialistas que te presentamos, casi todos de la red BeTranslated, con la que trabajamos desde hace más de dos décadas.",
+    a: "Definimos y dirigimos la estrategia nosotros mismos. La redacción y la traducción en cada idioma pasan por especialistas que te presentamos, casi todos de la red BeTranslated, con la que trabajamos desde hace veinte años.",
   },
   {
     q: "¿Cómo se factura?",

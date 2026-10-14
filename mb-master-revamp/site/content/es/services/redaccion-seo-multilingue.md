@@ -26,7 +26,7 @@ Escribir para cada lector te trae el tráfico y las consultas de cada público, 
 
 ## Qué incluye nuestra redacción SEO en Valencia y en cada mercado
 
-- Contenidos investigados y redactados en el idioma de destino, a partir de las palabras clave que se usan allí, por redactores nativos, en su mayoría de la red BeTranslated, la agencia que dirigimos en Valencia desde hace más de dos décadas.
+- Contenidos investigados y redactados en el idioma de destino, a partir de las palabras clave que se usan allí, por redactores nativos, en su mayoría de la red BeTranslated, la agencia que dirigimos en Valencia desde hace veinte años.
 - Una estructura multilingüe ordenada: etiquetas hreflang y canónicas resueltas en todo el sitio.
 - Datos estructurados (Article, FAQPage, LocalBusiness según el caso) en cada idioma, para respaldar los resultados enriquecidos.
 - Una revisión cultural del mensaje y del tono antes de publicar.

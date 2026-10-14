@@ -34,7 +34,7 @@ Después llegan los elementos que hacen que un comprador francés confíe en un 
 
 ## Sitios en francés que llevamos
 
-BeTranslated, la agencia de traducción que dirigimos desde hace más de dos décadas y que Mike cofundó, tiene su sitio francés en su propio dominio .fr, con una investigación de palabras clave hecha específicamente para Francia.
+BeTranslated, la agencia de traducción que dirigimos desde hace veinte años y que Mike cofundó, tiene su sitio francés en su propio dominio .fr, con una investigación de palabras clave hecha específicamente para Francia.
 
 Delaguía y Luzón es un despacho de abogados de Valencia que trabaja entre España y Francia. Sus páginas en francés se mantienen al nivel que exigiría un abogado francés al leerlas, porque en contenido jurídico la precisión de cada término importa primero por la responsabilidad y después por el posicionamiento.
 

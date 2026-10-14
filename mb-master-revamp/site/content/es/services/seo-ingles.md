@@ -45,7 +45,7 @@ Delaguía y Luzón, un despacho de abogados de Valencia, publica en cuatro idiom
 
 ValenciaMove, nuestro propio sitio sobre cómo instalarse en Valencia, reúne más de mil páginas en cinco idiomas, el inglés entre ellos, para quien prepara su llegada a la ciudad.
 
-BeTranslated, la agencia de traducción que dirigimos desde hace más de dos décadas y que Mike cofundó, tiene seis identidades regionales, entre ellas una en .co.uk, cada una con contenido nativo y su propia investigación para su mercado.
+BeTranslated, la agencia de traducción que dirigimos desde hace veinte años y que Mike cofundó, tiene seis identidades regionales, entre ellas una en .co.uk, cada una con contenido nativo y su propia investigación para su mercado.
 
 ## Los ajustes técnicos que dejamos listos bajo tus páginas en inglés
 

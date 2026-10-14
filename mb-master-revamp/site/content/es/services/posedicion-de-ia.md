@@ -30,7 +30,7 @@ Un hablante nativo revisa el texto automático, y concentramos el esfuerzo donde
 
 Hacemos posedición de traducción automática, o MTPE, y repartimos el esfuerzo según el riesgo de cada texto: revisión a fondo en lo que compromete a tu empresa, más ligera en el resto.
 
-Trabajamos sobre todo para SaaS, comercio electrónico y viajes, sectores que se apoyan en la IA para producir deprisa. A ese volumen, la posedición ocupa el lugar de la redacción nativa completa, con un nivel de exigencia comercial. Las revisiones las hacen especialistas con nombre y apellidos, en su mayoría de la red BeTranslated, la agencia de traducción que dirigimos en Valencia desde hace más de dos décadas.
+Trabajamos sobre todo para SaaS, comercio electrónico y viajes, sectores que se apoyan en la IA para producir deprisa. A ese volumen, la posedición ocupa el lugar de la redacción nativa completa, con un nivel de exigencia comercial. Las revisiones las hacen especialistas con nombre y apellidos, en su mayoría de la red BeTranslated, la agencia de traducción que dirigimos en Valencia desde hace veinte años.
 
 ## Qué corrige una pasada de posedición
 

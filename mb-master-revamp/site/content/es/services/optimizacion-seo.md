@@ -44,7 +44,7 @@ Delaguía y Luzón, un despacho de abogados de Valencia, cubre derecho civil, la
 
 > Fuente: Google Search Console de delaguialuzon.com, de mayo a julio de 2026.
 
-BeTranslated, la agencia de traducción con sede en Valencia que dirigimos desde hace más de dos décadas, lleva un sitio por mercado, del .be al .co.uk pasando por el .fr, el .es y el .nl. Cada uno tiene su propia investigación de palabras clave, construida a partir de las búsquedas de su mercado, y compite con sus rivales locales. Aplicamos a nuestros clientes el método aprendido en esos dominios.
+BeTranslated, la agencia de traducción con sede en Valencia que dirigimos desde hace veinte años, lleva un sitio por mercado, del .be al .co.uk pasando por el .fr, el .es y el .nl. Cada uno tiene su propia investigación de palabras clave, construida a partir de las búsquedas de su mercado, y compite con sus rivales locales. Aplicamos a nuestros clientes el método aprendido en esos dominios.
 
 ## Cómo hacemos que cada comprador llegue a la página correcta
 

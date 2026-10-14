@@ -20,7 +20,7 @@ Tu empresa en Valencia tiene que presentar un contrato ante un juzgado, unas cue
 
 Con el formato adecuado, el expediente se acepta a la primera y el plazo se mantiene. Una cláusula bien traducida en un pacto de socios y una cifra correcta en unas cuentas auditadas son también una cuestión de responsabilidad, además de un trabajo de revisión.
 
-Encargamos cada documento a un traductor especializado de la red BeTranslated, la agencia de traducción que dirigimos en Valencia desde hace más de dos décadas, y lo pasamos por una revisión antes de entregarlo.
+Encargamos cada documento a un traductor especializado de la red BeTranslated, la agencia de traducción que dirigimos en Valencia desde hace veinte años, y lo pasamos por una revisión antes de entregarlo.
 
 <aside class="post-cta">
 <p><strong>¿Tienes que presentar un documento traducido en un juzgado, en extranjería o en una embajada?</strong> Identificamos el tipo de traducción que exige el destinatario y la encargamos al especialista de tu sector. <a href="/es/contactanos/">Reserva una consulta gratuita</a>.</p>
